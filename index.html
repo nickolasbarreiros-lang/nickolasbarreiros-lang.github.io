@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
 
@@ -21,111 +22,353 @@
 <body>
 
     <header class="cabecalho">
-        <h1>Meu Catálogo de Orquídeas</h1>
 
-        <p>
-            Coleção particular cultivada em Serra/ES
-        </p>
+        <div class="conteudo-cabecalho">
+
+            <span class="icone-cabecalho">
+                🌸
+            </span>
+
+            <div>
+                <h1>Meu Catálogo de Orquídeas</h1>
+
+                <p>
+                    Coleção particular cultivada em Serra/ES
+                </p>
+            </div>
+
+        </div>
+
     </header>
 
     <main class="container">
 
-        <section class="painel-filtros painel-filtros-avancados">
+        <!-- =================================================
+             ESTATÍSTICAS DO CATÁLOGO
+        ================================================== -->
 
-            <input
-                id="busca"
-                class="campo campo-busca"
-                type="search"
-                placeholder="Pesquisar por nome, origem, habitat ou característica..."
-            >
+        <section class="painel-estatisticas">
 
-            <select id="filtro-genero" class="campo">
-                <option value="">Todos os gêneros</option>
-            </select>
+            <article class="cartao-estatistica">
+                <span class="icone-estatistica">
+                    🌸
+                </span>
 
-            <select id="filtro-tipo" class="campo">
-                <option value="">Espécies e híbridos</option>
+                <div>
+                    <strong id="total-orquideas">
+                        0
+                    </strong>
 
-                <option value="Espécie botânica">
-                    Espécies botânicas
-                </option>
+                    <span>
+                        Orquídeas cadastradas
+                    </span>
+                </div>
+            </article>
 
-                <option value="Híbrido">
-                    Híbridos
-                </option>
-            </select>
+            <article class="cartao-estatistica">
+                <span class="icone-estatistica">
+                    🧬
+                </span>
 
-            <select id="filtro-clima" class="campo">
-                <option value="">Todos os climas</option>
-            </select>
+                <div>
+                    <strong id="total-generos">
+                        0
+                    </strong>
 
-            <select id="filtro-luz" class="campo">
-                <option value="">Todas as iluminações</option>
-            </select>
+                    <span>
+                        Gêneros diferentes
+                    </span>
+                </div>
+            </article>
 
-            <select id="filtro-dificuldade" class="campo">
-                <option value="">Todas as dificuldades</option>
+            <article class="cartao-estatistica">
+                <span class="icone-estatistica">
+                    🌎
+                </span>
 
-                <option value="Fácil">
-                    Fácil
-                </option>
+                <div>
+                    <strong id="total-origens">
+                        0
+                    </strong>
 
-                <option value="Moderada">
-                    Moderada
-                </option>
+                    <span>
+                        Origens registradas
+                    </span>
+                </div>
+            </article>
 
-                <option value="Difícil">
-                    Difícil
-                </option>
-            </select>
+            <article class="cartao-estatistica">
+                <span class="icone-estatistica">
+                    ⭐
+                </span>
 
-            <select id="filtro-floracao" class="campo">
-                <option value="">Floração em qualquer época</option>
+                <div>
+                    <strong id="total-raras">
+                        0
+                    </strong>
 
-                <option value="1">Janeiro</option>
-                <option value="2">Fevereiro</option>
-                <option value="3">Março</option>
-                <option value="4">Abril</option>
-                <option value="5">Maio</option>
-                <option value="6">Junho</option>
-                <option value="7">Julho</option>
-                <option value="8">Agosto</option>
-                <option value="9">Setembro</option>
-                <option value="10">Outubro</option>
-                <option value="11">Novembro</option>
-                <option value="12">Dezembro</option>
-            </select>
-
-            <button
-                id="limpar-filtros"
-                class="botao-limpar-filtros"
-                type="button"
-            >
-                Limpar filtros
-            </button>
+                    <span>
+                        Espécies raras
+                    </span>
+                </div>
+            </article>
 
         </section>
 
-        <div class="linha-resultados">
-            <p id="contador" class="contador"></p>
+        <!-- =================================================
+             PAINEL DE PESQUISA
+        ================================================== -->
 
-            <p id="filtros-ativos" class="filtros-ativos"></p>
-        </div>
+        <section class="painel-pesquisa">
 
-        <section id="catalogo" class="catalogo"></section>
+            <div class="cabecalho-painel-pesquisa">
 
-        <div id="sem-resultados" class="sem-resultados">
-            Nenhuma orquídea encontrada com os filtros selecionados.
-        </div>
+                <div>
+                    <h2>
+                        🔎 Pesquisa avançada
+                    </h2>
+
+                    <p>
+                        Encontre as plantas por nome, gênero,
+                        clima, iluminação ou época de floração.
+                    </p>
+                </div>
+
+                <button
+                    id="limpar-filtros"
+                    class="botao-limpar-filtros"
+                    type="button"
+                >
+                    Limpar filtros
+                </button>
+
+            </div>
+
+            <div class="painel-filtros painel-filtros-avancados">
+
+                <div class="grupo-campo grupo-busca">
+
+                    <label for="busca">
+                        Pesquisar
+                    </label>
+
+                    <input
+                        id="busca"
+                        class="campo campo-busca"
+                        type="search"
+                        placeholder="Nome, origem, habitat ou característica..."
+                        autocomplete="off"
+                    >
+
+                </div>
+
+                <div class="grupo-campo">
+
+                    <label for="filtro-genero">
+                        Gênero
+                    </label>
+
+                    <select
+                        id="filtro-genero"
+                        class="campo"
+                    >
+                        <option value="">
+                            Todos os gêneros
+                        </option>
+                    </select>
+
+                </div>
+
+                <div class="grupo-campo">
+
+                    <label for="filtro-tipo">
+                        Classificação
+                    </label>
+
+                    <select
+                        id="filtro-tipo"
+                        class="campo"
+                    >
+                        <option value="">
+                            Espécies e híbridos
+                        </option>
+
+                        <option value="Espécie botânica">
+                            Espécies botânicas
+                        </option>
+
+                        <option value="Híbrido">
+                            Híbridos
+                        </option>
+                    </select>
+
+                </div>
+
+                <div class="grupo-campo">
+
+                    <label for="filtro-clima">
+                        Clima
+                    </label>
+
+                    <select
+                        id="filtro-clima"
+                        class="campo"
+                    >
+                        <option value="">
+                            Todos os climas
+                        </option>
+                    </select>
+
+                </div>
+
+                <div class="grupo-campo">
+
+                    <label for="filtro-luz">
+                        Iluminação
+                    </label>
+
+                    <select
+                        id="filtro-luz"
+                        class="campo"
+                    >
+                        <option value="">
+                            Todas as iluminações
+                        </option>
+                    </select>
+
+                </div>
+
+                <div class="grupo-campo">
+
+                    <label for="filtro-dificuldade">
+                        Dificuldade
+                    </label>
+
+                    <select
+                        id="filtro-dificuldade"
+                        class="campo"
+                    >
+                        <option value="">
+                            Todas as dificuldades
+                        </option>
+
+                        <option value="Fácil">
+                            Fácil
+                        </option>
+
+                        <option value="Moderada">
+                            Moderada
+                        </option>
+
+                        <option value="Difícil">
+                            Difícil
+                        </option>
+                    </select>
+
+                </div>
+
+                <div class="grupo-campo">
+
+                    <label for="filtro-floracao">
+                        Mês de floração
+                    </label>
+
+                    <select
+                        id="filtro-floracao"
+                        class="campo"
+                    >
+                        <option value="">
+                            Floração em qualquer época
+                        </option>
+
+                        <option value="1">Janeiro</option>
+                        <option value="2">Fevereiro</option>
+                        <option value="3">Março</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Maio</option>
+                        <option value="6">Junho</option>
+                        <option value="7">Julho</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Setembro</option>
+                        <option value="10">Outubro</option>
+                        <option value="11">Novembro</option>
+                        <option value="12">Dezembro</option>
+                    </select>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =================================================
+             RESULTADOS
+        ================================================== -->
+
+        <section class="area-resultados">
+
+            <div class="linha-resultados">
+
+                <div>
+                    <h2 class="titulo-resultados">
+                        Catálogo
+                    </h2>
+
+                    <p
+                        id="contador"
+                        class="contador"
+                    ></p>
+                </div>
+
+                <p
+                    id="filtros-ativos"
+                    class="filtros-ativos"
+                ></p>
+
+            </div>
+
+            <section
+                id="catalogo"
+                class="catalogo"
+            ></section>
+
+            <div
+                id="sem-resultados"
+                class="sem-resultados"
+            >
+                <span class="icone-sem-resultados">
+                    🔍
+                </span>
+
+                <h3>
+                    Nenhuma orquídea encontrada
+                </h3>
+
+                <p>
+                    Tente remover algum filtro ou utilizar
+                    outro termo de pesquisa.
+                </p>
+            </div>
+
+        </section>
 
     </main>
 
     <footer class="rodape">
-        Catálogo particular de orquídeas
+
+        <p>
+            Meu Catálogo de Orquídeas
+        </p>
+
+        <span>
+            Coleção particular cultivada em Serra/ES
+        </span>
+
     </footer>
 
     <script src="dados/orquideas.js"></script>
     <script src="catalogo.js"></script>
 
 </body>
+
 </html>
