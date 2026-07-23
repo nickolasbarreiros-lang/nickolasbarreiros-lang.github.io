@@ -2353,3 +2353,151 @@ body {
         min-height: 215px;
     }
 }
+
+/* =========================================================
+   V5 — PAINEL DE FLORAÇÃO MAIS COMPACTO
+========================================================= */
+
+.painel-floracoes-mensal {
+    margin-bottom: 22px;
+    padding: 18px;
+}
+
+.cabecalho-floracoes-mensal {
+    align-items: center;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+}
+
+.titulo-floracoes-mensal {
+    align-items: center;
+    gap: 11px;
+}
+
+.icone-floracoes-mensal {
+    width: 42px;
+    height: 42px;
+    border-radius: 11px;
+    font-size: 21px;
+}
+
+.titulo-floracoes-mensal h2 {
+    margin-bottom: 3px;
+    font-size: 22px;
+}
+
+.titulo-floracoes-mensal p {
+    font-size: 14px;
+}
+
+.seletor-mes-floracoes {
+    width: 205px;
+}
+
+.seletor-mes-floracoes label {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.campo-mes-floracoes {
+    min-height: 42px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.resumo-floracoes-mensal {
+    margin-bottom: 14px;
+    padding: 14px 16px;
+}
+
+.quantidade-floracoes-mes {
+    margin-bottom: 9px;
+}
+
+.quantidade-floracoes-mes strong {
+    font-size: 28px;
+}
+
+.quantidade-floracoes-mes span {
+    font-size: 14px;
+}
+
+.barra-progresso-floracoes {
+    height: 10px;
+}
+
+#percentual-floracoes-mes {
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.grade-resumo-floracoes {
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.cartao-resumo-floracao {
+    min-height: 72px;
+    padding: 12px;
+}
+
+.icone-resumo-floracao {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.cartao-resumo-floracao strong {
+    font-size: 22px;
+}
+
+.cartao-resumo-floracao span:last-child {
+    font-size: 12px;
+}
+
+.lista-floracoes-mensal {
+    padding: 14px 16px;
+}
+
+.cabecalho-lista-floracoes {
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cabecalho-lista-floracoes h3 {
+    margin-bottom: 2px;
+    font-size: 17px;
+}
+
+.cabecalho-lista-floracoes p {
+    font-size: 12px;
+}
+
+.botao-filtrar-floracoes {
+    min-height: 38px;
+    padding: 8px 13px;
+    font-size: 12px;
+}
+
+.lista-especies-floracoes {
+    gap: 7px;
+}
+
+.mensagem-carregamento-floracoes,
+.mensagem-sem-floracoes {
+    font-size: 13px;
+}
+
+@media (max-width: 700px) {
+    .painel-floracoes-mensal {
+        padding: 15px;
+    }
+
+    .cabecalho-floracoes-mensal {
+        align-items: stretch;
+    }
+
+    .seletor-mes-floracoes {
+        width: 100%;
+    }
