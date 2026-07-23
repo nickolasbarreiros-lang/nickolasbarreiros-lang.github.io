@@ -244,8 +244,19 @@ select {
 ========================================================= */
 
 .cabecalho-especie {
-    padding: 28px 30px 12px;
+    padding: 28px 30px 18px;
     background: white;
+}
+
+.linha-superior-especie {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.identificacao-especie {
+    min-width: 0;
 }
 
 .titulo-ficha {
@@ -274,10 +285,61 @@ select {
 }
 
 /* =========================================================
-   GALERIA DA FICHA
+   BOTÕES DE AÇÃO DA FICHA
+========================================================= */
 
-   Foto 1 grande à esquerda.
-   Fotos 2 e 3 menores à direita.
+.acoes-ficha {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    gap: 10px;
+}
+
+.botao-acao-ficha {
+    min-width: 205px;
+    padding: 11px 16px;
+    border: 0;
+    border-radius: 9px;
+    font-weight: bold;
+    cursor: pointer;
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.botao-acao-ficha:hover {
+    transform: translateY(-2px);
+}
+
+.botao-acao-ficha:disabled {
+    cursor: default;
+    opacity: 0.8;
+    transform: none;
+}
+
+.botao-imprimir {
+    background: #315f3e;
+    color: white;
+    box-shadow: 0 4px 12px rgba(49, 95, 62, 0.2);
+}
+
+.botao-imprimir:hover {
+    background: #244a30;
+}
+
+.botao-copiar {
+    border: 1px solid #b9c9bd;
+    background: white;
+    color: #315f3e;
+}
+
+.botao-copiar:hover {
+    background: #edf5ef;
+}
+
+/* =========================================================
+   GALERIA DA FICHA
 ========================================================= */
 
 .galeria-detalhada {
@@ -296,7 +358,7 @@ select {
     padding: 0;
     border: 0;
     overflow: hidden;
-    background: transparent;
+    background: #d8dfda;
     cursor: zoom-in;
 }
 
@@ -376,6 +438,7 @@ select {
     border: 1px solid #dce5de;
     border-radius: 12px;
     background: #f8faf8;
+    break-inside: avoid;
 }
 
 .bloco-informacao h3 {
@@ -410,6 +473,7 @@ select {
     border: 1px solid #dce5de;
     border-radius: 14px;
     background: #f8faf8;
+    break-inside: avoid;
 }
 
 .avaliacoes h3,
@@ -498,6 +562,7 @@ select {
     border-left: 5px solid #c99b27;
     border-radius: 10px;
     background: #fff8df;
+    break-inside: avoid;
 }
 
 .dica-ouro h3 {
@@ -508,6 +573,24 @@ select {
 .dica-ouro p {
     margin: 0;
     line-height: 1.65;
+}
+
+/* =========================================================
+   RODAPÉ INTERNO DA FICHA
+========================================================= */
+
+.rodape-ficha-impressao {
+    display: none;
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #cfd8d1;
+    color: #526157;
+    text-align: center;
+    font-size: 12px;
+}
+
+.rodape-ficha-impressao p {
+    margin: 4px 0;
 }
 
 /* =========================================================
@@ -598,7 +681,7 @@ select {
 }
 
 /* =========================================================
-   RODAPÉ
+   RODAPÉ PRINCIPAL
 ========================================================= */
 
 .rodape {
@@ -620,6 +703,21 @@ select {
 
     .catalogo {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .linha-superior-especie {
+        flex-direction: column;
+    }
+
+    .acoes-ficha {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .botao-acao-ficha {
+        min-width: 0;
+        flex: 1;
     }
 
     .galeria-detalhada {
@@ -703,11 +801,19 @@ select {
     }
 
     .cabecalho-especie {
-        padding: 22px 18px 12px;
+        padding: 22px 18px 16px;
     }
 
     .titulo-ficha {
         font-size: 30px;
+    }
+
+    .acoes-ficha {
+        flex-direction: column;
+    }
+
+    .botao-acao-ficha {
+        width: 100%;
     }
 
     .galeria-detalhada {
@@ -800,5 +906,182 @@ select {
     .fechar-visualizador {
         top: 15px;
         right: 15px;
+    }
+}
+
+/* =========================================================
+   IMPRESSÃO / SALVAR EM PDF
+========================================================= */
+
+@media print {
+    @page {
+        size: A4 portrait;
+        margin: 10mm;
+    }
+
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: white;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .cabecalho,
+    .rodape,
+    .voltar,
+    .acoes-ficha,
+    .visualizador-fotos {
+        display: none !important;
+    }
+
+    .container {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+    }
+
+    .ficha-detalhada {
+        overflow: visible;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .cabecalho-especie {
+        padding: 0 0 8mm;
+    }
+
+    .titulo-ficha {
+        font-size: 26pt;
+    }
+
+    .etiqueta,
+    .caracteristica {
+        border: 1px solid #aebcaf;
+        background: #eef4ef !important;
+        color: #234c32 !important;
+    }
+
+    .galeria-detalhada {
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 72mm 72mm;
+        height: 145mm;
+        gap: 1mm;
+        break-inside: avoid;
+    }
+
+    .foto-galeria {
+        cursor: default;
+    }
+
+    .foto-galeria img {
+        object-fit: cover;
+    }
+
+    .conteudo-ficha {
+        padding: 8mm 0 0;
+    }
+
+    .descricao-especie,
+    .bloco-informacao,
+    .avaliacoes,
+    .calendario-floracao,
+    .dica-ouro {
+        background: white !important;
+        box-shadow: none;
+    }
+
+    .descricao-especie {
+        padding: 5mm;
+        border-top: 1px solid #8fa797;
+        border-right: 1px solid #8fa797;
+        border-bottom: 1px solid #8fa797;
+    }
+
+    .descricao-especie h3 {
+        font-size: 15pt;
+    }
+
+    .descricao-especie p,
+    .bloco-informacao p,
+    .dica-ouro p {
+        font-size: 10pt;
+        line-height: 1.45;
+    }
+
+    .resumo-natural {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4mm;
+    }
+
+    .painel-avaliacoes {
+        grid-template-columns: 0.9fr 1.5fr;
+        gap: 4mm;
+    }
+
+    .grade-informacoes {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4mm;
+    }
+
+    .bloco-largo {
+        grid-column: 1 / -1;
+    }
+
+    .bloco-informacao,
+    .avaliacoes,
+    .calendario-floracao {
+        padding: 4mm;
+        border: 1px solid #b8c5ba;
+    }
+
+    .bloco-informacao h3,
+    .avaliacoes h3,
+    .calendario-floracao h3 {
+        font-size: 12pt;
+    }
+
+    .avaliacao-item {
+        padding: 2mm 0;
+        font-size: 9pt;
+    }
+
+    .estrelas {
+        font-size: 13pt;
+    }
+
+    .meses {
+        grid-template-columns: repeat(6, 1fr);
+        gap: 2mm;
+    }
+
+    .mes-floracao {
+        min-height: 16mm;
+        padding: 2mm;
+        border: 1px solid #b8c5ba;
+    }
+
+    .mes-floracao.mes-ativo {
+        background: #e5f2e7 !important;
+    }
+
+    .dica-ouro {
+        padding: 5mm;
+        border-top: 1px solid #cfb45e;
+        border-right: 1px solid #cfb45e;
+        border-bottom: 1px solid #cfb45e;
+    }
+
+    .rodape-ficha-impressao {
+        display: block;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
     }
 }
