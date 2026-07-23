@@ -214,7 +214,7 @@ function obterStatusFloracao(orquidea) {
             texto: "Período não informado",
             icone: "📅",
             classe: "status-sem-periodo",
-            prioridade: 4
+            prioridade: 5
         };
     }
 
@@ -242,12 +242,21 @@ function obterStatusFloracao(orquidea) {
     const menorDistancia =
         Math.min(...distanciasFuturas);
 
-    if (menorDistancia <= 2) {
+    if (menorDistancia === 1) {
         return {
-            texto: "Floração próxima",
+            texto: "Floração no próximo mês",
             icone: "🟡",
             classe: "status-proxima",
             prioridade: 2
+        };
+    }
+
+    if (menorDistancia === 2) {
+        return {
+            texto: "Floração se aproximando",
+            icone: "🌱",
+            classe: "status-aproximando",
+            prioridade: 3
         };
     }
 
@@ -255,7 +264,7 @@ function obterStatusFloracao(orquidea) {
         texto: "Fora da época",
         icone: "🌿",
         classe: "status-fora-epoca",
-        prioridade: 3
+        prioridade: 4
     };
 }
 
