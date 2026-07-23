@@ -44,7 +44,7 @@
     <main class="container">
 
         <!-- =================================================
-             ESTATÍSTICAS DO CATÁLOGO
+             ESTATÍSTICAS
         ================================================== -->
 
         <section class="painel-estatisticas">
@@ -307,9 +307,10 @@
 
         <section class="area-resultados">
 
-            <div class="linha-resultados">
+            <div class="barra-resultados">
 
-                <div>
+                <div class="resumo-resultados">
+
                     <h2 class="titulo-resultados">
                         Catálogo
                     </h2>
@@ -318,14 +319,85 @@
                         id="contador"
                         class="contador"
                     ></p>
+
                 </div>
 
-                <p
-                    id="filtros-ativos"
-                    class="filtros-ativos"
-                ></p>
+                <div class="controles-resultados">
+
+                    <div class="grupo-ordenacao">
+
+                        <label for="ordenacao">
+                            Ordenar por
+                        </label>
+
+                        <select
+                            id="ordenacao"
+                            class="campo campo-ordenacao"
+                        >
+                            <option value="nome-az">
+                                Nome: A–Z
+                            </option>
+
+                            <option value="nome-za">
+                                Nome: Z–A
+                            </option>
+
+                            <option value="raridade-maior">
+                                Mais raras primeiro
+                            </option>
+
+                            <option value="raridade-menor">
+                                Menos raras primeiro
+                            </option>
+
+                            <option value="cultivo-facil">
+                                Cultivo mais fácil
+                            </option>
+
+                            <option value="cultivo-dificil">
+                                Cultivo mais difícil
+                            </option>
+                        </select>
+
+                    </div>
+
+                    <div
+                        class="alternador-visualizacao"
+                        aria-label="Modo de visualização"
+                    >
+
+                        <button
+                            id="modo-galeria"
+                            class="botao-visualizacao ativo"
+                            type="button"
+                            aria-label="Exibir em galeria"
+                            title="Modo galeria"
+                        >
+                            ▦
+                            <span>Galeria</span>
+                        </button>
+
+                        <button
+                            id="modo-lista"
+                            class="botao-visualizacao"
+                            type="button"
+                            aria-label="Exibir em lista"
+                            title="Modo lista"
+                        >
+                            ☰
+                            <span>Lista</span>
+                        </button>
+
+                    </div>
+
+                </div>
 
             </div>
+
+            <p
+                id="filtros-ativos"
+                class="filtros-ativos"
+            ></p>
 
             <section
                 id="catalogo"
@@ -336,6 +408,7 @@
                 id="sem-resultados"
                 class="sem-resultados"
             >
+
                 <span class="icone-sem-resultados">
                     🔍
                 </span>
@@ -348,6 +421,7 @@
                     Tente remover algum filtro ou utilizar
                     outro termo de pesquisa.
                 </p>
+
             </div>
 
         </section>
