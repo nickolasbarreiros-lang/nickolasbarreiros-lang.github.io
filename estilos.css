@@ -41,13 +41,13 @@ button {
 ========================================================= */
 
 .cabecalho {
-    padding: 38px 20px;
+    padding: 28px 20px 34px;
     color: white;
     text-align: center;
     background: linear-gradient(
         135deg,
-        #244d32,
-        #39734b
+        #20482f,
+        #357149
     );
 }
 
@@ -62,17 +62,19 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
     width: 62px;
     height: 62px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.28);
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.12);
     font-size: 31px;
 }
 
 .cabecalho h1 {
-    margin: 0 0 8px;
+    margin: 0 0 7px;
     font-size: clamp(30px, 5vw, 48px);
+    line-height: 1.1;
 }
 
 .cabecalho p {
@@ -156,7 +158,7 @@ button {
 ========================================================= */
 
 .painel-pesquisa {
-    margin-bottom: 28px;
+    margin-bottom: 30px;
     padding: 25px;
     border: 1px solid #d5e0d7;
     border-radius: 17px;
@@ -219,7 +221,8 @@ button {
     outline: none;
     transition:
         border-color 0.2s ease,
-        box-shadow 0.2s ease;
+        box-shadow 0.2s ease,
+        background 0.2s ease;
 }
 
 .campo:focus {
@@ -242,10 +245,12 @@ button {
     font-weight: bold;
     transition:
         background 0.2s ease,
-        transform 0.2s ease;
+        transform 0.2s ease,
+        border-color 0.2s ease;
 }
 
 .botao-limpar-filtros:hover {
+    border-color: #8eaa94;
     background: #e7f1e9;
     transform: translateY(-1px);
 }
@@ -258,12 +263,25 @@ button {
     margin-top: 10px;
 }
 
-.linha-resultados {
+/* =========================================================
+   BARRA SUPERIOR DOS RESULTADOS
+========================================================= */
+
+.barra-resultados {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    gap: 20px;
-    margin-bottom: 17px;
+    gap: 24px;
+    margin-bottom: 14px;
+    padding: 20px 22px;
+    border: 1px solid #d7e2d9;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 5px 17px rgba(20, 40, 25, 0.07);
+}
+
+.resumo-resultados {
+    min-width: 180px;
 }
 
 .titulo-resultados {
@@ -278,42 +296,123 @@ button {
     font-size: 15px;
 }
 
+.controles-resultados {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 14px;
+}
+
+.grupo-ordenacao {
+    width: 245px;
+}
+
+.grupo-ordenacao label {
+    display: block;
+    margin-bottom: 6px;
+    color: #46584b;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.campo-ordenacao {
+    min-height: 44px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* =========================================================
+   ALTERNADOR GALERIA / LISTA
+========================================================= */
+
+.alternador-visualizacao {
+    display: flex;
+    overflow: hidden;
+    min-height: 44px;
+    border: 1px solid #b9c9bd;
+    border-radius: 9px;
+    background: #f7faf7;
+}
+
+.botao-visualizacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    min-width: 104px;
+    padding: 9px 13px;
+    border: 0;
+    border-right: 1px solid #cbd7ce;
+    background: transparent;
+    color: #48604e;
+    font-weight: bold;
+    transition:
+        background 0.2s ease,
+        color 0.2s ease;
+}
+
+.botao-visualizacao:last-child {
+    border-right: 0;
+}
+
+.botao-visualizacao:hover {
+    background: #edf4ee;
+}
+
+.botao-visualizacao.ativo {
+    background: #315f3e;
+    color: white;
+}
+
+.botao-visualizacao span {
+    font-size: 14px;
+}
+
+/* =========================================================
+   FILTROS ATIVOS
+========================================================= */
+
 .filtros-ativos {
-    max-width: 60%;
-    margin: 0;
+    min-height: 0;
+    margin: 0 0 17px;
     color: #39734b;
     font-size: 14px;
     font-weight: bold;
     line-height: 1.5;
-    text-align: right;
 }
 
 /* =========================================================
-   CATÁLOGO
+   CATÁLOGO — MODO GALERIA
 ========================================================= */
 
 .catalogo {
     display: grid;
     grid-template-columns: repeat(
         auto-fit,
-        minmax(310px, 1fr)
+        minmax(340px, 1fr)
     );
     gap: 24px;
 }
 
 .cartao {
+    display: flex;
     overflow: hidden;
+    flex-direction: column;
+    min-width: 0;
     background: white;
+    border: 1px solid #dce5de;
     border-radius: 16px;
-    box-shadow: 0 6px 20px rgba(20, 40, 25, 0.12);
+    box-shadow: 0 6px 20px rgba(20, 40, 25, 0.11);
     transition:
         transform 0.25s ease,
-        box-shadow 0.25s ease;
+        box-shadow 0.25s ease,
+        border-color 0.25s ease;
 }
 
 .cartao:hover {
+    border-color: #b9cdbd;
     transform: translateY(-5px);
-    box-shadow: 0 12px 28px rgba(20, 40, 25, 0.18);
+    box-shadow: 0 13px 30px rgba(20, 40, 25, 0.17);
 }
 
 /* =========================================================
@@ -323,8 +422,9 @@ button {
 .galeria {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 132px 132px;
+    grid-template-rows: 134px 134px;
     gap: 3px;
+    flex-shrink: 0;
     overflow: hidden;
     background: #d8dfda;
 }
@@ -333,17 +433,28 @@ button {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition:
+        transform 0.35s ease,
+        filter 0.35s ease;
 }
 
 .galeria img:first-child {
     grid-row: 1 / 3;
 }
 
+.cartao:hover .galeria img {
+    filter: brightness(1.025);
+}
+
+.cartao:hover .galeria img:first-child {
+    transform: scale(1.018);
+}
+
 .galeria-sem-foto {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 267px;
+    height: 271px;
 }
 
 .imagem-indisponivel {
@@ -363,6 +474,9 @@ button {
 ========================================================= */
 
 .conteudo-cartao {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     padding: 20px;
 }
 
@@ -370,7 +484,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 7px;
-    margin-bottom: 12px;
+    margin-bottom: 13px;
 }
 
 .etiqueta {
@@ -382,21 +496,48 @@ button {
     font-size: 13px;
 }
 
+.cabecalho-cartao {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 13px;
+}
+
 .nome-cientifico {
-    margin: 0 0 14px;
+    margin: 0;
     color: #245d39;
     font-size: 24px;
     font-style: italic;
+    line-height: 1.2;
+}
+
+.raridade-cartao {
+    flex-shrink: 0;
+    color: #c4931e;
+    font-size: 16px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+.resumo-cartao {
+    flex: 1;
 }
 
 .resumo {
-    margin: 8px 0;
-    line-height: 1.55;
+    margin: 7px 0;
+    color: #455248;
+    line-height: 1.5;
+}
+
+.resumo strong {
+    color: #263d2d;
 }
 
 .botao-detalhes {
+    align-self: flex-start;
     display: inline-block;
-    margin-top: 14px;
+    margin-top: 16px;
     padding: 11px 16px;
     border-radius: 8px;
     background: #315f3e;
@@ -405,12 +546,95 @@ button {
     font-weight: bold;
     transition:
         background 0.2s ease,
-        transform 0.2s ease;
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
 }
 
 .botao-detalhes:hover {
     background: #244a30;
     transform: translateY(-1px);
+    box-shadow: 0 5px 12px rgba(36, 74, 48, 0.2);
+}
+
+/* =========================================================
+   CATÁLOGO — MODO LISTA
+========================================================= */
+
+.catalogo.catalogo-lista {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.catalogo-lista .cartao {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    min-height: 235px;
+}
+
+.catalogo-lista .galeria {
+    grid-template-columns: 1fr;
+    grid-template-rows: 235px;
+    height: 100%;
+    min-height: 235px;
+}
+
+.catalogo-lista .galeria img {
+    display: none;
+}
+
+.catalogo-lista .galeria img:first-child {
+    display: block;
+    grid-row: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.catalogo-lista .galeria-sem-foto {
+    height: 100%;
+    min-height: 235px;
+}
+
+.catalogo-lista .conteudo-cartao {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-rows: auto auto 1fr auto;
+    gap: 0 25px;
+    padding: 22px 24px;
+}
+
+.catalogo-lista .etiquetas {
+    grid-column: 1 / 3;
+}
+
+.catalogo-lista .cabecalho-cartao {
+    grid-column: 1 / 3;
+    margin-bottom: 11px;
+}
+
+.catalogo-lista .nome-cientifico {
+    font-size: 27px;
+}
+
+.catalogo-lista .raridade-cartao {
+    font-size: 18px;
+}
+
+.catalogo-lista .resumo-cartao {
+    grid-column: 1;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+    align-content: start;
+    column-gap: 25px;
+}
+
+.catalogo-lista .botao-detalhes {
+    grid-column: 2;
+    grid-row: 3;
+    align-self: end;
+    white-space: nowrap;
 }
 
 /* =========================================================
@@ -882,6 +1106,28 @@ button {
         grid-column: span 2;
     }
 
+    .barra-resultados {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .controles-resultados {
+        justify-content: space-between;
+    }
+
+    .grupo-ordenacao {
+        flex: 1;
+        width: auto;
+    }
+
+    .catalogo-lista .cartao {
+        grid-template-columns: 245px 1fr;
+    }
+
+    .catalogo-lista .resumo-cartao {
+        grid-template-columns: 1fr;
+    }
+
     .linha-superior-especie {
         flex-direction: column;
     }
@@ -921,7 +1167,7 @@ button {
    CELULARES
 ========================================================= */
 
-@media (max-width: 620px) {
+@media (max-width: 650px) {
     .cabecalho {
         padding: 28px 15px;
     }
@@ -982,14 +1228,26 @@ button {
         grid-column: auto;
     }
 
-    .linha-resultados {
-        align-items: flex-start;
+    .barra-resultados {
+        padding: 18px;
+    }
+
+    .controles-resultados {
+        align-items: stretch;
         flex-direction: column;
     }
 
-    .filtros-ativos {
-        max-width: 100%;
-        text-align: left;
+    .grupo-ordenacao {
+        width: 100%;
+    }
+
+    .alternador-visualizacao {
+        width: 100%;
+    }
+
+    .botao-visualizacao {
+        flex: 1;
+        min-width: 0;
     }
 
     .catalogo {
@@ -998,6 +1256,37 @@ button {
 
     .galeria {
         grid-template-rows: 110px 110px;
+    }
+
+    .cabecalho-cartao {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .catalogo-lista .cartao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .catalogo-lista .galeria {
+        grid-template-columns: 1fr;
+        grid-template-rows: 230px;
+        height: 230px;
+        min-height: 230px;
+    }
+
+    .catalogo-lista .conteudo-cartao {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .catalogo-lista .resumo-cartao {
+        display: block;
+    }
+
+    .catalogo-lista .botao-detalhes {
+        align-self: flex-start;
     }
 
     .cabecalho-especie {
