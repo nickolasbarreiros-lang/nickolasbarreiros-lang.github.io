@@ -2501,3 +2501,90 @@ body {
     .seletor-mes-floracoes {
         width: 100%;
     }
+}
+
+/* =========================================================
+   V6 — PESQUISA AVANÇADA MAIS COMPACTA
+========================================================= */
+
+.painel-pesquisa {
+    margin-bottom: 22px;
+    padding: 18px;
+}
+
+.cabecalho-painel-pesquisa {
+    align-items: center;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+}
+
+.cabecalho-painel-pesquisa h2 {
+    margin-bottom: 3px;
+    font-size: 22px;
+}
+
+.cabecalho-painel-pesquisa p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.botao-limpar-filtros {
+    min-height: 40px;
+    padding: 9px 15px;
+    font-size: 13px;
+}
+
+.painel-filtros-avancados {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px 14px;
+}
+
+.grupo-busca {
+    grid-column: span 2;
+}
+
+.grupo-campo label {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.campo {
+    min-height: 42px;
+    padding: 9px 13px;
+    font-size: 14px;
+}
+
+@media (max-width: 950px) {
+    .painel-filtros-avancados {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .grupo-busca {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 650px) {
+    .painel-pesquisa {
+        padding: 15px;
+    }
+
+    .cabecalho-painel-pesquisa {
+        align-items: stretch;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .botao-limpar-filtros {
+        width: 100%;
+    }
+
+    .painel-filtros-avancados {
+        grid-template-columns: 1fr;
+        gap: 11px;
+    }
+
+    .grupo-busca {
+        grid-column: auto;
+    }
+}
