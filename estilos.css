@@ -13,8 +13,14 @@ body {
     color: #243127;
 }
 
+img {
+    max-width: 100%;
+}
+
+/* CABEÇALHO */
+
 .cabecalho {
-    padding: 45px 20px;
+    padding: 42px 20px;
     text-align: center;
     background: linear-gradient(135deg, #244d32, #39734b);
     color: white;
@@ -22,7 +28,7 @@ body {
 
 .cabecalho h1 {
     margin: 0 0 10px;
-    font-size: clamp(30px, 5vw, 48px);
+    font-size: clamp(32px, 5vw, 50px);
 }
 
 .cabecalho p {
@@ -30,16 +36,20 @@ body {
     font-size: 18px;
 }
 
+/* CONTEÚDO GERAL */
+
 .container {
-    width: min(1200px, 92%);
+    width: min(1200px, 94%);
     margin: 30px auto;
 }
+
+/* FILTROS */
 
 .painel-filtros {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     gap: 12px;
-    margin-bottom: 28px;
+    margin-bottom: 26px;
 }
 
 .campo {
@@ -48,6 +58,7 @@ body {
     border: 1px solid #b9c9bd;
     border-radius: 10px;
     background: white;
+    color: #243127;
     font-size: 16px;
     outline: none;
 }
@@ -58,14 +69,16 @@ body {
 }
 
 .contador {
-    margin-bottom: 18px;
+    margin: 0 0 18px;
     color: #526157;
     font-size: 15px;
 }
 
+/* CATÁLOGO */
+
 .catalogo {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
     gap: 24px;
 }
 
@@ -74,7 +87,9 @@ body {
     background: white;
     border-radius: 16px;
     box-shadow: 0 6px 20px rgba(20, 40, 25, 0.12);
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
 }
 
 .cartao:hover {
@@ -82,24 +97,28 @@ body {
     box-shadow: 0 12px 28px rgba(20, 40, 25, 0.18);
 }
 
+/* GALERIA DOS CARTÕES */
+
 .galeria {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 130px 130px;
+    grid-template-rows: 132px 132px;
     gap: 3px;
     background: #d8dfda;
 }
 
 .galeria img {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
 }
 
 .galeria img:first-child {
     grid-row: 1 / 3;
 }
+
+/* CONTEÚDO DOS CARTÕES */
 
 .conteudo-cartao {
     padding: 20px;
@@ -142,12 +161,17 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    transition: background 0.2s ease;
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
 }
 
 .botao-detalhes:hover {
     background: #244a30;
+    transform: translateY(-1px);
 }
+
+/* SEM RESULTADOS */
 
 .sem-resultados {
     display: none;
@@ -156,7 +180,10 @@ body {
     background: white;
     border-radius: 12px;
     color: #5a655d;
+    box-shadow: 0 5px 18px rgba(20, 40, 25, 0.08);
 }
+
+/* RODAPÉ */
 
 .rodape {
     margin-top: 45px;
@@ -166,8 +193,154 @@ body {
     color: white;
 }
 
-@media (max-width: 750px) {
+/* LINK VOLTAR */
+
+.voltar {
+    display: inline-block;
+    margin-bottom: 22px;
+    color: #315f3e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}
+
+/* FICHA DETALHADA */
+
+.ficha-detalhada {
+    overflow: hidden;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 8px 28px rgba(20, 40, 25, 0.14);
+}
+
+/* GALERIA DA FICHA */
+
+.galeria-detalhada {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    background: #d8dfda;
+}
+
+.galeria-detalhada img {
+    display: block;
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    cursor: zoom-in;
+    transition:
+        transform 0.25s ease,
+        filter 0.25s ease;
+}
+
+.galeria-detalhada img:hover {
+    transform: scale(1.01);
+    filter: brightness(1.03);
+}
+
+/* CONTEÚDO DA FICHA */
+
+.conteudo-ficha {
+    padding: 30px;
+}
+
+.titulo-ficha {
+    margin: 0 0 25px;
+    color: #245d39;
+    font-size: clamp(30px, 5vw, 46px);
+    font-style: italic;
+}
+
+.grade-informacoes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.bloco-informacao {
+    padding: 18px;
+    border: 1px solid #dce5de;
+    border-radius: 12px;
+    background: #f8faf8;
+}
+
+.bloco-informacao h3 {
+    margin: 0 0 9px;
+    color: #315f3e;
+    font-size: 18px;
+}
+
+.bloco-informacao p {
+    margin: 0;
+    line-height: 1.65;
+}
+
+/* DICA DE OURO */
+
+.dica-ouro {
+    margin-top: 22px;
+    padding: 22px;
+    border-left: 5px solid #c99b27;
+    border-radius: 10px;
+    background: #fff8df;
+}
+
+.dica-ouro h3 {
+    margin: 0 0 8px;
+    color: #775500;
+}
+
+.dica-ouro p {
+    margin: 0;
+    line-height: 1.65;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 900px) {
     .painel-filtros {
+        grid-template-columns: 1fr;
+    }
+
+    .catalogo {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .galeria-detalhada {
+        grid-template-columns: 1fr;
+    }
+
+    .galeria-detalhada img {
+        height: 320px;
+    }
+
+    .grade-informacoes {
+        grid-template-columns: 1fr;
+    }
+
+    .conteudo-ficha {
+        padding: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .cabecalho {
+        padding: 32px 16px;
+    }
+
+    .cabecalho p {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 94%;
+        margin: 22px auto;
+    }
+
+    .catalogo {
         grid-template-columns: 1fr;
     }
 
@@ -175,21 +348,31 @@ body {
         grid-template-rows: 110px 110px;
     }
 
-    .cabecalho {
-        padding: 35px 18px;
-    }
-}
-
-@media (max-width: 420px) {
-    .container {
-        width: 94%;
-    }
-
-    .catalogo {
-        grid-template-columns: 1fr;
+    .conteudo-cartao {
+        padding: 17px;
     }
 
     .nome-cientifico {
-        font-size: 21px;
+        font-size: 22px;
+    }
+
+    .conteudo-ficha {
+        padding: 18px;
+    }
+
+    .galeria-detalhada img {
+        height: 260px;
+    }
+
+    .titulo-ficha {
+        font-size: 30px;
+    }
+
+    .bloco-informacao {
+        padding: 15px;
+    }
+
+    .dica-ouro {
+        padding: 18px;
     }
 }
