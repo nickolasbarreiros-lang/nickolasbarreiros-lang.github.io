@@ -1822,3 +1822,360 @@ button {
         text-align: left;
     }
 }
+
+/* =========================================================
+   ACABAMENTO VISUAL V2 — CATÁLOGO
+========================================================= */
+
+:root {
+    --verde-principal: #2f6842;
+    --verde-escuro: #214d31;
+    --verde-claro: #eef6f0;
+    --verde-borda: #cbd9ce;
+    --texto-principal: #223026;
+    --texto-secundario: #667168;
+    --fundo-pagina: #f4f7f3;
+    --fundo-cartao: #ffffff;
+    --sombra-suave: 0 8px 24px rgba(28, 56, 35, 0.08);
+    --sombra-hover: 0 16px 38px rgba(28, 56, 35, 0.14);
+}
+
+body {
+    background:
+        radial-gradient(
+            circle at top left,
+            rgba(81, 133, 94, 0.06),
+            transparent 34%
+        ),
+        var(--fundo-pagina);
+    color: var(--texto-principal);
+}
+
+.container {
+    width: min(1280px, 96%);
+}
+
+.painel-estatisticas,
+.painel-floracoes-mensal,
+.painel-pesquisa,
+.barra-resultados {
+    border-color: #d7e1d9;
+    box-shadow: var(--sombra-suave);
+}
+
+.cartao-estatistica {
+    border-color: #d7e1d9;
+    box-shadow: var(--sombra-suave);
+}
+
+.cartao-estatistica:hover {
+    box-shadow: var(--sombra-hover);
+}
+
+.catalogo {
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(360px, 1fr)
+    );
+    align-items: stretch;
+    gap: 26px;
+}
+
+.cartao-orquidea {
+    border-color: var(--verde-borda);
+    border-radius: 18px;
+    box-shadow: var(--sombra-suave);
+    background: var(--fundo-cartao);
+}
+
+.cartao-orquidea:hover {
+    border-color: #aabfaf;
+    transform: translateY(-4px);
+    box-shadow: var(--sombra-hover);
+}
+
+.area-imagem-cartao {
+    height: 235px;
+    aspect-ratio: auto;
+    background: #dfe7e0;
+}
+
+.imagem-cartao {
+    transform: scale(1.001);
+}
+
+.cartao-orquidea:hover .imagem-cartao {
+    transform: scale(1.035);
+}
+
+.status-sobre-imagem {
+    right: 14px;
+    bottom: 14px;
+    left: 14px;
+}
+
+.status-floracao-cartao {
+    min-height: 32px;
+    padding: 7px 12px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.conteudo-cartao {
+    padding: 22px;
+}
+
+.topo-conteudo-cartao {
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.etiquetas-cartao {
+    gap: 8px;
+}
+
+.etiqueta-cartao {
+    min-height: 29px;
+    padding: 6px 10px;
+    border: 1px solid rgba(70, 103, 79, 0.08);
+}
+
+.raridade-cartao {
+    align-items: flex-end;
+    gap: 3px;
+}
+
+.rotulo-raridade {
+    color: #79847c;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.estrelas-raridade {
+    font-size: 15px;
+}
+
+.genero-cartao {
+    margin-bottom: 5px;
+    color: #78847b;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+}
+
+.identificacao-cartao h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.identificacao-cartao h3 a {
+    color: var(--verde-principal);
+}
+
+.origem-cartao {
+    color: #5d6a61;
+}
+
+.descricao-cartao {
+    margin-bottom: 17px;
+    color: #445148;
+    font-size: 15px;
+    line-height: 1.62;
+    -webkit-line-clamp: 3;
+}
+
+.caracteristicas-cartao {
+    margin-bottom: 17px;
+}
+
+.caracteristicas-cartao span {
+    padding: 6px 10px;
+    border-color: #d8e1da;
+    background: #f7faf7;
+}
+
+.informacoes-cartao {
+    gap: 12px;
+    padding: 16px;
+    border-color: #dce5de;
+    border-radius: 13px;
+    background: #f8fbf8;
+}
+
+.informacao-cartao {
+    gap: 11px;
+}
+
+.icone-informacao-cartao {
+    width: 24px;
+    font-size: 15px;
+}
+
+.informacao-cartao strong {
+    margin-bottom: 3px;
+    color: #344b3b;
+    font-size: 12px;
+}
+
+.informacao-cartao div span {
+    color: #59675e;
+    font-size: 13px;
+}
+
+.rodape-cartao {
+    margin-top: 19px;
+}
+
+.botao-ficha-completa {
+    min-height: 46px;
+    padding: 11px 17px;
+    border-radius: 10px;
+    background: var(--verde-principal);
+}
+
+.botao-ficha-completa:hover {
+    background: var(--verde-escuro);
+}
+
+/* =========================================================
+   ACABAMENTO VISUAL V2 — MODO LISTA
+========================================================= */
+
+.catalogo-lista .cartao-orquidea {
+    grid-template-columns: 300px 1fr;
+    min-height: 300px;
+}
+
+.catalogo-lista .area-imagem-cartao {
+    min-height: 300px;
+    height: 100%;
+}
+
+.catalogo-lista .conteudo-cartao {
+    padding: 25px 27px;
+}
+
+.catalogo-lista .descricao-cartao {
+    -webkit-line-clamp: 2;
+}
+
+.catalogo-lista .informacoes-cartao {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* =========================================================
+   ACABAMENTO VISUAL V2 — FILTROS E CONTROLES
+========================================================= */
+
+.campo,
+.campo-ordenacao,
+.campo-mes-floracoes {
+    border-color: #bfcfc3;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.campo:hover,
+.campo-ordenacao:hover,
+.campo-mes-floracoes:hover {
+    border-color: #93ad99;
+}
+
+.campo:focus,
+.campo-ordenacao:focus,
+.campo-mes-floracoes:focus {
+    border-color: var(--verde-principal);
+    box-shadow: 0 0 0 3px rgba(47, 104, 66, 0.12);
+}
+
+.botao-visualizacao.ativo,
+.botao-filtrar-floracoes {
+    background: var(--verde-principal);
+}
+
+.botao-limpar-filtros:hover,
+.botao-visualizacao:hover {
+    border-color: #a8bcae;
+    background: #edf5ef;
+}
+
+/* =========================================================
+   ACABAMENTO VISUAL V2 — RESPONSIVIDADE
+========================================================= */
+
+@media (max-width: 1050px) {
+    .catalogo {
+        grid-template-columns: repeat(
+            auto-fit,
+            minmax(320px, 1fr)
+        );
+    }
+
+    .area-imagem-cartao {
+        height: 220px;
+    }
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 94%;
+    }
+
+    .catalogo {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .area-imagem-cartao {
+        height: 225px;
+    }
+
+    .conteudo-cartao {
+        padding: 20px;
+    }
+
+    .identificacao-cartao h3 {
+        font-size: 23px;
+    }
+
+    .catalogo-lista .cartao-orquidea {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .catalogo-lista .area-imagem-cartao {
+        min-height: 225px;
+        height: 225px;
+    }
+
+    .catalogo-lista .conteudo-cartao {
+        padding: 20px;
+    }
+
+    .catalogo-lista .informacoes-cartao {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 430px) {
+    .painel-estatisticas {
+        grid-template-columns: 1fr;
+    }
+
+    .area-imagem-cartao {
+        height: 205px;
+    }
+
+    .topo-conteudo-cartao {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .raridade-cartao {
+        align-items: flex-start;
+    }
+
+    .botao-ficha-completa {
+        width: 100%;
+    }
+}
