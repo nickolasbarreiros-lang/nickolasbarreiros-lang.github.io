@@ -30,13 +30,13 @@
 
     <main class="container">
 
-        <section class="painel-filtros">
+        <section class="painel-filtros painel-filtros-avancados">
 
             <input
                 id="busca"
-                class="campo"
+                class="campo campo-busca"
                 type="search"
-                placeholder="Pesquisar pelo nome da orquídea..."
+                placeholder="Pesquisar por nome, origem, habitat ou característica..."
             >
 
             <select id="filtro-genero" class="campo">
@@ -45,22 +45,77 @@
 
             <select id="filtro-tipo" class="campo">
                 <option value="">Espécies e híbridos</option>
+
                 <option value="Espécie botânica">
                     Espécies botânicas
                 </option>
+
                 <option value="Híbrido">
                     Híbridos
                 </option>
             </select>
 
+            <select id="filtro-clima" class="campo">
+                <option value="">Todos os climas</option>
+            </select>
+
+            <select id="filtro-luz" class="campo">
+                <option value="">Todas as iluminações</option>
+            </select>
+
+            <select id="filtro-dificuldade" class="campo">
+                <option value="">Todas as dificuldades</option>
+
+                <option value="Fácil">
+                    Fácil
+                </option>
+
+                <option value="Moderada">
+                    Moderada
+                </option>
+
+                <option value="Difícil">
+                    Difícil
+                </option>
+            </select>
+
+            <select id="filtro-floracao" class="campo">
+                <option value="">Floração em qualquer época</option>
+
+                <option value="1">Janeiro</option>
+                <option value="2">Fevereiro</option>
+                <option value="3">Março</option>
+                <option value="4">Abril</option>
+                <option value="5">Maio</option>
+                <option value="6">Junho</option>
+                <option value="7">Julho</option>
+                <option value="8">Agosto</option>
+                <option value="9">Setembro</option>
+                <option value="10">Outubro</option>
+                <option value="11">Novembro</option>
+                <option value="12">Dezembro</option>
+            </select>
+
+            <button
+                id="limpar-filtros"
+                class="botao-limpar-filtros"
+                type="button"
+            >
+                Limpar filtros
+            </button>
+
         </section>
 
-        <p id="contador" class="contador"></p>
+        <div class="linha-resultados">
+            <p id="contador" class="contador"></p>
+
+            <p id="filtros-ativos" class="filtros-ativos"></p>
+        </div>
 
         <section id="catalogo" class="catalogo"></section>
 
         <div id="sem-resultados" class="sem-resultados">
-            Nenhuma orquídea encontrada.
+            Nenhuma orquídea encontrada com os filtros selecionados.
         </div>
 
     </main>
