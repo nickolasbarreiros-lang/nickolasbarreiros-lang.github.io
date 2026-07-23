@@ -75,6 +75,13 @@ function criarCartao(orquidea) {
                 ${orquidea.substrato}
             </p>
 
+            <a
+                class="botao-detalhes"
+                href="orquidea.html?id=${orquidea.id}"
+            >
+                Ver ficha completa
+            </a>
+
         </div>
     `;
 
@@ -83,7 +90,9 @@ function criarCartao(orquidea) {
 
 function preencherFiltroGeneros() {
     const generos = [
-        ...new Set(orquideas.map((orquidea) => orquidea.genero))
+        ...new Set(
+            orquideas.map((orquidea) => orquidea.genero)
+        )
     ].sort();
 
     generos.forEach((genero) => {
@@ -97,13 +106,26 @@ function preencherFiltroGeneros() {
 }
 
 function filtrarOrquideas() {
-    const termoBusca = busca.value.toLowerCase().trim();
+    const termoBusca = busca.value
+        .toLowerCase()
+        .trim();
+
     const generoSelecionado = filtroGenero.value;
     const tipoSelecionado = filtroTipo.value;
 
     const resultado = orquideas.filter((orquidea) => {
-        const nomeCompativel =
-            orquidea.nome.toLowerCase().includes(termoBusca);
+        const textoPesquisavel = `
+            ${orquidea.nome}
+            ${orquidea.genero}
+            ${orquidea.origem}
+            ${orquidea.clima}
+            ${orquidea.iluminacao}
+            ${orquidea.floracao}
+            ${orquidea.substrato}
+        `.toLowerCase();
+
+        const buscaCompativel =
+            textoPesquisavel.includes(termoBusca);
 
         const generoCompativel =
             generoSelecionado === "" ||
@@ -114,7 +136,7 @@ function filtrarOrquideas() {
             orquidea.tipo === tipoSelecionado;
 
         return (
-            nomeCompativel &&
+            buscaCompativel &&
             generoCompativel &&
             tipoCompativel
         );
@@ -127,7 +149,8 @@ function exibirOrquideas(lista) {
     catalogo.innerHTML = "";
 
     lista.forEach((orquidea) => {
-        catalogo.appendChild(criarCartao(orquidea));
+        const cartao = criarCartao(orquidea);
+        catalogo.appendChild(cartao);
     });
 
     const quantidade = lista.length;
