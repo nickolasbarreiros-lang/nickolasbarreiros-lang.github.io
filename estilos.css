@@ -134,10 +134,6 @@ button {
     font-size: 25px;
 }
 
-.cartao-estatistica div {
-    min-width: 0;
-}
-
 .cartao-estatistica strong {
     display: block;
     margin-bottom: 4px;
@@ -221,8 +217,7 @@ button {
     outline: none;
     transition:
         border-color 0.2s ease,
-        box-shadow 0.2s ease,
-        background 0.2s ease;
+        box-shadow 0.2s ease;
 }
 
 .campo:focus {
@@ -256,16 +251,12 @@ button {
 }
 
 /* =========================================================
-   ÁREA DE RESULTADOS
+   ÁREA E BARRA DE RESULTADOS
 ========================================================= */
 
 .area-resultados {
     margin-top: 10px;
 }
-
-/* =========================================================
-   BARRA SUPERIOR DOS RESULTADOS
-========================================================= */
 
 .barra-resultados {
     display: flex;
@@ -368,12 +359,7 @@ button {
     font-size: 14px;
 }
 
-/* =========================================================
-   FILTROS ATIVOS
-========================================================= */
-
 .filtros-ativos {
-    min-height: 0;
     margin: 0 0 17px;
     color: #39734b;
     font-size: 14px;
@@ -480,6 +466,65 @@ button {
     padding: 20px;
 }
 
+/* =========================================================
+   STATUS DE FLORAÇÃO
+========================================================= */
+
+.linha-status-cartao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 13px;
+}
+
+.status-floracao {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 30px;
+    padding: 6px 10px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.status-floracao span {
+    font-size: 14px;
+}
+
+.status-florindo {
+    border-color: #a8d5b1;
+    background: #dff3e3;
+    color: #17602c;
+    box-shadow: 0 2px 8px rgba(35, 120, 55, 0.1);
+}
+
+.status-proxima {
+    border-color: #e5cb79;
+    background: #fff5c9;
+    color: #745500;
+}
+
+.status-fora-epoca {
+    border-color: #cbd8cd;
+    background: #eff4ef;
+    color: #506156;
+}
+
+.status-sem-periodo {
+    border-color: #cbd1dc;
+    background: #f1f3f7;
+    color: #586275;
+}
+
+/* =========================================================
+   ETIQUETAS E TÍTULO DO CARTÃO
+========================================================= */
+
 .etiquetas {
     display: flex;
     flex-wrap: wrap;
@@ -496,16 +541,8 @@ button {
     font-size: 13px;
 }
 
-.cabecalho-cartao {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 14px;
-    margin-bottom: 13px;
-}
-
 .nome-cientifico {
-    margin: 0;
+    margin: 0 0 13px;
     color: #245d39;
     font-size: 24px;
     font-style: italic;
@@ -561,7 +598,6 @@ button {
 ========================================================= */
 
 .catalogo.catalogo-lista {
-    display: grid;
     grid-template-columns: 1fr;
     gap: 16px;
 }
@@ -569,14 +605,14 @@ button {
 .catalogo-lista .cartao {
     display: grid;
     grid-template-columns: 300px 1fr;
-    min-height: 235px;
+    min-height: 245px;
 }
 
 .catalogo-lista .galeria {
     grid-template-columns: 1fr;
-    grid-template-rows: 235px;
+    grid-template-rows: 245px;
     height: 100%;
-    min-height: 235px;
+    min-height: 245px;
 }
 
 .catalogo-lista .galeria img {
@@ -593,48 +629,29 @@ button {
 
 .catalogo-lista .galeria-sem-foto {
     height: 100%;
-    min-height: 235px;
+    min-height: 245px;
 }
 
 .catalogo-lista .conteudo-cartao {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    grid-template-rows: auto auto 1fr auto;
-    gap: 0 25px;
     padding: 22px 24px;
 }
 
-.catalogo-lista .etiquetas {
-    grid-column: 1 / 3;
-}
-
-.catalogo-lista .cabecalho-cartao {
-    grid-column: 1 / 3;
-    margin-bottom: 11px;
+.catalogo-lista .linha-status-cartao {
+    margin-bottom: 14px;
 }
 
 .catalogo-lista .nome-cientifico {
     font-size: 27px;
 }
 
-.catalogo-lista .raridade-cartao {
-    font-size: 18px;
-}
-
 .catalogo-lista .resumo-cartao {
-    grid-column: 1;
-    grid-row: 3;
     display: grid;
     grid-template-columns: repeat(2, minmax(180px, 1fr));
-    align-content: start;
     column-gap: 25px;
 }
 
 .catalogo-lista .botao-detalhes {
-    grid-column: 2;
-    grid-row: 3;
-    align-self: end;
-    white-space: nowrap;
+    margin-top: 18px;
 }
 
 /* =========================================================
@@ -694,10 +711,6 @@ button {
     border-radius: 18px;
     box-shadow: 0 8px 28px rgba(20, 40, 25, 0.14);
 }
-
-/* =========================================================
-   CABEÇALHO DA ESPÉCIE
-========================================================= */
 
 .cabecalho-especie {
     padding: 28px 30px 18px;
@@ -1258,9 +1271,14 @@ button {
         grid-template-rows: 110px 110px;
     }
 
-    .cabecalho-cartao {
+    .linha-status-cartao {
+        align-items: flex-start;
         flex-direction: column;
         gap: 8px;
+    }
+
+    .status-floracao {
+        white-space: normal;
     }
 
     .catalogo-lista .cartao {
@@ -1276,17 +1294,11 @@ button {
     }
 
     .catalogo-lista .conteudo-cartao {
-        display: flex;
-        flex-direction: column;
         padding: 20px;
     }
 
     .catalogo-lista .resumo-cartao {
         display: block;
-    }
-
-    .catalogo-lista .botao-detalhes {
-        align-self: flex-start;
     }
 
     .cabecalho-especie {
