@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Meu Catálogo de Orquídeas</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f3f6f1;
+            color: #263329;
+        }
+
+        header {
+            padding: 45px 20px;
+            text-align: center;
+            background: #315c3d;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .container {
+            width: min(1100px, 92%);
+            margin: 30px auto;
+        }
+
+        .busca {
+            width: 100%;
+            padding: 14px 16px;
+            margin-bottom: 25px;
+            border: 1px solid #bbc8bd;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .catalogo {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+
+        .orquidea {
+            overflow: hidden;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);
+        }
+
+        .orquidea img {
+            display: block;
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .conteudo {
+            padding: 20px;
+        }
+
+        .conteudo h2 {
+            margin-top: 0;
+            font-size: 22px;
+            font-style: italic;
+            color: #315c3d;
+        }
+
+        .etiqueta {
+            display: inline-block;
+            padding: 5px 9px;
+            margin-bottom: 10px;
+            border-radius: 20px;
+            background: #dcebdc;
+            font-size: 13px;
+        }
+
+        .detalhes {
+            line-height: 1.6;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 25px;
+            text-align: center;
+            background: #263329;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu Catálogo de Orquídeas</h1>
+        <p>Coleção particular cultivada em Serra/ES</p>
+    </header>
+
+    <main class="container">
+        <input
+            id="busca"
+            class="busca"
+            type="search"
+            placeholder="Pesquisar pelo nome da orquídea..."
+        >
+
+        <section id="catalogo" class="catalogo">
+
+            <article
+                class="orquidea"
+                data-nome="dendrobium polysema"
+            >
+                <img
+                    src="imagens/dendrobium-polysema.jpg"
+                    alt="Dendrobium polysema"
+                >
+
+                <div class="conteudo">
+                    <span class="etiqueta">
+                        Espécie botânica
+                    </span>
+
+                    <h2>Dendrobium polysema</h2>
+
+                    <div class="detalhes">
+                        <p><strong>Origem:</strong> Nova Guiné</p>
+
+                        <p>
+                            <strong>Iluminação:</strong>
+                            luz filtrada intensa
+                        </p>
+
+                        <p>
+                            <strong>Floração:</strong>
+                            final do inverno e primavera
+                        </p>
+
+                        <p>
+                            <strong>Substrato:</strong>
+                            casca de pinus, carvão,
+                            pedra-pomes e pouco esfagno
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article
+                class="orquidea"
+                data-nome="bifrenaria verboonenii"
+            >
+                <img
+                    src="imagens/bifrenaria-verboonenii.jpg"
+                    alt="Bifrenaria verboonenii"
+                >
+
+                <div class="conteudo">
+                    <span class="etiqueta">
+                        Espécie botânica
+                    </span>
+
+                    <h2>Bifrenaria verboonenii</h2>
+
+                    <div class="detalhes">
+                        <p>
+                            <strong>Origem:</strong>
+                            Mata Atlântica brasileira
+                        </p>
+
+                        <p>
+                            <strong>Iluminação:</strong>
+                            luz filtrada
+                        </p>
+
+                        <p>
+                            <strong>Clima:</strong>
+                            quente a ameno e úmido
+                        </p>
+
+                        <p>
+                            <strong>Suporte:</strong>
+                            vaso de barro, cachepô
+                            ou tronquinho
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        Catálogo particular de orquídeas
+    </footer>
+
+    <script>
+        const busca = document.getElementById("busca");
+        const plantas = document.querySelectorAll(".orquidea");
+
+        busca.addEventListener("input", () => {
+            const termo = busca.value.toLowerCase().trim();
+
+            plantas.forEach((planta) => {
+                const nome = planta.dataset.nome;
+
+                planta.style.display =
+                    nome.includes(termo) ? "block" : "none";
+            });
+        });
+    </script>
+</body>
+</html>
