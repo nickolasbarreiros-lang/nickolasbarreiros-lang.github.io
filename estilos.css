@@ -1423,4 +1423,8 @@ button {
         text-align: center;
         font-size: 12px;
     }
-}
+.status-aproximando {
+    border-color: #b8d4b9;
+    background: #eaf5ea;
+    color: #35633c;
+}}
