@@ -1,83 +1,241 @@
 const catalogo = document.getElementById("catalogo");
-const busca = document.getElementById("busca");
-const filtroGenero = document.getElementById("filtro-genero");
-const filtroTipo = document.getElementById("filtro-tipo");
 const contador = document.getElementById("contador");
 const semResultados = document.getElementById("sem-resultados");
+const filtrosAtivos = document.getElementById("filtros-ativos");
+
+const campoBusca = document.getElementById("busca");
+const filtroGenero = document.getElementById("filtro-genero");
+const filtroTipo = document.getElementById("filtro-tipo");
+const filtroClima = document.getElementById("filtro-clima");
+const filtroLuz = document.getElementById("filtro-luz");
+const filtroDificuldade =
+    document.getElementById("filtro-dificuldade");
+const filtroFloracao =
+    document.getElementById("filtro-floracao");
+const botaoLimparFiltros =
+    document.getElementById("limpar-filtros");
+
+/* =========================================================
+   NORMALIZAÇÃO DE TEXTO
+========================================================= */
+
+function normalizarTexto(texto) {
+    return String(texto || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .trim();
+}
+
+/* =========================================================
+   ORDENAÇÃO ALFABÉTICA
+========================================================= */
+
+function ordenarTextos(lista) {
+    return lista.sort((a, b) =>
+        a.localeCompare(
+            b,
+            "pt-BR",
+            {
+                sensitivity: "base"
+            }
+        )
+    );
+}
+
+/* =========================================================
+   VALORES ÚNICOS
+========================================================= */
+
+function obterValoresUnicos(propriedade) {
+    const valores = orquideas
+        .map((orquidea) => orquidea[propriedade])
+        .filter((valor) => {
+            return (
+                typeof valor === "string" &&
+                valor.trim() !== ""
+            );
+        });
+
+    return ordenarTextos([...new Set(valores)]);
+}
+
+/* =========================================================
+   PREENCHER SELECTS AUTOMATICAMENTE
+========================================================= */
+
+function preencherSelect(
+    elementoSelect,
+    valores,
+    textoInicial
+) {
+    elementoSelect.innerHTML = `
+        <option value="">
+            ${textoInicial}
+        </option>
+    `;
+
+    valores.forEach((valor) => {
+        const opcao = document.createElement("option");
+
+        opcao.value = valor;
+        opcao.textContent = valor;
+
+        elementoSelect.appendChild(opcao);
+    });
+}
+
+function configurarFiltrosAutomaticos() {
+    preencherSelect(
+        filtroGenero,
+        obterValoresUnicos("genero"),
+        "Todos os gêneros"
+    );
+
+    preencherSelect(
+        filtroClima,
+        obterValoresUnicos("clima"),
+        "Todos os climas"
+    );
+
+    preencherSelect(
+        filtroLuz,
+        obterValoresUnicos("iluminacao"),
+        "Todas as iluminações"
+    );
+}
+
+/* =========================================================
+   GALERIA DOS CARTÕES
+========================================================= */
+
+function criarGaleriaCartao(orquidea) {
+    const fotos = Array.isArray(orquidea.fotos)
+        ? orquidea.fotos.slice(0, 3)
+        : [];
+
+    if (fotos.length === 0) {
+        return `
+            <div class="galeria galeria-sem-foto">
+                <div class="imagem-indisponivel">
+                    🌸
+                    <span>Imagem indisponível</span>
+                </div>
+            </div>
+        `;
+    }
+
+    while (fotos.length < 3) {
+        fotos.push(fotos[0]);
+    }
+
+    return `
+        <div class="galeria">
+            ${fotos.map((foto, indice) => `
+                <img
+                    src="${foto}"
+                    alt="${orquidea.nome} — foto ${indice + 1}"
+                    loading="lazy"
+                    onerror="this.src=''; this.classList.add('imagem-com-erro');"
+                >
+            `).join("")}
+        </div>
+    `;
+}
+
+/* =========================================================
+   RESUMO DO CARTÃO
+========================================================= */
+
+function criarResumo(orquidea) {
+    const partes = [];
+
+    if (orquidea.origem) {
+        partes.push(`
+            <p class="resumo">
+                <strong>Origem:</strong>
+                ${orquidea.origem}
+            </p>
+        `);
+    }
+
+    if (orquidea.clima) {
+        partes.push(`
+            <p class="resumo">
+                <strong>Clima:</strong>
+                ${orquidea.clima}
+            </p>
+        `);
+    }
+
+    if (orquidea.iluminacao) {
+        partes.push(`
+            <p class="resumo">
+                <strong>Iluminação:</strong>
+                ${orquidea.iluminacao}
+            </p>
+        `);
+    }
+
+    if (orquidea.floracao) {
+        partes.push(`
+            <p class="resumo">
+                <strong>Floração:</strong>
+                ${orquidea.floracao}
+            </p>
+        `);
+    }
+
+    return partes.join("");
+}
+
+/* =========================================================
+   CARTÃO DA ORQUÍDEA
+========================================================= */
 
 function criarCartao(orquidea) {
-    const cartao = document.createElement("article");
-    cartao.className = "cartao";
+    const artigo = document.createElement("article");
 
-    cartao.innerHTML = `
-        <div class="galeria">
-            <img
-                src="${orquidea.fotos[0]}"
-                alt="${orquidea.nome} — foto principal"
-                loading="lazy"
-            >
+    artigo.className = "cartao";
 
-            <img
-                src="${orquidea.fotos[1]}"
-                alt="${orquidea.nome} — segunda foto"
-                loading="lazy"
-            >
-
-            <img
-                src="${orquidea.fotos[2]}"
-                alt="${orquidea.nome} — terceira foto"
-                loading="lazy"
-            >
-        </div>
+    artigo.innerHTML = `
+        ${criarGaleriaCartao(orquidea)}
 
         <div class="conteudo-cartao">
 
             <div class="etiquetas">
-                <span class="etiqueta">
-                    ${orquidea.tipo}
-                </span>
 
-                <span class="etiqueta">
-                    ${orquidea.genero}
-                </span>
+                ${orquidea.tipo ? `
+                    <span class="etiqueta">
+                        ${orquidea.tipo}
+                    </span>
+                ` : ""}
 
-                <span class="etiqueta">
-                    Cultivo ${orquidea.dificuldade}
-                </span>
+                ${orquidea.genero ? `
+                    <span class="etiqueta">
+                        ${orquidea.genero}
+                    </span>
+                ` : ""}
+
+                ${orquidea.dificuldade ? `
+                    <span class="etiqueta">
+                        Cultivo ${orquidea.dificuldade}
+                    </span>
+                ` : ""}
+
             </div>
 
             <h2 class="nome-cientifico">
                 ${orquidea.nome}
             </h2>
 
-            <p class="resumo">
-                <strong>Origem:</strong>
-                ${orquidea.origem}
-            </p>
-
-            <p class="resumo">
-                <strong>Clima:</strong>
-                ${orquidea.clima}
-            </p>
-
-            <p class="resumo">
-                <strong>Iluminação:</strong>
-                ${orquidea.iluminacao}
-            </p>
-
-            <p class="resumo">
-                <strong>Floração:</strong>
-                ${orquidea.floracao}
-            </p>
-
-            <p class="resumo">
-                <strong>Substrato:</strong>
-                ${orquidea.substrato}
-            </p>
+            ${criarResumo(orquidea)}
 
             <a
                 class="botao-detalhes"
-                href="orquidea.html?id=${orquidea.id}"
+                href="orquidea.html?id=${encodeURIComponent(
+                    orquidea.id
+                )}"
             >
                 Ver ficha completa
             </a>
@@ -85,88 +243,289 @@ function criarCartao(orquidea) {
         </div>
     `;
 
-    return cartao;
+    return artigo;
 }
 
-function preencherFiltroGeneros() {
-    const generos = [
-        ...new Set(
-            orquideas.map((orquidea) => orquidea.genero)
-        )
-    ].sort();
+/* =========================================================
+   TEXTO COMPLETO PARA PESQUISA
+========================================================= */
 
-    generos.forEach((genero) => {
-        const opcao = document.createElement("option");
+function criarTextoPesquisa(orquidea) {
+    const campos = [
+        orquidea.nome,
+        orquidea.genero,
+        orquidea.tipo,
+        orquidea.descricao,
+        orquidea.origem,
+        orquidea.regiao,
+        orquidea.habitat,
+        orquidea.clima,
+        orquidea.iluminacao,
+        orquidea.floracao,
+        orquidea.dificuldade,
+        orquidea.suporte,
+        orquidea.substrato,
+        ...(orquidea.caracteristicas || [])
+    ];
 
-        opcao.value = genero;
-        opcao.textContent = genero;
-
-        filtroGenero.appendChild(opcao);
-    });
+    return normalizarTexto(campos.join(" "));
 }
 
-function filtrarOrquideas() {
-    const termoBusca = busca.value
-        .toLowerCase()
-        .trim();
+/* =========================================================
+   FILTRAGEM
+========================================================= */
 
-    const generoSelecionado = filtroGenero.value;
-    const tipoSelecionado = filtroTipo.value;
+function orquideaCorrespondeAosFiltros(orquidea) {
+    const busca = normalizarTexto(campoBusca.value);
+    const genero = filtroGenero.value;
+    const tipo = filtroTipo.value;
+    const clima = filtroClima.value;
+    const luz = filtroLuz.value;
+    const dificuldade = filtroDificuldade.value;
+    const mesFloracao = Number(filtroFloracao.value);
 
-    const resultado = orquideas.filter((orquidea) => {
-        const textoPesquisavel = `
-            ${orquidea.nome}
-            ${orquidea.genero}
-            ${orquidea.origem}
-            ${orquidea.clima}
-            ${orquidea.iluminacao}
-            ${orquidea.floracao}
-            ${orquidea.substrato}
-        `.toLowerCase();
+    const correspondeBusca =
+        busca === "" ||
+        criarTextoPesquisa(orquidea).includes(busca);
 
-        const buscaCompativel =
-            textoPesquisavel.includes(termoBusca);
+    const correspondeGenero =
+        genero === "" ||
+        orquidea.genero === genero;
 
-        const generoCompativel =
-            generoSelecionado === "" ||
-            orquidea.genero === generoSelecionado;
+    const correspondeTipo =
+        tipo === "" ||
+        orquidea.tipo === tipo;
 
-        const tipoCompativel =
-            tipoSelecionado === "" ||
-            orquidea.tipo === tipoSelecionado;
+    const correspondeClima =
+        clima === "" ||
+        orquidea.clima === clima;
 
-        return (
-            buscaCompativel &&
-            generoCompativel &&
-            tipoCompativel
-        );
-    });
+    const correspondeLuz =
+        luz === "" ||
+        orquidea.iluminacao === luz;
 
-    exibirOrquideas(resultado);
+    const correspondeDificuldade =
+        dificuldade === "" ||
+        orquidea.dificuldade === dificuldade;
+
+    const meses = Array.isArray(orquidea.mesesFloracao)
+        ? orquidea.mesesFloracao.map(Number)
+        : [];
+
+    const correspondeFloracao =
+        !mesFloracao ||
+        meses.includes(mesFloracao);
+
+    return (
+        correspondeBusca &&
+        correspondeGenero &&
+        correspondeTipo &&
+        correspondeClima &&
+        correspondeLuz &&
+        correspondeDificuldade &&
+        correspondeFloracao
+    );
 }
 
-function exibirOrquideas(lista) {
-    catalogo.innerHTML = "";
+/* =========================================================
+   CONTADOR DE RESULTADOS
+========================================================= */
 
-    lista.forEach((orquidea) => {
-        const cartao = criarCartao(orquidea);
-        catalogo.appendChild(cartao);
-    });
+function atualizarContador(quantidade) {
+    const total = orquideas.length;
 
-    const quantidade = lista.length;
+    if (quantidade === total) {
+        contador.textContent =
+            total === 1
+                ? "1 orquídea cadastrada"
+                : `${total} orquídeas cadastradas`;
+
+        return;
+    }
 
     contador.textContent =
         quantidade === 1
-            ? "1 orquídea encontrada"
-            : `${quantidade} orquídeas encontradas`;
-
-    semResultados.style.display =
-        quantidade === 0 ? "block" : "none";
+            ? `Exibindo 1 resultado de ${total} orquídeas`
+            : `Exibindo ${quantidade} resultados de ${total} orquídeas`;
 }
 
-busca.addEventListener("input", filtrarOrquideas);
-filtroGenero.addEventListener("change", filtrarOrquideas);
-filtroTipo.addEventListener("change", filtrarOrquideas);
+/* =========================================================
+   FILTROS ATIVOS
+========================================================= */
 
-preencherFiltroGeneros();
-exibirOrquideas(orquideas);
+function obterTextoOpcaoSelecionada(select) {
+    const opcao = select.options[select.selectedIndex];
+
+    return opcao ? opcao.textContent.trim() : "";
+}
+
+function atualizarFiltrosAtivos() {
+    const ativos = [];
+
+    if (campoBusca.value.trim()) {
+        ativos.push(`Busca: “${campoBusca.value.trim()}”`);
+    }
+
+    if (filtroGenero.value) {
+        ativos.push(
+            `Gênero: ${obterTextoOpcaoSelecionada(
+                filtroGenero
+            )}`
+        );
+    }
+
+    if (filtroTipo.value) {
+        ativos.push(
+            `Tipo: ${obterTextoOpcaoSelecionada(
+                filtroTipo
+            )}`
+        );
+    }
+
+    if (filtroClima.value) {
+        ativos.push(
+            `Clima: ${obterTextoOpcaoSelecionada(
+                filtroClima
+            )}`
+        );
+    }
+
+    if (filtroLuz.value) {
+        ativos.push(
+            `Luz: ${obterTextoOpcaoSelecionada(
+                filtroLuz
+            )}`
+        );
+    }
+
+    if (filtroDificuldade.value) {
+        ativos.push(
+            `Dificuldade: ${obterTextoOpcaoSelecionada(
+                filtroDificuldade
+            )}`
+        );
+    }
+
+    if (filtroFloracao.value) {
+        ativos.push(
+            `Floração: ${obterTextoOpcaoSelecionada(
+                filtroFloracao
+            )}`
+        );
+    }
+
+    filtrosAtivos.textContent =
+        ativos.length > 0
+            ? ativos.join(" • ")
+            : "";
+}
+
+/* =========================================================
+   RENDERIZAÇÃO DO CATÁLOGO
+========================================================= */
+
+function renderizarCatalogo() {
+    const resultado = orquideas
+        .filter(orquideaCorrespondeAosFiltros)
+        .sort((a, b) =>
+            a.nome.localeCompare(
+                b.nome,
+                "pt-BR",
+                {
+                    sensitivity: "base"
+                }
+            )
+        );
+
+    catalogo.innerHTML = "";
+
+    resultado.forEach((orquidea) => {
+        catalogo.appendChild(
+            criarCartao(orquidea)
+        );
+    });
+
+    atualizarContador(resultado.length);
+    atualizarFiltrosAtivos();
+
+    semResultados.style.display =
+        resultado.length === 0
+            ? "block"
+            : "none";
+
+    catalogo.style.display =
+        resultado.length === 0
+            ? "none"
+            : "grid";
+}
+
+/* =========================================================
+   LIMPAR FILTROS
+========================================================= */
+
+function limparFiltros() {
+    campoBusca.value = "";
+    filtroGenero.value = "";
+    filtroTipo.value = "";
+    filtroClima.value = "";
+    filtroLuz.value = "";
+    filtroDificuldade.value = "";
+    filtroFloracao.value = "";
+
+    renderizarCatalogo();
+
+    campoBusca.focus();
+}
+
+/* =========================================================
+   EVENTOS
+========================================================= */
+
+const camposDeFiltro = [
+    campoBusca,
+    filtroGenero,
+    filtroTipo,
+    filtroClima,
+    filtroLuz,
+    filtroDificuldade,
+    filtroFloracao
+];
+
+camposDeFiltro.forEach((campo) => {
+    campo.addEventListener(
+        campo.tagName === "INPUT"
+            ? "input"
+            : "change",
+        renderizarCatalogo
+    );
+});
+
+botaoLimparFiltros.addEventListener(
+    "click",
+    limparFiltros
+);
+
+/* =========================================================
+   INICIALIZAÇÃO
+========================================================= */
+
+function iniciarCatalogo() {
+    configurarFiltrosAutomaticos();
+
+    /*
+       Garante que nenhum filtro antigo fique selecionado
+       quando o navegador restaurar o formulário.
+    */
+
+    campoBusca.value = "";
+    filtroGenero.value = "";
+    filtroTipo.value = "";
+    filtroClima.value = "";
+    filtroLuz.value = "";
+    filtroDificuldade.value = "";
+    filtroFloracao.value = "";
+
+    renderizarCatalogo();
+}
+
+iniciarCatalogo();
