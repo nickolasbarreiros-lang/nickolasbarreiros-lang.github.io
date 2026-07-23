@@ -16,7 +16,10 @@
 
     <title>Meu Catálogo de Orquídeas</title>
 
-    <link rel="stylesheet" href="estilos.css">
+    <link
+        rel="stylesheet"
+        href="estilos.css?v=26"
+    >
 </head>
 
 <body>
@@ -30,11 +33,15 @@
             </span>
 
             <div>
-                <h1>Meu Catálogo de Orquídeas</h1>
+
+                <h1>
+                    Meu Catálogo de Orquídeas
+                </h1>
 
                 <p>
                     Coleção particular cultivada em Serra/ES
                 </p>
+
             </div>
 
         </div>
@@ -44,17 +51,19 @@
     <main class="container">
 
         <!-- =================================================
-             ESTATÍSTICAS
+             ESTATÍSTICAS GERAIS
         ================================================== -->
 
         <section class="painel-estatisticas">
 
             <article class="cartao-estatistica">
+
                 <span class="icone-estatistica">
                     🌸
                 </span>
 
                 <div>
+
                     <strong id="total-orquideas">
                         0
                     </strong>
@@ -62,15 +71,19 @@
                     <span>
                         Orquídeas cadastradas
                     </span>
+
                 </div>
+
             </article>
 
             <article class="cartao-estatistica">
+
                 <span class="icone-estatistica">
                     🧬
                 </span>
 
                 <div>
+
                     <strong id="total-generos">
                         0
                     </strong>
@@ -78,15 +91,19 @@
                     <span>
                         Gêneros diferentes
                     </span>
+
                 </div>
+
             </article>
 
             <article class="cartao-estatistica">
+
                 <span class="icone-estatistica">
                     🌎
                 </span>
 
                 <div>
+
                     <strong id="total-origens">
                         0
                     </strong>
@@ -94,15 +111,19 @@
                     <span>
                         Origens registradas
                     </span>
+
                 </div>
+
             </article>
 
             <article class="cartao-estatistica">
+
                 <span class="icone-estatistica">
                     ⭐
                 </span>
 
                 <div>
+
                     <strong id="total-raras">
                         0
                     </strong>
@@ -110,8 +131,233 @@
                     <span>
                         Espécies raras
                     </span>
+
                 </div>
+
             </article>
+
+        </section>
+
+        <!-- =================================================
+             PAINEL MENSAL DE FLORAÇÕES
+        ================================================== -->
+
+        <section class="painel-floracoes-mensal">
+
+            <div class="cabecalho-floracoes-mensal">
+
+                <div class="titulo-floracoes-mensal">
+
+                    <span class="icone-floracoes-mensal">
+                        🌸
+                    </span>
+
+                    <div>
+
+                        <h2 id="titulo-floracoes-mes">
+                            Florações do mês
+                        </h2>
+
+                        <p id="data-atual-floracoes">
+                            Carregando data...
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="seletor-mes-floracoes">
+
+                    <label for="mes-painel-floracoes">
+                        Consultar mês
+                    </label>
+
+                    <select
+                        id="mes-painel-floracoes"
+                        class="campo campo-mes-floracoes"
+                    >
+                        <option value="1">
+                            Janeiro
+                        </option>
+
+                        <option value="2">
+                            Fevereiro
+                        </option>
+
+                        <option value="3">
+                            Março
+                        </option>
+
+                        <option value="4">
+                            Abril
+                        </option>
+
+                        <option value="5">
+                            Maio
+                        </option>
+
+                        <option value="6">
+                            Junho
+                        </option>
+
+                        <option value="7">
+                            Julho
+                        </option>
+
+                        <option value="8">
+                            Agosto
+                        </option>
+
+                        <option value="9">
+                            Setembro
+                        </option>
+
+                        <option value="10">
+                            Outubro
+                        </option>
+
+                        <option value="11">
+                            Novembro
+                        </option>
+
+                        <option value="12">
+                            Dezembro
+                        </option>
+                    </select>
+
+                </div>
+
+            </div>
+
+            <div class="resumo-floracoes-mensal">
+
+                <div class="quantidade-floracoes-mes">
+
+                    <strong id="quantidade-floracoes-mes">
+                        0
+                    </strong>
+
+                    <span id="texto-quantidade-floracoes">
+                        espécies previstas para florir neste mês
+                    </span>
+
+                </div>
+
+                <div class="barra-progresso-floracoes">
+
+                    <div
+                        id="progresso-floracoes-mes"
+                        class="preenchimento-progresso-floracoes"
+                    ></div>
+
+                </div>
+
+                <p id="percentual-floracoes-mes">
+                    0% da coleção
+                </p>
+
+            </div>
+
+            <div class="grade-resumo-floracoes">
+
+                <article class="cartao-resumo-floracao status-atual">
+
+                    <span class="icone-resumo-floracao">
+                        🌸
+                    </span>
+
+                    <div>
+
+                        <strong id="quantidade-florindo-agora">
+                            0
+                        </strong>
+
+                        <span>
+                            Previstas para este mês
+                        </span>
+
+                    </div>
+
+                </article>
+
+                <article class="cartao-resumo-floracao status-proximo">
+
+                    <span class="icone-resumo-floracao">
+                        🟡
+                    </span>
+
+                    <div>
+
+                        <strong id="quantidade-proximo-mes">
+                            0
+                        </strong>
+
+                        <span>
+                            Previstas para o próximo mês
+                        </span>
+
+                    </div>
+
+                </article>
+
+                <article class="cartao-resumo-floracao status-aproximando">
+
+                    <span class="icone-resumo-floracao">
+                        🌱
+                    </span>
+
+                    <div>
+
+                        <strong id="quantidade-dois-meses">
+                            0
+                        </strong>
+
+                        <span>
+                            Previstas para daqui a dois meses
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <div class="lista-floracoes-mensal">
+
+                <div class="cabecalho-lista-floracoes">
+
+                    <div>
+
+                        <h3 id="titulo-lista-floracoes">
+                            Espécies previstas para este mês
+                        </h3>
+
+                        <p id="descricao-lista-floracoes">
+                            Selecione uma espécie para abrir a ficha completa.
+                        </p>
+
+                    </div>
+
+                    <button
+                        id="filtrar-floracoes-do-mes"
+                        class="botao-filtrar-floracoes"
+                        type="button"
+                    >
+                        Mostrar somente estas
+                    </button>
+
+                </div>
+
+                <div
+                    id="lista-especies-floracoes"
+                    class="lista-especies-floracoes"
+                >
+                    <p class="mensagem-carregamento-floracoes">
+                        Carregando florações...
+                    </p>
+                </div>
+
+            </div>
 
         </section>
 
@@ -124,6 +370,7 @@
             <div class="cabecalho-painel-pesquisa">
 
                 <div>
+
                     <h2>
                         🔎 Pesquisa avançada
                     </h2>
@@ -132,6 +379,7 @@
                         Encontre as plantas por nome, gênero,
                         clima, iluminação ou época de floração.
                     </p>
+
                 </div>
 
                 <button
@@ -302,7 +550,7 @@
         </section>
 
         <!-- =================================================
-             RESULTADOS
+             RESULTADOS DO CATÁLOGO
         ================================================== -->
 
         <section class="area-resultados">
@@ -371,6 +619,7 @@
                             class="botao-visualizacao ativo"
                             type="button"
                             aria-label="Exibir em galeria"
+                            aria-pressed="true"
                             title="Modo galeria"
                         >
                             ▦
@@ -382,6 +631,7 @@
                             class="botao-visualizacao"
                             type="button"
                             aria-label="Exibir em lista"
+                            aria-pressed="false"
                             title="Modo lista"
                         >
                             ☰
@@ -441,7 +691,8 @@
     </footer>
 
     <script src="dados/orquideas.js"></script>
-    <script src="catalogo.js"></script>
+
+    <script src="catalogo.js?v=26"></script>
 
 </body>
 
