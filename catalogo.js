@@ -15,6 +15,15 @@ const filtroFloracao =
 const botaoLimparFiltros =
     document.getElementById("limpar-filtros");
 
+const totalOrquideas =
+    document.getElementById("total-orquideas");
+const totalGeneros =
+    document.getElementById("total-generos");
+const totalOrigens =
+    document.getElementById("total-origens");
+const totalRaras =
+    document.getElementById("total-raras");
+
 /* =========================================================
    NORMALIZAÇÃO DE TEXTO
 ========================================================= */
@@ -61,7 +70,7 @@ function obterValoresUnicos(propriedade) {
 }
 
 /* =========================================================
-   PREENCHER SELECTS AUTOMATICAMENTE
+   PREENCHIMENTO AUTOMÁTICO DOS FILTROS
 ========================================================= */
 
 function preencherSelect(
@@ -106,21 +115,73 @@ function configurarFiltrosAutomaticos() {
 }
 
 /* =========================================================
+   ESTATÍSTICAS DO CATÁLOGO
+========================================================= */
+
+function calcularEstatisticas() {
+    const generos = new Set();
+    const origens = new Set();
+
+    let raras = 0;
+
+    orquideas.forEach((orquidea) => {
+        if (
+            typeof orquidea.genero === "string" &&
+            orquidea.genero.trim() !== ""
+        ) {
+            generos.add(
+                normalizarTexto(orquidea.genero)
+            );
+        }
+
+        if (
+            typeof orquidea.origem === "string" &&
+            orquidea.origem.trim() !== ""
+        ) {
+            origens.add(
+                normalizarTexto(orquidea.origem)
+            );
+        }
+
+        const notaRaridade =
+            Number(orquidea.avaliacoes?.raridade) || 0;
+
+        if (notaRaridade >= 4) {
+            raras++;
+        }
+    });
+
+    totalOrquideas.textContent = orquideas.length;
+    totalGeneros.textContent = generos.size;
+    totalOrigens.textContent = origens.size;
+    totalRaras.textContent = raras;
+}
+
+/* =========================================================
    GALERIA DOS CARTÕES
 ========================================================= */
 
 function criarGaleriaCartao(orquidea) {
     const fotos = Array.isArray(orquidea.fotos)
-        ? orquidea.fotos.slice(0, 3)
+        ? orquidea.fotos
+            .filter((foto) => Boolean(foto))
+            .slice(0, 3)
         : [];
 
     if (fotos.length === 0) {
         return `
             <div class="galeria galeria-sem-foto">
+
                 <div class="imagem-indisponivel">
-                    🌸
-                    <span>Imagem indisponível</span>
+                    <span class="icone-imagem-indisponivel">
+                        🌸
+                    </span>
+
+                    <span>
+                        Imagem indisponível
+                    </span>
                 </div>
+
             </div>
         `;
     }
@@ -131,14 +192,15 @@ function criarGaleriaCartao(orquidea) {
 
     return `
         <div class="galeria">
+
             ${fotos.map((foto, indice) => `
                 <img
                     src="${foto}"
                     alt="${orquidea.nome} — foto ${indice + 1}"
                     loading="lazy"
-                    onerror="this.src=''; this.classList.add('imagem-com-erro');"
                 >
             `).join("")}
+
         </div>
     `;
 }
@@ -268,7 +330,11 @@ function criarTextoPesquisa(orquidea) {
         ...(orquidea.caracteristicas || [])
     ];
 
-    return normalizarTexto(campos.join(" "));
+    return normalizarTexto(
+        campos
+            .filter((campo) => Boolean(campo))
+            .join(" ")
+    );
 }
 
 /* =========================================================
@@ -337,16 +403,23 @@ function atualizarContador(quantidade) {
     if (quantidade === total) {
         contador.textContent =
             total === 1
-                ? "1 orquídea cadastrada"
-                : `${total} orquídeas cadastradas`;
+                ? "1 orquídea encontrada"
+                : `${total} orquídeas encontradas`;
+
+        return;
+    }
+
+    if (quantidade === 0) {
+        contador.textContent =
+            `Nenhum resultado entre ${total} orquídeas`;
 
         return;
     }
 
     contador.textContent =
         quantidade === 1
-            ? `Exibindo 1 resultado de ${total} orquídeas`
-            : `Exibindo ${quantidade} resultados de ${total} orquídeas`;
+            ? `1 resultado entre ${total} orquídeas`
+            : `${quantidade} resultados entre ${total} orquídeas`;
 }
 
 /* =========================================================
@@ -354,16 +427,21 @@ function atualizarContador(quantidade) {
 ========================================================= */
 
 function obterTextoOpcaoSelecionada(select) {
-    const opcao = select.options[select.selectedIndex];
+    const opcao =
+        select.options[select.selectedIndex];
 
-    return opcao ? opcao.textContent.trim() : "";
+    return opcao
+        ? opcao.textContent.trim()
+        : "";
 }
 
 function atualizarFiltrosAtivos() {
     const ativos = [];
 
     if (campoBusca.value.trim()) {
-        ativos.push(`Busca: “${campoBusca.value.trim()}”`);
+        ativos.push(
+            `Busca: “${campoBusca.value.trim()}”`
+        );
     }
 
     if (filtroGenero.value) {
@@ -376,7 +454,7 @@ function atualizarFiltrosAtivos() {
 
     if (filtroTipo.value) {
         ativos.push(
-            `Tipo: ${obterTextoOpcaoSelecionada(
+            `Classificação: ${obterTextoOpcaoSelecionada(
                 filtroTipo
             )}`
         );
@@ -392,7 +470,7 @@ function atualizarFiltrosAtivos() {
 
     if (filtroLuz.value) {
         ativos.push(
-            `Luz: ${obterTextoOpcaoSelecionada(
+            `Iluminação: ${obterTextoOpcaoSelecionada(
                 filtroLuz
             )}`
         );
@@ -448,15 +526,18 @@ function renderizarCatalogo() {
     atualizarContador(resultado.length);
     atualizarFiltrosAtivos();
 
+    const possuiResultados =
+        resultado.length > 0;
+
     semResultados.style.display =
-        resultado.length === 0
-            ? "block"
-            : "none";
+        possuiResultados
+            ? "none"
+            : "block";
 
     catalogo.style.display =
-        resultado.length === 0
-            ? "none"
-            : "grid";
+        possuiResultados
+            ? "grid"
+            : "none";
 }
 
 /* =========================================================
@@ -481,21 +562,21 @@ function limparFiltros() {
    EVENTOS
 ========================================================= */
 
-const camposDeFiltro = [
-    campoBusca,
+campoBusca.addEventListener(
+    "input",
+    renderizarCatalogo
+);
+
+[
     filtroGenero,
     filtroTipo,
     filtroClima,
     filtroLuz,
     filtroDificuldade,
     filtroFloracao
-];
-
-camposDeFiltro.forEach((campo) => {
+].forEach((campo) => {
     campo.addEventListener(
-        campo.tagName === "INPUT"
-            ? "input"
-            : "change",
+        "change",
         renderizarCatalogo
     );
 });
@@ -512,11 +593,6 @@ botaoLimparFiltros.addEventListener(
 function iniciarCatalogo() {
     configurarFiltrosAutomaticos();
 
-    /*
-       Garante que nenhum filtro antigo fique selecionado
-       quando o navegador restaurar o formulário.
-    */
-
     campoBusca.value = "";
     filtroGenero.value = "";
     filtroTipo.value = "";
@@ -525,6 +601,7 @@ function iniciarCatalogo() {
     filtroDificuldade.value = "";
     filtroFloracao.value = "";
 
+    calcularEstatisticas();
     renderizarCatalogo();
 }
 
