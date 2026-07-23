@@ -177,6 +177,107 @@ function calcularEstatisticas() {
 }
 
 /* =========================================================
+   STATUS DE FLORAÇÃO
+========================================================= */
+
+function normalizarMesesFloracao(orquidea) {
+    if (!Array.isArray(orquidea.mesesFloracao)) {
+        return [];
+    }
+
+    return [
+        ...new Set(
+            orquidea.mesesFloracao
+                .map(Number)
+                .filter((mes) => {
+                    return mes >= 1 && mes <= 12;
+                })
+        )
+    ].sort((a, b) => a - b);
+}
+
+function calcularDistanciaEntreMeses(
+    mesAtual,
+    mesDestino
+) {
+    return (
+        mesDestino - mesAtual + 12
+    ) % 12;
+}
+
+function obterStatusFloracao(orquidea) {
+    const meses =
+        normalizarMesesFloracao(orquidea);
+
+    if (meses.length === 0) {
+        return {
+            texto: "Período não informado",
+            icone: "📅",
+            classe: "status-sem-periodo",
+            prioridade: 4
+        };
+    }
+
+    const mesAtual =
+        new Date().getMonth() + 1;
+
+    if (meses.includes(mesAtual)) {
+        return {
+            texto: "Florescendo agora",
+            icone: "🌸",
+            classe: "status-florindo",
+            prioridade: 1
+        };
+    }
+
+    const distanciasFuturas = meses
+        .map((mes) =>
+            calcularDistanciaEntreMeses(
+                mesAtual,
+                mes
+            )
+        )
+        .filter((distancia) => distancia > 0);
+
+    const menorDistancia =
+        Math.min(...distanciasFuturas);
+
+    if (menorDistancia <= 2) {
+        return {
+            texto: "Floração próxima",
+            icone: "🟡",
+            classe: "status-proxima",
+            prioridade: 2
+        };
+    }
+
+    return {
+        texto: "Fora da época",
+        icone: "🌿",
+        classe: "status-fora-epoca",
+        prioridade: 3
+    };
+}
+
+function criarStatusFloracao(orquidea) {
+    const status =
+        obterStatusFloracao(orquidea);
+
+    return `
+        <span
+            class="status-floracao ${status.classe}"
+            title="${status.texto}"
+        >
+            <span aria-hidden="true">
+                ${status.icone}
+            </span>
+
+            ${status.texto}
+        </span>
+    `;
+}
+
+/* =========================================================
    GALERIA DOS CARTÕES
 ========================================================= */
 
@@ -278,11 +379,21 @@ function criarResumo(orquidea) {
 
 function criarEstrelas(nota) {
     const valor =
-        Math.max(0, Math.min(5, Number(nota) || 0));
+        Math.max(
+            0,
+            Math.min(
+                5,
+                Number(nota) || 0
+            )
+        );
 
     let estrelas = "";
 
-    for (let indice = 1; indice <= 5; indice++) {
+    for (
+        let indice = 1;
+        indice <= 5;
+        indice++
+    ) {
         estrelas +=
             indice <= valor
                 ? "★"
@@ -303,12 +414,28 @@ function criarCartao(orquidea) {
     artigo.className = "cartao";
 
     const raridade =
-        Number(orquidea.avaliacoes?.raridade) || 0;
+        Number(
+            orquidea.avaliacoes?.raridade
+        ) || 0;
 
     artigo.innerHTML = `
         ${criarGaleriaCartao(orquidea)}
 
         <div class="conteudo-cartao">
+
+            <div class="linha-status-cartao">
+
+                ${criarStatusFloracao(orquidea)}
+
+                <span
+                    class="raridade-cartao"
+                    title="Raridade: ${raridade} de 5"
+                    aria-label="Raridade: ${raridade} de 5"
+                >
+                    ${criarEstrelas(raridade)}
+                </span>
+
+            </div>
 
             <div class="etiquetas">
 
@@ -332,21 +459,9 @@ function criarCartao(orquidea) {
 
             </div>
 
-            <div class="cabecalho-cartao">
-
-                <h2 class="nome-cientifico">
-                    ${orquidea.nome}
-                </h2>
-
-                <span
-                    class="raridade-cartao"
-                    title="Raridade: ${raridade} de 5"
-                    aria-label="Raridade: ${raridade} de 5"
-                >
-                    ${criarEstrelas(raridade)}
-                </span>
-
-            </div>
+            <h2 class="nome-cientifico">
+                ${orquidea.nome}
+            </h2>
 
             <div class="resumo-cartao">
                 ${criarResumo(orquidea)}
@@ -372,6 +487,9 @@ function criarCartao(orquidea) {
 ========================================================= */
 
 function criarTextoPesquisa(orquidea) {
+    const status =
+        obterStatusFloracao(orquidea);
+
     const campos = [
         orquidea.nome,
         orquidea.genero,
@@ -386,6 +504,7 @@ function criarTextoPesquisa(orquidea) {
         orquidea.dificuldade,
         orquidea.suporte,
         orquidea.substrato,
+        status.texto,
         ...(orquidea.caracteristicas || [])
     ];
 
@@ -446,11 +565,8 @@ function orquideaCorrespondeAosFiltros(orquidea) {
         dificuldade === "" ||
         orquidea.dificuldade === dificuldade;
 
-    const meses = Array.isArray(
-        orquidea.mesesFloracao
-    )
-        ? orquidea.mesesFloracao.map(Number)
-        : [];
+    const meses =
+        normalizarMesesFloracao(orquidea);
 
     const correspondeFloracao =
         mesFloracao === 0 ||
@@ -491,72 +607,86 @@ function ordenarResultados(lista) {
 
     const resultado = [...lista];
 
-    resultado.sort((orquideaA, orquideaB) => {
-        const nomeA =
-            orquideaA.nome || "";
+    resultado.sort(
+        (orquideaA, orquideaB) => {
+            const nomeA =
+                orquideaA.nome || "";
 
-        const nomeB =
-            orquideaB.nome || "";
+            const nomeB =
+                orquideaB.nome || "";
 
-        const raridadeA =
-            Number(
-                orquideaA.avaliacoes?.raridade
-            ) || 0;
+            const raridadeA =
+                Number(
+                    orquideaA.avaliacoes?.raridade
+                ) || 0;
 
-        const raridadeB =
-            Number(
-                orquideaB.avaliacoes?.raridade
-            ) || 0;
+            const raridadeB =
+                Number(
+                    orquideaB.avaliacoes?.raridade
+                ) || 0;
 
-        const cultivoA =
-            obterNivelDificuldade(
-                orquideaA.dificuldade
-            );
-
-        const cultivoB =
-            obterNivelDificuldade(
-                orquideaB.dificuldade
-            );
-
-        switch (tipoOrdenacao) {
-            case "nome-za":
-                return compararTextos(
-                    nomeB,
-                    nomeA
+            const cultivoA =
+                obterNivelDificuldade(
+                    orquideaA.dificuldade
                 );
 
-            case "raridade-maior":
-                return (
-                    raridadeB - raridadeA ||
-                    compararTextos(nomeA, nomeB)
+            const cultivoB =
+                obterNivelDificuldade(
+                    orquideaB.dificuldade
                 );
 
-            case "raridade-menor":
-                return (
-                    raridadeA - raridadeB ||
-                    compararTextos(nomeA, nomeB)
-                );
+            switch (tipoOrdenacao) {
+                case "nome-za":
+                    return compararTextos(
+                        nomeB,
+                        nomeA
+                    );
 
-            case "cultivo-facil":
-                return (
-                    cultivoA - cultivoB ||
-                    compararTextos(nomeA, nomeB)
-                );
+                case "raridade-maior":
+                    return (
+                        raridadeB - raridadeA ||
+                        compararTextos(
+                            nomeA,
+                            nomeB
+                        )
+                    );
 
-            case "cultivo-dificil":
-                return (
-                    cultivoB - cultivoA ||
-                    compararTextos(nomeA, nomeB)
-                );
+                case "raridade-menor":
+                    return (
+                        raridadeA - raridadeB ||
+                        compararTextos(
+                            nomeA,
+                            nomeB
+                        )
+                    );
 
-            case "nome-az":
-            default:
-                return compararTextos(
-                    nomeA,
-                    nomeB
-                );
+                case "cultivo-facil":
+                    return (
+                        cultivoA - cultivoB ||
+                        compararTextos(
+                            nomeA,
+                            nomeB
+                        )
+                    );
+
+                case "cultivo-dificil":
+                    return (
+                        cultivoB - cultivoA ||
+                        compararTextos(
+                            nomeA,
+                            nomeB
+                        )
+                    );
+
+                case "nome-az":
+                default:
+                    return compararTextos(
+                        nomeA,
+                        nomeB
+                    );
+            }
         }
-    });
+    );
 
     return resultado;
 }
@@ -701,11 +831,7 @@ function atualizarModoVisualizacao() {
     );
 }
 
-function selecionarModoGaleria() {
-    modoVisualizacao = "galeria";
-
-    atualizarModoVisualizacao();
-
+function salvarModoVisualizacao() {
     try {
         localStorage.setItem(
             "modoCatalogoOrquideas",
@@ -718,21 +844,18 @@ function selecionarModoGaleria() {
     }
 }
 
+function selecionarModoGaleria() {
+    modoVisualizacao = "galeria";
+
+    atualizarModoVisualizacao();
+    salvarModoVisualizacao();
+}
+
 function selecionarModoLista() {
     modoVisualizacao = "lista";
 
     atualizarModoVisualizacao();
-
-    try {
-        localStorage.setItem(
-            "modoCatalogoOrquideas",
-            modoVisualizacao
-        );
-    } catch (erro) {
-        console.warn(
-            "Não foi possível salvar o modo de visualização."
-        );
-    }
+    salvarModoVisualizacao();
 }
 
 /* =========================================================
