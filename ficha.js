@@ -44,6 +44,7 @@ function criarAvaliacao(titulo, nota) {
             <span
                 class="estrelas"
                 aria-label="${nota} de 5 estrelas"
+                title="${nota} de 5"
             >
                 ${criarEstrelas(nota)}
             </span>
@@ -54,7 +55,6 @@ function criarAvaliacao(titulo, nota) {
 function criarCalendarioFloracao(mesesAtivos) {
     return nomesMeses.map((mes, indice) => {
         const numeroMes = indice + 1;
-
         const ativo = mesesAtivos.includes(numeroMes);
 
         return `
@@ -83,7 +83,7 @@ function criarGaleria(fotos) {
             class="foto-galeria"
             type="button"
             data-indice="${indice}"
-            aria-label="Abrir foto ${indice + 1}"
+            aria-label="Ampliar foto ${indice + 1} de ${orquidea.nome}"
         >
             <img
                 src="${foto}"
@@ -91,6 +91,50 @@ function criarGaleria(fotos) {
             >
         </button>
     `).join("");
+}
+
+function mostrarMensagemBotao(botao, mensagem) {
+    const textoOriginal = botao.innerHTML;
+
+    botao.innerHTML = mensagem;
+    botao.disabled = true;
+
+    setTimeout(() => {
+        botao.innerHTML = textoOriginal;
+        botao.disabled = false;
+    }, 1800);
+}
+
+async function copiarLinkFicha(botao) {
+    const link = window.location.href;
+
+    try {
+        await navigator.clipboard.writeText(link);
+
+        mostrarMensagemBotao(
+            botao,
+            "✅ Link copiado"
+        );
+    } catch (erro) {
+        const campoTemporario =
+            document.createElement("textarea");
+
+        campoTemporario.value = link;
+        campoTemporario.style.position = "fixed";
+        campoTemporario.style.opacity = "0";
+
+        document.body.appendChild(campoTemporario);
+
+        campoTemporario.select();
+        document.execCommand("copy");
+
+        campoTemporario.remove();
+
+        mostrarMensagemBotao(
+            botao,
+            "✅ Link copiado"
+        );
+    }
 }
 
 if (!orquidea) {
@@ -103,30 +147,56 @@ if (!orquidea) {
     ficha.innerHTML = `
         <section class="cabecalho-especie">
 
-            <div>
-                <div class="etiquetas">
-                    <span class="etiqueta">
-                        ${orquidea.tipo}
-                    </span>
+            <div class="linha-superior-especie">
 
-                    <span class="etiqueta">
-                        ${orquidea.genero}
-                    </span>
+                <div class="identificacao-especie">
 
-                    <span class="etiqueta">
-                        Cultivo ${orquidea.dificuldade}
-                    </span>
+                    <div class="etiquetas">
+                        <span class="etiqueta">
+                            ${orquidea.tipo}
+                        </span>
+
+                        <span class="etiqueta">
+                            ${orquidea.genero}
+                        </span>
+
+                        <span class="etiqueta">
+                            Cultivo ${orquidea.dificuldade}
+                        </span>
+                    </div>
+
+                    <h2 class="titulo-ficha">
+                        ${orquidea.nome}
+                    </h2>
+
+                    <div class="lista-caracteristicas">
+                        ${criarCaracteristicas(
+                            orquidea.caracteristicas
+                        )}
+                    </div>
+
                 </div>
 
-                <h2 class="titulo-ficha">
-                    ${orquidea.nome}
-                </h2>
+                <div class="acoes-ficha">
 
-                <div class="lista-caracteristicas">
-                    ${criarCaracteristicas(
-                        orquidea.caracteristicas
-                    )}
+                    <button
+                        id="imprimir-ficha"
+                        class="botao-acao-ficha botao-imprimir"
+                        type="button"
+                    >
+                        🖨️ Imprimir / Salvar em PDF
+                    </button>
+
+                    <button
+                        id="copiar-link"
+                        class="botao-acao-ficha botao-copiar"
+                        type="button"
+                    >
+                        🔗 Copiar link
+                    </button>
+
                 </div>
+
             </div>
 
         </section>
@@ -256,6 +326,17 @@ if (!orquidea) {
                 <p>${orquidea.dica}</p>
             </section>
 
+            <section class="rodape-ficha-impressao">
+                <p>
+                    Ficha de cultivo do
+                    <strong>Catálogo de Orquídeas</strong>
+                </p>
+
+                <p>
+                    Coleção particular cultivada em Serra/ES
+                </p>
+            </section>
+
         </section>
 
         <div
@@ -299,6 +380,20 @@ if (!orquidea) {
             <span id="contador-fotos"></span>
         </div>
     `;
+
+    const botaoImprimir =
+        document.getElementById("imprimir-ficha");
+
+    const botaoCopiarLink =
+        document.getElementById("copiar-link");
+
+    botaoImprimir.addEventListener("click", () => {
+        window.print();
+    });
+
+    botaoCopiarLink.addEventListener("click", () => {
+        copiarLinkFicha(botaoCopiarLink);
+    });
 
     let indiceAtual = 0;
 
