@@ -2279,3 +2279,77 @@ body {
     .catalogo:not(.catalogo-lista) .informacoes-cartao {
         grid-template-columns: 1fr;
     }
+}
+
+/* =========================================================
+   V4 — GALERIA EM TRÊS COLUNAS
+========================================================= */
+
+.catalogo:not(.catalogo-lista) {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 20px;
+}
+
+.catalogo:not(.catalogo-lista) .area-imagem-cartao {
+    height: 170px;
+    min-height: 170px;
+}
+
+.catalogo:not(.catalogo-lista) .conteudo-cartao {
+    padding: 16px;
+}
+
+.catalogo:not(.catalogo-lista) .identificacao-cartao h3 {
+    font-size: 20px;
+}
+
+.catalogo:not(.catalogo-lista) .descricao-cartao {
+    font-size: 13px;
+    -webkit-line-clamp: 2;
+}
+
+.catalogo:not(.catalogo-lista) .caracteristicas-cartao span {
+    padding: 5px 8px;
+    font-size: 11px;
+}
+
+.catalogo:not(.catalogo-lista) .informacoes-cartao {
+    padding: 10px;
+}
+
+.catalogo:not(.catalogo-lista) .informacao-cartao strong {
+    font-size: 10px;
+}
+
+.catalogo:not(.catalogo-lista) .informacao-cartao div span {
+    font-size: 11px;
+}
+
+.catalogo:not(.catalogo-lista) .botao-ficha-completa {
+    min-height: 40px;
+    font-size: 13px;
+}
+
+/* Duas colunas em telas intermediárias */
+@media (max-width: 1050px) {
+    .catalogo:not(.catalogo-lista) {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+
+    .catalogo:not(.catalogo-lista) .area-imagem-cartao {
+        height: 185px;
+        min-height: 185px;
+    }
+}
+
+/* Uma coluna em celulares */
+@media (max-width: 700px) {
+    .catalogo:not(.catalogo-lista) {
+        grid-template-columns: 1fr !important;
+    }
+
+    .catalogo:not(.catalogo-lista) .area-imagem-cartao {
+        height: 215px;
+        min-height: 215px;
+    }
+}
