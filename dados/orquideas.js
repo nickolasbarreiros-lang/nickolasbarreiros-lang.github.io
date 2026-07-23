@@ -1,4 +1,4 @@
-      const orquideas = [
+     export const orquideas = [
     {
         id: "dendrobium-polysema",
 
