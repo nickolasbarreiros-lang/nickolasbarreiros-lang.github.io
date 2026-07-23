@@ -15,39 +15,92 @@
 
     <title>Ficha da Orquídea</title>
 
-    <link rel="stylesheet" href="estilos.css">
+    <link
+        rel="stylesheet"
+        href="estilos.css?v=32"
+    >
 </head>
 
 <body>
 
     <header class="cabecalho">
-        <h1>Ficha da Orquídea</h1>
 
-        <p>
-            Catálogo particular cultivado em Serra/ES
-        </p>
+        <div class="conteudo-cabecalho">
+
+            <div class="icone-cabecalho" aria-hidden="true">
+                🌸
+            </div>
+
+            <div>
+
+                <h1>
+                    Ficha da Orquídea
+                </h1>
+
+                <p>
+                    Catálogo particular cultivado em Serra/ES
+                </p>
+
+            </div>
+
+        </div>
+
     </header>
 
     <main class="container">
 
-        <a class="voltar" href="index.html">
+        <a
+            class="voltar"
+            href="index.html"
+        >
             ← Voltar ao catálogo
         </a>
 
-        <article id="ficha" class="ficha-detalhada"></article>
+        <article
+            id="ficha"
+            class="ficha-detalhada"
+        ></article>
 
-        <div id="ficha-nao-encontrada" class="sem-resultados">
-            Orquídea não encontrada.
+        <div
+            id="ficha-nao-encontrada"
+            class="sem-resultados"
+        >
+
+            <span
+                class="icone-sem-resultados"
+                aria-hidden="true"
+            >
+                🌱
+            </span>
+
+            <h3>
+                Orquídea não encontrada
+            </h3>
+
+            <p>
+                Não foi possível localizar esta espécie no catálogo.
+            </p>
+
         </div>
 
     </main>
 
     <footer class="rodape">
-        Catálogo particular de orquídeas
+
+        <p>
+            Catálogo particular de orquídeas
+        </p>
+
+        <span>
+            Cultivado em Serra/ES
+        </span>
+
     </footer>
 
-    <script src="dados/orquideas.js"></script>
-    <script src="ficha.js"></script>
+    <script
+        type="module"
+        src="ficha.js"
+    ></script>
 
 </body>
 </html>
