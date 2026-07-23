@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f6f1;
+    color: #243127;
+}
+
+.cabecalho {
+    padding: 45px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #244d32, #39734b);
+    color: white;
+}
+
+.cabecalho h1 {
+    margin: 0 0 10px;
+    font-size: clamp(30px, 5vw, 48px);
+}
+
+.cabecalho p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.container {
+    width: min(1200px, 92%);
+    margin: 30px auto;
+}
+
+.painel-filtros {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.campo {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #b9c9bd;
+    border-radius: 10px;
+    background: white;
+    font-size: 16px;
+    outline: none;
+}
+
+.campo:focus {
+    border-color: #39734b;
+    box-shadow: 0 0 0 3px rgba(57, 115, 75, 0.15);
+}
+
+.contador {
+    margin-bottom: 18px;
+    color: #526157;
+    font-size: 15px;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 24px;
+}
+
+.cartao {
+    overflow: hidden;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(20, 40, 25, 0.12);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.cartao:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(20, 40, 25, 0.18);
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 130px 130px;
+    gap: 3px;
+    background: #d8dfda;
+}
+
+.galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.galeria img:first-child {
+    grid-row: 1 / 3;
+}
+
+.conteudo-cartao {
+    padding: 20px;
+}
+
+.etiquetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 12px;
+}
+
+.etiqueta {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: #e0efe3;
+    color: #285039;
+    font-size: 13px;
+}
+
+.nome-cientifico {
+    margin: 0 0 14px;
+    color: #245d39;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.resumo {
+    margin: 8px 0;
+    line-height: 1.55;
+}
+
+.botao-detalhes {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 11px 16px;
+    border-radius: 8px;
+    background: #315f3e;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s ease;
+}
+
+.botao-detalhes:hover {
+    background: #244a30;
+}
+
+.sem-resultados {
+    display: none;
+    padding: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 12px;
+    color: #5a655d;
+}
+
+.rodape {
+    margin-top: 45px;
+    padding: 28px 20px;
+    text-align: center;
+    background: #203429;
+    color: white;
+}
+
+@media (max-width: 750px) {
+    .painel-filtros {
+        grid-template-columns: 1fr;
+    }
+
+    .galeria {
+        grid-template-rows: 110px 110px;
+    }
+
+    .cabecalho {
+        padding: 35px 18px;
+    }
+}
+
+@media (max-width: 420px) {
+    .container {
+        width: 94%;
+    }
+
+    .catalogo {
+        grid-template-columns: 1fr;
+    }
+
+    .nome-cientifico {
+        font-size: 21px;
+    }
+}
