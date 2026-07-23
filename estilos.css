@@ -1,3 +1,7 @@
+/* ======================================================
+   CONFIGURAÇÕES GERAIS
+====================================================== */
+
 * {
     box-sizing: border-box;
 }
@@ -14,10 +18,13 @@ body {
 }
 
 img {
+    display: block;
     max-width: 100%;
 }
 
-/* CABEÇALHO */
+/* ======================================================
+   CABEÇALHO
+====================================================== */
 
 .cabecalho {
     padding: 42px 20px;
@@ -36,14 +43,18 @@ img {
     font-size: 18px;
 }
 
-/* CONTEÚDO GERAL */
+/* ======================================================
+   CONTEÚDO GERAL
+====================================================== */
 
 .container {
     width: min(1200px, 94%);
     margin: 30px auto;
 }
 
-/* FILTROS */
+/* ======================================================
+   FILTROS DA PÁGINA INICIAL
+====================================================== */
 
 .painel-filtros {
     display: grid;
@@ -74,7 +85,9 @@ img {
     font-size: 15px;
 }
 
-/* CATÁLOGO */
+/* ======================================================
+   CATÁLOGO
+====================================================== */
 
 .catalogo {
     display: grid;
@@ -97,18 +110,20 @@ img {
     box-shadow: 0 12px 28px rgba(20, 40, 25, 0.18);
 }
 
-/* GALERIA DOS CARTÕES */
+/* ======================================================
+   GALERIA DOS CARTÕES
+====================================================== */
 
 .galeria {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 132px 132px;
     gap: 3px;
+    overflow: hidden;
     background: #d8dfda;
 }
 
 .galeria img {
-    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -118,7 +133,9 @@ img {
     grid-row: 1 / 3;
 }
 
-/* CONTEÚDO DOS CARTÕES */
+/* ======================================================
+   CONTEÚDO DOS CARTÕES
+====================================================== */
 
 .conteudo-cartao {
     padding: 20px;
@@ -171,7 +188,9 @@ img {
     transform: translateY(-1px);
 }
 
-/* SEM RESULTADOS */
+/* ======================================================
+   MENSAGEM SEM RESULTADOS
+====================================================== */
 
 .sem-resultados {
     display: none;
@@ -183,17 +202,9 @@ img {
     box-shadow: 0 5px 18px rgba(20, 40, 25, 0.08);
 }
 
-/* RODAPÉ */
-
-.rodape {
-    margin-top: 45px;
-    padding: 28px 20px;
-    text-align: center;
-    background: #203429;
-    color: white;
-}
-
-/* LINK VOLTAR */
+/* ======================================================
+   LINK VOLTAR
+====================================================== */
 
 .voltar {
     display: inline-block;
@@ -207,7 +218,9 @@ img {
     text-decoration: underline;
 }
 
-/* FICHA DETALHADA */
+/* ======================================================
+   FICHA DETALHADA
+====================================================== */
 
 .ficha-detalhada {
     overflow: hidden;
@@ -216,19 +229,28 @@ img {
     box-shadow: 0 8px 28px rgba(20, 40, 25, 0.14);
 }
 
-/* GALERIA DA FICHA */
+/* ======================================================
+   GALERIA DA FICHA DETALHADA
+
+   FOTO 1: grande à esquerda
+   FOTO 2: superior direita
+   FOTO 3: inferior direita
+====================================================== */
 
 .galeria-detalhada {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 250px 250px;
     gap: 4px;
+    width: 100%;
+    height: 504px;
+    overflow: hidden;
     background: #d8dfda;
 }
 
 .galeria-detalhada img {
-    display: block;
     width: 100%;
-    height: 360px;
+    height: 100%;
     object-fit: cover;
     cursor: zoom-in;
     transition:
@@ -236,12 +258,22 @@ img {
         filter 0.25s ease;
 }
 
-.galeria-detalhada img:hover {
-    transform: scale(1.01);
-    filter: brightness(1.03);
+/* Primeira foto ocupa toda a coluna esquerda */
+
+.galeria-detalhada img:first-child {
+    grid-row: 1 / 3;
 }
 
-/* CONTEÚDO DA FICHA */
+/* Efeito ao passar o mouse */
+
+.galeria-detalhada img:hover {
+    transform: scale(1.015);
+    filter: brightness(1.04);
+}
+
+/* ======================================================
+   CONTEÚDO DA FICHA
+====================================================== */
 
 .conteudo-ficha {
     padding: 30px;
@@ -278,7 +310,9 @@ img {
     line-height: 1.65;
 }
 
-/* DICA DE OURO */
+/* ======================================================
+   DICA DE OURO
+====================================================== */
 
 .dica-ouro {
     margin-top: 22px;
@@ -298,7 +332,21 @@ img {
     line-height: 1.65;
 }
 
-/* RESPONSIVIDADE */
+/* ======================================================
+   RODAPÉ
+====================================================== */
+
+.rodape {
+    margin-top: 45px;
+    padding: 28px 20px;
+    text-align: center;
+    background: #203429;
+    color: white;
+}
+
+/* ======================================================
+   TABLETS
+====================================================== */
 
 @media (max-width: 900px) {
     .painel-filtros {
@@ -310,11 +358,24 @@ img {
     }
 
     .galeria-detalhada {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 360px 220px;
+        height: auto;
     }
 
-    .galeria-detalhada img {
-        height: 320px;
+    .galeria-detalhada img:first-child {
+        grid-column: 1 / 3;
+        grid-row: 1;
+    }
+
+    .galeria-detalhada img:nth-child(2) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .galeria-detalhada img:nth-child(3) {
+        grid-column: 2;
+        grid-row: 2;
     }
 
     .grade-informacoes {
@@ -325,6 +386,10 @@ img {
         padding: 24px;
     }
 }
+
+/* ======================================================
+   CELULARES
+====================================================== */
 
 @media (max-width: 600px) {
     .cabecalho {
@@ -356,12 +421,29 @@ img {
         font-size: 22px;
     }
 
-    .conteudo-ficha {
-        padding: 18px;
+    .galeria-detalhada {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 280px 150px;
+        gap: 3px;
     }
 
-    .galeria-detalhada img {
-        height: 260px;
+    .galeria-detalhada img:first-child {
+        grid-column: 1 / 3;
+        grid-row: 1;
+    }
+
+    .galeria-detalhada img:nth-child(2) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .galeria-detalhada img:nth-child(3) {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .conteudo-ficha {
+        padding: 18px;
     }
 
     .titulo-ficha {
