@@ -1,33 +1,38 @@
-// Cadastro gerado a partir do álbum de orquídeas.
-// Preencha os campos vazios quando revisar esta planta.
+// Ficha revisada no Sprint 2 — Lote 2.
 
 export const maxillariaSchunkeana = {
     id: "maxillaria-schunkeana",
     nome: "Maxillaria schunkeana",
     genero: "Maxillaria",
-    tipo: "",
-    dificuldade: "",
-    caracteristicas: [],
-    fotos: [],
-    descricao: "",
-    origem: "",
-    regiao: "",
-    habitat: "",
-    clima: "",
-    iluminacao: "",
-    floracao: "",
-    adubacao: "",
-    rega: "",
-    suporte: "",
-    substrato: "",
-    dica: "",
-    mesesFloracao: [],
+    tipo: "Espécie botânica",
+    dificuldade: "Moderada",
+    caracteristicas: [
+        "Endêmica do Espírito Santo",
+        "Flor quase negra",
+        "Miniatura",
+        "Clima montano",
+    ],
+    fotos: [
+    ],
+    descricao: "Espécie capixaba famosa por produzir flores em tom vinho extremamente escuro, visualmente quase negro. É frequentemente encontrada no comércio como Maxillaria schunkeana; a combinação Brasiliorchis schunkeana também é usada na taxonomia moderna.",
+    origem: "Brasil",
+    regiao: "Espírito Santo, em áreas montanas da Mata Atlântica",
+    habitat: "Epífita em florestas úmidas e sombreadas de altitude.",
+    clima: "Intermediário a fresco, úmido e ventilado.",
+    iluminacao: "Luz filtrada média, sem exposição ao sol forte.",
+    floracao: "Pode florescer em diferentes épocas, com maior frequência entre inverno e primavera.",
+    adubacao: "Adubo equilibrado diluído durante o ano, reduzindo no frio. Orgânico leve em vaso, sem excesso.",
+    rega: "Regular, mantendo umidade moderada e permitindo leve secagem superficial.",
+    suporte: "Vaso pequeno, cachepô ou placa com boa reserva de umidade.",
+    substrato: "Casca fina, carvão, pedra-pomes e esfagno em proporção moderada.",
+    dica: "Em Serra/ES, evite o setor mais quente. Um cachepô pequeno com umidade estável e vento constante costuma funcionar melhor que vaso totalmente fechado.",
+    mesesFloracao: [6, 7, 8, 9, 10, 11],
     avaliacoes: {
-        cultivo: 0,
-        floracao: 0,
-        perfume: 0,
-        luminosidade: 0,
-        agua: 0,
-        raridade: 0
+        cultivo: 3,
+        floracao: 3,
+        perfume: 1,
+        luminosidade: 2,
+        agua: 4,
+        raridade: 5
     }
 };

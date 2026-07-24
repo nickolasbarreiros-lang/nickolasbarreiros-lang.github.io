@@ -24,3 +24,10 @@
 - Revisadas: Cattleya walkeriana; Cattleya nobilior var. amaliae; duas formas de Cattleya violacea; Brassavola perrinii; Rodriguezia lanceolata; Ornithophora radicans; Dendrobium loddigesii; Zygopetalum maculatum; Encyclia bracteata.
 - Meses de floração representam janelas prováveis em cultivo no Sudeste e podem variar conforme clone e microclima.
 
+
+## Sprint 2 — Lote 2
+
+- Revisadas e preenchidas 25 fichas adicionais.
+- Padronizados clima, iluminação, floração, adubação, rega, suporte, substrato e dica para Serra/ES.
+- Registradas observações taxonômicas nos textos quando o nome comercial difere do nome aceito moderno.
+- Mantida a estrutura de dados atual para preservar compatibilidade com o site.
