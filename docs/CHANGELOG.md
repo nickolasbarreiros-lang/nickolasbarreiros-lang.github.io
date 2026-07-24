@@ -53,3 +53,11 @@
 - Corrigido o índice de módulos.
 - Identificações duvidosas foram sinalizadas para conferência futura.
 
+## Sprint 3 — Ficha visual V3
+
+- Adicionada navegação fixa entre as seções da ficha.
+- Criado selo indicando conteúdo adaptado para Serra/ES.
+- Melhorados cabeçalho, galeria, cartões e interações visuais.
+- Adicionado botão flutuante para voltar ao topo.
+- Mantida uma única interface reutilizável para todas as orquídeas.
+- Preservada a estrutura individual de dados de cada planta.

@@ -360,6 +360,10 @@ if (!orquidea) {
                         )}
                     </span>
 
+                    <span class="etiqueta-v2 etiqueta-serra-v3">
+                        📍 Guia adaptado para Serra/ES
+                    </span>
+
                 </div>
 
                 <h2 class="titulo-ficha-v2">
@@ -398,7 +402,15 @@ if (!orquidea) {
 
         </section>
 
-        <section class="apresentacao-v2">
+        <nav class="navegacao-ficha-v3" aria-label="Seções da ficha">
+            <a href="#visao-geral">Visão geral</a>
+            <a href="#sobre-especie">Sobre</a>
+            <a href="#guia-cultivo">Cultivo</a>
+            <a href="#avaliacao-especie">Avaliações</a>
+            <a href="#dica-serra">Dica Serra/ES</a>
+        </nav>
+
+        <section id="visao-geral" class="apresentacao-v2 secao-ancora-v3">
 
             <div class="area-galeria-v2">
 
@@ -484,7 +496,7 @@ if (!orquidea) {
 
         </section>
 
-        <section class="descricao-v2">
+        <section id="sobre-especie" class="descricao-v2 secao-ancora-v3">
 
             <div class="titulo-secao-v2">
 
@@ -505,7 +517,7 @@ if (!orquidea) {
 
         </section>
 
-        <section class="secao-cultivo-v2">
+        <section id="guia-cultivo" class="secao-cultivo-v2 secao-ancora-v3">
 
             <div class="titulo-secao-v2">
 
@@ -643,7 +655,7 @@ if (!orquidea) {
 
         </section>
 
-        <section class="painel-dados-v2">
+        <section id="avaliacao-especie" class="painel-dados-v2 secao-ancora-v3">
 
             <div class="avaliacoes-v2">
 
@@ -723,7 +735,7 @@ if (!orquidea) {
 
         </section>
 
-        <section class="dica-ouro-v2">
+        <section id="dica-serra" class="dica-ouro-v2 secao-ancora-v3">
 
             <div class="icone-dica-v2">
                 💡
@@ -732,7 +744,7 @@ if (!orquidea) {
             <div>
 
                 <h3>
-                    Dica de ouro
+                    Dica de ouro para Serra/ES
                 </h3>
 
                 <p>
@@ -745,6 +757,16 @@ if (!orquidea) {
             </div>
 
         </section>
+
+        <button
+            id="voltar-topo-v3"
+            class="voltar-topo-v3"
+            type="button"
+            aria-label="Voltar ao início da ficha"
+            title="Voltar ao início"
+        >
+            ↑
+        </button>
 
         <div
             id="visualizador-v2"
@@ -823,6 +845,29 @@ if (!orquidea) {
             );
         }
     );
+
+    const botaoVoltarTopo =
+        document.getElementById("voltar-topo-v3");
+
+    const atualizarBotaoTopo = () => {
+        botaoVoltarTopo.classList.toggle(
+            "voltar-topo-v3-visivel",
+            window.scrollY > 520
+        );
+    };
+
+    window.addEventListener("scroll", atualizarBotaoTopo, {
+        passive: true
+    });
+
+    botaoVoltarTopo.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+
+    atualizarBotaoTopo();
 
     /* =====================================================
        GALERIA AMPLIADA

@@ -3334,3 +3334,220 @@ body {
         min-height: 0;
     }
 }
+
+
+/* =========================================================
+   FICHA DETALHADA V3 — NAVEGAÇÃO E ACABAMENTO
+========================================================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.pagina-ficha {
+    background:
+        radial-gradient(circle at 10% 0%, rgba(89, 154, 105, 0.10), transparent 28rem),
+        linear-gradient(180deg, #f7faf7 0%, #eef5ef 100%);
+}
+
+.pagina-ficha .cabecalho {
+    position: relative;
+    overflow: hidden;
+    background:
+        linear-gradient(135deg, rgba(19, 75, 42, 0.96), rgba(48, 119, 69, 0.92));
+}
+
+.pagina-ficha .cabecalho::after {
+    content: "🌿";
+    position: absolute;
+    right: 7%;
+    bottom: -35px;
+    color: rgba(255, 255, 255, 0.10);
+    font-size: 150px;
+    transform: rotate(-14deg);
+    pointer-events: none;
+}
+
+.voltar-ficha-v3 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 42px;
+    padding: 9px 14px;
+    color: #245f3b;
+    background: rgba(255, 255, 255, 0.82);
+    border: 1px solid #cfdfd2;
+    border-radius: 999px;
+    box-shadow: 0 6px 20px rgba(31, 74, 45, 0.07);
+    text-decoration: none;
+    font-weight: 800;
+    backdrop-filter: blur(10px);
+}
+
+.voltar-ficha-v3:hover {
+    background: #ffffff;
+    transform: translateY(-1px);
+}
+
+.etiqueta-serra-v3 {
+    color: #765000;
+    background: #fff7d8;
+    border-color: #ead38a;
+}
+
+.navegacao-ficha-v3 {
+    position: sticky;
+    top: 10px;
+    z-index: 40;
+    display: flex;
+    gap: 8px;
+    margin-top: 14px;
+    padding: 8px;
+    overflow-x: auto;
+    background: rgba(255, 255, 255, 0.90);
+    border: 1px solid #d8e5da;
+    border-radius: 14px;
+    box-shadow: 0 9px 24px rgba(31, 74, 45, 0.09);
+    scrollbar-width: thin;
+    backdrop-filter: blur(14px);
+}
+
+.navegacao-ficha-v3 a {
+    flex: 0 0 auto;
+    padding: 9px 13px;
+    color: #315e40;
+    border-radius: 9px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 800;
+    transition: background 0.18s ease, color 0.18s ease;
+}
+
+.navegacao-ficha-v3 a:hover,
+.navegacao-ficha-v3 a:focus-visible {
+    color: #ffffff;
+    background: #2b683f;
+    outline: none;
+}
+
+.secao-ancora-v3 {
+    scroll-margin-top: 82px;
+}
+
+.topo-ficha-v2 {
+    background:
+        linear-gradient(135deg, #ffffff 0%, #f5faf6 100%);
+}
+
+.foto-principal-v2,
+.miniatura-v2 {
+    position: relative;
+}
+
+.foto-principal-v2::after,
+.miniatura-v2::after {
+    content: "Ampliar";
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 5px 9px;
+    color: #ffffff;
+    background: rgba(10, 34, 18, 0.72);
+    border-radius: 999px;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    font-size: 11px;
+    font-weight: 800;
+    pointer-events: none;
+}
+
+.foto-principal-v2:hover::after,
+.miniatura-v2:hover::after,
+.foto-principal-v2:focus-visible::after,
+.miniatura-v2:focus-visible::after {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card-cultivo-v2,
+.resumo-item-v2,
+.avaliacao-v2,
+.mes-floracao-v2 {
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.card-cultivo-v2:hover,
+.avaliacao-v2:hover,
+.mes-floracao-v2:hover {
+    transform: translateY(-2px);
+    border-color: #b9d1be;
+    box-shadow: 0 8px 18px rgba(31, 74, 45, 0.08);
+}
+
+.voltar-topo-v3 {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    z-index: 80;
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    color: #ffffff;
+    background: #27663d;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 50%;
+    box-shadow: 0 12px 30px rgba(22, 72, 39, 0.28);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(12px);
+    cursor: pointer;
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.voltar-topo-v3-visivel {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.voltar-topo-v3:hover {
+    background: #1d5431;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 620px) {
+    .navegacao-ficha-v3 {
+        top: 6px;
+        margin-right: -4px;
+        margin-left: -4px;
+        border-radius: 12px;
+    }
+
+    .navegacao-ficha-v3 a {
+        padding: 8px 11px;
+        font-size: 12px;
+    }
+
+    .pagina-ficha .cabecalho::after {
+        right: -18px;
+        font-size: 110px;
+    }
+
+    .voltar-topo-v3 {
+        right: 14px;
+        bottom: 14px;
+        width: 44px;
+        height: 44px;
+    }
+}
+
+@media print {
+    .navegacao-ficha-v3,
+    .voltar-topo-v3 {
+        display: none !important;
+    }
+}
