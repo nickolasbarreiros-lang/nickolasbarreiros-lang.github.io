@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Catálogo particular de orquídeas cultivadas em Serra, Espírito Santo.">
-  <title>Catálogo de Orquídeas</title>
-  <link rel="stylesheet" href="estilos.css?v=40">
+  <meta name="description" content="Orquidário Digital: aprenda, cultive e descubra o fascinante mundo das orquídeas.">
+  <title>Orquidário Digital</title>
+  <link rel="stylesheet" href="estilos.css?v=41">
 </head>
 <body class="pagina-home-v4">
   <header class="topo-v4">
     <div class="topo-v4-conteudo">
-      <a class="marca-v4" href="#inicio" aria-label="Ir para o início">
-        <span class="marca-v4-icone">✿</span>
-        <span><strong>Catálogo</strong><small>de Orquídeas</small></span>
+      <a class="marca-v4" href="#inicio" aria-label="Ir para o início do Orquidário Digital">
+        <span class="marca-v4-icone" aria-hidden="true"><i></i></span>
+        <span><strong>Orquidário</strong><small>Digital</small></span>
       </a>
       <nav class="menu-v4" aria-label="Navegação principal">
         <a class="ativo" href="#inicio">⌂ Início</a>
@@ -29,8 +29,8 @@
     <section class="hero-v4">
       <div class="hero-v4-conteudo">
         <span class="hero-v4-selo">Coleção particular • Serra/ES</span>
-        <h1>Catálogo Brasileiro <span>🌸</span><br>de Orquídeas</h1>
-        <p>Descubra, aprenda e cultive a beleza das orquídeas brasileiras e de todo o mundo.</p>
+        <h1>Orquidário<br>Digital</h1>
+        <p>Aprenda, cultive e descubra o fascinante mundo das orquídeas.</p>
 
         <div class="busca-hero-v4">
           <span aria-hidden="true">⌕</span>
@@ -38,7 +38,12 @@
           <button id="botao-busca-hero" type="button">Buscar</button>
         </div>
 
-        <section class="painel-estatisticas estatisticas-v4" aria-label="Estatísticas do catálogo">
+        <div class="acoes-hero-v4">
+          <button class="botao-hero-v4 primario" type="button" data-destino="#catalogo-area">Explorar catálogo</button>
+          <button class="botao-hero-v4 secundario" type="button" data-destino="#floracoes">Floração do mês</button>
+        </div>
+
+        <section class="painel-estatisticas estatisticas-v4" aria-label="Estatísticas do Orquidário Digital">
           <article class="cartao-estatistica"><span>🍃</span><div><strong id="total-orquideas">0</strong><small>Espécies<br>cadastradas</small></div></article>
           <article class="cartao-estatistica"><span>🌿</span><div><strong id="total-generos">0</strong><small>Gêneros<br>diferentes</small></div></article>
           <article class="cartao-estatistica"><span>🇧🇷</span><div><strong id="total-origens">0</strong><small>Orquídeas<br>brasileiras</small></div></article>
@@ -49,7 +54,7 @@
 
     <div class="container-v4">
       <section class="explorar-v4" aria-labelledby="titulo-explorar">
-        <div class="titulo-secao-v4"><h2 id="titulo-explorar">Explore o catálogo</h2><span></span></div>
+        <div class="titulo-secao-v4"><h2 id="titulo-explorar">Explore o Orquidário</h2><span></span></div>
         <div class="atalhos-v4">
           <button class="atalho-v4" data-destino="#catalogo-area"><b>▤</b><strong>Catálogo</strong><small>Ver todas as espécies</small></button>
           <button class="atalho-v4" data-destino="#generos-v4"><b>❀</b><strong>Gêneros</strong><small>Explore por gênero</small></button>
@@ -108,7 +113,12 @@
     </div>
   </main>
 
-  <footer id="sobre-v4" class="rodape rodape-v4"><strong>Catálogo de Orquídeas</strong><p>Coleção particular cultivada em Serra/ES.</p><span>Informações adaptadas ao clima quente e úmido da região.</span></footer>
+  <footer id="sobre-v4" class="rodape rodape-v4">
+    <div class="rodape-v4-conteudo">
+      <div class="rodape-marca-v4"><span class="marca-v4-icone marca-v4-icone-rodape" aria-hidden="true"><i></i></span><div><strong>Orquidário Digital</strong><p>Aprenda, cultive e descubra o fascinante mundo das orquídeas.</p></div></div>
+      <div class="rodape-info-v4"><span>Coleção particular • Serra/ES</span><span>Informações de cultivo adaptadas ao clima da região.</span><small>© 2026 Orquidário Digital</small></div>
+    </div>
+  </footer>
   <script type="module" src="js/app.js"></script>
 </body>
 </html>

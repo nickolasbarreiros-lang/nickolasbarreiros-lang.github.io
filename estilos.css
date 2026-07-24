@@ -3632,3 +3632,68 @@ html{scroll-behavior:smooth}.pagina-home-v4{margin:0;background:#fff;color:var(-
 @media(max-width:1100px){.menu-v4{display:none}.atalhos-v4{grid-template-columns:repeat(4,1fr)}.grade-destaques-v4{grid-template-columns:repeat(3,1fr)}.grade-generos-v4{grid-template-columns:repeat(4,1fr)}.painel-pesquisa-v4 .painel-filtros-avancados{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:720px){.topo-v4-conteudo{min-height:68px;padding:0 16px}.marca-v4 strong{font-size:21px}.marca-v4 small{font-size:14px}.busca-topo-v4{display:none}.hero-v4{background:linear-gradient(rgba(244,249,238,.94),rgba(238,247,229,.96)),url('imagens/bifrenaria-verboonenii-1.jpg') center/cover}.hero-v4-conteudo{padding:38px 20px}.hero-v4 h1{font-size:40px}.busca-hero-v4 button{padding:0 16px}.estatisticas-v4{grid-template-columns:repeat(2,1fr)}.container-v4{padding:0 15px 45px}.atalhos-v4{grid-template-columns:repeat(2,1fr)}.grade-destaques-v4{grid-template-columns:1fr 1fr}.cartao-destaque-v4{height:225px}.grade-generos-v4{grid-template-columns:repeat(2,1fr)}.painel-pesquisa-v4 .painel-filtros-avancados{grid-template-columns:1fr}.area-resultados-v4{padding:14px}}
 @media(max-width:430px){.grade-destaques-v4{grid-template-columns:1fr}.atalhos-v4{gap:10px}.atalho-v4{min-height:135px;padding:16px 8px}}
+
+/* =========================================================
+   ORQUIDÁRIO DIGITAL — V4.1
+========================================================= */
+:root{
+  --od-verde:#0f5a2e;
+  --od-verde-2:#237342;
+  --od-verde-claro:#eaf5e6;
+  --od-creme:#fbfcf7;
+  --od-dourado:#d8a92f;
+  --od-texto:#20362a;
+}
+.pagina-home-v4{background:var(--od-creme);color:var(--od-texto)}
+.topo-v4{border-top:0;box-shadow:0 6px 24px rgba(21,65,38,.07)}
+.topo-v4-conteudo{min-height:88px;max-width:1460px}
+.marca-v4{min-width:250px;gap:14px}
+.marca-v4-icone{position:relative;overflow:hidden;width:58px;height:58px;background:linear-gradient(145deg,#eff8e9,#dcefd5);box-shadow:inset 0 0 0 1px rgba(15,90,46,.09)}
+.marca-v4-icone::before,.marca-v4-icone::after,.marca-v4-icone i::before,.marca-v4-icone i::after{content:"";position:absolute;width:21px;height:28px;background:var(--od-verde-2);border-radius:80% 20% 70% 30%;transform-origin:100% 100%}
+.marca-v4-icone::before{left:8px;top:8px;transform:rotate(-38deg)}
+.marca-v4-icone::after{right:8px;top:8px;transform:scaleX(-1) rotate(-38deg)}
+.marca-v4-icone i::before{left:10px;bottom:7px;transform:rotate(-132deg)}
+.marca-v4-icone i::after{right:10px;bottom:7px;transform:scaleX(-1) rotate(-132deg)}
+.marca-v4-icone i{position:absolute;left:50%;top:50%;width:12px;height:12px;border-radius:50%;background:#f4c44c;transform:translate(-50%,-50%);z-index:2}
+.marca-v4 strong{font-family:Georgia,'Times New Roman',serif;font-size:29px;letter-spacing:-.6px}
+.marca-v4 small{font-family:Georgia,'Times New Roman',serif;font-size:22px;color:var(--od-verde-2)}
+.menu-v4 a,.busca-topo-v4{font-size:15px}
+.hero-v4{position:relative;min-height:625px;background:linear-gradient(90deg,rgba(249,252,242,.99) 0%,rgba(249,252,242,.95) 41%,rgba(249,252,242,.15) 69%),url('imagens/interface/hero-orquidario-digital.jpg') center right/cover no-repeat;overflow:hidden}
+.hero-v4::after{content:"";position:absolute;inset:auto 0 0;height:105px;background:linear-gradient(180deg,rgba(251,252,247,0),var(--od-creme));pointer-events:none}
+.hero-v4-conteudo{position:relative;z-index:2;max-width:1460px;margin:auto;padding:72px 56px 34px}
+.hero-v4-selo{background:#e3f1dc;color:var(--od-verde);letter-spacing:.05em}
+.hero-v4 h1{max-width:630px;margin:22px 0 18px;font-family:Georgia,'Times New Roman',serif;font-size:clamp(64px,6vw,96px);line-height:.88;letter-spacing:-3.5px;color:#0e542b;text-wrap:balance}
+.hero-v4 p{max-width:620px;margin:0 0 26px;font-family:Georgia,'Times New Roman',serif;font-size:23px;line-height:1.35;color:#294536}
+.busca-hero-v4{max-width:650px;box-shadow:0 14px 30px rgba(23,74,42,.14)}
+.acoes-hero-v4{display:flex;gap:14px;margin:17px 0 25px}
+.botao-hero-v4{min-height:50px;padding:0 24px;border-radius:999px;font-weight:800;transition:transform .2s ease,box-shadow .2s ease,background .2s ease}
+.botao-hero-v4:hover{transform:translateY(-2px)}
+.botao-hero-v4.primario{border:1px solid var(--od-verde);background:var(--od-verde);color:#fff;box-shadow:0 9px 20px rgba(15,90,46,.18)}
+.botao-hero-v4.secundario{border:1px solid rgba(15,90,46,.22);background:rgba(255,255,255,.9);color:var(--od-verde)}
+.estatisticas-v4{max-width:920px;margin-top:8px;gap:13px}
+.estatisticas-v4 .cartao-estatistica{min-height:92px;background:rgba(255,255,255,.88);backdrop-filter:blur(9px);border-color:rgba(35,115,66,.17);box-shadow:0 8px 26px rgba(22,71,40,.08)}
+.estatisticas-v4 .cartao-estatistica>span{display:grid;place-items:center;width:48px;height:48px;border-radius:50%;background:#eaf5df}
+.estatisticas-v4 .cartao-estatistica strong{font-family:Georgia,'Times New Roman',serif;color:var(--od-verde);font-size:30px}
+.container-v4{max-width:1460px}
+.titulo-secao-v4 h2,.cabecalho-secao-v4 h2{font-family:Georgia,'Times New Roman',serif;color:#104f2c;letter-spacing:-.3px}
+.atalhos-v4{grid-template-columns:repeat(6,1fr);gap:14px}
+.atalho-v4{min-height:126px;border-radius:18px;background:linear-gradient(160deg,#fff,#fbfdf8);box-shadow:0 7px 22px rgba(28,77,43,.06);transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
+.atalho-v4:hover{transform:translateY(-6px);border-color:#9fc4a6;box-shadow:0 16px 32px rgba(24,75,41,.13)}
+.atalho-v4 b{display:grid;place-items:center;width:48px;height:48px;border-radius:50%;margin:0 auto 8px;background:#edf6e9;font-size:27px}
+.atalho-v4.destaque{border-color:#e8b5c2;background:linear-gradient(160deg,#fff,#fff8fa)}
+.grade-destaques-v4{grid-template-columns:repeat(5,minmax(0,1fr));gap:18px}
+.cartao-destaque-v4{border-radius:18px;overflow:hidden;box-shadow:0 10px 27px rgba(21,65,38,.1);transition:transform .22s ease,box-shadow .22s ease}
+.cartao-destaque-v4:hover{transform:translateY(-6px);box-shadow:0 18px 38px rgba(21,65,38,.16)}
+.cartao-destaque-v4 img{height:210px}
+.rodape-v4{padding:0;background:linear-gradient(135deg,#063d20,#0c5b2e);color:#fff;text-align:left}
+.rodape-v4-conteudo{max-width:1460px;margin:auto;padding:38px 34px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+.rodape-marca-v4{display:flex;align-items:center;gap:16px;max-width:590px}
+.marca-v4-icone-rodape{flex:0 0 auto;background:rgba(255,255,255,.12);box-shadow:inset 0 0 0 1px rgba(255,255,255,.15)}
+.marca-v4-icone-rodape::before,.marca-v4-icone-rodape::after,.marca-v4-icone-rodape i::before,.marca-v4-icone-rodape i::after{background:#fff}
+.rodape-marca-v4 strong{display:block;font-family:Georgia,'Times New Roman',serif;font-size:25px}
+.rodape-marca-v4 p{margin:7px 0 0;color:rgba(255,255,255,.78)}
+.rodape-info-v4{display:grid;gap:5px;text-align:right;color:rgba(255,255,255,.8)}
+.rodape-info-v4 small{margin-top:8px;color:rgba(255,255,255,.57)}
+@media (max-width:1100px){.menu-v4{display:none}.busca-topo-v4{margin-left:auto}.hero-v4{background-position:62% center}.atalhos-v4{grid-template-columns:repeat(3,1fr)}.grade-destaques-v4{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:760px){.topo-v4-conteudo{padding:0 16px}.marca-v4{min-width:0}.marca-v4 strong{font-size:23px}.marca-v4 small{font-size:18px}.busca-topo-v4{display:none}.hero-v4{min-height:auto;background:linear-gradient(180deg,rgba(249,252,242,.95),rgba(249,252,242,.86)),url('imagens/interface/hero-orquidario-digital.jpg') 67% center/cover no-repeat}.hero-v4-conteudo{padding:50px 20px 48px}.hero-v4 h1{font-size:58px;letter-spacing:-2.5px}.hero-v4 p{font-size:19px}.acoes-hero-v4{flex-wrap:wrap}.estatisticas-v4{grid-template-columns:repeat(2,1fr)}.atalhos-v4{grid-template-columns:repeat(2,1fr)}.grade-destaques-v4{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px}.cartao-destaque-v4{min-width:78vw;scroll-snap-align:start}.rodape-v4-conteudo{align-items:flex-start;flex-direction:column}.rodape-info-v4{text-align:left}}
+@media (max-width:470px){.marca-v4-icone{width:50px;height:50px}.hero-v4 h1{font-size:49px}.estatisticas-v4{grid-template-columns:1fr}.atalhos-v4{grid-template-columns:1fr 1fr}.atalho-v4{min-height:116px;padding:15px 10px}}
