@@ -23,8 +23,8 @@ export const miltoniaRegnellii = {
     iluminacao: {
         sombrite: "70%",
         solDireto: "Não",
-        horario: "Apenas luz filtrada",
-        observacoes: "Cultive em ambiente claro, com luz filtrada de média a alta. Em Serra/ES, não exponha ao sol direto; priorize ventilação, especialmente nos meses quentes, para evitar folhas aquecidas e queimadas."
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média a alta."
     },
     floracao: "Principalmente no fim do inverno e na primavera.",
     adubacao: "Adubo equilibrado diluído na brotação e maturação dos pseudobulbos.",

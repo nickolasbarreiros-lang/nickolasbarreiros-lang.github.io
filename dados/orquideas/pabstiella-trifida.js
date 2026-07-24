@@ -20,7 +20,12 @@ export const pabstiellaTrifida = {
     habitat: "Epífita em florestas úmidas, sobre troncos com musgo.",
     clima: "Intermediário a fresco.",
     climaFloracao: "Floresce melhor com noites frescas, boa umidade do ar e ventilação constante. Em regiões quentes, mantenha no ponto mais fresco do orquidário e evite calor noturno prolongado.",
-    iluminacao: "Luz filtrada baixa.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada baixa."
+    },
     floracao: "Pode florescer em diferentes meses, com maior frequência entre outono e primavera.",
     adubacao: "Adubo muito diluído e pouco frequente.",
     rega: "Manter umidade constante, sem saturar o substrato.",

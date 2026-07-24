@@ -22,9 +22,9 @@ export const dendrobiumTenellum = {
     climaFloracao: "A floração é favorecida pela maturação completa dos pseudobulbos, noites mais frescas e uma redução moderada das regas. Retome água e adubação quando os novos brotos aparecerem.",
     iluminacao: {
         sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Prefere claridade de média a alta intensidade e boa circulação de ar. Em Serra/ES, o sol fraco da manhã ajuda no amadurecimento das canas, desde que a planta seja adaptada gradualmente."
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média a intensa."
     },
     floracao: "Mais comum no fim do inverno e na primavera.",
     adubacao: "Adubo rico em nitrogênio em baixa dose na brotação; equilibrado até maturação. Suspender ou reduzir bastante durante o repouso.",

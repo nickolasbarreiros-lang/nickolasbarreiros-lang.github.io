@@ -23,8 +23,8 @@ export const cattleyaSchilleriana = {
     iluminacao: {
         sombrite: "50%",
         solDireto: "Sim",
-        horario: "Até 09:00 e após 16:00",
-        observacoes: "Prefere luz forte, raízes muito arejadas e boa ventilação. Em Serra/ES, evite sol direto prolongado nos dias quentes e úmidos."
+        horario: "Até 09:00",
+        observacoes: "Luz filtrada forte, com sol suave no início da manhã."
     },
     floracao: "Primavera e início do verão.",
     adubacao: "Adubo equilibrado enquanto o novo pseudobulbo cresce. Após maturação, alternar adubo de floração. Bokashi mínimo e distante das raízes novas.",

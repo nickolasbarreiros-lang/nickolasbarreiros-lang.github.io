@@ -14,7 +14,12 @@ export const gongoraBufonia = {
     habitat: "Florestas quentes e úmidas, em árvores com boa matéria orgânica acumulada.",
     clima: "Quente a intermediário, úmido e ventilado.",
     climaFloracao: "A floração é favorecida por clima quente a intermediário, alta umidade, ventilação e crescimento vigoroso. Uma leve queda de temperatura noturna ajuda, mas o principal é evitar raízes abafadas e manter a planta bem hidratada durante a formação dos pseudobulbos.",
-    iluminacao: "Luz filtrada média.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média."
+    },
     floracao: "Costuma florescer na primavera e no verão.",
     adubacao: "Adubo equilibrado semanalmente em baixa dose durante o crescimento.",
     rega: "Rega frequente no crescimento; reduzir levemente após a maturação, sem secar por longos períodos.",

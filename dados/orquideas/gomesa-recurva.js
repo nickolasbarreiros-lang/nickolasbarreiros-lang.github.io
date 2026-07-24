@@ -21,10 +21,10 @@ export const gomesaRecurva = {
     clima: "Intermediário a fresco.",
     climaFloracao: "Floresce melhor com noites frescas, boa umidade do ar e ventilação constante. Em regiões quentes, mantenha no ponto mais fresco do orquidário e evite calor noturno prolongado.",
     iluminacao: {
-        sombrite: "70%",
+        sombrite: "50%",
         solDireto: "Não",
-        horario: "Apenas luz filtrada",
-        observacoes: "Prefere luminosidade filtrada de média a alta, sem aquecimento excessivo das folhas. Em Serra/ES, mantenha no ponto mais fresco e ventilado do orquidário, protegida do sol direto e do calor da tarde."
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média a intensa."
     },
     floracao: "Outono e inverno.",
     adubacao: "Adubo equilibrado em baixa concentração durante novos brotos; reduzir após amadurecimento.",

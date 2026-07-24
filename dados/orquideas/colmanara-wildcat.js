@@ -17,8 +17,8 @@ export const colmanaraWildcat = {
     iluminacao: {
         sombrite: "70%",
         solDireto: "Não",
-        horario: "Apenas luz filtrada",
-        observacoes: "Mantenha em meia-sombra clara, com bastante luminosidade indireta. Em Serra/ES, evite sol direto, principalmente sobre folhas e brotações novas, pois o calor intenso favorece queimaduras e desidratação."
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média, mais suave que para Cattleya."
     },
     floracao: "Pode florescer em diferentes épocas do ano, com maior frequência após a maturação de novos pseudobulbos.",
     adubacao: "Adubo equilibrado em baixa concentração a cada 7–15 dias.",

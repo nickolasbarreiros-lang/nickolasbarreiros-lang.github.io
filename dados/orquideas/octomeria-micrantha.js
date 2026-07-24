@@ -20,7 +20,12 @@ export const octomeriaMicrantha = {
     habitat: "Epífita de florestas úmidas, sobre ramos finos e troncos musgosos.",
     clima: "Intermediário a fresco.",
     climaFloracao: "A floração é favorecida por clima intermediário, noites frescas, alta umidade e ventilação constante. No litoral, mantenha em posição sombreada e fresca, pois calor abafado pode interromper a formação dos botões.",
-    iluminacao: "Luz filtrada baixa a média.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada baixa a média."
+    },
     floracao: "Mais frequente entre inverno e primavera, podendo ocorrer fora de época.",
     adubacao: "Adubo muito diluído e pouco frequente.",
     rega: "Frequente em montagem, sem encharcar permanentemente.",

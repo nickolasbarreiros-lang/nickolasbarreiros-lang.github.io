@@ -20,7 +20,12 @@ export const renantheraCoccinea = {
     habitat: "Epífita em florestas quentes, abertas e luminosas.",
     clima: "Quente e úmido.",
     climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
-    iluminacao: "Luz filtrada muito intensa, próxima ao nível de Vandas.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada muito intensa, próxima ao nível de Vandas."
+    },
     floracao: "Primavera e verão.",
     adubacao: "Adubo equilibrado semanalmente em baixa dose no calor; alternar formulação de floração em plantas adultas.",
     rega: "Frequente no calor, molhando raízes completamente e deixando secar rapidamente.",

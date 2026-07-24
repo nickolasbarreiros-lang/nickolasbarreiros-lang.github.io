@@ -17,8 +17,8 @@ export const cattleyaAclandiaeTipo = {
     iluminacao: {
         sombrite: "50%",
         solDireto: "Sim",
-        horario: "Até 08:30 e após 16:30",
-        observacoes: "Necessita luz intensa para florescer, porém é sensível ao superaquecimento. Em Serra/ES, combine claridade forte, ventilação constante e sol direto apenas bem cedo."
+        horario: "Até 09:00",
+        observacoes: "Alta, com sol filtrado e algumas horas de sol fraco."
     },
     floracao: "Primavera e verão.",
     adubacao: "Regular no crescimento; reduzir quando os pseudobulbos amadurecerem.",

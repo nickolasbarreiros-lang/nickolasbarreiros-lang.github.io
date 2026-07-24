@@ -17,8 +17,8 @@ export const bulbophyllumMiniatum = {
     iluminacao: {
         sombrite: "70%",
         solDireto: "Não",
-        horario: "Apenas luminosidade filtrada",
-        observacoes: "Gosta de sombra clara e luz difusa, com raízes úmidas e rizoma ventilado. Em Serra/ES, o sol direto pode provocar queimaduras e desidratação rápida."
+        horario: "Apenas luz indireta",
+        observacoes: "Filtrada, de baixa a média intensidade."
     },
     floracao: "Primavera e verão, podendo variar.",
     adubacao: "Adubo balanceado em baixa concentração durante o crescimento.",

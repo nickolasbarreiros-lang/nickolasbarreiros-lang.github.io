@@ -23,8 +23,8 @@ export const oncidiumTwinkle = {
     iluminacao: {
         sombrite: "70%",
         solDireto: "Não",
-        horario: "Apenas luz filtrada",
-        observacoes: "Prefere meia-sombra clara e luminosidade indireta moderada. Em Serra/ES, mantenha sem sol direto e em local ventilado, evitando calor acumulado, especialmente durante a formação das hastes."
+        horario: "Apenas luz indireta",
+        observacoes: "Meia-sombra clara a luz filtrada média."
     },
     floracao: "Comum no outono e inverno, podendo variar conforme o clone.",
     adubacao: "Adubo equilibrado diluído durante crescimento; reduzir quando o pseudobulbo amadurecer. Bokashi em pequena quantidade.",

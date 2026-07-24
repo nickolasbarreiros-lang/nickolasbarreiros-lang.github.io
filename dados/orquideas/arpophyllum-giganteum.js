@@ -20,7 +20,12 @@ export const arpophyllumGiganteum = {
     habitat: "Epífita ou rupícola em florestas montanas úmidas e áreas abertas de altitude.",
     clima: "Intermediário a fresco.",
     climaFloracao: "Floresce melhor com noites frescas, boa umidade do ar e ventilação constante. Em regiões quentes, mantenha no ponto mais fresco do orquidário e evite calor noturno prolongado.",
-    iluminacao: "Luz filtrada média a intensa.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média a intensa."
+    },
     floracao: "Fim do inverno e primavera.",
     adubacao: "Adubo equilibrado no crescimento, alternando formulação de floração quando as hastes começam a se formar.",
     rega: "Regular durante todo o ano, com leve redução no período mais frio.",

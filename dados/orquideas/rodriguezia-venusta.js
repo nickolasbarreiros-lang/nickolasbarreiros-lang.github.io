@@ -20,7 +20,12 @@ export const rodrigueziaVenusta = {
     habitat: "Epífita em florestas úmidas, geralmente sobre ramos finos e bem ventilados.",
     clima: "Quente a intermediário e úmido.",
     climaFloracao: "A floração é favorecida por boa luminosidade filtrada, crescimento vigoroso e noites um pouco mais frescas após o amadurecimento dos pseudobulbos. Evite sombra excessiva e encharcamento prolongado.",
-    iluminacao: "Luz filtrada média.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média."
+    },
     floracao: "Primavera e verão.",
     adubacao: "Adubação foliar equilibrada e diluída durante o crescimento. Orgânico apenas em mínima quantidade.",
     rega: "Frequente em plantas montadas; permitir secagem rápida entre regas.",

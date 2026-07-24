@@ -23,8 +23,8 @@ export const miltoniaClowesii = {
     iluminacao: {
         sombrite: "70%",
         solDireto: "Não",
-        horario: "Apenas luz filtrada",
-        observacoes: "Necessita boa claridade, mas com luz filtrada e temperatura moderada. Em Serra/ES, mantenha protegida do sol direto, principalmente à tarde, e assegure ventilação constante para reduzir o aquecimento."
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média."
     },
     floracao: "Outono e inverno.",
     adubacao: "Adubo equilibrado na brotação; reduzir após maturação. Bokashi leve na borda do vaso.",

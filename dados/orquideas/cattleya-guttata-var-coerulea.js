@@ -17,8 +17,8 @@ export const cattleyaGuttataVarCoerulea = {
     iluminacao: {
         sombrite: "50%",
         solDireto: "Sim",
-        horario: "Até 10:00 e após 16:00",
-        observacoes: "Espécie vigorosa que aprecia bastante luz. Em Serra/ES, plantas adultas bem adaptadas toleram sol matinal um pouco mais prolongado, desde que haja ventilação e raízes hidratadas."
+        horario: "Até 09:00",
+        observacoes: "Alta, com sol suave direto."
     },
     floracao: "Outono, após a maturação dos pseudobulbos.",
     adubacao: "Forte no crescimento, reduzindo após a maturação.",

@@ -14,7 +14,12 @@ export const aciantheraAveniformis = {
     habitat: "Florestas úmidas, sobre troncos com musgos e boa circulação de ar.",
     clima: "Intermediário a fresco, úmido e bem ventilado.",
     climaFloracao: "A floração é favorecida por clima intermediário, noites frescas, alta umidade e ventilação constante. No litoral, mantenha em posição sombreada e fresca, pois calor abafado pode interromper a formação dos botões.",
-    iluminacao: "Sombra clara a luz filtrada, sem sol direto forte.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00",
+        observacoes: "Sombra clara a luz filtrada, sem sol direto forte."
+    },
     floracao: "Pode florescer do fim do inverno à primavera, variando conforme o microclima.",
     adubacao: "Adubo foliar bem diluído a cada 10 a 15 dias durante o crescimento; reduzir no inverno.",
     rega: "Manter levemente úmida, sem encharcar. Em placa, regar com maior frequência.",

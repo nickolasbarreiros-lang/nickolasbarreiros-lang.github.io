@@ -22,9 +22,9 @@ export const encycliaMineirinha = {
     climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: {
         sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00 e após 16:30",
-        observacoes: "Cultive com claridade alta e boa circulação de ar. Em Serra/ES, ofereça sol suave somente nas primeiras horas da manhã ou no fim da tarde; folhas muito escuras podem indicar sombra excessiva."
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada intensa."
     },
     floracao: "Mais frequente na primavera e no verão, com variação entre clones.",
     adubacao: "Adubo equilibrado durante crescimento e formulação de floração quando os pseudobulbos amadurecem. Bokashi leve a cada 2–3 meses.",

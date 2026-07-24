@@ -14,7 +14,12 @@ export const blcChiaLin = {
     habitat: "Não possui habitat natural.",
     clima: "Quente a intermediário.",
     climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
-    iluminacao: "Média a alta.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Média a alta."
+    },
     floracao: "Normalmente após a maturação dos pseudobulbos, com frequência no outono ou inverno.",
     adubacao: "NPK equilibrado no crescimento e leve reforço de fósforo e potássio antes da floração.",
     rega: "Molhar bem e aguardar secagem parcial do substrato.",

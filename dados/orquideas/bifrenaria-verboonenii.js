@@ -23,7 +23,12 @@ export const bifrenariaVerboonenii = {
     habitat: "Epífita em ambientes úmidos e bem ventilados",
     clima: "Quente a ameno e úmido",
     climaFloracao: "A floração é favorecida por pseudobulbos maduros, boa luminosidade filtrada e noites mais frescas. Após o crescimento, uma redução moderada das regas ajuda a marcar o ciclo sem deixar os bulbos enrugarem.",
-    iluminacao: "Luz filtrada intensa",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada intensa"
+    },
     floracao: "Primavera e verão",
     adubacao: "Utilize NPK equilibrado durante o desenvolvimento dos novos pseudobulbos. Quando estiverem maduros, alterne com adubo de floração. A adubação orgânica deve ser leve e mantida longe das raízes.",
     rega: "Mantenha o substrato levemente úmido durante a brotação, permitindo secagem parcial entre as regas. Evite deixar água acumulada junto às raízes e pseudobulbos.",

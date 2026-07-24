@@ -15,10 +15,10 @@ export const cattleyaIntermedia = {
     clima: "Intermediário a quente.",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:30 e após 16:00",
-        observacoes: "Gosta de bastante claridade e pode receber sol suave da manhã. Em Serra/ES, aumente a exposição gradualmente para evitar queimaduras, principalmente no verão."
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Média a alta."
     },
     floracao: "Fim do inverno e primavera.",
     adubacao: "Equilibrada no crescimento e manutenção regular em baixa dose.",

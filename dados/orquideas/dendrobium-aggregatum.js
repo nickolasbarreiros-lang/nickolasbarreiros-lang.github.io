@@ -23,8 +23,8 @@ export const dendrobiumAggregatum = {
     iluminacao: {
         sombrite: "50%",
         solDireto: "Sim",
-        horario: "Até 09:00 e após 16:30",
-        observacoes: "Necessita claridade intensa para amadurecer as canas e florescer. Em Serra/ES, ofereça sol fraco no começo da manhã após adaptação e proteja do sol forte nas horas quentes, principalmente no verão."
+        horario: "Até 09:00",
+        observacoes: "Luz filtrada intensa e sol suave."
     },
     floracao: "Fim do inverno e primavera, após repouso seco.",
     adubacao: "Adubar regularmente da brotação até o amadurecimento. Interromper adubação nitrogenada durante o repouso.",

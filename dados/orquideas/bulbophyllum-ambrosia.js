@@ -17,8 +17,8 @@ export const bulbophyllumAmbrosia = {
     iluminacao: {
         sombrite: "70%",
         solDireto: "Não",
-        horario: "Apenas luminosidade filtrada",
-        observacoes: "Prefere sombra clara, umidade ambiental e ventilação constante. Em Serra/ES, mantenha sob luz difusa e evite sol direto, que pode desidratar rapidamente folhas e pseudobulbos."
+        horario: "Apenas luz indireta",
+        observacoes: "Baixa a média, filtrada."
     },
     floracao: "Mais frequente entre inverno e primavera.",
     adubacao: "Adubo fraco e contínuo durante crescimento ativo.",

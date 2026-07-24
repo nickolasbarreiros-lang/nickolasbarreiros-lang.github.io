@@ -17,8 +17,8 @@ export const bulbophyllumElassonotum = {
     iluminacao: {
         sombrite: "70%",
         solDireto: "Não",
-        horario: "Apenas luminosidade filtrada",
-        observacoes: "Espécie de ambientes úmidos e sombreados, sensível ao ressecamento e ao calor excessivo. Em Serra/ES, use sombra clara bem ventilada e jamais exponha ao sol direto."
+        horario: "Apenas luz indireta",
+        observacoes: "Sombra clara."
     },
     floracao: "Pode florescer entre primavera e verão.",
     adubacao: "Dose baixa a cada 10 a 15 dias no crescimento.",

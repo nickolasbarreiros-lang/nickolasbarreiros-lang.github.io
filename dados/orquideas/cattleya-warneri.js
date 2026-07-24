@@ -17,8 +17,8 @@ export const cattleyaWarneri = {
     iluminacao: {
         sombrite: "50%",
         solDireto: "Sim",
-        horario: "Até 09:00 e após 16:00",
-        observacoes: "Mantenha em alta luminosidade filtrada. O sol fraco da manhã favorece o amadurecimento dos pseudobulbos, mas o sol quente pode manchar e queimar as folhas."
+        horario: "Até 09:00",
+        observacoes: "Média a alta, com sol suave da manhã."
     },
     floracao: "Primavera, especialmente entre setembro e novembro.",
     adubacao: "Equilibrada no crescimento; reforço moderado de fósforo e potássio na maturação.",

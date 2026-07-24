@@ -21,9 +21,9 @@ export const cattleyaViolaceaFFlamea = {
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: {
         sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 08:30 e após 16:30",
-        observacoes: "Prefere ambiente quente, úmido e claro, com luz filtrada intensa. Em Serra/ES, permita apenas sol muito suave e evite ressecamento durante períodos quentes."
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada intensa, com boa ventilação"
     },
     floracao: "Mais comum na primavera e no verão, podendo variar em cultivo quente",
     adubacao: "Use adubo equilibrado e diluído durante todo o crescimento, com aplicações regulares. Bokashi ou Osmocote podem ser usados em dose pequena, pois o calor acelera a liberação de nutrientes.",

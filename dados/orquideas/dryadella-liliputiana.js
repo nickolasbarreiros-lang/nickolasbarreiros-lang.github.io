@@ -14,7 +14,12 @@ export const dryadellaLiliputiana = {
     habitat: "Ramos finos e musgosos em florestas sombreadas.",
     clima: "Fresco a intermediário.",
     climaFloracao: "Floresce melhor com noites frescas, boa umidade do ar e ventilação constante. Em regiões quentes, mantenha no ponto mais fresco do orquidário e evite calor noturno prolongado.",
-    iluminacao: "Sombra clara, sem sol direto.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00",
+        observacoes: "Sombra clara, sem sol direto."
+    },
     floracao: "Pode florescer em diferentes épocas quando bem estabelecida.",
     adubacao: "Adubo muito diluído, aplicado com frequência baixa a moderada.",
     rega: "Umidade constante, evitando tanto secura completa quanto encharcamento.",

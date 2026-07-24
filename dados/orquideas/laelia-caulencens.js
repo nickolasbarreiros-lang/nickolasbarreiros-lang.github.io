@@ -17,8 +17,8 @@ export const laeliaCaulencens = {
     iluminacao: {
         sombrite: "50%",
         solDireto: "Sim",
-        horario: "Até 09:30 e após 16:00",
-        observacoes: "Prefere luminosidade alta e ambiente bem ventilado. Em Serra/ES, ofereça sol suave da manhã e proteção nas horas de maior radiação."
+        horario: "Até 09:00",
+        observacoes: "Luz filtrada forte, com sol fraco da manhã."
     },
     floracao: "Época provisória até confirmação da identidade.",
     adubacao: "Adubação leve e frequente no crescimento.",

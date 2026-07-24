@@ -17,8 +17,8 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     iluminacao: {
         sombrite: "50%",
         solDireto: "Sim",
-        horario: "Até 09:00 e após 16:00",
-        observacoes: "Cultive com luz intensa, semelhante à forma-tipo. A coloração alba não exige sombra adicional; em Serra/ES, evite o sol forte entre 09:30 e 16:00."
+        horario: "Até 09:00",
+        observacoes: "Luz filtrada intensa, com sol fraco da manhã."
     },
     floracao: "Floresce principalmente no outono e inverno, normalmente em brotações especiais sem folhas.",
     adubacao: "Adubação leve e frequente no crescimento; reduzir bastante após o amadurecimento dos pseudobulbos.",

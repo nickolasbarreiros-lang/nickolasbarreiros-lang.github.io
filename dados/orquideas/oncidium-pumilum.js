@@ -22,9 +22,9 @@ export const oncidiumPumilum = {
     climaFloracao: "A floração é favorecida por boa luminosidade filtrada, crescimento vigoroso e noites um pouco mais frescas após o amadurecimento dos pseudobulbos. Evite sombra excessiva e encharcamento prolongado.",
     iluminacao: {
         sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00 e após 16:30",
-        observacoes: "Necessita bastante claridade para formar touceiras floríferas. Em Serra/ES, aceita sol fraco da manhã ou do fim da tarde após adaptação, mas deve ser protegido do sol forte e da secagem excessiva."
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média a intensa."
     },
     floracao: "Primavera e verão.",
     adubacao: "Adubo equilibrado diluído na brotação. Reduzir quando os pseudobulbos amadurecerem.",

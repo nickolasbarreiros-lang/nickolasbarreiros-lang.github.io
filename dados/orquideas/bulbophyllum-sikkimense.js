@@ -17,8 +17,8 @@ export const bulbophyllumSikkimense = {
     iluminacao: {
         sombrite: "70%",
         solDireto: "Não",
-        horario: "Apenas luminosidade filtrada",
-        observacoes: "Espécie montana que prefere sombra clara, umidade elevada e temperaturas mais amenas. Em Serra/ES, coloque no ponto mais fresco e protegido, sem qualquer sol direto."
+        horario: "Apenas luz indireta",
+        observacoes: "Sombra clara, com alta umidade."
     },
     floracao: "Frequentemente no outono e inverno.",
     adubacao: "Fraca durante o crescimento; reduzir em períodos frios.",

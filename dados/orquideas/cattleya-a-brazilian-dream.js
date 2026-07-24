@@ -15,10 +15,10 @@ export const cattleyaABrazilianDream = {
     clima: "Quente a intermediário, com noites mais amenas e boa ventilação.",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00 e após 16:00",
-        observacoes: "Forneça luminosidade alta, típica de híbridos de Cattleya. Sol fraco da manhã ajuda na floração, mas deve ser introduzido gradualmente."
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada forte, equivalente a 50–60% de sombreamento."
     },
     floracao: "Geralmente floresce uma vez ao ano em hastes terminais, após a maturação do pseudobulbo.",
     adubacao: "Adubo foliar equilibrado e diluído a cada 7–15 dias no crescimento; reduzir quando o pseudobulbo estiver maduro.",

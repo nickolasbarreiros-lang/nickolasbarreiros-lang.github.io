@@ -17,8 +17,8 @@ export const bulbophyllumFalcatum = {
     iluminacao: {
         sombrite: "70%",
         solDireto: "Não",
-        horario: "Apenas luminosidade filtrada",
-        observacoes: "Prefere luminosidade baixa a média, sempre filtrada. Em Serra/ES, proteja completamente do sol direto e mantenha boa ventilação para equilibrar a umidade elevada."
+        horario: "Apenas luz indireta",
+        observacoes: "Baixa a média."
     },
     floracao: "Mais comum na primavera e verão.",
     adubacao: "Frequente e diluída durante o crescimento.",

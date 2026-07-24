@@ -17,8 +17,8 @@ export const catasetumMattosianum = {
     iluminacao: {
         sombrite: "50%",
         solDireto: "Sim",
-        horario: "Até 09:30 e após 16:30",
-        observacoes: "Durante o crescimento ativo exige muita claridade para formar pseudobulbos fortes e favorecer a floração. Em Serra/ES, ofereça sol suave da manhã com adaptação gradual e proteja do sol intenso do meio do dia."
+        horario: "Até 09:00",
+        observacoes: "Alta no crescimento, com sol filtrado forte."
     },
     floracao: "Verão ao início do outono, geralmente próximo da maturação do pseudobulbo.",
     adubacao: "Forte durante crescimento ativo, reduzindo e suspendendo quando as folhas amarelecem.",

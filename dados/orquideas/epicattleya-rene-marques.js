@@ -17,8 +17,8 @@ export const epicattleyaReneMarques = {
     iluminacao: {
         sombrite: "50%",
         solDireto: "Sim",
-        horario: "Até 09:30 e após 16:00",
-        observacoes: "Híbrido que aprecia bastante luz e circulação de ar. Em Serra/ES, aceita sol matinal moderado quando bem adaptado, evitando-se o período mais quente do dia."
+        horario: "Até 09:00",
+        observacoes: "Luz filtrada forte, com sol suave da manhã."
     },
     floracao: "Pode florescer uma ou mais vezes ao ano, após a maturação dos brotos.",
     adubacao: "Adubo equilibrado durante todo o crescimento, em baixa concentração.",

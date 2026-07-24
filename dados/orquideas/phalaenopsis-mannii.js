@@ -23,8 +23,8 @@ export const phalaenopsisMannii = {
     iluminacao: {
         sombrite: "70%",
         solDireto: "Não",
-        horario: "Apenas luminosidade filtrada",
-        observacoes: "Prefere sombra clara e luz difusa durante todo o dia. Em Serra/ES, proteja do sol direto, inclusive pela manhã no verão, pois as folhas podem aquecer e queimar rapidamente."
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada baixa a média."
     },
     floracao: "Principalmente entre primavera e verão.",
     adubacao: "Adubo equilibrado diluído durante o crescimento; reduzir no frio.",

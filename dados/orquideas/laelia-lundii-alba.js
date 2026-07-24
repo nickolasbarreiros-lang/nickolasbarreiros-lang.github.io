@@ -15,10 +15,10 @@ export const laeliaLundiiAlba = {
     clima: "Intermediário, com inverno mais seco.",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00 e após 16:00",
-        observacoes: "Cultive com a mesma luminosidade da forma-tipo. A forma alba não deve ser mantida em sombra mais forte; evite apenas o sol quente."
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média a forte."
     },
     floracao: "Floresce normalmente no fim do inverno e na primavera.",
     adubacao: "Adubo diluído no crescimento; reduzir no inverno.",

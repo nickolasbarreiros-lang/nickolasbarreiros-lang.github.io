@@ -14,7 +14,12 @@ export const cyrtopodiumSaintlegerianum = {
     habitat: "Campos, cerrado e afloramentos rochosos com estação seca marcada.",
     clima: "Quente, sazonal e muito ventilado.",
     climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
-    iluminacao: "Luz forte, incluindo sol suave da manhã.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00",
+        observacoes: "Luz forte, incluindo sol suave da manhã."
+    },
     floracao: "Floresce geralmente na primavera e início do verão, após o período seco.",
     adubacao: "Adubar bem durante o crescimento; suspender ou reduzir fortemente na dormência.",
     rega: "Rega abundante enquanto houver folhas e brotos ativos; reduzir drasticamente quando entrar em dormência.",

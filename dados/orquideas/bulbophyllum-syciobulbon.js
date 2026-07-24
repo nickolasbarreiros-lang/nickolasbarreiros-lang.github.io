@@ -17,8 +17,8 @@ export const bulbophyllumSyciobulbon = {
     iluminacao: {
         sombrite: "70%",
         solDireto: "Não",
-        horario: "Apenas luminosidade filtrada",
-        observacoes: "Cultive sob luz difusa de baixa a média intensidade. Em Serra/ES, evite sol direto e combine sombreamento com ventilação constante para impedir abafamento e superaquecimento."
+        horario: "Apenas luz indireta",
+        observacoes: "Baixa a média."
     },
     floracao: "Mais comum durante meses quentes e úmidos.",
     adubacao: "Doses fracas e frequentes.",

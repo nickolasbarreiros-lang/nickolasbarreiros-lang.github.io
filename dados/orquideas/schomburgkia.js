@@ -20,7 +20,12 @@ export const schomburgkia = {
     habitat: "Em geral, espécies do antigo grupo Schomburgkia são epífitas de ambientes claros, quentes e sazonalmente secos.",
     clima: "Quente, muito ventilado.",
     climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
-    iluminacao: "Luz filtrada muito alta ou sol fraco progressivamente adaptado.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00",
+        observacoes: "Luz filtrada muito alta ou sol fraco progressivamente adaptado."
+    },
     floracao: "Período variável conforme a espécie; provisoriamente entre primavera e verão.",
     adubacao: "Adubo equilibrado na fase de crescimento, reduzindo após maturação dos pseudobulbos.",
     rega: "Abundante no crescimento, com secagem rápida; reduzir quando estiver sem brotação ativa.",

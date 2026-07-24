@@ -22,8 +22,8 @@ export const encycliaBracteata = {
     iluminacao: {
         sombrite: "50%",
         solDireto: "Sim",
-        horario: "Até 09:00 e após 16:30",
-        observacoes: "Exige alta luminosidade para crescer e florescer bem. Em Serra/ES, aceite apenas sol suave da manhã ou do fim da tarde, com adaptação gradual, ventilação forte e raízes de secagem rápida."
+        horario: "Até 09:00",
+        observacoes: "Luz filtrada intensa, podendo receber sol suave da manhã"
     },
     floracao: "Mais frequente da primavera ao verão",
     adubacao: "Use adubo equilibrado na brotação e formação dos pseudobulbos; depois alterne com fórmula de floração. Adubo orgânico em dose pequena e afastado das raízes.",

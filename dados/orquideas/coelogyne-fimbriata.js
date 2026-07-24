@@ -14,7 +14,12 @@ export const coelogyneFimbriata = {
     habitat: "Florestas úmidas, sobre troncos e rochas musgosas.",
     clima: "Intermediário a fresco.",
     climaFloracao: "A floração é favorecida por noites mais frescas e leve redução das regas após o amadurecimento dos pseudobulbos. Evite calor abafado e umidade excessiva no período de repouso.",
-    iluminacao: "Sombra clara a luz filtrada média.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Sombra clara a luz filtrada média."
+    },
     floracao: "Normalmente floresce do fim do verão ao outono.",
     adubacao: "Adubo equilibrado bem diluído durante o crescimento; reduzir no inverno.",
     rega: "Manter úmida durante o crescimento, com leve redução quando os pseudobulbos amadurecem.",

@@ -14,7 +14,12 @@ export const cattliantheCttJewelBox = {
     habitat: "Não possui habitat natural.",
     clima: "Quente a intermediário.",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
-    iluminacao: "Luz filtrada forte; aceita sol suave da manhã.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00",
+        observacoes: "Luz filtrada forte; aceita sol suave da manhã."
+    },
     floracao: "Pode florescer mais de uma vez ao ano quando bem estabelecida, com maior frequência entre outono e primavera.",
     adubacao: "Adubo equilibrado a cada 7–15 dias durante crescimento ativo; alternar com formulação de maior potássio perto da maturação.",
     rega: "Regar quando o substrato estiver quase seco, sem manter raízes abafadas.",

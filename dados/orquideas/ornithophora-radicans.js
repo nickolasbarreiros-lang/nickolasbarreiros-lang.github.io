@@ -20,10 +20,10 @@ export const ornithophoraRadicans = {
     clima: "Intermediário a quente, úmido e ventilado",
     climaFloracao: "A floração é favorecida por boa luminosidade filtrada, crescimento vigoroso e noites um pouco mais frescas após o amadurecimento dos pseudobulbos. Evite sombra excessiva e encharcamento prolongado.",
     iluminacao: {
-        sombrite: "70%",
-        solDireto: "Não",
-        horario: "Apenas luz filtrada",
-        observacoes: "Prefere luz filtrada moderada e ambiente úmido, porém ventilado. Em Serra/ES, mantenha em sombra clara, sem sol direto, especialmente quando cultivada montada, para evitar desidratação rápida da touceira."
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00",
+        observacoes: "Luz filtrada moderada, sem sol forte direto"
     },
     floracao: "Principalmente primavera e verão",
     adubacao: "Use adubo foliar equilibrado em concentração baixa, pois as raízes são finas. Adubos orgânicos devem ser aplicados com muita moderação.",

@@ -17,8 +17,8 @@ export const bulbophyllumBuffo = {
     iluminacao: {
         sombrite: "70%",
         solDireto: "Não",
-        horario: "Apenas luminosidade filtrada",
-        observacoes: "Cultive com claridade suave a moderada, sem incidência direta de sol. Em Serra/ES, mantenha o ambiente úmido e ventilado para evitar aquecimento e ressecamento do rizoma."
+        horario: "Apenas luz indireta",
+        observacoes: "Baixa a média, com luz filtrada."
     },
     floracao: "Pode ocorrer em diferentes épocas, com maior frequência em períodos quentes e úmidos.",
     adubacao: "Adubação fraca e regular durante todo o crescimento.",

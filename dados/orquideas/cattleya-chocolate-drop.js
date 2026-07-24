@@ -15,10 +15,10 @@ export const cattleyaChocolateDrop = {
     clima: "Quente a intermediário.",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:30 e após 16:00",
-        observacoes: "Híbrido vigoroso que floresce melhor sob luz forte. Tolera sol suave da manhã após adaptação; observe a temperatura das folhas nos meses mais quentes."
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Média a alta."
     },
     floracao: "Comum no outono e inverno, mas depende do clone.",
     adubacao: "Equilibrada durante crescimento ativo.",

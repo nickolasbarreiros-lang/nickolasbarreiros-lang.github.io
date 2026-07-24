@@ -14,7 +14,12 @@ export const dryadellaAviceps = {
     habitat: "Florestas úmidas e frescas, sobre ramos cobertos por musgo.",
     clima: "Intermediário a fresco, muito úmido e ventilado.",
     climaFloracao: "Floresce melhor com noites frescas, boa umidade do ar e ventilação constante. Em regiões quentes, mantenha no ponto mais fresco do orquidário e evite calor noturno prolongado.",
-    iluminacao: "Sombra clara.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Sombra clara."
+    },
     floracao: "Pode florescer do inverno à primavera e repetir a floração em condições estáveis.",
     adubacao: "Adubação foliar muito diluída e frequente.",
     rega: "Manter sempre levemente úmida, sem saturar o substrato.",

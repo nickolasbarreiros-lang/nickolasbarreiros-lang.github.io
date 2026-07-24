@@ -20,7 +20,12 @@ export const maxillariaPumilaExMinuta = {
     habitat: "Epífita de ramos e troncos em florestas úmidas.",
     clima: "Intermediário, úmido e ventilado.",
     climaFloracao: "A floração é favorecida por pseudobulbos maduros, boa luminosidade filtrada e noites mais frescas. Após o crescimento, uma redução moderada das regas ajuda a marcar o ciclo sem deixar os bulbos enrugarem.",
-    iluminacao: "Luz filtrada baixa a média.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada baixa a média."
+    },
     floracao: "Pode florescer entre inverno e primavera.",
     adubacao: "Adubo muito diluído, em baixa frequência, durante o crescimento.",
     rega: "Frequente quando montada, com rápida drenagem e redução moderada no frio.",

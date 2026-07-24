@@ -23,8 +23,8 @@ export const miltoniaSpectabilisVarMoreliana = {
     iluminacao: {
         sombrite: "70%",
         solDireto: "Não",
-        horario: "Apenas luz filtrada",
-        observacoes: "Prefere meia-sombra clara, com iluminação difusa e boa ventilação. Em Serra/ES, proteja totalmente do sol direto forte; um local claro sob sombrite de 70% favorece crescimento sem superaquecer as folhas."
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média."
     },
     floracao: "Mais frequente entre fim do verão e outono.",
     adubacao: "Adubo equilibrado diluído durante a emissão de brotos e raízes.",

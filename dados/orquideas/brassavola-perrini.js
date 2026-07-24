@@ -22,8 +22,8 @@ export const brassavolaPerrini = {
     iluminacao: {
         sombrite: "50%",
         solDireto: "Sim",
-        horario: "Até 10:00 e após 16:00",
-        observacoes: "Aprecia luminosidade muito alta e boa ventilação. Plantas estabelecidas toleram sol da manhã, mas a adaptação deve ser gradual para evitar queimaduras."
+        horario: "Até 09:00",
+        observacoes: "Luz filtrada muito intensa; aceita sol fraco da manhã"
     },
     floracao: "Mais frequente da primavera ao verão, podendo florescer em outros períodos",
     adubacao: "Adubo equilibrado e diluído durante o crescimento. Pode receber adubo de floração quando as brotações amadurecem. Bokashi ou Osmocote em dose pequena.",

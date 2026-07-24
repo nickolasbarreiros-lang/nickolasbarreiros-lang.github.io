@@ -23,8 +23,8 @@ export const miltoniaCandida = {
     iluminacao: {
         sombrite: "70%",
         solDireto: "Não",
-        horario: "Apenas luz filtrada",
-        observacoes: "Prefere meia-sombra clara e luz difusa durante todo o dia. Em Serra/ES, evite sol direto e calor acumulado; folhas verde-claro indicam luz adequada, enquanto amarelamento pode sinalizar excesso."
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média."
     },
     floracao: "Comum entre primavera e verão.",
     adubacao: "Adubação equilibrada diluída durante o crescimento.",

@@ -21,9 +21,9 @@ export const dendrobiumLoddigesii = {
     climaFloracao: "Precisa de pseudobulbos maduros, noites mais frescas e redução das regas no outono e inverno. Calor constante com adubação rica em nitrogênio tende a produzir brotos ou keikis em vez de flores.",
     iluminacao: {
         sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 08:30",
-        observacoes: "Prefere luminosidade filtrada intensa, sobretudo no outono e inverno. Em Serra/ES, aceite apenas o sol muito suave do início da manhã e mantenha boa ventilação para evitar superaquecimento das canas finas."
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada intensa, especialmente no outono e inverno"
     },
     floracao: "Final do inverno e primavera, após repouso mais seco",
     adubacao: "Adube durante o surgimento e alongamento das novas canas. Reduza no fim do verão e suspenda durante o repouso. Retome quando aparecerem novas raízes.",

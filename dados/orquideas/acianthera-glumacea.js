@@ -20,7 +20,12 @@ export const aciantheraGlumacea = {
     habitat: "Epífita em florestas úmidas e sombreadas, com ar em movimento constante.",
     clima: "Intermediário a fresco e úmido.",
     climaFloracao: "A floração é favorecida por clima intermediário, noites frescas, alta umidade e ventilação constante. No litoral, mantenha em posição sombreada e fresca, pois calor abafado pode interromper a formação dos botões.",
-    iluminacao: "Sombra clara a luz filtrada média.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Sombra clara a luz filtrada média."
+    },
     floracao: "Pode ocorrer em diferentes épocas, com maior atividade entre outono e primavera.",
     adubacao: "Adubo equilibrado muito diluído, evitando acúmulo de sais.",
     rega: "Manter umidade regular e raízes arejadas; não permitir secas longas.",

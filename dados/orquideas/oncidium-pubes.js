@@ -21,10 +21,10 @@ export const oncidiumPubes = {
     clima: "Quente a intermediário.",
     climaFloracao: "A floração é favorecida por boa luminosidade filtrada, crescimento vigoroso e noites um pouco mais frescas após o amadurecimento dos pseudobulbos. Evite sombra excessiva e encharcamento prolongado.",
     iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 08:30",
-        observacoes: "Prefere luz filtrada intensa e pode receber sol muito suave no começo da manhã. Em Serra/ES, faça adaptação gradual e evite sol direto depois das 08:30, sobretudo durante o verão."
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média a alta."
     },
     floracao: "Período provisório entre primavera e verão.",
     adubacao: "Adubo equilibrado diluído durante crescimento e emissão de raízes.",
