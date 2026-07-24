@@ -2589,3 +2589,748 @@ body {
         grid-column: auto;
     }
 }
+
+/* =========================================================
+   FICHA DETALHADA V2
+   Mantém o catálogo intacto e estiliza apenas as classes -v2
+========================================================= */
+
+.topo-ficha-v2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 28px;
+    padding: 24px;
+    margin-top: 18px;
+    background: #ffffff;
+    border: 1px solid #dce7de;
+    border-radius: 18px;
+    box-shadow: 0 10px 28px rgba(31, 74, 45, 0.08);
+}
+
+.identificacao-v2 {
+    flex: 1;
+    min-width: 0;
+}
+
+.etiquetas-v2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.etiqueta-v2 {
+    display: inline-flex;
+    align-items: center;
+    min-height: 30px;
+    padding: 5px 11px;
+    color: #245f3b;
+    background: #f2f8f3;
+    border: 1px solid #cfe0d2;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.titulo-ficha-v2 {
+    margin: 0;
+    color: #1f6038;
+    font-size: clamp(30px, 4vw, 48px);
+    line-height: 1.08;
+    font-style: italic;
+}
+
+.caracteristicas-v2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.caracteristicas-v2 .caracteristica {
+    display: inline-flex;
+    align-items: center;
+    min-height: 30px;
+    padding: 5px 11px;
+    color: #2d6441;
+    background: #f7faf7;
+    border: 1px solid #d7e4d9;
+    border-radius: 999px;
+    font-size: 13px;
+    line-height: 1.1;
+}
+
+.acoes-ficha-v2 {
+    display: grid;
+    gap: 10px;
+    width: min(205px, 100%);
+    flex: 0 0 205px;
+}
+
+.botao-v2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease,
+                background 0.2s ease;
+}
+
+.botao-v2:hover {
+    transform: translateY(-1px);
+}
+
+.botao-imprimir-v2 {
+    color: #ffffff;
+    background: #2b683f;
+    border: 1px solid #2b683f;
+    box-shadow: 0 6px 16px rgba(43, 104, 63, 0.16);
+}
+
+.botao-imprimir-v2:hover {
+    background: #215634;
+}
+
+.botao-copiar-v2 {
+    color: #245f3b;
+    background: #ffffff;
+    border: 1px solid #bcd2c1;
+}
+
+.botao-copiar-v2:hover {
+    background: #f4f8f4;
+}
+
+/* APRESENTAÇÃO: GALERIA + RESUMO */
+
+.apresentacao-v2 {
+    display: grid;
+    grid-template-columns: minmax(0, 1.65fr) minmax(280px, 0.85fr);
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.area-galeria-v2,
+.resumo-lateral-v2,
+.descricao-v2,
+.secao-cultivo-v2,
+.avaliacoes-v2,
+.calendario-v2,
+.dica-ouro-v2 {
+    background: #ffffff;
+    border: 1px solid #dce7de;
+    border-radius: 18px;
+    box-shadow: 0 10px 26px rgba(31, 74, 45, 0.065);
+}
+
+.area-galeria-v2 {
+    padding: 10px;
+}
+
+.galeria-v2 {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(150px, 0.75fr);
+    gap: 10px;
+    height: 390px;
+}
+
+.foto-principal-v2,
+.miniatura-v2 {
+    display: block;
+    width: 100%;
+    padding: 0;
+    background: #edf3ee;
+    border: 0;
+    border-radius: 13px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.foto-principal-v2 {
+    height: 390px;
+}
+
+.miniaturas-v2 {
+    display: grid;
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    min-height: 0;
+}
+
+.miniatura-v2 {
+    min-height: 0;
+}
+
+.foto-principal-v2 img,
+.miniatura-v2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.28s ease;
+}
+
+.foto-principal-v2:hover img,
+.miniatura-v2:hover img {
+    transform: scale(1.035);
+}
+
+.galeria-v2-sem-foto {
+    display: grid;
+    place-content: center;
+    min-height: 300px;
+    text-align: center;
+    color: #58705e;
+    background: #f3f7f3;
+    border-radius: 13px;
+}
+
+.galeria-v2-sem-foto span {
+    font-size: 56px;
+}
+
+.galeria-v2-sem-foto p {
+    margin: 8px 0 0;
+}
+
+.resumo-lateral-v2 {
+    display: grid;
+    align-content: start;
+    gap: 0;
+    padding: 8px 20px;
+}
+
+.resumo-item-v2 {
+    display: grid;
+    grid-template-columns: 38px minmax(0, 1fr);
+    gap: 10px;
+    padding: 17px 0;
+    border-bottom: 1px solid #e5ede6;
+}
+
+.resumo-item-v2:last-child {
+    border-bottom: 0;
+}
+
+.resumo-icone-v2 {
+    display: grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    background: #f1f7f2;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.resumo-item-v2 strong {
+    display: block;
+    margin-bottom: 4px;
+    color: #215d38;
+    font-size: 14px;
+}
+
+.resumo-item-v2 p {
+    margin: 0;
+    color: #263a2d;
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+/* TÍTULOS DE SEÇÃO */
+
+.titulo-secao-v2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.titulo-secao-v2 > span {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    flex: 0 0 34px;
+    background: #edf6ef;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.titulo-secao-v2 h3 {
+    margin: 0;
+    color: #1f5c37;
+    font-size: 21px;
+    line-height: 1.2;
+}
+
+/* DESCRIÇÃO */
+
+.descricao-v2 {
+    margin-top: 18px;
+    padding: 22px 24px;
+    border-left: 5px solid #398454;
+}
+
+.descricao-v2 p {
+    margin: 0;
+    color: #283b2f;
+    font-size: 15px;
+    line-height: 1.72;
+}
+
+/* GUIA DE CULTIVO */
+
+.secao-cultivo-v2 {
+    margin-top: 18px;
+    padding: 22px;
+}
+
+.grade-cultivo-v2 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.card-cultivo-v2 {
+    display: grid;
+    grid-template-columns: 42px minmax(0, 1fr);
+    gap: 11px;
+    align-items: start;
+    min-height: 128px;
+    padding: 16px;
+    background: #f8faf8;
+    border: 1px solid #dce6de;
+    border-radius: 13px;
+}
+
+.icone-card-v2 {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    background: #eaf4ec;
+    border-radius: 11px;
+    font-size: 20px;
+}
+
+.card-cultivo-v2 h4 {
+    margin: 1px 0 7px;
+    color: #215d38;
+    font-size: 15px;
+}
+
+.card-cultivo-v2 p {
+    margin: 0;
+    color: #293b30;
+    font-size: 13.5px;
+    line-height: 1.55;
+}
+
+/* AVALIAÇÕES + CALENDÁRIO */
+
+.painel-dados-v2 {
+    display: grid;
+    grid-template-columns: minmax(300px, 0.9fr) minmax(0, 1.35fr);
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.avaliacoes-v2,
+.calendario-v2 {
+    padding: 22px;
+}
+
+.lista-avaliacoes-v2 {
+    display: grid;
+    gap: 10px;
+}
+
+.avaliacao-v2 {
+    padding: 12px 13px;
+    background: #f8faf8;
+    border: 1px solid #dfe8e0;
+    border-radius: 11px;
+}
+
+.avaliacao-v2-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.avaliacao-v2-titulo {
+    color: #294c35;
+    font-size: 13px;
+    font-weight: 750;
+}
+
+.avaliacao-v2-nota {
+    color: #577060;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.estrelas-v2 {
+    color: #d79d13;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.meses-v2 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 9px;
+}
+
+.mes-floracao-v2 {
+    display: grid;
+    place-items: center;
+    min-height: 74px;
+    padding: 9px 5px;
+    color: #718077;
+    background: #f6f8f6;
+    border: 1px solid #e0e7e1;
+    border-radius: 11px;
+    text-align: center;
+}
+
+.mes-floracao-v2 span {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+}
+
+.mes-floracao-v2 strong {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.mes-ativo-v2 {
+    color: #1e6037;
+    background: #e9f6ed;
+    border-color: #a9d2b5;
+    box-shadow: inset 0 0 0 1px rgba(64, 131, 82, 0.06);
+}
+
+/* DICA DE OURO */
+
+.dica-ouro-v2 {
+    display: grid;
+    grid-template-columns: 48px minmax(0, 1fr);
+    gap: 14px;
+    margin-top: 18px;
+    padding: 20px 22px;
+    background: #fff8dc;
+    border-color: #f0dc94;
+    border-left: 5px solid #d9a11c;
+}
+
+.icone-dica-v2 {
+    display: grid;
+    place-items: center;
+    width: 46px;
+    height: 46px;
+    background: #fff0b8;
+    border-radius: 12px;
+    font-size: 23px;
+}
+
+.dica-ouro-v2 h3 {
+    margin: 0 0 6px;
+    color: #6f4c00;
+    font-size: 19px;
+}
+
+.dica-ouro-v2 p {
+    margin: 0;
+    color: #463b20;
+    font-size: 14px;
+    line-height: 1.62;
+}
+
+/* VISUALIZADOR */
+
+.sem-rolagem {
+    overflow: hidden;
+}
+
+.visualizador-v2 {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 85px;
+    background: rgba(7, 18, 11, 0.92);
+}
+
+.visualizador-v2-aberto {
+    display: flex;
+}
+
+.visualizador-v2 img {
+    display: block;
+    max-width: min(1100px, 100%);
+    max-height: calc(100vh - 130px);
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 20px 70px rgba(0, 0, 0, 0.4);
+}
+
+.fechar-visualizador-v2,
+.controle-visualizador-v2 {
+    position: absolute;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.13);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    cursor: pointer;
+    backdrop-filter: blur(8px);
+}
+
+.fechar-visualizador-v2 {
+    top: 22px;
+    right: 28px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.controle-visualizador-v2 {
+    top: 50%;
+    width: 52px;
+    height: 72px;
+    border-radius: 14px;
+    transform: translateY(-50%);
+    font-size: 44px;
+}
+
+.anterior-v2 {
+    left: 22px;
+}
+
+.proxima-v2 {
+    right: 22px;
+}
+
+.contador-v2 {
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    padding: 8px 14px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.42);
+    border-radius: 999px;
+    transform: translateX(-50%);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1050px) {
+    .apresentacao-v2 {
+        grid-template-columns: minmax(0, 1.45fr) minmax(250px, 0.8fr);
+    }
+
+    .grade-cultivo-v2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .painel-dados-v2 {
+        grid-template-columns: 1fr;
+    }
+
+    .meses-v2 {
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 800px) {
+    .topo-ficha-v2 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .acoes-ficha-v2 {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        flex-basis: auto;
+    }
+
+    .apresentacao-v2 {
+        grid-template-columns: 1fr;
+    }
+
+    .galeria-v2 {
+        height: 340px;
+    }
+
+    .foto-principal-v2 {
+        height: 340px;
+    }
+
+    .resumo-lateral-v2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0 18px;
+    }
+
+    .resumo-item-v2:nth-last-child(-n + 2) {
+        border-bottom: 0;
+    }
+}
+
+@media (max-width: 620px) {
+    .topo-ficha-v2 {
+        gap: 18px;
+        padding: 17px;
+        border-radius: 14px;
+    }
+
+    .titulo-ficha-v2 {
+        font-size: 32px;
+    }
+
+    .acoes-ficha-v2 {
+        grid-template-columns: 1fr;
+    }
+
+    .galeria-v2 {
+        display: block;
+        height: auto;
+    }
+
+    .foto-principal-v2 {
+        height: 280px;
+    }
+
+    .miniaturas-v2 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-rows: none;
+        gap: 7px;
+        margin-top: 7px;
+    }
+
+    .miniatura-v2 {
+        height: 86px;
+    }
+
+    .resumo-lateral-v2 {
+        grid-template-columns: 1fr;
+        padding: 5px 17px;
+    }
+
+    .resumo-item-v2,
+    .resumo-item-v2:nth-last-child(-n + 2) {
+        border-bottom: 1px solid #e5ede6;
+    }
+
+    .resumo-item-v2:last-child {
+        border-bottom: 0;
+    }
+
+    .descricao-v2,
+    .secao-cultivo-v2,
+    .avaliacoes-v2,
+    .calendario-v2 {
+        padding: 18px;
+        border-radius: 14px;
+    }
+
+    .grade-cultivo-v2 {
+        grid-template-columns: 1fr;
+    }
+
+    .card-cultivo-v2 {
+        min-height: 0;
+    }
+
+    .meses-v2 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .dica-ouro-v2 {
+        grid-template-columns: 40px minmax(0, 1fr);
+        padding: 18px;
+        border-radius: 14px;
+    }
+
+    .icone-dica-v2 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .visualizador-v2 {
+        padding: 70px 15px;
+    }
+
+    .controle-visualizador-v2 {
+        width: 42px;
+        height: 58px;
+        font-size: 34px;
+    }
+
+    .anterior-v2 {
+        left: 8px;
+    }
+
+    .proxima-v2 {
+        right: 8px;
+    }
+}
+
+/* IMPRESSÃO */
+
+@media print {
+    .voltar,
+    .acoes-ficha-v2,
+    .visualizador-v2,
+    .rodape {
+        display: none !important;
+    }
+
+    .topo-ficha-v2,
+    .area-galeria-v2,
+    .resumo-lateral-v2,
+    .descricao-v2,
+    .secao-cultivo-v2,
+    .avaliacoes-v2,
+    .calendario-v2,
+    .dica-ouro-v2 {
+        box-shadow: none !important;
+        break-inside: avoid;
+    }
+
+    .apresentacao-v2,
+    .painel-dados-v2 {
+        gap: 10px;
+    }
+
+    .galeria-v2 {
+        height: 250px;
+    }
+
+    .foto-principal-v2 {
+        height: 250px;
+    }
+
+    .card-cultivo-v2 {
+        min-height: 0;
+    }
+}
