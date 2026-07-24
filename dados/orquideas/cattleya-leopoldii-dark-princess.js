@@ -14,7 +14,12 @@ export const cattleyaLeopoldiiDarkPrincess = {
     habitat: "Florestas costeiras e vales quentes, em árvores altas e bem iluminadas.",
     clima: "Quente a intermediário.",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
-    iluminacao: "Alta.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 10:00 e após 16:00",
+        observacoes: "Precisa de alta luminosidade para crescer e florir bem. Aceita sol da manhã com adaptação, mas deve ser protegida do sol forte do meio do dia."
+    },
     floracao: "Verão.",
     adubacao: "Forte durante o crescimento dos novos pseudobulbos.",
     rega: "Abundante no crescimento, com secagem parcial entre regas.",

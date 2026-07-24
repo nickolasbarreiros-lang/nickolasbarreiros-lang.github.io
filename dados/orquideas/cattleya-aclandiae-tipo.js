@@ -14,7 +14,12 @@ export const cattleyaAclandiaeTipo = {
     habitat: "Florestas quentes e sazonais, frequentemente em árvores expostas e bem ventiladas.",
     clima: "Quente.",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
-    iluminacao: "Alta, com sol filtrado e algumas horas de sol fraco.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 08:30 e após 16:30",
+        observacoes: "Necessita luz intensa para florescer, porém é sensível ao superaquecimento. Em Serra/ES, combine claridade forte, ventilação constante e sol direto apenas bem cedo."
+    },
     floracao: "Primavera e verão.",
     adubacao: "Regular no crescimento; reduzir quando os pseudobulbos amadurecerem.",
     rega: "Regar e deixar secar rapidamente. Sensível a raízes abafadas.",

@@ -14,7 +14,12 @@ export const cattleyaGuttataVarCoerulea = {
     habitat: "Restingas e florestas costeiras quentes, claras e ventiladas.",
     clima: "Quente.",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
-    iluminacao: "Alta, com sol suave direto.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 10:00 e após 16:00",
+        observacoes: "Espécie vigorosa que aprecia bastante luz. Em Serra/ES, plantas adultas bem adaptadas toleram sol matinal um pouco mais prolongado, desde que haja ventilação e raízes hidratadas."
+    },
     floracao: "Outono, após a maturação dos pseudobulbos.",
     adubacao: "Forte no crescimento, reduzindo após a maturação.",
     rega: "Regular durante crescimento; deixar secar parcialmente entre regas.",

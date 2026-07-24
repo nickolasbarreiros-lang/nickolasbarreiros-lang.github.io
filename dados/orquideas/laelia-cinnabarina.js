@@ -14,7 +14,12 @@ export const laeliaCinnabarina = {
     habitat: "Afloramentos rochosos ensolarados, com raízes em fendas e matéria orgânica escassa.",
     clima: "Intermediário, com forte ventilação e noites amenas.",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
-    iluminacao: "Luz filtrada muito forte, aceitando sol suave.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 10:00 e após 16:00",
+        observacoes: "Espécie rupícola de alta luminosidade. Em Serra/ES, mantenha excelente ventilação e permita sol matinal, protegendo-a do calor intenso do meio do dia."
+    },
     floracao: "Floresce principalmente na primavera e início do verão.",
     adubacao: "Adubo diluído no crescimento, evitando excesso de sais.",
     rega: "Regar bem no crescimento e deixar secar rapidamente; reduzir no período frio.",

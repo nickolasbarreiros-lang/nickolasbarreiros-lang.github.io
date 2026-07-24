@@ -1,3 +1,11 @@
+
+## Sprint 1.2 — Iluminação (Lote 1)
+
+- Campo `iluminacao` estruturado em 23 fichas de Cattleya, Brassavola, Epicattleya e Laelia.
+- Padronização por sombrite de 50% ou 70%, sol direto, horário e observações.
+- Interface atualizada para exibir todas as informações dentro do card Iluminação.
+- Recomendações adaptadas ao cultivo em Serra/ES.
+
 # Changelog
 
 ## 2.0.0-auditoria.1 — 23/07/2026

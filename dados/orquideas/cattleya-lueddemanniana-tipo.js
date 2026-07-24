@@ -14,7 +14,12 @@ export const cattleyaLueddemannianaTipo = {
     habitat: "Florestas sazonais em altitudes baixas a médias.",
     clima: "Quente a intermediário.",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
-    iluminacao: "Média a alta.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00 e após 16:00",
+        observacoes: "Cultive com luz intensa e filtrada. Em Serra/ES, o sol direto deve ser limitado às horas mais frescas para evitar aquecimento excessivo das folhas."
+    },
     floracao: "Fim do inverno e primavera em seu ciclo de cultivo.",
     adubacao: "Regular no crescimento; reduzir após o amadurecimento do pseudobulbo.",
     rega: "Farta durante crescimento, seguida de período um pouco mais seco.",

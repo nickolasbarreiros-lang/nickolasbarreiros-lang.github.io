@@ -20,7 +20,12 @@ export const cattleyaSchilleriana = {
     habitat: "Epífita em árvores de matas quentes e úmidas, geralmente com boa luminosidade e circulação de ar.",
     clima: "Quente a intermediário, úmido e muito ventilado.",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
-    iluminacao: "Luz filtrada forte, com sol suave no início da manhã.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00 e após 16:00",
+        observacoes: "Prefere luz forte, raízes muito arejadas e boa ventilação. Em Serra/ES, evite sol direto prolongado nos dias quentes e úmidos."
+    },
     floracao: "Primavera e início do verão.",
     adubacao: "Adubo equilibrado enquanto o novo pseudobulbo cresce. Após maturação, alternar adubo de floração. Bokashi mínimo e distante das raízes novas.",
     rega: "Regar bastante no crescimento e deixar secar rapidamente. Reduzir após maturação, sem desidratar excessivamente.",

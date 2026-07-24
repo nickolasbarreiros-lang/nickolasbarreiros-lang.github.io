@@ -14,7 +14,12 @@ export const cattleyaLoddigesii = {
     habitat: "Matas de galeria e florestas sazonais, em locais claros.",
     clima: "Intermediário a quente.",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
-    iluminacao: "Média a alta.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00 e após 16:00",
+        observacoes: "Prefere luminosidade alta e filtrada. Aceita sol fraco da manhã, mas folhas aquecidas ou amareladas demais indicam excesso de luz."
+    },
     floracao: "Inverno e início da primavera.",
     adubacao: "Equilibrada no crescimento; reduzir no período mais frio.",
     rega: "Regular no crescimento e moderada no inverno.",

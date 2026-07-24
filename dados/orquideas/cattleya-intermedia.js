@@ -14,7 +14,12 @@ export const cattleyaIntermedia = {
     habitat: "Matas ciliares, restingas e florestas abertas com boa luminosidade.",
     clima: "Intermediário a quente.",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
-    iluminacao: "Média a alta.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:30 e após 16:00",
+        observacoes: "Gosta de bastante claridade e pode receber sol suave da manhã. Em Serra/ES, aumente a exposição gradualmente para evitar queimaduras, principalmente no verão."
+    },
     floracao: "Fim do inverno e primavera.",
     adubacao: "Equilibrada no crescimento e manutenção regular em baixa dose.",
     rega: "Regar quando o substrato estiver quase seco.",

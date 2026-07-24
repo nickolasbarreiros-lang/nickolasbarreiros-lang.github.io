@@ -14,7 +14,12 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     habitat: "Matas secas e afloramentos rochosos, muitas vezes sobre árvores expostas e com forte ventilação.",
     clima: "Quente a intermediário, com período mais seco e noites amenas.",
     climaFloracao: "A floração é favorecida por muita luz, excelente ventilação, raízes que sequem rapidamente e noites um pouco mais frescas no outono e inverno. Excesso de água durante o amadurecimento dos pseudobulbos pode reduzir a floração.",
-    iluminacao: "Luz filtrada intensa, com sol fraco da manhã.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00 e após 16:00",
+        observacoes: "Cultive com luz intensa, semelhante à forma-tipo. A coloração alba não exige sombra adicional; em Serra/ES, evite o sol forte entre 09:30 e 16:00."
+    },
     floracao: "Floresce principalmente no outono e inverno, normalmente em brotações especiais sem folhas.",
     adubacao: "Adubação leve e frequente no crescimento; reduzir bastante após o amadurecimento dos pseudobulbos.",
     rega: "Mais água no crescimento e redução clara no período de repouso, sem deixar a planta desidratar excessivamente.",

@@ -57,6 +57,51 @@ function obterTexto(
     return valor;
 }
 
+
+function escaparHtml(valor) {
+    return String(valor ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+}
+
+function criarIluminacao(iluminacao) {
+    if (!iluminacao || typeof iluminacao !== "object") {
+        return `<p>${escaparHtml(obterTexto(iluminacao))}</p>`;
+    }
+
+    const sombrite = escaparHtml(obterTexto(iluminacao.sombrite));
+    const solDireto = escaparHtml(obterTexto(iluminacao.solDireto));
+    const horario = escaparHtml(obterTexto(iluminacao.horario, "Não se aplica"));
+    const observacoes = escaparHtml(obterTexto(iluminacao.observacoes));
+    const classeSol = String(iluminacao.solDireto).toLowerCase() === "sim"
+        ? "valor-sim"
+        : "valor-nao";
+
+    return `
+        <div class="detalhes-iluminacao-v2">
+            <div class="linha-iluminacao-v2">
+                <strong>🟢 Sombrite recomendado:</strong>
+                <span class="selo-sombrite-v2">${sombrite}</span>
+            </div>
+            <div class="linha-iluminacao-v2">
+                <strong>🌞 Sol direto:</strong>
+                <span class="${classeSol}">${solDireto}</span>
+            </div>
+            <div class="linha-iluminacao-v2">
+                <strong>🕒 Horário recomendado:</strong>
+                <span>${horario}</span>
+            </div>
+            <div class="observacao-iluminacao-v2">
+                <strong>⚠️ Observações:</strong>
+                <p>${observacoes}</p>
+            </div>
+        </div>
+    `;
+}
+
 function obterFotos(fotos) {
     if (!Array.isArray(fotos)) {
         return [];
@@ -583,11 +628,9 @@ if (!orquidea) {
                             Iluminação
                         </h4>
 
-                        <p>
-                            ${obterTexto(
-                                orquidea.iluminacao
-                            )}
-                        </p>
+                        ${criarIluminacao(
+                            orquidea.iluminacao
+                        )}
                     </div>
 
                 </article>

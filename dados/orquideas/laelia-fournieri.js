@@ -14,7 +14,12 @@ export const laeliaFournieri = {
     habitat: "A determinar após confirmação taxonômica.",
     clima: "Intermediário e ventilado, de forma provisória.",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
-    iluminacao: "Luz filtrada média a forte.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:30 e após 16:00",
+        observacoes: "Prefere luz forte, ambiente arejado e raízes que sequem rapidamente. O sol da manhã pode ser oferecido após aclimatação."
+    },
     floracao: "Época provisória até confirmação.",
     adubacao: "Adubo equilibrado diluído durante o crescimento.",
     rega: "Regar quando o substrato estiver quase seco.",
