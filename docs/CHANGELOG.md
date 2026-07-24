@@ -16,3 +16,11 @@
 
 ### Mantido
 - Formato atual dos objetos para não quebrar `cards.js`, `ficha.js`, filtros, estatísticas e painel de floração.
+## Sprint 2 — Lote 1 de revisão científica
+
+- Preenchidas e padronizadas 10 fichas de cultivo.
+- Informações adaptadas para Serra/ES.
+- Mantida a estrutura plana compatível com a interface existente.
+- Revisadas: Cattleya walkeriana; Cattleya nobilior var. amaliae; duas formas de Cattleya violacea; Brassavola perrinii; Rodriguezia lanceolata; Ornithophora radicans; Dendrobium loddigesii; Zygopetalum maculatum; Encyclia bracteata.
+- Meses de floração representam janelas prováveis em cultivo no Sudeste e podem variar conforme clone e microclima.
+
