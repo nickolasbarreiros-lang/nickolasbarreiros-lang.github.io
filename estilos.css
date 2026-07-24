@@ -3848,3 +3848,20 @@ html{scroll-behavior:smooth}.pagina-home-v4{margin:0;background:#fff;color:var(-
         display: none !important;
     }
 }
+
+
+/* Correção alinhamento breadcrumb */
+main.container{
+    display:flex;
+    flex-direction:column;
+}
+.voltar-ficha-v3{
+    align-self:flex-start;
+}
+.breadcrumb-v4{
+    align-self:center;
+    max-width:100%;
+    margin:0 auto 18px auto;
+    padding:0;
+    clear:both;
+}
