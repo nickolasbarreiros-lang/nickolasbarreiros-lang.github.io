@@ -2,6 +2,8 @@
 // Para incluir uma nova planta: crie o arquivo individual e adicione o import e o nome no array abaixo.
 
 import { sophronitisWittigiana } from "./sophronitis-wittigiana.js";
+import { dendrobiumPolysema } from "./dendrobium-polysema.js";
+import { bifrenariaVerboonenii } from "./bifrenaria-verboonenii.js";
 import { sophronitisCernua } from "./sophronitis-cernua.js";
 import { sophronitisCernuaVarLitoranea } from "./sophronitis-cernua-var-litoranea.js";
 import { zygopetalumMackayi } from "./zygopetalum-mackayi.js";
@@ -24,7 +26,6 @@ import { renantheraCoccinea } from "./renanthera-coccinea.js";
 import { spathoglottisPlicata } from "./spathoglottis-plicata.js";
 import { cyrtopodiumPodophyllum } from "./cyrtopodium-podophyllum.js";
 import { aciantheraGlumacea } from "./acianthera-glumacea.js";
-import { dicaDeOuroEmSerraEsOSegredoE } from "./dica-de-ouro-em-serra-es-o-segredo-e.js";
 import { miltoniaClowesii } from "./miltonia-clowesii.js";
 import { gomesaRecurva } from "./gomesa-recurva.js";
 import { maxillariaSubulata } from "./maxillaria-subulata.js";
@@ -113,6 +114,8 @@ import { bulbophyllumSyciobulbon } from "./bulbophyllum-syciobulbon.js";
 import { laeliaCaulencens } from "./laelia-caulencens.js";
 
 export const orquideas = [
+    dendrobiumPolysema,
+    bifrenariaVerboonenii,
     sophronitisWittigiana,
     sophronitisCernua,
     sophronitisCernuaVarLitoranea,
@@ -136,7 +139,6 @@ export const orquideas = [
     spathoglottisPlicata,
     cyrtopodiumPodophyllum,
     aciantheraGlumacea,
-    dicaDeOuroEmSerraEsOSegredoE,
     miltoniaClowesii,
     gomesaRecurva,
     maxillariaSubulata,
