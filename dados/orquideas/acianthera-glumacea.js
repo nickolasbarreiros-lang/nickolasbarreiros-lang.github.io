@@ -13,6 +13,10 @@ export const aciantheraGlumacea = {
         "Clima úmido",
     ],
     fotos: [
+        "imagens/Acianthera glumacea/Acianthera glumacea1.jpeg",
+        "imagens/Acianthera glumacea/Acianthera glumacea2.jpeg",
+        "imagens/Acianthera glumacea/Acianthera glumacea3.jpg",
+        "imagens/Acianthera glumacea/Acianthera glumacea4.jpg",
     ],
     descricao: "Espécie brasileira do grupo Pleurothallidinae, de porte compacto e flores pequenas que surgem próximas às folhas. É cultivada principalmente por colecionadores de miniaturas e espécies nativas.",
     origem: "Brasil",

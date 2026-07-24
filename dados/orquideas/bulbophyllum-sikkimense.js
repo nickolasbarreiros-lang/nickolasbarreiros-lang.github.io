@@ -7,7 +7,12 @@ export const bulbophyllumSikkimense = {
     tipo: "Espécie",
     dificuldade: "Intermediário a avançado",
     caracteristicas: ["Origem himalaia", "Prefere noites frescas", "Flores incomuns"],
-    fotos: [],
+    fotos: [
+        "imagens/Bulbophyllum sikkimense/Bulbophyllum sikkimense1.webp",
+        "imagens/Bulbophyllum sikkimense/Bulbophyllum sikkimense2.jpg",
+        "imagens/Bulbophyllum sikkimense/Bulbophyllum sikkimense3.jpeg",
+        "imagens/Bulbophyllum sikkimense/Bulbophyllum sikkimense4.webp",
+    ],
     descricao: "Espécie asiática associada a regiões montanhosas. Exige mais frescor que muitos Bulbophyllum tropicais e pode sofrer em noites muito quentes.",
     origem: "Ásia",
     regiao: "Himalaia oriental e áreas próximas",

@@ -7,7 +7,12 @@ export const bulbophyllumAmbrosia = {
     tipo: "Espécie",
     dificuldade: "Intermediário",
     caracteristicas: ["Flores claras", "Perfume agradável", "Crescimento rastejante"],
-    fotos: [],
+    fotos: [
+        "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia1.jpeg",
+        "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia2.webp",
+        "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia3.webp",
+        "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia4.webp",
+    ],
     descricao: "Bulbophyllum asiático de pequeno porte, conhecido pelo perfume agradável das flores, incomum em um gênero no qual muitos aromas são fortes ou desagradáveis.",
     origem: "Ásia",
     regiao: "Sul da China e Indochina",

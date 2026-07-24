@@ -7,7 +7,12 @@ export const bulbophyllumMiniatum = {
     tipo: "Espécie",
     dificuldade: "Intermediário",
     caracteristicas: ["Flores alaranjadas", "Porte compacto", "Crescimento rastejante"],
-    fotos: [],
+    fotos: [
+        "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum1.jpeg",
+        "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum2.jpeg",
+        "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum3.webp",
+        "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum4.webp",
+    ],
     descricao: "Bulbophyllum compacto, geralmente cultivado pelas flores em tons alaranjados a avermelhados e pelo hábito rastejante.",
     origem: "Ásia",
     regiao: "Sudeste Asiático",

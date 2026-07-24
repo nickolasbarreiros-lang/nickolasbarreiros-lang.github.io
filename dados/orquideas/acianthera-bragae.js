@@ -7,7 +7,12 @@ export const aciantheraBragae = {
     tipo: "Espécie",
     dificuldade: "Intermediário",
     caracteristicas: ["Miniatura brasileira", "Crescimento cespitoso", "Flores delicadas"],
-    fotos: [],
+    fotos: [
+        "imagens/Acianthera bragae/Acianthera bragae1.jpg",
+        "imagens/Acianthera bragae/Acianthera bragae2.jpg",
+        "imagens/Acianthera bragae/Acianthera bragae3.jpg",
+        "imagens/Acianthera bragae/Acianthera bragae4.jpg",
+    ],
     descricao: "Micro-orquídea brasileira de crescimento compacto, apreciada por colecionadores de Pleurothallidinae. Suas flores são pequenas e exigem observação de perto.",
     origem: "Brasil",
     regiao: "Sudeste do Brasil",

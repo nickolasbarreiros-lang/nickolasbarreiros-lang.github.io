@@ -7,7 +7,12 @@ export const camaridiumCarinatum = {
     tipo: "Espécie",
     dificuldade: "Intermediário",
     caracteristicas: ["Parente de Maxillaria", "Flores pequenas", "Touceira compacta"],
-    fotos: [],
+    fotos: [
+        "imagens/Camaridium carinatum/Camaridium carinatum1.jpeg",
+        "imagens/Camaridium carinatum/Camaridium carinatum2.jpg",
+        "imagens/Camaridium carinatum/Camaridium carinatum3.jpg",
+        "imagens/Camaridium carinatum/Camaridium carinatum4.jpg",
+    ],
     descricao: "Espécie neotropical anteriormente incluída em Maxillaria em algumas classificações. Forma touceiras e apresenta flores pequenas junto à base dos pseudobulbos.",
     origem: "América tropical",
     regiao: "América Central e norte da América do Sul",

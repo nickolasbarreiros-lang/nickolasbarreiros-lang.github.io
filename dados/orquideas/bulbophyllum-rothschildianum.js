@@ -13,6 +13,10 @@ export const bulbophyllumRothschildianum = {
         "Alta umidade",
     ],
     fotos: [
+        "imagens/Bulbophyllum rothschildianum/Bulbophyllum rothschildianum1.jpg",
+        "imagens/Bulbophyllum rothschildianum/Bulbophyllum rothschildianum2.jpeg",
+        "imagens/Bulbophyllum rothschildianum/Bulbophyllum rothschildianum3.jpeg",
+        "imagens/Bulbophyllum rothschildianum/Bulbophyllum rothschildianum4.jpeg",
     ],
     descricao: "Bulbophyllum asiático de inflorescências pendentes e muito ornamentais, com flores rajadas e estruturas alongadas que se movimentam com o vento.",
     origem: "Índia e região do Himalaia oriental",

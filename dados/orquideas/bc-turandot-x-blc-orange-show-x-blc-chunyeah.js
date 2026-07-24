@@ -7,7 +7,12 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     tipo: "Híbrido horticultural",
     dificuldade: "Iniciante a intermediário",
     caracteristicas: ["Híbrido da aliança Cattleya", "Flores coloridas", "Boa adaptação"],
-    fotos: [],
+    fotos: [
+        "imagens/BC Turandot x (BLC Orange Show x BLC Chunyeah)/BC Turandot x (BLC Orange Show x BLC Chunyeah)1.webp",
+        "imagens/BC Turandot x (BLC Orange Show x BLC Chunyeah)/BC Turandot x (BLC Orange Show x BLC Chunyeah)2.jpeg",
+        "imagens/BC Turandot x (BLC Orange Show x BLC Chunyeah)/BC Turandot x (BLC Orange Show x BLC Chunyeah)3.webp",
+        "imagens/BC Turandot x (BLC Orange Show x BLC Chunyeah)/BC Turandot x (BLC Orange Show x BLC Chunyeah)4.jpg",
+    ],
     descricao: "Cruzamento complexo da aliança Cattleya, envolvendo linhagens Brassavola, Cattleya e antigas Laelia. A cor e o formato podem variar entre indivíduos do mesmo cruzamento.",
     origem: "Horticultural",
     regiao: "Produzido em cultivo",

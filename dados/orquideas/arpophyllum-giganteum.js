@@ -13,6 +13,10 @@ export const arpophyllumGiganteum = {
         "América Central",
     ],
     fotos: [
+        "imagens/Arpophyllum giganteum/Arpophyllum giganteum1.jpg",
+        "imagens/Arpophyllum giganteum/Arpophyllum giganteum2.jpeg",
+        "imagens/Arpophyllum giganteum/Arpophyllum giganteum3.webp",
+        "imagens/Arpophyllum giganteum/Arpophyllum giganteum4.jpeg",
     ],
     descricao: "Espécie robusta que produz longas inflorescências cilíndricas cobertas por numerosas flores pequenas, rosadas a púrpuras. Forma touceiras densas e pode atingir porte considerável.",
     origem: "México e América Central",

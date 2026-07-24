@@ -7,7 +7,12 @@ export const bifrenariaHarrisoniae = {
     tipo: "Espécie",
     dificuldade: "Intermediário",
     caracteristicas: ["Flores grandes e cerosas", "Pseudobulbos robustos", "Perfume variável"],
-    fotos: [],
+    fotos: [
+        "imagens/Bifrenaria harrisoniae/Bifrenaria harrisoniae1.webp",
+        "imagens/Bifrenaria harrisoniae/Bifrenaria harrisoniae2.jpg",
+        "imagens/Bifrenaria harrisoniae/Bifrenaria harrisoniae3.jpg",
+        "imagens/Bifrenaria harrisoniae/Bifrenaria harrisoniae4.jpg",
+    ],
     descricao: "Espécie brasileira de flores grandes, carnosas e muito ornamentais. Produz inflorescências curtas na base dos pseudobulbos maduros.",
     origem: "Brasil",
     regiao: "Mata Atlântica do Sudeste",

@@ -7,7 +7,12 @@ export const bulbophyllumFalcatum = {
     tipo: "Espécie",
     dificuldade: "Intermediário",
     caracteristicas: ["Inflorescência achatada", "Flores alinhadas", "Espécie africana"],
-    fotos: [],
+    fotos: [
+        "imagens/Bulbophyllum Falcatum/Bulbophyllum Falcatum1.jpg",
+        "imagens/Bulbophyllum Falcatum/Bulbophyllum Falcatum2.webp",
+        "imagens/Bulbophyllum Falcatum/Bulbophyllum Falcatum3.webp",
+        "imagens/Bulbophyllum Falcatum/Bulbophyllum Falcatum4.webp",
+    ],
     descricao: "Espécie africana singular, com inflorescência achatada em forma de lâmina e pequenas flores dispostas ao longo das bordas.",
     origem: "África tropical",
     regiao: "África Ocidental e Central",

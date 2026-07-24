@@ -12,7 +12,12 @@ export const brassavolaPerrini = {
         "Tolerante ao calor",
         "Flores brancas"
     ],
-    fotos: [],
+    fotos: [
+        "imagens/Brassavola perrinii/Brassavola perrinii1.jpeg",
+        "imagens/Brassavola perrinii/Brassavola perrinii2.webp",
+        "imagens/Brassavola perrinii/Brassavola perrinii3.webp",
+        "imagens/Brassavola perrinii/Brassavola perrinii4.webp",
+    ],
     descricao: "Orquídea epífita de folhas cilíndricas e flores claras, perfumadas principalmente à noite. É uma espécie resistente, de crescimento vigoroso quando recebe bastante luminosidade e secagem rápida das raízes.",
     origem: "Brasil e países vizinhos do centro-sul da América do Sul",
     regiao: "Sudeste e Sul do Brasil, além de áreas adjacentes",

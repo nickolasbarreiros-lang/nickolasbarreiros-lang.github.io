@@ -7,7 +7,12 @@ export const aspasiaLunata = {
     tipo: "Espécie",
     dificuldade: "Iniciante a intermediário",
     caracteristicas: ["Flores listradas", "Pseudobulbos achatados", "Crescimento vigoroso"],
-    fotos: [],
+    fotos: [
+        "imagens/Aspasia lunata/Aspasia lunata1.webp",
+        "imagens/Aspasia lunata/Aspasia lunata2.webp",
+        "imagens/Aspasia lunata/Aspasia lunata3.webp",
+        "imagens/Aspasia lunata/Aspasia lunata4.webp",
+    ],
     descricao: "Espécie brasileira da aliança Oncidium, com flores claras marcadas por faixas marrons ou arroxeadas. É relativamente adaptável e forma touceiras elegantes.",
     origem: "Brasil",
     regiao: "Mata Atlântica do Sudeste e Sul",

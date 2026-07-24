@@ -7,7 +7,12 @@ export const aciantheraAveniformis = {
     tipo: "Espécie",
     dificuldade: "Intermediário",
     caracteristicas: ["Miniatura epífita", "Folhas estreitas", "Flores pequenas em sequência"],
-    fotos: [],
+    fotos: [
+        "imagens/Acianthera aveniformis/Acianthera aveniformis1.jpeg",
+        "imagens/Acianthera aveniformis/Acianthera aveniformis2.jpg",
+        "imagens/Acianthera aveniformis/Acianthera aveniformis3.jpg",
+        "imagens/Acianthera aveniformis/Acianthera aveniformis4.jpg",
+    ],
     descricao: "Espécie brasileira de pequeno porte, anteriormente tratada em Pleurothallis. Forma touceiras compactas e produz flores discretas, adequadas para coleções de micro-orquídeas.",
     origem: "Brasil",
     regiao: "Mata Atlântica do Sul e Sudeste do Brasil",

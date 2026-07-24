@@ -7,7 +7,12 @@ export const bulbophyllumBuffo = {
     tipo: "Híbrido horticultural",
     dificuldade: "Intermediário",
     caracteristicas: ["Flores exóticas", "Híbrido de Bulbophyllum", "Crescimento rastejante"],
-    fotos: [],
+    fotos: [
+        "imagens/Bulbophyllum Buffo/Bulbophyllum Buffo1.jpg",
+        "imagens/Bulbophyllum Buffo/Bulbophyllum Buffo2.jpg",
+        "imagens/Bulbophyllum Buffo/Bulbophyllum Buffo3.jpeg",
+        "imagens/Bulbophyllum Buffo/Bulbophyllum Buffo4.jpeg",
+    ],
     descricao: "Híbrido horticultural de Bulbophyllum vendido sob o nome Buffo. A aparência e o aroma podem variar conforme o clone, mas o cultivo segue o padrão de Bulbophyllum de clima quente.",
     origem: "Horticultural",
     regiao: "Híbrido produzido em cultivo",

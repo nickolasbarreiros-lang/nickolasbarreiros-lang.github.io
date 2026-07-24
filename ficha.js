@@ -350,7 +350,7 @@ if (!orquidea) {
         `${orquidea.nome} | Catálogo de Orquídeas`;
 
     const fotos = obterFotos(
-        orquidea.fotos
+        orquidea.imagens || orquidea.fotos
     );
 
     const avaliacoes =

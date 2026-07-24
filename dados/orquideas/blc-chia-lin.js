@@ -7,7 +7,12 @@ export const blcChiaLin = {
     tipo: "Híbrido horticultural",
     dificuldade: "Iniciante a intermediário",
     caracteristicas: ["Flores grandes", "Cores intensas", "Híbrido clássico"],
-    fotos: [],
+    fotos: [
+        "imagens/Blc. Chia Lin/Blc. Chia Lin1.webp",
+        "imagens/Blc. Chia Lin/Blc. Chia Lin2.webp",
+        "imagens/Blc. Chia Lin/Blc. Chia Lin3.webp",
+        "imagens/Blc. Chia Lin/Blc. Chia Lin4.jpg",
+    ],
     descricao: "Híbrido clássico da aliança Cattleya, atualmente tratado em nomenclatura moderna dentro de Rhyncholaeliocattleya ou combinações relacionadas, conforme a linhagem registrada. É conhecido por flores grandes e vistosas.",
     origem: "Horticultural",
     regiao: "Produzido em cultivo",

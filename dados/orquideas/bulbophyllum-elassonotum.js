@@ -7,7 +7,12 @@ export const bulbophyllumElassonotum = {
     tipo: "Espécie",
     dificuldade: "Intermediário",
     caracteristicas: ["Miniatura", "Flores pequenas", "Rizoma rastejante"],
-    fotos: [],
+    fotos: [
+        "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum1.webp",
+        "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum2.png",
+        "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum3.jpeg",
+        "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum4.jpg",
+    ],
     descricao: "Espécie miniatura de Bulbophyllum, valorizada pelo porte compacto e pelas flores de detalhes delicados.",
     origem: "Ásia tropical",
     regiao: "Sudeste Asiático",

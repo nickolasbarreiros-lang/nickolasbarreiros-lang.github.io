@@ -7,7 +7,12 @@ export const aciantheraPubescens = {
     tipo: "Espécie",
     dificuldade: "Intermediário",
     caracteristicas: ["Flores com pubescência", "Folhas coriáceas", "Espécie brasileira"],
-    fotos: [],
+    fotos: [
+        "imagens/Acianthera pubescens/Acianthera pubescens1.jpg",
+        "imagens/Acianthera pubescens/Acianthera pubescens2.jpg",
+        "imagens/Acianthera pubescens/Acianthera pubescens3.jpeg",
+        "imagens/Acianthera pubescens/Acianthera pubescens4.webp",
+    ],
     descricao: "Espécie de Pleurothallidinae conhecida pelas flores pequenas com textura e pubescência marcantes. Forma touceiras e pode florescer mais de uma vez quando bem estabelecida.",
     origem: "Brasil",
     regiao: "Mata Atlântica, principalmente Sul e Sudeste",

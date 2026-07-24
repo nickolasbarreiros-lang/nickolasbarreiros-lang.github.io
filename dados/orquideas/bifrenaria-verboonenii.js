@@ -13,9 +13,10 @@ export const bifrenariaVerboonenii = {
         "Rara"
     ],
     fotos: [
-        "imagens/bifrenaria-verboonenii-1.jpg",
-        "imagens/bifrenaria-verboonenii-2.jpg",
-        "imagens/bifrenaria-verboonenii-3.jpg"
+        "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii1.jpeg",
+        "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii2.jpg",
+        "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii3.jpg",
+        "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii4.jpg",
     ],
     descricao: "A Bifrenaria verboonenii é uma espécie botânica brasileira associada à Mata Atlântica. Apresenta pseudobulbos robustos, folhas largas e inflorescências com flores cerosas de coloração variável entre amarelo, marrom, rosa e púrpura. É uma planta rara e muito valorizada por colecionadores.",
     origem: "Brasil",

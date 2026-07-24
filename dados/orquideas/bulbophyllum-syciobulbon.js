@@ -7,7 +7,12 @@ export const bulbophyllumSyciobulbon = {
     tipo: "Espécie",
     dificuldade: "Intermediário",
     caracteristicas: ["Pseudobulbos pequenos", "Rizoma rastejante", "Flores discretas"],
-    fotos: [],
+    fotos: [
+        "imagens/Bulbophyllum syciobulbon/Bulbophyllum syciobulbon1.jpg",
+        "imagens/Bulbophyllum syciobulbon/Bulbophyllum syciobulbon2.jpeg",
+        "imagens/Bulbophyllum syciobulbon/Bulbophyllum syciobulbon3.jpg",
+        "imagens/Bulbophyllum syciobulbon/Bulbophyllum syciobulbon4.jpeg",
+    ],
     descricao: "Espécie de Bulbophyllum de hábito rastejante, com pseudobulbos espaçados e flores pequenas de interesse botânico.",
     origem: "Ásia tropical",
     regiao: "Sudeste Asiático",
