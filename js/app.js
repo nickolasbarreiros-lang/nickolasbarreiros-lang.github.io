@@ -2,7 +2,7 @@
    IMPORTAÇÃO DOS DADOS
 ========================================================= */
 
-import * as moduloDados from "../dados/orquideas.js";
+import { orquideas } from "../dados/orquideas/index.js";
 
 
 /* =========================================================
