@@ -1,33 +1,32 @@
-// Cadastro gerado a partir do álbum de orquídeas.
-// Preencha os campos vazios quando revisar esta planta.
+// Ficha revisada para o catálogo de orquídeas — Sprint 2, Lote 4.
 
 export const jacquiniellaGlobosa = {
     id: "jacquiniella-globosa",
     nome: "Jacquiniella globosa",
     genero: "Jacquiniella",
-    tipo: "",
-    dificuldade: "",
-    caracteristicas: [],
+    tipo: "Espécie",
+    dificuldade: "Intermediário",
+    caracteristicas: ["Hastes finas", "Flores pequenas", "Crescimento pendente"],
     fotos: [],
-    descricao: "",
-    origem: "",
-    regiao: "",
-    habitat: "",
-    clima: "",
-    iluminacao: "",
-    floracao: "",
-    adubacao: "",
-    rega: "",
-    suporte: "",
-    substrato: "",
-    dica: "",
-    mesesFloracao: [],
+    descricao: "Espécie epífita de hastes finas e folhas dísticas, com pequenas flores produzidas nas extremidades.",
+    origem: "América tropical",
+    regiao: "América Central, Caribe e norte da América do Sul",
+    habitat: "Florestas úmidas, em ramos finos e bem ventilados.",
+    clima: "Quente a intermediário, úmido.",
+    iluminacao: "Sombra clara a luz filtrada média.",
+    floracao: "Pode florescer em diferentes épocas, principalmente na estação úmida.",
+    adubacao: "Adubo foliar muito diluído a cada 10–15 dias.",
+    rega: "Manter umidade regular, especialmente se montada em placa.",
+    suporte: "Placa, tronco ou cesto pequeno.",
+    substrato: "Montagem em placa com fina camada de esfagno.",
+    dica: "Em Serra/ES, regue cedo e garanta secagem superficial até a noite para evitar fungos nas hastes finas.",
+    mesesFloracao: [10, 11, 12, 1, 2, 3],
     avaliacoes: {
-        cultivo: 0,
-        floracao: 0,
-        perfume: 0,
-        luminosidade: 0,
-        agua: 0,
-        raridade: 0
+        cultivo: 3,
+        floracao: 3,
+        perfume: 1,
+        luminosidade: 2,
+        agua: 4,
+        raridade: 4
     }
 };

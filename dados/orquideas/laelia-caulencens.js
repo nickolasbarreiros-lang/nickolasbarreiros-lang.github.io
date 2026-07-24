@@ -1,33 +1,32 @@
-// Cadastro gerado a partir do álbum de orquídeas.
-// Preencha os campos vazios quando revisar esta planta.
+// Ficha revisada para o catálogo de orquídeas — Sprint 2, Lote 4.
 
 export const laeliaCaulencens = {
     id: "laelia-caulencens",
     nome: "Laelia caulencens",
     genero: "Laelia",
-    tipo: "",
-    dificuldade: "",
-    caracteristicas: [],
+    tipo: "Identificação a confirmar",
+    dificuldade: "Intermediário",
+    caracteristicas: ["Cadastro com nome incerto", "Cultivo semelhante a Cattleya rupícola", "Exige drenagem"],
     fotos: [],
-    descricao: "",
-    origem: "",
-    regiao: "",
-    habitat: "",
-    clima: "",
-    iluminacao: "",
-    floracao: "",
-    adubacao: "",
-    rega: "",
-    suporte: "",
-    substrato: "",
-    dica: "",
-    mesesFloracao: [],
+    descricao: "Planta cadastrada como Laelia caulencens. O nome não corresponde claramente a uma espécie aceita e deve ser confirmado na próxima floração ou pela etiqueta original.",
+    origem: "Provavelmente Brasil",
+    regiao: "Identificação pendente",
+    habitat: "Provavelmente ambiente rupícola ou epífito claro, conforme o grupo horticultural associado.",
+    clima: "Intermediário, muito ventilado.",
+    iluminacao: "Luz filtrada forte, com sol fraco da manhã.",
+    floracao: "Época provisória até confirmação da identidade.",
+    adubacao: "Adubação leve e frequente no crescimento.",
+    rega: "Regar bem e permitir secagem rápida do substrato.",
+    suporte: "Vaso pequeno e muito drenado.",
+    substrato: "Brita fina, pedra-pomes, carvão e pouca casca.",
+    dica: "Em Serra/ES, mantenha em local claro e seco entre regas. Fotografe flores e etiqueta para confirmar a identificação.",
+    mesesFloracao: [8, 9, 10, 11],
     avaliacoes: {
-        cultivo: 0,
-        floracao: 0,
-        perfume: 0,
-        luminosidade: 0,
-        agua: 0,
-        raridade: 0
+        cultivo: 3,
+        floracao: 3,
+        perfume: 1,
+        luminosidade: 4,
+        agua: 2,
+        raridade: 5
     }
 };

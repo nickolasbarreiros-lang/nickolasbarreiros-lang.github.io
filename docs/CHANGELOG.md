@@ -39,3 +39,10 @@
 - Padronizados tipo, dificuldade, características, cultivo e avaliações.
 - Adicionadas recomendações específicas para Serra/ES.
 - Mantidos IDs e nomes de etiqueta para compatibilidade com o site.
+## Sprint 2 — Lote 4 (24/07/2026)
+
+- Revisão e preenchimento de 25 fichas adicionais.
+- Cultivo adaptado para Serra/ES.
+- Identificações duvidosas sinalizadas sem apagar os nomes originais do acervo.
+- Mantida compatibilidade com a estrutura atual do site.
+

@@ -1,33 +1,32 @@
-// Cadastro gerado a partir do álbum de orquídeas.
-// Preencha os campos vazios quando revisar esta planta.
+// Ficha revisada para o catálogo de orquídeas — Sprint 2, Lote 4.
 
 export const colmanaraWildcat = {
     id: "colmanara-wildcat",
     nome: "Colmanara Wildcat",
     genero: "Colmanara",
-    tipo: "",
-    dificuldade: "",
-    caracteristicas: [],
+    tipo: "Híbrido intergenérico",
+    dificuldade: "Fácil a intermediário",
+    caracteristicas: ["Hastes ramificadas", "Flores pintalgadas", "Floração durável"],
     fotos: [],
-    descricao: "",
-    origem: "",
-    regiao: "",
-    habitat: "",
-    clima: "",
-    iluminacao: "",
-    floracao: "",
-    adubacao: "",
-    rega: "",
-    suporte: "",
-    substrato: "",
-    dica: "",
-    mesesFloracao: [],
+    descricao: "Híbrido comercial do grupo Oncidiinae, conhecido como Colmanara Wildcat, com flores vistosas em tons de vermelho, amarelo e marrom.",
+    origem: "Híbrido hortícola",
+    regiao: "Origem de cultivo",
+    habitat: "Não possui habitat natural.",
+    clima: "Intermediário, tolerando calor com boa ventilação.",
+    iluminacao: "Luz filtrada média, mais suave que para Cattleya.",
+    floracao: "Pode florescer em diferentes épocas do ano, com maior frequência após a maturação de novos pseudobulbos.",
+    adubacao: "Adubo equilibrado em baixa concentração a cada 7–15 dias.",
+    rega: "Regar quando o substrato estiver quase seco; raízes finas não toleram seca prolongada.",
+    suporte: "Vaso plástico bem drenado.",
+    substrato: "Casca fina a média, carvão, perlita ou pedra-pomes e pequena porção de esfagno.",
+    dica: "Em Serra/ES, evite calor acumulado e água parada no miolo das brotações.",
+    mesesFloracao: [4, 5, 6, 7, 8, 9, 10],
     avaliacoes: {
-        cultivo: 0,
-        floracao: 0,
-        perfume: 0,
-        luminosidade: 0,
-        agua: 0,
-        raridade: 0
+        cultivo: 2,
+        floracao: 5,
+        perfume: 2,
+        luminosidade: 3,
+        agua: 4,
+        raridade: 2
     }
 };
