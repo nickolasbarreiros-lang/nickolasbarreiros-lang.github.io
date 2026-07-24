@@ -51,13 +51,7 @@ function obterTexto(
     }
 
     if (typeof valor === "object") {
-        const chips = [];
-        if (valor.sombrite) chips.push(`🟨 ${valor.sombrite}`);
-        if (valor.solDireto) chips.push(valor.solDireto.toLowerCase()==="sim" ? "☀️ Sol direto" : "🚫 Sem sol direto");
-        if (valor.horario) chips.push(`🕘 ${valor.horario}`);
-        const linha = chips.join(" • ");
-        const obs = valor.observacoes ? `<br><small>${valor.observacoes}</small>` : "";
-        return linha + obs;
+        return textoPadrao;
     }
 
     if (String(valor).trim() === "") {
@@ -65,6 +59,92 @@ function obterTexto(
     }
 
     return valor;
+}
+
+function criarChip(icone, texto, classeExtra = "") {
+    if (texto === undefined || texto === null || String(texto).trim() === "") {
+        return "";
+    }
+
+    return `
+        <span class="chip-info-v2 ${classeExtra}">
+            ${icone ? `<span aria-hidden="true">${icone}</span>` : ""}
+            <span>${texto}</span>
+        </span>
+    `;
+}
+
+function criarInfoCard({
+    titulo,
+    icone,
+    conteudo,
+    chips = [],
+    descricao = "",
+    classeExtra = ""
+}) {
+    const chipsValidos = chips.filter(Boolean);
+
+    return `
+        <article class="card-cultivo-v2 ${classeExtra}">
+            <div class="icone-card-v2" aria-hidden="true">
+                ${icone}
+            </div>
+
+            <div class="conteudo-card-cultivo-v2">
+                <h4>${titulo}</h4>
+
+                ${chipsValidos.length ? `
+                    <div class="linha-chips-v2">
+                        ${chipsValidos.join("")}
+                    </div>
+                ` : ""}
+
+                ${conteudo ? `
+                    <p class="info-horizontal">
+                        ${conteudo}
+                    </p>
+                ` : ""}
+
+                ${descricao ? `
+                    <p class="observacao-card-v2">
+                        ${descricao}
+                    </p>
+                ` : ""}
+            </div>
+        </article>
+    `;
+}
+
+function criarCardIluminacao(iluminacao) {
+    if (!iluminacao || typeof iluminacao !== "object") {
+        return criarInfoCard({
+            titulo: "Iluminação",
+            icone: "☀️",
+            conteudo: obterTexto(iluminacao),
+            classeExtra: "card-iluminacao-v2"
+        });
+    }
+
+    const solDireto = String(iluminacao.solDireto || "").trim().toLowerCase();
+    const textoSol = solDireto === "sim"
+        ? "Com sol direto"
+        : solDireto === "não" || solDireto === "nao"
+            ? "Sem sol direto"
+            : iluminacao.solDireto;
+
+    const iconeSol = solDireto === "sim" ? "☀️" : "🚫";
+
+    return criarInfoCard({
+        titulo: "Iluminação",
+        icone: "☀️",
+        chips: [
+            criarChip("🟨", iluminacao.sombrite ? `${iluminacao.sombrite} de sombrite` : ""),
+            criarChip(iconeSol, textoSol),
+            criarChip("🕘", iluminacao.horario)
+        ],
+        descricao: iluminacao.observacoes || "",
+        classeExtra: "card-iluminacao-v2"
+    });
 }
 
 function obterFotos(fotos) {
@@ -582,147 +662,49 @@ if (!orquidea) {
 
             <div class="grade-cultivo-v2">
 
-                <article class="card-cultivo-v2">
+                ${criarCardIluminacao(orquidea.iluminacao)}
 
-                    <div class="icone-card-v2">
-                        ☀️
-                    </div>
+                ${criarInfoCard({
+                    titulo: "Rega",
+                    icone: "💧",
+                    conteudo: obterTexto(orquidea.rega)
+                })}
 
-                    <div>
-                        <h4>
-                            Iluminação
-                        </h4>
+                ${criarInfoCard({
+                    titulo: "Clima para floração",
+                    icone: "🌡️",
+                    conteudo: obterTexto(
+                        orquidea.climaFloracao,
+                        orquidea.clima ||
+                        "Condições específicas de floração ainda não cadastradas."
+                    ),
+                    classeExtra: "card-clima-floracao-v2"
+                })}
 
-                        <p class="info-horizontal">
-                            ${obterTexto(
-                                orquidea.iluminacao
-                            )}
-                        </p>
-                    </div>
+                ${criarInfoCard({
+                    titulo: "Época de floração",
+                    icone: "🌸",
+                    conteudo: obterTexto(orquidea.floracao)
+                })}
 
-                </article>
+                ${criarInfoCard({
+                    titulo: "Adubação",
+                    icone: "🧪",
+                    conteudo: obterTexto(orquidea.adubacao)
+                })}
 
-                <article class="card-cultivo-v2">
+                ${criarInfoCard({
+                    titulo: "Suporte ideal",
+                    icone: "🪵",
+                    conteudo: obterTexto(orquidea.suporte)
+                })}
 
-                    <div class="icone-card-v2">
-                        💧
-                    </div>
-
-                    <div>
-                        <h4>
-                            Rega
-                        </h4>
-
-                        <p class="info-horizontal">
-                            ${obterTexto(
-                                orquidea.rega
-                            )}
-                        </p>
-                    </div>
-
-                </article>
-
-                <article class="card-cultivo-v2 card-clima-floracao-v2">
-
-                    <div class="icone-card-v2">
-                        🌡️
-                    </div>
-
-                    <div>
-                        <h4>
-                            Clima para floração
-                        </h4>
-
-                        <p class="info-horizontal">
-                            ${obterTexto(
-                                orquidea.climaFloracao,
-                                orquidea.clima ||
-                                "Condições específicas de floração ainda não cadastradas."
-                            )}
-                        </p>
-                    </div>
-
-                </article>
-
-                <article class="card-cultivo-v2">
-
-                    <div class="icone-card-v2">
-                        🌸
-                    </div>
-
-                    <div>
-                        <h4>
-                            Época de floração
-                        </h4>
-
-                        <p class="info-horizontal">
-                            ${obterTexto(
-                                orquidea.floracao
-                            )}
-                        </p>
-                    </div>
-
-                </article>
-
-                <article class="card-cultivo-v2">
-
-                    <div class="icone-card-v2">
-                        🧪
-                    </div>
-
-                    <div>
-                        <h4>
-                            Adubação
-                        </h4>
-
-                        <p class="info-horizontal">
-                            ${obterTexto(
-                                orquidea.adubacao
-                            )}
-                        </p>
-                    </div>
-
-                </article>
-
-                <article class="card-cultivo-v2">
-
-                    <div class="icone-card-v2">
-                        🪵
-                    </div>
-
-                    <div>
-                        <h4>
-                            Suporte ideal
-                        </h4>
-
-                        <p class="info-horizontal">
-                            ${obterTexto(
-                                orquidea.suporte
-                            )}
-                        </p>
-                    </div>
-
-                </article>
-
-                <article class="card-cultivo-v2">
-
-                    <div class="icone-card-v2">
-                        🌱
-                    </div>
-
-                    <div>
-                        <h4>
-                            Substrato ideal
-                        </h4>
-
-                        <p class="info-horizontal">
-                            ${obterTexto(
-                                orquidea.substrato
-                            )}
-                        </p>
-                    </div>
-
-                </article>
+                ${criarInfoCard({
+                    titulo: "Substrato ideal",
+                    icone: "🌱",
+                    conteudo: obterTexto(orquidea.substrato),
+                    classeExtra: "card-substrato-v2"
+                })}
 
             </div>
 
