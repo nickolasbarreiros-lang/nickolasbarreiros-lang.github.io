@@ -1,4 +1,4 @@
-import { orquideas } from "./dados/orquideas.js";
+import { orquideas } from "./dados/orquideas/index.js";
 
 /* =========================================================
    CONFIGURAÇÃO INICIAL

@@ -61,3 +61,9 @@
 - Adicionado botão flutuante para voltar ao topo.
 - Mantida uma única interface reutilizável para todas as orquídeas.
 - Preservada a estrutura individual de dados de cada planta.
+
+## Correção da ficha individual
+
+- Corrigido o import de `ficha.js` para usar `dados/orquideas/index.js`.
+- A página individual agora consulta a base completa do catálogo, em vez do arquivo legado com apenas duas plantas.
+- Mantida a estrutura de uma ficha visual única alimentada pelos módulos individuais de cada orquídea.
