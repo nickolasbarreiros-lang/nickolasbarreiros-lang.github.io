@@ -1,7 +1,7 @@
 import { orquideas } from "./dados/orquideas.js";
 
 /* =========================================================
-   LEITURA DO ID DA ORQUÍDEA
+   CONFIGURAÇÃO INICIAL
 ========================================================= */
 
 const parametros = new URLSearchParams(
@@ -15,12 +15,27 @@ const ficha = document.getElementById("ficha");
 const fichaNaoEncontrada =
     document.getElementById("ficha-nao-encontrada");
 
+const nomesMeses = [
+    "JAN",
+    "FEV",
+    "MAR",
+    "ABR",
+    "MAI",
+    "JUN",
+    "JUL",
+    "AGO",
+    "SET",
+    "OUT",
+    "NOV",
+    "DEZ"
+];
+
 /* =========================================================
    LOCALIZAÇÃO DA ORQUÍDEA
 ========================================================= */
 
 const orquidea = orquideas.find((item) => {
-    return item.id === idOrquidea;
+    return String(item.id) === String(idOrquidea);
 });
 
 /* =========================================================
@@ -42,6 +57,19 @@ function obterTexto(
     return valor;
 }
 
+function obterFotos(fotos) {
+    if (!Array.isArray(fotos)) {
+        return [];
+    }
+
+    return fotos.filter((foto) => {
+        return (
+            typeof foto === "string" &&
+            foto.trim() !== ""
+        );
+    });
+}
+
 function criarCaracteristicas(caracteristicas) {
     if (
         !Array.isArray(caracteristicas) ||
@@ -61,58 +89,161 @@ function criarCaracteristicas(caracteristicas) {
         .join("");
 }
 
-function obterFotos(fotos) {
-    if (!Array.isArray(fotos)) {
-        return [];
+function criarEstrelas(nota) {
+    const valor = Number(nota) || 0;
+
+    let estrelas = "";
+
+    for (let indice = 1; indice <= 5; indice++) {
+        estrelas +=
+            indice <= valor
+                ? "★"
+                : "☆";
     }
 
-    return fotos.filter((foto) => {
-        return (
-            typeof foto === "string" &&
-            foto.trim() !== ""
-        );
-    });
+    return estrelas;
 }
 
-function criarGaleriaInicial(fotos) {
-    if (fotos.length === 0) {
-        return `
-            <div class="foto-galeria foto-sem-imagem">
+function criarAvaliacao(
+    titulo,
+    nota,
+    icone
+) {
+    const valor = Number(nota) || 0;
 
-                <div class="imagem-nao-disponivel">
+    return `
+        <div class="avaliacao-v2">
 
-                    <span>🌸</span>
+            <div class="avaliacao-v2-cabecalho">
 
-                    <p>
-                        Imagem ainda não cadastrada
-                    </p>
+                <span class="avaliacao-v2-titulo">
+                    ${icone} ${titulo}
+                </span>
+
+                <span class="avaliacao-v2-nota">
+                    ${valor}/5
+                </span>
+
+            </div>
+
+            <div
+                class="estrelas-v2"
+                aria-label="${valor} de 5 estrelas"
+                title="${valor} de 5"
+            >
+                ${criarEstrelas(valor)}
+            </div>
+
+        </div>
+    `;
+}
+
+function criarCalendarioFloracao(
+    mesesFloracao
+) {
+    const mesesAtivos =
+        Array.isArray(mesesFloracao)
+            ? mesesFloracao.map(Number)
+            : [];
+
+    return nomesMeses
+        .map((mes, indice) => {
+            const numeroMes = indice + 1;
+
+            const ativo =
+                mesesAtivos.includes(numeroMes);
+
+            return `
+                <div
+                    class="
+                        mes-floracao-v2
+                        ${ativo ? "mes-ativo-v2" : ""}
+                    "
+                >
+
+                    <span>
+                        ${mes}
+                    </span>
+
+                    <strong>
+                        ${ativo ? "🌸" : "—"}
+                    </strong>
 
                 </div>
+            `;
+        })
+        .join("");
+}
+
+function criarGaleria(fotos) {
+    if (fotos.length === 0) {
+        return `
+            <div class="galeria-v2-sem-foto">
+
+                <span>🌸</span>
+
+                <p>
+                    Imagem ainda não cadastrada
+                </p>
 
             </div>
         `;
     }
 
-    return fotos
+    const fotoPrincipal = fotos[0];
+
+    const miniaturas = fotos
+        .slice(1, 4)
         .map((foto, indice) => {
             return `
                 <button
-                    class="foto-galeria"
+                    class="miniatura-v2"
                     type="button"
-                    data-indice="${indice}"
-                    aria-label="Visualizar foto ${indice + 1}"
+                    data-indice="${indice + 1}"
+                    aria-label="Abrir foto ${indice + 2}"
                 >
 
                     <img
                         src="${foto}"
-                        alt="${orquidea.nome} — foto ${indice + 1}"
-                        loading="${indice === 0 ? "eager" : "lazy"}"
+                        alt="${orquidea.nome} — foto ${indice + 2}"
+                        loading="lazy"
                     >
 
                 </button>
             `;
         })
         .join("");
+
+    return `
+        <div class="galeria-v2">
+
+            <button
+                class="foto-principal-v2"
+                type="button"
+                data-indice="0"
+                aria-label="Abrir foto principal"
+            >
+
+                <img
+                    src="${fotoPrincipal}"
+                    alt="${orquidea.nome} — foto principal"
+                    loading="eager"
+                >
+
+            </button>
+
+            ${
+                miniaturas
+                    ? `
+                        <div class="miniaturas-v2">
+                            ${miniaturas}
+                        </div>
+                    `
+                    : ""
+            }
+
+        </div>
+    `;
 }
 
 function mostrarMensagemBotao(
@@ -171,7 +302,7 @@ async function copiarLinkFicha(botao) {
 }
 
 /* =========================================================
-   EXIBIÇÃO DA FICHA
+   ORQUÍDEA NÃO ENCONTRADA
 ========================================================= */
 
 if (!orquidea) {
@@ -193,70 +324,398 @@ if (!orquidea) {
         orquidea.fotos
     );
 
+    const avaliacoes =
+        orquidea.avaliacoes || {};
+
+    /* =====================================================
+       CONTEÚDO DA FICHA V2
+    ===================================================== */
+
     ficha.innerHTML = `
 
-        <section class="cabecalho-especie">
+        <section class="topo-ficha-v2">
 
-            <div class="linha-superior-especie">
+            <div class="identificacao-v2">
 
-                <div class="identificacao-especie">
+                <div class="etiquetas-v2">
 
-                    <div class="etiquetas">
-
-                        <span class="etiqueta">
-                            ${obterTexto(
-                                orquidea.tipo,
-                                "Tipo não informado"
-                            )}
-                        </span>
-
-                        <span class="etiqueta">
-                            ${obterTexto(
-                                orquidea.genero,
-                                "Gênero não informado"
-                            )}
-                        </span>
-
-                        <span class="etiqueta">
-                            Cultivo ${obterTexto(
-                                orquidea.dificuldade,
-                                "não informado"
-                            )}
-                        </span>
-
-                    </div>
-
-                    <h2 class="titulo-ficha">
-                        ${orquidea.nome}
-                    </h2>
-
-                    <div class="lista-caracteristicas">
-
-                        ${criarCaracteristicas(
-                            orquidea.caracteristicas
+                    <span class="etiqueta-v2">
+                        ${obterTexto(
+                            orquidea.tipo,
+                            "Tipo não informado"
                         )}
+                    </span>
 
+                    <span class="etiqueta-v2">
+                        ${obterTexto(
+                            orquidea.genero,
+                            "Gênero não informado"
+                        )}
+                    </span>
+
+                    <span class="etiqueta-v2">
+                        Cultivo ${obterTexto(
+                            orquidea.dificuldade,
+                            "não informado"
+                        )}
+                    </span>
+
+                </div>
+
+                <h2 class="titulo-ficha-v2">
+                    ${orquidea.nome}
+                </h2>
+
+                <div class="caracteristicas-v2">
+
+                    ${criarCaracteristicas(
+                        orquidea.caracteristicas
+                    )}
+
+                </div>
+
+            </div>
+
+            <div class="acoes-ficha-v2">
+
+                <button
+                    id="imprimir-ficha"
+                    class="botao-v2 botao-imprimir-v2"
+                    type="button"
+                >
+                    🖨️ Imprimir
+                </button>
+
+                <button
+                    id="copiar-link"
+                    class="botao-v2 botao-copiar-v2"
+                    type="button"
+                >
+                    🔗 Copiar link
+                </button>
+
+            </div>
+
+        </section>
+
+        <section class="apresentacao-v2">
+
+            <div class="area-galeria-v2">
+
+                ${criarGaleria(fotos)}
+
+            </div>
+
+            <aside class="resumo-lateral-v2">
+
+                <div class="resumo-item-v2">
+
+                    <span class="resumo-icone-v2">
+                        🌎
+                    </span>
+
+                    <div>
+                        <strong>Origem</strong>
+
+                        <p>
+                            ${obterTexto(
+                                orquidea.origem
+                            )}
+                        </p>
                     </div>
 
                 </div>
 
-                <div class="acoes-ficha">
+                <div class="resumo-item-v2">
 
-                    <button
-                        id="imprimir-ficha"
-                        class="botao-acao-ficha botao-imprimir"
-                        type="button"
-                    >
-                        🖨️ Imprimir
-                    </button>
+                    <span class="resumo-icone-v2">
+                        📍
+                    </span>
 
-                    <button
-                        id="copiar-link"
-                        class="botao-acao-ficha botao-copiar"
-                        type="button"
-                    >
-                        🔗 Copiar link
-                    </button>
+                    <div>
+                        <strong>Região natural</strong>
+
+                        <p>
+                            ${obterTexto(
+                                orquidea.regiao
+                            )}
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="resumo-item-v2">
+
+                    <span class="resumo-icone-v2">
+                        🌳
+                    </span>
+
+                    <div>
+                        <strong>Habitat</strong>
+
+                        <p>
+                            ${obterTexto(
+                                orquidea.habitat
+                            )}
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="resumo-item-v2">
+
+                    <span class="resumo-icone-v2">
+                        🌡️
+                    </span>
+
+                    <div>
+                        <strong>Clima</strong>
+
+                        <p>
+                            ${obterTexto(
+                                orquidea.clima
+                            )}
+                        </p>
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </section>
+
+        <section class="descricao-v2">
+
+            <div class="titulo-secao-v2">
+
+                <span>🌸</span>
+
+                <h3>
+                    Sobre a espécie
+                </h3>
+
+            </div>
+
+            <p>
+                ${obterTexto(
+                    orquidea.descricao,
+                    "A descrição desta orquídea ainda não foi cadastrada."
+                )}
+            </p>
+
+        </section>
+
+        <section class="secao-cultivo-v2">
+
+            <div class="titulo-secao-v2">
+
+                <span>🌿</span>
+
+                <h3>
+                    Guia de cultivo
+                </h3>
+
+            </div>
+
+            <div class="grade-cultivo-v2">
+
+                <article class="card-cultivo-v2">
+
+                    <div class="icone-card-v2">
+                        ☀️
+                    </div>
+
+                    <div>
+                        <h4>
+                            Iluminação
+                        </h4>
+
+                        <p>
+                            ${obterTexto(
+                                orquidea.iluminacao
+                            )}
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="card-cultivo-v2">
+
+                    <div class="icone-card-v2">
+                        💧
+                    </div>
+
+                    <div>
+                        <h4>
+                            Rega
+                        </h4>
+
+                        <p>
+                            ${obterTexto(
+                                orquidea.rega
+                            )}
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="card-cultivo-v2">
+
+                    <div class="icone-card-v2">
+                        🌸
+                    </div>
+
+                    <div>
+                        <h4>
+                            Época de floração
+                        </h4>
+
+                        <p>
+                            ${obterTexto(
+                                orquidea.floracao
+                            )}
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="card-cultivo-v2">
+
+                    <div class="icone-card-v2">
+                        🧪
+                    </div>
+
+                    <div>
+                        <h4>
+                            Adubação
+                        </h4>
+
+                        <p>
+                            ${obterTexto(
+                                orquidea.adubacao
+                            )}
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="card-cultivo-v2">
+
+                    <div class="icone-card-v2">
+                        🪵
+                    </div>
+
+                    <div>
+                        <h4>
+                            Suporte ideal
+                        </h4>
+
+                        <p>
+                            ${obterTexto(
+                                orquidea.suporte
+                            )}
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="card-cultivo-v2">
+
+                    <div class="icone-card-v2">
+                        🌱
+                    </div>
+
+                    <div>
+                        <h4>
+                            Substrato ideal
+                        </h4>
+
+                        <p>
+                            ${obterTexto(
+                                orquidea.substrato
+                            )}
+                        </p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="painel-dados-v2">
+
+            <div class="avaliacoes-v2">
+
+                <div class="titulo-secao-v2">
+
+                    <span>⭐</span>
+
+                    <h3>
+                        Avaliação da espécie
+                    </h3>
+
+                </div>
+
+                <div class="lista-avaliacoes-v2">
+
+                    ${criarAvaliacao(
+                        "Cultivo",
+                        avaliacoes.cultivo,
+                        "🌿"
+                    )}
+
+                    ${criarAvaliacao(
+                        "Floração",
+                        avaliacoes.floracao,
+                        "🌸"
+                    )}
+
+                    ${criarAvaliacao(
+                        "Perfume",
+                        avaliacoes.perfume,
+                        "🌺"
+                    )}
+
+                    ${criarAvaliacao(
+                        "Luminosidade",
+                        avaliacoes.luminosidade,
+                        "☀️"
+                    )}
+
+                    ${criarAvaliacao(
+                        "Água",
+                        avaliacoes.agua,
+                        "💧"
+                    )}
+
+                    ${criarAvaliacao(
+                        "Raridade",
+                        avaliacoes.raridade,
+                        "💎"
+                    )}
+
+                </div>
+
+            </div>
+
+            <div class="calendario-v2">
+
+                <div class="titulo-secao-v2">
+
+                    <span>📅</span>
+
+                    <h3>
+                        Calendário de floração
+                    </h3>
+
+                </div>
+
+                <div class="meses-v2">
+
+                    ${criarCalendarioFloracao(
+                        orquidea.mesesFloracao
+                    )}
 
                 </div>
 
@@ -264,181 +723,16 @@ if (!orquidea) {
 
         </section>
 
-        <section class="galeria-detalhada">
+        <section class="dica-ouro-v2">
 
-            ${criarGaleriaInicial(fotos)}
+            <div class="icone-dica-v2">
+                💡
+            </div>
 
-        </section>
-
-        <section class="conteudo-ficha">
-
-            <section class="descricao-especie">
+            <div>
 
                 <h3>
-                    Sobre a espécie
-                </h3>
-
-                <p>
-                    ${obterTexto(
-                        orquidea.descricao,
-                        "A descrição desta orquídea ainda não foi cadastrada."
-                    )}
-                </p>
-
-            </section>
-
-            <section class="resumo-natural">
-
-                <div class="bloco-informacao">
-
-                    <h3>
-                        🌎 Origem
-                    </h3>
-
-                    <p>
-                        ${obterTexto(
-                            orquidea.origem
-                        )}
-                    </p>
-
-                </div>
-
-                <div class="bloco-informacao">
-
-                    <h3>
-                        📍 Região natural
-                    </h3>
-
-                    <p>
-                        ${obterTexto(
-                            orquidea.regiao
-                        )}
-                    </p>
-
-                </div>
-
-                <div class="bloco-informacao">
-
-                    <h3>
-                        🌳 Habitat
-                    </h3>
-
-                    <p>
-                        ${obterTexto(
-                            orquidea.habitat
-                        )}
-                    </p>
-
-                </div>
-
-            </section>
-
-            <section class="grade-informacoes">
-
-                <div class="bloco-informacao">
-
-                    <h3>
-                        🌡️ Clima para floração
-                    </h3>
-
-                    <p>
-                        ${obterTexto(
-                            orquidea.clima
-                        )}
-                    </p>
-
-                </div>
-
-                <div class="bloco-informacao">
-
-                    <h3>
-                        ☀️ Iluminação
-                    </h3>
-
-                    <p>
-                        ${obterTexto(
-                            orquidea.iluminacao
-                        )}
-                    </p>
-
-                </div>
-
-                <div class="bloco-informacao">
-
-                    <h3>
-                        🌸 Época de floração
-                    </h3>
-
-                    <p>
-                        ${obterTexto(
-                            orquidea.floracao
-                        )}
-                    </p>
-
-                </div>
-
-                <div class="bloco-informacao">
-
-                    <h3>
-                        🧪 Adubação
-                    </h3>
-
-                    <p>
-                        ${obterTexto(
-                            orquidea.adubacao
-                        )}
-                    </p>
-
-                </div>
-
-                <div class="bloco-informacao">
-
-                    <h3>
-                        💧 Rega
-                    </h3>
-
-                    <p>
-                        ${obterTexto(
-                            orquidea.rega
-                        )}
-                    </p>
-
-                </div>
-
-                <div class="bloco-informacao">
-
-                    <h3>
-                        🪵 Suporte ideal
-                    </h3>
-
-                    <p>
-                        ${obterTexto(
-                            orquidea.suporte
-                        )}
-                    </p>
-
-                </div>
-
-                <div class="bloco-informacao bloco-largo">
-
-                    <h3>
-                        🌱 Substrato ideal
-                    </h3>
-
-                    <p>
-                        ${obterTexto(
-                            orquidea.substrato
-                        )}
-                    </p>
-
-                </div>
-
-            </section>
-
-            <section class="dica-ouro">
-
-                <h3>
-                    💡 Dica de ouro
+                    Dica de ouro
                 </h3>
 
                 <p>
@@ -448,19 +742,70 @@ if (!orquidea) {
                     )}
                 </p>
 
-            </section>
+            </div>
 
         </section>
+
+        <div
+            id="visualizador-v2"
+            class="visualizador-v2"
+            aria-hidden="true"
+        >
+
+            <button
+                id="fechar-visualizador-v2"
+                class="fechar-visualizador-v2"
+                type="button"
+                aria-label="Fechar visualizador"
+            >
+                ×
+            </button>
+
+            <button
+                id="foto-anterior-v2"
+                class="controle-visualizador-v2 anterior-v2"
+                type="button"
+                aria-label="Foto anterior"
+            >
+                ‹
+            </button>
+
+            <img
+                id="foto-ampliada-v2"
+                src=""
+                alt=""
+            >
+
+            <button
+                id="proxima-foto-v2"
+                class="controle-visualizador-v2 proxima-v2"
+                type="button"
+                aria-label="Próxima foto"
+            >
+                ›
+            </button>
+
+            <span
+                id="contador-v2"
+                class="contador-v2"
+            ></span>
+
+        </div>
 
     `;
 
     /* =====================================================
-       BOTÃO DE IMPRESSÃO
+       BOTÕES
     ===================================================== */
 
     const botaoImprimir =
         document.getElementById(
             "imprimir-ficha"
+        );
+
+    const botaoCopiarLink =
+        document.getElementById(
+            "copiar-link"
         );
 
     botaoImprimir.addEventListener(
@@ -469,15 +814,6 @@ if (!orquidea) {
             window.print();
         }
     );
-
-    /* =====================================================
-       BOTÃO PARA COPIAR O LINK
-    ===================================================== */
-
-    const botaoCopiarLink =
-        document.getElementById(
-            "copiar-link"
-        );
 
     botaoCopiarLink.addEventListener(
         "click",
@@ -488,4 +824,194 @@ if (!orquidea) {
         }
     );
 
+    /* =====================================================
+       GALERIA AMPLIADA
+    ===================================================== */
+
+    if (fotos.length > 0) {
+
+        let indiceAtual = 0;
+
+        const visualizador =
+            document.getElementById(
+                "visualizador-v2"
+            );
+
+        const fotoAmpliada =
+            document.getElementById(
+                "foto-ampliada-v2"
+            );
+
+        const contador =
+            document.getElementById(
+                "contador-v2"
+            );
+
+        const fecharVisualizador =
+            document.getElementById(
+                "fechar-visualizador-v2"
+            );
+
+        const fotoAnterior =
+            document.getElementById(
+                "foto-anterior-v2"
+            );
+
+        const proximaFoto =
+            document.getElementById(
+                "proxima-foto-v2"
+            );
+
+        const botoesFotos =
+            document.querySelectorAll(
+                "[data-indice]"
+            );
+
+        function atualizarVisualizador() {
+            fotoAmpliada.src =
+                fotos[indiceAtual];
+
+            fotoAmpliada.alt =
+                `${orquidea.nome} — foto ${indiceAtual + 1}`;
+
+            contador.textContent =
+                `${indiceAtual + 1} de ${fotos.length}`;
+        }
+
+        function abrirVisualizador(indice) {
+            indiceAtual = indice;
+
+            atualizarVisualizador();
+
+            visualizador.classList.add(
+                "visualizador-v2-aberto"
+            );
+
+            visualizador.setAttribute(
+                "aria-hidden",
+                "false"
+            );
+
+            document.body.classList.add(
+                "sem-rolagem"
+            );
+        }
+
+        function fecharGaleria() {
+            visualizador.classList.remove(
+                "visualizador-v2-aberto"
+            );
+
+            visualizador.setAttribute(
+                "aria-hidden",
+                "true"
+            );
+
+            document.body.classList.remove(
+                "sem-rolagem"
+            );
+        }
+
+        function mostrarFotoAnterior() {
+            indiceAtual =
+                (
+                    indiceAtual -
+                    1 +
+                    fotos.length
+                ) %
+                fotos.length;
+
+            atualizarVisualizador();
+        }
+
+        function mostrarProximaFoto() {
+            indiceAtual =
+                (
+                    indiceAtual +
+                    1
+                ) %
+                fotos.length;
+
+            atualizarVisualizador();
+        }
+
+        botoesFotos.forEach((botao) => {
+            botao.addEventListener(
+                "click",
+                () => {
+                    abrirVisualizador(
+                        Number(
+                            botao.dataset.indice
+                        )
+                    );
+                }
+            );
+        });
+
+        fecharVisualizador.addEventListener(
+            "click",
+            fecharGaleria
+        );
+
+        fotoAnterior.addEventListener(
+            "click",
+            mostrarFotoAnterior
+        );
+
+        proximaFoto.addEventListener(
+            "click",
+            mostrarProximaFoto
+        );
+
+        visualizador.addEventListener(
+            "click",
+            (evento) => {
+                if (
+                    evento.target ===
+                    visualizador
+                ) {
+                    fecharGaleria();
+                }
+            }
+        );
+
+        document.addEventListener(
+            "keydown",
+            (evento) => {
+                if (
+                    !visualizador.classList.contains(
+                        "visualizador-v2-aberto"
+                    )
+                ) {
+                    return;
+                }
+
+                if (evento.key === "Escape") {
+                    fecharGaleria();
+                }
+
+                if (
+                    evento.key ===
+                    "ArrowLeft"
+                ) {
+                    mostrarFotoAnterior();
+                }
+
+                if (
+                    evento.key ===
+                    "ArrowRight"
+                ) {
+                    mostrarProximaFoto();
+                }
+            }
+        );
+
+        if (fotos.length <= 1) {
+            fotoAnterior.style.display =
+                "none";
+
+            proximaFoto.style.display =
+                "none";
+        }
+    }
 }
