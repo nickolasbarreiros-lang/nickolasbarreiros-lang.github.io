@@ -38,8 +38,19 @@ const CAMPOS_PESQUISAVEIS = [
     "suporte",
     "substrato",
     "dica",
-    "dificuldade"
+    "dificuldade",
+    "nomePopular"
 ];
+
+const CAMPOS_PESQUISAVEIS_EM_LISTA = [
+    "nomesPopulares",
+    "sinonimos",
+    "palavrasChave",
+    "apelidos"
+];
+
+const TAMANHO_MINIMO_BUSCA_APROXIMADA = 5;
+const DISTANCIA_MAXIMA_BUSCA_APROXIMADA = 1;
 
 
 /* =========================================================
@@ -305,6 +316,23 @@ export function criarTextoPesquisavel(
         }
     );
 
+    CAMPOS_PESQUISAVEIS_EM_LISTA.forEach(
+        (campo) => {
+            const valores = orquidea?.[campo];
+
+            if (Array.isArray(valores)) {
+                partes.push(
+                    ...valores.filter((valor) => {
+                        return (
+                            typeof valor === "string" &&
+                            valor.trim() !== ""
+                        );
+                    })
+                );
+            }
+        }
+    );
+
     if (
         Array.isArray(
             orquidea?.caracteristicas
@@ -313,6 +341,19 @@ export function criarTextoPesquisavel(
         partes.push(
             ...orquidea.caracteristicas
         );
+    }
+
+    const nomeNormalizado = normalizarTexto(
+        orquidea?.nome
+    );
+    const partesNome = nomeNormalizado
+        .split(/\s+/)
+        .filter(Boolean);
+
+    if (partesNome.length >= 2) {
+        const abreviacaoGenero =
+            `${partesNome[0].charAt(0)} ${partesNome.slice(1).join(" ")}`;
+        partes.push(abreviacaoGenero);
     }
 
     if (
@@ -358,6 +399,74 @@ export function criarTextoPesquisavel(
    PESQUISA POR TEXTO
 ========================================================= */
 
+function calcularDistanciaEdicaoLimitada(
+    origem,
+    destino,
+    limite = DISTANCIA_MAXIMA_BUSCA_APROXIMADA
+) {
+    const a = String(origem || "");
+    const b = String(destino || "");
+
+    if (Math.abs(a.length - b.length) > limite) {
+        return limite + 1;
+    }
+
+    let anterior = Array.from(
+        { length: b.length + 1 },
+        (_, indice) => indice
+    );
+
+    for (let i = 1; i <= a.length; i++) {
+        const atual = [i];
+        let menorLinha = atual[0];
+
+        for (let j = 1; j <= b.length; j++) {
+            const custo = a[i - 1] === b[j - 1] ? 0 : 1;
+            const valor = Math.min(
+                anterior[j] + 1,
+                atual[j - 1] + 1,
+                anterior[j - 1] + custo
+            );
+
+            atual.push(valor);
+            menorLinha = Math.min(menorLinha, valor);
+        }
+
+        if (menorLinha > limite) {
+            return limite + 1;
+        }
+
+        anterior = atual;
+    }
+
+    return anterior[b.length];
+}
+
+function palavraCorresponde(
+    palavra,
+    texto,
+    tokensTexto
+) {
+    if (texto.includes(palavra)) {
+        return true;
+    }
+
+    if (palavra.length < TAMANHO_MINIMO_BUSCA_APROXIMADA) {
+        return false;
+    }
+
+    return tokensTexto.some((token) => {
+        if (token.length < TAMANHO_MINIMO_BUSCA_APROXIMADA) {
+            return false;
+        }
+
+        return calcularDistanciaEdicaoLimitada(
+            palavra,
+            token
+        ) <= DISTANCIA_MAXIMA_BUSCA_APROXIMADA;
+    });
+}
+
 function correspondeBusca(
     orquidea,
     termo
@@ -377,8 +486,20 @@ function correspondeBusca(
     const texto =
         criarTextoPesquisavel(orquidea);
 
+    const tokensTexto = [
+        ...new Set(
+            texto
+                .split(/[^a-z0-9]+/)
+                .filter(Boolean)
+        )
+    ];
+
     return palavras.every((palavra) => {
-        return texto.includes(palavra);
+        return palavraCorresponde(
+            palavra,
+            texto,
+            tokensTexto
+        );
     });
 }
 
