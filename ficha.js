@@ -175,73 +175,102 @@ function criarCalendarioFloracao(
         .join("");
 }
 
+function criarSelos(orquidea) {
+    const selos = [];
+    const textoCaracteristicas = Array.isArray(orquidea.caracteristicas)
+        ? orquidea.caracteristicas.join(" ").toLowerCase()
+        : "";
+    const tipo = String(orquidea.tipo || "").toLowerCase();
+    const dificuldade = String(orquidea.dificuldade || "").toLowerCase();
+    const origem = String(orquidea.origem || "").toLowerCase();
+
+    if (origem.includes("brasil") || textoCaracteristicas.includes("brasileir")) {
+        selos.push(["🇧🇷", "Brasileira"]);
+    }
+
+    if (tipo.includes("híbr") || tipo.includes("hibr")) {
+        selos.push(["🧬", "Híbrido"]);
+    } else if (tipo.includes("espéc") || tipo.includes("espec")) {
+        selos.push(["🌿", "Espécie botânica"]);
+    }
+
+    if (textoCaracteristicas.includes("perfum")) {
+        selos.push(["🌸", "Perfumada"]);
+    }
+
+    if (dificuldade.includes("fácil") || dificuldade.includes("facil")) {
+        selos.push(["🟢", "Cultivo fácil"]);
+    } else if (dificuldade.includes("moder")) {
+        selos.push(["🟡", "Cultivo moderado"]);
+    } else if (dificuldade.includes("difícil") || dificuldade.includes("dificil") || dificuldade.includes("avanç")) {
+        selos.push(["🔴", "Cultivo avançado"]);
+    }
+
+    return selos.slice(0, 5).map(([icone, texto]) => `
+        <span class="selo-especie-v4">
+            <span aria-hidden="true">${icone}</span>
+            ${texto}
+        </span>
+    `).join("");
+}
+
 function criarGaleria(fotos) {
     if (fotos.length === 0) {
         return `
             <div class="galeria-v2-sem-foto">
-
                 <span>🌸</span>
-
-                <p>
-                    Imagem ainda não cadastrada
-                </p>
-
+                <p>Imagem ainda não cadastrada</p>
             </div>
         `;
     }
 
     const fotoPrincipal = fotos[0];
+    const fotosSecundarias = fotos.slice(1, 4);
+    const quantidadeExtra = Math.max(0, fotos.length - 4);
 
-    const miniaturas = fotos
-        .slice(1, 4)
+    const miniaturas = fotosSecundarias
         .map((foto, indice) => {
+            const indiceReal = indice + 1;
+            const mostrarExtra = indice === 2 && quantidadeExtra > 0;
+
             return `
                 <button
                     class="miniatura-v2"
                     type="button"
-                    data-indice="${indice + 1}"
-                    aria-label="Abrir foto ${indice + 2}"
+                    data-galeria-indice="${indiceReal}"
+                    aria-label="Exibir foto ${indiceReal + 1} como principal"
+                    aria-pressed="false"
                 >
-
                     <img
                         src="${foto}"
-                        alt="${orquidea.nome} — foto ${indice + 2}"
+                        alt="${orquidea.nome} — foto ${indiceReal + 1}"
                         loading="lazy"
                     >
-
+                    ${mostrarExtra ? `<span class="mais-fotos-v4">+${quantidadeExtra}</span>` : ""}
                 </button>
             `;
         })
         .join("");
 
     return `
-        <div class="galeria-v2">
-
+        <div class="galeria-v2" data-total-fotos="${fotos.length}">
             <button
+                id="foto-principal-v4"
                 class="foto-principal-v2"
                 type="button"
-                data-indice="0"
-                aria-label="Abrir foto principal"
+                data-abrir-indice="0"
+                aria-label="Ampliar foto principal"
             >
-
                 <img
+                    id="imagem-principal-v4"
                     src="${fotoPrincipal}"
                     alt="${orquidea.nome} — foto principal"
                     loading="eager"
                 >
-
+                <span class="ampliar-foto-v4" aria-hidden="true">⛶ Ampliar</span>
             </button>
 
-            ${
-                miniaturas
-                    ? `
-                        <div class="miniaturas-v2">
-                            ${miniaturas}
-                        </div>
-                    `
-                    : ""
-            }
-
+            ${miniaturas ? `<div class="miniaturas-v2">${miniaturas}</div>` : ""}
         </div>
     `;
 }
@@ -333,6 +362,14 @@ if (!orquidea) {
 
     ficha.innerHTML = `
 
+        <nav class="breadcrumb-v4" aria-label="Navegação estrutural">
+            <a href="index.html">Início</a>
+            <span aria-hidden="true">›</span>
+            <a href="index.html#catalogo">Catálogo</a>
+            <span aria-hidden="true">›</span>
+            <span aria-current="page">${orquidea.nome}</span>
+        </nav>
+
         <section class="topo-ficha-v2">
 
             <div class="identificacao-v2">
@@ -369,6 +406,10 @@ if (!orquidea) {
                 <h2 class="titulo-ficha-v2">
                     ${orquidea.nome}
                 </h2>
+
+                <div class="selos-especie-v4" aria-label="Destaques da espécie">
+                    ${criarSelos(orquidea)}
+                </div>
 
                 <div class="caracteristicas-v2">
 
@@ -907,10 +948,16 @@ if (!orquidea) {
                 "proxima-foto-v2"
             );
 
-        const botoesFotos =
-            document.querySelectorAll(
-                "[data-indice]"
-            );
+        const botaoFotoPrincipal =
+            document.getElementById("foto-principal-v4");
+
+        const imagemPrincipal =
+            document.getElementById("imagem-principal-v4");
+
+        const botoesMiniaturas =
+            document.querySelectorAll("[data-galeria-indice]");
+
+        let indicePrincipal = 0;
 
         function atualizarVisualizador() {
             fotoAmpliada.src =
@@ -980,18 +1027,40 @@ if (!orquidea) {
             atualizarVisualizador();
         }
 
-        botoesFotos.forEach((botao) => {
-            botao.addEventListener(
-                "click",
-                () => {
-                    abrirVisualizador(
-                        Number(
-                            botao.dataset.indice
-                        )
-                    );
-                }
-            );
+        function trocarFotoPrincipal(indice) {
+            if (!imagemPrincipal || !botaoFotoPrincipal) {
+                return;
+            }
+
+            indicePrincipal = indice;
+            imagemPrincipal.classList.add("imagem-principal-v4-trocando");
+
+            window.setTimeout(() => {
+                imagemPrincipal.src = fotos[indice];
+                imagemPrincipal.alt = `${orquidea.nome} — foto ${indice + 1}`;
+                botaoFotoPrincipal.dataset.abrirIndice = String(indice);
+
+                botoesMiniaturas.forEach((miniatura) => {
+                    const ativa = Number(miniatura.dataset.galeriaIndice) === indice;
+                    miniatura.classList.toggle("miniatura-v2-ativa", ativa);
+                    miniatura.setAttribute("aria-pressed", String(ativa));
+                });
+
+                imagemPrincipal.classList.remove("imagem-principal-v4-trocando");
+            }, 150);
+        }
+
+        botoesMiniaturas.forEach((botao) => {
+            botao.addEventListener("click", () => {
+                trocarFotoPrincipal(Number(botao.dataset.galeriaIndice));
+            });
         });
+
+        if (botaoFotoPrincipal) {
+            botaoFotoPrincipal.addEventListener("click", () => {
+                abrirVisualizador(indicePrincipal);
+            });
+        }
 
         fecharVisualizador.addEventListener(
             "click",

@@ -3697,3 +3697,141 @@ html{scroll-behavior:smooth}.pagina-home-v4{margin:0;background:#fff;color:var(-
 @media (max-width:1100px){.menu-v4{display:none}.busca-topo-v4{margin-left:auto}.hero-v4{background-position:62% center}.atalhos-v4{grid-template-columns:repeat(3,1fr)}.grade-destaques-v4{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:760px){.topo-v4-conteudo{padding:0 16px}.marca-v4{min-width:0}.marca-v4 strong{font-size:23px}.marca-v4 small{font-size:18px}.busca-topo-v4{display:none}.hero-v4{min-height:auto;background:linear-gradient(180deg,rgba(249,252,242,.95),rgba(249,252,242,.86)),url('imagens/interface/hero-orquidario-digital.jpg') 67% center/cover no-repeat}.hero-v4-conteudo{padding:50px 20px 48px}.hero-v4 h1{font-size:58px;letter-spacing:-2.5px}.hero-v4 p{font-size:19px}.acoes-hero-v4{flex-wrap:wrap}.estatisticas-v4{grid-template-columns:repeat(2,1fr)}.atalhos-v4{grid-template-columns:repeat(2,1fr)}.grade-destaques-v4{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px}.cartao-destaque-v4{min-width:78vw;scroll-snap-align:start}.rodape-v4-conteudo{align-items:flex-start;flex-direction:column}.rodape-info-v4{text-align:left}}
 @media (max-width:470px){.marca-v4-icone{width:50px;height:50px}.hero-v4 h1{font-size:49px}.estatisticas-v4{grid-template-columns:1fr}.atalhos-v4{grid-template-columns:1fr 1fr}.atalho-v4{min-height:116px;padding:15px 10px}}
+
+/* =========================================================
+   SPRINT 1.1 — TOPO DA FICHA E GALERIA INTERATIVA
+========================================================= */
+
+.breadcrumb-v4 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 14px;
+    color: #6a7c6f;
+    font-size: 13px;
+}
+
+.breadcrumb-v4 a {
+    color: #2b6d43;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.breadcrumb-v4 a:hover,
+.breadcrumb-v4 a:focus-visible {
+    text-decoration: underline;
+}
+
+.selos-especie-v4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 13px 0 9px;
+}
+
+.selo-especie-v4 {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 31px;
+    padding: 6px 11px;
+    color: #245b37;
+    background: #edf7ef;
+    border: 1px solid #cfe4d4;
+    border-radius: 999px;
+    font-size: 12.5px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.foto-principal-v2 {
+    position: relative;
+}
+
+.foto-principal-v2 img {
+    opacity: 1;
+    transition: opacity .15s ease, transform .28s ease;
+}
+
+.imagem-principal-v4-trocando {
+    opacity: .18 !important;
+}
+
+.ampliar-foto-v4 {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 11px;
+    color: #fff;
+    background: rgba(10, 34, 18, .72);
+    border: 1px solid rgba(255, 255, 255, .24);
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 800;
+    opacity: .92;
+    backdrop-filter: blur(8px);
+}
+
+.miniatura-v2 {
+    position: relative;
+    border: 2px solid transparent;
+    transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+
+.miniatura-v2:hover,
+.miniatura-v2:focus-visible {
+    transform: translateY(-1px);
+    border-color: #75aa82;
+    outline: none;
+}
+
+.miniatura-v2-ativa {
+    border-color: #1f6b3b;
+    box-shadow: 0 0 0 3px rgba(31, 107, 59, .14);
+}
+
+.mais-fotos-v4 {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    background: rgba(8, 31, 16, .55);
+    font-size: 24px;
+    font-weight: 900;
+    text-shadow: 0 2px 12px rgba(0,0,0,.45);
+    pointer-events: none;
+}
+
+@media (max-width: 620px) {
+    .breadcrumb-v4 {
+        margin-top: 2px;
+        padding: 0 2px;
+    }
+
+    .selos-especie-v4 {
+        gap: 6px;
+    }
+
+    .selo-especie-v4 {
+        min-height: 29px;
+        padding: 5px 9px;
+        font-size: 11.5px;
+    }
+
+    .ampliar-foto-v4 {
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+@media print {
+    .breadcrumb-v4,
+    .ampliar-foto-v4 {
+        display: none !important;
+    }
+}
