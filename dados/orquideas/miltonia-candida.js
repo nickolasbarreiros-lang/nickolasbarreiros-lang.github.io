@@ -20,7 +20,12 @@ export const miltoniaCandida = {
     habitat: "Epífita em florestas úmidas, geralmente em altitudes moderadas.",
     clima: "Intermediário, úmido.",
     climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
-    iluminacao: "Luz filtrada média.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz filtrada",
+        observacoes: "Prefere meia-sombra clara e luz difusa durante todo o dia. Em Serra/ES, evite sol direto e calor acumulado; folhas verde-claro indicam luz adequada, enquanto amarelamento pode sinalizar excesso."
+    },
     floracao: "Comum entre primavera e verão.",
     adubacao: "Adubação equilibrada diluída durante o crescimento.",
     rega: "Regular, sem deixar secar por longos períodos; evitar raízes permanentemente encharcadas.",

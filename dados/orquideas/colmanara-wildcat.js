@@ -14,7 +14,12 @@ export const colmanaraWildcat = {
     habitat: "Não possui habitat natural.",
     clima: "Intermediário, tolerando calor com boa ventilação.",
     climaFloracao: "A floração é favorecida por crescimento vigoroso, iluminação adequada, boa ventilação e leve diferença entre as temperaturas do dia e da noite. Evite extremos de calor, frio ou umidade durante a formação dos botões.",
-    iluminacao: "Luz filtrada média, mais suave que para Cattleya.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz filtrada",
+        observacoes: "Mantenha em meia-sombra clara, com bastante luminosidade indireta. Em Serra/ES, evite sol direto, principalmente sobre folhas e brotações novas, pois o calor intenso favorece queimaduras e desidratação."
+    },
     floracao: "Pode florescer em diferentes épocas do ano, com maior frequência após a maturação de novos pseudobulbos.",
     adubacao: "Adubo equilibrado em baixa concentração a cada 7–15 dias.",
     rega: "Regar quando o substrato estiver quase seco; raízes finas não toleram seca prolongada.",

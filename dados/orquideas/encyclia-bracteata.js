@@ -19,7 +19,12 @@ export const encycliaBracteata = {
     habitat: "Epífita em matas abertas e áreas com períodos de menor disponibilidade de água",
     clima: "Quente a intermediário, com boa ventilação",
     climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
-    iluminacao: "Luz filtrada intensa, podendo receber sol suave da manhã",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00 e após 16:30",
+        observacoes: "Exige alta luminosidade para crescer e florescer bem. Em Serra/ES, aceite apenas sol suave da manhã ou do fim da tarde, com adaptação gradual, ventilação forte e raízes de secagem rápida."
+    },
     floracao: "Mais frequente da primavera ao verão",
     adubacao: "Use adubo equilibrado na brotação e formação dos pseudobulbos; depois alterne com fórmula de floração. Adubo orgânico em dose pequena e afastado das raízes.",
     rega: "Regue bem no crescimento e deixe secar entre as regas. Reduza a frequência após o amadurecimento dos pseudobulbos e em períodos mais frios.",

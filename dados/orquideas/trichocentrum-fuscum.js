@@ -20,7 +20,12 @@ export const trichocentrumFuscum = {
     habitat: "Florestas sazonais e ambientes epífitos luminosos e ventilados.",
     clima: "Quente a intermediário.",
     climaFloracao: "A floração é favorecida por boa luminosidade filtrada, crescimento vigoroso e noites um pouco mais frescas após o amadurecimento dos pseudobulbos. Evite sombra excessiva e encharcamento prolongado.",
-    iluminacao: "Luz filtrada alta.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00 e após 16:30",
+        observacoes: "Gosta de alta luminosidade e raízes bem arejadas. Em Serra/ES, pode receber sol suave da manhã ou do fim da tarde após adaptação; evite sol forte e calor acumulado no meio do dia."
+    },
     floracao: "Geralmente entre primavera e verão.",
     adubacao: "Adubo equilibrado diluído durante o crescimento, com menor frequência no frio.",
     rega: "Regar bem e permitir secagem quase completa; evitar excesso contínuo de umidade.",

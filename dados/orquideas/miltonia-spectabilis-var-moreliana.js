@@ -20,7 +20,12 @@ export const miltoniaSpectabilisVarMoreliana = {
     habitat: "Epífita em florestas úmidas, quentes a intermediárias.",
     clima: "Quente a intermediário.",
     climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
-    iluminacao: "Luz filtrada média.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz filtrada",
+        observacoes: "Prefere meia-sombra clara, com iluminação difusa e boa ventilação. Em Serra/ES, proteja totalmente do sol direto forte; um local claro sob sombrite de 70% favorece crescimento sem superaquecer as folhas."
+    },
     floracao: "Mais frequente entre fim do verão e outono.",
     adubacao: "Adubo equilibrado diluído durante a emissão de brotos e raízes.",
     rega: "Regular no calor, com leve secagem superficial entre regas.",

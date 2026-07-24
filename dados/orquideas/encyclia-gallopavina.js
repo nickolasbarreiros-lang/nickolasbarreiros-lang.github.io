@@ -14,7 +14,12 @@ export const encycliaGallopavina = {
     habitat: "Florestas sazonais, em locais claros e ventilados.",
     clima: "Quente a intermediário, com estação mais seca.",
     climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
-    iluminacao: "Luz filtrada forte.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00 e após 16:30",
+        observacoes: "Prefere luz intensa e ambiente arejado. Em Serra/ES, o sol fraco da manhã ajuda na floração, mas a planta deve ficar protegida do sol forte e do superaquecimento durante o meio do dia."
+    },
     floracao: "Geralmente floresce na primavera e no verão.",
     adubacao: "Adubo equilibrado no crescimento; reduzir após a maturação.",
     rega: "Regar bem e deixar secar parcialmente entre regas; diminuir no período frio.",
