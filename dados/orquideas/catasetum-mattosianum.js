@@ -1,33 +1,32 @@
-// Cadastro gerado a partir do álbum de orquídeas.
-// Preencha os campos vazios quando revisar esta planta.
+// Ficha revisada para o catálogo de orquídeas.
 
 export const catasetumMattosianum = {
     id: "catasetum-mattosianum",
     nome: "Catasetum mattosianum",
     genero: "Catasetum",
-    tipo: "",
-    dificuldade: "",
-    caracteristicas: [],
+    tipo: "Espécie",
+    dificuldade: "Intermediário",
+    caracteristicas: ["Decídua", "Flores masculinas e femininas", "Crescimento sazonal"],
     fotos: [],
-    descricao: "",
-    origem: "",
-    regiao: "",
-    habitat: "",
-    clima: "",
-    iluminacao: "",
-    floracao: "",
-    adubacao: "",
-    rega: "",
-    suporte: "",
-    substrato: "",
-    dica: "",
-    mesesFloracao: [],
+    descricao: "Catasetum brasileiro de ciclo marcadamente sazonal. Produz pseudobulbos vigorosos, perde as folhas no repouso e pode emitir flores masculinas ou femininas conforme condições de cultivo.",
+    origem: "Brasil",
+    regiao: "Brasil central e áreas sazonais",
+    habitat: "Florestas estacionais e ambientes com estação seca definida.",
+    clima: "Quente.",
+    iluminacao: "Alta no crescimento, com sol filtrado forte.",
+    floracao: "Verão ao início do outono, geralmente próximo da maturação do pseudobulbo.",
+    adubacao: "Forte durante crescimento ativo, reduzindo e suspendendo quando as folhas amarelecem.",
+    rega: "Abundante com raízes novas ativas; suspender quase totalmente no repouso.",
+    suporte: "Vaso plástico ou cachepô com boa drenagem.",
+    substrato: "Esfagno, casca média, pedra-pomes e carvão; mistura que retenha água sem compactar.",
+    dica: "Em Serra/ES, só aumente a rega quando as raízes novas tiverem alguns centímetros. No repouso, mantenha praticamente seco.",
+    mesesFloracao: [1, 2, 3, 4],
     avaliacoes: {
-        cultivo: 0,
-        floracao: 0,
-        perfume: 0,
-        luminosidade: 0,
-        agua: 0,
-        raridade: 0
+        cultivo: 4,
+        floracao: 4,
+        perfume: 2,
+        luminosidade: 4,
+        agua: 4,
+        raridade: 4
     }
 };

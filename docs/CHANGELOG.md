@@ -31,3 +31,11 @@
 - Padronizados clima, iluminação, floração, adubação, rega, suporte, substrato e dica para Serra/ES.
 - Registradas observações taxonômicas nos textos quando o nome comercial difere do nome aceito moderno.
 - Mantida a estrutura de dados atual para preservar compatibilidade com o site.
+
+
+## Sprint 2 — Lote 3
+
+- Revisadas 25 fichas adicionais.
+- Padronizados tipo, dificuldade, características, cultivo e avaliações.
+- Adicionadas recomendações específicas para Serra/ES.
+- Mantidos IDs e nomes de etiqueta para compatibilidade com o site.

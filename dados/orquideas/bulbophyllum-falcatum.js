@@ -1,33 +1,32 @@
-// Cadastro gerado a partir do álbum de orquídeas.
-// Preencha os campos vazios quando revisar esta planta.
+// Ficha revisada para o catálogo de orquídeas.
 
 export const bulbophyllumFalcatum = {
     id: "bulbophyllum-falcatum",
     nome: "Bulbophyllum Falcatum",
     genero: "Bulbophyllum",
-    tipo: "",
-    dificuldade: "",
-    caracteristicas: [],
+    tipo: "Espécie",
+    dificuldade: "Intermediário",
+    caracteristicas: ["Inflorescência achatada", "Flores alinhadas", "Espécie africana"],
     fotos: [],
-    descricao: "",
-    origem: "",
-    regiao: "",
-    habitat: "",
-    clima: "",
-    iluminacao: "",
-    floracao: "",
-    adubacao: "",
-    rega: "",
-    suporte: "",
-    substrato: "",
-    dica: "",
-    mesesFloracao: [],
+    descricao: "Espécie africana singular, com inflorescência achatada em forma de lâmina e pequenas flores dispostas ao longo das bordas.",
+    origem: "África tropical",
+    regiao: "África Ocidental e Central",
+    habitat: "Florestas tropicais úmidas, em baixa e média altitude.",
+    clima: "Quente a intermediário.",
+    iluminacao: "Baixa a média.",
+    floracao: "Mais comum na primavera e verão.",
+    adubacao: "Frequente e diluída durante o crescimento.",
+    rega: "Manter úmida, com breve secagem superficial entre regas.",
+    suporte: "Cestinho, placa ou vaso baixo.",
+    substrato: "Casca fina, esfagno e material mineral poroso.",
+    dica: "Na Serra, proteja do sol direto e mantenha boa umidade ambiental sem fechar a ventilação.",
+    mesesFloracao: [9, 10, 11, 12, 1, 2],
     avaliacoes: {
-        cultivo: 0,
-        floracao: 0,
-        perfume: 0,
-        luminosidade: 0,
-        agua: 0,
-        raridade: 0
+        cultivo: 3,
+        floracao: 4,
+        perfume: 1,
+        luminosidade: 2,
+        agua: 4,
+        raridade: 4
     }
 };
