@@ -29,6 +29,8 @@ import {
     inicializarVisualizacao
 } from "./visualizacao.js";
 
+import { inicializarHomeV4 } from "./home-v4.js";
+
 
 /* =========================================================
    CONFIGURAÇÕES
@@ -419,6 +421,10 @@ export function inicializarAplicacao() {
     );
 
     iniciarFiltros(
+        listaOrquideas
+    );
+
+    inicializarHomeV4(
         listaOrquideas
     );
 

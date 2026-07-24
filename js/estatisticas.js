@@ -116,10 +116,24 @@ export function calcularEstatisticas(orquideas) {
             contarGeneros(lista),
 
         totalOrigens:
-            contarOrigens(lista),
+            lista.filter((orquidea) => {
+                const texto = normalizarTexto([
+                    orquidea?.origem,
+                    orquidea?.regiao,
+                    ...(Array.isArray(orquidea?.caracteristicas) ? orquidea.caracteristicas : [])
+                ].join(" "));
+                return texto.includes("brasil") || texto.includes("brasileir");
+            }).length,
 
         totalRaras:
-            contarOrquideasRaras(lista)
+            lista.filter((orquidea) => {
+                const texto = normalizarTexto([
+                    orquidea?.origem,
+                    orquidea?.regiao,
+                    ...(Array.isArray(orquidea?.caracteristicas) ? orquidea.caracteristicas : [])
+                ].join(" "));
+                return !(texto.includes("brasil") || texto.includes("brasileir"));
+            }).length
     };
 }
 

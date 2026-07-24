@@ -1,714 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <meta
-        name="description"
-        content="Catálogo particular de orquídeas cultivadas em Serra, Espírito Santo."
-    >
-
-    <title>Meu Catálogo de Orquídeas</title>
-
-    <link
-        rel="stylesheet"
-        href="estilos.css?v=32"
-    >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo particular de orquídeas cultivadas em Serra, Espírito Santo.">
+  <title>Catálogo de Orquídeas</title>
+  <link rel="stylesheet" href="estilos.css?v=40">
 </head>
+<body class="pagina-home-v4">
+  <header class="topo-v4">
+    <div class="topo-v4-conteudo">
+      <a class="marca-v4" href="#inicio" aria-label="Ir para o início">
+        <span class="marca-v4-icone">✿</span>
+        <span><strong>Catálogo</strong><small>de Orquídeas</small></span>
+      </a>
+      <nav class="menu-v4" aria-label="Navegação principal">
+        <a class="ativo" href="#inicio">⌂ Início</a>
+        <a href="#catalogo-area">♧ Catálogo</a>
+        <a href="#generos-v4">❀ Gêneros</a>
+        <a href="#floracoes">▣ Calendário</a>
+        <a href="#sobre-v4">ⓘ Sobre</a>
+      </nav>
+      <a class="busca-topo-v4" href="#pesquisa">⌕ Buscar</a>
+    </div>
+  </header>
 
-<body>
+  <main id="inicio">
+    <section class="hero-v4">
+      <div class="hero-v4-conteudo">
+        <span class="hero-v4-selo">Coleção particular • Serra/ES</span>
+        <h1>Catálogo Brasileiro <span>🌸</span><br>de Orquídeas</h1>
+        <p>Descubra, aprenda e cultive a beleza das orquídeas brasileiras e de todo o mundo.</p>
 
-    <header class="cabecalho">
-
-        <div class="conteudo-cabecalho">
-
-            <span class="icone-cabecalho">
-                🌸
-            </span>
-
-            <div>
-
-                <h1>
-                    Meu Catálogo de Orquídeas
-                </h1>
-
-                <p>
-                    Coleção particular cultivada em Serra/ES
-                </p>
-
-            </div>
-
+        <div class="busca-hero-v4">
+          <span aria-hidden="true">⌕</span>
+          <input id="busca" type="search" placeholder="Pesquisar espécie, gênero ou palavra-chave..." autocomplete="off">
+          <button id="botao-busca-hero" type="button">Buscar</button>
         </div>
 
-    </header>
-
-    <main class="container">
-
-        <!-- =================================================
-             ESTATÍSTICAS GERAIS
-        ================================================== -->
-
-        <section class="painel-estatisticas">
-
-            <article class="cartao-estatistica">
-
-                <span class="icone-estatistica">
-                    🌸
-                </span>
-
-                <div>
-
-                    <strong id="total-orquideas">
-                        0
-                    </strong>
-
-                    <span>
-                        Orquídeas cadastradas
-                    </span>
-
-                </div>
-
-            </article>
-
-            <article class="cartao-estatistica">
-
-                <span class="icone-estatistica">
-                    🧬
-                </span>
-
-                <div>
-
-                    <strong id="total-generos">
-                        0
-                    </strong>
-
-                    <span>
-                        Gêneros diferentes
-                    </span>
-
-                </div>
-
-            </article>
-
-            <article class="cartao-estatistica">
-
-                <span class="icone-estatistica">
-                    🌎
-                </span>
-
-                <div>
-
-                    <strong id="total-origens">
-                        0
-                    </strong>
-
-                    <span>
-                        Origens registradas
-                    </span>
-
-                </div>
-
-            </article>
-
-            <article class="cartao-estatistica">
-
-                <span class="icone-estatistica">
-                    ⭐
-                </span>
-
-                <div>
-
-                    <strong id="total-raras">
-                        0
-                    </strong>
-
-                    <span>
-                        Espécies raras
-                    </span>
-
-                </div>
-
-            </article>
-
+        <section class="painel-estatisticas estatisticas-v4" aria-label="Estatísticas do catálogo">
+          <article class="cartao-estatistica"><span>🍃</span><div><strong id="total-orquideas">0</strong><small>Espécies<br>cadastradas</small></div></article>
+          <article class="cartao-estatistica"><span>🌿</span><div><strong id="total-generos">0</strong><small>Gêneros<br>diferentes</small></div></article>
+          <article class="cartao-estatistica"><span>🇧🇷</span><div><strong id="total-origens">0</strong><small>Orquídeas<br>brasileiras</small></div></article>
+          <article class="cartao-estatistica"><span>🌐</span><div><strong id="total-raras">0</strong><small>Orquídeas<br>estrangeiras</small></div></article>
         </section>
-
-        <!-- =================================================
-             PAINEL MENSAL DE FLORAÇÕES
-        ================================================== -->
-
-        <section class="painel-floracoes-mensal">
-
-            <div class="cabecalho-floracoes-mensal">
-
-                <div class="titulo-floracoes-mensal">
-
-                    <span class="icone-floracoes-mensal">
-                        🌸
-                    </span>
-
-                    <div>
-
-                        <h2 id="titulo-floracoes-mes">
-                            Florações do mês
-                        </h2>
-
-                        <p id="data-atual-floracoes">
-                            Carregando data...
-                        </p>
-
-                    </div>
-
-                </div>
-
-                <div class="seletor-mes-floracoes">
-
-                    <label for="mes-painel-floracoes">
-                        Consultar mês
-                    </label>
-
-                    <select
-                        id="mes-painel-floracoes"
-                        class="campo campo-mes-floracoes"
-                    >
-                        <option value="1">
-                            Janeiro
-                        </option>
-
-                        <option value="2">
-                            Fevereiro
-                        </option>
-
-                        <option value="3">
-                            Março
-                        </option>
-
-                        <option value="4">
-                            Abril
-                        </option>
-
-                        <option value="5">
-                            Maio
-                        </option>
-
-                        <option value="6">
-                            Junho
-                        </option>
-
-                        <option value="7">
-                            Julho
-                        </option>
-
-                        <option value="8">
-                            Agosto
-                        </option>
-
-                        <option value="9">
-                            Setembro
-                        </option>
-
-                        <option value="10">
-                            Outubro
-                        </option>
-
-                        <option value="11">
-                            Novembro
-                        </option>
-
-                        <option value="12">
-                            Dezembro
-                        </option>
-                    </select>
-
-                </div>
-
-            </div>
-
-            <div class="resumo-floracoes-mensal">
-
-                <div class="quantidade-floracoes-mes">
-
-                    <strong id="quantidade-floracoes-mes">
-                        0
-                    </strong>
-
-                    <span id="texto-quantidade-floracoes">
-                        espécies previstas para florir neste mês
-                    </span>
-
-                </div>
-
-                <div class="barra-progresso-floracoes">
-
-                    <div
-                        id="progresso-floracoes-mes"
-                        class="preenchimento-progresso-floracoes"
-                    ></div>
-
-                </div>
-
-                <p id="percentual-floracoes-mes">
-                    0% da coleção
-                </p>
-
-            </div>
-
-            <div class="grade-resumo-floracoes">
-
-                <button
-                    id="alternar-lista-floracoes"
-                    class="cartao-resumo-floracao status-atual cartao-floracao-interativo"
-                    type="button"
-                    aria-expanded="false"
-                    aria-controls="lista-floracoes-mensal"
-                >
-
-                    <span class="icone-resumo-floracao">
-                        🌸
-                    </span>
-
-                    <div>
-
-                        <strong id="quantidade-florindo-agora">
-                            0
-                        </strong>
-
-                        <span>
-                            Previstas para este mês
-                        </span>
-
-                    </div>
-
-                    <span
-                        class="indicador-expansao-floracoes"
-                        aria-hidden="true"
-                    >
-                        ＋
-                    </span>
-
-                </button>
-
-                <article class="cartao-resumo-floracao status-proximo">
-
-                    <span class="icone-resumo-floracao">
-                        🟡
-                    </span>
-
-                    <div>
-
-                        <strong id="quantidade-proximo-mes">
-                            0
-                        </strong>
-
-                        <span>
-                            Previstas para o próximo mês
-                        </span>
-
-                    </div>
-
-                </article>
-
-                <article class="cartao-resumo-floracao status-aproximando">
-
-                    <span class="icone-resumo-floracao">
-                        🌱
-                    </span>
-
-                    <div>
-
-                        <strong id="quantidade-dois-meses">
-                            0
-                        </strong>
-
-                        <span>
-                            Previstas para daqui a dois meses
-                        </span>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-            <div
-                id="lista-floracoes-mensal"
-                class="lista-floracoes-mensal"
-                hidden
-            >
-
-                <div class="cabecalho-lista-floracoes">
-
-                    <div>
-
-                        <h3 id="titulo-lista-floracoes">
-                            Espécies previstas para este mês
-                        </h3>
-
-                        <p id="descricao-lista-floracoes">
-                            Selecione uma espécie para abrir a ficha completa.
-                        </p>
-
-                    </div>
-
-                    <button
-                        id="filtrar-floracoes-do-mes"
-                        class="botao-filtrar-floracoes"
-                        type="button"
-                    >
-                        Mostrar somente estas
-                    </button>
-
-                </div>
-
-                <div
-                    id="lista-especies-floracoes"
-                    class="lista-especies-floracoes"
-                >
-                    <p class="mensagem-carregamento-floracoes">
-                        Carregando florações...
-                    </p>
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- =================================================
-             PAINEL DE PESQUISA
-        ================================================== -->
-
-        <section class="painel-pesquisa">
-
-            <div class="cabecalho-painel-pesquisa">
-
-                <div>
-
-                    <h2>
-                        🔎 Pesquisa avançada
-                    </h2>
-
-                    <p>
-                        Encontre as plantas por nome, gênero,
-                        clima, iluminação ou época de floração.
-                    </p>
-
-                </div>
-
-                <button
-                    id="limpar-filtros"
-                    class="botao-limpar-filtros"
-                    type="button"
-                >
-                    Limpar filtros
-                </button>
-
-            </div>
-
-            <div class="painel-filtros painel-filtros-avancados">
-
-                <div class="grupo-campo grupo-busca">
-
-                    <label for="busca">
-                        Pesquisar
-                    </label>
-
-                    <input
-                        id="busca"
-                        class="campo campo-busca"
-                        type="search"
-                        placeholder="Nome, origem, habitat ou característica..."
-                        autocomplete="off"
-                    >
-
-                </div>
-
-                <div class="grupo-campo">
-
-                    <label for="filtro-genero">
-                        Gênero
-                    </label>
-
-                    <select
-                        id="filtro-genero"
-                        class="campo"
-                    >
-                        <option value="">
-                            Todos os gêneros
-                        </option>
-                    </select>
-
-                </div>
-
-                <div class="grupo-campo">
-
-                    <label for="filtro-tipo">
-                        Classificação
-                    </label>
-
-                    <select
-                        id="filtro-tipo"
-                        class="campo"
-                    >
-                        <option value="">
-                            Espécies e híbridos
-                        </option>
-
-                        <option value="Espécie botânica">
-                            Espécies botânicas
-                        </option>
-
-                        <option value="Híbrido">
-                            Híbridos
-                        </option>
-                    </select>
-
-                </div>
-
-                <div class="grupo-campo">
-
-                    <label for="filtro-clima">
-                        Clima
-                    </label>
-
-                    <select
-                        id="filtro-clima"
-                        class="campo"
-                    >
-                        <option value="">
-                            Todos os climas
-                        </option>
-                    </select>
-
-                </div>
-
-                <div class="grupo-campo">
-
-                    <label for="filtro-luz">
-                        Iluminação
-                    </label>
-
-                    <select
-                        id="filtro-luz"
-                        class="campo"
-                    >
-                        <option value="">
-                            Todas as iluminações
-                        </option>
-                    </select>
-
-                </div>
-
-                <div class="grupo-campo">
-
-                    <label for="filtro-dificuldade">
-                        Dificuldade
-                    </label>
-
-                    <select
-                        id="filtro-dificuldade"
-                        class="campo"
-                    >
-                        <option value="">
-                            Todas as dificuldades
-                        </option>
-
-                        <option value="Fácil">
-                            Fácil
-                        </option>
-
-                        <option value="Moderada">
-                            Moderada
-                        </option>
-
-                        <option value="Difícil">
-                            Difícil
-                        </option>
-                    </select>
-
-                </div>
-
-                <div class="grupo-campo">
-
-                    <label for="filtro-floracao">
-                        Mês de floração
-                    </label>
-
-                    <select
-                        id="filtro-floracao"
-                        class="campo"
-                    >
-                        <option value="">
-                            Floração em qualquer época
-                        </option>
-
-                        <option value="1">Janeiro</option>
-                        <option value="2">Fevereiro</option>
-                        <option value="3">Março</option>
-                        <option value="4">Abril</option>
-                        <option value="5">Maio</option>
-                        <option value="6">Junho</option>
-                        <option value="7">Julho</option>
-                        <option value="8">Agosto</option>
-                        <option value="9">Setembro</option>
-                        <option value="10">Outubro</option>
-                        <option value="11">Novembro</option>
-                        <option value="12">Dezembro</option>
-                    </select>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- =================================================
-             RESULTADOS DO CATÁLOGO
-        ================================================== -->
-
-        <section class="area-resultados">
-
-            <div class="barra-resultados">
-
-                <div class="resumo-resultados">
-
-                    <h2 class="titulo-resultados">
-                        Catálogo
-                    </h2>
-
-                    <p
-                        id="contador"
-                        class="contador"
-                    ></p>
-
-                </div>
-
-                <div class="controles-resultados">
-
-                    <div class="grupo-ordenacao">
-
-                        <label for="ordenacao">
-                            Ordenar por
-                        </label>
-
-                        <select
-                            id="ordenacao"
-                            class="campo campo-ordenacao"
-                        >
-                            <option value="nome-az">
-                                Nome: A–Z
-                            </option>
-
-                            <option value="nome-za">
-                                Nome: Z–A
-                            </option>
-
-                            <option value="raridade-maior">
-                                Mais raras primeiro
-                            </option>
-
-                            <option value="raridade-menor">
-                                Menos raras primeiro
-                            </option>
-
-                            <option value="cultivo-facil">
-                                Cultivo mais fácil
-                            </option>
-
-                            <option value="cultivo-dificil">
-                                Cultivo mais difícil
-                            </option>
-                        </select>
-
-                    </div>
-
-                    <div
-                        class="alternador-visualizacao"
-                        aria-label="Modo de visualização"
-                    >
-
-                        <button
-                            id="modo-galeria"
-                            class="botao-visualizacao ativo"
-                            type="button"
-                            aria-label="Exibir em galeria"
-                            aria-pressed="true"
-                            title="Modo galeria"
-                        >
-                            ▦
-                            <span>Galeria</span>
-                        </button>
-
-                        <button
-                            id="modo-lista"
-                            class="botao-visualizacao"
-                            type="button"
-                            aria-label="Exibir em lista"
-                            aria-pressed="false"
-                            title="Modo lista"
-                        >
-                            ☰
-                            <span>Lista</span>
-                        </button>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <p
-                id="filtros-ativos"
-                class="filtros-ativos"
-            ></p>
-
-            <section
-                id="catalogo"
-                class="catalogo"
-            ></section>
-
-            <div
-                id="sem-resultados"
-                class="sem-resultados"
-            >
-
-                <span class="icone-sem-resultados">
-                    🔍
-                </span>
-
-                <h3>
-                    Nenhuma orquídea encontrada
-                </h3>
-
-                <p>
-                    Tente remover algum filtro ou utilizar
-                    outro termo de pesquisa.
-                </p>
-
-            </div>
-
-        </section>
-
-    </main>
-
-    <footer class="rodape">
-
-        <p>
-            Meu Catálogo de Orquídeas
-        </p>
-
-        <span>
-            Coleção particular cultivada em Serra/ES
-        </span>
-
-    </footer>
-
-<script type="module" src="js/app.js"></script>
-    
+      </div>
+    </section>
+
+    <div class="container-v4">
+      <section class="explorar-v4" aria-labelledby="titulo-explorar">
+        <div class="titulo-secao-v4"><h2 id="titulo-explorar">Explore o catálogo</h2><span></span></div>
+        <div class="atalhos-v4">
+          <button class="atalho-v4" data-destino="#catalogo-area"><b>▤</b><strong>Catálogo</strong><small>Ver todas as espécies</small></button>
+          <button class="atalho-v4" data-destino="#generos-v4"><b>❀</b><strong>Gêneros</strong><small>Explore por gênero</small></button>
+          <button class="atalho-v4" data-destino="#floracoes"><b>▣</b><strong>Calendário</strong><small>Floração mês a mês</small></button>
+          <button class="atalho-v4 destaque" id="atalho-previstas" data-destino="#floracoes"><b>🌸</b><strong>Previstas para este mês</strong><small>Veja quem deve florescer</small></button>
+          <button class="atalho-v4" data-filtro-caracteristica="brasileira"><b>♧</b><strong>Brasileiras</strong><small>Espécies nativas do Brasil</small></button>
+          <button class="atalho-v4" data-filtro-caracteristica="estrangeira"><b>◉</b><strong>Estrangeiras</strong><small>Espécies de outros países</small></button>
+          <button class="atalho-v4" data-destino="#destaques-v4"><b>☆</b><strong>Em destaque</strong><small>Espécies selecionadas</small></button>
+        </div>
+      </section>
+
+      <section id="destaques-v4" class="destaques-v4">
+        <div class="cabecalho-secao-v4"><h2>Destaques do mês</h2><a href="#catalogo-area">Ver todas →</a></div>
+        <div id="grade-destaques-v4" class="grade-destaques-v4"></div>
+      </section>
+
+      <section id="generos-v4" class="generos-v4">
+        <div class="cabecalho-secao-v4"><div><h2>Explore por gênero</h2><p>Encontre rapidamente as plantas da sua coleção.</p></div></div>
+        <div id="grade-generos-v4" class="grade-generos-v4"></div>
+      </section>
+
+      <section id="floracoes" class="painel-floracoes-mensal painel-floracoes-v4">
+        <div class="cabecalho-floracoes-mensal">
+          <div class="titulo-floracoes-mensal"><span class="icone-floracoes-mensal">🌸</span><div><h2 id="titulo-floracoes-mes">Florações do mês</h2><p id="data-atual-floracoes">Carregando data...</p></div></div>
+          <div class="seletor-mes-floracoes"><label for="mes-painel-floracoes">Consultar mês</label><select id="mes-painel-floracoes" class="campo campo-mes-floracoes">
+            <option value="1">Janeiro</option><option value="2">Fevereiro</option><option value="3">Março</option><option value="4">Abril</option><option value="5">Maio</option><option value="6">Junho</option><option value="7">Julho</option><option value="8">Agosto</option><option value="9">Setembro</option><option value="10">Outubro</option><option value="11">Novembro</option><option value="12">Dezembro</option>
+          </select></div>
+        </div>
+        <div class="resumo-floracoes-mensal"><div class="quantidade-floracoes-mes"><strong id="quantidade-floracoes-mes">0</strong><span id="texto-quantidade-floracoes">espécies previstas para florir neste mês</span></div><div class="barra-progresso-floracoes"><div id="progresso-floracoes-mes" class="preenchimento-progresso-floracoes"></div></div><p id="percentual-floracoes-mes">0% da coleção</p></div>
+        <div class="grade-resumo-floracoes">
+          <button id="alternar-lista-floracoes" class="cartao-resumo-floracao status-atual cartao-floracao-interativo" type="button" aria-expanded="false" aria-controls="lista-floracoes-mensal"><span class="icone-resumo-floracao">🌸</span><div><strong id="quantidade-florindo-agora">0</strong><span>Previstas para este mês</span></div><span class="indicador-expansao-floracoes" aria-hidden="true">＋</span></button>
+          <article class="cartao-resumo-floracao status-proximo"><span class="icone-resumo-floracao">🟡</span><div><strong id="quantidade-proximo-mes">0</strong><span>Previstas para o próximo mês</span></div></article>
+          <article class="cartao-resumo-floracao status-aproximando"><span class="icone-resumo-floracao">🌱</span><div><strong id="quantidade-dois-meses">0</strong><span>Previstas para daqui a dois meses</span></div></article>
+        </div>
+        <div id="lista-floracoes-mensal" class="lista-floracoes-mensal" hidden><div class="cabecalho-lista-floracoes"><div><h3 id="titulo-lista-floracoes">Espécies previstas para este mês</h3><p id="descricao-lista-floracoes">Selecione uma espécie para abrir a ficha completa.</p></div><button id="filtrar-floracoes-do-mes" class="botao-filtrar-floracoes" type="button">Mostrar somente estas</button></div><div id="lista-especies-floracoes" class="lista-especies-floracoes"><p class="mensagem-carregamento-floracoes">Carregando florações...</p></div></div>
+      </section>
+
+      <section id="pesquisa" class="painel-pesquisa painel-pesquisa-v4">
+        <div class="cabecalho-painel-pesquisa"><div><h2>Filtros avançados</h2><p>Refine a pesquisa por gênero, clima, iluminação, dificuldade ou época de floração.</p></div><button id="limpar-filtros" class="botao-limpar-filtros" type="button">Limpar filtros</button></div>
+        <div class="painel-filtros painel-filtros-avancados">
+          <div class="grupo-campo"><label for="filtro-genero">Gênero</label><select id="filtro-genero" class="campo"><option value="">Todos os gêneros</option></select></div>
+          <div class="grupo-campo"><label for="filtro-tipo">Classificação</label><select id="filtro-tipo" class="campo"><option value="">Espécies e híbridos</option><option value="Espécie botânica">Espécies botânicas</option><option value="Híbrido">Híbridos</option></select></div>
+          <div class="grupo-campo"><label for="filtro-clima">Clima</label><select id="filtro-clima" class="campo"><option value="">Todos os climas</option></select></div>
+          <div class="grupo-campo"><label for="filtro-luz">Iluminação</label><select id="filtro-luz" class="campo"><option value="">Todas as iluminações</option></select></div>
+          <div class="grupo-campo"><label for="filtro-dificuldade">Dificuldade</label><select id="filtro-dificuldade" class="campo"><option value="">Todas as dificuldades</option><option value="Fácil">Fácil</option><option value="Moderada">Moderada</option><option value="Difícil">Difícil</option></select></div>
+          <div class="grupo-campo"><label for="filtro-floracao">Mês de floração</label><select id="filtro-floracao" class="campo"><option value="">Qualquer época</option><option value="1">Janeiro</option><option value="2">Fevereiro</option><option value="3">Março</option><option value="4">Abril</option><option value="5">Maio</option><option value="6">Junho</option><option value="7">Julho</option><option value="8">Agosto</option><option value="9">Setembro</option><option value="10">Outubro</option><option value="11">Novembro</option><option value="12">Dezembro</option></select></div>
+        </div>
+      </section>
+
+      <section id="catalogo-area" class="area-resultados area-resultados-v4">
+        <div class="barra-resultados"><div class="resumo-resultados"><h2 class="titulo-resultados">Catálogo completo</h2><p id="contador" class="contador"></p></div><div class="controles-resultados"><div class="grupo-ordenacao"><label for="ordenacao">Ordenar por</label><select id="ordenacao" class="campo campo-ordenacao"><option value="nome-az">Nome: A–Z</option><option value="nome-za">Nome: Z–A</option><option value="raridade-maior">Mais raras primeiro</option><option value="raridade-menor">Menos raras primeiro</option><option value="cultivo-facil">Cultivo mais fácil</option><option value="cultivo-dificil">Cultivo mais difícil</option></select></div><div class="alternador-visualizacao" aria-label="Modo de visualização"><button id="modo-galeria" class="botao-visualizacao ativo" type="button" aria-label="Exibir em galeria" aria-pressed="true">▦ <span>Galeria</span></button><button id="modo-lista" class="botao-visualizacao" type="button" aria-label="Exibir em lista" aria-pressed="false">☰ <span>Lista</span></button></div></div></div>
+        <p id="filtros-ativos" class="filtros-ativos"></p>
+        <section id="catalogo" class="catalogo"></section>
+        <div id="sem-resultados" class="sem-resultados"><span class="icone-sem-resultados">🔍</span><h3>Nenhuma orquídea encontrada</h3><p>Tente remover algum filtro ou utilizar outro termo de pesquisa.</p></div>
+      </section>
+    </div>
+  </main>
+
+  <footer id="sobre-v4" class="rodape rodape-v4"><strong>Catálogo de Orquídeas</strong><p>Coleção particular cultivada em Serra/ES.</p><span>Informações adaptadas ao clima quente e úmido da região.</span></footer>
+  <script type="module" src="js/app.js"></script>
 </body>
-
 </html>
