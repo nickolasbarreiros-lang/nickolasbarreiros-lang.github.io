@@ -464,6 +464,16 @@ export function obterElementosPainelFloracao() {
         botaoFiltrar:
             document.getElementById(
                 "filtrar-floracoes-do-mes"
+            ),
+
+        botaoAlternarLista:
+            document.getElementById(
+                "alternar-lista-floracoes"
+            ),
+
+        painelLista:
+            document.getElementById(
+                "lista-floracoes-mensal"
             )
     };
 }
@@ -634,6 +644,51 @@ function atualizarEstadoBotao(
             : "Mostrar somente estas";
 }
 
+
+
+
+/* =========================================================
+   ABERTURA E FECHAMENTO DA LISTA MENSAL
+========================================================= */
+
+function atualizarEstadoListaFloracoes(
+    elementos,
+    aberta
+) {
+    const painelLista =
+        elementos?.painelLista;
+
+    const botao =
+        elementos?.botaoAlternarLista;
+
+    if (painelLista) {
+        painelLista.hidden = !aberta;
+    }
+
+    if (!botao) {
+        return;
+    }
+
+    botao.setAttribute(
+        "aria-expanded",
+        aberta ? "true" : "false"
+    );
+
+    botao.classList.toggle(
+        "lista-floracoes-aberta",
+        aberta
+    );
+
+    const indicador =
+        botao.querySelector(
+            ".indicador-expansao-floracoes"
+        );
+
+    if (indicador) {
+        indicador.textContent =
+            aberta ? "−" : "＋";
+    }
+}
 
 /* =========================================================
    RENDERIZAÇÃO DO PAINEL
@@ -815,6 +870,12 @@ export function inicializarPainelFloracao(
         );
 
     let filtroAtivo = false;
+    let listaAberta = false;
+
+    atualizarEstadoListaFloracoes(
+        elementos,
+        listaAberta
+    );
 
     let resumoAtual =
         renderizarPainelFloracao(
@@ -914,6 +975,27 @@ export function inicializarPainelFloracao(
 
 
     /* -----------------------------------------------------
+       ABERTURA DA LISTA DE ESPÉCIES
+    ------------------------------------------------------ */
+
+    function alternarListaFloracoes() {
+        listaAberta = !listaAberta;
+
+        atualizarEstadoListaFloracoes(
+            elementos,
+            listaAberta
+        );
+
+        if (listaAberta) {
+            elementos.painelLista?.scrollIntoView({
+                behavior: "smooth",
+                block: "nearest"
+            });
+        }
+    }
+
+
+    /* -----------------------------------------------------
        EVENTOS
     ------------------------------------------------------ */
 
@@ -925,6 +1007,11 @@ export function inicializarPainelFloracao(
     elementos.botaoFiltrar?.addEventListener(
         "click",
         alternarFiltro
+    );
+
+    elementos.botaoAlternarLista?.addEventListener(
+        "click",
+        alternarListaFloracoes
     );
 
 

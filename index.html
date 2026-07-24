@@ -260,7 +260,13 @@
 
             <div class="grade-resumo-floracoes">
 
-                <article class="cartao-resumo-floracao status-atual">
+                <button
+                    id="alternar-lista-floracoes"
+                    class="cartao-resumo-floracao status-atual cartao-floracao-interativo"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="lista-floracoes-mensal"
+                >
 
                     <span class="icone-resumo-floracao">
                         🌸
@@ -278,7 +284,14 @@
 
                     </div>
 
-                </article>
+                    <span
+                        class="indicador-expansao-floracoes"
+                        aria-hidden="true"
+                    >
+                        ＋
+                    </span>
+
+                </button>
 
                 <article class="cartao-resumo-floracao status-proximo">
 
@@ -322,7 +335,11 @@
 
             </div>
 
-            <div class="lista-floracoes-mensal">
+            <div
+                id="lista-floracoes-mensal"
+                class="lista-floracoes-mensal"
+                hidden
+            >
 
                 <div class="cabecalho-lista-floracoes">
 
