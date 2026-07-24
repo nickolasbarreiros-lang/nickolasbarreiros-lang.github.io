@@ -13,6 +13,7 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     regiao: "Áreas interiores do Sudeste e Centro-Oeste do Brasil",
     habitat: "Matas secas e afloramentos rochosos, muitas vezes sobre árvores expostas e com forte ventilação.",
     clima: "Quente a intermediário, com período mais seco e noites amenas.",
+    climaFloracao: "A floração é favorecida por muita luz, excelente ventilação, raízes que sequem rapidamente e noites um pouco mais frescas no outono e inverno. Excesso de água durante o amadurecimento dos pseudobulbos pode reduzir a floração.",
     iluminacao: "Luz filtrada intensa, com sol fraco da manhã.",
     floracao: "Floresce principalmente no outono e inverno, normalmente em brotações especiais sem folhas.",
     adubacao: "Adubação leve e frequente no crescimento; reduzir bastante após o amadurecimento dos pseudobulbos.",

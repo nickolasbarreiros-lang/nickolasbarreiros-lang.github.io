@@ -19,6 +19,7 @@ export const mediocalcarDecoratum = {
     regiao: "Florestas montanas da Papua-Nova Guiné e oeste da Nova Guiné",
     habitat: "Epífita em florestas úmidas de aproximadamente 900 a 2.500 metros de altitude.",
     clima: "Fresco a intermediário, com umidade elevada e pouca oscilação de secura.",
+    climaFloracao: "Floresce melhor com noites frescas, boa umidade do ar e ventilação constante. Em regiões quentes, mantenha no ponto mais fresco do orquidário e evite calor noturno prolongado.",
     iluminacao: "Sombra clara a luz filtrada média.",
     floracao: "Mais comum na primavera, podendo ocorrer também no outono quando as temperaturas caem.",
     adubacao: "Fertilizante equilibrado muito diluído, de 1/4 a 1/2 da dose, durante crescimento ativo. Evite acúmulo de sais.",

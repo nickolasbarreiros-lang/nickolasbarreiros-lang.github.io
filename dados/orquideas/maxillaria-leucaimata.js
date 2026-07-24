@@ -19,6 +19,7 @@ export const maxillariaLeucaimata = {
     regiao: "A confirmar após validação taxonômica",
     habitat: "Provavelmente epífita de floresta úmida, conforme o grupo de Maxillaria.",
     clima: "Intermediário, úmido e ventilado.",
+    climaFloracao: "A floração é favorecida por pseudobulbos maduros, boa luminosidade filtrada e noites mais frescas. Após o crescimento, uma redução moderada das regas ajuda a marcar o ciclo sem deixar os bulbos enrugarem.",
     iluminacao: "Luz filtrada média.",
     floracao: "Período ainda provisório, estimado entre inverno e primavera.",
     adubacao: "Adubo equilibrado diluído no crescimento ativo.",

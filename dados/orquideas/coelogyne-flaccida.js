@@ -13,6 +13,7 @@ export const coelogyneFlaccida = {
     regiao: "Índia, Nepal, Butão, Myanmar, Tailândia e regiões próximas",
     habitat: "Florestas montanas úmidas, como epífita ou litófita.",
     clima: "Intermediário a fresco.",
+    climaFloracao: "A floração é favorecida por noites mais frescas e leve redução das regas após o amadurecimento dos pseudobulbos. Evite calor abafado e umidade excessiva no período de repouso.",
     iluminacao: "Luz filtrada média a forte.",
     floracao: "Floresce com frequência no fim do inverno e na primavera.",
     adubacao: "Adubo equilibrado no crescimento; reduzir após a maturação.",

@@ -19,6 +19,7 @@ export const cattleyaSchilleriana = {
     regiao: "Mata Atlântica do Espírito Santo e áreas próximas",
     habitat: "Epífita em árvores de matas quentes e úmidas, geralmente com boa luminosidade e circulação de ar.",
     clima: "Quente a intermediário, úmido e muito ventilado.",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Luz filtrada forte, com sol suave no início da manhã.",
     floracao: "Primavera e início do verão.",
     adubacao: "Adubo equilibrado enquanto o novo pseudobulbo cresce. Após maturação, alternar adubo de floração. Bokashi mínimo e distante das raízes novas.",

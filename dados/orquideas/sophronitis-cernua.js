@@ -19,6 +19,7 @@ export const sophronitisCernua = {
     regiao: "Ampla distribuição no Sul e Sudeste do Brasil e áreas vizinhas",
     habitat: "Epífita ou rupícola em ambientes claros, úmidos e bem ventilados, desde áreas costeiras até formações interiores.",
     clima: "Quente a intermediário; geralmente mais tolerante ao calor que outras antigas Sophronitis.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Luz filtrada forte, com sol suave da manhã.",
     floracao: "Mais comum na primavera, podendo variar e repetir em cultivo.",
     adubacao: "Adubação foliar equilibrada e diluída a cada 7–15 dias no crescimento. Orgânico em dose muito pequena.",

@@ -19,6 +19,7 @@ export const phalaenopsisMannii = {
     regiao: "Índia, Nepal, Butão, Myanmar e áreas próximas",
     habitat: "Florestas tropicais e subtropicais, como epífita em áreas úmidas.",
     clima: "Quente a intermediário.",
+    climaFloracao: "A emissão da haste é estimulada por algumas semanas de noites ligeiramente mais frescas, sem frio intenso. Mantenha calor moderado durante o dia, boa ventilação e evite temperaturas noturnas muito baixas.",
     iluminacao: "Luz filtrada baixa a média.",
     floracao: "Principalmente entre primavera e verão.",
     adubacao: "Adubo equilibrado diluído durante o crescimento; reduzir no frio.",

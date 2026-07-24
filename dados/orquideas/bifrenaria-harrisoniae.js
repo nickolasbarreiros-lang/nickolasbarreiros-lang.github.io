@@ -13,6 +13,7 @@ export const bifrenariaHarrisoniae = {
     regiao: "Mata Atlântica do Sudeste",
     habitat: "Florestas serranas e encostas rochosas com boa luminosidade e ventilação.",
     clima: "Intermediário, com noites um pouco mais frescas.",
+    climaFloracao: "A floração é favorecida por pseudobulbos maduros, boa luminosidade filtrada e noites mais frescas. Após o crescimento, uma redução moderada das regas ajuda a marcar o ciclo sem deixar os bulbos enrugarem.",
     iluminacao: "Média a alta, com sol fraco da manhã.",
     floracao: "Final do inverno e primavera.",
     adubacao: "Adubação equilibrada no crescimento e reforço de fósforo e potássio antes da floração.",

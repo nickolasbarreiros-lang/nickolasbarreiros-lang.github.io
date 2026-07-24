@@ -13,6 +13,7 @@ export const aciantheraBragae = {
     regiao: "Sudeste do Brasil",
     habitat: "Ambientes florestais úmidos e sombreados, geralmente sobre ramos musgosos.",
     clima: "Intermediário, úmido e ventilado.",
+    climaFloracao: "Prefere clima intermediário a quente, úmido e bem ventilado, sem variações extremas. A estabilidade da umidade e uma leve queda de temperatura à noite favorecem florações regulares.",
     iluminacao: "Baixa a média, sempre filtrada.",
     floracao: "Mais comum entre primavera e verão, podendo variar em cultivo.",
     adubacao: "Foliar suave e frequente, usando cerca de um quarto da dose comercial.",

@@ -19,6 +19,7 @@ export const sophronitisWittigiana = {
     regiao: "Regiões serranas do Sudeste, especialmente Espírito Santo e Minas Gerais",
     habitat: "Epífita de florestas montanas úmidas, em locais ventilados e sujeitos a noites frescas.",
     clima: "Fresco a intermediário, com noites mais amenas e umidade elevada.",
+    climaFloracao: "Floresce melhor com noites frescas, boa umidade do ar e ventilação constante. Em regiões quentes, mantenha no ponto mais fresco do orquidário e evite calor noturno prolongado.",
     iluminacao: "Luz filtrada intensa, semelhante à usada para Cattleyas, evitando sol forte nas horas quentes.",
     floracao: "Principalmente do fim do inverno à primavera.",
     adubacao: "Adubo foliar equilibrado em baixa concentração durante o crescimento. Reduza a dose no frio. Bokashi ou outro orgânico apenas em quantidade mínima e sem encostar no rizoma.",

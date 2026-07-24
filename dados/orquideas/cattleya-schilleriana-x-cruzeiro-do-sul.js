@@ -13,6 +13,7 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
     regiao: "Produzido em cultivo",
     habitat: "Não possui habitat natural.",
     clima: "Quente.",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Média a alta.",
     floracao: "Pode ocorrer entre primavera e verão, após a maturação do crescimento.",
     adubacao: "Equilibrada durante o crescimento ativo.",

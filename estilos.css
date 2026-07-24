@@ -2899,6 +2899,11 @@ body {
     gap: 12px;
 }
 
+.card-clima-floracao-v2 {
+    border-color: #cfe0d3;
+    background: linear-gradient(135deg, #f5faf6 0%, #fbfdfb 100%);
+}
+
 .card-cultivo-v2 {
     display: grid;
     grid-template-columns: 42px minmax(0, 1fr);
@@ -2909,6 +2914,11 @@ body {
     background: #f8faf8;
     border: 1px solid #dce6de;
     border-radius: 13px;
+}
+
+.grade-cultivo-v2 > .card-cultivo-v2:last-child {
+    grid-column: 1 / -1;
+    min-height: 0;
 }
 
 .icone-card-v2 {

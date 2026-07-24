@@ -13,6 +13,7 @@ export const cattleyaLoddigesii = {
     regiao: "Sudeste e Centro-Sul da América do Sul",
     habitat: "Matas de galeria e florestas sazonais, em locais claros.",
     clima: "Intermediário a quente.",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Média a alta.",
     floracao: "Inverno e início da primavera.",
     adubacao: "Equilibrada no crescimento; reduzir no período mais frio.",

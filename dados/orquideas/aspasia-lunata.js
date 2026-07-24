@@ -13,6 +13,7 @@ export const aspasiaLunata = {
     regiao: "Mata Atlântica do Sudeste e Sul",
     habitat: "Florestas úmidas de baixa e média altitude, sobre árvores em meia-sombra.",
     clima: "Quente a intermediário.",
+    climaFloracao: "A floração é favorecida por boa luminosidade filtrada, crescimento vigoroso e noites um pouco mais frescas após o amadurecimento dos pseudobulbos. Evite sombra excessiva e encharcamento prolongado.",
     iluminacao: "Média, com luz filtrada intensa e pouco sol suave da manhã.",
     floracao: "Predominantemente na primavera e início do verão.",
     adubacao: "NPK equilibrado durante o crescimento; alternar com formulação de floração antes da emissão das hastes.",

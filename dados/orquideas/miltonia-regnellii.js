@@ -19,6 +19,7 @@ export const miltoniaRegnellii = {
     regiao: "Sul e Sudeste",
     habitat: "Epífita de florestas úmidas e luminosas.",
     clima: "Intermediário.",
+    climaFloracao: "A floração é favorecida por crescimento vigoroso, iluminação adequada, boa ventilação e leve diferença entre as temperaturas do dia e da noite. Evite extremos de calor, frio ou umidade durante a formação dos botões.",
     iluminacao: "Luz filtrada média a alta.",
     floracao: "Principalmente no fim do inverno e na primavera.",
     adubacao: "Adubo equilibrado diluído na brotação e maturação dos pseudobulbos.",

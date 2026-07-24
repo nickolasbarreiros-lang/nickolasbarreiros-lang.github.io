@@ -13,6 +13,7 @@ export const aciantheraAveniformis = {
     regiao: "Mata Atlântica do Sul e Sudeste do Brasil",
     habitat: "Florestas úmidas, sobre troncos com musgos e boa circulação de ar.",
     clima: "Intermediário a fresco, úmido e bem ventilado.",
+    climaFloracao: "A floração é favorecida por clima intermediário, noites frescas, alta umidade e ventilação constante. No litoral, mantenha em posição sombreada e fresca, pois calor abafado pode interromper a formação dos botões.",
     iluminacao: "Sombra clara a luz filtrada, sem sol direto forte.",
     floracao: "Pode florescer do fim do inverno à primavera, variando conforme o microclima.",
     adubacao: "Adubo foliar bem diluído a cada 10 a 15 dias durante o crescimento; reduzir no inverno.",

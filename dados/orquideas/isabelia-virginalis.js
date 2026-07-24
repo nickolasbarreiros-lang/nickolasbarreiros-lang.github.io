@@ -13,6 +13,7 @@ export const isabeliaVirginalis = {
     regiao: "Mata Atlântica do Sul e Sudeste",
     habitat: "Florestas úmidas e frescas, sobre galhos cobertos por musgo.",
     clima: "Intermediário a fresco.",
+    climaFloracao: "Floresce melhor com noites frescas, boa umidade do ar e ventilação constante. Em regiões quentes, mantenha no ponto mais fresco do orquidário e evite calor noturno prolongado.",
     iluminacao: "Sombra clara a luz filtrada baixa.",
     floracao: "Normalmente floresce do inverno à primavera.",
     adubacao: "Adubo foliar muito diluído durante o crescimento.",

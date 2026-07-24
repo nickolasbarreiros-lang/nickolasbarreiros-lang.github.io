@@ -19,6 +19,7 @@ export const maxillariaSubulata = {
     regiao: "América Central e/ou América do Sul conforme a população cultivada",
     habitat: "Florestas úmidas, como epífita em locais sombreados e ventilados.",
     clima: "Quente a intermediário.",
+    climaFloracao: "A floração é favorecida por pseudobulbos maduros, boa luminosidade filtrada e noites mais frescas. Após o crescimento, uma redução moderada das regas ajuda a marcar o ciclo sem deixar os bulbos enrugarem.",
     iluminacao: "Luz filtrada baixa a média.",
     floracao: "Variável, frequentemente entre primavera e verão.",
     adubacao: "Adubo equilibrado bem diluído durante crescimento ativo.",

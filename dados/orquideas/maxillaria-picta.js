@@ -19,6 +19,7 @@ export const maxillariaPicta = {
     regiao: "Sul e Sudeste do Brasil",
     habitat: "Florestas úmidas de altitude, como epífita.",
     clima: "Intermediário a fresco.",
+    climaFloracao: "A floração é favorecida por pseudobulbos maduros, boa luminosidade filtrada e noites mais frescas. Após o crescimento, uma redução moderada das regas ajuda a marcar o ciclo sem deixar os bulbos enrugarem.",
     iluminacao: "Luz filtrada média a alta, sem sol forte.",
     floracao: "Principalmente no inverno e início da primavera.",
     adubacao: "Adubo equilibrado diluído na fase de crescimento; reduzir no inverno.",

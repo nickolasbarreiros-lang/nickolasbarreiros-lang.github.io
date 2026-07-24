@@ -19,6 +19,7 @@ export const dendrobiumAggregatum = {
     regiao: "Do Himalaia oriental à Indochina",
     habitat: "Epífita em florestas sazonais, com inverno mais seco e luminoso.",
     clima: "Intermediário, tolerando calor no crescimento.",
+    climaFloracao: "Precisa de pseudobulbos maduros, noites mais frescas e redução das regas no outono e inverno. Calor constante com adubação rica em nitrogênio tende a produzir brotos ou keikis em vez de flores.",
     iluminacao: "Luz filtrada intensa e sol suave.",
     floracao: "Fim do inverno e primavera, após repouso seco.",
     adubacao: "Adubar regularmente da brotação até o amadurecimento. Interromper adubação nitrogenada durante o repouso.",

@@ -13,6 +13,7 @@ export const cattleyaGuttataVarCoerulea = {
     regiao: "Mata Atlântica litorânea do Sudeste",
     habitat: "Restingas e florestas costeiras quentes, claras e ventiladas.",
     clima: "Quente.",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Alta, com sol suave direto.",
     floracao: "Outono, após a maturação dos pseudobulbos.",
     adubacao: "Forte no crescimento, reduzindo após a maturação.",

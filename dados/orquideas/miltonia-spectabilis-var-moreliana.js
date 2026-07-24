@@ -19,6 +19,7 @@ export const miltoniaSpectabilisVarMoreliana = {
     regiao: "Mata Atlântica do Sudeste",
     habitat: "Epífita em florestas úmidas, quentes a intermediárias.",
     clima: "Quente a intermediário.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Luz filtrada média.",
     floracao: "Mais frequente entre fim do verão e outono.",
     adubacao: "Adubo equilibrado diluído durante a emissão de brotos e raízes.",

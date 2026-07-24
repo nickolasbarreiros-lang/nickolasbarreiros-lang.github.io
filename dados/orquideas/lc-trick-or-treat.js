@@ -19,6 +19,7 @@ export const lcTrickOrTreat = {
     regiao: "Desenvolvido em cultivo; sem distribuição natural",
     habitat: "Não possui habitat natural. Reúne características de espécies epífitas de florestas tropicais americanas.",
     clima: "Quente a intermediário, com boa ventilação.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Luz filtrada alta, com sol fraco da manhã.",
     floracao: "Geralmente entre outono e primavera, variando conforme o clone e o cultivo.",
     adubacao: "Adubo equilibrado diluído semanalmente no crescimento; reduzir quando os pseudobulbos amadurecerem.",

@@ -13,6 +13,7 @@ export const bulbophyllumSikkimense = {
     regiao: "Himalaia oriental e áreas próximas",
     habitat: "Florestas montanas úmidas.",
     clima: "Intermediário a fresco.",
+    climaFloracao: "Floresce melhor em ambiente quente a intermediário, com umidade elevada, raízes sempre arejadas e pequena diferença entre dia e noite. Evite ressecamento prolongado e calor abafado sem circulação de ar.",
     iluminacao: "Sombra clara, com alta umidade.",
     floracao: "Frequentemente no outono e inverno.",
     adubacao: "Fraca durante o crescimento; reduzir em períodos frios.",

@@ -19,6 +19,7 @@ export const ludisiaDiscolor = {
     regiao: "China meridional e Sudeste Asiático",
     habitat: "Solo rico em matéria orgânica no sub-bosque úmido e sombreado.",
     clima: "Quente a intermediário, úmido.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Sombra clara ou luz filtrada baixa.",
     floracao: "Mais comum entre outono e inverno.",
     adubacao: "Adubo equilibrado bem diluído, alternado com matéria orgânica leve e estabilizada.",

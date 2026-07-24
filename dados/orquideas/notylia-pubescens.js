@@ -19,6 +19,7 @@ export const notyliaPubescens = {
     regiao: "Brasil e outras áreas tropicais americanas",
     habitat: "Florestas úmidas, em troncos e ramos sombreados.",
     clima: "Quente a intermediário, úmido.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Luz filtrada baixa a média.",
     floracao: "Pode florescer entre primavera e verão.",
     adubacao: "Adubo equilibrado muito diluído durante o crescimento.",

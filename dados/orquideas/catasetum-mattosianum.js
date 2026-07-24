@@ -13,6 +13,7 @@ export const catasetumMattosianum = {
     regiao: "Brasil central e áreas sazonais",
     habitat: "Florestas estacionais e ambientes com estação seca definida.",
     clima: "Quente.",
+    climaFloracao: "A floração ocorre após crescimento vigoroso em clima quente, úmido e muito iluminado. Quando as folhas amarelecem e caem, reduza as regas para respeitar o repouso; o contraste entre crescimento chuvoso e dormência seca favorece o ciclo floral.",
     iluminacao: "Alta no crescimento, com sol filtrado forte.",
     floracao: "Verão ao início do outono, geralmente próximo da maturação do pseudobulbo.",
     adubacao: "Forte durante crescimento ativo, reduzindo e suspendendo quando as folhas amarelecem.",

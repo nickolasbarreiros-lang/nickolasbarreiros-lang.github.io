@@ -19,6 +19,7 @@ export const dendrobiumMoscatum = {
     regiao: "Himalaia, Índia, Indochina e regiões próximas",
     habitat: "Florestas monçônicas sazonais, como epífita em áreas claras.",
     clima: "Quente a intermediário.",
+    climaFloracao: "A floração é favorecida pela maturação completa dos pseudobulbos, noites mais frescas e uma redução moderada das regas. Retome água e adubação quando os novos brotos aparecerem.",
     iluminacao: "Luz filtrada forte.",
     floracao: "Primavera e início do verão.",
     adubacao: "Adubo equilibrado durante crescimento rápido das canas. Reduzir após maturação e durante repouso.",

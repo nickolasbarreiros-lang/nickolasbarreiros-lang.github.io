@@ -13,6 +13,7 @@ export const jacquiniellaGlobosa = {
     regiao: "América Central, Caribe e norte da América do Sul",
     habitat: "Florestas úmidas, em ramos finos e bem ventilados.",
     clima: "Quente a intermediário, úmido.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Sombra clara a luz filtrada média.",
     floracao: "Pode florescer em diferentes épocas, principalmente na estação úmida.",
     adubacao: "Adubo foliar muito diluído a cada 10–15 dias.",

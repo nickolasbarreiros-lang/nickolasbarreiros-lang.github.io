@@ -19,6 +19,7 @@ export const spathoglottisPlicata = {
     regiao: "Do Sudeste Asiático à Oceania",
     habitat: "Áreas abertas, úmidas e ensolaradas, bordas de mata e solos bem drenados.",
     clima: "Quente e úmido.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Sol suave a luz filtrada intensa.",
     floracao: "Pode florescer grande parte do ano, com pico na primavera e verão.",
     adubacao: "Adubo equilibrado regularmente. Bokashi ou Osmocote podem ser usados em doses moderadas, respeitando o tamanho do vaso.",

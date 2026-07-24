@@ -19,6 +19,7 @@ export const leptotesUnicolor = {
     regiao: "Sul e Sudeste do Brasil",
     habitat: "Epífita em florestas úmidas e bem ventiladas, frequentemente em ramos finos.",
     clima: "Intermediário, úmido e ventilado.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Luz filtrada média a alta.",
     floracao: "Principalmente no fim do inverno e na primavera.",
     adubacao: "Adubo equilibrado muito diluído durante o crescimento, aplicado com frequência baixa.",

@@ -18,6 +18,7 @@ export const brassavolaPerrini = {
     regiao: "Sudeste e Sul do Brasil, além de áreas adjacentes",
     habitat: "Epífita em matas abertas, bordas de floresta e locais ventilados, por vezes sob luminosidade elevada",
     clima: "Intermediário a quente, tolerando variações quando bem ventilada",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Luz filtrada muito intensa; aceita sol fraco da manhã",
     floracao: "Mais frequente da primavera ao verão, podendo florescer em outros períodos",
     adubacao: "Adubo equilibrado e diluído durante o crescimento. Pode receber adubo de floração quando as brotações amadurecem. Bokashi ou Osmocote em dose pequena.",

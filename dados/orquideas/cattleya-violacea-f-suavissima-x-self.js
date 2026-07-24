@@ -18,6 +18,7 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     regiao: "Ancestral nativo da Bacia Amazônica",
     habitat: "Em natureza, a espécie cresce como epífita em florestas quentes e úmidas, sob luz forte filtrada",
     clima: "Quente e úmido, sem noites frias prolongadas",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Luz filtrada intensa",
     floracao: "Primavera e verão, eventualmente em outros meses sob cultivo quente",
     adubacao: "Adubação foliar equilibrada em baixa concentração durante o ano, mais frequente durante brotação e enraizamento. Adubo orgânico apenas em pequena dose.",

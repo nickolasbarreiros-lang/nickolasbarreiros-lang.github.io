@@ -19,6 +19,7 @@ export const gomesaRecurva = {
     regiao: "Mata Atlântica do Sul e Sudeste",
     habitat: "Epífita em florestas claras e úmidas.",
     clima: "Intermediário a fresco.",
+    climaFloracao: "Floresce melhor com noites frescas, boa umidade do ar e ventilação constante. Em regiões quentes, mantenha no ponto mais fresco do orquidário e evite calor noturno prolongado.",
     iluminacao: "Luz filtrada média a intensa.",
     floracao: "Outono e inverno.",
     adubacao: "Adubo equilibrado em baixa concentração durante novos brotos; reduzir após amadurecimento.",

@@ -19,6 +19,7 @@ export const bulbophyllumRothschildianum = {
     regiao: "Nordeste da Índia e áreas adjacentes",
     habitat: "Florestas úmidas montanas, como epífita em locais sombreados e ventilados.",
     clima: "Intermediário a fresco, úmido.",
+    climaFloracao: "Floresce melhor em ambiente quente a intermediário, com umidade elevada, raízes sempre arejadas e pequena diferença entre dia e noite. Evite ressecamento prolongado e calor abafado sem circulação de ar.",
     iluminacao: "Luz filtrada média, sem sol direto forte.",
     floracao: "Geralmente outono e inverno, variando conforme o cultivo.",
     adubacao: "Adubo equilibrado diluído durante crescimento ativo, com lavagens periódicas do substrato.",

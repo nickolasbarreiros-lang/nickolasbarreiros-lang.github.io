@@ -19,6 +19,7 @@ export const neobenthamiaGracilis = {
     regiao: "Tanzânia",
     habitat: "Áreas abertas e úmidas, bordas de mata e encostas.",
     clima: "Quente a intermediário.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Luz filtrada alta ou sol fraco da manhã.",
     floracao: "Mais comum no verão e início do outono.",
     adubacao: "Adubação equilibrada regular; aceita matéria orgânica bem curtida em pequena quantidade.",

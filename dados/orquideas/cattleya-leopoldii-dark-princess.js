@@ -13,6 +13,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
     regiao: "Mata Atlântica do Sul e Sudeste",
     habitat: "Florestas costeiras e vales quentes, em árvores altas e bem iluminadas.",
     clima: "Quente a intermediário.",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Alta.",
     floracao: "Verão.",
     adubacao: "Forte durante o crescimento dos novos pseudobulbos.",

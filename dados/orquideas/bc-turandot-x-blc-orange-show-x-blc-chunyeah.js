@@ -13,6 +13,7 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     regiao: "Produzido em cultivo",
     habitat: "Não possui habitat natural.",
     clima: "Quente a intermediário.",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Média a alta, com sol suave da manhã.",
     floracao: "Pode florescer em diferentes épocas após a maturação de novos pseudobulbos.",
     adubacao: "Equilibrada no crescimento e formulação de floração quando o pseudobulbo estiver amadurecendo.",

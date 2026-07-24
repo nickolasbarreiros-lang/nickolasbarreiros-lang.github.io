@@ -19,6 +19,7 @@ export const octomeriaDiaphana = {
     regiao: "Mata Atlântica",
     habitat: "Troncos e ramos em florestas úmidas e sombreadas.",
     clima: "Intermediário, úmido.",
+    climaFloracao: "Prefere clima intermediário a quente, úmido e bem ventilado, sem variações extremas. A estabilidade da umidade e uma leve queda de temperatura à noite favorecem florações regulares.",
     iluminacao: "Luz filtrada baixa a média.",
     floracao: "Pode florescer em diferentes épocas, sobretudo entre inverno e primavera.",
     adubacao: "Adubo muito diluído, aplicado esporadicamente.",

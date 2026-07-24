@@ -19,6 +19,7 @@ export const trichocentrumFuscum = {
     regiao: "América Central, Caribe ou norte da América do Sul, conforme a circunscrição adotada",
     habitat: "Florestas sazonais e ambientes epífitos luminosos e ventilados.",
     clima: "Quente a intermediário.",
+    climaFloracao: "A floração é favorecida por boa luminosidade filtrada, crescimento vigoroso e noites um pouco mais frescas após o amadurecimento dos pseudobulbos. Evite sombra excessiva e encharcamento prolongado.",
     iluminacao: "Luz filtrada alta.",
     floracao: "Geralmente entre primavera e verão.",
     adubacao: "Adubo equilibrado diluído durante o crescimento, com menor frequência no frio.",

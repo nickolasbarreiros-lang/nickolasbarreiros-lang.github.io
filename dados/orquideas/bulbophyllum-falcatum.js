@@ -13,6 +13,7 @@ export const bulbophyllumFalcatum = {
     regiao: "África Ocidental e Central",
     habitat: "Florestas tropicais úmidas, em baixa e média altitude.",
     clima: "Quente a intermediário.",
+    climaFloracao: "Floresce melhor em ambiente quente a intermediário, com umidade elevada, raízes sempre arejadas e pequena diferença entre dia e noite. Evite ressecamento prolongado e calor abafado sem circulação de ar.",
     iluminacao: "Baixa a média.",
     floracao: "Mais comum na primavera e verão.",
     adubacao: "Frequente e diluída durante o crescimento.",

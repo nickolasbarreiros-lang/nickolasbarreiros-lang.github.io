@@ -13,6 +13,7 @@ export const bulbophyllumMiniatum = {
     regiao: "Sudeste Asiático",
     habitat: "Florestas úmidas de baixa a média altitude.",
     clima: "Quente a intermediário.",
+    climaFloracao: "Floresce melhor em ambiente quente a intermediário, com umidade elevada, raízes sempre arejadas e pequena diferença entre dia e noite. Evite ressecamento prolongado e calor abafado sem circulação de ar.",
     iluminacao: "Filtrada, de baixa a média intensidade.",
     floracao: "Primavera e verão, podendo variar.",
     adubacao: "Adubo balanceado em baixa concentração durante o crescimento.",

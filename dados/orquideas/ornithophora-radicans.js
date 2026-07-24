@@ -18,6 +18,7 @@ export const ornithophoraRadicans = {
     regiao: "Mata Atlântica do Sudeste e Sul",
     habitat: "Epífita em matas úmidas, geralmente em galhos finos e bem ventilados",
     clima: "Intermediário a quente, úmido e ventilado",
+    climaFloracao: "A floração é favorecida por boa luminosidade filtrada, crescimento vigoroso e noites um pouco mais frescas após o amadurecimento dos pseudobulbos. Evite sombra excessiva e encharcamento prolongado.",
     iluminacao: "Luz filtrada moderada, sem sol forte direto",
     floracao: "Principalmente primavera e verão",
     adubacao: "Use adubo foliar equilibrado em concentração baixa, pois as raízes são finas. Adubos orgânicos devem ser aplicados com muita moderação.",

@@ -13,6 +13,7 @@ export const laeliaLundii = {
     regiao: "Sul, Sudeste e áreas interiores da América do Sul",
     habitat: "Matas sazonais, sobre ramos finos em locais claros.",
     clima: "Intermediário, com inverno mais seco.",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Luz filtrada média a forte.",
     floracao: "Floresce do fim do inverno à primavera.",
     adubacao: "Adubo equilibrado diluído no crescimento; reduzir no repouso.",

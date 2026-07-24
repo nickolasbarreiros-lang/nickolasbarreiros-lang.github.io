@@ -13,6 +13,7 @@ export const cattleyaAclandiaeTipo = {
     regiao: "Bahia",
     habitat: "Florestas quentes e sazonais, frequentemente em árvores expostas e bem ventiladas.",
     clima: "Quente.",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Alta, com sol filtrado e algumas horas de sol fraco.",
     floracao: "Primavera e verão.",
     adubacao: "Regular no crescimento; reduzir quando os pseudobulbos amadurecerem.",

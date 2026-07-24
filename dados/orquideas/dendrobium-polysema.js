@@ -22,6 +22,7 @@ export const dendrobiumPolysema = {
     regiao: "Florestas tropicais úmidas",
     habitat: "Epífita sobre troncos e galhos de árvores",
     clima: "Quente e úmido",
+    climaFloracao: "Floresce melhor após pseudobulbos bem formados, com boa luminosidade e diferença moderada entre as temperaturas do dia e da noite. Evite excesso de nitrogênio perto da época de indução floral.",
     iluminacao: "Luz filtrada intensa",
     floracao: "Final do inverno e primavera",
     adubacao: "Utilize NPK equilibrado durante o crescimento das novas canas. Depois do amadurecimento, alterne com adubo de floração em baixa concentração. A aplicação pode ser feita a cada 15 dias.",

@@ -18,6 +18,7 @@ export const encycliaBracteata = {
     regiao: "Nordeste e Sudeste do Brasil, em ambientes sazonais",
     habitat: "Epífita em matas abertas e áreas com períodos de menor disponibilidade de água",
     clima: "Quente a intermediário, com boa ventilação",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Luz filtrada intensa, podendo receber sol suave da manhã",
     floracao: "Mais frequente da primavera ao verão",
     adubacao: "Use adubo equilibrado na brotação e formação dos pseudobulbos; depois alterne com fórmula de floração. Adubo orgânico em dose pequena e afastado das raízes.",

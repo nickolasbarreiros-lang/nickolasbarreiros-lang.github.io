@@ -19,6 +19,7 @@ export const sophronitisCernuaVarLitoranea = {
     regiao: "Faixa litorânea e restingas do Sudeste e Sul",
     habitat: "Epífita em vegetação costeira clara, sob alta umidade, vento e rápida drenagem.",
     clima: "Quente a intermediário e úmido.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Luz intensa filtrada e algumas horas de sol fraco.",
     floracao: "Primavera e início do verão.",
     adubacao: "Adubo equilibrado diluído no período de brotação; reduza quando o crescimento estiver maduro. Orgânico mínimo.",

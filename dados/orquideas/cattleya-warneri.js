@@ -13,6 +13,7 @@ export const cattleyaWarneri = {
     regiao: "Espírito Santo e Minas Gerais",
     habitat: "Mata Atlântica de encostas e vales, em árvores com boa luminosidade e circulação de ar.",
     clima: "Intermediário a quente.",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Média a alta, com sol suave da manhã.",
     floracao: "Primavera, especialmente entre setembro e novembro.",
     adubacao: "Equilibrada no crescimento; reforço moderado de fósforo e potássio na maturação.",

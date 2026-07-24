@@ -13,6 +13,7 @@ export const cattleyaABrazilianDream = {
     regiao: "Origem de cultivo; não ocorre naturalmente",
     habitat: "Não possui habitat natural. Foi selecionada em cultivo a partir de espécies de Cattleya.",
     clima: "Quente a intermediário, com noites mais amenas e boa ventilação.",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Luz filtrada forte, equivalente a 50–60% de sombreamento.",
     floracao: "Geralmente floresce uma vez ao ano em hastes terminais, após a maturação do pseudobulbo.",
     adubacao: "Adubo foliar equilibrado e diluído a cada 7–15 dias no crescimento; reduzir quando o pseudobulbo estiver maduro.",

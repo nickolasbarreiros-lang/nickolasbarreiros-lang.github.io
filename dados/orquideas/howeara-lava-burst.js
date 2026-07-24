@@ -13,6 +13,7 @@ export const howearaLavaBurst = {
     regiao: "Origem de cultivo",
     habitat: "Não possui habitat natural.",
     clima: "Intermediário, tolerando calor moderado.",
+    climaFloracao: "A floração é favorecida por crescimento vigoroso, iluminação adequada, boa ventilação e leve diferença entre as temperaturas do dia e da noite. Evite extremos de calor, frio ou umidade durante a formação dos botões.",
     iluminacao: "Luz filtrada média.",
     floracao: "Pode florescer mais de uma vez ao ano quando forma novos pseudobulbos.",
     adubacao: "Adubo equilibrado diluído a cada 7–15 dias.",

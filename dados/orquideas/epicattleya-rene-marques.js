@@ -13,6 +13,7 @@ export const epicattleyaReneMarques = {
     regiao: "Origem de cultivo",
     habitat: "Não possui habitat natural.",
     clima: "Quente a intermediário.",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Luz filtrada forte, com sol suave da manhã.",
     floracao: "Pode florescer uma ou mais vezes ao ano, após a maturação dos brotos.",
     adubacao: "Adubo equilibrado durante todo o crescimento, em baixa concentração.",

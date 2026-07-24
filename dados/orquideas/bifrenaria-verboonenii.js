@@ -22,6 +22,7 @@ export const bifrenariaVerboonenii = {
     regiao: "Mata Atlântica brasileira",
     habitat: "Epífita em ambientes úmidos e bem ventilados",
     clima: "Quente a ameno e úmido",
+    climaFloracao: "A floração é favorecida por pseudobulbos maduros, boa luminosidade filtrada e noites mais frescas. Após o crescimento, uma redução moderada das regas ajuda a marcar o ciclo sem deixar os bulbos enrugarem.",
     iluminacao: "Luz filtrada intensa",
     floracao: "Primavera e verão",
     adubacao: "Utilize NPK equilibrado durante o desenvolvimento dos novos pseudobulbos. Quando estiverem maduros, alterne com adubo de floração. A adubação orgânica deve ser leve e mantida longe das raízes.",

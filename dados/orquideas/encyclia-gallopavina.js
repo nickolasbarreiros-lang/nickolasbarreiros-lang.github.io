@@ -13,6 +13,7 @@ export const encycliaGallopavina = {
     regiao: "México, América Central e áreas do norte da América do Sul",
     habitat: "Florestas sazonais, em locais claros e ventilados.",
     clima: "Quente a intermediário, com estação mais seca.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Luz filtrada forte.",
     floracao: "Geralmente floresce na primavera e no verão.",
     adubacao: "Adubo equilibrado no crescimento; reduzir após a maturação.",

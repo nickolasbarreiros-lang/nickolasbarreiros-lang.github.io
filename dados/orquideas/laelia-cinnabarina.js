@@ -13,6 +13,7 @@ export const laeliaCinnabarina = {
     regiao: "Serras de Minas Gerais e áreas próximas",
     habitat: "Afloramentos rochosos ensolarados, com raízes em fendas e matéria orgânica escassa.",
     clima: "Intermediário, com forte ventilação e noites amenas.",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Luz filtrada muito forte, aceitando sol suave.",
     floracao: "Floresce principalmente na primavera e início do verão.",
     adubacao: "Adubo diluído no crescimento, evitando excesso de sais.",

@@ -13,6 +13,7 @@ export const cattleyaLueddemannianaTipo = {
     regiao: "Cordilheira costeira venezuelana",
     habitat: "Florestas sazonais em altitudes baixas a médias.",
     clima: "Quente a intermediário.",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Média a alta.",
     floracao: "Fim do inverno e primavera em seu ciclo de cultivo.",
     adubacao: "Regular no crescimento; reduzir após o amadurecimento do pseudobulbo.",

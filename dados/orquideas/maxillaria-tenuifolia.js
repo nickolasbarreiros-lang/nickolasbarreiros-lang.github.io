@@ -19,6 +19,7 @@ export const maxillariaTenuifolia = {
     regiao: "Do México à América Central",
     habitat: "Epífita ou terrestre em florestas sazonais, geralmente em locais claros.",
     clima: "Quente a intermediário.",
+    climaFloracao: "A floração é favorecida por pseudobulbos maduros, boa luminosidade filtrada e noites mais frescas. Após o crescimento, uma redução moderada das regas ajuda a marcar o ciclo sem deixar os bulbos enrugarem.",
     iluminacao: "Luz filtrada média a intensa.",
     floracao: "Primavera e início do verão.",
     adubacao: "Adubo equilibrado durante brotação e formação de pseudobulbos. Bokashi leve pode ser usado em vasos.",

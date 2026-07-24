@@ -19,6 +19,7 @@ export const speckliniaGrobyi = {
     regiao: "Do México à América do Sul e Caribe, em sentido amplo",
     habitat: "Florestas úmidas, sobre troncos e ramos sombreados.",
     clima: "Quente a intermediário, úmido.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Luz filtrada baixa a média.",
     floracao: "Pode florescer em vários períodos ao longo do ano.",
     adubacao: "Adubo muito diluído, aplicado ocasionalmente.",

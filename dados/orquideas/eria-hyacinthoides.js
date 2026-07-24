@@ -19,6 +19,7 @@ export const eriaHyacinthoides = {
     regiao: "Regiões tropicais e subtropicais da Ásia",
     habitat: "Epífita de florestas úmidas, em altitudes baixas a médias.",
     clima: "Quente a intermediário.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Luz filtrada média.",
     floracao: "Primavera e verão.",
     adubacao: "Adubo equilibrado em baixa dose durante crescimento, com lavagem mensal do substrato.",

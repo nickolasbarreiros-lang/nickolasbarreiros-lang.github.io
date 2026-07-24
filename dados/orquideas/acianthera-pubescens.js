@@ -13,6 +13,7 @@ export const aciantheraPubescens = {
     regiao: "Mata Atlântica, principalmente Sul e Sudeste",
     habitat: "Florestas úmidas, em locais sombreados e ventilados.",
     clima: "Intermediário a fresco.",
+    climaFloracao: "A floração é favorecida por clima intermediário, noites frescas, alta umidade e ventilação constante. No litoral, mantenha em posição sombreada e fresca, pois calor abafado pode interromper a formação dos botões.",
     iluminacao: "Sombra clara, semelhante à de Phalaenopsis, com boa ventilação.",
     floracao: "Geralmente do inverno à primavera.",
     adubacao: "Adubação foliar fraca a cada duas semanas; lavar o substrato mensalmente.",

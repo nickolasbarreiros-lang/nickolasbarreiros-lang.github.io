@@ -612,6 +612,28 @@ if (!orquidea) {
 
                 </article>
 
+                <article class="card-cultivo-v2 card-clima-floracao-v2">
+
+                    <div class="icone-card-v2">
+                        🌡️
+                    </div>
+
+                    <div>
+                        <h4>
+                            Clima para floração
+                        </h4>
+
+                        <p>
+                            ${obterTexto(
+                                orquidea.climaFloracao,
+                                orquidea.clima ||
+                                "Condições específicas de floração ainda não cadastradas."
+                            )}
+                        </p>
+                    </div>
+
+                </article>
+
                 <article class="card-cultivo-v2">
 
                     <div class="icone-card-v2">

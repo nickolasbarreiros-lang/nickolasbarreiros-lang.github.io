@@ -13,6 +13,7 @@ export const bulbophyllumAmbrosia = {
     regiao: "Sul da China e Indochina",
     habitat: "Florestas úmidas em baixa e média altitude.",
     clima: "Quente a intermediário.",
+    climaFloracao: "Floresce melhor em ambiente quente a intermediário, com umidade elevada, raízes sempre arejadas e pequena diferença entre dia e noite. Evite ressecamento prolongado e calor abafado sem circulação de ar.",
     iluminacao: "Baixa a média, filtrada.",
     floracao: "Mais frequente entre inverno e primavera.",
     adubacao: "Adubo fraco e contínuo durante crescimento ativo.",

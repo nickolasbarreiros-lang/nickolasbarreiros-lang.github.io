@@ -19,6 +19,7 @@ export const zygopetalumMackayi = {
     regiao: "Sudeste e Sul do Brasil",
     habitat: "Áreas úmidas e abertas, bordas de mata e campos de altitude, frequentemente em solo rico em matéria orgânica.",
     clima: "Intermediário a fresco, com boa amplitude térmica.",
+    climaFloracao: "Prefere clima intermediário, com noites frescas, umidade constante e boa circulação de ar. Em regiões litorâneas quentes, proteja do calor excessivo do verão e aproveite o frescor do outono e inverno para estimular as hastes.",
     iluminacao: "Meia-sombra clara, sem sol forte sobre as folhas.",
     floracao: "Principalmente inverno e primavera.",
     adubacao: "Adubo foliar equilibrado durante novos brotos; próximo à maturação, alternar formulação de floração. Bokashi em pequena quantidade na borda do vaso.",

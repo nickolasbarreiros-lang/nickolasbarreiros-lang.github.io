@@ -13,6 +13,7 @@ export const camaridiumCarinatum = {
     regiao: "América Central e norte da América do Sul",
     habitat: "Florestas úmidas de baixa e média altitude.",
     clima: "Quente a intermediário.",
+    climaFloracao: "A floração é favorecida por pseudobulbos maduros, boa luminosidade filtrada e noites mais frescas. Após o crescimento, uma redução moderada das regas ajuda a marcar o ciclo sem deixar os bulbos enrugarem.",
     iluminacao: "Média, filtrada.",
     floracao: "Primavera e verão.",
     adubacao: "Equilibrada durante o crescimento, em baixa concentração.",

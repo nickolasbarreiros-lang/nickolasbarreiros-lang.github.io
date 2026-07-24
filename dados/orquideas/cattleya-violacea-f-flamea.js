@@ -18,6 +18,7 @@ export const cattleyaViolaceaFFlamea = {
     regiao: "Bacia Amazônica",
     habitat: "Epífita em florestas quentes e úmidas, frequentemente próxima a rios, com boa luminosidade no alto das árvores",
     clima: "Quente e úmido durante todo o ano, evitando frio prolongado",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Luz filtrada intensa, com boa ventilação",
     floracao: "Mais comum na primavera e no verão, podendo variar em cultivo quente",
     adubacao: "Use adubo equilibrado e diluído durante todo o crescimento, com aplicações regulares. Bokashi ou Osmocote podem ser usados em dose pequena, pois o calor acelera a liberação de nutrientes.",

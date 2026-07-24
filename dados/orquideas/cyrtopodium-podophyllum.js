@@ -19,6 +19,7 @@ export const cyrtopodiumPodophyllum = {
     regiao: "Brasil e outras áreas tropicais da América do Sul",
     habitat: "Campos, cerrados e áreas abertas com estação seca marcada.",
     clima: "Quente, com estação seca definida.",
+    climaFloracao: "A floração é favorecida por um período mais seco após o amadurecimento dos pseudobulbos, acompanhado de noites ligeiramente mais frescas. Reduza as regas sem permitir desidratação severa.",
     iluminacao: "Luz muito intensa ou sol direto gradual.",
     floracao: "Fim do inverno e primavera, associada ao retorno do crescimento.",
     adubacao: "Adubar bem durante a brotação e expansão das folhas. Suspender no repouso sem folhas.",

@@ -13,6 +13,7 @@ export const coelogyneCristata = {
     regiao: "Nepal, Índia, Butão e regiões próximas",
     habitat: "Florestas montanas e rochas musgosas em altitudes elevadas.",
     clima: "Fresco a frio, com inverno seco e noites frias.",
+    climaFloracao: "Precisa de noites frias e de um período mais seco no outono e inverno para induzir as hastes. Em clima quente, a floração melhora quando recebe forte queda de temperatura noturna sem desidratar os pseudobulbos.",
     iluminacao: "Luz filtrada forte, evitando sol quente.",
     floracao: "Floresce no inverno e início da primavera após um período mais frio e seco.",
     adubacao: "Adubar durante a brotação e formação dos pseudobulbos; suspender ou reduzir fortemente no repouso.",

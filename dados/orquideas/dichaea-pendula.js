@@ -13,6 +13,7 @@ export const dichaeaPendula = {
     regiao: "Brasil e outros países da América Central e do Sul",
     habitat: "Florestas úmidas e sombreadas, em galhos com musgos.",
     clima: "Intermediário a quente, úmido e ventilado.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Sombra clara a luz filtrada baixa.",
     floracao: "Pode florescer em diferentes épocas, especialmente nos meses mais quentes e úmidos.",
     adubacao: "Adubo foliar muito diluído a cada 10–15 dias.",

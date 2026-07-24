@@ -13,6 +13,7 @@ export const bulbophyllumElassonotum = {
     regiao: "Sudeste Asiático",
     habitat: "Florestas úmidas, em ramos cobertos por musgo.",
     clima: "Quente a intermediário e úmido.",
+    climaFloracao: "Floresce melhor em ambiente quente a intermediário, com umidade elevada, raízes sempre arejadas e pequena diferença entre dia e noite. Evite ressecamento prolongado e calor abafado sem circulação de ar.",
     iluminacao: "Sombra clara.",
     floracao: "Pode florescer entre primavera e verão.",
     adubacao: "Dose baixa a cada 10 a 15 dias no crescimento.",

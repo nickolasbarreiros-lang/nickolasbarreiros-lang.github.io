@@ -13,6 +13,7 @@ export const bulbophyllumBuffo = {
     regiao: "Híbrido produzido em cultivo",
     habitat: "Não possui habitat natural; reúne características de espécies parentais do gênero.",
     clima: "Quente a intermediário.",
+    climaFloracao: "Floresce melhor em ambiente quente a intermediário, com umidade elevada, raízes sempre arejadas e pequena diferença entre dia e noite. Evite ressecamento prolongado e calor abafado sem circulação de ar.",
     iluminacao: "Baixa a média, com luz filtrada.",
     floracao: "Pode ocorrer em diferentes épocas, com maior frequência em períodos quentes e úmidos.",
     adubacao: "Adubação fraca e regular durante todo o crescimento.",

@@ -13,6 +13,7 @@ export const cattleyaIntermedia = {
     regiao: "Sul e Sudeste do Brasil e áreas vizinhas",
     habitat: "Matas ciliares, restingas e florestas abertas com boa luminosidade.",
     clima: "Intermediário a quente.",
+    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
     iluminacao: "Média a alta.",
     floracao: "Fim do inverno e primavera.",
     adubacao: "Equilibrada no crescimento e manutenção regular em baixa dose.",

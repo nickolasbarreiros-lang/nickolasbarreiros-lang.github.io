@@ -13,6 +13,7 @@ export const coelogyneAsperata = {
     regiao: "Malásia, Bornéu, Sumatra, Filipinas e ilhas próximas",
     habitat: "Florestas tropicais úmidas de baixa a média altitude, como epífita ou litófita.",
     clima: "Quente a intermediário, úmido e ventilado.",
+    climaFloracao: "A floração é favorecida por noites mais frescas e leve redução das regas após o amadurecimento dos pseudobulbos. Evite calor abafado e umidade excessiva no período de repouso.",
     iluminacao: "Luz filtrada média a forte, sem sol intenso.",
     floracao: "Costuma florescer entre o fim do inverno e a primavera, a partir de brotações maduras.",
     adubacao: "Adubo equilibrado diluído semanalmente no crescimento; reduzir após a maturação dos pseudobulbos.",

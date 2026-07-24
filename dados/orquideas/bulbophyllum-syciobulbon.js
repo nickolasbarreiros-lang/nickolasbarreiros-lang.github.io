@@ -13,6 +13,7 @@ export const bulbophyllumSyciobulbon = {
     regiao: "Sudeste Asiático",
     habitat: "Florestas úmidas e sombreadas.",
     clima: "Quente a intermediário.",
+    climaFloracao: "Floresce melhor em ambiente quente a intermediário, com umidade elevada, raízes sempre arejadas e pequena diferença entre dia e noite. Evite ressecamento prolongado e calor abafado sem circulação de ar.",
     iluminacao: "Baixa a média.",
     floracao: "Mais comum durante meses quentes e úmidos.",
     adubacao: "Doses fracas e frequentes.",

@@ -19,6 +19,7 @@ export const lockhartiaLunifera = {
     regiao: "Brasil e países vizinhos, conforme a circunscrição taxonômica",
     habitat: "Florestas úmidas, sobre árvores, em locais luminosos e ventilados.",
     clima: "Quente a intermediário.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Luz filtrada média a alta.",
     floracao: "Pode florescer em mais de uma época, com concentração entre primavera e verão.",
     adubacao: "Adubação equilibrada e diluída durante o crescimento ativo.",

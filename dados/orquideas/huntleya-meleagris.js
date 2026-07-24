@@ -13,6 +13,7 @@ export const huntleyaMeleagris = {
     regiao: "América Central e norte da América do Sul",
     habitat: "Florestas muito úmidas e sombreadas de baixa a média altitude.",
     clima: "Intermediário a quente, úmido e estável.",
+    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
     iluminacao: "Sombra clara.",
     floracao: "Pode florescer em diferentes épocas, geralmente durante períodos quentes e úmidos.",
     adubacao: "Adubação muito diluída e frequente, com lavagens regulares do substrato.",

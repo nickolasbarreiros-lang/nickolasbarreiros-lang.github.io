@@ -19,6 +19,7 @@ export const stanhopeaGuttulata = {
     regiao: "Regiões montanhosas úmidas",
     habitat: "Epífita em florestas úmidas, com raízes em matéria orgânica acumulada.",
     clima: "Intermediário, úmido.",
+    climaFloracao: "A floração é favorecida por clima quente a intermediário, alta umidade, ventilação e crescimento vigoroso. Uma leve queda de temperatura noturna ajuda, mas o principal é evitar raízes abafadas e manter a planta bem hidratada durante a formação dos pseudobulbos.",
     iluminacao: "Luz filtrada média.",
     floracao: "Mais comum entre primavera e verão.",
     adubacao: "Adubação equilibrada e regular durante brotação e enchimento dos pseudobulbos.",

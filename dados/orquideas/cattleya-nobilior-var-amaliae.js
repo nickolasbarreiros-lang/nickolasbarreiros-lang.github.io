@@ -18,6 +18,7 @@ export const cattleyaNobiliorVarAmaliae = {
     regiao: "Região Centro-Oeste, em formações do Cerrado",
     habitat: "Epífita em árvores expostas, com muita ventilação, luminosidade elevada e estação seca pronunciada",
     clima: "Quente a intermediário, com grande ventilação e redução de água no período de repouso",
+    climaFloracao: "A floração é favorecida por muita luz, excelente ventilação, raízes que sequem rapidamente e noites um pouco mais frescas no outono e inverno. Excesso de água durante o amadurecimento dos pseudobulbos pode reduzir a floração.",
     iluminacao: "Muito clara, com luz filtrada intensa e possibilidade de sol suave da manhã",
     floracao: "Geralmente no inverno e início da primavera, após período mais seco",
     adubacao: "Adube com fórmula equilibrada enquanto houver crescimento ativo de raízes e pseudobulbos. Suspenda ou reduza bastante durante o repouso. Use adubação orgânica com extrema moderação.",
