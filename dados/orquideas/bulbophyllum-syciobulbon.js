@@ -14,7 +14,12 @@ export const bulbophyllumSyciobulbon = {
     habitat: "Florestas úmidas e sombreadas.",
     clima: "Quente a intermediário.",
     climaFloracao: "Floresce melhor em ambiente quente a intermediário, com umidade elevada, raízes sempre arejadas e pequena diferença entre dia e noite. Evite ressecamento prolongado e calor abafado sem circulação de ar.",
-    iluminacao: "Baixa a média.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luminosidade filtrada",
+        observacoes: "Cultive sob luz difusa de baixa a média intensidade. Em Serra/ES, evite sol direto e combine sombreamento com ventilação constante para impedir abafamento e superaquecimento."
+    },
     floracao: "Mais comum durante meses quentes e úmidos.",
     adubacao: "Doses fracas e frequentes.",
     rega: "Manter úmida com boa drenagem.",

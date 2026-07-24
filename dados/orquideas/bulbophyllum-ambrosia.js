@@ -14,7 +14,12 @@ export const bulbophyllumAmbrosia = {
     habitat: "Florestas úmidas em baixa e média altitude.",
     clima: "Quente a intermediário.",
     climaFloracao: "Floresce melhor em ambiente quente a intermediário, com umidade elevada, raízes sempre arejadas e pequena diferença entre dia e noite. Evite ressecamento prolongado e calor abafado sem circulação de ar.",
-    iluminacao: "Baixa a média, filtrada.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luminosidade filtrada",
+        observacoes: "Prefere sombra clara, umidade ambiental e ventilação constante. Em Serra/ES, mantenha sob luz difusa e evite sol direto, que pode desidratar rapidamente folhas e pseudobulbos."
+    },
     floracao: "Mais frequente entre inverno e primavera.",
     adubacao: "Adubo fraco e contínuo durante crescimento ativo.",
     rega: "Manter umidade constante, permitindo leve secagem superficial.",

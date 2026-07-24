@@ -20,7 +20,12 @@ export const phalaenopsisMannii = {
     habitat: "Florestas tropicais e subtropicais, como epífita em áreas úmidas.",
     clima: "Quente a intermediário.",
     climaFloracao: "A emissão da haste é estimulada por algumas semanas de noites ligeiramente mais frescas, sem frio intenso. Mantenha calor moderado durante o dia, boa ventilação e evite temperaturas noturnas muito baixas.",
-    iluminacao: "Luz filtrada baixa a média.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luminosidade filtrada",
+        observacoes: "Prefere sombra clara e luz difusa durante todo o dia. Em Serra/ES, proteja do sol direto, inclusive pela manhã no verão, pois as folhas podem aquecer e queimar rapidamente."
+    },
     floracao: "Principalmente entre primavera e verão.",
     adubacao: "Adubo equilibrado diluído durante o crescimento; reduzir no frio.",
     rega: "Regar quando as raízes pratearem e o substrato estiver quase seco.",

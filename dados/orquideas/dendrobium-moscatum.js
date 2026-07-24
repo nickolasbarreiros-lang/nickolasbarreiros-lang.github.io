@@ -20,7 +20,12 @@ export const dendrobiumMoscatum = {
     habitat: "Florestas monçônicas sazonais, como epífita em áreas claras.",
     clima: "Quente a intermediário.",
     climaFloracao: "A floração é favorecida pela maturação completa dos pseudobulbos, noites mais frescas e uma redução moderada das regas. Retome água e adubação quando os novos brotos aparecerem.",
-    iluminacao: "Luz filtrada forte.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00 e após 16:30",
+        observacoes: "Gosta de ambiente claro e precisa de boa luminosidade para florir. Em Serra/ES, forneça sol fraco da manhã com adaptação gradual e evite exposição direta durante o período mais quente do dia."
+    },
     floracao: "Primavera e início do verão.",
     adubacao: "Adubo equilibrado durante crescimento rápido das canas. Reduzir após maturação e durante repouso.",
     rega: "Farta no crescimento; diminuir bastante no inverno até surgirem novos brotos.",

@@ -14,7 +14,12 @@ export const bulbophyllumSikkimense = {
     habitat: "Florestas montanas úmidas.",
     clima: "Intermediário a fresco.",
     climaFloracao: "Floresce melhor em ambiente quente a intermediário, com umidade elevada, raízes sempre arejadas e pequena diferença entre dia e noite. Evite ressecamento prolongado e calor abafado sem circulação de ar.",
-    iluminacao: "Sombra clara, com alta umidade.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luminosidade filtrada",
+        observacoes: "Espécie montana que prefere sombra clara, umidade elevada e temperaturas mais amenas. Em Serra/ES, coloque no ponto mais fresco e protegido, sem qualquer sol direto."
+    },
     floracao: "Frequentemente no outono e inverno.",
     adubacao: "Fraca durante o crescimento; reduzir em períodos frios.",
     rega: "Regular no calor, com leve redução no inverno.",

@@ -14,7 +14,12 @@ export const bulbophyllumMiniatum = {
     habitat: "Florestas úmidas de baixa a média altitude.",
     clima: "Quente a intermediário.",
     climaFloracao: "Floresce melhor em ambiente quente a intermediário, com umidade elevada, raízes sempre arejadas e pequena diferença entre dia e noite. Evite ressecamento prolongado e calor abafado sem circulação de ar.",
-    iluminacao: "Filtrada, de baixa a média intensidade.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luminosidade filtrada",
+        observacoes: "Gosta de sombra clara e luz difusa, com raízes úmidas e rizoma ventilado. Em Serra/ES, o sol direto pode provocar queimaduras e desidratação rápida."
+    },
     floracao: "Primavera e verão, podendo variar.",
     adubacao: "Adubo balanceado em baixa concentração durante o crescimento.",
     rega: "Regular, sem deixar secar completamente.",

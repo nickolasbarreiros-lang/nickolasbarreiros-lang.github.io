@@ -19,7 +19,12 @@ export const dendrobiumLoddigesii = {
     habitat: "Epífita ou litófita em locais claros, ventilados e com inverno mais fresco e seco",
     clima: "Intermediário, com verão úmido e inverno mais fresco e seco",
     climaFloracao: "Precisa de pseudobulbos maduros, noites mais frescas e redução das regas no outono e inverno. Calor constante com adubação rica em nitrogênio tende a produzir brotos ou keikis em vez de flores.",
-    iluminacao: "Luz filtrada intensa, especialmente no outono e inverno",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 08:30",
+        observacoes: "Prefere luminosidade filtrada intensa, sobretudo no outono e inverno. Em Serra/ES, aceite apenas o sol muito suave do início da manhã e mantenha boa ventilação para evitar superaquecimento das canas finas."
+    },
     floracao: "Final do inverno e primavera, após repouso mais seco",
     adubacao: "Adube durante o surgimento e alongamento das novas canas. Reduza no fim do verão e suspenda durante o repouso. Retome quando aparecerem novas raízes.",
     rega: "Frequente no crescimento, com secagem parcial. No outono e inverno, reduza bastante, oferecendo apenas água suficiente para evitar enrugamento excessivo das canas.",

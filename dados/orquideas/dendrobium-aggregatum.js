@@ -20,7 +20,12 @@ export const dendrobiumAggregatum = {
     habitat: "Epífita em florestas sazonais, com inverno mais seco e luminoso.",
     clima: "Intermediário, tolerando calor no crescimento.",
     climaFloracao: "Precisa de pseudobulbos maduros, noites mais frescas e redução das regas no outono e inverno. Calor constante com adubação rica em nitrogênio tende a produzir brotos ou keikis em vez de flores.",
-    iluminacao: "Luz filtrada intensa e sol suave.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00 e após 16:30",
+        observacoes: "Necessita claridade intensa para amadurecer as canas e florescer. Em Serra/ES, ofereça sol fraco no começo da manhã após adaptação e proteja do sol forte nas horas quentes, principalmente no verão."
+    },
     floracao: "Fim do inverno e primavera, após repouso seco.",
     adubacao: "Adubar regularmente da brotação até o amadurecimento. Interromper adubação nitrogenada durante o repouso.",
     rega: "Muita água no crescimento; reduzir fortemente após maturação, fornecendo apenas o suficiente para evitar enrugamento extremo.",

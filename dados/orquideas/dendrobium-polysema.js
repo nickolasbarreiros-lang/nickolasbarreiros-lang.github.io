@@ -23,7 +23,12 @@ export const dendrobiumPolysema = {
     habitat: "Epífita sobre troncos e galhos de árvores",
     clima: "Quente e úmido",
     climaFloracao: "Floresce melhor após pseudobulbos bem formados, com boa luminosidade e diferença moderada entre as temperaturas do dia e da noite. Evite excesso de nitrogênio perto da época de indução floral.",
-    iluminacao: "Luz filtrada intensa",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 08:30",
+        observacoes: "Cultive com luz filtrada intensa, sem deixar a planta aquecer excessivamente. Em Serra/ES, pode receber sol muito suave bem cedo, mas deve ficar protegida do sol direto durante o restante do dia."
+    },
     floracao: "Final do inverno e primavera",
     adubacao: "Utilize NPK equilibrado durante o crescimento das novas canas. Depois do amadurecimento, alterne com adubo de floração em baixa concentração. A aplicação pode ser feita a cada 15 dias.",
     rega: "Realize regas frequentes durante a formação das novas canas, permitindo leve secagem entre elas. Reduza discretamente as regas no inverno, sem deixar a planta desidratar excessivamente.",

@@ -20,7 +20,12 @@ export const bulbophyllumRothschildianum = {
     habitat: "Florestas úmidas montanas, como epífita em locais sombreados e ventilados.",
     clima: "Intermediário a fresco, úmido.",
     climaFloracao: "Floresce melhor em ambiente quente a intermediário, com umidade elevada, raízes sempre arejadas e pequena diferença entre dia e noite. Evite ressecamento prolongado e calor abafado sem circulação de ar.",
-    iluminacao: "Luz filtrada média, sem sol direto forte.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luminosidade filtrada",
+        observacoes: "Prefere luminosidade moderada filtrada, ambiente fresco e boa circulação de ar. Em Serra/ES, mantenha na parte mais sombreada e ventilada do orquidário, sem sol direto."
+    },
     floracao: "Geralmente outono e inverno, variando conforme o cultivo.",
     adubacao: "Adubo equilibrado diluído durante crescimento ativo, com lavagens periódicas do substrato.",
     rega: "Frequente no calor; manter umidade sem encharcamento. Reduzir discretamente no frio.",
