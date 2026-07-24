@@ -57,40 +57,15 @@ let aplicacaoInicializada = false;
 
 
 /* =========================================================
-   OBTENÇÃO DOS DADOS
+   PREPARAÇÃO DOS DADOS
 ========================================================= */
 
-function obterOrquideasDoModulo() {
-    const possibilidades = [
-        moduloDados.orquideas,
-        moduloDados.catalogoOrquideas,
-        moduloDados.dadosOrquideas,
-        moduloDados.default
-    ];
-
-    const listaEncontrada =
-        possibilidades.find((valor) => {
-            return Array.isArray(valor);
-        });
-
-    if (!listaEncontrada) {
+function prepararOrquideas(listaOrquideas) {
+    if (!Array.isArray(listaOrquideas)) {
         return [];
     }
 
-    return listaEncontrada.filter(Boolean);
-}
-
-
-/* =========================================================
-   ORDENAÇÃO INICIAL DOS DADOS
-========================================================= */
-
-function prepararOrquideas(orquideas) {
-    if (!Array.isArray(orquideas)) {
-        return [];
-    }
-
-    return orquideas.filter((orquidea) => {
+    return listaOrquideas.filter((orquidea) => {
         return (
             orquidea &&
             typeof orquidea === "object"
@@ -197,9 +172,9 @@ function obterMesAtual() {
    INICIALIZAÇÃO DAS ESTATÍSTICAS
 ========================================================= */
 
-function iniciarEstatisticas(orquideas) {
+function iniciarEstatisticas(listaOrquideas) {
     renderizarEstatisticasDaPagina(
-        orquideas
+        listaOrquideas
     );
 }
 
@@ -208,10 +183,10 @@ function iniciarEstatisticas(orquideas) {
    INICIALIZAÇÃO DO CATÁLOGO
 ========================================================= */
 
-function iniciarCatalogo(orquideas) {
+function iniciarCatalogo(listaOrquideas) {
     controladorCatalogo =
         inicializarCatalogo(
-            orquideas,
+            listaOrquideas,
             {
                 mesReferencia:
                     obterMesAtual()
@@ -238,10 +213,10 @@ function iniciarVisualizacao() {
    INICIALIZAÇÃO DO PAINEL
 ========================================================= */
 
-function iniciarPainelFloracao(orquideas) {
+function iniciarPainelFloracao(listaOrquideas) {
     controladorPainelFloracao =
         inicializarPainelFloracao(
-            orquideas,
+            listaOrquideas,
             {
                 mesInicial:
                     obterMesAtual(),
@@ -270,10 +245,10 @@ function iniciarPainelFloracao(orquideas) {
    INICIALIZAÇÃO DOS FILTROS
 ========================================================= */
 
-function iniciarFiltros(orquideas) {
+function iniciarFiltros(listaOrquideas) {
     controladorFiltros =
         inicializarFiltros(
-            orquideas,
+            listaOrquideas,
             {
                 aoFiltrar(resultado) {
                     if (
@@ -411,14 +386,14 @@ export function inicializarAplicacao() {
 
     verificarEstruturaDaPagina();
 
-    const orquideas =
+    const listaOrquideas =
         prepararOrquideas(
-            obterOrquideasDoModulo()
+            orquideas
         );
 
-    if (orquideas.length === 0) {
+    if (listaOrquideas.length === 0) {
         console.warn(
-            "Nenhuma orquídea foi encontrada em dados/orquideas.js."
+            "Nenhuma orquídea foi encontrada em dados/orquideas/index.js."
         );
     }
 
@@ -430,21 +405,21 @@ export function inicializarAplicacao() {
      */
 
     iniciarEstatisticas(
-        orquideas
+        listaOrquideas
     );
 
     iniciarCatalogo(
-        orquideas
+        listaOrquideas
     );
 
     iniciarVisualizacao();
 
     iniciarPainelFloracao(
-        orquideas
+        listaOrquideas
     );
 
     iniciarFiltros(
-        orquideas
+        listaOrquideas
     );
 
     adicionarEventosGlobais();
@@ -455,7 +430,7 @@ export function inicializarAplicacao() {
         obterControladores();
 
     disponibilizarAplicacaoGlobalmente(
-        orquideas,
+        listaOrquideas,
         controladores
     );
 
@@ -469,7 +444,7 @@ export function inicializarAplicacao() {
             {
                 detail: {
                     total:
-                        orquideas.length,
+                        listaOrquideas.length,
 
                     controladores
                 }
@@ -507,12 +482,12 @@ export function obterControladores() {
 ========================================================= */
 
 function disponibilizarAplicacaoGlobalmente(
-    orquideas,
+    listaOrquideas,
     controladores
 ) {
     window.catalogoOrquideasApp = {
         orquideas:
-            [...orquideas],
+            [...listaOrquideas],
 
         controladores,
 
@@ -525,7 +500,7 @@ function disponibilizarAplicacaoGlobalmente(
         obterEstado() {
             return {
                 totalOrquideas:
-                    orquideas.length,
+                    listaOrquideas.length,
 
                 filtros:
                     controladorFiltros
