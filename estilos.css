@@ -3715,11 +3715,14 @@ html{scroll-behavior:smooth}.pagina-home-v4{margin:0;background:#fff;color:var(-
 .breadcrumb-v4 {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
     flex-wrap: wrap;
     gap: 8px;
     margin: 0 0 14px;
     color: #6a7c6f;
     font-size: 13px;
+    text-align: center;
 }
 
 .breadcrumb-v4 a {

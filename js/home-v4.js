@@ -80,11 +80,15 @@ function ligarEventos() {
     });
   });
 
-  document.querySelector('[data-filtro-caracteristica="brasileira"]')?.addEventListener("click", () => pesquisar("Brasil"));
-  document.querySelector('[data-filtro-caracteristica="estrangeira"]')?.addEventListener("click", () => {
-    document.getElementById("limpar-filtros")?.click();
-    rolar("#pesquisa");
-  });
+  function filtrarPorOrigem(categoria) {
+    document.dispatchEvent(new CustomEvent("catalogo:filtrar-origem", {
+      detail: { categoria }
+    }));
+    rolar("#catalogo-area");
+  }
+
+  document.querySelector('[data-filtro-caracteristica="brasileira"]')?.addEventListener("click", () => filtrarPorOrigem("brasileira"));
+  document.querySelector('[data-filtro-caracteristica="estrangeira"]')?.addEventListener("click", () => filtrarPorOrigem("estrangeira"));
 
   document.getElementById("grade-generos-v4")?.addEventListener("click", e => {
     const botao = e.target.closest("[data-genero-v4]");

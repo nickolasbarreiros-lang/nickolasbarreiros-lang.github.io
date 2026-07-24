@@ -446,6 +446,41 @@ function correspondeFiltroPainel(
 
 
 /* =========================================================
+   FILTRO POR ORIGEM GEOGRÁFICA
+========================================================= */
+
+function ehOrquideaBrasileira(orquidea) {
+    const textoOrigem = normalizarTexto([
+        orquidea?.origem,
+        orquidea?.regiao,
+        orquidea?.descricao
+    ].filter(Boolean).join(" "));
+
+    return (
+        textoOrigem.includes("brasil") ||
+        textoOrigem.includes("brasileir")
+    );
+}
+
+function correspondeOrigemGeografica(orquidea, categoria) {
+    if (!categoria) {
+        return true;
+    }
+
+    const brasileira = ehOrquideaBrasileira(orquidea);
+
+    if (categoria === "brasileira") {
+        return brasileira;
+    }
+
+    if (categoria === "estrangeira") {
+        return !brasileira;
+    }
+
+    return true;
+}
+
+/* =========================================================
    APLICAÇÃO DOS FILTROS
 ========================================================= */
 
@@ -512,6 +547,11 @@ export function filtrarOrquideas(
                 orquidea,
                 idsPainel,
                 filtroPainelAtivo
+            ) &&
+
+            correspondeOrigemGeografica(
+                orquidea,
+                opcoes.filtroOrigem
             )
         );
     });
@@ -777,6 +817,8 @@ export function inicializarFiltros(
 
     let idsPainel = new Set();
 
+    let filtroOrigem = "";
+
     let resultadoAtual = [...lista];
 
 
@@ -808,7 +850,8 @@ export function inicializarFiltros(
                 filtros,
                 {
                     filtroPainelAtivo,
-                    idsPainel
+                    idsPainel,
+                    filtroOrigem
                 }
             );
 
@@ -836,6 +879,8 @@ export function inicializarFiltros(
                 lista.length,
 
             filtroPainelAtivo,
+
+            filtroOrigem,
 
             mesPainel,
 
@@ -883,6 +928,7 @@ export function inicializarFiltros(
         filtroPainelAtivo = false;
         mesPainel = null;
         idsPainel = new Set();
+        filtroOrigem = "";
 
         const resultado =
             processarFiltros(
@@ -940,6 +986,25 @@ export function inicializarFiltros(
 
 
     /* -----------------------------------------------------
+       FILTRO RÁPIDO: BRASILEIRAS / ESTRANGEIRAS
+    ------------------------------------------------------ */
+
+    function aoReceberFiltroOrigem(evento) {
+        const categoria = String(evento?.detail?.categoria || "").trim();
+
+        limparCamposFiltros(elementos);
+        filtroPainelAtivo = false;
+        mesPainel = null;
+        idsPainel = new Set();
+        filtroOrigem = ["brasileira", "estrangeira"].includes(categoria)
+            ? categoria
+            : "";
+
+        processarFiltros("atalho-origem");
+    }
+
+
+    /* -----------------------------------------------------
        EVENTOS DOS CAMPOS
     ------------------------------------------------------ */
 
@@ -986,6 +1051,12 @@ export function inicializarFiltros(
     document.addEventListener(
         NOME_EVENTO_FILTRAR_FLORACOES,
         aoReceberFiltroPainel
+    );
+
+
+    document.addEventListener(
+        "catalogo:filtrar-origem",
+        aoReceberFiltroOrigem
     );
 
 
@@ -1130,6 +1201,12 @@ export function inicializarFiltros(
             document.removeEventListener(
                 NOME_EVENTO_FILTRAR_FLORACOES,
                 aoReceberFiltroPainel
+            );
+
+
+            document.removeEventListener(
+                "catalogo:filtrar-origem",
+                aoReceberFiltroOrigem
             );
         }
     };
