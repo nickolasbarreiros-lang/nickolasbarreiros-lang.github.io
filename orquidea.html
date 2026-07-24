@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
+
     <meta charset="UTF-8">
 
     <meta
@@ -17,41 +19,30 @@
 
     <link
         rel="stylesheet"
-        href="estilos.css?v=32"
+        href="estilos.css"
     >
+
 </head>
 
 <body>
 
     <header class="cabecalho">
 
-        <div class="conteudo-cabecalho">
+        <h1>
+            Ficha da Orquídea
+        </h1>
 
-            <div class="icone-cabecalho" aria-hidden="true">
-                🌸
-            </div>
-
-            <div>
-
-                <h1>
-                    Ficha da Orquídea
-                </h1>
-
-                <p>
-                    Catálogo particular cultivado em Serra/ES
-                </p>
-
-            </div>
-
-        </div>
+        <p>
+            Catálogo particular cultivado em Serra/ES
+        </p>
 
     </header>
 
     <main class="container">
 
         <a
-            class="voltar"
             href="index.html"
+            class="voltar"
         >
             ← Voltar ao catálogo
         </a>
@@ -59,26 +50,21 @@
         <article
             id="ficha"
             class="ficha-detalhada"
-        ></article>
+        >
+        </article>
 
         <div
             id="ficha-nao-encontrada"
             class="sem-resultados"
+            style="display:none;"
         >
 
-            <span
-                class="icone-sem-resultados"
-                aria-hidden="true"
-            >
-                🌱
-            </span>
-
-            <h3>
+            <h2>
                 Orquídea não encontrada
-            </h3>
+            </h2>
 
             <p>
-                Não foi possível localizar esta espécie no catálogo.
+                Não foi possível localizar esta espécie.
             </p>
 
         </div>
@@ -87,13 +73,7 @@
 
     <footer class="rodape">
 
-        <p>
-            Catálogo particular de orquídeas
-        </p>
-
-        <span>
-            Cultivado em Serra/ES
-        </span>
+        Catálogo particular de orquídeas
 
     </footer>
 
@@ -103,4 +83,5 @@
     ></script>
 
 </body>
+
 </html>
