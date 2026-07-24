@@ -617,7 +617,7 @@ if (!orquidea) {
 
             <div class="grade-cultivo-v2">
 
-                <article class="card-cultivo-v2">
+                <article class="card-cultivo-v2 card-iluminacao-v2">
 
                     <div class="icone-card-v2">
                         ☀️
@@ -635,7 +635,7 @@ if (!orquidea) {
 
                 </article>
 
-                <article class="card-cultivo-v2">
+                <article class="card-cultivo-v2 card-rega-v2">
 
                     <div class="icone-card-v2">
                         💧
@@ -677,7 +677,7 @@ if (!orquidea) {
 
                 </article>
 
-                <article class="card-cultivo-v2">
+                <article class="card-cultivo-v2 card-epoca-floracao-v2">
 
                     <div class="icone-card-v2">
                         🌸
@@ -697,7 +697,7 @@ if (!orquidea) {
 
                 </article>
 
-                <article class="card-cultivo-v2">
+                <article class="card-cultivo-v2 card-adubacao-v2">
 
                     <div class="icone-card-v2">
                         🧪
@@ -717,7 +717,7 @@ if (!orquidea) {
 
                 </article>
 
-                <article class="card-cultivo-v2">
+                <article class="card-cultivo-v2 card-suporte-v2">
 
                     <div class="icone-card-v2">
                         🪵
@@ -737,7 +737,7 @@ if (!orquidea) {
 
                 </article>
 
-                <article class="card-cultivo-v2">
+                <article class="card-cultivo-v2 card-substrato-v2">
 
                     <div class="icone-card-v2">
                         🌱

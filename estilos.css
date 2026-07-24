@@ -3915,3 +3915,85 @@ main.container{
 .observacao-iluminacao-v2 p {
     margin: 4px 0 0;
 }
+
+/* Sprint 1.2.1 — reorganização do Guia de cultivo
+   O card de iluminação ocupa duas linhas, evitando que a altura dele
+   crie grandes áreas vazias nos demais cards da primeira linha. */
+@media (min-width: 901px) {
+    .grade-cultivo-v2 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-areas:
+            "iluminacao rega clima"
+            "iluminacao floracao adubacao"
+            "suporte substrato substrato";
+        align-items: stretch;
+    }
+
+    .card-iluminacao-v2 {
+        grid-area: iluminacao;
+    }
+
+    .card-rega-v2 {
+        grid-area: rega;
+    }
+
+    .card-clima-floracao-v2 {
+        grid-area: clima;
+    }
+
+    .card-epoca-floracao-v2 {
+        grid-area: floracao;
+    }
+
+    .card-adubacao-v2 {
+        grid-area: adubacao;
+    }
+
+    .card-suporte-v2 {
+        grid-area: suporte;
+    }
+
+    .card-substrato-v2 {
+        grid-area: substrato;
+    }
+
+    /* Sobrescreve a regra antiga que fazia o último card ocupar a linha inteira. */
+    .grade-cultivo-v2 > .card-cultivo-v2:last-child {
+        grid-column: auto;
+        min-height: 128px;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 641px) {
+    .grade-cultivo-v2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-areas:
+            "iluminacao iluminacao"
+            "rega clima"
+            "floracao adubacao"
+            "suporte substrato";
+    }
+
+    .card-iluminacao-v2 { grid-area: iluminacao; }
+    .card-rega-v2 { grid-area: rega; }
+    .card-clima-floracao-v2 { grid-area: clima; }
+    .card-epoca-floracao-v2 { grid-area: floracao; }
+    .card-adubacao-v2 { grid-area: adubacao; }
+    .card-suporte-v2 { grid-area: suporte; }
+    .card-substrato-v2 { grid-area: substrato; }
+
+    .grade-cultivo-v2 > .card-cultivo-v2:last-child {
+        grid-column: auto;
+        min-height: 128px;
+    }
+}
+
+@media (max-width: 640px) {
+    .grade-cultivo-v2 {
+        grid-template-columns: 1fr;
+    }
+
+    .grade-cultivo-v2 > .card-cultivo-v2:last-child {
+        grid-column: auto;
+    }
+}
