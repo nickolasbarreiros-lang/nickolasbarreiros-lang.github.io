@@ -3943,3 +3943,20 @@ main.container{
         white-space: normal;
     }
 }
+
+/* Sprint Visual 1.5 — correção defensiva da iluminação */
+.iluminacao-corrigida-v15 {
+    grid-column: 1 / -1;
+    min-height: auto !important;
+}
+
+.iluminacao-corrigida-v15 .conteudo-iluminacao-corrigido {
+    margin: 0;
+}
+
+.iluminacao-corrigida-v15 .linha-chips-v2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+}
