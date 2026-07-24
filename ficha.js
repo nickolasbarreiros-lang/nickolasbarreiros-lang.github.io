@@ -46,11 +46,21 @@ function obterTexto(
     valor,
     textoPadrao = "Não informado"
 ) {
-    if (
-        valor === undefined ||
-        valor === null ||
-        String(valor).trim() === ""
-    ) {
+    if (valor === undefined || valor === null) {
+        return textoPadrao;
+    }
+
+    if (typeof valor === "object") {
+        const chips = [];
+        if (valor.sombrite) chips.push(`🟨 ${valor.sombrite}`);
+        if (valor.solDireto) chips.push(valor.solDireto.toLowerCase()==="sim" ? "☀️ Sol direto" : "🚫 Sem sol direto");
+        if (valor.horario) chips.push(`🕘 ${valor.horario}`);
+        const linha = chips.join(" • ");
+        const obs = valor.observacoes ? `<br><small>${valor.observacoes}</small>` : "";
+        return linha + obs;
+    }
+
+    if (String(valor).trim() === "") {
         return textoPadrao;
     }
 
@@ -470,7 +480,7 @@ if (!orquidea) {
                     <div>
                         <strong>Origem</strong>
 
-                        <p>
+                        <p class="info-horizontal">
                             ${obterTexto(
                                 orquidea.origem
                             )}
@@ -488,7 +498,7 @@ if (!orquidea) {
                     <div>
                         <strong>Região natural</strong>
 
-                        <p>
+                        <p class="info-horizontal">
                             ${obterTexto(
                                 orquidea.regiao
                             )}
@@ -506,7 +516,7 @@ if (!orquidea) {
                     <div>
                         <strong>Habitat</strong>
 
-                        <p>
+                        <p class="info-horizontal">
                             ${obterTexto(
                                 orquidea.habitat
                             )}
@@ -524,7 +534,7 @@ if (!orquidea) {
                     <div>
                         <strong>Clima</strong>
 
-                        <p>
+                        <p class="info-horizontal">
                             ${obterTexto(
                                 orquidea.clima
                             )}
@@ -583,7 +593,7 @@ if (!orquidea) {
                             Iluminação
                         </h4>
 
-                        <p>
+                        <p class="info-horizontal">
                             ${obterTexto(
                                 orquidea.iluminacao
                             )}
@@ -603,7 +613,7 @@ if (!orquidea) {
                             Rega
                         </h4>
 
-                        <p>
+                        <p class="info-horizontal">
                             ${obterTexto(
                                 orquidea.rega
                             )}
@@ -623,7 +633,7 @@ if (!orquidea) {
                             Clima para floração
                         </h4>
 
-                        <p>
+                        <p class="info-horizontal">
                             ${obterTexto(
                                 orquidea.climaFloracao,
                                 orquidea.clima ||
@@ -645,7 +655,7 @@ if (!orquidea) {
                             Época de floração
                         </h4>
 
-                        <p>
+                        <p class="info-horizontal">
                             ${obterTexto(
                                 orquidea.floracao
                             )}
@@ -665,7 +675,7 @@ if (!orquidea) {
                             Adubação
                         </h4>
 
-                        <p>
+                        <p class="info-horizontal">
                             ${obterTexto(
                                 orquidea.adubacao
                             )}
@@ -685,7 +695,7 @@ if (!orquidea) {
                             Suporte ideal
                         </h4>
 
-                        <p>
+                        <p class="info-horizontal">
                             ${obterTexto(
                                 orquidea.suporte
                             )}
@@ -705,7 +715,7 @@ if (!orquidea) {
                             Substrato ideal
                         </h4>
 
-                        <p>
+                        <p class="info-horizontal">
                             ${obterTexto(
                                 orquidea.substrato
                             )}
