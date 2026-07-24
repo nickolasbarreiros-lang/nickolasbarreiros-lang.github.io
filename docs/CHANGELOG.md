@@ -45,4 +45,11 @@
 - Cultivo adaptado para Serra/ES.
 - Identificações duvidosas sinalizadas sem apagar os nomes originais do acervo.
 - Mantida compatibilidade com a estrutura atual do site.
+## Sprint 2 — Lote 5 — 24/07/2026
+
+- Preenchidas as 24 fichas botânicas restantes.
+- Concluída a primeira revisão de conteúdo de todo o catálogo ativo.
+- Removidos dois módulos não botânicos/inválidos da base ativa.
+- Corrigido o índice de módulos.
+- Identificações duvidosas foram sinalizadas para conferência futura.
 

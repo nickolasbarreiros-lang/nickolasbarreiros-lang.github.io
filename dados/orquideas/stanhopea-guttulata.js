@@ -1,33 +1,38 @@
-// Cadastro gerado a partir do álbum de orquídeas.
-// Preencha os campos vazios quando revisar esta planta.
+// Ficha revisada no Sprint 2 — Lote 5.
 
 export const stanhopeaGuttulata = {
     id: "stanhopea-guttulata",
     nome: "Stanhopea guttulata",
     genero: "Stanhopea",
-    tipo: "",
-    dificuldade: "",
-    caracteristicas: [],
-    fotos: [],
-    descricao: "",
-    origem: "",
-    regiao: "",
-    habitat: "",
-    clima: "",
-    iluminacao: "",
-    floracao: "",
-    adubacao: "",
-    rega: "",
-    suporte: "",
-    substrato: "",
-    dica: "",
-    mesesFloracao: [],
+    tipo: "Espécie botânica",
+    dificuldade: "Moderada",
+    caracteristicas: [
+        "Flores pendentes",
+        "Perfume intenso",
+        "Flores manchadas",
+        "Cesta obrigatória",
+    ],
+    fotos: [
+    ],
+    descricao: "Stanhopea de flores grandes, perfumadas e marcadas por pintas ou manchas. As inflorescências crescem para baixo, atravessando o substrato.",
+    origem: "México e América Central",
+    regiao: "Regiões montanhosas úmidas",
+    habitat: "Epífita em florestas úmidas, com raízes em matéria orgânica acumulada.",
+    clima: "Intermediário, úmido.",
+    iluminacao: "Luz filtrada média.",
+    floracao: "Mais comum entre primavera e verão.",
+    adubacao: "Adubação equilibrada e regular durante brotação e enchimento dos pseudobulbos.",
+    rega: "Abundante no crescimento; manter úmida, mas sempre arejada.",
+    suporte: "Cesta vazada suspensa.",
+    substrato: "Casca média, esfagno, carvão e fibra de coco em mistura aberta.",
+    dica: "Em Serra/ES, pendure em local fresco e ventilado e verifique a parte inferior da cesta antes da época de floração.",
+    mesesFloracao: [9, 10, 11, 12, 1, 2],
     avaliacoes: {
-        cultivo: 0,
-        floracao: 0,
-        perfume: 0,
-        luminosidade: 0,
-        agua: 0,
-        raridade: 0
+        cultivo: 3,
+        floracao: 4,
+        perfume: 5,
+        luminosidade: 3,
+        agua: 5,
+        raridade: 4,
     }
 };

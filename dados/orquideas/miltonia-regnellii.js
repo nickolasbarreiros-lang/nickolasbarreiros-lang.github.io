@@ -1,33 +1,38 @@
-// Cadastro gerado a partir do álbum de orquídeas.
-// Preencha os campos vazios quando revisar esta planta.
+// Ficha revisada no Sprint 2 — Lote 5.
 
 export const miltoniaRegnellii = {
     id: "miltonia-regnellii",
     nome: "Miltonia regnellii",
     genero: "Miltonia",
-    tipo: "",
-    dificuldade: "",
-    caracteristicas: [],
-    fotos: [],
-    descricao: "",
-    origem: "",
-    regiao: "",
-    habitat: "",
-    clima: "",
-    iluminacao: "",
-    floracao: "",
-    adubacao: "",
-    rega: "",
-    suporte: "",
-    substrato: "",
-    dica: "",
-    mesesFloracao: [],
+    tipo: "Espécie botânica",
+    dificuldade: "Moderada",
+    caracteristicas: [
+        "Flores claras",
+        "Labelo rosado",
+        "Nativa do Brasil",
+        "Hastes elegantes",
+    ],
+    fotos: [
+    ],
+    descricao: "Espécie brasileira com flores claras e labelo rosado a púrpura. As hastes são arqueadas e podem carregar várias flores.",
+    origem: "Brasil",
+    regiao: "Sul e Sudeste",
+    habitat: "Epífita de florestas úmidas e luminosas.",
+    clima: "Intermediário.",
+    iluminacao: "Luz filtrada média a alta.",
+    floracao: "Principalmente no fim do inverno e na primavera.",
+    adubacao: "Adubo equilibrado diluído na brotação e maturação dos pseudobulbos.",
+    rega: "Regular no crescimento, reduzindo levemente após maturação sem deixar desidratar.",
+    suporte: "Vaso ou cachepô bem drenado.",
+    substrato: "Casca média, carvão, pedra-pomes e pequena porção de esfagno.",
+    dica: "Em Serra/ES, ofereça bastante claridade e vento, mas evite aquecimento excessivo das folhas.",
+    mesesFloracao: [8, 9, 10, 11],
     avaliacoes: {
-        cultivo: 0,
-        floracao: 0,
-        perfume: 0,
-        luminosidade: 0,
-        agua: 0,
-        raridade: 0
+        cultivo: 3,
+        floracao: 4,
+        perfume: 2,
+        luminosidade: 3,
+        agua: 4,
+        raridade: 3,
     }
 };
