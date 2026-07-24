@@ -32,7 +32,6 @@ const CAMPOS_PESQUISAVEIS = [
     "regiao",
     "habitat",
     "clima",
-    "iluminacao",
     "floracao",
     "adubacao",
     "rega",
@@ -80,14 +79,24 @@ export function obterElementosFiltros() {
                 "filtro-clima"
             ),
 
-        luz:
+        sombrite:
             document.getElementById(
-                "filtro-luz"
+                "filtro-sombrite"
+            ),
+
+        solDireto:
+            document.getElementById(
+                "filtro-sol-direto"
             ),
 
         dificuldade:
             document.getElementById(
                 "filtro-dificuldade"
+            ),
+
+        raridade:
+            document.getElementById(
+                "filtro-raridade"
             ),
 
         floracao:
@@ -198,12 +207,6 @@ export function preencherFiltrosAutomaticos(
             "clima"
         );
 
-    const iluminacoes =
-        obterValoresUnicos(
-            lista,
-            "iluminacao"
-        );
-
     preencherSelect(
         elementos.genero,
         generos,
@@ -216,16 +219,9 @@ export function preencherFiltrosAutomaticos(
         "Todos os climas"
     );
 
-    preencherSelect(
-        elementos.luz,
-        iluminacoes,
-        "Todas as iluminações"
-    );
-
     return {
         generos,
-        climas,
-        iluminacoes
+        climas
     };
 }
 
@@ -258,14 +254,24 @@ export function obterEstadoFiltros(
                 elementos.clima?.value || ""
             ).trim(),
 
-        luz:
+        sombrite:
             String(
-                elementos.luz?.value || ""
+                elementos.sombrite?.value || ""
+            ).trim(),
+
+        solDireto:
+            String(
+                elementos.solDireto?.value || ""
             ).trim(),
 
         dificuldade:
             String(
                 elementos.dificuldade?.value || ""
+            ).trim(),
+
+        raridade:
+            String(
+                elementos.raridade?.value || ""
             ).trim(),
 
         floracao:
@@ -306,6 +312,18 @@ export function criarTextoPesquisavel(
     ) {
         partes.push(
             ...orquidea.caracteristicas
+        );
+    }
+
+    if (
+        orquidea?.iluminacao &&
+        typeof orquidea.iluminacao === "object"
+    ) {
+        partes.push(
+            orquidea.iluminacao.sombrite,
+            orquidea.iluminacao.solDireto,
+            orquidea.iluminacao.horario,
+            orquidea.iluminacao.observacoes
         );
     }
 
@@ -386,6 +404,31 @@ function correspondeCampo(
     return valor === filtro;
 }
 
+
+/* =========================================================
+   FILTROS DE ILUMINAÇÃO E RARIDADE
+========================================================= */
+
+function obterCampoIluminacao(orquidea, campo) {
+    const iluminacao = orquidea?.iluminacao;
+
+    if (!iluminacao || typeof iluminacao !== "object") {
+        return "";
+    }
+
+    return String(iluminacao?.[campo] || "").trim();
+}
+
+function correspondeRaridade(orquidea, valorFiltro) {
+    if (!valorFiltro) {
+        return true;
+    }
+
+    const raridade = Number(orquidea?.avaliacoes?.raridade);
+    const filtro = Number(valorFiltro);
+
+    return Number.isFinite(raridade) && raridade === filtro;
+}
 
 /* =========================================================
    FILTRO DE MÊS
@@ -529,13 +572,23 @@ export function filtrarOrquideas(
             ) &&
 
             correspondeCampo(
-                orquidea?.iluminacao,
-                filtros.luz
+                obterCampoIluminacao(orquidea, "sombrite"),
+                filtros.sombrite
+            ) &&
+
+            correspondeCampo(
+                obterCampoIluminacao(orquidea, "solDireto"),
+                filtros.solDireto
             ) &&
 
             correspondeCampo(
                 orquidea?.dificuldade,
                 filtros.dificuldade
+            ) &&
+
+            correspondeRaridade(
+                orquidea,
+                filtros.raridade
             ) &&
 
             correspondeMesFloracao(
@@ -571,8 +624,10 @@ export function existemFiltrosAtivos(
         filtros.genero ||
         filtros.tipo ||
         filtros.clima ||
-        filtros.luz ||
+        filtros.sombrite ||
+        filtros.solDireto ||
         filtros.dificuldade ||
+        filtros.raridade ||
         filtros.floracao ||
         filtroPainelAtivo
     );
@@ -644,12 +699,23 @@ export function listarFiltrosAtivos(
         );
     }
 
-    if (filtros.luz) {
+    if (filtros.sombrite) {
         ativos.push(
             criarDescricaoFiltro(
-                "Iluminação",
+                "Sombrite",
                 obterTextoOpcaoSelecionada(
-                    elementos.luz
+                    elementos.sombrite
+                )
+            )
+        );
+    }
+
+    if (filtros.solDireto) {
+        ativos.push(
+            criarDescricaoFiltro(
+                "Sol direto",
+                obterTextoOpcaoSelecionada(
+                    elementos.solDireto
                 )
             )
         );
@@ -661,6 +727,17 @@ export function listarFiltrosAtivos(
                 "Dificuldade",
                 obterTextoOpcaoSelecionada(
                     elementos.dificuldade
+                )
+            )
+        );
+    }
+
+    if (filtros.raridade) {
+        ativos.push(
+            criarDescricaoFiltro(
+                "Raridade",
+                obterTextoOpcaoSelecionada(
+                    elementos.raridade
                 )
             )
         );
@@ -764,12 +841,20 @@ export function limparCamposFiltros(
         elementos.clima.value = "";
     }
 
-    if (elementos.luz) {
-        elementos.luz.value = "";
+    if (elementos.sombrite) {
+        elementos.sombrite.value = "";
+    }
+
+    if (elementos.solDireto) {
+        elementos.solDireto.value = "";
     }
 
     if (elementos.dificuldade) {
         elementos.dificuldade.value = "";
+    }
+
+    if (elementos.raridade) {
+        elementos.raridade.value = "";
     }
 
     if (elementos.floracao) {
@@ -1028,12 +1113,22 @@ export function inicializarFiltros(
         aoAlterarCampo
     );
 
-    elementos.luz?.addEventListener(
+    elementos.sombrite?.addEventListener(
+        "change",
+        aoAlterarCampo
+    );
+
+    elementos.solDireto?.addEventListener(
         "change",
         aoAlterarCampo
     );
 
     elementos.dificuldade?.addEventListener(
+        "change",
+        aoAlterarCampo
+    );
+
+    elementos.raridade?.addEventListener(
         "change",
         aoAlterarCampo
     );
@@ -1174,13 +1269,25 @@ export function inicializarFiltros(
                     aoAlterarCampo
                 );
 
-            elementos.luz
+            elementos.sombrite
+                ?.removeEventListener(
+                    "change",
+                    aoAlterarCampo
+                );
+
+            elementos.solDireto
                 ?.removeEventListener(
                     "change",
                     aoAlterarCampo
                 );
 
             elementos.dificuldade
+                ?.removeEventListener(
+                    "change",
+                    aoAlterarCampo
+                );
+
+            elementos.raridade
                 ?.removeEventListener(
                     "change",
                     aoAlterarCampo

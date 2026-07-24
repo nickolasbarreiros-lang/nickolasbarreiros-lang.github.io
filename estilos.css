@@ -3865,3 +3865,15 @@ main.container{
     padding:0;
     clear:both;
 }
+
+
+/* Sprint 2.0 — filtros avançados estruturados */
+.painel-pesquisa-v4 .painel-filtros-avancados {
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+}
+
+@media (max-width: 720px) {
+    .painel-pesquisa-v4 .painel-filtros-avancados {
+        grid-template-columns: 1fr;
+    }
+}
