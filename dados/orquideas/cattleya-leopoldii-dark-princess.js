@@ -1,36 +1,46 @@
-// Ficha revisada para o catálogo de orquídeas.
+// Ficha científica e de cultivo revisada — Lote 05.
 
 export const cattleyaLeopoldiiDarkPrincess = {
     id: "cattleya-leopoldii-dark-princess",
-    nome: "Cattleya leopoldii (Dark Princess)",
+    nome: "Cattleya tigrina 'Dark Princess'",
     genero: "Cattleya",
-    tipo: "Espécie - clone selecionado",
-    dificuldade: "Intermediário",
-    caracteristicas: ["Bifoliada alta", "Flores numerosas", "Clone de coloração escura"],
+    tipo: "Espécie botânica — cultivar; sinônimo histórico: C. leopoldii",
+    dificuldade: "Moderada",
+    caracteristicas: [
+        "Bifoliada alta",
+        "Flores escuras pintalgadas",
+        "Cultivar selecionado",
+        "Perfume marcante"
+    ],
     fotos: [],
-    descricao: "Clone selecionado de Cattleya leopoldii, espécie brasileira de grande porte e hastes multiflorais. Dark Princess indica uma seleção de coloração mais escura.",
-    origem: "Brasil",
-    regiao: "Mata Atlântica do Sul e Sudeste",
-    habitat: "Florestas costeiras e vales quentes, em árvores altas e bem iluminadas.",
+    descricao: "Cultivar de coloração escura da espécie atualmente aceita como Cattleya tigrina. O nome Cattleya leopoldii é tratado por POWO como sinônimo. A planta forma pseudobulbos altos e inflorescências com numerosas flores cerosas, pintalgadas e geralmente perfumadas.",
+    origem: "Brasil, com distribuição no leste e sul do país.",
+    regiao: "Mata Atlântica costeira e florestas sazonais do leste e sul do Brasil.",
+    habitat: "Epífita em árvores altas e bem iluminadas, com circulação de ar e períodos de secagem entre chuvas.",
     clima: "Quente a intermediário.",
-    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
+    climaFloracao: "Necessita muita luz e pseudobulbos totalmente maduros. Boa amplitude térmica e redução moderada das regas após o crescimento ajudam a induzir hastes fortes.",
     iluminacao: {
-        sombrite: "70%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Alta."
+        sombrite: "35% a 50%",
+        solDireto: "Sim, fraco e aclimatado",
+        horario: "Manhã",
+        observacoes: "Alta luminosidade favorece a coloração escura do cultivar. Evite apenas insolação quente em folhas molhadas."
     },
-    floracao: "Verão.",
-    adubacao: "Forte durante o crescimento dos novos pseudobulbos.",
-    rega: "Abundante no crescimento, com secagem parcial entre regas.",
-    suporte: "Vaso pesado, cestinho ou árvore.",
-    substrato: "Casca grossa, carvão, brita e pedra-pomes.",
-    dica: "Em Serra/ES, ofereça muito espaço, luz e ventilação. Sombra excessiva produz crescimento sem floração.",
-    mesesFloracao: [12, 1, 2, 3],
+    floracao: "Mais comum do fim do verão ao outono.",
+    adubacao: "🌿 Orgânica: bokashi em pequena quantidade, renovado a cada 60 a 90 dias durante o crescimento.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose a cada 7 a 15 dias; alternar ocasionalmente com fórmula mais rica em fósforo e potássio após a maturação.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, sem contato direto com raízes novas.",
+    rega: "Água abundante durante o crescimento, com secagem entre regas; reduzir após maturação.",
+    suporte: "🥇 Vaso de barro pesado.\n🥈 Cachepô robusto.\n🥉 Cesta grande para plantas adultas.",
+    substrato: "🥇 Casca grossa + carvão + pedra-pomes.\n🥈 Brita + carvão.\n🥉 Argila expandida quebrada + casca.",
+    errosComuns: "Pouca luz; falta de tutoramento; vaso instável; substrato fino; excesso de água no inverno; dividir em poucas frentes.",
+    dica: "Por ser alta e pesada, use tutor desde o início do crescimento e evite reposicionar pseudobulbos depois que endurecerem.",
+    adaptacaoRegional: {
+        litoralQuente: "Excelente adaptação ao calor, desde que ventilada. Mantenha luz alta e drenagem rápida.",
+        montanhaFrio: "Proteja de frio intenso. No inverno, regue pela manhã e permita secagem completa."
+    },
+    mesesFloracao: [2, 3, 4, 5],
     avaliacoes: {
         cultivo: 3,
-        floracao: 4,
-        perfume: 3,
+        floracao: 5,
+        perfume: 4,
         luminosidade: 5,
         agua: 3,
         raridade: 4

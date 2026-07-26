@@ -1,36 +1,46 @@
-// Ficha revisada para o catálogo de orquídeas.
+// Ficha científica e de cultivo revisada — Lote 05.
 
 export const cattleyaChocolateDrop = {
     id: "cattleya-chocolate-drop",
-    nome: "Cattleya Chocolate Drop",
-    genero: "Cattleya",
-    tipo: "Híbrido horticultural",
-    dificuldade: "Iniciante",
-    caracteristicas: ["Flores numerosas", "Cor rubra a chocolate", "Crescimento vigoroso"],
+    nome: "Cattlianthe Chocolate Drop",
+    genero: "Cattlianthe",
+    tipo: "Híbrido primário — C. guttata × Guarianthe aurantiaca",
+    dificuldade: "Fácil a moderada",
+    caracteristicas: [
+        "Híbrido clássico",
+        "Flores em cachos",
+        "Coloração vermelho-acastanhada",
+        "Vigorosa"
+    ],
     fotos: [],
-    descricao: "Híbrido clássico de Cattleya, conhecido por hastes com várias flores cerosas em tons rubros, bronze ou chocolate, dependendo do clone.",
-    origem: "Horticultural",
-    regiao: "Produzido em cultivo",
-    habitat: "Não possui habitat natural.",
+    descricao: "Híbrido clássico registrado em 1965, tradicionalmente conhecido como Cattleya Chocolate Drop. O nome hortícola atualmente aceito é Cattlianthe Chocolate Drop. Combina Cattleya guttata com Guarianthe aurantiaca, formando plantas vigorosas, bifoliadas e com cachos de flores cerosas em tons alaranjados, vermelhos ou chocolate.",
+    origem: "Híbrido hortícola; não ocorre naturalmente.",
+    regiao: "Criado em cultivo a partir de espécies mesoamericanas e brasileiras.",
+    habitat: "Não possui habitat natural; os parentais crescem em ambientes claros, quentes e com secagem rápida.",
     clima: "Quente a intermediário.",
-    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
+    climaFloracao: "Floresce melhor com muita luz, pseudobulbos firmes e adubação regular durante o crescimento. Uma boa diferença térmica diária e leve redução das regas após a maturação favorecem as hastes.",
     iluminacao: {
-        sombrite: "70%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Média a alta."
+        sombrite: "40% a 60%",
+        solDireto: "Aceita sol fraco",
+        horario: "Manhã",
+        observacoes: "Luz alta intensifica a coloração e melhora o número de flores. Aclimate gradualmente."
     },
-    floracao: "Comum no outono e inverno, mas depende do clone.",
-    adubacao: "Equilibrada durante crescimento ativo.",
-    rega: "Regar bem e permitir secagem parcial.",
-    suporte: "Vaso ou cachepô.",
-    substrato: "Casca média, carvão, brita e pedra-pomes.",
-    dica: "Na Serra, ofereça bastante luz e não use vaso grande. Híbridos compactos florescem melhor quando bem enraizados.",
+    floracao: "Geralmente do outono ao inverno, mas clones podem florescer em outra época.",
+    adubacao: "🌿 Orgânica: bokashi em pequena quantidade, renovado a cada 60 a 90 dias durante o crescimento.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose a cada 7 a 15 dias; alternar ocasionalmente com fórmula mais rica em fósforo e potássio após a maturação.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, sem contato direto com raízes novas.",
+    rega: "Regue bem no crescimento e deixe quase secar. Após a maturação, aumente o intervalo sem impor seca severa.",
+    suporte: "🥇 Vaso de barro.\n🥈 Cachepô.\n🥉 Vaso plástico muito furado.",
+    substrato: "🥇 Casca grossa + carvão + pedra-pomes.\n🥈 Brita + carvão + casca.\n🥉 Argila expandida quebrada + casca média.",
+    errosComuns: "Sombra; excesso de nitrogênio; vaso grande; substrato compactado; deixar água parada na bainha floral.",
+    dica: "Para cachos mais compactos e coloridos, ofereça o máximo de luz que as folhas tolerarem sem queimar.",
+    adaptacaoRegional: {
+        litoralQuente: "Muito adaptável, desde que haja drenagem e ventilação. Evite chuva contínua sobre botões e bainhas.",
+        montanhaFrio: "Tolera noites mais frescas, mas proteja de frio intenso. Reduza regas no inverno."
+    },
     mesesFloracao: [4, 5, 6, 7, 8],
     avaliacoes: {
-        cultivo: 5,
-        floracao: 5,
-        perfume: 2,
+        cultivo: 2,
+        floracao: 4,
+        perfume: 3,
         luminosidade: 4,
         agua: 3,
         raridade: 2

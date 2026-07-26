@@ -1,38 +1,48 @@
-// Ficha revisada para o catálogo de orquídeas — Sprint 2, Lote 4.
+// Ficha científica e de cultivo revisada — Lote 05.
 
 export const cattleyaABrazilianDream = {
     id: "cattleya-a-brazilian-dream",
-    nome: "Cattleya 'A Brazilian Dream'",
+    nome: "Cattleya A Brazilian Dream",
     genero: "Cattleya",
-    tipo: "Híbrido",
-    dificuldade: "Intermediário",
-    caracteristicas: ["Híbrido de Cattleya", "Flores grandes e vistosas", "Cultivo semelhante ao de cattleyas"],
+    tipo: "Híbrido primário — C. nobilior × C. loddigesii",
+    dificuldade: "Moderada",
+    caracteristicas: [
+        "Híbrido primário",
+        "Porte compacto a médio",
+        "Flores vistosas",
+        "Herança bifoliada"
+    ],
     fotos: [],
-    descricao: "Híbrido ornamental de Cattleya selecionado pela qualidade das flores. Como em outros híbridos do grupo, porte, cor e época exata de floração podem variar conforme o clone.",
-    origem: "Híbrido hortícola",
-    regiao: "Origem de cultivo; não ocorre naturalmente",
-    habitat: "Não possui habitat natural. Foi selecionada em cultivo a partir de espécies de Cattleya.",
-    clima: "Quente a intermediário, com noites mais amenas e boa ventilação.",
-    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
+    descricao: "Híbrido primário registrado em 2019, resultante do cruzamento entre Cattleya nobilior e Cattleya loddigesii. Combina o porte compacto, a exigência por luz e a textura floral de C. nobilior com o vigor, a forma e a adaptação de C. loddigesii. O comportamento exato varia entre clones.",
+    origem: "Híbrido hortícola registrado; não ocorre na natureza.",
+    regiao: "Criado em cultivo a partir de espécies brasileiras.",
+    habitat: "Não possui habitat natural. Seus parentais são cattleyas brasileiras de ambientes sazonais, claros e bem ventilados.",
+    clima: "Quente a intermediário, com noites amenas e boa circulação de ar.",
+    climaFloracao: "Floresce quando o novo pseudobulbo completa a maturação e recebe luz alta. Uma leve redução de água após o crescimento, sem desidratação severa, ajuda a respeitar a herança sazonal dos parentais.",
     iluminacao: {
-        sombrite: "70%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Luz filtrada forte, equivalente a 50–60% de sombreamento."
+        sombrite: "40% a 60%",
+        solDireto: "Aceita sol fraco",
+        horario: "Início da manhã",
+        observacoes: "Mantenha luz de Cattleya forte. Folhas verde-médio a verde-claro são preferíveis; sombra excessiva produz pseudobulbos fracos e poucas flores."
     },
-    floracao: "Geralmente floresce uma vez ao ano em hastes terminais, após a maturação do pseudobulbo.",
-    adubacao: "Adubo foliar equilibrado e diluído a cada 7–15 dias no crescimento; reduzir quando o pseudobulbo estiver maduro.",
-    rega: "Regar bem e deixar o substrato quase secar antes da próxima rega.",
-    suporte: "Vaso de barro ou plástico bem drenado, ou cachepô firme.",
-    substrato: "Casca de pinus média, carvão vegetal e pedra-pomes ou brita fina.",
-    dica: "Em Serra/ES, proteja do sol forte da tarde e mantenha ventilação constante; o excesso de umidade nas raízes é o principal risco.",
-    mesesFloracao: [4, 5, 6, 7],
+    floracao: "Pode ocorrer entre o fim do verão e o inverno, dependendo do clone e do calendário de crescimento.",
+    adubacao: "🌿 Orgânica: bokashi em pequena quantidade, renovado a cada 60 a 90 dias durante o crescimento.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose a cada 7 a 15 dias; alternar ocasionalmente com fórmula mais rica em fósforo e potássio após a maturação.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, sem contato direto com raízes novas.",
+    rega: "Regue profundamente e permita secagem quase completa entre regas. Durante a formação do pseudobulbo, não deixe secar por períodos longos; após a maturação, aumente o intervalo.",
+    suporte: "🥇 Vaso de barro pequeno.\n🥈 Cachepô de madeira.\n🥉 Placa de madeira dura ou cortiça em ambiente úmido.",
+    substrato: "🥇 Casca de pinus grossa + carvão + pedra-pomes.\n🥈 Brita + carvão + pequena quantidade de casca.\n🥉 Casca média + argila expandida quebrada.",
+    errosComuns: "Sombra excessiva; vaso superdimensionado; substrato fino e encharcado; dividir a planta em poucas frentes; molhar continuamente raízes que precisam secar.",
+    dica: "Trate-a como uma Cattleya de raízes arejadas: vaso justo, rizoma à superfície e frente de crescimento voltada para o espaço livre.",
+    adaptacaoRegional: {
+        litoralQuente: "Use vaso muito drenante e ventilação constante. Proteja do sol forte da tarde, mas não reduza demais a luminosidade.",
+        montanhaFrio: "Adapta-se bem com boa luz. No inverno, reduza regas e proteja de frio intenso e umidade noturna prolongada."
+    },
+    mesesFloracao: [3, 4, 5, 6, 7, 8],
     avaliacoes: {
         cultivo: 3,
         floracao: 4,
-        perfume: 2,
+        perfume: 3,
         luminosidade: 4,
         agua: 3,
-        raridade: 2
+        raridade: 4
     }
 };
