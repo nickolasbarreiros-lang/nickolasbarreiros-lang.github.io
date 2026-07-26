@@ -1,38 +1,58 @@
-// Ficha revisada para o catálogo de orquídeas — Sprint 2, Lote 4.
+// Ficha científica e de cultivo revisada — Lote 09.
 
 export const howearaLavaBurst = {
-    id: "howeara-lava-burst",
-    nome: "Howeara Lava Burst",
-    genero: "Howeara",
-    tipo: "Híbrido intergenérico",
-    dificuldade: "Fácil",
-    caracteristicas: ["Mini-orquídea", "Muitas flores vermelhas", "Boa para pequenos espaços"],
-    fotos: [],
-    descricao: "Híbrido compacto do grupo Oncidiinae, famoso pelas numerosas flores vermelhas e pela facilidade de cultivo.",
-    origem: "Híbrido hortícola",
-    regiao: "Origem de cultivo",
-    habitat: "Não possui habitat natural.",
-    clima: "Intermediário, tolerando calor moderado.",
-    climaFloracao: "A floração é favorecida por crescimento vigoroso, iluminação adequada, boa ventilação e leve diferença entre as temperaturas do dia e da noite. Evite extremos de calor, frio ou umidade durante a formação dos botões.",
-    iluminacao: {
-        sombrite: "70%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Luz filtrada média."
+    "id": "howeara-lava-burst",
+    "nome": "Howeara Lava Burst",
+    "genero": "Howeara",
+    "tipo": "Híbrido intergenérico",
+    "dificuldade": "Fácil",
+    "caracteristicas": [
+        "Mini-orquídea",
+        "Flores vermelho-alaranjadas",
+        "Floração abundante",
+        "Híbrido compacto"
+    ],
+    "fotos": [],
+    "descricao": "Híbrido miniatura da aliança Oncidiinae, registrado a partir de Howeara Mini-Primi e Rodriguezia secunda. Forma touceiras compactas e hastes ramificadas com numerosas flores vermelho-alaranjadas; o clone “Puanani” é o mais difundido.",
+    "origem": "Híbrido hortícola registrado, sem ocorrência natural.",
+    "regiao": "Desenvolvido em cultivo a partir de ancestrais tropicais americanos.",
+    "habitat": "Não possui habitat natural; reúne características de Leochilus, Oncidium e Rodriguezia.",
+    "clima": "Intermediário a quente, com noites amenas e boa circulação de ar.",
+    "climaFloracao": "Floresce a partir de pseudobulbos maduros. Luz média, nutrição regular e pequena queda noturna de temperatura aumentam a formação de hastes.",
+    "iluminacao": {
+        "sombrite": "60% a 70%",
+        "solDireto": "Não",
+        "horario": "Luz filtrada intensa",
+        "observacoes": "Folhas verde-médio indicam boa luz; folhas muito escuras geralmente sinalizam sombra excessiva."
     },
-    floracao: "Pode florescer mais de uma vez ao ano quando forma novos pseudobulbos.",
-    adubacao: "Adubo equilibrado diluído a cada 7–15 dias.",
-    rega: "Regar antes de o substrato secar completamente, sem encharcar.",
-    suporte: "Vaso pequeno e bem drenado.",
-    substrato: "Casca fina, carvão miúdo, perlita ou pedra-pomes e pouca fibra de coco.",
-    dica: "Em Serra/ES, mantenha em local claro e ventilado, protegido do sol forte e do superaquecimento do vaso.",
-    mesesFloracao: [3, 4, 5, 6, 7, 8, 9, 10, 11],
-    avaliacoes: {
-        cultivo: 2,
-        floracao: 5,
-        perfume: 2,
-        luminosidade: 3,
-        agua: 4,
-        raridade: 2
+    "floracao": "Pode ocorrer em diferentes épocas, frequentemente do outono à primavera, e repetir quando novos pseudobulbos amadurecem.",
+    "adubacao": "🌿 Orgânica: bokashi em quantidade pequena e afastado das raízes.\n💧 Foliar: fertilizante equilibrado a 1/4–1/3 da dose, semanalmente no crescimento.\n🧪 Liberação lenta: poucos grânulos em vaso pequeno, renovados conforme o fabricante.",
+    "rega": "Manter levemente úmida durante o crescimento, permitindo secagem parcial entre regas. Reduzir um pouco no frio, sem deixar pseudobulbos enrugarem.",
+    "suporte": "🥇 Vaso plástico pequeno e bem perfurado.\n🥈 Cachepô pequeno com substrato fino.\n🥉 Placa com musgo, apenas onde a umidade ambiental é alta.",
+    "substrato": "🥇 Casca fina + pedra-pomes + carvão miúdo.\n🥈 Esfagno solto + perlita/pedra-pomes.\n🥉 Fibra de coco fina lavada + casca fina + carvão.",
+    "errosComuns": "Vaso grande; substrato velho e compacto; seca prolongada; calor abafado; excesso de adubo; sombra intensa.",
+    "dica": "Replante quando surgirem raízes novas na base do broto. Como as raízes são finas, atrasar o replante aumenta muito o risco de perda.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Muito boa em local claro, ventilado e protegido do sol forte da tarde.",
+        "montanhaFrio": "Excelente; proteja de temperaturas muito baixas e reduza a água em semanas frias e nubladas."
+    },
+    "mesesFloracao": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+    ],
+    "avaliacoes": {
+        "cultivo": 2,
+        "floracao": 5,
+        "perfume": 1,
+        "luminosidade": 3,
+        "agua": 4,
+        "raridade": 2
     }
 };

@@ -1,44 +1,55 @@
-// Ficha revisada no Sprint 2 — Lote 5.
+// Ficha científica e de cultivo revisada — Lote 09.
 
 export const lcTrickOrTreat = {
-    id: "lc-trick-or-treat",
-    nome: "Lc. Trick or Treat",
-    genero: "Lc.",
-    tipo: "Híbrido",
-    dificuldade: "Fácil a moderada",
-    caracteristicas: [
-        "Híbrido de Cattleya",
-        "Flores alaranjadas",
-        "Boa adaptação ao calor",
-        "Floração vistosa",
+    "id": "lc-trick-or-treat",
+    "nome": "Cattlianthe Trick or Treat",
+    "genero": "Cattlianthe",
+    "tipo": "Híbrido intergenérico",
+    "dificuldade": "Fácil",
+    "caracteristicas": [
+        "Nome antigo: Lc. Trick or Treat",
+        "Flores laranja",
+        "Hastes multiflorais",
+        "Híbrido vigoroso"
     ],
-    fotos: [
-    ],
-    descricao: "Híbrido intergenérico do grupo Cattleya, conhecido pelas flores alaranjadas e pelo porte vigoroso. A sigla Lc. é histórica; muitos exemplares hoje são registrados em Cattleya após reorganizações taxonômicas.",
-    origem: "Híbrido horticultural",
-    regiao: "Desenvolvido em cultivo; sem distribuição natural",
-    habitat: "Não possui habitat natural. Reúne características de espécies epífitas de florestas tropicais americanas.",
-    clima: "Quente a intermediário, com boa ventilação.",
-    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
-    iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Luz filtrada alta, com sol fraco da manhã."
+    "fotos": [],
+    "descricao": "Híbrido clássico anteriormente chamado Laeliocattleya Trick or Treat. Produz hastes longas e conjuntos de flores laranja intensas; clones como “Orange Magic” tornaram o grex muito conhecido.",
+    "origem": "Híbrido hortícola registrado.",
+    "regiao": "Origem de cultivo, combinando ancestrais de Cattleya e Guarianthe.",
+    "habitat": "Não possui habitat natural.",
+    "clima": "Intermediário a quente.",
+    "climaFloracao": "Pseudobulbos robustos, luz alta e boa diferença térmica favorecem hastes multiflorais. Pode florescer após cada crescimento maduro.",
+    "iluminacao": {
+        "sombrite": "50%",
+        "solDireto": "Somente fraco",
+        "horario": "Sol da manhã",
+        "observacoes": "Cultive com luminosidade semelhante à de Cattleyas, aclimatando gradualmente."
     },
-    floracao: "Geralmente entre outono e primavera, variando conforme o clone e o cultivo.",
-    adubacao: "Adubo equilibrado diluído semanalmente no crescimento; reduzir quando os pseudobulbos amadurecerem.",
-    rega: "Regar bem e deixar o substrato quase secar antes da próxima rega.",
-    suporte: "Vaso de barro, cachepô ou cesta bem drenada.",
-    substrato: "Casca média, carvão e pedra-pomes ou brita leve.",
-    dica: "Em Serra/ES, forneça muita claridade sem sol forte do meio-dia e ventilação constante para evitar brotos moles e fungos.",
-    mesesFloracao: [4, 5, 6, 7, 8, 9, 10],
-    avaliacoes: {
-        cultivo: 4,
-        floracao: 4,
-        perfume: 2,
-        luminosidade: 4,
-        agua: 3,
-        raridade: 2,
+    "floracao": "Frequentemente no outono e inverno, podendo variar conforme o clone e o ciclo de crescimento.",
+    "adubacao": "🌿 Orgânica: bokashi moderado no período de brotação.\n💧 Foliar: equilibrado a 1/3 da dose semanalmente; reduzir nitrogênio na maturação.\n🧪 Liberação lenta: dose moderada em vaso bem drenado.",
+    "rega": "Abundante durante brotação e raízes novas, permitindo boa secagem. Reduzir após maturação e em períodos frios.",
+    "suporte": "🥇 Vaso de barro ou plástico muito perfurado.\n🥈 Cachepô de madeira.\n🥉 Cesto para plantas grandes e com muitas frentes.",
+    "substrato": "🥇 Casca média + carvão + pedra-pomes.\n🥈 Casca grossa + caco de telha + carvão.\n🥉 Fibra de coco grossa lavada + pedra-pomes.",
+    "errosComuns": "Pouca luz; excesso de nitrogênio; vaso grande; cortar haste ainda verde; replantar fora da fase de raízes novas.",
+    "dica": "A haste pode ficar pesada quando carrega muitas flores. Instale tutor cedo, antes que os botões se abram, para evitar quebra e orientar a apresentação.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Excelente, com sol suave, ventilação e secagem entre regas.",
+        "montanhaFrio": "Muito boa; proteja de geadas e reduza água no inverno."
+    },
+    "mesesFloracao": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "avaliacoes": {
+        "cultivo": 2,
+        "floracao": 5,
+        "perfume": 2,
+        "luminosidade": 4,
+        "agua": 3,
+        "raridade": 2
     }
 };

@@ -1,38 +1,53 @@
-// Ficha revisada para o catálogo de orquídeas — Sprint 2, Lote 4.
+// Ficha científica e de cultivo revisada — Lote 09.
 
 export const isabeliaVirginalis = {
-    id: "isabelia-virginalis",
-    nome: "Isabelia virginalis",
-    genero: "Isabelia",
-    tipo: "Espécie",
-    dificuldade: "Intermediário",
-    caracteristicas: ["Miniatura brasileira", "Flores claras", "Crescimento rastejante"],
-    fotos: [],
-    descricao: "Miniatura brasileira de crescimento rastejante, com pequenas flores claras e delicadas.",
-    origem: "Brasil",
-    regiao: "Mata Atlântica do Sul e Sudeste",
-    habitat: "Florestas úmidas e frescas, sobre galhos cobertos por musgo.",
-    clima: "Intermediário a fresco.",
-    climaFloracao: "Floresce melhor com noites frescas, boa umidade do ar e ventilação constante. Em regiões quentes, mantenha no ponto mais fresco do orquidário e evite calor noturno prolongado.",
-    iluminacao: {
-        sombrite: "70%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Sombra clara a luz filtrada baixa."
+    "id": "isabelia-virginalis",
+    "nome": "Isabelia virginalis",
+    "genero": "Isabelia",
+    "tipo": "Espécie botânica",
+    "dificuldade": "Moderada",
+    "caracteristicas": [
+        "Miniatura brasileira",
+        "Pseudobulbos com fibras",
+        "Flores rosadas",
+        "Forma colônias"
+    ],
+    "fotos": [],
+    "descricao": "Miniatura brasileira que forma densas touceiras de pseudobulbos envolvidos por fibras esbranquiçadas. Produz pequenas flores rosadas a lilases e é ornamental mesmo fora da floração.",
+    "origem": "Sudeste e Sul do Brasil até Misiones, Argentina.",
+    "regiao": "Mata Atlântica e formações sazonais de altitude.",
+    "habitat": "Epífita ou litófita, frequentemente em ramos finos e rochas expostas a boa ventilação, com períodos de secagem.",
+    "clima": "Intermediário, tolerando noites frescas.",
+    "climaFloracao": "Boa luminosidade, amadurecimento dos pseudobulbos e leve redução de água no período mais frio ajudam a induzir flores.",
+    "iluminacao": {
+        "sombrite": "50% a 60%",
+        "solDireto": "Somente fraco",
+        "horario": "Sol suave da manhã",
+        "observacoes": "Precisa de luz relativamente alta para uma miniatura, sempre com ventilação."
     },
-    floracao: "Normalmente floresce do inverno à primavera.",
-    adubacao: "Adubo foliar muito diluído durante o crescimento.",
-    rega: "Manter umidade regular, permitindo leve secagem superficial.",
-    suporte: "Placa de madeira, cortiça ou vaso raso.",
-    substrato: "Esfagno solto com casca fina, ou placa com musgo.",
-    dica: "Em Serra/ES, proteja do calor da tarde e mantenha a montagem úmida sem abafamento.",
-    mesesFloracao: [7, 8, 9, 10, 11],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 3,
-        perfume: 1,
-        luminosidade: 2,
-        agua: 4,
-        raridade: 4
+    "floracao": "Mais comum do fim do verão ao outono.",
+    "adubacao": "🌿 Orgânica: pequena porção de bokashi em saquinho, sem tocar a touceira.\n💧 Foliar: equilibrado a 1/4 da dose durante brotação.\n🧪 Liberação lenta: poucos grânulos apenas quando cultivada em vaso.",
+    "rega": "Regular no crescimento, deixando o suporte quase secar entre regas. No frio, espaçar sem desidratar excessivamente.",
+    "suporte": "🥇 Galho fino ou placa de casca rugosa.\n🥈 Placa de madeira dura com pouco musgo.\n🥉 Vaso pequeno e raso para touceiras já estabelecidas.",
+    "substrato": "🥇 Montada com fina camada de esfagno nas raízes.\n🥈 Casca fina + pedra-pomes + carvão.\n🥉 Fibra de coco grossa bem lavada + casca pequena.",
+    "errosComuns": "Sombra excessiva; vaso grande; substrato sempre encharcado; abafamento da touceira; divisão em pedaços muito pequenos.",
+    "dica": "Evite remover as fibras que revestem os pseudobulbos: elas fazem parte da proteção natural da planta e ajudam a moderar a perda de água.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Cultive muito ventilada e com secagem rápida; o calor noturno contínuo pode reduzir a floração.",
+        "montanhaFrio": "Excelente adaptação, com boa luz e proteção contra geadas."
+    },
+    "mesesFloracao": [
+        2,
+        3,
+        4,
+        5
+    ],
+    "avaliacoes": {
+        "cultivo": 3,
+        "floracao": 3,
+        "perfume": 1,
+        "luminosidade": 4,
+        "agua": 3,
+        "raridade": 4
     }
 };

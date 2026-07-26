@@ -1,38 +1,52 @@
-// Ficha revisada para o catálogo de orquídeas — Sprint 2, Lote 4.
+// Ficha científica e de cultivo revisada — Lote 09.
 
 export const laeliaFournieri = {
-    id: "laelia-fournieri",
-    nome: "Laelia fournieri",
-    genero: "Laelia",
-    tipo: "Identificação a confirmar",
-    dificuldade: "Intermediário",
-    caracteristicas: ["Nome de cadastro incerto", "Provável Laeliinae brasileira", "Necessita confirmação floral"],
-    fotos: [],
-    descricao: "Planta cadastrada como Laelia fournieri. A identificação deve ser confirmada com etiqueta, procedência e fotografias da floração, pois o nome é pouco claro na literatura atual.",
-    origem: "Não confirmada",
-    regiao: "Não confirmada",
-    habitat: "A determinar após confirmação taxonômica.",
-    clima: "Intermediário e ventilado, de forma provisória.",
-    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
-    iluminacao: {
-        sombrite: "70%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Luz filtrada média a forte."
+    "id": "laelia-fournieri",
+    "nome": "Cattleya fournieri",
+    "genero": "Cattleya",
+    "tipo": "Espécie botânica",
+    "dificuldade": "Difícil",
+    "caracteristicas": [
+        "Nome antigo: Laelia fournieri",
+        "Miniatura rupícola",
+        "Flores claras",
+        "Espécie brasileira rara"
+    ],
+    "fotos": [],
+    "descricao": "Pequena espécie rupícola brasileira, anteriormente incluída em Laelia. Produz flores claras, delicadas, em planta compacta adaptada a afloramentos rochosos e condições de elevada luminosidade.",
+    "origem": "Brasil.",
+    "regiao": "Campos rupestres do Sudeste brasileiro.",
+    "habitat": "Litófita em fendas de rochas, com drenagem imediata, poucos nutrientes, vento constante e noites frescas.",
+    "clima": "Intermediário a fresco.",
+    "climaFloracao": "Alta luminosidade, raízes saudáveis e inverno relativamente seco são essenciais. Calor noturno constante pode dificultar a floração.",
+    "iluminacao": {
+        "sombrite": "30% a 50%",
+        "solDireto": "Sim, suave",
+        "horario": "Manhã cedo",
+        "observacoes": "A planta deve receber muita claridade sem superaquecimento das raízes."
     },
-    floracao: "Época provisória até confirmação.",
-    adubacao: "Adubo equilibrado diluído durante o crescimento.",
-    rega: "Regar quando o substrato estiver quase seco.",
-    suporte: "Vaso pequeno ou placa, conforme o hábito observado.",
-    substrato: "Casca média, carvão e pedra-pomes.",
-    dica: "Em Serra/ES, mantenha cultivo conservador e registre detalhadamente a próxima floração para corrigir o nome.",
-    mesesFloracao: [8, 9, 10, 11],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 3,
-        perfume: 1,
-        luminosidade: 4,
-        agua: 3,
-        raridade: 5
+    "floracao": "Primavera e início do verão.",
+    "adubacao": "🌿 Orgânica: apenas traços de bokashi.\n💧 Foliar: 1/4 da dose a cada 10–15 dias durante crescimento.\n🧪 Liberação lenta: opcional e em quantidade mínima.",
+    "rega": "Molhar profundamente no crescimento e secar rápido. No inverno, regar apenas para evitar desidratação severa.",
+    "suporte": "🥇 Vaso de barro muito pequeno.\n🥈 Pedra porosa ou placa mineral.\n🥉 Cesto baixo com material mineral.",
+    "substrato": "🥇 Pedra-pomes + brita fina + carvão.\n🥈 Caco de telha + rocha porosa.\n🥉 Casca muito grossa com pedra, quase sem retenção.",
+    "errosComuns": "Calor abafado; vaso grande; excesso de adubo; matéria orgânica retentiva; pouca luz; rega excessiva no inverno.",
+    "dica": "Faça o replante somente no início das raízes novas. Fora dessa janela, a espécie pode permanecer meses sem recompor o sistema radicular.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Difícil; exige raízes frescas, ventilação contínua e redução do calor noturno.",
+        "montanhaFrio": "Muito boa em cultivo protegido, luminoso e seco no inverno."
+    },
+    "mesesFloracao": [
+        9,
+        10,
+        11
+    ],
+    "avaliacoes": {
+        "cultivo": 5,
+        "floracao": 3,
+        "perfume": 1,
+        "luminosidade": 5,
+        "agua": 2,
+        "raridade": 5
     }
 };
