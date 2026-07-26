@@ -7,37 +7,42 @@ export const cattleyaSchilleriana = {
     tipo: "Espécie botânica",
     dificuldade: "Avançada",
     caracteristicas: [
-        "Espécie brasileira",
-        "Cattleya bifoliada",
-        "Flores cerosas e perfumadas",
-        "Raízes sensíveis ao excesso de água"
+        "Brasileira",
+        "Bifoliada",
+        "Perfumada",
+        "Raízes sensíveis",
     ],
     fotos: [],
-    descricao: "Cattleya bifoliada brasileira de flores cerosas, pintalgadas e muito ornamentais, com labelo contrastante e perfume agradável. É uma espécie sensível ao excesso de umidade nas raízes e a replantes fora do momento correto.",
-    origem: "Originária do leste da Bahia ao Espírito Santo, no Brasil.",
-    regiao: "Mata Atlântica do leste da Bahia e do Espírito Santo.",
-    habitat: "Epífita de ambientes tropicais sazonalmente secos, crescendo em árvores bem iluminadas, quentes e muito ventiladas, onde as raízes secam rapidamente após as chuvas.",
-    clima: "Quente a intermediário, com excelente ventilação.",
-    climaFloracao: "A floração é favorecida por luminosidade filtrada forte, pseudobulbos maduros, raízes saudáveis e pequena redução das regas após o crescimento. Regiões litorâneas e quentes: o clima pode ser favorável, desde que haja ventilação constante e secagem rápida das raízes. Regiões de montanha e clima frio: proteja a planta de noites muito frias e mantenha-a no setor mais quente e iluminado do orquidário.",
+    descricao: "Cattleya bifoliada brasileira de flores cerosas e perfumadas, com pétalas e sépalas pintalgadas e labelo muito contrastante. É uma espécie compacta, valorizada por colecionadores e sensível a replantes mal programados.",
+    origem: "Originária do leste da Bahia e do Espírito Santo, no Brasil.",
+    regiao: "Mata Atlântica entre o leste da Bahia e o Espírito Santo.",
+    habitat: "Epífita de florestas tropicais sazonalmente secas, em locais claros, úmidos à noite e muito ventilados.",
+    clima: "Quente a intermediário, com boa amplitude térmica e ventilação intensa.",
+    climaFloracao: "A floração é favorecida por alta luminosidade filtrada, pseudobulbos plenamente maduros e crescimento vigoroso. A espécie aprecia um período relativamente mais seco, mas recebe umidade noturna e não deve sofrer desidratação severa.",
     iluminacao: {
-        sombrite: "40% a 50%",
-        solDireto: "Sim, somente o sol suave",
+        sombrite: "50% a 60%",
+        solDireto: "Sim, suave",
         horario: "Até aproximadamente 09:00",
-        observacoes: "Folhas verde-claras, firmes e com leve pigmentação indicam boa luz. Folhas muito escuras sugerem sombra excessiva; amarelecimento intenso ou queimaduras indicam excesso de sol."
+        observacoes: "Folhas verde-claras com discreta pigmentação arroxeada indicam luz suficiente. Folhas muito escuras sugerem sombra excessiva; pigmentação intensa, amarelecimento ou manchas secas indicam excesso."
     },
-    floracao: "Principalmente na primavera e no início do verão.",
-    adubacao: "🌿 Orgânica: bokashi em dose mínima, a cada 45–60 dias durante o crescimento, sempre afastado das raízes novas. 💧 Foliar: NPK equilibrado, como 20-20-20, em baixa concentração a cada 7–15 dias durante a formação do novo pseudobulbo; após a maturação, pode-se usar uma formulação com menor nitrogênio, como 10-30-20, por poucas aplicações. 🧪 Liberação lenta: Osmocote 14-14-14, em dose pequena, aplicado apenas no início da brotação.",
-    rega: "Regue abundantemente durante o crescimento ativo, mas permita secagem completa e rápida das raízes antes de regar novamente. Após a maturação do pseudobulbo, reduza a frequência sem provocar desidratação intensa.",
-    suporte: "🥇 Cachepô de madeira pequeno e muito vazado — proporciona secagem rápida e ótima oxigenação, condições essenciais para as raízes sensíveis. 🥈 Placa de cortiça, madeira dura ou tronco. 🥉 Vaso de barro pequeno, com muitos furos e pouca quantidade de substrato.",
-    substrato: "🥇 Casca de pinus grossa + carvão vegetal + pedra-pomes ou brita leve — mantém as raízes firmes, arejadas e com secagem rápida. 🥈 Carvão + pedra-pomes + pequena quantidade de casca grossa. 🥉 Cultivo quase sem substrato em cachepô, usando apenas alguns pedaços grandes de carvão ou casca para fixação.",
-    dica: "Replante apenas quando a nova brotação estiver iniciando e as novas raízes começarem a aparecer; mexer em raízes adultas fora desse período é uma das principais causas de perda da espécie.",
+    floracao: "Primavera e início do verão, com possibilidade de uma segunda floração em plantas bem estabelecidas.",
+    adubacao: "🌿 Orgânica: bokashi em quantidade mínima, dentro de saquinho, apenas durante o crescimento das novas frentes.\n💧 Foliar: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotos e raízes ativos.\n🧪 Liberação lenta: Osmocote 14-14-14, em dose muito moderada e sem contato com as raízes novas.",
+    rega: "Regue bem durante a emissão de brotos e raízes, deixando o suporte secar rapidamente antes da próxima rega. Após o amadurecimento dos pseudobulbos, aumente o intervalo, mas mantenha umidade ambiental e evite enrugamento intenso.",
+    suporte: "🥇 Cachepô pequeno de madeira dura: mantém as raízes extremamente arejadas e permite secagem rápida, condição essencial para a espécie.\n🥈 Placa de madeira ou cortiça.\n🥉 Vaso de barro pequeno e muito drenado.",
+    substrato: "🥇 Casca de pinus grossa + carvão vegetal + pedra-pomes: mistura aberta que seca rapidamente e não sufoca as raízes.\n🥈 Carvão vegetal + brita + cacos de telha.\n🥉 Cultivo montado com pouca ou nenhuma cobertura sobre as raízes.",
+    errosComuns: "Replantar fora do início das raízes novas; usar vaso grande; manter substrato constantemente úmido; cultivar com pouca luz; deixar água acumulada entre folhas e brotos; adubar em excesso perto da floração.",
+    dica: "Replante somente quando a nova frente começar a emitir raízes. A espécie pode permanecer estagnada por muitos meses quando suas raízes são perturbadas fora desse momento.",
+    adaptacaoRegional: {
+        litoralQuente: "A espécie se adapta bem ao calor desde que tenha ventilação forte, raízes expostas ou em substrato muito aberto e secagem rápida após cada rega.",
+        montanhaFrio: "Proteja de frio intenso e prolongado. Em temperaturas amenas, reduza a frequência das regas, mas não deixe a planta completamente seca por longos períodos."
+    },
     mesesFloracao: [9, 10, 11, 12],
     avaliacoes: {
         cultivo: 2,
         floracao: 3,
         perfume: 4,
-        luminosidade: 5,
-        agua: 2,
+        luminosidade: 4,
+        agua: 3,
         raridade: 5
     }
 };
