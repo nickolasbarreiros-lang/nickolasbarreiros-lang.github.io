@@ -34,7 +34,7 @@
 
         <div class="busca-hero-v4">
           <span aria-hidden="true">⌕</span>
-          <input id="busca" type="search" placeholder="Pesquisar espécie, gênero ou palavra-chave..." autocomplete="off">
+          <input id="busca" type="search" placeholder="Pesquisar nome, gênero, apelido, sinônimo ou palavra-chave..." autocomplete="off">
           <button id="botao-busca-hero" type="button">Buscar</button>
         </div>
 
@@ -92,13 +92,15 @@
       </section>
 
       <section id="pesquisa" class="painel-pesquisa painel-pesquisa-v4">
-        <div class="cabecalho-painel-pesquisa"><div><h2>Filtros avançados</h2><p>Refine a pesquisa por gênero, clima, iluminação, dificuldade ou época de floração.</p></div><button id="limpar-filtros" class="botao-limpar-filtros" type="button">Limpar filtros</button></div>
+        <div class="cabecalho-painel-pesquisa"><div><h2>Filtros avançados</h2><p>Refine a pesquisa por gênero, clima, sombrite, sol direto, dificuldade, raridade ou época de floração.</p></div><button id="limpar-filtros" class="botao-limpar-filtros" type="button">Limpar filtros</button></div>
         <div class="painel-filtros painel-filtros-avancados">
           <div class="grupo-campo"><label for="filtro-genero">Gênero</label><select id="filtro-genero" class="campo"><option value="">Todos os gêneros</option></select></div>
           <div class="grupo-campo"><label for="filtro-tipo">Classificação</label><select id="filtro-tipo" class="campo"><option value="">Espécies e híbridos</option><option value="Espécie botânica">Espécies botânicas</option><option value="Híbrido">Híbridos</option></select></div>
           <div class="grupo-campo"><label for="filtro-clima">Clima</label><select id="filtro-clima" class="campo"><option value="">Todos os climas</option></select></div>
-          <div class="grupo-campo"><label for="filtro-luz">Iluminação</label><select id="filtro-luz" class="campo"><option value="">Todas as iluminações</option></select></div>
+          <div class="grupo-campo"><label for="filtro-sombrite">Sombrite</label><select id="filtro-sombrite" class="campo"><option value="">50% ou 70%</option><option value="50%">Sombrite 50%</option><option value="70%">Sombrite 70%</option></select></div>
+          <div class="grupo-campo"><label for="filtro-sol-direto">Sol direto</label><select id="filtro-sol-direto" class="campo"><option value="">Sim ou não</option><option value="Sim">Sim</option><option value="Não">Não</option></select></div>
           <div class="grupo-campo"><label for="filtro-dificuldade">Dificuldade</label><select id="filtro-dificuldade" class="campo"><option value="">Todas as dificuldades</option><option value="Fácil">Fácil</option><option value="Moderada">Moderada</option><option value="Difícil">Difícil</option></select></div>
+          <div class="grupo-campo"><label for="filtro-raridade">Raridade</label><select id="filtro-raridade" class="campo"><option value="">Todos os níveis</option><option value="1">1 — Muito comum</option><option value="2">2 — Comum</option><option value="3">3 — Pouco comum</option><option value="4">4 — Rara</option><option value="5">5 — Muito rara</option></select></div>
           <div class="grupo-campo"><label for="filtro-floracao">Mês de floração</label><select id="filtro-floracao" class="campo"><option value="">Qualquer época</option><option value="1">Janeiro</option><option value="2">Fevereiro</option><option value="3">Março</option><option value="4">Abril</option><option value="5">Maio</option><option value="6">Junho</option><option value="7">Julho</option><option value="8">Agosto</option><option value="9">Setembro</option><option value="10">Outubro</option><option value="11">Novembro</option><option value="12">Dezembro</option></select></div>
         </div>
       </section>

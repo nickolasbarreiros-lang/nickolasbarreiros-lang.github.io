@@ -15,7 +15,12 @@ export const dicaDeOuroEmSerraEsOSegredoE = {
     habitat: "",
     clima: "",
     climaFloracao: "A floração é favorecida por crescimento vigoroso, iluminação adequada, boa ventilação e leve diferença entre as temperaturas do dia e da noite. Evite extremos de calor, frio ou umidade durante a formação dos botões.",
-    iluminacao: "",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: ""
+    },
     floracao: "",
     adubacao: "",
     rega: "",

@@ -19,7 +19,12 @@ export const cattleyaWalkeriana = {
     habitat: "Epífita ou rupícola em ambientes sazonalmente secos, sobre árvores de casca rugosa ou afloramentos rochosos bem ventilados",
     clima: "Intermediário a quente, com noites mais amenas e período relativamente mais seco após o amadurecimento dos pseudobulbos",
     climaFloracao: "A floração é favorecida por muita luz, excelente ventilação, raízes que sequem rapidamente e noites um pouco mais frescas no outono e inverno. Excesso de água durante o amadurecimento dos pseudobulbos pode reduzir a floração.",
-    iluminacao: "Luz filtrada intensa, próxima à usada para Cattleyas; pode receber sol fraco da manhã com adaptação",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00",
+        observacoes: "Luz filtrada intensa, próxima à usada para Cattleyas; pode receber sol fraco da manhã com adaptação"
+    },
     floracao: "Principalmente do outono ao inverno; o período pode variar conforme o clone e o cultivo",
     adubacao: "Durante a brotação, use adubo foliar equilibrado em baixa concentração a cada 7–15 dias. Reduza quando o pseudobulbo amadurecer. Bokashi ou Osmocote podem ser usados em pequena quantidade, sem contato direto com raízes novas.",
     rega: "Regue bem durante a formação das raízes e brotações, deixando o suporte secar quase completamente antes da próxima rega. Após o amadurecimento, aumente o intervalo sem permitir desidratação prolongada.",

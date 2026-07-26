@@ -19,7 +19,12 @@ export const zygopetalumMaculatum = {
     habitat: "Terrestre, rupícola ou epífita em ambientes úmidos de altitude, com noites frescas",
     clima: "Ameno a intermediário, úmido e bem ventilado",
     climaFloracao: "Prefere clima intermediário, com noites frescas, umidade constante e boa circulação de ar. Em regiões litorâneas quentes, proteja do calor excessivo do verão e aproveite o frescor do outono e inverno para estimular as hastes.",
-    iluminacao: "Meia-sombra clara; evite sol forte sobre as folhas",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00",
+        observacoes: "Meia-sombra clara; evite sol forte sobre as folhas"
+    },
     floracao: "Geralmente outono, inverno e início da primavera",
     adubacao: "Adubo equilibrado e diluído durante o crescimento. Aplicações fracas e frequentes são mais seguras. Bokashi pode ser usado em saquinho; Osmocote somente em dose baixa.",
     rega: "Mantenha o substrato levemente úmido no crescimento, sem encharcar. Reduza um pouco em períodos frios, mas não deixe secar completamente por longos períodos.",

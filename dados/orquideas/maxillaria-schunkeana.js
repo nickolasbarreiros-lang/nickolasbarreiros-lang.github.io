@@ -20,7 +20,12 @@ export const maxillariaSchunkeana = {
     habitat: "Epífita em florestas úmidas e sombreadas de altitude.",
     clima: "Intermediário a fresco, úmido e ventilado.",
     climaFloracao: "A floração é favorecida por pseudobulbos maduros, boa luminosidade filtrada e noites mais frescas. Após o crescimento, uma redução moderada das regas ajuda a marcar o ciclo sem deixar os bulbos enrugarem.",
-    iluminacao: "Luz filtrada média, sem exposição ao sol forte.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00",
+        observacoes: "Luz filtrada média, sem exposição ao sol forte."
+    },
     floracao: "Pode florescer em diferentes épocas, com maior frequência entre inverno e primavera.",
     adubacao: "Adubo equilibrado diluído durante o ano, reduzindo no frio. Orgânico leve em vaso, sem excesso.",
     rega: "Regular, mantendo umidade moderada e permitindo leve secagem superficial.",

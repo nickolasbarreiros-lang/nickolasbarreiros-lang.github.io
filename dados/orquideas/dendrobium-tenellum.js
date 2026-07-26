@@ -20,7 +20,12 @@ export const dendrobiumTenellum = {
     habitat: "Epífita em florestas sazonais, com boa luz e ventilação.",
     clima: "Quente a intermediário.",
     climaFloracao: "A floração é favorecida pela maturação completa dos pseudobulbos, noites mais frescas e uma redução moderada das regas. Retome água e adubação quando os novos brotos aparecerem.",
-    iluminacao: "Luz filtrada média a intensa.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média a intensa."
+    },
     floracao: "Mais comum no fim do inverno e na primavera.",
     adubacao: "Adubo rico em nitrogênio em baixa dose na brotação; equilibrado até maturação. Suspender ou reduzir bastante durante o repouso.",
     rega: "Abundante no crescimento. Reduzir no inverno quando as hastes estiverem maduras, retomando ao surgir nova brotação.",

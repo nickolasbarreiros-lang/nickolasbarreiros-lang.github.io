@@ -20,7 +20,12 @@ export const speckliniaGrobyi = {
     habitat: "Florestas úmidas, sobre troncos e ramos sombreados.",
     clima: "Quente a intermediário, úmido.",
     climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
-    iluminacao: "Luz filtrada baixa a média.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada baixa a média."
+    },
     floracao: "Pode florescer em vários períodos ao longo do ano.",
     adubacao: "Adubo muito diluído, aplicado ocasionalmente.",
     rega: "Frequente, com raízes arejadas e sem água estagnada.",

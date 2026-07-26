@@ -19,7 +19,7 @@
 
     <link
         rel="stylesheet"
-        href="estilos.css?v=111"
+        href="estilos.css?v=visual-1-5-20260724"
     >
 
 </head>
@@ -80,8 +80,100 @@
 
     <script
         type="module"
-        src="ficha.js?v=111"
+        src="ficha.js?v=visual-1-5-20260724"
     ></script>
+
+    <!--
+        Correção defensiva da iluminação.
+        Este módulo também corrige páginas renderizadas por versões antigas
+        do ficha.js que convertiam o objeto em "[object Object]".
+    -->
+    <script type="module">
+        import { orquideas } from "./dados/orquideas/index.js?v=visual-1-5-20260724";
+
+        const idAtual = new URLSearchParams(window.location.search).get("id");
+        const especieAtual = orquideas.find((item) => String(item.id) === String(idAtual));
+
+        function escaparHtml(valor) {
+            return String(valor ?? "")
+                .replaceAll("&", "&amp;")
+                .replaceAll("<", "&lt;")
+                .replaceAll(">", "&gt;")
+                .replaceAll('"', "&quot;")
+                .replaceAll("'", "&#039;");
+        }
+
+        function montarIluminacao(iluminacao) {
+            if (!iluminacao) return "Não informado";
+            if (typeof iluminacao !== "object") return escaparHtml(iluminacao);
+
+            const itens = [];
+            if (iluminacao.sombrite) {
+                itens.push(`<span class="chip-info-v2"><span aria-hidden="true">🟨</span><span>${escaparHtml(iluminacao.sombrite)} de sombrite</span></span>`);
+            }
+
+            if (iluminacao.solDireto) {
+                const valor = String(iluminacao.solDireto).trim().toLowerCase();
+                const texto = valor === "sim" ? "Com sol direto" :
+                    (valor === "não" || valor === "nao") ? "Sem sol direto" : iluminacao.solDireto;
+                const icone = valor === "sim" ? "☀️" : "🚫";
+                itens.push(`<span class="chip-info-v2"><span aria-hidden="true">${icone}</span><span>${escaparHtml(texto)}</span></span>`);
+            }
+
+            if (iluminacao.horario) {
+                itens.push(`<span class="chip-info-v2"><span aria-hidden="true">🕘</span><span>${escaparHtml(iluminacao.horario)}</span></span>`);
+            }
+
+            const linha = itens.length
+                ? `<div class="linha-chips-v2">${itens.join("")}</div>`
+                : "";
+            const observacoes = iluminacao.observacoes
+                ? `<p class="observacao-card-v2">${escaparHtml(iluminacao.observacoes)}</p>`
+                : "";
+
+            return linha + observacoes || "Não informado";
+        }
+
+        function corrigirIluminacaoRenderizada() {
+            if (!especieAtual) return false;
+
+            const titulos = [...document.querySelectorAll("#ficha h3, #ficha h4, #ficha strong")];
+            const titulo = titulos.find((elemento) =>
+                elemento.textContent.trim().toLowerCase() === "iluminação"
+            );
+
+            if (!titulo) return false;
+
+            const card = titulo.closest(".card-cultivo-v2, .bloco-informacao, article, .card");
+            if (!card) return false;
+
+            let conteudo = card.querySelector(".conteudo-card-cultivo-v2");
+            if (conteudo) {
+                conteudo.querySelectorAll(".linha-chips-v2, .info-horizontal, .observacao-card-v2").forEach((elemento) => elemento.remove());
+                titulo.insertAdjacentHTML("afterend", montarIluminacao(especieAtual.iluminacao));
+            } else {
+                const paragrafos = [...card.querySelectorAll("p")];
+                const alvo = paragrafos.find((p) => p.textContent.includes("[object Object]")) || paragrafos[0];
+                if (alvo) {
+                    alvo.classList.add("conteudo-iluminacao-corrigido");
+                    alvo.innerHTML = montarIluminacao(especieAtual.iluminacao);
+                } else {
+                    titulo.insertAdjacentHTML("afterend", montarIluminacao(especieAtual.iluminacao));
+                }
+            }
+
+            card.classList.add("card-iluminacao-v2", "iluminacao-corrigida-v15");
+            return true;
+        }
+
+        if (!corrigirIluminacaoRenderizada()) {
+            const observador = new MutationObserver(() => {
+                if (corrigirIluminacaoRenderizada()) observador.disconnect();
+            });
+            observador.observe(document.getElementById("ficha"), { childList: true, subtree: true });
+            window.setTimeout(() => observador.disconnect(), 10000);
+        }
+    </script>
 
 </body>
 

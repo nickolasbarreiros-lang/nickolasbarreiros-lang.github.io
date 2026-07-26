@@ -20,7 +20,12 @@ export const oncidiumTwinkle = {
     habitat: "Não se aplica; híbrido criado em cultivo.",
     clima: "Intermediário, tolerando calor moderado com boa ventilação.",
     climaFloracao: "A floração é favorecida por boa luminosidade filtrada, crescimento vigoroso e noites um pouco mais frescas após o amadurecimento dos pseudobulbos. Evite sombra excessiva e encharcamento prolongado.",
-    iluminacao: "Meia-sombra clara a luz filtrada média.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Meia-sombra clara a luz filtrada média."
+    },
     floracao: "Comum no outono e inverno, podendo variar conforme o clone.",
     adubacao: "Adubo equilibrado diluído durante crescimento; reduzir quando o pseudobulbo amadurecer. Bokashi em pequena quantidade.",
     rega: "Manter levemente úmido durante brotação, deixando secar parcialmente entre regas.",

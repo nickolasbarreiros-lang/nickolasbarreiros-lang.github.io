@@ -20,7 +20,12 @@ export const miltoniaClowesii = {
     habitat: "Epífita em florestas úmidas, de baixas a médias altitudes.",
     clima: "Intermediário, tolerando calor com boa ventilação.",
     climaFloracao: "A floração é favorecida por crescimento vigoroso, iluminação adequada, boa ventilação e leve diferença entre as temperaturas do dia e da noite. Evite extremos de calor, frio ou umidade durante a formação dos botões.",
-    iluminacao: "Luz filtrada média.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média."
+    },
     floracao: "Outono e inverno.",
     adubacao: "Adubo equilibrado na brotação; reduzir após maturação. Bokashi leve na borda do vaso.",
     rega: "Regular durante crescimento, mantendo leve umidade. Diminuir discretamente no frio.",

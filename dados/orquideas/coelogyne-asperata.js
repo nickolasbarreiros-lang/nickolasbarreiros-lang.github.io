@@ -14,7 +14,12 @@ export const coelogyneAsperata = {
     habitat: "Florestas tropicais úmidas de baixa a média altitude, como epífita ou litófita.",
     clima: "Quente a intermediário, úmido e ventilado.",
     climaFloracao: "A floração é favorecida por noites mais frescas e leve redução das regas após o amadurecimento dos pseudobulbos. Evite calor abafado e umidade excessiva no período de repouso.",
-    iluminacao: "Luz filtrada média a forte, sem sol intenso.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00",
+        observacoes: "Luz filtrada média a forte, sem sol intenso."
+    },
     floracao: "Costuma florescer entre o fim do inverno e a primavera, a partir de brotações maduras.",
     adubacao: "Adubo equilibrado diluído semanalmente no crescimento; reduzir após a maturação dos pseudobulbos.",
     rega: "Abundante no crescimento, com pequena redução após a maturação, sem seca prolongada.",

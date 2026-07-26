@@ -20,7 +20,12 @@ export const encycliaMineirinha = {
     habitat: "Não se aplica; híbrido horticultural.",
     clima: "Quente a intermediário.",
     climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
-    iluminacao: "Luz filtrada intensa.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada intensa."
+    },
     floracao: "Mais frequente na primavera e no verão, com variação entre clones.",
     adubacao: "Adubo equilibrado durante crescimento e formulação de floração quando os pseudobulbos amadurecem. Bokashi leve a cada 2–3 meses.",
     rega: "Regular no crescimento, deixando o substrato secar parcialmente. Reduzir após maturação dos pseudobulbos.",

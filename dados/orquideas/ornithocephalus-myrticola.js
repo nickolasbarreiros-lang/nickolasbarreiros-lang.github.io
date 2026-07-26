@@ -20,7 +20,12 @@ export const ornithocephalusMyrticola = {
     habitat: "Ramos finos em florestas muito úmidas e sombreadas.",
     clima: "Quente a intermediário, muito úmido.",
     climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
-    iluminacao: "Luz filtrada baixa.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada baixa."
+    },
     floracao: "Pode florescer entre primavera e verão.",
     adubacao: "Adubo muito diluído, em baixa frequência.",
     rega: "Nebulizações ou regas frequentes, permitindo rápida drenagem.",

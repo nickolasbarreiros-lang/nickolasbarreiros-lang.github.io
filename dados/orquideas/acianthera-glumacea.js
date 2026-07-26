@@ -13,6 +13,10 @@ export const aciantheraGlumacea = {
         "Clima úmido",
     ],
     fotos: [
+        "imagens/Acianthera glumacea/Acianthera glumacea1.jpeg",
+        "imagens/Acianthera glumacea/Acianthera glumacea2.jpeg",
+        "imagens/Acianthera glumacea/Acianthera glumacea3.jpg",
+        "imagens/Acianthera glumacea/Acianthera glumacea4.jpg",
     ],
     descricao: "Espécie brasileira do grupo Pleurothallidinae, de porte compacto e flores pequenas que surgem próximas às folhas. É cultivada principalmente por colecionadores de miniaturas e espécies nativas.",
     origem: "Brasil",
@@ -20,7 +24,12 @@ export const aciantheraGlumacea = {
     habitat: "Epífita em florestas úmidas e sombreadas, com ar em movimento constante.",
     clima: "Intermediário a fresco e úmido.",
     climaFloracao: "A floração é favorecida por clima intermediário, noites frescas, alta umidade e ventilação constante. No litoral, mantenha em posição sombreada e fresca, pois calor abafado pode interromper a formação dos botões.",
-    iluminacao: "Sombra clara a luz filtrada média.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Sombra clara a luz filtrada média."
+    },
     floracao: "Pode ocorrer em diferentes épocas, com maior atividade entre outono e primavera.",
     adubacao: "Adubo equilibrado muito diluído, evitando acúmulo de sais.",
     rega: "Manter umidade regular e raízes arejadas; não permitir secas longas.",

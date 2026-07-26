@@ -19,7 +19,12 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     habitat: "Em natureza, a espécie cresce como epífita em florestas quentes e úmidas, sob luz forte filtrada",
     clima: "Quente e úmido, sem noites frias prolongadas",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
-    iluminacao: "Luz filtrada intensa",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada intensa"
+    },
     floracao: "Primavera e verão, eventualmente em outros meses sob cultivo quente",
     adubacao: "Adubação foliar equilibrada em baixa concentração durante o ano, mais frequente durante brotação e enraizamento. Adubo orgânico apenas em pequena dose.",
     rega: "Mantenha regas regulares no calor, permitindo que o substrato fique apenas levemente seco entre elas. No inverno, reduza de acordo com a temperatura, sem impor seca completa.",

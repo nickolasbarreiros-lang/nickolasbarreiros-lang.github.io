@@ -20,7 +20,12 @@ export const oncidiumPubes = {
     habitat: "Provavelmente epífita de floresta tropical ou subtropical.",
     clima: "Quente a intermediário.",
     climaFloracao: "A floração é favorecida por boa luminosidade filtrada, crescimento vigoroso e noites um pouco mais frescas após o amadurecimento dos pseudobulbos. Evite sombra excessiva e encharcamento prolongado.",
-    iluminacao: "Luz filtrada média a alta.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média a alta."
+    },
     floracao: "Período provisório entre primavera e verão.",
     adubacao: "Adubo equilibrado diluído durante crescimento e emissão de raízes.",
     rega: "Regar bem e permitir leve secagem entre regas.",

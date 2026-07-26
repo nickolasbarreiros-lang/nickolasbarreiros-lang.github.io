@@ -19,7 +19,12 @@ export const rodrigueziaLanceolata = {
     habitat: "Epífita em florestas úmidas e quentes, sobre galhos com boa circulação de ar",
     clima: "Quente a intermediário e úmido",
     climaFloracao: "A floração é favorecida por boa luminosidade filtrada, crescimento vigoroso e noites um pouco mais frescas após o amadurecimento dos pseudobulbos. Evite sombra excessiva e encharcamento prolongado.",
-    iluminacao: "Meia-sombra clara, com luz filtrada moderada a intensa",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Meia-sombra clara, com luz filtrada moderada a intensa"
+    },
     floracao: "Pode florescer em diferentes épocas; com frequência do fim do inverno à primavera",
     adubacao: "Adubação foliar equilibrada e fraca a cada 7–15 dias durante crescimento. Bokashi em saquinho ou Osmocote em dose pequena podem complementar.",
     rega: "Regas frequentes no calor, permitindo leve secagem entre elas. Plantas montadas precisam de água mais frequente.",

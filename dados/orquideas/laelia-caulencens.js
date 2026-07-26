@@ -14,7 +14,12 @@ export const laeliaCaulencens = {
     habitat: "Provavelmente ambiente rupícola ou epífito claro, conforme o grupo horticultural associado.",
     clima: "Intermediário, muito ventilado.",
     climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
-    iluminacao: "Luz filtrada forte, com sol fraco da manhã.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Sim",
+        horario: "Até 09:00",
+        observacoes: "Luz filtrada forte, com sol fraco da manhã."
+    },
     floracao: "Época provisória até confirmação da identidade.",
     adubacao: "Adubação leve e frequente no crescimento.",
     rega: "Regar bem e permitir secagem rápida do substrato.",

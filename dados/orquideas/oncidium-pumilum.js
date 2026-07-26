@@ -20,7 +20,12 @@ export const oncidiumPumilum = {
     habitat: "Epífita em matas abertas e áreas bem iluminadas, com boa circulação de ar.",
     clima: "Quente a intermediário.",
     climaFloracao: "A floração é favorecida por boa luminosidade filtrada, crescimento vigoroso e noites um pouco mais frescas após o amadurecimento dos pseudobulbos. Evite sombra excessiva e encharcamento prolongado.",
-    iluminacao: "Luz filtrada média a intensa.",
+    iluminacao: {
+        sombrite: "50%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média a intensa."
+    },
     floracao: "Primavera e verão.",
     adubacao: "Adubo equilibrado diluído na brotação. Reduzir quando os pseudobulbos amadurecerem.",
     rega: "Regular, com rápida secagem. Plantas montadas exigem maior frequência no verão.",

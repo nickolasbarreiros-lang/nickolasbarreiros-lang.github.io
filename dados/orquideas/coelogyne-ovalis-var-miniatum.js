@@ -14,7 +14,12 @@ export const coelogyneOvalisVarMiniatum = {
     habitat: "Florestas úmidas de média altitude, em troncos e rochas musgosas.",
     clima: "Intermediário a fresco.",
     climaFloracao: "A floração é favorecida por noites mais frescas e leve redução das regas após o amadurecimento dos pseudobulbos. Evite calor abafado e umidade excessiva no período de repouso.",
-    iluminacao: "Luz filtrada média.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Não",
+        horario: "Apenas luz indireta",
+        observacoes: "Luz filtrada média."
+    },
     floracao: "Pode florescer do verão ao outono, conforme o clone e o clima.",
     adubacao: "Adubo equilibrado diluído no crescimento ativo.",
     rega: "Manter úmida, com leve redução após a maturação dos pseudobulbos.",
