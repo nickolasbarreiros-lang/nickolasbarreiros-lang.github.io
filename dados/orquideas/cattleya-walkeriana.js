@@ -1,49 +1,42 @@
-// Ficha revisada para cultivo, com adaptação ao clima de Serra/ES.
+// Ficha científica e de cultivo revisada — Lote 06.
 
 export const cattleyaWalkeriana = {
     id: "cattleya-walkeriana",
     nome: "Cattleya walkeriana",
     genero: "Cattleya",
     tipo: "Espécie botânica",
-    dificuldade: "Moderada",
-    caracteristicas: [
-        "Brasileira",
-        "Epífita ou rupícola",
-        "Perfumada",
-        "Flores grandes"
-    ],
-    fotos: [],
-    descricao: "Espécie brasileira de crescimento compacto, reconhecida pelas flores grandes em relação ao tamanho da planta e pelo perfume agradável. Produz pseudobulbos curtos, geralmente com uma folha, e costuma florescer a partir de brotações maduras.",
-    origem: "Brasil",
-    regiao: "Centro-Oeste e Sudeste do Brasil, especialmente áreas do Cerrado",
-    habitat: "Epífita ou rupícola em ambientes sazonalmente secos, sobre árvores de casca rugosa ou afloramentos rochosos bem ventilados",
-    clima: "Intermediário a quente, com noites mais amenas e período relativamente mais seco após o amadurecimento dos pseudobulbos",
-    climaFloracao: "A floração é favorecida por muita luz, excelente ventilação, raízes que sequem rapidamente e noites um pouco mais frescas no outono e inverno. Excesso de água durante o amadurecimento dos pseudobulbos pode reduzir a floração.",
+    dificuldade: "Exigente",
+    caracteristicas: ["Brasileira", "Compacta", "Perfume intenso", "Sazonalmente seca"],
+    descricao: "Cattleya brasileira compacta, célebre pelas flores grandes em relação ao porte e pelo perfume intenso. É epífita ou litófita de ambientes sazonalmente secos e exige excelente aeração radicular.",
+    origem: "Brasil central e sudeste.",
+    regiao: "Cerrado, campos rupestres e matas sazonais de Minas Gerais, Goiás, Mato Grosso e áreas adjacentes.",
+    habitat: "Epífita ou litófita em locais claros, ventilados e sujeitos a períodos secos.",
+    clima: "Quente a intermediário, com estação seca marcada.",
+    climaFloracao: "A floração costuma surgir após a maturação e redução das regas, muitas vezes em pseudobulbo floral curto.",
     iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Luz filtrada intensa, próxima à usada para Cattleyas; pode receber sol fraco da manhã com adaptação"
+        sombrite: "30% a 50%",
+        solDireto: "Sim, aclimatado",
+        horario: "Manhã",
+        observacoes: "Folhas verde-claras e firmes indicam iluminação adequada."
     },
-    floracao: "Principalmente do outono ao inverno; o período pode variar conforme o clone e o cultivo",
-    adubacao: "Durante a brotação, use adubo foliar equilibrado em baixa concentração a cada 7–15 dias. Reduza quando o pseudobulbo amadurecer. Bokashi ou Osmocote podem ser usados em pequena quantidade, sem contato direto com raízes novas.",
-    rega: "Regue bem durante a formação das raízes e brotações, deixando o suporte secar quase completamente antes da próxima rega. Após o amadurecimento, aumente o intervalo sem permitir desidratação prolongada.",
-    suporte: "Tronco de madeira dura, casca grossa, placa ou cachepô muito arejado; vasos pequenos e bem drenados também funcionam",
-    substrato: "Mistura muito drenante de casca de pinus grossa, carvão e pedra-pomes; use pouco esfagno apenas se o ambiente secar depressa",
-    dica: "Em Serra/ES, proteja do sol forte entre 10h e 15h e priorize ventilação. O excesso de umidade contínua no inverno costuma prejudicar mais do que uma breve secagem.",
-    mesesFloracao: [
-        4,
-        5,
-        6,
-        7,
-        8
-    ],
+    floracao: "Outono ao inverno, com variação regional e clonal.",
+    adubacao: "🌿 Orgânica: bokashi muito leve durante o crescimento.\n💧 Foliar: NPK equilibrado em baixa dose enquanto raízes estão ativas.\n🧪 Liberação lenta: dose mínima no começo da brotação.",
+    rega: "Abundante durante raízes novas, seguida de secagem completa. Reduza muito após maturação e no período frio/seco.",
+    suporte: "🥇 Placa de madeira dura ou cortiça.\n🥈 Cestinho aberto.\n🥉 Vaso de barro raso.",
+    substrato: "🥇 Montada sem substrato.\n🥈 Casca muito grossa + carvão.\n🥉 Brita grossa + carvão.",
+    errosComuns: "Pouca luz; umidade constante; vaso profundo; substrato fino; replantio fora de época; molhar brotação floral repetidamente.",
+    dica: "Para florescer bem, priorize luz, secagem e raízes intactas; adubação pesada não compensa cultivo abafado.",
+    adaptacaoRegional: {
+        litoralQuente: "Possível com montagem, ventilação máxima e proteção das chuvas de inverno.",
+        montanhaFrio: "Em geral favorável, desde que protegida de geada e de frio úmido prolongado."
+    },
+    mesesFloracao: [4, 5, 6, 7, 8],
     avaliacoes: {
-        cultivo: 3,
-        floracao: 4,
-        perfume: 4,
-        luminosidade: 4,
+        cultivo: 5,
+        floracao: 5,
+        perfume: 5,
+        luminosidade: 5,
         agua: 2,
-        raridade: 3
+        raridade: 4
     }
 };

@@ -1,50 +1,42 @@
-// Ficha revisada para cultivo, com adaptação ao clima de Serra/ES.
+// Ficha científica e de cultivo revisada — Lote 06.
 
 export const cattleyaViolaceaFFlamea = {
     id: "cattleya-violacea-f-flamea",
     nome: "Cattleya violacea f. flamea",
     genero: "Cattleya",
-    tipo: "Espécie botânica — forma de cor",
+    tipo: "Espécie botânica — forma horticultural",
     dificuldade: "Moderada",
-    caracteristicas: [
-        "Amazônica",
-        "Bifoliada",
-        "Clima quente",
-        "Forma flamea"
-    ],
-    fotos: [],
-    descricao: "Forma de cor da Cattleya violacea, espécie bifoliada amazônica de flores vistosas, cerosas e geralmente perfumadas. A designação flamea descreve a concentração de pigmentação nas pétalas, não uma espécie distinta.",
-    origem: "Norte da América do Sul",
-    regiao: "Bacia Amazônica",
-    habitat: "Epífita em florestas quentes e úmidas, frequentemente próxima a rios, com boa luminosidade no alto das árvores",
-    clima: "Quente e úmido durante todo o ano, evitando frio prolongado",
-    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
+    caracteristicas: ["Amazônica", "Bifoliada", "Forma flamea", "Clima quente"],
+    descricao: "Forma horticultural de Cattleya violacea selecionada pelo padrão flamea, com pétalas exibindo intensificação de cor em direção às extremidades. A forma não é tratada como táxon separado nas principais bases botânicas; pertence à espécie C. violacea.",
+    origem: "América do Sul tropical; a seleção flamea é de origem hortícola.",
+    regiao: "Amazônia e outras áreas úmidas do norte da América do Sul.",
+    habitat: "Epífita em florestas tropicais quentes e úmidas, frequentemente próxima a rios, com boa luz filtrada e circulação de ar.",
+    clima: "Quente e úmido o ano inteiro.",
+    climaFloracao: "Floresce com calor constante, crescimento vigoroso e raízes ativas; não aprecia repouso seco severo.",
     iluminacao: {
-        sombrite: "50%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Luz filtrada intensa, com boa ventilação"
+        sombrite: "50% a 60%",
+        solDireto: "Apenas fraco",
+        horario: "Início da manhã",
+        observacoes: "Forneça luz brilhante filtrada, evitando superaquecimento das folhas."
     },
-    floracao: "Mais comum na primavera e no verão, podendo variar em cultivo quente",
-    adubacao: "Use adubo equilibrado e diluído durante todo o crescimento, com aplicações regulares. Bokashi ou Osmocote podem ser usados em dose pequena, pois o calor acelera a liberação de nutrientes.",
-    rega: "Regue com frequência no calor, mas permita secagem parcial do substrato. Reduza apenas levemente em períodos mais frescos; não faça repouso seco severo.",
-    suporte: "Vaso de barro vazado, cachepô ou montagem em tronco quando a umidade ambiental for alta",
-    substrato: "Casca de pinus média, carvão, pedra-pomes e pequena porção de esfagno para equilibrar retenção e aeração",
-    dica: "Em Serra/ES, ela se adapta bem ao calor, mas precisa de sombra nas horas mais fortes e circulação de ar constante para evitar manchas e podridão nas brotações.",
-    mesesFloracao: [
-        9,
-        10,
-        11,
-        12,
-        1,
-        2
-    ],
+    floracao: "Primavera e verão, podendo ocorrer em outros meses sob cultivo quente.",
+    adubacao: "🌿 Orgânica: bokashi leve durante todo o crescimento.\n💧 Foliar: NPK equilibrado em 1/4 da dose semanal ou quinzenal.\n🧪 Liberação lenta: dose baixa, somente em vasos bem drenados.",
+    rega: "Mantenha regas regulares durante o ano, permitindo leve secagem entre elas. Evite estiagem prolongada e água parada nas raízes.",
+    suporte: "🥇 Cestinho de madeira.\n🥈 Vaso de barro bem furado.\n🥉 Placa com alta umidade ambiental.",
+    substrato: "🥇 Casca grossa + carvão + esfagno em pequena proporção.\n🥈 Fibra de coco grossa + carvão.\n🥉 Pedra-pomes + casca média.",
+    errosComuns: "Frio; baixa umidade; repouso seco excessivo; sol forte; substrato compacto; água acumulada no rizoma.",
+    dica: "Calor noturno e umidade estável são tão importantes quanto luz; mantenha as raízes ativas sem deixá-las abafadas.",
+    adaptacaoRegional: {
+        litoralQuente: "Muito favorável, desde que haja ventilação e controle de excesso de chuva.",
+        montanhaFrio: "Cultive em área protegida ou aquecida; noites frias prolongadas reduzem vigor e podem manchar folhas."
+    },
+    mesesFloracao: [10, 11, 12, 1, 2, 3],
     avaliacoes: {
         cultivo: 3,
         floracao: 4,
-        perfume: 4,
+        perfume: 3,
         luminosidade: 4,
         agua: 4,
-        raridade: 4
+        raridade: 5
     }
 };

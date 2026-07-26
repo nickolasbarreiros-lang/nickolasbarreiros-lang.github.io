@@ -1,38 +1,42 @@
-// Ficha revisada para o catálogo de orquídeas.
+// Ficha científica e de cultivo revisada — Lote 06.
 
 export const cattleyaWarneri = {
     id: "cattleya-warneri",
     nome: "Cattleya warneri",
     genero: "Cattleya",
-    tipo: "Espécie",
-    dificuldade: "Intermediário",
-    caracteristicas: ["Unifoliada brasileira", "Flores muito grandes", "Perfume marcante"],
-    fotos: [],
-    descricao: "Grande Cattleya unifoliada brasileira, símbolo da orquidofilia capixaba e mineira. Produz flores amplas, perfumadas e de grande valor ornamental.",
-    origem: "Brasil",
-    regiao: "Espírito Santo e Minas Gerais",
-    habitat: "Mata Atlântica de encostas e vales, em árvores com boa luminosidade e circulação de ar.",
-    clima: "Intermediário a quente.",
-    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
+    tipo: "Espécie botânica",
+    dificuldade: "Moderada",
+    caracteristicas: ["Unifoliada", "Flores muito grandes", "Brasileira", "Primaveril"],
+    descricao: "Grande Cattleya unifoliada brasileira, conhecida pelas flores vistosas e labelo amplo. É semelhante a C. labiata, mas floresce tipicamente na primavera e possui distribuição natural associada à Mata Atlântica do sudeste.",
+    origem: "Sudeste do Brasil.",
+    regiao: "Principalmente Minas Gerais, Espírito Santo e áreas próximas da Mata Atlântica.",
+    habitat: "Epífita em florestas úmidas e sazonais, com boa luminosidade nas copas e ventilação constante.",
+    clima: "Intermediário a quente, com inverno um pouco mais seco.",
+    climaFloracao: "A maturação do pseudobulbo durante o inverno e o aumento de temperatura na primavera estimulam a floração.",
     iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Média a alta, com sol suave da manhã."
+        sombrite: "40% a 50%",
+        solDireto: "Fraco e aclimatado",
+        horario: "Manhã",
+        observacoes: "Luz alta sem superaquecimento é essencial para florações fortes."
     },
     floracao: "Primavera, especialmente entre setembro e novembro.",
-    adubacao: "Equilibrada no crescimento; reforço moderado de fósforo e potássio na maturação.",
-    rega: "Regular durante crescimento, com leve redução após amadurecimento.",
-    suporte: "Vaso, cachepô ou árvore.",
-    substrato: "Casca média a grossa, carvão, pedra-pomes e brita.",
-    dica: "Em Serra/ES, a espécie se adapta muito bem. Dê luz forte sem queimar as folhas e preserve a ventilação nas noites quentes.",
+    adubacao: "🌿 Orgânica: bokashi moderado na fase de crescimento.\n💧 Foliar: NPK equilibrado a cada 10 a 15 dias; reduza no inverno.\n🧪 Liberação lenta: dose baixa no início da brotação.",
+    rega: "Regue regularmente com brotos e raízes ativos. No inverno, aumente o intervalo, sem desidratar excessivamente os pseudobulbos.",
+    suporte: "🥇 Vaso de barro firme e furado.\n🥈 Cestinho de madeira.\n🥉 Placa para plantas já adaptadas.",
+    substrato: "🥇 Casca grossa + carvão + brita.\n🥈 Casca média + pedra-pomes.\n🥉 Fibra de coco grossa + carvão.",
+    errosComuns: "Pouca luz; excesso de água no inverno; vaso grande; cortar espata aparentemente seca; replantar sem raízes novas.",
+    dica: "Não remova a espata seca: em Cattleyas unifoliadas a haste pode se desenvolver dentro dela semanas depois.",
+    adaptacaoRegional: {
+        litoralQuente: "Cultive em local arejado, reduzindo a retenção de água e o calor excessivo nas raízes.",
+        montanhaFrio: "Adapta-se muito bem, com proteção contra geada e redução cuidadosa de rega no inverno."
+    },
     mesesFloracao: [9, 10, 11],
     avaliacoes: {
-        cultivo: 4,
+        cultivo: 3,
         floracao: 5,
-        perfume: 5,
+        perfume: 4,
         luminosidade: 4,
         agua: 3,
-        raridade: 3
+        raridade: 4
     }
 };

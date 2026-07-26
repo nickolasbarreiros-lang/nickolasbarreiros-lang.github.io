@@ -1,50 +1,42 @@
-// Ficha revisada para cultivo, com adaptação ao clima de Serra/ES.
+// Ficha científica e de cultivo revisada — Lote 06.
 
 export const cattleyaViolaceaFSuavissimaXSelf = {
     id: "cattleya-violacea-f-suavissima-x-self",
-    nome: "Cattleya violacea f. suavissima x self",
+    nome: "Cattleya violacea f. suavissima × self",
     genero: "Cattleya",
-    tipo: "Espécie botânica — cruzamento entre plantas da mesma forma",
+    tipo: "Espécie botânica — progênie horticultural",
     dificuldade: "Moderada",
-    caracteristicas: [
-        "Amazônica",
-        "Bifoliada",
-        "Clima quente",
-        "Coloração suave"
-    ],
-    fotos: [],
-    descricao: "Descendência obtida por autofecundação de uma Cattleya violacea da forma suavissima. Conserva as necessidades da espécie amazônica, embora a intensidade e o padrão de cor possam variar entre as plantas resultantes.",
-    origem: "Origem hortícola a partir de espécie amazônica",
-    regiao: "Ancestral nativo da Bacia Amazônica",
-    habitat: "Em natureza, a espécie cresce como epífita em florestas quentes e úmidas, sob luz forte filtrada",
-    clima: "Quente e úmido, sem noites frias prolongadas",
-    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
+    caracteristicas: ["Seleção suave", "Amazônica", "Bifoliada", "Flores delicadas"],
+    descricao: "Progênie obtida pela autofecundação de uma Cattleya violacea selecionada como suavissima, buscando preservar coloração muito clara e delicada. O termo suavissima é horticultural e não representa categoria botânica aceita.",
+    origem: "Origem hortícola a partir de Cattleya violacea sul-americana.",
+    regiao: "Sem distribuição própria; a espécie ocorre na América do Sul tropical.",
+    habitat: "Requer condições semelhantes às populações amazônicas: calor, umidade e forte luminosidade filtrada.",
+    clima: "Quente e úmido.",
+    climaFloracao: "Crescimento contínuo e ausência de frio intenso favorecem flores maiores e melhor coloração.",
     iluminacao: {
-        sombrite: "50%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Luz filtrada intensa"
+        sombrite: "50% a 60%",
+        solDireto: "Somente suave",
+        horario: "Manhã cedo",
+        observacoes: "Luz insuficiente gera pseudobulbos finos e reduz floração."
     },
-    floracao: "Primavera e verão, eventualmente em outros meses sob cultivo quente",
-    adubacao: "Adubação foliar equilibrada em baixa concentração durante o ano, mais frequente durante brotação e enraizamento. Adubo orgânico apenas em pequena dose.",
-    rega: "Mantenha regas regulares no calor, permitindo que o substrato fique apenas levemente seco entre elas. No inverno, reduza de acordo com a temperatura, sem impor seca completa.",
-    suporte: "Vaso de barro vazado, cachepô de madeira ou tronco em ambiente úmido",
-    substrato: "Casca de pinus média, carvão, pedra-pomes e pequena quantidade de esfagno",
-    dica: "Não confunda a forma de cor com menor tolerância à luz: a planta ainda necessita boa luminosidade para formar pseudobulbos fortes e florescer.",
-    mesesFloracao: [
-        9,
-        10,
-        11,
-        12,
-        1,
-        2
-    ],
+    floracao: "Primavera ao verão, com variação conforme o clone e o clima.",
+    adubacao: "🌿 Orgânica: bokashi em dose pequena durante a fase ativa.\n💧 Foliar: fertilizante equilibrado diluído semanalmente ou a cada 15 dias.\n🧪 Liberação lenta: dose baixa em recipientes muito drenantes.",
+    rega: "Regas frequentes no calor, com leve secagem entre aplicações. No inverno, apenas reduza; não imponha repouso seco completo.",
+    suporte: "🥇 Cestinho aberto.\n🥈 Vaso de barro furado.\n🥉 Montagem em placa em ambiente úmido.",
+    substrato: "🥇 Casca grossa + carvão + pequena quantidade de esfagno.\n🥈 Fibra de coco grossa + brita.\n🥉 Pedra-pomes + carvão.",
+    errosComuns: "Temperaturas baixas; seca prolongada; pouca luz; excesso de sais; raízes abafadas.",
+    dica: "Use água de boa qualidade e adubação fraca, pois raízes ativas e sem acúmulo de sais sustentam a delicada floração.",
+    adaptacaoRegional: {
+        litoralQuente: "Adaptação excelente com sombra luminosa, umidade e ventilação.",
+        montanhaFrio: "Necessita proteção nas noites frias; mantenha temperatura mínima preferencialmente acima de 15 °C."
+    },
+    mesesFloracao: [10, 11, 12, 1, 2, 3],
     avaliacoes: {
         cultivo: 3,
         floracao: 4,
-        perfume: 4,
+        perfume: 3,
         luminosidade: 4,
         agua: 4,
-        raridade: 4
+        raridade: 5
     }
 };

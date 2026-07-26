@@ -1,38 +1,42 @@
-// Ficha revisada para o catálogo de orquídeas.
+// Ficha científica e de cultivo revisada — Lote 06.
 
 export const cattleyaSchillerianaXCruzeiroDoSul = {
     id: "cattleya-schilleriana-x-cruzeiro-do-sul",
-    nome: "Cattleya schilleriana x Cruzeiro do Sul",
+    nome: "Cattleya schilleriana × Cruzeiro do Sul",
     genero: "Cattleya",
-    tipo: "Híbrido primário ou cruzamento selecionado",
-    dificuldade: "Intermediário",
-    caracteristicas: ["Influência de Cattleya schilleriana", "Flores cerosas", "Coloração variável"],
-    fotos: [],
-    descricao: "Cruzamento envolvendo Cattleya schilleriana e uma planta identificada como Cruzeiro do Sul. Sem o registro completo do segundo parental, a ficha deve ser tratada como identificação horticultural provisória.",
-    origem: "Horticultural",
-    regiao: "Produzido em cultivo",
-    habitat: "Não possui habitat natural.",
-    clima: "Quente.",
-    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
+    tipo: "Híbrido hortícola",
+    dificuldade: "Moderada",
+    caracteristicas: ["Híbrido brasileiro", "Flores cerosas", "Coloração contrastante", "Porte compacto a médio"],
+    descricao: "Híbrido hortícola envolvendo Cattleya schilleriana e um parental registrado ou comercializado como Cruzeiro do Sul. Tende a reunir o desenho contrastante e a textura cerosa de C. schilleriana com maior vigor e adaptação de cultivo.",
+    origem: "Horticultural, produzido por cruzamento controlado.",
+    regiao: "Não possui distribuição natural.",
+    habitat: "Cultivado em orquidários, sob condições semelhantes às Cattleyas bifoliadas brasileiras.",
+    clima: "Quente a intermediário, ventilado.",
+    climaFloracao: "A floração depende de pseudobulbos maduros, luminosidade alta e secagem rápida das raízes.",
     iluminacao: {
-        sombrite: "70%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Média a alta."
+        sombrite: "40% a 50%",
+        solDireto: "Sim, fraco e aclimatado",
+        horario: "Manhã",
+        observacoes: "Luz alta favorece crescimento compacto e floração; evite sol forte do meio-dia."
     },
-    floracao: "Pode ocorrer entre primavera e verão, após a maturação do crescimento.",
-    adubacao: "Equilibrada durante o crescimento ativo.",
-    rega: "Regar bem e permitir secagem rápida.",
-    suporte: "Placa, cestinho ou vaso pequeno.",
-    substrato: "Casca grossa, carvão, pedra-pomes e brita.",
-    dica: "Na Serra/ES, cultive como Cattleya bifoliada: calor, muita ventilação e raízes que sequem rapidamente.",
+    floracao: "Primavera ao verão, após a maturação do novo crescimento.",
+    adubacao: "🌿 Orgânica: bokashi em pequena dose durante crescimento ativo.\n💧 Foliar: NPK equilibrado em 1/4 a 1/2 da dose a cada 10 a 15 dias.\n🧪 Liberação lenta: Osmocote em dose baixa, renovado conforme a duração do produto.",
+    rega: "Regue bem durante brotação e enraizamento, deixando o substrato secar quase por completo entre regas. Reduza após a maturação dos pseudobulbos.",
+    suporte: "🥇 Vaso de barro pequeno e furado.\n🥈 Cestinho aberto.\n🥉 Placa, quando houver umidade ambiental adequada.",
+    substrato: "🥇 Casca grossa + carvão + brita.\n🥈 Pedra-pomes + carvão.\n🥉 Casca média em pouca quantidade.",
+    errosComuns: "Pouca luz; vaso grande; substrato velho e compacto; rega constante sem secagem; replantio fora da emissão de raízes.",
+    dica: "Replante somente quando surgirem raízes novas; Cattleyas com influência de C. schilleriana ressentem-se de raízes perturbadas.",
+    adaptacaoRegional: {
+        litoralQuente: "Adapta-se bem com ventilação forte, substrato muito drenante e proteção contra chuva contínua.",
+        montanhaFrio: "Proteja de frio prolongado e mantenha alta luminosidade, com menos água nos períodos frios."
+    },
     mesesFloracao: [9, 10, 11, 12, 1],
     avaliacoes: {
         cultivo: 3,
         floracao: 4,
-        perfume: 2,
+        perfume: 3,
         luminosidade: 4,
-        agua: 2,
+        agua: 3,
         raridade: 4
     }
 };

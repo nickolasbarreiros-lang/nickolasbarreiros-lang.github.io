@@ -1,31 +1,35 @@
-// Ficha revisada para o catálogo de orquídeas — Sprint 2, Lote 4.
+// Ficha científica e de cultivo revisada — Lote 06.
 
 export const cattliantheCttJewelBox = {
     id: "cattlianthe-ctt-jewel-box",
-    nome: "Cattlianthe [Ctt.] Jewel Box",
+    nome: "Cattlianthe Jewel Box",
     genero: "Cattlianthe",
-    tipo: "Híbrido",
+    tipo: "Híbrido hortícola",
     dificuldade: "Fácil",
-    caracteristicas: ["Hastes multiflorais", "Coloração vermelha intensa", "Boa adaptação"],
-    fotos: [],
-    descricao: "Híbrido clássico do grupo Cattlianthe, conhecido por produzir cachos de flores vermelhas ou alaranjadas e por apresentar cultivo relativamente fácil.",
-    origem: "Híbrido hortícola",
-    regiao: "Origem de cultivo",
-    habitat: "Não possui habitat natural.",
-    clima: "Quente a intermediário.",
-    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
+    caracteristicas: ["Híbrido clássico", "Flores vermelhas", "Touceira vigorosa", "Floração abundante"],
+    descricao: "Híbrido clássico registrado como Cattlianthe Jewel Box, conhecido por hastes com várias flores vermelhas e grande vigor. O nome intergenérico reflete o parentesco entre Cattleya e Guarianthe.",
+    origem: "Híbrido hortícola registrado.",
+    regiao: "Não possui distribuição natural.",
+    habitat: "Cultivado em orquidários sob condições luminosas e bem ventiladas.",
+    clima: "Intermediário a quente.",
+    climaFloracao: "Floresce quando recebe luz alta e os pseudobulbos amadurecem sem excesso de nitrogênio.",
     iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Luz filtrada forte; aceita sol suave da manhã."
+        sombrite: "40% a 50%",
+        solDireto: "Sim, fraco",
+        horario: "Manhã",
+        observacoes: "Tolera e aprecia mais luz que muitos híbridos de flores grandes."
     },
-    floracao: "Pode florescer mais de uma vez ao ano quando bem estabelecida, com maior frequência entre outono e primavera.",
-    adubacao: "Adubo equilibrado a cada 7–15 dias durante crescimento ativo; alternar com formulação de maior potássio perto da maturação.",
-    rega: "Regar quando o substrato estiver quase seco, sem manter raízes abafadas.",
-    suporte: "Vaso de barro, plástico bem perfurado ou cachepô.",
-    substrato: "Casca de pinus média, carvão e pedra-pomes.",
-    dica: "Em Serra/ES, dê bastante claridade e ventilação; pouca luz reduz a floração e deixa os pseudobulbos alongados.",
+    floracao: "Pode florescer mais de uma vez ao ano, frequentemente do outono à primavera.",
+    adubacao: "🌿 Orgânica: bokashi em dose moderada durante o crescimento.\n💧 Foliar: NPK equilibrado quinzenalmente.\n🧪 Liberação lenta: Osmocote em dose indicada para o volume do vaso.",
+    rega: "Regue quando o substrato estiver quase seco; mantenha maior frequência em brotação e reduza no frio.",
+    suporte: "🥇 Vaso de barro ou plástico bem furado.\n🥈 Cestinho.\n🥉 Placa para plantas compactas.",
+    substrato: "🥇 Casca média + carvão + brita.\n🥈 Fibra de coco grossa + carvão.\n🥉 Pedra-pomes + casca.",
+    errosComuns: "Sombra excessiva; excesso de nitrogênio; vaso muito grande; substrato degradado; deixar água acumulada nas bainhas.",
+    dica: "Deixe formar uma touceira com vários pseudobulbos; plantas adultas e pouco divididas produzem hastes mais cheias.",
+    adaptacaoRegional: {
+        litoralQuente: "Muito adaptável, desde que tenha ventilação e secagem entre regas.",
+        montanhaFrio: "Também se adapta bem; proteja apenas de geada e reduza água em semanas frias."
+    },
     mesesFloracao: [5, 6, 7, 8, 9, 10],
     avaliacoes: {
         cultivo: 2,

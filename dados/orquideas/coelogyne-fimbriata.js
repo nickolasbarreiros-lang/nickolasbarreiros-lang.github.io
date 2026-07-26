@@ -1,37 +1,41 @@
-// Ficha revisada para o catálogo de orquídeas — Sprint 2, Lote 4.
+// Ficha científica e de cultivo revisada — Lote 06.
 
 export const coelogyneFimbriata = {
     id: "coelogyne-fimbriata",
     nome: "Coelogyne fimbriata",
     genero: "Coelogyne",
-    tipo: "Espécie",
-    dificuldade: "Intermediário",
-    caracteristicas: ["Porte compacto", "Flores verde-amareladas", "Crescimento rastejante"],
-    fotos: [],
-    descricao: "Espécie compacta de crescimento rizomatoso, com flores verde-amareladas e labelo franjado.",
-    origem: "Sul e Sudeste da Ásia",
-    regiao: "Himalaia oriental, China, Indochina e áreas vizinhas",
-    habitat: "Florestas úmidas, sobre troncos e rochas musgosas.",
-    clima: "Intermediário a fresco.",
-    climaFloracao: "A floração é favorecida por noites mais frescas e leve redução das regas após o amadurecimento dos pseudobulbos. Evite calor abafado e umidade excessiva no período de repouso.",
+    tipo: "Espécie botânica",
+    dificuldade: "Fácil a moderada",
+    caracteristicas: ["Rizoma rastejante", "Flores esverdeadas", "Labelo franjado", "Porte compacto"],
+    descricao: "Espécie asiática de crescimento rastejante, com flores verde-amareladas e labelo castanho finamente franjado. Forma colônias extensas e adapta-se bem a cultivo montado ou em cestos rasos.",
+    origem: "Sul da China, Himalaia oriental e Sudeste Asiático continental.",
+    regiao: "Índia nordeste, Nepal, Butão, Myanmar, Tailândia, Laos, Vietnã e sul da China.",
+    habitat: "Epífita ou litófita em florestas úmidas de baixa a média altitude, sobre troncos e rochas musgosas.",
+    clima: "Intermediário a quente, úmido.",
+    climaFloracao: "A floração acompanha pseudobulbos maduros e leve redução de rega no fim do crescimento.",
     iluminacao: {
-        sombrite: "70%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Sombra clara a luz filtrada média."
+        sombrite: "50% a 60%",
+        solDireto: "Apenas fraco",
+        horario: "Manhã cedo",
+        observacoes: "Prefere sombra luminosa; folhas queimam sob sol forte."
     },
-    floracao: "Normalmente floresce do fim do verão ao outono.",
-    adubacao: "Adubo equilibrado bem diluído durante o crescimento; reduzir no inverno.",
-    rega: "Manter úmida durante o crescimento, com leve redução quando os pseudobulbos amadurecem.",
-    suporte: "Placa, cesto raso ou vaso largo.",
-    substrato: "Esfagno com casca fina e carvão, ou montagem em placa com musgo.",
-    dica: "Em Serra/ES, mantenha a planta abaixo das espécies de luz forte e evite aquecimento do vaso.",
+    floracao: "Fim do verão ao outono.",
+    adubacao: "🌿 Orgânica: bokashi leve durante crescimento.\n💧 Foliar: NPK equilibrado diluído a cada 10 a 15 dias.\n🧪 Liberação lenta: pequena dose em cestos.",
+    rega: "Mantenha úmida enquanto cresce, deixando apenas a superfície secar. No inverno, reduza moderadamente, sem repouso seco total.",
+    suporte: "🥇 Placa larga de cortiça ou madeira.\n🥈 Cestinho raso.\n🥉 Vaso largo e baixo.",
+    substrato: "🥇 Esfagno fino sobre placa, em camada pequena.\n🥈 Casca fina/média + esfagno + pedra-pomes.\n🥉 Fibra de coco grossa + carvão.",
+    errosComuns: "Vaso profundo; deixar rizoma enterrado; seca prolongada; calor abafado; divisão em pedaços muito pequenos.",
+    dica: "Conduza o rizoma sobre uma placa ou cesto largo; espaço horizontal vale mais que profundidade para esta espécie.",
+    adaptacaoRegional: {
+        litoralQuente: "Adapta-se com sombra, ventilação e umidade, evitando calor parado.",
+        montanhaFrio: "Muito adequada, com proteção apenas contra geadas e redução moderada de água no inverno."
+    },
     mesesFloracao: [2, 3, 4, 5],
     avaliacoes: {
-        cultivo: 3,
+        cultivo: 2,
         floracao: 3,
         perfume: 2,
-        luminosidade: 2,
+        luminosidade: 3,
         agua: 4,
         raridade: 3
     }

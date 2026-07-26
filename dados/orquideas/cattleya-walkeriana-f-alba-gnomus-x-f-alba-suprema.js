@@ -1,38 +1,42 @@
-// Ficha revisada para o catálogo de orquídeas — Sprint 2, Lote 4.
+// Ficha científica e de cultivo revisada — Lote 06.
 
 export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     id: "cattleya-walkeriana-f-alba-gnomus-x-f-alba-suprema",
-    nome: "Cattleya walkeriana (f. alba 'Gnomus' x f. alba 'Suprema')",
+    nome: "Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema')",
     genero: "Cattleya",
-    tipo: "Espécie — cruzamento entre formas albas",
-    dificuldade: "Intermediário",
-    caracteristicas: ["Forma alba", "Flores perfumadas", "Crescimento compacto"],
-    fotos: [],
-    descricao: "Cruzamento entre duas formas albas de Cattleya walkeriana, mantendo o padrão sem pigmentação nas flores. Planta compacta, muito valorizada por perfume e forma floral.",
-    origem: "Brasil",
-    regiao: "Áreas interiores do Sudeste e Centro-Oeste do Brasil",
-    habitat: "Matas secas e afloramentos rochosos, muitas vezes sobre árvores expostas e com forte ventilação.",
-    clima: "Quente a intermediário, com período mais seco e noites amenas.",
-    climaFloracao: "A floração é favorecida por muita luz, excelente ventilação, raízes que sequem rapidamente e noites um pouco mais frescas no outono e inverno. Excesso de água durante o amadurecimento dos pseudobulbos pode reduzir a floração.",
+    tipo: "Espécie botânica — cruzamento entre clones albos",
+    dificuldade: "Exigente",
+    caracteristicas: ["Forma alba", "Compacta", "Muito perfumada", "Repouso sazonal"],
+    descricao: "Cruzamento entre dois clones albos de Cattleya walkeriana, realizado para produzir descendentes de flores brancas e alta qualidade. Mantém as exigências de cultivo da espécie, especialmente luz alta, raízes muito aeradas e redução de água após a maturação.",
+    origem: "Horticultural; a espécie é nativa do Brasil central e sudeste.",
+    regiao: "Progênie sem distribuição natural.",
+    habitat: "Em cultivo, imita ambientes sazonais claros e ventilados onde C. walkeriana cresce como epífita ou litófita.",
+    clima: "Quente a intermediário e sazonalmente seco.",
+    climaFloracao: "A combinação de pseudobulbos maduros, luz alta e noites um pouco mais secas estimula a haste floral característica.",
     iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Luz filtrada intensa, com sol fraco da manhã."
+        sombrite: "30% a 50%",
+        solDireto: "Sim, aclimatado",
+        horario: "Manhã",
+        observacoes: "Precisa de luz intensa para florescer, sem queimar folhas."
     },
-    floracao: "Floresce principalmente no outono e inverno, normalmente em brotações especiais sem folhas.",
-    adubacao: "Adubação leve e frequente no crescimento; reduzir bastante após o amadurecimento dos pseudobulbos.",
-    rega: "Mais água no crescimento e redução clara no período de repouso, sem deixar a planta desidratar excessivamente.",
-    suporte: "Toco, placa de madeira dura, cachepô pequeno ou vaso muito drenado.",
-    substrato: "Casca grossa, carvão e pedra; em placa, pequena quantidade de esfagno apenas na fixação.",
-    dica: "Em Serra/ES, favoreça luz forte, muita ventilação e noites mais secas no outono para estimular a floração.",
+    floracao: "Outono e inverno, geralmente em crescimento floral curto e sem folha.",
+    adubacao: "🌿 Orgânica: bokashi mínimo apenas na fase de raízes novas.\n💧 Foliar: NPK equilibrado diluído durante o crescimento.\n🧪 Liberação lenta: usar dose muito baixa ou evitar em plantas montadas.",
+    rega: "Regue bastante com raízes novas; após maturação, reduza e deixe secar totalmente entre regas.",
+    suporte: "🥇 Placa de madeira ou cortiça.\n🥈 Cestinho pequeno.\n🥉 Vaso de barro raso e muito furado.",
+    substrato: "🥇 Sem substrato, montada.\n🥈 Casca muito grossa + carvão.\n🥉 Brita grossa apenas para fixação.",
+    errosComuns: "Excesso de água no repouso; pouca luz; vaso grande; divisão excessiva; replantio sem raízes novas.",
+    dica: "Não molhe por calendário: observe as pontas das raízes. Quando estão verdes e crescendo, regue e adube; quando param, reduza drasticamente.",
+    adaptacaoRegional: {
+        litoralQuente: "Use montagem e proteção contra chuvas persistentes; umidade sem secagem é o principal risco.",
+        montanhaFrio: "Boa adaptação com muito sol filtrado, mas proteja de frio úmido e geadas."
+    },
     mesesFloracao: [4, 5, 6, 7, 8],
     avaliacoes: {
-        cultivo: 3,
+        cultivo: 5,
         floracao: 5,
-        perfume: 4,
+        perfume: 5,
         luminosidade: 5,
         agua: 2,
-        raridade: 4
+        raridade: 5
     }
 };
