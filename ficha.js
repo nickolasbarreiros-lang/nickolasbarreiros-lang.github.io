@@ -891,12 +891,6 @@ if (!orquidea) {
                     classeExtra: "card-clima-floracao-v2"
                 })}
 
-                ${criarInfoCard({
-                    titulo: "Época de floração",
-                    icone: "🌸",
-                    conteudo: obterTexto(orquidea.floracao)
-                })}
-
                 ${criarCardEstruturado({
                     titulo: "Adubação recomendada",
                     icone: "🧪",
@@ -982,13 +976,17 @@ if (!orquidea) {
 
                 <div class="titulo-secao-v2">
 
-                    <span>📅</span>
+                    <span>🌸</span>
 
                     <h3>
-                        Calendário de floração
+                        Floração
                     </h3>
 
                 </div>
+
+                <p class="texto-floracao-v2">
+                    ${obterTexto(orquidea.floracao,"Período de floração não cadastrado.")}
+                </p>
 
                 <div class="meses-v2">
 
