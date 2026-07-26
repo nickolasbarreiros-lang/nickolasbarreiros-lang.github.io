@@ -1,44 +1,53 @@
-// Ficha revisada no Sprint 2 — Lote 2.
+// Ficha aprofundada e revisada — Lote 10.
 
 export const maxillariaSchunkeana = {
-    id: "maxillaria-schunkeana",
-    nome: "Maxillaria schunkeana",
-    genero: "Maxillaria",
-    tipo: "Espécie botânica",
-    dificuldade: "Moderada",
-    caracteristicas: [
-        "Endêmica do Espírito Santo",
+    "id": "maxillaria-schunkeana",
+    "nome": "Maxillaria schunkeana",
+    "genero": "Maxillaria",
+    "tipo": "Espécie botânica",
+    "dificuldade": "Moderada",
+    "caracteristicas": [
         "Flor quase negra",
-        "Miniatura",
-        "Clima montano",
+        "Crescimento simpodial",
+        "Flores basais",
+        "Forma touceiras"
     ],
-    fotos: [
-    ],
-    descricao: "Espécie capixaba famosa por produzir flores em tom vinho extremamente escuro, visualmente quase negro. É frequentemente encontrada no comércio como Maxillaria schunkeana; a combinação Brasiliorchis schunkeana também é usada na taxonomia moderna.",
-    origem: "Brasil",
-    regiao: "Espírito Santo, em áreas montanas da Mata Atlântica",
-    habitat: "Epífita em florestas úmidas e sombreadas de altitude.",
-    clima: "Intermediário a fresco, úmido e ventilado.",
-    climaFloracao: "A floração é favorecida por pseudobulbos maduros, boa luminosidade filtrada e noites mais frescas. Após o crescimento, uma redução moderada das regas ajuda a marcar o ciclo sem deixar os bulbos enrugarem.",
-    iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Luz filtrada média, sem exposição ao sol forte."
+    "fotos": [],
+    "descricao": "Espécie capixaba aceita por Kew; Brasiliorchis schunkeana é tratada como sinônimo. Suas flores vinho muito escuro parecem negras sob pouca luz. O porte é compacto e as flores surgem junto à base dos pseudobulbos.",
+    "origem": "Endêmica do Espírito Santo, Brasil.",
+    "regiao": "Endêmica do Espírito Santo, Brasil.",
+    "habitat": "Epífita de floresta tropical úmida, associada a ambientes sombreados e ventilados.",
+    "clima": "Intermediário, com umidade moderada a alta e ar em movimento.",
+    "climaFloracao": "A floração depende de pseudobulbos completamente maduros, luz suficiente durante o crescimento e raízes saudáveis. A queda moderada das temperaturas noturnas costuma ajudar espécies brasileiras de altitude, mas não deve ser confundida com necessidade de frio extremo.",
+    "iluminacao": {
+        "sombrite": "70% a 80%",
+        "solDireto": "Sim, apenas suave",
+        "horario": "Até aproximadamente 08:30",
+        "observacoes": "Luz filtrada brilhante. Folhas muito escuras e pseudobulbos alongados indicam pouca luz; amarelecimento rápido e manchas secas mostram excesso. Faça aumentos de luz gradualmente."
     },
-    floracao: "Pode florescer em diferentes épocas, com maior frequência entre inverno e primavera.",
-    adubacao: "Adubo equilibrado diluído durante o ano, reduzindo no frio. Orgânico leve em vaso, sem excesso.",
-    rega: "Regular, mantendo umidade moderada e permitindo leve secagem superficial.",
-    suporte: "Vaso pequeno, cachepô ou placa com boa reserva de umidade.",
-    substrato: "Casca fina, carvão, pedra-pomes e esfagno em proporção moderada.",
-    dica: "Em Serra/ES, evite o setor mais quente. Um cachepô pequeno com umidade estável e vento constante costuma funcionar melhor que vaso totalmente fechado.",
-    mesesFloracao: [6, 7, 8, 9, 10, 11],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 3,
-        perfume: 1,
-        luminosidade: 2,
-        agua: 4,
-        raridade: 5
+    "floracao": "As flores normalmente surgem em hastes curtas na base dos pseudobulbos maduros. Como ficam parcialmente escondidas pela folhagem, manter a base limpa facilita perceber botões e evita que água parada cause manchas.",
+    "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, dentro de porta-adubo e afastado do rizoma.\n💧 Foliar: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante raízes e brotos ativos.\n🧪 Liberação lenta: dose moderada em vasos bem drenados. Reduzir após o amadurecimento do broto e lavar o substrato mensalmente com água pura.",
+    "rega": "Durante a brotação, regue abundantemente e deixe o substrato secar parcialmente, sem secagem longa. Após a maturação, aumente um pouco o intervalo. Pseudobulbos levemente sulcados são normais; enrugamento progressivo junto com raízes escuras indica perda radicular, não necessariamente pouca água.",
+    "suporte": "🥇 Vaso de barro ou plástico bem perfurado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira para espécies de rizoma mais expansivo.\n🥉 Placa com musgo fino para miniaturas e locais de alta umidade.",
+    "substrato": "🥇 Casca de pinus média + pedra-pomes + carvão vegetal.\n🥈 Casca média + brita fina + pequena quantidade de esfagno.\n🥉 Fibra de coco em cubos bem lavada + carvão + material mineral. Ajuste o esfagno ao clima; ele deve estabilizar a umidade, não manter o vaso molhado por vários dias.",
+    "errosComuns": "Vaso grande; rizoma enterrado; substrato velho; divisão excessiva; sombra profunda; adubação forte em raízes finas; regas frequentes em período frio sem ventilação. Manchas negras que aumentam rapidamente exigem isolamento e correção do excesso de umidade.",
+    "dica": "Replante somente quando novas raízes estiverem começando. Maxillarias estabelecidas podem interromper o crescimento quando o rizoma é dividido ou manipulado fora dessa fase.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Use substrato mais mineral, vaso pequeno e ventilação contínua. Proteja do sol forte e do calor abafado, especialmente espécies de origem montana.",
+        "montanhaFrio": "Em geral adapta-se bem. Reduza a frequência de rega em semanas frias e nubladas, sem impor seca absoluta durante raízes ativas."
+    },
+    "mesesFloracao": [
+        3,
+        4,
+        5,
+        6
+    ],
+    "avaliacoes": {
+        "cultivo": 3,
+        "floracao": 3,
+        "perfume": 2,
+        "luminosidade": 3,
+        "agua": 4,
+        "raridade": 5
     }
 };
