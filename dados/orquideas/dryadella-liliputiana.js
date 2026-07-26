@@ -1,38 +1,34 @@
-// Ficha revisada para o catálogo de orquídeas — Sprint 2, Lote 4.
+// Ficha científica e de cultivo revisada — Lote 08.
 
 export const dryadellaLiliputiana = {
     id: "dryadella-liliputiana",
-    nome: "Dryadella liliputiana",
+    nome: "Dryadella lilliputiana",
     genero: "Dryadella",
-    tipo: "Espécie",
-    dificuldade: "Intermediário a avançado",
-    caracteristicas: ["Micro-orquídea", "Flores minúsculas", "Alta exigência de umidade"],
+    tipo: "Espécie botânica",
+    dificuldade: "Exigente",
+    caracteristicas: ["Grafia aceita corrigida", "Micro-orquídea", "Brasil", "Clima fresco"],
     fotos: [],
-    descricao: "Micro-orquídea de porte diminuto, valorizada por colecionadores de Pleurothallidinae. Requer estabilidade de umidade e temperatura.",
-    origem: "América do Sul",
-    regiao: "Regiões de floresta úmida",
-    habitat: "Ramos finos e musgosos em florestas sombreadas.",
+    descricao: "Micro-orquídea brasileira de dimensões diminutas, atualmente aceita como Dryadella lilliputiana. Produz pequenas flores junto à base das folhas e requer ambiente estável, úmido e sem calor excessivo.",
+    origem: "Brasil.",
+    regiao: "Florestas úmidas brasileiras; a procedência exata do exemplar é importante para ajustar temperatura e sazonalidade.",
+    habitat: "Epífita sobre raminhos e superfícies musgosas, em mata sombreada e ventilada.",
     clima: "Fresco a intermediário.",
-    climaFloracao: "Floresce melhor com noites frescas, boa umidade do ar e ventilação constante. Em regiões quentes, mantenha no ponto mais fresco do orquidário e evite calor noturno prolongado.",
-    iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Sombra clara, sem sol direto."
-    },
-    floracao: "Pode florescer em diferentes épocas quando bem estabelecida.",
-    adubacao: "Adubo muito diluído, aplicado com frequência baixa a moderada.",
-    rega: "Umidade constante, evitando tanto secura completa quanto encharcamento.",
-    suporte: "Placa pequena ou vaso miniatura.",
-    substrato: "Esfagno de boa qualidade, bem solto, ou montagem em placa com musgo.",
-    dica: "Em Serra/ES, é essencial reduzir o calor; use bancada baixa, sombreamento e circulação de ar suave.",
-    mesesFloracao: [6, 7, 8, 9, 10, 11],
-    avaliacoes: {
-        cultivo: 5,
-        floracao: 3,
-        perfume: 1,
-        luminosidade: 1,
-        agua: 5,
-        raridade: 5
-    }
+    climaFloracao: "A floração depende mais da estabilidade ambiental do que de repouso. Noites frescas e raízes ativas são especialmente importantes.",
+    iluminacao: { sombrite: "70%", solDireto: "Não", horario: "Luz indireta", observacoes: "Sombra clara, sem aquecimento das folhas." },
+    floracao: "Pode florescer em diferentes épocas quando a touceira está madura e o ambiente permanece estável.",
+    adubacao: "🌿 Orgânica: não recomendada diretamente no pequeno recipiente.
+💧 Foliar: NPK equilibrado a 1/4 ou 1/5 da dose a cada 15 dias.
+🧪 Liberação lenta: evitar.",
+    rega: "Umidade constante com excelente oxigenação. Use água de baixa salinidade e lave o substrato regularmente.",
+    suporte: "🥇 Placa pequena com musgo.
+🥈 Vaso miniatura de barro.
+🥉 Pequeno cesto com esfagno solto.",
+    substrato: "🥇 Esfagno de fibra longa, sem compactar.
+🥈 Musgo vivo sobre cortiça.
+🥉 Casca muito fina + pedra-pomes + esfagno.",
+    errosComuns: "Grafia antiga 'liliputiana'; calor acumulado; baixa umidade; excesso de fertilizante; substrato degradado; manipular constantemente a touceira.",
+    dica: "A miniatura responde melhor a regas leves e frequentes do que a ciclos de encharcamento e seca.",
+    adaptacaoRegional: { litoralQuente: "Difícil; requer resfriamento passivo, bancada baixa, sombra e ventilação suave constante.", montanhaFrio: "Condições geralmente favoráveis, desde que protegida de frio extremo e vento ressecante." },
+    mesesFloracao: [6,7,8,9,10,11],
+    avaliacoes: { cultivo: 5, floracao: 3, perfume: 1, luminosidade: 2, agua: 5, raridade: 5 }
 };

@@ -1,38 +1,34 @@
-// Ficha revisada para o catálogo de orquídeas — Sprint 2, Lote 4.
+// Ficha científica e de cultivo revisada — Lote 08.
 
 export const epicattleyaReneMarques = {
     id: "epicattleya-rene-marques",
     nome: "Epicattleya René Marqués",
     genero: "Epicattleya",
-    tipo: "Híbrido intergenérico",
+    tipo: "Híbrido intergenérico horticultural",
     dificuldade: "Fácil",
-    caracteristicas: ["Flores alaranjadas", "Hastes multiflorais", "Crescimento vigoroso"],
+    caracteristicas: ["Híbrido vigoroso", "Flores alaranjadas", "Hastes multiflorais", "Cultivo claro"],
     fotos: [],
-    descricao: "Híbrido intergenérico vigoroso, conhecido por flores alaranjadas a avermelhadas em cachos e boa adaptação ao cultivo doméstico.",
-    origem: "Híbrido hortícola",
-    regiao: "Origem de cultivo",
-    habitat: "Não possui habitat natural.",
+    descricao: "Híbrido intergenérico vigoroso, conhecido no cultivo por hastes multiflorais e flores em tons alaranjados a avermelhados. O nome deve ser mantido conforme a etiqueta do produtor; a genealogia precisa de registro original para confirmação completa.",
+    origem: "Híbrido produzido em cultivo.",
+    regiao: "Sem distribuição natural.",
+    habitat: "Não se aplica; híbrido horticultural.",
     clima: "Quente a intermediário.",
-    climaFloracao: "Floresce melhor com alta luminosidade filtrada, pseudobulbos plenamente maduros e boa diferença entre as temperaturas do dia e da noite. Evite sombra excessiva, abafamento e adubação nitrogenada em excesso perto da floração.",
-    iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Luz filtrada forte, com sol suave da manhã."
-    },
-    floracao: "Pode florescer uma ou mais vezes ao ano, após a maturação dos brotos.",
-    adubacao: "Adubo equilibrado durante todo o crescimento, em baixa concentração.",
-    rega: "Regar quando o substrato estiver quase seco.",
-    suporte: "Vaso de barro, plástico drenado ou cachepô.",
-    substrato: "Casca média, carvão e pedra-pomes.",
-    dica: "Em Serra/ES, é uma boa planta para área clara; mantenha o rizoma sobre o substrato e não enterre as novas frentes.",
-    mesesFloracao: [4, 5, 6, 7, 8, 9, 10, 11],
-    avaliacoes: {
-        cultivo: 2,
-        floracao: 5,
-        perfume: 2,
-        luminosidade: 4,
-        agua: 3,
-        raridade: 2
-    }
+    climaFloracao: "Floresce após a maturação dos novos pseudobulbos. Alta luminosidade filtrada e diferença moderada entre dia e noite ajudam na indução.",
+    iluminacao: { sombrite: "40% a 50%", solDireto: "Sim", horario: "Até 09:00", observacoes: "Luz forte semelhante à de Cattleya, com adaptação gradual." },
+    floracao: "Pode florescer uma ou mais vezes ao ano, conforme o ritmo dos novos crescimentos.",
+    adubacao: "🌿 Orgânica: bokashi leve a cada 2 a 3 meses.
+💧 Foliar: NPK equilibrado a 1/3 da dose semanalmente no crescimento.
+🧪 Liberação lenta: dose moderada conforme o tamanho do vaso.",
+    rega: "Regue abundantemente e espere o substrato aproximar-se da secagem antes de repetir. Reduza no frio e sem crescimento.",
+    suporte: "🥇 Vaso de barro ou plástico muito drenado.
+🥈 Cachepô de madeira.
+🥉 Placa para divisões pequenas e vigorosas.",
+    substrato: "🥇 Casca média + carvão + pedra-pomes.
+🥈 Fibra de coco grossa + carvão.
+🥉 Casca grossa + brita em vaso de barro.",
+    errosComuns: "Pouca luz; enterrar o rizoma; excesso de nitrogênio; vaso grande; manter substrato molhado continuamente.",
+    dica: "Espere o novo broto formar raízes próprias antes de replantar; isso reduz o tempo de recuperação e preserva a próxima floração.",
+    adaptacaoRegional: { litoralQuente: "Muito boa, com ventilação e proteção contra sol forte da tarde.", montanhaFrio: "Boa, protegendo de temperaturas muito baixas e reduzindo regas no inverno." },
+    mesesFloracao: [4,5,6,7,8,9,10,11],
+    avaliacoes: { cultivo: 2, floracao: 5, perfume: 2, luminosidade: 4, agua: 3, raridade: 2 }
 };

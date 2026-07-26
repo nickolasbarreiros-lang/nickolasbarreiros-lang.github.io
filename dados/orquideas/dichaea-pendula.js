@@ -1,38 +1,34 @@
-// Ficha revisada para o catálogo de orquídeas — Sprint 2, Lote 4.
+// Ficha científica e de cultivo revisada — Lote 08.
 
 export const dichaeaPendula = {
     id: "dichaea-pendula",
     nome: "Dichaea pendula",
     genero: "Dichaea",
-    tipo: "Espécie",
-    dificuldade: "Intermediário",
-    caracteristicas: ["Hastes pendentes", "Sem pseudobulbos", "Flores pequenas"],
+    tipo: "Espécie botânica",
+    dificuldade: "Moderada",
+    caracteristicas: ["América tropical", "Crescimento pendente", "Sem pseudobulbos", "Alta umidade"],
     fotos: [],
-    descricao: "Espécie epífita de crescimento pendente, com folhas dispostas em duas fileiras e pequenas flores produzidas ao longo das hastes.",
-    origem: "América tropical",
-    regiao: "Brasil e outros países da América Central e do Sul",
-    habitat: "Florestas úmidas e sombreadas, em galhos com musgos.",
-    clima: "Intermediário a quente, úmido e ventilado.",
-    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
-    iluminacao: {
-        sombrite: "70%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Sombra clara a luz filtrada baixa."
-    },
-    floracao: "Pode florescer em diferentes épocas, especialmente nos meses mais quentes e úmidos.",
-    adubacao: "Adubo foliar muito diluído a cada 10–15 dias.",
-    rega: "Manter umidade constante sem encharcamento; não possui pseudobulbos para reserva.",
-    suporte: "Placa, tronco ou cesto que permita crescimento pendente.",
-    substrato: "Montagem em placa com pequena camada de esfagno, ou cesto com material fino e arejado.",
-    dica: "Em Serra/ES, proteja do sol direto e da secagem rápida causada pelo vento quente da tarde.",
-    mesesFloracao: [10, 11, 12, 1, 2, 3],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 3,
-        perfume: 1,
-        luminosidade: 2,
-        agua: 5,
-        raridade: 3
-    }
+    descricao: "Espécie epífita monopodial de hastes longas e pendentes, folhas dísticas e pequenas flores cerosas produzidas nas axilas foliares. A ausência de pseudobulbos torna a planta pouco tolerante à desidratação prolongada.",
+    origem: "América tropical.",
+    regiao: "Ampla distribuição neotropical, da América Central e Caribe à América do Sul, incluindo o Brasil.",
+    habitat: "Epífita de florestas tropicais úmidas, frequentemente sobre galhos musgosos em locais sombreados e ventilados.",
+    clima: "Quente a intermediário, muito úmido e ventilado.",
+    climaFloracao: "A floração é favorecida por crescimento contínuo, umidade estável, luz filtrada e pequena diferença térmica entre dia e noite. Não exige repouso seco.",
+    iluminacao: { sombrite: "60% a 70%", solDireto: "Não", horario: "Luz indireta", observacoes: "Sombra clara; evite sol direto e folhas aquecidas." },
+    floracao: "Pode ocorrer em diferentes épocas, com maior frequência durante períodos quentes e úmidos.",
+    adubacao: "🌿 Orgânica: bokashi em quantidade mínima e longe das raízes.
+💧 Foliar: NPK equilibrado a 1/4 da dose a cada 10 a 15 dias.
+🧪 Liberação lenta: geralmente dispensável; se usada, aplique poucos grânulos.",
+    rega: "Mantenha as raízes uniformemente úmidas, mas bem oxigenadas. Em montagens, regas podem ser diárias no calor; reduza apenas quando a secagem for lenta.",
+    suporte: "🥇 Placa vertical com fina camada de esfagno.
+🥈 Cesto suspenso.
+🥉 Vaso estreito e muito ventilado, permitindo que as hastes pendam.",
+    substrato: "🥇 Esfagno solto sobre placa.
+🥈 Casca fina + esfagno + pedra-pomes.
+🥉 Fibra de coco grossa com pouco musgo.",
+    errosComuns: "Deixar secar completamente; usar vaso profundo e abafado; sol direto; baixa umidade; água acumulada nas axilas sem ventilação.",
+    dica: "Observe as pontas das hastes: quando começam a enrugar, a planta já está sofrendo falta de água. Corrija a umidade sem transformar o cultivo em ambiente estagnado.",
+    adaptacaoRegional: { litoralQuente: "Adapta-se bem se houver sombra clara, regas frequentes e ventilação contínua.", montanhaFrio: "Boa adaptação em local protegido do frio intenso, mantendo umidade e evitando secagem pelo vento." },
+    mesesFloracao: [10,11,12,1,2,3],
+    avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 2, agua: 5, raridade: 3 }
 };

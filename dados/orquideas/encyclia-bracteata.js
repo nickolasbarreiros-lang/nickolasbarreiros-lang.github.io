@@ -1,4 +1,4 @@
-// Ficha revisada para cultivo, com adaptação ao clima de Serra/ES.
+// Ficha científica e de cultivo revisada — Lote 08.
 
 export const encycliaBracteata = {
     id: "encyclia-bracteata",
@@ -6,45 +6,29 @@ export const encycliaBracteata = {
     genero: "Encyclia",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
-    caracteristicas: [
-        "Brasileira",
-        "Epífita",
-        "Flores pequenas",
-        "Boa ventilação"
-    ],
+    caracteristicas: ["Brasil", "Pseudobulbos firmes", "Ambiente sazonal", "Raízes arejadas"],
     fotos: [],
-    descricao: "Espécie brasileira de Encyclia com pseudobulbos bem definidos, folhas firmes e hastes florais ramificadas com várias flores pequenas. Como outras Encyclias, responde bem a cultivo claro, arejado e com raízes que sequem rapidamente.",
-    origem: "Brasil",
-    regiao: "Nordeste e Sudeste do Brasil, em ambientes sazonais",
-    habitat: "Epífita em matas abertas e áreas com períodos de menor disponibilidade de água",
-    clima: "Quente a intermediário, com boa ventilação",
-    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
-    iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Luz filtrada intensa, podendo receber sol suave da manhã"
-    },
-    floracao: "Mais frequente da primavera ao verão",
-    adubacao: "Use adubo equilibrado na brotação e formação dos pseudobulbos; depois alterne com fórmula de floração. Adubo orgânico em dose pequena e afastado das raízes.",
-    rega: "Regue bem no crescimento e deixe secar entre as regas. Reduza a frequência após o amadurecimento dos pseudobulbos e em períodos mais frios.",
-    suporte: "Vaso de barro, cachepô, tronco ou placa",
-    substrato: "Casca grossa, carvão e pedra-pomes, com pouco material retentor",
-    dica: "Em Serra/ES, não a trate como planta de sombra úmida. Boa luz e secagem rápida são essenciais para pseudobulbos firmes e hastes florais.",
-    mesesFloracao: [
-        9,
-        10,
-        11,
-        12,
-        1,
-        2
-    ],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 4,
-        perfume: 2,
-        luminosidade: 4,
-        agua: 2,
-        raridade: 3
-    }
+    descricao: "Encyclia brasileira de pseudobulbos bem definidos, folhas coriáceas e inflorescências com várias flores pequenas. O cultivo deve imitar ambientes claros e sazonais, com muita aeração nas raízes.",
+    origem: "Brasil.",
+    regiao: "Ocorrência brasileira associada a ambientes sazonais e relativamente abertos.",
+    habitat: "Epífita em matas abertas e formações com período de menor disponibilidade de água.",
+    clima: "Quente a intermediário, ventilado.",
+    climaFloracao: "A maturação completa do pseudobulbo, alta luminosidade filtrada e discreta redução de água após o crescimento favorecem a emissão da haste.",
+    iluminacao: { sombrite: "40% a 50%", solDireto: "Sim", horario: "Até 09:00", observacoes: "Luz intensa filtrada; folhas devem permanecer firmes e verde-claras." },
+    floracao: "Mais frequente da primavera ao verão.",
+    adubacao: "🌿 Orgânica: bokashi em pequena dose a cada 2 a 3 meses no crescimento.
+💧 Foliar: NPK equilibrado a 1/3 da dose semanalmente; reduzir após maturação.
+🧪 Liberação lenta: poucos grânulos em vaso aberto.",
+    rega: "Regue abundantemente durante novos brotos e deixe secar entre regas. Reduza após a maturação, sem desidratar excessivamente os pseudobulbos.",
+    suporte: "🥇 Vaso de barro pequeno.
+🥈 Cachepô vazado.
+🥉 Tronco ou placa em ambiente úmido.",
+    substrato: "🥇 Casca grossa + carvão + pedra-pomes.
+🥈 Brita + casca média + carvão.
+🥉 Fibra de coco grossa em cesto aberto.",
+    errosComuns: "Sombra excessiva; rizoma enterrado; vaso grande; regas frequentes no frio; excesso de nitrogênio após o amadurecimento.",
+    dica: "Mantenha o vaso apenas grande o suficiente para dois novos crescimentos; raízes apertadas e arejadas costumam produzir pseudobulbos mais fortes.",
+    adaptacaoRegional: { litoralQuente: "Boa adaptação com ventilação, secagem rápida e proteção do sol forte.", montanhaFrio: "Boa adaptação, reduzindo bastante as regas em períodos frios e nublados." },
+    mesesFloracao: [9,10,11,12,1,2],
+    avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 4, agua: 2, raridade: 3 }
 };
