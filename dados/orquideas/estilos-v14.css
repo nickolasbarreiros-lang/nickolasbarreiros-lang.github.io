@@ -3943,5 +3943,3 @@ main.container{
         white-space: normal;
     }
 }
-
-.infocards-grid-v3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:4px}.mini-infocard{background:#fff;border:1px solid #dce6de;border-radius:12px;padding:10px;text-align:center;transition:.2s}.mini-infocard:hover{transform:translateY(-2px);box-shadow:0 4px 10px rgba(0,0,0,.08)}.mini-icone{font-size:22px}.mini-titulo{font-size:12px;color:#5b6d60;font-weight:700;margin-top:4px}.mini-valor{font-size:14px;font-weight:800;color:#215d38;margin-top:6px}@media(max-width:700px){.infocards-grid-v3{grid-template-columns:1fr;}}

@@ -74,15 +74,30 @@ function criarChip(icone, texto, classeExtra = "") {
     `;
 }
 
+function criarIndicadorRotulado(rotulo, chip) {
+    if (!chip) {
+        return "";
+    }
+
+    return `
+        <div class="indicador-rotulado-v3">
+            <span class="rotulo-indicador-v3">${rotulo}</span>
+            ${chip}
+        </div>
+    `;
+}
+
 function criarInfoCard({
     titulo,
     icone,
     conteudo,
     chips = [],
+    indicadores = [],
     descricao = "",
     classeExtra = ""
 }) {
     const chipsValidos = chips.filter(Boolean);
+    const indicadoresValidos = indicadores.filter(Boolean);
 
     return `
         <article class="card-cultivo-v2 ${classeExtra}">
@@ -93,6 +108,12 @@ function criarInfoCard({
             <div class="conteudo-card-cultivo-v2">
                 <h4>${titulo}</h4>
 
+                ${indicadoresValidos.length ? `
+                    <div class="linha-indicadores-v3">
+                        ${indicadoresValidos.join("")}
+                    </div>
+                ` : ""}
+
                 ${chipsValidos.length ? `
                     <div class="linha-chips-v2">
                         ${chipsValidos.join("")}
@@ -100,7 +121,9 @@ function criarInfoCard({
                 ` : ""}
 
                 ${conteudo ? `
-                    <div class="info-horizontal">${conteudo}</div>
+                    <p class="info-horizontal">
+                        ${conteudo}
+                    </p>
                 ` : ""}
 
                 ${descricao ? `
@@ -278,25 +301,41 @@ function criarCardIluminacao(iluminacao) {
         });
     }
 
-    const solDireto = String(iluminacao.solDireto || "").trim().toLowerCase();
-    const textoSol = solDireto === "sim"
-        ? "Com sol direto"
-        : solDireto === "não" || solDireto === "nao"
-            ? "Sem sol direto"
-            : iluminacao.solDireto;
+    const valorSolOriginal = String(iluminacao.solDireto || "").trim();
+    const solDireto = valorSolOriginal.toLowerCase();
+    const aceitaSol = solDireto.startsWith("sim");
+    const rejeitaSol = solDireto === "não" || solDireto === "nao" || solDireto.startsWith("não,") || solDireto.startsWith("nao,");
 
-    const iconeSol = solDireto === "sim" ? "☀️" : "🚫";
+    let textoSol = valorSolOriginal;
 
-    const cards = `
-    <div class="infocards-grid-v3">
-      <div class="mini-infocard"><div class="mini-icone">🟨</div><div class="mini-titulo">Sombrite</div><div class="mini-valor">${iluminacao.sombrite||"—"}</div></div>
-      <div class="mini-infocard"><div class="mini-icone">${iconeSol}</div><div class="mini-titulo">Sol direto</div><div class="mini-valor">${textoSol||"—"}</div></div>
-      <div class="mini-infocard"><div class="mini-icone">🕘</div><div class="mini-titulo">Horário</div><div class="mini-valor">${iluminacao.horario||"—"}</div></div>
-    </div>`;
+    if (solDireto === "sim") {
+        textoSol = "Permitido";
+    } else if (aceitaSol && valorSolOriginal.includes(",")) {
+        textoSol = valorSolOriginal.split(",").slice(1).join(",").trim();
+        textoSol = textoSol.charAt(0).toUpperCase() + textoSol.slice(1);
+    } else if (rejeitaSol) {
+        textoSol = "Não recomendado";
+    }
+
+    const iconeSol = aceitaSol ? "🌤️" : "🚫";
+
     return criarInfoCard({
         titulo: "Iluminação",
         icone: "☀️",
-        conteudo: cards,
+        indicadores: [
+            criarIndicadorRotulado(
+                "Sombrite",
+                criarChip("🟨", iluminacao.sombrite)
+            ),
+            criarIndicadorRotulado(
+                "Sol direto",
+                criarChip(iconeSol, textoSol)
+            ),
+            criarIndicadorRotulado(
+                "Horário recomendado",
+                criarChip("🕘", iluminacao.horario)
+            )
+        ],
         descricao: iluminacao.observacoes || "",
         classeExtra: "card-iluminacao-v2"
     });
@@ -852,12 +891,6 @@ if (!orquidea) {
                     classeExtra: "card-clima-floracao-v2"
                 })}
 
-                ${criarInfoCard({
-                    titulo: "Época de floração",
-                    icone: "🌸",
-                    conteudo: obterTexto(orquidea.floracao)
-                })}
-
                 ${criarCardEstruturado({
                     titulo: "Adubação recomendada",
                     icone: "🧪",
@@ -943,13 +976,17 @@ if (!orquidea) {
 
                 <div class="titulo-secao-v2">
 
-                    <span>📅</span>
+                    <span>🌸</span>
 
                     <h3>
-                        Calendário de floração
+                        Floração
                     </h3>
 
                 </div>
+
+                <p class="texto-floracao-v2">
+                    ${obterTexto(orquidea.floracao,"Período de floração não cadastrado.")}
+                </p>
 
                 <div class="meses-v2">
 
