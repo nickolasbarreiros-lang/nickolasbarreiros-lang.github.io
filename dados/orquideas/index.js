@@ -4,6 +4,7 @@
 import { sophronitisWittigiana } from "./sophronitis-wittigiana.js";
 import { dendrobiumPolysema } from "./dendrobium-polysema.js";
 import { bifrenariaVerboonenii } from "./bifrenaria-verboonenii.js";
+import { bifrenariaAureofulva } from "./bifrenaria-aureofulva.js";
 import { sophronitisCernua } from "./sophronitis-cernua.js";
 import { sophronitisCernuaVarLitoranea } from "./sophronitis-cernua-var-litoranea.js";
 import { zygopetalumMackayi } from "./zygopetalum-mackayi.js";
@@ -116,6 +117,7 @@ import { laeliaCaulencens } from "./laelia-caulencens.js";
 export const orquideas = [
     dendrobiumPolysema,
     bifrenariaVerboonenii,
+    bifrenariaAureofulva,
     sophronitisWittigiana,
     sophronitisCernua,
     sophronitisCernuaVarLitoranea,
