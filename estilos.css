@@ -4225,3 +4225,20 @@ main.container{
         grid-column: auto;
     }
 }
+
+/* =========================================================
+   CORREÇÃO DEFINITIVA — SUBSTRATOS AO LADO DE SUPORTES
+   Sobrescreve a regra genérica que fazia o último card
+   ocupar toda a largura da grade.
+========================================================= */
+@media (min-width: 1051px) {
+    .grade-cultivo-v2 > .card-suporte-v2 {
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    .grade-cultivo-v2 > .card-substrato-v2:last-child {
+        grid-column: 2 / 4;
+        grid-row: auto;
+    }
+}
