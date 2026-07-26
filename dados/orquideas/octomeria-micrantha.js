@@ -1,44 +1,54 @@
-// Ficha revisada no Sprint 2 — Lote 5.
+// Ficha aprofundada no padrão editorial V3 — Lote 11.
 
 export const octomeriaMicrantha = {
-    id: "octomeria-micrantha",
-    nome: "Octomeria micrantha",
-    genero: "Octomeria",
-    tipo: "Espécie botânica",
-    dificuldade: "Moderada",
-    caracteristicas: [
-        "Miniatura",
-        "Flores muito pequenas",
-        "Touceira densa",
-        "Nativa do Brasil",
+    "id": "octomeria-micrantha",
+    "nome": "Octomeria micrantha",
+    "genero": "Octomeria",
+    "tipo": "Espécie botânica",
+    "dificuldade": "Moderada",
+    "caracteristicas": [
+        "Miniatura epífita",
+        "Crescimento cespitoso",
+        "Sem pseudobulbos evidentes",
+        "Flores pequenas em fascículos",
+        "Raízes finas"
     ],
-    fotos: [
-    ],
-    descricao: "Pequena Octomeria que forma touceiras compactas e produz flores diminutas. O valor ornamental está no conjunto da planta e na delicadeza das florações.",
-    origem: "Brasil",
-    regiao: "Mata Atlântica do Sul e Sudeste",
-    habitat: "Epífita de florestas úmidas, sobre ramos finos e troncos musgosos.",
-    clima: "Intermediário a fresco.",
-    climaFloracao: "A floração é favorecida por clima intermediário, noites frescas, alta umidade e ventilação constante. No litoral, mantenha em posição sombreada e fresca, pois calor abafado pode interromper a formação dos botões.",
-    iluminacao: {
-        sombrite: "70%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Luz filtrada baixa a média."
+    "fotos": [],
+    "descricao": "Miniatura cespitosa com flores muito pequenas reunidas na base das folhas. É aceita por Kew e ocorre do Sudeste brasileiro até Misiones, em ambientes com alguma sazonalidade.",
+    "origem": "Nativa de Sudeste do Brasil, Paraguai e nordeste da Argentina. Octomeria é um grupo neotropical muito diverso, com centro de riqueza no Brasil.",
+    "regiao": "Sudeste do Brasil, Paraguai e nordeste da Argentina",
+    "habitat": "Epífita de florestas sazonais, tolerando uma secagem um pouco maior que espécies de matas constantemente úmidas.",
+    "clima": "Intermediário a quente, com umidade moderada a alta e boa ventilação. Touceiras pequenas sentem rapidamente tanto a seca quanto o abafamento.",
+    "climaFloracao": "A floração acompanha a maturação dos novos ramicaules e costuma responder à boa luz filtrada e à diferença natural entre as estações, sem repouso rígido.",
+    "iluminacao": {
+        "sombrite": "60% a 75%",
+        "solDireto": "Não",
+        "horario": "Luz filtrada o dia inteiro",
+        "observacoes": "Sombra clara. Folhas muito alongadas e escuras sugerem pouca luz; tonalidade amarelada ou pontas secas indicam exposição excessiva."
     },
-    floracao: "Mais frequente entre inverno e primavera, podendo ocorrer fora de época.",
-    adubacao: "Adubo muito diluído e pouco frequente.",
-    rega: "Frequente em montagem, sem encharcar permanentemente.",
-    suporte: "Placa pequena ou cachepô aberto.",
-    substrato: "Pouco esfagno, casca fina ou montagem direta.",
-    dica: "Em Serra/ES, priorize o setor mais fresco e sombreado do orquidário, com boa circulação de ar.",
-    mesesFloracao: [6, 7, 8, 9, 10, 11],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 3,
-        perfume: 1,
-        luminosidade: 2,
-        agua: 4,
-        raridade: 4,
+    "floracao": "Mais comum na primavera e início do verão. As flores são pequenas e surgem próximas à base das folhas; uma touceira madura oferece efeito muito melhor que uma divisão recente.",
+    "adubacao": "🌿 Orgânica: use quantidade mínima, sempre afastada dos brotos.\n💧 Foliar/mineral: 1/5 a 1/4 da dose a cada 15 dias.\n🧪 Liberação lenta: geralmente desnecessária; raízes finas são sensíveis ao excesso de sais.",
+    "rega": "Mantenha umidade regular, deixando o suporte perder parte da água entre regas. Plantas montadas secam rápido e podem precisar de água diária no verão. Não deixe água retida entre folhas durante noites frias.",
+    "suporte": "🥇 Placa de madeira, cortiça ou galho: favorece a touceira e aeração.\n🥈 Vaso raso ou pequeno cesto: útil em ambientes mais secos.",
+    "substrato": "Em placa, camada fina de esfagno ou fibra junto às raízes. Em vaso, casca fina, carvão e pedra-pomes, com pouco esfagno solto. O suporte deve durar sem compactar.",
+    "errosComuns": "Dividir touceiras pequenas, usar adubo concentrado, deixar secar por muitos dias, cultivar em sombra profunda ou manter esfagno encharcado. Pontas secas podem resultar de baixa umidade, sais ou raízes comprometidas.",
+    "dica": "Evite divisões mínimas. Octomerias florescem e se estabilizam melhor quando mantidas em touceiras com vários crescimentos.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Use sombra clara, montagem ventilada e umidade ambiental. Em placas, aumente as regas no calor sem deixar água parada.",
+        "montanhaFrio": "Boa adaptação, com proteção contra geada. Em inverno úmido e nublado, aumente a ventilação e reduza a frequência de rega."
+    },
+    "mesesFloracao": [
+        9,
+        10,
+        11,
+        12
+    ],
+    "avaliacoes": {
+        "cultivo": 3,
+        "floracao": 3,
+        "perfume": 1,
+        "luminosidade": 2,
+        "agua": 4,
+        "raridade": 3
     }
 };

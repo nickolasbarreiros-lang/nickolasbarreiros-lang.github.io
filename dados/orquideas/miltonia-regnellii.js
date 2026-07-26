@@ -1,44 +1,54 @@
-// Ficha revisada no Sprint 2 — Lote 5.
+// Ficha aprofundada no padrão editorial V3 — Lote 11.
 
 export const miltoniaRegnellii = {
-    id: "miltonia-regnellii",
-    nome: "Miltonia regnellii",
-    genero: "Miltonia",
-    tipo: "Espécie botânica",
-    dificuldade: "Moderada",
-    caracteristicas: [
-        "Flores claras",
-        "Labelo rosado",
-        "Nativa do Brasil",
-        "Hastes elegantes",
+    "id": "miltonia-regnellii",
+    "nome": "Miltonia regnellii",
+    "genero": "Miltonia",
+    "tipo": "Espécie botânica",
+    "dificuldade": "Moderada",
+    "caracteristicas": [
+        "Flores claras com labelo rosado a púrpura",
+        "Epífita simpodial",
+        "Pseudobulbos comprimidos",
+        "Raízes finas",
+        "Mata Atlântica"
     ],
-    fotos: [
-    ],
-    descricao: "Espécie brasileira com flores claras e labelo rosado a púrpura. As hastes são arqueadas e podem carregar várias flores.",
-    origem: "Brasil",
-    regiao: "Sul e Sudeste",
-    habitat: "Epífita de florestas úmidas e luminosas.",
-    clima: "Intermediário.",
-    climaFloracao: "A floração é favorecida por crescimento vigoroso, iluminação adequada, boa ventilação e leve diferença entre as temperaturas do dia e da noite. Evite extremos de calor, frio ou umidade durante a formação dos botões.",
-    iluminacao: {
-        sombrite: "70%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Luz filtrada média a alta."
+    "fotos": [],
+    "descricao": "As flores claras, delicadas e geralmente perfumadas surgem em hastes multifloras. É mais tolerante ao calor que Miltoniopsis, mas aprecia noites ligeiramente mais amenas.",
+    "origem": "Nativa de Sudeste e Sul do Brasil. Integra o grupo das Miltonia brasileiras, de clima mais quente e cultivo diferente das Miltoniopsis andinas.",
+    "regiao": "Sudeste e Sul do Brasil",
+    "habitat": "Mata Atlântica úmida, em altitude baixa a moderada.",
+    "clima": "Intermediário a quente, com boa umidade e noites um pouco mais frescas. Tolera calor diurno quando há ventilação e as raízes permanecem saudáveis.",
+    "climaFloracao": "A floração vem após a maturação do pseudobulbo. Boa luz, diferença moderada entre dia e noite e redução natural do crescimento ajudam; não imponha seca severa.",
+    "iluminacao": {
+        "sombrite": "50% a 70%",
+        "solDireto": "Somente sol fraco",
+        "horario": "Até 8h30 ou no fim da tarde",
+        "observacoes": "Luz filtrada média a intensa. Folhas verde-claro indicam boa exposição; folhas verde-escuras e sem flores sugerem sombra excessiva. Evite aquecer as folhas no meio do dia."
     },
-    floracao: "Principalmente no fim do inverno e na primavera.",
-    adubacao: "Adubo equilibrado diluído na brotação e maturação dos pseudobulbos.",
-    rega: "Regular no crescimento, reduzindo levemente após maturação sem deixar desidratar.",
-    suporte: "Vaso ou cachepô bem drenado.",
-    substrato: "Casca média, carvão, pedra-pomes e pequena porção de esfagno.",
-    dica: "Em Serra/ES, ofereça bastante claridade e vento, mas evite aquecimento excessivo das folhas.",
-    mesesFloracao: [8, 9, 10, 11],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 4,
-        perfume: 2,
-        luminosidade: 3,
-        agua: 4,
-        raridade: 3,
+    "floracao": "Fim do verão ao outono. As flores claras, delicadas e geralmente perfumadas surgem em hastes multifloras. É mais tolerante ao calor que Miltoniopsis, mas aprecia noites ligeiramente mais amenas.",
+    "adubacao": "🌿 Orgânica: bokashi em pequena porção, dentro de porta-adubo e longe dos brotos. Reponha somente após o material se desfazer.\n💧 Foliar/mineral: na fase de crescimento, use adubo equilibrado em 1/4 da dose a cada 10–15 dias; reduza quando o pseudobulbo amadurecer. Faça uma rega só com água mensalmente para retirar sais.\n🧪 Liberação lenta: use poucos grânulos em vasos muito drenantes, sem encostar em raízes novas. Não combine doses completas dos três métodos.",
+    "rega": "Regue com frequência durante a emissão de brotos e raízes, deixando o substrato se aproximar da secagem antes da próxima rega. Após a maturação, reduza levemente. Não deixe os pseudobulbos murcharem de forma acentuada.",
+    "suporte": "🥇 Vaso plástico pequeno e perfurado: mantém umidade sem excesso.\n🥈 Vaso de barro: bom para clima úmido e regas frequentes.\n🥉 Cesto: útil para plantas que já formaram touceiras largas.",
+    "substrato": "Casca de pinus pequena a média + carvão + pedra-pomes ou perlita. Acrescente pouco esfagno picado apenas em locais secos. Replante quando surgirem raízes novas, pois raízes de Miltonia não toleram substrato decomposto.",
+    "errosComuns": "Substrato velho, vaso grande, calor abafado, sol forte, adubação concentrada e secagem prolongada dos brotos. Folhas sanfonadas costumam indicar falta de água durante a expansão ou raízes comprometidas.",
+    "dica": "A qualidade do novo pseudobulbo define a floração seguinte. Mantenha água, luz e nutrição regulares enquanto o broto está se formando.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Use 60–70% de sombra, ventilação forte e substrato bem drenante. Evite água acumulada no miolo dos brotos durante noites quentes.",
+        "montanhaFrio": "Geralmente se adapta muito bem. Ofereça mais luz no inverno e reduza regas em semanas frias e nubladas, sem secar totalmente."
+    },
+    "mesesFloracao": [
+        2,
+        3,
+        4,
+        5
+    ],
+    "avaliacoes": {
+        "cultivo": 3,
+        "floracao": 4,
+        "perfume": 3,
+        "luminosidade": 3,
+        "agua": 4,
+        "raridade": 3
     }
 };
