@@ -16,16 +16,10 @@ export const dryadellaAviceps = {
     climaFloracao: "Noites mais frescas, umidade elevada e crescimento sem interrupções favorecem a floração. Em calor prolongado, a planta pode suspender o desenvolvimento.",
     iluminacao: { sombrite: "60% a 70%", solDireto: "Não", horario: "Luz difusa", observacoes: "Sombra clara; luz excessiva amarela e desidrata rapidamente as folhas." },
     floracao: "Mais frequente do inverno à primavera, podendo repetir quando bem estabelecida.",
-    adubacao: "🌿 Orgânica: evitar material concentrado sobre raízes finas.
-💧 Foliar: solução equilibrada a 1/4 da dose a cada 10 a 15 dias.
-🧪 Liberação lenta: não recomendada em recipientes pequenos.",
+    adubacao: "🌿 Orgânica: evitar material concentrado sobre raízes finas.\n💧 Foliar: solução equilibrada a 1/4 da dose a cada 10 a 15 dias.\n🧪 Liberação lenta: não recomendada em recipientes pequenos.",
     rega: "Mantenha o substrato levemente úmido, com rápida drenagem. Não permita secagem total nem água permanentemente parada.",
-    suporte: "🥇 Placa pequena com musgo.
-🥈 Vaso baixo de barro.
-🥉 Cachepô miniatura bem vazado.",
-    substrato: "🥇 Esfagno solto e renovado.
-🥈 Casca fina + perlita ou pedra-pomes + pouco esfagno.
-🥉 Musgo vivo em montagem ventilada.",
+    suporte: "🥇 Placa pequena com musgo.\n🥈 Vaso baixo de barro.\n🥉 Cachepô miniatura bem vazado.",
+    substrato: "🥇 Esfagno solto e renovado.\n🥈 Casca fina + perlita ou pedra-pomes + pouco esfagno.\n🥉 Musgo vivo em montagem ventilada.",
     errosComuns: "Calor noturno contínuo; sais acumulados; esfagno velho e compactado; seca completa; divisão excessiva da touceira.",
     dica: "Cultive a planta em touceira: o agrupamento mantém um microclima mais estável e costuma aumentar o número de flores.",
     adaptacaoRegional: { litoralQuente: "Exige o ponto mais fresco e ventilado, protegido do calor da tarde.", montanhaFrio: "Excelente adaptação, desde que não sofra geada e o substrato não permaneça encharcado no inverno." },

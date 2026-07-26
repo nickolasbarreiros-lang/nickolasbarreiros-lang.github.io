@@ -16,16 +16,10 @@ export const dichaeaPendula = {
     climaFloracao: "A floração é favorecida por crescimento contínuo, umidade estável, luz filtrada e pequena diferença térmica entre dia e noite. Não exige repouso seco.",
     iluminacao: { sombrite: "60% a 70%", solDireto: "Não", horario: "Luz indireta", observacoes: "Sombra clara; evite sol direto e folhas aquecidas." },
     floracao: "Pode ocorrer em diferentes épocas, com maior frequência durante períodos quentes e úmidos.",
-    adubacao: "🌿 Orgânica: bokashi em quantidade mínima e longe das raízes.
-💧 Foliar: NPK equilibrado a 1/4 da dose a cada 10 a 15 dias.
-🧪 Liberação lenta: geralmente dispensável; se usada, aplique poucos grânulos.",
+    adubacao: "🌿 Orgânica: bokashi em quantidade mínima e longe das raízes.\n💧 Foliar: NPK equilibrado a 1/4 da dose a cada 10 a 15 dias.\n🧪 Liberação lenta: geralmente dispensável; se usada, aplique poucos grânulos.",
     rega: "Mantenha as raízes uniformemente úmidas, mas bem oxigenadas. Em montagens, regas podem ser diárias no calor; reduza apenas quando a secagem for lenta.",
-    suporte: "🥇 Placa vertical com fina camada de esfagno.
-🥈 Cesto suspenso.
-🥉 Vaso estreito e muito ventilado, permitindo que as hastes pendam.",
-    substrato: "🥇 Esfagno solto sobre placa.
-🥈 Casca fina + esfagno + pedra-pomes.
-🥉 Fibra de coco grossa com pouco musgo.",
+    suporte: "🥇 Placa vertical com fina camada de esfagno.\n🥈 Cesto suspenso.\n🥉 Vaso estreito e muito ventilado, permitindo que as hastes pendam.",
+    substrato: "🥇 Esfagno solto sobre placa.\n🥈 Casca fina + esfagno + pedra-pomes.\n🥉 Fibra de coco grossa com pouco musgo.",
     errosComuns: "Deixar secar completamente; usar vaso profundo e abafado; sol direto; baixa umidade; água acumulada nas axilas sem ventilação.",
     dica: "Observe as pontas das hastes: quando começam a enrugar, a planta já está sofrendo falta de água. Corrija a umidade sem transformar o cultivo em ambiente estagnado.",
     adaptacaoRegional: { litoralQuente: "Adapta-se bem se houver sombra clara, regas frequentes e ventilação contínua.", montanhaFrio: "Boa adaptação em local protegido do frio intenso, mantendo umidade e evitando secagem pelo vento." },

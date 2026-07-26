@@ -16,16 +16,10 @@ export const eriaHyacinthoides = {
     climaFloracao: "Crescimento vigoroso, umidade atmosférica, luz média e leve oscilação térmica favorecem a floração. Não exige repouso seco severo.",
     iluminacao: { sombrite: "60% a 70%", solDireto: "Não", horario: "Luz indireta", observacoes: "Luz filtrada média; evite aquecimento das folhas." },
     floracao: "Mais frequente na primavera e no verão.",
-    adubacao: "🌿 Orgânica: bokashi em dose pequena e afastada das raízes.
-💧 Foliar: equilibrado a 1/4 da dose a cada 7 a 10 dias no crescimento.
-🧪 Liberação lenta: poucos grânulos em vaso ventilado.",
+    adubacao: "🌿 Orgânica: bokashi em dose pequena e afastada das raízes.\n💧 Foliar: equilibrado a 1/4 da dose a cada 7 a 10 dias no crescimento.\n🧪 Liberação lenta: poucos grânulos em vaso ventilado.",
     rega: "Regular e abundante no calor, deixando apenas leve aeração entre regas. Reduza discretamente no frio sem secar completamente.",
-    suporte: "🥇 Cesto ou cachepô ventilado.
-🥈 Vaso de barro.
-🥉 Montagem em tronco para ambiente de alta umidade.",
-    substrato: "🥇 Casca média + esfagno solto + pedra-pomes.
-🥈 Fibra de coco grossa + carvão.
-🥉 Casca fina + carvão + pouco musgo.",
+    suporte: "🥇 Cesto ou cachepô ventilado.\n🥈 Vaso de barro.\n🥉 Montagem em tronco para ambiente de alta umidade.",
+    substrato: "🥇 Casca média + esfagno solto + pedra-pomes.\n🥈 Fibra de coco grossa + carvão.\n🥉 Casca fina + carvão + pouco musgo.",
     errosComuns: "Manter o nome Eria como aceito; baixa ventilação na touceira; secura prolongada; excesso de sais; dividir plantas pequenas.",
     dica: "Permita que a planta forme uma touceira robusta; inflorescências mais densas costumam surgir em exemplares bem estabelecidos.",
     adaptacaoRegional: { litoralQuente: "Boa, com umidade, sombra clara e circulação de ar.", montanhaFrio: "Boa em local protegido, evitando frio intenso e substrato encharcado no inverno." },

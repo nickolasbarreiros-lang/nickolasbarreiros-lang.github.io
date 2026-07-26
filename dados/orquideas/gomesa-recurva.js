@@ -16,16 +16,10 @@ export const gomesaRecurva = {
     climaFloracao: "A maturação dos pseudobulbos, noites mais frescas e boa luz filtrada favorecem hastes abundantes. Não precisa de seca extrema.",
     iluminacao: { sombrite: "50%", solDireto: "Sim", horario: "Até 08:30", observacoes: "Luz média a intensa; evite sol forte sobre folhas finas." },
     floracao: "Mais comum do outono ao inverno.",
-    adubacao: "🌿 Orgânica: bokashi leve no início do crescimento.
-💧 Foliar: equilibrado a 1/4 da dose semanalmente durante brotação.
-🧪 Liberação lenta: dose baixa em vaso drenante.",
+    adubacao: "🌿 Orgânica: bokashi leve no início do crescimento.\n💧 Foliar: equilibrado a 1/4 da dose semanalmente durante brotação.\n🧪 Liberação lenta: dose baixa em vaso drenante.",
     rega: "Regular durante novos brotos; permita leve secagem entre regas. Reduza no frio e após a maturação sem enrugar excessivamente os pseudobulbos.",
-    suporte: "🥇 Placa de madeira ou cortiça.
-🥈 Cachepô pequeno.
-🥉 Vaso de barro baixo.",
-    substrato: "🥇 Casca fina a média + carvão + pedra-pomes.
-🥈 Fibra de coco grossa + carvão.
-🥉 Esfagno em pequena proporção para locais mais secos.",
+    suporte: "🥇 Placa de madeira ou cortiça.\n🥈 Cachepô pequeno.\n🥉 Vaso de barro baixo.",
+    substrato: "🥇 Casca fina a média + carvão + pedra-pomes.\n🥈 Fibra de coco grossa + carvão.\n🥉 Esfagno em pequena proporção para locais mais secos.",
     errosComuns: "Sombra excessiva; calor noturno constante; vaso grande; substrato velho; retirar hastes antes de secarem completamente.",
     dica: "A planta costuma florescer melhor quando recebe luz lateral e espaço para as hastes arquearem sem encostar em outras plantas.",
     adaptacaoRegional: { litoralQuente: "Cultive no ponto mais fresco e claro, com ventilação constante.", montanhaFrio: "Adaptação excelente, protegendo apenas de geada e excesso de água no inverno." },
