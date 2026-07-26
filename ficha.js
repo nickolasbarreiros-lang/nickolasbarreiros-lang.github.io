@@ -115,6 +115,161 @@ function criarInfoCard({
     `;
 }
 
+
+function criarLinhasEstruturadas(valor, classe = "") {
+    if (valor === undefined || valor === null) {
+        return "";
+    }
+
+    if (Array.isArray(valor)) {
+        return `
+            <div class="lista-estruturada-v2 ${classe}">
+                ${valor.map((item) => `<p>${item}</p>`).join("")}
+            </div>
+        `;
+    }
+
+    if (typeof valor === "object") {
+        const rotulos = {
+            organica: ["🌿", "Orgânica"],
+            foliar: ["💧", "Foliar"],
+            liberacaoLenta: ["🧪", "Liberação lenta"]
+        };
+
+        const linhas = Object.entries(valor)
+            .filter(([, texto]) => texto !== undefined && texto !== null && String(texto).trim() !== "")
+            .map(([chave, texto]) => {
+                const [icone, rotulo] = rotulos[chave] || ["", chave];
+                return `
+                    <div class="linha-estruturada-v2">
+                        <strong>${icone} ${rotulo}</strong>
+                        <span>${texto}</span>
+                    </div>
+                `;
+            })
+            .join("");
+
+        return linhas ? `<div class="lista-estruturada-v2 ${classe}">${linhas}</div>` : "";
+    }
+
+    const texto = String(valor).trim();
+
+    if (!texto) {
+        return "";
+    }
+
+    const linhas = texto
+        .split(/\n+/)
+        .map((linha) => linha.trim())
+        .filter(Boolean);
+
+    if (linhas.length > 1) {
+        return `
+            <div class="lista-estruturada-v2 ${classe}">
+                ${linhas.map((linha) => `<p>${linha}</p>`).join("")}
+            </div>
+        `;
+    }
+
+    return `<p class="info-horizontal">${texto}</p>`;
+}
+
+function criarCardEstruturado({
+    titulo,
+    icone,
+    valor,
+    classeExtra = ""
+}) {
+    const conteudo = criarLinhasEstruturadas(valor);
+
+    if (!conteudo) {
+        return "";
+    }
+
+    return `
+        <article class="card-cultivo-v2 ${classeExtra}">
+            <div class="icone-card-v2" aria-hidden="true">${icone}</div>
+            <div class="conteudo-card-cultivo-v2">
+                <h4>${titulo}</h4>
+                ${conteudo}
+            </div>
+        </article>
+    `;
+}
+
+function normalizarErrosComuns(valor) {
+    if (Array.isArray(valor)) {
+        return valor.filter(Boolean);
+    }
+
+    if (typeof valor !== "string") {
+        return [];
+    }
+
+    return valor
+        .split(/\n+|;\s*/)
+        .map((item) => item.trim().replace(/\.$/, ""))
+        .filter(Boolean);
+}
+
+function criarErrosComuns(valor) {
+    const erros = normalizarErrosComuns(valor);
+
+    if (!erros.length) {
+        return "";
+    }
+
+    return `
+        <section id="erros-comuns" class="erros-comuns-v2 secao-ancora-v3">
+            <div class="titulo-secao-v2">
+                <span>❌</span>
+                <h3>Erros comuns</h3>
+            </div>
+            <ul>
+                ${erros.map((erro) => `<li>${erro}.</li>`).join("")}
+            </ul>
+        </section>
+    `;
+}
+
+function criarAdaptacaoRegional(valor) {
+    if (!valor || typeof valor !== "object") {
+        return "";
+    }
+
+    const litoral = valor.litoralQuente || valor.litoral || "";
+    const montanha = valor.montanhaFrio || valor.montanha || "";
+
+    if (!litoral && !montanha) {
+        return "";
+    }
+
+    return `
+        <section id="adaptacao-regional" class="adaptacao-regional-v2 secao-ancora-v3">
+            <div class="titulo-secao-v2">
+                <span>🌍</span>
+                <h3>Adaptação regional</h3>
+            </div>
+
+            <div class="grade-adaptacao-v2">
+                ${litoral ? `
+                    <article class="adaptacao-item-v2">
+                        <h4>🌴 Regiões litorâneas e quentes</h4>
+                        <p>${litoral}</p>
+                    </article>
+                ` : ""}
+
+                ${montanha ? `
+                    <article class="adaptacao-item-v2">
+                        <h4>🏔️ Regiões de montanha e clima frio</h4>
+                        <p>${montanha}</p>
+                    </article>
+                ` : ""}
+            </div>
+        </section>
+    `;
+}
+
 function criarCardIluminacao(iluminacao) {
     if (!iluminacao || typeof iluminacao !== "object") {
         return criarInfoCard({
@@ -487,9 +642,11 @@ if (!orquidea) {
                         )}
                     </span>
 
-                    <span class="etiqueta-v2 etiqueta-serra-v3">
-                        📍 Guia adaptado para Serra/ES
-                    </span>
+                    ${orquidea.adaptacaoRegional ? `
+                        <span class="etiqueta-v2 etiqueta-regional-v3">
+                            🌍 Adaptação regional
+                        </span>
+                    ` : ""}
 
                 </div>
 
@@ -538,7 +695,9 @@ if (!orquidea) {
             <a href="#sobre-especie">Sobre</a>
             <a href="#guia-cultivo">Cultivo</a>
             <a href="#avaliacao-especie">Avaliações</a>
-            <a href="#dica-serra">Dica Serra/ES</a>
+            ${orquidea.errosComuns ? `<a href="#erros-comuns">Erros comuns</a>` : ""}
+            ${orquidea.adaptacaoRegional ? `<a href="#adaptacao-regional">Adaptação regional</a>` : ""}
+            <a href="#dica-ouro">Dica de Ouro</a>
         </nav>
 
         <section id="visao-geral" class="apresentacao-v2 secao-ancora-v3">
@@ -639,6 +798,18 @@ if (!orquidea) {
 
             </div>
 
+            <div class="identificacao-cientifica-v2">
+                <div>
+                    <span>📖 Nome científico</span>
+                    <strong><em>${orquidea.nome}</em></strong>
+                </div>
+
+                <div>
+                    <span>🌍 Origem</span>
+                    <strong>${obterTexto(orquidea.origem)}</strong>
+                </div>
+            </div>
+
             <p>
                 ${obterTexto(
                     orquidea.descricao,
@@ -687,22 +858,24 @@ if (!orquidea) {
                     conteudo: obterTexto(orquidea.floracao)
                 })}
 
-                ${criarInfoCard({
-                    titulo: "Adubação",
+                ${criarCardEstruturado({
+                    titulo: "Adubação recomendada",
                     icone: "🧪",
-                    conteudo: obterTexto(orquidea.adubacao)
+                    valor: orquidea.adubacao,
+                    classeExtra: "card-adubacao-v2"
                 })}
 
-                ${criarInfoCard({
-                    titulo: "Suporte ideal",
+                ${criarCardEstruturado({
+                    titulo: "Suportes recomendados",
                     icone: "🪵",
-                    conteudo: obterTexto(orquidea.suporte)
+                    valor: orquidea.suporte,
+                    classeExtra: "card-suporte-v2"
                 })}
 
-                ${criarInfoCard({
-                    titulo: "Substrato ideal",
+                ${criarCardEstruturado({
+                    titulo: "Substratos recomendados",
                     icone: "🌱",
-                    conteudo: obterTexto(orquidea.substrato),
+                    valor: orquidea.substrato,
                     classeExtra: "card-substrato-v2"
                 })}
 
@@ -790,7 +963,11 @@ if (!orquidea) {
 
         </section>
 
-        <section id="dica-serra" class="dica-ouro-v2 secao-ancora-v3">
+        ${criarErrosComuns(orquidea.errosComuns)}
+
+        ${criarAdaptacaoRegional(orquidea.adaptacaoRegional)}
+
+        <section id="dica-ouro" class="dica-ouro-v2 secao-ancora-v3">
 
             <div class="icone-dica-v2">
                 💡
@@ -799,7 +976,7 @@ if (!orquidea) {
             <div>
 
                 <h3>
-                    Dica de ouro para Serra/ES
+                    Dica de Ouro
                 </h3>
 
                 <p>

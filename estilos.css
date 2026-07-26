@@ -3960,3 +3960,164 @@ main.container{
     flex-wrap: wrap;
     gap: 0.45rem;
 }
+
+/* =========================================================
+   FICHA V2.1 — CAMPOS EDITORIAIS COMPLETOS
+========================================================= */
+
+.etiqueta-regional-v3 {
+    color: #1f5f70;
+    background: #eaf7fa;
+    border-color: #b9dce4;
+}
+
+.identificacao-cientifica-v2 {
+    display: grid;
+    grid-template-columns: minmax(220px, 0.8fr) minmax(0, 1.4fr);
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.identificacao-cientifica-v2 > div {
+    display: grid;
+    gap: 5px;
+    padding: 13px 15px;
+    background: #f7faf7;
+    border: 1px solid #dce7de;
+    border-radius: 11px;
+}
+
+.identificacao-cientifica-v2 span {
+    color: #557060;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.identificacao-cientifica-v2 strong {
+    color: #214f32;
+    font-size: 14px;
+    line-height: 1.45;
+}
+
+.lista-estruturada-v2 {
+    display: grid;
+    gap: 8px;
+}
+
+.lista-estruturada-v2 p {
+    margin: 0;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #d7e3d9;
+}
+
+.lista-estruturada-v2 p:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.linha-estruturada-v2 {
+    display: grid;
+    gap: 3px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #d7e3d9;
+}
+
+.linha-estruturada-v2:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.linha-estruturada-v2 strong {
+    color: #245c39;
+    font-size: 13px;
+}
+
+.linha-estruturada-v2 span {
+    color: #293b30;
+    font-size: 13.5px;
+    line-height: 1.55;
+}
+
+.card-adubacao-v2,
+.card-suporte-v2 {
+    min-height: 0;
+}
+
+.card-substrato-v2 {
+    min-height: 0;
+}
+
+.erros-comuns-v2,
+.adaptacao-regional-v2 {
+    margin-top: 18px;
+    padding: 22px 24px;
+    background: #ffffff;
+    border: 1px solid #dce6de;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(31, 74, 45, 0.05);
+}
+
+.erros-comuns-v2 {
+    border-left: 5px solid #c65a54;
+    background: linear-gradient(135deg, #fffafa 0%, #ffffff 100%);
+}
+
+.erros-comuns-v2 .titulo-secao-v2 > span {
+    background: #fff0ef;
+}
+
+.erros-comuns-v2 ul {
+    display: grid;
+    gap: 8px;
+    margin: 0;
+    padding-left: 22px;
+}
+
+.erros-comuns-v2 li {
+    color: #4b302f;
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+.grade-adaptacao-v2 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.adaptacao-item-v2 {
+    padding: 16px;
+    background: #f7faf8;
+    border: 1px solid #dce7de;
+    border-radius: 12px;
+}
+
+.adaptacao-item-v2 h4 {
+    margin: 0 0 8px;
+    color: #215d38;
+    font-size: 14px;
+}
+
+.adaptacao-item-v2 p {
+    margin: 0;
+    color: #293b30;
+    font-size: 13.5px;
+    line-height: 1.6;
+}
+
+@media (max-width: 760px) {
+    .identificacao-cientifica-v2,
+    .grade-adaptacao-v2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media print {
+    .erros-comuns-v2,
+    .adaptacao-regional-v2 {
+        box-shadow: none;
+        break-inside: avoid;
+    }
+}
