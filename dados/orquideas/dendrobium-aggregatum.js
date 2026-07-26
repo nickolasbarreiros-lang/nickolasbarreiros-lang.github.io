@@ -1,44 +1,35 @@
-// Ficha revisada no Sprint 2 — Lote 2.
+// Ficha científica e de cultivo revisada — Lote 07.
 
 export const dendrobiumAggregatum = {
     id: "dendrobium-aggregatum",
-    nome: "Dendrobium aggregatum",
+    nome: "Dendrobium lindleyi",
     genero: "Dendrobium",
-    tipo: "Espécie botânica",
+    tipo: "Espécie botânica — antigo Dendrobium aggregatum",
     dificuldade: "Moderada",
-    caracteristicas: [
-        "Flores amarelas",
-        "Hastes pendentes",
-        "Repouso seco",
-        "Sinônimo de Dendrobium lindleyi",
-    ],
-    fotos: [
-    ],
-    descricao: "Espécie asiática muito conhecida como Dendrobium aggregatum; o nome aceito atualmente é Dendrobium lindleyi. Forma pseudobulbos curtos e inflorescências pendentes com muitas flores amarelas.",
-    origem: "Sul e Sudeste da Ásia",
-    regiao: "Do Himalaia oriental à Indochina",
-    habitat: "Epífita em florestas sazonais, com inverno mais seco e luminoso.",
-    clima: "Intermediário, tolerando calor no crescimento.",
-    climaFloracao: "Precisa de pseudobulbos maduros, noites mais frescas e redução das regas no outono e inverno. Calor constante com adubação rica em nitrogênio tende a produzir brotos ou keikis em vez de flores.",
+    caracteristicas: ["Flores amarelo-ouro", "Cachos pendentes", "Pseudobulbos curtos", "Repouso seco"],
+    descricao: "Espécie asiática amplamente conhecida pelo antigo nome Dendrobium aggregatum. O nome aceito é Dendrobium lindleyi. Forma pseudobulbos curtos, geralmente com uma folha, e cachos pendentes com numerosas flores amarelo-ouro.",
+    origem: "Himalaia oriental, sul da China e Indochina.",
+    regiao: "Índia nordeste, Bangladesh, Myanmar, Tailândia, Laos, Vietnã e sul da China.",
+    habitat: "Epífita em florestas sazonais claras, com verão úmido e inverno mais fresco e seco.",
+    clima: "Intermediário a quente no crescimento, fresco e seco no repouso.",
+    climaFloracao: "Após o amadurecimento dos pseudobulbos, precisa de luz forte, noites mais frescas e redução marcante de água e nitrogênio.",
     iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Luz filtrada intensa e sol suave."
+        sombrite: "40% a 50%",
+        solDireto: "Sim, suave",
+        horario: "Manhã cedo",
+        observacoes: "Luz intensa durante todo o ano, especialmente no repouso."
     },
-    floracao: "Fim do inverno e primavera, após repouso seco.",
-    adubacao: "Adubar regularmente da brotação até o amadurecimento. Interromper adubação nitrogenada durante o repouso.",
-    rega: "Muita água no crescimento; reduzir fortemente após maturação, fornecendo apenas o suficiente para evitar enrugamento extremo.",
-    suporte: "Placa ou cachepô que permita queda das hastes florais.",
-    substrato: "Casca grossa, carvão e pedra-pomes, com pouca retenção.",
-    dica: "Em Serra/ES, mantenha o repouso de maio a agosto em local claro e protegido de chuvas. Excesso de água no inverno produz brotos, mas poucas flores.",
+    floracao: "Fim do inverno e primavera.",
+    adubacao: "🌿 Orgânica: bokashi apenas na brotação.\n💧 Foliar: equilibrado durante crescimento; suspender no repouso.\n🧪 Liberação lenta: pouca quantidade e somente no início do ciclo.",
+    rega: "Muita água enquanto brota e enche os pseudobulbos. Após a maturação, reduza bastante e forneça apenas água ocasional para evitar murcha extrema.",
+    suporte: "🥇 Placa de madeira ou cortiça.\n🥈 Cesto pequeno.\n🥉 Vaso de barro raso.",
+    substrato: "🥇 Montado com fina camada de esfagno.\n🥈 Casca grossa + carvão + pedra-pomes.\n🥉 Fibra de coco grossa em cesto.",
+    errosComuns: "Regar e adubar no inverno; sombra excessiva; substrato retentivo; cortar pseudobulbos antigos; confundir D. lindleyi com D. jenkinsii.",
+    dica: "No repouso, mantenha a planta clara e ventilada; a combinação de seca e luz é mais importante que frio intenso.",
+    adaptacaoRegional: {
+        litoralQuente: "Floresce se ficar protegida de chuva no inverno e no ponto mais ventilado e luminoso.",
+        montanhaFrio: "Muito adequada, com repouso natural; evite apenas geada e desidratação extrema."
+    },
     mesesFloracao: [8, 9, 10, 11],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 4,
-        perfume: 2,
-        luminosidade: 4,
-        agua: 3,
-        raridade: 2
-    }
+    avaliacoes: { cultivo: 3, floracao: 5, perfume: 2, luminosidade: 4, agua: 3, raridade: 2 }
 };

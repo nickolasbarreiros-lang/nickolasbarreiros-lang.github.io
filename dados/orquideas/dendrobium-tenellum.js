@@ -1,44 +1,35 @@
-// Ficha revisada no Sprint 2 — Lote 2.
+// Ficha científica e de cultivo revisada — Lote 07.
 
 export const dendrobiumTenellum = {
     id: "dendrobium-tenellum",
     nome: "Dendrobium tenellum",
     genero: "Dendrobium",
-    tipo: "Espécie botânica",
+    tipo: "Espécie botânica — identificação a confirmar por procedência",
     dificuldade: "Moderada",
-    caracteristicas: [
-        "Pseudobulbos finos",
-        "Flores delicadas",
-        "Ásia tropical",
-        "Crescimento pendente",
-    ],
-    fotos: [
-    ],
-    descricao: "Dendrobium de hastes finas e alongadas, com flores pequenas e delicadas. O nome no comércio pode aparecer com grafias ou identificações divergentes, por isso a procedência do exemplar deve ser mantida registrada.",
-    origem: "Ásia tropical",
-    regiao: "Sudeste Asiático",
-    habitat: "Epífita em florestas sazonais, com boa luz e ventilação.",
+    caracteristicas: ["Canas finas", "Crescimento pendente", "Flores delicadas", "Repouso moderado"],
+    descricao: "Dendrobium de canas finas e alongadas, mantido no acervo como Dendrobium tenellum. Como esse nome aparece de forma inconsistente no comércio, a procedência e a floração devem ser preservadas para futura confirmação.",
+    origem: "Ásia tropical, conforme o rótulo do exemplar.",
+    regiao: "Sudeste Asiático.",
+    habitat: "Epífita em florestas sazonais claras e ventiladas.",
     clima: "Quente a intermediário.",
-    climaFloracao: "A floração é favorecida pela maturação completa dos pseudobulbos, noites mais frescas e uma redução moderada das regas. Retome água e adubação quando os novos brotos aparecerem.",
+    climaFloracao: "A maturação das canas, o aumento de luz e uma redução moderada de água e adubo favorecem a floração.",
     iluminacao: {
-        sombrite: "50%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Luz filtrada média a intensa."
+        sombrite: "50% a 60%",
+        solDireto: "Apenas fraco",
+        horario: "Manhã cedo",
+        observacoes: "Luz filtrada média a forte, com boa circulação."
     },
-    floracao: "Mais comum no fim do inverno e na primavera.",
-    adubacao: "Adubo rico em nitrogênio em baixa dose na brotação; equilibrado até maturação. Suspender ou reduzir bastante durante o repouso.",
-    rega: "Abundante no crescimento. Reduzir no inverno quando as hastes estiverem maduras, retomando ao surgir nova brotação.",
-    suporte: "Cachepô ou placa para acomodar hastes pendentes.",
-    substrato: "Casca média, carvão e pedra-pomes, muito drenante.",
-    dica: "Em Serra/ES, o repouso deve ser mais seco, não necessariamente frio. Evite molhar diariamente canas maduras sem crescimento ativo.",
+    floracao: "Fim do inverno e primavera, conforme a identificação.",
+    adubacao: "🌿 Orgânica: bokashi mínimo durante brotação.\n💧 Foliar: adubo equilibrado diluído até a maturação das canas.\n🧪 Liberação lenta: poucos grânulos no início do crescimento.",
+    rega: "Regue bem no crescimento e deixe secar parcialmente. Com canas maduras e sem novas raízes, reduza a frequência sem provocar murcha severa.",
+    suporte: "🥇 Cesto suspenso.\n🥈 Placa de madeira.\n🥉 Vaso raso em posição alta.",
+    substrato: "🥇 Casca média + carvão + pedra-pomes.\n🥈 Fibra de coco grossa.\n🥉 Montagem com fina camada de esfagno.",
+    errosComuns: "Excesso de água em canas maduras; pouca luz; adubação contínua; cortar canas antigas; perder o registro de procedência.",
+    dica: "Na próxima floração, fotografe a planta inteira e detalhes do labelo e da coluna; isso permitirá uma revisão taxonômica confiável.",
+    adaptacaoRegional: {
+        litoralQuente: "Cultive em local ventilado e claro, com redução de água protegida de chuvas no inverno.",
+        montanhaFrio: "Boa adaptação, evitando apenas geada e repouso seco excessivo."
+    },
     mesesFloracao: [7, 8, 9, 10],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 3,
-        perfume: 1,
-        luminosidade: 4,
-        agua: 3,
-        raridade: 4
-    }
+    avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 4, agua: 3, raridade: 4 }
 };

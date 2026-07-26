@@ -1,44 +1,35 @@
-// Ficha revisada no Sprint 2 — Lote 2.
+// Ficha científica e de cultivo revisada — Lote 07.
 
 export const cyrtopodiumPodophyllum = {
     id: "cyrtopodium-podophyllum",
     nome: "Cyrtopodium podophyllum",
     genero: "Cyrtopodium",
-    tipo: "Espécie botânica",
+    tipo: "Nome histórico no acervo — identificação taxonômica a revisar",
     dificuldade: "Moderada",
-    caracteristicas: [
-        "Terrestre",
-        "Pseudobulbos grandes",
-        "Hastes altas",
-        "Repouso seco",
-    ],
-    fotos: [
-    ],
-    descricao: "Orquídea terrestre de grande porte, com pseudobulbos robustos e hastes florais altas. Passa por período de dormência, frequentemente perdendo as folhas antes da floração ou durante a estação seca.",
-    origem: "América tropical",
-    regiao: "Brasil e outras áreas tropicais da América do Sul",
-    habitat: "Campos, cerrados e áreas abertas com estação seca marcada.",
-    clima: "Quente, com estação seca definida.",
-    climaFloracao: "A floração é favorecida por um período mais seco após o amadurecimento dos pseudobulbos, acompanhado de noites ligeiramente mais frescas. Reduza as regas sem permitir desidratação severa.",
+    caracteristicas: ["Porte grande", "Terrestre ou rupícola", "Hastes altas", "Dormência sazonal"],
+    descricao: "Orquídea robusta registrada no acervo como Cyrtopodium podophyllum. Esse nome não aparece entre as espécies atualmente aceitas no tratamento taxonômico consultado para o gênero, portanto a identificação deve ser conferida; no cultivo, segue o padrão dos Cyrtopodium terrestres e rupícolas de estação seca.",
+    origem: "Brasil tropical, conforme a identificação tradicional do exemplar.",
+    regiao: "Áreas abertas, restingas, campos e afloramentos rochosos.",
+    habitat: "Solo arenoso ou pedregoso, com alta luminosidade e período anual de seca.",
+    clima: "Quente, sazonal e muito ventilado.",
+    climaFloracao: "A maturação completa dos pseudobulbos, seguida de queda das folhas e repouso mais seco, é decisiva para indução floral.",
     iluminacao: {
-        sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Luz muito intensa ou sol direto gradual."
+        sombrite: "30% a 50%",
+        solDireto: "Sim, após aclimatação",
+        horario: "Manhã e parte da tarde",
+        observacoes: "Necessita luz muito intensa; faça adaptação gradual para evitar queimaduras."
     },
-    floracao: "Fim do inverno e primavera, associada ao retorno do crescimento.",
-    adubacao: "Adubar bem durante a brotação e expansão das folhas. Suspender no repouso sem folhas.",
-    rega: "Farta durante crescimento ativo; reduzir drasticamente quando as folhas amarelecem e caem.",
-    suporte: "Vaso grande, pesado e profundo.",
-    substrato: "Brita, casca grossa, carvão, pedra-pomes e pequena fração orgânica bem drenante.",
-    dica: "Em Serra/ES, proteja o vaso da chuva contínua no repouso. A combinação de sol alto e seca sazonal é decisiva para florescer.",
+    floracao: "Fim do inverno e primavera.",
+    adubacao: "🌿 Orgânica: bokashi ou húmus em pequena porção apenas no crescimento.\n💧 Foliar: adubo equilibrado durante brotação e expansão foliar.\n🧪 Liberação lenta: dose moderada no início da estação de crescimento; não renovar durante dormência.",
+    rega: "Farta no crescimento ativo, com drenagem imediata. Quando as folhas amarelecerem e caírem, reduza drasticamente e mantenha apenas umidade mínima nos pseudobulbos.",
+    suporte: "🥇 Vaso grande e pesado.\n🥈 Caixa de cultivo profunda e drenada.\n🥉 Canteiro elevado protegido de chuva no repouso.",
+    substrato: "🥇 Brita + pedra-pomes + casca grossa + pequena fração orgânica.\n🥈 Areia grossa + pedrisco + carvão + fibra de coco.\n🥉 Substrato terrestre muito aerado, nunca argiloso.",
+    errosComuns: "Regar durante a dormência; manter em sombra; usar terra compacta; adubar sem brotação ativa; cortar pseudobulbos ainda firmes.",
+    dica: "Marque a data em que as folhas começam a cair; essa é a indicação mais segura para reduzir água, não o calendário.",
+    adaptacaoRegional: {
+        litoralQuente: "Muito adequado, desde que receba alta luz e o vaso fique protegido da chuva durante a dormência.",
+        montanhaFrio: "Pode ir bem em sol forte, mas deve ser protegido de geada e de frio úmido prolongado."
+    },
     mesesFloracao: [8, 9, 10, 11, 12],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 3,
-        perfume: 1,
-        luminosidade: 5,
-        agua: 3,
-        raridade: 3
-    }
+    avaliacoes: { cultivo: 3, floracao: 4, perfume: 1, luminosidade: 5, agua: 3, raridade: 4 }
 };

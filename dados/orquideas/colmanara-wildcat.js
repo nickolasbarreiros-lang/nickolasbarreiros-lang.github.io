@@ -1,38 +1,35 @@
-// Ficha revisada para o catálogo de orquídeas — Sprint 2, Lote 4.
+// Ficha científica e de cultivo revisada — Lote 07.
 
 export const colmanaraWildcat = {
     id: "colmanara-wildcat",
-    nome: "Colmanara Wildcat",
-    genero: "Colmanara",
-    tipo: "Híbrido intergenérico",
-    dificuldade: "Fácil a intermediário",
-    caracteristicas: ["Hastes ramificadas", "Flores pintalgadas", "Floração durável"],
-    fotos: [],
-    descricao: "Híbrido comercial do grupo Oncidiinae, conhecido como Colmanara Wildcat, com flores vistosas em tons de vermelho, amarelo e marrom.",
-    origem: "Híbrido hortícola",
-    regiao: "Origem de cultivo",
-    habitat: "Não possui habitat natural.",
-    clima: "Intermediário, tolerando calor com boa ventilação.",
-    climaFloracao: "A floração é favorecida por crescimento vigoroso, iluminação adequada, boa ventilação e leve diferença entre as temperaturas do dia e da noite. Evite extremos de calor, frio ou umidade durante a formação dos botões.",
+    nome: "Oncostele Wildcat",
+    genero: "Oncostele",
+    tipo: "Híbrido intergenérico — antigo Colmanara Wildcat",
+    dificuldade: "Fácil a moderada",
+    caracteristicas: ["Hastes ramificadas", "Flores pintalgadas", "Longa duração", "Híbrido Oncidiinae"],
+    descricao: "Híbrido muito popular do grupo Oncidiinae, tradicionalmente vendido como Colmanara Wildcat e atualmente tratado horticulturalmente como Oncostele Wildcat. Produz hastes ramificadas com numerosas flores vermelhas, marrons e amarelas.",
+    origem: "Híbrido hortícola.",
+    regiao: "Criado em cultivo; não possui distribuição natural.",
+    habitat: "Não possui habitat natural. Seus ancestrais vêm de florestas americanas de clima intermediário.",
+    clima: "Intermediário, tolerando calor moderado com ventilação.",
+    climaFloracao: "Floresce após o amadurecimento de novos pseudobulbos. Boa luz, raízes ativas e diferença térmica entre dia e noite aumentam a qualidade das hastes.",
     iluminacao: {
-        sombrite: "70%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Luz filtrada média, mais suave que para Cattleya."
+        sombrite: "60% a 70%",
+        solDireto: "Não, exceto muito fraco",
+        horario: "Manhã cedo",
+        observacoes: "Luz filtrada média a forte, abaixo do nível típico de Cattleya."
     },
-    floracao: "Pode florescer em diferentes épocas do ano, com maior frequência após a maturação de novos pseudobulbos.",
-    adubacao: "Adubo equilibrado em baixa concentração a cada 7–15 dias.",
-    rega: "Regar quando o substrato estiver quase seco; raízes finas não toleram seca prolongada.",
-    suporte: "Vaso plástico bem drenado.",
-    substrato: "Casca fina a média, carvão, perlita ou pedra-pomes e pequena porção de esfagno.",
-    dica: "Em Serra/ES, evite calor acumulado e água parada no miolo das brotações.",
+    floracao: "Pode florescer em várias épocas, frequentemente no outono e inverno.",
+    adubacao: "🌿 Orgânica: bokashi leve e afastado dos brotos.\n💧 Foliar: NPK equilibrado diluído semanal ou quinzenalmente.\n🧪 Liberação lenta: dose baixa, renovada conforme o fabricante.",
+    rega: "Regue quando o substrato estiver quase seco. As raízes finas não toleram seca longa, mas apodrecem rapidamente em substrato compacto.",
+    suporte: "🥇 Vaso plástico com muitos furos.\n🥈 Vaso de barro pequeno.\n🥉 Cesto compacto para plantas bem estabelecidas.",
+    substrato: "🥇 Casca fina/média + pedra-pomes + carvão.\n🥈 Casca + perlita + pequena porção de esfagno.\n🥉 Fibra de coco em cubos + material mineral.",
+    errosComuns: "Vaso grande demais; substrato velho; água parada entre folhas jovens; pouca luz; dividir a planta com poucos pseudobulbos.",
+    dica: "Replante quando novas raízes começarem a surgir, não depois de elas já estarem longas e aderidas ao vaso antigo.",
+    adaptacaoRegional: {
+        litoralQuente: "Adapta-se bem sob sombra clara, circulação de ar e regas pela manhã.",
+        montanhaFrio: "Muito adequada; proteja apenas de frio intenso e mantenha regas mais espaçadas no inverno."
+    },
     mesesFloracao: [4, 5, 6, 7, 8, 9, 10],
-    avaliacoes: {
-        cultivo: 2,
-        floracao: 5,
-        perfume: 2,
-        luminosidade: 3,
-        agua: 4,
-        raridade: 2
-    }
+    avaliacoes: { cultivo: 2, floracao: 5, perfume: 2, luminosidade: 3, agua: 4, raridade: 2 }
 };

@@ -1,47 +1,40 @@
-// Cadastro recuperado da base anterior do catálogo.
+// Ficha científica e de cultivo revisada — Lote 07.
 
 export const dendrobiumPolysema = {
     id: "dendrobium-polysema",
     nome: "Dendrobium polysema",
     genero: "Dendrobium",
     tipo: "Espécie botânica",
-    dificuldade: "Moderada",
-    caracteristicas: [
-        "Epífita",
-        "Flores exóticas",
-        "Clima quente",
-        "Nova Guiné"
-    ],
+    dificuldade: "Moderada a exigente",
+    caracteristicas: ["Nova Guiné", "Flores pintalgadas", "Clima montano", "Alta umidade"],
     fotos: [
         "imagens/dendrobium-polysema-1.jpg",
         "imagens/dendrobium-polysema-2.jpg",
         "imagens/dendrobium-polysema-3.jpg"
     ],
-    descricao: "O Dendrobium polysema é uma espécie botânica originária da Nova Guiné. Desenvolve-se como orquídea epífita em florestas tropicais úmidas, com boa ventilação e luminosidade filtrada. Destaca-se pelas flores exóticas, geralmente claras, com numerosas manchas e detalhes em tons esverdeados, marrons e arroxeados.",
-    origem: "Nova Guiné",
-    regiao: "Florestas tropicais úmidas",
-    habitat: "Epífita sobre troncos e galhos de árvores",
-    clima: "Quente e úmido",
-    climaFloracao: "Floresce melhor após pseudobulbos bem formados, com boa luminosidade e diferença moderada entre as temperaturas do dia e da noite. Evite excesso de nitrogênio perto da época de indução floral.",
+    descricao: "Espécie da Nova Guiné com flores exóticas, claras e densamente marcadas por manchas verdes, castanhas e arroxeadas. Cresce em ambientes montanos úmidos e requer raízes arejadas, umidade constante e temperaturas sem extremos.",
+    origem: "Nova Guiné.",
+    regiao: "Florestas montanas da ilha da Nova Guiné.",
+    habitat: "Epífita sobre troncos e galhos cobertos por musgo, em atmosfera úmida e ventilada.",
+    clima: "Intermediário a fresco, úmido.",
+    climaFloracao: "Floresce em canas maduras quando há boa luminosidade, raízes saudáveis e diferença moderada entre dia e noite. Não necessita repouso seco rigoroso.",
     iluminacao: {
-        sombrite: "50%",
+        sombrite: "50% a 60%",
         solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Luz filtrada intensa"
+        horario: "Luz indireta intensa",
+        observacoes: "Evite folhas quentes; forneça claridade difusa e ventilação."
     },
-    floracao: "Final do inverno e primavera",
-    adubacao: "Utilize NPK equilibrado durante o crescimento das novas canas. Depois do amadurecimento, alterne com adubo de floração em baixa concentração. A aplicação pode ser feita a cada 15 dias.",
-    rega: "Realize regas frequentes durante a formação das novas canas, permitindo leve secagem entre elas. Reduza discretamente as regas no inverno, sem deixar a planta desidratar excessivamente.",
-    suporte: "Cachepô de madeira, vaso de barro vazado ou tronquinho com boa retenção de umidade.",
-    substrato: "Casca de pinus média, carvão vegetal, pedra-pomes e pequena quantidade de esfagno.",
-    dica: "Não corte as canas antigas, mesmo quando perderem as folhas. Elas armazenam nutrientes e podem produzir novas florações ou brotações.",
+    floracao: "Mais comum do fim do inverno à primavera.",
+    adubacao: "🌿 Orgânica: bokashi em dose mínima.\n💧 Foliar: NPK equilibrado a 1/4 da dose a cada 7 a 10 dias no crescimento.\n🧪 Liberação lenta: poucos grânulos, pois raízes são sensíveis a sais.",
+    rega: "Mantenha umidade regular durante o ano, permitindo leve aeração entre regas. Reduza discretamente no frio, sem secar completamente.",
+    suporte: "🥇 Cesto pequeno e ventilado.\n🥈 Vaso de barro vazado.\n🥉 Placa com musgo em ambiente úmido.",
+    substrato: "🥇 Casca média + esfagno solto + pedra-pomes.\n🥈 Fibra de coco grossa + carvão.\n🥉 Esfagno puro de boa qualidade em recipiente muito aberto.",
+    errosComuns: "Calor abafado; água parada; seca prolongada; excesso de sais; retirar canas antigas ainda firmes.",
+    dica: "Priorize temperatura das folhas: mesmo com ar quente, sombreamento e movimento de ar podem impedir que a planta superaqueça.",
+    adaptacaoRegional: {
+        litoralQuente: "É desafiadora; exige ponto fresco, muita ventilação, umidade e proteção contra calor acumulado.",
+        montanhaFrio: "Melhor adaptação, desde que a umidade e a circulação de ar sejam mantidas."
+    },
     mesesFloracao: [8, 9, 10, 11],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 3,
-        perfume: 2,
-        luminosidade: 4,
-        agua: 4,
-        raridade: 4
-    }
+    avaliacoes: { cultivo: 4, floracao: 4, perfume: 2, luminosidade: 4, agua: 4, raridade: 4 }
 };

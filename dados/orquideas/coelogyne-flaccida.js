@@ -1,38 +1,35 @@
-// Ficha revisada para o catálogo de orquídeas — Sprint 2, Lote 4.
+// Ficha científica e de cultivo revisada — Lote 07.
 
 export const coelogyneFlaccida = {
     id: "coelogyne-flaccida",
     nome: "Coelogyne flaccida",
     genero: "Coelogyne",
-    tipo: "Espécie",
-    dificuldade: "Intermediário",
-    caracteristicas: ["Inflorescências pendentes", "Flores perfumadas", "Pseudobulbos agrupados"],
-    fotos: [],
-    descricao: "Espécie de Coelogyne com cachos pendentes de flores creme ou esverdeadas, frequentemente perfumadas.",
-    origem: "Himalaia e Sudeste Asiático",
-    regiao: "Índia, Nepal, Butão, Myanmar, Tailândia e regiões próximas",
-    habitat: "Florestas montanas úmidas, como epífita ou litófita.",
-    clima: "Intermediário a fresco.",
-    climaFloracao: "A floração é favorecida por noites mais frescas e leve redução das regas após o amadurecimento dos pseudobulbos. Evite calor abafado e umidade excessiva no período de repouso.",
+    tipo: "Espécie botânica",
+    dificuldade: "Moderada",
+    caracteristicas: ["Cachos pendentes", "Flores creme", "Perfume marcante", "Clima mais fresco"],
+    descricao: "Espécie himalaia de pseudobulbos agrupados e inflorescências arqueadas ou pendentes, carregadas de flores creme a amarelo-pálidas com marcações castanhas no labelo. O perfume pode ser intenso e nem sempre agradável em ambientes fechados.",
+    origem: "Himalaia, sul da China e Indochina.",
+    regiao: "Nepal, nordeste da Índia, Bangladesh, Myanmar, Tailândia, Laos, Vietnã e sul da China.",
+    habitat: "Epífita ou litófita em florestas úmidas montanas, frequentemente sobre troncos e rochas musgosas.",
+    clima: "Intermediário a fresco, com noites ventiladas.",
+    climaFloracao: "A indução floral é favorecida por pseudobulbos maduros, noites mais frias e redução gradual da água no inverno, sem desidratação severa.",
     iluminacao: {
-        sombrite: "70%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Luz filtrada média a forte."
+        sombrite: "60% a 70%",
+        solDireto: "Somente muito fraco",
+        horario: "Início da manhã",
+        observacoes: "Luz filtrada média a forte; folhas verde-claro indicam nível adequado."
     },
-    floracao: "Floresce com frequência no fim do inverno e na primavera.",
-    adubacao: "Adubo equilibrado no crescimento; reduzir após a maturação.",
-    rega: "Rega regular no crescimento, com breve redução no inverno.",
-    suporte: "Cesto ou vaso largo que permita a queda das hastes.",
-    substrato: "Casca média, carvão, esfagno e material mineral drenante.",
-    dica: "Em Serra/ES, priorize noites ventiladas e não deixe o substrato aquecer; isso melhora a qualidade da floração.",
+    floracao: "Fim do inverno e primavera.",
+    adubacao: "🌿 Orgânica: bokashi em dose pequena no início da brotação.\n💧 Foliar: NPK equilibrado bem diluído a cada 10 a 15 dias durante o crescimento.\n🧪 Liberação lenta: dose baixa, somente em vaso bem drenado.",
+    rega: "Regue com frequência durante a formação dos pseudobulbos, permitindo leve secagem superficial. Após a maturação, reduza a frequência, mas não deixe raízes e pseudobulbos secarem completamente.",
+    suporte: "🥇 Cesto de madeira ou plástico vazado.\n🥈 Vaso largo e raso.\n🥉 Placa grande com boa retenção de umidade.",
+    substrato: "🥇 Casca média + esfagno solto + pedra-pomes.\n🥈 Fibra de coco grossa + carvão + perlita.\n🥉 Esfagno de boa qualidade em cesto muito ventilado.",
+    errosComuns: "Cultivar em calor abafado; manter encharcada no inverno; usar vaso profundo; dividir em poucas frentes; deixar hastes pendentes presas dentro do vaso.",
+    dica: "Mantenha a planta em local mais fresco e alto do orquidário, onde o ar circule bem e as hastes possam pender livremente.",
+    adaptacaoRegional: {
+        litoralQuente: "Exige o ponto mais fresco, ventilado e sombreado; noites quentes contínuas podem reduzir a floração.",
+        montanhaFrio: "Excelente adaptação, desde que protegida de geadas e de chuva excessiva no período frio."
+    },
     mesesFloracao: [8, 9, 10, 11],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 4,
-        perfume: 3,
-        luminosidade: 3,
-        agua: 4,
-        raridade: 3
-    }
+    avaliacoes: { cultivo: 3, floracao: 4, perfume: 3, luminosidade: 3, agua: 4, raridade: 3 }
 };
