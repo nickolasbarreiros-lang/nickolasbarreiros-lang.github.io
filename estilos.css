@@ -4197,3 +4197,31 @@ main.container{
         grid-column: auto;
     }
 }
+/* =========================================================
+   CORREÇÃO DE LAYOUT — SUBSTRATOS AO LADO DE SUPORTES
+   Desktop: suporte na coluna 1; substratos nas colunas 2 e 3.
+========================================================= */
+.grade-cultivo-v2 > .card-suporte-v2 {
+    grid-column: 1;
+}
+
+.grade-cultivo-v2 > .card-substrato-v2 {
+    grid-column: 2 / 4;
+}
+
+@media (max-width: 1050px) and (min-width: 801px) {
+    .grade-cultivo-v2 > .card-suporte-v2 {
+        grid-column: auto;
+    }
+
+    .grade-cultivo-v2 > .card-substrato-v2 {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 800px) {
+    .grade-cultivo-v2 > .card-suporte-v2,
+    .grade-cultivo-v2 > .card-substrato-v2 {
+        grid-column: auto;
+    }
+}
