@@ -74,15 +74,30 @@ function criarChip(icone, texto, classeExtra = "") {
     `;
 }
 
+function criarIndicadorRotulado(rotulo, chip) {
+    if (!chip) {
+        return "";
+    }
+
+    return `
+        <div class="indicador-rotulado-v3">
+            <span class="rotulo-indicador-v3">${rotulo}</span>
+            ${chip}
+        </div>
+    `;
+}
+
 function criarInfoCard({
     titulo,
     icone,
     conteudo,
     chips = [],
+    indicadores = [],
     descricao = "",
     classeExtra = ""
 }) {
     const chipsValidos = chips.filter(Boolean);
+    const indicadoresValidos = indicadores.filter(Boolean);
 
     return `
         <article class="card-cultivo-v2 ${classeExtra}">
@@ -92,6 +107,12 @@ function criarInfoCard({
 
             <div class="conteudo-card-cultivo-v2">
                 <h4>${titulo}</h4>
+
+                ${indicadoresValidos.length ? `
+                    <div class="linha-indicadores-v3">
+                        ${indicadoresValidos.join("")}
+                    </div>
+                ` : ""}
 
                 ${chipsValidos.length ? `
                     <div class="linha-chips-v2">
@@ -280,22 +301,40 @@ function criarCardIluminacao(iluminacao) {
         });
     }
 
-    const solDireto = String(iluminacao.solDireto || "").trim().toLowerCase();
-    const textoSol = solDireto === "sim"
-        ? "Com sol direto"
-        : solDireto === "não" || solDireto === "nao"
-            ? "Sem sol direto"
-            : iluminacao.solDireto;
+    const valorSolOriginal = String(iluminacao.solDireto || "").trim();
+    const solDireto = valorSolOriginal.toLowerCase();
+    const aceitaSol = solDireto.startsWith("sim");
+    const rejeitaSol = solDireto === "não" || solDireto === "nao" || solDireto.startsWith("não,") || solDireto.startsWith("nao,");
 
-    const iconeSol = solDireto === "sim" ? "☀️" : "🚫";
+    let textoSol = valorSolOriginal;
+
+    if (solDireto === "sim") {
+        textoSol = "Permitido";
+    } else if (aceitaSol && valorSolOriginal.includes(",")) {
+        textoSol = valorSolOriginal.split(",").slice(1).join(",").trim();
+        textoSol = textoSol.charAt(0).toUpperCase() + textoSol.slice(1);
+    } else if (rejeitaSol) {
+        textoSol = "Não recomendado";
+    }
+
+    const iconeSol = aceitaSol ? "🌤️" : "🚫";
 
     return criarInfoCard({
         titulo: "Iluminação",
         icone: "☀️",
-        chips: [
-            criarChip("🟨", iluminacao.sombrite ? `${iluminacao.sombrite} de sombrite` : ""),
-            criarChip(iconeSol, textoSol),
-            criarChip("🕘", iluminacao.horario)
+        indicadores: [
+            criarIndicadorRotulado(
+                "Sombrite",
+                criarChip("🟨", iluminacao.sombrite)
+            ),
+            criarIndicadorRotulado(
+                "Sol direto",
+                criarChip(iconeSol, textoSol)
+            ),
+            criarIndicadorRotulado(
+                "Horário recomendado",
+                criarChip("🕘", iluminacao.horario)
+            )
         ],
         descricao: iluminacao.observacoes || "",
         classeExtra: "card-iluminacao-v2"
