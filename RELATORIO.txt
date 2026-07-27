@@ -1,26 +1,19 @@
-ATUALIZAÇÃO DE FOTOS — LOTE 6
+ATUALIZAÇÃO DE FOTOS — LOTE 07
 
-Espécies atualizadas: 11
-Fotos integradas: 44
+Espécies atualizadas:
+- Zygolum Louisendorf: 4 fotos
+- Zygopetalum maculatum: 4 fotos
+- Trichocentrum fuscum: 4 fotos
+- Trichocentrum pumilum: 4 fotos
 
-COMO INSTALAR:
-Copie as pastas "imagens" e "dados" deste pacote para a raiz do site e confirme a substituição dos arquivos existentes.
+Arquivos de ficha modificados:
+- dados/orquideas/zygolum-louisendorf.js
+- dados/orquideas/zygopetalum-maculatum.js
+- dados/orquideas/trichocentrum-fuscum.js
+- dados/orquideas/oncidium-pumilum.js
 
-ESPÉCIES:
-- Specklinia grobyi: 4 fotos | dados/orquideas/specklinia-grobyi.js
-- Oncostele Wildcat: 4 fotos | dados/orquideas/colmanara-wildcat.js
-- Stanhopea Assidensis: 4 fotos | dados/orquideas/stanhopea-assidensis.js
-- Renanthera coccinea: 4 fotos | dados/orquideas/renanthera-coccinea.js
-- Pabstiella trifida: 4 fotos | dados/orquideas/pabstiella-trifida.js
-- Rodriguezia bracteata (sin. Rodriguezia venusta): 4 fotos | dados/orquideas/rodriguezia-venusta.js
-- Stanhopea guttulata: 4 fotos | dados/orquideas/stanhopea-guttulata.js
-- Phalaenopsis mannii: 4 fotos | dados/orquideas/phalaenopsis-mannii.js
-- Spathoglottis plicata: 4 fotos | dados/orquideas/spathoglottis-plicata.js
-- Ornithocephalus myrticola: 4 fotos | dados/orquideas/ornithocephalus-myrticola.js
-- Rodriguezia lanceolata: 4 fotos | dados/orquideas/rodriguezia-lanceolata.js
+Observação:
+A ficha de Trichocentrum pumilum permanece no arquivo oncidium-pumilum.js para preservar o ID e os vínculos internos existentes no projeto.
 
-OBSERVAÇÕES:
-- O pacote contém somente as pastas e os arquivos modificados.
-- Oncostele Wildcat permanece vinculada ao arquivo histórico colmanara-wildcat.js.
-- Rodriguezia bracteata permanece vinculada ao arquivo histórico rodriguezia-venusta.js.
-- Em Stanhopea guttulata, foram preservados os quatro arquivos enviados, inclusive as duas imagens numeradas como 3 em formatos diferentes.
+Instalação:
+Copie o conteúdo deste ZIP para a raiz do site e confirme a substituição dos arquivos.

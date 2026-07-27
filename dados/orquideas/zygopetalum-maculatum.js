@@ -12,7 +12,12 @@ export const zygopetalumMaculatum = {
         "Hábito principalmente terrestre",
         "Prefere noites amenas"
     ],
-    fotos: [],
+    fotos: [
+        "imagens/Zygopetalum maculatum/Zygopetalum maculatum1.webp",
+        "imagens/Zygopetalum maculatum/Zygopetalum maculatum2.webp",
+        "imagens/Zygopetalum maculatum/Zygopetalum maculatum3.jpg",
+        "imagens/Zygopetalum maculatum/Zygopetalum maculatum4.jpg"
+    ],
     descricao: "Espécie pseudobulbosa de porte médio, geralmente terrestre ou rupícola, com folhas plicadas e flores cerosas verde-amareladas intensamente marcadas de castanho. O labelo claro com tons violetas cria forte contraste, e a floração costuma apresentar perfume agradável. Embora vigorosa em clima ameno, exige atenção especial ao calor noturno do litoral.",
     origem: "América do Sul",
     regiao: "Do norte do Peru ao Brasil, com ocorrências também na Bolívia; no Brasil está presente nas regiões Nordeste, Sudeste e Sul",

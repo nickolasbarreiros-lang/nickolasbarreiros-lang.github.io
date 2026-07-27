@@ -8,7 +8,12 @@ export const oncidiumPumilum = {
     tipo: "Espécie botânica — sinônimo: Oncidium pumilum",
     dificuldade: "Fácil a moderada",
     caracteristicas: ["Miniatura brasileira", "Muitas flores amarelas", "Touceira compacta", "Ótima para placa"],
-    fotos: [],
+    fotos: [
+        "imagens/Trichocentrum pumilum/Trichocentrum pumilum1.jpg",
+        "imagens/Trichocentrum pumilum/Trichocentrum pumilum2.webp",
+        "imagens/Trichocentrum pumilum/Trichocentrum pumilum3.webp",
+        "imagens/Trichocentrum pumilum/Trichocentrum pumilum4.jpg"
+    ],
     descricao: "Miniatura epífita muito florífera, conhecida no cultivo como Oncidium pumilum e atualmente aceita como Trichocentrum pumilum. Forma touceiras compactas e hastes ramificadas cobertas por numerosas flores amarelas pequenas, criando forte efeito ornamental apesar do porte reduzido.",
     origem: "Brasil, Paraguai e nordeste da Argentina.",
     regiao: "Sul, Sudeste e parte do Centro-Oeste do Brasil, além de áreas vizinhas do Paraguai e Argentina.",

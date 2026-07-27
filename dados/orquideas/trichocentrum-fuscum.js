@@ -7,7 +7,12 @@ export const trichocentrumFuscum = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Folhas carnosas", "Epífita compacta", "Tolera leve secagem", "Flores em tons castanhos e amarelados"],
-    fotos: [],
+    fotos: [
+        "imagens/Trichocentrum fuscum/Trichocentrum fuscum1.webp",
+        "imagens/Trichocentrum fuscum/Trichocentrum fuscum2.jpg",
+        "imagens/Trichocentrum fuscum/Trichocentrum fuscum3.jpg",
+        "imagens/Trichocentrum fuscum/Trichocentrum fuscum4.webp"
+    ],
     descricao: "Espécie epífita compacta, de folhas espessas e carnosas, adaptadas a armazenar água. Produz inflorescências com pequenas flores em tons amarelados, ocres ou castanhos, geralmente bem contrastadas.",
     origem: "Brasil tropical.",
     regiao: "Áreas de Mata Atlântica e formações florestais do leste brasileiro, conforme a circunscrição adotada.",

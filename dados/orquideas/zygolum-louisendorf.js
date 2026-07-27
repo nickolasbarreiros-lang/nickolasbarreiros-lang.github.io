@@ -8,7 +8,12 @@ export const zygolumLouisendorf = {
     tipo: "Híbrido registrado (grex) — Zygosepalum labiosum × Zygopetalum Artur Elle",
     dificuldade: "Moderada",
     caracteristicas: ["Híbrido registrado", "Perfumada", "Flores verdes e roxas", "Clima intermediário"],
-    fotos: [],
+    fotos: [
+        "imagens/Zygolum Louisendorf/Zygolum Louisendorf1.jpg",
+        "imagens/Zygolum Louisendorf/Zygolum Louisendorf2.jpg",
+        "imagens/Zygolum Louisendorf/Zygolum Louisendorf3.jpg",
+        "imagens/Zygolum Louisendorf/Zygolum Louisendorf4.webp"
+    ],
     descricao: "Zygolum Louisendorf é um híbrido intergenérico vigoroso e perfumado, registrado em 2004. Suas flores normalmente combinam sépalas e pétalas verde-amareladas com manchas castanhas ou arroxeadas e um labelo amplo, branco a lilás, marcado por veios violeta. A intensidade das cores e o formato variam entre cultivares do mesmo grex.",
     origem: "Híbrido criado por B. Holm e registrado por Glicenstein/Hoosier na Royal Horticultural Society em 29 de janeiro de 2004.",
     regiao: "Origem hortícola. Parentagem registrada: Zygosepalum labiosum × Zygopetalum Artur Elle.",
