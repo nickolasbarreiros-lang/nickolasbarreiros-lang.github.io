@@ -25,7 +25,7 @@ export const dendrobiumTenellum = {
     suporte: "🥇 Cesto suspenso.\n🥈 Placa de madeira.\n🥉 Vaso raso em posição alta.",
     substrato: "🥇 Casca média + carvão + pedra-pomes.\n🥈 Fibra de coco grossa.\n🥉 Montagem com fina camada de esfagno.",
     errosComuns: "• Sol direto intenso.\n• Substrato completamente seco por longos períodos.\n• Encharcamento das raízes.\n• Substrato compactado.\n• Replantios desnecessários.",
-    dica: "Na próxima floração, fotografe a planta inteira e detalhes do labelo e da coluna; isso permitirá uma revisão taxonômica confiável.",
+    dica: "O segredo para ter sucesso com a Dendrobium tenellum está em respeitar rigorosamente o ciclo de descanso de inverno. Reduzir drasticamente as regas e a adubação durante os meses frios é fundamental para simular as condições de sua montanha nativa e, assim, induzir uma floração vigorosa no verão seguinte .",
     adaptacaoRegional: {
         litoralQuente: "Cultive em local ventilado e claro, com redução de água protegida de chuvas no inverno.",
         montanhaFrio: "Boa adaptação, evitando apenas geada e repouso seco excessivo."
