@@ -4830,3 +4830,115 @@ main.container{
   .estatisticas-botanicas .conteudo-botanico small{font-size:11px}
   .estatisticas-botanicas .conteudo-botanico small b{font-size:13px}
 }
+
+/* =========================================================
+   HOME — atalhos botânicos (interior renovado)
+   Mantém exatamente a grade, as medidas e a disposição atuais.
+   ========================================================= */
+.atalhos-v4 .atalho-v4{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  justify-content:flex-end;
+  align-items:flex-start;
+  text-align:left;
+  padding:18px 15px 17px;
+  background:linear-gradient(145deg,rgba(255,255,255,.97),rgba(250,252,247,.96));
+}
+
+.atalhos-v4 .atalho-v4::before{
+  content:"";
+  position:absolute;
+  z-index:-2;
+  top:11px;
+  right:7px;
+  width:58%;
+  height:78%;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  opacity:.28;
+  filter:grayscale(1) sepia(.22) contrast(1.55) brightness(.72);
+  mix-blend-mode:multiply;
+  pointer-events:none;
+}
+
+.atalhos-v4 .atalho-v4::after{
+  content:"";
+  position:absolute;
+  z-index:-1;
+  inset:0;
+  background:
+    linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.88) 45%,rgba(255,255,255,.16) 100%),
+    radial-gradient(circle at 88% 18%,rgba(216,228,205,.22),transparent 46%);
+  pointer-events:none;
+}
+
+.atalhos-v4 .atalho-v4:nth-child(1)::before{background-image:url('imagens/interface/estatistica-botanica-4.jpg')}
+.atalhos-v4 .atalho-v4:nth-child(2)::before{background-image:url('imagens/interface/estatistica-botanica-2.jpg')}
+.atalhos-v4 .atalho-v4:nth-child(3)::before{background-image:url('imagens/interface/estatistica-botanica-3.jpg')}
+.atalhos-v4 .atalho-v4:nth-child(4)::before{background-image:url('imagens/interface/estatistica-botanica-1.jpg');filter:grayscale(.25) sepia(.12) hue-rotate(300deg) saturate(.9) contrast(1.48) brightness(.8);opacity:.34}
+.atalhos-v4 .atalho-v4:nth-child(5)::before{background-image:url('imagens/interface/estatistica-botanica-2.jpg');background-position:64% center}
+.atalhos-v4 .atalho-v4:nth-child(6)::before{background-image:url('imagens/interface/estatistica-botanica-4.jpg');background-position:72% center}
+
+.atalhos-v4 .atalho-v4 b{
+  position:absolute;
+  z-index:2;
+  top:16px;
+  left:15px;
+  width:42px;
+  height:42px;
+  margin:0;
+  border:1px solid #c7a73a;
+  background:rgba(238,247,233,.94);
+  box-shadow:0 5px 13px rgba(38,83,45,.10);
+  color:#09662d;
+  font-size:23px;
+}
+
+.atalhos-v4 .atalho-v4 strong,
+.atalhos-v4 .atalho-v4 small{
+  position:relative;
+  z-index:2;
+  max-width:88%;
+}
+
+.atalhos-v4 .atalho-v4 strong{
+  color:#064d26;
+  font-size:16px;
+  line-height:1.15;
+  margin-top:52px;
+}
+
+.atalhos-v4 .atalho-v4 small{
+  color:#5f6d63;
+  font-size:13px;
+}
+
+.atalhos-v4 .atalho-v4.destaque{
+  border-color:#ef9eb1;
+  background:linear-gradient(145deg,#fff,#fff7f9);
+  box-shadow:0 8px 24px rgba(218,91,126,.10);
+}
+
+.atalhos-v4 .atalho-v4.destaque::after{
+  background:
+    linear-gradient(90deg,rgba(255,252,253,.98) 0%,rgba(255,248,250,.86) 45%,rgba(255,237,242,.18) 100%),
+    radial-gradient(circle at 88% 20%,rgba(255,185,204,.22),transparent 48%);
+}
+
+.atalhos-v4 .atalho-v4.destaque b{
+  border-color:#ef9eb1;
+  background:#fcecf1;
+  color:#e94f7d;
+}
+
+.atalhos-v4 .atalho-v4:hover::before{opacity:.38;transform:scale(1.025);transition:opacity .22s ease,transform .3s ease}
+
+@media(max-width:470px){
+  .atalhos-v4 .atalho-v4{padding:14px 11px 13px}
+  .atalhos-v4 .atalho-v4 b{top:12px;left:11px;width:38px;height:38px;font-size:21px}
+  .atalhos-v4 .atalho-v4 strong{font-size:14px;margin-top:46px;max-width:100%}
+  .atalhos-v4 .atalho-v4 small{font-size:11px;max-width:100%}
+  .atalhos-v4 .atalho-v4::before{width:62%;height:72%;top:15px;right:0}
+}
