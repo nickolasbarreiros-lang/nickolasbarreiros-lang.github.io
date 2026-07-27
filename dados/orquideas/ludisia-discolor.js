@@ -12,7 +12,12 @@ export const ludisiaDiscolor = {
         "Folhas aveludadas",
         "Baixa luminosidade"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Ludisia discolor/Ludisia discolor1.webp",
+        "imagens/Ludisia discolor/Ludisia discolor2.jpeg",
+        "imagens/Ludisia discolor/Ludisia discolor3.webp",
+        "imagens/Ludisia discolor/Ludisia discolor4.webp"
+    ],
     "descricao": "Orquídea terrestre ou humícola cultivada principalmente pela folhagem escura e aveludada, marcada por nervuras claras ou avermelhadas. É uma geófita rizomatosa de floresta tropical úmida, diferente das epífitas: suas raízes finas trabalham em uma camada orgânica arejada e constantemente fresca, mas não em lama compacta.",
     "origem": "Sul da China até Sumatra e Filipinas.",
     "regiao": "Sudeste da Ásia, incluindo áreas tropicais e subtropicais úmidas.",

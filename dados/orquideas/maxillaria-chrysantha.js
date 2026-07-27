@@ -12,7 +12,12 @@ export const maxillariaChrysantha = {
         "Flores basais",
         "Forma touceiras"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Maxillaria chrysantha/Maxillaria chrysantha1.jpg",
+        "imagens/Maxillaria chrysantha/Maxillaria chrysantha2.jpeg",
+        "imagens/Maxillaria chrysantha/Maxillaria chrysantha3.jpeg",
+        "imagens/Maxillaria chrysantha/Maxillaria chrysantha4.jpeg"
+    ],
     "descricao": "A espécie é aceita por Kew; Brasiliorchis chrysantha é atualmente tratada como sinônimo. Produz flores amarelas solitárias na base de pseudobulbos maduros e responde bem a noites frescas e raízes sempre aeradas.",
     "origem": "Brasil, sobretudo regiões Sul e Sudeste.",
     "regiao": "Brasil, sobretudo regiões Sul e Sudeste.",

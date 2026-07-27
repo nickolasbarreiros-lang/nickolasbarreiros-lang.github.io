@@ -13,7 +13,12 @@ export const maxillariaLeucaimata = {
         "Flores solitárias basais",
         "Raízes finas e arejadas"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Maxillaria leucaimata/Maxillaria leucaimata1.jpg",
+        "imagens/Maxillaria leucaimata/Maxillaria leucaimata2.jpeg",
+        "imagens/Maxillaria leucaimata/Maxillaria leucaimata3.jpg",
+        "imagens/Maxillaria leucaimata/Maxillaria leucaimata4.jpg"
+    ],
     "descricao": "Maxillaria brasileira de porte médio, com touceiras compactas, pseudobulbos comprimidos e uma folha apical estreita. As flores surgem isoladas na base dos pseudobulbos maduros, em tons creme a amarelados com marcações vinosas. É adaptável, mas responde melhor quando as raízes recebem água frequente sem permanecer abafadas.",
     "origem": "Nativa da Guiana Francesa e do Brasil, com registros em diferentes regiões e formações tropicais. Ocorre tanto sobre árvores quanto em rochas, desde áreas quentes até ambientes serranos. Essa amplitude explica sua boa adaptação, mas não elimina a necessidade de ventilação e drenagem.",
     "regiao": "Guiana Francesa e várias regiões do Brasil.",

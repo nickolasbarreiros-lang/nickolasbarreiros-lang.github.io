@@ -12,7 +12,12 @@ export const maxillariaSchunkeana = {
         "Flores basais",
         "Forma touceiras"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Maxillaria schunkeana/Maxillaria schunkeana1.webp",
+        "imagens/Maxillaria schunkeana/Maxillaria schunkeana2.jpeg",
+        "imagens/Maxillaria schunkeana/Maxillaria schunkeana3.webp",
+        "imagens/Maxillaria schunkeana/Maxillaria schunkeana4.jpeg"
+    ],
     "descricao": "Espécie capixaba aceita por Kew; Brasiliorchis schunkeana é tratada como sinônimo. Suas flores vinho muito escuro parecem negras sob pouca luz. O porte é compacto e as flores surgem junto à base dos pseudobulbos.",
     "origem": "Endêmica do Espírito Santo, Brasil.",
     "regiao": "Endêmica do Espírito Santo, Brasil.",

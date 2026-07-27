@@ -12,7 +12,12 @@ export const maxillariaPumilaExMinuta = {
         "Flores basais",
         "Forma touceiras"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Maxillaria pumila/Maxillaria pumila1.jpg",
+        "imagens/Maxillaria pumila/Maxillaria pumila2.jpeg",
+        "imagens/Maxillaria pumila/Maxillaria pumila3.jpg",
+        "imagens/Maxillaria pumila/Maxillaria pumila4.jpg"
+    ],
     "descricao": "Maxillaria pumila é nome aceito por Kew; Christensonella minuta aparece como sinônimo, o que explica a antiga identificação “minuta” no acervo. É miniatura de raízes finas, sensível ao excesso de sais e à compactação.",
     "origem": "Guiana ao Brasil, incluindo Norte, Sudeste e Sul.",
     "regiao": "Guiana ao Brasil, incluindo Norte, Sudeste e Sul.",

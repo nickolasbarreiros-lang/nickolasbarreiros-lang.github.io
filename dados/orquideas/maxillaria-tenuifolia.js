@@ -12,7 +12,12 @@ export const maxillariaTenuifolia = {
         "Flores basais",
         "Forma touceiras"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Maxillaria tenuifolia/Maxillaria tenuifolia1.webp",
+        "imagens/Maxillaria tenuifolia/Maxillaria tenuifolia2.webp",
+        "imagens/Maxillaria tenuifolia/Maxillaria tenuifolia3.webp",
+        "imagens/Maxillaria tenuifolia/Maxillaria tenuifolia4.webp"
+    ],
     "descricao": "Espécie aceita por Kew, famosa pelo perfume de coco mais intenso nas horas quentes do dia. Cresce rapidamente por rizomas alongados e pode escapar do vaso; floresce melhor com luz brilhante, raízes ativas e pequena redução de água após a maturação dos pseudobulbos.",
     "origem": "México até a América Central.",
     "regiao": "México até a América Central.",

@@ -12,7 +12,12 @@ export const lockhartiaLunifera = {
         "Epífita pendente",
         "Crescimento contínuo"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Lockhartia lunifera/Lockhartia lunifera1.webp",
+        "imagens/Lockhartia lunifera/Lockhartia lunifera2.webp",
+        "imagens/Lockhartia lunifera/Lockhartia lunifera3.jpeg",
+        "imagens/Lockhartia lunifera/Lockhartia lunifera4.jpg"
+    ],
     "descricao": "Espécie epífita reconhecida pelos caules achatados revestidos por folhas dísticas e imbricadas, formando o aspecto de uma trança. As inflorescências surgem nos segmentos maduros, especialmente na metade superior dos caules. Embora as flores sejam pequenas, uma planta bem estabelecida pode abrir várias ao longo de uma estação.",
     "origem": "América do Sul tropical.",
     "regiao": "Associada a florestas úmidas do leste e centro da América do Sul; a procedência exata do exemplar deve ser preservada porque espécies de Lockhartia são visualmente semelhantes sem flor.",

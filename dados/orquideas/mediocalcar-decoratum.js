@@ -13,7 +13,12 @@ export const mediocalcarDecoratum = {
         "Alta umidade",
         "Clima fresco a intermediário"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Mediocalcar decoratum/Mediocalcar decoratum1.webp",
+        "imagens/Mediocalcar decoratum/Mediocalcar decoratum2.jpeg",
+        "imagens/Mediocalcar decoratum/Mediocalcar decoratum3.jpeg",
+        "imagens/Mediocalcar decoratum/Mediocalcar decoratum4.webp"
+    ],
     "descricao": "Miniatura de crescimento rasteiro que forma tapetes densos e produz flores laranja e amarelas semelhantes a pequenas lanternas. O valor ornamental está no contraste entre a folhagem compacta e as numerosas flores, mas o cultivo exige estabilidade de umidade e temperatura.",
     "origem": "Espécie aceita e nativa da Nova Guiné. Vive em florestas tropicais úmidas, geralmente em ambientes montanos, sobre ramos cobertos por musgos.",
     "regiao": "Nova Guiné.",

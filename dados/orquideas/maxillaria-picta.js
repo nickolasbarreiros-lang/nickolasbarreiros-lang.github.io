@@ -12,7 +12,12 @@ export const maxillariaPicta = {
         "Flores basais",
         "Forma touceiras"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Maxillaria picta/Maxillaria picta1.webp",
+        "imagens/Maxillaria picta/Maxillaria picta2.jpeg",
+        "imagens/Maxillaria picta/Maxillaria picta3.jpg",
+        "imagens/Maxillaria picta/Maxillaria picta4.jpg"
+    ],
     "descricao": "Espécie aceita por Kew, de pseudobulbos agrupados e flores claras marcadas por pintas castanhas ou púrpuras. A floração costuma melhorar com alta luminosidade filtrada, amadurecimento dos pseudobulbos e queda térmica no inverno.",
     "origem": "Sudeste e Sul do Brasil até Misiones, Argentina.",
     "regiao": "Sudeste e Sul do Brasil até Misiones, Argentina.",

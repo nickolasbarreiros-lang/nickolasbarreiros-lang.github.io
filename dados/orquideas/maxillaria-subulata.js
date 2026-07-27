@@ -12,7 +12,12 @@ export const maxillariaSubulata = {
         "Flores basais",
         "Forma touceiras"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Maxillaria subulata/Maxillaria subulata1.jpeg",
+        "imagens/Maxillaria subulata/Maxillaria subulata2.jpeg",
+        "imagens/Maxillaria subulata/Maxillaria subulata3.jpeg",
+        "imagens/Maxillaria subulata/Maxillaria subulata4.webp"
+    ],
     "descricao": "Espécie aceita no gênero Maxillaria. Como há táxons visualmente próximos no comércio, a confirmação deve considerar flor, labelo e procedência. O cultivo seguro exige umidade moderada, secagem parcial e boa ventilação.",
     "origem": "América tropical; confirmar procedência do exemplar.",
     "regiao": "América tropical; confirmar procedência do exemplar.",
