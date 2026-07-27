@@ -18,7 +18,7 @@ export const sophronitisCernuaVarLitoranea = {
     regiao: "Populações associadas à faixa costeira, restingas e formações próximas ao litoral do Sudeste e Sul",
     habitat: "Epífita em vegetação costeira clara, submetida a calor, umidade atmosférica elevada, vento frequente e secagem rápida após chuvas.",
     clima: "Quente a intermediário, úmido e muito ventilado",
-    climaFloracao: "A procedência litorânea torna esta forma especialmente promissora para Serra/ES. Ainda assim, a floração exige luz alta, pseudobulbos maduros e raízes arejadas. A ventilação deve compensar a elevada umidade do verão, evitando que a planta permaneça molhada durante a noite.",
+    climaFloracao: "A procedência litorânea torna esta forma especialmente indicada para regiões costeiras quentes e úmidas. Ainda assim, a floração exige luz alta, pseudobulbos maduros e raízes arejadas. A ventilação deve compensar a elevada umidade do verão, evitando que a planta permaneça molhada durante a noite.",
     iluminacao: {
         sombrite: "30% a 50%",
         solDireto: "Sim",
@@ -30,7 +30,12 @@ export const sophronitisCernuaVarLitoranea = {
     rega: "No calor, regue com frequência pela manhã, sobretudo quando montada. Permita secagem rápida entre as regas e reduza quando os pseudobulbos amadurecerem ou em períodos frios e chuvosos.",
     suporte: "Galho resistente, placa de madeira ou cortiça e pequeno cachepô aberto",
     substrato: "Preferencialmente montada, com uma camada muito fina de esfagno apenas se o local secar rápido demais. Em cachepô, use casca fina, carvão e pedra-pomes com mínima retenção.",
-    dica: "Para reproduzir a condição litorânea em Serra/ES, combine luz forte, umidade pela manhã e vento constante. Não confunda adaptação à umidade do ar com tolerância a substrato encharcado.",
+    errosComuns: "Cultivar em sombra; usar excesso de esfagno; manter a base permanentemente molhada; regar no fim do dia; aplicar adubo concentrado; usar vaso grande; confundir umidade atmosférica alta com necessidade de substrato encharcado.",
+    dica: "Para reproduzir sua condição costeira, combine luz forte, umidade pela manhã e vento constante. Não confunda adaptação à umidade do ar com tolerância a substrato encharcado.",
+    adaptacaoRegional: {
+        litoralQuente: "Excelente adaptação quando montada, bem ventilada e acostumada gradualmente ao sol da manhã. Evite abafamento e excesso de esfagno.",
+        montanhaFrio: "Pode crescer bem em clima intermediário, mas deve ser protegida de geadas e de longos períodos frios e úmidos."
+    },
     mesesFloracao: [8, 9, 10, 11, 12, 1],
     avaliacoes: {
         cultivo: 4,

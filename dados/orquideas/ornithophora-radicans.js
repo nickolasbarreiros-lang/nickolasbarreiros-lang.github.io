@@ -18,7 +18,7 @@ export const ornithophoraRadicans = {
     regiao: "Sul e Sudeste do Brasil",
     habitat: "Epífita da Mata Atlântica, sobre galhos e troncos finos em matas úmidas, luminosas e bem ventiladas.",
     clima: "Intermediário a quente, úmido e ventilado",
-    climaFloracao: "Em Serra/ES, adapta-se bem ao calor desde que não fique abafada. A emissão das hastes é favorecida por luminosidade filtrada forte, crescimento contínuo e noites um pouco mais amenas após a maturação dos pequenos pseudobulbos. Sombra excessiva produz touceiras verdes, mas pouco floríferas.",
+    climaFloracao: "No litoral quente e úmido, adapta-se bem ao calor desde que não fique abafada. A emissão das hastes é favorecida por luminosidade filtrada forte, crescimento contínuo e noites um pouco mais amenas após a maturação dos pequenos pseudobulbos. Sombra excessiva produz touceiras verdes, mas pouco floríferas.",
     iluminacao: {
         sombrite: "50% a 70%",
         solDireto: "Sim",
@@ -30,7 +30,12 @@ export const ornithophoraRadicans = {
     rega: "Mantenha umidade regular durante o crescimento, permitindo rápida secagem superficial. Plantas montadas podem precisar de rega diária no verão. Reduza em períodos frios ou chuvosos, sem deixar a touceira ressecar por vários dias.",
     suporte: "Placa de madeira, cortiça, galho fino ou pequeno cachepô vazado",
     substrato: "Em montagem, use fina camada de esfagno junto às raízes. Em cachepô, misture casca fina, carvão pequeno, pedra-pomes e pouco esfagno.",
-    dica: "Em Serra/ES, cultive-a montada em posição vertical ou levemente inclinada, permitindo que a touceira e as hastes pendam livremente. Molhe pela manhã e mantenha forte circulação de ar para evitar apodrecimento no centro da planta.",
+    errosComuns: "Cultivar em sombra profunda; usar vaso grande; compactar esfagno; manter a touceira molhada durante toda a noite; aplicar adubo forte; cortar raízes finas saudáveis; impedir que as hastes pendam livremente.",
+    dica: "No litoral quente e úmido, cultive-a montada ou em pequeno cachepô, em posição elevada e ventilada. Ela aprecia umidade, mas não folhas e raízes molhadas durante toda a noite; regue cedo e evite substratos compactados.",
+    adaptacaoRegional: {
+        litoralQuente: "Adapta-se bem em meia-sombra clara, com regas matinais, ventilação constante e rápida secagem superficial das raízes.",
+        montanhaFrio: "Desenvolve-se bem em clima intermediário; proteja de geadas e reduza a rega quando o frio diminuir a atividade das raízes."
+    },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     avaliacoes: {
         cultivo: 4,

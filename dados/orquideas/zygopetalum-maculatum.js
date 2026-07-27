@@ -18,7 +18,7 @@ export const zygopetalumMaculatum = {
     regiao: "Do norte do Peru ao Brasil, com ocorrências também na Bolívia; no Brasil está presente nas regiões Nordeste, Sudeste e Sul",
     habitat: "Geófita ou rupícola de ambientes tropicais úmidos, frequentemente em áreas de altitude, bordas de mata e locais com substrato orgânico, umidade regular e noites mais frescas.",
     clima: "Ameno a intermediário, úmido e muito ventilado",
-    climaFloracao: "Em Serra/ES, o principal desafio é o calor noturno prolongado. Posicione a planta no setor mais fresco e ventilado, protegido do sol quente e de superfícies que acumulam calor. A maturação de pseudobulbos fortes durante o período mais ameno e a diferença térmica entre dia e noite favorecem a emissão das hastes.",
+    climaFloracao: "No litoral quente e úmido, o principal desafio é o calor noturno prolongado. Posicione a planta no setor mais fresco e ventilado, protegido do sol quente e de superfícies que acumulam calor. A maturação de pseudobulbos fortes durante o período mais ameno e a diferença térmica entre dia e noite favorecem a emissão das hastes.",
     iluminacao: {
         sombrite: "50% a 70%",
         solDireto: "Sim",
@@ -30,7 +30,12 @@ export const zygopetalumMaculatum = {
     rega: "Mantenha o substrato levemente úmido durante o crescimento, mas nunca saturado. Regue pela manhã e permita boa aeração das raízes. No período frio, reduza conforme a secagem, sem deixar pseudobulbos e folhas murcharem intensamente.",
     suporte: "Vaso de barro ou plástico bem perfurado, preferencialmente largo e relativamente baixo",
     substrato: "Casca de pinus fina a média, pedra-pomes, carvão pequeno e esfagno em quantidade moderada. Pode receber pequena fração de fibra de coco ou material orgânico estável, desde que a mistura permaneça solta e drenante.",
-    dica: "Em Serra/ES, mantenha-a próxima ao chão do orquidário, em bancada fresca e sombreada, mas sem bloquear o vento. Evite vaso preto exposto ao sol, água acumulada no broto novo e regas noturnas; o superaquecimento das raízes é uma das causas mais comuns de declínio e ausência de floração.",
+    errosComuns: "Cultivar sob calor acumulado; usar vaso preto exposto ao sol; manter o substrato encharcado; deixar água presa nos brotos novos; regar à noite; usar mistura compacta ou degradada; aplicar Osmocote em excesso no calor.",
+    dica: "No litoral quente e úmido, mantenha-a próxima ao chão do orquidário, em bancada fresca e sombreada, mas sem bloquear o vento. Evite vaso preto exposto ao sol, água acumulada no broto novo e regas noturnas; o superaquecimento das raízes é uma das causas mais comuns de declínio e ausência de floração.",
+    adaptacaoRegional: {
+        litoralQuente: "Cultivo moderadamente difícil. Use o ponto mais fresco e ventilado, meia-sombra clara, vaso que não aqueça e substrato úmido porém muito arejado.",
+        montanhaFrio: "Adapta-se melhor em regiões de altitude e noites amenas, desde que protegido de geadas e de encharcamento prolongado."
+    },
     mesesFloracao: [4, 5, 6, 7, 8, 9],
     avaliacoes: {
         cultivo: 2,

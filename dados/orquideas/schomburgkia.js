@@ -18,7 +18,7 @@ export const schomburgkia = {
     regiao: "A confirmar após identificação",
     habitat: "De modo geral, as orquídeas tradicionalmente chamadas de Schomburgkia são epífitas ou rupícolas de locais muito claros, quentes, ventilados e com secagem rápida das raízes.",
     clima: "Quente, luminoso e muito ventilado",
-    climaFloracao: "Em Serra/ES, o clima quente é favorável, mas a floração normalmente só ocorre quando a planta recebe luz muito alta e completa a maturação dos pseudobulbos. A redução natural das chuvas após o crescimento pode atuar como estímulo, conforme a espécie real do exemplar.",
+    climaFloracao: "No litoral quente e úmido, o clima é favorável, mas a floração normalmente só ocorre quando a planta recebe luz muito alta e completa a maturação dos pseudobulbos. A redução natural das chuvas após o crescimento pode atuar como estímulo, conforme a espécie real do exemplar.",
     iluminacao: {
         sombrite: "30% a 50%",
         solDireto: "Sim",
@@ -30,7 +30,12 @@ export const schomburgkia = {
     rega: "Regue com frequência durante crescimento ativo, sempre permitindo secagem rápida. Após o amadurecimento dos pseudobulbos, reduza gradualmente, sem deixar a planta desidratar por longos períodos.",
     suporte: "Cesto grande, cachepô robusto, vaso pesado e muito drenado ou árvore com boa incidência de luz",
     substrato: "Casca de pinus grossa, carvão vegetal grosso, brita e pedra-pomes, com mínima retenção de água. Exemplares bem enraizados também podem crescer fixados em troncos.",
+    errosComuns: "Tentar identificar a espécie apenas pelo porte; cultivar em sombra; usar vaso pequeno ou substrato fino; manter raízes abafadas; deixar água acumulada nos brotos; aplicar adubo forte em raízes secas; não oferecer espaço para hastes longas.",
     dica: "Não tente definir a espécie apenas pelo porte. Na próxima floração, fotografe a flor de frente e de perfil, o labelo, a coluna, a haste inteira e os pseudobulbos. Essas imagens serão decisivas para substituir esta ficha genérica por uma identificação correta.",
+    adaptacaoRegional: {
+        litoralQuente: "O grupo costuma adaptar-se muito bem ao calor litorâneo, desde que receba luz intensa, ventilação constante, espaço amplo e raízes de secagem rápida.",
+        montanhaFrio: "A tolerância ao frio depende da espécie real. Proteja de geadas e reduza as regas durante repouso ou crescimento lento."
+    },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     avaliacoes: {
         cultivo: 4,

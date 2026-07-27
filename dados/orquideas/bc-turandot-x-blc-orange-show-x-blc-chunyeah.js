@@ -23,7 +23,7 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     regiao: "Produzido em cultivo; não ocorre espontaneamente na natureza",
     habitat: "Não possui habitat natural. Suas exigências refletem a combinação genética de espécies epífitas da aliança Cattleya.",
     clima: "Quente a intermediário, com boa ventilação",
-    climaFloracao: "Em Serra/ES, o clima quente favorece a formação dos novos pseudobulbos. Para florescer com regularidade, precisa receber luminosidade filtrada forte, amadurecer completamente cada crescimento e apresentar raízes ativas. Uma discreta queda da temperatura noturna e leve redução da adubação nitrogenada na maturação podem favorecer a emissão da bainha e dos botões.",
+    climaFloracao: "No litoral quente e úmido, o calor favorece a formação dos novos pseudobulbos. Para florescer com regularidade, precisa receber luminosidade filtrada forte, amadurecer completamente cada crescimento e apresentar raízes ativas. Uma discreta queda da temperatura noturna e leve redução da adubação nitrogenada na maturação podem favorecer a emissão da bainha e dos botões.",
     iluminacao: {
         sombrite: "50%",
         solDireto: "Sim",
@@ -35,7 +35,12 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     rega: "Regue abundantemente pela manhã e espere o substrato ficar quase seco antes da próxima rega. Aumente a frequência durante brotação e enraizamento; reduza após a maturação, no frio ou em períodos muito chuvosos. Nunca mantenha o miolo dos brotos encharcado durante a noite.",
     suporte: "Vaso de barro, vaso plástico bem perfurado ou cachepô de madeira",
     substrato: "Casca de pinus média, carvão vegetal, brita ou pedra-pomes. Use granulometria que permita secagem rápida; acrescente pouco esfagno apenas em ambientes muito secos.",
-    dica: "Em Serra/ES, mantenha-a no setor mais claro e ventilado do orquidário. O erro mais comum é usar vaso grande e substrato compacto: as raízes da aliança Cattleya precisam de ar e secagem entre as regas para sustentar pseudobulbos fortes e floríferos.",
+    errosComuns: "Cultivar em sombra excessiva; usar vaso grande ou substrato compacto; manter raízes constantemente molhadas; deixar água acumulada nos brotos à noite; exagerar no nitrogênio após a maturação; dividir a planta com poucos pseudobulbos.",
+    dica: "No litoral quente e úmido, mantenha-a no setor mais claro e ventilado do orquidário. O erro mais comum é usar vaso grande e substrato compacto: as raízes da aliança Cattleya precisam de ar e secagem entre as regas para sustentar pseudobulbos fortes e floríferos.",
+    adaptacaoRegional: {
+        litoralQuente: "Adapta-se muito bem. Use luz forte filtrada, sol suave da manhã, ventilação constante e substrato de secagem rápida.",
+        montanhaFrio: "Proteja de frio intenso e reduza as regas durante períodos frios, sem permitir desidratação prolongada dos pseudobulbos."
+    },
     mesesFloracao: [4, 5, 6, 7, 8, 9, 10, 11],
     avaliacoes: {
         cultivo: 4,

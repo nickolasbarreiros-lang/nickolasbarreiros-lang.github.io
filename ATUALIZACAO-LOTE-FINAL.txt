@@ -1,0 +1,18 @@
+LOTE FINAL — PADRÃO EDITORIAL V3
+
+Fichas concluídas:
+- Brassocattleya Turandot × (Rhyncholaeliocattleya Orange Show × Rlc. Chunyeah)
+- Bulbophyllum falcatum
+- Gomesa radicans (sin. Ornithophora radicans)
+- Rodriguezia lanceolata
+- Schomburgkia sp. — identificação pendente
+- Cattleya cernua — forma litorânea
+- Zygopetalum maculatum
+
+Diretriz regional:
+- Recomendações adaptadas para clima de litoral quente e úmido.
+
+Compatibilidade:
+- IDs, nomes dos arquivos e exports preservados.
+- Campos errosComuns e adaptacaoRegional incluídos.
+- Sintaxe JavaScript validada antes do empacotamento.
