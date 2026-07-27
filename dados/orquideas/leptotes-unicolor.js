@@ -12,7 +12,12 @@ export const leptotesUnicolor = {
         "Flores lilás-rosadas",
         "Raízes muito aeradas"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Leptotes unicolor/Leptotes unicolor1.webp",
+        "imagens/Leptotes unicolor/Leptotes unicolor2.webp",
+        "imagens/Leptotes unicolor/Leptotes unicolor3.webp",
+        "imagens/Leptotes unicolor/Leptotes unicolor4.jpeg"
+    ],
     "descricao": "Miniatura sul-americana de crescimento rizomatoso, com folhas cilíndricas e suculentas que reduzem a perda de água. As flores surgem próximas à base das folhas e podem parecer delicadas, mas a planta é resistente quando recebe muita ventilação e ciclos nítidos de molhamento e secagem. O nome é aceito por Kew; Leptotes paranaensis é tratado como sinônimo.",
     "origem": "Brasil até o nordeste da Argentina.",
     "regiao": "Mata Atlântica do Sul e Sudeste do Brasil, alcançando Paraguai e nordeste argentino.",

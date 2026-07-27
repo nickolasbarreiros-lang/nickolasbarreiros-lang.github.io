@@ -12,7 +12,12 @@ export const howearaLavaBurst = {
         "Floração abundante",
         "Híbrido compacto"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Howeara Lava Burst/Howeara Lava Burst1.jpg",
+        "imagens/Howeara Lava Burst/Howeara Lava Burst2.webp",
+        "imagens/Howeara Lava Burst/Howeara Lava Burst3.webp",
+        "imagens/Howeara Lava Burst/Howeara Lava Burst4.jpeg"
+    ],
     "descricao": "Híbrido miniatura da aliança Oncidiinae, registrado a partir de Howeara Mini-Primi e Rodriguezia secunda. Forma touceiras compactas e hastes ramificadas com numerosas flores vermelho-alaranjadas; o clone “Puanani” é o mais difundido.",
     "origem": "Híbrido hortícola registrado, sem ocorrência natural.",
     "regiao": "Desenvolvido em cultivo a partir de ancestrais tropicais americanos.",

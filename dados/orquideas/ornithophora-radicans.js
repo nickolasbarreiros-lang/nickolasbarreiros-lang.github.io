@@ -12,7 +12,12 @@ export const ornithophoraRadicans = {
         "Inflorescências ramificadas",
         "Numerosas flores pequenas"
     ],
-    fotos: [],
+    fotos: [
+        "imagens/Ornithophora radicans/Ornithophora radicans1.webp",
+        "imagens/Ornithophora radicans/Ornithophora radicans2.webp",
+        "imagens/Ornithophora radicans/Ornithophora radicans3.webp",
+        "imagens/Ornithophora radicans/Ornithophora radicans4.jpeg"
+    ],
     descricao: "Miniatura brasileira tradicionalmente conhecida como Ornithophora radicans e atualmente aceita como Gomesa radicans. Forma touceiras pendentes com folhas estreitas, raízes finas e numerosas hastes ramificadas. As flores são pequenas, esverdeadas a castanhas com detalhes claros, mas o efeito conjunto da floração é delicado e muito ornamental.",
     origem: "Brasil",
     regiao: "Sul e Sudeste do Brasil",

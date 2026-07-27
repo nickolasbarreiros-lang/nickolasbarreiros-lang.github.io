@@ -7,7 +7,12 @@ export const epicattleyaReneMarques = {
     tipo: "Híbrido intergenérico horticultural",
     dificuldade: "Fácil",
     caracteristicas: ["Híbrido vigoroso", "Flores alaranjadas", "Hastes multiflorais", "Cultivo claro"],
-    fotos: [],
+    fotos: [
+        "imagens/Epicattleya René Marqués/Epicattleya René Marqués1.webp",
+        "imagens/Epicattleya René Marqués/Epicattleya René Marqués2.jpeg",
+        "imagens/Epicattleya René Marqués/Epicattleya René Marqués3.webp",
+        "imagens/Epicattleya René Marqués/Epicattleya René Marqués4.jpg"
+    ],
     descricao: "Híbrido intergenérico vigoroso, conhecido no cultivo por hastes multiflorais e flores em tons alaranjados a avermelhados. O nome deve ser mantido conforme a etiqueta do produtor; a genealogia precisa de registro original para confirmação completa.",
     origem: "Híbrido produzido em cultivo.",
     regiao: "Sem distribuição natural.",

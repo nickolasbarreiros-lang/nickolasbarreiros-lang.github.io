@@ -12,7 +12,12 @@ export const huntleyaMeleagris = {
         "Floresta úmida",
         "Folhas em leque"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Huntleya meleagris/Huntleya meleagris1.webp",
+        "imagens/Huntleya meleagris/Huntleya meleagris2.jpeg",
+        "imagens/Huntleya meleagris/Huntleya meleagris3.webp",
+        "imagens/Huntleya meleagris/Huntleya meleagris4.webp"
+    ],
     "descricao": "Espécie epífita de crescimento em leque, sem pseudobulbos, com folhas largas e flor solitária vistosa, cerosa e manchada. A ausência de órgãos de reserva torna a planta sensível à desidratação e ao superaquecimento.",
     "origem": "Trinidad e norte da América do Sul, alcançando o Brasil.",
     "regiao": "Florestas tropicais úmidas e florestas nebulares.",

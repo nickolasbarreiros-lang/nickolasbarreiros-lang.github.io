@@ -7,7 +7,12 @@ export const gomesaRecurva = {
     tipo: "Espécie botânica",
     dificuldade: "Fácil a moderada",
     caracteristicas: ["Brasil a Argentina", "Hastes arqueadas", "Muitas flores", "Clima sazonal"],
-    fotos: [],
+    fotos: [
+        "imagens/Gomesa recurva/Gomesa recurva1.jpg",
+        "imagens/Gomesa recurva/Gomesa recurva2.jpg",
+        "imagens/Gomesa recurva/Gomesa recurva3.jpeg",
+        "imagens/Gomesa recurva/Gomesa recurva4.webp"
+    ],
     descricao: "Espécie epífita sul-americana, tipo do gênero Gomesa, com pseudobulbos compactos e inflorescências arqueadas portando numerosas flores pequenas. É florífera quando recebe claridade e noites mais amenas.",
     origem: "Leste do Brasil até Misiones, Argentina.",
     regiao: "Mata Atlântica e florestas sazonais do leste e sul do Brasil, estendendo-se ao nordeste da Argentina.",

@@ -7,7 +7,12 @@ export const gongoraBufonia = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Brasil", "Hastes pendentes", "Flores complexas", "Perfumada"],
-    fotos: [],
+    fotos: [
+        "imagens/Gongora bufonia/Gongora bufonia1.jpeg",
+        "imagens/Gongora bufonia/Gongora bufonia2.jpg",
+        "imagens/Gongora bufonia/Gongora bufonia3.webp",
+        "imagens/Gongora bufonia/Gongora bufonia4.webp"
+    ],
     descricao: "Gongora brasileira de pseudobulbos sulcados e inflorescências pendentes que atravessam a base do recipiente. As flores têm formato complexo e podem emitir perfume marcante para atrair abelhas Euglossini.",
     origem: "Brasil.",
     regiao: "Mata Atlântica brasileira.",

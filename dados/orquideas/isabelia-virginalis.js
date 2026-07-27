@@ -12,7 +12,12 @@ export const isabeliaVirginalis = {
         "Flores rosadas",
         "Forma colônias"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Isabelia virginalis/Isabelia virginalis1.jpg",
+        "imagens/Isabelia virginalis/Isabelia virginalis2.webp",
+        "imagens/Isabelia virginalis/Isabelia virginalis3.webp",
+        "imagens/Isabelia virginalis/Isabelia virginalis4.jpeg"
+    ],
     "descricao": "Miniatura brasileira que forma densas touceiras de pseudobulbos envolvidos por fibras esbranquiçadas. Produz pequenas flores rosadas a lilases e é ornamental mesmo fora da floração.",
     "origem": "Sudeste e Sul do Brasil até Misiones, Argentina.",
     "regiao": "Mata Atlântica e formações sazonais de altitude.",

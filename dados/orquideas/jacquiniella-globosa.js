@@ -12,7 +12,12 @@ export const jacquiniellaGlobosa = {
         "Flores pequenas",
         "Ampla distribuição tropical"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Jacquiniella globosa/Jacquiniella globosa1.jpeg",
+        "imagens/Jacquiniella globosa/Jacquiniella globosa2.jpg",
+        "imagens/Jacquiniella globosa/Jacquiniella globosa3.jpeg",
+        "imagens/Jacquiniella globosa/Jacquiniella globosa4.jpeg"
+    ],
     "descricao": "Espécie de caules finos e folhas carnosas, subcilíndricas, que forma moitas pendentes ou eretas. As flores são pequenas, discretas e surgem próximas às pontas dos caules.",
     "origem": "Do sul do México à América Tropical.",
     "regiao": "América Central, Caribe e América do Sul tropical.",

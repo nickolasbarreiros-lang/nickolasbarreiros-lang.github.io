@@ -18,7 +18,12 @@ export const laeliaGloriosa = {
         "Flores onduladas e vistosas",
         "Alta luminosidade"
     ],
-    fotos: [],
+    fotos: [
+        "imagens/Laelia gloriosa/Laelia gloriosa1.jpeg",
+        "imagens/Laelia gloriosa/Laelia gloriosa2.jpeg",
+        "imagens/Laelia gloriosa/Laelia gloriosa3.jpeg",
+        "imagens/Laelia gloriosa/Laelia gloriosa4.jpeg"
+    ],
     descricao: "A Laelia gloriosa é uma imponente espécie sul-americana, conhecida pelos pseudobulbos robustos e pelas longas inflorescências com numerosas flores de segmentos ondulados. Foi cultivada durante muito tempo como Schomburgkia gloriosa e também apareceu em coleções sob o nome Schomburgkia crispa. Na classificação atualmente adotada por Kew, Laelia gloriosa é o nome aceito, enquanto a verdadeira Schomburgkia crispa é tratada separadamente como Laelia marginata.",
     origem: "América do Sul tropical — Brasil, Colômbia, Equador, Guiana, Suriname e Venezuela",
     regiao: "Amplamente distribuída no Brasil e no norte da América do Sul",

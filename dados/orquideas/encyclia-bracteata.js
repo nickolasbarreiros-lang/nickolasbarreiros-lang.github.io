@@ -7,7 +7,12 @@ export const encycliaBracteata = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Brasil", "Pseudobulbos firmes", "Ambiente sazonal", "Raízes arejadas"],
-    fotos: [],
+    fotos: [
+        "imagens/Encyclia bracteata/Encyclia bracteata1.jpeg",
+        "imagens/Encyclia bracteata/Encyclia bracteata2.webp",
+        "imagens/Encyclia bracteata/Encyclia bracteata3.jpeg",
+        "imagens/Encyclia bracteata/Encyclia bracteata4.jpg"
+    ],
     descricao: "Encyclia brasileira de pseudobulbos bem definidos, folhas coriáceas e inflorescências com várias flores pequenas. O cultivo deve imitar ambientes claros e sazonais, com muita aeração nas raízes.",
     origem: "Brasil.",
     regiao: "Ocorrência brasileira associada a ambientes sazonais e relativamente abertos.",
