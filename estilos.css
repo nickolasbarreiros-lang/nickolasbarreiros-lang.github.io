@@ -4670,3 +4670,223 @@ main.container{
         width: 100%;
     }
 }
+
+/* =========================================================
+   NOVA HOME — VERSÃO PREMIUM VERDE E DOURADO
+   Escopo: somente a página inicial
+========================================================= */
+.pagina-home-v4 {
+    --home-verde-profundo: #043c28;
+    --home-verde: #075238;
+    --home-verde-claro: #176847;
+    --home-dourado: #d8bd78;
+    --home-dourado-claro: #f0dfad;
+    --home-creme: #f5f1e6;
+    background: #f6f5ef;
+}
+
+.pagina-home-v4 .topo-v4 {
+    background: rgba(3, 52, 35, 0.97);
+    border-bottom: 1px solid rgba(216, 189, 120, 0.28);
+    box-shadow: 0 8px 28px rgba(0, 30, 20, 0.28);
+}
+
+.pagina-home-v4 .topo-v4-conteudo {
+    min-height: 76px;
+}
+
+.pagina-home-v4 .marca-v4,
+.pagina-home-v4 .menu-v4 a,
+.pagina-home-v4 .busca-topo-v4 {
+    color: var(--home-creme);
+}
+
+.pagina-home-v4 .marca-v4 strong,
+.pagina-home-v4 .marca-v4 small {
+    color: var(--home-dourado-claro);
+}
+
+.pagina-home-v4 .marca-v4-icone {
+    background: linear-gradient(145deg, #f5e8bb, #b88b35);
+    box-shadow: 0 0 0 1px rgba(255,255,255,.16), 0 8px 22px rgba(0,0,0,.25);
+}
+
+.pagina-home-v4 .marca-v4-icone::before,
+.pagina-home-v4 .marca-v4-icone::after,
+.pagina-home-v4 .marca-v4-icone i::before,
+.pagina-home-v4 .marca-v4-icone i::after {
+    background: #5f4517;
+}
+
+.pagina-home-v4 .menu-v4 a:hover,
+.pagina-home-v4 .menu-v4 a.ativo,
+.pagina-home-v4 .busca-topo-v4:hover {
+    color: var(--home-dourado-claro);
+    border-color: var(--home-dourado);
+}
+
+.pagina-home-v4 .hero-v4 {
+    min-height: 650px;
+    background:
+        linear-gradient(90deg, rgba(3, 48, 32, .99) 0%, rgba(3, 55, 37, .97) 39%, rgba(3, 55, 37, .63) 58%, rgba(3, 40, 27, .14) 78%),
+        linear-gradient(0deg, rgba(2, 38, 25, .5), rgba(2, 38, 25, .08)),
+        url('imagens/Bifrenaria harrisoniae/Bifrenaria harrisoniae4.jpg') 72% 60% / cover no-repeat;
+    border-bottom: 1px solid rgba(216, 189, 120, .25);
+}
+
+.pagina-home-v4 .hero-v4::after {
+    height: 110px;
+    background: linear-gradient(180deg, rgba(4,60,40,0), #043c28 96%);
+}
+
+.pagina-home-v4 .hero-v4-conteudo {
+    padding-top: 60px;
+    padding-bottom: 42px;
+}
+
+.pagina-home-v4 .hero-v4-selo {
+    color: var(--home-dourado-claro);
+    background: rgba(216, 189, 120, .12);
+    border: 1px solid rgba(216, 189, 120, .34);
+    backdrop-filter: blur(8px);
+}
+
+.pagina-home-v4 .hero-v4 h1 {
+    color: var(--home-dourado-claro);
+    text-shadow: 0 3px 18px rgba(0,0,0,.28);
+}
+
+.pagina-home-v4 .hero-v4 p {
+    color: rgba(250, 245, 227, .9);
+}
+
+.pagina-home-v4 .busca-hero-v4 {
+    background: rgba(250, 247, 235, .94);
+    border-color: rgba(216, 189, 120, .65);
+    box-shadow: 0 14px 35px rgba(0, 24, 15, .34);
+}
+
+.pagina-home-v4 .busca-hero-v4 button,
+.pagina-home-v4 .botao-hero-v4.primario {
+    background: linear-gradient(135deg, #d7b765, #a77c2f);
+    color: #143823;
+    border-color: #d7b765;
+}
+
+.pagina-home-v4 .busca-hero-v4 button:hover,
+.pagina-home-v4 .botao-hero-v4.primario:hover {
+    background: linear-gradient(135deg, #ecd58f, #c09443);
+}
+
+.pagina-home-v4 .botao-hero-v4.secundario {
+    color: var(--home-dourado-claro);
+    border-color: rgba(216, 189, 120, .65);
+    background: rgba(2, 44, 29, .58);
+    backdrop-filter: blur(8px);
+}
+
+.pagina-home-v4 .estatisticas-v4 {
+    max-width: 980px;
+}
+
+.pagina-home-v4 .estatisticas-v4 .cartao-estatistica {
+    color: var(--home-creme);
+    background: rgba(4, 55, 37, .7);
+    border-color: rgba(216, 189, 120, .44);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.03), 0 10px 24px rgba(0,0,0,.17);
+    backdrop-filter: blur(10px);
+}
+
+.pagina-home-v4 .estatisticas-v4 .cartao-estatistica > span {
+    background: rgba(216, 189, 120, .12);
+}
+
+.pagina-home-v4 .estatisticas-v4 .cartao-estatistica strong {
+    color: var(--home-dourado-claro);
+}
+
+.pagina-home-v4 .estatisticas-v4 .cartao-estatistica small {
+    color: rgba(250,245,227,.82);
+}
+
+.pagina-home-v4 .container-v4 {
+    max-width: none;
+    padding: 0 0 72px;
+    background: linear-gradient(180deg, #043c28 0, #06462f 390px, #f6f5ef 720px);
+}
+
+.pagina-home-v4 .explorar-v4,
+.pagina-home-v4 .destaques-v4,
+.pagina-home-v4 .generos-v4,
+.pagina-home-v4 .painel-floracoes-v4,
+.pagina-home-v4 .painel-pesquisa-v4,
+.pagina-home-v4 .area-resultados-v4 {
+    width: min(1400px, calc(100% - 48px));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagina-home-v4 .explorar-v4 {
+    padding-top: 36px;
+}
+
+.pagina-home-v4 .titulo-secao-v4 h2 {
+    color: var(--home-dourado-claro);
+    font-size: 34px;
+}
+
+.pagina-home-v4 .titulo-secao-v4 span {
+    background: var(--home-dourado);
+}
+
+.pagina-home-v4 .atalho-v4 {
+    min-height: 155px;
+    color: var(--home-creme);
+    border-color: rgba(216, 189, 120, .38);
+    background:
+        linear-gradient(145deg, rgba(255,255,255,.10), rgba(255,255,255,.035)),
+        radial-gradient(circle at top, rgba(216,189,120,.12), transparent 60%);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.03), 0 12px 28px rgba(0,0,0,.16);
+    backdrop-filter: blur(8px);
+}
+
+.pagina-home-v4 .atalho-v4:hover,
+.pagina-home-v4 .atalho-v4.destaque {
+    border-color: var(--home-dourado);
+    box-shadow: 0 18px 34px rgba(0,0,0,.25), 0 0 0 1px rgba(216,189,120,.22);
+}
+
+.pagina-home-v4 .atalho-v4 b {
+    color: var(--home-dourado-claro);
+    background: rgba(216, 189, 120, .12);
+    border: 1px solid rgba(216, 189, 120, .24);
+}
+
+.pagina-home-v4 .atalho-v4 small {
+    color: rgba(250,245,227,.72);
+}
+
+.pagina-home-v4 .destaques-v4 {
+    margin-top: 72px;
+}
+
+@media (max-width: 760px) {
+    .pagina-home-v4 .hero-v4 {
+        background:
+            linear-gradient(180deg, rgba(3,48,32,.93), rgba(3,55,37,.88)),
+            url('imagens/Bifrenaria harrisoniae/Bifrenaria harrisoniae4.jpg') 58% center / cover no-repeat;
+    }
+
+    .pagina-home-v4 .hero-v4 h1 {
+        font-size: 54px;
+    }
+
+    .pagina-home-v4 .explorar-v4,
+    .pagina-home-v4 .destaques-v4,
+    .pagina-home-v4 .generos-v4,
+    .pagina-home-v4 .painel-floracoes-v4,
+    .pagina-home-v4 .painel-pesquisa-v4,
+    .pagina-home-v4 .area-resultados-v4 {
+        width: min(100% - 28px, 1400px);
+    }
+}
