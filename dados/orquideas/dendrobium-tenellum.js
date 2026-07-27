@@ -10,7 +10,7 @@ export const dendrobiumTenellum = {
     descricao: "Delicada espécie de altitude, apreciada pelos caules finos e pelas pequenas flores claras que surgem principalmente no verão.",
     origem: "Java, Indonésia.",
     regiao: "Java, Indonésia.",
-    habitat: "Epífita de florestas montanas entre 1.500 e 2.200 m de altitude."
+    habitat: "Epífita de florestas montanas entre 1.500 e 2.200 m de altitude.",
     clima: "Quente a intermediário.",
     climaFloracao: "Prefere clima ameno a intermediário, com boa ventilação, elevada umidade do ar e noites mais frescas. Em regiões quentes, desenvolve-se melhor em locais sombreados e bem ventilados, mantendo boa umidade ambiental.",
     iluminacao: {
@@ -24,11 +24,7 @@ export const dendrobiumTenellum = {
     rega: "Mantenha o substrato levemente úmido durante o crescimento. No inverno reduza as regas, sem impor seca severa como nos Dendrobium do grupo nobile.",
     suporte: "🥇 Cesto suspenso.\n🥈 Placa de madeira.\n🥉 Vaso raso em posição alta.",
     substrato: "🥇 Casca média + carvão + pedra-pomes.\n🥈 Fibra de coco grossa.\n🥉 Montagem com fina camada de esfagno.",
-    errosComuns: "• Sol direto intenso.
-• Substrato completamente seco por longos períodos.
-• Encharcamento das raízes.
-• Substrato compactado.
-• Replantios desnecessários.",
+    errosComuns: "• Sol direto intenso.\n• Substrato completamente seco por longos períodos.\n• Encharcamento das raízes.\n• Substrato compactado.\n• Replantios desnecessários.",
     dica: "Na próxima floração, fotografe a planta inteira e detalhes do labelo e da coluna; isso permitirá uma revisão taxonômica confiável.",
     adaptacaoRegional: {
         litoralQuente: "Cultive em local ventilado e claro, com redução de água protegida de chuvas no inverno.",
