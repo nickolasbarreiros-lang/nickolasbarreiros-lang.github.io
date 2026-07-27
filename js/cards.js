@@ -562,14 +562,16 @@ export function criarCartaoOrquidea(
 
     return `
         <article class="cartao-orquidea cartao-orquidea-v4" data-orquidea-id="${escaparHTML(orquidea.id || "")}">
-            <a class="link-imagem-cartao" href="${escaparHTML(enderecoFicha)}" aria-label="${escaparHTML(`Abrir ficha de ${nome}`)}">
-                <div class="area-imagem-cartao">
-                    <img class="imagem-cartao" src="${escaparHTML(foto)}" alt="${escaparHTML(textoAlternativo)}" loading="lazy" decoding="async"
-                        onerror="this.onerror = null; this.src = '${IMAGEM_PADRAO}';">
-                    <div class="selos-sobre-imagem-cartao">${selos}</div>
-                    <div class="status-sobre-imagem">${statusFloracao}</div>
-                </div>
-            </a>
+            <div class="bloco-imagem-cartao">
+                <a class="link-imagem-cartao" href="${escaparHTML(enderecoFicha)}" aria-label="${escaparHTML(`Abrir ficha de ${nome}`)}">
+                    <div class="area-imagem-cartao">
+                        <img class="imagem-cartao" src="${escaparHTML(foto)}" alt="${escaparHTML(textoAlternativo)}" loading="lazy" decoding="async"
+                            onerror="this.onerror = null; this.src = '${IMAGEM_PADRAO}';">
+                        <div class="status-sobre-imagem">${statusFloracao}</div>
+                    </div>
+                </a>
+                ${selos ? `<div class="selos-abaixo-imagem-cartao" aria-label="Características da orquídea">${selos}</div>` : ""}
+            </div>
 
             <div class="conteudo-cartao">
                 <div class="topo-conteudo-cartao">

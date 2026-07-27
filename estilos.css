@@ -4303,15 +4303,18 @@ main.container{
     font-size: 11px;
 }
 
-.selos-sobre-imagem-cartao {
-    position: absolute;
-    top: 11px;
-    left: 11px;
-    right: 11px;
+.bloco-imagem-cartao {
+    min-width: 0;
+    background: #ffffff;
+}
+
+.selos-abaixo-imagem-cartao {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
-    pointer-events: none;
+    gap: 7px;
+    padding: 9px 11px 10px;
+    border-bottom: 1px solid #e3ebe4;
+    background: #ffffff;
 }
 
 .selo-visual-cartao {
@@ -4539,10 +4542,21 @@ main.container{
     border-radius: 18px;
 }
 
+.catalogo-lista .cartao-orquidea-v4 .bloco-imagem-cartao {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+}
+
+.catalogo-lista .cartao-orquidea-v4 .selos-abaixo-imagem-cartao {
+    flex: 0 0 auto;
+}
+
 .catalogo-lista .cartao-orquidea-v4 .link-imagem-cartao {
     display: block;
     min-width: 0;
     height: 100%;
+    flex: 1 1 auto;
 }
 
 .catalogo-lista .cartao-orquidea-v4 .area-imagem-cartao {
