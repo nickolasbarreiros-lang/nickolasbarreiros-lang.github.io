@@ -8,7 +8,12 @@ export const sophronitisWittigiana = {
     tipo: "Espécie botânica — sinônimo: Sophronitis wittigiana",
     dificuldade: "Avançada",
     caracteristicas: ["Miniatura brasileira", "Flor grande para o porte", "Clima fresco", "Mata Atlântica"],
-    fotos: [],
+    fotos: [
+        "imagens/Cattleya wittigiana/Cattleya wittigiana1.jpg",
+        "imagens/Cattleya wittigiana/Cattleya wittigiana2.jpeg",
+        "imagens/Cattleya wittigiana/Cattleya wittigiana3.jpeg",
+        "imagens/Cattleya wittigiana/Cattleya wittigiana4.webp"
+    ],
     descricao: "Miniatura brasileira de grande valor ornamental, tradicionalmente conhecida como Sophronitis wittigiana e atualmente aceita como Cattleya wittigiana. Produz flores rosadas a magenta, muito grandes em relação à planta, sobre pseudobulbos curtos e compactos.",
     origem: "Brasil.",
     regiao: "Florestas serranas do Espírito Santo e áreas adjacentes do Sudeste brasileiro.",

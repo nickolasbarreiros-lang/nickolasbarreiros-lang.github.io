@@ -12,7 +12,12 @@ export const cattleyaNobiliorVarAmaliae = {
         "Ambiente sazonalmente seco",
         "Raízes muito aeradas"
     ],
-    "fotos": [],
+    fotos: [
+        "imagens/Cattleya nobilior var. amaliae/Cattleya nobilior var. amaliae1.jpg",
+        "imagens/Cattleya nobilior var. amaliae/Cattleya nobilior var. amaliae2.jpeg",
+        "imagens/Cattleya nobilior var. amaliae/Cattleya nobilior var. amaliae3.webp",
+        "imagens/Cattleya nobilior var. amaliae/Cattleya nobilior var. amaliae4.webp"
+    ],
     descricao: "Forma de Cattleya nobilior tradicionalmente associada à região centro-oeste do Brasil e valorizada por flores grandes em tons rosados a lilases. O tratamento infrasespecífico varia entre autores; no cultivo, o nome var. amaliae continua amplamente usado.",
     origem: "Brasil central, especialmente Goiás e áreas próximas.",
     regiao: "Cerrado e matas sazonais do centro-oeste brasileiro.",

@@ -7,6 +7,12 @@ export const coelogyneOvalisVarMiniatum = {
     tipo: "Clone horticultural — identificação varietal a confirmar",
     dificuldade: "Moderada",
     caracteristicas: ["Porte compacto", "Rizoma rastejante", "Flores pequenas", "Labelo contrastante"],
+    fotos: [
+        "imagens/Coelogyne ovalis ‘Miniatum’/Coelogyne ovalis ‘Miniatum’1.webp",
+        "imagens/Coelogyne ovalis ‘Miniatum’/Coelogyne ovalis ‘Miniatum’2.webp",
+        "imagens/Coelogyne ovalis ‘Miniatum’/Coelogyne ovalis ‘Miniatum’3.webp",
+        "imagens/Coelogyne ovalis ‘Miniatum’/Coelogyne ovalis ‘Miniatum’4.jpeg"
+    ],
     descricao: "Planta mantida no acervo sob o nome comercial Coelogyne ovalis var. Miniatum. Como “Miniatum” não está sendo tratado aqui como variedade botânica formal, a ficha preserva o rótulo horticultural e recomenda confirmar a identificação por flores e procedência.",
     origem: "Ásia tropical, conforme o complexo de Coelogyne ovalis.",
     regiao: "Himalaia oriental, sul da China e Sudeste Asiático.",

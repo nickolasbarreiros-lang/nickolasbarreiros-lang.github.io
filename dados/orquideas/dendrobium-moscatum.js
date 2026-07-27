@@ -7,6 +7,12 @@ export const dendrobiumMoscatum = {
     tipo: "Espécie botânica — grafia anterior “moscatum”",
     dificuldade: "Moderada",
     caracteristicas: ["Canas longas", "Flores amarelas", "Labelo em bolsa", "Repouso sazonal"],
+    fotos: [
+        "imagens/Dendrobium moschatum/Dendrobium moschatum1.webp",
+        "imagens/Dendrobium moschatum/Dendrobium moschatum2.jpg",
+        "imagens/Dendrobium moschatum/Dendrobium moschatum3.webp",
+        "imagens/Dendrobium moschatum/Dendrobium moschatum4.webp"
+    ],
     descricao: "Grande Dendrobium asiático de canas longas e arqueadas. Produz flores amarelas a alaranjadas, com labelo amplo e côncavo semelhante a uma pequena bolsa. A grafia correta do epíteto é moschatum.",
     origem: "Himalaia, sul da China e Indochina.",
     regiao: "Índia, Nepal, Butão, Bangladesh, Myanmar, Tailândia, Laos, Vietnã e Yunnan.",

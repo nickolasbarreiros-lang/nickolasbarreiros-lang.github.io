@@ -7,7 +7,12 @@ export const dryadellaAviceps = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Brasil e Paraguai", "Miniatura", "Touceira compacta", "Flores basais"],
-    fotos: [],
+    fotos: [
+        "imagens/Dryadella aviceps/Dryadella aviceps1.jpg",
+        "imagens/Dryadella aviceps/Dryadella aviceps2.jpg",
+        "imagens/Dryadella aviceps/Dryadella aviceps3.webp",
+        "imagens/Dryadella aviceps/Dryadella aviceps4.jpg"
+    ],
     descricao: "Miniatura epífita de folhas estreitas que forma touceiras densas e produz flores triangulares junto à base. É uma Pleurothallidinae de raízes finas, sensível à salinidade e ao superaquecimento.",
     origem: "Leste e Sul do Brasil até o Paraguai.",
     regiao: "Mata Atlântica e formações florestais associadas do Nordeste, Sudeste e Sul do Brasil.",

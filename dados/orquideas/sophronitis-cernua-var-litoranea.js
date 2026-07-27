@@ -12,7 +12,12 @@ export const sophronitisCernuaVarLitoranea = {
         "Flores alaranjadas",
         "Adaptada ao calor e à umidade"
     ],
-    fotos: [],
+    fotos: [
+        "imagens/Cattleya cernua — forma litorânea/Cattleya cernua — forma litorânea1.jpg",
+        "imagens/Cattleya cernua — forma litorânea/Cattleya cernua — forma litorânea2.jpg",
+        "imagens/Cattleya cernua — forma litorânea/Cattleya cernua — forma litorânea3.jpg",
+        "imagens/Cattleya cernua — forma litorânea/Cattleya cernua — forma litorânea4.jpg"
+    ],
     descricao: "Forma costeira de Cattleya cernua, tradicionalmente comercializada como Sophronitis cernua var. litorânea. A denominação é útil no cultivo para indicar procedência e adaptação ambiental, mas não corresponde a uma variedade botânica aceita de modo uniforme. Mantém o porte miniatura, o crescimento em touceiras e as flores alaranjadas características da espécie.",
     origem: "Brasil",
     regiao: "Populações associadas à faixa costeira, restingas e formações próximas ao litoral do Sudeste e Sul",

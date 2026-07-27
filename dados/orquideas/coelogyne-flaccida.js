@@ -7,6 +7,12 @@ export const coelogyneFlaccida = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Cachos pendentes", "Flores creme", "Perfume marcante", "Clima mais fresco"],
+    fotos: [
+        "imagens/Coelogyne flaccida/Coelogyne flaccida1.webp",
+        "imagens/Coelogyne flaccida/Coelogyne flaccida2.webp",
+        "imagens/Coelogyne flaccida/Coelogyne flaccida3.jpg",
+        "imagens/Coelogyne flaccida/Coelogyne flaccida4.webp"
+    ],
     descricao: "Espécie himalaia de pseudobulbos agrupados e inflorescências arqueadas ou pendentes, carregadas de flores creme a amarelo-pálidas com marcações castanhas no labelo. O perfume pode ser intenso e nem sempre agradável em ambientes fechados.",
     origem: "Himalaia, sul da China e Indochina.",
     regiao: "Nepal, nordeste da Índia, Bangladesh, Myanmar, Tailândia, Laos, Vietnã e sul da China.",

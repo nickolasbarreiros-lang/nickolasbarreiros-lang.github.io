@@ -7,6 +7,12 @@ export const coelogyneCristata = {
     tipo: "Espécie botânica",
     dificuldade: "Exigente em clima quente",
     caracteristicas: ["Himalaia", "Flores brancas", "Clima frio", "Repouso seco"],
+    fotos: [
+        "imagens/Coelogyne cristata/Coelogyne cristata1.webp",
+        "imagens/Coelogyne cristata/Coelogyne cristata2.webp",
+        "imagens/Coelogyne cristata/Coelogyne cristata3.jpeg",
+        "imagens/Coelogyne cristata/Coelogyne cristata4.webp"
+    ],
     descricao: "Espécie himalaica célebre pelas flores brancas com cristas amarelas no labelo. Precisa de noites frias e período mais seco após a maturação dos pseudobulbos para florescer de maneira consistente.",
     origem: "Himalaia central e oriental.",
     regiao: "Nepal, norte da Índia, Butão e áreas montanhosas próximas.",

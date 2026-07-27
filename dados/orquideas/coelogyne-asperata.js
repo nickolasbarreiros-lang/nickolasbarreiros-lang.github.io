@@ -7,6 +7,12 @@ export const coelogyneAsperata = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Tropical", "Inflorescência perfumada", "Porte grande", "Flores creme"],
+    fotos: [
+        "imagens/Coelogyne asperata/Coelogyne asperata1.webp",
+        "imagens/Coelogyne asperata/Coelogyne asperata2.jpeg",
+        "imagens/Coelogyne asperata/Coelogyne asperata3.jpeg",
+        "imagens/Coelogyne asperata/Coelogyne asperata4.webp"
+    ],
     descricao: "Coelogyne tropical de grande porte, com inflorescências arqueadas de flores creme e labelo marcado. Diferentemente das espécies himalaicas, aprecia calor e umidade durante praticamente todo o ano.",
     origem: "Malesia até as Ilhas Santa Cruz.",
     regiao: "Borneo, Sumatra, Java, Filipinas, Nova Guiné, Ilhas Salomão e regiões próximas.",

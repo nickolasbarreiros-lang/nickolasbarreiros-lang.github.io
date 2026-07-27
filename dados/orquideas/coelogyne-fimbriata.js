@@ -7,6 +7,12 @@ export const coelogyneFimbriata = {
     tipo: "Espécie botânica",
     dificuldade: "Fácil a moderada",
     caracteristicas: ["Rizoma rastejante", "Flores esverdeadas", "Labelo franjado", "Porte compacto"],
+    fotos: [
+        "imagens/Coelogyne fimbriata/Coelogyne fimbriata1.jpeg",
+        "imagens/Coelogyne fimbriata/Coelogyne fimbriata2.jpeg",
+        "imagens/Coelogyne fimbriata/Coelogyne fimbriata3.avif",
+        "imagens/Coelogyne fimbriata/Coelogyne fimbriata4.jpeg"
+    ],
     descricao: "Espécie asiática de crescimento rastejante, com flores verde-amareladas e labelo castanho finamente franjado. Forma colônias extensas e adapta-se bem a cultivo montado ou em cestos rasos.",
     origem: "Sul da China, Himalaia oriental e Sudeste Asiático continental.",
     regiao: "Índia nordeste, Nepal, Butão, Myanmar, Tailândia, Laos, Vietnã e sul da China.",

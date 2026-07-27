@@ -12,7 +12,12 @@ export const lcTrickOrTreat = {
         "Hastes multiflorais",
         "Híbrido vigoroso"
     ],
-    "fotos": [],
+    fotos: [
+        "imagens/Cattlianthe Trick or Treat/Cattlianthe Trick or Treat1.jpeg",
+        "imagens/Cattlianthe Trick or Treat/Cattlianthe Trick or Treat2.jpg",
+        "imagens/Cattlianthe Trick or Treat/Cattlianthe Trick or Treat3.jpg",
+        "imagens/Cattlianthe Trick or Treat/Cattlianthe Trick or Treat4.jpg"
+    ],
     "descricao": "Híbrido clássico anteriormente chamado Laeliocattleya Trick or Treat. Produz hastes longas e conjuntos de flores laranja intensas; clones como “Orange Magic” tornaram o grex muito conhecido.",
     "origem": "Híbrido hortícola registrado.",
     "regiao": "Origem de cultivo, combinando ancestrais de Cattleya e Guarianthe.",

@@ -7,7 +7,12 @@ export const encycliaMineirinha = {
     tipo: "Nome horticultural — genealogia não confirmada",
     dificuldade: "Fácil a moderada",
     caracteristicas: ["Nome comercial", "Genealogia incerta", "Hastes multiflorais", "Boa adaptação"],
-    fotos: [],
+    fotos: [
+        "imagens/Encyclia ‘Mineirinha’/Encyclia ‘Mineirinha’1.jpg",
+        "imagens/Encyclia ‘Mineirinha’/Encyclia ‘Mineirinha’2.jpeg",
+        "imagens/Encyclia ‘Mineirinha’/Encyclia ‘Mineirinha’3.jpeg",
+        "imagens/Encyclia ‘Mineirinha’/Encyclia ‘Mineirinha’4.jpg"
+    ],
     descricao: "Planta mantida no acervo sob o nome horticultural Encyclia ‘Mineirinha’. Sem etiqueta de registro ou genealogia verificável, não deve ser apresentada como espécie botânica nem como híbrido oficialmente identificado.",
     origem: "Cultivo horticultural; origem genética não confirmada.",
     regiao: "Não possui distribuição natural documentada.",

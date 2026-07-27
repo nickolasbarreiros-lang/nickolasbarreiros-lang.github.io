@@ -7,6 +7,12 @@ export const dendrobiumLoddigesii = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Canas pendentes", "Flores lilases", "Labelo amarelo", "Repouso fresco e seco"],
+    fotos: [
+        "imagens/Dendrobium loddigesii/Dendrobium loddigesii1.webp",
+        "imagens/Dendrobium loddigesii/Dendrobium loddigesii2.webp",
+        "imagens/Dendrobium loddigesii/Dendrobium loddigesii3.jpeg",
+        "imagens/Dendrobium loddigesii/Dendrobium loddigesii4.jpeg"
+    ],
     descricao: "Espécie compacta que forma touceiras densas de canas finas e pendentes. As flores lilases, geralmente perfumadas, aparecem nos nós das canas maduras e possuem labelo arredondado com centro amarelo-alaranjado.",
     origem: "Sul da China e Indochina.",
     regiao: "China meridional, Laos e Vietnã.",

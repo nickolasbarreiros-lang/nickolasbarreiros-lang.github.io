@@ -7,7 +7,12 @@ export const dryadellaLiliputiana = {
     tipo: "Espécie botânica",
     dificuldade: "Exigente",
     caracteristicas: ["Grafia aceita corrigida", "Micro-orquídea", "Brasil", "Clima fresco"],
-    fotos: [],
+    fotos: [
+        "imagens/Dryadella lilliputiana/Dryadella lilliputiana1.jpg",
+        "imagens/Dryadella lilliputiana/Dryadella lilliputiana2.jpg",
+        "imagens/Dryadella lilliputiana/Dryadella lilliputiana3.webp",
+        "imagens/Dryadella lilliputiana/Dryadella lilliputiana4.webp"
+    ],
     descricao: "Micro-orquídea brasileira de dimensões diminutas, atualmente aceita como Dryadella lilliputiana. Produz pequenas flores junto à base das folhas e requer ambiente estável, úmido e sem calor excessivo.",
     origem: "Brasil.",
     regiao: "Florestas úmidas brasileiras; a procedência exata do exemplar é importante para ajustar temperatura e sazonalidade.",

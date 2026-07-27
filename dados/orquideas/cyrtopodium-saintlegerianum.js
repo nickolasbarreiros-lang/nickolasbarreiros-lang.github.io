@@ -7,6 +7,12 @@ export const cyrtopodiumSaintlegerianum = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Epífita robusta", "Palmeiras como hospedeiras", "Pseudobulbos longos", "Hastes ramificadas"],
+    fotos: [
+        "imagens/Cyrtopodium saintlegerianum/Cyrtopodium saintlegerianum1.webp",
+        "imagens/Cyrtopodium saintlegerianum/Cyrtopodium saintlegerianum2.jpeg",
+        "imagens/Cyrtopodium saintlegerianum/Cyrtopodium saintlegerianum3.webp",
+        "imagens/Cyrtopodium saintlegerianum/Cyrtopodium saintlegerianum4.jpeg"
+    ],
     descricao: "Grande Cyrtopodium brasileiro, geralmente epífito, conhecido por formar touceiras vigorosas em troncos e palmeiras. Possui pseudobulbos alongados, folhas caducas e inflorescências altas e ramificadas com numerosas flores amarelo-esverdeadas e castanhas.",
     origem: "Brasil e regiões vizinhas da América do Sul.",
     regiao: "Centro-Oeste, Sudeste e outras áreas tropicais sazonais.",

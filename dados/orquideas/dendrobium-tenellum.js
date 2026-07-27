@@ -7,6 +7,12 @@ export const dendrobiumTenellum = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Canas finas", "Crescimento pendente", "Flores delicadas", "Repouso moderado"],
+    fotos: [
+        "imagens/Dendrobium tenellum/Dendrobium tenellum1.webp",
+        "imagens/Dendrobium tenellum/Dendrobium tenellum2.webp",
+        "imagens/Dendrobium tenellum/Dendrobium tenellum3.jpeg",
+        "imagens/Dendrobium tenellum/Dendrobium tenellum4.webp"
+    ],
     descricao: "Delicada espécie de altitude, apreciada pelos caules finos e pelas pequenas flores claras que surgem principalmente no verão.",
     origem: "Java, Indonésia.",
     regiao: "Java, Indonésia.",

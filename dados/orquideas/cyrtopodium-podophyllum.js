@@ -7,6 +7,12 @@ export const cyrtopodiumPodophyllum = {
     tipo: "Nome histórico no acervo — identificação taxonômica a revisar",
     dificuldade: "Moderada",
     caracteristicas: ["Porte grande", "Terrestre ou rupícola", "Hastes altas", "Dormência sazonal"],
+    fotos: [
+        "imagens/Cyrtopodium podophyllum/Cyrtopodium podophyllum1.jpg",
+        "imagens/Cyrtopodium podophyllum/Cyrtopodium podophyllum2.jpg",
+        "imagens/Cyrtopodium podophyllum/Cyrtopodium podophyllum3.jpg",
+        "imagens/Cyrtopodium podophyllum/Cyrtopodium podophyllum4.jpg"
+    ],
     descricao: "Orquídea robusta registrada no acervo como Cyrtopodium podophyllum. Esse nome não aparece entre as espécies atualmente aceitas no tratamento taxonômico consultado para o gênero, portanto a identificação deve ser conferida; no cultivo, segue o padrão dos Cyrtopodium terrestres e rupícolas de estação seca.",
     origem: "Brasil tropical, conforme a identificação tradicional do exemplar.",
     regiao: "Áreas abertas, restingas, campos e afloramentos rochosos.",

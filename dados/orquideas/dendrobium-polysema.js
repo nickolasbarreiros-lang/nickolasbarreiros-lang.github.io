@@ -8,9 +8,10 @@ export const dendrobiumPolysema = {
     dificuldade: "Moderada a exigente",
     caracteristicas: ["Nova Guiné", "Flores pintalgadas", "Clima montano", "Alta umidade"],
     fotos: [
-        "imagens/dendrobium-polysema-1.jpg",
-        "imagens/dendrobium-polysema-2.jpg",
-        "imagens/dendrobium-polysema-3.jpg"
+        "imagens/Dendrobium polysema/Dendrobium polysema1.jpg",
+        "imagens/Dendrobium polysema/Dendrobium polysema2.jpg",
+        "imagens/Dendrobium polysema/Dendrobium polysema3.jpg",
+        "imagens/Dendrobium polysema/Dendrobium polysema4.jpeg"
     ],
     descricao: "Espécie da Nova Guiné com flores exóticas, claras e densamente marcadas por manchas verdes, castanhas e arroxeadas. Cresce em ambientes montanos úmidos e requer raízes arejadas, umidade constante e temperaturas sem extremos.",
     origem: "Nova Guiné.",

@@ -7,7 +7,12 @@ export const sophronitisCernua = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Miniatura sul-americana", "Flores laranja-avermelhadas", "Forma touceiras", "Boa tolerância ao calor"],
-    fotos: [],
+    fotos: [
+        "imagens/Cattleya cernua (sin. Sophronitis cernua)/Cattleya cernua (sin. Sophronitis cernua)1.webp",
+        "imagens/Cattleya cernua (sin. Sophronitis cernua)/Cattleya cernua (sin. Sophronitis cernua)2.webp",
+        "imagens/Cattleya cernua (sin. Sophronitis cernua)/Cattleya cernua (sin. Sophronitis cernua)3.jpg",
+        "imagens/Cattleya cernua (sin. Sophronitis cernua)/Cattleya cernua (sin. Sophronitis cernua)4.jpeg"
+    ],
     descricao: "Miniatura ainda muito conhecida como Sophronitis cernua, mas atualmente incluída em Cattleya. Forma pseudobulbos pequenos e touceiras compactas, produzindo grupos de flores laranja a vermelho vivo. Entre as antigas Sophronitis, é uma das mais tolerantes ao calor.",
     origem: "Brasil, Paraguai e nordeste da Argentina.",
     regiao: "Áreas tropicais e subtropicais do leste da América do Sul.",

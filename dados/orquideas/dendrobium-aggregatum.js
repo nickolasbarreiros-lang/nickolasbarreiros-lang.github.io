@@ -7,6 +7,12 @@ export const dendrobiumAggregatum = {
     tipo: "Espécie botânica — antigo Dendrobium aggregatum",
     dificuldade: "Moderada",
     caracteristicas: ["Flores amarelo-ouro", "Cachos pendentes", "Pseudobulbos curtos", "Repouso seco"],
+    fotos: [
+        "imagens/Dendrobium lindleyi/Dendrobium lindleyi1.webp",
+        "imagens/Dendrobium lindleyi/Dendrobium lindleyi2.webp",
+        "imagens/Dendrobium lindleyi/Dendrobium lindleyi3.jpeg",
+        "imagens/Dendrobium lindleyi/Dendrobium lindleyi4.jpg"
+    ],
     descricao: "Espécie asiática amplamente conhecida pelo antigo nome Dendrobium aggregatum. O nome aceito é Dendrobium lindleyi. Forma pseudobulbos curtos, geralmente com uma folha, e cachos pendentes com numerosas flores amarelo-ouro.",
     origem: "Himalaia oriental, sul da China e Indochina.",
     regiao: "Índia nordeste, Bangladesh, Myanmar, Tailândia, Laos, Vietnã e sul da China.",

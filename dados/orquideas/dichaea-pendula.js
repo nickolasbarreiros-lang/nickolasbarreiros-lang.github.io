@@ -7,7 +7,12 @@ export const dichaeaPendula = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["América tropical", "Crescimento pendente", "Sem pseudobulbos", "Alta umidade"],
-    fotos: [],
+    fotos: [
+        "imagens/Dichaea pendula/Dichaea pendula1.jpeg",
+        "imagens/Dichaea pendula/Dichaea pendula2.webp",
+        "imagens/Dichaea pendula/Dichaea pendula3.jpeg",
+        "imagens/Dichaea pendula/Dichaea pendula4.webp"
+    ],
     descricao: "Espécie epífita monopodial de hastes longas e pendentes, folhas dísticas e pequenas flores cerosas produzidas nas axilas foliares. A ausência de pseudobulbos torna a planta pouco tolerante à desidratação prolongada.",
     origem: "América tropical.",
     regiao: "Ampla distribuição neotropical, da América Central e Caribe à América do Sul, incluindo o Brasil.",
