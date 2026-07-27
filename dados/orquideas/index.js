@@ -7,7 +7,7 @@ import { bifrenariaVerboonenii } from "./bifrenaria-verboonenii.js";
 import { bifrenariaAureofulva } from "./bifrenaria-aureofulva.js";
 import { sophronitisCernua } from "./sophronitis-cernua.js";
 import { sophronitisCernuaVarLitoranea } from "./sophronitis-cernua-var-litoranea.js";
-import { zygopetalumMackayi } from "./zygopetalum-mackayi.js";
+import { zygolumLouisendorf } from "./zygolum-louisendorf.js";
 import { dendrobiumLoddigesii } from "./dendrobium-loddigesii.js";
 import { maxillariaSchunkeana } from "./maxillaria-schunkeana.js";
 import { mediocalcarDecoratum } from "./mediocalcar-decoratum.js";
@@ -121,7 +121,7 @@ export const orquideas = [
     sophronitisWittigiana,
     sophronitisCernua,
     sophronitisCernuaVarLitoranea,
-    zygopetalumMackayi,
+    zygolumLouisendorf,
     dendrobiumLoddigesii,
     maxillariaSchunkeana,
     mediocalcarDecoratum,

@@ -1,0 +1,28 @@
+ATUALIZAÇÃO — ZYGOLUM LOUISENDORF
+
+Arquivos incluídos:
+- dados/orquideas/index.js
+- dados/orquideas/zygolum-louisendorf.js
+
+Alterações realizadas:
+- Zygopetalum mackayi foi removido do índice ativo do catálogo.
+- Zygolum Louisendorf foi incluído como nova entrada oficial.
+- A ficha foi reescrita para refletir que se trata de um híbrido registrado (grex).
+- Foram atualizados: nome, gênero, tipo, descrição, origem, parentagem, clima, floração,
+  iluminação, adubação, rega, suporte, substrato, erros comuns, dica de cultivo,
+  adaptação regional, meses de floração e avaliações.
+- Novo ID: zygolum-louisendorf.
+
+COMO INSTALAR
+1. Copie a pasta "dados" deste pacote para a raiz do site.
+2. Confirme a substituição do arquivo dados/orquideas/index.js.
+3. Exclua manualmente o arquivo antigo:
+   dados/orquideas/zygopetalum-mackayi.js
+
+Observação:
+O arquivo antigo deixa de ser importado pelo catálogo. Mesmo que permaneça na pasta, não será
+carregado, mas recomenda-se excluí-lo para manter o projeto organizado.
+
+Fontes botânicas consultadas:
+- Royal Horticultural Society — International Orchid Register.
+- Orchids.org — registro do grex Zygolum Louisendorf.
