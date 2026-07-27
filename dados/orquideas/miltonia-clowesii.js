@@ -13,7 +13,12 @@ export const miltoniaClowesii = {
         "Raízes finas",
         "Mata Atlântica"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Miltonia clowesii/Miltonia clowesii1.jpg",
+        "imagens/Miltonia clowesii/Miltonia clowesii2.jpg",
+        "imagens/Miltonia clowesii/Miltonia clowesii3.jpg",
+        "imagens/Miltonia clowesii/Miltonia clowesii4.jpg"
+    ],
     "descricao": "Produz hastes arqueadas com várias flores vistosas. A espécie gosta de umidade durante o crescimento, mas perde raízes rapidamente em substrato velho e compacto.",
     "origem": "Nativa de Sudeste do Brasil. Integra o grupo das Miltonia brasileiras, de clima mais quente e cultivo diferente das Miltoniopsis andinas.",
     "regiao": "Sudeste do Brasil",

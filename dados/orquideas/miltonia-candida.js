@@ -13,7 +13,12 @@ export const miltoniaCandida = {
         "Raízes finas",
         "Mata Atlântica"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Miltonia candida/Miltonia candida1.webp",
+        "imagens/Miltonia candida/Miltonia candida2.jpg",
+        "imagens/Miltonia candida/Miltonia candida3.jpg",
+        "imagens/Miltonia candida/Miltonia candida4.jpg"
+    ],
     "descricao": "As inflorescências eretas carregam várias flores perfumadas, com segmentos castanhos e labelo branco. Pseudobulbos bem nutridos e luz moderada são decisivos para hastes fortes.",
     "origem": "Nativa de Sudeste e Sul do Brasil. Integra o grupo das Miltonia brasileiras, de clima mais quente e cultivo diferente das Miltoniopsis andinas.",
     "regiao": "Sudeste e Sul do Brasil",

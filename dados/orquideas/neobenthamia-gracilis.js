@@ -13,7 +13,12 @@ export const neobenthamiaGracilis = {
         "Muitas flores brancas",
         "Crescimento vigoroso"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Neobenthamia gracilis/Neobenthamia gracilis1.jpg",
+        "imagens/Neobenthamia gracilis/Neobenthamia gracilis2.webp",
+        "imagens/Neobenthamia gracilis/Neobenthamia gracilis3.jpg",
+        "imagens/Neobenthamia gracilis/Neobenthamia gracilis4.jpg"
+    ],
     "descricao": "Orquídea terrestre de grande porte, com caules eretos e folhas distribuídas ao longo da haste. No ápice forma inflorescências arredondadas compostas por dezenas de flores brancas, criando um efeito semelhante a um buquê.",
     "origem": "Nativa da Tanzânia, no leste da África. Ocorre em áreas abertas e úmidas, bordas de floresta e margens de cursos d’água.",
     "regiao": "Tanzânia.",

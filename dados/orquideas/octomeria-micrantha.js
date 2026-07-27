@@ -13,7 +13,12 @@ export const octomeriaMicrantha = {
         "Flores pequenas em fascículos",
         "Raízes finas"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Octomeria micrantha/Octomeria micrantha1.JPG",
+        "imagens/Octomeria micrantha/Octomeria micrantha2.JPG",
+        "imagens/Octomeria micrantha/Octomeria micrantha3.jpg",
+        "imagens/Octomeria micrantha/Octomeria micrantha4.jpg"
+    ],
     "descricao": "Miniatura cespitosa com flores muito pequenas reunidas na base das folhas. É aceita por Kew e ocorre do Sudeste brasileiro até Misiones, em ambientes com alguma sazonalidade.",
     "origem": "Nativa de Sudeste do Brasil, Paraguai e nordeste da Argentina. Octomeria é um grupo neotropical muito diverso, com centro de riqueza no Brasil.",
     "regiao": "Sudeste do Brasil, Paraguai e nordeste da Argentina",

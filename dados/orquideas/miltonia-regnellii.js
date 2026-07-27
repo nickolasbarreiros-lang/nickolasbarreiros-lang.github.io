@@ -13,7 +13,12 @@ export const miltoniaRegnellii = {
         "Raízes finas",
         "Mata Atlântica"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Miltonia regnellii/Miltonia regnellii1.webp",
+        "imagens/Miltonia regnellii/Miltonia regnellii2.jpg",
+        "imagens/Miltonia regnellii/Miltonia regnellii3.webp",
+        "imagens/Miltonia regnellii/Miltonia regnellii4.jpg"
+    ],
     "descricao": "As flores claras, delicadas e geralmente perfumadas surgem em hastes multifloras. É mais tolerante ao calor que Miltoniopsis, mas aprecia noites ligeiramente mais amenas.",
     "origem": "Nativa de Sudeste e Sul do Brasil. Integra o grupo das Miltonia brasileiras, de clima mais quente e cultivo diferente das Miltoniopsis andinas.",
     "regiao": "Sudeste e Sul do Brasil",

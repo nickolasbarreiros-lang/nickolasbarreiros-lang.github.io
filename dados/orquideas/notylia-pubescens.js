@@ -13,7 +13,12 @@ export const notyliaPubescens = {
         "Muitas flores pequenas",
         "Raízes finas"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Notylia pubescens/Notylia pubescens1.jpg",
+        "imagens/Notylia pubescens/Notylia pubescens2.jpg",
+        "imagens/Notylia pubescens/Notylia pubescens3.jpg",
+        "imagens/Notylia pubescens/Notylia pubescens4.jpg"
+    ],
     "descricao": "Notylia de porte pequeno a médio, com pseudobulbos discretos, uma folha larga por crescimento e racemos pendentes densamente cobertos por flores pequenas. É mais interessante quando cultivada em touceira e vista de baixo, onde as hastes ficam livres.",
     "origem": "Espécie neotropical registrada em áreas tropicais da América. O gênero ocorre do México ao sul da América tropical, e revisões recentes reforçam a necessidade de identificação cuidadosa entre espécies semelhantes.",
     "regiao": "América tropical.",

@@ -7,7 +7,12 @@ export const oncidiumTwinkle = {
     tipo: "Híbrido horticultural",
     dificuldade: "Fácil",
     caracteristicas: ["Miniatura", "Muito florífero", "Perfumado", "Hastes ramificadas"],
-    fotos: [],
+    fotos: [
+        "imagens/Oncidium Twinkle/Oncidium Twinkle1.webp",
+        "imagens/Oncidium Twinkle/Oncidium Twinkle2.jpg",
+        "imagens/Oncidium Twinkle/Oncidium Twinkle3.jpg",
+        "imagens/Oncidium Twinkle/Oncidium Twinkle4.webp"
+    ],
     descricao: "Híbrido compacto e muito popular, reconhecido pelas hastes finas e ramificadas carregadas de dezenas de flores pequenas e perfumadas. Há clones brancos, amarelos, rosados e avermelhados, geralmente com perfume doce mais evidente nas horas claras do dia.",
     origem: "Híbrido horticultural do grupo Oncidium.",
     regiao: "Sem distribuição natural.",

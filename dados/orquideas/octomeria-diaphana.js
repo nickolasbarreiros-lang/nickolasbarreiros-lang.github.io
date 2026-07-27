@@ -13,7 +13,12 @@ export const octomeriaDiaphana = {
         "Flores pequenas em fascículos",
         "Raízes finas"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Octomeria diaphana/Octomeria diaphana1.jpg",
+        "imagens/Octomeria diaphana/Octomeria diaphana2.webp",
+        "imagens/Octomeria diaphana/Octomeria diaphana3.jpg",
+        "imagens/Octomeria diaphana/Octomeria diaphana4.jpg"
+    ],
     "descricao": "Espécie de folhas estreitas e flores pequenas, translúcidas a amareladas, que surgem em grupos junto à base das folhas. A beleza é delicada e aparece melhor em touceiras adultas.",
     "origem": "Nativa de Brasil, especialmente Mata Atlântica do Sudeste e Sul. Octomeria é um grupo neotropical muito diverso, com centro de riqueza no Brasil.",
     "regiao": "Brasil, especialmente Mata Atlântica do Sudeste e Sul",

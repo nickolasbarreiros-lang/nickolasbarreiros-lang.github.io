@@ -13,7 +13,12 @@ export const miltoniaSpectabilisVarMoreliana = {
         "Raízes finas",
         "Mata Atlântica"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Miltonia moreliana/Miltonia moreliana1.webp",
+        "imagens/Miltonia moreliana/Miltonia moreliana2.webp",
+        "imagens/Miltonia moreliana/Miltonia moreliana3.jpg",
+        "imagens/Miltonia moreliana/Miltonia moreliana4.jpg"
+    ],
     "descricao": "Tratada atualmente por Kew como espécie aceita, e não apenas variedade de Miltonia spectabilis. Produz flores grandes, intensamente coloridas e geralmente uma por haste, com forte impacto ornamental.",
     "origem": "Nativa de Leste e Sudeste do Brasil. Integra o grupo das Miltonia brasileiras, de clima mais quente e cultivo diferente das Miltoniopsis andinas.",
     "regiao": "Leste e Sudeste do Brasil",

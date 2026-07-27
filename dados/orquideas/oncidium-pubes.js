@@ -13,7 +13,12 @@ export const oncidiumPubes = {
         "Pseudobulbos bifoliados",
         "Sinônimo Baptistonia pubes"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Oncidium pubes/Oncidium pubes1.jpg",
+        "imagens/Oncidium pubes/Oncidium pubes2.jpg",
+        "imagens/Oncidium pubes/Oncidium pubes3.jpg",
+        "imagens/Oncidium pubes/Oncidium pubes4.jpg"
+    ],
     "descricao": "Espécie epífita de porte pequeno a médio que produz inflorescências longas, arqueadas e ramificadas, cobertas por numerosas flores amarelas marcadas de castanho. O nome aceito permanece Oncidium pubes; Baptistonia pubes aparece como combinação taxonômica alternativa.",
     "origem": "Nativa da América do Sul, com registros da Colômbia ao Sudeste e Sul do Brasil e nordeste da Argentina. Está ligada principalmente a ambientes florestais, incluindo a Mata Atlântica.",
     "regiao": "Colômbia, Brasil e nordeste da Argentina.",

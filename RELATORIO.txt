@@ -1,0 +1,19 @@
+ATUALIZAÇÃO DE FOTOS — LOTE 5
+
+Espécies atualizadas: 10
+Fotos integradas: 40
+
+COMO INSTALAR:
+Copie as pastas "imagens" e "dados" deste pacote para a raiz do site e confirme a substituição dos arquivos existentes.
+
+ESPÉCIES:
+- Miltonia moreliana: 4 fotos | dados/orquideas/miltonia-spectabilis-var-moreliana.js
+- Octomeria diaphana: 4 fotos | dados/orquideas/octomeria-diaphana.js
+- Neobenthamia gracilis: 4 fotos | dados/orquideas/neobenthamia-gracilis.js
+- Miltonia regnellii: 4 fotos | dados/orquideas/miltonia-regnellii.js
+- Oncidium Twinkle: 4 fotos | dados/orquideas/oncidium-twinkle.js
+- Notylia pubescens: 4 fotos | dados/orquideas/notylia-pubescens.js
+- Miltonia clowesii: 4 fotos | dados/orquideas/miltonia-clowesii.js
+- Miltonia candida: 4 fotos | dados/orquideas/miltonia-candida.js
+- Octomeria micrantha: 4 fotos | dados/orquideas/octomeria-micrantha.js
+- Oncidium pubes: 4 fotos | dados/orquideas/oncidium-pubes.js
