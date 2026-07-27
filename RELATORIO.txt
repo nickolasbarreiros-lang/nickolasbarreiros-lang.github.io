@@ -1,31 +1,11 @@
-LOTE — 4 NOVAS FICHAS DE ORQUÍDEAS
+ATUALIZAÇÃO — FICHA RODRICIDIUM
 
-Arquivos criados:
-- dados/orquideas/laelia-praestans.js
-- dados/orquideas/stanhopea-hernandezii.js
-- dados/orquideas/phaius-tankervilleae-alba.js
-- dados/orquideas/encyclia-oncidioides.js
-
-Arquivo atualizado:
+Arquivos incluídos/modificados:
+- dados/orquideas/rodricidium.js
 - dados/orquideas/index.js
 
-Observações taxonômicas:
-1. Laelia praestans foi cadastrada pelo nome aceito Cattleya praestans, mantendo Laelia praestans como sinônimo visível.
-2. Phaius tankervilleae é tratado atualmente por algumas bases como Calanthe tankervilleae; o nome Phaius tankervilleae f. alba foi mantido por ser o nome horticultural informado para a planta.
-3. Encyclia oncidioides apresenta amplitude morfológica e diferenças de circunscrição entre tratamentos taxonômicos. A ficha usa o conceito aceito pela Flora e Funga do Brasil.
-4. Stanhopea hernandezii foi tratada como espécie mexicana; nomes históricos como S. devoniensis foram considerados sinônimos.
-
-Imagens:
-- As fichas foram criadas com o campo fotos vazio, para não inserir fotografias sem confirmação de identificação e licença.
-- As fotos podem ser adicionadas em um lote separado quando forem enviadas ou selecionadas fontes autorizadas.
-
-Principais referências consultadas:
-- Plants of the World Online — Royal Botanic Gardens, Kew
-- Flora e Funga do Brasil — Jardim Botânico do Rio de Janeiro
-- American Orchid Society — orientações culturais dos gêneros
-- Internet Orchid Species Photo Encyclopedia — dados de habitat, altitude e floração
-- Wikimedia Commons — verificação de material visual disponível e nomenclatura histórica
-
-Validação técnica:
-- Os cinco arquivos JavaScript foram verificados com node --check.
-- Nenhum erro de sintaxe foi encontrado.
+Alterações realizadas:
+- Criada a ficha completa do nothogênero Rodricidium (Oncidium × Rodriguezia).
+- Cultivo elaborado a partir das características compartilhadas pelos dois gêneros parentais.
+- Rodricidium incluído no índice central do catálogo.
+- Campo de fotos mantido vazio, pois o projeto não continha imagens identificadas como Rodricidium.
