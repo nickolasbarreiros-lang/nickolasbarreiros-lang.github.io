@@ -1,37 +1,36 @@
-// Ficha revisada no Sprint 2 — Lote 5.
+// Ficha atualizada no LOTE 12 — PADRÃO EDITORIAL V3.
 
 export const schomburgkia = {
     id: "schomburgkia",
-    nome: "Schomburgkia",
+    nome: "Schomburgkia sp. — identificação pendente",
     genero: "Schomburgkia",
     tipo: "Identificação apenas no nível de gênero",
     dificuldade: "Fácil a moderada",
     caracteristicas: [
         "Planta de grande porte",
-        "Hastes florais longas",
+        "Hastes florais muito longas",
         "Alta luminosidade",
-        "Identificação pendente",
+        "Espécie ainda não identificada"
     ],
-    fotos: [
-    ],
-    descricao: "Exemplar registrado apenas como Schomburgkia. Muitas espécies anteriormente incluídas nesse gênero foram transferidas para Myrmecophila ou Laelia. É necessário fotografar flores, pseudobulbos e inflorescência para identificação segura.",
+    fotos: [],
+    descricao: "Exemplar registrado apenas como Schomburgkia, sem elementos suficientes para determinação da espécie. O antigo gênero passou por ampla reorganização taxonômica e muitas espécies hoje são classificadas principalmente em Myrmecophila ou Laelia. A identificação segura exige fotografias detalhadas das flores, pseudobulbos, folhas, raízes e de toda a inflorescência.",
     origem: "América tropical — espécie não determinada",
-    regiao: "A confirmar",
-    habitat: "Em geral, espécies do antigo grupo Schomburgkia são epífitas de ambientes claros, quentes e sazonalmente secos.",
-    clima: "Quente, muito ventilado.",
-    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
+    regiao: "A confirmar após identificação",
+    habitat: "De modo geral, as orquídeas tradicionalmente chamadas de Schomburgkia são epífitas ou rupícolas de locais muito claros, quentes, ventilados e com secagem rápida das raízes.",
+    clima: "Quente, luminoso e muito ventilado",
+    climaFloracao: "Em Serra/ES, o clima quente é favorável, mas a floração normalmente só ocorre quando a planta recebe luz muito alta e completa a maturação dos pseudobulbos. A redução natural das chuvas após o crescimento pode atuar como estímulo, conforme a espécie real do exemplar.",
     iluminacao: {
-        sombrite: "50%",
+        sombrite: "30% a 50%",
         solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Luz filtrada muito alta ou sol fraco progressivamente adaptado."
+        horario: "Até 09:30, após adaptação gradual",
+        observacoes: "Cultive com luz semelhante à de Cattleyas muito exigentes ou Vandas. A planta deve apresentar folhas firmes e verde-claras, sem queimaduras."
     },
-    floracao: "Período variável conforme a espécie; provisoriamente entre primavera e verão.",
-    adubacao: "Adubo equilibrado na fase de crescimento, reduzindo após maturação dos pseudobulbos.",
-    rega: "Abundante no crescimento, com secagem rápida; reduzir quando estiver sem brotação ativa.",
-    suporte: "Cesta, cachepô grande, vaso pesado ou árvore.",
-    substrato: "Casca grossa, carvão e brita, com drenagem máxima.",
-    dica: "Em Serra/ES, dê muita luz e espaço para as hastes longas, mas aumente o sol gradualmente para evitar queimaduras.",
+    floracao: "Indeterminada enquanto a espécie não for confirmada; em muitos representantes do antigo grupo ocorre da primavera ao verão.",
+    adubacao: "Durante brotação e formação dos pseudobulbos, aplique adubo foliar equilibrado semanalmente em baixa concentração. Bokashi em saquinho ou Osmocote em dose moderada podem complementar. Reduza a adubação quando o pseudobulbo estiver maduro e a planta entrar em repouso relativo.",
+    rega: "Regue com frequência durante crescimento ativo, sempre permitindo secagem rápida. Após o amadurecimento dos pseudobulbos, reduza gradualmente, sem deixar a planta desidratar por longos períodos.",
+    suporte: "Cesto grande, cachepô robusto, vaso pesado e muito drenado ou árvore com boa incidência de luz",
+    substrato: "Casca de pinus grossa, carvão vegetal grosso, brita e pedra-pomes, com mínima retenção de água. Exemplares bem enraizados também podem crescer fixados em troncos.",
+    dica: "Não tente definir a espécie apenas pelo porte. Na próxima floração, fotografe a flor de frente e de perfil, o labelo, a coluna, a haste inteira e os pseudobulbos. Essas imagens serão decisivas para substituir esta ficha genérica por uma identificação correta.",
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     avaliacoes: {
         cultivo: 4,
@@ -39,6 +38,6 @@ export const schomburgkia = {
         perfume: 2,
         luminosidade: 5,
         agua: 2,
-        raridade: 4,
+        raridade: 4
     }
 };

@@ -1,38 +1,37 @@
-// Ficha revisada no Sprint 2 — Lote 2.
+// Ficha atualizada no LOTE 12 — PADRÃO EDITORIAL V3.
 
 export const sophronitisCernua = {
     id: "sophronitis-cernua",
-    nome: "Sophronitis cernua",
-    genero: "Sophronitis",
+    nome: "Cattleya cernua (sin. Sophronitis cernua)",
+    genero: "Cattleya",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: [
-        "Miniatura",
+        "Miniatura brasileira",
         "Flores laranja-avermelhadas",
-        "Tolera calor",
-        "Pode formar touceiras",
+        "Pode formar grandes touceiras",
+        "Boa tolerância ao calor"
     ],
-    fotos: [
-    ],
-    descricao: "Miniatura sul-americana conhecida no cultivo como Sophronitis cernua; o nome aceito em classificações modernas é Cattleya cernua. Produz vários pequenos botões laranja a vermelho vivo em plantas compactas e floríferas.",
+    fotos: [],
+    descricao: "Miniatura brasileira ainda muito conhecida no cultivo como Sophronitis cernua, mas atualmente aceita como Cattleya cernua. Forma pseudobulbos pequenos e touceiras compactas, produzindo conjuntos de flores laranja a vermelho vivo. É uma das antigas Sophronitis mais adaptáveis ao calor quando recebe luminosidade alta e ventilação constante.",
     origem: "Brasil, Paraguai e nordeste da Argentina",
-    regiao: "Ampla distribuição no Sul e Sudeste do Brasil e áreas vizinhas",
-    habitat: "Epífita ou rupícola em ambientes claros, úmidos e bem ventilados, desde áreas costeiras até formações interiores.",
-    clima: "Quente a intermediário; geralmente mais tolerante ao calor que outras antigas Sophronitis.",
-    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
+    regiao: "Ampla distribuição no Brasil, especialmente em áreas do Nordeste, Sudeste, Centro-Oeste e Sul, alcançando países vizinhos",
+    habitat: "Epífita ou rupícola em formações abertas e sazonalmente secas, sobre galhos, troncos e rochas expostos a muita claridade, vento e rápida drenagem.",
+    clima: "Quente a intermediário, com alta ventilação",
+    climaFloracao: "Em Serra/ES, aceita bem as temperaturas elevadas, mas precisa de noites ventiladas, luz intensa e secagem rápida das raízes. A maturação de pseudobulbos compactos e firmes, seguida de leve redução das regas, costuma favorecer a floração.",
     iluminacao: {
-        sombrite: "50%",
+        sombrite: "30% a 50%",
         solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Luz filtrada forte, com sol suave da manhã."
+        horario: "Até 09:00, com adaptação gradual",
+        observacoes: "Necessita luz forte. Folhas excessivamente verde-escuras indicam sombra; tons verde-claros ou discretamente avermelhados podem ser normais em plantas bem iluminadas."
     },
-    floracao: "Mais comum na primavera, podendo variar e repetir em cultivo.",
-    adubacao: "Adubação foliar equilibrada e diluída a cada 7–15 dias no crescimento. Orgânico em dose muito pequena.",
-    rega: "Regue bem e permita rápida secagem. Evite manter esfagno constantemente encharcado.",
-    suporte: "Placa de madeira, galho ou pequeno cachepô.",
-    substrato: "Montada com pequena manta de esfagno, ou vaso pequeno com casca, carvão e pedra-pomes.",
-    dica: "Em Serra/ES, monte-a em local claro e com movimento de ar. Ela aceita calor, mas apodrece facilmente quando fica abafada e molhada à noite.",
-    mesesFloracao: [9, 10, 11, 12],
+    floracao: "Principalmente na primavera, podendo variar entre o fim do inverno e o início do verão.",
+    adubacao: "Use adubo foliar equilibrado e bastante diluído a cada 7–15 dias durante a formação dos novos pseudobulbos. Bokashi ou Osmocote devem ser usados em quantidade mínima, porque a planta é pequena e possui raízes finas. Suspenda excessos quando o crescimento amadurecer.",
+    rega: "Regue bem pela manhã e permita que as raízes sequem rapidamente. Em montagem, aumente a frequência no verão; no inverno ou após a maturação dos pseudobulbos, reduza sem provocar desidratação intensa.",
+    suporte: "Placa de madeira dura, cortiça, galho fino ou pequeno cachepô muito vazado",
+    substrato: "Montada com pouca ou nenhuma manta de esfagno. Em vaso pequeno, use casca fina, carvão, pedra-pomes e apenas uma pequena porção de esfagno.",
+    dica: "Em Serra/ES, cultive-a em posição clara e elevada, onde o ar circule livremente. O maior risco não é o calor, mas a combinação de abafamento, excesso de esfagno e regas no fim do dia.",
+    mesesFloracao: [8, 9, 10, 11, 12],
     avaliacoes: {
         cultivo: 4,
         floracao: 4,

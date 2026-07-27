@@ -1,38 +1,37 @@
-// Ficha revisada no Sprint 2 — Lote 2.
+// Ficha atualizada no LOTE 12 — PADRÃO EDITORIAL V3.
 
 export const sophronitisCernuaVarLitoranea = {
     id: "sophronitis-cernua-var-litoranea",
-    nome: "Sophronitis cernua var. litorânea",
-    genero: "Sophronitis",
-    tipo: "Variedade horticultural / forma geográfica",
+    nome: "Cattleya cernua — forma litorânea",
+    genero: "Cattleya",
+    tipo: "Forma geográfica / denominação horticultural",
     dificuldade: "Moderada",
     caracteristicas: [
         "Miniatura",
-        "Forma litorânea",
+        "Procedência litorânea",
         "Flores alaranjadas",
-        "Boa adaptação ao calor",
+        "Adaptada ao calor e à umidade"
     ],
-    fotos: [
-    ],
-    descricao: "Forma litorânea de Cattleya cernua, ainda comercializada como Sophronitis cernua var. litorânea. Mantém o porte miniatura e as inflorescências com várias flores alaranjadas, mas costuma apresentar adaptação favorável a condições quentes e úmidas próximas ao litoral.",
+    fotos: [],
+    descricao: "Forma costeira de Cattleya cernua, tradicionalmente comercializada como Sophronitis cernua var. litorânea. A denominação é útil no cultivo para indicar procedência e adaptação ambiental, mas não corresponde a uma variedade botânica aceita de modo uniforme. Mantém o porte miniatura, o crescimento em touceiras e as flores alaranjadas características da espécie.",
     origem: "Brasil",
-    regiao: "Faixa litorânea e restingas do Sudeste e Sul",
-    habitat: "Epífita em vegetação costeira clara, sob alta umidade, vento e rápida drenagem.",
-    clima: "Quente a intermediário e úmido.",
-    climaFloracao: "Adapta-se a clima quente e úmido, desde que haja boa ventilação e diferença moderada entre dia e noite. Para florescer, precisa de crescimento vigoroso, luz adequada e raízes sem encharcamento.",
+    regiao: "Populações associadas à faixa costeira, restingas e formações próximas ao litoral do Sudeste e Sul",
+    habitat: "Epífita em vegetação costeira clara, submetida a calor, umidade atmosférica elevada, vento frequente e secagem rápida após chuvas.",
+    clima: "Quente a intermediário, úmido e muito ventilado",
+    climaFloracao: "A procedência litorânea torna esta forma especialmente promissora para Serra/ES. Ainda assim, a floração exige luz alta, pseudobulbos maduros e raízes arejadas. A ventilação deve compensar a elevada umidade do verão, evitando que a planta permaneça molhada durante a noite.",
     iluminacao: {
-        sombrite: "50%",
+        sombrite: "30% a 50%",
         solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Luz intensa filtrada e algumas horas de sol fraco."
+        horario: "Até 09:00, após adaptação",
+        observacoes: "Prefere luz intensa filtrada e sol suave da manhã. Deve ficar mais clara do que a maioria das miniaturas de floresta sombreada."
     },
-    floracao: "Primavera e início do verão.",
-    adubacao: "Adubo equilibrado diluído no período de brotação; reduza quando o crescimento estiver maduro. Orgânico mínimo.",
-    rega: "Frequente no calor, sempre com secagem rápida e excelente ventilação.",
-    suporte: "Galho, placa de madeira resistente ou cachepô pequeno.",
-    substrato: "Pouco material retentivo: casca, carvão, pedra-pomes e apenas um toque de esfagno.",
-    dica: "É uma das formas mais promissoras para Serra/ES. Priorize ventilação, luz alta e raízes expostas, imitando a condição costeira.",
-    mesesFloracao: [9, 10, 11, 12, 1],
+    floracao: "Mais comum da primavera ao início do verão, podendo começar no fim do inverno.",
+    adubacao: "Durante a brotação, aplique adubo foliar equilibrado em concentração baixa a cada 7–15 dias. Bokashi em saquinho ou poucos grânulos de Osmocote podem complementar, mas o excesso saliniza rapidamente o pequeno volume de raízes.",
+    rega: "No calor, regue com frequência pela manhã, sobretudo quando montada. Permita secagem rápida entre as regas e reduza quando os pseudobulbos amadurecerem ou em períodos frios e chuvosos.",
+    suporte: "Galho resistente, placa de madeira ou cortiça e pequeno cachepô aberto",
+    substrato: "Preferencialmente montada, com uma camada muito fina de esfagno apenas se o local secar rápido demais. Em cachepô, use casca fina, carvão e pedra-pomes com mínima retenção.",
+    dica: "Para reproduzir a condição litorânea em Serra/ES, combine luz forte, umidade pela manhã e vento constante. Não confunda adaptação à umidade do ar com tolerância a substrato encharcado.",
+    mesesFloracao: [8, 9, 10, 11, 12, 1],
     avaliacoes: {
         cultivo: 4,
         floracao: 4,
