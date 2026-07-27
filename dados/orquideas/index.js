@@ -230,3 +230,5 @@ export const orquideas = [
     laeliaCaulencens,
     rodricidium
 ];
+
+export { pleurothallisModestissima } from "./pleurothallis-modestissima.js";
