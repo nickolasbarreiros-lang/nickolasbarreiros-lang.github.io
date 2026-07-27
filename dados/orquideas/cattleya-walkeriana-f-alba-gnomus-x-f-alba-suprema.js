@@ -7,6 +7,12 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     tipo: "Espécie botânica — cruzamento entre clones albos",
     dificuldade: "Exigente",
     caracteristicas: ["Forma alba", "Compacta", "Muito perfumada", "Repouso sazonal"],
+    "fotos": [
+        "imagens/Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema')/Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema')1.webp",
+        "imagens/Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema')/Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema')2.jpg",
+        "imagens/Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema')/Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema')3.jpg",
+        "imagens/Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema')/Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema')4.webp"
+    ],
     descricao: "Cruzamento entre dois clones albos de Cattleya walkeriana, realizado para produzir descendentes de flores brancas e alta qualidade. Mantém as exigências de cultivo da espécie, especialmente luz alta, raízes muito aeradas e redução de água após a maturação.",
     origem: "Horticultural; a espécie é nativa do Brasil central e sudeste.",
     regiao: "Progênie sem distribuição natural.",

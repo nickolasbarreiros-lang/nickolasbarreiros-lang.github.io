@@ -12,7 +12,12 @@ export const laeliaLundiiAlba = {
         "Miniatura",
         "Flores brancas"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Cattleya lundii f. alba/Cattleya lundii f. alba1.webp",
+        "imagens/Cattleya lundii f. alba/Cattleya lundii f. alba2.webp",
+        "imagens/Cattleya lundii f. alba/Cattleya lundii f. alba3.jpg",
+        "imagens/Cattleya lundii f. alba/Cattleya lundii f. alba4.jpg"
+    ],
     "descricao": "Forma alba de Cattleya lundii, miniatura brasileira antes conhecida como Laelia lundii. Mantém o porte compacto da espécie, mas produz flores brancas ou branco-esverdeadas sem pigmento rosado evidente.",
     "origem": "Seleção horticultural de espécie nativa do Brasil, Paraguai, Bolívia e Argentina.",
     "regiao": "Florestas sazonais e matas abertas do centro-sul da América do Sul.",

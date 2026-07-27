@@ -12,7 +12,12 @@ export const cattleyaIntermedia = {
         "Resistente",
         "Flores perfumadas"
     ],
-    fotos: [],
+    "fotos": [
+        "imagens/Cattleya intermedia/Cattleya intermedia1.webp",
+        "imagens/Cattleya intermedia/Cattleya intermedia2.jpg",
+        "imagens/Cattleya intermedia/Cattleya intermedia3.jpg",
+        "imagens/Cattleya intermedia/Cattleya intermedia4.jpg"
+    ],
     descricao: "Espécie bifoliada brasileira muito variável em cor e forma, amplamente cultivada por sua resistência e beleza. Produz pseudobulbos alongados e inflorescências terminais com flores claras, geralmente rosadas ou brancas, de labelo contrastante.",
     origem: "Sudeste e sul do Brasil até o Paraguai.",
     regiao: "Faixa costeira e áreas interiores do sudeste e sul do Brasil.",

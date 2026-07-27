@@ -7,6 +7,12 @@ export const cattliantheCttJewelBox = {
     tipo: "Híbrido hortícola",
     dificuldade: "Fácil",
     caracteristicas: ["Híbrido clássico", "Flores vermelhas", "Touceira vigorosa", "Floração abundante"],
+    "fotos": [
+        "imagens/Cattlianthe Jewel Box/Cattlianthe Jewel Box1.jpg",
+        "imagens/Cattlianthe Jewel Box/Cattlianthe Jewel Box2.jpg",
+        "imagens/Cattlianthe Jewel Box/Cattlianthe Jewel Box3.jpg",
+        "imagens/Cattlianthe Jewel Box/Cattlianthe Jewel Box4.jpg"
+    ],
     descricao: "Híbrido clássico registrado como Cattlianthe Jewel Box, conhecido por hastes com várias flores vermelhas e grande vigor. O nome intergenérico reflete o parentesco entre Cattleya e Guarianthe.",
     origem: "Híbrido hortícola registrado.",
     regiao: "Não possui distribuição natural.",

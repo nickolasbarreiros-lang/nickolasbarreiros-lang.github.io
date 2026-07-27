@@ -7,6 +7,12 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     tipo: "Espécie botânica — progênie horticultural",
     dificuldade: "Moderada",
     caracteristicas: ["Seleção suave", "Amazônica", "Bifoliada", "Flores delicadas"],
+    "fotos": [
+        "imagens/Cattleya violacea f. suavissima × self/Cattleya violacea f. suavissima × self1.webp",
+        "imagens/Cattleya violacea f. suavissima × self/Cattleya violacea f. suavissima × self2.jpg",
+        "imagens/Cattleya violacea f. suavissima × self/Cattleya violacea f. suavissima × self3.jpg",
+        "imagens/Cattleya violacea f. suavissima × self/Cattleya violacea f. suavissima × self4.jpg"
+    ],
     descricao: "Progênie obtida pela autofecundação de uma Cattleya violacea selecionada como suavissima, buscando preservar coloração muito clara e delicada. O termo suavissima é horticultural e não representa categoria botânica aceita.",
     origem: "Origem hortícola a partir de Cattleya violacea sul-americana.",
     regiao: "Sem distribuição própria; a espécie ocorre na América do Sul tropical.",

@@ -12,7 +12,12 @@ export const cattleyaLeopoldiiDarkPrincess = {
         "Cultivar selecionado",
         "Perfume marcante"
     ],
-    fotos: [],
+    "fotos": [
+        "imagens/Cattleya tigrina 'Dark Princess'/Cattleya tigrina 'Dark Princess'1.avif",
+        "imagens/Cattleya tigrina 'Dark Princess'/Cattleya tigrina 'Dark Princess'2.webp",
+        "imagens/Cattleya tigrina 'Dark Princess'/Cattleya tigrina 'Dark Princess'3.webp",
+        "imagens/Cattleya tigrina 'Dark Princess'/Cattleya tigrina 'Dark Princess'4.jpg"
+    ],
     descricao: "Cultivar de coloração escura da espécie atualmente aceita como Cattleya tigrina. O nome Cattleya leopoldii é tratado por POWO como sinônimo. A planta forma pseudobulbos altos e inflorescências com numerosas flores cerosas, pintalgadas e geralmente perfumadas.",
     origem: "Brasil, com distribuição no leste e sul do país.",
     regiao: "Mata Atlântica costeira e florestas sazonais do leste e sul do Brasil.",

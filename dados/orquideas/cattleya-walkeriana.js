@@ -7,6 +7,12 @@ export const cattleyaWalkeriana = {
     tipo: "Espécie botânica",
     dificuldade: "Exigente",
     caracteristicas: ["Brasileira", "Compacta", "Perfume intenso", "Sazonalmente seca"],
+    "fotos": [
+        "imagens/Cattleya walkeriana/Cattleya walkeriana1.webp",
+        "imagens/Cattleya walkeriana/Cattleya walkeriana2.jpg",
+        "imagens/Cattleya walkeriana/Cattleya walkeriana3.webp",
+        "imagens/Cattleya walkeriana/Cattleya walkeriana4.webp"
+    ],
     descricao: "Cattleya brasileira compacta, célebre pelas flores grandes em relação ao porte e pelo perfume intenso. É epífita ou litófita de ambientes sazonalmente secos e exige excelente aeração radicular.",
     origem: "Brasil central e sudeste.",
     regiao: "Cerrado, campos rupestres e matas sazonais de Minas Gerais, Goiás, Mato Grosso e áreas adjacentes.",

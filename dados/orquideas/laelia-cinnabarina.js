@@ -12,7 +12,11 @@ export const laeliaCinnabarina = {
         "Rupícola",
         "Campos de altitude"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Cattleya cinnabarina/Cattleya cinnabarina1.webp",
+        "imagens/Cattleya cinnabarina/Cattleya cinnabarina2.jpg",
+        "imagens/Cattleya cinnabarina/Cattleya cinnabarina3.jpg"
+    ],
     "descricao": "Espécie brasileira de flores laranja-cinábrio, por muito tempo cultivada como Laelia cinnabarina. Forma pseudobulbos delgados e hastes altas com várias flores, destacando-se em coleções de rupícolas.",
     "origem": "Brasil.",
     "regiao": "Campos rupestres e serras do Sudeste e Centro-Leste brasileiro.",

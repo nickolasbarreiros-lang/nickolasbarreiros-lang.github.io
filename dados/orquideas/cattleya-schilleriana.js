@@ -12,7 +12,12 @@ export const cattleyaSchilleriana = {
         "Perfumada",
         "Raízes sensíveis",
     ],
-    fotos: [],
+    "fotos": [
+        "imagens/Cattleya schilleriana/Cattleya schilleriana1.jpg",
+        "imagens/Cattleya schilleriana/Cattleya schilleriana2.jpg",
+        "imagens/Cattleya schilleriana/Cattleya schilleriana3.webp",
+        "imagens/Cattleya schilleriana/Cattleya schilleriana4.webp"
+    ],
     descricao: "Cattleya bifoliada brasileira de flores cerosas e perfumadas, com pétalas e sépalas pintalgadas e labelo muito contrastante. É uma espécie compacta, valorizada por colecionadores e sensível a replantes mal programados.",
     origem: "Originária do leste da Bahia e do Espírito Santo, no Brasil.",
     regiao: "Mata Atlântica entre o leste da Bahia e o Espírito Santo.",

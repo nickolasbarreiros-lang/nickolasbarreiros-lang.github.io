@@ -12,7 +12,12 @@ export const cattleyaAclandiaeTipo = {
         "Endêmica da Bahia",
         "Raízes muito aeradas"
     ],
-    fotos: [],
+    "fotos": [
+        "imagens/Cattleya aclandiae/Cattleya aclandiae1.jpg",
+        "imagens/Cattleya aclandiae/Cattleya aclandiae2.jpg",
+        "imagens/Cattleya aclandiae/Cattleya aclandiae3.webp",
+        "imagens/Cattleya aclandiae/Cattleya aclandiae4.jpg"
+    ],
     descricao: "Cattleya bifoliada compacta, célebre pelas flores cerosas verde-amareladas ou castanhas, densamente pintalgadas, com labelo magenta. É endêmica da Bahia e cresce em ambientes sazonalmente secos. A forma tipo corresponde ao padrão natural de coloração da espécie.",
     origem: "Brasil, endêmica do estado da Bahia.",
     regiao: "Áreas quentes e sazonalmente secas da Mata Atlântica baiana.",

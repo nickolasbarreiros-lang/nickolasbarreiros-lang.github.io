@@ -12,7 +12,12 @@ export const laeliaFournieri = {
         "Flores claras",
         "Espécie brasileira rara"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Cattleya fournieri/Cattleya fournieri1.jpg",
+        "imagens/Cattleya fournieri/Cattleya fournieri2.jpg",
+        "imagens/Cattleya fournieri/Cattleya fournieri3.jpg",
+        "imagens/Cattleya fournieri/Cattleya fournieri4.webp"
+    ],
     "descricao": "Pequena espécie rupícola brasileira, anteriormente incluída em Laelia. Produz flores claras, delicadas, em planta compacta adaptada a afloramentos rochosos e condições de elevada luminosidade.",
     "origem": "Brasil.",
     "regiao": "Campos rupestres do Sudeste brasileiro.",

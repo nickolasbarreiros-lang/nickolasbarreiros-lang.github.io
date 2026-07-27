@@ -12,7 +12,12 @@ export const cattleyaABrazilianDream = {
         "Flores vistosas",
         "Herança bifoliada"
     ],
-    fotos: [],
+    "fotos": [
+        "imagens/Cattleya A Brazilian Dream/Cattleya A Brazilian Dream1.webp",
+        "imagens/Cattleya A Brazilian Dream/Cattleya A Brazilian Dream2.jpg",
+        "imagens/Cattleya A Brazilian Dream/Cattleya A Brazilian Dream3.jpg",
+        "imagens/Cattleya A Brazilian Dream/Cattleya A Brazilian Dream4.jpg"
+    ],
     descricao: "Híbrido primário registrado em 2019, resultante do cruzamento entre Cattleya nobilior e Cattleya loddigesii. Combina o porte compacto, a exigência por luz e a textura floral de C. nobilior com o vigor, a forma e a adaptação de C. loddigesii. O comportamento exato varia entre clones.",
     origem: "Híbrido hortícola registrado; não ocorre na natureza.",
     regiao: "Criado em cultivo a partir de espécies brasileiras.",

@@ -12,7 +12,12 @@ export const cattleyaLueddemannianaTipo = {
         "Perfume marcante",
         "Origem venezuelana"
     ],
-    fotos: [],
+    "fotos": [
+        "imagens/Cattleya lueddemanniana/Cattleya lueddemanniana1.jpg",
+        "imagens/Cattleya lueddemanniana/Cattleya lueddemanniana2.jpg",
+        "imagens/Cattleya lueddemanniana/Cattleya lueddemanniana3.jpg",
+        "imagens/Cattleya lueddemanniana/Cattleya lueddemanniana4.jpg"
+    ],
     descricao: "Espécie unifoliada venezuelana de flores grandes, rosadas e perfumadas, com labelo intensamente colorido. A forma tipo representa a coloração natural mais comum da espécie.",
     origem: "Venezuela.",
     regiao: "Cordilheira da Costa e áreas montanhosas do norte da Venezuela.",

@@ -12,7 +12,12 @@ export const cattleyaChocolateDrop = {
         "Coloração vermelho-acastanhada",
         "Vigorosa"
     ],
-    fotos: [],
+    "fotos": [
+        "imagens/Cattlianthe Chocolate Drop/Cattlianthe Chocolate Drop1.webp",
+        "imagens/Cattlianthe Chocolate Drop/Cattlianthe Chocolate Drop2.jpg",
+        "imagens/Cattlianthe Chocolate Drop/Cattlianthe Chocolate Drop3.jpg",
+        "imagens/Cattlianthe Chocolate Drop/Cattlianthe Chocolate Drop4.jpg"
+    ],
     descricao: "Híbrido clássico registrado em 1965, tradicionalmente conhecido como Cattleya Chocolate Drop. O nome hortícola atualmente aceito é Cattlianthe Chocolate Drop. Combina Cattleya guttata com Guarianthe aurantiaca, formando plantas vigorosas, bifoliadas e com cachos de flores cerosas em tons alaranjados, vermelhos ou chocolate.",
     origem: "Híbrido hortícola; não ocorre naturalmente.",
     regiao: "Criado em cultivo a partir de espécies mesoamericanas e brasileiras.",

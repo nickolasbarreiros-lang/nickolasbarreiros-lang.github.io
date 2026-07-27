@@ -12,7 +12,12 @@ export const cattleyaGuttataVarCoerulea = {
         "Forma coerulea",
         "Espécie brasileira"
     ],
-    fotos: [],
+    "fotos": [
+        "imagens/Cattleya guttata f. coerulea/Cattleya guttata f. coerulea1.webp",
+        "imagens/Cattleya guttata f. coerulea/Cattleya guttata f. coerulea2.jpg",
+        "imagens/Cattleya guttata f. coerulea/Cattleya guttata f. coerulea3.jpg",
+        "imagens/Cattleya guttata f. coerulea/Cattleya guttata f. coerulea4.webp"
+    ],
     descricao: "Forma horticultural de Cattleya guttata selecionada por pigmentação azulada ou violácea mais fria. Taxonomicamente, POWO aceita Cattleya guttata como espécie; designações de cor como coerulea são normalmente tratadas no cultivo como formas ou cultivares, não como variedade botânica aceita.",
     origem: "Brasil.",
     regiao: "Leste e sudeste do Brasil, em áreas costeiras e florestas sazonais.",

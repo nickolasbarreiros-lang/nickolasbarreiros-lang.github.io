@@ -7,7 +7,12 @@ export const eriaHyacinthoides = {
     tipo: "Espécie botânica — nome atualizado",
     dificuldade: "Moderada",
     caracteristicas: ["Sinônimo: Eria hyacinthoides", "Sudeste Asiático", "Inflorescência densa", "Alta umidade"],
-    fotos: [],
+    "fotos": [
+        "imagens/Bryobium hyacinthoides/Bryobium hyacinthoides1.jpg",
+        "imagens/Bryobium hyacinthoides/Bryobium hyacinthoides2.jpg",
+        "imagens/Bryobium hyacinthoides/Bryobium hyacinthoides3.jpg",
+        "imagens/Bryobium hyacinthoides/Bryobium hyacinthoides4.jpg"
+    ],
     descricao: "Espécie asiática atualmente aceita como Bryobium hyacinthoides; Eria hyacinthoides e Pinalia hyacinthoides são sinônimos. Produz numerosas flores pequenas em inflorescências densas e aprecia cultivo úmido, porém arejado.",
     origem: "Sudeste Asiático.",
     regiao: "Bornéu, Camboja, Java, Ilhas da Sonda Menores, Península Malaia, Sumatra e Tailândia.",

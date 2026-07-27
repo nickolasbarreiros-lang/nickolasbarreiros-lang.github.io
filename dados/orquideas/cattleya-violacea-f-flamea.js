@@ -7,6 +7,12 @@ export const cattleyaViolaceaFFlamea = {
     tipo: "Espécie botânica — forma horticultural",
     dificuldade: "Moderada",
     caracteristicas: ["Amazônica", "Bifoliada", "Forma flamea", "Clima quente"],
+    "fotos": [
+        "imagens/Cattleya violacea f. flamea/Cattleya violacea f. flamea1.jpg",
+        "imagens/Cattleya violacea f. flamea/Cattleya violacea f. flamea2.jpg",
+        "imagens/Cattleya violacea f. flamea/Cattleya violacea f. flamea3.jpg",
+        "imagens/Cattleya violacea f. flamea/Cattleya violacea f. flamea4.webp"
+    ],
     descricao: "Forma horticultural de Cattleya violacea selecionada pelo padrão flamea, com pétalas exibindo intensificação de cor em direção às extremidades. A forma não é tratada como táxon separado nas principais bases botânicas; pertence à espécie C. violacea.",
     origem: "América do Sul tropical; a seleção flamea é de origem hortícola.",
     regiao: "Amazônia e outras áreas úmidas do norte da América do Sul.",

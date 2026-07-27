@@ -12,7 +12,12 @@ export const cattleyaLoddigesii = {
         "Vigorosa",
         "Espécie brasileira"
     ],
-    fotos: [],
+    "fotos": [
+        "imagens/Cattleya loddigesii/Cattleya loddigesii1.webp",
+        "imagens/Cattleya loddigesii/Cattleya loddigesii2.webp",
+        "imagens/Cattleya loddigesii/Cattleya loddigesii3.jpg",
+        "imagens/Cattleya loddigesii/Cattleya loddigesii4.jpg"
+    ],
     descricao: "Cattleya bifoliada vigorosa, de pseudobulbos alongados e flores lilás-rosadas com labelo mais escuro. É uma das espécies clássicas do gênero e costuma formar touceiras robustas quando recebe luz e secagem adequadas.",
     origem: "Sudeste e sul do Brasil.",
     regiao: "Mata Atlântica e florestas sazonais do sudeste e sul.",

@@ -12,7 +12,12 @@ export const bifrenariaAureofulva = {
         "Perfumada",
         "Epífita",
     ],
-    fotos: [],
+    "fotos": [
+        "imagens/Bifrenaria aureofulva/Bifrenaria aureofulva1.jpg",
+        "imagens/Bifrenaria aureofulva/Bifrenaria aureofulva2.webp",
+        "imagens/Bifrenaria aureofulva/Bifrenaria aureofulva3.jpg",
+        "imagens/Bifrenaria aureofulva/Bifrenaria aureofulva4.jpg"
+    ],
     descricao: "Bifrenaria de porte pequeno a médio, reconhecida pelas flores estreitas e cerosas em tons de amarelo-ouro a laranja intenso. Forma touceiras compactas e produz inflorescências basais com várias flores perfumadas.",
     origem: "Originária do Brasil, com ocorrência da Bahia e Minas Gerais até o Rio Grande do Sul.",
     regiao: "Mata Atlântica das regiões Sudeste e Sul do Brasil.",

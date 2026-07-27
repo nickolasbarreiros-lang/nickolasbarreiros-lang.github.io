@@ -12,7 +12,12 @@ export const laeliaCaulencens = {
         "Flores rosadas",
         "Alta luminosidade"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Cattleya caulescens/Cattleya caulescens1.jpg",
+        "imagens/Cattleya caulescens/Cattleya caulescens2.jpg",
+        "imagens/Cattleya caulescens/Cattleya caulescens3.jpg",
+        "imagens/Cattleya caulescens/Cattleya caulescens4.jpg"
+    ],
     "descricao": "Espécie rupícola brasileira anteriormente conhecida como Laelia caulescens. É compacta, forma pseudobulbos agrupados e produz hastes com flores rosadas a lilases, adaptadas a ambientes rochosos muito iluminados.",
     "origem": "Brasil, especialmente campos rupestres de Minas Gerais.",
     "regiao": "Serras e campos rupestres do Sudeste brasileiro.",

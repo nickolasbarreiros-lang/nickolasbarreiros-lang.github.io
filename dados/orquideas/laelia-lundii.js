@@ -12,7 +12,12 @@ export const laeliaLundii = {
         "Flores claras com labelo rosado",
         "Estação seca"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Cattleya lundii/Cattleya lundii1.jpg",
+        "imagens/Cattleya lundii/Cattleya lundii2.webp",
+        "imagens/Cattleya lundii/Cattleya lundii3.webp",
+        "imagens/Cattleya lundii/Cattleya lundii4.jpg"
+    ],
     "descricao": "Miniatura epífita sul-americana, antes conhecida como Laelia lundii. Forma pseudobulbos pequenos e flores claras, geralmente com detalhes rosados ou púrpura no labelo.",
     "origem": "Bolívia, Brasil, Paraguai e nordeste da Argentina.",
     "regiao": "Matas sazonais, cerrados arborizados e florestas abertas do centro-sul da América do Sul.",

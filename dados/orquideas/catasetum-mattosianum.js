@@ -12,7 +12,12 @@ export const catasetumMattosianum = {
         "Crescimento sazonal",
         "Espécie brasileira"
     ],
-    fotos: [],
+    "fotos": [
+        "imagens/Catasetum mattosianum/Catasetum mattosianum1.jpg",
+        "imagens/Catasetum mattosianum/Catasetum mattosianum2.jpg",
+        "imagens/Catasetum mattosianum/Catasetum mattosianum3.jpg",
+        "imagens/Catasetum mattosianum/Catasetum mattosianum4.jpg"
+    ],
     descricao: "Espécie brasileira de Catasetum com pseudobulbos robustos e ciclo anual bem definido. Durante a fase ativa produz folhas largas e raízes vigorosas; na dormência perde a folhagem e reduz drasticamente o consumo de água. As inflorescências podem portar flores masculinas ou femininas, cuja expressão é influenciada por luz, vigor e condições ambientais.",
     origem: "Brasil, com ocorrência confirmada da Bahia ao Espírito Santo.",
     regiao: "Mata Atlântica do leste brasileiro, especialmente Bahia e Espírito Santo.",

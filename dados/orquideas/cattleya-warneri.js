@@ -7,6 +7,12 @@ export const cattleyaWarneri = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Unifoliada", "Flores muito grandes", "Brasileira", "Primaveril"],
+    "fotos": [
+        "imagens/Cattleya warneri/Cattleya warneri1.jpg",
+        "imagens/Cattleya warneri/Cattleya warneri2.webp",
+        "imagens/Cattleya warneri/Cattleya warneri3.jpg",
+        "imagens/Cattleya warneri/Cattleya warneri4.jpg"
+    ],
     descricao: "Grande Cattleya unifoliada brasileira, conhecida pelas flores vistosas e labelo amplo. É semelhante a C. labiata, mas floresce tipicamente na primavera e possui distribuição natural associada à Mata Atlântica do sudeste.",
     origem: "Sudeste do Brasil.",
     regiao: "Principalmente Minas Gerais, Espírito Santo e áreas próximas da Mata Atlântica.",

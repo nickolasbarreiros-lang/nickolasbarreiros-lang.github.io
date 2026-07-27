@@ -7,6 +7,12 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
     tipo: "Híbrido hortícola",
     dificuldade: "Moderada",
     caracteristicas: ["Híbrido brasileiro", "Flores cerosas", "Coloração contrastante", "Porte compacto a médio"],
+    "fotos": [
+        "imagens/Cattleya schilleriana × Cruzeiro do Sul/Cattleya schilleriana × Cruzeiro do Sul1.webp",
+        "imagens/Cattleya schilleriana × Cruzeiro do Sul/Cattleya schilleriana × Cruzeiro do Sul2.jpg",
+        "imagens/Cattleya schilleriana × Cruzeiro do Sul/Cattleya schilleriana × Cruzeiro do Sul3.webp",
+        "imagens/Cattleya schilleriana × Cruzeiro do Sul/Cattleya schilleriana × Cruzeiro do Sul4.jpg"
+    ],
     descricao: "Híbrido hortícola envolvendo Cattleya schilleriana e um parental registrado ou comercializado como Cruzeiro do Sul. Tende a reunir o desenho contrastante e a textura cerosa de C. schilleriana com maior vigor e adaptação de cultivo.",
     origem: "Horticultural, produzido por cruzamento controlado.",
     regiao: "Não possui distribuição natural.",
