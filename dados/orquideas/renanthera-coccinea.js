@@ -1,4 +1,4 @@
-// Ficha atualizada no LOTE 12 — PADRÃO EDITORIAL V3.
+// Ficha atualizada no LOTE 16 — PADRÃO EDITORIAL V3.
 
 export const renantheraCoccinea = {
     id: "renanthera-coccinea",
@@ -6,38 +6,31 @@ export const renantheraCoccinea = {
     genero: "Renanthera",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
-    caracteristicas: [
-        "Crescimento monopodial",
-        "Flores vermelho-alaranjadas",
-        "Inflorescências ramificadas",
-        "Alta luminosidade"
-    ],
+    caracteristicas: ["Crescimento monopodial", "Flores vermelho-alaranjadas", "Inflorescências ramificadas", "Alta luminosidade"],
     fotos: [],
-    descricao: "Espécie monopodial asiática de grande porte, capaz de formar caules longos e inflorescências amplas, ramificadas e muito vistosas. As flores apresentam tons vermelho-alaranjados, geralmente marcados por pintas ou áreas amareladas, e surgem em plantas adultas bem iluminadas, vigorosas e com raízes ativas.",
-    origem: "Sul da China e Indochina",
-    regiao: "Sudeste de Yunnan, sudoeste de Guangxi, Laos, Vietnã, Camboja e regiões próximas",
-    habitat: "Epífita de florestas tropicais úmidas, encontrada em áreas abertas ou nas copas, onde recebe muita claridade, calor, circulação de ar e chuvas sazonais.",
-    clima: "Quente, úmido e muito ventilado",
-    climaFloracao: "Em Serra/ES, o calor favorece seu crescimento durante quase todo o ano. Para induzir floração, a planta precisa amadurecer caules fortes sob luminosidade elevada, receber boa adubação durante a fase vegetativa e ter raízes que sequem rapidamente após as regas. Uma discreta diferença entre as temperaturas do dia e da noite também ajuda.",
+    descricao: "Espécie monopodial asiática de grande porte, capaz de formar caules longos e inflorescências amplas, ramificadas e intensamente coloridas. Floresce melhor quando adulta, vigorosa, bem iluminada e com raízes numerosas e ativas.",
+    origem: "Sul da China e Indochina.",
+    regiao: "Sul da China, Laos, Vietnã, Camboja e áreas próximas.",
+    habitat: "Epífita de florestas tropicais, frequentemente nas copas ou em áreas abertas, onde recebe muita claridade, calor, chuvas sazonais e circulação constante de ar.",
+    clima: "Quente, úmido e muito ventilado.",
+    climaFloracao: "A indução floral depende principalmente de caules maduros, alta luminosidade e bom desenvolvimento radicular. Uma diferença moderada entre as temperaturas do dia e da noite pode favorecer a formação das hastes.",
     iluminacao: {
         sombrite: "30% a 50%",
-        solDireto: "Sim",
-        horario: "Até 09:00, com adaptação gradual",
-        observacoes: "Exige luz muito intensa, próxima à utilizada para Vandas. Folhas verde-escuras e crescimento alongado costumam indicar falta de claridade. Proteja apenas do sol forte do meio-dia."
+        solDireto: "Sim, com adaptação gradual",
+        horario: "Sol da manhã até aproximadamente 09:00",
+        observacoes: "Exige claridade próxima à utilizada para Vandas. Folhas muito escuras e internódios alongados indicam falta de luz; queimaduras secas indicam adaptação insuficiente ao sol."
     },
-    floracao: "Principalmente da primavera ao verão, podendo avançar pelo início do outono em clima quente.",
-    adubacao: "Na fase de crescimento, aplique adubo foliar equilibrado em baixa concentração uma vez por semana. A cada três ou quatro aplicações, lave bem as raízes apenas com água. Bokashi pode ser usado em saquinho, em quantidade pequena e distante do caule. Osmocote de liberação controlada também funciona em cestos, desde que a dose seja moderada.",
-    rega: "Regue abundantemente pela manhã durante o calor, molhando todas as raízes. Em plantas com raízes expostas, podem ser necessárias regas diárias no verão. Reduza em períodos frios ou chuvosos, sempre permitindo secagem rápida e evitando água acumulada no ápice das folhas.",
-    suporte: "Cesto grande e muito vazado, vaso pesado com excelente drenagem ou estrutura vertical firme",
-    substrato: "Carvão vegetal grosso, casca de pinus grossa, brita ou pedra-pomes de granulometria grande. Plantas adultas também podem ser cultivadas com as raízes quase livres.",
-    dica: "Em Serra/ES, o erro mais comum é cultivá-la sombreada demais. Ofereça o ponto mais claro e ventilado do orquidário, aumente o sol da manhã aos poucos e reserve bastante espaço vertical para a planta e suas hastes.",
-    mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 4,
-        perfume: 1,
-        luminosidade: 5,
-        agua: 4,
-        raridade: 3
-    }
+    floracao: "Mais frequente da primavera ao verão, podendo alcançar o início do outono em clima quente.",
+    adubacao: "🌿 Orgânica: bokashi em saquinho e distante do caule.\n💧 Foliar: adubo equilibrado em baixa concentração, semanalmente durante o crescimento.\n🧪 Liberação lenta: Osmocote em dose moderada em cestos ou vasos muito drenados.",
+    rega: "Regue abundantemente pela manhã durante períodos quentes. Plantas com raízes expostas podem exigir rega diária no verão; reduza em períodos frios ou chuvosos, sempre permitindo secagem rápida.",
+    suporte: "🥇 Cesto grande e muito vazado.\n🥈 Vaso pesado com drenagem ampla e tutor alto.\n🥉 Estrutura vertical com raízes quase livres.",
+    substrato: "🥇 Carvão grosso + casca de pinus grossa.\n🥈 Brita ou pedra-pomes de granulometria grande.\n🥉 Raízes praticamente livres em cesto, com poucos pedaços de carvão.",
+    errosComuns: "Cultivar em sombra; usar vaso pequeno; manter raízes abafadas; deixar água acumulada no ápice; aplicar adubo forte em raízes secas; não oferecer tutor; cortar raízes aéreas saudáveis.",
+    dica: "No litoral quente, ofereça o ponto mais claro e ventilado do orquidário. O calor ajuda, mas a planta somente floresce bem quando recebe luz intensa e espaço para crescer verticalmente.",
+    adaptacaoRegional: {
+        litoralQuente: "Excelente adaptação. Exige sol da manhã, ventilação constante, regas frequentes no verão e espaço amplo.",
+        montanhaFrio: "Proteja do frio abaixo de 15 °C e reduza as regas em períodos frios prolongados."
+    },
+    mesesFloracao: [9,10,11,12,1,2,3],
+    avaliacoes: { cultivo: 3, floracao: 4, perfume: 1, luminosidade: 5, agua: 4, raridade: 3 }
 };
