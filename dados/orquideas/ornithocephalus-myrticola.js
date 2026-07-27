@@ -7,7 +7,12 @@ export const ornithocephalusMyrticola = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada a difícil",
     caracteristicas: ["Miniatura epífita", "Folhas em leque", "Flores minúsculas", "Exige umidade com ventilação"],
-    fotos: [],
+    fotos: [
+        "imagens/Ornithocephalus myrticola/Ornithocephalus myrticola1.webp",
+        "imagens/Ornithocephalus myrticola/Ornithocephalus myrticola2.webp",
+        "imagens/Ornithocephalus myrticola/Ornithocephalus myrticola3.jpg",
+        "imagens/Ornithocephalus myrticola/Ornithocephalus myrticola4.jpg"
+    ],
     descricao: "Miniatura epífita de folhas achatadas dispostas em leque, com inflorescências delicadas e numerosas flores muito pequenas. Possui raízes finas, sensíveis ao ressecamento prolongado e ao abafamento.",
     origem: "América tropical.",
     regiao: "América Central e norte da América do Sul, conforme a circunscrição taxonômica.",

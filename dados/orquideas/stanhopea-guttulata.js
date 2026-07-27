@@ -7,7 +7,12 @@ export const stanhopeaGuttulata = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Flores grandes e pendentes", "Perfume intenso", "Pétalas manchadas", "Cesta obrigatória"],
-    fotos: [],
+    fotos: [
+        "imagens/Stanhopea guttulata/Stanhopea guttulata1.jpg",
+        "imagens/Stanhopea guttulata/Stanhopea guttulata3.jpg",
+        "imagens/Stanhopea guttulata/Stanhopea guttulata3.webp",
+        "imagens/Stanhopea guttulata/Stanhopea guttulata4.jpg"
+    ],
     descricao: "Stanhopea de flores grandes, cerosas, muito perfumadas e marcadas por pintas ou manchas contrastantes. As inflorescências são geotrópicas e atravessam o substrato para florescer pela parte inferior do recipiente.",
     origem: "México e América Central.",
     regiao: "Florestas montanhosas úmidas da Mesoamérica.",

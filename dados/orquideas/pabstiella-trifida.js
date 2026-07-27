@@ -7,7 +7,12 @@ export const pabstiellaTrifida = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada a difícil no calor",
     caracteristicas: ["Miniatura brasileira", "Pleurothallidinae", "Flores delicadas", "Raízes finas e sensíveis"],
-    fotos: [],
+    fotos: [
+        "imagens/Pabstiella trifida/Pabstiella trifida1.jpg",
+        "imagens/Pabstiella trifida/Pabstiella trifida2.jpg",
+        "imagens/Pabstiella trifida/Pabstiella trifida3.jpg",
+        "imagens/Pabstiella trifida/Pabstiella trifida4.jpg"
+    ],
     descricao: "Miniatura epífita brasileira do grupo Pleurothallidinae, com crescimento compacto e flores pequenas de aparência delicada. É uma espécie mais indicada a ambientes úmidos, sombreados e muito ventilados, exigindo atenção especial em regiões litorâneas quentes.",
     origem: "Leste e Sul do Brasil.",
     regiao: "Mata Atlântica das regiões Sudeste e Sul.",

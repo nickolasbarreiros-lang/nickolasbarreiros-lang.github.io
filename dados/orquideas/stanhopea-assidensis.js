@@ -8,7 +8,12 @@ export const stanhopeaAssidensis = {
     tipo: "Híbrido primário artificial — Stanhopea tigrina × Stanhopea wardii",
     dificuldade: "Moderada",
     caracteristicas: ["Flores grandes e carnosas", "Perfume intenso", "Inflorescência pendente", "Cesto obrigatório"],
-    fotos: [],
+    fotos: [
+        "imagens/Stanhopea Assidensis/Stanhopea Assidensis1.jpg",
+        "imagens/Stanhopea Assidensis/Stanhopea Assidensis2.jpg",
+        "imagens/Stanhopea Assidensis/Stanhopea Assidensis3.jpg",
+        "imagens/Stanhopea Assidensis/Stanhopea Assidensis4.jpg"
+    ],
     descricao: "Híbrido primário registrado por H. Goldschmidt em 1922, resultante do cruzamento entre Stanhopea tigrina e Stanhopea wardii. Produz flores grandes, espessas e muito perfumadas, em tons de creme a amarelo-claro, com pintas e manchas que podem variar do marrom ao vinho. A fragrância é doce e intensa, frequentemente lembrando baunilha com especiarias. Como em todo o gênero, as hastes florais crescem para baixo e precisam atravessar o substrato para florescer.",
     origem: "Híbrido de cultivo registrado em 1922; seus parentais são espécies da América Central.",
     regiao: "Não possui distribuição natural própria por ser um híbrido artificial.",

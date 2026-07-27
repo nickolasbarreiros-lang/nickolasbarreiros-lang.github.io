@@ -7,6 +7,12 @@ export const colmanaraWildcat = {
     tipo: "Híbrido intergenérico — antigo Colmanara Wildcat",
     dificuldade: "Fácil a moderada",
     caracteristicas: ["Hastes ramificadas", "Flores pintalgadas", "Longa duração", "Híbrido Oncidiinae"],
+    fotos: [
+        "imagens/Oncostele Wildcat/Oncostele Wildcat1.jpg",
+        "imagens/Oncostele Wildcat/Oncostele Wildcat2.webp",
+        "imagens/Oncostele Wildcat/Oncostele Wildcat3.jpg",
+        "imagens/Oncostele Wildcat/Oncostele Wildcat4.jpg"
+    ],
     descricao: "Híbrido muito popular do grupo Oncidiinae, tradicionalmente vendido como Colmanara Wildcat e atualmente tratado horticulturalmente como Oncostele Wildcat. Produz hastes ramificadas com numerosas flores vermelhas, marrons e amarelas.",
     origem: "Híbrido hortícola.",
     regiao: "Criado em cultivo; não possui distribuição natural.",

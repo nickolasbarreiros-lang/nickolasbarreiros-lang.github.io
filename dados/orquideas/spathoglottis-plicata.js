@@ -7,7 +7,12 @@ export const spathoglottisPlicata = {
     tipo: "Espécie botânica terrestre",
     dificuldade: "Fácil",
     caracteristicas: ["Terrestre", "Flores roxas ou rosadas", "Tropical", "Floração prolongada"],
-    fotos: [],
+    fotos: [
+        "imagens/Spathoglottis plicata/Spathoglottis plicata1.webp",
+        "imagens/Spathoglottis plicata/Spathoglottis plicata2.jpg",
+        "imagens/Spathoglottis plicata/Spathoglottis plicata3.jpg",
+        "imagens/Spathoglottis plicata/Spathoglottis plicata4.webp"
+    ],
     descricao: "Orquídea terrestre tropical vigorosa, com folhas longas e fortemente plissadas e hastes eretas que abrem flores sucessivamente. As formas mais comuns são rosadas ou roxas, mas existem variações claras e brancas.",
     origem: "Ásia tropical e subtropical até ilhas do Pacífico.",
     regiao: "Sudeste Asiático, Malesia, Nova Guiné, norte da Austrália e arquipélagos do Pacífico.",

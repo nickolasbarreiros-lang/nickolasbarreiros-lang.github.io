@@ -12,7 +12,12 @@ export const rodrigueziaLanceolata = {
         "Hastes arqueadas e abundantes",
         "Crescimento vigoroso"
     ],
-    fotos: [],
+    fotos: [
+        "imagens/Rodriguezia lanceolata/Rodriguezia lanceolata1.jpg",
+        "imagens/Rodriguezia lanceolata/Rodriguezia lanceolata2.webp",
+        "imagens/Rodriguezia lanceolata/Rodriguezia lanceolata3.jpg",
+        "imagens/Rodriguezia lanceolata/Rodriguezia lanceolata4.jpg"
+    ],
     descricao: "Espécie epífita de pequeno a médio porte que forma touceiras vigorosas e produz hastes arqueadas ou pendentes com numerosas flores rosadas, vermelhas ou púrpuras, geralmente com detalhes amarelados. Cresce rapidamente em condições quentes e úmidas e pode florescer mais de uma vez quando os pseudobulbos amadurecem bem.",
     origem: "América tropical",
     regiao: "Do Panamá e São Vicente até grande parte da América do Sul tropical, incluindo o Brasil",

@@ -7,7 +7,12 @@ export const rodrigueziaVenusta = {
     tipo: "Espécie botânica",
     dificuldade: "Fácil a moderada",
     caracteristicas: ["Espécie sul-americana", "Flores claras e perfumadas", "Inflorescências pendentes", "Raízes finas"],
-    fotos: [],
+    fotos: [
+        "imagens/Rodriguezia bracteata/Rodriguezia bracteata1.webp",
+        "imagens/Rodriguezia bracteata/Rodriguezia bracteata2.webp",
+        "imagens/Rodriguezia bracteata/Rodriguezia bracteata3.webp",
+        "imagens/Rodriguezia bracteata/Rodriguezia bracteata4.jpg"
+    ],
     descricao: "Orquídea compacta tradicionalmente comercializada como Rodriguezia venusta e atualmente tratada como Rodriguezia bracteata. Forma touceiras elegantes e produz hastes arqueadas ou pendentes com numerosas flores claras, frequentemente marcadas de amarelo e com fragrância perceptível.",
     origem: "América do Sul tropical.",
     regiao: "Brasil e áreas tropicais adjacentes da América do Sul.",

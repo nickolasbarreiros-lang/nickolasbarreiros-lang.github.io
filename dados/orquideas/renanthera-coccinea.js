@@ -7,7 +7,12 @@ export const renantheraCoccinea = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Crescimento monopodial", "Flores vermelho-alaranjadas", "Inflorescências ramificadas", "Alta luminosidade"],
-    fotos: [],
+    fotos: [
+        "imagens/Renanthera coccinea/Renanthera coccinea1.jpg",
+        "imagens/Renanthera coccinea/Renanthera coccinea2.webp",
+        "imagens/Renanthera coccinea/Renanthera coccinea3.jpg",
+        "imagens/Renanthera coccinea/Renanthera coccinea4.webp"
+    ],
     descricao: "Espécie monopodial asiática de grande porte, capaz de formar caules longos e inflorescências amplas, ramificadas e intensamente coloridas. Floresce melhor quando adulta, vigorosa, bem iluminada e com raízes numerosas e ativas.",
     origem: "Sul da China e Indochina.",
     regiao: "Sul da China, Laos, Vietnã, Camboja e áreas próximas.",

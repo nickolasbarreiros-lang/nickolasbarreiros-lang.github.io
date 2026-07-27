@@ -7,7 +7,12 @@ export const phalaenopsisMannii = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Flores amarelo-esverdeadas manchadas", "Crescimento monopodial", "Hastes que podem reflorir", "Clima quente"],
-    fotos: [],
+    fotos: [
+        "imagens/Phalaenopsis mannii/Phalaenopsis mannii1.jpg",
+        "imagens/Phalaenopsis mannii/Phalaenopsis mannii2.jpg",
+        "imagens/Phalaenopsis mannii/Phalaenopsis mannii3.jpg",
+        "imagens/Phalaenopsis mannii/Phalaenopsis mannii4.jpg"
+    ],
     descricao: "Phalaenopsis botânica de porte médio, conhecida pelas flores amarelas a amarelo-esverdeadas marcadas por manchas castanhas. As hastes podem permanecer ativas por mais de uma estação, por isso não devem ser cortadas enquanto estiverem verdes e saudáveis.",
     origem: "Leste do Nepal ao sul de Yunnan, na China.",
     regiao: "Himalaia oriental e áreas continentais do Sudeste Asiático.",
