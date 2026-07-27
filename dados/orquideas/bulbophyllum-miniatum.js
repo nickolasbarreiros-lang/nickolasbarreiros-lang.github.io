@@ -5,7 +5,7 @@ export const bulbophyllumMiniatum = {
     id: "bulbophyllum-miniatum",
     nome: "Bulbophyllum saltatorium var. albociliatum",
     genero: "Bulbophyllum",
-    tipo: "Espécie botânica — sinônimo comercial: Bulbophyllum miniatum",
+    tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: [
         "Miniatura africana",
