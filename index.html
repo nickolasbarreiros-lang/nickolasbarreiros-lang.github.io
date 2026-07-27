@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Orquidário Digital: aprenda, cultive e descubra o fascinante mundo das orquídeas.">
   <title>Orquidário Digital</title>
-  <link rel="stylesheet" href="estilos.css?v=42">
+  <link rel="stylesheet" href="estilos.css?v=41">
 </head>
 <body class="pagina-home-v4">
   <header class="topo-v4">
@@ -28,35 +28,27 @@
   <main id="inicio">
     <section class="hero-v4">
       <div class="hero-v4-conteudo">
-        <div class="hero-v4-texto">
-          <span class="hero-v4-selo">CATÁLOGO BOTÂNICO DIGITAL</span>
-          <h1><span>Orquidário</span><strong>Digital</strong></h1>
-          <p>Conheça espécies, acompanhe florações e encontre orientações práticas de cultivo em um acervo organizado e sempre em evolução.</p>
+        <span class="hero-v4-selo">Coleção particular • Serra/ES</span>
+        <h1>Orquidário<br>Digital</h1>
+        <p>Aprenda, cultive e descubra o fascinante mundo das orquídeas.</p>
 
-          <div class="busca-hero-v4">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.6-3.6"></path></svg>
-            <input id="busca" type="search" placeholder="Pesquise por espécie, gênero ou sinônimo..." autocomplete="off">
-            <button id="botao-busca-hero" type="button">Pesquisar</button>
-          </div>
-
-          <div class="acoes-hero-v4">
-            <button class="botao-hero-v4 primario" type="button" data-destino="#catalogo-area">Explorar catálogo</button>
-            <button class="botao-hero-v4 secundario" type="button" data-destino="#floracoes">Ver florações</button>
-          </div>
-
-          <section class="painel-estatisticas estatisticas-v4" aria-label="Estatísticas do Orquidário Digital">
-            <article class="cartao-estatistica"><span>01</span><div><strong id="total-orquideas">0</strong><small>espécies cadastradas</small></div></article>
-            <article class="cartao-estatistica"><span>02</span><div><strong id="total-generos">0</strong><small>gêneros catalogados</small></div></article>
-            <article class="cartao-estatistica"><span>03</span><div><strong id="total-origens">0</strong><small>orquídeas brasileiras</small></div></article>
-            <article class="cartao-estatistica"><span>04</span><div><strong id="total-raras">0</strong><small>orquídeas estrangeiras</small></div></article>
-          </section>
+        <div class="busca-hero-v4">
+          <span aria-hidden="true">⌕</span>
+          <input id="busca" type="search" placeholder="Pesquisar nome, gênero, apelido, sinônimo ou palavra-chave..." autocomplete="off">
+          <button id="botao-busca-hero" type="button">Buscar</button>
         </div>
-        <div class="hero-v4-imagem" aria-label="Orquídea em destaque">
-          <div class="hero-v4-imagem-moldura">
-            <img src="imagens/Blc. Chia Lin/Blc. Chia Lin2.webp" alt="Flor de Blc. Chia Lin em destaque">
-            <div class="hero-v4-legenda"><span>DESTAQUE DA COLEÇÃO</span><strong>Blc. Chia Lin</strong></div>
-          </div>
+
+        <div class="acoes-hero-v4">
+          <button class="botao-hero-v4 primario" type="button" data-destino="#catalogo-area">Explorar catálogo</button>
+          <button class="botao-hero-v4 secundario" type="button" data-destino="#floracoes">Floração do mês</button>
         </div>
+
+        <section class="painel-estatisticas estatisticas-v4" aria-label="Estatísticas do Orquidário Digital">
+          <article class="cartao-estatistica"><span>🍃</span><div><strong id="total-orquideas">0</strong><small>Espécies<br>cadastradas</small></div></article>
+          <article class="cartao-estatistica"><span>🌿</span><div><strong id="total-generos">0</strong><small>Gêneros<br>diferentes</small></div></article>
+          <article class="cartao-estatistica"><span>🇧🇷</span><div><strong id="total-origens">0</strong><small>Orquídeas<br>brasileiras</small></div></article>
+          <article class="cartao-estatistica"><span>🌐</span><div><strong id="total-raras">0</strong><small>Orquídeas<br>estrangeiras</small></div></article>
+        </section>
       </div>
     </section>
 
@@ -64,12 +56,12 @@
       <section class="explorar-v4" aria-labelledby="titulo-explorar">
         <div class="titulo-secao-v4"><h2 id="titulo-explorar">Explore o Orquidário</h2><span></span></div>
         <div class="atalhos-v4">
-          <button class="atalho-v4" data-destino="#catalogo-area"><b><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5z"></path><path d="M4 5.5v16M8 7h8M8 11h8"></path></svg></b><span><strong>Catálogo</strong><small>Conheça todas as espécies</small></span><i>→</i></button>
-          <button class="atalho-v4" data-destino="#generos-v4"><b><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.5"></circle><path d="M12 3c2.2 0 4 2 4 4.2S14.2 11 12 11 8 9.3 8 7.2 9.8 3 12 3ZM21 12c0 2.2-2 4-4.2 4S13 14.2 13 12s1.7-4 3.8-4S21 9.8 21 12ZM12 21c-2.2 0-4-2-4-4.2S9.8 13 12 13s4 1.7 4 3.8S14.2 21 12 21ZM3 12c0-2.2 2-4 4.2-4S11 9.8 11 12s-1.7 4-3.8 4S3 14.2 3 12Z"></path></svg></b><span><strong>Gêneros</strong><small>Navegue pela classificação</small></span><i>→</i></button>
-          <button class="atalho-v4" data-destino="#floracoes"><b><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M8 3v4M16 3v4M3 10h18M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01"></path></svg></b><span><strong>Calendário</strong><small>Floração mês a mês</small></span><i>→</i></button>
-          <button class="atalho-v4 destaque" id="atalho-previstas" data-destino="#floracoes"><b><svg viewBox="0 0 24 24"><path d="M12 21c4-2.3 7-6 7-10a7 7 0 0 0-14 0c0 4 3 7.7 7 10Z"></path><path d="M8 11c1.8.2 3.2 1.1 4 2.8.8-1.7 2.2-2.6 4-2.8M12 14v4"></path></svg></b><span><strong>Florações do mês</strong><small>Veja as próximas espécies</small></span><i>→</i></button>
-          <button class="atalho-v4" data-filtro-caracteristica="brasileira"><b><svg viewBox="0 0 24 24"><path d="M4 12 12 5l8 7-8 7-8-7Z"></path><circle cx="12" cy="12" r="3"></circle></svg></b><span><strong>Brasileiras</strong><small>Espécies nativas do país</small></span><i>→</i></button>
-          <button class="atalho-v4" data-filtro-caracteristica="estrangeira"><b><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"></path></svg></b><span><strong>Estrangeiras</strong><small>Orquídeas de outros países</small></span><i>→</i></button>
+          <button class="atalho-v4" data-destino="#catalogo-area"><b>▤</b><strong>Catálogo</strong><small>Ver todas as espécies</small></button>
+          <button class="atalho-v4" data-destino="#generos-v4"><b>❀</b><strong>Gêneros</strong><small>Explore por gênero</small></button>
+          <button class="atalho-v4" data-destino="#floracoes"><b>▣</b><strong>Calendário</strong><small>Floração mês a mês</small></button>
+          <button class="atalho-v4 destaque" id="atalho-previstas" data-destino="#floracoes"><b>🌸</b><strong>Previstas para este mês</strong><small>Veja quem deve florescer</small></button>
+          <button class="atalho-v4" data-filtro-caracteristica="brasileira"><b>♧</b><strong>Brasileiras</strong><small>Espécies nativas do Brasil</small></button>
+          <button class="atalho-v4" data-filtro-caracteristica="estrangeira"><b>◉</b><strong>Estrangeiras</strong><small>Espécies de outros países</small></button>
         </div>
       </section>
 
@@ -125,7 +117,7 @@
   <footer id="sobre-v4" class="rodape rodape-v4">
     <div class="rodape-v4-conteudo">
       <div class="rodape-marca-v4"><span class="marca-v4-icone marca-v4-icone-rodape" aria-hidden="true"><i></i></span><div><strong>Orquidário Digital</strong><p>Aprenda, cultive e descubra o fascinante mundo das orquídeas.</p></div></div>
-      <div class="rodape-info-v4"><span>Coleção particular • litoral quente e úmido</span><span>Informações práticas de cultivo para clima quente e úmido.</span><small>© 2026 Orquidário Digital</small></div>
+      <div class="rodape-info-v4"><span>Coleção particular • Serra/ES</span><span>Informações de cultivo adaptadas ao clima da região.</span><small>© 2026 Orquidário Digital</small></div>
     </div>
   </footer>
   <script type="module" src="js/app.js"></script>
