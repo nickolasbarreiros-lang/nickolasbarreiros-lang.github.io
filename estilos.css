@@ -4069,16 +4069,43 @@ main.container{
 }
 
 .erros-comuns-v2 ul {
-    display: grid;
-    gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
     margin: 0;
-    padding-left: 22px;
+    padding: 0;
+    list-style: none;
 }
 
 .erros-comuns-v2 li {
-    color: #4b302f;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    max-width: 100%;
+    padding: 8px 13px;
+    color: #633b39;
+    background: #fff1f0;
+    border: 1px solid #efc4c1;
+    border-radius: 999px;
+    font-size: 13.5px;
+    line-height: 1.35;
+    box-shadow: 0 2px 7px rgba(151, 63, 57, 0.06);
+}
+
+.erros-comuns-v2 li::before {
+    content: "×";
+    display: inline-grid;
+    place-items: center;
+    flex: 0 0 auto;
+    width: 18px;
+    height: 18px;
+    color: #ffffff;
+    background: #d95c58;
+    border-radius: 50%;
     font-size: 14px;
-    line-height: 1.55;
+    font-weight: 800;
+    line-height: 1;
 }
 
 .grade-adaptacao-v2 {
@@ -4111,6 +4138,21 @@ main.container{
     .identificacao-cientifica-v2,
     .grade-adaptacao-v2 {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 560px) {
+    .erros-comuns-v2 {
+        padding: 18px;
+    }
+
+    .erros-comuns-v2 ul {
+        gap: 8px;
+    }
+
+    .erros-comuns-v2 li {
+        width: 100%;
+        border-radius: 12px;
     }
 }
 
