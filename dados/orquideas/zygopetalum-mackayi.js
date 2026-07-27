@@ -1,15 +1,15 @@
 // Ficha atualizada no LOTE 14 — PADRÃO EDITORIAL V3.
-// Nome aceito em POWO: Zygopetalum maculatum subsp. maculatum.
+// Nomenclatura adotada no catálogo por preferência editorial: Zygopetalum mackayi.
 
 export const zygopetalumMackayi = {
     id: "zygopetalum-mackayi",
-    nome: "Zygopetalum maculatum subsp. maculatum",
+    nome: "Zygopetalum mackayi",
     genero: "Zygopetalum",
-    tipo: "Espécie botânica — sinônimo: Zygopetalum mackayi",
+    tipo: "Espécie botânica — sinônimo atual: Zygopetalum maculatum subsp. maculatum",
     dificuldade: "Moderada",
     caracteristicas: ["Brasileira", "Perfumada", "Flores verdes e roxas", "Clima ameno"],
     fotos: [],
-    descricao: "Orquídea terrestre ou rupícola brasileira tradicionalmente comercializada como Zygopetalum mackayi e atualmente incluída em Zygopetalum maculatum subsp. maculatum. Produz flores cerosas verde-amareladas manchadas de castanho, com labelo branco a lilás fortemente riscado de violeta e perfume marcante.",
+    descricao: "Orquídea terrestre ou rupícola brasileira conhecida como Zygopetalum mackayi. Em classificações botânicas atuais, também pode aparecer como Zygopetalum maculatum subsp. maculatum. Produz flores cerosas verde-amareladas manchadas de castanho, com labelo branco a lilás fortemente riscado de violeta e perfume marcante.",
     origem: "Brasil.",
     regiao: "Sul e Sudeste do Brasil, especialmente áreas serranas e úmidas.",
     habitat: "Terrestre ou rupícola em campos de altitude, bordas de mata e áreas úmidas com solo rico em matéria orgânica, boa drenagem e noites frescas.",
