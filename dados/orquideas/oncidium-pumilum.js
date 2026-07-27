@@ -17,16 +17,10 @@ export const oncidiumPumilum = {
     climaFloracao: "A floração depende principalmente de touceira madura, luz filtrada intensa e pseudobulbos bem formados. Uma leve redução das regas após a maturação, sem desidratação severa, ajuda a diferenciar as hastes.",
     iluminacao: { sombrite: "40% a 50%", solDireto: "Somente muito fraco", horario: "Até 08:30", observacoes: "Use luz filtrada clara. Folhas verde-médio e crescimento compacto indicam intensidade adequada; sombra excessiva reduz muito a floração." },
     floracao: "Principalmente primavera e verão, podendo variar conforme o amadurecimento dos pseudobulbos.",
-    adubacao: "🌿 Orgânica: bokashi em pequena quantidade durante a brotação.
-💧 Foliar: NPK equilibrado, como 20-20-20, em meia dose a cada 10 a 15 dias no crescimento.
-🧪 Liberação lenta: Osmocote em dose mínima, apenas para plantas envasadas.",
+    adubacao: "🌿 Orgânica: bokashi em pequena quantidade durante a brotação.\n💧 Foliar: NPK equilibrado, como 20-20-20, em meia dose a cada 10 a 15 dias no crescimento.\n🧪 Liberação lenta: Osmocote em dose mínima, apenas para plantas envasadas.",
     rega: "Regue com frequência durante o crescimento, permitindo secagem rápida das raízes. Plantas montadas podem exigir regas diárias no verão; reduza moderadamente após a maturação dos pseudobulbos.",
-    suporte: "🥇 Placa de madeira, cortiça ou tronquinho.
-🥈 Cachepô pequeno e muito vazado.
-🥉 Vaso de barro pequeno, com substrato extremamente aerado.",
-    substrato: "🥇 Pequena manta de esfagno sobre placa.
-🥈 Casca fina + pedra-pomes + carvão.
-🥉 Fibra de coco tratada + carvão, sem compactação.",
+    suporte: "🥇 Placa de madeira, cortiça ou tronquinho.\n🥈 Cachepô pequeno e muito vazado.\n🥉 Vaso de barro pequeno, com substrato extremamente aerado.",
+    substrato: "🥇 Pequena manta de esfagno sobre placa.\n🥈 Casca fina + pedra-pomes + carvão.\n🥉 Fibra de coco tratada + carvão, sem compactação.",
     errosComuns: "Cultivar em sombra; usar vaso grande; manter o substrato constantemente molhado; dividir touceiras pequenas; enterrar o rizoma; aplicar adubo concentrado nas raízes finas.",
     dica: "Mantenha a planta em touceira e evite divisões frequentes. Em Serra/ES, ofereça luz alta, ventilação permanente e secagem rápida depois das regas matinais.",
     adaptacaoRegional: { litoralQuente: "Adapta-se bem em Serra/ES quando montada ou em recipiente muito vazado. Proteja apenas do sol forte e do abafamento noturno.", montanhaFrio: "Desenvolve-se muito bem com noites frescas, desde que protegida de frio intenso e de longos períodos encharcados." },
