@@ -75,7 +75,7 @@ import { cattleyaLoddigesii } from "./cattleya-loddigesii.js";
 import { laeliaCinnabarina } from "./laelia-cinnabarina.js";
 import { laeliaLundii } from "./laelia-lundii.js";
 import { catasetumMattosianum } from "./catasetum-mattosianum.js";
-import { schomburgkia } from "./schomburgkia.js";
+import { laeliaGloriosa } from "./laelia-gloriosa.js";
 import { encycliaBracteata } from "./encyclia-bracteata.js";
 import { stanhopeaAssidensis } from "./stanhopea-assidensis.js";
 import { dichaeaPendula } from "./dichaea-pendula.js";
@@ -189,7 +189,7 @@ export const orquideas = [
     laeliaCinnabarina,
     laeliaLundii,
     catasetumMattosianum,
-    schomburgkia,
+    laeliaGloriosa,
     encycliaBracteata,
     stanhopeaAssidensis,
     dichaeaPendula,
