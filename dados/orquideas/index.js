@@ -1,6 +1,10 @@
 // Índice central gerado automaticamente a partir de Orquideas_ALBUM.docx.
 // Para incluir uma nova planta: crie o arquivo individual e adicione o import e o nome no array abaixo.
 
+import { laeliaPraestans } from "./laelia-praestans.js";
+import { stanhopeaHernandezii } from "./stanhopea-hernandezii.js";
+import { phaiusTankervilleaeAlba } from "./phaius-tankervilleae-alba.js";
+import { encycliaOncidioides } from "./encyclia-oncidioides.js";
 import { sophronitisWittigiana } from "./sophronitis-wittigiana.js";
 import { dendrobiumPolysema } from "./dendrobium-polysema.js";
 import { bifrenariaVerboonenii } from "./bifrenaria-verboonenii.js";
@@ -115,6 +119,10 @@ import { bulbophyllumSyciobulbon } from "./bulbophyllum-syciobulbon.js";
 import { laeliaCaulencens } from "./laelia-caulencens.js";
 
 export const orquideas = [
+    laeliaPraestans,
+    stanhopeaHernandezii,
+    phaiusTankervilleaeAlba,
+    encycliaOncidioides,
     dendrobiumPolysema,
     bifrenariaVerboonenii,
     bifrenariaAureofulva,

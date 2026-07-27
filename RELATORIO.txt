@@ -1,19 +1,31 @@
-ATUALIZAÇÃO DE FOTOS — LOTE 07
+LOTE — 4 NOVAS FICHAS DE ORQUÍDEAS
 
-Espécies atualizadas:
-- Zygolum Louisendorf: 4 fotos
-- Zygopetalum maculatum: 4 fotos
-- Trichocentrum fuscum: 4 fotos
-- Trichocentrum pumilum: 4 fotos
+Arquivos criados:
+- dados/orquideas/laelia-praestans.js
+- dados/orquideas/stanhopea-hernandezii.js
+- dados/orquideas/phaius-tankervilleae-alba.js
+- dados/orquideas/encyclia-oncidioides.js
 
-Arquivos de ficha modificados:
-- dados/orquideas/zygolum-louisendorf.js
-- dados/orquideas/zygopetalum-maculatum.js
-- dados/orquideas/trichocentrum-fuscum.js
-- dados/orquideas/oncidium-pumilum.js
+Arquivo atualizado:
+- dados/orquideas/index.js
 
-Observação:
-A ficha de Trichocentrum pumilum permanece no arquivo oncidium-pumilum.js para preservar o ID e os vínculos internos existentes no projeto.
+Observações taxonômicas:
+1. Laelia praestans foi cadastrada pelo nome aceito Cattleya praestans, mantendo Laelia praestans como sinônimo visível.
+2. Phaius tankervilleae é tratado atualmente por algumas bases como Calanthe tankervilleae; o nome Phaius tankervilleae f. alba foi mantido por ser o nome horticultural informado para a planta.
+3. Encyclia oncidioides apresenta amplitude morfológica e diferenças de circunscrição entre tratamentos taxonômicos. A ficha usa o conceito aceito pela Flora e Funga do Brasil.
+4. Stanhopea hernandezii foi tratada como espécie mexicana; nomes históricos como S. devoniensis foram considerados sinônimos.
 
-Instalação:
-Copie o conteúdo deste ZIP para a raiz do site e confirme a substituição dos arquivos.
+Imagens:
+- As fichas foram criadas com o campo fotos vazio, para não inserir fotografias sem confirmação de identificação e licença.
+- As fotos podem ser adicionadas em um lote separado quando forem enviadas ou selecionadas fontes autorizadas.
+
+Principais referências consultadas:
+- Plants of the World Online — Royal Botanic Gardens, Kew
+- Flora e Funga do Brasil — Jardim Botânico do Rio de Janeiro
+- American Orchid Society — orientações culturais dos gêneros
+- Internet Orchid Species Photo Encyclopedia — dados de habitat, altitude e floração
+- Wikimedia Commons — verificação de material visual disponível e nomenclatura histórica
+
+Validação técnica:
+- Os cinco arquivos JavaScript foram verificados com node --check.
+- Nenhum erro de sintaxe foi encontrado.
