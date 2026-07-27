@@ -408,6 +408,120 @@ export function criarStatusFloracao(
     `;
 }
 
+
+/* =========================================================
+   RESUMOS VISUAIS E SELOS DO CARTÃO V4
+========================================================= */
+
+function primeiraFrase(texto, limite = 145) {
+    const valor = String(texto || "").replace(/\s+/g, " ").trim();
+    if (!valor) return "Informação ainda não cadastrada.";
+
+    const frase = valor.split(/(?<=[.!?])\s+/)[0] || valor;
+    if (frase.length <= limite) return frase;
+
+    const corte = frase.slice(0, limite + 1);
+    const ultimoEspaco = corte.lastIndexOf(" ");
+    return `${corte.slice(0, ultimoEspaco > 80 ? ultimoEspaco : limite).trim()}…`;
+}
+
+function resumirOrigem(orquidea) {
+    const origem = String(orquidea?.origem || "").trim();
+    if (!origem) return "Origem não informada";
+
+    const texto = origem.toLowerCase();
+    const regioes = [
+        ["brasil", "Brasil"],
+        ["mata atlântica", "Mata Atlântica"],
+        ["américa central", "América Central"],
+        ["américa do sul", "América do Sul"],
+        ["áfrica tropical", "África tropical"],
+        ["áfrica ocidental", "África Ocidental"],
+        ["áfrica", "África"],
+        ["méxico", "México"],
+        ["himal", "Himalaia"],
+        ["nova guiné", "Nova Guiné"],
+        ["ásia", "Ásia tropical"],
+        ["híbrido", "Híbrido de cultivo"]
+    ];
+
+    const encontrados = regioes
+        .filter(([termo]) => texto.includes(termo))
+        .map(([, rotulo]) => rotulo);
+
+    if (encontrados.length) return encontrados[0];
+    return primeiraFrase(origem, 58).replace(/[.;:]$/, "");
+}
+
+function detectarPorte(orquidea) {
+    const base = [
+        ...(Array.isArray(orquidea?.caracteristicas) ? orquidea.caracteristicas : []),
+        orquidea?.descricao,
+        orquidea?.habitat
+    ].join(" ").toLowerCase();
+
+    if (/micro|miniatura|minúscul|muito pequena/.test(base)) return "Miniatura";
+    if (/grande porte|porte grande|robusta|gigante/.test(base)) return "Grande porte";
+    return "Porte médio";
+}
+
+function detectarHabito(orquidea) {
+    const base = [orquidea?.descricao, orquidea?.habitat, ...(orquidea?.caracteristicas || [])]
+        .join(" ").toLowerCase();
+    if (base.includes("terrestre")) return "Terrestre";
+    if (base.includes("litófita") || base.includes("rupícola")) return "Rupícola";
+    return "Epífita";
+}
+
+function criarSelosEspecie(orquidea, limite = 3) {
+    const selos = [
+        { icone: "🌿", texto: detectarHabito(orquidea) },
+        { icone: "📏", texto: detectarPorte(orquidea) },
+        { icone: "🌺", texto: Number(orquidea?.avaliacoes?.perfume) >= 4 ? "Perfumada" : null },
+        { icone: "💎", texto: Number(orquidea?.avaliacoes?.raridade) >= 4 ? "Rara" : null }
+    ].filter((selo) => selo.texto).slice(0, limite);
+
+    return selos.map((selo) => `
+        <span class="selo-visual-cartao">
+            <span aria-hidden="true">${selo.icone}</span>
+            ${escaparHTML(selo.texto)}
+        </span>
+    `).join("");
+}
+
+function criarAvaliacaoCompacta(orquidea) {
+    const itens = [
+        ["🌱", "Cultivo", orquidea?.avaliacoes?.cultivo],
+        ["🌸", "Floração", orquidea?.avaliacoes?.floracao],
+        ["🌺", "Perfume", orquidea?.avaliacoes?.perfume],
+        ["☀️", "Luz", orquidea?.avaliacoes?.luminosidade],
+        ["💧", "Água", orquidea?.avaliacoes?.agua],
+        ["💎", "Raridade", orquidea?.avaliacoes?.raridade]
+    ];
+
+    return `
+        <section class="avaliacao-compacta-cartao" aria-label="Avaliação resumida da espécie">
+            <strong class="titulo-avaliacao-compacta">
+                <span aria-hidden="true">⭐</span>
+                Avaliação da espécie
+            </strong>
+            <div class="grade-avaliacao-compacta">
+                ${itens.map(([icone, rotulo, nota]) => `
+                    <div class="item-avaliacao-compacta" title="${escaparHTML(`${rotulo}: ${Number(nota) || 0} de 5`)}">
+                        <span class="rotulo-avaliacao-compacta">
+                            <span aria-hidden="true">${icone}</span>
+                            ${escaparHTML(rotulo)}
+                        </span>
+                        <span class="estrelas-avaliacao-compacta" aria-label="${Number(nota) || 0} de 5 estrelas">
+                            ${criarEstrelas(Number(nota) || 0)}
+                        </span>
+                    </div>
+                `).join("")}
+            </div>
+        </section>
+    `;
+}
+
 /* =========================================================
    ENDEREÇO DA FICHA
 ========================================================= */
@@ -431,166 +545,55 @@ export function criarCartaoOrquidea(
     orquidea,
     opcoes = {}
 ) {
-    if (!orquidea) {
-        return "";
-    }
+    if (!orquidea) return "";
 
-    const mesReferencia =
-        Number(opcoes.mesReferencia) ||
-        new Date().getMonth() + 1;
-
-    const nome =
-        orquidea.nome ||
-        "Orquídea sem identificação";
-
-    const genero =
-        orquidea.genero ||
-        "Gênero não informado";
-
-    const origem =
-        orquidea.origem ||
-        "Origem não informada";
-
-    const descricao =
-        orquidea.descricao ||
-        "Descrição ainda não cadastrada.";
-
-    const foto =
-        obterFotoPrincipal(orquidea);
-
-    const textoAlternativo =
-        obterTextoAlternativoFoto(orquidea);
-
-    const enderecoFicha =
-        criarEnderecoFicha(orquidea);
-
-    const etiquetas =
-        criarEtiquetasPrincipais(orquidea);
-
-    const caracteristicas =
-        criarCaracteristicasResumidas(orquidea);
-
-    const informacoesCultivo =
-        criarInformacoesCultivo(orquidea);
-
-    const raridade =
-        criarAvaliacaoRaridade(orquidea);
-
-    const statusFloracao =
-        criarStatusFloracao(
-            orquidea,
-            mesReferencia
-        );
+    const mesReferencia = Number(opcoes.mesReferencia) || new Date().getMonth() + 1;
+    const nome = orquidea.nome || "Orquídea sem identificação";
+    const genero = orquidea.genero || "Gênero não informado";
+    const origemResumida = resumirOrigem(orquidea);
+    const descricaoResumida = primeiraFrase(orquidea.descricao, 145);
+    const foto = obterFotoPrincipal(orquidea);
+    const textoAlternativo = obterTextoAlternativoFoto(orquidea);
+    const enderecoFicha = criarEnderecoFicha(orquidea);
+    const etiquetas = criarEtiquetasPrincipais(orquidea);
+    const statusFloracao = criarStatusFloracao(orquidea, mesReferencia);
+    const selos = criarSelosEspecie(orquidea);
+    const avaliacao = criarAvaliacaoCompacta(orquidea);
 
     return `
-        <article
-            class="cartao-orquidea"
-            data-orquidea-id="${escaparHTML(
-                orquidea.id || ""
-            )}"
-        >
-
-            <a
-                class="link-imagem-cartao"
-                href="${escaparHTML(enderecoFicha)}"
-                aria-label="${escaparHTML(
-                    `Abrir ficha de ${nome}`
-                )}"
-            >
-
+        <article class="cartao-orquidea cartao-orquidea-v4" data-orquidea-id="${escaparHTML(orquidea.id || "")}">
+            <a class="link-imagem-cartao" href="${escaparHTML(enderecoFicha)}" aria-label="${escaparHTML(`Abrir ficha de ${nome}`)}">
                 <div class="area-imagem-cartao">
-
-                    <img
-                        class="imagem-cartao"
-                        src="${escaparHTML(foto)}"
-                        alt="${escaparHTML(
-                            textoAlternativo
-                        )}"
-                        loading="lazy"
-                        decoding="async"
-                        onerror="
-                            this.onerror = null;
-                            this.src = '${IMAGEM_PADRAO}';
-                        "
-                    >
-
-                    <div class="status-sobre-imagem">
-
-                        ${statusFloracao}
-
-                    </div>
-
+                    <img class="imagem-cartao" src="${escaparHTML(foto)}" alt="${escaparHTML(textoAlternativo)}" loading="lazy" decoding="async"
+                        onerror="this.onerror = null; this.src = '${IMAGEM_PADRAO}';">
+                    <div class="selos-sobre-imagem-cartao">${selos}</div>
+                    <div class="status-sobre-imagem">${statusFloracao}</div>
                 </div>
-
             </a>
 
             <div class="conteudo-cartao">
-
                 <div class="topo-conteudo-cartao">
-
-                    <div class="etiquetas-cartao">
-
-                        ${etiquetas}
-
-                    </div>
-
-                    ${raridade}
-
+                    <div class="etiquetas-cartao">${etiquetas}</div>
                 </div>
 
                 <div class="identificacao-cartao">
-
-                    <span class="genero-cartao">
-                        ${escaparHTML(genero)}
-                    </span>
-
-                    <h3>
-                        <a href="${escaparHTML(
-                            enderecoFicha
-                        )}">
-                            <em>
-                                ${escaparHTML(nome)}
-                            </em>
-                        </a>
-                    </h3>
-
-                    <p class="origem-cartao">
-                        <span aria-hidden="true">
-                            🌎
-                        </span>
-
-                        ${escaparHTML(origem)}
+                    <span class="genero-cartao">${escaparHTML(genero)}</span>
+                    <h3><a href="${escaparHTML(enderecoFicha)}"><em>${escaparHTML(nome)}</em></a></h3>
+                    <p class="origem-cartao origem-cartao-v4">
+                        <span aria-hidden="true">🌍</span>
+                        ${escaparHTML(origemResumida)}
                     </p>
-
                 </div>
 
-                <p class="descricao-cartao">
-                    ${escaparHTML(descricao)}
-                </p>
-
-                ${caracteristicas}
-
-                ${informacoesCultivo}
+                <p class="descricao-cartao descricao-cartao-v4">${escaparHTML(descricaoResumida)}</p>
+                ${avaliacao}
 
                 <div class="rodape-cartao">
-
-                    <a
-                        class="botao-ficha-completa"
-                        href="${escaparHTML(
-                            enderecoFicha
-                        )}"
-                    >
-                        Ver ficha completa
-
-                        <span aria-hidden="true">
-                            →
-                        </span>
+                    <a class="botao-ficha-completa" href="${escaparHTML(enderecoFicha)}">
+                        Ver ficha completa <span aria-hidden="true">→</span>
                     </a>
-
                 </div>
-
             </div>
-
         </article>
     `;
 }
