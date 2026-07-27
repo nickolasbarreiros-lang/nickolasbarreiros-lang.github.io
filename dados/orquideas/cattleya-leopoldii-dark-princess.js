@@ -4,7 +4,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
     id: "cattleya-leopoldii-dark-princess",
     nome: "Cattleya tigrina 'Dark Princess'",
     genero: "Cattleya",
-    tipo: "Espécie botânica — cultivar; sinônimo histórico: C. leopoldii",
+    tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: [
         "Bifoliada alta",
