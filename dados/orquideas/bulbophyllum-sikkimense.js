@@ -5,7 +5,7 @@ export const bulbophyllumSikkimense = {
     id: "bulbophyllum-sikkimense",
     nome: "Bulbophyllum roxburghii",
     genero: "Bulbophyllum",
-    tipo: "Espécie botânica — sinônimo: Bulbophyllum sikkimense",
+    tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: [
         "Umbela multiflora",
