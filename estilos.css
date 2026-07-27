@@ -4712,3 +4712,121 @@ main.container{
         width: 100%;
     }
 }
+
+/* Cards estatísticos botânicos — versão quadrada */
+.estatisticas-v4.estatisticas-botanicas{
+  max-width:1040px;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:16px;
+  margin-top:22px;
+}
+.estatisticas-botanicas .cartao-botanico{
+  --desenho:none;
+  position:relative;
+  isolation:isolate;
+  aspect-ratio:1/1;
+  min-height:0;
+  padding:18px;
+  overflow:hidden;
+  display:block;
+  border:1px solid rgba(41,87,51,.62);
+  border-radius:18px;
+  background:
+    linear-gradient(90deg,rgba(251,247,233,.98) 0%,rgba(251,247,233,.94) 54%,rgba(251,247,233,.3) 100%),
+    var(--desenho) right center/60% 100% no-repeat,
+    #fbf7e9;
+  box-shadow:0 10px 24px rgba(32,67,39,.13),inset 0 0 0 1px rgba(255,255,255,.62);
+  transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease;
+}
+.estatisticas-botanicas .cartao-botanico::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  opacity:.3;
+  background-image:radial-gradient(rgba(67,77,52,.18) .55px,transparent .7px);
+  background-size:4px 4px;
+  pointer-events:none;
+}
+.estatisticas-botanicas .cartao-botanico:hover{
+  transform:translateY(-5px);
+  border-color:#b69b43;
+  box-shadow:0 18px 34px rgba(32,67,39,.19),0 0 0 2px rgba(182,155,67,.12);
+}
+.estatisticas-botanicas .botanico-especies{--desenho:url('imagens/interface/estatistica-botanica-1.jpg')}
+.estatisticas-botanicas .botanico-generos{--desenho:url('imagens/interface/estatistica-botanica-2.jpg')}
+.estatisticas-botanicas .botanico-brasileiras{--desenho:url('imagens/interface/estatistica-botanica-3.jpg')}
+.estatisticas-botanicas .botanico-estrangeiras{--desenho:url('imagens/interface/estatistica-botanica-4.jpg')}
+.estatisticas-botanicas .icone-botanico{
+  position:relative;
+  z-index:2;
+  display:grid;
+  place-items:center;
+  width:48px;
+  height:48px;
+  border-radius:50%;
+  border:2px solid #c4a54b;
+  background:#244f2e;
+  color:#ead99d;
+  box-shadow:0 4px 10px rgba(35,70,41,.18);
+  font:700 23px/1 Georgia,serif;
+}
+.estatisticas-botanicas .icone-botanico.texto{font-size:17px;letter-spacing:.05em}
+.estatisticas-botanicas .conteudo-botanico{
+  position:absolute;
+  z-index:2;
+  left:18px;
+  right:18px;
+  bottom:18px;
+  max-width:58%;
+}
+.estatisticas-botanicas .conteudo-botanico strong{
+  display:block;
+  font:700 clamp(40px,4vw,61px)/.9 Georgia,'Times New Roman',serif;
+  color:#1a572e;
+  letter-spacing:-.045em;
+  text-shadow:0 1px rgba(255,255,255,.7);
+}
+.estatisticas-botanicas .conteudo-botanico i{
+  display:block;
+  width:64px;
+  height:1px;
+  margin:13px 0 12px;
+  background:#b99c3e;
+  position:relative;
+}
+.estatisticas-botanicas .conteudo-botanico i::after{
+  content:"";
+  position:absolute;
+  left:27px;
+  top:-3px;
+  width:7px;
+  height:7px;
+  transform:rotate(45deg);
+  background:#b99c3e;
+}
+.estatisticas-botanicas .conteudo-botanico small{
+  display:block;
+  color:#314738;
+  font-size:14px;
+  line-height:1.18;
+}
+.estatisticas-botanicas .conteudo-botanico small b{
+  display:block;
+  margin-bottom:2px;
+  color:#214e2e;
+  font-size:17px;
+}
+@media(max-width:950px){
+  .estatisticas-v4.estatisticas-botanicas{grid-template-columns:repeat(2,minmax(0,1fr));max-width:620px}
+}
+@media(max-width:520px){
+  .estatisticas-v4.estatisticas-botanicas{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .estatisticas-botanicas .cartao-botanico{padding:12px;border-radius:14px}
+  .estatisticas-botanicas .icone-botanico{width:38px;height:38px;font-size:18px}
+  .estatisticas-botanicas .conteudo-botanico{left:12px;right:12px;bottom:12px;max-width:66%}
+  .estatisticas-botanicas .conteudo-botanico strong{font-size:36px}
+  .estatisticas-botanicas .conteudo-botanico i{margin:8px 0;width:45px}
+  .estatisticas-botanicas .conteudo-botanico small{font-size:11px}
+  .estatisticas-botanicas .conteudo-botanico small b{font-size:13px}
+}

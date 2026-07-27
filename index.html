@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Orquidário Digital: aprenda, cultive e descubra o fascinante mundo das orquídeas.">
   <title>Orquidário Digital</title>
-  <link rel="stylesheet" href="estilos.css?v=41">
+  <link rel="stylesheet" href="estilos.css?v=42">
 </head>
 <body class="pagina-home-v4">
   <header class="topo-v4">
@@ -43,11 +43,23 @@
           <button class="botao-hero-v4 secundario" type="button" data-destino="#floracoes">Floração do mês</button>
         </div>
 
-        <section class="painel-estatisticas estatisticas-v4" aria-label="Estatísticas do Orquidário Digital">
-          <article class="cartao-estatistica"><span>🍃</span><div><strong id="total-orquideas">0</strong><small>Espécies<br>cadastradas</small></div></article>
-          <article class="cartao-estatistica"><span>🌿</span><div><strong id="total-generos">0</strong><small>Gêneros<br>diferentes</small></div></article>
-          <article class="cartao-estatistica"><span>🇧🇷</span><div><strong id="total-origens">0</strong><small>Orquídeas<br>brasileiras</small></div></article>
-          <article class="cartao-estatistica"><span>🌐</span><div><strong id="total-raras">0</strong><small>Orquídeas<br>estrangeiras</small></div></article>
+        <section class="painel-estatisticas estatisticas-v4 estatisticas-botanicas" aria-label="Estatísticas do Orquidário Digital">
+          <article class="cartao-estatistica cartao-botanico botanico-especies">
+            <span class="icone-botanico" aria-hidden="true">✿</span>
+            <div class="conteudo-botanico"><strong id="total-orquideas">0</strong><i aria-hidden="true"></i><small><b>Espécies</b> cadastradas</small></div>
+          </article>
+          <article class="cartao-estatistica cartao-botanico botanico-generos">
+            <span class="icone-botanico" aria-hidden="true">⌁</span>
+            <div class="conteudo-botanico"><strong id="total-generos">0</strong><i aria-hidden="true"></i><small><b>Gêneros</b> diferentes</small></div>
+          </article>
+          <article class="cartao-estatistica cartao-botanico botanico-brasileiras">
+            <span class="icone-botanico texto" aria-hidden="true">BR</span>
+            <div class="conteudo-botanico"><strong id="total-origens">0</strong><i aria-hidden="true"></i><small><b>Orquídeas</b> brasileiras</small></div>
+          </article>
+          <article class="cartao-estatistica cartao-botanico botanico-estrangeiras">
+            <span class="icone-botanico" aria-hidden="true">◎</span>
+            <div class="conteudo-botanico"><strong id="total-raras">0</strong><i aria-hidden="true"></i><small><b>Orquídeas</b> estrangeiras</small></div>
+          </article>
         </section>
       </div>
     </section>
