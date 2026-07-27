@@ -1,11 +1,18 @@
-ATUALIZAÇÃO — FICHA RODRICIDIUM
+CORREÇÃO — FICHAS NOVAS AUSENTES
 
-Arquivos incluídos/modificados:
-- dados/orquideas/rodricidium.js
+Problema encontrado:
+Os arquivos de Laelia praestans, Phaius tankervilleae alba, Stanhopea hernandezii e Encyclia oncidioides já estavam na pasta dados/orquideas, porém não haviam sido importados nem incluídos no array do index.js. Por isso não apareciam no catálogo.
+
+Pleurothallis modestissima não estava presente na estrutura atual e foi adicionada.
+
+Arquivos modificados:
 - dados/orquideas/index.js
+- dados/orquideas/pleurothallis-modestissima.js
 
-Alterações realizadas:
-- Criada a ficha completa do nothogênero Rodricidium (Oncidium × Rodriguezia).
-- Cultivo elaborado a partir das características compartilhadas pelos dois gêneros parentais.
-- Rodricidium incluído no índice central do catálogo.
-- Campo de fotos mantido vazio, pois o projeto não continha imagens identificadas como Rodricidium.
+Após aplicar esta correção, devem aparecer:
+- Laelia praestans
+- Phaius tankervilleae alba
+- Stanhopea hernandezii
+- Encyclia oncidioides
+- Pleurothallis modestissima
+- Rodricidium (já existente)

@@ -114,6 +114,11 @@ import { bulbophyllumBuffo } from "./bulbophyllum-buffo.js";
 import { bulbophyllumSyciobulbon } from "./bulbophyllum-syciobulbon.js";
 import { laeliaCaulencens } from "./laelia-caulencens.js";
 import { rodricidium } from "./rodricidium.js";
+import { laeliaPraestans } from "./laelia-praestans.js";
+import { phaiusTankervilleaeAlba } from "./phaius-tankervilleae-alba.js";
+import { stanhopeaHernandezii } from "./stanhopea-hernandezii.js";
+import { encycliaOncidioides } from "./encyclia-oncidioides.js";
+import { pleurothallisModestissima } from "./pleurothallis-modestissima.js";
 
 export const orquideas = [
     dendrobiumPolysema,
@@ -228,7 +233,10 @@ export const orquideas = [
     bulbophyllumBuffo,
     bulbophyllumSyciobulbon,
     laeliaCaulencens,
-    rodricidium
+    rodricidium,
+    laeliaPraestans,
+    phaiusTankervilleaeAlba,
+    stanhopeaHernandezii,
+    encycliaOncidioides,
+    pleurothallisModestissima
 ];
-
-export { pleurothallisModestissima } from "./pleurothallis-modestissima.js";
