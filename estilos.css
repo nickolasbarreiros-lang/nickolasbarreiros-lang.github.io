@@ -4732,8 +4732,8 @@ main.container{
   border:1px solid rgba(41,87,51,.62);
   border-radius:18px;
   background:
-    linear-gradient(90deg,rgba(251,247,233,.98) 0%,rgba(251,247,233,.94) 54%,rgba(251,247,233,.3) 100%),
-    var(--desenho) right center/60% 100% no-repeat,
+    linear-gradient(90deg,rgba(251,247,233,.97) 0%,rgba(251,247,233,.76) 47%,rgba(251,247,233,.08) 100%),
+    var(--desenho) right center/64% 100% no-repeat,
     #fbf7e9;
   box-shadow:0 6px 16px rgba(32,67,39,.11),inset 0 0 0 1px rgba(255,255,255,.62);
   transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease;
