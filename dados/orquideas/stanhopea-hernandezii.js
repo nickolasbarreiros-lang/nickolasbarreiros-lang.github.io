@@ -7,7 +7,12 @@ export const stanhopeaHernandezii = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Endêmica do México", "Flores pendentes", "Perfume intenso", "Cesta obrigatória"],
-    fotos: [],
+    fotos: [
+        "imagens/Stanhopea hernandezii/Stanhopea hernandezii1.jpg",
+        "imagens/Stanhopea hernandezii/Stanhopea hernandezii2.jpg",
+        "imagens/Stanhopea hernandezii/Stanhopea hernandezii3.jpg",
+        "imagens/Stanhopea hernandezii/Stanhopea hernandezii4.jpg"
+    ],
     descricao: "Espécie mexicana de grande impacto ornamental, com flores cerosas, pendentes e intensamente perfumadas. As sépalas e pétalas são amareladas a creme, densamente marcadas por manchas castanho-avermelhadas, enquanto o labelo é branco a marfim e muito elaborado. As flores são grandes, porém geralmente duram poucos dias.",
     origem: "México",
     regiao: "Regiões central e sudoeste do México.",

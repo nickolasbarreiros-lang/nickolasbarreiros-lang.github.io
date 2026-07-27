@@ -8,7 +8,12 @@ export const rodricidium = {
     tipo: "Nothogênero híbrido — Oncidium × Rodriguezia",
     dificuldade: "Fácil a moderada",
     caracteristicas: ["Híbrido intergenérico", "Epífita", "Florífera", "Clima quente a intermediário"],
-    fotos: [],
+    fotos: [
+        "imagens/Rodricidium/Rodricidium1.jpg",
+        "imagens/Rodricidium/Rodricidium2.jpg",
+        "imagens/Rodricidium/Rodricidium3.webp",
+        "imagens/Rodricidium/Rodricidium4.avif"
+    ],
     descricao: "Rodricidium reúne híbridos intergenéricos de Oncidium e Rodriguezia. Em geral, forma plantas compactas a médias, de crescimento simpodial, com hastes arqueadas e numerosas flores pequenas a médias. Cores, porte, perfume e época de floração variam conforme os parentais do cruzamento.",
     origem: "O Rodricidium (Rdcm.) é um nothogênero híbrido formado pelo cruzamento entre Oncidium e Rodriguezia. Combina a rusticidade e a intensa floração dos Oncidium com a delicadeza e o porte compacto das Rodriguezia, originando plantas muito floríferas e de fácil cultivo.",
     regiao: "Origem hortícola. Seus gêneros parentais são naturais das regiões tropicais e subtropicais das Américas.",

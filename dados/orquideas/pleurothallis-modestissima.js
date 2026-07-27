@@ -7,7 +7,12 @@ export const pleurothallisModestissima = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada a difícil",
     caracteristicas: ["Micro-orquídea brasileira", "Nome aceito: Acianthera modestissima", "Epífita ou rupícola", "Raízes muito delicadas"],
-    fotos: [],
+    fotos: [
+        "imagens/Pleurothallis modestissima/Pleurothallis modestissima1.jpg",
+        "imagens/Pleurothallis modestissima/Pleurothallis modestissima2.jpg",
+        "imagens/Pleurothallis modestissima/Pleurothallis modestissima3.jpg",
+        "imagens/Pleurothallis modestissima/Pleurothallis modestissima4.jpg"
+    ],
     descricao: "Micro-orquídea de crescimento rastejante, sem pseudobulbos, formada por ramicaules finos com uma única folha coriácea no ápice. Produz inflorescências curtas com flores minúsculas, cerosas e agrupadas, em tonalidades que variam do amarelo-palha ao arroxeado.",
     origem: "A Pleurothallis modestissima, atualmente aceita como Acianthera modestissima, é uma espécie brasileira nativa de ambientes de Mata Atlântica e campo rupestre, com registros principalmente em Minas Gerais e no Sudeste do país.",
     regiao: "Ocorre em áreas de altitude, geralmente entre cerca de 800 e 1.400 metros, com registros especialmente em Minas Gerais e relatos para o Rio de Janeiro.",

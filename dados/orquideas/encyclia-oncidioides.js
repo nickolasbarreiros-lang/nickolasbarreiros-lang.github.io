@@ -7,7 +7,12 @@ export const encycliaOncidioides = {
     tipo: "Espécie botânica",
     dificuldade: "Fácil a moderada",
     caracteristicas: ["Espécie brasileira", "Haste ramificada", "Flores perfumadas", "Porte médio a grande"],
-    fotos: [],
+    fotos: [
+        "imagens/Encyclia oncidioides/Encyclia oncidioides1.jpg",
+        "imagens/Encyclia oncidioides/Encyclia oncidioides2.webp",
+        "imagens/Encyclia oncidioides/Encyclia oncidioides3.jpg",
+        "imagens/Encyclia oncidioides/Encyclia oncidioides4.jpg"
+    ],
     descricao: "Encyclia vigorosa de pseudobulbos robustos, folhas coriáceas e longas inflorescências ramificadas, capazes de portar numerosas flores duráveis e perfumadas. As flores são amarelo-esverdeadas a castanhas, frequentemente reticuladas ou pontuadas, com labelo claro envolvendo parcialmente a coluna.",
     origem: "América tropical, com ampla ocorrência no Brasil.",
     regiao: "No Brasil ocorre em diferentes formações do Nordeste, Centro-Oeste, Sudeste e parte do Norte, com variação conforme o conceito taxonômico adotado.",

@@ -7,7 +7,12 @@ export const phaiusTankervilleaeAlba = {
     tipo: "Forma horticultural de espécie botânica",
     dificuldade: "Fácil a moderada",
     caracteristicas: ["Orquídea terrestre", "Forma alba", "Folhas plissadas", "Hastes altas"],
-    fotos: [],
+    fotos: [
+        "imagens/Phaius tankervilleae alba/Phaius tankervilleae alba1.avif",
+        "imagens/Phaius tankervilleae alba/Phaius tankervilleae alba2.jpg",
+        "imagens/Phaius tankervilleae alba/Phaius tankervilleae alba3.webp",
+        "imagens/Phaius tankervilleae alba/Phaius tankervilleae alba4.webp"
+    ],
     descricao: "Forma alba da conhecida orquídea terrestre Phaius tankervilleae, atualmente também tratada por algumas classificações como Calanthe tankervilleae. Forma touceiras vigorosas, folhas grandes e plissadas e longas hastes eretas. Na forma alba, as flores apresentam tons claros, geralmente amarelo-esverdeados, creme e branco, sem pigmentação púrpura intensa.",
     origem: "Ásia tropical e subtropical até o Pacífico Sul.",
     regiao: "Ampla distribuição natural no sul e sudeste da Ásia, Malesia, Nova Guiné, Austrália e ilhas do Pacífico.",

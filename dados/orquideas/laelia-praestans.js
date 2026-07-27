@@ -7,7 +7,12 @@ export const laeliaPraestans = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Espécie brasileira", "Porte compacto", "Flores grandes", "Mata Atlântica"],
-    fotos: [],
+    fotos: [
+        "imagens/Laelia praestans/Laelia praestans1.jpg",
+        "imagens/Laelia praestans/Laelia praestans2.webp",
+        "imagens/Laelia praestans/Laelia praestans3.jpg",
+        "imagens/Laelia praestans/Laelia praestans4.jpg"
+    ],
     descricao: "Espécie brasileira compacta, tradicionalmente conhecida como Laelia praestans e atualmente aceita como Cattleya praestans. Produz pseudobulbos curtos com uma folha coriácea e, em geral, uma ou duas flores grandes em relação ao tamanho da planta. As flores variam do lilás ao púrpura, com labelo mais intenso e garganta amarelada.",
     origem: "Brasil",
     regiao: "Sudeste do Brasil, com registros em Espírito Santo e Minas Gerais.",

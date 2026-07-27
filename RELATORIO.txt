@@ -1,18 +1,14 @@
-CORREÇÃO — FICHAS NOVAS AUSENTES
+CORREÇÃO DAS FOTOS — NOVAS FICHAS
 
-Problema encontrado:
-Os arquivos de Laelia praestans, Phaius tankervilleae alba, Stanhopea hernandezii e Encyclia oncidioides já estavam na pasta dados/orquideas, porém não haviam sido importados nem incluídos no array do index.js. Por isso não apareciam no catálogo.
+As imagens foram colocadas dentro da pasta imagens, seguindo a estrutura real do site.
+Também foram atualizados os campos fotos das seis fichas.
 
-Pleurothallis modestissima não estava presente na estrutura atual e foi adicionada.
+- laelia-praestans.js: 4 fotos em imagens/Laelia praestans/
+- phaius-tankervilleae-alba.js: 4 fotos em imagens/Phaius tankervilleae alba/
+- pleurothallis-modestissima.js: 4 fotos em imagens/Pleurothallis modestissima/
+- stanhopea-hernandezii.js: 4 fotos em imagens/Stanhopea hernandezii/
+- encyclia-oncidioides.js: 4 fotos em imagens/Encyclia oncidioides/
+- rodricidium.js: 4 fotos em imagens/Rodricidium/
 
-Arquivos modificados:
-- dados/orquideas/index.js
-- dados/orquideas/pleurothallis-modestissima.js
-
-Após aplicar esta correção, devem aparecer:
-- Laelia praestans
-- Phaius tankervilleae alba
-- Stanhopea hernandezii
-- Encyclia oncidioides
-- Pleurothallis modestissima
-- Rodricidium (já existente)
+Incluído também:
+- dados/orquideas/index.js (versão corrigida com as seis fichas registradas)
