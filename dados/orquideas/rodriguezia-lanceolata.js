@@ -1,4 +1,4 @@
-// Ficha revisada para cultivo, com adaptação ao clima de Serra/ES.
+// Ficha atualizada no LOTE 13 — PADRÃO EDITORIAL V3.
 
 export const rodrigueziaLanceolata = {
     id: "rodriguezia-lanceolata",
@@ -7,37 +7,31 @@ export const rodrigueziaLanceolata = {
     tipo: "Espécie botânica",
     dificuldade: "Fácil",
     caracteristicas: [
-        "Sul-americana",
-        "Epífita",
-        "Floração abundante",
-        "Flores rosadas"
+        "Espécie sul-americana",
+        "Flores rosadas a avermelhadas",
+        "Hastes arqueadas e abundantes",
+        "Crescimento vigoroso"
     ],
     fotos: [],
-    descricao: "Espécie epífita de porte pequeno a médio, que forma touceiras e produz hastes arqueadas com numerosas flores rosadas a avermelhadas. Cresce rapidamente quando recebe calor, umidade e ventilação.",
-    origem: "América do Sul tropical",
-    regiao: "Norte da América do Sul e Bacia Amazônica, incluindo o Brasil",
-    habitat: "Epífita em florestas úmidas e quentes, sobre galhos com boa circulação de ar",
-    clima: "Quente a intermediário e úmido",
-    climaFloracao: "A floração é favorecida por boa luminosidade filtrada, crescimento vigoroso e noites um pouco mais frescas após o amadurecimento dos pseudobulbos. Evite sombra excessiva e encharcamento prolongado.",
+    descricao: "Espécie epífita de pequeno a médio porte que forma touceiras vigorosas e produz hastes arqueadas ou pendentes com numerosas flores rosadas, vermelhas ou púrpuras, geralmente com detalhes amarelados. Cresce rapidamente em condições quentes e úmidas e pode florescer mais de uma vez quando os pseudobulbos amadurecem bem.",
+    origem: "América tropical",
+    regiao: "Do Panamá e São Vicente até grande parte da América do Sul tropical, incluindo o Brasil",
+    habitat: "Epífita de florestas tropicais úmidas, crescendo sobre galhos e troncos com umidade elevada, luz filtrada e circulação constante de ar.",
+    clima: "Quente a intermediário, úmido e ventilado",
+    climaFloracao: "Em Serra/ES, encontra temperaturas adequadas durante quase todo o ano. A floração melhora quando a planta recebe luz filtrada forte, regas regulares na brotação e leve secagem entre as regas após a maturação dos pseudobulbos. Noites discretamente mais frescas também podem estimular as hastes.",
     iluminacao: {
-        sombrite: "50%",
-        solDireto: "Não",
-        horario: "Apenas luz indireta",
-        observacoes: "Meia-sombra clara, com luz filtrada moderada a intensa"
+        sombrite: "50% a 70%",
+        solDireto: "Sim",
+        horario: "Até 08:30, com adaptação",
+        observacoes: "Prefere meia-sombra clara. Pode receber sol suave do início da manhã, mas o sol forte queima rapidamente as folhas. Sombra excessiva reduz o número de hastes."
     },
-    floracao: "Pode florescer em diferentes épocas; com frequência do fim do inverno à primavera",
-    adubacao: "Adubação foliar equilibrada e fraca a cada 7–15 dias durante crescimento. Bokashi em saquinho ou Osmocote em dose pequena podem complementar.",
-    rega: "Regas frequentes no calor, permitindo leve secagem entre elas. Plantas montadas precisam de água mais frequente.",
-    suporte: "Cachepô de madeira, vaso pequeno vazado ou montagem em tronco",
-    substrato: "Casca de pinus fina a média, carvão, pedra-pomes e pouco esfagno",
-    dica: "Em Serra/ES, evite abafamento. Ela aprecia umidade, mas floresce melhor quando as folhas secam rapidamente após a rega.",
-    mesesFloracao: [
-        8,
-        9,
-        10,
-        11,
-        12
-    ],
+    floracao: "Pode florescer em diferentes épocas, com maior frequência do fim do inverno ao verão.",
+    adubacao: "Aplique adubo foliar equilibrado e diluído a cada 7–15 dias enquanto houver brotos e raízes novas. Bokashi em saquinho pode ser usado em pequena quantidade. Osmocote também é adequado em dose reduzida, principalmente em vaso ou cachepô bem drenado.",
+    rega: "Regue com frequência durante o calor e a brotação, permitindo leve secagem antes da próxima rega. Plantas montadas podem exigir água diária no verão. Reduza a frequência em períodos frios, chuvosos ou quando o crescimento estiver parado.",
+    suporte: "Cachepô de madeira, vaso pequeno bem vazado ou montagem em tronco e cortiça",
+    substrato: "Casca de pinus fina a média, carvão pequeno, pedra-pomes e pouco esfagno. Em montagem, use apenas uma fina camada de esfagno para proteger as raízes no estabelecimento.",
+    dica: "Em Serra/ES, priorize ventilação e deixe espaço para as hastes arquearem. Ela gosta de umidade, mas não de folhas e raízes molhadas durante toda a noite; regue cedo e evite substratos compactados.",
+    mesesFloracao: [8, 9, 10, 11, 12, 1, 2],
     avaliacoes: {
         cultivo: 4,
         floracao: 5,

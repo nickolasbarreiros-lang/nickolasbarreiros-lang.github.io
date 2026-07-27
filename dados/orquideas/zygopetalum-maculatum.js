@@ -1,46 +1,39 @@
-// Ficha revisada para cultivo, com adaptação ao clima de Serra/ES.
+// Ficha atualizada no LOTE 13 — PADRÃO EDITORIAL V3.
 
 export const zygopetalumMaculatum = {
     id: "zygopetalum-maculatum",
     nome: "Zygopetalum maculatum",
     genero: "Zygopetalum",
     tipo: "Espécie botânica",
-    dificuldade: "Moderada",
+    dificuldade: "Moderada a exigente no litoral quente",
     caracteristicas: [
-        "Sul-americana",
-        "Terrestre ou epífita",
-        "Perfumada",
-        "Clima ameno"
+        "Espécie sul-americana",
+        "Flores cerosas e perfumadas",
+        "Hábito principalmente terrestre",
+        "Prefere noites amenas"
     ],
     fotos: [],
-    descricao: "Espécie de porte médio, com folhas plicadas e flores cerosas verde-amareladas marcadas de castanho, contrastando com labelo claro e arroxeado. É geralmente perfumada e prefere condições mais amenas que as Cattleyas de clima quente.",
+    descricao: "Espécie pseudobulbosa de porte médio, geralmente terrestre ou rupícola, com folhas plicadas e flores cerosas verde-amareladas intensamente marcadas de castanho. O labelo claro com tons violetas cria forte contraste, e a floração costuma apresentar perfume agradável. Embora vigorosa em clima ameno, exige atenção especial ao calor noturno do litoral.",
     origem: "América do Sul",
-    regiao: "Andes e áreas de altitude do Brasil, Peru e Bolívia",
-    habitat: "Terrestre, rupícola ou epífita em ambientes úmidos de altitude, com noites frescas",
-    clima: "Ameno a intermediário, úmido e bem ventilado",
-    climaFloracao: "Prefere clima intermediário, com noites frescas, umidade constante e boa circulação de ar. Em regiões litorâneas quentes, proteja do calor excessivo do verão e aproveite o frescor do outono e inverno para estimular as hastes.",
+    regiao: "Do norte do Peru ao Brasil, com ocorrências também na Bolívia; no Brasil está presente nas regiões Nordeste, Sudeste e Sul",
+    habitat: "Geófita ou rupícola de ambientes tropicais úmidos, frequentemente em áreas de altitude, bordas de mata e locais com substrato orgânico, umidade regular e noites mais frescas.",
+    clima: "Ameno a intermediário, úmido e muito ventilado",
+    climaFloracao: "Em Serra/ES, o principal desafio é o calor noturno prolongado. Posicione a planta no setor mais fresco e ventilado, protegido do sol quente e de superfícies que acumulam calor. A maturação de pseudobulbos fortes durante o período mais ameno e a diferença térmica entre dia e noite favorecem a emissão das hastes.",
     iluminacao: {
-        sombrite: "50%",
+        sombrite: "50% a 70%",
         solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Meia-sombra clara; evite sol forte sobre as folhas"
+        horario: "Até 08:00, apenas no período mais ameno",
+        observacoes: "Prefere meia-sombra clara. Evite sol forte e calor sobre as folhas. Luz insuficiente enfraquece os pseudobulbos; excesso de sol provoca manchas e desidratação."
     },
-    floracao: "Geralmente outono, inverno e início da primavera",
-    adubacao: "Adubo equilibrado e diluído durante o crescimento. Aplicações fracas e frequentes são mais seguras. Bokashi pode ser usado em saquinho; Osmocote somente em dose baixa.",
-    rega: "Mantenha o substrato levemente úmido no crescimento, sem encharcar. Reduza um pouco em períodos frios, mas não deixe secar completamente por longos períodos.",
-    suporte: "Vaso de barro ou plástico bem drenado, preferencialmente mais largo do que profundo",
-    substrato: "Casca de pinus fina a média, pedra-pomes, carvão e esfagno em quantidade moderada para manter umidade sem compactar",
-    dica: "Em Serra/ES, mantenha no setor mais fresco, sombreado e ventilado. Calor noturno constante pode atrasar ou impedir a floração; evite molhar as folhas ao anoitecer.",
-    mesesFloracao: [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-    ],
+    floracao: "Geralmente do outono ao início da primavera, variando conforme temperatura, altitude e maturação dos pseudobulbos.",
+    adubacao: "Durante a brotação, use adubo foliar equilibrado e diluído a cada 7–15 dias. Bokashi pode ser aplicado em saquinho e em pequena quantidade. Osmocote deve ser usado com cautela e dose baixa, porque calor e umidade aceleram a liberação dos nutrientes. Lave o substrato periodicamente.",
+    rega: "Mantenha o substrato levemente úmido durante o crescimento, mas nunca saturado. Regue pela manhã e permita boa aeração das raízes. No período frio, reduza conforme a secagem, sem deixar pseudobulbos e folhas murcharem intensamente.",
+    suporte: "Vaso de barro ou plástico bem perfurado, preferencialmente largo e relativamente baixo",
+    substrato: "Casca de pinus fina a média, pedra-pomes, carvão pequeno e esfagno em quantidade moderada. Pode receber pequena fração de fibra de coco ou material orgânico estável, desde que a mistura permaneça solta e drenante.",
+    dica: "Em Serra/ES, mantenha-a próxima ao chão do orquidário, em bancada fresca e sombreada, mas sem bloquear o vento. Evite vaso preto exposto ao sol, água acumulada no broto novo e regas noturnas; o superaquecimento das raízes é uma das causas mais comuns de declínio e ausência de floração.",
+    mesesFloracao: [4, 5, 6, 7, 8, 9],
     avaliacoes: {
-        cultivo: 3,
+        cultivo: 2,
         floracao: 4,
         perfume: 4,
         luminosidade: 3,

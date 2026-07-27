@@ -1,44 +1,37 @@
-// Ficha revisada para cultivo, com adaptação ao clima de Serra/ES.
+// Ficha atualizada no LOTE 13 — PADRÃO EDITORIAL V3.
 
 export const ornithophoraRadicans = {
     id: "ornithophora-radicans",
-    nome: "Ornithophora radicans",
-    genero: "Ornithophora",
+    nome: "Gomesa radicans (sin. Ornithophora radicans)",
+    genero: "Gomesa",
     tipo: "Espécie botânica",
-    dificuldade: "Fácil",
+    dificuldade: "Fácil a moderada",
     caracteristicas: [
-        "Brasileira",
-        "Miniatura",
+        "Miniatura brasileira",
         "Touceira pendente",
-        "Muitas flores"
+        "Inflorescências ramificadas",
+        "Numerosas flores pequenas"
     ],
     fotos: [],
-    descricao: "Pequena orquídea brasileira que forma touceiras pendentes, com folhas estreitas e numerosas flores diminutas em hastes ramificadas. Embora as flores sejam pequenas, a floração em massa é muito ornamental.",
+    descricao: "Miniatura brasileira tradicionalmente conhecida como Ornithophora radicans e atualmente aceita como Gomesa radicans. Forma touceiras pendentes com folhas estreitas, raízes finas e numerosas hastes ramificadas. As flores são pequenas, esverdeadas a castanhas com detalhes claros, mas o efeito conjunto da floração é delicado e muito ornamental.",
     origem: "Brasil",
-    regiao: "Mata Atlântica do Sudeste e Sul",
-    habitat: "Epífita em matas úmidas, geralmente em galhos finos e bem ventilados",
+    regiao: "Sul e Sudeste do Brasil",
+    habitat: "Epífita da Mata Atlântica, sobre galhos e troncos finos em matas úmidas, luminosas e bem ventiladas.",
     clima: "Intermediário a quente, úmido e ventilado",
-    climaFloracao: "A floração é favorecida por boa luminosidade filtrada, crescimento vigoroso e noites um pouco mais frescas após o amadurecimento dos pseudobulbos. Evite sombra excessiva e encharcamento prolongado.",
+    climaFloracao: "Em Serra/ES, adapta-se bem ao calor desde que não fique abafada. A emissão das hastes é favorecida por luminosidade filtrada forte, crescimento contínuo e noites um pouco mais amenas após a maturação dos pequenos pseudobulbos. Sombra excessiva produz touceiras verdes, mas pouco floríferas.",
     iluminacao: {
-        sombrite: "50%",
+        sombrite: "50% a 70%",
         solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Luz filtrada moderada, sem sol forte direto"
+        horario: "Até 08:30, com adaptação",
+        observacoes: "Prefere meia-sombra clara. Pode receber sol suave da manhã, mas deve ser protegida do sol quente. Folhas muito verde-escuras indicam falta de claridade."
     },
-    floracao: "Principalmente primavera e verão",
-    adubacao: "Use adubo foliar equilibrado em concentração baixa, pois as raízes são finas. Adubos orgânicos devem ser aplicados com muita moderação.",
-    rega: "Mantenha umidade regular, sobretudo em plantas montadas, mas permita secagem superficial e boa circulação de ar.",
-    suporte: "Tronquinho, placa de madeira, cortiça ou pequeno cachepô",
-    substrato: "Em montagem, uma fina camada de esfagno junto às raízes; em cachepô, casca fina, carvão pequeno e esfagno moderado",
-    dica: "Em Serra/ES, uma montagem vertical em local sombreado e ventilado costuma funcionar melhor do que vaso fechado. Não deixe a touceira ressecar por muitos dias.",
-    mesesFloracao: [
-        9,
-        10,
-        11,
-        12,
-        1,
-        2
-    ],
+    floracao: "Principalmente da primavera ao verão, podendo variar conforme o amadurecimento da touceira.",
+    adubacao: "Use adubo foliar equilibrado e bastante diluído a cada 7–15 dias durante a brotação. Como as raízes são finas, evite soluções concentradas. Bokashi pode ser colocado em saquinho minúsculo e Osmocote apenas em dose muito baixa quando cultivada em cachepô.",
+    rega: "Mantenha umidade regular durante o crescimento, permitindo rápida secagem superficial. Plantas montadas podem precisar de rega diária no verão. Reduza em períodos frios ou chuvosos, sem deixar a touceira ressecar por vários dias.",
+    suporte: "Placa de madeira, cortiça, galho fino ou pequeno cachepô vazado",
+    substrato: "Em montagem, use fina camada de esfagno junto às raízes. Em cachepô, misture casca fina, carvão pequeno, pedra-pomes e pouco esfagno.",
+    dica: "Em Serra/ES, cultive-a montada em posição vertical ou levemente inclinada, permitindo que a touceira e as hastes pendam livremente. Molhe pela manhã e mantenha forte circulação de ar para evitar apodrecimento no centro da planta.",
+    mesesFloracao: [9, 10, 11, 12, 1, 2],
     avaliacoes: {
         cultivo: 4,
         floracao: 4,
