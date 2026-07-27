@@ -151,6 +151,21 @@ export function aplicarModoVisualizacao(
         elementos.catalogo;
 
     if (catalogo) {
+        /*
+         * As folhas de estilo do catálogo usam as classes
+         * `catalogo-lista` e `catalogo-galeria`. Mantemos também
+         * as classes antigas `modo-*` por compatibilidade.
+         */
+        catalogo.classList.toggle(
+            "catalogo-galeria",
+            modoNormalizado === MODO_GALERIA
+        );
+
+        catalogo.classList.toggle(
+            "catalogo-lista",
+            modoNormalizado === MODO_LISTA
+        );
+
         catalogo.classList.toggle(
             "modo-galeria",
             modoNormalizado === MODO_GALERIA
