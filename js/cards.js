@@ -544,7 +544,7 @@ function criarInformacoesRapidas(orquidea, origemResumida) {
     const dificuldade = String(orquidea?.dificuldade || "").trim();
     const itens = [
         ["🌍", origemResumida],
-        dificuldade ? ["📊", dificuldade] : null
+        dificuldade ? ["📊", `Dificuldade: ${dificuldade}`] : null
     ].filter(Boolean);
 
     return `

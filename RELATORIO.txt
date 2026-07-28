@@ -1,19 +1,14 @@
-ATUALIZAÇÃO — CARD V2
+CARD V2.1 — LEGIBILIDADE E APROVEITAMENTO DO ESPAÇO
 
 Arquivos alterados:
 - js/cards.js
 - estilos.css
 
-Principais mudanças:
-- removida a faixa superior redundante de tipo/dificuldade;
-- gênero transformado em legenda discreta;
-- nome científico recebeu maior destaque;
-- origem e dificuldade agrupadas em uma linha de informações rápidas;
-- selo de sinônimo integrado à linha dos selos, em dourado, somente quando existir;
-- compatibilidade com os campos sinonimo e sinonimos;
-- avaliação reorganizada em grade 2x3/3x2, com menos bordas;
-- botão da ficha ligeiramente maior;
-- ajustes responsivos nos modos galeria e lista.
-
-Observação:
-O card não cria sinônimos. Ele apenas exibe o selo quando a ficha já possui o campo sinonimo ou sinonimos.
+Ajustes:
+- inclusão de “Dificuldade:” antes de Fácil, Moderada ou Difícil;
+- aumento das fontes do gênero, informações rápidas, descrição, selos e avaliação;
+- descrição ampliada para até três linhas;
+- avaliação 2x3 mais arejada, com estrelas e rótulos maiores;
+- botão maior e mais arredondado;
+- espaçamentos redistribuídos sem compactação excessiva;
+- selo de sinônimo mantido discreto e alinhado aos demais.
