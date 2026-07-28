@@ -706,30 +706,49 @@ function criarAvaliacaoCompacta(orquidea) {
 }
 
 function criarInformacoesRapidas(orquidea, origemResumida) {
+    const dificuldade =
+        orquidea?.dificuldade ||
+        "Não informada";
+
     const origemTexto =
+        origemResumida &&
         typeof origemResumida === "object"
             ? origemResumida.texto
-            : origemResumida;
+            : String(origemResumida || "Origem não informada");
 
     const origemIcone =
+        origemResumida &&
         typeof origemResumida === "object"
             ? origemResumida.icone
-            : "${origemIcone}";
+            : "🌍";
 
-    const dificuldade = String(orquidea?.dificuldade || "").trim();
     const itens = [
-        ["${origemIcone}", origemResumida],
-        dificuldade ? ["📊", `Dificuldade: ${dificuldade}`] : null
-    ].filter(Boolean);
+        {
+            icone: origemIcone,
+            texto: origemTexto,
+            classe: "origem-resumida-cartao"
+        },
+        {
+            icone: "📊",
+            texto: `Dificuldade: ${dificuldade}`,
+            classe: "dificuldade-resumida-cartao"
+        }
+    ];
 
     return `
-        <div class="informacoes-rapidas-cartao" aria-label="Informações rápidas">
-            ${itens.map(([icone, texto]) => `
-                <span class="informacao-rapida-cartao">
-                    <span aria-hidden="true">${icone}</span>
-                    ${escaparHTML(texto)}
-                </span>
-            `).join("")}
+        <div class="informacoes-rapidas-cartao">
+            ${itens
+                .map((item, indice) => `
+                    <span class="informacao-rapida-cartao ${item.classe}">
+                        <span aria-hidden="true">${escaparHTML(item.icone)}</span>
+                        <span>${escaparHTML(item.texto)}</span>
+                    </span>
+                    ${indice < itens.length - 1
+                        ? '<span class="separador-informacoes-rapidas" aria-hidden="true">•</span>'
+                        : ''
+                    }
+                `)
+                .join("")}
         </div>
     `;
 }

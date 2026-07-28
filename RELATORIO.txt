@@ -1,13 +1,15 @@
-CARD V3.6 — ORIGEM RESUMIDA E BANDEIRA
+CORREÇÃO — ORIGEM NOS CARDS
 
-Alterações:
-- Quando a origem é exclusiva de um país, o card mostra a bandeira e o nome do país.
-- Quando a distribuição abrange vários países, o card mostra uma região geográfica resumida.
-- Exemplos: Sul da Ásia, Sudeste Asiático, América do Sul, Andes Tropicais e África Tropical.
-- Biomas como Mata Atlântica permanecem como região, sem bandeira.
-- A ficha completa não foi alterada; somente o resumo do card foi modificado.
-- Há fallback para textos não reconhecidos, evitando origens excessivamente longas.
+Problema corrigido:
+- ${origemIcone} aparecia como texto literal.
+- O objeto da origem era exibido como [object Object].
 
-Arquivos alterados:
+Correção aplicada:
+- O card agora usa origemResumida.icone para o ícone.
+- O card agora usa origemResumida.texto para o texto.
+- Mantida a regra de país específico com bandeira.
+- Mantida a regra de distribuição regional com globo.
+- A ficha completa não foi alterada.
+
+Arquivo alterado:
 - js/cards.js
-- estilos.css
