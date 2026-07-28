@@ -439,35 +439,185 @@ function primeiraFrase(texto, limite = 145) {
 }
 
 function resumirOrigem(orquidea) {
-    const origem = String(orquidea?.origem || "").trim();
-    if (!origem) return "Origem não informada";
+    const textoOriginal = String(
+        orquidea?.origem ||
+        orquidea?.distribuicao ||
+        ""
+    ).trim();
 
-    const texto = origem.toLowerCase();
-    const regioes = [
-        ["brasil", "Brasil"],
-        ["mata atlântica", "Mata Atlântica"],
-        ["américa central", "América Central"],
-        ["américa do sul", "América do Sul"],
-        ["áfrica tropical", "África tropical"],
-        ["áfrica ocidental", "África Ocidental"],
-        ["áfrica", "África"],
-        ["méxico", "México"],
-        ["himal", "Himalaia"],
-        ["nova guiné", "Nova Guiné"],
-        ["ásia", "Ásia tropical"],
-        ["híbrido", "Híbrido de cultivo"]
+    if (!textoOriginal) {
+        return {
+            icone: "🌍",
+            texto: "Origem não informada"
+        };
+    }
+
+    const texto = textoOriginal
+        .replace(/\s+/g, " ")
+        .trim();
+
+    const normalizado = texto
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase();
+
+    const PAISES = [
+        { nomes: ["brasil", "brazil"], nome: "Brasil", bandeira: "🇧🇷" },
+        { nomes: ["colombia", "colômbia"], nome: "Colômbia", bandeira: "🇨🇴" },
+        { nomes: ["equador", "ecuador"], nome: "Equador", bandeira: "🇪🇨" },
+        { nomes: ["peru"], nome: "Peru", bandeira: "🇵🇪" },
+        { nomes: ["venezuela"], nome: "Venezuela", bandeira: "🇻🇪" },
+        { nomes: ["bolivia", "bolívia"], nome: "Bolívia", bandeira: "🇧🇴" },
+        { nomes: ["paraguai", "paraguay"], nome: "Paraguai", bandeira: "🇵🇾" },
+        { nomes: ["argentina"], nome: "Argentina", bandeira: "🇦🇷" },
+        { nomes: ["uruguai", "uruguay"], nome: "Uruguai", bandeira: "🇺🇾" },
+        { nomes: ["chile"], nome: "Chile", bandeira: "🇨🇱" },
+        { nomes: ["mexico", "méxico"], nome: "México", bandeira: "🇲🇽" },
+        { nomes: ["estados unidos", "eua", "united states"], nome: "Estados Unidos", bandeira: "🇺🇸" },
+        { nomes: ["costa rica"], nome: "Costa Rica", bandeira: "🇨🇷" },
+        { nomes: ["panama", "panamá"], nome: "Panamá", bandeira: "🇵🇦" },
+        { nomes: ["japao", "japão", "japan"], nome: "Japão", bandeira: "🇯🇵" },
+        { nomes: ["china"], nome: "China", bandeira: "🇨🇳" },
+        { nomes: ["taiwan"], nome: "Taiwan", bandeira: "🇹🇼" },
+        { nomes: ["india", "índia"], nome: "Índia", bandeira: "🇮🇳" },
+        { nomes: ["nepal"], nome: "Nepal", bandeira: "🇳🇵" },
+        { nomes: ["tailandia", "tailândia", "thailand"], nome: "Tailândia", bandeira: "🇹🇭" },
+        { nomes: ["vietna", "vietnã", "vietnam"], nome: "Vietnã", bandeira: "🇻🇳" },
+        { nomes: ["laos"], nome: "Laos", bandeira: "🇱🇦" },
+        { nomes: ["malasia", "malásia", "malaysia"], nome: "Malásia", bandeira: "🇲🇾" },
+        { nomes: ["indonesia", "indonésia"], nome: "Indonésia", bandeira: "🇮🇩" },
+        { nomes: ["filipinas", "philippines"], nome: "Filipinas", bandeira: "🇵🇭" },
+        { nomes: ["madagascar"], nome: "Madagascar", bandeira: "🇲🇬" },
+        { nomes: ["australia", "austrália"], nome: "Austrália", bandeira: "🇦🇺" }
     ];
 
-    const encontrados = regioes
-        .filter(([termo]) => texto.includes(termo))
-        .map(([, rotulo]) => rotulo);
+    const regioes = [
+        { termos: ["mata atlantica"], texto: "Mata Atlântica" },
+        { termos: ["campo rupestre", "campos rupestres"], texto: "Campos Rupestres" },
+        { termos: ["andes tropicais"], texto: "Andes Tropicais" },
+        { termos: ["america tropical"], texto: "América Tropical" },
+        { termos: ["america central"], texto: "América Central" },
+        { termos: ["america do sul"], texto: "América do Sul" },
+        { termos: ["sudeste asiatico"], texto: "Sudeste Asiático" },
+        { termos: ["sul da asia"], texto: "Sul da Ásia" },
+        { termos: ["africa tropical"], texto: "África Tropical" },
+        { termos: ["oceania"], texto: "Oceania" },
+        { termos: ["oceano indico"], texto: "Oceano Índico" }
+    ];
 
-    if (encontrados.length) return encontrados[0];
+    const conjuntosRegionais = [
+        {
+            termos: ["nepal", "sikkim", "assam", "bangladesh", "butao", "butão", "india", "índia"],
+            minimo: 2,
+            texto: "Sul da Ásia"
+        },
+        {
+            termos: ["tailandia", "tailândia", "laos", "camboja", "vietna", "vietnã", "malasia", "malásia", "indonesia", "indonésia", "filipinas"],
+            minimo: 2,
+            texto: "Sudeste Asiático"
+        },
+        {
+            termos: ["colombia", "colômbia", "equador", "peru", "venezuela", "bolivia", "bolívia"],
+            minimo: 3,
+            texto: "Andes Tropicais"
+        },
+        {
+            termos: ["brasil", "argentina", "paraguai", "uruguai", "chile", "bolivia", "bolívia"],
+            minimo: 2,
+            texto: "América do Sul"
+        },
+        {
+            termos: ["mexico", "méxico", "guatemala", "honduras", "el salvador", "nicaragua", "nicarágua", "costa rica", "panama", "panamá", "belize"],
+            minimo: 2,
+            texto: "América Central"
+        },
+        {
+            termos: ["gabao", "gabão", "camaroes", "camarões", "congo", "angola", "nigeria", "nigéria"],
+            minimo: 2,
+            texto: "África Tropical"
+        },
+        {
+            termos: ["madagascar", "reuniao", "reunião", "mauricio", "maurício"],
+            minimo: 2,
+            texto: "Oceano Índico"
+        }
+    ];
 
-    return primeiraFrase(origem, 58)
-        .replace(/^origin[aá]ria\s+d[aeo]s?\s+/i, "")
-        .replace(/^nativa\s+d[aeo]s?\s+/i, "")
-        .replace(/[.;:]$/, "");
+    for (const regiao of regioes) {
+        if (regiao.termos.some((termo) => normalizado.includes(termo))) {
+            return {
+                icone: "🌍",
+                texto: regiao.texto
+            };
+        }
+    }
+
+    for (const grupo of conjuntosRegionais) {
+        const ocorrencias = grupo.termos.filter((termo) =>
+            normalizado.includes(
+                termo
+                    .normalize("NFD")
+                    .replace(/[\u0300-\u036f]/g, "")
+            )
+        ).length;
+
+        if (ocorrencias >= grupo.minimo) {
+            return {
+                icone: "🌍",
+                texto: grupo.texto
+            };
+        }
+    }
+
+    const paisesEncontrados = PAISES.filter((pais) =>
+        pais.nomes.some((nome) =>
+            normalizado.includes(
+                nome
+                    .normalize("NFD")
+                    .replace(/[\u0300-\u036f]/g, "")
+            )
+        )
+    );
+
+    if (paisesEncontrados.length === 1) {
+        return {
+            icone: paisesEncontrados[0].bandeira,
+            texto: paisesEncontrados[0].nome
+        };
+    }
+
+    if (paisesEncontrados.length > 1) {
+        const nomes = paisesEncontrados.map((pais) => pais.nome);
+
+        if (nomes.every((nome) => ["Brasil", "Argentina", "Paraguai", "Uruguai", "Chile", "Bolívia", "Peru", "Colômbia", "Equador", "Venezuela"].includes(nome))) {
+            return { icone: "🌍", texto: "América do Sul" };
+        }
+
+        if (nomes.every((nome) => ["Índia", "Nepal", "Bangladesh"].includes(nome))) {
+            return { icone: "🌍", texto: "Sul da Ásia" };
+        }
+
+        if (nomes.every((nome) => ["Tailândia", "Vietnã", "Laos", "Malásia", "Indonésia", "Filipinas"].includes(nome))) {
+            return { icone: "🌍", texto: "Sudeste Asiático" };
+        }
+
+        return {
+            icone: "🌍",
+            texto: "Distribuição regional"
+        };
+    }
+
+    const trechoCurto = texto
+        .replace(/^(nativa|nativo|originária|originario|originário|originaria)\s+(de|do|da|dos|das)\s+/i, "")
+        .split(/[.;]/)[0]
+        .trim();
+
+    return {
+        icone: "🌍",
+        texto: trechoCurto.length > 28
+            ? `${trechoCurto.slice(0, 28).trim()}…`
+            : trechoCurto
+    };
 }
 
 function detectarPorte(orquidea) {
@@ -556,9 +706,19 @@ function criarAvaliacaoCompacta(orquidea) {
 }
 
 function criarInformacoesRapidas(orquidea, origemResumida) {
+    const origemTexto =
+        typeof origemResumida === "object"
+            ? origemResumida.texto
+            : origemResumida;
+
+    const origemIcone =
+        typeof origemResumida === "object"
+            ? origemResumida.icone
+            : "${origemIcone}";
+
     const dificuldade = String(orquidea?.dificuldade || "").trim();
     const itens = [
-        ["🌍", origemResumida],
+        ["${origemIcone}", origemResumida],
         dificuldade ? ["📊", `Dificuldade: ${dificuldade}`] : null
     ].filter(Boolean);
 

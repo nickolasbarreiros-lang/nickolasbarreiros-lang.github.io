@@ -5874,3 +5874,16 @@ main.container{
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
 }
+
+
+/* =========================================================
+   CARD V3.6 — ORIGEM RESUMIDA
+========================================================= */
+
+.cartao-orquidea-v4 .informacoes-rapidas-cartao {
+    min-width: 0;
+}
+
+.cartao-orquidea-v4 .informacoes-rapidas-cartao .origem-resumida-cartao {
+    max-width: 100%;
+}

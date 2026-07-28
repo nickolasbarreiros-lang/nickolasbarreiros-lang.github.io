@@ -1,12 +1,12 @@
-CARD V3.5 — ABREVIAÇÃO DINÂMICA DO NOME
+CARD V3.6 — ORIGEM RESUMIDA E BANDEIRA
 
 Alterações:
-- O nome completo permanece quando cabe em uma única linha.
-- As abreviações oficiais só são aplicadas quando o nome realmente quebra para mais de uma linha no card.
-- O nome completo continua disponível ao passar o cursor.
-- O sistema recalcula a necessidade de abreviação ao redimensionar a tela.
-- A fonte não é reduzida.
-- Se o nome abreviado continuar longo, ele pode ocupar no máximo duas linhas.
+- Quando a origem é exclusiva de um país, o card mostra a bandeira e o nome do país.
+- Quando a distribuição abrange vários países, o card mostra uma região geográfica resumida.
+- Exemplos: Sul da Ásia, Sudeste Asiático, América do Sul, Andes Tropicais e África Tropical.
+- Biomas como Mata Atlântica permanecem como região, sem bandeira.
+- A ficha completa não foi alterada; somente o resumo do card foi modificado.
+- Há fallback para textos não reconhecidos, evitando origens excessivamente longas.
 
 Arquivos alterados:
 - js/cards.js
