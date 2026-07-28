@@ -747,36 +747,57 @@ function ativarGaleriasLaterais(raiz = document) {
                 return;
             }
 
-            const trocarImagem = (botao) => {
-                const novaFoto = botao.dataset.foto;
+            const fotoOriginal = imagemPrincipal.getAttribute("src");
+            let fotoFixada = fotoOriginal;
+            let miniaturaFixada = null;
 
-                if (!novaFoto || imagemPrincipal.src.endsWith(novaFoto)) {
+            const trocarImagem = (novaFoto) => {
+                if (!novaFoto || imagemPrincipal.getAttribute("src") === novaFoto) {
                     return;
                 }
 
                 imagemPrincipal.classList.add("imagem-cartao-trocando");
 
                 window.setTimeout(() => {
-                    imagemPrincipal.src = novaFoto;
+                    imagemPrincipal.setAttribute("src", novaFoto);
                     imagemPrincipal.classList.remove("imagem-cartao-trocando");
-                }, 100);
+                }, 90);
+            };
 
+            const atualizarMiniaturaAtiva = () => {
                 miniaturas.forEach((item) => {
-                    item.classList.toggle("ativa", item === botao);
-                    item.setAttribute(
-                        "aria-pressed",
-                        item === botao ? "true" : "false"
-                    );
+                    const ativa = item === miniaturaFixada;
+                    item.classList.toggle("ativa", ativa);
+                    item.setAttribute("aria-pressed", ativa ? "true" : "false");
                 });
             };
 
             miniaturas.forEach((botao) => {
-                botao.addEventListener("mouseenter", () => trocarImagem(botao));
-                botao.addEventListener("focus", () => trocarImagem(botao));
+                botao.addEventListener("mouseenter", () => {
+                    trocarImagem(botao.dataset.foto);
+                });
+
+                botao.addEventListener("focus", () => {
+                    trocarImagem(botao.dataset.foto);
+                });
+
                 botao.addEventListener("click", (evento) => {
                     evento.preventDefault();
-                    trocarImagem(botao);
+                    fotoFixada = botao.dataset.foto || fotoOriginal;
+                    miniaturaFixada = botao;
+                    trocarImagem(fotoFixada);
+                    atualizarMiniaturaAtiva();
                 });
+            });
+
+            galeria.addEventListener("mouseleave", () => {
+                trocarImagem(fotoFixada);
+            });
+
+            galeria.addEventListener("focusout", (evento) => {
+                if (!galeria.contains(evento.relatedTarget)) {
+                    trocarImagem(fotoFixada);
+                }
             });
         });
 }

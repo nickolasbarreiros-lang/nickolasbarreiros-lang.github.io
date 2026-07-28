@@ -1,15 +1,12 @@
-MODO LISTA V2 — GALERIA LATERAL
+MODO LISTA V2.2 — CORREÇÃO DE FOTOS VERTICAIS
 
-Implementado:
-- Foto principal acompanhada por até 3 fotos secundárias na lateral.
-- Recurso exibido somente no modo Lista.
-- Passar o mouse, focar ou clicar em uma miniatura troca a foto principal.
-- Transição suave entre as imagens.
-- Miniatura ativa recebe borda dourada.
-- No celular, as miniaturas ficam em uma faixa horizontal abaixo da foto.
-- O modo Galeria permanece inalterado.
-- Fichas com menos de 4 fotos exibem apenas as miniaturas disponíveis.
+Correção:
+- Fotos muito compridas verticalmente não aumentam mais a altura do card.
+- A área principal de imagens fica limitada a 290 px no desktop.
+- Em tablets, a altura fica limitada a 270 px.
+- A imagem usa object-fit: cover e permanece centralizada.
+- As três miniaturas ficam presas à mesma altura da foto principal.
+- No celular, o comportamento responsivo é preservado.
 
-Arquivos alterados:
-- js/cards.js
+Arquivo alterado:
 - estilos.css

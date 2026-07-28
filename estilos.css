@@ -6050,3 +6050,186 @@ main.container{
         transition: none;
     }
 }
+
+
+/* =========================================================
+   MODO LISTA V2.1 — AJUSTES DE PROPORÇÃO E ESPAÇO
+========================================================= */
+
+/*
+ * O card anterior deixava um vazio grande entre a descrição e a avaliação.
+ * A avaliação passa a acompanhar o conteúdo, sem ser empurrada ao rodapé.
+ */
+.catalogo-lista .cartao-orquidea-v4 .avaliacao-compacta-cartao {
+    margin-top: 14px;
+}
+
+/* Mantém o rodapé logo abaixo da avaliação, evitando um vazio central. */
+.catalogo-lista .cartao-orquidea-v4 .rodape-cartao {
+    margin-top: 12px;
+}
+
+/*
+ * Altura controlada da área fotográfica. A imagem não cresce
+ * artificialmente apenas para acompanhar a altura do conteúdo.
+ */
+.catalogo-lista .cartao-orquidea-v4 .conjunto-imagens-cartao {
+    min-height: 290px;
+    height: 290px;
+}
+
+.catalogo-lista .cartao-orquidea-v4 .link-imagem-cartao,
+.catalogo-lista .cartao-orquidea-v4 .area-imagem-cartao {
+    height: 290px;
+    min-height: 290px;
+}
+
+/* Leve redução da coluna de imagens para dar mais espaço ao conteúdo. */
+.catalogo-lista .cartao-orquidea-v4 {
+    grid-template-columns: 340px minmax(0, 1fr);
+}
+
+/* Miniaturas um pouco mais largas e visualmente equilibradas. */
+.catalogo-lista .cartao-orquidea-v4 .conjunto-imagens-cartao {
+    grid-template-columns: minmax(0, 1fr) 68px;
+}
+
+/* Evita que o bloco de conteúdo seja esticado verticalmente sem necessidade. */
+.catalogo-lista .cartao-orquidea-v4 .conteudo-cartao {
+    justify-content: flex-start;
+}
+
+/* Tablet */
+@media (max-width: 1100px) and (min-width: 701px) {
+    .catalogo-lista .cartao-orquidea-v4 {
+        grid-template-columns: 300px minmax(0, 1fr);
+    }
+
+    .catalogo-lista .cartao-orquidea-v4 .conjunto-imagens-cartao {
+        grid-template-columns: minmax(0, 1fr) 58px;
+        height: 270px;
+        min-height: 270px;
+    }
+
+    .catalogo-lista .cartao-orquidea-v4 .link-imagem-cartao,
+    .catalogo-lista .cartao-orquidea-v4 .area-imagem-cartao {
+        height: 270px;
+        min-height: 270px;
+    }
+}
+
+/* Celular preserva o comportamento responsivo já existente. */
+@media (max-width: 700px) {
+    .catalogo-lista .cartao-orquidea-v4 .conjunto-imagens-cartao,
+    .catalogo-lista .cartao-orquidea-v4 .link-imagem-cartao,
+    .catalogo-lista .cartao-orquidea-v4 .area-imagem-cartao {
+        height: auto;
+        min-height: 0;
+    }
+}
+
+
+/* =========================================================
+   MODO LISTA V2.2 — ALTURA FIXA PARA IMAGENS VERTICAIS
+========================================================= */
+
+/*
+ * Impede que fotos muito verticais aumentem a altura do card.
+ * A imagem principal fica presa ao quadro do modo lista.
+ */
+.catalogo-lista .cartao-orquidea-v4 .bloco-imagem-cartao {
+    min-height: 0;
+    height: auto;
+    align-self: start;
+}
+
+.catalogo-lista .cartao-orquidea-v4 .conjunto-imagens-cartao {
+    height: 290px !important;
+    min-height: 290px !important;
+    max-height: 290px !important;
+    overflow: hidden;
+}
+
+.catalogo-lista .cartao-orquidea-v4 .link-imagem-cartao,
+.catalogo-lista .cartao-orquidea-v4 .area-imagem-cartao {
+    height: 290px !important;
+    min-height: 290px !important;
+    max-height: 290px !important;
+    overflow: hidden;
+}
+
+.catalogo-lista .cartao-orquidea-v4 .imagem-cartao {
+    width: 100%;
+    height: 100% !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*
+ * As miniaturas também ficam contidas no mesmo quadro,
+ * independentemente da proporção original das fotos.
+ */
+.catalogo-lista .cartao-orquidea-v4 .galeria-lateral-lista {
+    height: 290px;
+    min-height: 0;
+    max-height: 290px;
+    overflow: hidden;
+}
+
+.catalogo-lista .cartao-orquidea-v4 .miniatura-lateral-lista {
+    min-height: 0 !important;
+    height: 100%;
+}
+
+.catalogo-lista .cartao-orquidea-v4 .miniatura-lateral-lista img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*
+ * O card não usa mais a altura natural da imagem como referência.
+ */
+.catalogo-lista .cartao-orquidea-v4 {
+    align-items: start;
+    min-height: 0;
+}
+
+/* Tablet */
+@media (max-width: 1100px) and (min-width: 701px) {
+    .catalogo-lista .cartao-orquidea-v4 .conjunto-imagens-cartao,
+    .catalogo-lista .cartao-orquidea-v4 .link-imagem-cartao,
+    .catalogo-lista .cartao-orquidea-v4 .area-imagem-cartao,
+    .catalogo-lista .cartao-orquidea-v4 .galeria-lateral-lista {
+        height: 270px !important;
+        min-height: 270px !important;
+        max-height: 270px !important;
+    }
+}
+
+/* Celular mantém a imagem responsiva. */
+@media (max-width: 700px) {
+    .catalogo-lista .cartao-orquidea-v4 .conjunto-imagens-cartao,
+    .catalogo-lista .cartao-orquidea-v4 .link-imagem-cartao,
+    .catalogo-lista .cartao-orquidea-v4 .area-imagem-cartao,
+    .catalogo-lista .cartao-orquidea-v4 .galeria-lateral-lista {
+        height: auto !important;
+        min-height: 0 !important;
+        max-height: none !important;
+    }
+
+    .catalogo-lista .cartao-orquidea-v4 .area-imagem-cartao {
+        aspect-ratio: 16 / 9;
+    }
+
+    .catalogo-lista .cartao-orquidea-v4 .imagem-cartao {
+        height: 100% !important;
+    }
+
+    .catalogo-lista .cartao-orquidea-v4 .galeria-lateral-lista {
+        grid-template-rows: 70px;
+    }
+}
