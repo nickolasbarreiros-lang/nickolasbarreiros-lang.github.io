@@ -19,10 +19,10 @@ export const notyliaPubescens = {
         "imagens/Notylia pubescens/Notylia pubescens3.jpg",
         "imagens/Notylia pubescens/Notylia pubescens4.jpg"
     ],
-    "descricao": "Notylia de porte pequeno a médio, com pseudobulbos discretos, uma folha larga por crescimento e racemos pendentes densamente cobertos por flores pequenas. É mais interessante quando cultivada em touceira e vista de baixo, onde as hastes ficam livres.",
-    "origem": "Espécie neotropical registrada em áreas tropicais da América. O gênero ocorre do México ao sul da América tropical, e revisões recentes reforçam a necessidade de identificação cuidadosa entre espécies semelhantes.",
-    "regiao": "América tropical.",
-    "habitat": "Epífita em florestas quentes e úmidas, normalmente em galhos com sombra clara e boa ventilação.",
+    "descricao": "Micro-orquídea epífita brasileira, de porte compacto, com pseudobulbos discretos, uma folha larga por crescimento e racemos pendentes densamente cobertos por flores pequenas. É mais interessante quando cultivada em touceira e vista de baixo, onde as hastes ficam livres.",
+    "origem": "Espécie endêmica do Brasil, nativa do leste e sul do país, com ocorrência em áreas de Mata Atlântica das regiões Nordeste, Sudeste e Sul.",
+    "regiao": "Brasil.",
+    "habitat": "Epífita em matas úmidas brasileiras, especialmente em ambientes de Mata Atlântica, sobre galhos com sombra clara, umidade elevada e boa ventilação.",
     "clima": "Quente a intermediário. Prefere umidade elevada, mas raízes pequenas exigem secagem parcial e circulação constante.",
     "climaFloracao": "A haste surge de crescimento maduro. Luz insuficiente reduz o número de flores; secagem prolongada durante a formação da inflorescência pode causar aborto de botões.",
     "iluminacao": {

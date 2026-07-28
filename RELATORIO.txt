@@ -1,25 +1,14 @@
-CARD V3.12 — DETECÇÃO AMPLIADA DE HÍBRIDOS
+CORREÇÃO — NOTYLIA PUBESCENS
 
-Correção aplicada:
-- Cattlianthe Chocolate Drop
-- Cattlianthe Jewel Box
-- Cattlianthe Trick or Treat
+Alterações:
+- Origem corrigida para Brasil.
+- Removida a informação incorreta que remetia ao México e à distribuição do gênero.
+- Região alterada para Brasil.
+- Descrição ajustada para micro-orquídea epífita brasileira.
+- Habitat atualizado para matas úmidas brasileiras/Mata Atlântica.
 
-Esses híbridos agora seguem o padrão do card:
-🧪 Híbrido Horticultural
-
-A detecção passa a reconhecer também:
-- híbrido hortícola;
-- híbrido horticultural;
-- híbrido registrado;
-- híbrido clássico;
-- híbrido artificial;
-- grex;
-- cruzamento;
-- registros RHS;
-- menções à aliança Cattleya.
-
-Formas, variedades e subespécies botânicas continuam excluídas da regra.
+Resultado esperado no card:
+🇧🇷 Brasil
 
 Arquivo alterado:
-- js/geografia.js
+- dados/orquideas/notylia-pubescens.js
