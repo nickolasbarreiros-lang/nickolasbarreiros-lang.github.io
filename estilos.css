@@ -5349,3 +5349,59 @@ main.container{
         font-size: 14px;
     }
 }
+
+
+/* =========================================================
+   CARD V2.2 — HIERARQUIA E REFINAMENTO VISUAL
+========================================================= */
+.cartao-orquidea-v4 .linha-genero-cartao {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.cartao-orquidea-v4 .linha-genero-cartao .rotulo-genero-cartao,
+.cartao-orquidea-v4 .linha-genero-cartao .genero-cartao {
+    margin: 0;
+    line-height: 1.25;
+}
+
+.cartao-orquidea-v4 .linha-genero-cartao .rotulo-genero-cartao {
+    color: #69756d;
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: none;
+}
+
+.cartao-orquidea-v4 .linha-genero-cartao .genero-cartao {
+    color: var(--verde-principal, #2f6f46);
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .04em;
+}
+
+.cartao-orquidea-v4 .selos-abaixo-imagem-cartao {
+    column-gap: 10px;
+    row-gap: 8px;
+}
+
+.cartao-orquidea-v4 .rotulo-avaliacao-compacta {
+    margin-bottom: 2px;
+}
+
+.cartao-orquidea-v4 .estrelas-avaliacao-compacta {
+    margin-top: 0;
+}
+
+@media (max-width: 520px) {
+    .cartao-orquidea-v4 .linha-genero-cartao .rotulo-genero-cartao {
+        font-size: 11px;
+    }
+
+    .cartao-orquidea-v4 .linha-genero-cartao .genero-cartao {
+        font-size: 12.5px;
+    }
+}

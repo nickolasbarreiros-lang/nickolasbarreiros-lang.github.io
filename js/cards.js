@@ -450,7 +450,11 @@ function resumirOrigem(orquidea) {
         .map(([, rotulo]) => rotulo);
 
     if (encontrados.length) return encontrados[0];
-    return primeiraFrase(origem, 58).replace(/[.;:]$/, "");
+
+    return primeiraFrase(origem, 58)
+        .replace(/^origin[aá]ria\s+d[aeo]s?\s+/i, "")
+        .replace(/^nativa\s+d[aeo]s?\s+/i, "")
+        .replace(/[.;:]$/, "");
 }
 
 function detectarPorte(orquidea) {
@@ -612,8 +616,10 @@ export function criarCartaoOrquidea(
 
             <div class="conteudo-cartao">
                 <div class="identificacao-cartao">
-                    <span class="rotulo-genero-cartao">Gênero</span>
-                    <span class="genero-cartao">${escaparHTML(genero)}</span>
+                    <div class="linha-genero-cartao">
+                        <span class="rotulo-genero-cartao">Gênero:</span>
+                        <span class="genero-cartao">${escaparHTML(genero)}</span>
+                    </div>
                     <h3><a href="${escaparHTML(enderecoFicha)}"><em>${escaparHTML(nome)}</em></a></h3>
                     ${informacoesRapidas}
                 </div>

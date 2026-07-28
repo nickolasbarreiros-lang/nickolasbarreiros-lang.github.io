@@ -1,14 +1,13 @@
-CARD V2.1 — LEGIBILIDADE E APROVEITAMENTO DO ESPAÇO
+CARD V2.2 — AJUSTES IMPLEMENTADOS
 
 Arquivos alterados:
 - js/cards.js
 - estilos.css
 
-Ajustes:
-- inclusão de “Dificuldade:” antes de Fácil, Moderada ou Difícil;
-- aumento das fontes do gênero, informações rápidas, descrição, selos e avaliação;
-- descrição ampliada para até três linhas;
-- avaliação 2x3 mais arejada, com estrelas e rótulos maiores;
-- botão maior e mais arredondado;
-- espaçamentos redistribuídos sem compactação excessiva;
-- selo de sinônimo mantido discreto e alinhado aos demais.
+Alterações:
+- gênero exibido em uma única linha: "Gênero: Acianthera";
+- rótulo "Gênero:" em tom neutro e valor do gênero em verde;
+- remoção automática de expressões como "Originária da" e "Nativa do" no resumo de origem;
+- maior espaçamento horizontal entre os selos;
+- estrelas aproximadas dos títulos no painel de avaliação;
+- ajustes responsivos mantidos.
