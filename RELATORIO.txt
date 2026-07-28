@@ -1,14 +1,19 @@
-CORREÇÃO — NOTYLIA PUBESCENS
+CORREÇÃO — GEOGRAFIA E ORIGENS
 
-Alterações:
-- Origem corrigida para Brasil.
-- Removida a informação incorreta que remetia ao México e à distribuição do gênero.
-- Região alterada para Brasil.
-- Descrição ajustada para micro-orquídea epífita brasileira.
-- Habitat atualizado para matas úmidas brasileiras/Mata Atlântica.
+Correções nas fichas:
+- Specklinia grobyi: origem corrigida para América Tropical, abrangendo América Central e América do Sul.
+- Stanhopea guttulata: origem corrigida para Brasil.
 
-Resultado esperado no card:
-🇧🇷 Brasil
+Correção estrutural:
+- A identificação de países usa limites de palavra, evitando correspondências falsas.
+- Países da América Central + América do Sul são resumidos como América Tropical.
+- Vários países da mesma região são resumidos para a região ampla.
 
-Arquivo alterado:
-- dados/orquideas/notylia-pubescens.js
+Resultado esperado:
+- Specklinia grobyi → 🌍 América Tropical
+- Stanhopea guttulata → 🇧🇷 Brasil
+
+Arquivos alterados:
+- js/geografia.js
+- dados/orquideas/specklinia-grobyi.js
+- dados/orquideas/stanhopea-guttulata.js

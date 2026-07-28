@@ -14,8 +14,8 @@ export const stanhopeaGuttulata = {
         "imagens/Stanhopea guttulata/Stanhopea guttulata4.jpg"
     ],
     descricao: "Stanhopea de flores grandes, cerosas, muito perfumadas e marcadas por pintas ou manchas contrastantes. As inflorescências são geotrópicas e atravessam o substrato para florescer pela parte inferior do recipiente.",
-    origem: "México e América Central.",
-    regiao: "Florestas montanhosas úmidas da Mesoamérica.",
+    origem: "Espécie endêmica do Brasil, nativa de florestas úmidas e sombreadas da região Sudeste, onde cresce como epífita em áreas de média altitude.",
+    regiao: "Brasil.",
     habitat: "Epífita em troncos e forquilhas onde se acumula matéria orgânica úmida, sob sombra clara e circulação de ar constante.",
     clima: "Intermediário a quente, úmido e ventilado.",
     climaFloracao: "Floresce após a maturação de pseudobulbos robustos. A combinação de boa hidratação, adubação durante o crescimento, noites ligeiramente mais frescas e espaço livre sob a cesta favorece a emissão das hastes.",

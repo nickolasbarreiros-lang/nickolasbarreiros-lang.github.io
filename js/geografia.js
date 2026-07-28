@@ -75,7 +75,15 @@ function normalizarTexto(valor) {
 }
 
 function contemChave(textoNormalizado, chave) {
-    return textoNormalizado.includes(normalizarTexto(chave));
+    const chaveNormalizada = normalizarTexto(chave)
+        .replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+    const expressao = new RegExp(
+        `(^|[^a-z0-9])${chaveNormalizada}([^a-z0-9]|$)`,
+        "i"
+    );
+
+    return expressao.test(textoNormalizado);
 }
 
 function encontrarRegiaoExplicita(textoNormalizado) {
@@ -86,7 +94,9 @@ function encontrarRegiaoExplicita(textoNormalizado) {
 
 function encontrarPaises(textoNormalizado) {
     return PAISES.filter((pais) =>
-        pais.chaves.some((chave) => contemChave(textoNormalizado, chave))
+        pais.chaves.some((chave) =>
+            contemChave(textoNormalizado, chave)
+        )
     );
 }
 
@@ -102,9 +112,43 @@ function escolherRegiaoDosPaises(paises, marcadores) {
         ...marcadores
     ].filter(Boolean);
 
-    if (regioes.length === 0) {
-        return null;
+    const temAmericaCentral = regioes.includes("América Central");
+    const temAmericaSul = regioes.includes("América do Sul") ||
+        regioes.includes("Andes Tropicais");
+
+    if (temAmericaCentral && temAmericaSul) {
+        return "América Tropical";
     }
+
+    if (paises.length >= 2) {
+        if (paises.every((pais) => pais.regiao === "Sul da Ásia")) {
+            return "Sul da Ásia";
+        }
+
+        if (paises.every((pais) => pais.regiao === "Sudeste Asiático")) {
+            return "Sudeste Asiático";
+        }
+
+        if (paises.every((pais) =>
+            pais.regiao === "América do Sul" ||
+            pais.regiao === "Andes Tropicais"
+        )) {
+            return "América do Sul";
+        }
+
+        if (paises.every((pais) => pais.regiao === "África Tropical")) {
+            return "África Tropical";
+        }
+
+        if (paises.every((pais) =>
+            pais.regiao === "Oceania" ||
+            pais.regiao === "Oceano Índico"
+        )) {
+            return "Oceania";
+        }
+    }
+
+    if (regioes.length === 0) return null;
 
     const contagem = regioes.reduce((resultado, regiao) => {
         resultado[regiao] = (resultado[regiao] || 0) + 1;

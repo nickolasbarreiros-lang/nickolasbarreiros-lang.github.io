@@ -14,8 +14,8 @@ export const speckliniaGrobyi = {
         "imagens/Specklinia grobyi/Specklinia grobyi4.jpg"
     ],
     descricao: "Miniatura epífita de crescimento cespitoso, com folhas pequenas e flores discretas produzidas próximas à base. É uma espécie variável e de ampla distribuição, por isso plantas comercializadas com esse nome podem apresentar diferenças de porte e coloração.",
-    origem: "Sul do México até a América do Sul tropical.",
-    regiao: "América Central, Caribe e grande parte da América do Sul tropical.",
+    origem: "Espécie nativa da América Tropical, com ampla distribuição na América Central e América do Sul, incluindo Brasil, Paraguai, Argentina, Equador e Costa Rica.",
+    regiao: "América Tropical.",
     habitat: "Ramos e troncos finos em florestas tropicais, frequentemente em locais úmidos, ventilados e com luz filtrada.",
     clima: "Quente a intermediário, úmido e bem ventilado.",
     climaFloracao: "Floresce melhor quando mantém crescimento contínuo, raízes vivas e boa diferença entre a luminosidade do dia e a queda natural de temperatura à noite. Não exige frio intenso, mas sofre com calor abafado e raízes constantemente encharcadas.",
