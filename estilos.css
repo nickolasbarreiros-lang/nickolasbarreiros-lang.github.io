@@ -5801,3 +5801,54 @@ main.container{
         width: 100%;
     }
 }
+
+
+/* =========================================================
+   CARD V3.4 — MAIS ESPAÇO PARA O SINÔNIMO
+========================================================= */
+
+.cartao-orquidea-v4 .rodape-cartao {
+    grid-template-columns: minmax(0, 1fr) max-content;
+    gap: 10px;
+}
+
+.cartao-orquidea-v4 .rodape-cartao .botao-ficha-completa {
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 13px;
+    letter-spacing: .025em;
+}
+
+.cartao-orquidea-v4 .rotulo-sinonimo-rodape {
+    margin-bottom: 1px;
+    font-size: 9px;
+    letter-spacing: .06em;
+}
+
+.cartao-orquidea-v4 .selo-sinonimo-rodape {
+    gap: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cartao-orquidea-v4 .texto-sinonimo-rodape em {
+    max-width: none;
+    font-size: 12.5px;
+}
+
+@media (max-width: 540px) {
+    .cartao-orquidea-v4 .rodape-cartao {
+        gap: 8px;
+    }
+
+    .cartao-orquidea-v4 .rodape-cartao .botao-ficha-completa {
+        padding-left: 11px;
+        padding-right: 11px;
+        font-size: 12px;
+    }
+
+    .cartao-orquidea-v4 .texto-sinonimo-rodape em {
+        max-width: none;
+        font-size: 12px;
+    }
+}

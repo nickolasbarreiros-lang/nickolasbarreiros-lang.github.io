@@ -653,7 +653,7 @@ export function criarCartaoOrquidea(
                     </div>
 
                     <a class="botao-ficha-completa" href="${escaparHTML(enderecoFicha)}">
-                        Ver ficha completa <span aria-hidden="true">→</span>
+                        FICHA COMPLETA <span aria-hidden="true">→</span>
                     </a>
                 </div>
             </div>

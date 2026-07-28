@@ -1,13 +1,11 @@
-CARD V3.3 — SINÔNIMO NO RODAPÉ
+CARD V3.4 — MAIS ESPAÇO PARA O SINÔNIMO
 
 Alterações:
-- O selo de sinônimo foi removido da faixa abaixo da foto.
-- O sinônimo agora aparece no rodapé, à esquerda do botão.
-- O botão "Ver ficha completa" permanece à direita.
-- Cards sem sinônimo não exibem selo.
-- O espaço do rodapé é preservado para melhorar o alinhamento entre os cards.
-- Em celulares muito estreitos, os elementos são empilhados para manter a leitura.
-- A etiqueta ganhou aparência dourada discreta, semelhante a uma etiqueta de herbário.
+- O botão passou de “Ver ficha completa” para “FICHA COMPLETA”.
+- Redução do padding horizontal do botão.
+- Rótulo “SINÔNIMO” ficou menor e mais compacto.
+- O selo ganhou maior prioridade de largura.
+- Ajustes responsivos preservados.
 
 Arquivos alterados:
 - js/cards.js
