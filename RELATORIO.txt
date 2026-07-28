@@ -1,11 +1,14 @@
-CARD V3.8 — ORIGEM RESUMIDA POR PAÍS OU REGIÃO
+CARD V3.9 — HÍBRIDOS HORTICULTURAIS
 
 Alterações:
-- O card não exibe mais biomas ou locais internos do país, como Mata Atlântica e Campos Rupestres.
-- Quando a origem é específica de um único país, mostra bandeira + país.
-- Quando abrange vários países, mostra continente ou região ampla.
-- A ficha completa continua exibindo a origem detalhada.
-- País específico agora tem prioridade sobre biomas locais.
+- Todos os híbridos exibem no card: 🧪 Híbrido Horticultural.
+- A origem geográfica deixa de ser exibida no card quando a planta é híbrida.
+- A detecção considera:
+  • tipo marcado como híbrido;
+  • nothogênero/nothogênero;
+  • presença do símbolo × no nome;
+  • origem ou descrição indicando híbrido horticultural.
+- A ficha completa permanece inalterada.
 
 Arquivo alterado:
 - js/geografia.js

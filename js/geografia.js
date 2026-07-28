@@ -128,12 +128,40 @@ function extrairTrechoCurto(textoOriginal, limite = 30) {
         : trecho;
 }
 
+
+function ehHibridoHorticultural(orquidea) {
+    const tipo = normalizarTexto(orquidea?.tipo);
+    const nome = String(orquidea?.nome || "");
+    const nomeCientifico = String(orquidea?.nomeCientifico || "");
+    const origem = normalizarTexto(orquidea?.origem);
+    const descricao = normalizarTexto(orquidea?.descricao);
+
+    return (
+        tipo.includes("hibrido") ||
+        tipo.includes("notogenero") ||
+        tipo.includes("nothogenero") ||
+        nome.includes("×") ||
+        nomeCientifico.includes("×") ||
+        origem.includes("hibrido") ||
+        origem.includes("horticultural") ||
+        descricao.includes("hibrido horticultural")
+    );
+}
+
 export function resumirOrigem(orquidea) {
     const textoOriginal = String(
         orquidea?.origem ||
         orquidea?.distribuicao ||
         ""
     ).trim();
+
+    if (ehHibridoHorticultural(orquidea)) {
+        return {
+            icone: "🧪",
+            texto: "Híbrido Horticultural",
+            tipo: "hibrido"
+        };
+    }
 
     if (!textoOriginal) {
         return {
