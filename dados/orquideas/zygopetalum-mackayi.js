@@ -5,6 +5,7 @@ export const zygopetalumMackayi = {
     id: "zygopetalum-mackayi",
     nome: "Zygopetalum mackayi",
     genero: "Zygopetalum",
+    sinonimo: "Zygopetalum maculatum subsp. maculatum",
     tipo: "Espécie botânica — sinônimo atual: Zygopetalum maculatum subsp. maculatum",
     dificuldade: "Moderada",
     caracteristicas: ["Brasileira", "Perfumada", "Flores verdes e roxas", "Clima ameno"],

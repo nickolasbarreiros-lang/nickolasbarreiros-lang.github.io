@@ -4,6 +4,7 @@ export const aciantheraAveniformis = {
     id: "acianthera-aveniformis",
     nome: "Acianthera aveniformis",
     genero: "Acianthera",
+    sinonimo: "Pleurothallis aveniformis",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: [

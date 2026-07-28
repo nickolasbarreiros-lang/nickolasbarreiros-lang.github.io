@@ -5,6 +5,7 @@ export const camaridiumCarinatum = {
     id: "camaridium-carinatum",
     nome: "Maxillaria imbricata",
     genero: "Maxillaria",
+    sinonimo: "Camaridium carinatum",
     tipo: "Espécie botânica — sinônimo: Camaridium carinatum",
     dificuldade: "Moderada",
     caracteristicas: [

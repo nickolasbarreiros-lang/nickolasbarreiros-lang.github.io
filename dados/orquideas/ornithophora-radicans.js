@@ -2,8 +2,9 @@
 
 export const ornithophoraRadicans = {
     id: "ornithophora-radicans",
-    nome: "Gomesa radicans (sin. Ornithophora radicans)",
+    nome: "Gomesa radicans",
     genero: "Gomesa",
+    sinonimo: "Ornithophora radicans",
     tipo: "Espécie botânica",
     dificuldade: "Fácil a moderada",
     caracteristicas: [

@@ -5,6 +5,7 @@ export const oncidiumPumilum = {
     id: "oncidium-pumilum",
     nome: "Trichocentrum pumilum",
     genero: "Trichocentrum",
+    sinonimo: "Oncidium pumilum",
     tipo: "Espécie botânica — sinônimo: Oncidium pumilum",
     dificuldade: "Fácil a moderada",
     caracteristicas: ["Miniatura brasileira", "Muitas flores amarelas", "Touceira compacta", "Ótima para placa"],

@@ -4,6 +4,7 @@ export const brassavolaPerrini = {
     id: "brassavola-perrini",
     nome: "Brassavola tuberculata",
     genero: "Brassavola",
+    sinonimo: "Brassavola perrinii",
     tipo: "Espécie botânica",
     dificuldade: "Fácil",
     caracteristicas: [

@@ -4,6 +4,7 @@ export const lcTrickOrTreat = {
     "id": "lc-trick-or-treat",
     "nome": "Cattlianthe Trick or Treat",
     "genero": "Cattlianthe",
+    "sinonimo": "Laeliocattleya Trick or Treat",
     "tipo": "Híbrido intergenérico",
     "dificuldade": "Fácil",
     "caracteristicas": [

@@ -4,6 +4,7 @@ export const sophronitisCernuaVarLitoranea = {
     id: "sophronitis-cernua-var-litoranea",
     nome: "Cattleya cernua — forma litorânea",
     genero: "Cattleya",
+    sinonimo: "Sophronitis cernua var. litorânea",
     tipo: "Forma geográfica / denominação horticultural",
     dificuldade: "Moderada",
     caracteristicas: [

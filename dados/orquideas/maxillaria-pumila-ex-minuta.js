@@ -4,6 +4,7 @@ export const maxillariaPumilaExMinuta = {
     "id": "maxillaria-pumila-ex-minuta",
     "nome": "Maxillaria pumila (ex-minuta)",
     "genero": "Maxillaria",
+    "sinonimo": "Christensonella minuta",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "caracteristicas": [

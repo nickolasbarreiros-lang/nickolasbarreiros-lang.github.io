@@ -4,6 +4,7 @@ export const aciantheraGlumacea = {
     id: "acianthera-glumacea",
     nome: "Acianthera glumacea",
     genero: "Acianthera",
+    sinonimo: "Pleurothallis glumacea",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: [

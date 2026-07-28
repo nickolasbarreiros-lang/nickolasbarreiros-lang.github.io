@@ -4,6 +4,7 @@ export const laeliaFournieri = {
     "id": "laelia-fournieri",
     "nome": "Cattleya fournieri",
     "genero": "Cattleya",
+    "sinonimo": "Laelia fournieri",
     "tipo": "Espécie botânica",
     "dificuldade": "Difícil",
     "caracteristicas": [

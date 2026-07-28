@@ -474,15 +474,20 @@ function detectarHabito(orquidea) {
 }
 
 function criarSelosEspecie(orquidea, limite = 3) {
-    const selos = [
+    const selosPrincipais = [
         { icone: "🌿", texto: detectarHabito(orquidea) },
         { icone: "📏", texto: detectarPorte(orquidea) },
         { icone: "🌺", texto: Number(orquidea?.avaliacoes?.perfume) >= 4 ? "Perfumada" : null },
         { icone: "💎", texto: Number(orquidea?.avaliacoes?.raridade) >= 4 ? "Rara" : null }
     ].filter((selo) => selo.texto).slice(0, limite);
 
+    const sinonimo = String(orquidea?.sinonimo || "").trim();
+    const selos = sinonimo
+        ? [...selosPrincipais, { icone: "🏷️", texto: `Sinônimo: ${sinonimo}`, classe: "selo-sinonimo" }]
+        : selosPrincipais;
+
     return selos.map((selo) => `
-        <span class="selo-visual-cartao">
+        <span class="selo-visual-cartao ${selo.classe || ""}">
             <span aria-hidden="true">${selo.icone}</span>
             ${escaparHTML(selo.texto)}
         </span>

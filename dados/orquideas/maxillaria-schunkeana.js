@@ -4,6 +4,7 @@ export const maxillariaSchunkeana = {
     "id": "maxillaria-schunkeana",
     "nome": "Maxillaria schunkeana",
     "genero": "Maxillaria",
+    "sinonimo": "Brasiliorchis schunkeana",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "caracteristicas": [

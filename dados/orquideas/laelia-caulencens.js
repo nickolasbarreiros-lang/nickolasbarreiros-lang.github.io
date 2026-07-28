@@ -4,6 +4,7 @@ export const laeliaCaulencens = {
     "id": "laelia-caulencens",
     "nome": "Cattleya caulescens",
     "genero": "Cattleya",
+    "sinonimo": "Laelia caulescens",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "caracteristicas": [

@@ -4,6 +4,7 @@ export const leptotesUnicolor = {
     "id": "leptotes-unicolor",
     "nome": "Leptotes unicolor",
     "genero": "Leptotes",
+    "sinonimo": "Leptotes paranaensis",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "caracteristicas": [

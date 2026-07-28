@@ -5,6 +5,7 @@ export const sophronitisWittigiana = {
     id: "sophronitis-wittigiana",
     nome: "Cattleya wittigiana",
     genero: "Cattleya",
+    sinonimo: "Sophronitis wittigiana",
     tipo: "Espécie botânica — sinônimo: Sophronitis wittigiana",
     dificuldade: "Avançada",
     caracteristicas: ["Miniatura brasileira", "Flor grande para o porte", "Clima fresco", "Mata Atlântica"],

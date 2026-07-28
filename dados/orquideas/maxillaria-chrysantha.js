@@ -4,6 +4,7 @@ export const maxillariaChrysantha = {
     "id": "maxillaria-chrysantha",
     "nome": "Maxillaria chrysantha",
     "genero": "Maxillaria",
+    "sinonimo": "Brasiliorchis chrysantha",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "caracteristicas": [

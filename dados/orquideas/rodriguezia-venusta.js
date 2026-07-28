@@ -2,8 +2,9 @@
 
 export const rodrigueziaVenusta = {
     id: "rodriguezia-venusta",
-    nome: "Rodriguezia bracteata (sin. Rodriguezia venusta)",
+    nome: "Rodriguezia bracteata",
     genero: "Rodriguezia",
+    sinonimo: "Rodriguezia venusta",
     tipo: "Espécie botânica",
     dificuldade: "Fácil a moderada",
     caracteristicas: ["Espécie sul-americana", "Flores claras e perfumadas", "Inflorescências pendentes", "Raízes finas"],

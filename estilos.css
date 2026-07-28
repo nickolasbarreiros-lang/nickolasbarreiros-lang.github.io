@@ -4952,3 +4952,14 @@ main.container{
   .atalhos-v4 .atalho-v4 small{font-size:11px;max-width:100%}
   .atalhos-v4 .atalho-v4::before{width:62%;height:72%;top:15px;right:0}
 }
+
+
+/* =========================================================
+   SELO DE SINÔNIMO
+========================================================= */
+.selo-visual-cartao.selo-sinonimo {
+    border-color: #e2bd57;
+    background: linear-gradient(135deg, #fff4c8 0%, #efd077 100%);
+    color: #765000;
+    box-shadow: 0 3px 11px rgba(157, 108, 0, .20);
+}

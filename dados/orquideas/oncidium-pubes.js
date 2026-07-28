@@ -4,6 +4,7 @@ export const oncidiumPubes = {
     "id": "oncidium-pubes",
     "nome": "Oncidium pubes",
     "genero": "Oncidium",
+    "sinonimo": "Baptistonia pubes",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "caracteristicas": [

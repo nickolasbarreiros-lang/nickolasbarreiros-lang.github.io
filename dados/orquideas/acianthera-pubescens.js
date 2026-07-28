@@ -4,6 +4,7 @@ export const aciantheraPubescens = {
     id: "acianthera-pubescens",
     nome: "Acianthera pubescens",
     genero: "Acianthera",
+    sinonimo: "Pleurothallis pubescens",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: [

@@ -1,14 +1,39 @@
-CORREÇÃO DAS FOTOS — NOVAS FICHAS
+ATUALIZAÇÃO — SELO DE SINÔNIMO
 
-As imagens foram colocadas dentro da pasta imagens, seguindo a estrutura real do site.
-Também foram atualizados os campos fotos das seis fichas.
+Fichas revisadas com sinônimo relevante: 29
 
-- laelia-praestans.js: 4 fotos em imagens/Laelia praestans/
-- phaius-tankervilleae-alba.js: 4 fotos em imagens/Phaius tankervilleae alba/
-- pleurothallis-modestissima.js: 4 fotos em imagens/Pleurothallis modestissima/
-- stanhopea-hernandezii.js: 4 fotos em imagens/Stanhopea hernandezii/
-- encyclia-oncidioides.js: 4 fotos em imagens/Encyclia oncidioides/
-- rodricidium.js: 4 fotos em imagens/Rodricidium/
+- O selo aparece somente quando o campo sinonimo está preenchido.
+- Apenas um nome anterior ou sinônimo de uso relevante foi adotado por ficha.
+- O selo segue o formato compacto dos demais selos e recebeu destaque dourado.
+- A busca do catálogo agora considera também o campo sinonimo.
 
-Incluído também:
-- dados/orquideas/index.js (versão corrigida com as seis fichas registradas)
+Fichas atualizadas:
+- acianthera-aveniformis.js: Pleurothallis aveniformis
+- acianthera-glumacea.js: Pleurothallis glumacea
+- acianthera-pubescens.js: Pleurothallis pubescens
+- brassavola-perrini.js: Brassavola perrinii
+- bulbophyllum-sikkimense.js: Bulbophyllum sikkimense
+- camaridium-carinatum.js: Camaridium carinatum
+- cattleya-chocolate-drop.js: Cattleya Chocolate Drop
+- cattleya-leopoldii-dark-princess.js: Cattleya leopoldii
+- colmanara-wildcat.js: Colmanara Wildcat
+- dendrobium-aggregatum.js: Dendrobium aggregatum
+- eria-hyacinthoides.js: Eria hyacinthoides
+- laelia-caulencens.js: Laelia caulescens
+- laelia-fournieri.js: Laelia fournieri
+- laelia-gloriosa.js: Schomburgkia gloriosa
+- laelia-praestans.js: Laelia praestans
+- lc-trick-or-treat.js: Laeliocattleya Trick or Treat
+- leptotes-unicolor.js: Leptotes paranaensis
+- maxillaria-chrysantha.js: Brasiliorchis chrysantha
+- maxillaria-pumila-ex-minuta.js: Christensonella minuta
+- maxillaria-schunkeana.js: Brasiliorchis schunkeana
+- oncidium-pubes.js: Baptistonia pubes
+- oncidium-pumilum.js: Oncidium pumilum
+- ornithophora-radicans.js: Ornithophora radicans
+- pleurothallis-modestissima.js: Acianthera modestissima
+- rodriguezia-venusta.js: Rodriguezia venusta
+- sophronitis-cernua-var-litoranea.js: Sophronitis cernua var. litorânea
+- sophronitis-cernua.js: Sophronitis cernua
+- sophronitis-wittigiana.js: Sophronitis wittigiana
+- zygopetalum-mackayi.js: Zygopetalum maculatum subsp. maculatum

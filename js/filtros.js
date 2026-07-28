@@ -39,7 +39,8 @@ const CAMPOS_PESQUISAVEIS = [
     "substrato",
     "dica",
     "dificuldade",
-    "nomePopular"
+    "nomePopular",
+    "sinonimo"
 ];
 
 const CAMPOS_PESQUISAVEIS_EM_LISTA = [

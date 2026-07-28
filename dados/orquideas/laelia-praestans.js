@@ -2,8 +2,9 @@
 
 export const laeliaPraestans = {
     id: "laelia-praestans",
-    nome: "Cattleya praestans (sin. Laelia praestans)",
+    nome: "Cattleya praestans",
     genero: "Cattleya",
+    sinonimo: "Laelia praestans",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Espécie brasileira", "Porte compacto", "Flores grandes", "Mata Atlântica"],

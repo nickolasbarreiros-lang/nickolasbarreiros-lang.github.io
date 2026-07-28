@@ -4,6 +4,7 @@ export const colmanaraWildcat = {
     id: "colmanara-wildcat",
     nome: "Oncostele Wildcat",
     genero: "Oncostele",
+    sinonimo: "Colmanara Wildcat",
     tipo: "Híbrido intergenérico — antigo Colmanara Wildcat",
     dificuldade: "Fácil a moderada",
     caracteristicas: ["Hastes ramificadas", "Flores pintalgadas", "Longa duração", "Híbrido Oncidiinae"],

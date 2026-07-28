@@ -4,6 +4,7 @@ export const pleurothallisModestissima = {
     id: "pleurothallis-modestissima",
     nome: "Pleurothallis modestissima",
     genero: "Pleurothallis",
+    sinonimo: "Acianthera modestissima",
     tipo: "Espécie botânica",
     dificuldade: "Moderada a difícil",
     caracteristicas: ["Micro-orquídea brasileira", "Nome aceito: Acianthera modestissima", "Epífita ou rupícola", "Raízes muito delicadas"],

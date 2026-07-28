@@ -4,6 +4,7 @@ export const cattleyaChocolateDrop = {
     id: "cattleya-chocolate-drop",
     nome: "Cattlianthe Chocolate Drop",
     genero: "Cattlianthe",
+    sinonimo: "Cattleya Chocolate Drop",
     tipo: "Híbrido primário — C. guttata × Guarianthe aurantiaca",
     dificuldade: "Fácil a moderada",
     caracteristicas: [

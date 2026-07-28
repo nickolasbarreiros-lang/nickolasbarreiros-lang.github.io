@@ -4,6 +4,7 @@ export const eriaHyacinthoides = {
     id: "eria-hyacinthoides",
     nome: "Bryobium hyacinthoides",
     genero: "Bryobium",
+    sinonimo: "Eria hyacinthoides",
     tipo: "Espécie botânica — nome atualizado",
     dificuldade: "Moderada",
     caracteristicas: ["Sinônimo: Eria hyacinthoides", "Sudeste Asiático", "Inflorescência densa", "Alta umidade"],

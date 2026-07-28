@@ -4,6 +4,7 @@ export const dendrobiumAggregatum = {
     id: "dendrobium-aggregatum",
     nome: "Dendrobium lindleyi",
     genero: "Dendrobium",
+    sinonimo: "Dendrobium aggregatum",
     tipo: "Espécie botânica — antigo Dendrobium aggregatum",
     dificuldade: "Moderada",
     caracteristicas: ["Flores amarelo-ouro", "Cachos pendentes", "Pseudobulbos curtos", "Repouso seco"],

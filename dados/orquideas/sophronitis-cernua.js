@@ -2,8 +2,9 @@
 
 export const sophronitisCernua = {
     id: "sophronitis-cernua",
-    nome: "Cattleya cernua (sin. Sophronitis cernua)",
+    nome: "Cattleya cernua",
     genero: "Cattleya",
+    sinonimo: "Sophronitis cernua",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Miniatura sul-americana", "Flores laranja-avermelhadas", "Forma touceiras", "Boa tolerância ao calor"],

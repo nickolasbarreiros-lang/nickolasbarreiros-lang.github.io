@@ -4,6 +4,7 @@ export const laeliaGloriosa = {
     id: "schomburgkia",
     nome: "Laelia gloriosa",
     genero: "Laelia",
+    sinonimo: "Schomburgkia gloriosa",
     tipo: "Espécie botânica",
     sinonimos: [
         "Schomburgkia gloriosa",
