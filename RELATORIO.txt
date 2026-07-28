@@ -1,13 +1,17 @@
-CARD V2.3 — DESTAQUE DO NOME PRINCIPAL
+CARD V3 PREMIUM — GUIA BOTÂNICO
 
-Alterações:
-- nome científico 2 px maior;
-- cor verde quase preta para maior contraste;
-- peso visual reforçado sem exagero;
-- linha decorativa curta abaixo do nome;
-- metadados Brasil/Dificuldade com peso levemente reduzido;
-- responsividade preservada.
-
-Arquivos:
+Arquivos alterados:
 - estilos.css
-- js/cards.js (mantido da V2.2 para compatibilidade do pacote)
+- js/cards.js (mantido da versão V2.3 para instalação conjunta)
+
+Implementações:
+- paleta oliva, marfim e dourado envelhecido;
+- nome científico em fonte serifada e itálica;
+- linha decorativa dourada abaixo do nome;
+- status de floração em estilo de plaqueta botânica;
+- selos com acabamento fosco e sombra suave;
+- sinônimo com dourado refinado;
+- avaliação com fundo marfim, moldura dourada e cantos discretos;
+- botão com gradiente verde profundo e contorno dourado;
+- responsividade preservada;
+- sem texturas pesadas e sem ícones ampliados.

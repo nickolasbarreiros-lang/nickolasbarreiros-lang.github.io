@@ -5446,3 +5446,180 @@ main.container{
         font-size: 23px;
     }
 }
+
+/* =========================================================
+   CARD V3 PREMIUM — GUIA BOTÂNICO
+   Paleta oliva, marfim e dourado envelhecido.
+   Mantém a estrutura e melhora a sofisticação visual.
+========================================================= */
+.cartao-orquidea-v4 {
+    --card-verde-oliva: #365b43;
+    --card-verde-profundo: #203b2d;
+    --card-dourado: #b48a3c;
+    --card-dourado-claro: #d9bd78;
+    --card-marfim: #fbf8f1;
+    --card-borda: #d8d2c5;
+    background: linear-gradient(180deg, #fffdf9 0%, var(--card-marfim) 100%);
+    border-color: #cfc9bb;
+    box-shadow: 0 8px 22px rgba(54, 50, 38, .10);
+}
+
+.cartao-orquidea-v4 .conteudo-cartao {
+    background: linear-gradient(180deg, rgba(255,255,255,.56), rgba(250,247,239,.78));
+}
+
+.cartao-orquidea-v4 .linha-genero-cartao .rotulo-genero-cartao {
+    color: #645f54;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 600;
+}
+
+.cartao-orquidea-v4 .linha-genero-cartao .genero-cartao {
+    color: var(--card-verde-oliva);
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+}
+
+.cartao-orquidea-v4 .identificacao-cartao h3,
+.cartao-orquidea-v4 .identificacao-cartao h3 a,
+.cartao-orquidea-v4 .identificacao-cartao h3 em {
+    color: var(--card-verde-profundo);
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: -.015em;
+}
+
+.cartao-orquidea-v4 .identificacao-cartao h3::after {
+    width: 64px;
+    height: 2px;
+    background: linear-gradient(90deg, var(--card-dourado), rgba(180,138,60,.16));
+    opacity: 1;
+}
+
+.cartao-orquidea-v4 .informacoes-rapidas-cartao {
+    color: #4c514b;
+}
+
+.cartao-orquidea-v4 .descricao-cartao-v4 {
+    color: #403f39;
+}
+
+/* Selos foscos: refinados, sem textura pesada. */
+.cartao-orquidea-v4 .selo-visual-cartao {
+    color: #385541;
+    background: linear-gradient(180deg, #fffefb 0%, #f3efe6 100%);
+    border: 1px solid #d9d1c1;
+    box-shadow: 0 3px 8px rgba(56, 49, 35, .10);
+}
+
+.cartao-orquidea-v4 .selo-sinonimo-cartao {
+    color: #6b4d16;
+    background: linear-gradient(180deg, #fff6d9 0%, #ead08a 100%);
+    border-color: #cda747;
+    box-shadow: 0 4px 10px rgba(142, 105, 29, .17);
+}
+
+/* Plaqueta de floração mais botânica e menos “app”. */
+.cartao-orquidea-v4 .status-floracao-cartao {
+    color: #f8e8bd;
+    background: linear-gradient(135deg, #395d45 0%, #233f30 100%);
+    border: 1px solid rgba(220,190,112,.75);
+    box-shadow: 0 5px 14px rgba(22, 42, 31, .30);
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    letter-spacing: .01em;
+}
+
+/* Avaliação em estilo de ficha de coleção, com moldura dourada discreta. */
+.cartao-orquidea-v4 .avaliacao-compacta-cartao {
+    position: relative;
+    overflow: visible;
+    border: 1px solid rgba(180,138,60,.58);
+    border-radius: 14px;
+    background:
+        linear-gradient(180deg, rgba(255,255,255,.86), rgba(248,243,232,.82));
+    box-shadow:
+        inset 0 0 0 3px rgba(255,255,255,.72),
+        0 4px 12px rgba(62, 53, 34, .08);
+}
+
+.cartao-orquidea-v4 .avaliacao-compacta-cartao::before,
+.cartao-orquidea-v4 .avaliacao-compacta-cartao::after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    pointer-events: none;
+}
+
+.cartao-orquidea-v4 .avaliacao-compacta-cartao::before {
+    top: -2px;
+    left: -2px;
+    border-top: 3px double var(--card-dourado);
+    border-left: 3px double var(--card-dourado);
+    border-radius: 8px 0 0 0;
+}
+
+.cartao-orquidea-v4 .avaliacao-compacta-cartao::after {
+    right: -2px;
+    bottom: -2px;
+    border-right: 3px double var(--card-dourado);
+    border-bottom: 3px double var(--card-dourado);
+    border-radius: 0 0 8px 0;
+}
+
+.cartao-orquidea-v4 .titulo-avaliacao-compacta {
+    color: var(--card-verde-profundo);
+    font-family: Georgia, "Times New Roman", serif;
+    border-bottom: 1px solid rgba(180,138,60,.24);
+}
+
+.cartao-orquidea-v4 .titulo-avaliacao-compacta > span:first-child,
+.cartao-orquidea-v4 .rotulo-avaliacao-compacta > span:first-child {
+    filter: saturate(.72) sepia(.15);
+}
+
+.cartao-orquidea-v4 .grade-avaliacao-compacta {
+    background: transparent;
+}
+
+.cartao-orquidea-v4 .item-avaliacao-compacta:nth-child(3n + 2),
+.cartao-orquidea-v4 .item-avaliacao-compacta:nth-child(3n + 3),
+.cartao-orquidea-v4 .item-avaliacao-compacta:nth-child(n + 4) {
+    border-color: rgba(180,138,60,.16);
+}
+
+.cartao-orquidea-v4 .rotulo-avaliacao-compacta {
+    color: #33493a;
+}
+
+.cartao-orquidea-v4 .estrelas-avaliacao-compacta {
+    color: #b67c08;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+}
+
+/* Botão premium com gradiente e brilho contido. */
+.cartao-orquidea-v4 .botao-ficha-completa {
+    color: #fff8e8;
+    background: linear-gradient(135deg, #365f46 0%, #21452f 72%, #173522 100%);
+    border: 1px solid rgba(198,159,77,.70);
+    box-shadow:
+        0 5px 12px rgba(32,65,45,.22),
+        inset 0 1px 0 rgba(255,255,255,.14);
+}
+
+.cartao-orquidea-v4 .botao-ficha-completa:hover {
+    background: linear-gradient(135deg, #40704f 0%, #28553a 72%, #1b3c28 100%);
+    box-shadow:
+        0 7px 16px rgba(32,65,45,.28),
+        inset 0 1px 0 rgba(255,255,255,.18);
+}
+
+@media (max-width: 520px) {
+    .cartao-orquidea-v4 .avaliacao-compacta-cartao::before,
+    .cartao-orquidea-v4 .avaliacao-compacta-cartao::after {
+        width: 15px;
+        height: 15px;
+    }
+}
