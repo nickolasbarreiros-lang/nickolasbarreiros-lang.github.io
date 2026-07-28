@@ -507,13 +507,11 @@ function obterSinonimoPrincipal(orquidea) {
 }
 
 function criarSelosEspecie(orquidea) {
-    const sinonimo = obterSinonimoPrincipal(orquidea);
     const selos = [
         { icone: "🌿", texto: detectarHabito(orquidea), classe: "" },
         { icone: "📏", texto: detectarPorte(orquidea), classe: "" },
         { icone: "🌺", texto: Number(orquidea?.avaliacoes?.perfume) >= 4 ? "Perfumada" : null, classe: "" },
-        { icone: "💎", texto: Number(orquidea?.avaliacoes?.raridade) >= 4 ? "Rara" : null, classe: "" },
-        { icone: "🏷️", texto: sinonimo ? `Sinônimo: ${sinonimo}` : null, classe: "selo-sinonimo-cartao" }
+        { icone: "💎", texto: Number(orquidea?.avaliacoes?.raridade) >= 4 ? "Rara" : null, classe: "" }
     ].filter((selo) => selo.texto);
 
     return selos.map((selo) => `
@@ -613,6 +611,7 @@ export function criarCartaoOrquidea(
     const selos = criarSelosEspecie(orquidea);
     const avaliacao = criarAvaliacaoCompacta(orquidea);
     const informacoesRapidas = criarInformacoesRapidas(orquidea, origemResumida);
+    const sinonimo = obterSinonimoPrincipal(orquidea);
 
     return `
         <article class="cartao-orquidea cartao-orquidea-v4" data-orquidea-id="${escaparHTML(orquidea.id || "")}">
@@ -640,7 +639,19 @@ export function criarCartaoOrquidea(
                 <p class="descricao-cartao descricao-cartao-v4">${escaparHTML(descricaoResumida)}</p>
                 ${avaliacao}
 
-                <div class="rodape-cartao">
+                <div class="rodape-cartao ${sinonimo ? "rodape-cartao-com-sinonimo" : "rodape-cartao-sem-sinonimo"}">
+                    <div class="espaco-sinonimo-rodape">
+                        ${sinonimo ? `
+                            <div class="selo-sinonimo-rodape" title="${escaparHTML(`Sinônimo: ${sinonimo}`)}">
+                                <span class="icone-sinonimo-rodape" aria-hidden="true">🏷️</span>
+                                <span class="texto-sinonimo-rodape">
+                                    <span class="rotulo-sinonimo-rodape">Sinônimo</span>
+                                    <em>${escaparHTML(sinonimo)}</em>
+                                </span>
+                            </div>
+                        ` : ""}
+                    </div>
+
                     <a class="botao-ficha-completa" href="${escaparHTML(enderecoFicha)}">
                         Ver ficha completa <span aria-hidden="true">→</span>
                     </a>

@@ -5657,3 +5657,147 @@ main.container{
 .cartao-orquidea-v4 .status-floracao-cartao.status-sem-periodo {
     display: none;
 }
+
+
+/* =========================================================
+   CARD V3.3 — SINÔNIMO NO RODAPÉ
+========================================================= */
+
+/* O sinônimo deixa de ocupar a faixa de características. */
+.selos-abaixo-imagem-cartao .selo-sinonimo-cartao {
+    display: none !important;
+}
+
+/* Mantém o rodapé alinhado e aproveita o espaço ao lado do botão. */
+.cartao-orquidea-v4 .rodape-cartao {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: stretch;
+    gap: 14px;
+    margin-top: auto;
+    min-height: 58px;
+}
+
+.cartao-orquidea-v4 .espaco-sinonimo-rodape {
+    min-width: 0;
+    display: flex;
+    align-items: stretch;
+}
+
+/* Reserva a mesma faixa nos cards sem sinônimo, sem mostrar selo. */
+.cartao-orquidea-v4 .rodape-cartao-sem-sinonimo .espaco-sinonimo-rodape {
+    visibility: hidden;
+}
+
+/* Etiqueta taxonômica compacta, inspirada em etiqueta de herbário. */
+.cartao-orquidea-v4 .selo-sinonimo-rodape {
+    width: 100%;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 8px 12px;
+    border: 1px solid #c99a3c;
+    border-radius: 15px;
+    background:
+        linear-gradient(135deg, #fff8df 0%, #f4dfa5 100%);
+    color: #5d471c;
+    box-shadow:
+        0 4px 10px rgba(107, 78, 24, 0.13),
+        inset 0 1px 0 rgba(255,255,255,.75);
+}
+
+.cartao-orquidea-v4 .icone-sinonimo-rodape {
+    flex: 0 0 auto;
+    font-size: 15px;
+}
+
+.cartao-orquidea-v4 .texto-sinonimo-rodape {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.15;
+}
+
+.cartao-orquidea-v4 .rotulo-sinonimo-rodape {
+    margin-bottom: 3px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .075em;
+    text-transform: uppercase;
+    color: #866520;
+}
+
+.cartao-orquidea-v4 .texto-sinonimo-rodape em {
+    display: block;
+    overflow: hidden;
+    color: #4d3a16;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* Botão com altura compatível com a etiqueta. */
+.cartao-orquidea-v4 .rodape-cartao .botao-ficha-completa {
+    min-height: 58px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    white-space: nowrap;
+}
+
+/* Equaliza o fechamento visual dos cards da mesma linha. */
+.cartao-orquidea-v4 .conteudo-cartao {
+    display: flex;
+    flex-direction: column;
+}
+
+.cartao-orquidea-v4 .avaliacao-compacta-cartao {
+    margin-bottom: 0;
+}
+
+/* Em telas estreitas, mantém os dois elementos lado a lado enquanto couberem. */
+@media (max-width: 540px) {
+    .cartao-orquidea-v4 .rodape-cartao {
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 10px;
+    }
+
+    .cartao-orquidea-v4 .selo-sinonimo-rodape {
+        padding: 8px 10px;
+    }
+
+    .cartao-orquidea-v4 .texto-sinonimo-rodape em {
+        max-width: 150px;
+        font-size: 12px;
+    }
+
+    .cartao-orquidea-v4 .rodape-cartao .botao-ficha-completa {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
+
+/* Celulares muito estreitos: empilha sem quebrar ou comprimir o texto. */
+@media (max-width: 390px) {
+    .cartao-orquidea-v4 .rodape-cartao {
+        grid-template-columns: 1fr;
+        min-height: 0;
+    }
+
+    .cartao-orquidea-v4 .rodape-cartao-sem-sinonimo .espaco-sinonimo-rodape {
+        display: none;
+    }
+
+    .cartao-orquidea-v4 .texto-sinonimo-rodape em {
+        max-width: none;
+    }
+
+    .cartao-orquidea-v4 .rodape-cartao .botao-ficha-completa {
+        width: 100%;
+    }
+}
