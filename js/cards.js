@@ -392,6 +392,19 @@ export function criarStatusFloracao(
             mesReferencia
         );
 
+    const classesVisiveis = new Set([
+        "status-florindo",
+        "status-atual",
+        "status-proxima",
+        "status-proximo",
+        "status-aproximando"
+    ]);
+
+    // Fora da época de floração, o card permanece sem plaqueta.
+    if (!classesVisiveis.has(status.classe)) {
+        return "";
+    }
+
     return `
         <span
             class="status-floracao-cartao ${escaparHTML(

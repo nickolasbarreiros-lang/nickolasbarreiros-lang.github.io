@@ -5652,20 +5652,8 @@ main.container{
         0 0 0 1px rgba(255, 255, 255, .16) inset;
 }
 
-/* Fora de época: verde oliva bem escuro. */
-.cartao-orquidea-v4 .status-floracao-cartao.status-fora-epoca {
-    color: #f6f1df;
-    background: linear-gradient(135deg, #53603a 0%, #384429 100%);
-    border-color: #2d371f;
-    box-shadow:
-        0 5px 14px rgba(42, 51, 30, .30),
-        0 0 0 1px rgba(224, 202, 137, .16) inset;
-}
-
-/* Mantém o estado sem período informado neutro e distinto dos três estados sazonais. */
+/* Estados sem destaque não são exibidos nos cards. */
+.cartao-orquidea-v4 .status-floracao-cartao.status-fora-epoca,
 .cartao-orquidea-v4 .status-floracao-cartao.status-sem-periodo {
-    color: #4f544f;
-    background: linear-gradient(135deg, #f4f2eb 0%, #e6e2d7 100%);
-    border-color: #c9c3b4;
-    box-shadow: 0 4px 10px rgba(56, 52, 43, .14);
+    display: none;
 }

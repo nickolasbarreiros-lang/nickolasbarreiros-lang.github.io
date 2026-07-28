@@ -1,12 +1,11 @@
-CARD V3.1 — STATUS DE FLORAÇÃO
+CARD V3.2 — REMOÇÃO DO SELO "FORA DE ÉPOCA"
 
-Alterado:
+Alterações:
+- O card mostra plaqueta somente em "Florescendo agora" e "Floração se aproximando".
+- Fora da época de floração, nenhuma plaqueta é renderizada.
+- Plantas sem período informado também permanecem sem plaqueta.
+- As cores neon e esmeralda dos dois estados ativos foram preservadas.
+
+Arquivos alterados:
+- js/cards.js
 - estilos.css
-
-Novas cores nos cards:
-- Florescendo agora: verde neon claro.
-- Floração se aproximando: verde esmeralda médio.
-- Fora de época: verde oliva bem escuro.
-- Sem período informado: permanece neutro.
-
-A estrutura, o tamanho e a posição das plaquetas foram preservados.
