@@ -1,14 +1,22 @@
-CARD V3.9 — HÍBRIDOS HORTICULTURAIS
+CARD V3.10 — CORREÇÃO DE FORMAS BOTÂNICAS
 
-Alterações:
-- Todos os híbridos exibem no card: 🧪 Híbrido Horticultural.
-- A origem geográfica deixa de ser exibida no card quando a planta é híbrida.
-- A detecção considera:
-  • tipo marcado como híbrido;
-  • nothogênero/nothogênero;
-  • presença do símbolo × no nome;
-  • origem ou descrição indicando híbrido horticultural.
-- A ficha completa permanece inalterada.
+Correção:
+- Cattleya lundii f. alba não é mais identificada como híbrido.
+- Formas, variedades e subespécies botânicas não recebem o rótulo
+  “Híbrido Horticultural”.
+
+Exclusões explícitas:
+- f. / forma
+- var. / variedade
+- subsp. / ssp. / subespécie
+- formas alba, coerulea e concolor
+
+A identificação de híbrido agora exige:
+- tipo explicitamente híbrido ou nothogênero;
+- símbolo × no nome;
+- origem ou descrição explicitamente indicando cruzamento/híbrido horticultural.
+
+A ficha completa permanece inalterada.
 
 Arquivo alterado:
 - js/geografia.js

@@ -136,15 +136,55 @@ function ehHibridoHorticultural(orquidea) {
     const origem = normalizarTexto(orquidea?.origem);
     const descricao = normalizarTexto(orquidea?.descricao);
 
-    return (
-        tipo.includes("hibrido") ||
+    const nomeCompletoNormalizado = normalizarTexto(
+        `${nome} ${nomeCientifico}`
+    );
+
+    /*
+     * Formas, variedades e subespécies botânicas continuam sendo
+     * táxons naturais da espécie e nunca devem ser classificadas
+     * automaticamente como híbridos.
+     */
+    const ehFormaOuVariedadeBotanica =
+        /\b(f\.|forma|var\.|variedade|subsp\.|ssp\.|subespecie)\b/i.test(
+            `${nome} ${nomeCientifico}`
+        ) ||
+        nomeCompletoNormalizado.includes(" f alba") ||
+        nomeCompletoNormalizado.includes(" forma alba") ||
+        nomeCompletoNormalizado.includes(" f coerulea") ||
+        nomeCompletoNormalizado.includes(" forma coerulea") ||
+        nomeCompletoNormalizado.includes(" f concolor") ||
+        nomeCompletoNormalizado.includes(" forma concolor");
+
+    if (ehFormaOuVariedadeBotanica) {
+        return false;
+    }
+
+    const tipoExplicitamenteHibrido =
+        tipo === "hibrido" ||
+        tipo.includes("hibrido horticultural") ||
         tipo.includes("notogenero") ||
-        tipo.includes("nothogenero") ||
+        tipo.includes("nothogenero");
+
+    const nomeComCruzamento =
         nome.includes("×") ||
-        nomeCientifico.includes("×") ||
-        origem.includes("hibrido") ||
-        origem.includes("horticultural") ||
-        descricao.includes("hibrido horticultural")
+        nomeCientifico.includes("×");
+
+    const origemExplicitamenteHibrida =
+        origem.includes("hibrido horticultural") ||
+        origem.includes("cruzamento entre") ||
+        origem.includes("resultado do cruzamento");
+
+    const descricaoExplicitamenteHibrida =
+        descricao.includes("hibrido horticultural") ||
+        descricao.includes("resultado do cruzamento") ||
+        descricao.includes("cruzamento entre");
+
+    return (
+        tipoExplicitamenteHibrido ||
+        nomeComCruzamento ||
+        origemExplicitamenteHibrida ||
+        descricaoExplicitamenteHibrida
     );
 }
 
