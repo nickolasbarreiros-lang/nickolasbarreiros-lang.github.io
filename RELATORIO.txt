@@ -1,15 +1,11 @@
-CARD V3.7 — FLORAÇÃO E BANDEIRAS
+CARD V3.8 — ORIGEM RESUMIDA POR PAÍS OU REGIÃO
 
 Alterações:
-- Removido o selo “Floração se aproximando”.
-- Mantidos somente “Florescendo agora” e “Floração no próximo mês”.
-- Fora desses dois estados, o card fica sem selo.
-- País exclusivo agora usa imagem real da bandeira, evitando exibição como BR, CN, JP etc.
-- Regiões continuam usando o ícone de globo.
-- A origem detalhada nas fichas não foi alterada.
+- O card não exibe mais biomas ou locais internos do país, como Mata Atlântica e Campos Rupestres.
+- Quando a origem é específica de um único país, mostra bandeira + país.
+- Quando abrange vários países, mostra continente ou região ampla.
+- A ficha completa continua exibindo a origem detalhada.
+- País específico agora tem prioridade sobre biomas locais.
 
-Arquivos alterados:
-- js/util.js
-- js/cards.js
+Arquivo alterado:
 - js/geografia.js
-- estilos.css

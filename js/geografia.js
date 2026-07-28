@@ -37,8 +37,6 @@ const PAISES = Object.freeze([
 ]);
 
 const REGIOES_EXPLICITAS = Object.freeze([
-    { chaves: ["mata atlantica"], nome: "Mata Atlântica" },
-    { chaves: ["campos rupestres", "campo rupestre"], nome: "Campos Rupestres" },
     { chaves: ["andes tropicais"], nome: "Andes Tropicais" },
     { chaves: ["america tropical"], nome: "América Tropical" },
     { chaves: ["america central"], nome: "América Central" },
@@ -146,19 +144,13 @@ export function resumirOrigem(orquidea) {
     }
 
     const textoNormalizado = normalizarTexto(textoOriginal);
-    const regiaoExplicita = encontrarRegiaoExplicita(textoNormalizado);
-
-    if (regiaoExplicita) {
-        return {
-            icone: "🌍",
-            texto: regiaoExplicita.nome,
-            tipo: "regiao"
-        };
-    }
-
     const paises = encontrarPaises(textoNormalizado);
     const marcadores = encontrarMarcadoresRegionais(textoNormalizado);
 
+    /*
+     * No card, um país específico tem prioridade sobre biomas e locais
+     * internos, como Mata Atlântica, Cerrado, campos rupestres ou Andes.
+     */
     if (paises.length === 1 && marcadores.length === 0) {
         return {
             icone: paises[0].bandeira,
@@ -168,10 +160,28 @@ export function resumirOrigem(orquidea) {
         };
     }
 
+    /*
+     * Quando há mais de um país ou marcadores de uma distribuição ampla,
+     * usa uma região geográfica resumida.
+     */
     if (paises.length > 1 || marcadores.length > 0) {
         return {
             icone: "🌍",
             texto: escolherRegiaoDosPaises(paises, marcadores) || "Distribuição regional",
+            tipo: "regiao"
+        };
+    }
+
+    /*
+     * Regiões continentais explicitamente citadas continuam válidas.
+     * Biomas locais não entram nesta lista.
+     */
+    const regiaoExplicita = encontrarRegiaoExplicita(textoNormalizado);
+
+    if (regiaoExplicita) {
+        return {
+            icone: "🌍",
+            texto: regiaoExplicita.nome,
             tipo: "regiao"
         };
     }
