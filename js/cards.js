@@ -473,21 +473,34 @@ function detectarHabito(orquidea) {
     return "Epífita";
 }
 
-function criarSelosEspecie(orquidea, limite = 3) {
-    const selosPrincipais = [
-        { icone: "🌿", texto: detectarHabito(orquidea) },
-        { icone: "📏", texto: detectarPorte(orquidea) },
-        { icone: "🌺", texto: Number(orquidea?.avaliacoes?.perfume) >= 4 ? "Perfumada" : null },
-        { icone: "💎", texto: Number(orquidea?.avaliacoes?.raridade) >= 4 ? "Rara" : null }
-    ].filter((selo) => selo.texto).slice(0, limite);
+function obterSinonimoPrincipal(orquidea) {
+    if (typeof orquidea?.sinonimo === "string" && orquidea.sinonimo.trim()) {
+        return orquidea.sinonimo.trim();
+    }
 
-    const sinonimo = String(orquidea?.sinonimo || "").trim();
-    const selos = sinonimo
-        ? [...selosPrincipais, { icone: "🏷️", texto: `Sinônimo: ${sinonimo}`, classe: "selo-sinonimo" }]
-        : selosPrincipais;
+    if (Array.isArray(orquidea?.sinonimos)) {
+        const primeiro = orquidea.sinonimos.find((item) => {
+            return typeof item === "string" && item.trim();
+        });
+
+        if (primeiro) return primeiro.trim();
+    }
+
+    return "";
+}
+
+function criarSelosEspecie(orquidea) {
+    const sinonimo = obterSinonimoPrincipal(orquidea);
+    const selos = [
+        { icone: "🌿", texto: detectarHabito(orquidea), classe: "" },
+        { icone: "📏", texto: detectarPorte(orquidea), classe: "" },
+        { icone: "🌺", texto: Number(orquidea?.avaliacoes?.perfume) >= 4 ? "Perfumada" : null, classe: "" },
+        { icone: "💎", texto: Number(orquidea?.avaliacoes?.raridade) >= 4 ? "Rara" : null, classe: "" },
+        { icone: "🏷️", texto: sinonimo ? `Sinônimo: ${sinonimo}` : null, classe: "selo-sinonimo-cartao" }
+    ].filter((selo) => selo.texto);
 
     return selos.map((selo) => `
-        <span class="selo-visual-cartao ${selo.classe || ""}">
+        <span class="selo-visual-cartao ${selo.classe}">
             <span aria-hidden="true">${selo.icone}</span>
             ${escaparHTML(selo.texto)}
         </span>
@@ -527,6 +540,25 @@ function criarAvaliacaoCompacta(orquidea) {
     `;
 }
 
+function criarInformacoesRapidas(orquidea, origemResumida) {
+    const dificuldade = String(orquidea?.dificuldade || "").trim();
+    const itens = [
+        ["🌍", origemResumida],
+        dificuldade ? ["📊", dificuldade] : null
+    ].filter(Boolean);
+
+    return `
+        <div class="informacoes-rapidas-cartao" aria-label="Informações rápidas">
+            ${itens.map(([icone, texto]) => `
+                <span class="informacao-rapida-cartao">
+                    <span aria-hidden="true">${icone}</span>
+                    ${escaparHTML(texto)}
+                </span>
+            `).join("")}
+        </div>
+    `;
+}
+
 /* =========================================================
    ENDEREÇO DA FICHA
 ========================================================= */
@@ -560,10 +592,10 @@ export function criarCartaoOrquidea(
     const foto = obterFotoPrincipal(orquidea);
     const textoAlternativo = obterTextoAlternativoFoto(orquidea);
     const enderecoFicha = criarEnderecoFicha(orquidea);
-    const etiquetas = criarEtiquetasPrincipais(orquidea);
     const statusFloracao = criarStatusFloracao(orquidea, mesReferencia);
     const selos = criarSelosEspecie(orquidea);
     const avaliacao = criarAvaliacaoCompacta(orquidea);
+    const informacoesRapidas = criarInformacoesRapidas(orquidea, origemResumida);
 
     return `
         <article class="cartao-orquidea cartao-orquidea-v4" data-orquidea-id="${escaparHTML(orquidea.id || "")}">
@@ -579,17 +611,11 @@ export function criarCartaoOrquidea(
             </div>
 
             <div class="conteudo-cartao">
-                <div class="topo-conteudo-cartao">
-                    <div class="etiquetas-cartao">${etiquetas}</div>
-                </div>
-
                 <div class="identificacao-cartao">
+                    <span class="rotulo-genero-cartao">Gênero</span>
                     <span class="genero-cartao">${escaparHTML(genero)}</span>
                     <h3><a href="${escaparHTML(enderecoFicha)}"><em>${escaparHTML(nome)}</em></a></h3>
-                    <p class="origem-cartao origem-cartao-v4">
-                        <span aria-hidden="true">🌍</span>
-                        ${escaparHTML(origemResumida)}
-                    </p>
+                    ${informacoesRapidas}
                 </div>
 
                 <p class="descricao-cartao descricao-cartao-v4">${escaparHTML(descricaoResumida)}</p>

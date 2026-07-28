@@ -4953,13 +4953,226 @@ main.container{
   .atalhos-v4 .atalho-v4::before{width:62%;height:72%;top:15px;right:0}
 }
 
-
 /* =========================================================
-   SELO DE SINÔNIMO
+   CARD V2 — HIERARQUIA VISUAL MAIS LIMPA
 ========================================================= */
-.selo-visual-cartao.selo-sinonimo {
-    border-color: #e2bd57;
-    background: linear-gradient(135deg, #fff4c8 0%, #efd077 100%);
-    color: #765000;
-    box-shadow: 0 3px 11px rgba(157, 108, 0, .20);
+.cartao-orquidea-v4 .conteudo-cartao {
+    padding: 16px 15px 15px;
+}
+
+.cartao-orquidea-v4 .topo-conteudo-cartao,
+.cartao-orquidea-v4 .etiquetas-cartao {
+    display: none;
+}
+
+.cartao-orquidea-v4 .identificacao-cartao {
+    margin-bottom: 10px;
+}
+
+.rotulo-genero-cartao {
+    display: block;
+    margin-bottom: 1px;
+    color: #7b8f7f;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .12em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.cartao-orquidea-v4 .genero-cartao {
+    display: block;
+    margin-bottom: 4px;
+    color: #627768;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .09em;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.cartao-orquidea-v4 .identificacao-cartao h3 {
+    margin: 0 0 8px;
+    font-size: 23px;
+    line-height: 1.12;
+}
+
+.informacoes-rapidas-cartao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px 0;
+    color: #53685a;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.informacao-rapida-cartao {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.informacao-rapida-cartao + .informacao-rapida-cartao::before {
+    content: "•";
+    margin: 0 8px;
+    color: #b9c5bb;
+}
+
+.descricao-cartao-v4 {
+    margin: 0 0 13px;
+    color: #3f5245;
+    line-height: 1.48;
+    -webkit-line-clamp: 2;
+}
+
+.selos-abaixo-imagem-cartao {
+    gap: 6px;
+    padding: 8px 10px 9px;
+}
+
+.selo-visual-cartao {
+    min-height: 26px;
+    padding: 4px 8px;
+    box-shadow: 0 2px 8px rgba(15,35,20,.11);
+    font-size: 10.5px;
+}
+
+.selo-sinonimo-cartao {
+    border-color: #edc55c;
+    background: linear-gradient(135deg, #fff8dc 0%, #ffe8a3 100%);
+    color: #825500;
+    box-shadow: 0 3px 10px rgba(177,123,0,.16);
+}
+
+.avaliacao-compacta-cartao {
+    margin-top: auto;
+    border-color: #e0e8e1;
+    border-radius: 14px;
+    background: #fbfcfb;
+}
+
+.titulo-avaliacao-compacta {
+    padding: 9px 11px 5px;
+    border-bottom: 0;
+    font-size: 11.5px;
+}
+
+.grade-avaliacao-compacta {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1px 0;
+    padding: 4px 8px 8px;
+}
+
+.item-avaliacao-compacta,
+.item-avaliacao-compacta:nth-child(odd),
+.item-avaliacao-compacta:nth-last-child(-n + 2) {
+    padding: 7px 7px;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.item-avaliacao-compacta:nth-child(3n + 2),
+.item-avaliacao-compacta:nth-child(3n + 3) {
+    border-left: 1px solid #edf1ed;
+}
+
+.item-avaliacao-compacta:nth-child(n + 4) {
+    border-top: 1px solid #edf1ed;
+}
+
+.rotulo-avaliacao-compacta {
+    margin-bottom: 3px;
+    font-size: 9.5px;
+}
+
+.estrelas-avaliacao-compacta {
+    font-size: 12px;
+}
+
+.cartao-orquidea-v4 .rodape-cartao {
+    margin-top: 12px;
+}
+
+.cartao-orquidea-v4 .botao-ficha-completa {
+    min-height: 43px;
+    border-radius: 11px;
+    font-size: 12.5px;
+}
+
+@media (max-width: 520px) {
+    .cartao-orquidea-v4 .identificacao-cartao h3 {
+        font-size: 21px;
+    }
+
+    .grade-avaliacao-compacta {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .item-avaliacao-compacta,
+    .item-avaliacao-compacta:nth-child(3n + 2),
+    .item-avaliacao-compacta:nth-child(3n + 3),
+    .item-avaliacao-compacta:nth-child(n + 4) {
+        border: 0;
+    }
+
+    .item-avaliacao-compacta:nth-child(even) {
+        border-left: 1px solid #edf1ed;
+    }
+
+    .item-avaliacao-compacta:nth-child(n + 3) {
+        border-top: 1px solid #edf1ed;
+    }
+}
+
+.catalogo-lista .cartao-orquidea-v4 .informacoes-rapidas-cartao {
+    font-size: 12px;
+}
+
+.catalogo-lista .cartao-orquidea-v4 .grade-avaliacao-compacta {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.catalogo-lista .cartao-orquidea-v4 .item-avaliacao-compacta,
+.catalogo-lista .cartao-orquidea-v4 .item-avaliacao-compacta:nth-child(3n),
+.catalogo-lista .cartao-orquidea-v4 .item-avaliacao-compacta:nth-last-child(-n + 3) {
+    border: 0;
+    border-left: 1px solid #edf1ed;
+}
+
+.catalogo-lista .cartao-orquidea-v4 .item-avaliacao-compacta:first-child {
+    border-left: 0;
+}
+
+@media (max-width: 960px) {
+    .catalogo-lista .cartao-orquidea-v4 .grade-avaliacao-compacta {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .catalogo-lista .cartao-orquidea-v4 .item-avaliacao-compacta:nth-child(3n + 1) {
+        border-left: 0;
+    }
+
+    .catalogo-lista .cartao-orquidea-v4 .item-avaliacao-compacta:nth-child(n + 4) {
+        border-top: 1px solid #edf1ed;
+    }
+}
+
+@media (max-width: 700px) {
+    .catalogo-lista .cartao-orquidea-v4 .grade-avaliacao-compacta {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .catalogo-lista .cartao-orquidea-v4 .item-avaliacao-compacta,
+    .catalogo-lista .cartao-orquidea-v4 .item-avaliacao-compacta:nth-child(3n + 1) {
+        border-left: 0;
+    }
+
+    .catalogo-lista .cartao-orquidea-v4 .item-avaliacao-compacta:nth-child(even) {
+        border-left: 1px solid #edf1ed;
+    }
+
+    .catalogo-lista .cartao-orquidea-v4 .item-avaliacao-compacta:nth-child(n + 3) {
+        border-top: 1px solid #edf1ed;
+    }
 }

@@ -1,39 +1,19 @@
-ATUALIZAÇÃO — SELO DE SINÔNIMO
+ATUALIZAÇÃO — CARD V2
 
-Fichas revisadas com sinônimo relevante: 29
+Arquivos alterados:
+- js/cards.js
+- estilos.css
 
-- O selo aparece somente quando o campo sinonimo está preenchido.
-- Apenas um nome anterior ou sinônimo de uso relevante foi adotado por ficha.
-- O selo segue o formato compacto dos demais selos e recebeu destaque dourado.
-- A busca do catálogo agora considera também o campo sinonimo.
+Principais mudanças:
+- removida a faixa superior redundante de tipo/dificuldade;
+- gênero transformado em legenda discreta;
+- nome científico recebeu maior destaque;
+- origem e dificuldade agrupadas em uma linha de informações rápidas;
+- selo de sinônimo integrado à linha dos selos, em dourado, somente quando existir;
+- compatibilidade com os campos sinonimo e sinonimos;
+- avaliação reorganizada em grade 2x3/3x2, com menos bordas;
+- botão da ficha ligeiramente maior;
+- ajustes responsivos nos modos galeria e lista.
 
-Fichas atualizadas:
-- acianthera-aveniformis.js: Pleurothallis aveniformis
-- acianthera-glumacea.js: Pleurothallis glumacea
-- acianthera-pubescens.js: Pleurothallis pubescens
-- brassavola-perrini.js: Brassavola perrinii
-- bulbophyllum-sikkimense.js: Bulbophyllum sikkimense
-- camaridium-carinatum.js: Camaridium carinatum
-- cattleya-chocolate-drop.js: Cattleya Chocolate Drop
-- cattleya-leopoldii-dark-princess.js: Cattleya leopoldii
-- colmanara-wildcat.js: Colmanara Wildcat
-- dendrobium-aggregatum.js: Dendrobium aggregatum
-- eria-hyacinthoides.js: Eria hyacinthoides
-- laelia-caulencens.js: Laelia caulescens
-- laelia-fournieri.js: Laelia fournieri
-- laelia-gloriosa.js: Schomburgkia gloriosa
-- laelia-praestans.js: Laelia praestans
-- lc-trick-or-treat.js: Laeliocattleya Trick or Treat
-- leptotes-unicolor.js: Leptotes paranaensis
-- maxillaria-chrysantha.js: Brasiliorchis chrysantha
-- maxillaria-pumila-ex-minuta.js: Christensonella minuta
-- maxillaria-schunkeana.js: Brasiliorchis schunkeana
-- oncidium-pubes.js: Baptistonia pubes
-- oncidium-pumilum.js: Oncidium pumilum
-- ornithophora-radicans.js: Ornithophora radicans
-- pleurothallis-modestissima.js: Acianthera modestissima
-- rodriguezia-venusta.js: Rodriguezia venusta
-- sophronitis-cernua-var-litoranea.js: Sophronitis cernua var. litorânea
-- sophronitis-cernua.js: Sophronitis cernua
-- sophronitis-wittigiana.js: Sophronitis wittigiana
-- zygopetalum-mackayi.js: Zygopetalum maculatum subsp. maculatum
+Observação:
+O card não cria sinônimos. Ele apenas exibe o selo quando a ficha já possui o campo sinonimo ou sinonimos.
