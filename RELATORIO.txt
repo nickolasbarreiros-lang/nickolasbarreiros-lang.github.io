@@ -1,17 +1,12 @@
-CARD V3 PREMIUM — GUIA BOTÂNICO
+CARD V3.1 — STATUS DE FLORAÇÃO
 
-Arquivos alterados:
+Alterado:
 - estilos.css
-- js/cards.js (mantido da versão V2.3 para instalação conjunta)
 
-Implementações:
-- paleta oliva, marfim e dourado envelhecido;
-- nome científico em fonte serifada e itálica;
-- linha decorativa dourada abaixo do nome;
-- status de floração em estilo de plaqueta botânica;
-- selos com acabamento fosco e sombra suave;
-- sinônimo com dourado refinado;
-- avaliação com fundo marfim, moldura dourada e cantos discretos;
-- botão com gradiente verde profundo e contorno dourado;
-- responsividade preservada;
-- sem texturas pesadas e sem ícones ampliados.
+Novas cores nos cards:
+- Florescendo agora: verde neon claro.
+- Floração se aproximando: verde esmeralda médio.
+- Fora de época: verde oliva bem escuro.
+- Sem período informado: permanece neutro.
+
+A estrutura, o tamanho e a posição das plaquetas foram preservados.

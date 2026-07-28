@@ -5623,3 +5623,49 @@ main.container{
         height: 15px;
     }
 }
+
+/* =========================================================
+   CARD V3.1 — CORES DOS STATUS DE FLORAÇÃO
+   Hierarquia visual aplicada diretamente às plaquetas dos cards.
+========================================================= */
+
+/* Florescendo agora: verde neon claro e chamativo. */
+.cartao-orquidea-v4 .status-floracao-cartao.status-florindo,
+.cartao-orquidea-v4 .status-floracao-cartao.status-atual {
+    color: #17350d;
+    background: linear-gradient(135deg, #d9ff72 0%, #b9f53c 100%);
+    border-color: #8fc928;
+    box-shadow:
+        0 5px 14px rgba(105, 166, 25, .32),
+        0 0 0 1px rgba(255, 255, 255, .45) inset;
+}
+
+/* Floração se aproximando: verde esmeralda médio. */
+.cartao-orquidea-v4 .status-floracao-cartao.status-proxima,
+.cartao-orquidea-v4 .status-floracao-cartao.status-proximo,
+.cartao-orquidea-v4 .status-floracao-cartao.status-aproximando {
+    color: #ffffff;
+    background: linear-gradient(135deg, #35a66f 0%, #23845a 100%);
+    border-color: #176844;
+    box-shadow:
+        0 5px 14px rgba(22, 105, 69, .28),
+        0 0 0 1px rgba(255, 255, 255, .16) inset;
+}
+
+/* Fora de época: verde oliva bem escuro. */
+.cartao-orquidea-v4 .status-floracao-cartao.status-fora-epoca {
+    color: #f6f1df;
+    background: linear-gradient(135deg, #53603a 0%, #384429 100%);
+    border-color: #2d371f;
+    box-shadow:
+        0 5px 14px rgba(42, 51, 30, .30),
+        0 0 0 1px rgba(224, 202, 137, .16) inset;
+}
+
+/* Mantém o estado sem período informado neutro e distinto dos três estados sazonais. */
+.cartao-orquidea-v4 .status-floracao-cartao.status-sem-periodo {
+    color: #4f544f;
+    background: linear-gradient(135deg, #f4f2eb 0%, #e6e2d7 100%);
+    border-color: #c9c3b4;
+    box-shadow: 0 4px 10px rgba(56, 52, 43, .14);
+}
