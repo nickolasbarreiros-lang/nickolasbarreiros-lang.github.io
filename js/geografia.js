@@ -33,6 +33,8 @@ const PAISES = Object.freeze([
     { chaves: ["indonesia"], nome: "Indonésia", codigo: "id", bandeira: "🇮🇩", regiao: "Sudeste Asiático" },
     { chaves: ["filipinas", "philippines"], nome: "Filipinas", codigo: "ph", bandeira: "🇵🇭", regiao: "Sudeste Asiático" },
     { chaves: ["madagascar"], nome: "Madagascar", codigo: "mg", bandeira: "🇲🇬", regiao: "Oceano Índico" },
+    { chaves: ["nova guine", "new guinea"], nome: "Nova Guiné", codigo: "pg", bandeira: "🇵🇬", regiao: "Oceania" },
+    { chaves: ["papua nova guine", "papua-new guinea", "papua new guinea"], nome: "Papua-Nova Guiné", codigo: "pg", bandeira: "🇵🇬", regiao: "Oceania" },
     { chaves: ["australia"], nome: "Austrália", codigo: "au", bandeira: "🇦🇺", regiao: "Oceania" }
 ]);
 

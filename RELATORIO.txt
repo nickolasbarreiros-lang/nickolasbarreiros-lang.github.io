@@ -1,22 +1,10 @@
-CARD V3.10 — CORREÇÃO DE FORMAS BOTÂNICAS
+CARD V3.11 — ORIGEM NOVA GUINÉ
 
-Correção:
-- Cattleya lundii f. alba não é mais identificada como híbrido.
-- Formas, variedades e subespécies botânicas não recebem o rótulo
-  “Híbrido Horticultural”.
-
-Exclusões explícitas:
-- f. / forma
-- var. / variedade
-- subsp. / ssp. / subespécie
-- formas alba, coerulea e concolor
-
-A identificação de híbrido agora exige:
-- tipo explicitamente híbrido ou nothogênero;
-- símbolo × no nome;
-- origem ou descrição explicitamente indicando cruzamento/híbrido horticultural.
-
-A ficha completa permanece inalterada.
+Alteração:
+- A origem “Nova Guiné” agora é reconhecida diretamente no card.
+- O card exibe a bandeira de Papua-Nova Guiné e o texto “Nova Guiné”.
+- Também foi adicionado reconhecimento para “Papua-Nova Guiné”.
+- A ficha completa permanece inalterada.
 
 Arquivo alterado:
 - js/geografia.js
