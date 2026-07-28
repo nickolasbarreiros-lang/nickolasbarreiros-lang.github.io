@@ -5,35 +5,35 @@
 ========================================================= */
 
 const PAISES = Object.freeze([
-    { chaves: ["brasil", "brazil"], nome: "Brasil", bandeira: "🇧🇷", regiao: "América do Sul" },
-    { chaves: ["colombia"], nome: "Colômbia", bandeira: "🇨🇴", regiao: "Andes Tropicais" },
-    { chaves: ["equador", "ecuador"], nome: "Equador", bandeira: "🇪🇨", regiao: "Andes Tropicais" },
-    { chaves: ["peru"], nome: "Peru", bandeira: "🇵🇪", regiao: "Andes Tropicais" },
-    { chaves: ["venezuela"], nome: "Venezuela", bandeira: "🇻🇪", regiao: "Andes Tropicais" },
-    { chaves: ["bolivia"], nome: "Bolívia", bandeira: "🇧🇴", regiao: "Andes Tropicais" },
-    { chaves: ["paraguai", "paraguay"], nome: "Paraguai", bandeira: "🇵🇾", regiao: "América do Sul" },
-    { chaves: ["argentina"], nome: "Argentina", bandeira: "🇦🇷", regiao: "América do Sul" },
-    { chaves: ["uruguai", "uruguay"], nome: "Uruguai", bandeira: "🇺🇾", regiao: "América do Sul" },
-    { chaves: ["chile"], nome: "Chile", bandeira: "🇨🇱", regiao: "América do Sul" },
-    { chaves: ["mexico"], nome: "México", bandeira: "🇲🇽", regiao: "América Central" },
-    { chaves: ["estados unidos", "eua", "united states"], nome: "Estados Unidos", bandeira: "🇺🇸", regiao: "América do Norte" },
-    { chaves: ["costa rica"], nome: "Costa Rica", bandeira: "🇨🇷", regiao: "América Central" },
-    { chaves: ["panama"], nome: "Panamá", bandeira: "🇵🇦", regiao: "América Central" },
-    { chaves: ["japao", "japan"], nome: "Japão", bandeira: "🇯🇵", regiao: "Leste da Ásia" },
-    { chaves: ["china"], nome: "China", bandeira: "🇨🇳", regiao: "Leste da Ásia" },
-    { chaves: ["taiwan"], nome: "Taiwan", bandeira: "🇹🇼", regiao: "Leste da Ásia" },
-    { chaves: ["india"], nome: "Índia", bandeira: "🇮🇳", regiao: "Sul da Ásia" },
-    { chaves: ["nepal"], nome: "Nepal", bandeira: "🇳🇵", regiao: "Sul da Ásia" },
-    { chaves: ["bangladesh"], nome: "Bangladesh", bandeira: "🇧🇩", regiao: "Sul da Ásia" },
-    { chaves: ["butao", "bhutan"], nome: "Butão", bandeira: "🇧🇹", regiao: "Sul da Ásia" },
-    { chaves: ["tailandia", "thailand"], nome: "Tailândia", bandeira: "🇹🇭", regiao: "Sudeste Asiático" },
-    { chaves: ["vietna", "vietnam"], nome: "Vietnã", bandeira: "🇻🇳", regiao: "Sudeste Asiático" },
-    { chaves: ["laos"], nome: "Laos", bandeira: "🇱🇦", regiao: "Sudeste Asiático" },
-    { chaves: ["malasia", "malaysia"], nome: "Malásia", bandeira: "🇲🇾", regiao: "Sudeste Asiático" },
-    { chaves: ["indonesia"], nome: "Indonésia", bandeira: "🇮🇩", regiao: "Sudeste Asiático" },
-    { chaves: ["filipinas", "philippines"], nome: "Filipinas", bandeira: "🇵🇭", regiao: "Sudeste Asiático" },
-    { chaves: ["madagascar"], nome: "Madagascar", bandeira: "🇲🇬", regiao: "Oceano Índico" },
-    { chaves: ["australia"], nome: "Austrália", bandeira: "🇦🇺", regiao: "Oceania" }
+    { chaves: ["brasil", "brazil"], nome: "Brasil", codigo: "br", bandeira: "🇧🇷", regiao: "América do Sul" },
+    { chaves: ["colombia"], nome: "Colômbia", codigo: "co", bandeira: "🇨🇴", regiao: "Andes Tropicais" },
+    { chaves: ["equador", "ecuador"], nome: "Equador", codigo: "ec", bandeira: "🇪🇨", regiao: "Andes Tropicais" },
+    { chaves: ["peru"], nome: "Peru", codigo: "pe", bandeira: "🇵🇪", regiao: "Andes Tropicais" },
+    { chaves: ["venezuela"], nome: "Venezuela", codigo: "ve", bandeira: "🇻🇪", regiao: "Andes Tropicais" },
+    { chaves: ["bolivia"], nome: "Bolívia", codigo: "bo", bandeira: "🇧🇴", regiao: "Andes Tropicais" },
+    { chaves: ["paraguai", "paraguay"], nome: "Paraguai", codigo: "py", bandeira: "🇵🇾", regiao: "América do Sul" },
+    { chaves: ["argentina"], nome: "Argentina", codigo: "ar", bandeira: "🇦🇷", regiao: "América do Sul" },
+    { chaves: ["uruguai", "uruguay"], nome: "Uruguai", codigo: "uy", bandeira: "🇺🇾", regiao: "América do Sul" },
+    { chaves: ["chile"], nome: "Chile", codigo: "cl", bandeira: "🇨🇱", regiao: "América do Sul" },
+    { chaves: ["mexico"], nome: "México", codigo: "mx", bandeira: "🇲🇽", regiao: "América Central" },
+    { chaves: ["estados unidos", "eua", "united states"], nome: "Estados Unidos", codigo: "us", bandeira: "🇺🇸", regiao: "América do Norte" },
+    { chaves: ["costa rica"], nome: "Costa Rica", codigo: "cr", bandeira: "🇨🇷", regiao: "América Central" },
+    { chaves: ["panama"], nome: "Panamá", codigo: "pa", bandeira: "🇵🇦", regiao: "América Central" },
+    { chaves: ["japao", "japan"], nome: "Japão", codigo: "jp", bandeira: "🇯🇵", regiao: "Leste da Ásia" },
+    { chaves: ["china"], nome: "China", codigo: "cn", bandeira: "🇨🇳", regiao: "Leste da Ásia" },
+    { chaves: ["taiwan"], nome: "Taiwan", codigo: "tw", bandeira: "🇹🇼", regiao: "Leste da Ásia" },
+    { chaves: ["india"], nome: "Índia", codigo: "in", bandeira: "🇮🇳", regiao: "Sul da Ásia" },
+    { chaves: ["nepal"], nome: "Nepal", codigo: "np", bandeira: "🇳🇵", regiao: "Sul da Ásia" },
+    { chaves: ["bangladesh"], nome: "Bangladesh", codigo: "bd", bandeira: "🇧🇩", regiao: "Sul da Ásia" },
+    { chaves: ["butao", "bhutan"], nome: "Butão", codigo: "bt", bandeira: "🇧🇹", regiao: "Sul da Ásia" },
+    { chaves: ["tailandia", "thailand"], nome: "Tailândia", codigo: "th", bandeira: "🇹🇭", regiao: "Sudeste Asiático" },
+    { chaves: ["vietna", "vietnam"], nome: "Vietnã", codigo: "vn", bandeira: "🇻🇳", regiao: "Sudeste Asiático" },
+    { chaves: ["laos"], nome: "Laos", codigo: "la", bandeira: "🇱🇦", regiao: "Sudeste Asiático" },
+    { chaves: ["malasia", "malaysia"], nome: "Malásia", codigo: "my", bandeira: "🇲🇾", regiao: "Sudeste Asiático" },
+    { chaves: ["indonesia"], nome: "Indonésia", codigo: "id", bandeira: "🇮🇩", regiao: "Sudeste Asiático" },
+    { chaves: ["filipinas", "philippines"], nome: "Filipinas", codigo: "ph", bandeira: "🇵🇭", regiao: "Sudeste Asiático" },
+    { chaves: ["madagascar"], nome: "Madagascar", codigo: "mg", bandeira: "🇲🇬", regiao: "Oceano Índico" },
+    { chaves: ["australia"], nome: "Austrália", codigo: "au", bandeira: "🇦🇺", regiao: "Oceania" }
 ]);
 
 const REGIOES_EXPLICITAS = Object.freeze([
@@ -162,6 +162,7 @@ export function resumirOrigem(orquidea) {
     if (paises.length === 1 && marcadores.length === 0) {
         return {
             icone: paises[0].bandeira,
+            codigoPais: paises[0].codigo,
             texto: paises[0].nome,
             tipo: "pais"
         };

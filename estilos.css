@@ -5887,3 +5887,24 @@ main.container{
 .cartao-orquidea-v4 .informacoes-rapidas-cartao .origem-resumida-cartao {
     max-width: 100%;
 }
+
+
+/* =========================================================
+   CARD V3.7 — BANDEIRAS REAIS E STATUS DE FLORAÇÃO
+========================================================= */
+
+.cartao-orquidea-v4 .bandeira-pais-cartao {
+    width: 20px;
+    height: 15px;
+    flex: 0 0 auto;
+    display: inline-block;
+    object-fit: cover;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(31, 48, 37, 0.14);
+    vertical-align: middle;
+}
+
+/* "Floração se aproximando" foi descontinuado. */
+.cartao-orquidea-v4 .status-aproximando {
+    display: none !important;
+}

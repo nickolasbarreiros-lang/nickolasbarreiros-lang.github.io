@@ -398,8 +398,7 @@ export function criarStatusFloracao(
         "status-florindo",
         "status-atual",
         "status-proxima",
-        "status-proximo",
-        "status-aproximando"
+        "status-proximo"
     ]);
 
     // Fora da época de floração, o card permanece sem plaqueta.
@@ -544,33 +543,38 @@ export function criarInformacoesRapidas(orquidea, origemResumida) {
             ? origemResumida.icone
             : "🌍";
 
-    const itens = [
-        {
-            icone: origemIcone,
-            texto: origemTexto,
-            classe: "origem-resumida-cartao"
-        },
-        {
-            icone: "📊",
-            texto: `Dificuldade: ${dificuldade}`,
-            classe: "dificuldade-resumida-cartao"
-        }
-    ];
+    const codigoPais =
+        origemResumida &&
+        typeof origemResumida === "object"
+            ? origemResumida.codigoPais
+            : "";
+
+    const iconeOrigemHTML = codigoPais
+        ? `<img
+                class="bandeira-pais-cartao"
+                src="https://flagcdn.com/20x15/${escaparHTML(codigoPais)}.png"
+                srcset="https://flagcdn.com/40x30/${escaparHTML(codigoPais)}.png 2x"
+                width="20"
+                height="15"
+                alt=""
+                aria-hidden="true"
+                loading="lazy"
+            >`
+        : `<span aria-hidden="true">${escaparHTML(origemIcone)}</span>`;
 
     return `
         <div class="informacoes-rapidas-cartao">
-            ${itens
-                .map((item, indice) => `
-                    <span class="informacao-rapida-cartao ${item.classe}">
-                        <span aria-hidden="true">${escaparHTML(item.icone)}</span>
-                        <span>${escaparHTML(item.texto)}</span>
-                    </span>
-                    ${indice < itens.length - 1
-                        ? '<span class="separador-informacoes-rapidas" aria-hidden="true">•</span>'
-                        : ''
-                    }
-                `)
-                .join("")}
+            <span class="informacao-rapida-cartao origem-resumida-cartao">
+                ${iconeOrigemHTML}
+                <span>${escaparHTML(origemTexto)}</span>
+            </span>
+
+            <span class="separador-informacoes-rapidas" aria-hidden="true">•</span>
+
+            <span class="informacao-rapida-cartao dificuldade-resumida-cartao">
+                <span aria-hidden="true">📊</span>
+                <span>${escaparHTML(`Dificuldade: ${dificuldade}`)}</span>
+            </span>
         </div>
     `;
 }

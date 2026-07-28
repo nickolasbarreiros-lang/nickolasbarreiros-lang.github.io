@@ -170,16 +170,6 @@ export function obterStatusFloracao(
         };
     }
 
-    if (menorDistancia === 2) {
-        return {
-            texto: "Floração se aproximando",
-            icone: "🌱",
-            classe: "status-aproximando",
-            prioridade: 3,
-            distancia: 2
-        };
-    }
-
     return {
         texto: "Fora da época",
         icone: "🌿",

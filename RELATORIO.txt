@@ -1,18 +1,15 @@
-REFATORAÇÃO — resumirOrigem()
+CARD V3.7 — FLORAÇÃO E BANDEIRAS
 
-Estrutura nova:
-- js/geografia.js concentra países, bandeiras, regiões, biomas e regras de resumo.
-- js/cards.js apenas consome o resultado pronto.
-
-Melhorias:
-- Separação clara de responsabilidades.
-- País exclusivo: bandeira + país.
-- Vários países ou marcadores regionais: globo + região.
-- Biomas e regiões explícitas têm prioridade.
-- Fallback curto para origens ainda não mapeadas.
-- Correção de ${origemIcone} e [object Object] incorporada.
-- A origem detalhada das fichas não foi alterada.
+Alterações:
+- Removido o selo “Floração se aproximando”.
+- Mantidos somente “Florescendo agora” e “Floração no próximo mês”.
+- Fora desses dois estados, o card fica sem selo.
+- País exclusivo agora usa imagem real da bandeira, evitando exibição como BR, CN, JP etc.
+- Regiões continuam usando o ícone de globo.
+- A origem detalhada nas fichas não foi alterada.
 
 Arquivos alterados:
+- js/util.js
 - js/cards.js
 - js/geografia.js
+- estilos.css
