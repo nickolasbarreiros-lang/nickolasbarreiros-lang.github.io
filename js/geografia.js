@@ -75,15 +75,7 @@ function normalizarTexto(valor) {
 }
 
 function contemChave(textoNormalizado, chave) {
-    const chaveNormalizada = normalizarTexto(chave)
-        .replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-
-    const expressao = new RegExp(
-        `(^|[^a-z0-9])${chaveNormalizada}([^a-z0-9]|$)`,
-        "i"
-    );
-
-    return expressao.test(textoNormalizado);
+    return textoNormalizado.includes(normalizarTexto(chave));
 }
 
 function encontrarRegiaoExplicita(textoNormalizado) {
@@ -94,9 +86,7 @@ function encontrarRegiaoExplicita(textoNormalizado) {
 
 function encontrarPaises(textoNormalizado) {
     return PAISES.filter((pais) =>
-        pais.chaves.some((chave) =>
-            contemChave(textoNormalizado, chave)
-        )
+        pais.chaves.some((chave) => contemChave(textoNormalizado, chave))
     );
 }
 
@@ -112,43 +102,9 @@ function escolherRegiaoDosPaises(paises, marcadores) {
         ...marcadores
     ].filter(Boolean);
 
-    const temAmericaCentral = regioes.includes("América Central");
-    const temAmericaSul = regioes.includes("América do Sul") ||
-        regioes.includes("Andes Tropicais");
-
-    if (temAmericaCentral && temAmericaSul) {
-        return "América Tropical";
+    if (regioes.length === 0) {
+        return null;
     }
-
-    if (paises.length >= 2) {
-        if (paises.every((pais) => pais.regiao === "Sul da Ásia")) {
-            return "Sul da Ásia";
-        }
-
-        if (paises.every((pais) => pais.regiao === "Sudeste Asiático")) {
-            return "Sudeste Asiático";
-        }
-
-        if (paises.every((pais) =>
-            pais.regiao === "América do Sul" ||
-            pais.regiao === "Andes Tropicais"
-        )) {
-            return "América do Sul";
-        }
-
-        if (paises.every((pais) => pais.regiao === "África Tropical")) {
-            return "África Tropical";
-        }
-
-        if (paises.every((pais) =>
-            pais.regiao === "Oceania" ||
-            pais.regiao === "Oceano Índico"
-        )) {
-            return "Oceania";
-        }
-    }
-
-    if (regioes.length === 0) return null;
 
     const contagem = regioes.reduce((resultado, regiao) => {
         resultado[regiao] = (resultado[regiao] || 0) + 1;
@@ -182,25 +138,24 @@ function ehHibridoHorticultural(orquidea) {
     const origem = normalizarTexto(orquidea?.origem);
     const descricao = normalizarTexto(orquidea?.descricao);
 
-    const nomeCompletoNormalizado = normalizarTexto(
-        `${nome} ${nomeCientifico}`
-    );
+    const nomeCompleto = `${nome} ${nomeCientifico}`.trim();
+    const nomeCompletoNormalizado = normalizarTexto(nomeCompleto);
 
     /*
-     * Formas, variedades e subespécies botânicas continuam sendo
-     * táxons naturais da espécie e não devem ser classificadas
-     * automaticamente como híbridos.
+     * Formas, variedades, subespécies e cultivares de espécies puras
+     * não são híbridos. Aceita grafias com ou sem espaço, como
+     * "f. coerulea", "f.coerulea", "f. alba" e "f.alba".
      */
     const ehFormaOuVariedadeBotanica =
-        /\b(f\.|forma|var\.|variedade|subsp\.|ssp\.|subespecie)\b/i.test(
-            `${nome} ${nomeCientifico}`
+        /(?:^|\s)(?:f\.?|forma|var\.?|variedade|subsp\.?|ssp\.?|subespecie|cv\.?|cultivar)\s*[a-z-]+/i.test(
+            nomeCompleto
         ) ||
-        nomeCompletoNormalizado.includes(" f alba") ||
-        nomeCompletoNormalizado.includes(" forma alba") ||
-        nomeCompletoNormalizado.includes(" f coerulea") ||
-        nomeCompletoNormalizado.includes(" forma coerulea") ||
-        nomeCompletoNormalizado.includes(" f concolor") ||
-        nomeCompletoNormalizado.includes(" forma concolor");
+        /\bf\s*\.\s*(?:alba|coerulea|concolor|semi-alba|flamea|rubra)\b/i.test(
+            nomeCompleto
+        ) ||
+        /\bforma\s+(?:alba|coerulea|concolor|semi-alba|flamea|rubra)\b/i.test(
+            nomeCompletoNormalizado
+        );
 
     if (ehFormaOuVariedadeBotanica) {
         return false;

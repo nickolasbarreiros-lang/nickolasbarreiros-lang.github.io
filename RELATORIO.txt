@@ -1,12 +1,20 @@
-CORREÇÃO — ORIGEM DA PLEUROTHALLIS MODESTISSIMA
+CARD V3.13 — FORMAS BOTÂNICAS NÃO SÃO HÍBRIDOS
 
-Alterações:
-- A origem passou a começar explicitamente por “Espécie endêmica do Brasil”.
-- A distribuição detalhada foi mantida na ficha.
-- O card deverá resumir a origem como Brasil, exibindo a bandeira brasileira.
+Correções:
+- Cattleya guttata f. coerulea não será mais classificada como híbrido.
+- Cattleya lundii f. alba não será mais classificada como híbrido.
+- A detecção agora reconhece grafias com ou sem espaço:
+  • f. coerulea
+  • f.coerulea
+  • f. alba
+  • f.alba
 
-Resultado esperado no card:
-🇧🇷 Brasil
+Também continuam excluídos da regra de híbridos:
+- forma
+- var. / variedade
+- subsp. / ssp. / subespécie
+- cv. / cultivar
+- formas alba, coerulea, concolor, semi-alba, flamea e rubra
 
 Arquivo alterado:
-- dados/orquideas/pleurothallis-modestissima.js
+- js/geografia.js
