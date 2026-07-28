@@ -702,6 +702,85 @@ window.addEventListener("resize", () => {
     }, 120);
 });
 
+
+function obterFotosDoCartao(orquidea, limite = 4) {
+    if (!Array.isArray(orquidea?.fotos)) {
+        return [];
+    }
+
+    return orquidea.fotos
+        .map((foto) => {
+            if (typeof foto === "string") {
+                return foto.trim();
+            }
+
+            if (foto && typeof foto === "object") {
+                return String(
+                    foto.src ||
+                    foto.url ||
+                    foto.arquivo ||
+                    ""
+                ).trim();
+            }
+
+            return "";
+        })
+        .filter(Boolean)
+        .slice(0, limite);
+}
+
+function ativarGaleriasLaterais(raiz = document) {
+    raiz
+        .querySelectorAll(".galeria-lateral-lista")
+        .forEach((galeria) => {
+            if (galeria.dataset.galeriaAtiva === "true") {
+                return;
+            }
+
+            galeria.dataset.galeriaAtiva = "true";
+
+            const cartao = galeria.closest(".cartao-orquidea-v4");
+            const imagemPrincipal = cartao?.querySelector(".imagem-cartao");
+            const miniaturas = galeria.querySelectorAll(".miniatura-lateral-lista");
+
+            if (!imagemPrincipal || miniaturas.length === 0) {
+                return;
+            }
+
+            const trocarImagem = (botao) => {
+                const novaFoto = botao.dataset.foto;
+
+                if (!novaFoto || imagemPrincipal.src.endsWith(novaFoto)) {
+                    return;
+                }
+
+                imagemPrincipal.classList.add("imagem-cartao-trocando");
+
+                window.setTimeout(() => {
+                    imagemPrincipal.src = novaFoto;
+                    imagemPrincipal.classList.remove("imagem-cartao-trocando");
+                }, 100);
+
+                miniaturas.forEach((item) => {
+                    item.classList.toggle("ativa", item === botao);
+                    item.setAttribute(
+                        "aria-pressed",
+                        item === botao ? "true" : "false"
+                    );
+                });
+            };
+
+            miniaturas.forEach((botao) => {
+                botao.addEventListener("mouseenter", () => trocarImagem(botao));
+                botao.addEventListener("focus", () => trocarImagem(botao));
+                botao.addEventListener("click", (evento) => {
+                    evento.preventDefault();
+                    trocarImagem(botao);
+                });
+            });
+        });
+}
+
 export function criarCartaoOrquidea(
     orquidea,
     opcoes = {}
@@ -714,6 +793,8 @@ export function criarCartaoOrquidea(
     const origemResumida = resumirOrigem(orquidea);
     const descricaoResumida = primeiraFrase(orquidea.descricao, 145);
     const foto = obterFotoPrincipal(orquidea);
+    const fotosCartao = obterFotosDoCartao(orquidea);
+    const fotosSecundarias = fotosCartao.slice(1, 4);
     const textoAlternativo = obterTextoAlternativoFoto(orquidea);
     const enderecoFicha = criarEnderecoFicha(orquidea);
     const statusFloracao = criarStatusFloracao(orquidea, mesReferencia);
@@ -725,13 +806,39 @@ export function criarCartaoOrquidea(
     return `
         <article class="cartao-orquidea cartao-orquidea-v4" data-orquidea-id="${escaparHTML(orquidea.id || "")}">
             <div class="bloco-imagem-cartao">
-                <a class="link-imagem-cartao" href="${escaparHTML(enderecoFicha)}" aria-label="${escaparHTML(`Abrir ficha de ${nome}`)}">
-                    <div class="area-imagem-cartao">
-                        <img class="imagem-cartao" src="${escaparHTML(foto)}" alt="${escaparHTML(textoAlternativo)}" loading="lazy" decoding="async"
-                            onerror="this.onerror = null; this.src = '${IMAGEM_PADRAO}';">
-                        <div class="status-sobre-imagem">${statusFloracao}</div>
-                    </div>
-                </a>
+                <div class="conjunto-imagens-cartao">
+                    <a class="link-imagem-cartao" href="${escaparHTML(enderecoFicha)}" aria-label="${escaparHTML(`Abrir ficha de ${nome}`)}">
+                        <div class="area-imagem-cartao">
+                            <img class="imagem-cartao" src="${escaparHTML(foto)}" alt="${escaparHTML(textoAlternativo)}" loading="lazy" decoding="async"
+                                onerror="this.onerror = null; this.src = '${IMAGEM_PADRAO}';">
+                            <div class="status-sobre-imagem">${statusFloracao}</div>
+                        </div>
+                    </a>
+
+                    ${fotosSecundarias.length > 0 ? `
+                        <div class="galeria-lateral-lista" aria-label="Fotos adicionais de ${escaparHTML(nome)}">
+                            ${fotosSecundarias
+                                .map((fotoSecundaria, indice) => `
+                                    <button
+                                        class="miniatura-lateral-lista"
+                                        type="button"
+                                        data-foto="${escaparHTML(fotoSecundaria)}"
+                                        aria-label="${escaparHTML(`Mostrar foto ${indice + 2} de ${nome}`)}"
+                                        aria-pressed="false"
+                                    >
+                                        <img
+                                            src="${escaparHTML(fotoSecundaria)}"
+                                            alt=""
+                                            loading="lazy"
+                                            decoding="async"
+                                        >
+                                    </button>
+                                `)
+                                .join("")}
+                        </div>
+                    ` : ""}
+                </div>
+
                 ${selos ? `<div class="selos-abaixo-imagem-cartao" aria-label="Características da orquídea">${selos}</div>` : ""}
             </div>
 
@@ -823,5 +930,6 @@ export function renderizarCartoes(
 
     requestAnimationFrame(() => {
         atualizarAbreviacoesDinamicas(elemento);
+        ativarGaleriasLaterais(elemento);
     });
 }

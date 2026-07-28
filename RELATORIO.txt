@@ -1,12 +1,15 @@
-CORREÇÃO — ORIGEM DA JACQUINIELLA GLOBOSA
+MODO LISTA V2 — GALERIA LATERAL
 
-Alterações:
-- Removida a origem simplificada que fazia o card mostrar somente México.
-- Origem atualizada para América Tropical.
-- Distribuição detalhada mantida na ficha: América Central, Caribe e norte da América do Sul.
+Implementado:
+- Foto principal acompanhada por até 3 fotos secundárias na lateral.
+- Recurso exibido somente no modo Lista.
+- Passar o mouse, focar ou clicar em uma miniatura troca a foto principal.
+- Transição suave entre as imagens.
+- Miniatura ativa recebe borda dourada.
+- No celular, as miniaturas ficam em uma faixa horizontal abaixo da foto.
+- O modo Galeria permanece inalterado.
+- Fichas com menos de 4 fotos exibem apenas as miniaturas disponíveis.
 
-Resultado esperado no card:
-🌍 América Tropical
-
-Arquivo alterado:
-- dados/orquideas/jacquiniella-globosa.js
+Arquivos alterados:
+- js/cards.js
+- estilos.css
