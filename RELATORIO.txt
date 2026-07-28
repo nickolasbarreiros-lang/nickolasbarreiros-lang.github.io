@@ -1,19 +1,12 @@
-CORREÇÃO — GEOGRAFIA E ORIGENS
+CORREÇÃO — ORIGEM DA PLEUROTHALLIS MODESTISSIMA
 
-Correções nas fichas:
-- Specklinia grobyi: origem corrigida para América Tropical, abrangendo América Central e América do Sul.
-- Stanhopea guttulata: origem corrigida para Brasil.
+Alterações:
+- A origem passou a começar explicitamente por “Espécie endêmica do Brasil”.
+- A distribuição detalhada foi mantida na ficha.
+- O card deverá resumir a origem como Brasil, exibindo a bandeira brasileira.
 
-Correção estrutural:
-- A identificação de países usa limites de palavra, evitando correspondências falsas.
-- Países da América Central + América do Sul são resumidos como América Tropical.
-- Vários países da mesma região são resumidos para a região ampla.
+Resultado esperado no card:
+🇧🇷 Brasil
 
-Resultado esperado:
-- Specklinia grobyi → 🌍 América Tropical
-- Stanhopea guttulata → 🇧🇷 Brasil
-
-Arquivos alterados:
-- js/geografia.js
-- dados/orquideas/specklinia-grobyi.js
-- dados/orquideas/stanhopea-guttulata.js
+Arquivo alterado:
+- dados/orquideas/pleurothallis-modestissima.js

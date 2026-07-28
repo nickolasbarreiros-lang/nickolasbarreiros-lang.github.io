@@ -15,8 +15,8 @@ export const pleurothallisModestissima = {
         "imagens/Pleurothallis modestissima/Pleurothallis modestissima4.jpg"
     ],
     descricao: "Micro-orquídea de crescimento rastejante, sem pseudobulbos, formada por ramicaules finos com uma única folha coriácea no ápice. Produz inflorescências curtas com flores minúsculas, cerosas e agrupadas, em tonalidades que variam do amarelo-palha ao arroxeado.",
-    origem: "A Pleurothallis modestissima, atualmente aceita como Acianthera modestissima, é uma espécie brasileira nativa de ambientes de Mata Atlântica e campo rupestre, com registros principalmente em Minas Gerais e no Sudeste do país.",
-    regiao: "Ocorre em áreas de altitude, geralmente entre cerca de 800 e 1.400 metros, com registros especialmente em Minas Gerais e relatos para o Rio de Janeiro.",
+    origem: "Espécie endêmica do Brasil, atualmente aceita como Acianthera modestissima, com ocorrência natural principalmente em áreas de altitude do Sudeste do país.",
+    regiao: "Brasil — encontrada principalmente em Minas Gerais, com registros também para o Rio de Janeiro, geralmente entre cerca de 800 e 1.400 metros de altitude.",
     habitat: "Epífita e ocasionalmente rupícola, encontrada sobre árvores ou afloramentos rochosos em ambientes de altitude com umidade elevada, luz filtrada e boa circulação de ar.",
     clima: "Intermediário a ameno, úmido e muito ventilado.",
     climaFloracao: "Prefere temperaturas entre 16°C e 26°C, alta umidade do ar e excelente ventilação. Em regiões litorâneas e de clima quente, deve ser mantida em local fresco, sombreado e ventilado, protegida do calor acumulado.",
