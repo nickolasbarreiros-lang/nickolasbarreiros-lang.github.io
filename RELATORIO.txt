@@ -1,10 +1,25 @@
-CARD V3.11 — ORIGEM NOVA GUINÉ
+CARD V3.12 — DETECÇÃO AMPLIADA DE HÍBRIDOS
 
-Alteração:
-- A origem “Nova Guiné” agora é reconhecida diretamente no card.
-- O card exibe a bandeira de Papua-Nova Guiné e o texto “Nova Guiné”.
-- Também foi adicionado reconhecimento para “Papua-Nova Guiné”.
-- A ficha completa permanece inalterada.
+Correção aplicada:
+- Cattlianthe Chocolate Drop
+- Cattlianthe Jewel Box
+- Cattlianthe Trick or Treat
+
+Esses híbridos agora seguem o padrão do card:
+🧪 Híbrido Horticultural
+
+A detecção passa a reconhecer também:
+- híbrido hortícola;
+- híbrido horticultural;
+- híbrido registrado;
+- híbrido clássico;
+- híbrido artificial;
+- grex;
+- cruzamento;
+- registros RHS;
+- menções à aliança Cattleya.
+
+Formas, variedades e subespécies botânicas continuam excluídas da regra.
 
 Arquivo alterado:
 - js/geografia.js

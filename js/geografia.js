@@ -144,7 +144,7 @@ function ehHibridoHorticultural(orquidea) {
 
     /*
      * Formas, variedades e subespécies botânicas continuam sendo
-     * táxons naturais da espécie e nunca devem ser classificadas
+     * táxons naturais da espécie e não devem ser classificadas
      * automaticamente como híbridos.
      */
     const ehFormaOuVariedadeBotanica =
@@ -162,9 +162,35 @@ function ehHibridoHorticultural(orquidea) {
         return false;
     }
 
+    const termosDeHibrido = [
+        "hibrido",
+        "horticola",
+        "horticultural",
+        "grex",
+        "cruzamento",
+        "registrado na rhs",
+        "registrado pela rhs",
+        "registrado no catalogo",
+        "alianca cattleya",
+        "hibrido classico",
+        "hibrido artificial",
+        "hibrido registrado"
+    ];
+
+    const textoComposto = [
+        tipo,
+        origem,
+        descricao
+    ].join(" ");
+
+    const possuiTermoDeHibrido =
+        termosDeHibrido.some((termo) =>
+            textoComposto.includes(termo)
+        );
+
     const tipoExplicitamenteHibrido =
         tipo === "hibrido" ||
-        tipo.includes("hibrido horticultural") ||
+        tipo.includes("hibrido") ||
         tipo.includes("notogenero") ||
         tipo.includes("nothogenero");
 
@@ -172,21 +198,10 @@ function ehHibridoHorticultural(orquidea) {
         nome.includes("×") ||
         nomeCientifico.includes("×");
 
-    const origemExplicitamenteHibrida =
-        origem.includes("hibrido horticultural") ||
-        origem.includes("cruzamento entre") ||
-        origem.includes("resultado do cruzamento");
-
-    const descricaoExplicitamenteHibrida =
-        descricao.includes("hibrido horticultural") ||
-        descricao.includes("resultado do cruzamento") ||
-        descricao.includes("cruzamento entre");
-
     return (
         tipoExplicitamenteHibrido ||
         nomeComCruzamento ||
-        origemExplicitamenteHibrida ||
-        descricaoExplicitamenteHibrida
+        possuiTermoDeHibrido
     );
 }
 
