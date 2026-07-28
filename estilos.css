@@ -5405,3 +5405,44 @@ main.container{
         font-size: 12.5px;
     }
 }
+
+/* =========================================================
+   CARD V2.3 — DESTAQUE DO NOME PRINCIPAL
+   Reforça a hierarquia visual sem exageros decorativos.
+========================================================= */
+.cartao-orquidea-v4 .identificacao-cartao h3 {
+    position: relative;
+    margin-bottom: 13px;
+    padding-bottom: 8px;
+    font-size: 25px;
+    line-height: 1.12;
+    font-weight: 700;
+}
+
+.cartao-orquidea-v4 .identificacao-cartao h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 48px;
+    height: 2px;
+    border-radius: 999px;
+    background: #2d6f46;
+    opacity: .72;
+}
+
+.cartao-orquidea-v4 .identificacao-cartao h3 a,
+.cartao-orquidea-v4 .identificacao-cartao h3 em {
+    color: #183126;
+    font-weight: 700;
+}
+
+.cartao-orquidea-v4 .informacoes-rapidas-cartao {
+    font-weight: 600;
+}
+
+@media (max-width: 520px) {
+    .cartao-orquidea-v4 .identificacao-cartao h3 {
+        font-size: 23px;
+    }
+}
