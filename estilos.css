@@ -5852,3 +5852,25 @@ main.container{
         font-size: 12px;
     }
 }
+
+
+/* =========================================================
+   CARD V3.5 — ABREVIAÇÃO DINÂMICA DO NOME
+========================================================= */
+
+.cartao-orquidea-v4 .nome-principal-cartao {
+    display: block;
+    max-width: 100%;
+}
+
+.cartao-orquidea-v4 .nome-principal-cartao.nome-abreviado {
+    letter-spacing: -0.01em;
+}
+
+/* Se mesmo abreviado ainda for longo, limita a duas linhas sem reduzir a fonte. */
+.cartao-orquidea-v4 .nome-principal-cartao.nome-abreviado {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}

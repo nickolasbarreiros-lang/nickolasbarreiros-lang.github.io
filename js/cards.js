@@ -593,6 +593,110 @@ export function criarEnderecoFicha(orquidea) {
    CARTÃO COMPLETO
 ========================================================= */
 
+
+/* =========================================================
+   ABREVIAÇÕES DE GÊNEROS — SOMENTE QUANDO O NOME QUEBRA
+========================================================= */
+
+const ABREVIACOES_GENEROS_ORQUIDEAS = Object.freeze({
+    "Rhyncholaeliocattleya": "Rlc.",
+    "Brassocattleya": "Bc.",
+    "Rhyncholaelia": "Rly.",
+    "Paphiopedilum": "Paph.",
+    "Phalaenopsis": "Phal.",
+    "Bulbophyllum": "Bulb.",
+    "Pleurothallis": "Pths.",
+    "Acianthera": "Acian.",
+    "Dendrobium": "Den.",
+    "Oncidium": "Onc.",
+    "Miltoniopsis": "Mps.",
+    "Miltonia": "Milt.",
+    "Brassavola": "B.",
+    "Cattleya": "C.",
+    "Laelia": "L.",
+    "Sophronitis": "S.",
+    "Encyclia": "Ency.",
+    "Epidendrum": "Epi.",
+    "Rodriguezia": "Rodr.",
+    "Rodricidium": "Rdcm.",
+    "Stanhopea": "Stan.",
+    "Catasetum": "Ctsm.",
+    "Cycnoches": "Cyc.",
+    "Mormodes": "Morm.",
+    "Zygopetalum": "Z.",
+    "Maxillaria": "Max.",
+    "Gomesa": "Gom.",
+    "Vanda": "V.",
+    "Coelogyne": "Coel.",
+    "Cymbidium": "Cym.",
+    "Lycaste": "Lyc.",
+    "Masdevallia": "Masd.",
+    "Dracula": "Drac.",
+    "Bifrenaria": "Bif.",
+    "Habenaria": "Hab.",
+    "Spathoglottis": "Spa."
+});
+
+function abreviarGenerosNoNome(nomeCompleto) {
+    let resultado = String(nomeCompleto || "");
+
+    Object.keys(ABREVIACOES_GENEROS_ORQUIDEAS)
+        .sort((a, b) => b.length - a.length)
+        .forEach((genero) => {
+            const abreviacao = ABREVIACOES_GENEROS_ORQUIDEAS[genero];
+            const expressao = new RegExp(`\\b${genero}\\b`, "g");
+            resultado = resultado.replace(expressao, abreviacao);
+        });
+
+    return resultado;
+}
+
+function nomeOcupaMaisDeUmaLinha(elemento) {
+    const estilo = window.getComputedStyle(elemento);
+    const tamanhoFonte = Number.parseFloat(estilo.fontSize) || 16;
+    const alturaLinha = Number.parseFloat(estilo.lineHeight) || tamanhoFonte * 1.2;
+
+    return elemento.scrollHeight > alturaLinha * 1.35;
+}
+
+function aplicarAbreviacaoDinamica(elemento) {
+    if (!elemento) return;
+
+    const nomeCompleto = elemento.dataset.nomeCompleto || elemento.textContent.trim();
+    const nomeAbreviado = abreviarGenerosNoNome(nomeCompleto);
+
+    elemento.textContent = nomeCompleto;
+    elemento.classList.remove("nome-abreviado");
+    elemento.removeAttribute("title");
+
+    if (
+        nomeAbreviado !== nomeCompleto &&
+        nomeOcupaMaisDeUmaLinha(elemento)
+    ) {
+        elemento.textContent = nomeAbreviado;
+        elemento.title = nomeCompleto;
+        elemento.classList.add("nome-abreviado");
+    }
+}
+
+function atualizarAbreviacoesDinamicas(raiz = document) {
+    raiz
+        .querySelectorAll(".nome-principal-cartao[data-nome-completo]")
+        .forEach((elemento) => {
+            aplicarAbreviacaoDinamica(elemento);
+        });
+}
+
+let temporizadorAbreviacoes;
+
+window.addEventListener("resize", () => {
+    clearTimeout(temporizadorAbreviacoes);
+
+    temporizadorAbreviacoes = setTimeout(() => {
+        atualizarAbreviacoesDinamicas();
+    }, 120);
+});
+
 export function criarCartaoOrquidea(
     orquidea,
     opcoes = {}
@@ -632,7 +736,14 @@ export function criarCartaoOrquidea(
                         <span class="rotulo-genero-cartao">Gênero:</span>
                         <span class="genero-cartao">${escaparHTML(genero)}</span>
                     </div>
-                    <h3><a href="${escaparHTML(enderecoFicha)}"><em>${escaparHTML(nome)}</em></a></h3>
+                    <h3>
+                        <a href="${escaparHTML(enderecoFicha)}">
+                            <em
+                                class="nome-principal-cartao"
+                                data-nome-completo="${escaparHTML(nome)}"
+                            >${escaparHTML(nome)}</em>
+                        </a>
+                    </h3>
                     ${informacoesRapidas}
                 </div>
 
@@ -704,4 +815,8 @@ export function renderizarCartoes(
             orquideas,
             opcoes
         );
+
+    requestAnimationFrame(() => {
+        atualizarAbreviacoesDinamicas(elemento);
+    });
 }

@@ -1,11 +1,12 @@
-CARD V3.4 — MAIS ESPAÇO PARA O SINÔNIMO
+CARD V3.5 — ABREVIAÇÃO DINÂMICA DO NOME
 
 Alterações:
-- O botão passou de “Ver ficha completa” para “FICHA COMPLETA”.
-- Redução do padding horizontal do botão.
-- Rótulo “SINÔNIMO” ficou menor e mais compacto.
-- O selo ganhou maior prioridade de largura.
-- Ajustes responsivos preservados.
+- O nome completo permanece quando cabe em uma única linha.
+- As abreviações oficiais só são aplicadas quando o nome realmente quebra para mais de uma linha no card.
+- O nome completo continua disponível ao passar o cursor.
+- O sistema recalcula a necessidade de abreviação ao redimensionar a tela.
+- A fonte não é reduzida.
+- Se o nome abreviado continuar longo, ele pode ocupar no máximo duas linhas.
 
 Arquivos alterados:
 - js/cards.js
