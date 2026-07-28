@@ -131,6 +131,28 @@ function extrairTrechoCurto(textoOriginal, limite = 30) {
 }
 
 
+function ehAutofecundacaoHorticultural(orquidea) {
+    const nome = normalizarTexto(orquidea?.nome);
+    const nomeCientifico = normalizarTexto(orquidea?.nomeCientifico);
+    const origem = normalizarTexto(orquidea?.origem);
+    const descricao = normalizarTexto(orquidea?.descricao);
+
+    const texto = [
+        nome,
+        nomeCientifico,
+        origem,
+        descricao
+    ].join(" ");
+
+    return (
+        texto.includes(" x self") ||
+        texto.includes(" × self") ||
+        texto.includes("autofecundacao") ||
+        texto.includes("autopolinizacao") ||
+        texto.includes("progenie obtida pela autofecundacao")
+    );
+}
+
 function ehHibridoHorticultural(orquidea) {
     const tipo = normalizarTexto(orquidea?.tipo);
     const nome = String(orquidea?.nome || "");
@@ -210,6 +232,19 @@ export function resumirOrigem(orquidea) {
         orquidea?.distribuicao ||
         ""
     ).trim();
+
+    /*
+     * Cruzamentos “× self” são autofecundações horticulturais.
+     * Não são híbridos entre plantas diferentes, mas no card devem
+     * ser resumidos sem exibir a descrição extensa da origem.
+     */
+    if (ehAutofecundacaoHorticultural(orquidea)) {
+        return {
+            icone: "🧪",
+            texto: "Seleção Horticultural",
+            tipo: "selecao-horticultural"
+        };
+    }
 
     if (ehHibridoHorticultural(orquidea)) {
         return {

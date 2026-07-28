@@ -1,20 +1,15 @@
-CARD V3.13 — FORMAS BOTÂNICAS NÃO SÃO HÍBRIDOS
+CARD V3.14 — AUTOFECUNDAÇÃO HORTICULTURAL
 
-Correções:
-- Cattleya guttata f. coerulea não será mais classificada como híbrido.
-- Cattleya lundii f. alba não será mais classificada como híbrido.
-- A detecção agora reconhece grafias com ou sem espaço:
-  • f. coerulea
-  • f.coerulea
-  • f. alba
-  • f.alba
+Correção aplicada:
+- Cattleya violacea f. suavissima × self não exibe mais a origem extensa no card.
+- O card passa a mostrar:
+  🧪 Seleção Horticultural
 
-Também continuam excluídos da regra de híbridos:
-- forma
-- var. / variedade
-- subsp. / ssp. / subespécie
-- cv. / cultivar
-- formas alba, coerulea, concolor, semi-alba, flamea e rubra
+Justificativa:
+- “× self” indica autofecundação da própria planta selecionada.
+- Não é um híbrido entre espécies ou indivíduos diferentes.
+- Por isso não recebe o rótulo “Híbrido Horticultural”.
+- A origem detalhada permanece na ficha completa.
 
 Arquivo alterado:
 - js/geografia.js
