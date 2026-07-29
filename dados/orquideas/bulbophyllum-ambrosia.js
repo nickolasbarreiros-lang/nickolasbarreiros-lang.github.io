@@ -1,4 +1,4 @@
-// Ficha científica e de cultivo revisada — Lote 03.
+// Ficha refinada — LOTE 03 — PADRÃO EDITORIAL V3.
 
 export const bulbophyllumAmbrosia = {
     id: "bulbophyllum-ambrosia",
@@ -18,7 +18,7 @@ export const bulbophyllumAmbrosia = {
         "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia3.webp",
         "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia4.webp",
     ],
-    descricao: "Bulbophyllum asiático de pequeno porte, com rizoma rastejante, pseudobulbos espaçados e flores claras, delicadas e perfumadas. Seu aroma adocicado, frequentemente comparado ao mel, é uma característica incomum dentro do gênero e torna a espécie especialmente procurada por colecionadores.",
+    descricao: "Orquídea miniatura asiática caracterizada pelo hábito rastejante, rizoma ramificado e pseudobulbos espaçados. Produz flores delicadas em tons claros com fragrância adocicada marcante, frequentemente comparada ao mel — uma virtude rara no gênero Bulbophyllum que torna a espécie muito desejada por colecionadores.",
     origem: "Nativo do Nepal ao sul da China e à Indochina.",
     regiao: "Ocorre no Assam, Nepal, sul e sudeste da China, Hainan, Laos e Vietnã.",
     habitat: "Epífita ou rupícola em florestas subtropicais úmidas, mistas ou montanas, sobre ramos, troncos e rochas cobertas por musgos, desde altitudes médias até aproximadamente 1.300 metros.",
@@ -27,16 +27,16 @@ export const bulbophyllumAmbrosia = {
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não",
-        horario: "Apenas luminosidade filtrada",
-        observacoes: "Prefere luz difusa de média intensidade. Sombra excessiva reduz a floração, enquanto sol direto forte causa manchas rapidamente nas folhas finas."
+        horario: "Luz difusa durante todo o dia",
+        observacoes: "Requer luz difusa e filtrada de média intensidade. Evite exposição ao sol direto, que causa manchas e queimaduras térmicas nas folhas finas."
     },
     floracao: "Floresce com maior frequência do inverno à primavera.",
-    adubacao: "🌿 Orgânica: bokashi em quantidade mínima, protegido em pequeno saquinho e sem contato com o rizoma.\n💧 Foliar: NPK equilibrado, como 20-20-20, em um quarto a meia dose, a cada 15 dias durante o crescimento.\n🧪 Liberação lenta: poucos grânulos de Osmocote 14-14-14 apenas em vasos ou cestos, longe dos pseudobulbos e raízes superficiais.",
-    rega: "Mantenha o substrato levemente úmido, permitindo apenas uma secagem superficial entre as regas. A planta não deve permanecer completamente seca por muito tempo. No frio, reduza ligeiramente a frequência, mas preserve a hidratação dos pseudobulbos.",
-    suporte: "🥇 Cesto raso e largo: acomoda o rizoma rastejante sem enterrá-lo.\n🥈 Placa de cortiça ou madeira com fina camada de esfagno.\n🥉 Vaso baixo e largo, muito drenado.",
-    substrato: "🥇 Casca de pinus fina + pedra-pomes fina + pequena quantidade de esfagno.\n🥈 Esfagno solto sobre uma base de carvão e pedra-pomes.\n🥉 Cultivo montado sobre cortiça ou madeira, com pouca fibra junto às raízes.",
-    errosComuns: "Enterrar o rizoma; deixar o substrato secar completamente; usar vaso profundo e estreito; compactar o esfagno; cultivar sob sol direto; manter alta umidade sem circulação de ar; aplicar adubo concentrado em raízes delicadas.",
-    dica: "Posicione o rizoma sobre a superfície e deixe espaço livre na direção do crescimento. O sucesso do cultivo depende menos de um substrato constantemente molhado e mais da combinação entre umidade moderada, raízes arejadas e alta umidade ambiental.",
+    adubacao: "💧 Foliar: NPK equilibrado, como 20-20-20, em diluição fraca de 1/4 a 1/2 da dose recomendada, a cada 15 dias durante o crescimento ativo.\n🌿 Orgânica: Bokashi em quantidade mínima, protegido em saquinho e sem encostar no rizoma.\n🧪 Liberação lenta: poucos grânulos de Osmocote em vasos ou cestos, sempre distantes das raízes superficiais.",
+    rega: "Mantenha o substrato levemente úmido, permitindo apenas uma secagem superficial entre as irrigações. Evite que o sistema radicular permaneça totalmente seco por dias seguidos. No inverno, reduza a frequência das regas, garantindo contudo a hidratação dos pseudobulbos.",
+    suporte: "🥇 Cestos rasos e largos ou vasos tipo cuia, que acomodam o crescimento horizontal do rizoma.\n🥈 Placas de cortiça ou troncos com uma fina camada de esfagno.\n🥉 Vasos baixos e bem perfurados.",
+    substrato: "Casca de pinus fina, pedra-pomes fina e pequena proporção de esfagno solto. O rizoma e os pseudobulbos devem permanecer completamente sobre a superfície do meio.",
+    errosComuns: "Enterrar o rizoma ou os pseudobulbos no substrato; Deixar o substrato secar completamente por períodos prolongados; Usar vasos profundos e estreitos que acumulam umidade no fundo; Compactar o esfagno ou o substrato ao redor das raízes; Manter alta umidade sem circulação e renovação de ar; Aplicar adubo concentrado sobre as raízes finas; Expor a planta ao sol direto.",
+    dica: "Fixe o rizoma perfeitamente assentado sobre a superfície do meio e garanta espaço livre na direção do crescimento. O segredo do cultivo reside na combinação de um substrato levemente úmido, porém muito arejado, com umidade relativa do ar elevada e circulação constante no orquidário.",
     adaptacaoRegional: {
         litoralQuente: "Mantenha a planta na área mais fresca e ventilada do orquidário, protegida do sol direto. Cestos rasos e substratos arejados reduzem o risco de superaquecimento e podridão.",
         montanhaFrio: "Adapta-se bem a noites frescas. Em períodos frios e úmidos, reduza a frequência das regas sem permitir que pseudobulbos e raízes desidratem."
