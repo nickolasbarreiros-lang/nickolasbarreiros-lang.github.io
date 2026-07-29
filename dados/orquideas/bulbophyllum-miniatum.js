@@ -1,54 +1,44 @@
 // Ficha científica e de cultivo revisada — Lote 04.
-// Nome aceito em POWO: Bulbophyllum saltatorium var. albociliatum.
+// Identificador histórico preservado por compatibilidade.
+// Nome aceito: Bulbophyllum saltatorium var. albociliatum.
 
 export const bulbophyllumMiniatum = {
     id: "bulbophyllum-miniatum",
     nome: "Bulbophyllum saltatorium var. albociliatum",
+    sinonimo: "Bulbophyllum miniatum",
     genero: "Bulbophyllum",
-    tipo: "Espécie botânica",
+    tipo: "Variedade botânica",
     dificuldade: "Moderada",
-    caracteristicas: [
-        "Miniatura africana",
-        "Flores alaranjadas",
-        "Labelo móvel",
-        "Clima quente",
-    ],
+    caracteristicas: ["Miniatura epífita", "Rizoma fino e rastejante", "Flores alaranjadas", "Margens ciliadas", "Labelo móvel"],
     fotos: [
         "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum1.jpeg",
         "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum2.jpeg",
         "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum3.webp",
-        "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum4.webp",
+        "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum4.webp"
     ],
-    descricao: "Miniatura epífita africana ainda amplamente comercializada como Bulbophyllum miniatum. O nome aceito atualmente é Bulbophyllum saltatorium var. albociliatum. Forma pseudobulbos espaçados sobre rizoma fino e produz pequenas flores alaranjadas a avermelhadas, com margens claras e labelo móvel.",
-    origem: "África tropical ocidental e centro-ocidental, incluindo registros da Guiné, Serra Leoa, Libéria, Costa do Marfim, Gana, Nigéria, Camarões, Gabão, Congo e República Democrática do Congo.",
-    regiao: "Florestas tropicais da África Ocidental e da Bacia do Congo.",
-    habitat: "Epífita de florestas primárias e secundárias quentes e úmidas, geralmente sobre galhos e troncos com musgos, do nível do mar a aproximadamente 750 m; ocasionalmente litófita em depósitos rasos de húmus.",
-    clima: "Quente e úmido, com boa movimentação de ar durante todo o ano.",
-    climaFloracao: "Floresce quando recebe calor estável, umidade atmosférica elevada, raízes finas bem aeradas e luz filtrada suficiente. Não necessita repouso seco; apenas uma pequena redução de adubação e água pode acompanhar períodos de crescimento mais lento.",
+    descricao: "Delicada miniatura epífita africana, frequentemente encontrada em coleções sob o nome sinônimo Bulbophyllum miniatum. Apresenta pseudobulbos espaçados ao longo de um rizoma fino e produz graciosas flores em tons de laranja a avermelhado, caracterizadas por margens ciliadas claras e pelo típico labelo móvel e oscilante.",
+    origem: "África Ocidental e Bacia do Congo.",
+    regiao: "Florestas tropicais da África Ocidental e Central.",
+    habitat: "Epífita de florestas tropicais úmidas de baixada, geralmente entre 0 e 750 m de altitude.",
+    clima: "Quente e úmido.",
+    climaFloracao: "Floresce melhor sob calor moderado, alta umidade do ar, luz filtrada suave e circulação constante. O maior desafio é manter umidade contínua sem compactar o substrato ou deixar o rizoma encharcado.",
     iluminacao: {
-        sombrite: "70%",
-        solDireto: "Não",
-        horario: "Luz indireta clara",
-        observacoes: "Prefere luminosidade baixa a média, porém não sombra escura. Folhas verde-claras e pseudobulbos firmes indicam bom equilíbrio."
+        sombrite: "Cerca de 70%",
+        solDireto: "Não recomendado",
+        horario: "Luz filtrada suave durante todo o dia",
+        observacoes: "Folhas verde-claro e pseudobulbos firmes indicam bom equilíbrio luminoso. A radiação direta queima rapidamente a planta."
     },
-    floracao: "Pode florescer em diferentes épocas do ano, com maior frequência durante períodos quentes e úmidos. Em cultivo, florações no verão e início do outono são comuns.",
-    adubacao: "🌿 Orgânica: bokashi em porção mínima e sempre protegido em saquinho.\n💧 Foliar: NPK equilibrado em um quarto da dose a cada 10 a 15 dias durante a emissão de novos pseudobulbos.\n🧪 Liberação lenta: Osmocote 14-14-14 somente em quantidade mínima; raízes pequenas sofrem facilmente com excesso de sais.",
-    rega: "Mantenha umidade regular sem encharcar. Regue novamente quando a superfície começar a perder umidade, antes que o conjunto seque totalmente. Plantas montadas podem exigir rega diária no calor; em vaso, espere boa drenagem entre aplicações.",
-    suporte: "🥇 Placa de cortiça, madeira resistente ou galho com fina camada de esfagno: favorece o hábito rastejante e a ventilação.\n🥈 Cesta pequena e rasa.\n🥉 Vaso largo e baixo, com muitos furos.",
-    substrato: "🥇 Esfagno solto + pedra-pomes fina, usado apenas para envolver levemente as raízes.\n🥈 Casca de pinus fina + carvão pequeno + esfagno picado.\n🥉 Fibra de coco em cubos pequenos + pedra-pomes, desde que bem lavada e não compactada.",
-    errosComuns: "Deixar secar por vários dias; usar adubo concentrado; enterrar o rizoma; manter esfagno encharcado; cultivar sob sol direto; deixar em ambiente fechado, quente e sem circulação de ar.",
-    dica: "Como o rizoma avança rapidamente, monte a planta deixando espaço livre à frente. Uma fina faixa de esfagno somente sob as raízes funciona melhor do que envolver completamente pseudobulbos e rizoma.",
+    floracao: "Pode florescer em diferentes épocas, com maior atividade durante os meses quentes.",
+    adubacao: "Foliar: NPK equilibrado em 1/4 da dose indicada, a cada 10 a 15 dias durante a emissão de novos brotos. Orgânica: Bokashi em porção mínima, protegido em saquinho de tecido. Liberação lenta: Osmocote em dose estritamente baixa, afastado das raízes finas, que se queimam facilmente com o acúmulo de sais.",
+    rega: "Mantenha ambiente e substrato com umidade constante, regando assim que a superfície começar a secar. Em cultivo montado, regas diárias podem ser necessárias no calor. Em vasos ou cestos, assegure drenagem imediata para não encharcar o fundo.",
+    suporte: "🥇 Placa de cortiça ou tronco de madeira durável com fina base de esfagno.\n🥈 Galho rugoso com espaço livre para o avanço do rizoma.\n🥉 Cesto ou vaso tipo cuia raso e muito perfurado.",
+    substrato: "🥇 Esfagno solto + pedra-pomes fina.\n🥈 Casca de pinus fina + carvão vegetal pequeno + esfagno picado.\n🥉 Montagem com fina camada de esfagno apenas sob as raízes.",
+    errosComuns: "• Deixar a planta secar totalmente por vários dias.\n• Enterrar o rizoma ou os pseudobulbos no substrato.\n• Compactar o esfagno, mantendo as raízes sufocadas e encharcadas.\n• Expor a planta à radiação solar direta.\n• Cultivar em ambiente fechado, quente e sem circulação de ar.\n• Aplicar adubo concentrado sobre o sistema radicular sensível.",
+    dica: "Como o rizoma fino avança rapidamente, fixe a planta deixando bastante espaço livre na direção do crescimento. Coloque uma fina cama de esfagno apenas sob as raízes, evitando cobrir ou envolver o rizoma e os pseudobulbos.",
     adaptacaoRegional: {
-        litoralQuente: "O calor é favorável, desde que haja ar em movimento. Em montagens, reforce as regas; em vasos, use mistura muito arejada e evite água acumulada durante a noite.",
-        montanhaFrio: "Proteja de temperaturas baixas e correntes frias. Reduza discretamente as regas no inverno, mas mantenha umidade radicular e atmosférica."
+        litoralQuente: "Adapta-se muito bem ao litoral quente e úmido, desde que receba sombra clara, regas frequentes, excelente ventilação e substrato sempre solto.",
+        montanhaFrio: "Proteja de frio prolongado. Em temperaturas mais baixas, reduza a frequência de rega sem permitir secagem completa."
     },
-    mesesFloracao: [1, 2, 3, 10, 11, 12],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 3,
-        perfume: 1,
-        luminosidade: 2,
-        agua: 4,
-        raridade: 3
-    }
+    mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
+    avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 3, agua: 5, raridade: 4 }
 };

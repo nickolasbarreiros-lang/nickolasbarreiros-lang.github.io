@@ -1,55 +1,44 @@
 // Ficha científica e de cultivo revisada — Lote 04.
-// Nome aceito em POWO: Bulbophyllum roxburghii.
+// Identificador histórico preservado por compatibilidade.
+// Nome aceito: Bulbophyllum roxburghii; sinônimo: Bulbophyllum sikkimense.
 
 export const bulbophyllumSikkimense = {
     id: "bulbophyllum-sikkimense",
     nome: "Bulbophyllum roxburghii",
-    genero: "Bulbophyllum",
     sinonimo: "Bulbophyllum sikkimense",
+    genero: "Bulbophyllum",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
-    caracteristicas: [
-        "Umbela multiflora",
-        "Origem himalaia",
-        "Flores rajadas",
-        "Clima quente a intermediário",
-    ],
+    caracteristicas: ["Epífita", "Rizoma rastejante", "Inflorescência em umbela", "Clima quente a intermediário", "Sinônimo comercial frequente"],
     fotos: [
         "imagens/Bulbophyllum sikkimense/Bulbophyllum sikkimense1.webp",
         "imagens/Bulbophyllum sikkimense/Bulbophyllum sikkimense2.jpg",
         "imagens/Bulbophyllum sikkimense/Bulbophyllum sikkimense3.jpeg",
-        "imagens/Bulbophyllum sikkimense/Bulbophyllum sikkimense4.webp",
+        "imagens/Bulbophyllum sikkimense/Bulbophyllum sikkimense4.webp"
     ],
-    descricao: "Espécie epífita do leste do Himalaia, tradicionalmente conhecida em coleções como Bulbophyllum sikkimense, hoje tratada como sinônimo de Bulbophyllum roxburghii. Forma pseudobulbos pequenos sobre rizoma rastejante e produz uma umbela de flores claras com marcas púrpuras ou avermelhadas.",
-    origem: "Leste do Nepal, Sikkim e Assam, estendendo-se até Bangladesh segundo o tratamento taxonômico atual.",
-    regiao: "Contrafortes úmidos do Himalaia Oriental e Nordeste do subcontinente indiano.",
-    habitat: "Epífita e ocasionalmente litófita de florestas tropicais úmidas, vegetação secundária e margens de rios, geralmente entre aproximadamente 250 e 850 m de altitude.",
-    clima: "Quente a intermediário, úmido, com noites moderadamente mais frescas.",
-    climaFloracao: "A planta responde bem ao ciclo de monções: água e adubação abundantes durante a formação dos pseudobulbos, seguidas por leve redução após a maturação. A diferença térmica noturna, boa luminosidade filtrada e ventilação favorecem a indução floral.",
+    descricao: "Orquídea epífita originária dos contrafortes do Himalaia Oriental, muito difundida em coleções sob o nome Bulbophyllum sikkimense, hoje tratado como sinônimo de Bulbophyllum roxburghii. Possui pseudobulbos pequenos distribuídos ao longo de um rizoma rastejante e produz belas inflorescências em umbela, com flores claras ornamentadas por estrias e manchas avermelhadas ou púrpuras.",
+    origem: "Contrafortes do Himalaia Oriental e regiões próximas do sul da Ásia.",
+    regiao: "Leste do Nepal, Sikkim, Assam e áreas vizinhas.",
+    habitat: "Florestas tropicais e subtropicais de baixa a média altitude, aproximadamente entre 250 e 850 m.",
+    clima: "Quente a intermediário.",
+    climaFloracao: "Apesar da origem himalaia, não é uma espécie alpina. Floresce melhor em ambiente quente a intermediário, úmido, bem ventilado e com luminosidade filtrada abundante. A leve redução sazonal das regas após a maturação dos pseudobulbos ajuda a reproduzir o ciclo de monções.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Não",
-        horario: "Luz difusa intensa ou sol muito fraco do início da manhã",
-        observacoes: "Não é uma espécie de sombra profunda. Luz insuficiente produz folhas muito escuras e reduz a floração; excesso causa queimaduras rapidamente."
+        solDireto: "Não recomendado",
+        horario: "Luz difusa durante todo o dia",
+        observacoes: "Evite sombra profunda, que escurece excessivamente as folhas e reduz as floradas. O sol direto queima rapidamente a folhagem."
     },
-    floracao: "Geralmente entre o fim do verão e o outono no habitat. No Brasil, pode florescer do fim do verão ao inverno, conforme o ciclo de crescimento e a origem do clone.",
-    adubacao: "🌿 Orgânica: bokashi em pequena quantidade durante a emissão e expansão dos novos pseudobulbos.\n💧 Foliar: NPK equilibrado em um quarto a meia dose a cada 10 a 15 dias no crescimento; reduzir após a maturação.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose baixa, renovado apenas quando houver crescimento ativo.",
-    rega: "Regue abundantemente no período quente e de crescimento, permitindo que o excesso escoe. Após a maturação dos pseudobulbos e durante o período mais fresco, aumente moderadamente o intervalo, mantendo raízes e pseudobulbos sem desidratação. Não exige repouso seco completo.",
-    suporte: "🥇 Cesta rasa ou cachepô largo: permite expansão do rizoma e boa secagem entre regas.\n🥈 Vaso baixo e largo, bastante perfurado.\n🥉 Placa com esfagno moderado, apenas em ambientes de alta umidade e regas frequentes.",
-    substrato: "🥇 Casca de pinus média + pedra-pomes + carvão + esfagno moderado.\n🥈 Esfagno solto + pedra-pomes, ideal para locais mais secos.\n🥉 Casca fina a média + carvão + perlita, com cobertura leve de esfagno sob as raízes.",
-    errosComuns: "Tratá-la como espécie de clima frio; manter sombra excessiva; impor repouso totalmente seco; usar recipiente estreito; deixar água estagnada; adubar fortemente raízes finas.",
-    dica: "O nome comercial pode permanecer como B. sikkimense, mas o cultivo deve seguir uma espécie de floresta tropical de baixa a média altitude: quente a intermediária, úmida e ventilada, não uma orquídea alpina.",
+    floracao: "Principalmente na primavera e no verão, com variações conforme o cultivo.",
+    adubacao: "Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose recomendada, a cada 10 a 15 dias durante o crescimento ativo; reduza após a maturação dos pseudobulbos. Orgânica: Bokashi em quantidade mínima na borda do recipiente durante a brotação. Liberação lenta: Osmocote em dose baixa, afastado do rizoma e renovado apenas quando houver crescimento ativo.",
+    rega: "Irrigue abundantemente durante a emissão de novos brotos e raízes, permitindo drenagem imediata. Após a maturação dos pseudobulbos, diminua moderadamente as regas nos meses frios, mantendo o meio levemente úmido e sem impor repouso seco severo.",
+    suporte: "🥇 Cesto ou cachepô raso e largo de madeira.\n🥈 Vaso plástico tipo cuia, muito perfurado.\n🥉 Placa com camada moderada de esfagno em local de alta umidade.",
+    substrato: "🥇 Casca de pinus média + pedra-pomes + carvão vegetal + esfagno solto.\n🥈 Esfagno solto + pedra-pomes.\n🥉 Montagem em madeira ou cortiça com reserva moderada de umidade.",
+    errosComuns: "• Tratar a planta como uma espécie alpina ou de clima muito frio.\n• Manter a planta sob sombra excessiva ou profunda.\n• Impor repouso totalmente seco durante o inverno.\n• Utilizar recipientes fundos e estreitos.\n• Deixar água estagnada no fundo do vaso.\n• Aplicar adubo em concentrações altas sobre as raízes finas.",
+    dica: "Mesmo que a etiqueta indique Bulbophyllum sikkimense, lembre-se de que se trata de uma espécie de florestas de baixa a média altitude. O sucesso vem de ambiente quente a intermediário, alta umidade, boa ventilação e apenas uma redução moderada das regas após a maturação dos pseudobulbos.",
     adaptacaoRegional: {
-        litoralQuente: "Cultive no ponto mais ventilado e protegido do sol da tarde. Noites muito abafadas podem reduzir a floração; aumente a circulação de ar, não a sombra excessiva.",
-        montanhaFrio: "Condições intermediárias são favoráveis. Proteja de frio intenso e mantenha umidade moderada no inverno, sem transformar a redução de regas em seca prolongada."
+        litoralQuente: "Adapta-se bem ao litoral quente e úmido quando recebe luz filtrada, ventilação constante e drenagem rápida. Não deve ser tratada como orquídea de clima frio.",
+        montanhaFrio: "Tolera noites amenas, mas deve ser protegida de frio intenso e de repouso seco prolongado."
     },
-    mesesFloracao: [3, 4, 5, 6, 7],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 3,
-        perfume: 1,
-        luminosidade: 2,
-        agua: 4,
-        raridade: 4
-    }
+    mesesFloracao: [9, 10, 11, 12, 1, 2],
+    avaliacoes: { cultivo: 4, floracao: 4, perfume: 2, luminosidade: 4, agua: 4, raridade: 4 }
 };
