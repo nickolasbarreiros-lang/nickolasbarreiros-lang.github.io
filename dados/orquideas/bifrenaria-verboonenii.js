@@ -1,4 +1,4 @@
-// Ficha científica e de cultivo revisada — Lote 01.
+// Ficha científica e de cultivo refinada — Lote 01.
 
 export const bifrenariaVerboonenii = {
     id: "bifrenaria-verboonenii",
@@ -18,7 +18,7 @@ export const bifrenariaVerboonenii = {
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii3.jpg",
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii4.jpg",
     ],
-    descricao: "Espécie brasileira rara, de crescimento cespitoso, pseudobulbos robustos e inflorescências basais com poucas flores grandes, cerosas e perfumadas. Na natureza, apresenta hábito predominantemente rupícola.",
+    descricao: "Espécie brasileira rara de campos rupestres, com hábito predominantemente rupícola e crescimento cespitoso. Possui pseudobulbos robustos e produz inflorescências basais com poucas flores, porém grandes, espessas, cerosas e perfumadas.",
     origem: "Originária do Brasil.",
     regiao: "Minas Gerais especialmente das regiões da Serra do Cipó e Diamantina, em altitudes aproximadas de 1.000 a 1.400 metros.",
     habitat: "Rupícola em campos rupestres e ambientes montanos expostos, com forte luminosidade, noites frescas e inverno seco.",
@@ -28,15 +28,15 @@ export const bifrenariaVerboonenii = {
         sombrite: "40%",
         solDireto: "Sim",
         horario: "Até aproximadamente 09:30",
-        observacoes: "As folhas devem ficar verde-claras; leve pigmentação avermelhada é aceitável. Folhas verde-escuras indicam pouca luz, enquanto manchas amareladas ou secas indicam exposição excessiva."
+        observacoes: "Exige luminosidade alta, com sombrite de 40% ou sol filtrado intenso. As folhas devem manter coloração verde-clara; uma leve pigmentação avermelhada é normal e aceitável. Folhas verde-escuras indicam iluminação insuficiente, enquanto manchas amareladas ou secas revelam queimadura por excesso de exposição. Em dias quentes, circulação de ar intensa é indispensável."
     },
     floracao: "Outono.",
-    adubacao: "🌿 Orgânica: bokashi em quantidade mínima, dentro de saquinho, somente durante a formação dos novos pseudobulbos.\n💧 Foliar: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias durante o crescimento ativo.\n🧪 Liberação lenta: Osmocote 14-14-14, em dose baixa, aplicado apenas no início da brotação.",
-    rega: "Durante o crescimento, regue abundantemente e deixe o substrato secar antes da próxima rega. Após o amadurecimento do pseudobulbo, reduza progressivamente. No inverno, mantenha a planta quase seca, oferecendo apenas regas ocasionais para evitar desidratação severa.",
+    adubacao: "🌿 Orgânica: Bokashi em quantidade mínima, em trouxinha, aplicado apenas durante o surgimento dos novos brotos.\n💧 Foliar: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias no crescimento ativo.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose reduzida, aplicado somente no início da brotação.\n⚠️ Atenção: suspenda totalmente a adubação assim que o novo pseudobulbo estiver maduro para não queimar as raízes nem prejudicar a floração.",
+    rega: "Durante o período de crescimento ativo, regue abundantemente, permitindo que o substrato seque por completo entre as irrigações. Após o amadurecimento dos pseudobulbos, reduza progressivamente as regas. No inverno, mantenha a planta praticamente seca, oferecendo apenas irrigações ou borrifos ocasionais para evitar a desidratação extrema dos pseudobulbos.",
     suporte: "🥇 Vaso de barro: reproduz melhor a secagem rápida exigida pelas raízes e ajuda a manter a planta estável.\n🥈 Cachepô de madeira muito vazado.\n🥉 Cultivo montado, apenas em ambiente com umidade suficiente para impedir desidratação excessiva.",
-    substrato: "🥇 Mistura mineral com aproximadamente 45% de pedra-pomes ou rocha, 30% de carvão vegetal, 15% de casca de pinus grossa e 10% de cacos de telha: reproduz o ambiente rupícola e deve secar em cerca de dois dias.\n🥈 Pedra-pomes + carvão vegetal + cacos de telha.\n🥉 Brita fina + pedra-pomes + pequena quantidade de casca grossa.",
-    errosComuns: "Cultivar com pouca luz; manter regas regulares no inverno; usar substrato muito orgânico ou retentivo; replantar fora do início das raízes novas; deixar a planta em calor abafado acima de 30 a 32 °C por períodos prolongados.",
-    dica: "Faça o replante somente quando o novo broto tiver cerca de 3 a 5 cm e as pontas das raízes estiverem começando a surgir. Fora desse momento, a espécie pode interromper o crescimento por um longo período.",
+    substrato: "🥇 Composição mineral: 45% de pedra-pomes ou rocha vulcânica, 30% de carvão vegetal, 15% de casca de pinus grossa e 10% de cacos de telha. O meio deve garantir secagem completa em cerca de um a dois dias.\n🥈 Pedra-pomes + carvão vegetal + cacos de telha.\n🥉 Brita fina + pedra-pomes + pequena quantidade de casca grossa.",
+    errosComuns: "Cultivar com pouca iluminação; Manter regas regulares durante o inverno; Usar substrato muito orgânico, compacto ou de alta retenção de água; Replantar fora do período de emissão de raízes novas; Submeter a planta a ambientes abafados e temperaturas contínuas acima de 30–32 °C.",
+    dica: "Realize o replante exclusivamente quando o novo broto atingir entre 3 e 5 cm e as pontas das raízes verdes começarem a despontar na base. Por ser sensível ao manuseio radicular, fazer o replante fora desse momento pode travar o crescimento da planta por mais de uma temporada.",
     adaptacaoRegional: {
         litoralQuente: "Priorize o ponto mais ventilado e fresco do orquidário, use vaso de barro e mistura predominantemente mineral. No inverno, reduza as regas mesmo que o frio seja discreto.",
         montanhaFrio: "As noites frescas e o inverno seco favorecem naturalmente a floração. Proteja de geadas e de chuva contínua durante o repouso."

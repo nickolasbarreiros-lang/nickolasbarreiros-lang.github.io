@@ -1,4 +1,4 @@
-// Ficha científica e de cultivo revisada — Lote 03.
+// Ficha científica e de cultivo refinada — Lote 03.
 
 export const brassavolaPerrini = {
     id: "brassavola-perrini",
@@ -19,7 +19,7 @@ export const brassavolaPerrini = {
         "imagens/Brassavola perrinii/Brassavola perrinii3.webp",
         "imagens/Brassavola perrinii/Brassavola perrinii4.webp",
     ],
-    descricao: "Espécie vigorosa de folhas cilíndricas e flores estreladas, claras, com labelo branco e perfume mais intenso à noite. Antigamente conhecida como Brassavola perrinii, atualmente é aceita como Brassavola tuberculata. Forma touceiras pendentes e adapta-se bem a ambientes quentes, claros e ventilados.",
+    descricao: "Espécie vigorosa de folhas cilíndricas (teretiformes) e flores estreladas em tons claros, destacando um vistoso labelo branco com marcante fragrância noturna. Antigamente classificada como Brassavola perrinii, hoje é formalmente aceita como Brassavola tuberculata. Forma touceiras densas de hábito pendente e adapta-se com facilidade a ambientes quentes, muito luminosos e bem ventilados.",
     origem: "Nativa da Bolívia ao Brasil e nordeste da Argentina.",
     regiao: "No Brasil ocorre em diferentes formações abertas e sazonalmente secas, incluindo áreas do Centro-Oeste, Sudeste e Sul.",
     habitat: "Epífita ou rupícola em matas abertas, bordas de florestas, afloramentos rochosos e ambientes sazonalmente secos, geralmente sob luminosidade elevada, ventilação forte e raízes que secam rapidamente.",
@@ -29,15 +29,15 @@ export const brassavolaPerrini = {
         sombrite: "30% a 40%",
         solDireto: "Sim, suave",
         horario: "Até aproximadamente 09:30",
-        observacoes: "Aceita luminosidade semelhante à de Cattleyas muito claras. Folhas verde-claro e firmes indicam bom nível de luz; amarelecimento localizado e áreas secas indicam queimadura."
+        observacoes: "Exige alta luminosidade, com sombreamento de 30% a 40% ou sol filtrado intenso. Folhas firmes de coloração verde-clara indicam luminosidade ideal. O amarelamento localizado ou o aparecimento de áreas secas sinalizam queimaduras por sol excessivo."
     },
     floracao: "Pode florescer em diferentes épocas, com maior frequência da primavera ao verão.",
-    adubacao: "🌿 Orgânica: bokashi em pequena quantidade e protegido em saquinho durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias; reduza o nitrogênio quando as folhas e pseudobulbos amadurecerem.\n🧪 Liberação lenta: poucos grânulos de Osmocote 14-14-14 em vasos ou cachepôs, sempre afastados das raízes novas.",
-    rega: "Regue abundantemente e permita que as raízes sequem bem antes da próxima rega. Plantas montadas podem receber água com maior frequência no calor; em períodos frios ou chuvosos, aumente o intervalo. Tolera seca curta melhor do que umidade constante.",
+    adubacao: "🌿 Orgânica: Bokashi em pequena quantidade, devidamente protegido em saquinho, aplicado apenas durante o período de crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em baixa dosagem a cada 10 a 15 dias. Reduza a carga de nitrogênio assim que as folhas amadurecerem para incentivar o surgimento de botões florais.\n🧪 Liberação lenta: poucos grânulos de Osmocote 14-14-14 em vasos ou cachepôs, sempre distantes das raízes novas.",
+    rega: "Regue abundantemente, mas garanta que o sistema radicular seque completamente antes da próxima irrigação. Exemplares montados em troncos ou cascas podem receber água diariamente nos dias quentes de verão; em dias frios ou chuvosos, espace bastante as regas. Esta espécie tolera a seca curta muito melhor do que a umidade constante.",
     suporte: "🥇 Placa de madeira dura ou tronco: acompanha o crescimento pendente e oferece secagem rápida.\n🥈 Cachepô de madeira muito vazado.\n🥉 Vaso de barro pequeno, com grandes furos laterais.",
-    substrato: "🥇 Cultivo montado, com pouca ou nenhuma fibra junto às raízes.\n🥈 Casca de pinus grossa + carvão vegetal + pedra-pomes.\n🥉 Carvão vegetal + brita média + cacos de telha, em recipiente muito ventilado.",
-    errosComuns: "Cultivar com sombra excessiva; usar substrato fino ou compacto; manter raízes molhadas continuamente; plantar em vaso grande; exagerar no esfagno; dividir touceiras pequenas; aplicar nitrogênio em excesso durante todo o ano.",
-    dica: "O melhor sinal de luz adequada é a combinação de folhas firmes e verde-claras com raízes ativas. Se a planta crescer vigorosamente, mas não florescer, aumente gradualmente a luminosidade antes de modificar a adubação.",
+    substrato: "🥇 Cultivo montado em placas ou troncos de madeira dura, sem adição de fibras retentivas.\n🥈 Casca de pinus grossa + carvão vegetal + pedra-pomes.\n🥉 Carvão vegetal + brita média + cacos de telha, em recipiente extremamente vazado para permitir secagem quase imediata das raízes.",
+    errosComuns: "Cultivar em sombra excessiva; Usar substratos finos, compactos ou com acúmulo de pó; Manter as raízes molhadas continuamente; Plantar em vasos grandes e fundos; Exagerar no uso de esfagno ou materiais de alta retenção hídrica; Dividir touceiras pequenas prematuramente; Aplicar adubo com alto teor de nitrogênio de forma contínua durante todo o ano.",
+    dica: "O melhor indicador de luminosidade adequada é a presença de folhas eretas, rígidas e verde-claras, acompanhadas de raízes ativas. Se a planta demonstrar crescimento vegetativo vigoroso, mas não florescer, aumente gradualmente a exposição à luz e reduza o adubo nitrogenado antes de tentar qualquer outra alteração.",
     adaptacaoRegional: {
         litoralQuente: "É muito bem adaptada ao calor, desde que receba ventilação e secagem rápida. O cultivo montado ou em cachepô aberto reduz o risco de podridão durante períodos chuvosos.",
         montanhaFrio: "Tolera noites frescas, mas deve permanecer mais seca durante sequências frias. Proteja de geadas e mantenha alta luminosidade no inverno."
