@@ -1,4 +1,4 @@
-// Ficha científica e de cultivo revisada — Lote 02.
+// Ficha científica e de cultivo refinada — Lote 01.
 
 export const aciantheraAveniformis = {
     id: "acianthera-aveniformis",
@@ -8,9 +8,9 @@ export const aciantheraAveniformis = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: [
-        "Miniatura brasileira",
+        "Micro-orquídea brasileira",
         "Epífita",
-        "Folhas estreitas",
+        "Ramicaules curtos",
         "Floração de inverno",
     ],
     fotos: [
@@ -19,25 +19,25 @@ export const aciantheraAveniformis = {
         "imagens/Acianthera aveniformis/Acianthera aveniformis3.jpg",
         "imagens/Acianthera aveniformis/Acianthera aveniformis4.jpg",
     ],
-    descricao: "Pequena orquídea brasileira da subtribo Pleurothallidinae, anteriormente conhecida como Pleurothallis aveniformis. Forma touceiras compactas, com ramicaules finos, folhas estreitas e pequenas flores discretas, valorizadas principalmente em coleções de espécies nativas e miniaturas.",
+    descricao: "Acianthera aveniformis, anteriormente classificada como Pleurothallis aveniformis, é uma micro-orquídea epífita brasileira pertencente à subtribo Pleurothallidinae. Apresenta crescimento compacto, com ramicaules curtos sustentando folhas carnosas, rígidas e estreitas. Suas pequenas flores amareladas surgem delicadamente ao longo das inflorescências, sendo uma excelente escolha para cultivo em placas de madeira, cortiça ou terrários bem ventilados.",
     origem: "Originária do Brasil.",
     regiao: "Registros no Sul e Sudeste do Brasil, associados à Mata Atlântica.",
-    habitat: "Epífita de florestas úmidas, encontrada sobre troncos e ramos com musgos, em ambientes sombreados, úmidos e ventilados, com registros por volta de 400 metros de altitude.",
-    clima: "Intermediário a fresco, com alta umidade e circulação constante de ar.",
-    climaFloracao: "A floração é favorecida por noites mais frescas, umidade ambiental elevada e estabilidade hídrica nas raízes. Calor abafado, pouca ventilação e secas prolongadas podem interromper a formação das flores.",
+    habitat: "Epífita de florestas úmidas, encontrada sobre troncos e ramos musgosos em ambientes sombreados, úmidos e ventilados. O rizoma é curto e rastejante, enquanto os ramicaules eretos sustentam as folhas.",
+    clima: "Intermediário a fresco, com alta umidade ambiental e circulação constante de ar.",
+    climaFloracao: "A floração é favorecida por noites mais frescas, elevada umidade atmosférica e estabilidade hídrica sem saturação das raízes. Calor abafado, pouca ventilação e secas prolongadas podem interromper a formação das flores.",
     iluminacao: {
         sombrite: "70%",
         solDireto: "Não",
         horario: "Apenas luminosidade indireta",
-        observacoes: "Prefere sombra clara e uniforme. Deve receber boa claridade, mas sem sol direto forte, especialmente em regiões litorâneas e quentes."
+        observacoes: "Prefere sombra clara e uniforme. Folhas firmes e verde-oliva indicam equilíbrio; folhas muito amareladas ou com manchas arroxeadas e avermelhadas em excesso sinalizam luminosidade forte demais."
     },
     floracao: "Floresce principalmente durante o inverno, podendo prolongar a floração até o início da primavera conforme o microclima.",
-    adubacao: "🌿 Orgânica: bokashi em quantidade mínima, protegido em pequeno saquinho e afastado da base da planta.\n💧 Foliar: NPK equilibrado, como 20-20-20, em aproximadamente um quarto da dose indicada, a cada 15 dias durante o crescimento.\n🧪 Liberação lenta: use apenas poucos grânulos de Osmocote 14-14-14 em vasos, sem contato direto com raízes e brotos.",
-    rega: "Mantenha as raízes levemente úmidas, permitindo apenas uma secagem superficial entre as regas. Plantas montadas exigem regas mais frequentes; em vasos com esfagno, controle rigorosamente para evitar saturação contínua.",
-    suporte: "🥇 Placa de madeira ou cortiça com pequena almofada de esfagno: favorece ventilação e permite observar as raízes.\n🥈 Pequeno cachepô ripado.\n🥉 Vaso plástico pequeno, raso e muito drenado.",
-    substrato: "🥇 Esfagno de boa qualidade, usado de forma solta e sem compactação.\n🥈 Casca de pinus fina + pedra-pomes fina + pequena fração de esfagno.\n🥉 Cultivo montado sobre madeira ou cortiça, com pouca fibra junto às raízes.",
-    errosComuns: "Expor ao sol direto; deixar o esfagno compactado e encharcado; permitir secas prolongadas; cultivar em ambiente quente e abafado; usar vaso grande; aplicar adubo concentrado em raízes delicadas.",
-    dica: "O melhor indicador de cultivo é a condição das raízes: elas devem permanecer hidratadas, mas cercadas por ar. Em regiões quentes, posicione a planta na área mais fresca e ventilada do orquidário.",
+    adubacao: "🌿 Orgânica: bokashi em quantidade mínima, protegido em pequeno saquinho e afastado da base da planta.\n💧 Foliar: NPK equilibrado, como 20-20-20, em aproximadamente um quarto da dose indicada, a cada 15 dias durante o crescimento.\n🧪 Liberação lenta: use apenas poucos grânulos de Osmocote 14-14-14 em vasos, sem contato direto com raízes, brotos ou ramicaules.",
+    rega: "Mantenha alta umidade ao redor da planta, mas permita secagem rápida do material de cultivo. As raízes finas devem permanecer hidratadas sem encharcamento; associe regas frequentes e rápidas a circulação de ar constante. Plantas montadas exigem regas mais frequentes, enquanto vasos com esfagno pedem controle rigoroso.",
+    suporte: "🥇 Placa de madeira, cortiça ou casca com fina camada de esfagno: favorece ventilação e permite secagem rápida.\n🥈 Pequeno cachepô ripado.\n🥉 Vaso plástico pequeno, raso e muito drenado.",
+    substrato: "🥇 Cultivo montado com esfagno usado com moderação, sem cobrir a base dos ramicaules.\n🥈 Casca de pinus fina + pedra-pomes fina + pequena fração de esfagno.\n🥉 Esfagno de boa qualidade, aplicado de forma solta e nunca compactado.",
+    errosComuns: "Usar vasos grandes; manter o substrato encharcado sem ventilação; aplicar esfagno em excesso sobre a base dos ramicaules; deixar a planta secar completamente por vários dias; expor ao sol direto; usar adubação concentrada em uma micro-orquídea de raízes delicadas.",
+    dica: "Folhas rígidas, verde-oliva e levemente brilhantes indicam o equilíbrio ideal entre luz e hidratação. O melhor cultivo combina alta umidade ambiental, raízes arejadas e secagem rápida após cada rega.",
     adaptacaoRegional: {
         litoralQuente: "Cultive sob sombreamento elevado, com ventilação permanente e regas preferencialmente pela manhã. Evite recipientes fechados e esfagno excessivamente compacto.",
         montanhaFrio: "Adapta-se muito bem a noites frescas. Durante períodos frios e úmidos, aumente o intervalo entre regas para impedir podridões sem deixar a planta desidratar."
