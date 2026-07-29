@@ -8,7 +8,12 @@ export const catasetumMattosianum = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Espécie brasileira", "Pseudobulbos robustos", "Planta decídua", "Dormência seca", "Flores masculinas ou femininas"],
-    fotos: [],
+    fotos: [
+        "imagens/Catasetum mattosianum/Catasetum mattosianum1.jpg",
+        "imagens/Catasetum mattosianum/Catasetum mattosianum2.jpg",
+        "imagens/Catasetum mattosianum/Catasetum mattosianum3.jpg",
+        "imagens/Catasetum mattosianum/Catasetum mattosianum4.jpg"
+    ],
     descricao: "Espécie botânica brasileira caracterizada por pseudobulbos fusiformes e robustos, com ciclo sazonal marcante. Durante a primavera e o verão desenvolve folhas largas, raízes vigorosas e intenso crescimento; no outono e inverno entra em dormência, perde a folhagem e passa a depender das reservas acumuladas. Suas inflorescências podem apresentar flores masculinas ou femininas, cuja expressão sexual varia conforme a luminosidade, o vigor do pseudobulbo e as condições ambientais.",
     origem: "Brasil.",
     regiao: "Mata Atlântica do leste brasileiro, com ocorrência destacada na Bahia e no Espírito Santo.",
