@@ -7,41 +7,41 @@ export const cattleyaAclandiaeTipo = {
     tipo: "Espécie botânica — forma tipo",
     dificuldade: "Exigente",
     caracteristicas: [
-        "Bifoliada compacta",
-        "Flores cerosas pintalgadas",
+        "Miniatura bifoliada",
         "Endêmica da Bahia",
-        "Raízes muito aeradas"
+        "Flores cerosas pintalgadas",
+        "Raízes muito sensíveis"
     ],
-    "fotos": [
+    fotos: [
         "imagens/Cattleya aclandiae/Cattleya aclandiae1.jpg",
         "imagens/Cattleya aclandiae/Cattleya aclandiae2.jpg",
         "imagens/Cattleya aclandiae/Cattleya aclandiae3.webp",
         "imagens/Cattleya aclandiae/Cattleya aclandiae4.jpg"
     ],
-    descricao: "Cattleya bifoliada compacta, célebre pelas flores cerosas verde-amareladas ou castanhas, densamente pintalgadas, com labelo magenta. É endêmica da Bahia e cresce em ambientes sazonalmente secos. A forma tipo corresponde ao padrão natural de coloração da espécie.",
-    origem: "Brasil, endêmica do estado da Bahia.",
-    regiao: "Áreas quentes e sazonalmente secas da Mata Atlântica baiana.",
-    habitat: "Epífita em árvores expostas, frequentemente sob luz intensa, ventilação constante e rápida secagem após as chuvas.",
-    clima: "Quente, luminoso e ventilado.",
-    climaFloracao: "Exige pseudobulbos bem amadurecidos, muita luz e raízes saudáveis. O contraste entre crescimento úmido e período ligeiramente mais seco favorece a indução floral, mas a planta não deve sofrer desidratação extrema.",
+    descricao: "Cattleya aclandiae é uma espécie botânica brasileira endêmica da Bahia e uma das menores representantes do gênero. Forma pseudobulbos compactos, bifoliados e rígidos. Suas flores muito cerosas e duráveis exibem sépalas e pétalas verde-amareladas intensamente pintalgadas de marrom ou chocolate, contrastando com o labelo magenta. O perfume é adocicado e levemente picante, mais intenso nas horas quentes do dia, e as flores duram em média de 20 a 30 dias.",
+    origem: "🇧🇷 Brasil",
+    regiao: "Bahia, em áreas quentes, sazonais e bem ventiladas.",
+    habitat: "Epífita em árvores expostas de florestas sazonais e restingas, sob luz intensa, alta umidade atmosférica e secagem rápida após as chuvas.",
+    clima: "Quente, luminoso e muito ventilado.",
+    climaFloracao: "A maturação de pseudobulbos fortes, a luz muito alta e uma discreta redução das regas após o crescimento favorecem a indução floral. Plantas adultas e bem estabelecidas podem apresentar uma segunda floração.",
     iluminacao: {
         sombrite: "30% a 50%",
-        solDireto: "Sim, desde que fraco e com aclimatação",
-        horario: "Manhã até cerca de 09:00",
-        observacoes: "É uma das cattleyas que mais exigem luz. Folhas verde-claro e firmes são normais; aumente a exposição gradualmente para evitar queimaduras."
+        solDireto: "Sim, somente fraco e após aclimatação",
+        horario: "Manhã até aproximadamente 09:00",
+        observacoes: "O sombrite de 50% atende à maioria das regiões. Folhas firmes, verde-claras e com pequenas sardas avermelhadas ou arroxeadas indicam iluminação adequada; sombra excessiva enfraquece a planta e impede a floração."
     },
-    floracao: "Mais comum da primavera ao verão; plantas fortes podem apresentar floração adicional.",
-    adubacao: "🌿 Orgânica: bokashi em pequena quantidade, renovado a cada 60 a 90 dias durante o crescimento.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose a cada 7 a 15 dias; alternar ocasionalmente com fórmula mais rica em fósforo e potássio após a maturação.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, sem contato direto com raízes novas.",
-    rega: "Regue bem e permita secagem rápida e completa. Reduza no inverno ou após a maturação, mas não deixe pseudobulbos enrugarem por longos períodos.",
-    suporte: "🥇 Placa de madeira ou cortiça.\n🥈 Cestinho pequeno e aberto.\n🥉 Vaso de barro pequeno, com muitos furos.",
-    substrato: "🥇 Sem substrato, montada.\n🥈 Casca muito grossa + carvão + pedra-pomes.\n🥉 Brita grossa + carvão, apenas para estabilização.",
-    errosComuns: "Vaso grande; raízes abafadas; substrato fino; sombra; regas noturnas frequentes; replantio fora da emissão de raízes; enterrar o rizoma.",
-    dica: "Replante somente quando novas raízes começarem a surgir. Raízes antigas respondem mal à manipulação, por isso evite mudanças desnecessárias.",
+    floracao: "Predominantemente da primavera ao verão, entre setembro e janeiro; exemplares vigorosos podem florir novamente no verão ou início do outono.",
+    adubacao: "🌿 Orgânica: Bokashi em quantidade mínima, preferencialmente em porta-adubo preso acima da planta.\n💧 Foliar: NPK 20-20-20 em 1/4 da dose, a cada 7 a 10 dias durante a brotação; no fim da maturação, alternar ocasionalmente com 09-45-15.\n🧪 Liberação lenta: poucos grânulos de Osmocote 14-14-14 em porta-adubo, sem contato direto com raízes novas.",
+    rega: "Regue abundantemente pela manhã, garantindo que as raízes sequem por completo em poucas horas. Após a maturação ou durante o inverno, reduza a frequência e use borrifos leves apenas para evitar desidratação severa. Evite regas noturnas.",
+    suporte: "🥇 Placa ou toco de madeira dura.\n🥈 Cortiça natural.\n🥉 Cestinho de madeira totalmente aberto e sem substrato.",
+    substrato: "🥇 Cultivo montado, sem substrato.\n🥈 Brita grossa + carvão vegetal grosso + cacos de cerâmica.\n🥉 Pedra-pomes + carvão, apenas para estabilização em vaso de barro muito furado.",
+    errosComuns: "Vaso grande; substrato fino ou compacto; excesso de umidade; sombra; replantio fora da emissão de raízes novas; regas noturnas; enterrar o rizoma; manipular raízes antigas.",
+    dica: "Mexa na planta somente quando houver pontas de raízes novas em crescimento. A manipulação de raízes antigas pode provocar perda do sistema radicular e estagnar a planta por longo período.",
     adaptacaoRegional: {
-        litoralQuente: "O calor favorece a espécie, mas a umidade elevada exige montagem ou vaso extremamente aberto. Ventilação é indispensável.",
-        montanhaFrio: "Mantenha em local muito claro e protegido de frio abaixo de 12 °C. Regue menos no inverno, sempre pela manhã."
+        litoralQuente: "Ambiente muito favorável. Cultive preferencialmente montada ou em cesto aberto, com ventilação contínua, alta luminosidade e rápida secagem.",
+        montanhaFrio: "Mantenha em local muito claro e protegido de temperaturas abaixo de 12 °C. No inverno, reduza bastante as regas e molhe apenas pela manhã em dias ensolarados."
     },
-    mesesFloracao: [9, 10, 11, 12, 1, 2],
+    mesesFloracao: [9, 10, 11, 12, 1],
     avaliacoes: {
         cultivo: 4,
         floracao: 4,
