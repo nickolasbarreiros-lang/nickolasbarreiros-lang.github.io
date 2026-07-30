@@ -31,17 +31,10 @@ export const cattleyaLueddemannianaTipo = {
         observacoes: "Folhas rígidas verde-médio a verde-claro indicam boa luz. Folhas muito escuras, alongadas ou caídas revelam sombreamento excessivo e reduzem a floração."
     },
     floracao: "Mais comum do fim do inverno à primavera, entre agosto e novembro, variando conforme o clone.",
-    adubacao: "🌿 Orgânica: bokashi em pequena quantidade no canto do vaso a cada 60 a 90 dias durante o crescimento.
-💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose semanal ou quinzenalmente; após a maturação, alternar com fórmula mais rica em fósforo e potássio.
-🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, afastado das raízes novas.",
+    adubacao: "🌿 Orgânica: bokashi em pequena quantidade no canto do vaso a cada 60 a 90 dias durante o crescimento.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose semanal ou quinzenalmente; após a maturação, alternar com fórmula mais rica em fósforo e potássio.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, afastado das raízes novas.",
     rega: "Durante o crescimento do novo broto, regue abundantemente e permita que o substrato seque completamente entre as irrigações. Após a maturação do pseudobulbo, reduza significativamente a frequência no outono/inverno, mantendo a planta mais seca até o desenvolvimento dos botões.",
-    suporte: "🥇 Vaso de barro.
-🥈 Cachepô de madeira.
-🥉 Vaso plástico com abundante furação lateral.",
-    substrato: "🥇 Casca de pinus grossa + carvão vegetal + pedra-pomes.
-🥈 Brita + carvão + casca grossa.
-🥉 Argila expandida + casca grossa.
-A drenagem deve ser rápida e o centro do vaso nunca pode permanecer encharcado.",
+    suporte: "🥇 Vaso de barro.\n🥈 Cachepô de madeira.\n🥉 Vaso plástico com abundante furação lateral.",
+    substrato: "🥇 Casca de pinus grossa + carvão vegetal + pedra-pomes.\n🥈 Brita + carvão + casca grossa.\n🥉 Argila expandida + casca grossa.\nA drenagem deve ser rápida e o centro do vaso nunca pode permanecer encharcado.",
     errosComuns: "Molhar demais durante o repouso; cortar bainhas secas prematuramente; deixar água acumulada dentro da bainha; cultivar em sombra; replantar fora da emissão de raízes novas.",
     dica: "Nunca remova a bainha apenas porque ela secou externamente. Em Cattleya lueddemanniana, os botões podem permanecer protegidos em seu interior e surgir somente várias semanas ou meses depois.",
     adaptacaoRegional: {

@@ -31,17 +31,10 @@ export const laeliaLundiiAlba = {
         observacoes: "Necessita luminosidade alta, porém a ausência de pigmentos protetores torna a forma alba mais sensível ao sol escaldante. Folhas verde-claro e firmes são o ideal."
     },
     floracao: "Predominantemente do fim do inverno à primavera, entre agosto e novembro.",
-    adubacao: "🌿 Orgânica: pequena porção de bokashi ou sachê minúsculo durante o crescimento.
-💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 da dose quinzenalmente durante a brotação.
-🧪 Liberação lenta: pouquíssimos grânulos de Osmocote apenas em vasos pequenos e afastados das raízes novas.",
+    adubacao: "🌿 Orgânica: pequena porção de bokashi ou sachê minúsculo durante o crescimento.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 da dose quinzenalmente durante a brotação.\n🧪 Liberação lenta: pouquíssimos grânulos de Osmocote apenas em vasos pequenos e afastados das raízes novas.",
     rega: "Regue regularmente durante a emissão de brotos e raízes, garantindo secagem rápida após cada irrigação. No inverno, espace bastante as regas e aplique apenas borrifadas leves para manter hidratação mínima sem encharcar.",
-    suporte: "🥇 Galho fino ou placa de madeira.
-🥈 Toco de madeira ou cortiça.
-🥉 Vaso pequeno de barro ou cesto de madeira pequeno.",
-    substrato: "🥇 Montada, usando somente uma fina camada de esfagno na fixação inicial.
-🥈 Casca média + carvão vegetal + pedra-pomes.
-🥉 Casca grossa + carvão + caco de telha.
-Aeração e secagem rápida são indispensáveis.",
+    suporte: "🥇 Galho fino ou placa de madeira.\n🥈 Toco de madeira ou cortiça.\n🥉 Vaso pequeno de barro ou cesto de madeira pequeno.",
+    substrato: "🥇 Montada, usando somente uma fina camada de esfagno na fixação inicial.\n🥈 Casca média + carvão vegetal + pedra-pomes.\n🥉 Casca grossa + carvão + caco de telha.\nAeração e secagem rápida são indispensáveis.",
     errosComuns: "Dividir excessivamente a touceira; cortar raízes saudáveis no replante; molhar demais no inverno; usar vaso grande; cultivar em excesso de sombra.",
     dica: "Preserve a planta com múltiplas frentes de crescimento. Touceiras bem estabelecidas recuperam-se melhor, florescem com mais regularidade e criam um efeito muito mais expressivo com várias flores brancas simultâneas.",
     adaptacaoRegional: {

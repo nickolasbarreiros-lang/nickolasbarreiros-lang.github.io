@@ -31,17 +31,10 @@ export const cattleyaNobiliorVarAmaliae = {
         observacoes: "Folhas rígidas verde-claro a levemente amareladas ou douradas indicam luminosidade adequada. Folhas verde-escuras revelam falta grave de luz e geralmente impedem a floração."
     },
     floracao: "Predominantemente do fim do inverno à primavera, entre agosto e outubro.",
-    adubacao: "🌿 Orgânica: dose mínima de bokashi somente durante o crescimento ativo; nunca no repouso.
-💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10 a 15 dias, exclusivamente enquanto raízes e brotos novos estiverem ativos.
-🧪 Liberação lenta: poucos grânulos de Osmocote, com muita cautela e apenas no início da estação de crescimento.",
+    adubacao: "🌿 Orgânica: dose mínima de bokashi somente durante o crescimento ativo; nunca no repouso.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10 a 15 dias, exclusivamente enquanto raízes e brotos novos estiverem ativos.\n🧪 Liberação lenta: poucos grânulos de Osmocote, com muita cautela e apenas no início da estação de crescimento.",
     rega: "Regue abundantemente enquanto as pontas das raízes novas estiverem verdes ou avermelhadas e ativas, permitindo secagem completa no mesmo dia. No outono e inverno, suspenda quase totalmente as regas; borrife levemente apenas se os pseudobulbos apresentarem desidratação extrema. Retome a água com força somente quando novas raízes surgirem.",
-    suporte: "🥇 Placa de madeira dura, como ipê, peroba ou sanção-do-campo, ou cortiça.
-🥈 Cestinho de madeira totalmente aberto, sem substrato interno.
-🥉 Vaso de barro pequeno, raso e com muitas furações laterais.",
-    substrato: "🥇 Montada completamente sem substrato.
-🥈 Casca de pinus supergrossa + carvão vegetal, apenas para fixação.
-🥉 Brita grossa + carvão, também apenas para fixação mecânica.
-Evite esfagno, casca fina e qualquer material que retenha umidade.",
+    suporte: "🥇 Placa de madeira dura, como ipê, peroba ou sanção-do-campo, ou cortiça.\n🥈 Cestinho de madeira totalmente aberto, sem substrato interno.\n🥉 Vaso de barro pequeno, raso e com muitas furações laterais.",
+    substrato: "🥇 Montada completamente sem substrato.\n🥈 Casca de pinus supergrossa + carvão vegetal, apenas para fixação.\n🥉 Brita grossa + carvão, também apenas para fixação mecânica.\nEvite esfagno, casca fina e qualquer material que retenha umidade.",
     errosComuns: "Regar durante o repouso hibernal; cultivar com pouca luz; usar substrato retentivo ou vaso grande; replantar fora da fase de enraizamento ativo; dividir plantas pequenas ou com poucas frentes.",
     dica: "Sincronize rigorosamente a irrigação com a atividade radicular. Molhe com abundância apenas quando houver pontas de raízes novas ativas; fora desse período, mantenha a planta seca. Esse controle define a saúde das raízes e a regularidade da floração.",
     adaptacaoRegional: {

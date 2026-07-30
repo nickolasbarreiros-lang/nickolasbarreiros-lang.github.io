@@ -31,17 +31,10 @@ export const cattleyaLoddigesii = {
         observacoes: "Folhas verde-médio a verde-claro indicam luminosidade adequada. Folhas muito escuras e pseudobulbos finos sinalizam falta de luz e são a principal causa de ausência de floração."
     },
     floracao: "Predominantemente do inverno ao início da primavera, entre junho e outubro.",
-    adubacao: "🌿 Orgânica: bokashi em pequena quantidade a cada 60 a 90 dias durante o crescimento ativo.
-💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose semanal ou quinzenalmente enquanto brotos e raízes crescem; após a maturação, alternar com fórmula mais rica em fósforo e potássio.
-🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, sem contato direto com raízes novas.",
+    adubacao: "🌿 Orgânica: bokashi em pequena quantidade a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose semanal ou quinzenalmente enquanto brotos e raízes crescem; após a maturação, alternar com fórmula mais rica em fósforo e potássio.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, sem contato direto com raízes novas.",
     rega: "Regue abundantemente durante a emissão de brotos e raízes, deixando o substrato secar parcialmente entre as irrigações. No outono e inverno, reduza a frequência sem permitir enrugamento excessivo dos pseudobulbos e nunca mantenha o vaso molhado em dias frios.",
-    suporte: "🥇 Vaso de barro pequeno e bem drenado.
-🥈 Cachepô de madeira.
-🥉 Placa de madeira em ambientes com alta umidade do ar.",
-    substrato: "🥇 Casca de pinus média ou grossa + carvão vegetal + pedra-pomes.
-🥈 Brita + carvão vegetal + casca grossa.
-🥉 Argila expandida + casca grossa.
-Mantenha o rizoma sempre sobre o substrato, nunca enterrado.",
+    suporte: "🥇 Vaso de barro pequeno e bem drenado.\n🥈 Cachepô de madeira.\n🥉 Placa de madeira em ambientes com alta umidade do ar.",
+    substrato: "🥇 Casca de pinus média ou grossa + carvão vegetal + pedra-pomes.\n🥈 Brita + carvão vegetal + casca grossa.\n🥉 Argila expandida + casca grossa.\nMantenha o rizoma sempre sobre o substrato, nunca enterrado.",
     errosComuns: "Cultivar em excesso de sombra; manter o vaso úmido no inverno; enterrar o rizoma; usar vaso grande e profundo; replantar antes do surgimento de raízes novas.",
     dica: "Replante somente quando as novas raízes começarem a surgir na base do broto. Preserve plantas com várias frentes, pois touceiras adultas produzem florações muito mais abundantes e estáveis.",
     adaptacaoRegional: {

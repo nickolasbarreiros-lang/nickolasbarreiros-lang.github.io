@@ -31,17 +31,10 @@ export const laeliaLundii = {
         observacoes: "Necessita mais luz que a maioria das miniaturas. Folhas firmes verde-claro, eventualmente levemente avermelhadas, indicam bom nível de luz; verde muito escuro revela sombra excessiva."
     },
     floracao: "Predominantemente do fim do inverno à primavera, entre agosto e novembro.",
-    adubacao: "🌿 Orgânica: bokashi em sachê minúsculo preso acima da planta quando montada.
-💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 da dose quinzenalmente durante o crescimento.
-🧪 Liberação lenta: pouquíssimos grânulos apenas quando cultivada em vaso.",
+    adubacao: "🌿 Orgânica: bokashi em sachê minúsculo preso acima da planta quando montada.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 da dose quinzenalmente durante o crescimento.\n🧪 Liberação lenta: pouquíssimos grânulos apenas quando cultivada em vaso.",
     rega: "Na fase de brotação, regue abundantemente e até diariamente em dias quentes quando a planta estiver montada, sempre permitindo secagem completa e rápida. No inverno, reduza significativamente, usando apenas borrifadas ocasionais para evitar desidratação severa dos pequenos pseudobulbos.",
-    suporte: "🥇 Galho ou placa de madeira dura.
-🥈 Toco de madeira ou cortiça.
-🥉 Vaso de barro pequeno ou cesto de madeira com drenagem extrema.",
-    substrato: "🥇 Montada, com apenas uma fina camada de esfagno no ponto de fixação inicial.
-🥈 Casca de pinus média + carvão vegetal + pedra-pomes.
-🥉 Caco de telha + casca grossa + carvão.
-As raízes finas precisam de aeração máxima e secagem rápida.",
+    suporte: "🥇 Galho ou placa de madeira dura.\n🥈 Toco de madeira ou cortiça.\n🥉 Vaso de barro pequeno ou cesto de madeira com drenagem extrema.",
+    substrato: "🥇 Montada, com apenas uma fina camada de esfagno no ponto de fixação inicial.\n🥈 Casca de pinus média + carvão vegetal + pedra-pomes.\n🥉 Caco de telha + casca grossa + carvão.\nAs raízes finas precisam de aeração máxima e secagem rápida.",
     errosComuns: "Cultivar em vasos grandes e fundos; manter rega contínua no inverno; excesso de sombra; usar substrato fino, velho ou compactado; manter a touceira sem ventilação.",
     dica: "Sempre que possível, cultive montada em madeira. O livre desenvolvimento das raízes e a secagem rápida reproduzem seu habitat natural, formando touceiras mais firmes e floríferas.",
     adaptacaoRegional: {
