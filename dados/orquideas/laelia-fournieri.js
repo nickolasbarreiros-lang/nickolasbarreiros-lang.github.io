@@ -15,7 +15,7 @@ export const laeliaFournieri = {
         "imagens/Cattleya fournieri/Cattleya fournieri4.webp"
     ],
     descricao: "Cattleya fournieri é uma rara miniatura rupícola brasileira dos campos de altitude de Minas Gerais. Cresce em fendas minerais expostas a forte luminosidade, ventilação contínua e noites frescas. Forma pequenas touceiras com pseudobulbos compactos e produz flores claras, variando entre branco, creme e rosa-pálido, com nuances amareladas no labelo. É muito sensível ao abafamento, à umidade prolongada e ao excesso de adubação.",
-    origem: "Brasil.",
+    origem: "🇧🇷 Brasil",
     regiao: "Campos rupestres de altitude do Sudeste brasileiro, principalmente Minas Gerais.",
     habitat: "Litófita em fendas de rochas abertas, sob sol intenso, vento frequente, drenagem imediata e marcada amplitude térmica.",
     clima: "Intermediário a fresco.",

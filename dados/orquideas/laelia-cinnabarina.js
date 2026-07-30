@@ -14,7 +14,7 @@ export const laeliaCinnabarina = {
         "imagens/Cattleya cinnabarina/Cattleya cinnabarina3.jpg"
     ],
     descricao: "Cattleya cinnabarina é uma espécie botânica brasileira típica dos campos rupestres e serras do Sudeste e Centro-Leste. Cresce diretamente sobre afloramentos rochosos sob intensa luminosidade, ventilação constante e grande amplitude térmica. Forma pseudobulbos cilíndricos, delgados e eretos, com longas hastes florais que sustentam cachos de flores em vibrante tonalidade laranja-cinábrio. Não apresenta perfume expressivo.",
-    origem: "Brasil.",
+    origem: "🇧🇷 Brasil",
     regiao: "Serras e campos rupestres do Sudeste e Centro-Leste brasileiro, especialmente Minas Gerais e Rio de Janeiro.",
     habitat: "Litófita em rochas ensolaradas, com raízes ancoradas em fendas minerais, ventilação intensa e noites frescas.",
     clima: "Intermediário a fresco.",

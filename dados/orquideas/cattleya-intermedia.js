@@ -14,7 +14,7 @@ export const cattleyaIntermedia = {
         "imagens/Cattleya intermedia/Cattleya intermedia4.jpg"
     ],
     descricao: "Cattleya intermedia é uma espécie bifoliada brasileira de médio a grande porte, reconhecida pela rusticidade e extraordinária variabilidade de cores e padrões. Forma pseudobulbos cilíndricos e eretos com duas folhas rígidas e produz inflorescências terminais de flores perfumadas. Possui numerosas formas horticulturais, como orlata, aquinii, alba, coerulea e vinicolor, sendo uma excelente escolha para iniciantes.",
-    origem: "Brasil e Paraguai.",
+    origem: "🌍 América do Sul",
     regiao: "Faixa costeira e interior das regiões Sudeste e Sul do Brasil até o Paraguai.",
     habitat: "Epífita em florestas abertas, restingas e matas de galeria, ou rupícola sobre rochas litorâneas, sempre com boa circulação de ar nas raízes.",
     clima: "Intermediário a quente, muito adaptável.",

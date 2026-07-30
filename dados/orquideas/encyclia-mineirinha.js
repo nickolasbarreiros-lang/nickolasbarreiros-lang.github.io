@@ -14,7 +14,7 @@ export const encycliaMineirinha = {
         "imagens/Encyclia ‘Mineirinha’/Encyclia ‘Mineirinha’4.jpg"
     ],
     descricao: "Encyclia ‘Mineirinha’ é um híbrido primário brasileiro resultante do cruzamento entre Encyclia patens e Encyclia oliveirana. Reúne a rusticidade e o vigor radicular de E. patens com características florais herdadas de E. oliveirana. Forma pseudobulbos ovoides robustos, folhas coriáceas e eretas e hastes longas, frequentemente ramificadas e multiflorais. As flores apresentam tons castanho-esverdeados, labelo claro com nuances rosadas ou violáceas, perfume agradável e boa durabilidade.",
-    origem: "Híbrido horticultural brasileiro.",
+    origem: "🧪 Híbrido Horticultural",
     regiao: "Cruzamento entre Encyclia patens × Encyclia oliveirana.",
     habitat: "Não possui habitat natural; os parentais são brasileiros e ligados à Mata Atlântica, restingas e ambientes rupestres.",
     clima: "Quente a intermediário.",

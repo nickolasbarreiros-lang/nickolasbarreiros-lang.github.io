@@ -14,7 +14,7 @@ export const cattleyaGuttataVarCoerulea = {
         "imagens/Cattleya guttata f. coerulea/Cattleya guttata f. coerulea4.webp"
     ],
     descricao: "Cattleya guttata f. coerulea é uma seleção horticultural de cor da espécie brasileira, valorizada pelos tons azulados ou violáceos frios no labelo e, em alguns clones, também nas pétalas e sépalas. Forma grandes touceiras de pseudobulbos canelados e bifoliados, que podem ultrapassar um metro de altura, e produz hastes multiflorais com flores cerosas, pintalgadas, duráveis e intensamente perfumadas.",
-    origem: "Brasil.",
+    origem: "🇧🇷 Brasil",
     regiao: "Faixa litorânea do Leste e Sudeste do Brasil, com ocorrência em restingas e florestas costeiras.",
     habitat: "Epífita em galhos altos ou geófita e rupícola em cordões arenosos e áreas abertas, sob calor, luz intensa, alta umidade do ar e vento constante.",
     clima: "Quente a intermediário.",
