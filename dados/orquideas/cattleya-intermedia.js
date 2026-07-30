@@ -1,53 +1,33 @@
-// Ficha científica e de cultivo revisada — Lote 05.
+// Ficha científica e de cultivo revisada — Refinamento Lote 06.
 
 export const cattleyaIntermedia = {
     id: "cattleya-intermedia",
     nome: "Cattleya intermedia",
     genero: "Cattleya",
-    tipo: "Espécie botânica",
+    tipo: "Espécie botânica bifoliada",
     dificuldade: "Fácil a moderada",
-    caracteristicas: [
-        "Bifoliada",
-        "Muito variável",
-        "Resistente",
-        "Flores perfumadas"
-    ],
-    "fotos": [
+    caracteristicas: ["Bifoliada", "Muito variável", "Rústica", "Flores perfumadas"],
+    fotos: [
         "imagens/Cattleya intermedia/Cattleya intermedia1.webp",
         "imagens/Cattleya intermedia/Cattleya intermedia2.jpg",
         "imagens/Cattleya intermedia/Cattleya intermedia3.jpg",
         "imagens/Cattleya intermedia/Cattleya intermedia4.jpg"
     ],
-    descricao: "Espécie bifoliada brasileira muito variável em cor e forma, amplamente cultivada por sua resistência e beleza. Produz pseudobulbos alongados e inflorescências terminais com flores claras, geralmente rosadas ou brancas, de labelo contrastante.",
-    origem: "Sudeste e sul do Brasil até o Paraguai.",
-    regiao: "Faixa costeira e áreas interiores do sudeste e sul do Brasil.",
-    habitat: "Epífita ou rupícola em matas claras, restingas, margens de cursos d’água e ambientes com estação menos chuvosa.",
+    descricao: "Cattleya intermedia é uma espécie bifoliada brasileira de médio a grande porte, reconhecida pela rusticidade e extraordinária variabilidade de cores e padrões. Forma pseudobulbos cilíndricos e eretos com duas folhas rígidas e produz inflorescências terminais de flores perfumadas. Possui numerosas formas horticulturais, como orlata, aquinii, alba, coerulea e vinicolor, sendo uma excelente escolha para iniciantes.",
+    origem: "Brasil e Paraguai.",
+    regiao: "Faixa costeira e interior das regiões Sudeste e Sul do Brasil até o Paraguai.",
+    habitat: "Epífita em florestas abertas, restingas e matas de galeria, ou rupícola sobre rochas litorâneas, sempre com boa circulação de ar nas raízes.",
     clima: "Intermediário a quente, muito adaptável.",
-    climaFloracao: "Floresce após a maturação do pseudobulbo, com luz alta, boa ventilação e leve redução das regas. Não exige repouso seco intenso.",
-    iluminacao: {
-        sombrite: "40% a 60%",
-        solDireto: "Aceita sol fraco",
-        horario: "Manhã",
-        observacoes: "É tolerante, mas floresce melhor com luz alta. Folhas muito escuras indicam sombra excessiva."
-    },
-    floracao: "Principalmente na primavera, com variações regionais e clonais.",
-    adubacao: "🌿 Orgânica: bokashi em pequena quantidade, renovado a cada 60 a 90 dias durante o crescimento.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose a cada 7 a 15 dias; alternar ocasionalmente com fórmula mais rica em fósforo e potássio após a maturação.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, sem contato direto com raízes novas.",
-    rega: "Regue bem e deixe secar parcialmente. No inverno, reduza a frequência conforme temperatura e ventilação.",
-    suporte: "🥇 Vaso de barro.\n🥈 Cachepô.\n🥉 Placa para ambientes úmidos.",
-    substrato: "🥇 Casca média a grossa + carvão + pedra-pomes.\n🥈 Brita + carvão + casca.\n🥉 Argila expandida + casca.",
-    errosComuns: "Sombra; vaso excessivamente grande; rizoma enterrado; substrato decomposto; falta de ventilação.",
-    dica: "É excelente espécie para iniciantes em Cattleya, mas deve receber luz suficiente para que os pseudobulbos fiquem firmes e a bainha floral se desenvolva.",
-    adaptacaoRegional: {
-        litoralQuente: "Adapta-se muito bem. Use mistura aberta e proteja do sol forte da tarde.",
-        montanhaFrio: "Tolera noites frescas e costuma florescer bem. Proteja apenas de geada e frio prolongado."
-    },
-    mesesFloracao: [8, 9, 10, 11, 12],
-    avaliacoes: {
-        cultivo: 2,
-        floracao: 4,
-        perfume: 3,
-        luminosidade: 4,
-        agua: 3,
-        raridade: 2
-    }
+    climaFloracao: "Floresce após a maturação completa do pseudobulbo, favorecida por boa luminosidade e ventilação. Exige apenas leve redução das regas no período frio, sem repouso seco severo.",
+    iluminacao: { sombrite: "40% a 60%", solDireto: "Sim, suave", horario: "Primeiras horas da manhã", observacoes: "Sombrite de 50% atende à maioria dos orquidários. Folhas verde-alface, firmes e pseudobulbos eretos indicam iluminação adequada." },
+    floracao: "Principalmente na primavera, entre agosto e novembro, com variações regionais e genéticas.",
+    adubacao: "🌿 Orgânica: bokashi em pequenas quantidades, renovado a cada 60 a 90 dias.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose semanalmente durante o crescimento.\n🧪 Maturação: alternar com fórmula rica em fósforo e potássio e usar Osmocote 14-14-14 sem contato com raízes novas.",
+    rega: "Regue abundantemente durante brotos e raízes novas, permitindo que o substrato seque parcialmente entre as irrigações. No inverno, reduza apenas ligeiramente conforme a temperatura e a ventilação; não necessita seca intensa.",
+    suporte: "🥇 Vaso de barro.\n🥈 Cachepô de madeira vazado.\n🥉 Placa de madeira dura em ambientes de alta umidade.",
+    substrato: "🥇 Casca de pinus média ou grossa + carvão + pedra-pomes.\n🥈 Brita + carvão + casca de pinus.\n🥉 Argila expandida + casca de pinus.",
+    errosComuns: "Sombra excessiva; enterrar o rizoma; vaso grande; substrato velho ou decomposto; falta de ventilação; manter o centro do vaso continuamente úmido.",
+    dica: "É uma das melhores Cattleyas para iniciantes. Mantenha o rizoma sobre o substrato e forneça luz suficiente para formar pseudobulbos firmes e evitar o aborto da espata floral.",
+    adaptacaoRegional: { litoralQuente: "Ótima adaptação; use substrato de secagem rápida, ventilação constante e proteção contra o sol forte da tarde.", montanhaFrio: "Adapta-se muito bem e tolera noites frescas; proteger apenas de geadas e longos períodos de chuva fria." },
+    mesesFloracao: [8,9,10,11],
+    avaliacoes: { cultivo: 2, floracao: 4, perfume: 3, luminosidade: 4, agua: 3, raridade: 2 }
 };
