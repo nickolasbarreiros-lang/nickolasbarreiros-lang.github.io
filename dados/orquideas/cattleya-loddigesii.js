@@ -1,4 +1,4 @@
-// Ficha científica e de cultivo revisada — Lote 05.
+// Ficha científica e de cultivo revisada — Refinamento Lote 07.
 
 export const cattleyaLoddigesii = {
     id: "cattleya-loddigesii",
@@ -7,39 +7,46 @@ export const cattleyaLoddigesii = {
     tipo: "Espécie botânica",
     dificuldade: "Fácil a moderada",
     caracteristicas: [
-        "Bifoliada",
-        "Flores lilases",
-        "Vigorosa",
-        "Espécie brasileira"
+        "Bifoliada clássica",
+        "Espécie brasileira",
+        "Flores lilás-rosadas",
+        "Touceiras vigorosas"
     ],
-    "fotos": [
+    fotos: [
         "imagens/Cattleya loddigesii/Cattleya loddigesii1.webp",
         "imagens/Cattleya loddigesii/Cattleya loddigesii2.webp",
         "imagens/Cattleya loddigesii/Cattleya loddigesii3.jpg",
         "imagens/Cattleya loddigesii/Cattleya loddigesii4.jpg"
     ],
-    descricao: "Cattleya bifoliada vigorosa, de pseudobulbos alongados e flores lilás-rosadas com labelo mais escuro. É uma das espécies clássicas do gênero e costuma formar touceiras robustas quando recebe luz e secagem adequadas.",
-    origem: "Sudeste e sul do Brasil.",
-    regiao: "Mata Atlântica e florestas sazonais do sudeste e sul.",
-    habitat: "Epífita ou litófita em áreas claras e ventiladas, frequentemente próximas a cursos d’água ou em matas com estação menos chuvosa.",
-    clima: "Intermediário a quente.",
-    climaFloracao: "A floração ocorre após a maturação de pseudobulbos firmes. Luz alta e noites um pouco mais frescas favorecem a formação de botões.",
+    descricao: "Cattleya bifoliada brasileira, histórica e vigorosa, escolhida como espécie-tipo do gênero por John Lindley. Forma pseudobulbos cilíndricos alongados com duas folhas coriáceas e produz flores cerosas em tons lilás-rosados, com labelo mais intenso e centro amarelado. Quando recebe luz alta, ventilação e secagem adequada, desenvolve touceiras robustas e florações abundantes.",
+    origem: "Brasil.",
+    regiao: "Mata Atlântica e florestas sazonais do Sudeste e Sul do Brasil.",
+    habitat: "Epífita em galhos altos, especialmente em áreas próximas a cursos d’água, e ocasionalmente litófita em escarpas úmidas, sempre sob boa luminosidade e circulação de ar.",
+    clima: "Intermediário a quente, com boa umidade do ar e noites mais frescas no inverno.",
+    climaFloracao: "A floração depende da completa maturação dos pseudobulbos sob luminosidade alta. A redução moderada das regas no outono/inverno e noites ligeiramente mais frescas favorecem a indução dos botões na espata.",
     iluminacao: {
-        sombrite: "40% a 60%",
-        solDireto: "Aceita sol fraco",
-        horario: "Manhã",
-        observacoes: "Luz insuficiente é a causa mais comum de ausência de flores. Folhas verde-médio a claro são ideais."
+        sombrite: "40% a 60% — 50% recomendado",
+        solDireto: "Apenas sol suave",
+        horario: "Primeiras horas da manhã",
+        observacoes: "Folhas verde-médio a verde-claro indicam luminosidade adequada. Folhas muito escuras e pseudobulbos finos sinalizam falta de luz e são a principal causa de ausência de floração."
     },
-    floracao: "Geralmente do inverno ao início da primavera.",
-    adubacao: "🌿 Orgânica: bokashi em pequena quantidade, renovado a cada 60 a 90 dias durante o crescimento.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose a cada 7 a 15 dias; alternar ocasionalmente com fórmula mais rica em fósforo e potássio após a maturação.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, sem contato direto com raízes novas.",
-    rega: "Regue bem no crescimento e deixe secar parcialmente. Reduza no inverno, sem desidratar muito os pseudobulbos.",
-    suporte: "🥇 Vaso de barro.\n🥈 Cachepô.\n🥉 Placa em clima úmido.",
-    substrato: "🥇 Casca média/grossa + carvão + pedra-pomes.\n🥈 Brita + carvão + casca.\n🥉 Argila expandida + casca.",
-    errosComuns: "Sombra; excesso de água no inverno; vaso grande; rizoma enterrado; replantar sem raízes novas.",
-    dica: "Espere o início das raízes novas para replantar. Plantas com várias frentes florescem mais abundantemente.",
+    floracao: "Predominantemente do inverno ao início da primavera, entre junho e outubro.",
+    adubacao: "🌿 Orgânica: bokashi em pequena quantidade a cada 60 a 90 dias durante o crescimento ativo.
+💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose semanal ou quinzenalmente enquanto brotos e raízes crescem; após a maturação, alternar com fórmula mais rica em fósforo e potássio.
+🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, sem contato direto com raízes novas.",
+    rega: "Regue abundantemente durante a emissão de brotos e raízes, deixando o substrato secar parcialmente entre as irrigações. No outono e inverno, reduza a frequência sem permitir enrugamento excessivo dos pseudobulbos e nunca mantenha o vaso molhado em dias frios.",
+    suporte: "🥇 Vaso de barro pequeno e bem drenado.
+🥈 Cachepô de madeira.
+🥉 Placa de madeira em ambientes com alta umidade do ar.",
+    substrato: "🥇 Casca de pinus média ou grossa + carvão vegetal + pedra-pomes.
+🥈 Brita + carvão vegetal + casca grossa.
+🥉 Argila expandida + casca grossa.
+Mantenha o rizoma sempre sobre o substrato, nunca enterrado.",
+    errosComuns: "Cultivar em excesso de sombra; manter o vaso úmido no inverno; enterrar o rizoma; usar vaso grande e profundo; replantar antes do surgimento de raízes novas.",
+    dica: "Replante somente quando as novas raízes começarem a surgir na base do broto. Preserve plantas com várias frentes, pois touceiras adultas produzem florações muito mais abundantes e estáveis.",
     adaptacaoRegional: {
-        litoralQuente: "Adapta-se bem, mas precisa de circulação de ar e substrato aberto. Proteja do sol forte da tarde.",
-        montanhaFrio: "Muito adequada a noites frescas. Evite geada e mantenha boa luminosidade no inverno."
+        litoralQuente: "Adapta-se muito bem à Serra/ES. Use substrato aberto, ventilação constante e proteção contra o sol forte da tarde; no inverno, reduza as regas mesmo em clima quente.",
+        montanhaFrio: "Excelente adaptação às noites frescas, que favorecem a floração. Mantenha boa luz no inverno e proteja apenas contra geadas diretas."
     },
     mesesFloracao: [6, 7, 8, 9, 10],
     avaliacoes: {

@@ -1,16 +1,16 @@
-// Ficha científica e de cultivo revisada — Lote 05.
+// Ficha científica e de cultivo revisada — Refinamento Lote 07.
 
 export const cattleyaNobiliorVarAmaliae = {
     id: "cattleya-nobilior-var-amaliae",
     nome: "Cattleya nobilior var. amaliae",
     genero: "Cattleya",
-    tipo: "Espécie botânica — variedade horticultural/geográfica",
+    tipo: "Variedade botânica",
     dificuldade: "Exigente",
     caracteristicas: [
-        "Bifoliada compacta",
-        "Flores grandes",
-        "Ambiente sazonalmente seco",
-        "Raízes muito aeradas"
+        "Bifoliada do Cerrado",
+        "Repouso seco rigoroso",
+        "Flores grandes e cerosas",
+        "Raízes extremamente aeradas"
     ],
     fotos: [
         "imagens/Cattleya nobilior var. amaliae/Cattleya nobilior var. amaliae1.jpg",
@@ -18,36 +18,43 @@ export const cattleyaNobiliorVarAmaliae = {
         "imagens/Cattleya nobilior var. amaliae/Cattleya nobilior var. amaliae3.webp",
         "imagens/Cattleya nobilior var. amaliae/Cattleya nobilior var. amaliae4.webp"
     ],
-    descricao: "Forma de Cattleya nobilior tradicionalmente associada à região centro-oeste do Brasil e valorizada por flores grandes em tons rosados a lilases. O tratamento infrasespecífico varia entre autores; no cultivo, o nome var. amaliae continua amplamente usado.",
-    origem: "Brasil central, especialmente Goiás e áreas próximas.",
-    regiao: "Cerrado e matas sazonais do centro-oeste brasileiro.",
-    habitat: "Epífita em árvores de ambientes muito claros, quentes e com longa estação seca, onde as raízes recebem excelente ventilação.",
-    clima: "Quente, luminoso e sazonal.",
-    climaFloracao: "Floresce após período mais seco, a partir de pseudobulbos maduros e bem iluminados. Excesso de água no repouso inibe floração e favorece perda de raízes.",
+    descricao: "Variedade botânica de Cattleya nobilior e uma das joias mais admiradas do Cerrado brasileiro. Forma pseudobulbos curtos, robustos e bifoliados e produz flores grandes, arredondadas e cerosas em delicados tons rosa-lilás, com labelo marcante e perfume intenso. Seu cultivo exige luz muito alta, ventilação total e respeito rigoroso à longa estação seca de inverno.",
+    origem: "Brasil.",
+    regiao: "Cerrado do Brasil Central, especialmente Goiás e Tocantins, alcançando áreas adjacentes.",
+    habitat: "Epífita em galhos e troncos de árvores expostas, sob sol abundante, ventos constantes e vários meses de seca durante o inverno.",
+    clima: "Quente, muito luminoso e fortemente sazonal.",
+    climaFloracao: "A floração é induzida por alta luminosidade e um período prolongado de estresse hídrico no inverno. As flores surgem frequentemente antes ou junto do novo crescimento, a partir de brotações florais específicas na base.",
     iluminacao: {
-        sombrite: "30% a 50%",
-        solDireto: "Sim, fraco e aclimatado",
-        horario: "Manhã",
-        observacoes: "Necessita luz muito alta. Aclimate lentamente; folhas firmes verde-claro são desejáveis."
+        sombrite: "30% a 50% — preferir 30% a 40%",
+        solDireto: "Aceita sol fraco quando aclimatada",
+        horario: "Primeiras horas da manhã",
+        observacoes: "Folhas rígidas verde-claro a levemente amareladas ou douradas indicam luminosidade adequada. Folhas verde-escuras revelam falta grave de luz e geralmente impedem a floração."
     },
-    floracao: "Fim do inverno e primavera, frequentemente antes ou junto do novo crescimento.",
-    adubacao: "🌿 Orgânica: bokashi em dose mínima durante o crescimento, nunca no repouso.\n💧 Foliar: NPK equilibrado em 1/4 de dose a cada 10 a 15 dias enquanto raízes e brotos crescem.\n🧪 Liberação lenta: usar com muita cautela; dose baixa de Osmocote apenas no início da estação ativa.",
-    rega: "Regue abundantemente quando raízes novas estiverem ativas e deixe secar completamente. No repouso, reduza bastante, oferecendo água apenas para evitar desidratação extrema.",
-    suporte: "🥇 Placa de madeira dura ou cortiça.\n🥈 Cestinho aberto.\n🥉 Vaso de barro pequeno e muito furado.",
-    substrato: "🥇 Sem substrato, montada.\n🥈 Casca muito grossa + carvão.\n🥉 Brita grossa + carvão, apenas para fixação.",
-    errosComuns: "Excesso de água no repouso; pouca luz; vaso grande; substrato retentivo; replantar fora do início das raízes; dividir demais.",
-    dica: "O segredo é sincronizar a água com as raízes: muita água somente quando novas raízes estiverem crescendo; fora disso, seque rapidamente.",
+    floracao: "Predominantemente do fim do inverno à primavera, entre agosto e outubro.",
+    adubacao: "🌿 Orgânica: dose mínima de bokashi somente durante o crescimento ativo; nunca no repouso.
+💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10 a 15 dias, exclusivamente enquanto raízes e brotos novos estiverem ativos.
+🧪 Liberação lenta: poucos grânulos de Osmocote, com muita cautela e apenas no início da estação de crescimento.",
+    rega: "Regue abundantemente enquanto as pontas das raízes novas estiverem verdes ou avermelhadas e ativas, permitindo secagem completa no mesmo dia. No outono e inverno, suspenda quase totalmente as regas; borrife levemente apenas se os pseudobulbos apresentarem desidratação extrema. Retome a água com força somente quando novas raízes surgirem.",
+    suporte: "🥇 Placa de madeira dura, como ipê, peroba ou sanção-do-campo, ou cortiça.
+🥈 Cestinho de madeira totalmente aberto, sem substrato interno.
+🥉 Vaso de barro pequeno, raso e com muitas furações laterais.",
+    substrato: "🥇 Montada completamente sem substrato.
+🥈 Casca de pinus supergrossa + carvão vegetal, apenas para fixação.
+🥉 Brita grossa + carvão, também apenas para fixação mecânica.
+Evite esfagno, casca fina e qualquer material que retenha umidade.",
+    errosComuns: "Regar durante o repouso hibernal; cultivar com pouca luz; usar substrato retentivo ou vaso grande; replantar fora da fase de enraizamento ativo; dividir plantas pequenas ou com poucas frentes.",
+    dica: "Sincronize rigorosamente a irrigação com a atividade radicular. Molhe com abundância apenas quando houver pontas de raízes novas ativas; fora desse período, mantenha a planta seca. Esse controle define a saúde das raízes e a regularidade da floração.",
     adaptacaoRegional: {
-        litoralQuente: "É possível cultivar, mas a umidade constante é o maior desafio. Prefira montagem, chuva controlada e ventilação forte.",
-        montanhaFrio: "Proteja do frio úmido. Mantenha luz alta e repouso seco, evitando temperaturas prolongadas abaixo de 12 °C."
+        litoralQuente: "Na Serra/ES, a alta umidade do ar exige atenção redobrada. Cultive preferencialmente montada, sob ventilação forte e protegida da chuva direta no inverno.",
+        montanhaFrio: "Mantenha o repouso seco rigoroso e proteja do frio úmido. Evite exposição prolongada a temperaturas abaixo de 12 °C."
     },
-    mesesFloracao: [8, 9, 10, 11],
+    mesesFloracao: [8, 9, 10],
     avaliacoes: {
         cultivo: 5,
         floracao: 5,
         perfume: 4,
         luminosidade: 5,
         agua: 2,
-        raridade: 5
+        raridade: 4
     }
 };

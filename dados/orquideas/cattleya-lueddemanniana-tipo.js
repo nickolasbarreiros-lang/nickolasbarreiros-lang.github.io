@@ -1,4 +1,4 @@
-// Ficha científica e de cultivo revisada — Lote 05.
+// Ficha científica e de cultivo revisada — Refinamento Lote 07.
 
 export const cattleyaLueddemannianaTipo = {
     id: "cattleya-lueddemanniana-tipo",
@@ -7,41 +7,48 @@ export const cattleyaLueddemannianaTipo = {
     tipo: "Espécie botânica — forma tipo",
     dificuldade: "Moderada",
     caracteristicas: [
-        "Unifoliada",
-        "Flores grandes",
-        "Perfume marcante",
-        "Origem venezuelana"
+        "Unifoliada venezuelana",
+        "Flores muito grandes",
+        "Perfume intenso",
+        "Bainha floral persistente"
     ],
-    "fotos": [
+    fotos: [
         "imagens/Cattleya lueddemanniana/Cattleya lueddemanniana1.jpg",
         "imagens/Cattleya lueddemanniana/Cattleya lueddemanniana2.jpg",
         "imagens/Cattleya lueddemanniana/Cattleya lueddemanniana3.jpg",
         "imagens/Cattleya lueddemanniana/Cattleya lueddemanniana4.jpg"
     ],
-    descricao: "Espécie unifoliada venezuelana de flores grandes, rosadas e perfumadas, com labelo intensamente colorido. A forma tipo representa a coloração natural mais comum da espécie.",
+    descricao: "Uma das grandes Cattleyas unifoliadas da Venezuela, famosa pelas flores amplas, cerosas e intensamente perfumadas. Produz pseudobulbos clavados com uma única folha coriácea e flores rosa-lilás de grande diâmetro, com labelo ricamente marcado em púrpura e amarelo-ouro. Exige luz alta, drenagem rápida e respeito ao curto repouso após a maturação.",
     origem: "Venezuela.",
-    regiao: "Cordilheira da Costa e áreas montanhosas do norte da Venezuela.",
-    habitat: "Epífita em florestas sazonais de baixa a média altitude, com período mais seco e alta luminosidade.",
-    clima: "Quente a intermediário.",
-    climaFloracao: "Precisa de pseudobulbos maduros, luz forte e redução moderada de água depois do crescimento. A bainha pode permanecer seca por algum tempo antes da abertura.",
+    regiao: "Cordilheira da Costa e serras do norte da Venezuela.",
+    habitat: "Epífita em florestas sazonais de baixa a média altitude, submetida a clima quente a intermediário, elevada claridade e uma estação seca bem definida.",
+    clima: "Quente a intermediário, com período sazonal mais seco.",
+    climaFloracao: "Pseudobulbos plenamente maduros, luminosidade alta e redução moderada das regas após o crescimento favorecem a formação dos botões. A bainha pode amarelar ou secar e permanecer aparentemente vazia por semanas ou meses antes da floração.",
     iluminacao: {
-        sombrite: "40% a 60%",
-        solDireto: "Somente fraco",
+        sombrite: "40% a 60% — 50% recomendado",
+        solDireto: "Apenas sol suave",
         horario: "Início da manhã",
-        observacoes: "Forneça luz alta sem superaquecimento. Folhas muito escuras indicam pouca luz."
+        observacoes: "Folhas rígidas verde-médio a verde-claro indicam boa luz. Folhas muito escuras, alongadas ou caídas revelam sombreamento excessivo e reduzem a floração."
     },
-    floracao: "Mais comum do fim do inverno à primavera, variando conforme o clone.",
-    adubacao: "🌿 Orgânica: bokashi em pequena quantidade, renovado a cada 60 a 90 dias durante o crescimento.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose a cada 7 a 15 dias; alternar ocasionalmente com fórmula mais rica em fósforo e potássio após a maturação.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, sem contato direto com raízes novas.",
-    rega: "Regue bem durante o crescimento e permita secagem. Após a maturação, reduza a frequência até os botões se desenvolverem.",
-    suporte: "🥇 Vaso de barro.\n🥈 Cachepô.\n🥉 Vaso plástico muito furado.",
-    substrato: "🥇 Casca grossa + carvão + pedra-pomes.\n🥈 Brita + carvão + casca.\n🥉 Argila expandida + casca.",
-    errosComuns: "Molhar demais durante o repouso; sombra; água acumulada na bainha; vaso grande; replantio fora da fase de raízes.",
-    dica: "Não corte bainhas aparentemente secas: muitas cattleyas unifoliadas florescem de bainhas maduras semanas ou meses depois.",
+    floracao: "Mais comum do fim do inverno à primavera, entre agosto e novembro, variando conforme o clone.",
+    adubacao: "🌿 Orgânica: bokashi em pequena quantidade no canto do vaso a cada 60 a 90 dias durante o crescimento.
+💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose semanal ou quinzenalmente; após a maturação, alternar com fórmula mais rica em fósforo e potássio.
+🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, afastado das raízes novas.",
+    rega: "Durante o crescimento do novo broto, regue abundantemente e permita que o substrato seque completamente entre as irrigações. Após a maturação do pseudobulbo, reduza significativamente a frequência no outono/inverno, mantendo a planta mais seca até o desenvolvimento dos botões.",
+    suporte: "🥇 Vaso de barro.
+🥈 Cachepô de madeira.
+🥉 Vaso plástico com abundante furação lateral.",
+    substrato: "🥇 Casca de pinus grossa + carvão vegetal + pedra-pomes.
+🥈 Brita + carvão + casca grossa.
+🥉 Argila expandida + casca grossa.
+A drenagem deve ser rápida e o centro do vaso nunca pode permanecer encharcado.",
+    errosComuns: "Molhar demais durante o repouso; cortar bainhas secas prematuramente; deixar água acumulada dentro da bainha; cultivar em sombra; replantar fora da emissão de raízes novas.",
+    dica: "Nunca remova a bainha apenas porque ela secou externamente. Em Cattleya lueddemanniana, os botões podem permanecer protegidos em seu interior e surgir somente várias semanas ou meses depois.",
     adaptacaoRegional: {
-        litoralQuente: "Cultive em local muito ventilado e use substrato de secagem rápida. Proteja do sol quente da tarde.",
-        montanhaFrio: "Adapta-se a noites frescas, mas proteja de temperaturas abaixo de 12 °C e reduza regas no inverno."
+        litoralQuente: "Adapta-se muito bem à Serra/ES. Mantenha ventilação intensa, substrato de secagem rápida e proteção contra o sol forte da tarde.",
+        montanhaFrio: "Tolera noites frescas, mas deve ser protegida de frio úmido e de temperaturas prolongadas abaixo de 12 °C; no inverno, mantenha o substrato quase seco."
     },
-    mesesFloracao: [8, 9, 10, 11, 12],
+    mesesFloracao: [8, 9, 10, 11],
     avaliacoes: {
         cultivo: 3,
         floracao: 5,
