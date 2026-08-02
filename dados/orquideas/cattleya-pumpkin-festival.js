@@ -15,10 +15,10 @@ export const cattleyaPumpkinFestival = {
         "Parentais: C. Naomi Kerns × C. Waianae Sunset"
     ],
     fotos: [
-        "imagens/Cattleya Pumpkin Festival/Cattleya Pumpkin Festival1.jpg",
-        "imagens/Cattleya Pumpkin Festival/Cattleya Pumpkin Festival2.jpg",
-        "imagens/Cattleya Pumpkin Festival/Cattleya Pumpkin Festival3.jpg",
-        "imagens/Cattleya Pumpkin Festival/Cattleya Pumpkin Festival4.jpg"
+        "imagens/Cattleya Pumpkin Festival/Cattleya Pumpkin Festival1.webp",
+        "imagens/Cattleya Pumpkin Festival/Cattleya Pumpkin Festival2.png",
+        "imagens/Cattleya Pumpkin Festival/Cattleya Pumpkin Festival3.png",
+        "imagens/Cattleya Pumpkin Festival/Cattleya Pumpkin Festival4.png"
     ],
     descricao: "Cattleya Pumpkin Festival é um híbrido complexo da aliança Cattleya, registrado originalmente como Sophrolaeliocattleya Pumpkin Festival. Resulta do cruzamento entre Cattleya Naomi Kerns e Cattleya Waianae Sunset. Destaca-se pelo crescimento vigoroso e pelas flores grandes, firmes e cerosas, geralmente em tons de laranja intenso, abóbora ou cobre, com labelo ondulado e garganta amarela. Floresce melhor sob alta luminosidade, excelente ventilação e ciclos rápidos de molhamento e secagem.",
     origem: "Híbrido horticultural registrado.",
