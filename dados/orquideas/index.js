@@ -39,6 +39,7 @@ import { coelogyneCristata } from "./coelogyne-cristata.js";
 import { bcTurandotXBlcOrangeShowXBlcChunyeah } from "./bc-turandot-x-blc-orange-show-x-blc-chunyeah.js";
 import { cattleyaSchillerianaXCruzeiroDoSul } from "./cattleya-schilleriana-x-cruzeiro-do-sul.js";
 import { lcTrickOrTreat } from "./lc-trick-or-treat.js";
+import { cattleyaPumpkinFestival } from "./cattleya-pumpkin-festival.js";
 import { aciantheraAveniformis } from "./acianthera-aveniformis.js";
 import { dryadellaAviceps } from "./dryadella-aviceps.js";
 import { speckliniaGrobyi } from "./specklinia-grobyi.js";
@@ -159,6 +160,7 @@ export const orquideas = [
     bcTurandotXBlcOrangeShowXBlcChunyeah,
     cattleyaSchillerianaXCruzeiroDoSul,
     lcTrickOrTreat,
+    cattleyaPumpkinFestival,
     aciantheraAveniformis,
     dryadellaAviceps,
     speckliniaGrobyi,
