@@ -1,4 +1,4 @@
-// Ficha científica e de cultivo revisada — Lote 07.
+// Ficha científica e de cultivo revisada — Refinamento Lote 12.
 
 export const dendrobiumTenellum = {
     id: "dendrobium-tenellum",
@@ -13,29 +13,29 @@ export const dendrobiumTenellum = {
         "imagens/Dendrobium tenellum/Dendrobium tenellum3.jpeg",
         "imagens/Dendrobium tenellum/Dendrobium tenellum4.webp"
     ],
-    descricao: "Delicada espécie de altitude, apreciada pelos caules finos e pelas pequenas flores claras que surgem principalmente no verão.",
+    descricao: "Espécie epífita de florestas montanas da ilha de Java, onde ocorre em altitudes elevadas sob noites frescas, umidade atmosférica constante e forte circulação de ar. Desenvolve caules finos e pendentes e produz flores pequenas e delicadas em tons claros. Seu cultivo exige equilíbrio entre boa umidade durante o crescimento e redução hídrica moderada no inverno, sem desidratação prolongada das canas.",
     origem: "Java, Indonésia.",
-    regiao: "Java, Indonésia.",
+    regiao: "Ilha de Java, Indonésia.",
     habitat: "Epífita de florestas montanas entre 1.500 e 2.200 m de altitude.",
-    clima: "Quente a intermediário.",
-    climaFloracao: "Prefere clima ameno a intermediário, com boa ventilação, elevada umidade do ar e noites mais frescas. Em regiões quentes, desenvolve-se melhor em locais sombreados e bem ventilados, mantendo boa umidade ambiental.",
+    clima: "Intermediário a fresco.",
+    climaFloracao: "Noites mais amenas, luz forte filtrada, boa ventilação e redução das regas e da adubação no inverno favorecem a indução floral. O repouso deve ser moderado, não extremo, pois as canas finas possuem pouca reserva de água.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Apenas fraco",
+        solDireto: "Apenas muito fraco",
         horario: "Manhã cedo",
-        observacoes: "Luz filtrada média a forte, com boa circulação."
+        observacoes: "Luz intensa filtrada, sem superaquecimento. Canas compactas e firmes indicam bom equilíbrio; folhas amareladas ou queimadas indicam excesso de sol ou calor."
     },
-    floracao: "Fim do inverno e primavera, conforme a identificação.",
-    adubacao: "Durante o crescimento ativo utilize adubação foliar balanceada a cada 10–15 dias, complementando com Bokashi ou Osmocote. Reduza a adubação no período mais frio.",
-    rega: "Mantenha o substrato levemente úmido durante o crescimento. No inverno reduza as regas, sem impor seca severa como nos Dendrobium do grupo nobile.",
-    suporte: "🥇 Cesto suspenso.\n🥈 Placa de madeira.\n🥉 Vaso raso em posição alta.",
-    substrato: "🥇 Casca média + carvão + pedra-pomes.\n🥈 Fibra de coco grossa.\n🥉 Montagem com fina camada de esfagno.",
-    errosComuns: "• Sol direto intenso.\n• Substrato completamente seco por longos períodos.\n• Encharcamento das raízes.\n• Substrato compactado.\n• Replantios desnecessários.",
-    dica: "O segredo para ter sucesso com a Dendrobium tenellum está em respeitar rigorosamente o ciclo de descanso de inverno. Reduzir drasticamente as regas e a adubação durante os meses frios é fundamental para simular as condições de sua montanha nativa e, assim, induzir uma floração vigorosa no verão seguinte .",
+    floracao: "Fim do inverno, primavera e verão.",
+    adubacao: "🌿 Orgânica: bokashi em pequena quantidade no início da brotação.\n💧 Foliar: NPK equilibrado em baixa concentração a cada 10 a 15 dias durante o crescimento.\n🧪 Liberação lenta: poucos grânulos de Osmocote no começo do ciclo vegetativo. Suspender ou reduzir drasticamente no repouso.",
+    rega: "Durante o crescimento, mantenha o substrato levemente úmido e permita secagem superficial entre as irrigações. No inverno, reduza significativamente, mas não deixe as canas completamente secas por muitos dias. Forneça borrifos leves se houver enrugamento excessivo e retome gradualmente com novos brotos e raízes ativas.",
+    suporte: "🥇 Cesto suspenso.\n🥈 Placa de madeira.\n🥉 Vaso raso colocado em posição alta.",
+    substrato: "🥇 Casca de pinus média + carvão vegetal + pedra-pomes.\n🥈 Fibra de coco grossa.\n🥉 Montagem em madeira com fina camada de esfagno sob as raízes.",
+    errosComuns: "Expor ao sol direto intenso; deixar as canas secarem totalmente por longos períodos; manter o substrato encharcado; usar material fino ou compactado; continuar adubando normalmente no inverno; replantar sem necessidade; cultivar em local quente e abafado; confundir redução de rega com seca absoluta.",
+    dica: "O repouso deve ser moderado, não extremo. Reduza água e adubação no inverno para induzir a floração, mas preserve umidade ambiental e hidratação mínima para que as canas finas não percam vigor.",
     adaptacaoRegional: {
-        litoralQuente: "Cultive em local ventilado e claro, com redução de água protegida de chuvas no inverno.",
-        montanhaFrio: "Boa adaptação, evitando apenas geada e repouso seco excessivo."
+        litoralQuente: "Cultivo desafiador. Em Serra/ES, mantenha no ponto mais fresco, sombreado e ventilado, protegido das chuvas de inverno e do calor noturno excessivo.",
+        montanhaFrio: "Excelente adaptação. As noites naturalmente frescas favorecem o ciclo; proteja apenas contra geadas e seca prolongada."
     },
-    mesesFloracao: [7, 8, 9, 10],
+    mesesFloracao: [8, 9, 10, 11, 12, 1, 2],
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 4, agua: 3, raridade: 4 }
 };
