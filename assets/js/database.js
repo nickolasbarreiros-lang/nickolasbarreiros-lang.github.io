@@ -274,7 +274,7 @@
 
 
   async function dashboardPendencies(){
-    const {data,error}=await client.rpc('dashboard_pendencias');
+    const {data,error}=await client.rpc('dashboard_pendencias_ativas_v2');
     if(error)throw error;
     return data||[];
   }

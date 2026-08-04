@@ -248,6 +248,24 @@ async function renderSmartDashboard(activeEmployees,lateCount,tolerance){
     console.warn('Central de pendências indisponível',error);
   }
 
+  /*
+   * Segunda camada de proteção: mesmo que uma função SQL antiga permaneça em
+   * cache, o painel só aceita pendências dos funcionários ativos já carregados.
+   */
+  const activeEmployeeIds=new Set(
+    (activeEmployees||[])
+      .filter(employee=>
+        employee.ativo!==false&&
+        String(employee.status||'ativo').toLowerCase()==='ativo'&&
+        employee.acesso_ponto_ativo!==false
+      )
+      .map(employee=>String(employee.id))
+  );
+
+  unifiedPendencies=unifiedPendencies.filter(item=>
+    activeEmployeeIds.has(String(item.funcionario_id))
+  );
+
   const pending=unifiedPendencies.filter(item=>item.tipo_pendencia==='ajuste');
   const journeyPendencies=unifiedPendencies.filter(item=>item.tipo_pendencia==='jornada_incompleta');
   const returnPendencies=unifiedPendencies.filter(item=>item.tipo_pendencia==='retorno_temporario');
@@ -1420,7 +1438,20 @@ async function initAjustes(){
    let rows=[];
 
    if(pendingMode){
-    rows=await window.PlenitudeDB.dashboardPendencies();
+    const [pendingRows,employees]=await Promise.all([
+      window.PlenitudeDB.dashboardPendencies(),
+      window.PlenitudeDB.employees()
+    ]);
+    const activeIds=new Set(
+      employees
+        .filter(employee=>
+          employee.ativo!==false&&
+          String(employee.status||'ativo').toLowerCase()==='ativo'&&
+          employee.acesso_ponto_ativo!==false
+        )
+        .map(employee=>String(employee.id))
+    );
+    rows=pendingRows.filter(row=>activeIds.has(String(row.funcionario_id)));
    }else{
     rows=await window.PlenitudeDB.adminAdjustmentRequests(filter.value||null);
    }
