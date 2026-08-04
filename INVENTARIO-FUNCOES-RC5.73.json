@@ -1,0 +1,475 @@
+{
+  "versao": "RC5.73",
+  "totais": {
+    "arquivos_sql": 48,
+    "funcoes_distintas": 88,
+    "rpcs_usadas_no_frontend": 42,
+    "funcoes_redefinidas": 24
+  },
+  "funcoes_redefinidas": {
+    "registrar_ponto_com_pin": [
+      "supabase-rc1-1-atualizacao.sql",
+      "supabase-rc2-3-protecao-multiplos-cliques.sql",
+      "supabase-rc4-18-intervalo-minimo-30-min.sql",
+      "supabase-rc5-60-protecao-registro-ponto.sql",
+      "supabase-v15-matricula-pin.sql"
+    ],
+    "registrar_ponto_dispositivo": [
+      "supabase-rc1-1-atualizacao.sql",
+      "supabase-rc2-3-protecao-multiplos-cliques.sql",
+      "supabase-rc4-18-intervalo-minimo-30-min.sql",
+      "supabase-rc5-60-protecao-registro-ponto.sql",
+      "supabase-v26-dispositivo-autorizado.sql"
+    ],
+    "autorizar_dispositivo_ponto_admin": [
+      "supabase-rc1-correcoes-consolidadas.sql",
+      "supabase-v26-dispositivo-autorizado.sql"
+    ],
+    "admin_definir_pin": [
+      "supabase-rc1-correcoes-consolidadas.sql",
+      "supabase-v15-matricula-pin.sql",
+      "supabase-v29-correcao-pin-funcionario.sql"
+    ],
+    "login_funcionario_pin": [
+      "supabase-rc1-correcoes-consolidadas.sql",
+      "supabase-v15-matricula-pin.sql"
+    ],
+    "_calcular_banco_horas_json": [
+      "supabase-rc1-correcoes-consolidadas.sql",
+      "supabase-rc5-43-calendario-feriados.sql",
+      "supabase-rc5-44-corrige-jornada-roseli.sql",
+      "supabase-rc5-45-corrige-localizacao-roseli.sql",
+      "supabase-v17-banco-horas.sql",
+      "supabase-v19-politicas-ponto.sql",
+      "supabase-v28-movimentacoes-jornada.sql"
+    ],
+    "atualizar_timestamp_ajuste": [
+      "supabase-rc1-correcoes-consolidadas.sql",
+      "supabase-v18-ajustes-ponto.sql"
+    ],
+    "solicitar_ajuste_ponto": [
+      "supabase-rc1-correcoes-consolidadas.sql",
+      "supabase-v18-ajustes-ponto.sql"
+    ],
+    "listar_meus_ajustes": [
+      "supabase-rc1-correcoes-consolidadas.sql",
+      "supabase-v18-ajustes-ponto.sql"
+    ],
+    "listar_ajustes_admin": [
+      "supabase-rc1-correcoes-consolidadas.sql",
+      "supabase-rc1-correcoes-consolidadas.sql",
+      "supabase-v18-ajustes-ponto.sql"
+    ],
+    "analisar_ajuste_ponto": [
+      "supabase-rc1-correcoes-consolidadas.sql",
+      "supabase-v18-ajustes-ponto.sql"
+    ],
+    "salvar_politicas_ponto": [
+      "supabase-rc4-18-intervalo-minimo-30-min.sql",
+      "supabase-v19-politicas-ponto.sql"
+    ],
+    "registrar_movimentacao_dispositivo": [
+      "supabase-rc4-4-pendencias-retorno.sql",
+      "supabase-v28-movimentacoes-jornada.sql"
+    ],
+    "sincronizar_marcacao_contingencia": [
+      "supabase-rc5-0-contingencia-offline.sql",
+      "supabase-rc5-22-importacao-automatica-contingencia.sql"
+    ],
+    "analisar_contingencia_admin": [
+      "supabase-rc5-0-contingencia-offline.sql",
+      "supabase-rc5-32-corrige-analise-contingencia.sql"
+    ],
+    "atualizar_pendencias_jornada_empresa": [
+      "supabase-rc5-25-pendencia-jornada-incompleta.sql",
+      "supabase-rc5-49-corrige-pendencia-dia-atual.sql"
+    ],
+    "listar_pendencias_jornada_admin": [
+      "supabase-rc5-25-pendencia-jornada-incompleta.sql",
+      "supabase-rc5-49-corrige-pendencia-dia-atual.sql"
+    ],
+    "listar_minhas_pendencias_jornada": [
+      "supabase-rc5-25-pendencia-jornada-incompleta.sql",
+      "supabase-rc5-26b-corrige-pendencia-funcionario.sql",
+      "supabase-rc5-49-corrige-pendencia-dia-atual.sql"
+    ],
+    "fechar_competencia_master_admin": [
+      "supabase-rc5-30-assistente-fechamento-mensal.sql",
+      "supabase-v27-pin-mestre.sql"
+    ],
+    "listar_espelhos_competencia_admin": [
+      "supabase-rc5-39-controle-espelhos-assinados.sql",
+      "supabase-rc5-40-corrige-ambiguidade-espelhos.sql"
+    ],
+    "atualizar_status_espelho_admin": [
+      "supabase-rc5-39-controle-espelhos-assinados.sql",
+      "supabase-rc5-40-corrige-ambiguidade-espelhos.sql"
+    ],
+    "registrar_ponto_funcionario": [
+      "supabase-rc5-60-protecao-registro-ponto.sql",
+      "supabase-v10-registro-ponto.sql"
+    ],
+    "horario_oficial_sistema": [
+      "supabase-rc5-62-tempo-oficial.sql",
+      "supabase-rc5-63-corrige-hora-oficial-funcionario.sql"
+    ],
+    "admin_alterar_acesso_pin": [
+      "supabase-v15-matricula-pin.sql",
+      "supabase-v29-correcao-pin-funcionario.sql"
+    ]
+  },
+  "rpcs_frontend": {
+    "admin_alterar_acesso_pin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-v15-matricula-pin.sql",
+        "supabase-v29-correcao-pin-funcionario.sql"
+      ]
+    },
+    "admin_definir_pin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc1-correcoes-consolidadas.sql",
+        "supabase-v15-matricula-pin.sql",
+        "supabase-v29-correcao-pin-funcionario.sql"
+      ]
+    },
+    "alterar_atividade_funcionario_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc5-67-desativacao-funcionario.sql"
+      ]
+    },
+    "analisar_ajuste_ponto": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc1-correcoes-consolidadas.sql",
+        "supabase-v18-ajustes-ponto.sql"
+      ]
+    },
+    "analisar_movimentacao_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-v28-movimentacoes-jornada.sql"
+      ]
+    },
+    "arquivar_movimentacao_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc4-13-regularizar-retorno.sql"
+      ]
+    },
+    "atualizar_pendencias_jornada_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc5-25-pendencia-jornada-incompleta.sql"
+      ]
+    },
+    "atualizar_status_espelho_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc5-39-controle-espelhos-assinados.sql",
+        "supabase-rc5-40-corrige-ambiguidade-espelhos.sql"
+      ]
+    },
+    "auditar_competencia_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc5-30-assistente-fechamento-mensal.sql"
+      ]
+    },
+    "banco_horas_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-v17-banco-horas.sql"
+      ]
+    },
+    "criar_movimentacao_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-v28-movimentacoes-jornada.sql"
+      ]
+    },
+    "dados_funcionario_token": {
+      "javascript": [
+        "ponto-pin.js"
+      ],
+      "sql": [
+        "supabase-v15-matricula-pin.sql"
+      ]
+    },
+    "definir_pin_mestre_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-v27-pin-mestre.sql"
+      ]
+    },
+    "diagnostico_homologacao_admin": {
+      "javascript": [
+        "homologacao.js"
+      ],
+      "sql": [
+        "supabase-rc2-1-diagnostico-homologacao.sql"
+      ]
+    },
+    "excluir_feriado_empresa_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc5-43-calendario-feriados.sql"
+      ]
+    },
+    "excluir_marcacao_definitiva_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc5-61-gerenciar-exclusao-marcacoes.sql"
+      ]
+    },
+    "excluir_marcacao_logica_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc5-61-gerenciar-exclusao-marcacoes.sql"
+      ]
+    },
+    "exportar_backup_admin": {
+      "javascript": [
+        "backup-rc4-11.js"
+      ],
+      "sql": [
+        "supabase-rc4-10-backup-seguro.sql"
+      ]
+    },
+    "fechar_competencia_master_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc5-30-assistente-fechamento-mensal.sql",
+        "supabase-v27-pin-mestre.sql"
+      ]
+    },
+    "gerar_feriados_padrao_serra_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc5-43-calendario-feriados.sql"
+      ]
+    },
+    "horario_oficial_sistema": {
+      "javascript": [
+        "diagnostico.js",
+        "official-clock.js"
+      ],
+      "sql": [
+        "supabase-rc5-62-tempo-oficial.sql",
+        "supabase-rc5-63-corrige-hora-oficial-funcionario.sql"
+      ]
+    },
+    "listar_ajustes_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc1-correcoes-consolidadas.sql",
+        "supabase-rc1-correcoes-consolidadas.sql",
+        "supabase-v18-ajustes-ponto.sql"
+      ]
+    },
+    "listar_auditoria_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-v22-auditoria-seguranca.sql"
+      ]
+    },
+    "listar_espelhos_competencia_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc5-39-controle-espelhos-assinados.sql",
+        "supabase-rc5-40-corrige-ambiguidade-espelhos.sql"
+      ]
+    },
+    "listar_fechamentos_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-v24-fechamento-mensal.sql"
+      ]
+    },
+    "listar_feriados_empresa_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc5-43-calendario-feriados.sql"
+      ]
+    },
+    "listar_marcacoes_gerenciamento_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc5-61-gerenciar-exclusao-marcacoes.sql"
+      ]
+    },
+    "listar_minhas_movimentacoes": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-v28-movimentacoes-jornada.sql"
+      ]
+    },
+    "listar_movimentacoes_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-v28-movimentacoes-jornada.sql"
+      ]
+    },
+    "listar_pendencias_jornada_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc5-25-pendencia-jornada-incompleta.sql",
+        "supabase-rc5-49-corrige-pendencia-dia-atual.sql"
+      ]
+    },
+    "listar_pendencias_retorno_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc4-4-pendencias-retorno.sql"
+      ]
+    },
+    "reabrir_competencia_master_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-v27-pin-mestre.sql"
+      ]
+    },
+    "registrar_evento_auditoria": {
+      "javascript": [
+        "auth.js",
+        "database.js"
+      ],
+      "sql": [
+        "supabase-v22-auditoria-seguranca.sql"
+      ]
+    },
+    "registrar_movimentacao_dispositivo": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc4-4-pendencias-retorno.sql",
+        "supabase-v28-movimentacoes-jornada.sql"
+      ]
+    },
+    "regularizar_retorno_movimentacao_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc4-13-regularizar-retorno.sql"
+      ]
+    },
+    "resumo_seguranca_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-v22-auditoria-seguranca.sql"
+      ]
+    },
+    "salvar_feriado_empresa_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc5-43-calendario-feriados.sql"
+      ]
+    },
+    "salvar_politicas_ponto": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-rc4-18-intervalo-minimo-30-min.sql",
+        "supabase-v19-politicas-ponto.sql"
+      ]
+    },
+    "sincronizar_marcacao_contingencia": {
+      "javascript": [
+        "offline-contingencia.js"
+      ],
+      "sql": [
+        "supabase-rc5-0-contingencia-offline.sql",
+        "supabase-rc5-22-importacao-automatica-contingencia.sql"
+      ]
+    },
+    "status_pin_mestre_admin": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-v27-pin-mestre.sql"
+      ]
+    },
+    "validar_homologacao_automatica_admin": {
+      "javascript": [
+        "homologacao.js"
+      ],
+      "sql": [
+        "supabase-rc3-validacao-automatica.sql"
+      ]
+    },
+    "vincular_funcionario_usuario": {
+      "javascript": [
+        "database.js"
+      ],
+      "sql": [
+        "supabase-v12-storage-acesso.sql"
+      ]
+    }
+  }
+}
