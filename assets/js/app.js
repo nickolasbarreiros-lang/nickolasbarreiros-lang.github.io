@@ -249,8 +249,8 @@ async function renderSmartDashboard(activeEmployees,lateCount,tolerance){
   }
 
   /*
-   * Segunda camada de proteção: mesmo que uma função SQL antiga permaneça em
-   * cache, o painel só aceita pendências dos funcionários ativos já carregados.
+   * Defesa adicional no navegador: somente IDs da lista ativa atual podem
+   * alimentar o painel, mesmo que alguma função antiga permaneça em cache.
    */
   const activeEmployeeIds=new Set(
     (activeEmployees||[])
@@ -1442,6 +1442,7 @@ async function initAjustes(){
       window.PlenitudeDB.dashboardPendencies(),
       window.PlenitudeDB.employees()
     ]);
+
     const activeIds=new Set(
       employees
         .filter(employee=>
@@ -1451,6 +1452,7 @@ async function initAjustes(){
         )
         .map(employee=>String(employee.id))
     );
+
     rows=pendingRows.filter(row=>activeIds.has(String(row.funcionario_id)));
    }else{
     rows=await window.PlenitudeDB.adminAdjustmentRequests(filter.value||null);
@@ -1555,7 +1557,6 @@ async function initAjustes(){
      card?.querySelectorAll('button').forEach(item=>item.disabled=false);
     }
    });
-
   }catch(error){
    toast(errorText(error),'warn');
    console.error(error);
