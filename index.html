@@ -1,142 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Orquidário Digital: aprenda, cultive e descubra o fascinante mundo das orquídeas.">
-  <title>Orquidário Digital</title>
-  <link rel="stylesheet" href="estilos.css?v=42">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ff6500">
+  <title>Plenitude Ponto</title>
+  <link rel="stylesheet" href="assets/css/estilos.css?v=1.0.0-rc5.68">
 </head>
-<body class="pagina-home-v4">
-  <header class="topo-v4">
-    <div class="topo-v4-conteudo">
-      <a class="marca-v4" href="#inicio" aria-label="Ir para o início do Orquidário Digital">
-        <span class="marca-v4-icone" aria-hidden="true"><i></i></span>
-        <span><strong>Orquidário</strong><small>Digital</small></span>
-      </a>
-      <nav class="menu-v4" aria-label="Navegação principal">
-        <a class="ativo" href="#inicio">⌂ Início</a>
-        <a href="#catalogo-area">♧ Catálogo</a>
-        <a href="#generos-v4">❀ Gêneros</a>
-        <a href="#floracoes">▣ Calendário</a>
-        <a href="#sobre-v4">ⓘ Sobre</a>
-      </nav>
-      <a class="busca-topo-v4" href="#pesquisa">⌕ Buscar</a>
-    </div>
-  </header>
-
-  <main id="inicio">
-    <section class="hero-v4">
-      <div class="hero-v4-conteudo">
-        <span class="hero-v4-selo">Coleção particular • Serra/ES</span>
-        <h1>Orquidário<br>Digital</h1>
-        <p>Aprenda, cultive e descubra o fascinante mundo das orquídeas.</p>
-
-        <div class="busca-hero-v4">
-          <span aria-hidden="true">⌕</span>
-          <input id="busca" type="search" placeholder="Pesquisar nome, gênero, apelido, sinônimo ou palavra-chave..." autocomplete="off">
-          <button id="botao-busca-hero" type="button">Buscar</button>
-        </div>
-
-        <div class="acoes-hero-v4">
-          <button class="botao-hero-v4 primario" type="button" data-destino="#catalogo-area">Explorar catálogo</button>
-          <button class="botao-hero-v4 secundario" type="button" data-destino="#floracoes">Floração do mês</button>
-        </div>
-
-        <section class="painel-estatisticas estatisticas-v4 estatisticas-botanicas" aria-label="Estatísticas do Orquidário Digital">
-          <article class="cartao-estatistica cartao-botanico botanico-especies">
-            <span class="icone-botanico" aria-hidden="true">✿</span>
-            <div class="conteudo-botanico"><strong id="total-orquideas">0</strong><i aria-hidden="true"></i><small><b>Espécies</b> cadastradas</small></div>
-          </article>
-          <article class="cartao-estatistica cartao-botanico botanico-generos">
-            <span class="icone-botanico" aria-hidden="true">⌁</span>
-            <div class="conteudo-botanico"><strong id="total-generos">0</strong><i aria-hidden="true"></i><small><b>Gêneros</b> diferentes</small></div>
-          </article>
-          <article class="cartao-estatistica cartao-botanico botanico-brasileiras">
-            <span class="icone-botanico texto" aria-hidden="true">BR</span>
-            <div class="conteudo-botanico"><strong id="total-origens">0</strong><i aria-hidden="true"></i><small><b>Orquídeas</b> brasileiras</small></div>
-          </article>
-          <article class="cartao-estatistica cartao-botanico botanico-estrangeiras">
-            <span class="icone-botanico" aria-hidden="true">◎</span>
-            <div class="conteudo-botanico"><strong id="total-raras">0</strong><i aria-hidden="true"></i><small><b>Orquídeas</b> estrangeiras</small></div>
-          </article>
-        </section>
+<body class="login-body access-home-body">
+  <main class="access-home-shell">
+    <section class="access-home-card" aria-labelledby="titulo-login">
+      <div class="brand-box access-brand">
+        <img class="logo" src="assets/img/logo-plenitude.png" alt="Presentes Plenitude e Artigos Religiosos">
       </div>
+      <p class="eyebrow">SISTEMA INTERNO</p>
+      <h1 id="titulo-login">Plenitude Ponto</h1>
+      <p class="muted access-subtitle">Escolha o tipo de acesso.</p>
+      <div class="access-live-status" aria-live="polite"><span id="access-online-dot" class="live-dot"></span><strong id="access-clock">--:--:--</strong><span id="access-date">Carregando data...</span><small id="access-network">Verificando conexão</small></div>
+
+      <div id="access-choice" class="access-choice-grid">
+        <button id="choose-employee" class="access-choice-card employee-choice" type="button">
+          <span class="access-choice-icon">◷</span>
+          <strong>Registrar ponto</strong>
+          <small>Acesso por matrícula e PIN</small>
+        </button>
+        <button id="choose-admin" class="access-choice-card admin-choice" type="button">
+          <span class="access-choice-icon">⌘</span>
+          <strong>Administração</strong>
+          <small>Acesso restrito ao gestor</small>
+        </button>
+      </div>
+
+      <section id="employee-access-panel" class="access-panel" hidden>
+        <button class="access-back" type="button">← Voltar</button>
+        <div class="access-panel-heading">
+          <span class="access-panel-icon">◷</span>
+          <div><small>FUNCIONÁRIO</small><h2>Registrar ponto</h2></div>
+        </div>
+        <div id="employee-device-warning" class="employee-device-warning">O registro de ponto exige um computador autorizado pelo administrador.</div><form id="employee-login-form" class="login-form kiosk-login-form">
+          <label for="login-matricula">Matrícula</label>
+          <div class="input-wrap large-input"><span>№</span><input id="login-matricula" inputmode="numeric" autocomplete="username" maxlength="10" placeholder="0001" required></div>
+          <label for="login-pin">PIN de 4 dígitos</label>
+          <div class="input-wrap large-input"><span>●</span><input id="login-pin" type="password" inputmode="none" pattern="[0-9]{4}" maxlength="4" autocomplete="current-password" placeholder="••••" required><button id="mostrar-pin" class="eye-btn" type="button">Mostrar</button></div>
+          <div id="pin-keypad" class="pin-keypad" aria-label="Teclado numérico">
+            <button type="button" data-key="1">1</button><button type="button" data-key="2">2</button><button type="button" data-key="3">3</button>
+            <button type="button" data-key="4">4</button><button type="button" data-key="5">5</button><button type="button" data-key="6">6</button>
+            <button type="button" data-key="7">7</button><button type="button" data-key="8">8</button><button type="button" data-key="9">9</button>
+            <button type="button" data-action="clear" class="key-action">Limpar</button><button type="button" data-key="0">0</button><button type="button" data-action="backspace" class="key-action">⌫</button>
+          </div>
+          <button type="submit" class="btn primary login-btn kiosk-login-btn">Entrar</button>
+          <p id="employee-login-feedback" class="login-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section id="admin-access-panel" class="access-panel" hidden>
+        <button class="access-back" type="button">← Voltar</button>
+        <div class="access-panel-heading">
+          <span class="access-panel-icon">⌘</span>
+          <div><small>ACESSO RESTRITO</small><h2>Administração</h2></div>
+        </div>
+        <form id="login-form" class="login-form">
+          <label for="email">E-mail</label>
+          <div class="input-wrap large-input"><span>✉</span><input id="email" type="email" placeholder="seuemail@exemplo.com" autocomplete="username" required></div>
+          <label for="senha">Senha</label>
+          <div class="input-wrap large-input"><span>●</span><input id="senha" type="password" placeholder="Digite sua senha" autocomplete="current-password" required><button id="mostrar-senha" class="eye-btn" type="button" aria-label="Mostrar senha">Mostrar</button></div>
+          <button type="submit" class="btn primary login-btn">Entrar no painel</button>
+          <button id="forgot-password" class="forgot-password-link" type="button">Esqueci minha senha</button>
+          <p id="login-feedback" class="login-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <div class="demo-box cloud-box access-security"><strong>Ambiente protegido</strong><span>Horário e registros são gravados no Supabase.</span></div>
     </section>
-
-    <div class="container-v4">
-      <section class="explorar-v4" aria-labelledby="titulo-explorar">
-        <div class="titulo-secao-v4"><h2 id="titulo-explorar">Explore o Orquidário</h2><span></span></div>
-        <div class="atalhos-v4">
-          <button class="atalho-v4" data-destino="#catalogo-area"><b>▤</b><strong>Catálogo</strong><small>Ver todas as espécies</small></button>
-          <button class="atalho-v4" data-destino="#generos-v4"><b>❀</b><strong>Gêneros</strong><small>Explore por gênero</small></button>
-          <button class="atalho-v4" data-destino="#floracoes"><b>▣</b><strong>Calendário</strong><small>Floração mês a mês</small></button>
-          <button class="atalho-v4" id="atalho-previstas" data-destino="#floracoes"><b>🌸</b><strong>Previstas para este mês</strong><small>Veja quem deve florescer</small></button>
-          <button class="atalho-v4" data-filtro-caracteristica="brasileira"><b>♧</b><strong>Brasileiras</strong><small>Espécies nativas do Brasil</small></button>
-          <button class="atalho-v4" data-filtro-caracteristica="estrangeira"><b>◉</b><strong>Estrangeiras</strong><small>Espécies de outros países</small></button>
-        </div>
-      </section>
-
-      <section id="destaques-v4" class="destaques-v4">
-        <div class="cabecalho-secao-v4"><h2>Destaques do mês</h2><a href="#catalogo-area">Ver todas →</a></div>
-        <div id="grade-destaques-v4" class="grade-destaques-v4"></div>
-      </section>
-
-      <section id="generos-v4" class="generos-v4">
-        <div class="cabecalho-secao-v4"><div><h2>Explore por gênero</h2><p>Encontre rapidamente as plantas da sua coleção.</p></div></div>
-        <div id="grade-generos-v4" class="grade-generos-v4"></div>
-      </section>
-
-      <section id="floracoes" class="painel-floracoes-mensal painel-floracoes-v4">
-        <div class="cabecalho-floracoes-mensal">
-          <div class="titulo-floracoes-mensal"><span class="icone-floracoes-mensal">🌸</span><div><h2 id="titulo-floracoes-mes">Florações do mês</h2><p id="data-atual-floracoes">Carregando data...</p></div></div>
-          <div class="seletor-mes-floracoes"><label for="mes-painel-floracoes">Consultar mês</label><select id="mes-painel-floracoes" class="campo campo-mes-floracoes">
-            <option value="1">Janeiro</option><option value="2">Fevereiro</option><option value="3">Março</option><option value="4">Abril</option><option value="5">Maio</option><option value="6">Junho</option><option value="7">Julho</option><option value="8">Agosto</option><option value="9">Setembro</option><option value="10">Outubro</option><option value="11">Novembro</option><option value="12">Dezembro</option>
-          </select></div>
-        </div>
-        <div class="resumo-floracoes-mensal"><div class="quantidade-floracoes-mes"><strong id="quantidade-floracoes-mes">0</strong><span id="texto-quantidade-floracoes">espécies previstas para florir neste mês</span></div><div class="barra-progresso-floracoes"><div id="progresso-floracoes-mes" class="preenchimento-progresso-floracoes"></div></div><p id="percentual-floracoes-mes">0% da coleção</p></div>
-        <div class="grade-resumo-floracoes">
-          <button id="alternar-lista-floracoes" class="cartao-resumo-floracao status-atual cartao-floracao-interativo" type="button" aria-expanded="false" aria-controls="lista-floracoes-mensal"><span class="icone-resumo-floracao">🌸</span><div><strong id="quantidade-florindo-agora">0</strong><span>Previstas para este mês</span></div><span class="indicador-expansao-floracoes" aria-hidden="true">＋</span></button>
-          <article class="cartao-resumo-floracao status-proximo"><span class="icone-resumo-floracao">🟡</span><div><strong id="quantidade-proximo-mes">0</strong><span>Previstas para o próximo mês</span></div></article>
-          <article class="cartao-resumo-floracao status-aproximando"><span class="icone-resumo-floracao">🌱</span><div><strong id="quantidade-dois-meses">0</strong><span>Previstas para daqui a dois meses</span></div></article>
-        </div>
-        <div id="lista-floracoes-mensal" class="lista-floracoes-mensal" hidden><div class="cabecalho-lista-floracoes"><div><h3 id="titulo-lista-floracoes">Espécies previstas para este mês</h3><p id="descricao-lista-floracoes">Selecione uma espécie para abrir a ficha completa.</p></div><button id="filtrar-floracoes-do-mes" class="botao-filtrar-floracoes" type="button">Mostrar somente estas</button></div><div id="lista-especies-floracoes" class="lista-especies-floracoes"><p class="mensagem-carregamento-floracoes">Carregando florações...</p></div></div>
-      </section>
-
-      <section id="pesquisa" class="painel-pesquisa painel-pesquisa-v4">
-        <div class="cabecalho-painel-pesquisa"><div><h2>Filtros avançados</h2><p>Refine a pesquisa por gênero, clima, sombrite, sol direto, dificuldade, raridade ou época de floração.</p></div><button id="limpar-filtros" class="botao-limpar-filtros" type="button">Limpar filtros</button></div>
-        <div class="painel-filtros painel-filtros-avancados">
-          <div class="grupo-campo"><label for="filtro-genero">Gênero</label><select id="filtro-genero" class="campo"><option value="">Todos os gêneros</option></select></div>
-          <div class="grupo-campo"><label for="filtro-tipo">Classificação</label><select id="filtro-tipo" class="campo"><option value="">Espécies e híbridos</option><option value="Espécie botânica">Espécies botânicas</option><option value="Híbrido">Híbridos</option></select></div>
-          <div class="grupo-campo"><label for="filtro-clima">Clima</label><select id="filtro-clima" class="campo"><option value="">Todos os climas</option></select></div>
-          <div class="grupo-campo"><label for="filtro-sombrite">Sombrite</label><select id="filtro-sombrite" class="campo"><option value="">50% ou 70%</option><option value="50%">Sombrite 50%</option><option value="70%">Sombrite 70%</option></select></div>
-          <div class="grupo-campo"><label for="filtro-sol-direto">Sol direto</label><select id="filtro-sol-direto" class="campo"><option value="">Sim ou não</option><option value="Sim">Sim</option><option value="Não">Não</option></select></div>
-          <div class="grupo-campo"><label for="filtro-dificuldade">Dificuldade</label><select id="filtro-dificuldade" class="campo"><option value="">Todas as dificuldades</option><option value="Fácil">Fácil</option><option value="Moderada">Moderada</option><option value="Difícil">Difícil</option></select></div>
-          <div class="grupo-campo"><label for="filtro-raridade">Raridade</label><select id="filtro-raridade" class="campo"><option value="">Todos os níveis</option><option value="1">1 — Muito comum</option><option value="2">2 — Comum</option><option value="3">3 — Pouco comum</option><option value="4">4 — Rara</option><option value="5">5 — Muito rara</option></select></div>
-          <div class="grupo-campo"><label for="filtro-floracao">Mês de floração</label><select id="filtro-floracao" class="campo"><option value="">Qualquer época</option><option value="1">Janeiro</option><option value="2">Fevereiro</option><option value="3">Março</option><option value="4">Abril</option><option value="5">Maio</option><option value="6">Junho</option><option value="7">Julho</option><option value="8">Agosto</option><option value="9">Setembro</option><option value="10">Outubro</option><option value="11">Novembro</option><option value="12">Dezembro</option></select></div>
-        </div>
-      </section>
-
-      <section id="catalogo-area" class="area-resultados area-resultados-v4">
-        <div class="barra-resultados"><div class="resumo-resultados"><h2 class="titulo-resultados">Catálogo completo</h2><p id="contador" class="contador"></p></div><div class="controles-resultados"><div class="grupo-ordenacao"><label for="ordenacao">Ordenar por</label><select id="ordenacao" class="campo campo-ordenacao"><option value="nome-az">Nome: A–Z</option><option value="nome-za">Nome: Z–A</option><option value="raridade-maior">Mais raras primeiro</option><option value="raridade-menor">Menos raras primeiro</option><option value="cultivo-facil">Cultivo mais fácil</option><option value="cultivo-dificil">Cultivo mais difícil</option></select></div><div class="alternador-visualizacao" aria-label="Modo de visualização"><button id="modo-galeria" class="botao-visualizacao ativo" type="button" aria-label="Exibir em galeria" aria-pressed="true">▦ <span>Galeria</span></button><button id="modo-lista" class="botao-visualizacao" type="button" aria-label="Exibir em lista" aria-pressed="false">☰ <span>Lista</span></button></div></div></div>
-        <p id="filtros-ativos" class="filtros-ativos"></p>
-        <section id="catalogo" class="catalogo"></section>
-        <div id="sem-resultados" class="sem-resultados"><span class="icone-sem-resultados">🔍</span><h3>Nenhuma orquídea encontrada</h3><p>Tente remover algum filtro ou utilizar outro termo de pesquisa.</p></div>
-      </section>
-    </div>
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="assets/js/supabase-config.js?v=1.0.0-rc5.68"></script>
+  <script src="assets/js/auth.js?v=1.0.0-rc5.68"></script><script src="assets/js/official-clock.js?v=1.0.0-rc5.68"></script>
+  <script src="assets/js/login.js?v=1.0.0-rc5.68"></script>
+  <script src="assets/js/employee-login.js?v=1.0.0-rc5.68"></script>
+  <script src="assets/js/access-status.js?v=1.0.0-rc5.68"></script>
 
-  <footer id="sobre-v4" class="rodape rodape-v4">
-    <div class="rodape-v4-conteudo">
-      <div class="rodape-marca-v4"><span class="marca-v4-icone marca-v4-icone-rodape" aria-hidden="true"><i></i></span><div><strong>Orquidário Digital</strong><p>Aprenda, cultive e descubra o fascinante mundo das orquídeas.</p></div></div>
-      <div class="rodape-info-v4"><span>Coleção particular • Serra/ES</span><span>Informações de cultivo adaptadas ao clima da região.</span><small>© 2026 Orquidário Digital</small></div>
-    </div>
-  </footer>
-  <script type="module" src="js/app.js"></script>
+  <script>
+  if('serviceWorker' in navigator){
+    window.addEventListener('load',function(){
+      navigator.serviceWorker.register('./sw.js?v=1.0.0-rc5.68')
+        .then(function(registration){
+          registration.update().catch(function(){});
+        })
+        .catch(function(error){
+          console.warn('Service Worker indisponível',error);
+        });
+    });
+  }
+  </script>
 
-  <button id="botao-topo" class="botao-topo" type="button" aria-label="Voltar ao topo" title="Voltar ao topo" aria-hidden="true" tabindex="-1">
-    <span aria-hidden="true">↑</span>
-  </button>
-  <script type="module" src="js/botao-topo.js"></script>
+<script src="assets/js/version-guard.js?v=1.0.0-rc5.68"></script>
 </body>
 </html>
