@@ -7,7 +7,12 @@ export const encycliaGallopavina = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Sudeste do Brasil", "Mata Atlântica", "Flores cerosas", "Perfume perceptível"],
-    fotos: [],
+    fotos: [
+        "imagens/Encyclia gallopavina/Encyclia gallopavina1.webp",
+        "imagens/Encyclia gallopavina/Encyclia gallopavina2.jpeg",
+        "imagens/Encyclia gallopavina/Encyclia gallopavina3.jpg",
+        "imagens/Encyclia gallopavina/Encyclia gallopavina4.jpeg"
+    ],
     descricao: "Espécie epífita nativa da Mata Atlântica do Sudeste brasileiro, associada a ambientes úmidos, claros e bem ventilados. Desenvolve pseudobulbos firmes e intumescidos, folhas coriáceas e inflorescências eretas com flores cerosas, duráveis e perfumadas. Como outras Encyclia brasileiras, exige raízes muito bem oxigenadas e pode ser confundida com espécies próximas, tornando importante o registro detalhado da floração.",
     origem: "Sudeste do Brasil.",
     regiao: "Mata Atlântica e formações úmidas do Sudeste brasileiro.",

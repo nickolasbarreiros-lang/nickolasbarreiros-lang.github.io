@@ -7,7 +7,12 @@ export const dryadellaAviceps = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: ["Brasil e Paraguai", "Miniatura", "Pleurothallidinae", "Flores basais"],
-    fotos: [],
+    fotos: [
+        "imagens/Dryadella aviceps/Dryadella aviceps1.jpg",
+        "imagens/Dryadella aviceps/Dryadella aviceps2.jpg",
+        "imagens/Dryadella aviceps/Dryadella aviceps3.webp",
+        "imagens/Dryadella aviceps/Dryadella aviceps4.jpg"
+    ],
     descricao: "Miniatura epífita da subtribo Pleurothallidinae, encontrada na Mata Atlântica do Brasil e também no Paraguai. Forma touceiras compactas de folhas estreitas e produz flores triangulares junto à base. Suas raízes são muito finas e sensíveis à salinidade, ao superaquecimento e à degradação do substrato.",
     origem: "Brasil e Paraguai.",
     regiao: "Leste e Sul do Brasil, em formações da Mata Atlântica, estendendo-se ao Paraguai.",
