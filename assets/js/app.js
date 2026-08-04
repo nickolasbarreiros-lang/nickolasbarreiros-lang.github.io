@@ -1,3 +1,4 @@
+console.info('[Plenitude Ponto RC5.74] Painel de pendências filtrando somente funcionários ativos.');
 const defaultSchedule=[
   {dia:'Segunda',entrada:'09:00',almoco:'13:00',retorno:'13:30',saida:'19:00'},
   {dia:'Terça',entrada:'09:00',almoco:'13:00',retorno:'13:30',saida:'19:00'},
@@ -241,30 +242,45 @@ function setOperationalCardState(id,value,state='normal',options={}){const card=
 function updateOperationalDashboardCards({presentCount,lunchCount,absentCount,lateCount,adjustmentCount,journeyCount,returnCount}){setOperationalCardState('metric-presentes',presentCount,presentCount>0?'ok':'normal');setOperationalCardState('metric-almoco',lunchCount,lunchCount>0?'info':'normal');setOperationalCardState('metric-ausentes',absentCount,absentCount>=2?'danger':absentCount===1?'warning':'normal',{pulse:absentCount>0});setOperationalCardState('metric-atrasos',lateCount,lateCount>=2?'danger':lateCount===1?'warning':'normal',{pulse:lateCount>0});const actionable=Number(adjustmentCount||0)+Number(journeyCount||0)+Number(returnCount||0);const card=document.getElementById('metric-ajustes');const val=document.getElementById('ajustes-pendentes');if(val)val.textContent=String(actionable);if(card?.querySelector('span'))card.querySelector('span').textContent='Pendências';if(card?.querySelector('small'))card.querySelector('small').textContent=actionable?'Exigem atenção do gestor':'Nenhuma ação pendente';setOperationalCardState('metric-ajustes',actionable,actionable>=3?'critical':actionable>0?'danger':'normal',{pulse:actionable>0});const badge=document.getElementById('sidebar-ajustes-badge');if(badge){badge.textContent=String(actionable);badge.hidden=actionable===0;}return actionable;}
 async function renderSmartDashboard(activeEmployees,lateCount,tolerance){
   /*
-   * RC5.72: o painel só pode contabilizar ocorrências pertencentes aos
-   * funcionários que chegaram à tela como ATIVOS. Isso elimina pendências
-   * históricas de funcionários desativados mesmo que as RPCs legadas do
-   * Supabase ainda as retornem.
+   * RC5.74 — fonte operacional restrita aos funcionários ativos.
+   *
+   * As RPCs históricas podem devolver ocorrências antigas de funcionários
+   * desativados. O painel já recebe a relação correta de activeEmployees;
+   * portanto, nenhuma ocorrência externa a essa relação pode ser contada ou
+   * exibida.
    */
   const activeEmployeeIds=new Set(
     (activeEmployees||[])
       .filter(employee=>
+        employee &&
         employee.ativo!==false &&
-        String(employee.status||'ativo').toLowerCase()==='ativo'
+        String(employee.status||'ativo').toLowerCase()!=='inativo' &&
+        employee.acesso_ponto_ativo!==false
       )
       .map(employee=>String(employee.id))
   );
-  const onlyActiveEmployee=item=>
-    activeEmployeeIds.has(String(item?.funcionario_id||item?.employee_id||''));
+
+  const belongsToActiveEmployee=item=>
+    activeEmployeeIds.has(
+      String(item?.funcionario_id||item?.employee_id||'')
+    );
 
   let pending=[];
-  try{pending=(await window.PlenitudeDB.adminAdjustmentRequests('pendente')).filter(onlyActiveEmployee)}catch(e){console.warn('Ajustes pendentes indisponíveis',e)}
+  try{
+    pending=(await window.PlenitudeDB.adminAdjustmentRequests('pendente'))
+      .filter(belongsToActiveEmployee);
+  }catch(e){console.warn('Ajustes pendentes indisponíveis',e)}
   const pendingCount=pending.length;
   const notes=[];
   let journeyPendencies=[];
   try{
+    /*
+     * A atualização continua sendo executada para os funcionários ativos,
+     * mas qualquer linha histórica devolvida pela RPC é descartada logo após.
+     */
     await window.PlenitudeDB.refreshJourneyPendenciesAdmin();
-    journeyPendencies=(await window.PlenitudeDB.journeyPendenciesAdmin()).filter(onlyActiveEmployee);
+    journeyPendencies=(await window.PlenitudeDB.journeyPendenciesAdmin())
+      .filter(belongsToActiveEmployee);
   }catch(error){
     console.warn('Pendências de jornada indisponíveis',error);
   }
@@ -316,7 +332,10 @@ async function renderSmartDashboard(activeEmployees,lateCount,tolerance){
   }
 
   let returnPendencies=[];
-  try{returnPendencies=(await window.PlenitudeDB.historicalReturnPendencies()).filter(onlyActiveEmployee)}catch(error){console.warn('Pendências de retorno indisponíveis',error)}
+  try{
+    returnPendencies=(await window.PlenitudeDB.historicalReturnPendencies())
+      .filter(belongsToActiveEmployee);
+  }catch(error){console.warn('Pendências de retorno indisponíveis',error)}
   if(returnPendencies.length){
     const oldest=returnPendencies[0];
     notes.push({type:'danger',icon:'↩',title:`${returnPendencies.length} retorno${returnPendencies.length===1?'':'s'} temporário${returnPendencies.length===1?'':'s'} pendente${returnPendencies.length===1?'':'s'}`,text:`Pendência mais antiga: ${oldest.funcionario_nome}, ${new Date(oldest.data_local+'T12:00:00').toLocaleDateString('pt-BR')}.`,href:'movimentacoes.html?pendentes=1',label:'Regularizar'});
