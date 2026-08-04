@@ -241,69 +241,36 @@ function setOperationalCardState(id,value,state='normal',options={}){const card=
 function updateOperationalDashboardCards({presentCount,lunchCount,absentCount,lateCount,adjustmentCount,journeyCount,returnCount}){setOperationalCardState('metric-presentes',presentCount,presentCount>0?'ok':'normal');setOperationalCardState('metric-almoco',lunchCount,lunchCount>0?'info':'normal');setOperationalCardState('metric-ausentes',absentCount,absentCount>=2?'danger':absentCount===1?'warning':'normal',{pulse:absentCount>0});setOperationalCardState('metric-atrasos',lateCount,lateCount>=2?'danger':lateCount===1?'warning':'normal',{pulse:lateCount>0});const actionable=Number(adjustmentCount||0)+Number(journeyCount||0)+Number(returnCount||0);const card=document.getElementById('metric-ajustes');const val=document.getElementById('ajustes-pendentes');if(val)val.textContent=String(actionable);if(card?.querySelector('span'))card.querySelector('span').textContent='Pendências';if(card?.querySelector('small'))card.querySelector('small').textContent=actionable?'Exigem atenção do gestor':'Nenhuma ação pendente';setOperationalCardState('metric-ajustes',actionable,actionable>=3?'critical':actionable>0?'danger':'normal',{pulse:actionable>0});const badge=document.getElementById('sidebar-ajustes-badge');if(badge){badge.textContent=String(actionable);badge.hidden=actionable===0;}return actionable;}
 async function renderSmartDashboard(activeEmployees,lateCount,tolerance){
 
-  let pending=[];
-  try{pending=await window.PlenitudeDB.adminAdjustmentRequests('pendente')}catch(e){console.warn('Ajustes pendentes indisponíveis',e)}
-  const pendingCount=pending.length;
-  const notes=[];
-  let journeyPendencies=[];
+  let unifiedPendencies=[];
   try{
-    await window.PlenitudeDB.refreshJourneyPendenciesAdmin();
-    journeyPendencies=await window.PlenitudeDB.journeyPendenciesAdmin();
+    unifiedPendencies=await window.PlenitudeDB.dashboardPendencies();
   }catch(error){
-    console.warn('Pendências de jornada indisponíveis',error);
+    console.warn('Central de pendências indisponível',error);
   }
 
-  /*
-   * Uma jornada incompleta deixa de ser contada separadamente quando já existe
-   * uma solicitação pendente para o mesmo funcionário, data e marcação.
-   * Assim, o painel mostra uma única ação necessária, e não duas.
-   */
-  const pendingAdjustmentKeys=new Set(
-    pending.map(item=>[
-      String(item.funcionario_id||''),
-      String(item.data_marcacao||''),
-      String(item.tipo_marcacao||'')
-    ].join('|'))
-  );
-
-  journeyPendencies=journeyPendencies.filter(item=>{
-    const exactKey=[
-      String(item.funcionario_id||''),
-      String(item.data_local||''),
-      String(item.marcacao_faltante||'')
-    ].join('|');
-
-    if(pendingAdjustmentKeys.has(exactKey))return false;
-
-    /*
-     * Compatibilidade com versões antigas em que a solicitação não retornava
-     * o tipo da marcação de forma consistente: funcionário + data já bastam.
-     */
-    return !pending.some(request=>
-      String(request.funcionario_id||'')===String(item.funcionario_id||'')&&
-      String(request.data_marcacao||'')===String(item.data_local||'')
-    );
-  });
+  const pending=unifiedPendencies.filter(item=>item.tipo_pendencia==='ajuste');
+  const journeyPendencies=unifiedPendencies.filter(item=>item.tipo_pendencia==='jornada_incompleta');
+  const returnPendencies=unifiedPendencies.filter(item=>item.tipo_pendencia==='retorno_temporario');
+  const pendingCount=pending.length;
+  const notes=[];
 
   if(journeyPendencies.length){
     const oldest=journeyPendencies[0];
-    const date=new Date(`${oldest.data_local}T12:00:00`).toLocaleDateString('pt-BR');
+    const date=new Date(`${oldest.data_referencia}T12:00:00`).toLocaleDateString('pt-BR');
 
     notes.push({
       type:'danger',
       icon:'⚠',
       title:`${journeyPendencies.length} jornada${journeyPendencies.length===1?'':'s'} incompleta${journeyPendencies.length===1?'':'s'}`,
-      text:`Mais antiga: ${oldest.funcionario_nome}, ${date}. Faltou ${String(oldest.marcacao_faltante_label||'marcação').toLowerCase()}.`,
-      href:`relatorios.html?funcionario=${encodeURIComponent(oldest.funcionario_id)}&inicio=${oldest.data_local}&fim=${oldest.data_local}`,
-      label:'Ver jornada'
+      text:`Mais antiga: ${oldest.funcionario_nome}, ${date}. ${oldest.descricao}`,
+      href:oldest.destino||'ajustes.html?status=pendente',
+      label:'Ver pendência'
     });
   }
 
-  let returnPendencies=[];
-  try{returnPendencies=await window.PlenitudeDB.historicalReturnPendencies()}catch(error){console.warn('Pendências de retorno indisponíveis',error)}
   if(returnPendencies.length){
     const oldest=returnPendencies[0];
-    notes.push({type:'danger',icon:'↩',title:`${returnPendencies.length} retorno${returnPendencies.length===1?'':'s'} temporário${returnPendencies.length===1?'':'s'} pendente${returnPendencies.length===1?'':'s'}`,text:`Pendência mais antiga: ${oldest.funcionario_nome}, ${new Date(oldest.data_local+'T12:00:00').toLocaleDateString('pt-BR')}.`,href:'movimentacoes.html?pendentes=1',label:'Regularizar'});
+    notes.push({type:'danger',icon:'↩',title:`${returnPendencies.length} retorno${returnPendencies.length===1?'':'s'} temporário${returnPendencies.length===1?'':'s'} pendente${returnPendencies.length===1?'':'s'}`,text:`Pendência mais antiga: ${oldest.funcionario_nome}, ${new Date(oldest.data_referencia+'T12:00:00').toLocaleDateString('pt-BR')}.`,href:'ajustes.html?status=pendente',label:'Regularizar'});
   }
   if(pendingCount)notes.push({type:'warn',icon:'✓',title:`${pendingCount} ajuste${pendingCount===1?'':'s'} pendente${pendingCount===1?'':'s'}`,text:'Solicitações aguardando aprovação ou rejeição.',href:'ajustes.html?status=pendente&fila=1',label:'Analisar'});
   if(lateCount)notes.push({type:'danger',icon:'⏱',title:`${lateCount} atraso${lateCount===1?'':'s'} hoje`,text:`Entrada após a tolerância configurada de ${tolerance} minutos.`,href:'relatorios.html',label:'Detalhes'});
@@ -1434,66 +1401,110 @@ async function initAjustes(){
  const requestedStatus=params.get('status');
  const queueMode=params.get('fila')==='1';
 
- if(requestedStatus && [...filter.options].some(option=>option.value===requestedStatus)){
-   filter.value=requestedStatus;
+ if(requestedStatus&&[...filter.options].some(option=>option.value===requestedStatus)){
+  filter.value=requestedStatus;
  }
 
- function focusFirstPending(){
-   if(!queueMode)return;
-   const first=document.querySelector('.adjustment-admin-card[data-status="pendente"]');
-   if(!first)return;
-   first.classList.add('queue-current');
-   first.scrollIntoView({behavior:'smooth',block:'center'});
-   const textarea=first.querySelector('textarea');
-   if(textarea)setTimeout(()=>textarea.focus({preventScroll:true}),300);
+ function pendingTypeLabel(type){
+  return {
+   ajuste:'Solicitação de ajuste',
+   jornada_incompleta:'Jornada incompleta',
+   retorno_temporario:'Retorno temporário'
+  }[type]||'Pendência';
  }
 
  async function render(){
   try{
-   const rows=await window.PlenitudeDB.adminAdjustmentRequests(filter.value||null);
+   const pendingMode=filter.value==='pendente';
    const list=document.getElementById('adjustments-list');
-   const pendingRows=rows.filter(row=>row.status==='pendente');
-   document.getElementById('adjustment-count').textContent=`${pendingRows.length} pendentes`;
-   document.getElementById('adjustments-empty').style.display=rows.length?'none':'block';
+   let rows=[];
 
-   if(queueMode && pendingRows.length===0){
-     list.innerHTML=`
-      <div class="queue-complete">
-       <div class="icon">✓</div>
-       <h3>Nenhum ajuste pendente</h3>
-       <p>A fila de análise foi concluída.</p>
-       <a class="btn primary" href="admin.html">Voltar ao painel</a>
-      </div>`;
-     document.getElementById('adjustments-empty').style.display='none';
-     return;
+   if(pendingMode){
+    rows=await window.PlenitudeDB.dashboardPendencies();
+   }else{
+    rows=await window.PlenitudeDB.adminAdjustmentRequests(filter.value||null);
    }
 
-   list.innerHTML=rows.map(r=>{
-    const queueIndex=pendingRows.findIndex(item=>item.id===r.id);
-    return `
-    <article class="adjustment-admin-card" data-status="${r.status}" data-adjustment-id="${r.id}">
-     <div class="adjustment-admin-main">
-      <div class="request-heading">
-       <div><small>${r.matricula||'—'}</small><h3>${r.funcionario_nome}</h3></div>
-       <span class="request-status ${r.status}">${r.status}</span>
+   document.getElementById('adjustment-count').textContent=
+    `${pendingMode?rows.length:rows.filter(row=>row.status==='pendente').length} pendentes`;
+
+   document.getElementById('adjustments-empty').style.display=rows.length?'none':'block';
+
+   if(queueMode&&pendingMode&&rows.length===0){
+    list.innerHTML=`
+     <div class="queue-complete">
+      <div class="icon">✓</div>
+      <h3>Nenhuma pendência</h3>
+      <p>A fila de análise foi concluída.</p>
+      <a class="btn primary" href="admin.html">Voltar ao painel</a>
+     </div>`;
+    document.getElementById('adjustments-empty').style.display='none';
+    return;
+   }
+
+   if(pendingMode){
+    list.innerHTML=rows.map((r,index)=>{
+     if(r.tipo_pendencia==='ajuste'){
+      return `
+       <article class="adjustment-admin-card" data-status="pendente" data-adjustment-id="${r.referencia_id}">
+        <div class="adjustment-admin-main">
+         <div class="request-heading">
+          <div><small>${r.matricula||'—'}</small><h3>${r.funcionario_nome}</h3></div>
+          <span class="request-status pendente">pendente</span>
+         </div>
+         ${queueMode?`<div class="queue-position">Pendência ${index+1} de ${rows.length}</div>`:''}
+         <div class="request-facts">
+          <span><b>Tipo</b>${pendingTypeLabel(r.tipo_pendencia)}</span>
+          <span><b>Data</b>${new Date(r.data_referencia+'T12:00:00').toLocaleDateString('pt-BR')}</span>
+          <span><b>Marcação</b>${labelForMarkType(r.marcacao_tipo)}</span>
+         </div>
+         <p>${r.descricao}</p>
+        </div>
+        <div class="request-actions">
+         <textarea id="response-${r.referencia_id}" placeholder="Resposta opcional para a funcionária"></textarea>
+         <button class="btn primary" data-decision="aprovada" data-id="${r.referencia_id}">Aprovar e incluir ponto</button>
+         <button class="btn outline danger" data-decision="rejeitada" data-id="${r.referencia_id}">Rejeitar</button>
+        </div>
+       </article>`;
+     }
+
+     return `
+      <article class="adjustment-admin-card operational-pendency-card" data-status="pendente">
+       <div class="adjustment-admin-main">
+        <div class="request-heading">
+         <div><small>${r.matricula||'—'}</small><h3>${r.funcionario_nome}</h3></div>
+         <span class="request-status pendente">pendente</span>
+        </div>
+        ${queueMode?`<div class="queue-position">Pendência ${index+1} de ${rows.length}</div>`:''}
+        <div class="request-facts">
+         <span><b>Tipo</b>${pendingTypeLabel(r.tipo_pendencia)}</span>
+         <span><b>Data</b>${new Date(r.data_referencia+'T12:00:00').toLocaleDateString('pt-BR')}</span>
+        </div>
+        <p>${r.descricao}</p>
+       </div>
+       <div class="request-actions">
+        <a class="btn primary" href="${r.destino||'#'}">Abrir regularização</a>
+       </div>
+      </article>`;
+    }).join('');
+   }else{
+    list.innerHTML=rows.map(r=>`
+     <article class="adjustment-admin-card" data-status="${r.status}" data-adjustment-id="${r.id}">
+      <div class="adjustment-admin-main">
+       <div class="request-heading">
+        <div><small>${r.matricula||'—'}</small><h3>${r.funcionario_nome}</h3></div>
+        <span class="request-status ${r.status}">${r.status}</span>
+       </div>
+       <div class="request-facts">
+        <span><b>Data</b>${new Date(r.data_marcacao+'T12:00:00').toLocaleDateString('pt-BR')}</span>
+        <span><b>Marcação</b>${labelForMarkType(r.tipo_marcacao)}</span>
+        <span><b>Horário</b>${String(r.horario_solicitado).slice(0,5)}</span>
+       </div>
+       <p>${r.justificativa}</p>
+       ${r.resposta_administrador?`<div class="admin-response"><b>Resposta:</b> ${r.resposta_administrador}</div>`:''}
       </div>
-      ${queueMode&&r.status==='pendente'?`<div class="queue-position">Ajuste ${queueIndex+1} de ${pendingRows.length}</div>`:''}
-      <div class="request-facts">
-       <span><b>Data</b>${new Date(r.data_marcacao+'T12:00:00').toLocaleDateString('pt-BR')}</span>
-       <span><b>Marcação</b>${labelForMarkType(r.tipo_marcacao)}</span>
-       <span><b>Horário</b>${String(r.horario_solicitado).slice(0,5)}</span>
-      </div>
-      <p>${r.justificativa}</p>
-      ${r.resposta_administrador?`<div class="admin-response"><b>Resposta:</b> ${r.resposta_administrador}</div>`:''}
-     </div>
-     ${r.status==='pendente'?`
-      <div class="request-actions">
-       <textarea id="response-${r.id}" placeholder="Resposta opcional para a funcionária"></textarea>
-       <button class="btn primary" data-decision="aprovada" data-id="${r.id}">Aprovar e incluir ponto</button>
-       <button class="btn outline danger" data-decision="rejeitada" data-id="${r.id}">Rejeitar</button>
-      </div>`:''}
-    </article>`;
-   }).join('');
+     </article>`).join('');
+   }
 
    list.querySelectorAll('[data-decision]').forEach(button=>button.onclick=async()=>{
     const decision=button.dataset.decision;
@@ -1503,6 +1514,7 @@ async function initAjustes(){
 
     const card=button.closest('.adjustment-admin-card');
     card?.querySelectorAll('button').forEach(item=>item.disabled=true);
+
     try{
      await window.PlenitudeDB.decideAdjustment(id,decision,response);
      toast(decision==='aprovada'?'Ajuste aprovado e ponto incluído.':'Solicitação rejeitada.');
@@ -1513,20 +1525,13 @@ async function initAjustes(){
     }
    });
 
-   focusFirstPending();
   }catch(error){
    toast(errorText(error),'warn');
    console.error(error);
   }
  }
 
- filter.onchange=()=>{
-   const url=new URL(location.href);
-   if(filter.value)url.searchParams.set('status',filter.value);
-   else url.searchParams.delete('status');
-   history.replaceState({},'',url);
-   render();
- };
+ filter.onchange=render;
  document.getElementById('refresh-adjustments').onclick=render;
  await render();
 }
