@@ -11,6 +11,7 @@ import { zygolumLouisendorf } from "./zygolum-louisendorf.js";
 import { dendrobiumLoddigesii } from "./dendrobium-loddigesii.js";
 import { maxillariaSchunkeana } from "./maxillaria-schunkeana.js";
 import { mediocalcarDecoratum } from "./mediocalcar-decoratum.js";
+import { cattleyaPumpkinFestival } from "./cattleya-pumpkin-festival.js";
 import { cattleyaSchilleriana } from "./cattleya-schilleriana.js";
 import { bulbophyllumRothschildianum } from "./bulbophyllum-rothschildianum.js";
 import { encycliaMineirinha } from "./encyclia-mineirinha.js";
@@ -123,6 +124,7 @@ import { maxillariaBrasiliensis } from "./maxillaria-brasiliensis.js";
 import { isochilusLinearis } from "./isochilus-linearis.js";
 
 export const orquideas = [
+    cattleyaPumpkinFestival,
     dendrobiumPolysema,
     bifrenariaVerboonenii,
     bifrenariaAureofulva,

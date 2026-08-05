@@ -1,0 +1,13 @@
+CORREÇÃO DE DOIS PROBLEMAS
+
+1) Cattleya Pumpkin Festival voltou ao índice:
+- import restaurado em dados/orquideas/index.js
+- entrada restaurada no array central de orquídeas
+- ficha cattleya-pumpkin-festival.js incluída
+
+2) Galeria da ficha corrigida:
+- ao clicar em uma foto lateral, ela sobe para a área principal
+- a antiga foto principal desce para a posição lateral clicada
+- não permanece foto duplicada na principal e na lateral
+
+Copie os arquivos mantendo exatamente as pastas e substitua os existentes.
