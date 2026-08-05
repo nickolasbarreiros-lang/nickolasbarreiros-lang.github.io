@@ -1,40 +1,40 @@
-// Ficha científica e de cultivo revisada — Refinamento V3.
+// Ficha científica e de cultivo revisada — Lote 06.
 
 export const coelogyneAsperata = {
     id: "coelogyne-asperata",
     nome: "Coelogyne asperata",
     genero: "Coelogyne",
-    tipo: "Espécie botânica tropical de grande porte",
+    tipo: "Espécie botânica",
     dificuldade: "Moderada",
-    caracteristicas: ["Tropical", "Porte grande", "Flores creme", "Touceira vigorosa"],
+    caracteristicas: ["Tropical", "Inflorescência perfumada", "Porte grande", "Flores creme"],
     fotos: [
         "imagens/Coelogyne asperata/Coelogyne asperata1.webp",
         "imagens/Coelogyne asperata/Coelogyne asperata2.jpeg",
         "imagens/Coelogyne asperata/Coelogyne asperata3.jpeg",
         "imagens/Coelogyne asperata/Coelogyne asperata4.webp"
     ],
-    descricao: "Coelogyne asperata é uma espécie epífita tropical de grande porte, nativa de florestas quentes e úmidas do Sudeste Asiático e da Melanésia. Forma touceiras robustas com pseudobulbos grandes e rizomas de crescimento rápido, exigindo recipientes largos e espaço disponível. Produz inflorescências arqueadas ou pendentes com várias flores creme, marcadas por labelo ornamentado em tons amarelados, alaranjados e acastanhados.",
-    origem: "Sudeste Asiático e Melanésia",
-    regiao: "Malésia, Bornéu, Sumatra, Java, Filipinas, Nova Guiné, Ilhas Salomão e Ilhas Santa Cruz.",
+    descricao: "Coelogyne tropical de grande porte, com inflorescências arqueadas de flores creme e labelo marcado. Diferentemente das espécies himalaicas, aprecia calor e umidade durante praticamente todo o ano.",
+    origem: "Malesia até as Ilhas Santa Cruz.",
+    regiao: "Borneo, Sumatra, Java, Filipinas, Nova Guiné, Ilhas Salomão e regiões próximas.",
     habitat: "Epífita de florestas tropicais úmidas de baixa a média altitude.",
     clima: "Quente e úmido.",
-    climaFloracao: "Floresce melhor com crescimento vegetativo vigoroso, pseudobulbos bem desenvolvidos sob boa luminosidade e umidade constante. Touceiras adultas e pouco divididas produzem hastes mais longas e numerosas. Não necessita de frio nem de repouso seco intenso.",
+    climaFloracao: "Crescimentos maduros, boa luminosidade e umidade constante favorecem hastes longas e floríferas.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Somente muito fraco",
-        horario: "Primeiros raios da manhã",
-        observacoes: "Folhas verde-médio e firmes indicam bom equilíbrio. Amarelamento e bordas ressecadas sugerem excesso de luz ou calor."
+        solDireto: "Não, exceto muito fraco",
+        horario: "Início da manhã",
+        observacoes: "Luz filtrada intensa, sem ressecar folhas largas."
     },
-    floracao: "Predominantemente do fim do inverno à primavera, com variações em regiões de clima tropical contínuo.",
-    adubacao: "🌿 Orgânica: Bokashi em dose moderada durante a brotação.\n💧 Foliar: NPK equilibrado em baixa concentração, semanal ou quinzenalmente durante o crescimento.\n🧪 Liberação lenta: Osmocote em baixa quantidade em vasos ou cestos amplos e drenantes.",
-    rega: "Durante o crescimento, mantenha o substrato levemente úmido e regue novamente quando a superfície começar a secar, sempre com drenagem imediata. Após a maturação, reduza apenas discretamente; não imponha repouso seco prolongado.",
-    suporte: "🥇 Cesto largo.\n🥈 Vaso largo, pesado e estável.\n🥉 Cachepô de madeira com excelente drenagem.",
-    substrato: "🥇 Casca de pinus média + fibra de coco grossa + carvão vegetal.\n🥈 Casca de pinus + pedra-pomes + esfagno moderado e solto.\n🥉 Fibra de coco grossa + brita.\n🏅 Casca média + carvão + pedra-pomes.",
-    errosComuns: "Expor a planta a frio prolongado; usar recipiente pequeno; deixar faltar água na brotação; cultivar sob sol direto forte; dividir a touceira frequentemente; empregar substrato compacto; manter o recipiente instável enquanto o rizoma avança.",
-    dica: "Planeje o espaço antes do plantio. O rizoma avança rapidamente e a planta alcança seu melhor potencial ornamental quando forma uma touceira grande, com vários pseudobulbos maduros interligados.",
+    floracao: "Fim do inverno à primavera, podendo variar em clima tropical.",
+    adubacao: "🌿 Orgânica: bokashi moderado na fase de crescimento.\n💧 Foliar: NPK equilibrado em baixa dose semanal ou quinzenal.\n🧪 Liberação lenta: dose baixa em cestos e vasos grandes.",
+    rega: "Mantenha úmida durante crescimento, sem encharcar. Após maturação, reduza apenas levemente; não exige repouso seco acentuado.",
+    suporte: "🥇 Cestinho amplo.\n🥈 Vaso largo e estável.\n🥉 Cachepô muito drenante.",
+    substrato: "🥇 Casca média + fibra de coco + carvão.\n🥈 Casca + pedra-pomes + esfagno moderado.\n🥉 Fibra de coco grossa + brita.",
+    errosComuns: "Frio; vaso pequeno demais; falta de água no crescimento; substrato compacto; dividir frequentemente; sol forte.",
+    dica: "Reserve espaço: rizomas avançam rapidamente e a planta floresce melhor quando forma touceira grande e bem estabelecida.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação em Serra/ES. Cultive sob 50% a 60% de sombreamento, em recipiente largo, com ventilação constante e substrato que retenha alguma umidade sem compactar.",
-        montanhaFrio: "Requer proteção contra frio intenso, ventos gelados e temperaturas persistentemente abaixo de 14 °C."
+        litoralQuente: "Excelente adaptação com sombra clara, umidade e vaso amplo.",
+        montanhaFrio: "Mantenha protegida do frio intenso; abaixo de 14 °C o crescimento pode paralisar."
     },
     mesesFloracao: [8, 9, 10, 11],
     avaliacoes: {

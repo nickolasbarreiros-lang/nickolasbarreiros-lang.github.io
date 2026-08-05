@@ -1,11 +1,11 @@
-// Ficha científica e de cultivo revisada — Refinamento Lote 12.
+// Ficha científica e de cultivo revisada — Lote 07.
 
 export const dendrobiumPolysema = {
     id: "dendrobium-polysema",
     nome: "Dendrobium polysema",
     genero: "Dendrobium",
-    tipo: "Espécie botânica — seção Latouria",
-    dificuldade: "Exigente",
+    tipo: "Espécie botânica",
+    dificuldade: "Moderada a exigente",
     caracteristicas: ["Nova Guiné", "Flores pintalgadas", "Clima montano", "Alta umidade"],
     fotos: [
         "imagens/Dendrobium polysema/Dendrobium polysema1.jpg",
@@ -13,28 +13,28 @@ export const dendrobiumPolysema = {
         "imagens/Dendrobium polysema/Dendrobium polysema3.jpg",
         "imagens/Dendrobium polysema/Dendrobium polysema4.jpeg"
     ],
-    descricao: "Espécie da seção Latouria, nativa das florestas montanas da Nova Guiné. Desenvolve canas eretas e robustas e produz flores muito duráveis, cerosas e exóticas, geralmente claras e intensamente pintalgadas em verde, castanho e púrpura. Requer elevada umidade atmosférica, temperaturas amenas, raízes arejadas e ventilação constante.",
+    descricao: "Espécie da Nova Guiné com flores exóticas, claras e densamente marcadas por manchas verdes, castanhas e arroxeadas. Cresce em ambientes montanos úmidos e requer raízes arejadas, umidade constante e temperaturas sem extremos.",
     origem: "Nova Guiné.",
     regiao: "Florestas montanas da ilha da Nova Guiné.",
-    habitat: "Epífita sobre troncos e galhos cobertos por musgo, em atmosfera constantemente úmida e bem ventilada.",
-    clima: "Intermediário a fresco, muito úmido e ventilado.",
-    climaFloracao: "Floresce em canas completamente maduras quando recebe luz intensa indireta, raízes saudáveis, umidade constante e amplitude térmica moderada entre dia e noite. Não necessita de repouso seco rigoroso; apenas leve redução no inverno.",
+    habitat: "Epífita sobre troncos e galhos cobertos por musgo, em atmosfera úmida e ventilada.",
+    clima: "Intermediário a fresco, úmido.",
+    climaFloracao: "Floresce em canas maduras quando há boa luminosidade, raízes saudáveis e diferença moderada entre dia e noite. Não necessita repouso seco rigoroso.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Não recomendado",
+        solDireto: "Não",
         horario: "Luz indireta intensa",
-        observacoes: "Priorize claridade difusa e forte circulação de ar. Folhas quentes ao toque indicam excesso de insolação ou ventilação insuficiente."
+        observacoes: "Evite folhas quentes; forneça claridade difusa e ventilação."
     },
-    floracao: "Fim do inverno e primavera.",
-    adubacao: "🌿 Orgânica: bokashi em dose mínima apenas na fase vegetativa.\n💧 Foliar: NPK equilibrado diluído a 1/4 da dose, semanalmente ou a cada 7 a 10 dias no crescimento.\n🧪 Liberação lenta: pouquíssimos grânulos de Osmocote, pois as raízes são sensíveis ao acúmulo de sais.",
-    rega: "Mantenha umidade regular durante todo o ano, permitindo apenas leve secagem superficial e sem deixar água parada. No inverno, reduza discretamente, mas nunca deixe o substrato completamente seco por muitos dias.",
-    suporte: "🥇 Cesto pequeno extremamente ventilado.\n🥈 Vaso de barro vazado.\n🥉 Placa de madeira com musgo, somente em ambiente de altíssima umidade.",
-    substrato: "🥇 Casca de pinus média + esfagno solto + pedra-pomes.\n🥈 Fibra de coco grossa + carvão vegetal.\n🥉 Esfagno de excelente qualidade em recipiente muito aberto e arejado.",
-    errosComuns: "Cultivar em ambiente quente e abafado; deixar água parada; permitir seca prolongada; aplicar adubação forte ou usar água salina; manter substrato compacto; retirar canas antigas ainda firmes.",
-    dica: "Monitore a temperatura das folhas. Uma planta bem sombreada e com forte movimento de ar suporta melhor o calor; em ambiente abafado, mesmo temperaturas moderadas podem comprometer rapidamente o desenvolvimento.",
+    floracao: "Mais comum do fim do inverno à primavera.",
+    adubacao: "🌿 Orgânica: bokashi em dose mínima.\n💧 Foliar: NPK equilibrado a 1/4 da dose a cada 7 a 10 dias no crescimento.\n🧪 Liberação lenta: poucos grânulos, pois raízes são sensíveis a sais.",
+    rega: "Mantenha umidade regular durante o ano, permitindo leve aeração entre regas. Reduza discretamente no frio, sem secar completamente.",
+    suporte: "🥇 Cesto pequeno e ventilado.\n🥈 Vaso de barro vazado.\n🥉 Placa com musgo em ambiente úmido.",
+    substrato: "🥇 Casca média + esfagno solto + pedra-pomes.\n🥈 Fibra de coco grossa + carvão.\n🥉 Esfagno puro de boa qualidade em recipiente muito aberto.",
+    errosComuns: "Calor abafado; água parada; seca prolongada; excesso de sais; retirar canas antigas ainda firmes.",
+    dica: "Priorize temperatura das folhas: mesmo com ar quente, sombreamento e movimento de ar podem impedir que a planta superaqueça.",
     adaptacaoRegional: {
-        litoralQuente: "Cultivo desafiador. Em Serra/ES, mantenha no ponto mais fresco, sombreado e ventilado, usando ventiladores ou microaspersão nos períodos mais quentes.",
-        montanhaFrio: "Excelente adaptação, desde que sejam mantidas boa umidade relativa e circulação contínua de ar."
+        litoralQuente: "É desafiadora; exige ponto fresco, muita ventilação, umidade e proteção contra calor acumulado.",
+        montanhaFrio: "Melhor adaptação, desde que a umidade e a circulação de ar sejam mantidas."
     },
     mesesFloracao: [8, 9, 10, 11],
     avaliacoes: { cultivo: 4, floracao: 4, perfume: 2, luminosidade: 4, agua: 4, raridade: 4 }

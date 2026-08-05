@@ -1,4 +1,4 @@
-// Ficha refinada no padrão editorial V3 — Lote 09.
+// Ficha científica e de cultivo revisada — Lote 06.
 
 export const cattleyaWarneri = {
     id: "cattleya-warneri",
@@ -6,35 +6,35 @@ export const cattleyaWarneri = {
     genero: "Cattleya",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
-    caracteristicas: ["Unifoliada", "Flores gigantes", "Brasileira", "Floração primaveril"],
-    fotos: [
+    caracteristicas: ["Unifoliada", "Flores muito grandes", "Brasileira", "Primaveril"],
+    "fotos": [
         "imagens/Cattleya warneri/Cattleya warneri1.jpg",
         "imagens/Cattleya warneri/Cattleya warneri2.webp",
         "imagens/Cattleya warneri/Cattleya warneri3.jpg",
         "imagens/Cattleya warneri/Cattleya warneri4.jpg"
     ],
-    descricao: "Espécie unifoliada emblemática do Sudeste brasileiro, conhecida por produzir algumas das maiores flores entre as Cattleyas nacionais, frequentemente entre 18 e 22 cm conforme o clone. Forma pseudobulbos vigorosos com uma única folha coriácea e flores em tons lilás a magenta, de pétalas amplas, labelo muito ondulado e perfume marcante. É próxima de Cattleya labiata, mas diferencia-se principalmente pela floração primaveril.",
+    descricao: "Grande Cattleya unifoliada brasileira, conhecida pelas flores vistosas e labelo amplo. É semelhante a C. labiata, mas floresce tipicamente na primavera e possui distribuição natural associada à Mata Atlântica do sudeste.",
     origem: "Sudeste do Brasil.",
-    regiao: "Principalmente Espírito Santo, Minas Gerais e áreas limítrofes da Mata Atlântica.",
-    habitat: "Epífita nas copas de árvores altas, em florestas úmidas e sazonais, com elevada luminosidade, ventilação constante e umidade sazonal.",
-    clima: "Intermediário a quente, com inverno levemente mais seco.",
-    climaFloracao: "A planta forma e amadurece pseudobulbos sob luz alta, passa por um repouso moderado no inverno e responde ao aumento natural da temperatura na primavera. A espata pode permanecer verde, amarelada ou aparentemente seca por semanas ou meses antes que os botões se desenvolvam internamente.",
+    regiao: "Principalmente Minas Gerais, Espírito Santo e áreas próximas da Mata Atlântica.",
+    habitat: "Epífita em florestas úmidas e sazonais, com boa luminosidade nas copas e ventilação constante.",
+    clima: "Intermediário a quente, com inverno um pouco mais seco.",
+    climaFloracao: "A maturação do pseudobulbo durante o inverno e o aumento de temperatura na primavera estimulam a floração.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Somente fraco e aclimatado",
-        horario: "Primeiras horas da manhã",
-        observacoes: "Folhas verde-médio a verde-claro indicam boa luz. Folhas muito escuras revelam deficiência luminosa e reduzem a formação de espatas."
+        solDireto: "Fraco e aclimatado",
+        horario: "Manhã",
+        observacoes: "Luz alta sem superaquecimento é essencial para florações fortes."
     },
-    floracao: "Primavera, principalmente entre setembro e novembro, com pequenas variações conforme altitude, clima e clone.",
-    adubacao: "🌿 Orgânica: bokashi moderado no período de brotação.\n💧 Foliar: NPK equilibrado, como 20-20-20, a cada 10 a 15 dias durante o crescimento ativo.\n🧪 Liberação lenta: Osmocote em dose baixa no início do desenvolvimento. Reduza ou suspenda a adubação no inverno.",
-    rega: "Regue regularmente durante a emissão de brotos e raízes novas, permitindo boa secagem. Após a maturação, aumente o intervalo entre as regas sem enrugar excessivamente os pseudobulbos. Retome regas mais abundantes assim que novas raízes iniciarem crescimento ativo.",
-    suporte: "🥇 Vaso de barro firme, pesado e bem furado.\n🥈 Cestinho de madeira vazado.\n🥉 Placa de madeira para plantas bem adaptadas e ambientes com boa umidade relativa.",
-    substrato: "🥇 Casca de pinus grossa + carvão vegetal + brita.\n🥈 Casca de pinus média + pedra-pomes.\n🥉 Fibra de coco grossa + carvão vegetal.",
-    errosComuns: "Cortar a espata aparentemente seca; manter excesso de água no inverno; cultivar com pouca luz; usar vaso desproporcionalmente grande; replantar fora da emissão de raízes novas; manter raízes quentes e permanentemente úmidas no verão.",
-    dica: "Nunca retire uma espata apenas porque aparenta estar seca. Em Cattleya warneri, os botões frequentemente permanecem protegidos dentro dessa bainha durante semanas ou meses antes da abertura floral.",
+    floracao: "Primavera, especialmente entre setembro e novembro.",
+    adubacao: "🌿 Orgânica: bokashi moderado na fase de crescimento.\n💧 Foliar: NPK equilibrado a cada 10 a 15 dias; reduza no inverno.\n🧪 Liberação lenta: dose baixa no início da brotação.",
+    rega: "Regue regularmente com brotos e raízes ativos. No inverno, aumente o intervalo, sem desidratar excessivamente os pseudobulbos.",
+    suporte: "🥇 Vaso de barro firme e furado.\n🥈 Cestinho de madeira.\n🥉 Placa para plantas já adaptadas.",
+    substrato: "🥇 Casca grossa + carvão + brita.\n🥈 Casca média + pedra-pomes.\n🥉 Fibra de coco grossa + carvão.",
+    errosComuns: "Pouca luz; excesso de água no inverno; vaso grande; cortar espata aparentemente seca; replantar sem raízes novas.",
+    dica: "Não remova a espata seca: em Cattleyas unifoliadas a haste pode se desenvolver dentro dela semanas depois.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação ao litoral capixaba. Combine boa luminosidade, ventilação constante e substrato de secagem rápida, evitando que o calor mantenha as raízes permanentemente úmidas.",
-        montanhaFrio: "Adaptação excelente, com proteção contra geadas diretas e controle rigoroso das regas para evitar raízes frias e molhadas no inverno."
+        litoralQuente: "Cultive em local arejado, reduzindo a retenção de água e o calor excessivo nas raízes.",
+        montanhaFrio: "Adapta-se muito bem, com proteção contra geada e redução cuidadosa de rega no inverno."
     },
     mesesFloracao: [9, 10, 11],
     avaliacoes: {

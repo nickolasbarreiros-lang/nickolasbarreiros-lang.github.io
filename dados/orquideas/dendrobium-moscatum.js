@@ -1,4 +1,4 @@
-// Ficha científica e de cultivo revisada — Refinamento Lote 12.
+// Ficha científica e de cultivo revisada — Lote 07.
 
 export const dendrobiumMoscatum = {
     id: "dendrobium-moscatum",
@@ -6,35 +6,35 @@ export const dendrobiumMoscatum = {
     genero: "Dendrobium",
     tipo: "Espécie botânica — grafia anterior “moscatum”",
     dificuldade: "Moderada",
-    caracteristicas: ["Canas longas", "Flores amarelo-alaranjadas", "Labelo em bolsa", "Repouso moderado"],
+    caracteristicas: ["Canas longas", "Flores amarelas", "Labelo em bolsa", "Repouso sazonal"],
     fotos: [
         "imagens/Dendrobium moschatum/Dendrobium moschatum1.webp",
         "imagens/Dendrobium moschatum/Dendrobium moschatum2.jpg",
         "imagens/Dendrobium moschatum/Dendrobium moschatum3.webp",
         "imagens/Dendrobium moschatum/Dendrobium moschatum4.webp"
     ],
-    descricao: "Espécie asiática de grande porte pertencente ao grupo dos Dendrobiums de clima monçônico. Desenvolve longas canas eretas ou arqueadas, frequentemente com mais de um metro, e produz flores amarelas a alaranjadas com labelo amplo e côncavo em forma de bolsa. A grafia correta do epíteto é moschatum, corrigindo o antigo cadastro “moscatum”.",
+    descricao: "Grande Dendrobium asiático de canas longas e arqueadas. Produz flores amarelas a alaranjadas, com labelo amplo e côncavo semelhante a uma pequena bolsa. A grafia correta do epíteto é moschatum.",
     origem: "Himalaia, sul da China e Indochina.",
     regiao: "Índia, Nepal, Butão, Bangladesh, Myanmar, Tailândia, Laos, Vietnã e Yunnan.",
-    habitat: "Epífita em florestas monçônicas sazonais, com crescimento muito úmido e estação mais seca.",
+    habitat: "Epífita em florestas monçônicas, com crescimento úmido e estação mais seca.",
     clima: "Quente a intermediário.",
-    climaFloracao: "A floração depende de canas totalmente maduras, luz filtrada forte e redução moderada das regas após o crescimento. Não exige seca extrema; apenas um descanso mais seco, ventilado e luminoso até a nova brotação.",
+    climaFloracao: "Canas totalmente maduras, boa luz e redução moderada da água no inverno favorecem botões. Não requer seca tão extrema quanto espécies caducas mais rigorosas.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Suave",
         horario: "Manhã cedo",
-        observacoes: "Luz filtrada forte é necessária para canas firmes e indução floral. Canas muito finas e compridas indicam sombra excessiva."
+        observacoes: "Luz filtrada forte; aclimate antes de expor ao sol."
     },
     floracao: "Primavera e início do verão.",
-    adubacao: "🌿 Orgânica: bokashi em pequena quantidade no início da brotação.\n💧 Foliar: NPK equilibrado em baixa dosagem, semanal ou quinzenalmente durante o alongamento das canas.\n🧪 Liberação lenta: Osmocote em dose moderada apenas no início do ciclo vegetativo.",
-    rega: "Durante o crescimento, regue abundantemente e permita secagem parcial entre as irrigações. Após a maturação das canas, reduza bastante a frequência, mantendo apenas hidratação suficiente para evitar desidratação excessiva. Retome o manejo normal com novas brotações e raízes ativas.",
-    suporte: "🥇 Cesto grande e suspenso.\n🥈 Vaso pesado e bem drenado em bancada alta.\n🥉 Placa robusta de madeira para plantas jovens.",
-    substrato: "🥇 Casca de pinus grossa + carvão vegetal + pedra-pomes.\n🥈 Fibra de coco grossa + brita.\n🥉 Casca de pinus média + pequena quantidade de esfagno em locais muito secos.",
-    errosComuns: "Cultivar em pouca luminosidade; manter excesso de água durante o repouso; cortar canas antigas; exagerar no nitrogênio e favorecer keikis; usar vasos pequenos para plantas adultas; manter em ambientes com pouca ventilação ou sem espaço vertical.",
-    dica: "Instale a planta em um suporte definitivo e elevado desde jovem. As canas adultas ficam muito longas e pesadas, sendo difícil reorganizá-las sem quebrar canas ou danificar raízes estabelecidas.",
+    adubacao: "🌿 Orgânica: bokashi leve na brotação.\n💧 Foliar: equilibrado semanalmente em baixa dose durante alongamento das canas.\n🧪 Liberação lenta: dose moderada no início do crescimento.",
+    rega: "Abundante no crescimento, sempre com secagem parcial. Após as canas amadurecerem, diminua a frequência até aparecer nova brotação.",
+    suporte: "🥇 Cesto grande e suspenso.\n🥈 Vaso pesado em bancada alta.\n🥉 Placa robusta para exemplares menores.",
+    substrato: "🥇 Casca grossa + carvão + pedra-pomes.\n🥈 Fibra de coco grossa + brita.\n🥉 Casca média com pequena porção de esfagno em clima seco.",
+    errosComuns: "Espaço insuficiente para as canas; sombra; encharcamento no repouso; cortar canas antigas; excesso de adubo nitrogenado.",
+    dica: "Instale a planta em posição alta desde jovem, pois as canas adultas ficam longas e difíceis de reorganizar.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação. Em Serra/ES, mantenha muita ventilação, luz forte filtrada e proteção contra chuvas constantes durante o repouso.",
-        montanhaFrio: "Também apresenta ótimo desempenho. Proteja apenas contra frio excessivamente úmido e geadas."
+        litoralQuente: "Adapta-se bem com ventilação, luz forte filtrada e repouso protegido de chuva constante.",
+        montanhaFrio: "Vai bem, mas não deve sofrer frio intenso e úmido enquanto está sem crescimento."
     },
     mesesFloracao: [9, 10, 11, 12, 1],
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 3, luminosidade: 4, agua: 3, raridade: 3 }

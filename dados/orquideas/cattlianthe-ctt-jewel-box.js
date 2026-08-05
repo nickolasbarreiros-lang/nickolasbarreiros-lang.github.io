@@ -1,42 +1,42 @@
-// Ficha científica e de cultivo revisada — Refinamento V3.
+// Ficha científica e de cultivo revisada — Lote 06.
 
 export const cattliantheCttJewelBox = {
     id: "cattlianthe-ctt-jewel-box",
     nome: "Cattlianthe Jewel Box",
     genero: "Cattlianthe",
-    tipo: "Híbrido intergenérico clássico — Cattleya × Guarianthe",
+    tipo: "Híbrido hortícola",
     dificuldade: "Fácil",
-    caracteristicas: ["Híbrido horticultural", "Flores vermelhas", "Touceira vigorosa", "Floração abundante"],
-    fotos: [
+    caracteristicas: ["Híbrido clássico", "Flores vermelhas", "Touceira vigorosa", "Floração abundante"],
+    "fotos": [
         "imagens/Cattlianthe Jewel Box/Cattlianthe Jewel Box1.jpg",
         "imagens/Cattlianthe Jewel Box/Cattlianthe Jewel Box2.jpg",
         "imagens/Cattlianthe Jewel Box/Cattlianthe Jewel Box3.jpg",
         "imagens/Cattlianthe Jewel Box/Cattlianthe Jewel Box4.jpg"
     ],
-    descricao: "Cattlianthe Jewel Box é um híbrido clássico da aliança Cattleya, conhecido pelo crescimento vigoroso, formação rápida de touceiras e florações abundantes. Produz hastes com várias flores cerosas e brilhantes, geralmente em tons intensos de vermelho. A influência de Guarianthe favorece o entouceiramento e a floração multifloral, enquanto Cattleya contribui para a substância e o formato das flores.",
-    origem: "Híbrido Horticultural",
-    regiao: "Origem de cultivo, sem distribuição natural.",
-    habitat: "Não possui habitat natural; responde melhor a ambientes claros, ventilados e com secagem regular entre as regas.",
+    descricao: "Híbrido clássico registrado como Cattlianthe Jewel Box, conhecido por hastes com várias flores vermelhas e grande vigor. O nome intergenérico reflete o parentesco entre Cattleya e Guarianthe.",
+    origem: "Híbrido hortícola registrado.",
+    regiao: "Não possui distribuição natural.",
+    habitat: "Cultivado em orquidários sob condições luminosas e bem ventiladas.",
     clima: "Intermediário a quente.",
-    climaFloracao: "A floração é favorecida por alta luminosidade durante a formação dos pseudobulbos, equilíbrio nutricional sem excesso de nitrogênio e leve redução das regas no período frio. Touceiras adultas com múltiplas frentes produzem hastes mais numerosas.",
+    climaFloracao: "Floresce quando recebe luz alta e os pseudobulbos amadurecem sem excesso de nitrogênio.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Fraco e aclimatado",
-        horario: "Início da manhã",
-        observacoes: "Folhas firmes e verde-claras indicam boa luminosidade. Folhas muito escuras e pseudobulbos alongados sinalizam sombra excessiva."
+        solDireto: "Sim, fraco",
+        horario: "Manhã",
+        observacoes: "Tolera e aprecia mais luz que muitos híbridos de flores grandes."
     },
-    floracao: "Predominantemente do outono à primavera. Plantas vigorosas podem florescer mais de uma vez no ano conforme novos pseudobulbos amadurecem.",
-    adubacao: "🌿 Orgânica: Bokashi em dose moderada, protegido em porta-adubo, durante o crescimento.\n💧 Foliar: NPK equilibrado em 1/4 a 1/2 da dose a cada 10 a 15 dias.\n🧪 Liberação lenta: Osmocote em dose proporcional ao tamanho do vaso, afastado das raízes novas.",
-    rega: "Regue abundantemente durante a emissão de brotos e raízes, permitindo que o substrato quase seque entre as irrigações. No período frio, aumente moderadamente o intervalo e evite água acumulada nas bainhas e espatas.",
-    suporte: "🥇 Vaso de barro bem drenado.\n🥈 Vaso plástico com ampla furação lateral.\n🥉 Cachepô de madeira.\n🏅 Placa de madeira para plantas compactas em ambientes úmidos.",
-    substrato: "🥇 Casca de pinus média + carvão vegetal + brita.\n🥈 Fibra de coco grossa + carvão vegetal.\n🥉 Pedra-pomes + casca de pinus média.",
-    errosComuns: "Cultivar sob sombra excessiva; exagerar no nitrogênio após a maturação; utilizar vaso muito grande; manter substrato degradado ou constantemente úmido; deixar água acumulada nas bainhas; dividir precocemente uma touceira ainda pequena.",
-    dica: "Evite dividir cedo demais. Exemplares adultos, com vários pseudobulbos interligados e múltiplas frentes, produzem hastes mais numerosas e cachos muito mais cheios.",
+    floracao: "Pode florescer mais de uma vez ao ano, frequentemente do outono à primavera.",
+    adubacao: "🌿 Orgânica: bokashi em dose moderada durante o crescimento.\n💧 Foliar: NPK equilibrado quinzenalmente.\n🧪 Liberação lenta: Osmocote em dose indicada para o volume do vaso.",
+    rega: "Regue quando o substrato estiver quase seco; mantenha maior frequência em brotação e reduza no frio.",
+    suporte: "🥇 Vaso de barro ou plástico bem furado.\n🥈 Cestinho.\n🥉 Placa para plantas compactas.",
+    substrato: "🥇 Casca média + carvão + brita.\n🥈 Fibra de coco grossa + carvão.\n🥉 Pedra-pomes + casca.",
+    errosComuns: "Sombra excessiva; excesso de nitrogênio; vaso muito grande; substrato degradado; deixar água acumulada nas bainhas.",
+    dica: "Deixe formar uma touceira com vários pseudobulbos; plantas adultas e pouco divididas produzem hastes mais cheias.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação em Serra/ES. Mantenha sombrite entre 40% e 50%, ventilação constante e substrato de secagem rápida.",
-        montanhaFrio: "Boa adaptação, com proteção contra geadas e redução moderada das regas durante períodos frios e chuvosos."
+        litoralQuente: "Muito adaptável, desde que tenha ventilação e secagem entre regas.",
+        montanhaFrio: "Também se adapta bem; proteja apenas de geada e reduza água em semanas frias."
     },
-    mesesFloracao: [4, 5, 6, 7, 8, 9, 10, 11],
+    mesesFloracao: [5, 6, 7, 8, 9, 10],
     avaliacoes: {
         cultivo: 2,
         floracao: 5,

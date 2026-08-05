@@ -1255,53 +1255,32 @@ if (!orquidea) {
             atualizarVisualizador();
         }
 
-        function trocarFotoPrincipal(botaoMiniatura) {
-            if (!imagemPrincipal || !botaoFotoPrincipal || !botaoMiniatura) {
+        function trocarFotoPrincipal(indice) {
+            if (!imagemPrincipal || !botaoFotoPrincipal) {
                 return;
             }
 
-            const imagemMiniatura = botaoMiniatura.querySelector("img");
-            const indiceClicado = Number(botaoMiniatura.dataset.galeriaIndice);
-
-            if (!imagemMiniatura || !Number.isInteger(indiceClicado)) {
-                return;
-            }
-
-            const indiceAnterior = indicePrincipal;
-            indicePrincipal = indiceClicado;
-
+            indicePrincipal = indice;
             imagemPrincipal.classList.add("imagem-principal-v4-trocando");
-            botaoMiniatura.classList.add("miniatura-v2-trocando");
 
             window.setTimeout(() => {
-                // A miniatura clicada assume o lugar principal.
-                imagemPrincipal.src = fotos[indiceClicado];
-                imagemPrincipal.alt = `${orquidea.nome} — foto ${indiceClicado + 1}`;
-                botaoFotoPrincipal.dataset.abrirIndice = String(indiceClicado);
+                imagemPrincipal.src = fotos[indice];
+                imagemPrincipal.alt = `${orquidea.nome} — foto ${indice + 1}`;
+                botaoFotoPrincipal.dataset.abrirIndice = String(indice);
 
-                // A antiga foto principal desce para a mesma posição lateral.
-                imagemMiniatura.src = fotos[indiceAnterior];
-                imagemMiniatura.alt = `${orquidea.nome} — foto ${indiceAnterior + 1}`;
-                botaoMiniatura.dataset.galeriaIndice = String(indiceAnterior);
-                botaoMiniatura.setAttribute(
-                    "aria-label",
-                    `Exibir foto ${indiceAnterior + 1} como principal`
-                );
-
-                // A imagem principal não permanece duplicada entre as miniaturas.
                 botoesMiniaturas.forEach((miniatura) => {
-                    miniatura.classList.remove("miniatura-v2-ativa");
-                    miniatura.setAttribute("aria-pressed", "false");
+                    const ativa = Number(miniatura.dataset.galeriaIndice) === indice;
+                    miniatura.classList.toggle("miniatura-v2-ativa", ativa);
+                    miniatura.setAttribute("aria-pressed", String(ativa));
                 });
 
                 imagemPrincipal.classList.remove("imagem-principal-v4-trocando");
-                botaoMiniatura.classList.remove("miniatura-v2-trocando");
             }, 150);
         }
 
         botoesMiniaturas.forEach((botao) => {
             botao.addEventListener("click", () => {
-                trocarFotoPrincipal(botao);
+                trocarFotoPrincipal(Number(botao.dataset.galeriaIndice));
             });
         });
 
