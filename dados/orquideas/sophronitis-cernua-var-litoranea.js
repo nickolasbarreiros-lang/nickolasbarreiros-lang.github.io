@@ -14,10 +14,10 @@ export const sophronitisCernuaVarLitoranea = {
         "Exige vento constante"
     ],
     fotos: [
-        "imagens/Cattleya cernua — forma litorânea/Cattleya cernua — forma litorânea1.jpg",
-        "imagens/Cattleya cernua — forma litorânea/Cattleya cernua — forma litorânea2.jpg",
-        "imagens/Cattleya cernua — forma litorânea/Cattleya cernua — forma litorânea3.jpg",
-        "imagens/Cattleya cernua — forma litorânea/Cattleya cernua — forma litorânea4.jpg"
+        "imagens/cattleya-cernua-forma-litoranea/cattleya-cernua-forma-litoranea-1.jpg",
+        "imagens/cattleya-cernua-forma-litoranea/cattleya-cernua-forma-litoranea-2.jpg",
+        "imagens/cattleya-cernua-forma-litoranea/cattleya-cernua-forma-litoranea-3.jpg",
+        "imagens/cattleya-cernua-forma-litoranea/cattleya-cernua-forma-litoranea-4.jpg"
     ],
     descricao: "Forma geográfica costeira de Cattleya cernua, tradicionalmente comercializada como Sophronitis cernua var. litoranea. A denominação indica um ecótipo de restingas e matas de baixada litorânea, embora a taxonomia moderna o mantenha dentro da espécie. Forma pequenas touceiras de pseudobulbos ovoides e produz cachos de flores laranja a vermelho-alaranjadas, com durabilidade aproximada de 20 a 30 dias. Destaca-se pela elevada tolerância ao calor, à umidade atmosférica e à maresia quando há ventilação abundante.",
     origem: "🇧🇷 Brasil",
