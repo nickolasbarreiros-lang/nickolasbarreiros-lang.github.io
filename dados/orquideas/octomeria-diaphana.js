@@ -1,4 +1,4 @@
-// Ficha refinada e enriquecida no padrão editorial V4.
+// Ficha refinada, comparada e enriquecida no padrão editorial V4.
 
 export const octomeriaDiaphana = {
     "id": "octomeria-diaphana",
@@ -19,28 +19,28 @@ export const octomeriaDiaphana = {
         "imagens/Octomeria diaphana/Octomeria diaphana3.jpg",
         "imagens/Octomeria diaphana/Octomeria diaphana4.jpg"
     ],
-    "descricao": "Mini-orquídea epífita da Mata Atlântica, cespitosa e sem pseudobulbos evidentes. Ramicaules finos sustentam folhas estreitas e coriáceas, e pequenos fascículos de flores estreladas, translúcidas e delicadas surgem na junção entre o ramicaule e a folha. Plantas adultas formam almofadas compactas e floridas.",
+    "descricao": "Mini-orquídea epífita brasileira da subtribo Pleurothallidinae, de crescimento cespitoso e sem pseudobulbos evidentes. O vegetativo é formado por ramicaules finos, eretos e agrupados, cada um sustentando uma folha estreita, coriácea e levemente canaliculada. Pequenos fascículos de flores estreladas, cerosas e translúcidas surgem na junção entre o ramicaule e a folha. Como as flores são diminutas, a beleza aparece plenamente em touceiras antigas, densas e preservadas, que formam uma delicada nuvem floral.",
     "origem": "Brasil.",
     "regiao": "Sudeste e Sul.",
     "habitat": "Troncos musgosos em matas úmidas.",
     "clima": "Intermediário, úmido e ventilado.",
-    "climaFloracao": "A floração melhora em touceiras antigas e bem estabelecidas, com umidade regular, noites amenas e luz filtrada suficiente. A espécie não possui pseudobulbos e não deve receber repouso seco.",
+    "climaFloracao": "A floração acompanha a maturação dos novos ramicaules e é favorecida por umidade regular, luz filtrada suficiente, noites amenas e ventilação constante. A espécie não possui pseudobulbos para reserva e não deve receber repouso seco. Plantas antigas, estáveis e não divididas produzem fascículos em muitos ramicaules ao mesmo tempo.",
     "iluminacao": {
         "sombrite": "60% a 75%",
         "solDireto": "Não",
         "horario": "Luz filtrada o dia inteiro",
         "observacoes": "Sombra clara. Folhas muito alongadas e escuras sugerem pouca luz; tonalidade amarelada ou pontas secas indicam exposição excessiva."
     },
-    "floracao": "Principalmente na primavera e início do verão, entre outubro e dezembro, podendo produzir surtos sucessivos em plantas maduras. As flores pequenas, branco-marfim a amareladas e translúcidas surgem em fascículos na base das folhas.",
-    "adubacao": "🌿 Quantidade mínima de bokashi em sachê, no topo do suporte e longe dos ramicaules.\n💧 NPK equilibrado ultradiluído, de 1/5 a 1/4 da dose, a cada 15 dias.\n🚿 Lave o suporte com água pura a cada 2–4 semanas.\n🧪 Liberação lenta não é recomendada.",
-    "rega": "Em placas, regue diariamente no verão e sempre antes de o esfagno secar completamente por vários dias. O suporte deve ficar levemente úmido, mas muito aerado. Pontas secas podem indicar ar seco, excesso de sais ou perda radicular. Brotos escurecendo pela base sugerem abafamento.",
-    "suporte": "🥇 Placa de cortiça ou madeira dura com esfagno fino: suporte ideal e permanente.\n🥈 Pequeno cesto de madeira: bom para formar almofadas compactas.\n🥉 Cuia plástica rasa: útil apenas em ambientes de umidade mais baixa.\nEvite mudanças frequentes após o estabelecimento.",
-    "substrato": "Opção 1 (montagem): camada fina e solta de esfagno sob as raízes, sem cobrir os ramicaules.\nOpção 2 (cesto): casca de pinus fina + carvão miúdo + pedra-pomes + pouco esfagno.\nOpção 3 (cuia rasa): esfagno solto + pedra-pomes fina + pequena fração de casca fina.\nSubstitua qualquer material que compactar ou perder aeração.",
-    "errosComuns": "Dividir em 1–2 ramicaules; seca prolongada; vaso fundo; substrato compacto; adubo forte; água parada nas axilas; retirar folhas verdes antigas; manipular a touceira durante novos crescimentos; ambiente sem ventilação.",
-    "dica": "Mantenha a touceira inteira e, se precisar dividir, preserve pelo menos 5–6 ramicaules vigorosos. Monte em madeira ou cortiça com uma lâmina fina de esfagno e evite mexer novamente após a fixação. Folhas antigas ainda verdes ajudam na reserva hídrica e não devem ser removidas.",
+    "floracao": "O pico costuma ocorrer na primavera e no início do verão, entre outubro e dezembro, com possibilidade de surtos secundários em touceiras bem estabelecidas. As flores são pequenas, branco-marfim, amareladas ou translúcidas, com discretas marcações no centro, e nascem em fascículos junto à base da folha. O efeito ornamental depende diretamente do volume de ramicaules floridos.",
+    "adubacao": "🌿 Orgânica: use quantidade mínima de Bokashi em sachê no topo do suporte, longe dos ramicaules.\n💧 Foliar/mineral: NPK equilibrado ultradiluído, entre 1/5 e 1/4 da dose, a cada 15 dias durante o crescimento.\n🚿 Flushing: lave abundantemente o suporte com água pura a cada 2–4 semanas, conforme a frequência de adubação e a qualidade da água.\n🧪 Liberação lenta: não recomendada para raízes capilares tão sensíveis.",
+    "rega": "Por não possuir pseudobulbos, necessita de umidade regular. Em placas, regue diariamente no verão ou antes que a fina camada de esfagno seque completamente por vários dias. O suporte deve permanecer úmido apenas o suficiente para hidratar as raízes, mas com circulação de ar constante. Pontas secas podem indicar ar muito seco, excesso de sais ou raízes comprometidas. Brotações escurecendo pela base sugerem abafamento, substrato velho ou água parada nas axilas.",
+    "suporte": "🥇 Placa de cortiça ou madeira dura com uma camada fina de esfagno: suporte ideal e permanente.\n🥈 Pequeno cesto de madeira: permite formar almofadas compactas com boa aeração.\n🥉 Cuia plástica rasa e perfurada: útil apenas em ambientes de umidade mais baixa.\nEvite trocas frequentes de suporte depois que a planta se fixar.",
+    "substrato": "Opção 1 (montagem): camada fina e solta de esfagno sob as raízes, sem cobrir os ramicaules.\nOpção 2 (cesto): casca de pinus fina + carvão vegetal miúdo + pedra-pomes fina + pouca quantidade de esfagno.\nOpção 3 (cuia rasa): esfagno solto + pedra-pomes fina + pequena fração de casca fina.\nO material deve permanecer leve e aerado. Substitua-o quando escurecer, compactar, acidificar ou reter água por tempo excessivo.",
+    "errosComuns": "❌ Dividir a touceira em 1 ou 2 ramicaules.\n❌ Permitir seca completa por vários dias.\n❌ Cultivar em vaso fundo ou substrato compacto.\n❌ Aplicar adubo forte ou deixar sais acumularem.\n❌ Deixar água parada nas axilas durante noites frias.\n❌ Retirar folhas antigas ainda verdes, que continuam ajudando na reserva hídrica.\n❌ Manipular a planta durante a emissão de novos ramicaules.\n❌ Manter em ambiente sem circulação de ar.",
+    "dica": "Preserve a touceira inteira. Se a divisão for inevitável, mantenha pelo menos 5–6 ramicaules vigorosos e enraizados. Monte em madeira ou cortiça com uma lâmina fina de esfagno, deixando as raízes respirar, e evite mudar o suporte depois da fixação. Não retire folhas verdes antigas nem manipule a planta durante o crescimento. Quanto mais antiga e densa a touceira, maior o número de fascículos e mais evidente o efeito de nuvem de flores diáfanas.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, cultive no setor mais fresco e sombreado, sob 70–75% de sombrite, com ventilação constante. Regue pela manhã.",
-        "montanhaFrio": "Excelente adaptação. Proteja apenas de geadas e ventos ressecantes. Reduza a frequência em semanas frias sem permitir seca total."
+        "litoralQuente": "Em Serra/ES, cultive no setor mais fresco e sombreado do orquidário, sob 70–75% de sombrite, com ventilação constante. Regue pela manhã; em dias muito quentes, aumente a umidade ao redor sem engrossar o esfagno nem manter a base abafada.",
+        "montanhaFrio": "Excelente adaptação. Proteja de geadas e ventos ressecantes. Em semanas frias e nubladas, reduza a frequência das regas, mas não permita seca total."
     },
     "mesesFloracao": [
         10,
