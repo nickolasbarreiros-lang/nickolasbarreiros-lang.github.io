@@ -1,60 +1,29 @@
-// Ficha aprofundada e revisada — Lote 10.
+// Refinamento Final V3 — conteúdo consolidado e ampliado.
 
 export const maxillariaPumilaExMinuta = {
     "id": "maxillaria-pumila-ex-minuta",
     "nome": "Maxillaria pumila (ex-minuta)",
     "genero": "Maxillaria",
-    "sinonimo": "Christensonella minuta",
+    "sinonimo": "Christensonella pumila; Christensonella minuta; Maxillaria minuta Cogn.",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
-    "caracteristicas": [
-        "Miniatura perfumada",
-        "Crescimento simpodial",
-        "Flores basais",
-        "Forma touceiras"
-    ],
-    "fotos": [
-        "imagens/Maxillaria pumila/Maxillaria pumila1.jpg",
-        "imagens/Maxillaria pumila/Maxillaria pumila2.jpeg",
-        "imagens/Maxillaria pumila/Maxillaria pumila3.jpg",
-        "imagens/Maxillaria pumila/Maxillaria pumila4.jpg"
-    ],
-    "descricao": "Maxillaria pumila é nome aceito por Kew; Christensonella minuta aparece como sinônimo, o que explica a antiga identificação “minuta” no acervo. É miniatura de raízes finas, sensível ao excesso de sais e à compactação.",
-    "origem": "Guiana ao Brasil, incluindo Norte, Sudeste e Sul.",
-    "regiao": "Guiana ao Brasil, incluindo Norte, Sudeste e Sul.",
-    "habitat": "Miniatura epífita de floresta tropical úmida.",
-    "clima": "Quente a intermediário, com umidade moderada a alta e ar em movimento.",
-    "climaFloracao": "A floração depende de pseudobulbos completamente maduros, luz suficiente durante o crescimento e raízes saudáveis. A queda moderada das temperaturas noturnas costuma ajudar espécies brasileiras de altitude, mas não deve ser confundida com necessidade de frio extremo.",
-    "iluminacao": {
-        "sombrite": "65% a 75%",
-        "solDireto": "Sim, apenas suave",
-        "horario": "Até aproximadamente 08:30",
-        "observacoes": "Luz filtrada brilhante. Folhas muito escuras e pseudobulbos alongados indicam pouca luz; amarelecimento rápido e manchas secas mostram excesso. Faça aumentos de luz gradualmente."
-    },
-    "floracao": "As flores normalmente surgem em hastes curtas na base dos pseudobulbos maduros. Como ficam parcialmente escondidas pela folhagem, manter a base limpa facilita perceber botões e evita que água parada cause manchas.",
-    "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, dentro de porta-adubo e afastado do rizoma.\n💧 Foliar: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante raízes e brotos ativos.\n🧪 Liberação lenta: dose moderada em vasos bem drenados. Reduzir após o amadurecimento do broto e lavar o substrato mensalmente com água pura.",
-    "rega": "Durante a brotação, regue abundantemente e deixe o substrato secar parcialmente, sem secagem longa. Após a maturação, aumente um pouco o intervalo. Pseudobulbos levemente sulcados são normais; enrugamento progressivo junto com raízes escuras indica perda radicular, não necessariamente pouca água.",
-    "suporte": "🥇 Vaso de barro ou plástico bem perfurado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira para espécies de rizoma mais expansivo.\n🥉 Placa com musgo fino para miniaturas e locais de alta umidade.",
-    "substrato": "🥇 Casca de pinus média + pedra-pomes + carvão vegetal.\n🥈 Casca média + brita fina + pequena quantidade de esfagno.\n🥉 Fibra de coco em cubos bem lavada + carvão + material mineral. Ajuste o esfagno ao clima; ele deve estabilizar a umidade, não manter o vaso molhado por vários dias.",
-    "errosComuns": "Vaso grande; rizoma enterrado; substrato velho; divisão excessiva; sombra profunda; adubação forte em raízes finas; regas frequentes em período frio sem ventilação. Manchas negras que aumentam rapidamente exigem isolamento e correção do excesso de umidade.",
-    "dica": "Replante somente quando novas raízes estiverem começando. Maxillarias estabelecidas podem interromper o crescimento quando o rizoma é dividido ou manipulado fora dessa fase.",
-    "adaptacaoRegional": {
-        "litoralQuente": "Use substrato mais mineral, vaso pequeno e ventilação contínua. Proteja do sol forte e do calor abafado, especialmente espécies de origem montana.",
-        "montanhaFrio": "Em geral adapta-se bem. Reduza a frequência de rega em semanas frias e nubladas, sem impor seca absoluta durante raízes ativas."
-    },
-    "mesesFloracao": [
-        9,
-        10,
-        11,
-        12,
-        1
-    ],
-    "avaliacoes": {
-        "cultivo": 3,
-        "floracao": 3,
-        "perfume": 3,
-        "luminosidade": 3,
-        "agua": 4,
-        "raridade": 3
-    }
+    "caracteristicas": ["Miniatura epífita", "Touceira compacta em forma de almofada", "Pseudobulbos minúsculos unifoliados", "Flores basais escuras", "Raízes capilares sensíveis a sais"],
+    "fotos": ["imagens/Maxillaria pumila/Maxillaria pumila1.jpg", "imagens/Maxillaria pumila/Maxillaria pumila2.jpeg", "imagens/Maxillaria pumila/Maxillaria pumila3.jpg", "imagens/Maxillaria pumila/Maxillaria pumila4.jpeg"],
+    "descricao": "Miniatura epífita simpodial que forma blocos densos, semelhantes a pequenas almofadas, constituídos por pseudobulbos muito reduzidos e agrupados. Cada pseudobulbo sustenta uma folha estreita, rígida a levemente carnosa e frequentemente acanulada. As flores solitárias surgem rente à base e variam do vinho ao castanho-avermelhado ou púrpura escuro, com textura cerosa e brilho natural. O epíteto pumila significa ‘anã’, referência ao porte diminuto da planta.",
+    "origem": "Nativa da Guiana e das regiões Norte, Sudeste e Sul do Brasil. Plantas antigas podem estar etiquetadas como Maxillaria minuta ou Christensonella minuta; esses nomes são tratados como sinônimos, e sua inclusão evita duplicidade no acervo.",
+    "regiao": "Guiana e Brasil — regiões Norte, Sudeste e Sul.",
+    "habitat": "Epífita de florestas tropicais úmidas, geralmente fixada em cascas rugosas, galhos e pequenos troncos onde recebe alta umidade atmosférica, água frequente e circulação de ar constante. A pequena massa de cada pseudobulbo oferece pouca reserva individual, enquanto as raízes finas exigem contato próximo com um suporte úmido, porém respirável.",
+    "clima": "Quente a intermediário, com umidade preferencialmente acima de 60% e ar em movimento. Tolera noites frescas, mas deve ser protegida de geadas. No litoral quente, o desafio é evitar simultaneamente a desidratação rápida da miniatura e o abafamento causado por uma camada espessa de musgo.",
+    "climaFloracao": "Floresce melhor quando a touceira é mantida inteira, recebe luz filtrada suficiente e completa um ciclo de brotação com raízes saudáveis. Não necessita repouso seco verdadeiro. A época pode variar com procedência e condições locais; divisões pequenas, replantio fora do enraizamento e fertilização excessiva podem atrasar a floração.",
+    "iluminacao": {"sombrite": "65% a 75% como referência", "solDireto": "Apenas muito suave e após aclimatação", "horario": "Primeiras horas da manhã, conforme temperatura", "observacoes": "Forneça luz filtrada clara, sem aquecimento intenso das folhas. Folhas amareladas, secas ou avermelhadas em excesso podem indicar luz ou calor elevados; vegetativo alongado e verde muito escuro indica sombra excessiva. O percentual de tela deve ser ajustado ao ambiente, não usado como regra isolada."},
+    "floracao": "Frequentemente observada da primavera ao início do verão, aproximadamente entre setembro e janeiro, mas pode variar. As flores surgem individualmente em hastes muito curtas, parcialmente escondidas pela touceira. Exemplares bem estabelecidos podem abrir várias flores em surtos. O perfume é geralmente descrito como adocicado, porém sua intensidade varia conforme o clone, a temperatura e o horário.",
+    "adubacao": "💧 Foliar/mineral: use fertilizante equilibrado, como 20-20-20 ou 10-10-10, em aproximadamente 1/4 da dose a cada 10–15 dias durante crescimento ativo, sempre sobre raízes previamente umedecidas.\n🌿 Orgânica: bokashi é opcional; use quantidade mínima, preferencialmente apenas em microvasos e longe do rizoma. Em placas pequenas, a adubação líquida oferece maior controle.\n🧪 Liberação lenta: somente com extrema moderação, pois poucos grânulos representam carga alta em recipientes pequenos. Intercale água limpa e faça lavagem periódica conforme a qualidade da água e a frequência de adubação.",
+    "rega": "Molhe completamente e permita que o excesso escorra imediatamente. A superfície do musgo ou substrato deve começar a perder umidade e voltar a receber ar antes da próxima rega, mas não deve permanecer totalmente seca por períodos prolongados. Em placas, pode exigir rega diária no verão; em microvasos, observe o interior antes de repetir. Folhas murchas com raízes escuras e moles indicam podridão, enquanto raízes claras e secas acompanhadas de enrugamento apontam desidratação.",
+    "suporte": "🥇 Placa de cortiça horticultural, casca grossa legalmente obtida ou madeira dura não tratada, com um filete muito fino de esfagno sob o rizoma.\n🥈 Microvaso de barro ou plástico bem perfurado, proporcional à touceira e sem volume ocioso.\n🥉 Cesto pequeno e arejado, em ambiente de umidade elevada. Evite divisões desnecessárias; quando forem indispensáveis, preserve blocos densos e bem enraizados com vários pseudobulbos. Replante somente quando raízes novas estiverem começando.",
+    "substrato": "Em placas, use apenas uma camada fina de esfagno de boa qualidade sob a base, sem cobrir toda a touceira. Em microvasos, empregue casca de pinus fina de 3 a 5 mm + pedra-pomes ou brita zero + carvão fino + cerca de 10% de esfagno picado e solto. A granulometria deve manter contato com as raízes minúsculas sem virar material pulverizado ou compactado.",
+    "errosComuns": "Vaso grande; casca grosseira demais; camada espessa de esfagno; divisão em fragmentos pequenos; rizoma enterrado; fertilizante concentrado; água de alta salinidade; bokashi encostado nas raízes; falta de ventilação. Lesmas e pequenos caracóis consomem brotos e flores, cochonilhas escondem-se entre pseudobulbos e algas ou musgo excessivo sinalizam umidade contínua e pouca renovação de ar.",
+    "dica": "Preserve a massa da touceira e controle a umidade em escala de miniatura. Replante apenas com raízes novas, use suporte proporcional e uma camada mínima de material retentor. Após cada rega, a água deve escoar e o suporte voltar a respirar sem permanecer seco por muito tempo. Fertilize fracamente e lave regularmente com água limpa para impedir acúmulo de sais.",
+    "adaptacaoRegional": {"litoralQuente": "Em Serra/ES, prefira placa pequena com filete fino de esfagno ou microvaso muito perfurado. Mantenha umidade ambiente e ventilação constantes; no verão, observe diariamente porque o suporte pode secar rápido, mas evite transformar o musgo em uma esponja permanentemente molhada.", "montanhaFrio": "Adapta-se bem a noites mais frescas. Em períodos frios e nublados, reduza a frequência de água sem permitir secagem prolongada e proteja de geadas."},
+    "mesesFloracao": [9, 10, 11, 12, 1],
+    "avaliacoes": {"cultivo": 3, "floracao": 3, "perfume": 3, "luminosidade": 3, "agua": 4, "raridade": 3}
 };

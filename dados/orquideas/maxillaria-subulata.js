@@ -1,58 +1,29 @@
-// Ficha aprofundada e revisada — Lote 10.
+// Refinamento Final V3 — conteúdo consolidado e ampliado.
 
 export const maxillariaSubulata = {
     "id": "maxillaria-subulata",
     "nome": "Maxillaria subulata",
     "genero": "Maxillaria",
+    "sinonimo": "Christensonella subulata",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
-    "caracteristicas": [
-        "Folhas estreitas",
-        "Crescimento simpodial",
-        "Flores basais",
-        "Forma touceiras"
-    ],
-    "fotos": [
-        "imagens/Maxillaria subulata/Maxillaria subulata1.jpeg",
-        "imagens/Maxillaria subulata/Maxillaria subulata2.jpeg",
-        "imagens/Maxillaria subulata/Maxillaria subulata3.jpeg",
-        "imagens/Maxillaria subulata/Maxillaria subulata4.webp"
-    ],
-    "descricao": "Espécie aceita no gênero Maxillaria. Como há táxons visualmente próximos no comércio, a confirmação deve considerar flor, labelo e procedência. O cultivo seguro exige umidade moderada, secagem parcial e boa ventilação.",
-    "origem": "América tropical; confirmar procedência do exemplar.",
-    "regiao": "América tropical; confirmar procedência do exemplar.",
-    "habitat": "Epífita de florestas úmidas, com folhas estreitas e raízes finas.",
-    "clima": "Quente a intermediário, com umidade moderada a alta e ar em movimento.",
-    "climaFloracao": "A floração depende de pseudobulbos completamente maduros, luz suficiente durante o crescimento e raízes saudáveis. A queda moderada das temperaturas noturnas costuma ajudar espécies brasileiras de altitude, mas não deve ser confundida com necessidade de frio extremo.",
-    "iluminacao": {
-        "sombrite": "60% a 70%",
-        "solDireto": "Sim, apenas suave",
-        "horario": "Até aproximadamente 08:30",
-        "observacoes": "Luz filtrada brilhante. Folhas muito escuras e pseudobulbos alongados indicam pouca luz; amarelecimento rápido e manchas secas mostram excesso. Faça aumentos de luz gradualmente."
-    },
-    "floracao": "As flores normalmente surgem em hastes curtas na base dos pseudobulbos maduros. Como ficam parcialmente escondidas pela folhagem, manter a base limpa facilita perceber botões e evita que água parada cause manchas.",
-    "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, dentro de porta-adubo e afastado do rizoma.\n💧 Foliar: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante raízes e brotos ativos.\n🧪 Liberação lenta: dose moderada em vasos bem drenados. Reduzir após o amadurecimento do broto e lavar o substrato mensalmente com água pura.",
-    "rega": "Durante a brotação, regue abundantemente e deixe o substrato secar parcialmente, sem secagem longa. Após a maturação, aumente um pouco o intervalo. Pseudobulbos levemente sulcados são normais; enrugamento progressivo junto com raízes escuras indica perda radicular, não necessariamente pouca água.",
-    "suporte": "🥇 Vaso de barro ou plástico bem perfurado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira para espécies de rizoma mais expansivo.\n🥉 Placa com musgo fino para miniaturas e locais de alta umidade.",
-    "substrato": "🥇 Casca de pinus média + pedra-pomes + carvão vegetal.\n🥈 Casca média + brita fina + pequena quantidade de esfagno.\n🥉 Fibra de coco em cubos bem lavada + carvão + material mineral. Ajuste o esfagno ao clima; ele deve estabilizar a umidade, não manter o vaso molhado por vários dias.",
-    "errosComuns": "Vaso grande; rizoma enterrado; substrato velho; divisão excessiva; sombra profunda; adubação forte em raízes finas; regas frequentes em período frio sem ventilação. Manchas negras que aumentam rapidamente exigem isolamento e correção do excesso de umidade.",
-    "dica": "Replante somente quando novas raízes estiverem começando. Maxillarias estabelecidas podem interromper o crescimento quando o rizoma é dividido ou manipulado fora dessa fase.",
-    "adaptacaoRegional": {
-        "litoralQuente": "Use substrato mais mineral, vaso pequeno e ventilação contínua. Proteja do sol forte e do calor abafado, especialmente espécies de origem montana.",
-        "montanhaFrio": "Em geral adapta-se bem. Reduza a frequência de rega em semanas frias e nubladas, sem impor seca absoluta durante raízes ativas."
-    },
-    "mesesFloracao": [
-        9,
-        10,
-        11,
-        12
-    ],
-    "avaliacoes": {
-        "cultivo": 3,
-        "floracao": 3,
-        "perfume": 2,
-        "luminosidade": 3,
-        "agua": 4,
-        "raridade": 3
-    }
+    "caracteristicas": ["Espécie brasileira", "Epífita ou litófita", "Folhas estreitas e variáveis", "Flores solitárias basais", "Raízes finas de reserva limitada"],
+    "fotos": ["imagens/Maxillaria subulata/Maxillaria subulata1.jpeg", "imagens/Maxillaria subulata/Maxillaria subulata2.jpeg", "imagens/Maxillaria subulata/Maxillaria subulata3.jpeg", "imagens/Maxillaria subulata/Maxillaria subulata4.webp"],
+    "descricao": "Espécie brasileira de porte pequeno a médio e crescimento simpodial, com pseudobulbos agrupados, ovoides a fusiformes e frequentemente sulcados. Porta uma ou ocasionalmente mais folhas estreitas, lineares a lanceoladas, eretas, conduplicadas ou levemente acanuladas. O epíteto subulata significa ‘em forma de sovela’, referência ao aspecto estreito e afilado, mas a forma foliar é variável e não basta para confirmar a identificação. As flores solitárias e cerosas surgem em hastes curtas na base dos pseudobulbos, em tons amarelos, alaranjados, rosados ou castanhos, com detalhes vinosos no labelo.",
+    "origem": "Nativa do Brasil, distribuída do sudeste da Bahia até Santa Catarina. Integra um grupo de táxons morfologicamente próximos, historicamente associados a Christensonella; por isso, exemplares comerciais podem estar identificados incorretamente.",
+    "regiao": "Brasil — do sudeste da Bahia até Santa Catarina.",
+    "habitat": "Epífita sobre troncos e galhos ou litófita em superfícies rochosas bem drenadas da Mata Atlântica úmida. Vive com água disponível regularmente, umidade atmosférica e circulação de ar, mas sem raízes permanentemente abafadas. A identificação segura exige conjunto de caracteres vegetativos e florais, incluindo pseudobulbos, folhas, sépalas, pétalas, labelo, calo, coluna e procedência.",
+    "clima": "Quente a intermediário, com boa resposta a noites moderadamente frescas. Prefere umidade relativa moderada a alta e ar em movimento. Populações distribuídas da Bahia a Santa Catarina podem apresentar tolerâncias diferentes; portanto, a procedência deve ser considerada. Proteja de geada, calor abafado e vaso excessivamente aquecido.",
+    "climaFloracao": "A floração depende da maturação completa dos pseudobulbos, de luz filtrada suficiente e de raízes saudáveis. Não exige frio intenso nem repouso seco verdadeiro. Após a maturação, reduza discretamente a rega conforme a evaporação, sem desidratar a planta. Sombra excessiva, divisões pequenas e excesso de nitrogênio atrasam ou reduzem a floração.",
+    "iluminacao": {"sombrite": "60% a 70% como referência inicial", "solDireto": "Somente muito suave e após aclimatação", "horario": "Curto período nas primeiras horas, conforme intensidade local", "observacoes": "Forneça luz filtrada clara a moderadamente intensa. Folhas muito escuras, moles ou crescimento alongado indicam sombra excessiva; amarelecimento, aquecimento ou manchas secas indicam luz e calor em excesso. O horário isolado não garante segurança, especialmente no verão capixaba."},
+    "floracao": "Frequentemente observada na primavera e no início do verão, aproximadamente entre setembro e dezembro, mas com variações de procedência, clima e maturação. As flores são solitárias, basais e podem ser numerosas quando vários pseudobulbos de uma touceira madura florescem juntos. O perfume é ausente a discreto e variável, não devendo ser usado como caráter principal de identificação.",
+    "adubacao": "💧 Foliar/mineral: durante brotação e enraizamento, use fertilizante equilibrado em baixa concentração — cerca de 1/4 a 1/3 da dose — a cada 10–15 dias, sobre raízes previamente molhadas. Reduza quando o crescimento cessar.\n🌿 Orgânica: bokashi é opcional e deve ser usado em pouca quantidade, dentro de porta-adubo e afastado do rizoma.\n🧪 Liberação lenta: poucos grânulos em vasos compactos e drenantes. Intercale aplicações com água limpa e faça lavagem mais abundante quando houver depósitos brancos ou sinais de queima radicular.",
+    "rega": "Durante o crescimento, molhe completamente e permita que o substrato perca parte da umidade antes da nova irrigação. A necessidade de água é regular, mas não significa manter o vaso saturado. Apesar das folhas estreitas, o principal motivo para evitar secas prolongadas é a reserva limitada dos pseudobulbos e o sistema radicular fino. Pseudobulbos enrugados com substrato molhado e raízes escuras indicam perda radicular, não simples sede.",
+    "suporte": "🥇 Vaso de barro pequeno, baixo e bem perfurado.\n🥈 Vaso plástico compacto, baixo e com muitos furos laterais e inferiores.\n🥉 Cesto pequeno ou placa somente em ambiente úmido, pois suportes muito abertos podem desidratar rapidamente as raízes. Replante quando o broto novo começar a emitir pontas de raízes e preserve divisões com vários pseudobulbos e uma frente de crescimento vigorosa.",
+    "substrato": "Use granulometria pequena a média, uniforme e com espaços de ar: casca de pinus pequena a média + pedra-pomes + carvão vegetal. Para Serra/ES, pode-se acrescentar pequena proporção de akadama ou brita fina; esfagno somente quando a mistura secar rápido demais. Evite tanto partículas grandes sem contato com as raízes quanto material fino pulverizado e compactado. Fibra de coco requer lavagem, estabilização e substituição antes da decomposição.",
+    "errosComuns": "Identificar a espécie apenas pelo formato das folhas; usar vaso grande; compactar o substrato; enterrar o rizoma; impor seca prolongada; dividir em fragmentos pequenos; manter o vaso molhado no frio; adubar em alta concentração. Cochonilhas escondem-se entre bainhas, lesmas atacam brotos e flores, raízes apodrecem em substrato deteriorado e placas abertas demais podem causar desidratação.",
+    "dica": "Mantenha água disponível sem transformar o vaso em reserva permanente de umidade. Durante a brotação, molhe completamente e deixe o substrato perder parte da água e voltar a respirar. Use recipiente pequeno, partículas proporcionais às raízes e replante somente quando novas pontas radiculares aparecerem. Preserve uma boa massa vegetativa, pois divisões pequenas atravessam o replantio com maior dificuldade.",
+    "adaptacaoRegional": {"litoralQuente": "Pode adaptar-se a Serra/ES, mas proteja do calor abafado. Use vaso pequeno, substrato aerado, ventilação constante e regas pela manhã. A procedência do exemplar influencia a tolerância às noites quentes.", "montanhaFrio": "Costuma responder bem a noites amenas. Em semanas frias e chuvosas, reduza a frequência de água e mantenha ventilação, sem estabelecer seca total nem expor a geada."},
+    "mesesFloracao": [9, 10, 11, 12],
+    "avaliacoes": {"cultivo": 3, "floracao": 3, "perfume": 2, "luminosidade": 3, "agua": 4, "raridade": 3}
 };
