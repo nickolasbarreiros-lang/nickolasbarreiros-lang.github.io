@@ -1,5 +1,5 @@
-// Ficha científica e de cultivo revisada — Lote 04.
-// Nome aceito em POWO: Maxillaria imbricata.
+// Ficha V4 refinada — Maxillaria imbricata.
+// O nome do arquivo e do export foram preservados para manter a vinculação atual do catálogo.
 
 export const camaridiumCarinatum = {
     id: "camaridium-carinatum",
@@ -10,40 +10,40 @@ export const camaridiumCarinatum = {
     dificuldade: "Moderada",
     caracteristicas: [
         "Rizoma alongado",
-        "Flor solitária",
         "Pseudobulbos espaçados",
-        "Espécie neotropical",
+        "Flores basais solitárias",
+        "Crescimento horizontal"
     ],
     fotos: [
         "imagens/Camaridium carinatum/Camaridium carinatum1.jpeg",
         "imagens/Camaridium carinatum/Camaridium carinatum2.jpg",
         "imagens/Camaridium carinatum/Camaridium carinatum3.jpg",
-        "imagens/Camaridium carinatum/Camaridium carinatum4.jpg",
+        "imagens/Camaridium carinatum/Camaridium carinatum4.jpg"
     ],
-    descricao: "Orquídea epífita neotropical de pequeno a médio porte, com rizoma alongado, pseudobulbos ovais e achatados e uma folha apical estreita. As flores solitárias surgem junto à base dos pseudobulbos e podem aparecer em diferentes épocas do ano. Camaridium carinatum é atualmente tratado por POWO como sinônimo de Maxillaria imbricata.",
-    origem: "América do Sul tropical, com registros para Guiana, Venezuela, Colômbia, Equador, Peru e Brasil.",
-    regiao: "Amazônia, Escudo das Guianas, vertentes andinas baixas e florestas úmidas do leste do Brasil, conforme a amplitude atribuída ao complexo taxonômico.",
-    habitat: "Epífita de florestas tropicais úmidas e florestas nubladas de baixa a média altitude, aproximadamente entre 100 e 1.000 m, sobre troncos e ramos com boa umidade ambiental.",
-    clima: "Quente a intermediário, úmido e bem ventilado.",
-    climaFloracao: "A emissão de flores depende de pseudobulbos maduros, luminosidade filtrada moderada e alternância entre um período de crescimento mais úmido e outro ligeiramente menos chuvoso. Não necessita repouso seco verdadeiro; a redução deve ser apenas suficiente para evitar saturação constante.",
+    descricao: "Espécie epífita simpodial de pequeno a médio porte, aceita como Maxillaria imbricata e também encontrada em referências sob o sinônimo Camaridium carinatum (Barb.Rodr.) Hoehne. Possui rizoma alongado, com pseudobulbos ovais e achatados separados por segmentos visíveis, criando crescimento horizontal progressivo. As flores solitárias surgem em hastes curtas na base dos pseudobulbos maduros. Por avançar rapidamente, necessita de recipiente largo e orientação correta da frente de crescimento.",
+    origem: "Bolívia e Brasil.",
+    regiao: "Florestas tropicais úmidas e florestas nebulosas da Bolívia e do Brasil, aproximadamente entre 100 e 1.000 metros de altitude.",
+    habitat: "Epífita sobre troncos e ramos, em ambientes com umidade regular e boa circulação de ar. O rizoma permanece exposto e as raízes ocupam camadas superficiais, com drenagem rápida após as chuvas.",
+    clima: "Quente a intermediário, úmido e bem ventilado, com plasticidade moderada conforme a procedência.",
+    climaFloracao: "A floração depende de pseudobulbos maduros, luminosidade média filtrada, raízes saudáveis e manejo hídrico estável. Não necessita repouso seco. Nos meses mais frios há apenas redução do ritmo de crescimento e menor consumo de água. Manter a base dos pseudobulbos e das brotações livre facilita a emissão das flores e reduz podridões.",
     iluminacao: {
-        sombrite: "50% a 70%",
-        solDireto: "Somente muito fraco no início da manhã",
-        horario: "Luz filtrada durante todo o dia",
-        observacoes: "Aceita mais luz que muitos Bulbophyllum. Folhas verde-médio e pseudobulbos firmes indicam boa intensidade; folhas muito escuras podem acompanhar baixa floração."
+        sombrite: "50% a 60%, podendo chegar a 70% em locais muito quentes",
+        solDireto: "Somente muito suave, após aclimatação",
+        horario: "Início da manhã",
+        observacoes: "Luminosidade média filtrada. Folhas firmes em verde-médio indicam bom equilíbrio. Folhagem muito escura e crescimento frouxo sugerem pouca luz; amarelecimento intenso, manchas secas ou aquecimento indicam excesso de exposição."
     },
-    floracao: "Pode florescer em várias épocas do ano; primavera e verão são frequentes em cultivo, mas o calendário varia conforme clima, procedência e maturação dos novos pseudobulbos.",
-    adubacao: "🌿 Orgânica: bokashi em pequena quantidade durante a formação dos novos pseudobulbos.\n💧 Foliar: NPK equilibrado, como 20-20-20, em meia dose a cada 10 a 15 dias durante o crescimento; reduzir após a maturação.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose baixa, distribuído longe das brotações novas.",
-    rega: "Regue bem durante o crescimento e deixe o substrato aproximar-se da secagem superficial antes da próxima rega. Após a maturação dos pseudobulbos, reduza moderadamente a frequência, sem permitir enrugamento persistente. Evite água acumulada nas brotações jovens.",
-    suporte: "🥇 Cesta ou cachepô largo e raso: acompanha o rizoma alongado e facilita a drenagem.\n🥈 Vaso largo e baixo, com muitos furos.\n🥉 Placa robusta com reserva moderada de umidade, para locais com regas frequentes.",
-    substrato: "🥇 Casca de pinus média + pedra-pomes + carvão vegetal + pequena quantidade de esfagno.\n🥈 Casca média + brita leve ou argila expandida quebrada + carvão.\n🥉 Esfagno solto + pedra-pomes para ambientes mais secos, evitando compactação ao redor do rizoma.",
-    errosComuns: "Manter o substrato continuamente encharcado; usar sombra excessiva; enterrar o rizoma; cultivar em vaso estreito; permitir acúmulo de água nas brotações; impor repouso seco intenso.",
-    dica: "Plante o pseudobulbo mais antigo próximo à borda e direcione a frente de crescimento para o espaço livre. Como as flores surgem junto à base, mantenha essa região exposta, limpa e acima do substrato.",
+    floracao: "Predomina na primavera e no verão, podendo emitir flores em outros períodos conforme o ciclo de crescimento, o microclima e a maturação dos pseudobulbos. As flores são solitárias, basais e podem variar de creme a alaranjado suave, com detalhes bronzeados.",
+    adubacao: "🌿 Orgânica: bokashi em pequena quantidade dentro de porta-adubo, colocado na borda do recipiente durante o crescimento.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose a cada 10 a 15 dias durante a formação dos novos pseudobulbos.\n🧪 Liberação lenta: poucos grânulos e sempre afastados de brotos e raízes novas. Uma vez por mês, lavar o substrato abundantemente apenas com água pura.",
+    rega: "Durante o crescimento ativo, regue abundantemente e permita que as camadas superficial e intermediária do substrato arejem antes da próxima irrigação. Não mantenha o recipiente continuamente saturado. Após a maturação, aumente moderadamente o intervalo, sem impor seca prolongada nem permitir enrugamento progressivo. Regue preferencialmente pela manhã para que as bainhas dos brotos sequem antes da noite.",
+    suporte: "🥇 Cesto ou cachepô largo e raso, acompanhando a expansão horizontal do rizoma.\n🥈 Vaso tipo bacia, de barro ou plástico, com muitos furos no fundo e nas laterais.\n🥉 Placa robusta de madeira ou cortiça, apenas em ambiente com umidade suficiente e regas frequentes.",
+    substrato: "🥇 Casca de pinus média + pedra-pomes + carvão vegetal + pequena fração de esfagno solto.\n🥈 Casca média + brita ou argila expandida quebrada + carvão.\n🥉 Fibra de coco grossa bem lavada + pedra-pomes + carvão.\n⭐ Alternativa: casca média + pedra-pomes + pequena fração de akadama + carvão. O rizoma deve ficar apoiado sobre a superfície.",
+    errosComuns: "Cultivar em vaso estreito ou profundo; posicionar a frente de crescimento contra a borda; enterrar o rizoma; cobrir a base dos pseudobulbos; deixar água nas bainhas dos brotos; usar substrato constantemente encharcado; impor seca severa; usar sombra excessiva; aplicar adubo concentrado; manter Osmocote junto às brotações; cultivar sem ventilação.",
+    dica: "No replantio, posicione os pseudobulbos mais antigos próximos à borda interna, sem comprimir as raízes, e direcione a frente ativa para a maior área livre. Use recipiente largo e raso e mantenha o rizoma sobre a superfície. Regas matinais e circulação de ar ajudam a secar as bainhas dos brotos jovens, reduzindo a perda de gemas e prolongando o intervalo entre replantios.",
     adaptacaoRegional: {
-        litoralQuente: "Adapta-se bem quando recebe ventilação e substrato drenante. Use luz filtrada clara, regas matinais e evite manter o miolo das brotações molhado durante noites quentes.",
-        montanhaFrio: "Também se adapta, desde que protegida de frio intenso. No inverno, reduza as regas sem desidratar pseudobulbos e mantenha boa luminosidade."
+        litoralQuente: "Muito boa adaptação em Serra/ES quando cultivada em cesto ou bacia rasa, com substrato arejado e ventilação constante. Regue pela manhã e evite que o centro das brotações permaneça molhado durante a noite.",
+        montanhaFrio: "Boa adaptação em regiões serranas. Durante períodos frios, úmidos ou nublados, aumente o intervalo entre as regas conforme a menor evaporação, sem desidratar os pseudobulbos."
     },
-    mesesFloracao: [1, 2, 3, 9, 10, 11, 12],
+    mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
     avaliacoes: {
         cultivo: 3,
         floracao: 3,
