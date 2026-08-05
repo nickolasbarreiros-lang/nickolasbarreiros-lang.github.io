@@ -1,4 +1,4 @@
-// Ficha aprofundada no padrão editorial V3 — Lote 11.
+// Ficha refinada e enriquecida no padrão editorial V4.
 
 export const octomeriaMicrantha = {
     "id": "octomeria-micrantha",
@@ -19,28 +19,28 @@ export const octomeriaMicrantha = {
         "imagens/Octomeria micrantha/Octomeria micrantha3.jpg",
         "imagens/Octomeria micrantha/Octomeria micrantha4.jpg"
     ],
-    "descricao": "Miniatura cespitosa com flores muito pequenas reunidas na base das folhas. É aceita por Kew e ocorre do Sudeste brasileiro até Misiones, em ambientes com alguma sazonalidade.",
-    "origem": "Nativa de Sudeste do Brasil, Paraguai e nordeste da Argentina. Octomeria é um grupo neotropical muito diverso, com centro de riqueza no Brasil.",
-    "regiao": "Sudeste do Brasil, Paraguai e nordeste da Argentina",
-    "habitat": "Epífita de florestas sazonais, tolerando uma secagem um pouco maior que espécies de matas constantemente úmidas.",
-    "clima": "Intermediário a quente, com umidade moderada a alta e boa ventilação. Touceiras pequenas sentem rapidamente tanto a seca quanto o abafamento.",
-    "climaFloracao": "A floração acompanha a maturação dos novos ramicaules e costuma responder à boa luz filtrada e à diferença natural entre as estações, sem repouso rígido.",
+    "descricao": "Miniatura epífita cespitosa, sem pseudobulbos evidentes, nativa de florestas sazonais do Sudeste da América do Sul. Forma almofadas densas de ramicaules com uma folha coriácea cada. As flores minúsculas, amareladas a esverdeadas, surgem em fascículos na base das folhas e ganham impacto quando a touceira é preservada.",
+    "origem": "Brasil, Paraguai e Argentina.",
+    "regiao": "Sudeste da América do Sul.",
+    "habitat": "Florestas sazonais e matas de galeria.",
+    "clima": "Intermediário e ventilado.",
+    "climaFloracao": "Tolera secagem leve do suporte melhor que espécies de matas permanentemente úmidas, mas não suporta seca prolongada. Touceiras maduras, boa luz filtrada e pequena sazonalidade entre verão úmido e inverno mais seco favorecem a floração.",
     "iluminacao": {
         "sombrite": "60% a 75%",
         "solDireto": "Não",
         "horario": "Luz filtrada o dia inteiro",
         "observacoes": "Sombra clara. Folhas muito alongadas e escuras sugerem pouca luz; tonalidade amarelada ou pontas secas indicam exposição excessiva."
     },
-    "floracao": "Mais comum na primavera e início do verão. As flores são pequenas e surgem próximas à base das folhas; uma touceira madura oferece efeito muito melhor que uma divisão recente.",
-    "adubacao": "🌿 Orgânica: use quantidade mínima, sempre afastada dos brotos.\n💧 Foliar/mineral: 1/5 a 1/4 da dose a cada 15 dias.\n🧪 Liberação lenta: geralmente desnecessária; raízes finas são sensíveis ao excesso de sais.",
-    "rega": "Mantenha umidade regular, deixando o suporte perder parte da água entre regas. Plantas montadas secam rápido e podem precisar de água diária no verão. Não deixe água retida entre folhas durante noites frias.",
-    "suporte": "🥇 Placa de madeira, cortiça ou galho: favorece a touceira e aeração.\n🥈 Vaso raso ou pequeno cesto: útil em ambientes mais secos.",
-    "substrato": "Em placa, camada fina de esfagno ou fibra junto às raízes. Em vaso, casca fina, carvão e pedra-pomes, com pouco esfagno solto. O suporte deve durar sem compactar.",
-    "errosComuns": "Dividir touceiras pequenas, usar adubo concentrado, deixar secar por muitos dias, cultivar em sombra profunda ou manter esfagno encharcado. Pontas secas podem resultar de baixa umidade, sais ou raízes comprometidas.",
-    "dica": "Evite divisões mínimas. Octomerias florescem e se estabilizam melhor quando mantidas em touceiras com vários crescimentos.",
+    "floracao": "Predominantemente da primavera ao início do verão, entre setembro e dezembro. Flores micrométricas, cerosas, amarelo-pálidas a verde-translúcidas surgem em fascículos na junção do ramicaule com a folha.",
+    "adubacao": "🌿 Dose mínima de bokashi em sachê, afastado dos brotos.\n💧 NPK equilibrado em 1/5 a 1/4 da dose a cada 15 dias no crescimento ativo.\n🚿 Aplique água pura periodicamente para evitar acúmulo de sais.\n🧪 Liberação lenta não é recomendada.",
+    "rega": "Mantenha umidade regular, permitindo secagem parcial do suporte entre regas. Em placas, normalmente exige água diária no verão, mas pode secar superficialmente antes da próxima irrigação. No inverno, reduza bastante em períodos frios e úmidos. Nunca deixe a planta completamente seca por vários dias.",
+    "suporte": "🥇 Placa de madeira dura, cortiça ou galho: melhor opção para raízes aderentes e secagem rápida.\n🥈 Pequeno cesto de madeira: favorece aeração e formação de almofadas.\n🥉 Cuia rasa: útil em locais secos, desde que muito perfurada.",
+    "substrato": "Opção 1 (montagem): camada mínima de esfagno solto sob as raízes.\nOpção 2 (cesto): casca fina + carvão miúdo + pedra-pomes + pouco esfagno.\nOpção 3 (cuia rasa): fibra de coco fina lavada + pedra-pomes + carvão + pequena fração de esfagno.\nNunca compacte o substrato nem enterre a base dos ramicaules.",
+    "errosComuns": "Dividir em poucas hastes; substrato encharcado; vaso fundo; adubo concentrado; sombra profunda; seca prolongada no verão; remover bainhas ainda verdes; manipular a planta durante o crescimento; regar a folhagem no fim da tarde em noites frias.",
+    "dica": "Preserve touceiras robustas e, se for indispensável dividir, mantenha pelo menos 5 ramicaules vigorosos. Prefira montagem permanente em madeira ou cortiça, com pouca umidade na base e raízes livres. Não retire bainhas verdes nem manipule a planta enquanto novos ramicaules se formam.",
     "adaptacaoRegional": {
-        "litoralQuente": "Use sombra clara, montagem ventilada e umidade ambiental. Em placas, aumente as regas no calor sem deixar água parada.",
-        "montanhaFrio": "Boa adaptação, com proteção contra geada. Em inverno úmido e nublado, aumente a ventilação e reduza a frequência de rega."
+        "litoralQuente": "Em Serra/ES, use 65–70% de sombrite, placas ou pequenos cestos e circulação de ar constante. No verão, uma nebulização ambiental leve pode ajudar sem encharcar a touceira.",
+        "montanhaFrio": "Ótima adaptação. Proteja de geada e reduza regas em dias frios e chuvosos, mantendo apenas umidade residual."
     },
     "mesesFloracao": [
         9,

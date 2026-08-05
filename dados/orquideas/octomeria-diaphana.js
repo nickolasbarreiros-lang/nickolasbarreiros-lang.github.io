@@ -1,4 +1,4 @@
-// Ficha aprofundada no padrão editorial V3 — Lote 11.
+// Ficha refinada e enriquecida no padrão editorial V4.
 
 export const octomeriaDiaphana = {
     "id": "octomeria-diaphana",
@@ -19,28 +19,28 @@ export const octomeriaDiaphana = {
         "imagens/Octomeria diaphana/Octomeria diaphana3.jpg",
         "imagens/Octomeria diaphana/Octomeria diaphana4.jpg"
     ],
-    "descricao": "Espécie de folhas estreitas e flores pequenas, translúcidas a amareladas, que surgem em grupos junto à base das folhas. A beleza é delicada e aparece melhor em touceiras adultas.",
-    "origem": "Nativa de Brasil, especialmente Mata Atlântica do Sudeste e Sul. Octomeria é um grupo neotropical muito diverso, com centro de riqueza no Brasil.",
-    "regiao": "Brasil, especialmente Mata Atlântica do Sudeste e Sul",
-    "habitat": "Epífita de matas úmidas, em troncos e ramos cobertos por musgos, geralmente sob sombra clara.",
-    "clima": "Intermediário a quente, com umidade moderada a alta e boa ventilação. Touceiras pequenas sentem rapidamente tanto a seca quanto o abafamento.",
-    "climaFloracao": "A floração acompanha a maturação dos novos ramicaules e costuma responder à boa luz filtrada e à diferença natural entre as estações, sem repouso rígido.",
+    "descricao": "Mini-orquídea epífita da Mata Atlântica, cespitosa e sem pseudobulbos evidentes. Ramicaules finos sustentam folhas estreitas e coriáceas, e pequenos fascículos de flores estreladas, translúcidas e delicadas surgem na junção entre o ramicaule e a folha. Plantas adultas formam almofadas compactas e floridas.",
+    "origem": "Brasil.",
+    "regiao": "Sudeste e Sul.",
+    "habitat": "Troncos musgosos em matas úmidas.",
+    "clima": "Intermediário, úmido e ventilado.",
+    "climaFloracao": "A floração melhora em touceiras antigas e bem estabelecidas, com umidade regular, noites amenas e luz filtrada suficiente. A espécie não possui pseudobulbos e não deve receber repouso seco.",
     "iluminacao": {
         "sombrite": "60% a 75%",
         "solDireto": "Não",
         "horario": "Luz filtrada o dia inteiro",
         "observacoes": "Sombra clara. Folhas muito alongadas e escuras sugerem pouca luz; tonalidade amarelada ou pontas secas indicam exposição excessiva."
     },
-    "floracao": "Mais comum na primavera e início do verão. As flores são pequenas e surgem próximas à base das folhas; uma touceira madura oferece efeito muito melhor que uma divisão recente.",
-    "adubacao": "🌿 Orgânica: use quantidade mínima, sempre afastada dos brotos.\n💧 Foliar/mineral: 1/5 a 1/4 da dose a cada 15 dias.\n🧪 Liberação lenta: geralmente desnecessária; raízes finas são sensíveis ao excesso de sais.",
-    "rega": "Mantenha umidade regular, deixando o suporte perder parte da água entre regas. Plantas montadas secam rápido e podem precisar de água diária no verão. Não deixe água retida entre folhas durante noites frias.",
-    "suporte": "🥇 Placa de madeira, cortiça ou galho: favorece a touceira e aeração.\n🥈 Vaso raso ou pequeno cesto: útil em ambientes mais secos.",
-    "substrato": "Em placa, camada fina de esfagno ou fibra junto às raízes. Em vaso, casca fina, carvão e pedra-pomes, com pouco esfagno solto. O suporte deve durar sem compactar.",
-    "errosComuns": "Dividir touceiras pequenas, usar adubo concentrado, deixar secar por muitos dias, cultivar em sombra profunda ou manter esfagno encharcado. Pontas secas podem resultar de baixa umidade, sais ou raízes comprometidas.",
-    "dica": "Evite divisões mínimas. Octomerias florescem e se estabilizam melhor quando mantidas em touceiras com vários crescimentos.",
+    "floracao": "Principalmente na primavera e início do verão, entre outubro e dezembro, podendo produzir surtos sucessivos em plantas maduras. As flores pequenas, branco-marfim a amareladas e translúcidas surgem em fascículos na base das folhas.",
+    "adubacao": "🌿 Quantidade mínima de bokashi em sachê, no topo do suporte e longe dos ramicaules.\n💧 NPK equilibrado ultradiluído, de 1/5 a 1/4 da dose, a cada 15 dias.\n🚿 Lave o suporte com água pura a cada 2–4 semanas.\n🧪 Liberação lenta não é recomendada.",
+    "rega": "Em placas, regue diariamente no verão e sempre antes de o esfagno secar completamente por vários dias. O suporte deve ficar levemente úmido, mas muito aerado. Pontas secas podem indicar ar seco, excesso de sais ou perda radicular. Brotos escurecendo pela base sugerem abafamento.",
+    "suporte": "🥇 Placa de cortiça ou madeira dura com esfagno fino: suporte ideal e permanente.\n🥈 Pequeno cesto de madeira: bom para formar almofadas compactas.\n🥉 Cuia plástica rasa: útil apenas em ambientes de umidade mais baixa.\nEvite mudanças frequentes após o estabelecimento.",
+    "substrato": "Opção 1 (montagem): camada fina e solta de esfagno sob as raízes, sem cobrir os ramicaules.\nOpção 2 (cesto): casca de pinus fina + carvão miúdo + pedra-pomes + pouco esfagno.\nOpção 3 (cuia rasa): esfagno solto + pedra-pomes fina + pequena fração de casca fina.\nSubstitua qualquer material que compactar ou perder aeração.",
+    "errosComuns": "Dividir em 1–2 ramicaules; seca prolongada; vaso fundo; substrato compacto; adubo forte; água parada nas axilas; retirar folhas verdes antigas; manipular a touceira durante novos crescimentos; ambiente sem ventilação.",
+    "dica": "Mantenha a touceira inteira e, se precisar dividir, preserve pelo menos 5–6 ramicaules vigorosos. Monte em madeira ou cortiça com uma lâmina fina de esfagno e evite mexer novamente após a fixação. Folhas antigas ainda verdes ajudam na reserva hídrica e não devem ser removidas.",
     "adaptacaoRegional": {
-        "litoralQuente": "Use sombra clara, montagem ventilada e umidade ambiental. Em placas, aumente as regas no calor sem deixar água parada.",
-        "montanhaFrio": "Boa adaptação, com proteção contra geada. Em inverno úmido e nublado, aumente a ventilação e reduza a frequência de rega."
+        "litoralQuente": "Em Serra/ES, cultive no setor mais fresco e sombreado, sob 70–75% de sombrite, com ventilação constante. Regue pela manhã.",
+        "montanhaFrio": "Excelente adaptação. Proteja apenas de geadas e ventos ressecantes. Reduza a frequência em semanas frias sem permitir seca total."
     },
     "mesesFloracao": [
         10,

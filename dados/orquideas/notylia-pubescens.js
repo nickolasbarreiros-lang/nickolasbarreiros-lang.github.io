@@ -1,4 +1,4 @@
-// Ficha aprofundada no padrão editorial V3 — Lote 11.
+// Ficha refinada e enriquecida no padrão editorial V4.
 
 export const notyliaPubescens = {
     "id": "notylia-pubescens",
@@ -19,28 +19,28 @@ export const notyliaPubescens = {
         "imagens/Notylia pubescens/Notylia pubescens3.jpg",
         "imagens/Notylia pubescens/Notylia pubescens4.jpg"
     ],
-    "descricao": "Micro-orquídea epífita brasileira, de porte compacto, com pseudobulbos discretos, uma folha larga por crescimento e racemos pendentes densamente cobertos por flores pequenas. É mais interessante quando cultivada em touceira e vista de baixo, onde as hastes ficam livres.",
-    "origem": "Espécie endêmica do Brasil, nativa do leste e sul do país, com ocorrência em áreas de Mata Atlântica das regiões Nordeste, Sudeste e Sul.",
-    "regiao": "Brasil.",
-    "habitat": "Epífita em matas úmidas brasileiras, especialmente em ambientes de Mata Atlântica, sobre galhos com sombra clara, umidade elevada e boa ventilação.",
-    "clima": "Quente a intermediário. Prefere umidade elevada, mas raízes pequenas exigem secagem parcial e circulação constante.",
-    "climaFloracao": "A haste surge de crescimento maduro. Luz insuficiente reduz o número de flores; secagem prolongada durante a formação da inflorescência pode causar aborto de botões.",
+    "descricao": "Micro-orquídea epífita brasileira, compacta, com pseudobulbos discretos quase ocultos pelas bainhas e uma folha larga e persistente por crescimento. As inflorescências arqueadas ou pendentes formam cachos densos de miniflores e ficam mais bonitas quando a planta é cultivada suspensa.",
+    "origem": "Brasil.",
+    "regiao": "Mata Atlântica.",
+    "habitat": "Galhos finos em florestas úmidas.",
+    "clima": "Tropical úmido e ventilado.",
+    "climaFloracao": "As hastes surgem de pseudobulbos maduros. Boa luz filtrada, umidade regular e espaço livre abaixo da planta favorecem cachos longos e completos. Secagem prolongada durante a emissão da inflorescência pode abortar botões.",
     "iluminacao": {
         "sombrite": "60% a 75%",
         "solDireto": "Não",
         "horario": "Apenas luminosidade filtrada",
         "observacoes": "Sombra clara, semelhante a Phalaenopsis bem iluminada. Folhas amarelas ou ásperas indicam excesso; folhas muito escuras e moles indicam falta de luz."
     },
-    "floracao": "Geralmente entre primavera e verão, em racemos arqueados ou pendentes com muitas flores pequenas. Boa ventilação ajuda a manter a haste limpa e reduz manchas.",
-    "adubacao": "🌿 Orgânica: bokashi em dose mínima e longe da base.\n💧 Foliar/mineral: 1/4 da dose a cada 15 dias no crescimento.\n🧪 Liberação lenta: use com cautela, pois raízes finas queimam com facilidade.",
-    "rega": "Regue quando o suporte estiver quase seco. Em placas, pode exigir água diária no calor; em vasos, ajuste pelo peso e pela secagem. Evite manter a base constantemente molhada.",
-    "suporte": "🥇 Cesto ou placa: permite que as hastes pendam livremente.\n🥈 Vaso pequeno e raso: escolha bordas livres para a saída das inflorescências.",
-    "substrato": "Casca fina a média + carvão + pedra-pomes, com pequena quantidade de esfagno. Em montagem, use uma camada fina de musgo sob as raízes.",
-    "errosComuns": "Vaso fundo, água parada na base, adubo forte, sol direto e cortar hastes antes de secarem. Plantas sem floração geralmente precisam de mais luz filtrada, não de mais adubo.",
-    "dica": "Posicione a planta acima da altura dos olhos ou em cesto aberto; as inflorescências são pendentes e podem ficar presas dentro de vasos apertados.",
+    "floracao": "Predominantemente da primavera ao verão, entre setembro e janeiro. Racemos de 10–20 cm podem surgir simultaneamente em vários pseudobulbos maduros. O efeito ornamental depende do número e da liberdade das hastes.",
+    "adubacao": "🌿 Dose mínima de bokashi em sachê, afastado do colo.\n💧 NPK equilibrado em 1/4 da dose a cada 15 dias durante o crescimento.\n🚿 Regue periodicamente apenas com água pura para remover sais.\n🧪 Liberação lenta geralmente é desnecessária.",
+    "rega": "Em placas, regue diariamente nos dias quentes, permitindo secagem rápida em poucas horas. Em cestos ou cuias rasas, espere o interior aproximar-se da secagem. Não deixe secar por longo período durante a formação dos cachos. Folha murcha com raízes escuras e moles indica perda radicular por abafamento.",
+    "suporte": "🥇 Placa ou tronquinho de madeira dura/cortiça: melhor opção para raízes e hastes livres.\n🥈 Cesto pequeno de madeira sem fundo fechado.\n🥉 Cuia plástica pequena e muito perfurada.\nInstale a planta acima da linha dos olhos e mantenha espaço livre abaixo.",
+    "substrato": "Opção 1 (montagem): lâmina muito fina de esfagno solto sob o rizoma, com raízes quase livres.\nOpção 2 (cesto): casca de pinus fina + carvão miúdo + pedra-pomes + pequena fração de esfagno.\nOpção 3 (cuia rasa): fibra de coco grossa lavada + casca fina + pedra-pomes + carvão.\nNunca cubra a base da folha nem bloqueie as hastes.",
+    "errosComuns": "Vaso fundo; suporte encostado em parede; sol direto; adubo forte; água acumulada na base da folha; secagem prolongada na botonação; girar a planta durante a formação dos cachos; cortar hastes ainda verdes.",
+    "dica": "Cultive suspensa, acima dos olhos, em placa levemente inclinada para baixo. Isso melhora a ventilação, permite escoamento da água da base da folha e deixa os racemos crescerem sem obstáculos. Evite mover ou girar a planta durante a formação das hastes.",
     "adaptacaoRegional": {
-        "litoralQuente": "Ventilação é essencial. Use sombra clara e regue cedo, evitando folhas molhadas à noite.",
-        "montanhaFrio": "Proteja de frio intenso. Reduza regas em períodos nublados, mantendo umidade ambiental."
+        "litoralQuente": "Em Serra/ES, apresenta excelente adaptação em placas ou cestos sob cerca de 70% de sombrite, com ventilação constante e regas matinais.",
+        "montanhaFrio": "Proteja de geadas e vento frio ressecante. Reduza a água em semanas frias e nubladas, mantendo umidade atmosférica."
     },
     "mesesFloracao": [
         9,

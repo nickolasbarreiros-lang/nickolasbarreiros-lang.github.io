@@ -1,4 +1,4 @@
-// Ficha aprofundada no padrão editorial V3 — Lote 11.
+// Ficha refinada e enriquecida no padrão editorial V4.
 
 export const miltoniaRegnellii = {
     "id": "miltonia-regnellii",
@@ -19,28 +19,28 @@ export const miltoniaRegnellii = {
         "imagens/Miltonia regnellii/Miltonia regnellii3.webp",
         "imagens/Miltonia regnellii/Miltonia regnellii4.jpg"
     ],
-    "descricao": "As flores claras, delicadas e geralmente perfumadas surgem em hastes multifloras. É mais tolerante ao calor que Miltoniopsis, mas aprecia noites ligeiramente mais amenas.",
-    "origem": "Nativa de Sudeste e Sul do Brasil. Integra o grupo das Miltonia brasileiras, de clima mais quente e cultivo diferente das Miltoniopsis andinas.",
-    "regiao": "Sudeste e Sul do Brasil",
-    "habitat": "Mata Atlântica úmida, em altitude baixa a moderada.",
-    "clima": "Intermediário a quente, com boa umidade e noites um pouco mais frescas. Tolera calor diurno quando há ventilação e as raízes permanecem saudáveis.",
-    "climaFloracao": "A floração vem após a maturação do pseudobulbo. Boa luz, diferença moderada entre dia e noite e redução natural do crescimento ajudam; não imponha seca severa.",
+    "descricao": "Espécie brasileira elegante, de crescimento simpodial, com pseudobulbos comprimidos e hastes eretas a levemente arqueadas. Produz flores branco-creme ou amarelo-pálido com labelo amplo em tons de rosa a púrpura; touceiras adultas tornam-se volumosas e muito floríferas.",
+    "origem": "Brasil.",
+    "regiao": "Sudeste e Sul.",
+    "habitat": "Mata Atlântica úmida e ventilada.",
+    "clima": "Intermediário a quente.",
+    "climaFloracao": "A floração depende do amadurecimento completo do novo pseudobulbo, raízes ativas, luz filtrada abundante e noites ligeiramente mais frescas. Não exige seca severa; uma discreta redução das regas após a maturação já favorece a indução.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Somente sol fraco",
         "horario": "Até 8h30 ou no fim da tarde",
         "observacoes": "Luz filtrada média a intensa. Folhas verde-claro indicam boa exposição; folhas verde-escuras e sem flores sugerem sombra excessiva. Evite aquecer as folhas no meio do dia."
     },
-    "floracao": "Fim do verão ao outono. As flores claras, delicadas e geralmente perfumadas surgem em hastes multifloras. É mais tolerante ao calor que Miltoniopsis, mas aprecia noites ligeiramente mais amenas.",
-    "adubacao": "🌿 Orgânica: bokashi em pequena porção, dentro de porta-adubo e longe dos brotos. Reponha somente após o material se desfazer.\n💧 Foliar/mineral: na fase de crescimento, use adubo equilibrado em 1/4 da dose a cada 10–15 dias; reduza quando o pseudobulbo amadurecer. Faça uma rega só com água mensalmente para retirar sais.\n🧪 Liberação lenta: use poucos grânulos em vasos muito drenantes, sem encostar em raízes novas. Não combine doses completas dos três métodos.",
-    "rega": "Regue com frequência durante a emissão de brotos e raízes, deixando o substrato se aproximar da secagem antes da próxima rega. Após a maturação, reduza levemente. Não deixe os pseudobulbos murcharem de forma acentuada.",
-    "suporte": "🥇 Vaso plástico pequeno e perfurado: mantém umidade sem excesso.\n🥈 Vaso de barro: bom para clima úmido e regas frequentes.\n🥉 Cesto: útil para plantas que já formaram touceiras largas.",
-    "substrato": "Casca de pinus pequena a média + carvão + pedra-pomes ou perlita. Acrescente pouco esfagno picado apenas em locais secos. Replante quando surgirem raízes novas, pois raízes de Miltonia não toleram substrato decomposto.",
-    "errosComuns": "Substrato velho, vaso grande, calor abafado, sol forte, adubação concentrada e secagem prolongada dos brotos. Folhas sanfonadas costumam indicar falta de água durante a expansão ou raízes comprometidas.",
-    "dica": "A qualidade do novo pseudobulbo define a floração seguinte. Mantenha água, luz e nutrição regulares enquanto o broto está se formando.",
+    "floracao": "Predominantemente do final do verão ao outono, entre fevereiro e maio. As hastes surgem das bainhas do pseudobulbo recém-maduro e sustentam várias flores, podendo arquear com o peso.",
+    "adubacao": "🌿 Bokashi em pequena porção e longe dos brotos.\n💧 NPK equilibrado em 1/4 da dose a cada 10–15 dias durante a formação do broto.\n🧪 Poucos grânulos de liberação lenta apenas em vasos muito drenantes.\n🚿 Faça lavagem mensal com água pura e reduza a adubação após o amadurecimento do pseudobulbo.",
+    "rega": "Durante o crescimento ativo, regue quando a superfície começar a secar, sem deixar o vaso seco por vários dias. Folhas sanfonadas registram interrupções na hidratação; antes de aumentar a água, examine as raízes. Raízes claras e firmes sugerem seca; raízes castanhas, moles ou ocas indicam perda radicular por abafamento.",
+    "suporte": "🥇 Vaso plástico pequeno e perfurado: mantém umidade homogênea.\n🥈 Vaso de barro: ideal para clima úmido e regas frequentes.\n🥉 Cesto de madeira: indicado para touceiras grandes.",
+    "substrato": "Opção 1: casca de pinus pequena a média + carvão miúdo + pedra-pomes ou perlita.\nOpção 2: casca fina + brita zero + pedra-pomes + cerca de 10% de esfagno solto.\nOpção 3: casca pequena + fibra de coco grossa lavada + carvão + pedra-pomes.\nTroque o substrato quando perder estrutura e replante preferencialmente no início das novas raízes.",
+    "errosComuns": "Substrato velho; vaso grande; secagem prolongada no crescimento; sombra profunda; adubação concentrada; água acumulada nas bainhas; replantio fora da emissão de raízes.",
+    "dica": "O vigor do pseudobulbo novo determina a próxima florada. Mantenha água, luz e nutrição regulares enquanto o broto cresce, faça flushing mensal e replante somente quando novas pontas radiculares surgirem. Pseudobulbos cheios sustentam mais flores.",
     "adaptacaoRegional": {
-        "litoralQuente": "Use 60–70% de sombra, ventilação forte e substrato bem drenante. Evite água acumulada no miolo dos brotos durante noites quentes.",
-        "montanhaFrio": "Geralmente se adapta muito bem. Ofereça mais luz no inverno e reduza regas em semanas frias e nubladas, sem secar totalmente."
+        "litoralQuente": "Em Serra/ES, use 60–70% de sombrite, vaso apenas ligeiramente maior que a touceira, substrato muito arejado e ventilação contínua.",
+        "montanhaFrio": "Excelente adaptação. Reduza a frequência das regas em semanas frias e nubladas, sem impor seca total."
     },
     "mesesFloracao": [
         2,
