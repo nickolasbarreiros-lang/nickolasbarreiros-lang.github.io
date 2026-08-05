@@ -14,10 +14,10 @@ export const maxillariaSubulata = {
         "Raízes finas e sensíveis"
     ],
     "fotos": [
-        "imagens/Maxillaria subulata/Maxillaria subulata1.jpg",
-        "imagens/Maxillaria subulata/Maxillaria subulata2.jpg",
-        "imagens/Maxillaria subulata/Maxillaria subulata3.jpg",
-        "imagens/Maxillaria subulata/Maxillaria subulata4.jpg"
+        "imagens/Maxillaria subulata/Maxillaria subulata1.jpeg",
+        "imagens/Maxillaria subulata/Maxillaria subulata2.jpeg",
+        "imagens/Maxillaria subulata/Maxillaria subulata3.jpeg",
+        "imagens/Maxillaria subulata/Maxillaria subulata4.webp"
     ],
     "descricao": "Espécie epífita simpodial de porte médio, marcada por pseudobulbos ovoides comprimidos e folhas muito estreitas, eretas e subuladas — isto é, em forma de sovela ou agulha. As inflorescências são curtas e surgem na base dos pseudobulbos maduros, sustentando flores solitárias, cerosas, em tons alaranjados, amarelados ou rosa-amarronzados, com contraste vinoso no labelo. Há táxons morfologicamente semelhantes no comércio; a identificação segura deve considerar flor, labelo, coluna, pseudobulbos, folhas e procedência. O cultivo exige equilíbrio: folhas estreitas e pouca reserva não toleram seca severa, enquanto raízes finas perdem-se rapidamente em recipientes grandes e abafados.",
     "origem": "América Tropical.",

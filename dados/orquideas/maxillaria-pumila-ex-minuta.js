@@ -15,7 +15,7 @@ export const maxillariaPumilaExMinuta = {
     ],
     "fotos": [
         "imagens/Maxillaria pumila/Maxillaria pumila1.jpg",
-        "imagens/Maxillaria pumila/Maxillaria pumila2.jpg",
+        "imagens/Maxillaria pumila/Maxillaria pumila2.jpeg",
         "imagens/Maxillaria pumila/Maxillaria pumila3.jpg",
         "imagens/Maxillaria pumila/Maxillaria pumila4.jpg"
     ],

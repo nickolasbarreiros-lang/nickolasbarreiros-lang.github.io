@@ -14,8 +14,8 @@ export const maxillariaPicta = {
         "Aprecia noites frescas"
     ],
     "fotos": [
-        "imagens/Maxillaria picta/Maxillaria picta1.jpg",
-        "imagens/Maxillaria picta/Maxillaria picta2.jpg",
+        "imagens/Maxillaria picta/Maxillaria picta1.webp",
+        "imagens/Maxillaria picta/Maxillaria picta2.jpeg",
         "imagens/Maxillaria picta/Maxillaria picta3.jpg",
         "imagens/Maxillaria picta/Maxillaria picta4.jpg"
     ],

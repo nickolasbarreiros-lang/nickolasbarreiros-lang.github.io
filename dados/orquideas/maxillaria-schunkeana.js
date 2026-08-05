@@ -14,10 +14,10 @@ export const maxillariaSchunkeana = {
         "Espécie rara e colecionável"
     ],
     "fotos": [
-        "imagens/Maxillaria schunkeana/Maxillaria schunkeana1.jpg",
-        "imagens/Maxillaria schunkeana/Maxillaria schunkeana2.jpg",
-        "imagens/Maxillaria schunkeana/Maxillaria schunkeana3.jpg",
-        "imagens/Maxillaria schunkeana/Maxillaria schunkeana4.jpg"
+        "imagens/Maxillaria schunkeana/Maxillaria schunkeana1.webp",
+        "imagens/Maxillaria schunkeana/Maxillaria schunkeana2.jpeg",
+        "imagens/Maxillaria schunkeana/Maxillaria schunkeana3.webp",
+        "imagens/Maxillaria schunkeana/Maxillaria schunkeana4.jpeg"
     ],
     "descricao": "Joia da Mata Atlântica capixaba, conhecida mundialmente como “orquídea-negra”. Maxillaria schunkeana é uma espécie simpodial compacta, com pseudobulbos ovoides e levemente comprimidos, normalmente bifoliados, reunidos em touceiras densas. As inflorescências têm apenas poucos centímetros e surgem rente à base, produzindo flores cerosas e brilhantes de vinho-púrpura extremamente profundo. A aparência negra não resulta de pigmento preto verdadeiro, mas da alta concentração de antocianinas e da forma como a superfície absorve e reflete a luz. Por viver em ambiente úmido e sombreado, necessita de raízes arejadas, temperatura controlada e proteção contra sol e calor abafado.",
     "origem": "Endêmica do Espírito Santo, Brasil.",
