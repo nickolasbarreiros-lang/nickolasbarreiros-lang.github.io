@@ -1,4 +1,4 @@
-// Ficha revisada após a identificação do exemplar — PADRÃO EDITORIAL V3.
+// Ficha V4 refinada — Laelia gloriosa.
 
 export const laeliaGloriosa = {
     id: "schomburgkia",
@@ -8,16 +8,15 @@ export const laeliaGloriosa = {
     tipo: "Espécie botânica",
     sinonimos: [
         "Schomburgkia gloriosa",
-        "Schomburgkia crispa",
         "Schomburgkia sp."
     ],
     dificuldade: "Fácil a moderada",
     caracteristicas: [
-        "Espécie epífita",
-        "Planta de grande porte",
-        "Hastes florais muito longas",
-        "Flores onduladas e vistosas",
-        "Alta luminosidade"
+        "Espécie epífita de grande porte",
+        "Pseudobulbos fusiformes e robustos",
+        "Inflorescências muito longas",
+        "Flores onduladas e multiflorais",
+        "Exige luminosidade muito alta"
     ],
     fotos: [
         "imagens/Laelia gloriosa/Laelia gloriosa1.jpeg",
@@ -25,32 +24,32 @@ export const laeliaGloriosa = {
         "imagens/Laelia gloriosa/Laelia gloriosa3.jpeg",
         "imagens/Laelia gloriosa/Laelia gloriosa4.jpeg"
     ],
-    descricao: "A Laelia gloriosa é uma imponente espécie sul-americana, conhecida pelos pseudobulbos robustos e pelas longas inflorescências com numerosas flores de segmentos ondulados. Foi cultivada durante muito tempo como Schomburgkia gloriosa e também apareceu em coleções sob o nome Schomburgkia crispa. Na classificação atualmente adotada por Kew, Laelia gloriosa é o nome aceito, enquanto a verdadeira Schomburgkia crispa é tratada separadamente como Laelia marginata.",
-    origem: "América do Sul tropical — Brasil, Colômbia, Equador, Guiana, Suriname e Venezuela",
-    regiao: "Amplamente distribuída no Brasil e no norte da América do Sul",
-    habitat: "Epífita de florestas tropicais úmidas, crescendo em locais claros, quentes e muito ventilados. As raízes ficam expostas ao ar e secam rapidamente após as chuvas.",
-    clima: "Quente a intermediário, úmido e muito ventilado",
-    climaFloracao: "No litoral quente e úmido adapta-se bem, desde que receba luminosidade elevada, ventilação constante e uma leve redução das regas depois que os pseudobulbos amadurecem. A planta precisa completar bem o crescimento para produzir hastes fortes.",
+    descricao: "Imponente espécie sul-americana anteriormente conhecida como Schomburgkia gloriosa. Forma grandes touceiras com pseudobulbos alongados, fusiformes, inicialmente lisos e depois sulcados com a idade, sustentando folhas coriáceas no ápice. As inflorescências são longas, eretas ou arqueadas, frequentemente ultrapassando um metro em plantas adultas vigorosas e terminando em conjuntos multiflorais de segmentos ondulados. Schomburgkia crispa não deve ser usada como sinônimo desta espécie, pois corresponde a outro táxon atualmente tratado como Laelia marginata.",
+    origem: "Norte da América do Sul até a região amazônica brasileira, incluindo Colômbia, Equador, Venezuela, Guianas e Brasil.",
+    regiao: "Áreas tropicais do norte da América do Sul e Amazônia.",
+    habitat: "Epífita nas porções mais claras e ventiladas das árvores, onde recebe chuva abundante, calor e luz intensa, mas as raízes ficam expostas ao ar e secam rapidamente.",
+    clima: "Quente a intermediário, úmido e muito ventilado.",
+    climaFloracao: "A emissão de hastes fortes depende de pseudobulbos completamente maduros, raízes saudáveis, luminosidade muito alta filtrada e leve sazonalidade hídrica. Após o crescimento, aumente moderadamente o intervalo entre regas, sem provocar desidratação severa.",
     iluminacao: {
         sombrite: "30% a 50%",
-        solDireto: "Sim",
-        horario: "Sol fraco da manhã até aproximadamente 09:30, após adaptação gradual",
-        observacoes: "Exige luz semelhante à de Cattleyas muito luminosas ou Vandas. Folhas firmes e verde-claras indicam luminosidade adequada; verde muito escuro costuma resultar em crescimento sem floração."
+        solDireto: "Sim, quando aclimatada",
+        horario: "Sol suave da manhã",
+        observacoes: "Folhas firmes em verde-claro indicam boa luminosidade. Verde muito escuro costuma produzir crescimento sem floração; amarelecimento forte, manchas secas ou aquecimento foliar indicam excesso."
     },
-    floracao: "Floresce principalmente da primavera ao verão. As inflorescências podem ultrapassar um metro e carregar numerosas flores onduladas, geralmente em tons rosados, púrpura ou castanho-avermelhados, com labelo contrastante.",
-    adubacao: "Durante a brotação e o desenvolvimento dos pseudobulbos, aplique adubo foliar equilibrado a cada 7 a 15 dias, sempre em baixa concentração. Bokashi em saquinho ou Osmocote em dose moderada podem complementar. Reduza a adubação quando o pseudobulbo estiver maduro e a planta entrar em repouso relativo.",
-    rega: "Regue com frequência durante o crescimento ativo, molhando bem as raízes e permitindo secagem rápida entre as regas. Depois da maturação dos pseudobulbos, reduza gradualmente a frequência, sem provocar desidratação prolongada.",
-    suporte: "Cesto grande, cachepô robusto, vaso de barro pesado e muito drenado ou fixação em árvore com boa luminosidade",
-    substrato: "Casca de pinus grossa, carvão vegetal grosso, brita e pedra-pomes, com pouca retenção de água. Em locais úmidos, pode ser cultivada praticamente sem substrato em cestos ou diretamente sobre troncos.",
-    errosComuns: "Cultivar em sombra; usar vaso pequeno ou substrato fino e compacto; manter raízes constantemente molhadas; deixar água acumulada nos brotos; oferecer pouco espaço para a planta e para as hastes; adubar raízes secas com solução concentrada; cortar hastes antes de secarem completamente.",
-    dica: "A floração depende principalmente de luz forte e pseudobulbos bem formados. Aumente a luminosidade gradualmente e deixe bastante espaço acima da planta, pois as hastes podem crescer muito antes de abrir as flores.",
+    floracao: "Predomina da primavera ao verão, variando conforme o clone, o clima e a maturação dos pseudobulbos. As inflorescências longas podem sustentar numerosas flores rosadas, púrpuras, bronzeadas ou castanho-avermelhadas, com segmentos fortemente ondulados e labelo contrastante.",
+    adubacao: "🌿 Orgânica: bokashi em porta-adubo durante a brotação.\n💧 Foliar: NPK equilibrado em baixa concentração a cada 7–15 dias durante o crescimento ativo.\n🧪 Liberação lenta: dose baixa a moderada conforme o tamanho do recipiente, sem contato direto com raízes novas. Após a maturação, reduza a frequência e o excesso de nitrogênio, sem necessidade de suspender toda nutrição. Periodicamente lave o substrato com água pura.",
+    rega: "Durante a emissão de brotos e raízes novas, regue abundantemente e permita secagem rápida antes da próxima irrigação. Após a maturação dos pseudobulbos, aumente moderadamente o intervalo, especialmente em períodos frios ou nublados, sem causar enrugamento severo.",
+    suporte: "🥇 Cesto grande e robusto de madeira, firmemente suspenso ou fixado.\n🥈 Vaso de barro pesado, largo e muito furado.\n🥉 Fixação definitiva em tronco de árvore, apenas onde não haja geadas e seja possível regar durante o estabelecimento.",
+    substrato: "🥇 Casca de pinus grossa + carvão vegetal grosso + pedra-pomes.\n🥈 Brita grossa + carvão + pouca casca, em vaso muito furado.\n🥉 Cultivo praticamente sem substrato em cesto aberto, especialmente em ambientes úmidos. Algumas pedras grandes podem ser usadas apenas como contrapeso, sem ocupar grande parte do espaço radicular.",
+    errosComuns: "Cultivar em sombra; usar recipiente leve e instável; empregar substrato fino ou compactado; manter raízes constantemente molhadas; dar pouco espaço ao rizoma; não reservar espaço vertical para a haste; deixar água acumulada em brotos novos; adubar raízes secas com solução concentrada; usar Schomburgkia crispa como sinônimo; cortar haste ainda verde.",
+    dica: "Planeje o cultivo para o tamanho adulto, não para o tamanho da muda. Instale-a desde cedo em cesto robusto ou vaso de barro pesado, firmemente fixado, com espaço para o rizoma e raízes grossas. Durante a brotação, forneça água abundante, adubação equilibrada e muita luz filtrada. Quando o pseudobulbo amadurecer, mantenha a planta no setor mais claro e aumente moderadamente o intervalo das regas. Reserve ao menos um metro livre acima e ao redor para a inflorescência.",
     adaptacaoRegional: {
-        litoralQuente: "Adapta-se muito bem ao calor litorâneo quando recebe luz intensa, ventilação constante, regas abundantes no crescimento e secagem rápida das raízes.",
-        montanhaFrio: "Tolera noites mais amenas, mas deve ser protegida de geadas e de longos períodos frios com raízes encharcadas."
+        litoralQuente: "Excelente adaptação ao calor de Serra/ES quando recebe luminosidade elevada, ventilação constante, rega abundante durante o crescimento e secagem rápida. Fixe firmemente o recipiente contra vento e tombamento.",
+        montanhaFrio: "Tolera noites amenas, mas deve ser protegida de geadas e de períodos frios prolongados com raízes molhadas. Mantenha alta luminosidade mesmo no inverno."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     avaliacoes: {
-        cultivo: 4,
+        cultivo: 3,
         floracao: 4,
         perfume: 2,
         luminosidade: 5,
