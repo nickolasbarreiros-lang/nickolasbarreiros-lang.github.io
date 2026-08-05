@@ -1,4 +1,4 @@
-// Nova ficha — PADRÃO EDITORIAL V3.
+// Ficha científica e de cultivo revisada — Padrão Editorial V3.
 
 export const encycliaOncidioides = {
     id: "encyclia-oncidioides",
@@ -13,29 +13,29 @@ export const encycliaOncidioides = {
         "imagens/Encyclia oncidioides/Encyclia oncidioides3.jpg",
         "imagens/Encyclia oncidioides/Encyclia oncidioides4.jpg"
     ],
-    descricao: "Encyclia vigorosa de pseudobulbos robustos, folhas coriáceas e longas inflorescências ramificadas, capazes de portar numerosas flores duráveis e perfumadas. As flores são amarelo-esverdeadas a castanhas, frequentemente reticuladas ou pontuadas, com labelo claro envolvendo parcialmente a coluna.",
-    origem: "América tropical, com ampla ocorrência no Brasil.",
-    regiao: "No Brasil ocorre em diferentes formações do Nordeste, Centro-Oeste, Sudeste e parte do Norte, com variação conforme o conceito taxonômico adotado.",
-    habitat: "Epífita, rupícola ou ocasionalmente terrestre em áreas abertas, afloramentos rochosos, restingas, cerrados e florestas claras, geralmente sob alta luminosidade e boa circulação de ar.",
+    descricao: "Espécie brasileira vigorosa, predominantemente epífita ou rupícola, com pseudobulbos robustos, folhas coriáceas e inflorescências longas, eretas e frequentemente ramificadas. As flores são amarelo-esverdeadas a castanhas, com estrias ou pontuações e perfume moderado a marcante.",
+    origem: "Brasil.",
+    regiao: "Ampla distribuição pelas regiões Norte, Nordeste, Centro-Oeste, Sudeste e Sul.",
+    habitat: "Ocorre em restingas, cerrados, matas abertas, formações sazonais e afloramentos rochosos, geralmente sob alta luminosidade e ventilação constante.",
     clima: "Quente a intermediário, sazonal e muito ventilado.",
-    climaFloracao: "A espécie floresce melhor quando recebe muita luz filtrada e completa a maturação de pseudobulbos firmes. Depois de maduros, uma leve redução das regas e noites mais amenas ajudam a induzir a haste, sem necessidade de seca extrema.",
+    climaFloracao: "A espécie floresce melhor quando forma pseudobulbos robustos sob luz alta. Após a maturação, aumente gradualmente o intervalo entre as regas e reduza o excesso de nitrogênio. Noites ligeiramente mais frescas podem favorecer a indução, mas não são uma exigência absoluta.",
     iluminacao: {
-        sombrite: "30% a 50%",
-        solDireto: "Sim, suave e com adaptação",
+        sombrite: "40% a 50%; 30% a 40% em regiões serranas, após aclimatação",
+        solDireto: "Sim, suave e aclimatado",
         horario: "Até 09:00",
-        observacoes: "Gosta de luminosidade alta, próxima à de Cattleyas. Folhas verde-claro e firmes indicam bom nível de luz; folhas verde-escuras e pseudobulbos alongados costumam indicar sombra excessiva."
+        observacoes: "Folhas firmes em verde-claro indicam boa luminosidade. Amarelecimento intenso, manchas secas ou aquecimento excessivo indicam sol em excesso."
     },
-    floracao: "Principalmente da primavera ao verão, podendo avançar para o início do outono em algumas regiões.",
-    adubacao: "🌿 Orgânica: bokashi em pequena quantidade, preferencialmente em saquinho.\n💧 Foliar: NPK equilibrado em 1/4 a 1/2 da dose a cada 7 a 15 dias durante o crescimento.\n🧪 Liberação lenta: Osmocote em dose moderada em vasos bem drenados.",
-    rega: "Regue com frequência durante a emissão de raízes e brotos, permitindo boa secagem entre as regas. Após a maturação dos pseudobulbos, reduza moderadamente. Tolera períodos um pouco mais secos melhor do que substrato constantemente encharcado.",
-    suporte: "🥇 Vaso de barro bem furado.\n🥈 Cachepô de madeira.\n🥉 Placa ou tronco para plantas adaptadas à montagem.",
-    substrato: "🥇 Casca grossa + carvão + pedra-pomes.\n🥈 Casca média + brita leve + pequena porção de fibra de coco.\n🥉 Montagem em madeira dura com pouca retenção junto às raízes.",
-    errosComuns: "Cultivar em sombra forte; manter raízes constantemente molhadas; usar substrato fino e compactado; plantar em vaso grande; cortar hastes antes de secarem; aplicar excesso de nitrogênio após a maturação; deixar a planta abafada.",
-    dica: "Ofereça bastante luz e espere o substrato secar antes da próxima rega. Pseudobulbos compactos, firmes e bem iluminados produzem hastes muito mais fortes e ramificadas.",
+    floracao: "Principalmente da primavera ao verão, podendo avançar para o início do outono conforme o clima e o ciclo da planta.",
+    adubacao: "🌿 Orgânica: bokashi em pequena quantidade, preferencialmente em porta-adubo.\n💧 Foliar: NPK equilibrado em 1/4 a 1/2 da dose a cada 7 a 15 dias durante o crescimento.\n🧪 Liberação lenta: poucos grânulos em vaso muito drenante, afastados das raízes novas. Após a maturação, evite excesso de nitrogênio e mantenha nutrição equilibrada.",
+    rega: "Durante a emissão de brotos e raízes, regue abundantemente e permita secagem completa entre as irrigações. Após a maturação dos pseudobulbos, aumente gradualmente o intervalo, sem impor seca severa nem seguir número fixo de dias.",
+    suporte: "🥇 Vaso de barro pequeno e bem furado.\n🥈 Cachepô de madeira.\n🥉 Placa ou tronco de madeira dura para plantas adaptadas à montagem.",
+    substrato: "🥇 Casca grossa + carvão + pedra-pomes.\n🥈 Casca média + brita leve + pequena porção de fibra de coco grossa.\n🥉 Montagem em madeira dura com pouca retenção junto às raízes.",
+    errosComuns: "Usar vaso grande; cultivar em sombra excessiva; manter raízes constantemente molhadas; usar substrato fino e compactado; enterrar o rizoma; cortar hastes ainda verdes; aplicar excesso de nitrogênio após a maturação; tratar o inverno como dormência seca rigorosa.",
+    dica: "O segredo para hastes longas e ramificadas está na formação de um pseudobulbo forte. Durante a brotação, ofereça luz alta filtrada, regas abundantes com secagem completa e nutrição equilibrada. Quando o pseudobulbo amadurecer, aumente gradualmente o intervalo entre as regas e reduza o excesso de nitrogênio. Vaso justo, raízes arejadas, luz alta e redução hídrica moderada favorecem a floração.",
     adaptacaoRegional: {
-        litoralQuente: "No litoral quente, adapte-a gradualmente à luz alta, mantenha ventilação constante e use mistura muito drenante. Regue cedo para que as raízes sequem antes da noite.",
-        montanhaFrio: "Em regiões serranas, proteja de frio intenso e chuva prolongada no inverno. A luminosidade alta continua importante para a floração."
+        litoralQuente: "Excelente adaptação em Serra/ES. Use mistura muito drenante, ventilação constante e regas pela manhã, protegendo do sol forte da tarde.",
+        montanhaFrio: "Boa adaptação. Mantenha alta luminosidade, proteja contra geadas e reduza proporcionalmente as regas em períodos frios e chuvosos."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
-    avaliacoes: { cultivo: 4, floracao: 4, perfume: 4, luminosidade: 5, agua: 3, raridade: 3 }
+    avaliacoes: { cultivo: 2, floracao: 4, perfume: 4, luminosidade: 4, agua: 3, raridade: 3 }
 };
