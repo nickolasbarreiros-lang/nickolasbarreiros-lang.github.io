@@ -39,7 +39,6 @@ import { coelogyneCristata } from "./coelogyne-cristata.js";
 import { bcTurandotXBlcOrangeShowXBlcChunyeah } from "./bc-turandot-x-blc-orange-show-x-blc-chunyeah.js";
 import { cattleyaSchillerianaXCruzeiroDoSul } from "./cattleya-schilleriana-x-cruzeiro-do-sul.js";
 import { lcTrickOrTreat } from "./lc-trick-or-treat.js";
-import { cattleyaPumpkinFestival } from "./cattleya-pumpkin-festival.js";
 import { aciantheraAveniformis } from "./acianthera-aveniformis.js";
 import { dryadellaAviceps } from "./dryadella-aviceps.js";
 import { speckliniaGrobyi } from "./specklinia-grobyi.js";
@@ -120,6 +119,8 @@ import { phaiusTankervilleaeAlba } from "./phaius-tankervilleae-alba.js";
 import { stanhopeaHernandezii } from "./stanhopea-hernandezii.js";
 import { encycliaOncidioides } from "./encyclia-oncidioides.js";
 import { pleurothallisModestissima } from "./pleurothallis-modestissima.js";
+import { maxillariaBrasiliensis } from "./maxillaria-brasiliensis.js";
+import { isochilusLinearis } from "./isochilus-linearis.js";
 
 export const orquideas = [
     dendrobiumPolysema,
@@ -160,7 +161,6 @@ export const orquideas = [
     bcTurandotXBlcOrangeShowXBlcChunyeah,
     cattleyaSchillerianaXCruzeiroDoSul,
     lcTrickOrTreat,
-    cattleyaPumpkinFestival,
     aciantheraAveniformis,
     dryadellaAviceps,
     speckliniaGrobyi,
@@ -240,5 +240,7 @@ export const orquideas = [
     phaiusTankervilleaeAlba,
     stanhopeaHernandezii,
     encycliaOncidioides,
-    pleurothallisModestissima
+    pleurothallisModestissima,
+    maxillariaBrasiliensis,
+    isochilusLinearis
 ];
