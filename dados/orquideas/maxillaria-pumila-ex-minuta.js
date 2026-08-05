@@ -1,49 +1,54 @@
-// Ficha refinada V4 — conteúdo técnico ampliado com coluna lateral resumida.
+// Ficha V4 refinada — conteúdo antigo e novo comparados, filtrados e agregados; coluna lateral resumida para preservar o layout.
 
 export const maxillariaPumilaExMinuta = {
     "id": "maxillaria-pumila-ex-minuta",
     "nome": "Maxillaria pumila (ex-minuta)",
     "genero": "Maxillaria",
-    "sinonimo": "Christensonella minuta; Maxillaria minuta",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "caracteristicas": [
         "Miniatura epífita",
-        "Touceira em almofada",
-        "Raízes capilares",
-        "Flores basais perfumadas",
-        "Complexo Christensonella"
+        "Complexo Christensonella",
+        "Touceira em forma de almofada",
+        "Raízes capilares muito finas",
+        "Flores basais vinho e perfumadas"
     ],
     "fotos": [
         "imagens/Maxillaria pumila/Maxillaria pumila1.jpg",
-        "imagens/Maxillaria pumila/Maxillaria pumila2.jpeg",
+        "imagens/Maxillaria pumila/Maxillaria pumila2.jpg",
         "imagens/Maxillaria pumila/Maxillaria pumila3.jpg",
         "imagens/Maxillaria pumila/Maxillaria pumila4.jpg"
     ],
-    "descricao": "Miniatura epífita simpodial que forma almofadas compactas de pseudobulbos diminutos e folhas estreitas ou levemente acanaladas. O nome aceito é Maxillaria pumila; Christensonella minuta e Maxillaria minuta explicam etiquetas antigas do acervo. Suas raízes capilares exigem umidade frequente, granulometria compatível com o porte e baixíssima salinidade.",
-    "origem": "Distribuída das Guianas ao Brasil.",
-    "regiao": "Guianas e regiões Norte, Sudeste e Sul do Brasil.",
-    "habitat": "Miniatura epífita de florestas úmidas, sobre cascas rugosas e bem ventiladas.",
-    "clima": "Quente a intermediário, úmido e ventilado; tolera noites mais frescas sem geada.",
-    "climaFloracao": "A floração é favorecida por touceiras maduras, raízes ativas, umidade estável e luz filtrada clara. Não necessita de seca severa. Em plantas montadas, a frequência de rega deve aumentar no calor sem manter as raízes abafadas.",
+    "descricao": "Miniatura epífita simpodial conhecida anteriormente em coleções como Maxillaria minuta ou Christensonella minuta. Forma almofadas compactas de pseudobulbos diminutos, quase ocultos pela folhagem estreita, cilíndrica ou levemente acanalada. As flores surgem em hastes basais muito curtas, em tons vinho, castanho-avermelhado ou púrpura, com textura cerosa e perfume adocicado. Seu tamanho reduzido exige manejo específico: raízes capilares têm pouca tolerância a sais, secam rapidamente quando montadas e sufocam com facilidade em materiais compactados. Touceiras inteiras mantêm microclima mais estável e florescem com muito mais força do que pequenas divisões.",
+    "origem": "Guianas e Brasil.",
+    "regiao": "América do Sul tropical, incluindo Norte, Sudeste e Sul do Brasil.",
+    "habitat": "Cascas rugosas em floresta úmida, com alta umidade e ventilação constante.",
+    "clima": "Quente a intermediário, úmido e arejado; tolera períodos mais frescos sem geada.",
+    "climaFloracao": "A floração é favorecida por touceiras maduras, crescimento contínuo, umidade ambiental estável, boa luminosidade filtrada e raízes ativas. Não necessita de seca intensa ou repouso rigoroso. Como os pseudobulbos são diminutos, qualquer perda radicular reduz rapidamente a reserva disponível. O objetivo é manter ciclos curtos de umedecimento e aeração, evitando tanto ressecamento prolongado quanto musgo encharcado.",
     "iluminacao": {
         "sombrite": "65% a 75%",
-        "solDireto": "Somente sol extremamente suave",
-        "horario": "Início da manhã",
-        "observacoes": "Luz filtrada suave e brilhante. Folhas amareladas, ressecadas ou aquecidas indicam excesso; crescimento frouxo e verde muito escuro sugerem sombra excessiva."
+        "solDireto": "Somente sol muito suave",
+        "horario": "Até cerca de 08h30",
+        "observacoes": "Prefere luz filtrada clara, sem aquecimento da touceira. Folhas compactas e verde-vivo indicam equilíbrio. Amarelecimento, ressecamento das pontas ou vermelhidão intensa sugerem excesso; crescimento frouxo, alongado e verde-escuro indica pouca luz."
     },
-    "floracao": "Mais comum da primavera ao início do verão, aproximadamente de setembro a janeiro. As flores basais, vinho a castanho-avermelhadas, surgem entre a folhagem e podem aparecer em surtos simultâneos em touceiras maduras.",
-    "adubacao": "🌿 Orgânica: bokashi em sachê microperfurado, longe das raízes e do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose, a cada 10–15 dias durante o crescimento.\n🚿 Flushing: rega abundante com água pura uma vez ao mês.\n⚠️ Evite doses fortes e excesso de adubo de liberação lenta em microvasos.",
-    "rega": "Mantenha umidade frequente, regando quando a superfície começar a secar. As raízes devem receber água regularmente, mas arejar em poucas horas. Em placas ou tronquinhos, regas diárias podem ser necessárias no verão. Folhas murchas com raízes escuras e moles sugerem perda radicular por excesso de umidade, não simples falta de água.",
-    "suporte": "🥇 Placa de cortiça ou madeira dura com filete mínimo de musgo.\n🥈 Microvaso de barro ou plástico perfurado, sem sobra de espaço.\n🥉 Cesto pequeno de madeira ou arame, para ventilação máxima.",
-    "substrato": "Em placas, use somente um filete delgado de esfagno sob o rizoma. Em microvasos, utilize casca de pinus fina de 3–5 mm + brita zero + carvão fino + cerca de 10% de esfagno picado. O material deve ser arejado, mas manter contato suficiente com as raízes capilares.",
-    "errosComuns": "Substrato grosso, vaso grande, divisão de touceiras pequenas, adubação concentrada, rizoma enterrado e ambiente úmido sem ventilação. A planta deve ser mantida inteira pelo maior tempo possível.",
-    "dica": "Preserve a touceira como um bloco único e use adubação muito diluída. Raízes capilares queimam rapidamente com sais; faça flushing mensal e evite manipulações fora do início do enraizamento.",
+    "floracao": "Mais comum da primavera ao início do verão, aproximadamente de setembro a janeiro, com possibilidade de surtos secundários. As flores ficam rente à touceira e podem ser parcialmente ocultas pela folhagem. O perfume adocicado é mais perceptível em horários quentes e em plantas com várias flores abertas simultaneamente.",
+    "adubacao": "🌿 Orgânica: use bokashi apenas em sachê microperfurado, fixado longe das raízes e do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante o crescimento.\n🧪 Liberação lenta: geralmente dispensável em placas e microvasos; se usada, aplique pouquíssimos grânulos.\n🚿 Flushing: uma vez por mês, lave raízes e suporte com água pura. Água de baixa salinidade é especialmente benéfica para esta miniatura.",
+    "rega": "Mantenha umidade frequente, regando quando a superfície ou o suporte começar a secar. Em placas, pode precisar de água diária no verão; em microvasos, espere a aeração da camada superior antes de repetir. As raízes capilares devem receber água regularmente, mas não podem permanecer imersas em musgo compactado. Folhas murchas com raízes escuras e moles geralmente indicam perda radicular por excesso de umidade. Folhas murchas com raízes claras e suporte completamente seco indicam déficit hídrico real.",
+    "suporte": "🥇 Placa pequena de cortiça ou madeira dura com filete mínimo de esfagno.\n🥈 Microvaso de barro ou plástico perfurado, sem sobra de espaço.\n🥉 Cesto pequeno de madeira ou arame revestido de material muito arejado. Evite suportes desproporcionais ao tamanho da touceira.",
+    "substrato": "Em placas, use somente uma camada delgada e solta de esfagno sob as raízes iniciais, sem cobrir o rizoma. Em microvasos, utilize casca de pinus fina de 3–5 mm + brita zero ou pedra-pomes fina + carvão miúdo + cerca de 10% de esfagno picado. O substrato deve ter contato suficiente com raízes minúsculas, mas manter porosidade. Faça a troca antes de o material virar pó ou permanecer úmido por tempo excessivo.",
+    "errosComuns": "❌ Usar casca grossa demais, que não mantém contato uniforme com raízes capilares.\n❌ Usar vaso grande ou profundo.\n❌ Dividir a touceira em pequenos fragmentos.\n❌ Aplicar fertilizante concentrado ou Osmocote junto às raízes.\n❌ Enterrar o rizoma ou cobrir os pseudobulbos minúsculos.\n❌ Compactar esfagno ao redor da planta.\n❌ Manter alta umidade sem movimento de ar.\n❌ Replantar fora da emissão de raízes novas.",
+    "dica": "Preserve a touceira como um bloco único sempre que possível. O conjunto cria um microclima que reduz oscilações de temperatura e umidade, além de aumentar muito o impacto da floração. Adube de forma “homeopática” e faça lavagem mensal, porque raízes capilares queimam rapidamente com sais. Na montagem ou troca de vaso, espere novas pontas radiculares e use material de granulometria fina, porém solto. O objetivo não é manter tudo molhado, mas oferecer água frequente com rápida renovação de oxigênio.",
     "adaptacaoRegional": {
-        "litoralQuente": "Excelente adaptação com umidade acima de 60%, sombra clara e ventilação contínua. Em placas, pode exigir rega diária no verão.",
-        "montanhaFrio": "Boa adaptação. Reduza a frequência de água em semanas frias e úmidas, mantendo proteção contra geada e vento ressecante."
+        "litoralQuente": "Em Serra/ES, mantenha acima de 60% de umidade relativa, sombra clara e ventilação constante. Montagens podem exigir rega diária no verão.",
+        "montanhaFrio": "Em Santa Teresa/ES, adapta-se bem às noites frescas. Reduza a frequência apenas em semanas frias e úmidas e proteja de geada."
     },
-    "mesesFloracao": [9, 10, 11, 12, 1],
+    "mesesFloracao": [
+        9,
+        10,
+        11,
+        12,
+        1
+    ],
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 3,
