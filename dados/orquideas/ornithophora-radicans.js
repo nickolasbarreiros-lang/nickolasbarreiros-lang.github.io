@@ -1,4 +1,4 @@
-// Ficha atualizada no LOTE 13 — PADRÃO EDITORIAL V3.
+// Ficha refinada — Padrão Editorial V3.
 
 export const ornithophoraRadicans = {
     id: "ornithophora-radicans",
@@ -6,12 +6,12 @@ export const ornithophoraRadicans = {
     genero: "Gomesa",
     sinonimo: "Ornithophora radicans",
     tipo: "Espécie botânica",
-    dificuldade: "Fácil a moderada",
+    dificuldade: "Moderada",
     caracteristicas: [
         "Miniatura brasileira",
         "Touceira pendente",
-        "Inflorescências ramificadas",
-        "Numerosas flores pequenas"
+        "Raízes filiformes e delicadas",
+        "Hastes ramificadas com muitas flores"
     ],
     fotos: [
         "imagens/Ornithophora radicans/Ornithophora radicans1.webp",
@@ -19,32 +19,32 @@ export const ornithophoraRadicans = {
         "imagens/Ornithophora radicans/Ornithophora radicans3.webp",
         "imagens/Ornithophora radicans/Ornithophora radicans4.jpeg"
     ],
-    descricao: "Miniatura brasileira tradicionalmente conhecida como Ornithophora radicans e atualmente aceita como Gomesa radicans. Forma touceiras pendentes com folhas estreitas, raízes finas e numerosas hastes ramificadas. As flores são pequenas, esverdeadas a castanhas com detalhes claros, mas o efeito conjunto da floração é delicado e muito ornamental.",
-    origem: "Brasil",
-    regiao: "Sul e Sudeste do Brasil",
-    habitat: "Epífita da Mata Atlântica, sobre galhos e troncos finos em matas úmidas, luminosas e bem ventiladas.",
-    clima: "Intermediário a quente, úmido e ventilado",
-    climaFloracao: "No litoral quente e úmido, adapta-se bem ao calor desde que não fique abafada. A emissão das hastes é favorecida por luminosidade filtrada forte, crescimento contínuo e noites um pouco mais amenas após a maturação dos pequenos pseudobulbos. Sombra excessiva produz touceiras verdes, mas pouco floríferas.",
+    descricao: "Miniatura epífita brasileira atualmente aceita como Gomesa radicans e ainda muito comercializada pelo sinônimo Ornithophora radicans. Forma touceiras densas e pendentes, com pequenos pseudobulbos agregados, folhas estreitas e graminiformes e raízes filiformes extremamente sensíveis à salinidade e ao abafamento. As hastes florais são finas, ramificadas e pendentes, produzindo numerosas flores pequenas, esverdeadas a acastanhadas, com labelo branco e detalhes purpúreos ou alaranjados. O conjunto forma uma delicada nuvem floral.",
+    origem: "Brasil.",
+    regiao: "Mata Atlântica do Sul e Sudeste brasileiro.",
+    habitat: "Epífita sobre galhos e ramos finos em matas úmidas, sombreadas, claras e continuamente ventiladas.",
+    clima: "Intermediário a quente, úmido e muito ventilado.",
+    climaFloracao: "A espécie não exige repouso seco severo. A floração é favorecida por crescimento contínuo, luminosidade filtrada moderada, noites ligeiramente mais amenas e touceiras bem estabelecidas. No litoral quente, o maior inimigo não é o calor isoladamente, mas o calor parado associado ao excesso de umidade. Raízes bem oxigenadas produzem crescimento constante e mais hastes florais.",
     iluminacao: {
         sombrite: "50% a 70%",
         solDireto: "Sim",
-        horario: "Até 08:30, com adaptação",
-        observacoes: "Prefere meia-sombra clara. Pode receber sol suave da manhã, mas deve ser protegida do sol quente. Folhas muito verde-escuras indicam falta de claridade."
+        horario: "Até 08:30, com aclimatação",
+        observacoes: "Prefere meia-sombra clara. Folhas muito escuras indicam sombra excessiva; amarelecimento ou aquecimento foliar indicam excesso de sol."
     },
-    floracao: "Principalmente da primavera ao verão, podendo variar conforme o amadurecimento da touceira.",
-    adubacao: "Use adubo foliar equilibrado e bastante diluído a cada 7–15 dias durante a brotação. Como as raízes são finas, evite soluções concentradas. Bokashi pode ser colocado em saquinho minúsculo e Osmocote apenas em dose muito baixa quando cultivada em cachepô.",
-    rega: "Mantenha umidade regular durante o crescimento, permitindo rápida secagem superficial. Plantas montadas podem precisar de rega diária no verão. Reduza em períodos frios ou chuvosos, sem deixar a touceira ressecar por vários dias.",
-    suporte: "Placa de madeira, cortiça, galho fino ou pequeno cachepô vazado",
-    substrato: "Em montagem, use fina camada de esfagno junto às raízes. Em cachepô, misture casca fina, carvão pequeno, pedra-pomes e pouco esfagno.",
-    errosComuns: "Cultivar em sombra profunda; usar vaso grande; compactar esfagno; manter a touceira molhada durante toda a noite; aplicar adubo forte; cortar raízes finas saudáveis; impedir que as hastes pendam livremente.",
-    dica: "No litoral quente e úmido, cultive-a montada ou em pequeno cachepô, em posição elevada e ventilada. Ela aprecia umidade, mas não folhas e raízes molhadas durante toda a noite; regue cedo e evite substratos compactados.",
+    floracao: "Primavera e verão, principalmente de setembro a fevereiro, podendo variar conforme a maturação da touceira.",
+    adubacao: "🌿 Orgânica: bokashi em saquinho minúsculo suspenso acima da planta, permitindo dissolução suave durante as regas.\n💧 Foliar: NPK equilibrado a 1/4 ou até 1/6 da dose a cada 10–15 dias.\n🧪 Liberação lenta: Osmocote apenas em dose mínima e somente em cachepô, sempre afastado das raízes.\n🚿 Lavagem: uma vez por mês, lave abundantemente a montagem ou o substrato apenas com água pura para remover sais acumulados.",
+    rega: "Mantenha umidade regular durante o crescimento, mas com secagem superficial rápida e alta oxigenação. Plantas montadas podem necessitar de rega diária nos dias quentes. Regue preferencialmente pela manhã e evite que folhas e raízes permaneçam molhadas durante toda a noite. Reduza no frio sem deixar a touceira ressecar por vários dias.",
+    suporte: "🥇 Placa de madeira dura, cortiça ou tronco fino.\n🥈 Cachepô pequeno de madeira muito vazado.\n🥉 Vaso raso e pequeno apenas com drenagem extrema.",
+    substrato: "🥇 Montagem com uma camada finíssima de esfagno sob as raízes.\n🥈 Casca de pinus fina + carvão pequeno + pedra-pomes + pouco esfagno.\n🥉 Pedra-pomes + casca fina + akadama + pequena quantidade de esfagno.\n🌿 Evite compactação e mantenha a touceira elevada para as hastes penderem livremente.",
+    errosComuns: "Aplicar adubo químico concentrado; usar vaso grande; compactar esfagno; manter a touceira molhada durante toda a noite; cultivar sem circulação de ar; cortar raízes finas saudáveis; deixar o substrato secar completamente por longos períodos; impedir que as hastes pendam livremente; usar Osmocote em excesso ou encostado no rizoma.",
+    dica: "Use adubação homeopática, lavagem mensal de sais e muito ar. A Gomesa radicans prefere pequenas quantidades de nutrientes de forma contínua a doses fortes de fertilizante. Aplique apenas 1/4 ou 1/6 da dose foliar, faça uma lavagem completa com água pura uma vez por mês e cultive, sempre que possível, montada em cortiça, madeira dura ou cachepô muito ventilado. Para esta espécie, boa circulação de ar é mais importante do que simplesmente aumentar a quantidade de água.",
     adaptacaoRegional: {
-        litoralQuente: "Adapta-se bem em meia-sombra clara, com regas matinais, ventilação constante e rápida secagem superficial das raízes.",
-        montanhaFrio: "Desenvolve-se bem em clima intermediário; proteja de geadas e reduza a rega quando o frio diminuir a atividade das raízes."
+        litoralQuente: "Excelente adaptação em Serra/ES quando cultivada em meia-sombra clara, em posição elevada e com ventilação constante. O maior risco é o calor abafado aliado ao excesso de umidade.",
+        montanhaFrio: "Desenvolve-se com vigor em clima intermediário e serrano. Proteja de geadas, reduza a rega quando o frio diminuir a atividade radicular e evite noites frias com a touceira encharcada."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     avaliacoes: {
-        cultivo: 4,
+        cultivo: 3,
         floracao: 4,
         perfume: 1,
         luminosidade: 3,
