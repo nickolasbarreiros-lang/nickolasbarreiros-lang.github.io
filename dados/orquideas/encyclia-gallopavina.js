@@ -13,7 +13,7 @@ export const encycliaGallopavina = {
         "imagens/Encyclia gallopavina/Encyclia gallopavina3.jpg",
         "imagens/Encyclia gallopavina/Encyclia gallopavina4.jpeg"
     ],
-    descricao: "Espécie aceita e nativa do Sudeste brasileiro, com pseudobulbos firmes e flores cerosas em inflorescências eretas. A identificação deve ser preservada com procedência, pois espécies brasileiras de Encyclia podem ser confundidas.",
+    descricao: "A Encyclia gallopavina é uma orquídea epífita nativa da Mata Atlântica brasileira, encontrada principalmente na Região Sudeste (Espírito Santo, Rio de Janeiro e Minas Gerais). É bastante apreciada por colecionadores pela beleza exótica de suas flores, fragrância marcante e durabilidade da floração.",
     origem: "Sudeste do Brasil.",
     regiao: "Mata Atlântica e formações úmidas do Sudeste brasileiro.",
     habitat: "Epífita em floresta tropical úmida, geralmente em locais claros e ventilados.",
