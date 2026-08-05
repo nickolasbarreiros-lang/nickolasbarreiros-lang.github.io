@@ -1,0 +1,108 @@
+{
+  "lote": 5,
+  "especies_atualizadas": 10,
+  "fotos_integradas": 40,
+  "detalhes": [
+    {
+      "especie": "Miltonia moreliana",
+      "arquivo": "miltonia-spectabilis-var-moreliana.js",
+      "fotos": [
+        "imagens/Miltonia moreliana/Miltonia moreliana1.webp",
+        "imagens/Miltonia moreliana/Miltonia moreliana2.webp",
+        "imagens/Miltonia moreliana/Miltonia moreliana3.jpg",
+        "imagens/Miltonia moreliana/Miltonia moreliana4.jpg"
+      ]
+    },
+    {
+      "especie": "Octomeria diaphana",
+      "arquivo": "octomeria-diaphana.js",
+      "fotos": [
+        "imagens/Octomeria diaphana/Octomeria diaphana1.jpg",
+        "imagens/Octomeria diaphana/Octomeria diaphana2.webp",
+        "imagens/Octomeria diaphana/Octomeria diaphana3.jpg",
+        "imagens/Octomeria diaphana/Octomeria diaphana4.jpg"
+      ]
+    },
+    {
+      "especie": "Neobenthamia gracilis",
+      "arquivo": "neobenthamia-gracilis.js",
+      "fotos": [
+        "imagens/Neobenthamia gracilis/Neobenthamia gracilis1.jpg",
+        "imagens/Neobenthamia gracilis/Neobenthamia gracilis2.webp",
+        "imagens/Neobenthamia gracilis/Neobenthamia gracilis3.jpg",
+        "imagens/Neobenthamia gracilis/Neobenthamia gracilis4.jpg"
+      ]
+    },
+    {
+      "especie": "Miltonia regnellii",
+      "arquivo": "miltonia-regnellii.js",
+      "fotos": [
+        "imagens/Miltonia regnellii/Miltonia regnellii1.webp",
+        "imagens/Miltonia regnellii/Miltonia regnellii2.jpg",
+        "imagens/Miltonia regnellii/Miltonia regnellii3.webp",
+        "imagens/Miltonia regnellii/Miltonia regnellii4.jpg"
+      ]
+    },
+    {
+      "especie": "Oncidium Twinkle",
+      "arquivo": "oncidium-twinkle.js",
+      "fotos": [
+        "imagens/Oncidium Twinkle/Oncidium Twinkle1.webp",
+        "imagens/Oncidium Twinkle/Oncidium Twinkle2.jpg",
+        "imagens/Oncidium Twinkle/Oncidium Twinkle3.jpg",
+        "imagens/Oncidium Twinkle/Oncidium Twinkle4.webp"
+      ]
+    },
+    {
+      "especie": "Notylia pubescens",
+      "arquivo": "notylia-pubescens.js",
+      "fotos": [
+        "imagens/Notylia pubescens/Notylia pubescens1.jpg",
+        "imagens/Notylia pubescens/Notylia pubescens2.jpg",
+        "imagens/Notylia pubescens/Notylia pubescens3.jpg",
+        "imagens/Notylia pubescens/Notylia pubescens4.jpg"
+      ]
+    },
+    {
+      "especie": "Miltonia clowesii",
+      "arquivo": "miltonia-clowesii.js",
+      "fotos": [
+        "imagens/Miltonia clowesii/Miltonia clowesii1.jpg",
+        "imagens/Miltonia clowesii/Miltonia clowesii2.jpg",
+        "imagens/Miltonia clowesii/Miltonia clowesii3.jpg",
+        "imagens/Miltonia clowesii/Miltonia clowesii4.jpg"
+      ]
+    },
+    {
+      "especie": "Miltonia candida",
+      "arquivo": "miltonia-candida.js",
+      "fotos": [
+        "imagens/Miltonia candida/Miltonia candida1.webp",
+        "imagens/Miltonia candida/Miltonia candida2.jpg",
+        "imagens/Miltonia candida/Miltonia candida3.jpg",
+        "imagens/Miltonia candida/Miltonia candida4.jpg"
+      ]
+    },
+    {
+      "especie": "Octomeria micrantha",
+      "arquivo": "octomeria-micrantha.js",
+      "fotos": [
+        "imagens/Octomeria micrantha/Octomeria micrantha1.JPG",
+        "imagens/Octomeria micrantha/Octomeria micrantha2.JPG",
+        "imagens/Octomeria micrantha/Octomeria micrantha3.jpg",
+        "imagens/Octomeria micrantha/Octomeria micrantha4.jpg"
+      ]
+    },
+    {
+      "especie": "Oncidium pubes",
+      "arquivo": "oncidium-pubes.js",
+      "fotos": [
+        "imagens/Oncidium pubes/Oncidium pubes1.jpg",
+        "imagens/Oncidium pubes/Oncidium pubes2.jpg",
+        "imagens/Oncidium pubes/Oncidium pubes3.jpg",
+        "imagens/Oncidium pubes/Oncidium pubes4.jpg"
+      ]
+    }
+  ],
+  "instrucoes": "Copie as pastas imagens e dados para a raiz do projeto e confirme a substituicao dos arquivos existentes."
+}

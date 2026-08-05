@@ -1,0 +1,20 @@
+LOTE 11 — PADRÃO EDITORIAL V3
+
+Revisão definitiva:
+- Maxillaria leucaimata
+
+Dez fichas aprofundadas:
+- Mediocalcar decoratum
+- Miltonia candida
+- Miltonia clowesii
+- Miltonia regnellii
+- Miltonia moreliana (arquivo histórico miltonia-spectabilis-var-moreliana.js)
+- Neobenthamia gracilis
+- Notylia pubescens
+- Octomeria diaphana
+- Octomeria micrantha
+- Oncidium pubes
+
+Ajuste taxonômico:
+- Miltonia spectabilis var. moreliana atualizada para Miltonia moreliana, aceita como espécie por Plants of the World Online.
+- Oncidium pubes confirmado como nome válido; Baptistonia pubes indicado como combinação alternativa.

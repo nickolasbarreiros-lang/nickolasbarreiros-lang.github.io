@@ -1,0 +1,9 @@
+IMPLEMENTACAO-CARDS-V4
+
+- Capas do catálogo resumidas.
+- Selos visuais gerados automaticamente sobre as imagens.
+- Origem reduzida para uma linha.
+- Descrição limitada à primeira frase.
+- Informações extensas de clima e floração removidas apenas da capa.
+- Avaliação visual compacta com Cultivo, Floração, Perfume, Luz, Água e Raridade.
+- Fichas completas e arquivos de dados preservados.

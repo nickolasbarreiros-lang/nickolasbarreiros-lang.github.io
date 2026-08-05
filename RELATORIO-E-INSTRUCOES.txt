@@ -1,0 +1,14 @@
+ATUALIZAÇÃO — POSIÇÃO DOS SELOS NOS CARDS
+
+Arquivos modificados:
+- estilos.css
+- js/cards.js
+
+Alterações realizadas:
+- Os selos de hábito, porte, perfume e raridade foram removidos de cima da fotografia.
+- Esses selos agora aparecem em uma faixa própria imediatamente abaixo da foto.
+- Somente o selo de status de floração permanece sobre a fotografia.
+- A alteração foi aplicada aos modos galeria e lista, incluindo visualização responsiva.
+
+INSTALAÇÃO
+Copie os arquivos deste pacote para a raiz do site, mantendo a estrutura das pastas, e confirme a substituição dos arquivos existentes.

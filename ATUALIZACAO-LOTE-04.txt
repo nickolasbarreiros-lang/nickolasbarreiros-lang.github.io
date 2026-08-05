@@ -1,0 +1,8 @@
+As cinco fichas do Lote 04 foram reinseridas na versão limpa do site:
+- Bulbophyllum elassonotum
+- Bulbophyllum miniatum
+- Bulbophyllum sikkimense
+- Bulbophyllum syciobulbon
+- Camaridium carinatum
+
+Os arquivos estão em dados/orquideas/.

@@ -1,0 +1,18 @@
+LIMPEZA DO PROJETO — 26/07/2026
+
+Foram removidos:
+- cópias recursivas completas do site que estavam dentro de dados/orquideas/;
+- arquivos antigos catalogo_old.js;
+- versões de backup e v14 de CSS e JavaScript;
+- documentos internos de sprint, auditoria e integração que não são usados pelo site;
+- cópias de HTML, CSS, JavaScript, imagens e favicon indevidamente colocadas dentro da pasta de fichas;
+- arquivos auxiliares não importados: modelo.js, nomes-extraidos.txt, teste e ficha solta não cadastrada;
+- três imagens sem referência no código (um .gitkeep e duas cópias antigas planas).
+
+Foram preservados:
+- index.html e orquidea.html;
+- estilos.css e ficha.js atuais;
+- pasta js/ atual;
+- dados/orquideas/index.js e todas as fichas nele importadas;
+- todas as imagens utilizadas pelas fichas e pela interface;
+- favicon.ico.

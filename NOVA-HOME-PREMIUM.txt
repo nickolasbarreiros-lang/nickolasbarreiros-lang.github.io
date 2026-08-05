@@ -1,0 +1,13 @@
+NOVA HOME — ORQUIDÁRIO DIGITAL
+
+Alterações aplicadas somente à página inicial:
+- cabeçalho verde-escuro com detalhes dourados;
+- hero amplo com fotografia real da coleção;
+- título, busca e botões em estilo premium;
+- estatísticas integradas ao hero;
+- atalhos em cartões translúcidos;
+- transição visual entre a abertura escura e o restante do conteúdo;
+- responsividade para computador, tablet e celular;
+- textos ajustados para clima quente e úmido, sem referência específica a município.
+
+As fichas individuais, dados das orquídeas e funcionalidades do catálogo foram preservados.
