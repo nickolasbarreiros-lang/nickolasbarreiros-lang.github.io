@@ -1,29 +1,55 @@
-// Refinamento Final V3 — conteúdo consolidado e ampliado.
+// Ficha refinada V4 — conteúdo técnico ampliado com coluna lateral resumida.
 
 export const maxillariaSchunkeana = {
     "id": "maxillaria-schunkeana",
     "nome": "Maxillaria schunkeana",
     "genero": "Maxillaria",
-    "sinonimo": "Brasiliorchis schunkeana; Bolbidium schunkeanum",
+    "sinonimo": "Brasiliorchis schunkeana",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
-    "caracteristicas": ["Endêmica do Espírito Santo", "Flor vinho-púrpura quase negra", "Pseudobulbos compactos e bifoliados", "Hastes basais curtas", "Distribuição natural muito restrita"],
-    "fotos": ["imagens/Maxillaria schunkeana/Maxillaria schunkeana1.webp", "imagens/Maxillaria schunkeana/Maxillaria schunkeana2.jpeg", "imagens/Maxillaria schunkeana/Maxillaria schunkeana3.webp", "imagens/Maxillaria schunkeana/Maxillaria schunkeana4.jpeg"],
-    "descricao": "Maxillaria schunkeana Campacci & Kautsky é uma espécie epífita capixaba de porte pequeno a compacto, pertencente ao complexo historicamente tratado como Brasiliorchis. Forma touceiras de pseudobulbos ovoides e geralmente bifoliados. Suas flores pequenas, cerosas e brilhantes são vinho, púrpura ou castanho-avermelhado extremamente escuro; como refletem pouca luz, parecem negras em iluminação indireta, origem do nome popular ‘orquídea-negra’. O nome homenageia o orquidófilo capixaba Vital Schunk.",
-    "origem": "Endêmica do estado do Espírito Santo, Brasil. A restrição geográfica natural e a coloração incomum explicam seu elevado interesse colecionável, embora raridade na natureza e disponibilidade em cultivo sejam critérios distintos.",
-    "regiao": "Espírito Santo, Brasil.",
-    "habitat": "Epífita de Mata Atlântica úmida, associada a ambientes florestais protegidos, ventilados e com luz difusa. O fato de ser capixaba não significa adaptação automática a todo o estado: populações de encosta e ambientes frescos podem sofrer no litoral quente e abafado se não houver sombra térmica e circulação de ar.",
-    "clima": "Intermediário a quente moderado, com umidade atmosférica de moderada a alta e movimento constante de ar. Noites mais amenas são benéficas; calor elevado exige ventilação intensa, sombreamento e recipiente que não aqueça. Deve ser protegida de geadas, frio extremo e água acumulada durante períodos de baixa evaporação.",
-    "climaFloracao": "A floração depende de pseudobulbos maduros, raízes saudáveis e luz filtrada clara. A planta não deve ser mantida em sombra profunda. Após a maturação, uma redução natural da temperatura noturna e da frequência de rega pode favorecer a diferenciação floral, mas não se recomenda repouso seco. Botões basais são vulneráveis a abafamento, água parada e manipulação.",
-    "iluminacao": {"sombrite": "70% a 80% como referência no litoral quente", "solDireto": "Somente muito suave, por curto período e após aclimatação", "horario": "Sem horário fixo; observe a temperatura da folha", "observacoes": "Ofereça luz filtrada clara e difusa, sem sol quente ou aquecimento do vaso. Folhas excessivamente escuras, crescimento alongado e floração fraca indicam sombra demais; amarelecimento rápido, aquecimento e lesões secas indicam excesso de luz ou calor. A porcentagem da tela depende da altura, orientação e sombra lateral do orquidário."},
-    "floracao": "Frequentemente observada do fim do verão ao início do inverno, aproximadamente entre março e junho, com variação por procedência e manejo. As hastes são curtas e surgem rente à base dos pseudobulbos, podendo ficar escondidas entre bainhas e raízes. Flores vinho-púrpura muito escuras produzem o efeito quase negro. O perfume é ausente ou muito discreto em muitos exemplares e não deve ser considerado característica principal.",
-    "adubacao": "💧 Foliar/mineral: durante raízes e brotos ativos, use NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias, sobre raízes previamente molhadas.\n🌿 Orgânica: bokashi em quantidade reduzida, dentro de porta-adubo e longe do rizoma; é opcional.\n🧪 Liberação lenta: use poucos grânulos em vasos pequenos e muito drenantes. Intercale água limpa e faça lavagem periódica para remover sais, especialmente em vasos de barro. Reduza a adubação quando não houver crescimento ativo.",
-    "rega": "Regue abundantemente e permita que o substrato perca parte da umidade antes da próxima irrigação. Evite tanto a secagem prolongada quanto a saturação contínua. No litoral quente, a superfície pode secar enquanto o centro continua molhado; verifique o interior do vaso. Pseudobulbos enrugados em substrato encharcado sugerem raízes asfixiadas, não sede. Durante botonação, evite água acumulada junto à base.",
-    "suporte": "🥇 Vaso de barro pequeno e perfurado: favorece evaporação, resfriamento e aeração, mas exige controle de sais.\n🥈 Vaso plástico baixo, compacto e muito bem drenado, apenas ligeiramente maior que a touceira.\n🥉 Cesto pequeno ou placa com fina camada de musgo, somente em ambiente úmido e com rega ajustada. Replante no início das raízes novas e não enterre o rizoma.",
-    "substrato": "Para Serra/ES: casca de pinus pequena a média + pedra-pomes + carvão vegetal, com esfagno apenas se a mistura secar depressa demais. Outra opção é pedra-pomes + casca de pinus + carvão + pequena proporção de akadama. O substrato deve molhar completamente, drenar imediatamente e perder parte da umidade em poucos dias. Fibra de coco só deve ser usada bem lavada, estabilizada e sem compactação.",
-    "errosComuns": "Sol forte; sombra profunda; vaso aquecido; substrato velho ou saturado; rizoma enterrado; retirada agressiva de bainhas; água acumulada na base durante botonação; doses fortes de adubo. Cochonilhas escondem-se entre pseudobulbos, lesmas e caracóis atacam botões basais, e manchas foliares são favorecidas por abafamento. Raridade 5/5 refere-se à distribuição natural restrita e ao valor colecionável, não constitui por si só uma categoria oficial de ameaça.",
-    "dica": "Proteja do aquecimento e observe cuidadosamente a base da touceira. Retire apenas bainhas completamente secas e soltas, com a planta seca e usando instrumento limpo; não puxe material aderido, pois botões escuros podem estar escondidos. Mantenha a região basal ventilada e regue de modo que o substrato perca parte da umidade e volte a receber oxigênio entre as irrigações.",
-    "adaptacaoRegional": {"litoralQuente": "Em Serra/Vitória, reproduza sombra luminosa, umidade atmosférica e movimento de ar. Use vaso pequeno que não aqueça, substrato mais mineral e regas matinais. Ser nativa do Espírito Santo não garante facilidade no litoral abafado.", "montanhaFrio": "Em geral responde bem a noites amenas e boa luminosidade filtrada. Reduza a água em semanas frias e nubladas, sem impor seca total, e proteja de geadas."},
+    "caracteristicas": [
+        "Endêmica do Espírito Santo",
+        "Flor quase negra",
+        "Pseudobulbos bifoliados",
+        "Flores basais",
+        "Touceira compacta"
+    ],
+    "fotos": [
+        "imagens/Maxillaria schunkeana/Maxillaria schunkeana1.webp",
+        "imagens/Maxillaria schunkeana/Maxillaria schunkeana2.jpeg",
+        "imagens/Maxillaria schunkeana/Maxillaria schunkeana3.webp",
+        "imagens/Maxillaria schunkeana/Maxillaria schunkeana4.jpeg"
+    ],
+    "descricao": "Joia nativa capixaba conhecida como orquídea-negra. Forma touceiras compactas de pseudobulbos ovoides bifoliados e produz flores cerosas vinho-púrpura tão escuras que parecem pretas. A aparência resulta da elevada concentração de pigmentos antociânicos, não de pigmentação verdadeiramente negra. Exige luz suave, raízes muito arejadas e atenção às hastes curtas escondidas na base da touceira.",
+    "origem": "Endêmica do estado do Espírito Santo, Brasil.",
+    "regiao": "Mata Atlântica capixaba.",
+    "habitat": "Epífita de florestas úmidas e sombreadas de encosta, sempre com boa circulação de ar.",
+    "clima": "Intermediário a quente moderado, úmido e ventilado, sem calor abafado prolongado.",
+    "climaFloracao": "A floração depende de touceira madura, pseudobulbos bem formados, luz filtrada suave e raízes saudáveis. O excesso de calor e luz direta causa estresse; água estagnada na base pode comprometer botões que surgem rente ao substrato.",
+    "iluminacao": {
+        "sombrite": "70% a 80%",
+        "solDireto": "Evitar; apenas sol extremamente brando",
+        "horario": "Primeiros minutos da manhã, se aclimatada",
+        "observacoes": "Planta de interior de mata. Folhas começando a clarear demais, amarelar ou aquecer indicam excesso de exposição. Mantenha luz indireta clara e ventilação constante."
+    },
+    "floracao": "Predomina do outono ao início do inverno, aproximadamente de março a junho. As hastes têm cerca de 3 a 5 cm e emergem junto ao colo dos pseudobulbos, podendo ficar escondidas entre bainhas e substrato.",
+    "adubacao": "🌿 Orgânica: bokashi em pequena quantidade dentro de porta-adubo, na borda do vaso.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante atividade radicular.\n🚿 Flushing: lavagem mensal com água pura.\n⚠️ Nunca concentre fertilizante junto às raízes finas ou brotos novos.",
+    "rega": "Mantenha umidade regular durante o crescimento, permitindo que a parte superficial do substrato areje. No frio, aumente ligeiramente o intervalo sem deixar a planta seca por muitos dias. Pseudobulbos enrugados com substrato encharcado e raízes escuras indicam provável perda radicular por falta de oxigenação.",
+    "suporte": "🥇 Vaso de barro pequeno e perfurado, que resfria as raízes pela evaporação.\n🥈 Microvaso plástico apenas do tamanho da touceira.\n🥉 Placa de madeira com fina camada de esfagno, somente em locais com umidade acima de 65%.",
+    "substrato": "Casca de pinus média + pedra-pomes + carvão vegetal triturado. Também pode usar casca + brita fina + 10% a 20% de esfagno solto, ou fibra de coco em cubos bem lavada + carvão + material mineral. Mantenha rizoma e base dos pseudobulbos expostos.",
+    "errosComuns": "Sol forte, vaso grande, substrato retentor, rizoma enterrado, adubação concentrada e água acumulada na base durante a formação dos botões. Retire somente bainhas soltas ou deterioradas, sem ferir brotos e raízes.",
+    "dica": "Cultive sob 70% a 80% de sombreamento e mantenha a base da touceira visível. As flores quase negras surgem em hastes curtas e podem passar despercebidas; remova detritos soltos e evite água estagnada para preservar os botões.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Cultivo favorável no Espírito Santo, desde que o local seja fresco, sombreado e ventilado. Prefira vaso pequeno e mistura mineral de secagem rápida.",
+        "montanhaFrio": "Excelente adaptação. Reduza a frequência de rega no inverno sem secar totalmente o substrato e proteja contra geada."
+    },
     "mesesFloracao": [3, 4, 5, 6],
-    "avaliacoes": {"cultivo": 3, "floracao": 3, "perfume": 2, "luminosidade": 3, "agua": 4, "raridade": 5}
+    "avaliacoes": {
+        "cultivo": 3,
+        "floracao": 3,
+        "perfume": 2,
+        "luminosidade": 3,
+        "agua": 4,
+        "raridade": 5
+    }
 };
