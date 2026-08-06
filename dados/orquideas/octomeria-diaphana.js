@@ -39,7 +39,7 @@ export const octomeriaDiaphana = {
     "errosComuns": "Dividir touceiras pequenas, usar adubo concentrado, deixar secar por muitos dias, cultivar em sombra profunda ou manter esfagno encharcado. Pontas secas podem resultar de baixa umidade, sais ou raízes comprometidas.",
     "dica": "Evite divisões mínimas. Octomerias florescem e se estabilizam melhor quando mantidas em touceiras com vários crescimentos.",
     "adaptacaoRegional": {
-        "litoralQuente": "Use sombra clara, montagem ventilada e umidade ambiental. Em placas, aumente as regas no calor sem deixar água parada.",
+        "litoralQuente": "Use sombra clara, montagem ventilada e umidade ambiente. Em placas de madeira, aumente as regas no calor sem deixar água parada.",
         "montanhaFrio": "Boa adaptação, com proteção contra geada. Em inverno úmido e nublado, aumente a ventilação e reduza a frequência de rega."
     },
     "mesesFloracao": [
