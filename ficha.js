@@ -1,8 +1,9 @@
-import { orquideas } from "./dados/orquideas/index.js?v=20260806-cadeia-unica-final";
+import { orquideas } from "./dados/orquideas/index.js?v=20260806-1604-auditoria-estrutural";
 
 // Marcador público da cadeia oficial de carregamento.
-window.__ORQUIDARIO_BUILD__ = "20260806-cadeia-unica-final";
+window.__ORQUIDARIO_BUILD__ = "20260806-1604-auditoria-estrutural";
 console.info("[Orquidário] cadeia oficial:", "orquidea.html → ficha.js → index.js → arquivo individual", window.__ORQUIDARIO_BUILD__);
+document.documentElement.dataset.orquidarioBuild = window.__ORQUIDARIO_BUILD__;
 
 /* =========================================================
    CONFIGURAÇÃO INICIAL

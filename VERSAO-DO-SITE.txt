@@ -1,0 +1,2 @@
+ORQUIDARIO_BUILD=20260806-1604-auditoria-estrutural
+A cadeia oficial é: orquidea.html -> ficha.js -> dados/orquideas/index.js -> ficha individual.
