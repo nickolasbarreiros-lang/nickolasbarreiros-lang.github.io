@@ -1,42 +1,60 @@
-// Ficha revisada a partir de três bases de cultivo fornecidas pelo usuário.
-// Padrão Editorial V3 — adaptação para litoral quente e úmido.
+// Ficha comparada, consolidada e maximamente enriquecida — padrão editorial V4.
 
 export const stanhopeaAssidensis = {
-    id: "stanhopea-assidensis",
-    nome: "Stanhopea Assidensis",
-    genero: "Stanhopea",
-    tipo: "Híbrido primário artificial — Stanhopea tigrina × Stanhopea wardii",
-    dificuldade: "Moderada",
-    caracteristicas: ["Flores grandes e carnosas", "Perfume intenso", "Inflorescência pendente", "Cesto obrigatório"],
-    fotos: [
+    "id": "stanhopea-assidensis",
+    "nome": "Stanhopea Assidensis",
+    "genero": "Stanhopea",
+    "tipo": "Híbrido primário — Stanhopea tigrina × Stanhopea wardii",
+    "dificuldade": "Moderada",
+    "caracteristicas": [
+        "Híbrido primário histórico registrado em 1922",
+        "Inflorescência geotrópica descendente",
+        "Flores grandes, espessas e muito perfumadas",
+        "Folha única ampla e plissada por pseudobulbo",
+        "Cultivo obrigatório em cesto suspenso vazado",
+        "Alta exigência hídrica com forte aeração"
+    ],
+    "fotos": [
         "imagens/Stanhopea Assidensis/Stanhopea Assidensis1.jpg",
         "imagens/Stanhopea Assidensis/Stanhopea Assidensis2.jpg",
         "imagens/Stanhopea Assidensis/Stanhopea Assidensis3.jpg",
         "imagens/Stanhopea Assidensis/Stanhopea Assidensis4.jpg"
     ],
-    descricao: "Híbrido primário registrado por H. Goldschmidt em 1922, resultante do cruzamento entre Stanhopea tigrina e Stanhopea wardii. Produz flores grandes, espessas e muito perfumadas, em tons de creme a amarelo-claro, com pintas e manchas que podem variar do marrom ao vinho. A fragrância é doce e intensa, frequentemente lembrando baunilha com especiarias. Como em todo o gênero, as hastes florais crescem para baixo e precisam atravessar o substrato para florescer.",
-    origem: "Híbrido de cultivo registrado em 1922; seus parentais são espécies da América Central.",
-    regiao: "Não possui distribuição natural própria por ser um híbrido artificial.",
-    habitat: "Seus parentais são epífitas de florestas tropicais úmidas, o que explica a preferência por alta umidade, luz filtrada e boa circulação de ar.",
-    clima: "Intermediário a quente, úmido e bem ventilado.",
-    climaFloracao: "Floresce melhor quando os pseudobulbos amadurecem completamente, com boa luminosidade filtrada, umidade elevada e leve diferença entre as temperaturas do dia e da noite. Em litoral quente e úmido, a ventilação constante é essencial para evitar superaquecimento, manchas foliares e apodrecimento das raízes.",
-    iluminacao: {
-        sombrite: "60% a 70%",
-        solDireto: "Evitar nas horas quentes",
-        horario: "Apenas sol fraco do início da manhã",
-        observacoes: "Prefere luz intensa, porém filtrada. Folhas verde-médio indicam boa luminosidade; folhas muito escuras sugerem falta de luz, enquanto amarelecimento e queimaduras indicam excesso."
+    "descricao": "Híbrido primário entre Stanhopea tigrina e Stanhopea wardii, registrado em 1922. Forma pseudobulbos ovoides e sulcados, cada um sustentando uma folha larga, plissada e coriácea. A inflorescência apresenta geotropismo positivo: nasce na base do pseudobulbo, atravessa o substrato e cresce para baixo. As flores são grandes, carnosas, intensamente perfumadas e de curta duração, com tons creme a amarelo e manchas castanhas ou vinho.",
+    "origem": "Híbrido horticultural.",
+    "regiao": "Sem ocorrência natural.",
+    "habitat": "Baseado em S. tigrina e S. wardii.",
+    "clima": "Quente a intermediário e úmido.",
+    "climaFloracao": "A floração depende de pseudobulbos bem formados, raízes ativas e noites ligeiramente mais amenas após a maturação. Não exige seca severa. A planta deve permanecer hidratada, porém com o substrato continuamente aerado. Touceiras adultas podem emitir hastes em sequência, prolongando o período de floração apesar da curta duração individual das flores.",
+    "iluminacao": {
+        "sombrite": "60% a 70%",
+        "solDireto": "Somente muito suave",
+        "horario": "Até aproximadamente 07:30",
+        "observacoes": "Prefere luz filtrada abundante. Folhas verde-médio e firmes indicam bom equilíbrio. Folhas muito escuras e alongadas sugerem sombra excessiva; amarelecimento rápido e áreas secas indicam excesso de luz ou calor."
     },
-    floracao: "Principalmente do verão ao início do outono. As flores duram cerca de 2 a 4 dias, mas plantas adultas podem emitir várias hastes em sequência e prolongar o espetáculo.",
-    adubacao: "🌿 Orgânica: aplique pequena quantidade de bokashi na borda da cesta a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: utilize adubo equilibrado em meia dose a cada 10 a 15 dias, evitando aplicações nas flores.\n🧪 Liberação lenta: Osmocote pode ser usado em dose moderada, sem contato direto com brotos e raízes novas. Reduza bastante a adubação no inverno ou quando a planta estiver sem crescimento ativo.",
-    rega: "Regue de forma regular e abundante durante a formação de brotos, raízes e pseudobulbos. O substrato deve permanecer levemente úmido, mas nunca encharcado ou compactado. Evite deixá-lo completamente seco por vários dias. No inverno, reduza a frequência, mantendo umidade suficiente para impedir o enrugamento excessivo dos pseudobulbos.",
-    suporte: "🥇 Cesta suspensa de madeira com ripas largas.\n🥈 Cesto de plástico amplamente perfurado.\n🥉 Cesto aramado revestido apenas com uma camada fina de fibra de coco ou esfagno.\nNunca utilize vaso fechado ou prato sob o recipiente, pois a haste floral precisa sair pela parte inferior ou pelas laterais.",
-    substrato: "🥇 Casca de pinus média + carvão vegetal + pequena quantidade de esfagno.\n🥈 Casca de pinus + fibra de coco em cubos + pedra-pomes.\n🥉 Esfagno de fibra longa usado de forma solta em cesta muito vazada.\nA mistura deve reter alguma umidade, mas permanecer aerada e drenar rapidamente.",
-    errosComuns: "Usar vaso fechado; bloquear o fundo da cesta; compactar o esfagno; deixar o substrato secar completamente durante o crescimento; manter a planta em ambiente abafado; expor ao sol forte; regar em excesso no inverno; replantar durante a formação de hastes florais.",
-    dica: "O recipiente é o fator decisivo: mantenha a planta em cesto suspenso e confira regularmente a parte inferior. Uma haste floral pode se perder se encontrar madeira, tela apertada ou substrato compactado no caminho.",
-    adaptacaoRegional: {
-        litoralQuente: "Cultive em sombra clara, cesta suspensa e local com circulação permanente de ar. Regue preferencialmente pela manhã, evitando encharcamento prolongado e água acumulada em brotos ou flores no fim do dia.",
-        montanhaFrio: "Em regiões mais frescas, proteja de frio intenso e reduza as regas nos períodos de menor atividade, sem deixar os pseudobulbos desidratarem em excesso."
+    "floracao": "Mais comum do verão ao início do outono, entre janeiro e abril. As flores duram em média de 2 a 4 dias, mas podem surgir em hastes sequenciais. Durante a emissão, inspecione frequentemente o fundo do cesto para confirmar que a haste não está bloqueada por ripas, tela ou substrato compactado.",
+    "adubacao": "🌿 Orgânica: bokashi em pequena quantidade na borda da cesta a cada 60–90 dias no crescimento.\n💧 Foliar/mineral: NPK equilibrado em 1/3 a 1/2 da dose a cada 10–15 dias enquanto brotos e raízes estiverem ativos.\n🧪 Liberação lenta: Osmocote em dose moderada, longe de brotos e raízes novas.\n🚿 Flushing: lave o cesto mensalmente com água pura. Reduza a adubação após a maturação e durante frio prolongado.",
+    "rega": "Regue abundantemente durante a formação de brotos, folhas e pseudobulbos, mantendo o material levemente úmido sem saturação. O cesto deve drenar imediatamente. No inverno, reduza a frequência, mas não permita desidratação profunda. Pseudobulbos muito enrugados com substrato úmido indicam raízes comprometidas, não simples falta de água.",
+    "suporte": "🥇 Cesta suspensa de madeira com ripas largas e fundo totalmente livre.\n🥈 Cesto plástico amplamente perfurado e sem base sólida.\n🥉 Cesto aramado revestido com fibra de coco ou esfagno muito solto.\nEvite pratos, telas fechadas e qualquer placa rígida sob o recipiente.",
+    "substrato": "Opção 1: casca de pinus média + carvão vegetal + pequena fração de esfagno solto.\nOpção 2: cubos de fibra de coco lavada + pedra-pomes + casca média.\nOpção 3: esfagno de fibra longa, usado solto em cesto muito vazado.\nA mistura deve permitir a passagem física da haste floral e não pode compactar.",
+    "errosComuns": "Usar vaso fechado; bloquear o fundo do cesto; compactar esfagno; deixar secar por vários dias no crescimento; replantar durante a formação da haste; manter ambiente abafado; mover a cesta após a haste aparecer; adubar em excesso; ignorar a inspeção inferior.",
+    "dica": "O cesto define o sucesso. Mantenha a touceira centralizada, o fundo desobstruído e inspecione-o durante toda a emissão floral. Assim que a haste aparecer, não gire nem mova a cesta. Qualquer contato, mudança brusca de posição ou obstáculo pode quebrar a haste e abortar os botões.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Em Serra/ES, use sombra clara, cesto suspenso, regas matinais e circulação permanente de ar. No verão, aumente a umidade do ambiente sem manter o substrato saturado à noite.",
+        "montanhaFrio": "Noites frescas favorecem a indução. Proteja de frio extremo e reduza a água sem deixar os pseudobulbos desidratarem."
     },
-    mesesFloracao: [1,2,3,4],
-    avaliacoes: { cultivo: 3, floracao: 4, perfume: 5, luminosidade: 3, agua: 5, raridade: 4 }
+    "mesesFloracao": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "avaliacoes": {
+        "cultivo": 3,
+        "floracao": 4,
+        "perfume": 5,
+        "luminosidade": 3,
+        "agua": 5,
+        "raridade": 4
+    }
 };
