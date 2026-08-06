@@ -1,4 +1,4 @@
-// Ficha comparada, consolidada e maximamente enriquecida — revisão editorial V4.
+// Ficha comparada com o conteúdo anterior, consolidada com as novas informações e maximamente enriquecida — padrão editorial V4.
 
 export const cattleyaSchillerianaXCruzeiroDoSul = {
     "id": "cattleya-schilleriana-x-cruzeiro-do-sul",
@@ -8,11 +8,12 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
     "dificuldade": "Moderada",
     "caracteristicas": [
         "Híbrido hortícola brasileiro",
-        "Vigor superior à espécie pura",
-        "Flores cerosas e pintalgadas",
+        "Mais vigoroso que Cattleya schilleriana pura",
         "Porte compacto a médio",
+        "Flores cerosas, pintalgadas e duráveis",
         "Herança radicular sensível",
-        "Replante somente com raízes ativas"
+        "Replante somente com raízes ativas",
+        "Boa adaptação a clima quente e ventilado"
     ],
     "fotos": [
         "imagens/cattleya-schilleriana-cruzeiro-do-sul/cattleya-schilleriana-cruzeiro-do-sul-1.webp",
@@ -20,28 +21,28 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
         "imagens/cattleya-schilleriana-cruzeiro-do-sul/cattleya-schilleriana-cruzeiro-do-sul-3.webp",
         "imagens/cattleya-schilleriana-cruzeiro-do-sul/cattleya-schilleriana-cruzeiro-do-sul-4.jpg"
     ],
-    "descricao": "Híbrido hortícola brasileiro envolvendo Cattleya schilleriana e um parental identificado comercialmente como Cruzeiro do Sul. Combina a textura cerosa, o padrão pintalgado e o contraste floral de C. schilleriana com maior vigor vegetativo e melhor tolerância de cultivo. Mesmo mais robusto que a espécie pura, conserva raízes sensíveis à compactação, ao excesso de água e ao replante fora da fase de enraizamento.",
+    "descricao": "Cattleya schilleriana × Cruzeiro do Sul é um híbrido hortícola brasileiro criado para combinar o desenho ceroso, pintalgado e contrastante de C. schilleriana com maior vigor, rusticidade e velocidade de estabelecimento. O porte tende a permanecer compacto a médio, com pseudobulbos eretos e folhas coriáceas. As flores podem variar entre indivíduos, mas geralmente conservam pétalas e sépalas manchadas ou pintalgadas, textura firme, boa duração e labelo magenta ou purpúreo de forte contraste. O vigor híbrido torna o cultivo mais tolerante que o da espécie pura, mas não elimina a sensibilidade radicular herdada. A planta responde melhor a recipientes pequenos, substrato grosseiro, raízes bem ventiladas e replante sincronizado com o novo enraizamento.",
     "origem": "Híbrido horticultural.",
     "regiao": "Sem distribuição natural.",
     "habitat": "Cultivo sob parâmetros de Cattleyas bifoliadas brasileiras.",
     "clima": "Quente a intermediário, claro e ventilado.",
-    "climaFloracao": "A floração depende de pseudobulbos maduros, alta luminosidade filtrada, secagem rápida e sistema radicular íntegro. O vigor híbrido aumenta a tolerância ao calor e a pequenas variações de manejo, mas não elimina a necessidade de respeitar a janela de replante.",
+    "climaFloracao": "A floração depende de crescimento vegetativo completo, pseudobulbo firme, boa luminosidade e raízes funcionais. O híbrido tolera melhor o calor e pequenas oscilações de rega do que C. schilleriana pura, mas ainda sofre quando permanece em substrato velho ou úmido por tempo prolongado. Após o pseudobulbo amadurecer, uma redução moderada de água e nitrogênio ajuda a direcionar as reservas para a floração. Não necessita repouso seco rígido; a prioridade é impedir crescimento contínuo e mole causado por excesso de adubação e sombra.",
     "iluminacao": {
         "sombrite": "40% a 50%",
         "solDireto": "Sim, fraco e aclimatado",
         "horario": "Início da manhã",
         "observacoes": "Luz alta favorece pseudobulbos compactos, boa pigmentação e floradas mais abundantes. Folhas muito escuras indicam sombra; manchas secas e amarelecimento sugerem excesso de sol."
     },
-    "floracao": "Principalmente da primavera ao verão, entre setembro e janeiro, após a maturação do pseudobulbo. As flores costumam apresentar textura firme, boa durabilidade, pintas contrastantes e labelo magenta ou purpúreo.",
-    "adubacao": "🌿 Orgânica: bokashi em pequena dose na borda do recipiente durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/2 da dose a cada 10–15 dias.\n🧪 Liberação lenta: Osmocote em dose baixa, afastado das raízes novas.\n🚿 Flushing: lave o vaso mensalmente para evitar salinização.\n🌸 Maturação: reduza o nitrogênio quando o pseudobulbo estiver firme.",
-    "rega": "Regue abundantemente durante brotação e enraizamento, deixando o substrato secar quase por completo antes da próxima irrigação. Após a maturação, aumente o intervalo sem causar desidratação severa. Evite água acumulada nas bainhas dos brotos e regas tardias em noites abafadas.",
-    "suporte": "🥇 Vaso de barro pequeno e furado.\n🥈 Cestinho de madeira aberto.\n🥉 Placa de madeira em ambiente de alta umidade.\nUse recipientes proporcionais ao tamanho da touceira, sem grande volume de substrato vazio.",
-    "substrato": "Opção 1: casca de pinus grossa + carvão + brita.\nOpção 2: pedra-pomes + carvão vegetal.\nOpção 3: casca de pinus média em quantidade mínima.\nA mistura precisa secar rapidamente e permanecer estrutural por longo período.",
-    "errosComuns": "Sombra excessiva; vaso grande; substrato velho; rega sem secagem; replante sem raízes novas; enterrar o rizoma; deixar água nos brotos; adubar forte; dividir em poucas frentes.",
-    "dica": "O vigor híbrido não elimina a sensibilidade herdada de C. schilleriana. Divida ou replante somente quando as novas raízes estiverem despontando na base da frente recente. Use vaso pequeno, material grosseiro e fixe a planta firmemente para que as pontas novas não sejam quebradas.",
+    "floracao": "Floresce principalmente da primavera ao verão, entre setembro e janeiro, após o amadurecimento das novas frentes. A haste surge no ápice do pseudobulbo e pode sustentar flores cerosas, perfumadas e de boa durabilidade. Por se tratar de cruzamento hortícola, coloração, quantidade de flores e intensidade do perfume podem variar entre plantas irmãs. Plantas mantidas em touceiras maiores tendem a apresentar floradas mais regulares que divisões pequenas.",
+    "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, dentro de porta-adubo, durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/2 da dose a cada 10–15 dias enquanto houver brotos e raízes.\n🌱 Raízes novas: reduza a concentração durante as primeiras semanas para evitar queimaduras nas pontas.\n🌸 Maturação: diminua o nitrogênio após o pseudobulbo endurecer.\n🧪 Liberação lenta: Osmocote em dose baixa, afastado do broto e somente em vaso muito drenante.\n🚿 Flushing: irrigação abundante com água pura uma vez por mês.",
+    "rega": "Molhe bem durante a formação dos brotos, mas só repita quando o substrato estiver próximo da secagem. Após a maturação, aumente o intervalo entre regas, sem deixar pseudobulbos murcharem excessivamente. Evite água acumulada nas bainhas, regas noturnas e o uso de cachepôs decorativos fechados. Se a planta murchar com o substrato ainda úmido, verifique imediatamente as raízes.",
+    "suporte": "🥇 Vaso de barro pequeno e perfurado: fornece estabilidade e secagem rápida.\n🥈 Cestinho de madeira aberto: ideal para máxima aeração.\n🥉 Placa de madeira ou cortiça: indicada em orquidários úmidos e com rotina de rega frequente.\nO recipiente deve permitir apenas duas ou três novas frentes e o rizoma deve ser fixado sobre a superfície.",
+    "substrato": "Opção 1: casca grossa + carvão + brita.\nOpção 2: pedra-pomes + carvão vegetal.\nOpção 3: casca média em pequena quantidade, sem preencher excessivamente o vaso.\nEvite misturas finas, compactadas e com muito esfagno. O objetivo é molhar completamente e secar em curto período.",
+    "errosComuns": "Replantar sem raízes novas; usar vaso grande; manter substrato velho; enterrar o rizoma; regar por calendário; cultivar em sombra; aplicar excesso de nitrogênio; deixar a planta solta; dividir touceira pequena; manter cachepô decorativo com água; cortar raízes aderidas sem necessidade.",
+    "dica": "Trate o híbrido como mais vigoroso, mas não como indestrutível. O replante deve ocorrer quando a nova frente emitir raízes curtas e ativas. Preserve as raízes antigas, use vaso pequeno e fixe a planta firmemente. O vigor híbrido aparece quando o sistema radicular permanece íntegro; sem raízes, a planta perde rapidamente a vantagem do cruzamento.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, adapta-se muito bem com ventilação forte, sombra clara e secagem rápida. Proteja de chuvas contínuas quando o crescimento estiver maduro.",
-        "montanhaFrio": "Mantenha alta luminosidade e reduza regas em períodos frios. Proteja de frio prolongado."
+        "litoralQuente": "Em Serra/ES, adapta-se muito bem. Use luz forte filtrada, ventilação contínua, regas matinais e recipiente que não retenha água durante as semanas chuvosas.",
+        "montanhaFrio": "Proteja de frio prolongado e reduza regas nos dias nublados. Mantenha alta luminosidade para evitar brotos fracos."
     },
     "mesesFloracao": [
         9,

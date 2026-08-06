@@ -1,4 +1,4 @@
-// Ficha comparada, consolidada e maximamente enriquecida — revisão editorial V4.
+// Ficha comparada com o conteúdo anterior, consolidada com as novas informações e maximamente enriquecida — padrão editorial V4.
 
 export const cattleyaViolaceaFFlamea = {
     "id": "cattleya-violacea-f-flamea",
@@ -7,12 +7,13 @@ export const cattleyaViolaceaFFlamea = {
     "tipo": "Espécie botânica — forma horticultural",
     "dificuldade": "Moderada",
     "caracteristicas": [
-        "Espécie amazônica bifoliada",
         "Forma horticultural flamea",
-        "Padrão intenso nas extremidades das pétalas",
+        "Espécie amazônica bifoliada",
+        "Coloração intensificada nas extremidades das pétalas",
         "Calor noturno indispensável",
-        "Atividade radicular quase contínua",
-        "Sem repouso seco severo"
+        "Alta umidade com ventilação contínua",
+        "Atividade radicular prolongada",
+        "Não tolera repouso seco severo"
     ],
     "fotos": [
         "imagens/Cattleya violacea f. flamea/Cattleya violacea f. flamea1.jpg",
@@ -20,28 +21,28 @@ export const cattleyaViolaceaFFlamea = {
         "imagens/Cattleya violacea f. flamea/Cattleya violacea f. flamea3.jpg",
         "imagens/Cattleya violacea f. flamea/Cattleya violacea f. flamea4.webp"
     ],
-    "descricao": "Forma horticultural selecionada de Cattleya violacea, espécie bifoliada amazônica de clima quente e úmido. O padrão flamea caracteriza-se pela intensificação da coloração nas extremidades das pétalas, criando efeito de chama. Forma pseudobulbos cilíndricos e bifoliados e mantém atividade radicular por grande parte do ano quando recebe calor, umidade e ventilação constantes. Diferentemente de muitas Cattleyas do Sudeste, não responde bem a frio ou seca prolongada.",
+    "descricao": "Cattleya violacea f. flamea é uma forma horticultural selecionada da espécie amazônica Cattleya violacea. O padrão flamea caracteriza-se pela intensificação da cor nas extremidades das pétalas, formando áreas mais escuras semelhantes a chamas, enquanto o restante da flor mantém tonalidade mais clara. A planta apresenta pseudobulbos cilíndricos, bifoliados e relativamente espaçados, folhas rígidas e raízes que podem permanecer ativas por grande parte do ano quando o microclima é quente. É uma Cattleya de fisiologia amazônica: prefere calor constante, alta umidade relativa, luz filtrada brilhante e movimento contínuo de ar. Diferentemente de espécies do Sudeste, não deve ser submetida a repouso seco prolongado nem a frio intenso. Seu cultivo é mais bem-sucedido quando se combina irrigação frequente com suporte extremamente aerado.",
     "origem": "América do Sul tropical.",
     "regiao": "Bacia Amazônica e norte da América do Sul.",
     "habitat": "Matas ciliares quentes, úmidas e ventiladas.",
     "clima": "Quente e úmido durante todo o ano.",
-    "climaFloracao": "A floração é sustentada por crescimento contínuo, noites quentes, raízes ativas e luz filtrada intensa. A espécie não necessita estresse hídrico ou frio para indução. Reduções severas de água interrompem a atividade radicular e atrasam a maturação dos pseudobulbos.",
+    "climaFloracao": "A floração depende de crescimento contínuo, raízes ativas, noites quentes, umidade atmosférica estável e pseudobulbos plenamente maduros. Não é necessário induzir por frio ou seca severa. Ao contrário, noites frias e desidratação prolongada paralisam raízes e brotos. Uma leve redução de água pode ocorrer apenas quando a evaporação diminui, sem permitir que o sistema radicular seque por vários dias. Em regiões quentes, a ventilação evita que a combinação de calor e umidade resulte em podridão.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Somente muito fraco",
         "horario": "Início da manhã",
         "observacoes": "Forneça luz brilhante, uniforme e filtrada. Folhas firmes e verde-médio indicam bom equilíbrio. Sombra excessiva produz pseudobulbos finos; sol forte causa superaquecimento e queimaduras."
     },
-    "floracao": "Principalmente da primavera ao verão, entre outubro e março, podendo ocorrer em outros períodos sob cultivo continuamente aquecido. As flores exibem coloração violeta-púrpura com intensificação flamea nas pétalas e labelo magenta profundo.",
-    "adubacao": "🌿 Orgânica: bokashi em pequena quantidade enquanto houver crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose semanalmente ou a cada 15 dias.\n🧪 Liberação lenta: dose baixa somente em recipientes muito drenantes.\n🚿 Flushing: lavagem mensal com água pura para preservar raízes ativas.\nNão suspenda totalmente a nutrição enquanto a planta continuar crescendo.",
-    "rega": "Mantenha regas frequentes durante todo o ano, permitindo apenas leve secagem superficial. A planta não deve permanecer encharcada, mas também não deve passar vários dias completamente seca. Regue pela manhã e garanta secagem da folhagem antes da noite.",
-    "suporte": "🥇 Cestinho de madeira aberto.\n🥈 Vaso de barro bem perfurado.\n🥉 Placa de madeira ou tronco apenas em ambiente de umidade constantemente alta.\nO suporte deve permitir irrigação frequente sem abafamento.",
-    "substrato": "Opção 1: casca grossa + carvão + pequena proporção de esfagno.\nOpção 2: fibra de coco grossa + carvão.\nOpção 3: pedra-pomes + casca média.\nA mistura deve permanecer aerada e reter apenas umidade moderada entre regas.",
-    "errosComuns": "Expor ao frio; impor repouso seco; baixa umidade; sol forte; substrato compacto; água no rizoma; regas noturnas; pouca ventilação; excesso de adubo; manter raízes saturadas.",
-    "dica": "Calor noturno e umidade estável são indispensáveis. Use cesto ou vaso muito perfurado para que seja possível regar frequentemente sem sufocar as raízes. A meta é manter atividade radicular contínua, nunca substrato constantemente molhado.",
+    "floracao": "Floresce principalmente da primavera ao verão, entre outubro e março, e pode produzir flores fora dessa janela quando mantida em crescimento contínuo. A inflorescência surge no ápice do pseudobulbo maduro e sustenta flores violeta-púrpura com padrão flamea nas pétalas e labelo magenta intenso. A duração das flores melhora quando são protegidas de chuva direta, sol forte e calor excessivo.",
+    "adubacao": "🌿 Orgânica: bokashi em quantidade pequena e somente enquanto houver crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose, semanalmente ou a cada 15 dias.\n🌱 Crescimento contínuo: não suspenda completamente a nutrição se a planta continuar emitindo raízes e brotos.\n🧪 Liberação lenta: Osmocote em dose baixa, apenas em cestos ou vasos muito drenantes.\n🚿 Flushing: lave mensalmente com água pura para evitar salinização.\nEvite adubar durante calor extremo ou sobre raízes secas.",
+    "rega": "Regue regularmente durante todo o ano, molhando bem e permitindo leve secagem superficial antes da próxima aplicação. Em cestos, a frequência pode ser alta; em vasos, verifique o interior antes de repetir. Não deixe a planta completamente seca por vários dias e não mantenha o substrato saturado. Regue pela manhã, evite água parada no rizoma e garanta que folhas e brotos sequem antes da noite.",
+    "suporte": "🥇 Cestinho de madeira aberto: permite irrigação frequente com máxima aeração.\n🥈 Vaso de barro muito perfurado: mantém estabilidade e boa troca gasosa.\n🥉 Placa de madeira ou tronco: indicada apenas quando a umidade do ar permanece alta e existe rotina de rega frequente.\nUse suporte dimensionado para alguns anos, pois a espécie não aprecia perturbações repetidas.",
+    "substrato": "Opção 1: casca grossa + carvão + pequena porção de esfagno solto.\nOpção 2: fibra de coco grossa, tratada e lavada, + carvão.\nOpção 3: pedra-pomes + casca média.\nA mistura deve reter umidade moderada, mas manter grande volume de ar. Evite esfagno compactado, fibra fina e vasos profundos.",
+    "errosComuns": "Expor a frio prolongado; impor repouso seco; deixar raízes secas por vários dias; manter substrato saturado; usar pouca ventilação; cultivar em sombra profunda; deixar água no rizoma; regar à noite; usar substrato fino; aplicar excesso de adubo; replantar sem raízes novas; confundir alta umidade do ar com encharcamento.",
+    "dica": "O segredo não é simplesmente regar mais, mas manter calor, umidade e ar em equilíbrio. Use cesto ou vaso muito perfurado, regue com frequência pela manhã e permita que a superfície das raízes respire. Mantenha noites quentes e nunca aplique um repouso seco típico de Cattleyas do Sudeste. A planta deve permanecer hidratada e metabolicamente ativa sem ficar encharcada.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, o clima é especialmente favorável. Priorize ventilação, sombra luminosa e controle do excesso de chuva sobre o recipiente.",
-        "montanhaFrio": "Exige local protegido ou aquecido. Noites frias prolongadas reduzem vigor e favorecem manchas."
+        "litoralQuente": "Em Serra/ES, o clima é muito favorável. Mantenha sombra luminosa, circulação de ar e proteção contra chuva contínua dentro do recipiente. O calor local é uma vantagem, desde que as raízes não fiquem abafadas.",
+        "montanhaFrio": "Cultive em local protegido, preferencialmente aquecido. Evite temperaturas noturnas prolongadas abaixo de 15 °C e reduza a água apenas conforme a evaporação."
     },
     "mesesFloracao": [
         10,
