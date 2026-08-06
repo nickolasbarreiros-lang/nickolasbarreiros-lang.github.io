@@ -28,8 +28,8 @@ export const oncidiumPumilum = {
     suporte: "🥇 Placa de madeira, cortiça ou tronquinho.\n🥈 Cachepô pequeno e muito vazado.\n🥉 Vaso de barro pequeno, com substrato extremamente aerado.",
     substrato: "🥇 Pequena manta de esfagno sobre placa.\n🥈 Casca fina + pedra-pomes + carvão.\n🥉 Fibra de coco tratada + carvão, sem compactação.",
     errosComuns: "Cultivar em sombra; usar vaso grande; manter o substrato constantemente molhado; dividir touceiras pequenas; enterrar o rizoma; aplicar adubo concentrado nas raízes finas.",
-    dica: "Mantenha a planta em touceira e evite divisões frequentes. Em Serra/ES, ofereça luz alta, ventilação permanente e secagem rápida depois das regas matinais.",
-    adaptacaoRegional: { litoralQuente: "Adapta-se bem em Serra/ES quando montada ou em recipiente muito vazado. Proteja apenas do sol forte e do abafamento noturno.", montanhaFrio: "Desenvolve-se muito bem com noites frescas, desde que protegida de frio intenso e de longos períodos encharcados." },
+    dica: "Mantenha a planta em touceira e evite divisões frequentes. Em locais de clima quente, ofereça luz alta, ventilação permanente e secagem rápida depois das regas matinais.",
+    adaptacaoRegional: { litoralQuente: "Adapta-se bem em Litoral/Clima Quente quando montada ou em recipiente muito vazado. Proteja apenas do sol forte e do abafamento noturno.", montanhaFrio: "Desenvolve-se muito bem com noites frescas, desde que protegida de frio intenso e de longos períodos encharcados." },
     mesesFloracao: [9,10,11,12,1,2],
     avaliacoes: { cultivo: 4, floracao: 5, perfume: 2, luminosidade: 4, agua: 3, raridade: 3 }
 };
