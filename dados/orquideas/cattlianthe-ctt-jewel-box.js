@@ -1,48 +1,67 @@
-// Ficha científica e de cultivo revisada — Lote 06.
+// Ficha revisada por comparação entre o arquivo original e as novas informações fornecidas.
+// Conteúdo preservado, contradições filtradas e informações ampliadas — padrão editorial enriquecido.
 
 export const cattliantheCttJewelBox = {
-    id: "cattlianthe-ctt-jewel-box",
-    nome: "Cattlianthe Jewel Box",
-    genero: "Cattlianthe",
-    tipo: "Híbrido hortícola",
-    dificuldade: "Fácil",
-    caracteristicas: ["Híbrido clássico", "Flores vermelhas", "Touceira vigorosa", "Floração abundante"],
+    "id": "cattlianthe-ctt-jewel-box",
+    "nome": "Cattlianthe Jewel Box",
+    "genero": "Cattlianthe",
+    "tipo": "Híbrido hortícola intergenérico — Cattleya × Guarianthe",
+    "dificuldade": "Fácil",
+    "caracteristicas": [
+        "Híbrido clássico e muito vigoroso",
+        "Touceira compacta a média",
+        "Pseudobulbos eretos e firmes",
+        "Flores vermelho-escarlate",
+        "Cachos multifloros",
+        "Floração abundante e recorrente",
+        "Alta tolerância ao calor",
+        "Excelente para iniciantes"
+    ],
     "fotos": [
         "imagens/Cattlianthe Jewel Box/Cattlianthe Jewel Box1.jpg",
         "imagens/Cattlianthe Jewel Box/Cattlianthe Jewel Box2.jpg",
         "imagens/Cattlianthe Jewel Box/Cattlianthe Jewel Box3.jpg",
         "imagens/Cattlianthe Jewel Box/Cattlianthe Jewel Box4.jpg"
     ],
-    descricao: "Híbrido clássico registrado como Cattlianthe Jewel Box, conhecido por hastes com várias flores vermelhas e grande vigor. O nome intergenérico reflete o parentesco entre Cattleya e Guarianthe.",
-    origem: "Híbrido hortícola registrado.",
-    regiao: "Não possui distribuição natural.",
-    habitat: "Cultivado em orquidários sob condições luminosas e bem ventiladas.",
-    clima: "Intermediário a quente.",
-    climaFloracao: "Floresce quando recebe luz alta e os pseudobulbos amadurecem sem excesso de nitrogênio.",
-    iluminacao: {
-        sombrite: "40% a 50%",
-        solDireto: "Sim, fraco",
-        horario: "Manhã",
-        observacoes: "Tolera e aprecia mais luz que muitos híbridos de flores grandes."
+    "descricao": "Cattlianthe Jewel Box é um híbrido hortícola clássico da aliança Cattleya, formado a partir de linhagens de Cattleya e Guarianthe. É reconhecido pelo crescimento vigoroso, elevada capacidade de formar touceiras densas e repetidas floradas em tons de vermelho-escarlate. Os pseudobulbos são eretos, compactos a médios, firmes e normalmente sustentam folhas coriáceas e resistentes. A planta forma múltiplas frentes de crescimento e, quando preservada como touceira adulta, produz mais hastes simultâneas e cachos significativamente mais cheios. As flores apresentam textura firme a levemente aveludada, cor vermelha intensa e labelo com nuances amareladas ou alaranjadas na garganta. É um híbrido rústico, adaptável e recomendado tanto para iniciantes quanto para colecionadores que desejam uma planta de alto impacto visual com manutenção simples.",
+    "origem": "Híbrido hortícola registrado; não ocorre na natureza.",
+    "regiao": "Cultivado internacionalmente em coleções e orquidários.",
+    "habitat": "Não possui habitat natural próprio. Em cultivo, responde melhor a ambientes claros, quentes a intermediários, ventilados e com secagem perceptível do substrato entre as regas. A herança de Guarianthe aumenta a rusticidade, o vigor e a tendência a produzir cachos com várias flores.",
+    "clima": "Quente a intermediário, com boa ventilação e luz alta.",
+    "climaFloracao": "Floresce melhor quando os pseudobulbos amadurecem completamente sob luminosidade elevada e sem excesso de nitrogênio. A planta pode florescer mais de uma vez ao ano quando produz sucessivas frentes de crescimento. Touceiras adultas acumulam mais reservas e possuem maior número de pseudobulbos aptos a emitir hastes, razão pela qual divisões frequentes reduzem a intensidade da florada. Após a maturação, aumente levemente o intervalo entre regas e reduza adubação nitrogenada, sem impor repouso seco severo.",
+    "iluminacao": {
+        "sombrite": "40% a 50%",
+        "solDireto": "Sim, fraco e aclimatado",
+        "horario": "Primeiras horas da manhã",
+        "observacoes": "Precisa de mais luz que muitos híbridos de flores grandes. Folhas verde-claras, eretas e firmes indicam boa luminosidade. Folhas muito escuras, pseudobulbos alongados e poucas flores indicam sombra excessiva. Amarelecimento brusco, áreas secas ou aquecimento excessivo das folhas indicam sol forte sem aclimatação."
     },
-    floracao: "Pode florescer mais de uma vez ao ano, frequentemente do outono à primavera.",
-    adubacao: "🌿 Orgânica: bokashi em dose moderada durante o crescimento.\n💧 Foliar: NPK equilibrado quinzenalmente.\n🧪 Liberação lenta: Osmocote em dose indicada para o volume do vaso.",
-    rega: "Regue quando o substrato estiver quase seco; mantenha maior frequência em brotação e reduza no frio.",
-    suporte: "🥇 Vaso de barro ou plástico bem furado.\n🥈 Cestinho.\n🥉 Placa para plantas compactas.",
-    substrato: "🥇 Casca média + carvão + brita.\n🥈 Fibra de coco grossa + carvão.\n🥉 Pedra-pomes + casca.",
-    errosComuns: "Sombra excessiva; excesso de nitrogênio; vaso muito grande; substrato degradado; deixar água acumulada nas bainhas.",
-    dica: "Deixe formar uma touceira com vários pseudobulbos; plantas adultas e pouco divididas produzem hastes mais cheias.",
-    adaptacaoRegional: {
-        litoralQuente: "Muito adaptável, desde que tenha ventilação e secagem entre regas.",
-        montanhaFrio: "Também se adapta bem; proteja apenas de geada e reduza água em semanas frias."
+    "floracao": "Pode florescer mais de uma vez ao ano, com maior frequência entre o outono e a primavera, especialmente de abril a novembro. As hastes surgem do topo de pseudobulbos maduros e carregam várias flores vermelho-escarlate. Plantas adultas e pouco divididas costumam produzir mais de uma haste ao mesmo tempo e cachos mais volumosos. A durabilidade melhora quando as flores ficam protegidas de chuva direta, calor excessivo e manipulação.",
+    "adubacao": "🌿 Orgânica: bokashi em dose moderada, sempre em sachê ou porta-adubo e afastado do rizoma, durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/2 da dose a cada 10–15 dias enquanto houver brotos e raízes novas.\n🌱 Formação de pseudobulbos: mantenha nutrição regular até a folha endurecer e o pseudobulbo completar o enchimento.\n🌸 Pré-floração: reduza o nitrogênio após a maturação; não use doses altas de fórmulas fosfatadas como substituto de luz.\n🧪 Liberação lenta: Osmocote em dose proporcional ao vaso, sem contato com raízes novas.\n🚿 Lavagem: faça flushing mensal com água pura para evitar acúmulo de sais.",
+    "rega": "Durante brotação e enraizamento, regue abundantemente quando o substrato estiver próximo da secagem. Após a maturação, aumente levemente o intervalo, sem desidratar os pseudobulbos. No inverno ou em semanas frias e chuvosas, reduza a frequência conforme a evaporação. Evite água acumulada nas bainhas e espatas, sobretudo à noite, pois isso favorece fungos e podridão dos botões.",
+    "suporte": "🥇 Vaso de barro ou plástico muito furado — oferece estabilidade, boa drenagem e espaço controlado para novas frentes.\n🥈 Cestinho de madeira — excelente para formação de touceiras, raízes arejadas e expansão do rizoma.\n🥉 Placa de madeira — indicada para exemplares compactos e ambientes com umidade atmosférica elevada.\nUse recipiente apenas um pouco maior que a touceira, deixando espaço para duas ou três novas frentes.",
+    "substrato": "🥇 Casca de pinus média + carvão vegetal + brita.\n🥈 Fibra de coco grossa e bem lavada + carvão vegetal.\n🥉 Pedra-pomes + casca de pinus.\nA mistura deve permanecer estrutural, porosa e secar de forma perceptível. Evite substrato fino, material degradado, excesso de esfagno e vaso desproporcionalmente grande.",
+    "errosComuns": "Cultivar sob sombra excessiva; dividir a touceira com frequência; usar vaso grande; deixar o substrato degradar; enterrar o rizoma; excesso de nitrogênio; somar várias fontes de adubo em dose completa; acumular água nas bainhas e espatas; replantar sem raízes novas; manter a planta frouxa no vaso.",
+    "dica": "Preserve a touceira e permita o adensamento de vários pseudobulbos. Cada pseudobulbo maduro representa uma possível haste floral e uma reserva para os novos crescimentos. Com luz alta, raízes saudáveis e poucas divisões, Cattlianthe Jewel Box produz cachos mais cheios, hastes mais firmes e floradas simultâneas.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Em Serra/ES, adapta-se muito bem ao calor. Mantenha sob luz alta filtrada, ventilação constante e substrato de secagem rápida. Durante períodos de chuva contínua, aumente o intervalo entre regas e proteja as bainhas florais.",
+        "montanhaFrio": "Também apresenta bom desenvolvimento. Proteja apenas contra geadas e reduza a água em semanas frias e chuvosas."
     },
-    mesesFloracao: [5, 6, 7, 8, 9, 10],
-    avaliacoes: {
-        cultivo: 2,
-        floracao: 5,
-        perfume: 2,
-        luminosidade: 4,
-        agua: 3,
-        raridade: 2
+    "mesesFloracao": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+    ],
+    "avaliacoes": {
+        "cultivo": 2,
+        "floracao": 5,
+        "perfume": 2,
+        "luminosidade": 4,
+        "agua": 3,
+        "raridade": 2
     }
 };
