@@ -39,6 +39,101 @@ const orquidea = orquideas.find((item) => {
 });
 
 /* =========================================================
+   NAVEGAÇÃO ENTRE AS FICHAS
+========================================================= */
+
+const orquideasOrdenadas = [...orquideas]
+    .filter(Boolean)
+    .sort((a, b) => String(a.nome || "").localeCompare(
+        String(b.nome || ""),
+        "pt-BR",
+        { sensitivity: "base", numeric: true }
+    ));
+
+function obterOrquideasVizinhas(itemAtual) {
+    if (!itemAtual || orquideasOrdenadas.length < 2) {
+        return { anterior: null, proxima: null };
+    }
+
+    const indiceAtual = orquideasOrdenadas.findIndex((item) => {
+        return String(item.id) === String(itemAtual.id);
+    });
+
+    if (indiceAtual < 0) {
+        return { anterior: null, proxima: null };
+    }
+
+    const ultimoIndice = orquideasOrdenadas.length - 1;
+    const indiceAnterior = indiceAtual === 0 ? ultimoIndice : indiceAtual - 1;
+    const indiceProximo = indiceAtual === ultimoIndice ? 0 : indiceAtual + 1;
+
+    return {
+        anterior: orquideasOrdenadas[indiceAnterior],
+        proxima: orquideasOrdenadas[indiceProximo]
+    };
+}
+
+function obterPrimeiraFoto(item) {
+    const fotos = obterFotos(item?.imagens || item?.fotos);
+    return fotos[0] || "";
+}
+
+function criarNavegacaoEntreFichas(itemAtual) {
+    const { anterior, proxima } = obterOrquideasVizinhas(itemAtual);
+
+    if (!anterior || !proxima) {
+        return "";
+    }
+
+    const fotoAnterior = obterPrimeiraFoto(anterior);
+    const fotoProxima = obterPrimeiraFoto(proxima);
+
+    return `
+        <nav class="navegacao-orquideas-v5" aria-label="Navegação entre as orquídeas">
+            <a
+                class="cartao-navegacao-orquidea-v5 cartao-anterior-v5"
+                href="orquidea.html?id=${encodeURIComponent(anterior.id)}"
+                aria-label="Abrir orquídea anterior: ${anterior.nome}"
+                ${fotoAnterior ? `style="--foto-navegacao: url('${fotoAnterior}')"` : ""}
+            >
+                <span class="miniatura-navegacao-v5" aria-hidden="true">
+                    ${fotoAnterior
+                        ? `<img src="${fotoAnterior}" alt="" loading="lazy">`
+                        : `<span>🌸</span>`}
+                </span>
+
+                <span class="seta-navegacao-v5" aria-hidden="true">←</span>
+
+                <span class="texto-navegacao-v5">
+                    <small>Orquídea anterior</small>
+                    <strong>${anterior.nome}</strong>
+                </span>
+            </a>
+
+            <a
+                class="cartao-navegacao-orquidea-v5 cartao-proximo-v5"
+                href="orquidea.html?id=${encodeURIComponent(proxima.id)}"
+                aria-label="Abrir próxima orquídea: ${proxima.nome}"
+                ${fotoProxima ? `style="--foto-navegacao: url('${fotoProxima}')"` : ""}
+            >
+                <span class="texto-navegacao-v5">
+                    <small>Próxima orquídea</small>
+                    <strong>${proxima.nome}</strong>
+                </span>
+
+                <span class="seta-navegacao-v5" aria-hidden="true">→</span>
+
+                <span class="miniatura-navegacao-v5" aria-hidden="true">
+                    ${fotoProxima
+                        ? `<img src="${fotoProxima}" alt="" loading="lazy">`
+                        : `<span>🌸</span>`}
+                </span>
+            </a>
+        </nav>
+    `;
+}
+
+/* =========================================================
    FUNÇÕES AUXILIARES
 ========================================================= */
 
@@ -824,6 +919,8 @@ if (!orquidea) {
             </aside>
 
         </section>
+
+        ${criarNavegacaoEntreFichas(orquidea)}
 
         <section id="sobre-especie" class="descricao-v2 secao-ancora-v3">
 

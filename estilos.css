@@ -6233,3 +6233,227 @@ main.container{
         grid-template-rows: 70px;
     }
 }
+
+/* =========================================================
+   NAVEGAÇÃO ENTRE ORQUÍDEAS — V5
+========================================================= */
+
+.navegacao-orquideas-v5 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+    padding: 14px 18px;
+    overflow: hidden;
+    background:
+        linear-gradient(90deg, rgba(227, 237, 204, 0.92), rgba(250, 251, 244, 0.96) 48%, rgba(227, 237, 204, 0.92));
+    border: 1px solid #dce7d7;
+    border-radius: 18px;
+    box-shadow: 0 10px 26px rgba(31, 74, 45, 0.065);
+}
+
+.navegacao-orquideas-v5::before,
+.navegacao-orquideas-v5::after {
+    position: absolute;
+    top: -35px;
+    width: 220px;
+    height: 180px;
+    content: "";
+    pointer-events: none;
+    opacity: 0.12;
+    background:
+        radial-gradient(circle at 30% 50%, #70a74c 0 7%, transparent 8%),
+        radial-gradient(circle at 65% 35%, #91bd66 0 10%, transparent 11%),
+        radial-gradient(circle at 70% 70%, #d1dc86 0 13%, transparent 14%);
+    filter: blur(1px);
+}
+
+.navegacao-orquideas-v5::before {
+    left: -40px;
+}
+
+.navegacao-orquideas-v5::after {
+    right: -40px;
+    transform: scaleX(-1);
+}
+
+.cartao-navegacao-orquidea-v5 {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 72px 42px minmax(0, 1fr);
+    align-items: center;
+    min-height: 90px;
+    padding: 9px 18px 9px 9px;
+    color: #174f2e;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid rgba(214, 228, 216, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 7px 18px rgba(40, 85, 50, 0.08);
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cartao-navegacao-orquidea-v5::before {
+    position: absolute;
+    inset: 0;
+    content: "";
+    pointer-events: none;
+    opacity: 0.055;
+    background-image: var(--foto-navegacao);
+    background-position: center;
+    background-size: cover;
+    border-radius: inherit;
+}
+
+.cartao-navegacao-orquidea-v5:hover,
+.cartao-navegacao-orquidea-v5:focus-visible {
+    border-color: #9abda2;
+    box-shadow: 0 10px 24px rgba(32, 91, 51, 0.15);
+    transform: translateY(-2px);
+}
+
+.cartao-navegacao-orquidea-v5:focus-visible {
+    outline: 3px solid rgba(39, 113, 65, 0.25);
+    outline-offset: 2px;
+}
+
+.cartao-proximo-v5 {
+    grid-template-columns: minmax(0, 1fr) 42px 72px;
+    padding: 9px 9px 9px 18px;
+    text-align: right;
+}
+
+.miniatura-navegacao-v5 {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    width: 72px;
+    height: 72px;
+    overflow: hidden;
+    background: #eaf2e7;
+    border: 4px solid rgba(255, 255, 255, 0.96);
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(39, 76, 42, 0.16);
+    font-size: 28px;
+}
+
+.miniatura-navegacao-v5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.seta-navegacao-v5 {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    color: #ffffff;
+    background: #25683e;
+    border-radius: 50%;
+    font-size: 21px;
+    font-weight: 800;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.cartao-navegacao-orquidea-v5:hover .seta-navegacao-v5 {
+    background: #174f2e;
+}
+
+.cartao-anterior-v5:hover .seta-navegacao-v5 {
+    transform: translateX(-3px);
+}
+
+.cartao-proximo-v5:hover .seta-navegacao-v5 {
+    transform: translateX(3px);
+}
+
+.texto-navegacao-v5 {
+    position: relative;
+    z-index: 1;
+    min-width: 0;
+}
+
+.texto-navegacao-v5 small {
+    display: block;
+    margin-bottom: 5px;
+    color: #4b7559;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+}
+
+.texto-navegacao-v5 strong {
+    display: block;
+    overflow: hidden;
+    color: #185732;
+    font-size: 15px;
+    line-height: 1.25;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media (max-width: 800px) {
+    .navegacao-orquideas-v5 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .navegacao-orquideas-v5 {
+        gap: 10px;
+        padding: 10px;
+        border-radius: 14px;
+    }
+
+    .cartao-navegacao-orquidea-v5,
+    .cartao-proximo-v5 {
+        grid-template-columns: 54px 32px minmax(0, 1fr);
+        min-height: 72px;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .cartao-proximo-v5 .texto-navegacao-v5 {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .cartao-proximo-v5 .seta-navegacao-v5 {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .cartao-proximo-v5 .miniatura-navegacao-v5 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .miniatura-navegacao-v5 {
+        width: 54px;
+        height: 54px;
+        border-width: 3px;
+    }
+
+    .seta-navegacao-v5 {
+        width: 29px;
+        height: 29px;
+        font-size: 17px;
+    }
+
+    .texto-navegacao-v5 strong {
+        font-size: 14px;
+    }
+}
+
+@media print {
+    .navegacao-orquideas-v5 {
+        display: none !important;
+    }
+}
