@@ -920,7 +920,7 @@ if (!orquidea) {
 
         </section>
 
-        ${criarNavegacaoEntreFichas(orquidea)}
+        <div id="navegacao-entre-fichas" class="ponto-navegacao-entre-fichas"></div>
 
         <section id="sobre-especie" class="descricao-v2 secao-ancora-v3">
 
@@ -1181,6 +1181,11 @@ if (!orquidea) {
         </div>
 
     `;
+
+    const pontoNavegacao = document.getElementById("navegacao-entre-fichas");
+    if (pontoNavegacao) {
+        pontoNavegacao.innerHTML = criarNavegacaoEntreFichas(orquidea);
+    }
 
     /* =====================================================
        BOTÕES

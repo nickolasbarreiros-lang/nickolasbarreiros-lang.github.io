@@ -6457,3 +6457,7 @@ main.container{
         display: none !important;
     }
 }
+
+/* Ponto fixo de montagem da navegação entre fichas — V6 */
+.ponto-navegacao-entre-fichas:empty { display: none; }
+.ponto-navegacao-entre-fichas:not(:empty) { display: block; }
