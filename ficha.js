@@ -1,9 +1,5 @@
 import { orquideas } from "./dados/orquideas/index.js";
 
-// Marcador público da cadeia oficial de carregamento.
-window.__ORQUIDARIO_BUILD__ = "20260806-estrutura-limpa-v1";
-console.info("[Orquidário] cadeia oficial:", "orquidea.html → ficha.js → index.js → arquivo individual", window.__ORQUIDARIO_BUILD__);
-
 /* =========================================================
    CONFIGURAÇÃO INICIAL
 ========================================================= */
@@ -41,6 +37,86 @@ const nomesMeses = [
 const orquidea = orquideas.find((item) => {
     return String(item.id) === String(idOrquidea);
 });
+
+
+/* =========================================================
+   NAVEGAÇÃO CIRCULAR ENTRE AS FICHAS
+========================================================= */
+
+const orquideasOrdenadas = [...orquideas]
+    .filter((item) => item && item.id && item.nome)
+    .sort((a, b) => String(a.nome).localeCompare(
+        String(b.nome),
+        "pt-BR",
+        { sensitivity: "base", numeric: true }
+    ));
+
+function obterOrquideasVizinhas(itemAtual) {
+    if (!itemAtual || orquideasOrdenadas.length < 2) {
+        return { anterior: null, proxima: null };
+    }
+
+    const indiceAtual = orquideasOrdenadas.findIndex((item) => {
+        return String(item.id) === String(itemAtual.id);
+    });
+
+    if (indiceAtual < 0) {
+        return { anterior: null, proxima: null };
+    }
+
+    const total = orquideasOrdenadas.length;
+
+    return {
+        anterior: orquideasOrdenadas[(indiceAtual - 1 + total) % total],
+        proxima: orquideasOrdenadas[(indiceAtual + 1) % total]
+    };
+}
+
+function obterFotoNavegacao(item) {
+    const fotos = obterFotos(item?.imagens || item?.fotos);
+    return fotos[0] || "";
+}
+
+function criarNavegacaoEntreFichas(itemAtual) {
+    const { anterior, proxima } = obterOrquideasVizinhas(itemAtual);
+
+    if (!anterior || !proxima) {
+        return "";
+    }
+
+    const fotoAnterior = obterFotoNavegacao(anterior);
+    const fotoProxima = obterFotoNavegacao(proxima);
+
+    return `
+        <nav class="navegacao-orquideas-v6" aria-label="Navegação entre fichas de orquídeas">
+            <a class="cartao-navegacao-v6 anterior-v6"
+               href="orquidea.html?id=${encodeURIComponent(anterior.id)}"
+               aria-label="Abrir orquídea anterior: ${anterior.nome}">
+                <span class="foto-navegacao-v6" aria-hidden="true">
+                    ${fotoAnterior ? `<img src="${fotoAnterior}" alt="" loading="lazy">` : `<span>🌸</span>`}
+                </span>
+                <span class="seta-navegacao-v6" aria-hidden="true">←</span>
+                <span class="texto-navegacao-v6">
+                    <small>Orquídea anterior</small>
+                    <strong>${anterior.nome}</strong>
+                </span>
+            </a>
+
+            <a class="cartao-navegacao-v6 proxima-v6"
+               href="orquidea.html?id=${encodeURIComponent(proxima.id)}"
+               aria-label="Abrir próxima orquídea: ${proxima.nome}">
+                <span class="texto-navegacao-v6">
+                    <small>Próxima orquídea</small>
+                    <strong>${proxima.nome}</strong>
+                </span>
+                <span class="seta-navegacao-v6" aria-hidden="true">→</span>
+                <span class="foto-navegacao-v6" aria-hidden="true">
+                    ${fotoProxima ? `<img src="${fotoProxima}" alt="" loading="lazy">` : `<span>🌸</span>`}
+                </span>
+            </a>
+        </nav>
+    `;
+}
 
 /* =========================================================
    FUNÇÕES AUXILIARES
@@ -829,6 +905,8 @@ if (!orquidea) {
 
         </section>
 
+        ${criarNavegacaoEntreFichas(orquidea)}
+
         <section id="sobre-especie" class="descricao-v2 secao-ancora-v3">
 
             <div class="titulo-secao-v2">
@@ -1031,16 +1109,6 @@ if (!orquidea) {
 
         </section>
 
-        <button
-            id="voltar-topo-v3"
-            class="voltar-topo-v3"
-            type="button"
-            aria-label="Voltar ao início da ficha"
-            title="Voltar ao início"
-        >
-            ↑
-        </button>
-
         <div
             id="visualizador-v2"
             class="visualizador-v2"
@@ -1118,29 +1186,6 @@ if (!orquidea) {
             );
         }
     );
-
-    const botaoVoltarTopo =
-        document.getElementById("voltar-topo-v3");
-
-    const atualizarBotaoTopo = () => {
-        botaoVoltarTopo.classList.toggle(
-            "voltar-topo-v3-visivel",
-            window.scrollY > 520
-        );
-    };
-
-    window.addEventListener("scroll", atualizarBotaoTopo, {
-        passive: true
-    });
-
-    botaoVoltarTopo.addEventListener("click", () => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    });
-
-    atualizarBotaoTopo();
 
     /* =====================================================
        GALERIA AMPLIADA
