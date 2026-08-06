@@ -1,41 +1,68 @@
-// Ficha atualizada no LOTE 15 — PADRÃO EDITORIAL V3.
+// Ficha comparada, consolidada e maximamente enriquecida — padrão editorial V4.
 
 export const speckliniaGrobyi = {
-    id: "specklinia-grobyi",
-    nome: "Specklinia grobyi",
-    genero: "Specklinia",
-    tipo: "Espécie botânica",
-    dificuldade: "Moderada",
-    caracteristicas: ["Miniatura epífita", "Flores delicadas", "Ampla distribuição tropical", "Raízes finas e sensíveis"],
-    fotos: [
+    "id": "specklinia-grobyi",
+    "nome": "Specklinia grobyi",
+    "genero": "Specklinia",
+    "tipo": "Espécie botânica",
+    "dificuldade": "Moderada",
+    "caracteristicas": [
+        "Miniatura epífita neotropical",
+        "Pleurothallidinae sem pseudobulbos",
+        "Crescimento cespitoso",
+        "Raízes capilares delicadas",
+        "Flores pequenas e variáveis",
+        "Cultivo montado favorecido"
+    ],
+    "fotos": [
         "imagens/Specklinia grobyi/Specklinia grobyi1.jpg",
         "imagens/Specklinia grobyi/Specklinia grobyi2.jpeg",
         "imagens/Specklinia grobyi/Specklinia grobyi3.jpg",
         "imagens/Specklinia grobyi/Specklinia grobyi4.jpg"
     ],
-    descricao: "Miniatura epífita de crescimento cespitoso, com folhas pequenas e flores discretas produzidas próximas à base. É uma espécie variável e de ampla distribuição, por isso plantas comercializadas com esse nome podem apresentar diferenças de porte e coloração.",
-    origem: "Espécie nativa da América Tropical, com ampla distribuição na América Central e América do Sul, incluindo Brasil, Paraguai, Argentina, Equador e Costa Rica.",
-    regiao: "América Tropical.",
-    habitat: "Ramos e troncos finos em florestas tropicais, frequentemente em locais úmidos, ventilados e com luz filtrada.",
-    clima: "Quente a intermediário, úmido e bem ventilado.",
-    climaFloracao: "Floresce melhor quando mantém crescimento contínuo, raízes vivas e boa diferença entre a luminosidade do dia e a queda natural de temperatura à noite. Não exige frio intenso, mas sofre com calor abafado e raízes constantemente encharcadas.",
-    iluminacao: {
-        sombrite: "60% a 70%",
-        solDireto: "Não recomendado",
-        horario: "Apenas claridade indireta ou sol muito fraco antes das 07:30",
-        observacoes: "Prefere luz filtrada moderada. Sombra excessiva reduz a floração, enquanto sol forte queima rapidamente as folhas finas."
+    "descricao": "Miniatura epífita neotropical de crescimento cespitoso, sem pseudobulbos, formada por ramicaules curtos e folhas pequenas, espessas e coriáceas. A espécie apresenta ampla variação de porte e coloração ao longo de sua distribuição. As flores discretas surgem em hastes filiformes e ganham maior efeito ornamental quando a planta forma touceiras densas e bem estabelecidas.",
+    "origem": "América tropical.",
+    "regiao": "América Central e América do Sul.",
+    "habitat": "Ramos finos em florestas úmidas.",
+    "clima": "Quente a intermediário e ventilado.",
+    "climaFloracao": "Pode crescer e florescer continuamente quando mantém raízes vivas, umidade atmosférica estável e ventilação. Não exige frio intenso, mas beneficia-se de noites um pouco mais amenas. Calor abafado e suporte continuamente saturado reduzem rapidamente o vigor.",
+    "iluminacao": {
+        "sombrite": "60% a 70%",
+        "solDireto": "Não recomendado",
+        "horario": "Somente luz indireta ou antes de 07:30",
+        "observacoes": "Folhas verdes, firmes e compactas indicam equilíbrio. Folhas muito claras, amareladas ou avermelhadas revelam excesso de luz ou calor; folhas muito escuras, ramicaules alongados e ausência de flores indicam sombra excessiva."
     },
-    floracao: "Pode florescer em diferentes épocas do ano, com maior frequência após brotações maduras.",
-    adubacao: "🌿 Orgânica: bokashi em quantidade mínima e distante das raízes.\n💧 Foliar: NPK equilibrado em 1/4 da dose, a cada 15 dias durante o crescimento.\n🧪 Liberação lenta: não é a melhor opção para montadas; em vaso, use dose muito reduzida.",
-    rega: "Mantenha umidade regular, mas com secagem superficial rápida. Em placas, as regas podem ser diárias no verão; em vasos, regue somente quando o substrato estiver quase seco na superfície.",
-    suporte: "🥇 Placa de cortiça, madeira ou galho fino.\n🥈 Cachepô pequeno e bem vazado.\n🥉 Vaso diminuto de barro, sem compactar o substrato.",
-    substrato: "🥇 Fina camada de esfagno sobre placa.\n🥈 Casca fina + carvão miúdo + perlita ou pedra-pomes.\n🥉 Fibra de coco tratada em pequena quantidade.",
-    errosComuns: "Usar vaso grande; compactar esfagno; deixar secar por vários dias; manter em ambiente abafado; aplicar adubo forte; expor ao sol direto; molhar a coroa à noite sem ventilação.",
-    dica: "O segredo é equilibrar umidade constante com muita aeração. Monte a planta de modo que as raízes recebam água frequente, mas sequem rapidamente depois.",
-    adaptacaoRegional: {
-        litoralQuente: "Adapta-se ao litoral quente quando cultivada em sombra clara, com ventilação permanente e regas matinais. Nos períodos mais quentes, aumente a umidade do ambiente sem encharcar as raízes.",
-        montanhaFrio: "Em regiões mais frescas, cresce com facilidade desde que protegida de temperaturas muito baixas e de longos períodos molhada."
+    "floracao": "Pode florescer em diferentes épocas do ano, geralmente após a maturação de novos ramicaules. As flores pequenas, translúcidas, amareladas ou marcadas de castanho-púrpura surgem em hastes finas. Touceiras antigas produzem o melhor efeito visual e devem ser preservadas.",
+    "adubacao": "🌿 Orgânica: bokashi em quantidade mínima e distante da planta.\n💧 Mineral: NPK equilibrado em 1/5 a 1/4 da dose a cada 15 dias durante crescimento.\n🧪 Liberação lenta: não recomendada em placas; em vaso, quantidade mínima.\n🚿 Flushing: lave o suporte quinzenal ou mensalmente com água de boa qualidade para evitar sais.",
+    "rega": "Mantenha umidade frequente sem saturação. Em placas, regue diariamente no verão e permita secagem superficial rápida; em vasos diminutos, regue quando a superfície começar a secar. Folhas enrugadas e raízes quebradiças indicam seca; base escura, tecido mole e raízes marrons indicam abafamento. Em períodos chuvosos, aumente a ventilação em vez de acrescentar água.",
+    "suporte": "🥇 Placa de cortiça, sanção-do-campo, peroba velha ou galho rugoso.\n🥈 Cachepô diminuto e totalmente vazado.\n🥉 Vaso de barro muito pequeno e perfurado.\nMadeira rugosa facilita a fixação. Use camada mínima de musgo e mantenha a planta longe do teto quente.",
+    "substrato": "Opção 1 (ideal): placa com lâmina muito fina de esfagno solto.\nOpção 2: casca de pinus fina + carvão miúdo + pedra-pomes ou perlita.\nOpção 3: fibra de coco fina bem lavada + material mineral em cachepô vazado.\nEvite compactar o esfagno e substitua-o ao escurecer ou perder estrutura.",
+    "errosComuns": "Sol direto; secagem por vários dias; calor abafado; vaso grande; esfagno compactado; água salina; adubo forte; replantar com frequência; dividir touceira pequena; deixar molhada à noite; falta de ventilação; lesmas e caracóis.",
+    "dica": "Monte verticalmente com uma lâmina quase transparente de esfagno. Regue com frequência, mas deixe a superfície secar logo em seguida. O sucesso depende mais da renovação de ar e da estabilidade das raízes do que de grandes volumes de água. Em Serra/ES, posicione no setor mais fresco e ventilado, longe do calor acumulado no teto.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Cultive em sombra clara, bancada baixa e ventilação contínua. Regue pela manhã e aumente a umidade do ambiente molhando o piso, não saturando a planta.",
+        "montanhaFrio": "Excelente desenvolvimento em noites amenas. Proteja de geadas e reduza água quando o suporte permanecer frio e úmido."
     },
-    mesesFloracao: [1,2,3,4,5,6,7,8,9,10,11,12],
-    avaliacoes: { cultivo: 3, floracao: 4, perfume: 1, luminosidade: 2, agua: 5, raridade: 3 }
+    "mesesFloracao": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "avaliacoes": {
+        "cultivo": 3,
+        "floracao": 4,
+        "perfume": 1,
+        "luminosidade": 2,
+        "agua": 5,
+        "raridade": 3
+    }
 };
