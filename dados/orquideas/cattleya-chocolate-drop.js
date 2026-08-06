@@ -1,4 +1,5 @@
-// Ficha comparada com o conteúdo anterior, consolidada com as novas informações e maximamente enriquecida — padrão editorial V4.
+// Ficha auditada por comparação entre o arquivo original e o novo conteúdo fornecido.
+// Informações preservadas, contradições filtradas e conteúdo maximamente enriquecido — padrão editorial V4.
 
 export const cattleyaChocolateDrop = {
     "id": "cattleya-chocolate-drop",
@@ -11,10 +12,11 @@ export const cattleyaChocolateDrop = {
         "Híbrido clássico registrado em 1965",
         "Cattleya guttata × Guarianthe aurantiaca",
         "Vigor vegetativo elevado",
-        "Cachos multifloros e cerosos",
-        "Cores vermelhas, alaranjadas e chocolate",
-        "Alta tolerância ao calor",
-        "Exige luz elevada para melhor pigmentação"
+        "Porte bifoliado ereto",
+        "Cachos densos e multifloros",
+        "Flores cerosas e duráveis",
+        "Tons alaranjados, vermelhos e chocolate",
+        "Alta tolerância ao calor e à luminosidade"
     ],
     "fotos": [
         "imagens/Cattlianthe Chocolate Drop/Cattlianthe Chocolate Drop1.webp",
@@ -22,28 +24,28 @@ export const cattleyaChocolateDrop = {
         "imagens/Cattlianthe Chocolate Drop/Cattlianthe Chocolate Drop3.jpg",
         "imagens/Cattlianthe Chocolate Drop/Cattlianthe Chocolate Drop4.jpg"
     ],
-    "descricao": "Cattlianthe Chocolate Drop é um híbrido clássico registrado em 1965, resultante do cruzamento entre Cattleya guttata e Guarianthe aurantiaca. Combina o porte bifoliado e a textura cerosa de C. guttata com a rusticidade, a intensidade de cor e o caráter multifloro de G. aurantiaca. Forma pseudobulbos eretos, cilíndricos e vigorosos, normalmente bifoliados, e produz cachos densos com numerosas flores. A coloração varia entre clones, indo de alaranjado e vermelho-acastanhado até tons profundos de chocolate. É uma planta robusta, adaptável e indicada tanto para iniciantes quanto para colecionadores, desde que receba luz alta, ventilação e secagem entre regas.",
-    "origem": "Híbrido hortícola; não ocorre na natureza.",
-    "regiao": "Criado em cultivo a partir de parentais americanos.",
-    "habitat": "Não possui habitat natural. Os parentais ocorrem em ambientes claros, quentes, ventilados e com raízes sujeitas a chuvas seguidas de secagem rápida.",
-    "clima": "Quente a intermediário.",
-    "climaFloracao": "A floração é favorecida por alta luminosidade, pseudobulbos grossos, raízes ativas e boa maturação. A genética determina a tonalidade básica, mas luz adequada melhora intensidade de cor, firmeza das hastes e compactação dos cachos. Após o pseudobulbo amadurecer, reduza moderadamente a água e o nitrogênio, sem impor repouso seco severo.",
+    "descricao": "Cattlianthe Chocolate Drop é um híbrido clássico da aliança Cattleya, historicamente registrado como Cattleya Chocolate Drop e resultante do cruzamento entre Cattleya guttata e Guarianthe aurantiaca. Reúne o porte bifoliado, a textura cerosa e a capacidade de produzir inflorescências multifloras de C. guttata com a rusticidade, a precocidade e as cores quentes de G. aurantiaca. Forma pseudobulbos cilíndricos, eretos, vigorosos e normalmente bifoliados, com raízes fortes e crescimento relativamente rápido. As flores aparecem em cachos compactos e podem variar entre clones do alaranjado vivo e vermelho-acastanhado a tonalidades profundas de chocolate. A planta é robusta e tolera pequenas variações de cultivo, mas floresce melhor sob luminosidade elevada, ventilação constante, vaso proporcional e ciclos de rega seguidos de secagem.",
+    "origem": "Híbrido hortícola, sem ocorrência natural.",
+    "regiao": "Criado em cultivo a partir de espécies americanas.",
+    "habitat": "Não possui habitat próprio. Seus parentais são provenientes de ambientes claros, quentes e ventilados, nos quais as raízes recebem chuvas durante o crescimento e secam rapidamente depois.",
+    "clima": "Quente a intermediário, luminoso e ventilado.",
+    "climaFloracao": "A florada é determinada pela genética do clone, pelo amadurecimento completo do pseudobulbo e pela luminosidade recebida durante todo o ciclo. Alta luz favorece pseudobulbos compactos, hastes firmes, cachos mais densos e pigmentação intensa. Depois que o pseudobulbo amadurece, aumente moderadamente os intervalos entre regas e reduza o nitrogênio, sem impor repouso seco rígido. Excesso de sombra ou adubação nitrogenada contínua produz crescimento exuberante, mas reduz a qualidade floral.",
     "iluminacao": {
         "sombrite": "40% a 60%",
-        "solDireto": "Sim, fraco e aclimatado",
-        "horario": "Manhã",
-        "observacoes": "Ofereça o máximo de luz que as folhas tolerarem sem queimar. Folhas verde-médio, firmes e pseudobulbos compactos indicam bom nível. Sombra gera crescimento alongado, hastes fracas e cores apagadas; sol excessivo causa manchas secas."
+        "solDireto": "Sim, suave e aclimatado",
+        "horario": "Primeiras horas da manhã",
+        "observacoes": "Ofereça o limite máximo de luminosidade que as folhas tolerarem sem queimar. Folhas verde-médio, rígidas e pseudobulbos curtos e grossos indicam luz adequada. Folhas escuras, alongamento excessivo e hastes frágeis indicam sombra. Pigmentação avermelhada moderada pode ser natural sob luz alta, mas manchas secas e clareamento brusco significam queimadura."
     },
-    "floracao": "Geralmente floresce do outono ao inverno, entre abril e agosto, mas a época pode variar conforme clone e condições de cultivo. As flores são cerosas, brilhantes e duráveis, reunidas em cachos eretos. Alguns clones apresentam perfume suave ou moderado durante as horas mais claras.",
-    "adubacao": "🌿 Orgânica: bokashi em pequena quantidade a cada 60–90 dias durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/2 da dose a cada 7–15 dias.\n🌱 Crescimento: mantenha nutrição enquanto os pseudobulbos alongam e engrossam.\n🌸 Maturação: reduza o nitrogênio; não é necessário exagerar em fórmulas de fósforo.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada e longe de raízes novas.\n🚿 Flushing: lave o vaso mensalmente.",
-    "rega": "Durante crescimento ativo, regue abundantemente e deixe o substrato quase secar antes da próxima aplicação. Após a maturação, aumente ligeiramente o intervalo, sem impor seca severa. Evite água acumulada na bainha floral e dentro de cachepôs decorativos. Raízes saudáveis são claras e firmes; raízes escuras e ocas indicam excesso de retenção.",
-    "suporte": "🥇 Vaso de barro: boa estabilidade, aeração e secagem.\n🥈 Cachepô de madeira: excelente para raízes vigorosas e touceiras adultas.\n🥉 Vaso plástico muito perfurado: opção prática em ambientes que secam rápido.\nEscolha recipiente proporcional à planta e deixe espaço apenas para algumas novas frentes.",
-    "substrato": "Opção 1: casca grossa + carvão + pedra-pomes.\nOpção 2: brita + carvão + casca.\nOpção 3: argila expandida quebrada + casca média.\nO substrato deve secar rapidamente, manter o rizoma acima da mistura e não compactar.",
-    "errosComuns": "Cultivar em sombra; excesso de nitrogênio; vaso grande; substrato compactado; água na bainha floral; abrir ou cortar a espata sem necessidade; regar sem secagem; deixar a planta frouxa; replantar sem raízes novas; dividir touceira pequena.",
-    "dica": "A qualidade da florada depende mais da luz e da maturação do que de adubação pesada. Mantenha no ponto mais claro do orquidário, aclimatando gradualmente. Evite água presa nas bainhas e deixe o substrato quase secar para formar cachos compactos, hastes firmes e coloração intensa.",
+    "floracao": "A época mais comum situa-se entre outono e inverno, aproximadamente de abril a agosto, embora possa variar conforme o clone e o ciclo de crescimento. A haste floral emerge da região apical do pseudobulbo maduro e sustenta um cacho de flores cerosas, brilhantes e duráveis. O perfume pode variar de discreto a moderado. A coloração final depende principalmente da genética, mas boa luz intensifica o aspecto avermelhado ou chocolate e melhora a firmeza da haste.",
+    "adubacao": "🌿 Orgânica — Bokashi: pequena quantidade em porta-adubo a cada 60–90 dias durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/2 da dose a cada 7–15 dias enquanto houver brotos e raízes em crescimento.\n🌱 Formação de pseudobulbos: mantenha nutrição regular até que o pseudobulbo engrosse e a folha endureça.\n🌸 Maturação: reduza o nitrogênio e a frequência; fórmulas muito ricas em fósforo não substituem luz adequada.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, sem contato com raízes ou brotos.\n🚿 Flushing: lave mensalmente para impedir acúmulo de sais.\n⛔ Evite somar doses completas de bokashi, adubo foliar e Osmocote simultaneamente.",
+    "rega": "Durante brotação e alongamento dos pseudobulbos, regue abundantemente quando o substrato estiver próximo da secagem. Após a maturação, aumente ligeiramente o intervalo, sem deixar a planta murchar. A espécie é vigorosa, mas raízes permanentemente molhadas ainda apodrecem. Evite água acumulada em bainhas e espatas, sobretudo durante noites abafadas e períodos chuvosos. Raízes claras e firmes indicam saúde; raízes escuras, ocas e substrato com odor azedo indicam retenção excessiva.",
+    "suporte": "🥇 Vaso de barro — oferece peso, estabilidade, porosidade e secagem rápida.\n🥈 Cachepô de madeira — excelente para touceiras adultas, raízes vigorosas e clima úmido.\n🥉 Vaso plástico muito perfurado — opção prática em ambientes que secam depressa.\nEscolha vaso proporcional, com espaço apenas para duas ou três novas frentes. O rizoma deve permanecer acima do substrato e firmemente preso.",
+    "substrato": "🥇 Casca de pinus grossa + carvão vegetal + pedra-pomes.\n🥈 Brita + carvão + casca grossa.\n🥉 Argila expandida quebrada + casca média.\nA casca fornece estrutura, o carvão preserva a aeração, a pedra-pomes mantém poros e a brita ajuda na estabilidade. Evite misturas finas, compactação, excesso de esfagno e substrato velho.",
+    "errosComuns": "Cultivar à sombra; usar excesso de nitrogênio; vaso grande; substrato compactado; rizoma enterrado; regar sem secagem; manter água na bainha floral; abrir ou cortar espata sem necessidade; replantar fora da emissão de raízes; deixar a planta solta; dividir touceira pequena; somar várias fontes de adubo em doses altas; acreditar que adubo de floração substitui luz.",
+    "dica": "A melhor florada vem do equilíbrio entre luz alta, pseudobulbos maduros, raízes saudáveis e nutrição moderada. Aclimate gradualmente ao setor mais claro do orquidário e observe as folhas. Mantenha as bainhas secas, deixe o substrato quase secar e reduza o nitrogênio quando o crescimento endurecer. Essas medidas produzem cachos compactos, hastes firmes e cores mais intensas.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, adapta-se muito bem ao calor. Use ventilação contínua, luz elevada e substrato drenante. Proteja botões e bainhas de chuva persistente.",
-        "montanhaFrio": "Tolera noites frescas, mas deve ser protegida de geadas e substrato frio e encharcado."
+        "litoralQuente": "Em Serra/ES, apresenta excelente adaptação ao calor. Use ventilação contínua, alta luminosidade filtrada e substrato grosseiro. Durante chuvas persistentes, proteja bainhas e botões e aumente o intervalo de rega.",
+        "montanhaFrio": "Tolera noites amenas e frescas. Proteja apenas de geadas e de substrato frio e encharcado no inverno."
     },
     "mesesFloracao": [
         4,
@@ -53,7 +55,7 @@ export const cattleyaChocolateDrop = {
         8
     ],
     "avaliacoes": {
-        "cultivo": 4,
+        "cultivo": 2,
         "floracao": 4,
         "perfume": 3,
         "luminosidade": 4,
