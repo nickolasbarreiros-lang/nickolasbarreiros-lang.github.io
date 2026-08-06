@@ -1,4 +1,4 @@
-import { orquideas } from "./dados/orquideas/index.js";
+import { orquideas } from "./dados/orquideas/index.js?v=20260806-refino-real-v3";
 
 /* =========================================================
    CONFIGURAÇÃO INICIAL

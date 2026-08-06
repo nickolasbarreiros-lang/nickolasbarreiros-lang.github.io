@@ -1,7 +1,7 @@
 // Índice central gerado automaticamente a partir de Orquideas_ALBUM.docx.
 // Para incluir uma nova planta: crie o arquivo individual e adicione o import e o nome no array abaixo.
 
-import { sophronitisWittigiana } from "./sophronitis-wittigiana.js?v=20260806-r2";
+import { sophronitisWittigiana } from "./sophronitis-wittigiana.js?v=20260806-refino-real-v3";
 import { dendrobiumPolysema } from "./dendrobium-polysema.js";
 import { bifrenariaVerboonenii } from "./bifrenaria-verboonenii.js";
 import { bifrenariaAureofulva } from "./bifrenaria-aureofulva.js";
@@ -47,7 +47,7 @@ import { dryadellaLiliputiana } from "./dryadella-liliputiana.js";
 import { leptotesUnicolor } from "./leptotes-unicolor.js";
 import { cattleyaAclandiaeTipo } from "./cattleya-aclandiae-tipo.js";
 import { cattleyaLueddemannianaTipo } from "./cattleya-lueddemanniana-tipo.js";
-import { cattleyaWalkeriana } from "./cattleya-walkeriana.js?v=20260806-r2";
+import { cattleyaWalkeriana } from "./cattleya-walkeriana.js?v=20260806-refino-real-v3";
 import { cattleyaIntermedia } from "./cattleya-intermedia.js";
 import { cattleyaLeopoldiiDarkPrincess } from "./cattleya-leopoldii-dark-princess.js";
 import { laeliaFournieri } from "./laelia-fournieri.js";
@@ -67,11 +67,11 @@ import { miltoniaRegnellii } from "./miltonia-regnellii.js";
 import { neobenthamiaGracilis } from "./neobenthamia-gracilis.js";
 import { aspasiaLunata } from "./aspasia-lunata.js";
 import { cyrtopodiumSaintlegerianum } from "./cyrtopodium-saintlegerianum.js";
-import { cattleyaWarneri } from "./cattleya-warneri.js?v=20260806-r2";
+import { cattleyaWarneri } from "./cattleya-warneri.js?v=20260806-refino-real-v3";
 import { bulbophyllumElassonotum } from "./bulbophyllum-elassonotum.js";
 import { bulbophyllumMiniatum } from "./bulbophyllum-miniatum.js";
 import { bulbophyllumSikkimense } from "./bulbophyllum-sikkimense.js";
-import { cattliantheCttJewelBox } from "./cattlianthe-ctt-jewel-box.js?v=20260806-r2";
+import { cattliantheCttJewelBox } from "./cattlianthe-ctt-jewel-box.js?v=20260806-refino-real-v3";
 import { cattleyaLoddigesii } from "./cattleya-loddigesii.js";
 import { laeliaCinnabarina } from "./laelia-cinnabarina.js";
 import { laeliaLundii } from "./laelia-lundii.js";
@@ -102,7 +102,7 @@ import { octomeriaMicrantha } from "./octomeria-micrantha.js";
 import { gongoraBufonia } from "./gongora-bufonia.js";
 import { pabstiellaTrifida } from "./pabstiella-trifida.js";
 import { laeliaLundiiAlba } from "./laelia-lundii-alba.js";
-import { cattleyaChocolateDrop } from "./cattleya-chocolate-drop.js?v=20260806-r2";
+import { cattleyaChocolateDrop } from "./cattleya-chocolate-drop.js?v=20260806-refino-real-v3";
 import { cattleyaABrazilianDream } from "./cattleya-a-brazilian-dream.js";
 import { cattleyaViolaceaFSuavissimaXSelf } from "./cattleya-violacea-f-suavissima-x-self.js";
 import { cattleyaViolaceaFFlamea } from "./cattleya-violacea-f-flamea.js";
