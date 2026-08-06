@@ -1,17 +1,17 @@
-// Ficha V4 refinada — conteúdo antigo e novo comparados, filtrados e agregados; coluna lateral resumida para preservar o layout.
+// Ficha aprofundada e revisada — Lote 10.
 
 export const maxillariaSchunkeana = {
     "id": "maxillaria-schunkeana",
     "nome": "Maxillaria schunkeana",
     "genero": "Maxillaria",
+    "sinonimo": "Brasiliorchis schunkeana",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "caracteristicas": [
-        "Endêmica do Espírito Santo",
-        "Orquídea-negra brasileira",
-        "Pseudobulbos bifoliados",
-        "Flores basais vinho-escuro",
-        "Espécie rara e colecionável"
+        "Flor quase negra",
+        "Crescimento simpodial",
+        "Flores basais",
+        "Forma touceiras"
     ],
     "fotos": [
         "imagens/Maxillaria schunkeana/Maxillaria schunkeana1.webp",
@@ -19,28 +19,28 @@ export const maxillariaSchunkeana = {
         "imagens/Maxillaria schunkeana/Maxillaria schunkeana3.webp",
         "imagens/Maxillaria schunkeana/Maxillaria schunkeana4.jpeg"
     ],
-    "descricao": "Joia da Mata Atlântica capixaba, conhecida mundialmente como “orquídea-negra”. Maxillaria schunkeana é uma espécie simpodial compacta, com pseudobulbos ovoides e levemente comprimidos, normalmente bifoliados, reunidos em touceiras densas. As inflorescências têm apenas poucos centímetros e surgem rente à base, produzindo flores cerosas e brilhantes de vinho-púrpura extremamente profundo. A aparência negra não resulta de pigmento preto verdadeiro, mas da alta concentração de antocianinas e da forma como a superfície absorve e reflete a luz. Por viver em ambiente úmido e sombreado, necessita de raízes arejadas, temperatura controlada e proteção contra sol e calor abafado.",
+    "descricao": "Espécie capixaba aceita por Kew; Brasiliorchis schunkeana é tratada como sinônimo. Suas flores vinho muito escuro parecem negras sob pouca luz. O porte é compacto e as flores surgem junto à base dos pseudobulbos.",
     "origem": "Endêmica do Espírito Santo, Brasil.",
-    "regiao": "Mata Atlântica capixaba, especialmente florestas úmidas de encosta.",
-    "habitat": "Epífita de estratos sombreados, úmidos e ventilados.",
-    "clima": "Intermediário a quente moderado, úmido e sem calor estagnado.",
-    "climaFloracao": "A floração depende de touceira madura, pseudobulbos bem formados, raízes funcionais e ambiente estável. Não exige seca severa. A espécie responde melhor a umidade regular, luz filtrada suave e noites moderadamente frescas. Em clima quente, a ventilação é o principal fator para impedir que a temperatura do vaso e da folhagem ultrapasse o limite de tolerância. A base deve permanecer visível, pois os botões escuros e curtos surgem quase escondidos.",
+    "regiao": "Endêmica do Espírito Santo, Brasil.",
+    "habitat": "Epífita de floresta tropical úmida, associada a ambientes sombreados e ventilados.",
+    "clima": "Intermediário, com umidade moderada a alta e ar em movimento.",
+    "climaFloracao": "A floração depende de pseudobulbos completamente maduros, luz suficiente durante o crescimento e raízes saudáveis. A queda moderada das temperaturas noturnas costuma ajudar espécies brasileiras de altitude, mas não deve ser confundida com necessidade de frio extremo.",
     "iluminacao": {
         "sombrite": "70% a 80%",
-        "solDireto": "Evitar; apenas luz muito branda",
-        "horario": "No máximo início da manhã",
-        "observacoes": "É uma planta de interior de mata. Folhas verde-médio e flexíveis indicam equilíbrio. Clareamento intenso, amarelecimento ou manchas secas exigem redução imediata da exposição. Sombra absoluta, porém, também é prejudicial: a planta precisa de claridade difusa para amadurecer pseudobulbos e florescer."
+        "solDireto": "Sim, apenas suave",
+        "horario": "Até aproximadamente 08:30",
+        "observacoes": "Luz filtrada brilhante. Folhas muito escuras e pseudobulbos alongados indicam pouca luz; amarelecimento rápido e manchas secas mostram excesso. Faça aumentos de luz gradualmente."
     },
-    "floracao": "Predomina do outono ao início do inverno, aproximadamente de março a junho, com variações conforme o microclima. As hastes medem cerca de 3 a 5 cm e surgem na base dos pseudobulbos, muitas vezes escondidas pelo substrato, bainhas e folhagem. Touceiras consolidadas podem abrir várias flores simultaneamente. O perfume é discreto e pode não ser percebido em todos os exemplares.",
-    "adubacao": "🌿 Orgânica: bokashi em pequena quantidade dentro de porta-adubo, na borda do vaso.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: usar poucos grânulos e somente em mistura muito drenante.\n🚿 Faça flushing mensal com água pura. Como as raízes são finas, adubação fraca e regular é mais segura que aplicações concentradas.",
-    "rega": "Mantenha umidade regular durante o crescimento, deixando a camada superficial e parte do substrato arejarem entre as regas. No frio, aumente ligeiramente o intervalo conforme a evaporação, sem deixar a touceira seca por períodos longos. Pseudobulbos enrugados com substrato molhado e raízes escuras indicam perda radicular por falta de oxigênio. Regue de manhã e evite manter água acumulada na base durante a formação dos botões.",
-    "suporte": "🥇 Vaso de barro pequeno e perfurado, que favorece evaporação e resfriamento.\n🥈 Microvaso plástico muito furado, apenas do tamanho da touceira.\n🥉 Placa de madeira ou cortiça com fina camada de esfagno, somente em ambiente com umidade acima de 65% e rotina de rega consistente.",
-    "substrato": "Casca de pinus média-fina + pedra-pomes + carvão vegetal triturado. Alternativamente, casca + brita fina + 10% a 20% de esfagno solto; ou fibra de coco bem lavada em cubos + carvão + material mineral. O rizoma e a base dos pseudobulbos devem ficar expostos. Substrato velho, compactado ou ácido deve ser substituído no início do enraizamento.",
-    "errosComuns": "❌ Expor a sol forte ou deixar o vaso superaquecer.\n❌ Confundir sombra clara com escuridão total.\n❌ Usar vaso grande ou substrato muito retentor.\n❌ Enterrar rizoma, pseudobulbos ou botões basais.\n❌ Aplicar fertilizante concentrado sem lavagem mensal.\n❌ Acumular água e matéria orgânica na base durante a botonação.\n❌ Dividir touceiras pequenas, reduzindo a reserva e a capacidade de floração.\n❌ Replantar fora do início de novas raízes.",
-    "dica": "Cultive sob 70% a 80% de sombreamento, mas com claridade difusa e ar em movimento. A base da touceira deve permanecer visível: flores e botões são muito escuros e podem passar despercebidos, apodrecendo sob bainhas deterioradas ou substrato acumulado. Retire apenas material solto, nunca arranque bainhas firmes à força. Use vaso pequeno, mistura arejada e rega matinal. A combinação de sombra protegida, raízes frescas, base limpa e ventilação constante é muito mais importante do que tentar estimular a florada com seca.",
+    "floracao": "As flores normalmente surgem em hastes curtas na base dos pseudobulbos maduros. Como ficam parcialmente escondidas pela folhagem, manter a base limpa facilita perceber botões e evita que água parada cause manchas.",
+    "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, dentro de porta-adubo e afastado do rizoma.\n💧 Foliar: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante raízes e brotos ativos.\n🧪 Liberação lenta: dose moderada em vasos bem drenados. Reduzir após o amadurecimento do broto e lavar o substrato mensalmente com água pura.",
+    "rega": "Durante a brotação, regue abundantemente e deixe o substrato secar parcialmente, sem secagem longa. Após a maturação, aumente um pouco o intervalo. Pseudobulbos levemente sulcados são normais; enrugamento progressivo junto com raízes escuras indica perda radicular, não necessariamente pouca água.",
+    "suporte": "🥇 Vaso de barro ou plástico bem perfurado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira para espécies de rizoma mais expansivo.\n🥉 Placa com musgo fino para miniaturas e locais de alta umidade.",
+    "substrato": "🥇 Casca de pinus média + pedra-pomes + carvão vegetal.\n🥈 Casca média + brita fina + pequena quantidade de esfagno.\n🥉 Fibra de coco em cubos bem lavada + carvão + material mineral. Ajuste o esfagno ao clima; ele deve estabilizar a umidade, não manter o vaso molhado por vários dias.",
+    "errosComuns": "Vaso grande; rizoma enterrado; substrato velho; divisão excessiva; sombra profunda; adubação forte em raízes finas; regas frequentes em período frio sem ventilação. Manchas negras que aumentam rapidamente exigem isolamento e correção do excesso de umidade.",
+    "dica": "Replante somente quando novas raízes estiverem começando. Maxillarias estabelecidas podem interromper o crescimento quando o rizoma é dividido ou manipulado fora dessa fase.",
     "adaptacaoRegional": {
-        "litoralQuente": "Mesmo sendo capixaba, em Serra/Vitória precisa do ponto mais fresco e ventilado do orquidário, com vaso pequeno e mistura mineral. Evite calor noturno abafado.",
-        "montanhaFrio": "Em Santa Teresa/ES, apresenta excelente adaptação às noites frescas. Reduza levemente a rega no inverno, sem secar completamente."
+        "litoralQuente": "Use substrato mais mineral, vaso pequeno e ventilação contínua. Proteja do sol forte e do calor abafado, especialmente espécies de origem montana.",
+        "montanhaFrio": "Em geral adapta-se bem. Reduza a frequência de rega em semanas frias e nubladas, sem impor seca absoluta durante raízes ativas."
     },
     "mesesFloracao": [
         3,

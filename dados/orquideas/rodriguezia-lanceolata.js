@@ -1,63 +1,53 @@
-// Ficha comparada, consolidada e maximamente enriquecida — padrão editorial V4.
+// Ficha atualizada no LOTE 13 — PADRÃO EDITORIAL V3.
 
 export const rodrigueziaLanceolata = {
-    "id": "rodriguezia-lanceolata",
-    "nome": "Rodriguezia lanceolata",
-    "genero": "Rodriguezia",
-    "tipo": "Espécie botânica",
-    "dificuldade": "Fácil",
-    "caracteristicas": [
-        "Espécie tropical americana",
-        "Crescimento vigoroso",
-        "Flores rosa, vermelhas ou púrpuras",
+    id: "rodriguezia-lanceolata",
+    nome: "Rodriguezia lanceolata",
+    genero: "Rodriguezia",
+    tipo: "Espécie botânica",
+    dificuldade: "Fácil",
+    caracteristicas: [
+        "Espécie sul-americana",
+        "Flores rosadas a avermelhadas",
         "Hastes arqueadas e abundantes",
-        "Raízes finas e aeradas",
-        "Pode florescer mais de uma vez ao ano"
+        "Crescimento vigoroso"
     ],
-    "fotos": [
+    fotos: [
         "imagens/Rodriguezia lanceolata/Rodriguezia lanceolata1.jpg",
         "imagens/Rodriguezia lanceolata/Rodriguezia lanceolata2.webp",
         "imagens/Rodriguezia lanceolata/Rodriguezia lanceolata3.jpg",
         "imagens/Rodriguezia lanceolata/Rodriguezia lanceolata4.jpg"
     ],
-    "descricao": "Espécie epífita simpodial de pequeno a médio porte e crescimento rápido. Forma touceiras densas com pseudobulbos comprimidos, folhas lanceoladas e raízes finas. As hastes arqueadas a pendentes carregam numerosas flores em tons de rosa, vermelho-coral ou púrpura, com detalhes amarelos no labelo. Em clima quente e com sucessivos pseudobulbos maduros, pode florescer mais de uma vez no mesmo ano.",
-    "origem": "América tropical.",
-    "regiao": "América Central, Caribe e América do Sul.",
-    "habitat": "Florestas tropicais úmidas.",
-    "clima": "Quente a intermediário.",
-    "climaFloracao": "O calor, a umidade atmosférica e a luz filtrada forte favorecem crescimento contínuo. Cada pseudobulbo bem formado pode sustentar uma haste, por isso touceiras preservadas produzem florações mais volumosas. Sombra excessiva, substrato compactado e raízes debilitadas reduzem imediatamente o número de hastes.",
-    "iluminacao": {
-        "sombrite": "50% a 70%",
-        "solDireto": "Somente sol suave",
-        "horario": "Até aproximadamente 08:30",
-        "observacoes": "Meia-sombra clara. Folhas verde-vivo e pseudobulbos compactos indicam equilíbrio. Folhas muito escuras e crescimento alongado indicam falta de luz; avermelhamento intenso, pontas secas ou manchas amareladas indicam excesso."
+    descricao: "Espécie epífita de pequeno a médio porte que forma touceiras vigorosas e produz hastes arqueadas ou pendentes com numerosas flores rosadas, vermelhas ou púrpuras, geralmente com detalhes amarelados. Cresce rapidamente em condições quentes e úmidas e pode florescer mais de uma vez quando os pseudobulbos amadurecem bem.",
+    origem: "América tropical",
+    regiao: "Do Panamá e São Vicente até grande parte da América do Sul tropical, incluindo o Brasil",
+    habitat: "Epífita de florestas tropicais úmidas, crescendo sobre galhos e troncos com umidade elevada, luz filtrada e circulação constante de ar.",
+    clima: "Quente a intermediário, úmido e ventilado",
+    climaFloracao: "No litoral quente e úmido, o desenvolvimento é favorecido pelo calor, pela umidade atmosférica e pela boa ventilação. A floração depende de pseudobulbos maduros, luminosidade filtrada forte e raízes saudáveis. Sombra excessiva ou excesso de água no substrato reduz a formação das hastes.",
+    iluminacao: {
+        sombrite: "50% a 70%",
+        solDireto: "Sim",
+        horario: "Até 08:30, com adaptação",
+        observacoes: "Prefere meia-sombra clara. Pode receber sol suave do início da manhã, mas o sol forte queima rapidamente as folhas. Sombra excessiva reduz o número de hastes."
     },
-    "floracao": "Principalmente do fim do inverno ao verão, entre agosto e fevereiro, com possibilidade de nova floração após a maturação de outros brotos. As flores abrem em hastes arqueadas ou pendentes. Preserve a haste até secar completamente e mantenha espaço livre ao redor da planta.",
-    "adubacao": "🌿 Orgânica: bokashi em sachê pequeno, afastado das raízes.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 7–15 dias com brotos e raízes ativos.\n🧪 Liberação lenta: poucos grânulos em cachepôs ou vasos drenantes.\n🚿 Flushing: água pura uma vez ao mês para reduzir sais nas raízes finas. Após a maturação, reduza a frequência da adubação.",
-    "rega": "Regue frequentemente no crescimento, permitindo leve secagem entre irrigações. Em placas e cachepôs vazados, pode exigir água diária no verão. Em períodos frios ou chuvosos, reduza sem deixar os pseudobulbos desidratarem profundamente. Pseudobulbos enrugados com substrato úmido sinalizam raízes comprometidas.",
-    "suporte": "🥇 Cachepô de madeira pequeno e vazado: excelente para expansão e aeração.\n🥈 Placa de cortiça ou tronco rugoso: reproduz o hábito natural e libera as hastes.\n🥉 Vaso pequeno muito perfurado: prático em ambientes mais secos.\nInstale a planta em posição elevada para permitir o caimento das inflorescências.",
-    "substrato": "Opção 1: casca de pinus fina a média + carvão vegetal + pedra-pomes.\nOpção 2 (litoral úmido): casca média + carvão + brita fina, quase sem esfagno.\nOpção 3 (ambiente seco): fibra de coco grossa lavada + carvão + pedra-pomes + pequena fração de esfagno.\nEm placa, utilize apenas lâmina mínima de esfagno.",
-    "errosComuns": "Sombra excessiva; vaso grande; substrato compactado; raízes continuamente encharcadas; bokashi em contato direto; rega tardia; impedir o caimento das hastes; dividir demais; replantar fora do enraizamento; deixar acumular sais.",
-    "dica": "Combine suporte vazado, rega matinal e luz filtrada forte. A planta gosta de umidade frequente, mas não de água parada. Replante apenas quando surgirem brotos acompanhados por raízes novas e mantenha a touceira grande para favorecer várias hastes simultâneas.",
-    "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES apresenta excelente adaptação. Use cachepô ou placa, ventilação constante, rega cedo e mistura de secagem rápida. No verão úmido, controle especialmente a retenção no centro da touceira.",
-        "montanhaFrio": "Tolera noites amenas e floresce bem. Proteja de geadas e reduza a rega quando o substrato permanecer frio e úmido."
+    floracao: "Pode florescer em diferentes épocas, com maior frequência do fim do inverno ao verão.",
+    adubacao: "Aplique adubo foliar equilibrado e diluído a cada 7–15 dias enquanto houver brotos e raízes novas. Bokashi em saquinho pode ser usado em pequena quantidade. Osmocote também é adequado em dose reduzida, principalmente em vaso ou cachepô bem drenado.",
+    rega: "Regue com frequência durante o calor e a brotação, permitindo leve secagem antes da próxima rega. Plantas montadas podem exigir água diária no verão. Reduza a frequência em períodos frios, chuvosos ou quando o crescimento estiver parado.",
+    suporte: "Cachepô de madeira, vaso pequeno bem vazado ou montagem em tronco e cortiça",
+    substrato: "Casca de pinus fina a média, carvão pequeno, pedra-pomes e pouco esfagno. Em montagem, use apenas uma fina camada de esfagno para proteger as raízes no estabelecimento.",
+    errosComuns: "Cultivar em sombra excessiva; usar vaso grande; compactar o substrato; manter raízes finas constantemente encharcadas; aplicar bokashi diretamente sobre as raízes; molhar as flores à noite; cortar hastes antes de secarem completamente.",
+    dica: "No litoral quente e úmido, mantenha a planta em meia-sombra clara, com ventilação constante e regas pela manhã. Cachepôs pequenos ou montagem em placa ajudam a equilibrar umidade e oxigenação das raízes.",
+    adaptacaoRegional: {
+        litoralQuente: "Excelente adaptação quando recebe luz filtrada forte, umidade regular, ventilação e secagem rápida das raízes.",
+        montanhaFrio: "Tolera noites amenas, mas deve ser protegida de frio intenso e de umidade parada durante o inverno."
     },
-    "mesesFloracao": [
-        1,
-        2,
-        8,
-        9,
-        10,
-        11,
-        12
-    ],
-    "avaliacoes": {
-        "cultivo": 2,
-        "floracao": 5,
-        "perfume": 2,
-        "luminosidade": 3,
-        "agua": 4,
-        "raridade": 2
+    mesesFloracao: [8, 9, 10, 11, 12, 1, 2],
+    avaliacoes: {
+        cultivo: 4,
+        floracao: 5,
+        perfume: 2,
+        luminosidade: 3,
+        agua: 4,
+        raridade: 2
     }
 };

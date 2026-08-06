@@ -1,4 +1,4 @@
-// Ficha refinada, comparada e enriquecida no padrão editorial V4.
+// Ficha aprofundada no padrão editorial V3 — Lote 11.
 
 export const notyliaPubescens = {
     "id": "notylia-pubescens",
@@ -19,28 +19,28 @@ export const notyliaPubescens = {
         "imagens/Notylia pubescens/Notylia pubescens3.jpg",
         "imagens/Notylia pubescens/Notylia pubescens4.jpg"
     ],
-    "descricao": "Micro-orquídea epífita brasileira de porte compacto, com pseudobulbos muito reduzidos e frequentemente ocultos pelas bainhas. Cada crescimento sustenta uma única folha larga, coriácea e persistente, responsável por grande parte da fotossíntese da planta. As inflorescências arqueadas ou totalmente pendentes surgem da base dos pseudobulbos maduros e formam cachos densos de miniflores claras. O efeito ornamental é muito superior quando a planta é cultivada suspensa, em touceira e com espaço livre abaixo das hastes.",
-    "origem": "Brasil.",
-    "regiao": "Mata Atlântica.",
-    "habitat": "Galhos finos em florestas úmidas.",
-    "clima": "Tropical úmido e ventilado.",
-    "climaFloracao": "As inflorescências são produzidas por crescimentos maduros. Luz filtrada suficiente, umidade regular e ventilação constante favorecem cachos longos e completos. Durante a emissão dos racemos, secagem prolongada, mudança brusca de posição ou água estagnada na base podem provocar aborto e mofo nos botões. Plantas adultas podem produzir vários cachos simultaneamente.",
+    "descricao": "Micro-orquídea epífita brasileira, de porte compacto, com pseudobulbos discretos, uma folha larga por crescimento e racemos pendentes densamente cobertos por flores pequenas. É mais interessante quando cultivada em touceira e vista de baixo, onde as hastes ficam livres.",
+    "origem": "Espécie endêmica do Brasil, nativa do leste e sul do país, com ocorrência em áreas de Mata Atlântica das regiões Nordeste, Sudeste e Sul.",
+    "regiao": "Brasil.",
+    "habitat": "Epífita em matas úmidas brasileiras, especialmente em ambientes de Mata Atlântica, sobre galhos com sombra clara, umidade elevada e boa ventilação.",
+    "clima": "Quente a intermediário. Prefere umidade elevada, mas raízes pequenas exigem secagem parcial e circulação constante.",
+    "climaFloracao": "A haste surge de crescimento maduro. Luz insuficiente reduz o número de flores; secagem prolongada durante a formação da inflorescência pode causar aborto de botões.",
     "iluminacao": {
         "sombrite": "60% a 75%",
         "solDireto": "Não",
         "horario": "Apenas luminosidade filtrada",
         "observacoes": "Sombra clara, semelhante a Phalaenopsis bem iluminada. Folhas amarelas ou ásperas indicam excesso; folhas muito escuras e moles indicam falta de luz."
     },
-    "floracao": "Geralmente da primavera ao verão, entre setembro e janeiro. Os racemos arqueados ou pendentes podem alcançar cerca de 10–20 cm e reunir dezenas de flores pequenas, translúcidas, esbranquiçadas, esverdeadas ou levemente amareladas, com detalhes discretos no labelo. O perfume é suave. A melhor apresentação ocorre quando os cachos ficam livres, sem tocar vasos, bancadas ou paredes.",
-    "adubacao": "🌿 Orgânica: dose mínima de Bokashi em sachê ou porta-adubo, distante do colo e das raízes.\n💧 Foliar/mineral: NPK equilibrado em cerca de 1/4 da dose, a cada 15 dias durante o crescimento ativo.\n🚿 Lavagem: faça regas periódicas somente com água pura para remover sais da placa ou do cesto.\n🧪 Liberação lenta: geralmente dispensável, pois as raízes capilares queimam com facilidade. Nunca use adubos concentrados.",
-    "rega": "Se montada em placa, regue diariamente nos dias quentes, permitindo que as raízes sequem em poucas horas. Em cestos ou cuias rasas, regue quando o material interno estiver próximo da secagem. Não deixe a planta passar por seca prolongada durante a formação das hastes, pois os botões podem abortar. Ao mesmo tempo, evite água acumulada na base da folha. Folha única murcha ou dobrada, associada a raízes escuras e moles, geralmente indica perda radicular por abafamento, e não simples falta de água.",
-    "suporte": "🥇 Placa ou tronquinho de madeira dura, cortiça ou sanção-do-campo: melhor opção para raízes aeradas e racemos livres.\n🥈 Cesto pequeno de madeira sem fundo fechado: excelente para cultivo elevado.\n🥉 Cuia plástica pequena, rasa e muito perfurada: alternativa para locais mais secos.\nInstale a planta acima da linha dos olhos, com espaço totalmente livre abaixo e leve inclinação para favorecer o escoamento da água.",
-    "substrato": "Opção 1 (montagem): lâmina muito fina e solta de esfagno sob o rizoma, mantendo a maior parte das raízes exposta.\nOpção 2 (cesto): casca de pinus fina + carvão vegetal miúdo + pedra-pomes fina + pequena fração de esfagno.\nOpção 3 (cuia rasa): fibra de coco grossa bem lavada + casca fina + pedra-pomes + carvão.\nO material deve secar rapidamente, não pode cobrir a base da folha e jamais deve bloquear a saída das inflorescências.",
-    "errosComuns": "❌ Usar vaso fundo ou fundo fechado, bloqueando as hastes pendentes.\n❌ Encostar a planta em parede, prateleira ou outros vasos.\n❌ Expor ao sol direto.\n❌ Aplicar fertilizante concentrado.\n❌ Deixar água acumulada na base da folha.\n❌ Permitir seca prolongada durante a botonação.\n❌ Girar, mudar ou manipular a planta enquanto os cachos se formam.\n❌ Cortar hastes ainda verdes.\n❌ Usar esfagno espesso e compactado.",
-    "dica": "Cultive a planta suspensa e acima dos olhos, preferencialmente em placa levemente inclinada para baixo. A inclinação melhora o escoamento da água da base da folha, mantém as raízes ventiladas e permite que os racemos caiam livremente. Não mova nem gire o suporte durante a formação das hastes, pois elas são frágeis. Em clima quente, aumente a frequência das regas em vez de engrossar a camada de esfagno. Quanto maior e mais estável a touceira, maior o número de cachos simultâneos.",
+    "floracao": "Geralmente entre primavera e verão, em racemos arqueados ou pendentes com muitas flores pequenas. Boa ventilação ajuda a manter a haste limpa e reduz manchas.",
+    "adubacao": "🌿 Orgânica: bokashi em dose mínima e longe da base.\n💧 Foliar/mineral: 1/4 da dose a cada 15 dias no crescimento.\n🧪 Liberação lenta: use com cautela, pois raízes finas queimam com facilidade.",
+    "rega": "Regue quando o suporte estiver quase seco. Em placas, pode exigir água diária no calor; em vasos, ajuste pelo peso e pela secagem. Evite manter a base constantemente molhada.",
+    "suporte": "🥇 Cesto ou placa: permite que as hastes pendam livremente.\n🥈 Vaso pequeno e raso: escolha bordas livres para a saída das inflorescências.",
+    "substrato": "Casca fina a média + carvão + pedra-pomes, com pequena quantidade de esfagno. Em montagem, use uma camada fina de musgo sob as raízes.",
+    "errosComuns": "Vaso fundo, água parada na base, adubo forte, sol direto e cortar hastes antes de secarem. Plantas sem floração geralmente precisam de mais luz filtrada, não de mais adubo.",
+    "dica": "Posicione a planta acima da altura dos olhos ou em cesto aberto; as inflorescências são pendentes e podem ficar presas dentro de vasos apertados.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, apresenta excelente adaptação em placas ou pequenos cestos sob cerca de 70% de sombrite, com ventilação contínua e regas matinais. Em ondas de calor, aumente a frequência de irrigação, mas mantenha a montagem aberta e sem excesso de musgo.",
-        "montanhaFrio": "Proteja de geadas e vento frio ressecante. Em semanas frias e nubladas, reduza a frequência das regas, mantendo umidade atmosférica e evitando que a folha permaneça molhada à noite."
+        "litoralQuente": "Ventilação é essencial. Use sombra clara e regue cedo, evitando folhas molhadas à noite.",
+        "montanhaFrio": "Proteja de frio intenso. Reduza regas em períodos nublados, mantendo umidade ambiental."
     },
     "mesesFloracao": [
         9,

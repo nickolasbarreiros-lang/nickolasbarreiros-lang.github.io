@@ -1,60 +1,41 @@
-// Ficha comparada, consolidada e maximamente enriquecida — revisão editorial V4.
+// Ficha científica e de cultivo revisada — Lote 07.
 
 export const dendrobiumLoddigesii = {
-    "id": "dendrobium-loddigesii",
-    "nome": "Dendrobium loddigesii",
-    "genero": "Dendrobium",
-    "tipo": "Espécie botânica",
-    "dificuldade": "Moderada",
-    "caracteristicas": [
-        "Espécie compacta de hábito pendente",
-        "Canas finas, articuladas e duráveis",
-        "Flores lilases com centro amarelo-alaranjado",
-        "Canas antigas podem reflorir por anos",
-        "Repouso fresco, seco e luminoso",
-        "Cultivo suspenso favorecido"
-    ],
-    "fotos": [
+    id: "dendrobium-loddigesii",
+    nome: "Dendrobium loddigesii",
+    genero: "Dendrobium",
+    tipo: "Espécie botânica",
+    dificuldade: "Moderada",
+    caracteristicas: ["Canas pendentes", "Flores lilases", "Labelo amarelo", "Repouso fresco e seco"],
+    fotos: [
         "imagens/Dendrobium loddigesii/Dendrobium loddigesii1.webp",
         "imagens/Dendrobium loddigesii/Dendrobium loddigesii2.webp",
         "imagens/Dendrobium loddigesii/Dendrobium loddigesii3.jpeg",
         "imagens/Dendrobium loddigesii/Dendrobium loddigesii4.jpeg"
     ],
-    "descricao": "Espécie epífita ou litófita de florestas montanas sazonais do sul da China e Indochina. Forma touceiras densas de canas finas, articuladas e pendentes, com nós bem marcados. Cada cana funciona como reservatório de água e carboidratos, permanece metabolicamente ativa mesmo após perder as folhas e pode produzir flores em diferentes anos. As flores lilases surgem diretamente nos nós e possuem labelo franjado com centro amarelo-alaranjado.",
-    "origem": "Sul da China e Indochina.",
-    "regiao": "China meridional, Laos e Vietnã.",
-    "habitat": "Florestas montanas e paredões ventilados.",
-    "clima": "Ameno, sazonal e muito ventilado.",
-    "climaFloracao": "A cana deve completar totalmente o alongamento e endurecer antes do repouso. Depois, alta luminosidade, noites mais amenas, redução da água e suspensão do nitrogênio induzem os botões. Canas ainda verdes ou em crescimento raramente florescem bem no ciclo seguinte.",
-    "iluminacao": {
-        "sombrite": "40% a 50%",
-        "solDireto": "Somente suave",
-        "horario": "Início da manhã",
-        "observacoes": "Necessita luz intensa durante todo o ano. Canas compactas e firmes indicam equilíbrio. Sombra gera canas finas, moles e muitos keikis; queimaduras secas indicam excesso de sol."
+    descricao: "Espécie compacta que forma touceiras densas de canas finas e pendentes. As flores lilases, geralmente perfumadas, aparecem nos nós das canas maduras e possuem labelo arredondado com centro amarelo-alaranjado.",
+    origem: "Sul da China e Indochina.",
+    regiao: "China meridional, Laos e Vietnã.",
+    habitat: "Epífita ou litófita em florestas montanas sazonais, claras e ventiladas.",
+    clima: "Intermediário, com verão úmido e inverno mais fresco.",
+    climaFloracao: "A floração depende da maturação das canas, seguida de noites frescas, luz forte e repouso com pouca água e sem adubação.",
+    iluminacao: {
+        sombrite: "40% a 50%",
+        solDireto: "Suave",
+        horario: "Manhã cedo",
+        observacoes: "Luz intensa sem sol forte de meio-dia."
     },
-    "floracao": "Mais comum do fim do inverno à primavera, entre agosto e novembro. Flores solitárias ou em pequenos grupos surgem nos nós de canas maduras, inclusive em canas antigas e já desfolhadas. A preservação da touceira aumenta o número de pontos florais.",
-    "adubacao": "🌱 Primavera: NPK equilibrado com brotação e raízes ativas.\n☀️ Verão: manter adubação diluída até as canas amadurecerem.\n🍂 Final do verão/outono: reduzir nitrogênio e depois suspender.\n💤 Inverno: nenhuma adubação.\n🌿 Bokashi/Osmocote: somente no início do ciclo e em dose mínima.",
-    "rega": "Durante o crescimento, regue com frequência e permita secagem rápida. Quando as canas endurecerem e perderem folhas, reduza fortemente. No repouso, molhe apenas se houver enrugamento acentuado. Canas ligeiramente sulcadas são normais.",
-    "suporte": "🥇 Placa de madeira ou tronquinho.\n🥈 Cesto pequeno suspenso.\n🥉 Vaso raso pendurado e muito drenante.\nO suporte deve permitir que canas e flores pendam livremente.",
-    "substrato": "Montagem: pequena almofada de esfagno apenas na base.\nCesto/vaso: casca média + carvão + pedra-pomes.\nO excesso de esfagno prolonga a umidade, favorece keikis e reduz a floração. Vasos grandes devem ser evitados.",
-    "errosComuns": "Cortar canas sem folhas; manter substrato molhado no inverno; excesso de nitrogênio; sombra; vaso grande; dividir touceira pequena; trocar suporte no repouso; tentar manter crescimento contínuo; impedir o caimento das canas.",
-    "dica": "Não faça limpeza estética das canas. Remova somente aquelas totalmente secas, amarelas e ocas. As canas antigas armazenam reservas e podem florescer repetidamente. Em Serra/ES, compense o inverno pouco frio com muita luz, ventilação, proteção contra chuva e suspensão completa do nitrogênio.",
-    "adaptacaoRegional": {
-        "litoralQuente": "Cultive no ponto mais fresco, alto e ventilado, protegido das chuvas de inverno. A seca controlada e a luz alta serão os principais gatilhos.",
-        "montanhaFrio": "Excelente adaptação às noites frescas. Proteja apenas de geadas e umidade fria excessiva."
+    floracao: "Fim do inverno e primavera.",
+    adubacao: "🌿 Orgânica: bokashi mínimo na brotação.\n💧 Foliar: NPK equilibrado até as canas amadurecerem.\n🧪 Liberação lenta: poucos grânulos no início do crescimento.",
+    rega: "Frequente durante a formação das canas. No outono e inverno, reduza fortemente, molhando apenas quando houver enrugamento acentuado.",
+    suporte: "🥇 Placa ou tronco.\n🥈 Cesto pequeno.\n🥉 Vaso raso suspenso.",
+    substrato: "🥇 Montagem com pequena almofada de esfagno.\n🥈 Casca média + carvão + pedra-pomes.\n🥉 Fibra de coco grossa em cesto aberto.",
+    errosComuns: "Manter molhada no inverno; excesso de nitrogênio; pouca luz; cortar canas sem folhas; usar vaso grande.",
+    dica: "As canas velhas são reservas e pontos de floração: retire apenas as completamente secas e ocas.",
+    adaptacaoRegional: {
+        litoralQuente: "Exige o local mais fresco e ventilado e proteção contra chuvas no repouso.",
+        montanhaFrio: "Excelente adaptação, aproveitando noites frias; proteja somente de geada."
     },
-    "mesesFloracao": [
-        8,
-        9,
-        10,
-        11
-    ],
-    "avaliacoes": {
-        "cultivo": 3,
-        "floracao": 4,
-        "perfume": 4,
-        "luminosidade": 4,
-        "agua": 3,
-        "raridade": 2
-    }
+    mesesFloracao: [8, 9, 10, 11],
+    avaliacoes: { cultivo: 3, floracao: 4, perfume: 4, luminosidade: 4, agua: 3, raridade: 2 }
 };

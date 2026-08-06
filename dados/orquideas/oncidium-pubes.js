@@ -1,4 +1,4 @@
-// Ficha comparada, consolidada e maximamente enriquecida — padrão editorial V4.
+// Ficha aprofundada no padrão editorial V3 — Lote 11.
 
 export const oncidiumPubes = {
     "id": "oncidium-pubes",
@@ -8,11 +8,10 @@ export const oncidiumPubes = {
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "caracteristicas": [
-        "Epífita neotropical da Mata Atlântica",
-        "Pseudobulbos bifoliados e sulcados",
-        "Hastes longas, arqueadas e muito ramificadas",
-        "Dezenas de flores amarelo-castanhas",
-        "Forte fototropismo da inflorescência",
+        "Epífita da Mata Atlântica",
+        "Hastes longas e ramificadas",
+        "Muitas flores amarelo-castanhas",
+        "Pseudobulbos bifoliados",
         "Sinônimo Baptistonia pubes"
     ],
     "fotos": [
@@ -21,28 +20,28 @@ export const oncidiumPubes = {
         "imagens/Oncidium pubes/Oncidium pubes3.jpg",
         "imagens/Oncidium pubes/Oncidium pubes4.jpg"
     ],
-    "descricao": "Espécie epífita simpodial de porte médio, reconhecida pelas inflorescências paniculadas, longas, arqueadas e densamente ramificadas. Os pseudobulbos maduros sustentam normalmente duas folhas e funcionam como reserva para a emissão da haste. As flores amarelas marcadas de castanho-avermelhado formam cachos leves e volumosos. Durante o alongamento, a haste responde intensamente à direção da luz, por isso a estabilidade da posição do vaso é parte essencial do cultivo.",
-    "origem": "América do Sul.",
-    "regiao": "Brasil, Colômbia e Argentina.",
-    "habitat": "Florestas úmidas e ventiladas.",
-    "clima": "Intermediário a quente.",
-    "climaFloracao": "A emissão floral ocorre após o amadurecimento de pseudobulbos bem nutridos e expostos a luminosidade filtrada intensa. Noites um pouco mais amenas e uma discreta redução das regas após a maturação ajudam a indução, mas a planta não deve ser submetida a seca severa. Hastes mais firmes e ramificadas resultam de pseudobulbos cheios, raízes ativas e boa ventilação.",
+    "descricao": "Espécie epífita de porte pequeno a médio que produz inflorescências longas, arqueadas e ramificadas, cobertas por numerosas flores amarelas marcadas de castanho. O nome aceito permanece Oncidium pubes; Baptistonia pubes aparece como combinação taxonômica alternativa.",
+    "origem": "Nativa da América do Sul, com registros da Colômbia ao Sudeste e Sul do Brasil e nordeste da Argentina. Está ligada principalmente a ambientes florestais, incluindo a Mata Atlântica.",
+    "regiao": "Colômbia, Brasil e nordeste da Argentina.",
+    "habitat": "Epífita em florestas úmidas e montanas, aproximadamente entre baixas e médias altitudes, sobre galhos ventilados com boa luminosidade filtrada.",
+    "clima": "Intermediário, tolerando calor moderado com ventilação. Noites mais frescas favorecem crescimento compacto e hastes firmes.",
+    "climaFloracao": "Floresce após a maturação dos pseudobulbos. Boa luz e leve redução das regas no período mais fresco ajudam a indução, mas não deve sofrer seca prolongada.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Sol fraco tolerado",
-        "horario": "Até cerca de 9h",
-        "observacoes": "Exige luz semelhante à de Cattleya moderada. Folhas verde-oliva claras e pseudobulbos compactos indicam equilíbrio. Folhas muito escuras, moles e pseudobulbos alongados sugerem sombra excessiva; amarelecimento rápido, manchas secas ou tecido bronzeado indicam excesso de sol ou calor."
+        "horario": "Início da manhã",
+        "observacoes": "Luz semelhante à de Cattleya moderada. Pseudobulbos pequenos, folhas escuras e ausência de hastes indicam pouca luz; manchas claras e secas indicam excesso."
     },
-    "floracao": "Predominantemente da primavera ao início do verão, entre setembro e dezembro. A haste pode alcançar 30–60 cm ou mais, arquear e produzir numerosas ramificações, carregando dezenas de flores. Reserve espaço livre ao redor e abaixo da planta. Marque a frente do vaso e evite girá-lo durante a formação da haste, pois a mudança de direção da luz provoca curvas, torções e risco de quebra.",
-    "adubacao": "🌿 Orgânica: bokashi em pequena porção dentro de porta-adubo, afastado do rizoma e dos brotos.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em 1/4 da dose a cada 10–15 dias durante brotação, enraizamento e formação do pseudobulbo.\n🧪 Liberação lenta: poucos grânulos apenas em vasos muito drenantes, sem contato com raízes novas.\n🚿 Flushing: uma rega abundante só com água pura aproximadamente uma vez por mês. Reduza a adubação quando o pseudobulbo estiver maduro para evitar crescimento vegetativo excessivo.",
-    "rega": "Regue generosamente enquanto novos brotos e raízes estiverem ativos, permitindo que o substrato se aproxime da secagem antes da próxima irrigação. Após a maturação, aumente moderadamente o intervalo. Pseudobulbos ligeiramente sulcados podem ser normais; enrugamento profundo com substrato úmido sugere raízes mortas por abafamento. Raízes novas apresentam pontas claras ou verdes; raízes escuras, ocas ou moles indicam substrato velho, excesso de água ou falta de oxigênio.",
-    "suporte": "🥇 Vaso de barro pesado ou plástico bem perfurado com ancoragem: evita tombamento pelo peso da haste.\n🥈 Cesto de madeira: permite boa aeração e livre desenvolvimento das inflorescências arqueadas.\n🥉 Placa de madeira dura: indicada apenas em ambientes úmidos com regas frequentes.\nTutores devem ser instalados cedo e presos com folga, sem apertar a haste ainda em alongamento.",
-    "substrato": "Opção 1 (principal): casca de pinus média + carvão vegetal + pedra-pomes.\nOpção 2 (maior estabilidade): casca média + carvão + brita fina, usando a brita como peso sem bloquear os furos.\nOpção 3 (ambiente seco): casca média + fibra de coco grossa bem lavada + carvão + pequena porção de esfagno solto.\nMantenha o rizoma sobre a superfície e replante no início das novas raízes. A brita no fundo ajuda na estabilidade, mas não substitui furos e drenagem adequada.",
-    "errosComuns": "Girar ou mudar o vaso durante a formação da haste; usar recipiente leve; cultivar sob sombra profunda; manter substrato decomposto; enterrar o rizoma; excesso de nitrogênio na maturação; cortar haste ainda verde; replantar com raízes paradas ou já longas e aderidas.",
-    "dica": "Assim que a haste aparecer, marque a frente do vaso e mantenha a planta em posição definitiva, com luz frontal constante. Garanta peso no recipiente, espaço vertical e tutor precoce. O fototropismo é forte: mudanças de posição fazem a haste se contorcer. Replante somente no início das novas raízes, preservando as pontas ativas que sustentarão o pseudobulbo e a próxima floração.",
+    "floracao": "Mais comum na primavera. As hastes podem alcançar grande comprimento e ramificar bastante, portanto precisam de espaço livre. Uma planta adulta bem iluminada produz dezenas de flores.",
+    "adubacao": "🌿 Orgânica: bokashi em pequena porção, dentro de porta-adubo e longe dos brotos. Reponha somente após o material se desfazer.\n💧 Foliar/mineral: na fase de crescimento, use adubo equilibrado em 1/4 da dose a cada 10–15 dias; reduza quando o pseudobulbo amadurecer. Faça uma rega só com água mensalmente para retirar sais.\n🧪 Liberação lenta: use poucos grânulos em vasos muito drenantes, sem encostar em raízes novas. Não combine doses completas dos três métodos.",
+    "rega": "Regue abundantemente durante a emissão de brotos e raízes, deixando o substrato quase secar entre regas. Após o amadurecimento, reduza de forma moderada. Pseudobulbos devem permanecer firmes.",
+    "suporte": "🥇 Vaso pequeno e pesado: evita tombamento pelas hastes.\n🥈 Cesto: oferece aeração e espaço para inflorescências arqueadas.\n🥉 Placa: possível em alta umidade e com regas frequentes.",
+    "substrato": "Casca de pinus média + carvão + pedra-pomes ou brita fina. Use pouco esfagno apenas se o ambiente for seco. Replante no início de novas raízes e mantenha o rizoma na superfície.",
+    "errosComuns": "Sombra excessiva, vaso grande, substrato decomposto, cortar hastes verdes e excesso de nitrogênio perto da maturação. Hastes curtas e poucas flores geralmente refletem pseudobulbos mal formados.",
+    "dica": "Reserve espaço vertical e não mova a planta quando a haste estiver crescendo; ela é longa, frágil e se orienta em direção à luz.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, cultive sob 50–60% de sombra, com ventilação forte e regas matinais. Evite vasos grandes e abafamento após chuvas prolongadas. A estabilidade do vaso é especialmente importante em locais sujeitos a vento.",
-        "montanhaFrio": "Adapta-se muito bem. Noites frescas favorecem crescimento compacto, coloração e hastes firmes. Proteja apenas de geada direta e reduza a água em períodos frios e nublados."
+        "litoralQuente": "Use boa ventilação e 50–60% de sombra. Regue cedo e evite abafamento após chuvas prolongadas.",
+        "montanhaFrio": "Adapta-se muito bem. Ofereça mais luz no inverno e proteja apenas de geadas e vento frio excessivo."
     },
     "mesesFloracao": [
         9,

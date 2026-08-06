@@ -1,4 +1,4 @@
-// Ficha V4 refinada — conteúdo antigo e novo comparados, filtrados e agregados; coluna lateral resumida para preservar o layout.
+// Ficha aprofundada e revisada — Lote 10.
 
 export const maxillariaPicta = {
     "id": "maxillaria-picta",
@@ -7,11 +7,10 @@ export const maxillariaPicta = {
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "caracteristicas": [
-        "Epífita ou litófita",
-        "Touceiras densas",
-        "Pseudobulbos ovoides e sulcados",
-        "Flores basais pintalgadas",
-        "Aprecia noites frescas"
+        "Flores claras pintalgadas",
+        "Crescimento simpodial",
+        "Flores basais",
+        "Forma touceiras"
     ],
     "fotos": [
         "imagens/Maxillaria picta/Maxillaria picta1.webp",
@@ -19,28 +18,28 @@ export const maxillariaPicta = {
         "imagens/Maxillaria picta/Maxillaria picta3.jpg",
         "imagens/Maxillaria picta/Maxillaria picta4.jpg"
     ],
-    "descricao": "Espécie da Mata Atlântica de crescimento simpodial, epífita ou litófita, formando touceiras compactas de pseudobulbos ovoides, que se tornam nitidamente sulcados com a maturidade. Em geral, cada pseudobulbo sustenta duas folhas apicais coriáceas e alongadas, ocasionalmente três. As flores surgem isoladamente em hastes muito curtas junto à base, em tons creme, amarelos ou alaranjados, densamente pintalgadas de púrpura ou castanho. O cultivo combina raízes bem aeradas, luz filtrada brilhante, replantio na janela de enraizamento e uma queda moderada de temperatura noturna para favorecer a indução floral.",
-    "origem": "Sul e Sudeste do Brasil até Misiones, Argentina.",
-    "regiao": "Mata Atlântica e florestas sazonais de altitude.",
-    "habitat": "Troncos ou rochas em locais claros, ventilados e com noites frescas.",
-    "clima": "Intermediário a fresco, sazonal e úmido, sem repouso seco rigoroso.",
-    "climaFloracao": "A floração depende da formação completa do pseudobulbo no ciclo anterior, boa luz filtrada, raízes funcionais e amplitude térmica no outono/inverno. Noites mais frescas funcionam como sinal sazonal, mas não compensam uma planta enfraquecida ou cultivada sob sombra. Após a maturação, aumente levemente o intervalo de rega e reduza o excesso de nitrogênio, sem deixar os pseudobulbos murcharem profundamente. Touceiras maduras florescem com mais impacto e toleram melhor as variações térmicas.",
+    "descricao": "Espécie aceita por Kew, de pseudobulbos agrupados e flores claras marcadas por pintas castanhas ou púrpuras. A floração costuma melhorar com alta luminosidade filtrada, amadurecimento dos pseudobulbos e queda térmica no inverno.",
+    "origem": "Sudeste e Sul do Brasil até Misiones, Argentina.",
+    "regiao": "Sudeste e Sul do Brasil até Misiones, Argentina.",
+    "habitat": "Epífita ou litófita de ambientes sazonais, frequentemente em áreas com noites frescas.",
+    "clima": "Intermediário a fresco, com umidade moderada a alta e ar em movimento.",
+    "climaFloracao": "A floração depende de pseudobulbos completamente maduros, luz suficiente durante o crescimento e raízes saudáveis. A queda moderada das temperaturas noturnas costuma ajudar espécies brasileiras de altitude, mas não deve ser confundida com necessidade de frio extremo.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Apenas sol fraco",
-        "horario": "Primeiras horas da manhã",
-        "observacoes": "Luz filtrada brilhante é necessária para pseudobulbos compactos e floríferos. Folhas verde-médio e firmes indicam equilíbrio. Vegetação muito escura, alongada ou frouxa sugere sombra; amarelecimento acelerado, manchas secas ou calor nas folhas indicam excesso."
+        "solDireto": "Sim, apenas suave",
+        "horario": "Até aproximadamente 08:30",
+        "observacoes": "Luz filtrada brilhante. Folhas muito escuras e pseudobulbos alongados indicam pouca luz; amarelecimento rápido e manchas secas mostram excesso. Faça aumentos de luz gradualmente."
     },
-    "floracao": "Predomina do inverno ao início da primavera, aproximadamente de julho a outubro. As flores surgem em hastes curtas, rente ao substrato, e podem ficar parcialmente ocultas por bainhas e folhas. Em touceiras adultas, vários pseudobulbos podem florescer juntos. O perfume é leve e geralmente mais perceptível nas horas amenas ou sob sol suave.",
-    "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, protegido em porta-adubo e afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante brotação e emissão de raízes.\n🌸 Pré-floração: após a maturação, reduza o nitrogênio em vez de aumentar drasticamente fósforo e potássio.\n🧪 Liberação lenta: poucos grânulos em vaso bem drenante, longe dos brotos.\n🚿 Faça flushing mensal com água pura e nunca aplique solução forte em raízes desidratadas.",
-    "rega": "Durante a brotação, regue generosamente e permita que o substrato perca parte da umidade antes da próxima irrigação. Após a maturação, aumente discretamente o intervalo, sobretudo nas semanas frias e nubladas. A espécie não deve receber seca severa. Pseudobulbos levemente sulcados podem ser normais; enrugamento progressivo exige inspeção. Se houver raízes escuras e substrato molhado, o problema tende a ser perda radicular por falta de oxigênio; se as raízes estiverem firmes e a mistura seca, pode ser deficiência hídrica real.",
-    "suporte": "🥇 Vaso de barro ou plástico muito perfurado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira, adequado a exemplares grandes e bem estabelecidos.\n🥉 Placa de madeira ou cortiça com pequena quantidade de musgo, somente onde a umidade ambiente e a rotina de rega evitarem desidratação. Preserve espaço para poucos crescimentos futuros.",
-    "substrato": "Casca de pinus média + pedra-pomes + carvão vegetal é a mistura principal. Alternativas: casca média + brita fina + pequena fração de esfagno solto; ou fibra de coco em cubos bem lavada + carvão + componente mineral. O rizoma deve permanecer sobre a superfície. Troque o substrato antes que ele compacte, preferencialmente quando as novas pontas radiculares estiverem iniciando.",
-    "errosComuns": "❌ Replantar ou dividir fora do início de novas raízes.\n❌ Usar vaso muito grande e manter o centro úmido por vários dias.\n❌ Enterrar o rizoma, brotos ou hastes basais.\n❌ Cultivar em sombra profunda e esperar que apenas o frio provoque floração.\n❌ Arrancar bainhas firmemente aderidas durante a limpeza da base.\n❌ Regar com frequência no frio sem ventilação.\n❌ Aplicar adubo concentrado em raízes finas ou secas.",
-    "dica": "Replante somente quando novas pontas de raízes começarem a aparecer. Fora dessa janela, a planta pode permanecer estagnada por muitos meses. No outono e inverno, mantenha luz filtrada forte e aproveite a queda natural da temperatura noturna para indução. Como as hastes florais são curtas e basais, remova apenas detritos soltos e bainhas totalmente deterioradas; não “descasque” o pseudobulbo à força. Mantenha a base ventilada e evite que água fique acumulada ao redor dos botões.",
+    "floracao": "As flores normalmente surgem em hastes curtas na base dos pseudobulbos maduros. Como ficam parcialmente escondidas pela folhagem, manter a base limpa facilita perceber botões e evita que água parada cause manchas.",
+    "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, dentro de porta-adubo e afastado do rizoma.\n💧 Foliar: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante raízes e brotos ativos.\n🧪 Liberação lenta: dose moderada em vasos bem drenados. Reduzir após o amadurecimento do broto e lavar o substrato mensalmente com água pura.",
+    "rega": "Durante a brotação, regue abundantemente e deixe o substrato secar parcialmente, sem secagem longa. Após a maturação, aumente um pouco o intervalo. Pseudobulbos levemente sulcados são normais; enrugamento progressivo junto com raízes escuras indica perda radicular, não necessariamente pouca água.",
+    "suporte": "🥇 Vaso de barro ou plástico bem perfurado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira para espécies de rizoma mais expansivo.\n🥉 Placa com musgo fino para miniaturas e locais de alta umidade.",
+    "substrato": "🥇 Casca de pinus média + pedra-pomes + carvão vegetal.\n🥈 Casca média + brita fina + pequena quantidade de esfagno.\n🥉 Fibra de coco em cubos bem lavada + carvão + material mineral. Ajuste o esfagno ao clima; ele deve estabilizar a umidade, não manter o vaso molhado por vários dias.",
+    "errosComuns": "Vaso grande; rizoma enterrado; substrato velho; divisão excessiva; sombra profunda; adubação forte em raízes finas; regas frequentes em período frio sem ventilação. Manchas negras que aumentam rapidamente exigem isolamento e correção do excesso de umidade.",
+    "dica": "Replante somente quando novas raízes estiverem começando. Maxillarias estabelecidas podem interromper o crescimento quando o rizoma é dividido ou manipulado fora dessa fase.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, use vaso pequeno, mistura mais mineral, ventilação forte e o ponto mais fresco do orquidário. Proteja do calor noturno abafado.",
-        "montanhaFrio": "Em Santa Teresa/ES, a amplitude térmica natural favorece a floração. Reduza a rega em semanas frias e chuvosas, sem impor seca completa."
+        "litoralQuente": "Use substrato mais mineral, vaso pequeno e ventilação contínua. Proteja do sol forte e do calor abafado, especialmente espécies de origem montana.",
+        "montanhaFrio": "Em geral adapta-se bem. Reduza a frequência de rega em semanas frias e nubladas, sem impor seca absoluta durante raízes ativas."
     },
     "mesesFloracao": [
         7,

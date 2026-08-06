@@ -1,62 +1,53 @@
-// Ficha comparada, consolidada e maximamente enriquecida — padrão editorial V4.
+// Ficha científica e de cultivo revisada — Lote 03.
 
 export const blcChiaLin = {
-    "id": "blc-chia-lin",
-    "nome": "Rhyncholaeliocattleya Chia Lin",
-    "genero": "Rhyncholaeliocattleya",
-    "tipo": "Híbrido horticultural da aliança Cattleya",
-    "dificuldade": "Fácil a moderada",
-    "caracteristicas": [
-        "Híbrido clássico e premiado",
-        "Rlc. Oconee × Rlc. Maitland",
-        "Flores grandes e arredondadas",
-        "Tonalidades vermelho-vinho e púrpura",
-        "Pseudobulbos unifoliados robustos",
-        "Espata floral e raízes sazonais"
+    id: "blc-chia-lin",
+    nome: "Rhyncholaeliocattleya Chia Lin",
+    genero: "Rhyncholaeliocattleya",
+    tipo: "Híbrido horticultural",
+    dificuldade: "Fácil a moderada",
+    caracteristicas: [
+        "Híbrido clássico",
+        "Flores grandes",
+        "Coloração intensa",
+        "Aliança Cattleya",
     ],
-    "fotos": [
+    fotos: [
         "imagens/Blc. Chia Lin/Blc. Chia Lin1.webp",
         "imagens/Blc. Chia Lin/Blc. Chia Lin2.webp",
         "imagens/Blc. Chia Lin/Blc. Chia Lin3.webp",
-        "imagens/Blc. Chia Lin/Blc. Chia Lin4.jpg"
+        "imagens/Blc. Chia Lin/Blc. Chia Lin4.jpg",
     ],
-    "descricao": "Híbrido clássico da aliança Cattleya, historicamente conhecido como Blc. Chia Lin e hoje registrado como Rhyncholaeliocattleya Chia Lin. Resulta de Rlc. Oconee × Rlc. Maitland e reúne flores grandes, arredondadas, espessas e aveludadas, geralmente em vermelho, vinho ou púrpura. Forma pseudobulbos clavados e unifoliados, com crescimento simpodial vigoroso e floração vinculada ao amadurecimento completo do pseudobulbo.",
-    "origem": "Híbrido horticultural.",
-    "regiao": "Sem distribuição natural.",
-    "habitat": "Cultivo baseado em Cattleyas epífitas.",
-    "clima": "Quente a intermediário.",
-    "climaFloracao": "A espata e os botões dependem de pseudobulbo plenamente maduro, raízes saudáveis, luz alta e leve amplitude térmica. Na fase vegetativa, água e nutrição constroem o pseudobulbo; depois da folha firmar e o pseudobulbo completar o volume, o excesso de nitrogênio deve ser reduzido. Pouca luz, raízes debilitadas e adubação vegetativa prolongada favorecem brotações cegas.",
-    "iluminacao": {
-        "sombrite": "50% a 60%",
-        "solDireto": "Sim, suave",
-        "horario": "Até aproximadamente 09:00",
-        "observacoes": "Exige luz típica de Cattleya de alta floração. Folhas verde-médio a verde-claro e firmes indicam bom equilíbrio. Folhas verde-escuras acompanham pseudobulbos mais longos e baixa floração; amarelecimento intenso e manchas secas indicam excesso de sol."
+    descricao: "Híbrido clássico da aliança Cattleya, antigamente conhecido como Blc. Chia Lin. Resulta do cruzamento entre Rhyncholaeliocattleya Oconee e Rhyncholaeliocattleya Maitland. Seus clones são valorizados pelas flores grandes, arredondadas e de cores intensas, especialmente nos tons vermelhos, vinho e púrpura.",
+    origem: "Híbrido horticultural registrado, produzido exclusivamente em cultivo.",
+    regiao: "Não possui distribuição natural; é cultivado mundialmente em coleções e orquidários comerciais.",
+    habitat: "Não possui habitat natural. Seu manejo segue o padrão dos híbridos modernos da aliança Cattleya, com raízes expostas a ciclos de molhamento e secagem, luminosidade elevada e boa ventilação.",
+    clima: "Quente a intermediário, com leve queda de temperatura noturna.",
+    climaFloracao: "Floresce após a maturação completa dos pseudobulbos. Para formar espatas e botões vigorosos, precisa de luz forte filtrada, boa diferença entre as temperaturas do dia e da noite e raízes saudáveis. Excesso de nitrogênio, pouca luz ou substrato deteriorado podem produzir brotações grandes sem floração.",
+    iluminacao: {
+        sombrite: "50% a 60%",
+        solDireto: "Sim, suave",
+        horario: "Até aproximadamente 09:00",
+        observacoes: "Necessita mais luz do que Phalaenopsis e muitos Oncidium. Folhas verde-médio a verde-claro indicam boa luminosidade; folhas muito escuras costumam acompanhar floração fraca."
     },
-    "floracao": "Mais frequente do outono ao inverno, entre abril e agosto, embora o clone e o ciclo possam alterar a época. A haste nasce no ápice do pseudobulbo, normalmente protegida por espata simples ou dupla. As flores podem ultrapassar 15 cm, têm pétalas largas e sobrepostas, labelo amplo e veludoso e boa duração quando protegidas de chuva e calor extremo. Espatas secas nem sempre estão vazias; não devem ser removidas antes da confirmação.",
-    "adubacao": "🌿 Orgânica: bokashi em sachê durante o crescimento, renovado a cada 2–3 meses.\n💧 Fase vegetativa: NPK equilibrado em baixa concentração a cada 10–15 dias.\n🌸 Maturação: reduza nitrogênio após a folha firmar; mantenha potássio e micronutrientes sem exagerar em fósforo.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada e longe das raízes novas.\n🚿 Flushing: lave o vaso mensalmente para evitar sais, sobretudo no calor.",
-    "rega": "Na brotação e no enraizamento, molhe bem e repita quando o substrato estiver quase seco. Durante a formação do pseudobulbo, evite secas prolongadas. Após a maturação, aumente ligeiramente o intervalo, mantendo raízes vivas e pseudobulbo firme. Pseudobulbo enrugado com substrato úmido indica raízes mortas; broto amolecendo pela base sugere água acumulada ou baixa ventilação.",
-    "suporte": "🥇 Vaso de barro proporcional e perfurado: melhor secagem para clima úmido.\n🥈 Vaso plástico raso e muito furado: mantém umidade por mais tempo em locais secos.\n🥉 Cachepô ou cesto de madeira: adequado para touceiras grandes e raízes aeradas.\nDeixe espaço para apenas 2–3 novos crescimentos e posicione a parte antiga junto à borda.",
-    "substrato": "Opção 1 (principal): casca de pinus média + carvão vegetal + pedra-pomes.\nOpção 2 (clima úmido): carvão + brita + casca média, com mínima retenção.\nOpção 3 (clima seco): chips de coco tratados + pedra-pomes + carvão.\nA casca retém umidade breve, o carvão mantém estrutura, a pedra-pomes melhora aeração e a brita dá estabilidade. Replante apenas quando novas pontas radiculares surgirem.",
-    "errosComuns": "Sombra profunda; excesso de nitrogênio após a maturação; vaso grande; substrato velho e ácido; água contínua no centro do vaso; replantar sem raízes novas; cortar raízes ativas; remover espata seca cedo demais; dividir planta pequena; molhar broto no fim do dia.",
-    "dica": "Observe a planta, não o calendário. Quando a folha nova completar a expansão e o pseudobulbo estiver firme, reduza o nitrogênio, mantenha a luz alta e deixe o substrato secar parcialmente entre regas. Essa transição evita prolongar o vegetativo e favorece espata e botões. Replante somente no começo das novas raízes, pois raízes antigas de Cattleya raramente se recuperam após danos.",
-    "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES adapta-se muito bem. Use 50–60% de sombra, sol matinal, vaso ventilado, substrato de secagem rápida e circulação constante. Durante ondas de calor, aumente ventilação e frequência de rega sem manter o centro do vaso molhado.",
-        "montanhaFrio": "Noites frescas favorecem diferenciação floral e intensidade da cor. Proteja de geadas e reduza água em períodos frios e nublados."
+    floracao: "Pode florescer em diferentes épocas conforme o clone, com maior frequência do outono ao inverno.",
+    adubacao: "🌿 Orgânica: bokashi em pequena quantidade, protegido em saquinho e usado durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias; ao amadurecer o pseudobulbo, reduza o nitrogênio.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, renovado conforme o período indicado pelo fabricante e mantido longe das raízes novas.",
+    rega: "Molhe completamente e espere o substrato secar parcialmente antes da próxima rega. Durante brotação e enraizamento, regue com maior frequência; após a maturação, aumente o intervalo sem permitir desidratação prolongada.",
+    suporte: "🥇 Vaso de barro ou plástico bem perfurado, proporcional ao sistema radicular.\n🥈 Cachepô de madeira.\n🥉 Cesto plástico ou de madeira para plantas grandes e vigorosas.",
+    substrato: "🥇 Casca de pinus média + carvão vegetal + pedra-pomes: combina retenção moderada com boa aeração.\n🥈 Carvão vegetal + brita + casca de pinus.\n🥉 Chips de coco tratados + pedra-pomes + carvão, em regiões de secagem muito rápida.",
+    errosComuns: "Cultivar com pouca luz; manter água acumulada no substrato; usar vaso muito grande; deixar substrato velho e ácido; molhar repetidamente brotos novos no fim do dia; aplicar adubo concentrado em raízes secas; replantar sem novas raízes em formação.",
+    dica: "Observe a maturação do pseudobulbo, não apenas o calendário. Quando a folha estiver firme e o pseudobulbo completo, reduza gradualmente o nitrogênio e mantenha boa luminosidade para favorecer a diferenciação da espata e dos botões.",
+    adaptacaoRegional: {
+        litoralQuente: "Use substrato de secagem rápida, vaso ventilado e circulação constante de ar. Sol suave da manhã ajuda a florescer, mas proteja a planta do sol forte do meio do dia.",
+        montanhaFrio: "Adapta-se bem a noites frescas, que podem favorecer a floração. Reduza as regas durante sequências frias e nubladas, mantendo a planta protegida de temperaturas extremas."
     },
-    "mesesFloracao": [
-        4,
-        5,
-        6,
-        7,
-        8
-    ],
-    "avaliacoes": {
-        "cultivo": 2,
-        "floracao": 4,
-        "perfume": 3,
-        "luminosidade": 4,
-        "agua": 3,
-        "raridade": 2
-    },
-    "sinonimo": "Brassolaeliocattleya Chia Lin (Blc. Chia Lin)"
+    mesesFloracao: [4, 5, 6, 7, 8],
+    avaliacoes: {
+        cultivo: 4,
+        floracao: 4,
+        perfume: 3,
+        luminosidade: 4,
+        agua: 3,
+        raridade: 2
+    }
 };

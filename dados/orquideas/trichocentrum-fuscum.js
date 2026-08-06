@@ -1,61 +1,41 @@
-// Ficha comparada, consolidada e maximamente enriquecida — padrão editorial V4.
+// Ficha atualizada no LOTE 15 — PADRÃO EDITORIAL V3.
 
 export const trichocentrumFuscum = {
-    "id": "trichocentrum-fuscum",
-    "nome": "Trichocentrum fuscum",
-    "genero": "Trichocentrum",
-    "tipo": "Espécie botânica",
-    "dificuldade": "Moderada",
-    "caracteristicas": [
-        "Espécie botânica brasileira compacta",
-        "Folhas espessas e suculentas",
-        "Pseudobulbos extremamente reduzidos",
-        "Alta exigência de luz e ventilação",
-        "Baixa retenção de água no suporte",
-        "Cultivo montado favorecido"
-    ],
-    "fotos": [
+    id: "trichocentrum-fuscum",
+    nome: "Trichocentrum fuscum",
+    genero: "Trichocentrum",
+    tipo: "Espécie botânica",
+    dificuldade: "Moderada",
+    caracteristicas: ["Folhas carnosas", "Epífita compacta", "Tolera leve secagem", "Flores em tons castanhos e amarelados"],
+    fotos: [
         "imagens/Trichocentrum fuscum/Trichocentrum fuscum1.webp",
         "imagens/Trichocentrum fuscum/Trichocentrum fuscum2.jpg",
         "imagens/Trichocentrum fuscum/Trichocentrum fuscum3.jpg",
         "imagens/Trichocentrum fuscum/Trichocentrum fuscum4.webp"
     ],
-    "descricao": "Orquídea epífita brasileira de porte compacto, com pseudobulbos muito reduzidos e folhas rígidas, espessas e carnosas. A anatomia suculenta armazena água e exige ciclos claros de molhamento e secagem. As flores pequenas a médias apresentam tons amarelados, ocres ou castanhos, com labelo claro contrastante.",
-    "origem": "Brasil.",
-    "regiao": "Leste e Sudeste do Brasil.",
-    "habitat": "Ramos claros e ventilados.",
-    "clima": "Quente a intermediário e sazonal.",
-    "climaFloracao": "A floração depende de luz alta, folhas maduras e raízes submetidas a secagem rápida. Não requer um repouso completamente seco, mas a frequência de regas deve diminuir no período frio e após a maturação.",
-    "iluminacao": {
-        "sombrite": "40% a 50%",
-        "solDireto": "Somente suave",
-        "horario": "Até aproximadamente 08:30",
-        "observacoes": "Folhas verde-oliva, firmes e compactas indicam boa luz. Folhas muito escuras sugerem sombra excessiva; manchas claras e secas indicam queimadura."
+    descricao: "Espécie epífita compacta, de folhas espessas e carnosas, adaptadas a armazenar água. Produz inflorescências com pequenas flores em tons amarelados, ocres ou castanhos, geralmente bem contrastadas.",
+    origem: "Brasil tropical.",
+    regiao: "Áreas de Mata Atlântica e formações florestais do leste brasileiro, conforme a circunscrição adotada.",
+    habitat: "Ramos bem iluminados e ventilados, sujeitos a chuvas seguidas de secagem rápida.",
+    clima: "Quente a intermediário, com ótima ventilação.",
+    climaFloracao: "A floração é estimulada por luz filtrada intensa, folhas firmes e maduras e uma leve redução das regas após o crescimento. Não requer seca severa, mas não floresce bem quando mantida sempre encharcada ou sombreada.",
+    iluminacao: {
+        sombrite: "40% a 50%",
+        solDireto: "Somente fraco",
+        horario: "Até 08:30",
+        observacoes: "Prefere claridade alta. Folhas muito escuras sugerem pouca luz; manchas claras e secas indicam excesso de sol."
     },
-    "floracao": "Principalmente da primavera ao verão, entre outubro e fevereiro. As hastes surgem na base do crescimento maduro e carregam flores espaçadas em tons ocres, castanhos e amarelos.",
-    "adubacao": "🌿 Orgânica: bokashi em dose mínima e afastado da planta.\n💧 Mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 15 dias no crescimento.\n🧪 Liberação lenta: uso mínimo apenas em vasos.\n🚿 Flushing: lave raízes e suporte mensalmente para evitar sais.",
-    "rega": "Regue abundantemente e espere as raízes e o suporte secarem quase por completo antes da próxima aplicação. Em placas, pode receber água diária no verão desde que seque rapidamente. No inverno, aumente o intervalo. Evite água acumulada na base das folhas durante a noite.",
-    "suporte": "🥇 Placa de madeira dura, cortiça ou tronquinho sem substrato.\n🥈 Cachepô pequeno e muito vazado.\n🥉 Vaso pequeno de barro com furos amplos.\nUse no máximo uma lâmina fina de esfagno em ambientes secos.",
-    "substrato": "Opção 1: cultivo montado sem substrato.\nOpção 2: casca de pinus grossa + carvão grosso + pedra-pomes ou caco de telha.\nOpção 3: cachepô preenchido quase exclusivamente com material mineral.\nEvite qualquer mistura fina ou retentora.",
-    "errosComuns": "Regar antes da secagem; usar vaso grande; sombra profunda; água parada na base foliar; substrato fino; falta de ventilação; excesso de adubo; replantar fora das raízes novas; manter molhado no inverno.",
-    "dica": "Leia as folhas: sua suculência indica capacidade de reserva. Monte em madeira, molhe bem e permita secagem total do sistema radicular. O objetivo é hidratar rapidamente sem manter umidade acumulada na base.",
-    "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES adapta-se muito bem montado e exposto à ventilação. Proteja do sol forte da tarde e evite regas tardias.",
-        "montanhaFrio": "Reduza bastante a frequência no inverno e proteja de temperaturas muito baixas."
+    floracao: "Geralmente entre primavera e verão.",
+    adubacao: "🌿 Orgânica: bokashi em dose mínima para plantas envasadas.\n💧 Foliar: NPK equilibrado em meia dose a cada 15 dias durante o crescimento.\n🧪 Liberação lenta: Osmocote em quantidade pequena, apenas em vasos ou cachepôs.",
+    rega: "Regue bem e permita secagem quase completa antes da próxima rega. Plantas montadas podem receber água diária no verão, desde que sequem rapidamente; reduza no período mais fresco.",
+    suporte: "🥇 Placa de madeira, cortiça ou tronquinho.\n🥈 Cachepô pequeno e vazado.\n🥉 Vaso de barro pequeno com excelente drenagem.",
+    substrato: "🥇 Sem substrato ou com fina camada de esfagno sobre placa.\n🥈 Casca grossa + carvão + pedra-pomes.\n🥉 Cacos de telha + carvão + pequena quantidade de casca.",
+    errosComuns: "Manter em sombra; usar vaso grande; regar antes de as raízes secarem; compactar o substrato; deixar água acumulada na base das folhas; exagerar no adubo.",
+    dica: "Folhas carnosas indicam que a planta prefere ciclos claros de molhar e secar. Quanto mais quente e úmido o ambiente, mais importante se torna a ventilação.",
+    adaptacaoRegional: {
+        litoralQuente: "Adapta-se muito bem ao litoral quente quando montada ou cultivada em recipiente pequeno e vazado. Proteja do sol forte da tarde e evite umidade contínua durante a noite.",
+        montanhaFrio: "Em clima de montanha, reduza as regas nos meses frios e mantenha a planta protegida de temperaturas muito baixas."
     },
-    "mesesFloracao": [
-        10,
-        11,
-        12,
-        1,
-        2
-    ],
-    "avaliacoes": {
-        "cultivo": 3,
-        "floracao": 3,
-        "perfume": 2,
-        "luminosidade": 4,
-        "agua": 2,
-        "raridade": 4
-    }
+    mesesFloracao: [9,10,11,12,1,2],
+    avaliacoes: { cultivo: 3, floracao: 3, perfume: 2, luminosidade: 4, agua: 2, raridade: 4 }
 };

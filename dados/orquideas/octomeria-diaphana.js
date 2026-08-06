@@ -1,4 +1,4 @@
-// Ficha refinada, comparada e enriquecida no padrão editorial V4.
+// Ficha aprofundada no padrão editorial V3 — Lote 11.
 
 export const octomeriaDiaphana = {
     "id": "octomeria-diaphana",
@@ -19,28 +19,28 @@ export const octomeriaDiaphana = {
         "imagens/Octomeria diaphana/Octomeria diaphana3.jpg",
         "imagens/Octomeria diaphana/Octomeria diaphana4.jpg"
     ],
-    "descricao": "Mini-orquídea epífita brasileira da subtribo Pleurothallidinae, de crescimento cespitoso e sem pseudobulbos evidentes. O vegetativo é formado por ramicaules finos, eretos e agrupados, cada um sustentando uma folha estreita, coriácea e levemente canaliculada. Pequenos fascículos de flores estreladas, cerosas e translúcidas surgem na junção entre o ramicaule e a folha. Como as flores são diminutas, a beleza aparece plenamente em touceiras antigas, densas e preservadas, que formam uma delicada nuvem floral.",
-    "origem": "Brasil.",
-    "regiao": "Sudeste e Sul.",
-    "habitat": "Troncos musgosos em matas úmidas.",
-    "clima": "Intermediário, úmido e ventilado.",
-    "climaFloracao": "A floração acompanha a maturação dos novos ramicaules e é favorecida por umidade regular, luz filtrada suficiente, noites amenas e ventilação constante. A espécie não possui pseudobulbos para reserva e não deve receber repouso seco. Plantas antigas, estáveis e não divididas produzem fascículos em muitos ramicaules ao mesmo tempo.",
+    "descricao": "Espécie de folhas estreitas e flores pequenas, translúcidas a amareladas, que surgem em grupos junto à base das folhas. A beleza é delicada e aparece melhor em touceiras adultas.",
+    "origem": "Nativa de Brasil, especialmente Mata Atlântica do Sudeste e Sul. Octomeria é um grupo neotropical muito diverso, com centro de riqueza no Brasil.",
+    "regiao": "Brasil, especialmente Mata Atlântica do Sudeste e Sul",
+    "habitat": "Epífita de matas úmidas, em troncos e ramos cobertos por musgos, geralmente sob sombra clara.",
+    "clima": "Intermediário a quente, com umidade moderada a alta e boa ventilação. Touceiras pequenas sentem rapidamente tanto a seca quanto o abafamento.",
+    "climaFloracao": "A floração acompanha a maturação dos novos ramicaules e costuma responder à boa luz filtrada e à diferença natural entre as estações, sem repouso rígido.",
     "iluminacao": {
         "sombrite": "60% a 75%",
         "solDireto": "Não",
         "horario": "Luz filtrada o dia inteiro",
         "observacoes": "Sombra clara. Folhas muito alongadas e escuras sugerem pouca luz; tonalidade amarelada ou pontas secas indicam exposição excessiva."
     },
-    "floracao": "O pico costuma ocorrer na primavera e no início do verão, entre outubro e dezembro, com possibilidade de surtos secundários em touceiras bem estabelecidas. As flores são pequenas, branco-marfim, amareladas ou translúcidas, com discretas marcações no centro, e nascem em fascículos junto à base da folha. O efeito ornamental depende diretamente do volume de ramicaules floridos.",
-    "adubacao": "🌿 Orgânica: use quantidade mínima de Bokashi em sachê no topo do suporte, longe dos ramicaules.\n💧 Foliar/mineral: NPK equilibrado ultradiluído, entre 1/5 e 1/4 da dose, a cada 15 dias durante o crescimento.\n🚿 Flushing: lave abundantemente o suporte com água pura a cada 2–4 semanas, conforme a frequência de adubação e a qualidade da água.\n🧪 Liberação lenta: não recomendada para raízes capilares tão sensíveis.",
-    "rega": "Por não possuir pseudobulbos, necessita de umidade regular. Em placas, regue diariamente no verão ou antes que a fina camada de esfagno seque completamente por vários dias. O suporte deve permanecer úmido apenas o suficiente para hidratar as raízes, mas com circulação de ar constante. Pontas secas podem indicar ar muito seco, excesso de sais ou raízes comprometidas. Brotações escurecendo pela base sugerem abafamento, substrato velho ou água parada nas axilas.",
-    "suporte": "🥇 Placa de cortiça ou madeira dura com uma camada fina de esfagno: suporte ideal e permanente.\n🥈 Pequeno cesto de madeira: permite formar almofadas compactas com boa aeração.\n🥉 Cuia plástica rasa e perfurada: útil apenas em ambientes de umidade mais baixa.\nEvite trocas frequentes de suporte depois que a planta se fixar.",
-    "substrato": "Opção 1 (montagem): camada fina e solta de esfagno sob as raízes, sem cobrir os ramicaules.\nOpção 2 (cesto): casca de pinus fina + carvão vegetal miúdo + pedra-pomes fina + pouca quantidade de esfagno.\nOpção 3 (cuia rasa): esfagno solto + pedra-pomes fina + pequena fração de casca fina.\nO material deve permanecer leve e aerado. Substitua-o quando escurecer, compactar, acidificar ou reter água por tempo excessivo.",
-    "errosComuns": "❌ Dividir a touceira em 1 ou 2 ramicaules.\n❌ Permitir seca completa por vários dias.\n❌ Cultivar em vaso fundo ou substrato compacto.\n❌ Aplicar adubo forte ou deixar sais acumularem.\n❌ Deixar água parada nas axilas durante noites frias.\n❌ Retirar folhas antigas ainda verdes, que continuam ajudando na reserva hídrica.\n❌ Manipular a planta durante a emissão de novos ramicaules.\n❌ Manter em ambiente sem circulação de ar.",
-    "dica": "Preserve a touceira inteira. Se a divisão for inevitável, mantenha pelo menos 5–6 ramicaules vigorosos e enraizados. Monte em madeira ou cortiça com uma lâmina fina de esfagno, deixando as raízes respirar, e evite mudar o suporte depois da fixação. Não retire folhas verdes antigas nem manipule a planta durante o crescimento. Quanto mais antiga e densa a touceira, maior o número de fascículos e mais evidente o efeito de nuvem de flores diáfanas.",
+    "floracao": "Mais comum na primavera e início do verão. As flores são pequenas e surgem próximas à base das folhas; uma touceira madura oferece efeito muito melhor que uma divisão recente.",
+    "adubacao": "🌿 Orgânica: use quantidade mínima, sempre afastada dos brotos.\n💧 Foliar/mineral: 1/5 a 1/4 da dose a cada 15 dias.\n🧪 Liberação lenta: geralmente desnecessária; raízes finas são sensíveis ao excesso de sais.",
+    "rega": "Mantenha umidade regular, deixando o suporte perder parte da água entre regas. Plantas montadas secam rápido e podem precisar de água diária no verão. Não deixe água retida entre folhas durante noites frias.",
+    "suporte": "🥇 Placa de madeira, cortiça ou galho: favorece a touceira e aeração.\n🥈 Vaso raso ou pequeno cesto: útil em ambientes mais secos.",
+    "substrato": "Em placa, camada fina de esfagno ou fibra junto às raízes. Em vaso, casca fina, carvão e pedra-pomes, com pouco esfagno solto. O suporte deve durar sem compactar.",
+    "errosComuns": "Dividir touceiras pequenas, usar adubo concentrado, deixar secar por muitos dias, cultivar em sombra profunda ou manter esfagno encharcado. Pontas secas podem resultar de baixa umidade, sais ou raízes comprometidas.",
+    "dica": "Evite divisões mínimas. Octomerias florescem e se estabilizam melhor quando mantidas em touceiras com vários crescimentos.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, cultive no setor mais fresco e sombreado do orquidário, sob 70–75% de sombrite, com ventilação constante. Regue pela manhã; em dias muito quentes, aumente a umidade ao redor sem engrossar o esfagno nem manter a base abafada.",
-        "montanhaFrio": "Excelente adaptação. Proteja de geadas e ventos ressecantes. Em semanas frias e nubladas, reduza a frequência das regas, mas não permita seca total."
+        "litoralQuente": "Use sombra clara, montagem ventilada e umidade ambiental. Em placas, aumente as regas no calor sem deixar água parada.",
+        "montanhaFrio": "Boa adaptação, com proteção contra geada. Em inverno úmido e nublado, aumente a ventilação e reduza a frequência de rega."
     },
     "mesesFloracao": [
         10,

@@ -1,63 +1,48 @@
-// Ficha comparada com o conteúdo anterior, consolidada com as novas informações e maximamente enriquecida — padrão editorial V4.
+// Ficha científica e de cultivo revisada — Lote 06.
 
 export const cattleyaViolaceaFSuavissimaXSelf = {
-    "id": "cattleya-violacea-f-suavissima-x-self",
-    "nome": "Cattleya violacea f. suavissima × self",
-    "genero": "Cattleya",
-    "tipo": "Espécie botânica — progênie horticultural",
-    "dificuldade": "Moderada",
-    "caracteristicas": [
-        "Progênie horticultural por autofecundação",
-        "Seleção de coloração extremamente clara",
-        "Espécie amazônica bifoliada",
-        "Variação possível entre plantas irmãs",
-        "Sensível ao frio e à salinização",
-        "Exige água de boa qualidade",
-        "Não possui repouso seco completo"
-    ],
-    "fotos": [
+    id: "cattleya-violacea-f-suavissima-x-self",
+    nome: "Cattleya violacea f. suavissima × self",
+    genero: "Cattleya",
+    tipo: "Espécie botânica — progênie horticultural",
+    dificuldade: "Moderada",
+    caracteristicas: ["Seleção suave", "Amazônica", "Bifoliada", "Flores delicadas"],
+    fotos: [
         "imagens/cattleya-violacea-suavissima-self/cattleya-violacea-suavissima-self-1.webp",
         "imagens/cattleya-violacea-suavissima-self/cattleya-violacea-suavissima-self-2.jpg",
         "imagens/cattleya-violacea-suavissima-self/cattleya-violacea-suavissima-self-3.jpg",
         "imagens/cattleya-violacea-suavissima-self/cattleya-violacea-suavissima-self-4.jpg"
     ],
-    "descricao": "Cattleya violacea f. suavissima × self é uma progênie horticultural resultante da autofecundação de uma planta selecionada por sua coloração extremamente clara. O termo suavissima é uma designação de uso horticultural e não uma categoria taxonômica formal. O objetivo do self é aumentar a probabilidade de descendentes que expressem tonalidades rosa-esbranquiçadas ou lilases muito suaves, mantendo o labelo mais intenso. Cada muda, entretanto, é geneticamente individual e pode variar em cor, forma, vigor, perfume e época de floração. A fisiologia permanece a da espécie amazônica: crescimento bifoliado, necessidade de calor contínuo, umidade elevada, luz filtrada forte e raízes ativas durante grande parte do ano. A qualidade da água e a concentração dos fertilizantes são especialmente importantes, pois raízes jovens e carnosas queimam rapidamente com salinização.",
-    "origem": "Progênie horticultural.",
-    "regiao": "Derivada de Cattleya violacea sul-americana.",
-    "habitat": "Requer microclima equivalente às florestas amazônicas.",
-    "clima": "Quente, úmido e ventilado.",
-    "climaFloracao": "A floração é favorecida por pseudobulbos maduros, noites quentes, luminosidade constante e sistema radicular saudável. A planta não deve ser induzida por frio ou seca intensa. Temperaturas baixas, água muito salina, fertilização concentrada e substrato degradado interrompem o crescimento e reduzem o tamanho e a qualidade das flores. Como se trata de progênie self, o período exato de floração pode variar entre indivíduos.",
-    "iluminacao": {
-        "sombrite": "50% a 60%",
-        "solDireto": "Somente suave",
-        "horario": "Manhã cedo",
-        "observacoes": "Luz brilhante e filtrada é essencial. Folhas verde-médio e pseudobulbos firmes indicam equilíbrio. Sombra produz pseudobulbos finos; sol forte causa amarelecimento e queimaduras."
+    descricao: "Progênie obtida pela autofecundação de uma Cattleya violacea selecionada como suavissima, buscando preservar coloração muito clara e delicada. O termo suavissima é horticultural e não representa categoria botânica aceita.",
+    origem: "Origem hortícola a partir de Cattleya violacea sul-americana.",
+    regiao: "Sem distribuição própria; a espécie ocorre na América do Sul tropical.",
+    habitat: "Requer condições semelhantes às populações amazônicas: calor, umidade e forte luminosidade filtrada.",
+    clima: "Quente e úmido.",
+    climaFloracao: "Crescimento contínuo e ausência de frio intenso favorecem flores maiores e melhor coloração.",
+    iluminacao: {
+        sombrite: "50% a 60%",
+        solDireto: "Somente suave",
+        horario: "Manhã cedo",
+        observacoes: "Luz insuficiente gera pseudobulbos finos e reduz floração."
     },
-    "floracao": "Floresce principalmente da primavera ao verão, entre outubro e março, com variação conforme o indivíduo e o microclima. As flores tendem a apresentar sépalas e pétalas muito claras, em rosa-esbranquiçado ou lilás suave, e labelo magenta com área amarelada na garganta. Plantas jovens podem alterar tamanho e intensidade de cor nas primeiras florações até alcançarem maturidade.",
-    "adubacao": "🌿 Orgânica: bokashi em quantidade mínima durante crescimento ativo, sempre afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose, semanalmente ou a cada 15 dias.\n💦 Água: prefira água de chuva, filtrada ou de baixa salinidade.\n🧪 Liberação lenta: Osmocote somente em dose baixa e em recipiente muito drenante.\n🚿 Flushing: lave o vaso mensalmente com água pura.\nNunca aplique fertilizante concentrado sobre raízes secas ou durante calor extremo.",
-    "rega": "Regue com água de boa qualidade sempre que o substrato estiver próximo da secagem superficial. No verão, a frequência pode ser alta; no inverno, reduza apenas de acordo com a evaporação, sem impor repouso seco. Evite água acumulada no rizoma e nas bainhas. Pontas de raízes queimadas, depósitos esbranquiçados e folhas com margens secas podem indicar excesso de sais.",
-    "suporte": "🥇 Cestinho aberto de madeira: facilita lavagem, ventilação e crescimento das raízes.\n🥈 Vaso de barro furado: boa estabilidade e secagem equilibrada.\n🥉 Placa de madeira em orquidário de umidade alta.\nO suporte deve permitir passagem abundante de água durante o flushing e não concentrar sais.",
-    "substrato": "Opção 1: casca grossa + carvão + pequena quantidade de esfagno.\nOpção 2: fibra de coco grossa tratada + brita.\nOpção 3: pedra-pomes + carvão vegetal.\nUse materiais limpos, estáveis e previamente lavados. Evite componentes que se decomponham rápido ou retenham fertilizante em excesso.",
-    "errosComuns": "Temperaturas prolongadas abaixo de 15 °C; seca severa; água salina; fertilizante concentrado; excesso de Osmocote; falta de flushing; raízes abafadas; pouca luz; substrato degradado; água no rizoma; replantar fora do novo enraizamento; assumir que todas as mudas self serão idênticas à planta-mãe.",
-    "dica": "A prioridade é preservar pontas radiculares ativas durante todo o ano. Use água de baixa salinidade, adubação fraca e lavagem periódica. Mantenha temperatura noturna preferencialmente acima de 15 °C e não aplique repouso seco. Por ser uma progênie self, avalie cada planta pelo desempenho próprio: diferenças de cor e vigor entre irmãos são naturais.",
-    "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, apresenta excelente adaptação térmica. Use sombra luminosa, alta ventilação, água de boa qualidade e controle rigoroso de sais e encharcamento.",
-        "montanhaFrio": "Proteja de noites frias e mantenha temperatura mínima preferencialmente acima de 15 °C. Reduza regas apenas conforme a evaporação."
+    floracao: "Primavera ao verão, com variação conforme o clone e o clima.",
+    adubacao: "🌿 Orgânica: bokashi em dose pequena durante a fase ativa.\n💧 Foliar: fertilizante equilibrado diluído semanalmente ou a cada 15 dias.\n🧪 Liberação lenta: dose baixa em recipientes muito drenantes.",
+    rega: "Regas frequentes no calor, com leve secagem entre aplicações. No inverno, apenas reduza; não imponha repouso seco completo.",
+    suporte: "🥇 Cestinho aberto.\n🥈 Vaso de barro furado.\n🥉 Montagem em placa em ambiente úmido.",
+    substrato: "🥇 Casca grossa + carvão + pequena quantidade de esfagno.\n🥈 Fibra de coco grossa + brita.\n🥉 Pedra-pomes + carvão.",
+    errosComuns: "Temperaturas baixas; seca prolongada; pouca luz; excesso de sais; raízes abafadas.",
+    dica: "Use água de boa qualidade e adubação fraca, pois raízes ativas e sem acúmulo de sais sustentam a delicada floração.",
+    adaptacaoRegional: {
+        litoralQuente: "Adaptação excelente com sombra luminosa, umidade e ventilação.",
+        montanhaFrio: "Necessita proteção nas noites frias; mantenha temperatura mínima preferencialmente acima de 15 °C."
     },
-    "mesesFloracao": [
-        10,
-        11,
-        12,
-        1,
-        2,
-        3
-    ],
-    "avaliacoes": {
-        "cultivo": 3,
-        "floracao": 4,
-        "perfume": 3,
-        "luminosidade": 4,
-        "agua": 4,
-        "raridade": 5
+    mesesFloracao: [10, 11, 12, 1, 2, 3],
+    avaliacoes: {
+        cultivo: 3,
+        floracao: 4,
+        perfume: 3,
+        luminosidade: 4,
+        agua: 4,
+        raridade: 5
     }
 };
