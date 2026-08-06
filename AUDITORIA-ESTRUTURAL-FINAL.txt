@@ -1,0 +1,32 @@
+AUDITORIA E LIMPEZA ESTRUTURAL — ORQUIDÁRIO
+Build: 20260806-estrutura-limpa-v1
+
+ARQUITETURA FINAL
+- index.html -> js/app.js
+- orquidea.html -> ficha.js
+- js/app.js e ficha.js -> dados/orquideas/index.js
+- dados/orquideas/index.js -> um arquivo individual por orquídea
+
+RESULTADOS
+- Fichas carregadas e validadas: 121
+- Arquivos individuais de fichas: 121
+- IDs duplicados: 0
+- Fotografias ausentes: 0
+- Imports relativos quebrados: 0
+- Módulos refinado-v4/v5 restantes: 0
+- Frase antiga da Cattleya walkeriana encontrada: NÃO
+
+LIMPEZA REALIZADA
+- Removido zygopetalum-mackayi.js (ficha obsoleta substituída por Zygolum Louisendorf).
+- Removido schomburgkia.js (arquivo órfão não utilizado pelo índice).
+- Renomeado js/home-v4.js para js/home.js.
+- Removidos parâmetros antigos de versão dos imports internos.
+- Mantido versionamento apenas nos scripts de entrada dos HTMLs.
+- Adicionado .nojekyll para publicação direta no GitHub Pages.
+- Adicionado VERSAO-DO-SITE.txt para confirmar qual build foi publicado.
+
+ARQUIVOS OFICIAIS
+- Não existem bancos agregados paralelos.
+- Não existem ficha-refinado-v4.js ou ficha-refinado-v5.js.
+- Não existem index-refinado-v4.js ou index-refinado-v5.js.
+- A única fonte das fichas é dados/orquideas/index.js.

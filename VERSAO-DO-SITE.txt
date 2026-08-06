@@ -1,0 +1,2 @@
+ORQUIDARIO_BUILD=20260806-estrutura-limpa-v1
+CADEIA=index.html/orquidea.html -> modulos JS -> dados/orquideas/index.js -> ficha individual
