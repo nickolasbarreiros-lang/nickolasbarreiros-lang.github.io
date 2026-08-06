@@ -35,7 +35,7 @@ export const rodrigueziaVenusta = {
     dica: "No litoral quente, a montagem vertical costuma oferecer o melhor equilíbrio entre umidade e ventilação. Posicione a planta de modo que as hastes possam pender sem obstáculos.",
     adaptacaoRegional: {
         litoralQuente: "Adapta-se bem em meia-sombra clara, com regas matinais, ventilação constante e secagem rápida das raízes.",
-        montanhaFrio: "Tolera noites amenas, mas deve ser protegida de frio intenso e de umidade parada durante o inverno."
+        montanhaFrio: "Tolera noites amenas, mas deve ser protegida de frio intenso, geadas e de umidade parada durante o inverno."
     },
     mesesFloracao: [9,10,11,12,1,2],
     avaliacoes: { cultivo: 4, floracao: 4, perfume: 4, luminosidade: 3, agua: 4, raridade: 3 }
