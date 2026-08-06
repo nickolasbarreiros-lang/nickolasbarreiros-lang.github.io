@@ -38,14 +38,15 @@ const orquidea = orquideas.find((item) => {
     return String(item.id) === String(idOrquidea);
 });
 
+
 /* =========================================================
-   NAVEGAÇÃO ENTRE AS FICHAS
+   NAVEGAÇÃO CIRCULAR ENTRE AS FICHAS
 ========================================================= */
 
 const orquideasOrdenadas = [...orquideas]
-    .filter(Boolean)
-    .sort((a, b) => String(a.nome || "").localeCompare(
-        String(b.nome || ""),
+    .filter((item) => item && item.id && item.nome)
+    .sort((a, b) => String(a.nome).localeCompare(
+        String(b.nome),
         "pt-BR",
         { sensitivity: "base", numeric: true }
     ));
@@ -63,17 +64,15 @@ function obterOrquideasVizinhas(itemAtual) {
         return { anterior: null, proxima: null };
     }
 
-    const ultimoIndice = orquideasOrdenadas.length - 1;
-    const indiceAnterior = indiceAtual === 0 ? ultimoIndice : indiceAtual - 1;
-    const indiceProximo = indiceAtual === ultimoIndice ? 0 : indiceAtual + 1;
+    const total = orquideasOrdenadas.length;
 
     return {
-        anterior: orquideasOrdenadas[indiceAnterior],
-        proxima: orquideasOrdenadas[indiceProximo]
+        anterior: orquideasOrdenadas[(indiceAtual - 1 + total) % total],
+        proxima: orquideasOrdenadas[(indiceAtual + 1) % total]
     };
 }
 
-function obterPrimeiraFoto(item) {
+function obterFotoNavegacao(item) {
     const fotos = obterFotos(item?.imagens || item?.fotos);
     return fotos[0] || "";
 }
@@ -85,48 +84,34 @@ function criarNavegacaoEntreFichas(itemAtual) {
         return "";
     }
 
-    const fotoAnterior = obterPrimeiraFoto(anterior);
-    const fotoProxima = obterPrimeiraFoto(proxima);
+    const fotoAnterior = obterFotoNavegacao(anterior);
+    const fotoProxima = obterFotoNavegacao(proxima);
 
     return `
-        <nav class="navegacao-orquideas-v5" aria-label="Navegação entre as orquídeas">
-            <a
-                class="cartao-navegacao-orquidea-v5 cartao-anterior-v5"
-                href="orquidea.html?id=${encodeURIComponent(anterior.id)}"
-                aria-label="Abrir orquídea anterior: ${anterior.nome}"
-                ${fotoAnterior ? `style="--foto-navegacao: url('${fotoAnterior}')"` : ""}
-            >
-                <span class="miniatura-navegacao-v5" aria-hidden="true">
-                    ${fotoAnterior
-                        ? `<img src="${fotoAnterior}" alt="" loading="lazy">`
-                        : `<span>🌸</span>`}
+        <nav class="navegacao-orquideas-v6" aria-label="Navegação entre fichas de orquídeas">
+            <a class="cartao-navegacao-v6 anterior-v6"
+               href="orquidea.html?id=${encodeURIComponent(anterior.id)}"
+               aria-label="Abrir orquídea anterior: ${anterior.nome}">
+                <span class="foto-navegacao-v6" aria-hidden="true">
+                    ${fotoAnterior ? `<img src="${fotoAnterior}" alt="" loading="lazy">` : `<span>🌸</span>`}
                 </span>
-
-                <span class="seta-navegacao-v5" aria-hidden="true">←</span>
-
-                <span class="texto-navegacao-v5">
+                <span class="seta-navegacao-v6" aria-hidden="true">←</span>
+                <span class="texto-navegacao-v6">
                     <small>Orquídea anterior</small>
                     <strong>${anterior.nome}</strong>
                 </span>
             </a>
 
-            <a
-                class="cartao-navegacao-orquidea-v5 cartao-proximo-v5"
-                href="orquidea.html?id=${encodeURIComponent(proxima.id)}"
-                aria-label="Abrir próxima orquídea: ${proxima.nome}"
-                ${fotoProxima ? `style="--foto-navegacao: url('${fotoProxima}')"` : ""}
-            >
-                <span class="texto-navegacao-v5">
+            <a class="cartao-navegacao-v6 proxima-v6"
+               href="orquidea.html?id=${encodeURIComponent(proxima.id)}"
+               aria-label="Abrir próxima orquídea: ${proxima.nome}">
+                <span class="texto-navegacao-v6">
                     <small>Próxima orquídea</small>
                     <strong>${proxima.nome}</strong>
                 </span>
-
-                <span class="seta-navegacao-v5" aria-hidden="true">→</span>
-
-                <span class="miniatura-navegacao-v5" aria-hidden="true">
-                    ${fotoProxima
-                        ? `<img src="${fotoProxima}" alt="" loading="lazy">`
-                        : `<span>🌸</span>`}
+                <span class="seta-navegacao-v6" aria-hidden="true">→</span>
+                <span class="foto-navegacao-v6" aria-hidden="true">
+                    ${fotoProxima ? `<img src="${fotoProxima}" alt="" loading="lazy">` : `<span>🌸</span>`}
                 </span>
             </a>
         </nav>
@@ -920,7 +905,7 @@ if (!orquidea) {
 
         </section>
 
-        <div id="navegacao-entre-fichas" class="ponto-navegacao-entre-fichas"></div>
+        ${criarNavegacaoEntreFichas(orquidea)}
 
         <section id="sobre-especie" class="descricao-v2 secao-ancora-v3">
 
@@ -1124,16 +1109,6 @@ if (!orquidea) {
 
         </section>
 
-        <button
-            id="voltar-topo-v3"
-            class="voltar-topo-v3"
-            type="button"
-            aria-label="Voltar ao início da ficha"
-            title="Voltar ao início"
-        >
-            ↑
-        </button>
-
         <div
             id="visualizador-v2"
             class="visualizador-v2"
@@ -1182,11 +1157,6 @@ if (!orquidea) {
 
     `;
 
-    const pontoNavegacao = document.getElementById("navegacao-entre-fichas");
-    if (pontoNavegacao) {
-        pontoNavegacao.innerHTML = criarNavegacaoEntreFichas(orquidea);
-    }
-
     /* =====================================================
        BOTÕES
     ===================================================== */
@@ -1216,29 +1186,6 @@ if (!orquidea) {
             );
         }
     );
-
-    const botaoVoltarTopo =
-        document.getElementById("voltar-topo-v3");
-
-    const atualizarBotaoTopo = () => {
-        botaoVoltarTopo.classList.toggle(
-            "voltar-topo-v3-visivel",
-            window.scrollY > 520
-        );
-    };
-
-    window.addEventListener("scroll", atualizarBotaoTopo, {
-        passive: true
-    });
-
-    botaoVoltarTopo.addEventListener("click", () => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    });
-
-    atualizarBotaoTopo();
 
     /* =====================================================
        GALERIA AMPLIADA
