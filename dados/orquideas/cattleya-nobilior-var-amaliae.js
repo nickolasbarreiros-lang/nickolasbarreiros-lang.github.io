@@ -1,15 +1,20 @@
-// Ficha científica e de cultivo revisada — Refinamento Lote 07.
+// Ficha refinada por comparação entre o conteúdo anterior e as informações complementares fornecidas.
+// Nome tradicional "var. amaliae" preservado no site; taxonomicamente, Kew inclui a forma em Cattleya nobilior.
 
 export const cattleyaNobiliorVarAmaliae = {
     id: "cattleya-nobilior-var-amaliae",
     nome: "Cattleya nobilior var. amaliae",
     genero: "Cattleya",
-    tipo: "Variedade botânica",
+    sinonimo: "Cattleya nobilior f. amaliae",
+    tipo: "Espécie botânica — forma horticultural/tradicional amaliae",
     dificuldade: "Exigente",
     caracteristicas: [
         "Bifoliada do Cerrado",
-        "Repouso seco rigoroso",
+        "Porte compacto",
         "Flores grandes e cerosas",
+        "Perfume intenso",
+        "Luz muito alta",
+        "Forte sazonalidade hídrica",
         "Raízes extremamente aeradas"
     ],
     fotos: [
@@ -18,28 +23,28 @@ export const cattleyaNobiliorVarAmaliae = {
         "imagens/Cattleya nobilior var. amaliae/Cattleya nobilior var. amaliae3.webp",
         "imagens/Cattleya nobilior var. amaliae/Cattleya nobilior var. amaliae4.webp"
     ],
-    descricao: "Variedade botânica de Cattleya nobilior e uma das joias mais admiradas do Cerrado brasileiro. Forma pseudobulbos curtos, robustos e bifoliados e produz flores grandes, arredondadas e cerosas em delicados tons rosa-lilás, com labelo marcante e perfume intenso. Seu cultivo exige luz muito alta, ventilação total e respeito rigoroso à longa estação seca de inverno.",
-    origem: "Brasil.",
-    regiao: "Cerrado do Brasil Central, especialmente Goiás e Tocantins, alcançando áreas adjacentes.",
-    habitat: "Epífita em galhos e troncos de árvores expostas, sob sol abundante, ventos constantes e vários meses de seca durante o inverno.",
-    clima: "Quente, muito luminoso e fortemente sazonal.",
-    climaFloracao: "A floração é induzida por alta luminosidade e um período prolongado de estresse hídrico no inverno. As flores surgem frequentemente antes ou junto do novo crescimento, a partir de brotações florais específicas na base.",
+    descricao: "Cattleya nobilior é uma espécie botânica epífita, simpodial e bifoliada do Brasil e da Bolívia. A forma tradicionalmente conhecida como var. amaliae é particularmente associada ao Cerrado do Brasil Central e permanece muito valorizada horticulturalmente, embora atualmente não seja tratada por Kew como variedade taxonômica separada. Forma pseudobulbos curtos e robustos, normalmente com duas folhas coriáceas, e produz flores grandes, arredondadas, cerosas e perfumadas. Na forma amaliae predominam tons rosa-claro a rosa-lilás, com labelo mais intenso e garganta amarelada, podendo ocorrer veios púrpura. O cultivo exige muita luz, ventilação constante e forte diferença entre a estação de crescimento úmida e o período de repouso muito mais seco.",
+    origem: "Brasil Central.",
+    regiao: "Goiás, Tocantins e áreas próximas do Cerrado.",
+    habitat: "Epífita de árvores baixas e ambientes abertos do Cerrado.",
+    clima: "Quente, muito luminoso e sazonal, com inverno seco.",
+    climaFloracao: "A floração é favorecida por pseudobulbos completamente maduros, luminosidade muito alta e forte redução hídrica no período seco. A planta frequentemente emite crescimento floral especializado e sem folhas a partir da região basal ou rizomatosa. O princípio correto é reproduzir a sazonalidade: crescimento com água e nutrição suficientes, seguido de repouso realmente mais seco, mas sem permitir desidratação severa e prolongada.",
     iluminacao: {
-        sombrite: "30% a 50% — preferir 30% a 40%",
-        solDireto: "Aceita sol fraco quando aclimatada",
+        sombrite: "30% a 50% — cerca de 40% como ponto inicial",
+        solDireto: "Sim, suave e aclimatado",
         horario: "Primeiras horas da manhã",
-        observacoes: "Folhas rígidas verde-claro a levemente amareladas ou douradas indicam luminosidade adequada. Folhas verde-escuras revelam falta grave de luz e geralmente impedem a floração."
+        observacoes: "Necessita luminosidade muito alta. O objetivo é manter folhas firmes, compactas e verde-claras, sem buscar amarelecimento como sinal obrigatório. Folhas verde-escuras sugerem falta de luz; amarelecimento intenso ou manchas secas indicam excesso de sol ou calor."
     },
-    floracao: "Predominantemente do fim do inverno à primavera, entre agosto e outubro.",
-    adubacao: "🌿 Orgânica: dose mínima de bokashi somente durante o crescimento ativo; nunca no repouso.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10 a 15 dias, exclusivamente enquanto raízes e brotos novos estiverem ativos.\n🧪 Liberação lenta: poucos grânulos de Osmocote, com muita cautela e apenas no início da estação de crescimento.",
-    rega: "Regue abundantemente enquanto as pontas das raízes novas estiverem verdes ou avermelhadas e ativas, permitindo secagem completa no mesmo dia. No outono e inverno, suspenda quase totalmente as regas; borrife levemente apenas se os pseudobulbos apresentarem desidratação extrema. Retome a água com força somente quando novas raízes surgirem.",
-    suporte: "🥇 Placa de madeira dura, como ipê, peroba ou sanção-do-campo, ou cortiça.\n🥈 Cestinho de madeira totalmente aberto, sem substrato interno.\n🥉 Vaso de barro pequeno, raso e com muitas furações laterais.",
-    substrato: "🥇 Montada completamente sem substrato.\n🥈 Casca de pinus supergrossa + carvão vegetal, apenas para fixação.\n🥉 Brita grossa + carvão, também apenas para fixação mecânica.\nEvite esfagno, casca fina e qualquer material que retenha umidade.",
-    errosComuns: "Regar durante o repouso hibernal; cultivar com pouca luz; usar substrato retentivo ou vaso grande; replantar fora da fase de enraizamento ativo; dividir plantas pequenas ou com poucas frentes.",
-    dica: "Sincronize rigorosamente a irrigação com a atividade radicular. Molhe com abundância apenas quando houver pontas de raízes novas ativas; fora desse período, mantenha a planta seca. Esse controle define a saúde das raízes e a regularidade da floração.",
+    floracao: "Principalmente do fim do inverno à primavera, com maior concentração entre setembro e outubro e possibilidade de antecipação para agosto. A época acompanha o final da estação seca e pode variar conforme clone, microclima e momento de maturação dos pseudobulbos.",
+    adubacao: "🌿 Orgânica: bokashi em quantidade mínima apenas durante crescimento ativo, preferencialmente em sachê e longe do rizoma.\n💧 Mineral/Foliar: NPK equilibrado, como 20-20-20 ou equivalente, em 1/4 da dose, a cada 10–15 dias enquanto raízes e pseudobulbos estiverem crescendo.\n🌱 Maturação: reduza gradualmente a adubação quando o pseudobulbo completar o desenvolvimento.\n🍂 Repouso: suspenda a fertilização durante a fase fortemente seca.\n🧪 Liberação lenta: geralmente desnecessária em plantas montadas; em vaso ou cesto, use poucos grânulos apenas se houver controle rigoroso da umidade.",
+    rega: "Durante crescimento ativo e emissão de raízes, regue abundantemente e permita secagem rápida antes da próxima irrigação. Depois que os pseudobulbos amadurecerem e a estação seca se estabelecer, aumente bastante o intervalo entre as regas. No repouso, forneça apenas a água necessária para impedir desidratação severa. Não espere obrigatoriamente uma ponta verde para cada irrigação, mas use a atividade radicular, o turgor dos pseudobulbos, a temperatura e o suporte em conjunto para decidir. Em Serra/ES, proteger da chuva persistente no inverno é especialmente importante.",
+    suporte: "🥇 Placa de madeira dura ou cortiça — máxima aeração e rápida secagem.\n🥈 Cesto de madeira pequeno e aberto — excelente para raízes livres e controle da estação seca.\n🥉 Vaso de barro pequeno, raso e muito perfurado — opção segura para envasamento.\nMantenha o rizoma exposto e evite recipientes profundos ou grandes.",
+    substrato: "🥇 Sem substrato, montada diretamente em madeira ou cortiça.\n🥈 Casca de pinus muito grossa + carvão vegetal + pedra-pomes.\n🥉 Brita grossa + carvão + pequena quantidade de casca grossa.\nEvite esfagno como componente principal, casca fina e materiais compactos. Uma quantidade mínima de esfagno pode ser usada temporariamente no estabelecimento de uma planta recém-montada, mas não é indicada para o cultivo estabelecido em Serra/ES.",
+    errosComuns: "Pouca luz; manter umidade constante no inverno; secar demais durante crescimento ativo; vaso grande ou substrato fino; pouca ventilação; enterrar o rizoma; replantar fora da emissão de raízes; dividir plantas pequenas; adubar durante repouso forte; interpretar repouso seco como abandono completo até enrugamento severo; deixar a planta receber chuvas contínuas no inverno litorâneo.",
+    dica: "A chave é reproduzir a sazonalidade, e não simplesmente dar pouca água. Enquanto houver raízes e pseudobulbos novos, regue com abundância e adube levemente, sempre permitindo secagem rápida. Após a maturação, aumente bastante os intervalos e suspenda a adubação. No repouso, mantenha a planta muito mais seca, mas intervenha antes de ocorrer desidratação severa. Em Serra/ES, o maior segredo é abrigo contra chuva persistente de inverno sem sacrificar a ventilação.",
     adaptacaoRegional: {
-        litoralQuente: "Na Serra/ES, a alta umidade do ar exige atenção redobrada. Cultive preferencialmente montada, sob ventilação forte e protegida da chuva direta no inverno.",
-        montanhaFrio: "Mantenha o repouso seco rigoroso e proteja do frio úmido. Evite exposição prolongada a temperaturas abaixo de 12 °C."
+        litoralQuente: "Adaptação moderada em Serra/ES. O calor é tolerável, mas a umidade costeira dificulta a estação seca. Prefira montagem, ventilação forte e proteção contra chuva direta no outono e inverno.",
+        montanhaFrio: "Boa resposta em clima intermediário, desde que o repouso permaneça seco e a planta seja protegida de geadas e frio úmido prolongado."
     },
     mesesFloracao: [8, 9, 10],
     avaliacoes: {

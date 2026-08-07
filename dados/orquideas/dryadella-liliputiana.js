@@ -1,4 +1,5 @@
-// Ficha científica e de cultivo revisada — Lote 08.
+// Ficha refinada por comparação entre o conteúdo anterior e as informações complementares fornecidas.
+// Mantido o ID histórico do site para preservar links e navegação; nome científico exibido com grafia correta.
 
 export const dryadellaLiliputiana = {
     id: "dryadella-liliputiana",
@@ -6,28 +7,51 @@ export const dryadellaLiliputiana = {
     genero: "Dryadella",
     tipo: "Espécie botânica",
     dificuldade: "Exigente",
-    caracteristicas: ["Grafia aceita corrigida", "Micro-orquídea", "Brasil", "Clima fresco"],
+    caracteristicas: [
+        "Micro-orquídea",
+        "Brasil e Bolívia",
+        "Pleurothallidinae",
+        "Sem pseudobulbos",
+        "Folhas carnosas",
+        "Alta umidade atmosférica",
+        "Clima intermediário a fresco"
+    ],
     fotos: [
         "imagens/Dryadella lilliputiana/Dryadella lilliputiana1.jpg",
         "imagens/Dryadella lilliputiana/Dryadella lilliputiana2.jpg",
         "imagens/Dryadella lilliputiana/Dryadella lilliputiana3.webp",
         "imagens/Dryadella lilliputiana/Dryadella lilliputiana4.webp"
     ],
-    descricao: "Micro-orquídea brasileira de dimensões diminutas, atualmente aceita como Dryadella lilliputiana. Produz pequenas flores junto à base das folhas e requer ambiente estável, úmido e sem calor excessivo.",
-    origem: "Brasil.",
-    regiao: "Florestas úmidas brasileiras; a procedência exata do exemplar é importante para ajustar temperatura e sazonalidade.",
-    habitat: "Epífita sobre raminhos e superfícies musgosas, em mata sombreada e ventilada.",
-    clima: "Fresco a intermediário.",
-    climaFloracao: "A floração depende mais da estabilidade ambiental do que de repouso. Noites frescas e raízes ativas são especialmente importantes.",
-    iluminacao: { sombrite: "70%", solDireto: "Não", horario: "Luz indireta", observacoes: "Sombra clara, sem aquecimento das folhas." },
-    floracao: "Pode florescer em diferentes épocas quando a touceira está madura e o ambiente permanece estável.",
-    adubacao: "🌿 Orgânica: não recomendada diretamente no pequeno recipiente.\n💧 Foliar: NPK equilibrado a 1/4 ou 1/5 da dose a cada 15 dias.\n🧪 Liberação lenta: evitar.",
-    rega: "Umidade constante com excelente oxigenação. Use água de baixa salinidade e lave o substrato regularmente.",
-    suporte: "🥇 Placa pequena com musgo.\n🥈 Vaso miniatura de barro.\n🥉 Pequeno cesto com esfagno solto.",
-    substrato: "🥇 Esfagno de fibra longa, sem compactar.\n🥈 Musgo vivo sobre cortiça.\n🥉 Casca muito fina + pedra-pomes + esfagno.",
-    errosComuns: "Grafia antiga 'liliputiana'; calor acumulado; baixa umidade; excesso de fertilizante; substrato degradado; manipular constantemente a touceira.",
-    dica: "A miniatura responde melhor a regas leves e frequentes do que a ciclos de encharcamento e seca.",
-    adaptacaoRegional: { litoralQuente: "Difícil; requer resfriamento passivo, bancada baixa, sombra e ventilação suave constante.", montanhaFrio: "Condições geralmente favoráveis, desde que protegida de frio extremo e vento ressecante." },
-    mesesFloracao: [6,7,8,9,10,11],
-    avaliacoes: { cultivo: 5, floracao: 3, perfume: 1, luminosidade: 2, agua: 5, raridade: 5 }
+    descricao: "Dryadella lilliputiana (Cogn.) Luer é uma micro-orquídea epífita cespitosa da subtribo Pleurothallidinae, nativa do Brasil e da Bolívia. Forma tufos muito compactos, sem pseudobulbos, com ramicaules extremamente curtos e uma folha apical estreita, rígida e carnosa. As inflorescências também são diminutas e surgem junto à base da folhagem, normalmente com uma flor por haste; uma touceira madura pode emitir várias simultaneamente. As sépalas relativamente grandes e caudadas criam a aparência triangular típica do gênero. Apesar do porte minúsculo, não deve ser tratada como planta de substrato permanentemente encharcado: precisa de umidade relativamente estável, água de boa qualidade e muito ar nas raízes.",
+    origem: "Brasil e Bolívia.",
+    regiao: "Sul e Sudeste do Brasil; também ocorre na Bolívia.",
+    habitat: "Epífita de Mata Atlântica, sobretudo em ambientes úmidos de altitude.",
+    clima: "Intermediário a fresco, úmido e ventilado.",
+    climaFloracao: "A floração depende de uma touceira estabelecida e de estabilidade ambiental: umidade do ar alta, raízes ativas, boa ventilação e temperaturas sem extremos. Não exige repouso seco. Há registros de floração em diferentes meses do ano; em cultivo, o inverno e a primavera costumam ser períodos favoráveis, mas o calendário pode variar bastante conforme procedência e microclima.",
+    iluminacao: {
+        sombrite: "Cerca de 70%",
+        solDireto: "Evitar",
+        horario: "Luz indireta ou sol muito fraco e filtrado",
+        observacoes: "Prefere sombra clara, com luminosidade suficiente para manter a touceira compacta sem aquecimento excessivo. No litoral, o objetivo é iluminar sem elevar a temperatura das folhas e raízes."
+    },
+    floracao: "Pode florescer em diferentes épocas do ano. Para o calendário do orquidário, considere maior probabilidade do inverno ao início do verão, especialmente entre julho e dezembro, lembrando que exemplares estabelecidos podem florescer fora dessa janela. As flores surgem muito próximas à base das folhas e podem ficar parcialmente escondidas na própria touceira.",
+    adubacao: "🌿 Orgânica: evitar bokashi e outros adubos orgânicos diretamente no pequeno recipiente, pois são difíceis de dosar e aumentam decomposição junto às raízes.\n💧 Mineral/Foliar: NPK equilibrado em aproximadamente 1/4 da dose, a cada 10–15 dias durante crescimento ativo.\n🧪 Liberação lenta: não recomendada para esta espécie no nosso sistema de cultivo.\n🚿 Lavagem: faça regas periódicas abundantes apenas com água de baixa salinidade para remover sais acumulados.\n💧 Qualidade da água: quanto menor a salinidade e a condutividade, mais seguro para as raízes finas.",
+    rega: "Mantenha umidade relativamente constante, mas nunca uma massa de substrato saturada e sem oxigênio. Regue novamente quando o material ao redor das raízes estiver se aproximando da secagem. Em montagem com pouco musgo, pode exigir regas diárias no verão; em vaso com esfagno, o intervalo será maior. A espécie não possui pseudobulbos, porém suas folhas carnosas oferecem alguma tolerância a pequenas oscilações. Evite tanto seca prolongada quanto encharcamento quente e contínuo.",
+    suporte: "🥇 Placa pequena de cortiça ou madeira com camada muito fina de esfagno — máxima aeração e excelente opção para Serra/ES se houver rega frequente.\n🥈 Vaso miniatura de barro — ajuda a dissipar calor por evaporação e permite controlar melhor a umidade.\n🥉 Pequeno cachepô ou cesto muito aberto — adequado com preenchimento extremamente leve e aerado.",
+    substrato: "🥇 Esfagno de fibra longa solto + pedra-pomes fina, sem compactar.\n🥈 Casca de pinus pequena + pedra-pomes + pequena quantidade de esfagno picado.\n🥉 Cultivo montado em cortiça ou madeira com apenas uma fina camada de esfagno junto às raízes.\nEvite partículas compactadas, substrato degradado e grandes volumes de material permanentemente molhado.",
+    errosComuns: "Calor acumulado e abafamento; confundir alta umidade atmosférica com substrato encharcado; deixar secar por muitos dias; esfagno compactado; água muito salina; adubação forte; pouca circulação de ar; dividir touceiras pequenas; replantar ou manipular sem necessidade; manter a planta em local baixo apenas por regra, mesmo que esse ponto seja quente e sem ventilação.",
+    dica: "Não cultive Dryadella lilliputiana alternando extremos. Mantenha umidade relativamente estável com pouca quantidade de material retentor e muito ar nas raízes. Em Serra/ES, combata o calor principalmente com sombra luminosa, ventilação e umidade atmosférica, e não mantendo o esfagno constantemente encharcado. Uma planta montada e regada com frequência pode suportar o verão melhor do que uma touceira presa em substrato quente e saturado.",
+    adaptacaoRegional: {
+        litoralQuente: "Difícil em Serra/ES. Use o ponto mais fresco e ventilado do orquidário, com luz suave, umidade atmosférica alta e nenhuma estagnação de água. Ondas de calor são o principal risco.",
+        montanhaFrio: "Tende a adaptar-se melhor a condições intermediárias e frescas. Proteja de geadas, ventos muito secos e frio excessivo acompanhado de substrato saturado."
+    },
+    mesesFloracao: [7, 8, 9, 10, 11, 12],
+    avaliacoes: {
+        cultivo: 5,
+        floracao: 3,
+        perfume: 1,
+        luminosidade: 2,
+        agua: 4,
+        raridade: 5
+    }
 };
