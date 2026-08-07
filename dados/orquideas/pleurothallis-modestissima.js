@@ -1,42 +1,66 @@
-// Nova ficha — PADRÃO EDITORIAL V3.
+// Ficha refinada por comparação entre o conteúdo anterior e as informações complementares fornecidas.
+// Menu lateral mantido compacto; aprofundamento concentrado nas seções de cultivo.
 
 export const pleurothallisModestissima = {
-    id: "pleurothallis-modestissima",
-    nome: "Pleurothallis modestissima",
-    genero: "Pleurothallis",
-    sinonimo: "Acianthera modestissima",
-    tipo: "Espécie botânica",
-    dificuldade: "Moderada a difícil",
-    caracteristicas: ["Micro-orquídea brasileira", "Nome aceito: Acianthera modestissima", "Epífita ou rupícola", "Raízes muito delicadas"],
-    fotos: [
+    "id": "pleurothallis-modestissima",
+    "nome": "Pleurothallis modestissima",
+    "genero": "Pleurothallis",
+    "sinonimo": "Acianthera modestissima",
+    "tipo": "Espécie botânica — nome aceito Acianthera modestissima",
+    "dificuldade": "Moderada a difícil",
+    "caracteristicas": [
+        "Micro-orquídea brasileira",
+        "Nome aceito: Acianthera modestissima",
+        "Sem pseudobulbos",
+        "Raízes extremamente finas",
+        "Crescimento rastejante",
+        "Flores minúsculas e cerosas",
+        "Exige umidade constante",
+        "Sensível a sais e replantes"
+    ],
+    "fotos": [
         "imagens/Pleurothallis modestissima/Pleurothallis modestissima1.jpg",
         "imagens/Pleurothallis modestissima/Pleurothallis modestissima2.jpg",
         "imagens/Pleurothallis modestissima/Pleurothallis modestissima3.jpg",
         "imagens/Pleurothallis modestissima/Pleurothallis modestissima4.jpg"
     ],
-    descricao: "Micro-orquídea de crescimento rastejante, sem pseudobulbos, formada por ramicaules finos com uma única folha coriácea no ápice. Produz inflorescências curtas com flores minúsculas, cerosas e agrupadas, em tonalidades que variam do amarelo-palha ao arroxeado.",
-    origem: "Espécie endêmica do Brasil, atualmente aceita como Acianthera modestissima, com ocorrência natural principalmente em áreas de altitude do Sudeste do país.",
-    regiao: "Brasil — encontrada principalmente em Minas Gerais, com registros também para o Rio de Janeiro, geralmente entre cerca de 800 e 1.400 metros de altitude.",
-    habitat: "Epífita e ocasionalmente rupícola, encontrada sobre árvores ou afloramentos rochosos em ambientes de altitude com umidade elevada, luz filtrada e boa circulação de ar.",
-    clima: "Intermediário a ameno, úmido e muito ventilado.",
-    climaFloracao: "Prefere temperaturas entre 16°C e 26°C, alta umidade do ar e excelente ventilação. Em regiões litorâneas e de clima quente, deve ser mantida em local fresco, sombreado e ventilado, protegida do calor acumulado.",
-    iluminacao: {
-        sombrite: "70% a 80%",
-        solDireto: "Não",
-        horario: "Somente claridade filtrada",
-        observacoes: "Cultive sob luz baixa a moderada, sem sol direto. Folhas verde-médias a verde-escuras indicam boa adaptação; amarelamento ou avermelhamento pode revelar excesso de luz."
+    "descricao": "Pleurothallis modestissima, atualmente aceita como Acianthera modestissima, é uma micro-orquídea brasileira de áreas de altitude do Sudeste. Forma ramicaules finos com uma folha coriácea apical e crescimento compacto a rastejante, sem pseudobulbos de reserva. As flores são minúsculas, cerosas e agrupadas, variando do amarelo-palha a tons arroxeados. Seu sistema radicular é extremamente delicado e exige equilíbrio preciso entre umidade e oxigenação. O substrato nunca deve secar completamente por vários dias, mas também não pode permanecer saturado ou compactado. Replantes e excesso de sais são causas frequentes de perda de vigor.",
+    "origem": "Brasil.",
+    "regiao": "Sudeste, áreas de altitude.",
+    "habitat": "Galhos e rochas musgosas.",
+    "clima": "Fresco, úmido e ventilado.",
+    "climaFloracao": "Floresce melhor sob temperaturas amenas, umidade constante e luz suave. A faixa de 16–26 °C é especialmente favorável. Calor acumulado, seca radicular ou encharcamento reduzem rapidamente a atividade. Não possui repouso seco.",
+    "iluminacao": {
+        "sombrite": "70% a 80%",
+        "solDireto": "Não recomendado",
+        "horario": "Luz difusa",
+        "observacoes": "Prefere sombra constante e clara. Amarelecimento ou avermelhamento pode indicar excesso de luz; folhas verde-escuras e firmes são comuns em bom cultivo."
     },
-    floracao: "Principalmente da primavera ao verão, com maior concentração no verão.",
-    adubacao: "🌿 Orgânica: use bokashi apenas em quantidade mínima e bem afastado das raízes delicadas.\n💧 Foliar: fertilizante equilibrado em 1/4 da dose a cada 15 dias durante o crescimento.\n🧪 Liberação lenta: Osmocote somente em dose muito pequena, evitando acúmulo de sais.",
-    rega: "Mantenha o substrato constantemente levemente úmido, mas nunca encharcado. No verão, as regas podem ser frequentes; no inverno, reduza moderadamente sem deixar a planta seca por muitos dias.",
-    suporte: "🥇 Placa de cortiça ou madeira com uma fina camada de esfagno.\n🥈 Vaso pequeno de barro bem furado.\n🥉 Vaso plástico pequeno com excelente drenagem.",
-    substrato: "🥇 Esfagno de boa qualidade, mantido apenas úmido.\n🥈 Esfagno + casca de pinus fina + carvão vegetal pequeno.\n🥉 Casca fina e carvão com pequena camada de esfagno junto às raízes.",
-    errosComuns: "Expor ao sol direto; deixar o substrato secar completamente por vários dias; manter esfagno encharcado; cultivar em ambiente abafado; usar vaso grande; exagerar na adubação; replantar sem necessidade e danificar as raízes finas.",
-    dica: "Combine alta umidade, sombra constante e circulação de ar. Evite replantes frequentes e mantenha o esfagno úmido como uma esponja torcida, nunca saturado de água.",
-    adaptacaoRegional: {
-        litoralQuente: "Em regiões litorâneas e quentes, coloque-a no setor mais fresco e sombreado do orquidário, com ventilação permanente e umidade ambiental alta. Regue cedo e evite calor abafado.",
-        montanhaFrio: "Em regiões serranas, adapta-se melhor às noites amenas, mas deve ser protegida de frio extremo, vento seco e longos períodos sem umidade nas raízes."
+    "floracao": "Mais frequente da primavera ao verão, entre outubro e março. As inflorescências curtas surgem junto à base da folha e podem carregar pequenas flores cerosas agrupadas.",
+    "adubacao": "🌿 Orgânica: bokashi somente em microdose e bem afastado das raízes.\n💧 Mineral/Foliar: fertilizante equilibrado em 1/4 da dose a cada 15 dias.\n🧪 Liberação lenta: preferencialmente evitar; se usada, apenas microdose.\n🚿 Lavagem: água de boa qualidade e flushing frequente são essenciais.",
+    "rega": "Mantenha o esfagno ou meio de cultivo com umidade semelhante a uma esponja torcida: úmido, mas nunca encharcado. No calor, regue mais frequentemente; no frio, reduza apenas conforme a evaporação. Não deixe secar totalmente por dias.",
+    "suporte": "🥇 Placa de cortiça ou madeira com fina camada de esfagno.\n🥈 Vaso pequeno de barro muito furado.\n🥉 Vaso plástico pequeno com drenagem perfeita.\nEvite trocar de suporte sem necessidade.",
+    "substrato": "🥇 Esfagno de boa qualidade, solto e aerado.\n🥈 Esfagno + casca fina + carvão pequeno.\n🥉 Casca fina + carvão com pequena camada de esfagno junto às raízes.\nNunca compacte o material.",
+    "errosComuns": "Sol direto; secagem completa; esfagno encharcado; ambiente abafado; vaso grande; excesso de adubo; replante desnecessário; água salina; compactação do substrato; deixar o suporte aquecer.",
+    "dica": "O ponto ideal é manter o esfagno sempre úmido como uma esponja torcida, nunca saturado. Associe essa umidade constante a ventilação ativa e evite replantes, pois as raízes finíssimas se rompem com facilidade.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Em Serra/ES, coloque no setor mais fresco, sombreado e ventilado; regue cedo e proteja do calor acumulado.",
+        "montanhaFrio": "Adaptação excelente às noites amenas; proteja apenas de frio extremo, vento seco e secagem total."
     },
-    mesesFloracao: [10, 11, 12, 1, 2, 3],
-    avaliacoes: { cultivo: 2, floracao: 3, perfume: 1, luminosidade: 2, agua: 5, raridade: 4 }
+    "mesesFloracao": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+    ],
+    "avaliacoes": {
+        "cultivo": 2,
+        "floracao": 3,
+        "perfume": 1,
+        "luminosidade": 2,
+        "agua": 5,
+        "raridade": 4
+    }
 };
