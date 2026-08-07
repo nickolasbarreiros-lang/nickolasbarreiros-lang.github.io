@@ -1,53 +1,65 @@
-// Ficha atualizada no LOTE 13 — PADRÃO EDITORIAL V3.
+// Ficha refinada por comparação entre o conteúdo anterior e as informações complementares fornecidas.
+// Menu lateral mantido compacto; aprofundamento concentrado nas seções de cultivo.
 
 export const zygopetalumMaculatum = {
-    id: "zygopetalum-maculatum",
-    nome: "Zygopetalum maculatum",
-    genero: "Zygopetalum",
-    tipo: "Espécie botânica",
-    dificuldade: "Moderada a exigente no litoral quente",
-    caracteristicas: [
-        "Espécie sul-americana",
-        "Flores cerosas e perfumadas",
-        "Hábito principalmente terrestre",
-        "Prefere noites amenas"
+    "id": "zygopetalum-maculatum",
+    "nome": "Zygopetalum maculatum",
+    "genero": "Zygopetalum",
+    "tipo": "Espécie botânica",
+    "dificuldade": "Moderada a exigente no calor",
+    "caracteristicas": [
+        "Espécie terrestre ou rupícola",
+        "Pseudobulbos carnosos",
+        "Folhas longas e plissadas",
+        "Flores verdes e castanhas",
+        "Labelo violeta amplo",
+        "Perfume intenso",
+        "Raízes sensíveis ao calor",
+        "Prefere noites frescas"
     ],
-    fotos: [
+    "fotos": [
         "imagens/Zygopetalum maculatum/Zygopetalum maculatum1.webp",
         "imagens/Zygopetalum maculatum/Zygopetalum maculatum2.webp",
         "imagens/Zygopetalum maculatum/Zygopetalum maculatum3.jpg",
         "imagens/Zygopetalum maculatum/Zygopetalum maculatum4.jpg"
     ],
-    descricao: "Espécie pseudobulbosa de porte médio, geralmente terrestre ou rupícola, com folhas plicadas e flores cerosas verde-amareladas intensamente marcadas de castanho. O labelo claro com tons violetas cria forte contraste, e a floração costuma apresentar perfume agradável. Embora vigorosa em clima ameno, exige atenção especial ao calor noturno do litoral.",
-    origem: "América do Sul",
-    regiao: "Do norte do Peru ao Brasil, com ocorrências também na Bolívia; no Brasil está presente nas regiões Nordeste, Sudeste e Sul",
-    habitat: "Geófita ou rupícola de ambientes tropicais úmidos, frequentemente em áreas de altitude, bordas de mata e locais com substrato orgânico, umidade regular e noites mais frescas.",
-    clima: "Ameno a intermediário, úmido e muito ventilado",
-    climaFloracao: "No litoral quente e úmido, o principal desafio é o calor noturno prolongado. Posicione a planta no setor mais fresco e ventilado, protegido do sol quente e de superfícies que acumulam calor. A maturação de pseudobulbos fortes durante o período mais ameno e a diferença térmica entre dia e noite favorecem a emissão das hastes.",
-    iluminacao: {
-        sombrite: "50% a 70%",
-        solDireto: "Sim",
-        horario: "Até 08:00, apenas no período mais ameno",
-        observacoes: "Prefere meia-sombra clara. Evite sol forte e calor sobre as folhas. Luz insuficiente enfraquece os pseudobulbos; excesso de sol provoca manchas e desidratação."
+    "descricao": "Zygopetalum maculatum é uma espécie botânica sul-americana terrestre ou rupícola, conhecida pelas flores cerosas, muito perfumadas e de forte contraste entre sépalas e pétalas verde-amareladas maculadas de castanho e amplo labelo violeta ou lilás. Forma pseudobulbos ovoides e carnosos com folhas longas, plissadas e verde-brilhantes. É uma planta de ambientes úmidos e relativamente frescos, e o principal desafio em regiões costeiras é o calor noturno contínuo, que aquece o sistema radicular, favorece doenças e reduz a indução floral. O cultivo deve privilegiar raízes frescas, substrato arejado e levemente úmido, noites mais amenas e circulação contínua de ar.",
+    "origem": "América do Sul.",
+    "regiao": "Peru, Bolívia e Brasil, incluindo áreas de altitude.",
+    "habitat": "Bordas de florestas úmidas, locais rupícolas e solos ricos em matéria orgânica.",
+    "clima": "Intermediário a fresco, úmido e ventilado.",
+    "climaFloracao": "A floração depende de noites mais frescas, pseudobulbos bem desenvolvidos e raízes sem superaquecimento. Em regiões quentes, reduzir a temperatura do vaso e melhorar a circulação de ar costuma ser mais efetivo do que simplesmente aumentar a rega. Não necessita de repouso seco severo.",
+    "iluminacao": {
+        "sombrite": "50% a 70%",
+        "solDireto": "Somente fraco",
+        "horario": "Até aproximadamente 08:00, preferencialmente nos meses frios",
+        "observacoes": "Prefere claridade filtrada. Sol forte aquece e queima folhas plissadas; sombra excessiva enfraquece os pseudobulbos e reduz floração."
     },
-    floracao: "Geralmente do outono ao início da primavera, variando conforme temperatura, altitude e maturação dos pseudobulbos.",
-    adubacao: "Durante a brotação, use adubo foliar equilibrado e diluído a cada 7–15 dias. Bokashi pode ser aplicado em saquinho e em pequena quantidade. Osmocote deve ser usado com cautela e dose baixa, porque calor e umidade aceleram a liberação dos nutrientes. Lave o substrato periodicamente.",
-    rega: "Mantenha o substrato levemente úmido durante o crescimento, mas nunca saturado. Regue pela manhã e permita boa aeração das raízes. No período frio, reduza conforme a secagem, sem deixar pseudobulbos e folhas murcharem intensamente.",
-    suporte: "Vaso de barro ou plástico bem perfurado, preferencialmente largo e relativamente baixo",
-    substrato: "Casca de pinus fina a média, pedra-pomes, carvão pequeno e esfagno em quantidade moderada. Pode receber pequena fração de fibra de coco ou material orgânico estável, desde que a mistura permaneça solta e drenante.",
-    errosComuns: "Cultivar sob calor acumulado; usar vaso preto exposto ao sol; manter o substrato encharcado; deixar água presa nos brotos novos; regar à noite; usar mistura compacta ou degradada; aplicar Osmocote em excesso no calor.",
-    dica: "No litoral quente e úmido, mantenha-a próxima ao chão do orquidário, em bancada fresca e sombreada, mas sem bloquear o vento. Evite vaso preto exposto ao sol, água acumulada no broto novo e regas noturnas; o superaquecimento das raízes é uma das causas mais comuns de declínio e ausência de floração.",
-    adaptacaoRegional: {
-        litoralQuente: "Cultivo moderadamente difícil. Use o ponto mais fresco e ventilado, meia-sombra clara, vaso que não aqueça e substrato úmido porém muito arejado.",
-        montanhaFrio: "Adapta-se melhor em regiões de altitude e noites amenas, desde que protegido de geadas e de encharcamento prolongado."
+    "floracao": "Mais comum do outono ao início da primavera, aproximadamente de abril a setembro. As hastes eretas surgem próximas aos novos crescimentos e produzem flores cerosas intensamente perfumadas.",
+    "adubacao": "🌿 Orgânica: bokashi em sachê pequeno na borda do vaso.\n💧 Mineral/Foliar: NPK equilibrado bem diluído a cada 7–15 dias durante brotação ativa.\n🧪 Liberação lenta: Osmocote apenas em dose muito baixa, pois o calor acelera a liberação.\n🚿 Lavagem: faça lavagens periódicas do substrato para remover sais.",
+    "rega": "Mantenha o substrato levemente úmido, regando pela manhã. No frio, reduza a frequência conforme a evaporação, mas preserve pseudobulbos firmes. Evite água acumulada nos brotos novos e regas noturnas.",
+    "suporte": "🥇 Vaso de barro muito perfurado — favorece resfriamento por evaporação.\n🥈 Vaso plástico claro, largo e baixo — reduz absorção de calor.\nPosicione preferencialmente em bancada baixa e fresca, sem bloquear o fluxo de ar.",
+    "substrato": "🥇 Casca de pinus fina a média + pedra-pomes + carvão pequeno + esfagno moderado.\nPode receber pequena fração de fibra de coco ou matéria orgânica estável, desde que mantenha aeração elevada.\nEvite misturas pesadas, compactas ou de secagem lenta.",
+    "errosComuns": "Calor acumulado; vaso preto exposto ao sol; substrato encharcado; água nos brotos novos; regas noturnas; excesso de Osmocote no calor; pouca ventilação; sol forte; deixar raízes secarem totalmente por muitos dias.",
+    "dica": "Em regiões litorâneas quentes, coloque a planta em bancada baixa, sombreada e ventilada. Prefira vaso de barro ou plástico claro e nunca deixe recipiente preto receber sol. Regue pela manhã e mantenha o sistema radicular fresco: esse manejo é decisivo para floração consistente.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Em Serra/ES, cultivo mais exigente. Use o ponto mais fresco, bancada baixa, vaso claro/barro e ventilação contínua.",
+        "montanhaFrio": "Excelente adaptação; noites amenas favorecem crescimento e floração. Proteja apenas de geadas e encharcamento prolongado."
     },
-    mesesFloracao: [4, 5, 6, 7, 8, 9],
-    avaliacoes: {
-        cultivo: 2,
-        floracao: 4,
-        perfume: 4,
-        luminosidade: 3,
-        agua: 4,
-        raridade: 3
+    "mesesFloracao": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "avaliacoes": {
+        "cultivo": 2,
+        "floracao": 4,
+        "perfume": 4,
+        "luminosidade": 3,
+        "agua": 4,
+        "raridade": 3
     }
 };
