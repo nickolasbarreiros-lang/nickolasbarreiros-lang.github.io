@@ -21,7 +21,7 @@ export const lockhartiaLunifera = {
     descricao: "Espécie epífita brasileira, simpodial, cespitosa e sem pseudobulbos. Forma caules alongados, achatados, eretos a pendentes, revestidos por folhas triangulares, dísticas e fortemente imbricadas, responsáveis pelo aspecto ornamental de trança ou centopeia verde. Como não possui pseudobulbos, dispõe de reservas hídricas limitadas e não tolera seca prolongada. Os caules verdes permanecem fotossinteticamente ativos após a floração e podem conservar gemas florais na região apical e axilar.",
     origem: "Brasil.",
     regiao: "Regiões Nordeste, Sudeste e Sul do Brasil, em ambientes florestais úmidos.",
-    habitat: "Epífita sobre galhos e troncos ventilados, onde recebe umidade frequente, mas a água escorre e as raízes arejam rapidamente. As bainhas em V formadas pelas folhas sobrepostas podem reter gotas de água, aumentando o risco de podridão em noites frias ou locais abafados.",
+    habitat: "Epífita sobre galhos e troncos ventilados, onde recebe umidade frequente.",
     clima: "Intermediário a quente moderado, úmido e com circulação contínua de ar.",
     climaFloracao: "A floração ocorre em caules maduros mantidos sob luz clara filtrada, umidade regular e nutrição suave. O crescimento pode ser quase contínuo em clima quente e úmido. Não exige repouso seco; nos meses frios há apenas menor ritmo de crescimento e menor consumo de água. A preservação dos caules verdes é essencial porque continuam sustentando a touceira e podem manter pontos florais ativos.",
     iluminacao: {
