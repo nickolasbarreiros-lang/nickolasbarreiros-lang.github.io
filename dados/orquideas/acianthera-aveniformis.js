@@ -26,7 +26,9 @@ export const aciantheraAveniformis = {
         observacoes: "Prefere luz difusa de baixa a moderada intensidade. Em clima litorâneo quente, cerca de 70% de sombreamento ajuda a evitar superaquecimento sem manter a planta em sombra profunda. Folhas firmes e sem aquecimento excessivo indicam melhor equilíbrio."
     },
     floracao: "Predominantemente no inverno. Em cultivo brasileiro, junho a agosto é uma boa janela de referência, com variação conforme microclima e vigor da planta.",
-    adubacao: "Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose comercial a cada 15 dias durante crescimento ativo. Orgânica: bokashi somente em quantidade mínima e isolado em porta-adubo. Liberação lenta: usar com extrema parcimônia. Faça regas periódicas apenas com água pura para reduzir o acúmulo de sais.",
+    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante o crescimento ativo.
+💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.
+🧪 Liberação lenta: Osmocote 14-14-14 em dose muito baixa e sempre afastado das raízes e da base dos ramicaules. Após a maturação dos novos crescimentos, reduza a frequência da adubação conforme o crescimento desacelerar.",
     rega: "Mantenha as raízes hidratadas sem deixá-las saturadas. Regue antes de ocorrer desidratação prolongada e permita renovação de ar após cada irrigação. Em montagem, a frequência pode aumentar bastante no calor; em vaso, ajuste pela velocidade real de secagem.",
     suporte: ["Placa pequena de madeira, cortiça ou casca rugosa.", "Cachepô pequeno e bem ripado.", "Vaso pequeno, raso e muito perfurado."],
     substrato: ["Cultivo montado com fina reserva de esfagno sob as raízes.", "Casca de pinus fina + pedra-pomes fina + pequena fração de esfagno.", "Esfagno de boa qualidade usado bem solto, sem cobrir a base dos ramicaules."],
