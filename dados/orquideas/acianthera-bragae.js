@@ -3,6 +3,7 @@ export const aciantheraBragae = {
     nome: "Acianthera bragae",
     genero: "Acianthera",
     tipo: "Espécie botânica",
+	sinonimo: "Pleurothallis Sarracenia",
     dificuldade: "Moderada",
     origem: "Brasil — regiões Sudeste e Sul.",
     regiao: "Mata Atlântica do Sudeste e Sul do Brasil.",
