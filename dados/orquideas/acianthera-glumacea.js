@@ -1,54 +1,33 @@
-// Ficha científica e de cultivo refinada — Lote 01.
-
 export const aciantheraGlumacea = {
     id: "acianthera-glumacea",
     nome: "Acianthera glumacea",
     genero: "Acianthera",
-    sinonimo: "Pleurothallis glumacea",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
-    caracteristicas: [
-        "Brasileira",
-        "Porte pequeno a médio",
-        "Touceiras densas",
-        "Floração simultânea",
-    ],
+    origem: "Brasil — Mata Atlântica, do Nordeste ao Sul.",
+    regiao: "Mata Atlântica brasileira em ambientes úmidos e de luz filtrada.",
+    habitat: "Epífita ou rupícola em troncos e rochas de florestas úmidas, sob elevada umidade ambiental e circulação de ar.",
+    descricao: "Espécie brasileira anteriormente conhecida como Pleurothallis glumacea. Forma touceiras cespitosas densas com ramicaules eretos e folhas coriáceas. Suas inflorescências racemosas amareladas lembram pequenas espigas e podem surgir simultaneamente em exemplares adultos.",
+    caracteristicas: ["Touceira densa", "Inflorescência em espiga", "Flores amareladas", "Mata Atlântica", "Alta umidade"],
     fotos: [
-        "imagens/Acianthera glumacea/Acianthera glumacea1.jpeg",
-        "imagens/Acianthera glumacea/Acianthera glumacea2.jpeg",
-        "imagens/Acianthera glumacea/Acianthera glumacea3.jpg",
-        "imagens/Acianthera glumacea/Acianthera glumacea4.jpg",
+        "fotos/Acianthera glumacea1.jpeg",
+        "fotos/Acianthera glumacea2.jpeg",
+        "fotos/Acianthera glumacea3.jpg",
+        "fotos/Acianthera glumacea4.jpg"
     ],
-    descricao: "Acianthera glumacea, anteriormente classificada como Pleurothallis glumacea, é uma orquídea epífita ou rupícola brasileira de porte pequeno a médio, pertencente à subtribo Pleurothallidinae. Forma touceiras cespitosas e densas, com ramicaules eretos, levemente sulcados, sustentando folhas coriáceas. Destaca-se pelas inflorescências racemosas amareladas, com flores dispostas em fileira ao longo da haste, lembrando uma espiga. Várias inflorescências costumam abrir simultaneamente, produzindo um efeito ornamental marcante.",
-    origem: "Originária do Brasil.",
-    regiao: "Distribui-se por diferentes áreas da Mata Atlântica, do Nordeste ao Sul do Brasil.",
-    habitat: "Epífita ou rupícola de florestas úmidas, em locais sombreados ou de luz filtrada, com elevada umidade ambiental e circulação constante de ar.",
-    clima: "Intermediário a fresco, úmido e ventilado.",
-    climaFloracao: "A floração é favorecida por noites amenas, boa umidade ambiental, luz filtrada suficiente e raízes arejadas. Em regiões muito quentes, a falta de ventilação pode provocar perda de vigor e abortamento dos botões antes da abertura completa.",
-    iluminacao: {
-        sombrite: "60% a 70%",
-        solDireto: "Não",
-        horario: "Apenas luminosidade filtrada",
-        observacoes: "Tolera uma faixa de luminosidade um pouco maior do que espécies mais delicadas do gênero. Folhas muito escuras e crescimento alongado sugerem falta de luz; amarelecimento e manchas secas indicam excesso."
-    },
-    floracao: "Pode florescer do inverno ao verão, com maior concentração entre julho e janeiro. As flores de uma mesma haste e várias inflorescências da touceira costumam abrir simultaneamente.",
-    adubacao: "🌿 Orgânica: bokashi em dose mínima e protegido em saquinho.\n💧 Foliar: NPK equilibrado em baixa concentração a cada 10 a 15 dias durante a emissão de folhas e raízes.\n🧪 Liberação lenta: use poucos grânulos de Osmocote 14-14-14 somente em vasos bem drenados.",
-    rega: "Mantenha umidade atmosférica regular, permitindo que o substrato seque levemente entre as regas. Em touceiras densas, evite água acumulada na base dos ramicaules, pois a retenção excessiva favorece fungos e podridão-negra.",
-    suporte: "🥇 Vaso pequeno de barro ou plástico, muito bem drenado.\n🥈 Placa ou cepo de madeira com pequena reserva de esfagno.\n🥉 Cachepô ripado e bem ventilado.",
-    substrato: "🥇 Casca de pinus média/fina + carvão vegetal + pequena quantidade de esfagno.\n🥈 Casca de pinus fina + pedra-pomes fina.\n🥉 Cultivo montado com fina almofada de esfagno junto às raízes.",
-    errosComuns: "Usar vasos grandes; manter touceiras densas constantemente molhadas; cultivar em ambiente quente e abafado; empregar excesso de esfagno; usar material decomposto ou compacto; fornecer pouca luminosidade; mudar a planta durante a formação das hastes.",
-    dica: "Durante a emissão das hastes florais, evite mudar a planta de local ou alterar drasticamente sua orientação em relação à luz. Mudanças abruptas de microclima nesse período podem causar o abortamento dos botões em formação.",
+    avaliacoes: { cultivo: 3, floracao: 4, perfume: 1, luminosidade: 2, agua: 4, raridade: 3 },
+    mesesFloracao: [1, 7, 8, 9, 10, 11, 12],
+    clima: "Intermediário, úmido e ventilado. Noites amenas favorecem a abertura das flores. Em regiões quentes, priorize o setor mais fresco e arejado.",
+    iluminacao: "Luz filtrada, com 60% a 70% de sombreamento. Evite sol direto. Folhas verde-médio e firmes indicam boa luz; folhas muito escuras sugerem sombra excessiva.",
+    floracao: "Predominantemente do inverno ao verão, de julho a janeiro, com possibilidade de várias hastes abrirem simultaneamente.",
+    adubacao: "Foliar/mineral: NPK equilibrado em baixa concentração a cada 10 a 15 dias no crescimento. Orgânica: bokashi em dose mínima e protegido em porta-adubo. Liberação lenta: poucos grânulos de Osmocote 14-14-14 em vasos muito drenados.",
+    rega: "Mantenha boa umidade ambiental e regue permitindo leve secagem superficial entre irrigações. Em touceiras densas, evite água acumulada no centro.",
+    suportes: ["Vaso pequeno de barro ou plástico, muito drenado.", "Placa ou cepo de madeira com pequena almofada de esfagno.", "Cachepô ripado e ventilado."],
+    substratos: ["Casca de pinus média/fina + carvão vegetal + pequena quantidade de esfagno.", "Casca de pinus fina + pedra-pomes fina.", "Cultivo montado com fina camada de esfagno sob as raízes."],
+    errosComuns: ["Mudar a planta de posição durante a formação das hastes.", "Manter touceiras densas encharcadas.", "Usar vasos grandes.", "Cultivar em ambiente quente e abafado.", "Usar excesso de esfagno ou substrato decomposto.", "Fornecer pouca luminosidade."],
     adaptacaoRegional: {
-        litoralQuente: "Reserve o setor mais fresco e ventilado, sob sombreamento entre 60% e 70%. Use substrato aberto e evite água retida no centro das touceiras.",
-        montanhaFrio: "Adapta-se muito bem às noites frescas. No inverno úmido, espace as regas, mantendo apenas umidade leve e ventilação contínua."
+        litoral: "Cultive no setor mais fresco e ventilado, sob 60% a 70% de sombra. Use substrato aberto para reduzir aquecimento e retenção excessiva.",
+        montanha: "Excelente adaptação às noites frescas. Em períodos frios e úmidos, espace as regas sem deixar o substrato secar totalmente."
     },
-    mesesFloracao: [7, 8, 9, 10, 11, 12, 1],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 4,
-        perfume: 1,
-        luminosidade: 2,
-        agua: 4,
-        raridade: 3
-    }
+    dicaOuro: "Durante a emissão das hastes, mantenha a planta estável no mesmo microclima e orientação de luz. Em touceiras densas, aeração e drenagem na base são fundamentais para evitar perdas por podridão."
 };

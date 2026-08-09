@@ -1,53 +1,33 @@
-// Ficha científica e de cultivo refinada — Lote 01.
-
 export const arpophyllumGiganteum = {
     id: "arpophyllum-giganteum",
     nome: "Arpophyllum giganteum",
     genero: "Arpophyllum",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
-    caracteristicas: [
-        "Porte grande a gigante",
-        "Inflorescência cilíndrica",
-        "Centenas de flores",
-        "Forma grandes touceiras",
-    ],
+    origem: "México, América Central, Jamaica, Colômbia e Venezuela.",
+    regiao: "México, América Central, Jamaica e norte da América do Sul.",
+    habitat: "Principalmente epífita rizomatosa de florestas tropicais e subtropicais úmidas de encosta e áreas montanas, aproximadamente entre 800 e 1.500 m.",
+    descricao: "Espécie de médio a grande porte que forma touceiras robustas. Possui pseudobulbos alongados, delgados e unifoliados e produz racemos terminais eretos, densamente multiflorais, que podem atingir cerca de 40 cm e lembram uma escova de garrafa, com numerosas flores rosa a púrpura.",
+    caracteristicas: ["Inflorescência cilíndrica", "Flores rosa-púrpura", "Touceira robusta", "Racemos até ~40 cm", "Clima quente a fresco"],
     fotos: [
-        "imagens/Arpophyllum giganteum/Arpophyllum giganteum1.jpg",
-        "imagens/Arpophyllum giganteum/Arpophyllum giganteum2.jpeg",
-        "imagens/Arpophyllum giganteum/Arpophyllum giganteum3.webp",
-        "imagens/Arpophyllum giganteum/Arpophyllum giganteum4.jpeg",
+        "fotos/Arpophyllum giganteum1.jpg",
+        "fotos/Arpophyllum giganteum2.jpeg",
+        "fotos/Arpophyllum giganteum3.webp",
+        "fotos/Arpophyllum giganteum4.jpeg"
     ],
-    descricao: "Arpophyllum giganteum é uma orquídea epífita ou litófita de grande porte, nativa de florestas montanas úmidas do México ao norte da América do Sul. Forma touceiras robustas, com pseudobulbos eretos e alongados sustentando folhas rígidas, carnosas, conduplicadas e em formato de espada. Seu grande atrativo são as inflorescências terminais, eretas, cilíndricas e densas, semelhantes a escovas de garrafa, compostas por centenas de pequenas flores rosadas, lilases ou purpúreas dispostas de forma espiralada.",
-    origem: "Originária do México, América Central, Caribe, Colômbia e noroeste da Venezuela.",
-    regiao: "Distribui-se do México à América Central, Caribe e norte da América do Sul.",
-    habitat: "Epífita ou litófita de florestas tropicais e subtropicais úmidas de altitude, onde recebe luz intensa filtrada, boa ventilação e noites mais frescas.",
-    clima: "Intermediário, com noites frescas e boa amplitude térmica.",
-    climaFloracao: "Para florescer bem, precisa de luminosidade intensa filtrada, pseudobulbos maduros e um período mais fresco com redução das regas. Noites amenas e uma secagem mais pronunciada no outono e inverno ajudam a induzir as hastes da primavera.",
-    iluminacao: {
-        sombrite: "50% a 60%",
-        solDireto: "Sim, apenas suave",
-        horario: "Até aproximadamente 08:30",
-        observacoes: "Exige mais luz do que as Acianthera. Folhas verde-claras a levemente amareladas, firmes e sem queimaduras indicam boa exposição; folhas verde-escuras sugerem falta de luz e podem impedir a floração."
-    },
-    floracao: "Floresce principalmente no fim do inverno e durante a primavera.",
-    adubacao: "🌿 Orgânica: bokashi em pequena quantidade, dentro de saquinho, somente durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias durante a emissão de brotos e raízes.\n🧪 Pré-floração: reduza o nitrogênio e utilize formulação com maior proporção de fósforo e potássio antes do amadurecimento dos pseudobulbos.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada e sem contato com o rizoma.",
-    rega: "Durante a emissão de brotos e raízes, faça regas abundantes e permita apenas secagem parcial do substrato. Após o amadurecimento dos pseudobulbos, especialmente no outono e inverno, reduza as regas e deixe o substrato secar bem entre elas, sem provocar desidratação severa.",
-    suporte: "🥇 Vaso grande, pesado e estável, de barro ou plástico reforçado, capaz de sustentar a touceira por vários anos.\n🥈 Cachepô de madeira amplo e robusto.\n🥉 Placa ou cepo de madeira somente para plantas jovens.",
-    substrato: "🥇 Brita no fundo + casca de pinus média/grossa + carvão vegetal.\n🥈 Casca de pinus média + pedra-pomes + carvão vegetal.\n🥉 Casca de pinus grossa + brita + pequena quantidade de esfagno apenas para ajuste de umidade.",
-    errosComuns: "Cultivar com pouca luz; usar vasos pequenos ou leves; empregar substrato compacto e pouco drenado; manter regas abundantes durante todo o inverno; dividir ou replantar com frequência; montar plantas adultas em placas incapazes de acomodar seu porte e peso.",
-    dica: "Arpophyllum giganteum floresce melhor quando está com o vaso bem preenchido e as raízes firmemente ancoradas. Evite replantar com frequência e escolha um recipiente com boa drenagem que comporte o crescimento de três a quatro anos sem necessidade de divisão.",
-    adaptacaoRegional: {
-        litoralQuente: "Cultive no ponto mais claro, fresco e ventilado do orquidário, sob sombrite de 50% a 60%. Reduza as regas no inverno e evite calor noturno constante, que pode dificultar a indução floral.",
-        montanhaFrio: "A amplitude térmica natural favorece a floração. Proteja apenas de frio extremo e de substrato permanentemente molhado durante o inverno."
-    },
+    avaliacoes: { cultivo: 3, floracao: 4, perfume: 1, luminosidade: 4, agua: 4, raridade: 3 },
     mesesFloracao: [8, 9, 10, 11],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 4,
-        perfume: 1,
-        luminosidade: 4,
-        agua: 3,
-        raridade: 3
-    }
+    clima: "Quente a fresco. Para florir bem, combine pseudobulbos maduros, luminosidade intensa filtrada, boa ventilação e noites mais frescas. No litoral quente, o calor noturno contínuo pode dificultar a indução.",
+    iluminacao: "Alta luminosidade filtrada, cerca de 50% a 60% de sombreamento. Sol muito suave do início da manhã somente após aclimatação. Folhas firmes e crescimento ereto são bons indicadores.",
+    floracao: "Principalmente do fim do inverno à primavera, entre agosto e novembro.",
+    adubacao: "Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias durante brotação e enraizamento. Orgânica: bokashi em pequena quantidade e porta-adubo no crescimento ativo. Liberação lenta: Osmocote 14-14-14 em dose moderada, afastado do rizoma. Reduza a frequência quando o crescimento desacelerar; não é necessário excesso de fósforo para induzir flores.",
+    rega: "Durante crescimento ativo, regue abundantemente e permita que o substrato perca parte da umidade antes da próxima irrigação. No período frio, reduza a frequência proporcionalmente à evaporação, sem impor repouso seco severo ou desidratação prolongada.",
+    suportes: ["Vaso pesado e proporcional à touceira, com excelente drenagem.", "Cachepô de madeira amplo e robusto.", "Cesto resistente e bem ventilado para exemplares consolidados."],
+    substratos: ["Casca de pinus média/grossa + pedra-pomes + carvão vegetal.", "Casca média + carvão + brita.", "Chips de coco tratados + pedra-pomes + carvão vegetal."],
+    errosComuns: ["Forçar repouso seco rigoroso.", "Usar vaso enorme para planta pequena.", "Cultivar com pouca luminosidade.", "Usar substrato compacto.", "Dividir ou replantar repetidamente.", "Manter calor abafado e pouca circulação de ar.", "Usar fósforo excessivo tentando induzir floração."],
+    adaptacaoRegional: {
+        litoral: "Adaptação moderada a boa. Cultive no ponto mais claro, fresco e ventilado possível, sob 50% a 60% de sombra. Evite calor noturno constante e mantenha boa hidratação sem saturar o vaso.",
+        montanha: "A amplitude térmica e as noites frescas favorecem o cultivo e a floração. Proteja apenas de frio extremo e de substrato permanentemente saturado."
+    },
+    dicaOuro: "Preserve uma touceira adulta, estável e bem iluminada, mas não antecipe o uso de um vaso enorme. Escolha recipiente pesado e proporcional, forneça água abundante no crescimento e reduza a frequência no inverno apenas conforme a evaporação cair — sem impor seca severa."
 };
