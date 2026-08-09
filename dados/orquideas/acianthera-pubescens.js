@@ -18,16 +18,17 @@ export const aciantheraPubescens = {
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8],
     clima: "Quente a fresco conforme a procedência. Exemplares de altitude podem sofrer com noites persistentemente quentes, enquanto populações de baixada tendem a tolerar melhor o calor.",
+    climaFloracao: "Quente a fresco conforme a procedência. Exemplares de altitude podem sofrer com noites persistentemente quentes, enquanto populações de baixada tendem a tolerar melhor o calor.",
     iluminacao: "Luz filtrada, aproximadamente 60% a 70% de sombreamento como referência prática. Evite sol direto forte. Folhas firmes e verde-oliva indicam boa adaptação; amarelecimento rápido ou aquecimento pede mais sombra e circulação.",
     floracao: "Pode florescer do verão ao inverno. A janela é ampla e varia conforme população, altitude de origem, maturação dos ramicaules e microclima de cultivo.",
     adubacao: "NPK equilibrado em aproximadamente 1/4 da dose comercial a cada 15 dias durante crescimento. Bokashi somente em pequena quantidade e sem contato com brotos. Osmocote em dose mínima. Faça lixiviação periódica para reduzir salinização.",
     rega: "Regue regularmente, mantendo raízes hidratadas sem saturação permanente. Plantas montadas podem exigir água quase diária no calor; em vasos, permita leve secagem superficial e ajuste a frequência à procedência e ao clima.",
-    suportes: ["Vaso pequeno e muito drenado.", "Placa de madeira, cortiça ou tronco com pequena reserva de musgo.", "Cachepô pequeno e ventilado."],
-    substratos: ["Casca de pinus fina/média + carvão + pequena quantidade de esfagno.", "Casca de pinus fina + pedra-pomes.", "Cultivo montado com pouca fibra ou musgo junto às raízes."],
+    suporte: ["Vaso pequeno e muito drenado.", "Placa de madeira, cortiça ou tronco com pequena reserva de musgo.", "Cachepô pequeno e ventilado."],
+    substrato: ["Casca de pinus fina/média + carvão + pequena quantidade de esfagno.", "Casca de pinus fina + pedra-pomes.", "Cultivo montado com pouca fibra ou musgo junto às raízes."],
     errosComuns: ["Aplicar o mesmo regime a exemplares de procedências diferentes.", "Manter touceira densa molhada e sem ventilação.", "Usar substrato compacto.", "Expor ao sol direto forte.", "Deixar secar por períodos longos.", "Ignorar pragas escondidas nas bainhas.", "Acumular sais de fertilizante."],
     adaptacaoRegional: {
         litoral: "Adaptação variável conforme procedência. Exemplares de baixas e médias altitudes podem responder bem ao calor; clones de altitude exigem setor mais fresco, sombreado e muito ventilado.",
         montanha: "Em geral, adaptação muito boa, especialmente para exemplares de origem montana. Reduza a rega em sequências frias e nubladas sem impor seca prolongada."
     },
-    dicaOuro: "Procedência primeiro, folha depois. Como a espécie ocorre desde baixadas até cerca de 1.900 m, dois exemplares podem reagir de forma diferente ao mesmo ambiente. Use vigor, coloração foliar e atividade radicular para ajustar luz, água e ventilação."
+    dica: "Procedência primeiro, folha depois. Como a espécie ocorre desde baixadas até cerca de 1.900 m, dois exemplares podem reagir de forma diferente ao mesmo ambiente. Use vigor, coloração foliar e atividade radicular para ajustar luz, água e ventilação."
 };

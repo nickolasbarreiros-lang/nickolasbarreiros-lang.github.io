@@ -18,16 +18,17 @@ export const arpophyllumGiganteum = {
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 1, luminosidade: 4, agua: 4, raridade: 3 },
     mesesFloracao: [8, 9, 10, 11],
     clima: "Quente a fresco, com melhor desempenho quando existe boa amplitude térmica e noites mais amenas. No litoral quente, pode crescer vigorosamente, mas o calor noturno persistente pode prejudicar a indução floral.",
+    climaFloracao: "Quente a fresco, com melhor desempenho quando existe boa amplitude térmica e noites mais amenas. No litoral quente, pode crescer vigorosamente, mas o calor noturno persistente pode prejudicar a indução floral.",
     iluminacao: "Luminosidade alta porém filtrada, aproximadamente 50% a 60% de sombreamento como referência prática. Pode receber sol muito suave no início da manhã após aclimatação. Evite tanto sombra profunda quanto sol forte sobre folhas aquecidas.",
     floracao: "Do fim do inverno à primavera. As hastes terminais podem alcançar cerca de 40 cm e carregam numerosas flores pequenas, formando o característico efeito de 'escova de garrafa'.",
     adubacao: "Durante brotação e enraizamento, use NPK equilibrado em baixa concentração a cada 10 a 15 dias. Bokashi pode ser aplicado em pequena quantidade e Osmocote 14-14-14 em dose moderada. Após a maturação, reduza o nitrogênio, mas não imponha seca severa.",
     rega: "No crescimento ativo, regue abundantemente e permita secagem parcial entre irrigações. Após a maturação, reduza moderadamente a frequência em períodos frios, acompanhando a evaporação real do vaso. Não trate a espécie como orquídea de repouso seco rígido.",
-    suportes: ["Vaso pesado e proporcional à touceira, com excelente drenagem.", "Cachepô de madeira amplo e robusto.", "Cesto grande e ventilado para exemplares adultos."],
-    substratos: ["Casca de pinus média/grossa + pedra-pomes + carvão vegetal.", "Casca grossa + brita + carvão vegetal.", "Mistura muito aberta com pequena fração de material retentor apenas onde a secagem for excessivamente rápida."],
+    suporte: ["Vaso pesado e proporcional à touceira, com excelente drenagem.", "Cachepô de madeira amplo e robusto.", "Cesto grande e ventilado para exemplares adultos."],
+    substrato: ["Casca de pinus média/grossa + pedra-pomes + carvão vegetal.", "Casca grossa + brita + carvão vegetal.", "Mistura muito aberta com pequena fração de material retentor apenas onde a secagem for excessivamente rápida."],
     errosComuns: ["Cultivar em sombra excessiva.", "Impor seca severa no inverno.", "Usar vaso leve ou instável.", "Manter substrato compacto e permanentemente molhado.", "Dividir touceiras repetidamente.", "Cultivar no litoral quente sem ventilação suficiente.", "Manter o vaso encharcado em períodos frios e nublados."],
     adaptacaoRegional: {
         litoral: "Adaptação moderada. Use o setor mais claro e ventilado, com recipiente pesado e substrato muito aberto. No verão, priorize circulação de ar e redução do calor noturno; não imponha secas artificiais.",
         montanha: "Adaptação excelente. A amplitude térmica e as noites frescas favorecem a floração. No inverno, reduza a frequência de rega conforme a secagem real do vaso, evitando frio associado a encharcamento."
     },
-    dicaOuro: "Touceira madura, raízes estáveis e água no crescimento. Preserve plantas bem enraizadas e evite divisões frequentes; ofereça água abundante na brotação, luz filtrada forte e boa ventilação. No inverno, acompanhe apenas a redução natural da evaporação, sem forçar repouso seco."
+    dica: "Touceira madura, raízes estáveis e água no crescimento. Preserve plantas bem enraizadas e evite divisões frequentes; ofereça água abundante na brotação, luz filtrada forte e boa ventilação. No inverno, acompanhe apenas a redução natural da evaporação, sem forçar repouso seco."
 };

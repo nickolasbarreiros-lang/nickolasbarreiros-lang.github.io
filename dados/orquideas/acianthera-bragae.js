@@ -18,16 +18,17 @@ export const aciantheraBragae = {
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     clima: "Intermediário, úmido e ventilado. Noites amenas favorecem estabilidade vegetativa, mas a espécie não deve ser submetida a frio excessivo. No litoral quente, priorize o setor mais sombreado e arejado.",
+    climaFloracao: "Intermediário, úmido e ventilado. Noites amenas favorecem estabilidade vegetativa, mas a espécie não deve ser submetida a frio excessivo. No litoral quente, priorize o setor mais sombreado e arejado.",
     iluminacao: "Sombra clara, com cerca de 70% de sombreamento como referência de cultivo. Evite sol direto forte. Folhas firmes, sem amarelecimento rápido ou aquecimento, indicam melhor equilíbrio.",
     floracao: "Pode florescer principalmente da primavera ao verão, variando conforme procedência e microclima. Evite transformar uma janela mensal em regra absoluta.",
     adubacao: "NPK equilibrado em cerca de 1/4 da dose comercial a cada 15 dias no crescimento. Bokashi apenas em quantidade mínima e isolado em porta-adubo. Osmocote, se utilizado, deve ser extremamente reduzido. Faça lixiviação periódica com água pura.",
     rega: "Regue com frequência suficiente para impedir desidratação prolongada, permitindo leve secagem superficial entre as irrigações. Direcione a água ao sistema radicular e mantenha a base dos ramicaules livre de umidade estagnada.",
-    suportes: ["Placa de madeira ou cortiça larga, permitindo expansão lateral.", "Cachepô pequeno, raso e bem ripado.", "Vaso baixo e muito perfurado."],
-    substratos: ["Fina camada de esfagno sob as raízes em cultivo montado.", "Casca de pinus fina + carvão fino + pequena fração de esfagno.", "Esfagno solto + pedra-pomes fina, sempre sem compactação."],
+    suporte: ["Placa de madeira ou cortiça larga, permitindo expansão lateral.", "Cachepô pequeno, raso e bem ripado.", "Vaso baixo e muito perfurado."],
+    substrato: ["Fina camada de esfagno sob as raízes em cultivo montado.", "Casca de pinus fina + carvão fino + pequena fração de esfagno.", "Esfagno solto + pedra-pomes fina, sempre sem compactação."],
     errosComuns: ["Manter água parada na base dos ramicaules.", "Deixar a planta secar por vários dias.", "Usar recipiente profundo e pouco ventilado.", "Compactar esfagno.", "Cultivar sem circulação de ar.", "Aplicar adubo concentrado.", "Expor ao sol direto forte."],
     adaptacaoRegional: {
         litoral: "Adaptação moderada a boa quando cultivada na área mais sombreada e ventilada. Prefira montagem ou recipiente pequeno e raso e faça regas pela manhã.",
         montanha: "Condições muito favoráveis. Durante períodos frios e úmidos, aumente o intervalo entre regas sem permitir desidratação completa."
     },
-    dicaOuro: "Umidade nas raízes, ar na base e espaço para expansão. Use suporte largo e arejado, deixando o crescimento avançar sem restrição; o esfagno deve ficar apenas sob as raízes, nunca envolvendo rizoma ou ramicaules."
+    dica: "Umidade nas raízes, ar na base e espaço para expansão. Use suporte largo e arejado, deixando o crescimento avançar sem restrição; o esfagno deve ficar apenas sob as raízes, nunca envolvendo rizoma ou ramicaules."
 };
