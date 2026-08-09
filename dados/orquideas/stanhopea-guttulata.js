@@ -1,41 +1,65 @@
-// Ficha atualizada no LOTE 15 — PADRÃO EDITORIAL V3.
+// Ficha refinada por comparação entre o conteúdo anterior e as informações complementares fornecidas.
+// Menu lateral mantido compacto; aprofundamento concentrado nas seções de cultivo.
 
 export const stanhopeaGuttulata = {
-    id: "stanhopea-guttulata",
-    nome: "Stanhopea guttulata",
-    genero: "Stanhopea",
-    tipo: "Espécie botânica",
-    dificuldade: "Moderada",
-    caracteristicas: ["Flores grandes e pendentes", "Perfume intenso", "Pétalas manchadas", "Cesta obrigatória"],
-    fotos: [
+    "id": "stanhopea-guttulata",
+    "nome": "Stanhopea guttulata",
+    "genero": "Stanhopea",
+    "tipo": "Espécie botânica",
+    "dificuldade": "Moderada",
+    "caracteristicas": [
+        "Espécie botânica endêmica do Brasil",
+        "Epífita de médio a grande porte",
+        "Pseudobulbos ovoides e sulcados",
+        "Folhas grandes e plissadas",
+        "Inflorescência geotrópica descendente",
+        "Flores grandes, cerosas e pintalgadas",
+        "Perfume extremamente intenso",
+        "Exige cesta suspensa com fundo livre"
+    ],
+    "fotos": [
         "imagens/Stanhopea guttulata/Stanhopea guttulata1.jpg",
         "imagens/Stanhopea guttulata/Stanhopea guttulata3.jpg",
         "imagens/Stanhopea guttulata/Stanhopea guttulata3.webp",
         "imagens/Stanhopea guttulata/Stanhopea guttulata4.jpg"
     ],
-    descricao: "Stanhopea de flores grandes, cerosas, muito perfumadas e marcadas por pintas ou manchas contrastantes. As inflorescências são geotrópicas e atravessam o substrato para florescer pela parte inferior do recipiente.",
-    origem: "Espécie endêmica do Brasil, nativa de florestas úmidas e sombreadas da região Sudeste, onde cresce como epífita em áreas de média altitude.",
-    regiao: "Brasil.",
-    habitat: "Epífita em troncos e forquilhas onde se acumula matéria orgânica úmida, sob sombra clara e circulação de ar constante.",
-    clima: "Intermediário a quente, úmido e ventilado.",
-    climaFloracao: "Floresce após a maturação de pseudobulbos robustos. A combinação de boa hidratação, adubação durante o crescimento, noites ligeiramente mais frescas e espaço livre sob a cesta favorece a emissão das hastes.",
-    iluminacao: {
-        sombrite: "60% a 70%",
-        solDireto: "Somente muito fraco",
-        horario: "Até 07:30",
-        observacoes: "Luz filtrada média. Folhas verde-claro indicam boa luminosidade; sombra excessiva gera crescimento alongado e pouca floração."
+    "descricao": "Stanhopea guttulata é uma espécie epífita brasileira, endêmica de florestas úmidas do Sudeste, famosa pela arquitetura incomum de suas inflorescências. Forma pseudobulbos ovoides e sulcados, cada um sustentando uma grande folha plissada. As hastes florais apresentam geotropismo positivo: nascem na base da planta, atravessam o substrato e crescem para baixo até emergirem pelo fundo ou pelas laterais do recipiente. As flores são grandes, cerosas, intensamente perfumadas e marcadas por pintas castanhas, vinho ou arroxeadas sobre fundo claro. Por essa biologia, o uso de cesta vazada não é apenas recomendável — é requisito estrutural para que a floração consiga sair sem ser deformada ou abortada.",
+    "origem": "Brasil.",
+    "regiao": "Mata Atlântica do Sudeste.",
+    "habitat": "Florestas úmidas e sombreadas de média altitude.",
+    "clima": "Ameno a intermediário, úmido e ventilado.",
+    "climaFloracao": "A floração depende de pseudobulbos bem formados, umidade regular, noites amenas e espaço físico para a haste geotrópica. Não necessita de repouso seco severo. Após a maturação, reduza apenas discretamente a água. Touceiras grandes e centralizadas no cesto tendem a produzir hastes mais vigorosas e com trajeto mais previsível.",
+    "iluminacao": {
+        "sombrite": "60% a 70%",
+        "solDireto": "Somente muito fraco",
+        "horario": "Até aproximadamente 07:30",
+        "observacoes": "Prefere sombra clara. Folhas verde-claro a verde-médio indicam bom nível de luz. Sombra profunda alonga folhas e reduz floradas; sol forte queima rapidamente as lâminas plissadas."
     },
-    floracao: "Principalmente primavera e verão, podendo variar conforme o ciclo de crescimento.",
-    adubacao: "🌿 Orgânica: bokashi em pequena quantidade na borda da cesta.\n💧 Foliar: NPK equilibrado em meia dose a cada 10 a 15 dias durante a brotação.\n🧪 Liberação lenta: Osmocote em dose moderada, evitando contato com raízes novas.",
-    rega: "Abundante e frequente durante o crescimento. O substrato deve permanecer levemente úmido, mas nunca saturado. Reduza discretamente após a maturação dos pseudobulbos.",
-    suporte: "🥇 Cesta vazada de madeira.\n🥈 Cachepô suspenso de ripas largas.\n🥉 Cesto plástico ou aramado com fundo totalmente livre.",
-    substrato: "🥇 Casca média + esfagno solto + carvão.\n🥈 Fibra de coco em cubos + pedra-pomes.\n🥉 Casca média + perlita + pequena porção de musgo.",
-    errosComuns: "Usar vaso fechado; bloquear a saída inferior das hastes; cultivar em sombra profunda; deixar secar completamente; manter substrato velho e compactado; molhar as flores em ambiente sem vento.",
-    dica: "Plante a touceira no centro da cesta e mantenha a parte inferior livre. Isso evita que as hastes se deformem ou quebrem antes de aparecer.",
-    adaptacaoRegional: {
-        litoralQuente: "No litoral quente, priorize ventilação, sombra clara e regas matinais. Em ondas de calor, aumente a umidade ambiente sem deixar o substrato encharcado durante a noite.",
-        montanhaFrio: "Em regiões mais frescas, mantenha umidade estável e proteja de frio intenso, especialmente durante brotação e formação das hastes."
+    "floracao": "Mais comum da primavera ao verão, aproximadamente de setembro a fevereiro. A haste cresce para baixo e precisa atravessar livremente substrato e fundo da cesta. Durante a emissão, inspecione a parte inferior sem tocar na haste e verifique se nenhuma ripa, tela, plástico, raiz compactada ou suporte está bloqueando sua passagem.",
+    "adubacao": "🌿 Orgânica: bokashi em pequena quantidade apenas na borda da cesta.\n💧 Mineral/Foliar: NPK equilibrado em 1/3 a 1/2 da dose a cada 10–15 dias durante brotação e enchimento dos pseudobulbos.\n🌱 Crescimento: mantenha nutrição regular até a maturação completa.\n🧪 Liberação lenta: Osmocote em dose moderada, longe de brotos e raízes novas.\n🚿 Lavagem: faça rega abundante apenas com água periodicamente para retirar sais.",
+    "rega": "Durante brotação e crescimento, mantenha o substrato constantemente levemente úmido, porém poroso. Não permita ressecamento completo por longos períodos, pois isso enruga pseudobulbos e reduz a força das novas frentes. Após a maturação, reduza apenas discretamente. Regue pela manhã e evite que folhas, brotos e flores permaneçam molhados em noites abafadas.",
+    "suporte": "🥇 Cesta de madeira suspensa e muito vazada — ideal para a passagem das hastes.\n🥈 Cachepô de ripas com fundo aberto — excelente ventilação.\n🥉 Cesto aramado ou plástico totalmente perfurado — funcional se não houver barreiras inferiores.\nCentralize a touceira e mantenha o fundo completamente livre.",
+    "substrato": "🥇 Casca de pinus média + esfagno solto + carvão vegetal.\n🥈 Fibra de coco em cubos + pedra-pomes.\n🥉 Casca média + perlita + pequena porção de esfagno.\nO meio precisa reter umidade sem compactar e deve ser macio o suficiente para ser atravessado pela haste.",
+    "errosComuns": "Usar vaso fechado; bloquear o fundo; plantar a touceira encostada na lateral; deixar secar completamente; sombra profunda; substrato velho ou compactado; excesso de esfagno; mover a cesta durante a emissão; molhar flores sem ventilação; replantar fora do novo enraizamento.",
+    "dica": "Plante a touceira no centro de uma cesta realmente vazada e trate a área abaixo como parte da planta: ela deve permanecer totalmente livre. A haste floral atravessa o substrato e precisa sair por baixo sem bater em ripas ou outros obstáculos. Durante a emissão, inspecione por baixo e remova somente obstáculos soltos, sem tocar ou redirecionar a haste.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Em Serra/ES, mantenha em setor sombreado, bem ventilado e com alta umidade ambiental. Regue pela manhã e evite manter a cesta saturada durante noites quentes.",
+        "montanhaFrio": "Boa adaptação a noites amenas. Proteja de geadas e reduza ligeiramente a água em semanas frias e muito chuvosas."
     },
-    mesesFloracao: [9,10,11,12,1,2],
-    avaliacoes: { cultivo: 3, floracao: 4, perfume: 5, luminosidade: 3, agua: 5, raridade: 4 }
+    "mesesFloracao": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+    ],
+    "avaliacoes": {
+        "cultivo": 3,
+        "floracao": 4,
+        "perfume": 5,
+        "luminosidade": 3,
+        "agua": 5,
+        "raridade": 4
+    }
 };

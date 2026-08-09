@@ -1,4 +1,4 @@
-// Versão V3 definitiva, consolidada e enxugada — Lote 11.
+// Ficha V4 refinada — conteúdo antigo e novo comparados, filtrados e agregados; coluna lateral resumida para preservar o layout.
 
 export const maxillariaLeucaimata = {
     "id": "maxillaria-leucaimata",
@@ -9,9 +9,9 @@ export const maxillariaLeucaimata = {
     "caracteristicas": [
         "Epífita ou rupícola",
         "Crescimento simpodial compacto",
-        "Pseudobulbos unifoliados",
+        "Pseudobulbos comprimidos e unifoliados",
         "Flores solitárias basais",
-        "Raízes finas e arejadas"
+        "Raízes finas e sensíveis ao abafamento"
     ],
     "fotos": [
         "imagens/Maxillaria leucaimata/Maxillaria leucaimata1.jpg",
@@ -19,28 +19,28 @@ export const maxillariaLeucaimata = {
         "imagens/Maxillaria leucaimata/Maxillaria leucaimata3.jpg",
         "imagens/Maxillaria leucaimata/Maxillaria leucaimata4.jpg"
     ],
-    "descricao": "Maxillaria brasileira de porte médio, com touceiras compactas, pseudobulbos comprimidos e uma folha apical estreita. As flores surgem isoladas na base dos pseudobulbos maduros, em tons creme a amarelados com marcações vinosas. É adaptável, mas responde melhor quando as raízes recebem água frequente sem permanecer abafadas.",
-    "origem": "Nativa da Guiana Francesa e do Brasil, com registros em diferentes regiões e formações tropicais. Ocorre tanto sobre árvores quanto em rochas, desde áreas quentes até ambientes serranos. Essa amplitude explica sua boa adaptação, mas não elimina a necessidade de ventilação e drenagem.",
-    "regiao": "Guiana Francesa e várias regiões do Brasil.",
-    "habitat": "Epífita ou rupícola em locais claros e ventilados. No habitat, recebe chuva e neblina, mas as raízes secam relativamente rápido entre os períodos de umidade.",
-    "clima": "Quente a intermediário, tolerando noites moderadamente frescas. Prefere umidade acima de 60% e circulação de ar constante.",
-    "climaFloracao": "A floração depende mais de pseudobulbos bem formados, raízes ativas e boa luz do que de repouso seco. Após o amadurecimento do broto, apenas reduza discretamente a rega e a adubação.",
+    "descricao": "Espécie simpodial de porte médio, epífita ou rupícola, que forma touceiras compactas de pseudobulbos comprimidos e ovoides, normalmente com uma única folha apical estreita, ereta e coriácea. As inflorescências são individuais e surgem na base dos pseudobulbos maduros, sustentando flores solitárias em tons de creme a amarelo-palha, com nuances e pontilhados vinosos no labelo. É uma Maxillaria relativamente adaptável, porém seu sucesso depende diretamente da saúde das raízes finas: substrato degradado, excesso de sais ou permanência prolongada de água no vaso reduzem a oxigenação e podem causar perda radicular mesmo quando os pseudobulbos ainda parecem firmes.",
+    "origem": "Guiana Francesa e Brasil.",
+    "regiao": "América do Sul tropical, com registros em áreas baixas e serranas.",
+    "habitat": "Troncos ou rochas em locais úmidos, claros e ventilados, com chuva frequente e secagem rápida.",
+    "clima": "Quente a intermediário, tolerando noites frescas; aprecia umidade alta e ar em movimento.",
+    "climaFloracao": "A indução floral ocorre quando o pseudobulbo completa o crescimento com raízes saudáveis, boa luminosidade filtrada e nutrição equilibrada. A espécie não exige repouso seco rigoroso: após a maturação, basta aumentar discretamente o intervalo entre as regas para reproduzir uma sazonalidade leve. Em regiões quentes, a ventilação e a capacidade de o vaso secar em poucos dias são mais importantes do que uma queda acentuada de temperatura. Touceiras maduras e não divididas tendem a emitir várias hastes basais simultaneamente.",
     "iluminacao": {
         "sombrite": "50% a 70%",
-        "solDireto": "Somente sol suave",
+        "solDireto": "Somente sol muito suave",
         "horario": "Início da manhã ou fim da tarde",
-        "observacoes": "Ofereça luz filtrada brilhante. Folhas muito escuras e crescimento alongado indicam sombra excessiva; amarelecimento ou áreas secas indicam excesso de sol. Em clima muito quente, use proteção maior."
+        "observacoes": "Prefere claridade filtrada abundante. Folhas verde-médio a verde-claro e pseudobulbos firmes indicam equilíbrio. Folhas muito escuras e crescimento frouxo sugerem pouca luz; amarelecimento intenso, manchas secas ou aquecimento da lâmina foliar indicam excesso de exposição. No litoral quente, 60% a 70% de sombreamento costuma ser mais seguro."
     },
-    "floracao": "Mais comum do verão ao outono. Cada haste costuma carregar uma flor, mas pseudobulbos fortes podem emitir várias hastes. Brotos pequenos ou mal iluminados geralmente resultam em floração fraca.",
-    "adubacao": "🌿 Orgânica: bokashi em pequena porção, dentro de porta-adubo e longe dos brotos. Reponha somente após o material se desfazer.\n💧 Foliar/mineral: na fase de crescimento, use adubo equilibrado em 1/4 da dose a cada 10–15 dias; reduza quando o pseudobulbo amadurecer. Faça uma rega só com água mensalmente para retirar sais.\n🧪 Liberação lenta: use poucos grânulos em vasos muito drenantes, sem encostar em raízes novas. Não combine doses completas dos três métodos.",
-    "rega": "Durante o crescimento, molhe bem e espere o substrato ficar quase seco antes de regar novamente. Depois da maturação dos pseudobulbos, reduza a frequência, sem deixar a planta desidratar por muitos dias. Pseudobulbos enrugados com substrato molhado normalmente indicam raízes danificadas, não falta de água.",
-    "suporte": "🥇 Vaso pequeno e bem perfurado: equilibra umidade e aeração.\n🥈 Vaso de barro: indicado para locais úmidos ou regas frequentes.\n🥉 Cesto ou placa: funciona bem com alta umidade ambiental e regas regulares.",
-    "substrato": "Casca de pinus média + carvão + pedra-pomes ou brita fina. Em locais mais secos, acrescente apenas 10–20% de esfagno picado. O rizoma deve ficar sobre a superfície e o melhor replante ocorre quando surgem raízes novas.",
-    "errosComuns": "Vaso grande, rizoma enterrado, sombra profunda, esfagno compactado, repouso seco intenso e excesso de fertilizante. Se o vaso continua molhado por muitos dias, aumente a aeração antes de reduzir apenas a quantidade de água.",
-    "dica": "Depois de uma rega completa, o substrato deve se aproximar da secagem em cerca de 2 a 3 dias. Esse tempo é um guia melhor que um calendário fixo.",
+    "floracao": "Mais comum do verão ao outono, aproximadamente de dezembro a maio, podendo variar conforme a procedência e o momento de maturação dos pseudobulbos. Cada haste basal porta uma flor, mas exemplares robustos podem abrir várias flores ao mesmo tempo. A florada é favorecida por touceira consolidada, boa reserva nos pseudobulbos e raízes ativas no ciclo anterior.",
+    "adubacao": "🌿 Orgânica: use pequena quantidade de bokashi em porta-adubo, afastada do rizoma e das brotações. Reponha apenas após a degradação do material.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em 1/4 da dose a cada 10–15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: poucos grânulos, somente em vaso muito drenante e sempre longe das pontas radiculares novas.\n🚿 Lavagem de sais: uma vez por mês, regue abundantemente apenas com água pura para remover resíduos acumulados. Evite fertilizar raízes completamente secas.",
+    "rega": "Na fase de crescimento, molhe abundantemente e deixe o excesso escorrer. Ajuste vaso, substrato e ventilação para que a mistura se aproxime da secagem em cerca de 2 a 3 dias. Se permanecer molhada por mais de 4 dias, aumente a aeração ou substitua parte do material por componentes minerais. Após a maturação do pseudobulbo, amplie levemente o intervalo entre regas, sem impor seca severa. Pseudobulbos enrugados com substrato ainda molhado exigem inspeção das raízes: geralmente indicam perda radicular por abafamento, substrato degradado ou fungos, e não simples falta de água.",
+    "suporte": "🥇 Vaso pequeno e muito perfurado: melhor equilíbrio entre retenção e oxigenação.\n🥈 Vaso de barro: ideal para locais úmidos ou para quem rega com frequência, pois evapora mais rápido e resfria as raízes.\n🥉 Cesto de madeira ou placa: indicados quando a umidade relativa permanece alta e é possível regar regularmente. O recipiente deve acomodar apenas poucos crescimentos futuros.",
+    "substrato": "Mistura principal: casca de pinus média + carvão vegetal + pedra-pomes ou brita fina. Em ambientes secos, acrescente apenas 10% a 20% de esfagno picado e solto. Também pode ser usada pequena fração de akadama, desde que a mistura seja monitorada e trocada antes de compactar. Mantenha o rizoma sobre a superfície. Replante quando o substrato perder estrutura, ficar azedo, permanecer molhado por mais tempo que o habitual ou quando novas pontas de raízes começarem a surgir.",
+    "errosComuns": "❌ Usar vaso grande, criando uma zona central que demora a secar.\n❌ Enterrar o rizoma ou a base dos brotos.\n❌ Manter substrato velho, triturado ou permanentemente saturado.\n❌ Cultivar em sombra profunda, produzindo vegetação fraca e pouca floração.\n❌ Impor seca prolongada por interpretar a espécie como de repouso rígido.\n❌ Adubar em concentração alta ou sem lavagem periódica.\n❌ Replantar fora do início do enraizamento e perder raízes antes que a planta consiga se fixar.",
+    "dica": "A regra mais útil é observar quanto tempo o vaso leva para secar. Depois de uma rega completa, a mistura deve se aproximar da secagem em 2 a 3 dias: tempo suficiente para hidratar pseudobulbos e raízes, mas curto o bastante para restaurar o oxigênio. Se a secagem estiver lenta, não compense diminuindo apenas o volume de água; corrija o vaso, a granulometria ou a ventilação. Replante somente quando novas pontas radiculares estiverem iniciando, preserve o máximo possível do sistema antigo e mantenha o rizoma totalmente exposto. Essa combinação reduz o choque do replantio e acelera a retomada do crescimento.",
     "adaptacaoRegional": {
-        "litoralQuente": "Use 60–70% de sombreamento, mistura mais mineral e ventilação forte. Regue cedo e ajuste a frequência nos períodos chuvosos.",
-        "montanhaFrio": "Aceita um pouco mais de luz, mas proteja de geada. Em semanas frias e nubladas, reduza a rega sem estabelecer seca total."
+        "litoralQuente": "Em Serra/ES, use 60% a 70% de sombra, vaso justo, mistura predominantemente mineral e ventilação contínua. Regue cedo e acompanhe a secagem real do vaso.",
+        "montanhaFrio": "Em Santa Teresa/ES e regiões serranas, responde muito bem às noites frescas. Em semanas frias, nubladas ou chuvosas, aumente o intervalo entre regas sem deixar a planta desidratar."
     },
     "mesesFloracao": [
         12,

@@ -1,41 +1,65 @@
-// Ficha atualizada no LOTE 15 — PADRÃO EDITORIAL V3.
+// Ficha refinada por comparação entre o conteúdo anterior e as informações complementares fornecidas.
+// Menu lateral mantido compacto; aprofundamento concentrado nas seções de cultivo.
 
 export const trichocentrumFuscum = {
-    id: "trichocentrum-fuscum",
-    nome: "Trichocentrum fuscum",
-    genero: "Trichocentrum",
-    tipo: "Espécie botânica",
-    dificuldade: "Moderada",
-    caracteristicas: ["Folhas carnosas", "Epífita compacta", "Tolera leve secagem", "Flores em tons castanhos e amarelados"],
-    fotos: [
+    "id": "trichocentrum-fuscum",
+    "nome": "Trichocentrum fuscum",
+    "genero": "Trichocentrum",
+    "tipo": "Espécie botânica",
+    "dificuldade": "Moderada",
+    "caracteristicas": [
+        "Espécie botânica brasileira compacta",
+        "Pseudobulbos extremamente reduzidos",
+        "Folhas espessas, rígidas e carnosas",
+        "Reserva hídrica nas folhas",
+        "Alta luminosidade filtrada",
+        "Baixa exigência de água",
+        "Secagem rápida indispensável",
+        "Cultivo montado muito favorecido"
+    ],
+    "fotos": [
         "imagens/Trichocentrum fuscum/Trichocentrum fuscum1.webp",
         "imagens/Trichocentrum fuscum/Trichocentrum fuscum2.jpg",
         "imagens/Trichocentrum fuscum/Trichocentrum fuscum3.jpg",
         "imagens/Trichocentrum fuscum/Trichocentrum fuscum4.webp"
     ],
-    descricao: "Espécie epífita compacta, de folhas espessas e carnosas, adaptadas a armazenar água. Produz inflorescências com pequenas flores em tons amarelados, ocres ou castanhos, geralmente bem contrastadas.",
-    origem: "Brasil tropical.",
-    regiao: "Áreas de Mata Atlântica e formações florestais do leste brasileiro, conforme a circunscrição adotada.",
-    habitat: "Ramos bem iluminados e ventilados, sujeitos a chuvas seguidas de secagem rápida.",
-    clima: "Quente a intermediário, com ótima ventilação.",
-    climaFloracao: "A floração é estimulada por luz filtrada intensa, folhas firmes e maduras e uma leve redução das regas após o crescimento. Não requer seca severa, mas não floresce bem quando mantida sempre encharcada ou sombreada.",
-    iluminacao: {
-        sombrite: "40% a 50%",
-        solDireto: "Somente fraco",
-        horario: "Até 08:30",
-        observacoes: "Prefere claridade alta. Folhas muito escuras sugerem pouca luz; manchas claras e secas indicam excesso de sol."
+    "descricao": "Trichocentrum fuscum é uma orquídea epífita brasileira de porte compacto, caracterizada por pseudobulbos extremamente reduzidos e folhas grossas, rígidas e carnosas. Essas folhas atuam como importantes reservatórios hídricos, permitindo à planta suportar períodos de secagem entre chuvas. Essa mesma adaptação torna o excesso de água particularmente perigoso: raízes mantidas continuamente úmidas e água acumulada na base das folhas favorecem podridão rápida. As flores são pequenas a médias e apresentam combinações de amarelo, ocre e castanho, frequentemente com labelo claro de forte contraste. O cultivo deve imitar um ramo bem iluminado e ventilado: molhamento completo, seguido de secagem quase total antes da próxima irrigação.",
+    "origem": "Brasil.",
+    "regiao": "Mata Atlântica e formações florestais do leste brasileiro.",
+    "habitat": "Ramos claros e muito ventilados.",
+    "clima": "Quente a intermediário e sazonal.",
+    "climaFloracao": "A floração é favorecida por alta luminosidade filtrada, folhas maduras, ventilação intensa e raízes que alternam hidratação com secagem rápida. Não necessita de repouso absolutamente seco, mas após maturação e nos meses frios o intervalo entre regas deve aumentar.",
+    "iluminacao": {
+        "sombrite": "40% a 50%",
+        "solDireto": "Somente suave e aclimatado",
+        "horario": "Até aproximadamente 08:30",
+        "observacoes": "Requer claridade elevada. Folhas verde-oliva e compactas indicam boa luz; folhas muito escuras sugerem sombra. Manchas claras, secas ou amarelamento forte indicam excesso de sol sem aclimatação."
     },
-    floracao: "Geralmente entre primavera e verão.",
-    adubacao: "🌿 Orgânica: bokashi em dose mínima para plantas envasadas.\n💧 Foliar: NPK equilibrado em meia dose a cada 15 dias durante o crescimento.\n🧪 Liberação lenta: Osmocote em quantidade pequena, apenas em vasos ou cachepôs.",
-    rega: "Regue bem e permita secagem quase completa antes da próxima rega. Plantas montadas podem receber água diária no verão, desde que sequem rapidamente; reduza no período mais fresco.",
-    suporte: "🥇 Placa de madeira, cortiça ou tronquinho.\n🥈 Cachepô pequeno e vazado.\n🥉 Vaso de barro pequeno com excelente drenagem.",
-    substrato: "🥇 Sem substrato ou com fina camada de esfagno sobre placa.\n🥈 Casca grossa + carvão + pedra-pomes.\n🥉 Cacos de telha + carvão + pequena quantidade de casca.",
-    errosComuns: "Manter em sombra; usar vaso grande; regar antes de as raízes secarem; compactar o substrato; deixar água acumulada na base das folhas; exagerar no adubo.",
-    dica: "Folhas carnosas indicam que a planta prefere ciclos claros de molhar e secar. Quanto mais quente e úmido o ambiente, mais importante se torna a ventilação.",
-    adaptacaoRegional: {
-        litoralQuente: "Adapta-se muito bem ao litoral quente quando montada ou cultivada em recipiente pequeno e vazado. Proteja do sol forte da tarde e evite umidade contínua durante a noite.",
-        montanhaFrio: "Em clima de montanha, reduza as regas nos meses frios e mantenha a planta protegida de temperaturas muito baixas."
+    "floracao": "Mais frequente da primavera ao verão, aproximadamente de setembro a fevereiro. As hastes surgem da base de crescimentos maduros e carregam flores em tons ocres, amarelados e castanhos. Boa luz durante a maturação é determinante para a emissão floral.",
+    "adubacao": "🌿 Orgânica: bokashi somente em dose mínima e apenas para plantas envasadas, longe das raízes.\n💧 Mineral/Foliar: NPK equilibrado em 1/3 a 1/2 da dose a cada 15 dias durante crescimento ativo.\n🧪 Liberação lenta: Osmocote em pequena quantidade somente em cachepôs ou vasos.\n🚿 Lavagem: lave raízes e suporte periodicamente para impedir concentração de sais.",
+    "rega": "Molhe abundantemente e espere raízes e suporte secarem quase por completo antes de repetir. Em plantas montadas, pode haver rega diária no verão se a secagem ocorrer em poucas horas. No inverno, reduza significativamente a frequência. Nunca deixe água acumulada na base foliar, sobretudo à noite.",
+    "suporte": "🥇 Placa de madeira, cortiça ou tronquinho — reproduz melhor a secagem rápida do habitat.\n🥈 Cachepô pequeno e muito vazado — mantém raízes expostas ao ar.\n🥉 Vaso pequeno de barro com muitos furos — alternativa para ambientes mais secos.\nUse pouca ou nenhuma retenção ao redor das raízes.",
+    "substrato": "🥇 Cultivo montado, sem substrato ou com quantidade mínima de esfagno apenas para fixação.\n🥈 Casca de pinus grossa + carvão vegetal + pedra-pomes.\n🥉 Cacos de telha + carvão + pequena fração de casca.\nEvite qualquer mistura fina, compacta ou de secagem lenta.",
+    "errosComuns": "Sombra excessiva; vaso grande; regar novamente antes da secagem; substrato compacto; água acumulada na base das folhas; pouca ventilação; adubo forte; manter molhado no inverno; excesso de esfagno; replantar fora da emissão de raízes.",
+    "dica": "Use a própria suculência das folhas como guia: a planta foi construída para armazenar água, não para permanecer molhada. Molhe completamente, ventile e deixe o sistema radicular secar quase por inteiro antes da próxima rega. Montagem em madeira ou recipiente extremamente vazado torna esse ciclo muito mais seguro.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Em Serra/ES, adapta-se muito bem, especialmente montada. Ofereça luz forte filtrada, ventilação permanente e evite regas tardias ou retenção noturna.",
+        "montanhaFrio": "No inverno, aumente bastante o intervalo de regas e proteja de frio intenso e ventos gelados."
     },
-    mesesFloracao: [9,10,11,12,1,2],
-    avaliacoes: { cultivo: 3, floracao: 3, perfume: 2, luminosidade: 4, agua: 2, raridade: 4 }
+    "mesesFloracao": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+    ],
+    "avaliacoes": {
+        "cultivo": 3,
+        "floracao": 3,
+        "perfume": 2,
+        "luminosidade": 4,
+        "agua": 2,
+        "raridade": 4
+    }
 };
