@@ -4,30 +4,30 @@ export const aciantheraBragae = {
     genero: "Acianthera",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
-    origem: "Brasil — espécie nativa e restrita às regiões Sudeste e Sul.",
-    regiao: "Mata Atlântica úmida do Sudeste e Sul do Brasil.",
-    habitat: "Epífita ou litófita do bioma tropical úmido. O crescimento tende a ser reptante, ocupando superfícies de troncos, musgos e rochas; por isso necessita espaço horizontal, umidade ambiental e excelente ventilação.",
-    descricao: "Micro-orquídea brasileira de Pleurothallidinae, compacta e de crescimento rastejante, com ramicaules curtos e folhas carnosas. O POWO aceita Acianthera bragae e registra Acianthera sarracenia/Pleurothallis sarracenia entre seus sinônimos. O sistema radicular fino não tolera nem seca prolongada nem estagnação de água.",
-    caracteristicas: ["Micro-orquídea", "Endêmica do Sul/Sudeste", "Crescimento reptante", "Epífita ou rupícola", "Alta umidade", "Pleurothallidinae"],
+    origem: "Brasil — regiões Sudeste e Sul.",
+    regiao: "Mata Atlântica do Sudeste e Sul do Brasil.",
+    habitat: "Espécie epífita ou litófita de ambiente tropical úmido, geralmente sombreado e bem ventilado. O nome aceito é Acianthera bragae (Ruschi) F.Barros; Physosiphon bragae é o basiônimo e Acianthera sarracenia/Pleurothallis sarracenia aparecem na sinonímia histórica.",
+    descricao: "Pequena orquídea brasileira da Pleurothallidinae, de hábito compacto a reptante, ramicaules curtos e folhas carnosas. As flores podem atingir aproximadamente 1,5 a 2 cm, relativamente grandes em proporção ao vegetal. O cultivo exige umidade contínua sem água estagnada na base.",
+    caracteristicas: ["Endêmica do Brasil", "Sudeste e Sul", "Epífita ou litófita", "Flores ~1,5–2 cm", "Pleurothallidinae", "Umidade ventilada"],
     fotos: [
         "imagens/Acianthera bragae/Acianthera bragae1.jpg",
         "imagens/Acianthera bragae/Acianthera bragae2.jpg",
         "imagens/Acianthera bragae/Acianthera bragae3.jpg",
         "imagens/Acianthera bragae/Acianthera bragae4.jpg"
-    ],
+],
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
-    clima: "Intermediário, úmido e ventilado. Noites amenas e umidade estável favorecem crescimento e floração. Evite calor noturno persistente e ar parado.",
-    iluminacao: "Sombra clara, aproximadamente 70% de sombreamento. Luz indireta uniforme é preferível. Pigmentação muito escura, amarelamento ou aquecimento das folhas indicam excesso de luz.",
-    floracao: "Pode concentrar a floração da primavera ao verão. As flores pequenas surgem junto aos ramicaules e devem ser observadas de perto; a estabilidade do microclima é mais importante que qualquer repouso seco.",
-    adubacao: "NPK equilibrado em aproximadamente 1/4 da dose comercial a cada 15 dias no crescimento. Bokashi somente em dose mínima e isolado em porta-adubo. Osmocote, se usado, deve ser extremamente reduzido. Lave o suporte periodicamente com água pura.",
-    rega: "Regue com frequência suficiente para evitar desidratação completa, mas permita secagem superficial e rápida após cada irrigação. Direcione a água às raízes e mantenha a base dos ramicaules livre de umidade estagnada.",
-    suportes: ["Placa de cortiça ou madeira larga, favorecendo o avanço horizontal.", "Cachepô pequeno e raso, bem ripado.", "Vaso baixo e muito perfurado, com espaço lateral para novas frentes."],
-    substratos: ["Fina camada de esfagno sob as raízes em cultivo montado.", "Casca de pinus fina + carvão fino + pequena fração de esfagno.", "Esfagno solto + pedra-pomes fina, sem compactação."],
-    errosComuns: ["Usar recipiente profundo que limite o crescimento rastejante.", "Manter água parada na base dos ramicaules.", "Deixar a planta secar por vários dias.", "Compactar esfagno.", "Cultivar sem ventilação.", "Usar adubação concentrada."],
+    clima: "Intermediário, úmido e ventilado. Noites amenas favorecem estabilidade vegetativa, mas a espécie não deve ser submetida a frio excessivo. No litoral quente, priorize o setor mais sombreado e arejado.",
+    iluminacao: "Sombra clara, com cerca de 70% de sombreamento como referência de cultivo. Evite sol direto forte. Folhas firmes, sem amarelecimento rápido ou aquecimento, indicam melhor equilíbrio.",
+    floracao: "Pode florescer principalmente da primavera ao verão, variando conforme procedência e microclima. Evite transformar uma janela mensal em regra absoluta.",
+    adubacao: "NPK equilibrado em cerca de 1/4 da dose comercial a cada 15 dias no crescimento. Bokashi apenas em quantidade mínima e isolado em porta-adubo. Osmocote, se utilizado, deve ser extremamente reduzido. Faça lixiviação periódica com água pura.",
+    rega: "Regue com frequência suficiente para impedir desidratação prolongada, permitindo leve secagem superficial entre as irrigações. Direcione a água ao sistema radicular e mantenha a base dos ramicaules livre de umidade estagnada.",
+    suportes: ["Placa de madeira ou cortiça larga, permitindo expansão lateral.", "Cachepô pequeno, raso e bem ripado.", "Vaso baixo e muito perfurado."],
+    substratos: ["Fina camada de esfagno sob as raízes em cultivo montado.", "Casca de pinus fina + carvão fino + pequena fração de esfagno.", "Esfagno solto + pedra-pomes fina, sempre sem compactação."],
+    errosComuns: ["Manter água parada na base dos ramicaules.", "Deixar a planta secar por vários dias.", "Usar recipiente profundo e pouco ventilado.", "Compactar esfagno.", "Cultivar sem circulação de ar.", "Aplicar adubo concentrado.", "Expor ao sol direto forte."],
     adaptacaoRegional: {
-        litoral: "Mantenha-a na área mais sombreada, fresca e ventilada. Montagem em placa larga funciona bem se houver umidade suficiente; regue cedo e evite aquecimento das raízes.",
-        montanha: "Clima favorável, especialmente com noites frescas. Em sequências frias e úmidas, diminua as regas e aumente a circulação de ar."
+        litoral: "Adaptação moderada a boa quando cultivada na área mais sombreada e ventilada. Prefira montagem ou recipiente pequeno e raso e faça regas pela manhã.",
+        montanha: "Condições muito favoráveis. Durante períodos frios e úmidos, aumente o intervalo entre regas sem permitir desidratação completa."
     },
-    dicaOuro: "Respeite o hábito reptante: dê superfície livre para a planta avançar e mantenha apenas as raízes hidratadas. Base dos ramicaules livre, umidade no ar e movimento constante de ar formam a combinação mais segura."
+    dicaOuro: "Umidade nas raízes, ar na base e espaço para expansão. Use suporte largo e arejado, deixando o crescimento avançar sem restrição; o esfagno deve ficar apenas sob as raízes, nunca envolvendo rizoma ou ramicaules."
 };

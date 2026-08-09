@@ -4,30 +4,30 @@ export const aciantheraAveniformis = {
     genero: "Acianthera",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
-    origem: "Brasil — Mata Atlântica do Sudeste e Sul.",
-    regiao: "Florestas úmidas da Mata Atlântica, em microambientes sombreados, frescos e bem ventilados.",
-    habitat: "Micro-orquídea epífita de troncos e ramos musgosos. Na taxonomia atual do POWO, o táxon é tratado como Pabstiella aveniformis; o nome Acianthera aveniformis é mantido nesta ficha para preservar a identificação histórica e o ID usado pelo Orquidário Digital.",
-    descricao: "Micro-orquídea brasileira da Pleurothallidinae, de crescimento compacto, ramicaules curtos e folhas estreitas e carnosas. Produz pequenas flores discretas e exige raízes continuamente hidratadas, porém muito bem oxigenadas. É especialmente sensível a calor abafado, substrato compactado e acúmulo de sais.",
-    caracteristicas: ["Micro-orquídea", "Mata Atlântica", "Pleurothallidinae", "Raízes finas", "Alta umidade", "Cultivo fresco e ventilado"],
+    origem: "Brasil — Sul do país, associada à Mata Atlântica.",
+    regiao: "Mata Atlântica do Sul do Brasil, em florestas tropicais úmidas.",
+    habitat: "Micro-orquídea epífita de hábito reptante, encontrada sobre troncos e ramos em ambiente úmido e sombreado. O nome atualmente aceito em bases taxonômicas modernas é Pabstiella aveniformis (Hoehne) Luer; Acianthera aveniformis é mantido no Orquidário Digital para preservar a identificação histórica e o ID do catálogo.",
+    descricao: "Micro-orquídea brasileira da Pleurothallidinae, historicamente conhecida como Pleurothallis aveniformis. Possui crescimento reptante, ramicaules muito curtos, folhas pequenas e flores extremamente diminutas, em torno de 3 mm. Em cultivo exige umidade constante sem abafamento radicular, com excelente circulação de ar.",
+    caracteristicas: ["Micro-orquídea", "Crescimento reptante", "Mata Atlântica", "Flores ~3 mm", "Alta umidade", "Pleurothallidinae"],
     fotos: [
         "imagens/Acianthera aveniformis/Acianthera aveniformis1.jpeg",
         "imagens/Acianthera aveniformis/Acianthera aveniformis2.jpg",
         "imagens/Acianthera aveniformis/Acianthera aveniformis3.jpg",
         "imagens/Acianthera aveniformis/Acianthera aveniformis4.jpg"
-    ],
+],
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
-    mesesFloracao: [6, 7, 8, 9],
-    clima: "Intermediário a fresco, úmido e com circulação de ar constante. No litoral quente, o desafio principal é evitar noites muito quentes e abafadas; posicione-a no ponto mais fresco e ventilado do orquidário.",
-    iluminacao: "Sombra clara, em torno de 70% de sombreamento. Evite sol direto. Folhas firmes em verde-oliva são um bom sinal; amarelecimento e aquecimento foliar indicam excesso de radiação.",
-    floracao: "Tende a florescer no período mais fresco, principalmente no inverno, podendo avançar ao início da primavera. A regularidade depende mais da estabilidade térmica e hídrica do que de um repouso seco.",
-    adubacao: "Foliar/mineral: NPK equilibrado, como 20-20-20, a cerca de 1/4 da dose comercial a cada 15 dias durante crescimento ativo. Orgânica: bokashi apenas em quantidade mínima e sem contato com a base. Liberação lenta: usar com extrema parcimônia. Faça lixiviação periódica com água pura para evitar sais.",
-    rega: "Regas frequentes e rápidas, preferencialmente pela manhã. O sistema radicular não deve permanecer seco por vários dias, mas também não deve ficar saturado. Em montagem, a frequência pode ser diária no calor; em vaso, ajuste pela velocidade real de secagem.",
-    suportes: ["Placa de madeira, cortiça ou casca com fina camada de esfagno sob as raízes.", "Cachepô pequeno e ripado.", "Vaso pequeno, raso e muito perfurado."],
-    substratos: ["Casca de pinus fina + pedra-pomes fina + pequena fração de esfagno.", "Esfagno de boa qualidade usado bem solto, sem cobrir a base dos ramicaules.", "Cultivo montado com mínima reserva de musgo sob as raízes."],
-    errosComuns: ["Cobrir a base dos ramicaules com esfagno.", "Deixar as raízes secarem por vários dias.", "Manter o substrato permanentemente encharcado.", "Cultivar em ambiente quente e abafado.", "Aplicar fertilizante concentrado.", "Expor ao sol direto."],
+    mesesFloracao: [6, 7, 8],
+    clima: "Quente a intermediário, úmido e ventilado. Embora tolere temperaturas amenas, não deve ser tratada como espécie estritamente de clima frio. No litoral quente, o principal risco é a combinação de calor, ar parado e raízes permanentemente saturadas.",
+    iluminacao: "Luz difusa de baixa a moderada intensidade. Como referência prática, cerca de 70% de sombreamento funciona bem em clima quente. Evite sol direto forte; folhas firmes e sem aquecimento excessivo indicam melhor equilíbrio.",
+    floracao: "Predominantemente no inverno. Em cultivo brasileiro, junho a agosto é uma boa janela de referência, com variação conforme microclima e vigor da planta.",
+    adubacao: "Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose comercial a cada 15 dias durante crescimento ativo. Orgânica: bokashi somente em quantidade mínima e isolado em porta-adubo. Liberação lenta: usar com extrema parcimônia. Faça regas periódicas apenas com água pura para reduzir o acúmulo de sais.",
+    rega: "Mantenha as raízes hidratadas sem deixá-las saturadas. Regue antes de ocorrer desidratação prolongada e permita renovação de ar após cada irrigação. Em montagem, a frequência pode aumentar bastante no calor; em vaso, ajuste pela velocidade real de secagem.",
+    suportes: ["Placa pequena de madeira, cortiça ou casca rugosa.", "Cachepô pequeno e bem ripado.", "Vaso pequeno, raso e muito perfurado."],
+    substratos: ["Cultivo montado com fina reserva de esfagno sob as raízes.", "Casca de pinus fina + pedra-pomes fina + pequena fração de esfagno.", "Esfagno de boa qualidade usado bem solto, sem cobrir a base dos ramicaules."],
+    errosComuns: ["Tratar a espécie como obrigatoriamente de clima frio.", "Cobrir a base dos ramicaules com esfagno.", "Deixar as raízes secarem por vários dias.", "Manter o substrato permanentemente encharcado.", "Cultivar em ambiente abafado.", "Aplicar fertilizante concentrado.", "Expor ao sol direto forte."],
     adaptacaoRegional: {
-        litoral: "Cultive sob cerca de 70% de sombra, no setor mais fresco e ventilado. Prefira montagem ou recipiente pequeno e arejado; regue cedo para que a superfície seque antes da noite.",
-        montanha: "Ambiente muito favorável quando há umidade e proteção contra vento frio excessivamente seco. No inverno chuvoso, aumente a aeração e reduza a frequência sem permitir desidratação prolongada."
+        litoral: "Adaptação possível e potencialmente boa em sombra clara, alta umidade atmosférica e ventilação constante. O maior cuidado é evitar calor somado a ar parado e raízes saturadas.",
+        montanha: "Adapta-se bem às noites frescas. Em períodos frios e úmidos, aumente a aeração e reduza a frequência de rega sem impor seca prolongada."
     },
-    dicaOuro: "Use a folha e as raízes como sensores: folhas firmes e verde-oliva, raízes hidratadas e base seca após a rega indicam equilíbrio. Para esta micro-orquídea, alta umidade do ar deve vir sempre acompanhada de forte aeração — nunca de substrato compacto."
+    dicaOuro: "Microclima estável é mais importante que regras rígidas: mantenha alta umidade do ar, uma pequena reserva de água junto às raízes e circulação constante. O objetivo é evitar tanto a desidratação prolongada quanto o abafamento radicular."
 };
