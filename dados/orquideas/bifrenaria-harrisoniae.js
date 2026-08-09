@@ -4,6 +4,7 @@ export const bifrenariaHarrisoniae = {
     id: "bifrenaria-harrisoniae",
     nome: "Bifrenaria harrisoniae",
     genero: "Bifrenaria",
+    sinonimo: "Dendrobium harrisoniae",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: [
@@ -18,11 +19,11 @@ export const bifrenariaHarrisoniae = {
         "imagens/Bifrenaria harrisoniae/Bifrenaria harrisoniae3.jpg",
         "imagens/Bifrenaria harrisoniae/Bifrenaria harrisoniae4.jpg",
     ],
-    descricao: "Bifrenaria harrisoniae (Hook.) Rchb.f. é uma espécie botânica brasileira de porte médio a grande, nativa principalmente das regiões Sudeste e Sul. Forma pseudobulbos robustos e agrupados, sustentando folhas firmes e coriáceas. As inflorescências são basais, curtas e normalmente carregam poucas flores grandes, carnosas e cerosas, em geral claras, com labelo contrastante rosa a arroxeado. As flores podem atingir aproximadamente 7 a 8 cm e apresentar perfume agradável, por vezes com notas frutadas.",
-    origem: "Endêmica do Brasil.",
-    regiao: "Regiões Sudeste e Sul, associada à Mata Atlântica, serras costeiras e ambientes rochosos.",
-    habitat: "Epífita ou rupícola de florestas úmidas, encostas rochosas e paredões claros e ventilados. Ocorre em ampla variação altitudinal, com registros típicos em cotas médias e também populações rupícolas mais elevadas.",
-    clima: "Quente a intermediário durante o crescimento, com boa ventilação e noites mais frescas favorecendo a maturação e a floração.",
+    descricao: "Bifrenaria harrisoniae (Hook.) Rchb.f. é uma espécie aceita e endêmica do Brasil, distribuída pelo Sudeste e Sul, onde cresce como epífita ou litófita no bioma tropical úmido. Pertence ao grupo das Bifrenaria robustas e forma touceiras cespitosas com pseudobulbos amplamente ovoides a piriformes, angulosos e profundamente sulcados, cada um portando uma folha apical plicada, elíptico-oblonga. As inflorescências são basais, curtas e surgem do pseudobulbo mais recente; frequentemente aparecem duas hastes por pseudobulbo e cada uma pode portar até duas flores. As flores são grandes, carnosas e cerosas, em torno de 7,5 cm, usualmente claras com labelo rosado a púrpura e perfume frutado. É espécie muito variável entre populações. Distingue-se de B. tyrianthina sobretudo pela combinação do calcar do labelo, proporcionalmente mais curto, e do estipe mais largo; comprimento da haste e coloração isoladamente não são bons caracteres diagnósticos.",
+    origem: "Brasil.",
+    regiao: "Sudeste e Sul do Brasil · Mata Atlântica.",
+    habitat: "Mata úmida e rochedos claros · epífita/litófita · 200–700 m*.",
+    clima: "Quente a intermediário · claro e ventilado.",
     climaFloracao: "A floração depende de pseudobulbos completamente maduros, alta luminosidade filtrada, raízes bem ventiladas e leve redução da frequência de rega após o crescimento. Não necessita de repouso seco rigoroso; a planta deve permanecer hidratada sem substrato constantemente molhado.",
     iluminacao: {
         sombrite: "40% a 50%",
@@ -30,7 +31,7 @@ export const bifrenariaHarrisoniae = {
         horario: "Primeiras horas da manhã",
         observacoes: "Necessita luminosidade alta. Folhas muito escuras e pseudobulbos alongados sugerem excesso de sombra; uma leve pigmentação avermelhada pode ser normal, enquanto manchas secas e amareladas indicam queimadura."
     },
-    floracao: "Floresce principalmente do final da primavera ao verão, com referência prática entre novembro e fevereiro.",
+    floracao: "Floresce principalmente no início do verão, após a maturação do crescimento. As inflorescências basais são curtas, frequentemente duas por pseudobulbo recente, e podem portar até duas flores grandes, carnosas e perfumadas, com cerca de 7,5 cm. IOSPE cita populações costeiras entre 200–700 m, mas há registros rupícolas em cotas mais altas, como cerca de 1.150 m; por isso a altitude varia entre populações e não deve ser usada sozinha para definir a exigência térmica da espécie.",
     adubacao: "🌿 Orgânica: bokashi em pequena dose durante o crescimento ativo, protegido em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração enquanto houver brotação e raízes em atividade.\n🧪 Liberação lenta: Osmocote em dose reduzida no início da fase vegetativa. Após a maturação dos pseudobulbos, reduza significativamente a frequência e a concentração da adubação; retome o ritmo normal quando novas raízes e brotos surgirem.",
     rega: "Regue abundantemente durante a brotação e desenvolvimento dos pseudobulbos, permitindo secagem parcial do substrato entre irrigações. Após a maturação, aumente gradualmente o intervalo entre as regas, sem manter a planta completamente seca por longos períodos nem permitir enrugamento severo.",
     suporte: "🥇 Vaso de barro pesado e proporcional à massa radicular.\n🥈 Cachepô de madeira firme e muito ventilado.\n🥉 Cesto raso ou recipiente bem aberto com drenagem imediata.",
@@ -41,7 +42,7 @@ export const bifrenariaHarrisoniae = {
         litoralQuente: "Cultive em vaso de barro ou cachepô aberto, com forte circulação de ar, 40% a 50% de sombra e regas matinais. Em Serra/ES, evite calor abafado e mantenha o substrato de secagem rápida sem impor seca prolongada.",
         montanhaFrio: "A queda natural da temperatura noturna favorece a floração. Proteja de geadas e evite que o substrato permaneça frio e encharcado por vários dias."
     },
-    mesesFloracao: [11, 12, 1, 2],
+    mesesFloracao: [11, 12, 1],
     avaliacoes: {
         cultivo: 3,
         floracao: 4,

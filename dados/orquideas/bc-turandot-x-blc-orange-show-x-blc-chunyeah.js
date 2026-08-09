@@ -1,4 +1,4 @@
-// Ficha refinada — LOTE 03 — PADRÃO EDITORIAL V3.
+// Ficha científica e de cultivo refinada — revisão final.
 
 export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     id: "bc-turandot-x-blc-orange-show-x-blc-chunyeah",
@@ -18,11 +18,11 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
         "imagens/BC Turandot x (BLC Orange Show x BLC Chunyeah)/BC Turandot x (BLC Orange Show x BLC Chunyeah)3.webp",
         "imagens/BC Turandot x (BLC Orange Show x BLC Chunyeah)/BC Turandot x (BLC Orange Show x BLC Chunyeah)4.jpg"
     ],
-    descricao: "Híbrido intergenérico complexo da aliança Cattleya, reunindo heranças genéticas dos gêneros Brassavola, Cattleya e Rhyncholaelia. Devido à sua rica bagagem híbrida, pode apresentar marcante variação em tom, tamanho, perfume, formato floral e época de floração entre exemplares irmãos. Desenvolve pseudobulbos robustos e produz floradas exuberantes e vistosas quando mantido sob iluminação abundante.",
-    origem: "Horticultural",
-    regiao: "Produzido em cultivo; não ocorre espontaneamente na natureza",
-    habitat: "Não possui habitat natural. Suas exigências refletem a combinação genética de espécies epífitas da aliança Cattleya.",
-    clima: "Quente a intermediário, com boa ventilação",
+    descricao: "Híbrido horticultural complexo da aliança Cattleya, comercializado como Brassocattleya Turandot × (Rhyncholaeliocattleya Orange Show × Rlc. Chunyeah). Por não corresponder a uma espécie botânica, não possui distribuição ou habitat naturais e a descendência pode variar consideravelmente entre irmãos de semente. A genealogia confirma forte participação de Cattleya e Rhyncholaelia em sua formação. O parental Turandot foi registrado em 1968 por R. Altenburg como C. Bob Betts × Rlc. Pastoral e hoje aparece em registros modernos sob Rhyncholaeliocattleya Turandot; Rlc. Chunyeah foi registrado em 1991 por Lai Teng-Hsiung como Rlc. Tassie Barbero × Rlc. Kuan-Miao Chen. Essa herança de híbridos Cattleya de flor grande ajuda a explicar pseudobulbos robustos, flores vistosas, potencial para perfume e boa resposta a luz intensa filtrada. Como o cruzamento final não apresenta um único padrão fenotípico obrigatório, cor, tamanho, forma, perfume e estação de floração devem ser tratados como características variáveis de cada indivíduo, não como regras fixas.",
+    origem: "Híbrido horticultural.",
+    regiao: "Cultivo humano · sem distribuição natural.",
+    habitat: "Sem habitat natural · aliança Cattleya epífita.",
+    clima: "Quente a intermediário · bem ventilado.",
     climaFloracao: "No litoral quente e úmido, o calor favorece a formação dos novos pseudobulbos. Para florescer com regularidade, precisa receber luminosidade filtrada forte, amadurecer completamente cada crescimento e apresentar raízes ativas. Uma discreta queda da temperatura noturna e leve redução da adubação nitrogenada na maturação podem favorecer a emissão da bainha e dos botões.",
     iluminacao: {
         sombrite: "50%",
@@ -30,7 +30,7 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
         horario: "Até 09:00, com adaptação gradual",
         observacoes: "Cultive sob claridade intensa, com sombrite de 50% ou luz filtrada equivalente. Folhas verde-claras e eretas indicam níveis ideais de luz. Pseudobulbos muito estiolados, compridos e finos, e folhas verde-escuras revelam falta de iluminação, enquanto amarelamento acentuado e manchas secas indicam queimadura por sol direto sem adaptação."
     },
-    floracao: "Pode florescer em diferentes épocas após a maturação dos pseudobulbos, com maior frequência do outono à primavera.",
+    floracao: "A época de floração não é rigidamente fixa porque se trata de um cruzamento complexo e indivíduos irmãos podem responder de forma diferente. Em geral, a haste surge após a maturação completa do pseudobulbo; no cultivo, luz forte filtrada, raízes ativas e amadurecimento uniforme do crescimento são indicadores mais úteis que um calendário rígido. Registros de Rlc. Chunyeah mostram floração também no outono, reforçando a amplitude fenológica possível do cruzamento.",
     adubacao: "💧 Foliar: durante o crescimento ativo, aplique NPK equilibrado, como 20-20-20, quinzenalmente. Após a maturação do pseudobulbo, reduza o nitrogênio e priorize fórmulas com maior teor de fósforo e potássio, como 09-45-15 ou 10-30-20, para favorecer a formação da bainha e dos botões florais.\n🌿 Orgânica: Bokashi em saquinho, sempre afastado dos brotos.\n🧪 Liberação lenta: pouca quantidade de Osmocote em vasos ou cachepôs.",
     rega: "Regue abundantemente nas primeiras horas da manhã, permitindo que o substrato seque quase completamente antes da próxima irrigação. Intensifique a frequência durante o surgimento de novos brotos e raízes; reduza após a maturação dos pseudobulbos, nos dias frios ou durante períodos chuvosos. Atenção: evite acúmulo de água no miolo dos brotos e nas bainhas ao final da tarde ou à noite para prevenir podridões e abortamento de botões.",
     suporte: "Vaso de barro, vaso plástico com furos laterais ou cachepô de madeira, sempre em tamanho justo para o sistema radicular.",

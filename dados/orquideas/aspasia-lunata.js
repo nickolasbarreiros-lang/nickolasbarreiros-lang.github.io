@@ -4,6 +4,7 @@ export const aspasiaLunata = {
     id: "aspasia-lunata",
     nome: "Aspasia lunata",
     genero: "Aspasia",
+    sinonimo: "Odontoglossum lunatum",
     tipo: "Espécie botânica",
     dificuldade: "Fácil a moderada",
     caracteristicas: [
@@ -18,11 +19,11 @@ export const aspasiaLunata = {
         "imagens/Aspasia lunata/Aspasia lunata3.webp",
         "imagens/Aspasia lunata/Aspasia lunata4.webp",
     ],
-    descricao: "Aspasia lunata Lindl. é uma espécie epífita pseudobulbosa da subtribo Oncidiinae, de porte pequeno a médio e crescimento simpodial. Sua distribuição natural confirmada abrange o nordeste da Bolívia e o Brasil, especialmente as regiões Sul, Sudeste e Centro-Oeste. Forma pseudobulbos fortemente comprimidos lateralmente, geralmente com uma ou duas folhas terminais, lineares a lanceoladas. As flores surgem em inflorescências basais e chamam atenção pelo contraste entre sépalas e pétalas esverdeadas a amareladas, marcadas de castanho, e o labelo amplo em tons violáceos a arroxeados.",
-    origem: "Nativa do nordeste da Bolívia e do Brasil.",
-    regiao: "Brasil Sul, Sudeste e Centro-Oeste, além do nordeste da Bolívia.",
-    habitat: "Epífita de florestas tropicais úmidas, crescendo sobre troncos e galhos em ambientes com boa umidade atmosférica, luz filtrada e circulação de ar. Pode ocorrer em áreas mais abertas dentro da mata, mas não exige sol direto forte.",
-    clima: "Quente a fresco, úmido e ventilado.",
+    descricao: "Aspasia lunata Lindl. é uma espécie aceita de Orchidaceae, subtribo Oncidiinae, nativa do nordeste da Bolívia e das regiões Centro-Oeste, Sudeste e Sul do Brasil. É uma epífita pseudobulbosa de crescimento simpodial associada principalmente a florestas tropicais úmidas. Forma pseudobulbos lateralmente comprimidos, próximos entre si, revestidos na base por bainhas foliares e portando folhas apicais estreitas, firmes e lanceoladas. As inflorescências nascem da base dos pseudobulbos maduros, são curtas e eretas e normalmente carregam poucas flores. Sépalas e pétalas tendem ao verde-amarelado com manchas ou faixas castanhas, contrastando com o labelo amplo, branco a violáceo, frequentemente marcado por tons púrpura. A morfologia floral e o hábito compacto ajudam a distingui-la de outras Oncidiinae cultivadas. O nome específico lunata deriva do latim e alude à aparência em forma de meia-lua de estruturas florais descritas historicamente para a espécie.",
+    origem: "Bolívia e Brasil.",
+    regiao: "Bolívia; Centro-Oeste, Sudeste e Sul do Brasil.",
+    habitat: "Florestas tropicais úmidas; epífita sob luz filtrada.",
+    clima: "Quente a fresco · úmido e ventilado.",
     climaFloracao: "A floração é favorecida por pseudobulbos maduros, boa luminosidade filtrada, ventilação constante e crescimento vegetativo vigoroso. Não necessita de repouso seco rigoroso; após a maturação dos pseudobulbos, apenas aumente moderadamente o intervalo entre as regas conforme a evaporação diminuir.",
     iluminacao: {
         sombrite: "60% a 70%",
@@ -30,7 +31,7 @@ export const aspasiaLunata = {
         horario: "Primeiras horas da manhã",
         observacoes: "Prefere luz filtrada de média intensidade. Folhas muito verde-escuras acompanhadas de baixa floração indicam sombra excessiva; amarelamento ou manchas secas sinalizam radiação forte demais. Em clima litorâneo quente, 60% a 70% de sombreamento costuma oferecer bom equilíbrio."
     },
-    floracao: "Floresce principalmente na primavera e início do verão, com referência prática entre setembro e dezembro.",
+    floracao: "A floração é registrada principalmente na primavera, podendo avançar para o início do verão conforme procedência e condições de cultivo. As inflorescências basais são curtas, eretas e normalmente carregam 1 a 3 flores relativamente grandes para o porte da planta. Após a maturação dos pseudobulbos e a floração, pode ocorrer desaceleração vegetativa; no cultivo isso deve significar apenas regas um pouco mais espaçadas, nunca repouso seco absoluto.",
     adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante o crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada e sempre afastado de raízes novas. Após a maturação dos pseudobulbos, reduza a frequência da adubação conforme o crescimento desacelerar.",
     rega: "Durante a formação de novos brotos e raízes, regue regularmente e permita secagem parcial do substrato entre as irrigações. Após a maturação dos pseudobulbos, aumente ligeiramente o intervalo entre regas, sobretudo em períodos mais frios, sem permitir enrugamento severo.",
     suporte: "🥇 Vaso de barro ou plástico proporcional à touceira, com excelente drenagem.\n🥈 Cachepô de madeira bem ventilado.\n🥉 Cesto plástico raso e perfurado.",
@@ -41,7 +42,7 @@ export const aspasiaLunata = {
         litoralQuente: "Adapta-se bem quando recebe ventilação forte, luz filtrada e substrato de secagem rápida. Em Serra/ES, evite calor abafado, sol forte da tarde e excesso de água durante períodos nublados.",
         montanhaFrio: "Tolera noites frescas e pode florescer muito bem. Reduza a frequência das regas nos períodos frios, mas proteja de geadas e de substrato saturado por muitos dias."
     },
-    mesesFloracao: [9, 10, 11, 12],
+    mesesFloracao: [9, 10, 11],
     avaliacoes: {
         cultivo: 4,
         floracao: 4,

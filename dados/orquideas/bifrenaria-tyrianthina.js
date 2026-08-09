@@ -22,11 +22,11 @@ export const bifrenariaTyrianthina = {
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii3.jpg",
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii4.jpg"
     ],
-    descricao: "Bifrenaria tyrianthina (Lodd. ex Loudon) Rchb.f. é uma espécie botânica brasileira atualmente aceita para o material anteriormente descrito e cultivado como Bifrenaria verboonenii G.A.Romero & V.P.Castro. A sinonimização amplia o conceito da planta para populações de Bahia, Espírito Santo e Minas Gerais, geralmente em ambientes montanos entre aproximadamente 1.000 e 2.000 m. Pode crescer como epífita ou litófita. Forma pseudobulbos robustos, angulosos e sulcados, cada um com folha apical plicada. As inflorescências são basais, curtas e rígidas, normalmente com 1 a 4 flores grandes, carnosas, cerosas, fortemente perfumadas e de longa duração. No litoral quente, o maior desafio não é a falta de substrato mineral, mas manter raízes e planta frescas, ventiladas e sem calor noturno excessivo.",
+    descricao: "Bifrenaria tyrianthina (Lodd. ex Loudon) Rchb.f. é uma espécie brasileira aceita, encontrada em Bahia, Espírito Santo e Minas Gerais. O nome Bifrenaria verboonenii G.A.Romero & V.P.Castro, usado em parte do material horticultural, é atualmente tratado como sinônimo e por isso permanece como o único sinônimo exibido nesta ficha. A espécie cresce como epífita ou litófita em ambientes montanos, aproximadamente entre 1.000 e 2.000 m, sujeitos a inverno mais seco. Forma pseudobulbos amplamente ovoides a piriformes, angulosos e profundamente sulcados, com uma folha apical plicada. A inflorescência basal, ereta e rígida, mede cerca de 7,5 cm e porta normalmente 1–4 flores carnosas, cerosas, perfumadas e duráveis, que podem alcançar aproximadamente 8,75 cm. É semelhante a B. harrisoniae, mas o calcar na base do labelo é proporcionalmente mais longo — aproximadamente duas vezes o comprimento da coluna — e o estipe é mais estreito. A ecologia de altitude explica por que noites quentes persistentes são o principal obstáculo no cultivo litorâneo.",
     origem: "Brasil.",
     regiao: "Bahia, Espírito Santo e Minas Gerais.",
-    habitat: "Epífita ou litófita de ambientes montanos claros e ventilados, aproximadamente entre 1.000 e 2.000 m.",
-    clima: "Fresco, luminoso, ventilado e com inverno mais seco.",
+    habitat: "Ambientes montanos · epífita/litófita · 1.000–2.000 m.",
+    clima: "Fresco · luminoso · inverno mais seco.",
     climaFloracao: "A indução floral é favorecida pela maturação completa do pseudobulbo, boa luminosidade, noites mais frescas e redução sazonal das regas. Não é necessário impor seca absoluta. Em Serra/ES, temperatura noturna elevada e raízes aquecidas são os principais fatores limitantes.",
     iluminacao: {
         sombrite: "40% a 50%",
@@ -34,7 +34,7 @@ export const bifrenariaTyrianthina = {
         horario: "Primeiras horas da manhã",
         observacoes: "Prefere alta claridade filtrada. No litoral, 40% a 50% de sombra reduz superaquecimento sem escurecer demais a planta. Folhas muito escuras indicam luz insuficiente."
     },
-    floracao: "Principalmente da primavera ao início do verão, com referência prática entre setembro e dezembro.",
+    floracao: "Floresce da primavera ao início do verão. A inflorescência basal, ereta e rígida mede cerca de 7,5 cm e produz normalmente 1 a 4 flores carnosas, perfumadas e duráveis, que podem chegar a aproximadamente 8,75 cm. A combinação de 1.000–2.000 m de altitude e estação seca de inverno explica a preferência por noites frescas e uma redução sazonal de água, sem necessidade de seca absoluta.",
     adubacao: "🌿 Orgânica: Bokashi opcional em pequena dose durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em aproximadamente 1/4 da dose a cada 10 a 15 dias enquanto houver crescimento e raízes ativas.\n🧪 Liberação lenta: Osmocote em baixa dose pode ser usado em vaso drenante. Após a maturação do pseudobulbo, reduza gradualmente a frequência; não é necessário suspender 100% de forma abrupta.",
     rega: "Durante crescimento ativo, regue bem e permita que o substrato drene e se aproxime da secagem antes da próxima irrigação. No outono e inverno, reduza significativamente a frequência conforme a atividade cair, mas não provoque desidratação severa dos pseudobulbos.",
     suporte: "🥇 Vaso de barro pequeno a médio, muito bem drenado.\n🥈 Cachepô de madeira bastante vazado.\n🥉 Vaso plástico muito perfurado com mistura extremamente aberta.\nMontagem nua não é a primeira opção no litoral por aumentar demais a oscilação hídrica.",
