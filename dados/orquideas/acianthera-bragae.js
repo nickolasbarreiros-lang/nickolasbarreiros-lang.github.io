@@ -1,40 +1,41 @@
+// Revisão final — conteúdo preservado, confrontado e consolidado com fontes botânicas e de cultivo.
 export const aciantheraBragae = {
     id: "acianthera-bragae",
     nome: "Acianthera bragae",
     genero: "Acianthera",
     tipo: "Espécie botânica",
-	sinonimo: "Pleurothallis Sarracenia",
+    sinonimo: "Physosiphon bragae Ruschi; Pleurothallis sarracenia Luer; Acianthera sarracenia (Luer) Pridgeon & M.W.Chase — nomes ligados ao histórico taxonômico do grupo",
     dificuldade: "Moderada",
     origem: "Brasil — regiões Sudeste e Sul.",
     regiao: "Mata Atlântica do Sudeste e Sul do Brasil.",
-    habitat: "Espécie epífita ou litófita de ambiente tropical úmido, geralmente sombreado e bem ventilado. ",
-    descricao: "Pequena orquídea brasileira da Pleurothallidinae, de hábito compacto a reptante, ramicaules curtos e folhas carnosas. As flores podem atingir aproximadamente 1,5 a 2 cm, relativamente grandes em proporção ao vegetal. O cultivo exige umidade contínua sem água estagnada na base.O nome aceito é Acianthera bragae (Ruschi) F.Barros; Physosiphon bragae é o basiônimo e Acianthera sarracenia/Pleurothallis sarracenia aparecem na sinonímia histórica.",
-    caracteristicas: ["Endêmica do Brasil", "Sudeste e Sul", "Epífita ou litófita", "Flores ~1,5–2 cm", "Pleurothallidinae", "Umidade ventilada"],
+    habitat: "Epífita ou litófita de floresta tropical úmida. Referências de campo/cultivo associadas ao táxon registram locais sombreados e úmidos da Mata Atlântica do Sudeste, aproximadamente entre 700 e 1.000 m, onde cresce como planta mini-miniatura, reptante e formadora de tapetes.",
+    descricao: "Pequena Pleurothallidinae brasileira aceita por Kew como Acianthera bragae (Ruschi) F.Barros. O grupo possui histórico nomenclatural complexo: Physosiphon bragae aparece na literatura original de Ruschi, enquanto Pleurothallis sarracenia e Acianthera sarracenia foram usados em tratamentos posteriores e são associados a esta circunscrição em referências orquidológicas. A planta apresenta rizoma rastejante, crescimento formando tapetes, folhas espessas e suculentas, muito próximas entre si, e inflorescência curta originada junto ao rizoma. As flores são grandes em relação ao tamanho vegetativo, com cerca de 1,5 a 2 cm de altura, frequentemente tubulares e eretas. Ecologicamente, combina sombra, umidade constante e circulação de ar; em cultivo, a expansão horizontal do rizoma deve ser respeitada.",
+    caracteristicas: ["Endêmica do Brasil", "Sudeste e Sul", "Epífita ou litófita", "700–1.000 m", "Crescimento reptante", "Flores ~1,5–2 cm", "Forma tapetes"],
     fotos: [
         "imagens/Acianthera bragae/Acianthera bragae1.jpg",
         "imagens/Acianthera bragae/Acianthera bragae2.jpg",
         "imagens/Acianthera bragae/Acianthera bragae3.jpg",
         "imagens/Acianthera bragae/Acianthera bragae4.jpg"
-],
+    ],
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
-    mesesFloracao: [9, 10, 11, 12, 1, 2],
-    clima: "Intermediário, úmido e ventilado.",
-    climaFloracao: "Intermediário, úmido e ventilado. Noites amenas favorecem estabilidade vegetativa, mas a espécie não deve ser submetida a frio excessivo. No litoral quente, priorize o setor mais sombreado e arejado.",
+    mesesFloracao: [8, 9, 10],
+    clima: "Quente a intermediário, úmido, sombreado e ventilado.",
+    climaFloracao: "A faixa altitudinal aproximada de 700–1.000 m indica noites naturalmente mais amenas que as do litoral, mas a espécie é descrita em referência de cultivo como de crescimento quente. Portanto, não exige frio intenso. No litoral quente, priorize redução do calor acumulado noturno, sombra luminosa e ventilação contínua, sobretudo durante a maturação dos novos crescimentos.",
     iluminacao: {
-        sombrite: "70%",
-        solDireto: "Evitar; apenas muito suave após aclimatação",
+        sombrite: "70% como referência no litoral quente",
+        solDireto: "Evitar; somente luz solar muito suave após aclimatação",
         horario: "Primeiras horas da manhã",
-        observacoes: "Prefere sombra clara e uniforme. Cerca de 70% de sombreamento é uma boa referência em regiões quentes. Amarelecimento rápido, aquecimento ou pigmentação excessiva indicam luz forte demais; folhas muito escuras e crescimento fraco podem indicar claridade insuficiente."
+        observacoes: "O habitat é sombreado e úmido. Prefira claridade difusa uniforme em vez de sombra escura. Folhas suculentas e firmes devem permanecer sem aquecimento excessivo. Se os entrenós alongarem e o crescimento enfraquecer, aumente gradualmente a claridade; se houver amarelecimento rápido ou manchas secas, reduza a exposição."
     },
-    floracao: "Pode florescer principalmente da primavera ao verão, variando conforme procedência e microclima. Evite transformar uma janela mensal em regra absoluta.",
-    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante o crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose muito baixa e sempre afastado das raízes finas e dos ramicaules. Após a maturação dos novos crescimentos, reduza a frequência da adubação.",
-    rega: "Regue com frequência suficiente para impedir desidratação prolongada, permitindo leve secagem superficial entre as irrigações. Direcione a água ao sistema radicular e mantenha a base dos ramicaules livre de umidade estagnada.",
-    suporte: ["Placa de madeira ou cortiça larga, permitindo expansão lateral.", "Cachepô pequeno, raso e bem ripado.", "Vaso baixo e muito perfurado."],
-    substrato: ["Fina camada de esfagno sob as raízes em cultivo montado.", "Casca de pinus fina + carvão fino + pequena fração de esfagno.", "Esfagno solto + pedra-pomes fina, sempre sem compactação."],
-    errosComuns: ["Manter água parada na base dos ramicaules.", "Deixar a planta secar por vários dias.", "Usar recipiente profundo e pouco ventilado.", "Compactar esfagno.", "Cultivar sem circulação de ar.", "Aplicar adubo concentrado.", "Expor ao sol direto forte."],
+    floracao: "Principalmente do fim do inverno ao início da primavera. Para cultivo no Brasil, agosto a outubro é uma janela de referência mais coerente que uma faixa primavera–verão muito ampla; clones e microclimas podem deslocar essa época.",
+    adubacao: "🌿 Orgânica: bokashi em dose mínima, sempre isolado em sachê ou porta-adubo e afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração, cerca de 1/4 da dose do fabricante, a cada 10 a 15 dias durante emissão de folhas e raízes.\n🧪 Liberação lenta: se utilizada, aplicar pouquíssimo adubo de liberação lenta apenas em recipiente, nunca acumulado junto às raízes finas. Lave periodicamente o suporte/substrato para evitar acúmulo de sais.",
+    rega: "Regue com frequência suficiente para manter as raízes ativas e impedir desidratação prolongada, mas permita troca de ar entre irrigações. Em montagem, a frequência tende a ser alta no calor; em vaso raso, deixe apenas a superfície perder parte da umidade. Água estagnada entre folhas e junto ao rizoma é mais perigosa que uma breve secagem superficial.",
+    suporte: ["Placa larga de madeira, cortiça ou material fibroso durável, permitindo que o rizoma avance lateralmente.", "Cachepô pequeno, raso e muito ripado.", "Vaso baixo e largo, muito perfurado, para acomodar o crescimento em tapete."],
+    substrato: ["Cultivo montado com fina camada de esfagno apenas sob as raízes.", "Casca de pinus fina + pedra-pomes fina + pequena fração de esfagno.", "Esfagno solto + material mineral fino e poroso, sem compactar nem cobrir o rizoma."],
+    errosComuns: ["Usar vaso profundo para uma planta de crescimento rastejante.", "Enterrar ou cobrir o rizoma.", "Manter água parada entre folhas e ramicaules.", "Deixar a montagem secar por vários dias no calor.", "Cultivar em sombra profunda e sem circulação de ar.", "Aplicar adubação forte em raízes finas.", "Interpretar a altitude como necessidade de clima frio rígido."],
     adaptacaoRegional: {
-        litoral: "Adaptação moderada a boa quando cultivada na área mais sombreada e ventilada. Prefira montagem ou recipiente pequeno e raso e faça regas pela manhã.",
-        montanha: "Condições muito favoráveis. Durante períodos frios e úmidos, aumente o intervalo entre regas sem permitir desidratação completa."
+        litoral: "Adaptação moderada a boa quando recebe sombra clara, ventilação máxima e suporte raso/aberto. A indicação de crescimento quente ajuda, mas a origem a 700–1.000 m recomenda atenção especial às noites muito abafadas do verão.",
+        montanha: "Condições geralmente favoráveis, sobretudo pela amplitude térmica. Em períodos frios e úmidos, reduza as regas conforme o suporte permanecer molhado por mais tempo, sem impor seca prolongada."
     },
-    dica: "Umidade nas raízes, ar na base e espaço para expansão. Use suporte largo e arejado, deixando o crescimento avançar sem restrição; o esfagno deve ficar apenas sob as raízes, nunca envolvendo rizoma ou ramicaules."
+    dica: "🏆 Dê espaço horizontal. A espécie é naturalmente reptante e formadora de tapetes; um suporte largo e raso costuma funcionar melhor que um vaso profundo. Mantenha o rizoma exposto, raízes úmidas e muita circulação de ar."
 };

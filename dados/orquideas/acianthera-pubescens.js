@@ -1,39 +1,41 @@
+// Revisão final — conteúdo preservado, confrontado e consolidado com fontes botânicas e de cultivo.
 export const aciantheraPubescens = {
     id: "acianthera-pubescens",
     nome: "Acianthera pubescens",
     genero: "Acianthera",
     tipo: "Espécie botânica",
-    dificuldade: "Moderada",
-    origem: "México à América Tropical, alcançando o sul da América do Sul.",
-    regiao: "México, América Central, Caribe e América do Sul, incluindo o Brasil.",
-    habitat: "Epífita de florestas tropicais úmidas em ampla faixa geográfica e altitudinal, aproximadamente de 500 a 1.900 m. A amplitude de origem explica a grande variação de porte, coloração e tolerância térmica entre populações.",
-    descricao: "Espécie aceita como Acianthera pubescens (Lindl.) Pridgeon & M.W.Chase, historicamente conhecida como Pleurothallis pubescens. Possui porte pequeno a médio, ramicaules delgados e flores pubescentes extremamente variáveis em cor. Algumas formas apresentam odor discreto, nem sempre agradável.",
-    caracteristicas: ["Flores pubescentes", "Ampla distribuição americana", "500–1.900 m", "Alta variabilidade", "Porte pequeno a médio", "Procedência influencia cultivo"],
+    sinonimo: "Pleurothallis pubescens Lindl. e numerosos sinônimos históricos, incluindo nomes aplicados como P. vittata, P. smithiana, P. truxillensis e P. riograndensis em diferentes tratamentos",
+    dificuldade: "Moderada — variável conforme a procedência",
+    origem: "México e Caribe até a América do Sul tropical e subtropical.",
+    regiao: "Ampla distribuição neotropical: México, América Central, Caribe e grande parte da América do Sul, incluindo Brasil, Paraguai, Uruguai e nordeste da Argentina conforme bases taxonômicas modernas.",
+    habitat: "Epífita de florestas densas e úmidas, com registros aproximadamente entre 500 e 1.900 m. A amplitude geográfica e altitudinal é muito grande, abrangendo populações de condições quentes a frescas; por isso, procedência do clone influencia significativamente tolerância térmica e ritmo de floração.",
+    descricao: "Acianthera pubescens (Lindl.) Pridgeon & M.W.Chase é uma espécie aceita de Pleurothallidinae, historicamente conhecida como Pleurothallis pubescens. É altamente variável e forma touceiras cespitosas com ramicaules delgados, envoltos basalmente por bainhas tubulares, sustentando uma folha apical espessa, pesada, obovada a oblonga e afilada na base. A inflorescência surge no ápice, através de uma espata, formando pequeno racemo que mantém as flores próximas à região média da folha. As flores são carnosas, finamente pilosas/pubescente, com coloração de fundo rosada ou branca fortemente marcada por manchas, listras ou sufusão púrpura. O labelo e as pétalas são morfologicamente variáveis, refletindo a grande diversidade populacional. Há registro de fragrância, descrita como pouco agradável em algumas formas. A literatura também registra variantes vegetativas nas quais as flores ficam voltadas para a face inferior da folha, reforçando que não se deve esperar um único aspecto para todas as procedências.",
+    caracteristicas: ["Flores pubescentes", "Ampla distribuição neotropical", "500–1.900 m", "Alta variabilidade", "Cespitosa", "Fragrância variável", "Procedência influencia cultivo"],
     fotos: [
         "imagens/Acianthera pubescens/Acianthera pubescens1.jpg",
         "imagens/Acianthera pubescens/Acianthera pubescens2.jpg",
         "imagens/Acianthera pubescens/Acianthera pubescens3.jpeg",
         "imagens/Acianthera pubescens/Acianthera pubescens4.webp"
-],
-    avaliacoes: { cultivo: 3, floracao: 3, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
-    mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8],
-    clima: "Quente a fresco conforme a procedência.",
-    climaFloracao: "Quente a fresco conforme a procedência. Exemplares de altitude podem sofrer com noites persistentemente quentes, enquanto populações de baixada tendem a tolerar melhor o calor.",
+    ],
+    avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
+    mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    clima: "Quente a fresco conforme procedência; preferencialmente úmido e ventilado.",
+    climaFloracao: "A faixa de aproximadamente 500–1.900 m explica por que fontes podem classificar a espécie de forma diferente. Em vez de impor uma categoria única, trate a procedência como fator principal: clones de menor altitude tendem a tolerar melhor o litoral quente, enquanto materiais montanos podem perder vigor quando as noites permanecem quentes por longos períodos. Em todos os casos, circulação de ar e raízes oxigenadas reduzem o estresse térmico.",
     iluminacao: {
-        sombrite: "60% a 70%",
-        solDireto: "Apenas muito suave e após aclimatação",
+        sombrite: "60% a 70% como faixa inicial",
+        solDireto: "Somente muito suave e após aclimatação",
         horario: "Primeiras horas da manhã",
-        observacoes: "Prefere luz filtrada e sem insolação forte. Como a espécie possui ampla distribuição e procedências distintas, a tolerância pode variar. Folhas firmes e verde-oliva indicam boa adaptação; amarelecimento rápido ou aquecimento pedem mais sombra e ventilação."
+        observacoes: "Prefere luz filtrada de baixa a média intensidade. A espécie aparece em referências como de sombra, mas isso não significa escuridão. Folhas firmes e espessas em verde médio/oliva são um bom indicador; folhas excessivamente escuras com baixa floração podem pedir mais claridade, enquanto amarelecimento e aquecimento rápido pedem mais proteção."
     },
-    floracao: "Pode florescer do verão ao inverno. A janela é ampla e varia conforme população, altitude de origem, maturação dos ramicaules e microclima de cultivo.",
-    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante o crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose baixa e sempre afastado das raízes finas e dos ramicaules. Após a maturação dos novos crescimentos, reduza a frequência da adubação.",
-    rega: "Regue regularmente, mantendo raízes hidratadas sem saturação permanente. Plantas montadas podem exigir água quase diária no calor; em vasos, permita leve secagem superficial e ajuste a frequência à procedência e ao clima.",
-    suporte: ["Vaso pequeno e muito drenado.", "Placa de madeira, cortiça ou tronco com pequena reserva de musgo.", "Cachepô pequeno e ventilado."],
-    substrato: ["Casca de pinus fina/média + carvão + pequena quantidade de esfagno.", "Casca de pinus fina + pedra-pomes.", "Cultivo montado com pouca fibra ou musgo junto às raízes."],
-    errosComuns: ["Aplicar o mesmo regime a exemplares de procedências diferentes.", "Manter touceira densa molhada e sem ventilação.", "Usar substrato compacto.", "Expor ao sol direto forte.", "Deixar secar por períodos longos.", "Ignorar pragas escondidas nas bainhas.", "Acumular sais de fertilizante."],
+    floracao: "Pode florescer praticamente em qualquer época do ano, de acordo com referências orquidológicas. A ampla distribuição e a diversidade de procedências tornam inadequado restringir a espécie a poucos meses; a emissão floral depende mais do clone, maturação dos ramicaules e microclima.",
+    adubacao: "🌿 Orgânica: bokashi em dose pequena, sempre isolado em sachê e apenas durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração, aproximadamente 1/4 da dose do fabricante, a cada 10 a 15 dias com raízes ativas.\n🧪 Liberação lenta: usar somente pequenas quantidades em cultivo envasado. Como as raízes são finas, faça lavagens periódicas com água de baixa salinidade e reduza a adubação se pontas radiculares escurecerem ou houver depósitos brancos no substrato.",
+    rega: "Regue regularmente, mantendo as raízes hidratadas sem saturação contínua. Plantas montadas podem exigir rega diária ou quase diária no verão litorâneo; vasos devem perder parte da umidade superficial antes da próxima irrigação. Ajuste a frequência à procedência: clones de ambientes montanos geralmente apreciam umidade constante com temperaturas mais amenas e excelente ventilação.",
+    suporte: ["Vaso pequeno e muito drenado.", "Placa de madeira, cortiça ou tronco com pequena reserva de musgo.", "Cachepô pequeno e ventilado, adequado a touceiras adultas."],
+    substrato: ["Casca de pinus fina/média + carvão + pequena quantidade de esfagno.", "Casca de pinus fina + pedra-pomes.", "Cultivo montado com pouca fibra ou musgo apenas junto às raízes."],
+    errosComuns: ["Aplicar o mesmo regime a exemplares de procedências muito diferentes.", "Manter touceira densa molhada e sem ventilação.", "Usar substrato compacto ou decomposto.", "Expor ao sol direto forte.", "Deixar as raízes secarem completamente por períodos longos.", "Acumular sais de fertilizante.", "Fixar uma época única de floração para uma espécie que pode florescer o ano inteiro."],
     adaptacaoRegional: {
-        litoral: "Adaptação variável conforme procedência. Exemplares de baixas e médias altitudes podem responder bem ao calor; clones de altitude exigem setor mais fresco, sombreado e muito ventilado.",
-        montanha: "Em geral, adaptação muito boa, especialmente para exemplares de origem montana. Reduza a rega em sequências frias e nubladas sem impor seca prolongada."
+        litoral: "Adaptação variável. Exemplares de baixa e média altitude podem responder bem ao calor desde que haja sombra filtrada e vento; clones de origem montana devem ficar no setor mais fresco e arejado e podem reduzir crescimento durante noites persistentemente quentes.",
+        montanha: "Em geral, adaptação muito boa, especialmente para procedências montanas. Em períodos frios e nublados, reduza a rega apenas conforme a evaporação cair, sem deixar as raízes desidratarem."
     },
-    dica: "Procedência primeiro, folha depois. Como a espécie ocorre desde baixadas até cerca de 1.900 m, dois exemplares podem reagir de forma diferente ao mesmo ambiente. Use vigor, coloração foliar e atividade radicular para ajustar luz, água e ventilação."
+    dica: "🏆 Em A. pubescens, a procedência vale mais que uma tabela fixa de temperatura. Observe a resposta do clone: raízes ativas, folhas espessas e firmes e floração recorrente indicam equilíbrio. Ajuste luz, água e ventilação ao indivíduo em vez de forçar todos os exemplares ao mesmo regime."
 };
