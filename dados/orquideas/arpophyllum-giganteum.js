@@ -17,7 +17,7 @@ export const arpophyllumGiganteum = {
 ],
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 1, luminosidade: 4, agua: 4, raridade: 3 },
     mesesFloracao: [8, 9, 10, 11],
-    clima: "Quente a fresco, com melhor desempenho quando existe boa amplitude térmica e noites mais amenas. No litoral quente, pode crescer vigorosamente, mas o calor noturno persistente pode prejudicar a indução floral.",
+    clima: "Quente a fresco.",
     climaFloracao: "Quente a fresco, com melhor desempenho quando existe boa amplitude térmica e noites mais amenas. No litoral quente, pode crescer vigorosamente, mas o calor noturno persistente pode prejudicar a indução floral.",
     iluminacao: "Luminosidade alta porém filtrada, aproximadamente 50% a 60% de sombreamento como referência prática. Pode receber sol muito suave no início da manhã após aclimatação. Evite tanto sombra profunda quanto sol forte sobre folhas aquecidas.",
     floracao: "Do fim do inverno à primavera. As hastes terminais podem alcançar cerca de 40 cm e carregam numerosas flores pequenas, formando o característico efeito de 'escova de garrafa'.",

@@ -16,10 +16,10 @@ export const bulbophyllumAmbrosia = {
         "Boa adaptação ao calor"
     ],
     fotos: [
-        "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia1.jpg",
-        "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia2.jpg",
-        "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia3.jpg",
-        "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia4.jpg"
+        "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia1.jpeg",
+        "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia2.webp",
+        "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia3.webp",
+        "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia4.webp"
     ],
     descricao: "Bulbophyllum ambrosia (Hance) Schltr. é uma pequena espécie asiática epífita ou litófita, distribuída do Nepal ao sul da China e Indochina, incluindo Assam, Hainan, Laos e Vietnã. Forma rizoma rastejante e ramificado com pseudobulbos espaçados e unifoliados. As flores são delicadas, claras, do branco-creme ao amarelado, podendo apresentar detalhes rosados ou avermelhados e labelo mais contrastante. Seu grande diferencial é a fragrância doce, intensa e agradável, frequentemente comparada a mel, característica incomum e muito valorizada dentro de Bulbophyllum. Em cultivo, aprecia temperaturas quentes a mornas, meia-sombra, umidade regular e excelente circulação de ar.",
     origem: "Ásia subtropical.",

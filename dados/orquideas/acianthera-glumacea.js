@@ -17,7 +17,7 @@ export const aciantheraGlumacea = {
 ],
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
     mesesFloracao: [7, 8, 9, 10, 11, 12, 1],
-    clima: "Intermediário a fresco, úmido e ventilado. No litoral quente, noites muito quentes e ar parado podem reduzir vigor e qualidade da floração; posicione-a no setor mais fresco do orquidário.",
+    clima: "Intermediário a fresco, úmido e ventilado.",
     climaFloracao: "Intermediário a fresco, úmido e ventilado. No litoral quente, noites muito quentes e ar parado podem reduzir vigor e qualidade da floração; posicione-a no setor mais fresco do orquidário.",
     iluminacao: "Luz filtrada, aproximadamente 60% a 70% de sombreamento como referência de cultivo. Folhas firmes e verde-médio indicam boa condição; verde muito escuro e crescimento fraco sugerem pouca luz.",
     floracao: "Pode florescer do inverno à primavera e avançar ao início do verão, conforme clone e microclima. Touceiras adultas podem produzir várias hastes simultaneamente.",

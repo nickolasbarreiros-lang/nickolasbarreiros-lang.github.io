@@ -15,7 +15,12 @@ export const promenaeaGuttata = {
         "Alta umidade",
         "Clima ameno"
     ],
-    fotos: [],
+    fotos: [
+        "imagens/Promenaea guttata/Promenaea guttata1.webp",
+        "imagens/Promenaea guttata/Promenaea guttata2.jpg",
+        "imagens/Promenaea guttata/Promenaea guttata3.jpg",
+        "imagens/Promenaea guttata/Promenaea guttata4.jpg"
+    ],
     descricao: "Promenaea guttata Rchb.f. é uma pequena orquídea epífita brasileira da subtribo Zygopetalinae, formada por pseudobulbos compactos e agrupados, com folhas finas, verde-claras e delicadas. Produz inflorescências curtas na base dos pseudobulbos, geralmente com poucas flores proporcionalmente grandes em relação ao porte da planta, marcadas por manchas e pintas contrastantes. Embora continue amplamente conhecida horticulturalmente como Promenaea guttata, o tratamento taxonômico atualmente adotado pelo Kew/POWO inclui esse nome na sinonímia de Promenaea stapelioides subsp. xanthina (Lindl.) Meneguzzo. O nome histórico Zygopetalum guttatum (Rchb.f.) Rchb.f. também aparece associado ao táxon.",
     origem: "Brasil — espécie brasileira associada a florestas úmidas.",
     regiao: "Leste e Sul do Brasil, em ambientes florestais úmidos.",

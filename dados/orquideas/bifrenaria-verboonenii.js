@@ -19,7 +19,7 @@ export const bifrenariaVerboonenii = {
         "Perfume intenso"
     ],
     fotos: [
-        "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii1.jpg",
+        "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii1.jpeg",
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii2.jpg",
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii3.jpg",
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii4.jpg"

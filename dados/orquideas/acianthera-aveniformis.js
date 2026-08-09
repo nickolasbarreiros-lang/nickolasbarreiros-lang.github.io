@@ -17,7 +17,7 @@ export const aciantheraAveniformis = {
 ],
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
     mesesFloracao: [6, 7, 8],
-    clima: "Quente a intermediário, úmido e ventilado. Embora tolere temperaturas amenas, não deve ser tratada como espécie estritamente de clima frio. No litoral quente, o principal risco é a combinação de calor, ar parado e raízes permanentemente saturadas.",
+    clima: "Quente a intermediário, úmido e ventilado. Embora tolere temperaturas amenas, não deve ser tratada como espécie estritamente de clima frio.",
     climaFloracao: "Quente a intermediário, úmido e ventilado. Embora tolere temperaturas amenas, não deve ser tratada como espécie estritamente de clima frio. No litoral quente, o principal risco é a combinação de calor, ar parado e raízes permanentemente saturadas.",
     iluminacao: "Luz difusa de baixa a moderada intensidade. Como referência prática, cerca de 70% de sombreamento funciona bem em clima quente. Evite sol direto forte; folhas firmes e sem aquecimento excessivo indicam melhor equilíbrio.",
     floracao: "Predominantemente no inverno. Em cultivo brasileiro, junho a agosto é uma boa janela de referência, com variação conforme microclima e vigor da planta.",

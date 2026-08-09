@@ -10,9 +10,9 @@ export const bulbophyllumRothschildianum = {
     caracteristicas: ["Seção Cirrhopetalum", "Umbela em leque", "Sépalas muito alongadas", "Perfume frutado", "Clima quente a fresco", "Alto valor ornamental"],
     fotos: [
         "imagens/Bulbophyllum rothschildianum/Bulbophyllum rothschildianum1.jpg",
-        "imagens/Bulbophyllum rothschildianum/Bulbophyllum rothschildianum2.jpg",
-        "imagens/Bulbophyllum rothschildianum/Bulbophyllum rothschildianum3.jpg",
-        "imagens/Bulbophyllum rothschildianum/Bulbophyllum rothschildianum4.jpg"
+        "imagens/Bulbophyllum rothschildianum/Bulbophyllum rothschildianum2.jpeg",
+        "imagens/Bulbophyllum rothschildianum/Bulbophyllum rothschildianum3.jpeg",
+        "imagens/Bulbophyllum rothschildianum/Bulbophyllum rothschildianum4.jpeg"
     ],
     descricao: "Bulbophyllum rothschildianum (O'Brien) J.J.Sm. é uma das espécies ornamentais mais marcantes da seção Cirrhopetalum. Nativa do nordeste da Índia e região do Himalaia Oriental até o sul de Yunnan e norte de Myanmar, cresce como epífita em florestas subtropicais úmidas. Forma pseudobulbos ovoides unifoliados ao longo de rizoma rastejante e produz inflorescências basais em umbela, com poucas flores muito alongadas dispostas como um leque aberto. As sépalas laterais compridas e ornamentadas oscilam com o movimento do ar, criando forte efeito visual. As flores são descritas como fragrantes, com aroma frutado lembrando pêssego. Em cultivo, a espécie tolera ampla faixa térmica, de quente a fresco, desde que receba meia-sombra, água abundante e excelente ventilação.",
     origem: "Ásia.",

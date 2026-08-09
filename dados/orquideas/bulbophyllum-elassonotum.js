@@ -16,9 +16,9 @@ export const bulbophyllumElassonotum = {
         "Rizoma superficial"
     ],
     fotos: [
-        "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum1.jpg",
-        "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum2.jpg",
-        "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum3.jpg",
+        "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum1.webp",
+        "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum2.png",
+        "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum3.jpeg",
         "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum4.jpg"
     ],
     descricao: "Bulbophyllum elassonotum Summerh. é uma miniatura epífita e simpodial do Sul e Sudeste Asiático continental, ocorrendo de Assam à Indochina. Desenvolve rizoma rastejante com pequenos pseudobulbos unifoliados e produz inflorescências basais inicialmente eretas e depois arqueadas ou pendentes, carregadas por numerosas flores diminutas de cerca de 1 cm, em tons amarelos, amarelo-esverdeados a alaranjados. Ocorre desde terras baixas até aproximadamente 700–1.200 m de altitude e apresenta amplitude térmica maior que Bulbophyllum estritamente montanos. Em cultivo, aprecia umidade relativamente constante, luz filtrada e forte ventilação, mas não tolera substrato saturado ou rizoma enterrado.",

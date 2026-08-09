@@ -15,7 +15,12 @@ export const dichaeaCogniauxiana = {
         "Baixa luminosidade",
         "Polinização por gorgulhos"
     ],
-    fotos: [],
+    fotos: [
+        "imagens/Dichaea cogniauxiana/Dichaea cogniauxiana1.jpg",
+        "imagens/Dichaea cogniauxiana/Dichaea cogniauxiana2.jpg",
+        "imagens/Dichaea cogniauxiana/Dichaea cogniauxiana3.jpg",
+        "imagens/Dichaea cogniauxiana/Dichaea cogniauxiana4.jpg"
+    ],
     descricao: "Dichaea cogniauxiana Schltr. é uma pequena orquídea epífita brasileira descrita por Rudolf Schlechter em 1922. Forma caules folhosos, delgados e ramificados, com numerosas raízes aéreas e folhas estreitas distribuídas ao longo dos ramos. As inflorescências são curtas e unifloras, surgindo entre as folhas. As flores pequenas apresentam fundo branco a branco-rosado, aspecto delicado e máculas vinho a púrpura, com labelo de formato característico. A espécie também se destaca por uma relação ecológica incomum com gorgulhos do gênero Montella, cujas fêmeas realizam polinização ativa enquanto utilizam frutos em desenvolvimento para a reprodução.",
     origem: "Brasil — espécie botânica nativa brasileira.",
     regiao: "Nordeste, Sudeste, Sul e Centro-Oeste do Brasil, com registros importantes na Mata Atlântica.",

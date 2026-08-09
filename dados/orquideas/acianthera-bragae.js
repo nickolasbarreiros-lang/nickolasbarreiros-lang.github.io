@@ -17,7 +17,7 @@ export const aciantheraBragae = {
 ],
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
-    clima: "Intermediário, úmido e ventilado. Noites amenas favorecem estabilidade vegetativa, mas a espécie não deve ser submetida a frio excessivo. No litoral quente, priorize o setor mais sombreado e arejado.",
+    clima: "Intermediário, úmido e ventilado.",
     climaFloracao: "Intermediário, úmido e ventilado. Noites amenas favorecem estabilidade vegetativa, mas a espécie não deve ser submetida a frio excessivo. No litoral quente, priorize o setor mais sombreado e arejado.",
     iluminacao: "Sombra clara, com cerca de 70% de sombreamento como referência de cultivo. Evite sol direto forte. Folhas firmes, sem amarelecimento rápido ou aquecimento, indicam melhor equilíbrio.",
     floracao: "Pode florescer principalmente da primavera ao verão, variando conforme procedência e microclima. Evite transformar uma janela mensal em regra absoluta.",

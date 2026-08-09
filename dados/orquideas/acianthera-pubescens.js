@@ -17,7 +17,7 @@ export const aciantheraPubescens = {
 ],
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8],
-    clima: "Quente a fresco conforme a procedência. Exemplares de altitude podem sofrer com noites persistentemente quentes, enquanto populações de baixada tendem a tolerar melhor o calor.",
+    clima: "Quente a fresco conforme a procedência.",
     climaFloracao: "Quente a fresco conforme a procedência. Exemplares de altitude podem sofrer com noites persistentemente quentes, enquanto populações de baixada tendem a tolerar melhor o calor.",
     iluminacao: "Luz filtrada, aproximadamente 60% a 70% de sombreamento como referência prática. Evite sol direto forte. Folhas firmes e verde-oliva indicam boa adaptação; amarelecimento rápido ou aquecimento pede mais sombra e circulação.",
     floracao: "Pode florescer do verão ao inverno. A janela é ampla e varia conforme população, altitude de origem, maturação dos ramicaules e microclima de cultivo.",

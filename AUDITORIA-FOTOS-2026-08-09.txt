@@ -1,0 +1,35 @@
+AUDITORIA DE FOTOS - ORQUIDÁRIO DIGITAL
+
+CORRIGIDO:
+- Promenaea guttata: 4 fotos adicionadas e vinculadas.
+- Dichaea cogniauxiana: 4 fotos adicionadas e vinculadas.
+- Bifrenaria verboonenii: extensão da foto 1 corrigida (.jpeg).
+- Bulbophyllum ambrosia: extensões das 4 fotos corrigidas.
+- Bulbophyllum elassonotum: extensões das fotos 1, 2 e 3 corrigidas.
+- Bulbophyllum rothschildianum: extensões das fotos 2, 3 e 4 corrigidas.
+
+REFERÊNCIAS AINDA SEM ARQUIVO FÍSICO CORRESPONDENTE:
+- bulbophyllum-roxburghii.js: imagens/Bulbophyllum roxburghii/Bulbophyllum roxburghii1.jpg
+- bulbophyllum-roxburghii.js: imagens/Bulbophyllum roxburghii/Bulbophyllum roxburghii2.jpg
+- bulbophyllum-roxburghii.js: imagens/Bulbophyllum roxburghii/Bulbophyllum roxburghii3.jpg
+- bulbophyllum-roxburghii.js: imagens/Bulbophyllum roxburghii/Bulbophyllum roxburghii4.jpg
+- bulbophyllum-falcatum-var-bufo.js: imagens/Bulbophyllum falcatum var. bufo/Bulbophyllum falcatum var. bufo1.jpg
+- bulbophyllum-falcatum-var-bufo.js: imagens/Bulbophyllum falcatum var. bufo/Bulbophyllum falcatum var. bufo2.jpg
+- bulbophyllum-falcatum-var-bufo.js: imagens/Bulbophyllum falcatum var. bufo/Bulbophyllum falcatum var. bufo3.jpg
+- bulbophyllum-falcatum-var-bufo.js: imagens/Bulbophyllum falcatum var. bufo/Bulbophyllum falcatum var. bufo4.jpg
+- brassavola-tuberculata.js: imagens/Brassavola tuberculata/Brassavola tuberculata1.jpg
+- brassavola-tuberculata.js: imagens/Brassavola tuberculata/Brassavola tuberculata2.jpg
+- brassavola-tuberculata.js: imagens/Brassavola tuberculata/Brassavola tuberculata3.jpg
+- brassavola-tuberculata.js: imagens/Brassavola tuberculata/Brassavola tuberculata4.jpg
+- bulbophyllum-saltatorium-var-albociliatum.js: imagens/Bulbophyllum saltatorium var. albociliatum/Bulbophyllum saltatorium var. albociliatum1.jpg
+- bulbophyllum-saltatorium-var-albociliatum.js: imagens/Bulbophyllum saltatorium var. albociliatum/Bulbophyllum saltatorium var. albociliatum2.jpg
+- bulbophyllum-saltatorium-var-albociliatum.js: imagens/Bulbophyllum saltatorium var. albociliatum/Bulbophyllum saltatorium var. albociliatum3.jpg
+- bulbophyllum-saltatorium-var-albociliatum.js: imagens/Bulbophyllum saltatorium var. albociliatum/Bulbophyllum saltatorium var. albociliatum4.jpg
+- bifrenaria-tyrianthina.js: imagens/Bifrenaria verboonenii/Bifrenaria verboonenii1.jpg
+- rlc-turandot-x-rth-orange-show-x-rlc-chunyeah.js: imagens/Rlc Turandot x Orange Show x Chunyeah/Rlc Turandot x Orange Show x Chunyeah1.jpg
+- rlc-turandot-x-rth-orange-show-x-rlc-chunyeah.js: imagens/Rlc Turandot x Orange Show x Chunyeah/Rlc Turandot x Orange Show x Chunyeah2.jpg
+- rlc-turandot-x-rth-orange-show-x-rlc-chunyeah.js: imagens/Rlc Turandot x Orange Show x Chunyeah/Rlc Turandot x Orange Show x Chunyeah3.jpg
+- rlc-turandot-x-rth-orange-show-x-rlc-chunyeah.js: imagens/Rlc Turandot x Orange Show x Chunyeah/Rlc Turandot x Orange Show x Chunyeah4.jpg
+
+OBSERVAÇÃO:
+Bifrenaria tyrianthina aponta para a pasta de Bifrenaria verboonenii; isso parece ser uma associação incorreta e não foi alterado automaticamente para evitar exibir fotos erradas.
