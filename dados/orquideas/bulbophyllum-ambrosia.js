@@ -1,4 +1,5 @@
-// Ficha científica e de cultivo revisada — Padrão V3.
+// Revisão final — LOTE 04 — Padrão editorial V3.
+// Conteúdo consolidado por comparação entre a ficha anterior e fontes taxonômicas, florísticas e horticulturais.
 
 export const bulbophyllumAmbrosia = {
     id: "bulbophyllum-ambrosia",
@@ -8,12 +9,12 @@ export const bulbophyllumAmbrosia = {
     tipo: "Espécie botânica epífita ou litófita asiática",
     dificuldade: "Moderada",
     caracteristicas: [
-        "Miniatura rastejante",
-        "Perfume doce intenso",
-        "Rizoma ramificado",
-        "Meia-sombra",
-        "Umidade regular",
-        "Boa adaptação ao calor"
+        "Miniatura perfumada",
+        "Flor solitária de ~2,8 cm",
+        "Rizoma rastejante",
+        "Epífita ou litófita",
+        "300–1.300 m",
+        "Floração de inverno"
     ],
     fotos: [
         "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia1.jpeg",
@@ -21,34 +22,34 @@ export const bulbophyllumAmbrosia = {
         "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia3.webp",
         "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia4.webp"
     ],
-    descricao: "Bulbophyllum ambrosia (Hance) Schltr. é uma pequena espécie asiática epífita ou litófita, distribuída do Nepal ao sul da China e Indochina, incluindo Assam, Hainan, Laos e Vietnã. Forma rizoma rastejante e ramificado com pseudobulbos espaçados e unifoliados. As flores são delicadas, claras, do branco-creme ao amarelado, podendo apresentar detalhes rosados ou avermelhados e labelo mais contrastante. Seu grande diferencial é a fragrância doce, intensa e agradável, frequentemente comparada a mel, característica incomum e muito valorizada dentro de Bulbophyllum. Em cultivo, aprecia temperaturas quentes a mornas, meia-sombra, umidade regular e excelente circulação de ar.",
-    origem: "Ásia subtropical.",
-    regiao: "Nepal, Assam, sul da China, Hainan, Laos e Vietnã.",
-    habitat: "Epífita ou litófita de florestas subtropicais úmidas e montanas.",
-    clima: "Quente a morno, úmido, sombreado e ventilado.",
-    climaFloracao: "A floração é favorecida por crescimento ativo, rizoma saudável e equilíbrio entre umidade e aeração. Não é uma espécie que exija frio intenso. A fenologia pode variar entre procedências e sistemas de cultivo.",
+    descricao: "Bulbophyllum ambrosia (Hance) Schltr. é uma espécie botânica aceita, descrita na combinação atual em 1919 a partir de Eria ambrosia Hance. Kew reconhece distribuição do Nepal ao sul da China e Indochina, incluindo Assam, sul e sudeste da China, Hainan, Laos, Nepal e Vietnã. É uma pequena orquídea simpodial, epífita ou litófita, associada principalmente ao bioma subtropical. Forma rizoma rastejante com pseudobulbos elipsoides, unifoliados e espaçados; cada pseudobulbo sustenta uma folha apical ligulada, coriácea e ereta. A inflorescência basal é fina, ereta, com cerca de 7,5 cm, normalmente uniflora, podendo surgir tanto de pseudobulbos antigos quanto novos. A flor mede aproximadamente 2,8 cm, em tons claros de branco-creme a amarelado com detalhes rosados ou avermelhados. Seu atributo mais conhecido é o perfume doce e intenso, descrito em literatura horticultural como semelhante a mel ou amêndoa amarga. No habitat, ocorre em florestas perenifólias e semidecíduas, inclusive sobre paredões calcários, rochas musgosas e bases de árvores, aproximadamente entre 300 e 1.300 m. Essa amplitude explica por que pode responder de quente a fresco conforme a procedência, sem ser corretamente tratada como espécie estritamente fria. Em cultivo no litoral quente, o ponto crítico é combinar boa ventilação, meio muito aberto e umidade regular, evitando raízes abafadas e calor noturno associado a saturação prolongada.",
+    origem: "Nepal à Indochina",
+    regiao: "Nepal, Assam, S China, Laos e Vietnã",
+    habitat: "Florestas, calcário e rochas musgosas · 300–1.300 m",
+    clima: "Quente a fresco · úmido e ventilado",
+    climaFloracao: "A espécie floresce naturalmente no inverno. A indução não depende de frio intenso, mas a maturação dos pseudobulbos, noites menos quentes, boa luminosidade filtrada e aeração favorecem a emissão floral. Em procedências de maior altitude, noites amenas têm maior importância. No litoral quente, não tente reproduzir frio artificial: priorize ventilação noturna, redução do superaquecimento do suporte e estabilidade hídrica.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Não necessário",
-        horario: "Luz filtrada ao longo do dia",
-        observacoes: "Em Serra/ES, 60% de sombreamento é um bom ponto inicial. Boa claridade filtrada mantém o crescimento compacto sem aquecer folhas, rizoma e suporte."
+        solDireto: "Apenas luz muito suave, se houver",
+        horario: "Luz filtrada durante o dia",
+        observacoes: "Meia-sombra clara é mais segura que sombra profunda. A planta deve receber claridade suficiente para manter pseudobulbos compactos e favorecer a floração, mas sem aquecimento excessivo das folhas e do rizoma. No litoral quente, 60% a 70% de sombreamento com circulação de ar é um ponto de partida coerente."
     },
-    floracao: "Variável em cultivo. Como referência horticultural provisória, janeiro a abril pode concentrar florações, sem ser tratada como janela rígida.",
-    adubacao: "🌿 Orgânica: Bokashi opcional em quantidade mínima, sem contato com o rizoma.\n💧 Foliar/mineral: NPK equilibrado em aproximadamente 1/4 da dose a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional em dose baixa. Como as raízes são finas e superficiais, prefira nutrição leve e evite acúmulo de sais.",
-    rega: "Regue bem e permita que o ar retorne rapidamente às raízes. Mantenha umidade residual leve e faça nova irrigação antes de secagem prolongada por vários dias. Não confunda umidade regular com saturação permanente.",
-    suporte: "🥇 Cesto raso ou vaso tipo cuia, acomodando o crescimento horizontal.\n🥈 Placa de cortiça ou madeira com fina camada de esfagno sob as raízes.\n🥉 Vaso baixo e muito perfurado.",
-    substrato: "🥇 Casca de pinus média + pedra-pomes + pequena quantidade de esfagno solto.\n🥈 Esfagno de fibra longa solto + pedra-pomes.\n🥉 Montagem em cortiça ou madeira com fina camada de esfagno apenas sob as raízes.\nMantenha rizoma e pseudobulbos sobre a superfície.",
-    errosComuns: "• Enterrar o rizoma.\n• Usar casca muito fina e compacta.\n• Deixar secar por vários dias.\n• Manter saturação permanente.\n• Pouca ventilação.\n• Sol forte direto.\n• Adubação concentrada.\n• Deixar substrato velho se decompor por anos sem renovação.",
-    dica: "🏆 Mantenha umidade nas raízes e ar no rizoma. Posicione o rizoma totalmente sobre o meio e deixe a frente de crescimento voltada para uma área livre. Use cesto raso, cuia ou cortiça com substrato aberto. Em Serra/ES, 60% a 70% de sombra, boa umidade e ventilação constante funcionam muito bem. Quando o meio começar a compactar ou decompor, renove-o no início do novo enraizamento.",
+    floracao: "Predominantemente no inverno no habitat. Em cultivo brasileiro, a época pode deslocar-se conforme procedência e microclima; junho a agosto é uma referência prática, não uma regra absoluta.",
+    adubacao: "🌿 Orgânica: Bokashi é opcional e deve ser usado em quantidade mínima, preferencialmente em sachê e sem contato com o rizoma ou raízes novas.\n💧 Foliar/mineral: use NPK equilibrado em cerca de 1/4 da dose recomendada, a cada 10 a 15 dias durante brotação e enraizamento ativos.\n🧪 Liberação lenta: opcional, em poucos grânulos para plantas em vaso ou cesto; normalmente dispensável em plantas montadas.\nComo possui raízes finas e superficiais, responda mais à regularidade de adubação fraca do que a doses fortes. Faça lavagens periódicas do substrato para reduzir acúmulo de sais.",
+    rega: "Durante o crescimento, molhe completamente e deixe o excesso drenar de imediato. Mantenha leve umidade residual, sem deixar o conjunto permanecer seco por vários dias. No inverno ou quando o crescimento desacelerar, aumente apenas moderadamente o intervalo entre regas; não imponha repouso seco. Em montagem, a frequência pode ser maior porque o sistema seca rapidamente.",
+    suporte: "🥇 Placa de cortiça ou madeira com fina camada de esfagno sob as raízes.\n🥈 Cesto raso e bem perfurado, acompanhando o avanço do rizoma.\n🥉 Vaso baixo e largo, com meio muito aberto.\nA espécie cresce horizontalmente; reserve espaço livre à frente do rizoma.",
+    substrato: "🥇 Casca de pinus média + pedra-pomes + pequena quantidade de esfagno solto.\n🥈 Esfagno de fibra longa usado de forma frouxa + pedra-pomes.\n🥉 Montagem em cortiça/madeira com camada mínima de esfagno junto às raízes.\nO rizoma e a base dos pseudobulbos devem permanecer sobre o substrato, nunca enterrados.",
+    errosComuns: "• Enterrar o rizoma.\n• Tratar a espécie como exclusivamente fria.\n• Usar substrato fino e compactado.\n• Deixar a planta secar por vários dias.\n• Manter saturação constante em noites quentes.\n• Cultivar em sombra profunda.\n• Adubar em concentração alta.\n• Manter substrato decomposto por tempo excessivo.\n• Confundir umidade ambiental elevada com falta de ventilação.",
+    dica: "🏆 O melhor manejo reproduz a combinação natural de umidade com oxigenação. Monte-a ou use recipiente raso, mantenha o rizoma exposto e proporcione ventilação contínua. A fragrância e a floração aparecem melhor em plantas maduras e bem iluminadas, sem necessidade de submeter a planta a frio forte. No litoral quente, noites ventiladas e suporte que não acumule calor são mais importantes que tentar baixar drasticamente a temperatura.",
     adaptacaoRegional: {
-        litoralQuente: "Boa, 4/5. Tolera temperaturas quentes a mornas; o risco principal é calor noturno combinado com excesso de água e pouco vento.",
-        montanhaFrio: "Muito boa adaptação a noites frescas, desde que protegida de frio intenso e de substrato permanentemente encharcado."
+        litoralQuente: "Boa, cerca de 4/5. A espécie possui populações de baixa a média altitude e pode crescer bem no litoral, mas exige ventilação intensa e meio aberto para compensar noites quentes.",
+        montanhaFrio: "Muito boa em condições intermediárias a frescas, desde que protegida de frio extremo e de secagem prolongada."
     },
-    mesesFloracao: [1, 2, 3, 4],
+    mesesFloracao: [6, 7, 8],
     avaliacoes: {
         cultivo: 3,
         floracao: 3,
-        perfume: 4,
+        perfume: 5,
         luminosidade: 3,
         agua: 4,
         raridade: 3

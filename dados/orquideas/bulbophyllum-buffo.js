@@ -1,47 +1,51 @@
-// Ficha refinada — LOTE 03 — PADRÃO EDITORIAL V3.
+// Revisão final — LOTE 04 — Padrão editorial V3.
+// Arquivo legado mantido para compatibilidade do site; taxon tratado como Bulbophyllum falcatum var. bufo.
 
 export const bulbophyllumBuffo = {
     id: "bulbophyllum-buffo",
     nome: "Bulbophyllum falcatum var. bufo",
     genero: "Bulbophyllum",
-    tipo: "Variedade botânica",
+    sinonimo: "Bulbophyllum bufo",
+    tipo: "Variedade botânica epífita africana",
     dificuldade: "Moderada",
     caracteristicas: [
-        "Antigamente Bulbophyllum bufo",
-        "Africana",
-        "Inflorescência achatada",
-        "Epífita",
+        "Variedade aceita por Kew",
+        "África tropical",
+        "Raque achatada até ~28 cm",
+        "Haste até ~30 cm",
+        "Flores creme/amarelas com púrpura",
+        "0–500 m"
     ],
     fotos: [
         "imagens/Bulbophyllum Buffo/Bulbophyllum Buffo1.jpg",
         "imagens/Bulbophyllum Buffo/Bulbophyllum Buffo2.jpg",
         "imagens/Bulbophyllum Buffo/Bulbophyllum Buffo3.jpeg",
-        "imagens/Bulbophyllum Buffo/Bulbophyllum Buffo4.jpeg",
+        "imagens/Bulbophyllum Buffo/Bulbophyllum Buffo4.jpeg"
     ],
-    descricao: "Variedade africana de Bulbophyllum falcatum, anteriormente classificada como Bulbophyllum bufo. Possui pseudobulbos bifoliados e destaca-se por sua exótica inflorescência achatada em forma de lâmina, ao longo da qual surgem pequenas flores dispostas em duas fileiras. As flores exibem variações de cor entre tons de creme, amarelo, avermelhado e púrpura.",
-    origem: "Nativa da África tropical ocidental e central até Uganda.",
-    regiao: "Ocorre em países da África Ocidental e Central, avançando para o leste até Uganda.",
-    habitat: "Epífita de florestas tropicais úmidas, sobre troncos e ramos com alta umidade ambiental, calor, luz filtrada e circulação constante de ar.",
-    clima: "Quente a intermediário, sem repouso seco verdadeiro.",
-    climaFloracao: "A floração é favorecida por crescimento contínuo, umidade regular, luz filtrada de média intensidade e boa diferença térmica entre dia e noite. O rizoma deve permanecer sobre o substrato e as raízes não podem secar por longos períodos.",
+    descricao: "Bulbophyllum falcatum var. bufo (Lindl.) Govaerts é uma variedade botânica aceita por Kew, distribuída da África tropical ocidental até Uganda. O nome Bulbophyllum bufo (Lindl.) Rchb.f. é mantido aqui como o único sinônimo por ser a combinação histórica mais conhecida no cultivo. É uma epífita predominantemente de terras baixas, registrada do nível do mar a cerca de 500 m, portanto naturalmente adaptada a condições quentes a mornas. Forma pseudobulbos cônicos bifoliados com duas folhas apicais elípticas e agudas. A haste floral basal pode chegar a aproximadamente 30 cm; sua raque achatada e alongada pode alcançar cerca de 28 cm e porta várias a muitas flores. A coloração é variável: Kew descreve raques verdes manchadas de carmesim ou inteiramente carmesim/púrpura, e flores creme a amarelo-pálidas com manchas carmesim ou formas mais intensamente avermelhadas/púrpuras. As flores podem abrir sucessivamente, poucas por vez. A forma achatada da raque, típica do complexo B. falcatum, exige espaço físico lateral. Em cultivo, mantenha crescimento contínuo, água regular, sombra clara e ventilação; não imponha repouso seco nem frio artificial.",
+    origem: "África tropical",
+    regiao: "África Ocidental/Central até Uganda",
+    habitat: "Florestas tropicais úmidas · 0–500 m",
+    clima: "Quente a morno · úmido e ventilado",
+    climaFloracao: "A baixa altitude natural indica que frio não é requisito de floração. Pseudobulbos maduros, raízes ativas, luminosidade filtrada adequada e estabilidade hídrica são mais importantes. A sazonalidade pode variar conforme procedência e cultivo.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Não",
-        horario: "Luz difusa durante todo o dia",
-        observacoes: "Requer luz difusa de média a alta intensidade. O sol direto causa queimaduras térmicas nas folhas, enquanto sombra excessiva inibe a emissão das hastes florais."
+        solDireto: "Não necessário",
+        horario: "Luz difusa durante o dia",
+        observacoes: "Prefere sombra clara. Sombra excessiva pode reduzir emissão floral; sol direto forte pode queimar e aquecer o rizoma. No litoral quente, combine 60% a 70% de sombra com circulação de ar permanente."
     },
-    floracao: "Pode florescer em diferentes épocas, com maior frequência nos períodos quentes e úmidos.",
-    adubacao: "💧 Foliar: NPK equilibrado, como 20-20-20, em dosagem fraca de 1/4 a 1/2 da recomendada pelo fabricante, a cada 15 dias durante o crescimento ativo.\n🌿 Orgânica: Bokashi em trouxinha, sempre afastado do rizoma.\n🧪 Liberação lenta: poucos grânulos de Osmocote em dose mínima, mantidos distantes dos pseudobulbos e das raízes superficiais.",
-    rega: "Regue com frequência para manter o substrato leve e uniformemente úmido, permitindo apenas a secagem da camada superficial entre as irrigações. Não imponha períodos de seca. Nos meses frios ou chuvosos, diminua ligeiramente a frequência para evitar o encharcamento das raízes.",
-    suporte: "🥇 Cestos rasos e amplos ou vasos tipo cuia, de plástico ou barro, bastante perfurados.\n🥈 Placas de cortiça ou madeira com uma fina camada de esfagno.\n🥉 Vasos baixos e largos, sempre com espaço livre para a inflorescência lateral.",
-    substrato: "🥇 Casca de pinus fina + pedra-pomes + esfagno solto.\n🥈 Chips de coco tratados + carvão vegetal fino + pedra-pomes.\n🥉 Cultivo montado com fina camada de esfagno apenas junto às raízes.",
-    errosComuns: "Tratar a variedade como um híbrido ou planta de identidade incerta; Enterrar o rizoma ou os pseudobulbos no substrato; Deixar o substrato secar completamente por longos períodos; Utilizar vasos fundos e estreitos que retêm água em excesso; Compactar o esfagno ao redor das raízes; Manter alta umidade em locais sem circulação de ar; Cultivar sob sombra excessiva.",
-    dica: "Como a inflorescência em formato de lâmina emerge da base e se desenvolve na horizontal, cultive em cesto ou placa que ofereça espaço livre ao redor. Evite mudar o vaso de posição ou realizar replantes enquanto as hastes florais estiverem em formação.",
+    floracao: "Variável em cultivo; geralmente acompanha pseudobulbos maduros e pode ocorrer do fim do inverno ao verão. Não trate essa janela como regra rígida.",
+    adubacao: "🌿 Orgânica: Bokashi opcional, em pequena dose e longe do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose a cada 10 a 15 dias no crescimento ativo.\n🧪 Liberação lenta: opcional e mínima em vaso/cesto.\nEvite acumular múltiplas fontes de fertilizante sobre as raízes superficiais.",
+    rega: "Regue frequentemente durante o crescimento, permitindo perda parcial de umidade antes da próxima irrigação. Não deixe secar completamente por períodos longos e não mantenha água estagnada. Ajuste a frequência pela evaporação real, principalmente em semanas frias ou chuvosas.",
+    suporte: "🥇 Cesto raso e largo.\n🥈 Vaso tipo cuia muito perfurado.\n🥉 Placa de cortiça ou madeira.\nReserve espaço livre lateral para a raque, que pode ultrapassar 25 cm.",
+    substrato: "🥇 Casca de pinus média + pedra-pomes + pouca quantidade de esfagno.\n🥈 Chips de coco tratados + carvão + pedra-pomes.\n🥉 Montagem em madeira/cortiça com fina camada de esfagno.\nO rizoma deve permanecer exposto.",
+    errosComuns: "• Enterrar o rizoma.\n• Usar vaso fundo e estreito.\n• Prender a raque contra a borda ou outra planta.\n• Compactar esfagno.\n• Deixar raízes secarem por dias.\n• Manter ambiente quente e abafado.\n• Forçar repouso seco.\n• Forçar frio para induzir floração.\n• Adubação concentrada.",
+    dica: "🏆 Esta ficha corresponde ao mesmo táxon tratado no arquivo Bulbophyllum falcatum var. bufo; este arquivo legado foi mantido apenas para compatibilidade do catálogo. No cultivo, dê espaço horizontal à inflorescência, mantenha rizoma acima do substrato e use ventilação constante. A procedência de baixa altitude favorece o litoral quente.",
     adaptacaoRegional: {
-        litoralQuente: "O calor favorece o crescimento, desde que haja ventilação e umidade regular. Proteja do sol forte e use recipiente raso para impedir superaquecimento e acúmulo de água.",
-        montanhaFrio: "Mantenha a planta protegida de temperaturas baixas prolongadas. No inverno, reduza apenas a frequência das regas, sem impor repouso seco."
+        litoralQuente: "Muito boa. Origem principalmente entre 0 e 500 m; ventilação e drenagem são os fatores críticos.",
+        montanhaFrio: "Boa se protegida de frio prolongado; não requer resfriamento para florescer."
     },
-    mesesFloracao: [10, 11, 12, 1, 2, 3],
+    mesesFloracao: [8, 9, 10, 11, 12, 1, 2, 3],
     avaliacoes: {
         cultivo: 3,
         floracao: 3,

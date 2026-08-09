@@ -1,5 +1,5 @@
-// Ficha científica e de cultivo revisada — Refinamento Bulbophyllum.
-// Conteúdo consolidado por comparação de fontes taxonômicas e horticulturais.
+// Revisão final — LOTE 04 — Padrão editorial V3.
+// Conteúdo consolidado por comparação entre a ficha anterior e fontes taxonômicas, florísticas e horticulturais.
 
 export const bulbophyllumElassonotum = {
     id: "bulbophyllum-elassonotum",
@@ -8,12 +8,12 @@ export const bulbophyllumElassonotum = {
     tipo: "Espécie botânica epífita asiática",
     dificuldade: "Moderada",
     caracteristicas: [
-        "Miniatura rastejante",
-        "Inflorescência multifloral",
-        "Flores diminutas alaranjadas",
-        "Clima quente a intermediário",
-        "Umidade elevada",
-        "Rizoma superficial"
+        "Miniatura epífita",
+        "Flores de ~1 cm",
+        "Racemo multifloral pendente",
+        "Terras baixas a 1.200 m",
+        "Floração de inverno",
+        "Clima quente a fresco"
     ],
     fotos: [
         "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum1.webp",
@@ -21,28 +21,28 @@ export const bulbophyllumElassonotum = {
         "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum3.jpeg",
         "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum4.jpg"
     ],
-    descricao: "Bulbophyllum elassonotum Summerh. é uma miniatura epífita e simpodial do Sul e Sudeste Asiático continental, ocorrendo de Assam à Indochina. Desenvolve rizoma rastejante com pequenos pseudobulbos unifoliados e produz inflorescências basais inicialmente eretas e depois arqueadas ou pendentes, carregadas por numerosas flores diminutas de cerca de 1 cm, em tons amarelos, amarelo-esverdeados a alaranjados. Ocorre desde terras baixas até aproximadamente 700–1.200 m de altitude e apresenta amplitude térmica maior que Bulbophyllum estritamente montanos. Em cultivo, aprecia umidade relativamente constante, luz filtrada e forte ventilação, mas não tolera substrato saturado ou rizoma enterrado.",
-    origem: "Sul e Sudeste Asiático.",
-    regiao: "Assam, Myanmar, Tailândia, Camboja e Vietnã.",
-    habitat: "Epífita de florestas tropicais úmidas, sazonais e formações abertas, desde baixas altitudes até aproximadamente 1.200 m.",
-    clima: "Quente a intermediário, úmido e ventilado.",
-    climaFloracao: "A floração é variável em cultivo e tende a ser favorecida por planta bem estabelecida, raízes ativas, boa luminosidade filtrada e ausência de estresse hídrico prolongado. Referências de espécie apontam maior atividade no período mais fresco, portanto não convém fixar primavera/verão como regra universal.",
+    descricao: "Bulbophyllum elassonotum Summerh., publicado em 1935, é uma espécie botânica aceita e uma miniatura simpodial do continente asiático. POWO reconhece sua distribuição de Assam à Indochina, com ocorrência em Assam, Myanmar, Tailândia, Camboja e Vietnã, no bioma tropical úmido. É epífita, com rizoma rastejante, pseudobulbos pequenos verde-amarelados e unifoliados, cada um sustentando uma folha apical ereta. A inflorescência nasce da base do pseudobulbo: o pedúnculo é inicialmente ereto, com cerca de 5 cm, enquanto a raque de aproximadamente 5 cm torna-se pendente e porta numerosas flores pequenas. Cada flor mede cerca de 1 cm e pode apresentar tons amarelo-esverdeados, amarelos ou alaranjados. Registros de habitat incluem florestas perenifólias, semidecíduas e mesmo florestas secas decíduas e formações semelhantes a savana. Há registros desde próximo do nível do mar até cerca de 700–1.200 m, o que demonstra amplitude ecológica considerável. Por isso, a classificação horticultural 'quente a fresca' deve ser interpretada pela procedência: plantas de terras baixas suportam calor melhor, enquanto populações de maior altitude respondem melhor a noites amenas. A floração é registrada no inverno. No litoral quente, o manejo deve privilegiar ventilação, sombra clara, umidade regular e rápida drenagem, sem tentar converter a espécie em planta de repouso seco.",
+    origem: "Assam à Indochina",
+    regiao: "Assam, Myanmar, Tailândia, Camboja e Vietnã",
+    habitat: "Florestas sazonais e úmidas · 0–1.200 m",
+    clima: "Quente a fresco · ventilado",
+    climaFloracao: "A floração natural ocorre no inverno. Como a espécie ocupa desde terras baixas até altitudes intermediárias, não existe uma única exigência térmica universal. No litoral quente, noites um pouco mais amenas no inverno podem atuar como sinal fenológico, mas a planta precisa principalmente chegar à estação com pseudobulbos maduros, raízes funcionais e boa reserva energética.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não necessário",
-        horario: "Luz filtrada ao longo do dia",
-        observacoes: "Prefere meia-sombra clara e iluminação difusa. Em Serra/ES, 60% de sombreamento é um bom ponto inicial. Sombra profunda reduz vigor; sol direto forte aquece folhas, rizoma e suporte."
+        horario: "Luz filtrada durante o dia",
+        observacoes: "Prefere meia-sombra clara. Sombra excessiva favorece crescimento alongado e pode reduzir a floração; sol direto forte é arriscado em clima quente. Use a coloração e a firmeza das folhas como indicadores, ajustando gradualmente a luminosidade."
     },
-    floracao: "Tende a ocorrer no período mais fresco, com fenologia variável em cultivo. Para o calendário do site, junho a agosto funciona como referência provisória, sem excluir florações fora dessa janela.",
-    adubacao: "🌿 Orgânica: Bokashi é opcional e deve ser usado em dose mínima, preferencialmente em sachê e longe do rizoma.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional em vaso ou cesto, com poucos grânulos. Em planta montada é dispensável. Evite somar várias fontes de fertilizante.",
-    rega: "Regue com frequência durante crescimento, mantendo leve umidade entre as irrigações sem permitir saturação permanente. A dinâmica ideal é molhar, drenar e regar novamente antes que o sistema permaneça completamente seco por vários dias. Em períodos mais frios, apenas aumente moderadamente os intervalos conforme a secagem realmente diminuir.",
-    suporte: "🥇 Cesto ou cachepô raso e largo, permitindo expansão horizontal e boa aeração.\n🥈 Placa de cortiça ou madeira com fina camada de esfagno.\n🥉 Vaso largo e baixo, muito perfurado, evitando acúmulo de água no fundo.",
-    substrato: "🥇 Casca de pinus média + pedra-pomes + carvão vegetal + pequena quantidade de esfagno solto.\n🥈 Esfagno de fibra longa solto + pedra-pomes.\n🥉 Montagem em cortiça ou madeira com fina camada de esfagno junto às raízes.\nMantenha o rizoma e a base dos pseudobulbos sempre acima do material.",
-    errosComuns: "• Enterrar o rizoma ou pseudobulbos.\n• Compactar esfagno ou fibra em torno das raízes.\n• Permitir secagem total prolongada.\n• Usar vaso profundo e estreito.\n• Manter ambiente quente, úmido e sem circulação de ar.\n• Cultivar em sombra profunda.\n• Aplicar fertilizante concentrado.\n• Tratar a planta como espécie fria de montanha apenas por ocorrer também em altitudes intermediárias.",
-    dica: "🏆 Mantenha o rizoma sobre o substrato e direcione a nova frente para uma área livre do recipiente. Use cesto ou vaso raso e largo, com uma pequena reserva de umidade nas raízes sem compactar esfagno. Em Serra/ES, combine 60% a 70% de sombra, boa umidade e ventilação constante. O objetivo é manter as raízes levemente úmidas e oxigenadas, sem transformar o recipiente em um reservatório encharcado.",
+    floracao: "Principalmente no inverno. Para o calendário do litoral brasileiro, junho a agosto é a referência mais coerente, admitindo variações de procedência e cultivo.",
+    adubacao: "🌿 Orgânica: Bokashi opcional, em pequena quantidade e longe do rizoma.\n💧 Foliar/mineral: NPK equilibrado em aproximadamente 1/4 da dose, a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional em dose baixa para plantas em vaso/cesto.\nReduza a frequência quando não houver brotação ou enraizamento ativo, mas não faça uma interrupção drástica apenas porque a espécie floresce no inverno.",
+    rega: "Mantenha umidade regular enquanto houver crescimento, molhando bem e drenando rapidamente. Entre regas, permita perda parcial de umidade, sem secagem total prolongada. No período mais fresco, ajuste a frequência à evaporação real. Populações de habitat sazonal toleram alguma redução hídrica, mas isso não equivale a repouso seco obrigatório.",
+    suporte: "🥇 Cesto raso e largo, muito perfurado.\n🥈 Placa de cortiça ou madeira com fina camada de esfagno.\n🥉 Vaso baixo e amplo, com espaço para expansão horizontal.\nDeixe a inflorescência com área livre para arquear e pender.",
+    substrato: "🥇 Casca de pinus média + pedra-pomes + carvão + pequena fração de esfagno solto.\n🥈 Esfagno de fibra longa frouxo + pedra-pomes.\n🥉 Montagem em cortiça/madeira com fina reserva de umidade sob as raízes.\nNunca enterre o rizoma ou a base dos pseudobulbos.",
+    errosComuns: "• Enterrar o rizoma.\n• Tratar toda procedência como espécie fria.\n• Compactar esfagno.\n• Usar vaso profundo com baixa aeração.\n• Deixar raízes secarem por vários dias.\n• Manter calor, umidade e ar parado ao mesmo tempo.\n• Cultivar em sombra profunda.\n• Forçar repouso seco por causa de habitats sazonais.\n• Adubação concentrada em raízes finas.",
+    dica: "🏆 A amplitude altitudinal é a chave para interpretar esta espécie. Ela não exige uma temperatura única; exige equilíbrio entre procedência, umidade e ventilação. No litoral quente, use suporte raso, 60% a 70% de sombra e movimento de ar constante. Mantenha o rizoma sobre a superfície e deixe espaço para a raque pendente, especialmente quando a planta entra no período de floração de inverno.",
     adaptacaoRegional: {
-        litoralQuente: "Boa, cerca de 4/5. Tolera calor melhor que espécies estritamente montanas, desde que haja ventilação, sombra filtrada e substrato que não fique saturado.",
-        montanhaFrio: "Boa adaptação a noites frescas, protegendo de frio intenso e reduzindo apenas moderadamente as regas quando a evaporação cair."
+        litoralQuente: "Boa, cerca de 4/5, sobretudo para procedências de baixa altitude. Compense noites quentes com ventilação constante e meio muito arejado.",
+        montanhaFrio: "Boa a muito boa para procedências de altitude intermediária; evite frio intenso e substrato molhado por longos períodos em baixa evaporação."
     },
     mesesFloracao: [6, 7, 8],
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 }
