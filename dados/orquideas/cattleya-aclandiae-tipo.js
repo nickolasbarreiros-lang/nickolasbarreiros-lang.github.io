@@ -1,4 +1,4 @@
-// Ficha científica e de cultivo revisada — Lote 05.
+// Ficha científica e de cultivo revisada — Refinamento Lote 10.
 
 export const cattleyaAclandiaeTipo = {
     id: "cattleya-aclandiae-tipo",
@@ -7,41 +7,43 @@ export const cattleyaAclandiaeTipo = {
     tipo: "Espécie botânica — forma tipo",
     dificuldade: "Exigente",
     caracteristicas: [
-        "Miniatura bifoliada",
         "Endêmica da Bahia",
-        "Flores cerosas pintalgadas",
-        "Raízes muito sensíveis"
+        "Miniatura bifoliada",
+        "Flores grandes e pintalgadas",
+        "Perfume moderado",
+        "Luz muito alta",
+        "Cultivo montado"
     ],
     fotos: [
         "imagens/Cattleya aclandiae/Cattleya aclandiae1.jpg",
         "imagens/Cattleya aclandiae/Cattleya aclandiae2.jpg",
-        "imagens/Cattleya aclandiae/Cattleya aclandiae3.webp",
+        "imagens/Cattleya aclandiae/Cattleya aclandiae3.jpg",
         "imagens/Cattleya aclandiae/Cattleya aclandiae4.jpg"
     ],
-    descricao: "Cattleya aclandiae é uma espécie botânica brasileira endêmica da Bahia e uma das menores representantes do gênero. Forma pseudobulbos compactos, bifoliados e rígidos. Suas flores muito cerosas e duráveis exibem sépalas e pétalas verde-amareladas intensamente pintalgadas de marrom ou chocolate, contrastando com o labelo magenta. O perfume é adocicado e levemente picante, mais intenso nas horas quentes do dia, e as flores duram em média de 20 a 30 dias.",
-    origem: "🇧🇷 Brasil",
-    regiao: "Bahia, em áreas quentes, sazonais e bem ventiladas.",
-    habitat: "Epífita em árvores expostas de florestas sazonais e restingas, sob luz intensa, alta umidade atmosférica e secagem rápida após as chuvas.",
-    clima: "Quente, luminoso e muito ventilado.",
-    climaFloracao: "A maturação de pseudobulbos fortes, a luz muito alta e uma discreta redução das regas após o crescimento favorecem a indução floral. Plantas adultas e bem estabelecidas podem apresentar uma segunda floração.",
+    descricao: "Cattleya aclandiae Lindl. é uma das menores Cattleyas bifoliadas e uma espécie endêmica da Bahia. Forma pseudobulbos curtos e cilíndricos, normalmente com duas folhas espessas e coriáceas, frequentemente marcadas por pontuações avermelhadas, púrpuras ou escuras que fazem parte da pigmentação natural e não devem ser confundidas automaticamente com doença. Apesar do porte reduzido, produz uma ou duas flores proporcionalmente muito grandes, cerosas e perfumadas, com sépalas e pétalas verde-amareladas ou oliva densamente pintalgadas de castanho, chocolate ou púrpura e labelo magenta intenso. Em cultivo, destaca-se pela exigência de raízes extremamente aeradas e pela sensibilidade ao replantio fora da época correta.",
+    origem: "Brasil.",
+    regiao: "Bahia, em áreas quentes de baixa altitude, aproximadamente entre 100 e 400 m.",
+    habitat: "Epífita de áreas quentes, relativamente secas e muito ventiladas, frequentemente sobre árvores de casca rugosa próximas à influência litorânea.",
+    clima: "Quente, muito luminoso, ventilado e com período mais seco.",
+    climaFloracao: "A floração depende de pseudobulbos maduros, muita luz e raízes saudáveis. A espécie tolera calor de baixa altitude e responde muito bem ao litoral, mas perde rapidamente vigor quando raízes ficam abafadas. Um inverno ou período de menor atividade pode ser mais seco, sem necessidade de desidratação severa.",
     iluminacao: {
-        sombrite: "30% a 50%",
-        solDireto: "Sim, somente fraco e após aclimatação",
-        horario: "Manhã até aproximadamente 09:00",
-        observacoes: "O sombrite de 50% atende à maioria das regiões. Folhas firmes, verde-claras e com pequenas sardas avermelhadas ou arroxeadas indicam iluminação adequada; sombra excessiva enfraquece a planta e impede a floração."
+        sombrite: "30% a 50% — 40% a 50% como referência inicial em Serra/ES",
+        solDireto: "Sim, muito suave e com aclimatação",
+        horario: "Primeiras horas da manhã",
+        observacoes: "É uma das Cattleyas mais tolerantes à luminosidade alta. Em Serra/ES, comece com 40% a 50% de sombreamento. Folhas firmes e crescimento compacto são indicadores melhores que perseguir uma cor exata. Pontuações avermelhadas ou escuras podem ser pigmentação natural da espécie."
     },
-    floracao: "Predominantemente da primavera ao verão, entre setembro e janeiro; exemplares vigorosos podem florir novamente no verão ou início do outono.",
-    adubacao: "🌿 Orgânica: Bokashi em quantidade mínima, preferencialmente em porta-adubo preso acima da planta.\n💧 Foliar: NPK 20-20-20 em 1/4 da dose, a cada 7 a 10 dias durante a brotação; no fim da maturação, alternar ocasionalmente com 09-45-15.\n🧪 Liberação lenta: poucos grânulos de Osmocote 14-14-14 em porta-adubo, sem contato direto com raízes novas.",
-    rega: "Regue abundantemente pela manhã, garantindo que as raízes sequem por completo em poucas horas. Após a maturação ou durante o inverno, reduza a frequência e use borrifos leves apenas para evitar desidratação severa. Evite regas noturnas.",
-    suporte: "🥇 Placa ou toco de madeira dura.\n🥈 Cortiça natural.\n🥉 Cestinho de madeira totalmente aberto e sem substrato.",
-    substrato: "🥇 Cultivo montado, sem substrato.\n🥈 Brita grossa + carvão vegetal grosso + cacos de cerâmica.\n🥉 Pedra-pomes + carvão, apenas para estabilização em vaso de barro muito furado.",
-    errosComuns: "Vaso grande; substrato fino ou compacto; excesso de umidade; sombra; replantio fora da emissão de raízes novas; regas noturnas; enterrar o rizoma; manipular raízes antigas.",
-    dica: "Mexa na planta somente quando houver pontas de raízes novas em crescimento. A manipulação de raízes antigas pode provocar perda do sistema radicular e estagnar a planta por longo período.",
+    floracao: "Principalmente da primavera ao verão, podendo avançar para o início do outono. Como referência prática: outubro a março.",
+    adubacao: "🌿 Orgânica: Bokashi é opcional e deve ser mínimo, preferencialmente em porta-adubo e distante das raízes.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose a cada 7 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: em planta montada é dispensável; em pequeno cesto pode-se usar pouquíssimos grânulos. Não é necessário usar adubo 09-45-15 para induzir floração.",
+    rega: "Durante crescimento ativo, regue generosamente e permita secagem muito rápida com forte entrada de ar. Em montagem, pode precisar de água frequente no verão de Serra/ES. No período de menor crescimento, aumente o intervalo entre regas, sem manter a planta apenas com borrifos se os pseudobulbos começarem a desidratar demais.",
+    suporte: "🥇 Cortiça natural ou galho de casca rugosa.\n🥈 Madeira dura com boa textura para aderência das raízes.\n🥉 Pequeno cachepô de madeira extremamente aberto e com pouco substrato.",
+    substrato: "🥇 Cultivo montado sem substrato.\n🥈 Madeira/cortiça com quantidade mínima de fibra apenas durante estabelecimento.\n🥉 Em cesto ou vaso muito aberto: carvão grosso + pedra-pomes + brita ou caco de cerâmica.\nEvite esfagno compactado como meio principal.",
+    errosComuns: "• Vaso grande ou plástico fechado.\n• Esfagno compactado e raízes permanentemente úmidas.\n• Replantar fora do início de enraizamento novo.\n• Sombra excessiva.\n• Secar demais durante crescimento ativo.\n• Enterrar o rizoma.\n• Confundir pigmentação natural das folhas com doença e aplicar tratamentos desnecessários.\n• Adubação concentrada.",
+    dica: "🏆 Replante apenas quando a planta estiver pronta para refazer as raízes. Sempre que possível, mantenha Cattleya aclandiae montada em cortiça ou madeira rugosa e evite removê-la do suporte por estética. Quando precisar intervir, espere aparecerem as primeiras pontas de raízes novas. Raízes antigas aderidas são sensíveis e, se muito danificadas, a recuperação pode ser lenta. Em Serra/ES, o segredo não é dar pouca água: é dar água sem abafamento.",
     adaptacaoRegional: {
-        litoralQuente: "Ambiente muito favorável. Cultive preferencialmente montada ou em cesto aberto, com ventilação contínua, alta luminosidade e rápida secagem.",
-        montanhaFrio: "Mantenha em local muito claro e protegido de temperaturas abaixo de 12 °C. No inverno, reduza bastante as regas e molhe apenas pela manhã em dias ensolarados."
+        litoralQuente: "Excelente, 5/5. O calor de Serra/ES é compatível com o habitat baiano; priorize luz alta, ventilação constante e raízes muito livres.",
+        montanhaFrio: "Pode ser cultivada, mas proteja de frio prolongado e umidade noturna em temperaturas baixas. Reduza regas quando a secagem ficar lenta."
     },
-    mesesFloracao: [9, 10, 11, 12, 1],
+    mesesFloracao: [10, 11, 12, 1, 2, 3],
     avaliacoes: {
         cultivo: 4,
         floracao: 4,
