@@ -4,6 +4,7 @@ export const blcChiaLin = {
     id: "blc-chia-lin",
     nome: "Rhyncholaeliocattleya Chia Lin",
     genero: "Rhyncholaeliocattleya",
+    sinonimo: "Brassolaeliocattleya Chia Lin",
     tipo: "Híbrido horticultural",
     dificuldade: "Fácil a moderada",
     caracteristicas: [
@@ -18,11 +19,11 @@ export const blcChiaLin = {
         "imagens/Blc. Chia Lin/Blc. Chia Lin3.webp",
         "imagens/Blc. Chia Lin/Blc. Chia Lin4.jpg"
     ],
-    descricao: "Híbrido clássico da Aliança Cattleya, registrado em 1989 por Su Ping-Ho e tradicionalmente conhecido como Blc. Chia Lin. Resulta do cruzamento Rlc. Oconee × Rlc. Maitland e tornou-se famoso pelas flores grandes, arredondadas e de coloração intensa, especialmente em vermelho, vinho, magenta e púrpura. É um grex, não um clone único, portanto forma, tamanho, intensidade da cor e perfume podem variar bastante entre seleções.",
-    origem: "Híbrido hortícola.",
-    regiao: "Registrado por Su Ping-Ho em 1989; não possui distribuição natural.",
-    habitat: "Não possui habitat natural. Seu manejo segue o padrão dos híbridos modernos da Aliança Cattleya, com muita luz filtrada, raízes arejadas e ciclos de molhamento e secagem.",
-    clima: "Quente a intermediário, luminoso e ventilado.",
+    descricao: "Rhyncholaeliocattleya Chia Lin é um grex clássico da Aliança Cattleya, originado e registrado por Su Ping-Ho em 1989. O registro internacional confirma a parentagem Rlc. Oconee × Rlc. Maitland e reconhece Brassolaeliocattleya Chia Lin como combinação genérica histórica. A genealogia explica seu forte caráter de Cattleya híbrida de flor grande: Rlc. Maitland, registrada em 1970, deriva de Rlc. Acapana × C. Lee Langford; o outro parental, Rlc. Oconee, participa de uma linhagem amplamente utilizada na produção de cattleyas escuras e de boa forma. Chia Lin é um grex, não um clone único: plantas como “New City” e “Shinsu” são seleções específicas e não devem ser usadas para atribuir tamanho, cor ou época de floração a todos os indivíduos. Em geral produz pseudobulbos robustos, uma folha apical coriácea e flores grandes, espessas e arredondadas, frequentemente em vermelho, vinho, púrpura ou magenta, muitas vezes perfumadas. O registro formal e a genealogia são fixos; intensidade de cor, perfume, quantidade de flores e calendário podem variar conforme o clone.",
+    origem: "Híbrido hortícola",
+    regiao: "Su Ping-Ho · registro 1989",
+    habitat: "Sem habitat natural · Aliança Cattleya",
+    clima: "Quente–intermediário · luminoso · ventilado",
     climaFloracao: "A próxima floração é construída durante a formação do novo pseudobulbo. Enquanto brotos e raízes estiverem ativos, forneça água, nutrição leve e boa luminosidade. Depois que a folha estiver firme e o pseudobulbo maduro, reduza naturalmente a adubação e mantenha luz alta filtrada. Não é necessário forçar a floração com seca artificial ou grandes doses de fósforo; genética, maturação, luz e saúde radicular têm papel mais importante.",
     iluminacao: {
         sombrite: "50% a 60% — 50% como referência inicial",
@@ -30,7 +31,7 @@ export const blcChiaLin = {
         horario: "Primeiras horas da manhã",
         observacoes: "Necessita mais luz do que Phalaenopsis e muitos Oncidium. Folhas muito escuras e pseudobulbos alongados podem indicar pouca luz, enquanto sol forte do meio do dia aumenta o risco de superaquecimento e queimaduras."
     },
-    floracao: "Mais comum do outono ao inverno, entre abril e agosto, podendo ocorrer fora desse intervalo conforme o clone e o ciclo de crescimento.",
+    floracao: "Variável conforme o clone e o ciclo de crescimento. Seleções de Chia Lin são registradas florescendo do outono à primavera, portanto o calendário deve ser tratado como referência, não como característica fixa do grex.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose a cada 7 a 15 dias durante brotação e enraizamento. Após a maturação do pseudobulbo, reduza a frequência e evite excesso de nitrogênio, sem necessidade de fórmulas extremamente ricas em fósforo.\n🧪 Liberação lenta: Osmocote 14-14-14 ou equivalente em dose moderada para vasos e cachepôs; reduza a adubação líquida se estiver usando liberação lenta.",
     rega: "Durante brotação e enraizamento, molhe completamente e espere o substrato perder boa parte da umidade antes da próxima irrigação. Após a maturação, aumente discretamente o intervalo entre as regas, sem impor repouso seco. Em Serra/ES, ajuste a frequência conforme temperatura, ventilação e velocidade de secagem do recipiente.",
     suporte: "🥇 Vaso de barro, excelente para o clima quente de Serra/ES.\n🥈 Cachepô de madeira para plantas com várias frentes e raízes vigorosas.\n🥉 Vaso plástico muito perfurado ou cesto de madeira/plástico para exemplares grandes.",
@@ -41,7 +42,7 @@ export const blcChiaLin = {
         litoralQuente: "Excelente adaptação à Serra/ES. O calor costuma ser bem tolerado; o maior risco é a combinação de noites quentes, substrato velho e raízes constantemente molhadas. Use vaso ou cachepô bem ventilado e bastante luz filtrada.",
         montanhaFrio: "Adapta-se bem às noites frescas. Uma amplitude térmica moderada pode favorecer o ciclo fisiológico, mas não é requisito absoluto. Reduza as regas em períodos frios e nublados e proteja contra extremos de temperatura."
     },
-    mesesFloracao: [4, 5, 6, 7, 8],
+    mesesFloracao: [4, 5, 6, 7, 8, 9, 10, 11],
     avaliacoes: {
         cultivo: 2,
         floracao: 4,

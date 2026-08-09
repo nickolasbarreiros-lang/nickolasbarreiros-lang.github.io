@@ -6,9 +6,9 @@ export const bifrenariaVerboonenii = {
     id: "bifrenaria-verboonenii",
     nome: "Bifrenaria verboonenii",
     genero: "Bifrenaria",
-    nomeAceito: "Bifrenaria verboonenii",
-    sinonimo: "Bifrenaria tyrianthina",
-    tipo: "Espécie botânica brasileira — identificação histórica preservada",
+    nomeAceito: "Bifrenaria tyrianthina",
+    sinonimo: "Bifrenaria verboonenii",
+    tipo: "Espécie botânica brasileira — nome histórico em sinonímia",
     dificuldade: "Difícil",
     caracteristicas: [
         "Nome histórico preservado",
@@ -24,11 +24,11 @@ export const bifrenariaVerboonenii = {
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii3.jpg",
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii4.jpg"
     ],
-    descricao: "Bifrenaria verboonenii G.A.Romero & V.P.Castro é o nome histórico sob o qual esta planta foi descrita e incorporada ao orquidário. Atualmente, fontes taxonômicas modernas tratam esse nome como sinônimo de Bifrenaria tyrianthina (Lodd. ex Loudon) Rchb.f. Sob o conceito taxonômico atual, a planta integra populações de Bahia, Espírito Santo e Minas Gerais, geralmente em ambientes montanos entre aproximadamente 1.000 e 2.000 m, onde cresce como epífita ou litófita. Forma pseudobulbos robustos, angulosos e sulcados, com folha apical plicada. As inflorescências são basais, curtas e rígidas, normalmente com 1 a 4 flores grandes, carnosas, cerosas, fortemente perfumadas e de longa duração.",
-    origem: "Brasil.",
-    regiao: "Bahia, Espírito Santo e Minas Gerais.",
-    habitat: "Epífita ou litófita de ambientes montanos claros e ventilados, aproximadamente entre 1.000 e 2.000 m.",
-    clima: "Fresco, luminoso, ventilado e com inverno mais seco.",
+    descricao: "Bifrenaria verboonenii G.A.Romero & V.P.Castro foi descrita em 2000 e continua muito presente em coleções brasileiras, porém POWO e World Flora Online a tratam atualmente como sinônimo de Bifrenaria tyrianthina (Lodd. ex Loudon) Rchb.f. A ficha preserva o nome histórico por compatibilidade com a coleção, mas a identificação taxonômica aceita é B. tyrianthina. Sob esse conceito ampliado, trata-se de orquídea brasileira epífita ou litófita de Bahia, Espírito Santo e Minas Gerais, típica de ambientes montanos com inverno mais seco. Forma pseudobulbos robustos, amplamente ovoides a piriformes, angulosos e profundamente sulcados, com uma folha apical plicada, elíptico-oblonga. A inflorescência nasce na base de pseudobulbo maduro, é curta, ereta e rígida, em torno de 7,5 cm, e produz geralmente 1 a 4 flores grandes, carnosas, cerosas, muito perfumadas e duráveis, podendo atingir cerca de 8,75 cm. A amplitude altitudinal de aproximadamente 1.000 a 2.000 m explica a preferência por noites frescas e a maior dificuldade no litoral quente.",
+    origem: "Brasil",
+    regiao: "BA · ES · MG",
+    habitat: "Epífita/litófita · 1.000–2.000 m",
+    clima: "Fresco · montano · inverno mais seco",
     climaFloracao: "A indução floral é favorecida pela maturação completa do pseudobulbo, boa luminosidade, noites mais frescas e redução sazonal das regas. Não é necessário impor seca absoluta. Em Serra/ES, temperatura noturna elevada e raízes aquecidas são os principais fatores limitantes.",
     iluminacao: {
         sombrite: "40% a 50%",
@@ -36,7 +36,7 @@ export const bifrenariaVerboonenii = {
         horario: "Primeiras horas da manhã",
         observacoes: "Prefere alta claridade filtrada. No litoral, 40% a 50% de sombra reduz superaquecimento sem escurecer demais a planta. Folhas muito escuras indicam luz insuficiente."
     },
-    floracao: "Principalmente da primavera ao início do verão, com referência prática entre setembro e dezembro.",
+    floracao: "Primavera ao início do verão; em cultivo, a data pode variar com procedência e maturação do pseudobulbo.",
     adubacao: "🌿 Orgânica: Bokashi opcional em pequena dose durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em aproximadamente 1/4 da dose a cada 10 a 15 dias enquanto houver crescimento e raízes ativas.\n🧪 Liberação lenta: Osmocote em baixa dose pode ser usado em vaso drenante. Após a maturação do pseudobulbo, reduza gradualmente a frequência; não é necessário suspender 100% de forma abrupta.",
     rega: "Durante crescimento ativo, regue bem e permita que o substrato drene e se aproxime da secagem antes da próxima irrigação. No outono e inverno, reduza significativamente a frequência conforme a atividade cair, mas não provoque desidratação severa dos pseudobulbos.",
     suporte: "🥇 Vaso de barro pequeno a médio, muito bem drenado.\n🥈 Cachepô de madeira bastante vazado.\n🥉 Vaso plástico muito perfurado com mistura extremamente aberta.\nMontagem nua não é a primeira opção no litoral por aumentar demais a oscilação hídrica.",
