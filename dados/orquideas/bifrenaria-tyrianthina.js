@@ -1,22 +1,20 @@
 // Ficha científica e de cultivo revisada — Padrão V3.
-// Estrutura histórica preservada para compatibilidade com o índice do site.
-// Nota taxonômica: Bifrenaria verboonenii é atualmente tratada como sinônimo de Bifrenaria tyrianthina.
+// Material historicamente identificado como Bifrenaria verboonenii.
 
-export const bifrenariaVerboonenii = {
-    id: "bifrenaria-verboonenii",
-    nome: "Bifrenaria verboonenii",
+export const bifrenariaTyrianthina = {
+    id: "bifrenaria-tyrianthina",
+    nome: "Bifrenaria tyrianthina",
     genero: "Bifrenaria",
-    nomeAceito: "Bifrenaria tyrianthina",
     sinonimo: "Bifrenaria verboonenii",
-    tipo: "Espécie botânica brasileira — identificação histórica preservada",
+    tipo: "Espécie botânica brasileira — epífita ou litófita",
     dificuldade: "Difícil",
     caracteristicas: [
-        "Nome histórico preservado",
-        "Aceita como B. tyrianthina",
+        "Ex-B. verboonenii",
         "Ambiente montano",
         "Pseudobulbos robustos",
         "Flores grandes e cerosas",
-        "Perfume intenso"
+        "Perfume intenso",
+        "Noites frescas"
     ],
     fotos: [
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii1.jpg",
@@ -24,7 +22,7 @@ export const bifrenariaVerboonenii = {
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii3.jpg",
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii4.jpg"
     ],
-    descricao: "Bifrenaria verboonenii G.A.Romero & V.P.Castro é o nome histórico sob o qual esta planta foi descrita e incorporada ao orquidário. Atualmente, fontes taxonômicas modernas tratam esse nome como sinônimo de Bifrenaria tyrianthina (Lodd. ex Loudon) Rchb.f. Para preservar a compatibilidade com o índice, arquivos, imagens e referências já existentes do site, a identificação principal desta ficha permanece como Bifrenaria verboonenii, enquanto o nome aceito atual é informado separadamente. Sob o conceito taxonômico atual, a planta integra populações de Bahia, Espírito Santo e Minas Gerais, geralmente em ambientes montanos entre aproximadamente 1.000 e 2.000 m, onde cresce como epífita ou litófita. Forma pseudobulbos robustos, angulosos e sulcados, com folha apical plicada. As inflorescências são basais, curtas e rígidas, normalmente com 1 a 4 flores grandes, carnosas, cerosas, fortemente perfumadas e de longa duração.",
+    descricao: "Bifrenaria tyrianthina (Lodd. ex Loudon) Rchb.f. é uma espécie botânica brasileira atualmente aceita para o material anteriormente descrito e cultivado como Bifrenaria verboonenii G.A.Romero & V.P.Castro. A sinonimização amplia o conceito da planta para populações de Bahia, Espírito Santo e Minas Gerais, geralmente em ambientes montanos entre aproximadamente 1.000 e 2.000 m. Pode crescer como epífita ou litófita. Forma pseudobulbos robustos, angulosos e sulcados, cada um com folha apical plicada. As inflorescências são basais, curtas e rígidas, normalmente com 1 a 4 flores grandes, carnosas, cerosas, fortemente perfumadas e de longa duração. No litoral quente, o maior desafio não é a falta de substrato mineral, mas manter raízes e planta frescas, ventiladas e sem calor noturno excessivo.",
     origem: "Brasil.",
     regiao: "Bahia, Espírito Santo e Minas Gerais.",
     habitat: "Epífita ou litófita de ambientes montanos claros e ventilados, aproximadamente entre 1.000 e 2.000 m.",
@@ -41,8 +39,8 @@ export const bifrenariaVerboonenii = {
     rega: "Durante crescimento ativo, regue bem e permita que o substrato drene e se aproxime da secagem antes da próxima irrigação. No outono e inverno, reduza significativamente a frequência conforme a atividade cair, mas não provoque desidratação severa dos pseudobulbos.",
     suporte: "🥇 Vaso de barro pequeno a médio, muito bem drenado.\n🥈 Cachepô de madeira bastante vazado.\n🥉 Vaso plástico muito perfurado com mistura extremamente aberta.\nMontagem nua não é a primeira opção no litoral por aumentar demais a oscilação hídrica.",
     substrato: "🥇 Casca de pinus grossa + pedra-pomes + carvão vegetal.\n🥈 Pedra-pomes + casca grossa + caco de telha.\n🥉 Carvão + pedra-pomes + pequena quantidade de fibra de coco grossa.\nNão há necessidade de substrato 100% mineral.",
-    errosComuns: "• Manter a atualização taxonômica sem registrar que Bifrenaria verboonenii é tratada hoje como sinônimo de Bifrenaria tyrianthina.\n• Cultivar em local quente e abafado.\n• Tratar a planta como rupícola obrigatoriamente mineral.\n• Secar excessivamente durante crescimento ativo.\n• Impor repouso totalmente seco por meses.\n• Replantar sem raízes novas começando a surgir.\n• Usar substrato compacto.\n• Permitir sol forte aquecendo vaso e raízes.",
-    dica: "🏆 Preserve o nome histórico no site, mas cultive segundo o conceito atual de Bifrenaria tyrianthina. No litoral, preocupe-se mais com a temperatura das raízes do que com reproduzir uma fenda de rocha. Use vaso de barro ou cachepô ventilado com casca grossa, pedra-pomes e carvão. Regue bem no crescimento e aumente os intervalos no inverno. Replante quando o novo crescimento começar a emitir as primeiras pontas de raízes. Em Serra/ES, mantenha a planta no ponto mais fresco e ventilado do orquidário.",
+    errosComuns: "• Manter Bifrenaria verboonenii como espécie aceita independente.\n• Cultivar em local quente e abafado.\n• Tratar a planta como rupícola obrigatoriamente mineral.\n• Secar excessivamente durante crescimento ativo.\n• Impor repouso totalmente seco por meses.\n• Replantar sem raízes novas começando a surgir.\n• Usar substrato compacto.\n• Permitir sol forte aquecendo vaso e raízes.",
+    dica: "🏆 No litoral, preocupe-se mais com a temperatura das raízes do que com reproduzir uma fenda de rocha. Use vaso de barro ou cachepô ventilado com casca grossa, pedra-pomes e carvão. Regue bem no crescimento e aumente os intervalos no inverno. Replante quando o novo crescimento começar a emitir as primeiras pontas de raízes. Em Serra/ES, mantenha a planta no ponto mais fresco e ventilado do orquidário.",
     adaptacaoRegional: {
         litoralQuente: "Difícil, 2/5. Noites quentes persistentes são o principal gargalo. Evite telhados, paredes quentes e recipientes que acumulem calor.",
         montanhaFrio: "Excelente. Noites frescas e inverno mais seco reproduzem muito melhor as condições naturais."
