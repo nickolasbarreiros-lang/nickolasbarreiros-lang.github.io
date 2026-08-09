@@ -19,7 +19,12 @@ export const arpophyllumGiganteum = {
     mesesFloracao: [8, 9, 10, 11],
     clima: "Quente a fresco.",
     climaFloracao: "Quente a fresco, com melhor desempenho quando existe boa amplitude térmica e noites mais amenas. No litoral quente, pode crescer vigorosamente, mas o calor noturno persistente pode prejudicar a indução floral.",
-    iluminacao: "Luminosidade alta porém filtrada, aproximadamente 50% a 60% de sombreamento como referência prática. Pode receber sol muito suave no início da manhã após aclimatação. Evite tanto sombra profunda quanto sol forte sobre folhas aquecidas.",
+    iluminacao: {
+        sombrite: "50% a 60%",
+        solDireto: "Apenas muito suave e após aclimatação",
+        horario: "Primeiras horas da manhã",
+        observacoes: "Exige luminosidade alta, porém filtrada. Folhas firmes de verde-médio a verde-claro indicam bom nível de luz; folhas muito escuras associadas a baixa floração sugerem sombra excessiva. Em clima litorâneo quente, 50% a 60% de sombreamento ajuda a conciliar alta claridade e menor aquecimento foliar."
+    },
     floracao: "Do fim do inverno à primavera. As hastes terminais podem alcançar cerca de 40 cm e carregam numerosas flores pequenas, formando o característico efeito de 'escova de garrafa'.",
     adubacao: "Durante brotação e enraizamento, use NPK equilibrado em baixa concentração a cada 10 a 15 dias. Bokashi pode ser aplicado em pequena quantidade e Osmocote 14-14-14 em dose moderada. Após a maturação, reduza o nitrogênio, mas não imponha seca severa.",
     rega: "No crescimento ativo, regue abundantemente e permita secagem parcial entre irrigações. Após a maturação, reduza moderadamente a frequência em períodos frios, acompanhando a evaporação real do vaso. Não trate a espécie como orquídea de repouso seco rígido.",

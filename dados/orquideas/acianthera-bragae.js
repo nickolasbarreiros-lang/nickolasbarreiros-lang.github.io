@@ -19,7 +19,12 @@ export const aciantheraBragae = {
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     clima: "Intermediário, úmido e ventilado.",
     climaFloracao: "Intermediário, úmido e ventilado. Noites amenas favorecem estabilidade vegetativa, mas a espécie não deve ser submetida a frio excessivo. No litoral quente, priorize o setor mais sombreado e arejado.",
-    iluminacao: "Sombra clara, com cerca de 70% de sombreamento como referência de cultivo. Evite sol direto forte. Folhas firmes, sem amarelecimento rápido ou aquecimento, indicam melhor equilíbrio.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Evitar; apenas muito suave após aclimatação",
+        horario: "Primeiras horas da manhã",
+        observacoes: "Prefere sombra clara e uniforme. Cerca de 70% de sombreamento é uma boa referência em regiões quentes. Amarelecimento rápido, aquecimento ou pigmentação excessiva indicam luz forte demais; folhas muito escuras e crescimento fraco podem indicar claridade insuficiente."
+    },
     floracao: "Pode florescer principalmente da primavera ao verão, variando conforme procedência e microclima. Evite transformar uma janela mensal em regra absoluta.",
     adubacao: "NPK equilibrado em cerca de 1/4 da dose comercial a cada 15 dias no crescimento. Bokashi apenas em quantidade mínima e isolado em porta-adubo. Osmocote, se utilizado, deve ser extremamente reduzido. Faça lixiviação periódica com água pura.",
     rega: "Regue com frequência suficiente para impedir desidratação prolongada, permitindo leve secagem superficial entre as irrigações. Direcione a água ao sistema radicular e mantenha a base dos ramicaules livre de umidade estagnada.",

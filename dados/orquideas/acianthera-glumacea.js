@@ -19,7 +19,12 @@ export const aciantheraGlumacea = {
     mesesFloracao: [7, 8, 9, 10, 11, 12, 1],
     clima: "Intermediário a fresco, úmido e ventilado.",
     climaFloracao: "Intermediário a fresco, úmido e ventilado. No litoral quente, noites muito quentes e ar parado podem reduzir vigor e qualidade da floração; posicione-a no setor mais fresco do orquidário.",
-    iluminacao: "Luz filtrada, aproximadamente 60% a 70% de sombreamento como referência de cultivo. Folhas firmes e verde-médio indicam boa condição; verde muito escuro e crescimento fraco sugerem pouca luz.",
+    iluminacao: {
+        sombrite: "60% a 70%",
+        solDireto: "Apenas muito suave e após aclimatação",
+        horario: "Primeiras horas da manhã",
+        observacoes: "Prefere luz filtrada de média intensidade. Folhas firmes e verde-médio indicam bom equilíbrio; folhas muito escuras acompanhadas de crescimento fraco sugerem pouca luz, enquanto amarelamento ou manchas secas indicam excesso. No litoral quente, 60% a 70% de sombreamento é mais seguro."
+    },
     floracao: "Pode florescer do inverno à primavera e avançar ao início do verão, conforme clone e microclima. Touceiras adultas podem produzir várias hastes simultaneamente.",
     adubacao: "NPK equilibrado em baixa concentração, cerca de 1/4 a 1/2 da dose, a cada 10 a 15 dias durante crescimento. Bokashi em quantidade mínima e isolada. Osmocote apenas em plantas envasadas e em baixa dose. Faça lixiviação periódica.",
     rega: "Mantenha hidratação regular e alta umidade do ar, permitindo leve secagem superficial. Em touceiras densas, regue pela manhã e assegure circulação para que a água não permaneça presa entre os ramicaules.",

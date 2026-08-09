@@ -19,7 +19,12 @@ export const aciantheraPubescens = {
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8],
     clima: "Quente a fresco conforme a procedência.",
     climaFloracao: "Quente a fresco conforme a procedência. Exemplares de altitude podem sofrer com noites persistentemente quentes, enquanto populações de baixada tendem a tolerar melhor o calor.",
-    iluminacao: "Luz filtrada, aproximadamente 60% a 70% de sombreamento como referência prática. Evite sol direto forte. Folhas firmes e verde-oliva indicam boa adaptação; amarelecimento rápido ou aquecimento pede mais sombra e circulação.",
+    iluminacao: {
+        sombrite: "60% a 70%",
+        solDireto: "Apenas muito suave e após aclimatação",
+        horario: "Primeiras horas da manhã",
+        observacoes: "Prefere luz filtrada e sem insolação forte. Como a espécie possui ampla distribuição e procedências distintas, a tolerância pode variar. Folhas firmes e verde-oliva indicam boa adaptação; amarelecimento rápido ou aquecimento pedem mais sombra e ventilação."
+    },
     floracao: "Pode florescer do verão ao inverno. A janela é ampla e varia conforme população, altitude de origem, maturação dos ramicaules e microclima de cultivo.",
     adubacao: "NPK equilibrado em aproximadamente 1/4 da dose comercial a cada 15 dias durante crescimento. Bokashi somente em pequena quantidade e sem contato com brotos. Osmocote em dose mínima. Faça lixiviação periódica para reduzir salinização.",
     rega: "Regue regularmente, mantendo raízes hidratadas sem saturação permanente. Plantas montadas podem exigir água quase diária no calor; em vasos, permita leve secagem superficial e ajuste a frequência à procedência e ao clima.",

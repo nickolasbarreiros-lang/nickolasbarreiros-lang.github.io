@@ -19,7 +19,12 @@ export const aciantheraAveniformis = {
     mesesFloracao: [6, 7, 8],
     clima: "Quente a intermediário, úmido e ventilado. Embora tolere temperaturas amenas, não deve ser tratada como espécie estritamente de clima frio.",
     climaFloracao: "Quente a intermediário, úmido e ventilado. Embora tolere temperaturas amenas, não deve ser tratada como espécie estritamente de clima frio. No litoral quente, o principal risco é a combinação de calor, ar parado e raízes permanentemente saturadas.",
-    iluminacao: "Luz difusa de baixa a moderada intensidade. Como referência prática, cerca de 70% de sombreamento funciona bem em clima quente. Evite sol direto forte; folhas firmes e sem aquecimento excessivo indicam melhor equilíbrio.",
+    iluminacao: {
+        sombrite: "70%",
+        solDireto: "Evitar; apenas muito suave após aclimatação",
+        horario: "Primeiras horas da manhã",
+        observacoes: "Prefere luz difusa de baixa a moderada intensidade. Em clima litorâneo quente, cerca de 70% de sombreamento ajuda a evitar superaquecimento sem manter a planta em sombra profunda. Folhas firmes e sem aquecimento excessivo indicam melhor equilíbrio."
+    },
     floracao: "Predominantemente no inverno. Em cultivo brasileiro, junho a agosto é uma boa janela de referência, com variação conforme microclima e vigor da planta.",
     adubacao: "Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose comercial a cada 15 dias durante crescimento ativo. Orgânica: bokashi somente em quantidade mínima e isolado em porta-adubo. Liberação lenta: usar com extrema parcimônia. Faça regas periódicas apenas com água pura para reduzir o acúmulo de sais.",
     rega: "Mantenha as raízes hidratadas sem deixá-las saturadas. Regue antes de ocorrer desidratação prolongada e permita renovação de ar após cada irrigação. Em montagem, a frequência pode aumentar bastante no calor; em vaso, ajuste pela velocidade real de secagem.",

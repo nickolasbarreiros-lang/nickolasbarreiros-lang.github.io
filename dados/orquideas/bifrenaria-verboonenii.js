@@ -6,8 +6,8 @@ export const bifrenariaVerboonenii = {
     id: "bifrenaria-verboonenii",
     nome: "Bifrenaria verboonenii",
     genero: "Bifrenaria",
-    nomeAceito: "Bifrenaria tyrianthina",
-    sinonimo: "Bifrenaria verboonenii",
+    nomeAceito: "Bifrenaria verboonenii",
+    sinonimo: "Bifrenaria tyrianthina",
     tipo: "Espécie botânica brasileira — identificação histórica preservada",
     dificuldade: "Difícil",
     caracteristicas: [
