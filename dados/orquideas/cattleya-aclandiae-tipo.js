@@ -17,7 +17,7 @@ export const cattleyaAclandiaeTipo = {
     fotos: [
         "imagens/Cattleya aclandiae/Cattleya aclandiae1.jpg",
         "imagens/Cattleya aclandiae/Cattleya aclandiae2.jpg",
-        "imagens/Cattleya aclandiae/Cattleya aclandiae3.jpg",
+        "imagens/Cattleya aclandiae/Cattleya aclandiae3.webp",
         "imagens/Cattleya aclandiae/Cattleya aclandiae4.jpg"
     ],
     descricao: "Cattleya aclandiae Lindl. é uma das menores Cattleyas bifoliadas e uma espécie endêmica da Bahia. Forma pseudobulbos curtos e cilíndricos, normalmente com duas folhas espessas e coriáceas, frequentemente marcadas por pontuações avermelhadas, púrpuras ou escuras que fazem parte da pigmentação natural e não devem ser confundidas automaticamente com doença. Apesar do porte reduzido, produz uma ou duas flores proporcionalmente muito grandes, cerosas e perfumadas, com sépalas e pétalas verde-amareladas ou oliva densamente pintalgadas de castanho, chocolate ou púrpura e labelo magenta intenso. Em cultivo, destaca-se pela exigência de raízes extremamente aeradas e pela sensibilidade ao replantio fora da época correta.",

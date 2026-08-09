@@ -17,7 +17,12 @@ export const rodricidium = {
         "Substrato deve secar em 1–2 dias",
         "Replante somente com brotos/raízes novas"
     ],
-    "fotos": [],
+    "fotos": [
+        "imagens/Rodricidium/Rodricidium1.jpg",
+        "imagens/Rodricidium/Rodricidium2.jpg",
+        "imagens/Rodricidium/Rodricidium3.webp",
+        "imagens/Rodricidium/Rodricidium4.avif"
+    ],
     "descricao": "Rodricidium (Rdcm.) é um nothogênero híbrido resultante de cruzamentos entre Oncidium e Rodriguezia. Combina o vigor, a rusticidade e a floriosidade de muitos Oncidium com o porte mais compacto e a delicadeza das Rodriguezia. Forma crescimento simpodial com pseudobulbos comprimidos, folhas coriáceas e hastes flexíveis ou arqueadas carregadas por numerosas flores pequenas a médias, em combinações de amarelo, rosa, castanho e branco. O cultivo é relativamente simples quando as raízes recebem bastante ar e o substrato perde o excesso de água em cerca de 1–2 dias.",
     "origem": "Híbrido hortícola.",
     "regiao": "Parentais nativos das Américas tropicais.",

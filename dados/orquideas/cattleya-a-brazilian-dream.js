@@ -15,7 +15,7 @@ export const cattleyaABrazilianDream = {
         "Flores de boa substância"
     ],
     fotos: [
-        "imagens/Cattleya A Brazilian Dream/Cattleya A Brazilian Dream1.jpg",
+        "imagens/Cattleya A Brazilian Dream/Cattleya A Brazilian Dream1.webp",
         "imagens/Cattleya A Brazilian Dream/Cattleya A Brazilian Dream2.jpg",
         "imagens/Cattleya A Brazilian Dream/Cattleya A Brazilian Dream3.jpg",
         "imagens/Cattleya A Brazilian Dream/Cattleya A Brazilian Dream4.jpg"
