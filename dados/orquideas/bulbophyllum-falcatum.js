@@ -31,9 +31,7 @@ export const bulbophyllumFalcatum = {
         observacoes: "Prefere sombra clara a meia-sombra. Evite sol direto forte, especialmente no verão. Folhas muito escuras e crescimento fraco podem indicar sombra excessiva."
     },
     floracao: "Pode florescer em diferentes épocas nas regiões quentes, sendo comum entre a primavera e o verão.",
-    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e mantido afastado do rizoma durante o crescimento ativo.
-💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.
-🧪 Liberação lenta: Osmocote 14-14-14 em dose baixa e sempre afastado do rizoma, pseudobulbos e raízes superficiais. Após a maturação dos pseudobulbos, reduza a frequência da adubação.",
+    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e mantido afastado do rizoma durante o crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose baixa e sempre afastado do rizoma, pseudobulbos e raízes superficiais. Após a maturação dos pseudobulbos, reduza a frequência da adubação.",
     rega: "Mantenha umidade regular durante todo o ano, deixando apenas a superfície secar levemente. Plantas montadas podem exigir regas diárias no verão. No inverno, reduza a frequência conforme a secagem, mas evite desidratar completamente os pseudobulbos.",
     suporte: "Cestinho raso, vaso baixo e largo, placa de cortiça ou madeira",
     substrato: "Casca de pinus fina, esfagno picado em quantidade moderada, carvão pequeno e pedra-pomes. A mistura deve reter umidade sem compactar e permitir que o rizoma avance pela superfície.",

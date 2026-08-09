@@ -26,9 +26,7 @@ export const arpophyllumGiganteum = {
         observacoes: "Exige luminosidade alta, porém filtrada. Folhas firmes de verde-médio a verde-claro indicam bom nível de luz; folhas muito escuras associadas a baixa floração sugerem sombra excessiva. Em clima litorâneo quente, 50% a 60% de sombreamento ajuda a conciliar alta claridade e menor aquecimento foliar."
     },
     floracao: "Do fim do inverno à primavera. As hastes terminais podem alcançar cerca de 40 cm e carregam numerosas flores pequenas, formando o característico efeito de 'escova de garrafa'.",
-    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante a brotação e o crescimento ativo.
-💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias durante a formação de novos brotos e raízes.
-🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada e sempre afastado das raízes novas. Após a maturação dos pseudobulbos, reduza a frequência da adubação conforme o crescimento desacelerar.",
+    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante a brotação e o crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias durante a formação de novos brotos e raízes.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada e sempre afastado das raízes novas. Após a maturação dos pseudobulbos, reduza a frequência da adubação conforme o crescimento desacelerar.",
     rega: "No crescimento ativo, regue abundantemente e permita secagem parcial entre irrigações. Após a maturação, reduza moderadamente a frequência em períodos frios, acompanhando a evaporação real do vaso. Não trate a espécie como orquídea de repouso seco rígido.",
     suporte: ["Vaso pesado e proporcional à touceira, com excelente drenagem.", "Cachepô de madeira amplo e robusto.", "Cesto grande e ventilado para exemplares adultos."],
     substrato: ["Casca de pinus média/grossa + pedra-pomes + carvão vegetal.", "Casca grossa + brita + carvão vegetal.", "Mistura muito aberta com pequena fração de material retentor apenas onde a secagem for excessivamente rápida."],

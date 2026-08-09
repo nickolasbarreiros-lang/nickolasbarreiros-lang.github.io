@@ -26,9 +26,7 @@ export const aciantheraBragae = {
         observacoes: "Prefere sombra clara e uniforme. Cerca de 70% de sombreamento é uma boa referência em regiões quentes. Amarelecimento rápido, aquecimento ou pigmentação excessiva indicam luz forte demais; folhas muito escuras e crescimento fraco podem indicar claridade insuficiente."
     },
     floracao: "Pode florescer principalmente da primavera ao verão, variando conforme procedência e microclima. Evite transformar uma janela mensal em regra absoluta.",
-    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante o crescimento ativo.
-💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.
-🧪 Liberação lenta: Osmocote 14-14-14 em dose muito baixa e sempre afastado das raízes finas e dos ramicaules. Após a maturação dos novos crescimentos, reduza a frequência da adubação.",
+    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante o crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose muito baixa e sempre afastado das raízes finas e dos ramicaules. Após a maturação dos novos crescimentos, reduza a frequência da adubação.",
     rega: "Regue com frequência suficiente para impedir desidratação prolongada, permitindo leve secagem superficial entre as irrigações. Direcione a água ao sistema radicular e mantenha a base dos ramicaules livre de umidade estagnada.",
     suporte: ["Placa de madeira ou cortiça larga, permitindo expansão lateral.", "Cachepô pequeno, raso e bem ripado.", "Vaso baixo e muito perfurado."],
     substrato: ["Fina camada de esfagno sob as raízes em cultivo montado.", "Casca de pinus fina + carvão fino + pequena fração de esfagno.", "Esfagno solto + pedra-pomes fina, sempre sem compactação."],

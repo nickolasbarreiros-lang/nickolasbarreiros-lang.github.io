@@ -26,9 +26,7 @@ export const aciantheraGlumacea = {
         observacoes: "Prefere luz filtrada de média intensidade. Folhas firmes e verde-médio indicam bom equilíbrio; folhas muito escuras acompanhadas de crescimento fraco sugerem pouca luz, enquanto amarelamento ou manchas secas indicam excesso. No litoral quente, 60% a 70% de sombreamento é mais seguro."
     },
     floracao: "Pode florescer do inverno à primavera e avançar ao início do verão, conforme clone e microclima. Touceiras adultas podem produzir várias hastes simultaneamente.",
-    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante o crescimento ativo.
-💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.
-🧪 Liberação lenta: Osmocote 14-14-14 em dose baixa, apenas em cultivo envasado e sempre afastado das raízes e dos ramicaules. Após a maturação dos novos crescimentos, reduza a frequência da adubação.",
+    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante o crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose baixa, apenas em cultivo envasado e sempre afastado das raízes e dos ramicaules. Após a maturação dos novos crescimentos, reduza a frequência da adubação.",
     rega: "Mantenha hidratação regular e alta umidade do ar, permitindo leve secagem superficial. Em touceiras densas, regue pela manhã e assegure circulação para que a água não permaneça presa entre os ramicaules.",
     suporte: ["Vaso pequeno de barro ou plástico, muito drenado.", "Placa ou cepo de madeira com pequena reserva de esfagno.", "Cachepô ripado para touceiras adultas."],
     substrato: ["Casca de pinus média/fina + carvão + pequena quantidade de esfagno.", "Casca de pinus fina + pedra-pomes.", "Cultivo montado com fina camada de esfagno solto sob as raízes."],

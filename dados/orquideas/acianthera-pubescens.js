@@ -26,9 +26,7 @@ export const aciantheraPubescens = {
         observacoes: "Prefere luz filtrada e sem insolação forte. Como a espécie possui ampla distribuição e procedências distintas, a tolerância pode variar. Folhas firmes e verde-oliva indicam boa adaptação; amarelecimento rápido ou aquecimento pedem mais sombra e ventilação."
     },
     floracao: "Pode florescer do verão ao inverno. A janela é ampla e varia conforme população, altitude de origem, maturação dos ramicaules e microclima de cultivo.",
-    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante o crescimento ativo.
-💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.
-🧪 Liberação lenta: Osmocote 14-14-14 em dose baixa e sempre afastado das raízes finas e dos ramicaules. Após a maturação dos novos crescimentos, reduza a frequência da adubação.",
+    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante o crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose baixa e sempre afastado das raízes finas e dos ramicaules. Após a maturação dos novos crescimentos, reduza a frequência da adubação.",
     rega: "Regue regularmente, mantendo raízes hidratadas sem saturação permanente. Plantas montadas podem exigir água quase diária no calor; em vasos, permita leve secagem superficial e ajuste a frequência à procedência e ao clima.",
     suporte: ["Vaso pequeno e muito drenado.", "Placa de madeira, cortiça ou tronco com pequena reserva de musgo.", "Cachepô pequeno e ventilado."],
     substrato: ["Casca de pinus fina/média + carvão + pequena quantidade de esfagno.", "Casca de pinus fina + pedra-pomes.", "Cultivo montado com pouca fibra ou musgo junto às raízes."],
