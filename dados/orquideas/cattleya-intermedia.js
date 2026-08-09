@@ -1,3 +1,4 @@
+// Refinamento Final — Lote 07. Conteúdo preservado, confrontado e consolidado com fontes taxonômicas e ecológicas.
 // Ficha científica e de cultivo revisada — Refinamento Lote 09.
 // Conteúdo consolidado por comparação entre a ficha anterior e as informações complementares.
 
@@ -5,6 +6,7 @@ export const cattleyaIntermedia = {
     id: "cattleya-intermedia",
     nome: "Cattleya intermedia",
     genero: "Cattleya",
+    sinonimo: "Epidendrum intermedium",
     tipo: "Espécie botânica bifoliada",
     dificuldade: "Fácil a moderada",
     caracteristicas: [
@@ -21,10 +23,10 @@ export const cattleyaIntermedia = {
         "imagens/Cattleya intermedia/Cattleya intermedia4.jpg"
     ],
     descricao: "Cattleya intermedia Graham ex Hook. é uma das Cattleyas bifoliadas mais emblemáticas e adaptáveis da América do Sul. De porte médio, forma pseudobulbos cilíndricos e eretos, normalmente com duas folhas coriáceas, e pode desenvolver grandes touceiras quando cultivada sem divisões frequentes. Suas inflorescências terminais produzem várias flores perfumadas, geralmente em tons claros de rosa, lilás ou branco, com labelo mais intenso. É particularmente importante na orquidofilia pela extraordinária diversidade de formas horticulturais, incluindo alba, coerulea, orlata, vinicolor, flamea e formas pelóricas do grupo aquinii. Muitos desses nomes permanecem úteis horticulturalmente, embora nem sempre sejam aceitos atualmente como categorias taxonômicas separadas. É uma espécie muito indicada para iniciantes por tolerar calor, umidade atmosférica e diferentes suportes, desde que receba boa luminosidade, ventilação e raízes bem oxigenadas.",
-    origem: "Brasil e Paraguai.",
-    regiao: "Sudeste e Sul do Brasil, estendendo-se ao Paraguai.",
-    habitat: "Epífita ou ocasionalmente rupícola de restingas, matas abertas e formações costeiras ou sazonais muito ventiladas.",
-    clima: "Quente a intermediário, muito adaptável e bem ventilado.",
+    origem: "Brasil e Paraguai",
+    regiao: "Sudeste/Sul do Brasil ao Paraguai",
+    habitat: "Restingas, matas abertas e ambientes sazonais",
+    clima: "Quente a intermediário · muito adaptável",
     climaFloracao: "A floração depende sobretudo da maturação completa de pseudobulbos robustos sob boa luminosidade. Cattleya intermedia não necessita de repouso seco rigoroso: após o amadurecimento do crescimento, ajuste as regas à temperatura, ventilação e velocidade de secagem. Touceiras adultas com várias frentes acumulam mais reservas e podem produzir diversas inflorescências simultaneamente.",
     iluminacao: {
         sombrite: "40% a 60% — cerca de 50% como referência inicial",

@@ -1,3 +1,4 @@
+// Refinamento Final — Lote 07. Conteúdo preservado, confrontado e consolidado com fontes taxonômicas e ecológicas.
 // Ficha comparada com o conteúdo anterior, consolidada com as novas informações e maximamente enriquecida — padrão editorial V4.
 
 export const cattleyaLeopoldiiDarkPrincess = {
@@ -23,10 +24,10 @@ export const cattleyaLeopoldiiDarkPrincess = {
         "imagens/Cattleya tigrina 'Dark Princess'/Cattleya tigrina 'Dark Princess'4.jpg"
     ],
     "descricao": "Cattleya tigrina 'Dark Princess', historicamente comercializada como Cattleya leopoldii, é uma Cattleya bifoliada brasileira de porte alto, crescimento vertical e grande impacto ornamental. Forma pseudobulbos cilíndricos, longos, rígidos e pesados, normalmente encimados por duas folhas coriáceas. O cultivar 'Dark Princess' foi selecionado pela coloração profunda das flores, com sépalas e pétalas castanho-avermelhadas, bronzeadas ou vinho, densamente pintalgadas, e labelo magenta intenso. A espécie pode produzir inflorescências multifloras, perfumadas e de textura cerosa. Seu cultivo exige espaço vertical, recipiente estável, tutoramento precoce, luz elevada e raízes muito ventiladas. O principal erro físico é tentar corrigir pseudobulbos já endurecidos, o que pode provocar rachaduras, quebra do rizoma e danos irreversíveis.",
-    "origem": "Brasil.",
-    "regiao": "Mata Atlântica costeira e florestas do leste e sul.",
-    "habitat": "Copas altas, claras, ventiladas e de secagem rápida.",
-    "clima": "Quente a intermediário.",
+    "origem": "Brasil",
+    "regiao": "Mata Atlântica do Sul e Sudeste",
+    "habitat": "Florestas costeiras claras · copas ventiladas",
+    "clima": "Quente a intermediário · alta luminosidade",
     "climaFloracao": "A floração é favorecida por pseudobulbos altos e bem amadurecidos, luminosidade muito intensa durante todo o crescimento e leve redução de água e nitrogênio após a maturação. A intensidade do padrão escuro depende principalmente da genética do cultivar, mas boa luz, amplitude térmica e maturação adequada ajudam a expressar melhor a coloração. Sombra excessiva produz pseudobulbos finos, entrenós alongados e inflorescências fracas. A planta não exige repouso seco severo, mas aprecia secagem nítida entre regas.",
     "iluminacao": {
         "sombrite": "35% a 50%",

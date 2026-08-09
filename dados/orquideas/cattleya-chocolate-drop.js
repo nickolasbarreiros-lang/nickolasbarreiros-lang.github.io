@@ -1,3 +1,4 @@
+// Refinamento Final — Lote 07. Conteúdo preservado, confrontado e consolidado com fontes taxonômicas e ecológicas.
 // Ficha revisada por comparação entre o arquivo original e as novas informações fornecidas.
 // Conteúdo preservado, contradições filtradas e informações ampliadas — padrão editorial enriquecido.
 
@@ -25,10 +26,10 @@ export const cattleyaChocolateDrop = {
         "imagens/Cattlianthe Chocolate Drop/Cattlianthe Chocolate Drop4.jpg"
     ],
     "descricao": "Cattlianthe Chocolate Drop é um híbrido clássico da aliança Cattleya, historicamente registrado como Cattleya Chocolate Drop, resultante do cruzamento entre Cattleya guttata e Guarianthe aurantiaca. Combina o porte bifoliado, a textura cerosa e o caráter multifloro de C. guttata com a rusticidade, o vigor e as cores quentes de G. aurantiaca. Forma pseudobulbos eretos, cilíndricos e resistentes, geralmente bifoliados, além de raízes fortes e crescimento rápido. As flores surgem em cachos densos e podem variar entre clones do alaranjado vivo ao vermelho-acastanhado, vinho e chocolate. É uma planta bastante tolerante a variações ambientais, mas a melhor pigmentação e o maior número de flores dependem de luz elevada, maturação completa dos pseudobulbos e raízes bem arejadas.",
-    "origem": "Híbrido hortícola registrado em 1965; não ocorre na natureza.",
-    "regiao": "Criado em cultivo a partir de espécies brasileiras e mesoamericanas.",
-    "habitat": "Não possui habitat natural. Seus parentais crescem em ambientes claros, quentes, ventilados e com raízes sujeitas a chuvas seguidas de secagem rápida. Em cultivo, responde melhor a condições semelhantes.",
-    "clima": "Quente a intermediário, luminoso e ventilado.",
+    "origem": "Híbrido hortícola · Stewart Inc., 1965",
+    "regiao": "Parentais: Brasil + México/América Central",
+    "habitat": "Sem habitat natural · cultivo luminoso e ventilado",
+    "clima": "Quente a intermediário · alta luz",
     "climaFloracao": "A floração depende da maturação completa do pseudobulbo, boa exposição luminosa e redução moderada do nitrogênio após o crescimento. Luz alta melhora a compactação dos cachos, a firmeza das hastes e a intensidade das cores. A genética define a tonalidade básica, mas sombra excessiva produz flores menos intensas e crescimento mais alongado. Não exige repouso seco severo; apenas maior intervalo entre regas após a maturação.",
     "iluminacao": {
         "sombrite": "40% a 60%",

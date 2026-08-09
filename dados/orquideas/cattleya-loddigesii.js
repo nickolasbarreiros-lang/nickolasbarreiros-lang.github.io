@@ -1,9 +1,11 @@
+// Refinamento Final — Lote 07. Conteúdo preservado, confrontado e consolidado com fontes taxonômicas e ecológicas.
 // Ficha científica e de cultivo revisada — Refinamento Lote 08.
 
 export const cattleyaLoddigesii = {
     id: "cattleya-loddigesii",
     nome: "Cattleya loddigesii",
     genero: "Cattleya",
+    sinonimo: "Cattleya arembergii",
     tipo: "Espécie botânica",
     dificuldade: "Fácil a moderada",
     caracteristicas: [
@@ -19,10 +21,10 @@ export const cattleyaLoddigesii = {
         "imagens/Cattleya loddigesii/Cattleya loddigesii4.jpg"
     ],
     descricao: "Cattleya bifoliada brasileira, histórica e vigorosa, descrita por John Lindley em 1824 e intimamente ligada à própria história do gênero. Forma pseudobulbos cilíndricos e alongados, geralmente com duas folhas coriáceas, e produz flores cerosas em tons de lilás a rosa-lilás, com labelo mais intenso e região central amarelada. É uma espécie adaptável, capaz de formar grandes touceiras quando recebe boa luminosidade, ventilação constante e raízes bem oxigenadas.",
-    origem: "Brasil.",
-    regiao: "Sudeste e Sul do Brasil.",
-    habitat: "Epífita ou ocasionalmente litófita de florestas sazonais e áreas de Mata Atlântica, em ambientes que variam de formações relativamente secas a locais mais úmidos, sempre com boa circulação de ar.",
-    clima: "Quente a intermediário, sazonal e bem ventilado.",
+    origem: "Brasil",
+    regiao: "Sudeste ao Paraná",
+    habitat: "Florestas sazonais · epífita ou rupícola",
+    clima: "Quente a intermediário · sazonal",
     climaFloracao: "A floração depende principalmente da maturação completa de pseudobulbos robustos sob boa luminosidade. No período mais frio ou de menor atividade, a frequência das regas pode ser reduzida, mas sem impor repouso seco rigoroso. Touceiras adultas com várias frentes produzem florações mais volumosas por concentrarem vários pseudobulbos maduros no mesmo ciclo.",
     iluminacao: {
         sombrite: "40% a 60% — 50% como referência inicial",

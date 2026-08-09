@@ -1,3 +1,4 @@
+// Refinamento Final — Lote 07. Conteúdo preservado, confrontado e consolidado com fontes taxonômicas e ecológicas.
 // Ficha científica e de cultivo revisada — Refinamento Lote 09.
 // Mantido o ID histórico do site; "f. coerulea" é usada aqui como designação horticultural de cor.
 
@@ -5,6 +6,7 @@ export const cattleyaGuttataVarCoerulea = {
     id: "cattleya-guttata-var-coerulea",
     nome: "Cattleya guttata f. coerulea",
     genero: "Cattleya",
+    sinonimo: "Epidendrum elatius",
     tipo: "Espécie botânica — forma horticultural coerulea",
     dificuldade: "Moderada",
     caracteristicas: [
@@ -22,10 +24,10 @@ export const cattleyaGuttataVarCoerulea = {
         "imagens/Cattleya guttata f. coerulea/Cattleya guttata f. coerulea4.webp"
     ],
     descricao: "Cattleya guttata Lindl. é uma grande Cattleya bifoliada brasileira, aqui representada por uma seleção horticultural de coloração coerulea. A planta forma pseudobulbos cilíndricos, altos e progressivamente sulcados, normalmente com duas folhas coriáceas, podendo criar touceiras muito volumosas. Em clones vigorosos, os pseudobulbos podem aproximar-se ou superar 1 m, embora isso não seja obrigatório. As inflorescências terminais são multiflorais e produzem flores cerosas e pintalgadas, geralmente em tons oliva, verde-amarelado ou bronze, contrastando com o labelo. Na forma coerulea, a pigmentação do labelo aparece em lavanda, violeta frio ou tonalidades azuladas, e não em azul puro. A espécie é fragrante, muito luminosa e extremamente compatível com clima costeiro quente quando as raízes permanecem aeradas.",
-    origem: "Brasil.",
-    regiao: "Faixa litorânea do Leste, Sudeste e Sul brasileiros.",
-    habitat: "Epífita ou terrestre de restingas, Mata Atlântica aberta e formações costeiras claras e muito ventiladas.",
-    clima: "Quente, luminoso, úmido e com forte circulação de ar.",
+    origem: "Brasil",
+    regiao: "Leste, Sudeste e Sul do Brasil",
+    habitat: "Restingas e matas costeiras abertas · baixa altitude",
+    clima: "Quente · úmido · muito ventilado",
     climaFloracao: "A floração depende de pseudobulbos plenamente maduros, luminosidade muito alta e raízes saudáveis. Após a maturação, aumente moderadamente o intervalo entre as regas, mas sem impor repouso seco rígido. Plantas adultas e bem entouceiradas podem sustentar hastes com muitas flores, e a estabilidade mecânica do conjunto é essencial para que raízes novas não sejam rompidas pelo balanço dos pseudobulbos altos.",
     iluminacao: {
         sombrite: "40% a 50%",
