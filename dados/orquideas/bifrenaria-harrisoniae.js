@@ -1,4 +1,4 @@
-// Ficha científica e de cultivo refinada — Lote 03.
+// Ficha científica e de cultivo refinada e enriquecida.
 
 export const bifrenariaHarrisoniae = {
     id: "bifrenaria-harrisoniae",
@@ -10,7 +10,7 @@ export const bifrenariaHarrisoniae = {
         "Brasileira",
         "Epífita ou rupícola",
         "Flores grandes e cerosas",
-        "Alta luminosidade",
+        "Perfumada",
     ],
     fotos: [
         "imagens/Bifrenaria harrisoniae/Bifrenaria harrisoniae1.webp",
@@ -18,34 +18,34 @@ export const bifrenariaHarrisoniae = {
         "imagens/Bifrenaria harrisoniae/Bifrenaria harrisoniae3.jpg",
         "imagens/Bifrenaria harrisoniae/Bifrenaria harrisoniae4.jpg",
     ],
-    descricao: "Orquídea brasileira de porte médio a grande, caracterizada por pseudobulbos robustos, folhas firmes e inflorescências basais curtas. Produz flores grandes, espessas e cerosas, tipicamente claras, exibindo um labelo contrastante em tons de rosa ou arroxeado. A espécie apresenta marcante variação natural de forma e coloração entre diferentes populações.",
-    origem: "Originária do Brasil.",
-    regiao: "Ocorre principalmente nas regiões Sudeste e Sul, associada à Mata Atlântica e às serras costeiras.",
-    habitat: "Epífita ou rupícola em encostas rochosas, paredões e árvores de florestas abertas, frequentemente sob luminosidade intensa, ventilação constante e drenagem muito rápida, em altitudes aproximadas de 200 a 800 metros.",
-    clima: "Intermediário a quente durante o crescimento, com noites mais frescas antes da floração.",
-    climaFloracao: "A floração depende de pseudobulbos completamente maduros, luz forte filtrada, raízes bem ventiladas e uma redução moderada das regas após o crescimento. Noites mais frescas durante o inverno ajudam a marcar o ciclo, mas a planta não deve permanecer seca por períodos prolongados.",
+    descricao: "Bifrenaria harrisoniae (Hook.) Rchb.f. é uma espécie botânica brasileira de porte médio a grande, nativa principalmente das regiões Sudeste e Sul. Forma pseudobulbos robustos e agrupados, sustentando folhas firmes e coriáceas. As inflorescências são basais, curtas e normalmente carregam poucas flores grandes, carnosas e cerosas, em geral claras, com labelo contrastante rosa a arroxeado. As flores podem atingir aproximadamente 7 a 8 cm e apresentar perfume agradável, por vezes com notas frutadas.",
+    origem: "Endêmica do Brasil.",
+    regiao: "Regiões Sudeste e Sul, associada à Mata Atlântica, serras costeiras e ambientes rochosos.",
+    habitat: "Epífita ou rupícola de florestas úmidas, encostas rochosas e paredões claros e ventilados. Ocorre em ampla variação altitudinal, com registros típicos em cotas médias e também populações rupícolas mais elevadas.",
+    clima: "Quente a intermediário durante o crescimento, com boa ventilação e noites mais frescas favorecendo a maturação e a floração.",
+    climaFloracao: "A floração depende de pseudobulbos completamente maduros, alta luminosidade filtrada, raízes bem ventiladas e leve redução da frequência de rega após o crescimento. Não necessita de repouso seco rigoroso; a planta deve permanecer hidratada sem substrato constantemente molhado.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Sim, suave",
-        horario: "Até aproximadamente 09:00",
-        observacoes: "Necessita de luminosidade alta, com sombreamento de 40% a 50%. Folhas muito escuras sinalizam excesso de sombra; uma leve pigmentação avermelhada é aceitável e comum, porém manchas secas ou amareladas revelam queimaduras provocadas pelo sol direto pleno."
+        solDireto: "Sim, suave e com aclimatação",
+        horario: "Primeiras horas da manhã",
+        observacoes: "Necessita luminosidade alta. Folhas muito escuras e pseudobulbos alongados sugerem excesso de sombra; uma leve pigmentação avermelhada pode ser normal, enquanto manchas secas e amareladas indicam queimadura."
     },
-    floracao: "Floresce principalmente do final do inverno à primavera.",
-    adubacao: "🌿 Orgânica: Bokashi em trouxinha, aplicado apenas durante o desenvolvimento dos novos pseudobulbos.\n💧 Foliar: NPK equilibrado em baixa concentração durante o crescimento ativo.\n🧪 Liberação lenta: use apenas no início da brotação e em dose reduzida.\n⚠️ Atenção: suspenda completamente a adubação e o uso de fertilizantes de liberação lenta assim que os pseudobulbos estiverem maduros.",
-    rega: "Regue abundantemente durante a fase de brotação e desenvolvimento dos pseudobulbos, permitindo a secagem parcial do substrato entre as irrigações. Após a maturação dos brotos, reduza gradualmente a frequência das regas, mantendo apenas a umidade mínima necessária para evitar o enrugamento acentuado dos pseudobulbos.",
-    suporte: "🥇 Vaso de barro pequeno e pesado: oferece estabilidade, secagem rápida e excelente aeração.\n🥈 Cachepô de madeira firme.\n🥉 Cesto raso ou cultivo rupícola simulado, com base mineral e drenagem imediata.",
-    substrato: "🥇 Pedra-pomes + brita média + casca de pinus grossa: reproduz a drenagem intensa do habitat.\n🥈 Carvão vegetal + cacos de telha + casca grossa.\n🥉 Casca de pinus média + carvão + pedra-pomes, em vaso justo.",
-    errosComuns: "Cultivar em sombra excessiva; Usar vasos muito grandes; Manter o substrato constantemente úmido após a maturação dos pseudobulbos; Empregar misturas de substrato finas e compactadas; Reduzir as regas antes de o crescimento estar completo; Replantar fora do período de início do enraizamento.",
-    dica: "Mantenha a planta em recipiente justo e de excelente drenagem mineral. Bifrenaria harrisoniae floresce com mais abundância quando está bem enraizada e ligeiramente apertada no vaso; o excesso de espaço e umidade estimula o crescimento vegetativo em detrimento das flores.",
+    floracao: "Floresce principalmente do final da primavera ao verão, com referência prática entre novembro e fevereiro.",
+    adubacao: "🌿 Orgânica: bokashi em pequena dose durante o crescimento ativo, protegido em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração enquanto houver brotação e raízes em atividade.\n🧪 Liberação lenta: Osmocote em dose reduzida no início da fase vegetativa. Após a maturação dos pseudobulbos, reduza significativamente a frequência e a concentração da adubação; retome o ritmo normal quando novas raízes e brotos surgirem.",
+    rega: "Regue abundantemente durante a brotação e desenvolvimento dos pseudobulbos, permitindo secagem parcial do substrato entre irrigações. Após a maturação, aumente gradualmente o intervalo entre as regas, sem manter a planta completamente seca por longos períodos nem permitir enrugamento severo.",
+    suporte: "🥇 Vaso de barro pesado e proporcional à massa radicular.\n🥈 Cachepô de madeira firme e muito ventilado.\n🥉 Cesto raso ou recipiente bem aberto com drenagem imediata.",
+    substrato: "🥇 Pedra-pomes + casca de pinus grossa + carvão vegetal.\n🥈 Carvão vegetal + cacos de telha + casca grossa.\n🥉 Casca de pinus média + carvão + pedra-pomes em vaso proporcional.",
+    errosComuns: "Cultivar em sombra excessiva; usar vaso muito maior que a massa radicular; manter o substrato constantemente molhado; empregar misturas finas ou compactadas; reduzir as regas antes da maturação dos pseudobulbos; replantar sem início de novas raízes; impor repouso seco severo; suspender nutrientes de forma abrupta enquanto ainda houver crescimento ativo.",
+    dica: "Use vaso proporcional, estável e de secagem previsível. Bifrenaria harrisoniae não precisa de 'raízes apertadas' para florescer; o benefício do recipiente justo é evitar excesso de substrato úmido ao redor das raízes. Combine alta luminosidade filtrada, drenagem excelente, estabilidade radicular e preservação de touceiras adultas.",
     adaptacaoRegional: {
-        litoralQuente: "Priorize vaso de barro, substrato predominantemente mineral e circulação de ar forte. Ofereça sol suave da manhã e reduza as regas no inverno mesmo quando as temperaturas permanecerem amenas.",
-        montanhaFrio: "A queda natural das temperaturas favorece a indução floral. Proteja apenas de geadas e evite que o substrato permaneça frio e molhado por vários dias consecutivos."
+        litoralQuente: "Cultive em vaso de barro ou cachepô aberto, com forte circulação de ar, 40% a 50% de sombra e regas matinais. Em Serra/ES, evite calor abafado e mantenha o substrato de secagem rápida sem impor seca prolongada.",
+        montanhaFrio: "A queda natural da temperatura noturna favorece a floração. Proteja de geadas e evite que o substrato permaneça frio e encharcado por vários dias."
     },
-    mesesFloracao: [8, 9, 10, 11],
+    mesesFloracao: [11, 12, 1, 2],
     avaliacoes: {
         cultivo: 3,
         floracao: 4,
-        perfume: 2,
+        perfume: 3,
         luminosidade: 4,
         agua: 3,
         raridade: 3

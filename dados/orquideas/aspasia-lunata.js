@@ -1,4 +1,4 @@
-// Ficha científica e de cultivo refinada — Lote 02.
+// Ficha científica e de cultivo refinada e enriquecida.
 
 export const aspasiaLunata = {
     id: "aspasia-lunata",
@@ -8,8 +8,8 @@ export const aspasiaLunata = {
     dificuldade: "Fácil a moderada",
     caracteristicas: [
         "Epífita",
-        "Pseudobulbos achatados",
-        "Flores listradas",
+        "Pseudobulbos comprimidos",
+        "Flores contrastantes",
         "Crescimento vigoroso",
     ],
     fotos: [
@@ -18,28 +18,28 @@ export const aspasiaLunata = {
         "imagens/Aspasia lunata/Aspasia lunata3.webp",
         "imagens/Aspasia lunata/Aspasia lunata4.webp",
     ],
-    descricao: "Aspasia lunata é uma orquídea epífita de porte médio, pertencente à subtribo Oncidiinae e de crescimento simpodial. Nativa principalmente da Mata Atlântica do Sul e Sudeste do Brasil, também ocorre no Paraguai e na Bolívia, em florestas úmidas e bem ventiladas. Apresenta pseudobulbos comprimidos lateralmente, que sustentam folhas firmes e alongadas, e produz inflorescências basais. Suas flores chamam atenção pelo contraste entre sépalas e pétalas estreitas, esverdeadas a amareladas e pintalgadas de castanho, e o labelo amplo, violáceo, de margens levemente onduladas.",
-    origem: "Nativa do Brasil, Paraguai e Bolívia.",
-    regiao: "Ocorre principalmente na Mata Atlântica do Sul e Sudeste do Brasil, estendendo-se ao Paraguai e à Bolívia.",
-    habitat: "Epífita de florestas tropicais úmidas, encontrada sobre troncos grossos em áreas de transição entre mata sombreada e clareiras. Também pode crescer sobre rochas cobertas por matéria orgânica.",
-    clima: "Quente a intermediário, úmido e ventilado.",
-    climaFloracao: "A floração é favorecida por boa luminosidade filtrada, crescimento vigoroso, pseudobulbos completamente maduros e leve redução das regas após o amadurecimento das novas frentes. Sombra excessiva costuma produzir touceiras bonitas, mas com poucas flores.",
+    descricao: "Aspasia lunata Lindl. é uma espécie epífita pseudobulbosa da subtribo Oncidiinae, de porte pequeno a médio e crescimento simpodial. Sua distribuição natural confirmada abrange o nordeste da Bolívia e o Brasil, especialmente as regiões Sul, Sudeste e Centro-Oeste. Forma pseudobulbos fortemente comprimidos lateralmente, geralmente com uma ou duas folhas terminais, lineares a lanceoladas. As flores surgem em inflorescências basais e chamam atenção pelo contraste entre sépalas e pétalas esverdeadas a amareladas, marcadas de castanho, e o labelo amplo em tons violáceos a arroxeados.",
+    origem: "Nativa do nordeste da Bolívia e do Brasil.",
+    regiao: "Brasil Sul, Sudeste e Centro-Oeste, além do nordeste da Bolívia.",
+    habitat: "Epífita de florestas tropicais úmidas, crescendo sobre troncos e galhos em ambientes com boa umidade atmosférica, luz filtrada e circulação de ar. Pode ocorrer em áreas mais abertas dentro da mata, mas não exige sol direto forte.",
+    clima: "Quente a fresco, úmido e ventilado.",
+    climaFloracao: "A floração é favorecida por pseudobulbos maduros, boa luminosidade filtrada, ventilação constante e crescimento vegetativo vigoroso. Não necessita de repouso seco rigoroso; após a maturação dos pseudobulbos, apenas aumente moderadamente o intervalo entre as regas conforme a evaporação diminuir.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Não",
-        horario: "Apenas luz filtrada; no máximo sol muito suave no início da manhã",
-        observacoes: "Prefere luz intensa e filtrada, com sombreamento entre 60% e 70%. Folhas amareladas indicam excesso de luz; folhas muito verde-escuras e baixa floração indicam luminosidade insuficiente. Evite sol direto forte, que pode queimar a folhagem e reduzir a qualidade das flores."
+        solDireto: "Apenas muito suave e após aclimatação",
+        horario: "Primeiras horas da manhã",
+        observacoes: "Prefere luz filtrada de média intensidade. Folhas muito verde-escuras acompanhadas de baixa floração indicam sombra excessiva; amarelamento ou manchas secas sinalizam radiação forte demais. Em clima litorâneo quente, 60% a 70% de sombreamento costuma oferecer bom equilíbrio."
     },
-    floracao: "Floresce principalmente na primavera e no início do verão, após o amadurecimento dos pseudobulbos.",
-    adubacao: "🌿 Orgânica: bokashi em dose moderada, dentro de saquinho e renovado conforme a decomposição.\n💧 Foliar: NPK equilibrado, como 20-20-20, a cada 10 a 15 dias durante o crescimento ativo.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, distribuído sobre o substrato sem encostar nos brotos.",
-    rega: "Durante a emissão de novos brotos e raízes, principalmente na primavera e no verão, regue com frequência para manter o substrato levemente úmido, sem encharcamento. Após a maturação dos pseudobulbos, especialmente no inverno, aumente ligeiramente o intervalo entre as regas, sem permitir enrugamento excessivo.",
-    suporte: "🥇 Vaso de barro ou plástico proporcional à touceira, com excelente drenagem.\n🥈 Cachepô de madeira bem ventilado.\n🥉 Cestinho plástico raso e perfurado.",
-    substrato: "🥇 Casca de pinus média + carvão vegetal + pequena quantidade de esfagno.\n🥈 Casca de pinus média + pedra-pomes + carvão vegetal.\n🥉 Carvão vegetal + cacos de telha + casca de pinus, para ambientes muito úmidos.",
-    errosComuns: "Expor ao sol direto forte; cultivar em sombra excessiva; manter o substrato encharcado; usar mistura compactada; usar vaso grande demais; dividir a touceira em porções muito pequenas; deixar os pseudobulbos enrugarem durante o crescimento.",
-    dica: "Evite dividir Aspasia lunata em mudas muito pequenas. Mantenha ao menos três a quatro pseudobulbos adultos por divisão, pois touceiras mais encorpadas armazenam mais reservas e produzem hastes florais mais robustas e com maior número de flores.",
+    floracao: "Floresce principalmente na primavera e início do verão, com referência prática entre setembro e dezembro.",
+    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante o crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada e sempre afastado de raízes novas. Após a maturação dos pseudobulbos, reduza a frequência da adubação conforme o crescimento desacelerar.",
+    rega: "Durante a formação de novos brotos e raízes, regue regularmente e permita secagem parcial do substrato entre as irrigações. Após a maturação dos pseudobulbos, aumente ligeiramente o intervalo entre regas, sobretudo em períodos mais frios, sem permitir enrugamento severo.",
+    suporte: "🥇 Vaso de barro ou plástico proporcional à touceira, com excelente drenagem.\n🥈 Cachepô de madeira bem ventilado.\n🥉 Cesto plástico raso e perfurado.",
+    substrato: "🥇 Casca de pinus média + pedra-pomes + carvão vegetal.\n🥈 Casca de pinus média + carvão vegetal + pequena quantidade de esfagno solto.\n🥉 Carvão vegetal + cacos de telha + casca de pinus para ambientes muito úmidos.",
+    errosComuns: "Cultivar em sombra profunda; expor ao sol direto forte; manter o substrato permanentemente encharcado; usar mistura fina e compactada; usar vaso desproporcionalmente grande; dividir a touceira em porções muito pequenas; deixar os pseudobulbos enrugarem durante o crescimento ativo; impor repouso seco severo sem necessidade.",
+    dica: "Evite dividir Aspasia lunata em mudas muito pequenas. Preserve ao menos três a quatro pseudobulbos adultos por divisão para manter reservas suficientes, recuperação rápida e maior capacidade de produzir hastes florais robustas. Mais importante que 'apertar' a planta é oferecer um vaso proporcional, muita aeração e boa luminosidade filtrada.",
     adaptacaoRegional: {
-        litoralQuente: "Adapta-se bem quando recebe ventilação forte, luz matinal suave e substrato que seca com rapidez. Proteja do sol forte e do abafamento durante o verão.",
-        montanhaFrio: "Tolera noites frescas e pode florescer muito bem. Reduza as regas durante períodos frios, mas proteja de geadas e de temperaturas persistentemente muito baixas."
+        litoralQuente: "Adapta-se bem quando recebe ventilação forte, luz filtrada e substrato de secagem rápida. Em Serra/ES, evite calor abafado, sol forte da tarde e excesso de água durante períodos nublados.",
+        montanhaFrio: "Tolera noites frescas e pode florescer muito bem. Reduza a frequência das regas nos períodos frios, mas proteja de geadas e de substrato saturado por muitos dias."
     },
     mesesFloracao: [9, 10, 11, 12],
     avaliacoes: {
