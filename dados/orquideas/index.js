@@ -80,6 +80,8 @@ import { laeliaGloriosa } from "./laelia-gloriosa.js";
 import { encycliaBracteata } from "./encyclia-bracteata.js";
 import { stanhopeaAssidensis } from "./stanhopea-assidensis.js";
 import { dichaeaPendula } from "./dichaea-pendula.js";
+import { dichaeaCogniauxiana } from "./dichaea-cogniauxiana.js";
+import { promenaeaGuttata } from "./promenaea-guttata.js";
 import { encycliaGallopavina } from "./encyclia-gallopavina.js";
 import { stanhopeaGuttulata } from "./stanhopea-guttulata.js";
 import { isabeliaVirginalis } from "./isabelia-virginalis.js";
@@ -203,6 +205,8 @@ export const orquideas = [
     encycliaBracteata,
     stanhopeaAssidensis,
     dichaeaPendula,
+    dichaeaCogniauxiana,
+    promenaeaGuttata,
     encycliaGallopavina,
     stanhopeaGuttulata,
     isabeliaVirginalis,

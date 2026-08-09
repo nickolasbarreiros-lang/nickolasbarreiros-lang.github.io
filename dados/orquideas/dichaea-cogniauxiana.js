@@ -1,0 +1,68 @@
+// Ficha científica e de cultivo revisada — Dichaea cogniauxiana.
+// Conteúdo adaptado ao padrão editorial e regional do Orquidário Digital.
+
+export const dichaeaCogniauxiana = {
+    id: "dichaea-cogniauxiana",
+    nome: "Dichaea cogniauxiana",
+    genero: "Dichaea",
+    tipo: "Espécie botânica",
+    dificuldade: "Avançada",
+    caracteristicas: [
+        "Espécie brasileira",
+        "Mata Atlântica",
+        "Flores maculadas",
+        "Alta umidade",
+        "Baixa luminosidade",
+        "Polinização por gorgulhos"
+    ],
+    fotos: [],
+    descricao: "Dichaea cogniauxiana Schltr. é uma pequena orquídea epífita brasileira descrita por Rudolf Schlechter em 1922. Forma caules folhosos, delgados e ramificados, com numerosas raízes aéreas e folhas estreitas distribuídas ao longo dos ramos. As inflorescências são curtas e unifloras, surgindo entre as folhas. As flores pequenas apresentam fundo branco a branco-rosado, aspecto delicado e máculas vinho a púrpura, com labelo de formato característico. A espécie também se destaca por uma relação ecológica incomum com gorgulhos do gênero Montella, cujas fêmeas realizam polinização ativa enquanto utilizam frutos em desenvolvimento para a reprodução.",
+    origem: "Brasil — espécie botânica nativa brasileira.",
+    regiao: "Nordeste, Sudeste, Sul e Centro-Oeste do Brasil, com registros importantes na Mata Atlântica.",
+    habitat: "Epífita de florestas úmidas, em locais sombreados, com elevada umidade atmosférica e boa circulação de ar.",
+    clima: "Intermediário a fresco, úmido e ventilado; noites mais amenas favorecem desenvolvimento e floração.",
+    climaFloracao: "Intermediário a fresco, com elevada umidade atmosférica e boa circulação de ar. No litoral quente, proteja principalmente do superaquecimento noturno e do ar parado. Noites mais amenas associadas à manutenção da umidade favorecem vigor e floração.",
+    iluminacao: {
+        sombrite: "70% a 80%",
+        solDireto: "Não recomendado",
+        horario: "Luz difusa e filtrada ao longo do dia",
+        observacoes: "É adaptada a ambientes de baixa intensidade luminosa. Cerca de 70% de sombreamento funciona como bom ponto inicial no litoral quente. Evite incidência direta de sol forte sobre a folhagem delicada; sombra excessivamente escura, porém, pode reduzir vigor e floração."
+    },
+    floracao: "Predominantemente no verão, podendo avançar para o início do outono conforme procedência, temperatura e condições de cultivo. Para o calendário do site, dezembro a março funciona como janela prática de referência.",
+    adubacao: "🌿 Orgânica: bokashi somente em pequena quantidade e preferencialmente isolado em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional e em quantidade mínima, principalmente quando cultivada em vaso.\n🚿 Lavagem: faça regas periódicas apenas com água pura para reduzir o acúmulo de sais nas raízes delicadas.",
+    rega: "Mantenha raízes e suporte regularmente úmidos, evitando secagem prolongada. Regue abundantemente e permita drenagem imediata. Em montagem, a frequência pode aumentar bastante nos períodos quentes e secos. A espécie aprecia umidade superior à média, mas necessita simultaneamente de elevada oxigenação radicular e não tolera água estagnada.",
+    suporte: [
+        "🥇 Placa de cortiça, madeira ou casca rugosa, com fina camada de esfagno junto às raízes.",
+        "🥈 Cachepô ou cesto pequeno e muito aerado, com substrato leve.",
+        "🥉 Vaso pequeno e muito perfurado, evitando compactação e retenção excessiva de água."
+    ],
+    substrato: [
+        "🥇 Esfagno de fibra longa bem solto + pedra-pomes.",
+        "🥈 Casca de pinus fina + pedra-pomes + pequena quantidade de esfagno.",
+        "🥉 Casca fina + carvão vegetal pequeno + pedra-pomes + pequena fração de esfagno."
+    ],
+    errosComuns: [
+        "Expor ao sol direto forte",
+        "Permitir secagem prolongada das raízes",
+        "Confundir alta necessidade de umidade com encharcamento",
+        "Compactar esfagno em torno das raízes",
+        "Cultivar em ambiente quente e abafado",
+        "Usar vaso grande ou pouco ventilado",
+        "Aplicar fertilizante concentrado",
+        "Deixar a montagem secar completamente por vários dias"
+    ],
+    dica: "🏆 Dichaea cogniauxiana prefere umidade com ar em movimento. Mantenha as raízes hidratadas, mas extremamente arejadas. No litoral quente, uma montagem com pequena quantidade de esfagno e ventilação constante tende a reproduzir melhor essa combinação do que um vaso compacto e permanentemente molhado.",
+    adaptacaoRegional: {
+        litoralQuente: "Adaptação moderada, cerca de 3/5. É possível cultivá-la com 70% a 80% de sombreamento, alta umidade atmosférica e ventilação contínua. No verão, evite sobretudo a combinação de calor noturno, raízes saturadas e ar parado.",
+        montanhaFrio: "Adaptação excelente, cerca de 5/5. Noites frescas, alta umidade e boa ventilação se aproximam melhor das condições montanas documentadas para a espécie. Proteja apenas de frio intenso e vento excessivamente seco."
+    },
+    mesesFloracao: [12, 1, 2, 3],
+    avaliacoes: {
+        cultivo: 4,
+        floracao: 3,
+        perfume: 1,
+        luminosidade: 2,
+        agua: 5,
+        raridade: 4
+    }
+};
