@@ -4,6 +4,7 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
     "id": "cattleya-schilleriana-x-cruzeiro-do-sul",
     "nome": "Cattleya schilleriana × Cruzeiro do Sul",
     "genero": "Cattleya",
+    "sinonimo": "Não se aplica",
     "tipo": "Híbrido hortícola",
     "dificuldade": "Moderada",
     "caracteristicas": [
@@ -21,11 +22,11 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
         "imagens/cattleya-schilleriana-cruzeiro-do-sul/cattleya-schilleriana-cruzeiro-do-sul-3.webp",
         "imagens/cattleya-schilleriana-cruzeiro-do-sul/cattleya-schilleriana-cruzeiro-do-sul-4.jpg"
     ],
-    "descricao": "Cattleya schilleriana × Cruzeiro do Sul é um híbrido hortícola brasileiro criado para combinar o desenho ceroso, pintalgado e contrastante de C. schilleriana com maior vigor, rusticidade e velocidade de estabelecimento. O porte tende a permanecer compacto a médio, com pseudobulbos eretos e folhas coriáceas. As flores podem variar entre indivíduos, mas geralmente conservam pétalas e sépalas manchadas ou pintalgadas, textura firme, boa duração e labelo magenta ou purpúreo de forte contraste. O vigor híbrido torna o cultivo mais tolerante que o da espécie pura, mas não elimina a sensibilidade radicular herdada. A planta responde melhor a recipientes pequenos, substrato grosseiro, raízes bem ventiladas e replante sincronizado com o novo enraizamento.",
-    "origem": "Híbrido horticultural.",
+    "descricao": "Cattleya schilleriana × Cruzeiro do Sul é um híbrido hortícola brasileiro que combina C. schilleriana com o parental hortícola Cattleya Cruzeiro do Sul. Como não foi localizada, nas fontes taxonômicas principais consultadas, documentação suficiente para atribuir uma genealogia completa e inequívoca a “Cruzeiro do Sul”, a ficha evita inventar percentuais genéticos ou características obrigatórias do parental. O porte tende a permanecer compacto a médio, com pseudobulbos eretos e folhas coriáceas. As flores podem variar entre indivíduos, mas geralmente conservam pétalas e sépalas manchadas ou pintalgadas, textura firme, boa duração e labelo magenta ou purpúreo de forte contraste. Mudas provenientes de sementeira podem variar bastante em forma, coloração, número de flores e vigor; portanto, características comerciais observadas em um indivíduo não devem ser generalizadas para todo o cruzamento. Em cultivo, tende a responder bem ao manejo de Cattleyas bifoliadas, mas a sensibilidade radicular de C. schilleriana justifica cautela no replante. A planta responde melhor a recipientes pequenos, substrato grosseiro, raízes bem ventiladas e replante sincronizado com o novo enraizamento.",
+    "origem": "Híbrido horticultural brasileiro.",
     "regiao": "Sem distribuição natural.",
-    "habitat": "Cultivo sob parâmetros de Cattleyas bifoliadas brasileiras.",
-    "clima": "Quente a intermediário, claro e ventilado.",
+    "habitat": "Sem habitat natural · híbrido de Cattleya.",
+    "clima": "Quente a intermediário · ventilado.",
     "climaFloracao": "A floração depende de crescimento vegetativo completo, pseudobulbo firme, boa luminosidade e raízes funcionais. O híbrido tolera melhor o calor e pequenas oscilações de rega do que C. schilleriana pura, mas ainda sofre quando permanece em substrato velho ou úmido por tempo prolongado. Após o pseudobulbo amadurecer, uma redução moderada de água e nitrogênio ajuda a direcionar as reservas para a floração. Não necessita repouso seco rígido; a prioridade é impedir crescimento contínuo e mole causado por excesso de adubação e sombra.",
     "iluminacao": {
         "sombrite": "40% a 50%",

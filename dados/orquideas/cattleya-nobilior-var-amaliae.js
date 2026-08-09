@@ -23,11 +23,11 @@ export const cattleyaNobiliorVarAmaliae = {
         "imagens/Cattleya nobilior var. amaliae/Cattleya nobilior var. amaliae3.webp",
         "imagens/Cattleya nobilior var. amaliae/Cattleya nobilior var. amaliae4.webp"
     ],
-    descricao: "Cattleya nobilior é uma espécie botânica epífita, simpodial e bifoliada do Brasil e da Bolívia. A forma tradicionalmente conhecida como var. amaliae é particularmente associada ao Cerrado do Brasil Central e permanece muito valorizada horticulturalmente, embora atualmente não seja tratada por Kew como variedade taxonômica separada. Forma pseudobulbos curtos e robustos, normalmente com duas folhas coriáceas, e produz flores grandes, arredondadas, cerosas e perfumadas. Na forma amaliae predominam tons rosa-claro a rosa-lilás, com labelo mais intenso e garganta amarelada, podendo ocorrer veios púrpura. O cultivo exige muita luz, ventilação constante e forte diferença entre a estação de crescimento úmida e o período de repouso muito mais seco.",
-    origem: "Brasil Central.",
-    regiao: "Goiás, Tocantins e áreas próximas do Cerrado.",
-    habitat: "Epífita de árvores baixas e ambientes abertos do Cerrado.",
-    clima: "Quente, muito luminoso e sazonal, com inverno seco.",
+    descricao: "Cattleya nobilior é uma espécie botânica epífita, simpodial e bifoliada do Brasil e da Bolívia. A forma tradicionalmente conhecida como var. amaliae é particularmente associada ao Cerrado do Brasil Central e permanece muito valorizada horticulturalmente, embora POWO atualmente inclua tanto var. amaliae quanto f. amaliae na sinonímia de Cattleya nobilior. A localidade-tipo é associada a Taguatinga, Tocantins, e observações de habitat mostram populações muito especializadas em faixas de Cerrado com estação seca intensa e preferência por determinados forófitos. Forma pseudobulbos curtos e robustos, normalmente com duas folhas coriáceas, e produz flores grandes, arredondadas, cerosas e perfumadas. Na forma amaliae predominam tons rosa-claro a rosa-lilás, com labelo mais intenso e garganta amarelada, podendo ocorrer veios púrpura. O cultivo exige muita luz, ventilação constante e forte diferença entre a estação de crescimento úmida e o período de repouso muito mais seco.",
+    origem: "Brasil Central · Cerrado.",
+    regiao: "N. Goiás, Tocantins e SO da Bahia.",
+    habitat: "Cerrado decíduo · árvores baixas.",
+    clima: "Quente · muito luminoso · inverno seco.",
     climaFloracao: "A floração é favorecida por pseudobulbos completamente maduros, luminosidade muito alta e forte redução hídrica no período seco. A planta frequentemente emite crescimento floral especializado e sem folhas a partir da região basal ou rizomatosa. O princípio correto é reproduzir a sazonalidade: crescimento com água e nutrição suficientes, seguido de repouso realmente mais seco, mas sem permitir desidratação severa e prolongada.",
     iluminacao: {
         sombrite: "30% a 50% — cerca de 40% como ponto inicial",

@@ -20,11 +20,11 @@ export const cattleyaPumpkinFestival = {
         "imagens/Cattleya Pumpkin Festival/Cattleya Pumpkin Festival3.png",
         "imagens/Cattleya Pumpkin Festival/Cattleya Pumpkin Festival4.png"
     ],
-    descricao: "Cattleya Pumpkin Festival é um híbrido complexo da aliança Cattleya, registrado originalmente como Sophrolaeliocattleya Pumpkin Festival. Resulta do cruzamento entre Cattleya Naomi Kerns e Cattleya Waianae Sunset. Destaca-se pelo crescimento vigoroso e pelas flores grandes, firmes e cerosas, geralmente em tons de laranja intenso, abóbora ou cobre, com labelo ondulado e garganta amarela. Floresce melhor sob alta luminosidade, excelente ventilação e ciclos rápidos de molhamento e secagem.",
-    origem: "Híbrido horticultural registrado.",
-    regiao: "Não possui distribuição natural; é cultivado em coleções e orquidários.",
-    habitat: "Não possui habitat natural. Seu manejo segue o padrão dos híbridos modernos da aliança Cattleya, com raízes muito arejadas, luminosidade elevada e secagem entre as regas.",
-    clima: "Quente a intermediário.",
+    descricao: "Cattleya Pumpkin Festival é um híbrido complexo da aliança Cattleya, registrado originalmente como Sophrolaeliocattleya Pumpkin Festival. Resulta do cruzamento entre Cattleya Naomi Kerns e Cattleya Waianae Sunset, parentagem corroborada pelos registros genealógicos do OrchidRoots em descendentes registrados de Pumpkin Festival. Destaca-se pelo crescimento vigoroso e pelas flores grandes, firmes e cerosas, geralmente em tons de laranja intenso, abóbora ou cobre, com labelo ondulado e garganta amarela. Floresce melhor sob alta luminosidade, excelente ventilação e ciclos rápidos de molhamento e secagem.",
+    origem: "Híbrido horticultural.",
+    regiao: "Sem distribuição natural.",
+    habitat: "Sem habitat natural · aliança Cattleya.",
+    clima: "Quente a intermediário · luminoso.",
     climaFloracao: "A floração é favorecida pela maturação completa dos pseudobulbos, luminosidade intensa, boa ventilação, leve redução das regas após o crescimento e noites ligeiramente mais frescas. Clones vigorosos podem apresentar florações secundárias fora da época principal.",
     iluminacao: {
         sombrite: "40% a 50%",

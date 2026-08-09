@@ -4,6 +4,7 @@ export const cattleyaLueddemannianaTipo = {
     id: "cattleya-lueddemanniana-tipo",
     nome: "Cattleya lueddemanniana",
     genero: "Cattleya",
+    sinonimo: "Cattleya roezlii",
     tipo: "Espécie botânica — forma tipo",
     dificuldade: "Fácil a moderada",
     caracteristicas: [
@@ -18,11 +19,11 @@ export const cattleyaLueddemannianaTipo = {
         "imagens/Cattleya lueddemanniana/Cattleya lueddemanniana3.jpg",
         "imagens/Cattleya lueddemanniana/Cattleya lueddemanniana4.jpg"
     ],
-    descricao: "Uma das grandes Cattleyas unifoliadas da Venezuela, descrita por Reichenbach em 1854 e célebre pelas flores amplas, cerosas e perfumadas. Produz pseudobulbos robustos, geralmente segmentados, com uma única folha coriácea no ápice. As flores variam do rosa ao rosa-lilás e exibem labelo muito ornamentado em púrpura, com áreas amarelas ou douradas na garganta. Apesar do aspecto sofisticado, é vigorosa e adaptável quando recebe luz alta, raízes arejadas e secagem rápida entre as regas.",
-    origem: "Venezuela.",
-    regiao: "Cordilheira da Costa, no norte da Venezuela.",
-    habitat: "Epífita de florestas abertas e ambientes tropicais sazonais, incluindo localidades quentes de baixa altitude, sob alta luminosidade e forte ventilação.",
-    clima: "Quente a intermediário, luminoso e bem ventilado.",
+    descricao: "Uma das grandes Cattleyas unifoliadas do norte da Venezuela, descrita por Heinrich Gustav Reichenbach em 1854 e célebre pelas flores amplas, cerosas e perfumadas. Produz pseudobulbos robustos, geralmente segmentados, com uma única folha coriácea no ápice. As flores variam do rosa ao rosa-lilás e exibem labelo muito ornamentado em púrpura, com áreas amarelas ou douradas na garganta. Apesar do aspecto sofisticado, é vigorosa e adaptável quando recebe luz alta, raízes arejadas e secagem rápida entre as regas.",
+    origem: "Norte da Venezuela.",
+    regiao: "Cordilheira da Costa venezuelana.",
+    habitat: "Florestas tropicais úmidas · epífita.",
+    clima: "Quente a intermediário · ventilado.",
     climaFloracao: "A planta amadurece o pseudobulbo antes de desenvolver a inflorescência. A espata pode amarelar ou secar externamente e ainda permanecer funcional, protegendo botões que surgirão semanas depois. Após a maturação, aumente gradualmente o intervalo entre as regas, sem impor seca absoluta. Boa luz, raízes sadias e crescimento completo são mais importantes que qualquer tentativa de forçar a floração.",
     iluminacao: {
         sombrite: "40% a 60% — 50% como referência inicial",
