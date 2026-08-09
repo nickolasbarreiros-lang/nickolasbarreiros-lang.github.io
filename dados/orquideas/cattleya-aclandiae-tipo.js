@@ -1,18 +1,19 @@
-// Ficha científica e de cultivo revisada — Refinamento Lote 10.
+// Ficha científica e de cultivo — Refinamento Final, Lote 06.
 
 export const cattleyaAclandiaeTipo = {
     id: "cattleya-aclandiae-tipo",
     nome: "Cattleya aclandiae",
     genero: "Cattleya",
+    sinonimo: "Epidendrum aclandiae",
     tipo: "Espécie botânica — forma tipo",
     dificuldade: "Exigente",
     caracteristicas: [
         "Endêmica da Bahia",
         "Miniatura bifoliada",
-        "Flores grandes e pintalgadas",
-        "Perfume moderado",
-        "Luz muito alta",
-        "Cultivo montado"
+        "Planta de 8–13 cm",
+        "Flores de 6–10 cm",
+        "Perfume picante",
+        "Luz muito alta"
     ],
     fotos: [
         "imagens/Cattleya aclandiae/Cattleya aclandiae1.jpg",
@@ -20,30 +21,30 @@ export const cattleyaAclandiaeTipo = {
         "imagens/Cattleya aclandiae/Cattleya aclandiae3.webp",
         "imagens/Cattleya aclandiae/Cattleya aclandiae4.jpg"
     ],
-    descricao: "Cattleya aclandiae Lindl. é uma das menores Cattleyas bifoliadas e uma espécie endêmica da Bahia. Forma pseudobulbos curtos e cilíndricos, normalmente com duas folhas espessas e coriáceas, frequentemente marcadas por pontuações avermelhadas, púrpuras ou escuras que fazem parte da pigmentação natural e não devem ser confundidas automaticamente com doença. Apesar do porte reduzido, produz uma ou duas flores proporcionalmente muito grandes, cerosas e perfumadas, com sépalas e pétalas verde-amareladas ou oliva densamente pintalgadas de castanho, chocolate ou púrpura e labelo magenta intenso. Em cultivo, destaca-se pela exigência de raízes extremamente aeradas e pela sensibilidade ao replantio fora da época correta.",
+    descricao: "Cattleya aclandiae Lindl., publicada em 1840, é uma espécie aceita e endêmica da Bahia. O nome homenageia Lady Ackland, entusiasta inglesa de orquídeas do século XIX. É uma das menores Cattleyas bifoliadas: Cattleya Source registra planta adulta em torno de 3–5 polegadas (aprox. 8–13 cm), enquanto IOSPE informa flores extraordinariamente grandes para o porte, com cerca de 6–10 cm. Os pseudobulbos são curtos, delgados, articulados e sulcados, normalmente com duas folhas apicais espessas, carnosas e frequentemente pontuadas de vermelho ou púrpura — pigmentação natural que não deve ser confundida automaticamente com doença. A inflorescência é terminal e curta, surgindo entre as folhas em desenvolvimento, com uma ou duas flores cerosas, duráveis e de perfume picante. Sépalas e pétalas variam de verde-amarelado a oliva, densamente marcadas de castanho, chocolate ou púrpura, contrastando com labelo magenta. Kew situa a espécie no bioma tropical sazonalmente seco da Bahia; IOSPE acrescenta ocorrência perto do litoral, aproximadamente entre 100 e 400 m, sobre árvores de casca rugosa expostas a brisas marítimas e pouca chuva. Essa ecologia explica por que raízes livres, luz alta e secagem rápida são mais importantes que simplesmente reduzir a quantidade total de água.",
     origem: "Brasil.",
-    regiao: "Bahia, em áreas quentes de baixa altitude, aproximadamente entre 100 e 400 m.",
-    habitat: "Epífita de áreas quentes, relativamente secas e muito ventiladas, frequentemente sobre árvores de casca rugosa próximas à influência litorânea.",
-    clima: "Quente, muito luminoso, ventilado e com período mais seco.",
-    climaFloracao: "A floração depende de pseudobulbos maduros, muita luz e raízes saudáveis. A espécie tolera calor de baixa altitude e responde muito bem ao litoral, mas perde rapidamente vigor quando raízes ficam abafadas. Um inverno ou período de menor atividade pode ser mais seco, sem necessidade de desidratação severa.",
+    regiao: "Bahia · endêmica.",
+    habitat: "Áreas costeiras sazonais · 100–400 m.",
+    clima: "Quente · luminoso, ventilado e sazonalmente seco.",
+    climaFloracao: "IOSPE relata floração no verão e outono e também observa que um inverno mais seco pode anteceder floração na primavera/início do verão conforme o ciclo de crescimento. Em vez de escolher uma única janela rígida, a ficha deve refletir essa variabilidade. O estímulo principal é a maturação de crescimento forte sob muita luz, seguida por período relativamente mais seco, sem desidratação severa. No litoral quente, a espécie está termicamente bem adaptada; o risco maior é abafamento radicular.",
     iluminacao: {
-        sombrite: "30% a 50% — 40% a 50% como referência inicial em Serra/ES",
-        solDireto: "Sim, muito suave e com aclimatação",
+        sombrite: "30% a 50% — ~40% a 50% como início no litoral quente",
+        solDireto: "Tolera sol suave após aclimatação",
         horario: "Primeiras horas da manhã",
-        observacoes: "É uma das Cattleyas mais tolerantes à luminosidade alta. Em Serra/ES, comece com 40% a 50% de sombreamento. Folhas firmes e crescimento compacto são indicadores melhores que perseguir uma cor exata. Pontuações avermelhadas ou escuras podem ser pigmentação natural da espécie."
+        observacoes: "É uma das Cattleyas mais tolerantes a luz alta. Crescimento compacto, folhas firmes e pseudobulbos fortes são os melhores indicadores. As pintas avermelhadas ou púrpuras das folhas podem ser pigmentação normal da espécie."
     },
-    floracao: "Principalmente da primavera ao verão, podendo avançar para o início do outono. Como referência prática: outubro a março.",
-    adubacao: "🌿 Orgânica: Bokashi é opcional e deve ser mínimo, preferencialmente em porta-adubo e distante das raízes.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose a cada 7 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: em planta montada é dispensável; em pequeno cesto pode-se usar pouquíssimos grânulos. Não é necessário usar adubo 09-45-15 para induzir floração.",
-    rega: "Durante crescimento ativo, regue generosamente e permita secagem muito rápida com forte entrada de ar. Em montagem, pode precisar de água frequente no verão de Serra/ES. No período de menor crescimento, aumente o intervalo entre regas, sem manter a planta apenas com borrifos se os pseudobulbos começarem a desidratar demais.",
-    suporte: "🥇 Cortiça natural ou galho de casca rugosa.\n🥈 Madeira dura com boa textura para aderência das raízes.\n🥉 Pequeno cachepô de madeira extremamente aberto e com pouco substrato.",
-    substrato: "🥇 Cultivo montado sem substrato.\n🥈 Madeira/cortiça com quantidade mínima de fibra apenas durante estabelecimento.\n🥉 Em cesto ou vaso muito aberto: carvão grosso + pedra-pomes + brita ou caco de cerâmica.\nEvite esfagno compactado como meio principal.",
-    errosComuns: "• Vaso grande ou plástico fechado.\n• Esfagno compactado e raízes permanentemente úmidas.\n• Replantar fora do início de enraizamento novo.\n• Sombra excessiva.\n• Secar demais durante crescimento ativo.\n• Enterrar o rizoma.\n• Confundir pigmentação natural das folhas com doença e aplicar tratamentos desnecessários.\n• Adubação concentrada.",
-    dica: "🏆 Replante apenas quando a planta estiver pronta para refazer as raízes. Sempre que possível, mantenha Cattleya aclandiae montada em cortiça ou madeira rugosa e evite removê-la do suporte por estética. Quando precisar intervir, espere aparecerem as primeiras pontas de raízes novas. Raízes antigas aderidas são sensíveis e, se muito danificadas, a recuperação pode ser lenta. Em Serra/ES, o segredo não é dar pouca água: é dar água sem abafamento.",
+    floracao: "Pode florescer da primavera ao outono conforme o ciclo do crescimento, com maior concentração em períodos quentes. Produz normalmente 1–2 flores de cerca de 6–10 cm, cerosas, duráveis e perfumadas, extremamente grandes em relação à planta.",
+    adubacao: "🌿 Orgânica: Bokashi é opcional e deve ser mínimo, preferencialmente em porta-adubo e longe das raízes.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose a cada 7 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: dispensável em montagem; em pequeno cesto use pouquíssimos grânulos. Fórmulas extremamente fosfatadas não são necessárias para induzir floração.",
+    rega: "Durante crescimento ativo, regue generosamente e permita secagem muito rápida, com forte circulação de ar. Plantas montadas podem exigir regas frequentes no verão quente. No período de menor atividade, aumente os intervalos e reproduza uma estação relativamente mais seca, mas não deixe pseudobulbos desidratarem severamente. A regra é água abundante quando ativa e secagem rápida sempre.",
+    suporte: "🥇 Cortiça natural ou galho de casca rugosa.\n🥈 Madeira dura e texturizada, com ampla exposição das raízes.\n🥉 Pequeno cachepô de madeira extremamente aberto e com pouco substrato.",
+    substrato: "🥇 Cultivo montado sem substrato.\n🥈 Madeira/cortiça com quantidade mínima de fibra apenas durante o estabelecimento.\n🥉 Em cesto muito aberto: carvão grosso + pedra-pomes + brita ou caco de cerâmica.\nEvite esfagno compactado como meio principal.",
+    errosComuns: "• Vaso grande ou fechado.\n• Esfagno compacto e raízes permanentemente úmidas.\n• Replantar fora do início de emissão de novas raízes.\n• Sombra excessiva.\n• Secar demais durante crescimento ativo.\n• Enterrar o rizoma.\n• Confundir pigmentação natural das folhas com doença.\n• Adubação concentrada.\n• Manter planta fria e molhada durante período de menor atividade.",
+    dica: "🏆 Replante somente quando a planta estiver pronta para emitir raízes novas. Cattleya aclandiae adere fortemente ao suporte e reage mal a danos extensos em raízes antigas. Sempre que possível, mantenha-a montada em cortiça ou madeira rugosa por muitos anos. Se for necessário intervir, espere as primeiras pontas de raízes novas. No litoral quente, não tente cultivá-la 'seca' o tempo todo: dê bastante água durante atividade, mas faça essa água desaparecer rapidamente com ventilação e raízes expostas.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente, 5/5. O calor de Serra/ES é compatível com o habitat baiano; priorize luz alta, ventilação constante e raízes muito livres.",
-        montanhaFrio: "Pode ser cultivada, mas proteja de frio prolongado e umidade noturna em temperaturas baixas. Reduza regas quando a secagem ficar lenta."
+        litoralQuente: "Excelente. O calor e a sazonalidade são compatíveis com o habitat baiano; luz alta, ventilação e raízes livres são determinantes.",
+        montanhaFrio: "Possível, mas proteja de frio prolongado e de umidade noturna quando a secagem ficar lenta."
     },
-    mesesFloracao: [10, 11, 12, 1, 2, 3],
+    mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
     avaliacoes: {
         cultivo: 4,
         floracao: 4,
