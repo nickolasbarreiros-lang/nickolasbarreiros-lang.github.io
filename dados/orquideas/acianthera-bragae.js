@@ -6,8 +6,8 @@ export const aciantheraBragae = {
     dificuldade: "Moderada",
     origem: "Brasil — regiões Sudeste e Sul.",
     regiao: "Mata Atlântica do Sudeste e Sul do Brasil.",
-    habitat: "Espécie epífita ou litófita de ambiente tropical úmido, geralmente sombreado e bem ventilado. O nome aceito é Acianthera bragae (Ruschi) F.Barros; Physosiphon bragae é o basiônimo e Acianthera sarracenia/Pleurothallis sarracenia aparecem na sinonímia histórica.",
-    descricao: "Pequena orquídea brasileira da Pleurothallidinae, de hábito compacto a reptante, ramicaules curtos e folhas carnosas. As flores podem atingir aproximadamente 1,5 a 2 cm, relativamente grandes em proporção ao vegetal. O cultivo exige umidade contínua sem água estagnada na base.",
+    habitat: "Espécie epífita ou litófita de ambiente tropical úmido, geralmente sombreado e bem ventilado. ",
+    descricao: "Pequena orquídea brasileira da Pleurothallidinae, de hábito compacto a reptante, ramicaules curtos e folhas carnosas. As flores podem atingir aproximadamente 1,5 a 2 cm, relativamente grandes em proporção ao vegetal. O cultivo exige umidade contínua sem água estagnada na base.O nome aceito é Acianthera bragae (Ruschi) F.Barros; Physosiphon bragae é o basiônimo e Acianthera sarracenia/Pleurothallis sarracenia aparecem na sinonímia histórica.",
     caracteristicas: ["Endêmica do Brasil", "Sudeste e Sul", "Epífita ou litófita", "Flores ~1,5–2 cm", "Pleurothallidinae", "Umidade ventilada"],
     fotos: [
         "imagens/Acianthera bragae/Acianthera bragae1.jpg",

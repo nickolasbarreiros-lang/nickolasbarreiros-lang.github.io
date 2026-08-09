@@ -6,8 +6,8 @@ export const aciantheraAveniformis = {
     dificuldade: "Moderada",
     origem: "Brasil — Sul do país, associada à Mata Atlântica.",
     regiao: "Mata Atlântica do Sul do Brasil, em florestas tropicais úmidas.",
-    habitat: "Micro-orquídea epífita de hábito reptante, encontrada sobre troncos e ramos em ambiente úmido e sombreado. O nome atualmente aceito em bases taxonômicas modernas é Pabstiella aveniformis (Hoehne) Luer; Acianthera aveniformis é mantido no Orquidário Digital para preservar a identificação histórica e o ID do catálogo.",
-    descricao: "Micro-orquídea brasileira da Pleurothallidinae, historicamente conhecida como Pleurothallis aveniformis. Possui crescimento reptante, ramicaules muito curtos, folhas pequenas e flores extremamente diminutas, em torno de 3 mm. Em cultivo exige umidade constante sem abafamento radicular, com excelente circulação de ar.",
+    habitat: "Micro-orquídea epífita de hábito reptante, encontrada sobre troncos e ramos em ambiente úmido e sombreado.",
+    descricao: "Micro-orquídea brasileira da Pleurothallidinae, historicamente conhecida como Pleurothallis aveniformis. Possui crescimento reptante, ramicaules muito curtos, folhas pequenas e flores extremamente diminutas, em torno de 3 mm. Em cultivo exige umidade constante sem abafamento radicular, com excelente circulação de ar.O nome atualmente aceito em bases taxonômicas modernas é Pabstiella aveniformis (Hoehne) Luer; Acianthera aveniformis é mantido no Orquidário Digital para preservar a identificação histórica e o ID do catálogo.",
     caracteristicas: ["Micro-orquídea", "Crescimento reptante", "Mata Atlântica", "Flores ~3 mm", "Alta umidade", "Pleurothallidinae"],
     fotos: [
         "imagens/Acianthera aveniformis/Acianthera aveniformis1.jpeg",
