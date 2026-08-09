@@ -1,34 +1,42 @@
-// Ficha científica e de cultivo revisada — Refinamento Bulbophyllum.
+// Revisão final — Lote 05.
 
 export const bulbophyllumRoxburghii = {
     id: "bulbophyllum-roxburghii",
     nome: "Bulbophyllum roxburghii",
     genero: "Bulbophyllum",
-    sinonimo: "Bulbophyllum sikkimense; Cirrhopetalum sikkimense",
+    sinonimo: "Bulbophyllum sikkimense",
     tipo: "Espécie botânica epífita asiática",
     dificuldade: "Fácil a moderada",
-    caracteristicas: ["Sinônimo B. sikkimense", "Umbela ornamental", "Clima quente", "Baixa altitude", "Umidade elevada", "Meia-sombra"],
+    caracteristicas: ["Umbela multiflora", "Rizoma rastejante", "Baixa altitude", "Clima quente", "Flores ~2 cm", "Primavera ao verão"],
     fotos: [
         "imagens/Bulbophyllum roxburghii/Bulbophyllum roxburghii1.jpg",
         "imagens/Bulbophyllum roxburghii/Bulbophyllum roxburghii2.jpg",
         "imagens/Bulbophyllum roxburghii/Bulbophyllum roxburghii3.jpg",
         "imagens/Bulbophyllum roxburghii/Bulbophyllum roxburghii4.jpg"
     ],
-    descricao: "Bulbophyllum roxburghii (Lindl.) Rchb.f. é uma espécie epífita do nordeste da Índia e Himalaia Oriental, muito conhecida em coleções pelo antigo nome Bulbophyllum sikkimense. Apesar dessa associação nominal com Sikkim, não é uma espécie alpina: referências horticulturais a registram em vales tropicais por volta de 300 m de altitude e a classificam como de crescimento quente. Forma pseudobulbos pequenos e unifoliados ao longo de rizoma rastejante e produz inflorescências basais terminando em umbela semicircular, com flores claras a amareladas marcadas por estrias ou pintas vermelhas a púrpuras e labelo contrastante. Em Serra/ES, adapta-se muito bem quando recebe meia-sombra, umidade regular e circulação constante de ar.",
-    origem: "Sul da Ásia.",
-    regiao: "Assam, Sikkim e Himalaia Oriental.",
-    habitat: "Epífita de vales tropicais e florestas quentes de baixa altitude, em torno de 300 m.",
-    clima: "Quente a intermediário, úmido e ventilado.",
-    climaFloracao: "A planta não necessita frio intenso nem repouso seco severo. A floração é favorecida por pseudobulbos maduros, raízes ativas, boa meia-sombra e leve sazonalidade de rega. No período mais fresco, apenas reduza moderadamente a frequência conforme a secagem diminuir.",
-    iluminacao: { sombrite: "60% a 70%", solDireto: "Não necessário", horario: "Luz filtrada ao longo do dia", observacoes: "Prefere meia-sombra clara. Em Serra/ES, evite sol direto forte e também sombra profunda. A luminosidade adequada mantém folhas firmes e crescimento consistente sem aquecimento excessivo do rizoma." },
-    floracao: "Referências de espécie apontam floração no período mais fresco/inverno. Para o calendário do site, junho a agosto é uma referência prática, com possibilidade de variação conforme clone e adaptação ao cultivo brasileiro.",
-    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e colocado na borda do recipiente durante a brotação.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose baixa e sempre afastado do rizoma e das raízes novas. Após a maturação dos pseudobulbos, reduza a frequência da adubação.",
-    rega: "Regue regularmente durante crescimento e mantenha o meio levemente úmido, mas nunca encharcado. Não imponha repouso seco. Nos meses mais frescos ou de menor atividade, apenas aumente moderadamente os intervalos conforme a secagem do recipiente.",
-    suporte: "🥇 Cesto ou cachepô raso e largo.\n🥈 Vaso plástico tipo cuia muito perfurado.\n🥉 Placa de cortiça ou madeira com pequena reserva de umidade junto às raízes.",
-    substrato: "🥇 Casca de pinus média + pedra-pomes + carvão vegetal + pequena quantidade de esfagno solto.\n🥈 Esfagno de fibra longa solto + pedra-pomes.\n🥉 Fibra de coco grossa tratada + pedra-pomes + carvão.\nO meio deve permanecer aerado, com retenção moderada.",
-    errosComuns: "• Cultivar como espécie alpina ou de frio intenso.\n• Impor repouso seco severo.\n• Compactar esfagno.\n• Usar recipiente fundo e fechado.\n• Manter sombra excessiva.\n• Expor ao sol forte direto.\n• Reduzir ventilação para segurar umidade.\n• Aplicar fertilizante concentrado.",
-    dica: "🏆 Não deixe o nome histórico B. sikkimense enganar o cultivo. Esta é uma espécie de vales tropicais de baixa altitude e crescimento quente. Em Serra/ES, ofereça 60% a 70% de sombra, umidade regular, recipiente raso e boa circulação de ar. No período mais fresco, reduza apenas moderadamente as regas. O objetivo é calor moderado, raízes úmidas e oxigenadas e ausência de estagnação.",
-    adaptacaoRegional: { litoralQuente: "Excelente, 5/5. O calor de Serra/ES combina muito bem com sua origem de baixa altitude; o maior risco é abafamento com substrato saturado.", montanhaFrio: "Tolera noites amenas, mas não necessita frio intenso. Proteja de geadas e de secagem prolongada em períodos frios." },
-    mesesFloracao: [6, 7, 8],
+    descricao: "Bulbophyllum roxburghii (Lindl.) Rchb.f. é uma espécie aceita por POWO, distribuída do leste do Nepal a Bangladesh, com registros nativos para Assam e Himalaia Oriental. O conhecido Bulbophyllum sikkimense é atualmente tratado por Kew como sinônimo heterotípico, embora literatura horticultural antiga ainda o separe por pequenas diferenças visuais. A espécie forma pseudobulbos subglobosos, unifoliados, espaçados sobre rizoma rastejante; as folhas são coriáceas, linear-oblongas a estreitamente elípticas. A inflorescência é basal, ereta e fina, chegando a cerca de 20 cm na descrição tradicional de B. roxburghii, terminando em umbela de aproximadamente 5 a 12 flores. No conceito histórico de B. sikkimense, IOSPE registra inflorescência de cerca de 5 cm com 10 a 12 flores e flor individual de aproximadamente 2 cm, em plantas de 300 a 500 m. As flores são claras, marcadas por vermelho a púrpura. O epíteto roxburghii homenageia o botânico William Roxburgh. A ecologia de baixa altitude e a literatura de cultivo indicam crescimento predominantemente quente, não alpino.",
+    origem: "Himalaia Oriental.",
+    regiao: "E Nepal · Assam · Bangladesh.",
+    habitat: "Florestas úmidas · ~300–500 m.",
+    clima: "Quente a intermediário.",
+    climaFloracao: "A associação com Sikkim pode sugerir erroneamente uma planta fria, mas o material histórico de B. sikkimense registra 300–500 m e crescimento quente a intermediário. IOSPE aponta floração na primavera para esse conceito, enquanto referências de B. roxburghii estendem a janela para primavera e verão. No litoral quente, não é necessário buscar frio intenso; uma pequena queda noturna, maturação completa dos pseudobulbos e luz filtrada clara são suficientes para favorecer a floração.",
+    iluminacao: {
+        sombrite: "60% a 70%",
+        solDireto: "Evitar sol forte",
+        horario: "Luz filtrada ao longo do dia",
+        observacoes: "Tolera boa luminosidade filtrada, mas as folhas aquecem rapidamente sob sol direto. Sombra excessiva pode produzir crescimento verde e alongado com menos flores."
+    },
+    floracao: "Principalmente da primavera ao verão. Como referência prática para o Brasil: setembro a fevereiro, podendo antecipar ou atrasar conforme clone e condições locais.",
+    adubacao: "🌿 Orgânica: Bokashi em pequena quantidade na borda do recipiente ou em sachê.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração a cada 10 a 15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: Osmocote em dose baixa, afastado do rizoma. Reduza quando os pseudobulbos amadurecerem e faça lavagem periódica do meio com água limpa.",
+    rega: "Regue regularmente no crescimento, mantendo leve umidade sem saturação. A espécie não requer repouso seco severo. Após a maturação, aumente discretamente o intervalo entre regas apenas se temperatura e evaporação diminuírem.",
+    suporte: "🥇 Cesto/cachepô raso e largo.\n🥈 Vaso tipo cuia muito perfurado.\n🥉 Placa de cortiça ou madeira com pequena reserva de umidade.\nSempre preserve espaço lateral para o rizoma avançar.",
+    substrato: "🥇 Casca de pinus média + pedra-pomes + carvão + pouco esfagno.\n🥈 Esfagno de fibra longa solto + pedra-pomes.\n🥉 Fibra de coco grossa tratada + carvão + pedra-pomes.\nEvite material fino e compactação.",
+    errosComuns: "• Tratar B. sikkimense como espécie aceita separada sem explicar a taxonomia atual.\n• Cultivar como espécie alpina.\n• Impor repouso totalmente seco.\n• Manter sombra profunda.\n• Usar recipiente fundo e pouco ventilado.\n• Enterrar o rizoma.\n• Manter calor com substrato saturado e sem circulação.\n• Aplicar fertilizante concentrado.",
+    dica: "🏆 A melhor leitura do habitat é simples: apesar do nome histórico sikkimense, trata-se de uma orquídea de contrafortes e vales baixos, não de alta montanha. No litoral quente, mantenha a planta sob 60% a 70% de sombra, com raízes úmidas e aeradas, e não tente induzir floração por frio ou seca severos.",
+    adaptacaoRegional: {
+        litoralQuente: "Excelente. A ecologia de baixa altitude é compatível com calor, desde que haja ventilação e drenagem rápida.",
+        montanhaFrio: "Boa, mas sem necessidade de frio intenso; proteja de geadas e de longos períodos frios com o meio encharcado."
+    },
+    mesesFloracao: [9, 10, 11, 12, 1, 2],
     avaliacoes: { cultivo: 2, floracao: 4, perfume: 2, luminosidade: 3, agua: 4, raridade: 3 }
 };

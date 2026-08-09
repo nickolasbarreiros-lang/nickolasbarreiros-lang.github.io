@@ -1,4 +1,4 @@
-// Ficha científica e de cultivo revisada — Refinamento Bulbophyllum.
+// Revisão final — Lote 05.
 
 export const bulbophyllumSaltatoriumVarAlbociliatum = {
     id: "bulbophyllum-saltatorium-var-albociliatum",
@@ -7,28 +7,36 @@ export const bulbophyllumSaltatoriumVarAlbociliatum = {
     sinonimo: "Bulbophyllum miniatum",
     tipo: "Variedade botânica epífita africana",
     dificuldade: "Moderada",
-    caracteristicas: ["Miniatura africana", "Sinônimo B. miniatum", "Margens ciliadas claras", "Labelo móvel", "Clima quente", "Alta umidade"],
+    caracteristicas: ["Variedade aceita", "Miniatura africana", "Margens ciliadas", "Labelo móvel", "Floresta úmida", "Clima quente"],
     fotos: [
         "imagens/Bulbophyllum saltatorium var. albociliatum/Bulbophyllum saltatorium var. albociliatum1.jpg",
         "imagens/Bulbophyllum saltatorium var. albociliatum/Bulbophyllum saltatorium var. albociliatum2.jpg",
         "imagens/Bulbophyllum saltatorium var. albociliatum/Bulbophyllum saltatorium var. albociliatum3.jpg",
         "imagens/Bulbophyllum saltatorium var. albociliatum/Bulbophyllum saltatorium var. albociliatum4.jpg"
     ],
-    descricao: "Bulbophyllum saltatorium var. albociliatum (Finet) J.J.Verm. é uma variedade botânica africana de hábito epífito e rastejante, amplamente conhecida em coleções pelo sinônimo Bulbophyllum miniatum. Distribui-se pela África Tropical Ocidental e Central, alcançando Uganda, sudoeste do Quênia e Angola, em florestas tropicais úmidas de baixa altitude. Forma pequenos pseudobulbos unifoliados ao longo de rizoma fino e produz inflorescências basais com várias flores em tons amarelos, alaranjados a avermelhados, marcadas por margens ciliadas claras e pelo típico labelo móvel e oscilante do gênero. É uma planta de clima quente, alta umidade e meia-sombra, mas exige que o rizoma permaneça descoberto e intensamente ventilado.",
+    descricao: "Bulbophyllum saltatorium var. albociliatum (Finet) J.J.Verm. é uma variedade aceita por Kew/POWO de B. saltatorium, distribuída da África Tropical Ocidental ao sudoeste do Quênia e Angola. O nome Bulbophyllum miniatum, ainda muito usado em coleções, é um de seus sinônimos taxonômicos mais conhecidos e por isso é o único exibido nesta ficha. Trata-se de epífita pseudobulbosa de rizoma rastejante, com pequenos pseudobulbos unifoliados e folhas coriáceas. As inflorescências são basais, pendentes e podem carregar diversas flores. Na revisão citada por IOSPE, a variedade albociliatum é maior em folhas, pseudobulbos, inflorescências e flores que a forma típica de B. saltatorium, com flores concentradas mais próximas do ápice da haste, e ocorre em torno de 750 m na África centro-ocidental. O grupo apresenta flores pequenas, em torno de 1,9 cm na espécie-base, com tons amarelos a alaranjados/avermelhados, estruturas ciliadas e labelo articulado, razão do nome comum inglês 'dancing Bulbophyllum'.",
     origem: "África Tropical.",
-    regiao: "África Ocidental e Central até Uganda, sudoeste do Quênia e Angola.",
-    habitat: "Epífita de florestas tropicais úmidas de baixa altitude.",
-    clima: "Quente, úmido, sombreado e muito ventilado.",
-    climaFloracao: "A floração depende de crescimento contínuo, raízes bem hidratadas e rizoma saudável. Não há necessidade de repouso seco. Referências da espécie indicam maior atividade no período mais fresco, embora plantas cultivadas possam variar conforme procedência e microclima.",
-    iluminacao: { sombrite: "60% a 70%", solDireto: "Não necessário", horario: "Luz filtrada ao longo do dia", observacoes: "Prefere meia-sombra. Em Serra/ES, 60% a 70% de sombreamento protege o tecido foliar do superaquecimento sem levar a sombra profunda. Boa ventilação é indispensável." },
-    floracao: "Predominantemente no período mais fresco/inverno, com referência prática entre junho e agosto. Pode variar conforme clone e condições de cultivo.",
-    adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante o crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose muito baixa e sempre afastado das raízes finas, do rizoma e dos pseudobulbos. Após a maturação dos novos crescimentos, reduza a frequência da adubação.",
-    rega: "Mantenha o sistema radicular com umidade leve e relativamente constante. Regue antes que o meio permaneça completamente seco por vários dias, mas assegure drenagem rápida e circulação de ar. Em cultivo montado, regas diárias podem ser necessárias no calor.",
-    suporte: "🥇 Cortiça ou galho rugoso com fina camada de esfagno apenas sob as raízes.\n🥈 Cesto raso e largo.\n🥉 Vaso tipo cuia muito perfurado, com rizoma sempre acima do meio.",
-    substrato: "🥇 Esfagno de fibra longa solto + pedra-pomes.\n🥈 Casca de pinus média + carvão vegetal pequeno + pequena quantidade de esfagno.\n🥉 Montagem em madeira ou cortiça com fina camada de esfagno exclusivamente sob as raízes.\nNunca cubra o rizoma ou a base dos pseudobulbos.",
-    errosComuns: "• Enterrar o rizoma.\n• Compactar esfagno.\n• Deixar a planta secar por vários dias.\n• Usar vaso profundo e fechado.\n• Manter calor e alta umidade sem ventilação.\n• Cultivar em sombra excessiva.\n• Aplicar fertilizante concentrado.\n• Interpretar umidade alta como necessidade de substrato permanentemente saturado.",
-    dica: "🏆 Deixe o rizoma respirar. Coloque apenas uma camada fina de esfagno sob as raízes, mantendo o rizoma e a base dos pseudobulbos completamente descobertos. Direcione a gema guia para a área livre do suporte ou cesto. Em Serra/ES, combine 60% a 70% de sombra, regas frequentes e ventilação constante. A meta é simples: raízes úmidas, rizoma seco e aerado e ar em movimento.",
-    adaptacaoRegional: { litoralQuente: "Excelente, 5/5. O clima quente e úmido de Serra/ES é compatível, desde que haja forte ventilação e substrato solto.", montanhaFrio: "Pode ser cultivada em clima intermediário, mas proteja de frio prolongado e reduza ligeiramente as regas quando a evaporação cair." },
+    regiao: "África O/C · Uganda · Quênia SW · Angola.",
+    habitat: "Florestas úmidas · ~750 m.",
+    clima: "Quente · úmido · ventilado.",
+    climaFloracao: "B. saltatorium é registrado como epífita quente de florestas abaixo de 900 m e floresce no inverno. A variedade albociliatum ocorre em torno de 750 m, sugerindo calor com alguma amenização noturna. No litoral quente, a floração deve ser estimulada por boa maturação dos pseudobulbos, luminosidade filtrada adequada e pequena queda sazonal de temperatura, não por repouso seco completo.",
+    iluminacao: {
+        sombrite: "60% a 70%",
+        solDireto: "Não recomendado",
+        horario: "Luz filtrada durante todo o dia",
+        observacoes: "Meia-sombra clara com ar em movimento. Evite sombra profunda e ambientes fechados: a espécie gosta de umidade, mas o rizoma precisa permanecer muito bem aerado."
+    },
+    floracao: "Predominantemente no período mais fresco/inverno. Junho a agosto é uma referência prática para o calendário brasileiro, com variação entre clones e microclimas.",
+    adubacao: "🌿 Orgânica: Bokashi em pequena dose e protegido em sachê.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose a cada 10 a 15 dias enquanto houver brotação e raízes ativas.\n🧪 Liberação lenta: Osmocote em dose muito baixa e afastado das raízes finas, rizoma e pseudobulbos. Faça lavagem periódica do meio com água limpa.",
+    rega: "Mantenha raízes levemente úmidas durante o crescimento. Regue antes que o meio permaneça completamente seco por vários dias, mas garanta drenagem imediata. Em montagem, a frequência pode ser diária no calor. Não deixe o rizoma constantemente molhado.",
+    suporte: "🥇 Cortiça ou galho rugoso com fina camada de esfagno sob as raízes.\n🥈 Cesto raso e largo.\n🥉 Vaso tipo cuia muito perfurado.\nO rizoma deve permanecer acima do meio.",
+    substrato: "🥇 Esfagno de fibra longa solto + pedra-pomes.\n🥈 Casca de pinus média + carvão + pequena quantidade de esfagno.\n🥉 Montagem em madeira/cortiça com esfagno apenas sob as raízes.\nNunca cubra o rizoma.",
+    errosComuns: "• Enterrar o rizoma.\n• Compactar esfagno.\n• Deixar a planta secar completamente por muitos dias.\n• Usar vaso profundo e fechado.\n• Confundir alta umidade com saturação permanente.\n• Cultivar em sombra profunda.\n• Aplicar fertilizante concentrado.\n• Forçar repouso seco para induzir flores.",
+    dica: "🏆 Deixe a estrutura rastejante respirar. Use uma camada fina de material úmido apenas sob as raízes e mantenha rizoma e pseudobulbos expostos. Em litoral quente, a combinação mais segura é 60% a 70% de sombra, água frequente, drenagem imediata e ventilação constante.",
+    adaptacaoRegional: {
+        litoralQuente: "Excelente. A origem tropical é favorável; ventilação e drenagem são os fatores decisivos.",
+        montanhaFrio: "Boa se protegida de frio prolongado; reduza regas conforme a evaporação cair, sem secar totalmente."
+    },
     mesesFloracao: [6, 7, 8],
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 3, agua: 5, raridade: 4 }
 };
