@@ -1,4 +1,5 @@
-// Ficha científica e de cultivo revisada — Refinamento Lote 06.
+// Ficha científica e de cultivo revisada — Refinamento Lote 09.
+// Conteúdo consolidado por comparação entre a ficha anterior e as informações complementares.
 
 export const cattleyaIntermedia = {
     id: "cattleya-intermedia",
@@ -6,28 +7,49 @@ export const cattleyaIntermedia = {
     genero: "Cattleya",
     tipo: "Espécie botânica bifoliada",
     dificuldade: "Fácil a moderada",
-    caracteristicas: ["Bifoliada", "Muito variável", "Rústica", "Flores perfumadas"],
+    caracteristicas: [
+        "Bifoliada clássica",
+        "Muito rústica",
+        "Grande variabilidade floral",
+        "Flores perfumadas",
+        "Excelente adaptação ao litoral"
+    ],
     fotos: [
         "imagens/Cattleya intermedia/Cattleya intermedia1.webp",
         "imagens/Cattleya intermedia/Cattleya intermedia2.jpg",
         "imagens/Cattleya intermedia/Cattleya intermedia3.jpg",
         "imagens/Cattleya intermedia/Cattleya intermedia4.jpg"
     ],
-    descricao: "Cattleya intermedia é uma espécie bifoliada brasileira de médio a grande porte, reconhecida pela rusticidade e extraordinária variabilidade de cores e padrões. Forma pseudobulbos cilíndricos e eretos com duas folhas rígidas e produz inflorescências terminais de flores perfumadas. Possui numerosas formas horticulturais, como orlata, aquinii, alba, coerulea e vinicolor, sendo uma excelente escolha para iniciantes.",
-    origem: "🌍 América do Sul",
-    regiao: "Faixa costeira e interior das regiões Sudeste e Sul do Brasil até o Paraguai.",
-    habitat: "Epífita em florestas abertas, restingas e matas de galeria, ou rupícola sobre rochas litorâneas, sempre com boa circulação de ar nas raízes.",
-    clima: "Intermediário a quente, muito adaptável.",
-    climaFloracao: "Floresce após a maturação completa do pseudobulbo, favorecida por boa luminosidade e ventilação. Exige apenas leve redução das regas no período frio, sem repouso seco severo.",
-    iluminacao: { sombrite: "40% a 60%", solDireto: "Sim, suave", horario: "Primeiras horas da manhã", observacoes: "Sombrite de 50% atende à maioria dos orquidários. Folhas verde-alface, firmes e pseudobulbos eretos indicam iluminação adequada." },
-    floracao: "Principalmente na primavera, entre agosto e novembro, com variações regionais e genéticas.",
-    adubacao: "🌿 Orgânica: bokashi em pequenas quantidades, renovado a cada 60 a 90 dias.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose semanalmente durante o crescimento.\n🧪 Maturação: alternar com fórmula rica em fósforo e potássio e usar Osmocote 14-14-14 sem contato com raízes novas.",
-    rega: "Regue abundantemente durante brotos e raízes novas, permitindo que o substrato seque parcialmente entre as irrigações. No inverno, reduza apenas ligeiramente conforme a temperatura e a ventilação; não necessita seca intensa.",
-    suporte: "🥇 Vaso de barro.\n🥈 Cachepô de madeira vazado.\n🥉 Placa de madeira dura em ambientes de alta umidade.",
-    substrato: "🥇 Casca de pinus média ou grossa + carvão + pedra-pomes.\n🥈 Brita + carvão + casca de pinus.\n🥉 Argila expandida + casca de pinus.",
-    errosComuns: "Sombra excessiva; enterrar o rizoma; vaso grande; substrato velho ou decomposto; falta de ventilação; manter o centro do vaso continuamente úmido.",
-    dica: "É uma das melhores Cattleyas para iniciantes. Mantenha o rizoma sobre o substrato e forneça luz suficiente para formar pseudobulbos firmes e evitar o aborto da espata floral.",
-    adaptacaoRegional: { litoralQuente: "Ótima adaptação; use substrato de secagem rápida, ventilação constante e proteção contra o sol forte da tarde.", montanhaFrio: "Adapta-se muito bem e tolera noites frescas; proteger apenas de geadas e longos períodos de chuva fria." },
-    mesesFloracao: [8,9,10,11],
-    avaliacoes: { cultivo: 2, floracao: 4, perfume: 3, luminosidade: 4, agua: 3, raridade: 2 }
+    descricao: "Cattleya intermedia Graham ex Hook. é uma das Cattleyas bifoliadas mais emblemáticas e adaptáveis da América do Sul. De porte médio, forma pseudobulbos cilíndricos e eretos, normalmente com duas folhas coriáceas, e pode desenvolver grandes touceiras quando cultivada sem divisões frequentes. Suas inflorescências terminais produzem várias flores perfumadas, geralmente em tons claros de rosa, lilás ou branco, com labelo mais intenso. É particularmente importante na orquidofilia pela extraordinária diversidade de formas horticulturais, incluindo alba, coerulea, orlata, vinicolor, flamea e formas pelóricas do grupo aquinii. Muitos desses nomes permanecem úteis horticulturalmente, embora nem sempre sejam aceitos atualmente como categorias taxonômicas separadas. É uma espécie muito indicada para iniciantes por tolerar calor, umidade atmosférica e diferentes suportes, desde que receba boa luminosidade, ventilação e raízes bem oxigenadas.",
+    origem: "Brasil e Paraguai.",
+    regiao: "Sudeste e Sul do Brasil, estendendo-se ao Paraguai.",
+    habitat: "Epífita ou ocasionalmente rupícola de restingas, matas abertas e formações costeiras ou sazonais muito ventiladas.",
+    clima: "Quente a intermediário, muito adaptável e bem ventilado.",
+    climaFloracao: "A floração depende sobretudo da maturação completa de pseudobulbos robustos sob boa luminosidade. Cattleya intermedia não necessita de repouso seco rigoroso: após o amadurecimento do crescimento, ajuste as regas à temperatura, ventilação e velocidade de secagem. Touceiras adultas com várias frentes acumulam mais reservas e podem produzir diversas inflorescências simultaneamente.",
+    iluminacao: {
+        sombrite: "40% a 60% — cerca de 50% como referência inicial",
+        solDireto: "Sim, suave e com aclimatação",
+        horario: "Primeiras horas da manhã",
+        observacoes: "Necessita luminosidade alta filtrada. O melhor indicador é o conjunto de pseudobulbos firmes e compactos, folhas rígidas em verde médio a verde-claro e floração regular. Sombra excessiva produz crescimento alongado e reduz a florada; sol forte sem aclimatação pode causar amarelecimento e queimaduras."
+    },
+    floracao: "A floração pode variar bastante conforme procedência e clone. Em cultivo brasileiro, é comum do fim do verão ao outono, com possibilidade de florações em outras épocas. Use fevereiro a maio como janela principal de referência, sem tratá-la como calendário rígido.",
+    adubacao: "🌿 Orgânica: Bokashi em pequena quantidade, preferencialmente em sachê ou porta-adubo, a cada 60 a 90 dias durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20 ou equivalente, em aproximadamente 1/4 a 1/3 da dose do fabricante a cada 7 a 15 dias enquanto brotos e raízes estiverem ativos.\n🧪 Liberação lenta: Osmocote 14-14-14 ou semelhante pode ser usado em dose moderada em vaso ou cachepô. Se houver adubo de liberação lenta, reduza a fertilização líquida. Não é necessário aplicar grandes doses de fósforo para induzir a floração.",
+    rega: "Durante brotação e emissão de raízes, regue abundantemente e permita que o substrato perca boa parte da umidade antes da próxima irrigação. No inverno ou em períodos de menor atividade, reduza somente conforme a secagem realmente ficar mais lenta. A espécie não exige seca forte; em dias quentes e ventilados, mesmo no inverno, pode continuar necessitando de regas regulares.",
+    suporte: "🥇 Cachepô de madeira vazado, especialmente adequado para formar grandes touceiras no litoral.\n🥈 Vaso de barro proporcional ao sistema radicular, oferecendo estabilidade e evaporação.\n🥉 Vaso plástico muito perfurado ou montagem em madeira para ambientes de alta umidade.",
+    substrato: "🥇 Casca de pinus média/grossa + carvão vegetal + pedra-pomes.\n🥈 Carvão + pedra-pomes ou brita + casca grossa, para máxima drenagem no litoral quente.\n🥉 Casca média + carvão + argila expandida, mantendo alguma retenção sem compactar.\nO rizoma deve permanecer sempre acima da superfície e o centro do vaso precisa continuar aerado.",
+    errosComuns: "• Enterrar o rizoma ou as gemas de brotação.\n• Sombra excessiva, que produz pseudobulbos finos e reduz a floração.\n• Vaso muito grande e com excesso de substrato úmido.\n• Substrato velho, ácido ou decomposto.\n• Replantar fora do início da emissão de raízes novas.\n• Manter o centro do recipiente constantemente molhado.\n• Secar excessivamente durante crescimento ativo.\n• Tentar compensar pouca luz com adubação forte.",
+    dica: "🏆 Mantenha o rizoma livre e replante apenas quando surgirem as primeiras pontas de raízes novas. Cattleya intermedia responde melhor quando o novo crescimento consegue colonizar imediatamente o recipiente. Em vez de perseguir uma cor exata de folha, observe raízes ativas, pseudobulbos robustos, folhas firmes e floração regular. Preserve touceiras grandes sempre que houver espaço: várias frentes maduras significam mais reservas e maior potencial de flores simultâneas.",
+    adaptacaoRegional: {
+        litoralQuente: "Excelente adaptação. Em Serra/ES, cerca de 50% de sombreamento, ventilação constante, boa água durante o crescimento e substrato aberto tornam esta uma das Cattleyas botânicas mais seguras para o litoral.",
+        montanhaFrio: "Adapta-se muito bem a noites frescas. Reduza a rega apenas quando a evaporação realmente cair e proteja de geadas e longos períodos de chuva fria."
+    },
+    mesesFloracao: [2, 3, 4, 5],
+    avaliacoes: {
+        cultivo: 2,
+        floracao: 4,
+        perfume: 3,
+        luminosidade: 4,
+        agua: 3,
+        raridade: 2
+    }
 };

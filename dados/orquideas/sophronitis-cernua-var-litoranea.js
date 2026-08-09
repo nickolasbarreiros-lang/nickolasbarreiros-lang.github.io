@@ -1,4 +1,5 @@
-// Ficha científica e de cultivo revisada — Lote 05.
+// Ficha científica e de cultivo revisada — Refinamento Lote 09.
+// "Forma litorânea" mantida como designação geográfica/horticultural; o táxon aceito permanece Cattleya cernua.
 
 export const sophronitisCernuaVarLitoranea = {
     id: "sophronitis-cernua-var-litoranea",
@@ -9,9 +10,11 @@ export const sophronitisCernuaVarLitoranea = {
     dificuldade: "Moderada",
     caracteristicas: [
         "Miniatura costeira",
+        "Ecótipo litorâneo",
         "Alta tolerância ao calor",
-        "Flores vermelho-alaranjadas",
-        "Exige vento constante"
+        "Flores laranja-avermelhadas",
+        "Cultivo montado",
+        "Ventilação muito alta"
     ],
     fotos: [
         "imagens/cattleya-cernua-forma-litoranea/cattleya-cernua-forma-litoranea-1.jpg",
@@ -19,32 +22,32 @@ export const sophronitisCernuaVarLitoranea = {
         "imagens/cattleya-cernua-forma-litoranea/cattleya-cernua-forma-litoranea-3.jpg",
         "imagens/cattleya-cernua-forma-litoranea/cattleya-cernua-forma-litoranea-4.jpg"
     ],
-    descricao: "Forma geográfica costeira de Cattleya cernua, tradicionalmente comercializada como Sophronitis cernua var. litoranea. A denominação indica um ecótipo de restingas e matas de baixada litorânea, embora a taxonomia moderna o mantenha dentro da espécie. Forma pequenas touceiras de pseudobulbos ovoides e produz cachos de flores laranja a vermelho-alaranjadas, com durabilidade aproximada de 20 a 30 dias. Destaca-se pela elevada tolerância ao calor, à umidade atmosférica e à maresia quando há ventilação abundante.",
-    origem: "🇧🇷 Brasil",
-    regiao: "Faixa costeira, restingas e matas de baixada do Sudeste e Sul do Brasil.",
-    habitat: "Epífita em vegetação praiana aberta, exposta a alta luminosidade, vento forte, maresia e elevada umidade do ar, mas com secagem rápida das raízes.",
-    clima: "Quente a intermediário, úmido e intensamente ventilado.",
-    climaFloracao: "A maturação completa dos pseudobulbos, luz abundante e ventilação contínua favorecem a floração. A umidade atmosférica elevada deve sempre ser acompanhada de secagem rápida das raízes.",
+    descricao: "Cattleya cernua (Lindl.) Van den Berg é uma miniatura epífita sul-americana, historicamente conhecida como Sophronitis cernua. A expressão 'forma litorânea' é usada horticulturalmente para identificar populações costeiras adaptadas a restingas e matas de baixada, sem necessidade de tratá-las como variedade taxonômica separada. Forma pequenas touceiras de pseudobulbos ovoides a subcilíndricos, cada um com uma folha apical curta, espessa e coriácea. As inflorescências são muito curtas e podem reunir várias flores junto à própria vegetação, em tons de laranja vivo, vermelho-alaranjado ou laranja-avermelhado. As populações costeiras se destacam pela tolerância ao calor, alta umidade atmosférica e exposição ocasional à névoa salina, desde que as raízes recebam muito ar. Tolerar maresia natural não significa que a planta deva ser irrigada com água salobra.",
+    origem: "Brasil costeiro.",
+    regiao: "Restingas e matas litorâneas do Sudeste e Sul.",
+    habitat: "Epífita de árvores e vegetação costeira muito ventilada.",
+    clima: "Quente, úmido, luminoso e com forte circulação de ar.",
+    climaFloracao: "A floração depende de touceira bem estabelecida, luminosidade alta, raízes ativas e ventilação constante. A umidade atmosférica pode ser elevada, mas o sistema radicular deve permanecer oxigenado e secar progressivamente depois das regas. A forma costeira não depende de frio intenso para sobreviver ou vegetar bem.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Sim, suave e após aclimatação",
-        horario: "Início da manhã até 09:00 ou 10:00",
-        observacoes: "Folhas verde-claras com bordas levemente purpúreas ou alaranjadas indicam boa luminosidade. Folhas verde-escuras sinalizam sombra excessiva."
+        solDireto: "Somente suave e com aclimatação",
+        horario: "Primeiras horas da manhã",
+        observacoes: "Precisa de boa luminosidade, mas não é necessário buscar bordas avermelhadas como meta. Folhas compactas, firmes e espessas em verde médio a verde-claro indicam bom equilíbrio. Escolha o ponto mais ventilado e luminoso, não necessariamente o mais alto do orquidário."
     },
-    floracao: "Concentra-se do outono ao inverno, entre abril e julho, podendo estender-se ao início da primavera em ambientes bem iluminados.",
-    adubacao: "🌿 Orgânica: dose mínima de Bokashi em sachê, sem contato com as raízes.\n💧 Foliar: NPK 20-20-20 em 1/8 a 1/4 da dose, a cada 7 a 15 dias durante o crescimento.\n🧪 Liberação lenta: escassos grânulos de Osmocote em porta-adubo, evitando salinização do pequeno sistema radicular.",
-    rega: "Regue abundantemente nas primeiras horas da manhã e permita que suporte e raízes sequem em poucas horas. Em montagem, pode receber regas diárias no verão. Em dias frios ou chuvosos, reduza drasticamente a frequência.",
-    suporte: "🥇 Placa de madeira dura.\n🥈 Galho de casca rugosa.\n🥉 Cortiça natural ou pequeno cachepô de madeira muito vazado.",
-    substrato: "🥇 Cultivo montado, sem substrato.\n🥈 Carvão grosso + pedra-pomes em cachepô aberto.\n🥉 Pouquíssima casca grossa apenas para estabilização. Evite esfagno; use somente uma camada mínima em climas excepcionalmente secos.",
-    errosComuns: "Confundir umidade do ar com raiz molhada; cultivar em vaso plástico fechado; excesso de esfagno; sombra; regas ao final da tarde; adubação concentrada; ambiente abafado.",
-    dica: "Para reproduzir o habitat costeiro, combine iluminação forte, umidade matinal e vento abundante e contínuo. Mantenha a planta em posição alta e muito ventilada no orquidário.",
+    floracao: "Principalmente na primavera, com maior probabilidade entre setembro e novembro. Pode antecipar para agosto ou prolongar-se até dezembro, e plantas cultivadas podem florescer fora dessa janela conforme clone e microclima.",
+    adubacao: "🌿 Orgânica: Bokashi é opcional e, se usado, deve ser mínimo e sem contato direto com as raízes.\n💧 Foliar/mineral: NPK equilibrado em 1/8 a 1/4 da dose, a cada 7 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: em planta montada é dispensável; em cachepô, use pouquíssimos grânulos se preferir, sempre evitando sobreposição com adubação líquida forte.",
+    rega: "Durante calor e crescimento ativo, regue generosamente. Uma planta montada em Serra/ES pode precisar de água diariamente, desde que as raízes permaneçam expostas ao ar e sequem progressivamente depois. Em períodos frios, nublados ou chuvosos, reduza conforme a secagem realmente ficar mais lenta; não use o calendário como única regra.",
+    suporte: "🥇 Galho de casca rugosa ou cortiça natural.\n🥈 Madeira dura com superfície apropriada para aderência das raízes.\n🥉 Pequeno cachepô de madeira muito vazado.\nCultivo diretamente sobre árvore adequada também pode funcionar muito bem no litoral.",
+    substrato: "🥇 Cultivo montado sem substrato, com raízes expostas.\n🥈 Madeira ou cortiça com mínima camada de esfagno apenas durante o estabelecimento.\n🥉 Em cachepô: carvão grosso + pedra-pomes + pequena quantidade de casca de pinus grossa.\nEvite massas compactas de esfagno permanentemente molhadas.",
+    errosComuns: "• Confundir alta umidade do ar com raízes permanentemente encharcadas.\n• Cultivar em vaso plástico fechado e abafado.\n• Usar massa compacta de esfagno.\n• Sombra excessiva.\n• Secar demais uma planta montada durante o verão.\n• Adubação concentrada em raízes pequenas.\n• Escolher o ponto mais alto apenas por altura, mesmo que seja mais quente.\n• Irrigar deliberadamente com água salobra por interpretar tolerância à maresia como necessidade de sal.",
+    dica: "🏆 Pense em uma miniatura vivendo perto do mar: ar úmido ao redor, mas vento passando continuamente pelas raízes. Em Serra/ES, prefira cultivo montado em cortiça, galho ou madeira, em local claro e com circulação constante. Durante o calor, regue sem medo quando a planta estiver secando rapidamente; o objetivo não é mantê-la seca, e sim alternar água e oxigênio nas raízes. Escolha o local realmente mais ventilado e sem superaquecimento, e use sempre água doce de boa qualidade.",
     adaptacaoRegional: {
-        litoralQuente: "Adaptação excelente. Cultive preferencialmente montada em madeira, com sol suave da manhã, regas que sequem rapidamente e ventilação constante.",
-        montanhaFrio: "Desenvolve-se bem em clima intermediário, mas precisa de proteção contra geadas e contra noites frias e chuvosas prolongadas."
+        litoralQuente: "Excelente, 5/5. É uma das antigas Sophronitis mais compatíveis com o litoral quente. Ventilação, luminosidade e raízes livres são mais importantes que frio.",
+        montanhaFrio: "Desenvolve-se bem em clima intermediário, mas proteja de geadas e de longos períodos frios e encharcados. O ecótipo litorâneo não necessita frio intenso."
     },
-    mesesFloracao: [4, 5, 6, 7, 8, 9],
+    mesesFloracao: [9, 10, 11],
     avaliacoes: {
-        cultivo: 4,
+        cultivo: 3,
         floracao: 4,
         perfume: 1,
         luminosidade: 4,
