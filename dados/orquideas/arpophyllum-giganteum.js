@@ -8,7 +8,7 @@ export const arpophyllumGiganteum = {
     dificuldade: "Moderada",
     origem: "México até o noroeste da Venezuela, incluindo América Central, Colômbia e Jamaica.",
     regiao: "México, Guatemala, Belize, El Salvador, Honduras, Nicarágua, Costa Rica, Jamaica, Colômbia e noroeste da Venezuela.",
-    habitat: "Epífita rizomatosa de florestas úmidas de encosta e sopé de montanha, aproximadamente entre 800 e 1.500 m. Cresce em ambientes com boa luminosidade filtrada, umidade elevada, chuvas durante o crescimento e circulação contínua de ar.",
+    habitat: "Epífita rizomatosa de florestas úmidas de encosta e sopé de montanha, aproximadamente entre 800 e 1.500 m.",
     descricao: "Arpophyllum giganteum Hartw. ex Lindl., publicado em 1840, é uma espécie aceita de grande impacto ornamental, formando touceiras robustas de porte médio a grande. Os pseudobulbos são alongados, cilíndricos, lateralmente comprimidos e envolvidos por brácteas tubulares e escariosas; cada pseudobulbo sustenta uma única folha coriácea, lanceolada a em forma de fita, levemente falcada. A inflorescência é terminal, racemosa, densamente multiflora, surge em pseudobulbo recém-maduro e pode atingir cerca de 40 cm. As numerosas flores pequenas, em torno de 0,8 cm, distribuem-se de maneira espiralada e produzem o característico aspecto de escova/cilindro rosa a púrpura. Kew reconhece A. giganteum como espécie e também tratamentos infraespecíficos, incluindo subespécies em sua circunscrição moderna; por isso, nomes como A. medium e A. cardinale aparecem historicamente associados ao complexo.",
     caracteristicas: ["Epífita rizomatosa", "Porte médio a grande", "800–1.500 m", "Inflorescência até ~40 cm", "Flores ~0,8 cm", "Muitas flores espiraladas", "Touceira robusta"],
     fotos: [

@@ -4,11 +4,11 @@ export const aciantheraGlumacea = {
     nome: "Acianthera glumacea",
     genero: "Acianthera",
     tipo: "Espécie botânica",
-    sinonimo: "Pleurothallis glumacea Lindl.; Humboltia glumacea (Lindl.) Kuntze; Pleurothallis crocea Barb.Rodr.; Pleurothallis glaziovii Cogn.; Pleurothallis vitellina Porsch",
+    sinonimo: "Pleurothallis glumacea",
     dificuldade: "Moderada a exigente no litoral quente",
     origem: "Brasil — regiões Sudeste e Sul.",
     regiao: "Mata Atlântica serrana do Sudeste e Sul do Brasil.",
-    habitat: "Epífita de floresta primária úmida, registrada sobre casca rugosa recoberta de musgo em torno de 1.300 m de altitude. Vive em ambiente serrano fresco, de luz filtrada, elevada umidade atmosférica e circulação constante de ar.",
+    habitat: "Epífita de floresta primária úmida.",
     descricao: "Acianthera glumacea (Lindl.) Pridgeon & M.W.Chase é uma Pleurothallidinae brasileira anteriormente conhecida como Pleurothallis glumacea. Forma touceiras cespitosas de porte miniatura a pequeno, com ramicaules eretos e uma folha apical coriácea, oblanceolada e afilada em direção à base. A partir do ápice do ramicaul pode produzir duas ou três inflorescências racemosas ao mesmo tempo, com cerca de 6 cm e aproximadamente 4 a 9 flores cada. As flores medem em torno de 1,9 cm e são registradas como perfumadas. Um detalhe importante é que o mesmo ramicaul pode emitir novas inflorescências por vários anos, portanto ramicaules antigos ainda verdes não devem ser removidos apenas por já terem florescido. Existe histórico de confusão na aplicação do nome a plantas de flores brancas pendentes; referências orquidológicas modernas alertam que o conceito de A. glumacea corresponde à forma amarelada associada aos sinônimos crocea, glaziovii e vitellina.",
     caracteristicas: ["Touceira cespitosa", "~1.300 m", "Flores ~1,9 cm", "4–9 flores por racemo", "Perfume presente", "Ramicaules podem reflorir", "Clima fresco"],
     fotos: [

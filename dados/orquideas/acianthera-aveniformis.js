@@ -4,11 +4,11 @@ export const aciantheraAveniformis = {
     nome: "Acianthera aveniformis",
     genero: "Acianthera",
     tipo: "Espécie botânica — nome atualmente tratado por Kew como Pabstiella aveniformis",
-    sinonimo: "Pabstiella aveniformis (Hoehne) Luer; Pleurothallis aveniformis Hoehne; Specklinia aveniformis (Hoehne) Luer",
+    sinonimo: "Pleurothallis aveniformis",
     dificuldade: "Moderada",
     origem: "Brasil — Sul do país.",
     regiao: "Mata Atlântica do Sul do Brasil, em ambientes florestais úmidos.",
-    habitat: "Micro-orquídea epífita de crescimento reptante, registrada em floresta tropical úmida. Referências de cultivo e habitat citam ocorrência por volta de 400 m de altitude, em condições quentes a amenas, sobre superfícies arbóreas com umidade frequente e boa renovação de ar.",
+    habitat: "Micro-orquídea epífita de crescimento reptante, registrada em floresta tropical úmida.",
     descricao: "Micro-orquídea brasileira da subtribo Pleurothallidinae, descrita originalmente como Pleurothallis aveniformis. O nome Acianthera aveniformis foi usado posteriormente, mas o tratamento taxonômico atualmente aceito por Kew é Pabstiella aveniformis (Hoehne) Luer. O Orquidário Digital preserva 'Acianthera aveniformis' no título e no ID para manter a continuidade do catálogo, deixando a atualização nomenclatural explícita na ficha. É uma planta mini-miniatura, epífita e reptante, com ramicaules muito curtos, pequenas folhas e flores diminutas de aproximadamente 3 mm. O epíteto faz referência ao aspecto/pequenez associado à aveia ('oat-like' em referências históricas de cultivo). Apesar do tamanho reduzido, não deve ser tratada como espécie fria: registros de habitat em torno de 400 m indicam comportamento quente a intermediário. Em cultivo, o ponto crítico é manter raízes finas hidratadas e oxigenadas ao mesmo tempo, evitando tanto secas prolongadas quanto esfagno compacto e permanentemente saturado.",
     caracteristicas: ["Micro-orquídea", "Crescimento reptante", "Flores ~3 mm", "Sul do Brasil", "~400 m", "Quente a intermediária", "Pleurothallidinae"],
     fotos: [

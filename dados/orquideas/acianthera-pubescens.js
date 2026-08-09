@@ -4,11 +4,11 @@ export const aciantheraPubescens = {
     nome: "Acianthera pubescens",
     genero: "Acianthera",
     tipo: "Espécie botânica",
-    sinonimo: "Pleurothallis pubescens Lindl. e numerosos sinônimos históricos, incluindo nomes aplicados como P. vittata, P. smithiana, P. truxillensis e P. riograndensis em diferentes tratamentos",
+    sinonimo: "Pleurothallis pubescens",
     dificuldade: "Moderada — variável conforme a procedência",
     origem: "México e Caribe até a América do Sul tropical e subtropical.",
     regiao: "Ampla distribuição neotropical: México, América Central, Caribe e grande parte da América do Sul, incluindo Brasil, Paraguai, Uruguai e nordeste da Argentina conforme bases taxonômicas modernas.",
-    habitat: "Epífita de florestas densas e úmidas, com registros aproximadamente entre 500 e 1.900 m. A amplitude geográfica e altitudinal é muito grande, abrangendo populações de condições quentes a frescas; por isso, procedência do clone influencia significativamente tolerância térmica e ritmo de floração.",
+    habitat: "Epífita de florestas densas e úmidas, com registros aproximadamente entre 500 e 1.900 m.",
     descricao: "Acianthera pubescens (Lindl.) Pridgeon & M.W.Chase é uma espécie aceita de Pleurothallidinae, historicamente conhecida como Pleurothallis pubescens. É altamente variável e forma touceiras cespitosas com ramicaules delgados, envoltos basalmente por bainhas tubulares, sustentando uma folha apical espessa, pesada, obovada a oblonga e afilada na base. A inflorescência surge no ápice, através de uma espata, formando pequeno racemo que mantém as flores próximas à região média da folha. As flores são carnosas, finamente pilosas/pubescente, com coloração de fundo rosada ou branca fortemente marcada por manchas, listras ou sufusão púrpura. O labelo e as pétalas são morfologicamente variáveis, refletindo a grande diversidade populacional. Há registro de fragrância, descrita como pouco agradável em algumas formas. A literatura também registra variantes vegetativas nas quais as flores ficam voltadas para a face inferior da folha, reforçando que não se deve esperar um único aspecto para todas as procedências.",
     caracteristicas: ["Flores pubescentes", "Ampla distribuição neotropical", "500–1.900 m", "Alta variabilidade", "Cespitosa", "Fragrância variável", "Procedência influencia cultivo"],
     fotos: [

@@ -4,11 +4,11 @@ export const aciantheraBragae = {
     nome: "Acianthera bragae",
     genero: "Acianthera",
     tipo: "Espécie botânica",
-    sinonimo: "Physosiphon bragae Ruschi; Pleurothallis sarracenia Luer; Acianthera sarracenia (Luer) Pridgeon & M.W.Chase — nomes ligados ao histórico taxonômico do grupo",
+    sinonimo: "Pleurothallis sarracenia",
     dificuldade: "Moderada",
     origem: "Brasil — regiões Sudeste e Sul.",
     regiao: "Mata Atlântica do Sudeste e Sul do Brasil.",
-    habitat: "Epífita ou litófita de floresta tropical úmida. Referências de campo/cultivo associadas ao táxon registram locais sombreados e úmidos da Mata Atlântica do Sudeste, aproximadamente entre 700 e 1.000 m, onde cresce como planta mini-miniatura, reptante e formadora de tapetes.",
+    habitat: "Epífita ou litófita de floresta tropical úmida.",
     descricao: "Pequena Pleurothallidinae brasileira aceita por Kew como Acianthera bragae (Ruschi) F.Barros. O grupo possui histórico nomenclatural complexo: Physosiphon bragae aparece na literatura original de Ruschi, enquanto Pleurothallis sarracenia e Acianthera sarracenia foram usados em tratamentos posteriores e são associados a esta circunscrição em referências orquidológicas. A planta apresenta rizoma rastejante, crescimento formando tapetes, folhas espessas e suculentas, muito próximas entre si, e inflorescência curta originada junto ao rizoma. As flores são grandes em relação ao tamanho vegetativo, com cerca de 1,5 a 2 cm de altura, frequentemente tubulares e eretas. Ecologicamente, combina sombra, umidade constante e circulação de ar; em cultivo, a expansão horizontal do rizoma deve ser respeitada.",
     caracteristicas: ["Endêmica do Brasil", "Sudeste e Sul", "Epífita ou litófita", "700–1.000 m", "Crescimento reptante", "Flores ~1,5–2 cm", "Forma tapetes"],
     fotos: [
