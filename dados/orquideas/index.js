@@ -6,7 +6,6 @@ import { dendrobiumPolysema } from "./dendrobium-polysema.js";
 import { bifrenariaVerboonenii } from "./bifrenaria-verboonenii.js";
 import { bifrenariaAureofulva } from "./bifrenaria-aureofulva.js";
 import { sophronitisCernua } from "./sophronitis-cernua.js";
-import { sophronitisCernuaVarLitoranea } from "./sophronitis-cernua-var-litoranea.js";
 import { zygolumLouisendorf } from "./zygolum-louisendorf.js";
 import { dendrobiumLoddigesii } from "./dendrobium-loddigesii.js";
 import { maxillariaSchunkeana } from "./maxillaria-schunkeana.js";
@@ -113,7 +112,6 @@ import { cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema } from "./cattleya-walkerian
 import { zygopetalumMaculatum } from "./zygopetalum-maculatum.js";
 import { phalaenopsisMannii } from "./phalaenopsis-mannii.js";
 import { bulbophyllumFalcatum } from "./bulbophyllum-falcatum.js";
-import { bulbophyllumBuffo } from "./bulbophyllum-buffo.js";
 import { bulbophyllumSyciobulbon } from "./bulbophyllum-syciobulbon.js";
 import { laeliaCaulencens } from "./laelia-caulencens.js";
 import { rodricidium } from "./rodricidium.js";
@@ -148,8 +146,7 @@ export const orquideas = [
     bifrenariaAureofulva,
     sophronitisWittigiana,
     sophronitisCernua,
-    sophronitisCernuaVarLitoranea,
-    zygolumLouisendorf,
+zygolumLouisendorf,
     dendrobiumLoddigesii,
     maxillariaSchunkeana,
     mediocalcarDecoratum,
@@ -254,8 +251,7 @@ export const orquideas = [
     zygopetalumMaculatum,
     phalaenopsisMannii,
     bulbophyllumFalcatum,
-    bulbophyllumBuffo,
-    bulbophyllumSyciobulbon,
+bulbophyllumSyciobulbon,
     laeliaCaulencens,
     rodricidium,
     laeliaPraestans,
