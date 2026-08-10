@@ -5,6 +5,7 @@ export const rodrigueziaLanceolata = {
     "id": "rodriguezia-lanceolata",
     "nome": "Rodriguezia lanceolata",
     "genero": "Rodriguezia",
+    "sinonimo": "Rodriguezia secunda",
     "tipo": "Espécie botânica",
     "dificuldade": "Fácil",
     "caracteristicas": [
@@ -23,10 +24,10 @@ export const rodrigueziaLanceolata = {
         "imagens/Rodriguezia lanceolata/Rodriguezia lanceolata3.jpg",
         "imagens/Rodriguezia lanceolata/Rodriguezia lanceolata4.jpg"
     ],
-    "descricao": "Rodriguezia lanceolata é uma espécie epífita sul-americana de crescimento vigoroso e cultivo geralmente fácil. Forma touceiras densas com pseudobulbos pequenos envolvidos por bainhas foliares e folhas firmes. As inflorescências surgem da base dos pseudobulbos maduros e podem ser arqueadas ou pendentes, carregando numerosas flores em tons de rosa, vermelho e púrpura, muitas vezes com detalhes amarelos no labelo. O sistema radicular é fino e exige água frequente durante o crescimento, mas também muita oxigenação e secagem relativamente rápida. Em clima quente e úmido, responde muito bem quando cultivada em cachepôs pequenos ou montada em madeira, com regas matinais e ventilação permanente.",
+    "descricao": "Uma Rodriguezia de floração alegre e abundante. Esta pequena epífita forma touceiras compactas e produz hastes arqueadas de até cerca de 35 cm, com numerosas flores rosa a vermelho-púrpura concentradas no mesmo lado da inflorescência. Na natureza cresce sobre galhos menores de florestas tropicais úmidas, geralmente sob boa luminosidade, e pode florescer em diferentes épocas do ano, com maior frequência na primavera. Suas raízes são finas: gostam de água durante o crescimento, mas respondem muito melhor quando secam rapidamente e recebem ar constante.",
     "origem": "América tropical.",
-    "regiao": "Panamá, Caribe e ampla faixa da América do Sul, incluindo o Brasil.",
-    "habitat": "Florestas tropicais úmidas sobre galhos e troncos.",
+    "regiao": "Panamá e Caribe ao norte da América do Sul e Brasil.",
+    "habitat": "Epífita de florestas úmidas, sobre galhos claros; ~650–1.500 m.",
     "clima": "Quente a intermediário, úmido e ventilado.",
     "climaFloracao": "Pode florescer após a maturação de novos pseudobulbos e, em plantas vigorosas, repetir a floração em mais de uma época do ano. A combinação de meia-sombra clara, raízes ativas, água frequente sem encharcamento e boa circulação de ar favorece hastes longas e floríferas.",
     "iluminacao": {

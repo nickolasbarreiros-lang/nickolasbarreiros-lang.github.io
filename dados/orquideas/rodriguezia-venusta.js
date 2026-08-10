@@ -24,11 +24,11 @@ export const rodrigueziaVenusta = {
         "imagens/Rodriguezia bracteata/Rodriguezia bracteata3.webp",
         "imagens/Rodriguezia bracteata/Rodriguezia bracteata4.jpg"
     ],
-    "descricao": "Rodriguezia bracteata, tradicionalmente comercializada como Rodriguezia venusta, é uma espécie epífita compacta da América do Sul tropical. Forma touceiras elegantes de pequenos pseudobulbos parcialmente envolvidos por bainhas e folhas estreitas a coriáceas. Suas raízes são finas, numerosas e particularmente sensíveis à falta de oxigenação: precisam receber água com frequência, mas deterioram rapidamente quando ficam mergulhadas em substrato velho, compacto ou permanentemente saturado. As inflorescências surgem lateralmente e assumem posição arqueada a nitidamente pendente, produzindo numerosas flores brancas a creme, com detalhes amarelos no labelo e perfume adocicado perceptível no ambiente. O cultivo suspenso reproduz com eficiência o hábito epífito da espécie, melhora a aeração das raízes e permite que as hastes desenvolvam todo o seu comprimento sem tocar bancadas ou outros vasos.",
+    "descricao": "Delicada no porte, mas muito marcante quando floresce. Rodriguezia bracteata forma pequenas touceiras e hastes arqueadas a pendentes com flores claras, geralmente brancas a creme, realçadas por amarelo e acompanhadas por perfume adocicado. O antigo nome Rodriguezia venusta ainda é muito conhecido entre cultivadores, mas hoje é tratado como sinônimo. Sua distribuição é ampla na América do Sul tropical, desde áreas baixas até aproximadamente 1.000 m em registros colombianos. As raízes finas pedem um equilíbrio importante: umidade frequente durante o crescimento, porém com secagem rápida e circulação de ar.",
     "origem": "América do Sul tropical.",
-    "regiao": "Brasil e áreas tropicais adjacentes.",
-    "habitat": "Galhos e troncos em florestas úmidas.",
-    "clima": "Quente a intermediário, úmido e ventilado.",
+    "regiao": "Norte e leste da América do Sul, incluindo o Brasil.",
+    "habitat": "Epífita de florestas tropicais; de baixadas a ~1.000 m.",
+    "clima": "Quente a intermediário; úmido e ventilado.",
     "climaFloracao": "A emissão floral ocorre com maior regularidade quando os pseudobulbos amadurecem sob meia-sombra clara, raízes ativas e circulação de ar constante. Não necessita de repouso seco marcado. Durante crescimento e enraizamento, mantenha água regular; após a maturação, apenas aumente discretamente o intervalo entre regas. Touceiras preservadas e pouco divididas acumulam mais reservas e tendem a produzir mais hastes simultaneamente.",
     "iluminacao": {
         "sombrite": "50% a 70%",

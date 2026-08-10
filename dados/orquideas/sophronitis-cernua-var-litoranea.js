@@ -5,7 +5,7 @@ export const sophronitisCernuaVarLitoranea = {
     id: "sophronitis-cernua-var-litoranea",
     nome: "Cattleya cernua — forma litorânea",
     genero: "Cattleya",
-    sinonimo: "Sophronitis cernua var. litoranea",
+    sinonimo: "Sophronitis cernua",
     tipo: "Forma geográfica / ecótipo natural costeiro",
     dificuldade: "Moderada",
     caracteristicas: [
@@ -22,11 +22,11 @@ export const sophronitisCernuaVarLitoranea = {
         "imagens/cattleya-cernua-forma-litoranea/cattleya-cernua-forma-litoranea-3.jpg",
         "imagens/cattleya-cernua-forma-litoranea/cattleya-cernua-forma-litoranea-4.jpg"
     ],
-    descricao: "Cattleya cernua (Lindl.) Van den Berg é uma miniatura epífita sul-americana, historicamente conhecida como Sophronitis cernua. A expressão 'forma litorânea' é usada horticulturalmente para identificar populações costeiras adaptadas a restingas e matas de baixada, sem necessidade de tratá-las como variedade taxonômica separada. Forma pequenas touceiras de pseudobulbos ovoides a subcilíndricos, cada um com uma folha apical curta, espessa e coriácea. As inflorescências são muito curtas e podem reunir várias flores junto à própria vegetação, em tons de laranja vivo, vermelho-alaranjado ou laranja-avermelhado. As populações costeiras se destacam pela tolerância ao calor, alta umidade atmosférica e exposição ocasional à névoa salina, desde que as raízes recebam muito ar. Tolerar maresia natural não significa que a planta deva ser irrigada com água salobra.",
-    origem: "Brasil costeiro.",
-    regiao: "Restingas e matas litorâneas do Sudeste e Sul.",
-    habitat: "Epífita de árvores e vegetação costeira muito ventilada.",
-    clima: "Quente, úmido, luminoso e com forte circulação de ar.",
+    descricao: "Uma miniatura brasileira que prova que nem toda antiga Sophronitis precisa de clima frio. A forma litorânea de Cattleya cernua ocorre em ambientes costeiros quentes e muito ventilados, formando pequenas touceiras de folhas grossas e flores laranja a vermelho-alaranjadas de cerca de 2–3 cm. Em populações próximas ao mar, as plantas podem crescer sobre árvores ou rochas expostas a muita luz e brisa constante. “Forma litorânea” é uma designação geográfica e horticultural, não uma variedade aceita separadamente; botanicamente, continua sendo Cattleya cernua. Essa origem costeira explica sua excelente adaptação ao calor quando cultivada com muita luz, raízes arejadas e secagem rápida.",
+    origem: "Brasil e região subtropical sul-americana; ecótipo costeiro.",
+    regiao: "Populações litorâneas do Brasil, inclusive ES e Sudeste.",
+    habitat: "Epífita ou rupícola costeira, muito clara e ventilada; nível do mar.",
+    clima: "Quente, úmido, luminoso e muito ventilado.",
     climaFloracao: "A floração depende de touceira bem estabelecida, luminosidade alta, raízes ativas e ventilação constante. A umidade atmosférica pode ser elevada, mas o sistema radicular deve permanecer oxigenado e secar progressivamente depois das regas. A forma costeira não depende de frio intenso para sobreviver ou vegetar bem.",
     iluminacao: {
         sombrite: "40% a 50%",

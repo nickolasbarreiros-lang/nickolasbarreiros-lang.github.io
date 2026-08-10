@@ -23,11 +23,11 @@ export const rodricidium = {
         "imagens/Rodricidium/Rodricidium3.webp",
         "imagens/Rodricidium/Rodricidium4.avif"
     ],
-    "descricao": "Rodricidium (Rdcm.) é um nothogênero híbrido resultante de cruzamentos entre Oncidium e Rodriguezia. Combina o vigor, a rusticidade e a floriosidade de muitos Oncidium com o porte mais compacto e a delicadeza das Rodriguezia. Forma crescimento simpodial com pseudobulbos comprimidos, folhas coriáceas e hastes flexíveis ou arqueadas carregadas por numerosas flores pequenas a médias, em combinações de amarelo, rosa, castanho e branco. O cultivo é relativamente simples quando as raízes recebem bastante ar e o substrato perde o excesso de água em cerca de 1–2 dias.",
-    "origem": "Híbrido hortícola.",
-    "regiao": "Parentais nativos das Américas tropicais.",
-    "habitat": "Sem habitat natural; cultivo epífito.",
-    "clima": "Intermediário a quente e ventilado.",
+    "descricao": "Rodricidium é o nome usado para híbridos que combinam Oncidium e Rodriguezia. Em vez de representar uma única planta de características fixas, reúne cruzamentos que podem variar bastante, mas geralmente conservam crescimento simpodial, pseudobulbos comprimidos e hastes arqueadas com muitas flores. A influência de Rodriguezia costuma favorecer porte mais compacto e raízes finas, enquanto Oncidium pode acrescentar vigor, ramificação e maior diversidade de cores. No cultivo, o ponto em comum mais importante é simples: água regular durante o crescimento, mas sempre com bastante ar nas raízes e substrato que não permaneça encharcado.",
+    "origem": "Híbrido hortícola Oncidium × Rodriguezia.",
+    "regiao": "Sem distribuição natural; parentais americanos.",
+    "habitat": "Sem habitat natural; comportamento predominantemente epífito.",
+    "clima": "Intermediário a quente; úmido e ventilado.",
     "climaFloracao": "Pode florescer após a maturação de novos pseudobulbos, frequentemente mais de uma vez ao ano. Alta luminosidade filtrada, raízes saudáveis e secagem rápida favorecem novas hastes. O replante deve coincidir com a emissão de brotos e raízes novas para evitar longa estagnação.",
     "iluminacao": {
         "sombrite": "50% a 60%",

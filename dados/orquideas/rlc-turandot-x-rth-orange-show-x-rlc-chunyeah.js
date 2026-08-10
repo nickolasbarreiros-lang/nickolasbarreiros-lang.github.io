@@ -21,11 +21,11 @@ export const rlcTurandotXOrangeShowXChunyeah = {
         "imagens/Rlc Turandot x Orange Show x Chunyeah/Rlc Turandot x Orange Show x Chunyeah3.jpg",
         "imagens/Rlc Turandot x Orange Show x Chunyeah/Rlc Turandot x Orange Show x Chunyeah4.jpg"
     ],
-    descricao: "Rlc. Turandot × (Rth. Orange Show × Rlc. Chunyeah) é um cruzamento hortícola complexo da aliança Cattleya. A nomenclatura atual dos parentais é Rhyncholaeliocattleya Turandot, Rhyncattleanthe Orange Show e Rhyncholaeliocattleya Chunyeah. Como não há confirmação de um nome próprio de grex para esta combinação exata, a fórmula parental é a identificação mais segura. A genealogia reúne linhagens modernas de Cattleya, Rhyncholaelia, Guarianthe e ancestrais historicamente classificados em Brassavola/Laelia, resultando em grande variabilidade entre seedlings. Plantas irmãs podem diferir em porte, cor, perfume, forma, diâmetro floral, número de flores e época de floração. Em geral, tende a produzir pseudobulbos robustos e flores grandes, frequentemente em tons quentes, com excelente vigor em clima litorâneo.",
-    origem: "Híbrido hortícola.",
-    regiao: "Não possui distribuição natural.",
-    habitat: "Não possui habitat natural; suas exigências refletem linhagens tropicais da aliança Cattleya.",
-    clima: "Quente a intermediário, luminoso e ventilado.",
+    descricao: "Um híbrido de Cattleya feito para chamar atenção: flores grandes, cores quentes e bastante variação entre plantas irmãs. O cruzamento reúne Rlc. Turandot, Rth. Orange Show e Rlc. Chunyeah; como não foi confirmado um nome de grex próprio para esta combinação exata, a fórmula parental continua sendo a identificação mais segura. A genealogia combina principalmente Cattleyas de flores grandes com linhagens que acrescentam amarelos, laranjas, vigor e boa resposta a alta luminosidade. Por ser um seedling complexo, cor, perfume, tamanho e época de floração podem variar bastante de uma planta para outra.",
+    origem: "Híbrido hortícola complexo.",
+    regiao: "Sem distribuição natural.",
+    habitat: "Sem habitat natural; herda exigências da aliança Cattleya.",
+    clima: "Quente a intermediário; claro e ventilado.",
     climaFloracao: "A floração deve ser interpretada pelo ciclo do pseudobulbo, não por estação natural fixa. O novo crescimento precisa amadurecer completamente sob boa luminosidade e com raízes saudáveis. Seedlings podem apresentar épocas diferentes entre si.",
     iluminacao: {
         sombrite: "40% a 60% — cerca de 50% como ponto inicial",
