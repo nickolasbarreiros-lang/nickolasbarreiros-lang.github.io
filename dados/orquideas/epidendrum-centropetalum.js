@@ -1,0 +1,68 @@
+// Ficha científica e de cultivo revisada — Epidendrum centropetalum.
+// Conteúdo adaptado ao padrão editorial e regional do Orquidário Digital.
+
+export const epidendrumCentropetalum = {
+    id: "epidendrum-centropetalum",
+    nome: "Epidendrum centropetalum",
+    genero: "Epidendrum",
+    tipo: "Espécie botânica epífita centro-americana",
+    dificuldade: "Avançada",
+    caracteristicas: [
+        "Sin. Oerstedella centradenia",
+        "Flores rosa intenso",
+        "Forma keikis",
+        "Floresta montana",
+        "Alta umidade",
+        "Clima fresco"
+    ],
+    fotos: [],
+    descricao: "Epidendrum centropetalum é uma espécie delicada e muito charmosa da América Central, conhecida durante décadas em coleções como Oerstedella centradenia. Seus caules finos lembram pequenas canas e podem produzir keikis ao longo do crescimento, criando touceiras leves e ramificadas. As inflorescências surgem no topo dos caules maduros e carregam várias flores rosa-intenso, marcadas por uma área branca na base do labelo e um pequeno calo amarelo. Apesar da aparência tropical, é uma planta ligada a florestas montanas úmidas e responde melhor quando recebe muita ventilação, umidade constante e noites mais amenas.",
+    origem: "México e América Central.",
+    regiao: "Do sul do México ao Panamá.",
+    habitat: "Epífita de florestas montanas úmidas, geralmente entre 1.200 e 1.500 m.",
+    clima: "Intermediário a fresco, úmido e muito ventilado.",
+    climaFloracao: "Floresce melhor com boa luminosidade filtrada, umidade elevada e noites mais frescas. No litoral quente, o ponto crítico é reduzir o superaquecimento noturno e manter forte circulação de ar. A planta não exige seca intensa para florescer, mas aprecia uma leve redução de água quando os caules já estão maduros.",
+    iluminacao: {
+        sombrite: "50% a 60%",
+        solDireto: "Apenas sol fraco, se bem aclimatada",
+        horario: "Luz filtrada intensa ao longo do dia",
+        observacoes: "Na natureza pode ocorrer em condições relativamente claras, mas em cultivo no litoral quente é mais seguro oferecer luz filtrada intensa. Sombra excessiva produz caules fracos e reduz a floração; sol forte nas horas quentes pode desidratar rapidamente folhas e raízes aéreas."
+    },
+    floracao: "Tende a florescer do fim do inverno até a primavera e o início do verão, com variação conforme clima e maturação dos caules. Para o calendário do site, agosto a janeiro funciona como janela prática de referência.",
+    adubacao: "🌿 Orgânica: bokashi apenas em pequena quantidade e preferencialmente em porta-adubo, longe das raízes expostas.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional em vaso ou cesto, usando poucos grânulos.\n🚿 Lavagem: faça regas periódicas apenas com água pura para evitar acúmulo de sais.",
+    rega: "Mantenha hidratação regular durante todo o ano, sobretudo enquanto os caules e raízes estão em crescimento. O suporte deve drenar rapidamente e nunca permanecer encharcado. Depois que os caules amadurecem, pode-se ampliar discretamente o intervalo entre regas, sem permitir desidratação prolongada.",
+    suporte: [
+        "🥇 Cesto ou cachepô bem ventilado, permitindo expansão dos caules e raízes aéreas.",
+        "🥈 Placa de cortiça ou madeira com pequena camada de esfagno junto às raízes.",
+        "🥉 Vaso pequeno e bem perfurado, usando mistura leve e de drenagem rápida."
+    ],
+    substrato: [
+        "🥇 Casca de pinus média + pedra-pomes + carvão vegetal + pequena quantidade de esfagno.",
+        "🥈 Casca de pinus média + pedra-pomes + esfagno solto.",
+        "🥉 Montagem em cortiça ou madeira com fina camada de esfagno."
+    ],
+    errosComuns: [
+        "Cultivar em ambiente quente e sem circulação de ar",
+        "Manter sombra excessivamente profunda",
+        "Deixar raízes e caules jovens secarem por longos períodos",
+        "Manter o substrato permanentemente encharcado",
+        "Aplicar adubo concentrado sobre raízes aéreas",
+        "Cortar keikis saudáveis antes de desenvolverem boas raízes",
+        "Usar vaso grande e pouco aerado",
+        "Expor ao sol forte do meio do dia"
+    ],
+    dica: "🏆 Aproveite o hábito de formar keikis: em vez de removê-los cedo, deixe que criem raízes e ajudem a formar uma touceira cheia. No litoral quente, mantenha a planta em posição muito ventilada e com luz filtrada forte; noites menos abafadas costumam fazer mais diferença do que aumentar a adubação.",
+    adaptacaoRegional: {
+        litoralQuente: "Adaptação moderada, cerca de 3/5. Pode crescer bem com 50% a 60% de sombreamento, umidade alta e ventilação constante, mas noites muito quentes e abafadas podem reduzir vigor e floração.",
+        montanhaFrio: "Adaptação excelente, cerca de 5/5. Noites frescas e boa umidade se aproximam bastante das condições montanas onde a espécie ocorre naturalmente."
+    },
+    mesesFloracao: [8, 9, 10, 11, 12, 1],
+    avaliacoes: {
+        cultivo: 4,
+        floracao: 4,
+        perfume: 1,
+        luminosidade: 3,
+        agua: 4,
+        raridade: 4
+    }
+};
