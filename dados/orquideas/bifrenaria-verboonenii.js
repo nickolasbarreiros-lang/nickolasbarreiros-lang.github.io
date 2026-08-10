@@ -24,7 +24,7 @@ export const bifrenariaVerboonenii = {
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii3.jpg",
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii4.jpg"
     ],
-    descricao: "Trata-se de orquídea brasileira epífita ou litófita de Bahia, Espírito Santo e Minas Gerais, típica de ambientes montanos com inverno mais seco. Forma pseudobulbos robustos, amplamente ovoides a piriformes, angulosos e profundamente sulcados, com uma folha apical plicada, elíptico-oblonga. A inflorescência nasce na base de pseudobulbo maduro, é curta, ereta e rígida, em torno de 7,5 cm, e produz geralmente 1 a 4 flores grandes, carnosas, cerosas, muito perfumadas e duráveis, podendo atingir cerca de 8,75 cm. A amplitude altitudinal de aproximadamente 1.000 a 2.000 m explica a preferência por noites frescas e a maior dificuldade no litoral quente.",
+    descricao: "Uma Bifrenaria de presença marcante, com pseudobulbos robustos e flores grandes, carnosas e cerosas que chamam atenção tanto pela aparência quanto pelo perfume. As hastes são curtas e surgem junto à base dos pseudobulbos maduros, normalmente carregando poucas flores, mas de tamanho expressivo e boa duração. Encontrada em áreas montanas do Sudeste brasileiro, em altitudes elevadas, aprecia noites mais amenas e um inverno relativamente mais seco — característica que ajuda a entender por que pode exigir atenção extra quando cultivada no litoral quente.",
     origem: "Brasil",
     regiao: "BA · ES · MG",
     habitat: "Epífita/litófita · 1.000–2.000 m",
