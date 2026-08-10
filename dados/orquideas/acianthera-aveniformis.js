@@ -9,7 +9,7 @@ export const aciantheraAveniformis = {
     origem: "Brasil — Sul do país.",
     regiao: "Mata Atlântica do Sul do Brasil, em ambientes florestais úmidos.",
     habitat: "Micro-orquídea epífita de crescimento reptante, registrada em floresta tropical úmida.",
-    descricao: "Uma verdadeira miniatura da nossa flora! Esta micro-orquídea brasileira de hábito reptante (crescimento horizontal) encanta pelo porte diminuto e por suas florzinhas de apenas 3 mm. Seu nome científico (aveniformis) faz referência à semelhança com grãos de aveia. Apesar de seu tamanho delicado, não é uma planta de clima frio: encontrada em regiões de baixa altitude (cerca de 400 m), ela se desenvolve muito bem em climas quentes a intermediários.",
+    descricao: "Uma verdadeira miniatura da nossa flora! Esta micro-orquídea brasileira de hábito reptante (crescimento horizontal) encanta pelo porte diminuto e por suas florzinhas de apenas 3 mm. Seu nome científico (aveniformis) faz referência à semelhança com grãos de aveia. Apesar do tamanho delicado, não é uma planta de clima frio: encontrada em regiões de baixa altitude (cerca de 400 m), adapta-se bem a condições quentes a intermediárias quando recebe umidade equilibrada e boa ventilação.",
     caracteristicas: ["Micro-orquídea", "Crescimento reptante", "Flores ~3 mm", "Sul do Brasil", "~400 m", "Quente a intermediária", "Pleurothallidinae"],
     fotos: [
         "imagens/Acianthera aveniformis/Acianthera aveniformis1.jpeg",
