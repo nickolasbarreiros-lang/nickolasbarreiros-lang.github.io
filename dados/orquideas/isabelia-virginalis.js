@@ -1,4 +1,4 @@
-// Ficha V4 refinada — Isabelia virginalis.
+// Refinamento Final — Lote 15.
 
 export const isabeliaVirginalis = {
     id: "isabelia-virginalis",
@@ -6,48 +6,36 @@ export const isabeliaVirginalis = {
     genero: "Isabelia",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
-    caracteristicas: [
-        "Miniatura epífita ou litófita",
-        "Rizoma rastejante",
-        "Pseudobulbos com bainhas fibrosas",
-        "Forma colônias densas"
-    ],
+    caracteristicas: ["Miniatura brasileira", "Hábito rastejante", "Bainhas fibrosas", "Folhas finas como agulhas", "Flores delicadas"],
     fotos: [
         "imagens/Isabelia virginalis/Isabelia virginalis1.jpg",
         "imagens/Isabelia virginalis/Isabelia virginalis2.webp",
         "imagens/Isabelia virginalis/Isabelia virginalis3.webp",
         "imagens/Isabelia virginalis/Isabelia virginalis4.jpeg"
     ],
-    descricao: "Miniatura simpodial de hábito rastejante, reconhecida pelos pequenos pseudobulbos ovoides e muito agrupados, revestidos por bainhas fibrosas reticuladas que formam uma trama esbranquiçada semelhante a renda. Cada pseudobulbo sustenta uma folha fina e acicular. As flores são pequenas, cerosas, rosadas a lilases e surgem isoladas no topo dos pseudobulbos. As fibras fazem parte da estrutura natural da planta e não devem ser removidas.",
-    origem: "Sudeste e Sul do Brasil, Paraguai e nordeste da Argentina, incluindo Misiones.",
-    regiao: "Mata Atlântica e formações sazonais do Sul e Sudeste da América do Sul.",
-    habitat: "Epífita ou litófita sobre galhos, cascas rugosas e superfícies rochosas, geralmente em locais claros, ventilados e sujeitos a ciclos rápidos de molhamento e secagem.",
-    clima: "Intermediário a quente moderado, com boa ventilação e noites mais frescas em áreas de altitude.",
-    climaFloracao: "A floração é favorecida por colônias bem estabelecidas, luminosidade média a alta filtrada, pseudobulbos maduros e discreta redução da frequência das regas no período mais frio. Não exige seca severa: o suporte deve secar rapidamente, mas a touceira não deve permanecer desidratada por longos períodos.",
+    descricao: "Uma pequena joia da Mata Atlântica! Isabelia virginalis forma colônias rastejantes de pseudobulbos minúsculos envolvidos por uma trama de fibras esbranquiçadas que lembra uma renda natural. De cada pseudobulbo surge uma folha fina como agulha e, no período de floração, uma ou duas flores rosadas, cerosas e duráveis de cerca de 1 cm. Essas fibras não são material velho para ser limpo: fazem parte da própria arquitetura da planta. Seu nome de gênero homenageia a Princesa Isabel, e a espécie é nativa do Sul e Sudeste do Brasil, avançando até Paraguai e Misiones, na Argentina.",
+    origem: "Brasil, Paraguai e NE da Argentina.",
+    regiao: "Sul e Sudeste do Brasil · Misiones.",
+    habitat: "Epífita ou rupícola · ambientes sazonais claros.",
+    clima: "Intermediário · ventilado, com secagem rápida.",
+    climaFloracao: "A espécie ocorre tanto sobre árvores quanto sobre rochas e aparece associada a ambientes tropicais sazonalmente secos, mas isso não significa repouso árido. Seu crescimento rastejante e as raízes pequenas funcionam melhor com ciclos rápidos de molhamento e secagem. No litoral quente, o excesso de esfagno e a pouca ventilação são mais perigosos do que a temperatura em si. No período mais frio, basta aumentar naturalmente o intervalo das regas conforme a evaporação.",
     iluminacao: {
-        sombrite: "50% a 60%",
-        solDireto: "Somente fraco",
-        horario: "Sol suave do início da manhã",
-        observacoes: "Folhas firmes em verde-claro indicam boa luminosidade. Folhas muito escuras e crescimento frouxo sugerem sombra excessiva; amarelecimento intenso, manchas secas ou aquecimento foliar indicam excesso de sol."
+        sombrite: "40% a 60%",
+        solDireto: "Apenas suave e aclimatado",
+        horario: "Primeiras horas da manhã",
+        observacoes: "Tolera luz relativamente alta quando bem ventilada. Folhas muito escuras e touceira frouxa indicam falta de luz; amarelecimento intenso ou pontas secas indicam excesso de sol ou desidratação."
     },
-    floracao: "Predomina do fim do verão ao outono, podendo variar conforme o microclima e o ciclo de crescimento. Touceiras amplas produzem maior número de flores abertas simultaneamente.",
-    adubacao: "🌿 Orgânica: bokashi em quantidade mínima, preferencialmente dentro de porta-adubo e sem contato com a touceira.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante a brotação ativa.\n🧪 Liberação lenta: poucos grânulos apenas em vaso ou cesto, afastados do rizoma. Uma vez por mês, lave abundantemente o suporte e as raízes com água pura para reduzir sais acumulados.",
-    rega: "No calor e durante a brotação, regue abundantemente e permita que o suporte seque rapidamente antes da próxima irrigação. Plantas montadas podem exigir água diária em dias quentes e ventilados. No frio, aumente o intervalo conforme a evaporação, sem impor seca prolongada nem permitir enrugamento persistente dos pseudobulbos.",
-    suporte: "🥇 Galho fino de casca rugosa ou placa de cortiça.\n🥈 Placa de madeira dura e durável.\n🥉 Cesto ou vaso muito raso e largo, apenas com mistura extremamente aerada.",
-    substrato: "🥇 Montada com pequena camada de esfagno solto somente sob as raízes iniciais.\n🥈 Casca de pinus fina + pedra-pomes + carvão vegetal.\n🥉 Fibra de coco grossa bem lavada + casca pequena + pedrisco. O rizoma deve permanecer exposto e livre para rastejar.",
-    errosComuns: "Remover as bainhas fibrosas; cultivar sob sombra intensa; cobrir ou enterrar o rizoma; usar vaso grande e profundo; compactar esfagno ao redor da touceira; manter o suporte continuamente encharcado; deixar secar por muitos dias; adubar em concentração alta; dividir a colônia em fragmentos pequenos; cultivar em ambiente abafado.",
-    dica: "Permita que a touceira rasteje livremente sobre um suporte durável. Preserve integralmente as bainhas fibrosas, não enterre o rizoma e evite divisões pequenas. Fixe a planta inteira em cortiça, galho rugoso ou madeira dura, usando apenas um pouco de esfagno solto sob as raízes iniciais. Quanto maior e mais integrada estiver a colônia, mais rapidamente ela cobrirá o suporte e maior será o número de flores simultâneas.",
+    floracao: "Predomina do fim do outono ao inverno. As flores são pequenas, cerosas, de aproximadamente 1 cm e podem surgir isoladas ou em pares sobre pseudobulbos maduros.",
+    adubacao: "🌿 Orgânica: bokashi em quantidade mínima dentro de porta-adubo, sem contato com a touceira.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: somente poucos grânulos em cesto ou vaso raso e muito drenante.\n💦 Lavagem: passe água limpa pelo suporte periodicamente para evitar acúmulo de sais nas raízes finas.",
+    rega: "No calor e durante a brotação, molhe completamente e permita secagem rápida antes da próxima rega. Plantas montadas podem precisar de água quase diária em dias secos e ventilados. No frio, aumente o intervalo, mas não deixe a colônia murchar por períodos prolongados.",
+    suporte: "🥇 Placa de cortiça ou galho de casca rugosa.\n🥈 Madeira dura e durável, instalada horizontal ou levemente inclinada.\n🥉 Cesto muito raso e largo, com mistura grosseira e rizoma totalmente exposto.",
+    substrato: "🥇 Montada com apenas uma pequena porção de esfagno sob as raízes iniciais.\n🥈 Casca de pinus fina + pedra-pomes + carvão em cesto raso.\n🥉 Fibra de coco grossa bem lavada + casca pequena + pedrisco.\n⚠️ O rizoma deve ficar livre para rastejar; nunca o enterre.",
+    errosComuns: "Remover as bainhas fibrosas; enterrar o rizoma; compactar esfagno ao redor da planta; cultivar em sombra profunda; manter a colônia permanentemente molhada; deixar secar por muitos dias; usar vaso grande e profundo; adubar forte; dividir em pedaços pequenos; manter ambiente abafado.",
+    dica: "Preserve a colônia inteira e deixe-a caminhar pelo suporte. Quanto menos você interfere na trama fibrosa e no rizoma rastejante, melhor. Uma placa durável, boa luz e ciclos rápidos de molhamento e secagem produzem uma touceira muito mais bonita do que o cultivo apertado em vaso convencional.",
     adaptacaoRegional: {
-        litoralQuente: "Em Serra/ES, cultive no ponto claro e muito ventilado do orquidário. Plantas montadas podem precisar de regas frequentes no verão, sempre com secagem rápida. Evite calor noturno abafado e excesso de esfagno.",
-        montanhaFrio: "Excelente adaptação em regiões como Santa Teresa/ES. Aproveite as noites frescas naturais, proteja contra geadas e reduza as regas somente quando a evaporação cair."
+        litoralQuente: "Boa, desde que montada ou em recipiente muito raso e ventilado. Dê luz forte filtrada, regas frequentes no verão e secagem rápida entre elas.",
+        montanhaFrio: "Excelente. As noites amenas favorecem a espécie; apenas evite geadas e longos períodos de umidade fria sem ventilação."
     },
-    mesesFloracao: [2, 3, 4, 5],
-    avaliacoes: {
-        cultivo: 3,
-        floracao: 3,
-        perfume: 1,
-        luminosidade: 4,
-        agua: 3,
-        raridade: 4
-    }
+    mesesFloracao: [5, 6, 7, 8],
+    avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 4, agua: 3, raridade: 4 }
 };

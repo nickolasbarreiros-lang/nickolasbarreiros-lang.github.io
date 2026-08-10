@@ -1,41 +1,42 @@
-// Ficha científica e de cultivo refinada e auditada — Padrão Editorial V3.
+// Refinamento Final — Lote 15.
 
 export const huntleyaMeleagris = {
     id: "huntleya-meleagris",
     nome: "Huntleya meleagris",
     genero: "Huntleya",
+    sinonimo: "Batemannia meleagris",
     tipo: "Espécie botânica",
     dificuldade: "Moderada a avançada",
-    caracteristicas: ["Sem pseudobulbos", "Folhas em leque", "Flor solitária grande", "Alta umidade", "Raízes sensíveis a sais"],
+    caracteristicas: ["Sem pseudobulbos", "Folhas em leque", "Flor solitária grande", "Muito perfumada", "Alta umidade"],
     fotos: [
         "imagens/Huntleya meleagris/Huntleya meleagris1.webp",
         "imagens/Huntleya meleagris/Huntleya meleagris2.jpeg",
         "imagens/Huntleya meleagris/Huntleya meleagris3.webp",
         "imagens/Huntleya meleagris/Huntleya meleagris4.webp"
     ],
-    descricao: "Espécie epífita simpodial sem pseudobulbos, formando sucessivos leques de folhas largas, macias e plissadas. Produz flores solitárias, grandes, cerosas, brilhantes, manchadas e perfumadas, sustentadas por hastes curtas que surgem nas axilas foliares inferiores. Como possui pouca reserva hídrica, exige umidade regular, raízes ativas e ambiente estável, não tolerando secas prolongadas.",
-    origem: "Trinidad e Tobago e áreas tropicais da América do Sul, incluindo o Brasil.",
-    regiao: "Florestas úmidas e montanas da América do Sul tropical e Mata Atlântica brasileira.",
-    habitat: "Epífita do estrato inferior e médio de florestas úmidas, em ambientes sombreados, com alta umidade atmosférica, noites amenas e circulação constante de ar.",
-    clima: "Intermediário a quente moderado, úmido e muito ventilado.",
-    climaFloracao: "Crescimento contínuo, umidade estável, raízes oxigenadas, água de baixa salinidade e noites amenas favorecem a emissão floral. Não necessita e não tolera repouso seco. O maior risco em regiões quentes é a combinação de calor noturno, substrato saturado e água estagnada no centro dos leques.",
+    descricao: "Uma orquídea de aparência tropical e flor surpreendentemente grande! Huntleya meleagris cresce em forma de leques de folhas largas e não possui pseudobulbos, por isso depende de umidade mais constante do que muitas orquídeas de cultivo comum. De cada crescimento pode surgir uma haste curta com uma única flor cerosa, muito perfumada e variável, capaz de chegar a cerca de 12 cm. Na natureza vive em florestas úmidas entre aproximadamente 600 e 1.300 m, faixa que explica sua preferência por ambiente fresco, sombreado e bem ventilado mesmo quando cultivada em regiões quentes.",
+    origem: "Trinidad ao norte e centro da América do Sul.",
+    regiao: "América do Sul tropical · Brasil incluído.",
+    habitat: "Florestas úmidas · 600–1.300 m.",
+    clima: "Intermediário · úmido e muito ventilado.",
+    climaFloracao: "A amplitude altitudinal mostra que a espécie tolera condições de frescas a relativamente quentes, mas não significa que suporte calor noturno abafado. No litoral, o desafio é reproduzir o frescor e a umidade do interior da floresta sem manter as raízes sem oxigênio. Crescimento contínuo, água de baixa salinidade e noites um pouco mais amenas favorecem a formação de flores. Não possui repouso seco.",
     iluminacao: {
-        sombrite: "60% a 70%; até 70% no verão muito quente",
+        sombrite: "60% a 70%",
         solDireto: "Não recomendado",
-        horario: "Luz difusa e uniforme durante todo o dia",
-        observacoes: "Evite aquecimento das folhas. Sombreamento excessivo também pode reduzir vigor e floração; a planta precisa de claridade difusa, não de escuridão profunda."
+        horario: "Claridade difusa durante todo o dia",
+        observacoes: "Prefere luz semelhante à de Phalaenopsis bem iluminada, mas com muito mais circulação de ar. Folhas amareladas ou aquecidas indicam excesso; folhas muito escuras e crescimento fraco podem indicar sombra profunda demais."
     },
-    floracao: "Mais frequente da primavera ao verão, podendo ocorrer em outras épocas conforme o clima e o amadurecimento dos novos leques.",
-    adubacao: "🌿 Orgânica: bokashi somente em dose mínima, afastado da coroa e preferencialmente em porta-adubo.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 7–10 dias durante o crescimento.\n🧪 Sais: evite doses comuns de Osmocote; a adubação líquida diluída oferece maior controle.\n💦 Lavagem: uma vez por mês, lave abundantemente o substrato apenas com água de baixa salinidade para remover resíduos minerais.",
-    rega: "Mantenha umidade regular, permitindo apenas leve aeração superficial entre as regas. O substrato nunca deve secar completamente, mas também não pode permanecer saturado ou sem oxigenação. Regue preferencialmente pela manhã, deixe a água escoar e evite umidade estagnada no centro dos leques durante a noite. Molhar as folhas não é proibido, desde que sequem rapidamente sob boa ventilação.",
-    suporte: "🥇 Vaso plástico raso, justo e muito ventilado.\n🥈 Vaso de barro perfurado com substrato de retenção equilibrada.\n🥉 Cesto pequeno revestido com esfagno solto, em ambiente úmido e ventilado.\n⚠️ Montagem em placa exige nebulização ou regas muito frequentes e não é indicada para ambientes secos.",
-    substrato: "🥇 Casca de pinus fina a média + esfagno solto + pedra-pomes.\n🥈 Esfagno de fibra longa sem compactação + pedra-pomes + carvão médio.\n🥉 Fibra de coco grossa e bem lavada + casca fina + perlita.\n🏅 Casca média + pedra-pomes + pequena fração de akadama + pouco esfagno. Evite pó de coco, material compactado e substratos que aqueçam ou permaneçam saturados.",
-    errosComuns: "Deixar o substrato secar completamente; manter o vaso saturado, quente e sem oxigenação; expor ao sol direto; cultivar em sombra excessiva; acumular água no centro do leque durante a noite; aplicar fertilizante concentrado; usar água muito salina; usar pó de coco compactado; cultivar em local quente e abafado; tratar o inverno como repouso seco.",
-    dica: "O segredo é manter umidade constante sem transformar o vaso em um ambiente quente e saturado. Em dias quentes, aumente primeiro a ventilação e a umidade do ambiente antes de simplesmente encharcar o recipiente. Regue pela manhã, proteja o centro dos leques contra água estagnada à noite e lave mensalmente o substrato com água pura. Raízes úmidas e oxigenadas, folhas frescas, água de baixa salinidade e movimento contínuo de ar são os pilares do cultivo.",
+    floracao: "Pode florescer da primavera ao outono, conforme a maturação dos novos leques. Cada haste normalmente sustenta uma flor grande, cerosa, variável e muito perfumada.",
+    adubacao: "🌿 Orgânica: bokashi somente em quantidade mínima e em porta-adubo, sem contato com raízes ou coroa.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 7–10 dias durante o crescimento ativo.\n🧪 Liberação lenta: usar com muita cautela; adubação líquida diluída oferece maior controle.\n💦 Lavagem: mensalmente, lave o substrato com água de baixa salinidade para reduzir resíduos minerais.",
+    rega: "Mantenha o substrato uniformemente úmido, mas nunca saturado. Como não possui pseudobulbos, a espécie sofre com secas prolongadas; ao mesmo tempo, as raízes também deterioram em meio quente e sem oxigênio. Regue pela manhã e garanta que água acumulada entre as folhas seque antes da noite.",
+    suporte: "🥇 Vaso plástico raso, justo e bastante perfurado.\n🥈 Vaso de barro perfurado, onde a umidade ambiental seja alta.\n🥉 Cesto pequeno revestido internamente com esfagno solto, em local muito ventilado.",
+    substrato: "🥇 Casca de pinus fina a média + esfagno solto + pedra-pomes.\n🥈 Esfagno de fibra longa sem compactação + pedra-pomes + carvão.\n🥉 Fibra de coco grossa bem lavada + casca fina + perlita.\n⚠️ Evite pó de coco, material fino e qualquer mistura que permaneça quente e pastosa.",
+    errosComuns: "Deixar secar completamente; cultivar em vaso grande; manter substrato quente e saturado; usar água muito salina; aplicar fertilizante concentrado; expor ao sol direto; cultivar em ambiente abafado; deixar água parada no centro dos leques durante a noite; impor repouso seco no inverno.",
+    dica: "O ponto-chave não é simplesmente ‘regar muito’, mas manter água disponível junto com oxigênio. Em dias quentes, aumente primeiro ventilação e umidade do ambiente antes de encharcar o vaso. Essa diferença é decisiva: raízes frescas e oxigenadas sustentam os leques; raízes quentes e saturadas entram em declínio rapidamente.",
     adaptacaoRegional: {
-        litoralQuente: "Cultivo delicado em Serra/ES. Mantenha no ponto mais fresco, sombreado e ventilado do orquidário, com substrato aerado e sem calor noturno abafado. Bancadas baixas e recipientes que não superaqueçam ajudam no verão.",
-        montanhaFrio: "Excelente adaptação em abrigo úmido e protegido de geadas e ventos gelados. Ajuste as regas à menor evaporação sem deixar o substrato secar completamente."
+        litoralQuente: "Cultivo exigente. Reserve o local mais fresco, sombreado e ventilado do orquidário, use água de boa qualidade e evite recipientes que superaqueçam. No verão, noites abafadas são o principal gargalo.",
+        montanhaFrio: "Muito boa adaptação em ambiente protegido. Mantenha umidade constante e proteja de geadas ou frio excessivo."
     },
-    mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
-    avaliacoes: { cultivo: 4, floracao: 3, perfume: 4, luminosidade: 2, agua: 5, raridade: 4 }
+    mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
+    avaliacoes: { cultivo: 4, floracao: 3, perfume: 5, luminosidade: 2, agua: 5, raridade: 4 }
 };

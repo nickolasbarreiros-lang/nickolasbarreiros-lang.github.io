@@ -1,53 +1,42 @@
-// Ficha V4 refinada — Isochilus linearis.
+// Refinamento Final — Lote 15.
 
 export const isochilusLinearis = {
     id: "isochilus-linearis",
     nome: "Isochilus linearis",
     genero: "Isochilus",
+    sinonimo: "Epidendrum lineare",
     tipo: "Espécie botânica",
     dificuldade: "Fácil a moderada",
-    caracteristicas: [
-        "Epífita ou litófita neotropical",
-        "Sem pseudobulbos verdadeiros",
-        "Caules finos e folhosos",
-        "Inflorescências terminais compactas"
-    ],
+    caracteristicas: ["Ampla distribuição americana", "Caules finos e folhosos", "Sem pseudobulbos", "Flores tubulares rosadas", "Forma grandes touceiras"],
     fotos: [
         "imagens/Isochilus linearis/isochilus linearis1.jpg",
         "imagens/Isochilus linearis/isochilus linearis2.jpg",
         "imagens/Isochilus linearis/isochilus linearis3.jpg",
         "imagens/Isochilus linearis/isochilus linearis4.jpg"
     ],
-    descricao: "Espécie simpodial epífita ou ocasionalmente litófita, sem pseudobulbos verdadeiros, formando touceiras densas de caules finos, articulados, eretos a levemente pendentes e revestidos por folhas lineares alternadas. Os caules armazenam pouca água e as raízes são finas, sensíveis à compactação e ao acúmulo de sais. As inflorescências terminais compactas reúnem pequenas flores tubulares rosadas, lilases ou magenta.",
-    origem: "Do México, América Central e Caribe até a América do Sul e o Brasil.",
-    regiao: "América tropical, em ampla faixa neotropical.",
-    habitat: "Epífita ou litófita em florestas úmidas de baixa a média altitude, sobre galhos, troncos e superfícies rochosas com boa circulação de ar e luz filtrada.",
-    clima: "Intermediário a quente e úmido, com ventilação constante.",
-    climaFloracao: "A floração depende da maturação completa dos caules, luz filtrada abundante, raízes ativas e uma discreta redução das regas após o crescimento, sem seca total. Touceiras grandes preservam um microclima mais estável e produzem maior número de inflorescências simultâneas.",
+    descricao: "À primeira vista, parece quase uma pequena touceira de capim — até que as pontas dos caules se enchem de flores rosadas! Isochilus linearis possui caules finos e eretos revestidos por folhas estreitas, sem os pseudobulbos típicos de muitas orquídeas. As inflorescências surgem no ápice dos caules e reúnem pequenas flores tubulares, geralmente voltadas para o mesmo lado. É uma espécie extremamente ampla, encontrada do México a grande parte da América tropical, inclusive no Brasil, e ocorre desde regiões relativamente baixas até montanhas muito elevadas. Essa enorme amplitude explica por que diferentes plantas podem responder de maneira distinta à temperatura em cultivo.",
+    origem: "México à América tropical.",
+    regiao: "Caribe, América Central e América do Sul.",
+    habitat: "Florestas úmidas · 300–3.900 m.",
+    clima: "Intermediário a quente · ampla tolerância.",
+    climaFloracao: "A faixa altitudinal documentada é excepcionalmente ampla, de cerca de 300 a 3.900 m, mas muitas coletas concentram-se aproximadamente entre 600 e 1.200 m. Por isso não é correto classificar toda a espécie como fria ou quente. No litoral, trabalhe com o comportamento intermediário: luz filtrada, boa ventilação e umidade regular, especialmente porque os caules não possuem grande reserva de água. Não necessita repouso seco.",
     iluminacao: {
-        sombrite: "50% a 60%",
-        solDireto: "Sim, apenas suave",
-        horario: "Até aproximadamente 08:30",
-        observacoes: "Caules longos, moles e muito espaçados indicam estiolamento por falta de luz. Luz filtrada abundante mantém a touceira compacta e favorece as pontas florais."
+        sombrite: "50% a 70%",
+        solDireto: "Somente muito suave",
+        horario: "Primeiras horas da manhã",
+        observacoes: "Prefere claridade filtrada e não sombra escura. Caules excessivamente longos e moles indicam falta de luz; folhas amareladas ou secas nas pontas podem indicar excesso de sol, baixa umidade ou acúmulo de sais."
     },
-    floracao: "Predomina da primavera ao verão, podendo variar conforme a procedência, o clima e a maturação dos caules. Em touceiras adultas, podem ocorrer florações secundárias ao longo do ano.",
-    adubacao: "🌿 Orgânica: bokashi em dose mínima na borda do recipiente, sem tocar raízes ou bases dos caules.\n💧 Foliar: NPK equilibrado em aproximadamente 1/4 da dose a cada 10–15 dias durante o crescimento ativo.\n🧪 Liberação lenta: usar apenas dosagem baixíssima, longe das raízes finas. Uma vez por mês, faça uma lavagem abundante do recipiente somente com água limpa para remover sais acumulados.",
-    rega: "Mantenha umidade regular, permitindo que a superfície e parte do substrato arejem entre as regas. Como não possui pseudobulbos verdadeiros, não tolera seca prolongada, mas as raízes também sofrem rapidamente em meio compactado ou saturado. No inverno, acompanhe a evaporação real e apenas reduza a frequência, sem impor dormência seca.",
-    suporte: "🥇 Cachepô de madeira bem vazado.\n🥈 Vaso de barro pequeno e raso.\n🥉 Placa de cortiça ou madeira dura em ambiente de alta umidade.",
-    substrato: "🥇 Casca de pinus média + carvão vegetal + pedra-pomes.\n🥈 Casca de pinus + fibra de coco grossa bem lavada.\n🥉 Casca de pinus + carvão + perlita. Todos devem permanecer soltos, arejados e com drenagem rápida.",
-    errosComuns: "Submeter a seca prolongada; cultivar em sombra excessiva; usar vaso profundo; manter substrato velho ou compactado; adubar em concentração alta; encostar Osmocote no rizoma ou nas raízes; dividir frequentemente a touceira; deixar o ambiente abafado; usar água muito salina; confundir umidade regular com encharcamento.",
-    dica: "Mantenha uma touceira densa, raízes ativas e baixa salinidade no substrato. Evite fragmentar a planta em mudas pequenas; preserve vários caules maduros, raízes saudáveis e ao menos uma frente ativa. Adube em doses fracas e realize mensalmente uma rega abundante apenas com água limpa, deixando-a atravessar completamente o vaso ou cachepô. Essa lavagem protege as pontas das raízes e mantém o crescimento contínuo.",
+    floracao: "Mais frequente da primavera ao verão, embora a época possa variar bastante entre procedências. As pequenas flores tubulares surgem agrupadas no ápice dos caules maduros.",
+    adubacao: "🌿 Orgânica: bokashi em dose mínima e sempre afastado das raízes.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante o crescimento ativo.\n🧪 Liberação lenta: apenas poucos grânulos em recipiente pequeno e drenante.\n💦 Lavagem: mensalmente, faça uma rega abundante com água limpa para remover sais do substrato.",
+    rega: "Mantenha umidade regular e volte a regar antes que a touceira permaneça seca por muito tempo. Ao mesmo tempo, permita a entrada de ar no substrato entre as regas. AOS recomenda que espécies do gênero não sequem completamente. No inverno, apenas acompanhe a menor evaporação e reduza proporcionalmente a frequência.",
+    suporte: "🥇 Cachepô de madeira bem vazado.\n🥈 Vaso de barro pequeno e raso.\n🥉 Vaso plástico pequeno e bem perfurado.\n🏅 Placa de cortiça em ambiente de alta umidade, com regas frequentes.",
+    substrato: "🥇 Casca de pinus fina a média + carvão + pedra-pomes.\n🥈 Casca fina + pequena fração de esfagno solto + pedra-pomes.\n🥉 Fibra de coco grossa bem lavada + casca + carvão.\n⚠️ Evite substrato velho, fino ou compactado, pois as raízes precisam de umidade e oxigênio ao mesmo tempo.",
+    errosComuns: "Impor seca prolongada; cultivar em sombra excessiva; usar vaso profundo e grande; manter substrato velho ou compactado; aplicar adubo concentrado; cultivar em local abafado; deixar a touceira superaquecer; confundir umidade regular com encharcamento; dividir frequentemente uma colônia saudável.",
+    dica: "A melhor forma de ler essa espécie é observar os caules. Como não há pseudobulbos robustos para funcionar como reserva, caules enrugados e folhas perdendo firmeza indicam que a planta ficou seca demais. Mantenha água disponível sem sacrificar a aeração e preserve touceiras grandes: elas estabilizam o microclima e florescem com muito mais impacto.",
     adaptacaoRegional: {
-        litoralQuente: "Ótima adaptação em Serra/ES. Use 50% a 60% de sombreamento, ventilação constante e regas regulares, sem deixar o centro da touceira abafado ou o recipiente encharcado.",
-        montanhaFrio: "Excelente desempenho em Santa Teresa/ES. A umidade e as noites amenas favorecem a espécie; reduza a água apenas em semanas frias, nubladas e de baixa evaporação."
+        litoralQuente: "Muito boa para procedências adaptadas a temperaturas intermediárias ou quentes. Mantenha luz filtrada, umidade regular e forte ventilação, evitando calor abafado no centro da touceira.",
+        montanhaFrio: "Excelente para muitas procedências. Ajuste a água à menor evaporação e proteja contra geadas; não deixe o substrato secar completamente."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
-    avaliacoes: {
-        cultivo: 2,
-        floracao: 4,
-        perfume: 1,
-        luminosidade: 3,
-        agua: 3,
-        raridade: 3
-    }
+    avaliacoes: { cultivo: 2, floracao: 4, perfume: 1, luminosidade: 3, agua: 4, raridade: 3 }
 };
