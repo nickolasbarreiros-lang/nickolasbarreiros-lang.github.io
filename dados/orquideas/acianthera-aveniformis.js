@@ -9,7 +9,7 @@ export const aciantheraAveniformis = {
     origem: "Brasil — Sul do país.",
     regiao: "Mata Atlântica do Sul do Brasil, em ambientes florestais úmidos.",
     habitat: "Micro-orquídea epífita de crescimento reptante, registrada em floresta tropical úmida.",
-    descricao: "Micro-orquídea brasileira da subtribo Pleurothallidinae, descrita originalmente como Pleurothallis aveniformis. O nome Acianthera aveniformis foi usado posteriormente, mas o tratamento taxonômico atualmente aceito por Kew é Pabstiella aveniformis (Hoehne) Luer. É uma planta mini-miniatura, epífita e reptante, com ramicaules muito curtos, pequenas folhas e flores diminutas de aproximadamente 3 mm. O epíteto faz referência ao aspecto/pequenez associado à aveia ('oat-like' em referências históricas de cultivo). Apesar do tamanho reduzido, não deve ser tratada como espécie fria: registros de habitat em torno de 400 m indicam comportamento quente a intermediário. Em cultivo, o ponto crítico é manter raízes finas hidratadas e oxigenadas ao mesmo tempo, evitando tanto secas prolongadas quanto esfagno compacto e permanentemente saturado.",
+    descricao: "Uma verdadeira miniatura da nossa flora! Esta micro-orquídea brasileira de hábito reptante (crescimento horizontal) encanta pelo porte diminuto e por suas florzinhas de apenas 3 mm. Seu nome científico (aveniformis) faz referência à semelhança com grãos de aveia. Apesar de seu tamanho delicado, não é uma planta de clima frio: encontrada em regiões de baixa altitude (cerca de 400 m), ela se desenvolve muito bem em climas quentes a intermediários.",
     caracteristicas: ["Micro-orquídea", "Crescimento reptante", "Flores ~3 mm", "Sul do Brasil", "~400 m", "Quente a intermediária", "Pleurothallidinae"],
     fotos: [
         "imagens/Acianthera aveniformis/Acianthera aveniformis1.jpeg",
@@ -22,8 +22,8 @@ export const aciantheraAveniformis = {
     clima: "Quente a intermediário, úmido e muito ventilado.",
     climaFloracao: "A origem em baixa a média elevação, com referência próxima de 400 m, não sustenta tratá-la como espécie obrigatoriamente fria. Para florescer no litoral quente, o objetivo é evitar superaquecimento e abafamento, mas sem impor noites artificialmente frias. Crescimentos maduros, umidade atmosférica estável, raízes ativas e boa circulação de ar são mais relevantes que uma queda térmica extrema.",
     iluminacao: {
-        sombrite: "70% como referência inicial; ajustar conforme microclima",
-        solDireto: "Evitar; no máximo luz solar muito suave e brevemente após aclimatação",
+        sombrite: "70% como referência inicial;",
+        solDireto: "Evitar; no máximo luz solar muito suave",
         horario: "Primeiras horas da manhã",
         observacoes: "Prefere luz difusa de baixa a moderada intensidade. Em clima litorâneo quente, cerca de 70% de sombreamento é uma referência segura porque reduz aquecimento sem mergulhar a planta em sombra profunda. Folhas firmes, crescimento compacto e ausência de aquecimento excessivo indicam equilíbrio; folhas muito escuras e crescimento fraco sugerem falta de luz, enquanto amarelecimento rápido ou manchas secas indicam excesso."
     },
