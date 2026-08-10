@@ -1,65 +1,58 @@
-// Ficha refinada por comparação entre o conteúdo anterior e as informações complementares fornecidas.
-// Menu lateral mantido compacto; aprofundamento concentrado nas seções de cultivo.
+// Refinamento final — revisão consolidada com fontes botânicas e de cultivo.
 
 export const dryadellaAviceps = {
-    "id": "dryadella-aviceps",
-    "nome": "Dryadella aviceps",
-    "genero": "Dryadella",
-    "tipo": "Espécie botânica",
-    "dificuldade": "Moderada",
-    "caracteristicas": [
+    id: "dryadella-aviceps",
+    nome: "Dryadella aviceps",
+    genero: "Dryadella",
+    sinonimo: "Pleurothallis aviceps",
+    tipo: "Espécie botânica",
+    dificuldade: "Moderada",
+    caracteristicas: [
         "Miniatura brasileira",
-        "Touceira cespitosa",
-        "Folhas estreitas",
-        "Flores triangulares basais",
-        "Raízes muito finas",
-        "Sensível a sais",
-        "Prefere clima fresco",
-        "Não deve ser dividida"
+        "Também ocorre no Paraguai",
+        "Touceira compacta",
+        "Flores de cerca de 5 mm",
+        "Folhas espessas",
+        "Raízes finas",
+        "310–1.500 m",
+        "Quente a fresca conforme altitude"
     ],
-    "fotos": [
+    fotos: [
         "imagens/Dryadella aviceps/Dryadella aviceps1.jpg",
         "imagens/Dryadella aviceps/Dryadella aviceps2.jpg",
         "imagens/Dryadella aviceps/Dryadella aviceps3.webp",
         "imagens/Dryadella aviceps/Dryadella aviceps4.jpg"
     ],
-    "descricao": "Dryadella aviceps é uma miniatura epífita da subtribo Pleurothallidinae, distribuída do leste e sul do Brasil ao Paraguai. Forma touceiras densas de folhas estreitas e eretas, com flores pequenas e triangulares surgindo rente à base da vegetação. As raízes são finas, delicadas e sensíveis tanto ao ressecamento quanto ao acúmulo de sais. A touceira íntegra cria um microclima mais estável ao redor das raízes, retém umidade ambiental e favorece florações mais volumosas. Divisões frequentes enfraquecem a planta e interrompem esse equilíbrio.",
-    "origem": "Leste e Sul do Brasil ao Paraguai.",
-    "regiao": "Mata Atlântica e formações associadas.",
-    "habitat": "Ramos finos e troncos musgosos.",
-    "clima": "Intermediário a fresco e úmido.",
-    "climaFloracao": "Floresce melhor quando a touceira permanece densa, sob sombra clara, umidade contínua e noites mais frescas. Calor noturno prolongado e salinização reduzem o crescimento e a formação de flores.",
-    "iluminacao": {
-        "sombrite": "60% a 70%",
-        "solDireto": "Não recomendado",
-        "horario": "Luz difusa ao longo do dia",
-        "observacoes": "Prefere sombra clara e fresca. Folhas amareladas indicam excesso de luz ou calor. Ambiente escuro reduz a floração e deixa a touceira fraca."
+    descricao: "Pequena no tamanho, mas cheia de detalhes! Dryadella aviceps forma tufos compactos de folhas firmes e produz minúsculas flores de cerca de 5 mm muito próximas à base da planta. O nome comum em inglês faz alusão ao formato da flor, lembrando uma pequena cabeça de ave. Ocorre no leste e sul do Brasil e chega ao Paraguai, em altitudes bastante variadas — aproximadamente 310 a 1.500 m — o que explica sua capacidade de crescer desde condições relativamente quentes até ambientes mais frescos. Em cultivo, aprecia umidade regular, raízes arejadas e pouca perturbação da touceira.",
+    origem: "Brasil e Paraguai.",
+    regiao: "Leste/Sul do Brasil · Paraguai.",
+    habitat: "Epífita · florestas sazonais · ~310–1.500 m.",
+    clima: "Quente a fresco · úmido e ventilado.",
+    climaFloracao: "A amplitude altitudinal mostra que a espécie não deve ser classificada como exclusivamente fria. Plantas de procedência mais baixa toleram calor melhor, enquanto populações montanas respondem a noites amenas. Uma touceira madura, raízes saudáveis e estabilidade hídrica são mais importantes que um choque térmico intenso. No litoral quente, a prioridade é evitar abafamento e aquecimento prolongado das raízes.",
+    iluminacao: {
+        sombrite: "60% a 70%",
+        solDireto: "Evitar",
+        horario: "Luz difusa durante todo o dia",
+        observacoes: "Prefere sombra clara. Folhas excessivamente amarelas ou avermelhadas sugerem luz/calor em excesso; folhas muito escuras e alongadas indicam pouca luminosidade."
     },
-    "floracao": "Mais comum do inverno à primavera, entre junho e novembro, podendo repetir quando a planta está bem estabelecida. As flores surgem junto à base e podem ficar parcialmente escondidas pela touceira.",
-    "adubacao": "🌿 Orgânica: evite material concentrado em contato com as raízes.\n💧 Mineral/Foliar: solução equilibrada em 1/4 da dose a cada 10–15 dias.\n🌱 Crescimento: use doses fracas e regulares.\n🧪 Liberação lenta: não recomendada em recipientes pequenos.\n🚿 Lavagem: enxágue frequentemente para remover sais.",
-    "rega": "Mantenha o meio levemente úmido, com drenagem imediata. Não deixe secar completamente, mas também não mantenha água parada. No frio, reduza apenas conforme a evaporação, preservando umidade do ar elevada.",
-    "suporte": "🥇 Placa pequena com musgo — ótima aeração e microclima.\n🥈 Vaso baixo de barro — favorece resfriamento e drenagem.\n🥉 Cachepô miniatura bem vazado — mantém raízes ventiladas.\nEvite mudar de suporte sem necessidade e preserve a touceira inteira.",
-    "substrato": "🥇 Esfagno solto e renovado regularmente.\n🥈 Casca fina + perlita ou pedra-pomes + pequena camada de esfagno.\n🥉 Musgo vivo em montagem ventilada.\nNunca compacte o esfagno nem deixe o material envelhecer por muitos anos.",
-    "errosComuns": "Calor noturno contínuo; excesso de sais; esfagno velho e compacto; seca total; dividir a touceira; sol direto; vaso grande; adubo forte; baixa ventilação; água parada no inverno.",
-    "dica": "Mantenha a touceira inteira. O adensamento das folhas cria um microclima úmido e estável ao redor das raízes e aumenta a quantidade de flores. Use suporte pequeno, água de boa qualidade e adubação muito diluída.",
-    "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, use o ponto mais fresco e ventilado, longe de telhas quentes e sol direto. O verão é o período mais crítico.",
-        "montanhaFrio": "Adaptação excelente, com proteção apenas contra geadas e encharcamento prolongado."
+    floracao: "Pode produzir poucas flores sucessivamente em inflorescências muito curtas, de apenas 1–2 mm, surgindo na base do ramicaule. A época pode variar com a procedência e o cultivo; plantas bem estabelecidas podem repetir floração ao longo do ano, sem necessidade de repouso seco.",
+    adubacao: "🌿 Orgânica: evite material concentrado em contato direto com as raízes.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias.\n🌱 Crescimento: pequenas doses frequentes são mais seguras que adubações fortes.\n🧪 Liberação lenta: dispensável em recipientes muito pequenos.\n🚿 Lavagem: enxágue regularmente para impedir salinização do esfagno e das raízes.",
+    rega: "Mantenha umidade relativamente constante, permitindo que o excesso de água saia rapidamente. Não deixe a touceira secar por longos períodos, mas também não mantenha o centro do vaso cronicamente saturado. Em montagens, a rega pode ser diária no calor; em vasos com esfagno, espere a superfície se aproximar da secagem antes de regar novamente.",
+    suporte: "🥇 Placa pequena de cortiça ou madeira com musgo fino — excelente para raízes arejadas.\n🥈 Vaso miniatura de barro — ajuda a dissipar calor e controlar umidade.\n🥉 Pequeno cachepô bem vazado — adequado com mistura leve e pouco material retentor.\nEvite dividir a planta sem necessidade.",
+    substrato: "🥇 Esfagno de fibra longa solto + pedra-pomes fina.\n🥈 Casca fina + pedra-pomes + pequena porção de esfagno.\n🥉 Musgo vivo em montagem bem ventilada.\nRenove o material antes que fique ácido, compacto ou saturado de sais.",
+    errosComuns: "Dividir touceiras pequenas; usar vaso grande; secar totalmente as raízes; manter esfagno velho e compacto; excesso de sais; sol direto; baixa ventilação; tratar a espécie como obrigatoriamente fria; encharcar durante noites quentes; adubação concentrada.",
+    dica: "O melhor indicador de acerto é uma touceira compacta, firme e com raízes ativas. No litoral quente, não tente 'resfriar' a planta mantendo o vaso encharcado: ofereça sombra luminosa, ventilação contínua e umidade do ar, enquanto o substrato permanece pequeno e oxigenado.",
+    adaptacaoRegional: {
+        litoralQuente: "Adaptação de moderada a boa, principalmente para plantas de procedência mais baixa. Cultive em local fresco e ventilado, longe de telhas e paredes quentes.",
+        montanhaFrio: "Adaptação muito boa em clima intermediário/fresco, protegendo apenas de geada e saturação prolongada do substrato."
     },
-    "mesesFloracao": [
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-    ],
-    "avaliacoes": {
-        "cultivo": 3,
-        "floracao": 3,
-        "perfume": 1,
-        "luminosidade": 2,
-        "agua": 5,
-        "raridade": 3
+    mesesFloracao: [6, 7, 8, 9, 10, 11, 12],
+    avaliacoes: {
+        cultivo: 3,
+        floracao: 3,
+        perfume: 1,
+        luminosidade: 2,
+        agua: 4,
+        raridade: 3
     }
 };

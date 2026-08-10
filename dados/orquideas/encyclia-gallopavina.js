@@ -1,16 +1,21 @@
-// Ficha refinada — Padrão Editorial V3.
+// Refinamento final — revisão consolidada com fontes botânicas e de cultivo.
 
 export const encycliaGallopavina = {
     id: "encyclia-gallopavina",
     nome: "Encyclia gallopavina",
     genero: "Encyclia",
+    sinonimo: "Encyclia purpurachyla",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: [
-        "Endêmica do Sudeste do Brasil",
+        "Espécie brasileira",
+        "Sudeste do Brasil",
         "Epífita da Mata Atlântica",
-        "Flores cerosas e perfumadas",
-        "Inflorescência ereta e ramificada"
+        "Pseudobulbos robustos",
+        "Inflorescência ereta e ramificada",
+        "Flores cerosas",
+        "Perfumada",
+        "Boa luminosidade"
     ],
     fotos: [
         "imagens/Encyclia gallopavina/Encyclia gallopavina1.webp",
@@ -18,28 +23,28 @@ export const encycliaGallopavina = {
         "imagens/Encyclia gallopavina/Encyclia gallopavina3.jpg",
         "imagens/Encyclia gallopavina/Encyclia gallopavina4.jpeg"
     ],
-    descricao: "Espécie epífita nativa da Mata Atlântica do Sudeste brasileiro. Forma pseudobulbos ovoides a piriformes, parcialmente revestidos por bainhas secas persistentes, com duas a três folhas coriáceas. Produz inflorescências eretas a levemente arqueadas, por vezes ramificadas, com flores cerosas e duráveis em tons acastanhados, esverdeados ou purpúreos, contrastando com labelo claro e estriado. O perfume é moderado, mais perceptível nas primeiras horas da manhã, podendo apresentar notas adocicadas e levemente cítricas.",
-    origem: "Sudeste do Brasil.",
-    regiao: "Mata Atlântica do Espírito Santo, Rio de Janeiro e Minas Gerais.",
-    habitat: "Epífita em florestas tropicais úmidas e matas de altitude, ocupando estratos médios e altos das árvores, com claridade elevada e circulação constante de ar.",
-    clima: "Intermediário a quente, com razoável sazonalidade.",
-    climaFloracao: "A floração depende de pseudobulbos completamente maduros, alta luminosidade filtrada e raízes bem oxigenadas. Após o novo pseudobulbo ficar firme e intumescido, aumente discretamente a claridade e prolongue o intervalo entre as regas, sem provocar desidratação severa. Esse estresse hídrico controlado reproduz a estação mais seca do habitat e favorece a emissão das hastes florais. Tolera períodos curtos de calor intenso desde que haja ventilação forte e secagem rápida das raízes.",
+    descricao: "Uma Encyclia brasileira de presença marcante! Encyclia gallopavina forma pseudobulbos fortes, folhas firmes e hastes eretas que podem se ramificar e carregar várias flores cerosas. A combinação de tons verdes, castanhos e púrpura com o labelo mais claro dá às flores um desenho muito característico, acompanhado por perfume perceptível sobretudo nas horas mais amenas. É uma espécie do Sudeste brasileiro associada à Mata Atlântica úmida. Em cultivo, responde muito bem a alta luminosidade filtrada, circulação constante de ar e ciclos claros de molhar e secar nas raízes.",
+    origem: "Brasil.",
+    regiao: "Sudeste brasileiro.",
+    habitat: "Mata Atlântica úmida · epífita.",
+    clima: "Quente a intermediário · ventilado.",
+    climaFloracao: "POWO associa a espécie ao bioma tropical úmido do Sudeste brasileiro, enquanto referências de cultivo a tratam como planta de luminosidade relativamente alta e crescimento quente. A floração tende a acompanhar a maturação completa dos pseudobulbos e pode ocorrer da primavera ao verão. Uma leve redução das regas após o amadurecimento pode ajudar, mas não deve ser transformada em repouso seco rígido.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Sim",
-        horario: "Até 09:00",
-        observacoes: "Folhas muito escuras indicam falta de luz; folhas amareladas ou queimadas indicam excesso de sol. A claridade elevada é essencial para o amadurecimento dos pseudobulbos."
+        solDireto: "Sim, suave",
+        horario: "Até cerca de 09:00",
+        observacoes: "Prefere claridade alta e filtrada. Folhas muito escuras e vegetação alongada indicam falta de luz; amarelecimento intenso ou queimaduras mostram excesso de sol/calor."
     },
-    floracao: "Primavera e verão, geralmente entre outubro e fevereiro, com variação conforme clima e maturidade da planta.",
-    adubacao: "🌿 Orgânica: bokashi leve na borda do vaso a cada 2–3 meses, apenas durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20 ou 10-10-10, a 1/3 ou 1/4 da dose semanalmente durante a brotação.\n🧪 Após a maturação: reduza o excesso de nitrogênio e mantenha adubação leve, evitando acúmulo de sais.",
-    rega: "Durante a primavera e o verão, regue quando o substrato estiver seco, permitindo drenagem imediata. No outono e inverno, reduza consideravelmente a frequência, mantendo apenas hidratação suficiente para evitar o enrugamento excessivo dos pseudobulbos. Não regue por calendário fixo: observe a secagem real do substrato.",
-    suporte: "🥇 Placa de madeira dura ou cortiça.\n🥈 Cachepô de madeira vazado.\n🥉 Vaso pequeno de barro.",
-    substrato: "🥇 Casca de pinus grossa + carvão vegetal + pedra-pomes ou cacos de tijolo.\n🥈 Brita nº 1 + carvão vegetal + fibra de coco grossa.\n🥉 Casca grossa + pedra-pomes + carvão + pequena fração de akadama.\n🌿 Montagem sem substrato em ambiente com umidade relativa elevada.",
-    errosComuns: "Regar por calendário fixo; cultivar sob sombra excessiva; usar substrato velho ou compactado; manter raízes encharcadas; enterrar o rizoma; usar vaso grande demais; remover pseudobulbos antigos ainda firmes; exagerar no nitrogênio após a maturação; confundir a espécie com outras Encyclia brasileiras sem registrar labelo, coluna e inflorescência.",
-    dica: "Após o novo pseudobulbo completar totalmente seu desenvolvimento, no final do verão ou início do outono, aumente a luminosidade sem expor a planta ao sol forte e reduza significativamente as regas, permitindo que o substrato permaneça seco por mais tempo entre uma irrigação e outra. Esse estresse hídrico controlado simula a estação seca do habitat e favorece a emissão das hastes florais em vez de novos brotos vegetativos. Quando os botões ou a nova brotação surgirem, retome gradualmente as regas e a adubação.",
+    floracao: "Mais comum na primavera e no verão, aproximadamente entre outubro e fevereiro, variando conforme procedência, clima e maturação dos pseudobulbos. As inflorescências terminais podem ser eretas ou levemente arqueadas e, em plantas vigorosas, apresentar ramificações e várias flores duráveis.",
+    adubacao: "🌿 Orgânica: bokashi leve na borda do vaso a cada 60–90 dias durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/3 da dose semanal ou quinzenalmente durante brotação e enraizamento.\n🌱 Maturação: reduza excesso de nitrogênio quando o pseudobulbo estiver completo.\n🧪 Liberação lenta: pode ser usada em pequena quantidade em vasos muito drenantes.\n🚿 Lavagem: faça regas periódicas somente com água para remover sais.",
+    rega: "Regue abundantemente durante a formação de novos brotos e raízes, sempre permitindo drenagem completa. Após o pseudobulbo amadurecer, aumente um pouco o intervalo entre regas, sem desidratar severamente a planta. No litoral quente, ajuste a frequência pela velocidade real de secagem, não pelo calendário.",
+    suporte: "🥇 Cachepô de madeira bem vazado — excelente aeração para raízes grossas.\n🥈 Vaso pequeno de barro — ajuda na evaporação e estabilidade.\n🥉 Placa de cortiça ou madeira — boa opção em ambientes úmidos e com regas frequentes.",
+    substrato: "🥇 Casca de pinus grossa + carvão vegetal + pedra-pomes.\n🥈 Brita + carvão + fibra de coco grossa.\n🥉 Casca grossa + pedra-pomes + carvão + pequena fração de akadama.\nEvite material fino e compactado; o rizoma deve permanecer superficial.",
+    errosComuns: "Cultivar em sombra; vaso grande demais; substrato velho; raízes continuamente encharcadas; enterrar o rizoma; reduzir água cedo demais durante crescimento; excesso de nitrogênio após a maturação; replantar sem raízes novas; calor abafado com substrato molhado; impor seca rigorosa por longos períodos.",
+    dica: "Espere o novo pseudobulbo terminar de crescer antes de diminuir discretamente a frequência das regas. O objetivo é marcar uma mudança de estação sem desidratar a planta. Em Serra/ES, o melhor estímulo para florir costuma ser luz alta filtrada + pseudobulbo maduro + raízes bem aeradas, e não seca extrema.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação em Serra/ES, desde que haja ventilação contínua, alta luminosidade filtrada e secagem rápida do substrato. Evite calor parado e chuva contínua sobre raízes recém-molhadas.",
-        montanhaFrio: "Boa adaptação em regiões serranas. Proteja de geadas e reduza bastante a rega em períodos frios, nublados ou chuvosos."
+        litoralQuente: "Boa a excelente adaptação, desde que receba ventilação contínua, alta luminosidade filtrada e secagem rápida do substrato. Evite calor parado e noites com raízes saturadas.",
+        montanhaFrio: "Boa adaptação. Em períodos frios e nublados, reduza a frequência das regas para acompanhar a menor evaporação."
     },
     mesesFloracao: [10, 11, 12, 1, 2],
     avaliacoes: {
@@ -47,7 +52,7 @@ export const encycliaGallopavina = {
         floracao: 4,
         perfume: 3,
         luminosidade: 4,
-        agua: 2,
+        agua: 3,
         raridade: 3
     }
 };
