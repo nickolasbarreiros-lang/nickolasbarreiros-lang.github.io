@@ -6,6 +6,7 @@ export const zygopetalumMaculatum = {
     "nome": "Zygopetalum maculatum",
     "genero": "Zygopetalum",
     "tipo": "Espécie botânica",
+    "sinonimo": "Maxillaria maculata",
     "dificuldade": "Moderada a exigente no calor",
     "caracteristicas": [
         "Espécie terrestre ou rupícola",
@@ -23,11 +24,11 @@ export const zygopetalumMaculatum = {
         "imagens/Zygopetalum maculatum/Zygopetalum maculatum3.jpg",
         "imagens/Zygopetalum maculatum/Zygopetalum maculatum4.jpg"
     ],
-    "descricao": "Zygopetalum maculatum é uma espécie botânica sul-americana terrestre ou rupícola, conhecida pelas flores cerosas, muito perfumadas e de forte contraste entre sépalas e pétalas verde-amareladas maculadas de castanho e amplo labelo violeta ou lilás. Forma pseudobulbos ovoides e carnosos com folhas longas, plissadas e verde-brilhantes. É uma planta de ambientes úmidos e relativamente frescos, e o principal desafio em regiões costeiras é o calor noturno contínuo, que aquece o sistema radicular, favorece doenças e reduz a indução floral. O cultivo deve privilegiar raízes frescas, substrato arejado e levemente úmido, noites mais amenas e circulação contínua de ar.",
+    "descricao": "Zygopetalum maculatum é uma das espécies mais reconhecíveis do gênero: suas flores perfumadas combinam sépalas e pétalas verde-amareladas salpicadas de castanho com um grande labelo violeta a lilás. Nativa do norte do Peru ao Brasil, cresce principalmente como terrestre ou rupícola e forma pseudobulbos carnosos com longas folhas plissadas. Gosta de umidade regular e raízes frescas, mas não de substrato abafado. No litoral quente, seu maior desafio é atravessar noites muito quentes sem superaquecimento das raízes, por isso ventilação e escolha do vaso são decisivas.",
     "origem": "América do Sul.",
-    "regiao": "Peru, Bolívia e Brasil, incluindo áreas de altitude.",
-    "habitat": "Bordas de florestas úmidas, locais rupícolas e solos ricos em matéria orgânica.",
-    "clima": "Intermediário a fresco, úmido e ventilado.",
+    "regiao": "Norte do Peru, Bolívia e Brasil.",
+    "habitat": "Áreas úmidas; terrestre ou rupícola.",
+    "clima": "Intermediário a fresco e ventilado.",
     "climaFloracao": "A floração depende de noites mais frescas, pseudobulbos bem desenvolvidos e raízes sem superaquecimento. Em regiões quentes, reduzir a temperatura do vaso e melhorar a circulação de ar costuma ser mais efetivo do que simplesmente aumentar a rega. Não necessita de repouso seco severo.",
     "iluminacao": {
         "sombrite": "50% a 70%",

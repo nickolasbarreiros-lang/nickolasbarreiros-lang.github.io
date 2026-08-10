@@ -6,6 +6,7 @@ export const stanhopeaGuttulata = {
     "nome": "Stanhopea guttulata",
     "genero": "Stanhopea",
     "tipo": "Espécie botânica",
+    "sinonimo": "Stanhopea oculata var. guttulata",
     "dificuldade": "Moderada",
     "caracteristicas": [
         "Espécie botânica endêmica do Brasil",
@@ -23,11 +24,11 @@ export const stanhopeaGuttulata = {
         "imagens/Stanhopea guttulata/Stanhopea guttulata3.webp",
         "imagens/Stanhopea guttulata/Stanhopea guttulata4.jpg"
     ],
-    "descricao": "Stanhopea guttulata é uma espécie epífita brasileira, endêmica de florestas úmidas do Sudeste, famosa pela arquitetura incomum de suas inflorescências. Forma pseudobulbos ovoides e sulcados, cada um sustentando uma grande folha plissada. As hastes florais apresentam geotropismo positivo: nascem na base da planta, atravessam o substrato e crescem para baixo até emergirem pelo fundo ou pelas laterais do recipiente. As flores são grandes, cerosas, intensamente perfumadas e marcadas por pintas castanhas, vinho ou arroxeadas sobre fundo claro. Por essa biologia, o uso de cesta vazada não é apenas recomendável — é requisito estrutural para que a floração consiga sair sem ser deformada ou abortada.",
+    "descricao": "Uma das Stanhopea brasileiras mais marcantes, Stanhopea guttulata chama atenção pelas flores grandes, cerosas, muito perfumadas e salpicadas de castanho a vinho sobre fundo claro. É nativa do Sudeste do Brasil e vive como epífita em florestas tropicais úmidas. Suas grandes folhas plissadas formam uma touceira elegante, mas a surpresa acontece por baixo: as hastes florais crescem para baixo e atravessam o substrato. Por isso, uma cesta suspensa e vazada faz parte do próprio cultivo da espécie e permite que suas espetaculares flores se desenvolvam livremente.",
     "origem": "Brasil.",
-    "regiao": "Mata Atlântica do Sudeste.",
-    "habitat": "Florestas úmidas e sombreadas de média altitude.",
-    "clima": "Ameno a intermediário, úmido e ventilado.",
+    "regiao": "Sudeste do Brasil.",
+    "habitat": "Floresta tropical úmida; epífita.",
+    "clima": "Úmido, sombreado e ventilado.",
     "climaFloracao": "A floração depende de pseudobulbos bem formados, umidade regular, noites amenas e espaço físico para a haste geotrópica. Não necessita de repouso seco severo. Após a maturação, reduza apenas discretamente a água. Touceiras grandes e centralizadas no cesto tendem a produzir hastes mais vigorosas e com trajeto mais previsível.",
     "iluminacao": {
         "sombrite": "60% a 70%",

@@ -6,9 +6,10 @@ export const trichocentrumFuscum = {
     "nome": "Trichocentrum fuscum",
     "genero": "Trichocentrum",
     "tipo": "Espécie botânica",
+    "sinonimo": "Trichocentrum pinelii",
     "dificuldade": "Moderada",
     "caracteristicas": [
-        "Espécie botânica brasileira compacta",
+        "Espécie sul-americana compacta",
         "Pseudobulbos extremamente reduzidos",
         "Folhas espessas, rígidas e carnosas",
         "Reserva hídrica nas folhas",
@@ -23,11 +24,11 @@ export const trichocentrumFuscum = {
         "imagens/Trichocentrum fuscum/Trichocentrum fuscum3.jpg",
         "imagens/Trichocentrum fuscum/Trichocentrum fuscum4.webp"
     ],
-    "descricao": "Trichocentrum fuscum é uma orquídea epífita brasileira de porte compacto, caracterizada por pseudobulbos extremamente reduzidos e folhas grossas, rígidas e carnosas. Essas folhas atuam como importantes reservatórios hídricos, permitindo à planta suportar períodos de secagem entre chuvas. Essa mesma adaptação torna o excesso de água particularmente perigoso: raízes mantidas continuamente úmidas e água acumulada na base das folhas favorecem podridão rápida. As flores são pequenas a médias e apresentam combinações de amarelo, ocre e castanho, frequentemente com labelo claro de forte contraste. O cultivo deve imitar um ramo bem iluminado e ventilado: molhamento completo, seguido de secagem quase total antes da próxima irrigação.",
-    "origem": "Brasil.",
-    "regiao": "Mata Atlântica e formações florestais do leste brasileiro.",
-    "habitat": "Ramos claros e muito ventilados.",
-    "clima": "Quente a intermediário e sazonal.",
+    "descricao": "Compacta e de aparência quase suculenta, Trichocentrum fuscum se destaca pelas folhas grossas e carnosas, que armazenam água e permitem à planta atravessar períodos de secagem entre as chuvas. É uma epífita da América do Sul tropical e produz flores em tons de amarelo, ocre e castanho, geralmente com labelo mais claro e contrastante. Seu formato já revela a melhor estratégia de cultivo: muita claridade filtrada, ar em movimento e raízes que recebam uma boa rega, mas sequem rapidamente antes do próximo molhamento.",
+    "origem": "América do Sul tropical.",
+    "regiao": "América do Sul tropical.",
+    "habitat": "Floresta tropical úmida; epífita.",
+    "clima": "Quente a intermediário, ventilado.",
     "climaFloracao": "A floração é favorecida por alta luminosidade filtrada, folhas maduras, ventilação intensa e raízes que alternam hidratação com secagem rápida. Não necessita de repouso absolutamente seco, mas após maturação e nos meses frios o intervalo entre regas deve aumentar.",
     "iluminacao": {
         "sombrite": "40% a 50%",

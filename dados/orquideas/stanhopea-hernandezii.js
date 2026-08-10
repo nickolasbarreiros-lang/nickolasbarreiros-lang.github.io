@@ -6,6 +6,7 @@ export const stanhopeaHernandezii = {
     "nome": "Stanhopea hernandezii",
     "genero": "Stanhopea",
     "tipo": "Espécie botânica",
+    "sinonimo": "Anguloa hernandezii",
     "dificuldade": "Moderada",
     "caracteristicas": [
         "Espécie endêmica do México",
@@ -23,11 +24,11 @@ export const stanhopeaHernandezii = {
         "imagens/Stanhopea hernandezii/Stanhopea hernandezii3.jpg",
         "imagens/Stanhopea hernandezii/Stanhopea hernandezii4.jpg"
     ],
-    "descricao": "Stanhopea hernandezii é uma espécie epífita endêmica do México, célebre pelas grandes flores cerosas, complexas e intensamente perfumadas. Forma pseudobulbos ovoides e sulcados, cada um sustentando folha larga e plissada. Sua característica de cultivo mais importante é a inflorescência geotrópica: a haste cresce para baixo, atravessa o substrato e precisa sair pelo fundo ou pelas laterais do recipiente. Por isso, vasos fechados são inadequados. A planta deve ser cultivada em cesta suspensa, com substrato úmido porém aerado e fundo inteiramente livre. Durante a emissão da haste, estabilidade é fundamental: girar ou mudar a cesta de posição pode estressar a inflorescência e favorecer abortamento.",
+    "descricao": "Stanhopea hernandezii é uma espetacular orquídea mexicana, conhecida pelas flores grandes, cerosas e de perfume muito intenso. Suas folhas largas e plissadas formam uma touceira robusta, enquanto as flores surgem de maneira incomum: a haste cresce para baixo, atravessando o substrato antes de aparecer sob a planta. Na natureza ocorre como epífita ou rupícola no centro e sudoeste do México, inclusive em ambientes tropicais com estação mais seca. Em cultivo, combina umidade durante o crescimento com excelente aeração e precisa obrigatoriamente de espaço livre sob a cesta para florescer.",
     "origem": "México.",
     "regiao": "Regiões central e sudoeste do México.",
-    "habitat": "Florestas montanhosas úmidas, sobre troncos e forquilhas.",
-    "clima": "Intermediário a ameno, úmido e ventilado.",
+    "habitat": "Florestas sazonais; epífita ou rupícola.",
+    "clima": "Intermediário, sazonal e ventilado.",
     "climaFloracao": "A floração depende de pseudobulbos bem formados, alta disponibilidade hídrica no crescimento, noites amenas e espaço físico livre para a haste geotrópica. Após a maturação, reduza apenas discretamente a água. Assim que a haste aparecer sob a cesta, mantenha o recipiente imóvel e evite qualquer replante.",
     "iluminacao": {
         "sombrite": "60% a 70%",

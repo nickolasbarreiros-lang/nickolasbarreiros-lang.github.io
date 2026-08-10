@@ -6,6 +6,7 @@ export const zygolumLouisendorf = {
     "nome": "Zygolum Louisendorf",
     "genero": "Zygolum",
     "tipo": "Híbrido intergenérico registrado",
+    "sinonimo": "Zygolum Rhein Moonlight",
     "dificuldade": "Moderada",
     "caracteristicas": [
         "Zygolum híbrido registrado",
@@ -23,10 +24,10 @@ export const zygolumLouisendorf = {
         "imagens/Zygolum Louisendorf/Zygolum Louisendorf3.jpg",
         "imagens/Zygolum Louisendorf/Zygolum Louisendorf4.webp"
     ],
-    "descricao": "Zygolum Louisendorf é um híbrido intergenérico registrado, resultante de Zygosepalum labiosum × Zygopetalum Artur Elle. Combina vigor vegetativo, pseudobulbos carnosos e folhas plissadas com flores de forte contraste em verde, castanho, branco e violeta, além de perfume marcante. Como outros membros da aliança Zygopetalum, possui raízes sensíveis tanto à seca completa quanto ao encharcamento sem oxigênio. O cultivo ideal mantém umidade constante e moderada em substrato extremamente arejado, com temperaturas intermediárias, boa ventilação e proteção contra aquecimento excessivo do vaso.",
-    "origem": "Híbrido hortícola.",
+    "descricao": "Zygolum Louisendorf é um híbrido muito atraente, conhecido pelas flores de forte contraste entre verde, castanho, branco e violeta e pelo perfume marcante. Registrado em 2004, resulta de Zygosepalum labiosum × Zygopetalum Artur Elle e reúne quatro espécies em sua genealogia, com forte influência de Zygosepalum labiosum e Zygopetalum maculatum. Forma pseudobulbos robustos e folhas plissadas, mantendo o aspecto clássico dos Zygopetalum. Suas raízes gostam de umidade regular, mas precisam de bastante ar e sofrem quando o vaso permanece quente, seco demais ou constantemente encharcado.",
+    "origem": "Híbrido hortícola (2004).",
     "regiao": "Sem distribuição natural.",
-    "habitat": "Cultivo inspirado em espécies da aliança Zygopetalum.",
+    "habitat": "Sem habitat natural; híbrido cultivado.",
     "clima": "Intermediário a ameno, úmido e ventilado.",
     "climaFloracao": "A floração é favorecida por brotos vigorosos, noites amenas, substrato continuamente levemente úmido e luz filtrada clara. O híbrido não deve sofrer seca prolongada. Em calor forte, resfriar o sistema radicular e manter ar em movimento é mais importante que aumentar excessivamente a rega.",
     "iluminacao": {
