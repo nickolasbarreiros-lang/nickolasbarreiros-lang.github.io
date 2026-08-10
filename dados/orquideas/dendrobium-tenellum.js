@@ -4,6 +4,7 @@
 export const dendrobiumTenellum = {
     "id": "dendrobium-tenellum",
     "nome": "Dendrobium tenellum",
+    "sinonimo": "Onychium tenellum",
     "genero": "Dendrobium",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
@@ -23,11 +24,11 @@ export const dendrobiumTenellum = {
         "imagens/Dendrobium tenellum/Dendrobium tenellum3.jpeg",
         "imagens/Dendrobium tenellum/Dendrobium tenellum4.webp"
     ],
-    "descricao": "Dendrobium tenellum é uma espécie botânica delicada e pouco comum, originária das florestas montanas de Java, na Indonésia. Forma canas finas, flexíveis e naturalmente pendentes, com folhas estreitas e flores pequenas em tons esbranquiçados a creme. Seu cultivo requer luz filtrada média a forte, ventilação constante e um período de descanso mais seco no inverno. Esse descanso não deve ser tão rigoroso quanto o imposto aos Dendrobium do grupo nobile: a água e a adubação são reduzidas, mas as canas finas não devem desidratar severamente.",
+    "descricao": "Uma espécie incomum de Java, com aparência muito diferente dos Dendrobium mais conhecidos. O Dendrobium tenellum desenvolve caules eretos e estreitos, com numerosas folhas finas, e produz pequenas flores claras de aproximadamente 1 a 1,2 cm. Na natureza ocorre em florestas montanas úmidas ou sazonalmente mais secas, entre cerca de 1.500 e 2.200 m. Essa altitude é a chave para entendê-la: prefere condições frescas a frias e noites bem mais amenas, tornando o calor noturno contínuo o principal desafio de cultivo no litoral.",
     "origem": "Java, Indonésia.",
-    "regiao": "Florestas montanas entre 1.500 e 2.200 m.",
-    "habitat": "Ramos e troncos em mata úmida de altitude.",
-    "clima": "Ameno a intermediário e ventilado.",
+    "regiao": "Montanhas de Java · 1.500–2.200 m.",
+    "habitat": "Florestas montanas úmidas a sazonais.",
+    "clima": "Fresco a frio · noites amenas.",
     "climaFloracao": "A indução floral é favorecida por canas maduras, luz filtrada forte, noites mais frescas e redução de água e adubação no inverno. A planta não precisa de seca absoluta. Durante o descanso, mantenha umidade ambiental e intervenha apenas se as canas começarem a enrugar excessivamente.",
     "iluminacao": {
         "sombrite": "50% a 60%",
@@ -35,7 +36,7 @@ export const dendrobiumTenellum = {
         "horario": "Início da manhã",
         "observacoes": "Precisa de luz filtrada média a forte e excelente circulação de ar. Sombra excessiva alonga as canas e reduz a floração; sol direto intenso queima rapidamente os tecidos finos."
     },
-    "floracao": "Pode florescer do fim do inverno ao verão, com maior frequência entre agosto e fevereiro. As flores surgem dos nós das canas maduras e ganham melhor apresentação quando a planta está suspensa.",
+    "floracao": "A referência de habitat/cultivo do IOSPE aponta floração no verão, em inflorescências curtas e geralmente unifloras próximas ao ápice dos caules. As flores são pequenas, cerca de 1 a 1,2 cm, e de curta duração. Em cultivo, a época pode deslocar-se conforme o regime térmico; o mais importante é a maturação dos caules associada a noites frescas.",
     "adubacao": "🌿 Orgânica: bokashi em dose leve apenas no início da brotação.\n💧 Mineral/Foliar: adubo equilibrado a cada 10–15 dias durante crescimento ativo.\n🌱 Crescimento: mantenha nutrição até a maturação das canas.\n🍂 Outono: reduza gradualmente.\n💤 Inverno: suspenda ou use apenas doses mínimas se houver atividade.\n🧪 Liberação lenta: poucos grânulos no início do ciclo.",
     "rega": "Na fase vegetativa, mantenha o substrato levemente úmido, com secagem parcial entre as regas. No inverno, reduza significativamente, mas não deixe as canas secarem por longos períodos. Proteja da chuva contínua durante o descanso.",
     "suporte": "🥇 Cesto suspenso — acomoda perfeitamente as canas pendentes.\n🥈 Placa de madeira — oferece máxima aeração.\n🥉 Vaso raso em posição alta — alternativa prática.\nEvite recipientes profundos e locais baixos.",

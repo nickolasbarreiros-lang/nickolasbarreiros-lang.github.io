@@ -3,6 +3,7 @@
 export const dendrobiumMoscatum = {
     "id": "dendrobium-moscatum",
     "nome": "Dendrobium moschatum",
+    "sinonimo": "Epidendrum moschatum",
     "genero": "Dendrobium",
     "tipo": "Espécie botânica — grafia anterior “moscatum”",
     "dificuldade": "Moderada",
@@ -20,11 +21,11 @@ export const dendrobiumMoscatum = {
         "imagens/Dendrobium moschatum/Dendrobium moschatum3.webp",
         "imagens/Dendrobium moschatum/Dendrobium moschatum4.webp"
     ],
-    "descricao": "Espécie epífita de grande porte nativa do Himalaia, sul da China e Indochina. Vive sob regime monçônico: verão quente e chuvoso, seguido de inverno mais seco e luminoso. As canas robustas podem ultrapassar um metro, arqueiam pelo próprio peso e permanecem como reservatórios por vários anos. As flores amarelas a alaranjadas surgem nos nós superiores e apresentam labelo pubescente, côncavo e semelhante a uma bolsa.",
-    "origem": "Ásia tropical e subtropical.",
-    "regiao": "Himalaia, China meridional e Indochina.",
-    "habitat": "Florestas monçônicas.",
-    "clima": "Quente a intermediário, com inverno mais seco.",
+    "descricao": "Uma espécie de presença marcante! O Dendrobium moschatum produz canas longas e arqueadas e cachos pendentes de grandes flores amarelas a alaranjadas, geralmente perfumadas, com um labelo arredondado e profundo que lembra uma pequena bolsa. Ocorre do Himalaia à Indochina e ao sul da China, principalmente em florestas abertas entre cerca de 300 e 900 m. Essa origem explica sua boa afinidade com o calor: aprecia crescimento quente e úmido, seguido de uma fase mais seca quando as canas amadurecem, sem necessidade de uma seca extrema.",
+    "origem": "Himalaia ao sul da China e Indochina.",
+    "regiao": "Sul da Ásia e Indochina.",
+    "habitat": "Florestas abertas · ~300–900 m.",
+    "clima": "Quente a intermediário · monçônico.",
     "climaFloracao": "Não entra em dormência tão profunda quanto D. lindleyi ou D. loddigesii. O manejo correto é permitir que a cana amadureça completamente antes de reduzir água e nitrogênio. Canas ainda verdes continuam acumulando reservas; reduzir cedo demais produz estruturas fracas, enquanto manter água e nitrogênio por tempo excessivo favorece crescimento vegetativo em vez de flores.",
     "iluminacao": {
         "sombrite": "50% a 60%",
@@ -32,7 +33,7 @@ export const dendrobiumMoscatum = {
         "horario": "Início da manhã após aclimatação",
         "observacoes": "Exige luz filtrada forte. Canas espessas, internódios proporcionais e folhas firmes indicam equilíbrio. Sombra produz canas alongadas e fracas; excesso de sol causa queimaduras."
     },
-    "floracao": "Mais frequente da primavera ao início do verão, entre setembro e dezembro. Os cachos pendentes surgem nos nós superiores de canas maduras, inclusive canas antigas. O labelo em forma de bolsa atua como plataforma e guia para os polinizadores.",
+    "floracao": "Mais frequente do fim da primavera ao início do verão. IOSPE registra inflorescências pendentes de até cerca de 20 cm, normalmente com 5 a 10 flores grandes, em torno de 8,75 cm, perfumadas e de duração relativamente curta. Elas surgem próximo ao ápice de canas maduras, muitas vezes já sem folhas.",
     "adubacao": "🌱 Primavera: fertilizante com nitrogênio moderado durante o alongamento inicial.\n☀️ Verão: NPK equilibrado em baixa concentração enquanto a cana engrossa.\n🍂 Final do verão: reduzir nitrogênio e manter nutrição mais leve.\n💤 Inverno: pouca ou nenhuma adubação, conforme a atividade.\n🌿 Bokashi/Osmocote: somente no início do crescimento, em dose proporcional ao recipiente.",
     "rega": "Na primavera e no verão, regue abundantemente e permita secagem parcial. Quando a cana cessar o crescimento, endurecer e mudar discretamente de aspecto, reduza moderadamente. No inverno, mantenha hidratação espaçada, sem seca extrema e sem substrato continuamente molhado.",
     "suporte": "🥇 Cesto grande e suspenso.\n🥈 Vaso pesado em bancada alta, com amplo espaço ao redor.\n🥉 Placa robusta somente para plantas jovens.\nA posição deve ser escolhida cedo, porque canas adultas são compridas, pesadas e difíceis de reorganizar.",

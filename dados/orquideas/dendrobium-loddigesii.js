@@ -3,6 +3,7 @@
 export const dendrobiumLoddigesii = {
     "id": "dendrobium-loddigesii",
     "nome": "Dendrobium loddigesii",
+    "sinonimo": "Callista loddigesii",
     "genero": "Dendrobium",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
@@ -20,11 +21,11 @@ export const dendrobiumLoddigesii = {
         "imagens/Dendrobium loddigesii/Dendrobium loddigesii3.jpeg",
         "imagens/Dendrobium loddigesii/Dendrobium loddigesii4.jpeg"
     ],
-    "descricao": "Espécie epífita ou litófita de florestas montanas sazonais do sul da China e Indochina. Forma touceiras densas de canas finas, articuladas e pendentes, com nós bem marcados. Cada cana funciona como reservatório de água e carboidratos, permanece metabolicamente ativa mesmo após perder as folhas e pode produzir flores em diferentes anos. As flores lilases surgem diretamente nos nós e possuem labelo franjado com centro amarelo-alaranjado.",
+    "descricao": "Uma pequena joia pendente das florestas asiáticas! O Dendrobium loddigesii forma delicadas canas articuladas que caem naturalmente e, na época certa, se cobrem de flores lilases com labelo franjado e centro amarelo-alaranjado. É nativo do sul da China e da Indochina, onde vive em florestas úmidas e musgosas, geralmente entre 1.000 e 1.500 m. Seu grande segredo é respeitar a sazonalidade: cresce com água e alimento na estação quente e responde melhor à floração quando as canas maduras recebem um inverno mais seco, claro e com noites amenas.",
     "origem": "Sul da China e Indochina.",
-    "regiao": "China meridional, Laos e Vietnã.",
-    "habitat": "Florestas montanas e paredões ventilados.",
-    "clima": "Ameno, sazonal e muito ventilado.",
+    "regiao": "China meridional à Indochina.",
+    "habitat": "Florestas musgosas · 1.000–1.500 m.",
+    "clima": "Fresco a intermediário · sazonal.",
     "climaFloracao": "A cana deve completar totalmente o alongamento e endurecer antes do repouso. Depois, alta luminosidade, noites mais amenas, redução da água e suspensão do nitrogênio induzem os botões. Canas ainda verdes ou em crescimento raramente florescem bem no ciclo seguinte.",
     "iluminacao": {
         "sombrite": "40% a 50%",

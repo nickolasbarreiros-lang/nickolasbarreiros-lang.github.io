@@ -4,6 +4,7 @@
 export const dendrobiumPolysema = {
     "id": "dendrobium-polysema",
     "nome": "Dendrobium polysema",
+    "sinonimo": "Sayeria polysema",
     "genero": "Dendrobium",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada a exigente",
@@ -23,11 +24,11 @@ export const dendrobiumPolysema = {
         "imagens/Dendrobium polysema/Dendrobium polysema3.jpg",
         "imagens/Dendrobium polysema/Dendrobium polysema4.jpeg"
     ],
-    "descricao": "Dendrobium polysema é uma espécie botânica originária das florestas montanas da Nova Guiné. Forma canas eretas e coriáceas, com folhagem concentrada principalmente na porção superior. As inflorescências surgem de gemas das canas maduras e carregam flores claras densamente salpicadas por manchas verdes, castanhas e arroxeadas. O cultivo exige ambiente fresco, úmido e muito ventilado. As raízes são finas e sensíveis tanto à seca prolongada quanto ao acúmulo de sais. Canas antigas firmes devem ser preservadas, pois armazenam água e nutrientes e podem contribuir para novas brotações e florações.",
+    "descricao": "Uma orquídea de aparência quase exótica até entre os Dendrobium! Nativa da Nova Guiné, Dendrobium polysema chama atenção pelas flores claras densamente pintalgadas de verde, castanho e púrpura. A planta forma pseudobulbos robustos de aproximadamente 20 a 50 cm, normalmente com duas folhas coriáceas no ápice, e pode produzir inflorescências de até cerca de 45 cm. Sua origem em florestas úmidas montanas ajuda a explicar a preferência por ambiente fresco, úmido e muito ventilado — combinação que exige atenção especial quando cultivada no litoral quente.",
     "origem": "Nova Guiné.",
-    "regiao": "Florestas montanas da ilha.",
-    "habitat": "Troncos e galhos musgosos em mata úmida.",
-    "clima": "Fresco, úmido e ventilado.",
+    "regiao": "Florestas montanas da Nova Guiné.",
+    "habitat": "Matas úmidas e musgosas de altitude.",
+    "clima": "Fresco · úmido · muito ventilado.",
     "climaFloracao": "A floração depende de canas maduras, umidade constante, raízes saudáveis e temperatura foliar controlada. Não necessita de repouso seco rigoroso. No período mais frio, reduza discretamente a água, mas mantenha umidade do ar elevada. Em clima quente, o principal fator limitante é o superaquecimento das folhas e raízes.",
     "iluminacao": {
         "sombrite": "50% a 60%",
