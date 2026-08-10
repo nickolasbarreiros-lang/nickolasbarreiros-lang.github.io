@@ -20,7 +20,7 @@ export const cattleyaLoddigesii = {
         "imagens/Cattleya loddigesii/Cattleya loddigesii3.jpg",
         "imagens/Cattleya loddigesii/Cattleya loddigesii4.jpg"
     ],
-    descricao: "Cattleya bifoliada brasileira, histórica e vigorosa, descrita por John Lindley em 1824 e intimamente ligada à própria história do gênero. Forma pseudobulbos cilíndricos e alongados, geralmente com duas folhas coriáceas, e produz flores cerosas em tons de lilás a rosa-lilás, com labelo mais intenso e região central amarelada. É uma espécie adaptável, capaz de formar grandes touceiras quando recebe boa luminosidade, ventilação constante e raízes bem oxigenadas.",
+    descricao: "Clássica, vigorosa e muito florífera, Cattleya loddigesii é uma das grandes representantes das Cattleyas bifoliadas brasileiras. Seus pseudobulbos alongados sustentam normalmente duas folhas firmes e, quando maduros, produzem flores cerosas em delicados tons de rosa a lilás, com labelo mais intenso e um belo toque amarelado na região central. Com o tempo, pode formar grandes touceiras e oferecer várias hastes simultaneamente, criando uma floração cheia e elegante. É uma espécie bastante adaptável e recompensadora, especialmente quando cultivada com boa luminosidade, ventilação constante e raízes livres para respirar.",
     origem: "Brasil",
     regiao: "Sudeste ao Paraná",
     habitat: "Florestas sazonais · epífita ou rupícola",
