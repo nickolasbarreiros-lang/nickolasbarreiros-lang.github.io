@@ -1,16 +1,17 @@
-// Ficha V4 refinada — Ludisia discolor.
+// Ficha V4 refinada — revisão final.
 
 export const ludisiaDiscolor = {
     id: "ludisia-discolor",
     nome: "Ludisia discolor",
     genero: "Ludisia",
+    sinonimo: "Haemaria discolor",
     tipo: "Espécie botânica — orquídea-joia",
     dificuldade: "Fácil",
     caracteristicas: [
         "Orquídea-joia",
-        "Terrestre e humícola",
-        "Rizoma rastejante",
-        "Folhas aveludadas"
+        "Folhas aveludadas e nervuradas",
+        "Terrestre de rizoma rastejante",
+        "Flores brancas em hastes eretas"
     ],
     fotos: [
         "imagens/Ludisia discolor/Ludisia discolor1.webp",
@@ -18,30 +19,30 @@ export const ludisiaDiscolor = {
         "imagens/Ludisia discolor/Ludisia discolor3.webp",
         "imagens/Ludisia discolor/Ludisia discolor4.webp"
     ],
-    descricao: "Orquídea terrestre ou humícola, rizomatosa e rastejante, cultivada principalmente pela folhagem aveludada, escura e marcada por nervuras claras, douradas, rosadas ou avermelhadas. Seus caules carnosos avançam horizontalmente sobre ou imediatamente abaixo da camada superficial do substrato. Historicamente o gênero Ludisia foi tratado como monotípico, embora classificações atuais reconheçam outras espécies no gênero. A planta forma touceiras por ramificação dos nós e produz hastes eretas com pequenas flores brancas.",
-    origem: "Sul da China e Sudeste Asiático até Sumatra, Bornéu e Filipinas.",
-    regiao: "Florestas tropicais e subtropicais úmidas da Ásia.",
-    habitat: "Cresce no chão sombreado das florestas, entre serapilheira, matéria orgânica em decomposição e musgos. Recebe luz filtrada, umidade regular, temperaturas relativamente estáveis e boa oxigenação na camada superficial do solo.",
-    clima: "Quente a intermediário, úmido e estável, sem necessidade de repouso seco.",
-    climaFloracao: "A floração costuma ocorrer após o amadurecimento dos caules, frequentemente no outono e no inverno. Dias mais curtos e temperaturas ligeiramente mais amenas podem favorecer a emissão das hastes, mas a planta não necessita frio intenso. Excesso de nitrogênio, sombra extrema e caules enfraquecidos reduzem a qualidade floral.",
+    descricao: "Uma orquídea admirada primeiro pelas folhas e só depois pelas flores. A Ludisia discolor, famosa como orquídea-joia, forma tapetes de caules rastejantes com folhas aveludadas em verde muito escuro a vinho, marcadas por nervuras claras, rosadas ou avermelhadas. É uma planta terrestre de floresta sombreada e cresce bem em vasos largos, onde seus ramos podem avançar horizontalmente. Quando madura, produz hastes eretas com numerosas flores brancas pequenas, criando um contraste delicado com a folhagem escura.",
+    origem: "Sul da China ao Sudeste Asiático.",
+    regiao: "China, Indochina, Malesia e Filipinas.",
+    habitat: "Chão de florestas úmidas · serapilheira e húmus.",
+    clima: "Quente a intermediário · úmido e sombreado.",
+    climaFloracao: "A espécie cresce sob condições relativamente estáveis, sem repouso seco. WFO descreve plantas geralmente com 10 a 25 cm de altura, folhas escuras com nervuras contrastantes e longa janela fenológica em sua área natural. Em cultivo, hastes florais costumam aparecer após o amadurecimento dos caules, frequentemente com dias mais curtos e temperaturas ligeiramente mais amenas, mas frio intenso não é necessário. Excesso de nitrogênio, sombra profunda demais e substrato sem oxigenação favorecem crescimento mole e reduzem a floração.",
     iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não recomendado",
         horario: "Luz indireta clara durante todo o dia",
-        observacoes: "Luminosidade baixa a moderada. Em interiores, mantenha próxima a janela clara sem sol direto. Folhas compactas, firmes e intensamente coloridas indicam bom equilíbrio. Caules longos e espaçados sugerem pouca luz; desbotamento, manchas claras ou bordas queimadas indicam excesso de sol ou calor."
+        observacoes: "Prefere luz baixa a moderada, porém não escuridão. Em interiores, mantenha próxima de janela clara sem sol direto. Folhas compactas, firmes e intensamente coloridas indicam bom equilíbrio; caules longos e espaçados sugerem pouca luz, enquanto desbotamento, manchas claras e bordas queimadas indicam excesso de exposição ou calor."
     },
-    floracao: "Predomina no outono e no inverno, podendo variar conforme a temperatura, o cultivo interno e o amadurecimento dos caules. As flores brancas, pequenas e geralmente inodoras abrem progressivamente em hastes eretas, prolongando a apresentação por várias semanas.",
-    adubacao: "🌿 Orgânica: húmus bem curtido ou bokashi em quantidade mínima, aplicados na borda e afastados dos caules.\n💧 Foliar ou radicular: NPK equilibrado em aproximadamente 1/4 da dose a cada 15 dias durante o crescimento.\n🧪 Liberação lenta: poucos grânulos somente em vasos maiores e bem drenados. Uma vez por mês, regue abundantemente apenas com água limpa para reduzir o acúmulo de sais, especialmente em vasos plásticos e ambientes internos.",
-    rega: "Mantenha umidade regular e uniforme, regando quando a superfície começar a perder umidade. O substrato não deve secar completamente, mas também não pode permanecer encharcado ou sem oxigenação. Evite água acumulada no centro das rosetas e nas axilas durante a noite. No inverno, ajuste a frequência apenas conforme a menor evaporação, sem impor repouso seco.",
-    suporte: "🥇 Vaso plástico largo e raso, permitindo expansão horizontal dos caules.\n🥈 Bacia ou jardineira baixa com boa drenagem.\n🥉 Terrário ventilado ou parcialmente aberto; recipientes herméticos e constantemente condensados favorecem fungos e podridões.",
-    substrato: "🥇 Casca de pinus fina parcialmente compostada + fibra de coco grossa ou substrato de coco bem lavado + pedra-pomes/perlita + pequena fração de húmus curtido.\n🥈 Esfagno de fibra longa picado e solto + casca fina + pedra-pomes/perlita + pouco carvão miúdo.\n🥉 Substrato vegetal leve para plantas tropicais + casca fina + perlita + carvão + pequena fração de composto. Nunca usar terra argilosa pesada ou mistura que vire barro.",
-    errosComuns: "Expor ao sol direto; manter em sombra total sem claridade; enterrar profundamente os caules; usar substrato pesado ou encharcado; cultivar em vaso sem drenagem; manter terrário fechado e saturado; molhar as rosetas no fim do dia; usar excesso de adubo; compactar esfagno sobre os nós; permitir acúmulo prolongado de sais.",
-    dica: "Acomode os caules horizontalmente sobre a superfície e cubra apenas as raízes. Os nós e gemas devem permanecer próximos da superfície, onde recebem oxigenação e podem emitir novos brotos. Para propagar, corte segmentos maduros com dois ou três nós, deixe a região cortada cicatrizar brevemente e deite-os sobre esfagno solto ou mistura humícola leve, mantendo umidade regular, calor moderado e luz indireta. Não enterre completamente as estacas.",
+    floracao: "Em cultivo, costuma florescer do fim do inverno à primavera, embora a época varie com clima e manejo. As hastes eretas carregam muitas flores brancas pequenas, abrindo progressivamente e permanecendo decorativas por várias semanas. A folhagem, entretanto, continua sendo seu principal atrativo durante todo o ano.",
+    adubacao: "🌿 Orgânica: húmus bem curtido ou bokashi em quantidade mínima, aplicados na borda e afastados dos caules.\n💧 Foliar ou radicular: NPK equilibrado em cerca de 1/4 da dose a cada 15 dias durante crescimento ativo.\n🧪 Liberação lenta: poucos grânulos apenas em vasos bem drenados. Uma vez por mês, faça uma rega abundante somente com água limpa para reduzir sais, especialmente em vasos plásticos e ambientes internos.",
+    rega: "Mantenha umidade regular e uniforme, regando quando a superfície começar a perder umidade. O substrato não deve secar totalmente por longos períodos nem permanecer encharcado. Como os caules caminham sobre a superfície, água parada junto aos nós favorece podridões. No inverno, apenas ajuste a frequência à menor evaporação, sem impor repouso seco.",
+    suporte: "🥇 Vaso plástico largo e raso, permitindo expansão horizontal dos caules.\n🥈 Bacia ou jardineira baixa com boa drenagem.\n🥉 Terrário ventilado ou parcialmente aberto; recipientes herméticos e constantemente condensados aumentam o risco de fungos e podridões.",
+    substrato: "🥇 Casca de pinus fina parcialmente compostada + fibra de coco grossa ou substrato de coco bem lavado + pedra-pomes/perlita + pequena fração de húmus curtido.\n🥈 Esfagno de fibra longa picado e solto + casca fina + pedra-pomes/perlita + pouco carvão miúdo.\n🥉 Substrato vegetal leve para plantas tropicais + casca fina + perlita + carvão + pequena fração de composto. Evite terra argilosa pesada ou qualquer mistura que compacte e vire barro.",
+    errosComuns: "Expor ao sol direto; manter em sombra total sem claridade; enterrar profundamente os caules; usar substrato pesado ou encharcado; cultivar em vaso sem drenagem; manter terrário fechado e saturado; molhar abundantemente os nós no fim do dia; usar adubo concentrado; compactar esfagno sobre os caules; permitir acúmulo de sais.",
+    dica: "Deixe os caules rastejarem sobre a superfície e cubra apenas as raízes. Os nós próximos ao ar emitem novos brotos com facilidade e podem ser usados para propagação. Um vaso mais largo do que profundo combina melhor com seu crescimento natural e reduz o risco de um centro permanentemente encharcado.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação em Serra/ES em local sombreado, claro e ventilado. Use vaso largo, substrato humícola aerado e evite ambientes abafados ou saturados durante noites quentes.",
-        montanhaFrio: "Muito boa adaptação em regiões serranas. Proteja de temperaturas extremas, especialmente abaixo de aproximadamente 12 °C, e reduza a rega apenas quando a evaporação cair."
+        litoralQuente: "Excelente adaptação ao litoral quente em local sombreado, claro e ventilado. Use vaso largo, substrato humícola porém arejado e evite ambientes abafados e saturados durante noites quentes.",
+        montanhaFrio: "Muito boa adaptação em regiões serranas. Proteja de frio excessivo e reduza a rega apenas quando a evaporação cair, sem deixar o substrato secar completamente."
     },
-    mesesFloracao: [5, 6, 7, 8],
+    mesesFloracao: [8, 9, 10, 11],
     avaliacoes: {
         cultivo: 2,
         floracao: 3,

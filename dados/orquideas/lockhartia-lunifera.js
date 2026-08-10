@@ -1,15 +1,16 @@
-// Ficha V4 refinada — Lockhartia lunifera.
+// Ficha V4 refinada — revisão final.
 
 export const lockhartiaLunifera = {
     id: "lockhartia-lunifera",
     nome: "Lockhartia lunifera",
     genero: "Lockhartia",
+    sinonimo: "Fernandezia lunifera",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: [
-        "Folhas dísticas e imbricadas",
         "Caules em forma de trança",
-        "Flores amarelas sucessivas",
+        "Folhas dísticas e imbricadas",
+        "Flores amarelas de longa duração",
         "Epífita sem pseudobulbos"
     ],
     fotos: [
@@ -18,28 +19,28 @@ export const lockhartiaLunifera = {
         "imagens/Lockhartia lunifera/Lockhartia lunifera3.jpeg",
         "imagens/Lockhartia lunifera/Lockhartia lunifera4.jpg"
     ],
-    descricao: "Espécie epífita brasileira, simpodial, cespitosa e sem pseudobulbos. Forma caules alongados, achatados, eretos a pendentes, revestidos por folhas triangulares, dísticas e fortemente imbricadas, responsáveis pelo aspecto ornamental de trança ou centopeia verde. Como não possui pseudobulbos, dispõe de reservas hídricas limitadas e não tolera seca prolongada. Os caules verdes permanecem fotossinteticamente ativos após a floração e podem conservar gemas florais na região apical e axilar.",
+    descricao: "Uma orquídea que parece ter sido trançada à mão! A Lockhartia lunifera forma caules achatados de cerca de 10 a 30 cm, completamente revestidos por pequenas folhas sobrepostas que criam seu aspecto tão característico. As flores amarelas, com aproximadamente 2 cm, surgem na parte superior dos caules maduros e podem durar bastante tempo. Como não possui pseudobulbos, depende de regas regulares e raízes bem arejadas: o segredo é manter umidade frequente sem deixar o suporte encharcado.",
     origem: "Brasil.",
-    regiao: "Regiões Nordeste, Sudeste e Sul do Brasil, em ambientes florestais úmidos.",
-    habitat: "Epífita sobre galhos e troncos ventilados, onde recebe umidade frequente.",
-    clima: "Intermediário a quente moderado, úmido e com circulação contínua de ar.",
-    climaFloracao: "A floração ocorre em caules maduros mantidos sob luz clara filtrada, umidade regular e nutrição suave. O crescimento pode ser quase contínuo em clima quente e úmido. Não exige repouso seco; nos meses frios há apenas menor ritmo de crescimento e menor consumo de água. A preservação dos caules verdes é essencial porque continuam sustentando a touceira e podem manter pontos florais ativos.",
+    regiao: "Brasil tropical e subtropical.",
+    habitat: "Epífita em florestas úmidas · galhos ventilados.",
+    clima: "Quente a intermediário · úmido e ventilado.",
+    climaFloracao: "A floração ocorre em caules maduros sob luz filtrada clara, umidade regular e boa circulação de ar. IOSPE registra a floração principalmente na primavera e no verão, com flores sucessivas na porção apical dos caules. Não há repouso seco verdadeiro: em períodos mais frios ou de menor crescimento, apenas reduza a frequência de rega conforme a evaporação. Caules verdes devem ser preservados, pois continuam fotossintetizando e podem manter pontos florais ativos.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Somente muito suave, após aclimatação",
         horario: "Até aproximadamente 08:00",
-        observacoes: "Luminosidade média a alta filtrada, aproximadamente 18.000 a 25.000 lux como referência. Caules excessivamente alongados, frágeis e espaçados sugerem pouca luz. Amarelecimento forte, manchas secas ou aquecimento da folhagem indicam excesso de exposição."
+        observacoes: "Prefere luminosidade média a alta filtrada. Caules muito alongados e frágeis sugerem pouca luz; amarelecimento forte, aquecimento e manchas secas indicam excesso. Em litoral quente, a luz clara deve vir sempre acompanhada de ventilação para evitar superaquecimento das folhas sobrepostas."
     },
-    floracao: "Predomina na primavera e no verão, mas pode ocorrer em surtos sucessivos ou secundários conforme o amadurecimento dos caules e o microclima. As flores pequenas e amarelas surgem em inflorescências curtas na metade superior ou no ápice dos caules maduros.",
-    adubacao: "🌿 Orgânica: bokashi em quantidade mínima dentro de porta-adubo, sem contato com os caules ou raízes.\n💧 Foliar: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose a cada 10 a 15 dias durante o crescimento ativo.\n🧪 Liberação lenta: evitar em plantas montadas; em cestos ou vasos, usar poucos grânulos afastados das raízes novas. Uma vez por mês, lavar abundantemente raízes, suporte e axilas com água pura para reduzir o acúmulo de sais.",
-    rega: "Regue com frequência durante o crescimento e nos períodos quentes, principalmente em plantas montadas. Após cada irrigação, permita que as raízes e o suporte arejem e sequem antes da próxima rega. A espécie não suporta seca prolongada, mas também perde raízes quando mantida continuamente saturada. Regue preferencialmente pela manhã e evite deixar água acumulada entre as folhas durante a noite.",
-    suporte: "🥇 Placa inclinada de cortiça, galho rugoso ou madeira dura: acompanha o hábito pendente e facilita a drenagem das bainhas foliares.\n🥈 Cesto pequeno e suspenso, muito ventilado.\n🥉 Vaso pequeno e raso, somente com substrato aberto e sem forçar os caules a permanecerem eretos.",
-    substrato: "🥇 Montagem com pequena camada de esfagno solto apenas sob as raízes iniciais.\n🥈 Casca de pinus média + carvão vegetal + pedra-pomes.\n🥉 Fibra de coco grossa bem lavada + carvão + pedra-pomes. Em Serra/ES, reduza a quantidade de esfagno quando o ambiente já for úmido ou pouco ventilado.",
-    errosComuns: "Cortar caules verdes apenas porque já floresceram; usar vaso profundo; manter sombra excessiva; deixar água parada nas bainhas foliares; regar no fim do dia em noites frias; impor seca prolongada; manter raízes continuamente saturadas; aplicar adubo concentrado; permitir acúmulo de sais; cultivar em ambiente abafado.",
-    dica: "Preserve todos os caules enquanto estiverem verdes e cultive a planta em posição inclinada ou pendente. Retire apenas caules completamente secos, marrons e sem tecido vivo. A inclinação acompanha o crescimento natural, facilita o escoamento da água retida entre as folhas e deixa as inflorescências visíveis. A combinação de caules preservados, regas matinais, secagem rápida, luz filtrada clara e ventilação contínua favorece crescimento compacto e florações sucessivas.",
+    floracao: "Predomina na primavera e no verão. As inflorescências curtas surgem na região superior dos caules e podem carregar várias flores amarelas, sucessivas e duradouras, em torno de 2 cm. Plantas bem estabelecidas podem apresentar novas flores em ondas conforme diferentes caules amadurecem.",
+    adubacao: "🌿 Orgânica: bokashi em quantidade mínima dentro de porta-adubo, sem contato com caules ou raízes.\n💧 Foliar/radicular: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: evitar em plantas montadas; em cestos ou vasos, usar poucos grânulos afastados das raízes novas. Uma vez por mês, lavar abundantemente raízes e suporte apenas com água pura para reduzir sais.",
+    rega: "Regue com frequência durante crescimento e calor, sobretudo em plantas montadas. Depois de cada irrigação, permita boa aeração e perda do excesso de água antes da próxima. A espécie não tolera seca prolongada, mas raízes permanentemente saturadas também se deterioram. Regue preferencialmente pela manhã para que as bainhas foliares não permaneçam molhadas durante a noite.",
+    suporte: "🥇 Placa inclinada de cortiça, galho rugoso ou madeira dura: acompanha o hábito pendente e facilita o escoamento da água.\n🥈 Cesto pequeno e suspenso, muito ventilado.\n🥉 Vaso pequeno e raso com mistura extremamente aberta, sem forçar os caules a permanecerem eretos.",
+    substrato: "🥇 Montagem com pequena camada de esfagno solto apenas sob as raízes iniciais.\n🥈 Casca de pinus média + carvão vegetal + pedra-pomes.\n🥉 Fibra de coco grossa bem lavada + carvão + pedra-pomes. No litoral quente e úmido, use esfagno com parcimônia para não reter água demais entre raízes e bainhas.",
+    errosComuns: "Cortar caules verdes após a floração; cultivar em sombra excessiva; deixar água retida nas bainhas durante a noite; impor seca prolongada; manter raízes continuamente saturadas; usar vaso profundo; aplicar adubo concentrado; permitir acúmulo de sais; cultivar em ambiente abafado.",
+    dica: "Preserve todos os caules enquanto estiverem verdes e dê preferência ao cultivo inclinado ou pendente. Essa posição acompanha o crescimento natural, melhora o escoamento da água entre as folhas e expõe melhor as flores. A combinação de umidade regular, secagem superficial rápida e ventilação contínua é mais importante do que qualquer calendário rígido de rega.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação em Serra/ES quando cultivada em placa ou cesto suspenso, sob sombra clara, umidade ambiental elevada e ventilação contínua. Evite calor abafado, regas noturnas e esfagno em excesso.",
-        montanhaFrio: "Boa adaptação em regiões serranas. Proteja de geadas e ventos congelantes, aumente o intervalo entre as regas conforme a menor evaporação e evite que as bainhas permaneçam molhadas durante noites frias."
+        litoralQuente: "Boa adaptação ao litoral quente quando montada ou cultivada em cesto, com sombra clara e ventilação constante. Evite calor abafado, regas noturnas e esfagno em excesso.",
+        montanhaFrio: "Boa adaptação em regiões serranas, desde que protegida de frio intenso e geadas. Ajuste a rega à menor evaporação e mantenha as bainhas secas durante noites frias."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     avaliacoes: {
