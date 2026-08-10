@@ -1,0 +1,11 @@
+Fichas removidas do catálogo:
+- Cattleya cernua — forma litorânea
+- Bulbophyllum falcatum var. bufo
+
+Ações:
+- arquivos .js removidos;
+- imports removidos de dados/orquideas/index.js;
+- registros removidos do array do catálogo;
+- pastas de imagens não foram apagadas automaticamente, para evitar exclusão acidental de mídia compartilhada.
+
+Validação: OK
