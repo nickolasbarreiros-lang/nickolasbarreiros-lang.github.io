@@ -1,21 +1,21 @@
-// Ficha refinada por comparação entre o conteúdo anterior e as informações complementares fornecidas.
-// Menu lateral mantido compacto; aprofundamento concentrado nas seções de cultivo.
+// Refinamento final — Lote 23.
 
 export const phalaenopsisMannii = {
     "id": "phalaenopsis-mannii",
     "nome": "Phalaenopsis mannii",
     "genero": "Phalaenopsis",
+    "sinonimo": "Polychilos mannii",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "caracteristicas": [
-        "Epífita monopodial",
-        "Folhas coriáceas",
-        "Flores amarelo-esverdeadas manchadas",
-        "Hastes persistentes e reflorentes",
-        "Raízes fotossintéticas",
-        "Sensível à água na coroa",
-        "Prefere substrato grosso",
-        "Clima quente a intermediário"
+        "Epífita de porte pequeno a médio",
+        "Crescimento levemente pendente",
+        "Flores cerosas de 3–5 cm",
+        "Perfume cítrico/mandarina",
+        "Hastes longas e multiflorais",
+        "Habitat próximo a rios e córregos",
+        "500–1.500 m",
+        "Inverno relativamente mais seco"
     ],
     "fotos": [
         "imagens/Phalaenopsis mannii/Phalaenopsis mannii1.jpg",
@@ -23,44 +23,36 @@ export const phalaenopsisMannii = {
         "imagens/Phalaenopsis mannii/Phalaenopsis mannii3.jpg",
         "imagens/Phalaenopsis mannii/Phalaenopsis mannii4.jpg"
     ],
-    "descricao": "Phalaenopsis mannii é uma espécie botânica epífita de porte médio, nativa do Himalaia oriental e do Sudeste Asiático. Apresenta crescimento monopodial, sem pseudobulbos, com folhas coriáceas dispostas em leque e raízes grossas, fotossintéticas e altamente sensíveis ao abafamento. As flores são amarelo-esverdeadas, densamente marcadas por manchas castanho-avermelhadas, com labelo claro e ornamentado. Uma característica valiosa da espécie é a persistência das hastes florais: enquanto verdes, podem emitir novas ramificações e flores em ciclos posteriores. Por isso, o manejo difere dos híbridos comerciais em que as hastes frequentemente são cortadas após a floração.",
-    "origem": "Himalaia oriental e Sudeste Asiático.",
-    "regiao": "Nepal oriental ao sul da China e áreas adjacentes.",
-    "habitat": "Florestas tropicais úmidas sobre troncos e galhos.",
-    "clima": "Quente a intermediário, úmido e ventilado.",
-    "climaFloracao": "A floração é favorecida por crescimento ativo, raízes saudáveis, calor moderado, boa luminosidade filtrada e noites ligeiramente mais frescas em determinados períodos. Hastes verdes devem permanecer intactas, pois podem reflorescer e ramificar em anos seguintes. Não imponha repouso seco severo.",
+    "descricao": "Uma Phalaenopsis bem diferente das híbridas de floricultura! A Phalaenopsis mannii tem crescimento naturalmente um pouco pendente e produz flores cerosas de 3 a 5 cm, amarelo-esverdeadas e marcadas por castanho-avermelhado. Além do desenho marcante, as flores podem exalar um agradável perfume lembrando mandarina. Na natureza cresce sobre cascas rugosas em florestas úmidas próximas a rios e córregos, geralmente entre 500 e 1.500 m. Suas hastes podem chegar perto de 45 cm e carregar muitas flores sucessivas, por isso não devem ser cortadas enquanto permanecerem verdes e ativas.",
+    "origem": "Himalaia oriental ao sul da China.",
+    "regiao": "Nepal/Assam a Myanmar, Vietnã e Yunnan.",
+    "habitat": "Florestas úmidas junto a rios · 500–1.500 m.",
+    "clima": "Quente a ameno · úmido · inverno mais seco.",
+    "climaFloracao": "No habitat há um período de inverno relativamente mais seco, seguido pela floração de primavera. Em cultivo no litoral, isso deve ser interpretado como uma redução moderada da frequência das regas quando o crescimento desacelerar — nunca como seca prolongada. Boa ventilação, noites um pouco menos quentes e raízes ativas favorecem a emissão floral. Como a espécie ocorre de 500 a 1.500 m, diferentes procedências podem responder de maneira distinta ao calor.",
     "iluminacao": {
-        "sombrite": "60% a 70%",
-        "solDireto": "Não recomendado",
-        "horario": "Eventualmente antes de 07:30",
-        "observacoes": "Precisa de claridade filtrada um pouco maior do que muitos híbridos comerciais. Folhas muito escuras e moles indicam pouca luz; amarelecimento e áreas secas indicam excesso."
+        "sombrite": "65% a 80%",
+        "solDireto": "Evitar",
+        "horario": "Somente luz muito suave no início da manhã",
+        "observacoes": "IOSPE a associa a áreas sombreadas de floresta. Prefira luz difusa brilhante, sem aquecimento das folhas. Folhas muito escuras e crescimento frouxo podem indicar sombra excessiva; amarelamento localizado indica excesso de sol."
     },
-    "floracao": "Mais comum da primavera ao verão, entre setembro e março. As hastes podem permanecer ativas por várias temporadas e produzir novas ramificações. Corte somente quando estiverem completamente secas e amareladas.",
-    "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, preferencialmente em sachê na borda do vaso.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 7–15 dias no crescimento.\n🌱 Raízes ativas: adube somente com raízes previamente hidratadas.\n🧪 Liberação lenta: Osmocote em dose moderada apenas em vasos muito drenantes.\n🚿 Lavagem: faça flushing periódico para evitar acúmulo de sais.",
-    "rega": "Regue quando as raízes estiverem prateadas e o substrato quase seco, e não por calendário fixo. Molhe abundantemente pela manhã e deixe escorrer. Evite água parada na coroa ou entre as folhas, especialmente à noite.",
-    "suporte": "🥇 Vaso transparente bem perfurado — permite observar raízes e umidade.\n🥈 Cachepô plástico ou de madeira muito vazado — excelente aeração.\n🥉 Placa de madeira — somente em ambientes muito úmidos e com regas frequentes.",
-    "substrato": "🥇 Casca de pinus média + carvão + pedra-pomes.\n🥈 Casca de coco tratada + carvão + pouca perlita.\n🥉 Esfagno puro somente sob controle rigoroso de rega.\nO colo deve ficar acima do substrato e bem ventilado.",
-    "errosComuns": "Cortar haste verde; água parada na coroa; substrato compacto; regar por calendário; sombra profunda; adubar raízes secas; enterrar o colo; usar vaso sem ventilação; manter folhas molhadas à noite.",
-    "dica": "Preserve toda haste floral que ainda esteja verde. Regue pela manhã e use ventilação suficiente para que coroa e axilas estejam secas antes da noite. Esse cuidado simples protege o ponto de crescimento e mantém o potencial de reflorescimento por várias temporadas.",
+    "floracao": "Principalmente na primavera, podendo avançar para o início do verão conforme o clima. As flores medem cerca de 3–5 cm, são cerosas, duráveis e surgem sucessivamente em hastes finas e pendentes que podem alcançar aproximadamente 45 cm e carregar muitas flores. Preserve hastes verdes, pois podem continuar ativas.",
+    "adubacao": "🌿 Orgânica: bokashi apenas em microdose e longe do colo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/2 dose a cada 10–15 dias durante raízes e folhas ativas.\n🌱 Crescimento: maior frequência quando surgem pontas verdes nas raízes.\n❄️ Inverno: reduza a adubação junto com a desaceleração do crescimento.\n🚿 Lavagem: faça flushing periódico para limitar sais nas raízes.",
+    "rega": "Na fase ativa, regue abundantemente quando as raízes perderem o verde e o suporte estiver quase seco. No inverno, aumente moderadamente o intervalo, imitando a estação mais seca do habitat sem desidratar a planta. Evite água parada na coroa e nas axilas, principalmente durante a noite.",
+    "suporte": "🥇 Placa de cortiça ou madeira com pequena almofada de esfagno — acompanha muito bem o hábito pendente.\n🥈 Vaso transparente pequeno e muito perfurado.\n🥉 Cesto vazado com casca grossa.\nEvite recipientes profundos e abafados.",
+    "substrato": "🥇 Casca de pinus média + carvão + pedra-pomes.\n🥈 Casca de coco tratada + carvão + pouca fibra de esfagno.\n🥉 Esfagno de fibra longa bem solto apenas onde houver ventilação forte e controle de rega.\nRaízes devem secar parcialmente entre regas.",
+    "errosComuns": "Cortar hastes ainda verdes; manter substrato permanentemente molhado no inverno; água na coroa; vaso sem ventilação; sol direto forte; adubo concentrado; tratar como híbrida comercial de ambiente fechado; ignorar o hábito pendente; secar demais por tentar reproduzir um 'repouso'.",
+    "dica": "O melhor manejo é respeitar o ritmo sazonal: crescimento mais úmido e nutrido, seguido de inverno apenas um pouco mais seco. Preserve as hastes verdes e dê espaço para que cresçam pendentes — elas podem continuar produzindo flores sucessivamente.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, adapta-se muito bem. Use substrato grosso, vaso transparente muito furado e ventilação permanente nas noites abafadas.",
-        "montanhaFrio": "Proteja de temperaturas abaixo de 15 °C e reduza a rega quando o frio diminuir a evaporação."
+        "litoralQuente": "Adaptação boa, mas prefira o ponto mais ventilado e protegido do calor acumulado. No inverno capixaba, aproveite a queda natural de temperatura e reduza discretamente as regas para estimular o ciclo floral.",
+        "montanhaFrio": "Muito boa em condições amenas; evite frio excessivo e mantenha menor frequência de rega quando a evaporação cair."
     },
-    "mesesFloracao": [
-        9,
-        10,
-        11,
-        12,
-        1,
-        2,
-        3
-    ],
+    "mesesFloracao": [8, 9, 10, 11, 12],
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 4,
-        "perfume": 2,
+        "perfume": 3,
         "luminosidade": 2,
         "agua": 4,
-        "raridade": 3
+        "raridade": 4
     }
 };

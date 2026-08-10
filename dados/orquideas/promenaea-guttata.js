@@ -1,73 +1,59 @@
-// Ficha científica e de cultivo revisada — Promenaea guttata.
-// Nome mantido no catálogo por identificação horticultural; tratamento taxonômico atual indicado na descrição.
+// Refinamento final — Lote 23.
+// Arquivo histórico preservado para compatibilidade; tratamento taxonômico atual indicado no nome.
 
 export const promenaeaGuttata = {
-    id: "promenaea-guttata",
-    nome: "Promenaea guttata",
-    genero: "Promenaea",
-    tipo: "Espécie botânica",
-    dificuldade: "Avançada",
-    caracteristicas: [
-        "Miniatura epífita",
-        "Zygopetalinae",
-        "Endêmica do Brasil",
-        "Flores pintalgadas",
-        "Alta umidade",
-        "Clima ameno"
+    "id": "promenaea-guttata",
+    "nome": "Promenaea stapelioides subsp. xanthina",
+    "genero": "Promenaea",
+    "sinonimo": "Promenaea guttata",
+    "tipo": "Espécie botânica — subespécie",
+    "dificuldade": "Moderada a avançada",
+    "caracteristicas": [
+        "Miniatura epífita brasileira",
+        "Pseudobulbos pequenos e agrupados",
+        "Folhas finas e verde-claras",
+        "Flores proporcionalmente grandes",
+        "Inflorescências curtas",
+        "Alta umidade atmosférica",
+        "Raízes sensíveis ao abafamento",
+        "Clima de quente a ameno"
     ],
-    fotos: [
+    "fotos": [
         "imagens/Promenaea guttata/Promenaea guttata1.webp",
         "imagens/Promenaea guttata/Promenaea guttata2.jpg",
         "imagens/Promenaea guttata/Promenaea guttata3.jpg",
         "imagens/Promenaea guttata/Promenaea guttata4.jpg"
     ],
-    descricao: "Promenaea guttata Rchb.f. é uma pequena orquídea epífita brasileira da subtribo Zygopetalinae, formada por pseudobulbos compactos e agrupados, com folhas finas, verde-claras e delicadas. Produz inflorescências curtas na base dos pseudobulbos, geralmente com poucas flores proporcionalmente grandes em relação ao porte da planta, marcadas por manchas e pintas contrastantes. Embora continue amplamente conhecida horticulturalmente como Promenaea guttata, o tratamento taxonômico atualmente adotado pelo Kew/POWO inclui esse nome na sinonímia de Promenaea stapelioides subsp. xanthina (Lindl.) Meneguzzo. O nome histórico Zygopetalum guttatum (Rchb.f.) Rchb.f. também aparece associado ao táxon.",
-    origem: "Brasil — espécie brasileira associada a florestas úmidas.",
-    regiao: "Leste e Sul do Brasil, em ambientes florestais úmidos.",
-    habitat: "Pequena epífita de florestas úmidas, em locais protegidos, sombreados e com alta umidade atmosférica.",
-    clima: "Intermediário a ameno, úmido e muito ventilado; noites mais frescas favorecem vigor e floração.",
-    climaFloracao: "Intermediário a ameno, com elevada umidade atmosférica, luz filtrada e circulação de ar constante. No litoral quente, o principal desafio é evitar o superaquecimento noturno associado a ar parado e raízes saturadas. Plantas bem estabelecidas tendem a responder melhor quando recebem noites relativamente mais frescas.",
-    iluminacao: {
-        sombrite: "70% a 80%",
-        solDireto: "Não recomendado",
-        horario: "Luz filtrada e difusa ao longo do dia",
-        observacoes: "Prefere baixa a moderada intensidade luminosa. No litoral quente, cerca de 70% de sombreamento é um bom ponto inicial. Evite sol direto forte, que pode aquecer e queimar rapidamente as folhas finas. Sombra excessivamente profunda reduz vigor e pode prejudicar a floração."
+    "descricao": "Uma pequena joia brasileira de flores enormes para o seu tamanho! Esta Promenaea forma touceiras compactas de pseudobulbos arredondados e folhas finas, verde-claras, das quais surgem hastes curtas com flores vistosas e pintalgadas. A planta conhecida por muito tempo como Promenaea guttata é hoje incluída por Kew em Promenaea stapelioides subsp. xanthina. Para o cultivo, o mais importante é sua ecologia: é uma epífita de florestas úmidas do leste e sul do Brasil, de raízes delicadas, que gosta de umidade constante no ambiente sem tolerar substrato pesado e permanentemente saturado.",
+    "origem": "Brasil.",
+    "regiao": "Leste e Sul do Brasil.",
+    "habitat": "Florestas tropicais úmidas · epífita.",
+    "clima": "Quente a ameno · úmido · sombreado.",
+    "climaFloracao": "IOSPE descreve plantas de crescimento quente a fresco e floração no fim da primavera e verão. Essa amplitude mostra que não há uma única temperatura obrigatória; no litoral quente, o desafio é impedir que a combinação de noites muito quentes, ar parado e substrato saturado sufoque as raízes. Boa umidade atmosférica com circulação de ar é mais importante do que manter o vaso constantemente molhado.",
+    "iluminacao": {
+        "sombrite": "70% a 80%",
+        "solDireto": "Não recomendado",
+        "horario": "Luz filtrada ao longo do dia",
+        "observacoes": "Prefere luminosidade baixa a moderada. Folhas finas aquecem rapidamente, portanto evite sol direto. Sombra extremamente fechada, porém, reduz a qualidade dos novos pseudobulbos e pode diminuir a floração."
     },
-    floracao: "A floração ocorre principalmente entre a primavera e o verão, podendo variar conforme temperatura, procedência e condições de cultivo. Para o calendário do site, outubro a fevereiro funciona como janela prática de referência.",
-    adubacao: "🌿 Orgânica: bokashi em quantidade mínima, preferencialmente em porta-adubo ou sachê e longe da base da planta.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional e em quantidade muito pequena, sobretudo em vasos pequenos.\n🚿 Lavagem: faça regas periódicas apenas com água pura para reduzir acúmulo de sais.",
-    rega: "Mantenha leve umidade constante durante o crescimento, sem permitir que o substrato permaneça encharcado. Regue novamente antes de ocorrer secagem completa e prolongada. Em períodos frios ou de crescimento lento, apenas aumente moderadamente o intervalo conforme a evaporação diminuir; não imponha um repouso seco verdadeiro.",
-    suporte: [
-        "🥇 Vaso pequeno, baixo e muito perfurado, proporcional ao sistema radicular.",
-        "🥈 Cachepô ou cesto pequeno e bem ventilado, com substrato leve.",
-        "🥉 Placa de cortiça ou madeira com fina camada de esfagno, apenas onde a umidade ambiental permitir."
-    ],
-    substrato: [
-        "🥇 Casca de pinus fina + pedra-pomes + pequena quantidade de esfagno de fibra longa.",
-        "🥈 Esfagno de fibra longa bem solto + pedra-pomes.",
-        "🥉 Casca fina + carvão vegetal pequeno + pedra-pomes + pequena fração de esfagno."
-    ],
-    errosComuns: [
-        "Expor as folhas finas ao sol direto forte",
-        "Deixar o substrato secar completamente por vários dias",
-        "Manter esfagno compactado e permanentemente encharcado",
-        "Cultivar em vaso grande demais para o sistema radicular",
-        "Manter a planta em ambiente quente e sem circulação de ar",
-        "Interpretar alta umidade como necessidade de raízes constantemente saturadas",
-        "Aplicar fertilizante concentrado",
-        "Fazer repouso seco rigoroso no inverno"
-    ],
-    dica: "🏆 Cultive a Promenaea guttata como uma planta que gosta de umidade no ar e nas raízes, mas não de água parada. Use recipiente pequeno, substrato fino porém aerado e ventilação constante. No litoral quente, proteger a planta do superaquecimento noturno e evitar esfagno compactado costuma ser mais importante do que simplesmente aumentar a frequência das regas.",
-    adaptacaoRegional: {
-        litoralQuente: "Adaptação moderada, cerca de 3/5. É cultivável com 70% a 80% de sombreamento, alta umidade atmosférica, forte ventilação e recipiente pequeno. O maior desafio é o calor noturno persistente associado a raízes saturadas.",
-        montanhaFrio: "Adaptação muito boa. Noites frescas favorecem a planta. Em períodos frios e úmidos, reduza a frequência das regas conforme a secagem diminuir, sem impor seca prolongada."
+    "floracao": "Principalmente no fim da primavera e verão. Sob o conceito histórico de P. guttata, IOSPE registra inflorescências de cerca de 7,5 cm, geralmente com duas flores. As flores são grandes em relação ao porte da planta e podem apresentar manchas contrastantes sobre fundo claro ou amarelo-esverdeado.",
+    "adubacao": "🌿 Orgânica: bokashi apenas em microdose, preferencialmente em sachê.\n💧 Mineral/Foliar: NPK equilibrado em cerca de 1/4 da dose a cada 10–15 dias durante crescimento ativo.\n🌱 Novos pseudobulbos: mantenha nutrição regular, mas suave.\n🧪 Liberação lenta: opcional e somente em quantidade mínima.\n🚿 Lavagem: regas periódicas com água pura reduzem sais nas raízes finas.",
+    "rega": "Mantenha leve umidade constante durante o crescimento, regando antes de ocorrer secagem prolongada. O substrato deve estar úmido, não saturado. Em períodos frios ou de crescimento lento, aumente moderadamente o intervalo conforme a evaporação cair; não imponha repouso seco rígido.",
+    "suporte": "🥇 Vaso pequeno, baixo e muito perfurado.\n🥈 Cachepô pequeno e vazado.\n🥉 Placa de cortiça/madeira com fina camada de esfagno, somente onde a umidade ambiental for alta.\nO recipiente deve ser proporcional ao pequeno sistema radicular.",
+    "substrato": "🥇 Casca de pinus fina + pedra-pomes + pequena quantidade de esfagno de fibra longa.\n🥈 Esfagno de fibra longa bem solto + pedra-pomes.\n🥉 Casca fina + carvão pequeno + pedra-pomes + pouca fibra de coco tratada.\nEvite compactação e excesso de matéria orgânica fina.",
+    "errosComuns": "Sol direto; vaso grande; esfagno compactado; secagem completa por vários dias; ambiente quente sem circulação de ar; fertilizante concentrado; confundir alta umidade atmosférica com encharcamento; repouso seco rígido; deixar o vaso aquecer.",
+    "dica": "Pense em 'úmida e arejada', nunca em 'molhada o tempo todo'. Um vaso pequeno e muito ventilado, com substrato fino mas solto, costuma ser mais seguro do que aumentar indefinidamente a frequência das regas.",
+    "adaptacaoRegional": {
+        "litoralQuente": "Adaptação moderada. Use o setor mais fresco e ventilado do orquidário, 70–80% de sombreamento e vaso pequeno. O principal risco é calor noturno associado a raízes saturadas.",
+        "montanhaFrio": "Adaptação muito boa; apenas reduza regas conforme a evaporação diminuir para evitar saturação prolongada no frio."
     },
-    mesesFloracao: [10, 11, 12, 1, 2],
-    avaliacoes: {
-        cultivo: 4,
-        floracao: 3,
-        perfume: 1,
-        luminosidade: 2,
-        agua: 4,
-        raridade: 4
+    "mesesFloracao": [10, 11, 12, 1, 2],
+    "avaliacoes": {
+        "cultivo": 3,
+        "floracao": 3,
+        "perfume": 1,
+        "luminosidade": 2,
+        "agua": 4,
+        "raridade": 4
     }
 };

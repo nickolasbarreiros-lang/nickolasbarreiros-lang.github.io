@@ -1,19 +1,20 @@
-// Ficha refinada por comparação entre o conteúdo anterior e as informações complementares fornecidas.
-// Menu lateral mantido compacto; aprofundamento concentrado nas seções de cultivo.
+// Refinamento final — Lote 23.
+// Arquivo histórico preservado para compatibilidade do catálogo.
 
 export const phaiusTankervilleaeAlba = {
     "id": "phaius-tankervilleae-alba",
-    "nome": "Phaius tankervilleae f. alba",
-    "genero": "Phaius",
-    "tipo": "Espécie botânica — forma alba",
+    "nome": "Calanthe tankervilleae — forma alba",
+    "genero": "Calanthe",
+    "sinonimo": "Phaius tankervilleae",
+    "tipo": "Espécie botânica — forma alba horticultural",
     "dificuldade": "Fácil",
     "caracteristicas": [
-        "Orquídea terrestre de grande porte",
+        "Terrestre de grande porte",
         "Folhas largas e plissadas",
         "Pseudobulbos robustos",
-        "Hastes florais altas e eretas",
-        "Flores creme, branco e amarelo-esverdeado",
-        "Exigência hídrica elevada",
+        "Hastes florais com mais de 1 m",
+        "Flores claras de até ~11,5 cm",
+        "Gosta de umidade constante",
         "Substrato rico e aerado",
         "Forma alba muito ornamental"
     ],
@@ -23,36 +24,30 @@ export const phaiusTankervilleaeAlba = {
         "imagens/Phaius tankervilleae alba/Phaius tankervilleae alba3.webp",
         "imagens/Phaius tankervilleae alba/Phaius tankervilleae alba4.webp"
     ],
-    "descricao": "Phaius tankervilleae f. alba é uma forma clara de uma grande orquídea terrestre asiática, de crescimento vigoroso e aspecto exuberante. Forma pseudobulbos robustos envolvidos pelas bases de folhas largas, plissadas e arqueadas, capazes de produzir touceiras volumosas quando recebem espaço, água e nutrição suficientes. As hastes florais são altas, firmes e eretas, sustentando numerosas flores em tons de creme, branco e amarelo-esverdeado, sem a pigmentação púrpura típica da forma comum. Por viver naturalmente em baixadas úmidas e bordas de florestas, aprecia substrato continuamente úmido, porém leve e muito bem drenado. O segredo do cultivo está em oferecer bastante volume radicular sem compactação, mantendo crescimento foliar contínuo e reservas abundantes para a floração.",
-    "origem": "Ásia tropical e Pacífico.",
-    "regiao": "Sul e Sudeste Asiático à Oceania.",
-    "habitat": "Bordas de mata e baixadas úmidas.",
-    "clima": "Quente, úmido e sombreado.",
-    "climaFloracao": "Floresce melhor quando os pseudobulbos amadurecem após uma fase longa de crescimento com água e nutrição abundantes. Não precisa de repouso seco severo. Após a maturação, apenas reduza levemente as regas e a adubação. Touceiras fortes, cultivadas em recipientes amplos, costumam produzir hastes mais altas e floradas mais cheias.",
+    "descricao": "Uma gigante elegante entre as orquídeas terrestres! Esta forma alba chama atenção pelas folhas largas e plissadas e pelas hastes altas, que podem ultrapassar 1 metro e carregar flores grandes, claras e muito vistosas. No habitat, a espécie aparece em áreas úmidas, baixadas e florestas montanas de grande parte da Ásia tropical e subtropical até o Pacífico. É uma planta vigorosa, que responde muito bem quando recebe espaço para as raízes, água regular e nutrição constante durante a fase de crescimento. As flores podem alcançar cerca de 11,5 cm e a forma clara perde grande parte da pigmentação púrpura típica, destacando tons creme, branco e amarelo-esverdeado.",
+    "origem": "Ásia tropical/subtropical ao Pacífico.",
+    "regiao": "Ásia oriental e Sudeste Asiático · Pacífico.",
+    "habitat": "Baixadas úmidas e matas · até ~1.300 m.",
+    "clima": "Quente a ameno · úmido · meia-sombra.",
+    "climaFloracao": "A floração depende principalmente de pseudobulbos maduros e bem abastecidos após um longo período de crescimento ativo. Durante a formação de folhas e pseudobulbos, água e nutrição não devem faltar. Com a maturação, reduza apenas moderadamente adubo e rega conforme a evaporação cair; não imponha repouso seco severo. No litoral quente, a espécie costuma vegetar muito bem, desde que o substrato permaneça úmido sem ficar compacto ou anaeróbico.",
     "iluminacao": {
-        "sombrite": "60% a 70%",
-        "solDireto": "Somente muito suave",
+        "sombrite": "50% a 70%",
+        "solDireto": "Apenas sol fraco",
         "horario": "Até cerca de 08:00",
-        "observacoes": "Prefere luz filtrada média a forte. Folhas verde-médio indicam boa condição. Sol forte provoca queimaduras nas lâminas plissadas; sombra excessiva reduz vigor e floração."
+        "observacoes": "Prefere luz filtrada de média intensidade. Folhas verde-médio e firmes indicam bom equilíbrio. Sombra profunda favorece folhas grandes, mas pode reduzir a floração; sol forte aquece e queima rapidamente as lâminas plissadas."
     },
-    "floracao": "A floração ocorre principalmente do fim do inverno à primavera, entre julho e novembro. As hastes emergem da base de pseudobulbos maduros e podem alcançar grande altura. Evite mover a planta quando a haste estiver em alongamento.",
-    "adubacao": "🌿 Orgânica: bokashi em dose moderada na borda do vaso durante a fase vegetativa.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 7–15 dias enquanto folhas e pseudobulbos estiverem expandindo.\n🌱 Crescimento: mantenha nutrição constante para acumular reservas.\n🌸 Pré-floração: reduza levemente o nitrogênio após a maturação.\n🧪 Liberação lenta: Osmocote em dose moderada, superficial e afastado dos brotos.\n🚿 Lavagem: regas abundantes periódicas ajudam a remover sais.",
-    "rega": "Durante o crescimento, mantenha o substrato uniformemente úmido, sem deixar secar completamente. O recipiente precisa drenar livremente e nunca deve permanecer em prato com água. No período frio, reduza apenas moderadamente, acompanhando a evaporação e evitando enrugamento excessivo dos pseudobulbos.",
-    "suporte": "🥇 Vaso plástico largo e profundo, muito perfurado — acomoda o sistema radicular vigoroso.\n🥈 Vaso de barro de grande volume — oferece estabilidade e aeração.\n🥉 Canteiro elevado e sombreado — viável em clima quente e úmido.\nUse recipiente proporcional ao porte adulto e com espaço para novas frentes.",
-    "substrato": "🥇 Casca de pinus fina + fibra de coco + esfagno picado + perlita/pedra-pomes.\n🥈 Composto orgânico bem curtido + casca fina + carvão pequeno.\n🥉 Substrato para orquídeas terrestres com fração mineral drenante.\nA mistura deve ser rica, leve e porosa; nunca argilosa ou compactada.",
-    "errosComuns": "Substrato pobre ou compacto; falta de água durante crescimento; sol forte; vaso pequeno; água parada no pratinho; cortar folhas ainda verdes; enterrar demais a base; excesso de sais; deixar a planta secar em fase de expansão foliar.",
-    "dica": "Dê à planta o volume radicular que ela pede: vaso grande e profundo, mas cheio de uma mistura leve, rica e aerada. Durante a expansão foliar, mantenha água e nutrição constantes. É essa fase que constrói as reservas que alimentarão a próxima haste floral.",
+    "floracao": "Predomina na primavera, podendo começar no fim do inverno em cultivo. As inflorescências basais são eretas e podem ultrapassar 120 cm. As flores são grandes, em torno de 11,5 cm, e a haste pode sustentar várias flores sucessivamente. Após a floração, hastes velhas de Phaius/Calanthe tankervilleae também são conhecidas por formar brotações adventícias em condições muito úmidas.",
+    "adubacao": "🌿 Orgânica: bokashi em dose moderada na borda do vaso durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado em 1/2 dose a cada 7–15 dias enquanto folhas e pseudobulbos expandem.\n🌱 Crescimento: fase de maior exigência nutricional.\n🌸 Maturação: reduza gradualmente o nitrogênio; não é necessário zerar a adubação abruptamente.\n🧪 Liberação lenta: Osmocote em dose moderada e afastado dos brotos.\n🚿 Lavagem: regas abundantes periódicas evitam acúmulo de sais.",
+    "rega": "Durante o crescimento, mantenha o substrato uniformemente úmido, regando novamente antes da secagem completa. A planta tolera mais umidade que muitas epífitas, mas não água parada em meio compacto. No período mais frio ou após maturação dos pseudobulbos, apenas aumente o intervalo conforme a evaporação diminuir.",
+    "suporte": "🥇 Vaso plástico largo e profundo, muito perfurado — melhor equilíbrio entre umidade e espaço radicular.\n🥈 Vaso de barro grande — ótimo para estabilidade e aeração.\n🥉 Canteiro elevado e sombreado — viável em clima quente, desde que o solo seja leve e drenante.\nPlaneje espaço para uma touceira de grande porte.",
+    "substrato": "🥇 Casca de pinus fina/média + fibra de coco tratada + pedra-pomes + pequena fração de matéria orgânica.\n🥈 Composto orgânico bem curtido + casca + carvão pequeno + material mineral drenante.\n🥉 Substrato comercial para orquídeas terrestres enriquecido com perlita/pedra-pomes.\nA mistura deve reter umidade, mas permanecer porosa e nunca argilosa.",
+    "errosComuns": "Vaso pequeno; substrato pobre ou compactado; deixar secar durante expansão foliar; água parada; sombra excessiva; sol forte; excesso de sais; enterrar profundamente a base dos brotos; cortar folhas ainda verdes; impor repouso seco rígido.",
+    "dica": "Dê espaço e alimento enquanto a planta está crescendo. O tamanho da haste floral é construído meses antes, quando folhas e pseudobulbos estão se formando. Um vaso amplo com mistura rica, úmida e aerada costuma produzir plantas muito mais robustas do que recipientes pequenos e secos.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, adapta-se muito bem. Use sombra clara, ventilação, rega frequente e vaso grande com drenagem livre.",
-        "montanhaFrio": "Adapta-se bem, com proteção contra geadas e redução moderada das regas no inverno."
+        "litoralQuente": "Adaptação muito boa. Use meia-sombra clara, ventilação, regas frequentes e vaso amplo; o calor não é o principal problema desde que as raízes permaneçam úmidas e oxigenadas.",
+        "montanhaFrio": "Adaptação muito boa; proteja de geadas e reduza a frequência das regas quando o crescimento desacelerar."
     },
-    "mesesFloracao": [
-        7,
-        8,
-        9,
-        10,
-        11
-    ],
+    "mesesFloracao": [8, 9, 10, 11, 12],
     "avaliacoes": {
         "cultivo": 4,
         "floracao": 4,
