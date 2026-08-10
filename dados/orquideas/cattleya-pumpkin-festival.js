@@ -20,7 +20,7 @@ export const cattleyaPumpkinFestival = {
         "imagens/Cattleya Pumpkin Festival/Cattleya Pumpkin Festival3.png",
         "imagens/Cattleya Pumpkin Festival/Cattleya Pumpkin Festival4.png"
     ],
-    descricao: "Cattleya Pumpkin Festival é um híbrido complexo da aliança Cattleya, registrado originalmente como Sophrolaeliocattleya Pumpkin Festival. Resulta do cruzamento entre Cattleya Naomi Kerns e Cattleya Waianae Sunset, parentagem corroborada pelos registros genealógicos do OrchidRoots em descendentes registrados de Pumpkin Festival. Destaca-se pelo crescimento vigoroso e pelas flores grandes, firmes e cerosas, geralmente em tons de laranja intenso, abóbora ou cobre, com labelo ondulado e garganta amarela. Floresce melhor sob alta luminosidade, excelente ventilação e ciclos rápidos de molhamento e secagem.",
+    descricao: "É difícil ignorar uma Cattleya Pumpkin Festival em flor! Este híbrido chama atenção pelas flores grandes, firmes e cerosas, geralmente em tons quentes de laranja, abóbora e cobre, muitas vezes acompanhados por garganta amarela e um labelo ondulado que reforça ainda mais o efeito tropical. A combinação de cor intensa, boa textura e crescimento vigoroso fez do grex uma presença marcante entre as Cattleyas de tonalidades alaranjadas. Como acontece com muitos híbridos complexos, pode existir variação entre plantas, mas exemplares bem cultivados respondem especialmente bem a bastante luminosidade, boa ventilação e raízes que alternem rega abundante com secagem rápida.",
     origem: "Híbrido horticultural.",
     regiao: "Sem distribuição natural.",
     habitat: "Sem habitat natural · aliança Cattleya.",
