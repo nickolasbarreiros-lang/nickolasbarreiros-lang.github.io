@@ -1,9 +1,10 @@
-// Ficha V4 refinada — conteúdo antigo e novo comparados, filtrados e agregados; coluna lateral resumida para preservar o layout.
+// Ficha V4 refinada — revisão final com fontes cruzadas e painel lateral compacto.
 
 export const maxillariaPumilaExMinuta = {
     "id": "maxillaria-pumila-ex-minuta",
     "nome": "Maxillaria pumila (ex-minuta)",
     "genero": "Maxillaria",
+    "sinonimo": "Christensonella pumila",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "caracteristicas": [
@@ -19,19 +20,19 @@ export const maxillariaPumilaExMinuta = {
         "imagens/Maxillaria pumila/Maxillaria pumila3.jpg",
         "imagens/Maxillaria pumila/Maxillaria pumila4.jpg"
     ],
-    "descricao": "Miniatura epífita simpodial conhecida anteriormente em coleções como Maxillaria minuta ou Christensonella minuta. Forma almofadas compactas de pseudobulbos diminutos, quase ocultos pela folhagem estreita, cilíndrica ou levemente acanalada. As flores surgem em hastes basais muito curtas, em tons vinho, castanho-avermelhado ou púrpura, com textura cerosa e perfume adocicado. Seu tamanho reduzido exige manejo específico: raízes capilares têm pouca tolerância a sais, secam rapidamente quando montadas e sufocam com facilidade em materiais compactados. Touceiras inteiras mantêm microclima mais estável e florescem com muito mais força do que pequenas divisões.",
-    "origem": "Guianas e Brasil.",
-    "regiao": "América do Sul tropical, incluindo Norte, Sudeste e Sul do Brasil.",
-    "habitat": "Cascas rugosas em floresta úmida, com alta umidade e ventilação constante.",
-    "clima": "Quente a intermediário, úmido e arejado; tolera períodos mais frescos sem geada.",
-    "climaFloracao": "A floração é favorecida por touceiras maduras, crescimento contínuo, umidade ambiental estável, boa luminosidade filtrada e raízes ativas. Não necessita de seca intensa ou repouso rigoroso. Como os pseudobulbos são diminutos, qualquer perda radicular reduz rapidamente a reserva disponível. O objetivo é manter ciclos curtos de umedecimento e aeração, evitando tanto ressecamento prolongado quanto musgo encharcado.",
+    "descricao": "Uma verdadeira miniatura sul-americana! A Maxillaria pumila forma pequenas touceiras com pseudobulbos discretos, uma única folha por crescimento e flores diminutas de cerca de 8 mm, que aparecem bem junto à planta. É uma espécie de clima quente, originária das Guianas e do Brasil, e chama atenção justamente pelo contraste entre o porte minúsculo e a delicadeza das flores. Em cultivo, o segredo está nas raízes finíssimas: elas gostam de umidade frequente, mas precisam de muito ar e baixa concentração de sais.",
+    "origem": "Guiana e Brasil.",
+    "regiao": "América do Sul tropical · Brasil e Guiana.",
+    "habitat": "Epífita · florestas tropicais úmidas.",
+    "clima": "Quente · úmido e muito ventilado.",
+    "climaFloracao": "IOSPE descreve a espécie como miniatura de crescimento quente, florescendo na primavera e no verão em hastes curtas de cerca de 1,5 cm. Não há necessidade de repouso seco. Para florescer bem, a planta precisa permanecer em touceira, com raízes funcionais e boa luz filtrada. No litoral quente, a temperatura é favorável; o maior risco é o abafamento de raízes muito finas em esfagno compactado ou substrato velho.",
     "iluminacao": {
         "sombrite": "65% a 75%",
         "solDireto": "Somente sol muito suave",
         "horario": "Até cerca de 08h30",
         "observacoes": "Prefere luz filtrada clara, sem aquecimento da touceira. Folhas compactas e verde-vivo indicam equilíbrio. Amarelecimento, ressecamento das pontas ou vermelhidão intensa sugerem excesso; crescimento frouxo, alongado e verde-escuro indica pouca luz."
     },
-    "floracao": "Mais comum da primavera ao início do verão, aproximadamente de setembro a janeiro, com possibilidade de surtos secundários. As flores ficam rente à touceira e podem ser parcialmente ocultas pela folhagem. O perfume adocicado é mais perceptível em horários quentes e em plantas com várias flores abertas simultaneamente.",
+    "floracao": "Mais comum da primavera ao verão, aproximadamente de setembro a fevereiro no hemisfério sul. As flores medem cerca de 8 mm e surgem em pequenas hastes basais. Como ficam próximas da folhagem, uma touceira bem estabelecida produz o melhor efeito visual.",
     "adubacao": "🌿 Orgânica: use bokashi apenas em sachê microperfurado, fixado longe das raízes e do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante o crescimento.\n🧪 Liberação lenta: geralmente dispensável em placas e microvasos; se usada, aplique pouquíssimos grânulos.\n🚿 Flushing: uma vez por mês, lave raízes e suporte com água pura. Água de baixa salinidade é especialmente benéfica para esta miniatura.",
     "rega": "Mantenha umidade frequente, regando quando a superfície ou o suporte começar a secar. Em placas, pode precisar de água diária no verão; em microvasos, espere a aeração da camada superior antes de repetir. As raízes capilares devem receber água regularmente, mas não podem permanecer imersas em musgo compactado. Folhas murchas com raízes escuras e moles geralmente indicam perda radicular por excesso de umidade. Folhas murchas com raízes claras e suporte completamente seco indicam déficit hídrico real.",
     "suporte": "🥇 Placa pequena de cortiça ou madeira dura com filete mínimo de esfagno.\n🥈 Microvaso de barro ou plástico perfurado, sem sobra de espaço.\n🥉 Cesto pequeno de madeira ou arame revestido de material muito arejado. Evite suportes desproporcionais ao tamanho da touceira.",
@@ -42,13 +43,7 @@ export const maxillariaPumilaExMinuta = {
         "litoralQuente": "Em Serra/ES, mantenha acima de 60% de umidade relativa, sombra clara e ventilação constante. Montagens podem exigir rega diária no verão.",
         "montanhaFrio": "Em Santa Teresa/ES, adapta-se bem às noites frescas. Reduza a frequência apenas em semanas frias e úmidas e proteja de geada."
     },
-    "mesesFloracao": [
-        9,
-        10,
-        11,
-        12,
-        1
-    ],
+    "mesesFloracao": [9, 10, 11, 12, 1, 2],
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 3,

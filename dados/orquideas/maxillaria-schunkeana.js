@@ -1,9 +1,10 @@
-// Ficha V4 refinada — conteúdo antigo e novo comparados, filtrados e agregados; coluna lateral resumida para preservar o layout.
+// Ficha V4 refinada — revisão final com fontes cruzadas e painel lateral compacto.
 
 export const maxillariaSchunkeana = {
     "id": "maxillaria-schunkeana",
     "nome": "Maxillaria schunkeana",
     "genero": "Maxillaria",
+    "sinonimo": "Brasiliorchis schunkeana",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "caracteristicas": [
@@ -19,19 +20,19 @@ export const maxillariaSchunkeana = {
         "imagens/Maxillaria schunkeana/Maxillaria schunkeana3.webp",
         "imagens/Maxillaria schunkeana/Maxillaria schunkeana4.jpeg"
     ],
-    "descricao": "Joia da Mata Atlântica capixaba, conhecida mundialmente como “orquídea-negra”. Maxillaria schunkeana é uma espécie simpodial compacta, com pseudobulbos ovoides e levemente comprimidos, normalmente bifoliados, reunidos em touceiras densas. As inflorescências têm apenas poucos centímetros e surgem rente à base, produzindo flores cerosas e brilhantes de vinho-púrpura extremamente profundo. A aparência negra não resulta de pigmento preto verdadeiro, mas da alta concentração de antocianinas e da forma como a superfície absorve e reflete a luz. Por viver em ambiente úmido e sombreado, necessita de raízes arejadas, temperatura controlada e proteção contra sol e calor abafado.",
-    "origem": "Endêmica do Espírito Santo, Brasil.",
-    "regiao": "Mata Atlântica capixaba, especialmente florestas úmidas de encosta.",
-    "habitat": "Epífita de estratos sombreados, úmidos e ventilados.",
-    "clima": "Intermediário a quente moderado, úmido e sem calor estagnado.",
-    "climaFloracao": "A floração depende de touceira madura, pseudobulbos bem formados, raízes funcionais e ambiente estável. Não exige seca severa. A espécie responde melhor a umidade regular, luz filtrada suave e noites moderadamente frescas. Em clima quente, a ventilação é o principal fator para impedir que a temperatura do vaso e da folhagem ultrapasse o limite de tolerância. A base deve permanecer visível, pois os botões escuros e curtos surgem quase escondidos.",
+    "descricao": "Uma das joias mais famosas do Espírito Santo! Conhecida como “orquídea-negra”, esta pequena Maxillaria produz flores de cerca de 1 cm em um vinho-púrpura tão escuro que parecem negras à primeira vista. É endêmica da Mata Atlântica capixaba e cresce naturalmente em ambiente quente, úmido e ventilado, por volta de 600–700 m de altitude. Apesar da aparência exótica, não exige frio intenso; no litoral, o ponto mais importante é evitar calor abafado e manter as raízes sempre arejadas.",
+    "origem": "Espírito Santo, Brasil.",
+    "regiao": "Mata Atlântica capixaba.",
+    "habitat": "Epífita · floresta costeira · 600–700 m.",
+    "clima": "Quente · úmido, sombreado e ventilado.",
+    "climaFloracao": "IOSPE registra a espécie florescendo no verão brasileiro, a partir de pseudobulbos maduros. Isso corrige a ideia de que ela depende de frio para florescer: sua origem em 600–700 m no Espírito Santo aponta para cultivo quente a moderado, desde que haja circulação de ar e raízes saudáveis. No litoral, mantenha boa luminosidade filtrada, regas regulares com rápida drenagem e evite noites abafadas com substrato saturado.",
     "iluminacao": {
         "sombrite": "70% a 80%",
         "solDireto": "Evitar; apenas luz muito branda",
         "horario": "No máximo início da manhã",
         "observacoes": "É uma planta de interior de mata. Folhas verde-médio e flexíveis indicam equilíbrio. Clareamento intenso, amarelecimento ou manchas secas exigem redução imediata da exposição. Sombra absoluta, porém, também é prejudicial: a planta precisa de claridade difusa para amadurecer pseudobulbos e florescer."
     },
-    "floracao": "Predomina do outono ao início do inverno, aproximadamente de março a junho, com variações conforme o microclima. As hastes medem cerca de 3 a 5 cm e surgem na base dos pseudobulbos, muitas vezes escondidas pelo substrato, bainhas e folhagem. Touceiras consolidadas podem abrir várias flores simultaneamente. O perfume é discreto e pode não ser percebido em todos os exemplares.",
+    "floracao": "A floração ocorre principalmente no verão, aproximadamente de dezembro a março. Cada haste é curta, basal e geralmente porta uma única flor de cerca de 1 cm, mantida próxima à altura do pseudobulbo. Touceiras maduras podem emitir várias flores quase ao mesmo tempo.",
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade dentro de porta-adubo, na borda do vaso.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: usar poucos grânulos e somente em mistura muito drenante.\n🚿 Faça flushing mensal com água pura. Como as raízes são finas, adubação fraca e regular é mais segura que aplicações concentradas.",
     "rega": "Mantenha umidade regular durante o crescimento, deixando a camada superficial e parte do substrato arejarem entre as regas. No frio, aumente ligeiramente o intervalo conforme a evaporação, sem deixar a touceira seca por períodos longos. Pseudobulbos enrugados com substrato molhado e raízes escuras indicam perda radicular por falta de oxigênio. Regue de manhã e evite manter água acumulada na base durante a formação dos botões.",
     "suporte": "🥇 Vaso de barro pequeno e perfurado, que favorece evaporação e resfriamento.\n🥈 Microvaso plástico muito furado, apenas do tamanho da touceira.\n🥉 Placa de madeira ou cortiça com fina camada de esfagno, somente em ambiente com umidade acima de 65% e rotina de rega consistente.",
@@ -42,12 +43,7 @@ export const maxillariaSchunkeana = {
         "litoralQuente": "Mesmo sendo capixaba, em Serra/Vitória precisa do ponto mais fresco e ventilado do orquidário, com vaso pequeno e mistura mineral. Evite calor noturno abafado.",
         "montanhaFrio": "Em Santa Teresa/ES, apresenta excelente adaptação às noites frescas. Reduza levemente a rega no inverno, sem secar completamente."
     },
-    "mesesFloracao": [
-        3,
-        4,
-        5,
-        6
-    ],
+    "mesesFloracao": [12, 1, 2, 3],
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 3,
