@@ -15,7 +15,12 @@ export const epidendrumCentropetalum = {
         "Alta umidade",
         "Clima fresco"
     ],
-    fotos: [],
+    fotos: [
+        "imagens/Epidendrum centropetalum/Epidendrum centropetalum1.jpg",
+        "imagens/Epidendrum centropetalum/Epidendrum centropetalum2.jpg",
+        "imagens/Epidendrum centropetalum/Epidendrum centropetalum3.jpg",
+        "imagens/Epidendrum centropetalum/Epidendrum centropetalum4.jpg"
+    ],
     descricao: "Epidendrum centropetalum é uma espécie delicada e muito charmosa da América Central, conhecida durante décadas em coleções como Oerstedella centradenia. Seus caules finos lembram pequenas canas e podem produzir keikis ao longo do crescimento, criando touceiras leves e ramificadas. As inflorescências surgem no topo dos caules maduros e carregam várias flores rosa-intenso, marcadas por uma área branca na base do labelo e um pequeno calo amarelo. Apesar da aparência tropical, é uma planta ligada a florestas montanas úmidas e responde melhor quando recebe muita ventilação, umidade constante e noites mais amenas.",
     origem: "México e América Central.",
     regiao: "Do sul do México ao Panamá.",

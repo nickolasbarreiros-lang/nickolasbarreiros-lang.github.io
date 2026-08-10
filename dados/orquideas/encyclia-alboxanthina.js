@@ -14,7 +14,12 @@ export const encycliaAlboxanthina = {
         "Alta luminosidade",
         "Tolera leve secagem"
     ],
-    fotos: [],
+    fotos: [
+        "imagens/Encyclia alboxanthina/Encyclia alboxanthina1.webp",
+        "imagens/Encyclia alboxanthina/Encyclia alboxanthina2.jpg",
+        "imagens/Encyclia alboxanthina/Encyclia alboxanthina3.jpg",
+        "imagens/Encyclia alboxanthina/Encyclia alboxanthina4.jpg"
+    ],
     descricao: "Encyclia alboxanthina é uma brasileira de aparência luminosa e elegante. Seus pseudobulbos sustentam folhas firmes e, quando maduros, produzem uma haste longa e multifloral que exibe flores claras, combinando branco e amarelo e acompanhadas por perfume marcante. É uma Encyclia que aprecia claridade, raízes muito bem ventiladas e uma rotina de rega sem excessos. Quando bem estabelecida forma touceiras bonitas e oferece uma floração que se destaca tanto pela cor quanto pela fragrância.",
     origem: "Brasil.",
     regiao: "Bahia e Sergipe.",

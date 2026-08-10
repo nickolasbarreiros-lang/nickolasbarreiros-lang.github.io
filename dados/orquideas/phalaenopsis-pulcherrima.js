@@ -15,7 +15,12 @@ export const phalaenopsisPulcherrima = {
         "Tolera mais luz",
         "Floração prolongada"
     ],
-    fotos: [],
+    fotos: [
+        "imagens/Phalaenopsis pulcherrima/Phalaenopsis pulcherrima1.jpg",
+        "imagens/Phalaenopsis pulcherrima/Phalaenopsis pulcherrima2.webp",
+        "imagens/Phalaenopsis pulcherrima/Phalaenopsis pulcherrima3.jpg",
+        "imagens/Phalaenopsis pulcherrima/Phalaenopsis pulcherrima4.png"
+    ],
     descricao: "Phalaenopsis pulcherrima, ainda muito conhecida entre colecionadores como Doritis pulcherrima, foge um pouco da imagem clássica das Phalaenopsis de supermercado. Em vez de viver apenas agarrada a árvores, costuma crescer sobre rochas e solos arenosos, formando touceiras compactas e lançando hastes florais firmes e eretas que podem continuar alongando enquanto novas flores se abrem. As flores, normalmente rosadas a púrpuras, dão à planta um aspecto leve e colorido. É uma espécie quente, resistente e particularmente interessante para quem cultiva Phalaenopsis em ambientes mais claros.",
     origem: "Sul e Sudeste da Ásia.",
     regiao: "De Assam e Indochina até Hainan e oeste da Malésia.",

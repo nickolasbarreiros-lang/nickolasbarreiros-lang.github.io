@@ -125,7 +125,23 @@ import { pleurothallisModestissima } from "./pleurothallis-modestissima.js";
 import { maxillariaBrasiliensis } from "./maxillaria-brasiliensis.js";
 import { isochilusLinearis } from "./isochilus-linearis.js";
 
+import { epidendrumCentropetalum } from "./epidendrum-centropetalum.js";
+import { miltoniaRusselliana } from "./miltonia-russelliana.js";
+import { promenaeaXanthina } from "./promenaea-xanthina.js";
+import { brassiaLawrenceana } from "./brassia-lawrenceana.js";
+import { laeliaSplendida } from "./laelia-splendida.js";
+import { encycliaAlboxanthina } from "./encyclia-alboxanthina.js";
+import { phalaenopsisPulcherrima } from "./phalaenopsis-pulcherrima.js";
+import { dendrobiumSpectabile } from "./dendrobium-spectabile.js";
 export const orquideas = [
+    epidendrumCentropetalum,
+    miltoniaRusselliana,
+    promenaeaXanthina,
+    brassiaLawrenceana,
+    laeliaSplendida,
+    encycliaAlboxanthina,
+    phalaenopsisPulcherrima,
+    dendrobiumSpectabile,
     cattleyaPumpkinFestival,
     dendrobiumPolysema,
     bifrenariaVerboonenii,

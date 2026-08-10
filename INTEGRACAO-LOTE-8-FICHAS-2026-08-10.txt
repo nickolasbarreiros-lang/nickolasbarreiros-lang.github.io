@@ -1,0 +1,14 @@
+INTEGRAÇÃO DAS 8 NOVAS FICHAS
+
+Fichas adicionadas ao índice oficial e fotos vinculadas:
+- epidendrum-centropetalum.js: 4 fotos
+- miltonia-russelliana.js: 4 fotos
+- promenaea-xanthina.js: 4 fotos
+- brassia-lawrenceana.js: 4 fotos
+- laelia-splendida.js: 4 fotos
+- encyclia-alboxanthina.js: 4 fotos
+- phalaenopsis-pulcherrima.js: 4 fotos
+- dendrobium-spectabile.js: 4 fotos
+
+Total de novas fotos integradas: 32
+Erros encontrados na validação: 0
