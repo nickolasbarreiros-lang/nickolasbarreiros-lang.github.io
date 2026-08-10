@@ -21,11 +21,11 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
         "imagens/cattleya-violacea-suavissima-self/cattleya-violacea-suavissima-self-3.jpg",
         "imagens/cattleya-violacea-suavissima-self/cattleya-violacea-suavissima-self-4.jpg"
     ],
-    "descricao": "Cattleya violacea f. suavissima × self é uma progênie horticultural resultante da autofecundação de uma planta selecionada por sua coloração extremamente clara. O termo suavissima é uma designação de uso horticultural e não uma categoria taxonômica formal. O objetivo do self é aumentar a probabilidade de descendentes que expressem tonalidades rosa-esbranquiçadas ou lilases muito suaves, mantendo o labelo mais intenso. Cada muda, entretanto, é geneticamente individual e pode variar em cor, forma, vigor, perfume e época de floração. A fisiologia permanece a da espécie amazônica: crescimento bifoliado, necessidade de calor contínuo, umidade elevada, luz filtrada forte e raízes ativas durante grande parte do ano. A qualidade da água e a concentração dos fertilizantes são especialmente importantes, pois raízes jovens e carnosas queimam rapidamente com salinização.",
-    "origem": "Progênie horticultural.",
-    "regiao": "Derivada de Cattleya violacea sul-americana.",
-    "habitat": "Requer microclima equivalente às florestas amazônicas.",
-    "clima": "Quente, úmido e ventilado.",
+    "descricao": "Uma versão delicada de uma das mais belas Cattleyas amazônicas! Esta progênie vem da autofecundação de uma Cattleya violacea selecionada pela coloração muito suave, buscando descendentes em tons claros de rosa, lilás ou quase branco, geralmente com o labelo mais destacado. Como toda reprodução por sementes, cada planta pode apresentar diferenças de cor, forma, perfume e vigor. A espécie produz flores grandes, cerosas e perfumadas e vem de florestas tropicais quentes e úmidas, frequentemente próximas a cursos d’água. Gosta de calor constante, boa umidade e raízes bem ventiladas; no litoral quente, o principal cuidado é equilibrar regas frequentes com secagem rápida do suporte e evitar excesso de sais na água e nos adubos.",
+    "origem": "Seleção horticultural de C. violacea.",
+    "regiao": "Base genética sul-americana.",
+    "habitat": "Referência: florestas tropicais úmidas · baixa altitude.",
+    "clima": "Quente e úmido · sem seca prolongada.",
     "climaFloracao": "A floração é favorecida por pseudobulbos maduros, noites quentes, luminosidade constante e sistema radicular saudável. A planta não deve ser induzida por frio ou seca intensa. Temperaturas baixas, água muito salina, fertilização concentrada e substrato degradado interrompem o crescimento e reduzem o tamanho e a qualidade das flores. Como se trata de progênie self, o período exato de floração pode variar entre indivíduos.",
     "iluminacao": {
         "sombrite": "50% a 60%",

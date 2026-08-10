@@ -23,11 +23,11 @@ export const cattleyaWarneri = {
         "imagens/Cattleya warneri/Cattleya warneri3.jpg",
         "imagens/Cattleya warneri/Cattleya warneri4.jpg"
     ],
-    "descricao": "Cattleya warneri é uma das grandes Cattleyas unifoliadas brasileiras e uma das espécies mais representativas da primavera na Mata Atlântica do Sudeste. Forma rizoma robusto, raízes grossas, pseudobulbos clavados, altos e carnosos e uma única folha grande, espessa e coriácea. Vegetativamente pode ser confundida com Cattleya labiata, mas possui ciclo floral distinto: amadurece o crescimento durante o inverno e floresce principalmente na primavera. As flores são muito grandes, perfumadas, em tons rosa a lilás, com labelo amplo, tubuloso, ondulado e intensamente purpúreo. A espata floral pode permanecer verde, tornar-se palha ou ficar completamente castanha antes que os botões se desenvolvam.",
+    "descricao": "Uma gigante da primavera brasileira! Cattleya warneri é uma das grandes Cattleyas da Mata Atlântica, conhecida pelas flores muito grandes, perfumadas e geralmente rosadas ou lilases, com um labelo amplo e intensamente colorido. A planta também impressiona pelo porte, formando pseudobulbos altos e robustos com uma única folha no topo. Sua floração acompanha um ritmo bem característico: os novos crescimentos amadurecem durante os meses mais amenos e as flores aparecem principalmente na primavera; a espata pode até ficar seca e amarronzada antes de os botões começarem a crescer. É nativa do leste do Brasil e tem forte presença no Espírito Santo. No litoral quente, adapta-se bem quando recebe boa luminosidade, ventilação, água abundante no crescimento e uma redução moderada das regas durante a maturação.",
     "origem": "Brasil.",
-    "regiao": "Sudeste brasileiro, especialmente Espírito Santo, Minas Gerais e áreas limítrofes da Mata Atlântica.",
-    "habitat": "Epífita em árvores de florestas úmidas e sazonais, muitas vezes nos estratos médios e altos, com boa luminosidade filtrada, chuva durante a fase vegetativa e circulação de ar constante. A redução natural de água no inverno acompanha a maturação dos pseudobulbos e da espata.",
-    "clima": "Intermediário a quente, úmido no crescimento e moderadamente mais seco durante a maturação.",
+    "regiao": "Leste do Brasil · destaque para ES e MG.",
+    "habitat": "Mata Atlântica · epífita · ~100–800 m.",
+    "clima": "Quente a intermediário · noites mais amenas.",
     "climaFloracao": "Depois que o pseudobulbo termina o crescimento e forma a espata, a planta pode permanecer semanas ou meses em aparente repouso enquanto acumula reservas. Luz alta no inverno, substrato arejado e regas mais espaçadas são importantes, sem impor seca absoluta. Quando as temperaturas aumentam na primavera, os botões podem se desenvolver dentro de uma espata externamente seca. Excesso de água, pouca luz, pseudobulbos finos e excesso de nitrogênio reduzem a qualidade da florada.",
     "iluminacao": {
         "sombrite": "40% a 50%",

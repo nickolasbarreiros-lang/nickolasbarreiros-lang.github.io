@@ -24,11 +24,11 @@ export const cattleyaWalkeriana = {
         "imagens/Cattleya walkeriana/Cattleya walkeriana3.webp",
         "imagens/Cattleya walkeriana/Cattleya walkeriana4.webp"
     ],
-    "descricao": "Cattleya walkeriana é uma das espécies mais emblemáticas da orquidofilia brasileira e uma referência mundial entre as Cattleyas compactas. Apresenta crescimento simpodial, rizoma curto a moderadamente espaçado e pseudobulbos fusiformes, gordinhos, sulcados e capazes de armazenar reservas. Os pseudobulbos normalmente sustentam uma folha espessa e coriácea, embora alguns crescimentos possam apresentar duas. As flores são muito grandes em relação ao vegetativo, firmes, cerosas e intensamente perfumadas. Uma característica marcante é a formação de um broto floral especializado e sem folha, emitido diretamente do rizoma. O cultivo é exigente porque as raízes precisam de molhamento completo durante a atividade e secagem rápida logo depois. Vasos profundos, substratos finos, umidade permanente e replantios mal programados podem paralisar ou perder a planta.",
+    "descricao": "Uma das Cattleyas brasileiras mais admiradas no mundo! Cattleya walkeriana combina porte compacto com flores enormes, cerosas e intensamente perfumadas, criando um contraste impressionante entre o tamanho da planta e sua floração. Uma de suas curiosidades é que as flores frequentemente surgem de um pequeno crescimento próprio, sem folha, próximo ao rizoma. Nativa do Centro-Oeste e Sudeste do Brasil, vive sobre árvores e também em rochas de ambientes com estação seca bem marcada. Essa origem explica seu gosto por muita claridade, excelente ventilação e raízes que molham bem, mas secam rapidamente. No litoral quente, o excesso de umidade parada costuma ser mais perigoso do que o calor: suporte arejado e redução das regas após a maturação são fundamentais para uma boa floração.",
     "origem": "Brasil.",
-    "regiao": "Brasil central e sudeste, especialmente Minas Gerais, Goiás, Mato Grosso e áreas adjacentes.",
-    "habitat": "Ocorre como epífita em troncos e galhos e como litófita em fendas rochosas. Habita Cerrado, campos rupestres e matas sazonais muito claras e ventiladas, com chuvas intensas no crescimento e período mais seco após a maturação. Mesmo após chuva, as raízes expostas secam rapidamente.",
-    "clima": "Quente a intermediário, luminoso, ventilado e sazonalmente seco.",
+    "regiao": "Centro-Oeste e Sudeste.",
+    "habitat": "Cerrado e matas sazonais · epífita ou rupícola.",
+    "clima": "Quente a intermediário · sazonal e ventilado.",
     "climaFloracao": "A floração depende de pseudobulbos completamente maduros, folhas firmes, raízes preservadas, luz elevada e redução gradual das regas após o crescimento. A espécie não deve ser tratada como permanentemente seca: durante brotação e enraizamento precisa de água abundante e nutrição leve. Quando as pontas radiculares reduzem a atividade e os pseudobulbos estão cheios, aumentam-se os intervalos e suspende-se a adubação forte. Pouca luz, excesso de nitrogênio e raízes danificadas reduzem a formação do broto floral.",
     "iluminacao": {
         "sombrite": "30% a 50%",
