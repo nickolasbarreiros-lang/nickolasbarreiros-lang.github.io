@@ -4,6 +4,7 @@
 export const coelogyneCristata = {
     "id": "coelogyne-cristata",
     "nome": "Coelogyne cristata",
+    "sinonimo": "Cymbidium speciosissimum",
     "genero": "Coelogyne",
     "tipo": "Espécie botânica",
     "dificuldade": "Exigente em clima quente",
@@ -23,11 +24,11 @@ export const coelogyneCristata = {
         "imagens/Coelogyne cristata/Coelogyne cristata3.jpeg",
         "imagens/Coelogyne cristata/Coelogyne cristata4.webp"
     ],
-    "descricao": "Coelogyne cristata é uma das espécies mais famosas do gênero, originária de regiões montanhosas do Himalaia central e oriental. Forma touceiras densas de pseudobulbos ovoides a globosos, sulcados e brilhantes, cada um sustentando duas folhas coriáceas. As inflorescências pendentes carregam flores grandes, brancas e onduladas, com cristas amarelo-ouro no labelo. Sua beleza está diretamente associada ao ciclo de altitude: verão úmido e ameno, seguido por outono e inverno frios, claros e progressivamente secos. Sem queda térmica noturna real, a planta pode crescer normalmente, mas permanecer anos sem emitir flores.",
-    "origem": "Himalaia central e oriental.",
-    "regiao": "Nepal, norte da Índia, Butão e áreas montanhosas adjacentes.",
-    "habitat": "Florestas montanas frias, úmidas no verão e secas no inverno.",
-    "clima": "Intermediário-frio a frio.",
+    "descricao": "Uma das Coelogynes mais espetaculares — e também uma das que mais sentem o calor! Coelogyne cristata forma touceiras de pseudobulbos arredondados e produz elegantes cachos pendentes de grandes flores brancas, destacadas pelas cristas amarelo-ouro do labelo. É uma orquídea das montanhas do Himalaia, onde passa por verões úmidos e amenos e depois por um inverno muito mais frio e seco. Esse contraste explica seu principal desafio no litoral quente: a planta pode crescer bem, mas a floração depende de noites realmente mais frescas e de uma redução natural das regas após a maturação dos pseudobulbos.",
+    "origem": "Himalaia.",
+    "regiao": "Nepal, Índia, Tibet e Bangladesh.",
+    "habitat": "Montanhas úmidas · inverno frio e seco.",
+    "clima": "Fresco a frio · noites frias essenciais.",
     "climaFloracao": "A indução floral depende da combinação de noites frias, luz mais intensa e redução progressiva de água após a maturação dos pseudobulbos. A seca isolada, sem frio, geralmente não produz botões. No outono, reduza gradualmente as regas; no inverno, mantenha quase seca e suspenda a adubação. Irrigue apenas o suficiente para impedir desidratação extrema. Quando os botões se tornam evidentes, retome a água com cautela, evitando encharcar raízes ainda frias.",
     "iluminacao": {
         "sombrite": "50% no verão",
@@ -43,7 +44,7 @@ export const coelogyneCristata = {
     "errosComuns": "Noites quentes no inverno; tentar induzir floração apenas com seca; manter regas constantes no repouso; adubar no inverno; calor abafado no verão; pouca luz no período frio; deixar o substrato frio e encharcado; falta de espaço para a touceira; colocar em vaso profundo; retomar água em excesso antes da atividade radicular.",
     "dica": "O gatilho floral é triplo: frio noturno real, luminosidade alta e repouso hídrico. Reduzir água sem oferecer frio não basta. No inverno, mantenha quase seca, suspenda adubos e permita apenas irrigações mínimas para preservar os pseudobulbos.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, o cultivo é difícil. Sem noites frias, pode crescer sem florescer. O melhor resultado exige microclima muito fresco, posição ventilada ou cultivo temporário em região de altitude durante o outono e inverno.",
+        "litoralQuente": "No litoral quente, o cultivo é difícil. Sem noites frias, pode crescer sem florescer. O melhor resultado exige microclima muito fresco, posição ventilada ou cultivo temporário em região de altitude durante o outono e inverno.",
         "montanhaFrio": "É o ambiente mais indicado: verão úmido e ventilado, seguido por inverno frio, luminoso e mais seco."
     },
     "mesesFloracao": [

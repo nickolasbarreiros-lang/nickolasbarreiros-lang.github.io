@@ -4,6 +4,7 @@
 export const coelogyneFimbriata = {
     "id": "coelogyne-fimbriata",
     "nome": "Coelogyne fimbriata",
+    "sinonimo": "Pleione fimbriata",
     "genero": "Coelogyne",
     "tipo": "Espécie botânica",
     "dificuldade": "Fácil a moderada",
@@ -23,11 +24,11 @@ export const coelogyneFimbriata = {
         "imagens/Coelogyne fimbriata/Coelogyne fimbriata3.avif",
         "imagens/Coelogyne fimbriata/Coelogyne fimbriata4.jpeg"
     ],
-    "descricao": "Coelogyne fimbriata é uma espécie asiática compacta, epífita ou litófita, caracterizada por crescimento horizontal e rizoma longo, ramificado e prostrado. Os pseudobulbos pequenos e ovoides surgem espaçados ao longo do rizoma e sustentam duas folhas coriáceas. Com o tempo, a planta forma colônias amplas sobre troncos, placas ou rochas cobertas por musgo. As flores são delicadas, verde-amareladas a pálidas, com labelo marcado em castanho e bordas finamente franjadas. Seu cultivo é relativamente simples quando se respeita a arquitetura rastejante: precisa de superfície larga, rizoma exposto, umidade frequente e substrato raso e aerado.",
-    "origem": "Ásia continental.",
-    "regiao": "Sul da China, Himalaia oriental e Sudeste Asiático.",
-    "habitat": "Florestas úmidas sobre troncos e rochas musgosas.",
-    "clima": "Intermediário, úmido e ventilado.",
+    "descricao": "Pequena nas flores, mas enorme na vontade de se espalhar! Coelogyne fimbriata cresce horizontalmente por um rizoma longo, formando aos poucos verdadeiras colônias sobre troncos e rochas. Seus pequenos pseudobulbos carregam duas folhas, enquanto as flores verde-amareladas chamam atenção pelo labelo marcado de castanho e pelas delicadas bordas franjadas — característica que inspira o nome fimbriata. É uma espécie bastante adaptável quando recebe espaço para o rizoma avançar, umidade regular e muita aeração. Em vez de vaso profundo, prefere superfícies largas, cestos rasos ou placas onde possa crescer livremente.",
+    "origem": "Himalaia ao sul da China e Indochina.",
+    "regiao": "Nepal, sul da China e Indochina.",
+    "habitat": "Florestas úmidas · troncos e rochas musgosas.",
+    "clima": "Intermediário · úmido e ventilado.",
     "climaFloracao": "A floração ocorre após a maturação dos pseudobulbos e é favorecida por luz filtrada brilhante, umidade regular e leve redução de água no fim do ciclo. Ao contrário de Coelogyne cristata, não exige frio intenso nem seca prolongada. O rizoma precisa avançar livremente e acumular vários pseudobulbos, pois colônias adultas florescem com maior constância que pequenas divisões.",
     "iluminacao": {
         "sombrite": "50% a 60%",
@@ -43,7 +44,7 @@ export const coelogyneFimbriata = {
     "errosComuns": "Usar vaso profundo; enterrar o rizoma; limitar o avanço horizontal; deixar secar por muitos dias; manter encharcada; cultivar em calor abafado; sombra profunda; dividir em pedaços pequenos; replantar sem novas raízes; usar excesso de esfagno ou substrato compactado.",
     "dica": "Pense em superfície, não em profundidade. Conduza o rizoma sobre placa larga, cesto raso ou bacia baixa e deixe as novas frentes avançarem sem obstáculos. Mantenha o rizoma descoberto e umidade frequente com aeração; esse equilíbrio permite que a planta forme colônias extensas e floresça em várias frentes.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, adapta-se bem sob sombra clara, umidade regular e ventilação. Evite o calor parado junto ao teto e não deixe a placa secar por vários dias.",
+        "litoralQuente": "No litoral quente, adapta-se bem sob sombra clara, umidade regular e ventilação. Evite o calor parado junto ao teto e não deixe a placa secar por vários dias.",
         "montanhaFrio": "Apresenta excelente adaptação. Reduza moderadamente a água nas semanas frias e proteja de geadas."
     },
     "mesesFloracao": [

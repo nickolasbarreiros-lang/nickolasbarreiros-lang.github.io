@@ -4,6 +4,7 @@
 export const coelogyneAsperata = {
     "id": "coelogyne-asperata",
     "nome": "Coelogyne asperata",
+    "sinonimo": "Pleione asperata",
     "genero": "Coelogyne",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
@@ -23,11 +24,11 @@ export const coelogyneAsperata = {
         "imagens/Coelogyne asperata/Coelogyne asperata3.jpeg",
         "imagens/Coelogyne asperata/Coelogyne asperata4.webp"
     ],
-    "descricao": "Coelogyne asperata é uma espécie tropical de grande porte, originária da região da Malesia ao Pacífico ocidental. Forma pseudobulbos robustos, ovóides a oblongos, sustentando folhas largas, plissadas e coriáceas. O rizoma avança com rapidez e cria touceiras extensas e pesadas. As inflorescências longas, arqueadas ou pendentes surgem junto aos novos crescimentos e carregam flores creme a amarelo-pálido, perfumadas, com labelo marcado por relevos, veios e tons castanhos, amarelos e alaranjados. Diferentemente das Coelogynes himalaicas, esta espécie não depende de inverno frio nem de repouso seco severo: seu ciclo é essencialmente tropical, com calor, umidade frequente e atividade quase contínua.",
+    "descricao": "Uma Coelogyne de presença imponente! Coelogyne asperata é uma espécie tropical de grande porte, com pseudobulbos robustos, folhas largas e plissadas e um rizoma vigoroso que, com o tempo, forma touceiras realmente grandes. Suas hastes arqueadas ou pendentes exibem flores creme a amarelo-pálido, geralmente perfumadas, com um labelo muito ornamentado em amarelo, castanho e alaranjado. Originária das florestas úmidas da Malesia ao Pacífico ocidental, ela gosta de calor e umidade e não precisa do inverno frio e seco exigido por algumas Coelogynes do Himalaia — característica que a torna especialmente interessante para regiões de clima quente.",
     "origem": "Malesia ao Pacífico ocidental.",
-    "regiao": "Bornéu, Sumatra, Java, Filipinas, Nova Guiné e Ilhas Salomão.",
-    "habitat": "Florestas tropicais úmidas de baixa a média altitude.",
-    "clima": "Quente e úmido.",
+    "regiao": "Bornéu à Nova Guiné e Ilhas Salomão.",
+    "habitat": "Florestas tropicais úmidas · epífita.",
+    "clima": "Quente e úmido · sem repouso seco.",
     "climaFloracao": "A floração depende de touceira bem estabelecida, pseudobulbos maduros, calor estável, luminosidade filtrada e umidade contínua nas raízes. Não imponha o repouso seco usado em espécies de altitude. Após a maturação, reduza apenas discretamente as regas. Touceiras grandes florescem melhor porque acumulam mais reservas e produzem vários brotos simultaneamente. Temperaturas abaixo de 14 °C podem paralisar crescimento, enraizamento e formação de hastes.",
     "iluminacao": {
         "sombrite": "50% a 60%",
@@ -43,7 +44,7 @@ export const coelogyneAsperata = {
     "errosComuns": "Tratar como Coelogyne himalaica; impor seca severa; expor a frio abaixo de 14 °C; usar vaso pequeno; dividir com frequência; deixar secar durante crescimento; usar substrato compactado; cultivar sob sol direto forte; limitar o caimento das hastes; manter recipiente instável diante do peso da touceira.",
     "dica": "Planeje o recipiente para a planta adulta. Use vaso largo e pesado ou cesto amplo, preserve a touceira e deixe o rizoma avançar. A combinação de espaço, calor acima de 14 °C, umidade contínua e raízes aeradas produz pseudobulbos maiores e inflorescências mais longas.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, a adaptação é excelente. Mantenha sombra clara, ventilação, umidade regular e recipiente amplo. Evite apenas abafamento, água parada e sol forte nas folhas largas.",
+        "litoralQuente": "No litoral quente, a adaptação é excelente. Mantenha sombra clara, ventilação, umidade regular e recipiente amplo. Evite apenas abafamento, água parada e sol forte nas folhas largas.",
         "montanhaFrio": "Precisa de proteção térmica. Temperaturas persistentes abaixo de 14 °C reduzem a atividade e podem danificar brotos."
     },
     "mesesFloracao": [

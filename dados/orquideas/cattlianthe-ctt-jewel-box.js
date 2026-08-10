@@ -4,6 +4,7 @@
 export const cattliantheCttJewelBox = {
     "id": "cattlianthe-ctt-jewel-box",
     "nome": "Cattlianthe Jewel Box",
+    "sinonimo": "Sophrolaeliocattleya Jewel Box",
     "genero": "Cattlianthe",
     "tipo": "Híbrido hortícola intergenérico — Cattleya × Guarianthe",
     "dificuldade": "Fácil",
@@ -23,11 +24,11 @@ export const cattliantheCttJewelBox = {
         "imagens/Cattlianthe Jewel Box/Cattlianthe Jewel Box3.jpg",
         "imagens/Cattlianthe Jewel Box/Cattlianthe Jewel Box4.jpg"
     ],
-    "descricao": "Cattlianthe Jewel Box é um híbrido hortícola clássico da aliança Cattleya, formado a partir de linhagens de Cattleya e Guarianthe. É reconhecido pelo crescimento vigoroso, elevada capacidade de formar touceiras densas e repetidas floradas em tons de vermelho-escarlate. Os pseudobulbos são eretos, compactos a médios, firmes e normalmente sustentam folhas coriáceas e resistentes. A planta forma múltiplas frentes de crescimento e, quando preservada como touceira adulta, produz mais hastes simultâneas e cachos significativamente mais cheios. As flores apresentam textura firme a levemente aveludada, cor vermelha intensa e labelo com nuances amareladas ou alaranjadas na garganta. É um híbrido rústico, adaptável e recomendado tanto para iniciantes quanto para colecionadores que desejam uma planta de alto impacto visual com manutenção simples.",
-    "origem": "Híbrido hortícola registrado; não ocorre na natureza.",
-    "regiao": "Cultivado internacionalmente em coleções e orquidários.",
-    "habitat": "Não possui habitat natural próprio. Em cultivo, responde melhor a ambientes claros, quentes a intermediários, ventilados e com secagem perceptível do substrato entre as regas. A herança de Guarianthe aumenta a rusticidade, o vigor e a tendência a produzir cachos com várias flores.",
-    "clima": "Quente a intermediário, com boa ventilação e luz alta.",
+    "descricao": "Um clássico vermelho que continua atual! Cattlianthe Jewel Box é um híbrido vigoroso, registrado em 1962 a partir de Guarianthe aurantiaca × Cattleya Anzac. Forma touceiras compactas a médias e chama atenção pelos cachos com várias flores em tons intensos de vermelho, escarlate ou vermelho-alaranjado, conforme o cultivar. A influência de Guarianthe aurantiaca ajuda a explicar sua rusticidade, boa resposta ao calor e tendência a floradas abundantes. É uma excelente escolha para quem deseja uma Cattleya de forte impacto visual, crescimento rápido e cultivo relativamente simples — e fica ainda mais bonita quando a touceira é mantida grande e pouco dividida.",
+    "origem": "Híbrido hortícola · registrado em 1962.",
+    "regiao": "Guarianthe aurantiaca × Cattleya Anzac.",
+    "habitat": "Sem habitat natural · cultivo claro e ventilado.",
+    "clima": "Quente a intermediário · luz alta.",
     "climaFloracao": "Floresce melhor quando os pseudobulbos amadurecem completamente sob luminosidade elevada e sem excesso de nitrogênio. A planta pode florescer mais de uma vez ao ano quando produz sucessivas frentes de crescimento. Touceiras adultas acumulam mais reservas e possuem maior número de pseudobulbos aptos a emitir hastes, razão pela qual divisões frequentes reduzem a intensidade da florada. Após a maturação, aumente levemente o intervalo entre regas e reduza adubação nitrogenada, sem impor repouso seco severo.",
     "iluminacao": {
         "sombrite": "40% a 50%",
@@ -43,7 +44,7 @@ export const cattliantheCttJewelBox = {
     "errosComuns": "Cultivar sob sombra excessiva; dividir a touceira com frequência; usar vaso grande; deixar o substrato degradar; enterrar o rizoma; excesso de nitrogênio; somar várias fontes de adubo em dose completa; acumular água nas bainhas e espatas; replantar sem raízes novas; manter a planta frouxa no vaso.",
     "dica": "Preserve a touceira e permita o adensamento de vários pseudobulbos. Cada pseudobulbo maduro representa uma possível haste floral e uma reserva para os novos crescimentos. Com luz alta, raízes saudáveis e poucas divisões, Cattlianthe Jewel Box produz cachos mais cheios, hastes mais firmes e floradas simultâneas.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, adapta-se muito bem ao calor. Mantenha sob luz alta filtrada, ventilação constante e substrato de secagem rápida. Durante períodos de chuva contínua, aumente o intervalo entre regas e proteja as bainhas florais.",
+        "litoralQuente": "No litoral quente, adapta-se muito bem ao calor. Mantenha sob luz alta filtrada, ventilação constante e substrato de secagem rápida. Durante períodos de chuva contínua, aumente o intervalo entre regas e proteja as bainhas florais.",
         "montanhaFrio": "Também apresenta bom desenvolvimento. Proteja apenas contra geadas e reduza a água em semanas frias e chuvosas."
     },
     "mesesFloracao": [

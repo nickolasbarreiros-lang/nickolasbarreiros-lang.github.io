@@ -4,6 +4,7 @@
 export const coelogyneFlaccida = {
     "id": "coelogyne-flaccida",
     "nome": "Coelogyne flaccida",
+    "sinonimo": "Pleione flaccida",
     "genero": "Coelogyne",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
@@ -23,11 +24,11 @@ export const coelogyneFlaccida = {
         "imagens/Coelogyne flaccida/Coelogyne flaccida3.jpg",
         "imagens/Coelogyne flaccida/Coelogyne flaccida4.webp"
     ],
-    "descricao": "Coelogyne flaccida é uma espécie epífita ou litófita de regiões montanas do Himalaia, sul da China e Indochina. Forma touceiras de pseudobulbos ovoides agrupados, cada um sustentando duas folhas coriáceas verde-claro. As inflorescências são longas, flexuosas e pendentes, emergindo da base dos pseudobulbos maduros. As flores apresentam tons creme a amarelo-pálido e labelo marcado por veios e manchas castanhas. O perfume é intenso e pode se tornar pesado em ambientes fechados. A espécie aprecia noites frescas, umidade regular no crescimento, ventilação constante e espaço vertical para o livre caimento das hastes.",
-    "origem": "Himalaia, sul da China e Indochina.",
-    "regiao": "Nepal ao Sudeste Asiático continental.",
-    "habitat": "Florestas montanas úmidas sobre troncos e rochas musgosas.",
-    "clima": "Intermediário a fresco.",
+    "descricao": "Uma Coelogyne feita para ser cultivada no alto! Coelogyne flaccida produz longos cachos pendentes de flores creme a amarelo-pálido, com o labelo desenhado por marcas castanhas e perfume bastante intenso. A planta forma touceiras de pseudobulbos agrupados e fica especialmente bonita em cestos suspensos, onde as hastes podem cair livremente. Na natureza ocorre do Himalaia ao sul da China e Indochina, em ambientes úmidos onde as noites são mais amenas. Por isso, aprecia água durante o crescimento, boa ventilação e uma redução moderada das regas após a maturação — mas sem o repouso seco severo de Coelogyne cristata.",
+    "origem": "Himalaia ao sul da China e Indochina.",
+    "regiao": "Nepal, Índia, sul da China e Indochina.",
+    "habitat": "Florestas montanas úmidas · epífita/litófita.",
+    "clima": "Intermediário a fresco · noites amenas.",
     "climaFloracao": "A floração é favorecida por pseudobulbos maduros, noites mais frescas, luz filtrada e redução moderada da água após o crescimento. Não exige repouso tão seco quanto Coelogyne cristata, mas também não deve permanecer encharcada no inverno. A planta precisa ficar elevada e ventilada, tanto para acomodar as hastes pendentes quanto para dissipar o perfume intenso e evitar fungos.",
     "iluminacao": {
         "sombrite": "60% a 70%",
@@ -43,7 +44,7 @@ export const coelogyneFlaccida = {
     "errosComuns": "Cultivar em calor abafado; colocar em ambiente fechado durante a floração; manter encharcada no inverno; usar vaso profundo; deixar hastes presas; apoiar o cesto baixo demais; dividir em poucas frentes; sombra excessiva; substrato compactado; deixar secar completamente; pouca ventilação.",
     "dica": "Posicione a planta em local elevado, fresco e bem ventilado antes que as hastes surjam. Deixe espaço livre abaixo e ao redor do cesto para que os cachos pendam sem deformação. A circulação de ar também reduz fungos e evita que o perfume intenso se concentre.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, use o ponto mais fresco, sombreado e ventilado. Noites quentes contínuas podem reduzir a floração. Mantenha elevada, longe de telhas quentes e com regas matinais.",
+        "litoralQuente": "No litoral quente, use o ponto mais fresco, sombreado e ventilado. Noites quentes contínuas podem reduzir a floração. Mantenha elevada, longe de telhas quentes e com regas matinais.",
         "montanhaFrio": "Apresenta excelente adaptação. Proteja de geadas e de chuva fria persistente, mantendo leve redução de água no inverno."
     },
     "mesesFloracao": [
