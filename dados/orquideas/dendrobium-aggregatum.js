@@ -1,19 +1,21 @@
-// Ficha comparada, consolidada e maximamente enriquecida — revisão editorial V4.
+// Refinamento final — arquivo histórico mantido; nome aceito e dados ecológicos consolidados.
 
 export const dendrobiumAggregatum = {
     "id": "dendrobium-aggregatum",
     "nome": "Dendrobium lindleyi",
     "genero": "Dendrobium",
     "sinonimo": "Dendrobium aggregatum",
-    "tipo": "Espécie botânica — antigo Dendrobium aggregatum",
+    "tipo": "Espécie botânica — tradicionalmente cultivada como Dendrobium aggregatum",
     "dificuldade": "Moderada",
     "caracteristicas": [
-        "Espécie epífita asiática compacta",
+        "Touceira compacta",
         "Pseudobulbos curtos e unifoliados",
         "Cachos pendentes amarelo-ouro",
-        "Ciclo monçônico muito marcado",
-        "Repouso seco e luminoso",
-        "Excelente cultivo em placas e cestos"
+        "5–15 flores por racemo",
+        "Flores perfumadas de 2–5 cm",
+        "Altitude natural aproximada de 400–1.300 m",
+        "Crescimento úmido e repouso mais seco",
+        "Floração de inverno a primavera"
     ],
     "fotos": [
         "imagens/Dendrobium lindleyi/Dendrobium lindleyi1.webp",
@@ -21,30 +23,31 @@ export const dendrobiumAggregatum = {
         "imagens/Dendrobium lindleyi/Dendrobium lindleyi3.jpeg",
         "imagens/Dendrobium lindleyi/Dendrobium lindleyi4.jpg"
     ],
-    "descricao": "Espécie epífita de florestas sazonais do Himalaia oriental, sul da China e Indochina. Forma touceiras muito compactas de pseudobulbos curtos, sulcados e unifoliados. No verão monçônico recebe calor e chuvas abundantes; no inverno atravessa um período seco e luminoso utilizando água e carboidratos armazenados nos pseudobulbos. A floração surge em cachos pendentes de flores amarelo-ouro.",
-    "origem": "Ásia tropical e subtropical.",
-    "regiao": "Himalaia oriental, China meridional e Indochina.",
-    "habitat": "Florestas sazonais claras e ventiladas.",
-    "clima": "Quente no crescimento e seco no inverno.",
-    "climaFloracao": "O gatilho floral é a combinação de pseudobulbos completamente maduros, luz alta, redução drástica de água e ausência de nitrogênio. O frio ajuda, mas no litoral não é indispensável quando o contraste hídrico e luminoso é bem estabelecido. Pseudobulbos levemente enrugados no repouso são normais e indicam uso das reservas.",
+    "descricao": "Uma pequena orquídea capaz de produzir um espetáculo enorme! Dendrobium lindleyi forma touceiras compactas de pseudobulbos curtos, cada um geralmente com uma única folha, e na época certa solta cachos pendentes com 5–15 flores amarelo-ouro e perfumadas. As flores medem aproximadamente 2–5 cm e contrastam com o tamanho reduzido da planta. Na natureza vive em regiões de monções: cresce com bastante água no período quente e atravessa uma fase de inverno muito mais seca, mudança que tem papel importante na floração.",
+    "origem": "Himalaia oriental ao Sudeste Asiático.",
+    "regiao": "NE da Índia, sul da China e Indochina.",
+    "habitat": "Florestas sazonais · epífita · 400–1.300 m.",
+    "clima": "Quente a fresco · inverno mais seco e luminoso.",
+    "climaFloracao": "A espécie aparece entre aproximadamente 400 e 1.300 m, portanto possui considerável amplitude térmica. IOSPE recomenda inverno mais fresco e seco, mas no litoral quente a parte que pode ser reproduzida com maior segurança é a sazonalidade: pseudobulbos completamente maduros, aumento de luz, forte redução de água e interrupção do nitrogênio. Não é necessário desidratar severamente a planta nem buscar frio artificial extremo.",
     "iluminacao": {
         "sombrite": "40% a 50%",
         "solDireto": "Somente suave",
         "horario": "Início da manhã",
-        "observacoes": "Necessita luz alta o ano inteiro, especialmente no repouso. Folha firme e verde-claro indica equilíbrio. Sombra excessiva produz crescimento sem botões; sol forte sem aclimatação queima rapidamente."
+        "observacoes": "Necessita boa luminosidade durante todo o ano e especialmente no período de repouso. Folhas verde-claro, pseudobulbos compactos e leve pigmentação podem indicar exposição adequada. Sombra excessiva favorece crescimento sem botões; sol forte sem aclimatação causa queimaduras."
     },
-    "floracao": "Principalmente do fim do inverno à primavera, entre agosto e novembro. As inflorescências pendentes surgem em pseudobulbos maduros e formam cachos densos. Plantas em placas e cestos exibem melhor o caimento das flores.",
-    "adubacao": "🌱 Primavera: NPK equilibrado em baixa dose com brotos e raízes ativos.\n☀️ Verão: manter alimentação regular até o pseudobulbo encher e endurecer.\n🍂 Outono: reduzir e depois suspender completamente o nitrogênio.\n💤 Inverno: nenhuma adubação.\n🌿 Bokashi/Osmocote: apenas no início do crescimento e em quantidade mínima.",
-    "rega": "Na brotação, regue abundantemente e permita secagem parcial. Quando os pseudobulbos endurecerem e o crescimento cessar, reduza de forma progressiva. No inverno, forneça somente borrifos ocasionais se o enrugamento se tornar extremo. Proteja de chuva fora de época.",
-    "suporte": "🥇 Placa de madeira dura ou cortiça.\n🥈 Cesto pequeno de madeira.\n🥉 Vaso de barro raso e muito drenante.\nPlacas favorecem a secagem rápida e permitem o caimento livre dos cachos.",
-    "substrato": "Montagem: camada finíssima de esfagno apenas na fixação inicial.\nCesto/vaso: casca grossa + carvão grosso + pedra-pomes.\nEvite vasos profundos e excesso de esfagno, que mantêm água no repouso e reduzem a indução floral.",
-    "errosComuns": "Regar e adubar no inverno; manter pseudobulbos sempre túrgidos; sombra excessiva; usar substrato retentivo; tentar induzir com fósforo sem respeitar a seca; dividir touceiras pequenas; cortar pseudobulbos antigos; replantar todos os anos; deixar chuva atingir a planta no repouso.",
-    "dica": "O repouso só deve começar quando o pseudobulbo estiver completamente formado e duro. Depois, combine muita luz, quase nenhuma água e zero nitrogênio. No litoral quente, essa seca controlada é mais importante que o frio intenso.",
+    "floracao": "Floresce principalmente do inverno à primavera. Os racemos axilares, frequentemente pendentes, surgem em pseudobulbos maduros, com ou sem folha, e carregam normalmente 5–15 flores perfumadas de cerca de 2–5 cm. O efeito visual é melhor em placas e cestos, onde os cachos podem pender livremente.",
+    "adubacao": "🌱 Brotação: NPK equilibrado em baixa concentração quando novas raízes aparecerem.\n☀️ Crescimento: mantenha alimentação regular e leve enquanto o pseudobulbo estiver aumentando.\n🍂 Maturação: reduza gradualmente o nitrogênio quando o crescimento endurecer.\n💤 Repouso: suspenda a adubação até o reinício do crescimento.\n🌿 Bokashi/Osmocote: somente no início do ciclo e em quantidade pequena, especialmente em placas e cestos.",
+    "rega": "Com brotos e raízes ativos, regue generosamente e deixe o suporte secar parcialmente entre irrigações. Quando os pseudobulbos estiverem maduros e o crescimento parar, reduza gradualmente. No repouso, forneça apenas água suficiente para evitar enrugamento excessivo e prolongado. Chuva frequente fora de época pode reduzir a indução floral e aumentar risco de podridão.",
+    "suporte": "🥇 Placa de madeira dura ou cortiça — excelente secagem e exposição dos cachos.\n🥈 Cesto pequeno de madeira — acomoda touceiras sem prender inflorescências.\n🥉 Vaso de barro raso e muito drenante.\nEvite recipientes fundos e muito retentivos, principalmente em regiões úmidas.",
+    "substrato": "Montagem: camada finíssima de esfagno somente para ajudar novas raízes.\nCesto/vaso: casca grossa + carvão grosso + pedra-pomes.\nEm clima quente e seco, uma pequena fração de esfagno pode ser usada durante crescimento, desde que o conjunto seque rapidamente no repouso.",
+    "errosComuns": "Regar e adubar da mesma forma o ano inteiro; iniciar o repouso antes de o pseudobulbo amadurecer; sombra excessiva; esfagno compacto; tentar induzir floração apenas com adubo rico em fósforo; cortar pseudobulbos antigos ainda firmes; dividir touceiras pequenas; deixar chuva constante atingir a planta durante o repouso.",
+    "dica": "O segredo está na transição, não na seca extrema. Deixe o pseudobulbo completar seu crescimento e endurecer; depois aumente a luz, reduza bastante a água e suspenda o nitrogênio. Um leve enrugamento é normal, mas pseudobulbos profundamente desidratados indicam que a redução foi longe demais.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, coloque no ponto mais alto, claro e ventilado. Proteja de chuva no inverno e use a redução hídrica como principal gatilho floral.",
-        "montanhaFrio": "Excelente adaptação; noites frescas reforçam a indução. Proteja apenas de geadas e encharcamento."
+        "litoralQuente": "No litoral quente, use a parte mais clara, alta e ventilada do orquidário. Proteja de chuvas persistentes no inverno e use a redução hídrica como principal sinal sazonal. Noites naturalmente um pouco mais amenas ajudam, mas não compense calor com excesso de seca.",
+        "montanhaFrio": "Adaptação excelente. A combinação de noites frescas, bastante luz e inverno seco aproxima-se mais do ciclo natural. Proteja apenas de geada e de encharcamento prolongado."
     },
     "mesesFloracao": [
+        7,
         8,
         9,
         10,
@@ -53,7 +56,7 @@ export const dendrobiumAggregatum = {
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 5,
-        "perfume": 2,
+        "perfume": 3,
         "luminosidade": 4,
         "agua": 3,
         "raridade": 2

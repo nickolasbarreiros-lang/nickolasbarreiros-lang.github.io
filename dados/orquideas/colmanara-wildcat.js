@@ -1,19 +1,21 @@
-// Ficha comparada, consolidada e maximamente enriquecida — padrão editorial V4.
+// Refinamento final — preservação do conteúdo útil + confronto de genealogia/registro e consolidação horticultural.
 
 export const colmanaraWildcat = {
     "id": "colmanara-wildcat",
     "nome": "Oncostele Wildcat",
     "genero": "Oncostele",
     "sinonimo": "Colmanara Wildcat",
-    "tipo": "Híbrido intergenérico — antigo Colmanara Wildcat",
+    "tipo": "Híbrido intergenérico registrado em 1992",
     "dificuldade": "Fácil a moderada",
     "caracteristicas": [
-        "Híbrido intergenérico vigoroso",
-        "Antigo Colmanara Wildcat",
+        "Híbrido vigoroso e muito florífero",
         "Flores pintalgadas de longa duração",
-        "Hastes altas e ramificadas",
-        "Raízes finas e densas",
-        "Replantio crítico no início das raízes"
+        "Grande variação entre cultivares",
+        "Hastes altas e frequentemente ramificadas",
+        "Pseudobulbos robustos",
+        "Raízes finas e sensíveis ao replantio",
+        "Registrado em 1992",
+        "Ons. Rustic Bridge × Onc. Crowborough"
     ],
     "fotos": [
         "imagens/Oncostele Wildcat/Oncostele Wildcat1.jpg",
@@ -21,28 +23,28 @@ export const colmanaraWildcat = {
         "imagens/Oncostele Wildcat/Oncostele Wildcat3.jpg",
         "imagens/Oncostele Wildcat/Oncostele Wildcat4.jpg"
     ],
-    "descricao": "Híbrido horticultural intergenérico registrado em 1992, tradicionalmente comercializado como Colmanara Wildcat. Forma pseudobulbos robustos e hastes altas, eretas a arqueadas, frequentemente ramificadas. As flores cerosas exibem padrões intensos em vinho, vermelho, marrom e amarelo e podem permanecer abertas por muitas semanas quando a planta é mantida em clima ventilado e sem calor excessivo.",
+    "descricao": "Um dos híbridos pintalgados mais populares do grupo Oncidium! Oncostele Wildcat chama atenção pelas hastes altas, frequentemente ramificadas, carregadas de flores cerosas em combinações de amarelo, vinho, vermelho e castanho. É um grex bastante variável, por isso cultivares diferentes podem apresentar desenhos, cores e tamanhos distintos. Registrado em 1992 a partir de Oncostele Rustic Bridge × Oncidium Crowborough, tornou-se conhecido durante muitos anos pelo antigo nome Colmanara Wildcat.",
     "origem": "Híbrido horticultural.",
     "regiao": "Sem ocorrência natural.",
-    "habitat": "Cultivo epífito artificial.",
-    "clima": "Intermediário a quente.",
-    "climaFloracao": "A floração depende de pseudobulbos maduros, raízes preservadas e boa amplitude térmica. Noites mais frescas intensificam a coloração e prolongam a duração das flores. O replantio no momento errado interrompe o sistema radicular que sustentaria o pseudobulbo e pode atrasar a próxima haste.",
+    "habitat": "Cultivo em vaso/cesto · raízes finas e aeradas.",
+    "clima": "Intermediário a quente · noites amenas favorecem flores.",
+    "climaFloracao": "A genética do grex reúne espécies de ambientes montanos e intermediários, mas o híbrido é geralmente mais tolerante que muitos de seus ancestrais. No litoral quente, não é necessário tentar reproduzir clima frio: o objetivo prático é evitar noites permanentemente abafadas, manter ventilação e permitir pequena amplitude térmica quando possível. Pseudobulbos maduros e raízes preservadas são mais importantes que um calendário rígido.",
     "iluminacao": {
         "sombrite": "60% a 70%",
-        "solDireto": "Somente sol muito suave",
+        "solDireto": "Somente muito suave",
         "horario": "Até cerca de 8h30",
-        "observacoes": "Luz filtrada média a forte, ligeiramente abaixo de Cattleya. Folhas verde-médio indicam equilíbrio; folhas escuras e hastes fracas sugerem pouca luz. Amarelecimento rápido pode ser excesso de sol, calor ou salinização."
+        "observacoes": "Luz filtrada média a forte, normalmente um pouco abaixo de Cattleya. Folhas verde-médio e pseudobulbos compactos indicam bom equilíbrio. Sombra profunda reduz hastes; excesso de sol combinado com calor pode amarelar e marcar as folhas."
     },
-    "floracao": "Pode ocorrer do outono ao início da primavera, aproximadamente entre abril e outubro, dependendo do clone e do ciclo de crescimento. Hastes podem superar 60 cm e ramificar. Flores de textura cerosa e padrão pintalgado apresentam excelente durabilidade, frequentemente de várias semanas e, em condições favoráveis, perto de dois meses.",
-    "adubacao": "🌿 Orgânica: bokashi em pequena dose, afastado do broto novo.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose durante brotação e enraizamento.\n🧪 Osmocote: poucos grânulos em vaso muito drenante, longe das novas raízes.\n🚿 Flushing: água pura a cada 2–4 semanas conforme a frequência de adubação. Reduza a fertilização após o amadurecimento.",
-    "rega": "Molhe abundantemente quando o substrato estiver quase seco. Durante a formação de brotos e pseudobulbos, mantenha leve umidade sem encharcar; no inverno, deixe secar de forma mais nítida. Pseudobulbo enrugado com substrato molhado indica provável perda radicular. Broto amolecendo na base sugere água acumulada, baixa ventilação ou infecção.",
-    "suporte": "🥇 Vaso plástico pequeno e bem perfurado: mantém umidade homogênea.\n🥈 Vaso de barro: indicado para ambientes úmidos e regas frequentes.\n🥉 Cesto compacto: excelente para plantas grandes e raízes muito aeradas.\nDeixe apenas 2–3 dedos de espaço à frente do último pseudobulbo e mantenha o rizoma sobre a superfície.",
-    "substrato": "Opção 1 (principal): casca de pinus fina a média + pedra-pomes + carvão vegetal.\nOpção 2 (clima úmido): casca média + carvão + brita zero ou akadama grossa, com mínima retenção.\nOpção 3 (ambiente seco): casca média + fibra de coco grossa lavada + pedra-pomes + pouco esfagno.\nO substrato precisa permanecer estrutural, aerado e sem zonas compactadas no centro.",
-    "errosComuns": "Replantar com raízes já longas; usar vaso grande; enterrar o rizoma; acumular água no broto; sombra profunda; adubação forte; dividir com poucos pseudobulbos; reutilizar substrato velho; quebrar pontas ativas durante o manuseio.",
-    "dica": "Observe diariamente a base do broto. O ponto ideal de replantio é quando as novas raízes medem cerca de 0,5–1 cm: já estão ativas, mas ainda não aderiram ao vaso. Raízes longas quebram e perdem o velame com facilidade. Use recipiente proporcional e substrato novo. Uma divisão segura deve conservar vários pseudobulbos maduros, broto ativo e raízes próprias.",
+    "floracao": "Pode florescer em diferentes épocas conforme cultivar e ciclo de crescimento, sendo frequente do outono ao início da primavera. Hastes maduras podem ultrapassar 60 cm, ramificar e sustentar muitas flores por várias semanas. A durabilidade costuma aumentar em ambiente ventilado e com temperaturas noturnas mais amenas.",
+    "adubacao": "🌿 Orgânica: bokashi em pequena dose, afastado do broto e das raízes novas.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose durante brotação, enraizamento e enchimento do pseudobulbo.\n🧪 Osmocote: poucos grânulos em vaso bem drenado; não concentrar junto às raízes finas.\n🍂 Maturação: reduza a frequência quando o pseudobulbo estiver cheio e firme.\n🚿 Flushing: use água pura a cada 2–4 semanas para reduzir acúmulo de sais.",
+    "rega": "Regue abundantemente e volte a molhar quando o substrato estiver próximo de secar, sem deixar a mistura permanecer encharcada. Durante brotação e formação do pseudobulbo, evite secas longas. Em períodos mais frios ou de crescimento lento, aumente o intervalo entre regas. Pseudobulbo enrugado com substrato constantemente molhado sugere problema radicular, não falta de água.",
+    "suporte": "🥇 Vaso plástico pequeno e bem perfurado — mantém umidade mais uniforme.\n🥈 Vaso de barro — excelente onde há muita umidade e regas frequentes.\n🥉 Cesto compacto — indicado para plantas grandes e raízes muito aeradas.\nDeixe apenas alguns centímetros livres à frente do novo crescimento; vasos grandes demais permanecem úmidos no centro.",
+    "substrato": "🥇 Casca de pinus fina/média + pedra-pomes + carvão vegetal.\n🥈 Casca média + carvão + brita zero ou akadama grossa para clima muito úmido.\n🥉 Casca média + fibra de coco grossa lavada + pedra-pomes + pequena porção de esfagno em ambiente mais seco.\nA mistura precisa permanecer estrutural e aerada por vários anos.",
+    "errosComuns": "Replantar quando as raízes novas já estão longas; vaso grande; enterrar o rizoma; substrato velho e compactado; sombra profunda; excesso de sais; água acumulada no broto; dividir com poucos pseudobulbos; confundir enrugamento por raiz perdida com falta de rega.",
+    "dica": "O melhor momento para replantar é quando o novo broto começa a emitir raízes com cerca de 0,5–1 cm. Nessa fase elas já estão ativas, mas ainda não aderiram ao vaso e quebram menos. Preservar raízes novas é uma das formas mais eficientes de manter o próximo pseudobulbo forte e garantir nova haste floral.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, adapta-se bem sob 60–70% de sombra, ventilação contínua e regas matinais. Use mistura mais mineral e evite água nas bainhas durante noites abafadas.",
-        "montanhaFrio": "Excelente desempenho. A amplitude térmica melhora a intensidade das cores, a firmeza das hastes e a duração das flores. Proteja apenas de geadas severas."
+        "litoralQuente": "No litoral quente, mantenha 60–70% de sombreamento, ventilação contínua e substrato mais mineral. Evite noites abafadas em canto fechado e água parada nas bainhas. O híbrido costuma adaptar-se bem quando as raízes permanecem saudáveis.",
+        "montanhaFrio": "Excelente desempenho em clima de montanha. Noites amenas normalmente melhoram firmeza das hastes, intensidade das cores e duração das flores; proteja apenas de geadas."
     },
     "mesesFloracao": [
         4,
