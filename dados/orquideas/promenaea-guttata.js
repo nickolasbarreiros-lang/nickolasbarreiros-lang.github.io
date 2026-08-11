@@ -3,7 +3,7 @@
 
 export const promenaeaGuttata = {
     "id": "promenaea-guttata",
-    "nome": "Promenaea stapelioides subsp. xanthina",
+    "nome": "Promenaea Guttata",
     "genero": "Promenaea",
     "sinonimo": "Promenaea guttata",
     "tipo": "Espécie botânica — subespécie",
