@@ -7,7 +7,6 @@ export const dendrobiumLoddigesii = {
     "genero": "Dendrobium",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
-    "regimeHidrico": "repouso-seco",
     "caracteristicas": [
         "Espécie compacta de hábito pendente",
         "Canas finas, articuladas e duráveis",
@@ -51,6 +50,9 @@ export const dendrobiumLoddigesii = {
         10,
         11
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada", "regime": "repouso-seco" }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 4,

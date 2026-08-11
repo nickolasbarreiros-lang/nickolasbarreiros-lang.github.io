@@ -5334,7 +5334,7 @@ main.container{
     .selo-sinonimo-cartao {
         min-height: 28px;
         padding: 5px 8px;
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .grade-avaliacao-compacta {
@@ -6377,13 +6377,13 @@ main.container{
 .selo-cultivo-v4 {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    min-height: 24px;
-    padding: 3px 8px;
+    gap: 5px;
+    min-height: 25px;
+    padding: 4px 8px;
     border: 1px solid #d7e3da;
     border-radius: 8px;
     background: #fff;
-    font-size: 11.5px;
+    font-size: 10.5px;
     font-weight: 800;
     line-height: 1.15;
     letter-spacing: .01em;
@@ -6412,13 +6412,6 @@ main.container{
     color: #a95113;
     border-color: #efc69f;
     background: #fff9f3;
-}
-
-
-.selo-sazonal-v4 {
-    color: #7b6510;
-    border-color: #dccf91;
-    background: #fffdf2;
 }
 
 .selo-clima-quente-v4 {
@@ -6454,6 +6447,13 @@ main.container{
 
     .selo-cultivo-v4 {
         white-space: normal;
-        font-size: 11px;
+        font-size: 10px;
     }
+}
+
+
+.selo-sazonal-v4 {
+    color: #54722f;
+    border-color: #d9e5c7;
+    background: #fbfdf7;
 }

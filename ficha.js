@@ -174,54 +174,45 @@ function criarSeloCultivo({ texto, icone = "", tipo = "neutro" }) {
 }
 
 function criarSelosRega(orquidea) {
-    const rega = normalizarTextoSelo(orquidea.rega);
-    const climaFloracao = normalizarTextoSelo(orquidea.climaFloracao);
-    const texto = `${rega} ${climaFloracao}`;
-    const regimeHidrico = normalizarTextoSelo(orquidea.regimeHidrico);
+    const configuracao = orquidea.selosCultivo?.rega || {};
+    const texto = normalizarTextoSelo(`${orquidea.rega || ""} ${orquidea.climaFloracao || ""}`);
     const agua = Number(orquidea.avaliacoes?.agua);
     const selos = [];
 
-    let principal = "REGA MODERADA";
-    let tipo = "rega-moderada";
-    let icone = "💧";
+    const mapaNivel = {
+        "baixa": { texto: "REGA BAIXA", tipo: "rega-baixa", icone: "💧" },
+        "moderada": { texto: "REGA MODERADA", tipo: "rega-moderada", icone: "💧" },
+        "frequente": { texto: "REGA FREQUENTE", tipo: "rega-frequente", icone: "💧" },
+        "constante": { texto: "UMIDADE CONSTANTE", tipo: "rega-constante", icone: "🌧️" }
+    };
 
-    if (/umidade constante|constantemente umid|sempre umid|nao deixar secar|nunca secar/.test(texto) || agua >= 5) {
-        principal = "UMIDADE CONSTANTE";
-        tipo = "rega-constante";
-        icone = "🌧️";
-    } else if (/rega frequente|regas frequentes|muita agua|regue com frequencia|regue generosamente|abundantemente durante|manter levemente umid/.test(texto) || agua === 4) {
-        principal = "REGA FREQUENTE";
-        tipo = "rega-frequente";
-    } else if (/rega baixa|pouca agua|secar bem|seque completamente|secagem completa/.test(texto) || (Number.isFinite(agua) && agua <= 2)) {
-        principal = "REGA BAIXA";
-        tipo = "rega-baixa";
+    let principal = mapaNivel[configuracao.nivel];
+
+    // Compatibilidade com fichas antigas: a inferência só é usada quando a ficha
+    // ainda não possui classificação editorial explícita.
+    if (!principal) {
+        principal = mapaNivel.moderada;
+
+        if (/umidade constante|constantemente umid|sempre umid|nao deixar secar|nunca secar/.test(texto) || agua >= 5) {
+            principal = mapaNivel.constante;
+        } else if (/rega frequente|regas frequentes|muita agua|abundantemente durante|manter levemente umid/.test(texto) || agua === 4) {
+            principal = mapaNivel.frequente;
+        } else if (/rega baixa|pouca agua|secar bem|seque completamente|secagem completa/.test(texto) || (Number.isFinite(agua) && agua <= 2)) {
+            principal = mapaNivel.baixa;
+        }
     }
 
-    selos.push(criarSeloCultivo({ texto: principal, icone, tipo }));
+    selos.push(criarSeloCultivo(principal));
 
-    // Regimes sazonais são independentes da intensidade normal de rega.
-    // "Reduzir no inverno" nunca deve ser confundido com repouso seco.
-    const negaRepousoSeco = /nao (exige|necessita|precisa|possui).*repouso seco|sem repouso seco|repouso seco (rigido|severo|verdadeiro).*nao|nao .*repouso seco/.test(texto);
-    const repousoSecoExplicito = regimeHidrico === "repouso-seco" || (
-        !negaRepousoSeco && (
-            /repouso seco|dormencia seca/.test(texto) ||
-            /no repouso[^.]{0,120}(molhe apenas|forneca apenas agua|agua apenas|quase seco|manter seco)/.test(rega) ||
-            /reduza fortemente[^.]{0,120}no repouso/.test(rega) ||
-            /suspender[^.]{0,80}regas?|regas? quase suspensas|manter seco no inverno/.test(rega)
-        )
-    );
-
-    const reducaoInvernoExplicita = !repousoSecoExplicito && (
-        regimeHidrico === "reduzir-inverno" ||
-        /(no inverno|periodo mais frio|periodo frio|estacao fria|semanas frias)[^.]{0,130}(reduza|reduzir|aumente.*intervalo|menor frequencia)/.test(rega) ||
-        /(reduza|reduzir|aumente.*intervalo)[^.]{0,130}(no inverno|periodo mais frio|periodo frio|estacao fria)/.test(rega)
-    );
-
-    if (repousoSecoExplicito) {
+    // Regime hídrico sazonal é um dado editorial, não uma dedução por palavras.
+    // "reduzir regas" e "repouso seco" são deliberadamente categorias distintas.
+    if (configuracao.regime === "repouso-seco") {
         selos.push(criarSeloCultivo({ texto: "REPOUSO SECO", icone: "🍂", tipo: "alerta-seco" }));
-    } else if (reducaoInvernoExplicita) {
+    } else if (configuracao.regime === "reduzir-inverno") {
         selos.push(criarSeloCultivo({ texto: "REDUZIR NO INVERNO", icone: "🍃", tipo: "sazonal" }));
-    } else if (/encharc|abafad|apodrec|drenagem rapida|muito drenante|substrato.*seque completamente/.test(rega)) {
+    } else if (configuracao.evitarEncharcamento === true) {
+        selos.push(criarSeloCultivo({ texto: "EVITAR ENCHARCAMENTO", icone: "⊘", tipo: "alerta" }));
+    } else if (!configuracao.regime && configuracao.evitarEncharcamento !== false && /encharc|abafad|apodrec|drenagem rapida|muito drenante/.test(texto)) {
         selos.push(criarSeloCultivo({ texto: "EVITAR ENCHARCAMENTO", icone: "⊘", tipo: "alerta" }));
     }
 
@@ -229,37 +220,57 @@ function criarSelosRega(orquidea) {
 }
 
 function criarSelosClimaFloracao(orquidea) {
+    const configuracao = orquidea.selosCultivo?.climaFloracao || {};
     const clima = normalizarTextoSelo(orquidea.clima);
     const floracao = normalizarTextoSelo(orquidea.climaFloracao);
     const texto = `${clima} ${floracao}`;
     const selos = [];
 
-    let principal = "CLIMA INTERMEDIÁRIO";
-    let tipo = "clima-intermediario";
-    let icone = "🌡️";
+    const mapaFaixa = {
+        "quente": { texto: "CLIMA QUENTE", tipo: "clima-quente", icone: "☀️" },
+        "intermediario": { texto: "CLIMA INTERMEDIÁRIO", tipo: "clima-intermediario", icone: "🌡️" },
+        "ameno": { texto: "CLIMA AMENO", tipo: "clima-ameno", icone: "🌤️" },
+        "frio": { texto: "CLIMA FRIO", tipo: "clima-frio", icone: "❄️" }
+    };
 
-    if (/muito quente|quente a intermediario|quente e umido|clima quente|baixa altitude|nivel do mar/.test(texto)) {
-        principal = "CLIMA QUENTE";
-        tipo = "clima-quente";
-        icone = "☀️";
-    } else if (/frio a ameno|clima frio|temperaturas frias|alta altitude|montano|noites frias/.test(texto) && !/nao (necessita|precisa).*frio|frio nao (e|é) requisito|sem necessidade de frio/.test(texto)) {
-        principal = "CLIMA FRIO";
-        tipo = "clima-frio";
-        icone = "❄️";
-    } else if (/ameno|fresco|temperado/.test(texto)) {
-        principal = "CLIMA AMENO";
-        tipo = "clima-ameno";
-        icone = "🌤️";
+    let principal = mapaFaixa[configuracao.faixa];
+
+    // Compatibilidade temporária com fichas sem parâmetro explícito.
+    // A negação de frio é avaliada ANTES de qualquer palavra como "frio" ou
+    // "noites frias", evitando classificações contraditórias como a observada
+    // em Cyrtopodium saintlegerianum.
+    if (!principal) {
+        const negaFrio = /nao (?:e |é )?(?:necessario|requisito)|nao (?:necessita|precisa)(?: de)? frio|frio (?:intenso )?nao (?:e|é) requisito|sem necessidade de frio|nao depende de frio|frio artificial/.test(floracao);
+
+        principal = mapaFaixa.intermediario;
+        if (negaFrio && /quente|baixa altitude|nivel do mar|litoral quente/.test(texto)) {
+            principal = mapaFaixa.quente;
+        } else if (/muito quente|quente a intermediario|quente e umido|clima quente|baixa altitude|nivel do mar/.test(texto)) {
+            principal = mapaFaixa.quente;
+        } else if (!negaFrio && /frio a ameno|clima frio|temperaturas frias|alta altitude|montano|noites frias/.test(texto)) {
+            principal = mapaFaixa.frio;
+        } else if (/ameno|fresco|temperado/.test(texto)) {
+            principal = mapaFaixa.ameno;
+        }
     }
 
-    selos.push(criarSeloCultivo({ texto: principal, icone, tipo }));
+    selos.push(criarSeloCultivo(principal));
 
-    if (/nao (necessita|precisa).*frio|frio nao (e|é) requisito|sem necessidade de frio|floresce.*calor|baixa altitude/.test(texto)) {
+    if (configuracao.floraNoCalor === true) {
         selos.push(criarSeloCultivo({ texto: "FLORA NO CALOR", icone: "☀️", tipo: "positivo" }));
-    } else if (/queda termica|amplitude termica|diferenca.*dia.*noite|diferença.*dia.*noite/.test(texto)) {
+    } else if (configuracao.quedaTermica === true) {
         selos.push(criarSeloCultivo({ texto: "QUEDA TÉRMICA", icone: "↘", tipo: "clima-ameno" }));
-    } else if (/precisa.*frio|necessita.*frio|frio necessario|periodo frio|período frio|noites frias.*flor/.test(texto)) {
+    } else if (configuracao.frioNecessario === true) {
         selos.push(criarSeloCultivo({ texto: "FRIO NECESSÁRIO", icone: "❄️", tipo: "clima-frio" }));
+    } else if (!Object.keys(configuracao).length) {
+        const negaFrio = /nao (?:e |é )?(?:necessario|requisito)|nao (?:necessita|precisa)(?: de)? frio|frio (?:intenso )?nao (?:e|é) requisito|sem necessidade de frio|nao depende de frio|frio artificial/.test(floracao);
+        if (negaFrio || /floresce.*calor|baixa altitude/.test(texto)) {
+            selos.push(criarSeloCultivo({ texto: "FLORA NO CALOR", icone: "☀️", tipo: "positivo" }));
+        } else if (/queda termica|amplitude termica|diferenca.*dia.*noite|diferença.*dia.*noite/.test(texto)) {
+            selos.push(criarSeloCultivo({ texto: "QUEDA TÉRMICA", icone: "↘", tipo: "clima-ameno" }));
+        } else if (/precisa.*frio|necessita.*frio|frio necessario|periodo frio|período frio|noites frias.*flor/.test(texto)) {
+            selos.push(criarSeloCultivo({ texto: "FRIO NECESSÁRIO", icone: "❄️", tipo: "clima-frio" }));
+        }
     }
 
     return selos;

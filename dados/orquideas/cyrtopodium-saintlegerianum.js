@@ -51,6 +51,10 @@ export const cyrtopodiumSaintlegerianum = {
         9,
         10
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada", "regime": "repouso-seco" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 5,
