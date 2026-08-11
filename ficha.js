@@ -154,6 +154,94 @@ function criarChip(icone, texto, classeExtra = "") {
     `;
 }
 
+
+function normalizarTextoSelo(valor) {
+    return String(valor || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase();
+}
+
+function criarSeloCultivo({ texto, icone = "", tipo = "neutro" }) {
+    if (!texto) return "";
+
+    return `
+        <span class="selo-cultivo-v4 selo-${tipo}-v4">
+            ${icone ? `<span class="icone-selo-v4" aria-hidden="true">${icone}</span>` : ""}
+            <span>${texto}</span>
+        </span>
+    `;
+}
+
+function criarSelosRega(orquidea) {
+    const texto = normalizarTextoSelo(`${orquidea.rega || ""} ${orquidea.climaFloracao || ""}`);
+    const agua = Number(orquidea.avaliacoes?.agua);
+    const selos = [];
+
+    let principal = "REGA MODERADA";
+    let tipo = "rega-moderada";
+    let icone = "💧";
+
+    if (/umidade constante|constantemente umid|sempre umid|nao deixar secar|nunca secar/.test(texto) || agua >= 5) {
+        principal = "UMIDADE CONSTANTE";
+        tipo = "rega-constante";
+        icone = "🌧️";
+    } else if (/rega frequente|regas frequentes|muita agua|abundantemente durante|manter levemente umid/.test(texto) || agua === 4) {
+        principal = "REGA FREQUENTE";
+        tipo = "rega-frequente";
+    } else if (/rega baixa|pouca agua|secar bem|seque completamente|secagem completa/.test(texto) || (Number.isFinite(agua) && agua <= 2)) {
+        principal = "REGA BAIXA";
+        tipo = "rega-baixa";
+    }
+
+    selos.push(criarSeloCultivo({ texto: principal, icone, tipo }));
+
+    if (/repouso seco|dormencia seca|dormência seca|suspender.*rega|regas? quase suspensas|manter seco no inverno/.test(texto)) {
+        selos.push(criarSeloCultivo({ texto: "REPOUSO SECO", icone: "🍂", tipo: "alerta-seco" }));
+    } else if (/encharc|abafad|apodrec|drenagem rapida|muito drenante|substrato.*seque completamente/.test(texto)) {
+        selos.push(criarSeloCultivo({ texto: "EVITAR ENCHARCAMENTO", icone: "⊘", tipo: "alerta" }));
+    }
+
+    return selos;
+}
+
+function criarSelosClimaFloracao(orquidea) {
+    const clima = normalizarTextoSelo(orquidea.clima);
+    const floracao = normalizarTextoSelo(orquidea.climaFloracao);
+    const texto = `${clima} ${floracao}`;
+    const selos = [];
+
+    let principal = "CLIMA INTERMEDIÁRIO";
+    let tipo = "clima-intermediario";
+    let icone = "🌡️";
+
+    if (/muito quente|quente a intermediario|quente e umido|clima quente|baixa altitude|nivel do mar/.test(texto)) {
+        principal = "CLIMA QUENTE";
+        tipo = "clima-quente";
+        icone = "☀️";
+    } else if (/frio a ameno|clima frio|temperaturas frias|alta altitude|montano|noites frias/.test(texto) && !/nao (necessita|precisa).*frio|frio nao (e|é) requisito|sem necessidade de frio/.test(texto)) {
+        principal = "CLIMA FRIO";
+        tipo = "clima-frio";
+        icone = "❄️";
+    } else if (/ameno|fresco|temperado/.test(texto)) {
+        principal = "CLIMA AMENO";
+        tipo = "clima-ameno";
+        icone = "🌤️";
+    }
+
+    selos.push(criarSeloCultivo({ texto: principal, icone, tipo }));
+
+    if (/nao (necessita|precisa).*frio|frio nao (e|é) requisito|sem necessidade de frio|floresce.*calor|baixa altitude/.test(texto)) {
+        selos.push(criarSeloCultivo({ texto: "FLORA NO CALOR", icone: "☀️", tipo: "positivo" }));
+    } else if (/queda termica|amplitude termica|diferenca.*dia.*noite|diferença.*dia.*noite/.test(texto)) {
+        selos.push(criarSeloCultivo({ texto: "QUEDA TÉRMICA", icone: "↘", tipo: "clima-ameno" }));
+    } else if (/precisa.*frio|necessita.*frio|frio necessario|periodo frio|período frio|noites frias.*flor/.test(texto)) {
+        selos.push(criarSeloCultivo({ texto: "FRIO NECESSÁRIO", icone: "❄️", tipo: "clima-frio" }));
+    }
+
+    return selos;
+}
+
 function criarIndicadorRotulado(rotulo, chip) {
     if (!chip) {
         return "";
@@ -959,18 +1047,21 @@ if (!orquidea) {
                 ${criarInfoCard({
                     titulo: "Rega",
                     icone: "💧",
-                    conteudo: obterTexto(orquidea.rega)
+                    chips: criarSelosRega(orquidea),
+                    conteudo: obterTexto(orquidea.rega),
+                    classeExtra: "card-rega-v4"
                 })}
 
                 ${criarInfoCard({
                     titulo: "Clima para floração",
                     icone: "🌡️",
+                    chips: criarSelosClimaFloracao(orquidea),
                     conteudo: obterTexto(
                         orquidea.climaFloracao,
                         orquidea.clima ||
                         "Condições específicas de floração ainda não cadastradas."
                     ),
-                    classeExtra: "card-clima-floracao-v2"
+                    classeExtra: "card-clima-floracao-v2 card-clima-v4"
                 })}
 
                 ${criarCardEstruturado({

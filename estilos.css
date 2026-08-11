@@ -6357,3 +6357,96 @@ main.container{
 @media print {
     .navegacao-orquideas-v6 { display: none !important; }
 }
+
+
+/* =========================================================
+   SELOS DE REGA E CLIMA PARA FLORAÇÃO — V4
+   Classificação visual automática, preservando o texto editorial.
+========================================================= */
+.card-rega-v4 .linha-chips-v2,
+.card-clima-v4 .linha-chips-v2 {
+    gap: 8px;
+    margin: 2px 0 10px;
+}
+
+.card-rega-v4 .info-horizontal,
+.card-clima-v4 .info-horizontal {
+    margin-top: 0;
+}
+
+.selo-cultivo-v4 {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 29px;
+    padding: 5px 10px;
+    border: 1px solid #d7e3da;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 11.5px;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: .01em;
+    white-space: nowrap;
+}
+
+.icone-selo-v4 {
+    display: inline-grid;
+    place-items: center;
+    min-width: 16px;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.selo-rega-baixa-v4,
+.selo-rega-moderada-v4,
+.selo-rega-frequente-v4,
+.selo-rega-constante-v4 {
+    color: #235979;
+    border-color: #b9dcef;
+    background: #f2f9fd;
+}
+
+.selo-alerta-v4,
+.selo-alerta-seco-v4 {
+    color: #a95113;
+    border-color: #efc69f;
+    background: #fff9f3;
+}
+
+.selo-clima-quente-v4 {
+    color: #a65b08;
+    border-color: #efca9b;
+    background: #fff9ef;
+}
+
+.selo-clima-intermediario-v4,
+.selo-clima-ameno-v4 {
+    color: #376276;
+    border-color: #c4dce7;
+    background: #f5fafc;
+}
+
+.selo-clima-frio-v4 {
+    color: #315e86;
+    border-color: #bad1e5;
+    background: #f2f7fc;
+}
+
+.selo-positivo-v4 {
+    color: #28613c;
+    border-color: #bdd7c5;
+    background: #f2f8f4;
+}
+
+@media (max-width: 620px) {
+    .card-rega-v4 .linha-chips-v2,
+    .card-clima-v4 .linha-chips-v2 {
+        gap: 6px;
+    }
+
+    .selo-cultivo-v4 {
+        white-space: normal;
+        font-size: 11px;
+    }
+}
