@@ -174,7 +174,10 @@ function criarSeloCultivo({ texto, icone = "", tipo = "neutro" }) {
 }
 
 function criarSelosRega(orquidea) {
-    const texto = normalizarTextoSelo(`${orquidea.rega || ""} ${orquidea.climaFloracao || ""}`);
+    const rega = normalizarTextoSelo(orquidea.rega);
+    const climaFloracao = normalizarTextoSelo(orquidea.climaFloracao);
+    const texto = `${rega} ${climaFloracao}`;
+    const regimeHidrico = normalizarTextoSelo(orquidea.regimeHidrico);
     const agua = Number(orquidea.avaliacoes?.agua);
     const selos = [];
 
@@ -186,7 +189,7 @@ function criarSelosRega(orquidea) {
         principal = "UMIDADE CONSTANTE";
         tipo = "rega-constante";
         icone = "🌧️";
-    } else if (/rega frequente|regas frequentes|muita agua|abundantemente durante|manter levemente umid/.test(texto) || agua === 4) {
+    } else if (/rega frequente|regas frequentes|muita agua|regue com frequencia|regue generosamente|abundantemente durante|manter levemente umid/.test(texto) || agua === 4) {
         principal = "REGA FREQUENTE";
         tipo = "rega-frequente";
     } else if (/rega baixa|pouca agua|secar bem|seque completamente|secagem completa/.test(texto) || (Number.isFinite(agua) && agua <= 2)) {
@@ -196,9 +199,29 @@ function criarSelosRega(orquidea) {
 
     selos.push(criarSeloCultivo({ texto: principal, icone, tipo }));
 
-    if (/repouso seco|dormencia seca|dormência seca|suspender.*rega|regas? quase suspensas|manter seco no inverno/.test(texto)) {
+    // Regimes sazonais são independentes da intensidade normal de rega.
+    // "Reduzir no inverno" nunca deve ser confundido com repouso seco.
+    const negaRepousoSeco = /nao (exige|necessita|precisa|possui).*repouso seco|sem repouso seco|repouso seco (rigido|severo|verdadeiro).*nao|nao .*repouso seco/.test(texto);
+    const repousoSecoExplicito = regimeHidrico === "repouso-seco" || (
+        !negaRepousoSeco && (
+            /repouso seco|dormencia seca/.test(texto) ||
+            /no repouso[^.]{0,120}(molhe apenas|forneca apenas agua|agua apenas|quase seco|manter seco)/.test(rega) ||
+            /reduza fortemente[^.]{0,120}no repouso/.test(rega) ||
+            /suspender[^.]{0,80}regas?|regas? quase suspensas|manter seco no inverno/.test(rega)
+        )
+    );
+
+    const reducaoInvernoExplicita = !repousoSecoExplicito && (
+        regimeHidrico === "reduzir-inverno" ||
+        /(no inverno|periodo mais frio|periodo frio|estacao fria|semanas frias)[^.]{0,130}(reduza|reduzir|aumente.*intervalo|menor frequencia)/.test(rega) ||
+        /(reduza|reduzir|aumente.*intervalo)[^.]{0,130}(no inverno|periodo mais frio|periodo frio|estacao fria)/.test(rega)
+    );
+
+    if (repousoSecoExplicito) {
         selos.push(criarSeloCultivo({ texto: "REPOUSO SECO", icone: "🍂", tipo: "alerta-seco" }));
-    } else if (/encharc|abafad|apodrec|drenagem rapida|muito drenante|substrato.*seque completamente/.test(texto)) {
+    } else if (reducaoInvernoExplicita) {
+        selos.push(criarSeloCultivo({ texto: "REDUZIR NO INVERNO", icone: "🍃", tipo: "sazonal" }));
+    } else if (/encharc|abafad|apodrec|drenagem rapida|muito drenante|substrato.*seque completamente/.test(rega)) {
         selos.push(criarSeloCultivo({ texto: "EVITAR ENCHARCAMENTO", icone: "⊘", tipo: "alerta" }));
     }
 

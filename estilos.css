@@ -3833,7 +3833,7 @@ html{scroll-behavior:smooth}.pagina-home-v4{margin:0;background:#fff;color:var(-
     .selo-especie-v4 {
         min-height: 29px;
         padding: 5px 9px;
-        font-size: 11.5px;
+        font-size: 10.5px;
     }
 
     .ampliar-foto-v4 {
@@ -5334,7 +5334,7 @@ main.container{
     .selo-sinonimo-cartao {
         min-height: 28px;
         padding: 5px 8px;
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .grade-avaliacao-compacta {
@@ -6378,8 +6378,8 @@ main.container{
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    min-height: 29px;
-    padding: 5px 10px;
+    min-height: 24px;
+    padding: 3px 8px;
     border: 1px solid #d7e3da;
     border-radius: 8px;
     background: #fff;
@@ -6393,8 +6393,8 @@ main.container{
 .icone-selo-v4 {
     display: inline-grid;
     place-items: center;
-    min-width: 16px;
-    font-size: 15px;
+    min-width: 14px;
+    font-size: 13px;
     line-height: 1;
 }
 
@@ -6412,6 +6412,13 @@ main.container{
     color: #a95113;
     border-color: #efc69f;
     background: #fff9f3;
+}
+
+
+.selo-sazonal-v4 {
+    color: #7b6510;
+    border-color: #dccf91;
+    background: #fffdf2;
 }
 
 .selo-clima-quente-v4 {

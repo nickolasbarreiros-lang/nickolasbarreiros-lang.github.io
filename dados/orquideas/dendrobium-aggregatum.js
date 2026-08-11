@@ -7,6 +7,7 @@ export const dendrobiumAggregatum = {
     "sinonimo": "Dendrobium aggregatum",
     "tipo": "Espécie botânica — tradicionalmente cultivada como Dendrobium aggregatum",
     "dificuldade": "Moderada",
+    "regimeHidrico": "repouso-seco",
     "caracteristicas": [
         "Touceira compacta",
         "Pseudobulbos curtos e unifoliados",
