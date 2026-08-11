@@ -22,7 +22,7 @@ export const maxillariaBrasiliensis = {
     descricao: "Uma Maxillaria brasileira discreta e elegante, que recompensa o cultivo atento com flores cerosas de aproximadamente 2,5 cm. Forma touceiras compactas e prefere permanecer estável por vários ciclos, sem divisões frequentes. Apesar do aspecto robusto da planta, suas raízes são finas e pouco tolerantes a substrato velho ou abafado. Por isso, o melhor resultado vem de vaso pequeno, mistura arejada e regas regulares acompanhadas de rápida drenagem.",
     origem: "Brasil.",
     regiao: "Brasil · registros em formações tropicais e subtropicais.",
-    habitat: "Terrestre ou humícola · ambientes úmidos e arejados.",
+    habitat: "Epífita · florestas úmidas, inclusive matas ciliares.",
     clima: "Quente a fresco · umidade regular e ventilação.",
     climaFloracao: "IOSPE registra a espécie no Brasil como planta de crescimento quente a fresco e floração no outono do hemisfério sul. A emissão floral depende sobretudo de crescimento maduro, raízes funcionais e boa luminosidade filtrada. Não há indicação de repouso seco rígido: depois da maturação, uma discreta redução de água é suficiente. Touceiras estabelecidas tendem a responder melhor do que divisões pequenas recém-replantadas.",
     iluminacao: {
