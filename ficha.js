@@ -204,21 +204,31 @@ function criarSelosRega(orquidea) {
 
     selos.push(criarSeloCultivo(principal));
 
-    // Regime hídrico sazonal é um dado editorial, não uma dedução por palavras.
-    // "reduzir regas" e "repouso seco" são deliberadamente categorias distintas.
+    // O regime hídrico e o risco de encharcamento são dimensões independentes.
+    // Assim, quando realmente necessário, a ficha pode mostrar até 3 selos:
+    // nível de rega + regime sazonal + alerta de encharcamento.
     if (configuracao.regime === "repouso-seco") {
         selos.push(criarSeloCultivo({ texto: "REPOUSO SECO", icone: "🍂", tipo: "alerta-seco" }));
     } else if (configuracao.regime === "reduzir-inverno") {
         selos.push(criarSeloCultivo({ texto: "REDUZIR NO INVERNO", icone: "🍃", tipo: "sazonal" }));
     } else if (configuracao.regime === "reduzir-repouso") {
         selos.push(criarSeloCultivo({ texto: "REDUZIR NO REPOUSO", icone: "🍃", tipo: "sazonal" }));
-    } else if (configuracao.evitarEncharcamento === true) {
-        selos.push(criarSeloCultivo({ texto: "EVITAR ENCHARCAMENTO", icone: "⊘", tipo: "alerta" }));
-    } else if (!configuracao.regime && configuracao.evitarEncharcamento !== false && /encharc|abafad|apodrec|drenagem rapida|muito drenante/.test(texto)) {
+    }
+
+    // Alerta independente. Só aparece quando foi marcado editorialmente ou
+    // quando uma ficha antiga traz uma indicação muito explícita no próprio texto.
+    const alertaEncharcamentoExplicito =
+        configuracao.evitarEncharcamento === true ||
+        (
+            configuracao.evitarEncharcamento !== false &&
+            /nao tolera encharc|nunca (?:deve )?(?:ficar|permanecer) encharcad|evite (?:o )?encharc|evitar (?:o )?encharc|drenar rapidamente|drenagem imediata/.test(texto)
+        );
+
+    if (alertaEncharcamentoExplicito) {
         selos.push(criarSeloCultivo({ texto: "EVITAR ENCHARCAMENTO", icone: "⊘", tipo: "alerta" }));
     }
 
-    return selos;
+    return selos.slice(0, 3);
 }
 
 function criarSelosClimaFloracao(orquidea) {

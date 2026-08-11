@@ -59,7 +59,7 @@ export const epidendrumCentropetalum = {
     },
     mesesFloracao: [8, 9, 10, 11, 12, 1],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso", "evitarEncharcamento": true },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
     avaliacoes: {
