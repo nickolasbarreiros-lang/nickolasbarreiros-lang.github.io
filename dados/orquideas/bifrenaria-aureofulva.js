@@ -44,7 +44,7 @@ export const bifrenariaAureofulva = {
     },
     mesesFloracao: [1, 2, 3],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
     avaliacoes: {

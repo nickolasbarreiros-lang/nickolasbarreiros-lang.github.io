@@ -56,7 +56,7 @@ export const stanhopeaHernandezii = {
         2
     ],
     "selosCultivo": {
-        "rega": { "nivel": "umidade-constante" },
+        "rega": { "nivel": "constante", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
     "avaliacoes": {

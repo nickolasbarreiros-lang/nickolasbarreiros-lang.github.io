@@ -54,7 +54,7 @@ export const dendrobiumPolysema = {
         11
     ],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "ameno" }
     },
     "avaliacoes": {

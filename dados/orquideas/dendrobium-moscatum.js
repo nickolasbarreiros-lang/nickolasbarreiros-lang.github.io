@@ -51,7 +51,7 @@ export const dendrobiumMoscatum = {
         12
     ],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
     "avaliacoes": {

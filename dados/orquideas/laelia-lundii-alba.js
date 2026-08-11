@@ -45,7 +45,7 @@ export const laeliaLundiiAlba = {
     },
     mesesFloracao: [7, 8, 9, 10],
     "selosCultivo": {
-        "rega": { "nivel": "baixa" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
     avaliacoes: {

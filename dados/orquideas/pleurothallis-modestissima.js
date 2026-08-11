@@ -49,7 +49,7 @@ export const pleurothallisModestissima = {
     },
     "mesesFloracao": [10, 11, 12, 1, 2, 3],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
     "avaliacoes": {

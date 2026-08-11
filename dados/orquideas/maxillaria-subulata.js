@@ -45,7 +45,7 @@ export const maxillariaSubulata = {
     },
     "mesesFloracao": [9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "intermediario" }
     },
     "avaliacoes": {

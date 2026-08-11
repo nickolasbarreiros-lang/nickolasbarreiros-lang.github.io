@@ -44,7 +44,7 @@ export const mediocalcarDecoratum = {
     },
     "mesesFloracao": [3, 4, 5, 6, 7, 8, 9, 10],
     "selosCultivo": {
-        "rega": { "nivel": "umidade-constante" },
+        "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
     "avaliacoes": {

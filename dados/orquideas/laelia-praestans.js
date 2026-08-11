@@ -45,7 +45,7 @@ export const laeliaPraestans = {
     },
     mesesFloracao: [9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
     avaliacoes: {

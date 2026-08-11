@@ -58,7 +58,7 @@ export const encycliaAlboxanthina = {
     },
     mesesFloracao: [10, 11, 12, 1],
     "selosCultivo": {
-        "rega": { "nivel": "baixa" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 4, luminosidade: 4, agua: 2, raridade: 5 }

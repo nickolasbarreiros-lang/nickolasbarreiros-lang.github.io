@@ -58,7 +58,7 @@ export const rodricidium = {
         5
     ],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente" }
     },
     "avaliacoes": {

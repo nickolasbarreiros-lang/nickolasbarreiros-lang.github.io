@@ -47,7 +47,7 @@ export const laeliaCaulencens = {
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "baixa" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "intermediario" }
     },
     avaliacoes: {

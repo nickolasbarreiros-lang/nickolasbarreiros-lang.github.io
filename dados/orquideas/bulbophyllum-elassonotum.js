@@ -46,7 +46,7 @@ export const bulbophyllumElassonotum = {
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "intermediario" }
     },
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 }

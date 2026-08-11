@@ -44,7 +44,7 @@ export const bifrenariaHarrisoniae = {
     },
     mesesFloracao: [11, 12, 1],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
     avaliacoes: {

@@ -45,7 +45,7 @@ export const maxillariaPicta = {
     },
     "mesesFloracao": [7, 8, 9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
     "avaliacoes": {

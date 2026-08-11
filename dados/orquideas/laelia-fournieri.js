@@ -47,7 +47,7 @@ export const laeliaFournieri = {
     },
     mesesFloracao: [12, 1, 2, 3, 4],
     "selosCultivo": {
-        "rega": { "nivel": "baixa" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno" }
     },
     avaliacoes: {

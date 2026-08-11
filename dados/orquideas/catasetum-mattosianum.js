@@ -45,7 +45,7 @@ export const catasetumMattosianum = {
     },
     mesesFloracao: [12, 1, 2, 3],
     "selosCultivo": {
-        "rega": { "nivel": "umidade-constante", "regime": "repouso-seco" },
+        "rega": { "nivel": "moderada", "regime": "repouso-seco" },
         "climaFloracao": { "faixa": "quente" }
     },
     avaliacoes: {

@@ -49,7 +49,7 @@ export const promenaeaGuttata = {
     },
     "mesesFloracao": [10, 11, 12, 1, 2],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
     "avaliacoes": {

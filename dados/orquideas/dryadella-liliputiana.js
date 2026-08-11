@@ -49,7 +49,7 @@ export const dryadellaLiliputiana = {
     },
     mesesFloracao: [6, 7, 8, 9],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "intermediario", "quedaTermica": true }
     },
     avaliacoes: {

@@ -49,7 +49,7 @@ export const phaiusTankervilleaeAlba = {
     },
     "mesesFloracao": [8, 9, 10, 11, 12],
     "selosCultivo": {
-        "rega": { "nivel": "umidade-constante", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "constante", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
     },
     "avaliacoes": {

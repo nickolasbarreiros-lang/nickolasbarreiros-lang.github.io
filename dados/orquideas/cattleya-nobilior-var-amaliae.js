@@ -48,7 +48,7 @@ export const cattleyaNobiliorVarAmaliae = {
     },
     mesesFloracao: [8, 9, 10],
     "selosCultivo": {
-        "rega": { "nivel": "baixa", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente" }
     },
     avaliacoes: {

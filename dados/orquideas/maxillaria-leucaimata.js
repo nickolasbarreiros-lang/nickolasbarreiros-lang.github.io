@@ -44,7 +44,7 @@ export const maxillariaLeucaimata = {
     },
     mesesFloracao: [12, 1, 2, 3, 4, 5],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
     avaliacoes: {

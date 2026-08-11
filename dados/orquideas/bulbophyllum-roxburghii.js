@@ -39,7 +39,7 @@ export const bulbophyllumRoxburghii = {
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true, "quedaTermica": true }
     },
     avaliacoes: { cultivo: 2, floracao: 4, perfume: 2, luminosidade: 3, agua: 4, raridade: 3 }

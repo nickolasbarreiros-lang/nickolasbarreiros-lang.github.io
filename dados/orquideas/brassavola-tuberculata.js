@@ -46,7 +46,7 @@ export const brassavolaTuberculata = {
     },
     mesesFloracao: [10, 11, 12, 1],
     "selosCultivo": {
-        "rega": { "nivel": "baixa" },
+        "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente" }
     },
     avaliacoes: {

@@ -45,7 +45,7 @@ export const maxillariaTenuifolia = {
     },
     "mesesFloracao": [9, 10, 11, 12],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "intermediario" }
     },
     "avaliacoes": {

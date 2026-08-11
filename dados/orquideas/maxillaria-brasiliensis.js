@@ -44,7 +44,7 @@ export const maxillariaBrasiliensis = {
     },
     mesesFloracao: [3, 4, 5],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
     avaliacoes: {

@@ -45,7 +45,7 @@ export const miltoniaSpectabilisVarMoreliana = {
     },
     "mesesFloracao": [1, 2, 3, 4, 5],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
     "avaliacoes": {

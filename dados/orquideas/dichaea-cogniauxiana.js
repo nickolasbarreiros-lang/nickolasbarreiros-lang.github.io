@@ -59,7 +59,7 @@ export const dichaeaCogniauxiana = {
     },
     mesesFloracao: [12, 1, 2, 3],
     "selosCultivo": {
-        "rega": { "nivel": "umidade-constante" },
+        "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
     avaliacoes: {

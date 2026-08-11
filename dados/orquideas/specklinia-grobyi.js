@@ -62,7 +62,7 @@ export const speckliniaGrobyi = {
         12
     ],
     "selosCultivo": {
-        "rega": { "nivel": "umidade-constante", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "intermediario" }
     },
     "avaliacoes": {

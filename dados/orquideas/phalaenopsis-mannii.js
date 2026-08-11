@@ -48,7 +48,7 @@ export const phalaenopsisMannii = {
     },
     "mesesFloracao": [8, 9, 10, 11, 12],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
     },
     "avaliacoes": {

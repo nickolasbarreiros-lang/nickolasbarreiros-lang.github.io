@@ -45,7 +45,7 @@ export const miltoniaRegnellii = {
     },
     "mesesFloracao": [9, 10, 11, 12, 1, 2],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
     "avaliacoes": {

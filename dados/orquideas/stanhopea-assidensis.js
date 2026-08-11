@@ -47,7 +47,7 @@ export const stanhopeaAssidensis = {
         3
     ],
     "selosCultivo": {
-        "rega": { "nivel": "umidade-constante", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "constante", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 5, luminosidade: 3, agua: 5, raridade: 4 }

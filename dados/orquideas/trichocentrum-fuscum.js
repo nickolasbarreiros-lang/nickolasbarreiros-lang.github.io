@@ -56,7 +56,7 @@ export const trichocentrumFuscum = {
         2
     ],
     "selosCultivo": {
-        "rega": { "nivel": "baixa", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
     "avaliacoes": {

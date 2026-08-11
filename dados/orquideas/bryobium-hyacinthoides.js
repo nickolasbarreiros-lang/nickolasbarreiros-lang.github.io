@@ -46,7 +46,7 @@ export const bryobiumHyacinthoides = {
     },
     mesesFloracao: [9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "intermediario" }
     },
     avaliacoes: {

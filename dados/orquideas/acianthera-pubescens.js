@@ -18,7 +18,7 @@ export const aciantheraPubescens = {
         "imagens/Acianthera pubescens/Acianthera pubescens4.webp"
     ],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "intermediario" }
     },
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },

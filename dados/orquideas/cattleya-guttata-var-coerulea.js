@@ -48,7 +48,7 @@ export const cattleyaGuttataVarCoerulea = {
     },
     mesesFloracao: [2, 3, 4, 5, 6],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
     avaliacoes: {

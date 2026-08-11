@@ -45,7 +45,7 @@ export const cattleyaABrazilianDream = {
     },
     mesesFloracao: [3, 4, 5, 6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
     avaliacoes: {

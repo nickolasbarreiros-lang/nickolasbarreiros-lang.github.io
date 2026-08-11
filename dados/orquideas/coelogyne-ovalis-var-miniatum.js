@@ -58,7 +58,7 @@ export const coelogyneOvalisVarMiniatum = {
         2
     ],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "ameno" }
     },
     "avaliacoes": {

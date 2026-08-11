@@ -18,7 +18,7 @@ export const arpophyllumGiganteum = {
         "imagens/Arpophyllum giganteum/Arpophyllum giganteum4.jpeg"
     ],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "intermediario" }
     },
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 1, luminosidade: 4, agua: 4, raridade: 3 },

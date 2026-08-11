@@ -45,7 +45,7 @@ export const maxillariaSchunkeana = {
     },
     "mesesFloracao": [12, 1, 2, 3],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
     "avaliacoes": {

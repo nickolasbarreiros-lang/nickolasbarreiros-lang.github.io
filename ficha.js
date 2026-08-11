@@ -210,6 +210,8 @@ function criarSelosRega(orquidea) {
         selos.push(criarSeloCultivo({ texto: "REPOUSO SECO", icone: "🍂", tipo: "alerta-seco" }));
     } else if (configuracao.regime === "reduzir-inverno") {
         selos.push(criarSeloCultivo({ texto: "REDUZIR NO INVERNO", icone: "🍃", tipo: "sazonal" }));
+    } else if (configuracao.regime === "reduzir-repouso") {
+        selos.push(criarSeloCultivo({ texto: "REDUZIR NO REPOUSO", icone: "🍃", tipo: "sazonal" }));
     } else if (configuracao.evitarEncharcamento === true) {
         selos.push(criarSeloCultivo({ texto: "EVITAR ENCHARCAMENTO", icone: "⊘", tipo: "alerta" }));
     } else if (!configuracao.regime && configuracao.evitarEncharcamento !== false && /encharc|abafad|apodrec|drenagem rapida|muito drenante/.test(texto)) {

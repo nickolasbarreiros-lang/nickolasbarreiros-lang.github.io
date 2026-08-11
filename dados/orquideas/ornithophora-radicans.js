@@ -44,7 +44,7 @@ export const ornithophoraRadicans = {
     },
     mesesFloracao: [12, 1, 2, 3, 4, 5],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "quente" }
     },
     avaliacoes: {

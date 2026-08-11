@@ -38,7 +38,7 @@ export const isabeliaVirginalis = {
     },
     mesesFloracao: [5, 6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "intermediario" }
     },
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 4, agua: 3, raridade: 4 }

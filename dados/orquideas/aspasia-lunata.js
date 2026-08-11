@@ -44,7 +44,7 @@ export const aspasiaLunata = {
     },
     mesesFloracao: [9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "intermediario" }
     },
     avaliacoes: {

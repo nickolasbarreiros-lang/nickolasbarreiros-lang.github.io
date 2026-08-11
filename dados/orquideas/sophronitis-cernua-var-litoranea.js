@@ -47,7 +47,7 @@ export const sophronitisCernuaVarLitoranea = {
     },
     mesesFloracao: [9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
     avaliacoes: {

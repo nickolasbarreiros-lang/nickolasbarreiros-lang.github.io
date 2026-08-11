@@ -36,7 +36,7 @@ export const eriaHyacinthoides = {
     adaptacaoRegional: { litoralQuente: "Boa, com umidade, sombra clara e circulação de ar.", montanhaFrio: "Boa em local protegido, evitando frio intenso e substrato encharcado no inverno." },
     mesesFloracao: [9,10,11,12,1,2],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
     },
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 3, agua: 4, raridade: 4 }
