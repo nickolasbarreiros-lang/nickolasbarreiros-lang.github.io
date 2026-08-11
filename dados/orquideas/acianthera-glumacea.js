@@ -17,6 +17,10 @@ export const aciantheraGlumacea = {
         "imagens/Acianthera glumacea/Acianthera glumacea3.jpg",
         "imagens/Acianthera glumacea/Acianthera glumacea4.jpg"
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     avaliacoes: { cultivo: 4, floracao: 4, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
     clima: "Intermediário a fresco, úmido e muito ventilado.",

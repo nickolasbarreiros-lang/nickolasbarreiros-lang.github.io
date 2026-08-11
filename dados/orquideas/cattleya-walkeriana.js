@@ -54,6 +54,10 @@ export const cattleyaWalkeriana = {
         7,
         8
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "baixa" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     "avaliacoes": {
         "cultivo": 5,
         "floracao": 5,

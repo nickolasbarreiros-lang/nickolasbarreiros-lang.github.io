@@ -50,6 +50,10 @@ export const oncidiumPubes = {
         11,
         12
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 4,

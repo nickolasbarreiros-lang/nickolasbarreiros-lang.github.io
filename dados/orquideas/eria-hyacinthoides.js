@@ -35,5 +35,9 @@ export const eriaHyacinthoides = {
     dica: "Deixe a planta formar uma touceira antes de dividir. O efeito ornamental vem justamente das hastes densas e numerosas; em clima quente, combine umidade do ar com ventilação forte para que as raízes finas permaneçam hidratadas sem ficar abafadas.",
     adaptacaoRegional: { litoralQuente: "Boa, com umidade, sombra clara e circulação de ar.", montanhaFrio: "Boa em local protegido, evitando frio intenso e substrato encharcado no inverno." },
     mesesFloracao: [9,10,11,12,1,2],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 3, agua: 4, raridade: 4 }
 };

@@ -47,6 +47,10 @@ export const dichaeaPendula = {
         montanhaFrio: "Tende a adaptar-se muito bem a condições intermediárias e frescas, desde que não haja geada, vento seco ou secagem prolongada."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
+    "selosCultivo": {
+        "rega": { "nivel": "umidade-constante" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     avaliacoes: {
         cultivo: 4,
         floracao: 3,

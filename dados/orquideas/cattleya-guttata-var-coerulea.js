@@ -47,6 +47,10 @@ export const cattleyaGuttataVarCoerulea = {
         montanhaFrio: "Boa adaptação se houver muita luminosidade. Proteja de geadas e reduza as regas quando frio e umidade diminuírem a evaporação."
     },
     mesesFloracao: [2, 3, 4, 5, 6],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 4,

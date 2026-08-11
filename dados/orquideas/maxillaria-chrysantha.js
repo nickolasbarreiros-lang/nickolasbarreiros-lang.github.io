@@ -43,6 +43,10 @@ export const maxillariaChrysantha = {
         montanhaFrio: "Excelente adaptação em regiões serranas. As noites amenas favorecem o ciclo e a floração; apenas evite geadas e substrato permanentemente molhado em períodos frios e nublados."
     },
     mesesFloracao: [6, 7, 8],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 3,

@@ -46,6 +46,10 @@ export const camaridiumCarinatum = {
         montanhaFrio: "Boa adaptação. Em períodos frios e nublados, aumente os intervalos de rega conforme a menor evaporação, sem desidratar os pseudobulbos."
     },
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 3,

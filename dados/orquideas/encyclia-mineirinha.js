@@ -29,5 +29,9 @@ export const encycliaMineirinha = {
     dica: "Cultive em recipiente justo e muito drenante, com o rizoma livre e alta ventilação. A identificação mais informativa para a coleção é: Encyclia ‘Mineirinha’ — E. patens × E. oliveirana. Por ser híbrido, porte, cor, perfume e época exata de floração podem variar entre plantas.",
     adaptacaoRegional: { litoralQuente: "Excelente adaptação, desde que haja ventilação constante e secagem rápida após as regas.", montanhaFrio: "Boa adaptação; reduza bastante as regas nos meses frios sem crescimento ativo." },
     mesesFloracao: [9,10,11,12,1,2],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: { cultivo: 2, floracao: 4, perfume: 3, luminosidade: 4, agua: 3, raridade: 3 }
 };

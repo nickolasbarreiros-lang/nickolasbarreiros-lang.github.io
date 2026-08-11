@@ -54,6 +54,10 @@ export const coelogyneFimbriata = {
         5,
         6
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     "avaliacoes": {
         "cultivo": 2,
         "floracao": 3,

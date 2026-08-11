@@ -43,6 +43,10 @@ export const jacquiniellaGlobosa = {
         montanhaFrio: "Boa adaptação. Proteja de geadas e aumente o intervalo entre regas em semanas frias e nubladas, sem deixar as folhas murcharem por longos períodos."
     },
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 2,

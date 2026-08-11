@@ -49,6 +49,10 @@ export const sophronitisCernua = {
         11,
         12
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     avaliacoes: {
         cultivo: 4,
         floracao: 4,

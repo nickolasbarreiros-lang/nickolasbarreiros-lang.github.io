@@ -38,5 +38,9 @@ export const bulbophyllumRoxburghii = {
         montanhaFrio: "Boa, mas sem necessidade de frio intenso; proteja de geadas e de longos períodos frios com o meio encharcado."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true, "quedaTermica": true }
+    },
     avaliacoes: { cultivo: 2, floracao: 4, perfume: 2, luminosidade: 3, agua: 4, raridade: 3 }
 };

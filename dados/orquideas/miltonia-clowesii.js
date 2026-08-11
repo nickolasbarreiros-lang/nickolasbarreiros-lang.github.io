@@ -44,6 +44,10 @@ export const miltoniaClowesii = {
         "montanhaFrio": "Excelente adaptação. Ofereça mais luz no inverno e aumente o intervalo entre regas nas semanas frias e chuvosas, sem impor seca total."
     },
     "mesesFloracao": [3, 4, 5, 6],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 4,

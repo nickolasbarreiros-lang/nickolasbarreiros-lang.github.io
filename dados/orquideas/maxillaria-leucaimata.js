@@ -43,6 +43,10 @@ export const maxillariaLeucaimata = {
         montanhaFrio: "Excelente adaptação em regiões serranas. As noites frescas favorecem o ciclo; em semanas frias, nubladas ou chuvosas, aumente o intervalo entre regas sem deixar a planta desidratar."
     },
     mesesFloracao: [12, 1, 2, 3, 4, 5],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 3,

@@ -52,6 +52,10 @@ export const cyrtopodiumPodophyllum = {
         11,
         12
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada", "regime": "repouso-seco" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 5,

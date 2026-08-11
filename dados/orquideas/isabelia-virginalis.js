@@ -37,5 +37,9 @@ export const isabeliaVirginalis = {
         montanhaFrio: "Excelente. As noites amenas favorecem a espécie; apenas evite geadas e longos períodos de umidade fria sem ventilação."
     },
     mesesFloracao: [5, 6, 7, 8],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 4, agua: 3, raridade: 4 }
 };

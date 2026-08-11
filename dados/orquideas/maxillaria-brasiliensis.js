@@ -43,6 +43,10 @@ export const maxillariaBrasiliensis = {
         montanhaFrio: "Muito boa adaptação em regiões serranas. Em semanas frias e úmidas, aumente o intervalo entre regas, mantendo circulação de ar e sem impor seca prolongada."
     },
     mesesFloracao: [3, 4, 5],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     avaliacoes: {
         cultivo: 2,
         floracao: 3,

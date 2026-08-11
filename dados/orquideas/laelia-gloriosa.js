@@ -44,6 +44,10 @@ export const laeliaGloriosa = {
         montanhaFrio: "Tolera noites amenas, mas deve ser protegida de geadas e de períodos frios prolongados com raízes molhadas. Mantenha alta luminosidade mesmo no inverno."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 4,

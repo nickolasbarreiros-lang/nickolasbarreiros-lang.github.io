@@ -45,6 +45,10 @@ export const laeliaCinnabarina = {
         montanhaFrio: "Muito favorável em locais luminosos e ventilados. Proteja de geadas fortes e reduza regas quando frio e umidade prolongarem a secagem."
     },
     mesesFloracao: [10, 11, 12, 1, 2],
+    "selosCultivo": {
+        "rega": { "nivel": "baixa" },
+        "climaFloracao": { "faixa": "ameno" }
+    },
     avaliacoes: {
         cultivo: 4,
         floracao: 4,

@@ -58,6 +58,10 @@ export const dichaeaCogniauxiana = {
         montanhaFrio: "Adaptação excelente, cerca de 5/5. Noites frescas, alta umidade e boa ventilação se aproximam melhor das condições montanas documentadas para a espécie. Proteja apenas de frio intenso e vento excessivamente seco."
     },
     mesesFloracao: [12, 1, 2, 3],
+    "selosCultivo": {
+        "rega": { "nivel": "umidade-constante" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     avaliacoes: {
         cultivo: 4,
         floracao: 3,

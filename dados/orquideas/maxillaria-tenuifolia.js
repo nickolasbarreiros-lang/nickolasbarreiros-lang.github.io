@@ -44,6 +44,10 @@ export const maxillariaTenuifolia = {
         "montanhaFrio": "Adapta-se muito bem. Proteja de geadas e aumente o intervalo entre regas em semanas frias e nubladas, sem impor seca prolongada."
     },
     "mesesFloracao": [9, 10, 11, 12],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     "avaliacoes": {
         "cultivo": 2,
         "floracao": 4,

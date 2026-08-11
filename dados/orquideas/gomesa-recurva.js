@@ -38,5 +38,9 @@ export const gomesaRecurva = {
         montanhaFrio: "Excelente adaptação. Proteja apenas contra geadas e excesso de água no inverno; as noites naturalmente frescas favorecem a indução floral."
     },
     mesesFloracao: [4, 5, 6, 7, 8],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "ameno" }
+    },
     avaliacoes: { cultivo: 2, floracao: 4, perfume: 2, luminosidade: 4, agua: 3, raridade: 3 }
 };

@@ -44,6 +44,10 @@ export const laeliaLundii = {
         montanhaFrio: "Adapta-se muito bem às noites frescas. Mantenha boa luz e diminua as regas em períodos frios e úmidos, protegendo contra geadas e chuva fria prolongada."
     },
     mesesFloracao: [7, 8, 9, 10],
+    "selosCultivo": {
+        "rega": { "nivel": "baixa" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 3,

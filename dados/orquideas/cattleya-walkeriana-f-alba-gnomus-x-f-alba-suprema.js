@@ -46,6 +46,10 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
         montanhaFrio: "Boa adaptação em clima intermediário, com muita luz filtrada. Proteja de geadas, frio úmido prolongado e substrato que permaneça molhado por muitos dias."
     },
     mesesFloracao: [4, 5, 6, 7, 8],
+    "selosCultivo": {
+        "rega": { "nivel": "baixa" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 4,
         floracao: 5,

@@ -17,6 +17,10 @@ export const aciantheraPubescens = {
         "imagens/Acianthera pubescens/Acianthera pubescens3.jpeg",
         "imagens/Acianthera pubescens/Acianthera pubescens4.webp"
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     clima: "Quente a fresco conforme procedência; preferencialmente úmido e ventilado.",

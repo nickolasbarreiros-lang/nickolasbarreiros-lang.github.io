@@ -45,6 +45,10 @@ export const rlcTurandotXOrangeShowXChunyeah = {
         montanhaFrio: "Boa. Proteja de frio intenso e reduza regas quando a evaporação cair."
     },
     mesesFloracao: [3, 4, 5, 6, 7, 8, 9, 10],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 2,
         floracao: 4,

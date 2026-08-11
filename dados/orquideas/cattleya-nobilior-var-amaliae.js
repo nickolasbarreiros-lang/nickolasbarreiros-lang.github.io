@@ -47,6 +47,10 @@ export const cattleyaNobiliorVarAmaliae = {
         montanhaFrio: "Boa resposta em clima intermediário, desde que o repouso permaneça seco e a planta seja protegida de geadas e frio úmido prolongado."
     },
     mesesFloracao: [8, 9, 10],
+    "selosCultivo": {
+        "rega": { "nivel": "baixa", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 5,
         floracao: 5,

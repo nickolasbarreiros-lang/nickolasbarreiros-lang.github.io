@@ -45,6 +45,10 @@ export const cattleyaAclandiaeTipo = {
         montanhaFrio: "Possível, mas proteja de frio prolongado e de umidade noturna quando a secagem ficar lenta."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
+    "selosCultivo": {
+        "rega": { "nivel": "baixa", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 4,
         floracao: 4,

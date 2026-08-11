@@ -42,6 +42,10 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
         montanhaFrio: "Proteja de frio intenso e reduza as regas durante períodos frios, sem permitir desidratação prolongada dos pseudobulbos."
     },
     mesesFloracao: [4, 5, 6, 7, 8, 9, 10, 11],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 4,
         floracao: 4,

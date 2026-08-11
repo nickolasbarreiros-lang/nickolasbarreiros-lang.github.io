@@ -46,6 +46,10 @@ export const bulbophyllumAmbrosia = {
         montanhaFrio: "Muito boa em condições intermediárias a frescas, desde que protegida de frio extremo e de secagem prolongada."
     },
     mesesFloracao: [6, 7, 8],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true, "quedaTermica": true }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 3,

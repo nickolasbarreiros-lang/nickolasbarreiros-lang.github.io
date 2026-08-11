@@ -44,6 +44,10 @@ export const miltoniaRegnellii = {
         "montanhaFrio": "Excelente adaptação. Ofereça boa luminosidade no inverno e reduza a frequência das regas em semanas frias e nubladas, sem impor seca total. Proteja de geadas e de chuvas frias prolongadas."
     },
     "mesesFloracao": [9, 10, 11, 12, 1, 2],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 4,

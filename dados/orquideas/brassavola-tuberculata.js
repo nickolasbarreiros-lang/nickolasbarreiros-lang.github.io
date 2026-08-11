@@ -45,6 +45,10 @@ export const brassavolaTuberculata = {
         montanhaFrio: "Muito boa. Tolera noites frescas; apenas proteja de geadas e reduza água quando a secagem ficar lenta."
     },
     mesesFloracao: [10, 11, 12, 1],
+    "selosCultivo": {
+        "rega": { "nivel": "baixa" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 1,
         floracao: 4,

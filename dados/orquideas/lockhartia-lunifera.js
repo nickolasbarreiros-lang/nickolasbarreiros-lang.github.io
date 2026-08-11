@@ -43,6 +43,10 @@ export const lockhartiaLunifera = {
         montanhaFrio: "Boa adaptação em regiões serranas, desde que protegida de frio intenso e geadas. Ajuste a rega à menor evaporação e mantenha as bainhas secas durante noites frias."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 3,

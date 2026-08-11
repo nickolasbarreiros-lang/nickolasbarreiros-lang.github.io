@@ -44,6 +44,10 @@ export const cattleyaPumpkinFestival = {
         montanhaFrio: "Desenvolve-se muito bem com luminosidade elevada. No inverno, reduza discretamente as regas e proteja a planta quando houver temperaturas persistentes abaixo de aproximadamente 10 a 12 °C."
     },
     mesesFloracao: [3, 4, 5, 6],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 4,
         floracao: 5,

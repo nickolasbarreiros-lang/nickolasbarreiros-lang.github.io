@@ -44,6 +44,10 @@ export const maxillariaSchunkeana = {
         "montanhaFrio": "Em Santa Teresa/ES, apresenta excelente adaptação às noites frescas. Reduza levemente a rega no inverno, sem secar completamente."
     },
     "mesesFloracao": [12, 1, 2, 3],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 3,

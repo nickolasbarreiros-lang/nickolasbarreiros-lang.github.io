@@ -46,6 +46,10 @@ export const cattleyaIntermedia = {
         montanhaFrio: "Adapta-se muito bem a noites frescas. Reduza a rega apenas quando a evaporação realmente cair e proteja de geadas e longos períodos de chuva fria."
     },
     mesesFloracao: [2, 3, 4, 5],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 2,
         floracao: 4,

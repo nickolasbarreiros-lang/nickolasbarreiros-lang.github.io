@@ -47,6 +47,10 @@ export const dryadellaAviceps = {
         montanhaFrio: "Adaptação muito boa em clima intermediário/fresco, protegendo apenas de geada e saturação prolongada do substrato."
     },
     mesesFloracao: [6, 7, 8, 9, 10, 11, 12],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 3,

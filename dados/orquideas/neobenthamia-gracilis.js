@@ -50,6 +50,10 @@ export const neobenthamiaGracilis = {
         1,
         2
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 4,

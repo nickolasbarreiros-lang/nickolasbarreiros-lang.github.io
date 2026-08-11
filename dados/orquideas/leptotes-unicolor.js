@@ -43,6 +43,10 @@ export const leptotesUnicolor = {
         montanhaFrio: "Excelente desempenho em noites frescas. Reduza as regas em períodos frios e úmidos, mantendo boa luminosidade e circulação de ar."
     },
     mesesFloracao: [5, 6],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 4,

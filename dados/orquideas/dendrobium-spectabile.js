@@ -57,5 +57,9 @@ export const dendrobiumSpectabile = {
         montanhaFrio: "Boa, cerca de 3/5. Tolera condições intermediárias, mas deve ser protegido de frio intenso e de raízes molhadas em temperaturas baixas."
     },
     mesesFloracao: [6, 7, 8, 9, 10],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 4, agua: 4, raridade: 4 }
 };

@@ -42,6 +42,10 @@ export const epicattleyaReneMarques = {
         montanhaFrio: "Boa adaptação. Proteja de geadas e ventos muito frios, reduza a rega em dias de baixa temperatura e evite deixar raízes molhadas durante a noite."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 2,
         floracao: 5,

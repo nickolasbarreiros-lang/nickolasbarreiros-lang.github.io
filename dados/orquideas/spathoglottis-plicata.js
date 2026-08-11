@@ -57,6 +57,10 @@ export const spathoglottisPlicata = {
         3,
         4
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     "avaliacoes": {
         "cultivo": 5,
         "floracao": 5,

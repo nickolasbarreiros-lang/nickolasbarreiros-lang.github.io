@@ -46,5 +46,9 @@ export const bulbophyllumFalcatumVarBufo = {
         montanhaFrio: "Boa se protegida de frio prolongado. Não necessita noites frias para completar seu ciclo."
     },
     mesesFloracao: [8, 9, 10, 11, 12, 1, 2, 3],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 3, agua: 4, raridade: 4 }
 };

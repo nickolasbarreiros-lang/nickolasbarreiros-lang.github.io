@@ -52,6 +52,10 @@ export const cattleyaLeopoldiiDarkPrincess = {
         4,
         5
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 5,

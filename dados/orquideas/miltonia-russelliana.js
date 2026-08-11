@@ -58,6 +58,10 @@ export const miltoniaRusselliana = {
         montanhaFrio: "Muito boa, cerca de 5/5. Noites frescas favorecem vigor e floração, desde que as raízes não permaneçam frias e encharcadas por longos períodos."
     },
     mesesFloracao: [4, 5, 6, 7, 8],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "ameno" }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 3,

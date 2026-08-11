@@ -49,6 +49,10 @@ export const pabstiellaTrifida = {
         12,
         1
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "umidade-constante" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     "avaliacoes": {
         "cultivo": 4,
         "floracao": 3,

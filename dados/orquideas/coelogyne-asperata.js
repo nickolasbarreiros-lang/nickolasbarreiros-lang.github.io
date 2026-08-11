@@ -53,6 +53,10 @@ export const coelogyneAsperata = {
         10,
         11
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 4,

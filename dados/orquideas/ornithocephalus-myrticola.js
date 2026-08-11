@@ -51,6 +51,10 @@ export const ornithocephalusMyrticola = {
         11,
         12
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "umidade-constante" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     "avaliacoes": {
         "cultivo": 4,
         "floracao": 3,

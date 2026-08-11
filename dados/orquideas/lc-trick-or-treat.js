@@ -44,6 +44,10 @@ export const lcTrickOrTreat = {
         montanhaFrio: "Desenvolve-se bem com noites frescas. Proteja de geadas e reduza a água em semanas frias e chuvosas."
     },
     mesesFloracao: [4, 5, 6, 7, 8],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 2,
         floracao: 5,

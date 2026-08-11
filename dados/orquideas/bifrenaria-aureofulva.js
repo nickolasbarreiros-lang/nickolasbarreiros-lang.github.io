@@ -43,6 +43,10 @@ export const bifrenariaAureofulva = {
         montanhaFrio: "Condições muito favoráveis. Noites frescas ajudam a maturação e a floração; no inverno, apenas reduza as regas conforme a evaporação cair."
     },
     mesesFloracao: [1, 2, 3],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 3,

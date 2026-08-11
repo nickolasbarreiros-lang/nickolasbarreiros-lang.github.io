@@ -44,6 +44,10 @@ export const miltoniaCandida = {
         "montanhaFrio": "Excelente desempenho. Reduza a água em semanas frias e nubladas, mas não suspenda a hidratação nem deixe os brotos ativos secarem."
     },
     "mesesFloracao": [9, 10, 11, 12, 1, 2],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 4,

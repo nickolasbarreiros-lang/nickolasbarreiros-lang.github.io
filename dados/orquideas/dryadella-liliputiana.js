@@ -48,6 +48,10 @@ export const dryadellaLiliputiana = {
         montanhaFrio: "Excelente adaptação em clima intermediário a fresco, protegendo de geada e de frio excessivo associado a encharcamento."
     },
     mesesFloracao: [6, 7, 8, 9],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "intermediario", "quedaTermica": true }
+    },
     avaliacoes: {
         cultivo: 5,
         floracao: 3,

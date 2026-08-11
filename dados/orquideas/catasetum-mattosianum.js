@@ -44,6 +44,10 @@ export const catasetumMattosianum = {
         montanhaFrio: "Boa adaptação se protegida de frio excessivo e geadas. Durante dormência fria, mantenha o vaso ainda mais seco."
     },
     mesesFloracao: [12, 1, 2, 3],
+    "selosCultivo": {
+        "rega": { "nivel": "umidade-constante", "regime": "repouso-seco" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 2,
         floracao: 4,

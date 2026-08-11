@@ -50,6 +50,10 @@ export const oncidiumTwinkle = {
         7,
         8
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     "avaliacoes": {
         "cultivo": 2,
         "floracao": 5,

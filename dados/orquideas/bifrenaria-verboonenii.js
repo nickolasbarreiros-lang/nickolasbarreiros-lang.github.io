@@ -48,6 +48,10 @@ export const bifrenariaVerboonenii = {
         montanhaFrio: "Excelente. Noites frescas e inverno mais seco reproduzem muito melhor as condições naturais."
     },
     mesesFloracao: [9, 10, 11, 12],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     avaliacoes: {
         cultivo: 4,
         floracao: 3,

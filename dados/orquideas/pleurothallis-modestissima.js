@@ -48,6 +48,10 @@ export const pleurothallisModestissima = {
         "montanhaFrio": "Boa adaptação, desde que o frio não venha acompanhado de substrato permanentemente molhado e pouca circulação de ar."
     },
     "mesesFloracao": [10, 11, 12, 1, 2, 3],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 3,

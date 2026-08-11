@@ -43,6 +43,10 @@ export const ludisiaDiscolor = {
         montanhaFrio: "Muito boa adaptação em regiões serranas. Proteja de frio excessivo e reduza a rega apenas quando a evaporação cair, sem deixar o substrato secar completamente."
     },
     mesesFloracao: [8, 9, 10, 11],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 2,
         floracao: 3,

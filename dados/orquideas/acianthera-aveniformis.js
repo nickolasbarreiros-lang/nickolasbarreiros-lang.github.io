@@ -17,6 +17,10 @@ export const aciantheraAveniformis = {
         "imagens/Acianthera aveniformis/Acianthera aveniformis3.jpg",
         "imagens/Acianthera aveniformis/Acianthera aveniformis4.jpg"
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
     mesesFloracao: [6, 7, 8],
     clima: "Quente a intermediário, úmido e muito ventilado.",

@@ -51,6 +51,10 @@ export const cattleyaSchilleriana = {
         11,
         12
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     "avaliacoes": {
         "cultivo": 2,
         "floracao": 3,

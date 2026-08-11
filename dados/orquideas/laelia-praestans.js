@@ -44,6 +44,10 @@ export const laeliaPraestans = {
         montanhaFrio: "Excelente resposta em clima intermediário de altitude. Proteja de geadas e de longos períodos de frio úmido com substrato saturado."
     },
     mesesFloracao: [9, 10, 11],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 4,

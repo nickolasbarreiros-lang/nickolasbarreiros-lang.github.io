@@ -46,6 +46,10 @@ export const laeliaCaulencens = {
         montanhaFrio: "Muito favorável, com alta luminosidade e boa ventilação. Proteja apenas de geadas e de longos períodos frios com vaso encharcado."
     },
     mesesFloracao: [4, 5, 6, 7, 8],
+    "selosCultivo": {
+        "rega": { "nivel": "baixa" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     avaliacoes: {
         cultivo: 4,
         floracao: 3,

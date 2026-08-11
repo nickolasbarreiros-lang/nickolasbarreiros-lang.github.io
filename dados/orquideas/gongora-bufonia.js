@@ -38,5 +38,9 @@ export const gongoraBufonia = {
         montanhaFrio: "Boa. Aproveite a umidade e noites amenas, reduzindo a frequência das regas apenas quando a evaporação cair. Proteja contra frio excessivo e geadas."
     },
     mesesFloracao: [8, 9, 10, 11, 12],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 5, luminosidade: 3, agua: 4, raridade: 3 }
 };

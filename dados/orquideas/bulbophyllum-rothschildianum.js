@@ -38,5 +38,9 @@ export const bulbophyllumRothschildianum = {
         montanhaFrio: "Muito boa, especialmente com noites amenas; proteja apenas de geada e de encharcamento sob frio prolongado."
     },
     mesesFloracao: [3, 4, 5, 9, 10, 11],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 3, luminosidade: 3, agua: 4, raridade: 4 }
 };

@@ -58,6 +58,10 @@ export const promenaeaXanthina = {
         montanhaFrio: "Adaptação excelente, cerca de 5/5. Noites frescas e alta umidade favorecem a espécie, desde que o substrato não permaneça frio e saturado."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     avaliacoes: {
         cultivo: 4,
         floracao: 4,

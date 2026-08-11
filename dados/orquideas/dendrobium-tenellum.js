@@ -56,6 +56,10 @@ export const dendrobiumTenellum = {
         1,
         2
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 3,

@@ -51,6 +51,10 @@ export const cattleyaWarneri = {
         10,
         11
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 5,

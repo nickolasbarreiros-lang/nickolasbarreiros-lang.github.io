@@ -48,6 +48,10 @@ export const promenaeaGuttata = {
         "montanhaFrio": "Adaptação muito boa; apenas reduza regas conforme a evaporação diminuir para evitar saturação prolongada no frio."
     },
     "mesesFloracao": [10, 11, 12, 1, 2],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 3,

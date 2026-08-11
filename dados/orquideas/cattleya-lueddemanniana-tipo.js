@@ -43,6 +43,10 @@ export const cattleyaLueddemannianaTipo = {
         montanhaFrio: "Tolera noites frescas, mas não aprecia frio úmido prolongado. Reduza as regas durante sequências frias e nubladas e proteja contra temperaturas extremas."
     },
     mesesFloracao: [12, 1, 2, 3, 9, 10, 11],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 2,
         floracao: 5,

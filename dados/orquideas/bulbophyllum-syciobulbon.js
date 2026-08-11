@@ -46,6 +46,10 @@ export const bulbophyllumSyciobulbon = {
         montanhaFrio: "Muito favorável quando há umidade atmosférica, boa ventilação e proteção contra geada ou saturação fria prolongada."
     },
     mesesFloracao: [],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     avaliacoes: {
         cultivo: 5,
         floracao: 2,

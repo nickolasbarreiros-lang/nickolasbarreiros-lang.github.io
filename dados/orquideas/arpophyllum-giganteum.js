@@ -17,6 +17,10 @@ export const arpophyllumGiganteum = {
         "imagens/Arpophyllum giganteum/Arpophyllum giganteum3.webp",
         "imagens/Arpophyllum giganteum/Arpophyllum giganteum4.jpeg"
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 1, luminosidade: 4, agua: 4, raridade: 3 },
     mesesFloracao: [8, 9, 10, 11],
     clima: "Quente a fresco, com preferência por noites amenas e boa amplitude térmica.",

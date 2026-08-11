@@ -43,6 +43,10 @@ export const ornithophoraRadicans = {
         montanhaFrio: "Desenvolve-se com vigor em clima intermediário e serrano. Proteja de geadas, reduza a rega quando o frio diminuir a atividade radicular e evite noites frias com a touceira encharcada."
     },
     mesesFloracao: [12, 1, 2, 3, 4, 5],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 4,

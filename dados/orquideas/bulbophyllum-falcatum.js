@@ -46,6 +46,10 @@ export const bulbophyllumFalcatum = {
         montanhaFrio: "Boa em clima intermediário; proteja de frio intenso e reduza água apenas na medida em que a evaporação cair."
     },
     mesesFloracao: [6, 7, 8, 9, 10, 11],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 4,

@@ -44,6 +44,10 @@ export const cattleyaLoddigesii = {
         montanhaFrio: "Desenvolve-se muito bem com noites frescas. Mantenha boa claridade, reduza as regas durante sequências frias e úmidas e proteja apenas contra geadas diretas."
     },
     mesesFloracao: [6, 7, 8, 9, 10],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 2,
         floracao: 4,

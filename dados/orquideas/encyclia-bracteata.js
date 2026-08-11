@@ -47,6 +47,10 @@ export const encycliaBracteata = {
         montanhaFrio: "Boa adaptação, reduzindo regas em períodos frios e nublados e protegendo de geada."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 4,

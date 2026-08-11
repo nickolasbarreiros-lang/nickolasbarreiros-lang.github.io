@@ -43,6 +43,10 @@ export const aspasiaLunata = {
         montanhaFrio: "Tolera noites frescas e pode florescer muito bem. Reduza a frequência das regas nos períodos frios, mas proteja de geadas e de substrato saturado por muitos dias."
     },
     mesesFloracao: [9, 10, 11],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     avaliacoes: {
         cultivo: 4,
         floracao: 4,

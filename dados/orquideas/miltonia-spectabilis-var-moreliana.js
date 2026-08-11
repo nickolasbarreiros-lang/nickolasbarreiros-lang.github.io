@@ -44,6 +44,10 @@ export const miltoniaSpectabilisVarMoreliana = {
         "montanhaFrio": "Desenvolve-se muito bem. Aumente a luz no inverno e reduza regas em dias frios e nublados, sem deixar raízes ativas secarem totalmente."
     },
     "mesesFloracao": [1, 2, 3, 4, 5],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 4,

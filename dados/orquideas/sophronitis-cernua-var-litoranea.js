@@ -46,6 +46,10 @@ export const sophronitisCernuaVarLitoranea = {
         montanhaFrio: "Desenvolve-se bem em clima intermediário, mas proteja de geadas e de longos períodos frios e encharcados. O ecótipo litorâneo não necessita frio intenso."
     },
     mesesFloracao: [9, 10, 11],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 4,

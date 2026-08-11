@@ -55,6 +55,10 @@ export const cattleyaChocolateDrop = {
         7,
         8
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     "avaliacoes": {
         "cultivo": 2,
         "floracao": 4,

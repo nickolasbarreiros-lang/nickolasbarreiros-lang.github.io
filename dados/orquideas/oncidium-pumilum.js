@@ -53,6 +53,10 @@ export const oncidiumPumilum = {
         10,
         11
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     "avaliacoes": {
         "cultivo": 4,
         "floracao": 5,

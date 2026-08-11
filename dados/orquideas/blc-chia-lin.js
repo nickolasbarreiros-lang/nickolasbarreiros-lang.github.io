@@ -43,6 +43,10 @@ export const blcChiaLin = {
         montanhaFrio: "Adapta-se bem às noites frescas. Uma amplitude térmica moderada pode favorecer o ciclo fisiológico, mas não é requisito absoluto. Reduza as regas em períodos frios e nublados e proteja contra extremos de temperatura."
     },
     mesesFloracao: [4, 5, 6, 7, 8, 9, 10, 11],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 2,
         floracao: 4,

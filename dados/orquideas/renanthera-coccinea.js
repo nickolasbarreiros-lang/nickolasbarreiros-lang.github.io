@@ -47,6 +47,10 @@ export const renantheraCoccinea = {
         "montanhaFrio": "Boa, desde que protegida de frio intenso. Abaixo de cerca de 15 °C, reduza regas e mantenha a planta mais seca durante a noite."
     },
     "mesesFloracao": [9, 10, 11, 12],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 4,

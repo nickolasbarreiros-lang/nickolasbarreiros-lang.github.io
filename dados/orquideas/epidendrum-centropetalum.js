@@ -58,6 +58,10 @@ export const epidendrumCentropetalum = {
         montanhaFrio: "Adaptação excelente, cerca de 5/5. Noites frescas e boa umidade se aproximam bastante das condições montanas onde a espécie ocorre naturalmente."
     },
     mesesFloracao: [8, 9, 10, 11, 12, 1],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     avaliacoes: {
         cultivo: 4,
         floracao: 4,

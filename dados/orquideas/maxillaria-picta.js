@@ -44,6 +44,10 @@ export const maxillariaPicta = {
         "montanhaFrio": "Em Santa Teresa/ES, a amplitude térmica natural favorece a floração. Reduza a rega em semanas frias e chuvosas, sem impor seca completa."
     },
     "mesesFloracao": [7, 8, 9, 10, 11],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 3,

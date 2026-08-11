@@ -58,5 +58,9 @@ export const laeliaSplendida = {
         montanhaFrio: "Boa, cerca de 4/5. Tolera noites mais frescas, mas deve ser protegida de frio intenso e de substrato frio e constantemente saturado."
     },
     mesesFloracao: [9, 10, 11, 12],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 4, agua: 3, raridade: 4 }
 };

@@ -47,6 +47,10 @@ export const phalaenopsisMannii = {
         "montanhaFrio": "Muito boa em condições amenas; evite frio excessivo e mantenha menor frequência de rega quando a evaporação cair."
     },
     "mesesFloracao": [8, 9, 10, 11, 12],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 4,

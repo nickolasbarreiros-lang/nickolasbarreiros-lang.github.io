@@ -46,6 +46,10 @@ export const laeliaFournieri = {
         montanhaFrio: "Muito favorável em ambientes luminosos e ventilados, protegendo apenas contra geadas severas e encharcamento prolongado em períodos frios."
     },
     mesesFloracao: [12, 1, 2, 3, 4],
+    "selosCultivo": {
+        "rega": { "nivel": "baixa" },
+        "climaFloracao": { "faixa": "ameno" }
+    },
     avaliacoes: {
         cultivo: 5,
         floracao: 3,

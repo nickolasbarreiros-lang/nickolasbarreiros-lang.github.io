@@ -45,6 +45,10 @@ export const bryobiumHyacinthoides = {
         montanhaFrio: "Boa adaptação em clima intermediário, protegendo de frio intenso e reduzindo água quando a evaporação cair."
     },
     mesesFloracao: [9, 10, 11],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 4,

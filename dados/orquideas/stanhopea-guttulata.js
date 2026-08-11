@@ -55,6 +55,10 @@ export const stanhopeaGuttulata = {
         1,
         2
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "umidade-constante" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 4,

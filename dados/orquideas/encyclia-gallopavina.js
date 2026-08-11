@@ -47,6 +47,10 @@ export const encycliaGallopavina = {
         montanhaFrio: "Boa adaptação. Em períodos frios e nublados, reduza a frequência das regas para acompanhar a menor evaporação."
     },
     mesesFloracao: [10, 11, 12, 1, 2],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 4,

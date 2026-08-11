@@ -17,6 +17,10 @@ export const aciantheraBragae = {
         "imagens/Acianthera bragae/Acianthera bragae3.jpg",
         "imagens/Acianthera bragae/Acianthera bragae4.jpg"
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
     mesesFloracao: [8, 9, 10],
     clima: "Quente a intermediário, úmido, sombreado e ventilado.",

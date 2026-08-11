@@ -38,5 +38,9 @@ export const huntleyaMeleagris = {
         montanhaFrio: "Muito boa adaptação em ambiente protegido. Mantenha umidade constante e proteja de geadas ou frio excessivo."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
+    "selosCultivo": {
+        "rega": { "nivel": "umidade-constante" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     avaliacoes: { cultivo: 4, floracao: 3, perfume: 5, luminosidade: 2, agua: 5, raridade: 4 }
 };

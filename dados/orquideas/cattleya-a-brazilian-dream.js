@@ -44,6 +44,10 @@ export const cattleyaABrazilianDream = {
         montanhaFrio: "Boa, desde que receba luz alta e não permaneça fria e molhada por longos períodos."
     },
     mesesFloracao: [3, 4, 5, 6, 7, 8],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 4,

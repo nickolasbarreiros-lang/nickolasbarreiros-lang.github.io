@@ -43,6 +43,10 @@ export const mediocalcarDecoratum = {
         "montanhaFrio": "Adaptação muito superior. Mantenha umidade regular, proteja de geadas e de ventos frios que ressequem rapidamente a montagem."
     },
     "mesesFloracao": [3, 4, 5, 6, 7, 8, 9, 10],
+    "selosCultivo": {
+        "rega": { "nivel": "umidade-constante" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     "avaliacoes": {
         "cultivo": 4,
         "floracao": 3,

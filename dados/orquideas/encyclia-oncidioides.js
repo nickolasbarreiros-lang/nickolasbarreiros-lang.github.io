@@ -38,5 +38,9 @@ export const encycliaOncidioides = {
         montanhaFrio: "Boa adaptação. Mantenha luminosidade alta, proteja contra geadas e reduza proporcionalmente as regas em períodos frios, chuvosos ou de baixa evaporação."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     avaliacoes: { cultivo: 2, floracao: 4, perfume: 4, luminosidade: 4, agua: 3, raridade: 3 }
 };

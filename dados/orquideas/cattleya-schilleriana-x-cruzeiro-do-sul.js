@@ -52,6 +52,10 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
         12,
         1
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 4,

@@ -48,6 +48,10 @@ export const phaiusTankervilleaeAlba = {
         "montanhaFrio": "Adaptação muito boa; proteja de geadas e reduza a frequência das regas quando o crescimento desacelerar."
     },
     "mesesFloracao": [8, 9, 10, 11, 12],
+    "selosCultivo": {
+        "rega": { "nivel": "umidade-constante", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     "avaliacoes": {
         "cultivo": 4,
         "floracao": 4,

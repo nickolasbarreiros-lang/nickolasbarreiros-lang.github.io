@@ -44,6 +44,10 @@ export const maxillariaSubulata = {
         "montanhaFrio": "Em Santa Teresa/ES, as noites frescas favorecem a planta. Em semanas frias e chuvosas, aumente o intervalo entre regas sem impor seca total."
     },
     "mesesFloracao": [9, 10, 11],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "intermediario" }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 3,

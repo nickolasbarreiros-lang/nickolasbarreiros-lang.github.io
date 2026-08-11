@@ -40,5 +40,9 @@ export const bulbophyllumSikkimense = {
         montanhaFrio: "Boa, desde que protegida de frio intenso e de encharcamento persistente em baixas temperaturas."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     avaliacoes: { cultivo: 2, floracao: 4, perfume: 2, luminosidade: 3, agua: 4, raridade: 3 }
 };

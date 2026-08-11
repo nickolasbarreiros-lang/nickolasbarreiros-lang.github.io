@@ -40,5 +40,9 @@ export const bulbophyllumMiniatum = {
         montanhaFrio: "Boa em locais protegidos. Evite frio prolongado e reduza a frequência das regas apenas quando a evaporação cair."
     },
     mesesFloracao: [6, 7, 8],
+    "selosCultivo": {
+        "rega": { "nivel": "umidade-constante" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 3, agua: 5, raridade: 4 }
 };

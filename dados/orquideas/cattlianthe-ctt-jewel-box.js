@@ -57,6 +57,10 @@ export const cattliantheCttJewelBox = {
         10,
         11
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     "avaliacoes": {
         "cultivo": 2,
         "floracao": 5,

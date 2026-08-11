@@ -38,5 +38,9 @@ export const isochilusLinearis = {
         montanhaFrio: "Excelente para muitas procedências. Ajuste a água à menor evaporação e proteja contra geadas; não deixe o substrato secar completamente."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: { cultivo: 2, floracao: 4, perfume: 1, luminosidade: 3, agua: 4, raridade: 3 }
 };

@@ -44,6 +44,10 @@ export const laeliaLundiiAlba = {
         montanhaFrio: "Excelente resposta às noites frescas. Mantenha boa luz e reduza a água em períodos frios e úmidos, evitando geadas."
     },
     mesesFloracao: [7, 8, 9, 10],
+    "selosCultivo": {
+        "rega": { "nivel": "baixa" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 3,

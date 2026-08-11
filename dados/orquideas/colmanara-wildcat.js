@@ -55,6 +55,10 @@ export const colmanaraWildcat = {
         9,
         10
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     "avaliacoes": {
         "cultivo": 2,
         "floracao": 5,

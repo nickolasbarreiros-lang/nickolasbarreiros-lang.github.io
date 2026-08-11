@@ -57,5 +57,9 @@ export const encycliaAlboxanthina = {
         montanhaFrio: "Boa, cerca de 4/5. Tolera noites frescas, mas reduza as regas quando a evaporação cair e proteja de frio intenso."
     },
     mesesFloracao: [10, 11, 12, 1],
+    "selosCultivo": {
+        "rega": { "nivel": "baixa" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 4, luminosidade: 4, agua: 2, raridade: 5 }
 };

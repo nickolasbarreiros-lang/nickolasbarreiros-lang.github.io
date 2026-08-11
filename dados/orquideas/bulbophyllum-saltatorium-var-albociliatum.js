@@ -38,5 +38,9 @@ export const bulbophyllumSaltatoriumVarAlbociliatum = {
         montanhaFrio: "Boa se protegida de frio prolongado; reduza regas conforme a evaporação cair, sem secar totalmente."
     },
     mesesFloracao: [6, 7, 8],
+    "selosCultivo": {
+        "rega": { "nivel": "umidade-constante" },
+        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 3, agua: 5, raridade: 4 }
 };

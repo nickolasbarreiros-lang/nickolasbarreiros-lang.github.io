@@ -58,6 +58,10 @@ export const brassiaLawrenceana = {
         montanhaFrio: "Boa, cerca de 4/5. Tolera noites frescas, mas deve ser protegida de frio intenso e de substrato permanentemente úmido em períodos de baixa evaporação."
     },
     mesesFloracao: [3, 4, 5, 9, 10, 11],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente" }
+    },
     avaliacoes: {
         cultivo: 3,
         floracao: 4,

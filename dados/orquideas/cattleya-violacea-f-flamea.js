@@ -52,6 +52,10 @@ export const cattleyaViolaceaFFlamea = {
         2,
         3
     ],
+    "selosCultivo": {
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
     "avaliacoes": {
         "cultivo": 3,
         "floracao": 4,
