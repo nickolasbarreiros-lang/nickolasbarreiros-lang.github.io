@@ -22,8 +22,8 @@ export const arpophyllumGiganteum = {
     clima: "Quente a fresco, com preferência por noites amenas e boa amplitude térmica.",
     climaFloracao: "A faixa natural de 800–1.500 m explica a combinação aparentemente contraditória de fontes que a tratam como quente, intermediária ou fresca. A espécie suporta dias quentes, mas tende a florescer melhor quando o calor não permanece elevado durante toda a noite. No litoral, mantenha a planta em local muito ventilado, com alta claridade sem superaquecimento; pseudobulbos recém-maduros e bem abastecidos de água são os que originam as inflorescências terminais.",
     iluminacao: {
-        sombrite: "50% a 60%; cerca de 50% com boa ventilação é uma referência inicial",
-        solDireto: "Somente suave, preferencialmente no início da manhã e após aclimatação",
+        sombrite: "50% a 60%",
+        solDireto: "Somente suave",
         horario: "Primeiras horas da manhã",
         observacoes: "Referências recomendam luz ampla, comparável à de Cattleyas cultivadas em condição fresca. Folhas firmes de verde médio a verde-claro e pseudobulbos robustos indicam bom nível de luz. Folhas muito escuras com plantas volumosas que não florescem sugerem sombra excessiva; amarelecimento e aquecimento rápido indicam excesso de radiação ou ventilação insuficiente."
     },
