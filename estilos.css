@@ -6378,8 +6378,8 @@ main.container{
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    min-height: 20px;
-    padding: 2px 6px;
+    min-height: 24px;
+    padding: 3px 6px;
     border: 1px solid #d7e3da;
     border-radius: 7px;
     background: #fff;
