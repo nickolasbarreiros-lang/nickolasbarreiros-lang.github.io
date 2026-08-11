@@ -41,7 +41,7 @@ export const promenaeaXanthina = {
         "🥈 Pequeno cesto ou cachepô com substrato leve e drenante.",
         "🥉 Montagem em cortiça ou madeira com fina camada de esfagno, apenas em ambiente de alta umidade."
     ],
-    substrato: ["Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.", "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma."],
+    substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.", "🥉 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "⭐ Alternativa: Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma."],
     errosComuns: [
         "Expor ao sol direto forte",
         "Compactar esfagno em torno das raízes",

@@ -41,7 +41,7 @@ export const laeliaSplendida = {
         "🥈 Vaso de barro largo e bem perfurado, proporcional à frente de crescimento.",
         "🥉 Placa ou tronco robusto, quando houver umidade suficiente para regas frequentes."
     ],
-    substrato: ["Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.", "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.", "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.", "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas."],
+    substrato: ["🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.", "🥈 Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.", "🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.", "⭐ Alternativa: Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas."],
     errosComuns: [
         "Cultivar em sombra excessiva",
         "Usar vaso profundo e pouco ventilado",

@@ -41,7 +41,7 @@ export const dichaeaCogniauxiana = {
         "🥈 Cachepô ou cesto pequeno e muito aerado, com substrato leve.",
         "🥉 Vaso pequeno e muito perfurado, evitando compactação e retenção excessiva de água."
     ],
-    substrato: ["Casca de pinus fina/média + chips de coco pequenos + perlita + pedra-pomes.", "Casca de macadâmia triturada média + fibra de coco grossa + pedra-pomes + pequena fração de esfagno.", "Pinus médio + perlita + carvão vegetal miúdo + esfagno picado em baixa proporção.", "Chips de coco + pedra-pomes + casca de pinus fina, mantendo umidade uniforme sem encharcar."],
+    substrato: ["🥇 Casca de pinus fina/média + chips de coco pequenos + perlita + pedra-pomes.", "🥈 Casca de macadâmia triturada média + fibra de coco grossa + pedra-pomes + pequena fração de esfagno.", "🥉 Pinus médio + perlita + carvão vegetal miúdo + esfagno picado em baixa proporção.", "⭐ Alternativa: Chips de coco + pedra-pomes + casca de pinus fina, mantendo umidade uniforme sem encharcar."],
     errosComuns: [
         "Expor ao sol direto forte",
         "Permitir secagem prolongada das raízes",

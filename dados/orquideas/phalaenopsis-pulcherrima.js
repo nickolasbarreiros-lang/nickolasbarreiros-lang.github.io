@@ -41,7 +41,7 @@ export const phalaenopsisPulcherrima = {
         "🥈 Cesto ou cachepô pequeno com mistura mineral e casca.",
         "🥉 Montagem em tronco ou cortiça em ambiente úmido e com regas frequentes."
     ],
-    substrato: ["Pedra-pomes + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.", "Pedra-pomes + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.", "Brita + pedra-pomes + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.", "Macadâmia grossa + pedra-pomes + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado."],
+    substrato: ["🥇 Pedra-pomes + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.", "🥈 Pedra-pomes + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.", "🥉 Brita + pedra-pomes + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.", "⭐ Alternativa: Macadâmia grossa + pedra-pomes + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado."],
     errosComuns: [
         "Cultivar em sombra profunda como uma Phalaenopsis comum",
         "Manter o substrato permanentemente encharcado",

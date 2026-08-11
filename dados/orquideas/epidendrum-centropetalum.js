@@ -41,7 +41,7 @@ export const epidendrumCentropetalum = {
         "🥈 Placa de cortiça ou madeira com pequena camada de esfagno junto às raízes.",
         "🥉 Vaso pequeno e bem perfurado, usando mistura leve e de drenagem rápida."
     ],
-    substrato: ["Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.", "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma."],
+    substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.", "🥉 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "⭐ Alternativa: Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma."],
     errosComuns: [
         "Cultivar em ambiente quente e sem circulação de ar",
         "Manter sombra excessivamente profunda",
