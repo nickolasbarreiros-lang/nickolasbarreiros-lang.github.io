@@ -35,7 +35,7 @@ export const sophronitisCernua = {
     adubacao: "🌿 Orgânica: Bokashi em dose mínima, preferencialmente em porta-adubo.\n💧 Foliar: NPK 20-20-20 em 1/8 a 1/4 da dose, a cada 7 a 15 dias durante o crescimento.\n🧪 Liberação lenta: pouquíssimos grânulos de Osmocote em porta-adubo fixado acima da touceira.",
     rega: "Regue abundantemente pela manhã e assegure que raízes e suporte sequem ao longo do dia. Em plantas montadas, as regas podem ser diárias no verão. Após a maturação dos brotos, reduza ligeiramente a frequência sem deixar os pequenos pseudobulbos desidratarem.",
     suporte: "🥇 Placa de madeira dura.\n🥈 Cortiça natural.\n🥉 Galho fino de casca rugosa ou pequeno cachepô muito vazado.",
-    substrato: "🥇 Cultivo montado, sem substrato.\n🥈 Carvão vegetal grosso + pouca casca grossa em cachepô.\n🥉 Pedra-pomes + carvão em recipiente aberto. Evite vasos fechados e esfagno denso.",
+    substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.\n🥉 Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.\n⭐ Alternativa: Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.",
     errosComuns: "Vaso plástico com substrato fino; excesso de esfagno; sombra; ambiente abafado; regas ao final da tarde; base da touceira permanentemente molhada; adubação concentrada.",
     dica: "Cultive montada em madeira ou cortiça e pendurada em ponto alto, claro e muito ventilado. Sua tolerância ao calor é boa, mas as raízes precisam secar rapidamente para permanecer saudáveis.",
     adaptacaoRegional: {

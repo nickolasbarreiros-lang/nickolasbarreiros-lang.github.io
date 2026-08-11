@@ -1,0 +1,1520 @@
+[
+  {
+    "arquivo": "acianthera-aveniformis.js",
+    "perfil": "micro_humid",
+    "formato": "array",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."
+    ]
+  },
+  {
+    "arquivo": "acianthera-bragae.js",
+    "perfil": "micro_humid_litho",
+    "formato": "array",
+    "substratos": [
+      "Pedra-pomes fina + casca de pinus fina + pequena fração de esfagno, combinando umidade com muito ar.",
+      "Montagem em rocha porosa/cortiça com fina reserva de esfagno somente sob as raízes.",
+      "Perlita + pedra-pomes fina + chips de coco pequenos, sem compactar.",
+      "Casca de pinus fina + carvão miúdo + perlita + esfagno picado em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "acianthera-glumacea.js",
+    "perfil": "micro_humid",
+    "formato": "array",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."
+    ]
+  },
+  {
+    "arquivo": "acianthera-pubescens.js",
+    "perfil": "micro_humid",
+    "formato": "array",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado."
+    ]
+  },
+  {
+    "arquivo": "arpophyllum-giganteum.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "array",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco."
+    ]
+  },
+  {
+    "arquivo": "aspasia-lunata.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto."
+    ]
+  },
+  {
+    "arquivo": "bc-turandot-x-blc-orange-show-x-blc-chunyeah.js",
+    "perfil": "coarse_epiphyte",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.",
+      "Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.",
+      "Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.",
+      "Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida."
+    ]
+  },
+  {
+    "arquivo": "bifrenaria-aureofulva.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "bifrenaria-harrisoniae.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "bifrenaria-tyrianthina.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso."
+    ]
+  },
+  {
+    "arquivo": "bifrenaria-verboonenii.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "blc-chia-lin.js",
+    "perfil": "coarse_epiphyte",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.",
+      "Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.",
+      "Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.",
+      "Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar."
+    ]
+  },
+  {
+    "arquivo": "brassavola-perrini.js",
+    "perfil": "coarse_dry",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.",
+      "Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.",
+      "Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.",
+      "Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso."
+    ]
+  },
+  {
+    "arquivo": "brassavola-tuberculata.js",
+    "perfil": "coarse_dry",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.",
+      "Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.",
+      "Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.",
+      "Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado."
+    ]
+  },
+  {
+    "arquivo": "brassia-lawrenceana.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "array",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco."
+    ]
+  },
+  {
+    "arquivo": "bryobium-hyacinthoides.js",
+    "perfil": "bulbo_humid",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.",
+      "Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.",
+      "Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "bulbophyllum-ambrosia.js",
+    "perfil": "bulbo_humid",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.",
+      "Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.",
+      "Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "bulbophyllum-buffo.js",
+    "perfil": "bulbo_humid",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.",
+      "Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
+      "Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma."
+    ]
+  },
+  {
+    "arquivo": "bulbophyllum-elassonotum.js",
+    "perfil": "bulbo_humid",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.",
+      "Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
+      "Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma."
+    ]
+  },
+  {
+    "arquivo": "bulbophyllum-falcatum-var-bufo.js",
+    "perfil": "bulbo_humid",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.",
+      "Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
+      "Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma."
+    ]
+  },
+  {
+    "arquivo": "bulbophyllum-falcatum.js",
+    "perfil": "bulbo_humid",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.",
+      "Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.",
+      "Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "bulbophyllum-miniatum.js",
+    "perfil": "bulbo_humid",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.",
+      "Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
+      "Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma."
+    ]
+  },
+  {
+    "arquivo": "bulbophyllum-rothschildianum.js",
+    "perfil": "bulbo_humid",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
+      "Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.",
+      "Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno."
+    ]
+  },
+  {
+    "arquivo": "bulbophyllum-roxburghii.js",
+    "perfil": "bulbo_humid",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.",
+      "Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.",
+      "Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "bulbophyllum-saltatorium-var-albociliatum.js",
+    "perfil": "bulbo_humid",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.",
+      "Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.",
+      "Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "bulbophyllum-sikkimense.js",
+    "perfil": "bulbo_humid",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
+      "Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.",
+      "Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno."
+    ]
+  },
+  {
+    "arquivo": "bulbophyllum-syciobulbon.js",
+    "perfil": "bulbo_humid",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.",
+      "Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.",
+      "Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "camaridium-carinatum.js",
+    "perfil": "maxillaria_moist",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.",
+      "Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.",
+      "Chips de coco + pinus médio + perlita + carvão vegetal miúdo.",
+      "Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia."
+    ]
+  },
+  {
+    "arquivo": "catasetum-mattosianum.js",
+    "perfil": "seasonal_catasetum",
+    "formato": "string",
+    "substratos": [
+      "Chips de coco médios + pedra-pomes + casca de arroz carbonizada + carvão vegetal: boa reserva hídrica no crescimento e secagem eficiente no repouso.",
+      "Esfagno de fibra longa solto + pedra-pomes + carvão, apenas em vaso pequeno e muito drenado no litoral quente.",
+      "Pinus médio + chips de coco + pedra-pomes + casca de arroz carbonizada.",
+      "Argila expandida + pedra-pomes + chips de coco, com fina camada superficial de esfagno somente na fase ativa."
+    ]
+  },
+  {
+    "arquivo": "cattleya-a-brazilian-dream.js",
+    "perfil": "coarse_epiphyte",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.",
+      "Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.",
+      "Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.",
+      "Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar."
+    ]
+  },
+  {
+    "arquivo": "cattleya-aclandiae-tipo.js",
+    "perfil": "coarse_dry",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira dura: raízes grossas recebem ar máximo e secam rapidamente após a rega.",
+      "Casca de macadâmia grossa + pedra-pomes + carvão vegetal, em vaso pequeno e muito perfurado.",
+      "Pinus grosso + brita/pedra-pomes + carvão vegetal, sem esfagno no centro do vaso.",
+      "Chips de coco muito grossos + argila expandida + carvão, apenas em cesto bastante vazado."
+    ]
+  },
+  {
+    "arquivo": "cattleya-chocolate-drop.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso."
+    ]
+  },
+  {
+    "arquivo": "cattleya-guttata-var-coerulea.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "cattleya-intermedia.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "cattleya-leopoldii-dark-princess.js",
+    "perfil": "coarse_epiphyte",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.",
+      "Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.",
+      "Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.",
+      "Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida."
+    ]
+  },
+  {
+    "arquivo": "cattleya-loddigesii.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas."
+    ]
+  },
+  {
+    "arquivo": "cattleya-lueddemanniana-tipo.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso."
+    ]
+  },
+  {
+    "arquivo": "cattleya-nobilior-var-amaliae.js",
+    "perfil": "coarse_dry",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.",
+      "Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.",
+      "Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.",
+      "Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso."
+    ]
+  },
+  {
+    "arquivo": "cattleya-pumpkin-festival.js",
+    "perfil": "coarse_epiphyte",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.",
+      "Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.",
+      "Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.",
+      "Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina."
+    ]
+  },
+  {
+    "arquivo": "cattleya-schilleriana-x-cruzeiro-do-sul.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso."
+    ]
+  },
+  {
+    "arquivo": "cattleya-schilleriana.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "cattleya-violacea-f-flamea.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas."
+    ]
+  },
+  {
+    "arquivo": "cattleya-violacea-f-suavissima-x-self.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas."
+    ]
+  },
+  {
+    "arquivo": "cattleya-walkeriana-f-alba-gnomus-x-f-alba-suprema.js",
+    "perfil": "coarse_dry",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.",
+      "Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.",
+      "Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.",
+      "Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado."
+    ]
+  },
+  {
+    "arquivo": "cattleya-walkeriana.js",
+    "perfil": "coarse_dry",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.",
+      "Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.",
+      "Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.",
+      "Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado."
+    ]
+  },
+  {
+    "arquivo": "cattleya-warneri.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "cattlianthe-ctt-jewel-box.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas."
+    ]
+  },
+  {
+    "arquivo": "coelogyne-asperata.js",
+    "perfil": "coelogyne_moist",
+    "formato": "string",
+    "substratos": [
+      "Chips de coco médios + casca de pinus média + pedra-pomes + esfagno picado em pequena proporção.",
+      "Pinus médio + chips de coco + perlita + carvão vegetal miúdo.",
+      "Esfagno de fibra longa bem solto + pedra-pomes + casca de pinus média, em recipiente raso e ventilado.",
+      "Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno."
+    ]
+  },
+  {
+    "arquivo": "coelogyne-cristata.js",
+    "perfil": "coelogyne_moist",
+    "formato": "string",
+    "substratos": [
+      "Chips de coco médios + casca de pinus média + pedra-pomes + esfagno picado em pequena proporção.",
+      "Pinus médio + chips de coco + perlita + carvão vegetal miúdo.",
+      "Esfagno de fibra longa bem solto + pedra-pomes + casca de pinus média, em recipiente raso e ventilado.",
+      "Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno."
+    ]
+  },
+  {
+    "arquivo": "coelogyne-fimbriata.js",
+    "perfil": "coelogyne_moist",
+    "formato": "string",
+    "substratos": [
+      "Chips de coco médios + casca de pinus média + pedra-pomes + esfagno picado em pequena proporção.",
+      "Esfagno de fibra longa bem solto + pedra-pomes + casca de pinus média, em recipiente raso e ventilado.",
+      "Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno.",
+      "Pinus médio + chips de coco + perlita + carvão vegetal miúdo."
+    ]
+  },
+  {
+    "arquivo": "coelogyne-flaccida.js",
+    "perfil": "coelogyne_moist",
+    "formato": "string",
+    "substratos": [
+      "Chips de coco médios + casca de pinus média + pedra-pomes + esfagno picado em pequena proporção.",
+      "Pinus médio + chips de coco + perlita + carvão vegetal miúdo.",
+      "Esfagno de fibra longa bem solto + pedra-pomes + casca de pinus média, em recipiente raso e ventilado.",
+      "Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno."
+    ]
+  },
+  {
+    "arquivo": "coelogyne-ovalis-var-miniatum.js",
+    "perfil": "coelogyne_moist",
+    "formato": "string",
+    "substratos": [
+      "Chips de coco médios + casca de pinus média + pedra-pomes + esfagno picado em pequena proporção.",
+      "Pinus médio + chips de coco + perlita + carvão vegetal miúdo.",
+      "Esfagno de fibra longa bem solto + pedra-pomes + casca de pinus média, em recipiente raso e ventilado.",
+      "Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno."
+    ]
+  },
+  {
+    "arquivo": "colmanara-wildcat.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média."
+    ]
+  },
+  {
+    "arquivo": "cyrtopodium-podophyllum.js",
+    "perfil": "terrestrial_open",
+    "formato": "string",
+    "substratos": [
+      "Casca de arroz carbonizada + fibra de coco + perlita + pedra-pomes, com pequena fração de pinus fino.",
+      "Chips de coco pequenos + casca de arroz carbonizada + pedra-pomes + argila expandida miúda.",
+      "Fibra de coco + perlita + pinus fino + carvão vegetal miúdo, mantendo drenagem rápida.",
+      "Casca de macadâmia média + casca de arroz carbonizada + pedra-pomes + fibra de coco, para estrutura durável e arejada."
+    ]
+  },
+  {
+    "arquivo": "cyrtopodium-saintlegerianum.js",
+    "perfil": "coarse_epiphyte",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.",
+      "Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.",
+      "Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.",
+      "Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar."
+    ]
+  },
+  {
+    "arquivo": "dendrobium-aggregatum.js",
+    "perfil": "coarse_dry",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.",
+      "Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.",
+      "Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.",
+      "Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida."
+    ]
+  },
+  {
+    "arquivo": "dendrobium-loddigesii.js",
+    "perfil": "coarse_dry",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.",
+      "Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.",
+      "Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.",
+      "Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso."
+    ]
+  },
+  {
+    "arquivo": "dendrobium-moscatum.js",
+    "perfil": "coarse_epiphyte",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.",
+      "Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.",
+      "Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.",
+      "Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar."
+    ]
+  },
+  {
+    "arquivo": "dendrobium-polysema.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco."
+    ]
+  },
+  {
+    "arquivo": "dendrobium-spectabile.js",
+    "perfil": "coarse_epiphyte",
+    "formato": "array",
+    "substratos": [
+      "Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.",
+      "Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.",
+      "Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.",
+      "Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina."
+    ]
+  },
+  {
+    "arquivo": "dendrobium-tenellum.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco."
+    ]
+  },
+  {
+    "arquivo": "dichaea-cogniauxiana.js",
+    "perfil": "humid_epiphyte_fine",
+    "formato": "array",
+    "substratos": [
+      "Casca de pinus fina/média + chips de coco pequenos + perlita + pedra-pomes.",
+      "Casca de macadâmia triturada média + fibra de coco grossa + pedra-pomes + pequena fração de esfagno.",
+      "Pinus médio + perlita + carvão vegetal miúdo + esfagno picado em baixa proporção.",
+      "Chips de coco + pedra-pomes + casca de pinus fina, mantendo umidade uniforme sem encharcar."
+    ]
+  },
+  {
+    "arquivo": "dichaea-pendula.js",
+    "perfil": "humid_epiphyte_fine",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus fina/média + chips de coco pequenos + perlita + pedra-pomes.",
+      "Chips de coco + pedra-pomes + casca de pinus fina, mantendo umidade uniforme sem encharcar.",
+      "Casca de macadâmia triturada média + fibra de coco grossa + pedra-pomes + pequena fração de esfagno.",
+      "Pinus médio + perlita + carvão vegetal miúdo + esfagno picado em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "dryadella-aviceps.js",
+    "perfil": "micro_humid",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."
+    ]
+  },
+  {
+    "arquivo": "dryadella-liliputiana.js",
+    "perfil": "micro_humid",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma."
+    ]
+  },
+  {
+    "arquivo": "encyclia-alboxanthina.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "array",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas."
+    ]
+  },
+  {
+    "arquivo": "encyclia-bracteata.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas."
+    ]
+  },
+  {
+    "arquivo": "encyclia-gallopavina.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "encyclia-mineirinha.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "encyclia-oncidioides.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas."
+    ]
+  },
+  {
+    "arquivo": "epicattleya-rene-marques.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "epidendrum-centropetalum.js",
+    "perfil": "micro_humid",
+    "formato": "array",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma."
+    ]
+  },
+  {
+    "arquivo": "eria-hyacinthoides.js",
+    "perfil": "bulbo_humid",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.",
+      "Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.",
+      "Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "gomesa-recurva.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto."
+    ]
+  },
+  {
+    "arquivo": "gongora-bufonia.js",
+    "perfil": "stanhopea_basket",
+    "formato": "string",
+    "substratos": [
+      "Chips de coco grossos + casca de pinus média + pedra-pomes + esfagno solto, em cesto vazado.",
+      "Casca de macadâmia média + chips de coco + perlita + esfagno em baixa proporção.",
+      "Pinus médio + fibra de coco grossa + pedra-pomes + carvão vegetal, mantendo umidade sem bloquear a haste descendente.",
+      "Cesto com chips de coco + macadâmia + pedra-pomes e uma fina camada de esfagno no topo, nunca compactada."
+    ]
+  },
+  {
+    "arquivo": "howeara-lava-burst.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média."
+    ]
+  },
+  {
+    "arquivo": "huntleya-meleagris.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto."
+    ]
+  },
+  {
+    "arquivo": "isabelia-virginalis.js",
+    "perfil": "coarse_dry",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.",
+      "Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.",
+      "Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.",
+      "Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso."
+    ]
+  },
+  {
+    "arquivo": "isochilus-linearis.js",
+    "perfil": "micro_humid",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma."
+    ]
+  },
+  {
+    "arquivo": "jacquiniella-globosa.js",
+    "perfil": "micro_humid",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma."
+    ]
+  },
+  {
+    "arquivo": "laelia-caulencens.js",
+    "perfil": "rupicolous",
+    "formato": "string",
+    "substratos": [
+      "Pedra-pomes + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.",
+      "Pedra-pomes + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.",
+      "Brita + pedra-pomes + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.",
+      "Macadâmia grossa + pedra-pomes + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado."
+    ]
+  },
+  {
+    "arquivo": "laelia-cinnabarina.js",
+    "perfil": "rupicolous",
+    "formato": "string",
+    "substratos": [
+      "Pedra-pomes + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.",
+      "Macadâmia grossa + pedra-pomes + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado.",
+      "Pedra-pomes + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.",
+      "Brita + pedra-pomes + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso."
+    ]
+  },
+  {
+    "arquivo": "laelia-fournieri.js",
+    "perfil": "rupicolous",
+    "formato": "string",
+    "substratos": [
+      "Pedra-pomes + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.",
+      "Brita + pedra-pomes + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.",
+      "Macadâmia grossa + pedra-pomes + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado.",
+      "Pedra-pomes + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "laelia-gloriosa.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas."
+    ]
+  },
+  {
+    "arquivo": "laelia-lundii-alba.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas."
+    ]
+  },
+  {
+    "arquivo": "laelia-lundii.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso."
+    ]
+  },
+  {
+    "arquivo": "laelia-praestans.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas."
+    ]
+  },
+  {
+    "arquivo": "laelia-splendida.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "array",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas."
+    ]
+  },
+  {
+    "arquivo": "lc-trick-or-treat.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso."
+    ]
+  },
+  {
+    "arquivo": "leptotes-unicolor.js",
+    "perfil": "epiphyte_medium_drier",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.",
+      "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+      "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+      "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso."
+    ]
+  },
+  {
+    "arquivo": "lockhartia-lunifera.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média."
+    ]
+  },
+  {
+    "arquivo": "ludisia-discolor.js",
+    "perfil": "terrestrial_humic",
+    "formato": "string",
+    "substratos": [
+      "Fibra de coco + casca de arroz carbonizada + perlita + casca de pinus fina, formando meio humoso e muito aerado.",
+      "Chips de coco pequenos + pinus fino + perlita + vermiculita em proporção pequena (até ~10%).",
+      "Fibra de coco + pedra-pomes fina + esfagno picado + casca de arroz carbonizada.",
+      "Pinus fino + chips de coco + perlita + pequena fração de vermiculita; nunca usar terra pesada e compacta."
+    ]
+  },
+  {
+    "arquivo": "maxillaria-brasiliensis.js",
+    "perfil": "maxillaria_moist",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia triturada média + casca de pinus média + pedra-pomes + fibra de coco grossa: estrutura durável, aerada e com umidade moderada para raízes finas epífitas.",
+      "Chips de coco + pinus médio + perlita + carvão vegetal miúdo, em vaso relativamente justo.",
+      "Pinus médio + pedra-pomes + pequena fração de esfagno picado + macadâmia, sem compactar o centro do vaso.",
+      "Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio; evitar vasos grandes e mistura degradada."
+    ]
+  },
+  {
+    "arquivo": "maxillaria-chrysantha.js",
+    "perfil": "maxillaria_moist",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.",
+      "Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia.",
+      "Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.",
+      "Chips de coco + pinus médio + perlita + carvão vegetal miúdo."
+    ]
+  },
+  {
+    "arquivo": "maxillaria-leucaimata.js",
+    "perfil": "rupicolous",
+    "formato": "string",
+    "substratos": [
+      "Pedra-pomes + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.",
+      "Macadâmia grossa + pedra-pomes + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado.",
+      "Pedra-pomes + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.",
+      "Brita + pedra-pomes + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso."
+    ]
+  },
+  {
+    "arquivo": "maxillaria-picta.js",
+    "perfil": "maxillaria_moist",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.",
+      "Chips de coco + pinus médio + perlita + carvão vegetal miúdo.",
+      "Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia.",
+      "Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação."
+    ]
+  },
+  {
+    "arquivo": "maxillaria-pumila-ex-minuta.js",
+    "perfil": "maxillaria_moist",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.",
+      "Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.",
+      "Chips de coco + pinus médio + perlita + carvão vegetal miúdo.",
+      "Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia."
+    ]
+  },
+  {
+    "arquivo": "maxillaria-schunkeana.js",
+    "perfil": "maxillaria_moist",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.",
+      "Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.",
+      "Chips de coco + pinus médio + perlita + carvão vegetal miúdo.",
+      "Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia."
+    ]
+  },
+  {
+    "arquivo": "maxillaria-subulata.js",
+    "perfil": "maxillaria_moist",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.",
+      "Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.",
+      "Chips de coco + pinus médio + perlita + carvão vegetal miúdo.",
+      "Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia."
+    ]
+  },
+  {
+    "arquivo": "maxillaria-tenuifolia.js",
+    "perfil": "maxillaria_moist",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.",
+      "Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia.",
+      "Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.",
+      "Chips de coco + pinus médio + perlita + carvão vegetal miúdo."
+    ]
+  },
+  {
+    "arquivo": "mediocalcar-decoratum.js",
+    "perfil": "maxillaria_moist",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.",
+      "Chips de coco + pinus médio + perlita + carvão vegetal miúdo.",
+      "Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia.",
+      "Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação."
+    ]
+  },
+  {
+    "arquivo": "miltonia-candida.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco."
+    ]
+  },
+  {
+    "arquivo": "miltonia-clowesii.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto."
+    ]
+  },
+  {
+    "arquivo": "miltonia-regnellii.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco."
+    ]
+  },
+  {
+    "arquivo": "miltonia-russelliana.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "array",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto."
+    ]
+  },
+  {
+    "arquivo": "miltonia-spectabilis-var-moreliana.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco."
+    ]
+  },
+  {
+    "arquivo": "neobenthamia-gracilis.js",
+    "perfil": "terrestrial_open",
+    "formato": "string",
+    "substratos": [
+      "Casca de arroz carbonizada + fibra de coco + perlita + pedra-pomes, com pequena fração de pinus fino.",
+      "Casca de macadâmia média + casca de arroz carbonizada + pedra-pomes + fibra de coco, para estrutura durável e arejada.",
+      "Chips de coco pequenos + casca de arroz carbonizada + pedra-pomes + argila expandida miúda.",
+      "Fibra de coco + perlita + pinus fino + carvão vegetal miúdo, mantendo drenagem rápida."
+    ]
+  },
+  {
+    "arquivo": "notylia-pubescens.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média."
+    ]
+  },
+  {
+    "arquivo": "octomeria-diaphana.js",
+    "perfil": "micro_humid",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."
+    ]
+  },
+  {
+    "arquivo": "octomeria-micrantha.js",
+    "perfil": "micro_humid",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado."
+    ]
+  },
+  {
+    "arquivo": "oncidium-pubes.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média."
+    ]
+  },
+  {
+    "arquivo": "oncidium-pumilum.js",
+    "perfil": "rupicolous",
+    "formato": "string",
+    "substratos": [
+      "Pedra-pomes + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.",
+      "Brita + pedra-pomes + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.",
+      "Macadâmia grossa + pedra-pomes + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado.",
+      "Pedra-pomes + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "oncidium-twinkle.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto."
+    ]
+  },
+  {
+    "arquivo": "ornithocephalus-myrticola.js",
+    "perfil": "micro_humid",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."
+    ]
+  },
+  {
+    "arquivo": "ornithophora-radicans.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média."
+    ]
+  },
+  {
+    "arquivo": "pabstiella-trifida.js",
+    "perfil": "micro_humid",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado."
+    ]
+  },
+  {
+    "arquivo": "phaius-tankervilleae-alba.js",
+    "perfil": "terrestrial_humic",
+    "formato": "string",
+    "substratos": [
+      "Fibra de coco + chips de coco pequenos + casca de arroz carbonizada + perlita, mantendo umidade regular sem compactação.",
+      "Pinus fino + fibra de coco + perlita + pequena fração de vermiculita para aumentar retenção sem encharcar.",
+      "Chips de coco + pedra-pomes fina + casca de arroz carbonizada + esfagno picado em pequena quantidade.",
+      "Fibra de coco + pinus fino + perlita + carvão vegetal miúdo; vaso profundo, mas com drenagem livre."
+    ]
+  },
+  {
+    "arquivo": "phalaenopsis-mannii.js",
+    "perfil": "phalaenopsis",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Pinus médio + pedra-pomes + esfagno em pequena quantidade apenas para estabilizar a umidade.",
+      "Casca de macadâmia média + pinus médio + pequena fração de esfagno solto.",
+      "Chips de coco + perlita + carvão vegetal + casca de pinus média."
+    ]
+  },
+  {
+    "arquivo": "phalaenopsis-pulcherrima.js",
+    "perfil": "rupicolous",
+    "formato": "array",
+    "substratos": [
+      "Pedra-pomes + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.",
+      "Pedra-pomes + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.",
+      "Brita + pedra-pomes + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.",
+      "Macadâmia grossa + pedra-pomes + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado."
+    ]
+  },
+  {
+    "arquivo": "pleurothallis-modestissima.js",
+    "perfil": "micro_humid",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado."
+    ]
+  },
+  {
+    "arquivo": "promenaea-guttata.js",
+    "perfil": "micro_humid",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."
+    ]
+  },
+  {
+    "arquivo": "promenaea-xanthina.js",
+    "perfil": "micro_humid",
+    "formato": "array",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma."
+    ]
+  },
+  {
+    "arquivo": "renanthera-coccinea.js",
+    "perfil": "vanda_open",
+    "formato": "string",
+    "substratos": [
+      "Cesto muito aberto com macadâmia grossa + carvão vegetal + pedra-pomes; não preencher todos os espaços entre as raízes.",
+      "Cultivo quase sem substrato, usando nós de pinho ou sarrafos de madeira apenas para fixação.",
+      "Pinus muito grosso + argila expandida + carvão vegetal em cesto vazado.",
+      "Chips de coco muito grossos + macadâmia + carvão, apenas o suficiente para estabilizar a planta."
+    ]
+  },
+  {
+    "arquivo": "rlc-turandot-x-rth-orange-show-x-rlc-chunyeah.js",
+    "perfil": "coarse_epiphyte",
+    "formato": "string",
+    "substratos": [
+      "Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.",
+      "Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.",
+      "Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.",
+      "Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida."
+    ]
+  },
+  {
+    "arquivo": "rodricidium.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco."
+    ]
+  },
+  {
+    "arquivo": "rodriguezia-lanceolata.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto."
+    ]
+  },
+  {
+    "arquivo": "rodriguezia-venusta.js",
+    "perfil": "humid_epiphyte_medium",
+    "formato": "string",
+    "substratos": [
+      "Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.",
+      "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
+      "Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+      "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto."
+    ]
+  },
+  {
+    "arquivo": "sophronitis-cernua-var-litoranea.js",
+    "perfil": "coarse_dry",
+    "formato": "string",
+    "substratos": [
+      "Nó de pinho, cortiça ou galho rugoso, praticamente sem substrato: opção mais próxima do hábito costeiro exposto e muito ventilado.",
+      "Macadâmia grossa + pedra-pomes + carvão vegetal, em recipiente minúsculo e vazado.",
+      "Pinus grosso + brita fina/média + carvão, com secagem rápida entre regas.",
+      "Argila expandida + pedra-pomes + macadâmia em cesto pequeno; evitar esfagno compactado no litoral."
+    ]
+  },
+  {
+    "arquivo": "sophronitis-cernua.js",
+    "perfil": "coarse_dry",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.",
+      "Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.",
+      "Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.",
+      "Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado."
+    ]
+  },
+  {
+    "arquivo": "sophronitis-wittigiana.js",
+    "perfil": "rupicolous",
+    "formato": "string",
+    "substratos": [
+      "Nó de pinho ou cortiça com fina manta de esfagno apenas sob as raízes, equilibrando umidade e ventilação.",
+      "Pedra-pomes + macadâmia média + pinus médio + pequena fração de esfagno solto.",
+      "Pinus médio + perlita + pedra-pomes + esfagno em baixa proporção.",
+      "Cesto pequeno com macadâmia + pedra-pomes + chips de coco pequenos, evitando aquecimento e saturação no centro."
+    ]
+  },
+  {
+    "arquivo": "spathoglottis-plicata.js",
+    "perfil": "terrestrial_open",
+    "formato": "string",
+    "substratos": [
+      "Casca de arroz carbonizada + fibra de coco + perlita + pedra-pomes, com pequena fração de pinus fino.",
+      "Chips de coco pequenos + casca de arroz carbonizada + pedra-pomes + argila expandida miúda.",
+      "Fibra de coco + perlita + pinus fino + carvão vegetal miúdo, mantendo drenagem rápida apesar do hábito terrestre.",
+      "Macadâmia média + casca de arroz carbonizada + pedra-pomes + fibra de coco para uma mistura durável e aberta."
+    ]
+  },
+  {
+    "arquivo": "specklinia-grobyi.js",
+    "perfil": "micro_humid",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.",
+      "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.",
+      "Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.",
+      "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado."
+    ]
+  },
+  {
+    "arquivo": "stanhopea-assidensis.js",
+    "perfil": "stanhopea_basket",
+    "formato": "string",
+    "substratos": [
+      "Chips de coco grossos + casca de pinus média + pedra-pomes + esfagno solto, em cesto vazado.",
+      "Casca de macadâmia média + chips de coco + perlita + esfagno em baixa proporção.",
+      "Pinus médio + fibra de coco grossa + pedra-pomes + carvão vegetal, mantendo umidade sem bloquear a haste descendente.",
+      "Cesto com chips de coco + macadâmia + pedra-pomes e uma fina camada de esfagno no topo, nunca compactada."
+    ]
+  },
+  {
+    "arquivo": "stanhopea-guttulata.js",
+    "perfil": "stanhopea_basket",
+    "formato": "string",
+    "substratos": [
+      "Chips de coco grossos + casca de pinus média + pedra-pomes + esfagno solto, em cesto vazado.",
+      "Pinus médio + fibra de coco grossa + pedra-pomes + carvão vegetal, mantendo umidade sem bloquear a haste descendente.",
+      "Cesto com chips de coco + macadâmia + pedra-pomes e uma fina camada de esfagno no topo, nunca compactada.",
+      "Casca de macadâmia média + chips de coco + perlita + esfagno em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "stanhopea-hernandezii.js",
+    "perfil": "stanhopea_basket",
+    "formato": "string",
+    "substratos": [
+      "Chips de coco grossos + casca de pinus média + pedra-pomes + esfagno solto, em cesto vazado.",
+      "Pinus médio + fibra de coco grossa + pedra-pomes + carvão vegetal, mantendo umidade sem bloquear a haste descendente.",
+      "Cesto com chips de coco + macadâmia + pedra-pomes e uma fina camada de esfagno no topo, nunca compactada.",
+      "Casca de macadâmia média + chips de coco + perlita + esfagno em baixa proporção."
+    ]
+  },
+  {
+    "arquivo": "trichocentrum-fuscum.js",
+    "perfil": "coarse_dry",
+    "formato": "string",
+    "substratos": [
+      "Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.",
+      "Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.",
+      "Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.",
+      "Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida."
+    ]
+  },
+  {
+    "arquivo": "zygolum-louisendorf.js",
+    "perfil": "zygopetalum",
+    "formato": "string",
+    "substratos": [
+      "Chips de coco médios + casca de pinus fina/média + perlita + pedra-pomes, mantendo umidade regular.",
+      "Pinus médio + fibra de coco + pedra-pomes + casca de arroz carbonizada; evitar secagem extrema e compactação.",
+      "Fibra de coco grossa + casca de arroz carbonizada + pinus médio + pedra-pomes.",
+      "Casca de macadâmia média + chips de coco + perlita + pequena fração de esfagno picado."
+    ]
+  },
+  {
+    "arquivo": "zygopetalum-maculatum.js",
+    "perfil": "zygopetalum",
+    "formato": "string",
+    "substratos": [
+      "Chips de coco médios + casca de pinus fina/média + perlita + pedra-pomes, mantendo umidade regular.",
+      "Fibra de coco grossa + casca de arroz carbonizada + pinus médio + pedra-pomes.",
+      "Casca de macadâmia média + chips de coco + perlita + pequena fração de esfagno picado.",
+      "Pinus médio + fibra de coco + pedra-pomes + casca de arroz carbonizada; evitar secagem extrema e compactação."
+    ]
+  }
+]

@@ -40,11 +40,7 @@ export const encycliaAlboxanthina = {
         "🥈 Vaso de barro bem perfurado e proporcional à touceira.",
         "🥉 Montagem em cortiça ou madeira, quando houver disponibilidade de regas frequentes."
     ],
-    substrato: [
-        "🥇 Casca de pinus média a grossa + pedra-pomes + carvão vegetal.",
-        "🥈 Pedra-pomes + casca grossa + carvão vegetal.",
-        "🥉 Montagem com mínima retenção de umidade junto às raízes."
-    ],
+    substrato: ["Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.", "Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.", "Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.", "Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas."],
     errosComuns: [
         "Cultivar em sombra profunda",
         "Manter o substrato permanentemente molhado",

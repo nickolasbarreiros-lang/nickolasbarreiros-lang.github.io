@@ -41,11 +41,7 @@ export const miltoniaRusselliana = {
         "🥈 Vaso de barro ou plástico muito perfurado, proporcional ao tamanho da touceira.",
         "🥉 Montagem em madeira ou cortiça em ambientes com umidade alta e regas frequentes."
     ],
-    substrato: [
-        "🥇 Casca de pinus média + pedra-pomes + carvão vegetal + pequena quantidade de esfagno.",
-        "🥈 Casca de pinus média + pedra-pomes + esfagno solto.",
-        "🥉 Fibra de coco em cubos + pedra-pomes + carvão vegetal, mantendo boa aeração."
-    ],
+    substrato: ["Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.", "Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.", "Chips de coco + carvão vegetal + perlita + casca de pinus média.", "Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto."],
     errosComuns: [
         "Cultivar em sombra profunda",
         "Usar vaso grande demais para a touceira",
