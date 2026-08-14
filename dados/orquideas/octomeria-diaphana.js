@@ -39,7 +39,7 @@ export const octomeriaDiaphana = {
     "errosComuns": "❌ Dividir a touceira em 1 ou 2 ramicaules.\n❌ Permitir seca completa por vários dias.\n❌ Cultivar em vaso fundo ou substrato compacto.\n❌ Aplicar adubo forte ou deixar sais acumularem.\n❌ Deixar água parada nas axilas durante noites frias.\n❌ Retirar folhas antigas ainda verdes, que continuam ajudando na reserva hídrica.\n❌ Manipular a planta durante a emissão de novos ramicaules.\n❌ Manter em ambiente sem circulação de ar.",
     "dica": "Preserve a touceira inteira. Se a divisão for inevitável, mantenha pelo menos 5–6 ramicaules vigorosos e enraizados. Monte em madeira ou cortiça com uma lâmina fina de esfagno, deixando as raízes respirar, e evite mudar o suporte depois da fixação. Não retire folhas verdes antigas nem manipule a planta durante o crescimento. Quanto mais antiga e densa a touceira, maior o número de fascículos e mais evidente o efeito de nuvem de flores diáfanas.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, cultive no setor mais fresco e sombreado do orquidário, sob 70–75% de sombrite, com ventilação constante. Regue pela manhã; em dias muito quentes, aumente a umidade ao redor sem engrossar o esfagno nem manter a base abafada.",
+        "litoralQuente": "Em Litoral de clima quente, cultive no setor mais fresco e sombreado do orquidário, sob 70–75% de sombrite, com ventilação constante. Regue pela manhã; em dias muito quentes, aumente a umidade ao redor sem engrossar o esfagno nem manter a base abafada.",
         "montanhaFrio": "Excelente adaptação. Proteja de geadas e ventos ressecantes. Em semanas frias e nubladas, reduza a frequência das regas, mas não permita seca total."
     },
     "mesesFloracao": [

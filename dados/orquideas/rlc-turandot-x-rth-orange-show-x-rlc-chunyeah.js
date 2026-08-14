@@ -31,7 +31,7 @@ export const rlcTurandotXOrangeShowXChunyeah = {
         sombrite: "40% a 60% — cerca de 50% como ponto inicial",
         solDireto: "Somente suave e com aclimatação",
         horario: "Primeiras horas da manhã",
-        observacoes: "Pseudobulbos compactos, folhas firmes e ausência de estiolamento são melhores indicadores que uma cor foliar rígida. Em Serra/ES, cerca de 50% de sombreamento costuma oferecer excelente equilíbrio."
+        observacoes: "Pseudobulbos compactos, folhas firmes e ausência de estiolamento são melhores indicadores que uma cor foliar rígida. Em Litoral de clima quente, cerca de 50% de sombreamento costuma oferecer excelente equilíbrio."
     },
     floracao: "Variável conforme o indivíduo e a maturação dos pseudobulbos. Como referência horticultural ampla, pode ocorrer de março a outubro, mas seedlings podem florescer fora dessa janela.",
     adubacao: "🌿 Orgânica: Bokashi opcional em pequena quantidade durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em aproximadamente 1/4 a 1/3 da dose a cada 10 a 15 dias na brotação e enraizamento.\n🧪 Liberação lenta: Osmocote em dose moderada em vasos ou cachepôs bem drenados. Após a maturação, reduza gradualmente a frequência da fertilização e o excesso de nitrogênio. Não é necessário usar 09-45-15 ou 10-30-20 em altas doses para induzir flores.",
@@ -39,9 +39,9 @@ export const rlcTurandotXOrangeShowXChunyeah = {
     suporte: "🥇 Cachepô de madeira ou vaso plástico muito perfurado.\n🥈 Vaso de barro proporcional ao sistema radicular.\n🥉 Cesto aberto para exemplares grandes e vigorosos.",
     substrato: "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.\n🥈 Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.\n🥉 Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.\n⭐ Alternativa: Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.",
     errosComuns: "• Usar Brassocattleya Turandot como nomenclatura atual.\n• Chamar Orange Show de Rlc.; atualmente é Rth. Orange Show.\n• Tratar seedlings como clones uniformes.\n• Usar vaso grande demais.\n• Cultivar em sombra excessiva.\n• Manter encharcamento constante.\n• Usar fósforo muito alto para forçar floração.\n• Adubação concentrada.\n• Dividir plantas pequenas sem necessidade.",
-    dica: "🏆 Se crescer forte e não florescer, examine primeiro a luz e a maturação do pseudobulbo. Use recipiente proporcional ao sistema radicular e substrato muito aberto. Durante crescimento, dê água e nutrição equilibrada; depois da maturação, apenas reduza gradualmente a frequência. Em Serra/ES, cerca de 50% de sombra, ventilação constante e ciclos rápidos de molha-e-seca oferecem excelente desempenho. O objetivo é produzir pseudobulbo forte, folha firme e raízes ativas — não forçar botões com fósforo excessivo.",
+    dica: "🏆 Se crescer forte e não florescer, examine primeiro a luz e a maturação do pseudobulbo. Use recipiente proporcional ao sistema radicular e substrato muito aberto. Durante crescimento, dê água e nutrição equilibrada; depois da maturação, apenas reduza gradualmente a frequência. Em Litoral de clima quente, cerca de 50% de sombra, ventilação constante e ciclos rápidos de molha-e-seca oferecem excelente desempenho. O objetivo é produzir pseudobulbo forte, folha firme e raízes ativas — não forçar botões com fósforo excessivo.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente, 5/5. Híbrido muito compatível com Serra/ES quando há luz, ventilação e secagem adequada do vaso.",
+        litoralQuente: "Excelente, 5/5. Híbrido muito compatível com Litoral de clima quente quando há luz, ventilação e secagem adequada do vaso.",
         montanhaFrio: "Boa. Proteja de frio intenso e reduza regas quando a evaporação cair."
     },
     mesesFloracao: [3, 4, 5, 6, 7, 8, 9, 10],

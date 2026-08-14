@@ -33,7 +33,7 @@ export const cattleyaGuttataVarCoerulea = {
         sombrite: "40% a 50%",
         solDireto: "Sim, suave e com aclimatação",
         horario: "Primeiras horas da manhã",
-        observacoes: "É uma bifoliada de luminosidade muito alta. Em Serra/ES, ofereça 40% a 50% de sombreamento e bastante circulação de ar. Folhas firmes, pseudobulbos grossos e eretos e crescimento compacto são indicadores melhores que perseguir uma cor verde-alface específica."
+        observacoes: "É uma bifoliada de luminosidade muito alta. Em Litoral de clima quente, ofereça 40% a 50% de sombreamento e bastante circulação de ar. Folhas firmes, pseudobulbos grossos e eretos e crescimento compacto são indicadores melhores que perseguir uma cor verde-alface específica."
     },
     floracao: "Principalmente do fim do verão ao outono, com maior probabilidade entre fevereiro e maio; alguns clones podem avançar até junho conforme clima e ciclo de crescimento.",
     adubacao: "🌿 Orgânica: Bokashi em pequena quantidade a cada 60 a 90 dias durante crescimento ativo, sem contato direto com raízes novas.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose semanal ou quinzenalmente enquanto brotos e raízes estiverem ativos.\n🧪 Liberação lenta: Osmocote 14-14-14 ou equivalente pode ser usado em dose moderada em vasos grandes. Reduza a adubação líquida se usar liberação lenta. Não há necessidade de formulações extremamente fosfatadas, como 9-45-15, para induzir floração.",
@@ -43,7 +43,7 @@ export const cattleyaGuttataVarCoerulea = {
     errosComuns: "• Planta balançando após o replantio, rompendo pontas radiculares novas.\n• Vaso leve que tomba com o peso dos pseudobulbos.\n• Sombra excessiva e crescimento estiolado.\n• Vaso enorme com núcleo constantemente úmido.\n• Substrato velho e decomposto.\n• Secar demais durante a formação de novos pseudobulbos.\n• Dividir clones valiosos em pedaços muito pequenos.\n• Replantar quando não há novas raízes em início de crescimento.\n• Adubação excessiva ou uso de fósforo muito concentrado.",
     dica: "🏆 Imobilize a base antes de pensar na floração. O grande porte transforma cada pseudobulbo em uma alavanca: vento ou esbarrões podem movimentar o rizoma e romper as pontas das raízes novas. Após o replantio, fixe firmemente rizoma e pseudobulbos principais com amarração macia ou revestida, sem estrangular os tecidos. Preserve divisões com pelo menos 4 a 5 pseudobulbos e, em clones coerulea valiosos, prefira touceiras ainda maiores. Faça o replantio quando as primeiras raízes novas começarem a aparecer.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação, 5/5. Serra/ES combina calor e umidade atmosférica favoráveis à espécie; o principal cuidado é evitar substrato velho, centro encharcado e falta de ventilação em noites quentes.",
+        litoralQuente: "Excelente adaptação, 5/5. Litoral de clima quente combina calor e umidade atmosférica favoráveis à espécie; o principal cuidado é evitar substrato velho, centro encharcado e falta de ventilação em noites quentes.",
         montanhaFrio: "Boa adaptação se houver muita luminosidade. Proteja de geadas e reduza as regas quando frio e umidade diminuírem a evaporação."
     },
     mesesFloracao: [2, 3, 4, 5, 6],

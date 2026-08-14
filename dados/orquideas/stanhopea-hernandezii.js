@@ -44,7 +44,7 @@ export const stanhopeaHernandezii = {
     "errosComuns": "Vaso fechado; fundo bloqueado; seca total na brotação; mover ou girar a cesta com haste emergente; replantar durante floração; molhar flores à noite; sombra profunda; substrato velho e compacto.",
     "dica": "Use cesta suspensa com o fundo totalmente livre. Assim que a haste floral aparecer por baixo, não gire, não mude de posição e não replante a planta. A estabilidade física durante essa fase é tão importante quanto água e luz.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, cultive no setor sombreado e mais ventilado, elevando a umidade do ar sem saturar a cesta à noite.",
+        "litoralQuente": "Em Litoral de clima quente, cultive no setor sombreado e mais ventilado, elevando a umidade do ar sem saturar a cesta à noite.",
         "montanhaFrio": "Muito favorável em clima intermediário; proteja apenas de geadas e frio extremo."
     },
     "mesesFloracao": [

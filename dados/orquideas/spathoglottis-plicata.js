@@ -44,7 +44,7 @@ export const spathoglottisPlicata = {
     "errosComuns": "Terra compacta; enterrar pseudobulbos; prato com água; sombra profunda; matéria orgânica fresca; vaso sem drenagem; deixar secar totalmente no crescimento; excesso de chuva no colo; cortar folhas verdes; dividir em poucas unidades; pouca luz.",
     "dica": "Use recipiente amplo, mistura terrestre leve e muito drenante e ofereça sol da manhã. Deixe os pseudobulbos parcialmente expostos na superfície. Essa combinação de luz alta, água regular e raízes oxigenadas mantém a planta vigorosa e capaz de produzir hastes por muitos meses.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, a adaptação é excelente. Tolera calor e umidade, desde que receba sol matinal, drenagem forte e proteção contra encharcamento prolongado.",
+        "litoralQuente": "Em Litoral de clima quente, a adaptação é excelente. Tolera calor e umidade, desde que receba sol matinal, drenagem forte e proteção contra encharcamento prolongado.",
         "montanhaFrio": "Cultive em local claro e protegido de geadas. Reduza regas no inverno sem deixar a mistura totalmente seca."
     },
     "mesesFloracao": [

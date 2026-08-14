@@ -40,7 +40,7 @@ export const maxillariaPicta = {
     "errosComuns": "❌ Replantar ou dividir fora do início de novas raízes.\n❌ Usar vaso muito grande e manter o centro úmido por vários dias.\n❌ Enterrar o rizoma, brotos ou hastes basais.\n❌ Cultivar em sombra profunda e esperar que apenas o frio provoque floração.\n❌ Arrancar bainhas firmemente aderidas durante a limpeza da base.\n❌ Regar com frequência no frio sem ventilação.\n❌ Aplicar adubo concentrado em raízes finas ou secas.",
     "dica": "Replante somente quando novas pontas de raízes começarem a aparecer. Fora dessa janela, a planta pode permanecer estagnada por muitos meses. No outono e inverno, mantenha luz filtrada forte e aproveite a queda natural da temperatura noturna para indução. Como as hastes florais são curtas e basais, remova apenas detritos soltos e bainhas totalmente deterioradas; não “descasque” o pseudobulbo à força. Mantenha a base ventilada e evite que água fique acumulada ao redor dos botões.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, use vaso pequeno, mistura mais mineral, ventilação forte e o ponto mais fresco do orquidário. Proteja do calor noturno abafado.",
+        "litoralQuente": "Em Litoral de clima quente, use vaso pequeno, mistura mais mineral, ventilação forte e o ponto mais fresco do orquidário. Proteja do calor noturno abafado.",
         "montanhaFrio": "Em Santa Teresa/ES, a amplitude térmica natural favorece a floração. Reduza a rega em semanas frias e chuvosas, sem impor seca completa."
     },
     "mesesFloracao": [7, 8, 9, 10, 11],

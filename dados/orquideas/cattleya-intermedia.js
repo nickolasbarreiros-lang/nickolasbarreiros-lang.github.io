@@ -42,7 +42,7 @@ export const cattleyaIntermedia = {
     errosComuns: "• Enterrar o rizoma ou as gemas de brotação.\n• Sombra excessiva, que produz pseudobulbos finos e reduz a floração.\n• Vaso muito grande e com excesso de substrato úmido.\n• Substrato velho, ácido ou decomposto.\n• Replantar fora do início da emissão de raízes novas.\n• Manter o centro do recipiente constantemente molhado.\n• Secar excessivamente durante crescimento ativo.\n• Tentar compensar pouca luz com adubação forte.",
     dica: "🏆 Mantenha o rizoma livre e replante apenas quando surgirem as primeiras pontas de raízes novas. Cattleya intermedia responde melhor quando o novo crescimento consegue colonizar imediatamente o recipiente. Em vez de perseguir uma cor exata de folha, observe raízes ativas, pseudobulbos robustos, folhas firmes e floração regular. Preserve touceiras grandes sempre que houver espaço: várias frentes maduras significam mais reservas e maior potencial de flores simultâneas.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação. Em Serra/ES, cerca de 50% de sombreamento, ventilação constante, boa água durante o crescimento e substrato aberto tornam esta uma das Cattleyas botânicas mais seguras para o litoral.",
+        litoralQuente: "Excelente adaptação. Em Litoral de clima quente, cerca de 50% de sombreamento, ventilação constante, boa água durante o crescimento e substrato aberto tornam esta uma das Cattleyas botânicas mais seguras para o litoral.",
         montanhaFrio: "Adapta-se muito bem a noites frescas. Reduza a rega apenas quando a evaporação realmente cair e proteja de geadas e longos períodos de chuva fria."
     },
     mesesFloracao: [2, 3, 4, 5],

@@ -38,7 +38,7 @@ export const epicattleyaReneMarques = {
     errosComuns: "Enterrar o rizoma; cultivar sob sombra excessiva; usar vasos grandes demais; manter o substrato continuamente encharcado; exagerar no nitrogênio após a maturação; tentar compensar pouca luz com adubos concentrados de fósforo ou potássio; replantar fora da emissão de raízes novas; deixar hastes altas sem tutoramento quando necessário.",
     dica: "Dê espaço vertical e luz abundante: esse híbrido pode ultrapassar 1 m e florescer no topo dos caules. O grex é geneticamente 50% E. pseudepidendrum, 25% C. loddigesii e 25% C. intermedia; por isso, vigor, forma e intensidade de cor podem variar entre clones, e não devem ser tratados como características fixas.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação em Serra/ES. Garanta ventilação forte, luz alta filtrada e substrato de secagem rápida. O porte pode ultrapassar 1,20 m, por isso reserve espaço e use tutor quando necessário.",
+        litoralQuente: "Excelente adaptação em Litoral de clima quente. Garanta ventilação forte, luz alta filtrada e substrato de secagem rápida. O porte pode ultrapassar 1,20 m, por isso reserve espaço e use tutor quando necessário.",
         montanhaFrio: "Boa adaptação. Proteja de geadas e ventos muito frios, reduza a rega em dias de baixa temperatura e evite deixar raízes molhadas durante a noite."
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],

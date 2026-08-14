@@ -39,7 +39,7 @@ export const octomeriaMicrantha = {
     "errosComuns": "❌ Fracionar touceiras em poucas hastes.\n❌ Manter substrato encharcado ou compactado.\n❌ Usar vaso fundo.\n❌ Aplicar fertilizante concentrado.\n❌ Cultivar em sombra profunda.\n❌ Impor seca prolongada no verão.\n❌ Remover bainhas ainda verdes.\n❌ Manipular a planta enquanto novos ramicaules se formam.\n❌ Molhar a folhagem no fim da tarde em noites frias.",
     "dica": "Preserve touceiras robustas e, se a divisão for indispensável, mantenha pelo menos 5 ramicaules vigorosos e enraizados. Prefira montagem permanente em madeira ou cortiça, com pouca umidade concentrada na base e raízes livres. Não retire bainhas verdes nem manipule a planta durante o crescimento. A espécie tolera secagem superficial leve, mas não abandono hídrico. Quanto maior a almofada, maior será o número de fascículos florais.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, use 65–70% de sombrite, placas ou pequenos cestos e circulação de ar constante. No verão, uma segunda nebulização ambiental leve pode ser útil, desde que a touceira não permaneça molhada e abafada.",
+        "litoralQuente": "Em Litoral de clima quente, use 65–70% de sombrite, placas ou pequenos cestos e circulação de ar constante. No verão, uma segunda nebulização ambiental leve pode ser útil, desde que a touceira não permaneça molhada e abafada.",
         "montanhaFrio": "Ótima adaptação. Proteja de geada e reduza as regas em dias frios e chuvosos, mantendo apenas umidade residual e boa ventilação."
     },
     "mesesFloracao": [

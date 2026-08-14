@@ -30,7 +30,7 @@ export const cattleyaPumpkinFestival = {
         sombrite: "40% a 50%",
         solDireto: "Somente suave",
         horario: "Até aproximadamente 09:00",
-        observacoes: "Em Serra/ES, prefira sombrite de 50%. Folhas firmes e verde-claras indicam boa luminosidade; folhas muito escuras costumam acompanhar floração fraca. Aclimate gradualmente para evitar queimaduras."
+        observacoes: "Em Litoral de clima quente, prefira sombrite de 50%. Folhas firmes e verde-claras indicam boa luminosidade; folhas muito escuras costumam acompanhar floração fraca. Aclimate gradualmente para evitar queimaduras."
     },
     floracao: "Predominantemente do outono ao início do inverno, entre março e junho, com variação conforme o clone e o ciclo de crescimento.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade, renovado a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose recomendada a cada 7 a 15 dias. Após a maturação dos pseudobulbos, alternar ocasionalmente com fórmulas mais ricas em fósforo e potássio, como 09-45-15 ou 10-30-20.\n🧪 Liberação lenta: Osmocote 14-14-14 em baixa quantidade no canto do vaso, sempre longe das raízes novas.",
@@ -40,7 +40,7 @@ export const cattleyaPumpkinFestival = {
     errosComuns: "Cultivar sob sombra excessiva; utilizar vasos grandes e fundos; enterrar o rizoma; manter o substrato constantemente úmido; replantar fora da emissão de raízes novas; exagerar na adubação nitrogenada; deixar água acumulada na espata floral.",
     dica: "A intensidade da coloração laranja e o tamanho das flores dependem diretamente da luminosidade recebida durante a formação dos pseudobulbos. Cultive em vaso relativamente justo, com excelente ventilação e alta luminosidade, evitando apenas queimaduras causadas pelo sol forte do meio-dia.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação em Serra/ES. Use sombrite de aproximadamente 50%, substrato de secagem rápida e ventilação constante. Em vasos plásticos, evite superaquecimento e excesso de umidade.",
+        litoralQuente: "Excelente adaptação em Litoral de clima quente. Use sombrite de aproximadamente 50%, substrato de secagem rápida e ventilação constante. Em vasos plásticos, evite superaquecimento e excesso de umidade.",
         montanhaFrio: "Desenvolve-se muito bem com luminosidade elevada. No inverno, reduza discretamente as regas e proteja a planta quando houver temperaturas persistentes abaixo de aproximadamente 10 a 12 °C."
     },
     mesesFloracao: [3, 4, 5, 6],

@@ -41,7 +41,7 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     "errosComuns": "Temperaturas prolongadas abaixo de 15 °C; seca severa; água salina; fertilizante concentrado; excesso de Osmocote; falta de flushing; raízes abafadas; pouca luz; substrato degradado; água no rizoma; replantar fora do novo enraizamento; assumir que todas as mudas self serão idênticas à planta-mãe.",
     "dica": "A prioridade é preservar pontas radiculares ativas durante todo o ano. Use água de baixa salinidade, adubação fraca e lavagem periódica. Mantenha temperatura noturna preferencialmente acima de 15 °C e não aplique repouso seco. Por ser uma progênie self, avalie cada planta pelo desempenho próprio: diferenças de cor e vigor entre irmãos são naturais.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, apresenta excelente adaptação térmica. Use sombra luminosa, alta ventilação, água de boa qualidade e controle rigoroso de sais e encharcamento.",
+        "litoralQuente": "Em Litoral de clima quente, apresenta excelente adaptação térmica. Use sombra luminosa, alta ventilação, água de boa qualidade e controle rigoroso de sais e encharcamento.",
         "montanhaFrio": "Proteja de noites frias e mantenha temperatura mínima preferencialmente acima de 15 °C. Reduza regas apenas conforme a evaporação."
     },
     "mesesFloracao": [

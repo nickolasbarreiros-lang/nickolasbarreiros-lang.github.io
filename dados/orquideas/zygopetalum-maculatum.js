@@ -44,7 +44,7 @@ export const zygopetalumMaculatum = {
     "errosComuns": "Calor acumulado; vaso preto exposto ao sol; substrato encharcado; água nos brotos novos; regas noturnas; excesso de Osmocote no calor; pouca ventilação; sol forte; deixar raízes secarem totalmente por muitos dias.",
     "dica": "Em regiões litorâneas quentes, coloque a planta em bancada baixa, sombreada e ventilada. Prefira vaso de barro ou plástico claro e nunca deixe recipiente preto receber sol. Regue pela manhã e mantenha o sistema radicular fresco: esse manejo é decisivo para floração consistente.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, cultivo mais exigente. Use o ponto mais fresco, bancada baixa, vaso claro/barro e ventilação contínua.",
+        "litoralQuente": "Em Litoral de clima quente, cultivo mais exigente. Use o ponto mais fresco, bancada baixa, vaso claro/barro e ventilação contínua.",
         "montanhaFrio": "Excelente adaptação; noites amenas favorecem crescimento e floração. Proteja apenas de geadas e encharcamento prolongado."
     },
     "mesesFloracao": [

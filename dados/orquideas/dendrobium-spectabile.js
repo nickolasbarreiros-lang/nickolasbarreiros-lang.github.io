@@ -20,24 +20,24 @@ export const dendrobiumSpectabile = {
         "imagens/Dendrobium spectabile/Dendrobium spectabile3.jpg",
         "imagens/Dendrobium spectabile/Dendrobium spectabile4.jpg"
     ],
-    descricao: "Dendrobium spectabile é uma das espécies mais extravagantes do gênero. Suas flores parecem pequenas esculturas vivas: pétalas e sépalas retorcidas, onduladas e irregulares formam desenhos quase impossíveis de repetir de uma flor para outra. A planta desenvolve canas robustas e, quando madura, produz cachos próximos ao topo com numerosas flores de aparência exótica. Apesar do visual incomum, vem de ambientes tropicais quentes e pode ser uma ótima espécie para coleções de clima litorâneo, desde que receba bastante luz, água durante o crescimento e raízes muito bem ventiladas.",
+    descricao: "Dendrobium spectabile é uma das espécies mais extravagantes do gênero. Suas flores parecem pequenas esculturas vivas: pétalas e sépalas retorcidas, onduladas e irregulares formam desenhos quase impossíveis de repetir de uma flor para outra. A planta desenvolve hastes robustas e, quando madura, produz cachos próximos ao topo com numerosas flores de aparência exótica. Apesar do visual incomum, vem de ambientes tropicais quentes e pode ser uma ótima espécie para coleções de clima litorâneo, desde que receba bastante luz, água durante o crescimento e raízes muito bem ventiladas.",
     origem: "Oceania tropical.",
     regiao: "Nova Guiné, Ilhas Salomão, Vanuatu e Nova Caledônia.",
     habitat: "Epífita de florestas tropicais úmidas; ocasionalmente rupícola, de baixas a altas elevações.",
     clima: "Quente a intermediário, úmido e muito ventilado.",
-    climaFloracao: "Plantas maduras florescem melhor depois de uma estação de crescimento vigoroso e bem iluminado. Não exige repouso seco severo, mas uma redução moderada das regas quando as canas amadurecem e o clima esfria pode acompanhar o ciclo natural. No litoral quente, o desenvolvimento vegetativo tende a ser favorecido.",
+    climaFloracao: "Plantas maduras florescem melhor depois de uma estação de crescimento vigoroso e bem iluminado. Não exige repouso seco severo, mas uma redução moderada das regas quando as hastes amadurecem e o clima esfria pode acompanhar o ciclo natural. No litoral quente, o desenvolvimento vegetativo tende a ser favorecido.",
     iluminacao: {
         sombrite: "40% a 60%",
         solDireto: "Sol fraco da manhã após aclimatação",
         horario: "Luz filtrada intensa durante grande parte do dia",
-        observacoes: "Precisa de boa luminosidade para amadurecer canas fortes. Sombra profunda pode atrasar a floração. No litoral quente, proteja apenas do sol mais agressivo do meio do dia e mantenha boa circulação de ar."
+        observacoes: "Precisa de boa luminosidade para amadurecer hastes fortes. Sombra profunda pode atrasar a floração. No litoral quente, proteja apenas do sol mais agressivo do meio do dia e mantenha boa circulação de ar."
     },
     floracao: "Predominantemente no inverno e início da primavera. Para o calendário do site, junho a outubro funciona como janela de referência, com variações conforme origem e condições de cultivo.",
     adubacao: "🌿 Orgânica: bokashi pode ser usado em pequena quantidade durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias enquanto novos brotos e raízes estiverem ativos.\n🧪 Liberação lenta: opcional, com poucos grânulos em vasos ou cestos.\n🚿 Lavagem: faça regas abundantes somente com água periodicamente para evitar acúmulo de sais.",
-    rega: "Durante o crescimento ativo, regue abundantemente e não deixe as raízes permanecerem secas por longos períodos. O recipiente, porém, deve drenar imediatamente. Quando as canas amadurecerem e a atividade diminuir, amplie moderadamente os intervalos sem impor uma seca extrema.",
+    rega: "Durante o crescimento ativo, regue abundantemente e não deixe as raízes permanecerem secas por longos períodos. O recipiente, porém, deve drenar imediatamente. Quando as hastes amadurecerem e a atividade diminuir, amplie moderadamente os intervalos sem impor uma seca extrema.",
     suporte: [
         "🥇 Cesto ou cachepô robusto, bem ventilado e capaz de acomodar a planta adulta.",
-        "🥈 Vaso de barro pesado e muito perfurado, oferecendo estabilidade às canas.",
+        "🥈 Vaso de barro pesado e muito perfurado, oferecendo estabilidade às hastes.",
         "🥉 Vaso plástico firme e perfurado com substrato grosso, evitando retenção excessiva."
     ],
     substrato: ["🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.", "🥈 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.", "🥉 Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.", "⭐ Alternativa: Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina."],
@@ -47,11 +47,11 @@ export const dendrobiumSpectabile = {
         "Deixar novos brotos secarem durante crescimento ativo",
         "Manter raízes permanentemente encharcadas",
         "Forçar repouso seco severo",
-        "Cortar canas antigas ainda firmes",
+        "Cortar hastes antigas ainda firmes",
         "Replantar fora do início da emissão de novas raízes",
         "Subestimar o tamanho e o peso da planta adulta"
     ],
-    dica: "🏆 Tenha paciência com o tamanho de floração. Dendrobium spectabile pode crescer vigorosamente antes de decidir florescer. Concentre-se em produzir canas progressivamente maiores com muita luz filtrada, água e adubação durante o crescimento; quando a planta atingir maturidade, as flores extraordinárias compensam a espera.",
+    dica: "🏆 Tenha paciência com o tamanho de floração. Dendrobium spectabile pode crescer vigorosamente antes de decidir florescer. Concentre-se em produzir hastes progressivamente maiores com muita luz filtrada, água e adubação durante o crescimento; quando a planta atingir maturidade, as flores extraordinárias compensam a espera.",
     adaptacaoRegional: {
         litoralQuente: "Excelente, cerca de 5/5. A origem tropical e a ocorrência frequente em baixas elevações combinam bem com clima quente, desde que haja muita ventilação e drenagem.",
         montanhaFrio: "Boa, cerca de 3/5. Tolera condições intermediárias, mas deve ser protegido de frio intenso e de raízes molhadas em temperaturas baixas."

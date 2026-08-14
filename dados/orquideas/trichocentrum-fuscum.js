@@ -44,7 +44,7 @@ export const trichocentrumFuscum = {
     "errosComuns": "Sombra excessiva; vaso grande; regar novamente antes da secagem; substrato compacto; água acumulada na base das folhas; pouca ventilação; adubo forte; manter molhado no inverno; excesso de esfagno; replantar fora da emissão de raízes.",
     "dica": "Use a própria suculência das folhas como guia: a planta foi construída para armazenar água, não para permanecer molhada. Molhe completamente, ventile e deixe o sistema radicular secar quase por inteiro antes da próxima rega. Montagem em madeira ou recipiente extremamente vazado torna esse ciclo muito mais seguro.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, adapta-se muito bem, especialmente montada. Ofereça luz forte filtrada, ventilação permanente e evite regas tardias ou retenção noturna.",
+        "litoralQuente": "Em Litoral de clima quente, adapta-se muito bem, especialmente montada. Ofereça luz forte filtrada, ventilação permanente e evite regas tardias ou retenção noturna.",
         "montanhaFrio": "No inverno, aumente bastante o intervalo de regas e proteja de frio intenso e ventos gelados."
     },
     "mesesFloracao": [

@@ -40,7 +40,7 @@ export const maxillariaPumilaExMinuta = {
     "errosComuns": "❌ Usar casca grossa demais, que não mantém contato uniforme com raízes capilares.\n❌ Usar vaso grande ou profundo.\n❌ Dividir a touceira em pequenos fragmentos.\n❌ Aplicar fertilizante concentrado ou Osmocote junto às raízes.\n❌ Enterrar o rizoma ou cobrir os pseudobulbos minúsculos.\n❌ Compactar esfagno ao redor da planta.\n❌ Manter alta umidade sem movimento de ar.\n❌ Replantar fora da emissão de raízes novas.",
     "dica": "Preserve a touceira como um bloco único sempre que possível. O conjunto cria um microclima que reduz oscilações de temperatura e umidade, além de aumentar muito o impacto da floração. Adube de forma “homeopática” e faça lavagem mensal, porque raízes capilares queimam rapidamente com sais. Na montagem ou troca de vaso, espere novas pontas radiculares e use material de granulometria fina, porém solto. O objetivo não é manter tudo molhado, mas oferecer água frequente com rápida renovação de oxigênio.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, mantenha acima de 60% de umidade relativa, sombra clara e ventilação constante. Montagens podem exigir rega diária no verão.",
+        "litoralQuente": "Em Litoral de clima quente, mantenha acima de 60% de umidade relativa, sombra clara e ventilação constante. Montagens podem exigir rega diária no verão.",
         "montanhaFrio": "Em Santa Teresa/ES, adapta-se bem às noites frescas. Reduza a frequência apenas em semanas frias e úmidas e proteja de geada."
     },
     "mesesFloracao": [9, 10, 11, 12, 1, 2],

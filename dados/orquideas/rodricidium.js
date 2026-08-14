@@ -43,7 +43,7 @@ export const rodricidium = {
     "errosComuns": "Sombra excessiva; vaso grande; substrato compactado; encharcamento; seca prolongada; cortar haste verde; replantar fora da brotação; pouca ventilação; adubo forte; enterrar rizoma.",
     "dica": "O melhor momento de replante é quando a nova frente começa a emitir raízes. Faça a troca nesse exato estágio e use recipiente pequeno, muito aerado e substrato que seque em 1–2 dias. Isso reduz drasticamente o tempo de recuperação.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, adapta-se muito bem com luz filtrada alta, ventilação constante e substrato de secagem rápida.",
+        "litoralQuente": "Em Litoral de clima quente, adapta-se muito bem com luz filtrada alta, ventilação constante e substrato de secagem rápida.",
         "montanhaFrio": "Cultivo favorável; proteja de geadas e evite substrato frio e encharcado."
     },
     "mesesFloracao": [

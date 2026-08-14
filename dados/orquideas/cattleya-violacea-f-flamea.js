@@ -41,7 +41,7 @@ export const cattleyaViolaceaFFlamea = {
     "errosComuns": "Expor a frio prolongado; impor repouso seco; deixar raízes secas por vários dias; manter substrato saturado; usar pouca ventilação; cultivar em sombra profunda; deixar água no rizoma; regar à noite; usar substrato fino; aplicar excesso de adubo; replantar sem raízes novas; confundir alta umidade do ar com encharcamento.",
     "dica": "O segredo não é simplesmente regar mais, mas manter calor, umidade e ar em equilíbrio. Use cesto ou vaso muito perfurado, regue com frequência pela manhã e permita que a superfície das raízes respire. Mantenha noites quentes e nunca aplique um repouso seco típico de Cattleyas do Sudeste. A planta deve permanecer hidratada e metabolicamente ativa sem ficar encharcada.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, o clima é muito favorável. Mantenha sombra luminosa, circulação de ar e proteção contra chuva contínua dentro do recipiente. O calor local é uma vantagem, desde que as raízes não fiquem abafadas.",
+        "litoralQuente": "Em Litoral de clima quente, o clima é muito favorável. Mantenha sombra luminosa, circulação de ar e proteção contra chuva contínua dentro do recipiente. O calor local é uma vantagem, desde que as raízes não fiquem abafadas.",
         "montanhaFrio": "Cultive em local protegido, preferencialmente aquecido. Evite temperaturas noturnas prolongadas abaixo de 15 °C e reduza a água apenas conforme a evaporação."
     },
     "mesesFloracao": [

@@ -43,7 +43,7 @@ export const cattleyaWarneri = {
     "errosComuns": "Cortar a espata seca; abrir a espata para procurar botões; pouca luz; molhar repetidamente a espata; excesso de água no inverno; vaso grande; substrato compactado; replantar sem raízes novas; excesso de nitrogênio; girar a planta durante a formação da haste; dividir em poucas frentes.",
     "dica": "Preserve a espata mesmo quando estiver castanha e aparentemente seca. Em Cattleya warneri, a bainha pode secar meses antes da haste se desenvolver. Não abra, não corte e não aperte. Mantenha luz alta no inverno, ventilação, rega controlada e aguarde a primavera.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, a adaptação é excelente por ser espécie regional. Use substrato aberto, vaso protegido do superaquecimento e circulação constante. Reduza água no inverno sem secar completamente.",
+        "litoralQuente": "Em Litoral de clima quente, a adaptação é excelente por ser espécie regional. Use substrato aberto, vaso protegido do superaquecimento e circulação constante. Reduza água no inverno sem secar completamente.",
         "montanhaFrio": "As noites frescas favorecem a maturação. Proteja de geadas e de substrato frio e saturado."
     },
     "mesesFloracao": [

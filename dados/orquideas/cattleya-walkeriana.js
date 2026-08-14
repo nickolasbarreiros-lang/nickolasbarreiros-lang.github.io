@@ -44,7 +44,7 @@ export const cattleyaWalkeriana = {
     "errosComuns": "Pouca luz; regar por calendário; manter substrato úmido; usar vaso profundo ou grande; empregar material fino; enterrar o rizoma; confundir repouso com abandono total; replantar fora da emissão de raízes; deixar a planta frouxa; molhar o broto floral; excesso de nitrogênio; dividir a touceira em poucas frentes.",
     "dica": "A adubação não compensa ambiente inadequado. Primeiro ofereça luz alta, vento contínuo, suporte aberto e secagem rápida. Pontas radiculares verdes indicam maior demanda de água e nutrição; após a maturação, reduza progressivamente. No litoral, proteger das chuvas persistentes no repouso é mais seguro que provocar uma seca extrema.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, cultive preferencialmente montada ou em cesto aberto, no setor mais claro e ventilado. O risco principal é a combinação de noites abafadas, chuva contínua e raízes que não secam. Regue cedo e proteja das chuvas prolongadas de inverno.",
+        "litoralQuente": "Em Litoral de clima quente, cultive preferencialmente montada ou em cesto aberto, no setor mais claro e ventilado. O risco principal é a combinação de noites abafadas, chuva contínua e raízes que não secam. Regue cedo e proteja das chuvas prolongadas de inverno.",
         "montanhaFrio": "A amplitude térmica e o inverno mais seco favorecem a floração. Proteja de geadas, frio úmido prolongado e chuva persistente."
     },
     "mesesFloracao": [

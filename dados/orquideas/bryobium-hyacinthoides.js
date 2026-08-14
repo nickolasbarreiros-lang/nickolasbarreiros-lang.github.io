@@ -31,7 +31,7 @@ export const bryobiumHyacinthoides = {
         sombrite: "60% a 70%",
         solDireto: "Não necessário",
         horario: "Luz filtrada ao longo do dia",
-        observacoes: "Prefere meia-sombra clara. Em Serra/ES, evite tanto sol forte quanto sombra profunda. Ventilação constante reduz o risco de doenças em ambiente quente e úmido."
+        observacoes: "Prefere meia-sombra clara. Em Litoral de clima quente, evite tanto sol forte quanto sombra profunda. Ventilação constante reduz o risco de doenças em ambiente quente e úmido."
     },
     floracao: "IOSPE registra floração na primavera, com racemos multiflorais. Em cultivo tropical a data pode deslocar-se conforme procedência, temperatura e maturação da touceira.",
     adubacao: "🌿 Orgânica: Bokashi opcional em dose muito baixa e afastado das raízes.\n💧 Foliar/mineral: NPK equilibrado em aproximadamente 1/4 da dose a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: Osmocote opcional em pequena quantidade. Faça periodicamente rega abundante apenas com água limpa para lixiviar sais acumulados.",
@@ -39,7 +39,7 @@ export const bryobiumHyacinthoides = {
     suporte: "🥇 Cachepô ou cesto de madeira bem ventilado.\n🥈 Vaso de barro ou plástico muito perfurado.\n🥉 Montagem em madeira apenas quando a umidade ambiental e a frequência de rega forem suficientes.",
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
     errosComuns: "• Dividir touceiras pequenas sem necessidade.\n• Compactar o substrato.\n• Deixar secar por muitos dias.\n• Manter vaso permanentemente saturado.\n• Pouca ventilação em clima quente.\n• Adubação concentrada.\n• Não lixiviar sais periodicamente.\n• Manter Eria hyacinthoides ou Pinalia hyacinthoides como nomes principais.",
-    dica: "🏆 Deixe a touceira envelhecer. Exemplares estabelecidos acumulam mais pseudobulbos maduros e têm maior potencial para produzir várias inflorescências simultaneamente. Use recipiente que permita alguns anos de expansão, substrato levemente úmido e muito aerado e faça periodicamente uma rega profunda só com água limpa para remover sais. Em Serra/ES, 60% a 70% de sombra, umidade regular e ventilação constante formam o melhor equilíbrio.",
+    dica: "🏆 Deixe a touceira envelhecer. Exemplares estabelecidos acumulam mais pseudobulbos maduros e têm maior potencial para produzir várias inflorescências simultaneamente. Use recipiente que permita alguns anos de expansão, substrato levemente úmido e muito aerado e faça periodicamente uma rega profunda só com água limpa para remover sais. Em Litoral de clima quente, 60% a 70% de sombra, umidade regular e ventilação constante formam o melhor equilíbrio.",
     adaptacaoRegional: {
         litoralQuente: "Boa, 4/5. O calor é tolerável; o risco maior é combinar alta umidade com pouca ventilação.",
         montanhaFrio: "Boa adaptação em clima intermediário, protegendo de frio intenso e reduzindo água quando a evaporação cair."

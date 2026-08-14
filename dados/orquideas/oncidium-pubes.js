@@ -41,7 +41,7 @@ export const oncidiumPubes = {
     "errosComuns": "❌ Girar ou mudar o vaso durante a formação da haste.\n❌ Usar recipiente leve que tombe com a inflorescência.\n❌ Cultivar em sombra profunda.\n❌ Manter substrato velho e compacto.\n❌ Enterrar o rizoma.\n❌ Forçar repouso seco após a maturação.\n❌ Exagerar no nitrogênio quando o pseudobulbo já está maduro.\n❌ Replantar fora da fase de emissão de novas raízes.",
     "dica": "Assim que a haste aparecer, marque a frente do vaso e mantenha a planta em posição definitiva, com luz frontal constante. Garanta peso no recipiente, espaço vertical e tutor precoce. O fototropismo é forte: mudanças de posição fazem a haste se contorcer. Replante somente no início das novas raízes, preservando as pontas ativas que sustentarão o pseudobulbo e a próxima floração.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, cultive sob 50–60% de sombra, com ventilação forte e regas matinais. Evite vasos grandes e abafamento após chuvas prolongadas. A estabilidade do vaso é especialmente importante em locais sujeitos a vento.",
+        "litoralQuente": "Em Litoral de clima quente, cultive sob 50–60% de sombra, com ventilação forte e regas matinais. Evite vasos grandes e abafamento após chuvas prolongadas. A estabilidade do vaso é especialmente importante em locais sujeitos a vento.",
         "montanhaFrio": "Adapta-se muito bem. Noites frescas favorecem crescimento compacto, coloração e hastes firmes. Proteja apenas de geada direta e reduza a água em períodos frios e nublados."
     },
     "mesesFloracao": [

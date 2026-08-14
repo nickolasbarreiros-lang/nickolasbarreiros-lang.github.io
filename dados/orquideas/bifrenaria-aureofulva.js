@@ -39,7 +39,7 @@ export const bifrenariaAureofulva = {
     errosComuns: "Tratar a espécie como planta de repouso totalmente seco; cultivar em sombra profunda; expor a sol forte; usar vasos muito grandes; manter substrato compacto ou degradado; reduzir a água antes do pseudobulbo amadurecer; replantar sem raízes novas iniciando; aplicar fertilizante concentrado em raízes sensíveis.",
     dica: "A chave não é impor uma seca severa, e sim reconhecer o momento em que o pseudobulbo termina o crescimento. Durante a brotação, mantenha hidratação regular e boa nutrição; após a maturação, aumente moderadamente o intervalo entre regas. Em litoral quente, priorize ventilação, vaso de barro e substrato aberto em vez de tentar reproduzir um repouso seco extremo.",
     adaptacaoRegional: {
-        litoralQuente: "Cultivo moderadamente exigente. Em Serra/ES, use vaso de barro, substrato aberto, 50% a 60% de sombra e forte ventilação. Evite aquecimento excessivo das raízes e seca prolongada.",
+        litoralQuente: "Cultivo moderadamente exigente. Em Litoral de clima quente, use vaso de barro, substrato aberto, 50% a 60% de sombra e forte ventilação. Evite aquecimento excessivo das raízes e seca prolongada.",
         montanhaFrio: "Condições muito favoráveis. Noites frescas ajudam a maturação e a floração; no inverno, apenas reduza as regas conforme a evaporação cair."
     },
     mesesFloracao: [1, 2, 3],

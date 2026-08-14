@@ -40,7 +40,7 @@ export const maxillariaSubulata = {
     "errosComuns": "❌ Usar vaso grande, fundo ou pouco perfurado.\n❌ Manter substrato compactado ou encharcado.\n❌ Enterrar rizoma e base dos pseudobulbos.\n❌ Dividir a touceira em porções pequenas.\n❌ Cultivar em sombra profunda e produzir folhas fracas.\n❌ Impor seca intensa por longo período.\n❌ Adubar em concentração alta ou sem lavagem mensal.\n❌ Replantar fora da emissão de raízes novas.",
     "dica": "Use vaso pequeno, muito perfurado, e uma mistura que retenha umidade apenas pelo tempo necessário para hidratar a planta. Folhas estreitas não significam que a espécie deva ficar seca; significam que a reposição de água precisa ser frequente, enquanto as raízes exigem renovação constante de oxigênio. Replante apenas quando surgirem novas pontas radiculares, preserve a maior parte da touceira e mantenha o rizoma exposto. Essa combinação reduz o choque, evita mela e acelera a fixação.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, use ventilação contínua, vaso justo, mistura drenante e regas matinais. Monitore o calor acumulado e o tempo real de secagem.",
+        "litoralQuente": "Em Litoral de clima quente, use ventilação contínua, vaso justo, mistura drenante e regas matinais. Monitore o calor acumulado e o tempo real de secagem.",
         "montanhaFrio": "Em Santa Teresa/ES, as noites frescas favorecem a planta. Em semanas frias e chuvosas, aumente o intervalo entre regas sem impor seca total."
     },
     "mesesFloracao": [9, 10, 11],
