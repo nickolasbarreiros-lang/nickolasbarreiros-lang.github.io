@@ -1,3 +1,4 @@
+import { obterNotaRaridadeCalculada } from "./raridade.js";
 /* =========================================================
    IMPORTAÇÕES
 ========================================================= */
@@ -546,7 +547,7 @@ function correspondeRaridade(orquidea, valorFiltro) {
         return true;
     }
 
-    const raridade = Number(orquidea?.avaliacoes?.raridade);
+    const raridade = obterNotaRaridadeCalculada(orquidea);
     const filtro = Number(valorFiltro);
 
     return Number.isFinite(raridade) && raridade === filtro;

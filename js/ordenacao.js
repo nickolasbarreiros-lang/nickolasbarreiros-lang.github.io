@@ -1,3 +1,4 @@
+import { obterNotaRaridadeCalculada } from "./raridade.js";
 /* =========================================================
    IMPORTAÇÕES
 ========================================================= */
@@ -22,10 +23,10 @@ function compararNomeZA(a, b) {
 function compararRaridadeMaior(a, b) {
 
     const notaA =
-        Number(a?.avaliacoes?.raridade || 0);
+        obterNotaRaridadeCalculada(a);
 
     const notaB =
-        Number(b?.avaliacoes?.raridade || 0);
+        obterNotaRaridadeCalculada(b);
 
     if (notaA !== notaB) {
         return notaB - notaA;
@@ -37,10 +38,10 @@ function compararRaridadeMaior(a, b) {
 function compararRaridadeMenor(a, b) {
 
     const notaA =
-        Number(a?.avaliacoes?.raridade || 0);
+        obterNotaRaridadeCalculada(a);
 
     const notaB =
-        Number(b?.avaliacoes?.raridade || 0);
+        obterNotaRaridadeCalculada(b);
 
     if (notaA !== notaB) {
         return notaA - notaB;
