@@ -40,7 +40,7 @@ export const neobenthamiaGracilis = {
     "errosComuns": "❌ Cultivar em sombra excessiva, formando caules fracos e pouco floríferos.\n❌ Usar solo argiloso ou recipiente sem drenagem.\n❌ Manter o substrato permanentemente encharcado.\n❌ Impor seca forte depois da maturação.\n❌ Cortar caules verdes, que ainda armazenam reservas e podem emitir brotações.\n❌ Deixar a planta tombar por falta de tutor ou vaso pesado.\n❌ Dividir touceiras pequenas demais.\n❌ Aplicar matéria orgânica fresca junto às raízes.",
     "dica": "Dê espaço para a planta formar uma touceira grande e estável. Quanto mais caules maduros, maior o potencial de produzir várias cabeças florais ao mesmo tempo. Luz alta é decisiva, mas faça aclimatação para evitar queimaduras. Como a espécie ocorre de 380 a 2.000 m, não trate toda planta como estritamente quente ou fria: no litoral, priorize sol fraco da manhã, ventilação e raízes frescas; plantas de procedência mais alta podem agradecer noites mais amenas.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, apresenta excelente vigor durante quase todo o ano. Ofereça 30–50% de sombra, sol matinal, regas frequentes no verão e proteção contra o sol forte após 10h. Vasos pesados ou canteiros drenados são as melhores opções.",
+        "litoralQuente": "Em Litoral de clima quente, apresenta excelente vigor durante quase todo o ano. Ofereça 30–50% de sombra, sol matinal, regas frequentes no verão e proteção contra o sol forte após 10h. Vasos pesados ou canteiros drenados são as melhores opções.",
         "montanhaFrio": "Proteja de geadas e ventos muito frios. Em semanas frias e chuvosas, reduza bastante a água, mantendo o substrato apenas levemente úmido e bem aerado."
     },
     "mesesFloracao": [

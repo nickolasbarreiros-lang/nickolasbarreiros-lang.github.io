@@ -44,7 +44,7 @@ export const rodrigueziaLanceolata = {
     "errosComuns": "Sombra excessiva; vaso grande; substrato compactado; raízes constantemente encharcadas; bokashi em contato direto com raízes; molhar flores à noite; cortar hastes antes de secarem; pouca ventilação; replantar sem novas raízes.",
     "dica": "Em regiões quentes, use meia-sombra clara, cachepô pequeno ou montagem em madeira e regas no início da manhã. O objetivo é oferecer água com frequência sem sacrificar o oxigênio das raízes finas. Se o suporte ainda estiver molhado à noite, há retenção excessiva.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, adaptação excelente. Cultive suspensa, com ventilação constante, rega matinal e secagem rápida.",
+        "litoralQuente": "Em Litoral de clima quente, adaptação excelente. Cultive suspensa, com ventilação constante, rega matinal e secagem rápida.",
         "montanhaFrio": "Tolera noites amenas; proteja de geadas, frio intenso e substrato permanentemente úmido no inverno."
     },
     "mesesFloracao": [

@@ -44,7 +44,7 @@ export const rodrigueziaVenusta = {
     "errosComuns": "Sombra profunda; vaso grande; excesso de esfagno; substrato velho ou compactado; impedir o caimento das hastes; deixar a touceira molhada à noite; aplicar matéria orgânica diretamente sobre raízes; adubar forte; replantar fora da emissão de novas raízes; dividir touceiras pequenas; falta de ventilação.",
     "dica": "O melhor manejo é suspender a planta em placa, cortiça ou cachepô vazado e liberar completamente o espaço abaixo das hastes. A montagem vertical combina exatamente o que a espécie precisa: raízes finas bem oxigenadas, secagem rápida depois da rega e caminho livre para as inflorescências pendentes. Regue pela manhã e use apenas uma camada mínima de material retentivo.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, adapta-se muito bem. Prefira cultivo suspenso, meia-sombra clara, regas matinais e ventilação contínua. Em semanas de chuva, reduza a retenção do suporte em vez de acrescentar água.",
+        "litoralQuente": "Em Litoral de clima quente, adapta-se muito bem. Prefira cultivo suspenso, meia-sombra clara, regas matinais e ventilação contínua. Em semanas de chuva, reduza a retenção do suporte em vez de acrescentar água.",
         "montanhaFrio": "Tolera noites amenas. Proteja de geadas, vento frio ressecante e substrato molhado por longos períodos."
     },
     "mesesFloracao": [

@@ -45,7 +45,7 @@ export const cattleyaChocolateDrop = {
     "errosComuns": "Cultivar à sombra; excesso de nitrogênio; usar vaso grande; manter substrato compactado; enterrar o rizoma; acumular água na bainha floral; abrir ou cortar a espata sem necessidade; replantar fora da emissão de raízes; dividir touceiras pequenas; acreditar que adubo de floração substitui luz.",
     "dica": "A qualidade da florada depende mais de luz alta, maturação dos pseudobulbos e raízes saudáveis do que de adubação forte. Aclimate gradualmente ao ponto mais claro do orquidário, mantenha as bainhas secas e deixe o substrato quase secar. Isso produz cachos mais compactos, hastes firmes e pigmentação mais intensa.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, adapta-se muito bem. Use ventilação constante, alta luminosidade filtrada e substrato grosseiro. Proteja botões e bainhas durante chuvas persistentes.",
+        "litoralQuente": "Em Litoral de clima quente, adapta-se muito bem. Use ventilação constante, alta luminosidade filtrada e substrato grosseiro. Proteja botões e bainhas durante chuvas persistentes.",
         "montanhaFrio": "Tolera noites frescas, mas deve ser protegida de geadas e de substrato frio e encharcado."
     },
     "mesesFloracao": [

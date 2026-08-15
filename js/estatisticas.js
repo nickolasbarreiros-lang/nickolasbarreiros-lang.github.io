@@ -10,7 +10,7 @@ import {
    CONFIGURAÇÃO
 ========================================================= */
 
-const NOTA_MINIMA_RARIDADE = 4;
+const NOTA_MINIMA_RARIDADE = 5;
 
 /* =========================================================
    VALIDAÇÃO DA LISTA

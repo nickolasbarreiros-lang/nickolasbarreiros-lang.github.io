@@ -44,7 +44,7 @@ export const stanhopeaGuttulata = {
     "errosComuns": "Usar vaso fechado; bloquear o fundo; plantar a touceira encostada na lateral; deixar secar completamente; sombra profunda; substrato velho ou compactado; excesso de esfagno; mover a cesta durante a emissão; molhar flores sem ventilação; replantar fora do novo enraizamento.",
     "dica": "Plante a touceira no centro de uma cesta realmente vazada e trate a área abaixo como parte da planta: ela deve permanecer totalmente livre. A haste floral atravessa o substrato e precisa sair por baixo sem bater em ripas ou outros obstáculos. Durante a emissão, inspecione por baixo e remova somente obstáculos soltos, sem tocar ou redirecionar a haste.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, mantenha em setor sombreado, bem ventilado e com alta umidade ambiental. Regue pela manhã e evite manter a cesta saturada durante noites quentes.",
+        "litoralQuente": "Em Litoral de clima quente, mantenha em setor sombreado, bem ventilado e com alta umidade ambiental. Regue pela manhã e evite manter a cesta saturada durante noites quentes.",
         "montanhaFrio": "Boa adaptação a noites amenas. Proteja de geadas e reduza ligeiramente a água em semanas frias e muito chuvosas."
     },
     "mesesFloracao": [

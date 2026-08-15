@@ -42,7 +42,7 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
     "errosComuns": "Replantar sem raízes novas; usar vaso grande; manter substrato velho; enterrar o rizoma; regar por calendário; cultivar em sombra; aplicar excesso de nitrogênio; deixar a planta solta; dividir touceira pequena; manter cachepô decorativo com água; cortar raízes aderidas sem necessidade.",
     "dica": "Trate o híbrido como mais vigoroso, mas não como indestrutível. O replante deve ocorrer quando a nova frente emitir raízes curtas e ativas. Preserve as raízes antigas, use vaso pequeno e fixe a planta firmemente. O vigor híbrido aparece quando o sistema radicular permanece íntegro; sem raízes, a planta perde rapidamente a vantagem do cruzamento.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, adapta-se muito bem. Use luz forte filtrada, ventilação contínua, regas matinais e recipiente que não retenha água durante as semanas chuvosas.",
+        "litoralQuente": "Em Litoral de clima quente, adapta-se muito bem. Use luz forte filtrada, ventilação contínua, regas matinais e recipiente que não retenha água durante as semanas chuvosas.",
         "montanhaFrio": "Proteja de frio prolongado e reduza regas nos dias nublados. Mantenha alta luminosidade para evitar brotos fracos."
     },
     "mesesFloracao": [

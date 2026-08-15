@@ -44,7 +44,7 @@ export const speckliniaGrobyi = {
     "errosComuns": "Vaso grande; esfagno comprimido; secar por vários dias; calor abafado; adubo concentrado; sol direto; água salina; deixar molhada à noite sem ventilação; divisão excessiva; replantio frequente; falta de circulação de ar.",
     "dica": "Monte em uma pequena placa com uma camada quase transparente de esfagno. Regue com frequência, inclusive diariamente no verão quando necessário, mas faça a montagem secar superficialmente em poucas horas. O equilíbrio entre umidade e renovação de ar é mais importante que manter o suporte constantemente molhado.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, mantenha no setor sombreado e muito ventilado. Regas matinais frequentes e umidade ambiental elevada ajudam, mas evite concentrar água no suporte durante a noite.",
+        "litoralQuente": "Em Litoral de clima quente, mantenha no setor sombreado e muito ventilado. Regas matinais frequentes e umidade ambiental elevada ajudam, mas evite concentrar água no suporte durante a noite.",
         "montanhaFrio": "Desenvolve-se muito bem em temperaturas amenas. Proteja de geadas e não mantenha o suporte frio e saturado por períodos longos."
     },
     "mesesFloracao": [

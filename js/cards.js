@@ -482,7 +482,7 @@ function criarSelosEspecie(orquidea) {
         { icone: "🌿", texto: detectarHabito(orquidea), classe: "" },
         { icone: "📏", texto: detectarPorte(orquidea), classe: "" },
         { icone: "🌺", texto: Number(orquidea?.avaliacoes?.perfume) >= 4 ? "Perfumada" : null, classe: "" },
-        { icone: "💎", texto: Number(orquidea?.avaliacoes?.raridade) >= 4 ? "Rara" : null, classe: "" }
+        { icone: "💎", texto: Number(orquidea?.avaliacoes?.raridade) === 5 ? "Rara" : null, classe: "" }
     ].filter((selo) => selo.texto);
 
     return selos.map((selo) => `

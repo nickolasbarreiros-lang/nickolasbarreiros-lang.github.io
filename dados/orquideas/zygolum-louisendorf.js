@@ -44,7 +44,7 @@ export const zygolumLouisendorf = {
     "errosComuns": "Secar totalmente; calor abafado; substrato compacto; água em brotos novos; dividir touceiras pequenas; adubo concentrado; vaso preto aquecido; baixa ventilação; excesso de sais.",
     "dica": "Em clima quente, use vaso claro e substrato muito poroso. Regue antes que o meio seque por completo e mantenha ventilação contínua. O objetivo é raiz fresca e úmida, nunca abafada ou superaquecida.",
     "adaptacaoRegional": {
-        "litoralQuente": "Em Serra/ES, mantenha no ponto mais fresco do orquidário, com vaso claro, ventilação forte e proteção completa do sol da tarde.",
+        "litoralQuente": "Em Litoral de clima quente, mantenha no ponto mais fresco do orquidário, com vaso claro, ventilação forte e proteção completa do sol da tarde.",
         "montanhaFrio": "Excelente adaptação às noites amenas; proteja de geadas e chuva fria contínua."
     },
     "mesesFloracao": [

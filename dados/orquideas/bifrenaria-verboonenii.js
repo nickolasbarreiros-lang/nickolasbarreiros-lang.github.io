@@ -29,7 +29,7 @@ export const bifrenariaVerboonenii = {
     regiao: "BA · ES · MG",
     habitat: "Epífita/litófita · 1.000–2.000 m",
     clima: "Fresco · montano · inverno mais seco",
-    climaFloracao: "A indução floral é favorecida pela maturação completa do pseudobulbo, boa luminosidade, noites mais frescas e redução sazonal das regas. Não é necessário impor seca absoluta. Em Serra/ES, temperatura noturna elevada e raízes aquecidas são os principais fatores limitantes.",
+    climaFloracao: "A indução floral é favorecida pela maturação completa do pseudobulbo, boa luminosidade, noites mais frescas e redução sazonal das regas. Não é necessário impor seca absoluta. Em Litoral de clima quente, temperatura noturna elevada e raízes aquecidas são os principais fatores limitantes.",
     iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Apenas muito suave e com aclimatação",
@@ -42,7 +42,7 @@ export const bifrenariaVerboonenii = {
     suporte: "🥇 Vaso de barro pequeno a médio, muito bem drenado.\n🥈 Cachepô de madeira bastante vazado.\n🥉 Vaso plástico muito perfurado com mistura extremamente aberta.\nMontagem nua não é a primeira opção no litoral por aumentar demais a oscilação hídrica.",
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
     errosComuns: "• Manter a atualização taxonômica sem registrar que Bifrenaria verboonenii é tratada hoje como sinônimo de Bifrenaria tyrianthina.\n• Cultivar em local quente e abafado.\n• Tratar a planta como rupícola obrigatoriamente mineral.\n• Secar excessivamente durante crescimento ativo.\n• Impor repouso totalmente seco por meses.\n• Replantar sem raízes novas começando a surgir.\n• Usar substrato compacto.\n• Permitir sol forte aquecendo vaso e raízes.",
-    dica: "🏆 No litoral, preocupe-se mais com a temperatura das raízes do que com reproduzir uma fenda de rocha. Use vaso de barro ou cachepô ventilado com casca grossa, pedra-pomes e carvão. Regue bem no crescimento e aumente os intervalos no inverno. Replante quando o novo crescimento começar a emitir as primeiras pontas de raízes. Em Serra/ES, mantenha a planta no ponto mais fresco e ventilado do orquidário.",
+    dica: "🏆 No litoral, preocupe-se mais com a temperatura das raízes do que com reproduzir uma fenda de rocha. Use vaso de barro ou cachepô ventilado com casca grossa, pedra-pomes e carvão. Regue bem no crescimento e aumente os intervalos no inverno. Replante quando o novo crescimento começar a emitir as primeiras pontas de raízes. Em Litoral de clima quente, mantenha a planta no ponto mais fresco e ventilado do orquidário.",
     adaptacaoRegional: {
         litoralQuente: "Difícil, 2/5. Noites quentes persistentes são o principal gargalo. Evite telhados, paredes quentes e recipientes que acumulem calor.",
         montanhaFrio: "Excelente. Noites frescas e inverno mais seco reproduzem muito melhor as condições naturais."

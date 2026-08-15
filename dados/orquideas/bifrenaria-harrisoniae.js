@@ -39,7 +39,7 @@ export const bifrenariaHarrisoniae = {
     errosComuns: "Cultivar em sombra excessiva; usar vaso muito maior que a massa radicular; manter o substrato constantemente molhado; empregar misturas finas ou compactadas; reduzir as regas antes da maturação dos pseudobulbos; replantar sem início de novas raízes; impor repouso seco severo; suspender nutrientes de forma abrupta enquanto ainda houver crescimento ativo.",
     dica: "Use vaso proporcional, estável e de secagem previsível. Bifrenaria harrisoniae não precisa de 'raízes apertadas' para florescer; o benefício do recipiente justo é evitar excesso de substrato úmido ao redor das raízes. Combine alta luminosidade filtrada, drenagem excelente, estabilidade radicular e preservação de touceiras adultas.",
     adaptacaoRegional: {
-        litoralQuente: "Cultive em vaso de barro ou cachepô aberto, com forte circulação de ar, 40% a 50% de sombra e regas matinais. Em Serra/ES, evite calor abafado e mantenha o substrato de secagem rápida sem impor seca prolongada.",
+        litoralQuente: "Cultive em vaso de barro ou cachepô aberto, com forte circulação de ar, 40% a 50% de sombra e regas matinais. Em Litoral de clima quente, evite calor abafado e mantenha o substrato de secagem rápida sem impor seca prolongada.",
         montanhaFrio: "A queda natural da temperatura noturna favorece a floração. Proteja de geadas e evite que o substrato permaneça frio e encharcado por vários dias."
     },
     mesesFloracao: [11, 12, 1],
