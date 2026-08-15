@@ -1,7 +1,7 @@
 FASE 2 — ESTRUTURA IMPLEMENTADA
 Data: 2026-08-14
 
-Fichas atualizadas: 139
+Fichas atualizadas: 138
 Espécies/táxons com índice aplicável: 122
 Híbridos/grexes marcados como não aplicáveis: 17
 

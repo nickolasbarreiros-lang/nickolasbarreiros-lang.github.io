@@ -62,76 +62,12 @@ export const miltoniaRusselliana = {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "ameno" }
     },
-    "raridadeIndice": {
-        "versao": "2.0",
-        "aplicavel": true,
-        "statusAuditoria": "Fase 2 — aguardando validação externa dos campos dinâmicos",
-        "distribuicao": {
-            "pontuacao": 50,
-            "status": "preliminar",
-            "eooKm2": null,
-            "aooKm2": null,
-            "fonte": null
-        },
-        "ocorrenciasGBIF": {
-            "pontuacao": null,
-            "registrosBrutos": null,
-            "registrosLimpos": null,
-            "celulas10km": null,
-            "dataConsulta": null,
-            "criteriosLimpeza": "taxon aceito; ocorrência PRESENT; excluir LIVING_SPECIMEN/cultivado quando identificável; coordenadas válidas; remover duplicatas espaciais/temporais e registros com problemas geoespaciais evidentes",
-            "fonte": "GBIF"
-        },
-        "endemismoHabitat": {
-            "pontuacao": 60,
-            "status": "preliminar",
-            "fonte": null
-        },
-        "conservacao": {
-            "pontuacao": null,
-            "categoria": null,
-            "criterio": null,
-            "fonte": null
-        },
-        "populacaoFragmentacao": {
-            "pontuacao": null,
-            "tendencia": null,
-            "fragmentacao": null,
-            "fonte": null
-        },
-        "ameacas": {
-            "pontuacao": null,
-            "vetores": [],
-            "fonte": null
-        },
-        "disponibilidadeComercial": {
-            "pontuacao": null,
-            "vendedoresAtivosIndependentes": null,
-            "canaisConsultados": null,
-            "propagacaoComercial": null,
-            "dataConsulta": null,
-            "janelaDias": 120,
-            "escopo": "Brasil",
-            "observacao": "A escassez comercial entra com peso baixo; disponibilidade em cultivo não é sinônimo de abundância na natureza."
-        },
-        "fase1Legado": {
-            "indiceEstimado": 59,
-            "estrelasCalculadas": 3,
-            "confianca": 55
-        },
-        "resultadoV2": {
-            "indice": null,
-            "estrelas": null,
-            "confianca": null,
-            "usarNotaLegadaAteAuditoria": true
-        }
-    },
     avaliacoes: {
         cultivo: 3,
         floracao: 3,
         perfume: 1,
         luminosidade: 3,
         agua: 4,
-        raridade: 3
+        raridade: 4
     }
 };
