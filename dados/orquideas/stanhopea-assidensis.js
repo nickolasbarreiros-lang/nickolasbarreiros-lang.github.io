@@ -50,5 +50,15 @@ export const stanhopeaAssidensis = {
         "rega": { "nivel": "constante", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
+    "raridadeIndice": {
+        "versao": "2.0",
+        "aplicavel": false,
+        "motivoNaoAplicavel": "Híbrido/grex horticultural: não possui população natural própria comparável à de uma espécie botânica.",
+        "statusAuditoria": "não aplicável",
+        "fase1Legado": {
+            "indiceEstimado": null,
+            "estrelasCalculadas": null
+        }
+    },
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 5, luminosidade: 3, agua: 5, raridade: 4 }
 };

@@ -46,6 +46,16 @@ export const epicattleyaReneMarques = {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
+    "raridadeIndice": {
+        "versao": "2.0",
+        "aplicavel": false,
+        "motivoNaoAplicavel": "Híbrido/grex horticultural: não possui população natural própria comparável à de uma espécie botânica.",
+        "statusAuditoria": "não aplicável",
+        "fase1Legado": {
+            "indiceEstimado": null,
+            "estrelasCalculadas": null
+        }
+    },
     avaliacoes: {
         cultivo: 2,
         floracao: 5,
