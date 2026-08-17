@@ -30,7 +30,7 @@ export const catasetumMattosianum = {
         sombrite: "40% a 50%",
         solDireto: "Somente suave e após aclimatação",
         horario: "Primeiras horas da manhã",
-        observacoes: "Durante crescimento ativo necessita bastante luz para formar pseudobulbos volumosos. Folhas verde-médio a verde-claro e pseudobulbos robustos são bons indicadores. Excesso súbito de sol queima folhas; sombra profunda gera crescimento mais fraco."
+        observacoes: "Durante crescimento ativo necessita bastante luz para formar pseudobulbos volumosos. Folhas verde-médio a verde-claro e pseudobulbos robustos são bons indicadores. Excesso súbito de sol queima folhas; sombra profunda gera crescimento mais fraco. A intensidade luminosa influencia diretamente a proporção de flores: níveis mais altos de luz favorecem o surgimento de flores femininas, enquanto condições de menor luminosidade tendem a estimular o aparecimento de flores masculinas."
     },
     floracao: "Principalmente no verão. IOSPE registra flores de aproximadamente 3 cm e grande variabilidade de cor. O momento exato pode oscilar conforme início da brotação, maturação do pseudobulbo e condições de cultivo.",
     adubacao: "🌿 Orgânica: Bokashi pode ser usado em pequena quantidade durante crescimento, somente depois de o novo sistema radicular estar funcional.\n💧 Foliar/mineral: NPK equilibrado ou levemente mais nitrogenado em 1/4 a 1/3 da dose, com maior frequência no crescimento vigoroso.\n🧪 Liberação lenta: Osmocote 14-14-14 pode ser utilizado em dose moderada quando as regas regulares já começaram. Suspenda fertilização quando as folhas amarelecerem e a dormência se instalar.",
