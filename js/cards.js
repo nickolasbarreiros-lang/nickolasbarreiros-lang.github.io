@@ -1,3 +1,4 @@
+import { obterNotaRaridadeCalculada, obterTextoRaridadePorEstrelas } from "./raridade.js";
 /* =========================================================
    IMPORTAÇÕES
 ========================================================= */
@@ -117,16 +118,7 @@ export function obterTextoAlternativoFoto(orquidea) {
 ========================================================= */
 
 export function obterNotaRaridade(orquidea) {
-    const nota =
-        orquidea?.avaliacoes?.raridade;
-
-    return Math.max(
-        0,
-        Math.min(
-            5,
-            Number(nota) || 0
-        )
-    );
+    return obterNotaRaridadeCalculada(orquidea);
 }
 
 /* =========================================================
@@ -134,29 +126,7 @@ export function obterNotaRaridade(orquidea) {
 ========================================================= */
 
 export function obterTextoRaridade(nota) {
-    const valor = Number(nota) || 0;
-
-    if (valor >= 5) {
-        return "Muito rara";
-    }
-
-    if (valor >= 4) {
-        return "Rara";
-    }
-
-    if (valor >= 3) {
-        return "Pouco comum";
-    }
-
-    if (valor >= 2) {
-        return "Comum";
-    }
-
-    if (valor >= 1) {
-        return "Muito comum";
-    }
-
-    return "Raridade não avaliada";
+    return obterTextoRaridadePorEstrelas(nota);
 }
 
 /* =========================================================
@@ -482,7 +452,7 @@ function criarSelosEspecie(orquidea) {
         { icone: "🌿", texto: detectarHabito(orquidea), classe: "" },
         { icone: "📏", texto: detectarPorte(orquidea), classe: "" },
         { icone: "🌺", texto: Number(orquidea?.avaliacoes?.perfume) >= 4 ? "Perfumada" : null, classe: "" },
-        { icone: "💎", texto: Number(orquidea?.avaliacoes?.raridade) >= 4 ? "Rara" : null, classe: "" }
+        { icone: "💎", texto: obterNotaRaridade(orquidea) === 5 ? "Rara" : null, classe: "" }
     ].filter((selo) => selo.texto);
 
     return selos.map((selo) => `

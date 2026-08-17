@@ -5,12 +5,13 @@
 import {
     normalizarTexto
 } from "./util.js";
+import { obterNotaRaridadeCalculada } from "./raridade.js";
 
 /* =========================================================
    CONFIGURAÇÃO
 ========================================================= */
 
-const NOTA_MINIMA_RARIDADE = 4;
+const NOTA_MINIMA_RARIDADE = 5;
 
 /* =========================================================
    VALIDAÇÃO DA LISTA
@@ -79,10 +80,7 @@ export function contarOrigens(orquideas) {
 ========================================================= */
 
 export function verificarSeOrquideaRara(orquidea) {
-    const nota =
-        Number(
-            orquidea?.avaliacoes?.raridade
-        );
+    const nota = obterNotaRaridadeCalculada(orquidea);
 
     return (
         Number.isFinite(nota) &&

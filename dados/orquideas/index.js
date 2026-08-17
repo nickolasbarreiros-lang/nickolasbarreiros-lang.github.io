@@ -131,7 +131,9 @@ import { laeliaSplendida } from "./laelia-splendida.js";
 import { encycliaAlboxanthina } from "./encyclia-alboxanthina.js";
 import { phalaenopsisPulcherrima } from "./phalaenopsis-pulcherrima.js";
 import { dendrobiumSpectabile } from "./dendrobium-spectabile.js";
+import { aeridesOdorata } from "./aerides-odorata.js";
 export const orquideas = [
+    aeridesOdorata,
     epidendrumCentropetalum,
     miltoniaRusselliana,
     promenaeaXanthina,

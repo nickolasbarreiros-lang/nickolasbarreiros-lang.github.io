@@ -1,0 +1,20 @@
+Adicionar à ficha, no nível principal do objeto:
+
+raridadeIndice: {
+    eooKm2: null,
+    aooKm2: null,
+    ocorrenciasConfiaveis: null,
+    endemismoHabitat: null,       // 0–100
+    statusConservacao: null,      // CR, EN, VU, NT, LC, DD, NE
+    populacaoFragmentacao: null,  // 0–100
+    ameacas: null,                // 0–100
+    fontes: [
+        // "POWO ...",
+        // "GBIF ...",
+        // "IUCN/CNCFlora ..."
+    ],
+    revisadoEm: "2026-08-14"
+}
+
+O sistema calcula automaticamente o índice 0–100 e converte em 1–5 estrelas.
+Se os dados não atingirem 55% do peso total, a nota antiga permanece como compatibilidade temporária.
