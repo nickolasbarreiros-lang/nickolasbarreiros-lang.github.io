@@ -70,11 +70,11 @@ export const dichaeaCogniauxiana = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 3.0 — régua recalibrada",
+        "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
         "indice": 56,
         "classificacao": "Difícil",
-        "cultivoEstrelas": 3,
+        "cultivoEstrelas": 2,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 3,
@@ -199,7 +199,7 @@ export const dichaeaCogniauxiana = {
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         avaliacoes: {
-        cultivo: 3,
+        cultivo: 2,
         floracao: 3,
         perfume: 1,
         luminosidade: 2,

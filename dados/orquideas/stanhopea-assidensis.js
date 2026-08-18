@@ -51,11 +51,11 @@ export const stanhopeaAssidensis = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 3.0 — régua recalibrada",
+        "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
         "indice": 54,
         "classificacao": "Difícil",
-        "cultivoEstrelas": 3,
+        "cultivoEstrelas": 2,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 3,
@@ -187,5 +187,5 @@ export const stanhopeaAssidensis = {
         "rega": { "nivel": "constante", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
-        avaliacoes: { cultivo: 3, floracao: 4, perfume: 5, luminosidade: 3, agua: 5, raridade: 4 }
+        avaliacoes: { cultivo: 2, floracao: 4, perfume: 5, luminosidade: 3, agua: 5, raridade: 4 }
 };

@@ -57,7 +57,7 @@ export const cattleyaPumpkinFestival = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 3.0 — régua recalibrada",
+        "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
         "indice": 20,
         "classificacao": "Fácil",

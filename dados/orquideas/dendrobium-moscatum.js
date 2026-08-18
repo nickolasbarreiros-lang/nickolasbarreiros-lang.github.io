@@ -57,7 +57,7 @@ export const dendrobiumMoscatum = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 3.0 — régua recalibrada",
+        "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
         "indice": 35,
         "classificacao": "Moderada",

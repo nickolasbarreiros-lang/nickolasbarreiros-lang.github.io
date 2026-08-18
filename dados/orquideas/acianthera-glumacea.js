@@ -21,7 +21,7 @@ export const aciantheraGlumacea = {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
-        avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
+        avaliacoes: { cultivo: 2, floracao: 4, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
     clima: "Intermediário a fresco, úmido e muito ventilado.",
     climaFloracao: "A ocorrência em torno de 1.300 m explica a preferência por condições frescas. No litoral quente, a dificuldade não é apenas a temperatura máxima diurna, mas principalmente noites persistentemente quentes combinadas a umidade parada. Mantenha-a no setor mais fresco e ventilado, evitando superfícies que irradiem calor à noite. Uma amplitude térmica moderada e o amadurecimento completo dos ramicaules favorecem florações mais consistentes.",
@@ -54,11 +54,11 @@ export const aciantheraGlumacea = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 3.0 — régua recalibrada",
+        "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
         "indice": 52,
         "classificacao": "Difícil",
-        "cultivoEstrelas": 3,
+        "cultivoEstrelas": 2,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 3,

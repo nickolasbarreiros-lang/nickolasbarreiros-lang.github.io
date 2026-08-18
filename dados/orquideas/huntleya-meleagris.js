@@ -50,11 +50,11 @@ export const huntleyaMeleagris = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 3.0 — régua recalibrada",
+        "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
         "indice": 52,
         "classificacao": "Difícil",
-        "cultivoEstrelas": 3,
+        "cultivoEstrelas": 2,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 3,
@@ -178,5 +178,5 @@ export const huntleyaMeleagris = {
         "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "intermediario" }
     },
-        avaliacoes: { cultivo: 3, floracao: 3, perfume: 5, luminosidade: 2, agua: 5, raridade: 4 }
+        avaliacoes: { cultivo: 2, floracao: 3, perfume: 5, luminosidade: 2, agua: 5, raridade: 4 }
 };

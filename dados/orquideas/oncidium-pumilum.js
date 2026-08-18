@@ -60,11 +60,11 @@ export const oncidiumPumilum = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 3.0 — régua recalibrada",
+        "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
         "indice": 36,
         "classificacao": "Moderada",
-        "cultivoEstrelas": 4,
+        "cultivoEstrelas": 3,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 2,
@@ -194,7 +194,7 @@ export const oncidiumPumilum = {
         "climaFloracao": { "faixa": "quente" }
     },
         "avaliacoes": {
-        "cultivo": 4,
+        "cultivo": 3,
         "floracao": 5,
         "perfume": 2,
         "luminosidade": 4,
