@@ -584,10 +584,6 @@ function solDiretoNaoRecomendado(valor) {
 }
 
 function criarCardIluminacao(iluminacao) {
-    const bloquearSolDireto = solDiretoNaoRecomendado(valor?.solDireto);
-    const solDiretoExibicao = bloquearSolDireto ? "Não recomendado" : (valor?.solDireto || "");
-    const horarioExibicao = bloquearSolDireto ? "" : (valor?.horario || "");
-
     if (!iluminacao || typeof iluminacao !== "object") {
         return criarInfoCard({
             titulo: "Iluminação",
@@ -599,12 +595,20 @@ function criarCardIluminacao(iluminacao) {
 
     const valorSolOriginal = String(iluminacao.solDireto || "").trim();
     const solDireto = valorSolOriginal.toLowerCase();
-    const aceitaSol = solDireto.startsWith("sim");
-    const rejeitaSol = solDireto === "não" || solDireto === "nao" || solDireto.startsWith("não,") || solDireto.startsWith("nao,");
+    const bloquearSolDireto = solDiretoNaoRecomendado(valorSolOriginal);
+    const aceitaSol = !bloquearSolDireto && solDireto.startsWith("sim");
+    const rejeitaSol =
+        bloquearSolDireto ||
+        solDireto === "não" ||
+        solDireto === "nao" ||
+        solDireto.startsWith("não,") ||
+        solDireto.startsWith("nao,");
 
     let textoSol = valorSolOriginal;
 
-    if (solDireto === "sim") {
+    if (bloquearSolDireto) {
+        textoSol = "Não recomendado";
+    } else if (solDireto === "sim") {
         textoSol = "Permitido";
     } else if (aceitaSol && valorSolOriginal.includes(",")) {
         textoSol = valorSolOriginal.split(",").slice(1).join(",").trim();
@@ -615,23 +619,31 @@ function criarCardIluminacao(iluminacao) {
 
     const iconeSol = aceitaSol ? "🌤️" : "🚫";
 
+    const indicadores = [
+        criarIndicadorRotulado(
+            "Sombrite",
+            criarChip("🟨", iluminacao.sombrite)
+        ),
+        criarIndicadorRotulado(
+            "Sol direto",
+            criarChip(iconeSol, textoSol)
+        )
+    ];
+
+    const horario = String(iluminacao.horario || "").trim();
+    if (!bloquearSolDireto && horario) {
+        indicadores.push(
+            criarIndicadorRotulado(
+                "Horário recomendado",
+                criarChip("🕘", horario)
+            )
+        );
+    }
+
     return criarInfoCard({
         titulo: "Iluminação",
         icone: "☀️",
-        indicadores: [
-            criarIndicadorRotulado(
-                "Sombrite",
-                criarChip("🟨", iluminacao.sombrite)
-            ),
-            criarIndicadorRotulado(
-                "Sol direto",
-                criarChip(iconeSol, textoSol)
-            ),
-            criarIndicadorRotulado(
-                "Horário recomendado",
-                criarChip("🕘", iluminacao.horario)
-            )
-        ],
+        indicadores,
         descricao: iluminacao.observacoes || "",
         classeExtra: "card-iluminacao-v2"
     });
