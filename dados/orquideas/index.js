@@ -132,7 +132,9 @@ import { encycliaAlboxanthina } from "./encyclia-alboxanthina.js";
 import { phalaenopsisPulcherrima } from "./phalaenopsis-pulcherrima.js";
 import { dendrobiumSpectabile } from "./dendrobium-spectabile.js";
 import { aeridesOdorata } from "./aerides-odorata.js";
+import { anathallisSclerophylla } from "./anathallis-sclerophylla.js";
 export const orquideas = [
+    anathallisSclerophylla,
     aeridesOdorata,
     epidendrumCentropetalum,
     miltoniaRusselliana,
