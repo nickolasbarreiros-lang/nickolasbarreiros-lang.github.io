@@ -565,7 +565,29 @@ function criarAdaptacaoRegional(valor, iar = null) {
     `;
 }
 
+
+function solDiretoNaoRecomendado(valor) {
+    const texto = String(valor || "").trim().toLowerCase();
+    return [
+        "não recomendado",
+        "nao recomendado",
+        "evitar",
+        "evite",
+        "não usar",
+        "nao usar",
+        "sem sol direto",
+        "não expor",
+        "nao expor",
+        "apenas luz solar muito suave e filtrada",
+        "somente luz solar muito suave e filtrada"
+    ].some(termo => texto.includes(termo));
+}
+
 function criarCardIluminacao(iluminacao) {
+    const bloquearSolDireto = solDiretoNaoRecomendado(valor?.solDireto);
+    const solDiretoExibicao = bloquearSolDireto ? "Não recomendado" : (valor?.solDireto || "");
+    const horarioExibicao = bloquearSolDireto ? "" : (valor?.horario || "");
+
     if (!iluminacao || typeof iluminacao !== "object") {
         return criarInfoCard({
             titulo: "Iluminação",

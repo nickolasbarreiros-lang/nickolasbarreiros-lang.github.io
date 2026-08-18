@@ -45,8 +45,8 @@ export const anathallisSclerophylla = {
     climaFloracao: "A espécie possui grande amplitude altitudinal e pode crescer de condições quentes a frias, mas tende a responder melhor quando recebe noites amenas, alta umidade e ventilação constante. No litoral quente, não é necessário tentar reproduzir frio intenso; o mais importante é reduzir o superaquecimento noturno, manter raízes ativas e oferecer boa diferença térmica entre dia e noite quando possível.",
     iluminacao: {
         sombrite: "70% a 80%",
-        solDireto: "Evitar; apenas luz solar muito suave e filtrada",
-        horario: "Luz difusa durante todo o dia",
+        solDireto: "Não recomendado",
+        horario: "",
         observacoes: "Prefere iluminação baixa a moderada, típica de ambientes florestais úmidos. Em litoral quente, 70% a 80% de sombreamento é um bom ponto de partida. Sombra excessivamente profunda pode reduzir a floração, enquanto sol direto forte aquece rapidamente as folhas coriáceas e desidrata as raízes."
     },
     floracao: "Pode florescer ao longo de uma janela relativamente ampla entre primavera, verão e outono, variando conforme procedência e clima. As inflorescências podem chegar a cerca de 30 cm, ultrapassando bastante as folhas e carregando numerosas flores abertas simultaneamente.",

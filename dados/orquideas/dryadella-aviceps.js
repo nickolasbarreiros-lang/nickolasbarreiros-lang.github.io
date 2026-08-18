@@ -31,8 +31,8 @@ export const dryadellaAviceps = {
     climaFloracao: "A amplitude altitudinal mostra que a espécie não deve ser classificada como exclusivamente fria. Plantas de procedência mais baixa toleram calor melhor, enquanto populações montanas respondem a noites amenas. Uma touceira madura, raízes saudáveis e estabilidade hídrica são mais importantes que um choque térmico intenso. No litoral quente, a prioridade é evitar abafamento e aquecimento prolongado das raízes.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Evitar",
-        horario: "Luz difusa durante todo o dia",
+        solDireto: "Não recomendado",
+        horario: "",
         observacoes: "Prefere sombra clara. Folhas excessivamente amarelas ou avermelhadas sugerem luz/calor em excesso; folhas muito escuras e alongadas indicam pouca luminosidade."
     },
     floracao: "Pode produzir poucas flores sucessivamente em inflorescências muito curtas, de apenas 1–2 mm, surgindo na base do ramicaule. A época pode variar com a procedência e o cultivo; plantas bem estabelecidas podem repetir floração ao longo do ano, sem necessidade de repouso seco.",

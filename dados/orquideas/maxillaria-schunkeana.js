@@ -28,8 +28,8 @@ export const maxillariaSchunkeana = {
     "climaFloracao": "IOSPE registra a espécie florescendo no verão brasileiro, a partir de pseudobulbos maduros. Isso corrige a ideia de que ela depende de frio para florescer: sua origem em 600–700 m no Espírito Santo aponta para cultivo quente a moderado, desde que haja circulação de ar e raízes saudáveis. No litoral, mantenha boa luminosidade filtrada, regas regulares com rápida drenagem e evite noites abafadas com substrato saturado.",
     "iluminacao": {
         "sombrite": "70% a 80%",
-        "solDireto": "Evitar; apenas luz muito branda",
-        "horario": "No máximo início da manhã",
+        "solDireto": "Não recomendado",
+        "horario": "",
         "observacoes": "É uma planta de interior de mata. Folhas verde-médio e flexíveis indicam equilíbrio. Clareamento intenso, amarelecimento ou manchas secas exigem redução imediata da exposição. Sombra absoluta, porém, também é prejudicial: a planta precisa de claridade difusa para amadurecer pseudobulbos e florescer."
     },
     "floracao": "A floração ocorre principalmente no verão, aproximadamente de dezembro a março. Cada haste é curta, basal e geralmente porta uma única flor de cerca de 1 cm, mantida próxima à altura do pseudobulbo. Touceiras maduras podem emitir várias flores quase ao mesmo tempo.",

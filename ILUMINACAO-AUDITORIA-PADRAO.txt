@@ -1,0 +1,11 @@
+PADRONIZAÇÃO DOS SELOS DE ILUMINAÇÃO
+
+Fichas com bloco de iluminação verificadas: 131
+Fichas enquadradas como sol direto não recomendado: 23
+Arquivos efetivamente modificados: 11
+Validação: OK
+
+Regra:
+- 'Evitar', 'Evite', 'apenas luz solar muito suave e filtrada', 'sem sol direto' etc. são padronizados para 'Não recomendado'.
+- Quando sol direto = 'Não recomendado', o horário é removido.
+- O ficha.js também foi protegido para ocultar horário caso uma ficha futura use um sinônimo de 'evitar'.

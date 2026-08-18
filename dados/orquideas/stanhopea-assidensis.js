@@ -22,8 +22,8 @@ export const stanhopeaAssidensis = {
     climaFloracao: "O cruzamento reúne um parental mexicano de aproximadamente 600–1.700 m e outro distribuído em florestas úmidas de cerca de 800–2.700 m. Por isso, não deve ser tratado como híbrido puramente quente. No litoral, a melhor estratégia é reduzir o aquecimento das raízes, manter alta ventilação e garantir diferença térmica noturna sempre que possível, sem impor repouso seco.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Evitar nas horas quentes",
-        horario: "Apenas sol fraco do início da manhã",
+        solDireto: "Não recomendado",
+        horario: "",
         observacoes: "Prefere luz intensa, porém filtrada. Folhas verde-médio indicam boa luminosidade; folhas muito escuras sugerem falta de luz, enquanto amarelecimento e queimaduras indicam excesso."
     },
     floracao: "A floração tende a ocorrer da primavera ao verão, podendo variar entre clones e condições de cultivo. As inflorescências são pendentes e atravessam o fundo ou as laterais da cesta. As flores duram poucos dias, porém são grandes, cerosas e intensamente perfumadas; plantas adultas podem emitir mais de uma haste na mesma estação.",
