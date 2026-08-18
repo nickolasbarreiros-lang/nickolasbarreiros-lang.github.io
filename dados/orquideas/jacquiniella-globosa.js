@@ -27,7 +27,7 @@ export const jacquiniellaGlobosa = {
     climaFloracao: "Não exige repouso seco nem choque térmico específico. A floração tende a acompanhar caules maduros sob boa luminosidade filtrada, umidade regular e ventilação constante; procedências de altitude podem responder melhor a noites mais amenas.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Não recomendado",
+        solDireto: "Não permitido",
         horario: "",
         observacoes: "Folhas firmes em verde-médio indicam equilíbrio. Folhagem muito escura e caules alongados sugerem pouca luz; avermelhamento discreto pode ocorrer com maior claridade, mas manchas secas ou aquecimento excessivo indicam excesso."
     },

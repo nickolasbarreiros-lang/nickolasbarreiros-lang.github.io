@@ -597,6 +597,7 @@ function criarCardIluminacao(iluminacao) {
     const solNormalizado = valorSolOriginal.toLowerCase();
 
     const termosSemSolDireto = [
+        "não permitido", "nao permitido",
         "não recomendado", "nao recomendado",
         "não necessário", "nao necessario",
         "evitar", "evite",
@@ -606,12 +607,15 @@ function criarCardIluminacao(iluminacao) {
         "dispensável", "dispensavel"
     ];
 
-    const bloquearSolDireto = termosSemSolDireto.some(
-        termo => solNormalizado.includes(termo)
-    );
+    const bloquearSolDireto =
+        solNormalizado === "não" ||
+        solNormalizado === "nao" ||
+        termosSemSolDireto.some(
+            termo => solNormalizado.includes(termo)
+        );
 
     const aceitaSol = !bloquearSolDireto && solNormalizado.startsWith("sim");
-    let textoSol = bloquearSolDireto ? "Não recomendado" : valorSolOriginal;
+    let textoSol = bloquearSolDireto ? "Não permitido" : valorSolOriginal;
 
     if (!bloquearSolDireto && solNormalizado === "sim") {
         textoSol = "Permitido";

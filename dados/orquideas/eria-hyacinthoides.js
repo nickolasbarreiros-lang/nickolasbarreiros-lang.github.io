@@ -22,7 +22,7 @@ export const eriaHyacinthoides = {
     climaFloracao: "A faixa altitudinal ampla explica sua tolerância de quente a fresco. No litoral, mantenha sombra clara, umidade atmosférica e movimento de ar, evitando aquecimento abafado. Não necessita repouso seco; apenas reduza a frequência de rega quando a evaporação cair.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Não",
+        solDireto: "Não permitido",
         horario: "",
         observacoes: "Necessita de luz filtrada média. O sol direto não é recomendado, pois o aquecimento excessivo das folhas causa queimaduras rápidas e amarelamento foliar prematuro."
     },

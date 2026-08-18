@@ -27,7 +27,7 @@ export const octomeriaMicrantha = {
     "climaFloracao": "IOSPE descreve crescimento quente a fresco e ocorrência sobre musgos e líquens em florestas primárias. Portanto, não é adequado tratá-la como estritamente fria. No litoral quente, a melhor estratégia é compensar noites altas com ventilação constante, raízes expostas ao ar e sombra clara. A espécie tolera secagem superficial leve, mas não um repouso seco prolongado.",
     "iluminacao": {
         "sombrite": "60% a 75%",
-        "solDireto": "Não",
+        "solDireto": "Não permitido",
         "horario": "",
         "observacoes": "Sombra clara. Folhas muito alongadas e escuras sugerem pouca luz; tonalidade amarelada ou pontas secas indicam exposição excessiva."
     },

@@ -27,7 +27,7 @@ export const ludisiaDiscolor = {
     climaFloracao: "A espécie cresce sob condições relativamente estáveis, sem repouso seco. WFO descreve plantas geralmente com 10 a 25 cm de altura, folhas escuras com nervuras contrastantes e longa janela fenológica em sua área natural. Em cultivo, hastes florais costumam aparecer após o amadurecimento dos caules, frequentemente com dias mais curtos e temperaturas ligeiramente mais amenas, mas frio intenso não é necessário. Excesso de nitrogênio, sombra profunda demais e substrato sem oxigenação favorecem crescimento mole e reduzem a floração.",
     iluminacao: {
         sombrite: "70% a 80%",
-        solDireto: "Não recomendado",
+        solDireto: "Não permitido",
         horario: "",
         observacoes: "Prefere luz baixa a moderada, porém não escuridão. Em interiores, mantenha próxima de janela clara sem sol direto. Folhas compactas, firmes e intensamente coloridas indicam bom equilíbrio; caules longos e espaçados sugerem pouca luz, enquanto desbotamento, manchas claras e bordas queimadas indicam excesso de exposição ou calor."
     },

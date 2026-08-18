@@ -31,7 +31,7 @@ export const dryadellaAviceps = {
     climaFloracao: "A amplitude altitudinal mostra que a espécie não deve ser classificada como exclusivamente fria. Plantas de procedência mais baixa toleram calor melhor, enquanto populações montanas respondem a noites amenas. Uma touceira madura, raízes saudáveis e estabilidade hídrica são mais importantes que um choque térmico intenso. No litoral quente, a prioridade é evitar abafamento e aquecimento prolongado das raízes.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Não recomendado",
+        solDireto: "Não permitido",
         horario: "",
         observacoes: "Prefere sombra clara. Folhas excessivamente amarelas ou avermelhadas sugerem luz/calor em excesso; folhas muito escuras e alongadas indicam pouca luminosidade."
     },

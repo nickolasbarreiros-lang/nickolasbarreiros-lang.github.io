@@ -32,7 +32,7 @@ export const pleurothallisModestissima = {
     "climaFloracao": "A informação ecológica mais segura é sua associação a ambientes sazonalmente secos de Minas Gerais. Portanto, não deve ser cultivada como uma Pleurothallidinae permanentemente encharcada. No litoral quente, mantenha umidade ambiental, sombra clara e ventilação, permitindo que o suporte perca parte da água entre regas. Uma redução moderada na fase menos ativa é mais coerente do que um repouso frio ou seco rígido.",
     "iluminacao": {
         "sombrite": "65% a 80%",
-        "solDireto": "Não recomendado",
+        "solDireto": "Não permitido",
         "horario": "",
         "observacoes": "Prefira sombra clara e ventilada. Como ocorre em ambiente sazonalmente seco, pode tolerar luminosidade um pouco maior que micro-orquídeas de mata nebular, desde que o suporte não aqueça."
     },

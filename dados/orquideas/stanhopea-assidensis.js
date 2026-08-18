@@ -22,7 +22,7 @@ export const stanhopeaAssidensis = {
     climaFloracao: "O cruzamento reúne um parental mexicano de aproximadamente 600–1.700 m e outro distribuído em florestas úmidas de cerca de 800–2.700 m. Por isso, não deve ser tratado como híbrido puramente quente. No litoral, a melhor estratégia é reduzir o aquecimento das raízes, manter alta ventilação e garantir diferença térmica noturna sempre que possível, sem impor repouso seco.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Não recomendado",
+        solDireto: "Não permitido",
         horario: "",
         observacoes: "Prefere luz intensa, porém filtrada. Folhas verde-médio indicam boa luminosidade; folhas muito escuras sugerem falta de luz, enquanto amarelecimento e queimaduras indicam excesso."
     },

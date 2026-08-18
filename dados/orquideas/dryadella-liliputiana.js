@@ -32,7 +32,7 @@ export const dryadellaLiliputiana = {
     climaFloracao: "IOSPE registra floração no inverno e crescimento quente a fresco ao longo de sua faixa altitudinal. Em cultivo, a combinação mais favorável é touceira madura, umidade do ar alta, raízes oxigenadas e noites mais amenas. Não necessita de repouso seco. No litoral, o verão deve ser manejado reduzindo temperatura radicular e aumentando circulação de ar, não mantendo o substrato permanentemente saturado.",
     iluminacao: {
         sombrite: "Cerca de 70%",
-        solDireto: "Não recomendado",
+        solDireto: "Não permitido",
         horario: "",
         observacoes: "Prefere sombra clara. Luz suficiente mantém folhas compactas, mas o excesso de radiação aquece rapidamente a pequena touceira e aumenta a desidratação."
     },

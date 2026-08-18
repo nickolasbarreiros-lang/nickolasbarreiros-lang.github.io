@@ -29,7 +29,7 @@ export const promenaeaXanthina = {
     climaFloracao: "A floração é favorecida por planta bem estabelecida, noites amenas, umidade constante e luz filtrada. No litoral quente, evite sobretudo o superaquecimento noturno. Após a maturação dos pseudobulbos, uma breve redução nas regas pode ajudar, mas sem transformar o período em repouso seco.",
     iluminacao: {
         sombrite: "70% a 80%",
-        solDireto: "Não recomendado",
+        solDireto: "Não permitido",
         horario: "",
         observacoes: "As folhas finas aquecem e queimam com facilidade. No litoral quente, 70% a 80% de sombreamento é uma faixa segura, desde que o ambiente permaneça claro. Sombra excessivamente fechada reduz vigor e floração."
     },

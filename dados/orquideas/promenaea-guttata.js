@@ -32,7 +32,7 @@ export const promenaeaGuttata = {
     "climaFloracao": "IOSPE descreve plantas de crescimento quente a fresco e floração no fim da primavera e verão. Essa amplitude mostra que não há uma única temperatura obrigatória; no litoral quente, o desafio é impedir que a combinação de noites muito quentes, ar parado e substrato saturado sufoque as raízes. Boa umidade atmosférica com circulação de ar é mais importante do que manter o vaso constantemente molhado.",
     "iluminacao": {
         "sombrite": "70% a 80%",
-        "solDireto": "Não recomendado",
+        "solDireto": "Não permitido",
         "horario": "",
         "observacoes": "Prefere luminosidade baixa a moderada. Folhas finas aquecem rapidamente, portanto evite sol direto. Sombra extremamente fechada, porém, reduz a qualidade dos novos pseudobulbos e pode diminuir a floração."
     },

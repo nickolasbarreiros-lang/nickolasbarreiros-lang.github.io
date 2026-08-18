@@ -28,7 +28,7 @@ export const ornithocephalusMyrticola = {
     "climaFloracao": "Cresce continuamente quando recebe umidade estável, boa ventilação e temperatura moderada. Não precisa de repouso seco. Plantas bem estabelecidas podem emitir várias hastes, criando pequenas nuvens de flores microscópicas. Calor noturno, ar parado e água retida no centro do leque interrompem rapidamente o crescimento.",
     "iluminacao": {
         "sombrite": "70% a 80%",
-        "solDireto": "Não",
+        "solDireto": "Não permitido",
         "horario": "",
         "observacoes": "Sombra clara. Posicione na faixa inferior ou média do orquidário, longe de paredes e coberturas aquecidas. Folhas amareladas ou avermelhadas indicam excesso; folhas alongadas, muito escuras e pouca floração indicam sombra profunda."
     },

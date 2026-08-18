@@ -24,7 +24,7 @@ export const bulbophyllumMiniatum = {
     climaFloracao: "A espécie-base é registrada em florestas quentes abaixo de 900 m e floresce sobretudo no inverno; para a variedade albociliatum, a referência ecológica próxima de 750 m reforça preferência por calor moderado com noites ligeiramente mais amenas, não por frio intenso. No litoral quente, a indução floral tende a depender mais da maturação dos pseudobulbos, boa luminosidade filtrada e pequena sazonalidade térmica do que de qualquer repouso seco.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Não recomendado",
+        solDireto: "Não permitido",
         horario: "",
         observacoes: "Meia-sombra clara é preferível à sombra profunda. Folhas firmes e verde-médio indicam bom equilíbrio. No litoral quente, ventilação constante é indispensável para que a combinação de calor, umidade e sombra não favoreça podridões."
     },

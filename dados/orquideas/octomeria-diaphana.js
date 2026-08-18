@@ -27,7 +27,7 @@ export const octomeriaDiaphana = {
     "climaFloracao": "IOSPE descreve a espécie como de crescimento quente a fresco em florestas primárias úmidas, sobre troncos e ramos cobertos de musgo. Isso explica por que, no litoral quente, ela responde melhor quando recebe sombra clara, alta umidade atmosférica e forte ventilação, especialmente à noite. Não precisa de repouso seco; basta permitir leve secagem superficial do suporte entre regas.",
     "iluminacao": {
         "sombrite": "60% a 75%",
-        "solDireto": "Não",
+        "solDireto": "Não permitido",
         "horario": "",
         "observacoes": "Sombra clara. Folhas muito alongadas e escuras sugerem pouca luz; tonalidade amarelada ou pontas secas indicam exposição excessiva."
     },

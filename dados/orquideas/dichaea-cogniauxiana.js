@@ -29,7 +29,7 @@ export const dichaeaCogniauxiana = {
     climaFloracao: "Intermediário a fresco, com elevada umidade atmosférica e boa circulação de ar. No litoral quente, proteja principalmente do superaquecimento noturno e do ar parado. Noites mais amenas associadas à manutenção da umidade favorecem vigor e floração.",
     iluminacao: {
         sombrite: "70% a 80%",
-        solDireto: "Não recomendado",
+        solDireto: "Não permitido",
         horario: "",
         observacoes: "É adaptada a ambientes de baixa intensidade luminosa. Cerca de 70% de sombreamento funciona como bom ponto inicial no litoral quente. Evite incidência direta de sol forte sobre a folhagem delicada; sombra excessivamente escura, porém, pode reduzir vigor e floração."
     },

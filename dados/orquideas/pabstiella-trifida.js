@@ -29,7 +29,7 @@ export const pabstiellaTrifida = {
     "climaFloracao": "Noites amenas, alta umidade atmosférica e ventilação contínua favorecem maturação dos ramicaules e floração. Não necessita de repouso seco. Em noites persistentemente quentes, a respiração aumenta, as reservas diminuem e as raízes perdem vigor, mesmo quando o suporte parece úmido.",
     "iluminacao": {
         "sombrite": "70% a 80%",
-        "solDireto": "Não",
+        "solDireto": "Não permitido",
         "horario": "",
         "observacoes": "Sombra clara e fresca. Folhas amareladas ou avermelhadas indicam excesso de luz e calor; ramicaules alongados, moles e ausência de flores indicam sombra profunda. A planta deve ficar longe de telhas, paredes aquecidas e bolsões de ar quente."
     },

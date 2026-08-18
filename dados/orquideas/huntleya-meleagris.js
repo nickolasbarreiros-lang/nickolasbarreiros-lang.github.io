@@ -22,7 +22,7 @@ export const huntleyaMeleagris = {
     climaFloracao: "A amplitude altitudinal mostra que a espécie tolera condições de frescas a relativamente quentes, mas não significa que suporte calor noturno abafado. No litoral, o desafio é reproduzir o frescor e a umidade do interior da floresta sem manter as raízes sem oxigênio. Crescimento contínuo, água de baixa salinidade e noites um pouco mais amenas favorecem a formação de flores. Não possui repouso seco.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Não recomendado",
+        solDireto: "Não permitido",
         horario: "",
         observacoes: "Prefere luz semelhante à de Phalaenopsis bem iluminada, mas com muito mais circulação de ar. Folhas amareladas ou aquecidas indicam excesso; folhas muito escuras e crescimento fraco podem indicar sombra profunda demais."
     },

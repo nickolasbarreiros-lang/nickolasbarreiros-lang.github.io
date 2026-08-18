@@ -30,7 +30,7 @@ export const bulbophyllumSyciobulbon = {
     climaFloracao: "A espécie está associada a condições montanas frescas. Em cultivo, a emissão floral depende sobretudo de pseudobulbos maduros, raízes funcionais, umidade atmosférica alta, ventilação e noites amenas. Não há base segura para impor um repouso seco rígido ou um calendário universal. No litoral quente, o fator limitante tende a ser o calor noturno contínuo; por isso, deve ocupar o ponto mais fresco do orquidário, sem reduzir a ventilação para tentar elevar a umidade.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Não recomendado",
+        solDireto: "Não permitido",
         horario: "",
         observacoes: "IOSPE a trata como espécie de meia-sombra. Luz difusa e constante é preferível a incidência direta, especialmente em clima quente. Sombra profunda pode reduzir vigor e maturação dos pseudobulbos; sol forte aquece folhas, rizoma e suporte e aumenta muito a perda de água."
     },

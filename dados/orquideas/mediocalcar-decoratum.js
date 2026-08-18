@@ -27,7 +27,7 @@ export const mediocalcarDecoratum = {
     "climaFloracao": "Não necessita repouso seco. A floração é favorecida por crescimento contínuo, touceira madura, raízes saudáveis e noites amenas. Ondas de temperaturas mais frescas podem estimular botões, mas a planta deve permanecer hidratada. Calor noturno prolongado, especialmente com ar parado, interrompe o metabolismo e torna brotos e raízes vulneráveis a podridões.",
     "iluminacao": {
         "sombrite": "70% a 80%",
-        "solDireto": "Não recomendado",
+        "solDireto": "Não permitido",
         "horario": "",
         "observacoes": "Mantenha em sombra clara, nunca em escuridão. Pouca luz alonga os brotos e reduz flores; sol direto aquece as folhas pequenas e causa desidratação rápida. O ponto mais baixo e fresco do orquidário costuma oferecer o microclima mais estável."
     },

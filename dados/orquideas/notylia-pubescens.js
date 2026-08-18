@@ -27,7 +27,7 @@ export const notyliaPubescens = {
     "climaFloracao": "A produção de cachos depende mais da maturação do crescimento, luminosidade filtrada e estabilidade hídrica do que de frio intenso. A espécie é registrada em diferentes ambientes brasileiros, inclusive florestas ombrófilas e ribeirinhas. Durante a emissão das hastes, evite secas prolongadas e água parada na base da folha. Ventilação é especialmente importante em noites quentes, quando botões e flores ficam mais sujeitos a fungos.",
     "iluminacao": {
         "sombrite": "60% a 75%",
-        "solDireto": "Não",
+        "solDireto": "Não permitido",
         "horario": "",
         "observacoes": "Sombra clara, semelhante a Phalaenopsis bem iluminada. Folhas amarelas ou ásperas indicam excesso; folhas muito escuras e moles indicam falta de luz."
     },

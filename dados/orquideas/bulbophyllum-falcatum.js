@@ -30,7 +30,7 @@ export const bulbophyllumFalcatum = {
     climaFloracao: "No habitat, floresce do inverno à primavera após a maturação dos pseudobulbos. Não necessita repouso seco rígido. Uma leve redução natural da temperatura noturna e da evaporação pode acompanhar a indução floral, mas a planta deve continuar hidratada. No litoral quente, priorize noites ventiladas e evite excesso de água quando a evaporação cair.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Não recomendado",
+        solDireto: "Não permitido",
         horario: "",
         observacoes: "Sombra clara a meia-sombra. Luz insuficiente pode reduzir vigor e emissão de hastes; sol forte aquece rapidamente folhas e rizoma. No litoral, 60% a 70% de sombreamento com ventilação é mais seguro que sol direto."
     },

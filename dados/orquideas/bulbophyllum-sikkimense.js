@@ -24,7 +24,7 @@ export const bulbophyllumSikkimense = {
     climaFloracao: "A altitude baixa a moderada dos exemplares historicamente chamados B. sikkimense mostra que não se trata de orquídea alpina. IOSPE a classifica de quente a intermediária e registra floração na primavera. No litoral quente, o manejo deve priorizar ventilação, maturação dos pseudobulbos e boa luz filtrada; não há justificativa ecológica para frio intenso ou repouso seco severo.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Não recomendado",
+        solDireto: "Não permitido",
         horario: "",
         observacoes: "Meia-sombra clara favorece umbela compacta e pseudobulbos firmes. Sombra profunda reduz a qualidade da floração; sol direto forte pode superaquecer folhas e rizoma."
     },
