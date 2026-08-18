@@ -6,22 +6,7 @@ export const leptotesUnicolor = {
     genero: "Leptotes",
     sinonimo: "Leptotes paranaensis",
     tipo: "Espécie botânica",
-    dificuldade: "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 46,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 2, peso: 18 },
-            agua: { nota: 1, peso: 15 },
-            umidadeVentilacao: { nota: 2, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 3, peso: 15 },
-            cicloRepouso: { nota: 1, peso: 12 },
-            floracao: { nota: 4, peso: 20 }
-        }
-    },
+    dificuldade: "Fácil",
     caracteristicas: [
         "Miniatura epífita pendente",
         "Folhas cilíndricas e carnosas",
@@ -62,8 +47,23 @@ export const leptotesUnicolor = {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
     },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 29,
+        nivel: "Fácil",
+        fatores: {
+            temperatura: { nota: 3, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 0, peso: 12 },
+            floracao: { nota: 1, peso: 20 }
+        }
+    },
     avaliacoes: {
-        cultivo: 3,
+        cultivo: 2,
         floracao: 4,
         perfume: 3,
         luminosidade: 4,

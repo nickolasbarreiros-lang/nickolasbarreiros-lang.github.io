@@ -6,22 +6,7 @@ export const miltoniaRegnellii = {
     "genero": "Miltonia",
     "sinonimo": "Oncidium regnellii",
     "tipo": "Espécie botânica",
-    "dificuldade": "Difícil",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 54,
-        nivel: "Difícil",
-        fatores: {
-            temperatura: { nota: 2, peso: 18 },
-            agua: { nota: 3, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 3, peso: 15 },
-            cicloRepouso: { nota: 3, peso: 12 },
-            floracao: { nota: 4, peso: 20 }
-        }
-    },
+    "dificuldade": "Moderada",
     "caracteristicas": [
         "Flores claras com labelo rosado a púrpura",
         "Epífita simpodial",
@@ -63,8 +48,23 @@ export const miltoniaRegnellii = {
         "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 38,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 3, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
+    },
     "avaliacoes": {
-        "cultivo": 3,
+        "cultivo": 2,
         "floracao": 4,
         "perfume": 3,
         "luminosidade": 3,

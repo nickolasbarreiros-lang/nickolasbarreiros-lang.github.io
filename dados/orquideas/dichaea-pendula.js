@@ -6,22 +6,7 @@ export const dichaeaPendula = {
     genero: "Dichaea",
     sinonimo: "Dichaea echinocarpa",
     tipo: "Espécie botânica",
-    dificuldade: "Difícil",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 69,
-        nivel: "Difícil",
-        fatores: {
-            temperatura: { nota: 4, peso: 18 },
-            agua: { nota: 4, peso: 15 },
-            umidadeVentilacao: { nota: 3, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 3, peso: 15 },
-            cicloRepouso: { nota: 3, peso: 12 },
-            floracao: { nota: 4, peso: 20 }
-        }
-    },
+    dificuldade: "Moderada",
     caracteristicas: [
         "Espécie neotropical",
         "Crescimento pendente",
@@ -66,8 +51,23 @@ export const dichaeaPendula = {
         "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 58,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 3, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 4, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 4, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
+    },
     avaliacoes: {
-        cultivo: 4,
+        cultivo: 3,
         floracao: 3,
         perfume: 1,
         luminosidade: 2,

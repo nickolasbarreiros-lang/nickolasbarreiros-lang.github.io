@@ -7,21 +7,6 @@ export const dendrobiumAggregatum = {
     "sinonimo": "Dendrobium aggregatum",
     "tipo": "Espécie botânica — tradicionalmente cultivada como Dendrobium aggregatum",
     "dificuldade": "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 50,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 4, peso: 18 },
-            agua: { nota: 2, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 2, peso: 15 },
-            cicloRepouso: { nota: 1, peso: 12 },
-            floracao: { nota: 4, peso: 20 }
-        }
-    },
     "caracteristicas": [
         "Touceira compacta",
         "Pseudobulbos curtos e unifoliados",
@@ -71,6 +56,21 @@ export const dendrobiumAggregatum = {
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "repouso-seco" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 48,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 4, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 3, peso: 15 },
+            cicloRepouso: { nota: 0, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
     },
     "avaliacoes": {
         "cultivo": 3,

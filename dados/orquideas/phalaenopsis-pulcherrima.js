@@ -6,22 +6,7 @@ export const phalaenopsisPulcherrima = {
     nome: "Phalaenopsis pulcherrima",
     genero: "Phalaenopsis",
     tipo: "Espécie botânica litófita ou terrestre asiática",
-    dificuldade: "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 27,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 1, peso: 18 },
-            agua: { nota: 2, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 1, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 1, peso: 12 },
-            floracao: { nota: 2, peso: 20 }
-        }
-    },
+    dificuldade: "Fácil",
     caracteristicas: [
         "Sin. Doritis pulcherrima",
         "Haste floral ereta",
@@ -77,5 +62,20 @@ export const phalaenopsisPulcherrima = {
         "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
-    avaliacoes: { cultivo: 2, floracao: 5, perfume: 1, luminosidade: 3, agua: 3, raridade: 3 }
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 12,
+        nivel: "Fácil",
+        fatores: {
+            temperatura: { nota: 0, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 0, peso: 12 },
+            floracao: { nota: 0, peso: 20 }
+        }
+    },
+    avaliacoes: { cultivo: 1, floracao: 5, perfume: 1, luminosidade: 3, agua: 3, raridade: 3 }
 };

@@ -7,22 +7,7 @@ export const rodrigueziaLanceolata = {
     "genero": "Rodriguezia",
     "sinonimo": "Rodriguezia secunda",
     "tipo": "Espécie botânica",
-    "dificuldade": "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 26,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 0, peso: 18 },
-            agua: { nota: 1, peso: 15 },
-            umidadeVentilacao: { nota: 2, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 3, peso: 15 },
-            cicloRepouso: { nota: 1, peso: 12 },
-            floracao: { nota: 1, peso: 20 }
-        }
-    },
+    "dificuldade": "Fácil",
     "caracteristicas": [
         "Epífita sul-americana",
         "Porte pequeno a médio",
@@ -75,8 +60,23 @@ export const rodrigueziaLanceolata = {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 20,
+        nivel: "Fácil",
+        fatores: {
+            temperatura: { nota: 0, peso: 18 },
+            agua: { nota: 2, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 0, peso: 12 },
+            floracao: { nota: 0, peso: 20 }
+        }
+    },
     "avaliacoes": {
-        "cultivo": 2,
+        "cultivo": 1,
         "floracao": 5,
         "perfume": 2,
         "luminosidade": 3,

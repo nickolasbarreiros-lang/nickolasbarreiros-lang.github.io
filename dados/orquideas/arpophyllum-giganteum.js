@@ -5,22 +5,7 @@ export const arpophyllumGiganteum = {
     genero: "Arpophyllum",
     tipo: "Espécie botânica — com táxons infraespecíficos reconhecidos em bases modernas",
     sinonimo: "Arpophyllum cardinale Linden & Rchb.f.; Arpophyllum jamaicense Schltr.; Arpophyllum medium Rchb.f.; Arpophyllum stenostachyum Schltr.; nomes hoje associados ao complexo/infrasubdivisões de A. giganteum",
-    dificuldade: "Difícil",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 56,
-        nivel: "Difícil",
-        fatores: {
-            temperatura: { nota: 4, peso: 18 },
-            agua: { nota: 3, peso: 15 },
-            umidadeVentilacao: { nota: 2, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 4, peso: 12 },
-            floracao: { nota: 3, peso: 20 }
-        }
-    },
+    dificuldade: "Moderada",
     origem: "México até o noroeste da Venezuela, incluindo América Central, Colômbia e Jamaica.",
     regiao: "México, Guatemala, Belize, El Salvador, Honduras, Nicarágua, Costa Rica, Jamaica, Colômbia e noroeste da Venezuela.",
     habitat: "Epífita rizomatosa de florestas úmidas de encosta e sopé de montanha, aproximadamente entre 800 e 1.500 m.",
@@ -36,7 +21,22 @@ export const arpophyllumGiganteum = {
         "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "intermediario" }
     },
-    avaliacoes: { cultivo: 3, floracao: 4, perfume: 1, luminosidade: 4, agua: 4, raridade: 3 },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 31,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 3, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 1, peso: 20 }
+        }
+    },
+    avaliacoes: { cultivo: 2, floracao: 4, perfume: 1, luminosidade: 4, agua: 4, raridade: 3 },
     mesesFloracao: [8, 9, 10, 11],
     clima: "Quente a fresco, com preferência por noites amenas e boa amplitude térmica.",
     climaFloracao: "A faixa natural de 800–1.500 m explica a combinação aparentemente contraditória de fontes que a tratam como quente, intermediária ou fresca. A espécie suporta dias quentes, mas tende a florescer melhor quando o calor não permanece elevado durante toda a noite. No litoral, mantenha a planta em local muito ventilado, com alta claridade sem superaquecimento; pseudobulbos recém-maduros e bem abastecidos de água são os que originam as inflorescências terminais.",

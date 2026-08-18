@@ -8,21 +8,6 @@ export const camaridiumCarinatum = {
     sinonimo: "Camaridium carinatum",
     tipo: "Espécie botânica — nome aceito atual",
     dificuldade: "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 49,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 0, peso: 18 },
-            agua: { nota: 4, peso: 15 },
-            umidadeVentilacao: { nota: 2, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 2, peso: 15 },
-            cicloRepouso: { nota: 3, peso: 12 },
-            floracao: { nota: 4, peso: 20 }
-        }
-    },
     caracteristicas: [
         "América do Sul tropical",
         "Rizoma alongado",
@@ -64,6 +49,21 @@ export const camaridiumCarinatum = {
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
+    },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 43,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 3, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
     },
     avaliacoes: {
         cultivo: 3,

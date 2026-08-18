@@ -9,21 +9,6 @@ export const bulbophyllumSikkimense = {
     genero: "Bulbophyllum",
     tipo: "Espécie botânica — ficha histórica",
     dificuldade: "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 43,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 0, peso: 18 },
-            agua: { nota: 4, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 2, peso: 15 },
-            cicloRepouso: { nota: 3, peso: 12 },
-            floracao: { nota: 3, peso: 20 }
-        }
-    },
     caracteristicas: ["Nome histórico B. sikkimense", "Umbela 10–12 flores", "Flores ~2 cm", "300–500 m", "Clima quente", "Primavera"],
     fotos: [
         "imagens/Bulbophyllum sikkimense/Bulbophyllum sikkimense1.webp",
@@ -59,5 +44,20 @@ export const bulbophyllumSikkimense = {
         "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
-    avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 3, agua: 4, raridade: 3 }
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 37,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 0, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 4, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
+    },
+    avaliacoes: { cultivo: 2, floracao: 4, perfume: 2, luminosidade: 3, agua: 4, raridade: 3 }
 };

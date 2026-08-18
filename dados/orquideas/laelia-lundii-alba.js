@@ -7,22 +7,7 @@ export const laeliaLundiiAlba = {
     genero: "Cattleya",
     sinonimo: "Laelia lundii f. alba",
     tipo: "Forma alba horticultural",
-    dificuldade: "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 37,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 1, peso: 18 },
-            agua: { nota: 2, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 3, peso: 12 },
-            floracao: { nota: 3, peso: 20 }
-        }
-    },
+    dificuldade: "Fácil",
     caracteristicas: [
         "Forma alba rara",
         "Miniatura epífita ou rupícola",
@@ -62,6 +47,21 @@ export const laeliaLundiiAlba = {
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
+    },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 29,
+        nivel: "Fácil",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 4, peso: 12 },
+            floracao: { nota: 1, peso: 20 }
+        }
     },
     avaliacoes: {
         cultivo: 2,

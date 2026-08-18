@@ -7,22 +7,7 @@ export const bulbophyllumSyciobulbon = {
     genero: "Bulbophyllum",
     sinonimo: "Phyllorkis sicyobulbon",
     tipo: "Espécie botânica epífita montana",
-    dificuldade: "Difícil",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 62,
-        nivel: "Difícil",
-        fatores: {
-            temperatura: { nota: 4, peso: 18 },
-            agua: { nota: 3, peso: 15 },
-            umidadeVentilacao: { nota: 2, peso: 12 },
-            luminosidade: { nota: 1, peso: 8 },
-            raizes: { nota: 3, peso: 15 },
-            cicloRepouso: { nota: 3, peso: 12 },
-            floracao: { nota: 4, peso: 20 }
-        }
-    },
+    dificuldade: "Moderada",
     caracteristicas: [
         "Indochina",
         "Rizoma muito espaçado",
@@ -65,8 +50,23 @@ export const bulbophyllumSyciobulbon = {
         "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 57,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 4, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 4, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
+    },
     avaliacoes: {
-        cultivo: 4,
+        cultivo: 3,
         floracao: 2,
         perfume: 1,
         luminosidade: 3,

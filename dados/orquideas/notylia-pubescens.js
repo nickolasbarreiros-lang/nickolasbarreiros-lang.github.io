@@ -6,21 +6,6 @@ export const notyliaPubescens = {
     "genero": "Notylia",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 29,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 1, peso: 18 },
-            agua: { nota: 2, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 1, peso: 8 },
-            raizes: { nota: 3, peso: 15 },
-            cicloRepouso: { nota: 1, peso: 12 },
-            floracao: { nota: 1, peso: 20 }
-        }
-    },
     "caracteristicas": [
         "Epífita compacta",
         "Folha única e larga",
@@ -67,6 +52,21 @@ export const notyliaPubescens = {
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 31,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 0, peso: 18 },
+            agua: { nota: 3, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 4, peso: 15 },
+            cicloRepouso: { nota: 0, peso: 12 },
+            floracao: { nota: 1, peso: 20 }
+        }
     },
     "avaliacoes": {
         "cultivo": 2,

@@ -7,21 +7,6 @@ export const promenaeaXanthina = {
     genero: "Promenaea",
     tipo: "Espécie botânica epífita brasileira",
     dificuldade: "Difícil",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 57,
-        nivel: "Difícil",
-        fatores: {
-            temperatura: { nota: 3, peso: 18 },
-            agua: { nota: 4, peso: 15 },
-            umidadeVentilacao: { nota: 2, peso: 12 },
-            luminosidade: { nota: 3, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 4, peso: 12 },
-            floracao: { nota: 3, peso: 20 }
-        }
-    },
     caracteristicas: [
         "Miniatura brasileira",
         "Flores amarelas",
@@ -76,6 +61,21 @@ export const promenaeaXanthina = {
     "selosCultivo": {
         "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 60,
+        nivel: "Difícil",
+        fatores: {
+            temperatura: { nota: 3, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 4, peso: 12 },
+            luminosidade: { nota: 3, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 4, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
     },
     avaliacoes: {
         cultivo: 3,

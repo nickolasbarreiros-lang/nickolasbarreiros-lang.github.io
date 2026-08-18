@@ -7,21 +7,6 @@ export const maxillariaTenuifolia = {
     "sinonimo": "Maxillariella tenuifolia",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 47,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 1, peso: 18 },
-            agua: { nota: 4, peso: 15 },
-            umidadeVentilacao: { nota: 2, peso: 12 },
-            luminosidade: { nota: 1, peso: 8 },
-            raizes: { nota: 2, peso: 15 },
-            cicloRepouso: { nota: 3, peso: 12 },
-            floracao: { nota: 3, peso: 20 }
-        }
-    },
     "caracteristicas": [
         "Perfume intenso de coco",
         "Rizoma escandente em crescimento de escada",
@@ -63,8 +48,23 @@ export const maxillariaTenuifolia = {
         "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "intermediario" }
     },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 32,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 2, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 2, peso: 20 }
+        }
+    },
     "avaliacoes": {
-        "cultivo": 3,
+        "cultivo": 2,
         "floracao": 4,
         "perfume": 5,
         "luminosidade": 3,

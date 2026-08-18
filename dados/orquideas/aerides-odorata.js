@@ -5,22 +5,7 @@ export const aeridesOdorata = {
     nome: "Aerides odorata",
     genero: "Aerides",
     tipo: "Espécie botânica epífita asiática",
-    dificuldade: "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 43,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 0, peso: 18 },
-            agua: { nota: 3, peso: 15 },
-            umidadeVentilacao: { nota: 2, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 3, peso: 12 },
-            floracao: { nota: 4, peso: 20 }
-        }
-    },
+    dificuldade: "Fácil",
     caracteristicas: [
         "Epífita",
         "Muito perfumada",
@@ -81,8 +66,23 @@ export const aeridesOdorata = {
         "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "quente" }
     },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 25,
+        nivel: "Fácil",
+        fatores: {
+            temperatura: { nota: 0, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 4, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 1, peso: 20 }
+        }
+    },
     avaliacoes: {
-        cultivo: 3,
+        cultivo: 2,
         floracao: 5,
         perfume: 5,
         luminosidade: 4,

@@ -6,22 +6,7 @@ export const cattleyaPumpkinFestival = {
     genero: "Cattleya",
     sinonimo: "Sophrolaeliocattleya Pumpkin Festival (Slc. Pumpkin Festival)",
     tipo: "Híbrido horticultural complexo",
-    dificuldade: "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 30,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 0, peso: 18 },
-            agua: { nota: 2, peso: 15 },
-            umidadeVentilacao: { nota: 2, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 2, peso: 12 },
-            floracao: { nota: 2, peso: 20 }
-        }
-    },
+    dificuldade: "Fácil",
     caracteristicas: [
         "Híbrido horticultural",
         "Flores laranja a cobre",
@@ -62,6 +47,21 @@ export const cattleyaPumpkinFestival = {
     "selosCultivo": {
         "rega": { "nivel": "constante", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
+    },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 24,
+        nivel: "Fácil",
+        fatores: {
+            temperatura: { nota: 0, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 2, peso: 20 }
+        }
     },
     avaliacoes: {
         cultivo: 2,

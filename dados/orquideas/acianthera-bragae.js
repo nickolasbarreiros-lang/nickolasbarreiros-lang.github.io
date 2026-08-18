@@ -5,22 +5,7 @@ export const aciantheraBragae = {
     genero: "Acianthera",
     tipo: "Espécie botânica",
     sinonimo: "Pleurothallis sarracenia",
-    dificuldade: "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 29,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 0, peso: 18 },
-            agua: { nota: 2, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 1, peso: 8 },
-            raizes: { nota: 3, peso: 15 },
-            cicloRepouso: { nota: 1, peso: 12 },
-            floracao: { nota: 2, peso: 20 }
-        }
-    },
+    dificuldade: "Fácil",
     origem: "Brasil — regiões Sudeste e Sul.",
     regiao: "Mata Atlântica do Sudeste e Sul do Brasil.",
     habitat: "Epífita ou litófita de floresta tropical úmida.",
@@ -35,6 +20,21 @@ export const aciantheraBragae = {
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 24,
+        nivel: "Fácil",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 3, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 0, peso: 12 },
+            floracao: { nota: 1, peso: 20 }
+        }
     },
     avaliacoes: { cultivo: 2, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
     mesesFloracao: [8, 9, 10],

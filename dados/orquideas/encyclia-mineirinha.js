@@ -6,21 +6,6 @@ export const encycliaMineirinha = {
     genero: "Encyclia",
     tipo: "Híbrido primário interespecífico",
     dificuldade: "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 39,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 0, peso: 18 },
-            agua: { nota: 2, peso: 15 },
-            umidadeVentilacao: { nota: 2, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 2, peso: 15 },
-            cicloRepouso: { nota: 3, peso: 12 },
-            floracao: { nota: 3, peso: 20 }
-        }
-    },
     caracteristicas: ["Híbrido brasileiro", "Hastes multiflorais", "Flores perfumadas", "Boa adaptação"],
     fotos: [
         "imagens/encyclia-mineirinha/encyclia-mineirinha-1.jpg",
@@ -47,6 +32,21 @@ export const encycliaMineirinha = {
     "selosCultivo": {
         "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente" }
+    },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 32,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 0, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
     },
     avaliacoes: { cultivo: 2, floracao: 4, perfume: 3, luminosidade: 4, agua: 3, raridade: 3 }
 };

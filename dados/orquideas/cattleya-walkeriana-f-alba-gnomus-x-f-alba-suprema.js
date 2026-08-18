@@ -6,22 +6,7 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     nome: "Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema')",
     genero: "Cattleya",
     tipo: "Espécie botânica — progênie entre clones albos",
-    dificuldade: "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 27,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 1, peso: 18 },
-            agua: { nota: 1, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 2, peso: 15 },
-            cicloRepouso: { nota: 2, peso: 12 },
-            floracao: { nota: 1, peso: 20 }
-        }
-    },
+    dificuldade: "Fácil",
     caracteristicas: [
         "Forma alba",
         "Progênie selecionada",
@@ -64,6 +49,21 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     "selosCultivo": {
         "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente" }
+    },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 27,
+        nivel: "Fácil",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 3, peso: 8 },
+            raizes: { nota: 3, peso: 15 },
+            cicloRepouso: { nota: 0, peso: 12 },
+            floracao: { nota: 1, peso: 20 }
+        }
     },
     avaliacoes: {
         cultivo: 2,

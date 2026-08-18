@@ -7,21 +7,6 @@ export const huntleyaMeleagris = {
     sinonimo: "Batemannia meleagris",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 49,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 2, peso: 18 },
-            agua: { nota: 4, peso: 15 },
-            umidadeVentilacao: { nota: 2, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 3, peso: 12 },
-            floracao: { nota: 3, peso: 20 }
-        }
-    },
     caracteristicas: ["Sem pseudobulbos", "Folhas em leque", "Flor solitária grande", "Muito perfumada", "Alta umidade"],
     fotos: [
         "imagens/Huntleya meleagris/Huntleya meleagris1.webp",
@@ -56,6 +41,21 @@ export const huntleyaMeleagris = {
     "selosCultivo": {
         "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "intermediario" }
+    },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 55,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 2, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 4, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 4, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
     },
     avaliacoes: { cultivo: 3, floracao: 3, perfume: 5, luminosidade: 2, agua: 5, raridade: 4 }
 };

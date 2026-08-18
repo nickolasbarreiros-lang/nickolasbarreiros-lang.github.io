@@ -7,22 +7,7 @@ export const laeliaPraestans = {
     genero: "Cattleya",
     sinonimo: "Laelia praestans",
     tipo: "Espécie botânica",
-    dificuldade: "Difícil",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 52,
-        nivel: "Difícil",
-        fatores: {
-            temperatura: { nota: 2, peso: 18 },
-            agua: { nota: 4, peso: 15 },
-            umidadeVentilacao: { nota: 2, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 2, peso: 15 },
-            cicloRepouso: { nota: 3, peso: 12 },
-            floracao: { nota: 3, peso: 20 }
-        }
-    },
+    dificuldade: "Moderada",
     caracteristicas: [
         "Espécie brasileira compacta",
         "Flores grandes de ~7,5 cm",
@@ -62,6 +47,21 @@ export const laeliaPraestans = {
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
+    },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 42,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 4, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
     },
     avaliacoes: {
         cultivo: 3,

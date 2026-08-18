@@ -1,0 +1,7 @@
+VALIDAÇÃO IDC 2.0
+
+Fichas ativas no index.js: 130
+Fichas processadas: 130
+Erros: 0
+
+RESULTADO: OK — todas as fichas ativas estão coerentes com as novas faixas.

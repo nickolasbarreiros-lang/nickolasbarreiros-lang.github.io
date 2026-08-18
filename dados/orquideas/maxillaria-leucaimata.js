@@ -6,22 +6,7 @@ export const maxillariaLeucaimata = {
     genero: "Maxillaria",
     sinonimo: "Maxillaria leucaimata var. longifolia",
     tipo: "Espécie botânica",
-    dificuldade: "Difícil",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 51,
-        nivel: "Difícil",
-        fatores: {
-            temperatura: { nota: 2, peso: 18 },
-            agua: { nota: 4, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 1, peso: 8 },
-            raizes: { nota: 3, peso: 15 },
-            cicloRepouso: { nota: 3, peso: 12 },
-            floracao: { nota: 3, peso: 20 }
-        }
-    },
+    dificuldade: "Moderada",
     caracteristicas: [
         "Epífita ou rupícola brasileira",
         "Flores solitárias de 3 a 4 cm",
@@ -62,8 +47,23 @@ export const maxillariaLeucaimata = {
         "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 39,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 3, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
+    },
     avaliacoes: {
-        cultivo: 3,
+        cultivo: 2,
         floracao: 3,
         perfume: 2,
         luminosidade: 4,

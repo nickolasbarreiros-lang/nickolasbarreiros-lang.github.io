@@ -7,21 +7,6 @@ export const dryadellaAviceps = {
     sinonimo: "Pleurothallis aviceps",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 48,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 2, peso: 18 },
-            agua: { nota: 3, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 1, peso: 8 },
-            raizes: { nota: 3, peso: 15 },
-            cicloRepouso: { nota: 3, peso: 12 },
-            floracao: { nota: 3, peso: 20 }
-        }
-    },
     caracteristicas: [
         "Miniatura brasileira",
         "Também ocorre no Paraguai",
@@ -66,8 +51,23 @@ export const dryadellaAviceps = {
         "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 32,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 3, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 4, peso: 12 },
+            floracao: { nota: 0, peso: 20 }
+        }
+    },
     avaliacoes: {
-        cultivo: 3,
+        cultivo: 2,
         floracao: 3,
         perfume: 1,
         luminosidade: 2,

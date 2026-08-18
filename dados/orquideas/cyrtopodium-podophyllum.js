@@ -6,22 +6,7 @@ export const cyrtopodiumPodophyllum = {
     "genero": "Cyrtopodium",
     "sinonimo": "Cyrtopodium polyphyllum",
     "tipo": "Espécie botânica — arquivo histórico mantido para compatibilidade",
-    "dificuldade": "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 30,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 0, peso: 18 },
-            agua: { nota: 2, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 3, peso: 12 },
-            floracao: { nota: 2, peso: 20 }
-        }
-    },
+    "dificuldade": "Fácil",
     "caracteristicas": [
         "Grande orquídea terrestre ou rupícola",
         "Pseudobulbos de até cerca de 60 cm",
@@ -71,8 +56,23 @@ export const cyrtopodiumPodophyllum = {
         "rega": { "nivel": "moderada", "regime": "repouso-seco" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 17,
+        nivel: "Fácil",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 3, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 0, peso: 12 },
+            floracao: { nota: 0, peso: 20 }
+        }
+    },
     "avaliacoes": {
-        "cultivo": 2,
+        "cultivo": 1,
         "floracao": 5,
         "perfume": 3,
         "luminosidade": 5,

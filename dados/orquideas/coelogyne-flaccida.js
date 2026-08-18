@@ -7,22 +7,7 @@ export const coelogyneFlaccida = {
     "sinonimo": "Pleione flaccida",
     "genero": "Coelogyne",
     "tipo": "Espécie botânica",
-    "dificuldade": "Difícil",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 63,
-        nivel: "Difícil",
-        fatores: {
-            temperatura: { nota: 4, peso: 18 },
-            agua: { nota: 3, peso: 15 },
-            umidadeVentilacao: { nota: 2, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 2, peso: 15 },
-            cicloRepouso: { nota: 4, peso: 12 },
-            floracao: { nota: 4, peso: 20 }
-        }
-    },
+    "dificuldade": "Moderada",
     "caracteristicas": [
         "Espécie do Himalaia e Indochina",
         "Pseudobulbos agrupados",
@@ -72,8 +57,23 @@ export const coelogyneFlaccida = {
         "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 49,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 3, peso: 18 },
+            agua: { nota: 3, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
+    },
     "avaliacoes": {
-        "cultivo": 4,
+        "cultivo": 3,
         "floracao": 4,
         "perfume": 3,
         "luminosidade": 3,

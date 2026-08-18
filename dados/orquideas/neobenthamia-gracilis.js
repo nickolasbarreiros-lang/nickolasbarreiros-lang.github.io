@@ -6,22 +6,7 @@ export const neobenthamiaGracilis = {
     "genero": "Polystachya",
     "sinonimo": "Neobenthamia gracilis",
     "tipo": "Espécie botânica terrestre ou rupícola",
-    "dificuldade": "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 40,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 1, peso: 18 },
-            agua: { nota: 3, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 3, peso: 12 },
-            floracao: { nota: 3, peso: 20 }
-        }
-    },
+    "dificuldade": "Fácil",
     "caracteristicas": [
         "Orquídea terrestre africana de grande porte",
         "Caules altos semelhantes a bambu",
@@ -68,6 +53,21 @@ export const neobenthamiaGracilis = {
     "selosCultivo": {
         "rega": { "nivel": "constante", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
+    },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 26,
+        nivel: "Fácil",
+        fatores: {
+            temperatura: { nota: 0, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 5, peso: 12 },
+            floracao: { nota: 1, peso: 20 }
+        }
     },
     "avaliacoes": {
         "cultivo": 2,

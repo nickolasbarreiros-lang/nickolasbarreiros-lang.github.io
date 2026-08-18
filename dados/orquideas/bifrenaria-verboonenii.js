@@ -10,21 +10,6 @@ export const bifrenariaVerboonenii = {
     sinonimo: "Bifrenaria tyrianthina",
     tipo: "Espécie botânica brasileira — nome histórico em sinonímia",
     dificuldade: "Moderada",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 48,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 3, peso: 18 },
-            agua: { nota: 2, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 1, peso: 8 },
-            raizes: { nota: 2, peso: 15 },
-            cicloRepouso: { nota: 2, peso: 12 },
-            floracao: { nota: 4, peso: 20 }
-        }
-    },
     caracteristicas: [
         "Nome histórico preservado",
         "Aceita como B. tyrianthina",
@@ -66,6 +51,21 @@ export const bifrenariaVerboonenii = {
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+    },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 41,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 4, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 0, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
     },
     avaliacoes: {
         cultivo: 3,

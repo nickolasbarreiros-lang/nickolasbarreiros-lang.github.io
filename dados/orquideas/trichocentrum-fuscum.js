@@ -8,21 +8,6 @@ export const trichocentrumFuscum = {
     "tipo": "Espécie botânica",
     "sinonimo": "Trichocentrum pinelii",
     "dificuldade": "Fácil",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 21,
-        nivel: "Fácil",
-        fatores: {
-            temperatura: { nota: 0, peso: 18 },
-            agua: { nota: 1, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 2, peso: 15 },
-            cicloRepouso: { nota: 1, peso: 12 },
-            floracao: { nota: 1, peso: 20 }
-        }
-    },
     "caracteristicas": [
         "Espécie sul-americana compacta",
         "Pseudobulbos extremamente reduzidos",
@@ -74,8 +59,23 @@ export const trichocentrumFuscum = {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 19,
+        nivel: "Fácil",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 0, peso: 12 },
+            floracao: { nota: 1, peso: 20 }
+        }
+    },
     "avaliacoes": {
-        "cultivo": 2,
+        "cultivo": 1,
         "floracao": 3,
         "perfume": 2,
         "luminosidade": 4,

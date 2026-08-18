@@ -7,22 +7,7 @@ export const coelogyneFimbriata = {
     "sinonimo": "Pleione fimbriata",
     "genero": "Coelogyne",
     "tipo": "Espécie botânica",
-    "dificuldade": "Difícil",
-    indiceDificuldadeCultivo: {
-        versao: "IDC 1.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 62,
-        nivel: "Difícil",
-        fatores: {
-            temperatura: { nota: 2, peso: 18 },
-            agua: { nota: 4, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 4, peso: 15 },
-            cicloRepouso: { nota: 4, peso: 12 },
-            floracao: { nota: 4, peso: 20 }
-        }
-    },
+    "dificuldade": "Moderada",
     "caracteristicas": [
         "Porte compacto",
         "Rizoma longo e rastejante",
@@ -73,8 +58,23 @@ export const coelogyneFimbriata = {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
     },
+    indiceDificuldadeCultivo: {
+        versao: "IDC 2.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 46,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 4, peso: 15 },
+            umidadeVentilacao: { nota: 5, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 3, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 1, peso: 20 }
+        }
+    },
     "avaliacoes": {
-        "cultivo": 4,
+        "cultivo": 3,
         "floracao": 3,
         "perfume": 2,
         "luminosidade": 3,
