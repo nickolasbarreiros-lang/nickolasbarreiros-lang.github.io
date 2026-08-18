@@ -5,7 +5,7 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     "nome": "Cattleya violacea f. suavissima × self",
     "genero": "Cattleya",
     "tipo": "Espécie botânica — progênie horticultural",
-    "dificuldade": "Moderada",
+    "dificuldade": "Fácil",
     "caracteristicas": [
         "Progênie horticultural por autofecundação",
         "Seleção de coloração extremamente clara",
@@ -55,6 +55,46 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
             "GBIF/Tropicos",
             "IOSPE/OrchidSpecies"
         ]
+    },
+    indiceDificuldadeCultivo: {
+        "versao": "IDC 2.0",
+        "indice": 13,
+        "classificacao": "Fácil",
+        "cultivoEstrelas": 5,
+        "criterios": {
+            "temperatura": {
+                "notaDificuldade": 0,
+                "peso": 20
+            },
+            "rega": {
+                "notaDificuldade": 0,
+                "peso": 15
+            },
+            "umidade": {
+                "notaDificuldade": 0,
+                "peso": 10
+            },
+            "ventilacao": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
+            "luminosidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "raizesSubstrato": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "sazonalidade": {
+                "notaDificuldade": 3,
+                "peso": 5
+            },
+            "floracao": {
+                "notaDificuldade": 0,
+                "peso": 20
+            }
+        }
     },
     indiceAdaptacaoRegional: {
         "versao": "IAR 2.0 — revisão científica",
@@ -145,23 +185,8 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
-    indiceDificuldadeCultivo: {
-        versao: "IDC 2.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 46,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 4, peso: 18 },
-            agua: { nota: 1, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 5, peso: 12 },
-            floracao: { nota: 2, peso: 20 }
-        }
-    },
-    "avaliacoes": {
-        "cultivo": 3,
+        "avaliacoes": {
+        "cultivo": 5,
         "floracao": 4,
         "perfume": 3,
         "luminosidade": 4,

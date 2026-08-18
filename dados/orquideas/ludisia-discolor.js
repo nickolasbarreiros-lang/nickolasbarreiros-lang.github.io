@@ -54,6 +54,46 @@ export const ludisiaDiscolor = {
             "IOSPE/OrchidSpecies"
         ]
     },
+    indiceDificuldadeCultivo: {
+        "versao": "IDC 2.0",
+        "indice": 13,
+        "classificacao": "Fácil",
+        "cultivoEstrelas": 5,
+        "criterios": {
+            "temperatura": {
+                "notaDificuldade": 0,
+                "peso": 20
+            },
+            "rega": {
+                "notaDificuldade": 0,
+                "peso": 15
+            },
+            "umidade": {
+                "notaDificuldade": 0,
+                "peso": 10
+            },
+            "ventilacao": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
+            "luminosidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "raizesSubstrato": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "sazonalidade": {
+                "notaDificuldade": 3,
+                "peso": 5
+            },
+            "floracao": {
+                "notaDificuldade": 0,
+                "peso": 20
+            }
+        }
+    },
     indiceAdaptacaoRegional: {
         "versao": "IAR 2.0 — revisão científica",
         "escala": "compatibilidade regional",
@@ -136,23 +176,8 @@ export const ludisiaDiscolor = {
         "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "quente" }
     },
-    indiceDificuldadeCultivo: {
-        versao: "IDC 2.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 25,
-        nivel: "Fácil",
-        fatores: {
-            temperatura: { nota: 0, peso: 18 },
-            agua: { nota: 2, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 1, peso: 12 },
-            floracao: { nota: 2, peso: 20 }
-        }
-    },
-    avaliacoes: {
-        cultivo: 2,
+        avaliacoes: {
+        cultivo: 5,
         floracao: 3,
         perfume: 1,
         luminosidade: 2,

@@ -6,7 +6,7 @@ export const rodricidium = {
     "nome": "Rodricidium (Rdcm.)",
     "genero": "Rodricidium",
     "tipo": "Nothogênero híbrido (Oncidium × Rodriguezia)",
-    "dificuldade": "Fácil",
+    "dificuldade": "Moderada",
     "caracteristicas": [
         "Híbrido intergenérico",
         "Porte compacto a médio",
@@ -58,6 +58,46 @@ export const rodricidium = {
             "IOSPE/OrchidSpecies",
             "OrchidRoots/RHS"
         ]
+    },
+    indiceDificuldadeCultivo: {
+        "versao": "IDC 2.0",
+        "indice": 40,
+        "classificacao": "Moderada",
+        "cultivoEstrelas": 3,
+        "criterios": {
+            "temperatura": {
+                "notaDificuldade": 2,
+                "peso": 20
+            },
+            "rega": {
+                "notaDificuldade": 2,
+                "peso": 15
+            },
+            "umidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "ventilacao": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "luminosidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "raizesSubstrato": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "sazonalidade": {
+                "notaDificuldade": 2,
+                "peso": 5
+            },
+            "floracao": {
+                "notaDificuldade": 2,
+                "peso": 20
+            }
+        }
     },
     indiceAdaptacaoRegional: {
         "versao": "IAR 2.0 — revisão científica",
@@ -151,23 +191,8 @@ export const rodricidium = {
         "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente" }
     },
-    indiceDificuldadeCultivo: {
-        versao: "IDC 2.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 22,
-        nivel: "Fácil",
-        fatores: {
-            temperatura: { nota: 1, peso: 18 },
-            agua: { nota: 1, peso: 15 },
-            umidadeVentilacao: { nota: 2, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 0, peso: 12 },
-            floracao: { nota: 1, peso: 20 }
-        }
-    },
-    "avaliacoes": {
-        "cultivo": 2,
+        "avaliacoes": {
+        "cultivo": 3,
         "floracao": 4,
         "perfume": 2,
         "luminosidade": 4,

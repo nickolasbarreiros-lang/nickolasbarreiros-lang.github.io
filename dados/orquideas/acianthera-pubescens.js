@@ -5,7 +5,7 @@ export const aciantheraPubescens = {
     genero: "Acianthera",
     tipo: "Espécie botânica",
     sinonimo: "Pleurothallis pubescens",
-    dificuldade: "Moderada",
+    dificuldade: "Fácil",
     origem: "México e Caribe até a América do Sul tropical e subtropical.",
     regiao: "Ampla distribuição neotropical: México, América Central, Caribe e grande parte da América do Sul, incluindo Brasil, Paraguai, Uruguai e nordeste da Argentina conforme bases taxonômicas modernas.",
     habitat: "Epífita de florestas densas e úmidas, com registros aproximadamente entre 500 e 1.900 m.",
@@ -21,22 +21,7 @@ export const aciantheraPubescens = {
         "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "intermediario" }
     },
-    indiceDificuldadeCultivo: {
-        versao: "IDC 2.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 44,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 3, peso: 18 },
-            agua: { nota: 3, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 0, peso: 12 },
-            floracao: { nota: 4, peso: 20 }
-        }
-    },
-    avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
+        avaliacoes: { cultivo: 5, floracao: 4, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     clima: "Quente a fresco conforme procedência; preferencialmente úmido e ventilado.",
     climaFloracao: "A faixa de aproximadamente 500–1.900 m explica por que fontes podem classificar a espécie de forma diferente. Em vez de impor uma categoria única, trate a procedência como fator principal: clones de menor altitude tendem a tolerar melhor o litoral quente, enquanto materiais montanos podem perder vigor quando as noites permanecem quentes por longos períodos. Em todos os casos, circulação de ar e raízes oxigenadas reduzem o estresse térmico.",
@@ -67,6 +52,46 @@ export const aciantheraPubescens = {
             "GBIF/Tropicos",
             "IOSPE/OrchidSpecies"
         ]
+    },
+    indiceDificuldadeCultivo: {
+        "versao": "IDC 2.0",
+        "indice": 16,
+        "classificacao": "Fácil",
+        "cultivoEstrelas": 5,
+        "criterios": {
+            "temperatura": {
+                "notaDificuldade": 0,
+                "peso": 20
+            },
+            "rega": {
+                "notaDificuldade": 1,
+                "peso": 15
+            },
+            "umidade": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
+            "ventilacao": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
+            "luminosidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "raizesSubstrato": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "sazonalidade": {
+                "notaDificuldade": 1,
+                "peso": 5
+            },
+            "floracao": {
+                "notaDificuldade": 0,
+                "peso": 20
+            }
+        }
     },
     indiceAdaptacaoRegional: {
         "versao": "IAR 2.0 — revisão científica",

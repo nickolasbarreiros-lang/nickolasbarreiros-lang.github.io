@@ -8,7 +8,7 @@ export const anathallisSclerophylla = {
     genero: "Anathallis",
     tipo: "Espécie botânica epífita neotropical",
     sinonimo: "Pleurothallis sclerophylla",
-    dificuldade: "Moderada",
+    dificuldade: "Fácil",
     origem: "América Tropical.",
     regiao: "Do México e América Central à América do Sul, incluindo o Brasil.",
     habitat: "Epífita de florestas úmidas e nebulosas, cerca de 480–3.100 m.",
@@ -34,7 +34,7 @@ export const anathallisSclerophylla = {
         "climaFloracao": { "faixa": "intermediario" }
     },
     avaliacoes: {
-        cultivo: 3,
+        cultivo: 5,
         floracao: 4,
         perfume: 3,
         luminosidade: 2,
@@ -88,6 +88,46 @@ export const anathallisSclerophylla = {
             "GBIF/Tropicos",
             "IOSPE/OrchidSpecies"
         ]
+    },
+    indiceDificuldadeCultivo: {
+        "versao": "IDC 2.0",
+        "indice": 9,
+        "classificacao": "Fácil",
+        "cultivoEstrelas": 5,
+        "criterios": {
+            "temperatura": {
+                "notaDificuldade": 0,
+                "peso": 20
+            },
+            "rega": {
+                "notaDificuldade": 0,
+                "peso": 15
+            },
+            "umidade": {
+                "notaDificuldade": 0,
+                "peso": 10
+            },
+            "ventilacao": {
+                "notaDificuldade": 0,
+                "peso": 10
+            },
+            "luminosidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "raizesSubstrato": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "sazonalidade": {
+                "notaDificuldade": 1,
+                "peso": 5
+            },
+            "floracao": {
+                "notaDificuldade": 0,
+                "peso": 20
+            }
+        }
     },
     indiceAdaptacaoRegional: {
         "versao": "IAR 2.0 — revisão científica",
@@ -168,19 +208,4 @@ export const anathallisSclerophylla = {
     },
     dica: "🏆 O segredo é reproduzir uma floresta úmida sem transformar o vaso em um pântano: mantenha as raízes hidratadas, mas com ar circulando constantemente. Uma montagem com pequena quantidade de esfagno ou um vaso pequeno e muito aerado costuma funcionar melhor que recipientes profundos e compactos.",
 
-    indiceDificuldadeCultivo: {
-        versao: "IDC 2.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 55,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 3, peso: 18 },
-            agua: { nota: 4, peso: 15 },
-            umidadeVentilacao: { nota: 4, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 3, peso: 15 },
-            cicloRepouso: { nota: 1, peso: 12 },
-            floracao: { nota: 2, peso: 20 }
-        }
-    }
-};
+    };

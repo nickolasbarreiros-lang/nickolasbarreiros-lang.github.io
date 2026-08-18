@@ -9,7 +9,7 @@ export const bifrenariaVerboonenii = {
     nomeAceito: "Bifrenaria tyrianthina",
     sinonimo: "Bifrenaria tyrianthina",
     tipo: "Espécie botânica brasileira — nome histórico em sinonímia",
-    dificuldade: "Moderada",
+    dificuldade: "Fácil",
     caracteristicas: [
         "Nome histórico preservado",
         "Aceita como B. tyrianthina",
@@ -58,6 +58,46 @@ export const bifrenariaVerboonenii = {
             "GBIF/Tropicos",
             "IOSPE/OrchidSpecies"
         ]
+    },
+    indiceDificuldadeCultivo: {
+        "versao": "IDC 2.0",
+        "indice": 20,
+        "classificacao": "Fácil",
+        "cultivoEstrelas": 4,
+        "criterios": {
+            "temperatura": {
+                "notaDificuldade": 0,
+                "peso": 20
+            },
+            "rega": {
+                "notaDificuldade": 2,
+                "peso": 15
+            },
+            "umidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "ventilacao": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
+            "luminosidade": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
+            "raizesSubstrato": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "sazonalidade": {
+                "notaDificuldade": 2,
+                "peso": 5
+            },
+            "floracao": {
+                "notaDificuldade": 0,
+                "peso": 20
+            }
+        }
     },
     indiceAdaptacaoRegional: {
         "versao": "IAR 2.0 — revisão científica",
@@ -141,23 +181,8 @@ export const bifrenariaVerboonenii = {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
-    indiceDificuldadeCultivo: {
-        versao: "IDC 2.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 41,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 4, peso: 18 },
-            agua: { nota: 1, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 2, peso: 15 },
-            cicloRepouso: { nota: 0, peso: 12 },
-            floracao: { nota: 3, peso: 20 }
-        }
-    },
-    avaliacoes: {
-        cultivo: 3,
+        avaliacoes: {
+        cultivo: 4,
         floracao: 3,
         perfume: 4,
         luminosidade: 4,

@@ -6,7 +6,7 @@ export const stanhopeaAssidensis = {
     nome: "Stanhopea Assidensis",
     genero: "Stanhopea",
     tipo: "Híbrido primário artificial — Stanhopea tigrina × Stanhopea wardii",
-    dificuldade: "Moderada",
+    dificuldade: "Fácil",
     caracteristicas: ["Flores grandes e carnosas", "Perfume intenso", "Inflorescência pendente", "Cesto obrigatório"],
     fotos: [
         "imagens/Stanhopea Assidensis/Stanhopea Assidensis1.jpg",
@@ -49,6 +49,46 @@ export const stanhopeaAssidensis = {
             "IOSPE/OrchidSpecies",
             "OrchidRoots/RHS"
         ]
+    },
+    indiceDificuldadeCultivo: {
+        "versao": "IDC 2.0",
+        "indice": 20,
+        "classificacao": "Fácil",
+        "cultivoEstrelas": 4,
+        "criterios": {
+            "temperatura": {
+                "notaDificuldade": 0,
+                "peso": 20
+            },
+            "rega": {
+                "notaDificuldade": 1,
+                "peso": 15
+            },
+            "umidade": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
+            "ventilacao": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
+            "luminosidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "raizesSubstrato": {
+                "notaDificuldade": 3,
+                "peso": 10
+            },
+            "sazonalidade": {
+                "notaDificuldade": 3,
+                "peso": 5
+            },
+            "floracao": {
+                "notaDificuldade": 0,
+                "peso": 20
+            }
+        }
     },
     indiceAdaptacaoRegional: {
         "versao": "IAR 2.0 — revisão científica",
@@ -140,20 +180,5 @@ export const stanhopeaAssidensis = {
         "rega": { "nivel": "constante", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
-    indiceDificuldadeCultivo: {
-        versao: "IDC 2.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 50,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 3, peso: 18 },
-            agua: { nota: 1, peso: 15 },
-            umidadeVentilacao: { nota: 2, peso: 12 },
-            luminosidade: { nota: 2, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 4, peso: 12 },
-            floracao: { nota: 4, peso: 20 }
-        }
-    },
-    avaliacoes: { cultivo: 3, floracao: 4, perfume: 5, luminosidade: 3, agua: 5, raridade: 4 }
+        avaliacoes: { cultivo: 4, floracao: 4, perfume: 5, luminosidade: 3, agua: 5, raridade: 4 }
 };

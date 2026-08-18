@@ -60,6 +60,46 @@ export const zygolumLouisendorf = {
             "OrchidRoots/RHS"
         ]
     },
+    indiceDificuldadeCultivo: {
+        "versao": "IDC 2.0",
+        "indice": 26,
+        "classificacao": "Fácil",
+        "cultivoEstrelas": 4,
+        "criterios": {
+            "temperatura": {
+                "notaDificuldade": 1,
+                "peso": 20
+            },
+            "rega": {
+                "notaDificuldade": 1,
+                "peso": 15
+            },
+            "umidade": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
+            "ventilacao": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
+            "luminosidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "raizesSubstrato": {
+                "notaDificuldade": 3,
+                "peso": 10
+            },
+            "sazonalidade": {
+                "notaDificuldade": 1,
+                "peso": 5
+            },
+            "floracao": {
+                "notaDificuldade": 1,
+                "peso": 20
+            }
+        }
+    },
     indiceAdaptacaoRegional: {
         "versao": "IAR 2.0 — revisão científica",
         "escala": "compatibilidade regional",
@@ -148,23 +188,8 @@ export const zygolumLouisendorf = {
         "rega": { "nivel": "constante" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
-    indiceDificuldadeCultivo: {
-        versao: "IDC 2.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 18,
-        nivel: "Fácil",
-        fatores: {
-            temperatura: { nota: 1, peso: 18 },
-            agua: { nota: 1, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 1, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 0, peso: 12 },
-            floracao: { nota: 1, peso: 20 }
-        }
-    },
-    "avaliacoes": {
-        "cultivo": 1,
+        "avaliacoes": {
+        "cultivo": 4,
         "floracao": 4,
         "perfume": 4,
         "luminosidade": 3,

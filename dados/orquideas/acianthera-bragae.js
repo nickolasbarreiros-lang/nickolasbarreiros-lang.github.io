@@ -21,22 +21,7 @@ export const aciantheraBragae = {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
-    indiceDificuldadeCultivo: {
-        versao: "IDC 2.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 24,
-        nivel: "Fácil",
-        fatores: {
-            temperatura: { nota: 1, peso: 18 },
-            agua: { nota: 3, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 1, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 0, peso: 12 },
-            floracao: { nota: 1, peso: 20 }
-        }
-    },
-    avaliacoes: { cultivo: 2, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
+        avaliacoes: { cultivo: 5, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
     mesesFloracao: [8, 9, 10],
     clima: "Quente a intermediário, úmido, sombreado e ventilado.",
     climaFloracao: "A faixa altitudinal aproximada de 700–1.000 m indica noites naturalmente mais amenas que as do litoral, mas a espécie é descrita em referência de cultivo como de crescimento quente. Portanto, não exige frio intenso. No litoral quente, priorize redução do calor acumulado noturno, sombra luminosa e ventilação contínua, sobretudo durante a maturação dos novos crescimentos.",
@@ -67,6 +52,46 @@ export const aciantheraBragae = {
             "GBIF/Tropicos",
             "IOSPE/OrchidSpecies"
         ]
+    },
+    indiceDificuldadeCultivo: {
+        "versao": "IDC 2.0",
+        "indice": 16,
+        "classificacao": "Fácil",
+        "cultivoEstrelas": 5,
+        "criterios": {
+            "temperatura": {
+                "notaDificuldade": 0,
+                "peso": 20
+            },
+            "rega": {
+                "notaDificuldade": 1,
+                "peso": 15
+            },
+            "umidade": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
+            "ventilacao": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
+            "luminosidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "raizesSubstrato": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "sazonalidade": {
+                "notaDificuldade": 1,
+                "peso": 5
+            },
+            "floracao": {
+                "notaDificuldade": 0,
+                "peso": 20
+            }
+        }
     },
     indiceAdaptacaoRegional: {
         "versao": "IAR 2.0 — revisão científica",

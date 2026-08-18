@@ -5,7 +5,7 @@ export const aciantheraAveniformis = {
     genero: "Acianthera",
     tipo: "Espécie botânica — nome atualmente tratado por Kew como Pabstiella aveniformis",
     sinonimo: "Pleurothallis aveniformis",
-    dificuldade: "Moderada",
+    dificuldade: "Fácil",
     origem: "Brasil — Sul do país.",
     regiao: "Mata Atlântica do Sul do Brasil, em ambientes florestais úmidos.",
     habitat: "Micro-orquídea epífita de crescimento reptante, registrada em floresta tropical úmida.",
@@ -21,22 +21,7 @@ export const aciantheraAveniformis = {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
-    indiceDificuldadeCultivo: {
-        versao: "IDC 2.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 45,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 1, peso: 18 },
-            agua: { nota: 4, peso: 15 },
-            umidadeVentilacao: { nota: 5, peso: 12 },
-            luminosidade: { nota: 1, peso: 8 },
-            raizes: { nota: 4, peso: 15 },
-            cicloRepouso: { nota: 0, peso: 12 },
-            floracao: { nota: 1, peso: 20 }
-        }
-    },
-    avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
+        avaliacoes: { cultivo: 4, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
     mesesFloracao: [6, 7, 8],
     clima: "Quente a intermediário, úmido e muito ventilado.",
     climaFloracao: "A origem em baixa a média elevação, com referência próxima de 400 m, não sustenta tratá-la como espécie obrigatoriamente fria. Para florescer no litoral quente, o objetivo é evitar superaquecimento e abafamento, mas sem impor noites artificialmente frias. Crescimentos maduros, umidade atmosférica estável, raízes ativas e boa circulação de ar são mais relevantes que uma queda térmica extrema.",
@@ -67,6 +52,46 @@ export const aciantheraAveniformis = {
             "GBIF/Tropicos",
             "IOSPE/OrchidSpecies"
         ]
+    },
+    indiceDificuldadeCultivo: {
+        "versao": "IDC 2.0",
+        "indice": 26,
+        "classificacao": "Fácil",
+        "cultivoEstrelas": 4,
+        "criterios": {
+            "temperatura": {
+                "notaDificuldade": 1,
+                "peso": 20
+            },
+            "rega": {
+                "notaDificuldade": 1,
+                "peso": 15
+            },
+            "umidade": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
+            "ventilacao": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
+            "luminosidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "raizesSubstrato": {
+                "notaDificuldade": 3,
+                "peso": 10
+            },
+            "sazonalidade": {
+                "notaDificuldade": 1,
+                "peso": 5
+            },
+            "floracao": {
+                "notaDificuldade": 1,
+                "peso": 20
+            }
+        }
     },
     indiceAdaptacaoRegional: {
         "versao": "IAR 2.0 — revisão científica",

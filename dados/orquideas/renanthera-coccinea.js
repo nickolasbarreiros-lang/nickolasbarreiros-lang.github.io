@@ -58,6 +58,46 @@ export const renantheraCoccinea = {
             "IOSPE/OrchidSpecies"
         ]
     },
+    indiceDificuldadeCultivo: {
+        "versao": "IDC 2.0",
+        "indice": 12,
+        "classificacao": "Fácil",
+        "cultivoEstrelas": 5,
+        "criterios": {
+            "temperatura": {
+                "notaDificuldade": 0,
+                "peso": 20
+            },
+            "rega": {
+                "notaDificuldade": 1,
+                "peso": 15
+            },
+            "umidade": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
+            "ventilacao": {
+                "notaDificuldade": 0,
+                "peso": 10
+            },
+            "luminosidade": {
+                "notaDificuldade": 0,
+                "peso": 10
+            },
+            "raizesSubstrato": {
+                "notaDificuldade": 3,
+                "peso": 10
+            },
+            "sazonalidade": {
+                "notaDificuldade": 1,
+                "peso": 5
+            },
+            "floracao": {
+                "notaDificuldade": 0,
+                "peso": 20
+            }
+        }
+    },
     indiceAdaptacaoRegional: {
         "versao": "IAR 2.0 — revisão científica",
         "escala": "compatibilidade regional",
@@ -140,23 +180,8 @@ export const renantheraCoccinea = {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "intermediario" }
     },
-    indiceDificuldadeCultivo: {
-        versao: "IDC 2.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 17,
-        nivel: "Fácil",
-        fatores: {
-            temperatura: { nota: 0, peso: 18 },
-            agua: { nota: 1, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 3, peso: 8 },
-            raizes: { nota: 1, peso: 15 },
-            cicloRepouso: { nota: 0, peso: 12 },
-            floracao: { nota: 1, peso: 20 }
-        }
-    },
-    "avaliacoes": {
-        "cultivo": 1,
+        "avaliacoes": {
+        "cultivo": 5,
         "floracao": 4,
         "perfume": 1,
         "luminosidade": 5,

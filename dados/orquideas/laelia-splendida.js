@@ -6,7 +6,7 @@ export const laeliaSplendida = {
     nome: "Laelia splendida",
     genero: "Laelia",
     tipo: "Espécie botânica epífita ou rupícola sul-americana",
-    dificuldade: "Moderada",
+    dificuldade: "Fácil",
     caracteristicas: [
         "Sin. Schomburgkia splendida",
         "Flores grandes e vistosas",
@@ -68,6 +68,46 @@ export const laeliaSplendida = {
             "GBIF/Tropicos",
             "IOSPE/OrchidSpecies"
         ]
+    },
+    indiceDificuldadeCultivo: {
+        "versao": "IDC 2.0",
+        "indice": 23,
+        "classificacao": "Fácil",
+        "cultivoEstrelas": 4,
+        "criterios": {
+            "temperatura": {
+                "notaDificuldade": 1,
+                "peso": 20
+            },
+            "rega": {
+                "notaDificuldade": 2,
+                "peso": 15
+            },
+            "umidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "ventilacao": {
+                "notaDificuldade": 0,
+                "peso": 10
+            },
+            "luminosidade": {
+                "notaDificuldade": 0,
+                "peso": 10
+            },
+            "raizesSubstrato": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "sazonalidade": {
+                "notaDificuldade": 1,
+                "peso": 5
+            },
+            "floracao": {
+                "notaDificuldade": 1,
+                "peso": 20
+            }
+        }
     },
     indiceAdaptacaoRegional: {
         "versao": "IAR 2.0 — revisão científica",
@@ -151,20 +191,5 @@ export const laeliaSplendida = {
         "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente" }
     },
-    indiceDificuldadeCultivo: {
-        versao: "IDC 2.0",
-        referenciaRegional: "Litoral de clima quente",
-        indice: 33,
-        nivel: "Moderada",
-        fatores: {
-            temperatura: { nota: 1, peso: 18 },
-            agua: { nota: 1, peso: 15 },
-            umidadeVentilacao: { nota: 1, peso: 12 },
-            luminosidade: { nota: 3, peso: 8 },
-            raizes: { nota: 3, peso: 15 },
-            cicloRepouso: { nota: 1, peso: 12 },
-            floracao: { nota: 2, peso: 20 }
-        }
-    },
-    avaliacoes: { cultivo: 2, floracao: 4, perfume: 2, luminosidade: 4, agua: 3, raridade: 4 }
+        avaliacoes: { cultivo: 4, floracao: 4, perfume: 2, luminosidade: 4, agua: 3, raridade: 4 }
 };
