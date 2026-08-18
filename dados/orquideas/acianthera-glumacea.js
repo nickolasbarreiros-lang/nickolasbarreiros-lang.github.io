@@ -56,5 +56,5 @@ export const aciantheraGlumacea = {
         litoral: "Cultivo possível, porém mais exigente. Use 60% a 70% de sombra, máxima ventilação, recipiente pequeno e aberto e o ponto mais fresco do orquidário. O maior gargalo é a combinação de noites quentes e tecido vegetal molhado por muitas horas.",
         montanha: "Adaptação muito boa, coerente com a origem em torno de 1.300 m. Noites amenas favorecem vigor e floração; em inverno frio e úmido, apenas aumente o intervalo entre regas conforme a secagem real."
     },
-    dica: "🏆 Não descarte ramicaules antigos saudáveis: esta espécie pode emitir novas hastes do mesmo ramicaul durante vários anos. Uma touceira madura, estável e bem ventilada tende a produzir mais racemos que uma planta constantemente dividida ou replantada."
+    dica: "🏆Não descarte hastes antigas saudáveis, pois elas podem produzir novas flores por vários anos; além disso, touceiras maduras e bem ventiladas dão mais flores do que plantas divididas com frequência."
 };

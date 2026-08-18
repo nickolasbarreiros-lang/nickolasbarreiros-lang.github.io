@@ -56,5 +56,5 @@ export const aciantheraBragae = {
         litoral: "Adaptação moderada a boa quando recebe sombra clara, ventilação máxima e suporte raso/aberto. A indicação de crescimento quente ajuda, mas a origem a 700–1.000 m recomenda atenção especial às noites muito abafadas do verão.",
         montanha: "Condições geralmente favoráveis, sobretudo pela amplitude térmica. Em períodos frios e úmidos, reduza as regas conforme o suporte permanecer molhado por mais tempo, sem impor seca prolongada."
     },
-    dica: "🏆 Dê espaço horizontal. A espécie é naturalmente reptante e formadora de tapetes; um suporte largo e raso costuma funcionar melhor que um vaso profundo. Mantenha o rizoma exposto, raízes úmidas e muita circulação de ar."
+    dica: "🏆 Prefira placa de madeira ou vasos largos e rasos para dar espaço ao crescimento rasteiro da planta, mantenha o rizoma exposto e garanta alta circulação de ar com raízes sempre úmidas."
 };

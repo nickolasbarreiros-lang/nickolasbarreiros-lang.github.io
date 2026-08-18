@@ -56,5 +56,5 @@ export const aciantheraPubescens = {
         litoral: "Adaptação variável. Exemplares de baixa e média altitude podem responder bem ao calor desde que haja sombra filtrada e vento; clones de origem montana devem ficar no setor mais fresco e arejado e podem reduzir crescimento durante noites persistentemente quentes.",
         montanha: "Em geral, adaptação muito boa, especialmente para procedências montanas. Em períodos frios e nublados, reduza a rega apenas conforme a evaporação cair, sem deixar as raízes desidratarem."
     },
-    dica: "🏆 Em A. pubescens, a procedência vale mais que uma tabela fixa de temperatura. Observe a resposta do clone: raízes ativas, folhas espessas e firmes e floração recorrente indicam equilíbrio. Ajuste luz, água e ventilação ao indivíduo em vez de forçar todos os exemplares ao mesmo regime."
+    dica: "🏆 Cultive-a preferencialmente em plaquetas de madeira ou cachepôs rasos com mínimo de substrato, permitindo que o rizoma rasteiro se espalhe livremente no ar. Como ela detesta raízes abafadas e apodrecimento, o segredo absoluto para ver touceiras entulhadas de flores é garantir secagem rápida entre as regas combinada com alta circulação de ar constante."
 };

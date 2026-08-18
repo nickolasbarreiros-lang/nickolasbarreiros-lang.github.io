@@ -56,5 +56,5 @@ export const arpophyllumGiganteum = {
         litoral: "Adaptação moderada a boa para crescimento, mas a floração pode ser mais sensível ao calor noturno. Use o setor mais claro e ventilado, com 50% a 60% de sombreamento e substrato muito aberto. Regue bem durante crescimento e não crie um repouso seco artificial.",
         montanha: "Adaptação excelente. A amplitude térmica e as noites amenas se aproximam melhor da faixa de 800–1.500 m. Durante o inverno, reduza regas somente conforme a evaporação real cair, evitando a combinação de frio com encharcamento."
     },
-    dica: "🏆 Preserve touceiras maduras. A inflorescência nasce em pseudobulbos recém-maduros, e plantas com várias frentes acumulam mais reservas e tendem a produzir um efeito floral muito superior. Luz ampla, água generosa durante o crescimento e noites mais amenas valem mais que divisões frequentes ou fórmulas de adubo 'para flor'."
+    dica: "🏆 Evite dividir a planta; deixe-a formar touceiras grandes para acumular reservas e explodir em flores nas hastes novas, contando mais com luz abundante, regas fartas na fase de crescimento e noites frescas do que com adubos milagrosos."
 };

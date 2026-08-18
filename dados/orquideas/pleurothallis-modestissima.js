@@ -42,7 +42,7 @@ export const pleurothallisModestissima = {
     "suporte": "🥇 Placa de cortiça ou madeira com fina camada de esfagno — excelente drenagem e observação das raízes.\n🥈 Vaso pequeno de barro muito furado.\n🥉 Vaso plástico pequeno com mistura extremamente aerada.\nEvite recipientes grandes e fundos.",
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.\n🥉 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.\n⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
     "errosComuns": "Tratá-la como espécie obrigatoriamente fria; manter esfagno sempre encharcado; secar completamente por vários dias; vaso grande; pouco ar; excesso de adubo; sol forte sobre o suporte; replantar com frequência; usar água muito salina.",
-    "dica": "O habitat sazonalmente seco é a pista principal: ofereça umidade, mas não saturação permanente. Para essa micro-orquídea, ventilação e raízes oxigenadas são tão importantes quanto a água.",
+    "dica": "Simule o clima seco da natureza: regue sem encharcar e priorize a ventilação e raízes arejadas, que são tão essenciais quanto a água para esta micro-orquídea.",
     "adaptacaoRegional": {
         "litoralQuente": "Adaptação moderada a boa se cultivada em sombra clara, forte ventilação e suporte pequeno que não retenha calor. Evite assumir que ela precisa de frio apenas por ser uma micro-orquídea.",
         "montanhaFrio": "Boa adaptação, desde que o frio não venha acompanhado de substrato permanentemente molhado e pouca circulação de ar."
