@@ -33,7 +33,7 @@ export const promenaeaGuttata = {
     "iluminacao": {
         "sombrite": "70% a 80%",
         "solDireto": "Não recomendado",
-        "horario": "Luz filtrada ao longo do dia",
+        "horario": "",
         "observacoes": "Prefere luminosidade baixa a moderada. Folhas finas aquecem rapidamente, portanto evite sol direto. Sombra extremamente fechada, porém, reduz a qualidade dos novos pseudobulbos e pode diminuir a floração."
     },
     "floracao": "Principalmente no fim da primavera e verão. Sob o conceito histórico de P. guttata, IOSPE registra inflorescências de cerca de 7,5 cm, geralmente com duas flores. As flores são grandes em relação ao porte da planta e podem apresentar manchas contrastantes sobre fundo claro ou amarelo-esverdeado.",

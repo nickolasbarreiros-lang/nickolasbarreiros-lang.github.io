@@ -30,7 +30,7 @@ export const dichaeaCogniauxiana = {
     iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não recomendado",
-        horario: "Luz difusa e filtrada ao longo do dia",
+        horario: "",
         observacoes: "É adaptada a ambientes de baixa intensidade luminosa. Cerca de 70% de sombreamento funciona como bom ponto inicial no litoral quente. Evite incidência direta de sol forte sobre a folhagem delicada; sombra excessivamente escura, porém, pode reduzir vigor e floração."
     },
     floracao: "Predominantemente no verão, podendo avançar para o início do outono conforme procedência, temperatura e condições de cultivo. Para o calendário do site, dezembro a março funciona como janela prática de referência.",

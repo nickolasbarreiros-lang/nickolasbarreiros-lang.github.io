@@ -23,7 +23,7 @@ export const gongoraBufonia = {
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não recomendado",
-        horario: "Luz filtrada e difusa durante todo o dia",
+        horario: "",
         observacoes: "Prefere sombra clara. Folhas muito escuras e crescimento frouxo sugerem pouca luz; amarelecimento, áreas secas ou aquecimento forte das folhas indicam excesso. Em clima quente, ventilação é tão importante quanto o sombreamento."
     },
     floracao: "Mais frequente do fim do inverno à primavera, podendo avançar para o início do verão conforme o microclima e o amadurecimento dos pseudobulbos. As hastes pendentes podem alcançar 40–80 cm e carregar numerosas flores perfumadas.",

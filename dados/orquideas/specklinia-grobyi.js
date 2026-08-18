@@ -33,7 +33,7 @@ export const speckliniaGrobyi = {
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Não recomendado",
-        "horario": "Somente claridade indireta ou sol extremamente fraco antes de 07:30",
+        "horario": "",
         "observacoes": "Prefere sombra clara. Folhas verdes, firmes e compactas indicam bom equilíbrio. Sol forte pode queimar uma miniatura em pouco tempo; sombra muito profunda reduz brotação e número de flores."
     },
     "floracao": "Pode florescer em praticamente qualquer época do ano. As inflorescências finas, geralmente mais longas que as folhas, carregam poucas flores simultâneas. Touceiras adultas e pouco divididas podem manter florações repetidas conforme novas brotações amadurecem.",

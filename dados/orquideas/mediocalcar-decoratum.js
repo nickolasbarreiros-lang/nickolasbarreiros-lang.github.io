@@ -28,7 +28,7 @@ export const mediocalcarDecoratum = {
     "iluminacao": {
         "sombrite": "70% a 80%",
         "solDireto": "Não recomendado",
-        "horario": "Luz indireta o dia inteiro",
+        "horario": "",
         "observacoes": "Mantenha em sombra clara, nunca em escuridão. Pouca luz alonga os brotos e reduz flores; sol direto aquece as folhas pequenas e causa desidratação rápida. O ponto mais baixo e fresco do orquidário costuma oferecer o microclima mais estável."
     },
     "floracao": "Mais frequente do outono à primavera. As flores solitárias surgem em inflorescências muito curtas sobre os novos pseudobulbos, medem cerca de 6 mm e são duráveis. Em touceiras bem estabelecidas, muitas flores podem abrir próximas umas das outras, criando o efeito característico de pequenas lanternas ou doces alaranjados e amarelos espalhados pelo tapete vegetal.",

@@ -23,7 +23,7 @@ export const huntleyaMeleagris = {
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não recomendado",
-        horario: "Claridade difusa durante todo o dia",
+        horario: "",
         observacoes: "Prefere luz semelhante à de Phalaenopsis bem iluminada, mas com muito mais circulação de ar. Folhas amareladas ou aquecidas indicam excesso; folhas muito escuras e crescimento fraco podem indicar sombra profunda demais."
     },
     floracao: "Pode florescer da primavera ao outono, conforme a maturação dos novos leques. Cada haste normalmente sustenta uma flor grande, cerosa, variável e muito perfumada.",

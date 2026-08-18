@@ -33,7 +33,7 @@ export const dendrobiumPolysema = {
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Não recomendado",
-        "horario": "Luz difusa ao longo do dia",
+        "horario": "",
         "observacoes": "Use luz indireta intensa combinada com circulação constante de ar. O objetivo é manter folhas claras, firmes e frias ao toque, evitando superaquecimento mesmo em dias quentes."
     },
     "floracao": "Mais comum do fim do inverno à primavera, entre agosto e novembro. As flores surgem nas porções superiores das hastes maduras e apresentam padrão pintalgado muito variável e ornamental.",

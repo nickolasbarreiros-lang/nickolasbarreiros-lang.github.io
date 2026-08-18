@@ -1,0 +1,5 @@
+REGRA DE EXIBIÇÃO DOS SELOS DE ILUMINAÇÃO
+
+Quando iluminacao.solDireto = "Não recomendado", o campo iluminacao.horario fica vazio para que o selo "Horário recomendado" não seja exibido.
+
+Quando sol direto for permitido ou tolerado, o horário seguro permanece disponível normalmente.

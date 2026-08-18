@@ -28,7 +28,7 @@ export const ludisiaDiscolor = {
     iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não recomendado",
-        horario: "Luz indireta clara durante todo o dia",
+        horario: "",
         observacoes: "Prefere luz baixa a moderada, porém não escuridão. Em interiores, mantenha próxima de janela clara sem sol direto. Folhas compactas, firmes e intensamente coloridas indicam bom equilíbrio; caules longos e espaçados sugerem pouca luz, enquanto desbotamento, manchas claras e bordas queimadas indicam excesso de exposição ou calor."
     },
     floracao: "Em cultivo, costuma florescer do fim do inverno à primavera, embora a época varie com clima e manejo. As hastes eretas carregam muitas flores brancas pequenas, abrindo progressivamente e permanecendo decorativas por várias semanas. A folhagem, entretanto, continua sendo seu principal atrativo durante todo o ano.",

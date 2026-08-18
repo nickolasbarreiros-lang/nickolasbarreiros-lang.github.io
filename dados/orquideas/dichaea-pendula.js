@@ -32,7 +32,7 @@ export const dichaeaPendula = {
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não recomendado",
-        horario: "Luz difusa ao longo do dia",
+        horario: "",
         observacoes: "Prefere sombra clara de sub-bosque. Luz insuficiente deixa as hastes fracas; sol direto, principalmente associado a calor, desidrata rapidamente folhas e raízes finas."
     },
     floracao: "Na natureza, é registrada principalmente na primavera e no verão. Em cultivo no Sudeste brasileiro, pode variar conforme temperatura e procedência. As flores surgem individualmente em pequenas hastes axilares ao longo dos ramos e podem aparecer sucessivamente em uma planta bem estabelecida.",

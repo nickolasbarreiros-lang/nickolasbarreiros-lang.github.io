@@ -33,7 +33,7 @@ export const pleurothallisModestissima = {
     "iluminacao": {
         "sombrite": "65% a 80%",
         "solDireto": "Não recomendado",
-        "horario": "Luz difusa",
+        "horario": "",
         "observacoes": "Prefira sombra clara e ventilada. Como ocorre em ambiente sazonalmente seco, pode tolerar luminosidade um pouco maior que micro-orquídeas de mata nebular, desde que o suporte não aqueça."
     },
     "floracao": "A fenologia pode variar e é pouco documentada nas fontes horticulturais confiáveis disponíveis. Em cultivo, observe principalmente a maturação dos novos crescimentos e evite fixar uma janela rígida. O calendário do site pode manter primavera/verão como referência prática até haver registro próprio mais consistente da planta da coleção.",
