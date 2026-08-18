@@ -30,7 +30,7 @@ export const miltoniaRusselliana = {
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Somente sol fraco da manhã, se aclimatada",
-        horario: "Luz filtrada brilhante ao longo do dia",
+        horario: "Início da manhã",
         observacoes: "Prefere mais luz do que uma planta de sombra profunda, porém sem sol direto forte. Folhas excessivamente escuras e crescimento alongado sugerem falta de luz; amarelamento rápido e aquecimento das folhas indicam excesso."
     },
     floracao: "Predominantemente no outono e inverno. Em cultivo brasileiro, abril a agosto é uma boa janela de referência, podendo haver variações conforme região, temperatura e maturação dos pseudobulbos.",

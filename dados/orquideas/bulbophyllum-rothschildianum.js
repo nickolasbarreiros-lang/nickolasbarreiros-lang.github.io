@@ -23,7 +23,7 @@ export const bulbophyllumRothschildianum = {
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Apenas muito suave",
-        horario: "Luz filtrada ao longo do dia",
+        horario: "",
         observacoes: "Prefere meia-sombra clara. Evite tanto sol forte, que aquece folhas e rizoma, quanto sombra profunda, que reduz maturação dos pseudobulbos e floração."
     },
     floracao: "Duas janelas são bem documentadas: primavera e outono. Para o calendário brasileiro, março a maio e setembro a novembro são referências úteis, com deslocamentos conforme clone e microclima.",

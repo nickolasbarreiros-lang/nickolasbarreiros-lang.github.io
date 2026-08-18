@@ -28,7 +28,7 @@ export const octomeriaDiaphana = {
     "iluminacao": {
         "sombrite": "60% a 75%",
         "solDireto": "Não",
-        "horario": "Luz filtrada o dia inteiro",
+        "horario": "",
         "observacoes": "Sombra clara. Folhas muito alongadas e escuras sugerem pouca luz; tonalidade amarelada ou pontas secas indicam exposição excessiva."
     },
     "floracao": "A floração ocorre principalmente no fim da primavera e início do verão. As inflorescências são extremamente curtas, com cerca de 3–5 mm, e normalmente carregam uma flor por vez junto à base da folha. O valor ornamental está na touceira: plantas antigas produzem muitas flores simultaneamente e revelam muito mais do que pequenas divisões.",

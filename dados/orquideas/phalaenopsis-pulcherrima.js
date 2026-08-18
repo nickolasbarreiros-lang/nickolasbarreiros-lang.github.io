@@ -30,7 +30,7 @@ export const phalaenopsisPulcherrima = {
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Tolera sol fraco da manhã após aclimatação",
-        horario: "Luz filtrada brilhante ao longo do dia",
+        horario: "Início da manhã",
         observacoes: "Tolera e normalmente aprecia mais luz que muitas Phalaenopsis epífitas. Evite, porém, sol direto forte sobre folhas aquecidas. Folhagem excessivamente escura pode indicar luminosidade insuficiente."
     },
     floracao: "Predominantemente no verão e outono, com hastes que podem prolongar a floração por bastante tempo. Para o calendário do site, dezembro a maio funciona como referência prática.",

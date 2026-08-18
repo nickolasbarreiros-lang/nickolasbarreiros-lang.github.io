@@ -23,7 +23,7 @@ export const eriaHyacinthoides = {
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não",
-        horario: "Luz indireta durante todo o dia",
+        horario: "",
         observacoes: "Necessita de luz filtrada média. O sol direto não é recomendado, pois o aquecimento excessivo das folhas causa queimaduras rápidas e amarelamento foliar prematuro."
     },
     floracao: "Principalmente na primavera; hastes de até cerca de 25 cm com aproximadamente 20–40 flores.",

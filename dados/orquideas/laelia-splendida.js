@@ -30,7 +30,7 @@ export const laeliaSplendida = {
     iluminacao: {
         sombrite: "30% a 50%",
         solDireto: "Aceita sol fraco da manhã após aclimatação",
-        horario: "Luz intensa e filtrada durante grande parte do dia",
+        horario: "Início da manhã",
         observacoes: "É uma espécie de alta luminosidade. Sombra excessiva produz crescimento verde e vigoroso, mas pode impedir a floração. No litoral quente, evite sol forte do meio do dia sobre folhas não aclimatadas."
     },
     floracao: "A época pode variar conforme procedência e condições de cultivo. No calendário do site, primavera e início do verão são usados como janela prática de referência, observando sempre a maturação dos pseudobulbos.",

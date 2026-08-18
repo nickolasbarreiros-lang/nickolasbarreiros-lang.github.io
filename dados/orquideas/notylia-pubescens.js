@@ -28,7 +28,7 @@ export const notyliaPubescens = {
     "iluminacao": {
         "sombrite": "60% a 75%",
         "solDireto": "Não",
-        "horario": "Apenas luminosidade filtrada",
+        "horario": "",
         "observacoes": "Sombra clara, semelhante a Phalaenopsis bem iluminada. Folhas amarelas ou ásperas indicam excesso; folhas muito escuras e moles indicam falta de luz."
     },
     "floracao": "A floração costuma concentrar-se nos meses mais quentes, com maior frequência da primavera ao verão. As hastes arqueadas ou pendentes podem reunir muitas flores pequenas, de cor creme a amarela, e ficam mais bonitas quando têm espaço livre para crescer. A ficha antiga registrava setembro a janeiro; mantenha essa faixa como referência de cultivo, mas considere que o período pode variar conforme região e condições da planta.",

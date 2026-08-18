@@ -31,7 +31,7 @@ export const bulbophyllumAmbrosia = {
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Apenas luz muito suave, se houver",
-        horario: "Luz filtrada durante o dia",
+        horario: "",
         observacoes: "Meia-sombra clara é mais segura que sombra profunda. A planta deve receber claridade suficiente para manter pseudobulbos compactos e favorecer a floração, mas sem aquecimento excessivo das folhas e do rizoma. No litoral quente, 60% a 70% de sombreamento com circulação de ar é um ponto de partida coerente."
     },
     floracao: "Predominantemente no inverno no habitat. Em cultivo brasileiro, a época pode deslocar-se conforme procedência e microclima; junho a agosto é uma referência prática, não uma regra absoluta.",

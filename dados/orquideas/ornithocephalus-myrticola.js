@@ -29,7 +29,7 @@ export const ornithocephalusMyrticola = {
     "iluminacao": {
         "sombrite": "70% a 80%",
         "solDireto": "Não",
-        "horario": "Luz indireta durante todo o dia",
+        "horario": "",
         "observacoes": "Sombra clara. Posicione na faixa inferior ou média do orquidário, longe de paredes e coberturas aquecidas. Folhas amareladas ou avermelhadas indicam excesso; folhas alongadas, muito escuras e pouca floração indicam sombra profunda."
     },
     "floracao": "A época pode variar entre procedências e condições de cultivo. As hastes axilares e pubescentes medem cerca de 4–8 cm e podem carregar até aproximadamente 15 flores de cerca de 1 cm, claras e delicadas, com perfume cítrico lembrando limão. Em touceiras adultas, várias inflorescências podem aparecer em sequência e prolongar o efeito ornamental.",

@@ -594,27 +594,34 @@ function criarCardIluminacao(iluminacao) {
     }
 
     const valorSolOriginal = String(iluminacao.solDireto || "").trim();
-    const solDireto = valorSolOriginal.toLowerCase();
-    const bloquearSolDireto = solDiretoNaoRecomendado(valorSolOriginal);
-    const aceitaSol = !bloquearSolDireto && solDireto.startsWith("sim");
-    const rejeitaSol =
-        bloquearSolDireto ||
-        solDireto === "não" ||
-        solDireto === "nao" ||
-        solDireto.startsWith("não,") ||
-        solDireto.startsWith("nao,");
+    const solNormalizado = valorSolOriginal.toLowerCase();
 
-    let textoSol = valorSolOriginal;
+    const termosSemSolDireto = [
+        "não recomendado", "nao recomendado",
+        "não necessário", "nao necessario",
+        "evitar", "evite",
+        "sem sol direto",
+        "não expor", "nao expor",
+        "não usar", "nao usar",
+        "dispensável", "dispensavel"
+    ];
 
-    if (bloquearSolDireto) {
-        textoSol = "Não recomendado";
-    } else if (solDireto === "sim") {
+    const bloquearSolDireto = termosSemSolDireto.some(
+        termo => solNormalizado.includes(termo)
+    );
+
+    const aceitaSol = !bloquearSolDireto && solNormalizado.startsWith("sim");
+    let textoSol = bloquearSolDireto ? "Não recomendado" : valorSolOriginal;
+
+    if (!bloquearSolDireto && solNormalizado === "sim") {
         textoSol = "Permitido";
-    } else if (aceitaSol && valorSolOriginal.includes(",")) {
+    } else if (
+        !bloquearSolDireto &&
+        aceitaSol &&
+        valorSolOriginal.includes(",")
+    ) {
         textoSol = valorSolOriginal.split(",").slice(1).join(",").trim();
         textoSol = textoSol.charAt(0).toUpperCase() + textoSol.slice(1);
-    } else if (rejeitaSol) {
-        textoSol = "Não recomendado";
     }
 
     const iconeSol = aceitaSol ? "🌤️" : "🚫";
@@ -631,7 +638,11 @@ function criarCardIluminacao(iluminacao) {
     ];
 
     const horario = String(iluminacao.horario || "").trim();
-    if (!bloquearSolDireto && horario) {
+    const horarioEhTemporal =
+        /\b(?:[0-1]?\d|2[0-3])\s*(?:h|:)\s*(?:[0-5]\d)?\b/i.test(horario) ||
+        /(manhã|manha|tarde|amanhecer|entardecer|início do dia|inicio do dia|primeiras horas|final do dia|fim do dia|antes das|após as|apos as)/i.test(horario);
+
+    if (!bloquearSolDireto && horario && horarioEhTemporal) {
         indicadores.push(
             criarIndicadorRotulado(
                 "Horário recomendado",

@@ -30,7 +30,7 @@ export const pabstiellaTrifida = {
     "iluminacao": {
         "sombrite": "70% a 80%",
         "solDireto": "Não",
-        "horario": "Somente claridade indireta",
+        "horario": "",
         "observacoes": "Sombra clara e fresca. Folhas amareladas ou avermelhadas indicam excesso de luz e calor; ramicaules alongados, moles e ausência de flores indicam sombra profunda. A planta deve ficar longe de telhas, paredes aquecidas e bolsões de ar quente."
     },
     "floracao": "Mais típica do fim da primavera ao início do verão, aproximadamente entre novembro e janeiro. As hastes finas e racemosas carregam poucas flores sucessivas. Touceiras adultas, estáveis e bem hidratadas costumam florescer melhor do que divisões recentes ou plantas submetidas a calor noturno contínuo.",

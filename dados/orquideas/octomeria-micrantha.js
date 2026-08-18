@@ -28,7 +28,7 @@ export const octomeriaMicrantha = {
     "iluminacao": {
         "sombrite": "60% a 75%",
         "solDireto": "Não",
-        "horario": "Luz filtrada o dia inteiro",
+        "horario": "",
         "observacoes": "Sombra clara. Folhas muito alongadas e escuras sugerem pouca luz; tonalidade amarelada ou pontas secas indicam exposição excessiva."
     },
     "floracao": "IOSPE registra dois picos principais: primavera e novamente no outono. As flores têm cerca de 3,5 mm e surgem lateralmente junto à base das folhas, em pequenos fascículos. Touceiras maduras podem apresentar várias flores ao mesmo tempo; por isso, evite divisões frequentes e manipulação excessiva.",

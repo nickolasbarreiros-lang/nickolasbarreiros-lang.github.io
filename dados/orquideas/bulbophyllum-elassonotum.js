@@ -29,8 +29,8 @@ export const bulbophyllumElassonotum = {
     climaFloracao: "A floração natural ocorre no inverno. Como a espécie ocupa desde terras baixas até altitudes intermediárias, não existe uma única exigência térmica universal. No litoral quente, noites um pouco mais amenas no inverno podem atuar como sinal fenológico, mas a planta precisa principalmente chegar à estação com pseudobulbos maduros, raízes funcionais e boa reserva energética.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Não necessário",
-        horario: "Luz filtrada durante o dia",
+        solDireto: "Não recomendado",
+        horario: "",
         observacoes: "Prefere meia-sombra clara. Sombra excessiva favorece crescimento alongado e pode reduzir a floração; sol direto forte é arriscado em clima quente. Use a coloração e a firmeza das folhas como indicadores, ajustando gradualmente a luminosidade."
     },
     floracao: "Principalmente no inverno. Para o calendário do litoral brasileiro, junho a agosto é a referência mais coerente, admitindo variações de procedência e cultivo.",
