@@ -1,0 +1,6 @@
+REGRA DE EXIBIÇÃO — EXPOSIÇÃO SEGURA
+
+- Sol pleno: não exibir Exposição segura (redundante).
+- Não permitido: não exibir Exposição segura.
+- Permitido: exibir Exposição segura quando houver janela temporal válida.
+- Permitido com restrição: exibir Exposição segura quando houver janela temporal válida.

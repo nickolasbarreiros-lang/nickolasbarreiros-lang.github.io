@@ -635,7 +635,7 @@ function criarCardIluminacao(iluminacao) {
         /\b(?:[0-1]?\d|2[0-3])\s*(?:h|:)\s*(?:[0-5]\d)?\b/i.test(horario) ||
         /(manhã|manha|tarde|amanhecer|entardecer|início do dia|inicio do dia|primeiras horas|final do dia|fim do dia|antes das|após as|apos as)/i.test(horario);
 
-    if (textoSol !== "Não permitido" && horario && (horarioEhTemporal || horario.toLowerCase() === "sol pleno")) {
+    if ((textoSol === "Permitido" || textoSol === "Permitido com restrição") && horario && horarioEhTemporal) {
         indicadores.push(
             criarIndicadorRotulado(
                 "Exposição segura",

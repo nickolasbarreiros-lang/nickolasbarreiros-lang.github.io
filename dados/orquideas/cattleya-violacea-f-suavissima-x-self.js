@@ -30,7 +30,7 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Sol pleno",
-        "horario": "Sol pleno",
+        "horario": "",
         "observacoes": "Luz brilhante e filtrada é essencial. Folhas verde-médio e pseudobulbos firmes indicam equilíbrio. Sombra produz pseudobulbos finos; sol forte causa amarelecimento e queimaduras."
     },
     "floracao": "Floresce principalmente da primavera ao verão, entre outubro e março, com variação conforme o indivíduo e o microclima. As flores tendem a apresentar sépalas e pétalas muito claras, em rosa-esbranquiçado ou lilás suave, e labelo magenta com área amarelada na garganta. Plantas jovens podem alterar tamanho e intensidade de cor nas primeiras florações até alcançarem maturidade.",

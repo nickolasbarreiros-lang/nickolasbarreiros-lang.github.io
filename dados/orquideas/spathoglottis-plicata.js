@@ -33,7 +33,7 @@ export const spathoglottisPlicata = {
     "iluminacao": {
         "sombrite": "30% a 50%",
         "solDireto": "Sol pleno",
-        "horario": "Sol pleno",
+        "horario": "",
         "observacoes": "A luminosidade alta é decisiva para a floração. Folhas muito escuras e exuberantes acompanhadas de poucas hastes indicam sombra. Aclimate gradualmente antes de aumentar o sol, protegendo do calor forte da tarde."
     },
     "floracao": "Pode florescer por grande parte do ano em clima tropical, normalmente com maior intensidade da primavera ao início do outono. As hastes continuam abrindo botões em sequência por semanas; por isso, não devem ser cortadas enquanto houver gemas florais ativas.",
