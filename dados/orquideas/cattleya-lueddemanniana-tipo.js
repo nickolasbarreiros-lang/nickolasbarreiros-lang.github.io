@@ -42,10 +42,10 @@ export const cattleyaLueddemannianaTipo = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 75,
-            estrelas: 4,
+            indice: 87,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
+                habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 5, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
@@ -55,20 +55,20 @@ export const cattleyaLueddemannianaTipo = {
             }
         },
         montanhaFrio: {
-            indice: 78,
+            indice: 63,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Adapta-se muito bem à Litoral de clima quente. O calor é compatível com sua origem; o maior risco é a combinação de noites quentes, substrato fechado e raízes permanentemente molhadas. Prefira boa ventilação, vaso ou cachepô arejado e luz filtrada forte." },
         montanhaFrio: { texto: "Tolera noites frescas, mas não aprecia frio úmido prolongado. Reduza as regas durante sequências frias e nubladas e proteja contra temperaturas extremas." }
     },

@@ -45,33 +45,33 @@ export const camaridiumCarinatum = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 70,
+            indice: 71,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
                 temperatura: { nota: 5, peso: 30 },
                 aguaUmidade: { nota: 2, peso: 5 },
                 ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 81,
-            estrelas: 5,
+            indice: 75,
+            estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Muito boa quando cultivada com ventilação constante, recipiente raso e substrato arejado. O calor é tolerável, desde que as bainhas não permaneçam molhadas à noite." },
         montanhaFrio: { texto: "Em períodos frios e nublados, aumente os intervalos de rega conforme a menor evaporação, sem desidratar os pseudobulbos." }
     },

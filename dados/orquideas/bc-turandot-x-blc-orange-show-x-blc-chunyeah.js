@@ -54,12 +54,12 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
             }
         },
         montanhaFrio: {
-            indice: 70,
+            indice: 63,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
@@ -67,7 +67,7 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Adapta-se muito bem. Use luz forte filtrada, sol suave da manhã, ventilação constante e substrato de secagem rápida." },
         montanhaFrio: { texto: "Proteja de frio intenso e reduza as regas durante períodos frios, sem permitir desidratação prolongada dos pseudobulbos." }
     },

@@ -36,12 +36,12 @@ export const isabeliaVirginalis = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 64,
+            indice: 63,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
+                aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
@@ -62,7 +62,7 @@ export const isabeliaVirginalis = {
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Desde que montada ou em recipiente muito raso e ventilado. Dê luz forte filtrada, regas frequentes no verão e secagem rápida entre elas." },
         montanhaFrio: { texto: "As noites amenas favorecem a espécie; apenas evite geadas e longos períodos de umidade fria sem ventilação." }
     },

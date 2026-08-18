@@ -43,33 +43,33 @@ export const laeliaLundiiAlba = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 74,
+            indice: 75,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
                 temperatura: { nota: 5, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 82,
-            estrelas: 5,
+            indice: 69,
+            estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 4, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Quando montada, ventilada e protegida do sol forte da tarde. Regue conforme a secagem e reduza no inverno apenas de acordo com a atividade da planta." },
         montanhaFrio: { texto: "Excelente resposta às noites frescas. Mantenha boa luz e reduza a água em períodos frios e úmidos, evitando geadas." }
     },

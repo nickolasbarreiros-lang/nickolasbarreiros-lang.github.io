@@ -38,9 +38,39 @@ export const octomeriaMicrantha = {
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.\n🥉 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.\n⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
     "errosComuns": "❌ Fracionar touceiras em poucas hastes.\n❌ Manter substrato encharcado ou compactado.\n❌ Usar vaso fundo.\n❌ Aplicar fertilizante concentrado.\n❌ Cultivar em sombra profunda.\n❌ Impor seca prolongada no verão.\n❌ Remover bainhas ainda verdes.\n❌ Manipular a planta enquanto novos ramicaules se formam.\n❌ Molhar a folhagem no fim da tarde em noites frias.",
     "dica": "Preserve touceiras robustas e, se a divisão for indispensável, mantenha pelo menos 5 ramicaules vigorosos e enraizados. Prefira montagem permanente em madeira ou cortiça, com pouca umidade concentrada na base e raízes livres. Não retire bainhas verdes nem manipule a planta durante o crescimento. A espécie tolera secagem superficial leve, mas não abandono hídrico. Quanto maior a almofada, maior será o número de fascículos florais.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 73,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 71,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, use 65–70% de sombrite, placas ou pequenos cestos e circulação de ar constante. No verão, uma segunda nebulização ambiental leve pode ser útil, desde que a touceira não permaneça molhada e abafada.",
-        "montanhaFrio": "Ótima adaptação. Proteja de geada e reduza as regas em dias frios e chuvosos, mantendo apenas umidade residual e boa ventilação."
+        "litoralQuente": { texto: "Em Litoral de clima quente, use 65–70% de sombrite, placas ou pequenos cestos e circulação de ar constante. No verão, uma segunda nebulização ambiental leve pode ser útil, desde que a touceira não permaneça molhada e abafada." },
+        "montanhaFrio": { texto: "Ótima adaptação. Proteja de geada e reduza as regas em dias frios e chuvosos, mantendo apenas umidade residual e boa ventilação." }
     },
     "mesesFloracao": [
         3,

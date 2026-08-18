@@ -42,33 +42,33 @@ export const ludisiaDiscolor = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 64,
+            indice: 75,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
+                habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 2, peso: 5 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 2, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 71,
+            indice: 69,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
                 temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 5, peso: 5 },
+                aguaUmidade: { nota: 2, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Ao litoral quente em local sombreado, claro e ventilado. Use vaso largo, substrato humícola porém arejado e evite ambientes abafados e saturados durante noites quentes." },
         montanhaFrio: { texto: "Em regiões serranas. Proteja de frio excessivo e reduza a rega apenas quando a evaporação cair, sem deixar o substrato secar completamente." }
     },

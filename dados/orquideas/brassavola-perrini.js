@@ -42,33 +42,33 @@ export const brassavolaPerrini = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 50,
+            indice: 45,
             estrelas: 3,
             fatores: {
                 habitatNatural: { nota: 1, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
+                temperatura: { nota: 2, peso: 30 },
                 aguaUmidade: { nota: 4, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 2, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 82,
+            indice: 81,
             estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 4, peso: 30 },
+                habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 4, peso: 30 },
                 aguaUmidade: { nota: 4, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 2, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "É muito bem adaptada ao calor, desde que receba ventilação e secagem rápida. O cultivo montado ou em cachepô aberto reduz o risco de podridão durante períodos chuvosos." },
         montanhaFrio: { texto: "Tolera noites frescas, mas deve permanecer mais seca durante sequências frias. Proteja de geadas e mantenha alta luminosidade no inverno." }
     },

@@ -57,33 +57,33 @@ export const dichaeaCogniauxiana = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 41,
+            indice: 47,
             estrelas: 3,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 1, peso: 30 },
+                temperatura: { nota: 2, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 2, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 1, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 88,
-            estrelas: 5,
+            indice: 63,
+            estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "É possível cultivá-la com 70% a 80% de sombreamento, alta umidade atmosférica e ventilação contínua. No verão, evite sobretudo a combinação de calor noturno, raízes saturadas e ar parado." },
         montanhaFrio: { texto: "Noites frescas, alta umidade e boa ventilação se aproximam melhor das condições montanas documentadas para a espécie. Proteja apenas de frio intenso e vento excessivamente seco." }
     },

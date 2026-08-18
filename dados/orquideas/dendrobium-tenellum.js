@@ -43,9 +43,39 @@ export const dendrobiumTenellum = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n🥉 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
     "errosComuns": "Sol direto intenso; seca extrema; encharcamento; substrato compactado; repouso excessivamente severo; chuva contínua no inverno; replantios desnecessários; vaso profundo; pouca ventilação; excesso de adubo no repouso.",
     "dica": "Durante o inverno, reduza drasticamente água e adubo, mas acompanhe visualmente as hastes. Se começarem a enrugar em excesso, faça uma irrigação leve. O equilíbrio entre descanso e preservação das hastes é o principal fator de sucesso.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 54,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 1, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 87,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, mantenha em local alto, claro e ventilado, protegido da chuva no inverno. O maior desafio é obter noites frescas sem desidratar as hastes.",
-        "montanhaFrio": "Adaptação muito boa; proteja apenas de geadas e evite repouso seco exagerado."
+        "litoralQuente": { texto: "Em Litoral de clima quente, mantenha em local alto, claro e ventilado, protegido da chuva no inverno. O maior desafio é obter noites frescas sem desidratar as hastes." },
+        "montanhaFrio": { texto: "Adaptação muito boa; proteja apenas de geadas e evite repouso seco exagerado." }
     },
     "mesesFloracao": [
         8,

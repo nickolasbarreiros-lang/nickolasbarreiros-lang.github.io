@@ -57,33 +57,33 @@ export const phalaenopsisPulcherrima = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 64,
+            indice: 61,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 2, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 2, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 66,
+            indice: 62,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
+                aguaUmidade: { nota: 2, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Excelente Calor combina bem com a espécie. Use luz filtrada relativamente alta, boa ventilação e regas regulares sem manter o vaso saturado." },
         montanhaFrio: { texto: "Boa Pode ser cultivada, mas deve ser protegida de noites muito frias e de raízes molhadas em temperaturas baixas." }
     },

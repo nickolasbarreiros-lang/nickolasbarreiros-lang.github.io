@@ -43,9 +43,39 @@ export const spathoglottisPlicata = {
     "substrato": "🥇 Casca de arroz carbonizada + fibra de coco + perlita + pedra-pomes, com pequena fração de pinus fino.\n🥈 Chips de coco pequenos + casca de arroz carbonizada + pedra-pomes + argila expandida miúda.\n🥉 Fibra de coco + perlita + pinus fino + carvão vegetal miúdo, mantendo drenagem rápida apesar do hábito terrestre.\n⭐ Alternativa: Macadâmia média + casca de arroz carbonizada + pedra-pomes + fibra de coco para uma mistura durável e aberta.",
     "errosComuns": "Terra compacta; enterrar pseudobulbos; prato com água; sombra profunda; matéria orgânica fresca; vaso sem drenagem; deixar secar totalmente no crescimento; excesso de chuva no colo; cortar folhas verdes; dividir em poucas unidades; pouca luz.",
     "dica": "Use recipiente amplo, mistura terrestre leve e muito drenante e ofereça sol da manhã. Deixe os pseudobulbos parcialmente expostos na superfície. Essa combinação de luz alta, água regular e raízes oxigenadas mantém a planta vigorosa e capaz de produzir hastes por muitos meses.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 84,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 81,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, a adaptação é excelente. Tolera calor e umidade, desde que receba sol matinal, drenagem forte e proteção contra encharcamento prolongado.",
-        "montanhaFrio": "Cultive em local claro e protegido de geadas. Reduza regas no inverno sem deixar a mistura totalmente seca."
+        "litoralQuente": { texto: "Em Litoral de clima quente, a adaptação é excelente. Tolera calor e umidade, desde que receba sol matinal, drenagem forte e proteção contra encharcamento prolongado." },
+        "montanhaFrio": { texto: "Cultive em local claro e protegido de geadas. Reduza regas no inverno sem deixar a mistura totalmente seca." }
     },
     "mesesFloracao": [
         9,

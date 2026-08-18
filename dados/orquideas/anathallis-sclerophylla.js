@@ -77,33 +77,33 @@ export const anathallisSclerophylla = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 38,
-            estrelas: 2,
+            indice: 46,
+            estrelas: 3,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 1, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
+                temperatura: { nota: 2, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 2, peso: 5 },
-                luminosidade: { nota: 2, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 1, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 89,
-            estrelas: 5,
+            indice: 69,
+            estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
+                habitatNatural: { nota: 3, peso: 30 },
                 temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
+                aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoral: { texto: "A ampla distribuição mostra tolerância térmica considerável, mas no litoral quente é importante manter sombra clara, umidade atmosférica alta e ventilação constante. Noites muito quentes associadas a ar parado são o principal ponto de atenção." },
         montanha: { texto: "Noites frescas, alta umidade e boa circulação de ar se aproximam bastante das condições montanas e de floresta nebulosa registradas para a espécie." }
     },

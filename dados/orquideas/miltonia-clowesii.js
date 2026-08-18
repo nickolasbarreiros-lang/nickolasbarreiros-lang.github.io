@@ -39,9 +39,39 @@ export const miltoniaClowesii = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
     "errosComuns": "❌ Substrato velho ou compactado: elimina rapidamente as raízes finas.\n❌ Vaso grande: mantém o centro saturado e favorece podridão.\n❌ Secagem durante expansão foliar: produz folhas sanfonadas permanentes.\n❌ Sombra excessiva: enfraquece o pseudobulbo e reduz hastes.\n❌ Calor abafado e água nas bainhas à noite: favorecem fungos e podridão dos brotos.\n❌ Replantio fora da emissão de raízes: pode comprometer o pseudobulbo e a floração seguinte.",
     "dica": "O pseudobulbo novo é o reservatório que financiará a próxima haste. Durante sua formação, forneça água regular, luz filtrada forte, nutrição diluída e raízes muito aeradas. Uma folha sanfonada registra uma interrupção ocorrida durante a expansão e não voltará ao normal. Antes de aumentar a água, confira as raízes. Replante somente quando novas pontas radiculares aparecerem na base do broto; isso reduz o choque e permite que a planta se fixe antes de amadurecer o pseudobulbo.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 81,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 63,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Boa adaptação no litoral quente sob 60–70% de sombra, ventilação forte e substrato estrutural. O maior risco é calor associado a noites abafadas e raízes permanentemente molhadas.",
-        "montanhaFrio": "Excelente adaptação. Ofereça mais luz no inverno e aumente o intervalo entre regas nas semanas frias e chuvosas, sem impor seca total."
+        "litoralQuente": { texto: "Boa adaptação no litoral quente sob 60–70% de sombra, ventilação forte e substrato estrutural. O maior risco é calor associado a noites abafadas e raízes permanentemente molhadas." },
+        "montanhaFrio": { texto: "Excelente adaptação. Ofereça mais luz no inverno e aumente o intervalo entre regas nas semanas frias e chuvosas, sem impor seca total." }
     },
     "mesesFloracao": [3, 4, 5, 6],
     "selosCultivo": {

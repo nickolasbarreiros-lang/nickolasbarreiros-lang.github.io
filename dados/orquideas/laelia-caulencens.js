@@ -45,7 +45,7 @@ export const laeliaCaulencens = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 67,
+            indice: 69,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 4, peso: 30 },
@@ -53,25 +53,25 @@ export const laeliaCaulencens = {
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 81,
-            estrelas: 5,
+            indice: 74,
+            estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
                 luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Difícil a moderada de adaptação. O principal desafio é calor noturno combinado com umidade residual. Priorize o ponto mais ventilado e sem superfícies quentes ao redor." },
         montanhaFrio: { texto: "Com alta luminosidade e boa ventilação. Proteja apenas de geadas e de longos períodos frios com vaso encharcado." }
     },

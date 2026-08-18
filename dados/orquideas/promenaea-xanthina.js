@@ -57,33 +57,33 @@ export const promenaeaXanthina = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 26,
+            indice: 33,
             estrelas: 2,
             fatores: {
                 habitatNatural: { nota: 1, peso: 30 },
-                temperatura: { nota: 1, peso: 30 },
+                temperatura: { nota: 2, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 2, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 1, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 90,
-            estrelas: 5,
+            indice: 76,
+            estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "É cultivável com 70% a 80% de sombreamento, alta ventilação e substrato pequeno e aerado, mas noites muito quentes podem reduzir vigor e floração." },
         montanhaFrio: { texto: "Noites frescas e alta umidade favorecem a espécie, desde que o substrato não permaneça frio e saturado." }
     },

@@ -38,9 +38,39 @@ export const octomeriaDiaphana = {
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.\n🥉 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.\n⭐ Alternativa: Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.",
     "errosComuns": "❌ Dividir a touceira em 1 ou 2 ramicaules.\n❌ Permitir seca completa por vários dias.\n❌ Cultivar em vaso fundo ou substrato compacto.\n❌ Aplicar adubo forte ou deixar sais acumularem.\n❌ Deixar água parada nas axilas durante noites frias.\n❌ Retirar folhas antigas ainda verdes, que continuam ajudando na reserva hídrica.\n❌ Manipular a planta durante a emissão de novos ramicaules.\n❌ Manter em ambiente sem circulação de ar.",
     "dica": "Preserve a touceira inteira. Se a divisão for inevitável, mantenha pelo menos 5–6 ramicaules vigorosos e enraizados. Monte em madeira ou cortiça com uma lâmina fina de esfagno, deixando as raízes respirar, e evite mudar o suporte depois da fixação. Não retire folhas verdes antigas nem manipule a planta durante o crescimento. Quanto mais antiga e densa a touceira, maior o número de fascículos e mais evidente o efeito de nuvem de flores diáfanas.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 72,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 64,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, cultive no setor mais fresco e sombreado do orquidário, sob 70–75% de sombrite, com ventilação constante. Regue pela manhã; em dias muito quentes, aumente a umidade ao redor sem engrossar o esfagno nem manter a base abafada.",
-        "montanhaFrio": "Excelente adaptação. Proteja de geadas e ventos ressecantes. Em semanas frias e nubladas, reduza a frequência das regas, mas não permita seca total."
+        "litoralQuente": { texto: "Em Litoral de clima quente, cultive no setor mais fresco e sombreado do orquidário, sob 70–75% de sombrite, com ventilação constante. Regue pela manhã; em dias muito quentes, aumente a umidade ao redor sem engrossar o esfagno nem manter a base abafada." },
+        "montanhaFrio": { texto: "Excelente adaptação. Proteja de geadas e ventos ressecantes. Em semanas frias e nubladas, reduza a frequência das regas, mas não permita seca total." }
     },
     "mesesFloracao": [
         10,

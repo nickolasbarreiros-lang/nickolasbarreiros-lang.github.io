@@ -44,33 +44,33 @@ export const bulbophyllumElassonotum = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 70,
+            indice: 71,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 2, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 81,
-            estrelas: 5,
+            indice: 64,
+            estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Boa sobretudo para procedências de baixa altitude. Compense noites quentes com ventilação constante e meio muito arejado." },
         montanhaFrio: { texto: "Boa a muito boa para procedências de altitude intermediária; evite frio intenso e substrato molhado por longos períodos em baixa evaporação." }
     },

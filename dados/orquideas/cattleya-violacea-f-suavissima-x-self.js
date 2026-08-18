@@ -40,9 +40,39 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     "substrato": "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
     "errosComuns": "Temperaturas prolongadas abaixo de 15 °C; seca severa; água salina; fertilizante concentrado; excesso de Osmocote; falta de flushing; raízes abafadas; pouca luz; substrato degradado; água no rizoma; replantar fora do novo enraizamento; assumir que todas as mudas self serão idênticas à planta-mãe.",
     "dica": "A prioridade é preservar pontas radiculares ativas durante todo o ano. Use água de baixa salinidade, adubação fraca e lavagem periódica. Mantenha temperatura noturna preferencialmente acima de 15 °C e não aplique repouso seco. Por ser uma progênie self, avalie cada planta pelo desempenho próprio: diferenças de cor e vigor entre irmãos são naturais.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 71,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 68,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, apresenta excelente adaptação térmica. Use sombra luminosa, alta ventilação, água de boa qualidade e controle rigoroso de sais e encharcamento.",
-        "montanhaFrio": "Proteja de noites frias e mantenha temperatura mínima preferencialmente acima de 15 °C. Reduza regas apenas conforme a evaporação."
+        "litoralQuente": { texto: "Em Litoral de clima quente, apresenta excelente adaptação térmica. Use sombra luminosa, alta ventilação, água de boa qualidade e controle rigoroso de sais e encharcamento." },
+        "montanhaFrio": { texto: "Proteja de noites frias e mantenha temperatura mínima preferencialmente acima de 15 °C. Reduza regas apenas conforme a evaporação." }
     },
     "mesesFloracao": [
         10,

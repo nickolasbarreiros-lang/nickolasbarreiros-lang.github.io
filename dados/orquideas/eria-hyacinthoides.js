@@ -37,33 +37,33 @@ export const eriaHyacinthoides = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 65,
+            indice: 66,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 4, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 2, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 80,
+            indice: 76,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: { litoralQuente: { texto: "Com umidade, sombra clara e circulação de ar." }, montanhaFrio: { texto: "Boa em local protegido, evitando frio intenso e substrato encharcado no inverno." } },
+        adaptacaoRegional: { litoralQuente: { texto: "Com umidade, sombra clara e circulação de ar." }, montanhaFrio: { texto: "Boa em local protegido, evitando frio intenso e substrato encharcado no inverno." } },
     mesesFloracao: [9,10,11,12,1,2],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },

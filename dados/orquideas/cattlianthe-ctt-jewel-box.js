@@ -43,9 +43,39 @@ export const cattliantheCttJewelBox = {
     "substrato": "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
     "errosComuns": "Cultivar sob sombra excessiva; dividir a touceira com frequência; usar vaso grande; deixar o substrato degradar; enterrar o rizoma; excesso de nitrogênio; somar várias fontes de adubo em dose completa; acumular água nas bainhas e espatas; replantar sem raízes novas; manter a planta frouxa no vaso.",
     "dica": "Preserve a touceira e permita o adensamento de vários pseudobulbos. Cada pseudobulbo maduro representa uma possível haste floral e uma reserva para os novos crescimentos. Com luz alta, raízes saudáveis e poucas divisões, Cattlianthe Jewel Box produz cachos mais cheios, hastes mais firmes e floradas simultâneas.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 84,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 64,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "No litoral quente, adapta-se muito bem ao calor. Mantenha sob luz alta filtrada, ventilação constante e substrato de secagem rápida. Durante períodos de chuva contínua, aumente o intervalo entre regas e proteja as bainhas florais.",
-        "montanhaFrio": "Também apresenta bom desenvolvimento. Proteja apenas contra geadas e reduza a água em semanas frias e chuvosas."
+        "litoralQuente": { texto: "No litoral quente, adapta-se muito bem ao calor. Mantenha sob luz alta filtrada, ventilação constante e substrato de secagem rápida. Durante períodos de chuva contínua, aumente o intervalo entre regas e proteja as bainhas florais." },
+        "montanhaFrio": { texto: "Também apresenta bom desenvolvimento. Proteja apenas contra geadas e reduza a água em semanas frias e chuvosas." }
     },
     "mesesFloracao": [
         4,

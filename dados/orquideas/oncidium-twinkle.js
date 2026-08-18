@@ -39,9 +39,39 @@ export const oncidiumTwinkle = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
     "errosComuns": "Usar vaso grande; manter substrato velho; dividir em 1–2 pseudobulbos; cultivar em sombra excessiva; adubar forte; deixar secar completamente no crescimento; molhar brotos no fim do dia; confundir vaso proporcional com raiz comprimida.",
     "dica": "O segredo não é 'apertar' fisicamente a planta, e sim usar recipiente proporcional, que seque por igual e preserve as raízes capilares. Mantenha a touceira intacta e replante apenas quando o substrato degradar, a planta sair do vaso ou novas raízes começarem. Divisões devem conservar vários pseudobulbos maduros, broto ativo e raízes próprias para não sacrificar a floração em nuvem.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 81,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 79,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "No litoral quente, mantenha na bancada mais fresca e ventilada, protegida do sol da tarde. Seus parentais vêm de florestas úmidas de altitude; portanto, calor noturno persistente pode reduzir vigor e floração. Regue cedo e use substrato muito arejado, sem impor repouso seco forte.",
-        "montanhaFrio": "Desempenho excelente. Noites frescas favorecem pseudobulbos compactos, perfume e emissão de hastes. Reduza apenas o volume de água nos períodos frios."
+        "litoralQuente": { texto: "No litoral quente, mantenha na bancada mais fresca e ventilada, protegida do sol da tarde. Seus parentais vêm de florestas úmidas de altitude; portanto, calor noturno persistente pode reduzir vigor e floração. Regue cedo e use substrato muito arejado, sem impor repouso seco forte." },
+        "montanhaFrio": { texto: "Desempenho excelente. Noites frescas favorecem pseudobulbos compactos, perfume e emissão de hastes. Reduza apenas o volume de água nos períodos frios." }
     },
     "mesesFloracao": [
         4,

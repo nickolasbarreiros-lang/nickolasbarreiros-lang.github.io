@@ -42,33 +42,33 @@ export const maxillariaBrasiliensis = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 59,
-            estrelas: 3,
+            indice: 72,
+            estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
+                habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 63,
+            indice: 64,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Ao litoral quente quando cultivada com ventilação constante, vaso justo e substrato estrutural. Regue cedo e evite retenção prolongada no centro do vaso." },
         montanhaFrio: { texto: "Em regiões serranas. Em semanas frias e úmidas, aumente o intervalo entre regas, mantendo circulação de ar e sem impor seca prolongada." }
     },

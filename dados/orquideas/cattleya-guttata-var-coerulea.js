@@ -51,28 +51,28 @@ export const cattleyaGuttataVarCoerulea = {
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
+                aguaUmidade: { nota: 2, peso: 5 },
                 ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 64,
-            estrelas: 4,
+            indice: 57,
+            estrelas: 3,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
+                temperatura: { nota: 2, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Litoral de clima quente combina calor e umidade atmosférica favoráveis à espécie; o principal cuidado é evitar substrato velho, centro encharcado e falta de ventilação em noites quentes." },
         montanhaFrio: { texto: "Se houver muita luminosidade. Proteja de geadas e reduza as regas quando frio e umidade diminuírem a evaporação." }
     },

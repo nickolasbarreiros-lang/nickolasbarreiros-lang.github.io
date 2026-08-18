@@ -42,10 +42,10 @@ export const ornithophoraRadicans = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 77,
-            estrelas: 4,
+            indice: 83,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 4, peso: 30 },
+                habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 5, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 2, peso: 5 },
@@ -55,20 +55,20 @@ export const ornithophoraRadicans = {
             }
         },
         montanhaFrio: {
-            indice: 72,
-            estrelas: 4,
+            indice: 58,
+            estrelas: 3,
             fatores: {
                 habitatNatural: { nota: 2, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Ao litoral quente quando cultivada em meia-sombra clara, posição elevada e ventilação constante. Como há registros naturais próximos da costa em torno de 400 m, o problema maior não é o calor em si, e sim calor abafado somado a raízes permanentemente molhadas." },
         montanhaFrio: { texto: "Desenvolve-se com vigor em clima intermediário e serrano. Proteja de geadas, reduza a rega quando o frio diminuir a atividade radicular e evite noites frias com a touceira encharcada." }
     },

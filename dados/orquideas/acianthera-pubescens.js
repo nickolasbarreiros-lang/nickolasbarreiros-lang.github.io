@@ -56,33 +56,33 @@ export const aciantheraPubescens = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 52,
-            estrelas: 3,
+            indice: 64,
+            estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 1, peso: 30 },
+                habitatNatural: { nota: 3, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 5, peso: 5 },
+                aguaUmidade: { nota: 4, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 82,
-            estrelas: 5,
+            indice: 76,
+            estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 5, peso: 5 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoral: { texto: "Adaptação variável. Exemplares de baixa e média altitude podem responder bem ao calor desde que haja sombra filtrada e vento; clones de origem montana devem ficar no setor mais fresco e arejado e podem reduzir crescimento durante noites persistentemente quentes." },
         montanha: { texto: "Em geral, adaptação muito boa, especialmente para procedências montanas. Em períodos frios e nublados, reduza a rega apenas conforme a evaporação cair, sem deixar as raízes desidratarem." }
     },

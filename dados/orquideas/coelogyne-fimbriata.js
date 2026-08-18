@@ -43,9 +43,39 @@ export const coelogyneFimbriata = {
     "substrato": "🥇 Chips de coco médios + casca de pinus média + pedra-pomes + esfagno picado em pequena proporção.\n🥈 Esfagno de fibra longa bem solto + pedra-pomes + casca de pinus média, em recipiente raso e ventilado.\n🥉 Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno.\n⭐ Alternativa: Pinus médio + chips de coco + perlita + carvão vegetal miúdo.",
     "errosComuns": "Usar vaso profundo; enterrar o rizoma; limitar o avanço horizontal; deixar secar por muitos dias; manter encharcada; cultivar em calor abafado; sombra profunda; dividir em pedaços pequenos; replantar sem novas raízes; usar excesso de esfagno ou substrato compactado.",
     "dica": "Pense em superfície, não em profundidade. Conduza o rizoma sobre placa larga, cesto raso ou bacia baixa e deixe as novas frentes avançarem sem obstáculos. Mantenha o rizoma descoberto e umidade frequente com aeração; esse equilíbrio permite que a planta forme colônias extensas e floresça em várias frentes.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 74,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 75,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "No litoral quente, adapta-se bem sob sombra clara, umidade regular e ventilação. Evite o calor parado junto ao teto e não deixe a placa secar por vários dias.",
-        "montanhaFrio": "Apresenta excelente adaptação. Reduza moderadamente a água nas semanas frias e proteja de geadas."
+        "litoralQuente": { texto: "No litoral quente, adapta-se bem sob sombra clara, umidade regular e ventilação. Evite o calor parado junto ao teto e não deixe a placa secar por vários dias." },
+        "montanhaFrio": { texto: "Apresenta excelente adaptação. Reduza moderadamente a água nas semanas frias e proteja de geadas." }
     },
     "mesesFloracao": [
         2,

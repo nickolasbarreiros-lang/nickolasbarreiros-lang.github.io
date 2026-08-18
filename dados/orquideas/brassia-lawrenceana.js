@@ -57,33 +57,33 @@ export const brassiaLawrenceana = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 64,
-            estrelas: 4,
+            indice: 85,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 2, peso: 30 },
+                habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 5, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 2, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 89,
-            estrelas: 5,
+            indice: 76,
+            estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 4, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Muito boa A espécie tolera calor e se adapta bem com 50% a 60% de sombreamento, regas regulares e ventilação constante." },
         montanhaFrio: { texto: "Boa Tolera noites frescas, mas deve ser protegida de frio intenso e de substrato permanentemente úmido em períodos de baixa evaporação." }
     },

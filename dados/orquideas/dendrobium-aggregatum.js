@@ -42,9 +42,39 @@ export const dendrobiumAggregatum = {
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.\n🥉 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n⭐ Alternativa: Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.",
     "errosComuns": "Regar e adubar da mesma forma o ano inteiro; iniciar o repouso antes de o pseudobulbo amadurecer; sombra excessiva; esfagno compacto; tentar induzir floração apenas com adubo rico em fósforo; cortar pseudobulbos antigos ainda firmes; dividir touceiras pequenas; deixar chuva constante atingir a planta durante o repouso.",
     "dica": "O segredo da floração está na transição, não na seca extrema. Deixe o pseudobulbo completar seu crescimento e endurecer; depois aumente a luz, reduza bastante a água e suspenda o nitrogênio. Um leve enrugamento é normal, mas pseudobulbos profundamente desidratados indicam que a redução foi longe demais.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 72,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 85,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "No litoral quente, use a parte mais clara, alta e ventilada do orquidário. Proteja de chuvas persistentes no inverno e use a redução hídrica como principal sinal sazonal. Noites naturalmente um pouco mais amenas ajudam, mas não compense calor com excesso de seca.",
-        "montanhaFrio": "Adaptação excelente. A combinação de noites frescas, bastante luz e inverno seco aproxima-se mais do ciclo natural. Proteja apenas de geada e de encharcamento prolongado."
+        "litoralQuente": { texto: "No litoral quente, use a parte mais clara, alta e ventilada do orquidário. Proteja de chuvas persistentes no inverno e use a redução hídrica como principal sinal sazonal. Noites naturalmente um pouco mais amenas ajudam, mas não compense calor com excesso de seca." },
+        "montanhaFrio": { texto: "Adaptação excelente. A combinação de noites frescas, bastante luz e inverno seco aproxima-se mais do ciclo natural. Proteja apenas de geada e de encharcamento prolongado." }
     },
     "mesesFloracao": [
         7,

@@ -43,10 +43,10 @@ export const cattleyaLoddigesii = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 66,
+            indice: 78,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
+                habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 4, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 3, peso: 5 },
@@ -56,7 +56,7 @@ export const cattleyaLoddigesii = {
             }
         },
         montanhaFrio: {
-            indice: 78,
+            indice: 70,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
@@ -65,11 +65,11 @@ export const cattleyaLoddigesii = {
                 ventilacao: { nota: 4, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Adapta-se muito bem à Litoral de clima quente. Mantenha luminosidade alta filtrada, substrato aberto e ventilação constante. No verão, uma planta em vaso muito aerado pode exigir bastante água; no inverno, ajuste a frequência pela secagem real, não apenas pelo calendário." },
         montanhaFrio: { texto: "Desenvolve-se muito bem com noites frescas. Mantenha boa claridade, reduza as regas durante sequências frias e úmidas e proteja apenas contra geadas diretas." }
     },

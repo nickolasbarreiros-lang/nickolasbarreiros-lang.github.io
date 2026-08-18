@@ -42,9 +42,39 @@ export const cattleyaWarneri = {
     "substrato": "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
     "errosComuns": "Cortar a espata seca; abrir a espata para procurar botões; pouca luz; molhar repetidamente a espata; excesso de água no inverno; vaso grande; substrato compactado; replantar sem raízes novas; excesso de nitrogênio; girar a planta durante a formação da haste; dividir em poucas frentes.",
     "dica": "Preserve a espata mesmo quando estiver castanha e aparentemente seca. Em Cattleya warneri, a bainha pode secar meses antes da haste se desenvolver. Não abra, não corte e não aperte. Mantenha luz alta no inverno, ventilação, rega controlada e aguarde a primavera.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 87,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 72,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, a adaptação é excelente por ser espécie regional. Use substrato aberto, vaso protegido do superaquecimento e circulação constante. Reduza água no inverno sem secar completamente.",
-        "montanhaFrio": "As noites frescas favorecem a maturação. Proteja de geadas e de substrato frio e saturado."
+        "litoralQuente": { texto: "Em Litoral de clima quente, a adaptação é excelente por ser espécie regional. Use substrato aberto, vaso protegido do superaquecimento e circulação constante. Reduza água no inverno sem secar completamente." },
+        "montanhaFrio": { texto: "As noites frescas favorecem a maturação. Proteja de geadas e de substrato frio e saturado." }
     },
     "mesesFloracao": [
         9,

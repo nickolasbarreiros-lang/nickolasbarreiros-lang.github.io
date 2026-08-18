@@ -29,12 +29,5 @@ export const iarMetodologia = {
         luminosidade: 5,
         sazonalidade: 5,
         floracao: 20
-    },
-    faixasEstrelas: [
-        { min: 0, max: 20, estrelas: 1 },
-        { min: 21, max: 40, estrelas: 2 },
-        { min: 41, max: 60, estrelas: 3 },
-        { min: 61, max: 80, estrelas: 4 },
-        { min: 81, max: 100, estrelas: 5 }
-    ]
+    }
 };

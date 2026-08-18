@@ -43,33 +43,33 @@ export const cattleyaPumpkinFestival = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 72,
-            estrelas: 4,
+            indice: 85,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
+                habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 5, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 2, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 62,
+            indice: 63,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Em Litoral de clima quente. Use sombrite de aproximadamente 50%, substrato de secagem rápida e ventilação constante. Em vasos plásticos, evite superaquecimento e excesso de umidade." },
         montanhaFrio: { texto: "Desenvolve-se muito bem com luminosidade elevada. No inverno, reduza discretamente as regas e proteja a planta quando houver temperaturas persistentes abaixo de aproximadamente 10 a 12 °C." }
     },

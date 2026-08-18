@@ -44,9 +44,39 @@ export const sophronitisWittigiana = {
     "substrato": "🥇 Nó de pinho ou cortiça com fina manta de esfagno apenas sob as raízes, equilibrando umidade e ventilação.\n🥈 Pedra-pomes + macadâmia média + pinus médio + pequena fração de esfagno solto.\n🥉 Pinus médio + perlita + pedra-pomes + esfagno em baixa proporção.\n⭐ Alternativa: Cesto pequeno com macadâmia + pedra-pomes + chips de coco pequenos, evitando aquecimento e saturação no centro.",
     "errosComuns": "Cultivar em calor abafado; colocar perto de telhas quentes; usar sombra profunda para compensar calor; vaso grande; excesso de esfagno; raízes constantemente molhadas; deixar secar por muitos dias; usar água dura; aplicar adubo concentrado; regar à noite; pouca ventilação; replantar frequentemente.",
     "dica": "Em Litoral de clima quente, busque o ponto mais fresco e ventilado, não apenas o mais alto. O ar quente pode se acumular junto ao teto. Posicione longe de telhas e superfícies aquecidas, com brisa constante. Faça nebulização leve somente pela manhã e use placa com pouquíssimo esfagno, mantendo umidade frequente nas raízes e noite seca no vegetativo.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 60,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 81,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Cultivo difícil, especialmente no verão. Use o setor mais fresco e ventilado, longe do teto quente e do sol da tarde. Molhe o ambiente pela manhã, use água de baixa salinidade e não mantenha a planta molhada à noite.",
-        "montanhaFrio": "É o ambiente mais favorável. Proteja apenas de geadas, vento seco e encharcamento prolongado."
+        "litoralQuente": { texto: "Cultivo difícil, especialmente no verão. Use o setor mais fresco e ventilado, longe do teto quente e do sol da tarde. Molhe o ambiente pela manhã, use água de baixa salinidade e não mantenha a planta molhada à noite." },
+        "montanhaFrio": { texto: "É o ambiente mais favorável. Proteja apenas de geadas, vento seco e encharcamento prolongado." }
     },
     "mesesFloracao": [
         4,

@@ -39,9 +39,39 @@ export const ornithocephalusMyrticola = {
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.\n🥉 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.\n⭐ Alternativa: Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.",
     "errosComuns": "Secar por vários dias; encharcar o centro do leque; cultivar em vaso profundo; usar madeira lisa; aplicar adubo concentrado; expor ao sol direto; deixar a planta molhada à noite; aumentar umidade sem ventilação; manter junto a parede quente.",
     "dica": "Quatro pilares definem o sucesso: planta montada, umidade diária, folhas secas antes da noite e brisa contínua. Use apenas uma pluma de esfagno, suficiente para atrasar a secagem sem abafar. No calor, aumente a frequência das pequenas hidratações e não a quantidade de material retentivo. Observe o centro do leque diariamente: qualquer escurecimento exige secagem e mais ventilação.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 61,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 82,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "No litoral quente, a espécie pode se adaptar porque também ocorre em baixadas quentes, mas exige ventilação excelente. Instale em posição clara e sombreada, longe de paredes aquecidas; aumente a umidade do ambiente sem manter o centro do leque molhado ao anoitecer.",
-        "montanhaFrio": "Tolera bem clima ameno. Reduza borrifos no inverno, sem permitir seca prolongada, e proteja de vento frio ressecante e geada."
+        "litoralQuente": { texto: "No litoral quente, a espécie pode se adaptar porque também ocorre em baixadas quentes, mas exige ventilação excelente. Instale em posição clara e sombreada, longe de paredes aquecidas; aumente a umidade do ambiente sem manter o centro do leque molhado ao anoitecer." },
+        "montanhaFrio": { texto: "Tolera bem clima ameno. Reduza borrifos no inverno, sem permitir seca prolongada, e proteja de vento frio ressecante e geada." }
     },
     "mesesFloracao": [
         1,

@@ -38,9 +38,39 @@ export const mediocalcarDecoratum = {
     "substrato": "🥇 Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.\n🥈 Chips de coco + pinus médio + perlita + carvão vegetal miúdo.\n🥉 Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia.\n⭐ Alternativa: Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.",
     "errosComuns": "❌ Calor noturno prolongado e ar parado: principal combinação de risco em regiões quentes.\n❌ Secagem completa: desidrata rapidamente folhas e raízes capilares.\n❌ Esfagno velho ou comprimido: acidifica, reduz oxigênio e apodrece o centro da touceira.\n❌ Água salina e adubo forte: queimam raízes e pontas vegetativas.\n❌ Borrifar excessivamente em ambiente quente sem ventilação: aumenta abafamento, não resolve o estresse térmico.\n❌ Sol direto: superaquece e queima a miniatura.",
     "dica": "O sucesso depende de criar um microclima fresco, e não apenas úmido. Fixe a planta sobre cortiça inclinada, com uma camada mínima de esfagno, no ponto mais baixo e ventilado do orquidário. Em dias quentes, aumente a evaporação ao redor da planta sem manter a touceira encharcada. Use água de baixa condutividade e adube em concentração quase homeopática. No litoral quente, noites repetidamente acima de aproximadamente 22–24 °C podem desacelerar o crescimento; nesses períodos, reduza adubo, intensifique a ventilação e evite saturar o suporte.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 61,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 88,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Cultivo difícil no litoral quente sem microclima. Use o setor mais fresco, 70–80% de sombra, ventilação permanente e rega pela manhã. Evite borrifação pesada em noites quentes.",
-        "montanhaFrio": "Adaptação muito superior. Mantenha umidade regular, proteja de geadas e de ventos frios que ressequem rapidamente a montagem."
+        "litoralQuente": { texto: "Cultivo difícil no litoral quente sem microclima. Use o setor mais fresco, 70–80% de sombra, ventilação permanente e rega pela manhã. Evite borrifação pesada em noites quentes." },
+        "montanhaFrio": { texto: "Adaptação muito superior. Mantenha umidade regular, proteja de geadas e de ventos frios que ressequem rapidamente a montagem." }
     },
     "mesesFloracao": [3, 4, 5, 6, 7, 8, 9, 10],
     "selosCultivo": {

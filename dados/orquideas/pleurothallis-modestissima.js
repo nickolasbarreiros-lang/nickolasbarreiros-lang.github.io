@@ -43,9 +43,39 @@ export const pleurothallisModestissima = {
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.\n🥉 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.\n⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
     "errosComuns": "Tratá-la como espécie obrigatoriamente fria; manter esfagno sempre encharcado; secar completamente por vários dias; vaso grande; pouco ar; excesso de adubo; sol forte sobre o suporte; replantar com frequência; usar água muito salina.",
     "dica": "Simule o clima seco da natureza: regue sem encharcar e priorize a ventilação e raízes arejadas, que são tão essenciais quanto a água para esta micro-orquídea.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 61,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 68,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Adaptação moderada a boa se cultivada em sombra clara, forte ventilação e suporte pequeno que não retenha calor. Evite assumir que ela precisa de frio apenas por ser uma micro-orquídea.",
-        "montanhaFrio": "Boa adaptação, desde que o frio não venha acompanhado de substrato permanentemente molhado e pouca circulação de ar."
+        "litoralQuente": { texto: "Adaptação moderada a boa se cultivada em sombra clara, forte ventilação e suporte pequeno que não retenha calor. Evite assumir que ela precisa de frio apenas por ser uma micro-orquídea." },
+        "montanhaFrio": { texto: "Boa adaptação, desde que o frio não venha acompanhado de substrato permanentemente molhado e pouca circulação de ar." }
     },
     "mesesFloracao": [10, 11, 12, 1, 2, 3],
     "selosCultivo": {

@@ -43,9 +43,39 @@ export const coelogyneCristata = {
     "substrato": "🥇 Chips de coco médios + casca de pinus média + pedra-pomes + esfagno picado em pequena proporção.\n🥈 Pinus médio + chips de coco + perlita + carvão vegetal miúdo.\n🥉 Esfagno de fibra longa bem solto + pedra-pomes + casca de pinus média, em recipiente raso e ventilado.\n⭐ Alternativa: Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno.",
     "errosComuns": "Noites quentes no inverno; tentar induzir floração apenas com seca; manter regas constantes no repouso; adubar no inverno; calor abafado no verão; pouca luz no período frio; deixar o substrato frio e encharcado; falta de espaço para a touceira; colocar em vaso profundo; retomar água em excesso antes da atividade radicular.",
     "dica": "O gatilho floral é triplo: frio noturno real, luminosidade alta e repouso hídrico. Reduzir água sem oferecer frio não basta. No inverno, mantenha quase seca, suspenda adubos e permita apenas irrigações mínimas para preservar os pseudobulbos.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 65,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 1, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 92,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "No litoral quente, o cultivo é difícil. Sem noites frias, pode crescer sem florescer. O melhor resultado exige microclima muito fresco, posição ventilada ou cultivo temporário em região de altitude durante o outono e inverno.",
-        "montanhaFrio": "É o ambiente mais indicado: verão úmido e ventilado, seguido por inverno frio, luminoso e mais seco."
+        "litoralQuente": { texto: "No litoral quente, o cultivo é difícil. Sem noites frias, pode crescer sem florescer. O melhor resultado exige microclima muito fresco, posição ventilada ou cultivo temporário em região de altitude durante o outono e inverno." },
+        "montanhaFrio": { texto: "É o ambiente mais indicado: verão úmido e ventilado, seguido por inverno frio, luminoso e mais seco." }
     },
     "mesesFloracao": [
         11,

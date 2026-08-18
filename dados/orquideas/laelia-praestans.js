@@ -56,12 +56,12 @@ export const laeliaPraestans = {
             }
         },
         montanhaFrio: {
-            indice: 76,
+            indice: 75,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 4, peso: 30 },
                 temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
+                aguaUmidade: { nota: 2, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
@@ -69,7 +69,7 @@ export const laeliaPraestans = {
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Use sombra luminosa, ventilação constante, umidade atmosférica adequada e raízes muito aeradas. No verão, mantenha-a no ponto mais fresco do orquidário e evite substrato quente e saturado à noite." },
         montanhaFrio: { texto: "Excelente resposta em clima intermediário de altitude. Proteja de geadas e de longos períodos de frio úmido com substrato saturado." }
     },

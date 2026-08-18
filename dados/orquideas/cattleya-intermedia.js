@@ -58,7 +58,7 @@ export const cattleyaIntermedia = {
             }
         },
         montanhaFrio: {
-            indice: 72,
+            indice: 64,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
@@ -67,11 +67,11 @@ export const cattleyaIntermedia = {
                 ventilacao: { nota: 4, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Em Litoral de clima quente, cerca de 50% de sombreamento, ventilação constante, boa água durante o crescimento e substrato aberto tornam esta uma das Cattleyas botânicas mais seguras para o litoral." },
         montanhaFrio: { texto: "Adapta-se muito bem a noites frescas. Reduza a rega apenas quando a evaporação realmente cair e proteja de geadas e longos períodos de chuva fria." }
     },

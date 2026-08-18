@@ -39,9 +39,39 @@ export const maxillariaSchunkeana = {
     "substrato": "🥇 Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.\n🥈 Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.\n🥉 Chips de coco + pinus médio + perlita + carvão vegetal miúdo.\n⭐ Alternativa: Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia.",
     "errosComuns": "❌ Expor a sol forte ou deixar o vaso superaquecer.\n❌ Confundir sombra clara com escuridão total.\n❌ Usar vaso grande ou substrato muito retentor.\n❌ Enterrar rizoma, pseudobulbos ou botões basais.\n❌ Aplicar fertilizante concentrado sem lavagem mensal.\n❌ Acumular água e matéria orgânica na base durante a botonação.\n❌ Dividir touceiras pequenas, reduzindo a reserva e a capacidade de floração.\n❌ Replantar fora do início de novas raízes.",
     "dica": "Cultive sob 70% a 80% de sombreamento, mas com claridade difusa e ar em movimento. A base da touceira deve permanecer visível: flores e botões são muito escuros e podem passar despercebidos, apodrecendo sob bainhas deterioradas ou substrato acumulado. Retire apenas material solto, nunca arranque bainhas firmes à força. Use vaso pequeno, mistura arejada e rega matinal. A combinação de sombra protegida, raízes frescas, base limpa e ventilação constante é muito mais importante do que tentar estimular a florada com seca.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 67,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 4, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 2, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 73,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Mesmo sendo capixaba, em Serra/Vitória precisa do ponto mais fresco e ventilado do orquidário, com vaso pequeno e mistura mineral. Evite calor noturno abafado.",
-        "montanhaFrio": "Em Santa Teresa/ES, apresenta excelente adaptação às noites frescas. Reduza levemente a rega no inverno, sem secar completamente."
+        "litoralQuente": { texto: "Mesmo sendo capixaba, em Serra/Vitória precisa do ponto mais fresco e ventilado do orquidário, com vaso pequeno e mistura mineral. Evite calor noturno abafado." },
+        "montanhaFrio": { texto: "Em Santa Teresa/ES, apresenta excelente adaptação às noites frescas. Reduza levemente a rega no inverno, sem secar completamente." }
     },
     "mesesFloracao": [12, 1, 2, 3],
     "selosCultivo": {

@@ -44,11 +44,11 @@ export const laeliaCinnabarina = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 63,
-            estrelas: 4,
+            indice: 57,
+            estrelas: 3,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
+                temperatura: { nota: 2, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
@@ -57,11 +57,11 @@ export const laeliaCinnabarina = {
             }
         },
         montanhaFrio: {
-            indice: 87,
+            indice: 81,
             estrelas: 5,
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
@@ -70,7 +70,7 @@ export const laeliaCinnabarina = {
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Cultive no ponto mais claro, fresco e ventilado disponível, evitando telhados, paredes e pedras que acumulem calor." },
         montanhaFrio: { texto: "Em locais luminosos e ventilados. Proteja de geadas fortes e reduza regas quando frio e umidade prolongarem a secagem." }
     },

@@ -43,9 +43,39 @@ export const dendrobiumPolysema = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n🥉 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
     "errosComuns": "Calor abafado; folhas superaquecidas; água parada; seca prolongada; excesso de sais; vaso grande; substrato compactado; adubo forte; remover hastes antigas firmes; pouca ventilação; sol direto.",
     "dica": "Controle a temperatura foliar, não apenas a temperatura do ar. Sombreamento adequado e ventilação contínua devem manter as folhas amenas. Se a folha estiver quente ao toque, a planta já está sob estresse. Preserve todas as hastes antigas firmes.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 59,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 81,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, o cultivo é desafiador. Use o ponto mais fresco e ventilado, sombra de 50% a 60%, vasos claros e umidade ambiental alta.",
-        "montanhaFrio": "Adaptação excelente, desde que haja umidade regular, ventilação e proteção contra geadas."
+        "litoralQuente": { texto: "Em Litoral de clima quente, o cultivo é desafiador. Use o ponto mais fresco e ventilado, sombra de 50% a 60%, vasos claros e umidade ambiental alta." },
+        "montanhaFrio": { texto: "Adaptação excelente, desde que haja umidade regular, ventilação e proteção contra geadas." }
     },
     "mesesFloracao": [
         8,

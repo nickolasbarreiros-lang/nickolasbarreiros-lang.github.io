@@ -43,9 +43,39 @@ export const oncidiumPumilum = {
     "substrato": "🥇 Pedra-pomes + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.\n🥈 Brita + pedra-pomes + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.\n🥉 Macadâmia grossa + pedra-pomes + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado.\n⭐ Alternativa: Pedra-pomes + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.",
     "errosComuns": "Sombra densa; vaso grande; encharcamento; dividir touceiras pequenas; enterrar rizoma; adubo concentrado; pouca ventilação; excesso de esfagno; replantio frequente.",
     "dica": "Preserve a touceira. Quanto mais frentes maduras permanecerem juntas, maior tende a ser o número de hastes e o efeito de 'nuvem amarela'. Combine isso com luz filtrada forte e secagem rápida após as regas matinais.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 85,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 68,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 4, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "No litoral quente, adapta-se muito bem montada em madeira ou cachepô vazado, com vento constante, luz alta filtrada e secagem rápida após as regas. Não precisa de frio forte para florescer; uma discreta redução de água após a maturação é suficiente.",
-        "montanhaFrio": "Muito favorável; proteja apenas de geadas e encharcamento prolongado no inverno."
+        "litoralQuente": { texto: "No litoral quente, adapta-se muito bem montada em madeira ou cachepô vazado, com vento constante, luz alta filtrada e secagem rápida após as regas. Não precisa de frio forte para florescer; uma discreta redução de água após a maturação é suficiente." },
+        "montanhaFrio": { texto: "Muito favorável; proteja apenas de geadas e encharcamento prolongado no inverno." }
     },
     "mesesFloracao": [
         8,

@@ -50,9 +50,9 @@ export const bulbophyllumSyciobulbon = {
             fatores: {
                 habitatNatural: { nota: 2, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
+                aguaUmidade: { nota: 2, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
@@ -63,15 +63,15 @@ export const bulbophyllumSyciobulbon = {
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
+                aguaUmidade: { nota: 2, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Pode sobreviver e crescer, mas noites quentes persistentes tendem a reduzir vigor e regularidade de floração. Use o microclima mais fresco, sombreado e ventilado disponível." },
         montanhaFrio: { texto: "Quando há umidade atmosférica, boa ventilação e proteção contra geada ou saturação fria prolongada." }
     },

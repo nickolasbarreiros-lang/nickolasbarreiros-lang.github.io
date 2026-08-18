@@ -40,9 +40,39 @@ export const dendrobiumLoddigesii = {
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n🥉 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.\n⭐ Alternativa: Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.",
     "errosComuns": "Cortar hastes sem folhas; manter substrato molhado no inverno; excesso de nitrogênio; sombra; vaso grande; dividir touceira pequena; trocar suporte no repouso; tentar manter crescimento contínuo; impedir o caimento das hastes.",
     "dica": "Não faça limpeza estética das hastes sem folhas. Remova somente aquelas totalmente secas, amarelas e ocas. As hastes antigas armazenam reservas e podem florescer repetidamente. No litoral de clima quente, compense o inverno pouco frio com muita luz, ventilação, proteção contra chuva e suspensão completa do nitrogênio.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 52,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 2, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 2, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 81,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Cultive no ponto mais fresco, alto e ventilado, protegido das chuvas de inverno. A seca controlada e a luz alta serão os principais gatilhos.",
-        "montanhaFrio": "Excelente adaptação às noites frescas. Proteja apenas de geadas e umidade fria excessiva."
+        "litoralQuente": { texto: "Cultive no ponto mais fresco, alto e ventilado, protegido das chuvas de inverno. A seca controlada e a luz alta serão os principais gatilhos." },
+        "montanhaFrio": { texto: "Excelente adaptação às noites frescas. Proteja apenas de geadas e umidade fria excessiva." }
     },
     "mesesFloracao": [
         8,

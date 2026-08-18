@@ -40,9 +40,39 @@ export const dendrobiumMoscatum = {
     "substrato": "🥇 Casca de pinus grossa + casca de macadâmia + carvão vegetal + pedra-pomes, para cultivo epífito muito arejado.\n🥈 Em vaso grande: pinus médio/grosso + chips de coco + carvão + pedra-pomes + pequena fração de composto orgânico bem estabilizado, mantendo drenagem rápida.\n🥉 Para cultivo com caráter mais terrestre/rupícola: casca grossa + pedra-pomes/brita + carvão + matéria orgânica estável em pequena proporção; nunca usar terra compacta.\n⭐ Alternativa: cachepô/cesto com componentes grossos e grandes espaços de ar. A espécie tolera diferentes formas de cultivo, mas suas raízes continuam exigindo excelente oxigenação.",
     "errosComuns": "Instalar em local baixo; impedir o arco natural das hastes; sombra excessiva; encharcar no inverno; cortar hastes antigas; reduzir água antes da maturação; excesso de nitrogênio no final do verão; vaso leve; mudar constantemente de posição; substrato velho.",
     "dica": "Não limite esta espécie ao cultivo montado: apesar de ser predominantemente epífita na natureza, exemplares adultos podem responder muito bem a vasos grandes e estáveis. O segredo é combinar matéria orgânica com partículas grossas e minerais, preservando muita aeração. Observe também o amadurecimento das hastes e só reduza as regas quando elas pararem de alongar e endurecerem. Em Litoral de clima quente, evite chuva contínua durante a fase de menor atividade.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 74,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 63,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Adapta-se muito bem. Use luz forte, ventilação e proteção contra chuvas repetidas no inverno. Não imponha seca extrema.",
-        "montanhaFrio": "Bom desenvolvimento. Proteja de geadas e de chuva fria prolongada."
+        "litoralQuente": { texto: "Adapta-se muito bem. Use luz forte, ventilação e proteção contra chuvas repetidas no inverno. Não imponha seca extrema." },
+        "montanhaFrio": { texto: "Bom desenvolvimento. Proteja de geadas e de chuva fria prolongada." }
     },
     "mesesFloracao": [
         9,

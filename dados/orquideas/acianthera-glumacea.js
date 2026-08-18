@@ -56,33 +56,33 @@ export const aciantheraGlumacea = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 59,
+            indice: 60,
             estrelas: 3,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 78,
+            indice: 68,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
+                floracao: { nota: 4, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoral: { texto: "Cultivo possível, porém mais exigente. Use 60% a 70% de sombra, máxima ventilação, recipiente pequeno e aberto e o ponto mais fresco do orquidário. O maior gargalo é a combinação de noites quentes e tecido vegetal molhado por muitas horas." },
         montanha: { texto: "Adaptação muito boa, coerente com a origem em torno de 1.300 m. Noites amenas favorecem vigor e floração; em inverno frio e úmido, apenas aumente o intervalo entre regas conforme a secagem real." }
     },

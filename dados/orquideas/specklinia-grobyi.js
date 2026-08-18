@@ -43,9 +43,39 @@ export const speckliniaGrobyi = {
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.\n🥉 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.\n⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
     "errosComuns": "Vaso grande; esfagno comprimido; secar por vários dias; calor abafado; adubo concentrado; sol direto; água salina; deixar molhada à noite sem ventilação; divisão excessiva; replantio frequente; falta de circulação de ar.",
     "dica": "Monte em uma pequena placa com uma camada quase transparente de esfagno. Regue com frequência, inclusive diariamente no verão quando necessário, mas faça a montagem secar superficialmente em poucas horas. O equilíbrio entre umidade e renovação de ar é mais importante que manter o suporte constantemente molhado.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 79,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 74,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, mantenha no setor sombreado e muito ventilado. Regas matinais frequentes e umidade ambiental elevada ajudam, mas evite concentrar água no suporte durante a noite.",
-        "montanhaFrio": "Desenvolve-se muito bem em temperaturas amenas. Proteja de geadas e não mantenha o suporte frio e saturado por períodos longos."
+        "litoralQuente": { texto: "Em Litoral de clima quente, mantenha no setor sombreado e muito ventilado. Regas matinais frequentes e umidade ambiental elevada ajudam, mas evite concentrar água no suporte durante a noite." },
+        "montanhaFrio": { texto: "Desenvolve-se muito bem em temperaturas amenas. Proteja de geadas e não mantenha o suporte frio e saturado por períodos longos." }
     },
     "mesesFloracao": [
         1,

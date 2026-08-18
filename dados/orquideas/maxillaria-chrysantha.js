@@ -42,33 +42,33 @@ export const maxillariaChrysantha = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 54,
+            indice: 50,
             estrelas: 3,
             fatores: {
                 habitatNatural: { nota: 2, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
+                temperatura: { nota: 2, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 88,
+            indice: 86,
             estrelas: 5,
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
+                aguaUmidade: { nota: 2, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Cultivo mais exigente. Use o ponto mais fresco e ventilado do orquidário, vaso pequeno e mistura muito arejada. O principal limitante é o calor noturno constante, especialmente no verão." },
         montanhaFrio: { texto: "Em regiões serranas. As noites amenas favorecem o ciclo e a floração; apenas evite geadas e substrato permanentemente molhado em períodos frios e nublados." }
     },

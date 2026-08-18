@@ -57,11 +57,11 @@ export const cattleyaAclandiaeTipo = {
             }
         },
         montanhaFrio: {
-            indice: 57,
+            indice: 51,
             estrelas: 3,
             fatores: {
                 habitatNatural: { nota: 2, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
+                temperatura: { nota: 2, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
@@ -70,7 +70,7 @@ export const cattleyaAclandiaeTipo = {
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "O calor e a sazonalidade são compatíveis com o habitat baiano; luz alta, ventilação e raízes livres são determinantes." },
         montanhaFrio: { texto: "Possível, mas proteja de frio prolongado e de umidade noturna quando a secagem ficar lenta." }
     },

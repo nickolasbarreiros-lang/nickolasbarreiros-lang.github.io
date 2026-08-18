@@ -46,10 +46,10 @@ export const cattleyaNobiliorVarAmaliae = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 69,
-            estrelas: 4,
+            indice: 81,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
+                habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 4, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
@@ -59,11 +59,11 @@ export const cattleyaNobiliorVarAmaliae = {
             }
         },
         montanhaFrio: {
-            indice: 69,
-            estrelas: 4,
+            indice: 57,
+            estrelas: 3,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
+                temperatura: { nota: 2, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
@@ -72,7 +72,7 @@ export const cattleyaNobiliorVarAmaliae = {
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Em Litoral de clima quente. O calor é tolerável, mas a umidade costeira dificulta a estação seca. Prefira montagem, ventilação forte e proteção contra chuva direta no outono e inverno." },
         montanhaFrio: { texto: "Boa resposta em clima intermediário, desde que o repouso permaneça seco e a planta seja protegida de geadas e frio úmido prolongado." }
     },

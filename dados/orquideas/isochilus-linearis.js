@@ -37,8 +37,8 @@ export const isochilusLinearis = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 81,
-            estrelas: 5,
+            indice: 77,
+            estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 4, peso: 30 },
@@ -46,11 +46,11 @@ export const isochilusLinearis = {
                 ventilacao: { nota: 2, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 80,
+            indice: 76,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
@@ -59,11 +59,11 @@ export const isochilusLinearis = {
                 ventilacao: { nota: 4, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Muito boa para procedências adaptadas a temperaturas intermediárias ou quentes. Mantenha luz filtrada, umidade regular e forte ventilação, evitando calor abafado no centro da touceira." },
         montanhaFrio: { texto: "Excelente para muitas procedências. Ajuste a água à menor evaporação e proteja contra geadas; não deixe o substrato secar completamente." }
     },

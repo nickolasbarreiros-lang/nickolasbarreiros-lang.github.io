@@ -42,9 +42,39 @@ export const coelogyneOvalisVarMiniatum = {
     "substrato": "🥇 Chips de coco médios + casca de pinus média + pedra-pomes + esfagno picado em pequena proporção.\n🥈 Pinus médio + chips de coco + perlita + carvão vegetal miúdo.\n🥉 Esfagno de fibra longa bem solto + pedra-pomes + casca de pinus média, em recipiente raso e ventilado.\n⭐ Alternativa: Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno.",
     "errosComuns": "Tratar ‘Miniatum’ como variedade botânica formal; ignorar a necessidade de confirmar a flor; vaso profundo; enterrar o rizoma; calor noturno constante sem ventilação; deixar secar completamente por longos períodos; esfagno compactado; excesso de sais; replantar sem novas raízes.",
     "dica": "A próxima floração vale mais do que o rótulo. Registre flor frontal, perfil, labelo, inflorescência, pseudobulbos e a distância entre eles. Coelogyne ovalis apresenta pseudobulbos separados ao longo do rizoma, normalmente com duas folhas, e flores perfumadas de aproximadamente 3–4 cm. Essa documentação permitirá confirmar a identidade sem perder o histórico da planta.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 63,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 80,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "No litoral quente, mantenha no setor mais fresco e ventilado do orquidário, com sombra luminosa e umidade do ar elevada. Evite vasos escuros, profundos e locais onde o calor fique represado à noite.",
-        "montanhaFrio": "Adapta-se muito bem a noites mais frescas. Mantenha umidade regular e proteja apenas de geada, vento extremamente seco e encharcamento frio prolongado."
+        "litoralQuente": { texto: "No litoral quente, mantenha no setor mais fresco e ventilado do orquidário, com sombra luminosa e umidade do ar elevada. Evite vasos escuros, profundos e locais onde o calor fique represado à noite." },
+        "montanhaFrio": { texto: "Adapta-se muito bem a noites mais frescas. Mantenha umidade regular e proteja apenas de geada, vento extremamente seco e encharcamento frio prolongado." }
     },
     "mesesFloracao": [
         6,

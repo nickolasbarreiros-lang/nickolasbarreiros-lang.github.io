@@ -43,9 +43,39 @@ export const coelogyneAsperata = {
     "substrato": "🥇 Chips de coco médios + casca de pinus média + pedra-pomes + esfagno picado em pequena proporção.\n🥈 Pinus médio + chips de coco + perlita + carvão vegetal miúdo.\n🥉 Esfagno de fibra longa bem solto + pedra-pomes + casca de pinus média, em recipiente raso e ventilado.\n⭐ Alternativa: Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno.",
     "errosComuns": "Tratar como Coelogyne himalaica; impor seca severa; expor a frio abaixo de 14 °C; usar vaso pequeno; dividir com frequência; deixar secar durante crescimento; usar substrato compactado; cultivar sob sol direto forte; limitar o caimento das hastes; manter recipiente instável diante do peso da touceira.",
     "dica": "Planeje o recipiente para a planta adulta. Use vaso largo e pesado ou cesto amplo, preserve a touceira e deixe o rizoma avançar. A combinação de espaço, calor acima de 14 °C, umidade contínua e raízes aeradas produz pseudobulbos maiores e inflorescências mais longas.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 79,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 58,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 2, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "No litoral quente, a adaptação é excelente. Mantenha sombra clara, ventilação, umidade regular e recipiente amplo. Evite apenas abafamento, água parada e sol forte nas folhas largas.",
-        "montanhaFrio": "Precisa de proteção térmica. Temperaturas persistentes abaixo de 14 °C reduzem a atividade e podem danificar brotos."
+        "litoralQuente": { texto: "No litoral quente, a adaptação é excelente. Mantenha sombra clara, ventilação, umidade regular e recipiente amplo. Evite apenas abafamento, água parada e sol forte nas folhas largas." },
+        "montanhaFrio": { texto: "Precisa de proteção térmica. Temperaturas persistentes abaixo de 14 °C reduzem a atividade e podem danificar brotos." }
     },
     "mesesFloracao": [
         8,

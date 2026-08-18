@@ -43,9 +43,39 @@ export const zygolumLouisendorf = {
     "substrato": "🥇 Chips de coco médios + casca de pinus fina/média + perlita + pedra-pomes, mantendo umidade regular.\n🥈 Pinus médio + fibra de coco + pedra-pomes + casca de arroz carbonizada; evitar secagem extrema e compactação.\n🥉 Fibra de coco grossa + casca de arroz carbonizada + pinus médio + pedra-pomes.\n⭐ Alternativa: Casca de macadâmia média + chips de coco + perlita + pequena fração de esfagno picado.",
     "errosComuns": "Secar totalmente; calor abafado; substrato compacto; água em brotos novos; dividir touceiras pequenas; adubo concentrado; vaso preto aquecido; baixa ventilação; excesso de sais.",
     "dica": "Em clima quente, use vaso claro e substrato muito poroso. Regue antes que o meio seque por completo e mantenha ventilação contínua. O objetivo é raiz fresca e úmida, nunca abafada ou superaquecida.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 75,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 69,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, mantenha no ponto mais fresco do orquidário, com vaso claro, ventilação forte e proteção completa do sol da tarde.",
-        "montanhaFrio": "Excelente adaptação às noites amenas; proteja de geadas e chuva fria contínua."
+        "litoralQuente": { texto: "Em Litoral de clima quente, mantenha no ponto mais fresco do orquidário, com vaso claro, ventilação forte e proteção completa do sol da tarde." },
+        "montanhaFrio": { texto: "Excelente adaptação às noites amenas; proteja de geadas e chuva fria contínua." }
     },
     "mesesFloracao": [
         7,

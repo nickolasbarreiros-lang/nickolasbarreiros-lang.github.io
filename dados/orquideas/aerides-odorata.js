@@ -61,33 +61,33 @@ export const aeridesOdorata = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 73,
+            indice: 70,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
                 temperatura: { nota: 4, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
+                floracao: { nota: 4, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 76,
+            indice: 70,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
                 temperatura: { nota: 4, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Excelente A origem tropical combina muito bem com calor e umidade. Use 50% a 60% de sombreamento, raízes muito ventiladas e regas frequentes nos períodos quentes." },
         montanhaFrio: { texto: "Boa Pode crescer bem em clima intermediário, mas deve ser protegida de frio intenso e de raízes molhadas durante noites frias." }
     },

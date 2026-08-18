@@ -46,33 +46,33 @@ export const dryadellaAviceps = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 69,
+            indice: 68,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 4, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 2, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 79,
+            indice: 74,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
+                aguaUmidade: { nota: 2, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Adaptação de moderada a boa, principalmente para plantas de procedência mais baixa. Cultive em local fresco e ventilado, longe de telhas e paredes quentes." },
         montanhaFrio: { texto: "Adaptação muito boa em clima intermediário/fresco, protegendo apenas de geada e saturação prolongada do substrato." }
     },

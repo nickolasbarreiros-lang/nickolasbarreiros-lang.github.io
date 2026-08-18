@@ -43,9 +43,39 @@ export const promenaeaGuttata = {
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.\n🥉 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.\n⭐ Alternativa: Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.",
     "errosComuns": "Sol direto; vaso grande; esfagno compactado; secagem completa por vários dias; ambiente quente sem circulação de ar; fertilizante concentrado; confundir alta umidade atmosférica com encharcamento; repouso seco rígido; deixar o vaso aquecer.",
     "dica": "Pense em 'úmida e arejada', nunca em 'molhada o tempo todo'. Um vaso pequeno e muito ventilado, com substrato fino mas solto, costuma ser mais seguro do que aumentar indefinidamente a frequência das regas.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 66,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 71,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Adaptação moderada. Use o setor mais fresco e ventilado do orquidário, 70–80% de sombreamento e vaso pequeno. O principal risco é calor noturno associado a raízes saturadas.",
-        "montanhaFrio": "Adaptação muito boa; apenas reduza regas conforme a evaporação diminuir para evitar saturação prolongada no frio."
+        "litoralQuente": { texto: "Adaptação moderada. Use o setor mais fresco e ventilado do orquidário, 70–80% de sombreamento e vaso pequeno. O principal risco é calor noturno associado a raízes saturadas." },
+        "montanhaFrio": { texto: "Adaptação muito boa; apenas reduza regas conforme a evaporação diminuir para evitar saturação prolongada no frio." }
     },
     "mesesFloracao": [10, 11, 12, 1, 2],
     "selosCultivo": {

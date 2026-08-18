@@ -45,10 +45,10 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 74,
-            estrelas: 4,
+            indice: 86,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
+                habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 5, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
@@ -58,20 +58,20 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
             }
         },
         montanhaFrio: {
-            indice: 68,
+            indice: 63,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Em Litoral de clima quente. O calor é tolerado; o maior risco é a combinação de chuva contínua, umidade persistente e pouca ventilação. Cultivo montado ou muito aerado é especialmente indicado." },
         montanhaFrio: { texto: "Em clima intermediário, com muita luz filtrada. Proteja de geadas, frio úmido prolongado e substrato que permaneça molhado por muitos dias." }
     },

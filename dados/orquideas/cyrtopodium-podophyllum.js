@@ -42,9 +42,39 @@ export const cyrtopodiumPodophyllum = {
     "substrato": "🥇 Casca de arroz carbonizada + fibra de coco + perlita + pedra-pomes, com pequena fração de pinus fino.\n🥈 Chips de coco pequenos + casca de arroz carbonizada + pedra-pomes + argila expandida miúda.\n🥉 Fibra de coco + perlita + pinus fino + carvão vegetal miúdo, mantendo drenagem rápida.\n⭐ Alternativa: Casca de macadâmia média + casca de arroz carbonizada + pedra-pomes + fibra de coco, para estrutura durável e arejada.",
     "errosComuns": "Pouca luz; solo argiloso e compacto; prato com água; regar da mesma forma o ano inteiro; cortar pseudobulbos traseiros firmes; excesso de nitrogênio perto da dormência; confundir queda natural das folhas com doença; replantar durante emissão da haste; aclimatar ao sol de forma abrupta.",
     "dica": "As reservas estão nos pseudobulbos. Durante a estação de crescimento, concentre o manejo em formar pseudobulbos grandes, firmes e bem iluminados. Quando a folhagem começar a amarelar naturalmente, reduza água e suspenda adubação. Essa alternância é mais eficiente para estimular floração do que simplesmente aumentar fósforo.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 87,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 68,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "É particularmente promissor no litoral quente porque existem populações costeiras de Cyrtopodium flavum muito próximas ao nível do mar. Use alta luminosidade, ventilação e substrato predominantemente mineral; o maior cuidado é evitar excesso de chuva quando a planta estiver desfolhada.",
-        "montanhaFrio": "Também se adapta a regiões mais elevadas. Proteja de geada e de frio úmido prolongado durante a dormência, mantendo excelente drenagem."
+        "litoralQuente": { texto: "É particularmente promissor no litoral quente porque existem populações costeiras de Cyrtopodium flavum muito próximas ao nível do mar. Use alta luminosidade, ventilação e substrato predominantemente mineral; o maior cuidado é evitar excesso de chuva quando a planta estiver desfolhada." },
+        "montanhaFrio": { texto: "Também se adapta a regiões mais elevadas. Proteja de geada e de frio úmido prolongado durante a dormência, mantendo excelente drenagem." }
     },
     "mesesFloracao": [
         9,

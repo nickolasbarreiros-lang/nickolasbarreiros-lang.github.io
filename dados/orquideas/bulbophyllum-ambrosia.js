@@ -50,28 +50,28 @@ export const bulbophyllumAmbrosia = {
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
+                aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 81,
-            estrelas: 5,
+            indice: 70,
+            estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
+                habitatNatural: { nota: 3, peso: 30 },
                 temperatura: { nota: 4, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Boa A espécie possui populações de baixa a média altitude e pode crescer bem no litoral, mas exige ventilação intensa e meio aberto para compensar noites quentes." },
         montanhaFrio: { texto: "Muito boa em condições intermediárias a frescas, desde que protegida de frio extremo e de secagem prolongada." }
     },

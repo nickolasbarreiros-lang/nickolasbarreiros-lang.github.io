@@ -40,9 +40,39 @@ export const pabstiellaTrifida = {
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.\n🥉 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.\n⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
     "errosComuns": "Cultivar próximo ao telhado; manter ar parado; usar vaso grande; compactar esfagno; expor ao sol; adubar forte; molhar no fim da tarde em noites quentes; usar água muito salina; dividir touceiras pequenas; confundir umidade atmosférica com substrato encharcado.",
     "dica": "Em regiões quentes, o posicionamento é mais importante que aumentar a rega: instale na parte mais baixa, fresca e sombreada do orquidário, longe do calor do teto. Monte em cortiça com pouco esfagno e regue cedo. Molhar o chão ao redor ajuda a reduzir a temperatura e elevar a umidade sem sufocar as raízes. Preserve touceiras robustas e só divida quando cada parte puder manter vários ramicaules e raízes próprias.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 61,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 80,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "No litoral quente, o cultivo é exigente porque a espécie ocorre principalmente em matas montanas de 1.000–1.200 m. Use bancada baixa, 70–80% de sombra, ventilação permanente e regas matinais. Elevar a umidade do ambiente ajuda, mas não compensa noites abafadas com raízes sufocadas.",
-        "montanhaFrio": "Excelente adaptação. Noites frescas favorecem crescimento e floração. Proteja apenas de geadas e ventos muito secos, reduzindo a água em semanas frias e chuvosas."
+        "litoralQuente": { texto: "No litoral quente, o cultivo é exigente porque a espécie ocorre principalmente em matas montanas de 1.000–1.200 m. Use bancada baixa, 70–80% de sombra, ventilação permanente e regas matinais. Elevar a umidade do ambiente ajuda, mas não compensa noites abafadas com raízes sufocadas." },
+        "montanhaFrio": { texto: "Excelente adaptação. Noites frescas favorecem crescimento e floração. Proteja apenas de geadas e ventos muito secos, reduzindo a água em semanas frias e chuvosas." }
     },
     "mesesFloracao": [
         11,

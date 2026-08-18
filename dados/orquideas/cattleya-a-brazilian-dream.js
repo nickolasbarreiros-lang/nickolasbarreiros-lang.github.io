@@ -69,7 +69,7 @@ export const cattleyaABrazilianDream = {
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "O calor é compatível com ambos os parentais; ventilação, secagem rápida e luz alta filtrada são os pontos centrais." },
         montanhaFrio: { texto: "Desde que receba luz alta e não permaneça fria e molhada por longos períodos." }
     },

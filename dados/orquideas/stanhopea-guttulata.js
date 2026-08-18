@@ -43,9 +43,39 @@ export const stanhopeaGuttulata = {
     "substrato": "🥇 Chips de coco grossos + casca de pinus média + pedra-pomes + esfagno solto, em cesto vazado.\n🥈 Pinus médio + fibra de coco grossa + pedra-pomes + carvão vegetal, mantendo umidade sem bloquear a haste descendente.\n🥉 Cesto com chips de coco + macadâmia + pedra-pomes e uma fina camada de esfagno no topo, nunca compactada.\n⭐ Alternativa: Casca de macadâmia média + chips de coco + perlita + esfagno em baixa proporção.",
     "errosComuns": "Usar vaso fechado; bloquear o fundo; plantar a touceira encostada na lateral; deixar secar completamente; sombra profunda; substrato velho ou compactado; excesso de esfagno; mover a cesta durante a emissão; molhar flores sem ventilação; replantar fora do novo enraizamento.",
     "dica": "Plante a touceira no centro de uma cesta realmente vazada e trate a área abaixo como parte da planta: ela deve permanecer totalmente livre. A haste floral atravessa o substrato e precisa sair por baixo sem bater em ripas ou outros obstáculos. Durante a emissão, inspecione por baixo e remova somente obstáculos soltos, sem tocar ou redirecionar a haste.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 78,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 64,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, mantenha em setor sombreado, bem ventilado e com alta umidade ambiental. Regue pela manhã e evite manter a cesta saturada durante noites quentes.",
-        "montanhaFrio": "Boa adaptação a noites amenas. Proteja de geadas e reduza ligeiramente a água em semanas frias e muito chuvosas."
+        "litoralQuente": { texto: "Em Litoral de clima quente, mantenha em setor sombreado, bem ventilado e com alta umidade ambiental. Regue pela manhã e evite manter a cesta saturada durante noites quentes." },
+        "montanhaFrio": { texto: "Boa adaptação a noites amenas. Proteja de geadas e reduza ligeiramente a água em semanas frias e muito chuvosas." }
     },
     "mesesFloracao": [
         9,

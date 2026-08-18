@@ -41,9 +41,39 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
     "substrato": "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n🥉 Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.\n⭐ Alternativa: Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
     "errosComuns": "Replantar sem raízes novas; usar vaso grande; manter substrato velho; enterrar o rizoma; regar por calendário; cultivar em sombra; aplicar excesso de nitrogênio; deixar a planta solta; dividir touceira pequena; manter cachepô decorativo com água; cortar raízes aderidas sem necessidade.",
     "dica": "Trate o híbrido como mais vigoroso, mas não como indestrutível. O replante deve ocorrer quando a nova frente emitir raízes curtas e ativas. Preserve as raízes antigas, use vaso pequeno e fixe a planta firmemente. O vigor híbrido aparece quando o sistema radicular permanece íntegro; sem raízes, a planta perde rapidamente a vantagem do cruzamento.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 85,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 69,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, adapta-se muito bem. Use luz forte filtrada, ventilação contínua, regas matinais e recipiente que não retenha água durante as semanas chuvosas.",
-        "montanhaFrio": "Proteja de frio prolongado e reduza regas nos dias nublados. Mantenha alta luminosidade para evitar brotos fracos."
+        "litoralQuente": { texto: "Em Litoral de clima quente, adapta-se muito bem. Use luz forte filtrada, ventilação contínua, regas matinais e recipiente que não retenha água durante as semanas chuvosas." },
+        "montanhaFrio": { texto: "Proteja de frio prolongado e reduza regas nos dias nublados. Mantenha alta luminosidade para evitar brotos fracos." }
     },
     "mesesFloracao": [
         9,

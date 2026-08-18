@@ -42,9 +42,39 @@ export const phalaenopsisMannii = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Pinus médio + pedra-pomes + esfagno em pequena quantidade apenas para estabilizar a umidade.\n🥉 Casca de macadâmia média + pinus médio + pequena fração de esfagno solto.\n⭐ Alternativa: Chips de coco + perlita + carvão vegetal + casca de pinus média.",
     "errosComuns": "Cortar hastes ainda verdes; manter substrato permanentemente molhado no inverno; água na coroa; vaso sem ventilação; sol direto forte; adubo concentrado; tratar como híbrida comercial de ambiente fechado; ignorar o hábito pendente; secar demais por tentar reproduzir um 'repouso'.",
     "dica": "O melhor manejo é respeitar o ritmo sazonal: crescimento mais úmido e nutrido, seguido de inverno apenas um pouco mais seco. Preserve as hastes verdes e dê espaço para que cresçam pendentes — elas podem continuar produzindo flores sucessivamente.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 81,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 4, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 82,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Adaptação boa, mas prefira o ponto mais ventilado e protegido do calor acumulado. No inverno capixaba, aproveite a queda natural de temperatura e reduza discretamente as regas para estimular o ciclo floral.",
-        "montanhaFrio": "Muito boa em condições amenas; evite frio excessivo e mantenha menor frequência de rega quando a evaporação cair."
+        "litoralQuente": { texto: "Adaptação boa, mas prefira o ponto mais ventilado e protegido do calor acumulado. No inverno capixaba, aproveite a queda natural de temperatura e reduza discretamente as regas para estimular o ciclo floral." },
+        "montanhaFrio": { texto: "Muito boa em condições amenas; evite frio excessivo e mantenha menor frequência de rega quando a evaporação cair." }
     },
     "mesesFloracao": [8, 9, 10, 11, 12],
     "selosCultivo": {

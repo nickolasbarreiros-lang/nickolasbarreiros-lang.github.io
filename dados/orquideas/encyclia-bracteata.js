@@ -46,33 +46,33 @@ export const encycliaBracteata = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 69,
+            indice: 78,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 4, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 2, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 1, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 63,
+            indice: 64,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 2, peso: 30 },
                 temperatura: { nota: 4, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Sua ocorrência em 10–500 m favorece o cultivo em clima quente, desde que haja ventilação, luz alta filtrada e secagem rápida das raízes." },
         montanhaFrio: { texto: "Reduzindo regas em períodos frios e nublados e protegendo de geada." }
     },

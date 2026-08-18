@@ -43,9 +43,39 @@ export const phaiusTankervilleaeAlba = {
     "substrato": "🥇 Fibra de coco + chips de coco pequenos + casca de arroz carbonizada + perlita, mantendo umidade regular sem compactação.\n🥈 Pinus fino + fibra de coco + perlita + pequena fração de vermiculita para aumentar retenção sem encharcar.\n🥉 Chips de coco + pedra-pomes fina + casca de arroz carbonizada + esfagno picado em pequena quantidade.\n⭐ Alternativa: Fibra de coco + pinus fino + perlita + carvão vegetal miúdo; vaso profundo, mas com drenagem livre.",
     "errosComuns": "Vaso pequeno; substrato pobre ou compactado; deixar secar durante expansão foliar; água parada; sombra excessiva; sol forte; excesso de sais; enterrar profundamente a base dos brotos; cortar folhas ainda verdes; impor repouso seco rígido.",
     "dica": "Dê espaço e alimento enquanto a planta está crescendo. O tamanho da haste floral é construído meses antes, quando folhas e pseudobulbos estão se formando. Um vaso amplo com mistura rica, úmida e aerada costuma produzir plantas muito mais robustas do que recipientes pequenos e secos.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 66,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 2, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 76,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Adaptação muito boa. Use meia-sombra clara, ventilação, regas frequentes e vaso amplo; o calor não é o principal problema desde que as raízes permaneçam úmidas e oxigenadas.",
-        "montanhaFrio": "Adaptação muito boa; proteja de geadas e reduza a frequência das regas quando o crescimento desacelerar."
+        "litoralQuente": { texto: "Adaptação muito boa. Use meia-sombra clara, ventilação, regas frequentes e vaso amplo; o calor não é o principal problema desde que as raízes permaneçam úmidas e oxigenadas." },
+        "montanhaFrio": { texto: "Adaptação muito boa; proteja de geadas e reduza a frequência das regas quando o crescimento desacelerar." }
     },
     "mesesFloracao": [8, 9, 10, 11, 12],
     "selosCultivo": {

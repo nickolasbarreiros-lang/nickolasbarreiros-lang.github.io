@@ -43,9 +43,39 @@ export const zygopetalumMaculatum = {
     "substrato": "🥇 Chips de coco médios + casca de pinus fina/média + perlita + pedra-pomes, mantendo umidade regular.\n🥈 Fibra de coco grossa + casca de arroz carbonizada + pinus médio + pedra-pomes.\n🥉 Casca de macadâmia média + chips de coco + perlita + pequena fração de esfagno picado.\n⭐ Alternativa: Pinus médio + fibra de coco + pedra-pomes + casca de arroz carbonizada; evitar secagem extrema e compactação.",
     "errosComuns": "Calor acumulado; vaso preto exposto ao sol; substrato encharcado; água nos brotos novos; regas noturnas; excesso de Osmocote no calor; pouca ventilação; sol forte; deixar raízes secarem totalmente por muitos dias.",
     "dica": "Em regiões litorâneas quentes, coloque a planta em bancada baixa, sombreada e ventilada. Prefira vaso de barro ou plástico claro e nunca deixe recipiente preto receber sol. Regue pela manhã e mantenha o sistema radicular fresco: esse manejo é decisivo para floração consistente.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 72,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 63,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, cultivo mais exigente. Use o ponto mais fresco, bancada baixa, vaso claro/barro e ventilação contínua.",
-        "montanhaFrio": "Excelente adaptação; noites amenas favorecem crescimento e floração. Proteja apenas de geadas e encharcamento prolongado."
+        "litoralQuente": { texto: "Em Litoral de clima quente, cultivo mais exigente. Use o ponto mais fresco, bancada baixa, vaso claro/barro e ventilação contínua." },
+        "montanhaFrio": { texto: "Excelente adaptação; noites amenas favorecem crescimento e floração. Proteja apenas de geadas e encharcamento prolongado." }
     },
     "mesesFloracao": [
         4,

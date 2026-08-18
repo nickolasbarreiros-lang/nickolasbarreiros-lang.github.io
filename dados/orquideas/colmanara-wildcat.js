@@ -42,9 +42,39 @@ export const colmanaraWildcat = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.\n🥉 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n⭐ Alternativa: Chips de coco + carvão vegetal + perlita + casca de pinus média.",
     "errosComuns": "Replantar quando as raízes novas já estão longas; vaso grande; enterrar o rizoma; substrato velho e compactado; sombra profunda; excesso de sais; água acumulada no broto; dividir com poucos pseudobulbos; confundir enrugamento por raiz perdida com falta de rega.",
     "dica": "O melhor momento para replantar é quando o novo broto começa a emitir raízes com cerca de 0,5–1 cm. Nessa fase elas já estão ativas, mas ainda não aderiram ao vaso e quebram menos. Preservar raízes novas é uma das formas mais eficientes de manter o próximo pseudobulbo forte e garantir nova haste floral.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 72,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 85,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "No litoral quente, mantenha 60–70% de sombreamento, ventilação contínua e substrato mais mineral. Evite noites abafadas em canto fechado e água parada nas bainhas. O híbrido costuma adaptar-se bem quando as raízes permanecem saudáveis.",
-        "montanhaFrio": "Excelente desempenho em clima de montanha. Noites amenas normalmente melhoram firmeza das hastes, intensidade das cores e duração das flores; proteja apenas de geadas."
+        "litoralQuente": { texto: "No litoral quente, mantenha 60–70% de sombreamento, ventilação contínua e substrato mais mineral. Evite noites abafadas em canto fechado e água parada nas bainhas. O híbrido costuma adaptar-se bem quando as raízes permanecem saudáveis." },
+        "montanhaFrio": { texto: "Excelente desempenho em clima de montanha. Noites amenas normalmente melhoram firmeza das hastes, intensidade das cores e duração das flores; proteja apenas de geadas." }
     },
     "mesesFloracao": [
         4,

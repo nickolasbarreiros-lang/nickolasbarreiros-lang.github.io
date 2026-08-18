@@ -40,9 +40,39 @@ export const oncidiumPubes = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.\n🥉 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n⭐ Alternativa: Chips de coco + carvão vegetal + perlita + casca de pinus média.",
     "errosComuns": "❌ Girar ou mudar o vaso durante a formação da haste.\n❌ Usar recipiente leve que tombe com a inflorescência.\n❌ Cultivar em sombra profunda.\n❌ Manter substrato velho e compacto.\n❌ Enterrar o rizoma.\n❌ Forçar repouso seco após a maturação.\n❌ Exagerar no nitrogênio quando o pseudobulbo já está maduro.\n❌ Replantar fora da fase de emissão de novas raízes.",
     "dica": "Assim que a haste aparecer, marque a frente do vaso e mantenha a planta em posição definitiva, com luz frontal constante. Garanta peso no recipiente, espaço vertical e tutor precoce. O fototropismo é forte: mudanças de posição fazem a haste se contorcer. Replante somente no início das novas raízes, preservando as pontas ativas que sustentarão o pseudobulbo e a próxima floração.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 79,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 74,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, cultive sob 50–60% de sombra, com ventilação forte e regas matinais. Evite vasos grandes e abafamento após chuvas prolongadas. A estabilidade do vaso é especialmente importante em locais sujeitos a vento.",
-        "montanhaFrio": "Adapta-se muito bem. Noites frescas favorecem crescimento compacto, coloração e hastes firmes. Proteja apenas de geada direta e reduza a água em períodos frios e nublados."
+        "litoralQuente": { texto: "Em Litoral de clima quente, cultive sob 50–60% de sombra, com ventilação forte e regas matinais. Evite vasos grandes e abafamento após chuvas prolongadas. A estabilidade do vaso é especialmente importante em locais sujeitos a vento." },
+        "montanhaFrio": { texto: "Adapta-se muito bem. Noites frescas favorecem crescimento compacto, coloração e hastes firmes. Proteja apenas de geada direta e reduza a água em períodos frios e nublados." }
     },
     "mesesFloracao": [
         9,

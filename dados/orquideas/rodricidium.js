@@ -42,9 +42,39 @@ export const rodricidium = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n🥉 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
     "errosComuns": "Sombra excessiva; vaso grande; substrato compactado; encharcamento; seca prolongada; cortar haste verde; replantar fora da brotação; pouca ventilação; adubo forte; enterrar rizoma.",
     "dica": "O melhor momento de replante é quando a nova frente começa a emitir raízes. Faça a troca nesse exato estágio e use recipiente pequeno, muito aerado e substrato que seque em 1–2 dias. Isso reduz drasticamente o tempo de recuperação.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 80,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 68,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, adapta-se muito bem com luz filtrada alta, ventilação constante e substrato de secagem rápida.",
-        "montanhaFrio": "Cultivo favorável; proteja de geadas e evite substrato frio e encharcado."
+        "litoralQuente": { texto: "Em Litoral de clima quente, adapta-se muito bem com luz filtrada alta, ventilação constante e substrato de secagem rápida." },
+        "montanhaFrio": { texto: "Cultivo favorável; proteja de geadas e evite substrato frio e encharcado." }
     },
     "mesesFloracao": [
         9,

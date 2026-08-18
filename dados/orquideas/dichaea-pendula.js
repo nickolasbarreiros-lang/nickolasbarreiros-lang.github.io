@@ -46,33 +46,33 @@ export const dichaeaPendula = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 59,
+            indice: 56,
             estrelas: 3,
             fatores: {
                 habitatNatural: { nota: 2, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 4, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 79,
+            indice: 77,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
+                aguaUmidade: { nota: 4, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Cultivo possível, porém mais exigente. Use o ponto mais fresco e ventilado do orquidário, com sombra clara e alta umidade. O calor noturno prolongado é o maior desafio." },
         montanhaFrio: { texto: "Tende a adaptar-se muito bem a condições intermediárias e frescas, desde que não haja geada, vento seco ou secagem prolongada." }
     },

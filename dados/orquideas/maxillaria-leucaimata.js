@@ -42,10 +42,10 @@ export const maxillariaLeucaimata = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 61,
+            indice: 73,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
+                habitatNatural: { nota: 5, peso: 30 },
                 temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
@@ -55,7 +55,7 @@ export const maxillariaLeucaimata = {
             }
         },
         montanhaFrio: {
-            indice: 72,
+            indice: 64,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
@@ -64,11 +64,11 @@ export const maxillariaLeucaimata = {
                 ventilacao: { nota: 4, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoralQuente: { texto: "Ao litoral quente. Use 60% a 70% de sombra, vaso justo, mistura predominantemente mineral e ventilação contínua. Regue cedo e acompanhe a secagem real do vaso." },
         montanhaFrio: { texto: "Em regiões serranas. As noites frescas favorecem o ciclo; em semanas frias, nubladas ou chuvosas, aumente o intervalo entre regas sem deixar a planta desidratar." }
     },

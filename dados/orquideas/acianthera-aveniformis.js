@@ -56,12 +56,12 @@ export const aciantheraAveniformis = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 74,
+            indice: 73,
             estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 3, peso: 30 },
                 temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
+                aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 2, peso: 5 },
                 luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
@@ -82,7 +82,7 @@ export const aciantheraAveniformis = {
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoral: { texto: "Adaptação possível e potencialmente boa, coerente com a indicação de crescimento quente a ameno em baixa/média elevação. Use sombra clara, alta umidade atmosférica e ventilação constante. O principal risco não é o calor isolado, mas calor + ar parado + raízes saturadas." },
         montanha: { texto: "Adapta-se bem às noites mais frescas, desde que não seja mantida fria e encharcada por longos períodos. Em sequências frias e úmidas, reduza a frequência de rega conforme a secagem real do suporte." }
     },

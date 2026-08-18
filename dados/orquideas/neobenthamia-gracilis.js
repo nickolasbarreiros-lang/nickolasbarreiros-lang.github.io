@@ -39,9 +39,39 @@ export const neobenthamiaGracilis = {
     "substrato": "🥇 Casca de arroz carbonizada + fibra de coco + perlita + pedra-pomes, com pequena fração de pinus fino.\n🥈 Casca de macadâmia média + casca de arroz carbonizada + pedra-pomes + fibra de coco, para estrutura durável e arejada.\n🥉 Chips de coco pequenos + casca de arroz carbonizada + pedra-pomes + argila expandida miúda.\n⭐ Alternativa: Fibra de coco + perlita + pinus fino + carvão vegetal miúdo, mantendo drenagem rápida.",
     "errosComuns": "❌ Cultivar em sombra excessiva, formando caules fracos e pouco floríferos.\n❌ Usar solo argiloso ou recipiente sem drenagem.\n❌ Manter o substrato permanentemente encharcado.\n❌ Impor seca forte depois da maturação.\n❌ Cortar caules verdes, que ainda armazenam reservas e podem emitir brotações.\n❌ Deixar a planta tombar por falta de tutor ou vaso pesado.\n❌ Dividir touceiras pequenas demais.\n❌ Aplicar matéria orgânica fresca junto às raízes.",
     "dica": "Dê espaço para a planta formar uma touceira grande e estável. Quanto mais caules maduros, maior o potencial de produzir várias cabeças florais ao mesmo tempo. Luz alta é decisiva, mas faça aclimatação para evitar queimaduras. Como a espécie ocorre de 380 a 2.000 m, não trate toda planta como estritamente quente ou fria: no litoral, priorize sol fraco da manhã, ventilação e raízes frescas; plantas de procedência mais alta podem agradecer noites mais amenas.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.1",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 87,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 81,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, apresenta excelente vigor durante quase todo o ano. Ofereça 30–50% de sombra, sol matinal, regas frequentes no verão e proteção contra o sol forte após 10h. Vasos pesados ou canteiros drenados são as melhores opções.",
-        "montanhaFrio": "Proteja de geadas e ventos muito frios. Em semanas frias e chuvosas, reduza bastante a água, mantendo o substrato apenas levemente úmido e bem aerado."
+        "litoralQuente": { texto: "Em Litoral de clima quente, apresenta excelente vigor durante quase todo o ano. Ofereça 30–50% de sombra, sol matinal, regas frequentes no verão e proteção contra o sol forte após 10h. Vasos pesados ou canteiros drenados são as melhores opções." },
+        "montanhaFrio": { texto: "Proteja de geadas e ventos muito frios. Em semanas frias e chuvosas, reduza bastante a água, mantendo o substrato apenas levemente úmido e bem aerado." }
     },
     "mesesFloracao": [
         10,

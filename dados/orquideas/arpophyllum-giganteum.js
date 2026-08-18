@@ -56,33 +56,33 @@ export const arpophyllumGiganteum = {
         versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 42,
+            indice: 55,
             estrelas: 3,
             fatores: {
-                habitatNatural: { nota: 2, peso: 30 },
-                temperatura: { nota: 1, peso: 30 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 2, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 89,
-            estrelas: 5,
+            indice: 76,
+            estrelas: 4,
             fatores: {
                 habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
                 aguaUmidade: { nota: 3, peso: 5 },
                 ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
+                floracao: { nota: 3, peso: 20 }
             }
         }
     },
-    adaptacaoRegional: {
+        adaptacaoRegional: {
         litoral: { texto: "Para crescimento, mas a floração pode ser mais sensível ao calor noturno. Use o setor mais claro e ventilado, com 50% a 60% de sombreamento e substrato muito aberto. Regue bem durante crescimento e não crie um repouso seco artificial." },
         montanha: { texto: "A amplitude térmica e as noites amenas se aproximam melhor da faixa de 800–1.500 m. Durante o inverno, reduza regas somente conforme a evaporação real cair, evitando a combinação de frio com encharcamento." }
     },
