@@ -180,7 +180,7 @@ export const maxillariaChrysantha = {
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "constante", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "muito-frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         avaliacoes: {

@@ -180,7 +180,7 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     },
     mesesFloracao: [4, 5, 6, 7, 8, 9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

@@ -190,7 +190,7 @@ export const dendrobiumAggregatum = {
         11
     ],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "repouso-seco" },
+        "rega": { "nivel": "sazonal", "regime": "repouso-seco" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {

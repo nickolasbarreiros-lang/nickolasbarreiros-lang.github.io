@@ -186,7 +186,7 @@ export const notyliaPubescens = {
         1
     ],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         "avaliacoes": {

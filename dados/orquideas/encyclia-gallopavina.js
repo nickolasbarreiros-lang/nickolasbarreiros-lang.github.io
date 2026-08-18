@@ -184,7 +184,7 @@ export const encycliaGallopavina = {
     },
     mesesFloracao: [10, 11, 12, 1, 2],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         avaliacoes: {

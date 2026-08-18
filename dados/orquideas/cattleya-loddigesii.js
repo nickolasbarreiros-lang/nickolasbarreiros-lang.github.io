@@ -181,7 +181,7 @@ export const cattleyaLoddigesii = {
     },
     mesesFloracao: [6, 7, 8, 9, 10],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "sazonal", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

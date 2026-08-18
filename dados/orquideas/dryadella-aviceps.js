@@ -184,7 +184,7 @@ export const dryadellaAviceps = {
     },
     mesesFloracao: [6, 7, 8, 9, 10, 11, 12],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         avaliacoes: {

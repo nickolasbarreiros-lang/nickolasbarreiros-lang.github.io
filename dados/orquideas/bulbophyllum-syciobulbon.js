@@ -184,7 +184,7 @@ export const bulbophyllumSyciobulbon = {
     },
     mesesFloracao: [],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         avaliacoes: {

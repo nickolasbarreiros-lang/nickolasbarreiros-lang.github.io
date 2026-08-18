@@ -187,7 +187,7 @@ export const oncidiumPubes = {
         12
     ],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "intermediario" }
     },
         "avaliacoes": {

@@ -187,7 +187,7 @@ export const octomeriaMicrantha = {
         11
     ],
     "selosCultivo": {
-        "rega": { "nivel": "constante", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         "avaliacoes": {

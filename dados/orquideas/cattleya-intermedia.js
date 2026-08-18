@@ -183,7 +183,7 @@ export const cattleyaIntermedia = {
     },
     mesesFloracao: [2, 3, 4, 5],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

@@ -183,7 +183,7 @@ export const bulbophyllumAmbrosia = {
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "sazonal", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true, "quedaTermica": true }
     },
         avaliacoes: {

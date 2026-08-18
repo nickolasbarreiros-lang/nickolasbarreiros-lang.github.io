@@ -180,7 +180,7 @@ export const leptotesUnicolor = {
     },
     mesesFloracao: [5, 6],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "muito-frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
     },
         avaliacoes: {

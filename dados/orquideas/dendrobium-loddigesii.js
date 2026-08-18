@@ -187,7 +187,7 @@ export const dendrobiumLoddigesii = {
         11
     ],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "repouso-seco" },
+        "rega": { "nivel": "sazonal", "regime": "repouso-seco" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {

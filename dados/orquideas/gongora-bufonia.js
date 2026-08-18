@@ -175,7 +175,7 @@ export const gongoraBufonia = {
     },
     mesesFloracao: [8, 9, 10, 11, 12],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: { cultivo: 4, floracao: 4, perfume: 5, luminosidade: 3, agua: 4, raridade: 3 }

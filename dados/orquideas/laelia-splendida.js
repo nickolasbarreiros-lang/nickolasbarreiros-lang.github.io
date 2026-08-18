@@ -195,7 +195,7 @@ export const laeliaSplendida = {
     },
     mesesFloracao: [9, 10, 11, 12],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 4, agua: 3, raridade: 4 }

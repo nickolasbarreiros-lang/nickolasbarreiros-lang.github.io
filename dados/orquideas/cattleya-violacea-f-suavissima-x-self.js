@@ -189,7 +189,7 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
         3
     ],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "sazonal", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         "avaliacoes": {

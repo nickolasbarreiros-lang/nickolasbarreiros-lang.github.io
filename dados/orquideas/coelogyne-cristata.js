@@ -192,7 +192,7 @@ export const coelogyneCristata = {
         4
     ],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "repouso-seco" },
+        "rega": { "nivel": "sazonal", "regime": "repouso-seco" },
         "climaFloracao": { "faixa": "frio", "frioNecessario": true }
     },
         "avaliacoes": {

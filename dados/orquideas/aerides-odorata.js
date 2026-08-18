@@ -199,7 +199,7 @@ export const aeridesOdorata = {
     },
     mesesFloracao: [10, 11, 12, 1, 2],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "sazonal" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

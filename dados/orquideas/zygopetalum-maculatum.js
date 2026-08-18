@@ -192,7 +192,7 @@ export const zygopetalumMaculatum = {
         9
     ],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {

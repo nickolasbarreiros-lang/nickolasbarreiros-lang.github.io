@@ -195,7 +195,7 @@ export const brassiaLawrenceana = {
     },
     mesesFloracao: [3, 4, 5, 9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

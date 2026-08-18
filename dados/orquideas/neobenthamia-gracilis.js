@@ -187,7 +187,7 @@ export const neobenthamiaGracilis = {
         2
     ],
     "selosCultivo": {
-        "rega": { "nivel": "constante", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
     },
         "avaliacoes": {

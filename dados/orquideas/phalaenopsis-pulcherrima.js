@@ -195,7 +195,7 @@ export const phalaenopsisPulcherrima = {
     },
     mesesFloracao: [12, 1, 2, 3, 4, 5],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         avaliacoes: { cultivo: 5, floracao: 5, perfume: 1, luminosidade: 3, agua: 3, raridade: 3 }

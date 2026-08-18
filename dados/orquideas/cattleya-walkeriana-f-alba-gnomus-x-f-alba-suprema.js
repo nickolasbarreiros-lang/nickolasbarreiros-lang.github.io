@@ -183,7 +183,7 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

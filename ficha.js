@@ -183,7 +183,9 @@ function criarSelosRega(orquidea) {
         "baixa": { texto: "REGA BAIXA", tipo: "rega-baixa", icone: "💧" },
         "moderada": { texto: "REGA MODERADA", tipo: "rega-moderada", icone: "💧" },
         "frequente": { texto: "REGA FREQUENTE", tipo: "rega-frequente", icone: "💧" },
-        "constante": { texto: "UMIDADE CONSTANTE", tipo: "rega-constante", icone: "🌧️" }
+        "muito-frequente": { texto: "REGA MUITO FREQUENTE", tipo: "rega-constante", icone: "🌧️" },
+        "sazonal": { texto: "REGA SAZONAL", tipo: "rega-moderada", icone: "🍂" },
+        "constante": { texto: "REGA MUITO FREQUENTE", tipo: "rega-constante", icone: "🌧️" }
     };
 
     let principal = mapaNivel[configuracao.nivel];

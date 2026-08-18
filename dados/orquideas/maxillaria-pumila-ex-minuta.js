@@ -181,7 +181,7 @@ export const maxillariaPumilaExMinuta = {
     },
     "mesesFloracao": [9, 10, 11, 12, 1, 2],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         "avaliacoes": {

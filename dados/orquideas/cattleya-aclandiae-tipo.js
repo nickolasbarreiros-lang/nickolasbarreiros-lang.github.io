@@ -182,7 +182,7 @@ export const cattleyaAclandiaeTipo = {
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

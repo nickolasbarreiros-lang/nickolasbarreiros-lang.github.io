@@ -177,7 +177,7 @@ export const howearaLavaBurst = {
     },
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "baixa", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: { cultivo: 4, floracao: 5, perfume: 1, luminosidade: 3, agua: 4, raridade: 2 }

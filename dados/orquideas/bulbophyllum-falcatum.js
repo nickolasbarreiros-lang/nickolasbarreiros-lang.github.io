@@ -183,7 +183,7 @@ export const bulbophyllumFalcatum = {
     },
     mesesFloracao: [6, 7, 8, 9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "constante", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "muito-frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

@@ -167,7 +167,7 @@ export const encycliaMineirinha = {
         adaptacaoRegional: { litoralQuente: { texto: "Desde que haja ventilação constante e secagem rápida após as regas." }, montanhaFrio: { texto: "Reduza bastante as regas nos meses frios sem crescimento ativo." } },
     mesesFloracao: [9,10,11,12,1,2],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: { cultivo: 3, floracao: 4, perfume: 3, luminosidade: 4, agua: 3, raridade: 3 }

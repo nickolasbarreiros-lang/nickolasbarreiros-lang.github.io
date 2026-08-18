@@ -177,7 +177,7 @@ export const bulbophyllumMiniatum = {
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "sazonal" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 3, agua: 5, raridade: 4 }

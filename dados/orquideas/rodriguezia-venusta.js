@@ -192,7 +192,7 @@ export const rodrigueziaVenusta = {
         2
     ],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         "avaliacoes": {

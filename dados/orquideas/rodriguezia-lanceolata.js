@@ -193,7 +193,7 @@ export const rodrigueziaLanceolata = {
         2
     ],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         "avaliacoes": {

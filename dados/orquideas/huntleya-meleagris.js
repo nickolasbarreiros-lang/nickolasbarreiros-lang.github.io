@@ -175,7 +175,7 @@ export const huntleyaMeleagris = {
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "intermediario" }
     },
         avaliacoes: { cultivo: 2, floracao: 3, perfume: 5, luminosidade: 2, agua: 5, raridade: 4 }

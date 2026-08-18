@@ -195,7 +195,7 @@ export const miltoniaRusselliana = {
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "sazonal" },
         "climaFloracao": { "faixa": "ameno" }
     },
         avaliacoes: {
