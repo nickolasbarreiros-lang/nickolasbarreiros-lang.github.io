@@ -38,9 +38,39 @@ export const bifrenariaHarrisoniae = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
     errosComuns: "Cultivar em sombra excessiva; usar vaso muito maior que a massa radicular; manter o substrato constantemente molhado; empregar misturas finas ou compactadas; reduzir as regas antes da maturação dos pseudobulbos; replantar sem início de novas raízes; impor repouso seco severo; suspender nutrientes de forma abrupta enquanto ainda houver crescimento ativo.",
     dica: "Esqueça o mito de que ela precisa de raízes espremidas para florescer; o vaso justo serve apenas para evitar o acúmulo de umidade em excesso ao redor do sistema radicular. Para ver suas grandes flores cerosas e perfumadas, o verdadeiro segredo é mantê-la entouceirada por anos — preservando a estabilidade e evitando mexer nas raízes —, combinando essa estrutura com luz filtrada abundante, regas generosas na fase de crescimento e um substrato de drenagem impecável.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 73,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 68,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Cultive em vaso de barro ou cachepô aberto, com forte circulação de ar, 40% a 50% de sombra e regas matinais. Em Litoral de clima quente, evite calor abafado e mantenha o substrato de secagem rápida sem impor seca prolongada." },
-        montanhaFrio: { nota: 3, texto: "A queda natural da temperatura noturna favorece a floração. Proteja de geadas e evite que o substrato permaneça frio e encharcado por vários dias." }
+        litoralQuente: { texto: "Cultive em vaso de barro ou cachepô aberto, com forte circulação de ar, 40% a 50% de sombra e regas matinais. Em Litoral de clima quente, evite calor abafado e mantenha o substrato de secagem rápida sem impor seca prolongada." },
+        montanhaFrio: { texto: "A queda natural da temperatura noturna favorece a floração. Proteja de geadas e evite que o substrato permaneça frio e encharcado por vários dias." }
     },
     mesesFloracao: [11, 12, 1],
     "selosCultivo": {

@@ -41,9 +41,39 @@ export const bulbophyllumFalcatum = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
     errosComuns: "• Enterrar o rizoma.\n• Usar vaso estreito e profundo.\n• Bloquear a raque floral contra a borda do vaso.\n• Compactar esfagno.\n• Deixar substrato envelhecer e azedar.\n• Manter calor com ar parado.\n• Permitir ressecamento prolongado.\n• Forçar repouso seco.\n• Aplicar fertilizante concentrado sobre raízes superficiais.",
     dica: "🏆 Antes da floração, verifique se há espaço lateral livre. A raque achatada é a principal característica da espécie e pode ser deformada ou abortar se ficar presa entre vaso, parede ou outras plantas. No litoral quente, cesto raso, rizoma exposto, sombra clara, umidade regular e ventilação contínua formam a combinação mais segura.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 61,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 1, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 77,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 4, texto: "Muito boa a boa. A espécie é predominantemente quente e ocorre em baixas altitudes, mas necessita ventilação forte para evitar superaquecimento e hipóxia radicular." },
-        montanhaFrio: { nota: 3, texto: "Boa em clima intermediário; proteja de frio intenso e reduza água apenas na medida em que a evaporação cair." }
+        litoralQuente: { texto: "Muito boa a boa. A espécie é predominantemente quente e ocorre em baixas altitudes, mas necessita ventilação forte para evitar superaquecimento e hipóxia radicular." },
+        montanhaFrio: { texto: "Boa em clima intermediário; proteja de frio intenso e reduza água apenas na medida em que a evaporação cair." }
     },
     mesesFloracao: [6, 7, 8, 9, 10, 11],
     "selosCultivo": {

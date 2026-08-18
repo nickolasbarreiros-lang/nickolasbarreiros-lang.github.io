@@ -27,7 +27,37 @@ export const encycliaMineirinha = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
     errosComuns: "Catalogar como espécie pura; sombra excessiva; vaso grande; substrato compacto; rizoma enterrado; água acumulada no fundo; esfagno denso.",
     dica: "Cultive em recipiente justo e muito drenante, com o rizoma livre e alta ventilação. A identificação mais informativa para a coleção é: Encyclia ‘Mineirinha’ — E. patens × E. oliveirana. Por ser híbrido, porte, cor, perfume e época exata de floração podem variar entre plantas.",
-    adaptacaoRegional: { litoralQuente: { nota: 5, texto: "Desde que haja ventilação constante e secagem rápida após as regas." }, montanhaFrio: { nota: 3, texto: "Reduza bastante as regas nos meses frios sem crescimento ativo." } },
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 67,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 68,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
+    adaptacaoRegional: { litoralQuente: { texto: "Desde que haja ventilação constante e secagem rápida após as regas." }, montanhaFrio: { texto: "Reduza bastante as regas nos meses frios sem crescimento ativo." } },
     mesesFloracao: [9,10,11,12,1,2],
     "selosCultivo": {
         "rega": { "nivel": "moderada" },

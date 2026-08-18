@@ -33,9 +33,39 @@ export const bulbophyllumRothschildianum = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.\n🥉 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n⭐ Alternativa: Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
     errosComuns: "• Exibir vários sinônimos no campo resumido.\n• Tratar a espécie como obrigatoriamente fria.\n• Deixar o substrato secar por vários dias.\n• Compactar esfagno.\n• Usar vaso estreito para rizoma rastejante.\n• Manter calor e umidade em ambiente abafado.\n• Expor ao sol forte direto.\n• Fertilizar em concentração elevada.",
     dica: "🏆 A umbela larga e as sépalas de até cerca de 17 cm precisam de espaço livre para se desenvolver sem encostar no recipiente. Use cesto largo, deixe a nova frente voltada para fora e mantenha ventilação constante. No litoral quente, a prioridade não é produzir frio, e sim evitar noites excessivamente abafadas e raízes saturadas.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 53,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 1, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 67,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "É possível cultivar bem, mas noites muito quentes exigem ventilação constante, sombra clara e drenagem rápida." },
-        montanhaFrio: { nota: 4, texto: "Especialmente com noites amenas; proteja apenas de geada e de encharcamento sob frio prolongado." }
+        litoralQuente: { texto: "É possível cultivar bem, mas noites muito quentes exigem ventilação constante, sombra clara e drenagem rápida." },
+        montanhaFrio: { texto: "Especialmente com noites amenas; proteja apenas de geada e de encharcamento sob frio prolongado." }
     },
     mesesFloracao: [3, 4, 5, 9, 10, 11],
     "selosCultivo": {

@@ -57,9 +57,39 @@ export const aeridesOdorata = {
         "Cortar raízes aéreas saudáveis apenas porque saíram do recipiente"
     ],
     dica: "🏆 Pense nela mais como uma Vanda do que como uma orquídea de vaso convencional. Quanto mais livres e ventiladas estiverem as raízes, mais fácil será oferecer bastante água sem causar encharcamento. No litoral quente, cesto vazado, luz filtrada forte e regas generosas pela manhã formam uma combinação especialmente favorável.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 71,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 74,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "Excelente A origem tropical combina muito bem com calor e umidade. Use 50% a 60% de sombreamento, raízes muito ventiladas e regas frequentes nos períodos quentes." },
-        montanhaFrio: { nota: 3, texto: "Boa Pode crescer bem em clima intermediário, mas deve ser protegida de frio intenso e de raízes molhadas durante noites frias." }
+        litoralQuente: { texto: "Excelente A origem tropical combina muito bem com calor e umidade. Use 50% a 60% de sombreamento, raízes muito ventiladas e regas frequentes nos períodos quentes." },
+        montanhaFrio: { texto: "Boa Pode crescer bem em clima intermediário, mas deve ser protegida de frio intenso e de raízes molhadas durante noites frias." }
     },
     mesesFloracao: [10, 11, 12, 1, 2],
     "selosCultivo": {

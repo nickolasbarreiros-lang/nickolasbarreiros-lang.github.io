@@ -33,9 +33,39 @@ export const stanhopeaAssidensis = {
     substrato: "🥇 Chips de coco grossos + casca de pinus média + pedra-pomes + esfagno solto, em cesto vazado.\n🥈 Casca de macadâmia média + chips de coco + perlita + esfagno em baixa proporção.\n🥉 Pinus médio + fibra de coco grossa + pedra-pomes + carvão vegetal, mantendo umidade sem bloquear a haste descendente.\n⭐ Alternativa: Cesto com chips de coco + macadâmia + pedra-pomes e uma fina camada de esfagno no topo, nunca compactada.",
     errosComuns: "Usar vaso fechado; bloquear o fundo da cesta; compactar o esfagno; deixar o substrato secar completamente durante o crescimento; manter a planta em ambiente abafado; expor ao sol forte; regar em excesso no inverno; replantar durante a formação de hastes florais.",
     dica: "O recipiente é o fator decisivo: mantenha a planta em cesto suspenso e confira regularmente a parte inferior. Uma haste floral pode se perder se encontrar madeira, tela apertada ou substrato compactado no caminho.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 61,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 77,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Cultive em sombra clara, cesta suspensa e local com circulação permanente de ar. Regue preferencialmente pela manhã, evitando encharcamento prolongado e água acumulada em brotos ou flores no fim do dia." },
-        montanhaFrio: { nota: 3, texto: "Em regiões mais frescas, proteja de frio intenso e reduza as regas nos períodos de menor atividade, sem deixar os pseudobulbos desidratarem em excesso." }
+        litoralQuente: { texto: "Cultive em sombra clara, cesta suspensa e local com circulação permanente de ar. Regue preferencialmente pela manhã, evitando encharcamento prolongado e água acumulada em brotos ou flores no fim do dia." },
+        montanhaFrio: { texto: "Em regiões mais frescas, proteja de frio intenso e reduza as regas nos períodos de menor atividade, sem deixar os pseudobulbos desidratarem em excesso." }
     },
     "mesesFloracao": [
         9,

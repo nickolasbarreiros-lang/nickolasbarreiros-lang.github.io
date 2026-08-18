@@ -40,9 +40,39 @@ export const laeliaCinnabarina = {
     substrato: "🥇 Pedra-pomes + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.\n🥈 Macadâmia grossa + pedra-pomes + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado.\n🥉 Pedra-pomes + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.\n⭐ Alternativa: Brita + pedra-pomes + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.",
     errosComuns: "• Sombra excessiva e pseudobulbos estiolados.\n• Vaso ou pedra superaquecendo sob sol forte.\n• Substrato fino, compacto ou permanentemente molhado.\n• Confundir hábito rupícola com ausência de necessidade hídrica.\n• Repouso seco exagerado.\n• Vaso profundo e fechado, com centro quente e úmido.\n• Adubação concentrada e salinização.\n• Pouca ventilação no verão litorâneo.",
     dica: "🏆 Dê muita luz sem cozinhar as raízes. Um vaso baixo, muito aerado e predominantemente mineral funciona bem, mas deve ficar protegido do sol forte que aquece pedra e barro. Durante o crescimento, regue de verdade; depois, reduza gradualmente conforme a planta desacelera.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 65,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 81,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Cultive no ponto mais claro, fresco e ventilado disponível, evitando telhados, paredes e pedras que acumulem calor." },
-        montanhaFrio: { nota: 4, texto: "Em locais luminosos e ventilados. Proteja de geadas fortes e reduza regas quando frio e umidade prolongarem a secagem." }
+        litoralQuente: { texto: "Cultive no ponto mais claro, fresco e ventilado disponível, evitando telhados, paredes e pedras que acumulem calor." },
+        montanhaFrio: { texto: "Em locais luminosos e ventilados. Proteja de geadas fortes e reduza regas quando frio e umidade prolongarem a secagem." }
     },
     mesesFloracao: [10, 11, 12, 1, 2],
     "selosCultivo": {

@@ -39,9 +39,39 @@ export const laeliaPraestans = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
     errosComuns: "Sombra excessiva; sol forte do litoral sem aclimatação; substrato compactado; excesso constante de água; deixar secar demais durante crescimento ativo; vaso grande; enterrar o rizoma; replantar fora da emissão de raízes novas; excesso de fertilizante; dividir touceiras pequenas; compensar calor aumentando indiscriminadamente as regas.",
     dica: "O segredo é equilibrar umidade ambiental com muita aeração nas raízes. Em clima quente, melhore primeiro ventilação e sombreamento antes de aumentar a água. Uma planta com pseudobulbos firmes, folhas compactas e raízes ativas costuma responder com flores grandes na primavera.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 62,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 2, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 74,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 4, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Use sombra luminosa, ventilação constante, umidade atmosférica adequada e raízes muito aeradas. No verão, mantenha-a no ponto mais fresco do orquidário e evite substrato quente e saturado à noite." },
-        montanhaFrio: { nota: 3, texto: "Excelente resposta em clima intermediário de altitude. Proteja de geadas e de longos períodos de frio úmido com substrato saturado." }
+        litoralQuente: { texto: "Use sombra luminosa, ventilação constante, umidade atmosférica adequada e raízes muito aeradas. No verão, mantenha-a no ponto mais fresco do orquidário e evite substrato quente e saturado à noite." },
+        montanhaFrio: { texto: "Excelente resposta em clima intermediário de altitude. Proteja de geadas e de longos períodos de frio úmido com substrato saturado." }
     },
     mesesFloracao: [9, 10, 11],
     "selosCultivo": {

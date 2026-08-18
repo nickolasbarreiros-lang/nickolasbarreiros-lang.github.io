@@ -39,9 +39,39 @@ export const cattleyaPumpkinFestival = {
     substrato: "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.\n🥈 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.\n🥉 Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.\n⭐ Alternativa: Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.",
     errosComuns: "Cultivar sob sombra excessiva; utilizar vasos grandes e fundos; enterrar o rizoma; manter o substrato constantemente úmido; replantar fora da emissão de raízes novas; exagerar na adubação nitrogenada; deixar água acumulada na espata floral.",
     dica: "A intensidade da coloração laranja e o tamanho das flores dependem diretamente da luminosidade recebida durante a formação dos pseudobulbos. Cultive em vaso relativamente justo, com excelente ventilação e alta luminosidade, evitando apenas queimaduras causadas pelo sol forte do meio-dia.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 67,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 63,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "Em Litoral de clima quente. Use sombrite de aproximadamente 50%, substrato de secagem rápida e ventilação constante. Em vasos plásticos, evite superaquecimento e excesso de umidade." },
-        montanhaFrio: { nota: 3, texto: "Desenvolve-se muito bem com luminosidade elevada. No inverno, reduza discretamente as regas e proteja a planta quando houver temperaturas persistentes abaixo de aproximadamente 10 a 12 °C." }
+        litoralQuente: { texto: "Em Litoral de clima quente. Use sombrite de aproximadamente 50%, substrato de secagem rápida e ventilação constante. Em vasos plásticos, evite superaquecimento e excesso de umidade." },
+        montanhaFrio: { texto: "Desenvolve-se muito bem com luminosidade elevada. No inverno, reduza discretamente as regas e proteja a planta quando houver temperaturas persistentes abaixo de aproximadamente 10 a 12 °C." }
     },
     mesesFloracao: [3, 4, 5, 6],
     "selosCultivo": {

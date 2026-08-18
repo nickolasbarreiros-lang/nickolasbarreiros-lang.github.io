@@ -42,9 +42,39 @@ export const cattleyaNobiliorVarAmaliae = {
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n🥉 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.\n⭐ Alternativa: Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.",
     errosComuns: "Pouca luz; manter umidade constante no inverno; secar demais durante crescimento ativo; vaso grande ou substrato fino; pouca ventilação; enterrar o rizoma; replantar fora da emissão de raízes; dividir plantas pequenas; adubar durante repouso forte; interpretar repouso seco como abandono completo até enrugamento severo; deixar a planta receber chuvas contínuas no inverno litorâneo.",
     dica: "A chave é reproduzir a sazonalidade, e não simplesmente dar pouca água. Enquanto houver raízes e pseudobulbos novos, regue com abundância e adube levemente, sempre permitindo secagem rápida. Após a maturação, aumente bastante os intervalos e suspenda a adubação. No repouso, mantenha a planta muito mais seca, mas intervenha antes de ocorrer desidratação severa. Em Litoral de clima quente, o maior segredo é abrigo contra chuva persistente de inverno sem sacrificar a ventilação.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 69,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 69,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Em Litoral de clima quente. O calor é tolerável, mas a umidade costeira dificulta a estação seca. Prefira montagem, ventilação forte e proteção contra chuva direta no outono e inverno." },
-        montanhaFrio: { nota: 3, texto: "Boa resposta em clima intermediário, desde que o repouso permaneça seco e a planta seja protegida de geadas e frio úmido prolongado." }
+        litoralQuente: { texto: "Em Litoral de clima quente. O calor é tolerável, mas a umidade costeira dificulta a estação seca. Prefira montagem, ventilação forte e proteção contra chuva direta no outono e inverno." },
+        montanhaFrio: { texto: "Boa resposta em clima intermediário, desde que o repouso permaneça seco e a planta seja protegida de geadas e frio úmido prolongado." }
     },
     mesesFloracao: [8, 9, 10],
     "selosCultivo": {

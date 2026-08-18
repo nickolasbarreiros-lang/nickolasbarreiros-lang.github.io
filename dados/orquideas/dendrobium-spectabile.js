@@ -52,9 +52,39 @@ export const dendrobiumSpectabile = {
         "Subestimar o tamanho e o peso da planta adulta"
     ],
     dica: "🏆 Tenha paciência com o tamanho de floração. Dendrobium spectabile pode crescer vigorosamente antes de decidir florescer. Concentre-se em produzir hastes progressivamente maiores com muita luz filtrada, água e adubação durante o crescimento; quando a planta atingir maturidade, as flores extraordinárias compensam a espera.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 69,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 76,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "Excelente A origem tropical e a ocorrência frequente em baixas elevações combinam bem com clima quente, desde que haja muita ventilação e drenagem." },
-        montanhaFrio: { nota: 3, texto: "Boa Tolera condições intermediárias, mas deve ser protegido de frio intenso e de raízes molhadas em temperaturas baixas." }
+        litoralQuente: { texto: "Excelente A origem tropical e a ocorrência frequente em baixas elevações combinam bem com clima quente, desde que haja muita ventilação e drenagem." },
+        montanhaFrio: { texto: "Boa Tolera condições intermediárias, mas deve ser protegido de frio intenso e de raízes molhadas em temperaturas baixas." }
     },
     mesesFloracao: [6, 7, 8, 9, 10],
     "selosCultivo": {

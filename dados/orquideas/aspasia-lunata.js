@@ -38,9 +38,39 @@ export const aspasiaLunata = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
     errosComuns: "Cultivar em sombra profunda; expor ao sol direto forte; manter o substrato permanentemente encharcado; usar mistura fina e compactada; usar vaso desproporcionalmente grande; dividir a touceira em porções muito pequenas; deixar os pseudobulbos enrugarem durante o crescimento ativo; impor repouso seco severo sem necessidade.",
     dica: "Evite dividir Aspasia lunata em mudas muito pequenas. Preserve ao menos três a quatro pseudobulbos adultos por divisão para manter reservas suficientes, recuperação rápida e maior capacidade de produzir hastes florais robustas. Mais importante que 'apertar' a planta é oferecer um vaso proporcional, muita aeração e boa luminosidade filtrada.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 59,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 76,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Adapta-se bem quando recebe ventilação forte, luz filtrada e substrato de secagem rápida. Em Litoral de clima quente, evite calor abafado, sol forte da tarde e excesso de água durante períodos nublados." },
-        montanhaFrio: { nota: 3, texto: "Tolera noites frescas e pode florescer muito bem. Reduza a frequência das regas nos períodos frios, mas proteja de geadas e de substrato saturado por muitos dias." }
+        litoralQuente: { texto: "Adapta-se bem quando recebe ventilação forte, luz filtrada e substrato de secagem rápida. Em Litoral de clima quente, evite calor abafado, sol forte da tarde e excesso de água durante períodos nublados." },
+        montanhaFrio: { texto: "Tolera noites frescas e pode florescer muito bem. Reduza a frequência das regas nos períodos frios, mas proteja de geadas e de substrato saturado por muitos dias." }
     },
     mesesFloracao: [9, 10, 11],
     "selosCultivo": {

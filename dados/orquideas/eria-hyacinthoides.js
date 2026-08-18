@@ -33,7 +33,37 @@ export const eriaHyacinthoides = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
     errosComuns: "Manter a planta identificada apenas sob o gênero desatualizado Eria nos registros da coleção; Permitir secura prolongada do substrato; Cultivar em ambientes com pouca ventilação; Exagerar na dosagem dos adubos e causar queima das raízes por sais; Dividir touceiras pequenas antes de a planta estar bem estabelecida.",
     dica: "Deixe a planta formar uma touceira antes de dividir. O efeito ornamental vem justamente das hastes densas e numerosas; em clima quente, combine umidade do ar com ventilação forte para que as raízes finas permaneçam hidratadas sem ficar abafadas.",
-    adaptacaoRegional: { litoralQuente: { nota: 3, texto: "Com umidade, sombra clara e circulação de ar." }, montanhaFrio: { nota: 3, texto: "Boa em local protegido, evitando frio intenso e substrato encharcado no inverno." } },
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 63,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 4, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 74,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
+    adaptacaoRegional: { litoralQuente: { texto: "Com umidade, sombra clara e circulação de ar." }, montanhaFrio: { texto: "Boa em local protegido, evitando frio intenso e substrato encharcado no inverno." } },
     mesesFloracao: [9,10,11,12,1,2],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },

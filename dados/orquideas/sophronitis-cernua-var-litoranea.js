@@ -41,9 +41,39 @@ export const sophronitisCernuaVarLitoranea = {
     substrato: "🥇 Nó de pinho, cortiça ou galho rugoso, praticamente sem substrato: opção mais próxima do hábito costeiro exposto e muito ventilado.\n🥈 Macadâmia grossa + pedra-pomes + carvão vegetal, em recipiente minúsculo e vazado.\n🥉 Pinus grosso + brita fina/média + carvão, com secagem rápida entre regas.\n⭐ Alternativa: Argila expandida + pedra-pomes + macadâmia em cesto pequeno; evitar esfagno compactado no litoral.",
     errosComuns: "• Confundir alta umidade do ar com raízes permanentemente encharcadas.\n• Cultivar em vaso plástico fechado e abafado.\n• Usar massa compacta de esfagno.\n• Sombra excessiva.\n• Secar demais uma planta montada durante o verão.\n• Adubação concentrada em raízes pequenas.\n• Escolher o ponto mais alto apenas por altura, mesmo que seja mais quente.\n• Irrigar deliberadamente com água salobra por interpretar tolerância à maresia como necessidade de sal.",
     dica: "🏆 Pense em uma miniatura vivendo perto do mar: ar úmido ao redor, mas vento passando continuamente pelas raízes. Em Litoral de clima quente, prefira cultivo montado em cortiça, galho ou madeira, em local claro e com circulação constante. Durante o calor, regue sem medo quando a planta estiver secando rapidamente; o objetivo não é mantê-la seca, e sim alternar água e oxigênio nas raízes. Escolha o local realmente mais ventilado e sem superaquecimento, e use sempre água doce de boa qualidade.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 69,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 65,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "Excelente É uma das antigas Sophronitis mais compatíveis com o litoral quente. Ventilação, luminosidade e raízes livres são mais importantes que frio." },
-        montanhaFrio: { nota: 3, texto: "Desenvolve-se bem em clima intermediário, mas proteja de geadas e de longos períodos frios e encharcados. O ecótipo litorâneo não necessita frio intenso." }
+        litoralQuente: { texto: "Excelente É uma das antigas Sophronitis mais compatíveis com o litoral quente. Ventilação, luminosidade e raízes livres são mais importantes que frio." },
+        montanhaFrio: { texto: "Desenvolve-se bem em clima intermediário, mas proteja de geadas e de longos períodos frios e encharcados. O ecótipo litorâneo não necessita frio intenso." }
     },
     mesesFloracao: [9, 10, 11],
     "selosCultivo": {

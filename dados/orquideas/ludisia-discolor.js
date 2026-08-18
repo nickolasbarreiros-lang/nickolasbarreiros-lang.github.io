@@ -38,9 +38,39 @@ export const ludisiaDiscolor = {
     substrato: "🥇 Fibra de coco + casca de arroz carbonizada + perlita + casca de pinus fina, formando meio humoso e muito aerado.\n🥈 Chips de coco pequenos + pinus fino + perlita + vermiculita em proporção pequena (até ~10%).\n🥉 Fibra de coco + pedra-pomes fina + esfagno picado + casca de arroz carbonizada.\n⭐ Alternativa: Pinus fino + chips de coco + perlita + pequena fração de vermiculita; nunca usar terra pesada e compacta.",
     errosComuns: "Expor ao sol direto; manter em sombra total sem claridade; enterrar profundamente os caules; usar substrato pesado ou encharcado; cultivar em vaso sem drenagem; manter terrário fechado e saturado; molhar abundantemente os nós no fim do dia; usar adubo concentrado; compactar esfagno sobre os caules; permitir acúmulo de sais.",
     dica: "Deixe os caules rastejarem sobre a superfície e cubra apenas as raízes. Os nós próximos ao ar emitem novos brotos com facilidade e podem ser usados para propagação. Um vaso mais largo do que profundo combina melhor com seu crescimento natural e reduz o risco de um centro permanentemente encharcado.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 61,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 74,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 5, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "Ao litoral quente em local sombreado, claro e ventilado. Use vaso largo, substrato humícola porém arejado e evite ambientes abafados e saturados durante noites quentes." },
-        montanhaFrio: { nota: 4, texto: "Em regiões serranas. Proteja de frio excessivo e reduza a rega apenas quando a evaporação cair, sem deixar o substrato secar completamente." }
+        litoralQuente: { texto: "Ao litoral quente em local sombreado, claro e ventilado. Use vaso largo, substrato humícola porém arejado e evite ambientes abafados e saturados durante noites quentes." },
+        montanhaFrio: { texto: "Em regiões serranas. Proteja de frio excessivo e reduza a rega apenas quando a evaporação cair, sem deixar o substrato secar completamente." }
     },
     mesesFloracao: [8, 9, 10, 11],
     "selosCultivo": {

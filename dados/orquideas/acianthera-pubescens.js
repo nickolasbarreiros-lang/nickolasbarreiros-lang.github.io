@@ -52,9 +52,39 @@ export const aciantheraPubescens = {
     suporte: ["🥇 Vaso pequeno e muito drenado.", "🥈 Placa de madeira, cortiça ou tronco com pequena reserva de musgo.", "🥉 Cachepô pequeno e ventilado, adequado a touceiras adultas."],
     substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "🥉 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.", "⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado."],
     errosComuns: ["Aplicar o mesmo regime a exemplares de procedências muito diferentes.", "Manter touceira densa molhada e sem ventilação.", "Usar substrato compacto ou decomposto.", "Expor ao sol direto forte.", "Deixar as raízes secarem completamente por períodos longos.", "Acumular sais de fertilizante.", "Fixar uma época única de floração para uma espécie que pode florescer o ano inteiro."],
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 61,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 1, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 5, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 81,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 5, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoral: { nota: 3, texto: "Adaptação variável. Exemplares de baixa e média altitude podem responder bem ao calor desde que haja sombra filtrada e vento; clones de origem montana devem ficar no setor mais fresco e arejado e podem reduzir crescimento durante noites persistentemente quentes." },
-        montanha: { nota: 4, texto: "Em geral, adaptação muito boa, especialmente para procedências montanas. Em períodos frios e nublados, reduza a rega apenas conforme a evaporação cair, sem deixar as raízes desidratarem." }
+        litoral: { texto: "Adaptação variável. Exemplares de baixa e média altitude podem responder bem ao calor desde que haja sombra filtrada e vento; clones de origem montana devem ficar no setor mais fresco e arejado e podem reduzir crescimento durante noites persistentemente quentes." },
+        montanha: { texto: "Em geral, adaptação muito boa, especialmente para procedências montanas. Em períodos frios e nublados, reduza a rega apenas conforme a evaporação cair, sem deixar as raízes desidratarem." }
     },
     dica: "🏆 Cultive-a preferencialmente em plaquetas de madeira ou cachepôs rasos com mínimo de substrato, permitindo que o rizoma rasteiro se espalhe livremente no ar. Como ela detesta raízes abafadas e apodrecimento, o segredo absoluto para ver touceiras entulhadas de flores é garantir secagem rápida entre as regas combinada com alta circulação de ar constante."
 };

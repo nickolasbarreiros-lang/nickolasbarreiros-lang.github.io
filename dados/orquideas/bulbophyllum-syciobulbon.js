@@ -41,9 +41,39 @@ export const bulbophyllumSyciobulbon = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
     errosComuns: "• Usar vaso pequeno e obrigar replantes frequentes.\n• Enterrar o rizoma ou os pseudobulbos.\n• Confundir alta umidade com ar parado.\n• Manter esfagno compactado e saturado.\n• Deixar a planta secar completamente por longos períodos.\n• Cultivar sob sol direto forte.\n• Adubar em concentração alta.\n• Tentar compensar calor noturno excessivo com encharcamento.",
     dica: "🏆 Planeje o espaço antes do crescimento. Como os pseudobulbos podem ficar separados por 5 a 7 cm, comece com uma placa longa, galho extenso ou cesto largo e raso. Quanto menos a planta precisar ser removida depois de aderir ao suporte, melhor. No litoral quente, priorize o ponto mais fresco e ventilado, mantenha umidade moderada junto às raízes e evite qualquer material que permaneça quente e encharcado durante a noite.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 57,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 2, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 72,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 1, texto: "Pode sobreviver e crescer, mas noites quentes persistentes tendem a reduzir vigor e regularidade de floração. Use o microclima mais fresco, sombreado e ventilado disponível." },
-        montanhaFrio: { nota: 4, texto: "Quando há umidade atmosférica, boa ventilação e proteção contra geada ou saturação fria prolongada." }
+        litoralQuente: { texto: "Pode sobreviver e crescer, mas noites quentes persistentes tendem a reduzir vigor e regularidade de floração. Use o microclima mais fresco, sombreado e ventilado disponível." },
+        montanhaFrio: { texto: "Quando há umidade atmosférica, boa ventilação e proteção contra geada ou saturação fria prolongada." }
     },
     mesesFloracao: [],
     "selosCultivo": {

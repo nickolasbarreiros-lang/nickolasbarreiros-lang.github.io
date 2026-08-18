@@ -38,9 +38,39 @@ export const maxillariaBrasiliensis = {
     substrato: "🥇 Casca de macadâmia triturada média + casca de pinus média + pedra-pomes + fibra de coco grossa: estrutura durável, aerada e com umidade moderada para raízes finas epífitas.\n🥈 Chips de coco + pinus médio + perlita + carvão vegetal miúdo, em vaso relativamente justo.\n🥉 Pinus médio + pedra-pomes + pequena fração de esfagno picado + macadâmia, sem compactar o centro do vaso.\n⭐ Alternativa: Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio; evitar vasos grandes e mistura degradada.",
     errosComuns: "Manter substrato constantemente encharcado; esperar a mistura virar farelo; usar vaso grande; dividir a touceira em porções pequenas; enterrar o rizoma; cultivar com pouca luz ou ventilação; aplicar excesso de nitrogênio; fertilizar raízes secas; deixar acumular sais; impor seca prolongada.",
     dica: "Preserve a touceira e priorize a saúde das raízes. A espécie prefere vasos relativamente justos, que secam de forma mais uniforme e evitam excesso de umidade ao redor das raízes. Replante somente no início da emissão de novas raízes, mantendo o rizoma sobre a superfície e escolhendo um recipiente apenas 2–4 cm maior que o volume atual da planta. Evite vasos superdimensionados, divisões frequentes e replantes desnecessários: esta espécie responde melhor à estabilidade e ao desenvolvimento de uma touceira bem estabelecida.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 59,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 64,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Ao litoral quente quando cultivada com ventilação constante, vaso justo e substrato estrutural. Regue cedo e evite retenção prolongada no centro do vaso." },
-        montanhaFrio: { nota: 4, texto: "Em regiões serranas. Em semanas frias e úmidas, aumente o intervalo entre regas, mantendo circulação de ar e sem impor seca prolongada." }
+        litoralQuente: { texto: "Ao litoral quente quando cultivada com ventilação constante, vaso justo e substrato estrutural. Regue cedo e evite retenção prolongada no centro do vaso." },
+        montanhaFrio: { texto: "Em regiões serranas. Em semanas frias e úmidas, aumente o intervalo entre regas, mantendo circulação de ar e sem impor seca prolongada." }
     },
     mesesFloracao: [3, 4, 5],
     "selosCultivo": {

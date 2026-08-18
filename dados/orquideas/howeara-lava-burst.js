@@ -33,9 +33,39 @@ export const howearaLavaBurst = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.\n🥉 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n⭐ Alternativa: Chips de coco + carvão vegetal + perlita + casca de pinus média.",
     errosComuns: "Usar vaso grande; deixar o substrato velho e compacto; impor seca para estimular floração; permitir enrugamento frequente; cultivar em calor abafado; usar excesso de bokashi ou adubo de liberação lenta; aplicar fertilizante concentrado; deixar água parada na base da touceira; manter sombra profunda.",
     dica: "Não tente ‘forçar’ a floração com seca. A estratégia mais eficiente é manter a planta em crescimento contínuo: vaso pequeno, raízes saudáveis, luz filtrada forte e adubação fraca. Cada pseudobulbo bem formado aumenta a chance de uma nova haste, e uma touceira adulta pode florescer repetidamente ao longo do ano.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 58,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 2, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 71,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Proteja do sol forte da tarde, mantenha circulação de ar contínua e evite recipientes grandes que permaneçam quentes e molhados por muito tempo." },
-        montanhaFrio: { nota: 5, texto: "Reduza as regas apenas nos períodos frios de baixa evaporação e proteja de temperaturas muito baixas." }
+        litoralQuente: { texto: "Proteja do sol forte da tarde, mantenha circulação de ar contínua e evite recipientes grandes que permaneçam quentes e molhados por muito tempo." },
+        montanhaFrio: { texto: "Reduza as regas apenas nos períodos frios de baixa evaporação e proteja de temperaturas muito baixas." }
     },
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     "selosCultivo": {

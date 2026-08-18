@@ -39,9 +39,39 @@ export const catasetumMattosianum = {
     substrato: "🥇 Chips de coco médios + pedra-pomes + casca de arroz carbonizada + carvão vegetal: boa reserva hídrica no crescimento e secagem eficiente no repouso.\n🥈 Esfagno de fibra longa solto + pedra-pomes + carvão, apenas em vaso pequeno e muito drenado no litoral quente.\n🥉 Pinus médio + chips de coco + pedra-pomes + casca de arroz carbonizada.\n⭐ Alternativa: Argila expandida + pedra-pomes + chips de coco, com fina camada superficial de esfagno somente na fase ativa.",
     errosComuns: "• Encharcar o broto antes de as raízes novas estarem funcionais.\n• Replantar quando as raízes novas já estão longas e frágeis.\n• Economizar água durante o crescimento vigoroso.\n• Continuar regando normalmente após a queda das folhas.\n• Adubar durante dormência.\n• Remover pseudobulbos traseiros saudáveis, que funcionam como reserva.\n• Usar substrato velho e compacto.\n• Tentar forçar flores femininas com excesso de sol.",
     dica: "🏆Faça o replante no início da brotação, logo após a planta sair da dormência e antes que as novas raízes fiquem compridas. Após o replante, mantenha o vaso relativamente seco até que várias raízes atinjam de 5 a 8 cm de comprimento. Em seguida, aumente a rega para manter a umidade, porem sem encharcar o broto e adote uma adubação leve e frequente, e garanta boa iluminação e ventilação. Com a queda das folhas, suspenda a adubação e deixe o vaso predominantemente seco. Lembre-se de preservar os pseudobulbos antigos saudáveis, pois eles nutrem a próxima brotação.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 65,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 63,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "O calor favorece o crescimento ativo; o principal cuidado é proteger a planta desfolhada de chuvas repetidas durante o período de dormência." },
-        montanhaFrio: { nota: 3, texto: "Se protegida de frio excessivo e geadas. Durante dormência fria, mantenha o vaso ainda mais seco." }
+        litoralQuente: { texto: "O calor favorece o crescimento ativo; o principal cuidado é proteger a planta desfolhada de chuvas repetidas durante o período de dormência." },
+        montanhaFrio: { texto: "Se protegida de frio excessivo e geadas. Durante dormência fria, mantenha o vaso ainda mais seco." }
     },
     mesesFloracao: [12, 1, 2, 3],
     "selosCultivo": {

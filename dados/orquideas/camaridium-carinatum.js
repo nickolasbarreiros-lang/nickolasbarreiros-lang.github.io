@@ -41,9 +41,39 @@ export const camaridiumCarinatum = {
     substrato: "🥇 Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.\n🥈 Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.\n🥉 Chips de coco + pinus médio + perlita + carvão vegetal miúdo.\n⭐ Alternativa: Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia.",
     errosComuns: "• Usar vaso estreito ou profundo.\n• Direcionar a frente de crescimento contra a borda.\n• Enterrar rizoma ou base dos pseudobulbos.\n• Deixar água parada nas bainhas dos brotos.\n• Substrato continuamente saturado.\n• Impor seca severa.\n• Cultivar em sombra excessiva.\n• Aplicar adubo concentrado ou liberação lenta encostada nas brotações.",
     dica: "🏆 No replantio, coloque os pseudobulbos mais antigos próximos a uma borda e direcione a frente ativa para a maior área livre. O recipiente deve ser largo e raso, porque o rizoma avança horizontalmente. A base dos pseudobulbos precisa permanecer descoberta: além de reduzir podridão, isso não bloqueia as inflorescências basais.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 64,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 2, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 76,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 4, texto: "Muito boa quando cultivada com ventilação constante, recipiente raso e substrato arejado. O calor é tolerável, desde que as bainhas não permaneçam molhadas à noite." },
-        montanhaFrio: { nota: 3, texto: "Em períodos frios e nublados, aumente os intervalos de rega conforme a menor evaporação, sem desidratar os pseudobulbos." }
+        litoralQuente: { texto: "Muito boa quando cultivada com ventilação constante, recipiente raso e substrato arejado. O calor é tolerável, desde que as bainhas não permaneçam molhadas à noite." },
+        montanhaFrio: { texto: "Em períodos frios e nublados, aumente os intervalos de rega conforme a menor evaporação, sem desidratar os pseudobulbos." }
     },
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     "selosCultivo": {

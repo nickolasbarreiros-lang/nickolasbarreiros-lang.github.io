@@ -42,9 +42,39 @@ export const dichaeaPendula = {
     substrato: "🥇 Casca de pinus fina/média + chips de coco pequenos + perlita + pedra-pomes.\n🥈 Chips de coco + pedra-pomes + casca de pinus fina, mantendo umidade uniforme sem encharcar.\n🥉 Casca de macadâmia triturada média + fibra de coco grossa + pedra-pomes + pequena fração de esfagno.\n⭐ Alternativa: Pinus médio + perlita + carvão vegetal miúdo + esfagno picado em baixa proporção.",
     errosComuns: "Deixar secar completamente; cultivar em calor noturno abafado; baixa umidade do ar; água parada nas axilas; sol direto forte; esfagno velho e compacto; vaso profundo; excesso de adubo; regas noturnas frequentes; falta de espaço para as hastes pendentes.",
     dica: "Não interprete a necessidade de umidade como necessidade de encharcamento. Em litoral quente, a melhor combinação é suporte pequeno, umidade atmosférica alta, regas frequentes e muita circulação de ar. Se as hastes começarem a enrugar, aumente a frequência das regas; se houver manchas escuras e tecidos moles nas bainhas, aumente imediatamente a ventilação e reduza o tempo de molhamento.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 64,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 2, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 76,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Cultivo possível, porém mais exigente. Use o ponto mais fresco e ventilado do orquidário, com sombra clara e alta umidade. O calor noturno prolongado é o maior desafio." },
-        montanhaFrio: { nota: 3, texto: "Tende a adaptar-se muito bem a condições intermediárias e frescas, desde que não haja geada, vento seco ou secagem prolongada." }
+        litoralQuente: { texto: "Cultivo possível, porém mais exigente. Use o ponto mais fresco e ventilado do orquidário, com sombra clara e alta umidade. O calor noturno prolongado é o maior desafio." },
+        montanhaFrio: { texto: "Tende a adaptar-se muito bem a condições intermediárias e frescas, desde que não haja geada, vento seco ou secagem prolongada." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
     "selosCultivo": {

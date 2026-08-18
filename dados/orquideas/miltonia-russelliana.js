@@ -53,9 +53,39 @@ export const miltoniaRusselliana = {
         "Expor ao sol forte nas horas quentes"
     ],
     dica: "🏆 Não tenha pressa em dividir a Miltonia russelliana. Touceiras com vários pseudobulbos armazenam mais energia e costumam produzir hastes mais fortes. No litoral quente, mantenha-a em local claro e muito ventilado, com o vaso apenas ligeiramente apertado.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 65,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 72,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 4, texto: "Boa Tolera calor melhor que muitas Miltoniopsis, mas aprecia noites menos abafadas. Use luz filtrada, umidade regular e ventilação constante." },
-        montanhaFrio: { nota: 5, texto: "Muito boa Noites frescas favorecem vigor e floração, desde que as raízes não permaneçam frias e encharcadas por longos períodos." }
+        litoralQuente: { texto: "Boa Tolera calor melhor que muitas Miltoniopsis, mas aprecia noites menos abafadas. Use luz filtrada, umidade regular e ventilação constante." },
+        montanhaFrio: { texto: "Muito boa Noites frescas favorecem vigor e floração, desde que as raízes não permaneçam frias e encharcadas por longos períodos." }
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {

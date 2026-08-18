@@ -52,9 +52,39 @@ export const aciantheraBragae = {
     suporte: ["🥇 Placa larga de madeira, cortiça ou material fibroso durável, permitindo que o rizoma avance lateralmente.", "🥈 Cachepô pequeno, raso e muito ripado.", "🥉 Vaso baixo e largo, muito perfurado, para acomodar o crescimento em tapete."],
     substrato: ["🥇 Pedra-pomes fina + casca de pinus fina + pequena fração de esfagno, combinando umidade com muito ar.", "🥈 Montagem em rocha porosa/cortiça com fina reserva de esfagno somente sob as raízes.", "🥉 Perlita + pedra-pomes fina + chips de coco pequenos, sem compactar.", "⭐ Alternativa: Casca de pinus fina + carvão miúdo + perlita + esfagno picado em baixa proporção."],
     errosComuns: ["Usar vaso profundo para uma planta de crescimento rastejante.", "Enterrar ou cobrir o rizoma.", "Manter água parada entre folhas e ramicaules.", "Deixar a montagem secar por vários dias no calor.", "Cultivar em sombra profunda e sem circulação de ar.", "Aplicar adubação forte em raízes finas.", "Interpretar a altitude como necessidade de clima frio rígido."],
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 69,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 80,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoral: { nota: 3, texto: "Quando recebe sombra clara, ventilação máxima e suporte raso/aberto. A indicação de crescimento quente ajuda, mas a origem a 700–1.000 m recomenda atenção especial às noites muito abafadas do verão." },
-        montanha: { nota: 3, texto: "Condições geralmente favoráveis, sobretudo pela amplitude térmica. Em períodos frios e úmidos, reduza as regas conforme o suporte permanecer molhado por mais tempo, sem impor seca prolongada." }
+        litoral: { texto: "Quando recebe sombra clara, ventilação máxima e suporte raso/aberto. A indicação de crescimento quente ajuda, mas a origem a 700–1.000 m recomenda atenção especial às noites muito abafadas do verão." },
+        montanha: { texto: "Condições geralmente favoráveis, sobretudo pela amplitude térmica. Em períodos frios e úmidos, reduza as regas conforme o suporte permanecer molhado por mais tempo, sem impor seca prolongada." }
     },
     dica: "🏆 Prefira placa de madeira ou vasos largos e rasos para dar espaço ao crescimento rasteiro da planta, mantenha o rizoma exposto e garanta alta circulação de ar com raízes sempre úmidas."
 };

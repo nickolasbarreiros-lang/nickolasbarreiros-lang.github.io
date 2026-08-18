@@ -52,9 +52,39 @@ export const arpophyllumGiganteum = {
     suporte: ["🥇 Vaso pesado e proporcional à touceira, com excelente drenagem e espaço para o rizoma.", "🥈 Cachepô de madeira amplo e robusto.", "🥉 Cesto grande e ventilado para exemplares adultos."],
     substrato: ["🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.", "🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.", "🥉 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.", "⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco."],
     errosComuns: ["Cultivar em sombra excessiva e obter pseudobulbos alongados sem floração.", "Impor seca severa no inverno.", "Usar vaso leve ou instável para touceira grande.", "Manter substrato compacto e permanentemente molhado.", "Dividir touceiras repetidamente antes de acumularem reservas.", "Cultivar no litoral quente sem ventilação noturna suficiente.", "Enterrar demais o rizoma ou impedir sua expansão lateral."],
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 49,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 2, peso: 20 },
+                temperatura: { nota: 1, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 84,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoral: { nota: 3, texto: "Boa para crescimento, mas a floração pode ser mais sensível ao calor noturno. Use o setor mais claro e ventilado, com 50% a 60% de sombreamento e substrato muito aberto. Regue bem durante crescimento e não crie um repouso seco artificial." },
-        montanha: { nota: 5, texto: "A amplitude térmica e as noites amenas se aproximam melhor da faixa de 800–1.500 m. Durante o inverno, reduza regas somente conforme a evaporação real cair, evitando a combinação de frio com encharcamento." }
+        litoral: { texto: "Para crescimento, mas a floração pode ser mais sensível ao calor noturno. Use o setor mais claro e ventilado, com 50% a 60% de sombreamento e substrato muito aberto. Regue bem durante crescimento e não crie um repouso seco artificial." },
+        montanha: { texto: "A amplitude térmica e as noites amenas se aproximam melhor da faixa de 800–1.500 m. Durante o inverno, reduza regas somente conforme a evaporação real cair, evitando a combinação de frio com encharcamento." }
     },
     dica: "🏆 Evite dividir a planta; deixe-a formar touceiras grandes para acumular reservas e explodir em flores nas hastes novas, contando mais com luz abundante, regas fartas na fase de crescimento e noites frescas do que com adubos milagrosos."
 };

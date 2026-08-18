@@ -40,9 +40,39 @@ export const brassavolaTuberculata = {
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.\n🥉 Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.\n⭐ Alternativa: Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.",
     errosComuns: "• Sombra excessiva, uma das principais causas de ausência de flores.\n• Substrato fino, velho ou compactado.\n• Vaso grande e profundo.\n• Manter raízes permanentemente molhadas.\n• Confundir rusticidade com baixa necessidade de água durante crescimento.\n• Excesso de nitrogênio associado à pouca luz.\n• Dividir touceiras pequenas repetidamente.\n• Manter Brassavola perrinii como espécie separada nos registros.",
     dica: "🏆 Se a touceira cresce muito e não floresce, verifique primeiro a luminosidade. Brassavola tuberculata pode vegetar mesmo sob luz insuficiente. Em Litoral de clima quente, cultivo montado, 30% a 40% de sombreamento, ventilação forte e ciclos rápidos de molha-e-seca oferecem excelente resultado. Regue generosamente no crescimento; o segredo não é fazê-la passar sede, e sim permitir que as raízes sequem rapidamente e recebam muito ar.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 63,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 72,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "Excelente Uma das espécies mais adequadas ao litoral quente, desde que as raízes permaneçam muito aeradas." },
-        montanhaFrio: { nota: 4, texto: "Tolera noites frescas; apenas proteja de geadas e reduza água quando a secagem ficar lenta." }
+        litoralQuente: { texto: "Excelente Uma das espécies mais adequadas ao litoral quente, desde que as raízes permaneçam muito aeradas." },
+        montanhaFrio: { texto: "Tolera noites frescas; apenas proteja de geadas e reduza água quando a secagem ficar lenta." }
     },
     mesesFloracao: [10, 11, 12, 1],
     "selosCultivo": {

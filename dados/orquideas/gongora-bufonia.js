@@ -33,9 +33,39 @@ export const gongoraBufonia = {
     substrato: "🥇 Chips de coco grossos + casca de pinus média + pedra-pomes + esfagno solto, em cesto vazado.\n🥈 Casca de macadâmia média + chips de coco + perlita + esfagno em baixa proporção.\n🥉 Pinus médio + fibra de coco grossa + pedra-pomes + carvão vegetal, mantendo umidade sem bloquear a haste descendente.\n⭐ Alternativa: Cesto com chips de coco + macadâmia + pedra-pomes e uma fina camada de esfagno no topo, nunca compactada.",
     errosComuns: "Cultivar em vaso fechado; bloquear o fundo do cesto; usar substrato fino ou compactado; deixar secar completamente durante o crescimento; impor repouso seco; manter calor abafado; expor ao sol forte; adubar em excesso; dividir a touceira em fragmentos pequenos; apoiar o cesto onde as hastes pendentes não tenham passagem.",
     dica: "Pense primeiro na haste floral e depois no vaso. A inflorescência nasce na base e precisa cair livremente; por isso o cesto suspenso, vazado e sem obstáculos é parte do cultivo, não apenas uma escolha estética. Combine esse espaço livre com raízes úmidas e oxigenadas, e a espécie responde com hastes longas e floradas muito mais consistentes.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 60,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 2, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 71,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 4, texto: "Cultive em sombra clara, com cesto suspenso, ventilação constante e material que nunca permaneça quente e saturado. No verão, prefira regas matinais e alta circulação de ar." },
-        montanhaFrio: { nota: 3, texto: "Aproveite a umidade e noites amenas, reduzindo a frequência das regas apenas quando a evaporação cair. Proteja contra frio excessivo e geadas." }
+        litoralQuente: { texto: "Cultive em sombra clara, com cesto suspenso, ventilação constante e material que nunca permaneça quente e saturado. No verão, prefira regas matinais e alta circulação de ar." },
+        montanhaFrio: { texto: "Aproveite a umidade e noites amenas, reduzindo a frequência das regas apenas quando a evaporação cair. Proteja contra frio excessivo e geadas." }
     },
     mesesFloracao: [8, 9, 10, 11, 12],
     "selosCultivo": {

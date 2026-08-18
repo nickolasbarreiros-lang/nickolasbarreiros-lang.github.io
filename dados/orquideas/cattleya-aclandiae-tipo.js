@@ -40,9 +40,39 @@ export const cattleyaAclandiaeTipo = {
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura: raízes grossas recebem ar máximo e secam rapidamente após a rega.\n🥈 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, em vaso pequeno e muito perfurado.\n🥉 Pinus grosso + brita/pedra-pomes + carvão vegetal, sem esfagno no centro do vaso.\n⭐ Alternativa: Chips de coco muito grossos + argila expandida + carvão, apenas em cesto bastante vazado.",
     errosComuns: "• Vaso grande ou fechado.\n• Esfagno compacto e raízes permanentemente úmidas.\n• Replantar fora do início de emissão de novas raízes.\n• Sombra excessiva.\n• Secar demais durante crescimento ativo.\n• Enterrar o rizoma.\n• Confundir pigmentação natural das folhas com doença.\n• Adubação concentrada.\n• Manter planta fria e molhada durante período de menor atividade.",
     dica: "🏆 Replante somente quando a planta estiver pronta para emitir raízes novas. Cattleya aclandiae adere fortemente ao suporte e reage mal a danos extensos em raízes antigas. Sempre que possível, mantenha-a montada em cortiça ou madeira rugosa por muitos anos. Se for necessário intervir, espere as primeiras pontas de raízes novas. No litoral quente, não tente cultivá-la 'seca' o tempo todo: dê bastante água durante atividade, mas faça essa água desaparecer rapidamente com ventilação e raízes expostas.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 77,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 61,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 2, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "O calor e a sazonalidade são compatíveis com o habitat baiano; luz alta, ventilação e raízes livres são determinantes." },
-        montanhaFrio: { nota: 3, texto: "Possível, mas proteja de frio prolongado e de umidade noturna quando a secagem ficar lenta." }
+        litoralQuente: { texto: "O calor e a sazonalidade são compatíveis com o habitat baiano; luz alta, ventilação e raízes livres são determinantes." },
+        montanhaFrio: { texto: "Possível, mas proteja de frio prolongado e de umidade noturna quando a secagem ficar lenta." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
     "selosCultivo": {

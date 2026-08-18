@@ -38,9 +38,39 @@ export const brassavolaPerrini = {
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n🥉 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.\n⭐ Alternativa: Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.",
     errosComuns: "Cultivar em sombra excessiva; Usar substratos finos, compactos ou com acúmulo de pó; Manter as raízes molhadas continuamente; Plantar em vasos grandes e fundos; Exagerar no uso de esfagno ou materiais de alta retenção hídrica; Dividir touceiras pequenas prematuramente; Aplicar adubo com alto teor de nitrogênio de forma contínua durante todo o ano.",
     dica: "Use as folhas como termômetro: o ponto certo de luz é aquele que deixa a folhagem cilíndrica ereta, rígida e em um tom verde-claro (quase amarelado). Se ela cresce muito mas não floresce, o segredo para forçar a floração é dar mais claridade — sem medo do sol direto matinal — e cortar o adubo rico em nitrogênio.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 56,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 1, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 80,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 4, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 4, texto: "É muito bem adaptada ao calor, desde que receba ventilação e secagem rápida. O cultivo montado ou em cachepô aberto reduz o risco de podridão durante períodos chuvosos." },
-        montanhaFrio: { nota: 3, texto: "Tolera noites frescas, mas deve permanecer mais seca durante sequências frias. Proteja de geadas e mantenha alta luminosidade no inverno." }
+        litoralQuente: { texto: "É muito bem adaptada ao calor, desde que receba ventilação e secagem rápida. O cultivo montado ou em cachepô aberto reduz o risco de podridão durante períodos chuvosos." },
+        montanhaFrio: { texto: "Tolera noites frescas, mas deve permanecer mais seca durante sequências frias. Proteja de geadas e mantenha alta luminosidade no inverno." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {

@@ -42,9 +42,39 @@ export const cattleyaGuttataVarCoerulea = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
     errosComuns: "• Planta balançando após o replantio, rompendo pontas radiculares novas.\n• Vaso leve que tomba com o peso dos pseudobulbos.\n• Sombra excessiva e crescimento estiolado.\n• Vaso enorme com núcleo constantemente úmido.\n• Substrato velho e decomposto.\n• Secar demais durante a formação de novos pseudobulbos.\n• Dividir clones valiosos em pedaços muito pequenos.\n• Replantar quando não há novas raízes em início de crescimento.\n• Adubação excessiva ou uso de fósforo muito concentrado.",
     dica: "🏆 Imobilize a base antes de pensar na floração. O grande porte transforma cada pseudobulbo em uma alavanca: vento ou esbarrões podem movimentar o rizoma e romper as pontas das raízes novas. Após o replantio, fixe firmemente rizoma e pseudobulbos principais com amarração macia ou revestida, sem estrangular os tecidos. Preserve divisões com pelo menos 4 a 5 pseudobulbos e, em clones coerulea valiosos, prefira touceiras ainda maiores. Faça o replantio quando as primeiras raízes novas começarem a aparecer.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 71,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 67,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "Litoral de clima quente combina calor e umidade atmosférica favoráveis à espécie; o principal cuidado é evitar substrato velho, centro encharcado e falta de ventilação em noites quentes." },
-        montanhaFrio: { nota: 3, texto: "Se houver muita luminosidade. Proteja de geadas e reduza as regas quando frio e umidade diminuírem a evaporação." }
+        litoralQuente: { texto: "Litoral de clima quente combina calor e umidade atmosférica favoráveis à espécie; o principal cuidado é evitar substrato velho, centro encharcado e falta de ventilação em noites quentes." },
+        montanhaFrio: { texto: "Se houver muita luminosidade. Proteja de geadas e reduza as regas quando frio e umidade diminuírem a evaporação." }
     },
     mesesFloracao: [2, 3, 4, 5, 6],
     "selosCultivo": {

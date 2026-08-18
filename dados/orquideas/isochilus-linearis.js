@@ -33,9 +33,39 @@ export const isochilusLinearis = {
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.\n🥉 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.\n⭐ Alternativa: Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.",
     errosComuns: "Impor seca prolongada; cultivar em sombra excessiva; usar vaso profundo e grande; manter substrato velho ou compactado; aplicar adubo concentrado; cultivar em local abafado; deixar a touceira superaquecer; confundir umidade regular com encharcamento; dividir frequentemente uma colônia saudável.",
     dica: "A melhor forma de entender essa espécie é observar seus caules. Como não há pseudobulbos robustos para funcionar como reserva, caules enrugados e folhas perdendo firmeza indicam que a planta ficou seca demais. Mantenha água disponível sem sacrificar a aeração e preserve touceiras grandes: elas estabilizam o microclima e florescem com muito mais impacto.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 75,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 2, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 78,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 4, texto: "Muito boa para procedências adaptadas a temperaturas intermediárias ou quentes. Mantenha luz filtrada, umidade regular e forte ventilação, evitando calor abafado no centro da touceira." },
-        montanhaFrio: { nota: 3, texto: "Excelente para muitas procedências. Ajuste a água à menor evaporação e proteja contra geadas; não deixe o substrato secar completamente." }
+        litoralQuente: { texto: "Muito boa para procedências adaptadas a temperaturas intermediárias ou quentes. Mantenha luz filtrada, umidade regular e forte ventilação, evitando calor abafado no centro da touceira." },
+        montanhaFrio: { texto: "Excelente para muitas procedências. Ajuste a água à menor evaporação e proteja contra geadas; não deixe o substrato secar completamente." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {

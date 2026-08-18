@@ -38,9 +38,39 @@ export const maxillariaChrysantha = {
     substrato: "🥇 Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.\n🥈 Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia.\n🥉 Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.\n⭐ Alternativa: Chips de coco + pinus médio + perlita + carvão vegetal miúdo.",
     errosComuns: "Replantar fora do início de novas raízes; enterrar o rizoma; cobrir hastes basais; usar vaso grande; manter detritos deteriorados bloqueando botões; cultivar em calor noturno abafado; usar substrato saturado ou degradado; regar demais em períodos frios; dividir a touceira em porções pequenas; aplicar adubo concentrado.",
     dica: "Replante somente quando novas pontas radiculares estiverem surgindo. Preserve o máximo possível das raízes firmes e deixe a base dos pseudobulbos livre, pois é dali que saem as hastes. Para florir bem no litoral, concentre seus esforços em noites mais frescas, ventilação e baixa retenção de calor no vaso, em vez de provocar seca artificial.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 57,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 2, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 83,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Cultivo mais exigente. Use o ponto mais fresco e ventilado do orquidário, vaso pequeno e mistura muito arejada. O principal limitante é o calor noturno constante, especialmente no verão." },
-        montanhaFrio: { nota: 5, texto: "Em regiões serranas. As noites amenas favorecem o ciclo e a floração; apenas evite geadas e substrato permanentemente molhado em períodos frios e nublados." }
+        litoralQuente: { texto: "Cultivo mais exigente. Use o ponto mais fresco e ventilado do orquidário, vaso pequeno e mistura muito arejada. O principal limitante é o calor noturno constante, especialmente no verão." },
+        montanhaFrio: { texto: "Em regiões serranas. As noites amenas favorecem o ciclo e a floração; apenas evite geadas e substrato permanentemente molhado em períodos frios e nublados." }
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {

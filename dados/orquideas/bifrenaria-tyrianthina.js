@@ -41,9 +41,39 @@ export const bifrenariaTyrianthina = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n🥉 Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.\n⭐ Alternativa: Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
     errosComuns: "• Manter Bifrenaria verboonenii como espécie aceita independente.\n• Cultivar em local quente e abafado.\n• Tratar a planta como rupícola obrigatoriamente mineral.\n• Secar excessivamente durante crescimento ativo.\n• Impor repouso totalmente seco por meses.\n• Replantar sem raízes novas começando a surgir.\n• Usar substrato compacto.\n• Permitir sol forte aquecendo vaso e raízes.",
     dica: "🏆 No litoral, preocupe-se mais com a temperatura das raízes do que com reproduzir uma fenda de rocha. Use vaso de barro ou cachepô ventilado com casca grossa, pedra-pomes e carvão. Regue bem no crescimento e aumente os intervalos no inverno. Replante quando o novo crescimento começar a emitir as primeiras pontas de raízes. Em Litoral de clima quente, mantenha a planta no ponto mais fresco e ventilado do orquidário.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 53,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 1, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 80,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 2, texto: "Difícil Noites quentes persistentes são o principal gargalo. Evite telhados, paredes quentes e recipientes que acumulem calor." },
-        montanhaFrio: { nota: 5, texto: "Noites frescas e inverno mais seco reproduzem muito melhor as condições naturais." }
+        litoralQuente: { texto: "Difícil Noites quentes persistentes são o principal gargalo. Evite telhados, paredes quentes e recipientes que acumulem calor." },
+        montanhaFrio: { texto: "Noites frescas e inverno mais seco reproduzem muito melhor as condições naturais." }
     },
     mesesFloracao: [9, 10, 11, 12],
     "selosCultivo": {

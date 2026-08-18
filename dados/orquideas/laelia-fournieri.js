@@ -41,9 +41,39 @@ export const laeliaFournieri = {
     substrato: "🥇 Pedra-pomes + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.\n🥈 Brita + pedra-pomes + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.\n🥉 Macadâmia grossa + pedra-pomes + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado.\n⭐ Alternativa: Pedra-pomes + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.",
     errosComuns: "• Cultivar em local quente e abafado.\n• Confundir hábito rupícola com necessidade de seca extrema.\n• Vaso grande, profundo ou com material compactado.\n• Deixar pedra ou vaso superaquecer ao sol.\n• Excesso de matéria orgânica decomposta no calor.\n• Replantar por conveniência quando não há novas raízes, salvo emergência.\n• Adubação concentrada e acúmulo de sais.\n• Repouso seco exagerado, levando rapidamente ao enrugamento dos pseudobulbos.",
     dica: "🏆 Replante preferencialmente quando as primeiras raízes novas começarem a surgir e use pouco volume de substrato, muita drenagem e máxima circulação de ar. No litoral quente, o objetivo é baixar a temperatura radicular e evitar abafamento; secar demais uma planta tão pequena costuma piorar o problema.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 59,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 2, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 83,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 2, texto: "Difícil de adaptação. O maior gargalo é o calor noturno. Use o ponto comprovadamente mais fresco e ventilado, recipiente pequeno, alta aeração e proteção contra superfícies que irradiem calor." },
-        montanhaFrio: { nota: 4, texto: "Em ambientes luminosos e ventilados, protegendo apenas contra geadas severas e encharcamento prolongado em períodos frios." }
+        litoralQuente: { texto: "Difícil de adaptação. O maior gargalo é o calor noturno. Use o ponto comprovadamente mais fresco e ventilado, recipiente pequeno, alta aeração e proteção contra superfícies que irradiem calor." },
+        montanhaFrio: { texto: "Em ambientes luminosos e ventilados, protegendo apenas contra geadas severas e encharcamento prolongado em períodos frios." }
     },
     mesesFloracao: [12, 1, 2, 3, 4],
     "selosCultivo": {

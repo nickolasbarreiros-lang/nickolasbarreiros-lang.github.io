@@ -38,9 +38,39 @@ export const blcChiaLin = {
     substrato: "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.\n🥈 Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.\n🥉 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.\n⭐ Alternativa: Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.",
     errosComuns: "Cultivar com pouca luz; usar vaso grande demais; manter substrato velho, ácido ou constantemente molhado; regar por calendário sem observar a secagem; usar adubo concentrado ou grandes doses de fósforo para tentar forçar floração; replantar fora do início do enraizamento; molhar repetidamente brotos novos no fim do dia; deixar água acumulada na espata; dividir plantas pequenas.",
     dica: "Observe o pseudobulbo, não apenas o calendário. Durante brotação e enraizamento, forneça água, adubação leve e luz suficiente para que o novo crescimento atinja seu tamanho máximo. Quando a folha estiver firme e o pseudobulbo maduro, reduza naturalmente a adubação e mantenha boa luminosidade. Um pseudobulbo robusto sustentado por raízes saudáveis tem muito mais chance de preencher a espata e produzir flores grandes.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 63,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 79,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "À Litoral de clima quente. O calor costuma ser bem tolerado; o maior risco é a combinação de noites quentes, substrato velho e raízes constantemente molhadas. Use vaso ou cachepô bem ventilado e bastante luz filtrada." },
-        montanhaFrio: { nota: 3, texto: "Adapta-se bem às noites frescas. Uma amplitude térmica moderada pode favorecer o ciclo fisiológico, mas não é requisito absoluto. Reduza as regas em períodos frios e nublados e proteja contra extremos de temperatura." }
+        litoralQuente: { texto: "À Litoral de clima quente. O calor costuma ser bem tolerado; o maior risco é a combinação de noites quentes, substrato velho e raízes constantemente molhadas. Use vaso ou cachepô bem ventilado e bastante luz filtrada." },
+        montanhaFrio: { texto: "Adapta-se bem às noites frescas. Uma amplitude térmica moderada pode favorecer o ciclo fisiológico, mas não é requisito absoluto. Reduza as regas em períodos frios e nublados e proteja contra extremos de temperatura." }
     },
     mesesFloracao: [4, 5, 6, 7, 8, 9, 10, 11],
     "selosCultivo": {

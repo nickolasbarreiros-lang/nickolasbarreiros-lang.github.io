@@ -41,9 +41,39 @@ export const bulbophyllumAmbrosia = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
     errosComuns: "• Enterrar o rizoma.\n• Tratar a espécie como exclusivamente fria.\n• Usar substrato fino e compactado.\n• Deixar a planta secar por vários dias.\n• Manter saturação constante em noites quentes.\n• Cultivar em sombra profunda.\n• Adubar em concentração alta.\n• Manter substrato decomposto por tempo excessivo.\n• Confundir umidade ambiental elevada com falta de ventilação.",
     dica: "🏆 O melhor manejo reproduz a combinação natural de umidade com oxigenação. Monte-a ou use recipiente raso, mantenha o rizoma exposto e proporcione ventilação contínua. A fragrância e a floração aparecem melhor em plantas maduras e bem iluminadas, sem necessidade de submeter a planta a frio forte. No litoral quente, noites ventiladas e suporte que não acumule calor são mais importantes que tentar baixar drasticamente a temperatura.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 72,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 76,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 4, texto: "Boa A espécie possui populações de baixa a média altitude e pode crescer bem no litoral, mas exige ventilação intensa e meio aberto para compensar noites quentes." },
-        montanhaFrio: { nota: 4, texto: "Muito boa em condições intermediárias a frescas, desde que protegida de frio extremo e de secagem prolongada." }
+        litoralQuente: { texto: "Boa A espécie possui populações de baixa a média altitude e pode crescer bem no litoral, mas exige ventilação intensa e meio aberto para compensar noites quentes." },
+        montanhaFrio: { texto: "Muito boa em condições intermediárias a frescas, desde que protegida de frio extremo e de secagem prolongada." }
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {

@@ -38,9 +38,39 @@ export const cattleyaLueddemannianaTipo = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n🥉 Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.\n⭐ Alternativa: Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
     errosComuns: "Cortar espata seca sem verificar se há botões; deixar água acumulada dentro de espata fechada; manter substrato constantemente molhado; cultivar com pouca luz; usar vaso excessivamente grande; enterrar o rizoma; confundir repouso com seca absoluta; replantar fora da emissão de novas raízes; adubar em excesso.",
     dica: "Nunca descarte uma espata apenas porque ficou amarela, marrom ou aparentemente seca. Ela pode proteger botões que ainda estão se desenvolvendo. Evite água parada dentro da bainha, especialmente em noites quentes. Depois da floração, observe a base do novo crescimento: quando começarem a despontar raízes novas, chegou a melhor janela para replantar.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 73,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 80,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Adapta-se muito bem à Litoral de clima quente. O calor é compatível com sua origem; o maior risco é a combinação de noites quentes, substrato fechado e raízes permanentemente molhadas. Prefira boa ventilação, vaso ou cachepô arejado e luz filtrada forte." },
-        montanhaFrio: { nota: 3, texto: "Tolera noites frescas, mas não aprecia frio úmido prolongado. Reduza as regas durante sequências frias e nubladas e proteja contra temperaturas extremas." }
+        litoralQuente: { texto: "Adapta-se muito bem à Litoral de clima quente. O calor é compatível com sua origem; o maior risco é a combinação de noites quentes, substrato fechado e raízes permanentemente molhadas. Prefira boa ventilação, vaso ou cachepô arejado e luz filtrada forte." },
+        montanhaFrio: { texto: "Tolera noites frescas, mas não aprecia frio úmido prolongado. Reduza as regas durante sequências frias e nubladas e proteja contra temperaturas extremas." }
     },
     mesesFloracao: [12, 1, 2, 3, 9, 10, 11],
     "selosCultivo": {

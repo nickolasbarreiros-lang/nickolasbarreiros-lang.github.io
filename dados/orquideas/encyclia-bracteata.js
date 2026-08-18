@@ -42,9 +42,39 @@ export const encycliaBracteata = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
     errosComuns: "Sombra excessiva; vaso grande; substrato fino; raízes constantemente molhadas; enterrar o rizoma; replantar fora da emissão de raízes novas; excesso de fertilizante; interpretar baixa altitude como tolerância a abafamento; impor repouso totalmente seco por meses.",
     dica: "A espécie é pequena, mas quer bastante luz. No litoral quente, use vaso pequeno, mistura grossa e ventilação permanente. Regue com generosidade enquanto houver crescimento ativo e deixe o ar retornar rapidamente às raízes após cada rega.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 63,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 1, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 64,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 2, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 4, texto: "Sua ocorrência em 10–500 m favorece o cultivo em clima quente, desde que haja ventilação, luz alta filtrada e secagem rápida das raízes." },
-        montanhaFrio: { nota: 3, texto: "Reduzindo regas em períodos frios e nublados e protegendo de geada." }
+        litoralQuente: { texto: "Sua ocorrência em 10–500 m favorece o cultivo em clima quente, desde que haja ventilação, luz alta filtrada e secagem rápida das raízes." },
+        montanhaFrio: { texto: "Reduzindo regas em períodos frios e nublados e protegendo de geada." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4],
     "selosCultivo": {

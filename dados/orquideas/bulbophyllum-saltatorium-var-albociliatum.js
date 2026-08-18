@@ -33,9 +33,39 @@ export const bulbophyllumSaltatoriumVarAlbociliatum = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
     errosComuns: "• Enterrar o rizoma.\n• Compactar esfagno.\n• Deixar a planta secar completamente por muitos dias.\n• Usar vaso profundo e fechado.\n• Confundir alta umidade com saturação permanente.\n• Cultivar em sombra profunda.\n• Aplicar fertilizante concentrado.\n• Forçar repouso seco para induzir flores.",
     dica: "🏆 Deixe a estrutura rastejante respirar. Use uma camada fina de material úmido apenas sob as raízes e mantenha rizoma e pseudobulbos expostos. Em litoral quente, a combinação mais segura é 60% a 70% de sombra, água frequente, drenagem imediata e ventilação constante.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 65,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 67,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "A origem tropical é favorável; ventilação e drenagem são os fatores decisivos." },
-        montanhaFrio: { nota: 3, texto: "Boa se protegida de frio prolongado; reduza regas conforme a evaporação cair, sem secar totalmente." }
+        litoralQuente: { texto: "A origem tropical é favorável; ventilação e drenagem são os fatores decisivos." },
+        montanhaFrio: { texto: "Boa se protegida de frio prolongado; reduza regas conforme a evaporação cair, sem secar totalmente." }
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {

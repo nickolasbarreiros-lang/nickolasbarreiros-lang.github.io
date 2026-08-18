@@ -33,9 +33,39 @@ export const gomesaRecurva = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
     errosComuns: "Cultivar em sombra excessiva; manter calor noturno abafado e sem vento; usar vaso grande; deixar o substrato velho ou compactado; utilizar esfagno em excesso no clima quente e úmido; impor seca severa; retirar hastes antes de secarem completamente; instalar a planta sem espaço para o desenvolvimento das inflorescências arqueadas.",
     dica: "Cultive em posição elevada ou suspensa para deixar as hastes de 10–35 cm arquearem livremente. No litoral, aproveite o resfriamento natural do outono em vez de tentar impor frio: boa ventilação, luz adequada e pseudobulbos maduros são os gatilhos mais coerentes para a floração.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 69,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 72,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Adapta-se bem em Litoral de clima quente quando cultivada no ponto mais fresco, claro e ventilado. Evite calor parado, vaso grande e excesso de esfagno." },
-        montanhaFrio: { nota: 5, texto: "Proteja apenas contra geadas e excesso de água no inverno; as noites naturalmente frescas favorecem a indução floral." }
+        litoralQuente: { texto: "Adapta-se bem em Litoral de clima quente quando cultivada no ponto mais fresco, claro e ventilado. Evite calor parado, vaso grande e excesso de esfagno." },
+        montanhaFrio: { texto: "Proteja apenas contra geadas e excesso de água no inverno; as noites naturalmente frescas favorecem a indução floral." }
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {

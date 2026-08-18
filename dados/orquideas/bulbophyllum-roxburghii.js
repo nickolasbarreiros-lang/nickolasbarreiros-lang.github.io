@@ -33,9 +33,39 @@ export const bulbophyllumRoxburghii = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
     errosComuns: "• Tratar B. sikkimense como espécie aceita separada sem explicar a taxonomia atual.\n• Cultivar como espécie alpina.\n• Impor repouso totalmente seco.\n• Manter sombra profunda.\n• Usar recipiente fundo e pouco ventilado.\n• Enterrar o rizoma.\n• Manter calor com substrato saturado e sem circulação.\n• Aplicar fertilizante concentrado.",
     dica: "🏆 A melhor leitura do habitat é simples: apesar do nome histórico sikkimense, trata-se de uma orquídea de contrafortes e vales baixos, não de alta montanha. No litoral quente, mantenha a planta sob 60% a 70% de sombra, com raízes úmidas e aeradas, e não tente induzir floração por frio ou seca severos.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 73,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 64,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 2, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "A ecologia de baixa altitude é compatível com calor, desde que haja ventilação e drenagem rápida." },
-        montanhaFrio: { nota: 3, texto: "Mas sem necessidade de frio intenso; proteja de geadas e de longos períodos frios com o meio encharcado." }
+        litoralQuente: { texto: "A ecologia de baixa altitude é compatível com calor, desde que haja ventilação e drenagem rápida." },
+        montanhaFrio: { texto: "Mas sem necessidade de frio intenso; proteja de geadas e de longos períodos frios com o meio encharcado." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {

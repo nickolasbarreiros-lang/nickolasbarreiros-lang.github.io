@@ -32,9 +32,39 @@ export const isabeliaVirginalis = {
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n🥉 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.\n⭐ Alternativa: Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.",
     errosComuns: "Remover as bainhas fibrosas; enterrar o rizoma; compactar esfagno ao redor da planta; cultivar em sombra profunda; manter a colônia permanentemente molhada; deixar secar por muitos dias; usar vaso grande e profundo; adubar forte; dividir em pedaços pequenos; manter ambiente abafado.",
     dica: "Preserve a colônia inteira e deixe-a caminhar pelo suporte. Quanto menos você interfere na trama fibrosa e no rizoma rastejante, melhor. Uma placa durável, boa luz e ciclos rápidos de molhamento e secagem produzem uma touceira muito mais bonita do que o cultivo apertado em vaso convencional.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 68,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 69,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Desde que montada ou em recipiente muito raso e ventilado. Dê luz forte filtrada, regas frequentes no verão e secagem rápida entre elas." },
-        montanhaFrio: { nota: 5, texto: "As noites amenas favorecem a espécie; apenas evite geadas e longos períodos de umidade fria sem ventilação." }
+        litoralQuente: { texto: "Desde que montada ou em recipiente muito raso e ventilado. Dê luz forte filtrada, regas frequentes no verão e secagem rápida entre elas." },
+        montanhaFrio: { texto: "As noites amenas favorecem a espécie; apenas evite geadas e longos períodos de umidade fria sem ventilação." }
     },
     mesesFloracao: [5, 6, 7, 8],
     "selosCultivo": {

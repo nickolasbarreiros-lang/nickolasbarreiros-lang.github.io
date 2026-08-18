@@ -39,9 +39,39 @@ export const laeliaLundii = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n🥉 Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.\n⭐ Alternativa: Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
     errosComuns: "Usar vaso grande e profundo; manter esfagno compactado; cultivar com pouca luz; confundir cultivo montado com pouca necessidade de água; impor repouso seco excessivo; manter raízes encharcadas em períodos frios ou chuvosos; dividir touceiras pequenas; deixar a planta frouxa no suporte; fertilizar em excesso.",
     dica: "Deixe a planta conquistar o suporte e formar uma touceira. Cattleya lundii responde melhor quando não é constantemente removida ou dividida: várias frentes pequenas juntas criam mais raízes, reservas e pontos de floração. Em litoral quente, ventilação e secagem rápida valem mais que simplesmente reduzir água.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 70,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 84,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Quando montada no ponto mais ventilado e luminoso do orquidário. No verão, regue conforme a secagem real; no inverno, reduza apenas se atividade e evaporação diminuírem. Evite abafamento noturno e substrato úmido por muitos dias." },
-        montanhaFrio: { nota: 3, texto: "Adapta-se muito bem às noites frescas. Mantenha boa luz e diminua as regas em períodos frios e úmidos, protegendo contra geadas e chuva fria prolongada." }
+        litoralQuente: { texto: "Quando montada no ponto mais ventilado e luminoso do orquidário. No verão, regue conforme a secagem real; no inverno, reduza apenas se atividade e evaporação diminuírem. Evite abafamento noturno e substrato úmido por muitos dias." },
+        montanhaFrio: { texto: "Adapta-se muito bem às noites frescas. Mantenha boa luz e diminua as regas em períodos frios e úmidos, protegendo contra geadas e chuva fria prolongada." }
     },
     mesesFloracao: [7, 8, 9, 10],
     "selosCultivo": {

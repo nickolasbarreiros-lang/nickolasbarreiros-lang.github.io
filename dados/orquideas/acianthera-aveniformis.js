@@ -52,9 +52,39 @@ export const aciantheraAveniformis = {
     suporte: ["🥇 Placa pequena de madeira, cortiça ou casca rugosa, acompanhando o crescimento reptante.", "🥈 Cachepô pequeno e bem ripado.", "🥉 Vaso pequeno, raso e muito perfurado."],
     substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "🥉 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "⭐ Alternativa: Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."],
     errosComuns: ["Tratar a espécie como obrigatoriamente de clima frio.", "Cobrir rizoma e base dos ramicaules com esfagno.", "Deixar as raízes secarem completamente por vários dias.", "Manter substrato permanentemente encharcado.", "Cultivar em ambiente abafado e quente.", "Aplicar fertilizante concentrado em raízes muito finas.", "Expor ao sol direto forte."],
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 72,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 2, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 65,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoral: { nota: 3, texto: "Adaptação possível e potencialmente boa, coerente com a indicação de crescimento quente a ameno em baixa/média elevação. Use sombra clara, alta umidade atmosférica e ventilação constante. O principal risco não é o calor isolado, mas calor + ar parado + raízes saturadas." },
-        montanha: { nota: 3, texto: "Adapta-se bem às noites mais frescas, desde que não seja mantida fria e encharcada por longos períodos. Em sequências frias e úmidas, reduza a frequência de rega conforme a secagem real do suporte." }
+        litoral: { texto: "Adaptação possível e potencialmente boa, coerente com a indicação de crescimento quente a ameno em baixa/média elevação. Use sombra clara, alta umidade atmosférica e ventilação constante. O principal risco não é o calor isolado, mas calor + ar parado + raízes saturadas." },
+        montanha: { texto: "Adapta-se bem às noites mais frescas, desde que não seja mantida fria e encharcada por longos períodos. Em sequências frias e úmidas, reduza a frequência de rega conforme a secagem real do suporte." }
     },
     dica: "🏆 Para esta micro-orquídea, estabilidade vale mais que extremos: monte-a em suporte pequeno com mínima reserva de musgo, mantenha umidade atmosférica alta e fluxo de ar constante. Como o hábito é reptante, deixe espaço lateral para a planta avançar e não enterre o rizoma."
 };

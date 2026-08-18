@@ -38,9 +38,39 @@ export const bifrenariaAureofulva = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
     errosComuns: "Tratar a espécie como planta de repouso totalmente seco; cultivar em sombra profunda; expor a sol forte; usar vasos muito grandes; manter substrato compacto ou degradado; reduzir a água antes do pseudobulbo amadurecer; replantar sem raízes novas iniciando; aplicar fertilizante concentrado em raízes sensíveis.",
     dica: "Trate-a como uma verdadeira orquídea do sol. Ela exige alta luminosidade (claridade intensa, mas sem sol direto) e vasos bem apertados com drenagem perfeita. O grande segredo para conseguir hastes repletas de flores laranjas é mantê-la com raízes restritas, boa ventilação e regas fartas apenas no período de crescimento ativo.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 69,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 82,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Cultivo moderadamente exigente. Em Litoral de clima quente, use vaso de barro, substrato aberto, 50% a 60% de sombra e forte ventilação. Evite aquecimento excessivo das raízes e seca prolongada." },
-        montanhaFrio: { nota: 3, texto: "Condições muito favoráveis. Noites frescas ajudam a maturação e a floração; no inverno, apenas reduza as regas conforme a evaporação cair." }
+        litoralQuente: { texto: "Cultivo moderadamente exigente. Em Litoral de clima quente, use vaso de barro, substrato aberto, 50% a 60% de sombra e forte ventilação. Evite aquecimento excessivo das raízes e seca prolongada." },
+        montanhaFrio: { texto: "Condições muito favoráveis. Noites frescas ajudam a maturação e a floração; no inverno, apenas reduza as regas conforme a evaporação cair." }
     },
     mesesFloracao: [1, 2, 3],
     "selosCultivo": {

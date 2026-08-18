@@ -53,9 +53,39 @@ export const promenaeaXanthina = {
         "Aplicar fertilizante concentrado"
     ],
     dica: "🏆 Promenaea xanthina gosta de raízes frescas e úmidas, não de um vaso encharcado. Use recipiente pequeno, mistura leve e bastante ventilação. No litoral quente, proteger a planta do calor acumulado à noite costuma ser mais importante do que aumentar a quantidade de água.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 33,
+            estrelas: 2,
+            fatores: {
+                habitatNatural: { nota: 1, peso: 20 },
+                temperatura: { nota: 1, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 1, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 87,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "É cultivável com 70% a 80% de sombreamento, alta ventilação e substrato pequeno e aerado, mas noites muito quentes podem reduzir vigor e floração." },
-        montanhaFrio: { nota: 5, texto: "Noites frescas e alta umidade favorecem a espécie, desde que o substrato não permaneça frio e saturado." }
+        litoralQuente: { texto: "É cultivável com 70% a 80% de sombreamento, alta ventilação e substrato pequeno e aerado, mas noites muito quentes podem reduzir vigor e floração." },
+        montanhaFrio: { texto: "Noites frescas e alta umidade favorecem a espécie, desde que o substrato não permaneça frio e saturado." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {

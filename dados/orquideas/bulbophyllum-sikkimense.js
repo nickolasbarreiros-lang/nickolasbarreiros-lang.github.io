@@ -35,9 +35,39 @@ export const bulbophyllumSikkimense = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.\n🥉 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n⭐ Alternativa: Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
     errosComuns: "• Apresentar B. sikkimense como nome atualmente aceito.\n• Ignorar que Kew o inclui em B. roxburghii.\n• Tratar a planta como alpina por causa do nome Sikkim.\n• Impor repouso seco severo.\n• Manter sombra profunda.\n• Compactar o substrato.\n• Usar recipiente estreito.\n• Aplicar adubo concentrado.",
     dica: "🏆 Use o nome histórico como pista de procedência, não como instrução para cultivar no frio. Os dados de 300–500 m mostram uma planta de contrafortes quentes. No litoral, mantenha água regular, ar em movimento, recipiente raso e luz filtrada clara; a pequena diferença entre dia e noite já é mais coerente que qualquer tentativa de resfriamento artificial.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 71,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 64,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 2, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "A faixa histórica de 300–500 m é compatível com cultivo quente e úmido bem ventilado." },
-        montanhaFrio: { nota: 3, texto: "Desde que protegida de frio intenso e de encharcamento persistente em baixas temperaturas." }
+        litoralQuente: { texto: "A faixa histórica de 300–500 m é compatível com cultivo quente e úmido bem ventilado." },
+        montanhaFrio: { texto: "Desde que protegida de frio intenso e de encharcamento persistente em baixas temperaturas." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {

@@ -42,9 +42,39 @@ export const encycliaGallopavina = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
     errosComuns: "Cultivar em sombra; vaso grande demais; substrato velho; raízes continuamente encharcadas; enterrar o rizoma; reduzir água cedo demais durante crescimento; excesso de nitrogênio após a maturação; replantar sem raízes novas; calor abafado com substrato molhado; impor seca rigorosa por longos períodos.",
     dica: "Espere o novo pseudobulbo terminar de crescer antes de diminuir discretamente a frequência das regas. O objetivo é marcar uma mudança de estação sem desidratar a planta. Em Litoral de clima quente, o melhor estímulo para florir costuma ser luz alta filtrada + pseudobulbo maduro + raízes bem aeradas, e não seca extrema.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 64,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 2, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 68,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "Desde que receba ventilação contínua, alta luminosidade filtrada e secagem rápida do substrato. Evite calor parado e noites com raízes saturadas." },
-        montanhaFrio: { nota: 3, texto: "Em períodos frios e nublados, reduza a frequência das regas para acompanhar a menor evaporação." }
+        litoralQuente: { texto: "Desde que receba ventilação contínua, alta luminosidade filtrada e secagem rápida do substrato. Evite calor parado e noites com raízes saturadas." },
+        montanhaFrio: { texto: "Em períodos frios e nublados, reduza a frequência das regas para acompanhar a menor evaporação." }
     },
     mesesFloracao: [10, 11, 12, 1, 2],
     "selosCultivo": {

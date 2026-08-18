@@ -40,9 +40,39 @@ export const rlcTurandotXOrangeShowXChunyeah = {
     substrato: "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.\n🥈 Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.\n🥉 Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.\n⭐ Alternativa: Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.",
     errosComuns: "• Usar Brassocattleya Turandot como nomenclatura atual.\n• Chamar Orange Show de Rlc.; atualmente é Rth. Orange Show.\n• Tratar seedlings como clones uniformes.\n• Usar vaso grande demais.\n• Cultivar em sombra excessiva.\n• Manter encharcamento constante.\n• Usar fósforo muito alto para forçar floração.\n• Adubação concentrada.\n• Dividir plantas pequenas sem necessidade.",
     dica: "🏆 Se crescer forte e não florescer, examine primeiro a luz e a maturação do pseudobulbo. Use recipiente proporcional ao sistema radicular e substrato muito aberto. Durante crescimento, dê água e nutrição equilibrada; depois da maturação, apenas reduza gradualmente a frequência. Em Litoral de clima quente, cerca de 50% de sombra, ventilação constante e ciclos rápidos de molha-e-seca oferecem excelente desempenho. O objetivo é produzir pseudobulbo forte, folha firme e raízes ativas — não forçar botões com fósforo excessivo.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 71,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 73,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "Excelente Híbrido muito compatível com Litoral de clima quente quando há luz, ventilação e secagem adequada do vaso." },
-        montanhaFrio: { nota: 3, texto: "Proteja de frio intenso e reduza regas quando a evaporação cair." }
+        litoralQuente: { texto: "Excelente Híbrido muito compatível com Litoral de clima quente quando há luz, ventilação e secagem adequada do vaso." },
+        montanhaFrio: { texto: "Proteja de frio intenso e reduza regas quando a evaporação cair." }
     },
     mesesFloracao: [3, 4, 5, 6, 7, 8, 9, 10],
     "selosCultivo": {

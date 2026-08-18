@@ -41,9 +41,39 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.\n🥉 Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.\n⭐ Alternativa: Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.",
     errosComuns: "Substrato permanentemente úmido; pouca luz; replantar sem emissão de raízes novas; enterrar o rizoma; usar vaso grande; dividir touceiras pequenas; deixar completamente seca por semanas apenas porque não há pontas verdes; adubar fortemente plantas montadas; mudar constantemente a posição e a iluminação; interpretar folhas amareladas como objetivo de cultivo.",
     dica: "Leia a planta inteira, não apenas o calendário ou a ponta das raízes. Pontas verdes indicam crescimento ativo e permitem regas abundantes e adubação leve. Depois da maturação, aumente os intervalos entre as regas sem transformar o repouso em seca absoluta. E replante apenas quando novas raízes estiverem iniciando: em Cattleya walkeriana, o momento do replantio pode definir se a planta se estabelece rapidamente ou passa muitos meses debilitada.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 71,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 67,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Em Litoral de clima quente. O calor é tolerado; o maior risco é a combinação de chuva contínua, umidade persistente e pouca ventilação. Cultivo montado ou muito aerado é especialmente indicado." },
-        montanhaFrio: { nota: 3, texto: "Em clima intermediário, com muita luz filtrada. Proteja de geadas, frio úmido prolongado e substrato que permaneça molhado por muitos dias." }
+        litoralQuente: { texto: "Em Litoral de clima quente. O calor é tolerado; o maior risco é a combinação de chuva contínua, umidade persistente e pouca ventilação. Cultivo montado ou muito aerado é especialmente indicado." },
+        montanhaFrio: { texto: "Em clima intermediário, com muita luz filtrada. Proteja de geadas, frio úmido prolongado e substrato que permaneça molhado por muitos dias." }
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {

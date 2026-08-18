@@ -41,9 +41,39 @@ export const cattleyaIntermedia = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
     errosComuns: "• Enterrar o rizoma ou as gemas de brotação.\n• Sombra excessiva, que produz pseudobulbos finos e reduz a floração.\n• Vaso muito grande e com excesso de substrato úmido.\n• Substrato velho, ácido ou decomposto.\n• Replantar fora do início da emissão de raízes novas.\n• Manter o centro do recipiente constantemente molhado.\n• Secar excessivamente durante crescimento ativo.\n• Tentar compensar pouca luz com adubação forte.",
     dica: "🏆 Mantenha o rizoma livre e replante apenas quando surgirem as primeiras pontas de raízes novas. Cattleya intermedia responde melhor quando o novo crescimento consegue colonizar imediatamente o recipiente. Em vez de perseguir uma cor exata de folha, observe raízes ativas, pseudobulbos robustos, folhas firmes e floração regular. Preserve touceiras grandes sempre que houver espaço: várias frentes maduras significam mais reservas e maior potencial de flores simultâneas.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 75,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 74,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "Em Litoral de clima quente, cerca de 50% de sombreamento, ventilação constante, boa água durante o crescimento e substrato aberto tornam esta uma das Cattleyas botânicas mais seguras para o litoral." },
-        montanhaFrio: { nota: 3, texto: "Adapta-se muito bem a noites frescas. Reduza a rega apenas quando a evaporação realmente cair e proteja de geadas e longos períodos de chuva fria." }
+        litoralQuente: { texto: "Em Litoral de clima quente, cerca de 50% de sombreamento, ventilação constante, boa água durante o crescimento e substrato aberto tornam esta uma das Cattleyas botânicas mais seguras para o litoral." },
+        montanhaFrio: { texto: "Adapta-se muito bem a noites frescas. Reduza a rega apenas quando a evaporação realmente cair e proteja de geadas e longos períodos de chuva fria." }
     },
     mesesFloracao: [2, 3, 4, 5],
     "selosCultivo": {

@@ -41,9 +41,39 @@ export const bulbophyllumFalcatumVarBufo = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n🥉 Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.\n⭐ Alternativa: Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.",
     errosComuns: "• Tratar a variedade como híbrido.\n• Enterrar rizoma/pseudobulbos.\n• Bloquear a raque contra a borda do recipiente.\n• Usar vaso fundo e retentivo.\n• Compactar esfagno.\n• Impor repouso seco.\n• Manter alta umidade sem circulação de ar.\n• Usar adubação concentrada.\n• Forçar noites frias para induzir floração.",
     dica: "🏆 A procedência de baixa altitude torna esta variedade particularmente adequada a ambiente quente, mas não a abafamento. Dê muito espaço lateral à raque, que pode ultrapassar 25 cm, e mantenha o rizoma exposto. Em litoral quente, o sucesso vem de umidade regular + ventilação contínua + recipiente raso, e não de baixar artificialmente a temperatura.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 57,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 4, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 1, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 67,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 2, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "Cerca de 4 A faixa natural de 0–500 m é coerente com cultivo quente; o principal risco é excesso de água em ambiente pouco ventilado." },
-        montanhaFrio: { nota: 3, texto: "Boa se protegida de frio prolongado. Não necessita noites frias para completar seu ciclo." }
+        litoralQuente: { texto: "Cerca de 4 A faixa natural de 0–500 m é coerente com cultivo quente; o principal risco é excesso de água em ambiente pouco ventilado." },
+        montanhaFrio: { texto: "Boa se protegida de frio prolongado. Não necessita noites frias para completar seu ciclo." }
     },
     mesesFloracao: [8, 9, 10, 11, 12, 1, 2, 3],
     "selosCultivo": {

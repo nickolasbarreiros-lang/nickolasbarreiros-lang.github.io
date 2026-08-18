@@ -53,9 +53,39 @@ export const epidendrumCentropetalum = {
         "Expor ao sol forte do meio do dia"
     ],
     dica: "🏆 Aproveite o hábito de formar keikis: em vez de removê-los cedo, deixe que criem raízes e ajudem a formar uma touceira cheia. No litoral quente, mantenha a planta em posição muito ventilada e com luz filtrada forte; noites menos abafadas costumam fazer mais diferença do que aumentar a adubação.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 41,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 2, peso: 20 },
+                temperatura: { nota: 1, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 1, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 79,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Pode crescer bem com 50% a 60% de sombreamento, umidade alta e ventilação constante, mas noites muito quentes e abafadas podem reduzir vigor e floração." },
-        montanhaFrio: { nota: 5, texto: "Noites frescas e boa umidade se aproximam bastante das condições montanas onde a espécie ocorre naturalmente." }
+        litoralQuente: { texto: "Pode crescer bem com 50% a 60% de sombreamento, umidade alta e ventilação constante, mas noites muito quentes e abafadas podem reduzir vigor e floração." },
+        montanhaFrio: { texto: "Noites frescas e boa umidade se aproximam bastante das condições montanas onde a espécie ocorre naturalmente." }
     },
     mesesFloracao: [8, 9, 10, 11, 12, 1],
     "selosCultivo": {

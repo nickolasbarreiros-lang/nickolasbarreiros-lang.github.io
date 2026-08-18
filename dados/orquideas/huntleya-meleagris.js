@@ -33,9 +33,39 @@ export const huntleyaMeleagris = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
     errosComuns: "Deixar secar completamente; cultivar em vaso grande; manter substrato quente e saturado; usar água muito salina; aplicar fertilizante concentrado; expor ao sol direto; cultivar em ambiente abafado; deixar água parada no centro dos leques durante a noite; impor repouso seco no inverno.",
     dica: "O ponto-chave não é simplesmente ‘regar muito’, mas manter água disponível junto com oxigênio. Em dias quentes, aumente primeiro ventilação e umidade do ambiente antes de encharcar o vaso. Essa diferença é decisiva: raízes frescas e oxigenadas sustentam os leques; raízes quentes e saturadas entram em declínio rapidamente.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 60,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 4, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 2, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 79,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Cultivo exigente. Reserve o local mais fresco, sombreado e ventilado do orquidário, use água de boa qualidade e evite recipientes que superaqueçam. No verão, noites abafadas são o principal gargalo." },
-        montanhaFrio: { nota: 4, texto: "Em ambiente protegido. Mantenha umidade constante e proteja de geadas ou frio excessivo." }
+        litoralQuente: { texto: "Cultivo exigente. Reserve o local mais fresco, sombreado e ventilado do orquidário, use água de boa qualidade e evite recipientes que superaqueçam. No verão, noites abafadas são o principal gargalo." },
+        montanhaFrio: { texto: "Em ambiente protegido. Mantenha umidade constante e proteja de geadas ou frio excessivo." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
     "selosCultivo": {

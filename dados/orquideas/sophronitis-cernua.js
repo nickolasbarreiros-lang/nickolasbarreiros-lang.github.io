@@ -38,9 +38,39 @@ export const sophronitisCernua = {
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.\n🥉 Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.\n⭐ Alternativa: Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.",
     errosComuns: "Vaso plástico com substrato fino; excesso de esfagno; sombra; ambiente abafado; regas ao final da tarde; base da touceira permanentemente molhada; adubação concentrada.",
     dica: "Cultive montada em madeira ou cortiça e pendurada em ponto alto, claro e muito ventilado. Sua tolerância ao calor é boa, mas as raízes precisam secar rapidamente para permanecer saudáveis.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 69,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 72,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Adapta-se muito bem. Ofereça sol suave da manhã, regas frequentes com secagem rápida e ventilação contínua." },
-        montanhaFrio: { nota: 3, texto: "Desenvolve-se bem, mas deve ser protegida de geadas. No inverno, reduza as regas e borrife apenas pela manhã em dias ensolarados." }
+        litoralQuente: { texto: "Adapta-se muito bem. Ofereça sol suave da manhã, regas frequentes com secagem rápida e ventilação contínua." },
+        montanhaFrio: { texto: "Desenvolve-se bem, mas deve ser protegida de geadas. No inverno, reduza as regas e borrife apenas pela manhã em dias ensolarados." }
     },
     "mesesFloracao": [
         8,

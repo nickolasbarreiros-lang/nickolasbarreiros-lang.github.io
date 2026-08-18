@@ -52,9 +52,39 @@ export const encycliaAlboxanthina = {
         "Confundir tolerância à seca com necessidade de repouso seco prolongado"
     ],
     dica: "🏆 Observe os pseudobulbos: eles devem amadurecer firmes, não permanecer verdes e excessivamente tenros. Muita luz filtrada, raízes arejadas e uma leve secagem entre regas ajudam a planta a armazenar energia e preparar a haste floral.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 66,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 2, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 77,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "Excelente Sua origem nordestina e preferência por condições quentes e claras tornam a espécie muito promissora, desde que as raízes tenham drenagem e ventilação." },
-        montanhaFrio: { nota: 4, texto: "Boa Tolera noites frescas, mas reduza as regas quando a evaporação cair e proteja de frio intenso." }
+        litoralQuente: { texto: "Excelente Sua origem nordestina e preferência por condições quentes e claras tornam a espécie muito promissora, desde que as raízes tenham drenagem e ventilação." },
+        montanhaFrio: { texto: "Boa Tolera noites frescas, mas reduza as regas quando a evaporação cair e proteja de frio intenso." }
     },
     mesesFloracao: [10, 11, 12, 1],
     "selosCultivo": {

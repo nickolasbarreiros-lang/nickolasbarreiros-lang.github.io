@@ -53,9 +53,39 @@ export const laeliaSplendida = {
         "Expor abruptamente ao sol forte sem aclimatação"
     ],
     dica: "🏆 Se a planta cresce bem mas não floresce, investigue primeiro a luz. Laelia splendida precisa acumular bastante energia para sustentar suas hastes longas. No litoral quente, um local muito claro, ventilado e com raízes quase expostas costuma funcionar melhor que um vaso úmido e sombreado.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 73,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 67,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 4, texto: "Muito boa Calor não costuma ser o principal problema; ofereça muita luz, circulação de ar e secagem relativamente rápida das raízes." },
-        montanhaFrio: { nota: 4, texto: "Boa Tolera noites mais frescas, mas deve ser protegida de frio intenso e de substrato frio e constantemente saturado." }
+        litoralQuente: { texto: "Muito boa Calor não costuma ser o principal problema; ofereça muita luz, circulação de ar e secagem relativamente rápida das raízes." },
+        montanhaFrio: { texto: "Boa Tolera noites mais frescas, mas deve ser protegida de frio intenso e de substrato frio e constantemente saturado." }
     },
     mesesFloracao: [9, 10, 11, 12],
     "selosCultivo": {

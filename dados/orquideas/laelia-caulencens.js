@@ -41,9 +41,39 @@ export const laeliaCaulencens = {
     substrato: "🥇 Pedra-pomes + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.\n🥈 Pedra-pomes + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.\n🥉 Brita + pedra-pomes + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.\n⭐ Alternativa: Macadâmia grossa + pedra-pomes + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado.",
     errosComuns: "• Substrato compacto.\n• Vaso grande e profundo.\n• Sombra excessiva e estiolamento.\n• Sol forte aquecendo pedra ou vaso.\n• Confundir rupícola com xerófita extrema.\n• Repouso seco exagerado.\n• Pouca ventilação no litoral.\n• Excesso de fertilizante e acúmulo de sais.",
     dica: "🏆 O melhor resultado vem de reproduzir a dinâmica de uma encosta rochosa: muita luz, água abundante quando a planta está ativa, drenagem imediata e ar retornando rapidamente às raízes. No litoral, prefira vaso baixo e claro ou barro bem ventilado e proteja o recipiente do sol forte da tarde.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 67,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 4, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 76,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 2, texto: "Difícil a moderada de adaptação. O principal desafio é calor noturno combinado com umidade residual. Priorize o ponto mais ventilado e sem superfícies quentes ao redor." },
-        montanhaFrio: { nota: 4, texto: "Com alta luminosidade e boa ventilação. Proteja apenas de geadas e de longos períodos frios com vaso encharcado." }
+        litoralQuente: { texto: "Difícil a moderada de adaptação. O principal desafio é calor noturno combinado com umidade residual. Priorize o ponto mais ventilado e sem superfícies quentes ao redor." },
+        montanhaFrio: { texto: "Com alta luminosidade e boa ventilação. Proteja apenas de geadas e de longos períodos frios com vaso encharcado." }
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {

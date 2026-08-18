@@ -53,9 +53,39 @@ export const phalaenopsisPulcherrima = {
         "Expor abruptamente ao sol forte sem aclimatação"
     ],
     dica: "🏆 Não corte uma haste verde apenas porque as primeiras flores caíram. Phalaenopsis pulcherrima pode continuar alongando a inflorescência e abrindo novas flores sucessivamente. Dê mais luz do que daria a uma Phalaenopsis híbrida comum, mas faça a aclimatação gradualmente.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 62,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 2, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 67,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 4, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "Excelente Calor combina bem com a espécie. Use luz filtrada relativamente alta, boa ventilação e regas regulares sem manter o vaso saturado." },
-        montanhaFrio: { nota: 3, texto: "Boa Pode ser cultivada, mas deve ser protegida de noites muito frias e de raízes molhadas em temperaturas baixas." }
+        litoralQuente: { texto: "Excelente Calor combina bem com a espécie. Use luz filtrada relativamente alta, boa ventilação e regas regulares sem manter o vaso saturado." },
+        montanhaFrio: { texto: "Boa Pode ser cultivada, mas deve ser protegida de noites muito frias e de raízes molhadas em temperaturas baixas." }
     },
     mesesFloracao: [12, 1, 2, 3, 4, 5],
     "selosCultivo": {

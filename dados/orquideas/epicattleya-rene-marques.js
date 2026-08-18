@@ -37,9 +37,39 @@ export const epicattleyaReneMarques = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
     errosComuns: "Enterrar o rizoma; cultivar sob sombra excessiva; usar vasos grandes demais; manter o substrato continuamente encharcado; exagerar no nitrogênio após a maturação; tentar compensar pouca luz com adubos concentrados de fósforo ou potássio; replantar fora da emissão de raízes novas; deixar hastes altas sem tutoramento quando necessário.",
     dica: "Dê espaço vertical e luz abundante: esse híbrido pode ultrapassar 1 m e florescer no topo dos caules. O grex é geneticamente 50% E. pseudepidendrum, 25% C. loddigesii e 25% C. intermedia; por isso, vigor, forma e intensidade de cor podem variar entre clones, e não devem ser tratados como características fixas.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 57,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 1, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 76,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "Em Litoral de clima quente. Garanta ventilação forte, luz alta filtrada e substrato de secagem rápida. O porte pode ultrapassar 1,20 m, por isso reserve espaço e use tutor quando necessário." },
-        montanhaFrio: { nota: 3, texto: "Proteja de geadas e ventos muito frios, reduza a rega em dias de baixa temperatura e evite deixar raízes molhadas durante a noite." }
+        litoralQuente: { texto: "Em Litoral de clima quente. Garanta ventilação forte, luz alta filtrada e substrato de secagem rápida. O porte pode ultrapassar 1,20 m, por isso reserve espaço e use tutor quando necessário." },
+        montanhaFrio: { texto: "Proteja de geadas e ventos muito frios, reduza a rega em dias de baixa temperatura e evite deixar raízes molhadas durante a noite." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {

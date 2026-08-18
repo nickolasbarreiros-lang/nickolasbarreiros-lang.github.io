@@ -43,9 +43,39 @@ export const dryadellaLiliputiana = {
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.\n🥉 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.\n⭐ Alternativa: Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.",
     errosComuns: "Calor noturno acumulado; esfagno permanentemente encharcado; deixar secar por vários dias; água muito salina; adubação forte; pouca circulação de ar; dividir a touceira; vaso grande; exposição ao sol; tentar compensar calor com excesso de água no substrato.",
     dica: "O porte minúsculo exige estabilidade, não excesso. Em Litoral de clima quente, cultive em um ponto fresco, luminoso sem sol, com ar sempre em movimento. Uma montagem levemente úmida e regada com frequência costuma ser mais segura no verão do que uma bola de esfagno quente e saturada.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 60,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 2, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 78,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 1, texto: "O principal problema é o calor noturno prolongado. Use o ponto mais fresco e ventilado do orquidário e controle a umidade com pouca massa de substrato." },
-        montanhaFrio: { nota: 5, texto: "Em clima intermediário a fresco, protegendo de geada e de frio excessivo associado a encharcamento." }
+        litoralQuente: { texto: "O principal problema é o calor noturno prolongado. Use o ponto mais fresco e ventilado do orquidário e controle a umidade com pouca massa de substrato." },
+        montanhaFrio: { texto: "Em clima intermediário a fresco, protegendo de geada e de frio excessivo associado a encharcamento." }
     },
     mesesFloracao: [6, 7, 8, 9],
     "selosCultivo": {

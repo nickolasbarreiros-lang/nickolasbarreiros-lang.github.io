@@ -53,9 +53,39 @@ export const dichaeaCogniauxiana = {
         "Deixar a montagem secar completamente por vários dias"
     ],
     dica: "🏆 Dichaea cogniauxiana prefere umidade com ar em movimento. Mantenha as raízes hidratadas, mas extremamente arejadas. No litoral quente, uma montagem com pequena quantidade de esfagno e ventilação constante tende a reproduzir melhor essa combinação do que um vaso compacto e permanentemente molhado.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 45,
+            estrelas: 3,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 1, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 1, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 84,
+            estrelas: 5,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "É possível cultivá-la com 70% a 80% de sombreamento, alta umidade atmosférica e ventilação contínua. No verão, evite sobretudo a combinação de calor noturno, raízes saturadas e ar parado." },
-        montanhaFrio: { nota: 5, texto: "Noites frescas, alta umidade e boa ventilação se aproximam melhor das condições montanas documentadas para a espécie. Proteja apenas de frio intenso e vento excessivamente seco." }
+        litoralQuente: { texto: "É possível cultivá-la com 70% a 80% de sombreamento, alta umidade atmosférica e ventilação contínua. No verão, evite sobretudo a combinação de calor noturno, raízes saturadas e ar parado." },
+        montanhaFrio: { texto: "Noites frescas, alta umidade e boa ventilação se aproximam melhor das condições montanas documentadas para a espécie. Proteja apenas de frio intenso e vento excessivamente seco." }
     },
     mesesFloracao: [12, 1, 2, 3],
     "selosCultivo": {

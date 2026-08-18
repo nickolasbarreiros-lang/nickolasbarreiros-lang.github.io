@@ -35,9 +35,39 @@ export const bulbophyllumMiniatum = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n🥉 Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.\n⭐ Alternativa: Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.",
     errosComuns: "• Tratar Bulbophyllum miniatum como espécie atualmente aceita separada.\n• Enterrar o rizoma ou a base dos pseudobulbos.\n• Compactar esfagno.\n• Confundir alta umidade com substrato saturado.\n• Deixar a planta secar completamente por vários dias.\n• Cultivar em sombra profunda e abafada.\n• Aplicar adubo concentrado sobre raízes finas.\n• Forçar repouso seco para induzir floração.",
     dica: "🏆 O ponto central é separar umidade de encharcamento: mantenha raízes hidratadas, mas o rizoma exposto e aerado. Como a planta avança lateralmente, posicione a parte antiga junto à borda e deixe a frente de crescimento voltada para espaço livre. No litoral quente, 60% a 70% de sombra, ventilação contínua e rega frequente funcionam melhor que tentar produzir frio artificial.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 61,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 67,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 4, texto: "A origem tropical combina com o litoral quente; o principal cuidado é manter circulação de ar elevada e meio extremamente aerado." },
-        montanhaFrio: { nota: 3, texto: "Boa em locais protegidos. Evite frio prolongado e reduza a frequência das regas apenas quando a evaporação cair." }
+        litoralQuente: { texto: "A origem tropical combina com o litoral quente; o principal cuidado é manter circulação de ar elevada e meio extremamente aerado." },
+        montanhaFrio: { texto: "Boa em locais protegidos. Evite frio prolongado e reduza a frequência das regas apenas quando a evaporação cair." }
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {

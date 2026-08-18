@@ -37,9 +37,39 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     substrato: "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.\n🥈 Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.\n🥉 Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.\n⭐ Alternativa: Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.",
     errosComuns: "Cultivar em sombra excessiva; Usar vasos muito grandes ou substratos finos e compactados; Manter as raízes constantemente encharcadas; Deixar água acumulada no miolo dos brotos e bainhas durante a noite; Exagerar na adubação nitrogenada após o amadurecimento dos pseudobulbos; Dividir a touceira com menos de três a quatro pseudobulbos por corte.",
     dica: "Posicione a planta no setor mais iluminado e arejado do cultivo. Evite vasos excessivamente grandes e substratos retentivos: as raízes deste híbrido exigem aeração constante e ciclos rápidos de molha-e-seca para formar pseudobulbos encorpados e garantir floradas regulares e duradouras.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 69,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 5, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 72,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 4, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 4, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 3, texto: "Adapta-se muito bem. Use luz forte filtrada, sol suave da manhã, ventilação constante e substrato de secagem rápida." },
-        montanhaFrio: { nota: 3, texto: "Proteja de frio intenso e reduza as regas durante períodos frios, sem permitir desidratação prolongada dos pseudobulbos." }
+        litoralQuente: { texto: "Adapta-se muito bem. Use luz forte filtrada, sol suave da manhã, ventilação constante e substrato de secagem rápida." },
+        montanhaFrio: { texto: "Proteja de frio intenso e reduza as regas durante períodos frios, sem permitir desidratação prolongada dos pseudobulbos." }
     },
     mesesFloracao: [4, 5, 6, 7, 8, 9, 10, 11],
     "selosCultivo": {

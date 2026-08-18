@@ -492,7 +492,7 @@ function normalizarAdaptacaoRegionalItem(valor) {
     return null;
 }
 
-function criarSeloAdaptacaoRegional(nota) {
+function criarSeloAdaptacaoRegional(nota, indice = null) {
     if (!nota) {
         return "";
     }
@@ -501,7 +501,7 @@ function criarSeloAdaptacaoRegional(nota) {
     const vazias = "☆".repeat(5 - nota);
 
     return `
-        <div class="selo-adaptacao-regional-v3" aria-label="Adaptação regional: ${nota} de 5 estrelas">
+        <div class="selo-adaptacao-regional-v3" aria-label="Adaptação regional: ${nota} de 5 estrelas${indice !== null ? `; IAR ${indice} de 100` : ""}">
             <span class="selo-adaptacao-rotulo-v3">Adaptação</span>
             <span class="selo-adaptacao-estrelas-v3" aria-hidden="true">
                 <span class="estrelas-preenchidas-v3">${preenchidas}</span><span class="estrelas-vazias-v3">${vazias}</span>
@@ -510,7 +510,7 @@ function criarSeloAdaptacaoRegional(nota) {
     `;
 }
 
-function criarAdaptacaoRegional(valor) {
+function criarAdaptacaoRegional(valor, iar = null) {
     if (!valor || typeof valor !== "object") {
         return "";
     }
@@ -521,6 +521,9 @@ function criarAdaptacaoRegional(valor) {
     if (!litoral && !montanha) {
         return "";
     }
+
+    const iarLitoral = iar?.litoralQuente || null;
+    const iarMontanha = iar?.montanhaFrio || null;
 
     return `
         <section id="adaptacao-regional" class="adaptacao-regional-v2 secao-ancora-v3">
@@ -534,7 +537,10 @@ function criarAdaptacaoRegional(valor) {
                     <article class="adaptacao-item-v2">
                         <div class="cabecalho-adaptacao-item-v3">
                             <h4>🌴 Regiões litorâneas e quentes</h4>
-                            ${criarSeloAdaptacaoRegional(litoral.nota)}
+                            ${criarSeloAdaptacaoRegional(
+                                Number(iarLitoral?.estrelas) || litoral.nota,
+                                Number.isFinite(Number(iarLitoral?.indice)) ? Number(iarLitoral.indice) : null
+                            )}
                         </div>
                         <p>${litoral.texto}</p>
                     </article>
@@ -544,7 +550,10 @@ function criarAdaptacaoRegional(valor) {
                     <article class="adaptacao-item-v2">
                         <div class="cabecalho-adaptacao-item-v3">
                             <h4>🏔️ Regiões de montanha e clima frio</h4>
-                            ${criarSeloAdaptacaoRegional(montanha.nota)}
+                            ${criarSeloAdaptacaoRegional(
+                                Number(iarMontanha?.estrelas) || montanha.nota,
+                                Number.isFinite(Number(iarMontanha?.indice)) ? Number(iarMontanha.indice) : null
+                            )}
                         </div>
                         <p>${montanha.texto}</p>
                     </article>
@@ -1270,7 +1279,7 @@ if (!orquidea) {
 
         ${criarErrosComuns(orquidea.errosComuns)}
 
-        ${criarAdaptacaoRegional(orquidea.adaptacaoRegional)}
+        ${criarAdaptacaoRegional(orquidea.adaptacaoRegional, orquidea.indiceAdaptacaoRegional)}
 
         <section id="dica-ouro" class="dica-ouro-v2 secao-ancora-v3">
 

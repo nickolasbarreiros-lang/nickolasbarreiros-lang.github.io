@@ -40,9 +40,39 @@ export const bulbophyllumElassonotum = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n🥉 Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.\n⭐ Alternativa: Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.",
     errosComuns: "• Enterrar o rizoma.\n• Tratar toda procedência como espécie fria.\n• Compactar esfagno.\n• Usar vaso profundo com baixa aeração.\n• Deixar raízes secarem por vários dias.\n• Manter calor, umidade e ar parado ao mesmo tempo.\n• Cultivar em sombra profunda.\n• Forçar repouso seco por causa de habitats sazonais.\n• Adubação concentrada em raízes finas.",
     dica: "🏆 A amplitude altitudinal é a chave para interpretar esta espécie. Ela não exige uma temperatura única; exige equilíbrio entre procedência, umidade e ventilação. No litoral quente, use suporte raso, 60% a 70% de sombra e movimento de ar constante. Mantenha o rizoma sobre a superfície e deixe espaço para a raque pendente, especialmente quando a planta entra no período de floração de inverno.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 65,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 2, peso: 10 },
+                sazonalidade: { nota: 2, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 76,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 5, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 5, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 4, texto: "Boa sobretudo para procedências de baixa altitude. Compense noites quentes com ventilação constante e meio muito arejado." },
-        montanhaFrio: { nota: 4, texto: "Boa a muito boa para procedências de altitude intermediária; evite frio intenso e substrato molhado por longos períodos em baixa evaporação." }
+        litoralQuente: { texto: "Boa sobretudo para procedências de baixa altitude. Compense noites quentes com ventilação constante e meio muito arejado." },
+        montanhaFrio: { texto: "Boa a muito boa para procedências de altitude intermediária; evite frio intenso e substrato molhado por longos períodos em baixa evaporação." }
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {

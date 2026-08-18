@@ -39,9 +39,39 @@ export const lcTrickOrTreat = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n🥉 Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.\n⭐ Alternativa: Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
     errosComuns: "Pouca luz; excesso de nitrogênio na maturação; vaso grande; substrato compactado; rizoma enterrado; regas sem secagem; falta de tutoramento; tentar corrigir a posição da haste depois de endurecida; cortar haste ainda verde; replantar sem raízes novas; dividir a touceira com frequência; somar várias fontes de adubo em dose completa.",
     dica: "Instale o tutor enquanto a haste ainda está crescendo e antes de os botões ganharem peso. Depois que ela endurece, tentar reorientá-la aumenta o risco de quebra. Para florações cheias, combine luz alta filtrada, pseudobulbos bem formados e uma touceira com várias frentes maduras.",
+    indiceAdaptacaoRegional: {
+        versao: "IAR 1.0",
+        escala: "compatibilidade",
+        litoralQuente: {
+            indice: 61,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 3, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 3, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 3, peso: 20 }
+            }
+        },
+        montanhaFrio: {
+            indice: 75,
+            estrelas: 4,
+            fatores: {
+                habitatNatural: { nota: 3, peso: 20 },
+                temperatura: { nota: 4, peso: 20 },
+                aguaUmidade: { nota: 3, peso: 15 },
+                ventilacao: { nota: 4, peso: 10 },
+                luminosidade: { nota: 3, peso: 10 },
+                sazonalidade: { nota: 4, peso: 5 },
+                floracao: { nota: 5, peso: 20 }
+            }
+        }
+    },
     adaptacaoRegional: {
-        litoralQuente: { nota: 5, texto: "Use luz alta filtrada, ventilação constante, substrato aberto e rega matinal. Em períodos de chuva contínua, aumente o intervalo entre irrigações e mantenha bainhas e botões arejados." },
-        montanhaFrio: { nota: 3, texto: "Desenvolve-se bem com noites frescas. Proteja de geadas e reduza a água em semanas frias e chuvosas." }
+        litoralQuente: { texto: "Use luz alta filtrada, ventilação constante, substrato aberto e rega matinal. Em períodos de chuva contínua, aumente o intervalo entre irrigações e mantenha bainhas e botões arejados." },
+        montanhaFrio: { texto: "Desenvolve-se bem com noites frescas. Proteja de geadas e reduza a água em semanas frias e chuvosas." }
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {
