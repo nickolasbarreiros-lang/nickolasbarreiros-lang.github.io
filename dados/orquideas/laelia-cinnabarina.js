@@ -29,7 +29,7 @@ export const laeliaCinnabarina = {
     climaFloracao: "Pseudobulbos maduros, alta luminosidade e boa diferença térmica entre dia e noite favorecem a floração. No litoral, preserve claridade elevada, mas evite que vaso e pedras acumulem calor; reduza a rega apenas conforme a atividade diminui, sem criar seca artificial extrema.",
     iluminacao: {
         sombrite: "30% a 50% — 40% a 50% no litoral quente",
-        solDireto: "Somente suave e após aclimatação",
+        solDireto: "Permitido com restrição",
         horario: "Bem cedo pela manhã",
         observacoes: "Necessita muita claridade, mas não use horários fixos como regra. No verão de litoral quente, priorize 40% a 50% de sombreamento e circulação intensa. Crescimento compacto e pseudobulbos firmes são indicadores melhores que buscar avermelhamento das folhas."
     },

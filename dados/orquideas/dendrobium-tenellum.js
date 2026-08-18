@@ -32,7 +32,7 @@ export const dendrobiumTenellum = {
     "climaFloracao": "A indução floral é favorecida por hastes maduras, luz filtrada forte, noites mais frescas e redução de água e adubação no inverno. A planta não precisa de seca absoluta. Durante o descanso, mantenha umidade ambiental e intervenha apenas se as hastes começarem a enrugar excessivamente.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Somente muito fraco",
+        "solDireto": "Permitido com restrição",
         "horario": "Início da manhã",
         "observacoes": "Precisa de luz filtrada média a forte e excelente circulação de ar. Sombra excessiva alonga as hastes e reduz a floração; sol direto intenso queima rapidamente os tecidos finos."
     },

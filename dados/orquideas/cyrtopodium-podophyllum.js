@@ -31,7 +31,7 @@ export const cyrtopodiumPodophyllum = {
     "climaFloracao": "A espécie ocorre desde a costa muito quente até altitudes próximas de 1.100 m, portanto não deve ser classificada por uma única temperatura. No litoral, o calor não é o principal problema; são mais importantes sol suficiente, drenagem extrema e respeito ao ritmo sazonal. Durante o crescimento, água e nutrientes sustentam pseudobulbos robustos. Quando as folhas amarelecem e caem, a atividade diminui e a rega deve acompanhar essa mudança, sem transformar a dormência em uma seca absoluta automática.",
     "iluminacao": {
         "sombrite": "30% a 50%",
-        "solDireto": "Sim, após aclimatação gradual",
+        "solDireto": "Permitido com restrição",
         "horario": "Manhã e parte da tarde",
         "observacoes": "É uma espécie de alta luminosidade. Plantas encontradas em restinga podem crescer muito próximas ao litoral, mas exemplares cultivados sob sombra não devem ser transferidos abruptamente ao sol pleno. Pseudobulbos grossos e crescimento compacto indicam luz adequada."
     },

@@ -30,7 +30,7 @@ export const cattleyaIntermedia = {
     climaFloracao: "A floração depende sobretudo da maturação completa de pseudobulbos robustos sob boa luminosidade. Cattleya intermedia não necessita de repouso seco rigoroso: após o amadurecimento do crescimento, ajuste as regas à temperatura, ventilação e velocidade de secagem. Touceiras adultas com várias frentes acumulam mais reservas e podem produzir diversas inflorescências simultaneamente.",
     iluminacao: {
         sombrite: "40% a 60% — cerca de 50% como referência inicial",
-        solDireto: "Sim, suave e com aclimatação",
+        solDireto: "Permitido com restrição",
         horario: "Primeiras horas da manhã",
         observacoes: "Necessita luminosidade alta filtrada. O melhor indicador é o conjunto de pseudobulbos firmes e compactos, folhas rígidas em verde médio a verde-claro e floração regular. Sombra excessiva produz crescimento alongado e reduz a florada; sol forte sem aclimatação pode causar amarelecimento e queimaduras."
     },

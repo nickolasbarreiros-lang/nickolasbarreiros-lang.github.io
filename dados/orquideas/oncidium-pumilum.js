@@ -32,7 +32,7 @@ export const oncidiumPumilum = {
     "climaFloracao": "A floração é favorecida por touceiras maduras, muita luz filtrada e boa ventilação. Após a maturação dos novos crescimentos, reduza moderadamente a água sem impor seca severa. Plantas não divididas e com várias frentes costumam produzir maior número de hastes simultaneamente.",
     "iluminacao": {
         "sombrite": "40% a 50%",
-        "solDireto": "Somente suave",
+        "solDireto": "Permitido com restrição",
         "horario": "Até aproximadamente 08:30",
         "observacoes": "Necessita claridade intensa. Folhas firmes e verde-médio são desejáveis; tons muito escuros indicam sombra. Leve pigmentação arroxeada pode surgir sob alta luz sem representar necessariamente dano."
     },

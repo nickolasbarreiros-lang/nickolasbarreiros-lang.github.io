@@ -27,7 +27,7 @@ export const ornithophoraRadicans = {
     climaFloracao: "A espécie não exige repouso seco severo. A floração é favorecida por crescimento contínuo, luminosidade filtrada moderada, noites ligeiramente mais amenas e touceiras bem estabelecidas. No litoral quente, o maior inimigo não é o calor isoladamente, mas o calor parado associado ao excesso de umidade. Raízes bem oxigenadas produzem crescimento constante e mais hastes florais.",
     iluminacao: {
         sombrite: "50% a 70%",
-        solDireto: "Sim",
+        solDireto: "Permitido",
         horario: "Até 08:30, com aclimatação",
         observacoes: "Prefere meia-sombra clara. Folhas muito escuras indicam sombra excessiva; amarelecimento ou aquecimento foliar indicam excesso de sol."
     },

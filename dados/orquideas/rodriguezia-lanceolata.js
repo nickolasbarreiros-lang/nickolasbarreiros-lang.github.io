@@ -32,7 +32,7 @@ export const rodrigueziaLanceolata = {
     "climaFloracao": "Pode florescer após a maturação de novos pseudobulbos e, em plantas vigorosas, repetir a floração em mais de uma época do ano. A combinação de meia-sombra clara, raízes ativas, água frequente sem encharcamento e boa circulação de ar favorece hastes longas e floríferas.",
     "iluminacao": {
         "sombrite": "50% a 70%",
-        "solDireto": "Somente suave e aclimatado",
+        "solDireto": "Permitido com restrição",
         "horario": "Até aproximadamente 08:30",
         "observacoes": "Prefere meia-sombra clara. Folhas firmes e verde-médio indicam bom equilíbrio. Sombra excessiva reduz a emissão de hastes; sol forte aquece as folhas e desidrata rapidamente as raízes finas."
     },

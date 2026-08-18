@@ -1,0 +1,8 @@
+PADRÃO DEFINITIVO — SOL DIRETO
+
+1. Permitido
+2. Permitido com restrição
+3. Não permitido
+
+Horário recomendado só aparece quando existe informação temporal real (manhã, tarde, primeiras horas, faixa de horas etc.).
+Com 'Não permitido', o horário fica sempre oculto.

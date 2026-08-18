@@ -27,7 +27,7 @@ export const sophronitisCernua = {
     climaFloracao: "A espécie responde melhor à combinação de pseudobulbos maduros, luminosidade alta, ventilação constante e alguma diferença térmica entre dia e noite. Populações litorâneas mostram que frio intenso não é requisito universal. No litoral quente, o ponto-chave é manter raízes aeradas e evitar abafamento durante noites quentes.",
     iluminacao: {
         sombrite: "30% a 50%",
-        solDireto: "Sim, suave e após aclimatação",
+        solDireto: "Permitido com restrição",
         horario: "Início da manhã até 09:00 ou 10:00",
         observacoes: "Folhas verde-claras com tonalidade avermelhada ou arroxeada indicam boa luminosidade. Folhas verde-escuras, moles ou brotações alongadas indicam falta de luz."
     },

@@ -31,7 +31,7 @@ export const rodricidium = {
     "climaFloracao": "Pode florescer após a maturação de novos pseudobulbos, frequentemente mais de uma vez ao ano. Alta luminosidade filtrada, raízes saudáveis e secagem rápida favorecem novas hastes. O replante deve coincidir com a emissão de brotos e raízes novas para evitar longa estagnação.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Somente muito fraco",
+        "solDireto": "Permitido com restrição",
         "horario": "Até cerca de 08:30–09:00",
         "observacoes": "Folhas verde-claro costumam indicar boa luz. Verde muito escuro sugere sombra; avermelhamento ou manchas secas indicam excesso."
     },

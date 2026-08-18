@@ -30,7 +30,7 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
     "climaFloracao": "A floração depende de crescimento vegetativo completo, pseudobulbo firme, boa luminosidade e raízes funcionais. O híbrido tolera melhor o calor e pequenas oscilações de rega do que C. schilleriana pura, mas ainda sofre quando permanece em substrato velho ou úmido por tempo prolongado. Após o pseudobulbo amadurecer, uma redução moderada de água e nitrogênio ajuda a direcionar as reservas para a floração. Não necessita repouso seco rígido; a prioridade é impedir crescimento contínuo e mole causado por excesso de adubação e sombra.",
     "iluminacao": {
         "sombrite": "40% a 50%",
-        "solDireto": "Sim, fraco e aclimatado",
+        "solDireto": "Permitido com restrição",
         "horario": "Início da manhã",
         "observacoes": "Luz alta favorece pseudobulbos compactos, boa pigmentação e floradas mais abundantes. Folhas muito escuras indicam sombra; manchas secas e amarelecimento sugerem excesso de sol."
     },

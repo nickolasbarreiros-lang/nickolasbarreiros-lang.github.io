@@ -593,42 +593,28 @@ function criarCardIluminacao(iluminacao) {
         });
     }
 
-    const valorSolOriginal = String(iluminacao.solDireto || "").trim();
-    const solNormalizado = valorSolOriginal.toLowerCase();
+    const valorSol = String(iluminacao.solDireto || "").trim();
+    const solNormalizado = valorSol.toLowerCase();
 
-    const termosSemSolDireto = [
-        "não permitido", "nao permitido",
-        "não recomendado", "nao recomendado",
-        "não necessário", "nao necessario",
-        "evitar", "evite",
-        "sem sol direto",
-        "não expor", "nao expor",
-        "não usar", "nao usar",
-        "dispensável", "dispensavel"
-    ];
+    let textoSol = valorSol;
+    let iconeSol = "🌤️";
 
-    const bloquearSolDireto =
-        solNormalizado === "não" ||
-        solNormalizado === "nao" ||
-        termosSemSolDireto.some(
-            termo => solNormalizado.includes(termo)
-        );
-
-    const aceitaSol = !bloquearSolDireto && solNormalizado.startsWith("sim");
-    let textoSol = bloquearSolDireto ? "Não permitido" : valorSolOriginal;
-
-    if (!bloquearSolDireto && solNormalizado === "sim") {
-        textoSol = "Permitido";
-    } else if (
-        !bloquearSolDireto &&
-        aceitaSol &&
-        valorSolOriginal.includes(",")
+    if (
+        solNormalizado === "não permitido" ||
+        solNormalizado === "nao permitido"
     ) {
-        textoSol = valorSolOriginal.split(",").slice(1).join(",").trim();
-        textoSol = textoSol.charAt(0).toUpperCase() + textoSol.slice(1);
+        textoSol = "Não permitido";
+        iconeSol = "🚫";
+    } else if (
+        solNormalizado === "permitido com restrição" ||
+        solNormalizado === "permitido com restricao"
+    ) {
+        textoSol = "Permitido com restrição";
+        iconeSol = "⚠️";
+    } else if (solNormalizado === "permitido" || solNormalizado === "sim") {
+        textoSol = "Permitido";
+        iconeSol = "🌤️";
     }
-
-    const iconeSol = aceitaSol ? "🌤️" : "🚫";
 
     const indicadores = [
         criarIndicadorRotulado(
@@ -646,7 +632,7 @@ function criarCardIluminacao(iluminacao) {
         /\b(?:[0-1]?\d|2[0-3])\s*(?:h|:)\s*(?:[0-5]\d)?\b/i.test(horario) ||
         /(manhã|manha|tarde|amanhecer|entardecer|início do dia|inicio do dia|primeiras horas|final do dia|fim do dia|antes das|após as|apos as)/i.test(horario);
 
-    if (!bloquearSolDireto && horario && horarioEhTemporal) {
+    if (textoSol !== "Não permitido" && horario && horarioEhTemporal) {
         indicadores.push(
             criarIndicadorRotulado(
                 "Horário recomendado",

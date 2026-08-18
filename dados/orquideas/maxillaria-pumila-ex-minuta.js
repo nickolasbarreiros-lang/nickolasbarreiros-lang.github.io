@@ -28,7 +28,7 @@ export const maxillariaPumilaExMinuta = {
     "climaFloracao": "IOSPE descreve a espécie como miniatura de crescimento quente, florescendo na primavera e no verão em hastes curtas de cerca de 1,5 cm. Não há necessidade de repouso seco. Para florescer bem, a planta precisa permanecer em touceira, com raízes funcionais e boa luz filtrada. No litoral quente, a temperatura é favorável; o maior risco é o abafamento de raízes muito finas em esfagno compactado ou substrato velho.",
     "iluminacao": {
         "sombrite": "65% a 75%",
-        "solDireto": "Somente sol muito suave",
+        "solDireto": "Permitido com restrição",
         "horario": "Até cerca de 08h30",
         "observacoes": "Prefere luz filtrada clara, sem aquecimento da touceira. Folhas compactas e verde-vivo indicam equilíbrio. Amarelecimento, ressecamento das pontas ou vermelhidão intensa sugerem excesso; crescimento frouxo, alongado e verde-escuro indica pouca luz."
     },

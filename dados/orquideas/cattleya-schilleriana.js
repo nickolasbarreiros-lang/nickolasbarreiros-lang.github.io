@@ -30,7 +30,7 @@ export const cattleyaSchilleriana = {
     "climaFloracao": "A indução floral está associada ao amadurecimento completo do pseudobulbo, à alta luminosidade filtrada, ao bom estado das raízes e a uma leve redução da disponibilidade de água após o término do crescimento. Não se trata de uma dormência seca rígida: no habitat, a planta continua recebendo umidade noturna, orvalho e chuvas ocasionais, mas as raízes secam rapidamente devido à ventilação. A floração é prejudicada quando o pseudobulbo permanece fino por falta de luz, quando o sistema radicular foi perdido por encharcamento ou quando a planta é replantada pouco antes da maturação. Em regiões quentes, a diferença entre dia e noite, a circulação de ar e a secagem radicular são mais importantes que o frio. Uma planta bem estabelecida pode emitir nova frente e florescer novamente, mas isso depende do vigor acumulado e não deve ser forçado com excesso de adubo.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Sim, suave e aclimatado",
+        "solDireto": "Permitido com restrição",
         "horario": "Até aproximadamente 09:00",
         "observacoes": "Folhas verde-claras com discreta pigmentação arroxeada indicam luminosidade adequada. Folhas muito escuras, moles ou pseudobulbos alongados sugerem sombra excessiva. Amarelecimento rápido, manchas secas e descoloração intensa indicam excesso de sol ou superaquecimento."
     },

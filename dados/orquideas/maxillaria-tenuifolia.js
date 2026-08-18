@@ -28,7 +28,7 @@ export const maxillariaTenuifolia = {
     "climaFloracao": "IOSPE registra florescimento na primavera e no verão, com flores de aproximadamente 3,9–5 cm. Após a floração, a fonte menciona um período mais seco; em cultivo no litoral quente, isso deve ser interpretado como redução moderada da rega, e não como repouso seco absoluto. Mantenha pseudobulbos firmes, boa luz e raízes arejadas, ajustando a água à velocidade real de secagem.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Somente sol suave",
+        "solDireto": "Permitido com restrição",
         "horario": "Até aproximadamente 08:30",
         "observacoes": "Ofereça luz filtrada forte durante todo o dia. Folhas verde-médio a verde-claro e firmes indicam bom equilíbrio. Folhagem muito escura, mole e crescimento abundante sem flores sugerem pouca luz. Aumente a claridade gradualmente para não queimar folhas acostumadas à sombra."
     },

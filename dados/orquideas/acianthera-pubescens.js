@@ -27,7 +27,7 @@ export const aciantheraPubescens = {
     climaFloracao: "A faixa de aproximadamente 500–1.900 m explica por que fontes podem classificar a espécie de forma diferente. Em vez de impor uma categoria única, trate a procedência como fator principal: clones de menor altitude tendem a tolerar melhor o litoral quente, enquanto materiais montanos podem perder vigor quando as noites permanecem quentes por longos períodos. Em todos os casos, circulação de ar e raízes oxigenadas reduzem o estresse térmico.",
     iluminacao: {
         sombrite: "60% a 70% como faixa inicial",
-        solDireto: "Somente muito suave e após aclimatação",
+        solDireto: "Permitido com restrição",
         horario: "Primeiras horas da manhã",
         observacoes: "Prefere luz filtrada de baixa a média intensidade. A espécie aparece em referências como de sombra, mas isso não significa escuridão. Folhas firmes e espessas em verde médio/oliva são um bom indicador; folhas excessivamente escuras com baixa floração podem pedir mais claridade, enquanto amarelecimento e aquecimento rápido pedem mais proteção."
     },

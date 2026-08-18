@@ -22,7 +22,7 @@ export const encycliaOncidioides = {
     climaFloracao: "A espécie floresce melhor depois de formar pseudobulbos fortes sob luz alta. Regue e adube com regularidade enquanto houver brotos e raízes ativos; ao amadurecer o crescimento, aumente moderadamente a secagem entre regas. A faixa natural de baixa altitude mostra que frio não é requisito para florescer.",
     iluminacao: {
         sombrite: "40% a 50%; em regiões serranas, 30% a 40% após aclimatação",
-        solDireto: "Sim, suave e aclimatado",
+        solDireto: "Permitido com restrição",
         horario: "Até aproximadamente 09:00",
         observacoes: "Folhas firmes em verde-claro indicam boa luminosidade. Folhas muito escuras e pseudobulbos alongados sugerem sombra excessiva; amarelecimento intenso, manchas secas ou aquecimento excessivo indicam sol demais."
     },

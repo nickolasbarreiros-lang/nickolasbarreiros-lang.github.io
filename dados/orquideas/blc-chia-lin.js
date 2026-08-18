@@ -27,7 +27,7 @@ export const blcChiaLin = {
     climaFloracao: "A próxima floração é construída durante a formação do novo pseudobulbo. Enquanto brotos e raízes estiverem ativos, forneça água, nutrição leve e boa luminosidade. Depois que a folha estiver firme e o pseudobulbo maduro, reduza naturalmente a adubação e mantenha luz alta filtrada. Não é necessário forçar a floração com seca artificial ou grandes doses de fósforo; genética, maturação, luz e saúde radicular têm papel mais importante.",
     iluminacao: {
         sombrite: "50% a 60% — 50% como referência inicial",
-        solDireto: "Sim, suave",
+        solDireto: "Permitido com restrição",
         horario: "Primeiras horas da manhã",
         observacoes: "Necessita mais luz do que Phalaenopsis e muitos Oncidium. Folhas muito escuras e pseudobulbos alongados podem indicar pouca luz, enquanto sol forte do meio do dia aumenta o risco de superaquecimento e queimaduras."
     },

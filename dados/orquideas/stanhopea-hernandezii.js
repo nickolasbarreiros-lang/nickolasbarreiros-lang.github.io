@@ -32,7 +32,7 @@ export const stanhopeaHernandezii = {
     "climaFloracao": "A floração depende de pseudobulbos bem formados, alta disponibilidade hídrica no crescimento, noites amenas e espaço físico livre para a haste geotrópica. Após a maturação, reduza apenas discretamente a água. Assim que a haste aparecer sob a cesta, mantenha o recipiente imóvel e evite qualquer replante.",
     "iluminacao": {
         "sombrite": "60% a 70%",
-        "solDireto": "Somente extremamente fraco",
+        "solDireto": "Permitido com restrição",
         "horario": "Até aproximadamente 07:30",
         "observacoes": "Prefere meia-sombra clara. Folhas verde-médio indicam boa condição. Sombra profunda reduz a floração; sol forte queima as folhas plissadas."
     },

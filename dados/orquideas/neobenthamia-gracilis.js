@@ -28,7 +28,7 @@ export const neobenthamiaGracilis = {
     "climaFloracao": "A floração aparece em caules plenamente maduros e é favorecida por alta luminosidade, crescimento vigoroso e boa nutrição. IOSPE registra floração do inverno à primavera no habitat, mas o calendário pode deslocar-se em cultivo. A espécie não precisa de seca severa: uma redução discreta da água após a maturação é suficiente, sempre mantendo raízes vivas e arejadas. Touceiras grandes, com vários caules maduros, tendem a produzir cabeças florais mais cheias.",
     "iluminacao": {
         "sombrite": "30% a 50%",
-        "solDireto": "Aceita sol suave",
+        "solDireto": "Permitido com restrição",
         "horario": "Manhã até cerca de 9h",
         "observacoes": "Mais luminosa que a maioria das epífitas. Faça aclimatação gradual. Folhas muito escuras e caules finos indicam falta de luz."
     },

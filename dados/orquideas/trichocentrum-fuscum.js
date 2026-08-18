@@ -32,7 +32,7 @@ export const trichocentrumFuscum = {
     "climaFloracao": "A floração é favorecida por alta luminosidade filtrada, folhas maduras, ventilação intensa e raízes que alternam hidratação com secagem rápida. Não necessita de repouso absolutamente seco, mas após maturação e nos meses frios o intervalo entre regas deve aumentar.",
     "iluminacao": {
         "sombrite": "40% a 50%",
-        "solDireto": "Somente suave e aclimatado",
+        "solDireto": "Permitido com restrição",
         "horario": "Até aproximadamente 08:30",
         "observacoes": "Requer claridade elevada. Folhas verde-oliva e compactas indicam boa luz; folhas muito escuras sugerem sombra. Manchas claras, secas ou amarelamento forte indicam excesso de sol sem aclimatação."
     },

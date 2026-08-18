@@ -32,7 +32,7 @@ export const coelogyneAsperata = {
     "climaFloracao": "A floração depende de touceira bem estabelecida, pseudobulbos maduros, calor estável, luminosidade filtrada e umidade contínua nas raízes. Não imponha o repouso seco usado em espécies de altitude. Após a maturação, reduza apenas discretamente as regas. Touceiras grandes florescem melhor porque acumulam mais reservas e produzem vários brotos simultaneamente. Temperaturas abaixo de 14 °C podem paralisar crescimento, enraizamento e formação de hastes.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Somente muito fraco",
+        "solDireto": "Permitido com restrição",
         "horario": "Início da manhã",
         "observacoes": "Prefere luz filtrada brilhante. Folhas verde-médio e firmes indicam boa exposição. Folhas muito escuras sugerem sombra excessiva; amarelecimento, áreas secas e desidratação rápida indicam sol forte ou calor acumulado."
     },

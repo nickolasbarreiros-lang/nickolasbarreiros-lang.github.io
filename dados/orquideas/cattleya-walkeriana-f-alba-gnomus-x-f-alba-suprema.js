@@ -30,7 +30,7 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     climaFloracao: "A floração é favorecida por pseudobulbos completamente maduros, luminosidade alta, boa ventilação e uma fase posterior com intervalos maiores entre as regas. A espécie frequentemente produz um crescimento floral especializado, curto e sem folha, originado próximo ao rizoma. Não é necessário impor seca absoluta: o repouso deve ser lido pela atividade das raízes, condição dos pseudobulbos, suporte e clima.",
     iluminacao: {
         sombrite: "30% a 50%",
-        solDireto: "Sim, com aclimatação",
+        solDireto: "Permitido com restrição",
         horario: "Primeiras horas da manhã",
         observacoes: "Necessita luz muito alta para formar pseudobulbos compactos e florescer. Em Litoral de clima quente, prefira sol suave bem cedo e proteção contra a radiação forte do fim da manhã e da tarde. Folhas devem permanecer firmes, em verde médio a verde-claro, sem amarelecimento excessivo ou queimaduras."
     },

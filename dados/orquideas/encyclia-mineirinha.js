@@ -19,7 +19,7 @@ export const encycliaMineirinha = {
     habitat: "Sem habitat natural · parentais de florestas e ambientes sazonais.",
     clima: "Quente a intermediário · ventilado.",
     climaFloracao: "A floração depende sobretudo de pseudobulbos bem amadurecidos sob boa luminosidade. Durante a brotação, mantenha água e nutrição regulares; depois da maturação, aumente moderadamente o intervalo entre regas. Como o híbrido combina parentais de ecologias diferentes, não imponha repouso seco rígido.",
-    iluminacao: { sombrite: "40% a 50%", solDireto: "Sim, suave", horario: "Até 09:00", observacoes: "Folhas firmes, eretas e verde-claras indicam luz adequada; folhas escuras e moles sinalizam sombra excessiva." },
+    iluminacao: { sombrite: "40% a 50%", solDireto: "Permitido com restrição", horario: "Até 09:00", observacoes: "Folhas firmes, eretas e verde-claras indicam luz adequada; folhas escuras e moles sinalizam sombra excessiva." },
     floracao: "Mais comum da primavera ao verão; pode variar conforme o clone e o ciclo de maturação dos pseudobulbos.",
     adubacao: "🌿 Orgânica: bokashi leve em sachê, renovado a cada 60 a 90 dias.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/3 a 1/2 da dose semanalmente ou a cada 15 dias durante a brotação.\n🧪 Liberação lenta: poucos grânulos de Osmocote no canto do vaso, longe das raízes novas.",
     rega: "Regue abundantemente durante a brotação e deixe o substrato secar completamente entre as regas. Após o amadurecimento dos pseudobulbos, reduza a frequência. Nunca use prato sob o vaso nem permita água acumulada no fundo.",

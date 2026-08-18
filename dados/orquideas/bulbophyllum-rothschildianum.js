@@ -22,7 +22,7 @@ export const bulbophyllumRothschildianum = {
     climaFloracao: "IOSPE registra crescimento de quente a fresco e floradas na primavera e no outono. Essa amplitude não significa que a espécie precise alternar extremos térmicos; na prática, pseudobulbos maduros, noites um pouco mais amenas, luz filtrada clara, água regular e ventilação parecem mais importantes. No litoral quente, deve-se compensar noites quentes com circulação de ar, drenagem muito eficiente e ausência de superaquecimento radicular.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Apenas muito suave",
+        solDireto: "Permitido com restrição",
         horario: "",
         observacoes: "Prefere meia-sombra clara. Evite tanto sol forte, que aquece folhas e rizoma, quanto sombra profunda, que reduz maturação dos pseudobulbos e floração."
     },

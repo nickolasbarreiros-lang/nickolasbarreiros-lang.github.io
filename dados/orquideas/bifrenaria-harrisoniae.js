@@ -27,7 +27,7 @@ export const bifrenariaHarrisoniae = {
     climaFloracao: "A floração depende de pseudobulbos completamente maduros, alta luminosidade filtrada, raízes bem ventiladas e leve redução da frequência de rega após o crescimento. Não necessita de repouso seco rigoroso; a planta deve permanecer hidratada sem substrato constantemente molhado.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Sim, suave e com aclimatação",
+        solDireto: "Permitido com restrição",
         horario: "Primeiras horas da manhã",
         observacoes: "Necessita luminosidade alta. Folhas muito escuras e pseudobulbos alongados sugerem excesso de sombra; uma leve pigmentação avermelhada pode ser normal, enquanto manchas secas e amareladas indicam queimadura."
     },

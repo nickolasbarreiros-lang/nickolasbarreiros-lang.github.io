@@ -32,7 +32,7 @@ export const phaiusTankervilleaeAlba = {
     "climaFloracao": "A floração depende principalmente de pseudobulbos maduros e bem abastecidos após um longo período de crescimento ativo. Durante a formação de folhas e pseudobulbos, água e nutrição não devem faltar. Com a maturação, reduza apenas moderadamente adubo e rega conforme a evaporação cair; não imponha repouso seco severo. No litoral quente, a espécie costuma vegetar muito bem, desde que o substrato permaneça úmido sem ficar compacto ou anaeróbico.",
     "iluminacao": {
         "sombrite": "50% a 70%",
-        "solDireto": "Apenas sol fraco",
+        "solDireto": "Permitido com restrição",
         "horario": "Até cerca de 08:00",
         "observacoes": "Prefere luz filtrada de média intensidade. Folhas verde-médio e firmes indicam bom equilíbrio. Sombra profunda favorece folhas grandes, mas pode reduzir a floração; sol forte aquece e queima rapidamente as lâminas plissadas."
     },

@@ -32,7 +32,7 @@ export const cattleyaWalkeriana = {
     "climaFloracao": "A floração depende de pseudobulbos completamente maduros, folhas firmes, raízes preservadas, luz elevada e redução gradual das regas após o crescimento. A espécie não deve ser tratada como permanentemente seca: durante brotação e enraizamento precisa de água abundante e nutrição leve. Quando as pontas radiculares reduzem a atividade e os pseudobulbos estão cheios, aumentam-se os intervalos e suspende-se a adubação forte. Pouca luz, excesso de nitrogênio e raízes danificadas reduzem a formação do broto floral.",
     "iluminacao": {
         "sombrite": "30% a 50%",
-        "solDireto": "Sim, suave e após aclimatação",
+        "solDireto": "Permitido com restrição",
         "horario": "Primeiras horas da manhã",
         "observacoes": "Folhas verde-claras, rígidas e compactas, às vezes com leve pigmentação amarelada ou avermelhada, indicam boa luz. Folhas muito escuras e pseudobulbos alongados indicam sombra excessiva. Manchas secas e clareamento repentino indicam sol forte sem aclimatação."
     },

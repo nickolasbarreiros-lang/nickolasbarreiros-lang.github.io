@@ -28,7 +28,7 @@ export const miltoniaClowesii = {
     "climaFloracao": "A haste surge após a maturação completa do pseudobulbo. Luz filtrada abundante, diferença moderada entre dia e noite e crescimento sem interrupções favorecem a indução. Não exige seca rigorosa. O novo pseudobulbo precisa amadurecer cheio e firme, pois suas reservas sustentam a haste longa e a abertura simultânea de várias flores.",
     "iluminacao": {
         "sombrite": "50% a 70%",
-        "solDireto": "Somente sol muito suave",
+        "solDireto": "Permitido com restrição",
         "horario": "Até aproximadamente 08:30",
         "observacoes": "Luz filtrada média a forte. Folhas verde-claro e firmes indicam bom nível; folhas muito escuras, compridas e moles sugerem sombra excessiva. Evite calor foliar no meio do dia, especialmente em regiões litorâneas."
     },

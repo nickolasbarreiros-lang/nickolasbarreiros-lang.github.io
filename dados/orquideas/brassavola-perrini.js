@@ -27,7 +27,7 @@ export const brassavolaPerrini = {
     climaFloracao: "A floração é favorecida por luz intensa, crescimento plenamente amadurecido, boa ventilação e diferença moderada entre as temperaturas do dia e da noite. Sombra excessiva e adubação nitrogenada contínua produzem folhas longas e verdes, mas poucas flores.",
     iluminacao: {
         sombrite: "30% a 40%",
-        solDireto: "Sim, suave",
+        solDireto: "Permitido com restrição",
         horario: "Até aproximadamente 09:30",
         observacoes: "Exige alta luminosidade, com sombreamento de 30% a 40% ou sol filtrado intenso. Folhas firmes de coloração verde-clara indicam luminosidade ideal. O amarelamento localizado ou o aparecimento de áreas secas sinalizam queimaduras por sol excessivo."
     },

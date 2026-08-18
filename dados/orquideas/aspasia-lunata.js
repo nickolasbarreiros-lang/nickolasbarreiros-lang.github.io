@@ -27,7 +27,7 @@ export const aspasiaLunata = {
     climaFloracao: "A floração é favorecida por pseudobulbos maduros, boa luminosidade filtrada, ventilação constante e crescimento vegetativo vigoroso. Não necessita de repouso seco rigoroso; após a maturação dos pseudobulbos, apenas aumente moderadamente o intervalo entre as regas conforme a evaporação diminuir.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Apenas muito suave e após aclimatação",
+        solDireto: "Permitido com restrição",
         horario: "Primeiras horas da manhã",
         observacoes: "Prefere luz filtrada de média intensidade. Folhas muito verde-escuras acompanhadas de baixa floração indicam sombra excessiva; amarelamento ou manchas secas sinalizam radiação forte demais. Em clima litorâneo quente, 60% a 70% de sombreamento costuma oferecer bom equilíbrio."
     },

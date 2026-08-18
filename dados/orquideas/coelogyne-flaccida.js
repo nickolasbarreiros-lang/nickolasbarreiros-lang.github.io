@@ -32,7 +32,7 @@ export const coelogyneFlaccida = {
     "climaFloracao": "A floração é favorecida por pseudobulbos maduros, noites mais frescas, luz filtrada e redução moderada da água após o crescimento. Não exige repouso tão seco quanto Coelogyne cristata, mas também não deve permanecer encharcada no inverno. A planta precisa ficar elevada e ventilada, tanto para acomodar as hastes pendentes quanto para dissipar o perfume intenso e evitar fungos.",
     "iluminacao": {
         "sombrite": "60% a 70%",
-        "solDireto": "Somente muito fraco",
+        "solDireto": "Permitido com restrição",
         "horario": "Início da manhã",
         "observacoes": "Prefere luz filtrada média a forte. Folhas verde-claro e firmes indicam boa iluminação. Folhas muito escuras sugerem sombra excessiva; amarelecimento e manchas secas indicam sol forte ou calor."
     },

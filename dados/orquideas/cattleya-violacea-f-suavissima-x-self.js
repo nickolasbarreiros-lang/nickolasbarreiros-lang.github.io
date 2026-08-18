@@ -29,7 +29,7 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     "climaFloracao": "A floração é favorecida por pseudobulbos maduros, noites quentes, luminosidade constante e sistema radicular saudável. A planta não deve ser induzida por frio ou seca intensa. Temperaturas baixas, água muito salina, fertilização concentrada e substrato degradado interrompem o crescimento e reduzem o tamanho e a qualidade das flores. Como se trata de progênie self, o período exato de floração pode variar entre indivíduos.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Somente suave",
+        "solDireto": "Permitido com restrição",
         "horario": "Manhã cedo",
         "observacoes": "Luz brilhante e filtrada é essencial. Folhas verde-médio e pseudobulbos firmes indicam equilíbrio. Sombra produz pseudobulbos finos; sol forte causa amarelecimento e queimaduras."
     },

@@ -30,7 +30,7 @@ export const laeliaCaulencens = {
     climaFloracao: "A floração é favorecida por pseudobulbos bem maduros, alta luminosidade e raízes ativas. Após o crescimento, reduza a frequência das regas conforme a atividade cair, mas sem impor seca severa. No litoral quente, controle principalmente o superaquecimento do recipiente e das raízes durante o dia e o abafamento noturno.",
     iluminacao: {
         sombrite: "30% a 50% — 40% a 50% no litoral quente",
-        solDireto: "Somente suave e com aclimatação",
+        solDireto: "Permitido com restrição",
         horario: "Primeiras horas da manhã",
         observacoes: "Necessita muita luz, mas em litoral quente não comece com apenas 30% de sombreamento. Crescimento compacto, pseudobulbos firmes e folha rígida são melhores indicadores que pigmentação avermelhada. Evite pedra ou vaso aquecendo diretamente ao sol forte."
     },

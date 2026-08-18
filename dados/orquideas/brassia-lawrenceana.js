@@ -29,7 +29,7 @@ export const brassiaLawrenceana = {
     climaFloracao: "A espécie responde bem a temperaturas quentes a intermediárias, com boa luz filtrada e raízes ativas. No litoral quente, adapta-se bem desde que o substrato drene rapidamente e haja circulação de ar. Uma pequena redução de água após a maturação dos pseudobulbos pode acompanhar a menor atividade, sem impor seca severa.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Somente sol fraco da manhã, se aclimatada",
+        solDireto: "Permitido com restrição",
         horario: "Início da manhã",
         observacoes: "Precisa de boa luminosidade para formar pseudobulbos fortes e florescer bem. Sombra profunda reduz a floração; sol direto forte pode queimar as folhas e aquecer excessivamente o vaso."
     },

@@ -31,7 +31,7 @@ export const colmanaraWildcat = {
     "climaFloracao": "A genética do grex reúne espécies de ambientes montanos e intermediários, mas o híbrido é geralmente mais tolerante que muitos de seus ancestrais. No litoral quente, não é necessário tentar reproduzir clima frio: o objetivo prático é evitar noites permanentemente abafadas, manter ventilação e permitir pequena amplitude térmica quando possível. Pseudobulbos maduros e raízes preservadas são mais importantes que um calendário rígido.",
     "iluminacao": {
         "sombrite": "60% a 70%",
-        "solDireto": "Somente muito suave",
+        "solDireto": "Permitido com restrição",
         "horario": "Até cerca de 8h30",
         "observacoes": "Luz filtrada média a forte, normalmente um pouco abaixo de Cattleya. Folhas verde-médio e pseudobulbos compactos indicam bom equilíbrio. Sombra profunda reduz hastes; excesso de sol combinado com calor pode amarelar e marcar as folhas."
     },

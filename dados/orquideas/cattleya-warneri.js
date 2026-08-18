@@ -31,7 +31,7 @@ export const cattleyaWarneri = {
     "climaFloracao": "Depois que o pseudobulbo termina o crescimento e forma a espata, a planta pode permanecer semanas ou meses em aparente repouso enquanto acumula reservas. Luz alta no inverno, substrato arejado e regas mais espaçadas são importantes, sem impor seca absoluta. Quando as temperaturas aumentam na primavera, os botões podem se desenvolver dentro de uma espata externamente seca. Excesso de água, pouca luz, pseudobulbos finos e excesso de nitrogênio reduzem a qualidade da florada.",
     "iluminacao": {
         "sombrite": "40% a 50%",
-        "solDireto": "Sim, suave e aclimatado",
+        "solDireto": "Permitido com restrição",
         "horario": "Manhã",
         "observacoes": "Folhas verde-médio a verde-claro, rígidas e pseudobulbos cheios indicam luz adequada. Folhas muito escuras, pseudobulbos finos e espatas vazias recorrentes sugerem sombra excessiva. Amarelecimento brusco e manchas secas indicam sol forte ou superaquecimento do vaso."
     },

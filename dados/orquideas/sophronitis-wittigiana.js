@@ -33,7 +33,7 @@ export const sophronitisWittigiana = {
     "climaFloracao": "A indução floral está ligada à maturação dos pseudobulbos, boa luminosidade filtrada e noites mais amenas. A faixa altitudinal ampla indica alguma plasticidade, mas o calor noturno prolongado continua sendo o maior desafio no litoral. Não necessita de repouso seco severo: apenas redução proporcional das regas quando a evaporação cai.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Somente muito fraco",
+        "solDireto": "Permitido com restrição",
         "horario": "Antes das 08:00",
         "observacoes": "Precisa de luz filtrada brilhante para florescer, mas as folhas aquecem rapidamente. Folhas verde-médio a verde-claro e pseudobulbos compactos indicam boa exposição. Folhas muito escuras indicam sombra; avermelhamento intenso, amarelecimento e áreas secas indicam excesso de luz ou calor."
     },

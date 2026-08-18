@@ -32,7 +32,7 @@ export const stanhopeaGuttulata = {
     "climaFloracao": "A floração depende de pseudobulbos bem formados, umidade regular, noites amenas e espaço físico para a haste geotrópica. Não necessita de repouso seco severo. Após a maturação, reduza apenas discretamente a água. Touceiras grandes e centralizadas no cesto tendem a produzir hastes mais vigorosas e com trajeto mais previsível.",
     "iluminacao": {
         "sombrite": "60% a 70%",
-        "solDireto": "Somente muito fraco",
+        "solDireto": "Permitido com restrição",
         "horario": "Até aproximadamente 07:30",
         "observacoes": "Prefere sombra clara. Folhas verde-claro a verde-médio indicam bom nível de luz. Sombra profunda alonga folhas e reduz floradas; sol forte queima rapidamente as lâminas plissadas."
     },

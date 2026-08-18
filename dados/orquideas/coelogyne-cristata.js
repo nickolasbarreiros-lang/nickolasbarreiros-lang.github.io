@@ -32,7 +32,7 @@ export const coelogyneCristata = {
     "climaFloracao": "A indução floral depende da combinação de noites frias, luz mais intensa e redução progressiva de água após a maturação dos pseudobulbos. A seca isolada, sem frio, geralmente não produz botões. No outono, reduza gradualmente as regas; no inverno, mantenha quase seca e suspenda a adubação. Irrigue apenas o suficiente para impedir desidratação extrema. Quando os botões se tornam evidentes, retome a água com cautela, evitando encharcar raízes ainda frias.",
     "iluminacao": {
         "sombrite": "50% no verão",
-        "solDireto": "Fraco e aclimatado no inverno",
+        "solDireto": "Permitido com restrição",
         "horario": "Manhã",
         "observacoes": "No verão, proteja do calor e do sol forte. No inverno, aumente a luminosidade para amadurecer reservas e favorecer botões. Folhas verde-médio e pseudobulbos cheios indicam bom manejo; folhas muito escuras sugerem pouca luz."
     },

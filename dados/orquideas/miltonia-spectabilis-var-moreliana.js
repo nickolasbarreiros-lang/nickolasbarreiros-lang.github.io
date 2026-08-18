@@ -28,7 +28,7 @@ export const miltoniaSpectabilisVarMoreliana = {
     "climaFloracao": "A flor normalmente surge após a maturação completa do pseudobulbo. Boa luz filtrada, amplitude térmica moderada e crescimento contínuo favorecem a indução. Não imponha seca severa. Quanto mais cheio e vigoroso amadurecer o pseudobulbo, maior tende a ser a flor, mais intensa a pigmentação e melhor a capacidade de sustentar a brotação seguinte.",
     "iluminacao": {
         "sombrite": "50% a 70%",
-        "solDireto": "Somente sol suave",
+        "solDireto": "Permitido com restrição",
         "horario": "Até aproximadamente 08:30 ou no fim da tarde",
         "observacoes": "Luz filtrada média a intensa. Folhas verde-médio a verde-claro, eventualmente com leve tonalidade amarelada, indicam boa luminosidade. Folhagem verde-escura e mole sugere sombra excessiva. Faça qualquer aumento de luz gradualmente."
     },

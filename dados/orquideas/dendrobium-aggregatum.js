@@ -31,7 +31,7 @@ export const dendrobiumAggregatum = {
     "climaFloracao": "A espécie aparece entre aproximadamente 400 e 1.300 m, portanto possui considerável amplitude térmica. IOSPE recomenda inverno mais fresco e seco, mas no litoral quente a parte que pode ser reproduzida com maior segurança é a sazonalidade: pseudobulbos completamente maduros, aumento de luz, forte redução de água e interrupção do nitrogênio. Não é necessário desidratar severamente a planta nem buscar frio artificial extremo.",
     "iluminacao": {
         "sombrite": "40% a 50%",
-        "solDireto": "Somente suave",
+        "solDireto": "Permitido com restrição",
         "horario": "Início da manhã",
         "observacoes": "Necessita boa luminosidade durante todo o ano e especialmente no período de repouso. Folhas verde-claro, pseudobulbos compactos e leve pigmentação podem indicar exposição adequada. Sombra excessiva favorece crescimento sem botões; sol forte sem aclimatação causa queimaduras."
     },

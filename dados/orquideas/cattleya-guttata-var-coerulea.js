@@ -31,7 +31,7 @@ export const cattleyaGuttataVarCoerulea = {
     climaFloracao: "A floração depende de pseudobulbos plenamente maduros, luminosidade muito alta e raízes saudáveis. Após a maturação, aumente moderadamente o intervalo entre as regas, mas sem impor repouso seco rígido. Plantas adultas e bem entouceiradas podem sustentar hastes com muitas flores, e a estabilidade mecânica do conjunto é essencial para que raízes novas não sejam rompidas pelo balanço dos pseudobulbos altos.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Sim, suave e com aclimatação",
+        solDireto: "Permitido com restrição",
         horario: "Primeiras horas da manhã",
         observacoes: "É uma bifoliada de luminosidade muito alta. Em Litoral de clima quente, ofereça 40% a 50% de sombreamento e bastante circulação de ar. Folhas firmes, pseudobulbos grossos e eretos e crescimento compacto são indicadores melhores que perseguir uma cor verde-alface específica."
     },

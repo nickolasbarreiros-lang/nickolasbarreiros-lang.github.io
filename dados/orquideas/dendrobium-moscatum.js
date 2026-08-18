@@ -29,7 +29,7 @@ export const dendrobiumMoscatum = {
     "climaFloracao": "Não entra em dormência tão profunda quanto D. lindleyi ou D. loddigesii. O manejo correto é permitir que a haste amadureça completamente antes de reduzir água e nitrogênio. Hastes ainda verdes continuam acumulando reservas; reduzir cedo demais produz estruturas fracas, enquanto manter água e nitrogênio por tempo excessivo favorece crescimento vegetativo em vez de flores.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Somente suave",
+        "solDireto": "Permitido com restrição",
         "horario": "Início da manhã após aclimatação",
         "observacoes": "Exige luz filtrada forte. Hastes espessas, internódios proporcionais e folhas firmes indicam equilíbrio. Sombra produz hastes alongadas e fracas; excesso de sol causa queimaduras."
     },

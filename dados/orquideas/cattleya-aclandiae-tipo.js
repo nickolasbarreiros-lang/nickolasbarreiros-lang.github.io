@@ -29,7 +29,7 @@ export const cattleyaAclandiaeTipo = {
     climaFloracao: "IOSPE relata floração no verão e outono e também observa que um inverno mais seco pode anteceder floração na primavera/início do verão conforme o ciclo de crescimento. Em vez de escolher uma única janela rígida, a ficha deve refletir essa variabilidade. O estímulo principal é a maturação de crescimento forte sob muita luz, seguida por período relativamente mais seco, sem desidratação severa. No litoral quente, a espécie está termicamente bem adaptada; o risco maior é abafamento radicular.",
     iluminacao: {
         sombrite: "30% a 50% — ~40% a 50% como início no litoral quente",
-        solDireto: "Tolera sol suave após aclimatação",
+        solDireto: "Permitido com restrição",
         horario: "Primeiras horas da manhã",
         observacoes: "É uma das Cattleyas mais tolerantes a luz alta. Crescimento compacto, folhas firmes e pseudobulbos fortes são os melhores indicadores. As pintas avermelhadas ou púrpuras das folhas podem ser pigmentação normal da espécie."
     },

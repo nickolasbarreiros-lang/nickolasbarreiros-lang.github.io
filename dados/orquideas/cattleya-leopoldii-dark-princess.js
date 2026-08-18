@@ -31,7 +31,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
     "climaFloracao": "A floração é favorecida por pseudobulbos altos e bem amadurecidos, luminosidade muito intensa durante todo o crescimento e leve redução de água e nitrogênio após a maturação. A intensidade do padrão escuro depende principalmente da genética do cultivar, mas boa luz, amplitude térmica e maturação adequada ajudam a expressar melhor a coloração. Sombra excessiva produz pseudobulbos finos, entrenós alongados e inflorescências fracas. A planta não exige repouso seco severo, mas aprecia secagem nítida entre regas.",
     "iluminacao": {
         "sombrite": "35% a 50%",
-        "solDireto": "Sim, fraco e aclimatado",
+        "solDireto": "Permitido com restrição",
         "horario": "Manhã",
         "observacoes": "A luz intensa mantém o crescimento compacto e favorece pigmentação mais escura. Folhas verde-médio firmes indicam bom cultivo; folhas muito escuras e pseudobulbos finos indicam sombra. Evite sol forte sobre folhas molhadas."
     },

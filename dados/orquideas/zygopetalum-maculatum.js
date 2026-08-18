@@ -32,7 +32,7 @@ export const zygopetalumMaculatum = {
     "climaFloracao": "A floração depende de noites mais frescas, pseudobulbos bem desenvolvidos e raízes sem superaquecimento. Em regiões quentes, reduzir a temperatura do vaso e melhorar a circulação de ar costuma ser mais efetivo do que simplesmente aumentar a rega. Não necessita de repouso seco severo.",
     "iluminacao": {
         "sombrite": "50% a 70%",
-        "solDireto": "Somente fraco",
+        "solDireto": "Permitido com restrição",
         "horario": "Até aproximadamente 08:00, preferencialmente nos meses frios",
         "observacoes": "Prefere claridade filtrada. Sol forte aquece e queima folhas plissadas; sombra excessiva enfraquece os pseudobulbos e reduz floração."
     },

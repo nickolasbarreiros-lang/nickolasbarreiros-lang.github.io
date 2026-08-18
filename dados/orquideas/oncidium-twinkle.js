@@ -28,7 +28,7 @@ export const oncidiumTwinkle = {
     "climaFloracao": "Floresce melhor quando vários pseudobulbos amadurecem simultaneamente em uma touceira intacta. Noites mais frescas favorecem hastes numerosas, mas o fator decisivo é a continuidade do crescimento: raízes saudáveis, recipiente proporcional, luz filtrada brilhante e ausência de secas prolongadas.",
     "iluminacao": {
         "sombrite": "50% a 70%",
-        "solDireto": "Somente muito suave",
+        "solDireto": "Permitido com restrição",
         "horario": "Até cerca de 8h",
         "observacoes": "Luz indireta brilhante. Folhas verde-médio e pseudobulbos compactos indicam equilíbrio. Folhas escuras, moles e poucas hastes indicam sombra excessiva; folhas amarelas ou pontas secas sugerem excesso de sol, calor ou sais."
     },

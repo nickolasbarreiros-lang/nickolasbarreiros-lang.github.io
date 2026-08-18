@@ -28,7 +28,7 @@ export const cattleyaPumpkinFestival = {
     climaFloracao: "A floração é favorecida pela maturação completa dos pseudobulbos, luminosidade intensa, boa ventilação, leve redução das regas após o crescimento e noites ligeiramente mais frescas. Clones vigorosos podem apresentar florações secundárias fora da época principal.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Somente suave",
+        solDireto: "Permitido com restrição",
         horario: "Até aproximadamente 09:00",
         observacoes: "Em Litoral de clima quente, prefira sombrite de 50%. Folhas firmes e verde-claras indicam boa luminosidade; folhas muito escuras costumam acompanhar floração fraca. Aclimate gradualmente para evitar queimaduras."
     },

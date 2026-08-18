@@ -32,7 +32,7 @@ export const zygolumLouisendorf = {
     "climaFloracao": "A floração é favorecida por brotos vigorosos, noites amenas, substrato continuamente levemente úmido e luz filtrada clara. O híbrido não deve sofrer seca prolongada. Em calor forte, resfriar o sistema radicular e manter ar em movimento é mais importante que aumentar excessivamente a rega.",
     "iluminacao": {
         "sombrite": "50% a 70%",
-        "solDireto": "Somente muito fraco",
+        "solDireto": "Permitido com restrição",
         "horario": "Até aproximadamente 08:30",
         "observacoes": "Prefere luz filtrada clara. Folhas muito escuras sugerem pouca luz; amarelamento e manchas indicam excesso de radiação ou calor."
     },

@@ -29,7 +29,7 @@ export const oncidiumPubes = {
     "climaFloracao": "A floração depende de pseudobulbos maduros, boa reserva de energia e luminosidade filtrada relativamente alta. Como Kew registra a espécie em floresta tropical úmida do Sudeste brasileiro, não há justificativa para um repouso seco severo. Após a maturação, apenas aumente um pouco o intervalo entre regas. Em litoral quente, ventilação e raízes oxigenadas são mais importantes que tentar induzir frio artificial.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Sol fraco tolerado",
+        "solDireto": "Permitido com restrição",
         "horario": "Até cerca de 9h",
         "observacoes": "Exige luz semelhante à de Cattleya moderada. Folhas verde-oliva claras e pseudobulbos compactos indicam equilíbrio. Folhas muito escuras, moles e pseudobulbos alongados sugerem sombra excessiva; amarelecimento rápido, manchas secas ou tecido bronzeado indicam excesso de sol ou calor."
     },

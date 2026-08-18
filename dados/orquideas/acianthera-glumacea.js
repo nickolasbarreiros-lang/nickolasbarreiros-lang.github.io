@@ -27,7 +27,7 @@ export const aciantheraGlumacea = {
     climaFloracao: "A ocorrência em torno de 1.300 m explica a preferência por condições frescas. No litoral quente, a dificuldade não é apenas a temperatura máxima diurna, mas principalmente noites persistentemente quentes combinadas a umidade parada. Mantenha-a no setor mais fresco e ventilado, evitando superfícies que irradiem calor à noite. Uma amplitude térmica moderada e o amadurecimento completo dos ramicaules favorecem florações mais consistentes.",
     iluminacao: {
         sombrite: "60% a 70%; no litoral quente, iniciar próximo de 70%",
-        solDireto: "Somente muito suave e por curto período após aclimatação",
+        solDireto: "Permitido com restrição",
         horario: "Primeiras horas da manhã",
         observacoes: "Prefere meia-sombra luminosa. A referência de habitat sobre troncos musgosos em floresta primária indica luz filtrada, não sombra profunda. Folhas firmes em verde médio e crescimento compacto sugerem bom equilíbrio. Folhas muito escuras associadas a pouca floração indicam falta de claridade; amarelamento rápido, aquecimento e áreas secas indicam excesso."
     },

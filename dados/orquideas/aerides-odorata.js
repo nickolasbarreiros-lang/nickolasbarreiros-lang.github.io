@@ -28,7 +28,7 @@ export const aeridesOdorata = {
     climaFloracao: "Floresce melhor quando adulta, bem iluminada e com raízes ativas. Não necessita frio intenso para indução floral. No litoral quente encontra condições muito favoráveis, desde que receba forte ventilação e as raízes sequem rapidamente após as regas.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Sol fraco da manhã, após aclimatação",
+        solDireto: "Permitido com restrição",
         horario: "Início da manhã",
         observacoes: "Aprecia luminosidade semelhante à de Vandas de exigência moderada. Sombra profunda reduz a floração; no litoral quente, evite sol forte do meio do dia e faça qualquer aumento de exposição gradualmente."
     },

@@ -29,7 +29,7 @@ export const miltoniaRusselliana = {
     climaFloracao: "A espécie floresce principalmente no outono e inverno. No litoral quente, noites um pouco mais frescas ajudam bastante, mas o fator decisivo é manter raízes ativas, boa ventilação e luminosidade suficiente sem superaquecer as folhas.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Somente sol fraco da manhã, se aclimatada",
+        solDireto: "Permitido com restrição",
         horario: "Início da manhã",
         observacoes: "Prefere mais luz do que uma planta de sombra profunda, porém sem sol direto forte. Folhas excessivamente escuras e crescimento alongado sugerem falta de luz; amarelamento rápido e aquecimento das folhas indicam excesso."
     },

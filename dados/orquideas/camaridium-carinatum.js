@@ -30,7 +30,7 @@ export const camaridiumCarinatum = {
     climaFloracao: "Não necessita repouso seco. A espécie pode florir em diferentes épocas quando pseudobulbos maduros, raízes ativas, luz média e hidratação estável coincidem. O crescimento horizontal deixa a base dos pseudobulbos exposta; manter essa região livre de substrato e detritos favorece a saída das hastes basais e reduz podridões. No litoral quente, o manejo deve priorizar ventilação e secagem das bainhas, não redução artificial de água.",
     iluminacao: {
         sombrite: "50% a 60% — até 70% em local muito quente",
-        solDireto: "Apenas muito suave, após aclimatação",
+        solDireto: "Permitido com restrição",
         horario: "Início da manhã",
         observacoes: "Prefere luminosidade média filtrada. Folhas muito escuras e crescimento frouxo sugerem sombra excessiva; amarelecimento forte, aquecimento e manchas secas apontam excesso de exposição."
     },

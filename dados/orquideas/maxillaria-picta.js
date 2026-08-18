@@ -28,7 +28,7 @@ export const maxillariaPicta = {
     "climaFloracao": "IOSPE registra floração no inverno e na primavera, em hastes basais de uma única flor com cerca de 5 cm. O gatilho mais coerente é a combinação de pseudobulbo maduro, boa luz filtrada e queda sazonal moderada das temperaturas noturnas. No litoral quente, não tente compensar a falta de noites amenas com seca forte: preserve raízes ativas, aumente apenas discretamente o intervalo entre regas após a maturação e mantenha ventilação contínua.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Apenas sol fraco",
+        "solDireto": "Permitido com restrição",
         "horario": "Primeiras horas da manhã",
         "observacoes": "Luz filtrada brilhante é necessária para pseudobulbos compactos e floríferos. Folhas verde-médio e firmes indicam equilíbrio. Vegetação muito escura, alongada ou frouxa sugere sombra; amarelecimento acelerado, manchas secas ou calor nas folhas indicam excesso."
     },

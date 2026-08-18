@@ -22,7 +22,7 @@ export const howearaLavaBurst = {
     climaFloracao: "Como híbrido, não existe uma altitude natural única para converter em regra. O melhor guia é o comportamento de seus ancestrais: raízes finas, pseudobulbos pequenos e crescimento relativamente contínuo. No litoral quente, floresce melhor quando o vaso permanece fresco e aerado, sem seca prolongada nem calor abafado. Não precisa de repouso seco para induzir flores; precisa completar novos pseudobulbos saudáveis.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Somente muito suave e aclimatado",
+        solDireto: "Permitido com restrição",
         horario: "Início da manhã, se houver boa ventilação",
         observacoes: "Luz filtrada abundante favorece hastes mais firmes e floríferas. Folhas muito escuras e pseudobulbos pequenos sugerem sombra excessiva; folhas amareladas ou quentes ao toque indicam excesso de luz."
     },

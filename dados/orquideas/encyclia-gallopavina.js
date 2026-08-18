@@ -31,7 +31,7 @@ export const encycliaGallopavina = {
     climaFloracao: "POWO associa a espécie ao bioma tropical úmido do Sudeste brasileiro, enquanto referências de cultivo a tratam como planta de luminosidade relativamente alta e crescimento quente. A floração tende a acompanhar a maturação completa dos pseudobulbos e pode ocorrer da primavera ao verão. Uma leve redução das regas após o amadurecimento pode ajudar, mas não deve ser transformada em repouso seco rígido.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Sim, suave",
+        solDireto: "Permitido com restrição",
         horario: "Até cerca de 09:00",
         observacoes: "Prefere claridade alta e filtrada. Folhas muito escuras e vegetação alongada indicam falta de luz; amarelecimento intenso ou queimaduras mostram excesso de sol/calor."
     },

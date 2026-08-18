@@ -28,7 +28,7 @@ export const laeliaGloriosa = {
     climaFloracao: "Pseudobulbos maduros, luminosidade elevada e raízes saudáveis favorecem hastes fortes. Após o crescimento, aumente moderadamente o intervalo entre regas, sem provocar desidratação severa. Por ser uma espécie tropical de baixa a média altitude, não necessita de frio intenso para florescer.",
     iluminacao: {
         sombrite: "30% a 50%",
-        solDireto: "Sim, quando aclimatada",
+        solDireto: "Permitido com restrição",
         horario: "Sol suave da manhã",
         observacoes: "Folhas firmes em verde-claro indicam boa luminosidade. Verde muito escuro costuma produzir crescimento sem floração; amarelecimento forte, manchas secas ou aquecimento foliar indicam excesso."
     },

@@ -27,7 +27,7 @@ export const leptotesUnicolor = {
     climaFloracao: "A amplitude indicada para a espécie — de condições quentes a frescas — mostra que não há necessidade de classificá-la rigidamente como planta fria. O ponto mais importante é manter raízes expostas ao ar, boa luminosidade filtrada e secagem rápida. Em clima quente, umidade atmosférica e ventilação devem compensar a evaporação sem manter o suporte permanentemente molhado.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Sim, suave e aclimatado",
+        solDireto: "Permitido com restrição",
         horario: "Até aproximadamente 08:30",
         observacoes: "Luz média a alta filtrada. Folhas firmes e verde-oliva indicam equilíbrio; verde muito escuro sugere pouca luz, enquanto clareamento excessivo, tecido áspero ou manchas secas indicam sol e calor demais."
     },

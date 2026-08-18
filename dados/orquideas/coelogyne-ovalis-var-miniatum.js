@@ -31,7 +31,7 @@ export const coelogyneOvalisVarMiniatum = {
     "climaFloracao": "A espécie ocupa uma faixa altitudinal muito ampla, portanto não deve ser resumida simplesmente como ‘fria’. Em cultivo no litoral quente, o fator limitante tende a ser o excesso de calor noturno associado a pouca ventilação. Crescimento contínuo, raízes ativas, boa umidade do ar e noites tão amenas quanto possível favorecem a maturação dos pseudobulbos. A identificação ‘Miniatum’ deve ser confirmada pelas flores antes de transformar qualquer calendário em regra fixa.",
     "iluminacao": {
         "sombrite": "60% a 70%",
-        "solDireto": "Somente muito suave",
+        "solDireto": "Permitido com restrição",
         "horario": "Primeiras horas da manhã",
         "observacoes": "Prefere sombra luminosa, com bastante claridade difusa. Folhas verde-médio e pseudobulbos firmes indicam equilíbrio. Sombra excessiva reduz a floração; sol forte combinado com calor desidrata folhas e rizoma rapidamente."
     },

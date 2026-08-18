@@ -29,7 +29,7 @@ export const dendrobiumLoddigesii = {
     "climaFloracao": "A haste deve completar totalmente o alongamento e endurecer antes do repouso. Depois, alta luminosidade, noites mais amenas, redução da água e suspensão do nitrogênio induzem os botões. Hastes ainda verdes ou em crescimento raramente florescem bem no ciclo seguinte.",
     "iluminacao": {
         "sombrite": "40% a 50%",
-        "solDireto": "Somente suave",
+        "solDireto": "Permitido com restrição",
         "horario": "Início da manhã",
         "observacoes": "Necessita luz intensa durante todo o ano. Hastes compactas e firmes indicam equilíbrio. Sombra gera hastes finas, moles e muitos keikis; queimaduras secas indicam excesso de sol."
     },

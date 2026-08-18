@@ -31,7 +31,7 @@ export const cyrtopodiumSaintlegerianum = {
     "climaFloracao": "POWO registra a espécie em bioma tropical sazonalmente seco, enquanto observações de campo e IOSPE destacam seu comportamento epífito sobre palmeiras no Brasil central. Em cultivo, essas informações convergem para o mesmo manejo: crescimento quente e bem irrigado quando brotos e folhas estão ativos, seguido de redução hídrica após a maturação. No litoral quente, noites frias intensas não são requisito; luz forte, ventilação e uma estação de repouso perceptível são muito mais importantes.",
     "iluminacao": {
         "sombrite": "30% a 50%",
-        "solDireto": "Sim, após aclimatação",
+        "solDireto": "Permitido com restrição",
         "horario": "Manhã e parte da tarde",
         "observacoes": "Exige luminosidade muito alta. A exposição sobre palmeiras mostra que a espécie suporta ambiente bastante claro, mas plantas de viveiro devem ser aclimatadas progressivamente. Pouca luz produz pseudobulbos fracos e menor floração; ventilação é indispensável sob sol e calor."
     },

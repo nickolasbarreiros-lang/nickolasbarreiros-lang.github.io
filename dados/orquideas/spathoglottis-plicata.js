@@ -32,7 +32,7 @@ export const spathoglottisPlicata = {
     "climaFloracao": "A grande distribuição natural explica sua tolerância térmica. Em cultivo quente, floresce melhor com muita luz, água regular e nutrição constante durante o crescimento. Não precisa de frio para florir; noites um pouco mais amenas podem favorecer vigor, mas o fator limitante mais comum é sombra excessiva.",
     "iluminacao": {
         "sombrite": "30% a 50%",
-        "solDireto": "Recomendado com aclimatação",
+        "solDireto": "Permitido com restrição",
         "horario": "Preferencialmente até 10:00",
         "observacoes": "A luminosidade alta é decisiva para a floração. Folhas muito escuras e exuberantes acompanhadas de poucas hastes indicam sombra. Aclimate gradualmente antes de aumentar o sol, protegendo do calor forte da tarde."
     },
