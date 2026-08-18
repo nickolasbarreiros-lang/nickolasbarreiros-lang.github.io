@@ -1,45 +1,27 @@
-// IDC 2.1 — Índice de Dificuldade de Cultivo
-// Quanto MAIOR o IDC, MAIOR a dificuldade.
+// IDC 3.0 — régua recalibrada
+// Pesos: Temperatura 15%; Rega 15%; Umidade 10%; Ventilação 10%;
+// Luminosidade 10%; Raízes/substrato 10%; Sazonalidade/repouso 10%; Floração 20%.
 //
-// Pesos oficiais:
-// Temperatura ..................... 30%
-// Rega ............................ 15%
-// Umidade .........................  5%
-// Ventilação ......................  5%
-// Luminosidade .................... 15%
-// Raízes e substrato ..............  5%
-// Sazonalidade / repouso ..........  5%
-// Exigência para florescer ........ 20%
-//
-// Cada fator recebe nota de dificuldade de 0 a 5.
-// IDC = Σ [(nota / 5) × peso]
-//
-// Classificação:
-// 0–29 = Fácil
-// 30–59 = Moderada
-// 60–89 = Difícil
-// 90–100 = Extrema
-//
-// Estrelas de Cultivo representam FACILIDADE:
-// 0–19 IDC   = ★★★★★
-// 20–39 IDC  = ★★★★☆
-// 40–59 IDC  = ★★★☆☆
-// 60–79 IDC  = ★★☆☆☆
-// 80–100 IDC = ★☆☆☆☆
-//
-// Portanto, estrelas e IDC têm sentidos opostos:
-// IDC alto = mais difícil; mais estrelas = mais fácil.
+// Notas por fator: 0 = praticamente não acrescenta dificuldade; 5 = crítico.
+// Faixas: 0–25 Fácil | 26–50 Moderada | 51–89 Difícil | 90–100 Extrema.
+// Estrelas de Cultivo representam facilidade, portanto são inversas ao IDC.
 
 export const idcMetodologia = {
-    versao: "IDC 2.1",
+    versao: "IDC 3.0 — régua recalibrada",
     pesos: {
-        temperatura: 30,
+        temperatura: 15,
         rega: 15,
-        umidade: 5,
-        ventilacao: 5,
-        luminosidade: 15,
-        raizesSubstrato: 5,
-        sazonalidade: 5,
+        umidade: 10,
+        ventilacao: 10,
+        luminosidade: 10,
+        raizesSubstrato: 10,
+        sazonalidade: 10,
         floracao: 20
-    }
+    },
+    faixas: [
+        {min:0,max:25,nivel:"Fácil"},
+        {min:26,max:50,nivel:"Moderada"},
+        {min:51,max:89,nivel:"Difícil"},
+        {min:90,max:100,nivel:"Extrema"}
+    ]
 };

@@ -6,7 +6,7 @@ export const encycliaOncidioides = {
     genero: "Encyclia",
     sinonimo: "Epidendrum oncidioides",
     tipo: "Espécie botânica",
-    dificuldade: "Fácil",
+    dificuldade: "Moderada",
     caracteristicas: ["Espécie brasileira", "Alta luminosidade", "Haste ramificada", "Flores perfumadas", "Porte médio a grande"],
     fotos: [
         "imagens/Encyclia oncidioides/Encyclia oncidioides1.jpg",
@@ -50,14 +50,15 @@ export const encycliaOncidioides = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.1",
-        "indice": 12,
-        "classificacao": "Fácil",
-        "cultivoEstrelas": 5,
+        "versao": "IDC 3.0 — régua recalibrada",
+        "escala": "dificuldade",
+        "indice": 42,
+        "classificacao": "Moderada",
+        "cultivoEstrelas": 3,
         "criterios": {
             "temperatura": {
-                "notaDificuldade": 0,
-                "peso": 30
+                "notaDificuldade": 2,
+                "peso": 15
             },
             "rega": {
                 "notaDificuldade": 2,
@@ -65,28 +66,34 @@ export const encycliaOncidioides = {
             },
             "umidade": {
                 "notaDificuldade": 2,
-                "peso": 5
+                "peso": 10
             },
             "ventilacao": {
-                "notaDificuldade": 0,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "luminosidade": {
-                "notaDificuldade": 0,
-                "peso": 15
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "raizesSubstrato": {
-                "notaDificuldade": 3,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "sazonalidade": {
                 "notaDificuldade": 1,
-                "peso": 5
+                "peso": 10
             },
             "floracao": {
-                "notaDificuldade": 0,
+                "notaDificuldade": 3,
                 "peso": 20
             }
+        },
+        "faixas": {
+            "facil": "0–25",
+            "moderada": "26–50",
+            "dificil": "51–89",
+            "extrema": "90–100"
         }
     },
     indiceAdaptacaoRegional: {
@@ -171,5 +178,5 @@ export const encycliaOncidioides = {
         "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
-        avaliacoes: { cultivo: 5, floracao: 4, perfume: 4, luminosidade: 4, agua: 3, raridade: 3 }
+        avaliacoes: { cultivo: 3, floracao: 4, perfume: 4, luminosidade: 4, agua: 3, raridade: 3 }
 };

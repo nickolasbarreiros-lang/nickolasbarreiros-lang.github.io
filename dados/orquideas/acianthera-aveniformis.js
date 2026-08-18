@@ -5,7 +5,7 @@ export const aciantheraAveniformis = {
     genero: "Acianthera",
     tipo: "Espécie botânica — nome atualmente tratado por Kew como Pabstiella aveniformis",
     sinonimo: "Pleurothallis aveniformis",
-    dificuldade: "Fácil",
+    dificuldade: "Moderada",
     origem: "Brasil — Sul do país.",
     regiao: "Mata Atlântica do Sul do Brasil, em ambientes florestais úmidos.",
     habitat: "Micro-orquídea epífita de crescimento reptante, registrada em floresta tropical úmida.",
@@ -54,43 +54,50 @@ export const aciantheraAveniformis = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.1",
-        "indice": 25,
-        "classificacao": "Fácil",
+        "versao": "IDC 3.0 — régua recalibrada",
+        "escala": "dificuldade",
+        "indice": 29,
+        "classificacao": "Moderada",
         "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 1,
-                "peso": 30
-            },
-            "rega": {
-                "notaDificuldade": 1,
                 "peso": 15
             },
-            "umidade": {
-                "notaDificuldade": 1,
-                "peso": 5
-            },
-            "ventilacao": {
-                "notaDificuldade": 1,
-                "peso": 5
-            },
-            "luminosidade": {
+            "rega": {
                 "notaDificuldade": 2,
                 "peso": 15
             },
+            "umidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "ventilacao": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "luminosidade": {
+                "notaDificuldade": 1,
+                "peso": 10
+            },
             "raizesSubstrato": {
-                "notaDificuldade": 3,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "sazonalidade": {
                 "notaDificuldade": 1,
-                "peso": 5
+                "peso": 10
             },
             "floracao": {
                 "notaDificuldade": 1,
                 "peso": 20
             }
+        },
+        "faixas": {
+            "facil": "0–25",
+            "moderada": "26–50",
+            "dificil": "51–89",
+            "extrema": "90–100"
         }
     },
     indiceAdaptacaoRegional: {

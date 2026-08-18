@@ -5,7 +5,7 @@ export const catasetumMattosianum = {
     nome: "Catasetum mattosianum",
     genero: "Catasetum",
     tipo: "Espécie botânica brasileira — caducifólia",
-    dificuldade: "Fácil",
+    dificuldade: "Difícil",
     caracteristicas: [
         "Endêmica do Brasil",
         "Bahia e Espírito Santo",
@@ -56,43 +56,50 @@ export const catasetumMattosianum = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.1",
-        "indice": 10,
-        "classificacao": "Fácil",
-        "cultivoEstrelas": 5,
+        "versao": "IDC 3.0 — régua recalibrada",
+        "escala": "dificuldade",
+        "indice": 58,
+        "classificacao": "Difícil",
+        "cultivoEstrelas": 3,
         "criterios": {
             "temperatura": {
-                "notaDificuldade": 0,
-                "peso": 30
+                "notaDificuldade": 3,
+                "peso": 15
             },
             "rega": {
-                "notaDificuldade": 2,
+                "notaDificuldade": 3,
                 "peso": 15
             },
             "umidade": {
                 "notaDificuldade": 2,
-                "peso": 5
+                "peso": 10
             },
             "ventilacao": {
-                "notaDificuldade": 0,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "luminosidade": {
-                "notaDificuldade": 0,
-                "peso": 15
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "raizesSubstrato": {
                 "notaDificuldade": 2,
-                "peso": 5
+                "peso": 10
             },
             "sazonalidade": {
-                "notaDificuldade": 0,
-                "peso": 5
+                "notaDificuldade": 4,
+                "peso": 10
             },
             "floracao": {
-                "notaDificuldade": 0,
+                "notaDificuldade": 4,
                 "peso": 20
             }
+        },
+        "faixas": {
+            "facil": "0–25",
+            "moderada": "26–50",
+            "dificil": "51–89",
+            "extrema": "90–100"
         }
     },
     indiceAdaptacaoRegional: {
@@ -178,7 +185,7 @@ export const catasetumMattosianum = {
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {
-        cultivo: 5,
+        cultivo: 3,
         floracao: 4,
         perfume: 3,
         luminosidade: 4,

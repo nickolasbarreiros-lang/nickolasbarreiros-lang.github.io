@@ -5,7 +5,7 @@ export const aciantheraBragae = {
     genero: "Acianthera",
     tipo: "Espécie botânica",
     sinonimo: "Pleurothallis sarracenia",
-    dificuldade: "Fácil",
+    dificuldade: "Moderada",
     origem: "Brasil — regiões Sudeste e Sul.",
     regiao: "Mata Atlântica do Sudeste e Sul do Brasil.",
     habitat: "Epífita ou litófita de floresta tropical úmida.",
@@ -21,7 +21,7 @@ export const aciantheraBragae = {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
-        avaliacoes: { cultivo: 5, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
+        avaliacoes: { cultivo: 4, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
     mesesFloracao: [8, 9, 10],
     clima: "Quente a intermediário, úmido, sombreado e ventilado.",
     climaFloracao: "A faixa altitudinal aproximada de 700–1.000 m indica noites naturalmente mais amenas que as do litoral, mas a espécie é descrita em referência de cultivo como de crescimento quente. Portanto, não exige frio intenso. No litoral quente, priorize redução do calor acumulado noturno, sombra luminosa e ventilação contínua, sobretudo durante a maturação dos novos crescimentos.",
@@ -54,43 +54,50 @@ export const aciantheraBragae = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.1",
-        "indice": 14,
-        "classificacao": "Fácil",
-        "cultivoEstrelas": 5,
+        "versao": "IDC 3.0 — régua recalibrada",
+        "escala": "dificuldade",
+        "indice": 29,
+        "classificacao": "Moderada",
+        "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
-                "notaDificuldade": 0,
-                "peso": 30
+                "notaDificuldade": 1,
+                "peso": 15
             },
             "rega": {
-                "notaDificuldade": 1,
+                "notaDificuldade": 2,
                 "peso": 15
             },
             "umidade": {
-                "notaDificuldade": 1,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "ventilacao": {
-                "notaDificuldade": 1,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "luminosidade": {
-                "notaDificuldade": 2,
-                "peso": 15
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "raizesSubstrato": {
                 "notaDificuldade": 2,
-                "peso": 5
+                "peso": 10
             },
             "sazonalidade": {
                 "notaDificuldade": 1,
-                "peso": 5
+                "peso": 10
             },
             "floracao": {
-                "notaDificuldade": 0,
+                "notaDificuldade": 1,
                 "peso": 20
             }
+        },
+        "faixas": {
+            "facil": "0–25",
+            "moderada": "26–50",
+            "dificil": "51–89",
+            "extrema": "90–100"
         }
     },
     indiceAdaptacaoRegional: {

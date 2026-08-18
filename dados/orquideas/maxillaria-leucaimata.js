@@ -6,7 +6,7 @@ export const maxillariaLeucaimata = {
     genero: "Maxillaria",
     sinonimo: "Maxillaria leucaimata var. longifolia",
     tipo: "Espécie botânica",
-    dificuldade: "Fácil",
+    dificuldade: "Moderada",
     caracteristicas: [
         "Epífita ou rupícola brasileira",
         "Flores solitárias de 3 a 4 cm",
@@ -55,14 +55,15 @@ export const maxillariaLeucaimata = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.1",
-        "indice": 27,
-        "classificacao": "Fácil",
+        "versao": "IDC 3.0 — régua recalibrada",
+        "escala": "dificuldade",
+        "indice": 40,
+        "classificacao": "Moderada",
         "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
-                "notaDificuldade": 1,
-                "peso": 30
+                "notaDificuldade": 2,
+                "peso": 15
             },
             "rega": {
                 "notaDificuldade": 2,
@@ -70,28 +71,34 @@ export const maxillariaLeucaimata = {
             },
             "umidade": {
                 "notaDificuldade": 2,
-                "peso": 5
+                "peso": 10
             },
             "ventilacao": {
-                "notaDificuldade": 1,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "luminosidade": {
-                "notaDificuldade": 1,
-                "peso": 15
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "raizesSubstrato": {
-                "notaDificuldade": 2,
-                "peso": 5
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "sazonalidade": {
-                "notaDificuldade": 3,
-                "peso": 5
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "floracao": {
-                "notaDificuldade": 1,
+                "notaDificuldade": 3,
                 "peso": 20
             }
+        },
+        "faixas": {
+            "facil": "0–25",
+            "moderada": "26–50",
+            "dificil": "51–89",
+            "extrema": "90–100"
         }
     },
     indiceAdaptacaoRegional: {

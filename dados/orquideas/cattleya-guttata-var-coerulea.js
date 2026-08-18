@@ -8,7 +8,7 @@ export const cattleyaGuttataVarCoerulea = {
     genero: "Cattleya",
     sinonimo: "Epidendrum elatius",
     tipo: "Espécie botânica — forma horticultural coerulea",
-    dificuldade: "Fácil",
+    dificuldade: "Moderada",
     caracteristicas: [
         "Bifoliada de grande porte",
         "Forma coerulea",
@@ -59,43 +59,50 @@ export const cattleyaGuttataVarCoerulea = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.1",
-        "indice": 9,
-        "classificacao": "Fácil",
-        "cultivoEstrelas": 5,
+        "versao": "IDC 3.0 — régua recalibrada",
+        "escala": "dificuldade",
+        "indice": 34,
+        "classificacao": "Moderada",
+        "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
-                "notaDificuldade": 0,
-                "peso": 30
+                "notaDificuldade": 2,
+                "peso": 15
             },
             "rega": {
-                "notaDificuldade": 1,
+                "notaDificuldade": 2,
                 "peso": 15
             },
             "umidade": {
-                "notaDificuldade": 1,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "ventilacao": {
-                "notaDificuldade": 0,
-                "peso": 5
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "luminosidade": {
-                "notaDificuldade": 0,
-                "peso": 15
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "raizesSubstrato": {
-                "notaDificuldade": 2,
-                "peso": 5
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "sazonalidade": {
-                "notaDificuldade": 3,
-                "peso": 5
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "floracao": {
-                "notaDificuldade": 0,
+                "notaDificuldade": 2,
                 "peso": 20
             }
+        },
+        "faixas": {
+            "facil": "0–25",
+            "moderada": "26–50",
+            "dificil": "51–89",
+            "extrema": "90–100"
         }
     },
     indiceAdaptacaoRegional: {
@@ -181,7 +188,7 @@ export const cattleyaGuttataVarCoerulea = {
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {
-        cultivo: 5,
+        cultivo: 4,
         floracao: 4,
         perfume: 4,
         luminosidade: 5,

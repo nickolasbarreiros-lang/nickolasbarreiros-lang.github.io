@@ -7,7 +7,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
     "genero": "Cattleya",
     "sinonimo": "Cattleya leopoldii",
     "tipo": "Espécie botânica",
-    "dificuldade": "Fácil",
+    "dificuldade": "Moderada",
     "caracteristicas": [
         "Cattleya bifoliada brasileira de porte alto",
         "Cultivar selecionado de coloração escura",
@@ -59,43 +59,50 @@ export const cattleyaLeopoldiiDarkPrincess = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.1",
-        "indice": 9,
-        "classificacao": "Fácil",
-        "cultivoEstrelas": 5,
+        "versao": "IDC 3.0 — régua recalibrada",
+        "escala": "dificuldade",
+        "indice": 34,
+        "classificacao": "Moderada",
+        "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
-                "notaDificuldade": 0,
-                "peso": 30
+                "notaDificuldade": 2,
+                "peso": 15
             },
             "rega": {
-                "notaDificuldade": 1,
+                "notaDificuldade": 2,
                 "peso": 15
             },
             "umidade": {
-                "notaDificuldade": 1,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "ventilacao": {
-                "notaDificuldade": 0,
-                "peso": 5
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "luminosidade": {
-                "notaDificuldade": 0,
-                "peso": 15
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "raizesSubstrato": {
-                "notaDificuldade": 2,
-                "peso": 5
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "sazonalidade": {
-                "notaDificuldade": 3,
-                "peso": 5
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "floracao": {
-                "notaDificuldade": 0,
+                "notaDificuldade": 2,
                 "peso": 20
             }
+        },
+        "faixas": {
+            "facil": "0–25",
+            "moderada": "26–50",
+            "dificil": "51–89",
+            "extrema": "90–100"
         }
     },
     indiceAdaptacaoRegional: {
@@ -186,7 +193,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {
-        "cultivo": 5,
+        "cultivo": 4,
         "floracao": 5,
         "perfume": 4,
         "luminosidade": 5,

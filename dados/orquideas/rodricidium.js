@@ -60,14 +60,15 @@ export const rodricidium = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.1",
-        "indice": 40,
+        "versao": "IDC 3.0 — régua recalibrada",
+        "escala": "dificuldade",
+        "indice": 44,
         "classificacao": "Moderada",
         "cultivoEstrelas": 3,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 2,
-                "peso": 30
+                "peso": 15
             },
             "rega": {
                 "notaDificuldade": 2,
@@ -75,28 +76,34 @@ export const rodricidium = {
             },
             "umidade": {
                 "notaDificuldade": 2,
-                "peso": 5
+                "peso": 10
             },
             "ventilacao": {
                 "notaDificuldade": 2,
-                "peso": 5
+                "peso": 10
             },
             "luminosidade": {
                 "notaDificuldade": 2,
-                "peso": 15
+                "peso": 10
             },
             "raizesSubstrato": {
                 "notaDificuldade": 2,
-                "peso": 5
+                "peso": 10
             },
             "sazonalidade": {
                 "notaDificuldade": 2,
-                "peso": 5
+                "peso": 10
             },
             "floracao": {
-                "notaDificuldade": 2,
+                "notaDificuldade": 3,
                 "peso": 20
             }
+        },
+        "faixas": {
+            "facil": "0–25",
+            "moderada": "26–50",
+            "dificil": "51–89",
+            "extrema": "90–100"
         }
     },
     indiceAdaptacaoRegional: {

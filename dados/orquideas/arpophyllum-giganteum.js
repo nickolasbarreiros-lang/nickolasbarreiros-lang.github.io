@@ -5,7 +5,7 @@ export const arpophyllumGiganteum = {
     genero: "Arpophyllum",
     tipo: "Espécie botânica — com táxons infraespecíficos reconhecidos em bases modernas",
     sinonimo: "Arpophyllum cardinale Linden & Rchb.f.; Arpophyllum jamaicense Schltr.; Arpophyllum medium Rchb.f.; Arpophyllum stenostachyum Schltr.; nomes hoje associados ao complexo/infrasubdivisões de A. giganteum",
-    dificuldade: "Fácil",
+    dificuldade: "Moderada",
     origem: "México até o noroeste da Venezuela, incluindo América Central, Colômbia e Jamaica.",
     regiao: "México, Guatemala, Belize, El Salvador, Honduras, Nicarágua, Costa Rica, Jamaica, Colômbia e noroeste da Venezuela.",
     habitat: "Epífita rizomatosa de florestas úmidas de encosta e sopé de montanha, aproximadamente entre 800 e 1.500 m.",
@@ -21,7 +21,7 @@ export const arpophyllumGiganteum = {
         "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "intermediario" }
     },
-        avaliacoes: { cultivo: 5, floracao: 4, perfume: 1, luminosidade: 4, agua: 4, raridade: 3 },
+        avaliacoes: { cultivo: 4, floracao: 4, perfume: 1, luminosidade: 4, agua: 4, raridade: 3 },
     mesesFloracao: [8, 9, 10, 11],
     clima: "Quente a fresco, com preferência por noites amenas e boa amplitude térmica.",
     climaFloracao: "A faixa natural de 800–1.500 m explica a combinação aparentemente contraditória de fontes que a tratam como quente, intermediária ou fresca. A espécie suporta dias quentes, mas tende a florescer melhor quando o calor não permanece elevado durante toda a noite. No litoral, mantenha a planta em local muito ventilado, com alta claridade sem superaquecimento; pseudobulbos recém-maduros e bem abastecidos de água são os que originam as inflorescências terminais.",
@@ -54,43 +54,50 @@ export const arpophyllumGiganteum = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.1",
-        "indice": 13,
-        "classificacao": "Fácil",
-        "cultivoEstrelas": 5,
+        "versao": "IDC 3.0 — régua recalibrada",
+        "escala": "dificuldade",
+        "indice": 34,
+        "classificacao": "Moderada",
+        "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
-                "notaDificuldade": 0,
-                "peso": 30
+                "notaDificuldade": 2,
+                "peso": 15
             },
             "rega": {
-                "notaDificuldade": 1,
+                "notaDificuldade": 2,
                 "peso": 15
             },
             "umidade": {
-                "notaDificuldade": 1,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "ventilacao": {
                 "notaDificuldade": 1,
-                "peso": 5
+                "peso": 10
             },
             "luminosidade": {
-                "notaDificuldade": 1,
-                "peso": 15
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "raizesSubstrato": {
-                "notaDificuldade": 2,
-                "peso": 5
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "sazonalidade": {
-                "notaDificuldade": 3,
-                "peso": 5
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "floracao": {
-                "notaDificuldade": 0,
+                "notaDificuldade": 2,
                 "peso": 20
             }
+        },
+        "faixas": {
+            "facil": "0–25",
+            "moderada": "26–50",
+            "dificil": "51–89",
+            "extrema": "90–100"
         }
     },
     indiceAdaptacaoRegional: {

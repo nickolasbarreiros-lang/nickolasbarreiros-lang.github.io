@@ -57,43 +57,50 @@ export const cattleyaABrazilianDream = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.1",
-        "indice": 20,
+        "versao": "IDC 3.0 — régua recalibrada",
+        "escala": "dificuldade",
+        "indice": 22,
         "classificacao": "Fácil",
         "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 1,
-                "peso": 30
+                "peso": 15
             },
             "rega": {
-                "notaDificuldade": 2,
+                "notaDificuldade": 1,
                 "peso": 15
             },
             "umidade": {
-                "notaDificuldade": 2,
-                "peso": 5
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "ventilacao": {
-                "notaDificuldade": 0,
-                "peso": 5
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "luminosidade": {
-                "notaDificuldade": 0,
-                "peso": 15
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "raizesSubstrato": {
-                "notaDificuldade": 2,
-                "peso": 5
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "sazonalidade": {
-                "notaDificuldade": 0,
-                "peso": 5
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "floracao": {
                 "notaDificuldade": 1,
                 "peso": 20
             }
+        },
+        "faixas": {
+            "facil": "0–25",
+            "moderada": "26–50",
+            "dificil": "51–89",
+            "extrema": "90–100"
         }
     },
     indiceAdaptacaoRegional: {

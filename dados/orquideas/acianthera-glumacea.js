@@ -5,7 +5,7 @@ export const aciantheraGlumacea = {
     genero: "Acianthera",
     tipo: "Espécie botânica",
     sinonimo: "Pleurothallis glumacea",
-    dificuldade: "Fácil",
+    dificuldade: "Difícil",
     origem: "Brasil — regiões Sudeste e Sul.",
     regiao: "Mata Atlântica serrana do Sudeste e Sul do Brasil.",
     habitat: "Epífita de floresta primária úmida.",
@@ -21,7 +21,7 @@ export const aciantheraGlumacea = {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
-        avaliacoes: { cultivo: 5, floracao: 4, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
+        avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
     clima: "Intermediário a fresco, úmido e muito ventilado.",
     climaFloracao: "A ocorrência em torno de 1.300 m explica a preferência por condições frescas. No litoral quente, a dificuldade não é apenas a temperatura máxima diurna, mas principalmente noites persistentemente quentes combinadas a umidade parada. Mantenha-a no setor mais fresco e ventilado, evitando superfícies que irradiem calor à noite. Uma amplitude térmica moderada e o amadurecimento completo dos ramicaules favorecem florações mais consistentes.",
@@ -54,43 +54,50 @@ export const aciantheraGlumacea = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.1",
-        "indice": 14,
-        "classificacao": "Fácil",
-        "cultivoEstrelas": 5,
+        "versao": "IDC 3.0 — régua recalibrada",
+        "escala": "dificuldade",
+        "indice": 52,
+        "classificacao": "Difícil",
+        "cultivoEstrelas": 3,
         "criterios": {
             "temperatura": {
-                "notaDificuldade": 0,
-                "peso": 30
+                "notaDificuldade": 3,
+                "peso": 15
             },
             "rega": {
-                "notaDificuldade": 1,
+                "notaDificuldade": 3,
                 "peso": 15
             },
             "umidade": {
-                "notaDificuldade": 1,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "ventilacao": {
-                "notaDificuldade": 1,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "luminosidade": {
-                "notaDificuldade": 2,
-                "peso": 15
+                "notaDificuldade": 3,
+                "peso": 10
             },
             "raizesSubstrato": {
                 "notaDificuldade": 2,
-                "peso": 5
+                "peso": 10
             },
             "sazonalidade": {
-                "notaDificuldade": 1,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "floracao": {
-                "notaDificuldade": 0,
+                "notaDificuldade": 3,
                 "peso": 20
             }
+        },
+        "faixas": {
+            "facil": "0–25",
+            "moderada": "26–50",
+            "dificil": "51–89",
+            "extrema": "90–100"
         }
     },
     indiceAdaptacaoRegional: {

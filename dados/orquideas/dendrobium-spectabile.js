@@ -5,7 +5,7 @@ export const dendrobiumSpectabile = {
     nome: "Dendrobium spectabile",
     genero: "Dendrobium",
     tipo: "Espécie botânica epífita da Oceania",
-    dificuldade: "Fácil",
+    dificuldade: "Moderada",
     caracteristicas: [
         "Flores esculturais",
         "Porte médio a grande",
@@ -69,43 +69,50 @@ export const dendrobiumSpectabile = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.1",
-        "indice": 13,
-        "classificacao": "Fácil",
-        "cultivoEstrelas": 5,
+        "versao": "IDC 3.0 — régua recalibrada",
+        "escala": "dificuldade",
+        "indice": 50,
+        "classificacao": "Moderada",
+        "cultivoEstrelas": 3,
         "criterios": {
             "temperatura": {
-                "notaDificuldade": 0,
-                "peso": 30
+                "notaDificuldade": 2,
+                "peso": 15
             },
             "rega": {
-                "notaDificuldade": 1,
+                "notaDificuldade": 2,
                 "peso": 15
             },
             "umidade": {
-                "notaDificuldade": 1,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "ventilacao": {
-                "notaDificuldade": 1,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "luminosidade": {
-                "notaDificuldade": 1,
-                "peso": 15
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "raizesSubstrato": {
                 "notaDificuldade": 2,
-                "peso": 5
+                "peso": 10
             },
             "sazonalidade": {
                 "notaDificuldade": 3,
-                "peso": 5
+                "peso": 10
             },
             "floracao": {
-                "notaDificuldade": 0,
+                "notaDificuldade": 4,
                 "peso": 20
             }
+        },
+        "faixas": {
+            "facil": "0–25",
+            "moderada": "26–50",
+            "dificil": "51–89",
+            "extrema": "90–100"
         }
     },
     indiceAdaptacaoRegional: {
@@ -190,5 +197,5 @@ export const dendrobiumSpectabile = {
         "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente" }
     },
-        avaliacoes: { cultivo: 5, floracao: 4, perfume: 2, luminosidade: 4, agua: 4, raridade: 4 }
+        avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 4, agua: 4, raridade: 4 }
 };

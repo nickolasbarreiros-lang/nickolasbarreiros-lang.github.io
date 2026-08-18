@@ -7,7 +7,7 @@ export const oncidiumPumilum = {
     "genero": "Trichocentrum",
     "sinonimo": "Oncidium pumilum",
     "tipo": "Espécie botânica",
-    "dificuldade": "Fácil",
+    "dificuldade": "Moderada",
     "caracteristicas": [
         "Miniatura epífita brasileira",
         "Sinônimo tradicional Oncidium pumilum",
@@ -60,14 +60,15 @@ export const oncidiumPumilum = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.1",
-        "indice": 15,
-        "classificacao": "Fácil",
-        "cultivoEstrelas": 5,
+        "versao": "IDC 3.0 — régua recalibrada",
+        "escala": "dificuldade",
+        "indice": 36,
+        "classificacao": "Moderada",
+        "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
-                "notaDificuldade": 0,
-                "peso": 30
+                "notaDificuldade": 2,
+                "peso": 15
             },
             "rega": {
                 "notaDificuldade": 2,
@@ -75,28 +76,34 @@ export const oncidiumPumilum = {
             },
             "umidade": {
                 "notaDificuldade": 2,
-                "peso": 5
+                "peso": 10
             },
             "ventilacao": {
-                "notaDificuldade": 1,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "luminosidade": {
-                "notaDificuldade": 1,
-                "peso": 15
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "raizesSubstrato": {
-                "notaDificuldade": 2,
-                "peso": 5
+                "notaDificuldade": 1,
+                "peso": 10
             },
             "sazonalidade": {
                 "notaDificuldade": 1,
-                "peso": 5
+                "peso": 10
             },
             "floracao": {
-                "notaDificuldade": 0,
+                "notaDificuldade": 2,
                 "peso": 20
             }
+        },
+        "faixas": {
+            "facil": "0–25",
+            "moderada": "26–50",
+            "dificil": "51–89",
+            "extrema": "90–100"
         }
     },
     indiceAdaptacaoRegional: {
@@ -187,7 +194,7 @@ export const oncidiumPumilum = {
         "climaFloracao": { "faixa": "quente" }
     },
         "avaliacoes": {
-        "cultivo": 5,
+        "cultivo": 4,
         "floracao": 5,
         "perfume": 2,
         "luminosidade": 4,

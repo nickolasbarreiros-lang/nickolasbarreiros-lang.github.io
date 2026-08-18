@@ -7,7 +7,7 @@ export const laeliaPraestans = {
     genero: "Cattleya",
     sinonimo: "Laelia praestans",
     tipo: "Espécie botânica",
-    dificuldade: "Fácil",
+    dificuldade: "Difícil",
     caracteristicas: [
         "Espécie brasileira compacta",
         "Flores grandes de ~7,5 cm",
@@ -56,43 +56,50 @@ export const laeliaPraestans = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.1",
-        "indice": 16,
-        "classificacao": "Fácil",
-        "cultivoEstrelas": 5,
+        "versao": "IDC 3.0 — régua recalibrada",
+        "escala": "dificuldade",
+        "indice": 56,
+        "classificacao": "Difícil",
+        "cultivoEstrelas": 3,
         "criterios": {
             "temperatura": {
-                "notaDificuldade": 0,
-                "peso": 30
+                "notaDificuldade": 3,
+                "peso": 15
             },
             "rega": {
-                "notaDificuldade": 1,
+                "notaDificuldade": 3,
                 "peso": 15
             },
             "umidade": {
-                "notaDificuldade": 1,
-                "peso": 5
+                "notaDificuldade": 3,
+                "peso": 10
             },
             "ventilacao": {
-                "notaDificuldade": 1,
-                "peso": 5
+                "notaDificuldade": 3,
+                "peso": 10
             },
             "luminosidade": {
-                "notaDificuldade": 2,
-                "peso": 15
+                "notaDificuldade": 3,
+                "peso": 10
             },
             "raizesSubstrato": {
                 "notaDificuldade": 2,
-                "peso": 5
+                "peso": 10
             },
             "sazonalidade": {
-                "notaDificuldade": 3,
-                "peso": 5
+                "notaDificuldade": 2,
+                "peso": 10
             },
             "floracao": {
-                "notaDificuldade": 0,
+                "notaDificuldade": 3,
                 "peso": 20
             }
+        },
+        "faixas": {
+            "facil": "0–25",
+            "moderada": "26–50",
+            "dificil": "51–89",
+            "extrema": "90–100"
         }
     },
     indiceAdaptacaoRegional: {
@@ -178,7 +185,7 @@ export const laeliaPraestans = {
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {
-        cultivo: 5,
+        cultivo: 3,
         floracao: 4,
         perfume: 2,
         luminosidade: 4,
