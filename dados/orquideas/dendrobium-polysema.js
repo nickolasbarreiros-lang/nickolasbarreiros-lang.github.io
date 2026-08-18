@@ -43,39 +43,98 @@ export const dendrobiumPolysema = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n🥉 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
     "errosComuns": "Calor abafado; folhas superaquecidas; água parada; seca prolongada; excesso de sais; vaso grande; substrato compactado; adubo forte; remover hastes antigas firmes; pouca ventilação; sol direto.",
     "dica": "Controle a temperatura foliar, não apenas a temperatura do ar. Sombreamento adequado e ventilação contínua devem manter as folhas amenas. Se a folha estiver quente ao toque, a planta já está sob estresse. Preserve todas as hastes antigas firmes.",
+    revisaoCientificaIAR: {
+        "nome": "Dendrobium polysema",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma orquídea de aparência quase exótica até entre os Dendrobium! Nativa da Nova Guiné, Dendrobium polysema chama atenção pelas flores claras densamente pintalgadas de verde, castanho e púrpura. A planta forma pseudobulbos robustos de aproximadamente 20 a 50 cm, normalmente com duas folhas coriáceas no ápice, e pode produzir inflorescências de até cerca de 45 cm. Sua origem em f",
+        "habitatAltitudeClima": "Matas úmidas e musgosas de altitude. | Fresco · úmido · muito ventilado.",
+        "distribuicaoGeografica": "Florestas montanas da Nova Guiné.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 59,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 47,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 81,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, o cultivo é desafiador. Use o ponto mais fresco e ventilado, sombra de 50% a 60%, vasos claros e umidade ambiental alta." },
-        "montanhaFrio": { texto: "Adaptação excelente, desde que haja umidade regular, ventilação e proteção contra geadas." }
+        "litoralQuente": "Em Litoral de clima quente, o cultivo é desafiador. Use o ponto mais fresco e ventilado, sombra de 50% a 60%, vasos claros e umidade ambiental alta.",
+        "montanhaFrio": "Adaptação excelente, desde que haja umidade regular, ventilação e proteção contra geadas."
     },
     "mesesFloracao": [
         8,

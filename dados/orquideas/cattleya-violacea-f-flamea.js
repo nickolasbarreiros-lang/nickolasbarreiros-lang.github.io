@@ -40,39 +40,98 @@ export const cattleyaViolaceaFFlamea = {
     "substrato": "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
     "errosComuns": "Expor a frio prolongado; impor repouso seco; deixar raízes secas por vários dias; manter substrato saturado; usar pouca ventilação; cultivar em sombra profunda; deixar água no rizoma; regar à noite; usar substrato fino; aplicar excesso de adubo; replantar sem raízes novas; confundir alta umidade do ar com encharcamento.",
     "dica": "O segredo não é simplesmente regar mais, mas manter calor, umidade e ar em equilíbrio. Use cesto ou vaso muito perfurado, regue com frequência pela manhã e permita que a superfície das raízes respire. Mantenha noites quentes e nunca aplique um repouso seco típico de Cattleyas do Sudeste. A planta deve permanecer hidratada e metabolicamente ativa sem ficar encharcada.",
+    revisaoCientificaIAR: {
+        "nome": "Cattleya violacea f. flamea",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma Cattleya amazônica de cores vibrantes e presença marcante! A forma flamea de Cattleya violacea chama atenção pelo contraste das pétalas, que ficam mais intensamente coloridas nas pontas, criando um efeito semelhante a pequenas chamas. Suas flores são grandes, cerosas, perfumadas e podem chegar perto de 13 cm. Na natureza, a espécie vive principalmente em florestas tropicais",
+        "habitatAltitudeClima": "Florestas úmidas próximas a rios · ~200–700 m. | Quente e úmido · noites quentes.",
+        "distribuicaoGeografica": "Amazônia e norte da América do Sul.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 63,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 1, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 97,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 67,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "montanhaFrio": {
+            "indice": 47,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, o clima é muito favorável. Mantenha sombra luminosa, circulação de ar e proteção contra chuva contínua dentro do recipiente. O calor local é uma vantagem, desde que as raízes não fiquem abafadas." },
-        "montanhaFrio": { texto: "Cultive em local protegido, preferencialmente aquecido. Evite temperaturas noturnas prolongadas abaixo de 15 °C e reduza a água apenas conforme a evaporação." }
+        "litoralQuente": "Em Litoral de clima quente, o clima é muito favorável. Mantenha sombra luminosa, circulação de ar e proteção contra chuva contínua dentro do recipiente. O calor local é uma vantagem, desde que as raízes não fiquem abafadas.",
+        "montanhaFrio": "Cultive em local protegido, preferencialmente aquecido. Evite temperaturas noturnas prolongadas abaixo de 15 °C e reduza a água apenas conforme a evaporação."
     },
     "mesesFloracao": [
         10,

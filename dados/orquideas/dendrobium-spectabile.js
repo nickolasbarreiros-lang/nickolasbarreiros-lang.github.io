@@ -52,33 +52,92 @@ export const dendrobiumSpectabile = {
         "Subestimar o tamanho e o peso da planta adulta"
     ],
     dica: "🏆 Tenha paciência com o tamanho de floração. Dendrobium spectabile pode crescer vigorosamente antes de decidir florescer. Concentre-se em produzir hastes progressivamente maiores com muita luz filtrada, água e adubação durante o crescimento; quando a planta atingir maturidade, as flores extraordinárias compensam a espera.",
+    revisaoCientificaIAR: {
+        "nome": "Dendrobium spectabile",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Dendrobium spectabile é uma das espécies mais extravagantes do gênero. Suas flores parecem pequenas esculturas vivas: pétalas e sépalas retorcidas, onduladas e irregulares formam desenhos quase impossíveis de repetir de uma flor para outra. A planta desenvolve hastes robustas e, quando madura, produz cachos próximos ao topo com numerosas flores de aparência exótica. Apesar do v",
+        "habitatAltitudeClima": "Epífita de florestas tropicais úmidas; ocasionalmente rupícola, de baixas a altas elevações. | Quente a intermediário, úmido e muito ventilado.",
+        "distribuicaoGeografica": "Nova Guiné, Ilhas Salomão, Vanuatu e Nova Caledônia.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 72,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 64,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 64,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },

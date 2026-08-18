@@ -43,39 +43,98 @@ export const rodrigueziaVenusta = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
     "errosComuns": "Sombra profunda; vaso grande; excesso de esfagno; substrato velho ou compactado; impedir o caimento das hastes; deixar a touceira molhada à noite; aplicar matéria orgânica diretamente sobre raízes; adubar forte; replantar fora da emissão de novas raízes; dividir touceiras pequenas; falta de ventilação.",
     "dica": "O melhor manejo é suspender a planta em placa, cortiça ou cachepô vazado e liberar completamente o espaço abaixo das hastes. A montagem vertical combina exatamente o que a espécie precisa: raízes finas bem oxigenadas, secagem rápida depois da rega e caminho livre para as inflorescências pendentes. Regue pela manhã e use apenas uma camada mínima de material retentivo.",
+    revisaoCientificaIAR: {
+        "nome": "Rodriguezia bracteata",
+        "statusTaxonomico": "Nome aceito usado na ficha: Rodriguezia bracteata.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Delicada no porte, mas muito marcante quando floresce. Rodriguezia bracteata forma pequenas touceiras e hastes arqueadas a pendentes com flores claras, geralmente brancas a creme, realçadas por amarelo e acompanhadas por perfume adocicado. O antigo nome Rodriguezia venusta ainda é muito conhecido entre cultivadores, mas hoje é tratado como sinônimo. Sua distribuição é ampla na ",
+        "habitatAltitudeClima": "Epífita de florestas tropicais; de baixadas a ~1.000 m. | Quente a intermediário; úmido e ventilado.",
+        "distribuicaoGeografica": "Norte e leste da América do Sul, incluindo o Brasil.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 84,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 76,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 4, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 64,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, adapta-se muito bem. Prefira cultivo suspenso, meia-sombra clara, regas matinais e ventilação contínua. Em semanas de chuva, reduza a retenção do suporte em vez de acrescentar água." },
-        "montanhaFrio": { texto: "Tolera noites amenas. Proteja de geadas, vento frio ressecante e substrato molhado por longos períodos." }
+        "litoralQuente": "Em Litoral de clima quente, adapta-se muito bem. Prefira cultivo suspenso, meia-sombra clara, regas matinais e ventilação contínua. Em semanas de chuva, reduza a retenção do suporte em vez de acrescentar água.",
+        "montanhaFrio": "Tolera noites amenas. Proteja de geadas, vento frio ressecante e substrato molhado por longos períodos."
     },
     "mesesFloracao": [
         9,

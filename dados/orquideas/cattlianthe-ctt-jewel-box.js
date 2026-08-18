@@ -43,39 +43,100 @@ export const cattliantheCttJewelBox = {
     "substrato": "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
     "errosComuns": "Cultivar sob sombra excessiva; dividir a touceira com frequência; usar vaso grande; deixar o substrato degradar; enterrar o rizoma; excesso de nitrogênio; somar várias fontes de adubo em dose completa; acumular água nas bainhas e espatas; replantar sem raízes novas; manter a planta frouxa no vaso.",
     "dica": "Preserve a touceira e permita o adensamento de vários pseudobulbos. Cada pseudobulbo maduro representa uma possível haste floral e uma reserva para os novos crescimentos. Com luz alta, raízes saudáveis e poucas divisões, Cattlianthe Jewel Box produz cachos mais cheios, hastes mais firmes e floradas simultâneas.",
+    revisaoCientificaIAR: {
+        "nome": "Cattlianthe Jewel Box",
+        "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Um clássico vermelho que continua atual! Cattlianthe Jewel Box é um híbrido vigoroso, registrado em 1962 a partir de Guarianthe aurantiaca × Cattleya Anzac. Forma touceiras compactas a médias e chama atenção pelos cachos com várias flores em tons intensos de vermelho, escarlate ou vermelho-alaranjado, conforme o cultivar. A influência de Guarianthe aurantiaca ajuda a explicar s",
+        "habitatAltitudeClima": "Sem habitat natural · cultivo claro e ventilado. | Quente a intermediário · luz alta.",
+        "distribuicaoGeografica": "Guarianthe aurantiaca × Cattleya Anzac.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies",
+            "OrchidRoots/RHS",
+            "AOS/OrchidPro (dados públicos localizados)"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 84,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 64,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 63,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "No litoral quente, adapta-se muito bem ao calor. Mantenha sob luz alta filtrada, ventilação constante e substrato de secagem rápida. Durante períodos de chuva contínua, aumente o intervalo entre regas e proteja as bainhas florais." },
-        "montanhaFrio": { texto: "Também apresenta bom desenvolvimento. Proteja apenas contra geadas e reduza a água em semanas frias e chuvosas." }
+        "litoralQuente": "No litoral quente, adapta-se muito bem ao calor. Mantenha sob luz alta filtrada, ventilação constante e substrato de secagem rápida. Durante períodos de chuva contínua, aumente o intervalo entre regas e proteja as bainhas florais.",
+        "montanhaFrio": "Também apresenta bom desenvolvimento. Proteja apenas contra geadas e reduza a água em semanas frias e chuvosas."
     },
     "mesesFloracao": [
         4,

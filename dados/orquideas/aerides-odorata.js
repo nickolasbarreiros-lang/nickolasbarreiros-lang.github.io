@@ -57,33 +57,92 @@ export const aeridesOdorata = {
         "Cortar raízes aéreas saudáveis apenas porque saíram do recipiente"
     ],
     dica: "🏆 Pense nela mais como uma Vanda do que como uma orquídea de vaso convencional. Quanto mais livres e ventiladas estiverem as raízes, mais fácil será oferecer bastante água sem causar encharcamento. No litoral quente, cesto vazado, luz filtrada forte e regas generosas pela manhã formam uma combinação especialmente favorável.",
+    revisaoCientificaIAR: {
+        "nome": "Aerides odorata",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Aerides odorata é uma elegante orquídea asiática que combina folhagem robusta com cachos pendentes de flores delicadas e intensamente perfumadas. Suas folhas são espessas e coriáceas, enquanto as inflorescências surgem carregadas de numerosas flores claras, geralmente brancas a rosadas, com detalhes púrpura. O perfume é uma de suas grandes atrações e combina perfeitamente com o",
+        "habitatAltitudeClima": "Epífita de florestas tropicais úmidas, com raízes expostas. | Quente a intermediário, úmido e muito ventilado.",
+        "distribuicaoGeografica": "Himalaia, sul da China, Sudeste Asiático e Malesia.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 70,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 97,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 70,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 63,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },

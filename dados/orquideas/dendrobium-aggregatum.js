@@ -42,39 +42,98 @@ export const dendrobiumAggregatum = {
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.\n🥉 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n⭐ Alternativa: Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.",
     "errosComuns": "Regar e adubar da mesma forma o ano inteiro; iniciar o repouso antes de o pseudobulbo amadurecer; sombra excessiva; esfagno compacto; tentar induzir floração apenas com adubo rico em fósforo; cortar pseudobulbos antigos ainda firmes; dividir touceiras pequenas; deixar chuva constante atingir a planta durante o repouso.",
     "dica": "O segredo da floração está na transição, não na seca extrema. Deixe o pseudobulbo completar seu crescimento e endurecer; depois aumente a luz, reduza bastante a água e suspenda o nitrogênio. Um leve enrugamento é normal, mas pseudobulbos profundamente desidratados indicam que a redução foi longe demais.",
+    revisaoCientificaIAR: {
+        "nome": "Dendrobium lindleyi",
+        "statusTaxonomico": "Nome aceito usado na ficha: Dendrobium lindleyi.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma pequena orquídea capaz de produzir um espetáculo enorme! Dendrobium lindleyi forma touceiras compactas de pseudobulbos curtos, cada um geralmente com uma única folha, e na época certa solta cachos pendentes com 5–15 flores amarelo-ouro e perfumadas. As flores medem aproximadamente 2–5 cm e contrastam com o tamanho reduzido da planta. Na natureza vive em regiões de monções: ",
+        "habitatAltitudeClima": "Florestas sazonais · epífita · 400–1.300 m. | Quente a fresco · inverno mais seco e luminoso.",
+        "distribuicaoGeografica": "NE da Índia, sul da China e Indochina.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 72,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 78,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 85,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "montanhaFrio": {
+            "indice": 84,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "No litoral quente, use a parte mais clara, alta e ventilada do orquidário. Proteja de chuvas persistentes no inverno e use a redução hídrica como principal sinal sazonal. Noites naturalmente um pouco mais amenas ajudam, mas não compense calor com excesso de seca." },
-        "montanhaFrio": { texto: "Adaptação excelente. A combinação de noites frescas, bastante luz e inverno seco aproxima-se mais do ciclo natural. Proteja apenas de geada e de encharcamento prolongado." }
+        "litoralQuente": "No litoral quente, use a parte mais clara, alta e ventilada do orquidário. Proteja de chuvas persistentes no inverno e use a redução hídrica como principal sinal sazonal. Noites naturalmente um pouco mais amenas ajudam, mas não compense calor com excesso de seca.",
+        "montanhaFrio": "Adaptação excelente. A combinação de noites frescas, bastante luz e inverno seco aproxima-se mais do ciclo natural. Proteja apenas de geada e de encharcamento prolongado."
     },
     "mesesFloracao": [
         7,

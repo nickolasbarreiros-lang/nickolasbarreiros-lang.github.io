@@ -41,33 +41,92 @@ export const laeliaFournieri = {
     substrato: "🥇 Pedra-pomes + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.\n🥈 Brita + pedra-pomes + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.\n🥉 Macadâmia grossa + pedra-pomes + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado.\n⭐ Alternativa: Pedra-pomes + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.",
     errosComuns: "• Cultivar em local quente e abafado.\n• Confundir hábito rupícola com necessidade de seca extrema.\n• Vaso grande, profundo ou com material compactado.\n• Deixar pedra ou vaso superaquecer ao sol.\n• Excesso de matéria orgânica decomposta no calor.\n• Replantar por conveniência quando não há novas raízes, salvo emergência.\n• Adubação concentrada e acúmulo de sais.\n• Repouso seco exagerado, levando rapidamente ao enrugamento dos pseudobulbos.",
     dica: "🏆 Replante preferencialmente quando as primeiras raízes novas começarem a surgir e use pouco volume de substrato, muita drenagem e máxima circulação de ar. No litoral quente, o objetivo é baixar a temperatura radicular e evitar abafamento; secar demais uma planta tão pequena costuma piorar o problema.",
+    revisaoCientificaIAR: {
+        "nome": "Cattleya fournieri",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma joia minúscula dos campos rupestres de Minas Gerais! Cattleya fournieri forma pequenas touceiras compactas, com folhas rígidas e flores de aproximadamente 2,5 a 3 cm — grandes em relação ao tamanho da planta. É encontrada em afloramentos rochosos de altitude, por volta de 1.100 a 1.800 m, onde recebe muita luz, vento e noites frescas. Por isso, no litoral quente, o maior de",
+        "habitatAltitudeClima": "Campos rupestres · rochas · ~1.100–1.800 m. | Fresco a intermediário · alta luz · ventilado.",
+        "distribuicaoGeografica": "Minas Gerais.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 51,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 2, peso: 30 },
-                temperatura: { nota: 2, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 49,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 80,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 97,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },

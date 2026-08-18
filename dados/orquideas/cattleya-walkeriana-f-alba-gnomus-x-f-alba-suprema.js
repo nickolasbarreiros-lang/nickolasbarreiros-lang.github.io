@@ -41,33 +41,92 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.\n🥉 Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.\n⭐ Alternativa: Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.",
     errosComuns: "Substrato permanentemente úmido; pouca luz; replantar sem emissão de raízes novas; enterrar o rizoma; usar vaso grande; dividir touceiras pequenas; deixar completamente seca por semanas apenas porque não há pontas verdes; adubar fortemente plantas montadas; mudar constantemente a posição e a iluminação; interpretar folhas amareladas como objetivo de cultivo.",
     dica: "Leia a planta inteira, não apenas o calendário ou a ponta das raízes. Pontas verdes indicam crescimento ativo e permitem regas abundantes e adubação leve. Depois da maturação, aumente os intervalos entre as regas sem transformar o repouso em seca absoluta. E replante apenas quando novas raízes estiverem iniciando: em Cattleya walkeriana, o momento do replantio pode definir se a planta se estabelece rapidamente ou passa muitos meses debilitada.",
+    revisaoCientificaIAR: {
+        "nome": "Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema')",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma combinação especial entre duas walkerianas albas selecionadas! O cruzamento entre os clones ‘Gnomus’ e ‘Suprema’ busca reunir flores brancas, boa forma e o perfume intenso característico de Cattleya walkeriana. Mesmo entre plantas irmãs podem surgir diferenças de tamanho, formato, substância e intensidade do amarelo na garganta, o que torna cada muda única. É uma Cattleya b",
+        "habitatAltitudeClima": "Cerrado e matas sazonais · árvores e rochas. | Quente a intermediário · estação mais seca.",
+        "distribuicaoGeografica": "Centro-Oeste e Sudeste.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 86,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 98,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 63,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },

@@ -41,39 +41,98 @@ export const cattleyaSchilleriana = {
     "substrato": "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
     "errosComuns": "Replantar fora do início do enraizamento; descolar raízes aderidas; utilizar vaso grande; deixar a planta frouxa no suporte; enterrar o rizoma; manter substrato constantemente úmido; usar mistura fina ou velha; cultivar em sombra profunda; deixar água presa nos brotos; adubar forte; dividir em poucas frentes; cortar pseudobulbos traseiros firmes; mudar a planta de lugar durante a formação dos botões; confundir pseudobulbo murcho com simples falta de rega sem verificar as raízes.",
     "dica": "A janela de replante é curta e deve ser respeitada com rigor. Espere a nova frente começar a emitir pontas radiculares verdes de poucos milímetros a cerca de 1 cm. Prepare o recipiente, o substrato e os materiais antes de retirar a planta do suporte antigo. Preserve o máximo possível das raízes aderidas e fixe o rizoma firmemente. Depois do replante, mantenha sombra levemente maior por alguns dias, ventilação constante e regas cuidadosas, sem saturar. Fora dessa fase, é melhor adiar o manejo do que perturbar uma planta estável.",
+    revisaoCientificaIAR: {
+        "nome": "Cattleya schilleriana",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma pequena Cattleya com flores enormes em relação ao próprio tamanho! Nativa do leste da Bahia ao Espírito Santo, Cattleya schilleriana forma plantas compactas, geralmente com duas folhas firmes por pseudobulbo, e produz flores cerosas e perfumadas que podem chegar a cerca de 8–11 cm. Sépalas e pétalas em tons bronzeados, castanho-esverdeados ou pardos aparecem cobertas por pi",
+        "habitatAltitudeClima": "Matas e paredões úmidos · 0–800 m. | Quente a intermediário · muito ventilado.",
+        "distribuicaoGeografica": "Leste da Bahia ao Espírito Santo.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 80,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 97,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 81,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 68,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, a espécie encontra temperatura e umidade compatíveis com sua origem. O principal risco é o excesso de água combinado com noites abafadas. Cultive em local muito ventilado, com luz alta filtrada, rega matinal e suporte que seque rapidamente. Cachepôs e placas funcionam particularmente bem." },
-        "montanhaFrio": { texto: "Em regiões de montanha, proteja de frio intenso, chuva fria prolongada e vento ressecante. Reduza a frequência de rega conforme a evaporação, sem impor seca extrema." }
+        "litoralQuente": "Em Litoral de clima quente, a espécie encontra temperatura e umidade compatíveis com sua origem. O principal risco é o excesso de água combinado com noites abafadas. Cultive em local muito ventilado, com luz alta filtrada, rega matinal e suporte que seque rapidamente. Cachepôs e placas funcionam particularmente bem.",
+        "montanhaFrio": "Em regiões de montanha, proteja de frio intenso, chuva fria prolongada e vento ressecante. Reduza a frequência de rega conforme a evaporação, sem impor seca extrema."
     },
     "mesesFloracao": [
         9,

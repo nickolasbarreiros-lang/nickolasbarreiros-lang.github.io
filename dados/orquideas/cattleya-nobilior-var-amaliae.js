@@ -42,33 +42,92 @@ export const cattleyaNobiliorVarAmaliae = {
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n🥉 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.\n⭐ Alternativa: Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.",
     errosComuns: "Pouca luz; manter umidade constante no inverno; secar demais durante crescimento ativo; vaso grande ou substrato fino; pouca ventilação; enterrar o rizoma; replantar fora da emissão de raízes; dividir plantas pequenas; adubar durante repouso forte; interpretar repouso seco como abandono completo até enrugamento severo; deixar a planta receber chuvas contínuas no inverno litorâneo.",
     dica: "A chave é reproduzir a sazonalidade, e não simplesmente dar pouca água. Enquanto houver raízes e pseudobulbos novos, regue com abundância e adube levemente, sempre permitindo secagem rápida. Após a maturação, aumente bastante os intervalos e suspenda a adubação. No repouso, mantenha a planta muito mais seca, mas intervenha antes de ocorrer desidratação severa. Em Litoral de clima quente, o maior segredo é abrigo contra chuva persistente de inverno sem sacrificar a ventilação.",
+    revisaoCientificaIAR: {
+        "nome": "Cattleya nobilior var. amaliae",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma das formas mais desejadas de Cattleya nobilior, a tradicional amaliae é uma verdadeira joia do Cerrado brasileiro. A planta é compacta e robusta, com pseudobulbos curtos e geralmente duas folhas coriáceas, mas produz flores grandes, arredondadas, cerosas e perfumadas, normalmente em delicados tons de rosa-claro a rosa-lilás. O labelo mais intenso, frequentemente com gargant",
+        "habitatAltitudeClima": "Cerrado decíduo · árvores baixas. | Quente · muito luminoso · inverno seco.",
+        "distribuicaoGeografica": "N. Goiás, Tocantins e SO da Bahia.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 81,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 97,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 2,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 57,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 2, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 45,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 2,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         }
     },

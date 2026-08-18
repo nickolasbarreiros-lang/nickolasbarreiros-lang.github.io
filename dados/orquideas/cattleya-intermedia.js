@@ -41,33 +41,92 @@ export const cattleyaIntermedia = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
     errosComuns: "• Enterrar o rizoma ou as gemas de brotação.\n• Sombra excessiva, que produz pseudobulbos finos e reduz a floração.\n• Vaso muito grande e com excesso de substrato úmido.\n• Substrato velho, ácido ou decomposto.\n• Replantar fora do início da emissão de raízes novas.\n• Manter o centro do recipiente constantemente molhado.\n• Secar excessivamente durante crescimento ativo.\n• Tentar compensar pouca luz com adubação forte.",
     dica: "🏆 Mantenha o rizoma livre e replante apenas quando surgirem as primeiras pontas de raízes novas. Cattleya intermedia responde melhor quando o novo crescimento consegue colonizar imediatamente o recipiente. Em vez de perseguir uma cor exata de folha, observe raízes ativas, pseudobulbos robustos, folhas firmes e floração regular. Preserve touceiras grandes sempre que houver espaço: várias frentes maduras significam mais reservas e maior potencial de flores simultâneas.",
+    revisaoCientificaIAR: {
+        "nome": "Cattleya intermedia",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma das Cattleyas brasileiras mais queridas e versáteis, Cattleya intermedia combina elegância, rusticidade e uma extraordinária variedade de flores. De porte médio e crescimento bifoliado, forma belas touceiras e produz hastes com várias flores perfumadas, geralmente em tons de branco, rosa ou lilás, realçadas por um labelo de coloração mais intensa. É também uma verdadeira ca",
+        "habitatAltitudeClima": "Restingas, matas abertas e ambientes sazonais | Quente a intermediário · muito adaptável",
+        "distribuicaoGeografica": "Sudeste/Sul do Brasil ao Paraguai",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 83,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 98,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 64,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },

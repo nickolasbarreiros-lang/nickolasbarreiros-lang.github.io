@@ -38,33 +38,92 @@ export const bifrenariaAureofulva = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
     errosComuns: "Tratar a espécie como planta de repouso totalmente seco; cultivar em sombra profunda; expor a sol forte; usar vasos muito grandes; manter substrato compacto ou degradado; reduzir a água antes do pseudobulbo amadurecer; replantar sem raízes novas iniciando; aplicar fertilizante concentrado em raízes sensíveis.",
     dica: "Trate-a como uma verdadeira orquídea do sol. Ela exige alta luminosidade (claridade intensa, mas sem sol direto) e vasos bem apertados com drenagem perfeita. O grande segredo para conseguir hastes repletas de flores laranjas é mantê-la com raízes restritas, boa ventilação e regas fartas apenas no período de crescimento ativo.",
+    revisaoCientificaIAR: {
+        "nome": "Bifrenaria aureofulva",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma pequena explosão de tons dourados da flora brasileira! A Bifrenaria aureofulva produz hastes com várias flores amarelo-douradas a alaranjadas, geralmente perfumadas, que se destacam sobre a folhagem verde e plicada. É uma epífita de florestas úmidas do leste e sul do Brasil, formando pseudobulbos compactos com uma única folha no ápice. As flores têm cerca de 2,5 cm e podem ",
+        "habitatAltitudeClima": "Florestas úmidas · epífita · ~200–1.500 m. | Quente a fresco · úmido e ventilado.",
+        "distribuicaoGeografica": "Leste e Sul do Brasil · Mata Atlântica.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 74,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 63,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },

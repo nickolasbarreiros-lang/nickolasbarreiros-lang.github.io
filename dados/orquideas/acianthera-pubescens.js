@@ -52,33 +52,92 @@ export const aciantheraPubescens = {
     suporte: ["🥇 Vaso pequeno e muito drenado.", "🥈 Placa de madeira, cortiça ou tronco com pequena reserva de musgo.", "🥉 Cachepô pequeno e ventilado, adequado a touceiras adultas."],
     substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "🥉 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.", "⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado."],
     errosComuns: ["Aplicar o mesmo regime a exemplares de procedências muito diferentes.", "Manter touceira densa molhada e sem ventilação.", "Usar substrato compacto ou decomposto.", "Expor ao sol direto forte.", "Deixar as raízes secarem completamente por períodos longos.", "Acumular sais de fertilizante.", "Fixar uma época única de floração para uma espécie que pode florescer o ano inteiro."],
+    revisaoCientificaIAR: {
+        "nome": "Acianthera pubescens",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma espécie de aparência extremamente variável, o que torna cada planta particularmente interessante. A Acianthera pubescens forma touceiras de folhas espessas e produz pequenas flores carnosas, geralmente claras ou rosadas, marcadas por manchas, listras ou tons púrpura. O nome pubescens faz referência à fina pilosidade presente nas flores, uma característica que fica ainda mai",
+        "habitatAltitudeClima": "Epífita de florestas densas e úmidas, com registros aproximadamente entre 500 e 1.900 m. | Quente a fresco conforme procedência; preferencialmente úmido e ventilado.",
+        "distribuicaoGeografica": "Ampla distribuição neotropical: México, América Central, Caribe e grande parte da América do Sul, incluindo Brasil, Paraguai, Uruguai e nordeste da Argentina conforme bases taxonômicas modernas.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 64,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 79,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 76,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },

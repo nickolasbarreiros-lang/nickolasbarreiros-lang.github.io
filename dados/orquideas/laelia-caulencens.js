@@ -41,33 +41,92 @@ export const laeliaCaulencens = {
     substrato: "🥇 Pedra-pomes + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.\n🥈 Pedra-pomes + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.\n🥉 Brita + pedra-pomes + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.\n⭐ Alternativa: Macadâmia grossa + pedra-pomes + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado.",
     errosComuns: "• Substrato compacto.\n• Vaso grande e profundo.\n• Sombra excessiva e estiolamento.\n• Sol forte aquecendo pedra ou vaso.\n• Confundir rupícola com xerófita extrema.\n• Repouso seco exagerado.\n• Pouca ventilação no litoral.\n• Excesso de fertilizante e acúmulo de sais.",
     dica: "🏆 O melhor resultado vem de reproduzir a dinâmica de uma encosta rochosa: muita luz, água abundante quando a planta está ativa, drenagem imediata e ar retornando rapidamente às raízes. No litoral, prefira vaso baixo e claro ou barro bem ventilado e proteja o recipiente do sol forte da tarde.",
+    revisaoCientificaIAR: {
+        "nome": "Cattleya caulescens",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Pequena no porte, mas muito marcante quando floresce! Cattleya caulescens é uma rupícola de Minas Gerais que vive entre pedras e areia, em encostas abertas e muito iluminadas. Seus pseudobulbos compactos sustentam uma única folha firme, enquanto hastes de cerca de 15 a 35 cm elevam de 2 a 5 flores rosadas, lilases ou púrpuras. Na natureza aparece por volta de 600 a 1.200 m; por",
+        "habitatAltitudeClima": "Campos rupestres · rochas e areia · ~600–1.200 m. | Quente a fresco · sazonal · alta luz.",
+        "distribuicaoGeografica": "Minas Gerais.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 69,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 4, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 65,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 74,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 97,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },

@@ -42,33 +42,92 @@ export const cattleyaGuttataVarCoerulea = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
     errosComuns: "• Planta balançando após o replantio, rompendo pontas radiculares novas.\n• Vaso leve que tomba com o peso dos pseudobulbos.\n• Sombra excessiva e crescimento estiolado.\n• Vaso enorme com núcleo constantemente úmido.\n• Substrato velho e decomposto.\n• Secar demais durante a formação de novos pseudobulbos.\n• Dividir clones valiosos em pedaços muito pequenos.\n• Replantar quando não há novas raízes em início de crescimento.\n• Adubação excessiva ou uso de fósforo muito concentrado.",
     dica: "🏆 Imobilize a base antes de pensar na floração. O grande porte transforma cada pseudobulbo em uma alavanca: vento ou esbarrões podem movimentar o rizoma e romper as pontas das raízes novas. Após o replantio, fixe firmemente rizoma e pseudobulbos principais com amarração macia ou revestida, sem estrangular os tecidos. Preserve divisões com pelo menos 4 a 5 pseudobulbos e, em clones coerulea valiosos, prefira touceiras ainda maiores. Faça o replantio quando as primeiras raízes novas começarem a aparecer.",
+    revisaoCientificaIAR: {
+        "nome": "Cattleya guttata f. coerulea",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma Cattleya brasileira de presença marcante! Cattleya guttata pode formar pseudobulbos altos e grandes touceiras, recompensando o espaço ocupado com hastes carregadas de flores cerosas e pintalgadas. Nesta seleção coerulea, o contraste fica ainda mais interessante: em vez dos tons mais quentes normalmente vistos no labelo, surgem nuances lavanda, violeta frio ou azuladas — nun",
+        "habitatAltitudeClima": "Restingas e matas costeiras abertas · baixa altitude | Quente · úmido · muito ventilado",
+        "distribuicaoGeografica": "Leste, Sudeste e Sul do Brasil",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 77,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 98,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 57,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 2, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 64,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },

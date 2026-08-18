@@ -52,33 +52,92 @@ export const aciantheraGlumacea = {
     suporte: ["🥇 Vaso pequeno de barro ou plástico muito perfurado.", "🥈 Placa/cepo de madeira com pequena reserva de esfagno para ambientes de alta umidade.", "🥉 Cachepô ripado para touceiras adultas, mantendo o centro aberto e ventilado."],
     substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "🥉 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "⭐ Alternativa: Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."],
     errosComuns: ["Remover ramicaules antigos ainda verdes que podem reflorir.", "Encharcar o centro de touceiras densas.", "Cultivar em calor noturno abafado.", "Usar substrato decomposto ou compactado.", "Usar vaso excessivamente grande.", "Manter sombra profunda.", "Confundir a preferência por umidade com necessidade de substrato permanentemente saturado."],
+    revisaoCientificaIAR: {
+        "nome": "Acianthera glumacea",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma pequena orquídea brasileira que compensa o porte discreto com florações muito charmosas. A Acianthera glumacea forma touceiras compactas de folhas firmes e pode produzir mais de uma haste floral ao mesmo tempo, cada uma carregando várias flores amareladas de aproximadamente 1,9 cm, registradas também como perfumadas. Um detalhe especialmente interessante é sua capacidade de",
+        "habitatAltitudeClima": "Epífita de floresta primária úmida. | Intermediário a fresco, úmido e muito ventilado.",
+        "distribuicaoGeografica": "Mata Atlântica serrana do Sudeste e Sul do Brasil.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 60,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 47,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 68,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },

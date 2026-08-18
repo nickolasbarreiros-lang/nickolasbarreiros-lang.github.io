@@ -38,33 +38,92 @@ export const maxillariaBrasiliensis = {
     substrato: "🥇 Casca de macadâmia triturada média + casca de pinus média + pedra-pomes + fibra de coco grossa: estrutura durável, aerada e com umidade moderada para raízes finas epífitas.\n🥈 Chips de coco + pinus médio + perlita + carvão vegetal miúdo, em vaso relativamente justo.\n🥉 Pinus médio + pedra-pomes + pequena fração de esfagno picado + macadâmia, sem compactar o centro do vaso.\n⭐ Alternativa: Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio; evitar vasos grandes e mistura degradada.",
     errosComuns: "Manter substrato constantemente encharcado; esperar a mistura virar farelo; usar vaso grande; dividir a touceira em porções pequenas; enterrar o rizoma; cultivar com pouca luz ou ventilação; aplicar excesso de nitrogênio; fertilizar raízes secas; deixar acumular sais; impor seca prolongada.",
     dica: "Preserve a touceira e priorize a saúde das raízes. A espécie prefere vasos relativamente justos, que secam de forma mais uniforme e evitam excesso de umidade ao redor das raízes. Replante somente no início da emissão de novas raízes, mantendo o rizoma sobre a superfície e escolhendo um recipiente apenas 2–4 cm maior que o volume atual da planta. Evite vasos superdimensionados, divisões frequentes e replantes desnecessários: esta espécie responde melhor à estabilidade e ao desenvolvimento de uma touceira bem estabelecida.",
+    revisaoCientificaIAR: {
+        "nome": "Maxillaria brasiliensis",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma Maxillaria brasileira discreta e elegante, que recompensa o cultivo atento com flores cerosas de aproximadamente 2,5 cm. Forma touceiras compactas e prefere permanecer estável por vários ciclos, sem divisões frequentes. Apesar do aspecto robusto da planta, suas raízes são finas e pouco tolerantes a substrato velho ou abafado. Por isso, o melhor resultado vem de vaso pequeno",
+        "habitatAltitudeClima": "Epífita · florestas úmidas, inclusive matas ciliares. | Quente a fresco · umidade regular e ventilação.",
+        "distribuicaoGeografica": "Brasil · registros em formações tropicais e subtropicais.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 72,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 47,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 64,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },

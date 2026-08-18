@@ -41,33 +41,92 @@ export const camaridiumCarinatum = {
     substrato: "🥇 Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.\n🥈 Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.\n🥉 Chips de coco + pinus médio + perlita + carvão vegetal miúdo.\n⭐ Alternativa: Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia.",
     errosComuns: "• Usar vaso estreito ou profundo.\n• Direcionar a frente de crescimento contra a borda.\n• Enterrar rizoma ou base dos pseudobulbos.\n• Deixar água parada nas bainhas dos brotos.\n• Substrato continuamente saturado.\n• Impor seca severa.\n• Cultivar em sombra excessiva.\n• Aplicar adubo concentrado ou liberação lenta encostada nas brotações.",
     dica: "🏆 No replantio, coloque os pseudobulbos mais antigos próximos a uma borda e direcione a frente ativa para a maior área livre. O recipiente deve ser largo e raso, porque o rizoma avança horizontalmente. A base dos pseudobulbos precisa permanecer descoberta: além de reduzir podridão, isso não bloqueia as inflorescências basais.",
+    revisaoCientificaIAR: {
+        "nome": "Maxillaria imbricata",
+        "statusTaxonomico": "Nome aceito usado na ficha: Maxillaria imbricata.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma orquídea sul-americana de crescimento elegante e bem horizontal. Conhecida por muito tempo como *Camaridium carinatum*, esta planta forma pseudobulbos espaçados ao longo do rizoma, acompanhados por folhas estreitas que criam um conjunto leve e alongado. As flores surgem individualmente junto à base dos pseudobulbos, têm cerca de 3 cm e podem aparecer em diferentes épocas do",
+        "habitatAltitudeClima": "Florestas úmidas/nebulosas · 100–1.000 m. | Quente a intermediário · úmido e ventilado.",
+        "distribuicaoGeografica": "Bolívia e Brasil.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 71,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 79,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 75,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },

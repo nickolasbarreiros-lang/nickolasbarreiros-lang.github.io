@@ -39,33 +39,93 @@ export const cattleyaABrazilianDream = {
     substrato: "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.\n🥈 Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.\n🥉 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.\n⭐ Alternativa: Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.",
     errosComuns: "• Enterrar rizoma e gemas de brotação.\n• Usar vaso superdimensionado.\n• Substrato fino ou compactado.\n• Manter raízes continuamente molhadas.\n• Copiar um repouso rígido de C. nobilior em clone ainda ativo.\n• Cultivar em sombra excessiva.\n• Dividir plantas pequenas sem necessidade.\n• Tratar características de um clone como regra do grex.",
     dica: "🏆 Cultive a planta que você tem, não uma média teórica dos pais. Comece com manejo intermediário: raízes muito aeradas, bastante luz filtrada e regas fortes no crescimento. Depois observe o clone. Se as raízes seguem ativas após a maturação, mantenha alguma água; se a atividade cai e o meio demora a secar, aumente os intervalos. Essa leitura individual é mais segura que tentar reproduzir integralmente o regime de C. nobilior ou de C. loddigesii.",
+    revisaoCientificaIAR: {
+        "nome": "Cattleya A Brazilian Dream",
+        "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Um encontro entre duas Cattleyas brasileiras muito diferentes — e justamente aí está o charme de *Cattleya A Brazilian Dream*. O híbrido reúne *Cattleya nobilior* e *Cattleya loddigesii*, combinando a rusticidade e preferência por muita luz da primeira com a maior afinidade por ambientes úmidos da segunda. O resultado pode variar bastante de uma planta para outra: porte, tonali",
+        "habitatAltitudeClima": "Não ocorre na natureza · ecologia derivada dos parentais. | Quente a intermediário · luminoso e ventilado.",
+        "distribuicaoGeografica": "Grex registrado em 2019 · sem distribuição natural.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies",
+            "OrchidRoots/RHS"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 75,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 81,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 63,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },

@@ -41,33 +41,93 @@ export const bulbophyllumSyciobulbon = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
     errosComuns: "• Usar vaso pequeno e obrigar replantes frequentes.\n• Enterrar o rizoma ou os pseudobulbos.\n• Confundir alta umidade com ar parado.\n• Manter esfagno compactado e saturado.\n• Deixar a planta secar completamente por longos períodos.\n• Cultivar sob sol direto forte.\n• Adubar em concentração alta.\n• Tentar compensar calor noturno excessivo com encharcamento.",
     dica: "🏆 Planeje o espaço antes do crescimento. Como os pseudobulbos podem ficar separados por 5 a 7 cm, comece com uma placa longa, galho extenso ou cesto largo e raso. Quanto menos a planta precisar ser removida depois de aderir ao suporte, melhor. No litoral quente, priorize o ponto mais fresco e ventilado, mantenha umidade moderada junto às raízes e evite qualquer material que permaneça quente e encharcado durante a noite.",
+    revisaoCientificaIAR: {
+        "nome": "Bulbophyllum sicyobulbon",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma pequena orquídea de crescimento aventureiro! *Bulbophyllum sicyobulbon* chama atenção menos pelo tamanho das flores e mais pelo conjunto: seus pseudobulbos ficam espaçados ao longo de um rizoma rastejante, permitindo que a planta se espalhe rapidamente pelo suporte. Quando adulta, produz inflorescências curtas e muito densas, repletas de flores diminutas, em torno de 6 mm, ",
+        "habitatAltitudeClima": "Floresta tropical úmida montana · ~1.400 m. | Fresco a intermediário · úmido e ventilado.",
+        "distribuicaoGeografica": "Myanmar e Tailândia; registros históricos na Malásia.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies",
+            "AOS/OrchidPro (dados públicos localizados)"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 54,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 2, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 47,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 75,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 95,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },

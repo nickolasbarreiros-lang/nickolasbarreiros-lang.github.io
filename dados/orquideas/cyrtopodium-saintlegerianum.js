@@ -42,39 +42,98 @@ export const cyrtopodiumSaintlegerianum = {
     "substrato": "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.\n🥈 Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.\n🥉 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.\n⭐ Alternativa: Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.",
     "errosComuns": "Pouca luz; regar intensamente após a queda das folhas; manter adubação na dormência; suporte frágil; cortar raízes aderidas; excesso de esfagno; vaso com pouca drenagem; tentar manter crescimento contínuo; confundir queda natural das folhas com doença.",
     "dica": "Se for montar a planta, escolha o suporte como se ele fosse definitivo. Cyrtopodium saintlegerianum pode tornar-se grande e pesado, e raízes aderidas sofrem muito quando são removidas. Durante o crescimento, água e alimento são abundantes; depois da maturação e queda das folhas, faça a transição para um período mais seco, claro e ventilado.",
+    revisaoCientificaIAR: {
+        "nome": "Cyrtopodium saintlegerianum",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma gigante dos ambientes sazonais sul-americanos! Cyrtopodium saintlegerianum forma pseudobulbos longos, perde as folhas no período de repouso e pode produzir inflorescências muito ramificadas cobertas por numerosas flores amarelas e castanhas de cerca de 4 cm. No Brasil central é especialmente conhecido por crescer sobre palmeiras e troncos expostos, onde recebe muita luz, ch",
+        "habitatAltitudeClima": "Áreas sazonais · palmeiras/troncos · muita luz. | Quente sazonal · inverno mais seco.",
+        "distribuicaoGeografica": "Brasil, Paraguai e norte da Argentina.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 65,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 1, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 97,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 2,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 68,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "montanhaFrio": {
+            "indice": 62,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 2,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "O calor é compatível com a espécie. Mantenha-a em posição alta, muito clara e ventilada. O principal desafio no litoral é a chuva de inverno: uma cobertura ajuda a criar a redução hídrica sem depender de frio intenso." },
-        "montanhaFrio": { texto: "Noites mais frescas são bem toleradas e podem reforçar a sazonalidade. Proteja de geadas e, sobretudo, de frio associado a raízes constantemente molhadas." }
+        "litoralQuente": "O calor é compatível com a espécie. Mantenha-a em posição alta, muito clara e ventilada. O principal desafio no litoral é a chuva de inverno: uma cobertura ajuda a criar a redução hídrica sem depender de frio intenso.",
+        "montanhaFrio": "Noites mais frescas são bem toleradas e podem reforçar a sazonalidade. Proteja de geadas e, sobretudo, de frio associado a raízes constantemente molhadas."
     },
     "mesesFloracao": [
         8,

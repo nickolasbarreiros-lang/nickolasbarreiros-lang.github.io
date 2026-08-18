@@ -33,33 +33,93 @@ export const stanhopeaAssidensis = {
     substrato: "🥇 Chips de coco grossos + casca de pinus média + pedra-pomes + esfagno solto, em cesto vazado.\n🥈 Casca de macadâmia média + chips de coco + perlita + esfagno em baixa proporção.\n🥉 Pinus médio + fibra de coco grossa + pedra-pomes + carvão vegetal, mantendo umidade sem bloquear a haste descendente.\n⭐ Alternativa: Cesto com chips de coco + macadâmia + pedra-pomes e uma fina camada de esfagno no topo, nunca compactada.",
     errosComuns: "Usar vaso fechado; bloquear o fundo da cesta; compactar o esfagno; deixar o substrato secar completamente durante o crescimento; manter a planta em ambiente abafado; expor ao sol forte; regar em excesso no inverno; replantar durante a formação de hastes florais.",
     dica: "O recipiente é o fator decisivo: mantenha a planta em cesto suspenso e confira regularmente a parte inferior. Uma haste floral pode se perder se encontrar madeira, tela apertada ou substrato compactado no caminho.",
+    revisaoCientificaIAR: {
+        "nome": "Stanhopea Assidensis",
+        "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Perfume intenso e flores de aparência quase escultórica! Stanhopea Assidensis é um híbrido primário de Stanhopea tigrina × Stanhopea wardii, registrado em 1922. Suas flores grandes e carnosas combinam tons creme a amarelos com pintas e manchas castanhas ou vinho, além da fragrância marcante típica do grupo. Como suas hastes florais crescem para baixo, o cultivo em cesta suspens",
+        "habitatAltitudeClima": "Herda afinidade por florestas úmidas montanas · parentais ~600–2.700 m. | Intermediário · úmido e muito ventilado.",
+        "distribuicaoGeografica": "Sem distribuição natural · parentais do México à América Central e norte da América do Sul.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies",
+            "OrchidRoots/RHS"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 64,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 47,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 75,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },

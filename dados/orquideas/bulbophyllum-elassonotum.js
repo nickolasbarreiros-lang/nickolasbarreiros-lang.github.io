@@ -40,33 +40,92 @@ export const bulbophyllumElassonotum = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n🥉 Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.\n⭐ Alternativa: Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.",
     errosComuns: "• Enterrar o rizoma.\n• Tratar toda procedência como espécie fria.\n• Compactar esfagno.\n• Usar vaso profundo com baixa aeração.\n• Deixar raízes secarem por vários dias.\n• Manter calor, umidade e ar parado ao mesmo tempo.\n• Cultivar em sombra profunda.\n• Forçar repouso seco por causa de habitats sazonais.\n• Adubação concentrada em raízes finas.",
     dica: "🏆 A amplitude altitudinal é a chave para interpretar esta espécie. Ela não exige uma temperatura única; exige equilíbrio entre procedência, umidade e ventilação. No litoral quente, use suporte raso, 60% a 70% de sombra e movimento de ar constante. Mantenha o rizoma sobre a superfície e deixe espaço para a raque pendente, especialmente quando a planta entra no período de floração de inverno.",
+    revisaoCientificaIAR: {
+        "nome": "Bulbophyllum elassonotum",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma miniatura asiática que ganha destaque quando entra em floração! Bulbophyllum elassonotum forma pequenos pseudobulbos sobre um rizoma rastejante e produz racemos que se curvam para baixo, carregados de numerosas flores de cerca de 1 cm em tons amarelo-esverdeados, amarelos ou alaranjados. O contraste entre o tamanho reduzido da planta e a quantidade de pequenas flores torna ",
+        "habitatAltitudeClima": "Florestas sazonais e úmidas · 0–1.200 m | Quente a fresco · ventilado",
+        "distribuicaoGeografica": "Assam, Myanmar, Tailândia, Camboja e Vietnã",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 71,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 95,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 64,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 63,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },

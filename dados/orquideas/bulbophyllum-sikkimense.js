@@ -35,33 +35,92 @@ export const bulbophyllumSikkimense = {
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.\n🥉 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n⭐ Alternativa: Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
     errosComuns: "• Apresentar B. sikkimense como nome atualmente aceito.\n• Ignorar que Kew o inclui em B. roxburghii.\n• Tratar a planta como alpina por causa do nome Sikkim.\n• Impor repouso seco severo.\n• Manter sombra profunda.\n• Compactar o substrato.\n• Usar recipiente estreito.\n• Aplicar adubo concentrado.",
     dica: "🏆 Use o nome histórico como pista de procedência, não como instrução para cultivar no frio. Os dados de 300–500 m mostram uma planta de contrafortes quentes. No litoral, mantenha água regular, ar em movimento, recipiente raso e luz filtrada clara; a pequena diferença entre dia e noite já é mais coerente que qualquer tentativa de resfriamento artificial.",
+    revisaoCientificaIAR: {
+        "nome": "Bulbophyllum roxburghii",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma pequena joia dos contrafortes do Himalaia! A planta tradicionalmente conhecida como *Bulbophyllum sikkimense* forma pseudobulbos pequenos e produz, na primavera, hastes curtas terminadas em um delicado buquê de aproximadamente **10 a 12 flores**, cada uma com cerca de **2 cm**. Apesar da associação do nome com Sikkim e suas montanhas, registros históricos situam essas plant",
+        "habitatAltitudeClima": "Contrafortes florestais · 300–500 m. | Quente a intermediário.",
+        "distribuicaoGeografica": "Sikkim · E Himalaia.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 78,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 63,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 64,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 2, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 79,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },

@@ -43,39 +43,98 @@ export const spathoglottisPlicata = {
     "substrato": "🥇 Casca de arroz carbonizada + fibra de coco + perlita + pedra-pomes, com pequena fração de pinus fino.\n🥈 Chips de coco pequenos + casca de arroz carbonizada + pedra-pomes + argila expandida miúda.\n🥉 Fibra de coco + perlita + pinus fino + carvão vegetal miúdo, mantendo drenagem rápida apesar do hábito terrestre.\n⭐ Alternativa: Macadâmia média + casca de arroz carbonizada + pedra-pomes + fibra de coco para uma mistura durável e aberta.",
     "errosComuns": "Terra compacta; enterrar pseudobulbos; prato com água; sombra profunda; matéria orgânica fresca; vaso sem drenagem; deixar secar totalmente no crescimento; excesso de chuva no colo; cortar folhas verdes; dividir em poucas unidades; pouca luz.",
     "dica": "Use recipiente amplo, mistura terrestre leve e muito drenante e ofereça sol da manhã. Deixe os pseudobulbos parcialmente expostos na superfície. Essa combinação de luz alta, água regular e raízes oxigenadas mantém a planta vigorosa e capaz de produzir hastes por muitos meses.",
+    revisaoCientificaIAR: {
+        "nome": "Spathoglottis plicata",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma das orquídeas terrestres mais vigorosas para jardins tropicais! Spathoglottis plicata forma touceiras robustas de folhas longas e bem plissadas e produz hastes eretas que abrem flores sucessivamente por muitas semanas. As cores mais comuns vão do rosa ao roxo e magenta, com formas claras também conhecidas. Apesar do aspecto delicado das flores, é uma planta resistente e de ",
+        "habitatAltitudeClima": "Terrestre · áreas abertas, campos e bordas · ~700–2.000 m em muitos registros. | Quente a intermediário · alta luminosidade.",
+        "distribuicaoGeografica": "Sul/Sudeste da Ásia, Malesia, Austrália e ilhas do Pacífico.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 84,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 81,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 64,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, a adaptação é excelente. Tolera calor e umidade, desde que receba sol matinal, drenagem forte e proteção contra encharcamento prolongado." },
-        "montanhaFrio": { texto: "Cultive em local claro e protegido de geadas. Reduza regas no inverno sem deixar a mistura totalmente seca." }
+        "litoralQuente": "Em Litoral de clima quente, a adaptação é excelente. Tolera calor e umidade, desde que receba sol matinal, drenagem forte e proteção contra encharcamento prolongado.",
+        "montanhaFrio": "Cultive em local claro e protegido de geadas. Reduza regas no inverno sem deixar a mistura totalmente seca."
     },
     "mesesFloracao": [
         9,

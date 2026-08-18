@@ -33,33 +33,92 @@ export const gongoraBufonia = {
     substrato: "🥇 Chips de coco grossos + casca de pinus média + pedra-pomes + esfagno solto, em cesto vazado.\n🥈 Casca de macadâmia média + chips de coco + perlita + esfagno em baixa proporção.\n🥉 Pinus médio + fibra de coco grossa + pedra-pomes + carvão vegetal, mantendo umidade sem bloquear a haste descendente.\n⭐ Alternativa: Cesto com chips de coco + macadâmia + pedra-pomes e uma fina camada de esfagno no topo, nunca compactada.",
     errosComuns: "Cultivar em vaso fechado; bloquear o fundo do cesto; usar substrato fino ou compactado; deixar secar completamente durante o crescimento; impor repouso seco; manter calor abafado; expor ao sol forte; adubar em excesso; dividir a touceira em fragmentos pequenos; apoiar o cesto onde as hastes pendentes não tenham passagem.",
     dica: "Pense primeiro na haste floral e depois no vaso. A inflorescência nasce na base e precisa cair livremente; por isso o cesto suspenso, vazado e sem obstáculos é parte do cultivo, não apenas uma escolha estética. Combine esse espaço livre com raízes úmidas e oxigenadas, e a espécie responde com hastes longas e floradas muito mais consistentes.",
+    revisaoCientificaIAR: {
+        "nome": "Gongora bufonia",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma das orquídeas brasileiras mais curiosas quando entra em flor! Gongora bufonia forma pseudobulbos sulcados com folhas largas e plissadas, mas o grande espetáculo aparece abaixo da planta: hastes pendentes de 40 a 80 cm carregadas de flores cerosas, perfumadas e de formato quase escultórico, com cerca de 5 cm. É uma espécie de florestas úmidas do leste do Brasil, principalmen",
+        "habitatAltitudeClima": "Florestas úmidas · sobretudo baixas altitudes. | Quente a intermediário · úmido e ventilado.",
+        "distribuicaoGeografica": "Leste do Brasil · Mata Atlântica.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 65,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 95,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 69,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },

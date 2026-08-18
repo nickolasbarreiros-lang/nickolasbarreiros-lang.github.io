@@ -39,39 +39,98 @@ export const maxillariaPicta = {
     "substrato": "🥇 Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.\n🥈 Chips de coco + pinus médio + perlita + carvão vegetal miúdo.\n🥉 Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia.\n⭐ Alternativa: Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.",
     "errosComuns": "❌ Replantar ou dividir fora do início de novas raízes.\n❌ Usar vaso muito grande e manter o centro úmido por vários dias.\n❌ Enterrar o rizoma, brotos ou hastes basais.\n❌ Cultivar em sombra profunda e esperar que apenas o frio provoque floração.\n❌ Arrancar bainhas firmemente aderidas durante a limpeza da base.\n❌ Regar com frequência no frio sem ventilação.\n❌ Aplicar adubo concentrado em raízes finas ou secas.",
     "dica": "Replante somente quando novas pontas de raízes começarem a aparecer. Fora dessa janela, a planta pode permanecer estagnada por muitos meses. No outono e inverno, mantenha luz filtrada forte e aproveite a queda natural da temperatura noturna para indução. Como as hastes florais são curtas e basais, remova apenas detritos soltos e bainhas totalmente deterioradas; não “descasque” o pseudobulbo à força. Mantenha a base ventilada e evite que água fique acumulada ao redor dos botões.",
+    revisaoCientificaIAR: {
+        "nome": "Maxillaria picta",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma Maxillaria brasileira de flores grandes e muito marcantes! Seus pseudobulbos formam touceiras compactas e, no inverno e na primavera, surgem flores solitárias de cerca de 5 cm em tons creme a amarelo, fortemente pintalgadas de púrpura ou castanho. É epífita ou ocasionalmente rupícola e aprecia bastante claridade filtrada, raízes arejadas e noites mais amenas. No litoral que",
+        "habitatAltitudeClima": "Epífita/rupícola · matas sazonais e úmidas. | Quente a fresco · noites amenas favorecem.",
+        "distribuicaoGeografica": "Mata Atlântica · Sudeste e Sul.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 73,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 2, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 63,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 67,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, use vaso pequeno, mistura mais mineral, ventilação forte e o ponto mais fresco do orquidário. Proteja do calor noturno abafado." },
-        "montanhaFrio": { texto: "Em Santa Teresa/ES, a amplitude térmica natural favorece a floração. Reduza a rega em semanas frias e chuvosas, sem impor seca completa." }
+        "litoralQuente": "Em Litoral de clima quente, use vaso pequeno, mistura mais mineral, ventilação forte e o ponto mais fresco do orquidário. Proteja do calor noturno abafado.",
+        "montanhaFrio": "Em Santa Teresa/ES, a amplitude térmica natural favorece a floração. Reduza a rega em semanas frias e chuvosas, sem impor seca completa."
     },
     "mesesFloracao": [7, 8, 9, 10, 11],
     "selosCultivo": {

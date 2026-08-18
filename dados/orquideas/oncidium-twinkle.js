@@ -39,39 +39,100 @@ export const oncidiumTwinkle = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
     "errosComuns": "Usar vaso grande; manter substrato velho; dividir em 1–2 pseudobulbos; cultivar em sombra excessiva; adubar forte; deixar secar completamente no crescimento; molhar brotos no fim do dia; confundir vaso proporcional com raiz comprimida.",
     "dica": "O segredo não é 'apertar' fisicamente a planta, e sim usar recipiente proporcional, que seque por igual e preserve as raízes capilares. Mantenha a touceira intacta e replante apenas quando o substrato degradar, a planta sair do vaso ou novas raízes começarem. Divisões devem conservar vários pseudobulbos maduros, broto ativo e raízes próprias para não sacrificar a floração em nuvem.",
+    revisaoCientificaIAR: {
+        "nome": "Oncidium Twinkle",
+        "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Pequeno no tamanho e enorme no perfume! Oncidium Twinkle é um híbrido compacto que forma touceiras cheias e pode produzir várias hastes ramificadas ao mesmo tempo, criando uma verdadeira nuvem de flores. O aroma é um de seus maiores atrativos, variando entre notas de baunilha, chocolate, frutas e confeitaria conforme o clone. Registrado em 1958, combina Oncidium cheirophorum e ",
+        "habitatAltitudeClima": "Sem habitat natural · parentais montanos. | Intermediário · noites amenas.",
+        "distribuicaoGeografica": "Grex registrado em 1958.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies",
+            "OrchidRoots/RHS",
+            "AOS/OrchidPro (dados públicos localizados)"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 81,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 47,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 79,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "No litoral quente, mantenha na bancada mais fresca e ventilada, protegida do sol da tarde. Seus parentais vêm de florestas úmidas de altitude; portanto, calor noturno persistente pode reduzir vigor e floração. Regue cedo e use substrato muito arejado, sem impor repouso seco forte." },
-        "montanhaFrio": { texto: "Desempenho excelente. Noites frescas favorecem pseudobulbos compactos, perfume e emissão de hastes. Reduza apenas o volume de água nos períodos frios." }
+        "litoralQuente": "No litoral quente, mantenha na bancada mais fresca e ventilada, protegida do sol da tarde. Seus parentais vêm de florestas úmidas de altitude; portanto, calor noturno persistente pode reduzir vigor e floração. Regue cedo e use substrato muito arejado, sem impor repouso seco forte.",
+        "montanhaFrio": "Desempenho excelente. Noites frescas favorecem pseudobulbos compactos, perfume e emissão de hastes. Reduza apenas o volume de água nos períodos frios."
     },
     "mesesFloracao": [
         4,

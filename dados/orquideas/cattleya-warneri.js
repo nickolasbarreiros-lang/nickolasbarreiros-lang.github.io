@@ -42,39 +42,98 @@ export const cattleyaWarneri = {
     "substrato": "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
     "errosComuns": "Cortar a espata seca; abrir a espata para procurar botões; pouca luz; molhar repetidamente a espata; excesso de água no inverno; vaso grande; substrato compactado; replantar sem raízes novas; excesso de nitrogênio; girar a planta durante a formação da haste; dividir em poucas frentes.",
     "dica": "Preserve a espata mesmo quando estiver castanha e aparentemente seca. Em Cattleya warneri, a bainha pode secar meses antes da haste se desenvolver. Não abra, não corte e não aperte. Mantenha luz alta no inverno, ventilação, rega controlada e aguarde a primavera.",
+    revisaoCientificaIAR: {
+        "nome": "Cattleya warneri",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma gigante da primavera brasileira! Cattleya warneri é uma das grandes Cattleyas da Mata Atlântica, conhecida pelas flores muito grandes, perfumadas e geralmente rosadas ou lilases, com um labelo amplo e intensamente colorido. A planta também impressiona pelo porte, formando pseudobulbos altos e robustos com uma única folha no topo. Sua floração acompanha um ritmo bem caracter",
+        "habitatAltitudeClima": "Mata Atlântica · epífita · ~100–800 m. | Quente a intermediário · noites mais amenas.",
+        "distribuicaoGeografica": "Leste do Brasil · destaque para ES e MG.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 87,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 98,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 72,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, a adaptação é excelente por ser espécie regional. Use substrato aberto, vaso protegido do superaquecimento e circulação constante. Reduza água no inverno sem secar completamente." },
-        "montanhaFrio": { texto: "As noites frescas favorecem a maturação. Proteja de geadas e de substrato frio e saturado." }
+        "litoralQuente": "Em Litoral de clima quente, a adaptação é excelente por ser espécie regional. Use substrato aberto, vaso protegido do superaquecimento e circulação constante. Reduza água no inverno sem secar completamente.",
+        "montanhaFrio": "As noites frescas favorecem a maturação. Proteja de geadas e de substrato frio e saturado."
     },
     "mesesFloracao": [
         9,

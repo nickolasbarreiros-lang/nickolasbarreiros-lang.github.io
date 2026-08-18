@@ -42,39 +42,99 @@ export const colmanaraWildcat = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.\n🥉 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n⭐ Alternativa: Chips de coco + carvão vegetal + perlita + casca de pinus média.",
     "errosComuns": "Replantar quando as raízes novas já estão longas; vaso grande; enterrar o rizoma; substrato velho e compactado; sombra profunda; excesso de sais; água acumulada no broto; dividir com poucos pseudobulbos; confundir enrugamento por raiz perdida com falta de rega.",
     "dica": "O melhor momento para replantar é quando o novo broto começa a emitir raízes com cerca de 0,5–1 cm. Nessa fase elas já estão ativas, mas ainda não aderiram ao vaso e quebram menos. Preservar raízes novas é uma das formas mais eficientes de manter o próximo pseudobulbo forte e garantir nova haste floral.",
+    revisaoCientificaIAR: {
+        "nome": "Oncostele Wildcat",
+        "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Um dos híbridos pintalgados mais populares do grupo Oncidium! Oncostele Wildcat chama atenção pelas hastes altas, frequentemente ramificadas, carregadas de flores cerosas em combinações de amarelo, vinho, vermelho e castanho. É um grex bastante variável, por isso cultivares diferentes podem apresentar desenhos, cores e tamanhos distintos. Registrado em 1992 a partir de Oncostel",
+        "habitatAltitudeClima": "Cultivo em vaso/cesto · raízes finas e aeradas. | Intermediário a quente · noites amenas favorecem flores.",
+        "distribuicaoGeografica": "Sem ocorrência natural.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies",
+            "OrchidRoots/RHS"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 72,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 64,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 85,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "No litoral quente, mantenha 60–70% de sombreamento, ventilação contínua e substrato mais mineral. Evite noites abafadas em canto fechado e água parada nas bainhas. O híbrido costuma adaptar-se bem quando as raízes permanecem saudáveis." },
-        "montanhaFrio": { texto: "Excelente desempenho em clima de montanha. Noites amenas normalmente melhoram firmeza das hastes, intensidade das cores e duração das flores; proteja apenas de geadas." }
+        "litoralQuente": "No litoral quente, mantenha 60–70% de sombreamento, ventilação contínua e substrato mais mineral. Evite noites abafadas em canto fechado e água parada nas bainhas. O híbrido costuma adaptar-se bem quando as raízes permanecem saudáveis.",
+        "montanhaFrio": "Excelente desempenho em clima de montanha. Noites amenas normalmente melhoram firmeza das hastes, intensidade das cores e duração das flores; proteja apenas de geadas."
     },
     "mesesFloracao": [
         4,

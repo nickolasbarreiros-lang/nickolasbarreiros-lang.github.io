@@ -39,39 +39,98 @@ export const maxillariaTenuifolia = {
     "substrato": "🥇 Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.\n🥈 Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia.\n🥉 Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.\n⭐ Alternativa: Chips de coco + pinus médio + perlita + carvão vegetal miúdo.",
     "errosComuns": "❌ Sombra intensa: produz muitos brotos, mas reduz drasticamente a floração.\n❌ Cortar rizomas aéreos sem raízes próprias: enfraquece ou mata os crescimentos superiores.\n❌ Vaso grande e profundo: cria uma zona central que seca lentamente e perde raízes.\n❌ Enterrar o rizoma: favorece podridão da base dos pseudobulbos.\n❌ Encharcamento no inverno: aumenta fungos e manchas foliares.\n❌ Replantar fora do início de novas raízes: prolonga o choque e dificulta a fixação da planta.",
     "dica": "O segredo é conduzir o crescimento em escada, em vez de tentar forçá-lo para dentro do vaso. Instale um tutor rugoso atrás da touceira e fixe suavemente o rizoma ascendente, sem apertá-lo. As raízes emitidas nos pseudobulbos superiores poderão aderir ao suporte e sustentar esses crescimentos. Se a planta vegeta vigorosamente, mas não floresce, aumente a luminosidade de forma gradual e mantenha a base dos pseudobulbos visível. Replante somente quando novas pontas radiculares estiverem surgindo, preservando o maior número possível de raízes e segmentos do rizoma.",
+    revisaoCientificaIAR: {
+        "nome": "Maxillaria tenuifolia",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "A famosa “orquídea-coco” é uma das Maxillaria mais fáceis de reconhecer: basta chegar perto de uma flor aberta para perceber seu perfume intenso e adocicado de coco. As flores medem cerca de 4–5 cm e surgem na base dos pseudobulbos, enquanto o rizoma cresce para cima em forma de escada. Nativa do México à América Central, ocorre desde baixas altitudes até cerca de 1.500 m e tol",
+        "habitatAltitudeClima": "Epífita · florestas abertas ou densas · até 1.500 m. | Quente a fresco · úmido e ventilado.",
+        "distribuicaoGeografica": "México, Guatemala à Costa Rica.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 71,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 95,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 76,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 63,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Excelente adaptação em Litoral de clima quente. Use 50–60% de sombra, ventilação constante e regas matinais. Nos dias mais quentes, umedeça as raízes aéreas sem deixar a planta molhada durante a noite." },
-        "montanhaFrio": { texto: "Adapta-se muito bem. Proteja de geadas e aumente o intervalo entre regas em semanas frias e nubladas, sem impor seca prolongada." }
+        "litoralQuente": "Excelente adaptação em Litoral de clima quente. Use 50–60% de sombra, ventilação constante e regas matinais. Nos dias mais quentes, umedeça as raízes aéreas sem deixar a planta molhada durante a noite.",
+        "montanhaFrio": "Adapta-se muito bem. Proteja de geadas e aumente o intervalo entre regas em semanas frias e nubladas, sem impor seca prolongada."
     },
     "mesesFloracao": [9, 10, 11, 12],
     "selosCultivo": {

@@ -38,33 +38,92 @@ export const brassavolaPerrini = {
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n🥉 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.\n⭐ Alternativa: Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.",
     errosComuns: "Cultivar em sombra excessiva; Usar substratos finos, compactos ou com acúmulo de pó; Manter as raízes molhadas continuamente; Plantar em vasos grandes e fundos; Exagerar no uso de esfagno ou materiais de alta retenção hídrica; Dividir touceiras pequenas prematuramente; Aplicar adubo com alto teor de nitrogênio de forma contínua durante todo o ano.",
     dica: "Use as folhas como termômetro: o ponto certo de luz é aquele que deixa a folhagem cilíndrica ereta, rígida e em um tom verde-claro (quase amarelado). Se ela cresce muito mas não floresce, o segredo para forçar a floração é dar mais claridade — sem medo do sol direto matinal — e cortar o adubo rico em nitrogênio.",
+    revisaoCientificaIAR: {
+        "nome": "Brassavola tuberculata",
+        "statusTaxonomico": "Nome aceito usado na ficha: Brassavola tuberculata.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma Brassavola elegante e perfumada, facilmente reconhecida pelas folhas finas e cilíndricas e pelas flores estreladas, com segmentos claros e um amplo labelo branco. O perfume se intensifica à noite, característica típica de muitas Brassavola e uma das grandes atrações dessa planta. O nome Brassavola perrinii ainda é muito encontrado em coleções, embora atualmente seja incluíd",
+        "habitatAltitudeClima": "Epífita/litófita · formas históricas até ~2.580 m | Intermediário–fresco se de altitude · muita luz",
+        "distribuicaoGeografica": "Bolívia · Paraguai · Brasil · NE Argentina",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 45,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 1, peso: 30 },
-                temperatura: { nota: 2, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 98,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 81,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 63,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },

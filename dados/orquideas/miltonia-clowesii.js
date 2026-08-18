@@ -39,39 +39,98 @@ export const miltoniaClowesii = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
     "errosComuns": "❌ Substrato velho ou compactado: elimina rapidamente as raízes finas.\n❌ Vaso grande: mantém o centro saturado e favorece podridão.\n❌ Secagem durante expansão foliar: produz folhas sanfonadas permanentes.\n❌ Sombra excessiva: enfraquece o pseudobulbo e reduz hastes.\n❌ Calor abafado e água nas bainhas à noite: favorecem fungos e podridão dos brotos.\n❌ Replantio fora da emissão de raízes: pode comprometer o pseudobulbo e a floração seguinte.",
     "dica": "O pseudobulbo novo é o reservatório que financiará a próxima haste. Durante sua formação, forneça água regular, luz filtrada forte, nutrição diluída e raízes muito aeradas. Uma folha sanfonada registra uma interrupção ocorrida durante a expansão e não voltará ao normal. Antes de aumentar a água, confira as raízes. Replante somente quando novas pontas radiculares aparecerem na base do broto; isso reduz o choque e permite que a planta se fixe antes de amadurecer o pseudobulbo.",
+    revisaoCientificaIAR: {
+        "nome": "Miltonia clowesii",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma Miltonia brasileira de aparência marcante, com flores amarelas fortemente pintadas de castanho e um labelo claro com tons violáceos. As hastes altas e arqueadas se elevam acima da folhagem e dão à planta um aspecto muito ornamental quando vários botões abrem em sequência. Nativa do Sudeste do Brasil, é mais tolerante ao calor que as Miltoniopsis andinas, mas responde melhor",
+        "habitatAltitudeClima": "Mata Atlântica · epífita. | Intermediário a quente · noites amenas.",
+        "distribuicaoGeografica": "Sudeste brasileiro.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 81,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 79,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 63,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Boa adaptação no litoral quente sob 60–70% de sombra, ventilação forte e substrato estrutural. O maior risco é calor associado a noites abafadas e raízes permanentemente molhadas." },
-        "montanhaFrio": { texto: "Excelente adaptação. Ofereça mais luz no inverno e aumente o intervalo entre regas nas semanas frias e chuvosas, sem impor seca total." }
+        "litoralQuente": "Boa adaptação no litoral quente sob 60–70% de sombra, ventilação forte e substrato estrutural. O maior risco é calor associado a noites abafadas e raízes permanentemente molhadas.",
+        "montanhaFrio": "Excelente adaptação. Ofereça mais luz no inverno e aumente o intervalo entre regas nas semanas frias e chuvosas, sem impor seca total."
     },
     "mesesFloracao": [3, 4, 5, 6],
     "selosCultivo": {

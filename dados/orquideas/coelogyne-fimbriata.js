@@ -43,39 +43,98 @@ export const coelogyneFimbriata = {
     "substrato": "🥇 Chips de coco médios + casca de pinus média + pedra-pomes + esfagno picado em pequena proporção.\n🥈 Esfagno de fibra longa bem solto + pedra-pomes + casca de pinus média, em recipiente raso e ventilado.\n🥉 Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno.\n⭐ Alternativa: Pinus médio + chips de coco + perlita + carvão vegetal miúdo.",
     "errosComuns": "Usar vaso profundo; enterrar o rizoma; limitar o avanço horizontal; deixar secar por muitos dias; manter encharcada; cultivar em calor abafado; sombra profunda; dividir em pedaços pequenos; replantar sem novas raízes; usar excesso de esfagno ou substrato compactado.",
     "dica": "Pense em superfície, não em profundidade. Conduza o rizoma sobre placa larga, cesto raso ou bacia baixa e deixe as novas frentes avançarem sem obstáculos. Mantenha o rizoma descoberto e umidade frequente com aeração; esse equilíbrio permite que a planta forme colônias extensas e floresça em várias frentes.",
+    revisaoCientificaIAR: {
+        "nome": "Coelogyne fimbriata",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Pequena nas flores, mas enorme na vontade de se espalhar! Coelogyne fimbriata cresce horizontalmente por um rizoma longo, formando aos poucos verdadeiras colônias sobre troncos e rochas. Seus pequenos pseudobulbos carregam duas folhas, enquanto as flores verde-amareladas chamam atenção pelo labelo marcado de castanho e pelas delicadas bordas franjadas — característica que inspi",
+        "habitatAltitudeClima": "Florestas úmidas · troncos e rochas musgosas. | Intermediário · úmido e ventilado.",
+        "distribuicaoGeografica": "Nepal, sul da China e Indochina.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 74,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 79,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 75,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "No litoral quente, adapta-se bem sob sombra clara, umidade regular e ventilação. Evite o calor parado junto ao teto e não deixe a placa secar por vários dias." },
-        "montanhaFrio": { texto: "Apresenta excelente adaptação. Reduza moderadamente a água nas semanas frias e proteja de geadas." }
+        "litoralQuente": "No litoral quente, adapta-se bem sob sombra clara, umidade regular e ventilação. Evite o calor parado junto ao teto e não deixe a placa secar por vários dias.",
+        "montanhaFrio": "Apresenta excelente adaptação. Reduza moderadamente a água nas semanas frias e proteja de geadas."
     },
     "mesesFloracao": [
         2,

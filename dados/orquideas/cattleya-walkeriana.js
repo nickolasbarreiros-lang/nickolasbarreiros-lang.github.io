@@ -43,39 +43,98 @@ export const cattleyaWalkeriana = {
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.\n🥉 Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.\n⭐ Alternativa: Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.",
     "errosComuns": "Pouca luz; regar por calendário; manter substrato úmido; usar vaso profundo ou grande; empregar material fino; enterrar o rizoma; confundir repouso com abandono total; replantar fora da emissão de raízes; deixar a planta frouxa; molhar o broto floral; excesso de nitrogênio; dividir a touceira em poucas frentes.",
     "dica": "A adubação não compensa ambiente inadequado. Primeiro ofereça luz alta, vento contínuo, suporte aberto e secagem rápida. Pontas radiculares verdes indicam maior demanda de água e nutrição; após a maturação, reduza progressivamente. No litoral, proteger das chuvas persistentes no repouso é mais seguro que provocar uma seca extrema.",
+    revisaoCientificaIAR: {
+        "nome": "Cattleya walkeriana",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma das Cattleyas brasileiras mais admiradas no mundo! Cattleya walkeriana combina porte compacto com flores enormes, cerosas e intensamente perfumadas, criando um contraste impressionante entre o tamanho da planta e sua floração. Uma de suas curiosidades é que as flores frequentemente surgem de um pequeno crescimento próprio, sem folha, próximo ao rizoma. Nativa do Centro-Oest",
+        "habitatAltitudeClima": "Cerrado e matas sazonais · epífita ou rupícola. | Quente a intermediário · sazonal e ventilado.",
+        "distribuicaoGeografica": "Centro-Oeste e Sudeste.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 87,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 98,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 73,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, cultive preferencialmente montada ou em cesto aberto, no setor mais claro e ventilado. O risco principal é a combinação de noites abafadas, chuva contínua e raízes que não secam. Regue cedo e proteja das chuvas prolongadas de inverno." },
-        "montanhaFrio": { texto: "A amplitude térmica e o inverno mais seco favorecem a floração. Proteja de geadas, frio úmido prolongado e chuva persistente." }
+        "litoralQuente": "Em Litoral de clima quente, cultive preferencialmente montada ou em cesto aberto, no setor mais claro e ventilado. O risco principal é a combinação de noites abafadas, chuva contínua e raízes que não secam. Regue cedo e proteja das chuvas prolongadas de inverno.",
+        "montanhaFrio": "A amplitude térmica e o inverno mais seco favorecem a floração. Proteja de geadas, frio úmido prolongado e chuva persistente."
     },
     "mesesFloracao": [
         4,

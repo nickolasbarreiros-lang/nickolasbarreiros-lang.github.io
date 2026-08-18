@@ -39,39 +39,98 @@ export const maxillariaSubulata = {
     "substrato": "🥇 Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.\n🥈 Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.\n🥉 Chips de coco + pinus médio + perlita + carvão vegetal miúdo.\n⭐ Alternativa: Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia.",
     "errosComuns": "❌ Usar vaso grande, fundo ou pouco perfurado.\n❌ Manter substrato compactado ou encharcado.\n❌ Enterrar rizoma e base dos pseudobulbos.\n❌ Dividir a touceira em porções pequenas.\n❌ Cultivar em sombra profunda e produzir folhas fracas.\n❌ Impor seca intensa por longo período.\n❌ Adubar em concentração alta ou sem lavagem mensal.\n❌ Replantar fora da emissão de raízes novas.",
     "dica": "Use vaso pequeno, muito perfurado, e uma mistura que retenha umidade apenas pelo tempo necessário para hidratar a planta. Folhas estreitas não significam que a espécie deva ficar seca; significam que a reposição de água precisa ser frequente, enquanto as raízes exigem renovação constante de oxigênio. Replante apenas quando surgirem novas pontas radiculares, preserve a maior parte da touceira e mantenha o rizoma exposto. Essa combinação reduz o choque, evita mela e acelera a fixação.",
+    revisaoCientificaIAR: {
+        "nome": "Maxillaria subulata",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma brasileira elegante, reconhecida pelas folhas muito estreitas e quase cilíndricas. A Maxillaria subulata forma touceiras compactas e produz flores solitárias de aproximadamente 2,5 cm, geralmente na primavera, rente aos pseudobulbos. Ocorre do sudeste da Bahia a Santa Catarina, tanto sobre árvores quanto sobre rochas. Essa ampla distribuição explica sua boa tolerância térmi",
+        "habitatAltitudeClima": "Epífita/rupícola · florestas tropicais úmidas. | Quente a fresco · úmido e arejado.",
+        "distribuicaoGeografica": "Mata Atlântica · Bahia ao Sul.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 73,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 79,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 68,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, use ventilação contínua, vaso justo, mistura drenante e regas matinais. Monitore o calor acumulado e o tempo real de secagem." },
-        "montanhaFrio": { texto: "Em Santa Teresa/ES, as noites frescas favorecem a planta. Em semanas frias e chuvosas, aumente o intervalo entre regas sem impor seca total." }
+        "litoralQuente": "Em Litoral de clima quente, use ventilação contínua, vaso justo, mistura drenante e regas matinais. Monitore o calor acumulado e o tempo real de secagem.",
+        "montanhaFrio": "Em Santa Teresa/ES, as noites frescas favorecem a planta. Em semanas frias e chuvosas, aumente o intervalo entre regas sem impor seca total."
     },
     "mesesFloracao": [9, 10, 11],
     "selosCultivo": {

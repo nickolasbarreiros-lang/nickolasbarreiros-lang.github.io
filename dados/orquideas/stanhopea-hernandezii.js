@@ -43,39 +43,98 @@ export const stanhopeaHernandezii = {
     "substrato": "🥇 Chips de coco grossos + casca de pinus média + pedra-pomes + esfagno solto, em cesto vazado.\n🥈 Pinus médio + fibra de coco grossa + pedra-pomes + carvão vegetal, mantendo umidade sem bloquear a haste descendente.\n🥉 Cesto com chips de coco + macadâmia + pedra-pomes e uma fina camada de esfagno no topo, nunca compactada.\n⭐ Alternativa: Casca de macadâmia média + chips de coco + perlita + esfagno em baixa proporção.",
     "errosComuns": "Vaso fechado; fundo bloqueado; seca total na brotação; mover ou girar a cesta com haste emergente; replantar durante floração; molhar flores à noite; sombra profunda; substrato velho e compacto.",
     "dica": "Use cesta suspensa com o fundo totalmente livre. Assim que a haste floral aparecer por baixo, não gire, não mude de posição e não replante a planta. A estabilidade física durante essa fase é tão importante quanto água e luz.",
+    revisaoCientificaIAR: {
+        "nome": "Stanhopea hernandezii",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Stanhopea hernandezii é uma espetacular orquídea mexicana, conhecida pelas flores grandes, cerosas e de perfume muito intenso. Suas folhas largas e plissadas formam uma touceira robusta, enquanto as flores surgem de maneira incomum: a haste cresce para baixo, atravessando o substrato antes de aparecer sob a planta. Na natureza ocorre como epífita ou rupícola no centro e sudoest",
+        "habitatAltitudeClima": "Florestas sazonais; epífita ou rupícola. | Intermediário, sazonal e ventilado.",
+        "distribuicaoGeografica": "Regiões central e sudoeste do México.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 79,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 31,
+            "estrelas": 2,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 1,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 1,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 1,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 74,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, cultive no setor sombreado e mais ventilado, elevando a umidade do ar sem saturar a cesta à noite." },
-        "montanhaFrio": { texto: "Muito favorável em clima intermediário; proteja apenas de geadas e frio extremo." }
+        "litoralQuente": "Em Litoral de clima quente, cultive no setor sombreado e mais ventilado, elevando a umidade do ar sem saturar a cesta à noite.",
+        "montanhaFrio": "Muito favorável em clima intermediário; proteja apenas de geadas e frio extremo."
     },
     "mesesFloracao": [
         9,

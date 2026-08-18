@@ -39,39 +39,98 @@ export const maxillariaPumilaExMinuta = {
     "substrato": "🥇 Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.\n🥈 Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.\n🥉 Chips de coco + pinus médio + perlita + carvão vegetal miúdo.\n⭐ Alternativa: Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia.",
     "errosComuns": "❌ Usar casca grossa demais, que não mantém contato uniforme com raízes capilares.\n❌ Usar vaso grande ou profundo.\n❌ Dividir a touceira em pequenos fragmentos.\n❌ Aplicar fertilizante concentrado ou Osmocote junto às raízes.\n❌ Enterrar o rizoma ou cobrir os pseudobulbos minúsculos.\n❌ Compactar esfagno ao redor da planta.\n❌ Manter alta umidade sem movimento de ar.\n❌ Replantar fora da emissão de raízes novas.",
     "dica": "Preserve a touceira como um bloco único sempre que possível. O conjunto cria um microclima que reduz oscilações de temperatura e umidade, além de aumentar muito o impacto da floração. Adube de forma “homeopática” e faça lavagem mensal, porque raízes capilares queimam rapidamente com sais. Na montagem ou troca de vaso, espere novas pontas radiculares e use material de granulometria fina, porém solto. O objetivo não é manter tudo molhado, mas oferecer água frequente com rápida renovação de oxigênio.",
+    revisaoCientificaIAR: {
+        "nome": "Maxillaria pumila (ex-minuta)",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma verdadeira miniatura sul-americana! A Maxillaria pumila forma pequenas touceiras com pseudobulbos discretos, uma única folha por crescimento e flores diminutas de cerca de 8 mm, que aparecem bem junto à planta. É uma espécie de clima quente, originária das Guianas e do Brasil, e chama atenção justamente pelo contraste entre o porte minúsculo e a delicadeza das flores. Em cu",
+        "habitatAltitudeClima": "Epífita · florestas tropicais úmidas. | Quente · úmido e muito ventilado.",
+        "distribuicaoGeografica": "América do Sul tropical · Brasil e Guiana.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 78,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 95,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 68,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "montanhaFrio": {
+            "indice": 63,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, mantenha acima de 60% de umidade relativa, sombra clara e ventilação constante. Montagens podem exigir rega diária no verão." },
-        "montanhaFrio": { texto: "Em Santa Teresa/ES, adapta-se bem às noites frescas. Reduza a frequência apenas em semanas frias e úmidas e proteja de geada." }
+        "litoralQuente": "Em Litoral de clima quente, mantenha acima de 60% de umidade relativa, sombra clara e ventilação constante. Montagens podem exigir rega diária no verão.",
+        "montanhaFrio": "Em Santa Teresa/ES, adapta-se bem às noites frescas. Reduza a frequência apenas em semanas frias e úmidas e proteja de geada."
     },
     "mesesFloracao": [9, 10, 11, 12, 1, 2],
     "selosCultivo": {

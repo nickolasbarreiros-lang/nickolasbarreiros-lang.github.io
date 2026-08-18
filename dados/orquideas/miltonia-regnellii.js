@@ -39,39 +39,98 @@ export const miltoniaRegnellii = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n🥉 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
     "errosComuns": "❌ Manter substrato velho, ácido ou compactado.\n❌ Usar vaso grande, que conserva umidade excessiva no centro.\n❌ Deixar o broto novo secar por longos períodos, causando folhas sanfonadas.\n❌ Interpretar pseudobulbo murcho como sede sem verificar raízes mortas.\n❌ Cultivar em sombra profunda, produzindo folhas escuras e poucas hastes.\n❌ Aplicar adubo concentrado ou deixar sais acumularem.\n❌ Replantar fora da fase de raízes novas.\n❌ Deixar água acumulada nas bainhas em noites quentes e abafadas.",
     "dica": "O pseudobulbo novo é a reserva que sustentará a próxima floração. Para que ele amadureça grande e firme, mantenha rega regular, luz filtrada abundante e adubação suave durante todo o crescimento. Previna folhas sanfonadas observando simultaneamente a umidade e a saúde das raízes; aumentar a água não resolve quando o sistema radicular já está deteriorado. Faça flushing mensal e replante somente quando as novas pontas de raízes aparecerem. Quanto mais robusto o pseudobulbo, maior a probabilidade de hastes fortes, multifloras e duráveis.",
+    revisaoCientificaIAR: {
+        "nome": "Miltonia regnellii",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Delicada e muito florífera, esta Miltonia brasileira chama atenção pelas flores claras — brancas, creme ou amarelo-pálidas — contrastando com um amplo labelo rosado a violeta. Em touceiras adultas, vários pseudobulbos podem florescer juntos, formando um conjunto elegante e abundante. Nativa do Sul e Sudeste do Brasil, adapta-se de condições intermediárias a quentes, mas aprecia",
+        "habitatAltitudeClima": "Mata Atlântica · epífita. | Intermediário a quente · ventilado.",
+        "distribuicaoGeografica": "Sul e Sudeste.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 78,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 63,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 63,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "No litoral quente, use 60–70% de sombrite, recipiente pequeno, substrato muito aerado e ventilação contínua. O maior risco é a combinação de calor noturno, excesso de substrato e água parada nas bainhas. Regue pela manhã e evite manter folhas molhadas durante a noite." },
-        "montanhaFrio": { texto: "Excelente adaptação. Ofereça boa luminosidade no inverno e reduza a frequência das regas em semanas frias e nubladas, sem impor seca total. Proteja de geadas e de chuvas frias prolongadas." }
+        "litoralQuente": "No litoral quente, use 60–70% de sombrite, recipiente pequeno, substrato muito aerado e ventilação contínua. O maior risco é a combinação de calor noturno, excesso de substrato e água parada nas bainhas. Regue pela manhã e evite manter folhas molhadas durante a noite.",
+        "montanhaFrio": "Excelente adaptação. Ofereça boa luminosidade no inverno e reduza a frequência das regas em semanas frias e nubladas, sem impor seca total. Proteja de geadas e de chuvas frias prolongadas."
     },
     "mesesFloracao": [9, 10, 11, 12, 1, 2],
     "selosCultivo": {

@@ -52,33 +52,92 @@ export const aciantheraBragae = {
     suporte: ["🥇 Placa larga de madeira, cortiça ou material fibroso durável, permitindo que o rizoma avance lateralmente.", "🥈 Cachepô pequeno, raso e muito ripado.", "🥉 Vaso baixo e largo, muito perfurado, para acomodar o crescimento em tapete."],
     substrato: ["🥇 Pedra-pomes fina + casca de pinus fina + pequena fração de esfagno, combinando umidade com muito ar.", "🥈 Montagem em rocha porosa/cortiça com fina reserva de esfagno somente sob as raízes.", "🥉 Perlita + pedra-pomes fina + chips de coco pequenos, sem compactar.", "⭐ Alternativa: Casca de pinus fina + carvão miúdo + perlita + esfagno picado em baixa proporção."],
     errosComuns: ["Usar vaso profundo para uma planta de crescimento rastejante.", "Enterrar ou cobrir o rizoma.", "Manter água parada entre folhas e ramicaules.", "Deixar a montagem secar por vários dias no calor.", "Cultivar em sombra profunda e sem circulação de ar.", "Aplicar adubação forte em raízes finas.", "Interpretar a altitude como necessidade de clima frio rígido."],
+    revisaoCientificaIAR: {
+        "nome": "Acianthera bragae",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Pequena no tamanho, mas cheia de personalidade! A Acianthera bragae é uma miniatura brasileira de crescimento rastejante, capaz de formar delicados tapetes sobre troncos, placas ou outros suportes. Suas folhas são pequenas, espessas e suculentas, enquanto as flores, com cerca de 1,5 a 2 cm, parecem surpreendentemente grandes em comparação com a planta e chamam atenção pelo form",
+        "habitatAltitudeClima": "Epífita ou litófita de floresta tropical úmida. | Quente a intermediário, úmido, sombreado e ventilado.",
+        "distribuicaoGeografica": "Mata Atlântica do Sudeste e Sul do Brasil.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 69,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 63,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 69,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },

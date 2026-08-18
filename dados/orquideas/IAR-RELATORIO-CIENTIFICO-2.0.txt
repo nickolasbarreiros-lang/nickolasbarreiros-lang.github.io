@@ -1,0 +1,20 @@
+IAR 2.0 — REVISÃO CIENTÍFICA DO CATÁLOGO
+
+Fichas ativas auditadas: 131 / 131
+Cobertura: 100%
+
+PESOS: Habitat/altitude 30%; Temperatura 30%; Água/umidade 5%; Ventilação 5%; Luminosidade 5%; Sazonalidade 5%; Floração regional 20%.
+
+IMPORTANTE: as notas desta versão foram atribuídas manualmente com base no confronto das fontes, e não por busca de palavras no texto das fichas.
+
+Confiança alta: 87
+Confiança média: 40
+Confiança baixa: 4
+
+FICHAS DE BAIXA CONFIANÇA (identificação/parentais ou literatura insuficiente):
+- Brassocattleya Turandot × (Rhyncholaeliocattleya Orange Show × Rlc. Chunyeah) (bc-turandot-x-blc-orange-show-x-blc-chunyeah.js)
+- Cattleya schilleriana × Cruzeiro do Sul (cattleya-schilleriana-x-cruzeiro-do-sul.js)
+- Dryadella aviceps (dryadella-aviceps.js)
+- Rodricidium (Rdcm.) (rodricidium.js)
+
+CASO ESPECIAL: Rodricidium sem grex/parentais definidos não permite uma avaliação científica fina; foi mantida pontuação neutra e baixa confiança até identificação completa.

@@ -44,39 +44,98 @@ export const sophronitisWittigiana = {
     "substrato": "🥇 Nó de pinho ou cortiça com fina manta de esfagno apenas sob as raízes, equilibrando umidade e ventilação.\n🥈 Pedra-pomes + macadâmia média + pinus médio + pequena fração de esfagno solto.\n🥉 Pinus médio + perlita + pedra-pomes + esfagno em baixa proporção.\n⭐ Alternativa: Cesto pequeno com macadâmia + pedra-pomes + chips de coco pequenos, evitando aquecimento e saturação no centro.",
     "errosComuns": "Cultivar em calor abafado; colocar perto de telhas quentes; usar sombra profunda para compensar calor; vaso grande; excesso de esfagno; raízes constantemente molhadas; deixar secar por muitos dias; usar água dura; aplicar adubo concentrado; regar à noite; pouca ventilação; replantar frequentemente.",
     "dica": "Em Litoral de clima quente, busque o ponto mais fresco e ventilado, não apenas o mais alto. O ar quente pode se acumular junto ao teto. Posicione longe de telhas e superfícies aquecidas, com brisa constante. Faça nebulização leve somente pela manhã e use placa com pouquíssimo esfagno, mantendo umidade frequente nas raízes e noite seca no vegetativo.",
+    revisaoCientificaIAR: {
+        "nome": "Cattleya wittigiana",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma joia das montanhas do Sudeste brasileiro! Cattleya wittigiana é uma miniatura que surpreende pelo contraste entre a planta compacta e suas flores grandes, em tons de rosa a magenta. Cresce sobre galhos cobertos de musgo em florestas serranas úmidas, onde recebe muita umidade, ar em movimento e noites mais frescas. No litoral quente ela exige atenção extra, sobretudo para ma",
+        "habitatAltitudeClima": "Mata Atlântica montana · epífita · ~700–2.000 m. | Intermediário a fresco · úmido e ventilado.",
+        "distribuicaoGeografica": "Serras úmidas do Sudeste brasileiro.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 60,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 47,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 81,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Cultivo difícil, especialmente no verão. Use o setor mais fresco e ventilado, longe do teto quente e do sol da tarde. Molhe o ambiente pela manhã, use água de baixa salinidade e não mantenha a planta molhada à noite." },
-        "montanhaFrio": { texto: "É o ambiente mais favorável. Proteja apenas de geadas, vento seco e encharcamento prolongado." }
+        "litoralQuente": "Cultivo difícil, especialmente no verão. Use o setor mais fresco e ventilado, longe do teto quente e do sol da tarde. Molhe o ambiente pela manhã, use água de baixa salinidade e não mantenha a planta molhada à noite.",
+        "montanhaFrio": "É o ambiente mais favorável. Proteja apenas de geadas, vento seco e encharcamento prolongado."
     },
     "mesesFloracao": [
         4,

@@ -38,33 +38,92 @@ export const ludisiaDiscolor = {
     substrato: "🥇 Fibra de coco + casca de arroz carbonizada + perlita + casca de pinus fina, formando meio humoso e muito aerado.\n🥈 Chips de coco pequenos + pinus fino + perlita + vermiculita em proporção pequena (até ~10%).\n🥉 Fibra de coco + pedra-pomes fina + esfagno picado + casca de arroz carbonizada.\n⭐ Alternativa: Pinus fino + chips de coco + perlita + pequena fração de vermiculita; nunca usar terra pesada e compacta.",
     errosComuns: "Expor ao sol direto; manter em sombra total sem claridade; enterrar profundamente os caules; usar substrato pesado ou encharcado; cultivar em vaso sem drenagem; manter terrário fechado e saturado; molhar abundantemente os nós no fim do dia; usar adubo concentrado; compactar esfagno sobre os caules; permitir acúmulo de sais.",
     dica: "Deixe os caules rastejarem sobre a superfície e cubra apenas as raízes. Os nós próximos ao ar emitem novos brotos com facilidade e podem ser usados para propagação. Um vaso mais largo do que profundo combina melhor com seu crescimento natural e reduz o risco de um centro permanentemente encharcado.",
+    revisaoCientificaIAR: {
+        "nome": "Ludisia discolor",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma orquídea admirada primeiro pelas folhas e só depois pelas flores. A Ludisia discolor, famosa como orquídea-joia, forma tapetes de caules rastejantes com folhas aveludadas em verde muito escuro a vinho, marcadas por nervuras claras, rosadas ou avermelhadas. É uma planta terrestre de floresta sombreada e cresce bem em vasos largos, onde seus ramos podem avançar horizontalment",
+        "habitatAltitudeClima": "Chão de florestas úmidas · serapilheira e húmus. | Quente a intermediário · úmido e sombreado.",
+        "distribuicaoGeografica": "China, Indochina, Malesia e Filipinas.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 75,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 2, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 95,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 2,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 69,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 47,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         }
     },

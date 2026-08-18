@@ -43,39 +43,98 @@ export const coelogyneFlaccida = {
     "substrato": "🥇 Chips de coco médios + casca de pinus média + pedra-pomes + esfagno picado em pequena proporção.\n🥈 Pinus médio + chips de coco + perlita + carvão vegetal miúdo.\n🥉 Esfagno de fibra longa bem solto + pedra-pomes + casca de pinus média, em recipiente raso e ventilado.\n⭐ Alternativa: Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno.",
     "errosComuns": "Cultivar em calor abafado; colocar em ambiente fechado durante a floração; manter encharcada no inverno; usar vaso profundo; deixar hastes presas; apoiar o cesto baixo demais; dividir em poucas frentes; sombra excessiva; substrato compactado; deixar secar completamente; pouca ventilação.",
     "dica": "Posicione a planta em local elevado, fresco e bem ventilado antes que as hastes surjam. Deixe espaço livre abaixo e ao redor do cesto para que os cachos pendam sem deformação. A circulação de ar também reduz fungos e evita que o perfume intenso se concentre.",
+    revisaoCientificaIAR: {
+        "nome": "Coelogyne flaccida",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma Coelogyne feita para ser cultivada no alto! Coelogyne flaccida produz longos cachos pendentes de flores creme a amarelo-pálido, com o labelo desenhado por marcas castanhas e perfume bastante intenso. A planta forma touceiras de pseudobulbos agrupados e fica especialmente bonita em cestos suspensos, onde as hastes podem cair livremente. Na natureza ocorre do Himalaia ao sul ",
+        "habitatAltitudeClima": "Florestas montanas úmidas · epífita/litófita. | Intermediário a fresco · noites amenas.",
+        "distribuicaoGeografica": "Nepal, Índia, sul da China e Indochina.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 63,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 63,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 80,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "No litoral quente, use o ponto mais fresco, sombreado e ventilado. Noites quentes contínuas podem reduzir a floração. Mantenha elevada, longe de telhas quentes e com regas matinais." },
-        "montanhaFrio": { texto: "Apresenta excelente adaptação. Proteja de geadas e de chuva fria persistente, mantendo leve redução de água no inverno." }
+        "litoralQuente": "No litoral quente, use o ponto mais fresco, sombreado e ventilado. Noites quentes contínuas podem reduzir a floração. Mantenha elevada, longe de telhas quentes e com regas matinais.",
+        "montanhaFrio": "Apresenta excelente adaptação. Proteja de geadas e de chuva fria persistente, mantendo leve redução de água no inverno."
     },
     "mesesFloracao": [
         8,

@@ -43,39 +43,98 @@ export const phaiusTankervilleaeAlba = {
     "substrato": "🥇 Fibra de coco + chips de coco pequenos + casca de arroz carbonizada + perlita, mantendo umidade regular sem compactação.\n🥈 Pinus fino + fibra de coco + perlita + pequena fração de vermiculita para aumentar retenção sem encharcar.\n🥉 Chips de coco + pedra-pomes fina + casca de arroz carbonizada + esfagno picado em pequena quantidade.\n⭐ Alternativa: Fibra de coco + pinus fino + perlita + carvão vegetal miúdo; vaso profundo, mas com drenagem livre.",
     "errosComuns": "Vaso pequeno; substrato pobre ou compactado; deixar secar durante expansão foliar; água parada; sombra excessiva; sol forte; excesso de sais; enterrar profundamente a base dos brotos; cortar folhas ainda verdes; impor repouso seco rígido.",
     "dica": "Dê espaço e alimento enquanto a planta está crescendo. O tamanho da haste floral é construído meses antes, quando folhas e pseudobulbos estão se formando. Um vaso amplo com mistura rica, úmida e aerada costuma produzir plantas muito mais robustas do que recipientes pequenos e secos.",
+    revisaoCientificaIAR: {
+        "nome": "Calanthe tankervilleae — forma alba",
+        "statusTaxonomico": "Nome aceito usado na ficha: Calanthe tankervilleae.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma gigante elegante entre as orquídeas terrestres! Esta forma alba chama atenção pelas folhas largas e plissadas e pelas hastes altas, que podem ultrapassar 1 metro e carregar flores grandes, claras e muito vistosas. No habitat, a espécie aparece em áreas úmidas, baixadas e florestas montanas de grande parte da Ásia tropical e subtropical até o Pacífico. É uma planta vigorosa,",
+        "habitatAltitudeClima": "Baixadas úmidas e matas · até ~1.300 m. | Quente a ameno · úmido · meia-sombra.",
+        "distribuicaoGeografica": "Ásia oriental e Sudeste Asiático · Pacífico.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 66,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 2, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 76,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 63,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Adaptação muito boa. Use meia-sombra clara, ventilação, regas frequentes e vaso amplo; o calor não é o principal problema desde que as raízes permaneçam úmidas e oxigenadas." },
-        "montanhaFrio": { texto: "Adaptação muito boa; proteja de geadas e reduza a frequência das regas quando o crescimento desacelerar." }
+        "litoralQuente": "Adaptação muito boa. Use meia-sombra clara, ventilação, regas frequentes e vaso amplo; o calor não é o principal problema desde que as raízes permaneçam úmidas e oxigenadas.",
+        "montanhaFrio": "Adaptação muito boa; proteja de geadas e reduza a frequência das regas quando o crescimento desacelerar."
     },
     "mesesFloracao": [8, 9, 10, 11, 12],
     "selosCultivo": {

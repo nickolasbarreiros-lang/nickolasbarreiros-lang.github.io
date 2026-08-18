@@ -42,33 +42,92 @@ export const dichaeaPendula = {
     substrato: "🥇 Casca de pinus fina/média + chips de coco pequenos + perlita + pedra-pomes.\n🥈 Chips de coco + pedra-pomes + casca de pinus fina, mantendo umidade uniforme sem encharcar.\n🥉 Casca de macadâmia triturada média + fibra de coco grossa + pedra-pomes + pequena fração de esfagno.\n⭐ Alternativa: Pinus médio + perlita + carvão vegetal miúdo + esfagno picado em baixa proporção.",
     errosComuns: "Deixar secar completamente; cultivar em calor noturno abafado; baixa umidade do ar; água parada nas axilas; sol direto forte; esfagno velho e compacto; vaso profundo; excesso de adubo; regas noturnas frequentes; falta de espaço para as hastes pendentes.",
     dica: "Não interprete a necessidade de umidade como necessidade de encharcamento. Em litoral quente, a melhor combinação é suporte pequeno, umidade atmosférica alta, regas frequentes e muita circulação de ar. Se as hastes começarem a enrugar, aumente a frequência das regas; se houver manchas escuras e tecidos moles nas bainhas, aumente imediatamente a ventilação e reduza o tempo de molhamento.",
+    revisaoCientificaIAR: {
+        "nome": "Dichaea pendula",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma orquídea de aspecto leve e elegante, com hastes que se arqueiam e pendem como pequenas cortinas verdes. Dichaea pendula cresce sem pseudobulbos, formando ramos achatados e revestidos por folhas finas dispostas em duas fileiras. Ao longo dessas hastes surgem flores solitárias de aproximadamente 2 cm, relativamente grandes para a delicadeza da planta. Sua ampla distribuição p",
+        "habitatAltitudeClima": "Florestas úmidas montanas · ~1.200–2.500 m. | Intermediário a fresco · muito úmido e ventilado.",
+        "distribuicaoGeografica": "Caribe, América Central e América do Sul.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 56,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 2, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 95,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 2,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 77,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },

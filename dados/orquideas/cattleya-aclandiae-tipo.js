@@ -40,33 +40,92 @@ export const cattleyaAclandiaeTipo = {
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura: raízes grossas recebem ar máximo e secam rapidamente após a rega.\n🥈 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, em vaso pequeno e muito perfurado.\n🥉 Pinus grosso + brita/pedra-pomes + carvão vegetal, sem esfagno no centro do vaso.\n⭐ Alternativa: Chips de coco muito grossos + argila expandida + carvão, apenas em cesto bastante vazado.",
     errosComuns: "• Vaso grande ou fechado.\n• Esfagno compacto e raízes permanentemente úmidas.\n• Replantar fora do início de emissão de novas raízes.\n• Sombra excessiva.\n• Secar demais durante crescimento ativo.\n• Enterrar o rizoma.\n• Confundir pigmentação natural das folhas com doença.\n• Adubação concentrada.\n• Manter planta fria e molhada durante período de menor atividade.",
     dica: "🏆 Replante somente quando a planta estiver pronta para emitir raízes novas. Cattleya aclandiae adere fortemente ao suporte e reage mal a danos extensos em raízes antigas. Sempre que possível, mantenha-a montada em cortiça ou madeira rugosa por muitos anos. Se for necessário intervir, espere as primeiras pontas de raízes novas. No litoral quente, não tente cultivá-la 'seca' o tempo todo: dê bastante água durante atividade, mas faça essa água desaparecer rapidamente com ventilação e raízes expostas.",
+    revisaoCientificaIAR: {
+        "nome": "Cattleya aclandiae",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Pequena no tamanho, enorme na personalidade! *Cattleya aclandiae* é uma das menores Cattleyas bifoliadas, com plantas adultas frequentemente em torno de 8–13 cm, mas capazes de produzir flores cerosas de aproximadamente 6–10 cm — quase desproporcionais ao porte da planta. As sépalas e pétalas, em tons verde-amarelados a oliva, são intensamente pintalgadas de castanho, chocolate",
+        "habitatAltitudeClima": "Áreas costeiras sazonais · 100–400 m. | Quente · luminoso, ventilado e sazonalmente seco.",
+        "distribuicaoGeografica": "Bahia · endêmica.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 81,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 97,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 51,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 2, peso: 30 },
-                temperatura: { nota: 2, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 47,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         }
     },

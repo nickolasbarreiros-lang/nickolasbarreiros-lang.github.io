@@ -38,39 +38,98 @@ export const notyliaPubescens = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.\n🥉 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n⭐ Alternativa: Chips de coco + carvão vegetal + perlita + casca de pinus média.",
     "errosComuns": "❌ Usar vaso fundo ou fundo fechado, bloqueando as hastes pendentes.\n❌ Encostar a planta em parede, prateleira ou outros vasos.\n❌ Expor ao sol direto.\n❌ Aplicar fertilizante concentrado.\n❌ Deixar água acumulada na base da folha.\n❌ Permitir seca prolongada durante a botonação.\n❌ Girar, mudar ou manipular a planta enquanto os cachos se formam.\n❌ Cortar hastes ainda verdes.\n❌ Usar esfagno espesso e compactado.",
     "dica": "Cultive a planta suspensa e acima dos olhos, preferencialmente em placa levemente inclinada para baixo. A inclinação melhora o escoamento da água da base da folha, mantém as raízes ventiladas e permite que os racemos caiam livremente. Não mova nem gire o suporte durante a formação das hastes, pois elas são frágeis. Em clima quente, aumente a frequência das regas em vez de engrossar a camada de esfagno. Quanto maior e mais estável a touceira, maior o número de cachos simultâneos.",
+    revisaoCientificaIAR: {
+        "nome": "Notylia pubescens",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Pequena orquídea brasileira que surpreende quando floresce! Cada crescimento produz uma folha larga e firme, enquanto da base surgem hastes arqueadas ou pendentes carregadas de muitas flores miúdas em tons de creme a amarelo. Em touceiras adultas, vários cachos podem aparecer ao mesmo tempo, criando um efeito muito delicado. É uma espécie da Mata Atlântica e de outras formações",
+        "habitatAltitudeClima": "Florestas tropicais · epífita. | Quente a ameno · úmido.",
+        "distribuicaoGeografica": "Leste e Sul do Brasil.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 81,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 79,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 69,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, apresenta excelente adaptação em placas ou pequenos cestos sob cerca de 70% de sombrite, com ventilação contínua e regas matinais. Em ondas de calor, aumente a frequência de irrigação, mas mantenha a montagem aberta e sem excesso de musgo." },
-        "montanhaFrio": { texto: "Proteja de geadas e vento frio ressecante. Em semanas frias e nubladas, reduza a frequência das regas, mantendo umidade atmosférica e evitando que a folha permaneça molhada à noite." }
+        "litoralQuente": "Em Litoral de clima quente, apresenta excelente adaptação em placas ou pequenos cestos sob cerca de 70% de sombrite, com ventilação contínua e regas matinais. Em ondas de calor, aumente a frequência de irrigação, mas mantenha a montagem aberta e sem excesso de musgo.",
+        "montanhaFrio": "Proteja de geadas e vento frio ressecante. Em semanas frias e nubladas, reduza a frequência das regas, mantendo umidade atmosférica e evitando que a folha permaneça molhada à noite."
     },
     "mesesFloracao": [
         9,

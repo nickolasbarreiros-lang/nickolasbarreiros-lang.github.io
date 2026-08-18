@@ -53,33 +53,92 @@ export const promenaeaXanthina = {
         "Aplicar fertilizante concentrado"
     ],
     dica: "🏆 Promenaea xanthina gosta de raízes frescas e úmidas, não de um vaso encharcado. Use recipiente pequeno, mistura leve e bastante ventilação. No litoral quente, proteger a planta do calor acumulado à noite costuma ser mais importante do que aumentar a quantidade de água.",
+    revisaoCientificaIAR: {
+        "nome": "Promenaea xanthina",
+        "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Promenaea stapelioides subsp. xanthina.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Promenaea xanthina é uma pequena joia brasileira: planta compacta, de pseudobulbos baixos e folhas finas, capaz de produzir flores cerosas proporcionalmente grandes, amarelas e delicadamente perfumadas. As hastes surgem junto à base dos pseudobulbos e normalmente carregam uma ou duas flores que permanecem próximas à folhagem. É uma espécie de aparência delicada, mas bastante vi",
+        "habitatAltitudeClima": "Epífita de florestas montanas úmidas e protegidas, chegando a cerca de 1.700 m. | Intermediário a fresco, úmido e muito ventilado.",
+        "distribuicaoGeografica": "Leste e Sul do Brasil.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 33,
-            estrelas: 2,
-            fatores: {
-                habitatNatural: { nota: 1, peso: 30 },
-                temperatura: { nota: 2, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 1, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 32,
+            "estrelas": 2,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 1,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 1,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 2,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 1,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 76,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 97,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },

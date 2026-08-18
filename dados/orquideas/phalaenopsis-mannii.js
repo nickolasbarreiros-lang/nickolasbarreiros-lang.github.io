@@ -42,39 +42,99 @@ export const phalaenopsisMannii = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Pinus médio + pedra-pomes + esfagno em pequena quantidade apenas para estabilizar a umidade.\n🥉 Casca de macadâmia média + pinus médio + pequena fração de esfagno solto.\n⭐ Alternativa: Chips de coco + perlita + carvão vegetal + casca de pinus média.",
     "errosComuns": "Cortar hastes ainda verdes; manter substrato permanentemente molhado no inverno; água na coroa; vaso sem ventilação; sol direto forte; adubo concentrado; tratar como híbrida comercial de ambiente fechado; ignorar o hábito pendente; secar demais por tentar reproduzir um 'repouso'.",
     "dica": "O melhor manejo é respeitar o ritmo sazonal: crescimento mais úmido e nutrido, seguido de inverno apenas um pouco mais seco. Preserve as hastes verdes e dê espaço para que cresçam pendentes — elas podem continuar produzindo flores sucessivamente.",
+    revisaoCientificaIAR: {
+        "nome": "Phalaenopsis mannii",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma Phalaenopsis bem diferente das híbridas de floricultura! A Phalaenopsis mannii tem crescimento naturalmente um pouco pendente e produz flores cerosas de 3 a 5 cm, amarelo-esverdeadas e marcadas por castanho-avermelhado. Além do desenho marcante, as flores podem exalar um agradável perfume lembrando mandarina. Na natureza cresce sobre cascas rugosas em florestas úmidas próxi",
+        "habitatAltitudeClima": "Florestas úmidas junto a rios · 500–1.500 m. | Quente a ameno · úmido · inverno mais seco.",
+        "distribuicaoGeografica": "Nepal/Assam a Myanmar, Vietnã e Yunnan.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies",
+            "AOS/OrchidPro (dados públicos localizados)"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 81,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 4, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 79,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 2,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 82,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 79,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Adaptação boa, mas prefira o ponto mais ventilado e protegido do calor acumulado. No inverno capixaba, aproveite a queda natural de temperatura e reduza discretamente as regas para estimular o ciclo floral." },
-        "montanhaFrio": { texto: "Muito boa em condições amenas; evite frio excessivo e mantenha menor frequência de rega quando a evaporação cair." }
+        "litoralQuente": "Adaptação boa, mas prefira o ponto mais ventilado e protegido do calor acumulado. No inverno capixaba, aproveite a queda natural de temperatura e reduza discretamente as regas para estimular o ciclo floral.",
+        "montanhaFrio": "Muito boa em condições amenas; evite frio excessivo e mantenha menor frequência de rega quando a evaporação cair."
     },
     "mesesFloracao": [8, 9, 10, 11, 12],
     "selosCultivo": {

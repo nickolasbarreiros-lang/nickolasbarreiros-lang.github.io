@@ -39,33 +39,92 @@ export const catasetumMattosianum = {
     substrato: "🥇 Chips de coco médios + pedra-pomes + casca de arroz carbonizada + carvão vegetal: boa reserva hídrica no crescimento e secagem eficiente no repouso.\n🥈 Esfagno de fibra longa solto + pedra-pomes + carvão, apenas em vaso pequeno e muito drenado no litoral quente.\n🥉 Pinus médio + chips de coco + pedra-pomes + casca de arroz carbonizada.\n⭐ Alternativa: Argila expandida + pedra-pomes + chips de coco, com fina camada superficial de esfagno somente na fase ativa.",
     errosComuns: "• Encharcar o broto antes de as raízes novas estarem funcionais.\n• Replantar quando as raízes novas já estão longas e frágeis.\n• Economizar água durante o crescimento vigoroso.\n• Continuar regando normalmente após a queda das folhas.\n• Adubar durante dormência.\n• Remover pseudobulbos traseiros saudáveis, que funcionam como reserva.\n• Usar substrato velho e compacto.\n• Tentar forçar flores femininas com excesso de sol.",
     dica: "🏆Faça o replante no início da brotação, logo após a planta sair da dormência e antes que as novas raízes fiquem compridas. Após o replante, mantenha o vaso relativamente seco até que várias raízes atinjam de 5 a 8 cm de comprimento. Em seguida, aumente a rega para manter a umidade, porem sem encharcar o broto e adote uma adubação leve e frequente, e garanta boa iluminação e ventilação. Com a queda das folhas, suspenda a adubação e deixe o vaso predominantemente seco. Lembre-se de preservar os pseudobulbos antigos saudáveis, pois eles nutrem a próxima brotação.",
+    revisaoCientificaIAR: {
+        "nome": "Catasetum mattosianum",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma espécie brasileira marcada pelas grandes mudanças que acontecem ao longo do ano. *Catasetum mattosianum* desenvolve pseudobulbos carnosos e vigorosos durante a estação de crescimento, cobertos por folhas finas e pregueadas; depois, com a chegada da dormência, as folhas amarelecem e caem, deixando os pseudobulbos armazenarem energia para o próximo ciclo. Nativa da Bahia ao E",
+        "habitatAltitudeClima": "Epífita de bioma tropical úmido. | Quente · verão úmido e repouso sazonal.",
+        "distribuicaoGeografica": "Bahia ao Espírito Santo.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 67,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 98,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 56,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 2, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 64,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },

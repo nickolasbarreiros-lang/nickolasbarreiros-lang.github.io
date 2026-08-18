@@ -43,33 +43,92 @@ export const bifrenariaVerboonenii = {
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
     errosComuns: "• Manter a atualização taxonômica sem registrar que Bifrenaria verboonenii é tratada hoje como sinônimo de Bifrenaria tyrianthina.\n• Cultivar em local quente e abafado.\n• Tratar a planta como rupícola obrigatoriamente mineral.\n• Secar excessivamente durante crescimento ativo.\n• Impor repouso totalmente seco por meses.\n• Replantar sem raízes novas começando a surgir.\n• Usar substrato compacto.\n• Permitir sol forte aquecendo vaso e raízes.",
     dica: "🏆 Esqueça tentar imitar fendas de rocha e foque no frescor das raízes. Use vasos de barro ou cachepôs altamente ventilados com um substrato bem grosso e de drenagem imediata (casca, pedra-pomes e carvão). Posicione a planta no local mais fresco e arejado do cultivo, mantendo regas fartas na fase de crescimento, espaçando no inverno e replantando estritamente quando surgirem as primeiras pontas de novas raízes.",
+    revisaoCientificaIAR: {
+        "nome": "Bifrenaria verboonenii",
+        "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Bifrenaria tyrianthina.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma Bifrenaria de presença marcante, com pseudobulbos robustos e flores grandes, carnosas e cerosas que chamam atenção tanto pela aparência quanto pelo perfume. As hastes são curtas e surgem junto à base dos pseudobulbos maduros, normalmente carregando poucas flores, mas de tamanho expressivo e boa duração. Encontrada em áreas montanas do Sudeste brasileiro, em altitudes elevad",
+        "habitatAltitudeClima": "Epífita/litófita · 1.000–2.000 m | Fresco · montano · inverno mais seco",
+        "distribuicaoGeografica": "BA · ES · MG",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 63,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 50,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 75,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },

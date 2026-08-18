@@ -39,39 +39,98 @@ export const miltoniaCandida = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n🥉 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
     "errosComuns": "❌ Substrato decomposto: sufoca e elimina as raízes finas.\n❌ Vaso grande: acumula água no centro e favorece podridão.\n❌ Falta de água durante expansão foliar: causa efeito sanfona irreversível.\n❌ Sombra excessiva: forma folhagem escura, mas reduz hastes.\n❌ Acúmulo de sais: queima pontas radiculares e amarelece folhas.\n❌ Água retida no centro do broto durante noites abafadas: favorece podridão bacteriana ou fúngica.",
     "dica": "O objetivo é formar um pseudobulbo novo cheio e vigoroso sem perder as raízes. Durante a expansão das folhas, mantenha água regular, substrato aerado e fertilização diluída. Quando surgir efeito sanfona, inspecione primeiro o sistema radicular. Replante assim que a casca começar a degradar, preferencialmente na emissão das primeiras raízes novas. O flushing mensal reduz sais e preserva as pontas radiculares que alimentarão a floração seguinte.",
+    revisaoCientificaIAR: {
+        "nome": "Miltonia candida",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma das Miltonia brasileiras mais elegantes! Suas flores cerosas combinam tons castanho-amarelados com um grande labelo branco e ondulado, responsável pelo nome candida, em referência à sua aparência clara. As hastes podem chegar a cerca de 60 cm e carregar de 3 a 7 flores perfumadas, com até aproximadamente 7,5 cm. Nativa do Sudeste brasileiro, ocorre em altitudes por volta de",
+        "habitatAltitudeClima": "Mata Atlântica · epífita · ~500–800 m. | Intermediário a quente · ventilado.",
+        "distribuicaoGeografica": "Sudeste brasileiro.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 80,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 79,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 63,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Adapta-se bem no litoral quente. Use 60–70% de sombra, ventilação forte e regas matinais. Evite noites abafadas com brotos molhados e substrato saturado." },
-        "montanhaFrio": { texto: "Excelente desempenho. Reduza a água em semanas frias e nubladas, mas não suspenda a hidratação nem deixe os brotos ativos secarem." }
+        "litoralQuente": "Adapta-se bem no litoral quente. Use 60–70% de sombra, ventilação forte e regas matinais. Evite noites abafadas com brotos molhados e substrato saturado.",
+        "montanhaFrio": "Excelente desempenho. Reduza a água em semanas frias e nubladas, mas não suspenda a hidratação nem deixe os brotos ativos secarem."
     },
     "mesesFloracao": [9, 10, 11, 12, 1, 2],
     "selosCultivo": {

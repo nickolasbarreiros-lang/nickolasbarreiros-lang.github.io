@@ -43,39 +43,98 @@ export const coelogyneCristata = {
     "substrato": "🥇 Chips de coco médios + casca de pinus média + pedra-pomes + esfagno picado em pequena proporção.\n🥈 Pinus médio + chips de coco + perlita + carvão vegetal miúdo.\n🥉 Esfagno de fibra longa bem solto + pedra-pomes + casca de pinus média, em recipiente raso e ventilado.\n⭐ Alternativa: Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno.",
     "errosComuns": "Noites quentes no inverno; tentar induzir floração apenas com seca; manter regas constantes no repouso; adubar no inverno; calor abafado no verão; pouca luz no período frio; deixar o substrato frio e encharcado; falta de espaço para a touceira; colocar em vaso profundo; retomar água em excesso antes da atividade radicular.",
     "dica": "O gatilho floral é triplo: frio noturno real, luminosidade alta e repouso hídrico. Reduzir água sem oferecer frio não basta. No inverno, mantenha quase seca, suspenda adubos e permita apenas irrigações mínimas para preservar os pseudobulbos.",
+    revisaoCientificaIAR: {
+        "nome": "Coelogyne cristata",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma das Coelogynes mais espetaculares — e também uma das que mais sentem o calor! Coelogyne cristata forma touceiras de pseudobulbos arredondados e produz elegantes cachos pendentes de grandes flores brancas, destacadas pelas cristas amarelo-ouro do labelo. É uma orquídea das montanhas do Himalaia, onde passa por verões úmidos e amenos e depois por um inverno muito mais frio e ",
+        "habitatAltitudeClima": "Montanhas úmidas · inverno frio e seco. | Fresco a frio · noites frias essenciais.",
+        "distribuicaoGeografica": "Nepal, Índia, Tibet e Bangladesh.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 65,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 1, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 27,
+            "estrelas": 2,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 1,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 1,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 1,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 1,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 92,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "montanhaFrio": {
+            "indice": 97,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "No litoral quente, o cultivo é difícil. Sem noites frias, pode crescer sem florescer. O melhor resultado exige microclima muito fresco, posição ventilada ou cultivo temporário em região de altitude durante o outono e inverno." },
-        "montanhaFrio": { texto: "É o ambiente mais indicado: verão úmido e ventilado, seguido por inverno frio, luminoso e mais seco." }
+        "litoralQuente": "No litoral quente, o cultivo é difícil. Sem noites frias, pode crescer sem florescer. O melhor resultado exige microclima muito fresco, posição ventilada ou cultivo temporário em região de altitude durante o outono e inverno.",
+        "montanhaFrio": "É o ambiente mais indicado: verão úmido e ventilado, seguido por inverno frio, luminoso e mais seco."
     },
     "mesesFloracao": [
         11,

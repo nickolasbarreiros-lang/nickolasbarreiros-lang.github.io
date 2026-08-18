@@ -52,33 +52,92 @@ export const arpophyllumGiganteum = {
     suporte: ["🥇 Vaso pesado e proporcional à touceira, com excelente drenagem e espaço para o rizoma.", "🥈 Cachepô de madeira amplo e robusto.", "🥉 Cesto grande e ventilado para exemplares adultos."],
     substrato: ["🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.", "🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.", "🥉 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.", "⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco."],
     errosComuns: ["Cultivar em sombra excessiva e obter pseudobulbos alongados sem floração.", "Impor seca severa no inverno.", "Usar vaso leve ou instável para touceira grande.", "Manter substrato compacto e permanentemente molhado.", "Dividir touceiras repetidamente antes de acumularem reservas.", "Cultivar no litoral quente sem ventilação noturna suficiente.", "Enterrar demais o rizoma ou impedir sua expansão lateral."],
+    revisaoCientificaIAR: {
+        "nome": "Arpophyllum giganteum",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma orquídea impossível de ignorar quando entra em floração! O Arpophyllum giganteum forma touceiras robustas e produz longas inflorescências cilíndricas, densamente cobertas por dezenas de pequenas flores rosa a púrpura dispostas em espiral, criando um efeito que lembra uma grande escova floral. As hastes podem chegar a cerca de 40 cm, enquanto cada flor mede apenas em torno d",
+        "habitatAltitudeClima": "Epífita rizomatosa de florestas úmidas de encosta e sopé de montanha, aproximadamente entre 800 e 1.500 m. | Quente a fresco, com preferência por noites amenas e boa amplitude térmica.",
+        "distribuicaoGeografica": "México, Guatemala, Belize, El Salvador, Honduras, Nicarágua, Costa Rica, Jamaica, Colômbia e noroeste da Venezuela.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 55,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 2, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 64,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 76,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },

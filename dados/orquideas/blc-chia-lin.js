@@ -38,33 +38,93 @@ export const blcChiaLin = {
     substrato: "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.\n🥈 Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.\n🥉 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.\n⭐ Alternativa: Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.",
     errosComuns: "Cultivar com pouca luz; usar vaso grande demais; manter substrato velho, ácido ou constantemente molhado; regar por calendário sem observar a secagem; usar adubo concentrado ou grandes doses de fósforo para tentar forçar floração; replantar fora do início do enraizamento; molhar repetidamente brotos novos no fim do dia; deixar água acumulada na espata; dividir plantas pequenas.",
     dica: "Observe o pseudobulbo, não apenas o calendário. Durante brotação e enraizamento, forneça água, adubação leve e luz suficiente para que o novo crescimento atinja seu tamanho máximo. Quando a folha estiver firme e o pseudobulbo maduro, reduza naturalmente a adubação e mantenha boa luminosidade. Um pseudobulbo robusto sustentado por raízes saudáveis tem muito mais chance de preencher a espata e produzir flores grandes.",
+    revisaoCientificaIAR: {
+        "nome": "Rhyncholaeliocattleya Chia Lin",
+        "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma Cattleya híbrida feita para impressionar! Rhyncholaeliocattleya Chia Lin é conhecida pelas flores grandes, espessas e muito bem formadas, geralmente em tons intensos de vermelho, vinho, púrpura ou magenta, muitas vezes acompanhadas de perfume. Registrado em 1989 a partir do cruzamento Rlc. Oconee × Rlc. Maitland, o grex reúne uma linhagem selecionada justamente pela qualida",
+        "habitatAltitudeClima": "Sem habitat natural · Aliança Cattleya | Quente–intermediário · luminoso · ventilado",
+        "distribuicaoGeografica": "Su Ping-Ho · registro 1989",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies",
+            "OrchidRoots/RHS"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 78,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 79,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 64,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 63,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },

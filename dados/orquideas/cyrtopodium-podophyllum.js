@@ -42,39 +42,98 @@ export const cyrtopodiumPodophyllum = {
     "substrato": "🥇 Casca de arroz carbonizada + fibra de coco + perlita + pedra-pomes, com pequena fração de pinus fino.\n🥈 Chips de coco pequenos + casca de arroz carbonizada + pedra-pomes + argila expandida miúda.\n🥉 Fibra de coco + perlita + pinus fino + carvão vegetal miúdo, mantendo drenagem rápida.\n⭐ Alternativa: Casca de macadâmia média + casca de arroz carbonizada + pedra-pomes + fibra de coco, para estrutura durável e arejada.",
     "errosComuns": "Pouca luz; solo argiloso e compacto; prato com água; regar da mesma forma o ano inteiro; cortar pseudobulbos traseiros firmes; excesso de nitrogênio perto da dormência; confundir queda natural das folhas com doença; replantar durante emissão da haste; aclimatar ao sol de forma abrupta.",
     "dica": "As reservas estão nos pseudobulbos. Durante a estação de crescimento, concentre o manejo em formar pseudobulbos grandes, firmes e bem iluminados. Quando a folhagem começar a amarelar naturalmente, reduza água e suspenda adubação. Essa alternância é mais eficiente para estimular floração do que simplesmente aumentar fósforo.",
+    revisaoCientificaIAR: {
+        "nome": "Cyrtopodium flavum",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma orquídea brasileira de presença marcante! Cyrtopodium flavum forma grandes pseudobulbos, perde as folhas naturalmente ao final do ciclo e, quando bem estabelecido, produz hastes ramificadas que podem chegar perto de 1,5 metro. Suas numerosas flores amarelas, perfumadas e duráveis medem em torno de 2,5–4 cm. É especialmente interessante por ocorrer desde ambientes costeiros ",
+        "habitatAltitudeClima": "Restingas, areia e rochas · nível do mar a ~1.100 m. | Quente a intermediário · sazonal e muito luminoso.",
+        "distribuicaoGeografica": "NE, Sudeste e Sul do Brasil; leste da Bolívia.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 87,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 98,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 68,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 46,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "É particularmente promissor no litoral quente porque existem populações costeiras de Cyrtopodium flavum muito próximas ao nível do mar. Use alta luminosidade, ventilação e substrato predominantemente mineral; o maior cuidado é evitar excesso de chuva quando a planta estiver desfolhada." },
-        "montanhaFrio": { texto: "Também se adapta a regiões mais elevadas. Proteja de geada e de frio úmido prolongado durante a dormência, mantendo excelente drenagem." }
+        "litoralQuente": "É particularmente promissor no litoral quente porque existem populações costeiras de Cyrtopodium flavum muito próximas ao nível do mar. Use alta luminosidade, ventilação e substrato predominantemente mineral; o maior cuidado é evitar excesso de chuva quando a planta estiver desfolhada.",
+        "montanhaFrio": "Também se adapta a regiões mais elevadas. Proteja de geada e de frio úmido prolongado durante a dormência, mantendo excelente drenagem."
     },
     "mesesFloracao": [
         9,

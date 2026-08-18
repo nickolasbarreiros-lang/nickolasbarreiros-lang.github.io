@@ -38,33 +38,92 @@ export const maxillariaChrysantha = {
     substrato: "🥇 Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.\n🥈 Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia.\n🥉 Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.\n⭐ Alternativa: Chips de coco + pinus médio + perlita + carvão vegetal miúdo.",
     errosComuns: "Replantar fora do início de novas raízes; enterrar o rizoma; cobrir hastes basais; usar vaso grande; manter detritos deteriorados bloqueando botões; cultivar em calor noturno abafado; usar substrato saturado ou degradado; regar demais em períodos frios; dividir a touceira em porções pequenas; aplicar adubo concentrado.",
     dica: "Replante somente quando novas pontas radiculares estiverem surgindo. Preserve o máximo possível das raízes firmes e deixe a base dos pseudobulbos livre, pois é dali que saem as hastes. Para florir bem no litoral, concentre seus esforços em noites mais frescas, ventilação e baixa retenção de calor no vaso, em vez de provocar seca artificial.",
+    revisaoCientificaIAR: {
+        "nome": "Maxillaria chrysantha",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma Maxillaria brasileira que chama atenção pela cor: suas flores amarelo-ouro podem chegar a cerca de 5 cm e ainda apresentam perfume adocicado. É uma espécie de áreas serranas, encontrada em torno de 1.400 m, onde recebe umidade frequente, ar em movimento e noites naturalmente mais frescas. Por isso, cresce muito bem em regiões de altitude e exige mais atenção no litoral quen",
+        "habitatAltitudeClima": "Epífita montana · cerca de 1.400 m. | Intermediário a fresco · noites amenas.",
+        "distribuicaoGeografica": "Sul do Brasil · áreas serranas.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 50,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 2, peso: 30 },
-                temperatura: { nota: 2, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 31,
+            "estrelas": 2,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 1,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 1,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 1,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 86,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },

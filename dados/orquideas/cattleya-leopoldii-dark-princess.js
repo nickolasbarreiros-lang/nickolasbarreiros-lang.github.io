@@ -42,39 +42,98 @@ export const cattleyaLeopoldiiDarkPrincess = {
     "substrato": "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.\n🥈 Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.\n🥉 Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.\n⭐ Alternativa: Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.",
     "errosComuns": "Pouca luz; vaso leve; ausência de tutoramento; amarrar o broto com excesso de pressão; tentar endireitar pseudobulbo maduro; substrato fino; excesso de água no inverno; excesso de nitrogênio; girar o vaso durante a haste; dividir em poucas frentes; impedir espaço vertical; deixar o rizoma frouxo.",
     "dica": "Tutore a frente nova desde os primeiros centímetros de alongamento. Use amarração flexível, com folga para o espessamento, e ajuste gradualmente. Instale o vaso definitivo em local estável antes que a planta fique alta. Depois do endurecimento dos tecidos, não tente dobrar ou reposicionar a haste. A estabilidade física melhora a orientação da haste, protege raízes novas e evita que o conjunto tombe com o peso das flores.",
+    revisaoCientificaIAR: {
+        "nome": "Cattleya tigrina 'Dark Princess'",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Alta, elegante e impossível de passar despercebida, Cattleya tigrina 'Dark Princess' chama atenção tanto pelo porte quanto pelas florações abundantes. Seus longos pseudobulbos bifoliados sustentam cachos com várias flores cerosas e perfumadas, densamente pintalgadas; neste cultivar, predominam tons profundos de castanho-avermelhado, bronze e vinho, contrastando com o labelo mag",
+        "habitatAltitudeClima": "Florestas costeiras claras · copas ventiladas | Quente a intermediário · alta luminosidade",
+        "distribuicaoGeografica": "Mata Atlântica do Sul e Sudeste",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 84,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 1, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 98,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 74,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "montanhaFrio": {
+            "indice": 48,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, o calor favorece o crescimento. Forneça luz alta, muita ventilação, vaso pesado e rega matinal. Proteja apenas do sol abrasador do meio-dia." },
-        "montanhaFrio": { texto: "Tolera noites amenas, mas deve ser protegida de frio intenso. Regue pela manhã para permitir secagem completa." }
+        "litoralQuente": "Em Litoral de clima quente, o calor favorece o crescimento. Forneça luz alta, muita ventilação, vaso pesado e rega matinal. Proteja apenas do sol abrasador do meio-dia.",
+        "montanhaFrio": "Tolera noites amenas, mas deve ser protegida de frio intenso. Regue pela manhã para permitir secagem completa."
     },
     "mesesFloracao": [
         2,

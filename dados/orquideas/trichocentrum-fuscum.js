@@ -43,39 +43,98 @@ export const trichocentrumFuscum = {
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.\n🥉 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n⭐ Alternativa: Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.",
     "errosComuns": "Sombra excessiva; vaso grande; regar novamente antes da secagem; substrato compacto; água acumulada na base das folhas; pouca ventilação; adubo forte; manter molhado no inverno; excesso de esfagno; replantar fora da emissão de raízes.",
     "dica": "Use a própria suculência das folhas como guia: a planta foi construída para armazenar água, não para permanecer molhada. Molhe completamente, ventile e deixe o sistema radicular secar quase por inteiro antes da próxima rega. Montagem em madeira ou recipiente extremamente vazado torna esse ciclo muito mais seguro.",
+    revisaoCientificaIAR: {
+        "nome": "Trichocentrum fuscum",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Compacta e de aparência quase suculenta, Trichocentrum fuscum se destaca pelas folhas grossas e carnosas, que armazenam água e permitem à planta atravessar períodos de secagem entre as chuvas. É uma epífita da América do Sul tropical e produz flores em tons de amarelo, ocre e castanho, geralmente com labelo mais claro e contrastante. Seu formato já revela a melhor estratégia de",
+        "habitatAltitudeClima": "Floresta tropical úmida; epífita. | Quente a intermediário, ventilado.",
+        "distribuicaoGeografica": "América do Sul tropical.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 81,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 79,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 69,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, adapta-se muito bem, especialmente montada. Ofereça luz forte filtrada, ventilação permanente e evite regas tardias ou retenção noturna." },
-        "montanhaFrio": { texto: "No inverno, aumente bastante o intervalo de regas e proteja de frio intenso e ventos gelados." }
+        "litoralQuente": "Em Litoral de clima quente, adapta-se muito bem, especialmente montada. Ofereça luz forte filtrada, ventilação permanente e evite regas tardias ou retenção noturna.",
+        "montanhaFrio": "No inverno, aumente bastante o intervalo de regas e proteja de frio intenso e ventos gelados."
     },
     "mesesFloracao": [
         9,

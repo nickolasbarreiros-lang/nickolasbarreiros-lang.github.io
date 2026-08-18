@@ -40,33 +40,92 @@ export const laeliaCinnabarina = {
     substrato: "🥇 Pedra-pomes + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.\n🥈 Macadâmia grossa + pedra-pomes + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado.\n🥉 Pedra-pomes + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.\n⭐ Alternativa: Brita + pedra-pomes + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.",
     errosComuns: "• Sombra excessiva e pseudobulbos estiolados.\n• Vaso ou pedra superaquecendo sob sol forte.\n• Substrato fino, compacto ou permanentemente molhado.\n• Confundir hábito rupícola com ausência de necessidade hídrica.\n• Repouso seco exagerado.\n• Vaso profundo e fechado, com centro quente e úmido.\n• Adubação concentrada e salinização.\n• Pouca ventilação no verão litorâneo.",
     dica: "🏆 Dê muita luz sem cozinhar as raízes. Um vaso baixo, muito aerado e predominantemente mineral funciona bem, mas deve ficar protegido do sol forte que aquece pedra e barro. Durante o crescimento, regue de verdade; depois, reduza gradualmente conforme a planta desacelera.",
+    revisaoCientificaIAR: {
+        "nome": "Cattleya cinnabarina",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma explosão de laranja nas montanhas do Sudeste! Cattleya cinnabarina chama atenção pelas flores estreladas em intenso tom cinábrio, geralmente reunidas em hastes altas que podem chegar perto de 60 cm. Na natureza cresce sobre rochas entre gramíneas, sobretudo em áreas serranas de Minas Gerais e Rio de Janeiro, aproximadamente entre 800 e 1.500 m. Apesar do aspecto de planta d",
+        "habitatAltitudeClima": "Afloramentos rochosos · ~800–1.500 m. | Intermediário a fresco · alta luz · ventilado.",
+        "distribuicaoGeografica": "Minas Gerais e Rio de Janeiro.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 57,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 2, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 49,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 81,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 97,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },

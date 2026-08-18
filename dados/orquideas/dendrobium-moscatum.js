@@ -40,39 +40,98 @@ export const dendrobiumMoscatum = {
     "substrato": "🥇 Casca de pinus grossa + casca de macadâmia + carvão vegetal + pedra-pomes, para cultivo epífito muito arejado.\n🥈 Em vaso grande: pinus médio/grosso + chips de coco + carvão + pedra-pomes + pequena fração de composto orgânico bem estabilizado, mantendo drenagem rápida.\n🥉 Para cultivo com caráter mais terrestre/rupícola: casca grossa + pedra-pomes/brita + carvão + matéria orgânica estável em pequena proporção; nunca usar terra compacta.\n⭐ Alternativa: cachepô/cesto com componentes grossos e grandes espaços de ar. A espécie tolera diferentes formas de cultivo, mas suas raízes continuam exigindo excelente oxigenação.",
     "errosComuns": "Instalar em local baixo; impedir o arco natural das hastes; sombra excessiva; encharcar no inverno; cortar hastes antigas; reduzir água antes da maturação; excesso de nitrogênio no final do verão; vaso leve; mudar constantemente de posição; substrato velho.",
     "dica": "Não limite esta espécie ao cultivo montado: apesar de ser predominantemente epífita na natureza, exemplares adultos podem responder muito bem a vasos grandes e estáveis. O segredo é combinar matéria orgânica com partículas grossas e minerais, preservando muita aeração. Observe também o amadurecimento das hastes e só reduza as regas quando elas pararem de alongar e endurecerem. Em Litoral de clima quente, evite chuva contínua durante a fase de menor atividade.",
+    revisaoCientificaIAR: {
+        "nome": "Dendrobium moschatum",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma espécie de presença marcante e cultivo bastante versátil! O Dendrobium moschatum é predominantemente epífita na natureza, crescendo sobre troncos em florestas abertas, mas adapta-se muito bem ao cultivo em recipientes amplos quando recebe substrato muito arejado, drenante e rico em matéria orgânica. Produz hastes longas e arqueadas e cachos pendentes de grandes flores amare",
+        "habitatAltitudeClima": "Predominantemente epífita · troncos em florestas abertas. | Quente a intermediário · monçônico.",
+        "distribuicaoGeografica": "Sul da Ásia e Indochina.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 74,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 78,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 63,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 80,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Adapta-se muito bem. Use luz forte, ventilação e proteção contra chuvas repetidas no inverno. Não imponha seca extrema." },
-        "montanhaFrio": { texto: "Bom desenvolvimento. Proteja de geadas e de chuva fria prolongada." }
+        "litoralQuente": "Adapta-se muito bem. Use luz forte, ventilação e proteção contra chuvas repetidas no inverno. Não imponha seca extrema.",
+        "montanhaFrio": "Bom desenvolvimento. Proteja de geadas e de chuva fria prolongada."
     },
     "mesesFloracao": [
         9,

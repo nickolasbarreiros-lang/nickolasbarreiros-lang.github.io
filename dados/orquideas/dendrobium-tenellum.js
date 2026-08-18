@@ -43,39 +43,98 @@ export const dendrobiumTenellum = {
     "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n🥉 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
     "errosComuns": "Sol direto intenso; seca extrema; encharcamento; substrato compactado; repouso excessivamente severo; chuva contínua no inverno; replantios desnecessários; vaso profundo; pouca ventilação; excesso de adubo no repouso.",
     "dica": "Durante o inverno, reduza drasticamente água e adubo, mas acompanhe visualmente as hastes. Se começarem a enrugar em excesso, faça uma irrigação leve. O equilíbrio entre descanso e preservação das hastes é o principal fator de sucesso.",
+    revisaoCientificaIAR: {
+        "nome": "Dendrobium tenellum",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma espécie incomum de Java, com aparência muito diferente dos Dendrobium mais conhecidos. O Dendrobium tenellum desenvolve caules eretos e estreitos, com numerosas folhas finas, e produz pequenas flores claras de aproximadamente 1 a 1,2 cm. Na natureza ocorre em florestas montanas úmidas ou sazonalmente mais secas, entre cerca de 1.500 e 2.200 m. Essa altitude é a chave para e",
+        "habitatAltitudeClima": "Florestas montanas úmidas a sazonais. | Fresco a frio · noites amenas.",
+        "distribuicaoGeografica": "Montanhas de Java · 1.500–2.200 m.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 54,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 3, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 1, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 47,
+            "estrelas": 3,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 2,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 2,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 87,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 96,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, mantenha em local alto, claro e ventilado, protegido da chuva no inverno. O maior desafio é obter noites frescas sem desidratar as hastes." },
-        "montanhaFrio": { texto: "Adaptação muito boa; proteja apenas de geadas e evite repouso seco exagerado." }
+        "litoralQuente": "Em Litoral de clima quente, mantenha em local alto, claro e ventilado, protegido da chuva no inverno. O maior desafio é obter noites frescas sem desidratar as hastes.",
+        "montanhaFrio": "Adaptação muito boa; proteja apenas de geadas e evite repouso seco exagerado."
     },
     "mesesFloracao": [
         8,

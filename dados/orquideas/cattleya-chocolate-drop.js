@@ -44,39 +44,99 @@ export const cattleyaChocolateDrop = {
     "substrato": "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n🥉 Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.\n⭐ Alternativa: Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
     "errosComuns": "Cultivar à sombra; excesso de nitrogênio; usar vaso grande; manter substrato compactado; enterrar o rizoma; acumular água na bainha floral; abrir ou cortar a espata sem necessidade; replantar fora da emissão de raízes; dividir touceiras pequenas; acreditar que adubo de floração substitui luz.",
     "dica": "A qualidade da florada depende mais de luz alta, maturação dos pseudobulbos e raízes saudáveis do que de adubação forte. Aclimate gradualmente ao ponto mais claro do orquidário, mantenha as bainhas secas e deixe o substrato quase secar. Isso produz cachos mais compactos, hastes firmes e pigmentação mais intensa.",
+    revisaoCientificaIAR: {
+        "nome": "Cattlianthe Chocolate Drop",
+        "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Cattlianthe Chocolate Drop é daqueles híbridos que fazem jus ao nome: suas flores cerosas aparecem em cachos vistosos e podem variar do alaranjado e vermelho queimado a tons vinho e chocolate, criando um efeito especialmente intenso sob boa luminosidade. A planta é vigorosa, de crescimento ereto e geralmente bifoliado, formando rapidamente uma touceira robusta quando dispõe de ",
+        "habitatAltitudeClima": "Sem habitat natural · cultivo luminoso e ventilado | Quente a intermediário · alta luz",
+        "distribuicaoGeografica": "Parentais: Brasil + México/América Central",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies",
+            "OrchidRoots/RHS"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 83,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 3, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 2, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 97,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 73,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 2, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 5, peso: 5 },
-                floracao: { nota: 4, peso: 20 }
+        "montanhaFrio": {
+            "indice": 63,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Em Litoral de clima quente, adapta-se muito bem. Use ventilação constante, alta luminosidade filtrada e substrato grosseiro. Proteja botões e bainhas durante chuvas persistentes." },
-        "montanhaFrio": { texto: "Tolera noites frescas, mas deve ser protegida de geadas e de substrato frio e encharcado." }
+        "litoralQuente": "Em Litoral de clima quente, adapta-se muito bem. Use ventilação constante, alta luminosidade filtrada e substrato grosseiro. Proteja botões e bainhas durante chuvas persistentes.",
+        "montanhaFrio": "Tolera noites frescas, mas deve ser protegida de geadas e de substrato frio e encharcado."
     },
     "mesesFloracao": [
         4,

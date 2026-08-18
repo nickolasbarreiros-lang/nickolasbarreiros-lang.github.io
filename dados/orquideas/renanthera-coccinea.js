@@ -42,39 +42,98 @@ export const renantheraCoccinea = {
     "substrato": "🥇 Cesto muito aberto com macadâmia grossa + carvão vegetal + pedra-pomes; não preencher todos os espaços entre as raízes.\n🥈 Cultivo quase sem substrato, usando nós de pinho ou sarrafos de madeira apenas para fixação.\n🥉 Pinus muito grosso + argila expandida + carvão vegetal em cesto vazado.\n⭐ Alternativa: Chips de coco muito grossos + macadâmia + carvão, apenas o suficiente para estabilizar a planta.",
     "errosComuns": "Sombra excessiva; vaso pequeno; substrato fino e retentivo; cortar raízes aéreas; falta de tutor; pouca ventilação; adubo concentrado em raízes secas; replantios frequentes; espaço vertical insuficiente; exposição repentina a sol forte sem aclimatação.",
     "dica": "Se não floresce, olhe primeiro para a luz. Esta é uma espécie naturalmente exposta, inclusive em rochas abertas. Aumente a luminosidade gradualmente, mantenha raízes livres e forneça água abundante com secagem rápida — uma combinação muito mais eficiente do que tentar induzir floração com seca.",
+    revisaoCientificaIAR: {
+        "nome": "Renanthera coccinea",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma explosão de vermelho em uma planta de presença imponente! A Renanthera coccinea cresce verticalmente como uma grande Vanda e, quando adulta, pode produzir hastes ramificadas de 60 a 90 cm cobertas por flores vermelho-alaranjadas de cerca de 5 a 6,25 cm. Na natureza aparece tanto como epífita em florestas quanto sobre rochas e paredões muito claros, entre aproximadamente 100",
+        "habitatAltitudeClima": "Rochas abertas e florestas · 100–1.200 m. | Quente a ameno · muito claro · ventilado.",
+        "distribuicaoGeografica": "China meridional · Myanmar · Laos · Vietnã · Tailândia.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "alta",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.1",
-        escala: "compatibilidade",
-        litoralQuente: {
-            indice: 80,
-            estrelas: 4,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 3, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 98,
+            "estrelas": 5,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 5,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 5,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 5,
+                    "peso": 20
+                }
             }
         },
-        montanhaFrio: {
-            indice: 81,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 4, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 3, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
+        "montanhaFrio": {
+            "indice": 64,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 3,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 3,
+                    "peso": 20
+                }
             }
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": { texto: "Excelente adaptação. Calor, umidade e sol matinal favorecem muito a espécie; garanta vento constante, raízes livres e água frequente nos meses mais quentes." },
-        "montanhaFrio": { texto: "Boa, desde que protegida de frio intenso. Abaixo de cerca de 15 °C, reduza regas e mantenha a planta mais seca durante a noite." }
+        "litoralQuente": "Excelente adaptação. Calor, umidade e sol matinal favorecem muito a espécie; garanta vento constante, raízes livres e água frequente nos meses mais quentes.",
+        "montanhaFrio": "Boa, desde que protegida de frio intenso. Abaixo de cerca de 15 °C, reduza regas e mantenha a planta mais seca durante a noite."
     },
     "mesesFloracao": [9, 10, 11, 12],
     "selosCultivo": {
