@@ -41,8 +41,8 @@ export const brassavolaTuberculata = {
     errosComuns: "• Sombra excessiva, uma das principais causas de ausência de flores.\n• Substrato fino, velho ou compactado.\n• Vaso grande e profundo.\n• Manter raízes permanentemente molhadas.\n• Confundir rusticidade com baixa necessidade de água durante crescimento.\n• Excesso de nitrogênio associado à pouca luz.\n• Dividir touceiras pequenas repetidamente.\n• Manter Brassavola perrinii como espécie separada nos registros.",
     dica: "🏆 Se a touceira cresce muito e não floresce, verifique primeiro a luminosidade. Brassavola tuberculata pode vegetar mesmo sob luz insuficiente. Em Litoral de clima quente, cultivo montado, 30% a 40% de sombreamento, ventilação forte e ciclos rápidos de molha-e-seca oferecem excelente resultado. Regue generosamente no crescimento; o segredo não é fazê-la passar sede, e sim permitir que as raízes sequem rapidamente e recebam muito ar.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente, 5/5. Uma das espécies mais adequadas ao litoral quente, desde que as raízes permaneçam muito aeradas.",
-        montanhaFrio: "Muito boa. Tolera noites frescas; apenas proteja de geadas e reduza água quando a secagem ficar lenta."
+        litoralQuente: { nota: 5, texto: "Excelente Uma das espécies mais adequadas ao litoral quente, desde que as raízes permaneçam muito aeradas." },
+        montanhaFrio: { nota: 4, texto: "Tolera noites frescas; apenas proteja de geadas e reduza água quando a secagem ficar lenta." }
     },
     mesesFloracao: [10, 11, 12, 1],
     "selosCultivo": {

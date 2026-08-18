@@ -54,8 +54,8 @@ export const epidendrumCentropetalum = {
     ],
     dica: "🏆 Aproveite o hábito de formar keikis: em vez de removê-los cedo, deixe que criem raízes e ajudem a formar uma touceira cheia. No litoral quente, mantenha a planta em posição muito ventilada e com luz filtrada forte; noites menos abafadas costumam fazer mais diferença do que aumentar a adubação.",
     adaptacaoRegional: {
-        litoralQuente: "Adaptação moderada, cerca de 3/5. Pode crescer bem com 50% a 60% de sombreamento, umidade alta e ventilação constante, mas noites muito quentes e abafadas podem reduzir vigor e floração.",
-        montanhaFrio: "Adaptação excelente, cerca de 5/5. Noites frescas e boa umidade se aproximam bastante das condições montanas onde a espécie ocorre naturalmente."
+        litoralQuente: { nota: 3, texto: "Pode crescer bem com 50% a 60% de sombreamento, umidade alta e ventilação constante, mas noites muito quentes e abafadas podem reduzir vigor e floração." },
+        montanhaFrio: { nota: 5, texto: "Noites frescas e boa umidade se aproximam bastante das condições montanas onde a espécie ocorre naturalmente." }
     },
     mesesFloracao: [8, 9, 10, 11, 12, 1],
     "selosCultivo": {

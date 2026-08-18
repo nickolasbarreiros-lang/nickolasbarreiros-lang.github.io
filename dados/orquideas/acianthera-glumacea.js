@@ -53,8 +53,8 @@ export const aciantheraGlumacea = {
     substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "🥉 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "⭐ Alternativa: Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."],
     errosComuns: ["Remover ramicaules antigos ainda verdes que podem reflorir.", "Encharcar o centro de touceiras densas.", "Cultivar em calor noturno abafado.", "Usar substrato decomposto ou compactado.", "Usar vaso excessivamente grande.", "Manter sombra profunda.", "Confundir a preferência por umidade com necessidade de substrato permanentemente saturado."],
     adaptacaoRegional: {
-        litoral: "Cultivo possível, porém mais exigente. Use 60% a 70% de sombra, máxima ventilação, recipiente pequeno e aberto e o ponto mais fresco do orquidário. O maior gargalo é a combinação de noites quentes e tecido vegetal molhado por muitas horas.",
-        montanha: "Adaptação muito boa, coerente com a origem em torno de 1.300 m. Noites amenas favorecem vigor e floração; em inverno frio e úmido, apenas aumente o intervalo entre regas conforme a secagem real."
+        litoral: { nota: 3, texto: "Cultivo possível, porém mais exigente. Use 60% a 70% de sombra, máxima ventilação, recipiente pequeno e aberto e o ponto mais fresco do orquidário. O maior gargalo é a combinação de noites quentes e tecido vegetal molhado por muitas horas." },
+        montanha: { nota: 4, texto: "Adaptação muito boa, coerente com a origem em torno de 1.300 m. Noites amenas favorecem vigor e floração; em inverno frio e úmido, apenas aumente o intervalo entre regas conforme a secagem real." }
     },
     dica: "🏆Não descarte hastes antigas saudáveis, pois elas podem produzir novas flores por vários anos; além disso, touceiras maduras e bem ventiladas dão mais flores do que plantas divididas com frequência."
 };

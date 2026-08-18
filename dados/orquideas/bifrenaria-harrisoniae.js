@@ -39,8 +39,8 @@ export const bifrenariaHarrisoniae = {
     errosComuns: "Cultivar em sombra excessiva; usar vaso muito maior que a massa radicular; manter o substrato constantemente molhado; empregar misturas finas ou compactadas; reduzir as regas antes da maturação dos pseudobulbos; replantar sem início de novas raízes; impor repouso seco severo; suspender nutrientes de forma abrupta enquanto ainda houver crescimento ativo.",
     dica: "Esqueça o mito de que ela precisa de raízes espremidas para florescer; o vaso justo serve apenas para evitar o acúmulo de umidade em excesso ao redor do sistema radicular. Para ver suas grandes flores cerosas e perfumadas, o verdadeiro segredo é mantê-la entouceirada por anos — preservando a estabilidade e evitando mexer nas raízes —, combinando essa estrutura com luz filtrada abundante, regas generosas na fase de crescimento e um substrato de drenagem impecável.",
     adaptacaoRegional: {
-        litoralQuente: "Cultive em vaso de barro ou cachepô aberto, com forte circulação de ar, 40% a 50% de sombra e regas matinais. Em Litoral de clima quente, evite calor abafado e mantenha o substrato de secagem rápida sem impor seca prolongada.",
-        montanhaFrio: "A queda natural da temperatura noturna favorece a floração. Proteja de geadas e evite que o substrato permaneça frio e encharcado por vários dias."
+        litoralQuente: { nota: 3, texto: "Cultive em vaso de barro ou cachepô aberto, com forte circulação de ar, 40% a 50% de sombra e regas matinais. Em Litoral de clima quente, evite calor abafado e mantenha o substrato de secagem rápida sem impor seca prolongada." },
+        montanhaFrio: { nota: 3, texto: "A queda natural da temperatura noturna favorece a floração. Proteja de geadas e evite que o substrato permaneça frio e encharcado por vários dias." }
     },
     mesesFloracao: [11, 12, 1],
     "selosCultivo": {

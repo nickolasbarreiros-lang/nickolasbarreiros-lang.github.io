@@ -58,8 +58,8 @@ export const aeridesOdorata = {
     ],
     dica: "🏆 Pense nela mais como uma Vanda do que como uma orquídea de vaso convencional. Quanto mais livres e ventiladas estiverem as raízes, mais fácil será oferecer bastante água sem causar encharcamento. No litoral quente, cesto vazado, luz filtrada forte e regas generosas pela manhã formam uma combinação especialmente favorável.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente, cerca de 5/5. A origem tropical combina muito bem com calor e umidade. Use 50% a 60% de sombreamento, raízes muito ventiladas e regas frequentes nos períodos quentes.",
-        montanhaFrio: "Boa, cerca de 3/5. Pode crescer bem em clima intermediário, mas deve ser protegida de frio intenso e de raízes molhadas durante noites frias."
+        litoralQuente: { nota: 5, texto: "Excelente A origem tropical combina muito bem com calor e umidade. Use 50% a 60% de sombreamento, raízes muito ventiladas e regas frequentes nos períodos quentes." },
+        montanhaFrio: { nota: 3, texto: "Boa Pode crescer bem em clima intermediário, mas deve ser protegida de frio intenso e de raízes molhadas durante noites frias." }
     },
     mesesFloracao: [10, 11, 12, 1, 2],
     "selosCultivo": {

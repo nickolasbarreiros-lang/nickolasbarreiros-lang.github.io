@@ -40,8 +40,8 @@ export const laeliaGloriosa = {
     errosComuns: "Cultivar em sombra; usar recipiente leve e instável; empregar substrato fino ou compactado; manter raízes constantemente molhadas; dar pouco espaço ao rizoma; não reservar espaço vertical para a haste; deixar água acumulada em brotos novos; adubar raízes secas com solução concentrada; usar Schomburgkia crispa como sinônimo; cortar haste ainda verde.",
     dica: "🏆 Planeje o cultivo para o tamanho adulto. Use cesto robusto ou vaso pesado, dê espaço ao rizoma e reserve área livre para uma haste que pode passar de 1 metro. No crescimento, forneça água e nutrição com generosidade; depois, mantenha muita luz e apenas reduza moderadamente as regas.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação ao calor de litoral quente quando recebe luminosidade elevada, ventilação constante, rega abundante durante o crescimento e secagem rápida. Fixe firmemente o recipiente contra vento e tombamento.",
-        montanhaFrio: "Tolera noites amenas, mas deve ser protegida de geadas e de períodos frios prolongados com raízes molhadas. Mantenha alta luminosidade mesmo no inverno."
+        litoralQuente: { nota: 5, texto: "Ao calor de litoral quente quando recebe luminosidade elevada, ventilação constante, rega abundante durante o crescimento e secagem rápida. Fixe firmemente o recipiente contra vento e tombamento." },
+        montanhaFrio: { nota: 3, texto: "Tolera noites amenas, mas deve ser protegida de geadas e de períodos frios prolongados com raízes molhadas. Mantenha alta luminosidade mesmo no inverno." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {

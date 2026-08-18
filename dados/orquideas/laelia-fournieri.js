@@ -42,8 +42,8 @@ export const laeliaFournieri = {
     errosComuns: "• Cultivar em local quente e abafado.\n• Confundir hábito rupícola com necessidade de seca extrema.\n• Vaso grande, profundo ou com material compactado.\n• Deixar pedra ou vaso superaquecer ao sol.\n• Excesso de matéria orgânica decomposta no calor.\n• Replantar por conveniência quando não há novas raízes, salvo emergência.\n• Adubação concentrada e acúmulo de sais.\n• Repouso seco exagerado, levando rapidamente ao enrugamento dos pseudobulbos.",
     dica: "🏆 Replante preferencialmente quando as primeiras raízes novas começarem a surgir e use pouco volume de substrato, muita drenagem e máxima circulação de ar. No litoral quente, o objetivo é baixar a temperatura radicular e evitar abafamento; secar demais uma planta tão pequena costuma piorar o problema.",
     adaptacaoRegional: {
-        litoralQuente: "Difícil, cerca de 2/5 de adaptação. O maior gargalo é o calor noturno. Use o ponto comprovadamente mais fresco e ventilado, recipiente pequeno, alta aeração e proteção contra superfícies que irradiem calor.",
-        montanhaFrio: "Muito favorável em ambientes luminosos e ventilados, protegendo apenas contra geadas severas e encharcamento prolongado em períodos frios."
+        litoralQuente: { nota: 2, texto: "Difícil de adaptação. O maior gargalo é o calor noturno. Use o ponto comprovadamente mais fresco e ventilado, recipiente pequeno, alta aeração e proteção contra superfícies que irradiem calor." },
+        montanhaFrio: { nota: 4, texto: "Em ambientes luminosos e ventilados, protegendo apenas contra geadas severas e encharcamento prolongado em períodos frios." }
     },
     mesesFloracao: [12, 1, 2, 3, 4],
     "selosCultivo": {

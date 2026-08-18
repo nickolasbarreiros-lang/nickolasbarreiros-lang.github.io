@@ -34,8 +34,8 @@ export const howearaLavaBurst = {
     errosComuns: "Usar vaso grande; deixar o substrato velho e compacto; impor seca para estimular floração; permitir enrugamento frequente; cultivar em calor abafado; usar excesso de bokashi ou adubo de liberação lenta; aplicar fertilizante concentrado; deixar água parada na base da touceira; manter sombra profunda.",
     dica: "Não tente ‘forçar’ a floração com seca. A estratégia mais eficiente é manter a planta em crescimento contínuo: vaso pequeno, raízes saudáveis, luz filtrada forte e adubação fraca. Cada pseudobulbo bem formado aumenta a chance de uma nova haste, e uma touceira adulta pode florescer repetidamente ao longo do ano.",
     adaptacaoRegional: {
-        litoralQuente: "Boa. Proteja do sol forte da tarde, mantenha circulação de ar contínua e evite recipientes grandes que permaneçam quentes e molhados por muito tempo.",
-        montanhaFrio: "Excelente. Reduza as regas apenas nos períodos frios de baixa evaporação e proteja de temperaturas muito baixas."
+        litoralQuente: { nota: 3, texto: "Proteja do sol forte da tarde, mantenha circulação de ar contínua e evite recipientes grandes que permaneçam quentes e molhados por muito tempo." },
+        montanhaFrio: { nota: 5, texto: "Reduza as regas apenas nos períodos frios de baixa evaporação e proteja de temperaturas muito baixas." }
     },
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     "selosCultivo": {

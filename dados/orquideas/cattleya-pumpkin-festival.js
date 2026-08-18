@@ -40,8 +40,8 @@ export const cattleyaPumpkinFestival = {
     errosComuns: "Cultivar sob sombra excessiva; utilizar vasos grandes e fundos; enterrar o rizoma; manter o substrato constantemente úmido; replantar fora da emissão de raízes novas; exagerar na adubação nitrogenada; deixar água acumulada na espata floral.",
     dica: "A intensidade da coloração laranja e o tamanho das flores dependem diretamente da luminosidade recebida durante a formação dos pseudobulbos. Cultive em vaso relativamente justo, com excelente ventilação e alta luminosidade, evitando apenas queimaduras causadas pelo sol forte do meio-dia.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação em Litoral de clima quente. Use sombrite de aproximadamente 50%, substrato de secagem rápida e ventilação constante. Em vasos plásticos, evite superaquecimento e excesso de umidade.",
-        montanhaFrio: "Desenvolve-se muito bem com luminosidade elevada. No inverno, reduza discretamente as regas e proteja a planta quando houver temperaturas persistentes abaixo de aproximadamente 10 a 12 °C."
+        litoralQuente: { nota: 5, texto: "Em Litoral de clima quente. Use sombrite de aproximadamente 50%, substrato de secagem rápida e ventilação constante. Em vasos plásticos, evite superaquecimento e excesso de umidade." },
+        montanhaFrio: { nota: 3, texto: "Desenvolve-se muito bem com luminosidade elevada. No inverno, reduza discretamente as regas e proteja a planta quando houver temperaturas persistentes abaixo de aproximadamente 10 a 12 °C." }
     },
     mesesFloracao: [3, 4, 5, 6],
     "selosCultivo": {

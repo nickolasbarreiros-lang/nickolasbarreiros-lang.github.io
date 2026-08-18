@@ -39,8 +39,8 @@ export const blcChiaLin = {
     errosComuns: "Cultivar com pouca luz; usar vaso grande demais; manter substrato velho, ácido ou constantemente molhado; regar por calendário sem observar a secagem; usar adubo concentrado ou grandes doses de fósforo para tentar forçar floração; replantar fora do início do enraizamento; molhar repetidamente brotos novos no fim do dia; deixar água acumulada na espata; dividir plantas pequenas.",
     dica: "Observe o pseudobulbo, não apenas o calendário. Durante brotação e enraizamento, forneça água, adubação leve e luz suficiente para que o novo crescimento atinja seu tamanho máximo. Quando a folha estiver firme e o pseudobulbo maduro, reduza naturalmente a adubação e mantenha boa luminosidade. Um pseudobulbo robusto sustentado por raízes saudáveis tem muito mais chance de preencher a espata e produzir flores grandes.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação à Litoral de clima quente. O calor costuma ser bem tolerado; o maior risco é a combinação de noites quentes, substrato velho e raízes constantemente molhadas. Use vaso ou cachepô bem ventilado e bastante luz filtrada.",
-        montanhaFrio: "Adapta-se bem às noites frescas. Uma amplitude térmica moderada pode favorecer o ciclo fisiológico, mas não é requisito absoluto. Reduza as regas em períodos frios e nublados e proteja contra extremos de temperatura."
+        litoralQuente: { nota: 5, texto: "À Litoral de clima quente. O calor costuma ser bem tolerado; o maior risco é a combinação de noites quentes, substrato velho e raízes constantemente molhadas. Use vaso ou cachepô bem ventilado e bastante luz filtrada." },
+        montanhaFrio: { nota: 3, texto: "Adapta-se bem às noites frescas. Uma amplitude térmica moderada pode favorecer o ciclo fisiológico, mas não é requisito absoluto. Reduza as regas em períodos frios e nublados e proteja contra extremos de temperatura." }
     },
     mesesFloracao: [4, 5, 6, 7, 8, 9, 10, 11],
     "selosCultivo": {

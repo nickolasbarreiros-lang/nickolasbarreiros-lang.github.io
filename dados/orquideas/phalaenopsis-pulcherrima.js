@@ -54,8 +54,8 @@ export const phalaenopsisPulcherrima = {
     ],
     dica: "🏆 Não corte uma haste verde apenas porque as primeiras flores caíram. Phalaenopsis pulcherrima pode continuar alongando a inflorescência e abrindo novas flores sucessivamente. Dê mais luz do que daria a uma Phalaenopsis híbrida comum, mas faça a aclimatação gradualmente.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente, cerca de 5/5. Calor combina bem com a espécie. Use luz filtrada relativamente alta, boa ventilação e regas regulares sem manter o vaso saturado.",
-        montanhaFrio: "Boa, cerca de 3/5. Pode ser cultivada, mas deve ser protegida de noites muito frias e de raízes molhadas em temperaturas baixas."
+        litoralQuente: { nota: 5, texto: "Excelente Calor combina bem com a espécie. Use luz filtrada relativamente alta, boa ventilação e regas regulares sem manter o vaso saturado." },
+        montanhaFrio: { nota: 3, texto: "Boa Pode ser cultivada, mas deve ser protegida de noites muito frias e de raízes molhadas em temperaturas baixas." }
     },
     mesesFloracao: [12, 1, 2, 3, 4, 5],
     "selosCultivo": {

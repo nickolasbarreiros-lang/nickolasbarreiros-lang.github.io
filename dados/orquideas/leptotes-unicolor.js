@@ -39,8 +39,8 @@ export const leptotesUnicolor = {
     errosComuns: "Usar vaso grande ou substrato retentor; cobrir o rizoma; compactar esfagno; cultivar em sombra excessiva; adubar em dosagem alta; molhar ao fim do dia em noites frias; replantar fora da emissão de raízes novas; apertar o rizoma com arame; confundir folhas murchas por perda de raízes com simples falta de água.",
     dica: "Replante ou fixe a planta quando surgirem raízes novas na base da brotação. As raízes antigas raramente voltam a aderir bem a um novo suporte, então a recuperação depende principalmente das raízes emitidas depois da mudança. Para essa espécie, uma boa montagem vale mais que um substrato sofisticado.",
     adaptacaoRegional: {
-        litoralQuente: "Boa adaptação quando montada em local muito ventilado, com regas matinais frequentes e proteção contra sol forte após o início da manhã. Evite retenção de água junto ao rizoma e aumente a circulação de ar em noites quentes.",
-        montanhaFrio: "Excelente desempenho em noites frescas. Reduza as regas em períodos frios e úmidos, mantendo boa luminosidade e circulação de ar."
+        litoralQuente: { nota: 3, texto: "Quando montada em local muito ventilado, com regas matinais frequentes e proteção contra sol forte após o início da manhã. Evite retenção de água junto ao rizoma e aumente a circulação de ar em noites quentes." },
+        montanhaFrio: { nota: 5, texto: "Em noites frescas. Reduza as regas em períodos frios e úmidos, mantendo boa luminosidade e circulação de ar." }
     },
     mesesFloracao: [5, 6],
     "selosCultivo": {

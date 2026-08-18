@@ -34,8 +34,8 @@ export const bulbophyllumSaltatoriumVarAlbociliatum = {
     errosComuns: "• Enterrar o rizoma.\n• Compactar esfagno.\n• Deixar a planta secar completamente por muitos dias.\n• Usar vaso profundo e fechado.\n• Confundir alta umidade com saturação permanente.\n• Cultivar em sombra profunda.\n• Aplicar fertilizante concentrado.\n• Forçar repouso seco para induzir flores.",
     dica: "🏆 Deixe a estrutura rastejante respirar. Use uma camada fina de material úmido apenas sob as raízes e mantenha rizoma e pseudobulbos expostos. Em litoral quente, a combinação mais segura é 60% a 70% de sombra, água frequente, drenagem imediata e ventilação constante.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente. A origem tropical é favorável; ventilação e drenagem são os fatores decisivos.",
-        montanhaFrio: "Boa se protegida de frio prolongado; reduza regas conforme a evaporação cair, sem secar totalmente."
+        litoralQuente: { nota: 5, texto: "A origem tropical é favorável; ventilação e drenagem são os fatores decisivos." },
+        montanhaFrio: { nota: 3, texto: "Boa se protegida de frio prolongado; reduza regas conforme a evaporação cair, sem secar totalmente." }
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {

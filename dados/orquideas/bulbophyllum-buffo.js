@@ -42,8 +42,8 @@ export const bulbophyllumBuffo = {
     errosComuns: "• Enterrar o rizoma.\n• Usar vaso fundo e estreito.\n• Prender a raque contra a borda ou outra planta.\n• Compactar esfagno.\n• Deixar raízes secarem por dias.\n• Manter ambiente quente e abafado.\n• Forçar repouso seco.\n• Forçar frio para induzir floração.\n• Adubação concentrada.",
     dica: "🏆 Esta ficha corresponde ao mesmo táxon tratado no arquivo Bulbophyllum falcatum var. bufo; este arquivo legado foi mantido apenas para compatibilidade do catálogo. No cultivo, dê espaço horizontal à inflorescência, mantenha rizoma acima do substrato e use ventilação constante. A procedência de baixa altitude favorece o litoral quente.",
     adaptacaoRegional: {
-        litoralQuente: "Muito boa. Origem principalmente entre 0 e 500 m; ventilação e drenagem são os fatores críticos.",
-        montanhaFrio: "Boa se protegida de frio prolongado; não requer resfriamento para florescer."
+        litoralQuente: { nota: 4, texto: "Origem principalmente entre 0 e 500 m; ventilação e drenagem são os fatores críticos." },
+        montanhaFrio: { nota: 3, texto: "Boa se protegida de frio prolongado; não requer resfriamento para florescer." }
     },
     mesesFloracao: [8, 9, 10, 11, 12, 1, 2, 3],
     "selosCultivo": {

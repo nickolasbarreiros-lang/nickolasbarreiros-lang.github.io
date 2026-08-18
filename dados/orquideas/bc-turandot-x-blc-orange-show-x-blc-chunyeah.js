@@ -38,8 +38,8 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     errosComuns: "Cultivar em sombra excessiva; Usar vasos muito grandes ou substratos finos e compactados; Manter as raízes constantemente encharcadas; Deixar água acumulada no miolo dos brotos e bainhas durante a noite; Exagerar na adubação nitrogenada após o amadurecimento dos pseudobulbos; Dividir a touceira com menos de três a quatro pseudobulbos por corte.",
     dica: "Posicione a planta no setor mais iluminado e arejado do cultivo. Evite vasos excessivamente grandes e substratos retentivos: as raízes deste híbrido exigem aeração constante e ciclos rápidos de molha-e-seca para formar pseudobulbos encorpados e garantir floradas regulares e duradouras.",
     adaptacaoRegional: {
-        litoralQuente: "Adapta-se muito bem. Use luz forte filtrada, sol suave da manhã, ventilação constante e substrato de secagem rápida.",
-        montanhaFrio: "Proteja de frio intenso e reduza as regas durante períodos frios, sem permitir desidratação prolongada dos pseudobulbos."
+        litoralQuente: { nota: 3, texto: "Adapta-se muito bem. Use luz forte filtrada, sol suave da manhã, ventilação constante e substrato de secagem rápida." },
+        montanhaFrio: { nota: 3, texto: "Proteja de frio intenso e reduza as regas durante períodos frios, sem permitir desidratação prolongada dos pseudobulbos." }
     },
     mesesFloracao: [4, 5, 6, 7, 8, 9, 10, 11],
     "selosCultivo": {

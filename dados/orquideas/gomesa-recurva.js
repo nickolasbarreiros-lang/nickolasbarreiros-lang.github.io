@@ -34,8 +34,8 @@ export const gomesaRecurva = {
     errosComuns: "Cultivar em sombra excessiva; manter calor noturno abafado e sem vento; usar vaso grande; deixar o substrato velho ou compactado; utilizar esfagno em excesso no clima quente e úmido; impor seca severa; retirar hastes antes de secarem completamente; instalar a planta sem espaço para o desenvolvimento das inflorescências arqueadas.",
     dica: "Cultive em posição elevada ou suspensa para deixar as hastes de 10–35 cm arquearem livremente. No litoral, aproveite o resfriamento natural do outono em vez de tentar impor frio: boa ventilação, luz adequada e pseudobulbos maduros são os gatilhos mais coerentes para a floração.",
     adaptacaoRegional: {
-        litoralQuente: "Adapta-se bem em Litoral de clima quente quando cultivada no ponto mais fresco, claro e ventilado. Evite calor parado, vaso grande e excesso de esfagno.",
-        montanhaFrio: "Excelente adaptação. Proteja apenas contra geadas e excesso de água no inverno; as noites naturalmente frescas favorecem a indução floral."
+        litoralQuente: { nota: 3, texto: "Adapta-se bem em Litoral de clima quente quando cultivada no ponto mais fresco, claro e ventilado. Evite calor parado, vaso grande e excesso de esfagno." },
+        montanhaFrio: { nota: 5, texto: "Proteja apenas contra geadas e excesso de água no inverno; as noites naturalmente frescas favorecem a indução floral." }
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {

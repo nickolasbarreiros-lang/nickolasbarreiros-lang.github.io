@@ -39,8 +39,8 @@ export const maxillariaChrysantha = {
     errosComuns: "Replantar fora do início de novas raízes; enterrar o rizoma; cobrir hastes basais; usar vaso grande; manter detritos deteriorados bloqueando botões; cultivar em calor noturno abafado; usar substrato saturado ou degradado; regar demais em períodos frios; dividir a touceira em porções pequenas; aplicar adubo concentrado.",
     dica: "Replante somente quando novas pontas radiculares estiverem surgindo. Preserve o máximo possível das raízes firmes e deixe a base dos pseudobulbos livre, pois é dali que saem as hastes. Para florir bem no litoral, concentre seus esforços em noites mais frescas, ventilação e baixa retenção de calor no vaso, em vez de provocar seca artificial.",
     adaptacaoRegional: {
-        litoralQuente: "Cultivo mais exigente. Use o ponto mais fresco e ventilado do orquidário, vaso pequeno e mistura muito arejada. O principal limitante é o calor noturno constante, especialmente no verão.",
-        montanhaFrio: "Excelente adaptação em regiões serranas. As noites amenas favorecem o ciclo e a floração; apenas evite geadas e substrato permanentemente molhado em períodos frios e nublados."
+        litoralQuente: { nota: 3, texto: "Cultivo mais exigente. Use o ponto mais fresco e ventilado do orquidário, vaso pequeno e mistura muito arejada. O principal limitante é o calor noturno constante, especialmente no verão." },
+        montanhaFrio: { nota: 5, texto: "Em regiões serranas. As noites amenas favorecem o ciclo e a floração; apenas evite geadas e substrato permanentemente molhado em períodos frios e nublados." }
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {

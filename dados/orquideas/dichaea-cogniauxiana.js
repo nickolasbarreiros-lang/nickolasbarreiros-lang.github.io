@@ -54,8 +54,8 @@ export const dichaeaCogniauxiana = {
     ],
     dica: "🏆 Dichaea cogniauxiana prefere umidade com ar em movimento. Mantenha as raízes hidratadas, mas extremamente arejadas. No litoral quente, uma montagem com pequena quantidade de esfagno e ventilação constante tende a reproduzir melhor essa combinação do que um vaso compacto e permanentemente molhado.",
     adaptacaoRegional: {
-        litoralQuente: "Adaptação moderada, cerca de 3/5. É possível cultivá-la com 70% a 80% de sombreamento, alta umidade atmosférica e ventilação contínua. No verão, evite sobretudo a combinação de calor noturno, raízes saturadas e ar parado.",
-        montanhaFrio: "Adaptação excelente, cerca de 5/5. Noites frescas, alta umidade e boa ventilação se aproximam melhor das condições montanas documentadas para a espécie. Proteja apenas de frio intenso e vento excessivamente seco."
+        litoralQuente: { nota: 3, texto: "É possível cultivá-la com 70% a 80% de sombreamento, alta umidade atmosférica e ventilação contínua. No verão, evite sobretudo a combinação de calor noturno, raízes saturadas e ar parado." },
+        montanhaFrio: { nota: 5, texto: "Noites frescas, alta umidade e boa ventilação se aproximam melhor das condições montanas documentadas para a espécie. Proteja apenas de frio intenso e vento excessivamente seco." }
     },
     mesesFloracao: [12, 1, 2, 3],
     "selosCultivo": {

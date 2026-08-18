@@ -42,8 +42,8 @@ export const laeliaCaulencens = {
     errosComuns: "• Substrato compacto.\n• Vaso grande e profundo.\n• Sombra excessiva e estiolamento.\n• Sol forte aquecendo pedra ou vaso.\n• Confundir rupícola com xerófita extrema.\n• Repouso seco exagerado.\n• Pouca ventilação no litoral.\n• Excesso de fertilizante e acúmulo de sais.",
     dica: "🏆 O melhor resultado vem de reproduzir a dinâmica de uma encosta rochosa: muita luz, água abundante quando a planta está ativa, drenagem imediata e ar retornando rapidamente às raízes. No litoral, prefira vaso baixo e claro ou barro bem ventilado e proteja o recipiente do sol forte da tarde.",
     adaptacaoRegional: {
-        litoralQuente: "Difícil a moderada, cerca de 2/5 de adaptação. O principal desafio é calor noturno combinado com umidade residual. Priorize o ponto mais ventilado e sem superfícies quentes ao redor.",
-        montanhaFrio: "Muito favorável, com alta luminosidade e boa ventilação. Proteja apenas de geadas e de longos períodos frios com vaso encharcado."
+        litoralQuente: { nota: 2, texto: "Difícil a moderada de adaptação. O principal desafio é calor noturno combinado com umidade residual. Priorize o ponto mais ventilado e sem superfícies quentes ao redor." },
+        montanhaFrio: { nota: 4, texto: "Com alta luminosidade e boa ventilação. Proteja apenas de geadas e de longos períodos frios com vaso encharcado." }
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {

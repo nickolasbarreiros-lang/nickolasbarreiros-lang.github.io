@@ -34,8 +34,8 @@ export const bulbophyllumRoxburghii = {
     errosComuns: "• Tratar B. sikkimense como espécie aceita separada sem explicar a taxonomia atual.\n• Cultivar como espécie alpina.\n• Impor repouso totalmente seco.\n• Manter sombra profunda.\n• Usar recipiente fundo e pouco ventilado.\n• Enterrar o rizoma.\n• Manter calor com substrato saturado e sem circulação.\n• Aplicar fertilizante concentrado.",
     dica: "🏆 A melhor leitura do habitat é simples: apesar do nome histórico sikkimense, trata-se de uma orquídea de contrafortes e vales baixos, não de alta montanha. No litoral quente, mantenha a planta sob 60% a 70% de sombra, com raízes úmidas e aeradas, e não tente induzir floração por frio ou seca severos.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente. A ecologia de baixa altitude é compatível com calor, desde que haja ventilação e drenagem rápida.",
-        montanhaFrio: "Boa, mas sem necessidade de frio intenso; proteja de geadas e de longos períodos frios com o meio encharcado."
+        litoralQuente: { nota: 5, texto: "A ecologia de baixa altitude é compatível com calor, desde que haja ventilação e drenagem rápida." },
+        montanhaFrio: { nota: 3, texto: "Mas sem necessidade de frio intenso; proteja de geadas e de longos períodos frios com o meio encharcado." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {

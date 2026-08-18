@@ -39,8 +39,8 @@ export const ornithophoraRadicans = {
     errosComuns: "Aplicar adubo químico concentrado; usar vaso grande; compactar esfagno; manter a touceira molhada durante toda a noite; cultivar sem circulação de ar; cortar raízes finas saudáveis; deixar o substrato secar completamente por longos períodos; impedir que as hastes pendam livremente; usar Osmocote em excesso ou encostado no rizoma.",
     dica: "Use adubação homeopática, lavagem mensal de sais e muito ar. A Gomesa radicans prefere pequenas quantidades de nutrientes de forma contínua a doses fortes de fertilizante. Aplique apenas 1/4 ou 1/6 da dose foliar, faça uma lavagem completa com água pura uma vez por mês e cultive, sempre que possível, montada em cortiça, madeira dura ou cachepô muito ventilado. Para esta espécie, boa circulação de ar é mais importante do que simplesmente aumentar a quantidade de água.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação ao litoral quente quando cultivada em meia-sombra clara, posição elevada e ventilação constante. Como há registros naturais próximos da costa em torno de 400 m, o problema maior não é o calor em si, e sim calor abafado somado a raízes permanentemente molhadas.",
-        montanhaFrio: "Desenvolve-se com vigor em clima intermediário e serrano. Proteja de geadas, reduza a rega quando o frio diminuir a atividade radicular e evite noites frias com a touceira encharcada."
+        litoralQuente: { nota: 5, texto: "Ao litoral quente quando cultivada em meia-sombra clara, posição elevada e ventilação constante. Como há registros naturais próximos da costa em torno de 400 m, o problema maior não é o calor em si, e sim calor abafado somado a raízes permanentemente molhadas." },
+        montanhaFrio: { nota: 3, texto: "Desenvolve-se com vigor em clima intermediário e serrano. Proteja de geadas, reduza a rega quando o frio diminuir a atividade radicular e evite noites frias com a touceira encharcada." }
     },
     mesesFloracao: [12, 1, 2, 3, 4, 5],
     "selosCultivo": {

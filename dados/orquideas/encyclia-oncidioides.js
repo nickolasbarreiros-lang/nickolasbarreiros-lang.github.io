@@ -34,8 +34,8 @@ export const encycliaOncidioides = {
     errosComuns: "Usar vaso grande ou profundo; cultivar em sombra excessiva; manter raízes constantemente molhadas; usar substrato fino, velho ou compactado; enterrar o rizoma; cortar hastes ainda verdes; aplicar excesso de nitrogênio após a maturação; seguir um número fixo de dias sem água; tratar o inverno como dormência seca rigorosa.",
     dica: "Priorize luz alta filtrada e raízes muito arejadas. A ocorrência natural desde o nível do mar até cerca de 750 m explica por que ela pode ir muito bem no litoral quente: o ponto decisivo é evitar abafamento e substrato constantemente molhado, não tentar produzir frio artificial.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação em Litoral de clima quente. Use mistura muito drenante, ventilação constante e regas pela manhã, protegendo do sol forte da tarde e de chuvas contínuas quando o crescimento estiver maduro.",
-        montanhaFrio: "Boa adaptação. Mantenha luminosidade alta, proteja contra geadas e reduza proporcionalmente as regas em períodos frios, chuvosos ou de baixa evaporação."
+        litoralQuente: { nota: 5, texto: "Em Litoral de clima quente. Use mistura muito drenante, ventilação constante e regas pela manhã, protegendo do sol forte da tarde e de chuvas contínuas quando o crescimento estiver maduro." },
+        montanhaFrio: { nota: 3, texto: "Mantenha luminosidade alta, proteja contra geadas e reduza proporcionalmente as regas em períodos frios, chuvosos ou de baixa evaporação." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
     "selosCultivo": {

@@ -39,8 +39,8 @@ export const jacquiniellaGlobosa = {
     errosComuns: "Expor ao sol direto forte; cultivar em sombra profunda; manter ar parado; usar vaso profundo; compactar esfagno; enterrar a base dos caules; deixar o suporte sempre molhado; submeter a seca prolongada; adubar em concentração alta; confundir necessidade de rega frequente com encharcamento constante.",
     dica: "🏆 Trate-a como uma miniatura que gosta de água com ar. Em placa de cortiça, galho rugoso ou cesto muito aberto, regue com frequência no calor, mas permita rápida oxigenação depois. Como a espécie ocorre de cerca de 200 a 2.400 m, ajuste a frequência de rega e a proteção térmica à procedência e ao microclima, em vez de aplicar uma regra única de temperatura.",
     adaptacaoRegional: {
-        litoralQuente: "Muito boa em litoral quente quando montada em local ventilado, com luz filtrada clara e regas frequentes pela manhã. Reduza o esfagno se o ambiente já for úmido.",
-        montanhaFrio: "Boa adaptação. Proteja de geadas e aumente o intervalo entre regas em semanas frias e nubladas, sem deixar as folhas murcharem por longos períodos."
+        litoralQuente: { nota: 4, texto: "Muito boa em litoral quente quando montada em local ventilado, com luz filtrada clara e regas frequentes pela manhã. Reduza o esfagno se o ambiente já for úmido." },
+        montanhaFrio: { nota: 3, texto: "Proteja de geadas e aumente o intervalo entre regas em semanas frias e nubladas, sem deixar as folhas murcharem por longos períodos." }
     },
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     "selosCultivo": {

@@ -34,8 +34,8 @@ export const stanhopeaAssidensis = {
     errosComuns: "Usar vaso fechado; bloquear o fundo da cesta; compactar o esfagno; deixar o substrato secar completamente durante o crescimento; manter a planta em ambiente abafado; expor ao sol forte; regar em excesso no inverno; replantar durante a formação de hastes florais.",
     dica: "O recipiente é o fator decisivo: mantenha a planta em cesto suspenso e confira regularmente a parte inferior. Uma haste floral pode se perder se encontrar madeira, tela apertada ou substrato compactado no caminho.",
     adaptacaoRegional: {
-        litoralQuente: "Cultive em sombra clara, cesta suspensa e local com circulação permanente de ar. Regue preferencialmente pela manhã, evitando encharcamento prolongado e água acumulada em brotos ou flores no fim do dia.",
-        montanhaFrio: "Em regiões mais frescas, proteja de frio intenso e reduza as regas nos períodos de menor atividade, sem deixar os pseudobulbos desidratarem em excesso."
+        litoralQuente: { nota: 3, texto: "Cultive em sombra clara, cesta suspensa e local com circulação permanente de ar. Regue preferencialmente pela manhã, evitando encharcamento prolongado e água acumulada em brotos ou flores no fim do dia." },
+        montanhaFrio: { nota: 3, texto: "Em regiões mais frescas, proteja de frio intenso e reduza as regas nos períodos de menor atividade, sem deixar os pseudobulbos desidratarem em excesso." }
     },
     "mesesFloracao": [
         9,

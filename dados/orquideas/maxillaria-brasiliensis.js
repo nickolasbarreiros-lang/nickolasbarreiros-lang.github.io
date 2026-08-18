@@ -39,8 +39,8 @@ export const maxillariaBrasiliensis = {
     errosComuns: "Manter substrato constantemente encharcado; esperar a mistura virar farelo; usar vaso grande; dividir a touceira em porções pequenas; enterrar o rizoma; cultivar com pouca luz ou ventilação; aplicar excesso de nitrogênio; fertilizar raízes secas; deixar acumular sais; impor seca prolongada.",
     dica: "Preserve a touceira e priorize a saúde das raízes. A espécie prefere vasos relativamente justos, que secam de forma mais uniforme e evitam excesso de umidade ao redor das raízes. Replante somente no início da emissão de novas raízes, mantendo o rizoma sobre a superfície e escolhendo um recipiente apenas 2–4 cm maior que o volume atual da planta. Evite vasos superdimensionados, divisões frequentes e replantes desnecessários: esta espécie responde melhor à estabilidade e ao desenvolvimento de uma touceira bem estabelecida.",
     adaptacaoRegional: {
-        litoralQuente: "Boa adaptação ao litoral quente quando cultivada com ventilação constante, vaso justo e substrato estrutural. Regue cedo e evite retenção prolongada no centro do vaso.",
-        montanhaFrio: "Muito boa adaptação em regiões serranas. Em semanas frias e úmidas, aumente o intervalo entre regas, mantendo circulação de ar e sem impor seca prolongada."
+        litoralQuente: { nota: 3, texto: "Ao litoral quente quando cultivada com ventilação constante, vaso justo e substrato estrutural. Regue cedo e evite retenção prolongada no centro do vaso." },
+        montanhaFrio: { nota: 4, texto: "Em regiões serranas. Em semanas frias e úmidas, aumente o intervalo entre regas, mantendo circulação de ar e sem impor seca prolongada." }
     },
     mesesFloracao: [3, 4, 5],
     "selosCultivo": {

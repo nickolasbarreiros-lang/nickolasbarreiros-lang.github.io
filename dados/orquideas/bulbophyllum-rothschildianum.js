@@ -34,8 +34,8 @@ export const bulbophyllumRothschildianum = {
     errosComuns: "• Exibir vários sinônimos no campo resumido.\n• Tratar a espécie como obrigatoriamente fria.\n• Deixar o substrato secar por vários dias.\n• Compactar esfagno.\n• Usar vaso estreito para rizoma rastejante.\n• Manter calor e umidade em ambiente abafado.\n• Expor ao sol forte direto.\n• Fertilizar em concentração elevada.",
     dica: "🏆 A umbela larga e as sépalas de até cerca de 17 cm precisam de espaço livre para se desenvolver sem encostar no recipiente. Use cesto largo, deixe a nova frente voltada para fora e mantenha ventilação constante. No litoral quente, a prioridade não é produzir frio, e sim evitar noites excessivamente abafadas e raízes saturadas.",
     adaptacaoRegional: {
-        litoralQuente: "Boa. É possível cultivar bem, mas noites muito quentes exigem ventilação constante, sombra clara e drenagem rápida.",
-        montanhaFrio: "Muito boa, especialmente com noites amenas; proteja apenas de geada e de encharcamento sob frio prolongado."
+        litoralQuente: { nota: 3, texto: "É possível cultivar bem, mas noites muito quentes exigem ventilação constante, sombra clara e drenagem rápida." },
+        montanhaFrio: { nota: 4, texto: "Especialmente com noites amenas; proteja apenas de geada e de encharcamento sob frio prolongado." }
     },
     mesesFloracao: [3, 4, 5, 9, 10, 11],
     "selosCultivo": {

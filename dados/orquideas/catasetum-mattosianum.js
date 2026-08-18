@@ -40,8 +40,8 @@ export const catasetumMattosianum = {
     errosComuns: "• Encharcar o broto antes de as raízes novas estarem funcionais.\n• Replantar quando as raízes novas já estão longas e frágeis.\n• Economizar água durante o crescimento vigoroso.\n• Continuar regando normalmente após a queda das folhas.\n• Adubar durante dormência.\n• Remover pseudobulbos traseiros saudáveis, que funcionam como reserva.\n• Usar substrato velho e compacto.\n• Tentar forçar flores femininas com excesso de sol.",
     dica: "🏆Faça o replante no início da brotação, logo após a planta sair da dormência e antes que as novas raízes fiquem compridas. Após o replante, mantenha o vaso relativamente seco até que várias raízes atinjam de 5 a 8 cm de comprimento. Em seguida, aumente a rega para manter a umidade, porem sem encharcar o broto e adote uma adubação leve e frequente, e garanta boa iluminação e ventilação. Com a queda das folhas, suspenda a adubação e deixe o vaso predominantemente seco. Lembre-se de preservar os pseudobulbos antigos saudáveis, pois eles nutrem a próxima brotação.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente. O calor favorece o crescimento ativo; o principal cuidado é proteger a planta desfolhada de chuvas repetidas durante o período de dormência.",
-        montanhaFrio: "Boa adaptação se protegida de frio excessivo e geadas. Durante dormência fria, mantenha o vaso ainda mais seco."
+        litoralQuente: { nota: 5, texto: "O calor favorece o crescimento ativo; o principal cuidado é proteger a planta desfolhada de chuvas repetidas durante o período de dormência." },
+        montanhaFrio: { nota: 3, texto: "Se protegida de frio excessivo e geadas. Durante dormência fria, mantenha o vaso ainda mais seco." }
     },
     mesesFloracao: [12, 1, 2, 3],
     "selosCultivo": {

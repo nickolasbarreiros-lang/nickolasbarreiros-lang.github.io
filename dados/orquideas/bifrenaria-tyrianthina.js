@@ -42,8 +42,8 @@ export const bifrenariaTyrianthina = {
     errosComuns: "• Manter Bifrenaria verboonenii como espécie aceita independente.\n• Cultivar em local quente e abafado.\n• Tratar a planta como rupícola obrigatoriamente mineral.\n• Secar excessivamente durante crescimento ativo.\n• Impor repouso totalmente seco por meses.\n• Replantar sem raízes novas começando a surgir.\n• Usar substrato compacto.\n• Permitir sol forte aquecendo vaso e raízes.",
     dica: "🏆 No litoral, preocupe-se mais com a temperatura das raízes do que com reproduzir uma fenda de rocha. Use vaso de barro ou cachepô ventilado com casca grossa, pedra-pomes e carvão. Regue bem no crescimento e aumente os intervalos no inverno. Replante quando o novo crescimento começar a emitir as primeiras pontas de raízes. Em Litoral de clima quente, mantenha a planta no ponto mais fresco e ventilado do orquidário.",
     adaptacaoRegional: {
-        litoralQuente: "Difícil, 2/5. Noites quentes persistentes são o principal gargalo. Evite telhados, paredes quentes e recipientes que acumulem calor.",
-        montanhaFrio: "Excelente. Noites frescas e inverno mais seco reproduzem muito melhor as condições naturais."
+        litoralQuente: { nota: 2, texto: "Difícil Noites quentes persistentes são o principal gargalo. Evite telhados, paredes quentes e recipientes que acumulem calor." },
+        montanhaFrio: { nota: 5, texto: "Noites frescas e inverno mais seco reproduzem muito melhor as condições naturais." }
     },
     mesesFloracao: [9, 10, 11, 12],
     "selosCultivo": {

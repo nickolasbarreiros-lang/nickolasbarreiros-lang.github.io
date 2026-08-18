@@ -39,8 +39,8 @@ export const lockhartiaLunifera = {
     errosComuns: "Cortar caules verdes após a floração; cultivar em sombra excessiva; deixar água retida nas bainhas durante a noite; impor seca prolongada; manter raízes continuamente saturadas; usar vaso profundo; aplicar adubo concentrado; permitir acúmulo de sais; cultivar em ambiente abafado.",
     dica: "Preserve todos os caules enquanto estiverem verdes e dê preferência ao cultivo inclinado ou pendente. Essa posição acompanha o crescimento natural, melhora o escoamento da água entre as folhas e expõe melhor as flores. A combinação de umidade regular, secagem superficial rápida e ventilação contínua é mais importante do que qualquer calendário rígido de rega.",
     adaptacaoRegional: {
-        litoralQuente: "Boa adaptação ao litoral quente quando montada ou cultivada em cesto, com sombra clara e ventilação constante. Evite calor abafado, regas noturnas e esfagno em excesso.",
-        montanhaFrio: "Boa adaptação em regiões serranas, desde que protegida de frio intenso e geadas. Ajuste a rega à menor evaporação e mantenha as bainhas secas durante noites frias."
+        litoralQuente: { nota: 3, texto: "Ao litoral quente quando montada ou cultivada em cesto, com sombra clara e ventilação constante. Evite calor abafado, regas noturnas e esfagno em excesso." },
+        montanhaFrio: { nota: 3, texto: "Em regiões serranas, desde que protegida de frio intenso e geadas. Ajuste a rega à menor evaporação e mantenha as bainhas secas durante noites frias." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {

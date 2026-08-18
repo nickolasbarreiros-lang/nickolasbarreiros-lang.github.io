@@ -40,8 +40,8 @@ export const laeliaPraestans = {
     errosComuns: "Sombra excessiva; sol forte do litoral sem aclimatação; substrato compactado; excesso constante de água; deixar secar demais durante crescimento ativo; vaso grande; enterrar o rizoma; replantar fora da emissão de raízes novas; excesso de fertilizante; dividir touceiras pequenas; compensar calor aumentando indiscriminadamente as regas.",
     dica: "O segredo é equilibrar umidade ambiental com muita aeração nas raízes. Em clima quente, melhore primeiro ventilação e sombreamento antes de aumentar a água. Uma planta com pseudobulbos firmes, folhas compactas e raízes ativas costuma responder com flores grandes na primavera.",
     adaptacaoRegional: {
-        litoralQuente: "Adaptação moderada a boa. Use sombra luminosa, ventilação constante, umidade atmosférica adequada e raízes muito aeradas. No verão, mantenha-a no ponto mais fresco do orquidário e evite substrato quente e saturado à noite.",
-        montanhaFrio: "Excelente resposta em clima intermediário de altitude. Proteja de geadas e de longos períodos de frio úmido com substrato saturado."
+        litoralQuente: { nota: 3, texto: "Use sombra luminosa, ventilação constante, umidade atmosférica adequada e raízes muito aeradas. No verão, mantenha-a no ponto mais fresco do orquidário e evite substrato quente e saturado à noite." },
+        montanhaFrio: { nota: 3, texto: "Excelente resposta em clima intermediário de altitude. Proteja de geadas e de longos períodos de frio úmido com substrato saturado." }
     },
     mesesFloracao: [9, 10, 11],
     "selosCultivo": {

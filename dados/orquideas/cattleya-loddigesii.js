@@ -40,8 +40,8 @@ export const cattleyaLoddigesii = {
     errosComuns: "Cultivar sob sombra excessiva; secar demais durante crescimento ativo; manter substrato velho, compactado ou constantemente molhado; usar vaso muito grande; enterrar o rizoma; replantar sem novas raízes em emissão; quebrar raízes novas durante o replante; dividir touceiras pequenas; aplicar fertilizante em excesso.",
     dica: "Replante apenas quando as primeiras pontas de raízes novas surgirem na base do crescimento mais recente. Esse é o momento em que a planta coloniza rapidamente o novo recipiente. Evite dividir apenas para organizar a touceira: várias frentes significam mais reservas, mais raízes e vários pseudobulbos capazes de florir simultaneamente.",
     adaptacaoRegional: {
-        litoralQuente: "Adapta-se muito bem à Litoral de clima quente. Mantenha luminosidade alta filtrada, substrato aberto e ventilação constante. No verão, uma planta em vaso muito aerado pode exigir bastante água; no inverno, ajuste a frequência pela secagem real, não apenas pelo calendário.",
-        montanhaFrio: "Desenvolve-se muito bem com noites frescas. Mantenha boa claridade, reduza as regas durante sequências frias e úmidas e proteja apenas contra geadas diretas."
+        litoralQuente: { nota: 3, texto: "Adapta-se muito bem à Litoral de clima quente. Mantenha luminosidade alta filtrada, substrato aberto e ventilação constante. No verão, uma planta em vaso muito aerado pode exigir bastante água; no inverno, ajuste a frequência pela secagem real, não apenas pelo calendário." },
+        montanhaFrio: { nota: 3, texto: "Desenvolve-se muito bem com noites frescas. Mantenha boa claridade, reduza as regas durante sequências frias e úmidas e proteja apenas contra geadas diretas." }
     },
     mesesFloracao: [6, 7, 8, 9, 10],
     "selosCultivo": {

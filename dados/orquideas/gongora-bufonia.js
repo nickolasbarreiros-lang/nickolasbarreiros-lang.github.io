@@ -34,8 +34,8 @@ export const gongoraBufonia = {
     errosComuns: "Cultivar em vaso fechado; bloquear o fundo do cesto; usar substrato fino ou compactado; deixar secar completamente durante o crescimento; impor repouso seco; manter calor abafado; expor ao sol forte; adubar em excesso; dividir a touceira em fragmentos pequenos; apoiar o cesto onde as hastes pendentes não tenham passagem.",
     dica: "Pense primeiro na haste floral e depois no vaso. A inflorescência nasce na base e precisa cair livremente; por isso o cesto suspenso, vazado e sem obstáculos é parte do cultivo, não apenas uma escolha estética. Combine esse espaço livre com raízes úmidas e oxigenadas, e a espécie responde com hastes longas e floradas muito mais consistentes.",
     adaptacaoRegional: {
-        litoralQuente: "Muito boa. Cultive em sombra clara, com cesto suspenso, ventilação constante e material que nunca permaneça quente e saturado. No verão, prefira regas matinais e alta circulação de ar.",
-        montanhaFrio: "Boa. Aproveite a umidade e noites amenas, reduzindo a frequência das regas apenas quando a evaporação cair. Proteja contra frio excessivo e geadas."
+        litoralQuente: { nota: 4, texto: "Cultive em sombra clara, com cesto suspenso, ventilação constante e material que nunca permaneça quente e saturado. No verão, prefira regas matinais e alta circulação de ar." },
+        montanhaFrio: { nota: 3, texto: "Aproveite a umidade e noites amenas, reduzindo a frequência das regas apenas quando a evaporação cair. Proteja contra frio excessivo e geadas." }
     },
     mesesFloracao: [8, 9, 10, 11, 12],
     "selosCultivo": {

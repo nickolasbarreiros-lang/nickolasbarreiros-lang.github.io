@@ -33,8 +33,8 @@ export const isabeliaVirginalis = {
     errosComuns: "Remover as bainhas fibrosas; enterrar o rizoma; compactar esfagno ao redor da planta; cultivar em sombra profunda; manter a colônia permanentemente molhada; deixar secar por muitos dias; usar vaso grande e profundo; adubar forte; dividir em pedaços pequenos; manter ambiente abafado.",
     dica: "Preserve a colônia inteira e deixe-a caminhar pelo suporte. Quanto menos você interfere na trama fibrosa e no rizoma rastejante, melhor. Uma placa durável, boa luz e ciclos rápidos de molhamento e secagem produzem uma touceira muito mais bonita do que o cultivo apertado em vaso convencional.",
     adaptacaoRegional: {
-        litoralQuente: "Boa, desde que montada ou em recipiente muito raso e ventilado. Dê luz forte filtrada, regas frequentes no verão e secagem rápida entre elas.",
-        montanhaFrio: "Excelente. As noites amenas favorecem a espécie; apenas evite geadas e longos períodos de umidade fria sem ventilação."
+        litoralQuente: { nota: 3, texto: "Desde que montada ou em recipiente muito raso e ventilado. Dê luz forte filtrada, regas frequentes no verão e secagem rápida entre elas." },
+        montanhaFrio: { nota: 5, texto: "As noites amenas favorecem a espécie; apenas evite geadas e longos períodos de umidade fria sem ventilação." }
     },
     mesesFloracao: [5, 6, 7, 8],
     "selosCultivo": {

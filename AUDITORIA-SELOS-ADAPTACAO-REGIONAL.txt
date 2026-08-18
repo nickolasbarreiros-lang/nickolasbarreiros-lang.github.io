@@ -1,0 +1,20 @@
+REVISÃO GLOBAL — SELOS DE ADAPTAÇÃO REGIONAL
+
+Valores regionais convertidos: 166
+Objetos com nota/texto encontrados: 166
+Resíduos do formato x/5 no texto regional: 0
+Renderizador atualizado: OK
+CSS do selo: OK
+index.js preservado: OK
+
+DISTRIBUIÇÃO DOS SELOS:
+5 estrelas: 40
+4 estrelas: 33
+3 estrelas: 87
+2 estrelas: 4
+1 estrelas: 2
+
+REGRA VISUAL:
+- A nota não aparece mais em formato 4/5, 5/5 etc. dentro do parágrafo.
+- O nível de adaptação é mostrado somente pelo selo de estrelas.
+- O texto permanece dedicado às orientações práticas de cultivo regional.

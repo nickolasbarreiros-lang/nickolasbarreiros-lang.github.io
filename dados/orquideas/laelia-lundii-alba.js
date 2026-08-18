@@ -40,8 +40,8 @@ export const laeliaLundiiAlba = {
     errosComuns: "Dividir touceiras pequenas; cultivar em sombra excessiva por ser uma forma alba; expor ao sol forte direto; usar esfagno compactado; escolher vaso grande; manter raízes sempre molhadas; impor repouso seco exagerado; deixar a planta frouxa no suporte; adubar em excesso.",
     dica: "Preserve a planta em touceira. Quanto mais frentes ativas ela acumular, maior será o sistema radicular e a chance de uma floração mais cheia. Em litoral quente, prefira montagem, circulação de ar constante e bastante luz filtrada.",
     adaptacaoRegional: {
-        litoralQuente: "Boa adaptação quando montada, ventilada e protegida do sol forte da tarde. Regue conforme a secagem e reduza no inverno apenas de acordo com a atividade da planta.",
-        montanhaFrio: "Excelente resposta às noites frescas. Mantenha boa luz e reduza a água em períodos frios e úmidos, evitando geadas."
+        litoralQuente: { nota: 3, texto: "Quando montada, ventilada e protegida do sol forte da tarde. Regue conforme a secagem e reduza no inverno apenas de acordo com a atividade da planta." },
+        montanhaFrio: { nota: 3, texto: "Excelente resposta às noites frescas. Mantenha boa luz e reduza a água em períodos frios e úmidos, evitando geadas." }
     },
     mesesFloracao: [7, 8, 9, 10],
     "selosCultivo": {

@@ -6457,3 +6457,61 @@ main.container{
         font-size: 11px;
     }
 }
+
+
+/* === SELOS DE ADAPTAÇÃO REGIONAL V3 === */
+.cabecalho-adaptacao-item-v3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.cabecalho-adaptacao-item-v3 h4 {
+    margin: 0;
+}
+
+.selo-adaptacao-regional-v3 {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 5px 9px;
+    border: 1px solid #d8b258;
+    border-radius: 999px;
+    background: linear-gradient(180deg, #fff9e8 0%, #fff3c9 100%);
+    box-shadow: 0 2px 8px rgba(130, 94, 19, 0.08);
+    white-space: nowrap;
+}
+
+.selo-adaptacao-rotulo-v3 {
+    color: #5c4922;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.selo-adaptacao-estrelas-v3 {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.estrelas-preenchidas-v3 {
+    color: #d59a00;
+}
+
+.estrelas-vazias-v3 {
+    color: #c8c1aa;
+}
+
+@media (max-width: 700px) {
+    .cabecalho-adaptacao-item-v3 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 7px;
+    }
+}

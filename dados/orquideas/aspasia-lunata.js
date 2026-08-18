@@ -39,8 +39,8 @@ export const aspasiaLunata = {
     errosComuns: "Cultivar em sombra profunda; expor ao sol direto forte; manter o substrato permanentemente encharcado; usar mistura fina e compactada; usar vaso desproporcionalmente grande; dividir a touceira em porções muito pequenas; deixar os pseudobulbos enrugarem durante o crescimento ativo; impor repouso seco severo sem necessidade.",
     dica: "Evite dividir Aspasia lunata em mudas muito pequenas. Preserve ao menos três a quatro pseudobulbos adultos por divisão para manter reservas suficientes, recuperação rápida e maior capacidade de produzir hastes florais robustas. Mais importante que 'apertar' a planta é oferecer um vaso proporcional, muita aeração e boa luminosidade filtrada.",
     adaptacaoRegional: {
-        litoralQuente: "Adapta-se bem quando recebe ventilação forte, luz filtrada e substrato de secagem rápida. Em Litoral de clima quente, evite calor abafado, sol forte da tarde e excesso de água durante períodos nublados.",
-        montanhaFrio: "Tolera noites frescas e pode florescer muito bem. Reduza a frequência das regas nos períodos frios, mas proteja de geadas e de substrato saturado por muitos dias."
+        litoralQuente: { nota: 3, texto: "Adapta-se bem quando recebe ventilação forte, luz filtrada e substrato de secagem rápida. Em Litoral de clima quente, evite calor abafado, sol forte da tarde e excesso de água durante períodos nublados." },
+        montanhaFrio: { nota: 3, texto: "Tolera noites frescas e pode florescer muito bem. Reduza a frequência das regas nos períodos frios, mas proteja de geadas e de substrato saturado por muitos dias." }
     },
     mesesFloracao: [9, 10, 11],
     "selosCultivo": {

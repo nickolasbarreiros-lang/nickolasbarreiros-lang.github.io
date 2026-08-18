@@ -41,8 +41,8 @@ export const laeliaCinnabarina = {
     errosComuns: "• Sombra excessiva e pseudobulbos estiolados.\n• Vaso ou pedra superaquecendo sob sol forte.\n• Substrato fino, compacto ou permanentemente molhado.\n• Confundir hábito rupícola com ausência de necessidade hídrica.\n• Repouso seco exagerado.\n• Vaso profundo e fechado, com centro quente e úmido.\n• Adubação concentrada e salinização.\n• Pouca ventilação no verão litorâneo.",
     dica: "🏆 Dê muita luz sem cozinhar as raízes. Um vaso baixo, muito aerado e predominantemente mineral funciona bem, mas deve ficar protegido do sol forte que aquece pedra e barro. Durante o crescimento, regue de verdade; depois, reduza gradualmente conforme a planta desacelera.",
     adaptacaoRegional: {
-        litoralQuente: "Adaptação moderada, cerca de 3/5. Cultive no ponto mais claro, fresco e ventilado disponível, evitando telhados, paredes e pedras que acumulem calor.",
-        montanhaFrio: "Muito favorável em locais luminosos e ventilados. Proteja de geadas fortes e reduza regas quando frio e umidade prolongarem a secagem."
+        litoralQuente: { nota: 3, texto: "Cultive no ponto mais claro, fresco e ventilado disponível, evitando telhados, paredes e pedras que acumulem calor." },
+        montanhaFrio: { nota: 4, texto: "Em locais luminosos e ventilados. Proteja de geadas fortes e reduza regas quando frio e umidade prolongarem a secagem." }
     },
     mesesFloracao: [10, 11, 12, 1, 2],
     "selosCultivo": {

@@ -39,8 +39,8 @@ export const maxillariaLeucaimata = {
     errosComuns: "Usar vaso grande; enterrar o rizoma ou base dos brotos; manter substrato velho, triturado ou permanentemente saturado; cultivar em sombra profunda; impor seca prolongada; adubar em concentração alta; não fazer lavagem periódica; replantar fora do início do enraizamento.",
     dica: "Observe o tempo de secagem real do vaso. A espécie gosta de receber bastante água quando regada, mas também precisa recuperar rapidamente o oxigênio em torno das raízes. Se a mistura continua molhada por muitos dias, corrija o vaso, a granulometria ou a ventilação em vez de simplesmente reduzir o volume de água aplicado.",
     adaptacaoRegional: {
-        litoralQuente: "Boa adaptação ao litoral quente. Use 60% a 70% de sombra, vaso justo, mistura predominantemente mineral e ventilação contínua. Regue cedo e acompanhe a secagem real do vaso.",
-        montanhaFrio: "Excelente adaptação em regiões serranas. As noites frescas favorecem o ciclo; em semanas frias, nubladas ou chuvosas, aumente o intervalo entre regas sem deixar a planta desidratar."
+        litoralQuente: { nota: 3, texto: "Ao litoral quente. Use 60% a 70% de sombra, vaso justo, mistura predominantemente mineral e ventilação contínua. Regue cedo e acompanhe a secagem real do vaso." },
+        montanhaFrio: { nota: 5, texto: "Em regiões serranas. As noites frescas favorecem o ciclo; em semanas frias, nubladas ou chuvosas, aumente o intervalo entre regas sem deixar a planta desidratar." }
     },
     mesesFloracao: [12, 1, 2, 3, 4, 5],
     "selosCultivo": {

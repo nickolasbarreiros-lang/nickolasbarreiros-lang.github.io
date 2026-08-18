@@ -41,8 +41,8 @@ export const bryobiumHyacinthoides = {
     errosComuns: "• Dividir touceiras pequenas sem necessidade.\n• Compactar o substrato.\n• Deixar secar por muitos dias.\n• Manter vaso permanentemente saturado.\n• Pouca ventilação em clima quente.\n• Adubação concentrada.\n• Não lixiviar sais periodicamente.\n• Manter Eria hyacinthoides ou Pinalia hyacinthoides como nomes principais.",
     dica: "🏆 Deixe a touceira envelhecer. Exemplares estabelecidos acumulam mais pseudobulbos maduros e têm maior potencial para produzir várias inflorescências simultaneamente. Use recipiente que permita alguns anos de expansão, substrato levemente úmido e muito aerado e faça periodicamente uma rega profunda só com água limpa para remover sais. Em Litoral de clima quente, 60% a 70% de sombra, umidade regular e ventilação constante formam o melhor equilíbrio.",
     adaptacaoRegional: {
-        litoralQuente: "Boa, 4/5. O calor é tolerável; o risco maior é combinar alta umidade com pouca ventilação.",
-        montanhaFrio: "Boa adaptação em clima intermediário, protegendo de frio intenso e reduzindo água quando a evaporação cair."
+        litoralQuente: { nota: 4, texto: "Boa O calor é tolerável; o risco maior é combinar alta umidade com pouca ventilação." },
+        montanhaFrio: { nota: 3, texto: "Em clima intermediário, protegendo de frio intenso e reduzindo água quando a evaporação cair." }
     },
     mesesFloracao: [9, 10, 11],
     "selosCultivo": {

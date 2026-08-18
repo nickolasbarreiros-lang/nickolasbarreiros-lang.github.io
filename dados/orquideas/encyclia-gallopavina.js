@@ -43,8 +43,8 @@ export const encycliaGallopavina = {
     errosComuns: "Cultivar em sombra; vaso grande demais; substrato velho; raízes continuamente encharcadas; enterrar o rizoma; reduzir água cedo demais durante crescimento; excesso de nitrogênio após a maturação; replantar sem raízes novas; calor abafado com substrato molhado; impor seca rigorosa por longos períodos.",
     dica: "Espere o novo pseudobulbo terminar de crescer antes de diminuir discretamente a frequência das regas. O objetivo é marcar uma mudança de estação sem desidratar a planta. Em Litoral de clima quente, o melhor estímulo para florir costuma ser luz alta filtrada + pseudobulbo maduro + raízes bem aeradas, e não seca extrema.",
     adaptacaoRegional: {
-        litoralQuente: "Boa a excelente adaptação, desde que receba ventilação contínua, alta luminosidade filtrada e secagem rápida do substrato. Evite calor parado e noites com raízes saturadas.",
-        montanhaFrio: "Boa adaptação. Em períodos frios e nublados, reduza a frequência das regas para acompanhar a menor evaporação."
+        litoralQuente: { nota: 5, texto: "Desde que receba ventilação contínua, alta luminosidade filtrada e secagem rápida do substrato. Evite calor parado e noites com raízes saturadas." },
+        montanhaFrio: { nota: 3, texto: "Em períodos frios e nublados, reduza a frequência das regas para acompanhar a menor evaporação." }
     },
     mesesFloracao: [10, 11, 12, 1, 2],
     "selosCultivo": {

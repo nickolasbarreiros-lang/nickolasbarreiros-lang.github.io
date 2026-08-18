@@ -54,8 +54,8 @@ export const laeliaSplendida = {
     ],
     dica: "🏆 Se a planta cresce bem mas não floresce, investigue primeiro a luz. Laelia splendida precisa acumular bastante energia para sustentar suas hastes longas. No litoral quente, um local muito claro, ventilado e com raízes quase expostas costuma funcionar melhor que um vaso úmido e sombreado.",
     adaptacaoRegional: {
-        litoralQuente: "Muito boa, cerca de 4/5. Calor não costuma ser o principal problema; ofereça muita luz, circulação de ar e secagem relativamente rápida das raízes.",
-        montanhaFrio: "Boa, cerca de 4/5. Tolera noites mais frescas, mas deve ser protegida de frio intenso e de substrato frio e constantemente saturado."
+        litoralQuente: { nota: 4, texto: "Muito boa Calor não costuma ser o principal problema; ofereça muita luz, circulação de ar e secagem relativamente rápida das raízes." },
+        montanhaFrio: { nota: 4, texto: "Boa Tolera noites mais frescas, mas deve ser protegida de frio intenso e de substrato frio e constantemente saturado." }
     },
     mesesFloracao: [9, 10, 11, 12],
     "selosCultivo": {

@@ -54,8 +54,8 @@ export const miltoniaRusselliana = {
     ],
     dica: "🏆 Não tenha pressa em dividir a Miltonia russelliana. Touceiras com vários pseudobulbos armazenam mais energia e costumam produzir hastes mais fortes. No litoral quente, mantenha-a em local claro e muito ventilado, com o vaso apenas ligeiramente apertado.",
     adaptacaoRegional: {
-        litoralQuente: "Boa, cerca de 4/5. Tolera calor melhor que muitas Miltoniopsis, mas aprecia noites menos abafadas. Use luz filtrada, umidade regular e ventilação constante.",
-        montanhaFrio: "Muito boa, cerca de 5/5. Noites frescas favorecem vigor e floração, desde que as raízes não permaneçam frias e encharcadas por longos períodos."
+        litoralQuente: { nota: 4, texto: "Boa Tolera calor melhor que muitas Miltoniopsis, mas aprecia noites menos abafadas. Use luz filtrada, umidade regular e ventilação constante." },
+        montanhaFrio: { nota: 5, texto: "Muito boa Noites frescas favorecem vigor e floração, desde que as raízes não permaneçam frias e encharcadas por longos períodos." }
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {

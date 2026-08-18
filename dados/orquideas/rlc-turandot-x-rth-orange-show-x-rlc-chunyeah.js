@@ -41,8 +41,8 @@ export const rlcTurandotXOrangeShowXChunyeah = {
     errosComuns: "• Usar Brassocattleya Turandot como nomenclatura atual.\n• Chamar Orange Show de Rlc.; atualmente é Rth. Orange Show.\n• Tratar seedlings como clones uniformes.\n• Usar vaso grande demais.\n• Cultivar em sombra excessiva.\n• Manter encharcamento constante.\n• Usar fósforo muito alto para forçar floração.\n• Adubação concentrada.\n• Dividir plantas pequenas sem necessidade.",
     dica: "🏆 Se crescer forte e não florescer, examine primeiro a luz e a maturação do pseudobulbo. Use recipiente proporcional ao sistema radicular e substrato muito aberto. Durante crescimento, dê água e nutrição equilibrada; depois da maturação, apenas reduza gradualmente a frequência. Em Litoral de clima quente, cerca de 50% de sombra, ventilação constante e ciclos rápidos de molha-e-seca oferecem excelente desempenho. O objetivo é produzir pseudobulbo forte, folha firme e raízes ativas — não forçar botões com fósforo excessivo.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente, 5/5. Híbrido muito compatível com Litoral de clima quente quando há luz, ventilação e secagem adequada do vaso.",
-        montanhaFrio: "Boa. Proteja de frio intenso e reduza regas quando a evaporação cair."
+        litoralQuente: { nota: 5, texto: "Excelente Híbrido muito compatível com Litoral de clima quente quando há luz, ventilação e secagem adequada do vaso." },
+        montanhaFrio: { nota: 3, texto: "Proteja de frio intenso e reduza regas quando a evaporação cair." }
     },
     mesesFloracao: [3, 4, 5, 6, 7, 8, 9, 10],
     "selosCultivo": {

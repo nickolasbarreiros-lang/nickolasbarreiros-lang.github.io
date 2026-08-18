@@ -74,8 +74,8 @@ export const anathallisSclerophylla = {
         "Confundir alta umidade atmosférica com necessidade de água parada no substrato."
     ],
     adaptacaoRegional: {
-        litoral: "Adaptação moderada a boa, cerca de 3/5. A ampla distribuição mostra tolerância térmica considerável, mas no litoral quente é importante manter sombra clara, umidade atmosférica alta e ventilação constante. Noites muito quentes associadas a ar parado são o principal ponto de atenção.",
-        montanha: "Adaptação excelente, cerca de 5/5. Noites frescas, alta umidade e boa circulação de ar se aproximam bastante das condições montanas e de floresta nebulosa registradas para a espécie."
+        litoral: { nota: 3, texto: "A ampla distribuição mostra tolerância térmica considerável, mas no litoral quente é importante manter sombra clara, umidade atmosférica alta e ventilação constante. Noites muito quentes associadas a ar parado são o principal ponto de atenção." },
+        montanha: { nota: 5, texto: "Noites frescas, alta umidade e boa circulação de ar se aproximam bastante das condições montanas e de floresta nebulosa registradas para a espécie." }
     },
     dica: "🏆 O segredo é reproduzir uma floresta úmida sem transformar o vaso em um pântano: mantenha as raízes hidratadas, mas com ar circulando constantemente. Uma montagem com pequena quantidade de esfagno ou um vaso pequeno e muito aerado costuma funcionar melhor que recipientes profundos e compactos.",
 

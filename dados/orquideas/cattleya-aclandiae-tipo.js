@@ -41,8 +41,8 @@ export const cattleyaAclandiaeTipo = {
     errosComuns: "• Vaso grande ou fechado.\n• Esfagno compacto e raízes permanentemente úmidas.\n• Replantar fora do início de emissão de novas raízes.\n• Sombra excessiva.\n• Secar demais durante crescimento ativo.\n• Enterrar o rizoma.\n• Confundir pigmentação natural das folhas com doença.\n• Adubação concentrada.\n• Manter planta fria e molhada durante período de menor atividade.",
     dica: "🏆 Replante somente quando a planta estiver pronta para emitir raízes novas. Cattleya aclandiae adere fortemente ao suporte e reage mal a danos extensos em raízes antigas. Sempre que possível, mantenha-a montada em cortiça ou madeira rugosa por muitos anos. Se for necessário intervir, espere as primeiras pontas de raízes novas. No litoral quente, não tente cultivá-la 'seca' o tempo todo: dê bastante água durante atividade, mas faça essa água desaparecer rapidamente com ventilação e raízes expostas.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente. O calor e a sazonalidade são compatíveis com o habitat baiano; luz alta, ventilação e raízes livres são determinantes.",
-        montanhaFrio: "Possível, mas proteja de frio prolongado e de umidade noturna quando a secagem ficar lenta."
+        litoralQuente: { nota: 5, texto: "O calor e a sazonalidade são compatíveis com o habitat baiano; luz alta, ventilação e raízes livres são determinantes." },
+        montanhaFrio: { nota: 3, texto: "Possível, mas proteja de frio prolongado e de umidade noturna quando a secagem ficar lenta." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
     "selosCultivo": {

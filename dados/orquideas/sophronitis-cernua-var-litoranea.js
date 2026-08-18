@@ -42,8 +42,8 @@ export const sophronitisCernuaVarLitoranea = {
     errosComuns: "• Confundir alta umidade do ar com raízes permanentemente encharcadas.\n• Cultivar em vaso plástico fechado e abafado.\n• Usar massa compacta de esfagno.\n• Sombra excessiva.\n• Secar demais uma planta montada durante o verão.\n• Adubação concentrada em raízes pequenas.\n• Escolher o ponto mais alto apenas por altura, mesmo que seja mais quente.\n• Irrigar deliberadamente com água salobra por interpretar tolerância à maresia como necessidade de sal.",
     dica: "🏆 Pense em uma miniatura vivendo perto do mar: ar úmido ao redor, mas vento passando continuamente pelas raízes. Em Litoral de clima quente, prefira cultivo montado em cortiça, galho ou madeira, em local claro e com circulação constante. Durante o calor, regue sem medo quando a planta estiver secando rapidamente; o objetivo não é mantê-la seca, e sim alternar água e oxigênio nas raízes. Escolha o local realmente mais ventilado e sem superaquecimento, e use sempre água doce de boa qualidade.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente, 5/5. É uma das antigas Sophronitis mais compatíveis com o litoral quente. Ventilação, luminosidade e raízes livres são mais importantes que frio.",
-        montanhaFrio: "Desenvolve-se bem em clima intermediário, mas proteja de geadas e de longos períodos frios e encharcados. O ecótipo litorâneo não necessita frio intenso."
+        litoralQuente: { nota: 5, texto: "Excelente É uma das antigas Sophronitis mais compatíveis com o litoral quente. Ventilação, luminosidade e raízes livres são mais importantes que frio." },
+        montanhaFrio: { nota: 3, texto: "Desenvolve-se bem em clima intermediário, mas proteja de geadas e de longos períodos frios e encharcados. O ecótipo litorâneo não necessita frio intenso." }
     },
     mesesFloracao: [9, 10, 11],
     "selosCultivo": {

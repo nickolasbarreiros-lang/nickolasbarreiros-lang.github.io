@@ -39,8 +39,8 @@ export const brassavolaPerrini = {
     errosComuns: "Cultivar em sombra excessiva; Usar substratos finos, compactos ou com acúmulo de pó; Manter as raízes molhadas continuamente; Plantar em vasos grandes e fundos; Exagerar no uso de esfagno ou materiais de alta retenção hídrica; Dividir touceiras pequenas prematuramente; Aplicar adubo com alto teor de nitrogênio de forma contínua durante todo o ano.",
     dica: "Use as folhas como termômetro: o ponto certo de luz é aquele que deixa a folhagem cilíndrica ereta, rígida e em um tom verde-claro (quase amarelado). Se ela cresce muito mas não floresce, o segredo para forçar a floração é dar mais claridade — sem medo do sol direto matinal — e cortar o adubo rico em nitrogênio.",
     adaptacaoRegional: {
-        litoralQuente: "É muito bem adaptada ao calor, desde que receba ventilação e secagem rápida. O cultivo montado ou em cachepô aberto reduz o risco de podridão durante períodos chuvosos.",
-        montanhaFrio: "Tolera noites frescas, mas deve permanecer mais seca durante sequências frias. Proteja de geadas e mantenha alta luminosidade no inverno."
+        litoralQuente: { nota: 4, texto: "É muito bem adaptada ao calor, desde que receba ventilação e secagem rápida. O cultivo montado ou em cachepô aberto reduz o risco de podridão durante períodos chuvosos." },
+        montanhaFrio: { nota: 3, texto: "Tolera noites frescas, mas deve permanecer mais seca durante sequências frias. Proteja de geadas e mantenha alta luminosidade no inverno." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {

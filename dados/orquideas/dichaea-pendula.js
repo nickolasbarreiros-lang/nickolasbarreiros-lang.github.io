@@ -43,8 +43,8 @@ export const dichaeaPendula = {
     errosComuns: "Deixar secar completamente; cultivar em calor noturno abafado; baixa umidade do ar; água parada nas axilas; sol direto forte; esfagno velho e compacto; vaso profundo; excesso de adubo; regas noturnas frequentes; falta de espaço para as hastes pendentes.",
     dica: "Não interprete a necessidade de umidade como necessidade de encharcamento. Em litoral quente, a melhor combinação é suporte pequeno, umidade atmosférica alta, regas frequentes e muita circulação de ar. Se as hastes começarem a enrugar, aumente a frequência das regas; se houver manchas escuras e tecidos moles nas bainhas, aumente imediatamente a ventilação e reduza o tempo de molhamento.",
     adaptacaoRegional: {
-        litoralQuente: "Cultivo possível, porém mais exigente. Use o ponto mais fresco e ventilado do orquidário, com sombra clara e alta umidade. O calor noturno prolongado é o maior desafio.",
-        montanhaFrio: "Tende a adaptar-se muito bem a condições intermediárias e frescas, desde que não haja geada, vento seco ou secagem prolongada."
+        litoralQuente: { nota: 3, texto: "Cultivo possível, porém mais exigente. Use o ponto mais fresco e ventilado do orquidário, com sombra clara e alta umidade. O calor noturno prolongado é o maior desafio." },
+        montanhaFrio: { nota: 3, texto: "Tende a adaptar-se muito bem a condições intermediárias e frescas, desde que não haja geada, vento seco ou secagem prolongada." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
     "selosCultivo": {

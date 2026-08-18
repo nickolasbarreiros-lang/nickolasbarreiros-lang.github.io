@@ -41,8 +41,8 @@ export const bulbophyllumElassonotum = {
     errosComuns: "• Enterrar o rizoma.\n• Tratar toda procedência como espécie fria.\n• Compactar esfagno.\n• Usar vaso profundo com baixa aeração.\n• Deixar raízes secarem por vários dias.\n• Manter calor, umidade e ar parado ao mesmo tempo.\n• Cultivar em sombra profunda.\n• Forçar repouso seco por causa de habitats sazonais.\n• Adubação concentrada em raízes finas.",
     dica: "🏆 A amplitude altitudinal é a chave para interpretar esta espécie. Ela não exige uma temperatura única; exige equilíbrio entre procedência, umidade e ventilação. No litoral quente, use suporte raso, 60% a 70% de sombra e movimento de ar constante. Mantenha o rizoma sobre a superfície e deixe espaço para a raque pendente, especialmente quando a planta entra no período de floração de inverno.",
     adaptacaoRegional: {
-        litoralQuente: "Boa, cerca de 4/5, sobretudo para procedências de baixa altitude. Compense noites quentes com ventilação constante e meio muito arejado.",
-        montanhaFrio: "Boa a muito boa para procedências de altitude intermediária; evite frio intenso e substrato molhado por longos períodos em baixa evaporação."
+        litoralQuente: { nota: 4, texto: "Boa sobretudo para procedências de baixa altitude. Compense noites quentes com ventilação constante e meio muito arejado." },
+        montanhaFrio: { nota: 4, texto: "Boa a muito boa para procedências de altitude intermediária; evite frio intenso e substrato molhado por longos períodos em baixa evaporação." }
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {

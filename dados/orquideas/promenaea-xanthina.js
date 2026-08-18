@@ -54,8 +54,8 @@ export const promenaeaXanthina = {
     ],
     dica: "🏆 Promenaea xanthina gosta de raízes frescas e úmidas, não de um vaso encharcado. Use recipiente pequeno, mistura leve e bastante ventilação. No litoral quente, proteger a planta do calor acumulado à noite costuma ser mais importante do que aumentar a quantidade de água.",
     adaptacaoRegional: {
-        litoralQuente: "Adaptação moderada, cerca de 3/5. É cultivável com 70% a 80% de sombreamento, alta ventilação e substrato pequeno e aerado, mas noites muito quentes podem reduzir vigor e floração.",
-        montanhaFrio: "Adaptação excelente, cerca de 5/5. Noites frescas e alta umidade favorecem a espécie, desde que o substrato não permaneça frio e saturado."
+        litoralQuente: { nota: 3, texto: "É cultivável com 70% a 80% de sombreamento, alta ventilação e substrato pequeno e aerado, mas noites muito quentes podem reduzir vigor e floração." },
+        montanhaFrio: { nota: 5, texto: "Noites frescas e alta umidade favorecem a espécie, desde que o substrato não permaneça frio e saturado." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {

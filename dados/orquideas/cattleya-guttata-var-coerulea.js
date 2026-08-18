@@ -43,8 +43,8 @@ export const cattleyaGuttataVarCoerulea = {
     errosComuns: "• Planta balançando após o replantio, rompendo pontas radiculares novas.\n• Vaso leve que tomba com o peso dos pseudobulbos.\n• Sombra excessiva e crescimento estiolado.\n• Vaso enorme com núcleo constantemente úmido.\n• Substrato velho e decomposto.\n• Secar demais durante a formação de novos pseudobulbos.\n• Dividir clones valiosos em pedaços muito pequenos.\n• Replantar quando não há novas raízes em início de crescimento.\n• Adubação excessiva ou uso de fósforo muito concentrado.",
     dica: "🏆 Imobilize a base antes de pensar na floração. O grande porte transforma cada pseudobulbo em uma alavanca: vento ou esbarrões podem movimentar o rizoma e romper as pontas das raízes novas. Após o replantio, fixe firmemente rizoma e pseudobulbos principais com amarração macia ou revestida, sem estrangular os tecidos. Preserve divisões com pelo menos 4 a 5 pseudobulbos e, em clones coerulea valiosos, prefira touceiras ainda maiores. Faça o replantio quando as primeiras raízes novas começarem a aparecer.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação, 5/5. Litoral de clima quente combina calor e umidade atmosférica favoráveis à espécie; o principal cuidado é evitar substrato velho, centro encharcado e falta de ventilação em noites quentes.",
-        montanhaFrio: "Boa adaptação se houver muita luminosidade. Proteja de geadas e reduza as regas quando frio e umidade diminuírem a evaporação."
+        litoralQuente: { nota: 5, texto: "Litoral de clima quente combina calor e umidade atmosférica favoráveis à espécie; o principal cuidado é evitar substrato velho, centro encharcado e falta de ventilação em noites quentes." },
+        montanhaFrio: { nota: 3, texto: "Se houver muita luminosidade. Proteja de geadas e reduza as regas quando frio e umidade diminuírem a evaporação." }
     },
     mesesFloracao: [2, 3, 4, 5, 6],
     "selosCultivo": {

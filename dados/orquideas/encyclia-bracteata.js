@@ -43,8 +43,8 @@ export const encycliaBracteata = {
     errosComuns: "Sombra excessiva; vaso grande; substrato fino; raízes constantemente molhadas; enterrar o rizoma; replantar fora da emissão de raízes novas; excesso de fertilizante; interpretar baixa altitude como tolerância a abafamento; impor repouso totalmente seco por meses.",
     dica: "A espécie é pequena, mas quer bastante luz. No litoral quente, use vaso pequeno, mistura grossa e ventilação permanente. Regue com generosidade enquanto houver crescimento ativo e deixe o ar retornar rapidamente às raízes após cada rega.",
     adaptacaoRegional: {
-        litoralQuente: "Muito boa adaptação. Sua ocorrência em 10–500 m favorece o cultivo em clima quente, desde que haja ventilação, luz alta filtrada e secagem rápida das raízes.",
-        montanhaFrio: "Boa adaptação, reduzindo regas em períodos frios e nublados e protegendo de geada."
+        litoralQuente: { nota: 4, texto: "Sua ocorrência em 10–500 m favorece o cultivo em clima quente, desde que haja ventilação, luz alta filtrada e secagem rápida das raízes." },
+        montanhaFrio: { nota: 3, texto: "Reduzindo regas em períodos frios e nublados e protegendo de geada." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4],
     "selosCultivo": {

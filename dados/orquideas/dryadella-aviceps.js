@@ -43,8 +43,8 @@ export const dryadellaAviceps = {
     errosComuns: "Dividir touceiras pequenas; usar vaso grande; secar totalmente as raízes; manter esfagno velho e compacto; excesso de sais; sol direto; baixa ventilação; tratar a espécie como obrigatoriamente fria; encharcar durante noites quentes; adubação concentrada.",
     dica: "O melhor indicador de acerto é uma touceira compacta, firme e com raízes ativas. No litoral quente, não tente 'resfriar' a planta mantendo o vaso encharcado: ofereça sombra luminosa, ventilação contínua e umidade do ar, enquanto o substrato permanece pequeno e oxigenado.",
     adaptacaoRegional: {
-        litoralQuente: "Adaptação de moderada a boa, principalmente para plantas de procedência mais baixa. Cultive em local fresco e ventilado, longe de telhas e paredes quentes.",
-        montanhaFrio: "Adaptação muito boa em clima intermediário/fresco, protegendo apenas de geada e saturação prolongada do substrato."
+        litoralQuente: { nota: 3, texto: "Adaptação de moderada a boa, principalmente para plantas de procedência mais baixa. Cultive em local fresco e ventilado, longe de telhas e paredes quentes." },
+        montanhaFrio: { nota: 4, texto: "Adaptação muito boa em clima intermediário/fresco, protegendo apenas de geada e saturação prolongada do substrato." }
     },
     mesesFloracao: [6, 7, 8, 9, 10, 11, 12],
     "selosCultivo": {

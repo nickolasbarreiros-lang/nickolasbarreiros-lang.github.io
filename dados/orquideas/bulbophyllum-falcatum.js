@@ -42,8 +42,8 @@ export const bulbophyllumFalcatum = {
     errosComuns: "• Enterrar o rizoma.\n• Usar vaso estreito e profundo.\n• Bloquear a raque floral contra a borda do vaso.\n• Compactar esfagno.\n• Deixar substrato envelhecer e azedar.\n• Manter calor com ar parado.\n• Permitir ressecamento prolongado.\n• Forçar repouso seco.\n• Aplicar fertilizante concentrado sobre raízes superficiais.",
     dica: "🏆 Antes da floração, verifique se há espaço lateral livre. A raque achatada é a principal característica da espécie e pode ser deformada ou abortar se ficar presa entre vaso, parede ou outras plantas. No litoral quente, cesto raso, rizoma exposto, sombra clara, umidade regular e ventilação contínua formam a combinação mais segura.",
     adaptacaoRegional: {
-        litoralQuente: "Muito boa a boa. A espécie é predominantemente quente e ocorre em baixas altitudes, mas necessita ventilação forte para evitar superaquecimento e hipóxia radicular.",
-        montanhaFrio: "Boa em clima intermediário; proteja de frio intenso e reduza água apenas na medida em que a evaporação cair."
+        litoralQuente: { nota: 4, texto: "Muito boa a boa. A espécie é predominantemente quente e ocorre em baixas altitudes, mas necessita ventilação forte para evitar superaquecimento e hipóxia radicular." },
+        montanhaFrio: { nota: 3, texto: "Boa em clima intermediário; proteja de frio intenso e reduza água apenas na medida em que a evaporação cair." }
     },
     mesesFloracao: [6, 7, 8, 9, 10, 11],
     "selosCultivo": {

@@ -40,8 +40,8 @@ export const cattleyaABrazilianDream = {
     errosComuns: "• Enterrar rizoma e gemas de brotação.\n• Usar vaso superdimensionado.\n• Substrato fino ou compactado.\n• Manter raízes continuamente molhadas.\n• Copiar um repouso rígido de C. nobilior em clone ainda ativo.\n• Cultivar em sombra excessiva.\n• Dividir plantas pequenas sem necessidade.\n• Tratar características de um clone como regra do grex.",
     dica: "🏆 Cultive a planta que você tem, não uma média teórica dos pais. Comece com manejo intermediário: raízes muito aeradas, bastante luz filtrada e regas fortes no crescimento. Depois observe o clone. Se as raízes seguem ativas após a maturação, mantenha alguma água; se a atividade cai e o meio demora a secar, aumente os intervalos. Essa leitura individual é mais segura que tentar reproduzir integralmente o regime de C. nobilior ou de C. loddigesii.",
     adaptacaoRegional: {
-        litoralQuente: "Muito boa. O calor é compatível com ambos os parentais; ventilação, secagem rápida e luz alta filtrada são os pontos centrais.",
-        montanhaFrio: "Boa, desde que receba luz alta e não permaneça fria e molhada por longos períodos."
+        litoralQuente: { nota: 4, texto: "O calor é compatível com ambos os parentais; ventilação, secagem rápida e luz alta filtrada são os pontos centrais." },
+        montanhaFrio: { nota: 3, texto: "Desde que receba luz alta e não permaneça fria e molhada por longos períodos." }
     },
     mesesFloracao: [3, 4, 5, 6, 7, 8],
     "selosCultivo": {

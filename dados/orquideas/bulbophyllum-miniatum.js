@@ -36,8 +36,8 @@ export const bulbophyllumMiniatum = {
     errosComuns: "• Tratar Bulbophyllum miniatum como espécie atualmente aceita separada.\n• Enterrar o rizoma ou a base dos pseudobulbos.\n• Compactar esfagno.\n• Confundir alta umidade com substrato saturado.\n• Deixar a planta secar completamente por vários dias.\n• Cultivar em sombra profunda e abafada.\n• Aplicar adubo concentrado sobre raízes finas.\n• Forçar repouso seco para induzir floração.",
     dica: "🏆 O ponto central é separar umidade de encharcamento: mantenha raízes hidratadas, mas o rizoma exposto e aerado. Como a planta avança lateralmente, posicione a parte antiga junto à borda e deixe a frente de crescimento voltada para espaço livre. No litoral quente, 60% a 70% de sombra, ventilação contínua e rega frequente funcionam melhor que tentar produzir frio artificial.",
     adaptacaoRegional: {
-        litoralQuente: "Muito boa. A origem tropical combina com o litoral quente; o principal cuidado é manter circulação de ar elevada e meio extremamente aerado.",
-        montanhaFrio: "Boa em locais protegidos. Evite frio prolongado e reduza a frequência das regas apenas quando a evaporação cair."
+        litoralQuente: { nota: 4, texto: "A origem tropical combina com o litoral quente; o principal cuidado é manter circulação de ar elevada e meio extremamente aerado." },
+        montanhaFrio: { nota: 3, texto: "Boa em locais protegidos. Evite frio prolongado e reduza a frequência das regas apenas quando a evaporação cair." }
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {

@@ -42,8 +42,8 @@ export const camaridiumCarinatum = {
     errosComuns: "• Usar vaso estreito ou profundo.\n• Direcionar a frente de crescimento contra a borda.\n• Enterrar rizoma ou base dos pseudobulbos.\n• Deixar água parada nas bainhas dos brotos.\n• Substrato continuamente saturado.\n• Impor seca severa.\n• Cultivar em sombra excessiva.\n• Aplicar adubo concentrado ou liberação lenta encostada nas brotações.",
     dica: "🏆 No replantio, coloque os pseudobulbos mais antigos próximos a uma borda e direcione a frente ativa para a maior área livre. O recipiente deve ser largo e raso, porque o rizoma avança horizontalmente. A base dos pseudobulbos precisa permanecer descoberta: além de reduzir podridão, isso não bloqueia as inflorescências basais.",
     adaptacaoRegional: {
-        litoralQuente: "Muito boa quando cultivada com ventilação constante, recipiente raso e substrato arejado. O calor é tolerável, desde que as bainhas não permaneçam molhadas à noite.",
-        montanhaFrio: "Boa adaptação. Em períodos frios e nublados, aumente os intervalos de rega conforme a menor evaporação, sem desidratar os pseudobulbos."
+        litoralQuente: { nota: 4, texto: "Muito boa quando cultivada com ventilação constante, recipiente raso e substrato arejado. O calor é tolerável, desde que as bainhas não permaneçam molhadas à noite." },
+        montanhaFrio: { nota: 3, texto: "Em períodos frios e nublados, aumente os intervalos de rega conforme a menor evaporação, sem desidratar os pseudobulbos." }
     },
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     "selosCultivo": {

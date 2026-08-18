@@ -42,8 +42,8 @@ export const bulbophyllumSyciobulbon = {
     errosComuns: "• Usar vaso pequeno e obrigar replantes frequentes.\n• Enterrar o rizoma ou os pseudobulbos.\n• Confundir alta umidade com ar parado.\n• Manter esfagno compactado e saturado.\n• Deixar a planta secar completamente por longos períodos.\n• Cultivar sob sol direto forte.\n• Adubar em concentração alta.\n• Tentar compensar calor noturno excessivo com encharcamento.",
     dica: "🏆 Planeje o espaço antes do crescimento. Como os pseudobulbos podem ficar separados por 5 a 7 cm, comece com uma placa longa, galho extenso ou cesto largo e raso. Quanto menos a planta precisar ser removida depois de aderir ao suporte, melhor. No litoral quente, priorize o ponto mais fresco e ventilado, mantenha umidade moderada junto às raízes e evite qualquer material que permaneça quente e encharcado durante a noite.",
     adaptacaoRegional: {
-        litoralQuente: "Difícil. Pode sobreviver e crescer, mas noites quentes persistentes tendem a reduzir vigor e regularidade de floração. Use o microclima mais fresco, sombreado e ventilado disponível.",
-        montanhaFrio: "Muito favorável quando há umidade atmosférica, boa ventilação e proteção contra geada ou saturação fria prolongada."
+        litoralQuente: { nota: 1, texto: "Pode sobreviver e crescer, mas noites quentes persistentes tendem a reduzir vigor e regularidade de floração. Use o microclima mais fresco, sombreado e ventilado disponível." },
+        montanhaFrio: { nota: 4, texto: "Quando há umidade atmosférica, boa ventilação e proteção contra geada ou saturação fria prolongada." }
     },
     mesesFloracao: [],
     "selosCultivo": {

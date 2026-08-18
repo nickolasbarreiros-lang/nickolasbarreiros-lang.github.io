@@ -54,8 +54,8 @@ export const brassiaLawrenceana = {
     ],
     dica: "🏆 Replante apenas quando um novo broto estiver começando a emitir raízes. Brassia reage muito melhor quando essas raízes novas entram diretamente no substrato fresco. No litoral quente, cesto ou vaso de barro com mistura grossa costuma oferecer excelente equilíbrio entre umidade e oxigenação.",
     adaptacaoRegional: {
-        litoralQuente: "Muito boa, cerca de 4/5. A espécie tolera calor e se adapta bem com 50% a 60% de sombreamento, regas regulares e ventilação constante.",
-        montanhaFrio: "Boa, cerca de 4/5. Tolera noites frescas, mas deve ser protegida de frio intenso e de substrato permanentemente úmido em períodos de baixa evaporação."
+        litoralQuente: { nota: 4, texto: "Muito boa A espécie tolera calor e se adapta bem com 50% a 60% de sombreamento, regas regulares e ventilação constante." },
+        montanhaFrio: { nota: 4, texto: "Boa Tolera noites frescas, mas deve ser protegida de frio intenso e de substrato permanentemente úmido em períodos de baixa evaporação." }
     },
     mesesFloracao: [3, 4, 5, 9, 10, 11],
     "selosCultivo": {

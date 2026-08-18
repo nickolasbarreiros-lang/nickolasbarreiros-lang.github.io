@@ -53,8 +53,8 @@ export const aciantheraBragae = {
     substrato: ["🥇 Pedra-pomes fina + casca de pinus fina + pequena fração de esfagno, combinando umidade com muito ar.", "🥈 Montagem em rocha porosa/cortiça com fina reserva de esfagno somente sob as raízes.", "🥉 Perlita + pedra-pomes fina + chips de coco pequenos, sem compactar.", "⭐ Alternativa: Casca de pinus fina + carvão miúdo + perlita + esfagno picado em baixa proporção."],
     errosComuns: ["Usar vaso profundo para uma planta de crescimento rastejante.", "Enterrar ou cobrir o rizoma.", "Manter água parada entre folhas e ramicaules.", "Deixar a montagem secar por vários dias no calor.", "Cultivar em sombra profunda e sem circulação de ar.", "Aplicar adubação forte em raízes finas.", "Interpretar a altitude como necessidade de clima frio rígido."],
     adaptacaoRegional: {
-        litoral: "Adaptação moderada a boa quando recebe sombra clara, ventilação máxima e suporte raso/aberto. A indicação de crescimento quente ajuda, mas a origem a 700–1.000 m recomenda atenção especial às noites muito abafadas do verão.",
-        montanha: "Condições geralmente favoráveis, sobretudo pela amplitude térmica. Em períodos frios e úmidos, reduza as regas conforme o suporte permanecer molhado por mais tempo, sem impor seca prolongada."
+        litoral: { nota: 3, texto: "Quando recebe sombra clara, ventilação máxima e suporte raso/aberto. A indicação de crescimento quente ajuda, mas a origem a 700–1.000 m recomenda atenção especial às noites muito abafadas do verão." },
+        montanha: { nota: 3, texto: "Condições geralmente favoráveis, sobretudo pela amplitude térmica. Em períodos frios e úmidos, reduza as regas conforme o suporte permanecer molhado por mais tempo, sem impor seca prolongada." }
     },
     dica: "🏆 Prefira placa de madeira ou vasos largos e rasos para dar espaço ao crescimento rasteiro da planta, mantenha o rizoma exposto e garanta alta circulação de ar com raízes sempre úmidas."
 };

@@ -44,8 +44,8 @@ export const dryadellaLiliputiana = {
     errosComuns: "Calor noturno acumulado; esfagno permanentemente encharcado; deixar secar por vários dias; água muito salina; adubação forte; pouca circulação de ar; dividir a touceira; vaso grande; exposição ao sol; tentar compensar calor com excesso de água no substrato.",
     dica: "O porte minúsculo exige estabilidade, não excesso. Em Litoral de clima quente, cultive em um ponto fresco, luminoso sem sol, com ar sempre em movimento. Uma montagem levemente úmida e regada com frequência costuma ser mais segura no verão do que uma bola de esfagno quente e saturada.",
     adaptacaoRegional: {
-        litoralQuente: "Difícil. O principal problema é o calor noturno prolongado. Use o ponto mais fresco e ventilado do orquidário e controle a umidade com pouca massa de substrato.",
-        montanhaFrio: "Excelente adaptação em clima intermediário a fresco, protegendo de geada e de frio excessivo associado a encharcamento."
+        litoralQuente: { nota: 1, texto: "O principal problema é o calor noturno prolongado. Use o ponto mais fresco e ventilado do orquidário e controle a umidade com pouca massa de substrato." },
+        montanhaFrio: { nota: 5, texto: "Em clima intermediário a fresco, protegendo de geada e de frio excessivo associado a encharcamento." }
     },
     mesesFloracao: [6, 7, 8, 9],
     "selosCultivo": {

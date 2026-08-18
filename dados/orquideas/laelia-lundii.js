@@ -40,8 +40,8 @@ export const laeliaLundii = {
     errosComuns: "Usar vaso grande e profundo; manter esfagno compactado; cultivar com pouca luz; confundir cultivo montado com pouca necessidade de água; impor repouso seco excessivo; manter raízes encharcadas em períodos frios ou chuvosos; dividir touceiras pequenas; deixar a planta frouxa no suporte; fertilizar em excesso.",
     dica: "Deixe a planta conquistar o suporte e formar uma touceira. Cattleya lundii responde melhor quando não é constantemente removida ou dividida: várias frentes pequenas juntas criam mais raízes, reservas e pontos de floração. Em litoral quente, ventilação e secagem rápida valem mais que simplesmente reduzir água.",
     adaptacaoRegional: {
-        litoralQuente: "Boa adaptação quando montada no ponto mais ventilado e luminoso do orquidário. No verão, regue conforme a secagem real; no inverno, reduza apenas se atividade e evaporação diminuírem. Evite abafamento noturno e substrato úmido por muitos dias.",
-        montanhaFrio: "Adapta-se muito bem às noites frescas. Mantenha boa luz e diminua as regas em períodos frios e úmidos, protegendo contra geadas e chuva fria prolongada."
+        litoralQuente: { nota: 3, texto: "Quando montada no ponto mais ventilado e luminoso do orquidário. No verão, regue conforme a secagem real; no inverno, reduza apenas se atividade e evaporação diminuírem. Evite abafamento noturno e substrato úmido por muitos dias." },
+        montanhaFrio: { nota: 3, texto: "Adapta-se muito bem às noites frescas. Mantenha boa luz e diminua as regas em períodos frios e úmidos, protegendo contra geadas e chuva fria prolongada." }
     },
     mesesFloracao: [7, 8, 9, 10],
     "selosCultivo": {

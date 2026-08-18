@@ -467,13 +467,56 @@ function criarErrosComuns(valor) {
     `;
 }
 
+function normalizarAdaptacaoRegionalItem(valor) {
+    if (!valor) {
+        return null;
+    }
+
+    if (typeof valor === "string") {
+        return {
+            nota: null,
+            texto: valor
+        };
+    }
+
+    if (typeof valor === "object") {
+        const notaBruta = Number(valor.nota);
+        return {
+            nota: Number.isFinite(notaBruta)
+                ? Math.max(1, Math.min(5, Math.round(notaBruta)))
+                : null,
+            texto: obterTexto(valor.texto || valor.descricao || "")
+        };
+    }
+
+    return null;
+}
+
+function criarSeloAdaptacaoRegional(nota) {
+    if (!nota) {
+        return "";
+    }
+
+    const preenchidas = "★".repeat(nota);
+    const vazias = "☆".repeat(5 - nota);
+
+    return `
+        <div class="selo-adaptacao-regional-v3" aria-label="Adaptação regional: ${nota} de 5 estrelas">
+            <span class="selo-adaptacao-rotulo-v3">Adaptação</span>
+            <span class="selo-adaptacao-estrelas-v3" aria-hidden="true">
+                <span class="estrelas-preenchidas-v3">${preenchidas}</span><span class="estrelas-vazias-v3">${vazias}</span>
+            </span>
+        </div>
+    `;
+}
+
 function criarAdaptacaoRegional(valor) {
     if (!valor || typeof valor !== "object") {
         return "";
     }
 
-    const litoral = valor.litoralQuente || valor.litoral || "";
-    const montanha = valor.montanhaFrio || valor.montanha || "";
+    const litoral = normalizarAdaptacaoRegionalItem(valor.litoralQuente || valor.litoral);
+    const montanha = normalizarAdaptacaoRegionalItem(valor.montanhaFrio || valor.montanha);
 
     if (!litoral && !montanha) {
         return "";
@@ -489,15 +532,21 @@ function criarAdaptacaoRegional(valor) {
             <div class="grade-adaptacao-v2">
                 ${litoral ? `
                     <article class="adaptacao-item-v2">
-                        <h4>🌴 Regiões litorâneas e quentes</h4>
-                        <p>${litoral}</p>
+                        <div class="cabecalho-adaptacao-item-v3">
+                            <h4>🌴 Regiões litorâneas e quentes</h4>
+                            ${criarSeloAdaptacaoRegional(litoral.nota)}
+                        </div>
+                        <p>${litoral.texto}</p>
                     </article>
                 ` : ""}
 
                 ${montanha ? `
                     <article class="adaptacao-item-v2">
-                        <h4>🏔️ Regiões de montanha e clima frio</h4>
-                        <p>${montanha}</p>
+                        <div class="cabecalho-adaptacao-item-v3">
+                            <h4>🏔️ Regiões de montanha e clima frio</h4>
+                            ${criarSeloAdaptacaoRegional(montanha.nota)}
+                        </div>
+                        <p>${montanha.texto}</p>
                     </article>
                 ` : ""}
             </div>

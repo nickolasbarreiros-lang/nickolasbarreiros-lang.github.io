@@ -42,8 +42,8 @@ export const bulbophyllumFalcatumVarBufo = {
     errosComuns: "• Tratar a variedade como híbrido.\n• Enterrar rizoma/pseudobulbos.\n• Bloquear a raque contra a borda do recipiente.\n• Usar vaso fundo e retentivo.\n• Compactar esfagno.\n• Impor repouso seco.\n• Manter alta umidade sem circulação de ar.\n• Usar adubação concentrada.\n• Forçar noites frias para induzir floração.",
     dica: "🏆 A procedência de baixa altitude torna esta variedade particularmente adequada a ambiente quente, mas não a abafamento. Dê muito espaço lateral à raque, que pode ultrapassar 25 cm, e mantenha o rizoma exposto. Em litoral quente, o sucesso vem de umidade regular + ventilação contínua + recipiente raso, e não de baixar artificialmente a temperatura.",
     adaptacaoRegional: {
-        litoralQuente: "Muito boa, cerca de 4,5/5. A faixa natural de 0–500 m é coerente com cultivo quente; o principal risco é excesso de água em ambiente pouco ventilado.",
-        montanhaFrio: "Boa se protegida de frio prolongado. Não necessita noites frias para completar seu ciclo."
+        litoralQuente: { nota: 5, texto: "Cerca de 4 A faixa natural de 0–500 m é coerente com cultivo quente; o principal risco é excesso de água em ambiente pouco ventilado." },
+        montanhaFrio: { nota: 3, texto: "Boa se protegida de frio prolongado. Não necessita noites frias para completar seu ciclo." }
     },
     mesesFloracao: [8, 9, 10, 11, 12, 1, 2, 3],
     "selosCultivo": {

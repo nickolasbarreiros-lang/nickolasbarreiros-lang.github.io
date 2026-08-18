@@ -42,8 +42,8 @@ export const bulbophyllumAmbrosia = {
     errosComuns: "• Enterrar o rizoma.\n• Tratar a espécie como exclusivamente fria.\n• Usar substrato fino e compactado.\n• Deixar a planta secar por vários dias.\n• Manter saturação constante em noites quentes.\n• Cultivar em sombra profunda.\n• Adubar em concentração alta.\n• Manter substrato decomposto por tempo excessivo.\n• Confundir umidade ambiental elevada com falta de ventilação.",
     dica: "🏆 O melhor manejo reproduz a combinação natural de umidade com oxigenação. Monte-a ou use recipiente raso, mantenha o rizoma exposto e proporcione ventilação contínua. A fragrância e a floração aparecem melhor em plantas maduras e bem iluminadas, sem necessidade de submeter a planta a frio forte. No litoral quente, noites ventiladas e suporte que não acumule calor são mais importantes que tentar baixar drasticamente a temperatura.",
     adaptacaoRegional: {
-        litoralQuente: "Boa, cerca de 4/5. A espécie possui populações de baixa a média altitude e pode crescer bem no litoral, mas exige ventilação intensa e meio aberto para compensar noites quentes.",
-        montanhaFrio: "Muito boa em condições intermediárias a frescas, desde que protegida de frio extremo e de secagem prolongada."
+        litoralQuente: { nota: 4, texto: "Boa A espécie possui populações de baixa a média altitude e pode crescer bem no litoral, mas exige ventilação intensa e meio aberto para compensar noites quentes." },
+        montanhaFrio: { nota: 4, texto: "Muito boa em condições intermediárias a frescas, desde que protegida de frio extremo e de secagem prolongada." }
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {

@@ -53,8 +53,8 @@ export const encycliaAlboxanthina = {
     ],
     dica: "🏆 Observe os pseudobulbos: eles devem amadurecer firmes, não permanecer verdes e excessivamente tenros. Muita luz filtrada, raízes arejadas e uma leve secagem entre regas ajudam a planta a armazenar energia e preparar a haste floral.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente, cerca de 5/5. Sua origem nordestina e preferência por condições quentes e claras tornam a espécie muito promissora, desde que as raízes tenham drenagem e ventilação.",
-        montanhaFrio: "Boa, cerca de 4/5. Tolera noites frescas, mas reduza as regas quando a evaporação cair e proteja de frio intenso."
+        litoralQuente: { nota: 5, texto: "Excelente Sua origem nordestina e preferência por condições quentes e claras tornam a espécie muito promissora, desde que as raízes tenham drenagem e ventilação." },
+        montanhaFrio: { nota: 4, texto: "Boa Tolera noites frescas, mas reduza as regas quando a evaporação cair e proteja de frio intenso." }
     },
     mesesFloracao: [10, 11, 12, 1],
     "selosCultivo": {

@@ -40,8 +40,8 @@ export const lcTrickOrTreat = {
     errosComuns: "Pouca luz; excesso de nitrogênio na maturação; vaso grande; substrato compactado; rizoma enterrado; regas sem secagem; falta de tutoramento; tentar corrigir a posição da haste depois de endurecida; cortar haste ainda verde; replantar sem raízes novas; dividir a touceira com frequência; somar várias fontes de adubo em dose completa.",
     dica: "Instale o tutor enquanto a haste ainda está crescendo e antes de os botões ganharem peso. Depois que ela endurece, tentar reorientá-la aumenta o risco de quebra. Para florações cheias, combine luz alta filtrada, pseudobulbos bem formados e uma touceira com várias frentes maduras.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente adaptação. Use luz alta filtrada, ventilação constante, substrato aberto e rega matinal. Em períodos de chuva contínua, aumente o intervalo entre irrigações e mantenha bainhas e botões arejados.",
-        montanhaFrio: "Desenvolve-se bem com noites frescas. Proteja de geadas e reduza a água em semanas frias e chuvosas."
+        litoralQuente: { nota: 5, texto: "Use luz alta filtrada, ventilação constante, substrato aberto e rega matinal. Em períodos de chuva contínua, aumente o intervalo entre irrigações e mantenha bainhas e botões arejados." },
+        montanhaFrio: { nota: 3, texto: "Desenvolve-se bem com noites frescas. Proteja de geadas e reduza a água em semanas frias e chuvosas." }
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {

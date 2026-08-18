@@ -42,8 +42,8 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     errosComuns: "Substrato permanentemente úmido; pouca luz; replantar sem emissão de raízes novas; enterrar o rizoma; usar vaso grande; dividir touceiras pequenas; deixar completamente seca por semanas apenas porque não há pontas verdes; adubar fortemente plantas montadas; mudar constantemente a posição e a iluminação; interpretar folhas amareladas como objetivo de cultivo.",
     dica: "Leia a planta inteira, não apenas o calendário ou a ponta das raízes. Pontas verdes indicam crescimento ativo e permitem regas abundantes e adubação leve. Depois da maturação, aumente os intervalos entre as regas sem transformar o repouso em seca absoluta. E replante apenas quando novas raízes estiverem iniciando: em Cattleya walkeriana, o momento do replantio pode definir se a planta se estabelece rapidamente ou passa muitos meses debilitada.",
     adaptacaoRegional: {
-        litoralQuente: "Boa adaptação em Litoral de clima quente. O calor é tolerado; o maior risco é a combinação de chuva contínua, umidade persistente e pouca ventilação. Cultivo montado ou muito aerado é especialmente indicado.",
-        montanhaFrio: "Boa adaptação em clima intermediário, com muita luz filtrada. Proteja de geadas, frio úmido prolongado e substrato que permaneça molhado por muitos dias."
+        litoralQuente: { nota: 3, texto: "Em Litoral de clima quente. O calor é tolerado; o maior risco é a combinação de chuva contínua, umidade persistente e pouca ventilação. Cultivo montado ou muito aerado é especialmente indicado." },
+        montanhaFrio: { nota: 3, texto: "Em clima intermediário, com muita luz filtrada. Proteja de geadas, frio úmido prolongado e substrato que permaneça molhado por muitos dias." }
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {

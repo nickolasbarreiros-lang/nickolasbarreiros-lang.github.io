@@ -53,8 +53,8 @@ export const dendrobiumSpectabile = {
     ],
     dica: "🏆 Tenha paciência com o tamanho de floração. Dendrobium spectabile pode crescer vigorosamente antes de decidir florescer. Concentre-se em produzir hastes progressivamente maiores com muita luz filtrada, água e adubação durante o crescimento; quando a planta atingir maturidade, as flores extraordinárias compensam a espera.",
     adaptacaoRegional: {
-        litoralQuente: "Excelente, cerca de 5/5. A origem tropical e a ocorrência frequente em baixas elevações combinam bem com clima quente, desde que haja muita ventilação e drenagem.",
-        montanhaFrio: "Boa, cerca de 3/5. Tolera condições intermediárias, mas deve ser protegido de frio intenso e de raízes molhadas em temperaturas baixas."
+        litoralQuente: { nota: 5, texto: "Excelente A origem tropical e a ocorrência frequente em baixas elevações combinam bem com clima quente, desde que haja muita ventilação e drenagem." },
+        montanhaFrio: { nota: 3, texto: "Boa Tolera condições intermediárias, mas deve ser protegido de frio intenso e de raízes molhadas em temperaturas baixas." }
     },
     mesesFloracao: [6, 7, 8, 9, 10],
     "selosCultivo": {
