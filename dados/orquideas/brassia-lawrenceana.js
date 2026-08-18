@@ -54,30 +54,30 @@ export const brassiaLawrenceana = {
     ],
     dica: "🏆 Replante apenas quando um novo broto estiver começando a emitir raízes. Brassia reage muito melhor quando essas raízes novas entram diretamente no substrato fresco. No litoral quente, cesto ou vaso de barro com mistura grossa costuma oferecer excelente equilíbrio entre umidade e oxigenação.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 61,
+            indice: 64,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 2, peso: 20 },
-                temperatura: { nota: 5, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 2, peso: 10 },
+                habitatNatural: { nota: 2, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 2, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 85,
+            indice: 89,
             estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

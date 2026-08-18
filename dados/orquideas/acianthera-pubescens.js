@@ -53,30 +53,30 @@ export const aciantheraPubescens = {
     substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "🥉 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.", "⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado."],
     errosComuns: ["Aplicar o mesmo regime a exemplares de procedências muito diferentes.", "Manter touceira densa molhada e sem ventilação.", "Usar substrato compacto ou decomposto.", "Expor ao sol direto forte.", "Deixar as raízes secarem completamente por períodos longos.", "Acumular sais de fertilizante.", "Fixar uma época única de floração para uma espécie que pode florescer o ano inteiro."],
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 61,
-            estrelas: 4,
+            indice: 52,
+            estrelas: 3,
             fatores: {
-                habitatNatural: { nota: 1, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 5, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 1, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 5, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 81,
+            indice: 82,
             estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 5, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 5, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

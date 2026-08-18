@@ -40,30 +40,30 @@ export const laeliaGloriosa = {
     errosComuns: "Cultivar em sombra; usar recipiente leve e instável; empregar substrato fino ou compactado; manter raízes constantemente molhadas; dar pouco espaço ao rizoma; não reservar espaço vertical para a haste; deixar água acumulada em brotos novos; adubar raízes secas com solução concentrada; usar Schomburgkia crispa como sinônimo; cortar haste ainda verde.",
     dica: "🏆 Planeje o cultivo para o tamanho adulto. Use cesto robusto ou vaso pesado, dê espaço ao rizoma e reserve área livre para uma haste que pode passar de 1 metro. No crescimento, forneça água e nutrição com generosidade; depois, mantenha muita luz e apenas reduza moderadamente as regas.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 71,
+            indice: 74,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 63,
+            indice: 62,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

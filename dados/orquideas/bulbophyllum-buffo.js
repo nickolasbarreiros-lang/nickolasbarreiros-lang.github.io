@@ -42,30 +42,30 @@ export const bulbophyllumBuffo = {
     errosComuns: "• Enterrar o rizoma.\n• Usar vaso fundo e estreito.\n• Prender a raque contra a borda ou outra planta.\n• Compactar esfagno.\n• Deixar raízes secarem por dias.\n• Manter ambiente quente e abafado.\n• Forçar repouso seco.\n• Forçar frio para induzir floração.\n• Adubação concentrada.",
     dica: "🏆 Esta ficha corresponde ao mesmo táxon tratado no arquivo Bulbophyllum falcatum var. bufo; este arquivo legado foi mantido apenas para compatibilidade do catálogo. No cultivo, dê espaço horizontal à inflorescência, mantenha rizoma acima do substrato e use ventilação constante. A procedência de baixa altitude favorece o litoral quente.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
             indice: 68,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 4, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 2, peso: 10 },
+                habitatNatural: { nota: 4, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 2, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 62,
-            estrelas: 4,
+            indice: 57,
+            estrelas: 3,
             fatores: {
-                habitatNatural: { nota: 2, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 2, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

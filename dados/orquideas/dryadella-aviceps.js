@@ -43,30 +43,30 @@ export const dryadellaAviceps = {
     errosComuns: "Dividir touceiras pequenas; usar vaso grande; secar totalmente as raízes; manter esfagno velho e compacto; excesso de sais; sol direto; baixa ventilação; tratar a espécie como obrigatoriamente fria; encharcar durante noites quentes; adubação concentrada.",
     dica: "O melhor indicador de acerto é uma touceira compacta, firme e com raízes ativas. No litoral quente, não tente 'resfriar' a planta mantendo o vaso encharcado: ofereça sombra luminosa, ventilação contínua e umidade do ar, enquanto o substrato permanece pequeno e oxigenado.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 66,
+            indice: 69,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 4, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 2, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 4, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 4, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 76,
+            indice: 79,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 4, peso: 20 }
             }

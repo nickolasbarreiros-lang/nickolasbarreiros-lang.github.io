@@ -42,30 +42,30 @@ export const bulbophyllumFalcatum = {
     errosComuns: "• Enterrar o rizoma.\n• Usar vaso estreito e profundo.\n• Bloquear a raque floral contra a borda do vaso.\n• Compactar esfagno.\n• Deixar substrato envelhecer e azedar.\n• Manter calor com ar parado.\n• Permitir ressecamento prolongado.\n• Forçar repouso seco.\n• Aplicar fertilizante concentrado sobre raízes superficiais.",
     dica: "🏆 Antes da floração, verifique se há espaço lateral livre. A raque achatada é a principal característica da espécie e pode ser deformada ou abortar se ficar presa entre vaso, parede ou outras plantas. No litoral quente, cesto raso, rizoma exposto, sombra clara, umidade regular e ventilação contínua formam a combinação mais segura.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 61,
-            estrelas: 4,
+            indice: 60,
+            estrelas: 3,
             fatores: {
-                habitatNatural: { nota: 1, peso: 20 },
-                temperatura: { nota: 5, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 1, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 77,
-            estrelas: 4,
+            indice: 81,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

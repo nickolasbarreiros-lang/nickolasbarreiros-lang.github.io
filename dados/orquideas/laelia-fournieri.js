@@ -42,30 +42,30 @@ export const laeliaFournieri = {
     errosComuns: "• Cultivar em local quente e abafado.\n• Confundir hábito rupícola com necessidade de seca extrema.\n• Vaso grande, profundo ou com material compactado.\n• Deixar pedra ou vaso superaquecer ao sol.\n• Excesso de matéria orgânica decomposta no calor.\n• Replantar por conveniência quando não há novas raízes, salvo emergência.\n• Adubação concentrada e acúmulo de sais.\n• Repouso seco exagerado, levando rapidamente ao enrugamento dos pseudobulbos.",
     dica: "🏆 Replante preferencialmente quando as primeiras raízes novas começarem a surgir e use pouco volume de substrato, muita drenagem e máxima circulação de ar. No litoral quente, o objetivo é baixar a temperatura radicular e evitar abafamento; secar demais uma planta tão pequena costuma piorar o problema.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 59,
+            indice: 55,
             estrelas: 3,
             fatores: {
-                habitatNatural: { nota: 2, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 2, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 83,
+            indice: 88,
             estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 5, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

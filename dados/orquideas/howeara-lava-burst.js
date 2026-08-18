@@ -34,30 +34,30 @@ export const howearaLavaBurst = {
     errosComuns: "Usar vaso grande; deixar o substrato velho e compacto; impor seca para estimular floração; permitir enrugamento frequente; cultivar em calor abafado; usar excesso de bokashi ou adubo de liberação lenta; aplicar fertilizante concentrado; deixar água parada na base da touceira; manter sombra profunda.",
     dica: "Não tente ‘forçar’ a floração com seca. A estratégia mais eficiente é manter a planta em crescimento contínuo: vaso pequeno, raízes saudáveis, luz filtrada forte e adubação fraca. Cada pseudobulbo bem formado aumenta a chance de uma nova haste, e uma touceira adulta pode florescer repetidamente ao longo do ano.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 58,
+            indice: 59,
             estrelas: 3,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 2, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 71,
+            indice: 70,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

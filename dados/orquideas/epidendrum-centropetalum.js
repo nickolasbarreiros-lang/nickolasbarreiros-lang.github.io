@@ -54,30 +54,30 @@ export const epidendrumCentropetalum = {
     ],
     dica: "🏆 Aproveite o hábito de formar keikis: em vez de removê-los cedo, deixe que criem raízes e ajudem a formar uma touceira cheia. No litoral quente, mantenha a planta em posição muito ventilada e com luz filtrada forte; noites menos abafadas costumam fazer mais diferença do que aumentar a adubação.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 41,
-            estrelas: 3,
+            indice: 35,
+            estrelas: 2,
             fatores: {
-                habitatNatural: { nota: 2, peso: 20 },
-                temperatura: { nota: 1, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 2, peso: 30 },
+                temperatura: { nota: 1, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 1, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 79,
-            estrelas: 4,
+            indice: 82,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

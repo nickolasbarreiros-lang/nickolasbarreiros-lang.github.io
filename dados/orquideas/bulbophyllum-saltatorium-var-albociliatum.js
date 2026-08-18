@@ -34,30 +34,30 @@ export const bulbophyllumSaltatoriumVarAlbociliatum = {
     errosComuns: "• Enterrar o rizoma.\n• Compactar esfagno.\n• Deixar a planta secar completamente por muitos dias.\n• Usar vaso profundo e fechado.\n• Confundir alta umidade com saturação permanente.\n• Cultivar em sombra profunda.\n• Aplicar fertilizante concentrado.\n• Forçar repouso seco para induzir flores.",
     dica: "🏆 Deixe a estrutura rastejante respirar. Use uma camada fina de material úmido apenas sob as raízes e mantenha rizoma e pseudobulbos expostos. Em litoral quente, a combinação mais segura é 60% a 70% de sombra, água frequente, drenagem imediata e ventilação constante.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 65,
+            indice: 66,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 67,
+            indice: 64,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

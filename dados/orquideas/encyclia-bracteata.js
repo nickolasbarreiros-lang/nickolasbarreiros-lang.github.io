@@ -43,30 +43,30 @@ export const encycliaBracteata = {
     errosComuns: "Sombra excessiva; vaso grande; substrato fino; raízes constantemente molhadas; enterrar o rizoma; replantar fora da emissão de raízes novas; excesso de fertilizante; interpretar baixa altitude como tolerância a abafamento; impor repouso totalmente seco por meses.",
     dica: "A espécie é pequena, mas quer bastante luz. No litoral quente, use vaso pequeno, mistura grossa e ventilação permanente. Regue com generosidade enquanto houver crescimento ativo e deixe o ar retornar rapidamente às raízes após cada rega.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 63,
+            indice: 69,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 2, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 2, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 1, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 64,
+            indice: 63,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 2, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 2, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

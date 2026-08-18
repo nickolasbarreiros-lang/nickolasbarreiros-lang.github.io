@@ -34,30 +34,30 @@ export const gongoraBufonia = {
     errosComuns: "Cultivar em vaso fechado; bloquear o fundo do cesto; usar substrato fino ou compactado; deixar secar completamente durante o crescimento; impor repouso seco; manter calor abafado; expor ao sol forte; adubar em excesso; dividir a touceira em fragmentos pequenos; apoiar o cesto onde as hastes pendentes não tenham passagem.",
     dica: "Pense primeiro na haste floral e depois no vaso. A inflorescência nasce na base e precisa cair livremente; por isso o cesto suspenso, vazado e sem obstáculos é parte do cultivo, não apenas uma escolha estética. Combine esse espaço livre com raízes úmidas e oxigenadas, e a espécie responde com hastes longas e floradas muito mais consistentes.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 60,
-            estrelas: 3,
+            indice: 64,
+            estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 2, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 71,
+            indice: 70,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

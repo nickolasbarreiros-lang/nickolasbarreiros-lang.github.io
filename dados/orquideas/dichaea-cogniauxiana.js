@@ -54,30 +54,30 @@ export const dichaeaCogniauxiana = {
     ],
     dica: "🏆 Dichaea cogniauxiana prefere umidade com ar em movimento. Mantenha as raízes hidratadas, mas extremamente arejadas. No litoral quente, uma montagem com pequena quantidade de esfagno e ventilação constante tende a reproduzir melhor essa combinação do que um vaso compacto e permanentemente molhado.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 45,
+            indice: 41,
             estrelas: 3,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 1, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 1, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 1, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 84,
+            indice: 88,
             estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

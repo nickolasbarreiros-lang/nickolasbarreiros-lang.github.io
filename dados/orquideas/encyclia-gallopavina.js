@@ -43,30 +43,30 @@ export const encycliaGallopavina = {
     errosComuns: "Cultivar em sombra; vaso grande demais; substrato velho; raízes continuamente encharcadas; enterrar o rizoma; reduzir água cedo demais durante crescimento; excesso de nitrogênio após a maturação; replantar sem raízes novas; calor abafado com substrato molhado; impor seca rigorosa por longos períodos.",
     dica: "Espere o novo pseudobulbo terminar de crescer antes de diminuir discretamente a frequência das regas. O objetivo é marcar uma mudança de estação sem desidratar a planta. Em Litoral de clima quente, o melhor estímulo para florir costuma ser luz alta filtrada + pseudobulbo maduro + raízes bem aeradas, e não seca extrema.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 64,
+            indice: 70,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 5, peso: 20 },
-                aguaUmidade: { nota: 2, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 2, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 2, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 68,
+            indice: 69,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

@@ -42,30 +42,30 @@ export const bulbophyllumAmbrosia = {
     errosComuns: "• Enterrar o rizoma.\n• Tratar a espécie como exclusivamente fria.\n• Usar substrato fino e compactado.\n• Deixar a planta secar por vários dias.\n• Manter saturação constante em noites quentes.\n• Cultivar em sombra profunda.\n• Adubar em concentração alta.\n• Manter substrato decomposto por tempo excessivo.\n• Confundir umidade ambiental elevada com falta de ventilação.",
     dica: "🏆 O melhor manejo reproduz a combinação natural de umidade com oxigenação. Monte-a ou use recipiente raso, mantenha o rizoma exposto e proporcione ventilação contínua. A fragrância e a floração aparecem melhor em plantas maduras e bem iluminadas, sem necessidade de submeter a planta a frio forte. No litoral quente, noites ventiladas e suporte que não acumule calor são mais importantes que tentar baixar drasticamente a temperatura.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 72,
+            indice: 73,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 76,
-            estrelas: 4,
+            indice: 81,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

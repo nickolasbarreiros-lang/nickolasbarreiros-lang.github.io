@@ -39,30 +39,30 @@ export const sophronitisCernua = {
     errosComuns: "Vaso plástico com substrato fino; excesso de esfagno; sombra; ambiente abafado; regas ao final da tarde; base da touceira permanentemente molhada; adubação concentrada.",
     dica: "Cultive montada em madeira ou cortiça e pendurada em ponto alto, claro e muito ventilado. Sua tolerância ao calor é boa, mas as raízes precisam secar rapidamente para permanecer saudáveis.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
             indice: 69,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 72,
+            indice: 70,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

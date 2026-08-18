@@ -54,30 +54,30 @@ export const phalaenopsisPulcherrima = {
     ],
     dica: "🏆 Não corte uma haste verde apenas porque as primeiras flores caíram. Phalaenopsis pulcherrima pode continuar alongando a inflorescência e abrindo novas flores sucessivamente. Dê mais luz do que daria a uma Phalaenopsis híbrida comum, mas faça a aclimatação gradualmente.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 62,
+            indice: 64,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 2, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 2, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 2, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 4, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 67,
+            indice: 66,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 4, peso: 20 }
             }

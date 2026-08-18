@@ -39,30 +39,30 @@ export const brassavolaPerrini = {
     errosComuns: "Cultivar em sombra excessiva; Usar substratos finos, compactos ou com acúmulo de pó; Manter as raízes molhadas continuamente; Plantar em vasos grandes e fundos; Exagerar no uso de esfagno ou materiais de alta retenção hídrica; Dividir touceiras pequenas prematuramente; Aplicar adubo com alto teor de nitrogênio de forma contínua durante todo o ano.",
     dica: "Use as folhas como termômetro: o ponto certo de luz é aquele que deixa a folhagem cilíndrica ereta, rígida e em um tom verde-claro (quase amarelado). Se ela cresce muito mas não floresce, o segredo para forçar a floração é dar mais claridade — sem medo do sol direto matinal — e cortar o adubo rico em nitrogênio.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 56,
+            indice: 50,
             estrelas: 3,
             fatores: {
-                habitatNatural: { nota: 1, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 2, peso: 10 },
+                habitatNatural: { nota: 1, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 2, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 80,
-            estrelas: 4,
+            indice: 82,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 4, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 2, peso: 10 },
+                habitatNatural: { nota: 4, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 2, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

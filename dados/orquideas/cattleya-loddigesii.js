@@ -40,17 +40,17 @@ export const cattleyaLoddigesii = {
     errosComuns: "Cultivar sob sombra excessiva; secar demais durante crescimento ativo; manter substrato velho, compactado ou constantemente molhado; usar vaso muito grande; enterrar o rizoma; replantar sem novas raízes em emissão; quebrar raízes novas durante o replante; dividir touceiras pequenas; aplicar fertilizante em excesso.",
     dica: "Replante apenas quando as primeiras pontas de raízes novas surgirem na base do crescimento mais recente. Esse é o momento em que a planta coloniza rapidamente o novo recipiente. Evite dividir apenas para organizar a touceira: várias frentes significam mais reservas, mais raízes e vários pseudobulbos capazes de florir simultaneamente.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 65,
+            indice: 66,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
@@ -59,11 +59,11 @@ export const cattleyaLoddigesii = {
             indice: 78,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

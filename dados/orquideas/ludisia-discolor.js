@@ -39,30 +39,30 @@ export const ludisiaDiscolor = {
     errosComuns: "Expor ao sol direto; manter em sombra total sem claridade; enterrar profundamente os caules; usar substrato pesado ou encharcado; cultivar em vaso sem drenagem; manter terrário fechado e saturado; molhar abundantemente os nós no fim do dia; usar adubo concentrado; compactar esfagno sobre os caules; permitir acúmulo de sais.",
     dica: "Deixe os caules rastejarem sobre a superfície e cubra apenas as raízes. Os nós próximos ao ar emitem novos brotos com facilidade e podem ser usados para propagação. Um vaso mais largo do que profundo combina melhor com seu crescimento natural e reduz o risco de um centro permanentemente encharcado.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 61,
+            indice: 64,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 2, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 2, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 74,
+            indice: 71,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 5, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 5, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

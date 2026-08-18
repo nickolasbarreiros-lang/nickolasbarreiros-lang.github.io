@@ -1,0 +1,8 @@
+IAR 1.1 — PESOS REVISADOS
+
+Habitat/altitude 30% | Temperatura 30% | Água/umidade 5% | Ventilação 5% | Luminosidade 5% | Sazonalidade 5% | Floração 20%
+
+Fichas recalculadas: 83
+Validação: OK
+Litoral (estrelas): {2: 3, 3: 19, 4: 57, 5: 4}
+Montanha (estrelas): {3: 2, 4: 56, 5: 25}

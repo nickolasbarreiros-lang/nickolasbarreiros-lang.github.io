@@ -53,30 +53,30 @@ export const aciantheraBragae = {
     substrato: ["🥇 Pedra-pomes fina + casca de pinus fina + pequena fração de esfagno, combinando umidade com muito ar.", "🥈 Montagem em rocha porosa/cortiça com fina reserva de esfagno somente sob as raízes.", "🥉 Perlita + pedra-pomes fina + chips de coco pequenos, sem compactar.", "⭐ Alternativa: Casca de pinus fina + carvão miúdo + perlita + esfagno picado em baixa proporção."],
     errosComuns: ["Usar vaso profundo para uma planta de crescimento rastejante.", "Enterrar ou cobrir o rizoma.", "Manter água parada entre folhas e ramicaules.", "Deixar a montagem secar por vários dias no calor.", "Cultivar em sombra profunda e sem circulação de ar.", "Aplicar adubação forte em raízes finas.", "Interpretar a altitude como necessidade de clima frio rígido."],
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
             indice: 69,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 80,
+            indice: 78,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

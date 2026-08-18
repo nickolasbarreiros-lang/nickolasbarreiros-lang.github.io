@@ -39,30 +39,30 @@ export const leptotesUnicolor = {
     errosComuns: "Usar vaso grande ou substrato retentor; cobrir o rizoma; compactar esfagno; cultivar em sombra excessiva; adubar em dosagem alta; molhar ao fim do dia em noites frias; replantar fora da emissão de raízes novas; apertar o rizoma com arame; confundir folhas murchas por perda de raízes com simples falta de água.",
     dica: "Replante ou fixe a planta quando surgirem raízes novas na base da brotação. As raízes antigas raramente voltam a aderir bem a um novo suporte, então a recuperação depende principalmente das raízes emitidas depois da mudança. Para essa espécie, uma boa montagem vale mais que um substrato sofisticado.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
             indice: 61,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 78,
+            indice: 77,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

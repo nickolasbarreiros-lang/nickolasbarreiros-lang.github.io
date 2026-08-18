@@ -34,30 +34,30 @@ export const isochilusLinearis = {
     errosComuns: "Impor seca prolongada; cultivar em sombra excessiva; usar vaso profundo e grande; manter substrato velho ou compactado; aplicar adubo concentrado; cultivar em local abafado; deixar a touceira superaquecer; confundir umidade regular com encharcamento; dividir frequentemente uma colônia saudável.",
     dica: "A melhor forma de entender essa espécie é observar seus caules. Como não há pseudobulbos robustos para funcionar como reserva, caules enrugados e folhas perdendo firmeza indicam que a planta ficou seca demais. Mantenha água disponível sem sacrificar a aeração e preserve touceiras grandes: elas estabilizam o microclima e florescem com muito mais impacto.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 75,
-            estrelas: 4,
+            indice: 81,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 2, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 2, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 4, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 78,
+            indice: 80,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 4, peso: 20 }
             }

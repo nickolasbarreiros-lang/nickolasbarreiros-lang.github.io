@@ -40,30 +40,30 @@ export const laeliaLundii = {
     errosComuns: "Usar vaso grande e profundo; manter esfagno compactado; cultivar com pouca luz; confundir cultivo montado com pouca necessidade de água; impor repouso seco excessivo; manter raízes encharcadas em períodos frios ou chuvosos; dividir touceiras pequenas; deixar a planta frouxa no suporte; fertilizar em excesso.",
     dica: "Deixe a planta conquistar o suporte e formar uma touceira. Cattleya lundii responde melhor quando não é constantemente removida ou dividida: várias frentes pequenas juntas criam mais raízes, reservas e pontos de floração. Em litoral quente, ventilação e secagem rápida valem mais que simplesmente reduzir água.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 70,
+            indice: 72,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 5, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 2, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 2, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 84,
+            indice: 89,
             estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

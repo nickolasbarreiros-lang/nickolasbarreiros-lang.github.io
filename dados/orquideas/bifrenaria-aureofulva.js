@@ -39,30 +39,30 @@ export const bifrenariaAureofulva = {
     errosComuns: "Tratar a espécie como planta de repouso totalmente seco; cultivar em sombra profunda; expor a sol forte; usar vasos muito grandes; manter substrato compacto ou degradado; reduzir a água antes do pseudobulbo amadurecer; replantar sem raízes novas iniciando; aplicar fertilizante concentrado em raízes sensíveis.",
     dica: "Trate-a como uma verdadeira orquídea do sol. Ela exige alta luminosidade (claridade intensa, mas sem sol direto) e vasos bem apertados com drenagem perfeita. O grande segredo para conseguir hastes repletas de flores laranjas é mantê-la com raízes restritas, boa ventilação e regas fartas apenas no período de crescimento ativo.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 69,
+            indice: 73,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 82,
+            indice: 83,
             estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

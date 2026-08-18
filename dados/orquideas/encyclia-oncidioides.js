@@ -34,30 +34,30 @@ export const encycliaOncidioides = {
     errosComuns: "Usar vaso grande ou profundo; cultivar em sombra excessiva; manter raízes constantemente molhadas; usar substrato fino, velho ou compactado; enterrar o rizoma; cortar hastes ainda verdes; aplicar excesso de nitrogênio após a maturação; seguir um número fixo de dias sem água; tratar o inverno como dormência seca rigorosa.",
     dica: "Priorize luz alta filtrada e raízes muito arejadas. A ocorrência natural desde o nível do mar até cerca de 750 m explica por que ela pode ir muito bem no litoral quente: o ponto decisivo é evitar abafamento e substrato constantemente molhado, não tentar produzir frio artificial.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 65,
+            indice: 67,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 67,
+            indice: 68,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

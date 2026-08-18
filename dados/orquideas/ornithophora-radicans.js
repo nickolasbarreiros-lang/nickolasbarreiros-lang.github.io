@@ -39,30 +39,30 @@ export const ornithophoraRadicans = {
     errosComuns: "Aplicar adubo químico concentrado; usar vaso grande; compactar esfagno; manter a touceira molhada durante toda a noite; cultivar sem circulação de ar; cortar raízes finas saudáveis; deixar o substrato secar completamente por longos períodos; impedir que as hastes pendam livremente; usar Osmocote em excesso ou encostado no rizoma.",
     dica: "Use adubação homeopática, lavagem mensal de sais e muito ar. A Gomesa radicans prefere pequenas quantidades de nutrientes de forma contínua a doses fortes de fertilizante. Aplique apenas 1/4 ou 1/6 da dose foliar, faça uma lavagem completa com água pura uma vez por mês e cultive, sempre que possível, montada em cortiça, madeira dura ou cachepô muito ventilado. Para esta espécie, boa circulação de ar é mais importante do que simplesmente aumentar a quantidade de água.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 71,
+            indice: 77,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 4, peso: 20 },
-                temperatura: { nota: 5, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 2, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 4, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 2, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 74,
+            indice: 72,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 2, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 2, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

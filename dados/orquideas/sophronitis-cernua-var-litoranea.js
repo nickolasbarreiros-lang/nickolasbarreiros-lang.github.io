@@ -42,30 +42,30 @@ export const sophronitisCernuaVarLitoranea = {
     errosComuns: "• Confundir alta umidade do ar com raízes permanentemente encharcadas.\n• Cultivar em vaso plástico fechado e abafado.\n• Usar massa compacta de esfagno.\n• Sombra excessiva.\n• Secar demais uma planta montada durante o verão.\n• Adubação concentrada em raízes pequenas.\n• Escolher o ponto mais alto apenas por altura, mesmo que seja mais quente.\n• Irrigar deliberadamente com água salobra por interpretar tolerância à maresia como necessidade de sal.",
     dica: "🏆 Pense em uma miniatura vivendo perto do mar: ar úmido ao redor, mas vento passando continuamente pelas raízes. Em Litoral de clima quente, prefira cultivo montado em cortiça, galho ou madeira, em local claro e com circulação constante. Durante o calor, regue sem medo quando a planta estiver secando rapidamente; o objetivo não é mantê-la seca, e sim alternar água e oxigênio nas raízes. Escolha o local realmente mais ventilado e sem superaquecimento, e use sempre água doce de boa qualidade.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 69,
+            indice: 73,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 65,
+            indice: 67,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

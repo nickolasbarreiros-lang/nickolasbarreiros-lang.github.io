@@ -36,30 +36,30 @@ export const bulbophyllumMiniatum = {
     errosComuns: "• Tratar Bulbophyllum miniatum como espécie atualmente aceita separada.\n• Enterrar o rizoma ou a base dos pseudobulbos.\n• Compactar esfagno.\n• Confundir alta umidade com substrato saturado.\n• Deixar a planta secar completamente por vários dias.\n• Cultivar em sombra profunda e abafada.\n• Aplicar adubo concentrado sobre raízes finas.\n• Forçar repouso seco para induzir floração.",
     dica: "🏆 O ponto central é separar umidade de encharcamento: mantenha raízes hidratadas, mas o rizoma exposto e aerado. Como a planta avança lateralmente, posicione a parte antiga junto à borda e deixe a frente de crescimento voltada para espaço livre. No litoral quente, 60% a 70% de sombra, ventilação contínua e rega frequente funcionam melhor que tentar produzir frio artificial.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 61,
-            estrelas: 4,
+            indice: 60,
+            estrelas: 3,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 67,
+            indice: 64,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

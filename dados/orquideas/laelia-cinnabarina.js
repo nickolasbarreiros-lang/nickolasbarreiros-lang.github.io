@@ -41,30 +41,30 @@ export const laeliaCinnabarina = {
     errosComuns: "• Sombra excessiva e pseudobulbos estiolados.\n• Vaso ou pedra superaquecendo sob sol forte.\n• Substrato fino, compacto ou permanentemente molhado.\n• Confundir hábito rupícola com ausência de necessidade hídrica.\n• Repouso seco exagerado.\n• Vaso profundo e fechado, com centro quente e úmido.\n• Adubação concentrada e salinização.\n• Pouca ventilação no verão litorâneo.",
     dica: "🏆 Dê muita luz sem cozinhar as raízes. Um vaso baixo, muito aerado e predominantemente mineral funciona bem, mas deve ficar protegido do sol forte que aquece pedra e barro. Durante o crescimento, regue de verdade; depois, reduza gradualmente conforme a planta desacelera.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 65,
+            indice: 63,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 81,
+            indice: 87,
             estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 5, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

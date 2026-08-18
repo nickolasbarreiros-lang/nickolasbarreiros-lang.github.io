@@ -38,30 +38,30 @@ export const epicattleyaReneMarques = {
     errosComuns: "Enterrar o rizoma; cultivar sob sombra excessiva; usar vasos grandes demais; manter o substrato continuamente encharcado; exagerar no nitrogênio após a maturação; tentar compensar pouca luz com adubos concentrados de fósforo ou potássio; replantar fora da emissão de raízes novas; deixar hastes altas sem tutoramento quando necessário.",
     dica: "Dê espaço vertical e luz abundante: esse híbrido pode ultrapassar 1 m e florescer no topo dos caules. O grex é geneticamente 50% E. pseudepidendrum, 25% C. loddigesii e 25% C. intermedia; por isso, vigor, forma e intensidade de cor podem variar entre clones, e não devem ser tratados como características fixas.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 57,
+            indice: 58,
             estrelas: 3,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 1, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 76,
+            indice: 77,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

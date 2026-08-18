@@ -34,30 +34,30 @@ export const eriaHyacinthoides = {
     errosComuns: "Manter a planta identificada apenas sob o gênero desatualizado Eria nos registros da coleção; Permitir secura prolongada do substrato; Cultivar em ambientes com pouca ventilação; Exagerar na dosagem dos adubos e causar queima das raízes por sais; Dividir touceiras pequenas antes de a planta estar bem estabelecida.",
     dica: "Deixe a planta formar uma touceira antes de dividir. O efeito ornamental vem justamente das hastes densas e numerosas; em clima quente, combine umidade do ar com ventilação forte para que as raízes finas permaneçam hidratadas sem ficar abafadas.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 63,
+            indice: 65,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 4, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 2, peso: 10 },
+                habitatNatural: { nota: 4, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 2, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 74,
+            indice: 80,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

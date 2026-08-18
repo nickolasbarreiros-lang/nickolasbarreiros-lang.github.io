@@ -39,30 +39,30 @@ export const lockhartiaLunifera = {
     errosComuns: "Cortar caules verdes após a floração; cultivar em sombra excessiva; deixar água retida nas bainhas durante a noite; impor seca prolongada; manter raízes continuamente saturadas; usar vaso profundo; aplicar adubo concentrado; permitir acúmulo de sais; cultivar em ambiente abafado.",
     dica: "Preserve todos os caules enquanto estiverem verdes e dê preferência ao cultivo inclinado ou pendente. Essa posição acompanha o crescimento natural, melhora o escoamento da água entre as folhas e expõe melhor as flores. A combinação de umidade regular, secagem superficial rápida e ventilação contínua é mais importante do que qualquer calendário rígido de rega.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 62,
+            indice: 67,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 2, peso: 15 },
-                ventilacao: { nota: 2, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 2, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 4, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 74,
+            indice: 76,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

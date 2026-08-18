@@ -42,30 +42,30 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     errosComuns: "Substrato permanentemente úmido; pouca luz; replantar sem emissão de raízes novas; enterrar o rizoma; usar vaso grande; dividir touceiras pequenas; deixar completamente seca por semanas apenas porque não há pontas verdes; adubar fortemente plantas montadas; mudar constantemente a posição e a iluminação; interpretar folhas amareladas como objetivo de cultivo.",
     dica: "Leia a planta inteira, não apenas o calendário ou a ponta das raízes. Pontas verdes indicam crescimento ativo e permitem regas abundantes e adubação leve. Depois da maturação, aumente os intervalos entre as regas sem transformar o repouso em seca absoluta. E replante apenas quando novas raízes estiverem iniciando: em Cattleya walkeriana, o momento do replantio pode definir se a planta se estabelece rapidamente ou passa muitos meses debilitada.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 71,
+            indice: 74,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 5, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 67,
+            indice: 68,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

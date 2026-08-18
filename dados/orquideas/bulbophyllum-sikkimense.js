@@ -36,30 +36,30 @@ export const bulbophyllumSikkimense = {
     errosComuns: "• Apresentar B. sikkimense como nome atualmente aceito.\n• Ignorar que Kew o inclui em B. roxburghii.\n• Tratar a planta como alpina por causa do nome Sikkim.\n• Impor repouso seco severo.\n• Manter sombra profunda.\n• Compactar o substrato.\n• Usar recipiente estreito.\n• Aplicar adubo concentrado.",
     dica: "🏆 Use o nome histórico como pista de procedência, não como instrução para cultivar no frio. Os dados de 300–500 m mostram uma planta de contrafortes quentes. No litoral, mantenha água regular, ar em movimento, recipiente raso e luz filtrada clara; a pequena diferença entre dia e noite já é mais coerente que qualquer tentativa de resfriamento artificial.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 71,
+            indice: 77,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 2, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 2, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 64,
+            indice: 63,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 2, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 2, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

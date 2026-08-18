@@ -34,30 +34,30 @@ export const huntleyaMeleagris = {
     errosComuns: "Deixar secar completamente; cultivar em vaso grande; manter substrato quente e saturado; usar água muito salina; aplicar fertilizante concentrado; expor ao sol direto; cultivar em ambiente abafado; deixar água parada no centro dos leques durante a noite; impor repouso seco no inverno.",
     dica: "O ponto-chave não é simplesmente ‘regar muito’, mas manter água disponível junto com oxigênio. Em dias quentes, aumente primeiro ventilação e umidade do ambiente antes de encharcar o vaso. Essa diferença é decisiva: raízes frescas e oxigenadas sustentam os leques; raízes quentes e saturadas entram em declínio rapidamente.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 60,
-            estrelas: 3,
+            indice: 64,
+            estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 4, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 2, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 4, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 79,
-            estrelas: 4,
+            indice: 82,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

@@ -41,30 +41,30 @@ export const cattleyaAclandiaeTipo = {
     errosComuns: "• Vaso grande ou fechado.\n• Esfagno compacto e raízes permanentemente úmidas.\n• Replantar fora do início de emissão de novas raízes.\n• Sombra excessiva.\n• Secar demais durante crescimento ativo.\n• Enterrar o rizoma.\n• Confundir pigmentação natural das folhas com doença.\n• Adubação concentrada.\n• Manter planta fria e molhada durante período de menor atividade.",
     dica: "🏆 Replante somente quando a planta estiver pronta para emitir raízes novas. Cattleya aclandiae adere fortemente ao suporte e reage mal a danos extensos em raízes antigas. Sempre que possível, mantenha-a montada em cortiça ou madeira rugosa por muitos anos. Se for necessário intervir, espere as primeiras pontas de raízes novas. No litoral quente, não tente cultivá-la 'seca' o tempo todo: dê bastante água durante atividade, mas faça essa água desaparecer rapidamente com ventilação e raízes expostas.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 77,
-            estrelas: 4,
+            indice: 81,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 61,
-            estrelas: 4,
+            indice: 57,
+            estrelas: 3,
             fatores: {
-                habitatNatural: { nota: 2, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 2, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

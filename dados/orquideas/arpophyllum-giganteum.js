@@ -53,30 +53,30 @@ export const arpophyllumGiganteum = {
     substrato: ["🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.", "🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.", "🥉 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.", "⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco."],
     errosComuns: ["Cultivar em sombra excessiva e obter pseudobulbos alongados sem floração.", "Impor seca severa no inverno.", "Usar vaso leve ou instável para touceira grande.", "Manter substrato compacto e permanentemente molhado.", "Dividir touceiras repetidamente antes de acumularem reservas.", "Cultivar no litoral quente sem ventilação noturna suficiente.", "Enterrar demais o rizoma ou impedir sua expansão lateral."],
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 49,
+            indice: 42,
             estrelas: 3,
             fatores: {
-                habitatNatural: { nota: 2, peso: 20 },
-                temperatura: { nota: 1, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 2, peso: 30 },
+                temperatura: { nota: 1, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 84,
+            indice: 89,
             estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

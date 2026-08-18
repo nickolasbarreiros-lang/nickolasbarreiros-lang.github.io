@@ -33,17 +33,17 @@ export const isabeliaVirginalis = {
     errosComuns: "Remover as bainhas fibrosas; enterrar o rizoma; compactar esfagno ao redor da planta; cultivar em sombra profunda; manter a colônia permanentemente molhada; deixar secar por muitos dias; usar vaso grande e profundo; adubar forte; dividir em pedaços pequenos; manter ambiente abafado.",
     dica: "Preserve a colônia inteira e deixe-a caminhar pelo suporte. Quanto menos você interfere na trama fibrosa e no rizoma rastejante, melhor. Uma placa durável, boa luz e ciclos rápidos de molhamento e secagem produzem uma touceira muito mais bonita do que o cultivo apertado em vaso convencional.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 68,
+            indice: 64,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
@@ -52,11 +52,11 @@ export const isabeliaVirginalis = {
             indice: 69,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

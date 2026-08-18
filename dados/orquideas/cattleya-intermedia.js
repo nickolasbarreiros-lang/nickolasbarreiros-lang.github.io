@@ -42,30 +42,30 @@ export const cattleyaIntermedia = {
     errosComuns: "• Enterrar o rizoma ou as gemas de brotação.\n• Sombra excessiva, que produz pseudobulbos finos e reduz a floração.\n• Vaso muito grande e com excesso de substrato úmido.\n• Substrato velho, ácido ou decomposto.\n• Replantar fora do início da emissão de raízes novas.\n• Manter o centro do recipiente constantemente molhado.\n• Secar excessivamente durante crescimento ativo.\n• Tentar compensar pouca luz com adubação forte.",
     dica: "🏆 Mantenha o rizoma livre e replante apenas quando surgirem as primeiras pontas de raízes novas. Cattleya intermedia responde melhor quando o novo crescimento consegue colonizar imediatamente o recipiente. Em vez de perseguir uma cor exata de folha, observe raízes ativas, pseudobulbos robustos, folhas firmes e floração regular. Preserve touceiras grandes sempre que houver espaço: várias frentes maduras significam mais reservas e maior potencial de flores simultâneas.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 75,
-            estrelas: 4,
+            indice: 83,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 5, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 74,
+            indice: 72,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 4, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 4, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

@@ -41,30 +41,30 @@ export const bryobiumHyacinthoides = {
     errosComuns: "• Dividir touceiras pequenas sem necessidade.\n• Compactar o substrato.\n• Deixar secar por muitos dias.\n• Manter vaso permanentemente saturado.\n• Pouca ventilação em clima quente.\n• Adubação concentrada.\n• Não lixiviar sais periodicamente.\n• Manter Eria hyacinthoides ou Pinalia hyacinthoides como nomes principais.",
     dica: "🏆 Deixe a touceira envelhecer. Exemplares estabelecidos acumulam mais pseudobulbos maduros e têm maior potencial para produzir várias inflorescências simultaneamente. Use recipiente que permita alguns anos de expansão, substrato levemente úmido e muito aerado e faça periodicamente uma rega profunda só com água limpa para remover sais. Em Litoral de clima quente, 60% a 70% de sombra, umidade regular e ventilação constante formam o melhor equilíbrio.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 67,
+            indice: 68,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 4, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 4, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 76,
+            indice: 80,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 4, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 4, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

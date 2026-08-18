@@ -40,30 +40,30 @@ export const catasetumMattosianum = {
     errosComuns: "• Encharcar o broto antes de as raízes novas estarem funcionais.\n• Replantar quando as raízes novas já estão longas e frágeis.\n• Economizar água durante o crescimento vigoroso.\n• Continuar regando normalmente após a queda das folhas.\n• Adubar durante dormência.\n• Remover pseudobulbos traseiros saudáveis, que funcionam como reserva.\n• Usar substrato velho e compacto.\n• Tentar forçar flores femininas com excesso de sol.",
     dica: "🏆Faça o replante no início da brotação, logo após a planta sair da dormência e antes que as novas raízes fiquem compridas. Após o replante, mantenha o vaso relativamente seco até que várias raízes atinjam de 5 a 8 cm de comprimento. Em seguida, aumente a rega para manter a umidade, porem sem encharcar o broto e adote uma adubação leve e frequente, e garanta boa iluminação e ventilação. Com a queda das folhas, suspenda a adubação e deixe o vaso predominantemente seco. Lembre-se de preservar os pseudobulbos antigos saudáveis, pois eles nutrem a próxima brotação.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 65,
+            indice: 67,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 2, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 2, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 63,
+            indice: 62,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

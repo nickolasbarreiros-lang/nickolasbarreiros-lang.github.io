@@ -40,30 +40,30 @@ export const lcTrickOrTreat = {
     errosComuns: "Pouca luz; excesso de nitrogênio na maturação; vaso grande; substrato compactado; rizoma enterrado; regas sem secagem; falta de tutoramento; tentar corrigir a posição da haste depois de endurecida; cortar haste ainda verde; replantar sem raízes novas; dividir a touceira com frequência; somar várias fontes de adubo em dose completa.",
     dica: "Instale o tutor enquanto a haste ainda está crescendo e antes de os botões ganharem peso. Depois que ela endurece, tentar reorientá-la aumenta o risco de quebra. Para florações cheias, combine luz alta filtrada, pseudobulbos bem formados e uma touceira com várias frentes maduras.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
             indice: 61,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 75,
+            indice: 76,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 4, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

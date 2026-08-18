@@ -42,30 +42,30 @@ export const bulbophyllumSyciobulbon = {
     errosComuns: "• Usar vaso pequeno e obrigar replantes frequentes.\n• Enterrar o rizoma ou os pseudobulbos.\n• Confundir alta umidade com ar parado.\n• Manter esfagno compactado e saturado.\n• Deixar a planta secar completamente por longos períodos.\n• Cultivar sob sol direto forte.\n• Adubar em concentração alta.\n• Tentar compensar calor noturno excessivo com encharcamento.",
     dica: "🏆 Planeje o espaço antes do crescimento. Como os pseudobulbos podem ficar separados por 5 a 7 cm, comece com uma placa longa, galho extenso ou cesto largo e raso. Quanto menos a planta precisar ser removida depois de aderir ao suporte, melhor. No litoral quente, priorize o ponto mais fresco e ventilado, mantenha umidade moderada junto às raízes e evite qualquer material que permaneça quente e encharcado durante a noite.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 57,
+            indice: 54,
             estrelas: 3,
             fatores: {
-                habitatNatural: { nota: 2, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 2, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 72,
+            indice: 75,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

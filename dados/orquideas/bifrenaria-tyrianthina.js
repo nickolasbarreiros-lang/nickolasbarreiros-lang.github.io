@@ -42,30 +42,30 @@ export const bifrenariaTyrianthina = {
     errosComuns: "• Manter Bifrenaria verboonenii como espécie aceita independente.\n• Cultivar em local quente e abafado.\n• Tratar a planta como rupícola obrigatoriamente mineral.\n• Secar excessivamente durante crescimento ativo.\n• Impor repouso totalmente seco por meses.\n• Replantar sem raízes novas começando a surgir.\n• Usar substrato compacto.\n• Permitir sol forte aquecendo vaso e raízes.",
     dica: "🏆 No litoral, preocupe-se mais com a temperatura das raízes do que com reproduzir uma fenda de rocha. Use vaso de barro ou cachepô ventilado com casca grossa, pedra-pomes e carvão. Regue bem no crescimento e aumente os intervalos no inverno. Replante quando o novo crescimento começar a emitir as primeiras pontas de raízes. Em Litoral de clima quente, mantenha a planta no ponto mais fresco e ventilado do orquidário.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 53,
+            indice: 52,
             estrelas: 3,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 1, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 80,
-            estrelas: 4,
+            indice: 83,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 3, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 3, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 5, peso: 20 }
             }

@@ -42,30 +42,30 @@ export const camaridiumCarinatum = {
     errosComuns: "• Usar vaso estreito ou profundo.\n• Direcionar a frente de crescimento contra a borda.\n• Enterrar rizoma ou base dos pseudobulbos.\n• Deixar água parada nas bainhas dos brotos.\n• Substrato continuamente saturado.\n• Impor seca severa.\n• Cultivar em sombra excessiva.\n• Aplicar adubo concentrado ou liberação lenta encostada nas brotações.",
     dica: "🏆 No replantio, coloque os pseudobulbos mais antigos próximos a uma borda e direcione a frente ativa para a maior área livre. O recipiente deve ser largo e raso, porque o rizoma avança horizontalmente. A base dos pseudobulbos precisa permanecer descoberta: além de reduzir podridão, isso não bloqueia as inflorescências basais.",
     indiceAdaptacaoRegional: {
-        versao: "IAR 1.0",
+        versao: "IAR 1.1",
         escala: "compatibilidade",
         litoralQuente: {
-            indice: 64,
+            indice: 70,
             estrelas: 4,
             fatores: {
-                habitatNatural: { nota: 3, peso: 20 },
-                temperatura: { nota: 5, peso: 20 },
-                aguaUmidade: { nota: 2, peso: 15 },
-                ventilacao: { nota: 3, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 3, peso: 30 },
+                temperatura: { nota: 5, peso: 30 },
+                aguaUmidade: { nota: 2, peso: 5 },
+                ventilacao: { nota: 3, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 2, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }
         },
         montanhaFrio: {
-            indice: 76,
-            estrelas: 4,
+            indice: 81,
+            estrelas: 5,
             fatores: {
-                habitatNatural: { nota: 5, peso: 20 },
-                temperatura: { nota: 4, peso: 20 },
-                aguaUmidade: { nota: 3, peso: 15 },
-                ventilacao: { nota: 4, peso: 10 },
-                luminosidade: { nota: 3, peso: 10 },
+                habitatNatural: { nota: 5, peso: 30 },
+                temperatura: { nota: 4, peso: 30 },
+                aguaUmidade: { nota: 3, peso: 5 },
+                ventilacao: { nota: 4, peso: 5 },
+                luminosidade: { nota: 3, peso: 5 },
                 sazonalidade: { nota: 5, peso: 5 },
                 floracao: { nota: 3, peso: 20 }
             }

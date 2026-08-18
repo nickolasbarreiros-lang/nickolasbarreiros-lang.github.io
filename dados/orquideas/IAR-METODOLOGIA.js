@@ -1,48 +1,32 @@
-// IAR — Índice de Adaptação Regional v1.0
+// IAR — Índice de Adaptação Regional v1.1
 // Quanto MAIOR o IAR, MELHOR a compatibilidade regional.
 //
-// Cada fator recebe nota de compatibilidade de 0 a 5:
-// 0 = incompatível
-// 1 = muito pouco compatível
-// 2 = pouco compatível
-// 3 = razoavelmente compatível
-// 4 = muito compatível
-// 5 = excelente compatibilidade
-//
 // Pesos:
-// Compatibilidade com habitat/altitude natural .... 20%
-// Compatibilidade térmica ......................... 20%
-// Regime hídrico e umidade ........................ 15%
-// Ventilação ...................................... 10%
-// Compatibilidade luminosa ........................ 10%
-// Sazonalidade / repouso ..........................  5%
-// Probabilidade de floração na região ............. 20%
+// Habitat/altitude natural: 30%
+// Compatibilidade térmica: 30%
+// Regime hídrico e umidade: 5%
+// Ventilação: 5%
+// Compatibilidade luminosa: 5%
+// Sazonalidade / repouso: 5%
+// Probabilidade de floração na região: 20%
 //
 // IAR = Σ [(nota / 5) × peso]
 //
-// Conversão para o selo:
 // 0–20 = ★☆☆☆☆
 // 21–40 = ★★☆☆☆
 // 41–60 = ★★★☆☆
 // 61–80 = ★★★★☆
 // 81–100 = ★★★★★
-//
-// O IAR é calculado separadamente para:
-// - litoral quente
-// - montanha / clima frio
-//
-// O IDC continua sendo independente: IDC mede dificuldade;
-// IAR mede compatibilidade com a região.
 
 export const iarMetodologia = {
-    versao: "IAR 1.0",
+    versao: "IAR 1.1",
     escala: "compatibilidade",
     pesos: {
-        habitatNatural: 20,
-        temperatura: 20,
-        aguaUmidade: 15,
-        ventilacao: 10,
-        luminosidade: 10,
+        habitatNatural: 30,
+        temperatura: 30,
+        aguaUmidade: 5,
+        ventilacao: 5,
+        luminosidade: 5,
         sazonalidade: 5,
         floracao: 20
     },
