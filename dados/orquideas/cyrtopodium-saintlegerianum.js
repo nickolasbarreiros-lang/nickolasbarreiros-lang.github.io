@@ -59,14 +59,14 @@ export const cyrtopodiumSaintlegerianum = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.0",
-        "indice": 19,
+        "versao": "IDC 2.1",
+        "indice": 14,
         "classificacao": "Fácil",
         "cultivoEstrelas": 5,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 0,
-                "peso": 20
+                "peso": 30
             },
             "rega": {
                 "notaDificuldade": 3,
@@ -74,19 +74,19 @@ export const cyrtopodiumSaintlegerianum = {
             },
             "umidade": {
                 "notaDificuldade": 3,
-                "peso": 10
+                "peso": 5
             },
             "ventilacao": {
                 "notaDificuldade": 0,
-                "peso": 10
+                "peso": 5
             },
             "luminosidade": {
                 "notaDificuldade": 0,
-                "peso": 10
+                "peso": 15
             },
             "raizesSubstrato": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 5
             },
             "sazonalidade": {
                 "notaDificuldade": 0,

@@ -57,14 +57,14 @@ export const oncidiumPubes = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.0",
+        "versao": "IDC 2.1",
         "indice": 26,
         "classificacao": "Fácil",
         "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 1,
-                "peso": 20
+                "peso": 30
             },
             "rega": {
                 "notaDificuldade": 1,
@@ -72,19 +72,19 @@ export const oncidiumPubes = {
             },
             "umidade": {
                 "notaDificuldade": 1,
-                "peso": 10
+                "peso": 5
             },
             "ventilacao": {
                 "notaDificuldade": 1,
-                "peso": 10
+                "peso": 5
             },
             "luminosidade": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 15
             },
             "raizesSubstrato": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 5
             },
             "sazonalidade": {
                 "notaDificuldade": 3,

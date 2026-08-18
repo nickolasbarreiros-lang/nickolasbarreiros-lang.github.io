@@ -60,14 +60,14 @@ export const zygopetalumMaculatum = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.0",
-        "indice": 15,
+        "versao": "IDC 2.1",
+        "indice": 13,
         "classificacao": "Fácil",
         "cultivoEstrelas": 5,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 0,
-                "peso": 20
+                "peso": 30
             },
             "rega": {
                 "notaDificuldade": 0,
@@ -75,19 +75,19 @@ export const zygopetalumMaculatum = {
             },
             "umidade": {
                 "notaDificuldade": 0,
-                "peso": 10
+                "peso": 5
             },
             "ventilacao": {
                 "notaDificuldade": 1,
-                "peso": 10
+                "peso": 5
             },
             "luminosidade": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 15
             },
             "raizesSubstrato": {
                 "notaDificuldade": 3,
-                "peso": 10
+                "peso": 5
             },
             "sazonalidade": {
                 "notaDificuldade": 3,

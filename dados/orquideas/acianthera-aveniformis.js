@@ -54,14 +54,14 @@ export const aciantheraAveniformis = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.0",
-        "indice": 26,
+        "versao": "IDC 2.1",
+        "indice": 25,
         "classificacao": "Fácil",
         "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 1,
-                "peso": 20
+                "peso": 30
             },
             "rega": {
                 "notaDificuldade": 1,
@@ -69,19 +69,19 @@ export const aciantheraAveniformis = {
             },
             "umidade": {
                 "notaDificuldade": 1,
-                "peso": 10
+                "peso": 5
             },
             "ventilacao": {
                 "notaDificuldade": 1,
-                "peso": 10
+                "peso": 5
             },
             "luminosidade": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 15
             },
             "raizesSubstrato": {
                 "notaDificuldade": 3,
-                "peso": 10
+                "peso": 5
             },
             "sazonalidade": {
                 "notaDificuldade": 1,

@@ -59,14 +59,14 @@ export const cattleyaWarneri = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.0",
-        "indice": 10,
+        "versao": "IDC 2.1",
+        "indice": 7,
         "classificacao": "Fácil",
         "cultivoEstrelas": 5,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 0,
-                "peso": 20
+                "peso": 30
             },
             "rega": {
                 "notaDificuldade": 1,
@@ -74,19 +74,19 @@ export const cattleyaWarneri = {
             },
             "umidade": {
                 "notaDificuldade": 1,
-                "peso": 10
+                "peso": 5
             },
             "ventilacao": {
                 "notaDificuldade": 0,
-                "peso": 10
+                "peso": 5
             },
             "luminosidade": {
                 "notaDificuldade": 0,
-                "peso": 10
+                "peso": 15
             },
             "raizesSubstrato": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 5
             },
             "sazonalidade": {
                 "notaDificuldade": 1,

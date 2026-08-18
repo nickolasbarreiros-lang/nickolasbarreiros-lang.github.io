@@ -70,14 +70,14 @@ export const phalaenopsisPulcherrima = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.0",
-        "indice": 21,
+        "versao": "IDC 2.1",
+        "indice": 18,
         "classificacao": "Fácil",
-        "cultivoEstrelas": 4,
+        "cultivoEstrelas": 5,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 0,
-                "peso": 20
+                "peso": 30
             },
             "rega": {
                 "notaDificuldade": 2,
@@ -85,19 +85,19 @@ export const phalaenopsisPulcherrima = {
             },
             "umidade": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 5
             },
             "ventilacao": {
                 "notaDificuldade": 1,
-                "peso": 10
+                "peso": 5
             },
             "luminosidade": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 15
             },
             "raizesSubstrato": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 5
             },
             "sazonalidade": {
                 "notaDificuldade": 1,
@@ -191,5 +191,5 @@ export const phalaenopsisPulcherrima = {
         "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
-        avaliacoes: { cultivo: 4, floracao: 5, perfume: 1, luminosidade: 3, agua: 3, raridade: 3 }
+        avaliacoes: { cultivo: 5, floracao: 5, perfume: 1, luminosidade: 3, agua: 3, raridade: 3 }
 };

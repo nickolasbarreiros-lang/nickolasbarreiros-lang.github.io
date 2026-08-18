@@ -60,14 +60,14 @@ export const phalaenopsisMannii = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.0",
-        "indice": 19,
+        "versao": "IDC 2.1",
+        "indice": 20,
         "classificacao": "Fácil",
-        "cultivoEstrelas": 5,
+        "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 1,
-                "peso": 20
+                "peso": 30
             },
             "rega": {
                 "notaDificuldade": 0,
@@ -75,19 +75,19 @@ export const phalaenopsisMannii = {
             },
             "umidade": {
                 "notaDificuldade": 0,
-                "peso": 10
+                "peso": 5
             },
             "ventilacao": {
                 "notaDificuldade": 1,
-                "peso": 10
+                "peso": 5
             },
             "luminosidade": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 15
             },
             "raizesSubstrato": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 5
             },
             "sazonalidade": {
                 "notaDificuldade": 1,
@@ -182,7 +182,7 @@ export const phalaenopsisMannii = {
         "climaFloracao": { "faixa": "intermediario" }
     },
         "avaliacoes": {
-        "cultivo": 5,
+        "cultivo": 4,
         "floracao": 4,
         "perfume": 3,
         "luminosidade": 2,

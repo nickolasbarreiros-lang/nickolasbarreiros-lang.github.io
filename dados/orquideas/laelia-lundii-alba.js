@@ -56,14 +56,14 @@ export const laeliaLundiiAlba = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.0",
-        "indice": 23,
+        "versao": "IDC 2.1",
+        "indice": 18,
         "classificacao": "Fácil",
-        "cultivoEstrelas": 4,
+        "cultivoEstrelas": 5,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 0,
-                "peso": 20
+                "peso": 30
             },
             "rega": {
                 "notaDificuldade": 2,
@@ -71,19 +71,19 @@ export const laeliaLundiiAlba = {
             },
             "umidade": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 5
             },
             "ventilacao": {
                 "notaDificuldade": 1,
-                "peso": 10
+                "peso": 5
             },
             "luminosidade": {
                 "notaDificuldade": 1,
-                "peso": 10
+                "peso": 15
             },
             "raizesSubstrato": {
                 "notaDificuldade": 3,
-                "peso": 10
+                "peso": 5
             },
             "sazonalidade": {
                 "notaDificuldade": 3,
@@ -178,7 +178,7 @@ export const laeliaLundiiAlba = {
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {
-        cultivo: 4,
+        cultivo: 5,
         floracao: 3,
         perfume: 2,
         luminosidade: 4,

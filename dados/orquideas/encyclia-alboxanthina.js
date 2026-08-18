@@ -69,14 +69,14 @@ export const encycliaAlboxanthina = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.0",
-        "indice": 22,
+        "versao": "IDC 2.1",
+        "indice": 17,
         "classificacao": "Fácil",
-        "cultivoEstrelas": 4,
+        "cultivoEstrelas": 5,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 0,
-                "peso": 20
+                "peso": 30
             },
             "rega": {
                 "notaDificuldade": 3,
@@ -84,19 +84,19 @@ export const encycliaAlboxanthina = {
             },
             "umidade": {
                 "notaDificuldade": 3,
-                "peso": 10
+                "peso": 5
             },
             "ventilacao": {
                 "notaDificuldade": 0,
-                "peso": 10
+                "peso": 5
             },
             "luminosidade": {
                 "notaDificuldade": 0,
-                "peso": 10
+                "peso": 15
             },
             "raizesSubstrato": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 5
             },
             "sazonalidade": {
                 "notaDificuldade": 3,
@@ -190,5 +190,5 @@ export const encycliaAlboxanthina = {
         "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
-        avaliacoes: { cultivo: 4, floracao: 4, perfume: 4, luminosidade: 4, agua: 2, raridade: 5 }
+        avaliacoes: { cultivo: 5, floracao: 4, perfume: 4, luminosidade: 4, agua: 2, raridade: 5 }
 };

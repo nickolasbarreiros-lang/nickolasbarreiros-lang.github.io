@@ -50,14 +50,14 @@ export const huntleyaMeleagris = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.0",
+        "versao": "IDC 2.1",
         "indice": 11,
         "classificacao": "Fácil",
         "cultivoEstrelas": 5,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 0,
-                "peso": 20
+                "peso": 30
             },
             "rega": {
                 "notaDificuldade": 0,
@@ -65,19 +65,19 @@ export const huntleyaMeleagris = {
             },
             "umidade": {
                 "notaDificuldade": 0,
-                "peso": 10
+                "peso": 5
             },
             "ventilacao": {
                 "notaDificuldade": 0,
-                "peso": 10
+                "peso": 5
             },
             "luminosidade": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 15
             },
             "raizesSubstrato": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 5
             },
             "sazonalidade": {
                 "notaDificuldade": 3,

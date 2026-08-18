@@ -57,14 +57,14 @@ export const cattleyaPumpkinFestival = {
         ]
     },
     indiceDificuldadeCultivo: {
-        "versao": "IDC 2.0",
-        "indice": 27,
+        "versao": "IDC 2.1",
+        "indice": 25,
         "classificacao": "Fácil",
         "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 1,
-                "peso": 20
+                "peso": 30
             },
             "rega": {
                 "notaDificuldade": 2,
@@ -72,19 +72,19 @@ export const cattleyaPumpkinFestival = {
             },
             "umidade": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 5
             },
             "ventilacao": {
                 "notaDificuldade": 1,
-                "peso": 10
+                "peso": 5
             },
             "luminosidade": {
                 "notaDificuldade": 1,
-                "peso": 10
+                "peso": 15
             },
             "raizesSubstrato": {
                 "notaDificuldade": 2,
-                "peso": 10
+                "peso": 5
             },
             "sazonalidade": {
                 "notaDificuldade": 1,
