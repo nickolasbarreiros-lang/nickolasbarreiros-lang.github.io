@@ -27,8 +27,8 @@ export const sophronitisCernua = {
     climaFloracao: "A espécie responde melhor à combinação de pseudobulbos maduros, luminosidade alta, ventilação constante e alguma diferença térmica entre dia e noite. Populações litorâneas mostram que frio intenso não é requisito universal. No litoral quente, o ponto-chave é manter raízes aeradas e evitar abafamento durante noites quentes.",
     iluminacao: {
         sombrite: "30% a 50%",
-        solDireto: "Permitido com restrição",
-        horario: "Início da manhã ou final da tarde",
+        solDireto: "Sol pleno",
+        horario: "Sol pleno",
         observacoes: "Folhas verde-claras com tonalidade avermelhada ou arroxeada indicam boa luminosidade. Folhas verde-escuras, moles ou brotações alongadas indicam falta de luz."
     },
     floracao: "A floração ocorre principalmente entre o fim do inverno e a primavera, podendo variar conforme a procedência e o microclima. As inflorescências curtas carregam geralmente 4 a 10 flores pendentes, laranja a vermelho-vivo, com cerca de 2 a 3 cm. Plantas bem iluminadas e com crescimento compacto costumam florir com maior regularidade.",

@@ -31,8 +31,8 @@ export const cyrtopodiumPodophyllum = {
     "climaFloracao": "A espécie ocorre desde a costa muito quente até altitudes próximas de 1.100 m, portanto não deve ser classificada por uma única temperatura. No litoral, o calor não é o principal problema; são mais importantes sol suficiente, drenagem extrema e respeito ao ritmo sazonal. Durante o crescimento, água e nutrientes sustentam pseudobulbos robustos. Quando as folhas amarelecem e caem, a atividade diminui e a rega deve acompanhar essa mudança, sem transformar a dormência em uma seca absoluta automática.",
     "iluminacao": {
         "sombrite": "30% a 50%",
-        "solDireto": "Permitido com restrição",
-        "horario": "Início da manhã ou final da tarde",
+        "solDireto": "Sol pleno",
+        "horario": "Sol pleno",
         "observacoes": "É uma espécie de alta luminosidade. Plantas encontradas em restinga podem crescer muito próximas ao litoral, mas exemplares cultivados sob sombra não devem ser transferidos abruptamente ao sol pleno. Pseudobulbos grossos e crescimento compacto indicam luz adequada."
     },
     "floracao": "Principalmente na primavera e início do verão. As inflorescências surgem da base, são ramificadas, muito floríferas e podem medir aproximadamente 60 cm a 1,5 m. As flores, em geral amarelas, medem cerca de 2,5–4 cm, podem ser perfumadas e apresentam boa duração. A intensidade da floração depende fortemente das reservas acumuladas nos pseudobulbos durante o ciclo anterior.",

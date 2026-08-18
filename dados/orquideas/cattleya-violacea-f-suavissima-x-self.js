@@ -29,8 +29,8 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     "climaFloracao": "A floração é favorecida por pseudobulbos maduros, noites quentes, luminosidade constante e sistema radicular saudável. A planta não deve ser induzida por frio ou seca intensa. Temperaturas baixas, água muito salina, fertilização concentrada e substrato degradado interrompem o crescimento e reduzem o tamanho e a qualidade das flores. Como se trata de progênie self, o período exato de floração pode variar entre indivíduos.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Permitido com restrição",
-        "horario": "Início da manhã ou final da tarde",
+        "solDireto": "Sol pleno",
+        "horario": "Sol pleno",
         "observacoes": "Luz brilhante e filtrada é essencial. Folhas verde-médio e pseudobulbos firmes indicam equilíbrio. Sombra produz pseudobulbos finos; sol forte causa amarelecimento e queimaduras."
     },
     "floracao": "Floresce principalmente da primavera ao verão, entre outubro e março, com variação conforme o indivíduo e o microclima. As flores tendem a apresentar sépalas e pétalas muito claras, em rosa-esbranquiçado ou lilás suave, e labelo magenta com área amarelada na garganta. Plantas jovens podem alterar tamanho e intensidade de cor nas primeiras florações até alcançarem maturidade.",

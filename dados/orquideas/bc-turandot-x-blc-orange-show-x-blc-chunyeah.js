@@ -26,7 +26,7 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     climaFloracao: "No litoral quente e úmido, o calor favorece a formação dos novos pseudobulbos. Para florescer com regularidade, precisa receber luminosidade filtrada forte, amadurecer completamente cada crescimento e apresentar raízes ativas. Uma discreta queda da temperatura noturna e leve redução da adubação nitrogenada na maturação podem favorecer a emissão da bainha e dos botões.",
     iluminacao: {
         sombrite: "50%",
-        solDireto: "Permitido",
+        solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
         observacoes: "Cultive sob claridade intensa, com sombrite de 50% ou luz filtrada equivalente. Folhas verde-claras e eretas indicam níveis ideais de luz. Pseudobulbos muito estiolados, compridos e finos, e folhas verde-escuras revelam falta de iluminação, enquanto amarelamento acentuado e manchas secas indicam queimadura por sol direto sem adaptação."
     },

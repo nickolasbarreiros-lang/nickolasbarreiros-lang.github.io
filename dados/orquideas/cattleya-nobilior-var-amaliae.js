@@ -31,7 +31,7 @@ export const cattleyaNobiliorVarAmaliae = {
     climaFloracao: "A floração é favorecida por pseudobulbos completamente maduros, luminosidade muito alta e forte redução hídrica no período seco. A planta frequentemente emite crescimento floral especializado e sem folhas a partir da região basal ou rizomatosa. O princípio correto é reproduzir a sazonalidade: crescimento com água e nutrição suficientes, seguido de repouso realmente mais seco, mas sem permitir desidratação severa e prolongada.",
     iluminacao: {
         sombrite: "30% a 50% — cerca de 40% como ponto inicial",
-        solDireto: "Permitido com restrição",
+        solDireto: "Permitido",
         horario: "Início da manhã ou final da tarde",
         observacoes: "Necessita luminosidade muito alta. O objetivo é manter folhas firmes, compactas e verde-claras, sem buscar amarelecimento como sinal obrigatório. Folhas verde-escuras sugerem falta de luz; amarelecimento intenso ou manchas secas indicam excesso de sol ou calor."
     },
