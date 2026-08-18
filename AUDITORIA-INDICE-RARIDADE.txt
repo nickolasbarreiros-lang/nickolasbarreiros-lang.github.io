@@ -1,8 +1,0 @@
-ÍNDICE DE RARIDADE V1.0 IMPLEMENTADO
-Data: 2026-08-14
-
-Fichas encontradas: 139
-Fichas com fatores completos do novo índice: 0
-Fichas ainda usando nota legada: 139
-
-Importante: o motor está implementado, mas as notas legadas NÃO foram artificialmente convertidas em fatores científicos. Cada espécie precisa receber EOO/AOO, ocorrências, endemismo/habitat, conservação, população/fragmentação e ameaças a partir de fontes confiáveis. Isso evita criar uma falsa precisão estatística.

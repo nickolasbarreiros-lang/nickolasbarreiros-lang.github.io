@@ -1,6 +1,0 @@
-PADRÃO DO SELO SOL DIRETO
-
-Todas as formas negativas ('Não', 'Não recomendado', 'Não necessário', 'Evitar', 'Sem sol direto' e equivalentes) foram padronizadas para:
-SOL DIRETO: Não permitido
-
-Quando o sol direto não é permitido, o campo Horário recomendado permanece vazio.
