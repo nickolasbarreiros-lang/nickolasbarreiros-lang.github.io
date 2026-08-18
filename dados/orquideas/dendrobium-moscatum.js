@@ -7,6 +7,21 @@ export const dendrobiumMoscatum = {
     "genero": "Dendrobium",
     "tipo": "Espécie botânica — epífita flexível em cultivo",
     "dificuldade": "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 35,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 0, peso: 18 },
+            agua: { nota: 2, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 4, peso: 12 },
+            floracao: { nota: 2, peso: 20 }
+        }
+    },
     "caracteristicas": [
         "Espécie asiática de grande porte",
         "Hastes longas, robustas e arqueadas",
@@ -55,7 +70,7 @@ export const dendrobiumMoscatum = {
         "climaFloracao": { "faixa": "quente" }
     },
     "avaliacoes": {
-        "cultivo": 3,
+        "cultivo": 2,
         "floracao": 4,
         "perfume": 3,
         "luminosidade": 4,

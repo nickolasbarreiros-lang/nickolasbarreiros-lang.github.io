@@ -7,7 +7,22 @@ export const promenaeaGuttata = {
     "genero": "Promenaea",
     "sinonimo": "Promenaea guttata",
     "tipo": "Espécie botânica — subespécie",
-    "dificuldade": "Moderada a avançada",
+    "dificuldade": "Difícil",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 55,
+        nivel: "Difícil",
+        fatores: {
+            temperatura: { nota: 2, peso: 18 },
+            agua: { nota: 4, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 3, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     "caracteristicas": [
         "Miniatura epífita brasileira",
         "Pseudobulbos pequenos e agrupados",

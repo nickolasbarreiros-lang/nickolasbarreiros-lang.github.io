@@ -6,6 +6,21 @@ export const aciantheraBragae = {
     tipo: "Espécie botânica",
     sinonimo: "Pleurothallis sarracenia",
     dificuldade: "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 29,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 0, peso: 18 },
+            agua: { nota: 2, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 3, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 2, peso: 20 }
+        }
+    },
     origem: "Brasil — regiões Sudeste e Sul.",
     regiao: "Mata Atlântica do Sudeste e Sul do Brasil.",
     habitat: "Epífita ou litófita de floresta tropical úmida.",
@@ -21,7 +36,7 @@ export const aciantheraBragae = {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
-    avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
+    avaliacoes: { cultivo: 2, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
     mesesFloracao: [8, 9, 10],
     clima: "Quente a intermediário, úmido, sombreado e ventilado.",
     climaFloracao: "A faixa altitudinal aproximada de 700–1.000 m indica noites naturalmente mais amenas que as do litoral, mas a espécie é descrita em referência de cultivo como de crescimento quente. Portanto, não exige frio intenso. No litoral quente, priorize redução do calor acumulado noturno, sombra luminosa e ventilação contínua, sobretudo durante a maturação dos novos crescimentos.",

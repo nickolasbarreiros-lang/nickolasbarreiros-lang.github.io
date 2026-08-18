@@ -7,6 +7,21 @@ export const renantheraCoccinea = {
     "sinonimo": "Epidendrum renanthera",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 30,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     "caracteristicas": [
         "Monopodial de grande porte",
         "Crescimento alto e trepador",
@@ -52,7 +67,7 @@ export const renantheraCoccinea = {
         "climaFloracao": { "faixa": "intermediario" }
     },
     "avaliacoes": {
-        "cultivo": 3,
+        "cultivo": 2,
         "floracao": 4,
         "perfume": 1,
         "luminosidade": 5,

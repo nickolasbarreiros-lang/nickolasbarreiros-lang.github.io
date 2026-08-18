@@ -7,7 +7,22 @@ export const bulbophyllumAmbrosia = {
     genero: "Bulbophyllum",
     sinonimo: "Eria ambrosia",
     tipo: "Espécie botânica epífita ou litófita asiática",
-    dificuldade: "Moderada",
+    dificuldade: "Difícil",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 52,
+        nivel: "Difícil",
+        fatores: {
+            temperatura: { nota: 2, peso: 18 },
+            agua: { nota: 3, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 3, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
+    },
     caracteristicas: [
         "Miniatura perfumada",
         "Flor solitária de ~2,8 cm",

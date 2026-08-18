@@ -7,6 +7,21 @@ export const gongoraBufonia = {
     sinonimo: "Gongora irrorata",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 43,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 3, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     caracteristicas: ["Espécie brasileira", "Hastes pendentes", "Flores esculturais", "Perfume intenso", "Cultivo em cesto"],
     fotos: [
         "imagens/Gongora bufonia/Gongora bufonia1.jpeg",

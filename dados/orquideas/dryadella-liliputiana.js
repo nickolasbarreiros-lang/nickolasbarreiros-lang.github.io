@@ -7,7 +7,22 @@ export const dryadellaLiliputiana = {
     genero: "Dryadella",
     sinonimo: "Masdevallia lilliputiana",
     tipo: "Espécie botânica",
-    dificuldade: "Exigente",
+    dificuldade: "Difícil",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 59,
+        nivel: "Difícil",
+        fatores: {
+            temperatura: { nota: 4, peso: 18 },
+            agua: { nota: 4, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 3, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     caracteristicas: [
         "Micro-orquídea",
         "Brasil e Bolívia",
@@ -53,7 +68,7 @@ export const dryadellaLiliputiana = {
         "climaFloracao": { "faixa": "intermediario", "quedaTermica": true }
     },
     avaliacoes: {
-        cultivo: 5,
+        cultivo: 3,
         floracao: 3,
         perfume: 1,
         luminosidade: 2,

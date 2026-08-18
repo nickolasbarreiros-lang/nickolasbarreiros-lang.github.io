@@ -6,7 +6,22 @@ export const isochilusLinearis = {
     genero: "Isochilus",
     sinonimo: "Epidendrum lineare",
     tipo: "Espécie botânica",
-    dificuldade: "Fácil a moderada",
+    dificuldade: "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 44,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 4, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 2, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     caracteristicas: ["Ampla distribuição americana", "Epífita e rupícola", "Caules finos e folhosos", "Sem pseudobulbos", "Flores tubulares rosadas", "Forma grandes touceiras"],
     fotos: [
         "imagens/Isochilus linearis/isochilus linearis1.jpg",
@@ -42,5 +57,5 @@ export const isochilusLinearis = {
         "rega": { "nivel": "constante", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
-    avaliacoes: { cultivo: 2, floracao: 4, perfume: 1, luminosidade: 3, agua: 4, raridade: 3 }
+    avaliacoes: { cultivo: 3, floracao: 4, perfume: 1, luminosidade: 3, agua: 4, raridade: 3 }
 };

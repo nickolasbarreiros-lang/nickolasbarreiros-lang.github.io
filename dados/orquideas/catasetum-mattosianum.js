@@ -5,7 +5,22 @@ export const catasetumMattosianum = {
     nome: "Catasetum mattosianum",
     genero: "Catasetum",
     tipo: "Espécie botânica brasileira — caducifólia",
-    dificuldade: "Fácil a moderada",
+    dificuldade: "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 36,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 3, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 4, peso: 12 },
+            floracao: { nota: 1, peso: 20 }
+        }
+    },
     caracteristicas: [
         "Endêmica do Brasil",
         "Bahia e Espírito Santo",

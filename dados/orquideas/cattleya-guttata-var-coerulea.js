@@ -8,7 +8,22 @@ export const cattleyaGuttataVarCoerulea = {
     genero: "Cattleya",
     sinonimo: "Epidendrum elatius",
     tipo: "Espécie botânica — forma horticultural coerulea",
-    dificuldade: "Moderada",
+    dificuldade: "Difícil",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 53,
+        nivel: "Difícil",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 4, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
+    },
     caracteristicas: [
         "Bifoliada de grande porte",
         "Forma coerulea",

@@ -5,7 +5,22 @@ export const encycliaMineirinha = {
     nome: "Encyclia ‘Mineirinha’",
     genero: "Encyclia",
     tipo: "Híbrido primário interespecífico",
-    dificuldade: "Fácil a moderada",
+    dificuldade: "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 39,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 0, peso: 18 },
+            agua: { nota: 2, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     caracteristicas: ["Híbrido brasileiro", "Hastes multiflorais", "Flores perfumadas", "Boa adaptação"],
     fotos: [
         "imagens/encyclia-mineirinha/encyclia-mineirinha-1.jpg",

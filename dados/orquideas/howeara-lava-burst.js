@@ -6,7 +6,22 @@ export const howearaLavaBurst = {
     genero: "Leomesezia",
     sinonimo: "Howeara Lava Burst",
     tipo: "Híbrido intergenérico",
-    dificuldade: "Fácil",
+    dificuldade: "Difícil",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 53,
+        nivel: "Difícil",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 4, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 3, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
+    },
     caracteristicas: ["Mini-orquídea", "Flores vermelho-alaranjadas", "Touceira compacta", "Floração recorrente", "Raízes finas"],
     fotos: [
         "imagens/Howeara Lava Burst/Howeara Lava Burst1.jpg",
@@ -42,5 +57,5 @@ export const howearaLavaBurst = {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
-    avaliacoes: { cultivo: 2, floracao: 5, perfume: 1, luminosidade: 3, agua: 4, raridade: 2 }
+    avaliacoes: { cultivo: 3, floracao: 5, perfume: 1, luminosidade: 3, agua: 4, raridade: 2 }
 };

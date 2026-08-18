@@ -6,7 +6,22 @@ export const pabstiellaTrifida = {
     "genero": "Pabstiella",
     "sinonimo": "Pleurothallis trifida",
     "tipo": "Espécie botânica",
-    "dificuldade": "Moderada a difícil no calor",
+    "dificuldade": "Difícil",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 54,
+        nivel: "Difícil",
+        fatores: {
+            temperatura: { nota: 3, peso: 18 },
+            agua: { nota: 4, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     "caracteristicas": [
         "Pleurothallidinae brasileira",
         "Miniatura sem pseudobulbos",
@@ -54,7 +69,7 @@ export const pabstiellaTrifida = {
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
     "avaliacoes": {
-        "cultivo": 4,
+        "cultivo": 3,
         "floracao": 3,
         "perfume": 1,
         "luminosidade": 1,

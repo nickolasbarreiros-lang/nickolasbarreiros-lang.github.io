@@ -6,7 +6,22 @@ export const cattleyaLueddemannianaTipo = {
     genero: "Cattleya",
     sinonimo: "Cattleya roezlii",
     tipo: "Espécie botânica — forma tipo",
-    dificuldade: "Fácil a moderada",
+    dificuldade: "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 35,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
+    },
     caracteristicas: [
         "Unifoliada venezuelana",
         "Flores muito grandes",

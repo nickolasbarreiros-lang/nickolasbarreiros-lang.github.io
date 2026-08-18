@@ -7,6 +7,21 @@ export const maxillariaSchunkeana = {
     "sinonimo": "Brasiliorchis schunkeana",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 44,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 2, peso: 18 },
+            agua: { nota: 2, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
+    },
     "caracteristicas": [
         "Endêmica do Espírito Santo",
         "Orquídea-negra brasileira",

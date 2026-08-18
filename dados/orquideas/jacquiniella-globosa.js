@@ -6,7 +6,22 @@ export const jacquiniellaGlobosa = {
     genero: "Jacquiniella",
     sinonimo: "Epidendrum globosum",
     tipo: "Espécie botânica",
-    dificuldade: "Moderada",
+    dificuldade: "Difícil",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 52,
+        nivel: "Difícil",
+        fatores: {
+            temperatura: { nota: 2, peso: 18 },
+            agua: { nota: 4, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     caracteristicas: [
         "Miniatura epífita ou litófita",
         "Sem pseudobulbos verdadeiros",

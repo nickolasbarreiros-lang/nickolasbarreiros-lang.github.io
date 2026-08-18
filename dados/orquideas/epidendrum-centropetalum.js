@@ -6,7 +6,22 @@ export const epidendrumCentropetalum = {
     nome: "Epidendrum centropetalum",
     genero: "Epidendrum",
     tipo: "Espécie botânica epífita centro-americana",
-    dificuldade: "Avançada",
+    dificuldade: "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 48,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 3, peso: 18 },
+            agua: { nota: 3, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 2, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     caracteristicas: [
         "Sin. Oerstedella centradenia",
         "Flores rosa intenso",
@@ -63,7 +78,7 @@ export const epidendrumCentropetalum = {
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
     avaliacoes: {
-        cultivo: 4,
+        cultivo: 3,
         floracao: 4,
         perfume: 1,
         luminosidade: 3,

@@ -8,6 +8,21 @@ export const speckliniaGrobyi = {
     "sinonimo": "Pleurothallis grobyi",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 37,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 2, peso: 18 },
+            agua: { nota: 2, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 3, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 1, peso: 20 }
+        }
+    },
     "caracteristicas": [
         "Miniatura epífita neotropical",
         "Crescimento cespitoso",
@@ -66,7 +81,7 @@ export const speckliniaGrobyi = {
         "climaFloracao": { "faixa": "intermediario" }
     },
     "avaliacoes": {
-        "cultivo": 3,
+        "cultivo": 2,
         "floracao": 4,
         "perfume": 1,
         "luminosidade": 2,

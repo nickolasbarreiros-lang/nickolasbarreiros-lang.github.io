@@ -6,7 +6,22 @@ export const gomesaRecurva = {
     genero: "Gomesa",
     sinonimo: "Rodriguezia recurva",
     tipo: "Espécie botânica",
-    dificuldade: "Fácil a moderada",
+    dificuldade: "Difícil",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 55,
+        nivel: "Difícil",
+        fatores: {
+            temperatura: { nota: 5, peso: 18 },
+            agua: { nota: 2, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     caracteristicas: ["Espécie-tipo de Gomesa", "Hastes arqueadas", "Floração abundante", "Clima sazonal", "Brasil a Argentina"],
     fotos: [
         "imagens/Gomesa recurva/Gomesa recurva1.jpg",
@@ -42,5 +57,5 @@ export const gomesaRecurva = {
         "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "ameno" }
     },
-    avaliacoes: { cultivo: 2, floracao: 4, perfume: 2, luminosidade: 4, agua: 3, raridade: 3 }
+    avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 4, agua: 3, raridade: 3 }
 };

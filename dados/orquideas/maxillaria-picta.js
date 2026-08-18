@@ -6,7 +6,22 @@ export const maxillariaPicta = {
     "genero": "Maxillaria",
     "sinonimo": "Brasiliorchis picta",
     "tipo": "Espécie botânica",
-    "dificuldade": "Moderada",
+    "dificuldade": "Difícil",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 57,
+        nivel: "Difícil",
+        fatores: {
+            temperatura: { nota: 4, peso: 18 },
+            agua: { nota: 2, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 4, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
+    },
     "caracteristicas": [
         "Epífita ou litófita",
         "Touceiras densas",

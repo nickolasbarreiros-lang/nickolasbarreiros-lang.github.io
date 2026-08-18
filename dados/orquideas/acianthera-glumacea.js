@@ -5,7 +5,22 @@ export const aciantheraGlumacea = {
     genero: "Acianthera",
     tipo: "Espécie botânica",
     sinonimo: "Pleurothallis glumacea",
-    dificuldade: "Moderada a exigente no litoral quente",
+    dificuldade: "Difícil",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 53,
+        nivel: "Difícil",
+        fatores: {
+            temperatura: { nota: 4, peso: 18 },
+            agua: { nota: 2, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 4, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     origem: "Brasil — regiões Sudeste e Sul.",
     regiao: "Mata Atlântica serrana do Sudeste e Sul do Brasil.",
     habitat: "Epífita de floresta primária úmida.",
@@ -21,7 +36,7 @@ export const aciantheraGlumacea = {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
-    avaliacoes: { cultivo: 4, floracao: 4, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
+    avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
     clima: "Intermediário a fresco, úmido e muito ventilado.",
     climaFloracao: "A ocorrência em torno de 1.300 m explica a preferência por condições frescas. No litoral quente, a dificuldade não é apenas a temperatura máxima diurna, mas principalmente noites persistentemente quentes combinadas a umidade parada. Mantenha-a no setor mais fresco e ventilado, evitando superfícies que irradiem calor à noite. Uma amplitude térmica moderada e o amadurecimento completo dos ramicaules favorecem florações mais consistentes.",

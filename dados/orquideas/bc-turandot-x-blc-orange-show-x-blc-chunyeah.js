@@ -5,7 +5,22 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     nome: "Brassocattleya Turandot × (Rhyncholaeliocattleya Orange Show × Rlc. Chunyeah)",
     genero: "Brassocattleya / Rhyncholaeliocattleya",
     tipo: "Híbrido horticultural complexo",
-    dificuldade: "Fácil a moderada",
+    dificuldade: "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 27,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 0, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 2, peso: 12 },
+            floracao: { nota: 2, peso: 20 }
+        }
+    },
     caracteristicas: [
         "Híbrido da aliança Cattleya",
         "Flores grandes e coloridas",
@@ -47,7 +62,7 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
         "climaFloracao": { "faixa": "quente" }
     },
     avaliacoes: {
-        cultivo: 4,
+        cultivo: 2,
         floracao: 4,
         perfume: 3,
         luminosidade: 4,

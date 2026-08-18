@@ -6,7 +6,22 @@ export const laeliaGloriosa = {
     genero: "Laelia",
     sinonimo: "Schomburgkia gloriosa",
     tipo: "Espécie botânica",
-    dificuldade: "Fácil a moderada",
+    dificuldade: "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 34,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 2, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     caracteristicas: [
         "Espécie epífita de grande porte",
         "Pseudobulbos fusiformes e robustos",
@@ -49,7 +64,7 @@ export const laeliaGloriosa = {
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
     avaliacoes: {
-        cultivo: 3,
+        cultivo: 2,
         floracao: 4,
         perfume: 2,
         luminosidade: 5,

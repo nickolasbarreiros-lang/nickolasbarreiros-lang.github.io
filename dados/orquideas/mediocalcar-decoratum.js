@@ -5,7 +5,22 @@ export const mediocalcarDecoratum = {
     "nome": "Mediocalcar decoratum",
     "genero": "Mediocalcar",
     "tipo": "Espécie botânica",
-    "dificuldade": "Avançada",
+    "dificuldade": "Difícil",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 60,
+        nivel: "Difícil",
+        fatores: {
+            temperatura: { nota: 4, peso: 18 },
+            agua: { nota: 4, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 3, peso: 15 },
+            cicloRepouso: { nota: 2, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     "caracteristicas": [
         "Miniatura epífita rasteira",
         "Flores em forma de pequenas lanternas",
@@ -48,7 +63,7 @@ export const mediocalcarDecoratum = {
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
     "avaliacoes": {
-        "cultivo": 4,
+        "cultivo": 3,
         "floracao": 3,
         "perfume": 1,
         "luminosidade": 2,

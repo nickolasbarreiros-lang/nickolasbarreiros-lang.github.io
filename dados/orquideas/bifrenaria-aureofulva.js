@@ -6,7 +6,22 @@ export const bifrenariaAureofulva = {
     genero: "Bifrenaria",
     sinonimo: "Maxillaria aureofulva",
     tipo: "Espécie botânica",
-    dificuldade: "Moderada",
+    dificuldade: "Difícil",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 58,
+        nivel: "Difícil",
+        fatores: {
+            temperatura: { nota: 3, peso: 18 },
+            agua: { nota: 4, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 4, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     caracteristicas: [
         "Brasileira",
         "Flores amarelo-alaranjadas",

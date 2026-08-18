@@ -7,6 +7,21 @@ export const miltoniaRusselliana = {
     genero: "Miltonia",
     tipo: "Espécie botânica epífita brasileira",
     dificuldade: "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 48,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 2, peso: 18 },
+            agua: { nota: 4, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     caracteristicas: [
         "Espécie brasileira",
         "Mata Atlântica",

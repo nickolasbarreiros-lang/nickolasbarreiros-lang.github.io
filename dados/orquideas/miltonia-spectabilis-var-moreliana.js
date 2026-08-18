@@ -7,6 +7,21 @@ export const miltoniaSpectabilisVarMoreliana = {
     "sinonimo": "Miltonia spectabilis var. moreliana",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 36,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 2, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     "caracteristicas": [
         "Espécie plena anteriormente tratada como variedade",
         "Flor grande roxo-vinho",
@@ -49,7 +64,7 @@ export const miltoniaSpectabilisVarMoreliana = {
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
     "avaliacoes": {
-        "cultivo": 3,
+        "cultivo": 2,
         "floracao": 4,
         "perfume": 3,
         "luminosidade": 3,

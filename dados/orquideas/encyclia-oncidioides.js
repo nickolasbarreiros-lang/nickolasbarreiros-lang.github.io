@@ -6,7 +6,22 @@ export const encycliaOncidioides = {
     genero: "Encyclia",
     sinonimo: "Epidendrum oncidioides",
     tipo: "Espécie botânica",
-    dificuldade: "Fácil a moderada",
+    dificuldade: "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 31,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 0, peso: 18 },
+            agua: { nota: 2, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 1, peso: 20 }
+        }
+    },
     caracteristicas: ["Espécie brasileira", "Alta luminosidade", "Haste ramificada", "Flores perfumadas", "Porte médio a grande"],
     fotos: [
         "imagens/Encyclia oncidioides/Encyclia oncidioides1.jpg",

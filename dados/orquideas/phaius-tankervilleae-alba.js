@@ -7,7 +7,22 @@ export const phaiusTankervilleaeAlba = {
     "genero": "Calanthe",
     "sinonimo": "Phaius tankervilleae",
     "tipo": "Espécie botânica — forma alba horticultural",
-    "dificuldade": "Fácil",
+    "dificuldade": "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 47,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 4, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
+    },
     "caracteristicas": [
         "Terrestre de grande porte",
         "Folhas largas e plissadas",
@@ -53,7 +68,7 @@ export const phaiusTankervilleaeAlba = {
         "climaFloracao": { "faixa": "intermediario" }
     },
     "avaliacoes": {
-        "cultivo": 4,
+        "cultivo": 3,
         "floracao": 4,
         "perfume": 2,
         "luminosidade": 3,

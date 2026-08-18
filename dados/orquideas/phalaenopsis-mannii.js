@@ -7,6 +7,21 @@ export const phalaenopsisMannii = {
     "sinonimo": "Polychilos mannii",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 28,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 2, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 1, peso: 20 }
+        }
+    },
     "caracteristicas": [
         "Epífita de porte pequeno a médio",
         "Crescimento levemente pendente",
@@ -52,7 +67,7 @@ export const phalaenopsisMannii = {
         "climaFloracao": { "faixa": "intermediario" }
     },
     "avaliacoes": {
-        "cultivo": 3,
+        "cultivo": 2,
         "floracao": 4,
         "perfume": 3,
         "luminosidade": 2,

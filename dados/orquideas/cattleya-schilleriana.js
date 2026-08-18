@@ -6,7 +6,22 @@ export const cattleyaSchilleriana = {
     "genero": "Cattleya",
     "sinonimo": "Epidendrum schillerianum",
     "tipo": "Espécie botânica",
-    "dificuldade": "Avançada",
+    "dificuldade": "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 41,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 0, peso: 18 },
+            agua: { nota: 2, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 3, peso: 15 },
+            cicloRepouso: { nota: 4, peso: 12 },
+            floracao: { nota: 2, peso: 20 }
+        }
+    },
     "caracteristicas": [
         "Espécie botânica brasileira rara",
         "Bifoliada compacta e de crescimento lento",
@@ -56,7 +71,7 @@ export const cattleyaSchilleriana = {
         "climaFloracao": { "faixa": "quente" }
     },
     "avaliacoes": {
-        "cultivo": 2,
+        "cultivo": 3,
         "floracao": 3,
         "perfume": 4,
         "luminosidade": 4,

@@ -6,6 +6,21 @@ export const aciantheraAveniformis = {
     tipo: "Espécie botânica — nome atualmente tratado por Kew como Pabstiella aveniformis",
     sinonimo: "Pleurothallis aveniformis",
     dificuldade: "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 43,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 2, peso: 18 },
+            agua: { nota: 2, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 1, peso: 8 },
+            raizes: { nota: 3, peso: 15 },
+            cicloRepouso: { nota: 1, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     origem: "Brasil — Sul do país.",
     regiao: "Mata Atlântica do Sul do Brasil, em ambientes florestais úmidos.",
     habitat: "Micro-orquídea epífita de crescimento reptante, registrada em floresta tropical úmida.",

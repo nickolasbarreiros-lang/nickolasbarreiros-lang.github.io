@@ -7,7 +7,22 @@ export const dendrobiumPolysema = {
     "sinonimo": "Sayeria polysema",
     "genero": "Dendrobium",
     "tipo": "Espécie botânica",
-    "dificuldade": "Moderada a exigente",
+    "dificuldade": "Difícil",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 67,
+        nivel: "Difícil",
+        fatores: {
+            temperatura: { nota: 4, peso: 18 },
+            agua: { nota: 4, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 3, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
+    },
     "caracteristicas": [
         "Espécie da Nova Guiné",
         "Clima montano",

@@ -7,6 +7,21 @@ export const stanhopeaAssidensis = {
     genero: "Stanhopea",
     tipo: "Híbrido primário artificial — Stanhopea tigrina × Stanhopea wardii",
     dificuldade: "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 46,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 2, peso: 18 },
+            agua: { nota: 3, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 1, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     caracteristicas: ["Flores grandes e carnosas", "Perfume intenso", "Inflorescência pendente", "Cesto obrigatório"],
     fotos: [
         "imagens/Stanhopea Assidensis/Stanhopea Assidensis1.jpg",

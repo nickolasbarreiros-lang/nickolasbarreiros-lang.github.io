@@ -7,7 +7,22 @@ export const laeliaCinnabarina = {
     genero: "Cattleya",
     sinonimo: "Laelia cinnabarina",
     tipo: "Espécie botânica — grupo histórico das Laelias rupícolas",
-    dificuldade: "Moderada a alta",
+    dificuldade: "Difícil",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 51,
+        nivel: "Difícil",
+        fatores: {
+            temperatura: { nota: 2, peso: 18 },
+            agua: { nota: 3, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 3, peso: 12 },
+            floracao: { nota: 4, peso: 20 }
+        }
+    },
     caracteristicas: [
         "Espécie brasileira",
         "Flores laranja-cinábrio",
@@ -50,7 +65,7 @@ export const laeliaCinnabarina = {
         "climaFloracao": { "faixa": "ameno" }
     },
     avaliacoes: {
-        cultivo: 4,
+        cultivo: 3,
         floracao: 4,
         perfume: 1,
         luminosidade: 5,

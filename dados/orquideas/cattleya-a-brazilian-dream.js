@@ -6,6 +6,21 @@ export const cattleyaABrazilianDream = {
     genero: "Cattleya",
     tipo: "Híbrido primário registrado",
     dificuldade: "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 27,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 0, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 1, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 2, peso: 12 },
+            floracao: { nota: 2, peso: 20 }
+        }
+    },
     caracteristicas: [
         "C. nobilior × C. loddigesii",
         "Híbrido primário",
@@ -49,7 +64,7 @@ export const cattleyaABrazilianDream = {
         "climaFloracao": { "faixa": "quente" }
     },
     avaliacoes: {
-        cultivo: 3,
+        cultivo: 2,
         floracao: 4,
         perfume: 3,
         luminosidade: 4,

@@ -6,7 +6,22 @@ export const cattleyaAclandiaeTipo = {
     genero: "Cattleya",
     sinonimo: "Epidendrum aclandiae",
     tipo: "Espécie botânica — forma tipo",
-    dificuldade: "Exigente",
+    dificuldade: "Moderada",
+    indiceDificuldadeCultivo: {
+        versao: "IDC 1.0",
+        referenciaRegional: "Litoral de clima quente",
+        indice: 37,
+        nivel: "Moderada",
+        fatores: {
+            temperatura: { nota: 1, peso: 18 },
+            agua: { nota: 1, peso: 15 },
+            umidadeVentilacao: { nota: 2, peso: 12 },
+            luminosidade: { nota: 2, peso: 8 },
+            raizes: { nota: 2, peso: 15 },
+            cicloRepouso: { nota: 2, peso: 12 },
+            floracao: { nota: 3, peso: 20 }
+        }
+    },
     caracteristicas: [
         "Endêmica da Bahia",
         "Miniatura bifoliada",
@@ -50,7 +65,7 @@ export const cattleyaAclandiaeTipo = {
         "climaFloracao": { "faixa": "quente" }
     },
     avaliacoes: {
-        cultivo: 4,
+        cultivo: 2,
         floracao: 4,
         perfume: 3,
         luminosidade: 5,
