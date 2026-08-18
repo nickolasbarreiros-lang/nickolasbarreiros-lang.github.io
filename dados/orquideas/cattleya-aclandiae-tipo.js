@@ -30,7 +30,7 @@ export const cattleyaAclandiaeTipo = {
     iluminacao: {
         sombrite: "30% a 50% — ~40% a 50% como início no litoral quente",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "É uma das Cattleyas mais tolerantes a luz alta. Crescimento compacto, folhas firmes e pseudobulbos fortes são os melhores indicadores. As pintas avermelhadas ou púrpuras das folhas podem ser pigmentação normal da espécie."
     },
     floracao: "Pode florescer da primavera ao outono conforme o ciclo do crescimento, com maior concentração em períodos quentes. Produz normalmente 1–2 flores de cerca de 6–10 cm, cerosas, duráveis e perfumadas, extremamente grandes em relação à planta.",

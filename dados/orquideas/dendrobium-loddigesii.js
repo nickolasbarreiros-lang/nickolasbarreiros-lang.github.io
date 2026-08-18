@@ -30,7 +30,7 @@ export const dendrobiumLoddigesii = {
     "iluminacao": {
         "sombrite": "40% a 50%",
         "solDireto": "Permitido com restrição",
-        "horario": "Início da manhã",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Necessita luz intensa durante todo o ano. Hastes compactas e firmes indicam equilíbrio. Sombra gera hastes finas, moles e muitos keikis; queimaduras secas indicam excesso de sol."
     },
     "floracao": "Mais comum do fim do inverno à primavera, entre agosto e novembro. Flores solitárias ou em pequenos grupos surgem nos nós de hastes maduras, inclusive em hastes antigas e já desfolhadas. A preservação da touceira aumenta o número de pontos florais.",

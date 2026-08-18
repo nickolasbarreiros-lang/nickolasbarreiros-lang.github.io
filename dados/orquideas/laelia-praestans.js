@@ -29,7 +29,7 @@ export const laeliaPraestans = {
     iluminacao: {
         sombrite: "40% a 60% — 50% como ponto inicial",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Prefere mais luz que miniaturas de sombra profunda, mas não deve receber o mesmo sol de espécies rupícolas. Folhas verde-escuras e crescimento alongado sugerem pouca luz; amarelecimento rápido ou manchas secas indicam excesso de radiação ou calor."
     },
     floracao: "Principalmente na primavera, com maior probabilidade entre setembro e novembro. Produz normalmente uma ou duas flores grandes, de cerca de 7,5 cm, muito vistosas em relação ao porte compacto da planta.",

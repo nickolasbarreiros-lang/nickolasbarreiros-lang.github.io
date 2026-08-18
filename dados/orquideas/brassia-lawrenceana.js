@@ -30,7 +30,7 @@ export const brassiaLawrenceana = {
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
-        horario: "Início da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Precisa de boa luminosidade para formar pseudobulbos fortes e florescer bem. Sombra profunda reduz a floração; sol direto forte pode queimar as folhas e aquecer excessivamente o vaso."
     },
     floracao: "Pode florescer em mais de uma época conforme o cultivo. Referências registram floração na primavera em cultivo e também no outono em condições naturais. Para o calendário do site, setembro a novembro e março a maio funcionam como janelas práticas de referência.",

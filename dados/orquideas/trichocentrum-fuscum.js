@@ -33,7 +33,7 @@ export const trichocentrumFuscum = {
     "iluminacao": {
         "sombrite": "40% a 50%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até aproximadamente 08:30",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Requer claridade elevada. Folhas verde-oliva e compactas indicam boa luz; folhas muito escuras sugerem sombra. Manchas claras, secas ou amarelamento forte indicam excesso de sol sem aclimatação."
     },
     "floracao": "Mais frequente da primavera ao verão, aproximadamente de setembro a fevereiro. As hastes surgem da base de crescimentos maduros e carregam flores em tons ocres, amarelados e castanhos. Boa luz durante a maturação é determinante para a emissão floral.",

@@ -22,7 +22,7 @@ export const isabeliaVirginalis = {
     iluminacao: {
         sombrite: "40% a 60%",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Tolera luz relativamente alta quando bem ventilada. Folhas muito escuras e touceira frouxa indicam falta de luz; amarelecimento intenso ou pontas secas indicam excesso de sol ou desidratação."
     },
     floracao: "Predomina do fim do outono ao inverno. As flores são pequenas, cerosas, de aproximadamente 1 cm e podem surgir isoladas ou em pares sobre pseudobulbos maduros.",

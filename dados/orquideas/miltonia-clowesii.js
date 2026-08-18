@@ -29,7 +29,7 @@ export const miltoniaClowesii = {
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até aproximadamente 08:30",
+        "horario": "Somente início da manhã",
         "observacoes": "Luz filtrada média a forte. Folhas verde-claro e firmes indicam bom nível; folhas muito escuras, compridas e moles sugerem sombra excessiva. Evite calor foliar no meio do dia, especialmente em regiões litorâneas."
     },
     "floracao": "A floração concentra-se sobretudo no outono, embora o calendário possa variar conforme clima e procedência. As hastes eretas a arqueadas ultrapassam a folhagem e carregam várias flores cerosas, amarelas com grandes manchas castanhas e labelo contrastante. Touceiras maduras e bem iluminadas tendem a produzir apresentações mais cheias.",

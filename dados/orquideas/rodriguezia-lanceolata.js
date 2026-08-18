@@ -33,7 +33,7 @@ export const rodrigueziaLanceolata = {
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até aproximadamente 08:30",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Prefere meia-sombra clara. Folhas firmes e verde-médio indicam bom equilíbrio. Sombra excessiva reduz a emissão de hastes; sol forte aquece as folhas e desidrata rapidamente as raízes finas."
     },
     "floracao": "Mais frequente do fim do inverno ao verão, aproximadamente de agosto a fevereiro, podendo ocorrer fora desse intervalo. As hastes arqueadas ou pendentes ficam mais bem apresentadas quando a planta é mantida suspensa e com espaço livre ao redor.",

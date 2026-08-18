@@ -27,7 +27,7 @@ export const epicattleyaReneMarques = {
     iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido",
-        horario: "Até 09:00",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Exige iluminação alta, semelhante à de Cattleya, com aclimatação gradual. Folhas verde-claras e caules firmes indicam boa luz."
     },
     floracao: "Mais frequente da primavera ao verão, podendo variar entre clones e condições de cultivo.",

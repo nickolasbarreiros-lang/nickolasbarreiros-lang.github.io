@@ -32,7 +32,7 @@ export const colmanaraWildcat = {
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até cerca de 8h30",
+        "horario": "Somente início da manhã",
         "observacoes": "Luz filtrada média a forte, normalmente um pouco abaixo de Cattleya. Folhas verde-médio e pseudobulbos compactos indicam bom equilíbrio. Sombra profunda reduz hastes; excesso de sol combinado com calor pode amarelar e marcar as folhas."
     },
     "floracao": "Pode florescer em diferentes épocas conforme cultivar e ciclo de crescimento, sendo frequente do outono ao início da primavera. Hastes maduras podem ultrapassar 60 cm, ramificar e sustentar muitas flores por várias semanas. A durabilidade costuma aumentar em ambiente ventilado e com temperaturas noturnas mais amenas.",

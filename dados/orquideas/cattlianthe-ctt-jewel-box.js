@@ -33,7 +33,7 @@ export const cattliantheCttJewelBox = {
     "iluminacao": {
         "sombrite": "40% a 50%",
         "solDireto": "Permitido com restrição",
-        "horario": "Primeiras horas da manhã",
+        "horario": "Somente início da manhã",
         "observacoes": "Precisa de mais luz que muitos híbridos de flores grandes. Folhas verde-claras, eretas e firmes indicam boa luminosidade. Folhas muito escuras, pseudobulbos alongados e poucas flores indicam sombra excessiva. Amarelecimento brusco, áreas secas ou aquecimento excessivo das folhas indicam sol forte sem aclimatação."
     },
     "floracao": "Pode florescer mais de uma vez ao ano, com maior frequência entre o outono e a primavera, especialmente de abril a novembro. As hastes surgem do topo de pseudobulbos maduros e carregam várias flores vermelho-escarlate. Plantas adultas e pouco divididas costumam produzir mais de uma haste ao mesmo tempo e cachos mais volumosos. A durabilidade melhora quando as flores ficam protegidas de chuva direta, calor excessivo e manipulação.",

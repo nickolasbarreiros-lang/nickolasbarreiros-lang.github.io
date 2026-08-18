@@ -32,7 +32,7 @@ export const encycliaGallopavina = {
     iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
-        horario: "Até cerca de 09:00",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Prefere claridade alta e filtrada. Folhas muito escuras e vegetação alongada indicam falta de luz; amarelecimento intenso ou queimaduras mostram excesso de sol/calor."
     },
     floracao: "Mais comum na primavera e no verão, aproximadamente entre outubro e fevereiro, variando conforme procedência, clima e maturação dos pseudobulbos. As inflorescências terminais podem ser eretas ou levemente arqueadas e, em plantas vigorosas, apresentar ramificações e várias flores duráveis.",

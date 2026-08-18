@@ -635,7 +635,7 @@ function criarCardIluminacao(iluminacao) {
     if (textoSol !== "Não permitido" && horario && horarioEhTemporal) {
         indicadores.push(
             criarIndicadorRotulado(
-                "Horário recomendado",
+                "Exposição segura",
                 criarChip("🕘", horario)
             )
         );

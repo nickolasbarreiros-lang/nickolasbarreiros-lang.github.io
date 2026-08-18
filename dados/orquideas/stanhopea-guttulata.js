@@ -33,7 +33,7 @@ export const stanhopeaGuttulata = {
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até aproximadamente 07:30",
+        "horario": "Somente início da manhã",
         "observacoes": "Prefere sombra clara. Folhas verde-claro a verde-médio indicam bom nível de luz. Sombra profunda alonga folhas e reduz floradas; sol forte queima rapidamente as lâminas plissadas."
     },
     "floracao": "Mais comum da primavera ao verão, aproximadamente de setembro a fevereiro. A haste cresce para baixo e precisa atravessar livremente substrato e fundo da cesta. Durante a emissão, inspecione a parte inferior sem tocar na haste e verifique se nenhuma ripa, tela, plástico, raiz compactada ou suporte está bloqueando sua passagem.",

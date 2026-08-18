@@ -32,7 +32,7 @@ export const encycliaBracteata = {
     iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
-        horario: "Sol fraco da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Aprecia luz alta, semelhante à de muitas Cattleyas compactas. Folhas excessivamente escuras indicam falta de luz; amarelecimento forte ou queimaduras sugerem radiação e calor excessivos."
     },
     floracao: "Em habitat, é registrada principalmente na primavera; em cultivo pode florescer do fim do verão ao início do outono. Cada pseudobulbo pode emitir mais de uma inflorescência terminal curta, com aproximadamente 2–3 flores por haste. A combinação de porte pequeno, folhas muito finas e múltiplas hastes por pseudobulbo é uma característica marcante da espécie.",

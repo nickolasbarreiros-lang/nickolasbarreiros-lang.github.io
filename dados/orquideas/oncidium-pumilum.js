@@ -33,7 +33,7 @@ export const oncidiumPumilum = {
     "iluminacao": {
         "sombrite": "40% a 50%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até aproximadamente 08:30",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Necessita claridade intensa. Folhas firmes e verde-médio são desejáveis; tons muito escuros indicam sombra. Leve pigmentação arroxeada pode surgir sob alta luz sem representar necessariamente dano."
     },
     "floracao": "Mais comum do fim do inverno à primavera, aproximadamente de agosto a novembro, embora a época possa variar conforme procedência e cultivo. As hastes eretas e ramificadas, geralmente de 8–15 cm, carregam muitas flores campanuladas de apenas 5–8 mm, produzindo um efeito de nuvem amarela sobre touceiras adultas.",

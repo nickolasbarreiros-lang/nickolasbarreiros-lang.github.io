@@ -29,7 +29,7 @@ export const laeliaLundii = {
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Precisa de mais luz que muitas miniaturas. Busque folhas firmes, crescimento compacto e pseudobulbos bem formados. Folhas muito escuras e alongamento sugerem sombra excessiva; tecido amarelado ou queimado indica radiação e calor acima do ideal."
     },
     floracao: "Do meio do inverno à primavera, com maior ocorrência entre julho e outubro. As inflorescências são curtas e normalmente carregam duas flores perfumadas de aproximadamente 3–4 cm, posicionadas entre as folhas.",

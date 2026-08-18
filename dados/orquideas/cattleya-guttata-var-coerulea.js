@@ -32,7 +32,7 @@ export const cattleyaGuttataVarCoerulea = {
     iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "É uma bifoliada de luminosidade muito alta. Em Litoral de clima quente, ofereça 40% a 50% de sombreamento e bastante circulação de ar. Folhas firmes, pseudobulbos grossos e eretos e crescimento compacto são indicadores melhores que perseguir uma cor verde-alface específica."
     },
     floracao: "Principalmente do fim do verão ao outono, com maior probabilidade entre fevereiro e maio; alguns clones podem avançar até junho conforme clima e ciclo de crescimento.",

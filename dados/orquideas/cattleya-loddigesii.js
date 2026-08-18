@@ -29,7 +29,7 @@ export const cattleyaLoddigesii = {
     iluminacao: {
         sombrite: "40% a 60% — 50% como referência inicial",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "O melhor indicador é o conjunto formado por pseudobulbos robustos, folhas firmes e crescimento compacto. Folhas muito escuras e pseudobulbos finos ou alongados sugerem falta de luz e costumam acompanhar floração irregular."
     },
     floracao: "Predominantemente do inverno ao início da primavera, mais comum entre junho e setembro, podendo avançar até outubro conforme clone e clima.",

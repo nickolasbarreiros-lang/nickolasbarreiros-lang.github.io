@@ -33,7 +33,7 @@ export const stanhopeaHernandezii = {
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até aproximadamente 07:30",
+        "horario": "Somente início da manhã",
         "observacoes": "Prefere meia-sombra clara. Folhas verde-médio indicam boa condição. Sombra profunda reduz a floração; sol forte queima as folhas plissadas."
     },
     "floracao": "Mais comum da primavera ao verão, aproximadamente de setembro a fevereiro. As flores têm grande impacto visual, perfume muito intenso e duração relativamente curta. A haste precisa atravessar livremente o fundo da cesta sem obstáculos.",

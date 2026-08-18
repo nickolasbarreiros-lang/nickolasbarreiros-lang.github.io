@@ -33,7 +33,7 @@ export const zygopetalumMaculatum = {
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até aproximadamente 08:00, preferencialmente nos meses frios",
+        "horario": "Somente início da manhã",
         "observacoes": "Prefere claridade filtrada. Sol forte aquece e queima folhas plissadas; sombra excessiva enfraquece os pseudobulbos e reduz floração."
     },
     "floracao": "Mais comum do outono ao início da primavera, aproximadamente de abril a setembro. As hastes eretas surgem próximas aos novos crescimentos e produzem flores cerosas intensamente perfumadas.",

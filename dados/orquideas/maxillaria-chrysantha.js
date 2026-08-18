@@ -28,7 +28,7 @@ export const maxillariaChrysantha = {
     iluminacao: {
         sombrite: "60%, podendo chegar a 70% em locais muito quentes",
         solDireto: "Permitido com restrição",
-        horario: "Até aproximadamente 08:00",
+        horario: "Somente início da manhã",
         observacoes: "Prefere luz média filtrada. Em regiões serranas bem ventiladas, 50% a 60% de sombreamento pode funcionar. Folhas verde-médio e firmes indicam bom equilíbrio; folhagem muito escura sugere sombra excessiva, enquanto amarelecimento e manchas secas indicam excesso de luz ou calor."
     },
     floracao: "Predomina no inverno. Cada inflorescência basal mede cerca de 12,5 cm e porta uma única flor amarelo-ouro, perfumada, que pode alcançar aproximadamente 5 cm. Em touceiras maduras, várias hastes podem surgir quase ao mesmo tempo na base de diferentes pseudobulbos.",

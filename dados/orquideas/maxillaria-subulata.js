@@ -29,7 +29,7 @@ export const maxillariaSubulata = {
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Permitido com restrição",
-        "horario": "Primeiras horas da manhã",
+        "horario": "Somente início da manhã",
         "observacoes": "Necessita luz filtrada brilhante. Folhas firmes em verde-médio indicam equilíbrio. Touceiras muito escuras, alongadas ou amolecidas sugerem sombra excessiva. Amarelecimento forte, pontas ressecadas ou manchas claras indicam excesso de sol ou calor."
     },
     "floracao": "Mais característica na primavera, aproximadamente de setembro a novembro. As flores são solitárias, cerosas e medem cerca de 2,5 cm, surgindo em hastes curtas junto à base dos pseudobulbos. Exemplares bem estabelecidos podem florir em vários crescimentos no mesmo período.",

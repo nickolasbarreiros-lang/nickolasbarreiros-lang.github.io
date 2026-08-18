@@ -32,7 +32,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
     "iluminacao": {
         "sombrite": "35% a 50%",
         "solDireto": "Permitido com restrição",
-        "horario": "Manhã",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "A luz intensa mantém o crescimento compacto e favorece pigmentação mais escura. Folhas verde-médio firmes indicam bom cultivo; folhas muito escuras e pseudobulbos finos indicam sombra. Evite sol forte sobre folhas molhadas."
     },
     "floracao": "Floresce principalmente do fim do verão ao outono, entre fevereiro e maio. A haste emerge da espata apical e pode carregar várias flores cerosas, perfumadas e duráveis. Touceiras adultas produzem apresentações mais equilibradas e possuem reservas suficientes para sustentar inflorescências pesadas. Durante a formação da haste, evite girar o vaso ou alterar bruscamente a posição em relação à luz.",

@@ -31,7 +31,7 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     iluminacao: {
         sombrite: "30% a 50%",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Necessita luz muito alta para formar pseudobulbos compactos e florescer. Em Litoral de clima quente, prefira sol suave bem cedo e proteção contra a radiação forte do fim da manhã e da tarde. Folhas devem permanecer firmes, em verde médio a verde-claro, sem amarelecimento excessivo ou queimaduras."
     },
     floracao: "Principalmente do outono ao inverno, com maior probabilidade entre abril e agosto. A época pode antecipar ou se prolongar conforme clone, clima e ciclo de crescimento. A inflorescência normalmente surge de crescimento floral especializado e sem folha, próximo ao rizoma, uma característica marcante de Cattleya walkeriana.",

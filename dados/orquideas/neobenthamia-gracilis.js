@@ -29,7 +29,7 @@ export const neobenthamiaGracilis = {
     "iluminacao": {
         "sombrite": "30% a 50%",
         "solDireto": "Permitido com restrição",
-        "horario": "Manhã até cerca de 9h",
+        "horario": "Somente início da manhã",
         "observacoes": "Mais luminosa que a maioria das epífitas. Faça aclimatação gradual. Folhas muito escuras e caules finos indicam falta de luz."
     },
     "floracao": "No habitat, a floração é registrada principalmente do inverno à primavera. A inflorescência terminal pode chegar a cerca de 12,5 cm e reunir numerosas flores em uma cabeça quase esférica. As flores são brancas, perfumadas, com detalhes amarelos e rosados no labelo. Em cultivo no Brasil, a época pode variar conforme temperatura, luminosidade e ritmo de maturação dos caules; por isso, o mais importante é observar a conclusão do crescimento e não forçar um repouso seco rígido.",

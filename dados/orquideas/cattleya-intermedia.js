@@ -31,7 +31,7 @@ export const cattleyaIntermedia = {
     iluminacao: {
         sombrite: "40% a 60% — cerca de 50% como referência inicial",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Necessita luminosidade alta filtrada. O melhor indicador é o conjunto de pseudobulbos firmes e compactos, folhas rígidas em verde médio a verde-claro e floração regular. Sombra excessiva produz crescimento alongado e reduz a florada; sol forte sem aclimatação pode causar amarelecimento e queimaduras."
     },
     floracao: "A floração pode variar bastante conforme procedência e clone. Em cultivo brasileiro, é comum do fim do verão ao outono, com possibilidade de florações em outras épocas. Use fevereiro a maio como janela principal de referência, sem tratá-la como calendário rígido.",

@@ -30,7 +30,7 @@ export const oncidiumPubes = {
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até cerca de 9h",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Exige luz semelhante à de Cattleya moderada. Folhas verde-oliva claras e pseudobulbos compactos indicam equilíbrio. Folhas muito escuras, moles e pseudobulbos alongados sugerem sombra excessiva; amarelecimento rápido, manchas secas ou tecido bronzeado indicam excesso de sol ou calor."
     },
     "floracao": "A floração costuma ocorrer da primavera ao início do verão, quando hastes arqueadas e ramificadas podem carregar dezenas de flores amarelas com marcações castanho-avermelhadas. O tamanho e a quantidade de ramos variam com o vigor da planta. Durante o alongamento, mantenha o vaso na mesma orientação em relação à luz para reduzir curvas e torções na haste.",

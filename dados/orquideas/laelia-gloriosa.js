@@ -29,7 +29,7 @@ export const laeliaGloriosa = {
     iluminacao: {
         sombrite: "30% a 50%",
         solDireto: "Permitido com restrição",
-        horario: "Sol suave da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Folhas firmes em verde-claro indicam boa luminosidade. Verde muito escuro costuma produzir crescimento sem floração; amarelecimento forte, manchas secas ou aquecimento foliar indicam excesso."
     },
     floracao: "Predomina do outono ao início do inverno. Hastes terminais podem ultrapassar 1,2 m e carregar aproximadamente 8–15 flores agrupadas no ápice, com flores cerosas de cerca de 5 cm.",

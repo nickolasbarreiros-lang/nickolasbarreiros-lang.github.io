@@ -29,7 +29,7 @@ export const aeridesOdorata = {
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
-        horario: "Início da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Aprecia luminosidade semelhante à de Vandas de exigência moderada. Sombra profunda reduz a floração; no litoral quente, evite sol forte do meio do dia e faça qualquer aumento de exposição gradualmente."
     },
     floracao: "A época varia conforme a procedência. Em cultivo, primavera e verão são uma boa referência, com possibilidade de variação conforme temperatura, luminosidade e maturidade da planta.",

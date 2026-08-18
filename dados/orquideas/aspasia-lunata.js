@@ -28,7 +28,7 @@ export const aspasiaLunata = {
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Somente início da manhã",
         observacoes: "Prefere luz filtrada de média intensidade. Folhas muito verde-escuras acompanhadas de baixa floração indicam sombra excessiva; amarelamento ou manchas secas sinalizam radiação forte demais. Em clima litorâneo quente, 60% a 70% de sombreamento costuma oferecer bom equilíbrio."
     },
     floracao: "A floração é registrada principalmente na primavera, podendo avançar para o início do verão conforme procedência e condições de cultivo. As inflorescências basais são curtas, eretas e normalmente carregam 1 a 3 flores relativamente grandes para o porte da planta. Após a maturação dos pseudobulbos e a floração, pode ocorrer desaceleração vegetativa; no cultivo isso deve significar apenas regas um pouco mais espaçadas, nunca repouso seco absoluto.",

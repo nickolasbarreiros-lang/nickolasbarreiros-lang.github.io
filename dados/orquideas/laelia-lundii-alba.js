@@ -29,7 +29,7 @@ export const laeliaLundiiAlba = {
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
-        horario: "Bem cedo pela manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Mantenha luz suficiente para produzir crescimento compacto e pseudobulbos firmes. Proteja do sol forte do litoral, mas não transforme essa proteção em sombra excessiva."
     },
     floracao: "Do meio do inverno à primavera, normalmente entre julho e outubro. A forma alba segue a fenologia de Cattleya lundii e pode apresentar duas flores perfumadas por pequena inflorescência.",

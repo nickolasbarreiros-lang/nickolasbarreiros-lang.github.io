@@ -28,7 +28,7 @@ export const cattleyaLueddemannianaTipo = {
     iluminacao: {
         sombrite: "40% a 60% — 50% como referência inicial",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Tolera luminosidade alta, mas extremos não são necessários. Folhas firmes, verde-médio a verde-claro, e pseudobulbos robustos indicam bom equilíbrio. Folhagem muito escura e crescimento alongado costumam acompanhar pouca luz."
     },
     floracao: "A floração principal ocorre do fim de dezembro a março. Plantas adultas e alguns clones podem apresentar uma segunda floração entre setembro e novembro.",

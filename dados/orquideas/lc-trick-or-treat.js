@@ -29,7 +29,7 @@ export const lcTrickOrTreat = {
     iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Somente início da manhã",
         observacoes: "Mantenha iluminação semelhante à de Cattleyas luminosas. Folhas verde-claro a verde-médio, firmes, e pseudobulbos compactos indicam bom equilíbrio. Folhas muito escuras e crescimento alongado sugerem sombra; manchas secas indicam excesso de sol ou calor sem aclimatação."
     },
     floracao: "Pode florir após a maturação de novas frentes e, em plantas vigorosas, apresentar mais de uma floração ao ano. No cultivo local, é comum maior concentração do outono ao inverno, mas a época varia com clone e ritmo de crescimento. As hastes são eretas a arqueadas e podem carregar numerosas flores laranja simultaneamente.",

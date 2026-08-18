@@ -29,7 +29,7 @@ export const maxillariaPicta = {
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
-        "horario": "Primeiras horas da manhã",
+        "horario": "Somente início da manhã",
         "observacoes": "Luz filtrada brilhante é necessária para pseudobulbos compactos e floríferos. Folhas verde-médio e firmes indicam equilíbrio. Vegetação muito escura, alongada ou frouxa sugere sombra; amarelecimento acelerado, manchas secas ou calor nas folhas indicam excesso."
     },
     "floracao": "Predomina do inverno à primavera, geralmente entre julho e novembro no cultivo brasileiro. As flores são solitárias, basais, de aproximadamente 5 cm e podem ser suavemente perfumadas. Touceiras maduras produzem várias hastes em pseudobulbos diferentes, criando uma floração muito mais vistosa.",

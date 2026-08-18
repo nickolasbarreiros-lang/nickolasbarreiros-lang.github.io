@@ -28,7 +28,7 @@ export const maxillariaBrasiliensis = {
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
-        horario: "Até aproximadamente 08:30",
+        horario: "Somente início da manhã",
         observacoes: "Prefere claridade filtrada abundante. Folhas firmes em verde-médio indicam bom equilíbrio. Folhagem muito escura e crescimento frouxo sugerem pouca luz; amarelecimento intenso e manchas secas indicam excesso de exposição ou aquecimento."
     },
     floracao: "Mais característica no outono, embora o calendário possa variar conforme o amadurecimento dos crescimentos. Cada haste porta uma flor de cerca de 2,5 cm. Exemplares adultos e pouco perturbados podem apresentar várias flores próximas entre si quando diferentes crescimentos amadurecem de forma sincronizada.",

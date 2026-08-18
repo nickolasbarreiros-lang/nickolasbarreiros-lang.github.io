@@ -29,7 +29,7 @@ export const maxillariaTenuifolia = {
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até aproximadamente 08:30",
+        "horario": "Somente início da manhã",
         "observacoes": "Ofereça luz filtrada forte durante todo o dia. Folhas verde-médio a verde-claro e firmes indicam bom equilíbrio. Folhagem muito escura, mole e crescimento abundante sem flores sugerem pouca luz. Aumente a claridade gradualmente para não queimar folhas acostumadas à sombra."
     },
     "floracao": "Predomina da primavera ao início do verão no cultivo, normalmente entre setembro e dezembro, podendo variar conforme o clima local. As flores medem cerca de 4–5 cm, são cerosas e intensamente perfumadas, com aroma de coco que costuma ficar mais forte nas horas quentes e luminosas.",

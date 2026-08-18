@@ -33,7 +33,7 @@ export const zygolumLouisendorf = {
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até aproximadamente 08:30",
+        "horario": "Somente início da manhã",
         "observacoes": "Prefere luz filtrada clara. Folhas muito escuras sugerem pouca luz; amarelamento e manchas indicam excesso de radiação ou calor."
     },
     "floracao": "Mais frequente do fim do inverno à primavera, aproximadamente de julho a novembro. As hastes eretas surgem próximas a novos crescimentos e sustentam flores marcantes e perfumadas.",

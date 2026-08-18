@@ -30,7 +30,7 @@ export const cattleyaViolaceaFFlamea = {
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
-        "horario": "Início da manhã",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Forneça luz brilhante, uniforme e filtrada. Folhas firmes e verde-médio indicam bom equilíbrio. Sombra excessiva produz pseudobulbos finos; sol forte causa superaquecimento e queimaduras."
     },
     "floracao": "Floresce principalmente da primavera ao verão, entre outubro e março, e pode produzir flores fora dessa janela quando mantida em crescimento contínuo. A inflorescência surge no ápice do pseudobulbo maduro e sustenta flores violeta-púrpura com padrão flamea nas pétalas e labelo magenta intenso. A duração das flores melhora quando são protegidas de chuva direta, sol forte e calor excessivo.",

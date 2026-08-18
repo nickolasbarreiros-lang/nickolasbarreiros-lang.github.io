@@ -32,7 +32,7 @@ export const cyrtopodiumPodophyllum = {
     "iluminacao": {
         "sombrite": "30% a 50%",
         "solDireto": "Permitido com restrição",
-        "horario": "Manhã e parte da tarde",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "É uma espécie de alta luminosidade. Plantas encontradas em restinga podem crescer muito próximas ao litoral, mas exemplares cultivados sob sombra não devem ser transferidos abruptamente ao sol pleno. Pseudobulbos grossos e crescimento compacto indicam luz adequada."
     },
     "floracao": "Principalmente na primavera e início do verão. As inflorescências surgem da base, são ramificadas, muito floríferas e podem medir aproximadamente 60 cm a 1,5 m. As flores, em geral amarelas, medem cerca de 2,5–4 cm, podem ser perfumadas e apresentam boa duração. A intensidade da floração depende fortemente das reservas acumuladas nos pseudobulbos durante o ciclo anterior.",

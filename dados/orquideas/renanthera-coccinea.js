@@ -32,7 +32,7 @@ export const renantheraCoccinea = {
     "iluminacao": {
         "sombrite": "20% a 40%",
         "solDireto": "Permitido com restrição",
-        "horario": "Sol da manhã; plantas adaptadas toleram mais",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "IOSPE registra ocorrência inclusive em rochas e paredões em pleno sol. Aclimate gradualmente para evitar queimaduras. Folhas verde-claro e firmes são preferíveis a folhas muito escuras e internódios longos."
     },
     "floracao": "Principalmente na primavera. As inflorescências laterais podem atingir aproximadamente 60–90 cm, são ramificadas e carregam numerosas flores de 5–6,25 cm. Em clima tropical cultivado, a janela pode se estender conforme maturidade da planta e condições locais.",

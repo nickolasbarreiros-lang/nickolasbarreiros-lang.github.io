@@ -33,7 +33,7 @@ export const cattleyaWalkeriana = {
     "iluminacao": {
         "sombrite": "30% a 50%",
         "solDireto": "Permitido com restrição",
-        "horario": "Primeiras horas da manhã",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Folhas verde-claras, rígidas e compactas, às vezes com leve pigmentação amarelada ou avermelhada, indicam boa luz. Folhas muito escuras e pseudobulbos alongados indicam sombra excessiva. Manchas secas e clareamento repentino indicam sol forte sem aclimatação."
     },
     "floracao": "Floresce principalmente do outono ao inverno, geralmente entre abril e agosto. A haste curta surge de um broto floral áfilo emitido pelo rizoma, e não do ápice de um pseudobulbo folhoso. As flores são grandes, firmes, cerosas e intensamente perfumadas. A planta pode permanecer aparentemente parada por semanas antes de emitir o broto floral; isso faz parte do ciclo natural.",

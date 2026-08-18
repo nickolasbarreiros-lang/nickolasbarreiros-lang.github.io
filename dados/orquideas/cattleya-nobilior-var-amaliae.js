@@ -32,7 +32,7 @@ export const cattleyaNobiliorVarAmaliae = {
     iluminacao: {
         sombrite: "30% a 50% — cerca de 40% como ponto inicial",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Necessita luminosidade muito alta. O objetivo é manter folhas firmes, compactas e verde-claras, sem buscar amarelecimento como sinal obrigatório. Folhas verde-escuras sugerem falta de luz; amarelecimento intenso ou manchas secas indicam excesso de sol ou calor."
     },
     floracao: "Principalmente do fim do inverno à primavera, com maior concentração entre setembro e outubro e possibilidade de antecipação para agosto. A época acompanha o final da estação seca e pode variar conforme clone, microclima e momento de maturação dos pseudobulbos.",

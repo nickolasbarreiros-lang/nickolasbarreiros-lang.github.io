@@ -28,7 +28,7 @@ export const lockhartiaLunifera = {
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
-        horario: "Até aproximadamente 08:00",
+        horario: "Somente início da manhã",
         observacoes: "Prefere luminosidade média a alta filtrada. Caules muito alongados e frágeis sugerem pouca luz; amarelecimento forte, aquecimento e manchas secas indicam excesso. Em litoral quente, a luz clara deve vir sempre acompanhada de ventilação para evitar superaquecimento das folhas sobrepostas."
     },
     floracao: "Predomina na primavera e no verão. As inflorescências curtas surgem na região superior dos caules e podem carregar várias flores amarelas, sucessivas e duradouras, em torno de 2 cm. Plantas bem estabelecidas podem apresentar novas flores em ondas conforme diferentes caules amadurecem.",

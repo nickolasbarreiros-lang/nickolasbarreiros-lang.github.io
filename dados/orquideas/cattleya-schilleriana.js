@@ -31,7 +31,7 @@ export const cattleyaSchilleriana = {
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até aproximadamente 09:00",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Folhas verde-claras com discreta pigmentação arroxeada indicam luminosidade adequada. Folhas muito escuras, moles ou pseudobulbos alongados sugerem sombra excessiva. Amarelecimento rápido, manchas secas e descoloração intensa indicam excesso de sol ou superaquecimento."
     },
     "floracao": "As fontes variam na delimitação sazonal: IOSPE registra verão e outono no hemisfério de origem, enquanto referências horticulturais também situam a floração do fim da primavera ao verão. No cultivo brasileiro, a janela deve ser tratada como predominantemente primavera–verão, podendo avançar conforme procedência, clone e ciclo anual. Plantas adultas e muito vigorosas podem apresentar floração adicional. A inflorescência é curta e surge no ápice do pseudobulbo maduro, podendo portar uma ou poucas flores de grande tamanho e textura espessa. As flores têm boa durabilidade quando protegidas de chuva direta, calor excessivo e manuseio. O perfume é mais perceptível durante o dia, especialmente sob boa luminosidade e temperatura amena a quente. Botões abortados geralmente estão relacionados à perda radicular, oscilação brusca de umidade, água acumulada na brotação ou deslocamento da planta durante o período de formação.",

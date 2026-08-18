@@ -32,7 +32,7 @@ export const cyrtopodiumSaintlegerianum = {
     "iluminacao": {
         "sombrite": "30% a 50%",
         "solDireto": "Permitido com restrição",
-        "horario": "Manhã e parte da tarde",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Exige luminosidade muito alta. A exposição sobre palmeiras mostra que a espécie suporta ambiente bastante claro, mas plantas de viveiro devem ser aclimatadas progressivamente. Pouca luz produz pseudobulbos fracos e menor floração; ventilação é indispensável sob sol e calor."
     },
     "floracao": "Mais característica do fim do inverno ao início da primavera. A inflorescência é ereta, paniculada, muito ramificada e pode carregar grande número de flores. Cada flor mede aproximadamente 4 cm. A haste aparece associada a pseudobulbos maduros e reservas acumuladas durante a estação anterior.",

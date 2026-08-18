@@ -29,7 +29,7 @@ export const cattleyaABrazilianDream = {
     iluminacao: {
         sombrite: "40% a 60% — ~50% no litoral quente",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Necessita luz alta filtrada. Crescimento compacto, folhas firmes e pseudobulbos bem formados são indicadores melhores que buscar bronzeamento das folhas. A tolerância exata varia entre seedlings."
     },
     floracao: "Pode concentrar floração do outono ao inverno, mas a janela varia entre indivíduos e deve ser tratada como tendência do grex, não como regra. O tamanho, forma, perfume e número de flores também variam conforme o clone.",

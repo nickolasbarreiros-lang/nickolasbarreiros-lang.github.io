@@ -29,7 +29,7 @@ export const dendrobiumSpectabile = {
     iluminacao: {
         sombrite: "40% a 60%",
         solDireto: "Permitido com restrição",
-        horario: "Início da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Precisa de boa luminosidade para amadurecer hastes fortes. Sombra profunda pode atrasar a floração. No litoral quente, proteja apenas do sol mais agressivo do meio do dia e mantenha boa circulação de ar."
     },
     floracao: "Predominantemente no inverno e início da primavera. Para o calendário do site, junho a outubro funciona como janela de referência, com variações conforme origem e condições de cultivo.",

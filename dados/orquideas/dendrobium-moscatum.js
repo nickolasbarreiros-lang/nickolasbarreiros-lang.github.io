@@ -30,7 +30,7 @@ export const dendrobiumMoscatum = {
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
-        "horario": "Início da manhã após aclimatação",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Exige luz filtrada forte. Hastes espessas, internódios proporcionais e folhas firmes indicam equilíbrio. Sombra produz hastes alongadas e fracas; excesso de sol causa queimaduras."
     },
     "floracao": "Mais frequente do fim da primavera ao início do verão. IOSPE registra inflorescências pendentes de até cerca de 20 cm, normalmente com 5 a 10 flores grandes, em torno de 8,75 cm, perfumadas e de duração relativamente curta. Elas surgem próximo ao ápice de hastes maduras, muitas vezes já sem folhas.",

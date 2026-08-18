@@ -29,7 +29,7 @@ export const maxillariaPumilaExMinuta = {
     "iluminacao": {
         "sombrite": "65% a 75%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até cerca de 08h30",
+        "horario": "Somente início da manhã",
         "observacoes": "Prefere luz filtrada clara, sem aquecimento da touceira. Folhas compactas e verde-vivo indicam equilíbrio. Amarelecimento, ressecamento das pontas ou vermelhidão intensa sugerem excesso; crescimento frouxo, alongado e verde-escuro indica pouca luz."
     },
     "floracao": "Mais comum da primavera ao verão, aproximadamente de setembro a fevereiro no hemisfério sul. As flores medem cerca de 8 mm e surgem em pequenas hastes basais. Como ficam próximas da folhagem, uma touceira bem estabelecida produz o melhor efeito visual.",

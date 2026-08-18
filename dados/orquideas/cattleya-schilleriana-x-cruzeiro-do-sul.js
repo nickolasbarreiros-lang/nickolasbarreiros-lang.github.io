@@ -31,7 +31,7 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
     "iluminacao": {
         "sombrite": "40% a 50%",
         "solDireto": "Permitido com restrição",
-        "horario": "Início da manhã",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Luz alta favorece pseudobulbos compactos, boa pigmentação e floradas mais abundantes. Folhas muito escuras indicam sombra; manchas secas e amarelecimento sugerem excesso de sol."
     },
     "floracao": "Floresce principalmente da primavera ao verão, entre setembro e janeiro, após o amadurecimento das novas frentes. A haste surge no ápice do pseudobulbo e pode sustentar flores cerosas, perfumadas e de boa durabilidade. Por se tratar de cruzamento hortícola, coloração, quantidade de flores e intensidade do perfume podem variar entre plantas irmãs. Plantas mantidas em touceiras maiores tendem a apresentar floradas mais regulares que divisões pequenas.",

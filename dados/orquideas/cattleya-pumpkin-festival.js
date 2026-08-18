@@ -29,7 +29,7 @@ export const cattleyaPumpkinFestival = {
     iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
-        horario: "Até aproximadamente 09:00",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Em Litoral de clima quente, prefira sombrite de 50%. Folhas firmes e verde-claras indicam boa luminosidade; folhas muito escuras costumam acompanhar floração fraca. Aclimate gradualmente para evitar queimaduras."
     },
     floracao: "Predominantemente do outono ao início do inverno, entre março e junho, com variação conforme o clone e o ciclo de crescimento.",

@@ -28,7 +28,7 @@ export const aciantheraPubescens = {
     iluminacao: {
         sombrite: "60% a 70% como faixa inicial",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Somente início da manhã",
         observacoes: "Prefere luz filtrada de baixa a média intensidade. A espécie aparece em referências como de sombra, mas isso não significa escuridão. Folhas firmes e espessas em verde médio/oliva são um bom indicador; folhas excessivamente escuras com baixa floração podem pedir mais claridade, enquanto amarelecimento e aquecimento rápido pedem mais proteção."
     },
     floracao: "Pode florescer praticamente em qualquer época do ano, de acordo com referências orquidológicas. A ampla distribuição e a diversidade de procedências tornam inadequado restringir a espécie a poucos meses; a emissão floral depende mais do clone, maturação dos ramicaules e microclima.",

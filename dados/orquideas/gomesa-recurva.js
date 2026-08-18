@@ -23,7 +23,7 @@ export const gomesaRecurva = {
     iluminacao: {
         sombrite: "Cerca de 50%; até 60% em locais muito quentes",
         solDireto: "Permitido com restrição",
-        horario: "Até aproximadamente 08:30",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Folhas verde-claras e firmes indicam boa luminosidade. Folhas muito escuras sugerem sombra excessiva; amarelecimento intenso e aquecimento foliar indicam excesso de sol."
     },
     floracao: "Predominantemente no outono e inverno; flores pequenas, numerosas e perfumadas em hastes arqueadas.",

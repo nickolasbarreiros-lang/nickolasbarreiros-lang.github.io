@@ -28,7 +28,7 @@ export const aciantheraGlumacea = {
     iluminacao: {
         sombrite: "60% a 70%; no litoral quente, iniciar próximo de 70%",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Somente início da manhã",
         observacoes: "Prefere meia-sombra luminosa. A referência de habitat sobre troncos musgosos em floresta primária indica luz filtrada, não sombra profunda. Folhas firmes em verde médio e crescimento compacto sugerem bom equilíbrio. Folhas muito escuras associadas a pouca floração indicam falta de claridade; amarelamento rápido, aquecimento e áreas secas indicam excesso."
     },
     floracao: "Referências de habitat/cultivo registram floração da primavera ao outono, uma janela longa em que ramicaules maduros podem produzir 2 a 3 racemos simultaneamente. No calendário brasileiro, setembro a maio é uma referência útil, sem excluir florações fora desse período em cultivo protegido.",

@@ -31,7 +31,7 @@ export const camaridiumCarinatum = {
     iluminacao: {
         sombrite: "50% a 60% — até 70% em local muito quente",
         solDireto: "Permitido com restrição",
-        horario: "Início da manhã",
+        horario: "Somente início da manhã",
         observacoes: "Prefere luminosidade média filtrada. Folhas muito escuras e crescimento frouxo sugerem sombra excessiva; amarelecimento forte, aquecimento e manchas secas apontam excesso de exposição."
     },
     floracao: "Pode florescer em praticamente qualquer época do ano, dependendo da maturação dos pseudobulbos. Cada inflorescência basal é curta e uniflora, com flor em torno de 3 cm; tonalidades podem variar entre creme, amarelo, bronze e alaranjado conforme o indivíduo.",

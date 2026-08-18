@@ -29,7 +29,7 @@ export const miltoniaSpectabilisVarMoreliana = {
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até aproximadamente 08:30 ou no fim da tarde",
+        "horario": "Somente início da manhã",
         "observacoes": "Luz filtrada média a intensa. Folhas verde-médio a verde-claro, eventualmente com leve tonalidade amarelada, indicam boa luminosidade. Folhagem verde-escura e mole sugere sombra excessiva. Faça qualquer aumento de luz gradualmente."
     },
     "floracao": "Predominantemente do verão ao outono. As hastes surgem junto aos pseudobulbos maduros e normalmente exibem flores grandes e muito vistosas, com pigmentação vinho a púrpura e amplo labelo intensamente marcado. Plantas vigorosas podem produzir mais de uma haste no mesmo ciclo.",

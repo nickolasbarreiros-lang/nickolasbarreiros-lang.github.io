@@ -33,7 +33,7 @@ export const coelogyneAsperata = {
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
-        "horario": "Início da manhã",
+        "horario": "Somente início da manhã",
         "observacoes": "Prefere luz filtrada brilhante. Folhas verde-médio e firmes indicam boa exposição. Folhas muito escuras sugerem sombra excessiva; amarelecimento, áreas secas e desidratação rápida indicam sol forte ou calor acumulado."
     },
     "floracao": "Floresce com maior frequência do fim do inverno à primavera, entre agosto e novembro, podendo variar em clima estritamente tropical. As inflorescências podem se projetar para fora do recipiente e precisam de espaço livre. Plantas adultas em cestos ou vasos largos produzem hastes mais longas e cheias que divisões pequenas.",

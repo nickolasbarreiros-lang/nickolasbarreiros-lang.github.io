@@ -23,7 +23,7 @@ export const isochilusLinearis = {
     iluminacao: {
         sombrite: "50% a 70%",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Somente início da manhã",
         observacoes: "Prefere claridade suave e filtrada e não sombra plena. Caules excessivamente longos e moles indicam falta de luz; folhas amareladas ou secas nas pontas podem indicar excesso de sol, baixa umidade ou acúmulo de sais."
     },
     floracao: "Pode florescer em diferentes épocas do ano conforme a procedência e as condições de cultivo; no Brasil, costuma ser mais observada da primavera ao verão. As pequenas flores tubulares surgem agrupadas no ápice dos caules maduros, geralmente voltadas para o mesmo lado. As flores individuais podem ser relativamente breves, enquanto uma touceira com várias hastes pode prolongar o efeito ornamental pela emissão sucessiva de flores.",

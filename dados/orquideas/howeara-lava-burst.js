@@ -23,7 +23,7 @@ export const howearaLavaBurst = {
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
-        horario: "Início da manhã, se houver boa ventilação",
+        horario: "Somente início da manhã",
         observacoes: "Luz filtrada abundante favorece hastes mais firmes e floríferas. Folhas muito escuras e pseudobulbos pequenos sugerem sombra excessiva; folhas amareladas ou quentes ao toque indicam excesso de luz."
     },
     floracao: "Pode ocorrer mais de uma vez ao ano, acompanhando a maturação dos novos pseudobulbos. Em cultivo estável é comum apresentar floradas recorrentes, sem uma estação única e rígida.",

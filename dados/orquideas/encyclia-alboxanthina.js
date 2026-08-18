@@ -29,7 +29,7 @@ export const encycliaAlboxanthina = {
     iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
-        horario: "Início da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "É uma Encyclia de alta luminosidade. Em litoral quente, 40% a 50% de sombreamento é um bom ponto de partida. Sombra profunda reduz a floração; sol forte nas horas mais quentes pode superaquecer folhas e pseudobulbos."
     },
     floracao: "Floresce principalmente no fim da primavera e início do verão. Para o calendário do site, outubro a janeiro é uma janela prática de referência.",

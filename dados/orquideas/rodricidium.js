@@ -32,7 +32,7 @@ export const rodricidium = {
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até cerca de 08:30–09:00",
+        "horario": "Somente início da manhã",
         "observacoes": "Folhas verde-claro costumam indicar boa luz. Verde muito escuro sugere sombra; avermelhamento ou manchas secas indicam excesso."
     },
     "floracao": "Mais comum da primavera ao outono, entre setembro e maio, podendo repetir após novas frentes maduras. As hastes são arqueadas e podem ramificar. Hastes verdes devem ser mantidas, pois alguns cruzamentos podem emitir ramificações secundárias.",

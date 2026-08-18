@@ -28,7 +28,7 @@ export const blcChiaLin = {
     iluminacao: {
         sombrite: "50% a 60% — 50% como referência inicial",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Somente início da manhã",
         observacoes: "Necessita mais luz do que Phalaenopsis e muitos Oncidium. Folhas muito escuras e pseudobulbos alongados podem indicar pouca luz, enquanto sol forte do meio do dia aumenta o risco de superaquecimento e queimaduras."
     },
     floracao: "Variável conforme o clone e o ciclo de crescimento. Seleções de Chia Lin são registradas florescendo do outono à primavera, portanto o calendário deve ser tratado como referência, não como característica fixa do grex.",

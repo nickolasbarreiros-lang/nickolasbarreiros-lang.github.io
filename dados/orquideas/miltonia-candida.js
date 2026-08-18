@@ -29,7 +29,7 @@ export const miltoniaCandida = {
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até aproximadamente 08:30 ou no fim da tarde",
+        "horario": "Somente início da manhã",
         "observacoes": "Luz filtrada média a intensa. Folhas verde-claro e firmes indicam boa exposição. Folhagem verde-escura, alongada e mole sugere sombra excessiva; bordas claras, manchas secas ou aquecimento foliar indicam sol ou calor demais."
     },
     "floracao": "Principalmente da primavera ao verão. As hastes eretas a arqueadas podem alcançar cerca de 60 cm e carregar normalmente 3–7 flores grandes, cerosas e perfumadas, de até aproximadamente 7,5 cm. O contraste entre os segmentos castanho-amarelados e o amplo labelo branco ondulado é sua marca ornamental mais característica.",

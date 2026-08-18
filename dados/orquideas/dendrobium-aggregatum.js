@@ -32,7 +32,7 @@ export const dendrobiumAggregatum = {
     "iluminacao": {
         "sombrite": "40% a 50%",
         "solDireto": "Permitido com restrição",
-        "horario": "Início da manhã",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Necessita boa luminosidade durante todo o ano e especialmente no período de repouso. Folhas verde-claro, pseudobulbos compactos e leve pigmentação podem indicar exposição adequada. Sombra excessiva favorece crescimento sem botões; sol forte sem aclimatação causa queimaduras."
     },
     "floracao": "Floresce principalmente do inverno à primavera. Os racemos axilares, frequentemente pendentes, surgem em pseudobulbos maduros, com ou sem folha, e carregam normalmente 5–15 flores perfumadas de cerca de 2–5 cm. O efeito visual é melhor em placas e cestos, onde os cachos podem pender livremente.",

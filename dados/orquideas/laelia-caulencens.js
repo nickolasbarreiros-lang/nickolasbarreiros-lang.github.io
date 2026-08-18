@@ -31,7 +31,7 @@ export const laeliaCaulencens = {
     iluminacao: {
         sombrite: "30% a 50% — 40% a 50% no litoral quente",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Necessita muita luz, mas em litoral quente não comece com apenas 30% de sombreamento. Crescimento compacto, pseudobulbos firmes e folha rígida são melhores indicadores que pigmentação avermelhada. Evite pedra ou vaso aquecendo diretamente ao sol forte."
     },
     floracao: "Predomina no outono e inverno. As hastes geralmente medem cerca de 15 a 35 cm e carregam de 2 a 5 flores bem espaçadas, com flores em torno de 3,5–4 cm.",

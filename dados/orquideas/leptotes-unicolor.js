@@ -28,7 +28,7 @@ export const leptotesUnicolor = {
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
-        horario: "Até aproximadamente 08:30",
+        horario: "Somente início da manhã",
         observacoes: "Luz média a alta filtrada. Folhas firmes e verde-oliva indicam equilíbrio; verde muito escuro sugere pouca luz, enquanto clareamento excessivo, tecido áspero ou manchas secas indicam sol e calor demais."
     },
     floracao: "No Brasil, a referência de campo/cultivo aponta principalmente maio e junho, correspondendo ao fim do outono e início do inverno. As pequenas inflorescências pendentes produzem geralmente 1–2 flores perfumadas de aproximadamente 2–2,4 cm.",

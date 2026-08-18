@@ -29,7 +29,7 @@ export const catasetumMattosianum = {
     iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Durante crescimento ativo necessita bastante luz para formar pseudobulbos volumosos. Folhas verde-médio a verde-claro e pseudobulbos robustos são bons indicadores. Excesso súbito de sol queima folhas; sombra profunda gera crescimento mais fraco. A intensidade luminosa influencia diretamente a proporção de flores: níveis mais altos de luz favorecem o surgimento de flores femininas, enquanto condições de menor luminosidade tendem a estimular o aparecimento de flores masculinas."
     },
     floracao: "Principalmente no verão. IOSPE registra flores de aproximadamente 3 cm e grande variabilidade de cor. O momento exato pode oscilar conforme início da brotação, maturação do pseudobulbo e condições de cultivo.",

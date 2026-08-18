@@ -28,7 +28,7 @@ export const arpophyllumGiganteum = {
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Somente início da manhã",
         observacoes: "Referências recomendam luz ampla, comparável à de Cattleyas cultivadas em condição fresca. Folhas firmes de verde médio a verde-claro e pseudobulbos robustos indicam bom nível de luz. Folhas muito escuras com plantas volumosas que não florescem sugerem sombra excessiva; amarelecimento e aquecimento rápido indicam excesso de radiação ou ventilação insuficiente."
     },
     floracao: "Principalmente do fim do inverno à primavera. No Brasil, agosto a novembro é uma janela prática coerente. A haste terminal surge de pseudobulbo recém-maduro e pode alcançar cerca de 40 cm, carregando grande número de pequenas flores rosa-púrpura em espiral.",

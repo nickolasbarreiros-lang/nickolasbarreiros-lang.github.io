@@ -33,7 +33,7 @@ export const phaiusTankervilleaeAlba = {
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até cerca de 08:00",
+        "horario": "Somente início da manhã",
         "observacoes": "Prefere luz filtrada de média intensidade. Folhas verde-médio e firmes indicam bom equilíbrio. Sombra profunda favorece folhas grandes, mas pode reduzir a floração; sol forte aquece e queima rapidamente as lâminas plissadas."
     },
     "floracao": "Predomina na primavera, podendo começar no fim do inverno em cultivo. As inflorescências basais são eretas e podem ultrapassar 120 cm. As flores são grandes, em torno de 11,5 cm, e a haste pode sustentar várias flores sucessivamente. Após a floração, hastes velhas de Phaius/Calanthe tankervilleae também são conhecidas por formar brotações adventícias em condições muito úmidas.",

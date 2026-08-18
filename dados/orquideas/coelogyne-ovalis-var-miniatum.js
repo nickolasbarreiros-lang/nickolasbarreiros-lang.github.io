@@ -32,7 +32,7 @@ export const coelogyneOvalisVarMiniatum = {
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Permitido com restrição",
-        "horario": "Primeiras horas da manhã",
+        "horario": "Somente início da manhã",
         "observacoes": "Prefere sombra luminosa, com bastante claridade difusa. Folhas verde-médio e pseudobulbos firmes indicam equilíbrio. Sombra excessiva reduz a floração; sol forte combinado com calor desidrata folhas e rizoma rapidamente."
     },
     "floracao": "Na Coelogyne ovalis típica, a floração pode ocorrer do verão ao inverno, com maior variação conforme procedência e condições de cultivo. As inflorescências são curtas, com poucas flores que podem abrir de forma sucessiva. Cada flor mede aproximadamente 3–4 cm e pode apresentar perfume. Para este exemplar, fotografe planta inteira, flor frontal, perfil e labelo para confirmar a identificação.",

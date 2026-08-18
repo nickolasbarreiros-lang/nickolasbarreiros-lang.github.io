@@ -33,7 +33,7 @@ export const coelogyneFlaccida = {
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Permitido com restrição",
-        "horario": "Início da manhã",
+        "horario": "Somente início da manhã",
         "observacoes": "Prefere luz filtrada média a forte. Folhas verde-claro e firmes indicam boa iluminação. Folhas muito escuras sugerem sombra excessiva; amarelecimento e manchas secas indicam sol forte ou calor."
     },
     "floracao": "Floresce principalmente do fim do inverno à primavera, entre agosto e novembro. As inflorescências precisam sair livremente do recipiente e pender sem encostar em prateleiras, paredes ou vasos vizinhos. O perfume é mais intenso em horários claros e pode ser incômodo em locais fechados.",

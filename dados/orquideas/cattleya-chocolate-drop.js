@@ -34,7 +34,7 @@ export const cattleyaChocolateDrop = {
     "iluminacao": {
         "sombrite": "40% a 60%",
         "solDireto": "Permitido com restrição",
-        "horario": "Manhã",
+        "horario": "Somente início da manhã",
         "observacoes": "Ofereça o máximo de luz que as folhas tolerarem sem queimar. Folhas verde-médio, firmes e pseudobulbos compactos indicam boa exposição. Folhas escuras, pseudobulbos alongados e hastes fracas indicam sombra. Manchas secas e clareamento brusco indicam excesso de sol sem aclimatação."
     },
     "floracao": "Floresce geralmente do outono ao inverno, entre abril e agosto, embora o ciclo varie conforme o clone. As hastes eretas carregam flores cerosas, brilhantes e duráveis. O perfume pode variar de discreto a moderado. Plantas adultas e pouco divididas costumam produzir cachos mais densos e mais de uma haste simultânea.",

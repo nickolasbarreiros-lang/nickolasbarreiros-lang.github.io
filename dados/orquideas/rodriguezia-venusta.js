@@ -33,7 +33,7 @@ export const rodrigueziaVenusta = {
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até aproximadamente 08:00",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Prefere meia-sombra clara. Folhas verde-médio a verde-claro, firmes e crescimento compacto indicam boa luminosidade. Sombra profunda reduz a floração; sol forte provoca amarelecimento, queimaduras e rápida desidratação das folhas e raízes."
     },
     "floracao": "A floração principal ocorre da primavera ao verão, aproximadamente de setembro a fevereiro. As hastes arqueadas ou pendentes podem carregar numerosas flores e precisam de espaço vertical completamente livre. A planta deve ficar suspensa ou posicionada na borda de uma bancada para que as inflorescências não sejam comprimidas ou desviadas.",

@@ -33,7 +33,7 @@ export const coelogyneFimbriata = {
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
-        "horario": "Primeiras horas da manhã",
+        "horario": "Somente início da manhã",
         "observacoes": "Prefere sombra luminosa. Folhas verde-médio indicam boa exposição. Sombra profunda reduz a floração; sol direto forte causa amarelecimento e queimaduras."
     },
     "floracao": "Ocorre principalmente do fim do verão ao outono, entre fevereiro e junho. As hastes são curtas e surgem junto aos pseudobulbos maduros. As flores, embora menores que as de outras Coelogynes, ganham impacto quando várias frentes florescem simultaneamente em uma colônia extensa.",

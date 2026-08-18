@@ -1,0 +1,11 @@
+REVISÃO — EXPOSIÇÃO SOLAR SEGURA
+
+Padrão:
+- espécie mais tolerante: Início da manhã ou final da tarde
+- sensível ao calor, mas aceita algum sol: Somente início da manhã
+- muito sensível / sol direto contraindicado: Não permitido (sem selo de exposição)
+
+A classificação parte do estado de sol direto já revisado e cruza gênero, habitat,
+altitude/clima e observações de cultivo. No contexto editorial de litoral quente,
+o sol vespertino só é liberado para grupos/espécies de maior tolerância luminosa.
+O rótulo visual foi alterado de "Horário recomendado" para "Exposição segura".

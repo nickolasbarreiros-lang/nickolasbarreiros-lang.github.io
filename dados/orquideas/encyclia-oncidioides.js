@@ -23,7 +23,7 @@ export const encycliaOncidioides = {
     iluminacao: {
         sombrite: "40% a 50%; em regiões serranas, 30% a 40% após aclimatação",
         solDireto: "Permitido com restrição",
-        horario: "Até aproximadamente 09:00",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Folhas firmes em verde-claro indicam boa luminosidade. Folhas muito escuras e pseudobulbos alongados sugerem sombra excessiva; amarelecimento intenso, manchas secas ou aquecimento excessivo indicam sol demais."
     },
     floracao: "Principalmente primavera e verão; flores numerosas, duráveis e perfumadas em plantas bem estabelecidas.",

@@ -30,7 +30,7 @@ export const laeliaCinnabarina = {
     iluminacao: {
         sombrite: "30% a 50% — 40% a 50% no litoral quente",
         solDireto: "Permitido com restrição",
-        horario: "Bem cedo pela manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Necessita muita claridade, mas não use horários fixos como regra. No verão de litoral quente, priorize 40% a 50% de sombreamento e circulação intensa. Crescimento compacto e pseudobulbos firmes são indicadores melhores que buscar avermelhamento das folhas."
     },
     floracao: "Principalmente do fim do inverno à primavera. As hastes podem atingir cerca de 60 cm e carregar aproximadamente 5–15 flores duráveis, geralmente com cerca de 6 cm e forte coloração laranja-cinábrio.",

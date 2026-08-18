@@ -29,7 +29,7 @@ export const oncidiumTwinkle = {
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
-        "horario": "Até cerca de 8h",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Luz indireta brilhante. Folhas verde-médio e pseudobulbos compactos indicam equilíbrio. Folhas escuras, moles e poucas hastes indicam sombra excessiva; folhas amarelas ou pontas secas sugerem excesso de sol, calor ou sais."
     },
     "floracao": "A época varia conforme clone e microclima, mas costuma se concentrar do outono ao inverno, aproximadamente entre abril e agosto. Touceiras maduras podem emitir várias hastes ao mesmo tempo. O parentesco explica parte desse comportamento: O. cheirophorum floresce naturalmente no outono/inverno, enquanto O. sotoanum produz panículas perfumadas no mesmo período. As cores do grex variam do branco e creme ao amarelo, rosa, laranja e vermelho.",

@@ -33,7 +33,7 @@ export const bifrenariaVerboonenii = {
     iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
-        horario: "Primeiras horas da manhã",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Prefere alta claridade filtrada. No litoral, 40% a 50% de sombra reduz superaquecimento sem escurecer demais a planta. Folhas muito escuras indicam luz insuficiente."
     },
     floracao: "Primavera ao início do verão; em cultivo, a data pode variar com procedência e maturação do pseudobulbo.",

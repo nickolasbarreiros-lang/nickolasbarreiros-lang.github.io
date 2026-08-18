@@ -28,7 +28,7 @@ export const maxillariaLeucaimata = {
     iluminacao: {
         sombrite: "50% a 70%",
         solDireto: "Permitido com restrição",
-        horario: "Início da manhã ou fim da tarde",
+        horario: "Somente início da manhã",
         observacoes: "Prefere claridade filtrada abundante. Folhas verde-médio a verde-claro e pseudobulbos firmes indicam bom equilíbrio. Folhas muito escuras e crescimento frouxo sugerem pouca luz; amarelecimento intenso, manchas secas ou aquecimento indicam excesso. No litoral quente, 60% a 70% costuma ser mais seguro."
     },
     floracao: "Mais comum do verão ao outono. Cada inflorescência ereta pode atingir cerca de 20 cm e porta uma única flor de aproximadamente 3 a 4 cm. Plantas adultas podem produzir várias hastes quase simultaneamente, formando uma floração mais cheia sem que cada haste deixe de ser uniflora.",

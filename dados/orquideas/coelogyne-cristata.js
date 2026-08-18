@@ -33,7 +33,7 @@ export const coelogyneCristata = {
     "iluminacao": {
         "sombrite": "50% no verão",
         "solDireto": "Permitido com restrição",
-        "horario": "Manhã",
+        "horario": "Somente início da manhã",
         "observacoes": "No verão, proteja do calor e do sol forte. No inverno, aumente a luminosidade para amadurecer reservas e favorecer botões. Folhas verde-médio e pseudobulbos cheios indicam bom manejo; folhas muito escuras sugerem pouca luz."
     },
     "floracao": "Floresce após o repouso frio e seco, normalmente do inverno ao início da primavera. Em climas do Hemisfério Sul, a época pode variar conforme a intensidade do frio disponível. As hastes são flexíveis e pendentes, por isso a planta deve ficar elevada e com espaço abaixo do recipiente.",

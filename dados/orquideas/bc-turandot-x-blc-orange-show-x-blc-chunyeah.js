@@ -27,7 +27,7 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     iluminacao: {
         sombrite: "50%",
         solDireto: "Permitido",
-        horario: "Até 09:00, com adaptação gradual",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Cultive sob claridade intensa, com sombrite de 50% ou luz filtrada equivalente. Folhas verde-claras e eretas indicam níveis ideais de luz. Pseudobulbos muito estiolados, compridos e finos, e folhas verde-escuras revelam falta de iluminação, enquanto amarelamento acentuado e manchas secas indicam queimadura por sol direto sem adaptação."
     },
     floracao: "A época de floração não é rigidamente fixa porque se trata de um cruzamento complexo e indivíduos irmãos podem responder de forma diferente. Em geral, a haste surge após a maturação completa do pseudobulbo; no cultivo, luz forte filtrada, raízes ativas e amadurecimento uniforme do crescimento são indicadores mais úteis que um calendário rígido. Registros de Rlc. Chunyeah mostram floração também no outono, reforçando a amplitude fenológica possível do cruzamento.",

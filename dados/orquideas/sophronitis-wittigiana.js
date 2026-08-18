@@ -34,7 +34,7 @@ export const sophronitisWittigiana = {
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
-        "horario": "Antes das 08:00",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Precisa de luz filtrada brilhante para florescer, mas as folhas aquecem rapidamente. Folhas verde-médio a verde-claro e pseudobulbos compactos indicam boa exposição. Folhas muito escuras indicam sombra; avermelhamento intenso, amarelecimento e áreas secas indicam excesso de luz ou calor."
     },
     "floracao": "Floresce principalmente do outono ao inverno, com registros naturais concentrados entre abril e agosto. A haste é curta e produz uma ou poucas flores grandes em relação ao porte da planta, normalmente em tons rosa a magenta. Em cultivo, a duração das flores melhora quando as noites permanecem amenas e a planta não sofre calor excessivo.",
