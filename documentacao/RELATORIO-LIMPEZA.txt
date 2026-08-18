@@ -1,0 +1,18 @@
+RELATÓRIO DE LIMPEZA ESTRUTURAL
+
+Arquivos originais: 778
+Arquivos após limpeza: 696
+Arquivos removidos/reorganizados: 82
+Tamanho original: 66.88 MB
+Tamanho limpo: 62.90 MB
+Redução: 3.98 MB
+
+Fichas ativas: 131
+Imagens ativas preservadas: 529
+Documentos técnicos preservados: 17
+
+Validações:
+- Sintaxe JavaScript: OK
+- Imports relativos: OK
+- Imagens referenciadas: OK
+- IDs duplicados: 0

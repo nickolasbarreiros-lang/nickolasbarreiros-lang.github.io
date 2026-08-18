@@ -1,0 +1,10 @@
+REVISÃO TOTAL DOS SELOS DE REGA
+
+Escala editorial:
+- baixa: tolera secagem ampla / baixa demanda hídrica
+- moderada: ciclo molhar-secar; secagem parcial clara entre regas
+- frequente: água regular; evitar secagem prolongada
+- muito-frequente: raízes/meio devem permanecer hidratados; baixa tolerância à secagem; em montagens pode exigir rega diária no calor
+- sazonal: muita água no crescimento e redução/suspensão no repouso
+
+A classificação foi revista em todas as 131 fichas usando o texto de cultivo/habitat já confrontado com as fontes do projeto e regras de grupo apoiadas por referências de cultivo como AOS/IOSPE. Frequência de rega foi separada de risco de encharcamento.

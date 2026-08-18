@@ -1,0 +1,198 @@
+// Refinamento final — revisão consolidada com fontes botânicas e de cultivo.
+
+export const encycliaBracteata = {
+    id: "encyclia-bracteata",
+    nome: "Encyclia bracteata",
+    genero: "Encyclia",
+    sinonimo: "Epidendrum bracteatum",
+    tipo: "Espécie botânica",
+    dificuldade: "Moderada",
+    caracteristicas: [
+        "Miniatura brasileira",
+        "Mata Atlântica",
+        "Bahia ao Sudeste",
+        "10–500 m",
+        "Pseudobulbos unifoliados",
+        "2–3 flores por haste",
+        "Flores de cerca de 2,5 cm",
+        "Alta luminosidade filtrada"
+    ],
+    fotos: [
+        "imagens/Encyclia bracteata/Encyclia bracteata1.jpeg",
+        "imagens/Encyclia bracteata/Encyclia bracteata2.webp",
+        "imagens/Encyclia bracteata/Encyclia bracteata3.jpeg",
+        "imagens/Encyclia bracteata/Encyclia bracteata4.jpg"
+    ],
+    descricao: "Uma das menores Encyclia brasileiras! Encyclia bracteata forma pseudobulbos compactos com uma folha fina e estreita e produz pequenas hastes com apenas duas ou três flores de aproximadamente 2,5 cm. O contraste entre o porte reduzido da planta e a delicadeza das flores torna a espécie especialmente charmosa. É nativa da Mata Atlântica, da Bahia ao Sudeste, e ocorre principalmente em baixas altitudes — cerca de 10 a 500 m — sobre troncos de árvores. Essa origem explica sua boa adaptação ao calor: gosta de muita claridade filtrada, água durante o crescimento e raízes que secam rapidamente depois de cada rega.",
+    origem: "Brasil.",
+    regiao: "Bahia e Sudeste brasileiro.",
+    habitat: "Mata Atlântica · epífita · ~10–500 m.",
+    clima: "Quente a intermediário · ventilado.",
+    climaFloracao: "A espécie vem de baixa altitude e não necessita de frio para florescer. O estímulo mais importante é completar pseudobulbos maduros sob luminosidade elevada filtrada, seguida de leve redução na frequência das regas. IOSPE registra floração na primavera em natureza e do fim do verão ao início do outono em cultivo, mostrando que o calendário varia conforme hemisfério e condições de cultivo.",
+    iluminacao: {
+        sombrite: "40% a 50%",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
+        observacoes: "Aprecia luz alta, semelhante à de muitas Cattleyas compactas. Folhas excessivamente escuras indicam falta de luz; amarelecimento forte ou queimaduras sugerem radiação e calor excessivos."
+    },
+    floracao: "Em habitat, é registrada principalmente na primavera; em cultivo pode florescer do fim do verão ao início do outono. Cada pseudobulbo pode emitir mais de uma inflorescência terminal curta, com aproximadamente 2–3 flores por haste. A combinação de porte pequeno, folhas muito finas e múltiplas hastes por pseudobulbo é uma característica marcante da espécie.",
+    adubacao: "🌿 Orgânica: bokashi em pequena quantidade a cada 60–90 dias durante crescimento ativo, afastado do rizoma.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/3 da dose semanal ou quinzenalmente enquanto houver novos brotos e raízes.\n🌱 Maturação: reduza o excesso de nitrogênio quando o pseudobulbo estiver completando o crescimento.\n🧪 Liberação lenta: poucos grânulos apenas em recipientes extremamente drenantes.\n🚿 Lavagem: faça regas periódicas somente com água para reduzir sais.",
+    rega: "Durante novos brotos e raízes, regue bem e espere o substrato se aproximar da secagem antes da próxima irrigação. Após a maturação dos pseudobulbos, reduza discretamente a frequência, sem impor repouso seco prolongado. O risco principal no litoral quente é manter raízes úmidas e abafadas por muitas horas.",
+    suporte: "🥇 Vaso pequeno de barro — excelente evaporação e estabilidade.\n🥈 Cachepô bem vazado — combina aeração e retenção moderada.\n🥉 Placa de cortiça ou madeira — ótima opção em orquidário úmido, com regas mais frequentes.\nUse recipiente apenas ligeiramente maior que o rizoma.",
+    substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.",
+    errosComuns: "Sombra excessiva; vaso grande; substrato fino; raízes constantemente molhadas; enterrar o rizoma; replantar fora da emissão de raízes novas; excesso de fertilizante; interpretar baixa altitude como tolerância a abafamento; impor repouso totalmente seco por meses.",
+    dica: "A espécie é pequena, mas quer bastante luz. No litoral quente, use vaso pequeno, mistura grossa e ventilação permanente. Regue com generosidade enquanto houver crescimento ativo e deixe o ar retornar rapidamente às raízes após cada rega.",
+    revisaoCientificaIAR: {
+        "nome": "Encyclia bracteata",
+        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "morfologiaDimensoes": "Uma das menores Encyclia brasileiras! Encyclia bracteata forma pseudobulbos compactos com uma folha fina e estreita e produz pequenas hastes com apenas duas ou três flores de aproximadamente 2,5 cm. O contraste entre o porte reduzido da planta e a delicadeza das flores torna a espécie especialmente charmosa. É nativa da Mata Atlântica, da Bahia ao Sudeste, e ocorre principalmen",
+        "habitatAltitudeClima": "Mata Atlântica · epífita · ~10–500 m. | Quente a intermediário · ventilado.",
+        "distribuicaoGeografica": "Bahia e Sudeste brasileiro.",
+        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "confianca": "media",
+        "fontes": [
+            "POWO/Kew",
+            "WFO/IPNI",
+            "GBIF/Tropicos",
+            "IOSPE/OrchidSpecies"
+        ]
+    },
+    indiceDificuldadeCultivo: {
+        "versao": "IDC 3.2 — selo por facilidade",
+        "escala": "dificuldade",
+        "indice": 40,
+        "classificacao": "Moderada",
+        "cultivoEstrelas": 3,
+        "criterios": {
+            "temperatura": {
+                "notaDificuldade": 2,
+                "peso": 15
+            },
+            "rega": {
+                "notaDificuldade": 2,
+                "peso": 15
+            },
+            "umidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "ventilacao": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "luminosidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "raizesSubstrato": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "sazonalidade": {
+                "notaDificuldade": 2,
+                "peso": 10
+            },
+            "floracao": {
+                "notaDificuldade": 2,
+                "peso": 20
+            }
+        },
+        "faixas": {
+            "facil": "0–25",
+            "moderada": "26–50",
+            "dificil": "51–89",
+            "extrema": "90–100"
+        }
+    },
+    indiceAdaptacaoRegional: {
+        "versao": "IAR 2.0 — revisão científica",
+        "escala": "compatibilidade regional",
+        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "litoralQuente": {
+            "indice": 79,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
+            }
+        },
+        "montanhaFrio": {
+            "indice": 79,
+            "estrelas": 4,
+            "fatores": {
+                "habitatNatural": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "temperatura": {
+                    "nota": 4,
+                    "peso": 30
+                },
+                "aguaUmidade": {
+                    "nota": 3,
+                    "peso": 5
+                },
+                "ventilacao": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "luminosidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "sazonalidade": {
+                    "nota": 4,
+                    "peso": 5
+                },
+                "floracao": {
+                    "nota": 4,
+                    "peso": 20
+                }
+            }
+        }
+    },
+        adaptacaoRegional: {
+        litoralQuente: { texto: "Sua ocorrência em 10–500 m favorece o cultivo em clima quente, desde que haja ventilação, luz alta filtrada e secagem rápida das raízes." },
+        montanhaFrio: { texto: "Reduzindo regas em períodos frios e nublados e protegendo de geada." }
+    },
+    mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4],
+    "selosCultivo": {
+        "rega": { "nivel": "sazonal", "regime": "reduzir-repouso" },
+        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+    },
+        avaliacoes: {
+        cultivo: 3,
+        floracao: 4,
+        perfume: 2,
+        luminosidade: 4,
+        agua: 3,
+        raridade: 3
+    }
+};
