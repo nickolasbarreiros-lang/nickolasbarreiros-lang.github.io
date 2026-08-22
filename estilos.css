@@ -6533,3 +6533,30 @@ main.container{
 @media(max-width:1180px){.selo-manifesto-v5{display:none}.faixa-premium-v5{grid-template-columns:repeat(3,1fr);padding:0 20px}.faixa-premium-v5 button:nth-child(3){border-right:0}.hero-v4{background-position:64% center}}
 @media(max-width:760px){.hero-v4{background:linear-gradient(180deg,rgba(250,246,230,.95),rgba(250,246,230,.84)),url('imagens/interface/hero-orquidario-digital.jpg') 72% center/cover no-repeat}.hero-v4-conteudo{padding:42px 20px}.hero-v4 h1{font-size:54px}.faixa-premium-v5{grid-template-columns:1fr 1fr;padding:0}.faixa-premium-v5 button{min-height:84px;padding:12px;border-right:1px solid rgba(210,180,92,.35);border-bottom:1px solid rgba(210,180,92,.25)}.faixa-premium-v5 button:nth-child(3){border-right:1px solid rgba(210,180,92,.35)}.faixa-premium-v5 button:nth-child(even){border-right:0}.faixa-premium-v5 button:last-child{grid-column:1/-1}.faixa-premium-v5 button>b{width:42px;height:42px}.faixa-premium-v5 strong{font-size:14px}.faixa-premium-v5 small{font-size:11px}.resumo-colecao-v5{grid-template-columns:1fr 1fr}.destaques-v4 .cabecalho-secao-v4 a{display:none}}
 @media(max-width:470px){.hero-v4 h1{font-size:47px}.hero-v4 p{font-size:18px}.busca-hero-v4{border-radius:14px}.faixa-premium-v5 button{gap:8px}.resumo-colecao-v5{grid-template-columns:1fr 1fr}.resumo-colecao-v5 .cartao-botanico{padding:12px}.resumo-colecao-v5 .icone-botanico{width:42px;height:42px}}
+
+/* =========================================================
+   HOME V6 — REFINAMENTO PREMIUM + NOVA MARCA (2026-08-21)
+========================================================= */
+.marca-v4{min-width:330px;line-height:0}.logo-v6{display:block;width:300px;height:72px;object-fit:contain;object-position:left center}
+.topo-v4-conteudo{min-height:82px}
+.menu-v4{height:82px}
+.hero-v4{min-height:460px;background-position:70% 47%}
+.hero-v4::after{height:48px}
+.hero-v4-conteudo{padding:40px 58px 30px}
+.hero-v4 h1{font-size:clamp(58px,5.1vw,82px);margin:13px 0 10px;line-height:.9}
+.hero-v4 p{margin-bottom:19px;font-size:20px}
+.busca-hero-v4{width:min(690px,56vw);max-width:none;margin-top:18px}
+.busca-hero-v4 input{font-size:15px;padding:16px 12px}
+.acoes-hero-v4{margin:14px 0 0}
+.botao-hero-v4{min-height:45px}
+.selo-manifesto-v5{right:54px;top:54px;width:132px;min-height:292px;padding:20px 15px;gap:11px;border-radius:46px 46px 22px 22px;font-size:12px;background:rgba(4,54,31,.88)}
+.selo-manifesto-v5 span{font-size:24px}.selo-manifesto-v5 i{width:34px}
+.faixa-premium-v5 button{min-height:82px}
+.container-v4{padding-top:0}
+.resumo-colecao-v5{max-width:1040px;margin:16px auto 0;gap:10px}
+.resumo-colecao-v5 .cartao-botanico{min-height:108px;padding:15px 18px;box-shadow:0 5px 14px rgba(65,52,25,.05)}
+.resumo-colecao-v5 .conteudo-botanico strong{font-size:34px}
+.explorar-v4{padding:18px 0 20px}.titulo-secao-v4{margin-bottom:22px}.titulo-secao-v4 h2{font-size:31px}.titulo-secao-v4 span{background:#c39b3b;height:2px}
+@media(max-width:1180px){.marca-v4{min-width:280px}.logo-v6{width:265px}.busca-hero-v4{width:min(650px,66vw)}}
+@media(max-width:760px){.marca-v4{min-width:0}.logo-v6{width:235px;height:62px}.topo-v4-conteudo{min-height:70px}.hero-v4{min-height:auto}.hero-v4-conteudo{padding:36px 20px 34px}.hero-v4 h1{font-size:51px}.busca-hero-v4{width:100%;margin-top:14px}.busca-hero-v4 input{font-size:14px}.resumo-colecao-v5{margin-top:14px}.explorar-v4{padding-top:14px}}
+@media(max-width:470px){.logo-v6{width:205px;height:58px}.hero-v4 h1{font-size:45px}.busca-hero-v4 button{padding:0 18px}.resumo-colecao-v5 .cartao-botanico{min-height:96px}}

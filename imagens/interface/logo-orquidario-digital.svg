@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-labelledby="t d">
+<title id="t">Orquidário Digital</title><desc id="d">Emblema de orquídea em dourado e creme com o nome Orquidário Digital.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5df96"/><stop offset="1" stop-color="#b78d2e"/></linearGradient></defs>
+<g transform="translate(8 8)">
+ <circle cx="67" cy="67" r="58" fill="#073d25" stroke="url(#g)" stroke-width="2"/>
+ <circle cx="67" cy="67" r="51" fill="none" stroke="#d4b45a" stroke-opacity=".42"/>
+ <path d="M67 55C49 27 39 24 32 31c-8 9 4 27 27 34C37 62 23 69 25 80c2 12 23 14 38-2-7 22 0 38 12 38 11 0 18-16 10-38 16 16 37 14 39 2 2-11-12-18-34-15 23-7 35-25 27-34-7-7-17-4-34 24-3-18-8-31-16-31s-13 13-16 31z" fill="#f4e5b1" stroke="#caa348" stroke-width="1.5"/>
+ <path d="M53 67c6-12 22-12 28 0-2 15-9 24-14 24s-12-9-14-24z" fill="#b99032"/>
+ <path d="M59 68c5 5 11 5 16 0-1 10-4 15-8 15s-7-5-8-15z" fill="#fff3ca"/>
+ <circle cx="67" cy="64" r="4" fill="#6f351f"/>
+ <path d="M28 105c16-2 26-8 35-18M106 105c-16-2-26-8-35-18" fill="none" stroke="#d2b057" stroke-width="2" stroke-linecap="round"/>
+ <path d="M31 103c-10-5-16-3-20 2 8 5 14 5 20-2M103 103c10-5 16-3 20 2-8 5-14 5-20-2" fill="#7fa35f"/>
+</g>
+<g transform="translate(145 22)" fill="#f6e7b4">
+ <text x="0" y="52" font-family="Georgia, 'Times New Roman', serif" font-size="47" font-weight="700" letter-spacing=".4">Orquidário</text>
+ <path d="M3 66h92M265 66h92" stroke="#caa348" stroke-width="1.5"/>
+ <text x="112" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing="8" fill="#d6bd6e">DIGITAL</text>
+ <circle cx="102" cy="66" r="2.5" fill="#caa348"/><circle cx="257" cy="66" r="2.5" fill="#caa348"/>
+</g>
+</svg>
