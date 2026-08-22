@@ -6598,3 +6598,39 @@ main.container{
 @media(max-width:470px){
     .logo-v6{width:230px;height:60px}
 }
+
+/* =========================================================
+   HOME V8 — CORPO PREMIUM / CARDS ILUSTRADOS (2026-08-21)
+   Mantém a marca V7 e aproxima a home do conceito aprovado.
+========================================================= */
+.container-v4{max-width:1500px;padding-left:38px;padding-right:38px}
+.resumo-colecao-v5{max-width:1240px;margin:20px auto 6px;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.estatisticas-v4.estatisticas-botanicas{max-width:1240px}
+.estatisticas-botanicas .cartao-botanico{aspect-ratio:auto;min-height:138px;border-radius:14px;padding:18px;background:linear-gradient(90deg,rgba(255,252,241,.99) 0%,rgba(255,252,241,.94) 49%,rgba(255,252,241,.20) 74%,rgba(255,252,241,.03) 100%),var(--desenho) right center/48% 112% no-repeat,#fbf4df;box-shadow:0 8px 20px rgba(51,57,34,.10);border-color:rgba(177,143,53,.48)}
+.estatisticas-botanicas .cartao-botanico::before{content:"";position:absolute;right:-9px;bottom:-20px;width:48%;height:105%;background:var(--desenho) center/cover no-repeat;opacity:.9;filter:saturate(.9) contrast(1.03);z-index:-1;mask-image:linear-gradient(90deg,transparent 0%,#000 35%);-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 35%)}
+.estatisticas-botanicas .cartao-botanico::after{opacity:.12}
+.estatisticas-botanicas .icone-botanico{width:43px;height:43px;background:linear-gradient(145deg,#d3ad38,#a77d13);border-color:#e3c866;color:#fff7d8;box-shadow:0 4px 12px rgba(120,85,13,.20)}
+.estatisticas-botanicas .conteudo-botanico{left:20px;bottom:17px;max-width:62%}
+.estatisticas-botanicas .conteudo-botanico strong{font-size:43px;color:#073f25}
+.estatisticas-botanicas .conteudo-botanico i{margin:6px 0 5px;width:38px}
+.estatisticas-botanicas .conteudo-botanico small{font-size:12px;color:#405045}
+.estatisticas-botanicas .conteudo-botanico small b{font-size:19px;color:#173d27}
+.explorar-v4{position:relative;padding:25px 0 28px}
+.explorar-v4::before,.explorar-v4::after{content:"❧";position:absolute;top:20px;color:rgba(178,140,39,.28);font-size:72px;line-height:1;pointer-events:none}
+.explorar-v4::before{left:-20px;transform:rotate(-18deg)}.explorar-v4::after{right:-20px;transform:scaleX(-1) rotate(-18deg)}
+.titulo-explorar-v8{position:relative;margin-bottom:28px}
+.titulo-explorar-v8::before,.titulo-explorar-v8::after{content:"";position:absolute;top:22px;width:30%;height:1px;background:linear-gradient(90deg,transparent,#bd9430)}
+.titulo-explorar-v8::before{left:0}.titulo-explorar-v8::after{right:0;transform:scaleX(-1)}
+.titulo-explorar-v8 h2{display:inline-block;position:relative;padding:0 22px;background:var(--v5-creme2);font-size:36px;z-index:1}
+.titulo-explorar-v8 h2::before{content:"✿";display:block;margin:0 auto 3px;color:#bd9430;font-size:18px;line-height:1}
+.titulo-explorar-v8 p{margin:7px 0 0;color:#617264;font:600 11px/1.2 Arial,sans-serif;letter-spacing:.24em}
+.titulo-explorar-v8 span{display:none}
+.atalhos-v4{gap:14px}
+.atalhos-v4 .atalho-v4{min-height:145px;border-radius:14px;border-color:rgba(181,145,50,.36);box-shadow:0 7px 17px rgba(56,64,41,.07);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.atalhos-v4 .atalho-v4:hover{transform:translateY(-4px);box-shadow:0 13px 25px rgba(43,65,42,.12);border-color:#b78e29}
+.atalhos-v4 .atalho-v4 b{border-color:#c7a73a;background:#fff8df;color:#08602f}
+.destaques-v4{margin-top:3px;padding-top:8px;border-top:1px solid rgba(188,150,49,.18)}
+.destaques-v4 .cabecalho-secao-v4{position:relative;margin-top:25px}
+@media(max-width:950px){.resumo-colecao-v5,.estatisticas-v4.estatisticas-botanicas{grid-template-columns:repeat(2,minmax(0,1fr));max-width:720px}.titulo-explorar-v8::before,.titulo-explorar-v8::after{width:20%}}
+@media(max-width:760px){.container-v4{padding-left:15px;padding-right:15px}.estatisticas-botanicas .cartao-botanico{min-height:125px}.estatisticas-botanicas .conteudo-botanico strong{font-size:38px}.estatisticas-botanicas .conteudo-botanico small b{font-size:16px}.titulo-explorar-v8 h2{font-size:30px}.titulo-explorar-v8 p{font-size:9px;letter-spacing:.14em}.explorar-v4::before,.explorar-v4::after{display:none}}
+@media(max-width:520px){.resumo-colecao-v5,.estatisticas-v4.estatisticas-botanicas{grid-template-columns:1fr 1fr}.estatisticas-botanicas .cartao-botanico{min-height:118px;padding:12px}.estatisticas-botanicas .conteudo-botanico{left:12px;bottom:11px}.estatisticas-botanicas .conteudo-botanico strong{font-size:32px}.estatisticas-botanicas .conteudo-botanico small{font-size:10px}.estatisticas-botanicas .conteudo-botanico small b{font-size:13px}.titulo-explorar-v8::before,.titulo-explorar-v8::after{display:none}}
