@@ -6634,3 +6634,262 @@ main.container{
 @media(max-width:950px){.resumo-colecao-v5,.estatisticas-v4.estatisticas-botanicas{grid-template-columns:repeat(2,minmax(0,1fr));max-width:720px}.titulo-explorar-v8::before,.titulo-explorar-v8::after{width:20%}}
 @media(max-width:760px){.container-v4{padding-left:15px;padding-right:15px}.estatisticas-botanicas .cartao-botanico{min-height:125px}.estatisticas-botanicas .conteudo-botanico strong{font-size:38px}.estatisticas-botanicas .conteudo-botanico small b{font-size:16px}.titulo-explorar-v8 h2{font-size:30px}.titulo-explorar-v8 p{font-size:9px;letter-spacing:.14em}.explorar-v4::before,.explorar-v4::after{display:none}}
 @media(max-width:520px){.resumo-colecao-v5,.estatisticas-v4.estatisticas-botanicas{grid-template-columns:1fr 1fr}.estatisticas-botanicas .cartao-botanico{min-height:118px;padding:12px}.estatisticas-botanicas .conteudo-botanico{left:12px;bottom:11px}.estatisticas-botanicas .conteudo-botanico strong{font-size:32px}.estatisticas-botanicas .conteudo-botanico small{font-size:10px}.estatisticas-botanicas .conteudo-botanico small b{font-size:13px}.titulo-explorar-v8::before,.titulo-explorar-v8::after{display:none}}
+
+/* =========================================================
+   HOME V9 — EXPLORE + DESTAQUES PREMIUM (2026-08-21)
+   Refina os atalhos e transforma Destaques em vitrine editorial.
+========================================================= */
+.atalhos-v4{
+  grid-template-columns:repeat(6,minmax(0,1fr));
+  gap:15px;
+}
+.atalhos-v4 .atalho-v4{
+  position:relative;
+  overflow:hidden;
+  isolation:isolate;
+  align-items:flex-start;
+  justify-content:flex-end;
+  min-height:172px;
+  padding:18px 17px 17px;
+  text-align:left;
+  background:#f9f3e2;
+}
+.atalhos-v4 .atalho-v4::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-2;
+  background-position:center;
+  background-size:cover;
+  opacity:.27;
+  filter:saturate(.7) contrast(.92);
+  transform:scale(1.02);
+  transition:transform .35s ease,opacity .35s ease;
+}
+.atalhos-v4 .atalho-v4::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background:linear-gradient(180deg,rgba(255,252,241,.28) 0%,rgba(255,250,235,.75) 46%,rgba(255,251,240,.98) 76%);
+}
+.atalhos-v4 .atalho-v4:nth-child(1)::before{background-image:url('imagens/Cattleya intermedia/Cattleya intermedia1.webp')}
+.atalhos-v4 .atalho-v4:nth-child(2)::before{background-image:url('imagens/Promenaea guttata/Promenaea guttata1.webp')}
+.atalhos-v4 .atalho-v4:nth-child(3)::before{background-image:url('imagens/Phalaenopsis mannii/Phalaenopsis mannii1.jpg')}
+.atalhos-v4 .atalho-v4:nth-child(4)::before{background-image:url('imagens/Spathoglottis plicata/Spathoglottis plicata1.webp')}
+.atalhos-v4 .atalho-v4:nth-child(5)::before{background-image:url('imagens/Ornithophora radicans/Ornithophora radicans1.webp')}
+.atalhos-v4 .atalho-v4:nth-child(6)::before{background-image:url('imagens/Coelogyne asperata/Coelogyne asperata1.webp')}
+.atalhos-v4 .atalho-v4:hover::before{transform:scale(1.08);opacity:.38}
+.atalhos-v4 .atalho-v4 b{
+  position:absolute;
+  top:14px;
+  left:14px;
+  width:42px;
+  height:42px;
+  display:grid;
+  place-items:center;
+  border:1px solid #c49b2f;
+  border-radius:50%;
+  background:rgba(255,249,226,.94);
+  box-shadow:0 4px 13px rgba(74,54,15,.12);
+  font-size:19px;
+}
+.atalhos-v4 .atalho-v4 strong{
+  position:relative;
+  display:block;
+  width:100%;
+  color:#073f25;
+  font-family:Georgia,'Times New Roman',serif;
+  font-size:18px;
+  line-height:1.05;
+  text-shadow:0 1px 0 rgba(255,255,255,.7);
+}
+.atalhos-v4 .atalho-v4 small{
+  position:relative;
+  display:block;
+  margin-top:5px;
+  color:#526158;
+  font:500 11px/1.35 Arial,sans-serif;
+}
+.atalhos-v4 .atalho-v4 strong::after{
+  content:"→";
+  position:absolute;
+  right:0;
+  bottom:-17px;
+  width:24px;
+  height:24px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:#07502d;
+  color:#f4d86f;
+  font:700 13px Arial,sans-serif;
+  opacity:.9;
+}
+
+.destaques-v4{
+  margin-top:10px;
+  padding:26px 0 36px;
+  border-top:1px solid rgba(188,150,49,.22);
+  position:relative;
+}
+.destaques-v4::before{
+  content:"";
+  position:absolute;
+  inset:0 -38px;
+  z-index:-1;
+  background:linear-gradient(180deg,rgba(255,253,246,.20),rgba(249,244,226,.54) 60%,rgba(255,253,247,0));
+}
+.cabecalho-destaques-v9{
+  align-items:center!important;
+  justify-content:space-between!important;
+  border-bottom:0!important;
+  padding:0 0 17px!important;
+  margin:0 0 18px!important;
+}
+.titulo-destaques-v9{position:relative;padding-left:49px}
+.titulo-destaques-v9>span{
+  position:absolute;
+  left:0;
+  top:2px;
+  width:38px;
+  height:38px;
+  display:grid;
+  place-items:center;
+  border:1px solid #bc9331;
+  border-radius:50%;
+  color:#b4871f;
+  background:#fff9e7;
+  font-size:17px;
+}
+.titulo-destaques-v9 h2{
+  margin:0!important;
+  color:#073f25!important;
+  font-size:31px!important;
+  letter-spacing:0!important;
+  text-transform:none;
+}
+.titulo-destaques-v9 p{
+  margin:5px 0 0!important;
+  color:#748176!important;
+  font:600 10px/1.2 Arial,sans-serif!important;
+  letter-spacing:.22em;
+}
+.cabecalho-destaques-v9>a{
+  position:static!important;
+  display:inline-flex;
+  align-items:center;
+  gap:9px;
+  padding:10px 15px;
+  border:1px solid rgba(177,137,38,.48);
+  border-radius:999px;
+  background:#fffaf0;
+  color:#745b1f!important;
+  font:700 12px Arial,sans-serif!important;
+  transition:.2s ease;
+}
+.cabecalho-destaques-v9>a:hover{background:#073f25;color:#f7df87!important;border-color:#073f25}
+.cabecalho-destaques-v9>a b{font-size:15px}
+.grade-destaques-v4{
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:18px;
+}
+.cartao-destaque-v9{
+  height:318px;
+  border-radius:16px;
+  border:1px solid rgba(179,141,40,.58);
+  box-shadow:0 10px 27px rgba(30,58,36,.12);
+  background:#0a3822;
+}
+.cartao-destaque-v9 img{height:100%;width:100%;object-fit:cover;transition:transform .45s ease,filter .35s ease}
+.cartao-destaque-v9:hover img{transform:scale(1.065);filter:saturate(1.08)}
+.cartao-destaque-v9:after{
+  inset:20% 0 0;
+  background:linear-gradient(180deg,transparent 2%,rgba(3,28,17,.18) 32%,rgba(2,31,18,.92) 73%,rgba(2,31,18,.99) 100%);
+}
+.selo-destaque-v9{
+  position:absolute;
+  z-index:3;
+  top:14px;
+  right:14px;
+  padding:6px 9px;
+  border:1px solid rgba(238,209,113,.72);
+  border-radius:999px;
+  background:rgba(4,55,31,.88);
+  color:#f0d978;
+  font:700 9px/1 Arial,sans-serif;
+  letter-spacing:.14em;
+  backdrop-filter:blur(4px);
+}
+.cartao-destaque-v9 .cartao-destaque-v4-info{left:19px;right:19px;bottom:16px}
+.rotulo-destaque-v9{
+  display:block;
+  margin-bottom:5px;
+  color:#d8bd63;
+  font:700 9px/1 Arial,sans-serif;
+  letter-spacing:.18em;
+}
+.cartao-destaque-v9 .cartao-destaque-v4-info strong{
+  margin:0 0 10px;
+  color:#fff8dc;
+  font-size:22px;
+  line-height:1.05;
+  font-style:normal;
+  text-shadow:0 2px 7px rgba(0,0,0,.36);
+}
+.cartao-destaque-v9 .cartao-destaque-v4-meta{
+  justify-content:flex-start;
+  flex-wrap:wrap;
+  gap:7px;
+  color:#f3e8be;
+  font-size:10px;
+}
+.cartao-destaque-v9 .cartao-destaque-v4-meta span{
+  padding:5px 8px;
+  border:1px solid rgba(228,202,115,.30);
+  border-radius:999px;
+  background:rgba(2,48,27,.70);
+}
+.cartao-destaque-v9 .cartao-destaque-v4-meta span:last-child{background:rgba(3,65,36,.84)}
+.abrir-ficha-v9{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  max-height:0;
+  overflow:hidden;
+  margin-top:0;
+  padding-top:0;
+  border-top:1px solid rgba(233,204,111,.0);
+  color:#f2d978;
+  font:700 11px Arial,sans-serif;
+  opacity:0;
+  transition:.25s ease;
+}
+.cartao-destaque-v9:hover .abrir-ficha-v9{
+  max-height:30px;
+  margin-top:10px;
+  padding-top:9px;
+  border-top-color:rgba(233,204,111,.28);
+  opacity:1;
+}
+
+@media(max-width:1100px){
+  .atalhos-v4{grid-template-columns:repeat(3,1fr)}
+  .grade-destaques-v4{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:760px){
+  .atalhos-v4{grid-template-columns:repeat(2,1fr)}
+  .atalhos-v4 .atalho-v4{min-height:155px}
+  .cabecalho-destaques-v9{align-items:flex-start!important}
+  .titulo-destaques-v9 h2{font-size:27px!important}
+  .grade-destaques-v4{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding:0 2px 12px}
+  .cartao-destaque-v9{min-width:78vw;height:310px;scroll-snap-align:start}
+}
+@media(max-width:520px){
+  .atalhos-v4 .atalho-v4{min-height:146px;padding:14px}
+  .atalhos-v4 .atalho-v4 strong{font-size:16px}
+  .cabecalho-destaques-v9>a{display:none!important}
+  .titulo-destaques-v9{padding-left:44px}
+  .titulo-destaques-v9 h2{font-size:24px!important}
+  .titulo-destaques-v9 p{font-size:8px!important;letter-spacing:.14em}
+}
