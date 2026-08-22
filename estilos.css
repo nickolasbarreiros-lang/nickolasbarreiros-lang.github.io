@@ -7070,3 +7070,175 @@ main.container{
   filter:saturate(1.25) contrast(1.05) brightness(1.05);
   transform:scale(1.07);
 }
+
+/* =========================================================
+   HOME V13 — IDENTIDADE "LÁPIS & PAPEL" UNIFICADA
+   Os cards da HOME passam a seguir a mesma linguagem dos
+   cards estatísticos: papel creme, traço botânico e dourado.
+========================================================= */
+
+/* ---------- Explore o Orquidário ---------- */
+.atalhos-v4 .atalho-v4{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  min-height:164px;
+  padding:18px 17px 17px;
+  background:
+    radial-gradient(circle at 18% 15%, rgba(255,255,255,.78), transparent 32%),
+    linear-gradient(135deg,#fffdf5 0%,#f8f1dd 100%);
+  border:1px solid rgba(177,143,53,.52);
+  box-shadow:0 8px 20px rgba(51,57,34,.09);
+  color:#123f28;
+}
+
+/* Troca as fotos coloridas por ilustrações botânicas em lápis. */
+.atalhos-v4 .atalho-v4::before{
+  content:"";
+  position:absolute;
+  z-index:0;
+  inset:auto -8% -12% auto;
+  width:76%;
+  height:112%;
+  opacity:.60;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:right bottom;
+  filter:grayscale(1) sepia(.18) contrast(1.08) brightness(1.06);
+  mix-blend-mode:multiply;
+  transform:none;
+  transition:opacity .25s ease,transform .3s ease;
+  pointer-events:none;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.40) 26%,#000 54%);
+  mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.40) 26%,#000 54%);
+}
+.atalhos-v4 .atalho-v4:nth-child(1)::before{background-image:url('imagens/interface/estatistica-botanica-1.jpg')}
+.atalhos-v4 .atalho-v4:nth-child(2)::before{background-image:url('imagens/interface/estatistica-botanica-2.jpg')}
+.atalhos-v4 .atalho-v4:nth-child(3)::before{background-image:url('imagens/interface/estatistica-botanica-3.jpg')}
+.atalhos-v4 .atalho-v4:nth-child(4)::before{background-image:url('imagens/interface/estatistica-botanica-4.jpg');opacity:.60;filter:grayscale(1) sepia(.18) contrast(1.08) brightness(1.06)}
+.atalhos-v4 .atalho-v4:nth-child(5)::before{background-image:url('imagens/interface/estatistica-botanica-1.jpg');background-position:80% bottom}
+.atalhos-v4 .atalho-v4:nth-child(6)::before{background-image:url('imagens/interface/estatistica-botanica-4.jpg');background-position:82% bottom}
+
+/* Véu de papel apenas para integrar ilustração e texto. */
+.atalhos-v4 .atalho-v4::after,
+.atalhos-v4 .atalho-v4.destaque::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:1;
+  background:linear-gradient(90deg,rgba(255,253,245,.98) 0%,rgba(255,253,245,.90) 42%,rgba(255,253,245,.28) 75%,rgba(255,253,245,.04) 100%);
+  pointer-events:none;
+}
+.atalhos-v4 .atalho-v4:hover::before,
+.atalhos-v4 .atalho-v4:nth-child(4):hover::before{
+  opacity:.72;
+  transform:scale(1.025) rotate(-.4deg);
+  filter:grayscale(1) sepia(.20) contrast(1.10) brightness(1.04);
+}
+.atalhos-v4 .atalho-v4:hover{
+  transform:translateY(-4px);
+  border-color:#b98e28;
+  box-shadow:0 13px 27px rgba(58,59,35,.13);
+  background:linear-gradient(135deg,#fffef9,#f6ecd3);
+}
+.atalhos-v4 .atalho-v4 b{
+  z-index:3;
+  top:14px;
+  left:14px;
+  width:42px;
+  height:42px;
+  border:1px solid #c5a23e;
+  background:rgba(255,249,226,.96);
+  color:#07502d;
+  box-shadow:0 3px 10px rgba(92,72,22,.10);
+  backdrop-filter:none;
+}
+.atalhos-v4 .atalho-v4 strong{
+  z-index:3;
+  color:#123f28;
+  font-size:18px;
+  line-height:1.04;
+  text-shadow:none;
+  max-width:76%;
+}
+.atalhos-v4 .atalho-v4 small{
+  z-index:3;
+  color:#526158;
+  font-size:11px;
+  text-shadow:none;
+  max-width:75%;
+}
+.atalhos-v4 .atalho-v4 strong::after{
+  z-index:4;
+  right:0;
+  bottom:-20px;
+  width:27px;
+  height:27px;
+  border:1px solid #c59a31;
+  background:#0b5733;
+  color:#f3d66d;
+  box-shadow:0 3px 8px rgba(33,62,39,.14);
+}
+
+/* ---------- Destaques do Catálogo ---------- */
+.cartao-destaque-v9,
+.cartao-destaque-v4{
+  isolation:isolate;
+  background:linear-gradient(135deg,#fffdf5,#f5edd7);
+  border:1px solid rgba(178,142,47,.58);
+  box-shadow:0 9px 23px rgba(52,57,35,.10);
+  color:#123f28;
+}
+.cartao-destaque-v9 img,
+.cartao-destaque-v4 img{
+  z-index:0;
+  opacity:.48;
+  filter:grayscale(1) sepia(.20) contrast(1.12) brightness(1.12);
+  mix-blend-mode:multiply;
+  transform:scale(1.02);
+}
+.cartao-destaque-v9:hover img,
+.cartao-destaque-v4:hover img{
+  opacity:.58;
+  filter:grayscale(1) sepia(.22) contrast(1.16) brightness(1.08);
+  transform:scale(1.045);
+}
+.cartao-destaque-v9:after,
+.cartao-destaque-v4:after{
+  z-index:1;
+  inset:0;
+  background:linear-gradient(180deg,rgba(255,253,245,.04) 0%,rgba(255,253,245,.22) 35%,rgba(255,252,241,.86) 70%,rgba(255,250,236,.98) 100%);
+}
+.cartao-destaque-v9 .cartao-destaque-v4-info,
+.cartao-destaque-v4-info{
+  z-index:3;
+}
+.rotulo-destaque-v9{color:#9a7725}
+.cartao-destaque-v9 .cartao-destaque-v4-info strong,
+.cartao-destaque-v4-info strong{
+  color:#123f28;
+  text-shadow:none;
+}
+.cartao-destaque-v9 .cartao-destaque-v4-meta,
+.cartao-destaque-v4-meta{color:#566158}
+.cartao-destaque-v9 .cartao-destaque-v4-meta span,
+.cartao-destaque-v9 .cartao-destaque-v4-meta span:last-child,
+.cartao-destaque-v4-meta span:last-child{
+  color:#31513d;
+  background:rgba(255,249,229,.84);
+  border-color:rgba(177,142,50,.42);
+}
+.selo-destaque-v9{
+  z-index:4;
+  background:rgba(255,249,228,.93);
+  color:#7e621f;
+  border-color:#b99333;
+  backdrop-filter:none;
+}
+.abrir-ficha-v9{color:#184b31}
+
+@media(max-width:760px){
+  .atalhos-v4 .atalho-v4{min-height:154px}
+  .atalhos-v4 .atalho-v4::before{width:82%;opacity:.55}
+  .atalhos-v4 .atalho-v4 strong,.atalhos-v4 .atalho-v4 small{max-width:82%}
+}
