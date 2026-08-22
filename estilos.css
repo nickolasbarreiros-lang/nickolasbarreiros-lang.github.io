@@ -6893,3 +6893,85 @@ main.container{
   .titulo-destaques-v9 h2{font-size:24px!important}
   .titulo-destaques-v9 p{font-size:8px!important;letter-spacing:.14em}
 }
+
+/* =========================================================
+   HOME V10 — CORREÇÃO DOS CARDS "EXPLORE O ORQUIDÁRIO"
+   Fotos em tela cheia, sem véu claro; leitura por degradê inferior.
+========================================================= */
+.atalhos-v4 .atalho-v4{
+  min-height:176px;
+  padding:18px 17px 17px;
+  background:#073f25;
+  border:1px solid rgba(185,146,43,.70);
+  box-shadow:0 8px 20px rgba(28,55,34,.15);
+  color:#fff8dc;
+}
+.atalhos-v4 .atalho-v4::before{
+  inset:0;
+  width:auto;
+  height:auto;
+  top:0;
+  right:0;
+  opacity:1;
+  filter:saturate(1.08) contrast(1.04) brightness(.92);
+  background-size:cover;
+  background-position:center;
+  transform:scale(1.001);
+}
+.atalhos-v4 .atalho-v4::after{
+  inset:0;
+  background:
+    linear-gradient(180deg,rgba(2,31,18,.05) 0%,rgba(2,31,18,.12) 34%,rgba(2,31,18,.62) 66%,rgba(2,31,18,.94) 100%);
+}
+.atalhos-v4 .atalho-v4:hover::before{
+  opacity:1;
+  transform:scale(1.06);
+  filter:saturate(1.14) contrast(1.06) brightness(.96);
+}
+.atalhos-v4 .atalho-v4 b{
+  top:14px;
+  left:14px;
+  width:42px;
+  height:42px;
+  border:1px solid rgba(207,171,63,.90);
+  background:rgba(255,250,229,.94);
+  color:#07502d;
+  box-shadow:0 4px 13px rgba(0,0,0,.18);
+  backdrop-filter:blur(3px);
+}
+.atalhos-v4 .atalho-v4 strong{
+  color:#fff8dc;
+  font-size:19px;
+  line-height:1.02;
+  text-shadow:0 2px 7px rgba(0,0,0,.65);
+}
+.atalhos-v4 .atalho-v4 small{
+  color:#f5eed5;
+  font-size:11px;
+  text-shadow:0 1px 5px rgba(0,0,0,.72);
+}
+.atalhos-v4 .atalho-v4 strong::after{
+  right:0;
+  bottom:-19px;
+  width:29px;
+  height:29px;
+  border:1px solid rgba(225,192,89,.72);
+  background:rgba(3,70,39,.92);
+  color:#f5d96e;
+  box-shadow:0 3px 9px rgba(0,0,0,.22);
+}
+.atalhos-v4 .atalho-v4:hover{
+  transform:translateY(-4px);
+  border-color:#d0ab48;
+  box-shadow:0 14px 28px rgba(25,52,32,.22);
+}
+
+@media(max-width:760px){
+  .atalhos-v4 .atalho-v4{min-height:160px}
+  .atalhos-v4 .atalho-v4 strong{font-size:17px}
+}
+@media(max-width:520px){
+  .atalhos-v4 .atalho-v4{min-height:150px;padding:14px}
+  .atalhos-v4 .atalho-v4 strong{font-size:16px}
+  .atalhos-v4 .atalho-v4 small{font-size:10px}
+}
