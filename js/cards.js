@@ -835,18 +835,23 @@ export function criarCartaoOrquidea(
 
             <div class="conteudo-cartao">
                 <div class="identificacao-cartao">
-                    <div class="linha-genero-cartao">
-                        <span class="rotulo-genero-cartao">Gênero:</span>
-                        <span class="genero-cartao">${escaparHTML(genero)}</span>
+                    <div
+                        class="faixa-identidade-cartao"
+                        data-esboco-src="${escaparHTML(foto)}"
+                    >
+                        <div class="linha-genero-cartao">
+                            <span class="rotulo-genero-cartao">Gênero:</span>
+                            <span class="genero-cartao">${escaparHTML(genero)}</span>
+                        </div>
+                        <h3>
+                            <a href="${escaparHTML(enderecoFicha)}">
+                                <em
+                                    class="nome-principal-cartao"
+                                    data-nome-completo="${escaparHTML(nome)}"
+                                >${escaparHTML(nome)}</em>
+                            </a>
+                        </h3>
                     </div>
-                    <h3>
-                        <a href="${escaparHTML(enderecoFicha)}">
-                            <em
-                                class="nome-principal-cartao"
-                                data-nome-completo="${escaparHTML(nome)}"
-                            >${escaparHTML(nome)}</em>
-                        </a>
-                    </h3>
                     ${informacoesRapidas}
                 </div>
 
@@ -900,6 +905,125 @@ export function criarCartoesOrquideas(
         .join("");
 }
 
+
+/* =========================================================
+   ESBOÇO BOTÂNICO DERIVADO DA FOTO
+   Gera no navegador uma versão em traço da foto real de cada
+   espécie. O resultado é usado apenas como ornamento visual
+   da faixa de identificação; a fotografia original permanece
+   intacta.
+========================================================= */
+
+function criarEsbocoBotanicoDaImagem(src) {
+    return new Promise((resolve) => {
+        const imagem = new Image();
+        imagem.decoding = "async";
+
+        imagem.onload = () => {
+            try {
+                const maxLado = 420;
+                const escala = Math.min(1, maxLado / Math.max(imagem.naturalWidth, imagem.naturalHeight));
+                const largura = Math.max(1, Math.round(imagem.naturalWidth * escala));
+                const altura = Math.max(1, Math.round(imagem.naturalHeight * escala));
+                const canvas = document.createElement("canvas");
+                const ctx = canvas.getContext("2d", { willReadFrequently: true });
+
+                if (!ctx) {
+                    resolve("");
+                    return;
+                }
+
+                canvas.width = largura;
+                canvas.height = altura;
+                ctx.drawImage(imagem, 0, 0, largura, altura);
+
+                const dados = ctx.getImageData(0, 0, largura, altura);
+                const origem = dados.data;
+                const cinza = new Float32Array(largura * altura);
+
+                for (let i = 0, p = 0; i < origem.length; i += 4, p += 1) {
+                    cinza[p] = origem[i] * 0.299 + origem[i + 1] * 0.587 + origem[i + 2] * 0.114;
+                }
+
+                const saida = ctx.createImageData(largura, altura);
+                const dst = saida.data;
+                const sx = [-1, 0, 1, -2, 0, 2, -1, 0, 1];
+                const sy = [-1, -2, -1, 0, 0, 0, 1, 2, 1];
+
+                for (let y = 1; y < altura - 1; y += 1) {
+                    for (let x = 1; x < largura - 1; x += 1) {
+                        let gx = 0;
+                        let gy = 0;
+                        let k = 0;
+
+                        for (let yy = -1; yy <= 1; yy += 1) {
+                            for (let xx = -1; xx <= 1; xx += 1) {
+                                const valor = cinza[(y + yy) * largura + (x + xx)];
+                                gx += valor * sx[k];
+                                gy += valor * sy[k];
+                                k += 1;
+                            }
+                        }
+
+                        const mag = Math.min(255, Math.hypot(gx, gy));
+                        const intensidade = mag > 32 ? Math.min(225, 55 + mag * 0.92) : 0;
+                        const i = (y * largura + x) * 4;
+
+                        // Traço creme/dourado suave para funcionar sobre o verde profundo.
+                        dst[i] = 232;
+                        dst[i + 1] = 216;
+                        dst[i + 2] = 166;
+                        dst[i + 3] = intensidade;
+                    }
+                }
+
+                ctx.clearRect(0, 0, largura, altura);
+                ctx.putImageData(saida, 0, 0);
+                resolve(canvas.toDataURL("image/png"));
+            } catch (erro) {
+                console.warn("Não foi possível gerar o esboço botânico:", erro);
+                resolve("");
+            }
+        };
+
+        imagem.onerror = () => resolve("");
+        imagem.src = src;
+    });
+}
+
+function ativarEsbocosBotanicosCartoes(raiz = document) {
+    const alvos = Array.from(raiz.querySelectorAll(".faixa-identidade-cartao[data-esboco-src]"));
+    if (!alvos.length) return;
+
+    const processar = async (alvo) => {
+        if (alvo.dataset.esbocoProcessado === "1") return;
+        alvo.dataset.esbocoProcessado = "1";
+        const src = alvo.dataset.esbocoSrc;
+        if (!src || src.startsWith("data:image/svg")) return;
+
+        const esboco = await criarEsbocoBotanicoDaImagem(src);
+        if (esboco) {
+            alvo.style.setProperty("--esboco-botanico", `url("${esboco}")`);
+            alvo.classList.add("tem-esboco-botanico");
+        }
+    };
+
+    if (!("IntersectionObserver" in window)) {
+        alvos.forEach(processar);
+        return;
+    }
+
+    const observador = new IntersectionObserver((entradas) => {
+        entradas.forEach((entrada) => {
+            if (!entrada.isIntersecting) return;
+            observador.unobserve(entrada.target);
+            processar(entrada.target);
+        });
+    }, { rootMargin: "260px 0px" });
+
+    alvos.forEach((alvo) => observador.observe(alvo));
+}
+
 /* =========================================================
    RENDERIZAÇÃO DOS CARTÕES
 ========================================================= */
@@ -922,5 +1046,6 @@ export function renderizarCartoes(
     requestAnimationFrame(() => {
         atualizarAbreviacoesDinamicas(elemento);
         ativarGaleriasLaterais(elemento);
+        ativarEsbocosBotanicosCartoes(elemento);
     });
 }
