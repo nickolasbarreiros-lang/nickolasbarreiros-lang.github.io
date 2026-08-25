@@ -1,0 +1,52 @@
+AUDITORIA DE CONSISTÊNCIA — AVALIAÇÃO DE LUZ (131 FICHAS)
+Data: 25/08/2026
+
+OBJETIVO
+Revisar o campo avaliacoes.luminosidade (1–5 estrelas) contra os dados de cultivo já revisados em cada ficha, especialmente:
+- percentual/faixa de sombrite;
+- permissão de sol direto;
+- horário seguro de exposição;
+- observações de cultivo e habitat.
+
+INTERPRETAÇÃO DA ESCALA
+1 estrela = necessidade luminosa muito baixa / sombra intensa
+2 estrelas = baixa luminosidade / sombra clara a moderada
+3 estrelas = luminosidade moderada / luz filtrada clara
+4 estrelas = luminosidade alta / luz muito clara e filtrada
+5 estrelas = luminosidade muito alta / grupos de alta exigência luminosa e/ou tolerância a sol mais intenso
+
+IMPORTANTE
+A porcentagem de sombrite não foi convertida mecanicamente em estrelas. Ela foi usada como eixo principal, mas cruzada com solDireto, horário e observações, porque duas espécies sob a mesma tela podem ter tolerâncias e necessidades diferentes.
+
+RESULTADO
+- 131/131 fichas verificadas.
+- 1 inconsistência clara encontrada e corrigida.
+- Demais variações entre faixas próximas foram mantidas quando justificadas por tolerância a sol, gênero/habitat ou observações de cultivo.
+
+CORREÇÃO IMPLEMENTADA
+Maxillaria schunkeana
+- Sombrite: 70% a 80%
+- Sol direto: Não permitido
+- Texto: planta de interior de mata, luz difusa, sombreada e ventilada
+- Avaliação anterior: Luz 3/5
+- Avaliação corrigida: Luz 2/5
+Motivo: 3/5 colocava a espécie no nível moderado, inconsistente com a faixa de sombreamento e com a recomendação de luz baixa a moderada e indireta.
+
+CASOS-LIMITE REVISADOS E MANTIDOS
+Maxillaria pumila (ex-minuta) — 3/5
+- Sombrite 65–75%, porém ficha pede luz filtrada clara e permite sol somente no início da manhã. Mantida como nível moderado.
+
+Pabstiella trifida — 1/5
+- Sombrite 70–80%, sol direto não permitido e perfil fortemente umbrófilo. Mantida como nível muito baixo.
+
+Cattleya guttata f. coerulea — 5/5
+- Sombrite 40–50% e perfil de Cattleya de alta luminosidade; mantida apesar de exigir filtragem no litoral quente.
+
+Cattleya Pumpkin Festival — 5/5
+- Sombrite 40–50% e alta exigência luminosa do grupo; mantida.
+
+Dendrobium polysema — 4/5
+- 50–60% de sombrite, sem sol direto forte; a classificação representa luz alta filtrada, não sol pleno. Mantida.
+
+CONCLUSÃO
+A inconsistência da Maxillaria schunkeana era um desvio isolado dentro do conjunto atual. A escala de luz permanece adequada para ser usada pela nova ordenação do catálogo, desde que futuros cadastros sigam a mesma interpretação editorial acima.

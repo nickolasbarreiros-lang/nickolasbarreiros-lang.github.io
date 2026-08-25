@@ -188,7 +188,7 @@ export const maxillariaSchunkeana = {
         "cultivo": 3,
         "floracao": 3,
         "perfume": 2,
-        "luminosidade": 3,
+        "luminosidade": 2,
         "agua": 4,
         "raridade": 5
     }
