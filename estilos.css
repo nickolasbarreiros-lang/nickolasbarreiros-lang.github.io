@@ -7437,3 +7437,228 @@ main.container{
         font-size: 24px;
     }
 }
+
+/* =========================================================
+   V17 — ORDENAÇÃO POR CULTIVO + FILTROS AVANÇADOS RECOLHÍVEIS
+========================================================= */
+.painel-ordenacao-cultivo-v17 {
+    margin: 28px 0 30px;
+    padding: 18px 20px 14px;
+    border: 1px solid rgba(184, 137, 32, .55);
+    border-radius: 16px;
+    background:
+        linear-gradient(135deg, rgba(255,255,255,.68), rgba(249,245,231,.9)),
+        #fbf7ea;
+    box-shadow: 0 8px 22px rgba(30, 72, 48, .06);
+    color: #123f2a;
+}
+
+.cabecalho-ordenacao-v17 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 14px;
+}
+
+.cabecalho-ordenacao-v17 h2 {
+    margin: 0 0 4px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.18rem, 1.6vw, 1.48rem);
+    line-height: 1.05;
+    color: #0c4a2f;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+}
+
+.cabecalho-ordenacao-v17 p {
+    margin: 0;
+    color: #5c665e;
+    font-size: .88rem;
+}
+
+.direcao-ordenacao-v17 {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.direcao-ordenacao-v17 button {
+    min-height: 36px;
+    padding: 0 18px;
+    border: 1px solid rgba(181, 133, 29, .42);
+    border-radius: 999px;
+    background: rgba(255, 253, 246, .88);
+    color: #755d25;
+    font: 700 .78rem/1 inherit;
+    cursor: pointer;
+    transition: transform .18s ease, background .18s ease, color .18s ease, box-shadow .18s ease;
+}
+
+.direcao-ordenacao-v17 button:hover { transform: translateY(-1px); }
+.direcao-ordenacao-v17 button.ativo {
+    color: #fff7d6;
+    background: linear-gradient(135deg, #0a5636, #073e29);
+    border-color: #b99532;
+    box-shadow: 0 5px 12px rgba(12, 74, 47, .16);
+}
+
+.criterios-ordenacao-v17 {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 9px;
+}
+
+.criterio-ordenacao-v17 {
+    min-width: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 10px;
+    border: 1px solid rgba(171, 146, 88, .32);
+    border-radius: 9px;
+    background: rgba(255,255,255,.62);
+    color: #173f2c;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.35);
+    transition: transform .18s ease, border-color .18s ease, background .18s ease, color .18s ease;
+}
+
+.criterio-ordenacao-v17 span { font-size: 1.05rem; }
+.criterio-ordenacao-v17 b { font-family: Georgia, "Times New Roman", serif; font-size: .92rem; }
+.criterio-ordenacao-v17:hover { transform: translateY(-1px); border-color: #c29a38; }
+.criterio-ordenacao-v17.ativo {
+    color: #fff5cf;
+    background: linear-gradient(135deg, #0d5738, #06452d);
+    border-color: #c49b36;
+    box-shadow: 0 5px 14px rgba(10, 78, 49, .16);
+}
+
+.resumo-ordenacao-v17 {
+    margin-top: 10px;
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border: 1px solid rgba(190, 151, 58, .24);
+    border-radius: 8px;
+    background: rgba(251, 247, 232, .88);
+    color: #526057;
+    font-size: .84rem;
+}
+
+.resumo-ordenacao-v17 strong {
+    color: #0d4b30;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.resumo-icone-v17 { color: #b48218; font-size: 1rem; }
+.escala-ordenacao-v17 {
+    margin-left: auto;
+    color: #bc8411;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    white-space: nowrap;
+}
+
+.alternar-filtros-avancados-v17 {
+    width: 100%;
+    min-height: 54px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 13px;
+    border: 1px solid rgba(168, 139, 80, .32);
+    border-radius: 10px;
+    background: rgba(255,255,255,.5);
+    color: #153f2b;
+    text-align: left;
+    cursor: pointer;
+}
+
+.alternar-filtros-avancados-v17 .icone-filtro-v17 {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    color: #0d5738;
+    background: #fbf3d6;
+    border: 1px solid #d1aa46;
+    font-size: .9rem;
+}
+
+.alternar-filtros-avancados-v17 strong {
+    display: block;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: .98rem;
+}
+
+.alternar-filtros-avancados-v17 small {
+    display: block;
+    margin-top: 2px;
+    color: #68746c;
+    font-size: .76rem;
+}
+
+.seta-filtro-v17 {
+    color: #a97713;
+    font-size: 1.15rem;
+    transition: transform .2s ease;
+}
+.alternar-filtros-avancados-v17[aria-expanded="true"] .seta-filtro-v17 { transform: rotate(180deg); }
+
+.conteudo-filtros-avancados-v17 {
+    margin-top: 10px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(188, 149, 55, .22);
+}
+.conteudo-filtros-avancados-v17[hidden] { display: none !important; }
+
+.cabecalho-filtros-avancados-v17 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 11px;
+}
+.cabecalho-filtros-avancados-v17 p {
+    margin: 0;
+    color: #68736c;
+    font-size: .79rem;
+}
+
+.painel-ordenacao-cultivo-v17 .painel-filtros-avancados {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+/* O seletor antigo continua no DOM para compatibilidade com o catálogo,
+   mas a interface principal agora é a barra de cultivo V17. */
+.grupo-ordenacao-legado-v17 { display: none !important; }
+
+@media (max-width: 980px) {
+    .criterios-ordenacao-v17 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .cabecalho-ordenacao-v17 { align-items: flex-start; }
+}
+
+@media (max-width: 680px) {
+    .painel-ordenacao-cultivo-v17 { padding: 15px 12px 12px; margin-top: 20px; }
+    .cabecalho-ordenacao-v17 { flex-direction: column; }
+    .direcao-ordenacao-v17 { width: 100%; justify-content: stretch; }
+    .direcao-ordenacao-v17 button { flex: 1 1 0; padding: 0 10px; }
+    .criterios-ordenacao-v17 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .criterio-ordenacao-v17 { justify-content: flex-start; padding: 0 14px; }
+    .resumo-ordenacao-v17 { flex-wrap: wrap; }
+    .escala-ordenacao-v17 { width: 100%; margin-left: 0; padding-left: 25px; }
+    .cabecalho-filtros-avancados-v17 { align-items: flex-start; flex-direction: column; }
+}

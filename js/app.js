@@ -30,6 +30,7 @@ import {
 } from "./visualizacao.js";
 
 import { inicializarHomeV4 } from "./home.js";
+import { inicializarOrdenacaoCultivoUI } from "./ordenacao-cultivo-ui.js";
 
 
 /* =========================================================
@@ -427,6 +428,8 @@ export function inicializarAplicacao() {
     inicializarHomeV4(
         listaOrquideas
     );
+
+        inicializarOrdenacaoCultivoUI();
 
     adicionarEventosGlobais();
 
