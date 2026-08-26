@@ -20,8 +20,8 @@ export const lockhartiaLunifera = {
         "imagens/Lockhartia lunifera/Lockhartia lunifera4.jpg"
     ],
     descricao: "Uma orquídea que parece ter sido trançada à mão! A Lockhartia lunifera forma caules achatados de cerca de 10 a 30 cm, completamente revestidos por pequenas folhas sobrepostas que criam seu aspecto tão característico. As flores amarelas, com aproximadamente 2 cm, surgem na parte superior dos caules maduros e podem durar bastante tempo. Como não possui pseudobulbos, depende de regas regulares e raízes bem arejadas: o segredo é manter umidade frequente sem deixar o suporte encharcado.",
-    origem: "Brasil.",
-    regiao: "Brasil tropical e subtropical.",
+    origem: "Brasil",
+    regiao: "Brasil tropical e subtropical",
     habitat: "Epífita em florestas úmidas · galhos ventilados.",
     clima: "Quente a intermediário · úmido e ventilado.",
     climaFloracao: "A floração ocorre em caules maduros sob luz filtrada clara, umidade regular e boa circulação de ar. IOSPE registra a floração principalmente na primavera e no verão, com flores sucessivas na porção apical dos caules. Não há repouso seco verdadeiro: em períodos mais frios ou de menor crescimento, apenas reduza a frequência de rega conforme a evaporação. Caules verdes devem ser preservados, pois continuam fotossintetizando e podem manter pontos florais ativos.",

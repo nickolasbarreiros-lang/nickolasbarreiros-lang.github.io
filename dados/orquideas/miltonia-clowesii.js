@@ -21,8 +21,8 @@ export const miltoniaClowesii = {
         "imagens/Miltonia clowesii/Miltonia clowesii4.jpg"
     ],
     "descricao": "Uma Miltonia brasileira de aparência marcante, com flores amarelas fortemente pintadas de castanho e um labelo claro com tons violáceos. As hastes altas e arqueadas se elevam acima da folhagem e dão à planta um aspecto muito ornamental quando vários botões abrem em sequência. Nativa do Sudeste do Brasil, é mais tolerante ao calor que as Miltoniopsis andinas, mas responde melhor quando recebe boa ventilação, raízes frescas e uma pequena queda de temperatura à noite.",
-    "origem": "Brasil.",
-    "regiao": "Sudeste brasileiro.",
+    "origem": "Brasil",
+    "regiao": "Sudeste brasileiro",
     "habitat": "Mata Atlântica · epífita.",
     "clima": "Intermediário a quente · noites amenas.",
     "climaFloracao": "A haste surge após a maturação completa do pseudobulbo. Luz filtrada abundante, diferença moderada entre dia e noite e crescimento sem interrupções favorecem a indução. Não exige seca rigorosa. O novo pseudobulbo precisa amadurecer cheio e firme, pois suas reservas sustentam a haste longa e a abertura simultânea de várias flores.",

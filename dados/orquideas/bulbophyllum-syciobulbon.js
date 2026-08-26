@@ -23,8 +23,8 @@ export const bulbophyllumSyciobulbon = {
         "imagens/Bulbophyllum syciobulbon/Bulbophyllum syciobulbon4.jpeg"
     ],
     descricao: "Uma pequena orquídea de crescimento aventureiro! *Bulbophyllum sicyobulbon* chama atenção menos pelo tamanho das flores e mais pelo conjunto: seus pseudobulbos ficam espaçados ao longo de um rizoma rastejante, permitindo que a planta se espalhe rapidamente pelo suporte. Quando adulta, produz inflorescências curtas e muito densas, repletas de flores diminutas, em torno de 6 mm, geralmente em tons amarelo-alaranjados. Originária da Indochina e associada a florestas montanas úmidas, é uma espécie que aprecia umidade e boa circulação de ar, mas sem raízes abafadas. Seu hábito bastante horizontal é uma característica importante também no cultivo: placas longas, galhos ou cestos largos permitem que a planta forme uma colônia sem precisar ser constantemente reacomodada.",
-    origem: "Indochina.",
-    regiao: "Myanmar e Tailândia; registros históricos na Malásia.",
+    origem: "Indochina",
+    regiao: "Myanmar e Tailândia; registros históricos na Malásia",
     habitat: "Floresta tropical úmida montana · ~1.400 m.",
     clima: "Fresco a intermediário · úmido e ventilado.",
     climaFloracao: "A espécie está associada a condições montanas frescas. Em cultivo, a emissão floral depende sobretudo de pseudobulbos maduros, raízes funcionais, umidade atmosférica alta, ventilação e noites amenas. Não há base segura para impor um repouso seco rígido ou um calendário universal. No litoral quente, o fator limitante tende a ser o calor noturno contínuo; por isso, deve ocupar o ponto mais fresco do orquidário, sem reduzir a ventilação para tentar elevar a umidade.",

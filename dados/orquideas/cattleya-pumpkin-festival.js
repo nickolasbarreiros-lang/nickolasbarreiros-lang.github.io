@@ -21,8 +21,8 @@ export const cattleyaPumpkinFestival = {
         "imagens/Cattleya Pumpkin Festival/Cattleya Pumpkin Festival4.png"
     ],
     descricao: "É difícil ignorar uma Cattleya Pumpkin Festival em flor! Este híbrido chama atenção pelas flores grandes, firmes e cerosas, geralmente em tons quentes de laranja, abóbora e cobre, muitas vezes acompanhados por garganta amarela e um labelo ondulado que reforça ainda mais o efeito tropical. A combinação de cor intensa, boa textura e crescimento vigoroso fez do grex uma presença marcante entre as Cattleyas de tonalidades alaranjadas. Como acontece com muitos híbridos complexos, pode existir variação entre plantas, mas exemplares bem cultivados respondem especialmente bem a bastante luminosidade, boa ventilação e raízes que alternem rega abundante com secagem rápida.",
-    origem: "Híbrido horticultural.",
-    regiao: "Sem distribuição natural.",
+    origem: "Híbrido horticultural",
+    regiao: "Sem distribuição natural · híbrido horticultural",
     habitat: "Sem habitat natural · aliança Cattleya.",
     clima: "Quente a intermediário · luminoso.",
     climaFloracao: "A floração é favorecida pela maturação completa dos pseudobulbos, luminosidade intensa, boa ventilação, leve redução das regas após o crescimento e noites ligeiramente mais frescas. Clones vigorosos podem apresentar florações secundárias fora da época principal.",

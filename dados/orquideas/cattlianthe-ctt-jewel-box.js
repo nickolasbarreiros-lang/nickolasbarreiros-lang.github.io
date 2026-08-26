@@ -25,8 +25,8 @@ export const cattliantheCttJewelBox = {
         "imagens/Cattlianthe Jewel Box/Cattlianthe Jewel Box4.jpg"
     ],
     "descricao": "Um clássico vermelho que continua atual! Cattlianthe Jewel Box é um híbrido vigoroso, registrado em 1962 a partir de Guarianthe aurantiaca × Cattleya Anzac. Forma touceiras compactas a médias e chama atenção pelos cachos com várias flores em tons intensos de vermelho, escarlate ou vermelho-alaranjado, conforme o cultivar. A influência de Guarianthe aurantiaca ajuda a explicar sua rusticidade, boa resposta ao calor e tendência a floradas abundantes. É uma excelente escolha para quem deseja uma Cattleya de forte impacto visual, crescimento rápido e cultivo relativamente simples — e fica ainda mais bonita quando a touceira é mantida grande e pouco dividida.",
-    "origem": "Híbrido hortícola · registrado em 1962.",
-    "regiao": "Guarianthe aurantiaca × Cattleya Anzac.",
+    "origem": "Híbrido horticultural",
+    "regiao": "Sem distribuição natural · Guarianthe aurantiaca × Cattleya Anzac",
     "habitat": "Sem habitat natural · cultivo claro e ventilado.",
     "clima": "Quente a intermediário · luz alta.",
     "climaFloracao": "Floresce melhor quando os pseudobulbos amadurecem completamente sob luminosidade elevada e sem excesso de nitrogênio. A planta pode florescer mais de uma vez ao ano quando produz sucessivas frentes de crescimento. Touceiras adultas acumulam mais reservas e possuem maior número de pseudobulbos aptos a emitir hastes, razão pela qual divisões frequentes reduzem a intensidade da florada. Após a maturação, aumente levemente o intervalo entre regas e reduza adubação nitrogenada, sem impor repouso seco severo.",

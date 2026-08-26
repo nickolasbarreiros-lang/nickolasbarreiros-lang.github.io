@@ -21,8 +21,8 @@ export const maxillariaSubulata = {
         "imagens/Maxillaria subulata/Maxillaria subulata4.webp"
     ],
     "descricao": "Uma brasileira elegante, reconhecida pelas folhas muito estreitas e quase cilíndricas. A Maxillaria subulata forma touceiras compactas e produz flores solitárias de aproximadamente 2,5 cm, geralmente na primavera, rente aos pseudobulbos. Ocorre do sudeste da Bahia a Santa Catarina, tanto sobre árvores quanto sobre rochas. Essa ampla distribuição explica sua boa tolerância térmica: pode crescer do quente ao fresco, desde que as raízes permaneçam ventiladas e sem encharcamento prolongado.",
-    "origem": "Brasil · sudeste da Bahia a Santa Catarina.",
-    "regiao": "Mata Atlântica · Bahia ao Sul.",
+    "origem": "Brasil",
+    "regiao": "Mata Atlântica · Bahia ao Sul",
     "habitat": "Epífita/rupícola · florestas tropicais úmidas.",
     "clima": "Quente a fresco · úmido e arejado.",
     "climaFloracao": "IOSPE registra floração na primavera, com hastes curtas e uma única flor de cerca de 2,5 cm. A espécie ocorre em uma ampla faixa latitudinal brasileira e não deve ser tratada como estritamente fria. No litoral quente, boa ventilação, luz filtrada clara e um substrato que seque rapidamente são mais importantes que tentar impor resfriamento artificial ou repouso seco.",

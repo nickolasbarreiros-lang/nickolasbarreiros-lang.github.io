@@ -17,8 +17,8 @@ export const bulbophyllumMiniatum = {
         "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum4.webp"
     ],
     descricao: "Uma pequena africana cheia de movimento! A planta conhecida em muitas coleções como *Bulbophyllum miniatum* cresce com pseudobulbos espaçados sobre um rizoma rastejante e produz hastes pendentes com várias flores em tons de amarelo, laranja a avermelhado. Os cílios claros e o labelo articulado dão às flores um aspecto vivo e delicado, especialmente quando se movimentam com a brisa. Hoje esse nome é tratado como sinônimo de *Bulbophyllum saltatorium* var. *albociliatum*, mas continua muito presente em etiquetas e coleções. Originária de florestas tropicais úmidas africanas, é uma orquídea de clima predominantemente quente que aprecia umidade constante, raízes bem arejadas e boa circulação de ar.",
-    origem: "África Tropical.",
-    regiao: "África O/C · Uganda · Quênia SW · Angola.",
+    origem: "África Tropical",
+    regiao: "África O/C · Uganda · Quênia SW · Angola",
     habitat: "Florestas úmidas · ~750 m.",
     clima: "Quente · úmido · ventilado.",
     climaFloracao: "A espécie-base é registrada em florestas quentes abaixo de 900 m e floresce sobretudo no inverno; para a variedade albociliatum, a referência ecológica próxima de 750 m reforça preferência por calor moderado com noites ligeiramente mais amenas, não por frio intenso. No litoral quente, a indução floral tende a depender mais da maturação dos pseudobulbos, boa luminosidade filtrada e pequena sazonalidade térmica do que de qualquer repouso seco.",

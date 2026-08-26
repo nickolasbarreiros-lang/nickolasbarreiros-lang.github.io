@@ -25,8 +25,8 @@ export const pleurothallisModestissima = {
         "imagens/Pleurothallis modestissima/Pleurothallis modestissima4.jpg"
     ],
     "descricao": "Pequena, discreta e tipicamente brasileira, a Acianthera modestissima é uma micro-orquídea endêmica de Minas Gerais. Seu porte reduzido faz com que as flores pareçam detalhes escondidos entre as folhas, recompensando quem observa a planta de perto. Diferentemente de muitas micro-orquídeas associadas apenas a florestas frias e encharcadas, Kew a relaciona a ambientes tropicais sazonalmente secos; isso muda bastante a interpretação de cultivo. Ela aprecia umidade e raízes protegidas, mas também precisa de circulação de ar e de alguma secagem entre regas, especialmente quando o crescimento desacelera.",
-    "origem": "Brasil · Minas Gerais.",
-    "regiao": "Sudeste brasileiro · Minas Gerais.",
+    "origem": "Brasil",
+    "regiao": "Sudeste brasileiro · Minas Gerais",
     "habitat": "Epífita · floresta tropical sazonalmente seca.",
     "clima": "Intermediário a quente · ventilado · sazonal.",
     "climaFloracao": "A informação ecológica mais segura é sua associação a ambientes sazonalmente secos de Minas Gerais. Portanto, não deve ser cultivada como uma Pleurothallidinae permanentemente encharcada. No litoral quente, mantenha umidade ambiental, sombra clara e ventilação, permitindo que o suporte perca parte da água entre regas. Uma redução moderada na fase menos ativa é mais coerente do que um repouso frio ou seco rígido.",

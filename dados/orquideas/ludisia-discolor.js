@@ -20,8 +20,8 @@ export const ludisiaDiscolor = {
         "imagens/Ludisia discolor/Ludisia discolor4.webp"
     ],
     descricao: "Uma orquídea admirada primeiro pelas folhas e só depois pelas flores. A Ludisia discolor, famosa como orquídea-joia, forma tapetes de caules rastejantes com folhas aveludadas em verde muito escuro a vinho, marcadas por nervuras claras, rosadas ou avermelhadas. É uma planta terrestre de floresta sombreada e cresce bem em vasos largos, onde seus ramos podem avançar horizontalmente. Quando madura, produz hastes eretas com numerosas flores brancas pequenas, criando um contraste delicado com a folhagem escura.",
-    origem: "Sul da China ao Sudeste Asiático.",
-    regiao: "China, Indochina, Malesia e Filipinas.",
+    origem: "Sul da China e Sudeste Asiático",
+    regiao: "China · Indochina · Malesia · Filipinas",
     habitat: "Chão de florestas úmidas · serapilheira e húmus.",
     clima: "Quente a intermediário · úmido e sombreado.",
     climaFloracao: "A espécie cresce sob condições relativamente estáveis, sem repouso seco. WFO descreve plantas geralmente com 10 a 25 cm de altura, folhas escuras com nervuras contrastantes e longa janela fenológica em sua área natural. Em cultivo, hastes florais costumam aparecer após o amadurecimento dos caules, frequentemente com dias mais curtos e temperaturas ligeiramente mais amenas, mas frio intenso não é necessário. Excesso de nitrogênio, sombra profunda demais e substrato sem oxigenação favorecem crescimento mole e reduzem a floração.",

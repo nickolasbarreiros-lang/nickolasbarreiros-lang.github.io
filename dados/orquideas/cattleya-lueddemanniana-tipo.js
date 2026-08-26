@@ -20,8 +20,8 @@ export const cattleyaLueddemannianaTipo = {
         "imagens/Cattleya lueddemanniana/Cattleya lueddemanniana4.jpg"
     ],
     descricao: "Uma das grandes Cattleyas venezuelanas, Cattleya lueddemanniana chama atenção pelas flores amplas, cerosas e perfumadas, geralmente em tons de rosa a rosa-lilás. O labelo é o grande destaque: intensamente ornamentado em púrpura, com desenhos que podem avançar pela garganta sobre áreas amarelas ou douradas, dando a cada flor uma aparência muito marcante. É uma planta robusta e elegante, capaz de produzir florações impressionantes quando bem estabelecida. Apesar da aparência sofisticada, costuma responder muito bem ao cultivo quente e luminoso, desde que as raízes permaneçam arejadas e sequem com rapidez entre as regas.",
-    origem: "Norte da Venezuela.",
-    regiao: "Cordilheira da Costa venezuelana.",
+    origem: "Venezuela",
+    regiao: "Cordilheira da Costa · norte da Venezuela",
     habitat: "Florestas tropicais úmidas · epífita.",
     clima: "Quente a intermediário · ventilado.",
     climaFloracao: "A planta amadurece o pseudobulbo antes de desenvolver a inflorescência. A espata pode amarelar ou secar externamente e ainda permanecer funcional, protegendo botões que surgirão semanas depois. Após a maturação, aumente gradualmente o intervalo entre as regas, sem impor seca absoluta. Boa luz, raízes sadias e crescimento completo são mais importantes que qualquer tentativa de forçar a floração.",

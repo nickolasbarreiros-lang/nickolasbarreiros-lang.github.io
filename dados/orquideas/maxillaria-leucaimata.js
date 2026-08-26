@@ -20,8 +20,8 @@ export const maxillariaLeucaimata = {
         "imagens/Maxillaria leucaimata/Maxillaria leucaimata4.jpg"
     ],
     descricao: "Uma Maxillaria brasileira versátil, encontrada tanto sobre árvores quanto em rochas abertas da Mata Atlântica. Forma touceiras compactas de pseudobulbos comprimidos, cada um normalmente com uma folha, e produz flores solitárias de 3 a 4 cm em hastes basais que podem chegar a cerca de 20 cm. Sua amplitude natural, do quente ao fresco, ajuda a explicar a boa adaptação em diferentes regiões; o ponto crítico continua sendo manter as raízes finas arejadas e livres de substrato degradado.",
-    origem: "Brasil.",
-    regiao: "CE, MG e costa Sudeste do Brasil.",
+    origem: "Brasil",
+    regiao: "CE, MG e costa Sudeste do Brasil",
     habitat: "Mata Atlântica · epífita/rupícola · áreas abertas.",
     clima: "Quente a fresco · úmido e ventilado.",
     climaFloracao: "IOSPE registra crescimento quente a fresco, ocorrência em espaços abertos da Mata Atlântica e floração no verão e outono. Como também aparece sobre rochas, a planta está acostumada a raízes muito oxigenadas e alternância rápida entre molhamento e aeração. Não exige repouso seco rigoroso: depois da maturação, apenas reduza discretamente a frequência de rega. Touceiras maduras e não divididas tendem a emitir várias hastes basais.",

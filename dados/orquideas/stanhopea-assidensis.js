@@ -15,8 +15,8 @@ export const stanhopeaAssidensis = {
         "imagens/Stanhopea Assidensis/Stanhopea Assidensis4.jpg"
     ],
     descricao: "Perfume intenso e flores de aparência quase escultórica! Stanhopea Assidensis é um híbrido primário de Stanhopea tigrina × Stanhopea wardii, registrado em 1922. Suas flores grandes e carnosas combinam tons creme a amarelos com pintas e manchas castanhas ou vinho, além da fragrância marcante típica do grupo. Como suas hastes florais crescem para baixo, o cultivo em cesta suspensa não é apenas uma preferência: é essencial para que a floração consiga atravessar o recipiente sem ser bloqueada.",
-    origem: "Híbrido artificial registrado em 1922.",
-    regiao: "Sem distribuição natural · parentais do México à América Central e norte da América do Sul.",
+    origem: "Híbrido horticultural",
+    regiao: "Sem distribuição natural · híbrido registrado em 1922 · parentais do México à América Central e norte da América do Sul",
     habitat: "Herda afinidade por florestas úmidas montanas · parentais ~600–2.700 m.",
     clima: "Intermediário · úmido e muito ventilado.",
     climaFloracao: "O cruzamento reúne um parental mexicano de aproximadamente 600–1.700 m e outro distribuído em florestas úmidas de cerca de 800–2.700 m. Por isso, não deve ser tratado como híbrido puramente quente. No litoral, a melhor estratégia é reduzir o aquecimento das raízes, manter alta ventilação e garantir diferença térmica noturna sempre que possível, sem impor repouso seco.",

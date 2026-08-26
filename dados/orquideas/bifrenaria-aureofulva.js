@@ -20,8 +20,8 @@ export const bifrenariaAureofulva = {
         "imagens/Bifrenaria aureofulva/Bifrenaria aureofulva4.jpg"
     ],
     descricao: "Uma pequena explosão de tons dourados da flora brasileira! A Bifrenaria aureofulva produz hastes com várias flores amarelo-douradas a alaranjadas, geralmente perfumadas, que se destacam sobre a folhagem verde e plicada. É uma epífita de florestas úmidas do leste e sul do Brasil, formando pseudobulbos compactos com uma única folha no ápice. As flores têm cerca de 2,5 cm e podem aparecer em grupos numerosos para o porte da planta, criando uma floração bastante alegre. Na natureza ocorre desde áreas relativamente baixas até regiões montanas, o que ajuda a explicar sua boa capacidade de adaptação, embora plantas de procedências mais elevadas apreciem noites amenas e excelente ventilação.",
-    origem: "Brasil.",
-    regiao: "Leste e Sul do Brasil · Mata Atlântica.",
+    origem: "Brasil",
+    regiao: "Leste e Sul do Brasil · Mata Atlântica",
     habitat: "Florestas úmidas · epífita · ~200–1.500 m.",
     clima: "Quente a fresco · úmido e ventilado.",
     climaFloracao: "A floração é favorecida pela maturação completa dos pseudobulbos, boa luminosidade filtrada e noites mais amenas. Após o amadurecimento do crescimento, reduza moderadamente as regas acompanhando a menor atividade da planta, sem impor seca absoluta.",

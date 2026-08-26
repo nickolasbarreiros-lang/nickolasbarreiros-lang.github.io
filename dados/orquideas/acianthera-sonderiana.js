@@ -8,8 +8,8 @@ export const aciantheraSonderiana = {
     tipo: "Espécie botânica",
     sinonimo: "Pleurothallis sonderiana",
     dificuldade: "Moderada",
-    origem: "Sudeste e Sul do Brasil, Paraguai, Uruguai e nordeste da Argentina (Misiones).",
-    regiao: "Ocorrência nativa no Sudeste e Sul do Brasil, Paraguai, Uruguai e nordeste da Argentina.",
+    origem: "América do Sul",
+    regiao: "Brasil (ES · MG · RJ · SP · PR · SC · RS) · Paraguai · Uruguai · Argentina (Misiones)",
     habitat: "Micro-orquídea principalmente epífita, ocasionalmente registrada como rupícola, associada a florestas úmidas, montanas, ombrófilas e matas ribeirinhas. Cresce sobre troncos e ramos em microambientes úmidos, ventilados e protegidos do sol forte.",
     descricao: "Micro-orquídea cespitosa que forma pequenas touceiras compactas. Os ramicaules são cilíndricos e curtos, geralmente com cerca de 0,5–5 cm, portando uma única folha linear, carnosa e sulcada. As folhas medem aproximadamente 1–3 cm. As inflorescências são curtas e eretas, normalmente com 2–4 pequenas flores amarelo-alaranjadas a alaranjadas. As flores medem cerca de 4–7 mm, com sépalas laterais parcialmente unidas formando sinsépalo e labelo trilobado. O conjunto é diminuto, mas pode produzir várias inflorescências em uma touceira bem estabelecida.",
     caracteristicas: [

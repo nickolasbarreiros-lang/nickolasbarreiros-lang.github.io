@@ -25,8 +25,8 @@ export const spathoglottisPlicata = {
         "imagens/Spathoglottis plicata/Spathoglottis plicata4.webp"
     ],
     "descricao": "Uma das orquídeas terrestres mais vigorosas para jardins tropicais! Spathoglottis plicata forma touceiras robustas de folhas longas e bem plissadas e produz hastes eretas que abrem flores sucessivamente por muitas semanas. As cores mais comuns vão do rosa ao roxo e magenta, com formas claras também conhecidas. Apesar do aspecto delicado das flores, é uma planta resistente e de crescimento rápido quando recebe bastante luz, água regular e um substrato fértil, porém muito bem drenado.",
-    "origem": "Ásia tropical e subtropical ao Pacífico.",
-    "regiao": "Sul/Sudeste da Ásia, Malesia, Austrália e ilhas do Pacífico.",
+    "origem": "Ásia-Pacífico tropical",
+    "regiao": "Sul e Sudeste da Ásia · Malesia · Austrália · ilhas do Pacífico",
     "habitat": "Terrestre · áreas abertas, campos e bordas · ~700–2.000 m em muitos registros.",
     "clima": "Quente a intermediário · alta luminosidade.",
     "climaFloracao": "A grande distribuição natural explica sua tolerância térmica. Em cultivo quente, floresce melhor com muita luz, água regular e nutrição constante durante o crescimento. Não precisa de frio para florir; noites um pouco mais amenas podem favorecer vigor, mas o fator limitante mais comum é sombra excessiva.",

@@ -21,8 +21,8 @@ export const miltoniaSpectabilisVarMoreliana = {
         "imagens/Miltonia moreliana/Miltonia moreliana4.jpg"
     ],
     "descricao": "Uma das Miltonia brasileiras de coloração mais intensa! Suas flores grandes combinam pétalas e sépalas roxo-vinho com um amplo labelo rosa-púrpura marcado por veios escuros, criando um contraste impressionante. Hoje é reconhecida como Miltonia moreliana, espécie própria, e não apenas como uma variedade de M. spectabilis. Nativa do leste do Brasil, da Bahia a São Paulo, aprecia boa luminosidade filtrada, raízes arejadas e umidade regular, adaptando-se bem ao calor quando há ventilação.",
-    "origem": "Brasil.",
-    "regiao": "Bahia a São Paulo.",
+    "origem": "Brasil",
+    "regiao": "Bahia a São Paulo",
     "habitat": "Mata Atlântica · epífita.",
     "clima": "Intermediário a quente · ventilado.",
     "climaFloracao": "A flor normalmente surge após a maturação completa do pseudobulbo. Boa luz filtrada, amplitude térmica moderada e crescimento contínuo favorecem a indução. Não imponha seca severa. Quanto mais cheio e vigoroso amadurecer o pseudobulbo, maior tende a ser a flor, mais intensa a pigmentação e melhor a capacidade de sustentar a brotação seguinte.",

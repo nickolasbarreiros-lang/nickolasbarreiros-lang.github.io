@@ -23,8 +23,8 @@ export const cattleyaSchilleriana = {
         "imagens/Cattleya schilleriana/Cattleya schilleriana4.webp"
     ],
     "descricao": "Uma pequena Cattleya com flores enormes em relação ao próprio tamanho! Nativa do leste da Bahia ao Espírito Santo, Cattleya schilleriana forma plantas compactas, geralmente com duas folhas firmes por pseudobulbo, e produz flores cerosas e perfumadas que podem chegar a cerca de 8–11 cm. Sépalas e pétalas em tons bronzeados, castanho-esverdeados ou pardos aparecem cobertas por pintas, enquanto o grande labelo purpúreo, frisado e frequentemente marcado de branco e amarelo cria um contraste espetacular. Sua fama de espécie delicada está muito mais ligada às raízes do que às flores: ela não gosta de replantes fora de hora nem de permanecer com o sistema radicular abafado. Quando estabelecida em suporte bem ventilado e pouco perturbada, revela todo o charme que fez dela uma das bifoliadas brasileiras mais admiradas por colecionadores.",
-    "origem": "Brasil · endêmica.",
-    "regiao": "Leste da Bahia ao Espírito Santo.",
+    "origem": "Brasil",
+    "regiao": "Leste da Bahia ao Espírito Santo",
     "habitat": "Matas e paredões úmidos · 0–800 m.",
     "clima": "Quente a intermediário · muito ventilado.",
     "climaFloracao": "A indução floral está associada ao amadurecimento completo do pseudobulbo, à alta luminosidade filtrada, ao bom estado das raízes e a uma leve redução da disponibilidade de água após o término do crescimento. Não se trata de uma dormência seca rígida: no habitat, a planta continua recebendo umidade noturna, orvalho e chuvas ocasionais, mas as raízes secam rapidamente devido à ventilação. A floração é prejudicada quando o pseudobulbo permanece fino por falta de luz, quando o sistema radicular foi perdido por encharcamento ou quando a planta é replantada pouco antes da maturação. Em regiões quentes, a diferença entre dia e noite, a circulação de ar e a secagem radicular são mais importantes que o frio. Uma planta bem estabelecida pode emitir nova frente e florescer novamente, mas isso depende do vigor acumulado e não deve ser forçado com excesso de adubo.",

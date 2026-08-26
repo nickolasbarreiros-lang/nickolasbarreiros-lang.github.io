@@ -21,8 +21,8 @@ export const catasetumMattosianum = {
         "imagens/Catasetum mattosianum/Catasetum mattosianum4.jpg"
     ],
     descricao: "Uma espécie brasileira marcada pelas grandes mudanças que acontecem ao longo do ano. *Catasetum mattosianum* desenvolve pseudobulbos carnosos e vigorosos durante a estação de crescimento, cobertos por folhas finas e pregueadas; depois, com a chegada da dormência, as folhas amarelecem e caem, deixando os pseudobulbos armazenarem energia para o próximo ciclo. Nativa da Bahia ao Espírito Santo, produz no verão flores de aproximadamente 3 cm, com coloração bastante variável. Como é típico dos *Catasetum*, pode formar flores masculinas e femininas muito diferentes entre si — uma característica fascinante do gênero. Luz, reservas da planta e condições ambientais podem influenciar qual tipo aparece, mas não existe uma fórmula simples capaz de garantir flores de determinado sexo.",
-    origem: "Brasil.",
-    regiao: "Bahia ao Espírito Santo.",
+    origem: "Brasil",
+    regiao: "Bahia ao Espírito Santo",
     habitat: "Epífita de bioma tropical úmido.",
     clima: "Quente · verão úmido e repouso sazonal.",
     climaFloracao: "A floração está associada ao período de crescimento e ocorre principalmente no verão. O que determina a qualidade da floração é a formação de um pseudobulbo forte, sustentada por água abundante, nutrição moderada, luz alta e raízes saudáveis durante a fase ativa. A dormência não deve ser antecipada artificialmente. A influência da luz sobre o sexo das flores existe no gênero, mas não é absoluta: genética, reservas e microclima também participam.",

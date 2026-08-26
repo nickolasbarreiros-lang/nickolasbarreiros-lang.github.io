@@ -22,8 +22,8 @@ export const pabstiellaTrifida = {
         "imagens/Pabstiella trifida/Pabstiella trifida4.jpg"
     ],
     "descricao": "Uma pequena joia das matas úmidas do Sul e Sudeste do Brasil. Pabstiella trifida forma touceiras compactas, com folhas estreitas e firmes e flores diminutas que surgem em delicadas hastes finas. O nome trifida faz referência ao aspecto de três pontas do labelo. Na natureza cresce sobre árvores cobertas de musgo, geralmente entre 1.000 e 1.200 m, por isso aprecia umidade constante, sombra clara e noites mais amenas — combinação que exige atenção extra no litoral quente.",
-    "origem": "Brasil.",
-    "regiao": "Leste e Sul do Brasil.",
+    "origem": "Brasil",
+    "regiao": "Leste e Sul do Brasil",
     "habitat": "Matas primárias musgosas · 1.000–1.200 m.",
     "clima": "Intermediário a fresco · úmido.",
     "climaFloracao": "Noites amenas, alta umidade atmosférica e ventilação contínua favorecem maturação dos ramicaules e floração. Não necessita de repouso seco. Em noites persistentemente quentes, a respiração aumenta, as reservas diminuem e as raízes perdem vigor, mesmo quando o suporte parece úmido.",

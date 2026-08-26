@@ -22,8 +22,8 @@ export const dichaeaCogniauxiana = {
         "imagens/Dichaea cogniauxiana/Dichaea cogniauxiana4.jpg"
     ],
     descricao: "Uma pequena preciosidade das florestas brasileiras! Dichaea cogniauxiana forma ramos finos cobertos por numerosas folhas e produz delicadas flores claras salpicadas de vinho a púrpura, geralmente com apenas alguns milímetros. É uma epífita de ambientes muito úmidos e sombreados, encontrada em diferentes regiões do Brasil e registrada desde baixas altitudes até florestas montanas. Seu nome homenageia o botânico Alfred Cogniaux. No cultivo, o ponto mais importante é reproduzir a combinação que encontra na mata: raízes sempre bem hidratadas, muita umidade no ar, pouca incidência de sol direto e ventilação constante.",
-    origem: "Brasil.",
-    regiao: "Nordeste, Centro-Oeste, Sudeste e Sul.",
+    origem: "Brasil",
+    regiao: "Nordeste, Centro-Oeste, Sudeste e Sul",
     habitat: "Florestas úmidas e sombreadas · epífita.",
     clima: "Úmido · sombreado · intermediário a fresco.",
     climaFloracao: "Intermediário a fresco, com elevada umidade atmosférica e boa circulação de ar. No litoral quente, proteja principalmente do superaquecimento noturno e do ar parado. Noites mais amenas associadas à manutenção da umidade favorecem vigor e floração.",

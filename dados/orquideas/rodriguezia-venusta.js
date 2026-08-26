@@ -25,8 +25,8 @@ export const rodrigueziaVenusta = {
         "imagens/Rodriguezia bracteata/Rodriguezia bracteata4.jpg"
     ],
     "descricao": "Delicada no porte, mas muito marcante quando floresce. Rodriguezia bracteata forma pequenas touceiras e hastes arqueadas a pendentes com flores claras, geralmente brancas a creme, realçadas por amarelo e acompanhadas por perfume adocicado. O antigo nome Rodriguezia venusta ainda é muito conhecido entre cultivadores, mas hoje é tratado como sinônimo. Sua distribuição é ampla na América do Sul tropical, desde áreas baixas até aproximadamente 1.000 m em registros colombianos. As raízes finas pedem um equilíbrio importante: umidade frequente durante o crescimento, porém com secagem rápida e circulação de ar.",
-    "origem": "América do Sul tropical.",
-    "regiao": "Norte e leste da América do Sul, incluindo o Brasil.",
+    "origem": "América do Sul tropical",
+    "regiao": "Norte e leste da América do Sul, incluindo o Brasil",
     "habitat": "Epífita de florestas tropicais; de baixadas a ~1.000 m.",
     "clima": "Quente a intermediário; úmido e ventilado.",
     "climaFloracao": "A emissão floral ocorre com maior regularidade quando os pseudobulbos amadurecem sob meia-sombra clara, raízes ativas e circulação de ar constante. Não necessita de repouso seco marcado. Durante crescimento e enraizamento, mantenha água regular; após a maturação, apenas aumente discretamente o intervalo entre regas. Touceiras preservadas e pouco divididas acumulam mais reservas e tendem a produzir mais hastes simultaneamente.",

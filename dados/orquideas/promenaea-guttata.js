@@ -25,8 +25,8 @@ export const promenaeaGuttata = {
         "imagens/Promenaea guttata/Promenaea guttata4.jpg"
     ],
     "descricao": "Uma pequena joia brasileira de flores enormes para o seu tamanho! Esta Promenaea forma touceiras compactas de pseudobulbos arredondados e folhas finas, verde-claras, das quais surgem hastes curtas com flores vistosas e pintalgadas. A planta conhecida por muito tempo como Promenaea guttata é hoje incluída por Kew em Promenaea stapelioides subsp. xanthina. Para o cultivo, o mais importante é sua ecologia: é uma epífita de florestas úmidas do leste e sul do Brasil, de raízes delicadas, que gosta de umidade constante no ambiente sem tolerar substrato pesado e permanentemente saturado.",
-    "origem": "Brasil.",
-    "regiao": "Leste e Sul do Brasil.",
+    "origem": "Brasil",
+    "regiao": "Leste e Sul do Brasil",
     "habitat": "Florestas tropicais úmidas · epífita.",
     "clima": "Quente a ameno · úmido · sombreado.",
     "climaFloracao": "IOSPE descreve plantas de crescimento quente a fresco e floração no fim da primavera e verão. Essa amplitude mostra que não há uma única temperatura obrigatória; no litoral quente, o desafio é impedir que a combinação de noites muito quentes, ar parado e substrato saturado sufoque as raízes. Boa umidade atmosférica com circulação de ar é mais importante do que manter o vaso constantemente molhado.",

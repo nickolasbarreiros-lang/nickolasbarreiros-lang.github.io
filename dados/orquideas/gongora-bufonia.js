@@ -15,8 +15,8 @@ export const gongoraBufonia = {
         "imagens/Gongora bufonia/Gongora bufonia4.webp"
     ],
     descricao: "Uma das orquídeas brasileiras mais curiosas quando entra em flor! Gongora bufonia forma pseudobulbos sulcados com folhas largas e plissadas, mas o grande espetáculo aparece abaixo da planta: hastes pendentes de 40 a 80 cm carregadas de flores cerosas, perfumadas e de formato quase escultórico, com cerca de 5 cm. É uma espécie de florestas úmidas do leste do Brasil, principalmente de baixa altitude, e por isso se adapta bem ao calor quando recebe sombra clara, raízes sempre arejadas e umidade regular. Seu perfume intenso faz parte de uma estratégia de polinização ligada às abelhas-das-orquídeas.",
-    origem: "Brasil · Sergipe a Santa Catarina.",
-    regiao: "Leste do Brasil · Mata Atlântica.",
+    origem: "Brasil",
+    regiao: "Leste do Brasil · Mata Atlântica",
     habitat: "Florestas úmidas · sobretudo baixas altitudes.",
     clima: "Quente a intermediário · úmido e ventilado.",
     climaFloracao: "A espécie cresce melhor com água e nutrição regulares enquanto os novos brotos e pseudobulbos estão se formando. A combinação de baixa altitude, floresta úmida e inflorescência longa indica que calor não é problema por si só; o verdadeiro risco no litoral é o abafamento acompanhado de substrato saturado. Depois que o pseudobulbo amadurece, mantenha a umidade, mas reduza apenas o excesso de água em períodos mais frios e nublados. Não existe repouso seco rígido.",

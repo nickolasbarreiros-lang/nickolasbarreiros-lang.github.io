@@ -21,8 +21,8 @@ export const maxillariaTenuifolia = {
         "imagens/Maxillaria tenuifolia/Maxillaria tenuifolia4.webp"
     ],
     "descricao": "A famosa “orquídea-coco” é uma das Maxillaria mais fáceis de reconhecer: basta chegar perto de uma flor aberta para perceber seu perfume intenso e adocicado de coco. As flores medem cerca de 4–5 cm e surgem na base dos pseudobulbos, enquanto o rizoma cresce para cima em forma de escada. Nativa do México à América Central, ocorre desde baixas altitudes até cerca de 1.500 m e tolera do quente ao fresco. No litoral, cresce muito bem quando recebe bastante claridade filtrada, ventilação e espaço para o rizoma ascendente.",
-    "origem": "México à América Central.",
-    "regiao": "México, Guatemala à Costa Rica.",
+    "origem": "México e América Central",
+    "regiao": "México · Guatemala · Belize · El Salvador · Honduras · Nicarágua · Costa Rica",
     "habitat": "Epífita · florestas abertas ou densas · até 1.500 m.",
     "clima": "Quente a fresco · úmido e ventilado.",
     "climaFloracao": "IOSPE registra florescimento na primavera e no verão, com flores de aproximadamente 3,9–5 cm. Após a floração, a fonte menciona um período mais seco; em cultivo no litoral quente, isso deve ser interpretado como redução moderada da rega, e não como repouso seco absoluto. Mantenha pseudobulbos firmes, boa luz e raízes arejadas, ajustando a água à velocidade real de secagem.",

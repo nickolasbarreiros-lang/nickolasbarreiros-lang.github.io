@@ -24,8 +24,8 @@ export const cattleyaWarneri = {
         "imagens/Cattleya warneri/Cattleya warneri4.jpg"
     ],
     "descricao": "Uma gigante da primavera brasileira! Cattleya warneri é uma das grandes Cattleyas da Mata Atlântica, conhecida pelas flores muito grandes, perfumadas e geralmente rosadas ou lilases, com um labelo amplo e intensamente colorido. A planta também impressiona pelo porte, formando pseudobulbos altos e robustos com uma única folha no topo. Sua floração acompanha um ritmo bem característico: os novos crescimentos amadurecem durante os meses mais amenos e as flores aparecem principalmente na primavera; a espata pode até ficar seca e amarronzada antes de os botões começarem a crescer. É nativa do leste do Brasil e tem forte presença no Espírito Santo. No litoral quente, adapta-se bem quando recebe boa luminosidade, ventilação, água abundante no crescimento e uma redução moderada das regas durante a maturação.",
-    "origem": "Brasil.",
-    "regiao": "Leste do Brasil · destaque para ES e MG.",
+    "origem": "Brasil",
+    "regiao": "Leste do Brasil · destaque para ES e MG",
     "habitat": "Mata Atlântica · epífita · ~100–800 m.",
     "clima": "Quente a intermediário · noites mais amenas.",
     "climaFloracao": "Depois que o pseudobulbo termina o crescimento e forma a espata, a planta pode permanecer semanas ou meses em aparente repouso enquanto acumula reservas. Luz alta no inverno, substrato arejado e regas mais espaçadas são importantes, sem impor seca absoluta. Quando as temperaturas aumentam na primavera, os botões podem se desenvolver dentro de uma espata externamente seca. Excesso de água, pouca luz, pseudobulbos finos e excesso de nitrogênio reduzem a qualidade da florada.",

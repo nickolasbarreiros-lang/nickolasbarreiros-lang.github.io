@@ -24,8 +24,8 @@ export const cyrtopodiumSaintlegerianum = {
         "imagens/Cyrtopodium saintlegerianum/Cyrtopodium saintlegerianum4.jpeg"
     ],
     "descricao": "Uma gigante dos ambientes sazonais sul-americanos! Cyrtopodium saintlegerianum forma pseudobulbos longos, perde as folhas no período de repouso e pode produzir inflorescências muito ramificadas cobertas por numerosas flores amarelas e castanhas de cerca de 4 cm. No Brasil central é especialmente conhecido por crescer sobre palmeiras e troncos expostos, onde recebe muita luz, chuva durante a fase de crescimento e secagem rápida na estação seca.",
-    "origem": "América do Sul.",
-    "regiao": "Brasil, Paraguai e norte da Argentina.",
+    "origem": "América do Sul",
+    "regiao": "Brasil · Paraguai · norte da Argentina",
     "habitat": "Áreas sazonais · palmeiras/troncos · muita luz.",
     "clima": "Quente sazonal · inverno mais seco.",
     "climaFloracao": "POWO registra a espécie em bioma tropical sazonalmente seco, enquanto observações de campo e IOSPE destacam seu comportamento epífito sobre palmeiras no Brasil central. Em cultivo, essas informações convergem para o mesmo manejo: crescimento quente e bem irrigado quando brotos e folhas estão ativos, seguido de redução hídrica após a maturação. No litoral quente, noites frias intensas não são requisito; luz forte, ventilação e uma estação de repouso perceptível são muito mais importantes.",

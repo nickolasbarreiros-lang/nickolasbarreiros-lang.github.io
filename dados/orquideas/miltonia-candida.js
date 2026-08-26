@@ -21,8 +21,8 @@ export const miltoniaCandida = {
         "imagens/Miltonia candida/Miltonia candida4.jpg"
     ],
     "descricao": "Uma das Miltonia brasileiras mais elegantes! Suas flores cerosas combinam tons castanho-amarelados com um grande labelo branco e ondulado, responsável pelo nome candida, em referência à sua aparência clara. As hastes podem chegar a cerca de 60 cm e carregar de 3 a 7 flores perfumadas, com até aproximadamente 7,5 cm. Nativa do Sudeste brasileiro, ocorre em altitudes por volta de 500–800 m e tolera bem condições intermediárias a quentes, desde que as raízes finas permaneçam arejadas e recebam umidade regular.",
-    "origem": "Brasil.",
-    "regiao": "Sudeste brasileiro.",
+    "origem": "Brasil",
+    "regiao": "Sudeste brasileiro",
     "habitat": "Mata Atlântica · epífita · ~500–800 m.",
     "clima": "Intermediário a quente · ventilado.",
     "climaFloracao": "Floresce após o pseudobulbo completar a maturação. Luz filtrada forte, noites um pouco mais frescas e redução natural do ritmo vegetativo favorecem a haste, sem necessidade de seca severa. O pseudobulbo precisa amadurecer cheio, pois armazena água e carboidratos para sustentar de quatro a dez flores na inflorescência.",

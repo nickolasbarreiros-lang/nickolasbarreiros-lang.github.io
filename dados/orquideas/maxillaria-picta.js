@@ -21,8 +21,8 @@ export const maxillariaPicta = {
         "imagens/Maxillaria picta/Maxillaria picta4.jpg"
     ],
     "descricao": "Uma Maxillaria brasileira de flores grandes e muito marcantes! Seus pseudobulbos formam touceiras compactas e, no inverno e na primavera, surgem flores solitárias de cerca de 5 cm em tons creme a amarelo, fortemente pintalgadas de púrpura ou castanho. É epífita ou ocasionalmente rupícola e aprecia bastante claridade filtrada, raízes arejadas e noites mais amenas. No litoral quente, o melhor resultado vem de ventilação constante e de um substrato que seque com rapidez sem desidratar completamente a planta.",
-    "origem": "Sudeste/Sul do Brasil a Misiones, Argentina.",
-    "regiao": "Mata Atlântica · Sudeste e Sul.",
+    "origem": "América do Sul",
+    "regiao": "Sudeste e Sul do Brasil · Argentina (Misiones)",
     "habitat": "Epífita/rupícola · matas sazonais e úmidas.",
     "clima": "Quente a fresco · noites amenas favorecem.",
     "climaFloracao": "IOSPE registra floração no inverno e na primavera, em hastes basais de uma única flor com cerca de 5 cm. O gatilho mais coerente é a combinação de pseudobulbo maduro, boa luz filtrada e queda sazonal moderada das temperaturas noturnas. No litoral quente, não tente compensar a falta de noites amenas com seca forte: preserve raízes ativas, aumente apenas discretamente o intervalo entre regas após a maturação e mantenha ventilação contínua.",

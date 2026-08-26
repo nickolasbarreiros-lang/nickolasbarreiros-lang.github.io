@@ -25,8 +25,8 @@ export const speckliniaGrobyi = {
         "imagens/Specklinia grobyi/Specklinia grobyi4.jpg"
     ],
     "descricao": "Uma micro-orquídea para observar de perto! Specklinia grobyi forma pequenas touceiras de folhas firmes e produz hastes delicadas com flores minúsculas, discretas e cheias de detalhes. Sua distribuição é enorme, do sul do México até boa parte da América do Sul, e isso explica a grande variação de porte e tolerância climática encontrada entre populações. No cultivo, o segredo não é mantê-la encharcada, mas conservar as raízes finas hidratadas e sempre bem oxigenadas.",
-    "origem": "Sul do México à América do Sul tropical.",
-    "regiao": "México, América Central e ampla faixa da América do Sul.",
+    "origem": "América Tropical",
+    "regiao": "México · América Central · América do Sul tropical",
     "habitat": "Epífita · florestas diversas · ~60–3.200 m.",
     "clima": "Ampla faixa térmica · prefere umidade e ventilação.",
     "climaFloracao": "A enorme amplitude altitudinal mostra que não existe um único regime térmico para toda a espécie. Em cultivo, plantas de procedência desconhecida respondem melhor a condições intermediárias, sem extremos, com raízes arejadas e umidade frequente. Pode florescer em diferentes épocas do ano conforme o crescimento.",

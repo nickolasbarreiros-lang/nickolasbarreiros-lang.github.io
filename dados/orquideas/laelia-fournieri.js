@@ -23,8 +23,8 @@ export const laeliaFournieri = {
         "imagens/Cattleya fournieri/Cattleya fournieri4.webp"
     ],
     descricao: "Uma joia minúscula dos campos rupestres de Minas Gerais! Cattleya fournieri forma pequenas touceiras compactas, com folhas rígidas e flores de aproximadamente 2,5 a 3 cm — grandes em relação ao tamanho da planta. É encontrada em afloramentos rochosos de altitude, por volta de 1.100 a 1.800 m, onde recebe muita luz, vento e noites frescas. Por isso, no litoral quente, o maior desafio não é fazê-la “passar sede”, e sim manter raízes pequenas, arejadas e relativamente frescas durante o verão.",
-    origem: "Brasil.",
-    regiao: "Minas Gerais.",
+    origem: "Brasil",
+    regiao: "Minas Gerais",
     habitat: "Campos rupestres · rochas · ~1.100–1.800 m.",
     clima: "Fresco a intermediário · alta luz · ventilado.",
     climaFloracao: "A floração depende de crescimento compacto, muita luz e raízes ativas sob temperaturas moderadas. O calor noturno persistente pode reduzir vigor e indução floral; no litoral, priorize o ponto mais fresco e ventilado do orquidário em vez de compensar o calor com seca severa.",

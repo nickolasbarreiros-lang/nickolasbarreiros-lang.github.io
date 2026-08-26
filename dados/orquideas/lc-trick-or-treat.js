@@ -21,8 +21,8 @@ export const lcTrickOrTreat = {
         "imagens/Cattlianthe Trick or Treat/Cattlianthe Trick or Treat4.jpg"
     ],
     descricao: "Um clássico laranja que nunca passa despercebido! Cattlianthe Trick or Treat é um híbrido vigoroso, registrado em 1973, famoso pelas hastes altas carregadas de flores em tons de laranja vivo. Forma touceiras rapidamente, tolera bem condições quentes e costuma recompensar boa luminosidade com florações abundantes. Como todo grex, pode variar bastante entre clones em porte, formato e número de flores; cultivares como 'Orange Magic' e 'Orange Beauty' ajudaram a tornar esse híbrido especialmente popular.",
-    origem: "Híbrido hortícola · registrado em 1973.",
-    regiao: "Origem de cultivo · amplamente cultivado.",
+    origem: "Híbrido horticultural",
+    regiao: "Sem distribuição natural · grex registrado em 1973",
     habitat: "Sem habitat natural · grex híbrido.",
     clima: "Intermediário a quente · luminoso.",
     climaFloracao: "A genealogia registrada é C. Icarus × Ctt. Chit Chat, reunindo forte contribuição de Cattleya cinnabarina, C. crispata, Guarianthe aurantiaca e C. harpophylla. Na prática, isso se traduz em bom vigor, preferência por luz alta filtrada e resposta favorável ao calor quando há ventilação. Cada novo pseudobulbo plenamente maduro pode gerar uma haste; por isso, luz insuficiente e excesso de nitrogênio são causas mais comuns de falha de floração que a falta de frio.",

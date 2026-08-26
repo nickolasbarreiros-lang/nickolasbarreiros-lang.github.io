@@ -22,8 +22,8 @@ export const laeliaCinnabarina = {
         "imagens/Cattleya cinnabarina/Cattleya cinnabarina3.jpg"
     ],
     descricao: "Uma explosão de laranja nas montanhas do Sudeste! Cattleya cinnabarina chama atenção pelas flores estreladas em intenso tom cinábrio, geralmente reunidas em hastes altas que podem chegar perto de 60 cm. Na natureza cresce sobre rochas entre gramíneas, sobretudo em áreas serranas de Minas Gerais e Rio de Janeiro, aproximadamente entre 800 e 1.500 m. Apesar do aspecto de planta de ambiente seco, ela floresce melhor quando recebe muita luz, raízes bem arejadas e água suficiente durante o crescimento — o excesso de calor nas raízes é um problema maior que a falta de um “repouso seco”.",
-    origem: "Brasil.",
-    regiao: "Minas Gerais e Rio de Janeiro.",
+    origem: "Brasil",
+    regiao: "Minas Gerais e Rio de Janeiro",
     habitat: "Afloramentos rochosos · ~800–1.500 m.",
     clima: "Intermediário a fresco · alta luz · ventilado.",
     climaFloracao: "Pseudobulbos maduros, alta luminosidade e boa diferença térmica entre dia e noite favorecem a floração. No litoral, preserve claridade elevada, mas evite que vaso e pedras acumulem calor; reduza a rega apenas conforme a atividade diminui, sem criar seca artificial extrema.",

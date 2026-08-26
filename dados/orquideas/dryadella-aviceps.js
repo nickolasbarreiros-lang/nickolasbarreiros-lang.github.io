@@ -24,8 +24,8 @@ export const dryadellaAviceps = {
         "imagens/Dryadella aviceps/Dryadella aviceps4.jpg"
     ],
     descricao: "Pequena no tamanho, mas cheia de detalhes! Dryadella aviceps forma tufos compactos de folhas firmes e produz minúsculas flores de cerca de 5 mm muito próximas à base da planta. O nome comum em inglês faz alusão ao formato da flor, lembrando uma pequena cabeça de ave. Ocorre no leste e sul do Brasil e chega ao Paraguai, em altitudes bastante variadas — aproximadamente 310 a 1.500 m — o que explica sua capacidade de crescer desde condições relativamente quentes até ambientes mais frescos. Em cultivo, aprecia umidade regular, raízes arejadas e pouca perturbação da touceira.",
-    origem: "Brasil e Paraguai.",
-    regiao: "Leste/Sul do Brasil · Paraguai.",
+    origem: "América do Sul",
+    regiao: "Leste e Sul do Brasil · Paraguai",
     habitat: "Epífita · florestas sazonais · ~310–1.500 m.",
     clima: "Quente a fresco · úmido e ventilado.",
     climaFloracao: "A amplitude altitudinal mostra que a espécie não deve ser classificada como exclusivamente fria. Plantas de procedência mais baixa toleram calor melhor, enquanto populações montanas respondem a noites amenas. Uma touceira madura, raízes saudáveis e estabilidade hídrica são mais importantes que um choque térmico intenso. No litoral quente, a prioridade é evitar abafamento e aquecimento prolongado das raízes.",

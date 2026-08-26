@@ -23,8 +23,8 @@ export const laeliaCaulencens = {
         "imagens/Cattleya caulescens/Cattleya caulescens4.jpg"
     ],
     descricao: "Pequena no porte, mas muito marcante quando floresce! Cattleya caulescens é uma rupícola de Minas Gerais que vive entre pedras e areia, em encostas abertas e muito iluminadas. Seus pseudobulbos compactos sustentam uma única folha firme, enquanto hastes de cerca de 15 a 35 cm elevam de 2 a 5 flores rosadas, lilases ou púrpuras. Na natureza aparece por volta de 600 a 1.200 m; por isso, no litoral quente, o ponto decisivo é oferecer muita luz sem deixar pedras, vaso e raízes superaquecerem.",
-    origem: "Brasil.",
-    regiao: "Minas Gerais.",
+    origem: "Brasil",
+    regiao: "Minas Gerais",
     habitat: "Campos rupestres · rochas e areia · ~600–1.200 m.",
     clima: "Quente a fresco · sazonal · alta luz.",
     climaFloracao: "A floração é favorecida por pseudobulbos bem maduros, alta luminosidade e raízes ativas. Após o crescimento, reduza a frequência das regas conforme a atividade cair, mas sem impor seca severa. No litoral quente, controle principalmente o superaquecimento do recipiente e das raízes durante o dia e o abafamento noturno.",

@@ -23,8 +23,8 @@ export const bulbophyllumFalcatum = {
         "imagens/Bulbophyllum Falcatum/Bulbophyllum Falcatum4.webp"
     ],
     descricao: "Difícil confundir esta orquídea quando ela floresce! Bulbophyllum falcatum é famoso pela inflorescência larga, achatada e ondulada, que lembra uma lâmina ou pequena foice. Em suas duas laterais alinham-se numerosas flores diminutas, geralmente com até cerca de 1,2 cm, criando um conjunto muito mais impressionante do que cada flor isoladamente. As cores variam bastante, passando por verdes, amarelos, creme, vermelho e púrpura conforme a planta e a procedência.\n\nÉ uma espécie africana de ampla distribuição, encontrada em diferentes tipos de floresta tropical e em uma faixa considerável de altitude. Seu crescimento rastejante pede espaço horizontal, e a inflorescência precisa ficar livre para se desenvolver sem encostar na borda do vaso — detalhe simples que faz grande diferença para apreciar plenamente sua floração tão peculiar.",
-    origem: "África tropical",
-    regiao: "África Ocidental ao SW do Quênia",
+    origem: "África Tropical",
+    regiao: "África Ocidental ao sudoeste do Quênia",
     habitat: "Florestas baixas/submontanas · <1.800 m",
     clima: "Quente a intermediário · úmido",
     climaFloracao: "No habitat, floresce do inverno à primavera após a maturação dos pseudobulbos. Não necessita repouso seco rígido. Uma leve redução natural da temperatura noturna e da evaporação pode acompanhar a indução floral, mas a planta deve continuar hidratada. No litoral quente, priorize noites ventiladas e evite excesso de água quando a evaporação cair.",

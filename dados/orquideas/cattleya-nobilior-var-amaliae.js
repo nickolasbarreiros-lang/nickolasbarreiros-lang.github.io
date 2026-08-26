@@ -24,8 +24,8 @@ export const cattleyaNobiliorVarAmaliae = {
         "imagens/Cattleya nobilior var. amaliae/Cattleya nobilior var. amaliae4.webp"
     ],
     descricao: "Uma das formas mais desejadas de Cattleya nobilior, a tradicional amaliae é uma verdadeira joia do Cerrado brasileiro. A planta é compacta e robusta, com pseudobulbos curtos e geralmente duas folhas coriáceas, mas produz flores grandes, arredondadas, cerosas e perfumadas, normalmente em delicados tons de rosa-claro a rosa-lilás. O labelo mais intenso, frequentemente com garganta amarelada e veios púrpura, cria um belo contraste. Seu ambiente natural ajuda a explicar seu comportamento no cultivo: ela está adaptada a uma estação de crescimento mais úmida seguida por um período marcadamente seco. Por isso, gosta de muita luz, ventilação constante e uma redução clara das regas depois que os novos pseudobulbos amadurecem.",
-    origem: "Brasil Central · Cerrado.",
-    regiao: "N. Goiás, Tocantins e SO da Bahia.",
+    origem: "Brasil",
+    regiao: "N. Goiás, Tocantins e SO da Bahia",
     habitat: "Cerrado decíduo · árvores baixas.",
     clima: "Quente · muito luminoso · inverno seco.",
     climaFloracao: "A floração é favorecida por pseudobulbos completamente maduros, luminosidade muito alta e forte redução hídrica no período seco. A planta frequentemente emite crescimento floral especializado e sem folhas a partir da região basal ou rizomatosa. O princípio correto é reproduzir a sazonalidade: crescimento com água e nutrição suficientes, seguido de repouso realmente mais seco, mas sem permitir desidratação severa e prolongada.",

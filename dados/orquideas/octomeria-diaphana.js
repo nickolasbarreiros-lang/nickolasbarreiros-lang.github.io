@@ -20,8 +20,8 @@ export const octomeriaDiaphana = {
         "imagens/Octomeria diaphana/Octomeria diaphana4.jpg"
     ],
     "descricao": "Uma delicada Octomeria brasileira que mostra sua beleza nos detalhes. Forma pequenas touceiras de hastes finas, cada uma terminando em uma folha estreita e firme. Junto à base da folha surgem flores minúsculas e translúcidas, que ficam muito mais interessantes quando dezenas de hastes florescem ao mesmo tempo. Na natureza aparece sobre troncos e galhos musgosos de florestas úmidas, inclusive na Serra dos Órgãos. Gosta de sombra clara, umidade regular e bastante circulação de ar.",
-    "origem": "Brasil.",
-    "regiao": "Sul e Sudeste do Brasil.",
+    "origem": "Brasil",
+    "regiao": "Sul e Sudeste do Brasil",
     "habitat": "Matas úmidas · troncos musgosos.",
     "clima": "Quente a fresco · úmido.",
     "climaFloracao": "IOSPE descreve a espécie como de crescimento quente a fresco em florestas primárias úmidas, sobre troncos e ramos cobertos de musgo. Isso explica por que, no litoral quente, ela responde melhor quando recebe sombra clara, alta umidade atmosférica e forte ventilação, especialmente à noite. Não precisa de repouso seco; basta permitir leve secagem superficial do suporte entre regas.",

@@ -19,8 +19,8 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
         "imagens/BC Turandot x (BLC Orange Show x BLC Chunyeah)/BC Turandot x (BLC Orange Show x BLC Chunyeah)4.jpg"
     ],
     descricao: "Um híbrido criado para impressionar pelas flores! Este cruzamento reúne linhagens clássicas de Cattleya e parentes próximos conhecidos por flores grandes, vistosas e, em muitos descendentes, perfumadas. A planta tende a formar pseudobulbos robustos e responde bem a luminosidade intensa filtrada, características herdadas de sua longa seleção horticultural. Como se trata de um cruzamento complexo produzido por sementes, cada exemplar pode revelar uma combinação própria de cor, formato, tamanho, perfume e época de floração — essa variabilidade é justamente uma das partes mais interessantes de acompanhar conforme a planta amadurece.",
-    origem: "Híbrido horticultural.",
-    regiao: "Cultivo humano · sem distribuição natural.",
+    origem: "Híbrido horticultural",
+    regiao: "Sem distribuição natural · híbrido complexo da aliança Cattleya",
     habitat: "Sem habitat natural · aliança Cattleya epífita.",
     clima: "Quente a intermediário · bem ventilado.",
     climaFloracao: "No litoral quente e úmido, o calor favorece a formação dos novos pseudobulbos. Para florescer com regularidade, precisa receber luminosidade filtrada forte, amadurecer completamente cada crescimento e apresentar raízes ativas. Uma discreta queda da temperatura noturna e leve redução da adubação nitrogenada na maturação podem favorecer a emissão da bainha e dos botões.",

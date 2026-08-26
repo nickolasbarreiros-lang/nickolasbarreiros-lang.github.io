@@ -25,8 +25,8 @@ export const coelogyneFlaccida = {
         "imagens/Coelogyne flaccida/Coelogyne flaccida4.webp"
     ],
     "descricao": "Uma Coelogyne feita para ser cultivada no alto! Coelogyne flaccida produz longos cachos pendentes de flores creme a amarelo-pálido, com o labelo desenhado por marcas castanhas e perfume bastante intenso. A planta forma touceiras de pseudobulbos agrupados e fica especialmente bonita em cestos suspensos, onde as hastes podem cair livremente. Na natureza ocorre do Himalaia ao sul da China e Indochina, em ambientes úmidos onde as noites são mais amenas. Por isso, aprecia água durante o crescimento, boa ventilação e uma redução moderada das regas após a maturação — mas sem o repouso seco severo de Coelogyne cristata.",
-    "origem": "Himalaia ao sul da China e Indochina.",
-    "regiao": "Nepal, Índia, sul da China e Indochina.",
+    "origem": "Himalaia e Sudeste Asiático",
+    "regiao": "Nepal · Índia · sul da China · Indochina",
     "habitat": "Florestas montanas úmidas · epífita/litófita.",
     "clima": "Intermediário a fresco · noites amenas.",
     "climaFloracao": "A floração é favorecida por pseudobulbos maduros, noites mais frescas, luz filtrada e redução moderada da água após o crescimento. Não exige repouso tão seco quanto Coelogyne cristata, mas também não deve permanecer encharcada no inverno. A planta precisa ficar elevada e ventilada, tanto para acomodar as hastes pendentes quanto para dissipar o perfume intenso e evitar fungos.",

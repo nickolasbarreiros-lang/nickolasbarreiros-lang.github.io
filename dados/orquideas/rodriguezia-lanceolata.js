@@ -25,8 +25,8 @@ export const rodrigueziaLanceolata = {
         "imagens/Rodriguezia lanceolata/Rodriguezia lanceolata4.jpg"
     ],
     "descricao": "Uma Rodriguezia de floração alegre e abundante. Esta pequena epífita forma touceiras compactas e produz hastes arqueadas de até cerca de 35 cm, com numerosas flores rosa a vermelho-púrpura concentradas no mesmo lado da inflorescência. Na natureza cresce sobre galhos menores de florestas tropicais úmidas, geralmente sob boa luminosidade, e pode florescer em diferentes épocas do ano, com maior frequência na primavera. Suas raízes são finas: gostam de água durante o crescimento, mas respondem muito melhor quando secam rapidamente e recebem ar constante.",
-    "origem": "América tropical.",
-    "regiao": "Panamá e Caribe ao norte da América do Sul e Brasil.",
+    "origem": "América Tropical",
+    "regiao": "Panamá · Caribe · norte da América do Sul · Brasil",
     "habitat": "Epífita de florestas úmidas, sobre galhos claros; ~650–1.500 m.",
     "clima": "Quente a intermediário, úmido e ventilado.",
     "climaFloracao": "Pode florescer após a maturação de novos pseudobulbos e, em plantas vigorosas, repetir a floração em mais de uma época do ano. A combinação de meia-sombra clara, raízes ativas, água frequente sem encharcamento e boa circulação de ar favorece hastes longas e floríferas.",

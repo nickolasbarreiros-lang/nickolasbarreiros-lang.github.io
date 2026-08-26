@@ -15,8 +15,8 @@ export const howearaLavaBurst = {
         "imagens/Howeara Lava Burst/Howeara Lava Burst4.jpeg"
     ],
     descricao: "Pequena no tamanho e enorme no efeito visual! Leomesezia Lava Burst é um híbrido compacto que forma touceiras cheias e produz hastes delicadas cobertas por pequenas flores vermelho-alaranjadas. Foi registrado em 1993 por Puanani a partir de Leomesezia Mini-Primi × Rodriguezia lanceolata, combinação que reuniu plantas tropicais americanas de crescimento ativo e raízes finas. O cultivar ‘Puanani’ é o mais conhecido no cultivo. Quando recebe luz filtrada abundante, umidade regular e adubação leve, pode repetir a floração sempre que novos pseudobulbos amadurecem.",
-    origem: "Híbrido hortícola · registrado em 1993.",
-    regiao: "Ancestrais tropicais americanos.",
+    origem: "Híbrido horticultural",
+    regiao: "Ancestrais tropicais americanos",
     habitat: "Sem habitat natural · herança epífita.",
     clima: "Intermediário a quente · úmido e ventilado.",
     climaFloracao: "Como híbrido, não existe uma altitude natural única para converter em regra. O melhor guia é o comportamento de seus ancestrais: raízes finas, pseudobulbos pequenos e crescimento relativamente contínuo. No litoral quente, floresce melhor quando o vaso permanece fresco e aerado, sem seca prolongada nem calor abafado. Não precisa de repouso seco para induzir flores; precisa completar novos pseudobulbos saudáveis.",

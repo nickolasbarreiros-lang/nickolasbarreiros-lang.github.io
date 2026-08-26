@@ -14,8 +14,8 @@ export const isabeliaVirginalis = {
         "imagens/Isabelia virginalis/Isabelia virginalis4.jpeg"
     ],
     descricao: "Uma pequena joia da Mata Atlântica! Isabelia virginalis forma colônias rastejantes de pseudobulbos minúsculos envolvidos por uma trama de fibras esbranquiçadas que lembra uma renda natural. De cada pseudobulbo surge uma folha fina como agulha e, no período de floração, uma ou duas flores rosadas, cerosas e duráveis de cerca de 1 cm. Essas fibras não são material velho para ser limpo: fazem parte da própria arquitetura da planta. Seu nome de gênero homenageia a Princesa Isabel, e a espécie é nativa do Sul e Sudeste do Brasil, avançando até Paraguai e Misiones, na Argentina.",
-    origem: "Brasil, Paraguai e NE da Argentina.",
-    regiao: "Sul e Sudeste do Brasil · Misiones.",
+    origem: "América do Sul",
+    regiao: "Sul e Sudeste do Brasil · Paraguai · Argentina (Misiones)",
     habitat: "Epífita ou rupícola · ambientes sazonais claros.",
     clima: "Intermediário · ventilado, com secagem rápida.",
     climaFloracao: "A espécie ocorre tanto sobre árvores quanto sobre rochas e aparece associada a ambientes tropicais sazonalmente secos, mas isso não significa repouso árido. Seu crescimento rastejante e as raízes pequenas funcionam melhor com ciclos rápidos de molhamento e secagem. No litoral quente, o excesso de esfagno e a pouca ventilação são mais perigosos do que a temperatura em si. No período mais frio, basta aumentar naturalmente o intervalo das regas conforme a evaporação.",

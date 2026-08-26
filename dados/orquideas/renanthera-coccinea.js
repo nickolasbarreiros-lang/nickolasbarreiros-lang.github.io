@@ -24,8 +24,8 @@ export const renantheraCoccinea = {
         "imagens/Renanthera coccinea/Renanthera coccinea4.webp"
     ],
     "descricao": "Uma explosão de vermelho em uma planta de presença imponente! A Renanthera coccinea cresce verticalmente como uma grande Vanda e, quando adulta, pode produzir hastes ramificadas de 60 a 90 cm cobertas por flores vermelho-alaranjadas de cerca de 5 a 6,25 cm. Na natureza aparece tanto como epífita em florestas quanto sobre rochas e paredões muito claros, entre aproximadamente 100 e 1.200 m. Essa combinação explica seu cultivo: gosta de muito ar, muita luz e raízes livres, mas também de regas generosas durante o calor. É uma excelente candidata para regiões quentes quando recebe espaço vertical e luminosidade suficiente.",
-    "origem": "Sul da China à Indochina.",
-    "regiao": "China meridional · Myanmar · Laos · Vietnã · Tailândia.",
+    "origem": "Sul da China e Indochina",
+    "regiao": "Sul da China · Myanmar · Laos · Vietnã · Tailândia",
     "habitat": "Rochas abertas e florestas · 100–1.200 m.",
     "clima": "Quente a ameno · muito claro · ventilado.",
     "climaFloracao": "A espécie ocorre em ampla faixa altitudinal e pode crescer de quente a fresco, mas sua exigência por alta luminosidade é consistente. No litoral quente, o calor por si só raramente é o principal limitante; sombra excessiva, raízes abafadas e falta de ventilação são problemas maiores. Plantas adultas, bem iluminadas e com sistema radicular ativo florescem com mais regularidade.",

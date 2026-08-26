@@ -21,8 +21,8 @@ export const laeliaPraestans = {
         "imagens/Laelia praestans/Laelia praestans4.jpg"
     ],
     descricao: "Compacta na planta e generosa na flor! Cattleya praestans é uma espécie brasileira de pequeno porte que surpreende com flores de cerca de 7,5 cm, muito grandes em relação aos seus pseudobulbos curtos. Os tons variam do lilás ao púrpura, geralmente com labelo mais intenso e garganta clara ou amarelada. Vive como epífita nas florestas úmidas do Sudeste e floresce na primavera; apesar da origem montana, registros entre aproximadamente 700 e 900 m mostram que ela não deve ser tratada como uma espécie estritamente fria.",
-    origem: "Brasil.",
-    regiao: "Espírito Santo e Minas Gerais.",
+    origem: "Brasil",
+    regiao: "Espírito Santo e Minas Gerais",
     habitat: "Mata Atlântica úmida · epífita · 700–900 m.",
     clima: "Quente a intermediário · úmido e ventilado.",
     climaFloracao: "A floração depende de pseudobulbos bem amadurecidos, luz moderada a alta e raízes saudáveis. Como cresce em floresta úmida de altitude moderada, não necessita de repouso seco forte; após a maturação, basta reduzir discretamente a frequência das regas. Em litoral quente, noites abafadas e substrato continuamente molhado são mais problemáticos que a falta de frio intenso, por isso ventilação e raízes oxigenadas são prioridades.",

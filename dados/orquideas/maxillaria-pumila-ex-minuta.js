@@ -21,8 +21,8 @@ export const maxillariaPumilaExMinuta = {
         "imagens/Maxillaria pumila/Maxillaria pumila4.jpg"
     ],
     "descricao": "Uma verdadeira miniatura sul-americana! A Maxillaria pumila forma pequenas touceiras com pseudobulbos discretos, uma única folha por crescimento e flores diminutas de cerca de 8 mm, que aparecem bem junto à planta. É uma espécie de clima quente, originária das Guianas e do Brasil, e chama atenção justamente pelo contraste entre o porte minúsculo e a delicadeza das flores. Em cultivo, o segredo está nas raízes finíssimas: elas gostam de umidade frequente, mas precisam de muito ar e baixa concentração de sais.",
-    "origem": "Guiana e Brasil.",
-    "regiao": "América do Sul tropical · Brasil e Guiana.",
+    "origem": "Guiana e Brasil",
+    "regiao": "América do Sul tropical · Brasil e Guiana",
     "habitat": "Epífita · florestas tropicais úmidas.",
     "clima": "Quente · úmido e muito ventilado.",
     "climaFloracao": "IOSPE descreve a espécie como miniatura de crescimento quente, florescendo na primavera e no verão em hastes curtas de cerca de 1,5 cm. Não há necessidade de repouso seco. Para florescer bem, a planta precisa permanecer em touceira, com raízes funcionais e boa luz filtrada. No litoral quente, a temperatura é favorável; o maior risco é o abafamento de raízes muito finas em esfagno compactado ou substrato velho.",

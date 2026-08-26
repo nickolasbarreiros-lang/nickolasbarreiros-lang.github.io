@@ -21,8 +21,8 @@ export const neobenthamiaGracilis = {
         "imagens/Neobenthamia gracilis/Neobenthamia gracilis4.jpg"
     ],
     "descricao": "Uma orquídea africana de presença marcante! Forma touceiras altas, com caules finos e folhosos que lembram pequenos bambus e podem ultrapassar 1 metro. No topo dos caules maduros surgem cabeças arredondadas com dezenas de flores brancas, perfumadas e delicadamente marcadas de amarelo e rosa. Apesar do visual exuberante, é uma planta de ambientes quentes a amenos: na Tanzânia cresce tanto sobre rochas expostas quanto em saliências com musgo, entre cerca de 380 e 2.000 m. Em cultivo, gosta de muita claridade, raízes bem arejadas e água regular durante o crescimento, sem ficar encharcada.",
-    "origem": "Tanzânia.",
-    "regiao": "Leste da Tanzânia.",
+    "origem": "Tanzânia",
+    "regiao": "Leste da Tanzânia",
     "habitat": "Rochas e encostas · 380–2.000 m.",
     "clima": "Quente a ameno · alta luz.",
     "climaFloracao": "A floração aparece em caules plenamente maduros e é favorecida por alta luminosidade, crescimento vigoroso e boa nutrição. IOSPE registra floração do inverno à primavera no habitat, mas o calendário pode deslocar-se em cultivo. A espécie não precisa de seca severa: uma redução discreta da água após a maturação é suficiente, sempre mantendo raízes vivas e arejadas. Touceiras grandes, com vários caules maduros, tendem a produzir cabeças florais mais cheias.",

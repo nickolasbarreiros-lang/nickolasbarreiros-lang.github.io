@@ -20,8 +20,8 @@ export const notyliaPubescens = {
         "imagens/Notylia pubescens/Notylia pubescens4.jpg"
     ],
     "descricao": "Pequena orquídea brasileira que surpreende quando floresce! Cada crescimento produz uma folha larga e firme, enquanto da base surgem hastes arqueadas ou pendentes carregadas de muitas flores miúdas em tons de creme a amarelo. Em touceiras adultas, vários cachos podem aparecer ao mesmo tempo, criando um efeito muito delicado. É uma espécie da Mata Atlântica e de outras formações brasileiras, mais feliz em sombra clara, boa ventilação e raízes finas sempre úmidas, mas nunca abafadas.",
-    "origem": "Brasil.",
-    "regiao": "Leste e Sul do Brasil.",
+    "origem": "Brasil",
+    "regiao": "Leste e Sul do Brasil",
     "habitat": "Florestas tropicais · epífita.",
     "clima": "Quente a ameno · úmido.",
     "climaFloracao": "A produção de cachos depende mais da maturação do crescimento, luminosidade filtrada e estabilidade hídrica do que de frio intenso. A espécie é registrada em diferentes ambientes brasileiros, inclusive florestas ombrófilas e ribeirinhas. Durante a emissão das hastes, evite secas prolongadas e água parada na base da folha. Ventilação é especialmente importante em noites quentes, quando botões e flores ficam mais sujeitos a fungos.",

@@ -15,8 +15,8 @@ export const encycliaOncidioides = {
         "imagens/Encyclia oncidioides/Encyclia oncidioides4.jpg"
     ],
     descricao: "Uma Encyclia de presença marcante, feita para quem gosta de hastes longas e cheias de flores! Encyclia oncidioides forma pseudobulbos robustos, normalmente com duas ou três folhas firmes, e pode produzir inflorescências ramificadas próximas de 90 cm. As flores, que podem chegar a cerca de 5 cm, variam do amarelo-esverdeado ao castanho e costumam ser doces e perfumadas. Na natureza aparece desde áreas próximas ao nível do mar até cerca de 750 m, inclusive em areia branca e afloramentos rochosos — uma pista clara de sua preferência por muita luz, ventilação e raízes que sequem rapidamente.",
-    origem: "América tropical · Brasil incluído.",
-    regiao: "Brasil e outros pontos da América tropical.",
+    origem: "América tropical · Brasil incluído",
+    regiao: "Brasil e outros pontos da América tropical",
     habitat: "Areia branca e afloramentos · 0–750 m.",
     clima: "Quente a intermediário · sazonal.",
     climaFloracao: "A espécie floresce melhor depois de formar pseudobulbos fortes sob luz alta. Regue e adube com regularidade enquanto houver brotos e raízes ativos; ao amadurecer o crescimento, aumente moderadamente a secagem entre regas. A faixa natural de baixa altitude mostra que frio não é requisito para florescer.",

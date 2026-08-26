@@ -21,8 +21,8 @@ export const miltoniaRegnellii = {
         "imagens/Miltonia regnellii/Miltonia regnellii4.jpg"
     ],
     "descricao": "Delicada e muito florífera, esta Miltonia brasileira chama atenção pelas flores claras — brancas, creme ou amarelo-pálidas — contrastando com um amplo labelo rosado a violeta. Em touceiras adultas, vários pseudobulbos podem florescer juntos, formando um conjunto elegante e abundante. Nativa do Sul e Sudeste do Brasil, adapta-se de condições intermediárias a quentes, mas aprecia boa circulação de ar e umidade regular durante a formação dos novos pseudobulbos.",
-    "origem": "Brasil.",
-    "regiao": "Sul e Sudeste.",
+    "origem": "Brasil",
+    "regiao": "Sul e Sudeste",
     "habitat": "Mata Atlântica · epífita.",
     "clima": "Intermediário a quente · ventilado.",
     "climaFloracao": "A floração depende principalmente da maturação completa do pseudobulbo novo. Durante a brotação, a planta precisa de raízes ativas, umidade regular, luz filtrada abundante e nutrição moderada. Depois que o pseudobulbo estiver firme e encorpado, uma discreta redução da frequência das regas, associada a noites um pouco mais frescas, favorece a indução floral. Não imponha repouso seco severo, pois as raízes finas e os pseudobulbos podem desidratar.",

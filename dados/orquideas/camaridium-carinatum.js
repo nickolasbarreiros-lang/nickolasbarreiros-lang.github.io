@@ -23,8 +23,8 @@ export const camaridiumCarinatum = {
         "imagens/Camaridium carinatum/Camaridium carinatum4.jpg"
     ],
     descricao: "Uma orquídea sul-americana de crescimento elegante e bem horizontal. Conhecida por muito tempo como *Camaridium carinatum*, esta planta forma pseudobulbos espaçados ao longo do rizoma, acompanhados por folhas estreitas que criam um conjunto leve e alongado. As flores surgem individualmente junto à base dos pseudobulbos, têm cerca de 3 cm e podem aparecer em diferentes épocas do ano quando a planta está bem estabelecida. Atualmente é aceita como *Maxillaria imbricata*, mas o antigo nome continua bastante presente em coleções. Na natureza ocorre em florestas úmidas da América do Sul tropical, desde áreas relativamente baixas até regiões próximas de 1.000 m, o que ajuda a explicar sua boa adaptação a condições quentes a intermediárias quando recebe ventilação e raízes bem arejadas.",
-    origem: "América do Sul tropical.",
-    regiao: "Bolívia e Brasil.",
+    origem: "América do Sul tropical",
+    regiao: "Bolívia e Brasil",
     habitat: "Florestas úmidas/nebulosas · 100–1.000 m.",
     clima: "Quente a intermediário · úmido e ventilado.",
     climaFloracao: "Não necessita repouso seco. A espécie pode florir em diferentes épocas quando pseudobulbos maduros, raízes ativas, luz média e hidratação estável coincidem. O crescimento horizontal deixa a base dos pseudobulbos exposta; manter essa região livre de substrato e detritos favorece a saída das hastes basais e reduz podridões. No litoral quente, o manejo deve priorizar ventilação e secagem das bainhas, não redução artificial de água.",

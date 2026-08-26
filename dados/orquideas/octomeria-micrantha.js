@@ -20,8 +20,8 @@ export const octomeriaMicrantha = {
         "imagens/Octomeria micrantha/Octomeria micrantha4.jpg"
     ],
     "descricao": "Uma micro-orquídea discreta que recompensa quem observa de perto. Forma almofadas compactas de hastes curtas e folhas firmes, e produz flores minúsculas de apenas cerca de 3,5 mm, em tons claros de amarelo e verde. É nativa do Sudeste do Brasil até Misiones, na Argentina, onde cresce sobre musgos e líquens em florestas. Tolera alguma secagem superficial entre regas, mas floresce melhor quando a touceira permanece bem estabelecida, ventilada e sem longos períodos de desidratação.",
-    "origem": "Brasil ao nordeste da Argentina.",
-    "regiao": "Sudeste do Brasil · Paraguai · Misiones.",
+    "origem": "América do Sul",
+    "regiao": "Sudeste do Brasil · Paraguai · Argentina (Misiones)",
     "habitat": "Florestas · musgos e líquens.",
     "clima": "Quente a fresco · ventilado.",
     "climaFloracao": "IOSPE descreve crescimento quente a fresco e ocorrência sobre musgos e líquens em florestas primárias. Portanto, não é adequado tratá-la como estritamente fria. No litoral quente, a melhor estratégia é compensar noites altas com ventilação constante, raízes expostas ao ar e sombra clara. A espécie tolera secagem superficial leve, mas não um repouso seco prolongado.",

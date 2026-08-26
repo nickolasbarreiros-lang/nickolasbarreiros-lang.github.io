@@ -24,8 +24,8 @@ export const encycliaBracteata = {
         "imagens/Encyclia bracteata/Encyclia bracteata4.jpg"
     ],
     descricao: "Uma das menores Encyclia brasileiras! Encyclia bracteata forma pseudobulbos compactos com uma folha fina e estreita e produz pequenas hastes com apenas duas ou três flores de aproximadamente 2,5 cm. O contraste entre o porte reduzido da planta e a delicadeza das flores torna a espécie especialmente charmosa. É nativa da Mata Atlântica, da Bahia ao Sudeste, e ocorre principalmente em baixas altitudes — cerca de 10 a 500 m — sobre troncos de árvores. Essa origem explica sua boa adaptação ao calor: gosta de muita claridade filtrada, água durante o crescimento e raízes que secam rapidamente depois de cada rega.",
-    origem: "Brasil.",
-    regiao: "Bahia e Sudeste brasileiro.",
+    origem: "Brasil",
+    regiao: "Bahia e Sudeste brasileiro",
     habitat: "Mata Atlântica · epífita · ~10–500 m.",
     clima: "Quente a intermediário · ventilado.",
     climaFloracao: "A espécie vem de baixa altitude e não necessita de frio para florescer. O estímulo mais importante é completar pseudobulbos maduros sob luminosidade elevada filtrada, seguida de leve redução na frequência das regas. IOSPE registra floração na primavera em natureza e do fim do verão ao início do outono em cultivo, mostrando que o calendário varia conforme hemisfério e condições de cultivo.",

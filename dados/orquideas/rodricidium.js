@@ -24,8 +24,8 @@ export const rodricidium = {
         "imagens/Rodricidium/Rodricidium4.avif"
     ],
     "descricao": "Rodricidium é o nome usado para híbridos que combinam Oncidium e Rodriguezia. Em vez de representar uma única planta de características fixas, reúne cruzamentos que podem variar bastante, mas geralmente conservam crescimento simpodial, pseudobulbos comprimidos e hastes arqueadas com muitas flores. A influência de Rodriguezia costuma favorecer porte mais compacto e raízes finas, enquanto Oncidium pode acrescentar vigor, ramificação e maior diversidade de cores. No cultivo, o ponto em comum mais importante é simples: água regular durante o crescimento, mas sempre com bastante ar nas raízes e substrato que não permaneça encharcado.",
-    "origem": "Híbrido hortícola Oncidium × Rodriguezia.",
-    "regiao": "Sem distribuição natural; parentais americanos.",
+    "origem": "Híbrido horticultural",
+    "regiao": "Sem distribuição natural · híbrido Oncidium × Rodriguezia",
     "habitat": "Sem habitat natural; comportamento predominantemente epífito.",
     "clima": "Intermediário a quente; úmido e ventilado.",
     "climaFloracao": "Pode florescer após a maturação de novos pseudobulbos, frequentemente mais de uma vez ao ano. Alta luminosidade filtrada, raízes saudáveis e secagem rápida favorecem novas hastes. O replante deve coincidir com a emissão de brotos e raízes novas para evitar longa estagnação.",

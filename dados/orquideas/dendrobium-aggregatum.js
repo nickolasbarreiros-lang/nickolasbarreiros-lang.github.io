@@ -24,8 +24,8 @@ export const dendrobiumAggregatum = {
         "imagens/Dendrobium lindleyi/Dendrobium lindleyi4.jpg"
     ],
     "descricao": "Uma pequena orquídea capaz de produzir um espetáculo enorme! Dendrobium lindleyi forma touceiras compactas de pseudobulbos curtos, cada um geralmente com uma única folha, e na época certa solta cachos pendentes com 5–15 flores amarelo-ouro e perfumadas. As flores medem aproximadamente 2–5 cm e contrastam com o tamanho reduzido da planta. Na natureza vive em regiões de monções: cresce com bastante água no período quente e atravessa uma fase de inverno muito mais seca, mudança que tem papel importante na floração.",
-    "origem": "Himalaia oriental ao Sudeste Asiático.",
-    "regiao": "NE da Índia, sul da China e Indochina.",
+    "origem": "Himalaia e Sudeste Asiático",
+    "regiao": "NE da Índia · sul da China · Indochina",
     "habitat": "Florestas sazonais · epífita · 400–1.300 m.",
     "clima": "Quente a fresco · inverno mais seco e luminoso.",
     "climaFloracao": "A espécie aparece entre aproximadamente 400 e 1.300 m, portanto possui considerável amplitude térmica. IOSPE recomenda inverno mais fresco e seco, mas no litoral quente a parte que pode ser reproduzida com maior segurança é a sazonalidade: pseudobulbos completamente maduros, aumento de luz, forte redução de água e interrupção do nitrogênio. Não é necessário desidratar severamente a planta nem buscar frio artificial extremo.",

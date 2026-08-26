@@ -25,8 +25,8 @@ export const dryadellaLiliputiana = {
         "imagens/Dryadella lilliputiana/Dryadella lilliputiana4.webp"
     ],
     descricao: "Uma verdadeira lilliputiana entre as orquídeas! Esta micro-orquídea forma minúsculas touceiras de folhas estreitas e carnosas, sem pseudobulbos, e produz flores de cerca de 1 cm que parecem enormes quando comparadas ao tamanho da planta. O próprio epíteto lilliputiana faz referência ao seu porte diminuto. É encontrada no Sul e Sudeste do Brasil e também na Bolívia; registros de cultivo e habitat indicam populações em torno de 700 a 1.700 m. Por isso, gosta de ambiente úmido, bem ventilado e de temperaturas intermediárias a frescas, sendo o calor noturno prolongado um dos maiores desafios no litoral.",
-    origem: "Brasil e Bolívia.",
-    regiao: "Sul/Sudeste do Brasil · Bolívia.",
+    origem: "Brasil e Bolívia",
+    regiao: "Sul/Sudeste do Brasil · Bolívia",
     habitat: "Epífita montana · ~700–1.700 m.",
     clima: "Intermediário a fresco · úmido e ventilado.",
     climaFloracao: "IOSPE registra floração no inverno e crescimento quente a fresco ao longo de sua faixa altitudinal. Em cultivo, a combinação mais favorável é touceira madura, umidade do ar alta, raízes oxigenadas e noites mais amenas. Não necessita de repouso seco. No litoral, o verão deve ser manejado reduzindo temperatura radicular e aumentando circulação de ar, não mantendo o substrato permanentemente saturado.",

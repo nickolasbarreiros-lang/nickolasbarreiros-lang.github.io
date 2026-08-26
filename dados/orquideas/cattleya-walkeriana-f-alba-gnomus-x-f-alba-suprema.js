@@ -23,8 +23,8 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
         "imagens/cattleya-walkeriana-alba-gnomus-suprema/cattleya-walkeriana-alba-gnomus-suprema-4.webp"
     ],
     descricao: "Uma combinação especial entre duas walkerianas albas selecionadas! O cruzamento entre os clones ‘Gnomus’ e ‘Suprema’ busca reunir flores brancas, boa forma e o perfume intenso característico de Cattleya walkeriana. Mesmo entre plantas irmãs podem surgir diferenças de tamanho, formato, substância e intensidade do amarelo na garganta, o que torna cada muda única. É uma Cattleya brasileira compacta, mas capaz de produzir flores surpreendentemente grandes em relação à planta. Na natureza, a espécie vive tanto sobre árvores quanto em rochas de regiões sazonalmente secas do Brasil central e Sudeste. Em cultivo, gosta de muita claridade, ventilação e raízes extremamente arejadas, com redução das regas após o amadurecimento dos novos crescimentos.",
-    origem: "Brasil.",
-    regiao: "Centro-Oeste e Sudeste.",
+    origem: "Brasil",
+    regiao: "Centro-Oeste e Sudeste",
     habitat: "Cerrado e matas sazonais · árvores e rochas.",
     clima: "Quente a intermediário · estação mais seca.",
     climaFloracao: "A floração é favorecida por pseudobulbos completamente maduros, luminosidade alta, boa ventilação e uma fase posterior com intervalos maiores entre as regas. A espécie frequentemente produz um crescimento floral especializado, curto e sem folha, originado próximo ao rizoma. Não é necessário impor seca absoluta: o repouso deve ser lido pela atividade das raízes, condição dos pseudobulbos, suporte e clima.",

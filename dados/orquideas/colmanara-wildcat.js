@@ -24,8 +24,8 @@ export const colmanaraWildcat = {
         "imagens/Oncostele Wildcat/Oncostele Wildcat4.jpg"
     ],
     "descricao": "Um dos híbridos pintalgados mais populares do grupo Oncidium! Oncostele Wildcat chama atenção pelas hastes altas, frequentemente ramificadas, carregadas de flores cerosas em combinações de amarelo, vinho, vermelho e castanho. É um grex bastante variável, por isso cultivares diferentes podem apresentar desenhos, cores e tamanhos distintos. Registrado em 1992 a partir de Oncostele Rustic Bridge × Oncidium Crowborough, tornou-se conhecido durante muitos anos pelo antigo nome Colmanara Wildcat.",
-    "origem": "Híbrido horticultural.",
-    "regiao": "Sem ocorrência natural.",
+    "origem": "Híbrido horticultural",
+    "regiao": "Sem ocorrência natural",
     "habitat": "Cultivo em vaso/cesto · raízes finas e aeradas.",
     "clima": "Intermediário a quente · noites amenas favorecem flores.",
     "climaFloracao": "A genética do grex reúne espécies de ambientes montanos e intermediários, mas o híbrido é geralmente mais tolerante que muitos de seus ancestrais. No litoral quente, não é necessário tentar reproduzir clima frio: o objetivo prático é evitar noites permanentemente abafadas, manter ventilação e permitir pequena amplitude térmica quando possível. Pseudobulbos maduros e raízes preservadas são mais importantes que um calendário rígido.",

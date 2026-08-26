@@ -22,8 +22,8 @@ export const dendrobiumMoscatum = {
         "imagens/Dendrobium moschatum/Dendrobium moschatum4.webp"
     ],
     "descricao": "Uma espécie de presença marcante e cultivo bastante versátil! O Dendrobium moschatum é predominantemente epífita na natureza, crescendo sobre troncos em florestas abertas, mas adapta-se muito bem ao cultivo em recipientes amplos quando recebe substrato muito arejado, drenante e rico em matéria orgânica. Produz hastes longas e arqueadas e cachos pendentes de grandes flores amarelas a alaranjadas, geralmente perfumadas, com labelo arredondado e profundo que lembra uma pequena bolsa. Ocorre do Himalaia à Indochina e ao sul da China e aprecia crescimento quente e úmido, seguido de redução moderada das regas após a maturação das hastes.",
-    "origem": "Himalaia ao sul da China e Indochina.",
-    "regiao": "Sul da Ásia e Indochina.",
+    "origem": "Himalaia e Sudeste Asiático",
+    "regiao": "Sul da Ásia · Indochina",
     "habitat": "Predominantemente epífita · troncos em florestas abertas.",
     "clima": "Quente a intermediário · monçônico.",
     "climaFloracao": "Não entra em dormência tão profunda quanto D. lindleyi ou D. loddigesii. O manejo correto é permitir que a haste amadureça completamente antes de reduzir água e nitrogênio. Hastes ainda verdes continuam acumulando reservas; reduzir cedo demais produz estruturas fracas, enquanto manter água e nitrogênio por tempo excessivo favorece crescimento vegetativo em vez de flores.",

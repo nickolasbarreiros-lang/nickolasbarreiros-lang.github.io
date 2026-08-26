@@ -22,8 +22,8 @@ export const brassiaLawrenceana = {
         "imagens/Brassia lawrenceana/Brassia lawrenceana4.webp"
     ],
     descricao: "Brassia lawrenceana é uma clássica orquídea-aranha, valorizada pelas hastes arqueadas e pelas flores elegantes de segmentos estreitos, amarelo-esverdeados e salpicados de castanho a vinho. Cada pseudobulbo maduro pode produzir uma inflorescência com numerosas flores, criando um conjunto leve e muito ornamental. É uma planta vigorosa, de raízes ativas e crescimento relativamente rápido quando recebe boa luminosidade filtrada, bastante ventilação e água regular. O nome Brassia lawrenceana continua comum no cultivo, embora o Kew atualmente o trate como sinônimo de Brassia cochleata.",
-    origem: "Norte da América do Sul.",
-    regiao: "Amazônia e países do norte e oeste sul-americano.",
+    origem: "Norte da América do Sul",
+    regiao: "Amazônia · norte e oeste da América do Sul",
     habitat: "Epífita de florestas úmidas, aproximadamente entre 265 e 1.200 m.",
     clima: "Quente a intermediário, úmido e ventilado.",
     climaFloracao: "A espécie responde bem a temperaturas quentes a intermediárias, com boa luz filtrada e raízes ativas. No litoral quente, adapta-se bem desde que o substrato drene rapidamente e haja circulação de ar. Uma pequena redução de água após a maturação dos pseudobulbos pode acompanhar a menor atividade, sem impor seca severa.",

@@ -22,8 +22,8 @@ export const promenaeaXanthina = {
         "imagens/Promenaea xanthina/Promenaea xanthina4.webp"
     ],
     descricao: "Promenaea xanthina é uma pequena joia brasileira: planta compacta, de pseudobulbos baixos e folhas finas, capaz de produzir flores cerosas proporcionalmente grandes, amarelas e delicadamente perfumadas. As hastes surgem junto à base dos pseudobulbos e normalmente carregam uma ou duas flores que permanecem próximas à folhagem. É uma espécie de aparência delicada, mas bastante vigorosa quando encontra o equilíbrio certo entre umidade, raízes arejadas, luz filtrada e temperaturas não excessivas. Em coleções ainda é amplamente conhecida como Promenaea xanthina, embora o tratamento taxonômico atual do Kew a inclua em Promenaea stapelioides subsp. xanthina.",
-    origem: "Brasil.",
-    regiao: "Leste e Sul do Brasil.",
+    origem: "Brasil",
+    regiao: "Leste e Sul do Brasil",
     habitat: "Epífita de florestas montanas úmidas e protegidas, chegando a cerca de 1.700 m.",
     clima: "Intermediário a fresco, úmido e muito ventilado.",
     climaFloracao: "A floração é favorecida por planta bem estabelecida, noites amenas, umidade constante e luz filtrada. No litoral quente, evite sobretudo o superaquecimento noturno. Após a maturação dos pseudobulbos, uma breve redução nas regas pode ajudar, mas sem transformar o período em repouso seco.",

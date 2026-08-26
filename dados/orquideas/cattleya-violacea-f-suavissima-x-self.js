@@ -22,8 +22,8 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
         "imagens/cattleya-violacea-suavissima-self/cattleya-violacea-suavissima-self-4.jpg"
     ],
     "descricao": "Uma versão delicada de uma das mais belas Cattleyas amazônicas! Esta progênie vem da autofecundação de uma Cattleya violacea selecionada pela coloração muito suave, buscando descendentes em tons claros de rosa, lilás ou quase branco, geralmente com o labelo mais destacado. Como toda reprodução por sementes, cada planta pode apresentar diferenças de cor, forma, perfume e vigor. A espécie produz flores grandes, cerosas e perfumadas e vem de florestas tropicais quentes e úmidas, frequentemente próximas a cursos d’água. Gosta de calor constante, boa umidade e raízes bem ventiladas; no litoral quente, o principal cuidado é equilibrar regas frequentes com secagem rápida do suporte e evitar excesso de sais na água e nos adubos.",
-    "origem": "Seleção horticultural de C. violacea.",
-    "regiao": "Base genética sul-americana.",
+    "origem": "Seleção horticultural",
+    "regiao": "Espécie-base nativa da América do Sul tropical",
     "habitat": "Referência: florestas tropicais úmidas · baixa altitude.",
     "clima": "Quente e úmido · sem seca prolongada.",
     "climaFloracao": "A floração é favorecida por pseudobulbos maduros, noites quentes, luminosidade constante e sistema radicular saudável. A planta não deve ser induzida por frio ou seca intensa. Temperaturas baixas, água muito salina, fertilização concentrada e substrato degradado interrompem o crescimento e reduzem o tamanho e a qualidade das flores. Como se trata de progênie self, o período exato de floração pode variar entre indivíduos.",

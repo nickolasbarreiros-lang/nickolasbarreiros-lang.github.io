@@ -22,8 +22,8 @@ export const bulbophyllumElassonotum = {
         "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum4.jpg"
     ],
     descricao: "Uma miniatura asiática que ganha destaque quando entra em floração! Bulbophyllum elassonotum forma pequenos pseudobulbos sobre um rizoma rastejante e produz racemos que se curvam para baixo, carregados de numerosas flores de cerca de 1 cm em tons amarelo-esverdeados, amarelos ou alaranjados. O contraste entre o tamanho reduzido da planta e a quantidade de pequenas flores torna a espécie especialmente charmosa quando cultivada em touceiras.\n\nNa natureza, ocupa ambientes bastante variados de Assam à Indochina, desde florestas úmidas até formações mais sazonais, com registros de baixas altitudes até cerca de 1.200 m. Essa amplitude mostra que não deve ser encarada simplesmente como uma espécie fria: em cultivo, responde melhor quando recebe umidade regular, raízes bem oxigenadas e circulação constante de ar.",
-    origem: "Assam à Indochina",
-    regiao: "Assam, Myanmar, Tailândia, Camboja e Vietnã",
+    origem: "Sul e Sudeste da Ásia",
+    regiao: "Assam · Myanmar · Tailândia · Camboja · Vietnã",
     habitat: "Florestas sazonais e úmidas · 0–1.200 m",
     clima: "Quente a fresco · ventilado",
     climaFloracao: "A floração natural ocorre no inverno. Como a espécie ocupa desde terras baixas até altitudes intermediárias, não existe uma única exigência térmica universal. No litoral quente, noites um pouco mais amenas no inverno podem atuar como sinal fenológico, mas a planta precisa principalmente chegar à estação com pseudobulbos maduros, raízes funcionais e boa reserva energética.",

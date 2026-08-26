@@ -22,8 +22,8 @@ export const cattleyaViolaceaFFlamea = {
         "imagens/Cattleya violacea f. flamea/Cattleya violacea f. flamea4.webp"
     ],
     "descricao": "Uma Cattleya amazônica de cores vibrantes e presença marcante! A forma flamea de Cattleya violacea chama atenção pelo contraste das pétalas, que ficam mais intensamente coloridas nas pontas, criando um efeito semelhante a pequenas chamas. Suas flores são grandes, cerosas, perfumadas e podem chegar perto de 13 cm. Na natureza, a espécie vive principalmente em florestas tropicais quentes e úmidas, muitas vezes próxima a rios, em altitudes geralmente baixas. Por isso, aprecia calor, boa umidade e ventilação constante, sem um repouso seco rigoroso. No litoral quente, encontra condições favoráveis desde que as raízes recebam bastante ar e nunca permaneçam abafadas ou encharcadas.",
-    "origem": "América do Sul tropical.",
-    "regiao": "Amazônia e norte da América do Sul.",
+    "origem": "América do Sul tropical",
+    "regiao": "Amazônia e norte da América do Sul",
     "habitat": "Florestas úmidas próximas a rios · ~200–700 m.",
     "clima": "Quente e úmido · noites quentes.",
     "climaFloracao": "A floração depende de crescimento contínuo, raízes ativas, noites quentes, umidade atmosférica estável e pseudobulbos plenamente maduros. Não é necessário induzir por frio ou seca severa. Ao contrário, noites frias e desidratação prolongada paralisam raízes e brotos. Uma leve redução de água pode ocorrer apenas quando a evaporação diminui, sem permitir que o sistema radicular seque por vários dias. Em regiões quentes, a ventilação evita que a combinação de calor e umidade resulte em podridão.",

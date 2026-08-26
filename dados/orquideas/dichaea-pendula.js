@@ -24,8 +24,8 @@ export const dichaeaPendula = {
         "imagens/Dichaea pendula/Dichaea pendula4.webp"
     ],
     descricao: "Uma orquídea de aspecto leve e elegante, com hastes que se arqueiam e pendem como pequenas cortinas verdes. Dichaea pendula cresce sem pseudobulbos, formando ramos achatados e revestidos por folhas finas dispostas em duas fileiras. Ao longo dessas hastes surgem flores solitárias de aproximadamente 2 cm, relativamente grandes para a delicadeza da planta. Sua ampla distribuição pela América tropical inclui populações de florestas muito úmidas e montanas, por isso aprecia umidade constante e ar em movimento, mas não gosta de calor abafado. No litoral quente, o segredo é manter as raízes hidratadas sem deixar água presa entre as folhas durante a noite.",
-    origem: "América tropical.",
-    regiao: "Caribe, América Central e América do Sul.",
+    origem: "América Tropical",
+    regiao: "Caribe · América Central · América do Sul",
     habitat: "Florestas úmidas montanas · ~1.200–2.500 m.",
     clima: "Intermediário a fresco · muito úmido e ventilado.",
     climaFloracao: "A espécie é associada a florestas úmidas de altitude e tende a responder melhor quando recebe noites mais amenas, alta umidade atmosférica e pouca oscilação hídrica. IOSPE registra floração na primavera e no verão. No litoral quente, a indução floral pode ser favorecida pelo período mais ameno do ano, desde que a planta continue ativa e hidratada. Não possui repouso seco verdadeiro.",

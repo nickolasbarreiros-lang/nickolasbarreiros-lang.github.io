@@ -25,8 +25,8 @@ export const stanhopeaGuttulata = {
         "imagens/Stanhopea guttulata/Stanhopea guttulata4.jpg"
     ],
     "descricao": "Uma das Stanhopea brasileiras mais marcantes, Stanhopea guttulata chama atenção pelas flores grandes, cerosas, muito perfumadas e salpicadas de castanho a vinho sobre fundo claro. É nativa do Sudeste do Brasil e vive como epífita em florestas tropicais úmidas. Suas grandes folhas plissadas formam uma touceira elegante, mas a surpresa acontece por baixo: as hastes florais crescem para baixo e atravessam o substrato. Por isso, uma cesta suspensa e vazada faz parte do próprio cultivo da espécie e permite que suas espetaculares flores se desenvolvam livremente.",
-    "origem": "Brasil.",
-    "regiao": "Sudeste do Brasil.",
+    "origem": "Brasil",
+    "regiao": "Sudeste do Brasil",
     "habitat": "Floresta tropical úmida; epífita.",
     "clima": "Úmido, sombreado e ventilado.",
     "climaFloracao": "A floração depende de pseudobulbos bem formados, umidade regular, noites amenas e espaço físico para a haste geotrópica. Não necessita de repouso seco severo. Após a maturação, reduza apenas discretamente a água. Touceiras grandes e centralizadas no cesto tendem a produzir hastes mais vigorosas e com trajeto mais previsível.",

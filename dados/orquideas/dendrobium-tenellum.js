@@ -25,8 +25,8 @@ export const dendrobiumTenellum = {
         "imagens/Dendrobium tenellum/Dendrobium tenellum4.webp"
     ],
     "descricao": "Uma espécie incomum de Java, com aparência muito diferente dos Dendrobium mais conhecidos. O Dendrobium tenellum desenvolve caules eretos e estreitos, com numerosas folhas finas, e produz pequenas flores claras de aproximadamente 1 a 1,2 cm. Na natureza ocorre em florestas montanas úmidas ou sazonalmente mais secas, entre cerca de 1.500 e 2.200 m. Essa altitude é a chave para entendê-la: prefere condições frescas a frias e noites bem mais amenas, tornando o calor noturno contínuo o principal desafio de cultivo no litoral.",
-    "origem": "Java, Indonésia.",
-    "regiao": "Montanhas de Java · 1.500–2.200 m.",
+    "origem": "Indonésia",
+    "regiao": "Java · 1.500–2.200 m",
     "habitat": "Florestas montanas úmidas a sazonais.",
     "clima": "Fresco a frio · noites amenas.",
     "climaFloracao": "A indução floral é favorecida por hastes maduras, luz filtrada forte, noites mais frescas e redução de água e adubação no inverno. A planta não precisa de seca absoluta. Durante o descanso, mantenha umidade ambiental e intervenha apenas se as hastes começarem a enrugar excessivamente.",

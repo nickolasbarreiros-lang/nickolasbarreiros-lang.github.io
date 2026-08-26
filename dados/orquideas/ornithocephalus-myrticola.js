@@ -21,8 +21,8 @@ export const ornithocephalusMyrticola = {
         "imagens/Ornithocephalus myrticola/Ornithocephalus myrticola4.jpg"
     ],
     "descricao": "Uma miniatura brasileira de aparência muito diferente das orquídeas mais conhecidas. Ornithocephalus myrticola cresce em pequenos leques de folhas achatadas, sem pseudobulbos, e produz hastes de 4–8 cm que podem carregar até cerca de 15 flores claras de aproximadamente 1 cm. Um detalhe delicioso é o perfume, descrito como lembrando limão. A espécie aparece desde baixadas quentes e savanas mais secas até florestas montanas frescas e úmidas, mostrando uma amplitude climática bem maior do que seu aspecto delicado sugere.",
-    "origem": "Brasil.",
-    "regiao": "Centro-Oeste, Sudeste e Sul do Brasil.",
+    "origem": "Brasil",
+    "regiao": "Centro-Oeste, Sudeste e Sul do Brasil",
     "habitat": "Matas montanas a baixadas e savanas.",
     "clima": "Quente a fresco · boa umidade e ar.",
     "climaFloracao": "Cresce continuamente quando recebe umidade estável, boa ventilação e temperatura moderada. Não precisa de repouso seco. Plantas bem estabelecidas podem emitir várias hastes, criando pequenas nuvens de flores microscópicas. Calor noturno, ar parado e água retida no centro do leque interrompem rapidamente o crescimento.",

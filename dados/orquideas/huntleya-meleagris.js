@@ -15,8 +15,8 @@ export const huntleyaMeleagris = {
         "imagens/Huntleya meleagris/Huntleya meleagris4.webp"
     ],
     descricao: "Uma orquídea de aparência tropical e flor surpreendentemente grande! Huntleya meleagris cresce em forma de leques de folhas largas e não possui pseudobulbos, por isso depende de umidade mais constante do que muitas orquídeas de cultivo comum. De cada crescimento pode surgir uma haste curta com uma única flor cerosa, muito perfumada e variável, capaz de chegar a cerca de 12 cm. Na natureza vive em florestas úmidas entre aproximadamente 600 e 1.300 m, faixa que explica sua preferência por ambiente fresco, sombreado e bem ventilado mesmo quando cultivada em regiões quentes.",
-    origem: "Trinidad ao norte e centro da América do Sul.",
-    regiao: "América do Sul tropical · Brasil incluído.",
+    origem: "América do Sul tropical",
+    regiao: "Trinidad · norte e centro da América do Sul (incl. Brasil)",
     habitat: "Florestas úmidas · 600–1.300 m.",
     clima: "Intermediário · úmido e muito ventilado.",
     climaFloracao: "A amplitude altitudinal mostra que a espécie tolera condições de frescas a relativamente quentes, mas não significa que suporte calor noturno abafado. No litoral, o desafio é reproduzir o frescor e a umidade do interior da floresta sem manter as raízes sem oxigênio. Crescimento contínuo, água de baixa salinidade e noites um pouco mais amenas favorecem a formação de flores. Não possui repouso seco.",

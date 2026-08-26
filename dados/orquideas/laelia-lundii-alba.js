@@ -21,8 +21,8 @@ export const laeliaLundiiAlba = {
         "imagens/Cattleya lundii f. alba/Cattleya lundii f. alba4.jpg"
     ],
     descricao: "Uma versão especialmente delicada de uma das menores Cattleyas sul-americanas. A forma alba de Cattleya lundii conserva o porte miniatura, as folhas estreitas e quase cilíndricas e o hábito de formar pequenas touceiras, mas se destaca pelas flores muito claras, brancas a branco-esverdeadas, sem a forte pigmentação púrpura típica da espécie. As flores medem cerca de 3 a 4 cm e ficam ainda mais vistosas quando várias frentes maduras florescem juntas.",
-    origem: "América do Sul.",
-    regiao: "Forma clara de C. lundii · Brasil e região.",
+    origem: "América do Sul",
+    regiao: "Forma clara de C. lundii · Brasil e região",
     habitat: "Como a espécie · 740–1.000 m · epífita/rupícola.",
     clima: "Quente a intermediário · bem ventilado.",
     climaFloracao: "O manejo é o mesmo da espécie: crescimento ativo com água regular, raízes bem oxigenadas e luz alta filtrada, seguido de redução discreta da água quando a atividade diminui. A coloração alba não significa necessidade de sombra profunda. Touceiras adultas acumulam mais reservas e podem produzir várias flores claras simultaneamente.",

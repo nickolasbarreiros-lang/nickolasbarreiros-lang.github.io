@@ -22,8 +22,8 @@ export const miltoniaRusselliana = {
         "imagens/Miltonia russelliana/Miltonia russelliana4.jpg"
     ],
     descricao: "Miltonia russelliana é uma espécie brasileira de beleza mais sutil do que as Miltonia de flores muito abertas. Forma pseudobulbos compactos, verde-oliva, com duas folhas estreitas no ápice, e produz hastes arqueadas que podem chegar a cerca de 60 cm, carregando várias flores. Sépalas e pétalas permanecem relativamente fechadas ao redor da coluna, enquanto o labelo mais claro e marcado em púrpura aparece como ponto de contraste. É uma orquídea elegante para quem aprecia espécies botânicas menos óbvias, e costuma responder muito bem quando cultivada com boa umidade, luz filtrada e bastante movimento de ar.",
-    origem: "Brasil.",
-    regiao: "Sudeste e Sul do Brasil.",
+    origem: "Brasil",
+    regiao: "Sudeste e Sul do Brasil",
     habitat: "Epífita de florestas úmidas e áreas ripárias, em ambiente ventilado.",
     clima: "Intermediário a ameno, úmido e ventilado.",
     climaFloracao: "A espécie floresce principalmente no outono e inverno. No litoral quente, noites um pouco mais frescas ajudam bastante, mas o fator decisivo é manter raízes ativas, boa ventilação e luminosidade suficiente sem superaquecer as folhas.",

@@ -20,8 +20,8 @@ export const maxillariaChrysantha = {
         "imagens/Maxillaria chrysantha/Maxillaria chrysantha4.jpeg"
     ],
     descricao: "Uma Maxillaria brasileira que chama atenção pela cor: suas flores amarelo-ouro podem chegar a cerca de 5 cm e ainda apresentam perfume adocicado. É uma espécie de áreas serranas, encontrada em torno de 1.400 m, onde recebe umidade frequente, ar em movimento e noites naturalmente mais frescas. Por isso, cresce muito bem em regiões de altitude e exige mais atenção no litoral quente, sobretudo durante noites abafadas.",
-    origem: "Brasil.",
-    regiao: "Sul do Brasil · áreas serranas.",
+    origem: "Brasil",
+    regiao: "Sul do Brasil · áreas serranas",
     habitat: "Epífita montana · cerca de 1.400 m.",
     clima: "Intermediário a fresco · noites amenas.",
     climaFloracao: "IOSPE registra a espécie em torno de 1.400 m, com crescimento fresco e floração no inverno brasileiro. A maturação dos pseudobulbos sob boa luz filtrada, seguida por noites mais amenas, favorece a emissão floral. Isso não significa exigir frio extremo nem seca severa: a planta continua precisando de raízes hidratadas e oxigenadas, apenas com menor frequência de rega quando a evaporação cai.",

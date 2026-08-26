@@ -25,8 +25,8 @@ export const phaiusTankervilleaeAlba = {
         "imagens/Phaius tankervilleae alba/Phaius tankervilleae alba4.webp"
     ],
     "descricao": "Uma gigante elegante entre as orquídeas terrestres! Esta forma alba chama atenção pelas folhas largas e plissadas e pelas hastes altas, que podem ultrapassar 1 metro e carregar flores grandes, claras e muito vistosas. No habitat, a espécie aparece em áreas úmidas, baixadas e florestas montanas de grande parte da Ásia tropical e subtropical até o Pacífico. É uma planta vigorosa, que responde muito bem quando recebe espaço para as raízes, água regular e nutrição constante durante a fase de crescimento. As flores podem alcançar cerca de 11,5 cm e a forma clara perde grande parte da pigmentação púrpura típica, destacando tons creme, branco e amarelo-esverdeado.",
-    "origem": "Ásia tropical/subtropical ao Pacífico.",
-    "regiao": "Ásia oriental e Sudeste Asiático · Pacífico.",
+    "origem": "Ásia tropical/subtropical ao Pacífico",
+    "regiao": "Ásia oriental e Sudeste Asiático · Pacífico",
     "habitat": "Baixadas úmidas e matas · até ~1.300 m.",
     "clima": "Quente a ameno · úmido · meia-sombra.",
     "climaFloracao": "A floração depende principalmente de pseudobulbos maduros e bem abastecidos após um longo período de crescimento ativo. Durante a formação de folhas e pseudobulbos, água e nutrição não devem faltar. Com a maturação, reduza apenas moderadamente adubo e rega conforme a evaporação cair; não imponha repouso seco severo. No litoral quente, a espécie costuma vegetar muito bem, desde que o substrato permaneça úmido sem ficar compacto ou anaeróbico.",

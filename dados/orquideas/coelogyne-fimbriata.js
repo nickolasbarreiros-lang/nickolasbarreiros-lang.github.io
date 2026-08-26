@@ -25,8 +25,8 @@ export const coelogyneFimbriata = {
         "imagens/Coelogyne fimbriata/Coelogyne fimbriata4.jpeg"
     ],
     "descricao": "Pequena nas flores, mas enorme na vontade de se espalhar! Coelogyne fimbriata cresce horizontalmente por um rizoma longo, formando aos poucos verdadeiras colônias sobre troncos e rochas. Seus pequenos pseudobulbos carregam duas folhas, enquanto as flores verde-amareladas chamam atenção pelo labelo marcado de castanho e pelas delicadas bordas franjadas — característica que inspira o nome fimbriata. É uma espécie bastante adaptável quando recebe espaço para o rizoma avançar, umidade regular e muita aeração. Em vez de vaso profundo, prefere superfícies largas, cestos rasos ou placas onde possa crescer livremente.",
-    "origem": "Himalaia ao sul da China e Indochina.",
-    "regiao": "Nepal, sul da China e Indochina.",
+    "origem": "Himalaia e Sudeste Asiático",
+    "regiao": "Nepal · sul da China · Indochina",
     "habitat": "Florestas úmidas · troncos e rochas musgosas.",
     "clima": "Intermediário · úmido e ventilado.",
     "climaFloracao": "A floração ocorre após a maturação dos pseudobulbos e é favorecida por luz filtrada brilhante, umidade regular e leve redução de água no fim do ciclo. Ao contrário de Coelogyne cristata, não exige frio intenso nem seca prolongada. O rizoma precisa avançar livremente e acumular vários pseudobulbos, pois colônias adultas florescem com maior constância que pequenas divisões.",

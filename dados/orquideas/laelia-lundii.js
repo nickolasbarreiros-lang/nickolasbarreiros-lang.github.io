@@ -21,8 +21,8 @@ export const laeliaLundii = {
         "imagens/Cattleya lundii/Cattleya lundii4.jpg"
     ],
     descricao: "Pequena no tamanho, mas cheia de personalidade! Cattleya lundii forma touceiras compactas de pseudobulbos curtos, cada um normalmente com duas folhas estreitas e quase cilíndricas. Suas flores, de cerca de 3 a 4 cm, aparecem entre as folhas em tons claros de branco a creme, com o labelo marcado por rosa, magenta ou púrpura e perfume floral delicado. Na natureza cresce tanto sobre árvores quanto em rochas, o que ajuda a explicar sua preferência por raízes muito arejadas, boa luz e secagem rápida entre as regas.",
-    origem: "América do Sul.",
-    regiao: "Brasil, Bolívia, Paraguai e N da Argentina.",
+    origem: "América do Sul",
+    regiao: "Brasil, Bolívia, Paraguai e N da Argentina",
     habitat: "Matas sazonais/montanas · 740–1.000 m.",
     clima: "Quente a intermediário · bem ventilado.",
     climaFloracao: "A floração melhora quando os novos pseudobulbos amadurecem sob luz alta filtrada, boa circulação de ar e raízes ativas. O habitat sazonal justifica uma redução natural da água quando o crescimento desacelera, mas não um repouso seco rígido. Em litoral quente, a prioridade é evitar raízes abafadas e noites excessivamente quentes e úmidas; touceiras adultas e pouco divididas acumulam mais reservas e tendem a florir com maior regularidade.",

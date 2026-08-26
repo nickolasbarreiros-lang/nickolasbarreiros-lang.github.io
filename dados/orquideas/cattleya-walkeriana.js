@@ -25,8 +25,8 @@ export const cattleyaWalkeriana = {
         "imagens/Cattleya walkeriana/Cattleya walkeriana4.webp"
     ],
     "descricao": "Uma das Cattleyas brasileiras mais admiradas no mundo! Cattleya walkeriana combina porte compacto com flores enormes, cerosas e intensamente perfumadas, criando um contraste impressionante entre o tamanho da planta e sua floração. Uma de suas curiosidades é que as flores frequentemente surgem de um pequeno crescimento próprio, sem folha, próximo ao rizoma. Nativa do Centro-Oeste e Sudeste do Brasil, vive sobre árvores e também em rochas de ambientes com estação seca bem marcada. Essa origem explica seu gosto por muita claridade, excelente ventilação e raízes que molham bem, mas secam rapidamente. No litoral quente, o excesso de umidade parada costuma ser mais perigoso do que o calor: suporte arejado e redução das regas após a maturação são fundamentais para uma boa floração.",
-    "origem": "Brasil.",
-    "regiao": "Centro-Oeste e Sudeste.",
+    "origem": "Brasil",
+    "regiao": "Centro-Oeste e Sudeste",
     "habitat": "Cerrado e matas sazonais · epífita ou rupícola.",
     "clima": "Quente a intermediário · sazonal e ventilado.",
     "climaFloracao": "A floração depende de pseudobulbos completamente maduros, folhas firmes, raízes preservadas, luz elevada e redução gradual das regas após o crescimento. A espécie não deve ser tratada como permanentemente seca: durante brotação e enraizamento precisa de água abundante e nutrição leve. Quando as pontas radiculares reduzem a atividade e os pseudobulbos estão cheios, aumentam-se os intervalos e suspende-se a adubação forte. Pouca luz, excesso de nitrogênio e raízes danificadas reduzem a formação do broto floral.",

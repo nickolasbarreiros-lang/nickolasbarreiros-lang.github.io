@@ -22,8 +22,8 @@ export const dendrobiumLoddigesii = {
         "imagens/Dendrobium loddigesii/Dendrobium loddigesii4.jpeg"
     ],
     "descricao": "Uma pequena joia pendente das florestas asiáticas! O Dendrobium loddigesii forma delicadas hastes articuladas que caem naturalmente e, na época certa, se cobrem de flores lilases com labelo franjado e centro amarelo-alaranjado. É nativo do sul da China e da Indochina, onde vive em florestas úmidas e musgosas, geralmente entre 1.000 e 1.500 m. Seu grande segredo é respeitar a sazonalidade: cresce com água e alimento na estação quente e responde melhor à floração quando as hastes maduras recebem um inverno mais seco, claro e com noites amenas.",
-    "origem": "Sul da China e Indochina.",
-    "regiao": "China meridional à Indochina.",
+    "origem": "Sul da China e Indochina",
+    "regiao": "Sul da China · Indochina",
     "habitat": "Florestas musgosas · 1.000–1.500 m.",
     "clima": "Fresco a intermediário · sazonal.",
     "climaFloracao": "A haste deve completar totalmente o alongamento e endurecer antes do repouso. Depois, alta luminosidade, noites mais amenas, redução da água e suspensão do nitrogênio induzem os botões. Hastes ainda verdes ou em crescimento raramente florescem bem no ciclo seguinte.",

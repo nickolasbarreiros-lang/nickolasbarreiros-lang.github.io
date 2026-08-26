@@ -17,8 +17,8 @@ export const bulbophyllumSikkimense = {
         "imagens/Bulbophyllum sikkimense/Bulbophyllum sikkimense4.webp"
     ],
     descricao: "Uma pequena joia dos contrafortes do Himalaia! A planta tradicionalmente conhecida como *Bulbophyllum sikkimense* forma pseudobulbos pequenos e produz, na primavera, hastes curtas terminadas em um delicado buquê de aproximadamente **10 a 12 flores**, cada uma com cerca de **2 cm**. Apesar da associação do nome com Sikkim e suas montanhas, registros históricos situam essas plantas por volta de **300–500 m**, em condições quentes a intermediárias — bem longe de um ambiente alpino. Hoje o nome é incluído em *Bulbophyllum roxburghii*, mas continua muito utilizado em coleções e é útil para reconhecer esse aspecto particular da planta.",
-    origem: "Himalaia Oriental.",
-    regiao: "Sikkim · E Himalaia.",
+    origem: "Himalaia Oriental",
+    regiao: "Sikkim · E Himalaia",
     habitat: "Contrafortes florestais · 300–500 m.",
     clima: "Quente a intermediário.",
     climaFloracao: "A altitude baixa a moderada dos exemplares historicamente chamados B. sikkimense mostra que não se trata de orquídea alpina. IOSPE a classifica de quente a intermediária e registra floração na primavera. No litoral quente, o manejo deve priorizar ventilação, maturação dos pseudobulbos e boa luz filtrada; não há justificativa ecológica para frio intenso ou repouso seco severo.",

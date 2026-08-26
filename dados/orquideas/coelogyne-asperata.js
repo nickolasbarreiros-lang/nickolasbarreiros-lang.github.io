@@ -25,8 +25,8 @@ export const coelogyneAsperata = {
         "imagens/Coelogyne asperata/Coelogyne asperata4.webp"
     ],
     "descricao": "Uma Coelogyne de presença imponente! Coelogyne asperata é uma espécie tropical de grande porte, com pseudobulbos robustos, folhas largas e plissadas e um rizoma vigoroso que, com o tempo, forma touceiras realmente grandes. Suas hastes arqueadas ou pendentes exibem flores creme a amarelo-pálido, geralmente perfumadas, com um labelo muito ornamentado em amarelo, castanho e alaranjado. Originária das florestas úmidas da Malesia ao Pacífico ocidental, ela gosta de calor e umidade e não precisa do inverno frio e seco exigido por algumas Coelogynes do Himalaia — característica que a torna especialmente interessante para regiões de clima quente.",
-    "origem": "Malesia ao Pacífico ocidental.",
-    "regiao": "Bornéu à Nova Guiné e Ilhas Salomão.",
+    "origem": "Malesia e Pacífico ocidental",
+    "regiao": "Bornéu · Nova Guiné · Ilhas Salomão",
     "habitat": "Florestas tropicais úmidas · epífita.",
     "clima": "Quente e úmido · sem repouso seco.",
     "climaFloracao": "A floração depende de touceira bem estabelecida, pseudobulbos maduros, calor estável, luminosidade filtrada e umidade contínua nas raízes. Não imponha o repouso seco usado em espécies de altitude. Após a maturação, reduza apenas discretamente as regas. Touceiras grandes florescem melhor porque acumulam mais reservas e produzem vários brotos simultaneamente. Temperaturas abaixo de 14 °C podem paralisar crescimento, enraizamento e formação de hastes.",

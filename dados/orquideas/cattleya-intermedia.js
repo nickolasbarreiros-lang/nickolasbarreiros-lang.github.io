@@ -23,8 +23,8 @@ export const cattleyaIntermedia = {
         "imagens/Cattleya intermedia/Cattleya intermedia4.jpg"
     ],
     descricao: "Uma das Cattleyas brasileiras mais queridas e versáteis, Cattleya intermedia combina elegância, rusticidade e uma extraordinária variedade de flores. De porte médio e crescimento bifoliado, forma belas touceiras e produz hastes com várias flores perfumadas, geralmente em tons de branco, rosa ou lilás, realçadas por um labelo de coloração mais intensa. É também uma verdadeira campeã de diversidade: ao longo do cultivo foram selecionadas inúmeras formas de cor e desenho, incluindo alba, coerulea, orlata, vinicolor, flamea e as famosas formas aquinii. Essa variabilidade, somada à boa adaptação ao calor e à umidade, ajuda a explicar por que a espécie se tornou tão importante e popular na orquidofilia brasileira.",
-    origem: "Brasil e Paraguai",
-    regiao: "Sudeste/Sul do Brasil ao Paraguai",
+    origem: "América do Sul",
+    regiao: "Sudeste e Sul do Brasil · Paraguai",
     habitat: "Restingas, matas abertas e ambientes sazonais",
     clima: "Quente a intermediário · muito adaptável",
     climaFloracao: "A floração depende sobretudo da maturação completa de pseudobulbos robustos sob boa luminosidade. Cattleya intermedia não necessita de repouso seco rigoroso: após o amadurecimento do crescimento, ajuste as regas à temperatura, ventilação e velocidade de secagem. Touceiras adultas com várias frentes acumulam mais reservas e podem produzir diversas inflorescências simultaneamente.",

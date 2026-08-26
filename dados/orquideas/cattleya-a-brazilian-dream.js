@@ -21,8 +21,8 @@ export const cattleyaABrazilianDream = {
         "imagens/Cattleya A Brazilian Dream/Cattleya A Brazilian Dream4.jpg"
     ],
     descricao: "Um encontro entre duas Cattleyas brasileiras muito diferentes — e justamente aí está o charme de *Cattleya A Brazilian Dream*. O híbrido reúne *Cattleya nobilior* e *Cattleya loddigesii*, combinando a rusticidade e preferência por muita luz da primeira com a maior afinidade por ambientes úmidos da segunda. O resultado pode variar bastante de uma planta para outra: porte, tonalidade, formato das flores, perfume e até época de floração podem mudar entre seedlings. Registrado em 2019, é um híbrido relativamente recente e especialmente interessante para quem gosta de observar como características dos dois parentais aparecem em cada indivíduo. No cultivo, essa variabilidade também importa: em vez de copiar rigidamente o manejo de um dos pais, vale observar raízes e crescimento e encontrar o equilíbrio entre boa luminosidade, muita aeração e regas generosas enquanto a planta está ativa.",
-    origem: "Híbrido hortícola.",
-    regiao: "Grex registrado em 2019 · sem distribuição natural.",
+    origem: "Híbrido horticultural",
+    regiao: "Sem distribuição natural · grex registrado em 2019",
     habitat: "Não ocorre na natureza · ecologia derivada dos parentais.",
     clima: "Quente a intermediário · luminoso e ventilado.",
     climaFloracao: "A floração deve ser interpretada a partir do ciclo do clone, e não de um calendário rígido. O botão é consequência de pseudobulbos bem formados, luz adequada, reservas suficientes e raízes saudáveis. A influência de C. nobilior justifica maior secagem após a maturação, mas C. loddigesii torna inadequado copiar automaticamente um repouso extremamente seco. O intervalo deve aumentar somente quando a atividade radicular realmente diminuir.",

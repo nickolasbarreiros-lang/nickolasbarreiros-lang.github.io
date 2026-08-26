@@ -9,8 +9,8 @@ export const anathallisSclerophylla = {
     tipo: "Espécie botânica epífita neotropical",
     sinonimo: "Pleurothallis sclerophylla",
     dificuldade: "Moderada",
-    origem: "América Tropical.",
-    regiao: "Do México e América Central à América do Sul, incluindo o Brasil.",
+    origem: "América Tropical",
+    regiao: "México · América Central · América do Sul (incl. Brasil)",
     habitat: "Epífita de florestas úmidas e nebulosas, cerca de 480–3.100 m.",
     clima: "Intermediário a fresco, úmido e muito ventilado.",
     descricao: "Anathallis sclerophylla é uma pequena orquídea de aparência elegante, marcada por folhas firmes e coriáceas e por hastes florais finas que se elevam muito acima da folhagem. Quando adulta, pode produzir racemos longos com numerosas flores claras abertas ao mesmo tempo, criando um efeito delicado e bastante ornamental. As flores, em tons esbranquiçados a creme, possuem sépalas estreitas e alongadas e podem apresentar fragrância. Apesar do porte discreto, é uma espécie de ampla distribuição e grande amplitude altitudinal, encontrada desde ambientes relativamente quentes até florestas montanas e nebulosas.",
@@ -213,6 +213,6 @@ export const anathallisSclerophylla = {
         litoral: { texto: "A ampla distribuição mostra tolerância térmica considerável, mas no litoral quente é importante manter sombra clara, umidade atmosférica alta e ventilação constante. Noites muito quentes associadas a ar parado são o principal ponto de atenção." },
         montanha: { texto: "Noites frescas, alta umidade e boa circulação de ar se aproximam bastante das condições montanas e de floresta nebulosa registradas para a espécie." }
     },
-    dica: "🏆 O segredo de seu cultivo é reproduzir uma floresta úmida sem transformar o vaso em um pântano: mantenha as raízes hidratadas, mas com ar circulando constantemente para seca-las rápido. Uma montagem com pequena quantidade de esfagno ou um vaso pequeno e muito aerado costuma funcionar melhor que recipientes profundos e compactos.",
+    dica: "🏆 O segredo é reproduzir uma floresta úmida sem transformar o vaso em um pântano: mantenha as raízes hidratadas, mas com ar circulando constantemente. Uma montagem com pequena quantidade de esfagno ou um vaso pequeno e muito aerado costuma funcionar melhor que recipientes profundos e compactos.",
 
     };

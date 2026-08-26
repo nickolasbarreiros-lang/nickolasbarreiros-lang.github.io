@@ -26,8 +26,8 @@ export const cattleyaChocolateDrop = {
         "imagens/Cattlianthe Chocolate Drop/Cattlianthe Chocolate Drop4.jpg"
     ],
     "descricao": "Cattlianthe Chocolate Drop é daqueles híbridos que fazem jus ao nome: suas flores cerosas aparecem em cachos vistosos e podem variar do alaranjado e vermelho queimado a tons vinho e chocolate, criando um efeito especialmente intenso sob boa luminosidade. A planta é vigorosa, de crescimento ereto e geralmente bifoliado, formando rapidamente uma touceira robusta quando dispõe de raízes bem arejadas. Herdou de Cattleya guttata o caráter multifloro e a textura firme das flores, enquanto Guarianthe aurantiaca contribui com rusticidade e cores quentes. Essa combinação ajuda a explicar por que é um híbrido resistente e generoso na floração, muito interessante para ambientes quentes e luminosos.",
-    "origem": "Híbrido hortícola · Stewart Inc., 1965",
-    "regiao": "Parentais: Brasil + México/América Central",
+    "origem": "Híbrido horticultural",
+    "regiao": "Sem distribuição natural · parentais com origem no Brasil e México/América Central",
     "habitat": "Sem habitat natural · cultivo luminoso e ventilado",
     "clima": "Quente a intermediário · alta luz",
     "climaFloracao": "A floração depende da maturação completa do pseudobulbo, boa exposição luminosa e redução moderada do nitrogênio após o crescimento. Luz alta melhora a compactação dos cachos, a firmeza das hastes e a intensidade das cores. A genética define a tonalidade básica, mas sombra excessiva produz flores menos intensas e crescimento mais alongado. Não exige repouso seco severo; apenas maior intervalo entre regas após a maturação.",

@@ -15,8 +15,8 @@ export const isochilusLinearis = {
         "imagens/Isochilus linearis/isochilus linearis4.jpg"
     ],
     descricao: "À primeira vista, parece quase uma pequena touceira de capim — até que as pontas dos caules se enchem de flores! Isochilus linearis forma touceiras densas, com caules finos, agrupados, eretos a arqueados e sem pseudobulbos. As folhas são estreitas, lineares a lanceoladas, distribuídas ao longo dos caules. É predominantemente epífita ou rupícola, habitando florestas tropicais úmidas; algumas referências também registram ocorrência terrestre. As inflorescências são curtas e terminais, reunindo pequenas flores tubulares, geralmente orientadas para o mesmo lado. A coloração é frequentemente rosada a violácea, mas pode variar entre populações. As flores apresentam forte tendência à autopolinização e à cleistogamia, podendo permanecer pouco abertas. A espécie possui distribuição extremamente ampla, do México a grande parte da América tropical, inclusive no Brasil, e ocorre desde altitudes relativamente baixas até montanhas elevadas, o que ajuda a explicar a grande variação de resposta à temperatura em cultivo.",
-    origem: "México à América tropical.",
-    regiao: "Caribe, América Central e América do Sul.",
+    origem: "América Tropical",
+    regiao: "Caribe · América Central · América do Sul",
     habitat: "Florestas tropicais úmidas · hábito principalmente epífito ou rupícola · 300–3.900 m.",
     clima: "Intermediário a quente · ampla tolerância.",
     climaFloracao: "A faixa altitudinal documentada é excepcionalmente ampla, de cerca de 300 a 3.900 m, mas muitas coletas concentram-se aproximadamente entre 600 e 1.200 m. Por isso não é correto classificar toda a espécie como fria ou quente. No litoral, trabalhe com o comportamento intermediário: luz filtrada, boa ventilação e umidade regular, especialmente porque os caules não possuem grande reserva de água. Não necessita repouso seco.",

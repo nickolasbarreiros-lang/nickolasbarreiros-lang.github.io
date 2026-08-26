@@ -25,8 +25,8 @@ export const coelogyneCristata = {
         "imagens/Coelogyne cristata/Coelogyne cristata4.webp"
     ],
     "descricao": "Uma das Coelogynes mais espetaculares — e também uma das que mais sentem o calor! Coelogyne cristata forma touceiras de pseudobulbos arredondados e produz elegantes cachos pendentes de grandes flores brancas, destacadas pelas cristas amarelo-ouro do labelo. É uma orquídea das montanhas do Himalaia, onde passa por verões úmidos e amenos e depois por um inverno muito mais frio e seco. Esse contraste explica seu principal desafio no litoral quente: a planta pode crescer bem, mas a floração depende de noites realmente mais frescas e de uma redução natural das regas após a maturação dos pseudobulbos.",
-    "origem": "Himalaia.",
-    "regiao": "Nepal, Índia, Tibet e Bangladesh.",
+    "origem": "Himalaia",
+    "regiao": "Nepal · Índia · Tibete · Bangladesh",
     "habitat": "Montanhas úmidas · inverno frio e seco.",
     "clima": "Fresco a frio · noites frias essenciais.",
     "climaFloracao": "A indução floral depende da combinação de noites frias, luz mais intensa e redução progressiva de água após a maturação dos pseudobulbos. A seca isolada, sem frio, geralmente não produz botões. No outono, reduza gradualmente as regas; no inverno, mantenha quase seca e suspenda a adubação. Irrigue apenas o suficiente para impedir desidratação extrema. Quando os botões se tornam evidentes, retome a água com cautela, evitando encharcar raízes ainda frias.",

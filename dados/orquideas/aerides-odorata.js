@@ -21,8 +21,8 @@ export const aeridesOdorata = {
         "imagens/Aerides odorata/Aerides odorata4.jpg"
     ],
     descricao: "Aerides odorata é uma elegante orquídea asiática que combina folhagem robusta com cachos pendentes de flores delicadas e intensamente perfumadas. Suas folhas são espessas e coriáceas, enquanto as inflorescências surgem carregadas de numerosas flores claras, geralmente brancas a rosadas, com detalhes púrpura. O perfume é uma de suas grandes atrações e combina perfeitamente com o nome da espécie. Acostumada a crescer sobre árvores com as raízes expostas, aprecia calor, umidade elevada, bastante circulação de ar e luz filtrada intensa.",
-    origem: "Ásia Tropical.",
-    regiao: "Himalaia, sul da China, Sudeste Asiático e Malesia.",
+    origem: "Ásia Tropical",
+    regiao: "Himalaia · sul da China · Sudeste Asiático · Malesia",
     habitat: "Epífita de florestas tropicais úmidas, com raízes expostas.",
     clima: "Quente a intermediário, úmido e muito ventilado.",
     climaFloracao: "Floresce melhor quando adulta, bem iluminada e com raízes ativas. Não necessita frio intenso para indução floral. No litoral quente encontra condições muito favoráveis, desde que receba forte ventilação e as raízes sequem rapidamente após as regas.",

@@ -21,8 +21,8 @@ export const laeliaGloriosa = {
         "imagens/Laelia gloriosa/Laelia gloriosa4.jpeg"
     ],
     descricao: "Uma orquídea feita para chamar atenção à distância! Laelia gloriosa forma touceiras grandes, com pseudobulbos robustos e hastes florais que podem ultrapassar 1 metro, terminando em cachos de numerosas flores onduladas e vistosas. É uma espécie tropical do norte da América do Sul e da Amazônia, encontrada geralmente entre cerca de 200 e 850 m, onde cresce em árvores bem iluminadas e ventiladas. Seu cultivo combina calor, muita claridade, água abundante durante o crescimento e secagem rápida das raízes.",
-    origem: "Norte da América do Sul e Amazônia.",
-    regiao: "Venezuela, Colômbia, Equador, Guianas e norte do Brasil.",
+    origem: "Norte da América do Sul",
+    regiao: "Venezuela · Colômbia · Equador · Guianas · norte do Brasil",
     habitat: "Florestas tropicais · epífita · ~200–850 m.",
     clima: "Quente · úmido · alta luz · ventilado.",
     climaFloracao: "Pseudobulbos maduros, luminosidade elevada e raízes saudáveis favorecem hastes fortes. Após o crescimento, aumente moderadamente o intervalo entre regas, sem provocar desidratação severa. Por ser uma espécie tropical de baixa a média altitude, não necessita de frio intenso para florescer.",

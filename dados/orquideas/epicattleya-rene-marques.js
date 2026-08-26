@@ -19,8 +19,8 @@ export const epicattleyaReneMarques = {
         "imagens/epicattleya-rene-marques/epicattleya-rene-marques-4.jpg"
     ],
     descricao: "Uma orquídea que chama atenção de longe! Epicattleya René Marqués combina flores verde-limão com labelo alaranjado ou avermelhado em hastes altas e multiflorais. O grex foi registrado em 1979 a partir de Epidendrum pseudepidendrum × Cattleya Claesiana, resultando em uma composição aproximada de 50% E. pseudepidendrum, 25% C. loddigesii e 25% C. intermedia. É vigorosa, gosta de bastante claridade e pode formar touceiras grandes; quando adulta, seu porte vertical e a repetição de flores transformam a planta em verdadeiro ponto focal no orquidário.",
-    origem: "Híbrido registrado · 1979.",
-    regiao: "E. pseudepidendrum × C. Claesiana.",
+    origem: "Híbrido horticultural",
+    regiao: "Sem distribuição natural · E. pseudepidendrum × C. Claesiana",
     habitat: "Sem habitat natural · grex horticultural.",
     clima: "Quente a intermediário · muito luminoso.",
     climaFloracao: "Não existe uma estação natural única para o grex. A melhor indução ocorre quando novos caules completam o crescimento sob luz alta, com raízes ativas e nutrição equilibrada. No litoral quente, ventilação e secagem entre regas são mais importantes do que buscar noites frias.",

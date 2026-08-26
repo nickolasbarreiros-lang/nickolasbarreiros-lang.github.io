@@ -25,8 +25,8 @@ export const trichocentrumFuscum = {
         "imagens/Trichocentrum fuscum/Trichocentrum fuscum4.webp"
     ],
     "descricao": "Compacta e de aparência quase suculenta, Trichocentrum fuscum se destaca pelas folhas grossas e carnosas, que armazenam água e permitem à planta atravessar períodos de secagem entre as chuvas. É uma epífita da América do Sul tropical e produz flores em tons de amarelo, ocre e castanho, geralmente com labelo mais claro e contrastante. Seu formato já revela a melhor estratégia de cultivo: muita claridade filtrada, ar em movimento e raízes que recebam uma boa rega, mas sequem rapidamente antes da próxima rega.",
-    "origem": "América do Sul tropical.",
-    "regiao": "América do Sul tropical.",
+    "origem": "América do Sul tropical",
+    "regiao": "América do Sul tropical",
     "habitat": "Floresta tropical úmida; epífita.",
     "clima": "Quente a intermediário, ventilado.",
     "climaFloracao": "A floração é favorecida por alta luminosidade filtrada, folhas maduras, ventilação intensa e raízes que alternam hidratação com secagem rápida. Não necessita de repouso absolutamente seco, mas após maturação e nos meses frios o intervalo entre regas deve aumentar.",

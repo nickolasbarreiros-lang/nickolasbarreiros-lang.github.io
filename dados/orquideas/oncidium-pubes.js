@@ -22,8 +22,8 @@ export const oncidiumPubes = {
         "imagens/Oncidium pubes/Oncidium pubes4.jpg"
     ],
     "descricao": "Uma brasileira de hastes leves e muito floríferas! Seus pseudobulbos sustentam normalmente duas folhas e, quando amadurecem bem, podem produzir inflorescências longas e ramificadas cobertas por numerosas flores amarelas marcadas de castanho-avermelhado. A espécie é nativa do Sudeste do Brasil, especialmente do sul do Rio de Janeiro e de São Paulo. Em cultivo, gosta de bastante claridade filtrada, raízes arejadas e boa ventilação; durante o crescimento da haste, evite ficar girando o vaso, pois ela acompanha a direção da luz e pode se curvar bastante.",
-    "origem": "Brasil.",
-    "regiao": "Sul do RJ e São Paulo.",
+    "origem": "Brasil",
+    "regiao": "Sul do RJ e São Paulo",
     "habitat": "Mata Atlântica úmida · epífita.",
     "clima": "Quente a ameno · ventilado.",
     "climaFloracao": "A floração depende de pseudobulbos maduros, boa reserva de energia e luminosidade filtrada relativamente alta. Como Kew registra a espécie em floresta tropical úmida do Sudeste brasileiro, não há justificativa para um repouso seco severo. Após a maturação, apenas aumente um pouco o intervalo entre regas. Em litoral quente, ventilação e raízes oxigenadas são mais importantes que tentar induzir frio artificial.",

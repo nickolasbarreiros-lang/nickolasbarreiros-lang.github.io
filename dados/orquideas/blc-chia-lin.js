@@ -20,8 +20,8 @@ export const blcChiaLin = {
         "imagens/Blc. Chia Lin/Blc. Chia Lin4.jpg"
     ],
     descricao: "Uma Cattleya híbrida feita para impressionar! Rhyncholaeliocattleya Chia Lin é conhecida pelas flores grandes, espessas e muito bem formadas, geralmente em tons intensos de vermelho, vinho, púrpura ou magenta, muitas vezes acompanhadas de perfume. Registrado em 1989 a partir do cruzamento Rlc. Oconee × Rlc. Maitland, o grex reúne uma linhagem selecionada justamente pela qualidade das flores. Como Chia Lin é o nome do grex e não de um único clone, cada planta pode apresentar diferenças de tonalidade, tamanho, perfume e época de floração — parte do charme de cultivar seedlings desse híbrido.",
-    origem: "Híbrido hortícola",
-    regiao: "Su Ping-Ho · registro 1989",
+    origem: "Híbrido horticultural",
+    regiao: "Sem distribuição natural · grex registrado em 1989",
     habitat: "Sem habitat natural · Aliança Cattleya",
     clima: "Quente–intermediário · luminoso · ventilado",
     climaFloracao: "A próxima floração é construída durante a formação do novo pseudobulbo. Enquanto brotos e raízes estiverem ativos, forneça água, nutrição leve e boa luminosidade. Depois que a folha estiver firme e o pseudobulbo maduro, reduza naturalmente a adubação e mantenha luz alta filtrada. Não é necessário forçar a floração com seca artificial ou grandes doses de fósforo; genética, maturação, luz e saúde radicular têm papel mais importante.",

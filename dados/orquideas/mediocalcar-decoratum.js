@@ -20,8 +20,8 @@ export const mediocalcarDecoratum = {
         "imagens/Mediocalcar decoratum/Mediocalcar decoratum4.webp"
     ],
     "descricao": "Uma pequena joia das montanhas da Nova Guiné! Esta micro-orquídea forma tapetes compactos de folhas carnosas e produz flores de apenas cerca de 6 mm, em formato de sininho, com cores que lembram pequenos doces alaranjados e amarelos. Apesar da aparência delicada, pode ocorrer numa faixa ampla de temperaturas; o ponto realmente importante é reproduzir seu ambiente montano úmido, sombreado e muito arejado. No litoral quente, o desafio é evitar noites abafadas e manter as raízes finas úmidas sem deixá-las sufocadas.",
-    "origem": "Nova Guiné.",
-    "regiao": "Montanhas da Nova Guiné.",
+    "origem": "Nova Guiné",
+    "regiao": "Nova Guiné · regiões montanas",
     "habitat": "Floresta montana úmida · 900–2.500 m.",
     "clima": "Intermediário a fresco · úmido e ventilado.",
     "climaFloracao": "Não necessita repouso seco. A floração é favorecida por crescimento contínuo, touceira madura, raízes saudáveis e noites amenas. Ondas de temperaturas mais frescas podem estimular botões, mas a planta deve permanecer hidratada. Calor noturno prolongado, especialmente com ar parado, interrompe o metabolismo e torna brotos e raízes vulneráveis a podridões.",

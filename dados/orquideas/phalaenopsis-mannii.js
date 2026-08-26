@@ -24,8 +24,8 @@ export const phalaenopsisMannii = {
         "imagens/Phalaenopsis mannii/Phalaenopsis mannii4.jpg"
     ],
     "descricao": "Uma Phalaenopsis bem diferente das híbridas de floricultura! A Phalaenopsis mannii tem crescimento naturalmente um pouco pendente e produz flores cerosas de 3 a 5 cm, amarelo-esverdeadas e marcadas por castanho-avermelhado. Além do desenho marcante, as flores podem exalar um agradável perfume lembrando mandarina. Na natureza cresce sobre cascas rugosas em florestas úmidas próximas a rios e córregos, geralmente entre 500 e 1.500 m. Suas hastes podem chegar perto de 45 cm e carregar muitas flores sucessivas, por isso não devem ser cortadas enquanto permanecerem verdes e ativas.",
-    "origem": "Himalaia oriental ao sul da China.",
-    "regiao": "Nepal/Assam a Myanmar, Vietnã e Yunnan.",
+    "origem": "Himalaia Oriental e sul da China",
+    "regiao": "Nepal · Assam · Myanmar · Vietnã · Yunnan",
     "habitat": "Florestas úmidas junto a rios · 500–1.500 m.",
     "clima": "Quente a ameno · úmido · inverno mais seco.",
     "climaFloracao": "No habitat há um período de inverno relativamente mais seco, seguido pela floração de primavera. Em cultivo no litoral, isso deve ser interpretado como uma redução moderada da frequência das regas quando o crescimento desacelerar — nunca como seca prolongada. Boa ventilação, noites um pouco menos quentes e raízes ativas favorecem a emissão floral. Como a espécie ocorre de 500 a 1.500 m, diferentes procedências podem responder de maneira distinta ao calor.",

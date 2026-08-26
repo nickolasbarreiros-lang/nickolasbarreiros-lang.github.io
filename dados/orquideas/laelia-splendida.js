@@ -22,8 +22,8 @@ export const laeliaSplendida = {
         "imagens/Laelia splendida/Laelia splendida4.jpg"
     ],
     descricao: "Laelia splendida é uma orquídea de presença marcante, conhecida por muitos colecionadores pelo antigo nome Schomburgkia splendida. Forma pseudobulbos robustos e, quando adulta, lança hastes florais longas que elevam as flores bem acima da folhagem. As flores são grandes, vistosas e de aspecto tropical, fazendo desta uma espécie especialmente interessante para espaços claros e bem ventilados. Apesar do porte imponente, seu cultivo é relativamente direto quando recebe bastante luz, raízes arejadas e uma boa alternância entre rega abundante e secagem.",
-    origem: "América do Sul.",
-    regiao: "Colômbia e Equador.",
+    origem: "América do Sul",
+    regiao: "Colômbia e Equador",
     habitat: "Epífita ou rupícola de ambientes tropicais claros e ventilados.",
     clima: "Quente a intermediário, luminoso e ventilado.",
     climaFloracao: "A floração depende principalmente de pseudobulbos maduros, boa reserva de energia e luminosidade elevada. No litoral quente, adapta-se bem desde que as raízes tenham excelente aeração e a planta não permaneça constantemente molhada.",

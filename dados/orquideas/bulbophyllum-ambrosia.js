@@ -23,8 +23,8 @@ export const bulbophyllumAmbrosia = {
         "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia4.webp"
     ],
     descricao: "Uma pequena orquídea asiática que compensa o porte discreto com um perfume surpreendente! Bulbophyllum ambrosia forma pseudobulbos espaçados sobre um rizoma rastejante e produz, geralmente, uma única flor clara de cerca de 2,8 cm, delicadamente marcada por tons rosados ou avermelhados. Seu grande destaque é a fragrância doce e intensa, característica que combina muito bem com o nome ambrosia — palavra tradicionalmente associada a algo especialmente agradável e perfumado.\n\nNa natureza, pode crescer tanto sobre árvores quanto sobre rochas e paredões musgosos, do Nepal ao sul da China e Indochina, aproximadamente entre 300 e 1.300 m. Essa amplitude ajuda a explicar sua boa adaptação a diferentes condições: mais importante que tentar mantê-la fria é oferecer raízes arejadas, umidade regular e boa ventilação, especialmente em regiões de clima quente.",
-    origem: "Nepal à Indochina",
-    regiao: "Nepal, Assam, S China, Laos e Vietnã",
+    origem: "Sul e Sudeste da Ásia",
+    regiao: "Nepal · Assam · sul da China · Laos · Vietnã",
     habitat: "Florestas, calcário e rochas musgosas · 300–1.300 m",
     clima: "Quente a fresco · úmido e ventilado",
     climaFloracao: "A espécie floresce naturalmente no inverno. A indução não depende de frio intenso, mas a maturação dos pseudobulbos, noites menos quentes, boa luminosidade filtrada e aeração favorecem a emissão floral. Em procedências de maior altitude, noites amenas têm maior importância. No litoral quente, não tente reproduzir frio artificial: priorize ventilação noturna, redução do superaquecimento do suporte e estabilidade hídrica.",

@@ -21,8 +21,8 @@ export const dendrobiumSpectabile = {
         "imagens/Dendrobium spectabile/Dendrobium spectabile4.jpg"
     ],
     descricao: "Dendrobium spectabile é uma das espécies mais extravagantes do gênero. Suas flores parecem pequenas esculturas vivas: pétalas e sépalas retorcidas, onduladas e irregulares formam desenhos quase impossíveis de repetir de uma flor para outra. A planta desenvolve hastes robustas e, quando madura, produz cachos próximos ao topo com numerosas flores de aparência exótica. Apesar do visual incomum, vem de ambientes tropicais quentes e pode ser uma ótima espécie para coleções de clima litorâneo, desde que receba bastante luz, água durante o crescimento e raízes muito bem ventiladas.",
-    origem: "Oceania tropical.",
-    regiao: "Nova Guiné, Ilhas Salomão, Vanuatu e Nova Caledônia.",
+    origem: "Oceania tropical",
+    regiao: "Nova Guiné · Ilhas Salomão · Vanuatu · Nova Caledônia",
     habitat: "Epífita de florestas tropicais úmidas; ocasionalmente rupícola, de baixas a altas elevações.",
     clima: "Quente a intermediário, úmido e muito ventilado.",
     climaFloracao: "Plantas maduras florescem melhor depois de uma estação de crescimento vigoroso e bem iluminado. Não exige repouso seco severo, mas uma redução moderada das regas quando as hastes amadurecem e o clima esfria pode acompanhar o ciclo natural. No litoral quente, o desenvolvimento vegetativo tende a ser favorecido.",

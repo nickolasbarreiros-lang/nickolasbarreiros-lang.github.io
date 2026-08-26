@@ -15,8 +15,8 @@ export const gomesaRecurva = {
         "imagens/Gomesa recurva/Gomesa recurva4.webp"
     ],
     descricao: "Uma espécie brasileira que vira uma pequena cascata quando floresce! Gomesa recurva produz hastes arqueadas de aproximadamente 10–35 cm carregadas de muitas flores perfumadas, cada uma com cerca de 2 cm. Seus pseudobulbos são comprimidos e sustentam duas folhas firmes, enquanto as inflorescências se curvam naturalmente para baixo. Ocorre do leste do Brasil até o nordeste da Argentina, entre cerca de 50 e 1.400 m, o que explica sua capacidade de viver em diferentes condições — embora floresça com mais facilidade quando recebe boa luz, ventilação e noites mais amenas no fim do ciclo.",
-    origem: "Leste do Brasil ao NE da Argentina.",
-    regiao: "ES ao Sul do Brasil · Paraguai · Misiones.",
+    origem: "América do Sul",
+    regiao: "ES ao Sul do Brasil · Paraguai · Argentina (Misiones)",
     habitat: "Florestas sazonais · epífita/terrestre · 50–1.400 m.",
     clima: "Intermediário a fresco · sazonal.",
     climaFloracao: "A amplitude de 50–1.400 m mostra que a espécie não deve ser tratada como estritamente fria. No litoral quente, a floração tende a melhorar no ponto mais fresco e ventilado do cultivo, com luz alta filtrada e redução moderada das regas depois da maturação dos pseudobulbos — sem seca severa.",

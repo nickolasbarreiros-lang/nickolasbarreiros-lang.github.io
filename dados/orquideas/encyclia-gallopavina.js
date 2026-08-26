@@ -24,8 +24,8 @@ export const encycliaGallopavina = {
         "imagens/Encyclia gallopavina/Encyclia gallopavina4.jpeg"
     ],
     descricao: "Uma Encyclia brasileira de presença marcante! Encyclia gallopavina forma pseudobulbos fortes, folhas firmes e hastes eretas que podem se ramificar e carregar várias flores cerosas. A combinação de tons verdes, castanhos e púrpura com o labelo mais claro dá às flores um desenho muito característico, acompanhado por perfume perceptível sobretudo nas horas mais amenas. É uma espécie do Sudeste brasileiro associada à Mata Atlântica úmida. Em cultivo, responde muito bem a alta luminosidade filtrada, circulação constante de ar e ciclos claros de molhar e secar nas raízes.",
-    origem: "Brasil.",
-    regiao: "Sudeste brasileiro.",
+    origem: "Brasil",
+    regiao: "Sudeste brasileiro",
     habitat: "Mata Atlântica úmida · epífita.",
     clima: "Quente a intermediário · ventilado.",
     climaFloracao: "POWO associa a espécie ao bioma tropical úmido do Sudeste brasileiro, enquanto referências de cultivo a tratam como planta de luminosidade relativamente alta e crescimento quente. A floração tende a acompanhar a maturação completa dos pseudobulbos e pode ocorrer da primavera ao verão. Uma leve redução das regas após o amadurecimento pode ajudar, mas não deve ser transformada em repouso seco rígido.",

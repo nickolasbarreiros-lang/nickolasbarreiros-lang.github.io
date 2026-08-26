@@ -22,8 +22,8 @@ export const cattleyaAclandiaeTipo = {
         "imagens/Cattleya aclandiae/Cattleya aclandiae4.jpg"
     ],
     descricao: "Pequena no tamanho, enorme na personalidade! *Cattleya aclandiae* é uma das menores Cattleyas bifoliadas, com plantas adultas frequentemente em torno de 8–13 cm, mas capazes de produzir flores cerosas de aproximadamente 6–10 cm — quase desproporcionais ao porte da planta. As sépalas e pétalas, em tons verde-amarelados a oliva, são intensamente pintalgadas de castanho, chocolate ou púrpura e contrastam com o labelo magenta; o perfume é marcante e levemente picante. Endêmica da Bahia, vive em ambientes quentes e sazonalmente secos, inclusive próximos ao litoral, onde cresce sobre árvores expostas a bastante luminosidade e circulação de ar. Suas folhas espessas podem apresentar pigmentação avermelhada ou arroxeada naturalmente. O nome homenageia Lady Ackland, entusiasta inglesa de orquídeas do século XIX.",
-    origem: "Brasil.",
-    regiao: "Bahia · endêmica.",
+    origem: "Brasil",
+    regiao: "Bahia · endêmica",
     habitat: "Áreas costeiras sazonais · 100–400 m.",
     clima: "Quente · luminoso, ventilado e sazonalmente seco.",
     climaFloracao: "IOSPE relata floração no verão e outono e também observa que um inverno mais seco pode anteceder floração na primavera/início do verão conforme o ciclo de crescimento. Em vez de escolher uma única janela rígida, a ficha deve refletir essa variabilidade. O estímulo principal é a maturação de crescimento forte sob muita luz, seguida por período relativamente mais seco, sem desidratação severa. No litoral quente, a espécie está termicamente bem adaptada; o risco maior é abafamento radicular.",

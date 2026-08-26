@@ -15,8 +15,8 @@ export const bulbophyllumRothschildianum = {
         "imagens/Bulbophyllum rothschildianum/Bulbophyllum rothschildianum4.jpeg"
     ],
     descricao: "Uma das flores mais extravagantes entre os *Bulbophyllum*! *Bulbophyllum rothschildianum* forma uma planta relativamente pequena, mas surpreende com inflorescências em leque e flores de sépalas extremamente alongadas, que podem alcançar cerca de **17 cm** no conjunto. A combinação de tons púrpura, vinho e creme e o desenho quase exótico das flores fazem dela uma espécie difícil de confundir. Nativa do Himalaia Oriental até o sul da China e norte de Myanmar, vive em ambientes subtropicais úmidos. Seu nome homenageia a família Rothschild, historicamente ligada ao cultivo e à coleção de orquídeas.",
-    origem: "Himalaia Oriental e S da China.",
-    regiao: "Assam · E Himalaia · S Yunnan · N Myanmar.",
+    origem: "Himalaia Oriental e sul da China",
+    regiao: "Assam · Himalaia Oriental · sul de Yunnan · norte de Myanmar",
     habitat: "Florestas subtropicais úmidas.",
     clima: "Quente a fresco · úmido.",
     climaFloracao: "IOSPE registra crescimento de quente a fresco e floradas na primavera e no outono. Essa amplitude não significa que a espécie precise alternar extremos térmicos; na prática, pseudobulbos maduros, noites um pouco mais amenas, luz filtrada clara, água regular e ventilação parecem mais importantes. No litoral quente, deve-se compensar noites quentes com circulação de ar, drenagem muito eficiente e ausência de superaquecimento radicular.",

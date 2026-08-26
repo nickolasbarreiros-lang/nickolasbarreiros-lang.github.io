@@ -20,8 +20,8 @@ export const leptotesUnicolor = {
         "imagens/Leptotes unicolor/Leptotes unicolor4.jpeg"
     ],
     descricao: "Uma pequena cascata de flores perfumadas! Leptotes unicolor é uma miniatura epífita de crescimento pendente, com folhas finas, cilíndricas e carnosas que armazenam água. As flores surgem próximas à base das folhas, geralmente uma ou duas por haste, medem cerca de 2 a 2,4 cm e aparecem em tons relativamente uniformes de rosa, lilás ou magenta. Apesar do aspecto delicado, é uma planta resistente quando recebe bastante ar nas raízes e ciclos rápidos de molhamento e secagem.",
-    origem: "Sul da América do Sul.",
-    regiao: "Brasil e Argentina.",
+    origem: "América do Sul",
+    regiao: "Brasil · Argentina",
     habitat: "Ramos de árvores · luz filtrada · epífita.",
     clima: "Quente a fresco · muito ventilado.",
     climaFloracao: "A amplitude indicada para a espécie — de condições quentes a frescas — mostra que não há necessidade de classificá-la rigidamente como planta fria. O ponto mais importante é manter raízes expostas ao ar, boa luminosidade filtrada e secagem rápida. Em clima quente, umidade atmosférica e ventilação devem compensar a evaporação sem manter o suporte permanentemente molhado.",
