@@ -265,6 +265,6 @@ bulbophyllumSyciobulbon,
     encycliaOncidioides,
     pleurothallisModestissima,
     maxillariaBrasiliensis,
-    isochilusLinearis
+    isochilusLinearis,
     aciantheraSonderiana,
 ];
