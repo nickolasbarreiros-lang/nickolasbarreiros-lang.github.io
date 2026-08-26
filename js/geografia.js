@@ -233,6 +233,33 @@ export function resumirOrigem(orquidea) {
         ""
     ).trim();
 
+    // Regra editorial do catálogo:
+    // qualquer origem explicitamente horticultural deve usar o tubo de ensaio,
+    // independentemente de país, macrorregião ou dados residuais da ficha.
+    const origemNormalizadaDireta = normalizarTexto(textoOriginal);
+
+    if (
+        origemNormalizadaDireta.includes("hibrido horticultural") ||
+        origemNormalizadaDireta.includes("hibrido horticola") ||
+        origemNormalizadaDireta === "hibrido"
+    ) {
+        return {
+            icone: "🧪",
+            texto: "Híbrido Horticultural",
+            tipo: "hibrido"
+        };
+    }
+
+    if (
+        origemNormalizadaDireta.includes("selecao horticultural")
+    ) {
+        return {
+            icone: "🧪",
+            texto: "Seleção Horticultural",
+            tipo: "selecao-horticultural"
+        };
+    }
+
     /*
      * Cruzamentos “× self” são autofecundações horticulturais.
      * Não são híbridos entre plantas diferentes, mas no card devem

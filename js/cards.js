@@ -507,11 +507,24 @@ export function criarInformacoesRapidas(orquidea, origemResumida) {
             ? origemResumida.texto
             : String(origemResumida || "Origem não informada");
 
-    const origemIcone =
+    let origemIcone =
         origemResumida &&
         typeof origemResumida === "object"
             ? origemResumida.icone
             : "🌍";
+
+    const origemTextoNormalizado = String(origemTexto || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase();
+
+    if (
+        origemTextoNormalizado.includes("hibrido horticultural") ||
+        origemTextoNormalizado.includes("hibrido horticola") ||
+        origemTextoNormalizado.includes("selecao horticultural")
+    ) {
+        origemIcone = "🧪";
+    }
 
     const codigoPais =
         origemResumida &&
@@ -835,24 +848,18 @@ export function criarCartaoOrquidea(
 
             <div class="conteudo-cartao">
                 <div class="identificacao-cartao">
-                    <div
-                        class="faixa-identidade-cartao"
-                        data-esboco-src="${escaparHTML(foto)}"
-                        data-esboco-srcs="${escaparHTML(JSON.stringify(fotosCartao.slice(0, 4)))}"
-                    >
-                        <div class="linha-genero-cartao">
-                            <span class="rotulo-genero-cartao">Gênero:</span>
-                            <span class="genero-cartao">${escaparHTML(genero)}</span>
-                        </div>
-                        <h3>
-                            <a href="${escaparHTML(enderecoFicha)}">
-                                <em
-                                    class="nome-principal-cartao"
-                                    data-nome-completo="${escaparHTML(nome)}"
-                                >${escaparHTML(nome)}</em>
-                            </a>
-                        </h3>
+                    <div class="linha-genero-cartao">
+                        <span class="rotulo-genero-cartao">Gênero:</span>
+                        <span class="genero-cartao">${escaparHTML(genero)}</span>
                     </div>
+                    <h3>
+                        <a href="${escaparHTML(enderecoFicha)}">
+                            <em
+                                class="nome-principal-cartao"
+                                data-nome-completo="${escaparHTML(nome)}"
+                            >${escaparHTML(nome)}</em>
+                        </a>
+                    </h3>
                     ${informacoesRapidas}
                 </div>
 
@@ -906,324 +913,6 @@ export function criarCartoesOrquideas(
         .join("");
 }
 
-
-/* =========================================================
-   ESBOÇO BOTÂNICO DERIVADO DA FOTO
-   Gera no navegador uma versão em traço da foto real de cada
-   espécie. O resultado é usado apenas como ornamento visual
-   da faixa de identificação; a fotografia original permanece
-   intacta.
-========================================================= */
-
-const cacheMetricasFotosEsboco = new Map();
-const cacheMelhorFotoEsboco = new Map();
-const cacheEsbocosBotanicos = new Map();
-
-function carregarImagemParaAnalise(src) {
-    return new Promise((resolve) => {
-        const imagem = new Image();
-        imagem.decoding = "async";
-        imagem.onload = () => resolve(imagem);
-        imagem.onerror = () => resolve(null);
-        imagem.src = src;
-    });
-}
-
-function limitar01(valor) {
-    return Math.max(0, Math.min(1, valor));
-}
-
-/*
-   Analisa uma foto em baixa resolução para estimar quão adequada ela é
-   ao esboço botânico. A ideia é preferir uma flor/planta visualmente
-   destacada e penalizar fundos muito "nervosos" (folhagem, vasos,
-   ripados, telas etc.). Não altera a fotografia original.
-*/
-async function analisarFotoParaEsboco(src) {
-    if (cacheMetricasFotosEsboco.has(src)) {
-        return cacheMetricasFotosEsboco.get(src);
-    }
-
-    const promessa = (async () => {
-        const imagem = await carregarImagemParaAnalise(src);
-        if (!imagem) return null;
-
-        try {
-            const maxLado = 180;
-            const escala = Math.min(1, maxLado / Math.max(imagem.naturalWidth, imagem.naturalHeight));
-            const largura = Math.max(24, Math.round(imagem.naturalWidth * escala));
-            const altura = Math.max(24, Math.round(imagem.naturalHeight * escala));
-            const canvas = document.createElement("canvas");
-            const ctx = canvas.getContext("2d", { willReadFrequently: true });
-            if (!ctx) return null;
-
-            canvas.width = largura;
-            canvas.height = altura;
-            ctx.drawImage(imagem, 0, 0, largura, altura);
-
-            const pixels = ctx.getImageData(0, 0, largura, altura).data;
-            const total = largura * altura;
-            const lum = new Float32Array(total);
-            const sat = new Float32Array(total);
-
-            let somaLum = 0;
-            for (let p = 0, i = 0; p < total; p += 1, i += 4) {
-                const r = pixels[i];
-                const g = pixels[i + 1];
-                const b = pixels[i + 2];
-                const max = Math.max(r, g, b);
-                const min = Math.min(r, g, b);
-                const l = r * .299 + g * .587 + b * .114;
-                lum[p] = l;
-                sat[p] = max === 0 ? 0 : (max - min) / max;
-                somaLum += l;
-            }
-
-            let arestasCentro = 0;
-            let amostrasCentro = 0;
-            let arestasBorda = 0;
-            let amostrasBorda = 0;
-            let satCentro = 0;
-            let satBorda = 0;
-            let variacaoCentro = 0;
-            let variacaoBorda = 0;
-            const limiarAresta = 42;
-
-            for (let y = 1; y < altura - 1; y += 2) {
-                const ny = y / (altura - 1);
-                for (let x = 1; x < largura - 1; x += 2) {
-                    const nx = x / (largura - 1);
-                    const idx = y * largura + x;
-
-                    const gx =
-                        -lum[idx - largura - 1] + lum[idx - largura + 1] +
-                        -2 * lum[idx - 1] + 2 * lum[idx + 1] +
-                        -lum[idx + largura - 1] + lum[idx + largura + 1];
-                    const gy =
-                        -lum[idx - largura - 1] - 2 * lum[idx - largura] - lum[idx - largura + 1] +
-                        lum[idx + largura - 1] + 2 * lum[idx + largura] + lum[idx + largura + 1];
-                    const mag = Math.hypot(gx, gy);
-
-                    // Centro amplo: permite flores ligeiramente fora do centro.
-                    const noCentro = nx > .16 && nx < .84 && ny > .12 && ny < .88;
-                    const vizinhos = Math.abs(lum[idx] - lum[idx - 1]) + Math.abs(lum[idx] - lum[idx - largura]);
-
-                    if (noCentro) {
-                        amostrasCentro += 1;
-                        if (mag > limiarAresta) arestasCentro += 1;
-                        satCentro += sat[idx];
-                        variacaoCentro += vizinhos;
-                    } else {
-                        amostrasBorda += 1;
-                        if (mag > limiarAresta) arestasBorda += 1;
-                        satBorda += sat[idx];
-                        variacaoBorda += vizinhos;
-                    }
-                }
-            }
-
-            const densCentro = arestasCentro / Math.max(1, amostrasCentro);
-            const densBorda = arestasBorda / Math.max(1, amostrasBorda);
-            const mediaSatCentro = satCentro / Math.max(1, amostrasCentro);
-            const mediaSatBorda = satBorda / Math.max(1, amostrasBorda);
-            const texturaCentro = variacaoCentro / Math.max(1, amostrasCentro) / 510;
-            const texturaBorda = variacaoBorda / Math.max(1, amostrasBorda) / 510;
-            const luminosidade = somaLum / Math.max(1, total) / 255;
-
-            // Quanto mais a informação visual se concentra na planta e menos
-            // no entorno, maior a nota. Fundo vegetal denso é fortemente penalizado.
-            const destaqueCentro = limitar01((densCentro - densBorda + .20) / .40);
-            const contrasteCor = limitar01((mediaSatCentro - mediaSatBorda + .22) / .44);
-            const nitidezUtil = limitar01(densCentro / .24);
-            const fundoLimpo = limitar01(1 - (densBorda * 1.55 + texturaBorda * .55));
-            const exposicao = limitar01(1 - Math.abs(luminosidade - .58) / .58);
-
-            const nota =
-                fundoLimpo * 0.46 +
-                destaqueCentro * 0.22 +
-                contrasteCor * 0.12 +
-                nitidezUtil * 0.13 +
-                exposicao * 0.07;
-
-            return {
-                src,
-                nota,
-                densCentro,
-                densBorda,
-                texturaCentro,
-                texturaBorda,
-                luminosidade
-            };
-        } catch (erro) {
-            console.warn("Não foi possível analisar foto para o esboço botânico:", erro);
-            return null;
-        }
-    })();
-
-    cacheMetricasFotosEsboco.set(src, promessa);
-    return promessa;
-}
-
-async function selecionarMelhorFotoParaEsboco(fontes) {
-    const unicas = Array.from(new Set((fontes || []).filter(Boolean))).slice(0, 4);
-    if (!unicas.length) return "";
-    if (unicas.length === 1) return unicas[0];
-
-    const chave = unicas.join("\u001f");
-    if (cacheMelhorFotoEsboco.has(chave)) {
-        return cacheMelhorFotoEsboco.get(chave);
-    }
-
-    const promessa = (async () => {
-        const resultados = (await Promise.all(unicas.map(analisarFotoParaEsboco))).filter(Boolean);
-        if (!resultados.length) return unicas[0];
-        resultados.sort((a, b) => b.nota - a.nota);
-        return resultados[0].src;
-    })();
-
-    cacheMelhorFotoEsboco.set(chave, promessa);
-    return promessa;
-}
-
-function criarEsbocoBotanicoDaImagem(src) {
-    if (cacheEsbocosBotanicos.has(src)) {
-        return cacheEsbocosBotanicos.get(src);
-    }
-
-    const promessa = new Promise((resolve) => {
-        const imagem = new Image();
-        imagem.decoding = "async";
-
-        imagem.onload = () => {
-            try {
-                const maxLado = 420;
-                const escala = Math.min(1, maxLado / Math.max(imagem.naturalWidth, imagem.naturalHeight));
-                const largura = Math.max(1, Math.round(imagem.naturalWidth * escala));
-                const altura = Math.max(1, Math.round(imagem.naturalHeight * escala));
-                const canvas = document.createElement("canvas");
-                const ctx = canvas.getContext("2d", { willReadFrequently: true });
-
-                if (!ctx) {
-                    resolve("");
-                    return;
-                }
-
-                canvas.width = largura;
-                canvas.height = altura;
-                ctx.drawImage(imagem, 0, 0, largura, altura);
-
-                const dados = ctx.getImageData(0, 0, largura, altura);
-                const origem = dados.data;
-                const cinza = new Float32Array(largura * altura);
-
-                for (let i = 0, p = 0; i < origem.length; i += 4, p += 1) {
-                    cinza[p] = origem[i] * 0.299 + origem[i + 1] * 0.587 + origem[i + 2] * 0.114;
-                }
-
-                const saida = ctx.createImageData(largura, altura);
-                const dst = saida.data;
-                const sx = [-1, 0, 1, -2, 0, 2, -1, 0, 1];
-                const sy = [-1, -2, -1, 0, 0, 0, 1, 2, 1];
-
-                for (let y = 1; y < altura - 1; y += 1) {
-                    for (let x = 1; x < largura - 1; x += 1) {
-                        let gx = 0;
-                        let gy = 0;
-                        let k = 0;
-
-                        for (let yy = -1; yy <= 1; yy += 1) {
-                            for (let xx = -1; xx <= 1; xx += 1) {
-                                const valor = cinza[(y + yy) * largura + (x + xx)];
-                                gx += valor * sx[k];
-                                gy += valor * sy[k];
-                                k += 1;
-                            }
-                        }
-
-                        const mag = Math.min(255, Math.hypot(gx, gy));
-                        const intensidade = mag > 36 ? Math.min(218, 48 + mag * 0.88) : 0;
-                        const i = (y * largura + x) * 4;
-
-                        dst[i] = 232;
-                        dst[i + 1] = 216;
-                        dst[i + 2] = 166;
-                        dst[i + 3] = intensidade;
-                    }
-                }
-
-                ctx.clearRect(0, 0, largura, altura);
-                ctx.putImageData(saida, 0, 0);
-                resolve(canvas.toDataURL("image/png"));
-            } catch (erro) {
-                console.warn("Não foi possível gerar o esboço botânico:", erro);
-                resolve("");
-            }
-        };
-
-        imagem.onerror = () => resolve("");
-        imagem.src = src;
-    });
-
-    cacheEsbocosBotanicos.set(src, promessa);
-    return promessa;
-}
-
-function obterFontesEsbocoDoAlvo(alvo) {
-    const fontes = [];
-
-    if (alvo?.dataset?.esbocoSrcs) {
-        try {
-            const lista = JSON.parse(alvo.dataset.esbocoSrcs);
-            if (Array.isArray(lista)) fontes.push(...lista);
-        } catch (_) {
-            // Compatibilidade com versões antigas do card.
-        }
-    }
-
-    if (alvo?.dataset?.esbocoSrc) fontes.push(alvo.dataset.esbocoSrc);
-    return Array.from(new Set(fontes.filter(Boolean))).slice(0, 4);
-}
-
-function ativarEsbocosBotanicosCartoes(raiz = document) {
-    const alvos = Array.from(
-        raiz.querySelectorAll(".faixa-identidade-cartao[data-esboco-src], .faixa-identidade-cartao[data-esboco-srcs]")
-    );
-    if (!alvos.length) return;
-
-    const processar = async (alvo) => {
-        if (alvo.dataset.esbocoProcessado === "1") return;
-        alvo.dataset.esbocoProcessado = "1";
-
-        const fontes = obterFontesEsbocoDoAlvo(alvo).filter((src) => !src.startsWith("data:image/svg"));
-        if (!fontes.length) return;
-
-        const melhorSrc = await selecionarMelhorFotoParaEsboco(fontes);
-        if (!melhorSrc) return;
-
-        const esboco = await criarEsbocoBotanicoDaImagem(melhorSrc);
-        if (esboco) {
-            alvo.style.setProperty("--esboco-botanico", `url("${esboco}")`);
-            alvo.classList.add("tem-esboco-botanico");
-            alvo.dataset.esbocoEscolhido = melhorSrc;
-        }
-    };
-
-    if (!("IntersectionObserver" in window)) {
-        alvos.forEach(processar);
-        return;
-    }
-
-    const observador = new IntersectionObserver((entradas) => {
-        entradas.forEach((entrada) => {
-            if (!entrada.isIntersecting) return;
-            observador.unobserve(entrada.target);
-            processar(entrada.target);
-        });
-    }, { rootMargin: "260px 0px" });
-
-    alvos.forEach((alvo) => observador.observe(alvo));
-}
-
 /* =========================================================
    RENDERIZAÇÃO DOS CARTÕES
 ========================================================= */
@@ -1246,6 +935,5 @@ export function renderizarCartoes(
     requestAnimationFrame(() => {
         atualizarAbreviacoesDinamicas(elemento);
         ativarGaleriasLaterais(elemento);
-        ativarEsbocosBotanicosCartoes(elemento);
     });
 }
