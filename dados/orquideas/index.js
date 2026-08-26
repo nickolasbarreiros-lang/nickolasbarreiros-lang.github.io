@@ -98,6 +98,7 @@ import { bulbophyllumAmbrosia } from "./bulbophyllum-ambrosia.js";
 import { cattleyaGuttataVarCoerulea } from "./cattleya-guttata-var-coerulea.js";
 import { octomeriaDiaphana } from "./octomeria-diaphana.js";
 import { aciantheraBragae } from "./acianthera-bragae.js";
+import { aciantheraSonderiana } from "./acianthera-sonderiana.js";
 import { blcChiaLin } from "./blc-chia-lin.js";
 import { octomeriaMicrantha } from "./octomeria-micrantha.js";
 import { gongoraBufonia } from "./gongora-bufonia.js";
@@ -265,4 +266,5 @@ bulbophyllumSyciobulbon,
     pleurothallisModestissima,
     maxillariaBrasiliensis,
     isochilusLinearis
+    aciantheraSonderiana,
 ];
