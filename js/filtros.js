@@ -529,6 +529,79 @@ function correspondeCampo(
 
 
 /* =========================================================
+   CLASSIFICAÇÃO BOTÂNICA × HÍBRIDO
+========================================================= */
+
+function obterClassificacaoCatalogo(orquidea) {
+    const tipo = normalizarTexto(
+        orquidea?.tipo || ""
+    );
+
+    const origem = normalizarTexto(
+        orquidea?.origem || ""
+    );
+
+    const nome = normalizarTexto(
+        orquidea?.nome || ""
+    );
+
+    const texto = `${tipo} ${origem} ${nome}`;
+
+    const sinaisHibrido = [
+        "hibrido",
+        "grex",
+        "nothogenero",
+        "nothogênero",
+        "intergenerico",
+        "intergenérico"
+    ];
+
+    const ehHibrido =
+        sinaisHibrido.some((sinal) => {
+            return texto.includes(
+                normalizarTexto(sinal)
+            );
+        });
+
+    return ehHibrido
+        ? "hibrido"
+        : "especie botanica";
+}
+
+
+function correspondeClassificacao(
+    orquidea,
+    valorFiltro
+) {
+    const filtro =
+        normalizarTexto(valorFiltro);
+
+    if (!filtro) {
+        return true;
+    }
+
+    const classificacao =
+        obterClassificacaoCatalogo(
+            orquidea
+        );
+
+    if (filtro === "hibrido") {
+        return classificacao === "hibrido";
+    }
+
+    if (filtro === "especie botanica") {
+        return classificacao === "especie botanica";
+    }
+
+    // Compatibilidade com eventuais opções futuras.
+    return correspondeCampo(
+        orquidea?.tipo,
+        valorFiltro
+    );
+}
+
+
+/* =========================================================
    FILTROS DE ILUMINAÇÃO E RARIDADE
 ========================================================= */
 
@@ -684,8 +757,8 @@ export function filtrarOrquideas(
                 filtros.genero
             ) &&
 
-            correspondeCampo(
-                orquidea?.tipo,
+            correspondeClassificacao(
+                orquidea,
                 filtros.tipo
             ) &&
 
