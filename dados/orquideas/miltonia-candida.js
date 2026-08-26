@@ -28,8 +28,8 @@ export const miltoniaCandida = {
     "climaFloracao": "Floresce após o pseudobulbo completar a maturação. Luz filtrada forte, noites um pouco mais frescas e redução natural do ritmo vegetativo favorecem a haste, sem necessidade de seca severa. O pseudobulbo precisa amadurecer cheio, pois armazena água e carboidratos para sustentar de quatro a dez flores na inflorescência.",
     "iluminacao": {
         "sombrite": "50% a 70%",
-        "solDireto": "Somente sol fraco",
-        "horario": "Até aproximadamente 08:30 ou no fim da tarde",
+        "solDireto": "Permitido com restrição",
+        "horario": "Somente início da manhã",
         "observacoes": "Luz filtrada média a intensa. Folhas verde-claro e firmes indicam boa exposição. Folhagem verde-escura, alongada e mole sugere sombra excessiva; bordas claras, manchas secas ou aquecimento foliar indicam sol ou calor demais."
     },
     "floracao": "Principalmente da primavera ao verão. As hastes eretas a arqueadas podem alcançar cerca de 60 cm e carregar normalmente 3–7 flores grandes, cerosas e perfumadas, de até aproximadamente 7,5 cm. O contraste entre os segmentos castanho-amarelados e o amplo labelo branco ondulado é sua marca ornamental mais característica.",
@@ -181,7 +181,7 @@ export const miltoniaCandida = {
     },
     "mesesFloracao": [9, 10, 11, 12, 1, 2],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
         "avaliacoes": {

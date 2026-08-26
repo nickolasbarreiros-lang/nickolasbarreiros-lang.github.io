@@ -22,8 +22,8 @@ export const gongoraBufonia = {
     climaFloracao: "A espécie cresce melhor com água e nutrição regulares enquanto os novos brotos e pseudobulbos estão se formando. A combinação de baixa altitude, floresta úmida e inflorescência longa indica que calor não é problema por si só; o verdadeiro risco no litoral é o abafamento acompanhado de substrato saturado. Depois que o pseudobulbo amadurece, mantenha a umidade, mas reduza apenas o excesso de água em períodos mais frios e nublados. Não existe repouso seco rígido.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Não recomendado",
-        horario: "Luz filtrada e difusa durante todo o dia",
+        solDireto: "Não permitido",
+        horario: "",
         observacoes: "Prefere sombra clara. Folhas muito escuras e crescimento frouxo sugerem pouca luz; amarelecimento, áreas secas ou aquecimento forte das folhas indicam excesso. Em clima quente, ventilação é tão importante quanto o sombreamento."
     },
     floracao: "Mais frequente do fim do inverno à primavera, podendo avançar para o início do verão conforme o microclima e o amadurecimento dos pseudobulbos. As hastes pendentes podem alcançar 40–80 cm e carregar numerosas flores perfumadas.",
@@ -175,7 +175,7 @@ export const gongoraBufonia = {
     },
     mesesFloracao: [8, 9, 10, 11, 12],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: { cultivo: 4, floracao: 4, perfume: 5, luminosidade: 3, agua: 4, raridade: 3 }

@@ -28,8 +28,8 @@ export const catasetumMattosianum = {
     climaFloracao: "A floração está associada ao período de crescimento e ocorre principalmente no verão. O que determina a qualidade da floração é a formação de um pseudobulbo forte, sustentada por água abundante, nutrição moderada, luz alta e raízes saudáveis durante a fase ativa. A dormência não deve ser antecipada artificialmente. A influência da luz sobre o sexo das flores existe no gênero, mas não é absoluta: genética, reservas e microclima também participam.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Somente suave e após aclimatação",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Durante crescimento ativo necessita bastante luz para formar pseudobulbos volumosos. Folhas verde-médio a verde-claro e pseudobulbos robustos são bons indicadores. Excesso súbito de sol queima folhas; sombra profunda gera crescimento mais fraco. A intensidade luminosa influencia diretamente a proporção de flores: níveis mais altos de luz favorecem o surgimento de flores femininas, enquanto condições de menor luminosidade tendem a estimular o aparecimento de flores masculinas."
     },
     floracao: "Principalmente no verão. IOSPE registra flores de aproximadamente 3 cm e grande variabilidade de cor. O momento exato pode oscilar conforme início da brotação, maturação do pseudobulbo e condições de cultivo.",
@@ -181,7 +181,7 @@ export const catasetumMattosianum = {
     },
     mesesFloracao: [12, 1, 2, 3],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "repouso-seco" },
+        "rega": { "nivel": "sazonal", "regime": "repouso-seco" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

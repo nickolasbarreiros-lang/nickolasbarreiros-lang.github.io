@@ -27,8 +27,8 @@ export const maxillariaBrasiliensis = {
     climaFloracao: "IOSPE registra a espécie no Brasil como planta de crescimento quente a fresco e floração no outono do hemisfério sul. A emissão floral depende sobretudo de crescimento maduro, raízes funcionais e boa luminosidade filtrada. Não há indicação de repouso seco rígido: depois da maturação, uma discreta redução de água é suficiente. Touceiras estabelecidas tendem a responder melhor do que divisões pequenas recém-replantadas.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Somente suave, após aclimatação",
-        horario: "Até aproximadamente 08:30",
+        solDireto: "Permitido com restrição",
+        horario: "Somente início da manhã",
         observacoes: "Prefere claridade filtrada abundante. Folhas firmes em verde-médio indicam bom equilíbrio. Folhagem muito escura e crescimento frouxo sugerem pouca luz; amarelecimento intenso e manchas secas indicam excesso de exposição ou aquecimento."
     },
     floracao: "Mais característica no outono, embora o calendário possa variar conforme o amadurecimento dos crescimentos. Cada haste porta uma flor de cerca de 2,5 cm. Exemplares adultos e pouco perturbados podem apresentar várias flores próximas entre si quando diferentes crescimentos amadurecem de forma sincronizada.",
@@ -180,7 +180,7 @@ export const maxillariaBrasiliensis = {
     },
     mesesFloracao: [3, 4, 5],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         avaliacoes: {

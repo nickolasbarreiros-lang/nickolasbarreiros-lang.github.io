@@ -22,8 +22,8 @@ export const isochilusLinearis = {
     climaFloracao: "A faixa altitudinal documentada é excepcionalmente ampla, de cerca de 300 a 3.900 m, mas muitas coletas concentram-se aproximadamente entre 600 e 1.200 m. Por isso não é correto classificar toda a espécie como fria ou quente. No litoral, trabalhe com o comportamento intermediário: luz filtrada, boa ventilação e umidade regular, especialmente porque os caules não possuem grande reserva de água. Não necessita repouso seco.",
     iluminacao: {
         sombrite: "50% a 70%",
-        solDireto: "Somente muito suave",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Somente início da manhã",
         observacoes: "Prefere claridade suave e filtrada e não sombra plena. Caules excessivamente longos e moles indicam falta de luz; folhas amareladas ou secas nas pontas podem indicar excesso de sol, baixa umidade ou acúmulo de sais."
     },
     floracao: "Pode florescer em diferentes épocas do ano conforme a procedência e as condições de cultivo; no Brasil, costuma ser mais observada da primavera ao verão. As pequenas flores tubulares surgem agrupadas no ápice dos caules maduros, geralmente voltadas para o mesmo lado. As flores individuais podem ser relativamente breves, enquanto uma touceira com várias hastes pode prolongar o efeito ornamental pela emissão sucessiva de flores.",
@@ -175,7 +175,7 @@ export const isochilusLinearis = {
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {
-        "rega": { "nivel": "constante", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: { cultivo: 2, floracao: 4, perfume: 1, luminosidade: 3, agua: 4, raridade: 3 }

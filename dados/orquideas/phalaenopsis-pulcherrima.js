@@ -29,8 +29,8 @@ export const phalaenopsisPulcherrima = {
     climaFloracao: "Gosta de calor e não depende de frio para induzir a floração. Boa luminosidade, raízes ativas e hidratação regular favorecem hastes longas e sucessivas. No litoral quente, encontra condições bastante favoráveis.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Tolera sol fraco da manhã após aclimatação",
-        horario: "Luz filtrada brilhante ao longo do dia",
+        solDireto: "Permitido com restrição",
+        horario: "Somente início da manhã",
         observacoes: "Tolera e normalmente aprecia mais luz que muitas Phalaenopsis epífitas. Evite, porém, sol direto forte sobre folhas aquecidas. Folhagem excessivamente escura pode indicar luminosidade insuficiente."
     },
     floracao: "Predominantemente no verão e outono, com hastes que podem prolongar a floração por bastante tempo. Para o calendário do site, dezembro a maio funciona como referência prática.",
@@ -195,7 +195,7 @@ export const phalaenopsisPulcherrima = {
     },
     mesesFloracao: [12, 1, 2, 3, 4, 5],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         avaliacoes: { cultivo: 5, floracao: 5, perfume: 1, luminosidade: 3, agua: 3, raridade: 3 }

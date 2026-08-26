@@ -28,8 +28,8 @@ export const encycliaAlboxanthina = {
     climaFloracao: "A floração é favorecida por pseudobulbos bem amadurecidos, bastante luminosidade e boa diferença entre períodos de hidratação e secagem. Não necessita repouso seco rigoroso, mas o excesso constante de água prejudica raízes e maturação dos pseudobulbos.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Sol fraco da manhã após aclimatação",
-        horario: "Luz filtrada intensa ao longo do dia",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "É uma Encyclia de alta luminosidade. Em litoral quente, 40% a 50% de sombreamento é um bom ponto de partida. Sombra profunda reduz a floração; sol forte nas horas mais quentes pode superaquecer folhas e pseudobulbos."
     },
     floracao: "Floresce principalmente no fim da primavera e início do verão. Para o calendário do site, outubro a janeiro é uma janela prática de referência.",

@@ -32,8 +32,8 @@ export const stanhopeaHernandezii = {
     "climaFloracao": "A floração depende de pseudobulbos bem formados, alta disponibilidade hídrica no crescimento, noites amenas e espaço físico livre para a haste geotrópica. Após a maturação, reduza apenas discretamente a água. Assim que a haste aparecer sob a cesta, mantenha o recipiente imóvel e evite qualquer replante.",
     "iluminacao": {
         "sombrite": "60% a 70%",
-        "solDireto": "Somente extremamente fraco",
-        "horario": "Até aproximadamente 07:30",
+        "solDireto": "Permitido com restrição",
+        "horario": "Somente início da manhã",
         "observacoes": "Prefere meia-sombra clara. Folhas verde-médio indicam boa condição. Sombra profunda reduz a floração; sol forte queima as folhas plissadas."
     },
     "floracao": "Mais comum da primavera ao verão, aproximadamente de setembro a fevereiro. As flores têm grande impacto visual, perfume muito intenso e duração relativamente curta. A haste precisa atravessar livremente o fundo da cesta sem obstáculos.",
@@ -192,7 +192,7 @@ export const stanhopeaHernandezii = {
         2
     ],
     "selosCultivo": {
-        "rega": { "nivel": "constante", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "muito-frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {

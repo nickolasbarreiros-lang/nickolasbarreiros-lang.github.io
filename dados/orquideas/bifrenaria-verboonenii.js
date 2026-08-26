@@ -32,8 +32,8 @@ export const bifrenariaVerboonenii = {
     climaFloracao: "A indução floral é favorecida pela maturação completa do pseudobulbo, boa luminosidade, noites mais frescas e redução sazonal das regas. Não é necessário impor seca absoluta. Em Litoral de clima quente, temperatura noturna elevada e raízes aquecidas são os principais fatores limitantes.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Apenas muito suave e com aclimatação",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Prefere alta claridade filtrada. No litoral, 40% a 50% de sombra reduz superaquecimento sem escurecer demais a planta. Folhas muito escuras indicam luz insuficiente."
     },
     floracao: "Primavera ao início do verão; em cultivo, a data pode variar com procedência e maturação do pseudobulbo.",

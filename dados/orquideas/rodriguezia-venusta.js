@@ -32,8 +32,8 @@ export const rodrigueziaVenusta = {
     "climaFloracao": "A emissão floral ocorre com maior regularidade quando os pseudobulbos amadurecem sob meia-sombra clara, raízes ativas e circulação de ar constante. Não necessita de repouso seco marcado. Durante crescimento e enraizamento, mantenha água regular; após a maturação, apenas aumente discretamente o intervalo entre regas. Touceiras preservadas e pouco divididas acumulam mais reservas e tendem a produzir mais hastes simultaneamente.",
     "iluminacao": {
         "sombrite": "50% a 70%",
-        "solDireto": "Somente muito fraco e aclimatado",
-        "horario": "Até aproximadamente 08:00",
+        "solDireto": "Permitido com restrição",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Prefere meia-sombra clara. Folhas verde-médio a verde-claro, firmes e crescimento compacto indicam boa luminosidade. Sombra profunda reduz a floração; sol forte provoca amarelecimento, queimaduras e rápida desidratação das folhas e raízes."
     },
     "floracao": "A floração principal ocorre da primavera ao verão, aproximadamente de setembro a fevereiro. As hastes arqueadas ou pendentes podem carregar numerosas flores e precisam de espaço vertical completamente livre. A planta deve ficar suspensa ou posicionada na borda de uma bancada para que as inflorescências não sejam comprimidas ou desviadas.",
@@ -192,7 +192,7 @@ export const rodrigueziaVenusta = {
         2
     ],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         "avaliacoes": {

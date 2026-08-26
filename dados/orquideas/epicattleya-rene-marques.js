@@ -26,8 +26,8 @@ export const epicattleyaReneMarques = {
     climaFloracao: "Não existe uma estação natural única para o grex. A melhor indução ocorre quando novos caules completam o crescimento sob luz alta, com raízes ativas e nutrição equilibrada. No litoral quente, ventilação e secagem entre regas são mais importantes do que buscar noites frias.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Sim",
-        horario: "Até 09:00",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Exige iluminação alta, semelhante à de Cattleya, com aclimatação gradual. Folhas verde-claras e caules firmes indicam boa luz."
     },
     floracao: "Mais frequente da primavera ao verão, podendo variar entre clones e condições de cultivo.",

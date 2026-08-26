@@ -27,8 +27,8 @@ export const maxillariaChrysantha = {
     climaFloracao: "IOSPE registra a espécie em torno de 1.400 m, com crescimento fresco e floração no inverno brasileiro. A maturação dos pseudobulbos sob boa luz filtrada, seguida por noites mais amenas, favorece a emissão floral. Isso não significa exigir frio extremo nem seca severa: a planta continua precisando de raízes hidratadas e oxigenadas, apenas com menor frequência de rega quando a evaporação cai.",
     iluminacao: {
         sombrite: "60%, podendo chegar a 70% em locais muito quentes",
-        solDireto: "Somente muito suave, após aclimatação",
-        horario: "Até aproximadamente 08:00",
+        solDireto: "Permitido com restrição",
+        horario: "Somente início da manhã",
         observacoes: "Prefere luz média filtrada. Em regiões serranas bem ventiladas, 50% a 60% de sombreamento pode funcionar. Folhas verde-médio e firmes indicam bom equilíbrio; folhagem muito escura sugere sombra excessiva, enquanto amarelecimento e manchas secas indicam excesso de luz ou calor."
     },
     floracao: "Predomina no inverno. Cada inflorescência basal mede cerca de 12,5 cm e porta uma única flor amarelo-ouro, perfumada, que pode alcançar aproximadamente 5 cm. Em touceiras maduras, várias hastes podem surgir quase ao mesmo tempo na base de diferentes pseudobulbos.",
@@ -180,7 +180,7 @@ export const maxillariaChrysantha = {
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "constante", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "muito-frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         avaliacoes: {

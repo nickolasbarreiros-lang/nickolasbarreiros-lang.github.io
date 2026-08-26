@@ -27,8 +27,8 @@ export const ornithophoraRadicans = {
     climaFloracao: "A espécie não exige repouso seco severo. A floração é favorecida por crescimento contínuo, luminosidade filtrada moderada, noites ligeiramente mais amenas e touceiras bem estabelecidas. No litoral quente, o maior inimigo não é o calor isoladamente, mas o calor parado associado ao excesso de umidade. Raízes bem oxigenadas produzem crescimento constante e mais hastes florais.",
     iluminacao: {
         sombrite: "50% a 70%",
-        solDireto: "Sim",
-        horario: "Até 08:30, com aclimatação",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Prefere meia-sombra clara. Folhas muito escuras indicam sombra excessiva; amarelecimento ou aquecimento foliar indicam excesso de sol."
     },
     floracao: "Principalmente no verão e outono, aproximadamente de dezembro a maio. As hastes arqueadas, finas e soltas chegam a cerca de 18 cm e carregam pequenas flores de 5 mm a 1 cm, frequentemente com perfume adocicado lembrando mel. Touceiras maduras podem emitir várias hastes e produzir um efeito muito delicado.",
@@ -180,7 +180,7 @@ export const ornithophoraRadicans = {
     },
     mesesFloracao: [12, 1, 2, 3, 4, 5],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

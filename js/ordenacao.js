@@ -80,23 +80,48 @@ function compararCultivoDificil(a, b) {
     return compararNomeAZ(a, b);
 }
 
+function obterNotaAvaliacao(orquidea, campo) {
+    const valor = Number(orquidea?.avaliacoes?.[campo]);
+    return Number.isFinite(valor) ? valor : 0;
+}
+
+function compararAvaliacao(campo, direcao = "menor") {
+    return (a, b) => {
+        const notaA = obterNotaAvaliacao(a, campo);
+        const notaB = obterNotaAvaliacao(b, campo);
+        if (notaA !== notaB) {
+            return direcao === "maior" ? notaB - notaA : notaA - notaB;
+        }
+        return compararNomeAZ(a, b);
+    };
+}
+
 /* =========================================================
    TABELA DE ORDENAÇÕES
 ========================================================= */
 
 const ORDENACOES = {
-
     "nome-az": compararNomeAZ,
-
     "nome-za": compararNomeZA,
 
     "raridade-maior": compararRaridadeMaior,
-
     "raridade-menor": compararRaridadeMenor,
 
+    // Mantidos por compatibilidade com versões anteriores.
     "cultivo-facil": compararCultivoFacil,
+    "cultivo-dificil": compararCultivoDificil,
 
-    "cultivo-dificil": compararCultivoDificil
+    // Avaliações da ficha (1 a 5 estrelas).
+    "cultivo-maior": compararAvaliacao("cultivo", "maior"),
+    "cultivo-menor": compararAvaliacao("cultivo", "menor"),
+    "luminosidade-maior": compararAvaliacao("luminosidade", "maior"),
+    "luminosidade-menor": compararAvaliacao("luminosidade", "menor"),
+    "agua-maior": compararAvaliacao("agua", "maior"),
+    "agua-menor": compararAvaliacao("agua", "menor"),
+    "floracao-maior": compararAvaliacao("floracao", "maior"),
+    "floracao-menor": compararAvaliacao("floracao", "menor"),
+    "perfume-maior": compararAvaliacao("perfume", "maior"),
+    "perfume-menor": compararAvaliacao("perfume", "menor")
 };
 
 /* =========================================================

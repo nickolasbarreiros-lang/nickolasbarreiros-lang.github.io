@@ -28,8 +28,8 @@ export const cattleyaPumpkinFestival = {
     climaFloracao: "A floração é favorecida pela maturação completa dos pseudobulbos, luminosidade intensa, boa ventilação, leve redução das regas após o crescimento e noites ligeiramente mais frescas. Clones vigorosos podem apresentar florações secundárias fora da época principal.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Somente suave",
-        horario: "Até aproximadamente 09:00",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Em Litoral de clima quente, prefira sombrite de 50%. Folhas firmes e verde-claras indicam boa luminosidade; folhas muito escuras costumam acompanhar floração fraca. Aclimate gradualmente para evitar queimaduras."
     },
     floracao: "Predominantemente do outono ao início do inverno, entre março e junho, com variação conforme o clone e o ciclo de crescimento.",
@@ -182,7 +182,7 @@ export const cattleyaPumpkinFestival = {
     },
     mesesFloracao: [3, 4, 5, 6],
     "selosCultivo": {
-        "rega": { "nivel": "constante", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

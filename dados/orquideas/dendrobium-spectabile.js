@@ -28,8 +28,8 @@ export const dendrobiumSpectabile = {
     climaFloracao: "Plantas maduras florescem melhor depois de uma estação de crescimento vigoroso e bem iluminado. Não exige repouso seco severo, mas uma redução moderada das regas quando as hastes amadurecem e o clima esfria pode acompanhar o ciclo natural. No litoral quente, o desenvolvimento vegetativo tende a ser favorecido.",
     iluminacao: {
         sombrite: "40% a 60%",
-        solDireto: "Sol fraco da manhã após aclimatação",
-        horario: "Luz filtrada intensa durante grande parte do dia",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Precisa de boa luminosidade para amadurecer hastes fortes. Sombra profunda pode atrasar a floração. No litoral quente, proteja apenas do sol mais agressivo do meio do dia e mantenha boa circulação de ar."
     },
     floracao: "Predominantemente no inverno e início da primavera. Para o calendário do site, junho a outubro funciona como janela de referência, com variações conforme origem e condições de cultivo.",
@@ -194,7 +194,7 @@ export const dendrobiumSpectabile = {
     },
     mesesFloracao: [6, 7, 8, 9, 10],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 4, agua: 4, raridade: 4 }

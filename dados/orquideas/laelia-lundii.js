@@ -28,8 +28,8 @@ export const laeliaLundii = {
     climaFloracao: "A floração melhora quando os novos pseudobulbos amadurecem sob luz alta filtrada, boa circulação de ar e raízes ativas. O habitat sazonal justifica uma redução natural da água quando o crescimento desacelera, mas não um repouso seco rígido. Em litoral quente, a prioridade é evitar raízes abafadas e noites excessivamente quentes e úmidas; touceiras adultas e pouco divididas acumulam mais reservas e tendem a florir com maior regularidade.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Somente sol fraco e aclimatado",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Precisa de mais luz que muitas miniaturas. Busque folhas firmes, crescimento compacto e pseudobulbos bem formados. Folhas muito escuras e alongamento sugerem sombra excessiva; tecido amarelado ou queimado indica radiação e calor acima do ideal."
     },
     floracao: "Do meio do inverno à primavera, com maior ocorrência entre julho e outubro. As inflorescências são curtas e normalmente carregam duas flores perfumadas de aproximadamente 3–4 cm, posicionadas entre as folhas.",
@@ -181,7 +181,7 @@ export const laeliaLundii = {
     },
     mesesFloracao: [7, 8, 9, 10],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

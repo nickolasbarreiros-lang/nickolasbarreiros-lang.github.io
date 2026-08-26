@@ -27,8 +27,8 @@ export const aciantheraAveniformis = {
     climaFloracao: "A origem em baixa a média elevação, com referência próxima de 400 m, não sustenta tratá-la como espécie obrigatoriamente fria. Para florescer no litoral quente, o objetivo é evitar superaquecimento e abafamento, mas sem impor noites artificialmente frias. Crescimentos maduros, umidade atmosférica estável, raízes ativas e boa circulação de ar são mais relevantes que uma queda térmica extrema.",
     iluminacao: {
         sombrite: "70% como referência inicial;",
-        solDireto: "Evitar; no máximo luz solar muito suave",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Não permitido",
+        horario: "",
         observacoes: "Prefere luz difusa de baixa a moderada intensidade. Em clima litorâneo quente, cerca de 70% de sombreamento é uma referência segura porque reduz aquecimento sem mergulhar a planta em sombra profunda. Folhas firmes, crescimento compacto e ausência de aquecimento excessivo indicam equilíbrio; folhas muito escuras e crescimento fraco sugerem falta de luz, enquanto amarelecimento rápido ou manchas secas indicam excesso."
     },
     floracao: "Predominantemente no inverno. Para cultivo no Brasil, junho a agosto é uma janela prática de referência, podendo variar com microclima, procedência e ritmo de maturação dos ramicaules.",

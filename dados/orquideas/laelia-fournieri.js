@@ -30,8 +30,8 @@ export const laeliaFournieri = {
     climaFloracao: "A floração depende de crescimento compacto, muita luz e raízes ativas sob temperaturas moderadas. O calor noturno persistente pode reduzir vigor e indução floral; no litoral, priorize o ponto mais fresco e ventilado do orquidário em vez de compensar o calor com seca severa.",
     iluminacao: {
         sombrite: "30% a 50% — cerca de 50% no verão quente",
-        solDireto: "Somente muito suave",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "É uma espécie de alta luminosidade, mas em litoral quente o risco principal é superaquecer folhas, pedras e raízes. Forneça claridade muito alta com ventilação intensa e evite suportes escuros expostos ao sol forte."
     },
     floracao: "Predomina do verão ao outono. A inflorescência é curta, em torno de 1,5 cm, e pode produzir simultaneamente cerca de 3–7 flores de aproximadamente 2,5–3 cm.",

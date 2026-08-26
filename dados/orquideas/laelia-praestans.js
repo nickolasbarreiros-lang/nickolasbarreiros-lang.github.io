@@ -28,8 +28,8 @@ export const laeliaPraestans = {
     climaFloracao: "A floração depende de pseudobulbos bem amadurecidos, luz moderada a alta e raízes saudáveis. Como cresce em floresta úmida de altitude moderada, não necessita de repouso seco forte; após a maturação, basta reduzir discretamente a frequência das regas. Em litoral quente, noites abafadas e substrato continuamente molhado são mais problemáticos que a falta de frio intenso, por isso ventilação e raízes oxigenadas são prioridades.",
     iluminacao: {
         sombrite: "40% a 60% — 50% como ponto inicial",
-        solDireto: "Somente muito suave e aclimatado",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Prefere mais luz que miniaturas de sombra profunda, mas não deve receber o mesmo sol de espécies rupícolas. Folhas verde-escuras e crescimento alongado sugerem pouca luz; amarelecimento rápido ou manchas secas indicam excesso de radiação ou calor."
     },
     floracao: "Principalmente na primavera, com maior probabilidade entre setembro e novembro. Produz normalmente uma ou duas flores grandes, de cerca de 7,5 cm, muito vistosas em relação ao porte compacto da planta.",

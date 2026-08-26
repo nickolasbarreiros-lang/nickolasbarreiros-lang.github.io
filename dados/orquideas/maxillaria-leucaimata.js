@@ -27,8 +27,8 @@ export const maxillariaLeucaimata = {
     climaFloracao: "IOSPE registra crescimento quente a fresco, ocorrência em espaços abertos da Mata Atlântica e floração no verão e outono. Como também aparece sobre rochas, a planta está acostumada a raízes muito oxigenadas e alternância rápida entre molhamento e aeração. Não exige repouso seco rigoroso: depois da maturação, apenas reduza discretamente a frequência de rega. Touceiras maduras e não divididas tendem a emitir várias hastes basais.",
     iluminacao: {
         sombrite: "50% a 70%",
-        solDireto: "Somente sol muito suave",
-        horario: "Início da manhã ou fim da tarde",
+        solDireto: "Permitido com restrição",
+        horario: "Somente início da manhã",
         observacoes: "Prefere claridade filtrada abundante. Folhas verde-médio a verde-claro e pseudobulbos firmes indicam bom equilíbrio. Folhas muito escuras e crescimento frouxo sugerem pouca luz; amarelecimento intenso, manchas secas ou aquecimento indicam excesso. No litoral quente, 60% a 70% costuma ser mais seguro."
     },
     floracao: "Mais comum do verão ao outono. Cada inflorescência ereta pode atingir cerca de 20 cm e porta uma única flor de aproximadamente 3 a 4 cm. Plantas adultas podem produzir várias hastes quase simultaneamente, formando uma floração mais cheia sem que cada haste deixe de ser uniflora.",
@@ -180,7 +180,7 @@ export const maxillariaLeucaimata = {
     },
     mesesFloracao: [12, 1, 2, 3, 4, 5],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         avaliacoes: {

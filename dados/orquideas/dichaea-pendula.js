@@ -31,8 +31,8 @@ export const dichaeaPendula = {
     climaFloracao: "A espécie é associada a florestas úmidas de altitude e tende a responder melhor quando recebe noites mais amenas, alta umidade atmosférica e pouca oscilação hídrica. IOSPE registra floração na primavera e no verão. No litoral quente, a indução floral pode ser favorecida pelo período mais ameno do ano, desde que a planta continue ativa e hidratada. Não possui repouso seco verdadeiro.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Não recomendado",
-        horario: "Luz difusa ao longo do dia",
+        solDireto: "Não permitido",
+        horario: "",
         observacoes: "Prefere sombra clara de sub-bosque. Luz insuficiente deixa as hastes fracas; sol direto, principalmente associado a calor, desidrata rapidamente folhas e raízes finas."
     },
     floracao: "Na natureza, é registrada principalmente na primavera e no verão. Em cultivo no Sudeste brasileiro, pode variar conforme temperatura e procedência. As flores surgem individualmente em pequenas hastes axilares ao longo dos ramos e podem aparecer sucessivamente em uma planta bem estabelecida.",
@@ -184,7 +184,7 @@ export const dichaeaPendula = {
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         avaliacoes: {

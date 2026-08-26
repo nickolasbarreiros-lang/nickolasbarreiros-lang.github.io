@@ -1,4 +1,0 @@
-ficha criada: OK
-import no index: OK
-registro no catálogo: OK
-4 fotos: OK

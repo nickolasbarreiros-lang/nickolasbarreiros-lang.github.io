@@ -28,8 +28,8 @@ export const maxillariaTenuifolia = {
     "climaFloracao": "IOSPE registra florescimento na primavera e no verão, com flores de aproximadamente 3,9–5 cm. Após a floração, a fonte menciona um período mais seco; em cultivo no litoral quente, isso deve ser interpretado como redução moderada da rega, e não como repouso seco absoluto. Mantenha pseudobulbos firmes, boa luz e raízes arejadas, ajustando a água à velocidade real de secagem.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Somente sol suave",
-        "horario": "Até aproximadamente 08:30",
+        "solDireto": "Permitido com restrição",
+        "horario": "Somente início da manhã",
         "observacoes": "Ofereça luz filtrada forte durante todo o dia. Folhas verde-médio a verde-claro e firmes indicam bom equilíbrio. Folhagem muito escura, mole e crescimento abundante sem flores sugerem pouca luz. Aumente a claridade gradualmente para não queimar folhas acostumadas à sombra."
     },
     "floracao": "Predomina da primavera ao início do verão no cultivo, normalmente entre setembro e dezembro, podendo variar conforme o clima local. As flores medem cerca de 4–5 cm, são cerosas e intensamente perfumadas, com aroma de coco que costuma ficar mais forte nas horas quentes e luminosas.",

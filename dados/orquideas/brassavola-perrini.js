@@ -27,8 +27,8 @@ export const brassavolaPerrini = {
     climaFloracao: "A floração é favorecida por luz intensa, crescimento plenamente amadurecido, boa ventilação e diferença moderada entre as temperaturas do dia e da noite. Sombra excessiva e adubação nitrogenada contínua produzem folhas longas e verdes, mas poucas flores.",
     iluminacao: {
         sombrite: "30% a 40%",
-        solDireto: "Sim, suave",
-        horario: "Até aproximadamente 09:30",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Exige alta luminosidade, com sombreamento de 30% a 40% ou sol filtrado intenso. Folhas firmes de coloração verde-clara indicam luminosidade ideal. O amarelamento localizado ou o aparecimento de áreas secas sinalizam queimaduras por sol excessivo."
     },
     floracao: "Primavera ao verão; a época varia conforme procedência. O conceito histórico de B. perrinii é associado a populações montanas, hoje incluídas em B. tuberculata.",
@@ -180,7 +180,7 @@ export const brassavolaPerrini = {
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         avaliacoes: {

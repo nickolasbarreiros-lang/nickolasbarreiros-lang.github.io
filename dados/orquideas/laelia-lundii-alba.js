@@ -28,8 +28,8 @@ export const laeliaLundiiAlba = {
     climaFloracao: "O manejo é o mesmo da espécie: crescimento ativo com água regular, raízes bem oxigenadas e luz alta filtrada, seguido de redução discreta da água quando a atividade diminui. A coloração alba não significa necessidade de sombra profunda. Touceiras adultas acumulam mais reservas e podem produzir várias flores claras simultaneamente.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Apenas sol muito suave e aclimatado",
-        horario: "Bem cedo pela manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Mantenha luz suficiente para produzir crescimento compacto e pseudobulbos firmes. Proteja do sol forte do litoral, mas não transforme essa proteção em sombra excessiva."
     },
     floracao: "Do meio do inverno à primavera, normalmente entre julho e outubro. A forma alba segue a fenologia de Cattleya lundii e pode apresentar duas flores perfumadas por pequena inflorescência.",
@@ -181,7 +181,7 @@ export const laeliaLundiiAlba = {
     },
     mesesFloracao: [7, 8, 9, 10],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

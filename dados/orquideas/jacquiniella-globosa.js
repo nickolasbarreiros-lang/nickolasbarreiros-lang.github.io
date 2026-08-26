@@ -20,15 +20,15 @@ export const jacquiniellaGlobosa = {
         "imagens/Jacquiniella globosa/Jacquiniella globosa4.jpeg"
     ],
     descricao: "Uma miniatura discreta, mas cheia de personalidade! Jacquiniella globosa forma pequenos tufos ou mantas de caules finos, com folhas carnosas quase cilíndricas e flores minúsculas de cerca de 3 mm surgindo no ápice dos ramos. Sua distribuição é enorme — do sul do México a grande parte da América tropical — e isso explica a ampla tolerância térmica observada na espécie. Em cultivo, o segredo não é buscar frio ou calor específico, mas oferecer umidade regular, muita ventilação e raízes que recebam água sem permanecer abafadas.",
-    origem: "América Central, Caribe e América do Sul.",
+    origem: "Sul do México à América Tropical.",
     regiao: "América Central, Caribe e América do Sul; Brasil incluso.",
     habitat: "Florestas úmidas · epífita/litófita · ~200–2.400 m.",
     clima: "Quente a fresco · úmido · bem ventilado.",
     climaFloracao: "Não exige repouso seco nem choque térmico específico. A floração tende a acompanhar caules maduros sob boa luminosidade filtrada, umidade regular e ventilação constante; procedências de altitude podem responder melhor a noites mais amenas.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Não recomendado",
-        horario: "Luz clara e filtrada",
+        solDireto: "Não permitido",
+        horario: "",
         observacoes: "Folhas firmes em verde-médio indicam equilíbrio. Folhagem muito escura e caules alongados sugerem pouca luz; avermelhamento discreto pode ocorrer com maior claridade, mas manchas secas ou aquecimento excessivo indicam excesso."
     },
     floracao: "Pode florescer em qualquer época do ano. As flores são muito pequenas, com cerca de 3 mm, surgem sucessivamente no ápice dos caules e costumam aparecer uma ou duas por vez.",

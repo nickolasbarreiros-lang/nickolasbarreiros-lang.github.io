@@ -28,8 +28,8 @@ export const maxillariaSubulata = {
     "climaFloracao": "IOSPE registra floração na primavera, com hastes curtas e uma única flor de cerca de 2,5 cm. A espécie ocorre em uma ampla faixa latitudinal brasileira e não deve ser tratada como estritamente fria. No litoral quente, boa ventilação, luz filtrada clara e um substrato que seque rapidamente são mais importantes que tentar impor resfriamento artificial ou repouso seco.",
     "iluminacao": {
         "sombrite": "60% a 70%",
-        "solDireto": "Somente sol muito brando",
-        "horario": "Primeiras horas da manhã",
+        "solDireto": "Permitido com restrição",
+        "horario": "Somente início da manhã",
         "observacoes": "Necessita luz filtrada brilhante. Folhas firmes em verde-médio indicam equilíbrio. Touceiras muito escuras, alongadas ou amolecidas sugerem sombra excessiva. Amarelecimento forte, pontas ressecadas ou manchas claras indicam excesso de sol ou calor."
     },
     "floracao": "Mais característica na primavera, aproximadamente de setembro a novembro. As flores são solitárias, cerosas e medem cerca de 2,5 cm, surgindo em hastes curtas junto à base dos pseudobulbos. Exemplares bem estabelecidos podem florir em vários crescimentos no mesmo período.",
@@ -181,7 +181,7 @@ export const maxillariaSubulata = {
     },
     "mesesFloracao": [9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "intermediario" }
     },
         "avaliacoes": {

@@ -31,8 +31,8 @@ export const coelogyneOvalisVarMiniatum = {
     "climaFloracao": "A espécie ocupa uma faixa altitudinal muito ampla, portanto não deve ser resumida simplesmente como ‘fria’. Em cultivo no litoral quente, o fator limitante tende a ser o excesso de calor noturno associado a pouca ventilação. Crescimento contínuo, raízes ativas, boa umidade do ar e noites tão amenas quanto possível favorecem a maturação dos pseudobulbos. A identificação ‘Miniatum’ deve ser confirmada pelas flores antes de transformar qualquer calendário em regra fixa.",
     "iluminacao": {
         "sombrite": "60% a 70%",
-        "solDireto": "Somente muito suave",
-        "horario": "Primeiras horas da manhã",
+        "solDireto": "Permitido com restrição",
+        "horario": "Somente início da manhã",
         "observacoes": "Prefere sombra luminosa, com bastante claridade difusa. Folhas verde-médio e pseudobulbos firmes indicam equilíbrio. Sombra excessiva reduz a floração; sol forte combinado com calor desidrata folhas e rizoma rapidamente."
     },
     "floracao": "Na Coelogyne ovalis típica, a floração pode ocorrer do verão ao inverno, com maior variação conforme procedência e condições de cultivo. As inflorescências são curtas, com poucas flores que podem abrir de forma sucessiva. Cada flor mede aproximadamente 3–4 cm e pode apresentar perfume. Para este exemplar, fotografe planta inteira, flor frontal, perfil e labelo para confirmar a identificação.",
@@ -194,7 +194,7 @@ export const coelogyneOvalisVarMiniatum = {
         2
     ],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "sazonal" },
         "climaFloracao": { "faixa": "ameno" }
     },
         "avaliacoes": {

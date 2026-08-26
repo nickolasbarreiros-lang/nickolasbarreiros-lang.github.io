@@ -31,8 +31,8 @@ export const cattleyaNobiliorVarAmaliae = {
     climaFloracao: "A floração é favorecida por pseudobulbos completamente maduros, luminosidade muito alta e forte redução hídrica no período seco. A planta frequentemente emite crescimento floral especializado e sem folhas a partir da região basal ou rizomatosa. O princípio correto é reproduzir a sazonalidade: crescimento com água e nutrição suficientes, seguido de repouso realmente mais seco, mas sem permitir desidratação severa e prolongada.",
     iluminacao: {
         sombrite: "30% a 50% — cerca de 40% como ponto inicial",
-        solDireto: "Sim, suave e aclimatado",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Necessita luminosidade muito alta. O objetivo é manter folhas firmes, compactas e verde-claras, sem buscar amarelecimento como sinal obrigatório. Folhas verde-escuras sugerem falta de luz; amarelecimento intenso ou manchas secas indicam excesso de sol ou calor."
     },
     floracao: "Principalmente do fim do inverno à primavera, com maior concentração entre setembro e outubro e possibilidade de antecipação para agosto. A época acompanha o final da estação seca e pode variar conforme clone, microclima e momento de maturação dos pseudobulbos.",
@@ -184,7 +184,7 @@ export const cattleyaNobiliorVarAmaliae = {
     },
     mesesFloracao: [8, 9, 10],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

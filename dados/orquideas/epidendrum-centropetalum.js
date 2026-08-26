@@ -29,8 +29,8 @@ export const epidendrumCentropetalum = {
     climaFloracao: "Floresce melhor com boa luminosidade filtrada, umidade elevada e noites mais frescas. No litoral quente, o ponto crítico é reduzir o superaquecimento noturno e manter forte circulação de ar. A planta não exige seca intensa para florescer, mas aprecia uma leve redução de água quando os caules já estão maduros.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Apenas sol fraco, se bem aclimatada",
-        horario: "Luz filtrada intensa ao longo do dia",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Na natureza pode ocorrer em condições relativamente claras, mas em cultivo no litoral quente é mais seguro oferecer luz filtrada intensa. Sombra excessiva produz caules fracos e reduz a floração; sol forte nas horas quentes pode desidratar rapidamente folhas e raízes aéreas."
     },
     floracao: "Tende a florescer do fim do inverno até a primavera e o início do verão, com variação conforme clima e maturação dos caules. Para o calendário do site, agosto a janeiro funciona como janela prática de referência.",

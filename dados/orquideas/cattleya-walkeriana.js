@@ -32,8 +32,8 @@ export const cattleyaWalkeriana = {
     "climaFloracao": "A floração depende de pseudobulbos completamente maduros, folhas firmes, raízes preservadas, luz elevada e redução gradual das regas após o crescimento. A espécie não deve ser tratada como permanentemente seca: durante brotação e enraizamento precisa de água abundante e nutrição leve. Quando as pontas radiculares reduzem a atividade e os pseudobulbos estão cheios, aumentam-se os intervalos e suspende-se a adubação forte. Pouca luz, excesso de nitrogênio e raízes danificadas reduzem a formação do broto floral.",
     "iluminacao": {
         "sombrite": "30% a 50%",
-        "solDireto": "Sim, suave e após aclimatação",
-        "horario": "Primeiras horas da manhã",
+        "solDireto": "Permitido com restrição",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Folhas verde-claras, rígidas e compactas, às vezes com leve pigmentação amarelada ou avermelhada, indicam boa luz. Folhas muito escuras e pseudobulbos alongados indicam sombra excessiva. Manchas secas e clareamento repentino indicam sol forte sem aclimatação."
     },
     "floracao": "Floresce principalmente do outono ao inverno, geralmente entre abril e agosto. A haste curta surge de um broto floral áfilo emitido pelo rizoma, e não do ápice de um pseudobulbo folhoso. As flores são grandes, firmes, cerosas e intensamente perfumadas. A planta pode permanecer aparentemente parada por semanas antes de emitir o broto floral; isso faz parte do ciclo natural.",
@@ -191,7 +191,7 @@ export const cattleyaWalkeriana = {
         8
     ],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
         "avaliacoes": {

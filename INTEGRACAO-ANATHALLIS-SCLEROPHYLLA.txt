@@ -1,9 +1,0 @@
-INTEGRAÇÃO — ANATHALLIS SCLEROPHYLLA
-
-- ficha JS presente: OK
-- import no index.js: OK
-- registro no catálogo: OK
-- 4 fotos físicas: OK
-- 4 fotos referenciadas: OK
-- IDC 2.0 presente: OK
-- IDC 55 Moderada: OK

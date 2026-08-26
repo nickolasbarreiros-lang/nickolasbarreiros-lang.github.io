@@ -18,7 +18,7 @@ export const arpophyllumGiganteum = {
         "imagens/Arpophyllum giganteum/Arpophyllum giganteum4.jpeg"
     ],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "sazonal", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "intermediario" }
     },
         avaliacoes: { cultivo: 4, floracao: 4, perfume: 1, luminosidade: 4, agua: 4, raridade: 3 },
@@ -27,8 +27,8 @@ export const arpophyllumGiganteum = {
     climaFloracao: "A faixa natural de 800–1.500 m explica a combinação aparentemente contraditória de fontes que a tratam como quente, intermediária ou fresca. A espécie suporta dias quentes, mas tende a florescer melhor quando o calor não permanece elevado durante toda a noite. No litoral, mantenha a planta em local muito ventilado, com alta claridade sem superaquecimento; pseudobulbos recém-maduros e bem abastecidos de água são os que originam as inflorescências terminais.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Somente suave",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Somente início da manhã",
         observacoes: "Referências recomendam luz ampla, comparável à de Cattleyas cultivadas em condição fresca. Folhas firmes de verde médio a verde-claro e pseudobulbos robustos indicam bom nível de luz. Folhas muito escuras com plantas volumosas que não florescem sugerem sombra excessiva; amarelecimento e aquecimento rápido indicam excesso de radiação ou ventilação insuficiente."
     },
     floracao: "Principalmente do fim do inverno à primavera. No Brasil, agosto a novembro é uma janela prática coerente. A haste terminal surge de pseudobulbo recém-maduro e pode alcançar cerca de 40 cm, carregando grande número de pequenas flores rosa-púrpura em espiral.",

@@ -1,0 +1,26 @@
+ESCALA EDITORIAL DE LUZ — 1 A 5 ESTRELAS
+
+A escala indica NECESSIDADE LUMINOSA relativa para ordenação e comparação entre espécies. Não representa horas de sol direto.
+
+★☆☆☆☆  Muito baixa
+Ambientes muito sombreados, luz difusa; espécies fortemente umbrófilas.
+
+★★☆☆☆  Baixa
+Sombra clara a moderada; normalmente 70–80% de sombreamento ou equivalente, evitando sol direto.
+
+★★★☆☆  Moderada
+Luz filtrada clara; faixa intermediária, normalmente associada a 60–70% de sombreamento, com ajustes por espécie.
+
+★★★★☆  Alta
+Ambiente muito claro e filtrado; frequentemente 40–60% de sombreamento. Algum sol fraco pode ser tolerado conforme a espécie.
+
+★★★★★  Muito alta
+Grupos de elevada exigência luminosa, normalmente 20–50% de sombreamento, alta claridade ou maior tolerância a sol após aclimatação.
+
+REGRA DE SEGURANÇA
+Nunca transformar automaticamente porcentagem de sombrite em estrelas. Sempre cruzar:
+1. faixa de sombrite;
+2. solDireto;
+3. horário seguro;
+4. habitat/altitude;
+5. observações específicas da ficha.

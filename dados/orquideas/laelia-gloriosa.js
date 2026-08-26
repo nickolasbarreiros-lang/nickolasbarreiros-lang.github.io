@@ -28,8 +28,8 @@ export const laeliaGloriosa = {
     climaFloracao: "Pseudobulbos maduros, luminosidade elevada e raízes saudáveis favorecem hastes fortes. Após o crescimento, aumente moderadamente o intervalo entre regas, sem provocar desidratação severa. Por ser uma espécie tropical de baixa a média altitude, não necessita de frio intenso para florescer.",
     iluminacao: {
         sombrite: "30% a 50%",
-        solDireto: "Sim, quando aclimatada",
-        horario: "Sol suave da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Folhas firmes em verde-claro indicam boa luminosidade. Verde muito escuro costuma produzir crescimento sem floração; amarelecimento forte, manchas secas ou aquecimento foliar indicam excesso."
     },
     floracao: "Predomina do outono ao início do inverno. Hastes terminais podem ultrapassar 1,2 m e carregar aproximadamente 8–15 flores agrupadas no ápice, com flores cerosas de cerca de 5 cm.",
@@ -181,7 +181,7 @@ export const laeliaGloriosa = {
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         avaliacoes: {

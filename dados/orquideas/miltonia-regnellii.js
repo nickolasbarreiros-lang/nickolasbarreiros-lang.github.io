@@ -28,8 +28,8 @@ export const miltoniaRegnellii = {
     "climaFloracao": "A floração depende principalmente da maturação completa do pseudobulbo novo. Durante a brotação, a planta precisa de raízes ativas, umidade regular, luz filtrada abundante e nutrição moderada. Depois que o pseudobulbo estiver firme e encorpado, uma discreta redução da frequência das regas, associada a noites um pouco mais frescas, favorece a indução floral. Não imponha repouso seco severo, pois as raízes finas e os pseudobulbos podem desidratar.",
     "iluminacao": {
         "sombrite": "50% a 70%",
-        "solDireto": "Somente sol fraco",
-        "horario": "Até 8h30 ou no fim da tarde",
+        "solDireto": "Permitido com restrição",
+        "horario": "Somente início da manhã",
         "observacoes": "Luz filtrada média a intensa. Folhas verde-claro indicam boa exposição; folhas verde-escuras e sem flores sugerem sombra excessiva. Evite aquecer as folhas no meio do dia."
     },
     "floracao": "Principalmente da primavera ao verão. As hastes surgem das bainhas dos pseudobulbos maduros e carregam várias flores claras, com labelo rosado a púrpura. Em plantas antigas e não divididas, vários pseudobulbos podem emitir hastes no mesmo ciclo, formando uma floração cheia e elegante.",
@@ -181,7 +181,7 @@ export const miltoniaRegnellii = {
     },
     "mesesFloracao": [9, 10, 11, 12, 1, 2],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
         "avaliacoes": {

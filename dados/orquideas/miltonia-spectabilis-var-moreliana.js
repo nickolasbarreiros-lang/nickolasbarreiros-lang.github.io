@@ -28,8 +28,8 @@ export const miltoniaSpectabilisVarMoreliana = {
     "climaFloracao": "A flor normalmente surge após a maturação completa do pseudobulbo. Boa luz filtrada, amplitude térmica moderada e crescimento contínuo favorecem a indução. Não imponha seca severa. Quanto mais cheio e vigoroso amadurecer o pseudobulbo, maior tende a ser a flor, mais intensa a pigmentação e melhor a capacidade de sustentar a brotação seguinte.",
     "iluminacao": {
         "sombrite": "50% a 70%",
-        "solDireto": "Somente sol suave",
-        "horario": "Até aproximadamente 08:30 ou no fim da tarde",
+        "solDireto": "Permitido com restrição",
+        "horario": "Somente início da manhã",
         "observacoes": "Luz filtrada média a intensa. Folhas verde-médio a verde-claro, eventualmente com leve tonalidade amarelada, indicam boa luminosidade. Folhagem verde-escura e mole sugere sombra excessiva. Faça qualquer aumento de luz gradualmente."
     },
     "floracao": "Predominantemente do verão ao outono. As hastes surgem junto aos pseudobulbos maduros e normalmente exibem flores grandes e muito vistosas, com pigmentação vinho a púrpura e amplo labelo intensamente marcado. Plantas vigorosas podem produzir mais de uma haste no mesmo ciclo.",
@@ -181,7 +181,7 @@ export const miltoniaSpectabilisVarMoreliana = {
     },
     "mesesFloracao": [1, 2, 3, 4, 5],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {

@@ -29,8 +29,8 @@ export const promenaeaXanthina = {
     climaFloracao: "A floração é favorecida por planta bem estabelecida, noites amenas, umidade constante e luz filtrada. No litoral quente, evite sobretudo o superaquecimento noturno. Após a maturação dos pseudobulbos, uma breve redução nas regas pode ajudar, mas sem transformar o período em repouso seco.",
     iluminacao: {
         sombrite: "70% a 80%",
-        solDireto: "Não recomendado",
-        horario: "Luz difusa e filtrada ao longo do dia",
+        solDireto: "Não permitido",
+        horario: "",
         observacoes: "As folhas finas aquecem e queimam com facilidade. No litoral quente, 70% a 80% de sombreamento é uma faixa segura, desde que o ambiente permaneça claro. Sombra excessivamente fechada reduz vigor e floração."
     },
     floracao: "Principalmente na primavera e no verão. Para o calendário do site, setembro a fevereiro funciona como janela prática de referência, podendo variar conforme procedência e condições de cultivo.",
@@ -195,7 +195,7 @@ export const promenaeaXanthina = {
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         avaliacoes: {

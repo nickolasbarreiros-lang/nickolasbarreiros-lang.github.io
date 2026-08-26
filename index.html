@@ -5,14 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Orquidário Digital: aprenda, cultive e descubra o fascinante mundo das orquídeas.">
   <title>Orquidário Digital</title>
-  <link rel="stylesheet" href="estilos.css?v=42">
+  <link rel="stylesheet" href="estilos.css?v=20260825-premium-v17-filtros">
 </head>
 <body class="pagina-home-v4">
   <header class="topo-v4">
     <div class="topo-v4-conteudo">
       <a class="marca-v4" href="#inicio" aria-label="Ir para o início do Orquidário Digital">
-        <span class="marca-v4-icone" aria-hidden="true"><i></i></span>
-        <span><strong>Orquidário</strong><small>Digital</small></span>
+        <img class="logo-v6" src="imagens/interface/logo-orquidario-digital.svg?v=7" alt="Orquidário Digital">
       </a>
       <nav class="menu-v4" aria-label="Navegação principal">
         <a class="ativo" href="#inicio">⌂ Início</a>
@@ -42,31 +41,28 @@
           <button class="botao-hero-v4 primario" type="button" data-destino="#catalogo-area">Explorar catálogo</button>
           <button class="botao-hero-v4 secundario" type="button" data-destino="#floracoes">Floração do mês</button>
         </div>
+        <aside class="selo-manifesto-v5" aria-label="Manifesto do Orquidário Digital"><span>✿</span><b>BELEZA QUE ENCANTA</b><i></i><b>NATUREZA QUE INSPIRA</b><i></i><b>PAIXÃO QUE CULTIVAMOS</b></aside>
 
-        <section class="painel-estatisticas estatisticas-v4 estatisticas-botanicas" aria-label="Estatísticas do Orquidário Digital">
-          <article class="cartao-estatistica cartao-botanico botanico-especies">
-            <span class="icone-botanico" aria-hidden="true">✿</span>
-            <div class="conteudo-botanico"><strong id="total-orquideas">0</strong><i aria-hidden="true"></i><small><b>Espécies</b> cadastradas</small></div>
-          </article>
-          <article class="cartao-estatistica cartao-botanico botanico-generos">
-            <span class="icone-botanico" aria-hidden="true">⌁</span>
-            <div class="conteudo-botanico"><strong id="total-generos">0</strong><i aria-hidden="true"></i><small><b>Gêneros</b> diferentes</small></div>
-          </article>
-          <article class="cartao-estatistica cartao-botanico botanico-brasileiras">
-            <span class="icone-botanico texto" aria-hidden="true">BR</span>
-            <div class="conteudo-botanico"><strong id="total-origens">0</strong><i aria-hidden="true"></i><small><b>Orquídeas</b> brasileiras</small></div>
-          </article>
-          <article class="cartao-estatistica cartao-botanico botanico-estrangeiras">
-            <span class="icone-botanico" aria-hidden="true">◎</span>
-            <div class="conteudo-botanico"><strong id="total-raras">0</strong><i aria-hidden="true"></i><small><b>Orquídeas</b> estrangeiras</small></div>
-          </article>
-        </section>
       </div>
     </section>
 
+    <section class="faixa-premium-v5" aria-label="Áreas principais do Orquidário Digital">
+      <button type="button" data-destino="#catalogo-area"><b>✿</b><span><strong>ESPÉCIES</strong><small>Catálogo de orquídeas selecionadas</small></span></button>
+      <button type="button" data-destino="#pesquisa"><b>❧</b><span><strong>CULTIVO</strong><small>Luz, rega, clima e manejo</small></span></button>
+      <button type="button" data-destino="#catalogo-area"><b>◎</b><span><strong>DISTRIBUIÇÃO</strong><small>Origem, habitat e ocorrência</small></span></button>
+      <button type="button" data-destino="#catalogo-area"><b>★</b><span><strong>RARIDADE</strong><small>Índice de raridade e conservação</small></span></button>
+      <button type="button" data-destino="#floracoes"><b>▣</b><span><strong>CALENDÁRIO</strong><small>Épocas de floração das espécies</small></span></button>
+    </section>
+
     <div class="container-v4">
+      <section class="painel-estatisticas estatisticas-v4 estatisticas-botanicas resumo-colecao-v5" aria-label="Estatísticas do Orquidário Digital">
+        <article class="cartao-estatistica cartao-botanico botanico-especies"><span class="icone-botanico" aria-hidden="true">✿</span><div class="conteudo-botanico"><strong id="total-orquideas">0</strong><i aria-hidden="true"></i><small><b>Espécies</b> cadastradas</small></div></article>
+        <article class="cartao-estatistica cartao-botanico botanico-generos"><span class="icone-botanico" aria-hidden="true">⌁</span><div class="conteudo-botanico"><strong id="total-generos">0</strong><i aria-hidden="true"></i><small><b>Gêneros</b> diferentes</small></div></article>
+        <article class="cartao-estatistica cartao-botanico botanico-brasileiras"><span class="icone-botanico texto" aria-hidden="true">BR</span><div class="conteudo-botanico"><strong id="total-origens">0</strong><i aria-hidden="true"></i><small><b>Orquídeas</b> brasileiras</small></div></article>
+        <article class="cartao-estatistica cartao-botanico botanico-estrangeiras"><span class="icone-botanico" aria-hidden="true">◎</span><div class="conteudo-botanico"><strong id="total-raras">0</strong><i aria-hidden="true"></i><small><b>Orquídeas</b> estrangeiras</small></div></article>
+      </section>
       <section class="explorar-v4" aria-labelledby="titulo-explorar">
-        <div class="titulo-secao-v4"><h2 id="titulo-explorar">Explore o Orquidário</h2><span></span></div>
+        <div class="titulo-secao-v4 titulo-explorar-v8"><h2 id="titulo-explorar">Explore o Orquidário</h2><p>CONHEÇA ESPÉCIES, GÊNEROS, ORIGENS E DICAS DE CULTIVO</p><span></span></div>
         <div class="atalhos-v4">
           <button class="atalho-v4" data-destino="#catalogo-area"><b>▤</b><strong>Catálogo</strong><small>Ver todas as espécies</small></button>
           <button class="atalho-v4" data-destino="#generos-v4"><b>❀</b><strong>Gêneros</strong><small>Explore por gênero</small></button>
@@ -77,8 +73,60 @@
         </div>
       </section>
 
+      <section id="pesquisa" class="painel-ordenacao-cultivo-v17" aria-labelledby="titulo-ordenar-v17">
+        <div class="cabecalho-ordenacao-v17">
+          <div>
+            <h2 id="titulo-ordenar-v17">Ordenar e filtrar espécies</h2>
+            <p>Organize o catálogo de acordo com o que você procura.</p>
+          </div>
+          <div class="direcao-ordenacao-v17" role="group" aria-label="Direção da ordenação">
+            <button id="ordem-menor-maior-v17" class="ativo" type="button">Menor → Maior</button>
+            <button id="ordem-maior-menor-v17" type="button">Maior → Menor</button>
+          </div>
+        </div>
+
+        <div class="criterios-ordenacao-v17" role="group" aria-label="Critério de ordenação">
+          <button class="criterio-ordenacao-v17 ativo" type="button" data-criterio-ordenacao="padrao"><span>▦</span><b>Padrão</b></button>
+          <button class="criterio-ordenacao-v17" type="button" data-criterio-ordenacao="cultivo"><span>🌱</span><b>Cultivo</b></button>
+          <button class="criterio-ordenacao-v17" type="button" data-criterio-ordenacao="luminosidade"><span>☀</span><b>Luz</b></button>
+          <button class="criterio-ordenacao-v17" type="button" data-criterio-ordenacao="agua"><span>💧</span><b>Água</b></button>
+          <button class="criterio-ordenacao-v17" type="button" data-criterio-ordenacao="floracao"><span>🌸</span><b>Floração</b></button>
+          <button class="criterio-ordenacao-v17" type="button" data-criterio-ordenacao="perfume"><span>⚗</span><b>Perfume</b></button>
+          <button class="criterio-ordenacao-v17" type="button" data-criterio-ordenacao="raridade"><span>💎</span><b>Raridade</b></button>
+        </div>
+
+        <div id="resumo-ordenacao-v17" class="resumo-ordenacao-v17" aria-live="polite">
+          <span class="resumo-icone-v17">▦</span>
+          <strong>Padrão:</strong> ordem alfabética do catálogo
+          <span class="escala-ordenacao-v17" aria-hidden="true">A → Z</span>
+        </div>
+
+        <button id="alternar-filtros-avancados-v17" class="alternar-filtros-avancados-v17" type="button" aria-expanded="false" aria-controls="conteudo-filtros-avancados-v17">
+          <span class="icone-filtro-v17">▽</span>
+          <span><strong>Filtros avançados</strong><small>Refine sua busca combinando critérios</small></span>
+          <b class="seta-filtro-v17">⌄</b>
+        </button>
+
+        <div id="conteudo-filtros-avancados-v17" class="conteudo-filtros-avancados-v17" hidden>
+          <div class="cabecalho-filtros-avancados-v17">
+            <p>Combine gênero, classificação, clima, sombrite, sol direto, dificuldade, raridade e época de floração.</p>
+            <button id="limpar-filtros" class="botao-limpar-filtros" type="button">Limpar filtros</button>
+          </div>
+          <div class="painel-filtros painel-filtros-avancados">
+            <div class="grupo-campo"><label for="filtro-genero">Gênero</label><select id="filtro-genero" class="campo"><option value="">Todos os gêneros</option></select></div>
+            <div class="grupo-campo"><label for="filtro-tipo">Classificação</label><select id="filtro-tipo" class="campo"><option value="">Espécies e híbridos</option><option value="Espécie botânica">Espécies botânicas</option><option value="Híbrido">Híbridos</option></select></div>
+            <div class="grupo-campo"><label for="filtro-clima">Clima</label><select id="filtro-clima" class="campo"><option value="">Todos os climas</option></select></div>
+            <div class="grupo-campo"><label for="filtro-sombrite">Sombrite</label><select id="filtro-sombrite" class="campo"><option value="">50% ou 70%</option><option value="50%">Sombrite 50%</option><option value="70%">Sombrite 70%</option></select></div>
+            <div class="grupo-campo"><label for="filtro-sol-direto">Sol direto</label><select id="filtro-sol-direto" class="campo"><option value="">Sim ou não</option><option value="Sim">Sim</option><option value="Não">Não</option></select></div>
+            <div class="grupo-campo"><label for="filtro-dificuldade">Dificuldade</label><select id="filtro-dificuldade" class="campo"><option value="">Todas as dificuldades</option><option value="Fácil">Fácil</option><option value="Moderada">Moderada</option><option value="Difícil">Difícil</option></select></div>
+            <div class="grupo-campo"><label for="filtro-raridade">Raridade</label><select id="filtro-raridade" class="campo"><option value="">Todos os níveis</option><option value="1">1 — Muito comum</option><option value="2">2 — Comum</option><option value="3">3 — Pouco comum</option><option value="4">4 — Rara</option><option value="5">5 — Muito rara</option></select></div>
+            <div class="grupo-campo"><label for="filtro-floracao">Mês de floração</label><select id="filtro-floracao" class="campo"><option value="">Qualquer época</option><option value="1">Janeiro</option><option value="2">Fevereiro</option><option value="3">Março</option><option value="4">Abril</option><option value="5">Maio</option><option value="6">Junho</option><option value="7">Julho</option><option value="8">Agosto</option><option value="9">Setembro</option><option value="10">Outubro</option><option value="11">Novembro</option><option value="12">Dezembro</option></select></div>
+          </div>
+        </div>
+      </section>
+
       <section id="destaques-v4" class="destaques-v4">
-        <div class="cabecalho-secao-v4"><h2>Destaques do mês</h2><a href="#catalogo-area">Ver todas →</a></div>
+        <div class="cabecalho-secao-v4 cabecalho-destaques-v9"><div class="titulo-destaques-v9"><span>✿</span><h2>Destaques do Catálogo</h2><p>ESPÉCIES EM EVIDÊNCIA NA COLEÇÃO</p></div><a href="#catalogo-area">Ver catálogo completo <b>→</b></a></div>
         <div id="grade-destaques-v4" class="grade-destaques-v4"></div>
       </section>
 
@@ -103,22 +151,8 @@
         <div id="lista-floracoes-mensal" class="lista-floracoes-mensal" hidden><div class="cabecalho-lista-floracoes"><div><h3 id="titulo-lista-floracoes">Espécies previstas para este mês</h3><p id="descricao-lista-floracoes">Selecione uma espécie para abrir a ficha completa.</p></div><button id="filtrar-floracoes-do-mes" class="botao-filtrar-floracoes" type="button">Mostrar somente estas</button></div><div id="lista-especies-floracoes" class="lista-especies-floracoes"><p class="mensagem-carregamento-floracoes">Carregando florações...</p></div></div>
       </section>
 
-      <section id="pesquisa" class="painel-pesquisa painel-pesquisa-v4">
-        <div class="cabecalho-painel-pesquisa"><div><h2>Filtros avançados</h2><p>Refine a pesquisa por gênero, clima, sombrite, sol direto, dificuldade, raridade ou época de floração.</p></div><button id="limpar-filtros" class="botao-limpar-filtros" type="button">Limpar filtros</button></div>
-        <div class="painel-filtros painel-filtros-avancados">
-          <div class="grupo-campo"><label for="filtro-genero">Gênero</label><select id="filtro-genero" class="campo"><option value="">Todos os gêneros</option></select></div>
-          <div class="grupo-campo"><label for="filtro-tipo">Classificação</label><select id="filtro-tipo" class="campo"><option value="">Espécies e híbridos</option><option value="Espécie botânica">Espécies botânicas</option><option value="Híbrido">Híbridos</option></select></div>
-          <div class="grupo-campo"><label for="filtro-clima">Clima</label><select id="filtro-clima" class="campo"><option value="">Todos os climas</option></select></div>
-          <div class="grupo-campo"><label for="filtro-sombrite">Sombrite</label><select id="filtro-sombrite" class="campo"><option value="">50% ou 70%</option><option value="50%">Sombrite 50%</option><option value="70%">Sombrite 70%</option></select></div>
-          <div class="grupo-campo"><label for="filtro-sol-direto">Sol direto</label><select id="filtro-sol-direto" class="campo"><option value="">Sim ou não</option><option value="Sim">Sim</option><option value="Não">Não</option></select></div>
-          <div class="grupo-campo"><label for="filtro-dificuldade">Dificuldade</label><select id="filtro-dificuldade" class="campo"><option value="">Todas as dificuldades</option><option value="Fácil">Fácil</option><option value="Moderada">Moderada</option><option value="Difícil">Difícil</option></select></div>
-          <div class="grupo-campo"><label for="filtro-raridade">Raridade</label><select id="filtro-raridade" class="campo"><option value="">Todos os níveis</option><option value="1">1 — Muito comum</option><option value="2">2 — Comum</option><option value="3">3 — Pouco comum</option><option value="4">4 — Rara</option><option value="5">5 — Muito rara</option></select></div>
-          <div class="grupo-campo"><label for="filtro-floracao">Mês de floração</label><select id="filtro-floracao" class="campo"><option value="">Qualquer época</option><option value="1">Janeiro</option><option value="2">Fevereiro</option><option value="3">Março</option><option value="4">Abril</option><option value="5">Maio</option><option value="6">Junho</option><option value="7">Julho</option><option value="8">Agosto</option><option value="9">Setembro</option><option value="10">Outubro</option><option value="11">Novembro</option><option value="12">Dezembro</option></select></div>
-        </div>
-      </section>
-
       <section id="catalogo-area" class="area-resultados area-resultados-v4">
-        <div class="barra-resultados"><div class="resumo-resultados"><h2 class="titulo-resultados">Catálogo completo</h2><p id="contador" class="contador"></p></div><div class="controles-resultados"><div class="grupo-ordenacao"><label for="ordenacao">Ordenar por</label><select id="ordenacao" class="campo campo-ordenacao"><option value="nome-az">Nome: A–Z</option><option value="nome-za">Nome: Z–A</option><option value="raridade-maior">Mais raras primeiro</option><option value="raridade-menor">Menos raras primeiro</option><option value="cultivo-facil">Cultivo mais fácil</option><option value="cultivo-dificil">Cultivo mais difícil</option></select></div><div class="alternador-visualizacao" aria-label="Modo de visualização"><button id="modo-galeria" class="botao-visualizacao ativo" type="button" aria-label="Exibir em galeria" aria-pressed="true">▦ <span>Galeria</span></button><button id="modo-lista" class="botao-visualizacao" type="button" aria-label="Exibir em lista" aria-pressed="false">☰ <span>Lista</span></button></div></div></div>
+        <div class="barra-resultados"><div class="resumo-resultados"><h2 class="titulo-resultados">Catálogo completo</h2><p id="contador" class="contador"></p></div><div class="controles-resultados"><div class="grupo-ordenacao grupo-ordenacao-legado-v17"><label for="ordenacao">Ordenar por</label><select id="ordenacao" class="campo campo-ordenacao"><option value="nome-az">Nome: A–Z</option><option value="nome-za">Nome: Z–A</option><option value="cultivo-maior">Cultivo: mais fácil primeiro</option><option value="cultivo-menor">Cultivo: mais difícil primeiro</option><option value="luminosidade-menor">Luz: menor para maior</option><option value="luminosidade-maior">Luz: maior para menor</option><option value="agua-menor">Água: menor para maior</option><option value="agua-maior">Água: maior para menor</option><option value="floracao-menor">Floração: menor para maior</option><option value="floracao-maior">Floração: maior para menor</option><option value="perfume-menor">Perfume: menor para maior</option><option value="perfume-maior">Perfume: maior para menor</option><option value="raridade-menor">Raridade: menor para maior</option><option value="raridade-maior">Raridade: maior para menor</option></select></div><div class="alternador-visualizacao" aria-label="Modo de visualização"><button id="modo-galeria" class="botao-visualizacao ativo" type="button" aria-label="Exibir em galeria" aria-pressed="true">▦ <span>Galeria</span></button><button id="modo-lista" class="botao-visualizacao" type="button" aria-label="Exibir em lista" aria-pressed="false">☰ <span>Lista</span></button></div></div></div>
         <p id="filtros-ativos" class="filtros-ativos"></p>
         <section id="catalogo" class="catalogo"></section>
         <div id="sem-resultados" class="sem-resultados"><span class="icone-sem-resultados">🔍</span><h3>Nenhuma orquídea encontrada</h3><p>Tente remover algum filtro ou utilizar outro termo de pesquisa.</p></div>
@@ -132,7 +166,7 @@
       <div class="rodape-info-v4"><span>Coleção particular • Serra/ES</span><span>Informações de cultivo adaptadas ao clima da região.</span><small>© 2026 Orquidário Digital</small></div>
     </div>
   </footer>
-  <script type="module" src="js/app.js?v=20260806-estrutura-limpa-v1"></script>
+  <script type="module" src="js/app.js?v=20260825-premium-v17-filtros"></script>
 
   <button id="botao-topo" class="botao-topo" type="button" aria-label="Voltar ao topo" title="Voltar ao topo" aria-hidden="true" tabindex="-1">
     <span aria-hidden="true">↑</span>

@@ -27,8 +27,8 @@ export const cattleyaLueddemannianaTipo = {
     climaFloracao: "A planta amadurece o pseudobulbo antes de desenvolver a inflorescência. A espata pode amarelar ou secar externamente e ainda permanecer funcional, protegendo botões que surgirão semanas depois. Após a maturação, aumente gradualmente o intervalo entre as regas, sem impor seca absoluta. Boa luz, raízes sadias e crescimento completo são mais importantes que qualquer tentativa de forçar a floração.",
     iluminacao: {
         sombrite: "40% a 60% — 50% como referência inicial",
-        solDireto: "Apenas sol suave",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Tolera luminosidade alta, mas extremos não são necessários. Folhas firmes, verde-médio a verde-claro, e pseudobulbos robustos indicam bom equilíbrio. Folhagem muito escura e crescimento alongado costumam acompanhar pouca luz."
     },
     floracao: "A floração principal ocorre do fim de dezembro a março. Plantas adultas e alguns clones podem apresentar uma segunda floração entre setembro e novembro.",
@@ -181,7 +181,7 @@ export const cattleyaLueddemannianaTipo = {
     },
     mesesFloracao: [12, 1, 2, 3, 9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

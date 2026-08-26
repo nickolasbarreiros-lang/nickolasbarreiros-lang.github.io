@@ -29,8 +29,8 @@ export const dichaeaCogniauxiana = {
     climaFloracao: "Intermediário a fresco, com elevada umidade atmosférica e boa circulação de ar. No litoral quente, proteja principalmente do superaquecimento noturno e do ar parado. Noites mais amenas associadas à manutenção da umidade favorecem vigor e floração.",
     iluminacao: {
         sombrite: "70% a 80%",
-        solDireto: "Não recomendado",
-        horario: "Luz difusa e filtrada ao longo do dia",
+        solDireto: "Não permitido",
+        horario: "",
         observacoes: "É adaptada a ambientes de baixa intensidade luminosa. Cerca de 70% de sombreamento funciona como bom ponto inicial no litoral quente. Evite incidência direta de sol forte sobre a folhagem delicada; sombra excessivamente escura, porém, pode reduzir vigor e floração."
     },
     floracao: "Predominantemente no verão, podendo avançar para o início do outono conforme procedência, temperatura e condições de cultivo. Para o calendário do site, dezembro a março funciona como janela prática de referência.",
@@ -195,7 +195,7 @@ export const dichaeaCogniauxiana = {
     },
     mesesFloracao: [12, 1, 2, 3],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         avaliacoes: {

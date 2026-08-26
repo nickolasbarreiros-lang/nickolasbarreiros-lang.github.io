@@ -33,8 +33,8 @@ export const sophronitisWittigiana = {
     "climaFloracao": "A indução floral está ligada à maturação dos pseudobulbos, boa luminosidade filtrada e noites mais amenas. A faixa altitudinal ampla indica alguma plasticidade, mas o calor noturno prolongado continua sendo o maior desafio no litoral. Não necessita de repouso seco severo: apenas redução proporcional das regas quando a evaporação cai.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Somente muito fraco",
-        "horario": "Antes das 08:00",
+        "solDireto": "Permitido com restrição",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Precisa de luz filtrada brilhante para florescer, mas as folhas aquecem rapidamente. Folhas verde-médio a verde-claro e pseudobulbos compactos indicam boa exposição. Folhas muito escuras indicam sombra; avermelhamento intenso, amarelecimento e áreas secas indicam excesso de luz ou calor."
     },
     "floracao": "Floresce principalmente do outono ao inverno, com registros naturais concentrados entre abril e agosto. A haste é curta e produz uma ou poucas flores grandes em relação ao porte da planta, normalmente em tons rosa a magenta. Em cultivo, a duração das flores melhora quando as noites permanecem amenas e a planta não sofre calor excessivo.",
@@ -192,7 +192,7 @@ export const sophronitisWittigiana = {
         8
     ],
     "selosCultivo": {
-        "rega": { "nivel": "constante", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {

@@ -32,8 +32,8 @@ export const dendrobiumTenellum = {
     "climaFloracao": "A indução floral é favorecida por hastes maduras, luz filtrada forte, noites mais frescas e redução de água e adubação no inverno. A planta não precisa de seca absoluta. Durante o descanso, mantenha umidade ambiental e intervenha apenas se as hastes começarem a enrugar excessivamente.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Somente muito fraco",
-        "horario": "Início da manhã",
+        "solDireto": "Permitido com restrição",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Precisa de luz filtrada média a forte e excelente circulação de ar. Sombra excessiva alonga as hastes e reduz a floração; sol direto intenso queima rapidamente os tecidos finos."
     },
     "floracao": "A referência de habitat/cultivo do IOSPE aponta floração no verão, em inflorescências curtas e geralmente unifloras próximas ao ápice dos caules. As flores são pequenas, cerca de 1 a 1,2 cm, e de curta duração. Em cultivo, a época pode deslocar-se conforme o regime térmico; o mais importante é a maturação dos caules associada a noites frescas.",
@@ -193,7 +193,7 @@ export const dendrobiumTenellum = {
         2
     ],
     "selosCultivo": {
-        "rega": { "nivel": "constante", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {

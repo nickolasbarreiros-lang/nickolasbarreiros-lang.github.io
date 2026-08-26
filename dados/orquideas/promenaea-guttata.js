@@ -32,8 +32,8 @@ export const promenaeaGuttata = {
     "climaFloracao": "IOSPE descreve plantas de crescimento quente a fresco e floração no fim da primavera e verão. Essa amplitude mostra que não há uma única temperatura obrigatória; no litoral quente, o desafio é impedir que a combinação de noites muito quentes, ar parado e substrato saturado sufoque as raízes. Boa umidade atmosférica com circulação de ar é mais importante do que manter o vaso constantemente molhado.",
     "iluminacao": {
         "sombrite": "70% a 80%",
-        "solDireto": "Não recomendado",
-        "horario": "Luz filtrada ao longo do dia",
+        "solDireto": "Não permitido",
+        "horario": "",
         "observacoes": "Prefere luminosidade baixa a moderada. Folhas finas aquecem rapidamente, portanto evite sol direto. Sombra extremamente fechada, porém, reduz a qualidade dos novos pseudobulbos e pode diminuir a floração."
     },
     "floracao": "Principalmente no fim da primavera e verão. Sob o conceito histórico de P. guttata, IOSPE registra inflorescências de cerca de 7,5 cm, geralmente com duas flores. As flores são grandes em relação ao porte da planta e podem apresentar manchas contrastantes sobre fundo claro ou amarelo-esverdeado.",
@@ -185,7 +185,7 @@ export const promenaeaGuttata = {
     },
     "mesesFloracao": [10, 11, 12, 1, 2],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "sazonal" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         "avaliacoes": {

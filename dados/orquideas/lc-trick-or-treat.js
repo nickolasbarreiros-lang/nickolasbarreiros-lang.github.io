@@ -28,8 +28,8 @@ export const lcTrickOrTreat = {
     climaFloracao: "A genealogia registrada é C. Icarus × Ctt. Chit Chat, reunindo forte contribuição de Cattleya cinnabarina, C. crispata, Guarianthe aurantiaca e C. harpophylla. Na prática, isso se traduz em bom vigor, preferência por luz alta filtrada e resposta favorável ao calor quando há ventilação. Cada novo pseudobulbo plenamente maduro pode gerar uma haste; por isso, luz insuficiente e excesso de nitrogênio são causas mais comuns de falha de floração que a falta de frio.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Somente suave e aclimatado",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Mantenha iluminação semelhante à de Cattleyas luminosas. Folhas verde-claro a verde-médio, firmes, e pseudobulbos compactos indicam bom equilíbrio. Folhas muito escuras e crescimento alongado sugerem sombra; manchas secas indicam excesso de sol ou calor sem aclimatação."
     },
     floracao: "Pode florir após a maturação de novas frentes e, em plantas vigorosas, apresentar mais de uma floração ao ano. No cultivo local, é comum maior concentração do outono ao inverno, mas a época varia com clone e ritmo de crescimento. As hastes são eretas a arqueadas e podem carregar numerosas flores laranja simultaneamente.",
@@ -182,7 +182,7 @@ export const lcTrickOrTreat = {
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

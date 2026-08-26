@@ -28,8 +28,8 @@ export const cattleyaABrazilianDream = {
     climaFloracao: "A floração deve ser interpretada a partir do ciclo do clone, e não de um calendário rígido. O botão é consequência de pseudobulbos bem formados, luz adequada, reservas suficientes e raízes saudáveis. A influência de C. nobilior justifica maior secagem após a maturação, mas C. loddigesii torna inadequado copiar automaticamente um repouso extremamente seco. O intervalo deve aumentar somente quando a atividade radicular realmente diminuir.",
     iluminacao: {
         sombrite: "40% a 60% — ~50% no litoral quente",
-        solDireto: "Somente suave",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Necessita luz alta filtrada. Crescimento compacto, folhas firmes e pseudobulbos bem formados são indicadores melhores que buscar bronzeamento das folhas. A tolerância exata varia entre seedlings."
     },
     floracao: "Pode concentrar floração do outono ao inverno, mas a janela varia entre indivíduos e deve ser tratada como tendência do grex, não como regra. O tamanho, forma, perfume e número de flores também variam conforme o clone.",

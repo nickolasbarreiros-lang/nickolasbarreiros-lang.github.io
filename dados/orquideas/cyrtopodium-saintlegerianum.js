@@ -31,8 +31,8 @@ export const cyrtopodiumSaintlegerianum = {
     "climaFloracao": "POWO registra a espécie em bioma tropical sazonalmente seco, enquanto observações de campo e IOSPE destacam seu comportamento epífito sobre palmeiras no Brasil central. Em cultivo, essas informações convergem para o mesmo manejo: crescimento quente e bem irrigado quando brotos e folhas estão ativos, seguido de redução hídrica após a maturação. No litoral quente, noites frias intensas não são requisito; luz forte, ventilação e uma estação de repouso perceptível são muito mais importantes.",
     "iluminacao": {
         "sombrite": "30% a 50%",
-        "solDireto": "Sim, após aclimatação",
-        "horario": "Manhã e parte da tarde",
+        "solDireto": "Permitido com restrição",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Exige luminosidade muito alta. A exposição sobre palmeiras mostra que a espécie suporta ambiente bastante claro, mas plantas de viveiro devem ser aclimatadas progressivamente. Pouca luz produz pseudobulbos fracos e menor floração; ventilação é indispensável sob sol e calor."
     },
     "floracao": "Mais característica do fim do inverno ao início da primavera. A inflorescência é ereta, paniculada, muito ramificada e pode carregar grande número de flores. Cada flor mede aproximadamente 4 cm. A haste aparece associada a pseudobulbos maduros e reservas acumuladas durante a estação anterior.",
@@ -188,7 +188,7 @@ export const cyrtopodiumSaintlegerianum = {
         10
     ],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "repouso-seco" },
+        "rega": { "nivel": "sazonal", "regime": "repouso-seco" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         "avaliacoes": {

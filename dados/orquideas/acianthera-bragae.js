@@ -27,8 +27,8 @@ export const aciantheraBragae = {
     climaFloracao: "A faixa altitudinal aproximada de 700–1.000 m indica noites naturalmente mais amenas que as do litoral, mas a espécie é descrita em referência de cultivo como de crescimento quente. Portanto, não exige frio intenso. No litoral quente, priorize redução do calor acumulado noturno, sombra luminosa e ventilação contínua, sobretudo durante a maturação dos novos crescimentos.",
     iluminacao: {
         sombrite: "70% como referência no litoral quente",
-        solDireto: "Evitar; somente luz solar muito suave após aclimatação",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Não permitido",
+        horario: "",
         observacoes: "O habitat é sombreado e úmido. Prefira claridade difusa uniforme em vez de sombra escura. Folhas suculentas e firmes devem permanecer sem aquecimento excessivo. Se os entrenós alongarem e o crescimento enfraquecer, aumente gradualmente a claridade; se houver amarelecimento rápido ou manchas secas, reduza a exposição."
     },
     floracao: "Principalmente do fim do inverno ao início da primavera. Para cultivo no Brasil, agosto a outubro é uma janela de referência mais coerente que uma faixa primavera–verão muito ampla; clones e microclimas podem deslocar essa época.",

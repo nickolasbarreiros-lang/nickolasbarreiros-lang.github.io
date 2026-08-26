@@ -31,8 +31,8 @@ export const phalaenopsisMannii = {
     "climaFloracao": "No habitat há um período de inverno relativamente mais seco, seguido pela floração de primavera. Em cultivo no litoral, isso deve ser interpretado como uma redução moderada da frequência das regas quando o crescimento desacelerar — nunca como seca prolongada. Boa ventilação, noites um pouco menos quentes e raízes ativas favorecem a emissão floral. Como a espécie ocorre de 500 a 1.500 m, diferentes procedências podem responder de maneira distinta ao calor.",
     "iluminacao": {
         "sombrite": "65% a 80%",
-        "solDireto": "Evitar",
-        "horario": "Somente luz muito suave no início da manhã",
+        "solDireto": "Não permitido",
+        "horario": "",
         "observacoes": "IOSPE a associa a áreas sombreadas de floresta. Prefira luz difusa brilhante, sem aquecimento das folhas. Folhas muito escuras e crescimento frouxo podem indicar sombra excessiva; amarelamento localizado indica excesso de sol."
     },
     "floracao": "Principalmente na primavera, podendo avançar para o início do verão conforme o clima. As flores medem cerca de 3–5 cm, são cerosas, duráveis e surgem sucessivamente em hastes finas e pendentes que podem alcançar aproximadamente 45 cm e carregar muitas flores. Preserve hastes verdes, pois podem continuar ativas.",
@@ -185,7 +185,7 @@ export const phalaenopsisMannii = {
     },
     "mesesFloracao": [8, 9, 10, 11, 12],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
     },
         "avaliacoes": {

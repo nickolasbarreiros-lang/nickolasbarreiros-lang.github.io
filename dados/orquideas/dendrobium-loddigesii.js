@@ -29,8 +29,8 @@ export const dendrobiumLoddigesii = {
     "climaFloracao": "A haste deve completar totalmente o alongamento e endurecer antes do repouso. Depois, alta luminosidade, noites mais amenas, redução da água e suspensão do nitrogênio induzem os botões. Hastes ainda verdes ou em crescimento raramente florescem bem no ciclo seguinte.",
     "iluminacao": {
         "sombrite": "40% a 50%",
-        "solDireto": "Somente suave",
-        "horario": "Início da manhã",
+        "solDireto": "Permitido com restrição",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Necessita luz intensa durante todo o ano. Hastes compactas e firmes indicam equilíbrio. Sombra gera hastes finas, moles e muitos keikis; queimaduras secas indicam excesso de sol."
     },
     "floracao": "Mais comum do fim do inverno à primavera, entre agosto e novembro. Flores solitárias ou em pequenos grupos surgem nos nós de hastes maduras, inclusive em hastes antigas e já desfolhadas. A preservação da touceira aumenta o número de pontos florais.",
@@ -187,7 +187,7 @@ export const dendrobiumLoddigesii = {
         11
     ],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "repouso-seco" },
+        "rega": { "nivel": "sazonal", "regime": "repouso-seco" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {

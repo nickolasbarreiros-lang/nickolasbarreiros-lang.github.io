@@ -22,8 +22,8 @@ export const encycliaOncidioides = {
     climaFloracao: "A espécie floresce melhor depois de formar pseudobulbos fortes sob luz alta. Regue e adube com regularidade enquanto houver brotos e raízes ativos; ao amadurecer o crescimento, aumente moderadamente a secagem entre regas. A faixa natural de baixa altitude mostra que frio não é requisito para florescer.",
     iluminacao: {
         sombrite: "40% a 50%; em regiões serranas, 30% a 40% após aclimatação",
-        solDireto: "Sim, suave e aclimatado",
-        horario: "Até aproximadamente 09:00",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Folhas firmes em verde-claro indicam boa luminosidade. Folhas muito escuras e pseudobulbos alongados sugerem sombra excessiva; amarelecimento intenso, manchas secas ou aquecimento excessivo indicam sol demais."
     },
     floracao: "Principalmente primavera e verão; flores numerosas, duráveis e perfumadas em plantas bem estabelecidas.",
@@ -175,7 +175,7 @@ export const encycliaOncidioides = {
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         avaliacoes: { cultivo: 3, floracao: 4, perfume: 4, luminosidade: 4, agua: 3, raridade: 3 }

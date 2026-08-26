@@ -27,8 +27,8 @@ export const blcChiaLin = {
     climaFloracao: "A próxima floração é construída durante a formação do novo pseudobulbo. Enquanto brotos e raízes estiverem ativos, forneça água, nutrição leve e boa luminosidade. Depois que a folha estiver firme e o pseudobulbo maduro, reduza naturalmente a adubação e mantenha luz alta filtrada. Não é necessário forçar a floração com seca artificial ou grandes doses de fósforo; genética, maturação, luz e saúde radicular têm papel mais importante.",
     iluminacao: {
         sombrite: "50% a 60% — 50% como referência inicial",
-        solDireto: "Sim, suave",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Necessita mais luz do que Phalaenopsis e muitos Oncidium. Folhas muito escuras e pseudobulbos alongados podem indicar pouca luz, enquanto sol forte do meio do dia aumenta o risco de superaquecimento e queimaduras."
     },
     floracao: "Variável conforme o clone e o ciclo de crescimento. Seleções de Chia Lin são registradas florescendo do outono à primavera, portanto o calendário deve ser tratado como referência, não como característica fixa do grex.",
@@ -181,7 +181,7 @@ export const blcChiaLin = {
     },
     mesesFloracao: [4, 5, 6, 7, 8, 9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "sazonal", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

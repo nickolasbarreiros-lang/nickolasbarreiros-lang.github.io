@@ -22,8 +22,8 @@ export const bulbophyllumRothschildianum = {
     climaFloracao: "IOSPE registra crescimento de quente a fresco e floradas na primavera e no outono. Essa amplitude não significa que a espécie precise alternar extremos térmicos; na prática, pseudobulbos maduros, noites um pouco mais amenas, luz filtrada clara, água regular e ventilação parecem mais importantes. No litoral quente, deve-se compensar noites quentes com circulação de ar, drenagem muito eficiente e ausência de superaquecimento radicular.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Apenas muito suave",
-        horario: "Luz filtrada ao longo do dia",
+        solDireto: "Permitido com restrição",
+        horario: "Somente início da manhã",
         observacoes: "Prefere meia-sombra clara. Evite tanto sol forte, que aquece folhas e rizoma, quanto sombra profunda, que reduz maturação dos pseudobulbos e floração."
     },
     floracao: "Duas janelas são bem documentadas: primavera e outono. Para o calendário brasileiro, março a maio e setembro a novembro são referências úteis, com deslocamentos conforme clone e microclima.",
@@ -175,7 +175,7 @@ export const bulbophyllumRothschildianum = {
     },
     mesesFloracao: [3, 4, 5, 9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         avaliacoes: { cultivo: 3, floracao: 4, perfume: 3, luminosidade: 3, agua: 4, raridade: 4 }

@@ -28,8 +28,8 @@ export const oncidiumTwinkle = {
     "climaFloracao": "Floresce melhor quando vários pseudobulbos amadurecem simultaneamente em uma touceira intacta. Noites mais frescas favorecem hastes numerosas, mas o fator decisivo é a continuidade do crescimento: raízes saudáveis, recipiente proporcional, luz filtrada brilhante e ausência de secas prolongadas.",
     "iluminacao": {
         "sombrite": "50% a 70%",
-        "solDireto": "Somente muito suave",
-        "horario": "Até cerca de 8h",
+        "solDireto": "Permitido com restrição",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Luz indireta brilhante. Folhas verde-médio e pseudobulbos compactos indicam equilíbrio. Folhas escuras, moles e poucas hastes indicam sombra excessiva; folhas amarelas ou pontas secas sugerem excesso de sol, calor ou sais."
     },
     "floracao": "A época varia conforme clone e microclima, mas costuma se concentrar do outono ao inverno, aproximadamente entre abril e agosto. Touceiras maduras podem emitir várias hastes ao mesmo tempo. O parentesco explica parte desse comportamento: O. cheirophorum floresce naturalmente no outono/inverno, enquanto O. sotoanum produz panículas perfumadas no mesmo período. As cores do grex variam do branco e creme ao amarelo, rosa, laranja e vermelho.",
@@ -189,7 +189,7 @@ export const oncidiumTwinkle = {
         8
     ],
     "selosCultivo": {
-        "rega": { "nivel": "constante", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {

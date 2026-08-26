@@ -32,8 +32,8 @@ export const zygopetalumMaculatum = {
     "climaFloracao": "A floração depende de noites mais frescas, pseudobulbos bem desenvolvidos e raízes sem superaquecimento. Em regiões quentes, reduzir a temperatura do vaso e melhorar a circulação de ar costuma ser mais efetivo do que simplesmente aumentar a rega. Não necessita de repouso seco severo.",
     "iluminacao": {
         "sombrite": "50% a 70%",
-        "solDireto": "Somente fraco",
-        "horario": "Até aproximadamente 08:00, preferencialmente nos meses frios",
+        "solDireto": "Permitido com restrição",
+        "horario": "Somente início da manhã",
         "observacoes": "Prefere claridade filtrada. Sol forte aquece e queima folhas plissadas; sombra excessiva enfraquece os pseudobulbos e reduz floração."
     },
     "floracao": "Mais comum do outono ao início da primavera, aproximadamente de abril a setembro. As hastes eretas surgem próximas aos novos crescimentos e produzem flores cerosas intensamente perfumadas.",
@@ -192,7 +192,7 @@ export const zygopetalumMaculatum = {
         9
     ],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {

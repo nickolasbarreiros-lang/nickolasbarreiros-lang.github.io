@@ -30,8 +30,8 @@ export const bulbophyllumAmbrosia = {
     climaFloracao: "A espécie floresce naturalmente no inverno. A indução não depende de frio intenso, mas a maturação dos pseudobulbos, noites menos quentes, boa luminosidade filtrada e aeração favorecem a emissão floral. Em procedências de maior altitude, noites amenas têm maior importância. No litoral quente, não tente reproduzir frio artificial: priorize ventilação noturna, redução do superaquecimento do suporte e estabilidade hídrica.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Apenas luz muito suave, se houver",
-        horario: "Luz filtrada durante o dia",
+        solDireto: "Permitido com restrição",
+        horario: "Somente início da manhã",
         observacoes: "Meia-sombra clara é mais segura que sombra profunda. A planta deve receber claridade suficiente para manter pseudobulbos compactos e favorecer a floração, mas sem aquecimento excessivo das folhas e do rizoma. No litoral quente, 60% a 70% de sombreamento com circulação de ar é um ponto de partida coerente."
     },
     floracao: "Predominantemente no inverno no habitat. Em cultivo brasileiro, a época pode deslocar-se conforme procedência e microclima; junho a agosto é uma referência prática, não uma regra absoluta.",
@@ -183,7 +183,7 @@ export const bulbophyllumAmbrosia = {
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "sazonal", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true, "quedaTermica": true }
     },
         avaliacoes: {

@@ -25,13 +25,16 @@ function renderizarDestaques(orquideas) {
   const fonte = florindo.length >= 5 ? florindo : orquideas;
   const destaques = [...fonte]
     .sort((a,b) => (Number(b?.avaliacoes?.floracao)||0) - (Number(a?.avaliacoes?.floracao)||0))
-    .slice(0,5);
+    .slice(0,4);
   grade.innerHTML = destaques.map(o => `
-    <a class="cartao-destaque-v4" href="orquidea.html?id=${encodeURIComponent(o.id || "")}">
+    <a class="cartao-destaque-v4 cartao-destaque-v9" href="orquidea.html?id=${encodeURIComponent(o.id || "")}">
+      <span class="selo-destaque-v9">DESTAQUE</span>
       <img src="${escapar(obterFotoPrincipal(o))}" alt="Foto de ${escapar(o.nome)}" loading="lazy">
       <span class="cartao-destaque-v4-info">
+        <small class="rotulo-destaque-v9">ORCHIDACEAE</small>
         <strong>${escapar(o.nome || "Orquídea")}</strong>
-        <span class="cartao-destaque-v4-meta"><span>❀ ${escapar(resumoFloracao(o))}</span><span>${escapar(o.dificuldade || "Não informada")}</span></span>
+        <span class="cartao-destaque-v4-meta"><span>✿ ${escapar(resumoFloracao(o))}</span><span>${escapar(o.dificuldade || "Não informada")}</span></span>
+        <span class="abrir-ficha-v9">Ver ficha completa <b>→</b></span>
       </span>
     </a>`).join("");
 }

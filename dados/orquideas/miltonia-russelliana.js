@@ -29,8 +29,8 @@ export const miltoniaRusselliana = {
     climaFloracao: "A espécie floresce principalmente no outono e inverno. No litoral quente, noites um pouco mais frescas ajudam bastante, mas o fator decisivo é manter raízes ativas, boa ventilação e luminosidade suficiente sem superaquecer as folhas.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Somente sol fraco da manhã, se aclimatada",
-        horario: "Luz filtrada brilhante ao longo do dia",
+        solDireto: "Permitido com restrição",
+        horario: "Somente início da manhã",
         observacoes: "Prefere mais luz do que uma planta de sombra profunda, porém sem sol direto forte. Folhas excessivamente escuras e crescimento alongado sugerem falta de luz; amarelamento rápido e aquecimento das folhas indicam excesso."
     },
     floracao: "Predominantemente no outono e inverno. Em cultivo brasileiro, abril a agosto é uma boa janela de referência, podendo haver variações conforme região, temperatura e maturação dos pseudobulbos.",
@@ -195,7 +195,7 @@ export const miltoniaRusselliana = {
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "sazonal" },
         "climaFloracao": { "faixa": "ameno" }
     },
         avaliacoes: {

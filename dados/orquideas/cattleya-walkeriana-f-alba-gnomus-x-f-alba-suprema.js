@@ -30,8 +30,8 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     climaFloracao: "A floração é favorecida por pseudobulbos completamente maduros, luminosidade alta, boa ventilação e uma fase posterior com intervalos maiores entre as regas. A espécie frequentemente produz um crescimento floral especializado, curto e sem folha, originado próximo ao rizoma. Não é necessário impor seca absoluta: o repouso deve ser lido pela atividade das raízes, condição dos pseudobulbos, suporte e clima.",
     iluminacao: {
         sombrite: "30% a 50%",
-        solDireto: "Sim, com aclimatação",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Necessita luz muito alta para formar pseudobulbos compactos e florescer. Em Litoral de clima quente, prefira sol suave bem cedo e proteção contra a radiação forte do fim da manhã e da tarde. Folhas devem permanecer firmes, em verde médio a verde-claro, sem amarelecimento excessivo ou queimaduras."
     },
     floracao: "Principalmente do outono ao inverno, com maior probabilidade entre abril e agosto. A época pode antecipar ou se prolongar conforme clone, clima e ciclo de crescimento. A inflorescência normalmente surge de crescimento floral especializado e sem folha, próximo ao rizoma, uma característica marcante de Cattleya walkeriana.",
@@ -183,7 +183,7 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

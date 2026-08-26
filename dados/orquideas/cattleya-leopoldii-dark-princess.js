@@ -31,8 +31,8 @@ export const cattleyaLeopoldiiDarkPrincess = {
     "climaFloracao": "A floração é favorecida por pseudobulbos altos e bem amadurecidos, luminosidade muito intensa durante todo o crescimento e leve redução de água e nitrogênio após a maturação. A intensidade do padrão escuro depende principalmente da genética do cultivar, mas boa luz, amplitude térmica e maturação adequada ajudam a expressar melhor a coloração. Sombra excessiva produz pseudobulbos finos, entrenós alongados e inflorescências fracas. A planta não exige repouso seco severo, mas aprecia secagem nítida entre regas.",
     "iluminacao": {
         "sombrite": "35% a 50%",
-        "solDireto": "Sim, fraco e aclimatado",
-        "horario": "Manhã",
+        "solDireto": "Permitido com restrição",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "A luz intensa mantém o crescimento compacto e favorece pigmentação mais escura. Folhas verde-médio firmes indicam bom cultivo; folhas muito escuras e pseudobulbos finos indicam sombra. Evite sol forte sobre folhas molhadas."
     },
     "floracao": "Floresce principalmente do fim do verão ao outono, entre fevereiro e maio. A haste emerge da espata apical e pode carregar várias flores cerosas, perfumadas e duráveis. Touceiras adultas produzem apresentações mais equilibradas e possuem reservas suficientes para sustentar inflorescências pesadas. Durante a formação da haste, evite girar o vaso ou alterar bruscamente a posição em relação à luz.",
@@ -189,7 +189,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
         5
     ],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {

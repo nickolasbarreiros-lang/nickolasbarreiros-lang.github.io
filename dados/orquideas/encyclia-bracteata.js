@@ -31,8 +31,8 @@ export const encycliaBracteata = {
     climaFloracao: "A espécie vem de baixa altitude e não necessita de frio para florescer. O estímulo mais importante é completar pseudobulbos maduros sob luminosidade elevada filtrada, seguida de leve redução na frequência das regas. IOSPE registra floração na primavera em natureza e do fim do verão ao início do outono em cultivo, mostrando que o calendário varia conforme hemisfério e condições de cultivo.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Sim, suave",
-        horario: "Sol fraco da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Aprecia luz alta, semelhante à de muitas Cattleyas compactas. Folhas excessivamente escuras indicam falta de luz; amarelecimento forte ou queimaduras sugerem radiação e calor excessivos."
     },
     floracao: "Em habitat, é registrada principalmente na primavera; em cultivo pode florescer do fim do verão ao início do outono. Cada pseudobulbo pode emitir mais de uma inflorescência terminal curta, com aproximadamente 2–3 flores por haste. A combinação de porte pequeno, folhas muito finas e múltiplas hastes por pseudobulbo é uma característica marcante da espécie.",
@@ -184,7 +184,7 @@ export const encycliaBracteata = {
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "sazonal", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         avaliacoes: {

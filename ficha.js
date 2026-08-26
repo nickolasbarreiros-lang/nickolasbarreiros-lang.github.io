@@ -183,7 +183,9 @@ function criarSelosRega(orquidea) {
         "baixa": { texto: "REGA BAIXA", tipo: "rega-baixa", icone: "💧" },
         "moderada": { texto: "REGA MODERADA", tipo: "rega-moderada", icone: "💧" },
         "frequente": { texto: "REGA FREQUENTE", tipo: "rega-frequente", icone: "💧" },
-        "constante": { texto: "UMIDADE CONSTANTE", tipo: "rega-constante", icone: "🌧️" }
+        "muito-frequente": { texto: "REGA MUITO FREQUENTE", tipo: "rega-constante", icone: "🌧️" },
+        "sazonal": { texto: "REGA SAZONAL", tipo: "rega-moderada", icone: "🍂" },
+        "constante": { texto: "REGA MUITO FREQUENTE", tipo: "rega-constante", icone: "🌧️" }
     };
 
     let principal = mapaNivel[configuracao.nivel];
@@ -563,6 +565,24 @@ function criarAdaptacaoRegional(valor, iar = null) {
     `;
 }
 
+
+function solDiretoNaoRecomendado(valor) {
+    const texto = String(valor || "").trim().toLowerCase();
+    return [
+        "não recomendado",
+        "nao recomendado",
+        "evitar",
+        "evite",
+        "não usar",
+        "nao usar",
+        "sem sol direto",
+        "não expor",
+        "nao expor",
+        "apenas luz solar muito suave e filtrada",
+        "somente luz solar muito suave e filtrada"
+    ].some(termo => texto.includes(termo));
+}
+
 function criarCardIluminacao(iluminacao) {
     if (!iluminacao || typeof iluminacao !== "object") {
         return criarInfoCard({
@@ -573,41 +593,61 @@ function criarCardIluminacao(iluminacao) {
         });
     }
 
-    const valorSolOriginal = String(iluminacao.solDireto || "").trim();
-    const solDireto = valorSolOriginal.toLowerCase();
-    const aceitaSol = solDireto.startsWith("sim");
-    const rejeitaSol = solDireto === "não" || solDireto === "nao" || solDireto.startsWith("não,") || solDireto.startsWith("nao,");
+    const valorSol = String(iluminacao.solDireto || "").trim();
+    const solNormalizado = valorSol.toLowerCase();
 
-    let textoSol = valorSolOriginal;
+    let textoSol = valorSol;
+    let iconeSol = "🌤️";
 
-    if (solDireto === "sim") {
+    if (solNormalizado === "sol pleno") {
+        textoSol = "Sol pleno";
+        iconeSol = "☀️";
+    } else if (
+        solNormalizado === "não permitido" ||
+        solNormalizado === "nao permitido"
+    ) {
+        textoSol = "Não permitido";
+        iconeSol = "🚫";
+    } else if (
+        solNormalizado === "permitido com restrição" ||
+        solNormalizado === "permitido com restricao"
+    ) {
+        textoSol = "Permitido com restrição";
+        iconeSol = "⚠️";
+    } else if (solNormalizado === "permitido" || solNormalizado === "sim") {
         textoSol = "Permitido";
-    } else if (aceitaSol && valorSolOriginal.includes(",")) {
-        textoSol = valorSolOriginal.split(",").slice(1).join(",").trim();
-        textoSol = textoSol.charAt(0).toUpperCase() + textoSol.slice(1);
-    } else if (rejeitaSol) {
-        textoSol = "Não recomendado";
+        iconeSol = "🌤️";
     }
 
-    const iconeSol = aceitaSol ? "🌤️" : "🚫";
+    const indicadores = [
+        criarIndicadorRotulado(
+            "Sombrite",
+            criarChip("🟨", iluminacao.sombrite)
+        ),
+        criarIndicadorRotulado(
+            "Sol direto",
+            criarChip(iconeSol, textoSol)
+        )
+    ];
+
+    const horario = String(iluminacao.horario || "").trim();
+    const horarioEhTemporal =
+        /\b(?:[0-1]?\d|2[0-3])\s*(?:h|:)\s*(?:[0-5]\d)?\b/i.test(horario) ||
+        /(manhã|manha|tarde|amanhecer|entardecer|início do dia|inicio do dia|primeiras horas|final do dia|fim do dia|antes das|após as|apos as)/i.test(horario);
+
+    if ((textoSol === "Permitido" || textoSol === "Permitido com restrição") && horario && horarioEhTemporal) {
+        indicadores.push(
+            criarIndicadorRotulado(
+                "Exposição segura",
+                criarChip("🕘", horario)
+            )
+        );
+    }
 
     return criarInfoCard({
         titulo: "Iluminação",
         icone: "☀️",
-        indicadores: [
-            criarIndicadorRotulado(
-                "Sombrite",
-                criarChip("🟨", iluminacao.sombrite)
-            ),
-            criarIndicadorRotulado(
-                "Sol direto",
-                criarChip(iconeSol, textoSol)
-            ),
-            criarIndicadorRotulado(
-                "Horário recomendado",
-                criarChip("🕘", iluminacao.horario)
-            )
-        ],
+        indicadores,
         descricao: iluminacao.observacoes || "",
         classeExtra: "card-iluminacao-v2"
     });

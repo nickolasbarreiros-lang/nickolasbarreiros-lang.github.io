@@ -31,8 +31,8 @@ export const dendrobiumAggregatum = {
     "climaFloracao": "A espécie aparece entre aproximadamente 400 e 1.300 m, portanto possui considerável amplitude térmica. IOSPE recomenda inverno mais fresco e seco, mas no litoral quente a parte que pode ser reproduzida com maior segurança é a sazonalidade: pseudobulbos completamente maduros, aumento de luz, forte redução de água e interrupção do nitrogênio. Não é necessário desidratar severamente a planta nem buscar frio artificial extremo.",
     "iluminacao": {
         "sombrite": "40% a 50%",
-        "solDireto": "Somente suave",
-        "horario": "Início da manhã",
+        "solDireto": "Permitido com restrição",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Necessita boa luminosidade durante todo o ano e especialmente no período de repouso. Folhas verde-claro, pseudobulbos compactos e leve pigmentação podem indicar exposição adequada. Sombra excessiva favorece crescimento sem botões; sol forte sem aclimatação causa queimaduras."
     },
     "floracao": "Floresce principalmente do inverno à primavera. Os racemos axilares, frequentemente pendentes, surgem em pseudobulbos maduros, com ou sem folha, e carregam normalmente 5–15 flores perfumadas de cerca de 2–5 cm. O efeito visual é melhor em placas e cestos, onde os cachos podem pender livremente.",
@@ -190,7 +190,7 @@ export const dendrobiumAggregatum = {
         11
     ],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "repouso-seco" },
+        "rega": { "nivel": "sazonal", "regime": "repouso-seco" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {

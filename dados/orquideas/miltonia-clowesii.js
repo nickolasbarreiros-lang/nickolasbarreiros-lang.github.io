@@ -28,8 +28,8 @@ export const miltoniaClowesii = {
     "climaFloracao": "A haste surge após a maturação completa do pseudobulbo. Luz filtrada abundante, diferença moderada entre dia e noite e crescimento sem interrupções favorecem a indução. Não exige seca rigorosa. O novo pseudobulbo precisa amadurecer cheio e firme, pois suas reservas sustentam a haste longa e a abertura simultânea de várias flores.",
     "iluminacao": {
         "sombrite": "50% a 70%",
-        "solDireto": "Somente sol muito suave",
-        "horario": "Até aproximadamente 08:30",
+        "solDireto": "Permitido com restrição",
+        "horario": "Somente início da manhã",
         "observacoes": "Luz filtrada média a forte. Folhas verde-claro e firmes indicam bom nível; folhas muito escuras, compridas e moles sugerem sombra excessiva. Evite calor foliar no meio do dia, especialmente em regiões litorâneas."
     },
     "floracao": "A floração concentra-se sobretudo no outono, embora o calendário possa variar conforme clima e procedência. As hastes eretas a arqueadas ultrapassam a folhagem e carregam várias flores cerosas, amarelas com grandes manchas castanhas e labelo contrastante. Touceiras maduras e bem iluminadas tendem a produzir apresentações mais cheias.",
@@ -181,7 +181,7 @@ export const miltoniaClowesii = {
     },
     "mesesFloracao": [3, 4, 5, 6],
     "selosCultivo": {
-        "rega": { "nivel": "constante", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
         "avaliacoes": {

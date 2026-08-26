@@ -29,8 +29,8 @@ export const brassiaLawrenceana = {
     climaFloracao: "A espécie responde bem a temperaturas quentes a intermediárias, com boa luz filtrada e raízes ativas. No litoral quente, adapta-se bem desde que o substrato drene rapidamente e haja circulação de ar. Uma pequena redução de água após a maturação dos pseudobulbos pode acompanhar a menor atividade, sem impor seca severa.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Somente sol fraco da manhã, se aclimatada",
-        horario: "Luz filtrada brilhante ao longo do dia",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Precisa de boa luminosidade para formar pseudobulbos fortes e florescer bem. Sombra profunda reduz a floração; sol direto forte pode queimar as folhas e aquecer excessivamente o vaso."
     },
     floracao: "Pode florescer em mais de uma época conforme o cultivo. Referências registram floração na primavera em cultivo e também no outono em condições naturais. Para o calendário do site, setembro a novembro e março a maio funcionam como janelas práticas de referência.",
@@ -195,7 +195,7 @@ export const brassiaLawrenceana = {
     },
     mesesFloracao: [3, 4, 5, 9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "frequente" },
+        "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

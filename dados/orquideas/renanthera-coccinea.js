@@ -31,8 +31,8 @@ export const renantheraCoccinea = {
     "climaFloracao": "A espécie ocorre em ampla faixa altitudinal e pode crescer de quente a fresco, mas sua exigência por alta luminosidade é consistente. No litoral quente, o calor por si só raramente é o principal limitante; sombra excessiva, raízes abafadas e falta de ventilação são problemas maiores. Plantas adultas, bem iluminadas e com sistema radicular ativo florescem com mais regularidade.",
     "iluminacao": {
         "sombrite": "20% a 40%",
-        "solDireto": "Sim, com aclimatação",
-        "horario": "Sol da manhã; plantas adaptadas toleram mais",
+        "solDireto": "Sol pleno",
+        "horario": "",
         "observacoes": "IOSPE registra ocorrência inclusive em rochas e paredões em pleno sol. Aclimate gradualmente para evitar queimaduras. Folhas verde-claro e firmes são preferíveis a folhas muito escuras e internódios longos."
     },
     "floracao": "Principalmente na primavera. As inflorescências laterais podem atingir aproximadamente 60–90 cm, são ramificadas e carregam numerosas flores de 5–6,25 cm. Em clima tropical cultivado, a janela pode se estender conforme maturidade da planta e condições locais.",

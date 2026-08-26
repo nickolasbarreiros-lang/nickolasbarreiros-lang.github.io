@@ -26,8 +26,8 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     climaFloracao: "No litoral quente e úmido, o calor favorece a formação dos novos pseudobulbos. Para florescer com regularidade, precisa receber luminosidade filtrada forte, amadurecer completamente cada crescimento e apresentar raízes ativas. Uma discreta queda da temperatura noturna e leve redução da adubação nitrogenada na maturação podem favorecer a emissão da bainha e dos botões.",
     iluminacao: {
         sombrite: "50%",
-        solDireto: "Sim",
-        horario: "Até 09:00, com adaptação gradual",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Cultive sob claridade intensa, com sombrite de 50% ou luz filtrada equivalente. Folhas verde-claras e eretas indicam níveis ideais de luz. Pseudobulbos muito estiolados, compridos e finos, e folhas verde-escuras revelam falta de iluminação, enquanto amarelamento acentuado e manchas secas indicam queimadura por sol direto sem adaptação."
     },
     floracao: "A época de floração não é rigidamente fixa porque se trata de um cruzamento complexo e indivíduos irmãos podem responder de forma diferente. Em geral, a haste surge após a maturação completa do pseudobulbo; no cultivo, luz forte filtrada, raízes ativas e amadurecimento uniforme do crescimento são indicadores mais úteis que um calendário rígido. Registros de Rlc. Chunyeah mostram floração também no outono, reforçando a amplitude fenológica possível do cruzamento.",
@@ -180,7 +180,7 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     },
     mesesFloracao: [4, 5, 6, 7, 8, 9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

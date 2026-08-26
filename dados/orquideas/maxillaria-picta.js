@@ -28,8 +28,8 @@ export const maxillariaPicta = {
     "climaFloracao": "IOSPE registra floração no inverno e na primavera, em hastes basais de uma única flor com cerca de 5 cm. O gatilho mais coerente é a combinação de pseudobulbo maduro, boa luz filtrada e queda sazonal moderada das temperaturas noturnas. No litoral quente, não tente compensar a falta de noites amenas com seca forte: preserve raízes ativas, aumente apenas discretamente o intervalo entre regas após a maturação e mantenha ventilação contínua.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Apenas sol fraco",
-        "horario": "Primeiras horas da manhã",
+        "solDireto": "Permitido com restrição",
+        "horario": "Somente início da manhã",
         "observacoes": "Luz filtrada brilhante é necessária para pseudobulbos compactos e floríferos. Folhas verde-médio e firmes indicam equilíbrio. Vegetação muito escura, alongada ou frouxa sugere sombra; amarelecimento acelerado, manchas secas ou calor nas folhas indicam excesso."
     },
     "floracao": "Predomina do inverno à primavera, geralmente entre julho e novembro no cultivo brasileiro. As flores são solitárias, basais, de aproximadamente 5 cm e podem ser suavemente perfumadas. Touceiras maduras produzem várias hastes em pseudobulbos diferentes, criando uma floração muito mais vistosa.",
@@ -181,7 +181,7 @@ export const maxillariaPicta = {
     },
     "mesesFloracao": [7, 8, 9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {

@@ -31,8 +31,8 @@ export const cattleyaWarneri = {
     "climaFloracao": "Depois que o pseudobulbo termina o crescimento e forma a espata, a planta pode permanecer semanas ou meses em aparente repouso enquanto acumula reservas. Luz alta no inverno, substrato arejado e regas mais espaçadas são importantes, sem impor seca absoluta. Quando as temperaturas aumentam na primavera, os botões podem se desenvolver dentro de uma espata externamente seca. Excesso de água, pouca luz, pseudobulbos finos e excesso de nitrogênio reduzem a qualidade da florada.",
     "iluminacao": {
         "sombrite": "40% a 50%",
-        "solDireto": "Sim, suave e aclimatado",
-        "horario": "Manhã",
+        "solDireto": "Permitido com restrição",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Folhas verde-médio a verde-claro, rígidas e pseudobulbos cheios indicam luz adequada. Folhas muito escuras, pseudobulbos finos e espatas vazias recorrentes sugerem sombra excessiva. Amarelecimento brusco e manchas secas indicam sol forte ou superaquecimento do vaso."
     },
     "floracao": "Floresce principalmente entre setembro e novembro. A haste emerge de dentro da espata apical, que pode estar verde ou completamente seca. As flores são muito grandes, perfumadas e normalmente produzidas em pequeno número por haste devido ao tamanho. Não abra a espata manualmente e não a remova enquanto houver possibilidade de floração.",

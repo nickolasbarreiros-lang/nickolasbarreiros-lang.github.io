@@ -28,8 +28,8 @@ export const cattleyaLoddigesii = {
     climaFloracao: "A floração depende principalmente da maturação completa de pseudobulbos robustos sob boa luminosidade. No período mais frio ou de menor atividade, a frequência das regas pode ser reduzida, mas sem impor repouso seco rigoroso. Touceiras adultas com várias frentes produzem florações mais volumosas por concentrarem vários pseudobulbos maduros no mesmo ciclo.",
     iluminacao: {
         sombrite: "40% a 60% — 50% como referência inicial",
-        solDireto: "Apenas sol suave",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "O melhor indicador é o conjunto formado por pseudobulbos robustos, folhas firmes e crescimento compacto. Folhas muito escuras e pseudobulbos finos ou alongados sugerem falta de luz e costumam acompanhar floração irregular."
     },
     floracao: "Predominantemente do inverno ao início da primavera, mais comum entre junho e setembro, podendo avançar até outubro conforme clone e clima.",
@@ -181,7 +181,7 @@ export const cattleyaLoddigesii = {
     },
     mesesFloracao: [6, 7, 8, 9, 10],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "sazonal", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

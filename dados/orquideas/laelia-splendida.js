@@ -29,8 +29,8 @@ export const laeliaSplendida = {
     climaFloracao: "A floração depende principalmente de pseudobulbos maduros, boa reserva de energia e luminosidade elevada. No litoral quente, adapta-se bem desde que as raízes tenham excelente aeração e a planta não permaneça constantemente molhada.",
     iluminacao: {
         sombrite: "30% a 50%",
-        solDireto: "Aceita sol fraco da manhã após aclimatação",
-        horario: "Luz intensa e filtrada durante grande parte do dia",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "É uma espécie de alta luminosidade. Sombra excessiva produz crescimento verde e vigoroso, mas pode impedir a floração. No litoral quente, evite sol forte do meio do dia sobre folhas não aclimatadas."
     },
     floracao: "A época pode variar conforme procedência e condições de cultivo. No calendário do site, primavera e início do verão são usados como janela prática de referência, observando sempre a maturação dos pseudobulbos.",
@@ -195,7 +195,7 @@ export const laeliaSplendida = {
     },
     mesesFloracao: [9, 10, 11, 12],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 4, agua: 3, raridade: 4 }

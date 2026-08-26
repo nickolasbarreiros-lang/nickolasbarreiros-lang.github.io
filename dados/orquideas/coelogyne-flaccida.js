@@ -32,8 +32,8 @@ export const coelogyneFlaccida = {
     "climaFloracao": "A floração é favorecida por pseudobulbos maduros, noites mais frescas, luz filtrada e redução moderada da água após o crescimento. Não exige repouso tão seco quanto Coelogyne cristata, mas também não deve permanecer encharcada no inverno. A planta precisa ficar elevada e ventilada, tanto para acomodar as hastes pendentes quanto para dissipar o perfume intenso e evitar fungos.",
     "iluminacao": {
         "sombrite": "60% a 70%",
-        "solDireto": "Somente muito fraco",
-        "horario": "Início da manhã",
+        "solDireto": "Permitido com restrição",
+        "horario": "Somente início da manhã",
         "observacoes": "Prefere luz filtrada média a forte. Folhas verde-claro e firmes indicam boa iluminação. Folhas muito escuras sugerem sombra excessiva; amarelecimento e manchas secas indicam sol forte ou calor."
     },
     "floracao": "Floresce principalmente do fim do inverno à primavera, entre agosto e novembro. As inflorescências precisam sair livremente do recipiente e pender sem encostar em prateleiras, paredes ou vasos vizinhos. O perfume é mais intenso em horários claros e pode ser incômodo em locais fechados.",
@@ -190,7 +190,7 @@ export const coelogyneFlaccida = {
         11
     ],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {

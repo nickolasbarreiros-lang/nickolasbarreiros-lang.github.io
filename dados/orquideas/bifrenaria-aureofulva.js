@@ -27,8 +27,8 @@ export const bifrenariaAureofulva = {
     climaFloracao: "A floração é favorecida pela maturação completa dos pseudobulbos, boa luminosidade filtrada e noites mais amenas. Após o amadurecimento do crescimento, reduza moderadamente as regas acompanhando a menor atividade da planta, sem impor seca absoluta.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Apenas muito suave e após aclimatação",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Prefere luz filtrada de média a alta intensidade. Folhas muito escuras podem indicar sombra excessiva; manchas secas e amarelecimento localizado sugerem sol forte. Em clima quente, 50% a 60% de sombreamento é mais seguro que exposição muito intensa."
     },
     floracao: "Floresce principalmente no verão. A haste basal, ereta a pendente, surge no pseudobulbo recém-maduro e pode portar de poucas a numerosas flores, geralmente 3–15. Em clima litorâneo quente a época pode deslocar algumas semanas conforme o ciclo do novo crescimento; por isso o amadurecimento do pseudobulbo é indicador mais confiável que uma data fixa.",

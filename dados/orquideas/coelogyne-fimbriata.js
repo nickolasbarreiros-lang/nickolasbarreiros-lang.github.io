@@ -32,8 +32,8 @@ export const coelogyneFimbriata = {
     "climaFloracao": "A floração ocorre após a maturação dos pseudobulbos e é favorecida por luz filtrada brilhante, umidade regular e leve redução de água no fim do ciclo. Ao contrário de Coelogyne cristata, não exige frio intenso nem seca prolongada. O rizoma precisa avançar livremente e acumular vários pseudobulbos, pois colônias adultas florescem com maior constância que pequenas divisões.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Somente muito fraco",
-        "horario": "Primeiras horas da manhã",
+        "solDireto": "Permitido com restrição",
+        "horario": "Somente início da manhã",
         "observacoes": "Prefere sombra luminosa. Folhas verde-médio indicam boa exposição. Sombra profunda reduz a floração; sol direto forte causa amarelecimento e queimaduras."
     },
     "floracao": "Ocorre principalmente do fim do verão ao outono, entre fevereiro e junho. As hastes são curtas e surgem junto aos pseudobulbos maduros. As flores, embora menores que as de outras Coelogynes, ganham impacto quando várias frentes florescem simultaneamente em uma colônia extensa.",

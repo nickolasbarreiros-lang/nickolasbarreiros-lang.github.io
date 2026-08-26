@@ -33,8 +33,8 @@ export const cattleyaChocolateDrop = {
     "climaFloracao": "A floração depende da maturação completa do pseudobulbo, boa exposição luminosa e redução moderada do nitrogênio após o crescimento. Luz alta melhora a compactação dos cachos, a firmeza das hastes e a intensidade das cores. A genética define a tonalidade básica, mas sombra excessiva produz flores menos intensas e crescimento mais alongado. Não exige repouso seco severo; apenas maior intervalo entre regas após a maturação.",
     "iluminacao": {
         "sombrite": "40% a 60%",
-        "solDireto": "Sim, suave e aclimatado",
-        "horario": "Manhã",
+        "solDireto": "Permitido com restrição",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Ofereça o máximo de luz que as folhas tolerarem sem queimar. Folhas verde-médio, firmes e pseudobulbos compactos indicam boa exposição. Folhas escuras, pseudobulbos alongados e hastes fracas indicam sombra. Manchas secas e clareamento brusco indicam excesso de sol sem aclimatação."
     },
     "floracao": "Floresce geralmente do outono ao inverno, entre abril e agosto, embora o ciclo varie conforme o clone. As hastes eretas carregam flores cerosas, brilhantes e duráveis. O perfume pode variar de discreto a moderado. Plantas adultas e pouco divididas costumam produzir cachos mais densos e mais de uma haste simultânea.",
@@ -193,7 +193,7 @@ export const cattleyaChocolateDrop = {
         8
     ],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
         "avaliacoes": {

@@ -27,8 +27,8 @@ export const bifrenariaHarrisoniae = {
     climaFloracao: "A floração depende de pseudobulbos completamente maduros, alta luminosidade filtrada, raízes bem ventiladas e leve redução da frequência de rega após o crescimento. Não necessita de repouso seco rigoroso; a planta deve permanecer hidratada sem substrato constantemente molhado.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Sim, suave e com aclimatação",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Necessita luminosidade alta. Folhas muito escuras e pseudobulbos alongados sugerem excesso de sombra; uma leve pigmentação avermelhada pode ser normal, enquanto manchas secas e amareladas indicam queimadura."
     },
     floracao: "Floresce principalmente no início do verão, após a maturação do crescimento. As inflorescências basais são curtas, frequentemente duas por pseudobulbo recente, e podem portar até duas flores grandes, carnosas e perfumadas, com cerca de 7,5 cm. IOSPE cita populações costeiras entre 200–700 m, mas há registros rupícolas em cotas mais altas, como cerca de 1.150 m; por isso a altitude varia entre populações e não deve ser usada sozinha para definir a exigência térmica da espécie.",
@@ -180,7 +180,7 @@ export const bifrenariaHarrisoniae = {
     },
     mesesFloracao: [11, 12, 1],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {

@@ -22,8 +22,8 @@ export const gomesaRecurva = {
     climaFloracao: "A amplitude de 50–1.400 m mostra que a espécie não deve ser tratada como estritamente fria. No litoral quente, a floração tende a melhorar no ponto mais fresco e ventilado do cultivo, com luz alta filtrada e redução moderada das regas depois da maturação dos pseudobulbos — sem seca severa.",
     iluminacao: {
         sombrite: "Cerca de 50%; até 60% em locais muito quentes",
-        solDireto: "Sim, somente suave",
-        horario: "Até aproximadamente 08:30",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
         observacoes: "Folhas verde-claras e firmes indicam boa luminosidade. Folhas muito escuras sugerem sombra excessiva; amarelecimento intenso e aquecimento foliar indicam excesso de sol."
     },
     floracao: "Predominantemente no outono e inverno; flores pequenas, numerosas e perfumadas em hastes arqueadas.",
@@ -175,7 +175,7 @@ export const gomesaRecurva = {
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "sazonal", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "ameno" }
     },
         avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 4, agua: 3, raridade: 3 }

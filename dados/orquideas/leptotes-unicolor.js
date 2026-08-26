@@ -27,8 +27,8 @@ export const leptotesUnicolor = {
     climaFloracao: "A amplitude indicada para a espécie — de condições quentes a frescas — mostra que não há necessidade de classificá-la rigidamente como planta fria. O ponto mais importante é manter raízes expostas ao ar, boa luminosidade filtrada e secagem rápida. Em clima quente, umidade atmosférica e ventilação devem compensar a evaporação sem manter o suporte permanentemente molhado.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Sim, suave e aclimatado",
-        horario: "Até aproximadamente 08:30",
+        solDireto: "Permitido com restrição",
+        horario: "Somente início da manhã",
         observacoes: "Luz média a alta filtrada. Folhas firmes e verde-oliva indicam equilíbrio; verde muito escuro sugere pouca luz, enquanto clareamento excessivo, tecido áspero ou manchas secas indicam sol e calor demais."
     },
     floracao: "No Brasil, a referência de campo/cultivo aponta principalmente maio e junho, correspondendo ao fim do outono e início do inverno. As pequenas inflorescências pendentes produzem geralmente 1–2 flores perfumadas de aproximadamente 2–2,4 cm.",
@@ -180,7 +180,7 @@ export const leptotesUnicolor = {
     },
     mesesFloracao: [5, 6],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "muito-frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
     },
         avaliacoes: {

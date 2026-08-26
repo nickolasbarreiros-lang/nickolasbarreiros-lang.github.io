@@ -27,8 +27,8 @@ export const mediocalcarDecoratum = {
     "climaFloracao": "Não necessita repouso seco. A floração é favorecida por crescimento contínuo, touceira madura, raízes saudáveis e noites amenas. Ondas de temperaturas mais frescas podem estimular botões, mas a planta deve permanecer hidratada. Calor noturno prolongado, especialmente com ar parado, interrompe o metabolismo e torna brotos e raízes vulneráveis a podridões.",
     "iluminacao": {
         "sombrite": "70% a 80%",
-        "solDireto": "Não recomendado",
-        "horario": "Luz indireta o dia inteiro",
+        "solDireto": "Não permitido",
+        "horario": "",
         "observacoes": "Mantenha em sombra clara, nunca em escuridão. Pouca luz alonga os brotos e reduz flores; sol direto aquece as folhas pequenas e causa desidratação rápida. O ponto mais baixo e fresco do orquidário costuma oferecer o microclima mais estável."
     },
     "floracao": "Mais frequente do outono à primavera. As flores solitárias surgem em inflorescências muito curtas sobre os novos pseudobulbos, medem cerca de 6 mm e são duráveis. Em touceiras bem estabelecidas, muitas flores podem abrir próximas umas das outras, criando o efeito característico de pequenas lanternas ou doces alaranjados e amarelos espalhados pelo tapete vegetal.",
@@ -180,7 +180,7 @@ export const mediocalcarDecoratum = {
     },
     "mesesFloracao": [3, 4, 5, 6, 7, 8, 9, 10],
     "selosCultivo": {
-        "rega": { "nivel": "constante" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {

@@ -32,8 +32,8 @@ export const trichocentrumFuscum = {
     "climaFloracao": "A floração é favorecida por alta luminosidade filtrada, folhas maduras, ventilação intensa e raízes que alternam hidratação com secagem rápida. Não necessita de repouso absolutamente seco, mas após maturação e nos meses frios o intervalo entre regas deve aumentar.",
     "iluminacao": {
         "sombrite": "40% a 50%",
-        "solDireto": "Somente suave e aclimatado",
-        "horario": "Até aproximadamente 08:30",
+        "solDireto": "Permitido com restrição",
+        "horario": "Início da manhã ou final da tarde",
         "observacoes": "Requer claridade elevada. Folhas verde-oliva e compactas indicam boa luz; folhas muito escuras sugerem sombra. Manchas claras, secas ou amarelamento forte indicam excesso de sol sem aclimatação."
     },
     "floracao": "Mais frequente da primavera ao verão, aproximadamente de setembro a fevereiro. As hastes surgem da base de crescimentos maduros e carregam flores em tons ocres, amarelados e castanhos. Boa luz durante a maturação é determinante para a emissão floral.",
@@ -192,7 +192,7 @@ export const trichocentrumFuscum = {
         2
     ],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "muito-frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
         "avaliacoes": {

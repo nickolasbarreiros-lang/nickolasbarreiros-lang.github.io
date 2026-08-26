@@ -22,8 +22,8 @@ export const howearaLavaBurst = {
     climaFloracao: "Como híbrido, não existe uma altitude natural única para converter em regra. O melhor guia é o comportamento de seus ancestrais: raízes finas, pseudobulbos pequenos e crescimento relativamente contínuo. No litoral quente, floresce melhor quando o vaso permanece fresco e aerado, sem seca prolongada nem calor abafado. Não precisa de repouso seco para induzir flores; precisa completar novos pseudobulbos saudáveis.",
     iluminacao: {
         sombrite: "50% a 60%",
-        solDireto: "Somente muito suave e aclimatado",
-        horario: "Início da manhã, se houver boa ventilação",
+        solDireto: "Permitido com restrição",
+        horario: "Somente início da manhã",
         observacoes: "Luz filtrada abundante favorece hastes mais firmes e floríferas. Folhas muito escuras e pseudobulbos pequenos sugerem sombra excessiva; folhas amareladas ou quentes ao toque indicam excesso de luz."
     },
     floracao: "Pode ocorrer mais de uma vez ao ano, acompanhando a maturação dos novos pseudobulbos. Em cultivo estável é comum apresentar floradas recorrentes, sem uma estação única e rígida.",
@@ -177,7 +177,7 @@ export const howearaLavaBurst = {
     },
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "baixa", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: { cultivo: 4, floracao: 5, perfume: 1, luminosidade: 3, agua: 4, raridade: 2 }
