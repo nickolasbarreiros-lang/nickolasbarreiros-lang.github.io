@@ -2611,6 +2611,7 @@ body {
 .identificacao-v2 {
     flex: 1;
     min-width: 0;
+    padding-left: 14px;
 }
 
 .etiquetas-v2 {
