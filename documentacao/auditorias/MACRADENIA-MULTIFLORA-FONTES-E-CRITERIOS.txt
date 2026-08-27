@@ -1,0 +1,22 @@
+Macradenia multiflora — fontes e critérios
+
+Taxonomia principal
+- POWO/WCVP: Macradenia multiflora (Kraenzl.) Cogn. aceita; Trichopilia multiflora Kraenzl. como sinônimo homotípico.
+- Divergência nacional: Flora e Funga do Brasil 2020 trata M. multiflora como sinônimo heterotípico de M. paraensis.
+O catálogo mantém M. multiflora porque POWO é a referência taxonômica prioritária definida pelo projeto.
+
+Cultivo comparado no Brasil
+- Orquidário Paulista: 50% sombra; 10–35 °C; secagem moderada e boa drenagem.
+- Orquídeas & Cia: meia-sombra, sem sol direto; rega frequente; pinus/esfagno/tronco.
+- Merten Orquídeas: boa umidade e sombreamento; suporta até 35 °C; floração principalmente no verão e possível repetição anual.
+- IOSPE/Orchids.org: água e fertilizante uniformes o ano todo; verão ao outono; flores descritas como fragrantes.
+
+IDC
+Temperatura 15%; Rega 15%; Umidade 10%; Ventilação 10%; Luminosidade 10%;
+Raízes/substrato 10%; Sazonalidade/repouso 10%; Exigência para florescer 20%.
+Resultado: 31/100 = Moderada = ★★★★☆ no selo de facilidade.
+
+Luz
+★★★☆☆ — exigência média.
+Sombrite recomendado: 50–60%.
+Sol direto: Não permitido.
