@@ -2611,7 +2611,6 @@ body {
 .identificacao-v2 {
     flex: 1;
     min-width: 0;
-    padding-left: 14px;
 }
 
 .etiquetas-v2 {
@@ -7662,4 +7661,15 @@ main.container{
     .resumo-ordenacao-v17 { flex-wrap: wrap; }
     .escala-ordenacao-v17 { width: 100%; margin-left: 0; padding-left: 25px; }
     .cabecalho-filtros-avancados-v17 { align-items: flex-start; flex-direction: column; }
+}
+
+/* =========================================================
+   AJUSTE — RESPIRO LATERAL DA IDENTIDADE NO CARD DO CATÁLOGO
+   Mantém o restante do conteúdo intacto e recua somente
+   Gênero + nome científico, incluindo o traço decorativo.
+========================================================= */
+.cartao-orquidea-v4 .identificacao-cartao > .linha-genero-cartao,
+.cartao-orquidea-v4 .identificacao-cartao > h3 {
+    margin-left: 16px;
+    margin-right: 16px;
 }
