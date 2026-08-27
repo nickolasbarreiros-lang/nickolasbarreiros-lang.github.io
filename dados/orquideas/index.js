@@ -61,6 +61,8 @@ import { howearaLavaBurst } from "./howeara-lava-burst.js";
 import { epicattleyaReneMarques } from "./epicattleya-rene-marques.js";
 import { coelogyneFimbriata } from "./coelogyne-fimbriata.js";
 import { maxillariaPicta } from "./maxillaria-picta.js";
+
+import { maxillariaCamaridii } from "./maxillaria-camaridii.js";
 import { maxillariaChrysantha } from "./maxillaria-chrysantha.js";
 import { miltoniaRegnellii } from "./miltonia-regnellii.js";
 import { neobenthamiaGracilis } from "./neobenthamia-gracilis.js";
@@ -205,6 +207,7 @@ zygolumLouisendorf,
     epicattleyaReneMarques,
     coelogyneFimbriata,
     maxillariaPicta,
+    maxillariaCamaridii,
     maxillariaChrysantha,
     miltoniaRegnellii,
     neobenthamiaGracilis,

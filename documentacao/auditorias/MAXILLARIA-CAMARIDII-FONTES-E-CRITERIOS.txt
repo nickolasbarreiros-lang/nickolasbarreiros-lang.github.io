@@ -1,0 +1,25 @@
+Maxillaria camaridii — ficha criada em 27/08/2026
+
+Taxonomia:
+- POWO/WCVP 2026: Maxillaria camaridii Rchb.f. = sinônimo de Maxillaria lutescens Scheidw. (aceita).
+- IPNI: publicação de M. camaridii por Rchb.f., 1863.
+- WFO: Maxillaria lutescens listada no gênero.
+
+Habitat/distribuição:
+- POWO (sob M. lutescens)
+- Phytotaxa, Orchidaceae de campinaranas do Uatumã
+- Rodriguésia/Scielo, Orchidaceae de Igarapé-Miri
+- IOSPE/Orchids.org como fonte horticultural complementar
+
+Comparativo de cultivo brasileiro:
+- Sociedade Bandeirante de Orquídeas: ~70% sombra, boa ventilação, fácil cultivo, florações repetidas.
+- Diário do Orquidófilo: sucesso com substrato misto, luz ampla filtrada e ventilação forte; alerta para substrato inadequado.
+
+IDC aplicado:
+Temperatura 15%; Rega 15%; Umidade 10%; Ventilação 10%; Luminosidade 10%;
+Raízes/substrato 10%; Sazonalidade 10%; Exigência para florescer 20%.
+Resultado: IDC 24/100 = Fácil = ★★★★★.
+
+Luz:
+★★☆☆☆ = exigência baixa a moderada; recomendação prática 60–70% de sombreamento,
+sol direto apenas com restrição e somente no início da manhã em clima quente.
