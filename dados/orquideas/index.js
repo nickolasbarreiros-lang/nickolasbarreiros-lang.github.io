@@ -64,6 +64,7 @@ import { maxillariaPicta } from "./maxillaria-picta.js";
 
 import { maxillariaCamaridii } from "./maxillaria-camaridii.js";
 import { macradeniaMultiflora } from "./macradenia-multiflora.js";
+import { polystachyaConcreta } from "./polystachya-concreta.js";
 import { maxillariaChrysantha } from "./maxillaria-chrysantha.js";
 import { miltoniaRegnellii } from "./miltonia-regnellii.js";
 import { neobenthamiaGracilis } from "./neobenthamia-gracilis.js";
@@ -210,6 +211,7 @@ zygolumLouisendorf,
     maxillariaPicta,
     maxillariaCamaridii,
     macradeniaMultiflora,
+    polystachyaConcreta,
     maxillariaChrysantha,
     miltoniaRegnellii,
     neobenthamiaGracilis,
