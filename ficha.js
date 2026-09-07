@@ -460,7 +460,6 @@ function criarFormasCultivoV4(config) {
         <section class="formas-cultivo-v4" aria-labelledby="titulo-formas-cultivo-v4">
             <div class="cabecalho-formas-v4">
                 <div>
-                    <span class="sobretitulo-formas-v4">NOVO · FICHA V4</span>
                     <h4 id="titulo-formas-cultivo-v4">🌿 Formas de cultivo recomendadas</h4>
                     <p>${obterTexto(config.resumo)}</p>
                 </div>
@@ -1337,11 +1336,11 @@ if (!orquidea) {
                     classeExtra: "card-suporte-v2"
                 })}
 
-                ${orquidea.substratoVisual ? "" : criarCardEstruturado({
+                ${criarCardEstruturado({
                     titulo: "Substratos recomendados",
                     icone: "🌱",
                     valor: orquidea.substrato,
-                    classeExtra: "card-substrato-v2"
+                    classeExtra: "card-substrato-v2 card-substrato-lista-v4"
                 })}
 
             </div>

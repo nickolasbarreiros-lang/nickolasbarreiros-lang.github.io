@@ -8037,3 +8037,36 @@ main.container{
         grid-column: 1;
     }
 }
+
+/* Ficha V4 — refinamentos visuais da biblioteca reutilizável */
+.forma-cultivo-v4 .imagem-forma-v4 {
+    min-height: 150px;
+    padding: 8px;
+}
+.forma-cultivo-v4 .imagem-forma-v4 img {
+    width: 100%;
+    height: 138px;
+    object-fit: contain;
+    transform: scale(1.08);
+}
+.ingrediente-substrato-v4 .imagem-substrato-v4 {
+    width: 94px;
+    height: 94px;
+}
+.ingrediente-substrato-v4 .imagem-substrato-v4 img {
+    width: 84px;
+    height: 84px;
+    object-fit: contain;
+}
+.card-substrato-lista-v4 {
+    grid-column: 1 / -1;
+}
+.card-substrato-lista-v4 .conteudo-card-cultivo-v2 {
+    width: 100%;
+}
+@media (max-width: 760px) {
+    .forma-cultivo-v4 .imagem-forma-v4 { min-height: 130px; }
+    .forma-cultivo-v4 .imagem-forma-v4 img { height: 118px; }
+    .ingrediente-substrato-v4 .imagem-substrato-v4 { width: 82px; height: 82px; }
+    .ingrediente-substrato-v4 .imagem-substrato-v4 img { width: 72px; height: 72px; }
+}

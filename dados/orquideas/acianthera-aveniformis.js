@@ -42,7 +42,7 @@ export const aciantheraAveniformis = {
             { nome: "Placa de madeira", asset: "placa-madeira", estrelas: 5, status: "Ideal", texto: "Acompanha melhor o crescimento reptante. Use madeira, cortiça ou casca rugosa e deixe espaço lateral para a planta avançar." },
             { nome: "Tronco", asset: "tronco", estrelas: 5, status: "Ideal", texto: "Muito próximo do hábito epífito natural. Funciona melhor onde a umidade do ar é alta e a ventilação é constante." },
             { nome: "Cesto", asset: "cesto-madeira", estrelas: 4, status: "Muito bom", texto: "Cachepô pequeno e bem ripado mantém as raízes arejadas e permite que o crescimento ultrapasse as bordas." },
-            { nome: "Vaso", asset: "vaso-barro", estrelas: 3, status: "Adequado", texto: "Use vaso pequeno, raso e muito perfurado, com mistura leve. O rizoma deve permanecer sobre o substrato." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Use vaso pequeno, raso e muito perfurado, com mistura leve. O rizoma deve permanecer sobre o substrato." },
             { nome: "Semi-hidro", asset: "semi-hidro", estrelas: 1, status: "Evitar", texto: "Pouco indicado para esta micro-orquídea de raízes finas, pois reduz a margem de segurança contra saturação e abafamento radicular." }
         ],
         montagem: [
