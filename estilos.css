@@ -8150,3 +8150,65 @@ main.container{
         grid-row: auto;
     }
 }
+
+/* V4 — justificativa botânica/função de cada componente do substrato */
+.finalidade-substrato-v4 {
+    margin-top: 15px;
+    padding: 15px 16px;
+    border: 1px solid #e1e9dd;
+    border-radius: 14px;
+    background: #f8fbf6;
+}
+.titulo-finalidade-substrato-v4 {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 11px;
+}
+.titulo-finalidade-substrato-v4 > span {
+    display: grid;
+    place-items: center;
+    width: 31px;
+    height: 31px;
+    flex: 0 0 31px;
+    border-radius: 9px;
+    background: #eaf3e6;
+    font-size: 1rem;
+}
+.titulo-finalidade-substrato-v4 h5 {
+    margin: 0;
+    color: #244b30;
+    font-size: .92rem;
+}
+.titulo-finalidade-substrato-v4 p {
+    margin: 3px 0 0;
+    color: #667166;
+    font-size: .76rem;
+    line-height: 1.45;
+}
+.grade-finalidades-substrato-v4 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 10px;
+}
+.finalidade-item-substrato-v4 {
+    padding: 9px 11px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #e4ebe1;
+}
+.finalidade-item-substrato-v4 strong {
+    display: block;
+    margin-bottom: 3px;
+    color: #355c3d;
+    font-size: .78rem;
+}
+.finalidade-item-substrato-v4 span {
+    display: block;
+    color: #526056;
+    font-size: .75rem;
+    line-height: 1.42;
+}
+@media (max-width: 720px) {
+    .grade-finalidades-substrato-v4 { grid-template-columns: 1fr; }
+}

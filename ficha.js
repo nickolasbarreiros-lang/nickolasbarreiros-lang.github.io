@@ -540,6 +540,26 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                 `).join("")}
             </div>
 
+            ${itensValidos.some((item) => item.finalidade) ? `
+                <div class="finalidade-substrato-v4">
+                    <div class="titulo-finalidade-substrato-v4">
+                        <span aria-hidden="true">🔎</span>
+                        <div>
+                            <h5>Por que esta composição funciona para esta orquídea?</h5>
+                            ${config.justificativa ? `<p>${config.justificativa}</p>` : ""}
+                        </div>
+                    </div>
+                    <div class="grade-finalidades-substrato-v4">
+                        ${itensValidos.filter((item) => item.finalidade).map((item) => `
+                            <article class="finalidade-item-substrato-v4">
+                                <strong>${item.nome || item.assetInfo.nome}</strong>
+                                <span>${item.finalidade}</span>
+                            </article>
+                        `).join("")}
+                    </div>
+                </div>
+            ` : ""}
+
             ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
 
             ${Array.isArray(recomendados) && recomendados.length ? `
