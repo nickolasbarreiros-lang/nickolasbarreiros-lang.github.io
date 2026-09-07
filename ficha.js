@@ -504,7 +504,7 @@ function criarFormasCultivoV4(config) {
     `;
 }
 
-function criarSubstratoVisualV4(config) {
+function criarSubstratoVisualV4(config, recomendados = []) {
     if (!config || !Array.isArray(config.itens) || !config.itens.length) {
         return "";
     }
@@ -541,6 +541,21 @@ function criarSubstratoVisualV4(config) {
             </div>
 
             ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
+
+            ${Array.isArray(recomendados) && recomendados.length ? `
+                <div class="substratos-recomendados-v4">
+                    <div class="titulo-recomendados-v4">
+                        <span aria-hidden="true">🌱</span>
+                        <div>
+                            <h5>Substratos recomendados</h5>
+                            <p>Outras composições e formas de montagem adequadas para esta espécie.</p>
+                        </div>
+                    </div>
+                    <ul>
+                        ${recomendados.map((item) => `<li>${item}</li>`).join("")}
+                    </ul>
+                </div>
+            ` : ""}
         </section>
     `;
 }
@@ -1296,7 +1311,7 @@ if (!orquidea) {
             </div>
 
             ${criarFormasCultivoV4(orquidea.formasCultivo)}
-            ${criarSubstratoVisualV4(orquidea.substratoVisual)}
+            ${criarSubstratoVisualV4(orquidea.substratoVisual, orquidea.substrato)}
 
             <div class="grade-cultivo-v2">
 
@@ -1336,12 +1351,6 @@ if (!orquidea) {
                     classeExtra: "card-suporte-v2"
                 })}
 
-                ${criarCardEstruturado({
-                    titulo: "Substratos recomendados",
-                    icone: "🌱",
-                    valor: orquidea.substrato,
-                    classeExtra: "card-substrato-v2 card-substrato-lista-v4"
-                })}
 
             </div>
 

@@ -8070,3 +8070,51 @@ main.container{
     .ingrediente-substrato-v4 .imagem-substrato-v4 { width: 82px; height: 82px; }
     .ingrediente-substrato-v4 .imagem-substrato-v4 img { width: 72px; height: 72px; }
 }
+
+/* V4 — lista de alternativas integrada à mesma janela do Substrato ideal */
+.substratos-recomendados-v4 {
+    margin-top: 16px;
+    padding-top: 15px;
+    border-top: 1px solid #dfe8da;
+}
+.titulo-recomendados-v4 {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 8px;
+}
+.titulo-recomendados-v4 > span {
+    display: grid;
+    place-items: center;
+    width: 30px;
+    height: 30px;
+    flex: 0 0 30px;
+    border-radius: 9px;
+    background: #eef5ea;
+}
+.titulo-recomendados-v4 h5 {
+    margin: 0;
+    color: #244b30;
+    font-size: .92rem;
+}
+.titulo-recomendados-v4 p {
+    margin: 2px 0 0;
+    color: #7a8279;
+    font-size: .7rem;
+}
+.substratos-recomendados-v4 ul {
+    margin: 0 0 0 39px;
+    padding: 0;
+    list-style: none;
+}
+.substratos-recomendados-v4 li {
+    padding: 7px 4px;
+    border-bottom: 1px dashed #dce4d8;
+    color: #455247;
+    font-size: .8rem;
+    line-height: 1.4;
+}
+.substratos-recomendados-v4 li:last-child { border-bottom: 0; }
+@media (max-width:620px) {
+    .substratos-recomendados-v4 ul { margin-left: 0; }
+}
