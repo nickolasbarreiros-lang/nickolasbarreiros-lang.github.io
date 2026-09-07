@@ -7796,3 +7796,244 @@ main.container{
     .montagem-v4 ol { grid-template-columns: 1fr; }
     .alerta-formas-v4 { flex-direction: column; gap: 4px; }
 }
+
+/* =========================================================
+   FICHA V4.1 — BIBLIOTECA VISUAL REUTILIZÁVEL DE CULTIVO
+   Assets compartilhados entre as fichas: suportes, vasos e
+   componentes de substrato.
+========================================================= */
+.imagem-asset-cultivo-v4 {
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.imagem-asset-cultivo-v4 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.forma-cultivo-v4 {
+    overflow: hidden;
+    padding: 0;
+    min-height: 355px;
+    display: flex;
+    flex-direction: column;
+}
+
+.forma-cultivo-v4 .imagem-forma-v4 {
+    height: 165px;
+    padding: 8px;
+    border-bottom: 1px solid #edf1eb;
+    background: linear-gradient(180deg, #fff 0%, #fbfcfa 100%);
+}
+
+.corpo-forma-v4 {
+    flex: 1;
+    padding: 14px 15px 16px;
+}
+
+.corpo-forma-v4 .topo-forma-v4 {
+    align-items: flex-start;
+}
+
+.corpo-forma-v4 h5 {
+    margin: 0;
+    padding-right: 6px;
+}
+
+.forma-principal-v4 .imagem-forma-v4 {
+    background: linear-gradient(180deg, #fbfff8 0%, #eef6e8 100%);
+}
+
+/* Receita visual de substrato */
+.substrato-visual-v4 {
+    margin: 0 0 24px;
+    padding: 22px 24px 18px;
+    border: 1px solid #dce5d7;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 9px 24px rgba(38, 71, 45, .055);
+}
+
+.cabecalho-substrato-visual-v4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 18px;
+    margin-bottom: 17px;
+}
+
+.titulo-substrato-visual-v4 {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+}
+
+.titulo-substrato-visual-v4 > span {
+    display: grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    flex: 0 0 36px;
+    border-radius: 10px;
+    background: #eef5ea;
+    font-size: 1.25rem;
+}
+
+.titulo-substrato-visual-v4 h4 {
+    margin: 0 0 3px;
+    color: #244b30;
+    font-size: 1.22rem;
+}
+
+.titulo-substrato-visual-v4 p {
+    margin: 0;
+    color: #667166;
+    font-size: .86rem;
+    line-height: 1.45;
+}
+
+.contexto-substrato-v4 {
+    padding: 7px 11px;
+    border: 1px solid #d6e3d2;
+    border-radius: 999px;
+    background: #f5f9f3;
+    color: #4a654b;
+    font-size: .72rem;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.receita-substrato-v4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 0 8px;
+}
+
+.ingrediente-substrato-v4 {
+    width: min(175px, 22%);
+    min-width: 120px;
+    text-align: center;
+}
+
+.ingrediente-substrato-v4 .imagem-substrato-v4 {
+    width: 118px;
+    height: 118px;
+    margin: 0 auto 8px;
+    border: 1px solid #e2e7df;
+    border-radius: 50%;
+    box-shadow: 0 5px 13px rgba(31, 54, 34, .08);
+}
+
+.ingrediente-substrato-v4 strong {
+    display: block;
+    color: #2d3e31;
+    font-size: .84rem;
+    line-height: 1.25;
+}
+
+.proporcao-substrato-v4 {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 3px 7px;
+    border-radius: 999px;
+    background: #edf4e9;
+    color: #3f6543;
+    font-size: .67rem;
+    font-weight: 800;
+}
+
+.ingrediente-substrato-v4 small {
+    display: block;
+    margin-top: 4px;
+    color: #778078;
+    font-size: .7rem;
+    line-height: 1.25;
+}
+
+.sinal-mais-substrato-v4 {
+    align-self: center;
+    margin-top: -26px;
+    color: #2f3f33;
+    font-size: 1.55rem;
+    font-weight: 800;
+}
+
+.alerta-substrato-v4 {
+    margin-top: 8px;
+    padding: 9px 12px;
+    border-radius: 9px;
+    background: #f2f7ee;
+    color: #526151;
+    font-size: .78rem;
+    line-height: 1.45;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .forma-cultivo-v4 {
+        min-height: 330px;
+    }
+
+    .receita-substrato-v4 {
+        flex-wrap: wrap;
+    }
+
+    .ingrediente-substrato-v4 {
+        width: 150px;
+    }
+}
+
+@media (max-width: 620px) {
+    .forma-cultivo-v4 {
+        min-height: 0;
+    }
+
+    .forma-cultivo-v4 .imagem-forma-v4 {
+        height: 205px;
+    }
+
+    .substrato-visual-v4 {
+        padding: 17px;
+        border-radius: 17px;
+    }
+
+    .cabecalho-substrato-visual-v4 {
+        flex-direction: column;
+    }
+
+    .contexto-substrato-v4 {
+        white-space: normal;
+    }
+
+    .receita-substrato-v4 {
+        display: grid;
+        grid-template-columns: 1fr 24px 1fr;
+        align-items: start;
+        gap: 8px;
+    }
+
+    .ingrediente-substrato-v4 {
+        width: auto;
+        min-width: 0;
+    }
+
+    .ingrediente-substrato-v4 .imagem-substrato-v4 {
+        width: 105px;
+        height: 105px;
+    }
+
+    .sinal-mais-substrato-v4 {
+        align-self: center;
+        margin: 0;
+        text-align: center;
+    }
+
+    .receita-substrato-v4 > .ingrediente-substrato-v4:nth-of-type(3) {
+        grid-column: 1;
+    }
+}

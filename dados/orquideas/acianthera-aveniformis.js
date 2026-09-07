@@ -39,11 +39,11 @@ export const aciantheraAveniformis = {
         destaque: "Placa / tronco",
         resumo: "O hábito reptante e as raízes finas favorecem suportes pequenos, muito aerados e com pouca reserva de umidade junto ao rizoma.",
         metodos: [
-            { nome: "Placa", icone: "🪵", estrelas: 5, status: "Ideal", texto: "Acompanha melhor o crescimento reptante. Use madeira, cortiça ou casca rugosa e deixe espaço lateral para a planta avançar." },
-            { nome: "Tronco", icone: "🌳", estrelas: 5, status: "Ideal", texto: "Muito próximo do hábito epífito natural. Funciona melhor onde a umidade do ar é alta e a ventilação é constante." },
-            { nome: "Cesto", icone: "🧺", estrelas: 4, status: "Muito bom", texto: "Cachepô pequeno e bem ripado mantém as raízes arejadas e permite que o crescimento ultrapasse as bordas." },
-            { nome: "Vaso", icone: "🪴", estrelas: 3, status: "Adequado", texto: "Use vaso pequeno, raso e muito perfurado, com mistura leve. O rizoma deve permanecer sobre o substrato." },
-            { nome: "Semi-hidro", icone: "💧", estrelas: 1, status: "Evitar", texto: "Pouco indicado para esta micro-orquídea de raízes finas, pois reduz a margem de segurança contra saturação e abafamento radicular." }
+            { nome: "Placa de madeira", asset: "placa-madeira", estrelas: 5, status: "Ideal", texto: "Acompanha melhor o crescimento reptante. Use madeira, cortiça ou casca rugosa e deixe espaço lateral para a planta avançar." },
+            { nome: "Tronco", asset: "tronco", estrelas: 5, status: "Ideal", texto: "Muito próximo do hábito epífito natural. Funciona melhor onde a umidade do ar é alta e a ventilação é constante." },
+            { nome: "Cesto", asset: "cesto-madeira", estrelas: 4, status: "Muito bom", texto: "Cachepô pequeno e bem ripado mantém as raízes arejadas e permite que o crescimento ultrapasse as bordas." },
+            { nome: "Vaso", asset: "vaso-barro", estrelas: 3, status: "Adequado", texto: "Use vaso pequeno, raso e muito perfurado, com mistura leve. O rizoma deve permanecer sobre o substrato." },
+            { nome: "Semi-hidro", asset: "semi-hidro", estrelas: 1, status: "Evitar", texto: "Pouco indicado para esta micro-orquídea de raízes finas, pois reduz a margem de segurança contra saturação e abafamento radicular." }
         ],
         montagem: [
             "Escolha uma placa pequena de superfície rugosa.",
@@ -55,6 +55,18 @@ export const aciantheraAveniformis = {
         alerta: "Em montagem, a secagem é mais rápida. No litoral quente, observe diariamente a hidratação das raízes sem compensar com excesso de esfagno."
     },
     substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "🥉 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "⭐ Alternativa: Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Opção para vaso / cachepô",
+        resumo: "Para cultivo em recipiente, mantenha a mistura leve, arejada e com secagem rápida. Na montagem em placa, use apenas uma lâmina fina de esfagno sob as raízes.",
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina", nota: "estrutura" },
+            { asset: "perlita", nome: "Perlita", nota: "aeração" },
+            { asset: "pedra-pomes", nome: "Pedra-pomes fina", nota: "drenagem" },
+            { asset: "esfagno", nome: "Esfagno solto", nota: "pequena fração" }
+        ],
+        alerta: "Evite compactar a mistura ou cobrir o rizoma. Para esta micro-orquídea, excesso de retenção junto à base é mais perigoso que uma mistura bem aerada."
+    },
     errosComuns: ["Tratar a espécie como obrigatoriamente de clima frio.", "Cobrir rizoma e base dos ramicaules com esfagno.", "Deixar as raízes secarem completamente por vários dias.", "Manter substrato permanentemente encharcado.", "Cultivar em ambiente abafado e quente.", "Aplicar fertilizante concentrado em raízes muito finas.", "Expor ao sol direto forte."],
     revisaoCientificaIAR: {
         "nome": "Acianthera aveniformis",

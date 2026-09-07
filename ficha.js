@@ -1,4 +1,5 @@
 import { orquideas } from "./dados/orquideas/index.js";
+import { obterAssetCultivoV4 } from "./js/biblioteca-cultivo-v4.js";
 
 /* =========================================================
    CONFIGURAÇÃO INICIAL
@@ -434,6 +435,17 @@ function criarCardEstruturado({
     `;
 }
 
+function criarImagemAssetCultivoV4(id, nomeFallback = "Item de cultivo", classe = "") {
+    const asset = obterAssetCultivoV4(id);
+    if (!asset?.imagem) return "";
+
+    return `
+        <div class="imagem-asset-cultivo-v4 ${classe}">
+            <img src="${asset.imagem}" alt="${asset.nome || nomeFallback}" loading="lazy">
+        </div>
+    `;
+}
+
 function criarFormasCultivoV4(config) {
     if (!config || !Array.isArray(config.metodos) || !config.metodos.length) {
         return "";
@@ -463,13 +475,15 @@ function criarFormasCultivoV4(config) {
             <div class="grade-formas-v4">
                 ${config.metodos.map((metodo, indice) => `
                     <article class="forma-cultivo-v4 ${indice === 0 ? "forma-principal-v4" : ""}">
-                        <div class="topo-forma-v4">
-                            <span class="icone-forma-v4" aria-hidden="true">${metodo.icone || "🌱"}</span>
-                            <span class="status-forma-v4">${metodo.status || ""}</span>
+                        ${criarImagemAssetCultivoV4(metodo.asset, metodo.nome, "imagem-forma-v4")}
+                        <div class="corpo-forma-v4">
+                            <div class="topo-forma-v4">
+                                <h5>${metodo.nome}</h5>
+                                <span class="status-forma-v4">${metodo.status || ""}</span>
+                            </div>
+                            ${estrelas(metodo.estrelas)}
+                            <p>${metodo.texto || ""}</p>
                         </div>
-                        <h5>${metodo.nome}</h5>
-                        ${estrelas(metodo.estrelas)}
-                        <p>${metodo.texto || ""}</p>
                     </article>
                 `).join("")}
             </div>
@@ -487,6 +501,47 @@ function criarFormasCultivoV4(config) {
             ` : ""}
 
             ${config.alerta ? `<div class="alerta-formas-v4"><strong>⚠️ Atenção</strong><span>${config.alerta}</span></div>` : ""}
+        </section>
+    `;
+}
+
+function criarSubstratoVisualV4(config) {
+    if (!config || !Array.isArray(config.itens) || !config.itens.length) {
+        return "";
+    }
+
+    const itensValidos = config.itens
+        .map((item) => ({ ...item, assetInfo: obterAssetCultivoV4(item.asset) }))
+        .filter((item) => item.assetInfo?.imagem);
+
+    if (!itensValidos.length) return "";
+
+    return `
+        <section class="substrato-visual-v4" aria-labelledby="titulo-substrato-visual-v4">
+            <div class="cabecalho-substrato-visual-v4">
+                <div class="titulo-substrato-visual-v4">
+                    <span aria-hidden="true">🧱</span>
+                    <div>
+                        <h4 id="titulo-substrato-visual-v4">${config.titulo || "Substrato ideal"}</h4>
+                        <p>${config.resumo || "Composição leve, aerada e de rápida drenagem."}</p>
+                    </div>
+                </div>
+                ${config.contexto ? `<span class="contexto-substrato-v4">${config.contexto}</span>` : ""}
+            </div>
+
+            <div class="receita-substrato-v4">
+                ${itensValidos.map((item, indice) => `
+                    ${indice > 0 ? `<span class="sinal-mais-substrato-v4" aria-hidden="true">+</span>` : ""}
+                    <article class="ingrediente-substrato-v4">
+                        ${criarImagemAssetCultivoV4(item.asset, item.assetInfo.nome, "imagem-substrato-v4")}
+                        <strong>${item.nome || item.assetInfo.nome}</strong>
+                        ${item.proporcao ? `<span class="proporcao-substrato-v4">${item.proporcao}</span>` : ""}
+                        ${item.nota ? `<small>${item.nota}</small>` : ""}
+                    </article>
+                `).join("")}
+            </div>
+
+            ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
         </section>
     `;
 }
@@ -1242,6 +1297,7 @@ if (!orquidea) {
             </div>
 
             ${criarFormasCultivoV4(orquidea.formasCultivo)}
+            ${criarSubstratoVisualV4(orquidea.substratoVisual)}
 
             <div class="grade-cultivo-v2">
 
@@ -1274,14 +1330,14 @@ if (!orquidea) {
                     classeExtra: "card-adubacao-v2"
                 })}
 
-                ${criarCardEstruturado({
+                ${orquidea.formasCultivo ? "" : criarCardEstruturado({
                     titulo: "Suportes recomendados",
                     icone: "🪵",
                     valor: orquidea.suporte,
                     classeExtra: "card-suporte-v2"
                 })}
 
-                ${criarCardEstruturado({
+                ${orquidea.substratoVisual ? "" : criarCardEstruturado({
                     titulo: "Substratos recomendados",
                     icone: "🌱",
                     valor: orquidea.substrato,
