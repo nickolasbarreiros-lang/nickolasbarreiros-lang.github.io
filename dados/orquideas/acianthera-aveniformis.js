@@ -45,14 +45,6 @@ export const aciantheraAveniformis = {
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Use vaso pequeno, raso e muito perfurado, com mistura leve. O rizoma deve permanecer sobre o substrato." },
             { nome: "Semi-hidro", asset: "semi-hidro", estrelas: 1, status: "Evitar", texto: "Pouco indicado para esta micro-orquídea de raízes finas, pois reduz a margem de segurança contra saturação e abafamento radicular." }
         ],
-        montagem: [
-            "Escolha uma placa pequena de superfície rugosa.",
-            "Coloque apenas uma lâmina fina de esfagno sob as raízes.",
-            "Fixe a planta sem cobrir o rizoma ou a base dos ramicaules.",
-            "Deixe espaço livre na direção do crescimento reptante.",
-            "Mantenha umidade frequente e circulação de ar constante."
-        ],
-        alerta: "Em montagem, a secagem é mais rápida. No litoral quente, observe diariamente a hidratação das raízes sem compensar com excesso de esfagno."
     },
     substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "🥉 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "⭐ Alternativa: Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."],
     substratoVisual: {
