@@ -35,6 +35,25 @@ export const aciantheraAveniformis = {
     adubacao: "🌿 Orgânica: bokashi apenas em quantidade mínima e preferencialmente isolado em sachê/porta-adubo, sem contato direto com a base da planta.\n💧 Foliar/mineral: fertilizante equilibrado, como 20-20-20 ou equivalente, em aproximadamente 1/4 da dose do fabricante a cada 10 a 15 dias durante brotação e enraizamento ativo.\n🧪 Liberação lenta: se utilizada, aplicar quantidade muito pequena de Osmocote 14-14-14 ou equivalente somente em cultivo envasado e longe das raízes finas. Em micro-orquídeas, excesso de sais é mais perigoso que deficiência leve; faça lavagem periódica do substrato com água limpa.",
     rega: "Mantenha hidratação frequente sem saturação permanente. Em montagem, pode exigir regas muito frequentes no calor porque a pequena massa radicular seca rapidamente; em vaso, permita leve perda de umidade superficial antes da nova irrigação. O objetivo é um ciclo de molhar bem, renovar o ar e voltar a regar antes de ocorrer desidratação prolongada.",
     suporte: ["🥇 Placa pequena de madeira, cortiça ou casca rugosa, acompanhando o crescimento reptante.", "🥈 Cachepô pequeno e bem ripado.", "🥉 Vaso pequeno, raso e muito perfurado."],
+    formasCultivo: {
+        destaque: "Placa / tronco",
+        resumo: "O hábito reptante e as raízes finas favorecem suportes pequenos, muito aerados e com pouca reserva de umidade junto ao rizoma.",
+        metodos: [
+            { nome: "Placa", icone: "🪵", estrelas: 5, status: "Ideal", texto: "Acompanha melhor o crescimento reptante. Use madeira, cortiça ou casca rugosa e deixe espaço lateral para a planta avançar." },
+            { nome: "Tronco", icone: "🌳", estrelas: 5, status: "Ideal", texto: "Muito próximo do hábito epífito natural. Funciona melhor onde a umidade do ar é alta e a ventilação é constante." },
+            { nome: "Cesto", icone: "🧺", estrelas: 4, status: "Muito bom", texto: "Cachepô pequeno e bem ripado mantém as raízes arejadas e permite que o crescimento ultrapasse as bordas." },
+            { nome: "Vaso", icone: "🪴", estrelas: 3, status: "Adequado", texto: "Use vaso pequeno, raso e muito perfurado, com mistura leve. O rizoma deve permanecer sobre o substrato." },
+            { nome: "Semi-hidro", icone: "💧", estrelas: 1, status: "Evitar", texto: "Pouco indicado para esta micro-orquídea de raízes finas, pois reduz a margem de segurança contra saturação e abafamento radicular." }
+        ],
+        montagem: [
+            "Escolha uma placa pequena de superfície rugosa.",
+            "Coloque apenas uma lâmina fina de esfagno sob as raízes.",
+            "Fixe a planta sem cobrir o rizoma ou a base dos ramicaules.",
+            "Deixe espaço livre na direção do crescimento reptante.",
+            "Mantenha umidade frequente e circulação de ar constante."
+        ],
+        alerta: "Em montagem, a secagem é mais rápida. No litoral quente, observe diariamente a hidratação das raízes sem compensar com excesso de esfagno."
+    },
     substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "🥉 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "⭐ Alternativa: Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."],
     errosComuns: ["Tratar a espécie como obrigatoriamente de clima frio.", "Cobrir rizoma e base dos ramicaules com esfagno.", "Deixar as raízes secarem completamente por vários dias.", "Manter substrato permanentemente encharcado.", "Cultivar em ambiente abafado e quente.", "Aplicar fertilizante concentrado em raízes muito finas.", "Expor ao sol direto forte."],
     revisaoCientificaIAR: {

@@ -7673,3 +7673,126 @@ main.container{
     margin-left: 16px;
     margin-right: 16px;
 }
+
+/* =========================================================
+   FICHA V4 — FORMAS DE CULTIVO (PILOTO)
+========================================================= */
+.formas-cultivo-v4 {
+    margin: 0 0 24px;
+    padding: 24px;
+    border: 1px solid #d9e5d5;
+    border-radius: 22px;
+    background: linear-gradient(145deg, #fbfdf9 0%, #f3f8f0 100%);
+    box-shadow: 0 12px 30px rgba(37, 74, 47, .08);
+}
+
+.cabecalho-formas-v4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+.sobretitulo-formas-v4 {
+    display: inline-block;
+    margin-bottom: 7px;
+    font-size: .72rem;
+    font-weight: 800;
+    letter-spacing: .1em;
+    color: #61785f;
+}
+
+.cabecalho-formas-v4 h4 {
+    margin: 0 0 7px;
+    font-size: 1.35rem;
+    color: #254b31;
+}
+
+.cabecalho-formas-v4 p {
+    max-width: 760px;
+    margin: 0;
+    line-height: 1.55;
+    color: #536154;
+}
+
+.melhor-forma-v4 {
+    min-width: 185px;
+    padding: 12px 16px;
+    border: 1px solid #b7cfad;
+    border-radius: 15px;
+    background: #eaf4e5;
+    text-align: center;
+}
+
+.melhor-forma-v4 span,
+.melhor-forma-v4 strong { display: block; }
+.melhor-forma-v4 span { font-size: .72rem; font-weight: 800; text-transform: uppercase; color: #60725e; }
+.melhor-forma-v4 strong { margin-top: 3px; color: #234b2e; font-size: 1.02rem; }
+
+.grade-formas-v4 {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.forma-cultivo-v4 {
+    position: relative;
+    min-height: 205px;
+    padding: 16px;
+    border: 1px solid #dce5d9;
+    border-radius: 17px;
+    background: rgba(255,255,255,.86);
+    box-shadow: 0 5px 14px rgba(48, 75, 51, .05);
+}
+
+.forma-principal-v4 {
+    border-color: #87aa7e;
+    box-shadow: inset 0 4px 0 #6e9a65, 0 7px 18px rgba(45, 83, 50, .09);
+}
+
+.topo-forma-v4 { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.icone-forma-v4 { font-size: 1.55rem; }
+.status-forma-v4 { padding: 4px 8px; border-radius: 999px; background: #edf3e9; font-size: .67rem; font-weight: 800; text-transform: uppercase; color: #4f6d4b; }
+.forma-cultivo-v4 h5 { margin: 10px 0 3px; font-size: 1.02rem; color: #263e2c; }
+.estrelas-forma-v4 { display: block; margin-bottom: 10px; letter-spacing: .05em; color: #a07819; font-size: .92rem; }
+.forma-cultivo-v4 p { margin: 0; font-size: .84rem; line-height: 1.48; color: #59635a; }
+
+.montagem-v4 {
+    display: grid;
+    grid-template-columns: 210px 1fr;
+    gap: 22px;
+    margin-top: 16px;
+    padding: 18px 20px;
+    border-radius: 16px;
+    background: #fff;
+    border: 1px solid #e0e7dc;
+}
+
+.titulo-montagem-v4 { display: flex; gap: 10px; align-items: flex-start; }
+.titulo-montagem-v4 > span { font-size: 1.6rem; }
+.titulo-montagem-v4 small, .titulo-montagem-v4 strong { display: block; }
+.titulo-montagem-v4 small { margin-bottom: 4px; font-size: .62rem; font-weight: 800; color: #748072; }
+.titulo-montagem-v4 strong { color: #294832; }
+.montagem-v4 ol { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin: 0; padding: 0; list-style: none; counter-reset: passo-v4; }
+.montagem-v4 li { counter-increment: passo-v4; font-size: .79rem; line-height: 1.4; color: #596159; }
+.montagem-v4 li::before { content: counter(passo-v4); display: flex; width: 25px; height: 25px; align-items: center; justify-content: center; margin-bottom: 6px; border-radius: 50%; background: #e7f0e3; font-weight: 800; color: #355b3b; }
+
+.alerta-formas-v4 { display: flex; gap: 12px; margin-top: 12px; padding: 12px 15px; border-left: 4px solid #c4a04a; border-radius: 10px; background: #fff9e9; font-size: .84rem; line-height: 1.45; color: #655a3d; }
+.alerta-formas-v4 strong { white-space: nowrap; color: #69551f; }
+
+@media (max-width: 1000px) {
+    .grade-formas-v4 { grid-template-columns: repeat(2, 1fr); }
+    .montagem-v4 { grid-template-columns: 1fr; }
+    .montagem-v4 ol { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 620px) {
+    .formas-cultivo-v4 { padding: 17px; border-radius: 17px; }
+    .cabecalho-formas-v4 { flex-direction: column; }
+    .melhor-forma-v4 { width: 100%; }
+    .grade-formas-v4 { grid-template-columns: 1fr; }
+    .forma-cultivo-v4 { min-height: 0; }
+    .montagem-v4 ol { grid-template-columns: 1fr; }
+    .alerta-formas-v4 { flex-direction: column; gap: 4px; }
+}

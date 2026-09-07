@@ -434,6 +434,63 @@ function criarCardEstruturado({
     `;
 }
 
+function criarFormasCultivoV4(config) {
+    if (!config || !Array.isArray(config.metodos) || !config.metodos.length) {
+        return "";
+    }
+
+    const estrelas = (nota = 0) => {
+        const n = Math.max(0, Math.min(5, Number(nota) || 0));
+        return `<span class="estrelas-forma-v4" aria-label="${n} de 5 estrelas">${"★".repeat(n)}${"☆".repeat(5 - n)}</span>`;
+    };
+
+    return `
+        <section class="formas-cultivo-v4" aria-labelledby="titulo-formas-cultivo-v4">
+            <div class="cabecalho-formas-v4">
+                <div>
+                    <span class="sobretitulo-formas-v4">NOVO · FICHA V4</span>
+                    <h4 id="titulo-formas-cultivo-v4">🌿 Formas de cultivo recomendadas</h4>
+                    <p>${obterTexto(config.resumo)}</p>
+                </div>
+                ${config.destaque ? `
+                    <div class="melhor-forma-v4">
+                        <span>🏆 Melhor escolha</span>
+                        <strong>${config.destaque}</strong>
+                    </div>
+                ` : ""}
+            </div>
+
+            <div class="grade-formas-v4">
+                ${config.metodos.map((metodo, indice) => `
+                    <article class="forma-cultivo-v4 ${indice === 0 ? "forma-principal-v4" : ""}">
+                        <div class="topo-forma-v4">
+                            <span class="icone-forma-v4" aria-hidden="true">${metodo.icone || "🌱"}</span>
+                            <span class="status-forma-v4">${metodo.status || ""}</span>
+                        </div>
+                        <h5>${metodo.nome}</h5>
+                        ${estrelas(metodo.estrelas)}
+                        <p>${metodo.texto || ""}</p>
+                    </article>
+                `).join("")}
+            </div>
+
+            ${Array.isArray(config.montagem) && config.montagem.length ? `
+                <div class="montagem-v4">
+                    <div class="titulo-montagem-v4">
+                        <span>🛠️</span>
+                        <div><small>QUANDO USAR O MÉTODO PREFERENCIAL</small><strong>Montagem prática</strong></div>
+                    </div>
+                    <ol>
+                        ${config.montagem.map((passo) => `<li>${passo}</li>`).join("")}
+                    </ol>
+                </div>
+            ` : ""}
+
+            ${config.alerta ? `<div class="alerta-formas-v4"><strong>⚠️ Atenção</strong><span>${config.alerta}</span></div>` : ""}
+        </section>
+    `;
+}
+
 function normalizarErrosComuns(valor) {
     if (Array.isArray(valor)) {
         return valor.filter(Boolean);
@@ -1183,6 +1240,8 @@ if (!orquidea) {
                 </h3>
 
             </div>
+
+            ${criarFormasCultivoV4(orquidea.formasCultivo)}
 
             <div class="grade-cultivo-v2">
 
