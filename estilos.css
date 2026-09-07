@@ -8118,3 +8118,35 @@ main.container{
 @media (max-width:620px) {
     .substratos-recomendados-v4 ul { margin-left: 0; }
 }
+
+/* =========================================================
+   FICHA V4 — AJUSTE DE GRADE DO GUIA DE CULTIVO
+   Desktop: Rega, Clima e Adubação ocupam as 3 colunas da
+   mesma linha, eliminando o espaço vazio à direita.
+========================================================= */
+@media (min-width: 1051px) {
+    .grade-cultivo-v2 > .card-adubacao-v2,
+    .grade-cultivo-v2 > .card-adubacao-v2:last-child {
+        grid-column: 3;
+        grid-row: auto;
+        min-height: 128px;
+    }
+}
+
+/* Tablet: mantém distribuição natural em duas colunas. */
+@media (max-width: 1050px) and (min-width: 801px) {
+    .grade-cultivo-v2 > .card-adubacao-v2,
+    .grade-cultivo-v2 > .card-adubacao-v2:last-child {
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
+
+/* Celular: um cartão por linha. */
+@media (max-width: 800px) {
+    .grade-cultivo-v2 > .card-adubacao-v2,
+    .grade-cultivo-v2 > .card-adubacao-v2:last-child {
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
