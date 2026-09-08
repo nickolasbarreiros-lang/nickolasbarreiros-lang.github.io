@@ -540,6 +540,15 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                 `).join("")}
             </div>
 
+            ${config.receitaTexto ? `<div class="receita-texto-substrato-v4"><strong>🌱 ${config.receitaTexto}</strong></div>` : ""}
+
+            ${Array.isArray(config.perfil) && config.perfil.length ? `
+                <div class="perfil-substrato-v4">
+                    <strong>Perfil radicular e hídrico</strong>
+                    <div>${config.perfil.map((item) => `<span>${item}</span>`).join("")}</div>
+                </div>
+            ` : ""}
+
             ${itensValidos.some((item) => item.finalidade) ? `
                 <div class="finalidade-substrato-v4">
                     <div class="titulo-finalidade-substrato-v4">
@@ -560,6 +569,26 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                 </div>
             ` : ""}
 
+            ${Array.isArray(config.evitar) && config.evitar.length ? `
+                <div class="evitar-substrato-v4">
+                    <div class="titulo-evitar-substrato-v4">
+                        <span aria-hidden="true">⛔</span>
+                        <div>
+                            <h5>Evite nesta espécie</h5>
+                            <p>Materiais ou situações que reduzem a margem de segurança das raízes.</p>
+                        </div>
+                    </div>
+                    <div class="grade-evitar-substrato-v4">
+                        ${config.evitar.map((item) => `
+                            <article>
+                                <strong>${item.titulo}</strong>
+                                <span>${item.motivo}</span>
+                            </article>
+                        `).join("")}
+                    </div>
+                </div>
+            ` : ""}
+
             ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
 
             ${Array.isArray(recomendados) && recomendados.length ? `
@@ -572,7 +601,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                         </div>
                     </div>
                     <ul>
-                        ${recomendados.map((item) => `<li>${item}</li>`).join("")}
+                        ${recomendados.map((item, indice) => `<li><span class="marcador-recomendado-v4" aria-hidden="true">${indice + 1}</span><span>${item}</span></li>`).join("")}
                     </ul>
                 </div>
             ` : ""}
