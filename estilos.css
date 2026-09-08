@@ -8715,3 +8715,17 @@ main.container{
         grid-template-columns: 1fr;
     }
 }
+
+
+/* V4 — mensagem fixa de drenagem em cultivo envasado */
+.dreno-vaso-substrato-v4 {
+    margin-top: 6px;
+    padding: 8px 12px;
+    border-radius: 9px;
+    background: #edf5e9;
+    color: #425542;
+    font-size: .78rem;
+    line-height: 1.4;
+    text-align: center;
+}
+.dreno-vaso-substrato-v4 strong { color: #285f38; }

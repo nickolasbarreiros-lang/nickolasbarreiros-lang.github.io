@@ -591,6 +591,8 @@ function criarSubstratoVisualV4(config, recomendados = []) {
 
             ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
 
+            <div class="dreno-vaso-substrato-v4"><strong>🪨 Dreno do vaso:</strong> quando o cultivo for em vaso, mantenha os furos de drenagem livres. Brita ou pedaços de isopor podem ser usados no fundo para evitar obstruções e aumentar a aeração, sem substituir um substrato bem drenante.</div>
+
             ${Array.isArray(recomendados) && recomendados.length ? `
                 <div class="substratos-recomendados-v4">
                     <div class="titulo-recomendados-v4">
