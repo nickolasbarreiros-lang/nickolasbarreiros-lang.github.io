@@ -1,7 +1,7 @@
 export const bibliotecaCultivoV4 = {
     "arvore-viva": {
         nome: "Árvore viva",
-        imagem: "imagens/cultivo-v4/arvore-viva-realista.webp"
+        imagem: "imagens/cultivo-v4/arvore-viva-v2.webp"
     },
     "brita-pura": {
         nome: "Pedras / brita pura",
@@ -25,15 +25,15 @@ export const bibliotecaCultivoV4 = {
     },
     "placa-madeira": {
         nome: "Placa de madeira",
-        imagem: "imagens/cultivo-v4/placa-madeira.webp"
+        imagem: "imagens/cultivo-v4/placa-madeira-v2.webp"
     },
     "tronco": {
         nome: "Tronco / galho",
-        imagem: "imagens/cultivo-v4/tronco.webp"
+        imagem: "imagens/cultivo-v4/tronco-v2.webp"
     },
     "cesto-madeira": {
         nome: "Cesto de madeira",
-        imagem: "imagens/cultivo-v4/cesto-madeira.webp"
+        imagem: "imagens/cultivo-v4/cesto-madeira-v2.webp"
     },
     "cesto-plastico": {
         nome: "Cesto plástico",

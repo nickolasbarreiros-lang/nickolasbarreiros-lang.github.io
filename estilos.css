@@ -8451,3 +8451,61 @@ main.container{
         grid-template-columns: 1fr;
     }
 }
+
+
+/* =========================================================
+   FICHA V4.5 — ASSETS FOTOGRÁFICOS DOS 4 MÉTODOS PRINCIPAIS
+   Enquadramento maior, centralizado e consistente.
+========================================================= */
+@media (min-width: 1001px) {
+    .forma-cultivo-v4 .imagem-forma-v4 {
+        height: 220px;
+        min-height: 220px;
+        padding: 6px 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .forma-cultivo-v4 .imagem-forma-v4 img {
+        width: 100%;
+        height: 100%;
+        max-width: none;
+        max-height: none;
+        margin: 0 auto;
+        object-fit: contain;
+        object-position: 50% 50%;
+    }
+    .forma-cultivo-v4 {
+        min-height: 395px;
+    }
+}
+@media (min-width: 621px) and (max-width: 1000px) {
+    .forma-cultivo-v4 .imagem-forma-v4 {
+        height: 205px;
+        min-height: 205px;
+        padding: 6px;
+    }
+    .forma-cultivo-v4 .imagem-forma-v4 img {
+        width: 100%;
+        height: 100%;
+        max-width: none;
+        max-height: none;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+@media (max-width: 620px) {
+    .forma-cultivo-v4 .imagem-forma-v4 {
+        height: 190px;
+        min-height: 190px;
+        padding: 6px;
+    }
+    .forma-cultivo-v4 .imagem-forma-v4 img {
+        width: 100%;
+        height: 100%;
+        max-width: none;
+        max-height: none;
+        object-fit: contain;
+        object-position: center;
+    }
+}
