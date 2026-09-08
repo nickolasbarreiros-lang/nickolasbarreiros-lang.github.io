@@ -610,8 +610,12 @@ function criarSubstratoVisualV4(config, recomendados = []) {
 }
 
 function normalizarErrosComuns(valor) {
+    const limpar = (item) => String(item || "")
+        .trim()
+        .replace(/[.\s]+$/, "");
+
     if (Array.isArray(valor)) {
-        return valor.filter(Boolean);
+        return valor.map(limpar).filter(Boolean);
     }
 
     if (typeof valor !== "string") {
@@ -620,7 +624,7 @@ function normalizarErrosComuns(valor) {
 
     return valor
         .split(/\n+|;\s*/)
-        .map((item) => item.trim().replace(/\.$/, ""))
+        .map(limpar)
         .filter(Boolean);
 }
 
@@ -726,7 +730,7 @@ function criarAdaptacaoRegional(valor, iar = null) {
                 ${montanha ? `
                     <article class="adaptacao-item-v2">
                         <div class="cabecalho-adaptacao-item-v3">
-                            <h4>🏔️ Regiões de montanha e clima frio</h4>
+                            <h4>🏔️ ${obterTexto(orquidea.adaptacaoRegional?.tituloMontanha, "Regiões de montanha e clima frio")}</h4>
                             ${criarSeloAdaptacaoRegional(
                                 Number(iarMontanha?.estrelas) || montanha.nota,
                                 Number.isFinite(Number(iarMontanha?.indice)) ? Number(iarMontanha.indice) : null
@@ -946,6 +950,17 @@ function criarCalendarioFloracao(
         .join("");
 }
 
+function rotuloDificuldadeCultivo(valor) {
+    const original = String(valor || "").trim();
+    const normalizado = original.toLowerCase();
+
+    if (normalizado.includes("fácil") || normalizado.includes("facil")) return "fácil";
+    if (normalizado.includes("moder")) return "moderado";
+    if (normalizado.includes("difícil") || normalizado.includes("dificil") || normalizado.includes("avanç")) return "avançado";
+
+    return original || "não informado";
+}
+
 function criarSelos(orquidea) {
     const selos = [];
     const textoCaracteristicas = Array.isArray(orquidea.caracteristicas)
@@ -1162,10 +1177,7 @@ if (!orquidea) {
                     </span>
 
                     <span class="etiqueta-v2">
-                        Cultivo ${obterTexto(
-                            orquidea.dificuldade,
-                            "não informado"
-                        )}
+                        Cultivo ${rotuloDificuldadeCultivo(orquidea.dificuldade)}
                     </span>
 
                     ${orquidea.adaptacaoRegional ? `

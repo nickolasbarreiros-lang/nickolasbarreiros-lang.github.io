@@ -60,14 +60,14 @@ export const aciantheraAveniformis = {
         receitaTexto: "Mistura-base sugerida para vaso muito perfurado: 50% casca de pinus fina + 20% carvão vegetal + 20% brita pequena + 10% esfagno solto.",
         perfil: ["Raízes muito finas", "Alta aeração", "Drenagem rápida", "Umidade frequente, sem saturação", "Rizoma sempre exposto"],
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "50%", nota: "estrutura + aeração", finalidade: "É a base orgânica estrutural da mistura. Em granulometria compatível com a pequena planta, cria espaços de ar entre as raízes sem formar uma massa compacta." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração + estrutura", finalidade: "Ajuda a manter a mistura aberta e drenante e é um componente amplamente empregado em misturas para orquídeas no Brasil." },
-            { asset: "brita-pura", nome: "Brita pequena", proporcao: "20%", nota: "drenagem + secagem rápida", finalidade: "Aumenta a drenagem, cria espaços permanentes de ar e reduz a retenção excessiva. Prefira granulometria pequena, compatível com o tamanho do vaso e das raízes." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva mínima de umidade", finalidade: "Compensa parcialmente a secagem rápida dos componentes mais drenantes. Deve permanecer em pequena quantidade e bem solto, principalmente em clima quente." }
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "50%", nota: "estrutura + aeração", finalidade: "Estrutura a mistura e mantém espaços de ar sem compactar as raízes finas." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração + estrutura", finalidade: "Mantém a mistura aberta e drenante, com baixa retenção de água." },
+            { asset: "brita-pura", nome: "Brita pequena", proporcao: "20%", nota: "drenagem + secagem rápida", finalidade: "Aumenta a drenagem e cria espaços permanentes de ar; use granulometria pequena." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva mínima de umidade", finalidade: "Oferece pequena reserva de umidade sem transformar a mistura em massa retentiva." }
         ],
         alerta: "Não compacte a mistura nem cubra o rizoma. Ajuste principalmente a fração de esfagno ao seu microclima: quanto mais úmido o ambiente, menor deve ser a retenção adicional de água."
     },
-    errosComuns: ["Tratar a espécie como obrigatoriamente de clima frio.", "Cobrir rizoma e base dos ramicaules com esfagno.", "Deixar as raízes secarem completamente por vários dias.", "Manter substrato permanentemente encharcado.", "Cultivar em ambiente abafado e quente.", "Aplicar fertilizante concentrado em raízes muito finas.", "Expor ao sol direto forte."],
+    errosComuns: ["Tratar a espécie como obrigatoriamente de clima frio.", "Cobrir rizoma e base dos ramicaules com esfagno.", "Deixar as raízes secarem completamente por vários dias.", "Manter substrato permanentemente encharcado.", "Cultivar em ambiente quente e abafado, sem circulação de ar.", "Aplicar fertilizante concentrado em raízes muito finas.", "Expor ao sol direto forte."],
     revisaoCientificaIAR: {
         "nome": "Acianthera aveniformis",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
@@ -205,6 +205,7 @@ export const aciantheraAveniformis = {
         }
     },
         adaptacaoRegional: {
+        tituloMontanha: "Regiões de montanha e noites frescas",
         litoral: { texto: "Adaptação possível e potencialmente boa, coerente com a indicação de crescimento quente a ameno em baixa/média elevação. Use sombra clara, alta umidade atmosférica e ventilação constante. O principal risco não é o calor isolado, mas calor + ar parado + raízes saturadas." },
         montanha: { texto: "Adapta-se bem às noites mais frescas, desde que não seja mantida fria e encharcada por longos períodos. Em sequências frias e úmidas, reduza a frequência de rega conforme a secagem real do suporte." }
     },
