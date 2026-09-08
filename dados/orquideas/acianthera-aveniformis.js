@@ -37,26 +37,33 @@ export const aciantheraAveniformis = {
     suporte: ["🥇 Placa pequena de madeira, cortiça ou casca rugosa, acompanhando o crescimento reptante.", "🥈 Cachepô pequeno e bem ripado.", "🥉 Vaso pequeno, raso e muito perfurado."],
     formasCultivo: {
         destaque: "Placa / tronco",
-        resumo: "O hábito reptante e as raízes finas favorecem suportes pequenos, muito aerados e com pouca reserva de umidade junto ao rizoma.",
+        resumo: "O hábito epífito reptante e as raízes muito finas favorecem suportes pequenos, muito aerados e com secagem rápida, mas sem desidratação prolongada.",
         metodos: [
-            { nome: "Placa de madeira", asset: "placa-madeira", estrelas: 5, status: "Ideal", texto: "Acompanha melhor o crescimento reptante. Use madeira, cortiça ou casca rugosa e deixe espaço lateral para a planta avançar." },
-            { nome: "Tronco", asset: "tronco", estrelas: 5, status: "Ideal", texto: "Muito próximo do hábito epífito natural. Funciona melhor onde a umidade do ar é alta e a ventilação é constante." },
-            { nome: "Cesto", asset: "cesto-madeira", estrelas: 4, status: "Muito bom", texto: "Cachepô pequeno e bem ripado mantém as raízes arejadas e permite que o crescimento ultrapasse as bordas." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Use vaso pequeno, raso e muito perfurado, com mistura leve. O rizoma deve permanecer sobre o substrato." },
-            { nome: "Semi-hidro", asset: "semi-hidro", estrelas: 1, status: "Evitar", texto: "Pouco indicado para esta micro-orquídea de raízes finas, pois reduz a margem de segurança contra saturação e abafamento radicular." }
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "É a opção preferencial para acompanhar o crescimento reptante. Pode ser placa plana, cortiça, casca rugosa ou pequeno trecho de tronco, sempre com mínima reserva de esfagno apenas sob as raízes." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 5, status: "Excelente", texto: "Boa opção em jardim úmido e sombreado. A casca viva cria microclima estável; escolha local protegido de sol forte e que permita acompanhar a hidratação." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito bom", texto: "Cachepô pequeno e bem ripado mantém as raízes arejadas e permite que o crescimento reptante ultrapasse as bordas sem ficar comprimido." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Alternativa prática para cultivo em recipiente. Use modelo pequeno, raso e muito perfurado, com mistura leve e bem aerada, mantendo o rizoma sempre sobre o substrato." }
         ],
     },
-    substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "🥉 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "⭐ Alternativa: Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."],
+    substrato: ["Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "Alternativa: casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."],
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Opção para vaso / cachepô",
+        contexto: "Para cultivo em recipiente",
         resumo: "Para cultivo em recipiente, mantenha a mistura leve, arejada e com secagem rápida. Na montagem em placa, use apenas uma lâmina fina de esfagno sob as raízes.",
         justificativa: "A Acianthera aveniformis tem raízes muito finas e hábito epífito/reptante. Por isso, a mistura precisa manter bastante ar entre as raízes sem deixá-las desidratar rapidamente: a maior parte da composição favorece aeração e drenagem, enquanto uma pequena fração de esfagno funciona como reserva de umidade.",
+        receitaTexto: "Mistura-base sugerida para cultivo em recipiente: 40% casca de pinus fina + 25% perlita + 25% pedra-pomes fina + 10% esfagno solto.",
+        perfil: ["Raízes muito finas", "Alta aeração", "Drenagem rápida", "Umidade frequente, sem saturação", "Rizoma sempre exposto"],
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus fina", nota: "estrutura", finalidade: "Forma a estrutura principal da mistura e cria espaços de ar. Para as raízes finas desta espécie, ajuda a evitar compactação e abafamento junto ao rizoma." },
-            { asset: "perlita", nome: "Perlita", nota: "aeração", finalidade: "Aumenta a porosidade e mantém canais de ar mesmo após várias regas. É especialmente útil porque raízes finas perdem desempenho rapidamente em substrato compacto." },
-            { asset: "pedra-pomes", nome: "Pedra-pomes fina", nota: "drenagem", finalidade: "Favorece drenagem rápida e mantém a mistura estruturalmente aberta. Seus poros seguram pequena umidade superficial sem criar uma massa encharcada ao redor das raízes." },
-            { asset: "esfagno", nome: "Esfagno solto", nota: "pequena fração", finalidade: "Funciona como reserva moderada de água para reduzir a desidratação das raízes finas. Deve entrar em pequena quantidade e bem solto, pois excesso de retenção junto ao rizoma aumenta o risco de saturação." }
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "40%", nota: "estrutura", finalidade: "Forma a estrutura principal da mistura e cria espaços de ar. Para as raízes finas desta espécie, ajuda a evitar compactação e abafamento junto ao rizoma." },
+            { asset: "perlita", nome: "Perlita", proporcao: "25%", nota: "aeração", finalidade: "Aumenta a porosidade e mantém canais de ar mesmo após várias regas. É especialmente útil porque raízes finas perdem desempenho rapidamente em substrato compacto." },
+            { asset: "pedra-pomes", nome: "Pedra-pomes fina", proporcao: "25%", nota: "drenagem + reserva superficial", finalidade: "Favorece drenagem rápida e mantém a mistura estruturalmente aberta. Seus poros seguram pequena umidade superficial sem criar uma massa encharcada ao redor das raízes." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "pequena fração", finalidade: "Funciona como reserva moderada de água para reduzir a desidratação das raízes finas. Deve entrar em pequena quantidade e bem solto, pois excesso de retenção junto ao rizoma aumenta o risco de saturação." }
+        ],
+        evitar: [
+            { titulo: "Terra vegetal ou substrato fino", motivo: "Compacta com facilidade e reduz o oxigênio disponível para as raízes muito finas." },
+            { titulo: "Excesso de esfagno", motivo: "Retém água demais junto ao rizoma e aumenta o risco de saturação e apodrecimento." },
+            { titulo: "Vaso fechado ou com poucos furos", motivo: "Diminui a troca de ar e prolonga a permanência de água na zona radicular." },
+            { titulo: "Brita grossa pura em ambiente seco", motivo: "A secagem fica rápida demais para uma micro-orquídea que aprecia umidade frequente." }
         ],
         alerta: "Evite compactar a mistura ou cobrir o rizoma. Para esta micro-orquídea, excesso de retenção junto à base é mais perigoso que uma mistura bem aerada."
     },
