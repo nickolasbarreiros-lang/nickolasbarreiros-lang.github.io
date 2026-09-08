@@ -1,4 +1,28 @@
 export const bibliotecaCultivoV4 = {
+    "arvore-viva": {
+        nome: "Árvore viva",
+        imagem: "imagens/cultivo-v4/arvore-viva.webp"
+    },
+    "brita-pura": {
+        nome: "Pedras / brita pura",
+        imagem: "imagens/cultivo-v4/brita-pura.webp"
+    },
+    "totem-mourao": {
+        nome: "Totem / mourão",
+        imagem: "imagens/cultivo-v4/totem-mourao.webp"
+    },
+    "kokedama": {
+        nome: "Kokedama",
+        imagem: "imagens/cultivo-v4/kokedama.webp"
+    },
+    "cultivo-mineral": {
+        nome: "Cultivo mineral",
+        imagem: "imagens/cultivo-v4/pedra-pomes.webp"
+    },
+    "vaso-barro-perfurado": {
+        nome: "Vaso de barro perfurado",
+        imagem: "imagens/cultivo-v4/vaso-barro-perfurado.webp"
+    },
     "placa-madeira": {
         nome: "Placa de madeira",
         imagem: "imagens/cultivo-v4/placa-madeira.webp"

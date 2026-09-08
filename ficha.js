@@ -487,6 +487,29 @@ function criarFormasCultivoV4(config) {
                 `).join("")}
             </div>
 
+            ${Array.isArray(config.naoIndicados) && config.naoIndicados.length ? `
+                <div class="metodos-nao-indicados-v4">
+                    <div class="titulo-nao-indicados-v4">
+                        <span aria-hidden="true">⚠️</span>
+                        <div>
+                            <h5>Outras formas de cultivo — por que não são prioridade aqui?</h5>
+                            <p>A biblioteca V4 possui outros métodos, mas a ficha mostra primeiro os que combinam melhor com a biologia desta espécie.</p>
+                        </div>
+                    </div>
+                    <div class="grade-nao-indicados-v4">
+                        ${config.naoIndicados.map((metodo) => `
+                            <article class="metodo-nao-indicado-v4">
+                                ${criarImagemAssetCultivoV4(metodo.asset, metodo.nome, "imagem-nao-indicado-v4")}
+                                <div>
+                                    <strong>${metodo.nome}</strong>
+                                    <span>${metodo.motivo || ""}</span>
+                                </div>
+                            </article>
+                        `).join("")}
+                    </div>
+                </div>
+            ` : ""}
+
             ${Array.isArray(config.montagem) && config.montagem.length ? `
                 <div class="montagem-v4">
                     <div class="titulo-montagem-v4">
@@ -540,6 +563,13 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                 `).join("")}
             </div>
 
+            ${Array.isArray(config.perfil) && config.perfil.length ? `
+                <div class="perfil-substrato-v4">
+                    <strong>Perfil radicular e hídrico</strong>
+                    <div>${config.perfil.map((item) => `<span>${item}</span>`).join("")}</div>
+                </div>
+            ` : ""}
+
             ${itensValidos.some((item) => item.finalidade) ? `
                 <div class="finalidade-substrato-v4">
                     <div class="titulo-finalidade-substrato-v4">
@@ -554,6 +584,26 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                             <article class="finalidade-item-substrato-v4">
                                 <strong>${item.nome || item.assetInfo.nome}</strong>
                                 <span>${item.finalidade}</span>
+                            </article>
+                        `).join("")}
+                    </div>
+                </div>
+            ` : ""}
+
+            ${Array.isArray(config.evitar) && config.evitar.length ? `
+                <div class="evitar-substrato-v4">
+                    <div class="titulo-evitar-substrato-v4">
+                        <span aria-hidden="true">⛔</span>
+                        <div>
+                            <h5>Evite nesta espécie</h5>
+                            <p>Materiais ou situações que reduzem a margem de segurança das raízes.</p>
+                        </div>
+                    </div>
+                    <div class="grade-evitar-substrato-v4">
+                        ${config.evitar.map((item) => `
+                            <article>
+                                <strong>${item.titulo}</strong>
+                                <span>${item.motivo}</span>
                             </article>
                         `).join("")}
                     </div>

@@ -8212,3 +8212,161 @@ main.container{
 @media (max-width: 720px) {
     .grade-finalidades-substrato-v4 { grid-template-columns: 1fr; }
 }
+
+/* =========================================================
+   FICHA V4.2 — BIBLIOTECA AMPLIADA DE MÉTODOS + LEITURA BIOLÓGICA
+========================================================= */
+.grade-formas-v4 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+}
+.forma-cultivo-v4 {
+    min-height: 345px;
+}
+
+.metodos-nao-indicados-v4 {
+    margin-top: 18px;
+    padding: 16px;
+    border: 1px solid #e5e4d8;
+    border-radius: 16px;
+    background: #fffdf7;
+}
+.titulo-nao-indicados-v4,
+.titulo-evitar-substrato-v4 {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+.titulo-nao-indicados-v4 > span,
+.titulo-evitar-substrato-v4 > span {
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    flex: 0 0 32px;
+    border-radius: 9px;
+    background: #fff2d8;
+}
+.titulo-nao-indicados-v4 h5,
+.titulo-evitar-substrato-v4 h5 {
+    margin: 0;
+    color: #55491f;
+    font-size: .92rem;
+}
+.titulo-nao-indicados-v4 p,
+.titulo-evitar-substrato-v4 p {
+    margin: 3px 0 0;
+    color: #746c54;
+    font-size: .76rem;
+    line-height: 1.4;
+}
+.grade-nao-indicados-v4 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 9px;
+}
+.metodo-nao-indicado-v4 {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    gap: 9px;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ece8dc;
+    border-radius: 11px;
+    background: #fff;
+}
+.metodo-nao-indicado-v4 .imagem-nao-indicado-v4 {
+    width: 64px;
+    height: 64px;
+    border-radius: 9px;
+    background: #fafafa;
+}
+.metodo-nao-indicado-v4 .imagem-nao-indicado-v4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.metodo-nao-indicado-v4 strong {
+    display: block;
+    margin-bottom: 3px;
+    color: #574c2a;
+    font-size: .76rem;
+}
+.metodo-nao-indicado-v4 span {
+    display: block;
+    color: #6e695a;
+    font-size: .69rem;
+    line-height: 1.35;
+}
+
+.perfil-substrato-v4 {
+    margin-top: 11px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    background: #f3f8f0;
+    border: 1px solid #e0eadb;
+}
+.perfil-substrato-v4 > strong {
+    display: block;
+    margin-bottom: 7px;
+    color: #35583c;
+    font-size: .76rem;
+}
+.perfil-substrato-v4 > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.perfil-substrato-v4 span {
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: #fff;
+    border: 1px solid #dbe7d6;
+    color: #526453;
+    font-size: .69rem;
+    font-weight: 700;
+}
+
+.evitar-substrato-v4 {
+    margin-top: 15px;
+    padding: 15px 16px;
+    border: 1px solid #eadfd8;
+    border-radius: 14px;
+    background: #fffaf7;
+}
+.grade-evitar-substrato-v4 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 10px;
+}
+.grade-evitar-substrato-v4 article {
+    padding: 9px 11px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #eee4de;
+}
+.grade-evitar-substrato-v4 strong {
+    display: block;
+    margin-bottom: 3px;
+    color: #744a39;
+    font-size: .77rem;
+}
+.grade-evitar-substrato-v4 span {
+    display: block;
+    color: #695c57;
+    font-size: .73rem;
+    line-height: 1.4;
+}
+
+@media (max-width: 1000px) {
+    .grade-formas-v4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grade-nao-indicados-v4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 620px) {
+    .grade-formas-v4,
+    .grade-nao-indicados-v4,
+    .grade-evitar-substrato-v4 { grid-template-columns: 1fr; }
+    .metodo-nao-indicado-v4 { grid-template-columns: 76px 1fr; }
+    .metodo-nao-indicado-v4 .imagem-nao-indicado-v4 { width: 76px; height: 76px; }
+}
