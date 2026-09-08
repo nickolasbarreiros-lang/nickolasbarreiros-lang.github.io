@@ -64,12 +64,6 @@ export const aciantheraAveniformis = {
             { asset: "brita-pura", nome: "Brita pequena", proporcao: "20%", nota: "drenagem + secagem rápida", finalidade: "Aumenta a drenagem, cria espaços permanentes de ar e reduz a retenção excessiva. Prefira granulometria pequena, compatível com o tamanho do vaso e das raízes." },
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva mínima de umidade", finalidade: "Compensa parcialmente a secagem rápida dos componentes mais drenantes. Deve permanecer em pequena quantidade e bem solto, principalmente em clima quente." }
         ],
-        evitar: [
-            { titulo: "Terra vegetal ou substrato fino", motivo: "Compacta com facilidade e reduz o oxigênio disponível para as raízes muito finas." },
-            { titulo: "Excesso de esfagno", motivo: "Mantém água demais junto ao rizoma e pode prolongar excessivamente a saturação." },
-            { titulo: "Vaso fechado ou com poucos furos", motivo: "Diminui a troca de ar e prolonga a permanência de água na zona radicular." },
-            { titulo: "Brita pura em ambiente muito seco", motivo: "Embora muito drenante e aerada, pode secar rápido demais para esta micro-orquídea quando a umidade ambiental é baixa." }
-        ],
         alerta: "Não compacte a mistura nem cubra o rizoma. Ajuste principalmente a fração de esfagno ao seu microclima: quanto mais úmido o ambiente, menor deve ser a retenção adicional de água."
     },
     errosComuns: ["Tratar a espécie como obrigatoriamente de clima frio.", "Cobrir rizoma e base dos ramicaules com esfagno.", "Deixar as raízes secarem completamente por vários dias.", "Manter substrato permanentemente encharcado.", "Cultivar em ambiente abafado e quente.", "Aplicar fertilizante concentrado em raízes muito finas.", "Expor ao sol direto forte."],

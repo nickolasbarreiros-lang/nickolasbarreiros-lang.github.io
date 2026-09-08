@@ -5,7 +5,7 @@ export const bibliotecaCultivoV4 = {
     },
     "brita-pura": {
         nome: "Pedras / brita pura",
-        imagem: "imagens/cultivo-v4/brita-pura.webp"
+        imagem: "imagens/cultivo-v4/brita-v2.webp"
     },
     "totem-mourao": {
         nome: "Totem / mourão",
