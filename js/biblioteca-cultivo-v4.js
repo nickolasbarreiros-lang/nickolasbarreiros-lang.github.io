@@ -53,7 +53,7 @@ export const bibliotecaCultivoV4 = {
     },
     "vaso-plastico-vasado": {
         nome: "Vaso plástico vasado",
-        imagem: "imagens/cultivo-v4/vaso-plastico-vasado.webp"
+        imagem: "imagens/cultivo-v4/vaso-plastico-vasado-v2.webp"
     },
     "semi-hidro": {
         nome: "Semi-hidro",
