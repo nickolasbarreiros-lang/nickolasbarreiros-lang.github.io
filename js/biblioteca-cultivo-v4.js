@@ -95,6 +95,41 @@ export const bibliotecaCultivoV4 = {
 // cai automaticamente no asset genérico do método. Isso permite ampliar a
 // biblioteca aos poucos sem quebrar fichas já existentes.
 export const perfisVisuaisCultivoV4 = {
+    "cattleya-mini": {
+        nome: "Cattleya miniatura / antigas Sophronitis",
+        generosReferencia: ["Cattleya", "Sophronitis"],
+        assets: {}
+    },
+    "cattleya": {
+        nome: "Cattleya e híbridos da aliança",
+        generosReferencia: ["Cattleya", "Cattlianthe", "Brassolaeliocattleya"],
+        assets: {}
+    },
+    "dendrobium": {
+        nome: "Dendrobium",
+        generosReferencia: ["Dendrobium"],
+        assets: {}
+    },
+    "bifrenaria": {
+        nome: "Bifrenaria",
+        generosReferencia: ["Bifrenaria"],
+        assets: {}
+    },
+    "zygopetalinae": {
+        nome: "Zygopetalinae",
+        generosReferencia: ["Zygolum", "Zygopetalum", "Zygosepalum"],
+        assets: {}
+    },
+    "maxillaria": {
+        nome: "Maxillaria",
+        generosReferencia: ["Maxillaria", "Brasiliorchis", "Camaridium"],
+        assets: {}
+    },
+    "micro-epifita": {
+        nome: "Micro-orquídea epífita de crescimento rasteiro",
+        generosReferencia: ["Mediocalcar"],
+        assets: {}
+    },
     "micro-pleurothalidina": {
         nome: "Micro-orquídeas Pleurothallidinae",
         generosReferencia: ["Acianthera", "Pabstiella", "Anathallis", "Pleurothallis"],

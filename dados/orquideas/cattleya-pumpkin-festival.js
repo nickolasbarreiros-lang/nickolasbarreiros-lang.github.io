@@ -36,9 +36,48 @@ export const cattleyaPumpkinFestival = {
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade, renovado a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose recomendada a cada 7 a 15 dias. Após a maturação dos pseudobulbos, alternar ocasionalmente com fórmulas mais ricas em fósforo e potássio, como 09-45-15 ou 10-30-20.\n🧪 Liberação lenta: Osmocote 14-14-14 em baixa quantidade no canto do vaso, sempre longe das raízes novas.",
     rega: "Durante o crescimento ativo, molhe abundantemente assim que o substrato estiver quase completamente seco. Após a maturação do pseudobulbo, reduza discretamente a frequência para favorecer a indução floral. Evite água acumulada na espata e nunca mantenha o substrato constantemente úmido.",
     suporte: "🥇 Cachepô de madeira bem vazado.\n🥈 Vaso de barro proporcional ao sistema radicular.\n🥉 Vaso plástico com abundante furação lateral.",
-    substrato: "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.\n🥈 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.\n🥉 Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.\n⭐ Alternativa: Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.",
-    errosComuns: "Cultivar sob sombra excessiva; utilizar vasos grandes e fundos; enterrar o rizoma; manter o substrato constantemente úmido; replantar fora da emissão de raízes novas; exagerar na adubação nitrogenada; deixar água acumulada na espata floral.",
     dica: "A intensidade da coloração laranja e o tamanho das flores dependem diretamente da luminosidade recebida durante a formação dos pseudobulbos. Cultive em vaso relativamente justo, com excelente ventilação e alta luminosidade, evitando apenas queimaduras causadas pelo sol forte do meio-dia.",
+    formasCultivo: {
+        perfilVisual: "cattleya",
+        destaque: "Cesto de madeira",
+        resumo: "Como híbrido da aliança Cattleya, responde melhor a alta luminosidade filtrada, raízes muito aeradas e ciclo claro de molhar bem e secar antes da próxima rega.",
+        metodos: [
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 5, status: "Ideal", texto: "Oferece excelente aeração e espaço para raízes grossas, reduzindo risco de encharcamento em clima quente." },
+            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 5, status: "Ideal", texto: "Muito seguro para raízes de Cattleya, pois favorece secagem e ajuda a dissipar calor." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Boa opção com mistura grossa e rega bem controlada; prefira recipientes claros no litoral." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Pode funcionar em ambiente úmido e com rotina de rega consistente, mas exige mais manejo em plantas maiores." }
+        ]
+    },
+    substrato: [
+        "Em cesto ou vaso: casca de pinus grossa + carvão vegetal + brita pequena + casca de macadâmia.",
+        "Use recipiente apenas um pouco maior que o sistema radicular.",
+        "Molhe bem e espere a mistura se aproximar da secagem antes da próxima rega.",
+        "Evite frações finas, excesso de musgo e vaso grande."
+    ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cesto ou vaso",
+        resumo: "Mistura grossa, estável e de secagem rápida, adequada ao padrão radicular das Cattleyas híbridas.",
+        justificativa: "Este híbrido não possui habitat natural, então a recomendação se baseia na fisiologia e no cultivo consolidado da aliança Cattleya: raízes grossas, alta necessidade de oxigênio e baixa tolerância à saturação prolongada.",
+        receitaTexto: "Mistura-base sugerida: 45% casca de pinus grossa + 25% carvão vegetal + 20% brita pequena + 10% casca de macadâmia.",
+        perfil: ["Raízes grossas", "Alta aeração", "Secagem entre regas", "Alta luminosidade filtrada", "Vaso proporcional"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "45%", nota: "estrutura", finalidade: "Sustenta raízes grossas e mantém grandes espaços de ar." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "25%", nota: "aeração", finalidade: "Mantém a mistura aberta e acelera a secagem." },
+            { asset: "brita-pura", nome: "Brita pequena", proporcao: "20%", nota: "drenagem + estabilidade", finalidade: "Ajuda no escoamento e dá peso ao recipiente." },
+            { asset: "macadamia", nome: "Casca de macadâmia", proporcao: "10%", nota: "estrutura complementar", finalidade: "Acrescenta partículas duráveis sem aumentar muito a retenção." }
+        ],
+        alerta: "Nunca enterre o rizoma. Replante preferencialmente quando novas raízes começarem a surgir."
+    },
+    errosComuns: [
+        "Usar vaso grande.",
+        "Manter o substrato sempre úmido.",
+        "Pouca luminosidade.",
+        "Excesso de material fino ou esfagno.",
+        "Enterrar o rizoma.",
+        "Regar antes de a mistura perder boa parte da umidade.",
+        "Replantar fora do início de novas raízes."
+    ],
     revisaoCientificaIAR: {
         "nome": "Cattleya Pumpkin Festival",
         "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",

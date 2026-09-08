@@ -41,9 +41,48 @@ export const sophronitisWittigiana = {
     "adubacao": "🌿 Orgânica: bokashi em quantidade mínima e distante do rizoma; em plantas montadas, pode ser dispensado.\n💧 Mineral/Foliar: NPK equilibrado em cerca de 1/4 da dose a cada 15 dias durante crescimento ativo.\n💦 Água: prefira água de chuva, filtrada ou de baixa salinidade.\n🌱 Brotação: mantenha nutrição suave enquanto houver novas raízes e pseudobulbos.\n🧪 Liberação lenta: geralmente não recomendada em placas; em vaso, use dose mínima.\n🚿 Flushing: lave suporte e raízes regularmente com água pura.",
     "rega": "Durante brotação e enraizamento, regue com frequência pela manhã e permita secagem superficial rápida. Mantenha umidade ambiental alta sem deixar o suporte saturado. No inverno, reduza ligeiramente conforme a evaporação, sem deixar a miniatura seca por muitos dias. Em ondas de calor, borrife o ambiente e o suporte cedo, mas a planta deve chegar seca à noite. Pseudobulbos enrugados podem indicar falta de água ou perda de raízes; examine antes de aumentar regas.",
     "suporte": "🥇 Placa de cortiça ou madeira dura com lâmina mínima de esfagno — máxima aeração e controle da umidade.\n🥈 Pequeno cachepô muito vazado — mantém as raízes frescas sem sufocamento.\n🥉 Vaso de barro mínimo, raso e muito perfurado — alternativa para locais de secagem rápida.\nEvite suportes grandes e replantes frequentes.",
-    "substrato": "🥇 Nó de pinho ou cortiça com fina manta de esfagno apenas sob as raízes, equilibrando umidade e ventilação.\n🥈 Pedra-pomes + macadâmia média + pinus médio + pequena fração de esfagno solto.\n🥉 Pinus médio + perlita + pedra-pomes + esfagno em baixa proporção.\n⭐ Alternativa: Cesto pequeno com macadâmia + pedra-pomes + chips de coco pequenos, evitando aquecimento e saturação no centro.",
-    "errosComuns": "Cultivar em calor abafado; colocar perto de telhas quentes; usar sombra profunda para compensar calor; vaso grande; excesso de esfagno; raízes constantemente molhadas; deixar secar por muitos dias; usar água dura; aplicar adubo concentrado; regar à noite; pouca ventilação; replantar frequentemente.",
     "dica": "Em Litoral de clima quente, busque o ponto mais fresco e ventilado, não apenas o mais alto. O ar quente pode se acumular junto ao teto. Posicione longe de telhas e superfícies aquecidas, com brisa constante. Faça nebulização leve somente pela manhã e use placa com pouquíssimo esfagno, mantendo umidade frequente nas raízes e noite seca no vegetativo.",
+    formasCultivo: {
+        perfilVisual: "cattleya-mini",
+        destaque: "Placa / tronco",
+        resumo: "O porte miniatura e as raízes epífitas pedem muita aeração, umidade frequente e secagem relativamente rápida, sobretudo no litoral quente.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Melhor opção para manter as raízes frescas e oxigenadas. Use cortiça, madeira dura ou casca rugosa com apenas uma fina reserva de esfagno sob as raízes." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para touceiras maiores, mantendo alta ventilação e permitindo secagem uniforme após as regas." },
+            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 4, status: "Muito recomendado", texto: "Ajuda a dissipar calor e funciona bem com mistura grossa e pequena. Evite vasos superdimensionados." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode ser usado em locais de secagem rápida, desde que seja pequeno, muito perfurado e receba mistura extremamente aerada." }
+        ]
+    },
+    substrato: [
+        "Montagem em cortiça, madeira dura ou casca rugosa com fina lâmina de esfagno apenas sob as raízes.",
+        "Em vaso pequeno: casca de pinus média + carvão vegetal + brita pequena + pequena fração de esfagno.",
+        "Em ambiente mais úmido, reduza o esfagno e aumente os componentes de secagem rápida.",
+        "Evite vaso grande, mistura fina e materiais compactados ao redor do rizoma."
+    ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em recipiente",
+        resumo: "Mistura muito aerada, com pequena reserva de umidade e baixa massa térmica.",
+        justificativa: "A espécie cresce sobre árvores musgosas de florestas serranas úmidas; no vaso, a prioridade é preservar oxigênio nas raízes sem permitir desidratação prolongada.",
+        receitaTexto: "Mistura-base sugerida: 45% casca de pinus média + 25% carvão vegetal + 20% brita pequena + 10% esfagno solto.",
+        perfil: ["Raízes epífitas finas", "Alta aeração", "Secagem rápida", "Umidade ambiental alta", "Vaso pequeno"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "45%", nota: "estrutura + aeração", finalidade: "Estrutura a mistura e mantém espaços de ar ao redor das raízes." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "25%", nota: "aeração", finalidade: "Mantém a mistura aberta e favorece secagem uniforme." },
+            { asset: "brita-pura", nome: "Brita pequena", proporcao: "20%", nota: "drenagem", finalidade: "Melhora drenagem e estabilidade sem reter excesso de água." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva de umidade", finalidade: "Compensa a secagem rápida em pequena quantidade, sem envolver o rizoma." }
+        ],
+        alerta: "Não enterre o rizoma nem compacte a mistura. No litoral quente, priorize suporte fresco e ventilado."
+    },
+    errosComuns: [
+        "Calor noturno abafado e pouca ventilação.",
+        "Usar vaso grande ou substrato compacto.",
+        "Excesso de esfagno ao redor do rizoma.",
+        "Manter as raízes constantemente molhadas.",
+        "Compensar o calor com sombra profunda.",
+        "Aplicar fertilizante concentrado.",
+        "Replantar ou dividir a touceira com frequência."
+    ],
     revisaoCientificaIAR: {
         "nome": "Cattleya wittigiana",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",

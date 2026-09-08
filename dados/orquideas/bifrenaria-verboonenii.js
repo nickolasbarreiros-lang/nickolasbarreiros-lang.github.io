@@ -7,8 +7,8 @@ export const bifrenariaVerboonenii = {
     nome: "Bifrenaria verboonenii",
     genero: "Bifrenaria",
     nomeAceito: "Bifrenaria tyrianthina",
-    sinonimo: "Bifrenaria tyrianthina",
-    tipo: "Espécie botânica brasileira — nome histórico em sinonímia",
+    sinonimo: "Bifrenaria tyrianthina (nome aceito por Kew)",
+    tipo: "Espécie botânica — nome atualmente tratado por Kew como Bifrenaria tyrianthina",
     dificuldade: "Moderada",
     caracteristicas: [
         "Nome histórico preservado",
@@ -40,9 +40,48 @@ export const bifrenariaVerboonenii = {
     adubacao: "🌿 Orgânica: Bokashi opcional em pequena dose durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em aproximadamente 1/4 da dose a cada 10 a 15 dias enquanto houver crescimento e raízes ativas.\n🧪 Liberação lenta: Osmocote em baixa dose pode ser usado em vaso drenante. Após a maturação do pseudobulbo, reduza gradualmente a frequência; não é necessário suspender 100% de forma abrupta.",
     rega: "Durante crescimento ativo, regue bem e permita que o substrato drene e se aproxime da secagem antes da próxima irrigação. No outono e inverno, reduza significativamente a frequência conforme a atividade cair, mas não provoque desidratação severa dos pseudobulbos.",
     suporte: "🥇 Vaso de barro pequeno a médio, muito bem drenado.\n🥈 Cachepô de madeira bastante vazado.\n🥉 Vaso plástico muito perfurado com mistura extremamente aberta.\nMontagem nua não é a primeira opção no litoral por aumentar demais a oscilação hídrica.",
-    substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
-    errosComuns: "• Manter a atualização taxonômica sem registrar que Bifrenaria verboonenii é tratada hoje como sinônimo de Bifrenaria tyrianthina.\n• Cultivar em local quente e abafado.\n• Tratar a planta como rupícola obrigatoriamente mineral.\n• Secar excessivamente durante crescimento ativo.\n• Impor repouso totalmente seco por meses.\n• Replantar sem raízes novas começando a surgir.\n• Usar substrato compacto.\n• Permitir sol forte aquecendo vaso e raízes.",
-    dica: "🏆 Esqueça tentar imitar fendas de rocha e foque no frescor das raízes. Use vasos de barro ou cachepôs altamente ventilados com um substrato bem grosso e de drenagem imediata (casca, pedra-pomes e carvão). Posicione a planta no local mais fresco e arejado do cultivo, mantendo regas fartas na fase de crescimento, espaçando no inverno e replantando estritamente quando surgirem as primeiras pontas de novas raízes.",
+    dica: "🏆 Esqueça tentar imitar fendas de rocha e foque no frescor das raízes. Use vasos de barro ou cachepôs altamente ventilados com um substrato bem grosso e de drenagem imediata (casca de pinus, brita e carvão). Posicione a planta no local mais fresco e arejado do cultivo, mantendo regas fartas na fase de crescimento, espaçando no inverno e replantando estritamente quando surgirem as primeiras pontas de novas raízes.",
+    formasCultivo: {
+        perfilVisual: "bifrenaria",
+        destaque: "Vaso de barro perfurado",
+        resumo: "A espécie aceita secagem clara entre regas e aprecia alta luminosidade, mas precisa de raízes muito aeradas e noites mais frescas para manter bom desempenho.",
+        metodos: [
+            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 5, status: "Ideal", texto: "É a combinação mais segura para raízes grossas e sensíveis ao encharcamento, favorecendo evaporação e resfriamento." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Excelente para alta aeração e secagem rápida, especialmente em regiões úmidas." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode ser utilizado com mistura grossa e pouca retenção; evite aquecimento excessivo do recipiente." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 2, status: "Pouco recomendado", texto: "É possível em ambiente muito úmido e com rega consistente, mas aumenta demais a oscilação hídrica para esta Bifrenaria de maior porte." }
+        ]
+    },
+    substrato: [
+        "Em vaso de barro: casca de pinus grossa + casca de macadâmia + carvão vegetal + brita pequena.",
+        "Use partículas grossas e mantenha o colo dos pseudobulbos acima da mistura.",
+        "No inverno, a redução de regas deve acompanhar a menor atividade da planta.",
+        "Evite esfagno em grande quantidade e qualquer mistura que permaneça molhada por muitos dias."
+    ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em vaso",
+        resumo: "Mistura grossa e de secagem clara, adequada a raízes que não toleram abafamento prolongado.",
+        justificativa: "O nome Bifrenaria verboonenii é atualmente tratado por Kew como sinônimo de Bifrenaria tyrianthina, espécie epífita ou litófita de áreas com estação seca. Por isso, a mistura privilegia aeração e drenagem, sem reserva hídrica excessiva.",
+        receitaTexto: "Mistura-base sugerida: 40% casca de pinus grossa + 25% casca de macadâmia + 20% carvão vegetal + 15% brita pequena.",
+        perfil: ["Raízes robustas", "Secagem entre regas", "Alta aeração", "Inverno mais seco", "Boa luminosidade"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "40%", nota: "estrutura", finalidade: "Garante volume e espaços de ar para raízes robustas." },
+            { asset: "macadamia", nome: "Casca de macadâmia", proporcao: "25%", nota: "drenagem + estrutura", finalidade: "Mantém a mistura irregular e pouco compactável." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração", finalidade: "Favorece troca gasosa e rápida perda do excesso de água." },
+            { asset: "brita-pura", nome: "Brita pequena", proporcao: "15%", nota: "drenagem + peso", finalidade: "Melhora drenagem e dá estabilidade ao vaso sem elevar a retenção." }
+        ],
+        alerta: "Mantenha os pseudobulbos acima do substrato e reduza a frequência de rega quando o crescimento estiver maduro."
+    },
+    errosComuns: [
+        "Manter o vaso constantemente úmido.",
+        "Usar mistura fina ou compacta.",
+        "Cultivar em noites muito quentes e abafadas.",
+        "Excesso de sombra.",
+        "Enterrar a base dos pseudobulbos.",
+        "Manter a mesma frequência de rega no inverno.",
+        "Usar vaso maior que o necessário."
+    ],
     revisaoCientificaIAR: {
         "nome": "Bifrenaria verboonenii",
         "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Bifrenaria tyrianthina.",

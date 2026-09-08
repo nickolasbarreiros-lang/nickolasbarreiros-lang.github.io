@@ -37,9 +37,47 @@ export const dendrobiumLoddigesii = {
     "adubacao": "🌱 Primavera: NPK equilibrado com brotação e raízes ativas.\n☀️ Verão: manter adubação diluída até as hastes amadurecerem.\n🍂 Final do verão/outono: reduzir nitrogênio e depois suspender.\n💤 Inverno: nenhuma adubação.\n🌿 Bokashi/Osmocote: somente no início do ciclo e em dose mínima.",
     "rega": "Durante o crescimento, regue com frequência e permita secagem rápida. Quando as hastes endurecerem e perderem folhas, reduza fortemente. No repouso, molhe apenas se houver enrugamento acentuado. Hastes ligeiramente sulcadas são normais.",
     "suporte": "🥇 Placa de madeira ou tronquinho.\n🥈 Cesto pequeno suspenso.\n🥉 Vaso raso pendurado e muito drenante.\nO suporte deve permitir que hastes e flores pendam livremente.",
-    "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n🥉 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.\n⭐ Alternativa: Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.",
-    "errosComuns": "Cortar hastes sem folhas; manter substrato molhado no inverno; excesso de nitrogênio; sombra; vaso grande; dividir touceira pequena; trocar suporte no repouso; tentar manter crescimento contínuo; impedir o caimento das hastes.",
     "dica": "Não faça limpeza estética das hastes sem folhas. Remova somente aquelas totalmente secas, amarelas e ocas. As hastes antigas armazenam reservas e podem florescer repetidamente. No litoral de clima quente, compense o inverno pouco frio com muita luz, ventilação, proteção contra chuva e suspensão completa do nitrogênio.",
+    formasCultivo: {
+        perfilVisual: "dendrobium",
+        destaque: "Placa / tronco",
+        resumo: "O hábito pendente e a necessidade de repouso mais seco favorecem suportes muito ventilados que permitam secagem rápida e livre queda das hastes.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Mantém raízes aeradas e deixa as hastes pendentes, facilitando a redução de água durante o repouso." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 5, status: "Ideal", texto: "Excelente para touceiras maiores e para preservar hastes antigas, que podem reflorir por vários anos." },
+            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 3, status: "Adequado", texto: "Use pequeno e suspenso, com mistura grossa e pouquíssima retenção para respeitar o repouso." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 2, status: "Pouco recomendado", texto: "Só é seguro com muita furação e mistura extremamente drenante; o risco é manter umidade excessiva no inverno." }
+        ]
+    },
+    substrato: [
+        "Montagem em madeira ou cortiça, sem material retentivo no centro das raízes.",
+        "Em cesto ou vaso suspenso: casca de pinus grossa + carvão vegetal + brita pequena.",
+        "Durante o crescimento, regue e adube; após o amadurecimento das hastes, reduza fortemente água e suspenda nitrogênio.",
+        "Evite esfagno no centro do recipiente e não corte hastes antigas ainda vivas."
+    ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cesto ou vaso suspenso",
+        resumo: "Mistura grossa e de secagem muito rápida, preparada para permitir um repouso realmente mais seco no inverno.",
+        justificativa: "Dendrobium loddigesii cresce em regiões sazonais da China e Indochina e floresce melhor após hastes maduras passarem por período mais claro, fresco e seco. Por isso, a mistura não deve guardar água por muitos dias.",
+        receitaTexto: "Mistura-base sugerida: 45% casca de pinus grossa + 30% carvão vegetal + 25% brita pequena.",
+        perfil: ["Hábito pendente", "Repouso sazonal", "Secagem rápida", "Alta luminosidade", "Hastes antigas preservadas"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "45%", nota: "estrutura", finalidade: "Sustenta as raízes sem compactar e seca rapidamente." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "30%", nota: "aeração", finalidade: "Mantém a mistura muito aberta durante todo o ciclo." },
+            { asset: "brita-pura", nome: "Brita pequena", proporcao: "25%", nota: "drenagem + peso", finalidade: "Acelera o escoamento e estabiliza vasos suspensos." }
+        ],
+        alerta: "No repouso, reduza a água conforme a maturação das hastes e o clima; não transforme o período seco em desidratação extrema."
+    },
+    errosComuns: [
+        "Cortar hastes antigas ainda vivas.",
+        "Manter o substrato molhado durante o repouso.",
+        "Continuar adubação nitrogenada no inverno.",
+        "Cultivar em sombra.",
+        "Usar vaso grande ou mistura retentiva.",
+        "Impedir o caimento natural das hastes.",
+        "Tentar manter crescimento contínuo o ano inteiro."
+    ],
     revisaoCientificaIAR: {
         "nome": "Dendrobium loddigesii",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",

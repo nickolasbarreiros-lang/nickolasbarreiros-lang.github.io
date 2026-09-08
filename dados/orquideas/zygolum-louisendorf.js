@@ -40,9 +40,48 @@ export const zygolumLouisendorf = {
     "adubacao": "🌿 Orgânica: bokashi em pequena dose nas bordas do vaso.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 10–15 dias no crescimento.\n🧪 Liberação lenta: Osmocote em dose baixa, com cautela em clima quente.\n🚿 Lavagem: faça flushing regular para impedir sais nas raízes.",
     "rega": "Regue quando a superfície começar a secar, sem esperar a secagem total do fundo do vaso. Mantenha umidade leve e constante, reduzindo apenas moderadamente no frio. Evite água acumulada no miolo das brotações novas.",
     "suporte": "🥇 Vaso plástico claro, largo e estável — reduz aquecimento radicular.\n🥈 Vaso de barro cônico — bom resfriamento, exigindo retenção um pouco maior.\n🥉 Cachepô vazado — apenas em ambientes com umidade do ar elevada.",
-    "substrato": "🥇 Chips de coco médios + casca de pinus fina/média + perlita + pedra-pomes, mantendo umidade regular.\n🥈 Pinus médio + fibra de coco + pedra-pomes + casca de arroz carbonizada; evitar secagem extrema e compactação.\n🥉 Fibra de coco grossa + casca de arroz carbonizada + pinus médio + pedra-pomes.\n⭐ Alternativa: Casca de macadâmia média + chips de coco + perlita + pequena fração de esfagno picado.",
-    "errosComuns": "Secar totalmente; calor abafado; substrato compacto; água em brotos novos; dividir touceiras pequenas; adubo concentrado; vaso preto aquecido; baixa ventilação; excesso de sais.",
     "dica": "Em clima quente, use vaso claro e substrato muito poroso. Regue antes que o meio seque por completo e mantenha ventilação contínua. O objetivo é raiz fresca e úmida, nunca abafada ou superaquecida.",
+    formasCultivo: {
+        perfilVisual: "zygopetalinae",
+        destaque: "Vaso plástico bem drenado",
+        resumo: "O híbrido possui raízes sensíveis à secagem extrema e ao aquecimento; funciona melhor em vaso proporcional, com umidade regular e muita aeração.",
+        metodos: [
+            { nome: "Vaso plástico bem drenado", asset: "vaso-plastico", estrelas: 5, status: "Ideal", texto: "Mantém umidade mais estável sem resfriar excessivamente as raízes; use vaso claro, proporcional e com boa furação." },
+            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 4, status: "Muito recomendado", texto: "Excelente em regiões úmidas ou quando a secagem do substrato é lenta; exige atenção para não secar rápido demais." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 3, status: "Adequado", texto: "Pode funcionar em clima úmido, mas tende a secar mais rápido e exige regas mais frequentes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Alternativa para ambientes muito úmidos, desde que a mistura ainda conserve umidade entre as regas." }
+        ]
+    },
+    substrato: [
+        "Em vaso proporcional: casca de pinus média + fibra de coco grossa + carvão vegetal + pequena fração de esfagno.",
+        "Mantenha o substrato levemente úmido durante crescimento ativo, sem saturação permanente.",
+        "Evite vasos muito quentes e intervalos longos que deixem as raízes completamente secas.",
+        "Replante quando a mistura estiver degradada, preferencialmente no início de novas raízes."
+    ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em vaso",
+        resumo: "Mistura aerada com retenção moderada, adequada a raízes carnosas que não gostam de extremos de seca nem encharcamento.",
+        justificativa: "Como híbrido de Zygopetalinae, Zygolum Louisendorf responde melhor a umidade relativamente constante combinada com ar nas raízes. A receita prioriza materiais comuns e fáceis de controlar no Brasil.",
+        receitaTexto: "Mistura-base sugerida: 45% casca de pinus média + 25% fibra de coco grossa + 20% carvão vegetal + 10% esfagno solto.",
+        perfil: ["Raízes carnosas", "Umidade regular", "Boa aeração", "Clima intermediário", "Evitar aquecimento do vaso"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "45%", nota: "estrutura", finalidade: "Mantém a mistura aberta e com retenção moderada." },
+            { asset: "fibra-coco", nome: "Fibra de coco grossa", proporcao: "25%", nota: "umidade + estrutura", finalidade: "Ajuda a sustentar umidade entre regas sem usar material fino compactado." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração", finalidade: "Cria espaços de ar e reduz a tendência de saturação." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva de umidade", finalidade: "Estabiliza a umidade em pequena quantidade, especialmente em clima quente." }
+        ],
+        alerta: "Não deixe a mistura secar totalmente por muitos dias, mas também não mantenha água parada no centro do vaso."
+    },
+    errosComuns: [
+        "Deixar as raízes secarem completamente por longos períodos.",
+        "Manter o substrato encharcado.",
+        "Usar vaso escuro aquecido pelo sol.",
+        "Cultivar em calor abafado.",
+        "Replantar fora do início de novas raízes.",
+        "Usar mistura fina e compacta.",
+        "Aplicar sais em excesso."
+    ],
     revisaoCientificaIAR: {
         "nome": "Zygolum Louisendorf",
         "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
