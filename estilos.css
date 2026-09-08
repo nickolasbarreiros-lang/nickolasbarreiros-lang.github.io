@@ -8410,3 +8410,44 @@ main.container{
 .proporcao-substrato-v4 { order:-1; display:inline-flex; align-items:center; justify-content:center; min-width:54px; padding:5px 10px; margin:6px auto 4px; border-radius:999px; background:#4f8a3c; color:#fff; font-weight:800; font-size:.9rem; box-shadow:0 3px 8px rgba(55,100,44,.18); }
 .receita-texto-substrato-v4 { margin:14px 0 12px; padding:11px 15px; border:1px solid #d7e6d0; border-radius:12px; background:#f2f7ef; color:#315c36; text-align:center; }
 @media(max-width:760px){ .forma-cultivo-v4 .imagem-forma-v4{min-height:145px}.forma-cultivo-v4 .imagem-forma-v4 img{height:134px}.ingrediente-substrato-v4 .imagem-substrato-v4{width:104px;height:104px}.ingrediente-substrato-v4 .imagem-substrato-v4 img{width:92px;height:92px} }
+
+
+/* =========================================================
+   FICHA V4.3 — 4 MÉTODOS PRIORITÁRIOS EM UMA ÚNICA LINHA
+========================================================= */
+@media (min-width: 1001px) {
+    .grade-formas-v4 {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 14px;
+    }
+    .forma-cultivo-v4 {
+        min-height: 355px;
+    }
+    .forma-cultivo-v4 .imagem-forma-v4 {
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .forma-cultivo-v4 .imagem-forma-v4 img {
+        width: 92%;
+        height: 92%;
+        max-width: 225px;
+        max-height: 165px;
+        margin: 0 auto;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+
+@media (min-width: 621px) and (max-width: 1000px) {
+    .grade-formas-v4 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 620px) {
+    .grade-formas-v4 {
+        grid-template-columns: 1fr;
+    }
+}
