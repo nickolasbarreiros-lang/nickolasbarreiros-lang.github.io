@@ -1,7 +1,7 @@
 export const bibliotecaCultivoV4 = {
     "arvore-viva": {
         nome: "Árvore viva",
-        imagem: "imagens/cultivo-v4/arvore-viva.webp"
+        imagem: "imagens/cultivo-v4/arvore-viva-realista.webp"
     },
     "brita-pura": {
         nome: "Pedras / brita pura",
