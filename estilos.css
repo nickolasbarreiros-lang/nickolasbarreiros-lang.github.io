@@ -8509,3 +8509,91 @@ main.container{
         object-position: center;
     }
 }
+
+/* =========================================================
+   V4 — ERROS COMUNS | LAYOUT COMPACTO EM MOSAICO
+========================================================= */
+.erros-comuns-v2 {
+    padding: 16px 18px 17px;
+    border-left-width: 4px;
+    background: linear-gradient(135deg, #fffafa 0%, #fffdfd 100%);
+}
+
+.erros-comuns-v2 .titulo-secao-v2 {
+    margin-bottom: 11px;
+}
+
+.erros-comuns-v2 .titulo-secao-v2 > span {
+    width: 34px;
+    height: 34px;
+}
+
+.erros-comuns-v2 .titulo-secao-v2 h3 {
+    font-size: 19px;
+}
+
+.erros-comuns-v2 ul {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+    width: 100%;
+}
+
+.erros-comuns-v2 li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-width: 0;
+    min-height: 50px;
+    padding: 9px 11px 9px 38px;
+    color: #633b39;
+    background: linear-gradient(135deg, #fff4f3 0%, #fffafa 100%);
+    border: 1px solid #efc7c4;
+    border-radius: 11px;
+    font-size: 12.8px;
+    line-height: 1.32;
+    box-shadow: 0 2px 6px rgba(151, 63, 57, 0.045);
+    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.erros-comuns-v2 li:hover {
+    transform: translateY(-1px);
+    border-color: #e8aaa6;
+    box-shadow: 0 5px 12px rgba(151, 63, 57, 0.08);
+}
+
+.erros-comuns-v2 li::before {
+    position: absolute;
+    left: 11px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    font-size: 13px;
+    box-shadow: 0 2px 5px rgba(185, 62, 57, 0.14);
+}
+
+@media (max-width: 1050px) {
+    .erros-comuns-v2 ul {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 620px) {
+    .erros-comuns-v2 {
+        padding: 15px;
+    }
+
+    .erros-comuns-v2 ul {
+        grid-template-columns: 1fr;
+        gap: 7px;
+    }
+
+    .erros-comuns-v2 li {
+        min-height: 46px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 10px;
+    }
+}
