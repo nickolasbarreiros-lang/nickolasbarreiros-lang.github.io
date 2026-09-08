@@ -89,6 +89,27 @@ export const bibliotecaCultivoV4 = {
     }
 };
 
-export function obterAssetCultivoV4(id) {
+
+// Perfis visuais por morfologia/grupo.
+// A ficha tenta primeiro a imagem específica do perfil e, se ela não existir,
+// cai automaticamente no asset genérico do método. Isso permite ampliar a
+// biblioteca aos poucos sem quebrar fichas já existentes.
+export const perfisVisuaisCultivoV4 = {
+    "micro-pleurothalidina": {
+        nome: "Micro-orquídeas Pleurothallidinae",
+        generosReferencia: ["Acianthera", "Pabstiella", "Anathallis", "Pleurothallis"],
+        assets: {
+            "placa-tronco": { nome: "Placa / tronco — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/placa-tronco.webp" },
+            "arvore-viva": { nome: "Árvore viva — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/arvore-viva.webp" },
+            "cesto-madeira": { nome: "Cesto de madeira — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/cesto-madeira.webp" },
+            "vaso-plastico-vasado": { nome: "Vaso plástico vasado — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/vaso-plastico-vasado.webp" }
+        }
+    }
+};
+
+export function obterAssetCultivoV4(id, perfilVisual = "") {
+    const perfil = perfisVisuaisCultivoV4[perfilVisual];
+    const especifico = perfil?.assets?.[id];
+    if (especifico) return especifico;
     return bibliotecaCultivoV4[id] || null;
 }

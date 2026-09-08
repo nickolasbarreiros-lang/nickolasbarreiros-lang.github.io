@@ -435,8 +435,8 @@ function criarCardEstruturado({
     `;
 }
 
-function criarImagemAssetCultivoV4(id, nomeFallback = "Item de cultivo", classe = "") {
-    const asset = obterAssetCultivoV4(id);
+function criarImagemAssetCultivoV4(id, nomeFallback = "Item de cultivo", classe = "", perfilVisual = "") {
+    const asset = obterAssetCultivoV4(id, perfilVisual);
     if (!asset?.imagem) return "";
 
     return `
@@ -474,7 +474,7 @@ function criarFormasCultivoV4(config) {
             <div class="grade-formas-v4">
                 ${config.metodos.map((metodo, indice) => `
                     <article class="forma-cultivo-v4 ${indice === 0 ? "forma-principal-v4" : ""}">
-                        ${criarImagemAssetCultivoV4(metodo.asset, metodo.nome, "imagem-forma-v4")}
+                        ${criarImagemAssetCultivoV4(metodo.asset, metodo.nome, "imagem-forma-v4", config.perfilVisual || "")}
                         <div class="corpo-forma-v4">
                             <div class="topo-forma-v4">
                                 <h5>${metodo.nome}</h5>

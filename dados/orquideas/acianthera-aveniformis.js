@@ -36,6 +36,7 @@ export const aciantheraAveniformis = {
     rega: "Mantenha hidratação frequente sem saturação permanente. Em montagem, pode exigir regas muito frequentes no calor porque a pequena massa radicular seca rapidamente; em vaso, permita leve perda de umidade superficial antes da nova irrigação. O objetivo é um ciclo de molhar bem, renovar o ar e voltar a regar antes de ocorrer desidratação prolongada.",
     suporte: ["🥇 Placa pequena de madeira, cortiça ou casca rugosa, acompanhando o crescimento reptante.", "🥈 Cachepô pequeno e bem ripado.", "🥉 Vaso pequeno, raso e muito perfurado."],
     formasCultivo: {
+        perfilVisual: "micro-pleurothalidina",
         destaque: "Placa / tronco",
         resumo: "O hábito epífito reptante e as raízes muito finas favorecem suportes pequenos, muito aerados e com secagem rápida, mas sem desidratação prolongada.",
         metodos: [
