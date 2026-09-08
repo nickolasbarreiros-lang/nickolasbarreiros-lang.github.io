@@ -46,12 +46,6 @@ export const aciantheraAveniformis = {
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Use recipiente pequeno, raso e muito perfurado, com mistura leve. O rizoma deve permanecer sobre o substrato, nunca enterrado." },
             { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 3, status: "Adequado", texto: "A porosidade das paredes acelera a secagem e ajuda em clima quente. Exige atenção maior à frequência de rega para não ressecar raízes tão finas." }
         ],
-        naoIndicados: [
-            { nome: "Semi-hidroponia", asset: "semi-hidro", motivo: "A reserva permanente de água reduz a margem de segurança para raízes muito finas e aumenta o risco de abafamento se a ventilação ou a evaporação forem insuficientes." },
-            { nome: "Kokedama compacta", asset: "kokedama", motivo: "Uma bola densa de musgo pode manter água demais junto ao rizoma. Só faria sentido com montagem extremamente aberta e manejo muito preciso." },
-            { nome: "Brita pura", asset: "brita-pura", motivo: "Drena demais para esta micro-orquídea e oferece pouca reserva hídrica. Em clima quente exigiria regas muito frequentes para evitar desidratação radicular." },
-            { nome: "Totem / mourão", asset: "totem-mourao", motivo: "É um método voltado a espécies maiores ou escandentes; não traz vantagem prática para o porte miniatura e o crescimento reptante desta espécie." }
-        ]
     },
     substrato: ["Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "Alternativa: casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."],
     substratoVisual: {
@@ -59,12 +53,13 @@ export const aciantheraAveniformis = {
         contexto: "Para cultivo em recipiente",
         resumo: "Para cultivo em recipiente, mantenha a mistura leve, arejada e com secagem rápida. Na montagem em placa, use apenas uma lâmina fina de esfagno sob as raízes.",
         justificativa: "A Acianthera aveniformis tem raízes muito finas e hábito epífito/reptante. Por isso, a mistura precisa manter bastante ar entre as raízes sem deixá-las desidratar rapidamente: a maior parte da composição favorece aeração e drenagem, enquanto uma pequena fração de esfagno funciona como reserva de umidade.",
+        receitaTexto: "Mistura-base sugerida para cultivo em recipiente: 40% casca de pinus fina + 25% perlita + 25% pedra-pomes fina + 10% esfagno solto.",
         perfil: ["Raízes muito finas", "Alta aeração", "Drenagem rápida", "Umidade frequente, sem saturação", "Rizoma sempre exposto"],
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus fina", nota: "estrutura", finalidade: "Forma a estrutura principal da mistura e cria espaços de ar. Para as raízes finas desta espécie, ajuda a evitar compactação e abafamento junto ao rizoma." },
-            { asset: "perlita", nome: "Perlita", nota: "aeração", finalidade: "Aumenta a porosidade e mantém canais de ar mesmo após várias regas. É especialmente útil porque raízes finas perdem desempenho rapidamente em substrato compacto." },
-            { asset: "pedra-pomes", nome: "Pedra-pomes fina", nota: "drenagem + reserva superficial", finalidade: "Favorece drenagem rápida e mantém a mistura estruturalmente aberta. Seus poros seguram pequena umidade superficial sem criar uma massa encharcada ao redor das raízes." },
-            { asset: "esfagno", nome: "Esfagno solto", nota: "pequena fração", finalidade: "Funciona como reserva moderada de água para reduzir a desidratação das raízes finas. Deve entrar em pequena quantidade e bem solto, pois excesso de retenção junto ao rizoma aumenta o risco de saturação." }
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "40%", nota: "estrutura", finalidade: "Forma a estrutura principal da mistura e cria espaços de ar. Para as raízes finas desta espécie, ajuda a evitar compactação e abafamento junto ao rizoma." },
+            { asset: "perlita", nome: "Perlita", proporcao: "25%", nota: "aeração", finalidade: "Aumenta a porosidade e mantém canais de ar mesmo após várias regas. É especialmente útil porque raízes finas perdem desempenho rapidamente em substrato compacto." },
+            { asset: "pedra-pomes", nome: "Pedra-pomes fina", proporcao: "25%", nota: "drenagem + reserva superficial", finalidade: "Favorece drenagem rápida e mantém a mistura estruturalmente aberta. Seus poros seguram pequena umidade superficial sem criar uma massa encharcada ao redor das raízes." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "pequena fração", finalidade: "Funciona como reserva moderada de água para reduzir a desidratação das raízes finas. Deve entrar em pequena quantidade e bem solto, pois excesso de retenção junto ao rizoma aumenta o risco de saturação." }
         ],
         evitar: [
             { titulo: "Terra vegetal ou substrato fino", motivo: "Compacta com facilidade e reduz o oxigênio disponível para as raízes muito finas." },

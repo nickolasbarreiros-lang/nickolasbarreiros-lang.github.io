@@ -8400,3 +8400,13 @@ main.container{
     max-height: 150px;
     object-fit: contain;
 }
+
+/* V4.4 — escala/centralização dos assets e destaque da receita */
+.forma-cultivo-v4 .imagem-forma-v4 { display:flex; align-items:center; justify-content:center; min-height:178px; padding:6px; overflow:hidden; }
+.forma-cultivo-v4 .imagem-forma-v4 img { display:block; width:94%; height:166px; max-width:230px; max-height:166px; margin:auto; object-fit:contain; object-position:center center; transform:none; }
+.receita-substrato-v4 { align-items:start; }
+.ingrediente-substrato-v4 .imagem-substrato-v4 { width:132px; height:132px; display:grid; place-items:center; }
+.ingrediente-substrato-v4 .imagem-substrato-v4 img { width:116px; height:116px; object-fit:contain; }
+.proporcao-substrato-v4 { order:-1; display:inline-flex; align-items:center; justify-content:center; min-width:54px; padding:5px 10px; margin:6px auto 4px; border-radius:999px; background:#4f8a3c; color:#fff; font-weight:800; font-size:.9rem; box-shadow:0 3px 8px rgba(55,100,44,.18); }
+.receita-texto-substrato-v4 { margin:14px 0 12px; padding:11px 15px; border:1px solid #d7e6d0; border-radius:12px; background:#f2f7ef; color:#315c36; text-align:center; }
+@media(max-width:760px){ .forma-cultivo-v4 .imagem-forma-v4{min-height:145px}.forma-cultivo-v4 .imagem-forma-v4 img{height:134px}.ingrediente-substrato-v4 .imagem-substrato-v4{width:104px;height:104px}.ingrediente-substrato-v4 .imagem-substrato-v4 img{width:92px;height:92px} }

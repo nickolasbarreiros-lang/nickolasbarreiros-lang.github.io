@@ -487,29 +487,6 @@ function criarFormasCultivoV4(config) {
                 `).join("")}
             </div>
 
-            ${Array.isArray(config.naoIndicados) && config.naoIndicados.length ? `
-                <div class="metodos-nao-indicados-v4">
-                    <div class="titulo-nao-indicados-v4">
-                        <span aria-hidden="true">⚠️</span>
-                        <div>
-                            <h5>Outras formas de cultivo avaliadas</h5>
-                            <p>Métodos considerados na análise, com a justificativa de por que não estão entre as opções prioritárias para esta espécie.</p>
-                        </div>
-                    </div>
-                    <div class="grade-nao-indicados-v4">
-                        ${config.naoIndicados.map((metodo) => `
-                            <article class="metodo-nao-indicado-v4">
-                                ${criarImagemAssetCultivoV4(metodo.asset, metodo.nome, "imagem-nao-indicado-v4")}
-                                <div>
-                                    <strong>${metodo.nome}</strong>
-                                    <span>${metodo.motivo || ""}</span>
-                                </div>
-                            </article>
-                        `).join("")}
-                    </div>
-                </div>
-            ` : ""}
-
             ${Array.isArray(config.montagem) && config.montagem.length ? `
                 <div class="montagem-v4">
                     <div class="titulo-montagem-v4">
@@ -562,6 +539,8 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                     </article>
                 `).join("")}
             </div>
+
+            ${config.receitaTexto ? `<div class="receita-texto-substrato-v4"><strong>🌱 ${config.receitaTexto}</strong></div>` : ""}
 
             ${Array.isArray(config.perfil) && config.perfil.length ? `
                 <div class="perfil-substrato-v4">
