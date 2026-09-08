@@ -95,40 +95,15 @@ export const bibliotecaCultivoV4 = {
 // cai automaticamente no asset genérico do método. Isso permite ampliar a
 // biblioteca aos poucos sem quebrar fichas já existentes.
 export const perfisVisuaisCultivoV4 = {
-    "cattleya-mini": {
-        nome: "Cattleya miniatura / antigas Sophronitis",
-        generosReferencia: ["Cattleya", "Sophronitis"],
-        assets: {}
-    },
-    "cattleya": {
-        nome: "Cattleya e híbridos da aliança",
-        generosReferencia: ["Cattleya", "Cattlianthe", "Brassolaeliocattleya"],
-        assets: {}
-    },
-    "dendrobium": {
-        nome: "Dendrobium",
-        generosReferencia: ["Dendrobium"],
-        assets: {}
-    },
-    "bifrenaria": {
-        nome: "Bifrenaria",
-        generosReferencia: ["Bifrenaria"],
-        assets: {}
-    },
     "zygopetalinae": {
-        nome: "Zygopetalinae",
+        nome: "Zygopetalinae / Zygolum",
         generosReferencia: ["Zygolum", "Zygopetalum", "Zygosepalum"],
-        assets: {}
-    },
-    "maxillaria": {
-        nome: "Maxillaria",
-        generosReferencia: ["Maxillaria", "Brasiliorchis", "Camaridium"],
-        assets: {}
-    },
-    "micro-epifita": {
-        nome: "Micro-orquídea epífita de crescimento rasteiro",
-        generosReferencia: ["Mediocalcar"],
-        assets: {}
+        assets: {
+            "vaso-plastico": { nome: "Vaso plástico — Zygopetalinae", imagem: "imagens/cultivo-v4/perfis/zygopetalinae/vaso-plastico.webp" },
+            "vaso-barro": { nome: "Vaso de barro — Zygopetalinae", imagem: "imagens/cultivo-v4/perfis/zygopetalinae/vaso-barro.webp" },
+            "vaso-plastico-vasado": { nome: "Vaso plástico bem perfurado — Zygopetalinae", imagem: "imagens/cultivo-v4/perfis/zygopetalinae/vaso-plastico-vasado.webp" },
+            "cesto-madeira": { nome: "Cesto de madeira — Zygopetalinae", imagem: "imagens/cultivo-v4/perfis/zygopetalinae/cesto-madeira.webp" }
+        }
     },
     "micro-pleurothalidina": {
         nome: "Micro-orquídeas Pleurothallidinae",

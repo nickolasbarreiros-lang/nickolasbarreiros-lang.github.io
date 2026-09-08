@@ -44,10 +44,12 @@ export const zygolumLouisendorf = {
     formasCultivo: {
         perfilVisual: "zygopetalinae",
         destaque: "Vaso plástico",
-        resumo: "O híbrido é melhor cultivado em vaso, com substrato que permaneça levemente úmido e ao mesmo tempo bem aerado. Não há necessidade de preencher a ficha com modalidades mais secantes apenas para completar os cards.",
+        resumo: "O Zygolum Louisendorf é melhor cultivado em recipientes que conciliem umidade moderada e boa aeração. As quatro opções abaixo variam principalmente na velocidade de secagem e no controle hídrico.",
         metodos: [
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Ideal", texto: "É a opção mais equilibrada para o Louisendorf: conserva a umidade por mais tempo e permite controlar bem a drenagem. Use vaso proporcional ao sistema radicular, com bons furos no fundo, sem deixar água acumulada." },
-            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Também funciona muito bem, principalmente em locais quentes ou onde o substrato demora a secar. A terracota porosa aumenta a evaporação e ajuda a manter as raízes mais frescas, mas pode exigir regas mais frequentes." }
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Ideal", texto: "É a opção mais equilibrada: conserva a umidade por mais tempo sem impedir boa drenagem. Use vaso proporcional ao sistema radicular, com furos de drenagem livres e substrato aerado." },
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "A terracota porosa aumenta a evaporação e ajuda a manter as raízes mais frescas. É especialmente útil em regiões quentes ou quando o substrato demora a secar, mas pode exigir regas mais frequentes." },
+            { nome: "Vaso plástico bem perfurado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Aumenta bastante a aeração e acelera a secagem. Funciona melhor em ambientes úmidos ou com mistura de maior retenção; em clima quente e seco exige atenção maior à frequência de rega." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 2, status: "Pouco recomendado", texto: "Pode ser usado com mistura que preserve mais umidade, porém seca mais rápido que os vasos. Exige controle de rega mais rigoroso e não é a primeira escolha para este híbrido." }
         ]
     },
     substrato: [
