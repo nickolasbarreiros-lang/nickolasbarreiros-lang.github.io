@@ -8370,3 +8370,33 @@ main.container{
     .metodo-nao-indicado-v4 { grid-template-columns: 76px 1fr; }
     .metodo-nao-indicado-v4 .imagem-nao-indicado-v4 { width: 76px; height: 76px; }
 }
+
+
+/* V4.3 — refinamentos editoriais da ficha-piloto */
+.substratos-recomendados-v4 li {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+}
+.marcador-recomendado-v4 {
+    display: inline-grid;
+    place-items: center;
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+    margin-top: 1px;
+    border-radius: 50%;
+    background: #edf5e9;
+    border: 1px solid #d7e6d0;
+    color: #356b3c;
+    font-size: .66rem;
+    font-weight: 800;
+}
+/* amplia o objeto dentro da moldura sem alterar a grade */
+.forma-cultivo-v4 .imagem-forma-v4 img {
+    width: 88%;
+    height: 88%;
+    max-width: 190px;
+    max-height: 150px;
+    object-fit: contain;
+}

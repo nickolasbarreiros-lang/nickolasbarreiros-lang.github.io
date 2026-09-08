@@ -492,8 +492,8 @@ function criarFormasCultivoV4(config) {
                     <div class="titulo-nao-indicados-v4">
                         <span aria-hidden="true">⚠️</span>
                         <div>
-                            <h5>Outras formas de cultivo — por que não são prioridade aqui?</h5>
-                            <p>A biblioteca V4 possui outros métodos, mas a ficha mostra primeiro os que combinam melhor com a biologia desta espécie.</p>
+                            <h5>Outras formas de cultivo avaliadas</h5>
+                            <p>Métodos considerados na análise, com a justificativa de por que não estão entre as opções prioritárias para esta espécie.</p>
                         </div>
                     </div>
                     <div class="grade-nao-indicados-v4">
@@ -622,7 +622,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                         </div>
                     </div>
                     <ul>
-                        ${recomendados.map((item) => `<li>${item}</li>`).join("")}
+                        ${recomendados.map((item, indice) => `<li><span class="marcador-recomendado-v4" aria-hidden="true">${indice + 1}</span><span>${item}</span></li>`).join("")}
                     </ul>
                 </div>
             ` : ""}
