@@ -39,17 +39,15 @@ export const zygolumLouisendorf = {
     "floracao": "Mais frequente do fim do inverno à primavera, aproximadamente de julho a novembro. As hastes eretas surgem próximas a novos crescimentos e sustentam flores marcantes e perfumadas.",
     "adubacao": "🌿 Orgânica: bokashi em pequena dose nas bordas do vaso.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 10–15 dias no crescimento.\n🧪 Liberação lenta: Osmocote em dose baixa, com cautela em clima quente.\n🚿 Lavagem: faça flushing regular para impedir sais nas raízes.",
     "rega": "Regue quando a superfície começar a secar, sem esperar a secagem total do fundo do vaso. Mantenha umidade leve e constante, reduzindo apenas moderadamente no frio. Evite água acumulada no miolo das brotações novas.",
-    "suporte": "🥇 Vaso plástico claro, largo e estável — reduz aquecimento radicular.\n🥈 Vaso de barro cônico — bom resfriamento, exigindo retenção um pouco maior.\n🥉 Cachepô vazado — apenas em ambientes com umidade do ar elevada.",
+    "suporte": "🥇 Vaso plástico proporcional, com bons furos de drenagem — conserva melhor a umidade do substrato.\n🥈 Vaso de barro convencional — a porosidade da terracota favorece evaporação e resfriamento das raízes, exigindo atenção maior à frequência de rega.",
     "dica": "Em clima quente, use vaso claro e substrato muito poroso. Regue antes que o meio seque por completo e mantenha ventilação contínua. O objetivo é raiz fresca e úmida, nunca abafada ou superaquecida.",
     formasCultivo: {
         perfilVisual: "zygopetalinae",
-        destaque: "Vaso plástico bem drenado",
-        resumo: "O híbrido possui raízes sensíveis à secagem extrema e ao aquecimento; funciona melhor em vaso proporcional, com umidade regular e muita aeração.",
+        destaque: "Vaso plástico",
+        resumo: "O híbrido é melhor cultivado em vaso, com substrato que permaneça levemente úmido e ao mesmo tempo bem aerado. Não há necessidade de preencher a ficha com modalidades mais secantes apenas para completar os cards.",
         metodos: [
-            { nome: "Vaso plástico bem drenado", asset: "vaso-plastico", estrelas: 5, status: "Ideal", texto: "Mantém umidade mais estável sem resfriar excessivamente as raízes; use vaso claro, proporcional e com boa furação." },
-            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 4, status: "Muito recomendado", texto: "Excelente em regiões úmidas ou quando a secagem do substrato é lenta; exige atenção para não secar rápido demais." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 3, status: "Adequado", texto: "Pode funcionar em clima úmido, mas tende a secar mais rápido e exige regas mais frequentes." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Alternativa para ambientes muito úmidos, desde que a mistura ainda conserve umidade entre as regas." }
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Ideal", texto: "É a opção mais equilibrada para o Louisendorf: conserva a umidade por mais tempo e permite controlar bem a drenagem. Use vaso proporcional ao sistema radicular, com bons furos no fundo, sem deixar água acumulada." },
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Também funciona muito bem, principalmente em locais quentes ou onde o substrato demora a secar. A terracota porosa aumenta a evaporação e ajuda a manter as raízes mais frescas, mas pode exigir regas mais frequentes." }
         ]
     },
     substrato: [
