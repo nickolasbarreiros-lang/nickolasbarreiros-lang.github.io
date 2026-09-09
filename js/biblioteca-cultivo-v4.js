@@ -122,10 +122,10 @@ export const perfisVisuaisCultivoV4 = {
         nome: "Aerides",
         generosReferencia: ["Aerides"],
         assets: {
-            "cesto-madeira": { nome: "cesto-madeira — Aerides", imagem: "imagens/cultivo-v4/perfis/aerides/cesto-madeira.webp" },
-            "cesto-plastico": { nome: "cesto-plastico — Aerides", imagem: "imagens/cultivo-v4/perfis/aerides/cesto-plastico.webp" },
-            "placa-tronco": { nome: "placa-tronco — Aerides", imagem: "imagens/cultivo-v4/perfis/aerides/placa-tronco.webp" },
-            "vaso-plastico-vasado": { nome: "vaso-plastico-vasado — Aerides", imagem: "imagens/cultivo-v4/perfis/aerides/vaso-plastico-vasado.webp" },
+            "suspensa-raizes-livres": { nome: "Suspensa, raízes livres — Aerides", imagem: "imagens/cultivo-v4/perfis/aerides/suspensa-raizes-livres.webp" },
+            "arvore-viva": { nome: "Árvore viva / tronco — Aerides", imagem: "imagens/cultivo-v4/perfis/aerides/arvore-viva.webp" },
+            "cesto-madeira": { nome: "Cesto extremamente vazado — Aerides", imagem: "imagens/cultivo-v4/perfis/aerides/cesto-madeira.webp" },
+            "vaso-plastico-vasado": { nome: "Vaso plástico muito vazado — Aerides", imagem: "imagens/cultivo-v4/perfis/aerides/vaso-plastico-vasado.webp" },
         }
     },
     "anathallis": {

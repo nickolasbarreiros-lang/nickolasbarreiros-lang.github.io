@@ -42,13 +42,13 @@ export const aeridesOdorata = {
     ],
     formasCultivo: {
         perfilVisual: "aerides",
-        destaque: "Cesto de madeira",
-        resumo: "Aerides odorata responde melhor a cultivo semelhante ao de Vandas: raízes grossas e aéreas, muita ventilação, regas generosas e secagem rápida.",
+        destaque: "Suspensa, raízes livres",
+        resumo: "Como vandácea epífita de raízes grossas e aéreas, Aerides odorata responde melhor quando as raízes ficam muito livres, recebem água abundante e secam rapidamente com forte circulação de ar.",
         metodos: [
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 5, status: "Ideal", texto: "Mantém as raízes livres e ventiladas e permite regas abundantes sem criar um núcleo encharcado." },
-            { nome: "Cesto plástico", asset: "cesto-plastico", estrelas: 4, status: "Muito recomendado", texto: "Entrega a mesma lógica de alta aeração com menor decomposição do recipiente e manejo simples." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Muito recomendado", texto: "Adequado quando a umidade ambiente é alta e há disponibilidade para regas frequentes, deixando as raízes praticamente livres." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode ser usado com material muito grosso e pouco volume de substrato; as raízes não devem ser comprimidas." },
+            { nome: "Suspensa, raízes livres", asset: "suspensa-raizes-livres", estrelas: 5, status: "Ideal", texto: "É a condição mais próxima da lógica de cultivo das vandáceas: raízes totalmente arejadas, livres para crescer e secar rapidamente após regas generosas." },
+            { nome: "Árvore viva / tronco", asset: "arvore-viva", estrelas: 5, status: "Ideal", texto: "Excelente em clima quente e úmido quando a planta é firmemente presa ao tronco e as raízes podem aderir à casca e permanecer expostas ao ar." },
+            { nome: "Cesto extremamente vazado", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para sustentar a planta sem confinar as raízes; use pouco ou nenhum substrato e permita que as raízes atravessem livremente as aberturas." },
+            { nome: "Vaso plástico muito vazado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode funcionar quando o recipiente tem muitas aberturas laterais e inferiores e recebe apenas material muito grosso em pequeno volume, sem comprimir as raízes." },
         ]
     },
     substrato: [
