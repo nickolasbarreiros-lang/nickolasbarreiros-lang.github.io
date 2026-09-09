@@ -69,9 +69,10 @@ export const anathallisSclerophylla = {
         ]
     },
     substrato: [
-        "Para cultivo em recipiente, use a mistura-base indicada abaixo e ajuste apenas a retenção conforme o microclima.",
-        "Em montagem ou cesto muito aberto, reduza o volume de substrato e use somente o necessário para estabilizar a umidade.",
-        "Evite terra, misturas finas, compactadas ou materiais em decomposição."
+        "🥇 Esfagno de fibra longa usado muito solto + pedra-pomes fina.",
+        "🥈 Casca de pinus fina + pedra-pomes + pequena quantidade de esfagno.",
+        "🥉 Chips de coco pequenos + pedra-pomes + carvão vegetal pequeno.",
+        "⭐ Alternativa: montagem em cortiça ou madeira com fina camada de esfagno apenas sob as raízes."
     ],
     substratoVisual: {
         titulo: "Substrato ideal",

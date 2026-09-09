@@ -36,7 +36,7 @@ export const aciantheraBragae = {
     rega: "Regue com frequência suficiente para manter as raízes ativas e impedir desidratação prolongada, mas permita troca de ar entre irrigações. Em montagem, a frequência tende a ser alta no calor; em vaso raso, deixe apenas a superfície perder parte da umidade. Água estagnada entre folhas e junto ao rizoma é mais perigosa que uma breve secagem superficial.",
     suporte: ["🥇 Placa larga de madeira, cortiça ou material fibroso durável, permitindo que o rizoma avance lateralmente.", "🥈 Cachepô pequeno, raso e muito ripado.", "🥉 Vaso baixo e largo, muito perfurado, para acomodar o crescimento em tapete."],
     formasCultivo: {
-        perfilVisual: "acianthera",
+        perfilVisual: "micro-pleurothalidina",
         destaque: "Placa / tronco",
         resumo: "Espécie reptante de Mata Atlântica, encontrada em ambientes sombreados e úmidos e frequentemente cultivada no Brasil fixada diretamente em madeira.",
         metodos: [
@@ -46,11 +46,7 @@ export const aciantheraBragae = {
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode ser usada em recipiente pequeno e raso, com mistura leve e bem drenada. Evite vasos profundos e compactação." },
         ]
     },
-    substrato: [
-        "Para cultivo em recipiente, use a mistura-base indicada abaixo e ajuste apenas a retenção conforme o microclima.",
-        "Em montagem ou cesto muito aberto, reduza o volume de substrato e use somente o necessário para estabilizar a umidade.",
-        "Evite terra, misturas finas, compactadas ou materiais em decomposição."
-    ],
+    substrato: ["🥇 Pedra-pomes fina + casca de pinus fina + pequena fração de esfagno, combinando umidade com muito ar.", "🥈 Montagem em rocha porosa/cortiça com fina reserva de esfagno somente sob as raízes.", "🥉 Perlita + pedra-pomes fina + chips de coco pequenos, sem compactar.", "⭐ Alternativa: Casca de pinus fina + carvão miúdo + perlita + esfagno picado em baixa proporção."],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em recipiente",

@@ -36,7 +36,7 @@ export const aciantheraPubescens = {
     rega: "Regue regularmente, mantendo as raízes hidratadas sem saturação contínua. Plantas montadas podem exigir rega diária ou quase diária no verão litorâneo; vasos devem perder parte da umidade superficial antes da próxima irrigação. Ajuste a frequência à procedência: clones de ambientes montanos geralmente apreciam umidade constante com temperaturas mais amenas e excelente ventilação.",
     suporte: ["🥇 Vaso pequeno e muito drenado.", "🥈 Placa de madeira, cortiça ou tronco com pequena reserva de musgo.", "🥉 Cachepô pequeno e ventilado, adequado a touceiras adultas."],
     formasCultivo: {
-        perfilVisual: "acianthera",
+        perfilVisual: "micro-pleurothalidina",
         destaque: "Placa / tronco",
         resumo: "Espécie de ampla distribuição tropical, epífita e também rupícola em parte de sua área; aprecia umidade frequente, raízes arejadas e boa ventilação.",
         metodos: [
@@ -46,11 +46,7 @@ export const aciantheraPubescens = {
             { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 3, status: "Adequado", texto: "Pode funcionar bem em clima quente e úmido, pois a parede porosa favorece evaporação; exige ajuste de frequência de rega." },
         ]
     },
-    substrato: [
-        "Para cultivo em recipiente, use a mistura-base indicada abaixo e ajuste apenas a retenção conforme o microclima.",
-        "Em montagem ou cesto muito aberto, reduza o volume de substrato e use somente o necessário para estabilizar a umidade.",
-        "Evite terra, misturas finas, compactadas ou materiais em decomposição."
-    ],
+    substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "🥉 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.", "⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado."],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em recipiente",

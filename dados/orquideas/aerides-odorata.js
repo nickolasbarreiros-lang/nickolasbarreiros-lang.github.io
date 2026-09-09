@@ -52,9 +52,10 @@ export const aeridesOdorata = {
         ]
     },
     substrato: [
-        "Para cultivo em recipiente, use a mistura-base indicada abaixo e ajuste apenas a retenção conforme o microclima.",
-        "Em montagem ou cesto muito aberto, reduza o volume de substrato e use somente o necessário para estabilizar a umidade.",
-        "Evite terra, misturas finas, compactadas ou materiais em decomposição."
+        "🥇 Casca de pinus grossa + carvão vegetal + pedra-pomes, deixando grandes espaços de ar.",
+        "🥈 Carvão vegetal grosso + pedra-pomes + pequena quantidade de casca grossa.",
+        "🥉 Cultivo praticamente sem substrato em cesto ou montagem, mantendo as raízes livres.",
+        "⭐ Alternativa: chips de coco grossos + carvão vegetal + pedra-pomes, em cesto muito ventilado."
     ],
     substratoVisual: {
         titulo: "Substrato ideal",

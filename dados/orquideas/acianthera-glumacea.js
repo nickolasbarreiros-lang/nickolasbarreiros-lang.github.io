@@ -36,7 +36,7 @@ export const aciantheraGlumacea = {
     rega: "Mantenha hidratação regular e elevada umidade atmosférica, permitindo apenas leve secagem superficial. Em touceiras densas, regue preferencialmente pela manhã e assegure circulação suficiente para a água evaporar das junções entre ramicaules. No inverno frio e nublado, reduza a frequência de acordo com a secagem real, não por calendário.",
     suporte: ["🥇 Vaso pequeno de barro ou plástico muito perfurado.", "🥈 Placa/cepo de madeira com pequena reserva de esfagno para ambientes de alta umidade.", "🥉 Cachepô ripado para touceiras adultas, mantendo o centro aberto e ventilado."],
     formasCultivo: {
-        perfilVisual: "acianthera",
+        perfilVisual: "micro-pleurothalidina",
         destaque: "Cesto de madeira",
         resumo: "Forma touceiras mais volumosas que muitas Acianthera e ocorre como epífita ou rupícola; precisa de ventilação constante e umidade sem saturação prolongada.",
         metodos: [
@@ -46,11 +46,7 @@ export const aciantheraGlumacea = {
             { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 3, status: "Adequado", texto: "A porosidade do barro ajuda a acelerar a secagem e pode ser útil em clima quente, desde que o vaso seja proporcional à touceira." },
         ]
     },
-    substrato: [
-        "Para cultivo em recipiente, use a mistura-base indicada abaixo e ajuste apenas a retenção conforme o microclima.",
-        "Em montagem ou cesto muito aberto, reduza o volume de substrato e use somente o necessário para estabilizar a umidade.",
-        "Evite terra, misturas finas, compactadas ou materiais em decomposição."
-    ],
+    substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "🥉 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "⭐ Alternativa: Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em recipiente",

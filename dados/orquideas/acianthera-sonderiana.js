@@ -57,7 +57,7 @@ export const aciantheraSonderiana = {
         "🥉 Cachepô pequeno com mistura fina, leve e altamente aerada."
     ],
     formasCultivo: {
-        perfilVisual: "acianthera",
+        perfilVisual: "micro-pleurothalidina",
         destaque: "Placa / tronco",
         resumo: "Micro-orquídea de florestas úmidas e mais frescas do Sul do Brasil; necessita disponibilidade regular de água, sombra e excelente oxigenação das raízes.",
         metodos: [
@@ -68,9 +68,10 @@ export const aciantheraSonderiana = {
         ]
     },
     substrato: [
-        "Para cultivo em recipiente, use a mistura-base indicada abaixo e ajuste apenas a retenção conforme o microclima.",
-        "Em montagem ou cesto muito aberto, reduza o volume de substrato e use somente o necessário para estabilizar a umidade.",
-        "Evite terra, misturas finas, compactadas ou materiais em decomposição."
+        "🥇 Esfagno de fibra longa em camada fina sobre cortiça ou madeira.",
+        "🥈 Esfagno solto + pedra-pomes fina.",
+        "🥉 Casca de pinus fina + perlita + pequena fração de esfagno.",
+        "⭐ Alternativa: fibra/chips finos de coco + perlita, mantendo alta aeração."
     ],
     substratoVisual: {
         titulo: "Substrato ideal",
