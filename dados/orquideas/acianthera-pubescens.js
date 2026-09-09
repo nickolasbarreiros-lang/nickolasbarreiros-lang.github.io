@@ -43,7 +43,7 @@ export const aciantheraPubescens = {
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Mantém raízes expostas e facilita o ajuste da rega conforme a procedência e o clima local." },
             { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para touceiras maiores, com forte aeração e espaço para expansão." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Oferece controle de umidade sem perder demasiada aeração quando usado em tamanho pequeno." },
-            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 3, status: "Adequado", texto: "Pode funcionar bem em clima quente e úmido, pois a parede porosa favorece evaporação; exige ajuste de frequência de rega." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 3, status: "Adequado", texto: "Alternativa coerente com o hábito epífito quando há sombra, umidade e boa ventilação; exige atenção à hidratação até o enraizamento no tronco." },
         ]
     },
     substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "🥉 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.", "⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado."],

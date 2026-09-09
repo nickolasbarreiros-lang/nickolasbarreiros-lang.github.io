@@ -95,6 +95,17 @@ export const bibliotecaCultivoV4 = {
 // cai automaticamente no asset genérico do método. Isso permite ampliar a
 // biblioteca aos poucos sem quebrar fichas já existentes.
 export const perfisVisuaisCultivoV4 = {
+    "micro-pleurothalidina": {
+        nome: "Acianthera — micro-Pleurothallidinae",
+        generosReferencia: ["Acianthera"],
+        assets: {
+            "placa-tronco": { nome: "Placa / tronco — Acianthera", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/placa-tronco.webp" },
+            "arvore-viva": { nome: "Árvore viva — Acianthera", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/arvore-viva.webp" },
+            "cesto-madeira": { nome: "Cesto de madeira — Acianthera", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/cesto-madeira.webp" },
+            "vaso-plastico-vasado": { nome: "Vaso plástico vasado — Acianthera", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/vaso-plastico-vasado.webp" },
+            "vaso-plastico": { nome: "Vaso plástico fechado — Acianthera", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/vaso-plastico.webp" },
+        }
+    },
     "acianthera": {
         nome: "Acianthera",
         generosReferencia: ["Acianthera"],

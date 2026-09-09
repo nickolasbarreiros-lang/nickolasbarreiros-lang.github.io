@@ -43,7 +43,7 @@ export const aciantheraGlumacea = {
             { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 5, status: "Ideal", texto: "Acomoda bem touceiras maiores, oferece ótima ventilação e evita que a base permaneça abafada após as regas." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Muito recomendado", texto: "Boa opção para ambientes úmidos, permitindo raízes expostas e rápida renovação de ar." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Funciona bem quando pequeno e bem perfurado, especialmente se a mistura permanecer estruturalmente aberta." },
-            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 3, status: "Adequado", texto: "A porosidade do barro ajuda a acelerar a secagem e pode ser útil em clima quente, desde que o vaso seja proporcional à touceira." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 3, status: "Adequado", texto: "Pode funcionar em jardim sombreado, úmido e bem ventilado, desde que a casca permita boa fixação e a planta receba regas regulares durante o estabelecimento." },
         ]
     },
     substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "🥉 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "⭐ Alternativa: Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."],
