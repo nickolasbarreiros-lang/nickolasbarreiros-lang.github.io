@@ -37,14 +37,14 @@ export const sophronitisCernua = {
     suporte: "🥇 Placa de madeira dura.\n🥈 Cortiça natural.\n🥉 Galho fino de casca rugosa ou pequeno cachepô muito vazado.",
     dica: "Cultive montada em madeira ou cortiça e pendurada em ponto alto, claro e muito ventilado. Sua tolerância ao calor é boa, mas as raízes precisam secar rapidamente para permanecer saudáveis.",
     formasCultivo: {
-        perfilVisual: "cattleya-mini",
+        perfilVisual: "cattleya",
         destaque: "Placa / tronco",
         resumo: "Cattleya cernua é uma miniatura de alta luminosidade e raízes muito aeradas; suporta calor melhor que outras antigas Sophronitis, desde que seque rapidamente após a rega.",
         metodos: [
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Reproduz bem o hábito epífito/litófito e permite regas frequentes com secagem rápida ao longo do dia." },
-            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Excelente em jardim claro e ventilado, especialmente sobre casca rugosa e em posição sem acúmulo de água." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa escolha para touceiras maiores, preservando ventilação e liberdade de crescimento." },
-            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 3, status: "Adequado", texto: "Use recipiente mínimo, raso e com mistura muito grossa; vasos úmidos por muito tempo prejudicam as raízes." }
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Combina muito bem com o porte miniatura e o hábito epífito, mantendo as raízes expostas ao ar e permitindo regas frequentes com secagem rápida." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa opção para touceiras estabelecidas, com alta ventilação e drenagem. Exige atenção à frequência de rega em períodos quentes e secos." },
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "A porosidade da terracota favorece evaporação e resfriamento das raízes. Use recipiente pequeno e mistura grossa, sem compactação." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Alternativa prática quando se deseja muita aeração. Como seca rapidamente, ajuste a rega para evitar desidratação prolongada das raízes finas." }
         ]
     },
     substrato: [

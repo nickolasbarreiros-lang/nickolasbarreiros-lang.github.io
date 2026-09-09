@@ -95,15 +95,52 @@ export const bibliotecaCultivoV4 = {
 // cai automaticamente no asset genérico do método. Isso permite ampliar a
 // biblioteca aos poucos sem quebrar fichas já existentes.
 export const perfisVisuaisCultivoV4 = {
-    "zygopetalinae": {
-        nome: "Zygopetalinae / Zygolum",
-        generosReferencia: ["Zygolum", "Zygopetalum", "Zygosepalum"],
+    "cattleya-mini": {
+        nome: "Cattleya — perfil visual compartilhado do gênero",
+        generosReferencia: ["Cattleya", "Sophronitis"],
         assets: {
-            "vaso-plastico": { nome: "Vaso plástico — Zygopetalinae", imagem: "imagens/cultivo-v4/perfis/zygopetalinae/vaso-plastico.webp" },
-            "vaso-barro": { nome: "Vaso de barro — Zygopetalinae", imagem: "imagens/cultivo-v4/perfis/zygopetalinae/vaso-barro.webp" },
-            "vaso-plastico-vasado": { nome: "Vaso plástico bem perfurado — Zygopetalinae", imagem: "imagens/cultivo-v4/perfis/zygopetalinae/vaso-plastico-vasado.webp" },
-            "cesto-madeira": { nome: "Cesto de madeira — Zygopetalinae", imagem: "imagens/cultivo-v4/perfis/zygopetalinae/cesto-madeira.webp" }
+            "vaso-plastico": { nome: "Vaso plástico — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/vaso-plastico.webp" },
+            "vaso-plastico-vasado": { nome: "Vaso plástico vasado — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/vaso-plastico-vasado.webp" },
+            "vaso-barro": { nome: "Vaso de barro — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/vaso-barro.webp" },
+            "cesto-madeira": { nome: "Cesto de madeira — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/cesto-madeira.webp" },
+            "placa-tronco": { nome: "Placa / tronco — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/placa-tronco.webp" }
         }
+    },
+    "cattleya": {
+        nome: "Cattleya — perfil visual compartilhado do gênero",
+        generosReferencia: ["Cattleya", "Sophronitis", "Cattlianthe", "Brassolaeliocattleya"],
+        assets: {
+            "vaso-plastico": { nome: "Vaso plástico — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/vaso-plastico.webp" },
+            "vaso-plastico-vasado": { nome: "Vaso plástico vasado — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/vaso-plastico-vasado.webp" },
+            "vaso-barro": { nome: "Vaso de barro — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/vaso-barro.webp" },
+            "cesto-madeira": { nome: "Cesto de madeira — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/cesto-madeira.webp" },
+            "placa-tronco": { nome: "Placa / tronco — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/placa-tronco.webp" }
+        }
+    },
+    "dendrobium": {
+        nome: "Dendrobium",
+        generosReferencia: ["Dendrobium"],
+        assets: {}
+    },
+    "bifrenaria": {
+        nome: "Bifrenaria",
+        generosReferencia: ["Bifrenaria"],
+        assets: {}
+    },
+    "zygopetalinae": {
+        nome: "Zygopetalinae",
+        generosReferencia: ["Zygolum", "Zygopetalum", "Zygosepalum"],
+        assets: {}
+    },
+    "maxillaria": {
+        nome: "Maxillaria",
+        generosReferencia: ["Maxillaria", "Brasiliorchis", "Camaridium"],
+        assets: {}
+    },
+    "micro-epifita": {
+        nome: "Micro-orquídea epífita de crescimento rasteiro",
+        generosReferencia: ["Mediocalcar"],
+        assets: {}
     },
     "micro-pleurothalidina": {
         nome: "Micro-orquídeas Pleurothallidinae",
