@@ -37,10 +37,10 @@ export const aspasiaLunata = {
     suporte: "🥇 Vaso de barro ou plástico proporcional à touceira, com excelente drenagem.\n🥈 Cachepô de madeira bem ventilado.\n🥉 Cesto plástico raso e perfurado.",
     formasCultivo: {
         perfilVisual: "aspasia",
-        destaque: "Vaso plástico",
+        destaque: "Vaso plástico vasado",
         resumo: "Epífita de florestas úmidas que forma touceiras com facilidade. No Brasil é cultivada tanto em casca de pinus quanto montada em madeira, desde que não falte umidade.",
         metodos: [
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Ideal", texto: "Conserva umidade moderada e favorece formação de touceira quando usado com mistura aerada e recipiente proporcional." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 5, status: "Ideal", texto: "Conserva umidade moderada e favorece formação de touceira quando usado com mistura aerada e recipiente proporcional." },
             { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Ajuda a acelerar a secagem em clima quente e úmido, sendo ótima opção quando as regas são frequentes." },
             { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Combina boa ventilação com espaço para expansão, mas exige mistura que não seque rápido demais." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Orquidários brasileiros indicam placas de madeira; funciona melhor em ambiente úmido e com regas regulares." },

@@ -152,7 +152,7 @@ export const perfisVisuaisCultivoV4 = {
         nome: "Aspasia",
         generosReferencia: ["Aspasia"],
         assets: {
-            "vaso-plastico": { nome: "vaso-plastico — Aspasia", imagem: "imagens/cultivo-v4/perfis/aspasia/vaso-plastico.webp" },
+            "vaso-plastico-vasado": { nome: "vaso-plastico-vasado — Aspasia", imagem: "imagens/cultivo-v4/perfis/aspasia/vaso-plastico-vasado.webp" },
             "vaso-barro": { nome: "vaso-barro — Aspasia", imagem: "imagens/cultivo-v4/perfis/aspasia/vaso-barro.webp" },
             "cesto-madeira": { nome: "cesto-madeira — Aspasia", imagem: "imagens/cultivo-v4/perfis/aspasia/cesto-madeira.webp" },
             "placa-tronco": { nome: "placa-tronco — Aspasia", imagem: "imagens/cultivo-v4/perfis/aspasia/placa-tronco.webp" },
@@ -163,7 +163,7 @@ export const perfisVisuaisCultivoV4 = {
         generosReferencia: ["Bifrenaria"],
         assets: {
             "vaso-barro": { nome: "vaso-barro — Bifrenaria", imagem: "imagens/cultivo-v4/perfis/bifrenaria/vaso-barro.webp" },
-            "vaso-plastico": { nome: "vaso-plastico — Bifrenaria", imagem: "imagens/cultivo-v4/perfis/bifrenaria/vaso-plastico.webp" },
+            "vaso-plastico-vasado": { nome: "vaso-plastico-vasado — Bifrenaria", imagem: "imagens/cultivo-v4/perfis/bifrenaria/vaso-plastico-vasado.webp" },
             "cesto-madeira": { nome: "cesto-madeira — Bifrenaria", imagem: "imagens/cultivo-v4/perfis/bifrenaria/cesto-madeira.webp" },
             "placa-tronco": { nome: "placa-tronco — Bifrenaria", imagem: "imagens/cultivo-v4/perfis/bifrenaria/placa-tronco.webp" },
         }

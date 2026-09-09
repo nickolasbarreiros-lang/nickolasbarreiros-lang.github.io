@@ -41,7 +41,7 @@ export const bifrenariaAureofulva = {
         resumo: "Bifrenaria pequena, epífita e também registrada como saxícola; exige drenagem muito eficiente e raízes arejadas, especialmente durante períodos mais frescos.",
         metodos: [
             { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 5, status: "Ideal", texto: "A porosidade ajuda a evitar excesso de umidade junto aos pseudobulbos e combina bem com a necessidade de secagem clara entre regas." },
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 4, status: "Muito recomendado", texto: "Funciona com recipiente raso e mistura muito drenante; por reter mais umidade, requer controle maior da frequência de rega." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Funciona com recipiente raso e mistura muito drenante; por reter mais umidade, requer controle maior da frequência de rega." },
             { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Excelente drenagem e ventilação para raízes e base dos pseudobulbos, com secagem mais rápida." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "É possível por seu hábito epífito, porém exige regas mais frequentes e fixação firme para uma planta pseudobulbosa." },
         ]
