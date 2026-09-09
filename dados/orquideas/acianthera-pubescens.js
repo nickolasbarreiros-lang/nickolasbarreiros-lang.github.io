@@ -35,7 +35,37 @@ export const aciantheraPubescens = {
     adubacao: "🌿 Orgânica: bokashi em dose pequena, sempre isolado em sachê e apenas durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração, aproximadamente 1/4 da dose do fabricante, a cada 10 a 15 dias com raízes ativas.\n🧪 Liberação lenta: usar somente pequenas quantidades em cultivo envasado. Como as raízes são finas, faça lavagens periódicas com água de baixa salinidade e reduza a adubação se pontas radiculares escurecerem ou houver depósitos brancos no substrato.",
     rega: "Regue regularmente, mantendo as raízes hidratadas sem saturação contínua. Plantas montadas podem exigir rega diária ou quase diária no verão litorâneo; vasos devem perder parte da umidade superficial antes da próxima irrigação. Ajuste a frequência à procedência: clones de ambientes montanos geralmente apreciam umidade constante com temperaturas mais amenas e excelente ventilação.",
     suporte: ["🥇 Vaso pequeno e muito drenado.", "🥈 Placa de madeira, cortiça ou tronco com pequena reserva de musgo.", "🥉 Cachepô pequeno e ventilado, adequado a touceiras adultas."],
-    substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "🥉 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.", "⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado."],
+    formasCultivo: {
+        perfilVisual: "acianthera",
+        destaque: "Placa / tronco",
+        resumo: "Espécie de ampla distribuição tropical, epífita e também rupícola em parte de sua área; aprecia umidade frequente, raízes arejadas e boa ventilação.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Mantém raízes expostas e facilita o ajuste da rega conforme a procedência e o clima local." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para touceiras maiores, com forte aeração e espaço para expansão." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Oferece controle de umidade sem perder demasiada aeração quando usado em tamanho pequeno." },
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 3, status: "Adequado", texto: "Pode funcionar bem em clima quente e úmido, pois a parede porosa favorece evaporação; exige ajuste de frequência de rega." },
+        ]
+    },
+    substrato: [
+        "Para cultivo em recipiente, use a mistura-base indicada abaixo e ajuste apenas a retenção conforme o microclima.",
+        "Em montagem ou cesto muito aberto, reduza o volume de substrato e use somente o necessário para estabilizar a umidade.",
+        "Evite terra, misturas finas, compactadas ou materiais em decomposição."
+    ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em recipiente",
+        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
+        justificativa: "A espécie ocorre como epífita em florestas tropicais úmidas e também pode aparecer como rupícola. A mistura evita compactação, mas conserva um pouco mais de umidade que a usada em espécies muito xeromórficas.",
+        receitaTexto: "Mistura-base sugerida: 40% casca de pinus fina + 25% chips de coco pequenos + 20% carvão vegetal + 15% esfagno solto.",
+        perfil: ["Umidade moderada, sem saturação", "Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "40%", nota: "estrutura + aeração", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
+            { asset: "fibra-coco", nome: "Chips de coco pequenos", proporcao: "25%", nota: "retenção moderada", finalidade: "Retém umidade moderada mantendo estrutura e boa porosidade." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva de umidade", finalidade: "Acrescenta uma reserva controlada de umidade sem dominar a mistura." },
+        ],
+        alerta: "A ampla distribuição da espécie exige ajuste ao clone e ao microclima. Nunca transforme a preferência por umidade em substrato permanentemente saturado."
+    },
     errosComuns: ["Aplicar o mesmo regime a exemplares de procedências muito diferentes.", "Manter touceira densa molhada e sem ventilação.", "Usar substrato compacto ou decomposto.", "Expor ao sol direto forte.", "Deixar as raízes secarem completamente por períodos longos.", "Acumular sais de fertilizante.", "Fixar uma época única de floração para uma espécie que pode florescer o ano inteiro."],
     revisaoCientificaIAR: {
         "nome": "Acianthera pubescens",

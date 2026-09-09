@@ -57,12 +57,37 @@ export const anathallisSclerophylla = {
         "🥈 Cachepô pequeno e muito ventilado.",
         "🥉 Vaso pequeno, raso e bastante perfurado."
     ],
+    formasCultivo: {
+        perfilVisual: "anathallis",
+        destaque: "Placa / tronco",
+        resumo: "Espécie epífita de floresta tropical úmida, atualmente tratada por Kew como Stelis sclerophylla; prefere umidade frequente e raízes permanentemente oxigenadas.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Mantém a planta bem ventilada e permite acompanhar a secagem das raízes com precisão." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Boa opção em jardim sombreado e úmido, desde que haja circulação de ar e a casca ofereça aderência." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Acomoda touceiras e inflorescências sem compactar a base, mantendo excelente drenagem." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Útil para reter um pouco mais de umidade em clima quente, desde que a mistura permaneça leve e o vaso seja pequeno." },
+        ]
+    },
     substrato: [
-        "🥇 Esfagno de fibra longa usado muito solto + pedra-pomes fina.",
-        "🥈 Casca de pinus fina + pedra-pomes + pequena quantidade de esfagno.",
-        "🥉 Chips de coco pequenos + pedra-pomes + carvão vegetal pequeno.",
-        "⭐ Alternativa: montagem em cortiça ou madeira com fina camada de esfagno apenas sob as raízes."
+        "Para cultivo em recipiente, use a mistura-base indicada abaixo e ajuste apenas a retenção conforme o microclima.",
+        "Em montagem ou cesto muito aberto, reduza o volume de substrato e use somente o necessário para estabilizar a umidade.",
+        "Evite terra, misturas finas, compactadas ou materiais em decomposição."
     ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em recipiente",
+        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
+        justificativa: "Como epífita de bioma tropical úmido, necessita disponibilidade regular de água sem perda de ar nas raízes. A pequena fração de esfagno complementa pinus, coco e carvão sem tornar a mistura compacta.",
+        receitaTexto: "Mistura-base sugerida: 40% casca de pinus fina + 25% chips de coco pequenos + 20% carvão vegetal + 15% esfagno solto.",
+        perfil: ["Umidade moderada, sem saturação", "Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "40%", nota: "estrutura + aeração", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
+            { asset: "fibra-coco", nome: "Chips de coco pequenos", proporcao: "25%", nota: "retenção moderada", finalidade: "Retém umidade moderada mantendo estrutura e boa porosidade." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva de umidade", finalidade: "Acrescenta uma reserva controlada de umidade sem dominar a mistura." },
+        ],
+        alerta: "Não deixe secar por períodos prolongados, mas também não mantenha água parada. Em ambiente naturalmente úmido, reduza o esfagno."
+    },
     errosComuns: [
         "Cultivar em ambiente quente e abafado.",
         "Deixar as raízes secarem completamente por vários dias.",

@@ -35,7 +35,37 @@ export const arpophyllumGiganteum = {
     adubacao: "🌿 Orgânica: bokashi em dose pequena a moderada durante brotação e expansão dos pseudobulbos, preferencialmente em sachê/porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20 ou equivalente, em 1/4 a 1/3 da dose do fabricante a cada 7 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: Osmocote 14-14-14 ou semelhante pode ser usado em dose moderada em vasos/cestos grandes. Reduza o fertilizante líquido se já houver liberação lenta. Após maturação dos pseudobulbos, diminua a frequência sem recorrer a 'adubo de floração' excessivamente fosfatado.",
     rega: "Durante brotação, enraizamento e formação dos pseudobulbos, forneça água abundante e permita apenas secagem parcial do substrato entre irrigações. Depois da maturação, reduza moderadamente a frequência conforme a temperatura e a evaporação caírem, mas não imponha repouso seco severo. A recomendação clássica de cultivo inclui tanto luz ampla quanto água generosa.",
     suporte: ["🥇 Vaso pesado e proporcional à touceira, com excelente drenagem e espaço para o rizoma.", "🥈 Cachepô de madeira amplo e robusto.", "🥉 Cesto grande e ventilado para exemplares adultos."],
-    substrato: ["🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.", "🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.", "🥉 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.", "⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco."],
+    formasCultivo: {
+        perfilVisual: "arpophyllum",
+        destaque: "Vaso plástico",
+        resumo: "Espécie de porte robusto que forma touceiras grandes e aprecia substrato drenante mantido moderadamente úmido durante o crescimento; precisa de recipiente estável.",
+        metodos: [
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Ideal", texto: "Recipiente estável e proporcional à touceira conserva umidade moderada e facilita o manejo de plantas grandes." },
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Boa escolha em clima quente porque aumenta a evaporação e ajuda a evitar permanência de água junto às raízes." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Mantém excelente aeração e permite expansão da touceira, mas seca mais rápido e exige maior atenção à rega." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "É biologicamente possível para a epífita, porém plantas adultas ficam grandes e pesadas; exige suporte robusto e regas frequentes." },
+        ]
+    },
+    substrato: [
+        "Para cultivo em recipiente, use a mistura-base indicada abaixo e ajuste apenas a retenção conforme o microclima.",
+        "Em montagem ou cesto muito aberto, reduza o volume de substrato e use somente o necessário para estabilizar a umidade.",
+        "Evite terra, misturas finas, compactadas ou materiais em decomposição."
+    ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em recipiente",
+        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
+        justificativa: "Orquidários brasileiros recomendam cascas e carvão, com substrato muito drenante mas mantido úmido. A receita substitui materiais menos usuais por coco e uma pequena fração de esfagno, mantendo a mistura aberta.",
+        receitaTexto: "Mistura-base sugerida: 45% casca de pinus média + 25% chips de coco médios + 20% carvão vegetal + 10% esfagno solto.",
+        perfil: ["Umidade moderada, sem saturação", "Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "45%", nota: "estrutura + drenagem", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
+            { asset: "fibra-coco", nome: "Chips de coco médios", proporcao: "25%", nota: "umidade moderada", finalidade: "Retém umidade moderada mantendo estrutura e boa porosidade." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva discreta de umidade", finalidade: "Acrescenta uma reserva controlada de umidade sem dominar a mistura." },
+        ],
+        alerta: "Não imponha repouso seco severo. A planta aprecia água durante o crescimento, mas o vaso nunca deve permanecer encharcado ou compactado."
+    },
     errosComuns: ["Cultivar em sombra excessiva e obter pseudobulbos alongados sem floração.", "Impor seca severa no inverno.", "Usar vaso leve ou instável para touceira grande.", "Manter substrato compacto e permanentemente molhado.", "Dividir touceiras repetidamente antes de acumularem reservas.", "Cultivar no litoral quente sem ventilação noturna suficiente.", "Enterrar demais o rizoma ou impedir sua expansão lateral."],
     revisaoCientificaIAR: {
         "nome": "Arpophyllum giganteum",

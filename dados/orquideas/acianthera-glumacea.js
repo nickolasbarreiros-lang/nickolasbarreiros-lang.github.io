@@ -35,7 +35,37 @@ export const aciantheraGlumacea = {
     adubacao: "🌿 Orgânica: bokashi em pequena dose e protegido em sachê, somente durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20 ou equivalente, em aproximadamente 1/4 da dose a cada 10 a 15 dias enquanto houver novas raízes e ramicaules em formação.\n🧪 Liberação lenta: Osmocote 14-14-14 ou semelhante apenas em dose baixa e em cultivo envasado. Como a planta possui raízes finas, evite acúmulo de sais e faça lavagens periódicas com água limpa.",
     rega: "Mantenha hidratação regular e elevada umidade atmosférica, permitindo apenas leve secagem superficial. Em touceiras densas, regue preferencialmente pela manhã e assegure circulação suficiente para a água evaporar das junções entre ramicaules. No inverno frio e nublado, reduza a frequência de acordo com a secagem real, não por calendário.",
     suporte: ["🥇 Vaso pequeno de barro ou plástico muito perfurado.", "🥈 Placa/cepo de madeira com pequena reserva de esfagno para ambientes de alta umidade.", "🥉 Cachepô ripado para touceiras adultas, mantendo o centro aberto e ventilado."],
-    substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "🥉 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "⭐ Alternativa: Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."],
+    formasCultivo: {
+        perfilVisual: "acianthera",
+        destaque: "Cesto de madeira",
+        resumo: "Forma touceiras mais volumosas que muitas Acianthera e ocorre como epífita ou rupícola; precisa de ventilação constante e umidade sem saturação prolongada.",
+        metodos: [
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 5, status: "Ideal", texto: "Acomoda bem touceiras maiores, oferece ótima ventilação e evita que a base permaneça abafada após as regas." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Muito recomendado", texto: "Boa opção para ambientes úmidos, permitindo raízes expostas e rápida renovação de ar." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Funciona bem quando pequeno e bem perfurado, especialmente se a mistura permanecer estruturalmente aberta." },
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 3, status: "Adequado", texto: "A porosidade do barro ajuda a acelerar a secagem e pode ser útil em clima quente, desde que o vaso seja proporcional à touceira." },
+        ]
+    },
+    substrato: [
+        "Para cultivo em recipiente, use a mistura-base indicada abaixo e ajuste apenas a retenção conforme o microclima.",
+        "Em montagem ou cesto muito aberto, reduza o volume de substrato e use somente o necessário para estabilizar a umidade.",
+        "Evite terra, misturas finas, compactadas ou materiais em decomposição."
+    ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em recipiente",
+        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
+        justificativa: "Por ser epífita ou rupícola de Mata Atlântica e formar touceiras densas, a mistura precisa permanecer aberta por bastante tempo. Pinus, carvão e brita garantem estrutura e drenagem; o esfagno entra apenas como pequena reserva de água.",
+        receitaTexto: "Mistura-base sugerida: 45% casca de pinus fina/média + 20% carvão vegetal + 20% brita pequena + 15% esfagno solto.",
+        perfil: ["Umidade moderada, sem saturação", "Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "45%", nota: "estrutura + drenagem", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
+            { asset: "brita-pura", nome: "Brita pequena", proporcao: "20%", nota: "drenagem permanente", finalidade: "Cria drenagem permanente e reduz retenção excessiva de água." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva moderada de umidade", finalidade: "Acrescenta uma reserva controlada de umidade sem dominar a mistura." },
+        ],
+        alerta: "Evite vaso grande, substrato fino e centro da touceira constantemente molhado. Em litoral quente, ventilação é tão importante quanto a rega."
+    },
     errosComuns: ["Remover ramicaules antigos ainda verdes que podem reflorir.", "Encharcar o centro de touceiras densas.", "Cultivar em calor noturno abafado.", "Usar substrato decomposto ou compactado.", "Usar vaso excessivamente grande.", "Manter sombra profunda.", "Confundir a preferência por umidade com necessidade de substrato permanentemente saturado."],
     revisaoCientificaIAR: {
         "nome": "Acianthera glumacea",

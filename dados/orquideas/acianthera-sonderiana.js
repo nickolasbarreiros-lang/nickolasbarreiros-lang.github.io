@@ -56,12 +56,37 @@ export const aciantheraSonderiana = {
         "🥈 Vaso pequeno e muito ventilado com esfagno solto.",
         "🥉 Cachepô pequeno com mistura fina, leve e altamente aerada."
     ],
+    formasCultivo: {
+        perfilVisual: "acianthera",
+        destaque: "Placa / tronco",
+        resumo: "Micro-orquídea de florestas úmidas e mais frescas do Sul do Brasil; necessita disponibilidade regular de água, sombra e excelente oxigenação das raízes.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Favorece aeração e se aproxima do hábito epífito natural. Em clima quente, use pequena reserva de esfagno sob as raízes." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa opção para manter raízes ventiladas e um microclima úmido sem compactação." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Funciona bem com mistura leve e um pouco mais retentiva, sobretudo onde a montagem secaria rápido demais." },
+            { nome: "Vaso plástico fechado", asset: "vaso-plastico", estrelas: 3, status: "Adequado", texto: "Pode ser usado em ambiente ventilado e com recipiente pequeno, pois conserva mais umidade. Exige atenção redobrada para não manter a base encharcada." },
+        ]
+    },
     substrato: [
-        "🥇 Esfagno de fibra longa em camada fina sobre cortiça ou madeira.",
-        "🥈 Esfagno solto + pedra-pomes fina.",
-        "🥉 Casca de pinus fina + perlita + pequena fração de esfagno.",
-        "⭐ Alternativa: fibra/chips finos de coco + perlita, mantendo alta aeração."
+        "Para cultivo em recipiente, use a mistura-base indicada abaixo e ajuste apenas a retenção conforme o microclima.",
+        "Em montagem ou cesto muito aberto, reduza o volume de substrato e use somente o necessário para estabilizar a umidade.",
+        "Evite terra, misturas finas, compactadas ou materiais em decomposição."
     ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em recipiente",
+        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
+        justificativa: "Orquidários brasileiros citam esfagno ou misturas de fibra de coco, pinus e carvão para esta espécie. A formulação mantém essa lógica, mas limita o esfagno para preservar oxigenação em clima quente.",
+        receitaTexto: "Mistura-base sugerida: 40% casca de pinus fina + 25% chips de coco pequenos + 20% carvão vegetal + 15% esfagno solto.",
+        perfil: ["Umidade moderada, sem saturação", "Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "40%", nota: "estrutura + aeração", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
+            { asset: "fibra-coco", nome: "Chips de coco pequenos", proporcao: "25%", nota: "umidade moderada", finalidade: "Retém umidade moderada mantendo estrutura e boa porosidade." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva de umidade", finalidade: "Acrescenta uma reserva controlada de umidade sem dominar a mistura." },
+        ],
+        alerta: "No litoral, evite calor abafado e substrato compacto. Em vaso fechado, reduza a frequência de rega em períodos nublados e frios."
+    },
     errosComuns: [
         "Deixar uma micro-orquídea montada secar completamente por muitas horas em dias quentes.",
         "Confundir necessidade de muita água com tolerância a substrato encharcado e sem ar.",

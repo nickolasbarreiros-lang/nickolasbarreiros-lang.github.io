@@ -35,7 +35,37 @@ export const aspasiaLunata = {
     adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante o crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada e sempre afastado de raízes novas. Após a maturação dos pseudobulbos, reduza a frequência da adubação conforme o crescimento desacelerar.",
     rega: "Durante a formação de novos brotos e raízes, regue regularmente e permita secagem parcial do substrato entre as irrigações. Após a maturação dos pseudobulbos, aumente ligeiramente o intervalo entre regas, sobretudo em períodos mais frios, sem permitir enrugamento severo.",
     suporte: "🥇 Vaso de barro ou plástico proporcional à touceira, com excelente drenagem.\n🥈 Cachepô de madeira bem ventilado.\n🥉 Cesto plástico raso e perfurado.",
-    substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+    formasCultivo: {
+        perfilVisual: "aspasia",
+        destaque: "Vaso plástico",
+        resumo: "Epífita de florestas úmidas que forma touceiras com facilidade. No Brasil é cultivada tanto em casca de pinus quanto montada em madeira, desde que não falte umidade.",
+        metodos: [
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Ideal", texto: "Conserva umidade moderada e favorece formação de touceira quando usado com mistura aerada e recipiente proporcional." },
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Ajuda a acelerar a secagem em clima quente e úmido, sendo ótima opção quando as regas são frequentes." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Combina boa ventilação com espaço para expansão, mas exige mistura que não seque rápido demais." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Orquidários brasileiros indicam placas de madeira; funciona melhor em ambiente úmido e com regas regulares." },
+        ]
+    },
+    substrato: [
+        "Para cultivo em recipiente, use a mistura-base indicada abaixo e ajuste apenas a retenção conforme o microclima.",
+        "Em montagem ou cesto muito aberto, reduza o volume de substrato e use somente o necessário para estabilizar a umidade.",
+        "Evite terra, misturas finas, compactadas ou materiais em decomposição."
+    ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em recipiente",
+        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
+        justificativa: "Produtor brasileiro recomenda casca de pinus ou placa de madeira, sem deixar faltar umidade. A mistura-base mantém pinus como componente principal e acrescenta coco, carvão e pouco esfagno para equilibrar umidade e aeração.",
+        receitaTexto: "Mistura-base sugerida: 50% casca de pinus média + 25% chips de coco médios + 15% carvão vegetal + 10% esfagno solto.",
+        perfil: ["Umidade moderada, sem saturação", "Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "50%", nota: "estrutura + drenagem", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
+            { asset: "fibra-coco", nome: "Chips de coco médios", proporcao: "25%", nota: "retenção moderada", finalidade: "Retém umidade moderada mantendo estrutura e boa porosidade." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "15%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva discreta de umidade", finalidade: "Acrescenta uma reserva controlada de umidade sem dominar a mistura." },
+        ],
+        alerta: "A espécie não gosta de sombra profunda nem de mistura encharcada. Em placa, aumente a frequência de rega; em vaso plástico, controle a secagem antes de regar novamente."
+    },
     errosComuns: "Cultivar em sombra profunda; expor ao sol direto forte; manter o substrato permanentemente encharcado; usar mistura fina e compactada; usar vaso desproporcionalmente grande; dividir a touceira em porções muito pequenas; deixar os pseudobulbos enrugarem durante o crescimento ativo; impor repouso seco severo sem necessidade.",
     dica: "Evite dividir Aspasia lunata em mudas muito pequenas. Preserve ao menos três a quatro pseudobulbos adultos por divisão para manter reservas suficientes, recuperação rápida e maior capacidade de produzir hastes florais robustas. Mais importante que 'apertar' a planta é oferecer um vaso proporcional, muita aeração e boa luminosidade filtrada.",
     revisaoCientificaIAR: {

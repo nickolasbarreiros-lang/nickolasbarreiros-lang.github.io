@@ -35,7 +35,37 @@ export const aciantheraBragae = {
     adubacao: "🌿 Orgânica: bokashi em dose mínima, sempre isolado em sachê ou porta-adubo e afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração, cerca de 1/4 da dose do fabricante, a cada 10 a 15 dias durante emissão de folhas e raízes.\n🧪 Liberação lenta: se utilizada, aplicar pouquíssimo adubo de liberação lenta apenas em recipiente, nunca acumulado junto às raízes finas. Lave periodicamente o suporte/substrato para evitar acúmulo de sais.",
     rega: "Regue com frequência suficiente para manter as raízes ativas e impedir desidratação prolongada, mas permita troca de ar entre irrigações. Em montagem, a frequência tende a ser alta no calor; em vaso raso, deixe apenas a superfície perder parte da umidade. Água estagnada entre folhas e junto ao rizoma é mais perigosa que uma breve secagem superficial.",
     suporte: ["🥇 Placa larga de madeira, cortiça ou material fibroso durável, permitindo que o rizoma avance lateralmente.", "🥈 Cachepô pequeno, raso e muito ripado.", "🥉 Vaso baixo e largo, muito perfurado, para acomodar o crescimento em tapete."],
-    substrato: ["🥇 Pedra-pomes fina + casca de pinus fina + pequena fração de esfagno, combinando umidade com muito ar.", "🥈 Montagem em rocha porosa/cortiça com fina reserva de esfagno somente sob as raízes.", "🥉 Perlita + pedra-pomes fina + chips de coco pequenos, sem compactar.", "⭐ Alternativa: Casca de pinus fina + carvão miúdo + perlita + esfagno picado em baixa proporção."],
+    formasCultivo: {
+        perfilVisual: "acianthera",
+        destaque: "Placa / tronco",
+        resumo: "Espécie reptante de Mata Atlântica, encontrada em ambientes sombreados e úmidos e frequentemente cultivada no Brasil fixada diretamente em madeira.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "É a forma mais coerente com o crescimento rastejante. Produtores brasileiros comercializam a espécie fixada em ripas de madeira, favorecendo aeração e expansão do rizoma." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Boa escolha em ambiente sombreado, úmido e ventilado, desde que a casca ofereça aderência e a planta não fique sujeita a sol forte." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Permite que a planta se espalhe pelas bordas sem sufocar o rizoma e mantém excelente circulação de ar." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode ser usada em recipiente pequeno e raso, com mistura leve e bem drenada. Evite vasos profundos e compactação." },
+        ]
+    },
+    substrato: [
+        "Para cultivo em recipiente, use a mistura-base indicada abaixo e ajuste apenas a retenção conforme o microclima.",
+        "Em montagem ou cesto muito aberto, reduza o volume de substrato e use somente o necessário para estabilizar a umidade.",
+        "Evite terra, misturas finas, compactadas ou materiais em decomposição."
+    ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em recipiente",
+        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
+        justificativa: "A. bragae é epífita ou litófita, reptante e de locais úmidos e sombreados. Como a prática brasileira favorece cultivo em madeira, a receita para vaso busca apenas reproduzir a combinação de alta aeração com umidade moderada.",
+        receitaTexto: "Mistura-base sugerida: 45% casca de pinus fina + 25% chips de coco pequenos + 20% carvão vegetal + 10% esfagno solto.",
+        perfil: ["Umidade moderada, sem saturação", "Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "45%", nota: "estrutura + aeração", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
+            { asset: "fibra-coco", nome: "Chips de coco pequenos", proporcao: "25%", nota: "umidade moderada + estrutura", finalidade: "Retém umidade moderada mantendo estrutura e boa porosidade." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva discreta de umidade", finalidade: "Acrescenta uma reserva controlada de umidade sem dominar a mistura." },
+        ],
+        alerta: "O substrato é secundário quando a planta está montada. Em vaso, mantenha o rizoma exposto e reduza o esfagno se o ambiente já tiver umidade alta."
+    },
     errosComuns: ["Usar vaso profundo para uma planta de crescimento rastejante.", "Enterrar ou cobrir o rizoma.", "Manter água parada entre folhas e ramicaules.", "Deixar a montagem secar por vários dias no calor.", "Cultivar em sombra profunda e sem circulação de ar.", "Aplicar adubação forte em raízes finas.", "Interpretar a altitude como necessidade de clima frio rígido."],
     revisaoCientificaIAR: {
         "nome": "Acianthera bragae",

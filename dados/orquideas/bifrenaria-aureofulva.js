@@ -35,48 +35,38 @@ export const bifrenariaAureofulva = {
     adubacao: "🌿 Orgânica: bokashi em pequena dose durante o crescimento ativo, sempre protegido em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotos e raízes ativas.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose reduzida e afastado das raízes novas. Após a maturação dos pseudobulbos, reduza gradualmente a frequência da adubação em vez de suspendê-la abruptamente.",
     rega: "Regue bem durante a brotação e formação dos pseudobulbos, permitindo que o substrato perca parte da umidade entre as irrigações. Após a maturação, reduza moderadamente a frequência, sobretudo no inverno. Não mantenha a planta totalmente seca por períodos prolongados e não permita enrugamento acentuado dos pseudobulbos.",
     suporte: "🥇 Vaso de barro pequeno a médio e bem drenado.\n🥈 Cachepô de madeira muito ventilado.\n🥉 Placa de madeira ou tronco em ambientes com alta umidade relativa e regas frequentes.",
-    dica: "Trate-a como uma verdadeira orquídea do sol. Ela exige alta luminosidade (claridade intensa, mas sem sol direto) e vasos bem apertados com drenagem perfeita. O grande segredo para conseguir hastes repletas de flores laranjas é mantê-la com raízes restritas, boa ventilação e regas fartas apenas no período de crescimento ativo.",
     formasCultivo: {
         perfilVisual: "bifrenaria",
-        destaque: "Vaso de barro perfurado",
-        resumo: "Bifrenaria aureofulva prefere raízes arejadas, umidade durante o crescimento e secagem parcial entre regas; o vaso deve ser proporcional à touceira.",
+        destaque: "Vaso de barro",
+        resumo: "Bifrenaria pequena, epífita e também registrada como saxícola; exige drenagem muito eficiente e raízes arejadas, especialmente durante períodos mais frescos.",
         metodos: [
-            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 5, status: "Ideal", texto: "Ajuda a equilibrar umidade e oxigênio nas raízes e dissipa melhor o calor no litoral." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Mantém as raízes bem ventiladas e funciona muito bem em ambientes com umidade atmosférica alta." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Funciona com mistura grossa e secagem monitorada, desde que o vaso não aqueça excessivamente." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Pode funcionar em ambiente úmido e com rega frequente, mas exige maior controle da hidratação durante a brotação." }
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 5, status: "Ideal", texto: "A porosidade ajuda a evitar excesso de umidade junto aos pseudobulbos e combina bem com a necessidade de secagem clara entre regas." },
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 4, status: "Muito recomendado", texto: "Funciona com recipiente raso e mistura muito drenante; por reter mais umidade, requer controle maior da frequência de rega." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Excelente drenagem e ventilação para raízes e base dos pseudobulbos, com secagem mais rápida." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "É possível por seu hábito epífito, porém exige regas mais frequentes e fixação firme para uma planta pseudobulbosa." },
         ]
     },
     substrato: [
-        "Em vaso pequeno a médio: casca de pinus média + casca de macadâmia + carvão vegetal + pequena fração de esfagno.",
-        "Durante a brotação, mantenha umidade regular sem saturar o centro do vaso.",
-        "Após a maturação dos pseudobulbos, permita secagem mais perceptível entre regas.",
-        "Evite mistura fina, compacta ou excesso de musgo."
+        "Para cultivo em recipiente, use a mistura-base indicada abaixo e ajuste apenas a retenção conforme o microclima.",
+        "Em montagem ou cesto muito aberto, reduza o volume de substrato e use somente o necessário para estabilizar a umidade.",
+        "Evite terra, misturas finas, compactadas ou materiais em decomposição."
     ],
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Para cultivo em vaso",
-        resumo: "Mistura aerada com retenção moderada, suficiente para sustentar a brotação sem manter raízes permanentemente molhadas.",
-        justificativa: "Por ser uma Bifrenaria de florestas úmidas do leste e sul do Brasil, precisa de mais regularidade hídrica que B. tyrianthina, mas ainda responde mal a substrato saturado.",
-        receitaTexto: "Mistura-base sugerida: 45% casca de pinus média + 25% casca de macadâmia + 20% carvão vegetal + 10% esfagno solto.",
-        perfil: ["Raízes robustas", "Umidade na brotação", "Secagem parcial", "Boa ventilação", "Vaso proporcional"],
+        contexto: "Para cultivo em recipiente",
+        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
+        justificativa: "Cultivador brasileiro de B. aureofulva recomenda partes iguais de casca de pinus, carvão vegetal e pedra brita, destacando a importância crítica da drenagem para evitar apodrecimento de raízes e pseudobulbos.",
+        receitaTexto: "Mistura-base sugerida: ≈33% casca de pinus média + ≈33% carvão vegetal + ≈33% brita pequena/média.",
+        perfil: ["Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "45%", nota: "estrutura", finalidade: "Mantém porosidade e alguma retenção entre as regas." },
-            { asset: "macadamia", nome: "Casca de macadâmia", proporcao: "25%", nota: "estrutura + drenagem", finalidade: "Cria espaços irregulares que evitam compactação." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração", finalidade: "Favorece secagem uniforme e circulação de ar." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva moderada", finalidade: "Ajuda durante a brotação sem transformar a mistura em meio encharcado." }
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "\u224833%", nota: "estrutura + drenagem", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "\u224833%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
+            { asset: "brita-pura", nome: "Brita pequena/média", proporcao: "\u224833%", nota: "drenagem + secagem clara", finalidade: "Cria drenagem permanente e reduz retenção excessiva de água." },
         ],
-        alerta: "Ajuste a fração de esfagno ao microclima e nunca mantenha água acumulada no centro da touceira."
+        alerta: "Use vaso preferencialmente raso e nunca permita água acumulada na base dos pseudobulbos. Reduza a rega no frio, mas não imponha seca prolongada."
     },
-    errosComuns: [
-        "Manter o substrato permanentemente molhado.",
-        "Usar vaso grande.",
-        "Excesso de esfagno ou fibra fina.",
-        "Enterrar a base dos pseudobulbos.",
-        "Reduzir água demais durante a brotação.",
-        "Pouca ventilação em clima quente.",
-        "Excesso de sombra."
-    ],
+    errosComuns: "Tratar a espécie como planta de repouso totalmente seco; cultivar em sombra profunda; expor a sol forte; usar vasos muito grandes; manter substrato compacto ou degradado; reduzir a água antes do pseudobulbo amadurecer; replantar sem raízes novas iniciando; aplicar fertilizante concentrado em raízes sensíveis.",
+    dica: "Trate-a como uma verdadeira orquídea do sol. Ela exige alta luminosidade (claridade intensa, mas sem sol direto) e vasos bem apertados com drenagem perfeita. O grande segredo para conseguir hastes repletas de flores laranjas é mantê-la com raízes restritas, boa ventilação e regas fartas apenas no período de crescimento ativo.",
     revisaoCientificaIAR: {
         "nome": "Bifrenaria aureofulva",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",

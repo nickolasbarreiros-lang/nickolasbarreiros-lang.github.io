@@ -95,63 +95,68 @@ export const bibliotecaCultivoV4 = {
 // cai automaticamente no asset genérico do método. Isso permite ampliar a
 // biblioteca aos poucos sem quebrar fichas já existentes.
 export const perfisVisuaisCultivoV4 = {
-    "cattleya-mini": {
-        nome: "Cattleya — perfil visual compartilhado do gênero",
-        generosReferencia: ["Cattleya", "Sophronitis"],
+    "acianthera": {
+        nome: "Acianthera",
+        generosReferencia: ["Acianthera"],
         assets: {
-            "vaso-plastico": { nome: "Vaso plástico — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/vaso-plastico.webp" },
-            "vaso-plastico-vasado": { nome: "Vaso plástico vasado — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/vaso-plastico-vasado.webp" },
-            "vaso-barro": { nome: "Vaso de barro — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/vaso-barro.webp" },
-            "cesto-madeira": { nome: "Cesto de madeira — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/cesto-madeira.webp" },
-            "placa-tronco": { nome: "Placa / tronco — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/placa-tronco.webp" }
+            "placa-tronco": { nome: "placa-tronco — Acianthera", imagem: "imagens/cultivo-v4/perfis/acianthera/placa-tronco.webp" },
+            "arvore-viva": { nome: "arvore-viva — Acianthera", imagem: "imagens/cultivo-v4/perfis/acianthera/arvore-viva.webp" },
+            "cesto-madeira": { nome: "cesto-madeira — Acianthera", imagem: "imagens/cultivo-v4/perfis/acianthera/cesto-madeira.webp" },
+            "vaso-plastico-vasado": { nome: "vaso-plastico-vasado — Acianthera", imagem: "imagens/cultivo-v4/perfis/acianthera/vaso-plastico-vasado.webp" },
+            "vaso-plastico": { nome: "vaso-plastico — Acianthera", imagem: "imagens/cultivo-v4/perfis/acianthera/vaso-plastico.webp" },
+            "vaso-barro": { nome: "vaso-barro — Acianthera", imagem: "imagens/cultivo-v4/perfis/acianthera/vaso-barro.webp" },
         }
     },
-    "cattleya": {
-        nome: "Cattleya — perfil visual compartilhado do gênero",
-        generosReferencia: ["Cattleya", "Sophronitis", "Cattlianthe", "Brassolaeliocattleya"],
+    "aerides": {
+        nome: "Aerides",
+        generosReferencia: ["Aerides"],
         assets: {
-            "vaso-plastico": { nome: "Vaso plástico — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/vaso-plastico.webp" },
-            "vaso-plastico-vasado": { nome: "Vaso plástico vasado — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/vaso-plastico-vasado.webp" },
-            "vaso-barro": { nome: "Vaso de barro — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/vaso-barro.webp" },
-            "cesto-madeira": { nome: "Cesto de madeira — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/cesto-madeira.webp" },
-            "placa-tronco": { nome: "Placa / tronco — Cattleya", imagem: "imagens/cultivo-v4/perfis/cattleya/placa-tronco.webp" }
+            "cesto-madeira": { nome: "cesto-madeira — Aerides", imagem: "imagens/cultivo-v4/perfis/aerides/cesto-madeira.webp" },
+            "cesto-plastico": { nome: "cesto-plastico — Aerides", imagem: "imagens/cultivo-v4/perfis/aerides/cesto-plastico.webp" },
+            "placa-tronco": { nome: "placa-tronco — Aerides", imagem: "imagens/cultivo-v4/perfis/aerides/placa-tronco.webp" },
+            "vaso-plastico-vasado": { nome: "vaso-plastico-vasado — Aerides", imagem: "imagens/cultivo-v4/perfis/aerides/vaso-plastico-vasado.webp" },
         }
     },
-    "dendrobium": {
-        nome: "Dendrobium",
-        generosReferencia: ["Dendrobium"],
-        assets: {}
+    "anathallis": {
+        nome: "Anathallis / Stelis",
+        generosReferencia: ["Anathallis"],
+        assets: {
+            "placa-tronco": { nome: "placa-tronco — Anathallis / Stelis", imagem: "imagens/cultivo-v4/perfis/anathallis/placa-tronco.webp" },
+            "arvore-viva": { nome: "arvore-viva — Anathallis / Stelis", imagem: "imagens/cultivo-v4/perfis/anathallis/arvore-viva.webp" },
+            "cesto-madeira": { nome: "cesto-madeira — Anathallis / Stelis", imagem: "imagens/cultivo-v4/perfis/anathallis/cesto-madeira.webp" },
+            "vaso-plastico-vasado": { nome: "vaso-plastico-vasado — Anathallis / Stelis", imagem: "imagens/cultivo-v4/perfis/anathallis/vaso-plastico-vasado.webp" },
+        }
+    },
+    "arpophyllum": {
+        nome: "Arpophyllum",
+        generosReferencia: ["Arpophyllum"],
+        assets: {
+            "vaso-plastico": { nome: "vaso-plastico — Arpophyllum", imagem: "imagens/cultivo-v4/perfis/arpophyllum/vaso-plastico.webp" },
+            "vaso-barro": { nome: "vaso-barro — Arpophyllum", imagem: "imagens/cultivo-v4/perfis/arpophyllum/vaso-barro.webp" },
+            "cesto-madeira": { nome: "cesto-madeira — Arpophyllum", imagem: "imagens/cultivo-v4/perfis/arpophyllum/cesto-madeira.webp" },
+            "placa-tronco": { nome: "placa-tronco — Arpophyllum", imagem: "imagens/cultivo-v4/perfis/arpophyllum/placa-tronco.webp" },
+        }
+    },
+    "aspasia": {
+        nome: "Aspasia",
+        generosReferencia: ["Aspasia"],
+        assets: {
+            "vaso-plastico": { nome: "vaso-plastico — Aspasia", imagem: "imagens/cultivo-v4/perfis/aspasia/vaso-plastico.webp" },
+            "vaso-barro": { nome: "vaso-barro — Aspasia", imagem: "imagens/cultivo-v4/perfis/aspasia/vaso-barro.webp" },
+            "cesto-madeira": { nome: "cesto-madeira — Aspasia", imagem: "imagens/cultivo-v4/perfis/aspasia/cesto-madeira.webp" },
+            "placa-tronco": { nome: "placa-tronco — Aspasia", imagem: "imagens/cultivo-v4/perfis/aspasia/placa-tronco.webp" },
+        }
     },
     "bifrenaria": {
         nome: "Bifrenaria",
         generosReferencia: ["Bifrenaria"],
-        assets: {}
-    },
-    "zygopetalinae": {
-        nome: "Zygopetalinae",
-        generosReferencia: ["Zygolum", "Zygopetalum", "Zygosepalum"],
-        assets: {}
-    },
-    "maxillaria": {
-        nome: "Maxillaria",
-        generosReferencia: ["Maxillaria", "Brasiliorchis", "Camaridium"],
-        assets: {}
-    },
-    "micro-epifita": {
-        nome: "Micro-orquídea epífita de crescimento rasteiro",
-        generosReferencia: ["Mediocalcar"],
-        assets: {}
-    },
-    "micro-pleurothalidina": {
-        nome: "Micro-orquídeas Pleurothallidinae",
-        generosReferencia: ["Acianthera", "Pabstiella", "Anathallis", "Pleurothallis"],
         assets: {
-            "placa-tronco": { nome: "Placa / tronco — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/placa-tronco.webp" },
-            "arvore-viva": { nome: "Árvore viva — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/arvore-viva.webp" },
-            "cesto-madeira": { nome: "Cesto de madeira — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/cesto-madeira.webp" },
-            "vaso-plastico-vasado": { nome: "Vaso plástico vasado — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/vaso-plastico-vasado.webp" }
+            "vaso-barro": { nome: "vaso-barro — Bifrenaria", imagem: "imagens/cultivo-v4/perfis/bifrenaria/vaso-barro.webp" },
+            "vaso-plastico": { nome: "vaso-plastico — Bifrenaria", imagem: "imagens/cultivo-v4/perfis/bifrenaria/vaso-plastico.webp" },
+            "cesto-madeira": { nome: "cesto-madeira — Bifrenaria", imagem: "imagens/cultivo-v4/perfis/bifrenaria/cesto-madeira.webp" },
+            "placa-tronco": { nome: "placa-tronco — Bifrenaria", imagem: "imagens/cultivo-v4/perfis/bifrenaria/placa-tronco.webp" },
         }
-    }
+    },
 };
 
 export function obterAssetCultivoV4(id, perfilVisual = "") {

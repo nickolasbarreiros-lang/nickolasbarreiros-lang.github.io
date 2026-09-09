@@ -40,12 +40,36 @@ export const aeridesOdorata = {
         "🥈 Placa de cortiça, tronco ou madeira resistente, em ambiente de alta umidade e regas frequentes.",
         "🥉 Vaso muito perfurado com substrato extremamente grosso, quando for necessário reter um pouco mais de umidade."
     ],
+    formasCultivo: {
+        perfilVisual: "aerides",
+        destaque: "Cesto de madeira",
+        resumo: "Aerides odorata responde melhor a cultivo semelhante ao de Vandas: raízes grossas e aéreas, muita ventilação, regas generosas e secagem rápida.",
+        metodos: [
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 5, status: "Ideal", texto: "Mantém as raízes livres e ventiladas e permite regas abundantes sem criar um núcleo encharcado." },
+            { nome: "Cesto plástico", asset: "cesto-plastico", estrelas: 4, status: "Muito recomendado", texto: "Entrega a mesma lógica de alta aeração com menor decomposição do recipiente e manejo simples." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Muito recomendado", texto: "Adequado quando a umidade ambiente é alta e há disponibilidade para regas frequentes, deixando as raízes praticamente livres." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode ser usado com material muito grosso e pouco volume de substrato; as raízes não devem ser comprimidas." },
+        ]
+    },
     substrato: [
-        "🥇 Casca de pinus grossa + carvão vegetal + pedra-pomes, deixando grandes espaços de ar.",
-        "🥈 Carvão vegetal grosso + pedra-pomes + pequena quantidade de casca grossa.",
-        "🥉 Cultivo praticamente sem substrato em cesto ou montagem, mantendo as raízes livres.",
-        "⭐ Alternativa: chips de coco grossos + carvão vegetal + pedra-pomes, em cesto muito ventilado."
+        "Para cultivo em recipiente, use a mistura-base indicada abaixo e ajuste apenas a retenção conforme o microclima.",
+        "Em montagem ou cesto muito aberto, reduza o volume de substrato e use somente o necessário para estabilizar a umidade.",
+        "Evite terra, misturas finas, compactadas ou materiais em decomposição."
     ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em recipiente",
+        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
+        justificativa: "A espécie é uma vandácea epífita de raízes aéreas; fontes de cultivo recomendam manejo semelhante ao de Vandas. A mistura é deliberadamente grossa e aberta, usando materiais comuns no Brasil e evitando partículas finas.",
+        receitaTexto: "Mistura-base sugerida: 50% casca de pinus grossa + 30% carvão vegetal grosso + 20% chips de coco grossos.",
+        perfil: ["Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "50%", nota: "estrutura + grandes espaços de ar", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal grosso", proporcao: "30%", nota: "aeração + secagem rápida", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
+            { asset: "fibra-coco", nome: "Chips de coco grossos", proporcao: "20%", nota: "estrutura + leve reserva hídrica", finalidade: "Retém umidade moderada mantendo estrutura e boa porosidade." },
+        ],
+        alerta: "Em cesto ou montagem, pode ser usada com pouquíssimo ou nenhum substrato. Nunca enterre raízes aéreas em mistura fina ou compacta."
+    },
     errosComuns: [
         "Cultivar em sombra profunda e esperar floração abundante",
         "Enterrar ou sufocar as raízes aéreas",
