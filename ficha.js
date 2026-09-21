@@ -563,6 +563,20 @@ function criarSubstratoVisualV4(config, recomendados = []) {
 
             
 
+            ${Array.isArray(config.comportamento) && config.comportamento.length ? `
+                <div class="comportamento-mistura-v423" aria-label="Comportamento da mistura">
+                    ${config.comportamento.map((item) => {
+                        const valor = Math.max(0, Math.min(5, Number(item.valor) || 0));
+                        return `<div class="indicador-mistura-v423">
+                            <span class="rotulo-indicador-v423">${item.icone || ""} ${item.nome}</span>
+                            <span class="bolhas-indicador-v423" aria-label="${valor} de 5">
+                                ${Array.from({length:5}, (_,i) => `<i class="${i < valor ? "ativo" : ""}"></i>`).join("")}
+                            </span>
+                        </div>`;
+                    }).join("")}
+                </div>
+            ` : ""}
+
             ${itensValidos.some((item) => item.finalidade) ? `
                 <div class="finalidade-substrato-v4">
                     <div class="titulo-finalidade-substrato-v4">
@@ -612,8 +626,8 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                     <div class="titulo-recomendados-v4">
                         <span aria-hidden="true">🌱</span>
                         <div>
-                            <h5>Substratos recomendados</h5>
-                            <p>Outras composições e formas de montagem adequadas para esta espécie.</p>
+                            <h5>Outras misturas recomendadas</h5>
+                            <p>Alternativas de composição adequadas para cultivo em vaso.</p>
                         </div>
                     </div>
                     <ul>

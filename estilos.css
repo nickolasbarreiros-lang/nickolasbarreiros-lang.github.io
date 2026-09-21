@@ -9514,3 +9514,24 @@ main.container{
     object-fit:contain !important;
     margin:auto !important;
 }
+
+/* V4.23 — comportamento da mistura */
+.comportamento-mistura-v423{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin:14px 0 16px}
+.indicador-mistura-v423{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 11px;border:1px solid #d4e2cf;border-radius:11px;background:#f7faf5}
+.rotulo-indicador-v423{color:#244d2e;font-size:13px;font-weight:750;white-space:nowrap}
+.bolhas-indicador-v423{display:flex;gap:3px;flex-shrink:0}
+.bolhas-indicador-v423 i{width:9px;height:9px;border-radius:50%;border:1px solid #9fba96;background:#fff}
+.bolhas-indicador-v423 i.ativo{background:#4f963f;border-color:#4f963f}
+
+/* V4.23 — avaliação compacta 3 x 2 */
+#avaliacao-especie .lista-avaliacoes-v2{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+#avaliacao-especie .avaliacao-v2{min-width:0;padding:12px 14px}
+#avaliacao-especie .avaliacao-v2-cabecalho{margin-bottom:7px}
+#avaliacao-especie .estrelas-v2{font-size:18px}
+@media(max-width:900px){
+ .comportamento-mistura-v423{grid-template-columns:repeat(2,minmax(0,1fr))}
+ #avaliacao-especie .lista-avaliacoes-v2{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:560px){
+ .comportamento-mistura-v423,#avaliacao-especie .lista-avaliacoes-v2{grid-template-columns:1fr}
+}

@@ -34,23 +34,23 @@ export const aciantheraAveniformis = {
     floracao: "Predominantemente no inverno. Para cultivo no Brasil, junho a agosto é uma janela prática de referência, podendo variar com microclima, procedência e ritmo de maturação dos ramicaules.",
     adubacao: "🌿 Orgânica: bokashi apenas em quantidade mínima e preferencialmente isolado em sachê/porta-adubo, sem contato direto com a base da planta.\n💧 Foliar/mineral: fertilizante equilibrado, como 20-20-20 ou equivalente, em aproximadamente 1/4 da dose do fabricante a cada 10 a 15 dias durante brotação e enraizamento ativo.\n🧪 Liberação lenta: se utilizada, aplicar quantidade muito pequena de Osmocote 14-14-14 ou equivalente somente em cultivo envasado e longe das raízes finas. Em micro-orquídeas, excesso de sais é mais perigoso que deficiência leve; faça lavagem periódica do substrato com água limpa.",
     rega: "Mantenha hidratação frequente sem saturação permanente. Em montagem, pode exigir regas muito frequentes no calor porque a pequena massa radicular seca rapidamente; em vaso, permita leve perda de umidade superficial antes da nova irrigação. O objetivo é um ciclo de molhar bem, renovar o ar e voltar a regar antes de ocorrer desidratação prolongada.",
-    suporte: ["🥇 Placa pequena de madeira, cortiça ou casca rugosa, acompanhando o crescimento reptante.", "🥈 Cachepô pequeno e bem ripado.", "🥉 Vaso pequeno, raso e muito perfurado."],
+    suporte: ["Placa pequena de madeira, cortiça ou casca rugosa, acompanhando o crescimento reptante.", "Cachepô pequeno e bem ripado.", "Vaso pequeno, raso e muito perfurado."],
     formasCultivo: {
         perfilVisual: "micro-pleurothalidina",
         destaque: "Placa / tronco",
         resumo: "O hábito epífito reptante e as raízes muito finas favorecem suportes pequenos, muito aerados e com secagem rápida, mas sem desidratação prolongada.",
         metodos: [
-            { nome: "Placa / tronco", asset: "acianthera-aveniformis-placa", estrelas: 5, status: "Ideal", texto: "É a opção preferencial para acompanhar o crescimento reptante. Pode ser placa plana, cortiça, casca rugosa ou pequeno trecho de tronco, sempre com mínima reserva de esfagno apenas sob as raízes." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "É a opção preferencial para acompanhar o crescimento reptante. Pode ser placa plana, cortiça, casca rugosa ou pequeno trecho de tronco, sempre com mínima reserva de esfagno apenas sob as raízes." },
             { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Excelente opção em jardim úmido e sombreado. A casca viva pode oferecer microclima estável, boa umidade e ventilação, mas permite menos controle de hidratação, luz e posicionamento que uma placa ou pequeno tronco manejável." },
             { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Cachepô pequeno e bem ripado mantém as raízes arejadas e permite que o crescimento reptante ultrapasse as bordas sem ficar comprimido." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Alternativa prática para cultivo em recipiente. Use modelo pequeno, raso e muito perfurado, com mistura leve e bem aerada, mantendo o rizoma sempre sobre o substrato." }
         ],
     },
     substrato: [
-        "🥇 Casca de pinus fina/média + casca de arroz carbonizada + carvão vegetal pequeno + esfagno solto",
-        "🥈 Casca de pinus fina + carvão vegetal pequeno + esfagno solto",
-        "🥉 Chips de coco pequenos + casca de arroz carbonizada + carvão vegetal pequeno",
-        "⭐ Casca de pinus fina + perlita + esfagno solto"
+        "Casca de pinus fina/média + casca de arroz carbonizada + carvão vegetal pequeno + esfagno solto",
+        "Casca de pinus fina + carvão vegetal pequeno + esfagno solto",
+        "Chips de coco pequenos + casca de arroz carbonizada + carvão vegetal pequeno",
+        "Casca de pinus fina + perlita + esfagno solto"
     ],
     substratoVisual: {
         titulo: "Substrato ideal",
@@ -59,6 +59,12 @@ export const aciantheraAveniformis = {
         justificativa: "A. aveniformis é uma epífita de ambiente úmido e possui porte pequeno e raízes muito finas. Em vaso, a prioridade é preservar macroporos e oxigenação sem permitir desidratação prolongada. Por isso a mistura combina uma fração orgânica estrutural, materiais muito aeradores e apenas uma pequena reserva hídrica. A proporção abaixo é uma recomendação técnica de cultivo, não uma fórmula experimental publicada especificamente para A. aveniformis.",
         receitaTexto: "Mistura-base sugerida para vaso pequeno, raso e muito perfurado: 40% casca de pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto.",
         perfil: ["Raízes epífitas muito finas", "Aeração muito alta", "Umidade frequente", "Secagem relativamente rápida", "Baixa compactação", "Rizoma sempre exposto"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "40%", nota: "estrutura + retenção moderada", finalidade: "Forma a estrutura principal sem criar uma massa fina. À medida que envelhece e fragmenta, aumenta a retenção e reduz a aeração; esse é o principal sinal para antecipar o replante." },
             { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "25%", nota: "macroporos + leveza", finalidade: "Mantém espaços de ar entre os componentes e reduz a compactação. É especialmente útil para raízes finas que precisam permanecer úmidas sem ficar abafadas." },
