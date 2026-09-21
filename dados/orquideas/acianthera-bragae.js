@@ -40,27 +40,37 @@ export const aciantheraBragae = {
         destaque: "Placa / tronco",
         resumo: "Espécie reptante de Mata Atlântica, encontrada em ambientes sombreados e úmidos e frequentemente cultivada no Brasil fixada diretamente em madeira.",
         metodos: [
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "É a forma mais coerente com o crescimento rastejante. Produtores brasileiros comercializam a espécie fixada em ripas de madeira, favorecendo aeração e expansão do rizoma." },
+            { nome: "Placa / tronco", asset: "acianthera-bragae-placa", estrelas: 5, status: "Ideal", texto: "É a forma mais coerente com o crescimento rastejante. Produtores brasileiros comercializam a espécie fixada em ripas de madeira, favorecendo aeração e expansão do rizoma." },
             { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Boa escolha em ambiente sombreado, úmido e ventilado, desde que a casca ofereça aderência e a planta não fique sujeita a sol forte." },
             { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Permite que a planta se espalhe pelas bordas sem sufocar o rizoma e mantém excelente circulação de ar." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode ser usada em recipiente pequeno e raso, com mistura leve e bem drenada. Evite vasos profundos e compactação." },
         ]
     },
-    substrato: ["🥇 Pedra-pomes fina + casca de pinus fina + pequena fração de esfagno, combinando umidade com muito ar.", "🥈 Montagem em rocha porosa/cortiça com fina reserva de esfagno somente sob as raízes.", "🥉 Perlita + pedra-pomes fina + chips de coco pequenos, sem compactar.", "⭐ Alternativa: Casca de pinus fina + carvão miúdo + perlita + esfagno picado em baixa proporção."],
+    substrato: [
+        "Casca de pinus fina/média + carvão vegetal pequeno + esfagno solto",
+        "Casca de pinus fina/média + casca de arroz carbonizada + carvão vegetal pequeno",
+        "Chips de coco pequenos + carvão vegetal pequeno + casca de arroz carbonizada",
+        "Casca de pinus fina/média + perlita + esfagno solto"
+    ],
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Para cultivo em recipiente",
-        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
-        justificativa: "A. bragae é epífita ou litófita, reptante e de locais úmidos e sombreados. Como a prática brasileira favorece cultivo em madeira, a receita para vaso busca apenas reproduzir a combinação de alta aeração com umidade moderada.",
-        receitaTexto: "Mistura-base sugerida: 45% casca de pinus fina + 25% chips de coco pequenos + 20% carvão vegetal + 10% esfagno solto.",
-        perfil: ["Umidade moderada, sem saturação", "Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
-        itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "45%", nota: "estrutura + aeração", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
-            { asset: "fibra-coco", nome: "Chips de coco pequenos", proporcao: "25%", nota: "umidade moderada + estrutura", finalidade: "Retém umidade moderada mantendo estrutura e boa porosidade." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva discreta de umidade", finalidade: "Acrescenta uma reserva controlada de umidade sem dominar a mistura." },
+        contexto: "Para cultivo em vaso",
+        resumo: "Mistura leve, aberta e de baixa compactação para uma micro-orquídea reptante que aprecia umidade frequente, mas exige oxigenação constante nas raízes.",
+        justificativa: "A. bragae é uma micro-orquídea epífita ou litófita, reptante, de ambientes úmidos e sombreados. Em cultivo brasileiro é frequentemente mantida diretamente em madeira, enquanto vasos também são usados desde que o substrato seja muito drenante e contenha apenas uma reserva moderada de umidade. Para vaso, a mistura abaixo prioriza macroporos, estabilidade e secagem relativamente rápida, evitando que o rizoma e as raízes permaneçam abafados.",
+        perfil: ["Raízes finas", "Alta aeração", "Umidade frequente", "Secagem rápida", "Baixa compactação", "Rizoma exposto"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
-        alerta: "O substrato é secundário quando a planta está montada. Em vaso, mantenha o rizoma exposto e reduza o esfagno se o ambiente já tiver umidade alta."
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "45%", nota: "estrutura + retenção moderada", finalidade: "Forma a estrutura principal sem fechar excessivamente os espaços de ar." },
+            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "25%", nota: "macroporos + leveza", finalidade: "Aumenta a porosidade e reduz a tendência de compactação da mistura." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a conservar espaços de ar e estabilidade estrutural." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva hídrica controlada", finalidade: "Fornece pequena reserva de umidade sem dominar uma mistura que precisa continuar muito aerada." }
+        ],
+        alerta: "Em vaso, use recipiente pequeno, raso e muito perfurado. Mantenha o rizoma sobre a superfície e não compacte a mistura. Em ambiente naturalmente muito úmido, reduza ainda mais o esfagno."
     },
     errosComuns: ["Usar vaso profundo para uma planta de crescimento rastejante.", "Enterrar ou cobrir o rizoma.", "Manter água parada entre folhas e ramicaules.", "Deixar a montagem secar por vários dias no calor.", "Cultivar em sombra profunda e sem circulação de ar.", "Aplicar adubação forte em raízes finas.", "Interpretar a altitude como necessidade de clima frio rígido."],
     revisaoCientificaIAR: {
