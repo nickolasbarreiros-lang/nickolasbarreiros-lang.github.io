@@ -1,4 +1,8 @@
 export const bibliotecaCultivoV4 = {
+    "acianthera-glumacea-placa": {
+        nome: "Placa / tronco — Acianthera glumacea",
+        imagem: "imagens/cultivo-v4/especies/acianthera-glumacea/placa-tronco.webp"
+    },
     "acianthera-modestissima-vaso": {
         nome: "Vaso plástico baixo — Acianthera modestissima",
         imagem: "imagens/cultivo-v4/especies/pleurothallis-modestissima/vaso-plastico-baixo.webp"
@@ -57,7 +61,7 @@ export const bibliotecaCultivoV4 = {
     },
     "vaso-barro": {
         nome: "Vaso de barro",
-        imagem: "imagens/cultivo-v4/vaso-barro-orquideas-v436.webp"
+        imagem: "imagens/cultivo-v4/vaso-barro.webp"
     },
     "vaso-plastico": {
         nome: "Vaso plástico",
