@@ -9497,3 +9497,10 @@ main.container{
         white-space:normal !important;
     }
 }
+
+
+/* V4.19 — rótulos curtos do perfil radicular */
+.chips-perfil-cultivo-principal-v417 span{
+    font-size:12px !important;
+    padding-inline:7px !important;
+}

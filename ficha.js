@@ -477,7 +477,21 @@ function criarFormasCultivoV4(config, perfilRadicular = []) {
                             <div class="perfil-cultivo-principal-v417">
                                 <strong>Perfil radicular e hídrico</strong>
                                 <div class="chips-perfil-cultivo-principal-v417">
-                                    ${perfilRadicular.map((item) => `<span>${item}</span>`).join("")}
+                                    ${perfilRadicular.map((item) => {
+                                        const rotulosCurtos = {
+                                            "Raízes epífitas muito finas": "Raízes finas",
+                                            "Fixação sobre suporte": "Raízes aderentes",
+                                            "Aeração muito alta": "Alta aeração",
+                                            "Umidade frequente": "Umidade frequente",
+                                            "Molhamentos frequentes": "Rega frequente",
+                                            "Secagem relativamente rápida": "Secagem rápida",
+                                            "Baixa compactação": "Baixa compactação",
+                                            "Sem compactação": "Sem compactação",
+                                            "Rizoma sempre exposto": "Rizoma exposto",
+                                            "Rizoma exposto": "Rizoma exposto"
+                                        };
+                                        return `<span>${rotulosCurtos[item] || item}</span>`;
+                                    }).join("")}
                                 </div>
                             </div>
                         ` : ""}
