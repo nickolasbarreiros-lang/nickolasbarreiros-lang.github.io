@@ -8744,3 +8744,68 @@ main.container{
 .sem-substrato-v41{margin:16px 0;padding:18px;border:1px solid #cfe1d1;border-radius:16px;background:#f4faf4;display:flex;flex-direction:column;gap:6px}
 .sem-substrato-v41 strong{color:#2f623b;font-size:1.05rem}.sem-substrato-v41 span{color:#526056;line-height:1.5}
 @media(max-width:760px){.layout-formas-foco-v41{grid-template-columns:1fr}.alternativa-forma-v41>div{flex-direction:column;gap:3px}}
+
+/* V4.5 — destaque visual do método principal + pictogramas das alternativas */
+.formas-cultivo-foco-v41 .forma-principal-v4{
+    position:relative;
+    overflow:hidden;
+    border:1px solid #a9c99d;
+    background:
+        radial-gradient(circle at 92% 10%, rgba(132,176,111,.20) 0 54px, transparent 55px),
+        radial-gradient(circle at 8% 92%, rgba(181,211,165,.18) 0 70px, transparent 71px),
+        linear-gradient(145deg,#f8fcf4 0%,#eef7e9 52%,#f9fcf7 100%);
+    box-shadow:0 10px 24px rgba(52,92,58,.10), inset 0 0 0 1px rgba(255,255,255,.72);
+}
+.formas-cultivo-foco-v41 .forma-principal-v4::before{
+    content:"★  MELHOR ESCOLHA";
+    position:absolute;
+    z-index:3;
+    top:12px;
+    left:12px;
+    padding:6px 10px;
+    border-radius:999px;
+    background:rgba(238,247,231,.94);
+    border:1px solid #b8d2ad;
+    color:#35623d;
+    font-size:.66rem;
+    font-weight:800;
+    letter-spacing:.04em;
+    box-shadow:0 3px 10px rgba(48,88,53,.10);
+}
+.formas-cultivo-foco-v41 .forma-principal-v4 .imagem-forma-v4{
+    background:rgba(255,255,255,.60);
+    border-bottom:1px solid rgba(167,197,155,.65);
+}
+.formas-cultivo-foco-v41 .forma-principal-v4 .corpo-forma-v4{padding:14px 15px 16px}
+
+.alternativa-forma-v41{
+    display:grid;
+    grid-template-columns:54px minmax(0,1fr);
+    gap:12px;
+    align-items:center;
+    padding:11px 12px;
+    transition:transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.alternativa-forma-v41:hover{transform:translateY(-1px);border-color:#cbdcc8;box-shadow:0 5px 14px rgba(54,88,58,.07)}
+.icone-alternativa-forma-v41{
+    width:50px;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:14px;
+    border:1px solid #d5e5cf;
+    background:linear-gradient(145deg,#f4faef,#e7f3df);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.9);
+}
+.icone-alternativa-forma-v41 span{font-size:1.55rem;line-height:1;filter:saturate(.82)}
+.conteudo-alternativa-forma-v41{min-width:0}
+.cabecalho-alternativa-forma-v41{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.cabecalho-alternativa-forma-v41 strong{color:#263e2c;font-size:.92rem}
+
+@media(max-width:620px){
+    .alternativa-forma-v41{grid-template-columns:46px minmax(0,1fr);gap:9px}
+    .icone-alternativa-forma-v41{width:44px;height:44px;border-radius:12px}
+    .icone-alternativa-forma-v41 span{font-size:1.35rem}
+    .cabecalho-alternativa-forma-v41{flex-direction:column;gap:3px}
+}

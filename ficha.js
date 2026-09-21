@@ -475,12 +475,19 @@ function criarFormasCultivoV4(config) {
                         <p>${principal.texto || ""}</p>
                     </div>
                 </article>
-                ${alternativas.length ? `<aside class="alternativas-forma-v41"><h5>Outras formas de cultivo</h5><div class="lista-alternativas-forma-v41">${alternativas.map((metodo) => `
+                ${alternativas.length ? `<aside class="alternativas-forma-v41"><h5>Outras formas de cultivo</h5><div class="lista-alternativas-forma-v41">${alternativas.map((metodo) => {
+                    const nome = (metodo.nome || "").toLowerCase();
+                    const icone = nome.includes("árvore") || nome.includes("arvore") ? "🌳" : nome.includes("cesto") ? "🧺" : nome.includes("barro") ? "🏺" : nome.includes("vaso") ? "🪴" : nome.includes("placa") || nome.includes("tronco") ? "🪵" : "🌿";
+                    return `
                     <article class="alternativa-forma-v41">
-                        <div><strong>${metodo.nome}</strong><span class="status-forma-v4">${metodo.status || ""}</span></div>
-                        ${estrelas(metodo.estrelas)}
-                        <p>${metodo.texto || ""}</p>
-                    </article>`).join("")}</div></aside>` : ""}
+                        <div class="icone-alternativa-forma-v41" aria-hidden="true"><span>${icone}</span></div>
+                        <div class="conteudo-alternativa-forma-v41">
+                            <div class="cabecalho-alternativa-forma-v41"><strong>${metodo.nome}</strong><span class="status-forma-v4">${metodo.status || ""}</span></div>
+                            ${estrelas(metodo.estrelas)}
+                            <p>${metodo.texto || ""}</p>
+                        </div>
+                    </article>`;
+                }).join("")}</div></aside>` : ""}
             </div>
         </section>`;
 }
