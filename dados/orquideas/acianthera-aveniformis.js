@@ -40,7 +40,7 @@ export const aciantheraAveniformis = {
         destaque: "Placa / tronco",
         resumo: "O hábito epífito reptante e as raízes muito finas favorecem suportes pequenos, muito aerados e com secagem rápida, mas sem desidratação prolongada.",
         metodos: [
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "É a opção preferencial para acompanhar o crescimento reptante. Pode ser placa plana, cortiça, casca rugosa ou pequeno trecho de tronco, sempre com mínima reserva de esfagno apenas sob as raízes." },
+            { nome: "Placa / tronco", asset: "acianthera-aveniformis-placa", estrelas: 5, status: "Ideal", texto: "É a opção preferencial para acompanhar o crescimento reptante. Pode ser placa plana, cortiça, casca rugosa ou pequeno trecho de tronco, sempre com mínima reserva de esfagno apenas sob as raízes." },
             { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Excelente opção em jardim úmido e sombreado. A casca viva pode oferecer microclima estável, boa umidade e ventilação, mas permite menos controle de hidratação, luz e posicionamento que uma placa ou pequeno tronco manejável." },
             { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Cachepô pequeno e bem ripado mantém as raízes arejadas e permite que o crescimento reptante ultrapasse as bordas sem ficar comprimido." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Alternativa prática para cultivo em recipiente. Use modelo pequeno, raso e muito perfurado, com mistura leve e bem aerada, mantendo o rizoma sempre sobre o substrato." }

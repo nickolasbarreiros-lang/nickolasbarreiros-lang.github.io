@@ -1,4 +1,8 @@
 export const bibliotecaCultivoV4 = {
+    "acianthera-aveniformis-placa": {
+        nome: "Placa / tronco — Acianthera aveniformis",
+        imagem: "imagens/cultivo-v4/especies/acianthera-aveniformis/placa-tronco.webp"
+    },
     "arvore-viva": {
         nome: "Árvore viva",
         imagem: "imagens/cultivo-v4/arvore-viva-v3.webp"

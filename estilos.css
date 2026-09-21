@@ -9392,3 +9392,43 @@ main.container{
         border-top:1.5px solid #bfd1bb !important;
     }
 }
+
+
+/* V4.15 — ícones das alternativas: maiores e realmente centralizados */
+.forma-alternativa-v4 .icone-forma-alternativa,
+.forma-alternativa-v4 .forma-alternativa-icone,
+.forma-alternativa-v4 .cultivo-alternativa-icone,
+.outras-formas-v4 .icone-metodo-v4 {
+    width: 58px !important;
+    height: 58px !important;
+    min-width: 58px !important;
+    min-height: 58px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    align-self: center !important;
+    font-size: 29px !important;
+    line-height: 1 !important;
+    margin-block: auto !important;
+}
+
+/* A foto principal enviada pelo usuário deve aparecer inteira no card. */
+.forma-cultivo-principal-v4 .imagem-forma-v4,
+.cultivo-principal-v4 .imagem-forma-v4,
+.forma-principal-v4 .imagem-forma-v4 {
+    object-fit: cover;
+    object-position: center center;
+}
+
+@media (max-width: 720px) {
+    .forma-alternativa-v4 .icone-forma-alternativa,
+    .forma-alternativa-v4 .forma-alternativa-icone,
+    .forma-alternativa-v4 .cultivo-alternativa-icone,
+    .outras-formas-v4 .icone-metodo-v4 {
+        width: 50px !important;
+        height: 50px !important;
+        min-width: 50px !important;
+        min-height: 50px !important;
+        font-size: 25px !important;
+    }
+}
