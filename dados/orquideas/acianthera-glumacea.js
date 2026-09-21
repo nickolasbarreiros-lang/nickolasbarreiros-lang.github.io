@@ -37,13 +37,13 @@ export const aciantheraGlumacea = {
     suporte: ["🥇 Vaso pequeno de barro ou plástico muito perfurado.", "🥈 Placa/cepo de madeira com pequena reserva de esfagno para ambientes de alta umidade.", "🥉 Cachepô ripado para touceiras adultas, mantendo o centro aberto e ventilado."],
     formasCultivo: {
         perfilVisual: "micro-pleurothalidina",
-        destaque: "Cesto de madeira",
-        resumo: "Forma touceiras mais volumosas que muitas Acianthera e ocorre como epífita ou rupícola; precisa de ventilação constante e umidade sem saturação prolongada.",
+        destaque: "Placa / tronco",
+        resumo: "O hábito predominantemente epífito favorece montagem em placa ou tronco, com raízes bem ventiladas, umidade regular e secagem sem saturação prolongada.",
         metodos: [
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 5, status: "Ideal", texto: "Acomoda bem touceiras maiores, oferece ótima ventilação e evita que a base permaneça abafada após as regas." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Muito recomendado", texto: "Boa opção para ambientes úmidos, permitindo raízes expostas e rápida renovação de ar." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Funciona bem quando pequeno e bem perfurado, especialmente se a mistura permanecer estruturalmente aberta." },
-            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 3, status: "Adequado", texto: "Pode funcionar em jardim sombreado, úmido e bem ventilado, desde que a casca permita boa fixação e a planta receba regas regulares durante o estabelecimento." },
+            { nome: "Placa / tronco", asset: "acianthera-glumacea-placa", estrelas: 5, status: "Ideal", texto: "É a opção preferencial por reproduzir diretamente o hábito epífito da espécie. Use placa, cortiça, casca rugosa ou pequeno tronco, com boa ventilação e pequena reserva de umidade junto às raízes." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Excelente alternativa em jardim sombreado, úmido e ventilado, especialmente em casca rugosa que permita boa fixação das raízes." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Muito adequado para touceiras maiores: oferece ótima ventilação, boa drenagem e espaço para crescimento sem manter a base abafada." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Viável quando pequeno e muito perfurado, usando mistura estruturalmente aberta e mantendo o rizoma sobre a superfície." },
         ]
     },
     substrato: [
