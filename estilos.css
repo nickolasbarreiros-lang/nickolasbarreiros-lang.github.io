@@ -8831,3 +8831,22 @@ main.container{
     background:#5f9854;color:#fff;font-size:.57rem;font-weight:800;letter-spacing:.06em;
     box-shadow:0 2px 6px rgba(38,76,42,.18);
 }
+
+/* V4.7 — legibilidade global da ficha */
+.guia-cultivo-v4 p,
+.formas-cultivo-foco-v41 p,
+.substrato-ideal-v4 p,
+.substratos-recomendados-v4 li,
+.alternativa-forma-v41,
+.corpo-forma-v4 p,
+.alerta-substrato-v4,
+.dreno-vaso-substrato-v4 { font-size: 14px; line-height: 1.48; }
+.substratos-recomendados-v4 li { font-size: 14.5px; }
+.perfil-substrato-v4 span,
+.chips-perfil-substrato-v4 span { font-size: 12.5px; }
+@media (min-width: 1100px){
+  .guia-cultivo-v4 p,
+  .formas-cultivo-foco-v41 p,
+  .substrato-ideal-v4 p,
+  .corpo-forma-v4 p { font-size: 14.5px; }
+}

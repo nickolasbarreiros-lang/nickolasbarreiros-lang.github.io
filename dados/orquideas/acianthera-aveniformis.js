@@ -47,12 +47,10 @@ export const aciantheraAveniformis = {
         ],
     },
     substrato: [
-        "Casca de pinus fina/média: componente estrutural principal para cultivo em vaso; oferece retenção moderada e boa porosidade. Deve ser substituída quando começar a fragmentar e reduzir os espaços de ar.",
-        "Casca de arroz carbonizada: componente leve, muito poroso e relativamente estável; ajuda a preservar macroporos e reduz o risco de compactação em torno das raízes finas.",
-        "Carvão vegetal pequeno: aumenta a aeração e mantém a mistura aberta por bastante tempo; faça lavagens periódicas com água limpa para reduzir o risco de acúmulo de sais.",
-        "Esfagno solto: usado em pequena proporção como reserva hídrica. Para esta espécie deve permanecer solto, nunca compactado ou permanentemente saturado.",
-        "Fibra de coco fina/chips pequenos: alternativa possível em misturas muito aeradas; deve ser bem lavada antes do uso e manejada com atenção à retenção de água e sais.",
-        "Brita pequena: alternativa mineral inerte para aumentar estabilidade e drenagem, mas não é necessária na mistura-base quando a estrutura já é garantida por CAC e carvão."
+        "🥇 Casca de pinus fina/média + casca de arroz carbonizada + carvão vegetal pequeno + esfagno solto",
+        "🥈 Casca de pinus fina + carvão vegetal pequeno + esfagno solto",
+        "🥉 Chips de coco pequenos + casca de arroz carbonizada + carvão vegetal pequeno",
+        "⭐ Casca de pinus fina + perlita + esfagno solto"
     ],
     substratoVisual: {
         titulo: "Substrato ideal",
