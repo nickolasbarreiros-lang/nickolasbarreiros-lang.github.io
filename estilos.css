@@ -8809,3 +8809,25 @@ main.container{
     .icone-alternativa-forma-v41 span{font-size:1.35rem}
     .cabecalho-alternativa-forma-v41{flex-direction:column;gap:3px}
 }
+
+/* V4.6 — método principal com destaque inequívoco */
+.formas-cultivo-foco-v41 .forma-principal-v4{
+    border:2px solid #78aa68 !important;
+    background:#e8f5df !important;
+    box-shadow:0 14px 32px rgba(48,104,55,.18), inset 0 0 0 5px rgba(255,255,255,.45) !important;
+}
+.formas-cultivo-foco-v41 .forma-principal-v4 .imagem-forma-v4{
+    background:linear-gradient(180deg,#dcefd2,#edf7e8) !important;
+    border-bottom:2px solid #9fc592 !important;
+}
+.formas-cultivo-foco-v41 .forma-principal-v4 .corpo-forma-v4{
+    background:linear-gradient(180deg,#f1f9ec 0%,#e4f2dc 100%);
+}
+.formas-cultivo-foco-v41 .forma-principal-v4::after{
+    content:"RECOMENDAÇÃO PRINCIPAL";
+    position:absolute;right:-35px;top:24px;z-index:2;
+    transform:rotate(35deg);
+    width:180px;padding:5px 0;text-align:center;
+    background:#5f9854;color:#fff;font-size:.57rem;font-weight:800;letter-spacing:.06em;
+    box-shadow:0 2px 6px rgba(38,76,42,.18);
+}

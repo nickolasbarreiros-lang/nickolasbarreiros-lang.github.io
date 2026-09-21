@@ -47,23 +47,27 @@ export const aciantheraAveniformis = {
         ],
     },
     substrato: [
-        "Montagem preferencial em placa, cortiça ou pequeno tronco, com as raízes expostas e aderidas ao suporte; use apenas uma fina camada de esfagno solto sob as raízes quando o microclima secar rápido demais.",
-        "Casca de pinus fina/média: boa estrutura e retenção moderada; substituir quando começar a fragmentar, compactar ou reduzir a drenagem.",
-        "Casca de arroz carbonizada: leve, muito porosa e estruturalmente estável; excelente componente para preservar espaços de ar em cultivo envasado.",
-        "Carvão vegetal pequeno: muito aerado e durável; ajuda a manter a mistura aberta, mas exige atenção à lavagem periódica para evitar acúmulo de sais.",
-        "Esfagno solto: ótima reserva de umidade em pequena quantidade; nunca compactar nem manter permanentemente saturado ao redor das raízes finas.",
-        "Brita pequena: opção mineral inerte e durável para aumentar drenagem, estabilidade do vaso e reduzir a fração orgânica da mistura."
+        "Casca de pinus fina/média: componente estrutural principal para cultivo em vaso; oferece retenção moderada e boa porosidade. Deve ser substituída quando começar a fragmentar e reduzir os espaços de ar.",
+        "Casca de arroz carbonizada: componente leve, muito poroso e relativamente estável; ajuda a preservar macroporos e reduz o risco de compactação em torno das raízes finas.",
+        "Carvão vegetal pequeno: aumenta a aeração e mantém a mistura aberta por bastante tempo; faça lavagens periódicas com água limpa para reduzir o risco de acúmulo de sais.",
+        "Esfagno solto: usado em pequena proporção como reserva hídrica. Para esta espécie deve permanecer solto, nunca compactado ou permanentemente saturado.",
+        "Fibra de coco fina/chips pequenos: alternativa possível em misturas muito aeradas; deve ser bem lavada antes do uso e manejada com atenção à retenção de água e sais.",
+        "Brita pequena: alternativa mineral inerte para aumentar estabilidade e drenagem, mas não é necessária na mistura-base quando a estrutura já é garantida por CAC e carvão."
     ],
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Método preferencial: placa / tronco",
-        resumo: "Para a forma de cultivo mais recomendada, o ideal é não envolver as raízes em uma mistura convencional: elas ficam aderidas ao suporte, muito aeradas, recebendo molhamentos frequentes sem permanecer abafadas.",
-        justificativa: "A espécie tem hábito epífito reptante e raízes muito finas. O objetivo é combinar oxigenação constante com umidade frequente, evitando compactação. A madeira ou cortiça funciona como suporte, não como substrato. Em ambiente mais seco, uma quantidade mínima de esfagno solto pode funcionar apenas como reserva hídrica junto às raízes.",
-        receitaTexto: "Montagem principal: placa/tronco + raízes expostas + esfagno apenas como complemento opcional de umidade.",
-        semSubstrato: "Na montagem preferencial, a placa ou o tronco é o suporte. Mantenha as raízes expostas; acrescente somente uma fina camada de esfagno solto se a secagem estiver rápida demais.",
-        perfil: ["Raízes epífitas muito finas", "Fixação sobre suporte", "Aeração muito alta", "Molhamentos frequentes", "Sem compactação", "Rizoma exposto"],
-        itens: [],
-        alerta: "O maior risco não é a falta de uma mistura complexa, mas o desequilíbrio entre secagem e umidade: não deixe as raízes finas desidratarem por longos períodos e não as mantenha abafadas ou permanentemente saturadas."
+        contexto: "Receita para cultivo em vaso",
+        resumo: "Mesmo que placa/tronco seja a forma de cultivo preferencial, o Substrato ideal desta ficha sempre representa a melhor mistura sugerida quando a planta for cultivada em vaso.",
+        justificativa: "A. aveniformis é uma epífita de ambiente úmido e possui porte pequeno e raízes muito finas. Em vaso, a prioridade é preservar macroporos e oxigenação sem permitir desidratação prolongada. Por isso a mistura combina uma fração orgânica estrutural, materiais muito aeradores e apenas uma pequena reserva hídrica. A proporção abaixo é uma recomendação técnica de cultivo, não uma fórmula experimental publicada especificamente para A. aveniformis.",
+        receitaTexto: "Mistura-base sugerida para vaso pequeno, raso e muito perfurado: 40% casca de pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto.",
+        perfil: ["Raízes epífitas muito finas", "Aeração muito alta", "Umidade frequente", "Secagem relativamente rápida", "Baixa compactação", "Rizoma sempre exposto"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "40%", nota: "estrutura + retenção moderada", finalidade: "Forma a estrutura principal sem criar uma massa fina. À medida que envelhece e fragmenta, aumenta a retenção e reduz a aeração; esse é o principal sinal para antecipar o replante." },
+            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "25%", nota: "macroporos + leveza", finalidade: "Mantém espaços de ar entre os componentes e reduz a compactação. É especialmente útil para raízes finas que precisam permanecer úmidas sem ficar abafadas." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a conservar a mistura aberta e estruturalmente estável. Como pode participar da retenção de sais na zona radicular, a ficha mantém a recomendação de lavagem periódica com água limpa." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva hídrica controlada", finalidade: "Compensa a secagem rápida dos componentes muito aerados. A proporção é limitada porque esfagno compactado ou degradado pode manter água demais ao redor das raízes muito finas." }
+        ],
+        alerta: "Observe a estrutura, não apenas o calendário: replante quando o pinus estiver fragmentado, o esfagno compactado, a drenagem ficar visivelmente mais lenta ou a mistura permanecer úmida por muito mais tempo que quando nova. Não enterre o rizoma."
     },
     errosComuns: ["Tratar a espécie como obrigatoriamente de clima frio.", "Cobrir rizoma e base dos ramicaules com esfagno.", "Deixar as raízes secarem completamente por vários dias.", "Manter substrato permanentemente encharcado.", "Cultivar em ambiente quente e abafado, sem circulação de ar.", "Aplicar fertilizante concentrado em raízes muito finas.", "Expor ao sol direto forte."],
     revisaoCientificaIAR: {
