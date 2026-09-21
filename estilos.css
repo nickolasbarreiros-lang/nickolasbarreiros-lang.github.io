@@ -9612,43 +9612,64 @@ main.container{
 }
 
 
-/* V4.28 — Iluminação compacta: Sombrite e Sol direto lado a lado */
-.bloco-iluminacao-v2 .controles-iluminacao-v2,
-.bloco-iluminacao-v2 .opcoes-iluminacao-v2,
-#iluminacao .controles-iluminacao-v2,
-#iluminacao .opcoes-iluminacao-v2{
+/* V4.30 — Iluminação realmente horizontal.
+   O HTML usa .linha-indicadores-v3 / .indicador-rotulado-v3;
+   a V4.28 mirava classes que não existem neste renderer. */
+.card-iluminacao-v2 .linha-indicadores-v3{
     display:flex !important;
     flex-direction:row !important;
-    align-items:flex-end !important;
     flex-wrap:wrap !important;
-    gap:10px 14px !important;
-    width:auto !important;
+    align-items:center !important;
+    gap:8px !important;
+    margin:3px 0 6px !important;
 }
 
-.bloco-iluminacao-v2 .controle-iluminacao-v2,
-.bloco-iluminacao-v2 .opcao-iluminacao-v2,
-#iluminacao .controle-iluminacao-v2,
-#iluminacao .opcao-iluminacao-v2{
+.card-iluminacao-v2 .indicador-rotulado-v3{
+    display:inline-flex !important;
+    flex-direction:row !important;
+    align-items:center !important;
+    gap:5px !important;
     width:auto !important;
     min-width:0 !important;
-    flex:0 0 auto !important;
     margin:0 !important;
 }
 
-/* Evita que os rótulos criem uma coluna alta antes do texto explicativo */
-.bloco-iluminacao-v2 .controle-iluminacao-v2 > label,
-.bloco-iluminacao-v2 .opcao-iluminacao-v2 > label,
-#iluminacao .controle-iluminacao-v2 > label,
-#iluminacao .opcao-iluminacao-v2 > label{
-    margin-bottom:3px !important;
+.card-iluminacao-v2 .rotulo-indicador-v3{
+    display:inline !important;
+    padding:0 !important;
+    margin:0 !important;
+    white-space:nowrap !important;
+    font-size:11px !important;
+    line-height:1 !important;
 }
 
-/* Em telas estreitas, permite quebra natural sem apertar os chips */
+.card-iluminacao-v2 .indicador-rotulado-v3 .chip-info-v2{
+    width:auto !important;
+    min-height:27px !important;
+    margin:0 !important;
+    white-space:nowrap !important;
+}
+
+/* aproxima o texto explicativo dos controles */
+.card-iluminacao-v2 .observacao-card-v2{
+    margin-top:4px !important;
+}
+
+/* Mantém os dois controles juntos enquanto houver espaço.
+   No celular eles podem quebrar sem deformar os chips. */
 @media(max-width:620px){
-    .bloco-iluminacao-v2 .controles-iluminacao-v2,
-    .bloco-iluminacao-v2 .opcoes-iluminacao-v2,
-    #iluminacao .controles-iluminacao-v2,
-    #iluminacao .opcoes-iluminacao-v2{
-        align-items:flex-start !important;
+    .card-iluminacao-v2 .linha-indicadores-v3{
+        display:flex !important;
+        flex-direction:row !important;
+        flex-wrap:wrap !important;
+    }
+    .card-iluminacao-v2 .indicador-rotulado-v3{
+        display:inline-flex !important;
+        flex-direction:row !important;
+        width:auto !important;
+    }
+    .card-iluminacao-v2 .indicador-rotulado-v3 .chip-info-v2{
+        width:auto !important;
+        white-space:normal !important;
     }
 }
