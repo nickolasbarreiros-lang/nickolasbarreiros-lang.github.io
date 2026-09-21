@@ -9035,3 +9035,40 @@ main.container{
         border-top:1.5px solid #bfd1bb !important;
     }
 }
+
+/* V4.11 — badges das classificações proporcionais ao conteúdo */
+.linha-alternativa-forma-v48 .status-forma-v4{
+    display:inline-flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    width:max-content !important;
+    max-width:116px !important;
+    min-width:0 !important;
+    min-height:30px !important;
+    height:auto !important;
+    padding:6px 10px !important;
+    border-radius:999px !important;
+    box-sizing:border-box !important;
+    background:#edf3e9 !important;
+    text-align:center !important;
+    line-height:1.18 !important;
+    white-space:normal !important;
+    align-self:start !important;
+}
+/* a divisória pertence à coluna, sem transformar o badge em um grande oval */
+@media (min-width:821px){
+    .linha-alternativa-forma-v48 .status-forma-v4{
+        border-left:0 !important;
+        padding-left:10px !important;
+        position:relative;
+    }
+    .linha-alternativa-forma-v48 .status-forma-v4::before{
+        content:"";
+        position:absolute;
+        left:-15px;
+        top:-6px;
+        bottom:-6px;
+        width:1.5px;
+        background:#bfd1bb;
+    }
+}
