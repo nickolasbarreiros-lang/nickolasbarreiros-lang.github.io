@@ -40,9 +40,48 @@ export const dendrobiumPolysema = {
     "adubacao": "🌿 Orgânica: bokashi em dose mínima, sem contato direto com raízes.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose a cada 7–10 dias no crescimento.\n🌱 Enraizamento: priorize doses fracas e frequentes.\n🍂 Período frio: reduza, mas não suspenda se houver atividade.\n🧪 Liberação lenta: poucos grânulos apenas em cestos muito drenantes.\n🚿 Lavagem: faça flushing frequente para evitar salinização.",
     "rega": "Mantenha umidade regular durante todo o ano, sem deixar o substrato encharcado. Em clima quente, regue pela manhã e aumente a umidade ambiental sem manter água parada. No frio, reduza discretamente conforme a evaporação, sem impor seca total.",
     "suporte": "🥇 Cesto pequeno e ventilado — favorece raízes arejadas.\n🥈 Vaso de barro vazado — ajuda no resfriamento por evaporação.\n🥉 Placa com musgo — somente em ambientes muito úmidos.\nPrefira recipientes pequenos, claros e bem ventilados.",
-    "substrato": "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n🥉 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.",
-    "errosComuns": "Calor abafado; folhas superaquecidas; água parada; seca prolongada; excesso de sais; vaso grande; substrato compactado; adubo forte; remover hastes antigas firmes; pouca ventilação; sol direto.",
     "dica": "Controle a temperatura foliar, não apenas a temperatura do ar. Sombreamento adequado e ventilação contínua devem manter as folhas amenas. Se a folha estiver quente ao toque, a planta já está sob estresse. Preserve todas as hastes antigas firmes.",
+    formasCultivo: {
+        perfilVisual: "dendrobium",
+        destaque: "Cesto de madeira",
+        resumo: "As raízes precisam de umidade regular, mas também de circulação constante de ar e temperaturas moderadas; o recipiente deve favorecer ventilação e evitar aquecimento.",
+        metodos: [
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 5, status: "Ideal", texto: "Combina boa aeração com pequena reserva de umidade e permite acomodar o crescimento sem criar um núcleo encharcado." },
+            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 4, status: "Muito recomendado", texto: "Favorece evaporação e ajuda a manter a zona radicular mais fresca em ambientes quentes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Use apenas em local muito ventilado, com mistura aberta e controle rigoroso para não aquecer ou saturar as raízes." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Funciona em ambientes naturalmente úmidos e frescos; exige regas mais frequentes e é menos tolerante a períodos secos." }
+        ]
+    },
+    substrato: [
+        "Em cesto ou vaso ventilado: casca de pinus média + carvão vegetal + casca de macadâmia + pequena fração de esfagno.",
+        "Em ambiente muito úmido, reduza o esfagno para acelerar a secagem.",
+        "Em clima quente, prefira vaso de barro ou cesto e evite recipientes escuros expostos ao calor.",
+        "Não use mistura fina ou compactada."
+    ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cesto ou vaso ventilado",
+        resumo: "Mistura aberta, moderadamente úmida e com secagem uniforme.",
+        justificativa: "Dendrobium polysema vem de florestas montanas úmidas da Nova Guiné; a receita busca manter umidade regular sem retirar o oxigênio das raízes, condição especialmente importante em clima quente.",
+        receitaTexto: "Mistura-base sugerida: 45% casca de pinus média + 20% carvão vegetal + 20% casca de macadâmia + 15% esfagno solto.",
+        perfil: ["Umidade regular", "Boa ventilação", "Clima fresco a ameno", "Sem repouso seco severo", "Recipiente pequeno"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "45%", nota: "estrutura", finalidade: "Forma a base aerada sem compactar." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração", finalidade: "Mantém canais de ar e ajuda na secagem entre regas." },
+            { asset: "macadamia", nome: "Casca de macadâmia", proporcao: "20%", nota: "estrutura + drenagem", finalidade: "Acrescenta partículas firmes e irregulares, mantendo a mistura aberta." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "umidade moderada", finalidade: "Evita secagem completa rápida, importante para raízes acostumadas a ambiente úmido." }
+        ],
+        alerta: "A mistura deve permanecer arejada mesmo quando úmida. Reduza o esfagno se o ambiente já tiver alta umidade."
+    },
+    errosComuns: [
+        "Cultivar em local quente e abafado.",
+        "Deixar o substrato secar completamente por longos períodos.",
+        "Usar vaso grande ou pouco ventilado.",
+        "Manter o substrato constantemente saturado.",
+        "Expor ao sol direto forte.",
+        "Adubar em concentração alta.",
+        "Impor repouso seco total no inverno."
+    ],
     revisaoCientificaIAR: {
         "nome": "Dendrobium polysema",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",

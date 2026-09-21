@@ -35,9 +35,48 @@ export const sophronitisCernua = {
     adubacao: "🌿 Orgânica: Bokashi em dose mínima, preferencialmente em porta-adubo.\n💧 Foliar: NPK 20-20-20 em 1/8 a 1/4 da dose, a cada 7 a 15 dias durante o crescimento.\n🧪 Liberação lenta: pouquíssimos grânulos de Osmocote em porta-adubo fixado acima da touceira.",
     rega: "Regue abundantemente pela manhã e assegure que raízes e suporte sequem ao longo do dia. Em plantas montadas, as regas podem ser diárias no verão. Após a maturação dos brotos, reduza ligeiramente a frequência sem deixar os pequenos pseudobulbos desidratarem.",
     suporte: "🥇 Placa de madeira dura.\n🥈 Cortiça natural.\n🥉 Galho fino de casca rugosa ou pequeno cachepô muito vazado.",
-    substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.\n🥉 Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.\n⭐ Alternativa: Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.",
-    errosComuns: "Vaso plástico com substrato fino; excesso de esfagno; sombra; ambiente abafado; regas ao final da tarde; base da touceira permanentemente molhada; adubação concentrada.",
     dica: "Cultive montada em madeira ou cortiça e pendurada em ponto alto, claro e muito ventilado. Sua tolerância ao calor é boa, mas as raízes precisam secar rapidamente para permanecer saudáveis.",
+    formasCultivo: {
+        perfilVisual: "cattleya",
+        destaque: "Placa / tronco",
+        resumo: "Cattleya cernua é uma miniatura de alta luminosidade e raízes muito aeradas; suporta calor melhor que outras antigas Sophronitis, desde que seque rapidamente após a rega.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Combina muito bem com o porte miniatura e o hábito epífito, mantendo as raízes expostas ao ar e permitindo regas frequentes com secagem rápida." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa opção para touceiras estabelecidas, com alta ventilação e drenagem. Exige atenção à frequência de rega em períodos quentes e secos." },
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "A porosidade da terracota favorece evaporação e resfriamento das raízes. Use recipiente pequeno e mistura grossa, sem compactação." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Alternativa prática quando se deseja muita aeração. Como seca rapidamente, ajuste a rega para evitar desidratação prolongada das raízes finas." }
+        ]
+    },
+    substrato: [
+        "Montagem em madeira, cortiça ou pequeno tronco, geralmente sem material retentivo ou com mínima fibra apenas no estabelecimento.",
+        "Em vaso mínimo: casca de pinus grossa + carvão vegetal + brita pequena + casca de macadâmia.",
+        "Mantenha a base da touceira exposta e permita secagem rápida após cada rega.",
+        "Evite substratos finos e esfagno envolvendo as raízes."
+    ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em recipiente",
+        resumo: "Mistura muito aberta e de secagem rápida, coerente com uma miniatura que aprecia muita luz e ventilação.",
+        justificativa: "Cattleya cernua ocorre como epífita ou litófita e Kew a associa também a ambientes sazonalmente secos. Em vaso, o excesso de retenção é mais arriscado que uma mistura grossa bem irrigada.",
+        receitaTexto: "Mistura-base sugerida: 40% casca de pinus grossa + 30% carvão vegetal + 20% brita pequena + 10% casca de macadâmia.",
+        perfil: ["Raízes muito aeradas", "Secagem rápida", "Alta luminosidade", "Boa tolerância ao calor", "Vaso mínimo"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "40%", nota: "estrutura", finalidade: "Mantém raízes afastadas e bem oxigenadas." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "30%", nota: "aeração", finalidade: "Acelera a secagem e mantém a mistura aberta." },
+            { asset: "brita-pura", nome: "Brita pequena", proporcao: "20%", nota: "drenagem", finalidade: "Favorece escoamento rápido do excesso de água." },
+            { asset: "macadamia", nome: "Casca de macadâmia", proporcao: "10%", nota: "estrutura complementar", finalidade: "Aumenta a irregularidade da mistura sem adicionar muita retenção." }
+        ],
+        alerta: "Regue bem pela manhã, mas permita que raízes e suporte sequem ao longo do dia. Em montagem, a mistura pode ser dispensada."
+    },
+    errosComuns: [
+        "Usar vaso plástico fechado com substrato fino.",
+        "Excesso de esfagno.",
+        "Cultivar em sombra profunda.",
+        "Manter a base da touceira permanentemente molhada.",
+        "Ambiente quente sem circulação de ar.",
+        "Regar tarde da noite.",
+        "Aplicar adubo concentrado."
+    ],
     revisaoCientificaIAR: {
         "nome": "Cattleya cernua",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",

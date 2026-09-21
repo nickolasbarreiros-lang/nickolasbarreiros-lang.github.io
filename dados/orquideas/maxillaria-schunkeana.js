@@ -36,9 +36,48 @@ export const maxillariaSchunkeana = {
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade dentro de porta-adubo, na borda do vaso.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: usar poucos grânulos e somente em mistura muito drenante.\n🚿 Faça flushing mensal com água pura. Como as raízes são finas, adubação fraca e regular é mais segura que aplicações concentradas.",
     "rega": "Mantenha umidade regular durante o crescimento, deixando a camada superficial e parte do substrato arejarem entre as regas. No frio, aumente ligeiramente o intervalo conforme a evaporação, sem deixar a touceira seca por períodos longos. Pseudobulbos enrugados com substrato molhado e raízes escuras indicam perda radicular por falta de oxigênio. Regue de manhã e evite manter água acumulada na base durante a formação dos botões.",
     "suporte": "🥇 Vaso de barro pequeno e perfurado, que favorece evaporação e resfriamento.\n🥈 Microvaso plástico muito furado, apenas do tamanho da touceira.\n🥉 Placa de madeira ou cortiça com fina camada de esfagno, somente em ambiente com umidade acima de 65% e rotina de rega consistente.",
-    "substrato": "🥇 Casca de pinus média + casca de macadâmia triturada + pedra-pomes + fibra de coco grossa.\n🥈 Fibra de coco grossa + chips de coco + pedra-pomes + pinus médio, sem compactação.\n🥉 Chips de coco + pinus médio + perlita + carvão vegetal miúdo.\n⭐ Alternativa: Pinus médio + pedra-pomes + pequena fração de esfagno picado + casca de macadâmia.",
-    "errosComuns": "❌ Expor a sol forte ou deixar o vaso superaquecer.\n❌ Confundir sombra clara com escuridão total.\n❌ Usar vaso grande ou substrato muito retentor.\n❌ Enterrar rizoma, pseudobulbos ou botões basais.\n❌ Aplicar fertilizante concentrado sem lavagem mensal.\n❌ Acumular água e matéria orgânica na base durante a botonação.\n❌ Dividir touceiras pequenas, reduzindo a reserva e a capacidade de floração.\n❌ Replantar fora do início de novas raízes.",
     "dica": "Cultive sob 70% a 80% de sombreamento, mas com claridade difusa e ar em movimento. A base da touceira deve permanecer visível: flores e botões são muito escuros e podem passar despercebidos, apodrecendo sob bainhas deterioradas ou substrato acumulado. Retire apenas material solto, nunca arranque bainhas firmes à força. Use vaso pequeno, mistura arejada e rega matinal. A combinação de sombra protegida, raízes frescas, base limpa e ventilação constante é muito mais importante do que tentar estimular a florada com seca.",
+    formasCultivo: {
+        perfilVisual: "maxillaria",
+        destaque: "Vaso de barro perfurado",
+        resumo: "É uma Maxillaria pequena de floresta úmida e sombreada; o melhor cultivo combina umidade regular, raiz fresca, boa aeração e proteção total do sol forte.",
+        metodos: [
+            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 5, status: "Ideal", texto: "Ajuda a manter a zona radicular fresca e permite secagem uniforme sem deixar a pequena touceira desidratar rapidamente." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Funciona bem em locais de secagem mais rápida, desde que o vaso seja pequeno e a mistura permaneça aberta." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 3, status: "Adequado", texto: "É útil em ambientes muito úmidos, mas exige atenção porque pode secar rápido demais para esta espécie." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Pode funcionar com alta umidade ambiental e regas consistentes; em clima seco, a oscilação hídrica aumenta bastante." }
+        ]
+    },
+    substrato: [
+        "Em vaso pequeno: casca de pinus média/fina + carvão vegetal + casca de macadâmia + pequena fração de esfagno.",
+        "Mantenha umidade regular, mas permita circulação de ar e leve perda de umidade superficial entre regas.",
+        "Em local muito úmido, reduza a fração de esfagno.",
+        "Evite terra, fibras finas compactadas e vasos grandes."
+    ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em vaso",
+        resumo: "Mistura leve e aerada, com retenção moderada para uma espécie de floresta úmida do Espírito Santo.",
+        justificativa: "Kew reconhece Maxillaria schunkeana como epífita do bioma tropical úmido, e registros de cultivo a situam em torno de 600–700 m. A receita busca umidade regular sem transformar o vaso em um núcleo abafado.",
+        receitaTexto: "Mistura-base sugerida: 45% casca de pinus média/fina + 25% carvão vegetal + 20% casca de macadâmia + 10% esfagno solto.",
+        perfil: ["Raízes finas", "Umidade regular", "Sombra clara", "Boa ventilação", "Vaso pequeno"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média/fina", proporcao: "45%", nota: "estrutura", finalidade: "Mantém umidade moderada com boa porosidade." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "25%", nota: "aeração", finalidade: "Ajuda a manter a mistura aberta e evita saturação prolongada." },
+            { asset: "macadamia", nome: "Casca de macadâmia", proporcao: "20%", nota: "estrutura + drenagem", finalidade: "Cria espaços irregulares e melhora a circulação de ar." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva de umidade", finalidade: "Reduz a desidratação entre regas sem compactar as raízes." }
+        ],
+        alerta: "Evite aquecimento do vaso e excesso de retenção. A espécie prefere sombra clara, não escuridão."
+    },
+    errosComuns: [
+        "Expor ao sol direto forte.",
+        "Cultivar em sombra profunda sem claridade.",
+        "Usar vaso grande.",
+        "Manter o substrato permanentemente encharcado.",
+        "Deixar a touceira secar por muitos dias.",
+        "Usar mistura fina e compacta.",
+        "Manter ambiente quente e abafado."
+    ],
     revisaoCientificaIAR: {
         "nome": "Maxillaria schunkeana",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",

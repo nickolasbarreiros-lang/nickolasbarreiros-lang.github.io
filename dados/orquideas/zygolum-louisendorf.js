@@ -39,10 +39,49 @@ export const zygolumLouisendorf = {
     "floracao": "Mais frequente do fim do inverno à primavera, aproximadamente de julho a novembro. As hastes eretas surgem próximas a novos crescimentos e sustentam flores marcantes e perfumadas.",
     "adubacao": "🌿 Orgânica: bokashi em pequena dose nas bordas do vaso.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 10–15 dias no crescimento.\n🧪 Liberação lenta: Osmocote em dose baixa, com cautela em clima quente.\n🚿 Lavagem: faça flushing regular para impedir sais nas raízes.",
     "rega": "Regue quando a superfície começar a secar, sem esperar a secagem total do fundo do vaso. Mantenha umidade leve e constante, reduzindo apenas moderadamente no frio. Evite água acumulada no miolo das brotações novas.",
-    "suporte": "🥇 Vaso plástico claro, largo e estável — reduz aquecimento radicular.\n🥈 Vaso de barro cônico — bom resfriamento, exigindo retenção um pouco maior.\n🥉 Cachepô vazado — apenas em ambientes com umidade do ar elevada.",
-    "substrato": "🥇 Chips de coco médios + casca de pinus fina/média + perlita + pedra-pomes, mantendo umidade regular.\n🥈 Pinus médio + fibra de coco + pedra-pomes + casca de arroz carbonizada; evitar secagem extrema e compactação.\n🥉 Fibra de coco grossa + casca de arroz carbonizada + pinus médio + pedra-pomes.\n⭐ Alternativa: Casca de macadâmia média + chips de coco + perlita + pequena fração de esfagno picado.",
-    "errosComuns": "Secar totalmente; calor abafado; substrato compacto; água em brotos novos; dividir touceiras pequenas; adubo concentrado; vaso preto aquecido; baixa ventilação; excesso de sais.",
+    "suporte": "🥇 Vaso plástico proporcional, com bons furos de drenagem — conserva melhor a umidade do substrato.\n🥈 Vaso de barro convencional — a porosidade da terracota favorece evaporação e resfriamento das raízes, exigindo atenção maior à frequência de rega.",
     "dica": "Em clima quente, use vaso claro e substrato muito poroso. Regue antes que o meio seque por completo e mantenha ventilação contínua. O objetivo é raiz fresca e úmida, nunca abafada ou superaquecida.",
+    formasCultivo: {
+        perfilVisual: "zygopetalinae",
+        destaque: "Vaso plástico fechado",
+        resumo: "O Zygolum Louisendorf é melhor cultivado em recipientes que conciliem umidade moderada e boa aeração. As quatro opções abaixo variam principalmente na velocidade de secagem e no controle hídrico.",
+        metodos: [
+            { nome: "Vaso plástico fechado", asset: "vaso-plastico", estrelas: 5, status: "Ideal", texto: "É a opção mais equilibrada: as laterais fechadas conservam a umidade do substrato por mais tempo. Use vaso proporcional ao sistema radicular, com furos de drenagem apenas no fundo mantidos livres e substrato aerado." },
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "A terracota porosa aumenta a evaporação e ajuda a manter as raízes mais frescas. É especialmente útil em regiões quentes ou quando o substrato demora a secar, mas pode exigir regas mais frequentes." },
+            { nome: "Vaso plástico bem perfurado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Aumenta bastante a aeração e acelera a secagem. Funciona melhor em ambientes úmidos ou com mistura de maior retenção; em clima quente e seco exige atenção maior à frequência de rega." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 2, status: "Pouco recomendado", texto: "Pode ser usado com mistura que preserve mais umidade, porém seca mais rápido que os vasos. Exige controle de rega mais rigoroso e não é a primeira escolha para este híbrido." }
+        ]
+    },
+    substrato: [
+        "Em vaso proporcional: casca de pinus média + fibra de coco grossa + carvão vegetal + pequena fração de esfagno.",
+        "Mantenha o substrato levemente úmido durante crescimento ativo, sem saturação permanente.",
+        "Evite vasos muito quentes e intervalos longos que deixem as raízes completamente secas.",
+        "Replante quando a mistura estiver degradada, preferencialmente no início de novas raízes."
+    ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em vaso",
+        resumo: "Mistura aerada com retenção moderada, adequada a raízes carnosas que não gostam de extremos de seca nem encharcamento.",
+        justificativa: "Como híbrido de Zygopetalinae, Zygolum Louisendorf responde melhor a umidade relativamente constante combinada com ar nas raízes. A receita prioriza materiais comuns e fáceis de controlar no Brasil.",
+        receitaTexto: "Mistura-base sugerida: 45% casca de pinus média + 25% fibra de coco grossa + 20% carvão vegetal + 10% esfagno solto.",
+        perfil: ["Raízes carnosas", "Umidade regular", "Boa aeração", "Clima intermediário", "Evitar aquecimento do vaso"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "45%", nota: "estrutura", finalidade: "Mantém a mistura aberta e com retenção moderada." },
+            { asset: "fibra-coco", nome: "Fibra de coco grossa", proporcao: "25%", nota: "umidade + estrutura", finalidade: "Ajuda a sustentar umidade entre regas sem usar material fino compactado." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração", finalidade: "Cria espaços de ar e reduz a tendência de saturação." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva de umidade", finalidade: "Estabiliza a umidade em pequena quantidade, especialmente em clima quente." }
+        ],
+        alerta: "Não deixe a mistura secar totalmente por muitos dias, mas também não mantenha água parada no centro do vaso."
+    },
+    errosComuns: [
+        "Deixar as raízes secarem completamente por longos períodos.",
+        "Manter o substrato encharcado.",
+        "Usar vaso escuro aquecido pelo sol.",
+        "Cultivar em calor abafado.",
+        "Replantar fora do início de novas raízes.",
+        "Usar mistura fina e compacta.",
+        "Aplicar sais em excesso."
+    ],
     revisaoCientificaIAR: {
         "nome": "Zygolum Louisendorf",
         "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",

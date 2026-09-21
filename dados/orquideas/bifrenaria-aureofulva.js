@@ -35,7 +35,32 @@ export const bifrenariaAureofulva = {
     adubacao: "🌿 Orgânica: bokashi em pequena dose durante o crescimento ativo, sempre protegido em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotos e raízes ativas.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose reduzida e afastado das raízes novas. Após a maturação dos pseudobulbos, reduza gradualmente a frequência da adubação em vez de suspendê-la abruptamente.",
     rega: "Regue bem durante a brotação e formação dos pseudobulbos, permitindo que o substrato perca parte da umidade entre as irrigações. Após a maturação, reduza moderadamente a frequência, sobretudo no inverno. Não mantenha a planta totalmente seca por períodos prolongados e não permita enrugamento acentuado dos pseudobulbos.",
     suporte: "🥇 Vaso de barro pequeno a médio e bem drenado.\n🥈 Cachepô de madeira muito ventilado.\n🥉 Placa de madeira ou tronco em ambientes com alta umidade relativa e regas frequentes.",
+    formasCultivo: {
+        perfilVisual: "bifrenaria",
+        destaque: "Vaso de barro",
+        resumo: "Bifrenaria pequena, epífita e também registrada como saxícola; exige drenagem muito eficiente e raízes arejadas, especialmente durante períodos mais frescos.",
+        metodos: [
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 5, status: "Ideal", texto: "A porosidade ajuda a evitar excesso de umidade junto aos pseudobulbos e combina bem com a necessidade de secagem clara entre regas." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Funciona com recipiente raso e mistura muito drenante; por reter mais umidade, requer controle maior da frequência de rega." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Excelente drenagem e ventilação para raízes e base dos pseudobulbos, com secagem mais rápida." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "É possível por seu hábito epífito, porém exige regas mais frequentes e fixação firme para uma planta pseudobulbosa." },
+        ]
+    },
     substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em recipiente",
+        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
+        justificativa: "Cultivador brasileiro de B. aureofulva recomenda partes iguais de casca de pinus, carvão vegetal e pedra brita, destacando a importância crítica da drenagem para evitar apodrecimento de raízes e pseudobulbos.",
+        receitaTexto: "Mistura-base sugerida: ≈33% casca de pinus média + ≈33% carvão vegetal + ≈33% brita pequena/média.",
+        perfil: ["Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "\u224833%", nota: "estrutura + drenagem", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "\u224833%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
+            { asset: "brita-pura", nome: "Brita pequena/média", proporcao: "\u224833%", nota: "drenagem + secagem clara", finalidade: "Cria drenagem permanente e reduz retenção excessiva de água." },
+        ],
+        alerta: "Use vaso preferencialmente raso e nunca permita água acumulada na base dos pseudobulbos. Reduza a rega no frio, mas não imponha seca prolongada."
+    },
     errosComuns: "Tratar a espécie como planta de repouso totalmente seco; cultivar em sombra profunda; expor a sol forte; usar vasos muito grandes; manter substrato compacto ou degradado; reduzir a água antes do pseudobulbo amadurecer; replantar sem raízes novas iniciando; aplicar fertilizante concentrado em raízes sensíveis.",
     dica: "Trate-a como uma verdadeira orquídea do sol. Ela exige alta luminosidade (claridade intensa, mas sem sol direto) e vasos bem apertados com drenagem perfeita. O grande segredo para conseguir hastes repletas de flores laranjas é mantê-la com raízes restritas, boa ventilação e regas fartas apenas no período de crescimento ativo.",
     revisaoCientificaIAR: {
