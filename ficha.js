@@ -447,73 +447,52 @@ function criarImagemAssetCultivoV4(id, nomeFallback = "Item de cultivo", classe 
 }
 
 function criarFormasCultivoV4(config) {
-    if (!config || !Array.isArray(config.metodos) || !config.metodos.length) {
-        return "";
-    }
+    if (!config || !Array.isArray(config.metodos) || !config.metodos.length) return "";
 
     const estrelas = (nota = 0) => {
         const n = Math.max(0, Math.min(5, Number(nota) || 0));
         return `<span class="estrelas-forma-v4" aria-label="${n} de 5 estrelas">${"★".repeat(n)}${"☆".repeat(5 - n)}</span>`;
     };
 
+    const principal = config.metodos.find((m) => m.nome === config.destaque) || config.metodos[0];
+    const alternativas = config.metodos.filter((m) => m !== principal);
+
     return `
-        <section class="formas-cultivo-v4" aria-labelledby="titulo-formas-cultivo-v4">
+        <section class="formas-cultivo-v4 formas-cultivo-foco-v41" aria-labelledby="titulo-formas-cultivo-v4">
             <div class="cabecalho-formas-v4">
                 <div>
-                    <h4 id="titulo-formas-cultivo-v4">🌿 Formas de cultivo recomendadas</h4>
+                    <h4 id="titulo-formas-cultivo-v4">🌿 Forma de cultivo mais recomendada</h4>
                     <p>${obterTexto(config.resumo)}</p>
                 </div>
-                ${config.destaque ? `
-                    <div class="melhor-forma-v4">
-                        <span>🏆 Melhor escolha</span>
-                        <strong>${config.destaque}</strong>
-                    </div>
-                ` : ""}
+                <div class="melhor-forma-v4"><span>🏆 Melhor escolha</span><strong>${principal.nome}</strong></div>
             </div>
-
-            <div class="grade-formas-v4">
-                ${config.metodos.map((metodo, indice) => `
-                    <article class="forma-cultivo-v4 ${indice === 0 ? "forma-principal-v4" : ""}">
-                        ${criarImagemAssetCultivoV4(metodo.asset, metodo.nome, "imagem-forma-v4", config.perfilVisual || "")}
-                        <div class="corpo-forma-v4">
-                            <div class="topo-forma-v4">
-                                <h5>${metodo.nome}</h5>
-                                <span class="status-forma-v4">${metodo.status || ""}</span>
-                            </div>
-                            ${estrelas(metodo.estrelas)}
-                            <p>${metodo.texto || ""}</p>
-                        </div>
-                    </article>
-                `).join("")}
-            </div>
-
-            ${Array.isArray(config.montagem) && config.montagem.length ? `
-                <div class="montagem-v4">
-                    <div class="titulo-montagem-v4">
-                        <span>🛠️</span>
-                        <div><small>QUANDO USAR O MÉTODO PREFERENCIAL</small><strong>Montagem prática</strong></div>
+            <div class="layout-formas-foco-v41">
+                <article class="forma-cultivo-v4 forma-principal-v4">
+                    ${criarImagemAssetCultivoV4(principal.asset, principal.nome, "imagem-forma-v4", config.perfilVisual || "")}
+                    <div class="corpo-forma-v4">
+                        <div class="topo-forma-v4"><h5>${principal.nome}</h5><span class="status-forma-v4">${principal.status || ""}</span></div>
+                        ${estrelas(principal.estrelas)}
+                        <p>${principal.texto || ""}</p>
                     </div>
-                    <ol>
-                        ${config.montagem.map((passo) => `<li>${passo}</li>`).join("")}
-                    </ol>
-                </div>
-            ` : ""}
-
-            ${config.alerta ? `<div class="alerta-formas-v4"><strong>⚠️ Atenção</strong><span>${config.alerta}</span></div>` : ""}
-        </section>
-    `;
+                </article>
+                ${alternativas.length ? `<aside class="alternativas-forma-v41"><h5>Outras formas de cultivo</h5><div class="lista-alternativas-forma-v41">${alternativas.map((metodo) => `
+                    <article class="alternativa-forma-v41">
+                        <div><strong>${metodo.nome}</strong><span class="status-forma-v4">${metodo.status || ""}</span></div>
+                        ${estrelas(metodo.estrelas)}
+                        <p>${metodo.texto || ""}</p>
+                    </article>`).join("")}</div></aside>` : ""}
+            </div>
+        </section>`;
 }
 
 function criarSubstratoVisualV4(config, recomendados = []) {
-    if (!config || !Array.isArray(config.itens) || !config.itens.length) {
+    if (!config) {
         return "";
     }
 
-    const itensValidos = config.itens
+    const itensValidos = Array.isArray(config.itens) ? config.itens
         .map((item) => ({ ...item, assetInfo: obterAssetCultivoV4(item.asset) }))
-        .filter((item) => item.assetInfo?.imagem);
-
-    if (!itensValidos.length) return "";
+        .filter((item) => item.assetInfo?.imagem) : [];
 
     return `
         <section class="substrato-visual-v4" aria-labelledby="titulo-substrato-visual-v4">
@@ -528,7 +507,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                 ${config.contexto ? `<span class="contexto-substrato-v4">${config.contexto}</span>` : ""}
             </div>
 
-            <div class="receita-substrato-v4">
+            ${config.semSubstrato ? `<div class="sem-substrato-v41"><strong>0% substrato convencional</strong><span>${config.semSubstrato}</span></div>` : `<div class="receita-substrato-v4">
                 ${itensValidos.map((item, indice) => `
                     ${indice > 0 ? `<span class="sinal-mais-substrato-v4" aria-hidden="true">+</span>` : ""}
                     <article class="ingrediente-substrato-v4">
@@ -538,7 +517,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                         ${item.nota ? `<small>${item.nota}</small>` : ""}
                     </article>
                 `).join("")}
-            </div>
+            </div>`}
 
             ${config.receitaTexto ? `<div class="receita-texto-substrato-v4"><strong>🌱 ${config.receitaTexto}</strong></div>` : ""}
 
