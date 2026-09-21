@@ -39,8 +39,39 @@ export const pleurothallisModestissima = {
     "floracao": "A fenologia pode variar e é pouco documentada nas fontes horticulturais confiáveis disponíveis. Em cultivo, observe principalmente a maturação dos novos crescimentos e evite fixar uma janela rígida. O calendário do site pode manter primavera/verão como referência prática até haver registro próprio mais consistente da planta da coleção.",
     "adubacao": "🌿 Orgânica: bokashi apenas em microdose e afastado das raízes.\n💧 Mineral/Foliar: fertilizante equilibrado em cerca de 1/4 da dose a cada 15 dias durante crescimento ativo.\n🌱 Fase ativa: priorize regularidade em baixa concentração.\n🚿 Lavagem: água pura periodicamente para evitar acúmulo de sais em raízes finas.\n🧪 Liberação lenta: geralmente dispensável em recipientes muito pequenos.",
     "rega": "Regue bem e deixe o suporte perder parte da umidade antes da próxima rega. Não deixe a planta desidratar por longos períodos, mas evite esfagno permanentemente saturado. No calor, aumente a frequência sem sacrificar aeração; na fase menos ativa, aumente discretamente o intervalo.",
-    "suporte": "🥇 Placa de cortiça ou madeira com fina camada de esfagno — excelente drenagem e observação das raízes.\n🥈 Vaso pequeno de barro muito furado.\n🥉 Vaso plástico pequeno com mistura extremamente aerada.\nEvite recipientes grandes e fundos.",
-    "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.\n🥉 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.\n⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
+     "suporte": "Vaso plástico baixo e largo, com drenagem abundante, é a opção prática preferencial. O crescimento rasteiro precisa de espaço lateral e pouca profundidade de substrato.",
+    "substrato": "Casca de pinus fina + brita pequena + carvão vegetal pequeno + esfagno solto. Outras misturas recomendadas: pinus + casca de arroz carbonizada + carvão; brita + pinus + esfagno; chips de coco + brita + carvão.",
+    "formasCultivo": {
+        "perfilVisual": "micro-pleurothalidina",
+        "destaque": "Vaso plástico baixo",
+        "resumo": "O crescimento rasteiro favorece vaso plástico baixo e relativamente largo, com excelente drenagem, permitindo expansão horizontal sem uma coluna profunda de substrato úmido.",
+        "metodos": [
+            { "nome": "Vaso plástico baixo", "asset": "acianthera-modestissima-vaso", "estrelas": 5, "status": "Ideal", "texto": "É a opção mais prática para acompanhar o crescimento rasteiro. Use recipiente baixo, relativamente largo e com drenagem abundante, mantendo rizoma e brotações na superfície." },
+            { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 4, "status": "Muito recomendado", "texto": "Oferece aeração adicional e funciona bem no litoral quente, desde que seja baixo e a mistura não seque rápido demais." },
+            { "nome": "Vaso de barro", "asset": "vaso-barro", "estrelas": 3, "status": "Adequado", "texto": "Pode funcionar com mistura aberta, mas acelera a secagem e exige maior controle das regas no litoral quente." },
+            { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": 3, "status": "Adequado", "texto": "É possível, mas exige regas mais frequentes e oferece menos espaço horizontal controlado que um vaso baixo." }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Para vaso plástico baixo",
+        "resumo": "Mistura rasa, muito drenante e mineralizada, com pequena reserva de umidade e bastante ar entre as partículas.",
+        "justificativa": "A espécie ocorre como saxícola em afloramentos quartzíticos e também possui registros epífitos. O vaso plástico baixo acompanha seu crescimento rasteiro sem criar uma coluna profunda de substrato úmido. A mistura combina estrutura orgânica, fração mineral e pequena reserva hídrica, priorizando drenagem e estabilidade no litoral quente.",
+        "perfil": ["Raízes finas", "Alta drenagem", "Umidade moderada", "Secagem rápida", "Baixa compactação", "Crescimento rasteiro"],
+        "comportamento": [
+            { "nome": "Retenção", "valor": 2, "icone": "💧" },
+            { "nome": "Aeração", "valor": 5, "icone": "💨" },
+            { "nome": "Secagem", "valor": 4, "icone": "⚡" },
+            { "nome": "Compactação", "valor": 1, "icone": "🧱" }
+        ],
+        "itens": [
+            { "asset": "casca-pinus", "nome": "Casca de pinus fina", "proporcao": "35%", "nota": "estrutura + retenção moderada", "finalidade": "Forma uma base orgânica leve sem compactação excessiva." },
+            { "asset": "brita", "nome": "Brita pequena", "proporcao": "30%", "nota": "drenagem + estabilidade", "finalidade": "Aumenta macroporos e aproxima a mistura do comportamento de um suporte mineral." },
+            { "asset": "carvao-vegetal", "nome": "Carvão vegetal pequeno", "proporcao": "20%", "nota": "aeração + durabilidade", "finalidade": "Mantém porosidade e estabilidade física por mais tempo." },
+            { "asset": "esfagno", "nome": "Esfagno solto", "proporcao": "15%", "nota": "reserva hídrica localizada", "finalidade": "Evita secagem abrupta das raízes finas sem manter o vaso encharcado." }
+        ],
+        "alerta": "Use camada rasa de substrato e mantenha o rizoma sobre a superfície. O vaso deve permitir expansão lateral; evite recipientes fundos."
+    },
     "errosComuns": "Tratá-la como espécie obrigatoriamente fria; manter esfagno sempre encharcado; secar completamente por vários dias; vaso grande; pouco ar; excesso de adubo; sol forte sobre o suporte; replantar com frequência; usar água muito salina.",
     "dica": "Simule o clima seco da natureza: regue sem encharcar e priorize a ventilação e raízes arejadas, que são tão essenciais quanto a água para esta micro-orquídea.",
     revisaoCientificaIAR: {
