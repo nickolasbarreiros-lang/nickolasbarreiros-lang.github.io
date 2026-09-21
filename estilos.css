@@ -9573,3 +9573,40 @@ main.container{
         width:100% !important;
     }
 }
+
+
+/* V4.25 — Avaliação em 2 colunas × 3 linhas.
+   A proporção vertical acompanha melhor o calendário de floração ao lado. */
+#avaliacao-especie .lista-avaliacoes-v2{
+    grid-template-columns:repeat(2, minmax(0, 1fr)) !important;
+    grid-auto-rows:minmax(82px, 1fr) !important;
+    gap:10px !important;
+}
+
+#avaliacao-especie .avaliacao-v2{
+    min-height:82px !important;
+    padding:12px 14px !important;
+    justify-content:center !important;
+}
+
+/* Em desktop, permite que o painel aproveite a altura disponível da linha
+   sem criar um vazio grande abaixo dos cards. */
+@media (min-width:901px){
+    #avaliacao-especie .avaliacoes-v2{
+        align-self:stretch !important;
+        display:flex !important;
+        flex-direction:column !important;
+    }
+    #avaliacao-especie .lista-avaliacoes-v2{
+        flex:1 1 auto !important;
+        align-content:stretch !important;
+    }
+}
+
+/* Celular: leitura em uma única coluna. */
+@media (max-width:560px){
+    #avaliacao-especie .lista-avaliacoes-v2{
+        grid-template-columns:1fr !important;
+        grid-auto-rows:auto !important;
+    }
+}
