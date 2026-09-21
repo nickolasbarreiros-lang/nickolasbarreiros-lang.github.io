@@ -483,10 +483,14 @@ function criarFormasCultivoV4(config) {
                         <div class="icone-alternativa-forma-v41" aria-hidden="true"><span>${icone}</span></div>
                         <div class="conteudo-alternativa-forma-v41">
                             <div class="linha-alternativa-forma-v48">
-                                <strong class="nome-alternativa-forma-v48">${metodo.nome}</strong>
-                                <span class="status-forma-v4">${metodo.status || ""}</span>
-                                <span class="estrelas-alternativa-forma-v48">${estrelas(metodo.estrelas)}</span>
-                                <p>${metodo.texto || ""}</p>
+                                <div class="resumo-alternativa-forma-v413">
+                                    <strong class="nome-alternativa-forma-v48">${metodo.nome}</strong>
+                                    <div class="avaliacao-alternativa-forma-v413">
+                                        <span class="status-forma-v4">${metodo.status || ""}</span>
+                                        <span class="estrelas-alternativa-forma-v48">${estrelas(metodo.estrelas)}</span>
+                                    </div>
+                                </div>
+                                <p class="comentario-alternativa-forma-v413">${metodo.texto || ""}</p>
                             </div>
                         </div>
                     </article>`;

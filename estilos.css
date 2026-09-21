@@ -9138,3 +9138,125 @@ main.container{
     .estrelas-alternativa-forma-v48{grid-column:2 !important;grid-row:2 !important;justify-self:center !important;}
     .linha-alternativa-forma-v48 p{grid-column:1 / -1 !important;grid-row:3 !important;min-width:0 !important;overflow-wrap:anywhere !important;}
 }
+
+/* V4.13 — alternativas em duas colunas reais: resumo | comentário */
+@media (min-width:821px){
+    .alternativa-forma-v41{
+        grid-template-columns:52px minmax(0,1fr) !important;
+        align-items:stretch !important;
+        overflow:hidden !important;
+    }
+    .conteudo-alternativa-forma-v41{
+        min-width:0 !important;
+        width:100% !important;
+        overflow:hidden !important;
+    }
+    .linha-alternativa-forma-v48{
+        display:grid !important;
+        grid-template-columns:minmax(250px, .95fr) minmax(0, 1.35fr) !important;
+        grid-template-rows:auto !important;
+        gap:0 !important;
+        align-items:stretch !important;
+        width:100% !important;
+        min-width:0 !important;
+        height:100% !important;
+        box-sizing:border-box !important;
+    }
+    .resumo-alternativa-forma-v413{
+        grid-column:1 !important;
+        display:grid !important;
+        grid-template-columns:minmax(105px,1fr) minmax(132px,auto) !important;
+        gap:12px !important;
+        align-items:center !important;
+        min-width:0 !important;
+        padding:2px 16px 2px 0 !important;
+        box-sizing:border-box !important;
+    }
+    .nome-alternativa-forma-v48{
+        grid-column:1 !important;
+        min-width:0 !important;
+        overflow-wrap:break-word !important;
+    }
+    .avaliacao-alternativa-forma-v413{
+        grid-column:2 !important;
+        display:flex !important;
+        flex-direction:column !important;
+        align-items:center !important;
+        justify-content:center !important;
+        gap:7px !important;
+        min-width:132px !important;
+    }
+    .linha-alternativa-forma-v48 .status-forma-v4{
+        position:static !important;
+        grid-column:auto !important;
+        grid-row:auto !important;
+        justify-self:auto !important;
+        align-self:auto !important;
+        margin:0 !important;
+        max-width:132px !important;
+    }
+    .linha-alternativa-forma-v48 .status-forma-v4::before{
+        content:none !important;
+        display:none !important;
+    }
+    .estrelas-alternativa-forma-v48{
+        position:static !important;
+        grid-column:auto !important;
+        grid-row:auto !important;
+        justify-self:auto !important;
+        align-self:auto !important;
+        border:0 !important;
+        padding:0 !important;
+        margin:0 !important;
+        white-space:nowrap !important;
+    }
+    .linha-alternativa-forma-v48 p.comentario-alternativa-forma-v413{
+        grid-column:2 !important;
+        grid-row:1 !important;
+        display:block !important;
+        min-width:0 !important;
+        width:auto !important;
+        max-width:none !important;
+        margin:0 !important;
+        padding:2px 10px 2px 16px !important;
+        border-left:1.5px solid #bfd1bb !important;
+        box-sizing:border-box !important;
+        overflow:hidden !important;
+        overflow-wrap:break-word !important;
+        word-break:normal !important;
+        hyphens:auto !important;
+    }
+}
+
+@media (max-width:820px){
+    .linha-alternativa-forma-v48{
+        display:block !important;
+        min-width:0 !important;
+    }
+    .resumo-alternativa-forma-v413{
+        display:flex !important;
+        align-items:flex-start !important;
+        justify-content:space-between !important;
+        gap:12px !important;
+        min-width:0 !important;
+    }
+    .avaliacao-alternativa-forma-v413{
+        display:flex !important;
+        flex-direction:column !important;
+        align-items:center !important;
+        gap:5px !important;
+        flex:0 0 auto !important;
+    }
+    .linha-alternativa-forma-v48 .status-forma-v4::before{display:none !important;content:none !important;}
+    .linha-alternativa-forma-v48 p.comentario-alternativa-forma-v413{
+        display:block !important;
+        width:100% !important;
+        min-width:0 !important;
+        margin-top:10px !important;
+        padding:10px 0 0 !important;
+        border-left:0 !important;
+        border-top:1.5px solid #bfd1bb !important;
+        box-sizing:border-box !important;
+        overflow-wrap:break-word !important;
+    }
+}
