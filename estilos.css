@@ -9504,3 +9504,13 @@ main.container{
     font-size:12px !important;
     padding-inline:7px !important;
 }
+
+
+/* V4.21 — ícone próprio para vaso plástico vasado */
+.icone-alternativa-forma-v41 .icone-img-cultivo-v421{
+    display:block !important;
+    width:48px !important;
+    height:48px !important;
+    object-fit:contain !important;
+    margin:auto !important;
+}

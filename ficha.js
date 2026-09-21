@@ -499,7 +499,13 @@ function criarFormasCultivoV4(config, perfilRadicular = []) {
                 </article>
                 ${alternativas.length ? `<aside class="alternativas-forma-v41"><h5>Outras formas de cultivo</h5><div class="lista-alternativas-forma-v41">${alternativas.map((metodo) => {
                     const nome = (metodo.nome || "").toLowerCase();
-                    const icone = nome.includes("árvore") || nome.includes("arvore") ? "🌳" : nome.includes("cesto") ? "🧺" : nome.includes("barro") ? "🏺" : nome.includes("vaso") ? "🪴" : nome.includes("placa") || nome.includes("tronco") ? "🪵" : "🌿";
+                    const icone = nome.includes("vaso") && (nome.includes("vasado") || nome.includes("perfurado"))
+                        ? `<img class="icone-img-cultivo-v421" src="imagens/ui/vaso-plastico-vasado.webp" alt="">`
+                        : nome.includes("árvore") || nome.includes("arvore") ? "🌳"
+                        : nome.includes("cesto") ? "🧺"
+                        : nome.includes("barro") ? "🏺"
+                        : nome.includes("vaso") ? "🪴"
+                        : nome.includes("placa") || nome.includes("tronco") ? "🪵" : "🌿";
                     return `
                     <article class="alternativa-forma-v41">
                         <div class="icone-alternativa-forma-v41" aria-hidden="true"><span>${icone}</span></div>
@@ -555,7 +561,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                 `).join("")}
             </div>`}
 
-            ${config.receitaTexto ? `<div class="receita-texto-substrato-v4"><strong>🌱 ${config.receitaTexto}</strong></div>` : ""}
+            
 
             ${itensValidos.some((item) => item.finalidade) ? `
                 <div class="finalidade-substrato-v4">
