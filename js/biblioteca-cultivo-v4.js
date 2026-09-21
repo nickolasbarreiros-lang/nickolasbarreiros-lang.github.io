@@ -1,7 +1,7 @@
 export const bibliotecaCultivoV4 = {
-    "acianthera-bragae-placa": {
-        nome: "Placa / tronco — Acianthera bragae",
-        imagem: "imagens/cultivo-v4/especies/acianthera-bragae/placa-tronco.webp"
+    "acianthera-glumacea-placa": {
+        nome: "Placa / tronco — Acianthera glumacea",
+        imagem: "imagens/cultivo-v4/especies/acianthera-glumacea/placa-tronco.webp"
     },
     "acianthera-aveniformis-placa": {
         nome: "Placa / tronco — Acianthera aveniformis",

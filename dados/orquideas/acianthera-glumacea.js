@@ -46,21 +46,31 @@ export const aciantheraGlumacea = {
             { nome: "Árvore viva", asset: "arvore-viva", estrelas: 3, status: "Adequado", texto: "Pode funcionar em jardim sombreado, úmido e bem ventilado, desde que a casca permita boa fixação e a planta receba regas regulares durante o estabelecimento." },
         ]
     },
-    substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "🥉 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "⭐ Alternativa: Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto."],
+    substrato: [
+        "Casca de pinus média + carvão vegetal pequeno + esfagno solto",
+        "Casca de pinus média + casca de arroz carbonizada + carvão vegetal pequeno",
+        "Chips de coco médios + carvão vegetal pequeno + casca de arroz carbonizada",
+        "Casca de pinus média + perlita + esfagno solto"
+    ],
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Para cultivo em recipiente",
-        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
-        justificativa: "Por ser epífita ou rupícola de Mata Atlântica e formar touceiras densas, a mistura precisa permanecer aberta por bastante tempo. Pinus, carvão e brita garantem estrutura e drenagem; o esfagno entra apenas como pequena reserva de água.",
-        receitaTexto: "Mistura-base sugerida: 45% casca de pinus fina/média + 20% carvão vegetal + 20% brita pequena + 15% esfagno solto.",
-        perfil: ["Umidade moderada, sem saturação", "Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
-        itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "45%", nota: "estrutura + drenagem", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
-            { asset: "brita-pura", nome: "Brita pequena", proporcao: "20%", nota: "drenagem permanente", finalidade: "Cria drenagem permanente e reduz retenção excessiva de água." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva moderada de umidade", finalidade: "Acrescenta uma reserva controlada de umidade sem dominar a mistura." },
+        contexto: "Para cultivo em vaso",
+        resumo: "Mistura aberta e estável, com boa aeração e uma reserva hídrica moderada para acompanhar o hábito epífito de ambientes florestais úmidos.",
+        justificativa: "Acianthera glumacea é principalmente epífita, embora também possa ocorrer como rupícola. Há registros em diferentes formações florestais da Mata Atlântica e sobre casca rugosa com musgo. Para cultivo em vaso, isso favorece uma mistura estruturalmente aberta, que permita bastante oxigênio nas raízes, mas que retenha um pouco mais de umidade do que uma composição extremamente seca. A receita abaixo é uma recomendação prática derivada dessa ecologia e do comportamento esperado das raízes, não uma fórmula experimental publicada.",
+        perfil: ["Raízes finas", "Boa aeração", "Umidade moderada", "Secagem moderada", "Baixa compactação", "Rizoma livre"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
-        alerta: "Evite vaso grande, substrato fino e centro da touceira constantemente molhado. Em litoral quente, ventilação é tão importante quanto a rega."
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "45%", nota: "estrutura + retenção moderada", finalidade: "Mantém a mistura aberta e cria uma base semelhante a uma superfície lenhosa, sem compactar rapidamente." },
+            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "20%", nota: "macroporos + leveza", finalidade: "Amplia os espaços de ar e ajuda a manter a mistura leve." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Favorece porosidade e estabilidade física da mistura." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva hídrica moderada", finalidade: "Mantém umidade entre regas sem transformar a mistura em um meio permanentemente encharcado." }
+        ],
+        alerta: "Mantenha o rizoma sobre a superfície. Em litoral quente e muito úmido, use vaso pequeno e bem ventilado e reduza o esfagno se a secagem estiver lenta."
     },
     errosComuns: ["Remover ramicaules antigos ainda verdes que podem reflorir.", "Encharcar o centro de touceiras densas.", "Cultivar em calor noturno abafado.", "Usar substrato decomposto ou compactado.", "Usar vaso excessivamente grande.", "Manter sombra profunda.", "Confundir a preferência por umidade com necessidade de substrato permanentemente saturado."],
     revisaoCientificaIAR: {
