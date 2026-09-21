@@ -9394,41 +9394,77 @@ main.container{
 }
 
 
-/* V4.15 — ícones das alternativas: maiores e realmente centralizados */
-.forma-alternativa-v4 .icone-forma-alternativa,
-.forma-alternativa-v4 .forma-alternativa-icone,
-.forma-alternativa-v4 .cultivo-alternativa-icone,
-.outras-formas-v4 .icone-metodo-v4 {
-    width: 58px !important;
-    height: 58px !important;
-    min-width: 58px !important;
-    min-height: 58px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    align-self: center !important;
-    font-size: 29px !important;
-    line-height: 1 !important;
-    margin-block: auto !important;
+/* V4.17 — perfil radicular ocupa o espaço livre do card principal */
+.perfil-cultivo-principal-v417{
+    margin-top:18px;
+    padding-top:14px;
+    border-top:1px solid #b7cfad;
+}
+.perfil-cultivo-principal-v417 > strong{
+    display:block;
+    margin-bottom:9px;
+    font-size:14px;
+    line-height:1.25;
+    color:#174f2b;
+}
+.chips-perfil-cultivo-principal-v417{
+    display:flex;
+    flex-wrap:wrap;
+    gap:7px;
+}
+.chips-perfil-cultivo-principal-v417 span{
+    display:inline-flex;
+    align-items:center;
+    min-height:30px;
+    padding:5px 10px;
+    border:1px solid #cbdcc4;
+    border-radius:999px;
+    background:#fff;
+    color:#244d2e;
+    font-size:13px;
+    line-height:1.2;
+    font-weight:600;
 }
 
-/* A foto principal enviada pelo usuário deve aparecer inteira no card. */
-.forma-cultivo-principal-v4 .imagem-forma-v4,
-.cultivo-principal-v4 .imagem-forma-v4,
-.forma-principal-v4 .imagem-forma-v4 {
-    object-fit: cover;
-    object-position: center center;
+/* V4.17 — ícones das alternativas: caixa e emoji maiores + centralização real */
+.lista-alternativas-forma-v41 .alternativa-forma-v41{
+    align-items:stretch !important;
+}
+.lista-alternativas-forma-v41 .icone-alternativa-forma-v41{
+    width:64px !important;
+    height:64px !important;
+    min-width:64px !important;
+    min-height:64px !important;
+    margin:auto 0 !important;
+    align-self:center !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    border-radius:15px !important;
+}
+.lista-alternativas-forma-v41 .icone-alternativa-forma-v41 span{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    width:100% !important;
+    height:100% !important;
+    font-size:34px !important;
+    line-height:1 !important;
+    transform:none !important;
+}
+.lista-alternativas-forma-v41 .conteudo-alternativa-forma-v41{
+    align-self:center !important;
 }
 
-@media (max-width: 720px) {
-    .forma-alternativa-v4 .icone-forma-alternativa,
-    .forma-alternativa-v4 .forma-alternativa-icone,
-    .forma-alternativa-v4 .cultivo-alternativa-icone,
-    .outras-formas-v4 .icone-metodo-v4 {
-        width: 50px !important;
-        height: 50px !important;
-        min-width: 50px !important;
-        min-height: 50px !important;
-        font-size: 25px !important;
+@media (max-width:720px){
+    .lista-alternativas-forma-v41 .icone-alternativa-forma-v41{
+        width:54px !important;
+        height:54px !important;
+        min-width:54px !important;
+        min-height:54px !important;
     }
+    .lista-alternativas-forma-v41 .icone-alternativa-forma-v41 span{
+        font-size:29px !important;
+    }
+    .perfil-cultivo-principal-v417{margin-top:14px;padding-top:12px;}
 }

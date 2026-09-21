@@ -446,7 +446,7 @@ function criarImagemAssetCultivoV4(id, nomeFallback = "Item de cultivo", classe 
     `;
 }
 
-function criarFormasCultivoV4(config) {
+function criarFormasCultivoV4(config, perfilRadicular = []) {
     if (!config || !Array.isArray(config.metodos) || !config.metodos.length) return "";
 
     const estrelas = (nota = 0) => {
@@ -473,6 +473,14 @@ function criarFormasCultivoV4(config) {
                         <div class="topo-forma-v4"><h5>${principal.nome}</h5><span class="status-forma-v4">${principal.status || ""}</span></div>
                         ${estrelas(principal.estrelas)}
                         <p>${principal.texto || ""}</p>
+                        ${Array.isArray(perfilRadicular) && perfilRadicular.length ? `
+                            <div class="perfil-cultivo-principal-v417">
+                                <strong>Perfil radicular e hídrico</strong>
+                                <div class="chips-perfil-cultivo-principal-v417">
+                                    ${perfilRadicular.map((item) => `<span>${item}</span>`).join("")}
+                                </div>
+                            </div>
+                        ` : ""}
                     </div>
                 </article>
                 ${alternativas.length ? `<aside class="alternativas-forma-v41"><h5>Outras formas de cultivo</h5><div class="lista-alternativas-forma-v41">${alternativas.map((metodo) => {
@@ -534,13 +542,6 @@ function criarSubstratoVisualV4(config, recomendados = []) {
             </div>`}
 
             ${config.receitaTexto ? `<div class="receita-texto-substrato-v4"><strong>🌱 ${config.receitaTexto}</strong></div>` : ""}
-
-            ${Array.isArray(config.perfil) && config.perfil.length ? `
-                <div class="perfil-substrato-v4">
-                    <strong>Perfil radicular e hídrico</strong>
-                    <div>${config.perfil.map((item) => `<span>${item}</span>`).join("")}</div>
-                </div>
-            ` : ""}
 
             ${itensValidos.some((item) => item.finalidade) ? `
                 <div class="finalidade-substrato-v4">
@@ -1366,7 +1367,7 @@ if (!orquidea) {
 
             </div>
 
-            ${criarFormasCultivoV4(orquidea.formasCultivo)}
+            ${criarFormasCultivoV4(orquidea.formasCultivo, orquidea.substratoVisual?.perfil || [])}
             ${criarSubstratoVisualV4(orquidea.substratoVisual, orquidea.substrato)}
 
             <div class="grade-cultivo-v2">
