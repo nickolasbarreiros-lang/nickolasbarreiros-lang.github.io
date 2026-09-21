@@ -9535,3 +9535,41 @@ main.container{
 @media(max-width:560px){
  .comportamento-mistura-v423,#avaliacao-especie .lista-avaliacoes-v2{grid-template-columns:1fr}
 }
+
+
+/* V4.24 — Avaliação: elimina o grande vazio causado pelo stretch do grid pai.
+   O painel passa a acompanhar exatamente a altura do conteúdo. */
+#avaliacao-especie{
+    align-items:start !important;
+}
+
+#avaliacao-especie .avaliacoes-v2{
+    align-self:start !important;
+    height:auto !important;
+    min-height:0 !important;
+    padding:18px 20px 20px !important;
+}
+
+#avaliacao-especie .lista-avaliacoes-v2{
+    align-content:start !important;
+    grid-auto-rows:minmax(68px, auto) !important;
+    margin:0 !important;
+}
+
+#avaliacao-especie .avaliacao-v2{
+    display:flex !important;
+    flex-direction:column !important;
+    justify-content:center !important;
+    min-height:68px !important;
+}
+
+/* Mantém o título próximo da grade, sem criar uma faixa vazia. */
+#avaliacao-especie .titulo-secao-v2{
+    margin-bottom:14px !important;
+}
+
+@media(max-width:900px){
+    #avaliacao-especie .avaliacoes-v2{
+        width:100% !important;
+    }
+}
