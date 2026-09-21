@@ -40,7 +40,12 @@ export const pleurothallisModestissima = {
     "adubacao": "🌿 Orgânica: bokashi apenas em microdose e afastado das raízes.\n💧 Mineral/Foliar: fertilizante equilibrado em cerca de 1/4 da dose a cada 15 dias durante crescimento ativo.\n🌱 Fase ativa: priorize regularidade em baixa concentração.\n🚿 Lavagem: água pura periodicamente para evitar acúmulo de sais em raízes finas.\n🧪 Liberação lenta: geralmente dispensável em recipientes muito pequenos.",
     "rega": "Regue bem e deixe o suporte perder parte da umidade antes da próxima rega. Não deixe a planta desidratar por longos períodos, mas evite esfagno permanentemente saturado. No calor, aumente a frequência sem sacrificar aeração; na fase menos ativa, aumente discretamente o intervalo.",
      "suporte": "Vaso plástico baixo e largo, com drenagem abundante, é a opção prática preferencial. O crescimento rasteiro precisa de espaço lateral e pouca profundidade de substrato.",
-    "substrato": "Casca de pinus fina + brita pequena + carvão vegetal pequeno + esfagno solto. Outras misturas recomendadas: pinus + casca de arroz carbonizada + carvão; brita + pinus + esfagno; chips de coco + brita + carvão.",
+    "substrato": [
+        "Casca de pinus fina + casca de arroz carbonizada + carvão vegetal pequeno",
+        "Brita pequena + casca de pinus fina + esfagno solto",
+        "Chips de coco pequenos + brita pequena + carvão vegetal pequeno",
+        "Casca de pinus fina + perlita + esfagno solto"
+    ],
     "formasCultivo": {
         "perfilVisual": "micro-pleurothalidina",
         "destaque": "Vaso plástico baixo",
