@@ -57,7 +57,7 @@ export const bibliotecaCultivoV4 = {
     },
     "vaso-barro": {
         nome: "Vaso de barro",
-        imagem: "imagens/cultivo-v4/vaso-barro.webp"
+        imagem: "imagens/cultivo-v4/vaso-barro-orquideas-v436.webp"
     },
     "vaso-plastico": {
         nome: "Vaso plástico",
