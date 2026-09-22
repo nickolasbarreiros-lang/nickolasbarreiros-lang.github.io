@@ -45,31 +45,38 @@ export const aeridesOdorata = {
         destaque: "Suspensa, raízes livres",
         resumo: "Como vandácea epífita de raízes grossas e aéreas, Aerides odorata responde melhor quando as raízes ficam muito livres, recebem água abundante e secam rapidamente com forte circulação de ar.",
         metodos: [
-            { nome: "Suspensa, raízes livres", asset: "suspensa-raizes-livres", estrelas: 5, status: "Ideal", texto: "É a condição mais próxima da lógica de cultivo das vandáceas: raízes totalmente arejadas, livres para crescer e secar rapidamente após regas generosas." },
+            { nome: "Suspensa, raízes livres", asset: "aerides-odorata-cultivo-ideal", estrelas: 5, status: "Ideal", texto: "É a condição mais próxima da lógica de cultivo das vandáceas: raízes totalmente arejadas, livres para crescer e secar rapidamente após regas generosas." },
             { nome: "Árvore viva / tronco", asset: "arvore-viva", estrelas: 5, status: "Ideal", texto: "Excelente em clima quente e úmido quando a planta é firmemente presa ao tronco e as raízes podem aderir à casca e permanecer expostas ao ar." },
             { nome: "Cesto extremamente vazado", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para sustentar a planta sem confinar as raízes; use pouco ou nenhum substrato e permita que as raízes atravessem livremente as aberturas." },
-            { nome: "Vaso plástico muito vazado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode funcionar quando o recipiente tem muitas aberturas laterais e inferiores e recebe apenas material muito grosso em pequeno volume, sem comprimir as raízes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode funcionar quando o recipiente tem muitas aberturas laterais e inferiores e recebe apenas material muito grosso em pequeno volume, sem comprimir as raízes." },
         ]
     },
     substrato: [
-        "🥇 Casca de pinus grossa + carvão vegetal + pedra-pomes, deixando grandes espaços de ar.",
-        "🥈 Carvão vegetal grosso + pedra-pomes + pequena quantidade de casca grossa.",
-        "🥉 Cultivo praticamente sem substrato em cesto ou montagem, mantendo as raízes livres.",
-        "⭐ Alternativa: chips de coco grossos + carvão vegetal + pedra-pomes, em cesto muito ventilado."
+        "Casca de pinus grossa + carvão vegetal grosso",
+        "Casca de pinus grossa + chips de coco grossos + carvão vegetal",
+        "Carvão vegetal grosso + casca de arroz carbonizada + pequena quantidade de esfagno",
+        "Casca de pinus grossa + perlita grossa + pequena quantidade de esfagno"
     ],
+
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Para cultivo em recipiente",
-        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
-        justificativa: "A espécie é uma vandácea epífita de raízes aéreas; fontes de cultivo recomendam manejo semelhante ao de Vandas. A mistura é deliberadamente grossa e aberta, usando materiais comuns no Brasil e evitando partículas finas.",
-        receitaTexto: "Mistura-base sugerida: 50% casca de pinus grossa + 30% carvão vegetal grosso + 20% chips de coco grossos.",
-        perfil: ["Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
-        itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "50%", nota: "estrutura + grandes espaços de ar", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal grosso", proporcao: "30%", nota: "aeração + secagem rápida", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
-            { asset: "fibra-coco", nome: "Chips de coco grossos", proporcao: "20%", nota: "estrutura + leve reserva hídrica", finalidade: "Retém umidade moderada mantendo estrutura e boa porosidade." },
+        contexto: "Para cultivo em vaso ou cesto",
+        resumo: "Mistura muito grossa e extremamente aerada, usada apenas para estabilizar a planta e manter pequena reserva de umidade sem enterrar as raízes aéreas.",
+        justificativa: "Aerides odorata é uma vandácea monopodial epífita, com numerosas raízes aéreas grossas. O cultivo principal continua sendo suspenso com raízes livres. Quando se usa vaso ou cesto, o substrato deve ocupar pouco volume e funcionar como apoio, nunca como uma massa envolvendo todo o sistema radicular. Casca grossa e carvão mantêm grandes macroporos; uma pequena fração de esfagno fornece reserva hídrica localizada para o litoral quente.",
+        perfil: ["Raízes grossas", "Aeração máxima", "Raízes expostas", "Secagem rápida", "Baixa compactação", "Pouco substrato"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
-        alerta: "Em cesto ou montagem, pode ser usada com pouquíssimo ou nenhum substrato. Nunca enterre raízes aéreas em mistura fina ou compacta."
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "45%", nota: "estrutura + macroporos", finalidade: "Mantém grandes espaços de ar e serve de apoio às raízes sem formar uma massa compacta." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal grosso", proporcao: "35%", nota: "aeração + durabilidade", finalidade: "Aumenta a porosidade estrutural e mantém o conjunto aberto por mais tempo." },
+            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "10%", nota: "leveza + drenagem", finalidade: "Complementa a estrutura sem aumentar muito o peso nem a retenção hídrica." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva hídrica localizada", finalidade: "Ajuda a reduzir desidratação abrupta no calor, devendo ficar muito solto e em pequena quantidade." }
+        ],
+        alerta: "Não enterre nem force as raízes aéreas para dentro do recipiente. Deixe a maior parte das raízes livres. Em cesto ou vaso vasado, use somente material grosso e em pequeno volume."
     },
     errosComuns: [
         "Cultivar em sombra profunda e esperar floração abundante",
