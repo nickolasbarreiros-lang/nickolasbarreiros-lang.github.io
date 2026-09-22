@@ -110,6 +110,10 @@ export const bibliotecaCultivoV4 = {
     "acianthera-pubescens-placa": {
         nome: "Acianthera pubescens em placa / tronco",
         imagem: "imagens/cultivo-v4/especies/acianthera-pubescens/placa-tronco.webp"
+    },
+    "acianthera-sonderiana-placa": {
+        nome: "Acianthera sonderiana em placa / tronco",
+        imagem: "imagens/cultivo-v4/especies/acianthera-sonderiana/placa-tronco.webp"
     }
 };
 

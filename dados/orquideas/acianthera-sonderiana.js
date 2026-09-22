@@ -59,34 +59,34 @@ export const aciantheraSonderiana = {
     formasCultivo: {
         perfilVisual: "micro-pleurothalidina",
         destaque: "Placa / tronco",
-        resumo: "Micro-orquídea de florestas úmidas e mais frescas do Sul do Brasil; necessita disponibilidade regular de água, sombra e excelente oxigenação das raízes.",
+        resumo: "Miniatura predominantemente epífita, encontrada sobre troncos e galhos em ambientes úmidos. As raízes finas se beneficiam de muita aeração, mas a espécie não deve sofrer secagem prolongada, sobretudo no litoral quente.",
         metodos: [
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Favorece aeração e se aproxima do hábito epífito natural. Em clima quente, use pequena reserva de esfagno sob as raízes." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa opção para manter raízes ventiladas e um microclima úmido sem compactação." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Funciona bem com mistura leve e um pouco mais retentiva, sobretudo onde a montagem secaria rápido demais." },
-            { nome: "Vaso plástico fechado", asset: "vaso-plastico", estrelas: 3, status: "Adequado", texto: "Pode ser usado em ambiente ventilado e com recipiente pequeno, pois conserva mais umidade. Exige atenção redobrada para não manter a base encharcada." },
+            { nome: "Placa / tronco", asset: "acianthera-sonderiana-placa", estrelas: 5, status: "Ideal", texto: "Reproduz bem o hábito epífito natural, mantendo as raízes muito aeradas. No litoral quente, exige atenção à frequência de rega e à umidade para evitar desidratação excessiva." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Excelente alternativa em casca rugosa e local protegido, com umidade ambiental elevada e ventilação constante. Evite posições muito expostas ao sol e ao vento seco." },
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 4, status: "Muito recomendado", texto: "É uma alternativa especialmente útil no litoral quente porque desacelera a perda de água. Use vaso pequeno, mistura muito aberta e controle rigoroso para que a umidade não se transforme em encharcamento." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 3, status: "Adequado", texto: "Oferece excelente ventilação, mas seca mais rapidamente. Funciona melhor em ambiente úmido ou com regas frequentes e proteção contra vento quente." }
         ]
     },
-    substrato: [
-        "🥇 Esfagno de fibra longa em camada fina sobre cortiça ou madeira.",
-        "🥈 Esfagno solto + pedra-pomes fina.",
-        "🥉 Casca de pinus fina + perlita + pequena fração de esfagno.",
-        "⭐ Alternativa: fibra/chips finos de coco + perlita, mantendo alta aeração."
-    ],
+
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Para cultivo em recipiente",
-        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
-        justificativa: "Orquidários brasileiros citam esfagno ou misturas de fibra de coco, pinus e carvão para esta espécie. A formulação mantém essa lógica, mas limita o esfagno para preservar oxigenação em clima quente.",
-        receitaTexto: "Mistura-base sugerida: 40% casca de pinus fina + 25% chips de coco pequenos + 20% carvão vegetal + 15% esfagno solto.",
-        perfil: ["Umidade moderada, sem saturação", "Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
-        itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "40%", nota: "estrutura + aeração", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
-            { asset: "fibra-coco", nome: "Chips de coco pequenos", proporcao: "25%", nota: "umidade moderada", finalidade: "Retém umidade moderada mantendo estrutura e boa porosidade." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva de umidade", finalidade: "Acrescenta uma reserva controlada de umidade sem dominar a mistura." },
+        contexto: "Para cultivo em vaso",
+        resumo: "Mistura muito aerada, leve e com reserva hídrica moderada para raízes finas que não devem permanecer secas por longos períodos.",
+        justificativa: "Como epífita de ambientes úmidos, a espécie pede oxigenação elevada junto com umidade relativamente constante. No litoral quente, uma mistura excessivamente mineral pode secar depressa demais; por outro lado, esfagno compacto ou substrato fino aumentam o risco de abafamento. A combinação abaixo equilibra estrutura, aeração e pequena reserva de água.",
+        perfil: ["Raízes finas", "Alta aeração", "Umidade constante", "Secagem moderada", "Baixa compactação", "Vaso pequeno"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
-        alerta: "No litoral, evite calor abafado e substrato compacto. Em vaso fechado, reduza a frequência de rega em períodos nublados e frios."
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "35%", nota: "estrutura + umidade moderada", finalidade: "Mantém a estrutura principal do vaso sem formar uma massa compacta." },
+            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "30%", nota: "aeração + estabilidade", finalidade: "Aumenta macroporos, drenagem e estabilidade física da mistura." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "20%", nota: "reserva hídrica", finalidade: "Protege as raízes finas contra secagem abrupta, especialmente em clima quente." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "15%", nota: "porosidade + durabilidade", finalidade: "Ajuda a preservar a estrutura aberta e a circulação de ar entre os componentes." }
+        ],
+        alerta: "Não compacte o esfagno. Em clima quente, mantenha umidade regular, mas permita boa oxigenação e drenagem; raízes finas sofrem tanto com secagem prolongada quanto com substrato abafado."
     },
     errosComuns: [
         "Deixar uma micro-orquídea montada secar completamente por muitas horas em dias quentes.",
