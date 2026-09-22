@@ -59,22 +59,40 @@ export const pleurothallisModestissima = {
     },
     "substratoVisual": {
         "titulo": "Substrato ideal",
-        "contexto": "Para vaso plástico baixo",
-        "resumo": "Mistura rasa, muito drenante e mineralizada, com pequena reserva de umidade e bastante ar entre as partículas.",
-        "justificativa": "A espécie ocorre como saxícola em afloramentos quartzíticos e também possui registros epífitos. O vaso plástico baixo acompanha seu crescimento rasteiro sem criar uma coluna profunda de substrato úmido. A mistura combina estrutura orgânica, fração mineral e pequena reserva hídrica, priorizando drenagem e estabilidade no litoral quente.",
-        "perfil": ["Raízes finas", "Alta drenagem", "Umidade moderada", "Secagem rápida", "Baixa compactação", "Crescimento rasteiro"],
-        "comportamento": [
-            { "nome": "Retenção", "valor": 2, "icone": "💧" },
-            { "nome": "Aeração", "valor": 5, "icone": "💨" },
-            { "nome": "Secagem", "valor": 4, "icone": "⚡" },
-            { "nome": "Compactação", "valor": 1, "icone": "🧱" }
+        "descricao": "Mistura rasa, muito drenante e mineralizada, com pequena reserva de umidade e bastante ar entre as partículas.",
+        "componentes": [
+            {
+                "nome": "Casca de pinus fina",
+                "percentual": 35,
+                "asset": "casca-pinus",
+                "funcao": "estrutura + retenção moderada"
+            },
+            {
+                "nome": "Brita pequena",
+                "percentual": 30,
+                "asset": "brita",
+                "funcao": "drenagem + estabilidade mineral"
+            },
+            {
+                "nome": "Carvão vegetal pequeno",
+                "percentual": 20,
+                "asset": "carvao",
+                "funcao": "aeração + durabilidade"
+            },
+            {
+                "nome": "Esfagno solto",
+                "percentual": 15,
+                "asset": "esfagno",
+                "funcao": "reserva hídrica localizada"
+            }
         ],
-        "itens": [
-            { "asset": "casca-pinus", "nome": "Casca de pinus fina", "proporcao": "35%", "nota": "estrutura + retenção moderada", "finalidade": "Forma uma base orgânica leve sem compactação excessiva." },
-            { "asset": "brita", "nome": "Brita pequena", "proporcao": "30%", "nota": "drenagem + estabilidade", "finalidade": "Aumenta macroporos e aproxima a mistura do comportamento de um suporte mineral." },
-            { "asset": "carvao-vegetal", "nome": "Carvão vegetal pequeno", "proporcao": "20%", "nota": "aeração + durabilidade", "finalidade": "Mantém porosidade e estabilidade física por mais tempo." },
-            { "asset": "esfagno", "nome": "Esfagno solto", "proporcao": "15%", "nota": "reserva hídrica localizada", "finalidade": "Evita secagem abrupta das raízes finas sem manter o vaso encharcado." }
-        ],
+        "comportamento": {
+            "retencao": 2,
+            "aeracao": 5,
+            "secagem": 4,
+            "compactacao": 1
+        },
+        "porque": "A espécie ocorre como saxícola em afloramentos quartzíticos e também possui registros rupícolas/epífitos em ambientes de campo rupestre. O vaso plástico baixo acompanha seu crescimento rasteiro sem criar uma coluna profunda de substrato úmido. A mistura combina estrutura orgânica, fração mineral e pequena reserva hídrica, priorizando drenagem, estabilidade e oxigenação das raízes no litoral quente.",
         "alerta": "Use camada rasa de substrato e mantenha o rizoma sobre a superfície. O vaso deve permitir expansão lateral; evite recipientes fundos."
     },
     "errosComuns": "Tratá-la como espécie obrigatoriamente fria; manter esfagno sempre encharcado; secar completamente por vários dias; vaso grande; pouco ar; excesso de adubo; sol forte sobre o suporte; replantar com frequência; usar água muito salina.",
