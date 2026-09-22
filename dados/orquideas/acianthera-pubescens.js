@@ -35,6 +35,12 @@ export const aciantheraPubescens = {
     adubacao: "🌿 Orgânica: bokashi em dose pequena, sempre isolado em sachê e apenas durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração, aproximadamente 1/4 da dose do fabricante, a cada 10 a 15 dias com raízes ativas.\n🧪 Liberação lenta: usar somente pequenas quantidades em cultivo envasado. Como as raízes são finas, faça lavagens periódicas com água de baixa salinidade e reduza a adubação se pontas radiculares escurecerem ou houver depósitos brancos no substrato.",
     rega: "Regue regularmente, mantendo as raízes hidratadas sem saturação contínua. Plantas montadas podem exigir rega diária ou quase diária no verão litorâneo; vasos devem perder parte da umidade superficial antes da próxima irrigação. Ajuste a frequência à procedência: clones de ambientes montanos geralmente apreciam umidade constante com temperaturas mais amenas e excelente ventilação.",
     suporte: ["🥇 Vaso pequeno e muito drenado.", "🥈 Placa de madeira, cortiça ou tronco com pequena reserva de musgo.", "🥉 Cachepô pequeno e ventilado, adequado a touceiras adultas."],
+    substrato: [
+        "Casca de pinus fina + casca de arroz carbonizada + carvão vegetal pequeno",
+        "Casca de arroz carbonizada + perlita grossa + turfa de esfagno em baixa proporção",
+        "Chips de coco pequenos + casca de arroz carbonizada + carvão vegetal pequeno",
+        "Casca de pinus fina + perlita grossa + esfagno solto"
+    ],
     formasCultivo: {
         perfilVisual: "micro-pleurothalidina",
         destaque: "Placa / tronco",
