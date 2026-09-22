@@ -52,7 +52,13 @@ export const pleurothallisModestissima = {
         "resumo": "O crescimento rasteiro favorece vaso plástico baixo e relativamente largo, com excelente drenagem, permitindo expansão horizontal sem uma coluna profunda de substrato úmido.",
         "metodos": [
             { "nome": "Vaso plástico baixo", "asset": "acianthera-modestissima-vaso", "estrelas": 5, "status": "Ideal", "texto": "É a opção mais prática para acompanhar o crescimento rasteiro. Use recipiente baixo, relativamente largo e com drenagem abundante, mantendo rizoma e brotações na superfície." },
-            { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 4, "status": "Muito recomendado", "texto": "Oferece aeração adicional e funciona bem no litoral quente, desde que seja baixo e a mistura não seque rápido demais." },
+            {
+                "nome": "Árvore viva",
+                "asset": "arvore-viva",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "descricao": "Alternativa naturalista para cultivo epífito, desde que fixada em casca rugosa, com boa ventilação e umidade regular sem encharcamento."
+            },
             { "nome": "Vaso de barro", "asset": "vaso-barro", "estrelas": 3, "status": "Adequado", "texto": "Pode funcionar com mistura aberta, mas acelera a secagem e exige maior controle das regas no litoral quente." },
             { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": 3, "status": "Adequado", "texto": "É possível, mas exige regas mais frequentes e oferece menos espaço horizontal controlado que um vaso baixo." }
         ]
