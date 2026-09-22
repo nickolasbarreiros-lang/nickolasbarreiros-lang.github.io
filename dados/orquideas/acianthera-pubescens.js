@@ -38,29 +38,34 @@ export const aciantheraPubescens = {
     formasCultivo: {
         perfilVisual: "micro-pleurothalidina",
         destaque: "Placa / tronco",
-        resumo: "Espécie de ampla distribuição tropical, epífita e também rupícola em parte de sua área; aprecia umidade frequente, raízes arejadas e boa ventilação.",
+        resumo: "Espécie predominantemente epífita, de raízes finas e hábito simpodial/reptante. A montagem em madeira reproduz bem o contato das raízes com a casca, oferecendo muita aeração e permitindo umidade frequente sem manter o sistema radicular abafado.",
         metodos: [
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Mantém raízes expostas e facilita o ajuste da rega conforme a procedência e o clima local." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para touceiras maiores, com forte aeração e espaço para expansão." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Oferece controle de umidade sem perder demasiada aeração quando usado em tamanho pequeno." },
-            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 3, status: "Adequado", texto: "Alternativa coerente com o hábito epífito quando há sombra, umidade e boa ventilação; exige atenção à hidratação até o enraizamento no tronco." },
+            { nome: "Placa / tronco", asset: "acianthera-pubescens-placa", estrelas: 5, status: "Ideal", texto: "É a opção mais coerente com o hábito epífito e também é utilizada por produtores brasileiros. Use madeira de superfície rugosa e mantenha umidade regular, com secagem parcial entre as regas." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Funciona muito bem quando fixada em casca rugosa, em posição protegida do sol forte, com boa umidade ambiente e ventilação constante." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para plantas maiores ou touceiras, mantendo elevada aeração e espaço para o crescimento do rizoma sem compactar as raízes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode ser usado com mistura muito aberta e recipiente pequeno. No litoral quente, ajuda a conservar alguma umidade sem eliminar a ventilação das raízes finas." }
         ]
     },
-    substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Esfagno de fibra longa usado muito solto + pedra-pomes fina; evitar compactação junto ao rizoma.", "🥉 Casca de pinus fina + perlita + pedra-pomes fina + pequena fração de esfagno solto.", "⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado."],
+
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Para cultivo em recipiente",
-        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
-        justificativa: "A espécie ocorre como epífita em florestas tropicais úmidas e também pode aparecer como rupícola. A mistura evita compactação, mas conserva um pouco mais de umidade que a usada em espécies muito xeromórficas.",
-        receitaTexto: "Mistura-base sugerida: 40% casca de pinus fina + 25% chips de coco pequenos + 20% carvão vegetal + 15% esfagno solto.",
-        perfil: ["Umidade moderada, sem saturação", "Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
-        itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "40%", nota: "estrutura + aeração", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
-            { asset: "fibra-coco", nome: "Chips de coco pequenos", proporcao: "25%", nota: "retenção moderada", finalidade: "Retém umidade moderada mantendo estrutura e boa porosidade." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva de umidade", finalidade: "Acrescenta uma reserva controlada de umidade sem dominar a mistura." },
+        contexto: "Para cultivo em vaso",
+        resumo: "Mistura leve, muito aerada e de retenção moderada, adequada a raízes finas que pedem umidade regular sem compactação.",
+        justificativa: "A espécie é predominantemente epífita e possui raízes finas. Em vaso, a prioridade é manter macroporos e secagem parcial sem deixar a mistura desidratar abruptamente. A casca de arroz carbonizada aumenta a estabilidade e a aeração; pinus fornece estrutura; carvão prolonga a porosidade; e uma pequena fração de esfagno cria reserva hídrica localizada.",
+        perfil: ["Raízes finas", "Alta aeração", "Umidade frequente", "Secagem moderada", "Baixa compactação", "Rizoma livre"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
-        alerta: "A ampla distribuição da espécie exige ajuste ao clone e ao microclima. Nunca transforme a preferência por umidade em substrato permanentemente saturado."
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "35%", nota: "estrutura + umidade moderada", finalidade: "Forma a estrutura orgânica principal mantendo espaços de ar entre as raízes." },
+            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "30%", nota: "aeração + estabilidade", finalidade: "Reduz compactação, favorece drenagem e mantém a mistura fisicamente aberta." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "20%", nota: "porosidade + durabilidade", finalidade: "Ajuda a preservar macroporos e estabilidade física por mais tempo." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva hídrica localizada", finalidade: "Evita secagem brusca das raízes finas sem transformar a mistura em um meio encharcado." }
+        ],
+        alerta: "Em vaso, mantenha o rizoma próximo da superfície e não compacte a mistura. Prefira recipiente pequeno e muito drenado."
     },
     errosComuns: ["Aplicar o mesmo regime a exemplares de procedências muito diferentes.", "Manter touceira densa molhada e sem ventilação.", "Usar substrato compacto ou decomposto.", "Expor ao sol direto forte.", "Deixar as raízes secarem completamente por períodos longos.", "Acumular sais de fertilizante.", "Fixar uma época única de floração para uma espécie que pode florescer o ano inteiro."],
     revisaoCientificaIAR: {
