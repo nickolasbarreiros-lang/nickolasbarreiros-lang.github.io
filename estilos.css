@@ -9673,3 +9673,12 @@ main.container{
         white-space:normal !important;
     }
 }
+
+
+/* V4.50 — separação visual dos três grupos de iluminação.
+   Mantém rótulo + chip próximos dentro de cada grupo,
+   mas cria respiro entre Sombrite / Sol direto / Exposição segura. */
+.card-iluminacao-v2 .linha-indicadores-v3{
+    column-gap:22px !important;
+    row-gap:9px !important;
+}
