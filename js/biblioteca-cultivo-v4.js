@@ -106,6 +106,10 @@ export const bibliotecaCultivoV4 = {
     "fibra-coco": {
         nome: "Fibra de coco",
         imagem: "imagens/cultivo-v4/fibra-coco.webp"
+    },
+    "acianthera-pubescens-placa": {
+        nome: "Acianthera pubescens em placa / tronco",
+        imagem: "imagens/cultivo-v4/especies/acianthera-pubescens/placa-tronco.webp"
     }
 };
 
@@ -124,12 +128,7 @@ export const perfisVisuaisCultivoV4 = {
             "cesto-madeira": { nome: "Cesto de madeira — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/cesto-madeira.webp" },
             "vaso-plastico-vasado": { nome: "Vaso plástico vasado — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/vaso-plastico-vasado.webp" }
         }
-    },
-  "acianthera-pubescens-placa": {
-    nome: "Acianthera pubescens em placa / tronco",
-    imagem: "imagens/cultivo-v4/especies/acianthera-pubescens/placa-tronco.webp"
-  }
-};
+    }};
 
 export function obterAssetCultivoV4(id, perfilVisual = "") {
     const perfil = perfisVisuaisCultivoV4[perfilVisual];
