@@ -57,7 +57,7 @@ export const pleurothallisModestissima = {
                 "asset": "arvore-viva",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "descricao": "Alternativa naturalista para cultivo epífito, desde que fixada em casca rugosa, com boa ventilação e umidade regular sem encharcamento."
+                "texto": "Alternativa naturalista para cultivo epífito, desde que fixada em casca rugosa, com boa ventilação e umidade regular sem encharcamento."
             },
             { "nome": "Vaso de barro", "asset": "vaso-barro", "estrelas": 3, "status": "Adequado", "texto": "Pode funcionar com mistura aberta, mas acelera a secagem e exige maior controle das regas no litoral quente." },
             { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": 3, "status": "Adequado", "texto": "É possível, mas exige regas mais frequentes e oferece menos espaço horizontal controlado que um vaso baixo." }
