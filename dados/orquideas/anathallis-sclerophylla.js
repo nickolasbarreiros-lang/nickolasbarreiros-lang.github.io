@@ -69,25 +69,65 @@ export const anathallisSclerophylla = {
         ]
     },
     substrato: [
-        "🥇 Esfagno de fibra longa usado muito solto + pedra-pomes fina.",
-        "🥈 Casca de pinus fina + pedra-pomes + pequena quantidade de esfagno.",
-        "🥉 Chips de coco pequenos + pedra-pomes + carvão vegetal pequeno.",
-        "⭐ Alternativa: montagem em cortiça ou madeira com fina camada de esfagno apenas sob as raízes."
+        "Casca de pinus fina/média + casca de arroz carbonizada + esfagno solto",
+        "Casca de arroz carbonizada + perlita grossa + turfa de esfagno em baixa proporção",
+        "Chips de coco pequenos + casca de arroz carbonizada + carvão vegetal pequeno",
+        "Casca de pinus fina/média + perlita grossa + esfagno solto"
     ],
+    cultivoPrincipal: {
+        destaque: "Placa / tronco",
+        metodos: [
+            {
+                nome: "Placa / tronco",
+                asset: "anathallis-sclerophylla-placa",
+                estrelas: 5,
+                selo: "IDEAL",
+                texto: "É a opção preferencial por reproduzir diretamente o hábito epífito da espécie. A montagem mantém as raízes muito arejadas e permite crescimento em touceira, desde que haja umidade frequente e não ocorra ressecamento prolongado."
+            },
+            {
+                nome: "Cesto de madeira",
+                asset: "cesto-madeira",
+                estrelas: 4,
+                selo: "MUITO RECOMENDADO",
+                texto: "Oferece excelente ventilação e espaço para a touceira, com a vantagem de permitir pequena reserva de umidade junto às raízes."
+            },
+            {
+                nome: "Vaso plástico vasado",
+                asset: "vaso-plastico-vasado",
+                estrelas: 4,
+                selo: "MUITO RECOMENDADO",
+                texto: "Boa alternativa prática quando preenchido com mistura leve e muito aerada. As aberturas laterais ajudam a evitar compactação e excesso de água."
+            },
+            {
+                nome: "Vaso plástico",
+                asset: "vaso-plastico-comum",
+                estrelas: 3,
+                selo: "ADEQUADO",
+                texto: "Pode ser usado em recipiente pequeno, com drenagem eficiente e substrato aberto, mas exige maior controle da umidade para não reduzir a aeração das raízes."
+            }
+        ],
+        perfil: ["Raízes finas", "Alta aeração", "Umidade frequente", "Secagem moderada", "Baixa compactação", "Crescimento cespitoso"]
+    },
+
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Para cultivo em recipiente",
-        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
-        justificativa: "Como epífita de bioma tropical úmido, necessita disponibilidade regular de água sem perda de ar nas raízes. A pequena fração de esfagno complementa pinus, coco e carvão sem tornar a mistura compacta.",
-        receitaTexto: "Mistura-base sugerida: 40% casca de pinus fina + 25% chips de coco pequenos + 20% carvão vegetal + 15% esfagno solto.",
-        perfil: ["Umidade moderada, sem saturação", "Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
-        itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "40%", nota: "estrutura + aeração", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
-            { asset: "fibra-coco", nome: "Chips de coco pequenos", proporcao: "25%", nota: "retenção moderada", finalidade: "Retém umidade moderada mantendo estrutura e boa porosidade." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva de umidade", finalidade: "Acrescenta uma reserva controlada de umidade sem dominar a mistura." },
+        contexto: "Para cultivo em vaso",
+        resumo: "Mistura leve, arejada e com reserva hídrica moderada, adequada às raízes finas de uma epífita de floresta úmida.",
+        justificativa: "Anathallis sclerophylla é epífita e ocorre em florestas tropicais úmidas. Em vaso, o objetivo é manter oxigenação elevada sem produzir a secagem extrema usada em vandáceas de raízes grossas. Pinus fornece estrutura, a casca de arroz carbonizada aumenta a porosidade, o esfagno mantém uma reserva hídrica moderada e o carvão ajuda a conservar o conjunto aberto.",
+        perfil: ["Raízes finas", "Alta aeração", "Umidade frequente", "Secagem moderada", "Baixa compactação", "Touceira"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
-        alerta: "Não deixe secar por períodos prolongados, mas também não mantenha água parada. Em ambiente naturalmente úmido, reduza o esfagno."
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "35%", nota: "estrutura + aeração", finalidade: "Sustenta a planta e mantém espaços de ar entre as partículas." },
+            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "30%", nota: "porosidade + drenagem", finalidade: "Mantém a mistura leve e reduz a tendência à compactação." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "20%", nota: "reserva hídrica", finalidade: "Fornece umidade entre regas sem dominar a mistura." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "15%", nota: "estrutura + durabilidade", finalidade: "Complementa a aeração e ajuda a manter a mistura aberta." }
+        ],
+        alerta: "Em placa, mantenha umidade frequente e evite ressecamento prolongado. Em vaso, não compacte o esfagno e não enterre profundamente a base da touceira."
     },
     errosComuns: [
         "Cultivar em ambiente quente e abafado.",

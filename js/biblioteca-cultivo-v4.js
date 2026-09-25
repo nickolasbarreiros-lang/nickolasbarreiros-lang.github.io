@@ -118,6 +118,10 @@ export const bibliotecaCultivoV4 = {
     "aerides-odorata-cultivo-ideal": {
         nome: "Aerides odorata — cultivo ideal",
         imagem: "imagens/cultivo-v4/especies/aerides-odorata/cultivo-ideal.webp"
+    },
+    "anathallis-sclerophylla-placa": {
+        nome: "Anathallis sclerophylla — placa / tronco",
+        imagem: "imagens/cultivo-v4/especies/anathallis-sclerophylla/placa-tronco.webp"
     }
 };
 
