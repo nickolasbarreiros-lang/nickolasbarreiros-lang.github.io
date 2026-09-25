@@ -65,7 +65,7 @@ export const arpophyllumGiganteum = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura + durabilidade", finalidade: "Forma a base estrutural da mistura, preservando espaços de ar e reduzindo a perda rápida de granulometria." },
+            { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura + durabilidade", finalidade: "Forma a base estrutural da mistura, preservando espaços de ar e reduzindo a perda rápida de granulometria." },
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "25%", nota: "estrutura + umidade", finalidade: "Complementa a estrutura e oferece equilíbrio entre aeração e retenção, com uso consolidado em orquidários brasileiros." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal médio", proporcao: "20%", nota: "macroporos + estabilidade", finalidade: "Mantém a mistura aberta e estruturalmente estável." },
             { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "10%", nota: "leveza + porosidade", finalidade: "Aumenta a porosidade sem elevar muito a retenção ou o peso do vaso." },
