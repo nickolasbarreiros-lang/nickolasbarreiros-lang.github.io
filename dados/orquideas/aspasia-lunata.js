@@ -37,30 +37,43 @@ export const aspasiaLunata = {
     suporte: "🥇 Vaso de barro ou plástico proporcional à touceira, com excelente drenagem.\n🥈 Cachepô de madeira bem ventilado.\n🥉 Cesto plástico raso e perfurado.",
     formasCultivo: {
         perfilVisual: "aspasia",
-        destaque: "Vaso plástico vasado",
-        resumo: "Epífita de florestas úmidas que forma touceiras com facilidade. No Brasil é cultivada tanto em casca de pinus quanto montada em madeira, desde que não falte umidade.",
+        destaque: "Vaso plástico",
+        resumo: "Epífita pseudobulbosa de floresta tropical úmida. Em cultivo, responde bem à umidade regular combinada com substrato aberto e raízes bem oxigenadas.",
         metodos: [
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 5, status: "Ideal", texto: "Conserva umidade moderada e favorece formação de touceira quando usado com mistura aerada e recipiente proporcional." },
-            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Ajuda a acelerar a secagem em clima quente e úmido, sendo ótima opção quando as regas são frequentes." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Combina boa ventilação com espaço para expansão, mas exige mistura que não seque rápido demais." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Orquidários brasileiros indicam placas de madeira; funciona melhor em ambiente úmido e com regas regulares." },
+            { nome: "Vaso plástico", asset: "aspasia-lunata-vaso-plastico", estrelas: 5, status: "Ideal", texto: "Mantém umidade mais regular ao redor das raízes sem exigir uma mistura pesada. Com substrato estrutural e arejado, oferece excelente equilíbrio entre hidratação e oxigenação." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação e espaço para expansão da touceira, mas exige maior atenção às regas por secar mais rapidamente." },
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para ambientes úmidos, com maior troca de ar pelas paredes e secagem mais rápida que no vaso plástico." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "É biologicamente compatível com o hábito epífito, porém exige regas mais frequentes e controle rigoroso para evitar ressecamento prolongado no clima quente." }
         ]
     },
     substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+    substrato: [
+        "Casca de macadâmia média + carvão vegetal + casca de arroz carbonizada + esfagno solto",
+        "Casca de pinus média + carvão vegetal + perlita grossa + esfagno solto",
+        "Casca de macadâmia média + chips de coco médios + carvão vegetal",
+        "Casca de arroz carbonizada + perlita grossa + casca de macadâmia + pequena quantidade de turfa de esfagno"
+    ],
+
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Para cultivo em recipiente",
-        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
-        justificativa: "Produtor brasileiro recomenda casca de pinus ou placa de madeira, sem deixar faltar umidade. A mistura-base mantém pinus como componente principal e acrescenta coco, carvão e pouco esfagno para equilibrar umidade e aeração.",
-        receitaTexto: "Mistura-base sugerida: 50% casca de pinus média + 25% chips de coco médios + 15% carvão vegetal + 10% esfagno solto.",
-        perfil: ["Umidade moderada, sem saturação", "Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
-        itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "50%", nota: "estrutura + drenagem", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
-            { asset: "fibra-coco", nome: "Chips de coco médios", proporcao: "25%", nota: "retenção moderada", finalidade: "Retém umidade moderada mantendo estrutura e boa porosidade." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "15%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva discreta de umidade", finalidade: "Acrescenta uma reserva controlada de umidade sem dominar a mistura." },
+        contexto: "Para cultivo em vaso",
+        resumo: "Mistura estrutural e arejada, com umidade moderada e boa estabilidade para uma epífita que aprecia hidratação regular sem encharcamento.",
+        justificativa: "A macadâmia fornece estrutura durável e macroporos; o pinus complementa a fração orgânica tradicionalmente utilizada por orquidários brasileiros; a casca de arroz carbonizada aumenta porosidade e leveza; o carvão ajuda a manter a mistura aberta; e uma pequena quantidade de esfagno cria reserva hídrica sem dominar o vaso.",
+        perfil: ["Raízes médias", "Boa aeração", "Umidade regular", "Secagem moderada", "Alta estabilidade", "Touceira"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
-        alerta: "A espécie não gosta de sombra profunda nem de mistura encharcada. Em placa, aumente a frequência de rega; em vaso plástico, controle a secagem antes de regar novamente."
+        itens: [
+            { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "30%", nota: "estrutura + durabilidade", finalidade: "Mantém macroporos e estabilidade estrutural por mais tempo." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "25%", nota: "estrutura + umidade", finalidade: "Complementa a estrutura e contribui para uma reserva moderada de umidade." },
+            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "20%", nota: "porosidade + leveza", finalidade: "Aumenta a oxigenação e reduz a tendência à compactação." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal médio", proporcao: "15%", nota: "macroporos + estabilidade", finalidade: "Mantém a mistura aberta e melhora a drenagem estrutural." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva hídrica", finalidade: "Mantém pequena reserva de água entre regas sem transformar a mistura em uma massa úmida." }
+        ],
+        alerta: "Mantenha o substrato arejado e com umidade regular, mas nunca permanentemente saturado. Evite compactar o esfagno e replante quando houver perda evidente de estrutura ou drenagem."
     },
     errosComuns: "Cultivar em sombra profunda; expor ao sol direto forte; manter o substrato permanentemente encharcado; usar mistura fina e compactada; usar vaso desproporcionalmente grande; dividir a touceira em porções muito pequenas; deixar os pseudobulbos enrugarem durante o crescimento ativo; impor repouso seco severo sem necessidade.",
     dica: "Evite dividir Aspasia lunata em mudas muito pequenas. Preserve ao menos três a quatro pseudobulbos adultos por divisão para manter reservas suficientes, recuperação rápida e maior capacidade de produzir hastes florais robustas. Mais importante que 'apertar' a planta é oferecer um vaso proporcional, muita aeração e boa luminosidade filtrada.",

@@ -126,6 +126,10 @@ export const bibliotecaCultivoV4 = {
     "arpophyllum-giganteum-vaso-plastico": {
         nome: "Arpophyllum giganteum — vaso plástico",
         imagem: "imagens/cultivo-v4/especies/arpophyllum-giganteum/vaso-plastico.webp"
+    },
+    "aspasia-lunata-vaso-plastico": {
+        nome: "Aspasia lunata — vaso plástico",
+        imagem: "imagens/cultivo-v4/especies/aspasia-lunata/vaso-plastico.webp"
     }
 };
 
