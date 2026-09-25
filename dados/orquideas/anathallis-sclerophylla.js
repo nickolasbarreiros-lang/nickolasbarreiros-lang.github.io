@@ -62,10 +62,10 @@ export const anathallisSclerophylla = {
         destaque: "Placa / tronco",
         resumo: "Espécie epífita de floresta tropical úmida, atualmente tratada por Kew como Stelis sclerophylla; prefere umidade frequente e raízes permanentemente oxigenadas.",
         metodos: [
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Mantém a planta bem ventilada e permite acompanhar a secagem das raízes com precisão." },
-            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Boa opção em jardim sombreado e úmido, desde que haja circulação de ar e a casca ofereça aderência." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Acomoda touceiras e inflorescências sem compactar a base, mantendo excelente drenagem." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Útil para reter um pouco mais de umidade em clima quente, desde que a mistura permaneça leve e o vaso seja pequeno." },
+            { nome: "Placa / tronco", asset: "anathallis-sclerophylla-placa", estrelas: 5, status: "Ideal", texto: "É a opção preferencial por reproduzir diretamente o hábito epífito da espécie. Mantém as raízes muito arejadas e permite crescimento em touceira, desde que haja umidade frequente e não ocorra ressecamento prolongado." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação e espaço para a touceira e para as inflorescências, mantendo pequena reserva de umidade junto às raízes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa prática com mistura leve e muito aerada. As aberturas laterais favorecem oxigenação e reduzem o risco de compactação." },
+            { nome: "Vaso plástico", asset: "vaso-plastico-comum", estrelas: 3, status: "Adequado", texto: "Pode ser usado em recipiente pequeno, com drenagem eficiente e substrato aberto, exigindo maior controle da umidade para preservar a aeração das raízes." }
         ]
     },
     substrato: [
@@ -74,41 +74,6 @@ export const anathallisSclerophylla = {
         "Chips de coco pequenos + casca de arroz carbonizada + carvão vegetal pequeno",
         "Casca de pinus fina/média + perlita grossa + esfagno solto"
     ],
-    cultivoPrincipal: {
-        destaque: "Placa / tronco",
-        metodos: [
-            {
-                nome: "Placa / tronco",
-                asset: "anathallis-sclerophylla-placa",
-                estrelas: 5,
-                selo: "IDEAL",
-                texto: "É a opção preferencial por reproduzir diretamente o hábito epífito da espécie. A montagem mantém as raízes muito arejadas e permite crescimento em touceira, desde que haja umidade frequente e não ocorra ressecamento prolongado."
-            },
-            {
-                nome: "Cesto de madeira",
-                asset: "cesto-madeira",
-                estrelas: 4,
-                selo: "MUITO RECOMENDADO",
-                texto: "Oferece excelente ventilação e espaço para a touceira, com a vantagem de permitir pequena reserva de umidade junto às raízes."
-            },
-            {
-                nome: "Vaso plástico vasado",
-                asset: "vaso-plastico-vasado",
-                estrelas: 4,
-                selo: "MUITO RECOMENDADO",
-                texto: "Boa alternativa prática quando preenchido com mistura leve e muito aerada. As aberturas laterais ajudam a evitar compactação e excesso de água."
-            },
-            {
-                nome: "Vaso plástico",
-                asset: "vaso-plastico-comum",
-                estrelas: 3,
-                selo: "ADEQUADO",
-                texto: "Pode ser usado em recipiente pequeno, com drenagem eficiente e substrato aberto, mas exige maior controle da umidade para não reduzir a aeração das raízes."
-            }
-        ],
-        perfil: ["Raízes finas", "Alta aeração", "Umidade frequente", "Secagem moderada", "Baixa compactação", "Crescimento cespitoso"]
-    },
-
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
