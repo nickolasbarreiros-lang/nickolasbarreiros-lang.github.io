@@ -38,29 +38,40 @@ export const arpophyllumGiganteum = {
     formasCultivo: {
         perfilVisual: "arpophyllum",
         destaque: "Vaso plástico",
-        resumo: "Espécie de porte robusto que forma touceiras grandes e aprecia substrato drenante mantido moderadamente úmido durante o crescimento; precisa de recipiente estável.",
+        resumo: "Orquídea epífita cespitosa de grande porte. Em cultivo, desenvolve-se muito bem em recipiente estável, com substrato estrutural e arejado que preserve umidade moderada sem sufocar as raízes.",
         metodos: [
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Ideal", texto: "Recipiente estável e proporcional à touceira conserva umidade moderada e facilita o manejo de plantas grandes." },
-            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Boa escolha em clima quente porque aumenta a evaporação e ajuda a evitar permanência de água junto às raízes." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Mantém excelente aeração e permite expansão da touceira, mas seca mais rápido e exige maior atenção à rega." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "É biologicamente possível para a epífita, porém plantas adultas ficam grandes e pesadas; exige suporte robusto e regas frequentes." },
+            { nome: "Vaso plástico", asset: "arpophyllum-giganteum-vaso-plastico", estrelas: 5, status: "Ideal", texto: "É a opção mais equilibrada para uma touceira adulta: mantém estabilidade, desacelera a perda de umidade e permite usar uma mistura muito aerada sem ressecar rapidamente." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Excelente para touceiras grandes e para manter forte oxigenação das raízes, exigindo apenas maior atenção à frequência das regas." },
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Oferece boa estabilidade e troca de ar pelas paredes porosas, mas seca mais rapidamente que o vaso plástico." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Funciona bem em ambientes muito úmidos, porém aumenta a velocidade de secagem e pode exigir regas mais frequentes no litoral quente." }
         ]
     },
-    substrato: ["🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.", "🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.", "🥉 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.", "⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco."],
+    substrato: [
+        "Casca de macadâmia média + carvão vegetal + casca de arroz carbonizada + esfagno solto",
+        "Casca de pinus média + carvão vegetal + perlita grossa + esfagno solto",
+        "Casca de macadâmia média + chips de coco médios + carvão vegetal",
+        "Casca de arroz carbonizada + perlita grossa + casca de macadâmia + pequena quantidade de turfa de esfagno"
+    ],
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Para cultivo em recipiente",
-        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
-        justificativa: "Orquidários brasileiros recomendam cascas e carvão, com substrato muito drenante mas mantido úmido. A receita substitui materiais menos usuais por coco e uma pequena fração de esfagno, mantendo a mistura aberta.",
-        receitaTexto: "Mistura-base sugerida: 45% casca de pinus média + 25% chips de coco médios + 20% carvão vegetal + 10% esfagno solto.",
-        perfil: ["Umidade moderada, sem saturação", "Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
-        itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "45%", nota: "estrutura + drenagem", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
-            { asset: "fibra-coco", nome: "Chips de coco médios", proporcao: "25%", nota: "umidade moderada", finalidade: "Retém umidade moderada mantendo estrutura e boa porosidade." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva discreta de umidade", finalidade: "Acrescenta uma reserva controlada de umidade sem dominar a mistura." },
+        contexto: "Para cultivo em vaso",
+        resumo: "Mistura estrutural de longa duração, com boa reserva hídrica e ampla aeração para uma touceira adulta que não deve ser replantada desnecessariamente.",
+        justificativa: "A casca de macadâmia entra como componente estrutural durável; o pinus mantém uma fração orgânica tradicional e funcional no cultivo brasileiro; o carvão amplia os macroporos e a estabilidade; a casca de arroz carbonizada mantém leveza e porosidade; e uma pequena fração de esfagno fornece reserva hídrica sem dominar a mistura.",
+        perfil: ["Raízes médias", "Boa aeração", "Umidade moderada", "Secagem moderada", "Alta estabilidade", "Touceira grande"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
-        alerta: "Não imponha repouso seco severo. A planta aprecia água durante o crescimento, mas o vaso nunca deve permanecer encharcado ou compactado."
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura + durabilidade", finalidade: "Forma a base estrutural da mistura, preservando espaços de ar e reduzindo a perda rápida de granulometria." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "25%", nota: "estrutura + umidade", finalidade: "Complementa a estrutura e oferece equilíbrio entre aeração e retenção, com uso consolidado em orquidários brasileiros." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal médio", proporcao: "20%", nota: "macroporos + estabilidade", finalidade: "Mantém a mistura aberta e estruturalmente estável." },
+            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "10%", nota: "leveza + porosidade", finalidade: "Aumenta a porosidade sem elevar muito a retenção ou o peso do vaso." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva hídrica", finalidade: "Fornece pequena reserva de umidade entre regas sem compactar a mistura." }
+        ],
+        alerta: "Evite compactar o substrato ao redor da base. Replante principalmente quando houver degradação estrutural da mistura ou perda de drenagem, evitando perturbar a touceira sem necessidade."
     },
     errosComuns: ["Cultivar em sombra excessiva e obter pseudobulbos alongados sem floração.", "Impor seca severa no inverno.", "Usar vaso leve ou instável para touceira grande.", "Manter substrato compacto e permanentemente molhado.", "Dividir touceiras repetidamente antes de acumularem reservas.", "Cultivar no litoral quente sem ventilação noturna suficiente.", "Enterrar demais o rizoma ou impedir sua expansão lateral."],
     revisaoCientificaIAR: {

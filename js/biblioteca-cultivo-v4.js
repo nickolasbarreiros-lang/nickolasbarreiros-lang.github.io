@@ -122,6 +122,10 @@ export const bibliotecaCultivoV4 = {
     "anathallis-sclerophylla-placa": {
         nome: "Anathallis sclerophylla — placa / tronco",
         imagem: "imagens/cultivo-v4/especies/anathallis-sclerophylla/placa-tronco.webp"
+    },
+    "arpophyllum-giganteum-vaso-plastico": {
+        nome: "Arpophyllum giganteum — vaso plástico",
+        imagem: "imagens/cultivo-v4/especies/arpophyllum-giganteum/vaso-plastico.webp"
     }
 };
 
