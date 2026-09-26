@@ -7,8 +7,8 @@ export const bifrenariaVerboonenii = {
     nome: "Bifrenaria verboonenii",
     genero: "Bifrenaria",
     nomeAceito: "Bifrenaria tyrianthina",
-    sinonimo: "Bifrenaria verboonenii G.A.Romero & V.P.Castro — sinônimo de Bifrenaria tyrianthina",
-    tipo: "Nome histórico de coleção — atualmente tratado como sinônimo de Bifrenaria tyrianthina",
+    sinonimo: "Bifrenaria tyrianthina (nome aceito por Kew)",
+    tipo: "Espécie botânica — nome atualmente tratado por Kew como Bifrenaria tyrianthina",
     dificuldade: "Moderada",
     caracteristicas: [
         "Nome histórico preservado",
@@ -24,11 +24,11 @@ export const bifrenariaVerboonenii = {
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii3.jpg",
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii4.jpg"
     ],
-    descricao: "Conhecida em coleções como Bifrenaria verboonenii, esta orquídea brasileira é hoje incluída em Bifrenaria tyrianthina. Tem pseudobulbos robustos, crescimento compacto e flores grandes e perfumadas. Na natureza está associada principalmente a ambientes rupícolas e afloramentos rochosos, o que explica sua preferência por muita aeração nas raízes, drenagem rápida e boa luminosidade.",
-    origem: "Brasil — Bahia e Minas Gerais",
-    regiao: "BA · MG",
-    habitat: "Principalmente rupícola · campos rupestres e afloramentos rochosos",
-    clima: "Tropical sazonal · quente a ameno · alta luminosidade",
+    descricao: "Uma Bifrenaria de presença marcante, com pseudobulbos robustos e flores grandes, carnosas e cerosas que chamam atenção tanto pela aparência quanto pelo perfume. As hastes são curtas e surgem junto à base dos pseudobulbos maduros, normalmente carregando poucas flores, mas de tamanho expressivo e boa duração. Encontrada em áreas montanas do Sudeste brasileiro, em altitudes elevadas, aprecia noites mais amenas e um inverno relativamente mais seco — característica que ajuda a entender por que pode exigir atenção extra quando cultivada no litoral quente.",
+    origem: "Brasil",
+    regiao: "BA · ES · MG",
+    habitat: "Epífita/litófita · 1.000–2.000 m",
+    clima: "Fresco · montano · inverno mais seco",
     climaFloracao: "A indução floral é favorecida pela maturação completa do pseudobulbo, boa luminosidade, noites mais frescas e redução sazonal das regas. Não é necessário impor seca absoluta. Em Litoral de clima quente, temperatura noturna elevada e raízes aquecidas são os principais fatores limitantes.",
     iluminacao: {
         sombrite: "40% a 50%",
