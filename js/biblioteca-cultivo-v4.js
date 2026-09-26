@@ -130,6 +130,10 @@ export const bibliotecaCultivoV4 = {
     "aspasia-lunata-vaso-plastico": {
         nome: "Aspasia lunata — vaso plástico",
         imagem: "imagens/cultivo-v4/especies/aspasia-lunata/vaso-plastico.webp"
+    },
+    "bifrenaria-aureofulva-vaso-barro": {
+        nome: "Bifrenaria aureofulva em vaso de barro",
+        imagem: "imagens/cultivo-v4/especies/bifrenaria-aureofulva/vaso-barro.webp"
     }
 };
 
@@ -148,10 +152,6 @@ export const perfisVisuaisCultivoV4 = {
             "cesto-madeira": { nome: "Cesto de madeira — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/cesto-madeira.webp" },
             "vaso-plastico-vasado": { nome: "Vaso plástico vasado — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/vaso-plastico-vasado.webp" }
         }
-    },
-    "bifrenaria-aureofulva-vaso-barro": {
-        nome: "Bifrenaria aureofulva em vaso de barro",
-        imagem: "imagens/cultivo-v4/especies/bifrenaria-aureofulva/vaso-barro.webp"
     },
 };
 

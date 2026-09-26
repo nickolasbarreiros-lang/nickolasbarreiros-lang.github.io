@@ -47,32 +47,31 @@ export const bifrenariaAureofulva = {
         ]
     },
     substrato: [
-        "Casca de macadâmia média + carvão vegetal médio + brita pequena/média + pouco esfagno.",
-        "Casca de pinus média + brita pequena/média + carvão vegetal médio + casca de arroz carbonizada.",
-        "Casca de macadâmia média + casca de arroz carbonizada + carvão vegetal médio + pouco esfagno.",
-        "Casca de pinus média + perlita grossa + carvão vegetal médio + pouco esfagno."
+        "Brita pequena/média + casca de macadâmia média + carvão vegetal médio.",
+        "Brita pequena/média + casca de pinus média + carvão vegetal médio.",
+        "Brita pequena/média + casca de arroz carbonizada + carvão vegetal médio + casca de macadâmia média.",
+        "Brita pura, com rega e adubação ajustadas ao cultivo mineral de baixíssima retenção."
     ],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
-        resumo: "Mistura estrutural muito arejada, com fração mineral relevante e pequena reserva hídrica.",
-        justificativa: "A espécie combina hábito epífito com registros rupícolas. A macadâmia fornece estrutura durável; a brita mantém macroporos e drenagem permanente; o pinus acrescenta uma fração orgânica tradicional; o carvão ajuda a conservar a mistura aberta; e uma pequena quantidade de esfagno evita secagem excessivamente brusca durante o crescimento ativo.",
-        receitaTexto: "30% casca de macadâmia média + 25% brita pequena/média + 20% casca de pinus média + 15% carvão vegetal médio + 10% esfagno solto.",
-        perfil: ["Raízes finas a médias", "Aeração muito alta", "Secagem rápida", "Alta estabilidade", "Baixa compactação", "Touceira pseudobulbosa"],
+        resumo: "Mistura de altíssima aeração e drenagem, com baixa retenção e estrutura durável.",
+        justificativa: "Bifrenarias exigem excelente oxigenação das raízes e não toleram substrato permanecendo molhado por longos períodos. A brita domina a drenagem e mantém macroporos permanentes; a macadâmia acrescenta estrutura orgânica durável; o carvão mantém a mistura aberta; e o pinus entra apenas como fração minoritária para oferecer pequena reserva de umidade sem reduzir excessivamente a aeração.",
+        receitaTexto: "35% brita pequena/média + 30% casca de macadâmia média + 20% carvão vegetal médio + 15% casca de pinus média.",
+        perfil: ["Raízes finas a médias", "Aeração máxima", "Baixa retenção", "Secagem muito rápida", "Alta estabilidade", "Baixa compactação"],
         itens: [
-            { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "30%", nota: "estrutura + durabilidade", finalidade: "Mantém macroporos e estabilidade estrutural por mais tempo, reduzindo a perda rápida de aeração da mistura." },
-            { asset: "brita-pura", nome: "Brita pequena/média", proporcao: "25%", nota: "drenagem + estabilidade", finalidade: "Cria uma fração mineral permanente, aumenta a drenagem e ajuda a estabilizar o vaso e a touceira." },
-            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "20%", nota: "estrutura + umidade", finalidade: "Acrescenta fração orgânica estrutural e uma reserva moderada de umidade sem dominar a mistura." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal médio", proporcao: "15%", nota: "macroporos + estabilidade", finalidade: "Ajuda a manter a mistura aberta, com boa circulação de ar e baixa tendência à compactação." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva hídrica", finalidade: "Mantém pequena reserva de água entre regas sem transformar a mistura em uma massa constantemente úmida." }
+            { asset: "brita-pura", nome: "Brita pequena/média", proporcao: "35%", nota: "drenagem + macroporos", finalidade: "Forma a base mineral da mistura, favorecendo drenagem muito rápida, oxigenação intensa e estabilidade estrutural." },
+            { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "30%", nota: "estrutura + durabilidade", finalidade: "Mantém grandes espaços de ar e acrescenta uma fração orgânica estrutural de degradação lenta." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal médio", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a conservar a mistura aberta e reduz a tendência de compactação ao longo do cultivo." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "15%", nota: "pequena reserva hídrica", finalidade: "Entra apenas como fração minoritária, fornecendo alguma retenção entre regas sem transformar a mistura em um substrato úmido." }
         ],
         comportamento: [
-            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Retenção", valor: 1, icone: "💧" },
             { nome: "Aeração", valor: 5, icone: "💨" },
-            { nome: "Secagem", valor: 4, icone: "☀️" },
+            { nome: "Secagem", valor: 5, icone: "☀️" },
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
-        alerta: "Regue fartamente enquanto houver brotos e raízes em crescimento, mas permita secagem perceptível entre regas. No período mais fresco, reduza a frequência sem impor seca prolongada nem deixar os pseudobulbos enrugarem."
+        alerta: "Não mantenha as raízes permanentemente molhadas. Regue abundantemente no crescimento ativo, mas permita secagem clara entre regas. Em clima quente, ajuste a frequência pela velocidade de secagem do vaso, sem compensar com materiais excessivamente retentivos."
     },
     errosComuns: "Tratar a espécie como planta de repouso totalmente seco; cultivar em sombra profunda; expor a sol forte; usar vasos muito grandes; manter substrato compacto ou degradado; reduzir a água antes do pseudobulbo amadurecer; replantar sem raízes novas iniciando; aplicar fertilizante concentrado em raízes sensíveis.",
     dica: "Trate-a como uma verdadeira orquídea do sol. Ela exige alta luminosidade (claridade intensa, mas sem sol direto) e vasos bem apertados com drenagem perfeita. O grande segredo para conseguir hastes repletas de flores laranjas é mantê-la com raízes restritas, boa ventilação e regas fartas apenas no período de crescimento ativo.",
