@@ -9735,3 +9735,35 @@ main.container{
     object-fit:cover !important;
     display:block !important;
 }
+
+
+/* =========================================================
+   V4.67 — REGRA PARA COMPOSIÇÕES COM EXATAMENTE 5 SUBSTRATOS
+   O 5º card ocupa a primeira coluna da segunda linha e as
+   informações de alerta/drenagem preenchem o espaço restante.
+========================================================= */
+.grade-finalidades-substrato-v4.cinco-cards{
+    align-items:stretch !important;
+}
+.grade-finalidades-substrato-v4.cinco-cards .complemento-cinco-substratos-v4{
+    grid-column:2 / -1 !important;
+    display:flex !important;
+    flex-direction:column !important;
+    gap:8px !important;
+    min-width:0 !important;
+}
+.grade-finalidades-substrato-v4.cinco-cards .complemento-cinco-substratos-v4 .alerta-substrato-v4,
+.grade-finalidades-substrato-v4.cinco-cards .complemento-cinco-substratos-v4 .dreno-vaso-substrato-v4{
+    margin:0 !important;
+    width:100% !important;
+    box-sizing:border-box !important;
+    flex:1 1 auto !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+}
+@media (max-width: 760px){
+    .grade-finalidades-substrato-v4.cinco-cards .complemento-cinco-substratos-v4{
+        grid-column:1 / -1 !important;
+    }
+}

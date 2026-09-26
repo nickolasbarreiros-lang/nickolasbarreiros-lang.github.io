@@ -587,13 +587,19 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                             ${config.justificativa ? `<p>${config.justificativa}</p>` : ""}
                         </div>
                     </div>
-                    <div class="grade-finalidades-substrato-v4">
+                    <div class="grade-finalidades-substrato-v4 ${itensValidos.filter((item) => item.finalidade).length === 5 ? "cinco-cards" : ""}">
                         ${itensValidos.filter((item) => item.finalidade).map((item) => `
                             <article class="finalidade-item-substrato-v4">
                                 <strong>${item.nome || item.assetInfo.nome}</strong>
                                 <span>${item.finalidade}</span>
                             </article>
                         `).join("")}
+                        ${itensValidos.filter((item) => item.finalidade).length === 5 ? `
+                            <div class="complemento-cinco-substratos-v4">
+                                ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
+                                <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres e use brita ou pedaços de isopor no fundo para melhorar a drenagem e a aeração das raízes.</div>
+                            </div>
+                        ` : ""}
                     </div>
                 </div>
             ` : ""}
@@ -618,9 +624,10 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                 </div>
             ` : ""}
 
-            ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
-
-            <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres e use brita ou pedaços de isopor no fundo para melhorar a drenagem e a aeração das raízes.</div>
+            ${itensValidos.filter((item) => item.finalidade).length !== 5 ? `
+                ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
+                <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres e use brita ou pedaços de isopor no fundo para melhorar a drenagem e a aeração das raízes.</div>
+            ` : ""}
 
             ${Array.isArray(recomendados) && recomendados.length ? `
                 <div class="substratos-recomendados-v4">
