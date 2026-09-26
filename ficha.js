@@ -541,7 +541,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
         <section class="substrato-visual-v4" aria-labelledby="titulo-substrato-visual-v4">
             <div class="cabecalho-substrato-visual-v4">
                 <div class="titulo-substrato-visual-v4">
-                    <span aria-hidden="true">🧱</span>
+                    <span class="icone-substrato-v4" aria-hidden="true"><img src="imagens/ui/icone-substrato-v4.webp" alt=""></span>
                     <div>
                         <h4 id="titulo-substrato-visual-v4">${config.titulo || "Substrato ideal"}</h4>
                         <p>${config.resumo || "Composição leve, aerada e de rápida drenagem."}</p>

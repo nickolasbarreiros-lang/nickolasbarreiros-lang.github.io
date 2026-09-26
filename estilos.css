@@ -9715,3 +9715,23 @@ main.container{
     width: 100% !important;
     text-align: center !important;
 }
+
+
+/* V4.66 — ícone semântico do bloco Substrato ideal */
+.titulo-substrato-visual-v4 .icone-substrato-v4{
+    width:38px !important;
+    height:38px !important;
+    flex:0 0 38px !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    overflow:hidden !important;
+    border-radius:10px !important;
+    background:#f3f6ef !important;
+}
+.titulo-substrato-visual-v4 .icone-substrato-v4 img{
+    width:100% !important;
+    height:100% !important;
+    object-fit:cover !important;
+    display:block !important;
+}
