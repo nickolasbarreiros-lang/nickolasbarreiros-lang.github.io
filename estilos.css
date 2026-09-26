@@ -9682,3 +9682,36 @@ main.container{
     column-gap:22px !important;
     row-gap:9px !important;
 }
+
+
+/* =========================================================
+   V4.65 — ALINHAMENTO DOS PERCENTUAIS DO SUBSTRATO
+   Mantém todos os percentuais na mesma linha mesmo quando
+   o nome do componente ocupa uma ou duas linhas.
+========================================================= */
+.ingrediente-substrato-v4 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+.ingrediente-substrato-v4 > strong {
+    min-height: 2.5em !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    width: 100% !important;
+    margin: 0 !important;
+    line-height: 1.25 !important;
+    text-align: center !important;
+}
+
+.ingrediente-substrato-v4 > .proporcao-substrato-v4 {
+    margin-top: 5px !important;
+    flex: 0 0 auto !important;
+}
+
+.ingrediente-substrato-v4 > small {
+    width: 100% !important;
+    text-align: center !important;
+}
