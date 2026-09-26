@@ -7,8 +7,8 @@ export const bifrenariaVerboonenii = {
     nome: "Bifrenaria verboonenii",
     genero: "Bifrenaria",
     nomeAceito: "Bifrenaria tyrianthina",
-    sinonimo: "Bifrenaria tyrianthina (nome aceito por Kew)",
-    tipo: "Espécie botânica — nome atualmente tratado por Kew como Bifrenaria tyrianthina",
+    sinonimo: "Bifrenaria verboonenii G.A.Romero & V.P.Castro — sinônimo de Bifrenaria tyrianthina",
+    tipo: "Nome histórico de coleção — atualmente tratado como sinônimo de Bifrenaria tyrianthina",
     dificuldade: "Moderada",
     caracteristicas: [
         "Nome histórico preservado",
@@ -24,11 +24,11 @@ export const bifrenariaVerboonenii = {
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii3.jpg",
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii4.jpg"
     ],
-    descricao: "Uma Bifrenaria de presença marcante, com pseudobulbos robustos e flores grandes, carnosas e cerosas que chamam atenção tanto pela aparência quanto pelo perfume. As hastes são curtas e surgem junto à base dos pseudobulbos maduros, normalmente carregando poucas flores, mas de tamanho expressivo e boa duração. Encontrada em áreas montanas do Sudeste brasileiro, em altitudes elevadas, aprecia noites mais amenas e um inverno relativamente mais seco — característica que ajuda a entender por que pode exigir atenção extra quando cultivada no litoral quente.",
-    origem: "Brasil",
-    regiao: "BA · ES · MG",
-    habitat: "Epífita/litófita · 1.000–2.000 m",
-    clima: "Fresco · montano · inverno mais seco",
+    descricao: "Conhecida em coleções como Bifrenaria verboonenii, esta orquídea brasileira é hoje incluída em Bifrenaria tyrianthina. Tem pseudobulbos robustos, crescimento compacto e flores grandes e perfumadas. Na natureza está associada principalmente a ambientes rupícolas e afloramentos rochosos, o que explica sua preferência por muita aeração nas raízes, drenagem rápida e boa luminosidade.",
+    origem: "Brasil — Bahia e Minas Gerais",
+    regiao: "BA · MG",
+    habitat: "Principalmente rupícola · campos rupestres e afloramentos rochosos",
+    clima: "Tropical sazonal · quente a ameno · alta luminosidade",
     climaFloracao: "A indução floral é favorecida pela maturação completa do pseudobulbo, boa luminosidade, noites mais frescas e redução sazonal das regas. Não é necessário impor seca absoluta. Em Litoral de clima quente, temperatura noturna elevada e raízes aquecidas são os principais fatores limitantes.",
     iluminacao: {
         sombrite: "40% a 50%",
@@ -43,35 +43,41 @@ export const bifrenariaVerboonenii = {
     dica: "🏆 Esqueça tentar imitar fendas de rocha e foque no frescor das raízes. Use vasos de barro ou cachepôs altamente ventilados com um substrato bem grosso e de drenagem imediata (casca de pinus, brita e carvão). Posicione a planta no local mais fresco e arejado do cultivo, mantendo regas fartas na fase de crescimento, espaçando no inverno e replantando estritamente quando surgirem as primeiras pontas de novas raízes.",
     formasCultivo: {
         perfilVisual: "bifrenaria",
-        destaque: "Vaso de barro perfurado",
-        resumo: "A espécie aceita secagem clara entre regas e aprecia alta luminosidade, mas precisa de raízes muito aeradas e noites mais frescas para manter bom desempenho.",
+        destaque: "Vaso de barro",
+        resumo: "O vaso de barro oferece o melhor equilíbrio entre estabilidade, evaporação e aeração para esta Bifrenaria de forte afinidade rupícola.",
         metodos: [
-            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 5, status: "Ideal", texto: "É a combinação mais segura para raízes grossas e sensíveis ao encharcamento, favorecendo evaporação e resfriamento." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Excelente para alta aeração e secagem rápida, especialmente em regiões úmidas." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode ser utilizado com mistura grossa e pouca retenção; evite aquecimento excessivo do recipiente." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 2, status: "Pouco recomendado", texto: "É possível em ambiente muito úmido e com rega consistente, mas aumenta demais a oscilação hídrica para esta Bifrenaria de maior porte." }
+            { nome: "Vaso de barro", asset: "bifrenaria-verboonenii-vaso-barro", estrelas: 5, status: "Ideal", texto: "Favorece secagem rápida e ajuda a manter as raízes mais frescas e oxigenadas, sem a oscilação extrema de uma montagem nua." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Funciona muito bem com mistura mineral e estrutural bastante aberta, desde que não permaneça úmida por longos períodos." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação e drenagem, especialmente em locais úmidos e bem ventilados." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Biologicamente possível, mas exige regas mais frequentes e controle maior da desidratação durante o crescimento ativo." }
         ]
     },
     substrato: [
-        "Em vaso de barro: casca de pinus grossa + casca de macadâmia + carvão vegetal + brita pequena.",
-        "Use partículas grossas e mantenha o colo dos pseudobulbos acima da mistura.",
-        "No inverno, a redução de regas deve acompanhar a menor atividade da planta.",
-        "Evite esfagno em grande quantidade e qualquer mistura que permaneça molhada por muitos dias."
+        "Brita + casca de macadâmia + carvão vegetal.",
+        "Brita + casca de pinus média + carvão vegetal.",
+        "Brita + casca de arroz carbonizada + carvão vegetal + macadâmia.",
+        "Brita pura, com rega e adubação ajustadas ao cultivo mineral."
     ],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
-        resumo: "Mistura grossa e de secagem clara, adequada a raízes que não toleram abafamento prolongado.",
-        justificativa: "O nome Bifrenaria verboonenii é atualmente tratado por Kew como sinônimo de Bifrenaria tyrianthina, espécie epífita ou litófita de áreas com estação seca. Por isso, a mistura privilegia aeração e drenagem, sem reserva hídrica excessiva.",
-        receitaTexto: "Mistura-base sugerida: 40% casca de pinus grossa + 25% casca de macadâmia + 20% carvão vegetal + 15% brita pequena.",
-        perfil: ["Raízes robustas", "Secagem entre regas", "Alta aeração", "Inverno mais seco", "Boa luminosidade"],
+        resumo: "Mistura muito aberta, predominantemente mineral e estrutural, pensada para secar rapidamente sem perder estabilidade.",
+        justificativa: "O tratamento taxonômico atual inclui Bifrenaria verboonenii em Bifrenaria tyrianthina, registrada no Brasil principalmente como rupícola em campos rupestres e afloramentos rochosos. A mistura prioriza oxigenação, drenagem e estabilidade estrutural ao longo do tempo.",
+        receitaTexto: "Mistura-base sugerida: 40% brita pequena/média + 25% casca de macadâmia média + 20% carvão vegetal médio + 15% casca de pinus média.",
+        perfil: ["Raízes robustas", "Aeração máxima", "Baixa retenção", "Secagem muito rápida", "Alta estabilidade", "Baixa compactação"],
+        comportamento: {
+            retencao: 1,
+            aeracao: 5,
+            secagem: 5,
+            compactacao: 1
+        },
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "40%", nota: "estrutura", finalidade: "Garante volume e espaços de ar para raízes robustas." },
-            { asset: "macadamia", nome: "Casca de macadâmia", proporcao: "25%", nota: "drenagem + estrutura", finalidade: "Mantém a mistura irregular e pouco compactável." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração", finalidade: "Favorece troca gasosa e rápida perda do excesso de água." },
-            { asset: "brita-pura", nome: "Brita pequena", proporcao: "15%", nota: "drenagem + peso", finalidade: "Melhora drenagem e dá estabilidade ao vaso sem elevar a retenção." }
+            { asset: "brita-pura", nome: "Brita pequena/média", proporcao: "40%", nota: "base mineral", finalidade: "Mantém grandes espaços de ar, drenagem imediata e estabilidade física." },
+            { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "25%", nota: "estrutura durável", finalidade: "Acrescenta estrutura orgânica resistente sem fechar a mistura rapidamente." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal médio", proporcao: "20%", nota: "aeração", finalidade: "Mantém porosidade e reduz a tendência de compactação." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "15%", nota: "fração orgânica", finalidade: "Fornece pequena reserva hídrica e superfície para raízes sem dominar a mistura." }
         ],
-        alerta: "Mantenha os pseudobulbos acima do substrato e reduza a frequência de rega quando o crescimento estiver maduro."
+        alerta: "Evite manter as raízes permanentemente úmidas. Durante o crescimento ativo, regue abundantemente e deixe ocorrer secagem clara antes da próxima rega."
     },
     errosComuns: [
         "Manter o vaso constantemente úmido.",
@@ -87,8 +93,8 @@ export const bifrenariaVerboonenii = {
         "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Bifrenaria tyrianthina.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
         "morfologiaDimensoes": "Uma Bifrenaria de presença marcante, com pseudobulbos robustos e flores grandes, carnosas e cerosas que chamam atenção tanto pela aparência quanto pelo perfume. As hastes são curtas e surgem junto à base dos pseudobulbos maduros, normalmente carregando poucas flores, mas de tamanho expressivo e boa duração. Encontrada em áreas montanas do Sudeste brasileiro, em altitudes elevad",
-        "habitatAltitudeClima": "Epífita/litófita · 1.000–2.000 m | Fresco · montano · inverno mais seco",
-        "distribuicaoGeografica": "BA · ES · MG",
+        "habitatAltitudeClima": "Principalmente rupícola · campos rupestres e afloramentos rochosos | tropical sazonal",
+        "distribuicaoGeografica": "Ocorrências confirmadas: BA · MG",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
         "confianca": "media",
         "fontes": [
