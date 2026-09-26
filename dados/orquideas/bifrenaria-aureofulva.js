@@ -38,28 +38,41 @@ export const bifrenariaAureofulva = {
     formasCultivo: {
         perfilVisual: "bifrenaria",
         destaque: "Vaso de barro",
-        resumo: "Bifrenaria pequena, epífita e também registrada como saxícola; exige drenagem muito eficiente e raízes arejadas, especialmente durante períodos mais frescos.",
+        resumo: "Espécie pseudobulbosa brasileira, epífita e também registrada como rupícola; responde melhor a cultivo firme, muito drenante e arejado, sem permanecer encharcada junto à base dos pseudobulbos.",
         metodos: [
-            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 5, status: "Ideal", texto: "A porosidade ajuda a evitar excesso de umidade junto aos pseudobulbos e combina bem com a necessidade de secagem clara entre regas." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Funciona com recipiente raso e mistura muito drenante; por reter mais umidade, requer controle maior da frequência de rega." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Excelente drenagem e ventilação para raízes e base dos pseudobulbos, com secagem mais rápida." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "É possível por seu hábito epífito, porém exige regas mais frequentes e fixação firme para uma planta pseudobulbosa." },
+            { nome: "Vaso de barro", asset: "bifrenaria-aureofulva-vaso-barro", estrelas: 5, status: "Ideal", texto: "Combina estabilidade para a touceira com maior troca gasosa e secagem mais segura da mistura, reduzindo o risco de umidade persistente junto aos pseudobulbos." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação lateral e drenagem; exige atenção para não secar rápido demais durante o crescimento ativo." },
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 4, status: "Muito recomendado", texto: "Funciona bem com vaso proporcional à touceira e mistura estrutural muito drenante, controlando a frequência de rega por reter umidade por mais tempo." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 3, status: "Adequado", texto: "Mantém alta aeração e drenagem, mas acelera bastante a secagem e aumenta a necessidade de regas no período quente." }
         ]
     },
-    substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
+    substrato: [
+        "Casca de macadâmia média + carvão vegetal médio + brita pequena/média + pouco esfagno.",
+        "Casca de pinus média + brita pequena/média + carvão vegetal médio + casca de arroz carbonizada.",
+        "Casca de macadâmia média + casca de arroz carbonizada + carvão vegetal médio + pouco esfagno.",
+        "Casca de pinus média + perlita grossa + carvão vegetal médio + pouco esfagno."
+    ],
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Para cultivo em recipiente",
-        resumo: "Mistura-base prática definida pelo hábito da espécie, pelas fontes botânicas e pela prática de cultivo brasileira.",
-        justificativa: "Cultivador brasileiro de B. aureofulva recomenda partes iguais de casca de pinus, carvão vegetal e pedra brita, destacando a importância crítica da drenagem para evitar apodrecimento de raízes e pseudobulbos.",
-        receitaTexto: "Mistura-base sugerida: ≈33% casca de pinus média + ≈33% carvão vegetal + ≈33% brita pequena/média.",
-        perfil: ["Boa aeração", "Drenagem eficiente", "Materiais usuais no cultivo brasileiro"],
+        contexto: "Para cultivo em vaso",
+        resumo: "Mistura estrutural muito arejada, com fração mineral relevante e pequena reserva hídrica.",
+        justificativa: "A espécie combina hábito epífito com registros rupícolas. A macadâmia fornece estrutura durável; a brita mantém macroporos e drenagem permanente; o pinus acrescenta uma fração orgânica tradicional; o carvão ajuda a conservar a mistura aberta; e uma pequena quantidade de esfagno evita secagem excessivamente brusca durante o crescimento ativo.",
+        receitaTexto: "30% casca de macadâmia média + 25% brita pequena/média + 20% casca de pinus média + 15% carvão vegetal médio + 10% esfagno solto.",
+        perfil: ["Raízes finas a médias", "Aeração muito alta", "Secagem rápida", "Alta estabilidade", "Baixa compactação", "Touceira pseudobulbosa"],
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "\u224833%", nota: "estrutura + drenagem", finalidade: "Mantém estrutura e espaços de ar ao redor das raízes." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "\u224833%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter a mistura aberta, estável e de baixa compactação." },
-            { asset: "brita-pura", nome: "Brita pequena/média", proporcao: "\u224833%", nota: "drenagem + secagem clara", finalidade: "Cria drenagem permanente e reduz retenção excessiva de água." },
+            { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "30%", nota: "estrutura + durabilidade", finalidade: "Mantém macroporos e estabilidade estrutural por mais tempo, reduzindo a perda rápida de aeração da mistura." },
+            { asset: "brita-pura", nome: "Brita pequena/média", proporcao: "25%", nota: "drenagem + estabilidade", finalidade: "Cria uma fração mineral permanente, aumenta a drenagem e ajuda a estabilizar o vaso e a touceira." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "20%", nota: "estrutura + umidade", finalidade: "Acrescenta fração orgânica estrutural e uma reserva moderada de umidade sem dominar a mistura." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal médio", proporcao: "15%", nota: "macroporos + estabilidade", finalidade: "Ajuda a manter a mistura aberta, com boa circulação de ar e baixa tendência à compactação." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva hídrica", finalidade: "Mantém pequena reserva de água entre regas sem transformar a mistura em uma massa constantemente úmida." }
         ],
-        alerta: "Use vaso preferencialmente raso e nunca permita água acumulada na base dos pseudobulbos. Reduza a rega no frio, mas não imponha seca prolongada."
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "☀️" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        alerta: "Regue fartamente enquanto houver brotos e raízes em crescimento, mas permita secagem perceptível entre regas. No período mais fresco, reduza a frequência sem impor seca prolongada nem deixar os pseudobulbos enrugarem."
     },
     errosComuns: "Tratar a espécie como planta de repouso totalmente seco; cultivar em sombra profunda; expor a sol forte; usar vasos muito grandes; manter substrato compacto ou degradado; reduzir a água antes do pseudobulbo amadurecer; replantar sem raízes novas iniciando; aplicar fertilizante concentrado em raízes sensíveis.",
     dica: "Trate-a como uma verdadeira orquídea do sol. Ela exige alta luminosidade (claridade intensa, mas sem sol direto) e vasos bem apertados com drenagem perfeita. O grande segredo para conseguir hastes repletas de flores laranjas é mantê-la com raízes restritas, boa ventilação e regas fartas apenas no período de crescimento ativo.",

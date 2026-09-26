@@ -148,7 +148,12 @@ export const perfisVisuaisCultivoV4 = {
             "cesto-madeira": { nome: "Cesto de madeira — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/cesto-madeira.webp" },
             "vaso-plastico-vasado": { nome: "Vaso plástico vasado — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/vaso-plastico-vasado.webp" }
         }
-    }};
+    },
+    "bifrenaria-aureofulva-vaso-barro": {
+        nome: "Bifrenaria aureofulva em vaso de barro",
+        imagem: "imagens/cultivo-v4/especies/bifrenaria-aureofulva/vaso-barro.webp"
+    },
+};
 
 export function obterAssetCultivoV4(id, perfilVisual = "") {
     const perfil = perfisVisuaisCultivoV4[perfilVisual];
