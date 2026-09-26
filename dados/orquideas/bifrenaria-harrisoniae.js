@@ -4,7 +4,6 @@ export const bifrenariaHarrisoniae = {
     id: "bifrenaria-harrisoniae",
     nome: "Bifrenaria harrisoniae",
     genero: "Bifrenaria",
-    sinonimo: "Dendrobium harrisoniae",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: [
@@ -19,171 +18,68 @@ export const bifrenariaHarrisoniae = {
         "imagens/Bifrenaria harrisoniae/Bifrenaria harrisoniae3.jpg",
         "imagens/Bifrenaria harrisoniae/Bifrenaria harrisoniae4.jpg",
     ],
-    descricao: "Uma das Bifrenaria brasileiras mais vistosas, a Bifrenaria harrisoniae combina uma planta robusta com flores grandes, carnosas e cerosas, que podem chegar a cerca de 7,5 cm. As flores costumam ser claras, com um belo labelo rosado a púrpura, e muitas plantas ainda oferecem um agradável perfume frutado. Nativa das regiões Sudeste e Sul do Brasil, pode crescer tanto sobre árvores quanto sobre rochas em ambientes úmidos. Seus pseudobulbos grossos e profundamente sulcados armazenam água e sustentam uma grande folha plicada, dando à planta uma aparência marcante mesmo fora da floração. Existe bastante variação natural entre indivíduos, especialmente na intensidade das cores e nas marcações das flores.",
-    origem: "Brasil",
-    regiao: "Sudeste e Sul do Brasil · Mata Atlântica",
-    habitat: "Mata úmida e rochedos claros · epífita/litófita · 200–700 m*.",
-    clima: "Quente a intermediário · claro e ventilado.",
+    descricao: "Bifrenaria harrisoniae (Hook.) Rchb.f. é uma espécie botânica brasileira de porte médio a grande, nativa principalmente das regiões Sudeste e Sul. Forma pseudobulbos robustos e agrupados, sustentando folhas firmes e coriáceas. As inflorescências são basais, curtas e normalmente carregam poucas flores grandes, carnosas e cerosas, em geral claras, com labelo contrastante rosa a arroxeado. As flores podem atingir aproximadamente 7 a 8 cm e apresentar perfume agradável, por vezes com notas frutadas.",
+    origem: "Endêmica do Brasil.",
+    regiao: "Regiões Sudeste e Sul, associada à Mata Atlântica, serras costeiras e ambientes rochosos.",
+    habitat: "Epífita ou rupícola de florestas úmidas, encostas rochosas e paredões claros e ventilados. Ocorre em ampla variação altitudinal, com registros típicos em cotas médias e também populações rupícolas mais elevadas.",
+    clima: "Quente a intermediário durante o crescimento, com boa ventilação e noites mais frescas favorecendo a maturação e a floração.",
     climaFloracao: "A floração depende de pseudobulbos completamente maduros, alta luminosidade filtrada, raízes bem ventiladas e leve redução da frequência de rega após o crescimento. Não necessita de repouso seco rigoroso; a planta deve permanecer hidratada sem substrato constantemente molhado.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Permitido com restrição",
-        horario: "Início da manhã ou final da tarde",
+        solDireto: "Sim, suave e com aclimatação",
+        horario: "Primeiras horas da manhã",
         observacoes: "Necessita luminosidade alta. Folhas muito escuras e pseudobulbos alongados sugerem excesso de sombra; uma leve pigmentação avermelhada pode ser normal, enquanto manchas secas e amareladas indicam queimadura."
     },
-    floracao: "Floresce principalmente no início do verão, após a maturação do crescimento. As inflorescências basais são curtas, frequentemente duas por pseudobulbo recente, e podem portar até duas flores grandes, carnosas e perfumadas, com cerca de 7,5 cm. IOSPE cita populações costeiras entre 200–700 m, mas há registros rupícolas em cotas mais altas, como cerca de 1.150 m; por isso a altitude varia entre populações e não deve ser usada sozinha para definir a exigência térmica da espécie.",
+    floracao: "Floresce principalmente do final da primavera ao verão, com referência prática entre novembro e fevereiro.",
     adubacao: "🌿 Orgânica: bokashi em pequena dose durante o crescimento ativo, protegido em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração enquanto houver brotação e raízes em atividade.\n🧪 Liberação lenta: Osmocote em dose reduzida no início da fase vegetativa. Após a maturação dos pseudobulbos, reduza significativamente a frequência e a concentração da adubação; retome o ritmo normal quando novas raízes e brotos surgirem.",
     rega: "Regue abundantemente durante a brotação e desenvolvimento dos pseudobulbos, permitindo secagem parcial do substrato entre irrigações. Após a maturação, aumente gradualmente o intervalo entre as regas, sem manter a planta completamente seca por longos períodos nem permitir enrugamento severo.",
-    suporte: "🥇 Vaso de barro pesado e proporcional à massa radicular.\n🥈 Cachepô de madeira firme e muito ventilado.\n🥉 Cesto raso ou recipiente bem aberto com drenagem imediata.",
-    substrato: "🥇 Casca de macadâmia média + pinus médio + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + pedra-pomes + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + pedra-pomes + carvão + chips de coco em baixa proporção.",
-    errosComuns: "Cultivar em sombra excessiva; usar vaso muito maior que a massa radicular; manter o substrato constantemente molhado; empregar misturas finas ou compactadas; reduzir as regas antes da maturação dos pseudobulbos; replantar sem início de novas raízes; impor repouso seco severo; suspender nutrientes de forma abrupta enquanto ainda houver crescimento ativo.",
-    dica: "Esqueça o mito de que ela precisa de raízes espremidas para florescer; o vaso justo serve apenas para evitar o acúmulo de umidade em excesso ao redor do sistema radicular. Para ver suas grandes flores cerosas e perfumadas, o verdadeiro segredo é mantê-la entouceirada por anos — preservando a estabilidade e evitando mexer nas raízes —, combinando essa estrutura com luz filtrada abundante, regas generosas na fase de crescimento e um substrato de drenagem impecável.",
-    revisaoCientificaIAR: {
-        "nome": "Bifrenaria harrisoniae",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma das Bifrenaria brasileiras mais vistosas, a Bifrenaria harrisoniae combina uma planta robusta com flores grandes, carnosas e cerosas, que podem chegar a cerca de 7,5 cm. As flores costumam ser claras, com um belo labelo rosado a púrpura, e muitas plantas ainda oferecem um agradável perfume frutado. Nativa das regiões Sudeste e Sul do Brasil, pode crescer tanto sobre árvores",
-        "habitatAltitudeClima": "Mata úmida e rochedos claros · epífita/litófita · 200–700 m*. | Quente a intermediário · claro e ventilado.",
-        "distribuicaoGeografica": "Sudeste e Sul do Brasil · Mata Atlântica.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
-        "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
+    suporte: "Cesto de madeira suspenso é a escolha principal. Vaso de barro e vaso plástico vasado também funcionam muito bem quando a mistura é extremamente drenante.",
+    formasCultivo: {
+        perfilVisual: "bifrenaria",
+        destaque: "Cesto de madeira",
+        resumo: "Bifrenaria brasileira de hábito epífito e rupícola, favorecida por cultivo muito drenante, raízes intensamente ventiladas e secagem rápida após as regas.",
+        metodos: [
+            { nome: "Cesto de madeira", asset: "bifrenaria-harrisoniae-cesto", estrelas: 5, status: "Ideal", texto: "É a combinação mais segura entre sustentação da touceira, drenagem rápida e ventilação intensa das raízes, especialmente em clima quente e úmido." },
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Boa estabilidade e troca gasosa, com secagem mais rápida da mistura e menor risco de umidade persistente junto aos pseudobulbos." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "As aberturas laterais favorecem forte circulação de ar e drenagem; exige acompanhamento da secagem no período quente." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Muito recomendado", texto: "Compatível com o hábito epífito e proporciona excelente oxigenação, mas requer regas mais frequentes porque praticamente não existe reserva hídrica." }
         ]
     },
-    indiceDificuldadeCultivo: {
-        "versao": "IDC 3.2 — selo por facilidade",
-        "escala": "dificuldade",
-        "indice": 38,
-        "classificacao": "Moderada",
-        "cultivoEstrelas": 3,
-        "criterios": {
-            "temperatura": {
-                "notaDificuldade": 2,
-                "peso": 15
-            },
-            "rega": {
-                "notaDificuldade": 2,
-                "peso": 15
-            },
-            "umidade": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "ventilacao": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "luminosidade": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "raizesSubstrato": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "sazonalidade": {
-                "notaDificuldade": 1,
-                "peso": 10
-            },
-            "floracao": {
-                "notaDificuldade": 2,
-                "peso": 20
-            }
-        },
-        "faixas": {
-            "facil": "0–25",
-            "moderada": "26–50",
-            "dificil": "51–89",
-            "extrema": "90–100"
-        }
+    substrato: [
+        "Brita pequena/média + casca de macadâmia média + carvão vegetal médio.",
+        "Brita pequena/média + casca de pinus média + carvão vegetal médio.",
+        "Brita pequena/média + casca de arroz carbonizada + carvão vegetal médio + casca de macadâmia média.",
+        "Brita pura, com rega e adubação ajustadas ao cultivo mineral de baixíssima retenção."
+    ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em cesto ou vaso",
+        resumo: "Mistura de altíssima aeração e drenagem, com baixa retenção e estrutura durável.",
+        justificativa: "Bifrenaria harrisoniae exige excelente oxigenação radicular e não deve permanecer com as raízes molhadas por longos períodos. A brita mantém drenagem e macroporos permanentes; a macadâmia acrescenta estrutura orgânica durável; o carvão ajuda a conservar a mistura aberta; e o pinus entra apenas como fração minoritária para oferecer pequena reserva de umidade sem comprometer a aeração.",
+        receitaTexto: "35% brita pequena/média + 30% casca de macadâmia média + 20% carvão vegetal médio + 15% casca de pinus média.",
+        perfil: ["Raízes finas a médias", "Aeração máxima", "Baixa retenção", "Secagem muito rápida", "Alta estabilidade", "Baixa compactação"],
+        itens: [
+            { asset: "brita-pura", nome: "Brita pequena/média", proporcao: "35%", nota: "drenagem + macroporos", finalidade: "Forma a base mineral da mistura e mantém drenagem muito rápida, oxigenação intensa e estabilidade estrutural." },
+            { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "30%", nota: "estrutura + durabilidade", finalidade: "Mantém grandes espaços de ar e fornece uma fração orgânica estrutural de degradação lenta." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal médio", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a manter o substrato aberto e reduz a tendência de compactação ao longo do cultivo." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "15%", nota: "pequena reserva hídrica", finalidade: "Entra apenas como fração minoritária, oferecendo alguma retenção entre regas sem manter as raízes constantemente úmidas." }
+        ],
+        comportamento: [
+            { nome: "Retenção", valor: 1, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 5, icone: "☀️" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        alerta: "Não mantenha as raízes permanentemente molhadas. Regue abundantemente durante o crescimento ativo e permita secagem clara entre regas. Em cestos muito ventilados, ajuste a frequência de rega sem recorrer a materiais excessivamente retentivos."
     },
-    indiceAdaptacaoRegional: {
-        "versao": "IAR 2.0 — revisão científica",
-        "escala": "compatibilidade regional",
-        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
-        "litoralQuente": {
-            "indice": 97,
-            "estrelas": 5,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 5,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 5,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 3,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 5,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 5,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 5,
-                    "peso": 20
-                }
-            }
-        },
-        "montanhaFrio": {
-            "indice": 63,
-            "estrelas": 4,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 3,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 3,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 3,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 3,
-                    "peso": 20
-                }
-            }
-        }
+    errosComuns: "Cultivar em sombra excessiva; usar vaso muito maior que a massa radicular; manter o substrato constantemente molhado; empregar misturas finas ou compactadas; reduzir as regas antes da maturação dos pseudobulbos; replantar sem início de novas raízes; impor repouso seco severo; suspender nutrientes de forma abrupta enquanto ainda houver crescimento ativo.",
+    dica: "Priorize cesto ou recipiente proporcional, estável e de secagem previsível. O ponto decisivo é evitar excesso de substrato úmido ao redor das raízes. Combine alta luminosidade filtrada, drenagem excelente, estabilidade radicular e preservação de touceiras adultas.",
+    adaptacaoRegional: {
+        litoralQuente: "Prefira cesto de madeira, vaso de barro ou vaso plástico vasado, sempre com forte circulação de ar, 40% a 50% de sombra e regas matinais. Em Serra/ES, evite calor abafado e mantenha a mistura de secagem rápida sem impor seca prolongada.",
+        montanhaFrio: "A queda natural da temperatura noturna favorece a floração. Proteja de geadas e evite que o substrato permaneça frio e encharcado por vários dias."
     },
-        adaptacaoRegional: {
-        litoralQuente: { texto: "Cultive em vaso de barro ou cachepô aberto, com forte circulação de ar, 40% a 50% de sombra e regas matinais. Em Litoral de clima quente, evite calor abafado e mantenha o substrato de secagem rápida sem impor seca prolongada." },
-        montanhaFrio: { texto: "A queda natural da temperatura noturna favorece a floração. Proteja de geadas e evite que o substrato permaneça frio e encharcado por vários dias." }
-    },
-    mesesFloracao: [11, 12, 1],
-    "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
-        "climaFloracao": { "faixa": "quente" }
-    },
-        avaliacoes: {
+    mesesFloracao: [11, 12, 1, 2],
+    avaliacoes: {
         cultivo: 3,
         floracao: 4,
         perfume: 3,

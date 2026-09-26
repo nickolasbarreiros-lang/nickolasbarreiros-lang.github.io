@@ -134,6 +134,10 @@ export const bibliotecaCultivoV4 = {
     "bifrenaria-aureofulva-vaso-barro": {
         nome: "Bifrenaria aureofulva em vaso de barro",
         imagem: "imagens/cultivo-v4/especies/bifrenaria-aureofulva/vaso-barro.webp"
+    },
+    "bifrenaria-harrisoniae-cesto": {
+        nome: "Bifrenaria harrisoniae em cesto de madeira",
+        imagem: "imagens/cultivo-v4/especies/bifrenaria-harrisoniae/cesto-madeira.webp"
     }
 };
 
