@@ -17,15 +17,122 @@ function resumoFloracao(orquidea) {
   return `${nomesMeses[ordenados[0]-1]} – ${nomesMeses[ordenados.at(-1)-1]}`;
 }
 
+// Destaques semanais determinísticos.
+// A semana começa na segunda-feira. O mesmo conjunto permanece fixo durante
+// toda a semana e muda automaticamente na segunda seguinte.
+function inicioDaSemana(data = new Date()) {
+  const d = new Date(data.getFullYear(), data.getMonth(), data.getDate());
+  const dia = d.getDay();
+  const deslocamento = dia === 0 ? -6 : 1 - dia;
+  d.setDate(d.getDate() + deslocamento);
+  d.setHours(12, 0, 0, 0);
+  return d;
+}
+
+function chaveDaSemana(data = new Date()) {
+  const segunda = inicioDaSemana(data);
+  const inicioAno = new Date(segunda.getFullYear(), 0, 1, 12);
+  const dias = Math.floor((segunda - inicioAno) / 86400000);
+  const semana = Math.floor((dias + inicioAno.getDay() + 6) / 7) + 1;
+  return `${segunda.getFullYear()}-S${String(semana).padStart(2, "0")}`;
+}
+
+function hashDeterministico(texto) {
+  let h = 2166136261;
+  for (const caractere of String(texto)) {
+    h ^= caractere.charCodeAt(0);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+function temFotoValida(orquidea) {
+  return Array.isArray(orquidea?.fotos) && orquidea.fotos.some(foto => {
+    if (typeof foto === "string") return foto.trim() !== "";
+    return Boolean(foto && typeof foto === "object" && (foto.src || foto.url || foto.arquivo));
+  });
+}
+
+function ordenarPelaSemana(lista, chave, grupo) {
+  return [...lista].sort((a, b) => {
+    const ha = hashDeterministico(`${chave}|${grupo}|${a?.id || a?.nome || ""}`);
+    const hb = hashDeterministico(`${chave}|${grupo}|${b?.id || b?.nome || ""}`);
+    return ha - hb || String(a?.nome || "").localeCompare(String(b?.nome || ""), "pt-BR");
+  });
+}
+
+function escolherComGenerosVariados(lista, quantidade, usados, generosUsados) {
+  const escolhidos = [];
+  const disponiveis = lista.filter(o => !usados.has(o.id || o.nome));
+
+  for (const o of disponiveis) {
+    const genero = String(o?.genero || "").trim().toLowerCase();
+    if (genero && generosUsados.has(genero)) continue;
+    escolhidos.push(o);
+    usados.add(o.id || o.nome);
+    if (genero) generosUsados.add(genero);
+    if (escolhidos.length === quantidade) return escolhidos;
+  }
+
+  for (const o of disponiveis) {
+    if (usados.has(o.id || o.nome)) continue;
+    escolhidos.push(o);
+    usados.add(o.id || o.nome);
+    const genero = String(o?.genero || "").trim().toLowerCase();
+    if (genero) generosUsados.add(genero);
+    if (escolhidos.length === quantidade) break;
+  }
+  return escolhidos;
+}
+
+function selecionarDestaquesDaSemana(orquideas, data = new Date(), evitarIds = new Set()) {
+  const segunda = inicioDaSemana(data);
+  const chave = chaveDaSemana(segunda);
+  const mesReferencia = segunda.getMonth() + 1;
+
+  const elegiveis = orquideas.filter(o => o?.id && temFotoValida(o));
+  const semRepetidos = elegiveis.filter(o => !evitarIds.has(o.id));
+  const fonte = semRepetidos.length >= 4 ? semRepetidos : elegiveis;
+
+  const sazonais = ordenarPelaSemana(
+    fonte.filter(o => Array.isArray(o.mesesFloracao) && o.mesesFloracao.includes(mesReferencia)),
+    chave,
+    "sazonais"
+  );
+  const restantes = ordenarPelaSemana(
+    fonte.filter(o => !Array.isArray(o.mesesFloracao) || !o.mesesFloracao.includes(mesReferencia)),
+    chave,
+    "catalogo"
+  );
+
+  const usados = new Set();
+  const generosUsados = new Set();
+  const destaques = [];
+
+  // Regra editorial: 2 em época de floração + 2 do restante do catálogo.
+  destaques.push(...escolherComGenerosVariados(sazonais, Math.min(2, sazonais.length), usados, generosUsados));
+  destaques.push(...escolherComGenerosVariados(restantes, Math.min(2, 4 - destaques.length), usados, generosUsados));
+
+  if (destaques.length < 4) {
+    const complemento = ordenarPelaSemana(fonte, chave, "complemento");
+    destaques.push(...escolherComGenerosVariados(complemento, 4 - destaques.length, usados, generosUsados));
+  }
+
+  return destaques.slice(0, 4);
+}
+
 function renderizarDestaques(orquideas) {
   const grade = document.getElementById("grade-destaques-v4");
   if (!grade) return;
-  const mes = new Date().getMonth() + 1;
-  const florindo = orquideas.filter(o => Array.isArray(o.mesesFloracao) && o.mesesFloracao.includes(mes));
-  const fonte = florindo.length >= 5 ? florindo : orquideas;
-  const destaques = [...fonte]
-    .sort((a,b) => (Number(b?.avaliacoes?.floracao)||0) - (Number(a?.avaliacoes?.floracao)||0))
-    .slice(0,4);
+
+  const hoje = new Date();
+  const semanaAnterior = new Date(inicioDaSemana(hoje));
+  semanaAnterior.setDate(semanaAnterior.getDate() - 7);
+
+  const anteriores = selecionarDestaquesDaSemana(orquideas, semanaAnterior);
+  const idsAnteriores = new Set(anteriores.map(o => o.id));
+  const destaques = selecionarDestaquesDaSemana(orquideas, hoje, idsAnteriores);
+
   grade.innerHTML = destaques.map(o => `
     <a class="cartao-destaque-v4 cartao-destaque-v9" href="orquidea.html?id=${encodeURIComponent(o.id || "")}">
       <span class="selo-destaque-v9">DESTAQUE</span>
@@ -38,7 +145,6 @@ function renderizarDestaques(orquideas) {
       </span>
     </a>`).join("");
 }
-
 function renderizarGeneros(orquideas) {
   const grade = document.getElementById("grade-generos-v4");
   if (!grade) return;
