@@ -4,7 +4,7 @@ export const pholidotaChinensis = {
     origem:"Ásia tropical e subtropical",regiao:"Sikkim ao sul da China e Indochina",habitat:"Epífita ou litófita em floresta úmida, margens de mata, penhascos sombreados e rochas úmidas próximas a cursos d’água; ampla faixa altitudinal, aproximadamente 300–2.500 m.",
     descricao:"À primeira vista, Pholidota chinensis parece uma planta de folhagem tranquila, mas sua floração transforma completamente a touceira. Pseudobulbos sulcados sustentam folhas largas e, junto aos novos crescimentos, surgem inflorescências arqueadas e pendentes de 15 a 30 cm, capazes de carregar dezenas de pequenas flores claras e perfumadas. Na natureza, a espécie ocupa desde árvores de florestas úmidas até rochas e paredões próximos a cursos d’água, distribuindo-se do Himalaia oriental e sul da China até a Indochina. Essa amplitude explica sua tolerância, mas não significa indiferença ao clima: muitas populações vivem em altitude, e no litoral brasileiro o desafio passa a ser manter raízes frescas, umidade regular e ar em movimento sem transformar o vaso em um reservatório quente. O nome Pholidota chinensis continua muito conhecido entre colecionadores, embora o POWO/Kew atualmente a inclua em Coelogyne chinensis.",
     caracteristicas:["Epífita e litófita", "Pseudobulbos sulcados", "Inflorescências pendentes de 15–30 cm", "Até cerca de 35 flores", "Flores perfumadas", "Ampla faixa de 300–2.500 m", "Prefere raízes frescas", "Sensível a calor excessivo"],
-    avaliacoes: { cultivo: 3, floracao: 4, perfume: 3, luminosidade: 2, agua: 4, raridade: 4 },
+    avaliacoes: { cultivo: 3, floracao: 4, perfume: 4, luminosidade: 2, agua: 4, raridade: 3 },
     selosCultivo: {
         rega: { nivel: "frequente" },
         climaFloracao: { faixa: "intermediario-fresco" }
@@ -36,24 +36,43 @@ export const pholidotaChinensis = {
     raridadeIndice: {
         versao: "2.0",
         aplicavel: true,
+        estrelasCalculadas: 3,
+        evidenciaValidada: ">=60%",
         distribuicao: {
-            pontuacao: 10,
+            peso: 22,
+            leitura: "ampla",
             justificativa: "Distribuição nativa ampla do Himalaia oriental/sul da China à Indochina."
         },
-        endemismoHabitat: {
-            pontuacao: 15,
-            justificativa: "Não endêmica e presente em diferentes habitats epífitos/litófitos ao longo de ampla faixa altitudinal."
+        ocorrenciasGBIF: {
+            peso: 14,
+            registrosBrutos: 1016,
+            registrosFiltrados: 184,
+            leitura: "múltiplas ocorrências documentadas"
         },
-        ocorrenciasGBIF: null,
-        conservacao: null,
-        populacaoFragmentacao: null,
-        ameacas: null,
-        disponibilidadeComercial: null,
-        fase1Legado: { estrelasCalculadas: 4 },
-        observacao: "Auditoria V2 ainda abaixo de 60% de peso validado; a metodologia exige preservar temporariamente a estrela legada em vez de inventar precisão.",
+        endemismoHabitat: {
+            peso: 13,
+            leitura: "não endêmica; epífita/litófita com especialização por ambientes úmidos"
+        },
+        conservacao: {
+            peso: 18,
+            leitura: "pressão documentada, sem usar ausência de categoria IUCN como prova de segurança"
+        },
+        populacaoFragmentacao: {
+            peso: 13,
+            leitura: "fragmentação e regeneração natural limitada relatadas em estudo recente"
+        },
+        ameacas: {
+            peso: 12,
+            leitura: "sobrecoleta medicinal e degradação de habitat documentadas"
+        },
+        disponibilidadeComercial: {
+            peso: 8,
+            leitura: "não usada isoladamente para inflar raridade botânica"
+        },
+        observacao: "Resultado conservador: a ampla distribuição e o número de ocorrências impedem classificar automaticamente a espécie como rara 4/5; ameaças e fragmentação elevam a nota acima de uma espécie amplamente comum.",
         revisadoEm: "2026-09-27"
     },
-        indiceDificuldadeCultivo:{versao:"IDC 3.2 — selo por facilidade",escala:"dificuldade",indice:47,classificacao:"Moderada",cultivoEstrelas:3,criterios:{temperatura:{notaDificuldade:3,peso:15},rega:{notaDificuldade:2,peso:15},umidade:{notaDificuldade:2,peso:10},ventilacao:{notaDificuldade:2,peso:10},luminosidade:{notaDificuldade:2,peso:10},raizesSubstrato:{notaDificuldade:2,peso:10},sazonalidade:{notaDificuldade:2,peso:10},floracao:{notaDificuldade:3,peso:20}},faixas:{
+    indiceDificuldadeCultivo:{versao:"IDC 3.2 — selo por facilidade",escala:"dificuldade",indice:47,classificacao:"Moderada",cultivoEstrelas:3,criterios:{temperatura:{notaDificuldade:3,peso:15},rega:{notaDificuldade:2,peso:15},umidade:{notaDificuldade:2,peso:10},ventilacao:{notaDificuldade:2,peso:10},luminosidade:{notaDificuldade:2,peso:10},raizesSubstrato:{notaDificuldade:2,peso:10},sazonalidade:{notaDificuldade:2,peso:10},floracao:{notaDificuldade:3,peso:20}},faixas:{
             facil: "0–25",
             moderada: "26–50",
             dificil: "51–89",

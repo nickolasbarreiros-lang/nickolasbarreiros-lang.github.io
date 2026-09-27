@@ -5,7 +5,7 @@ export const oncidiumSummerWind = {
     origem:"Híbrido hortícola", regiao:"Cultivado e comercializado no Brasil", habitat:"Não possui habitat natural próprio.",
     descricao:"Uma orquídea que muda completamente de escala quando chega à maturidade. Oncidium Summer Wind forma pseudobulbos robustos e grandes touceiras, mas sua assinatura aparece nas inflorescências: hastes vigorosas, muito ramificadas e capazes de ultrapassar um metro, carregando dezenas — e em exemplares excepcionais perto de uma centena — de pequenas flores amarelas marcadas de castanho. O conjunto fica suspenso acima da folhagem como uma nuvem floral e pode permanecer ornamental por muitas semanas. No Brasil há exemplares cultivados ao ar livre formando touceiras volumosas e florações abundantes, enquanto plantas mantidas em ambiente abafado perdem vigor rapidamente. Essa resposta deixa claro o caráter da planta: Summer Wind gosta de claridade, raízes drenadas, umidade disponível e, acima de tudo, ar em movimento.",
     caracteristicas:["Porte médio a grande", "Touceiras vigorosas", "Hastes acima de 1 m", "Até dezenas de flores por haste", "Floração longa", "Ventilação crítica", "50–70% de sombreamento", "Bom desempenho em vaso plástico"],
-    avaliacoes: { cultivo: 3, floracao: 5, perfume: 2, luminosidade: 4, agua: 4, raridade: 0 },
+    avaliacoes: { cultivo: 3, floracao: 5, perfume: 1, luminosidade: 4, agua: 4, raridade: 0 },
     selosCultivo: {
         rega: { nivel: "frequente" },
         climaFloracao: { faixa: "intermediario-quente" }
