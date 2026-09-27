@@ -446,80 +446,102 @@ function criarImagemAssetCultivoV4(id, nomeFallback = "Item de cultivo", classe 
     `;
 }
 
-function criarFormasCultivoV4(config) {
-    if (!config || !Array.isArray(config.metodos) || !config.metodos.length) {
-        return "";
-    }
+function criarFormasCultivoV4(config, perfilRadicular = []) {
+    if (!config || !Array.isArray(config.metodos) || !config.metodos.length) return "";
 
     const estrelas = (nota = 0) => {
         const n = Math.max(0, Math.min(5, Number(nota) || 0));
         return `<span class="estrelas-forma-v4" aria-label="${n} de 5 estrelas">${"★".repeat(n)}${"☆".repeat(5 - n)}</span>`;
     };
 
+    const principal = config.metodos.find((m) => m.nome === config.destaque) || config.metodos[0];
+    const alternativas = config.metodos.filter((m) => m !== principal);
+
     return `
-        <section class="formas-cultivo-v4" aria-labelledby="titulo-formas-cultivo-v4">
+        <section class="formas-cultivo-v4 formas-cultivo-foco-v41" aria-labelledby="titulo-formas-cultivo-v4">
             <div class="cabecalho-formas-v4">
                 <div>
-                    <h4 id="titulo-formas-cultivo-v4">🌿 Formas de cultivo recomendadas</h4>
+                    <h4 id="titulo-formas-cultivo-v4">🌿 Forma de cultivo mais recomendada</h4>
                     <p>${obterTexto(config.resumo)}</p>
                 </div>
-                ${config.destaque ? `
-                    <div class="melhor-forma-v4">
-                        <span>🏆 Melhor escolha</span>
-                        <strong>${config.destaque}</strong>
-                    </div>
-                ` : ""}
+                <div class="melhor-forma-v4"><span>🏆 Melhor escolha</span><strong>${principal.nome}</strong></div>
             </div>
-
-            <div class="grade-formas-v4">
-                ${config.metodos.map((metodo, indice) => `
-                    <article class="forma-cultivo-v4 ${indice === 0 ? "forma-principal-v4" : ""}">
-                        ${criarImagemAssetCultivoV4(metodo.asset, metodo.nome, "imagem-forma-v4", config.perfilVisual || "")}
-                        <div class="corpo-forma-v4">
-                            <div class="topo-forma-v4">
-                                <h5>${metodo.nome}</h5>
-                                <span class="status-forma-v4">${metodo.status || ""}</span>
+            <div class="layout-formas-foco-v41">
+                <article class="forma-cultivo-v4 forma-principal-v4">
+                    ${criarImagemAssetCultivoV4(principal.asset, principal.nome, "imagem-forma-v4", config.perfilVisual || "")}
+                    <div class="corpo-forma-v4">
+                        <div class="topo-forma-v4"><h5>${principal.nome}</h5><span class="status-forma-v4">${principal.status || ""}</span></div>
+                        ${estrelas(principal.estrelas)}
+                        <p>${principal.texto || ""}</p>
+                        ${Array.isArray(perfilRadicular) && perfilRadicular.length ? `
+                            <div class="perfil-cultivo-principal-v417">
+                                <strong>Perfil radicular e hídrico</strong>
+                                <div class="chips-perfil-cultivo-principal-v417">
+                                    ${perfilRadicular.map((item) => {
+                                        const rotulosCurtos = {
+                                            "Raízes epífitas muito finas": "Raízes finas",
+                                            "Fixação sobre suporte": "Raízes aderentes",
+                                            "Aeração muito alta": "Alta aeração",
+                                            "Umidade frequente": "Umidade frequente",
+                                            "Molhamentos frequentes": "Rega frequente",
+                                            "Secagem relativamente rápida": "Secagem rápida",
+                                            "Baixa compactação": "Baixa compactação",
+                                            "Sem compactação": "Sem compactação",
+                                            "Rizoma sempre exposto": "Rizoma exposto",
+                                            "Rizoma exposto": "Rizoma exposto"
+                                        };
+                                        return `<span>${rotulosCurtos[item] || item}</span>`;
+                                    }).join("")}
+                                </div>
                             </div>
-                            ${estrelas(metodo.estrelas)}
-                            <p>${metodo.texto || ""}</p>
-                        </div>
-                    </article>
-                `).join("")}
-            </div>
-
-            ${Array.isArray(config.montagem) && config.montagem.length ? `
-                <div class="montagem-v4">
-                    <div class="titulo-montagem-v4">
-                        <span>🛠️</span>
-                        <div><small>QUANDO USAR O MÉTODO PREFERENCIAL</small><strong>Montagem prática</strong></div>
+                        ` : ""}
                     </div>
-                    <ol>
-                        ${config.montagem.map((passo) => `<li>${passo}</li>`).join("")}
-                    </ol>
-                </div>
-            ` : ""}
-
-            ${config.alerta ? `<div class="alerta-formas-v4"><strong>⚠️ Atenção</strong><span>${config.alerta}</span></div>` : ""}
-        </section>
-    `;
+                </article>
+                ${alternativas.length ? `<aside class="alternativas-forma-v41"><h5>Outras formas de cultivo</h5><div class="lista-alternativas-forma-v41">${alternativas.map((metodo) => {
+                    const nome = (metodo.nome || "").toLowerCase();
+                    const icone = nome.includes("vaso") && (nome.includes("vasado") || nome.includes("perfurado"))
+                        ? `<img class="icone-img-cultivo-v421" src="imagens/ui/vaso-plastico-vasado.webp" alt="">`
+                        : nome.includes("árvore") || nome.includes("arvore") ? "🌳"
+                        : nome.includes("cesto") ? `<img class="icone-img-cultivo-v421" src="imagens/ui/cesto-madeira-orquideas.webp" alt="">`
+                        : nome.includes("barro") ? `<img class="icone-img-cultivo-v421" src="imagens/ui/vaso-barro-orquideas-v438.webp" alt="">`
+                : (nome === "vaso plástico" || nome === "vaso plástico comum") ? `<img class="icone-img-cultivo-v421" src="imagens/ui/vaso-plastico-comum-v453.webp" alt="">`
+                        : nome.includes("vaso") ? "🪴"
+                        : nome.includes("placa") || nome.includes("tronco") ? "🪵" : "🌿";
+                    return `
+                    <article class="alternativa-forma-v41">
+                        <div class="icone-alternativa-forma-v41" aria-hidden="true"><span>${icone}</span></div>
+                        <div class="conteudo-alternativa-forma-v41">
+                            <div class="linha-alternativa-forma-v48">
+                                <div class="resumo-alternativa-forma-v413">
+                                    <strong class="nome-alternativa-forma-v48">${metodo.nome}</strong>
+                                    <div class="avaliacao-alternativa-forma-v413">
+                                        <span class="status-forma-v4">${metodo.status || ""}</span>
+                                        <span class="estrelas-alternativa-forma-v48">${estrelas(metodo.estrelas)}</span>
+                                    </div>
+                                </div>
+                                <p class="comentario-alternativa-forma-v413">${metodo.texto || ""}</p>
+                            </div>
+                        </div>
+                    </article>`;
+                }).join("")}</div></aside>` : ""}
+            </div>
+        </section>`;
 }
 
 function criarSubstratoVisualV4(config, recomendados = []) {
-    if (!config || !Array.isArray(config.itens) || !config.itens.length) {
+    if (!config) {
         return "";
     }
 
-    const itensValidos = config.itens
+    const itensValidos = Array.isArray(config.itens) ? config.itens
         .map((item) => ({ ...item, assetInfo: obterAssetCultivoV4(item.asset) }))
-        .filter((item) => item.assetInfo?.imagem);
-
-    if (!itensValidos.length) return "";
+        .filter((item) => item.assetInfo?.imagem) : [];
 
     return `
         <section class="substrato-visual-v4" aria-labelledby="titulo-substrato-visual-v4">
             <div class="cabecalho-substrato-visual-v4">
                 <div class="titulo-substrato-visual-v4">
-                    <span aria-hidden="true">🧱</span>
+                    <span class="icone-substrato-v4" aria-hidden="true"><img src="imagens/ui/icone-substrato-v4.webp" alt=""></span>
                     <div>
                         <h4 id="titulo-substrato-visual-v4">${config.titulo || "Substrato ideal"}</h4>
                         <p>${config.resumo || "Composição leve, aerada e de rápida drenagem."}</p>
@@ -528,7 +550,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                 ${config.contexto ? `<span class="contexto-substrato-v4">${config.contexto}</span>` : ""}
             </div>
 
-            <div class="receita-substrato-v4">
+            ${config.semSubstrato ? `<div class="sem-substrato-v41"><strong>0% substrato convencional</strong><span>${config.semSubstrato}</span></div>` : `<div class="receita-substrato-v4">
                 ${itensValidos.map((item, indice) => `
                     ${indice > 0 ? `<span class="sinal-mais-substrato-v4" aria-hidden="true">+</span>` : ""}
                     <article class="ingrediente-substrato-v4">
@@ -538,14 +560,21 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                         ${item.nota ? `<small>${item.nota}</small>` : ""}
                     </article>
                 `).join("")}
-            </div>
+            </div>`}
 
-            ${config.receitaTexto ? `<div class="receita-texto-substrato-v4"><strong>🌱 ${config.receitaTexto}</strong></div>` : ""}
+            
 
-            ${Array.isArray(config.perfil) && config.perfil.length ? `
-                <div class="perfil-substrato-v4">
-                    <strong>Perfil radicular e hídrico</strong>
-                    <div>${config.perfil.map((item) => `<span>${item}</span>`).join("")}</div>
+            ${Array.isArray(config.comportamento) && config.comportamento.length ? `
+                <div class="comportamento-mistura-v423" aria-label="Comportamento da mistura">
+                    ${config.comportamento.map((item) => {
+                        const valor = Math.max(0, Math.min(5, Number(item.valor) || 0));
+                        return `<div class="indicador-mistura-v423">
+                            <span class="rotulo-indicador-v423">${item.icone || ""} ${item.nome}</span>
+                            <span class="bolhas-indicador-v423" aria-label="${valor} de 5">
+                                ${Array.from({length:5}, (_,i) => `<i class="${i < valor ? "ativo" : ""}"></i>`).join("")}
+                            </span>
+                        </div>`;
+                    }).join("")}
                 </div>
             ` : ""}
 
@@ -558,13 +587,19 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                             ${config.justificativa ? `<p>${config.justificativa}</p>` : ""}
                         </div>
                     </div>
-                    <div class="grade-finalidades-substrato-v4">
+                    <div class="grade-finalidades-substrato-v4 ${itensValidos.filter((item) => item.finalidade).length === 5 ? "cinco-cards" : ""}">
                         ${itensValidos.filter((item) => item.finalidade).map((item) => `
                             <article class="finalidade-item-substrato-v4">
                                 <strong>${item.nome || item.assetInfo.nome}</strong>
                                 <span>${item.finalidade}</span>
                             </article>
                         `).join("")}
+                        ${itensValidos.filter((item) => item.finalidade).length === 5 ? `
+                            <div class="complemento-cinco-substratos-v4">
+                                ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
+                                <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres e use brita ou pedaços de isopor no fundo para melhorar a drenagem e a aeração das raízes.</div>
+                            </div>
+                        ` : ""}
                     </div>
                 </div>
             ` : ""}
@@ -589,17 +624,18 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                 </div>
             ` : ""}
 
-            ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
-
-            <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres e use brita ou pedaços de isopor no fundo para melhorar a drenagem e a aeração das raízes.</div>
+            ${itensValidos.filter((item) => item.finalidade).length !== 5 ? `
+                ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
+                <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres e use brita ou pedaços de isopor no fundo para melhorar a drenagem e a aeração das raízes.</div>
+            ` : ""}
 
             ${Array.isArray(recomendados) && recomendados.length ? `
                 <div class="substratos-recomendados-v4">
                     <div class="titulo-recomendados-v4">
                         <span aria-hidden="true">🌱</span>
                         <div>
-                            <h5>Substratos recomendados</h5>
-                            <p>Outras composições e formas de montagem adequadas para esta espécie.</p>
+                            <h5>Outras misturas recomendadas</h5>
+                            <p>Alternativas de composição adequadas para cultivo em vaso.</p>
                         </div>
                     </div>
                     <ul>
@@ -1373,7 +1409,7 @@ if (!orquidea) {
 
             </div>
 
-            ${criarFormasCultivoV4(orquidea.formasCultivo)}
+            ${criarFormasCultivoV4(orquidea.formasCultivo, orquidea.substratoVisual?.perfil || [])}
             ${criarSubstratoVisualV4(orquidea.substratoVisual, orquidea.substrato)}
 
             <div class="grade-cultivo-v2">
