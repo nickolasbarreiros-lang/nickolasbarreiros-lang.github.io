@@ -1,6 +1,10 @@
 // ÍNDICE ÚNICO E OFICIAL DAS FICHAS DO ORQUIDÁRIO.
 // Cada orquídea deve existir em apenas um arquivo dentro desta pasta.
 
+import { epidendrumHokuleaSuperRed } from "./epidendrum-hokulea-super-red.js";
+import { oncidiumSummerWind } from "./oncidium-summer-wind.js";
+import { pholidotaChinensis } from "./pholidota-chinensis.js";
+
 import { sophronitisWittigiana } from "./sophronitis-wittigiana.js";
 import { dendrobiumPolysema } from "./dendrobium-polysema.js";
 import { bifrenariaVerboonenii } from "./bifrenaria-verboonenii.js";
@@ -274,4 +278,7 @@ bulbophyllumSyciobulbon,
     maxillariaBrasiliensis,
     isochilusLinearis,
     aciantheraSonderiana,
+    epidendrumHokuleaSuperRed,
+    oncidiumSummerWind,
+    pholidotaChinensis,
 ];
