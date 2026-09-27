@@ -9,7 +9,7 @@ export const oncidiumSummerWind = {
     selosCultivo: {
         rega: { nivel: "frequente" },
         climaFloracao: { faixa: "intermediario-quente" }
-    }
+    },
     fotos:["https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/oncidium-2.jpg?w=940", "https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/img_20180915_143822538.jpg?w=940", "https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/img_20180918_203316043.jpg?w=940", "https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/oncidium-summer-wind-mnha-foto-cristiano-1.jpg?w=940"], mesesFloracao:[8,9,10,11],
     clima:"Intermediário a quente · ventilado · umidade média",
     climaFloracao:"A experiência brasileira publicada é particularmente útil nesta ficha. Juan Pablo Heller relata floração no fim do inverno no Sul, duração superior a dois meses, 50% de sombreamento e faixa ampla de 5–35 °C. O Orquidário 4 Estações classifica o clima como tropical e usa 60–70% de sombreamento. Já a Ocotea trabalha com 18–25 °C como faixa preferencial. Para o litoral quente, portanto, a planta é viável, mas ventilação e controle do superaquecimento tornam-se decisivos.",

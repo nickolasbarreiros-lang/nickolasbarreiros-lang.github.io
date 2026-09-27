@@ -8,7 +8,7 @@ export const pholidotaChinensis = {
     selosCultivo: {
         rega: { nivel: "frequente" },
         climaFloracao: { faixa: "intermediario-fresco" }
-    }
+    },
     fotos:["https://inaturalist-open-data.s3.amazonaws.com/photos/262546179/original.jpeg", "https://www.fascinationoforchids.com/species/Blog/22-06%20Jun/Scott/Pholidota-chinensis-2.jpg", "https://fangblatt.de/cdn/shop/files/20200508_114446_1280x1280_410d952c-6f3f-4066-8bea-3ead5e363993_grande.jpg?v=1709897785", "https://orchids.la.coocan.jp/Pholidota/Pholidota%20chinensis/DSC09173.JPG"],mesesFloracao:[4,5,6,7],
     clima:"Intermediário a fresco · úmido · ventilado",
     climaFloracao:"A espécie ocupa faixa altitudinal muito ampla, mas a Flora of China a registra principalmente entre 900 e 2.100 m e estudos de gradiente também a encontram por volta de 1.000–1.200 m. Isso indica que o litoral quente não é impossível, porém reduz a margem de erro. Para florescer na Serra/ES, procure noites o mais frescas possível, alta ventilação, sombra luminosa e raízes que não aqueçam dentro de mistura compacta.",

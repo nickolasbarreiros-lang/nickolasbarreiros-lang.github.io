@@ -16,7 +16,7 @@ export const epidendrumHokuleaSuperRed = {
     selosCultivo: {
         rega: { nivel: "moderada" },
         climaFloracao: { faixa: "quente" }
-    }
+    },
     mesesFloracao: [9,10,11,12,1,2,3],
     clima: "Quente a intermediário · luminoso · muito ventilado",
     climaFloracao: "A Atlanta Orchid Society recomenda cultivar Hokulea quente e com luz forte, em meio poroso que seque entre as regas. A predominância genética de E. cinnabarinum reforça a boa compatibilidade com calor. Para o litoral quente, a quebra térmica não é requisito central: a prioridade é maturar canas fortes sob luminosidade alta, sem superaquecer folhas e raízes.",
