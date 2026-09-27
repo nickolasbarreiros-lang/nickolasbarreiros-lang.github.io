@@ -1,4 +1,8 @@
 export const bibliotecaCultivoV4 = {
+    "epidendrum-hokulea-super-red-vaso-plastico": {
+        nome: "Epidendrum Hokulea ‘Super Red’ em vaso plástico",
+        imagem: "imagens/cultivo-v4/especies/epidendrum-hokulea-super-red/vaso-plastico.webp"
+    },
     "oncidium-summer-wind-vaso-plastico": {
         nome: "Oncidium Summer Wind em vaso plástico",
         imagem: "imagens/cultivo-v4/especies/oncidium-summer-wind/vaso-plastico.webp"

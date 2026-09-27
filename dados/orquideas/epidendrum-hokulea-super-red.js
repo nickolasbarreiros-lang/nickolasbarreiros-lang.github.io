@@ -45,7 +45,7 @@ export const epidendrumHokuleaSuperRed = {
     substratoVisual: {
         titulo: "Substrato ideal", contexto: "Para cultivo em vaso",
         resumo: "Mistura estrutural, durável e de secagem rápida para raízes que exigem muito oxigênio.",
-        justificativa: "A recomendação específica para Hokulea é meio poroso que seque entre regas. A forte participação de E. cinnabarinum — espécie brasileira epífita, rupícola e terrícola de ambientes inclusive abertos e rochosos — reforça que a mistura não deve permanecer abafada. Macadâmia substitui parte do pinus para aumentar a estabilidade física ao longo dos anos.",
+        justificativa: "O Hokulea gosta de raízes bem oxigenadas e de secar parcialmente entre as regas. A macadâmia mantém a mistura aberta por mais tempo, o pinus conserva umidade moderada e o carvão ajuda a acelerar a drenagem. A casca de arroz carbonizada completa a mistura criando mais espaços de ar. Assim, as raízes recebem água suficiente sem permanecer abafadas ou constantemente molhadas.",
         receitaTexto: "35% casca de macadâmia média + 25% casca de pinus média + 25% carvão vegetal médio + 15% casca de arroz carbonizada.",
         perfil: ["Raízes médias e vigorosas","Aeração muito alta","Retenção moderada-baixa","Secagem rápida","Alta estabilidade"],
         comportamento: { retencao: 2, aeracao: 5, secagem: 4, compactacao: 1 },
