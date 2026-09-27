@@ -1,46 +1,49 @@
-// Nova ficha — Orquidário Digital V4.
+// Oncidium Summer Wind — revisão aprofundada V4.79
 export const oncidiumSummerWind = {
-    id: "oncidium-summer-wind",
-    nome: "Oncidium Summer Wind",
-    genero: "Oncidium",
-    tipo: "Híbrido hortícola",
-    dificuldade: "Moderada",
-    caracteristicas: ["Touceiras grandes", "Hastes acima de 1 m", "Muitas flores", "Amarelo e marrom", "Perfume suave", "Híbrido robusto"],
-    fotos: ["https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/oncidium-2.jpg?w=940", "https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/img_20180915_143822538.jpg?w=940", "https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/img_20180918_203316043.jpg?w=940", "https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/oncidium-summer-wind-mnha-foto-cristiano-1.jpg?w=940"],
-    descricao: "Uma orquídea que impressiona principalmente quando atinge a maturidade. Oncidium Summer Wind forma pseudobulbos robustos e touceiras que podem alcançar grandes proporções, mas é durante a floração que revela sua característica mais marcante: hastes longas e muito ramificadas, capazes de ultrapassar um metro e sustentar dezenas de flores simultaneamente. As flores combinam tons amarelos e castanhos, com um labelo amarelo vivo que se destaca no conjunto, formando uma verdadeira nuvem acima da folhagem. Em exemplares bem estabelecidos, a floração pode permanecer ornamental por várias semanas, enquanto diferentes botões continuam se abrindo ao longo das ramificações. É justamente essa combinação de porte, quantidade de flores e movimento das hastes que transforma uma planta aparentemente discreta fora da floração em um dos Oncidium de maior presença visual quando adulto.",
-    origem: "Híbrido hortícola",
-    regiao: "Cultivado amplamente no Brasil",
-    habitat: "Sem habitat natural próprio; manejo semelhante a Oncidiinae de raízes arejadas.",
-    clima: "Intermediário a quente · muito ventilado",
-    climaFloracao: "A floração depende principalmente de crescimento maduro, boa luminosidade, ventilação e manejo hídrico compatível com a linhagem.",
-    iluminacao: {
-        sombrite: "50%",
-        solDireto: "Permitido com restrição",
-        horario: "Início da manhã ou final da tarde",
-        observacoes: "Use luz filtrada forte, ajustando pela resposta das folhas e evitando superaquecimento."
+    id:"oncidium-summer-wind", nome:"Oncidium Summer Wind", genero:"Oncidium",
+    tipo:"Híbrido hortícola", sinonimo:"Parentagem não confirmada nas fontes públicas consultadas", dificuldade:"Moderada",
+    origem:"Híbrido hortícola", regiao:"Cultivado e comercializado no Brasil", habitat:"Não possui habitat natural próprio.",
+    descricao:"Uma orquídea que muda completamente de escala quando chega à maturidade. Oncidium Summer Wind forma pseudobulbos robustos e grandes touceiras, mas sua assinatura aparece nas inflorescências: hastes vigorosas, muito ramificadas e capazes de ultrapassar um metro, carregando dezenas — e em exemplares excepcionais perto de uma centena — de pequenas flores amarelas marcadas de castanho. O conjunto fica suspenso acima da folhagem como uma nuvem floral e pode permanecer ornamental por muitas semanas. No Brasil há exemplares cultivados ao ar livre formando touceiras volumosas e florações abundantes, enquanto plantas mantidas em ambiente abafado perdem vigor rapidamente. Essa resposta deixa claro o caráter da planta: Summer Wind gosta de claridade, raízes drenadas, umidade disponível e, acima de tudo, ar em movimento.",
+    caracteristicas:["Porte médio a grande", "Touceiras vigorosas", "Hastes acima de 1 m", "Até dezenas de flores por haste", "Floração longa", "Ventilação crítica", "50–70% de sombreamento", "Bom desempenho em vaso plástico"],
+    fotos:["https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/oncidium-2.jpg?w=940", "https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/img_20180915_143822538.jpg?w=940", "https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/img_20180918_203316043.jpg?w=940", "https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/oncidium-summer-wind-mnha-foto-cristiano-1.jpg?w=940"], mesesFloracao:[8,9,10,11],
+    clima:"Intermediário a quente · ventilado · umidade média",
+    climaFloracao:"A experiência brasileira publicada é particularmente útil nesta ficha. Juan Pablo Heller relata floração no fim do inverno no Sul, duração superior a dois meses, 50% de sombreamento e faixa ampla de 5–35 °C. O Orquidário 4 Estações classifica o clima como tropical e usa 60–70% de sombreamento. Já a Ocotea trabalha com 18–25 °C como faixa preferencial. Para o litoral quente, portanto, a planta é viável, mas ventilação e controle do superaquecimento tornam-se decisivos.",
+    iluminacao:{sombrite:"50% a 60%",solDireto:"Permitido com restrição",horario:"Somente início da manhã",observacoes:"Comece em torno de 50–60% de sombra. Folhas muito escuras acompanhadas de pouca floração sugerem falta de luz; verde excessivamente amarelado, manchas ou aquecimento indicam excesso. A referência brasileira de 50% e a prática comercial de 60–70% delimitam uma faixa útil, que deve ser ajustada à ventilação do seu orquidário."},
+    floracao:"No Sul do Brasil há registro consistente no fim do inverno, prolongando-se por mais de dois meses. Outro produtor brasileiro informa época variável ao longo do ano. Para o catálogo, agosto a novembro é a janela prática principal, sem tratar esses meses como regra absoluta para todos os clones e climas.",
+    adubacao:"🌿 Orgânica: bokashi em pequena dose durante crescimento dos novos pseudobulbos, sem encostar em brotos ou raízes jovens.\n💧 Foliar/mineral: adubo equilibrado em 1/4 a 1/3 da dose a cada 7–15 dias no crescimento ativo. O Orquidário 4 Estações relata adubação foliar semanal e orgânica a cada dois meses.\n🧪 Liberação lenta: pode ser usada moderadamente em vasos grandes. Evite combinar doses cheias de várias fontes; Summer Wind responde mais a raízes ativas, luz e ventilação do que a excesso de sais.",
+    rega:"Durante brotação e enchimento dos pseudobulbos, regue de forma generosa e deixe o substrato drenar imediatamente. Não espere desidratação severa dos pseudobulbos, mas também não mantenha água acumulada no fundo. Em vaso plástico no litoral, a próxima rega deve ser definida pela secagem interna da mistura, não apenas pela superfície. Reduza moderadamente quando o crescimento amadurecer e a evaporação cair.",
+    suporte:["🥇 Vaso plástico pesado/proporcional à touceira, com tutoramento das hastes.", "🥈 Vaso de barro amplo, útil quando a secagem no ambiente é lenta.", "🥉 Placa/tronco grande, método biologicamente excelente mas pouco prático para exemplares adultos."],
+    formasCultivo:{
+        perfilVisual:"oncidium", destaque:"Vaso plástico", resumo:"É exatamente o método recomendado por cultivador brasileiro para o porte avantajado do Summer Wind.",
+        metodos:[
+            {nome:"Vaso plástico",asset:"vaso-plastico",estrelas:5,status:"Ideal",texto:"Recomendação brasileira específica: dá estabilidade à touceira e às hastes, desde que a drenagem seja muito eficiente."},
+            {nome:"Placa / tronco",asset:"placa-tronco",estrelas:4,status:"Muito recomendado",texto:"Cultivador brasileiro considera uma ótima opção para Oncidium, mas Summer Wind exige placa grande e regas mais frequentes."},
+            {nome:"Vaso de barro",asset:"vaso-barro",estrelas:4,status:"Muito recomendado",texto:"Ajuda a acelerar a secagem no litoral úmido e oferece bom peso para a planta adulta."},
+            {nome:"Cesto de madeira",asset:"cesto-madeira",estrelas:4,status:"Muito recomendado",texto:"Mantém aeração excelente e acomoda a touceira, exigindo atenção maior à frequência de rega."}
+        ]
     },
-    floracao: "Fim do inverno e primavera; em cultivo pode permanecer florida por mais de dois meses.",
-    adubacao: "Adubação equilibrada em baixa concentração durante crescimento e enraizamento ativos; reduza a frequência quando o crescimento amadurecer.",
-    rega: "Regue abundantemente durante o crescimento, sempre preservando drenagem e oxigenação; ajuste a frequência à velocidade de secagem.",
-    dica: "Ventilação constante e raízes saudáveis são mais importantes que aumentar a dose de adubo.",
-    formasCultivo: {
-  perfilVisual:"oncidium", destaque:"Vaso plástico",
-  resumo:"O porte grande e as hastes longas tornam o vaso estável a opção mais prática.",
-  metodos:[
-    {nome:"Vaso plástico",asset:"vaso-plastico",estrelas:5,status:"Ideal",texto:"Acomoda touceiras grandes e facilita tutoramento."},
-    {nome:"Vaso de barro",asset:"vaso-barro",estrelas:4,status:"Muito recomendado",texto:"Excelente drenagem e estabilidade."},
-    {nome:"Cesto de madeira",asset:"cesto-madeira",estrelas:4,status:"Muito recomendado",texto:"Ótima aeração com maior frequência de rega."},
-    {nome:"Placa / tronco",asset:"placa-tronco",estrelas:3,status:"Adequado",texto:"Biologicamente possível, mas pouco prático para o porte."}
-  ]},
-    substrato: ["Pinus médio + carvão vegetal.","Macadâmia + pinus + carvão.","CAC + perlita grossa + pequena fração orgânica."],
-    substratoVisual: {titulo:"Substrato ideal",contexto:"Para cultivo em vaso",resumo:"Mistura aberta com retenção moderada.",justificativa:"Cultivadores brasileiros relatam pinus e carvão com drenagem forte; a receita acrescenta macadâmia e CAC para melhorar estabilidade.",receitaTexto:"35% casca de pinus média + 25% casca de macadâmia média + 20% carvão vegetal médio + 20% casca de arroz carbonizada.",perfil:["Raízes finas a médias","Alta aeração","Retenção moderada","Secagem rápida"],comportamento:{retencao:3,aeracao:5,secagem:4,compactacao:1},itens:[
-{asset:"casca-pinus",nome:"Casca de pinus média",proporcao:"35%",nota:"base",finalidade:"Mantém umidade útil sem saturar."},
-{asset:"macadamia",nome:"Casca de macadâmia média",proporcao:"25%",nota:"estrutura",finalidade:"Aumenta durabilidade física."},
-{asset:"carvao-vegetal",nome:"Carvão vegetal médio",proporcao:"20%",nota:"aeração",finalidade:"Mantém espaços de ar."},
-{asset:"casca-arroz-carbonizada",nome:"Casca de arroz carbonizada",proporcao:"20%",nota:"drenagem",finalidade:"Torna a mistura leve e drenante."}],alerta:"Não deixe água acumulada no fundo; ventilação constante é essencial."},
-    errosComuns: ["Substrato compactado.", "Água acumulada nas raízes.", "Ventilação insuficiente.", "Excesso de adubo.", "Replantio fora do início de novas raízes."],
-    adaptacaoRegional: {litoralQuente:'Boa adaptação com vento constante, 50% de sombra e drenagem rápida.',montanhaFrio:'Muito favorável, protegendo de geadas.'},
-    mesesFloracao: [8, 9, 10, 11],
-    selosCultivo: { rega: { nivel: "frequente", regime: "ajustar-estacao" }, climaFloracao: { faixa: "intermediario" } },
-    avaliacoes: { cultivo: 4, floracao: 5, perfume: 2, luminosidade: 4, agua: 3, raridade: 3 }
+    substrato:["Pinus médio + carvão em partes iguais — receita brasileira publicada para Summer Wind.", "Macadâmia + pinus + carvão — versão mais estrutural e durável.", "Macadâmia + CAC + carvão — alternativa de secagem rápida para ambiente muito úmido.", "Chips de coco bem lavados + carvão + brita, opção compatível com prática comercial brasileira quando o coco é de boa procedência."],
+    substratoVisual:{
+        titulo:"Substrato ideal",contexto:"Para cultivo em vaso",resumo:"Mistura aberta baseada na prática brasileira publicada, mas com maior estabilidade estrutural para cultivo de longo prazo.",
+        justificativa:"Juan Pablo Heller recomenda partes iguais de pinus e carvão sobre camada generosa de brita; o Orquidário 4 Estações informa cultivo bem-sucedido apenas com pinus e carvão em vaso plástico bem drenado, enquanto a Ocotea cita coco, pinus, brita e esfagno. Para nosso padrão, preservamos a lógica pinus/carvão e introduzimos macadâmia para retardar perda estrutural, mantendo brita como drenagem de fundo e não inflando a mistura sem necessidade.",
+        receitaTexto:"35% casca de macadâmia média + 30% casca de pinus média + 25% carvão vegetal médio + 10% casca de arroz carbonizada.",
+        perfil:["Raízes finas a médias","Aeração muito alta","Retenção moderada","Secagem rápida","Boa estabilidade"],comportamento:{retencao:3,aeracao:5,secagem:4,compactacao:1},
+        itens:[
+            {asset:"macadamia",nome:"Casca de macadâmia média",proporcao:"35%",nota:"estrutura",finalidade:"Aumenta estabilidade e mantém macroporos ao longo do tempo."},
+            {asset:"casca-pinus",nome:"Casca de pinus média",proporcao:"30%",nota:"base comprovada",finalidade:"Mantém a fração orgânica presente nas receitas brasileiras específicas."},
+            {asset:"carvao-vegetal",nome:"Carvão vegetal médio",proporcao:"25%",nota:"aeração",finalidade:"Componente diretamente recomendado para Summer Wind; melhora drenagem e estrutura."},
+            {asset:"casca-arroz-carbonizada",nome:"Casca de arroz carbonizada",proporcao:"10%",nota:"macroporos",finalidade:"Reduz densidade e favorece secagem uniforme."}
+        ],alerta:"Use brita ou isopor no fundo para manter os furos livres e aumentar estabilidade. Não confunda a camada de drenagem com a receita percentual do substrato."
+    },
+    errosComuns:["Cultivar em estufa fechada ou canto sem circulação de ar.","Deixar água acumulada no fundo do vaso.","Usar vaso leve demais para uma touceira e hastes muito grandes.","Não tutorar hastes longas, favorecendo quebras.","Manter sombra excessiva e tentar compensar com adubo.","Dividir em porções pequenas; mantenha pelo menos três pseudobulbos por divisão."],
+    revisaoCientificaIAR:{nome:"Oncidium Summer Wind",statusTaxonomico:"Híbrido hortícola registrado; a parentagem não foi considerada confirmada porque as fontes públicas consultadas não a apresentaram de forma confiável.",sinonimosPrincipais:"Não aplicável.",morfologiaDimensoes:"Simpodial, pseudobulboso, porte médio/grande, inflorescências longas e ramificadas; produtores brasileiros citam cachos com grande número de flores pequenas.",habitatAltitudeClima:"Sem habitat natural. Dados de cultivo brasileiros indicam ampla tolerância, com melhor desempenho sob ventilação intensa e sombra moderada.",distribuicaoGeografica:"Híbrido cultivado internacionalmente e disponível em orquidários brasileiros.",cultivoPremiacao:"Confronto principal: experiência de Juan Pablo Heller/Cristiano Nogueira, Orquidário 4 Estações e Orquídeas Ocotea.",confianca:"média-alta",fontes:["Orquídeas Encanto e Paixão — Juan Pablo Heller","Orquidário 4 Estações","Orquídeas Ocotea","RHS/Orchidex para registro do grex"]},
+    indiceDificuldadeCultivo:{versao:"IDC 3.2 — selo por facilidade",escala:"dificuldade",indice:32,classificacao:"Moderada",cultivoEstrelas:4,criterios:{temperatura:{notaDificuldade:2,peso:15},rega:{notaDificuldade:2,peso:15},umidade:{notaDificuldade:2,peso:10},ventilacao:{notaDificuldade:2,peso:10},luminosidade:{notaDificuldade:2,peso:10},raizesSubstrato:{notaDificuldade:1,peso:10},sazonalidade:{notaDificuldade:1,peso:10},floracao:{notaDificuldade:2,peso:20}},faixas:{
+            facil: "0–25",
+            moderada: "26–50",
+            dificil: "51–89",
+            extrema: "90–100"
+        }},
+    indiceAdaptacaoRegional:{versao:"IAR 2.0 — revisão científica",escala:"compatibilidade regional",metodo:"comparação de três referências brasileiras de cultivo e exigências observadas",litoralQuente:{indice:78,estrelas:4,fatores:{habitatNatural:{nota:4,peso:30},temperatura:{nota:4,peso:30},aguaUmidade:{nota:4,peso:5},ventilacao:{nota:5,peso:5},luminosidade:{nota:4,peso:5},sazonalidade:{nota:4,peso:5},floracao:{nota:4,peso:20}}},montanhaFrio:{indice:90,estrelas:5,fatores:{habitatNatural:{nota:5,peso:30},temperatura:{nota:5,peso:30},aguaUmidade:{nota:4,peso:5},ventilacao:{nota:5,peso:5},luminosidade:{nota:4,peso:5},sazonalidade:{nota:5,peso:5},floracao:{nota:5,peso:20}}}},
+    adaptacaoRegional:{litoral:{texto:"Boa adaptação na Serra/ES, mas reserve um dos pontos mais ventilados do orquidário. Trabalhe inicialmente com 50–60% de sombreamento e vaso extremamente drenado. Calor parado + umidade constante é a combinação a evitar."},montanha:{texto:"Condições amenas favorecem vigor e floração. Mantenha bastante luz filtrada e não permita que o substrato fique frio e saturado durante períodos chuvosos."}},
+    dica:"🏆 O segredo do Summer Wind está no próprio nome: vento. Antes de aumentar adubo ou procurar um estimulante de floração, verifique se a planta recebe luz suficiente e circulação de ar contínua."
 };
