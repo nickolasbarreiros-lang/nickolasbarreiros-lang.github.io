@@ -21,7 +21,7 @@ export const oncidiumSummerWind = {
     formasCultivo:{
         perfilVisual:"oncidium", destaque:"Vaso plástico", resumo:"É exatamente o método recomendado por cultivador brasileiro para o porte avantajado do Summer Wind.",
         metodos:[
-            {nome:"Vaso plástico",asset:"vaso-plastico",estrelas:5,status:"Ideal",texto:"Recomendação brasileira específica: dá estabilidade à touceira e às hastes, desde que a drenagem seja muito eficiente."},
+            {nome:"Vaso plástico",asset:"oncidium-summer-wind-vaso-plastico",estrelas:5,status:"Ideal",texto:"Recomendação brasileira específica: dá estabilidade à touceira e às hastes, desde que a drenagem seja muito eficiente."},
             {nome:"Placa / tronco",asset:"placa-tronco",estrelas:4,status:"Muito recomendado",texto:"Cultivador brasileiro considera uma ótima opção para Oncidium, mas Summer Wind exige placa grande e regas mais frequentes."},
             {nome:"Vaso de barro",asset:"vaso-barro",estrelas:4,status:"Muito recomendado",texto:"Ajuda a acelerar a secagem no litoral úmido e oferece bom peso para a planta adulta."},
             {nome:"Cesto de madeira",asset:"cesto-madeira",estrelas:4,status:"Muito recomendado",texto:"Mantém aeração excelente e acomoda a touceira, exigindo atenção maior à frequência de rega."}
@@ -30,7 +30,7 @@ export const oncidiumSummerWind = {
     substrato:["Pinus médio + carvão em partes iguais — receita brasileira publicada para Summer Wind.", "Macadâmia + pinus + carvão — versão mais estrutural e durável.", "Macadâmia + CAC + carvão — alternativa de secagem rápida para ambiente muito úmido.", "Chips de coco bem lavados + carvão + brita, opção compatível com prática comercial brasileira quando o coco é de boa procedência."],
     substratoVisual:{
         titulo:"Substrato ideal",contexto:"Para cultivo em vaso",resumo:"Mistura aberta baseada na prática brasileira publicada, mas com maior estabilidade estrutural para cultivo de longo prazo.",
-        justificativa:"Juan Pablo Heller recomenda partes iguais de pinus e carvão sobre camada generosa de brita; o Orquidário 4 Estações informa cultivo bem-sucedido apenas com pinus e carvão em vaso plástico bem drenado, enquanto a Ocotea cita coco, pinus, brita e esfagno. Para nosso padrão, preservamos a lógica pinus/carvão e introduzimos macadâmia para retardar perda estrutural, mantendo brita como drenagem de fundo e não inflando a mistura sem necessidade.",
+        justificativa:"O Summer Wind precisa de um substrato que molhe bem, mas volte a respirar rapidamente. Por isso, a mistura combina quatro funções simples: a macadâmia mantém espaços de ar por mais tempo; o pinus oferece uma base orgânica que retém parte da umidade; o carvão ajuda a deixar o conjunto solto e drenante; e a casca de arroz carbonizada aumenta a porosidade. O resultado é uma mistura firme para sustentar a planta grande, mas aberta o suficiente para as raízes não permanecerem abafadas. A brita fica apenas no fundo do vaso, ajudando na drenagem — não faz parte dos percentuais da mistura.",
         receitaTexto:"35% casca de macadâmia média + 30% casca de pinus média + 25% carvão vegetal médio + 10% casca de arroz carbonizada.",
         perfil:["Raízes finas a médias","Aeração muito alta","Retenção moderada","Secagem rápida","Boa estabilidade"],comportamento:{retencao:3,aeracao:5,secagem:4,compactacao:1},
         itens:[

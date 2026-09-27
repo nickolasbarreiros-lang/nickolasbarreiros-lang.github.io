@@ -1,4 +1,8 @@
 export const bibliotecaCultivoV4 = {
+    "oncidium-summer-wind-vaso-plastico": {
+        nome: "Oncidium Summer Wind em vaso plástico",
+        imagem: "imagens/cultivo-v4/especies/oncidium-summer-wind/vaso-plastico.webp"
+    },
     "pholidota-chinensis-vaso-plastico": {
         tipo: "foto",
         imagem: "imagens/cultivo-v4/especies/pholidota-chinensis/vaso-plastico.webp"
