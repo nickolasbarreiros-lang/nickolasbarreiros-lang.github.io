@@ -35,7 +35,7 @@ export const epidendrumHokuleaSuperRed = {
         destaque: "Vaso plástico",
         resumo: "O porte em canas e a floração terminal favorecem um recipiente estável, enquanto a mistura interna deve permanecer muito porosa.",
         metodos: [
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Ideal", texto: "Oferece estabilidade às canas altas e permite controlar melhor a umidade sem sacrificar a drenagem." },
+            { nome: "Vaso plástico", asset: "epidendrum-hokulea-super-red-vaso-plastico", estrelas: 5, status: "Ideal", texto: "Oferece estabilidade às canas altas e permite controlar melhor a umidade sem sacrificar a drenagem." },
             { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Excelente quando o ambiente é muito úmido, pois acelera a perda de água e ajuda a oxigenar as raízes." },
             { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Compatível com raízes arejadas e clima quente, mas aumenta a frequência de rega." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Biologicamente possível pela herança de Epidendrum, porém pouco prático para uma planta alta, pesada e de crescimento contínuo." }
