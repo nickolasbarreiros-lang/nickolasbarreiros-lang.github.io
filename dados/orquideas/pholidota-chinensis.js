@@ -29,7 +29,7 @@ export const pholidotaChinensis = {
   perfilVisual:"pholidota", destaque:"Vaso plástico",
   resumo:"No calor, o vaso ajuda a manter umidade mais uniforme sem desidratação extrema.",
   metodos:[
-    {nome:"Vaso plástico",asset:"vaso-plastico",estrelas:5,status:"Ideal",texto:"Melhor equilíbrio entre umidade e aeração no litoral."},
+    {nome:"Vaso plástico",asset:"pholidota-chinensis-vaso-plastico",estrelas:5,status:"Ideal",texto:"Melhor equilíbrio entre umidade e aeração no litoral."},
     {nome:"Vaso de barro",asset:"vaso-barro",estrelas:4,status:"Muito recomendado",texto:"Bom em ambiente úmido com rega ajustada."},
     {nome:"Cesto de madeira",asset:"cesto-madeira",estrelas:3,status:"Adequado",texto:"Arejado, mas seca mais rápido."},
     {nome:"Placa / tronco",asset:"placa-tronco",estrelas:2,status:"Pouco recomendado",texto:"Possível sob alta umidade, com maior risco de desidratação."}

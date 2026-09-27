@@ -1,7 +1,7 @@
 export const bibliotecaCultivoV4 = {
-    "bifrenaria-verboonenii-vaso-barro": {
+    "pholidota-chinensis-vaso-plastico": {
         tipo: "foto",
-        imagem: "imagens/cultivo-v4/especies/bifrenaria-verboonenii/vaso-barro.webp"
+        imagem: "imagens/cultivo-v4/especies/pholidota-chinensis/vaso-plastico.webp"
     },
     "acianthera-glumacea-placa": {
         nome: "Placa / tronco — Acianthera glumacea",

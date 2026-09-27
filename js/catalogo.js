@@ -25,6 +25,12 @@ const EVENTO_CATALOGO_ATUALIZADO =
 const CRITERIO_PADRAO =
     "nome-az";
 
+const TAMANHO_LOTE =
+    24;
+
+const ID_CONTROLE_CARREGAR =
+    "controle-carregar-mais-catalogo";
+
 
 /* =========================================================
    VALIDAÇÃO DA LISTA
@@ -300,6 +306,17 @@ export function renderizarCatalogo(
     const possuiResultados =
         listaOrdenada.length > 0;
 
+    const limiteSolicitado =
+        Number(opcoes.limite);
+
+    const limite =
+        Number.isFinite(limiteSolicitado)
+            ? Math.max(TAMANHO_LOTE, limiteSolicitado)
+            : TAMANHO_LOTE;
+
+    const listaRenderizada =
+        listaOrdenada.slice(0, limite);
+
     atualizarContador(
         elementos.contador,
         listaOrdenada.length,
@@ -315,7 +332,7 @@ export function renderizarCatalogo(
         if (possuiResultados) {
             renderizarCartoes(
                 elementos.catalogo,
-                listaOrdenada,
+                listaRenderizada,
                 {
                     mesReferencia
                 }
@@ -326,6 +343,9 @@ export function renderizarCatalogo(
 
         elementos.catalogo.dataset.quantidade =
             String(listaOrdenada.length);
+
+        elementos.catalogo.dataset.renderizadas =
+            String(listaRenderizada.length);
 
         elementos.catalogo.dataset.total =
             String(total);
@@ -350,7 +370,14 @@ export function renderizarCatalogo(
 
         mesReferencia,
 
-        possuiResultados
+        possuiResultados,
+
+        renderizadas:
+            listaRenderizada.length,
+
+        possuiMais:
+            listaRenderizada.length <
+            listaOrdenada.length
     };
 }
 
@@ -407,6 +434,41 @@ export function inicializarCatalogo(
 
     let resultadoAtual = null;
 
+    let limiteAtual =
+        TAMANHO_LOTE;
+
+    let controleCarregar =
+        document.getElementById(
+            ID_CONTROLE_CARREGAR
+        );
+
+    if (
+        !controleCarregar &&
+        elementos.catalogo?.parentElement
+    ) {
+        controleCarregar =
+            document.createElement("div");
+
+        controleCarregar.id =
+            ID_CONTROLE_CARREGAR;
+
+        controleCarregar.className =
+            "controle-carregar-mais-catalogo";
+
+        controleCarregar.innerHTML =
+            `<button type="button" class="botao-carregar-mais-catalogo">Carregar mais orquídeas</button>`;
+
+        elementos.catalogo.insertAdjacentElement(
+            "afterend",
+            controleCarregar
+        );
+    }
+
+    const botaoCarregar =
+        controleCarregar?.querySelector(
+            ".botao-carregar-mais-catalogo"
+        );
+
 
     /* -----------------------------------------------------
        RENDERIZAÇÃO
@@ -427,9 +489,24 @@ export function inicializarCatalogo(
                     criterio:
                         criterioAtual,
 
-                    mesReferencia
+                    mesReferencia,
+
+                    limite:
+                        limiteAtual
                 }
             );
+
+        if (controleCarregar) {
+            controleCarregar.hidden =
+                !resultadoAtual.possuiMais;
+        }
+
+        if (botaoCarregar) {
+            botaoCarregar.textContent =
+                resultadoAtual.possuiMais
+                    ? `Carregar mais orquídeas (${resultadoAtual.renderizadas} de ${resultadoAtual.quantidade})`
+                    : "Todas as orquídeas carregadas";
+        }
 
         dispararEventoCatalogo(
             resultadoAtual,
@@ -460,6 +537,9 @@ export function inicializarCatalogo(
                 elementos.ordenacao
             );
 
+        limiteAtual =
+            TAMANHO_LOTE;
+
         renderizar(
             "ordenacao"
         );
@@ -479,6 +559,9 @@ export function inicializarCatalogo(
                 detalhe.orquideas
             );
 
+        limiteAtual =
+            TAMANHO_LOTE;
+
         renderizar(
             detalhe.origem ||
             "filtros"
@@ -497,6 +580,9 @@ export function inicializarCatalogo(
         if (mes) {
             mesReferencia =
                 normalizarMes(mes);
+
+            limiteAtual =
+                TAMANHO_LOTE;
 
             renderizar(
                 "mes-painel"
@@ -524,6 +610,20 @@ export function inicializarCatalogo(
         "catalogo:mes-floracao-alterado",
         aoAlterarMesPainel
     );
+
+
+    botaoCarregar
+        ?.addEventListener(
+            "click",
+            () => {
+                limiteAtual +=
+                    TAMANHO_LOTE;
+
+                renderizar(
+                    "carregar-mais"
+                );
+            }
+        );
 
 
     /* -----------------------------------------------------
