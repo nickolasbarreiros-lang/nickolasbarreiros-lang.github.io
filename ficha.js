@@ -1,215 +1,1072 @@
 import { orquideas } from "./dados/orquideas/index.js";
+import { obterAssetCultivoV4 } from "./js/biblioteca-cultivo-v4.js";
 
 /* =========================================================
-   CONFIGURAÇÕES E ELEMENTOS
+   CONFIGURAÇÃO INICIAL
 ========================================================= */
 
-const parametros = new URLSearchParams(window.location.search);
-const idOrquidea = String(parametros.get("id") || "").trim();
+const parametros = new URLSearchParams(
+    window.location.search
+);
+
+const idOrquidea = parametros.get("id");
 
 const ficha = document.getElementById("ficha");
+
 const fichaNaoEncontrada =
     document.getElementById("ficha-nao-encontrada");
 
 const nomesMeses = [
-    "JAN", "FEV", "MAR", "ABR", "MAI", "JUN",
-    "JUL", "AGO", "SET", "OUT", "NOV", "DEZ"
+    "JAN",
+    "FEV",
+    "MAR",
+    "ABR",
+    "MAI",
+    "JUN",
+    "JUL",
+    "AGO",
+    "SET",
+    "OUT",
+    "NOV",
+    "DEZ"
 ];
 
-const IMAGEM_PADRAO = [
-    "data:image/svg+xml;charset=UTF-8,",
-    encodeURIComponent(`
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="900"
-            height="650"
-            viewBox="0 0 900 650"
-        >
-            <rect width="900" height="650" fill="#eef4ee"/>
-
-            <text
-                x="450"
-                y="285"
-                text-anchor="middle"
-                font-size="96"
-            >
-                🌸
-            </text>
-
-            <text
-                x="450"
-                y="380"
-                text-anchor="middle"
-                font-family="Arial, sans-serif"
-                font-size="31"
-                fill="#56705a"
-            >
-                Imagem não disponível
-            </text>
-        </svg>
-    `)
-].join("");
-
 /* =========================================================
-   UTILITÁRIOS
+   LOCALIZAÇÃO DA ORQUÍDEA
 ========================================================= */
 
-function escaparHTML(valor) {
-    return String(valor ?? "")
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
+const orquidea = orquideas.find((item) => {
+    return String(item.id) === String(idOrquidea);
+});
+
+
+/* =========================================================
+   NAVEGAÇÃO CIRCULAR ENTRE AS FICHAS
+========================================================= */
+
+const orquideasOrdenadas = [...orquideas]
+    .filter((item) => item && item.id && item.nome)
+    .sort((a, b) => String(a.nome).localeCompare(
+        String(b.nome),
+        "pt-BR",
+        { sensitivity: "base", numeric: true }
+    ));
+
+function obterOrquideasVizinhas(itemAtual) {
+    if (!itemAtual || orquideasOrdenadas.length < 2) {
+        return { anterior: null, proxima: null };
+    }
+
+    const indiceAtual = orquideasOrdenadas.findIndex((item) => {
+        return String(item.id) === String(itemAtual.id);
+    });
+
+    if (indiceAtual < 0) {
+        return { anterior: null, proxima: null };
+    }
+
+    const total = orquideasOrdenadas.length;
+
+    return {
+        anterior: orquideasOrdenadas[(indiceAtual - 1 + total) % total],
+        proxima: orquideasOrdenadas[(indiceAtual + 1) % total]
+    };
 }
 
-function textoSeguro(valor, textoPadrao = "Não informado.") {
-    const texto = String(valor ?? "").trim();
-    return texto || textoPadrao;
+function obterFotoNavegacao(item) {
+    const fotos = obterFotos(item?.imagens || item?.fotos);
+    return fotos[0] || "";
 }
 
-function normalizarFotos(fotos) {
+function criarNavegacaoEntreFichas(itemAtual) {
+    const { anterior, proxima } = obterOrquideasVizinhas(itemAtual);
+
+    if (!anterior || !proxima) {
+        return "";
+    }
+
+    const fotoAnterior = obterFotoNavegacao(anterior);
+    const fotoProxima = obterFotoNavegacao(proxima);
+
+    return `
+        <nav class="navegacao-orquideas-v6" aria-label="Navegação entre fichas de orquídeas">
+            <a class="cartao-navegacao-v6 anterior-v6"
+               href="orquidea.html?id=${encodeURIComponent(anterior.id)}"
+               aria-label="Abrir orquídea anterior: ${anterior.nome}">
+                <span class="foto-navegacao-v6" aria-hidden="true">
+                    ${fotoAnterior ? `<img src="${fotoAnterior}" alt="" loading="lazy">` : `<span>🌸</span>`}
+                </span>
+                <span class="seta-navegacao-v6" aria-hidden="true">←</span>
+                <span class="texto-navegacao-v6">
+                    <small>Orquídea anterior</small>
+                    <strong>${anterior.nome}</strong>
+                </span>
+            </a>
+
+            <a class="cartao-navegacao-v6 proxima-v6"
+               href="orquidea.html?id=${encodeURIComponent(proxima.id)}"
+               aria-label="Abrir próxima orquídea: ${proxima.nome}">
+                <span class="texto-navegacao-v6">
+                    <small>Próxima orquídea</small>
+                    <strong>${proxima.nome}</strong>
+                </span>
+                <span class="seta-navegacao-v6" aria-hidden="true">→</span>
+                <span class="foto-navegacao-v6" aria-hidden="true">
+                    ${fotoProxima ? `<img src="${fotoProxima}" alt="" loading="lazy">` : `<span>🌸</span>`}
+                </span>
+            </a>
+        </nav>
+    `;
+}
+
+/* =========================================================
+   FUNÇÕES AUXILIARES
+========================================================= */
+
+function obterTexto(
+    valor,
+    textoPadrao = "Não informado"
+) {
+    if (valor === undefined || valor === null) {
+        return textoPadrao;
+    }
+
+    if (typeof valor === "object") {
+        return textoPadrao;
+    }
+
+    if (String(valor).trim() === "") {
+        return textoPadrao;
+    }
+
+    return valor;
+}
+
+function criarChip(icone, texto, classeExtra = "") {
+    if (texto === undefined || texto === null || String(texto).trim() === "") {
+        return "";
+    }
+
+    return `
+        <span class="chip-info-v2 ${classeExtra}">
+            ${icone ? `<span aria-hidden="true">${icone}</span>` : ""}
+            <span>${texto}</span>
+        </span>
+    `;
+}
+
+
+function normalizarTextoSelo(valor) {
+    return String(valor || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase();
+}
+
+function criarSeloCultivo({ texto, icone = "", tipo = "neutro" }) {
+    if (!texto) return "";
+
+    return `
+        <span class="selo-cultivo-v4 selo-${tipo}-v4">
+            ${icone ? `<span class="icone-selo-v4" aria-hidden="true">${icone}</span>` : ""}
+            <span>${texto}</span>
+        </span>
+    `;
+}
+
+function criarSelosRega(orquidea) {
+    const configuracao = orquidea.selosCultivo?.rega || {};
+    const texto = normalizarTextoSelo(`${orquidea.rega || ""} ${orquidea.climaFloracao || ""}`);
+    const agua = Number(orquidea.avaliacoes?.agua);
+    const selos = [];
+
+    const mapaNivel = {
+        "baixa": { texto: "REGA BAIXA", tipo: "rega-baixa", icone: "💧" },
+        "moderada": { texto: "REGA MODERADA", tipo: "rega-moderada", icone: "💧" },
+        "frequente": { texto: "REGA FREQUENTE", tipo: "rega-frequente", icone: "💧" },
+        "muito-frequente": { texto: "REGA MUITO FREQUENTE", tipo: "rega-constante", icone: "🌧️" },
+        "sazonal": { texto: "REGA SAZONAL", tipo: "rega-moderada", icone: "🍂" },
+        "constante": { texto: "REGA MUITO FREQUENTE", tipo: "rega-constante", icone: "🌧️" }
+    };
+
+    let principal = mapaNivel[configuracao.nivel];
+
+    // Compatibilidade com fichas antigas: a inferência só é usada quando a ficha
+    // ainda não possui classificação editorial explícita.
+    if (!principal) {
+        principal = mapaNivel.moderada;
+
+        if (/umidade constante|constantemente umid|sempre umid|nao deixar secar|nunca secar/.test(texto) || agua >= 5) {
+            principal = mapaNivel.constante;
+        } else if (/rega frequente|regas frequentes|muita agua|abundantemente durante|manter levemente umid/.test(texto) || agua === 4) {
+            principal = mapaNivel.frequente;
+        } else if (/rega baixa|pouca agua|secar bem|seque completamente|secagem completa/.test(texto) || (Number.isFinite(agua) && agua <= 2)) {
+            principal = mapaNivel.baixa;
+        }
+    }
+
+    selos.push(criarSeloCultivo(principal));
+
+    // O regime hídrico e o risco de encharcamento são dimensões independentes.
+    // Assim, quando realmente necessário, a ficha pode mostrar até 3 selos:
+    // nível de rega + regime sazonal + alerta de encharcamento.
+    if (configuracao.regime === "repouso-seco") {
+        selos.push(criarSeloCultivo({ texto: "REPOUSO SECO", icone: "🍂", tipo: "alerta-seco" }));
+    } else if (configuracao.regime === "reduzir-inverno") {
+        selos.push(criarSeloCultivo({ texto: "REDUZIR NO INVERNO", icone: "🍃", tipo: "sazonal" }));
+    } else if (configuracao.regime === "reduzir-repouso") {
+        selos.push(criarSeloCultivo({ texto: "REDUZIR NO REPOUSO", icone: "🍃", tipo: "sazonal" }));
+    }
+
+    // Alerta independente. Só aparece quando foi marcado editorialmente ou
+    // quando uma ficha antiga traz uma indicação muito explícita no próprio texto.
+    const alertaEncharcamentoExplicito =
+        configuracao.evitarEncharcamento === true ||
+        (
+            configuracao.evitarEncharcamento !== false &&
+            /nao tolera encharc|nunca (?:deve )?(?:ficar|permanecer) encharcad|evite (?:o )?encharc|evitar (?:o )?encharc|drenar rapidamente|drenagem imediata/.test(texto)
+        );
+
+    if (alertaEncharcamentoExplicito) {
+        selos.push(criarSeloCultivo({ texto: "EVITAR ENCHARCAMENTO", icone: "⊘", tipo: "alerta" }));
+    }
+
+    return selos.slice(0, 3);
+}
+
+function criarSelosClimaFloracao(orquidea) {
+    const configuracao = orquidea.selosCultivo?.climaFloracao || {};
+    const clima = normalizarTextoSelo(orquidea.clima);
+    const floracao = normalizarTextoSelo(orquidea.climaFloracao);
+    const texto = `${clima} ${floracao}`;
+    const selos = [];
+
+    const mapaFaixa = {
+        "quente": { texto: "CLIMA QUENTE", tipo: "clima-quente", icone: "☀️" },
+        "intermediario": { texto: "CLIMA INTERMEDIÁRIO", tipo: "clima-intermediario", icone: "🌡️" },
+        "ameno": { texto: "CLIMA AMENO", tipo: "clima-ameno", icone: "🌤️" },
+        "frio": { texto: "CLIMA FRIO", tipo: "clima-frio", icone: "❄️" }
+    };
+
+    let principal = mapaFaixa[configuracao.faixa];
+
+    // Compatibilidade temporária com fichas sem parâmetro explícito.
+    // A negação de frio é avaliada ANTES de qualquer palavra como "frio" ou
+    // "noites frias", evitando classificações contraditórias como a observada
+    // em Cyrtopodium saintlegerianum.
+    if (!principal) {
+        const negaFrio = /nao (?:e |é )?(?:necessario|requisito)|nao (?:necessita|precisa)(?: de)? frio|frio (?:intenso )?nao (?:e|é) requisito|sem necessidade de frio|nao depende de frio|frio artificial/.test(floracao);
+
+        principal = mapaFaixa.intermediario;
+        if (negaFrio && /quente|baixa altitude|nivel do mar|litoral quente/.test(texto)) {
+            principal = mapaFaixa.quente;
+        } else if (/muito quente|quente a intermediario|quente e umido|clima quente|baixa altitude|nivel do mar/.test(texto)) {
+            principal = mapaFaixa.quente;
+        } else if (!negaFrio && /frio a ameno|clima frio|temperaturas frias|alta altitude|montano|noites frias/.test(texto)) {
+            principal = mapaFaixa.frio;
+        } else if (/ameno|fresco|temperado/.test(texto)) {
+            principal = mapaFaixa.ameno;
+        }
+    }
+
+    selos.push(criarSeloCultivo(principal));
+
+    if (configuracao.floraNoCalor === true) {
+        selos.push(criarSeloCultivo({ texto: "FLORA NO CALOR", icone: "☀️", tipo: "positivo" }));
+    } else if (configuracao.quedaTermica === true) {
+        selos.push(criarSeloCultivo({ texto: "QUEDA TÉRMICA", icone: "↘", tipo: "clima-ameno" }));
+    } else if (configuracao.frioNecessario === true) {
+        selos.push(criarSeloCultivo({ texto: "FRIO NECESSÁRIO", icone: "❄️", tipo: "clima-frio" }));
+    } else if (!Object.keys(configuracao).length) {
+        const negaFrio = /nao (?:e |é )?(?:necessario|requisito)|nao (?:necessita|precisa)(?: de)? frio|frio (?:intenso )?nao (?:e|é) requisito|sem necessidade de frio|nao depende de frio|frio artificial/.test(floracao);
+        if (negaFrio || /floresce.*calor|baixa altitude/.test(texto)) {
+            selos.push(criarSeloCultivo({ texto: "FLORA NO CALOR", icone: "☀️", tipo: "positivo" }));
+        } else if (/queda termica|amplitude termica|diferenca.*dia.*noite|diferença.*dia.*noite/.test(texto)) {
+            selos.push(criarSeloCultivo({ texto: "QUEDA TÉRMICA", icone: "↘", tipo: "clima-ameno" }));
+        } else if (/precisa.*frio|necessita.*frio|frio necessario|periodo frio|período frio|noites frias.*flor/.test(texto)) {
+            selos.push(criarSeloCultivo({ texto: "FRIO NECESSÁRIO", icone: "❄️", tipo: "clima-frio" }));
+        }
+    }
+
+    return selos;
+}
+
+function criarIndicadorRotulado(rotulo, chip) {
+    if (!chip) {
+        return "";
+    }
+
+    return `
+        <div class="indicador-rotulado-v3">
+            <span class="rotulo-indicador-v3">${rotulo}</span>
+            ${chip}
+        </div>
+    `;
+}
+
+function criarInfoCard({
+    titulo,
+    icone,
+    conteudo,
+    chips = [],
+    indicadores = [],
+    descricao = "",
+    classeExtra = ""
+}) {
+    const chipsValidos = chips.filter(Boolean);
+    const indicadoresValidos = indicadores.filter(Boolean);
+
+    return `
+        <article class="card-cultivo-v2 ${classeExtra}">
+            <div class="icone-card-v2" aria-hidden="true">
+                ${icone}
+            </div>
+
+            <div class="conteudo-card-cultivo-v2">
+                <h4>${titulo}</h4>
+
+                ${indicadoresValidos.length ? `
+                    <div class="linha-indicadores-v3">
+                        ${indicadoresValidos.join("")}
+                    </div>
+                ` : ""}
+
+                ${chipsValidos.length ? `
+                    <div class="linha-chips-v2">
+                        ${chipsValidos.join("")}
+                    </div>
+                ` : ""}
+
+                ${conteudo ? `
+                    <p class="info-horizontal">
+                        ${conteudo}
+                    </p>
+                ` : ""}
+
+                ${descricao ? `
+                    <p class="observacao-card-v2">
+                        ${descricao}
+                    </p>
+                ` : ""}
+            </div>
+        </article>
+    `;
+}
+
+
+function criarLinhasEstruturadas(valor, classe = "") {
+    if (valor === undefined || valor === null) {
+        return "";
+    }
+
+    if (Array.isArray(valor)) {
+        return `
+            <div class="lista-estruturada-v2 ${classe}">
+                ${valor.map((item) => `<p>${item}</p>`).join("")}
+            </div>
+        `;
+    }
+
+    if (typeof valor === "object") {
+        const rotulos = {
+            organica: ["🌿", "Orgânica"],
+            foliar: ["💧", "Foliar"],
+            liberacaoLenta: ["🧪", "Liberação lenta"]
+        };
+
+        const linhas = Object.entries(valor)
+            .filter(([, texto]) => texto !== undefined && texto !== null && String(texto).trim() !== "")
+            .map(([chave, texto]) => {
+                const [icone, rotulo] = rotulos[chave] || ["", chave];
+                return `
+                    <div class="linha-estruturada-v2">
+                        <strong>${icone} ${rotulo}</strong>
+                        <span>${texto}</span>
+                    </div>
+                `;
+            })
+            .join("");
+
+        return linhas ? `<div class="lista-estruturada-v2 ${classe}">${linhas}</div>` : "";
+    }
+
+    const texto = String(valor).trim();
+
+    if (!texto) {
+        return "";
+    }
+
+    const linhas = texto
+        .split(/\n+/)
+        .map((linha) => linha.trim())
+        .filter(Boolean);
+
+    if (linhas.length > 1) {
+        return `
+            <div class="lista-estruturada-v2 ${classe}">
+                ${linhas.map((linha) => `<p>${linha}</p>`).join("")}
+            </div>
+        `;
+    }
+
+    return `<p class="info-horizontal">${texto}</p>`;
+}
+
+function criarCardEstruturado({
+    titulo,
+    icone,
+    valor,
+    classeExtra = ""
+}) {
+    const conteudo = criarLinhasEstruturadas(valor);
+
+    if (!conteudo) {
+        return "";
+    }
+
+    return `
+        <article class="card-cultivo-v2 ${classeExtra}">
+            <div class="icone-card-v2" aria-hidden="true">${icone}</div>
+            <div class="conteudo-card-cultivo-v2">
+                <h4>${titulo}</h4>
+                ${conteudo}
+            </div>
+        </article>
+    `;
+}
+
+function criarImagemAssetCultivoV4(id, nomeFallback = "Item de cultivo", classe = "", perfilVisual = "") {
+    const asset = obterAssetCultivoV4(id, perfilVisual);
+    if (!asset?.imagem) return "";
+
+    return `
+        <div class="imagem-asset-cultivo-v4 ${classe}">
+            <img src="${asset.imagem}" alt="${asset.nome || nomeFallback}" loading="lazy">
+        </div>
+    `;
+}
+
+function criarFormasCultivoV4(config) {
+    if (!config || !Array.isArray(config.metodos) || !config.metodos.length) {
+        return "";
+    }
+
+    const estrelas = (nota = 0) => {
+        const n = Math.max(0, Math.min(5, Number(nota) || 0));
+        return `<span class="estrelas-forma-v4" aria-label="${n} de 5 estrelas">${"★".repeat(n)}${"☆".repeat(5 - n)}</span>`;
+    };
+
+    return `
+        <section class="formas-cultivo-v4" aria-labelledby="titulo-formas-cultivo-v4">
+            <div class="cabecalho-formas-v4">
+                <div>
+                    <h4 id="titulo-formas-cultivo-v4">🌿 Formas de cultivo recomendadas</h4>
+                    <p>${obterTexto(config.resumo)}</p>
+                </div>
+                ${config.destaque ? `
+                    <div class="melhor-forma-v4">
+                        <span>🏆 Melhor escolha</span>
+                        <strong>${config.destaque}</strong>
+                    </div>
+                ` : ""}
+            </div>
+
+            <div class="grade-formas-v4">
+                ${config.metodos.map((metodo, indice) => `
+                    <article class="forma-cultivo-v4 ${indice === 0 ? "forma-principal-v4" : ""}">
+                        ${criarImagemAssetCultivoV4(metodo.asset, metodo.nome, "imagem-forma-v4", config.perfilVisual || "")}
+                        <div class="corpo-forma-v4">
+                            <div class="topo-forma-v4">
+                                <h5>${metodo.nome}</h5>
+                                <span class="status-forma-v4">${metodo.status || ""}</span>
+                            </div>
+                            ${estrelas(metodo.estrelas)}
+                            <p>${metodo.texto || ""}</p>
+                        </div>
+                    </article>
+                `).join("")}
+            </div>
+
+            ${Array.isArray(config.montagem) && config.montagem.length ? `
+                <div class="montagem-v4">
+                    <div class="titulo-montagem-v4">
+                        <span>🛠️</span>
+                        <div><small>QUANDO USAR O MÉTODO PREFERENCIAL</small><strong>Montagem prática</strong></div>
+                    </div>
+                    <ol>
+                        ${config.montagem.map((passo) => `<li>${passo}</li>`).join("")}
+                    </ol>
+                </div>
+            ` : ""}
+
+            ${config.alerta ? `<div class="alerta-formas-v4"><strong>⚠️ Atenção</strong><span>${config.alerta}</span></div>` : ""}
+        </section>
+    `;
+}
+
+function criarSubstratoVisualV4(config, recomendados = []) {
+    if (!config || !Array.isArray(config.itens) || !config.itens.length) {
+        return "";
+    }
+
+    const itensValidos = config.itens
+        .map((item) => ({ ...item, assetInfo: obterAssetCultivoV4(item.asset) }))
+        .filter((item) => item.assetInfo?.imagem);
+
+    if (!itensValidos.length) return "";
+
+    return `
+        <section class="substrato-visual-v4" aria-labelledby="titulo-substrato-visual-v4">
+            <div class="cabecalho-substrato-visual-v4">
+                <div class="titulo-substrato-visual-v4">
+                    <span aria-hidden="true">🧱</span>
+                    <div>
+                        <h4 id="titulo-substrato-visual-v4">${config.titulo || "Substrato ideal"}</h4>
+                        <p>${config.resumo || "Composição leve, aerada e de rápida drenagem."}</p>
+                    </div>
+                </div>
+                ${config.contexto ? `<span class="contexto-substrato-v4">${config.contexto}</span>` : ""}
+            </div>
+
+            <div class="receita-substrato-v4">
+                ${itensValidos.map((item, indice) => `
+                    ${indice > 0 ? `<span class="sinal-mais-substrato-v4" aria-hidden="true">+</span>` : ""}
+                    <article class="ingrediente-substrato-v4">
+                        ${criarImagemAssetCultivoV4(item.asset, item.assetInfo.nome, "imagem-substrato-v4")}
+                        <strong>${item.nome || item.assetInfo.nome}</strong>
+                        ${item.proporcao ? `<span class="proporcao-substrato-v4">${item.proporcao}</span>` : ""}
+                        ${item.nota ? `<small>${item.nota}</small>` : ""}
+                    </article>
+                `).join("")}
+            </div>
+
+            ${config.receitaTexto ? `<div class="receita-texto-substrato-v4"><strong>🌱 ${config.receitaTexto}</strong></div>` : ""}
+
+            ${Array.isArray(config.perfil) && config.perfil.length ? `
+                <div class="perfil-substrato-v4">
+                    <strong>Perfil radicular e hídrico</strong>
+                    <div>${config.perfil.map((item) => `<span>${item}</span>`).join("")}</div>
+                </div>
+            ` : ""}
+
+            ${itensValidos.some((item) => item.finalidade) ? `
+                <div class="finalidade-substrato-v4">
+                    <div class="titulo-finalidade-substrato-v4">
+                        <span aria-hidden="true">🔎</span>
+                        <div>
+                            <h5>Por que esta composição funciona para esta orquídea?</h5>
+                            ${config.justificativa ? `<p>${config.justificativa}</p>` : ""}
+                        </div>
+                    </div>
+                    <div class="grade-finalidades-substrato-v4">
+                        ${itensValidos.filter((item) => item.finalidade).map((item) => `
+                            <article class="finalidade-item-substrato-v4">
+                                <strong>${item.nome || item.assetInfo.nome}</strong>
+                                <span>${item.finalidade}</span>
+                            </article>
+                        `).join("")}
+                    </div>
+                </div>
+            ` : ""}
+
+            ${Array.isArray(config.evitar) && config.evitar.length ? `
+                <div class="evitar-substrato-v4">
+                    <div class="titulo-evitar-substrato-v4">
+                        <span aria-hidden="true">⛔</span>
+                        <div>
+                            <h5>Evite nesta espécie</h5>
+                            <p>Materiais ou situações que reduzem a margem de segurança das raízes.</p>
+                        </div>
+                    </div>
+                    <div class="grade-evitar-substrato-v4">
+                        ${config.evitar.map((item) => `
+                            <article>
+                                <strong>${item.titulo}</strong>
+                                <span>${item.motivo}</span>
+                            </article>
+                        `).join("")}
+                    </div>
+                </div>
+            ` : ""}
+
+            ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
+
+            <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres e use brita ou pedaços de isopor no fundo para melhorar a drenagem e a aeração das raízes.</div>
+
+            ${Array.isArray(recomendados) && recomendados.length ? `
+                <div class="substratos-recomendados-v4">
+                    <div class="titulo-recomendados-v4">
+                        <span aria-hidden="true">🌱</span>
+                        <div>
+                            <h5>Substratos recomendados</h5>
+                            <p>Outras composições e formas de montagem adequadas para esta espécie.</p>
+                        </div>
+                    </div>
+                    <ul>
+                        ${recomendados.map((item, indice) => `<li><span class="marcador-recomendado-v4" aria-hidden="true">${indice + 1}</span><span>${item}</span></li>`).join("")}
+                    </ul>
+                </div>
+            ` : ""}
+        </section>
+    `;
+}
+
+function normalizarErrosComuns(valor) {
+    const limpar = (item) => String(item || "")
+        .trim()
+        .replace(/[.\s]+$/, "");
+
+    if (Array.isArray(valor)) {
+        return valor.map(limpar).filter(Boolean);
+    }
+
+    if (typeof valor !== "string") {
+        return [];
+    }
+
+    return valor
+        .split(/\n+|;\s*/)
+        .map(limpar)
+        .filter(Boolean);
+}
+
+function criarErrosComuns(valor) {
+    const erros = normalizarErrosComuns(valor);
+
+    if (!erros.length) {
+        return "";
+    }
+
+    return `
+        <section id="erros-comuns" class="erros-comuns-v2 secao-ancora-v3">
+            <div class="titulo-secao-v2">
+                <span>❌</span>
+                <h3>Erros comuns</h3>
+            </div>
+            <ul>
+                ${erros.map((erro) => `<li>${erro}.</li>`).join("")}
+            </ul>
+        </section>
+    `;
+}
+
+function normalizarAdaptacaoRegionalItem(valor) {
+    if (!valor) {
+        return null;
+    }
+
+    if (typeof valor === "string") {
+        return {
+            nota: null,
+            texto: valor
+        };
+    }
+
+    if (typeof valor === "object") {
+        const notaBruta = Number(valor.nota);
+        return {
+            nota: Number.isFinite(notaBruta)
+                ? Math.max(1, Math.min(5, Math.round(notaBruta)))
+                : null,
+            texto: obterTexto(valor.texto || valor.descricao || "")
+        };
+    }
+
+    return null;
+}
+
+function criarSeloAdaptacaoRegional(nota, indice = null) {
+    if (!nota) {
+        return "";
+    }
+
+    const preenchidas = "★".repeat(nota);
+    const vazias = "☆".repeat(5 - nota);
+
+    return `
+        <div class="selo-adaptacao-regional-v3" aria-label="Adaptação regional: ${nota} de 5 estrelas${indice !== null ? `; IAR ${indice} de 100` : ""}">
+            <span class="selo-adaptacao-rotulo-v3">Adaptação</span>
+            <span class="selo-adaptacao-estrelas-v3" aria-hidden="true">
+                <span class="estrelas-preenchidas-v3">${preenchidas}</span><span class="estrelas-vazias-v3">${vazias}</span>
+            </span>
+        </div>
+    `;
+}
+
+function criarAdaptacaoRegional(valor, iar = null) {
+    if (!valor || typeof valor !== "object") {
+        return "";
+    }
+
+    const litoral = normalizarAdaptacaoRegionalItem(valor.litoralQuente || valor.litoral);
+    const montanha = normalizarAdaptacaoRegionalItem(valor.montanhaFrio || valor.montanha);
+
+    if (!litoral && !montanha) {
+        return "";
+    }
+
+    const iarLitoral = iar?.litoralQuente || null;
+    const iarMontanha = iar?.montanhaFrio || null;
+
+    return `
+        <section id="adaptacao-regional" class="adaptacao-regional-v2 secao-ancora-v3">
+            <div class="titulo-secao-v2">
+                <span>🌍</span>
+                <h3>Adaptação regional</h3>
+            </div>
+
+            <div class="grade-adaptacao-v2">
+                ${litoral ? `
+                    <article class="adaptacao-item-v2">
+                        <div class="cabecalho-adaptacao-item-v3">
+                            <h4>🌴 Regiões litorâneas e quentes</h4>
+                            ${criarSeloAdaptacaoRegional(
+                                Number(iarLitoral?.estrelas) || litoral.nota,
+                                Number.isFinite(Number(iarLitoral?.indice)) ? Number(iarLitoral.indice) : null
+                            )}
+                        </div>
+                        <p>${litoral.texto}</p>
+                    </article>
+                ` : ""}
+
+                ${montanha ? `
+                    <article class="adaptacao-item-v2">
+                        <div class="cabecalho-adaptacao-item-v3">
+                            <h4>🏔️ ${obterTexto(orquidea.adaptacaoRegional?.tituloMontanha, "Regiões de montanha e clima frio")}</h4>
+                            ${criarSeloAdaptacaoRegional(
+                                Number(iarMontanha?.estrelas) || montanha.nota,
+                                Number.isFinite(Number(iarMontanha?.indice)) ? Number(iarMontanha.indice) : null
+                            )}
+                        </div>
+                        <p>${montanha.texto}</p>
+                    </article>
+                ` : ""}
+            </div>
+        </section>
+    `;
+}
+
+
+function solDiretoNaoRecomendado(valor) {
+    const texto = String(valor || "").trim().toLowerCase();
+    return [
+        "não recomendado",
+        "nao recomendado",
+        "evitar",
+        "evite",
+        "não usar",
+        "nao usar",
+        "sem sol direto",
+        "não expor",
+        "nao expor",
+        "apenas luz solar muito suave e filtrada",
+        "somente luz solar muito suave e filtrada"
+    ].some(termo => texto.includes(termo));
+}
+
+function criarCardIluminacao(iluminacao) {
+    if (!iluminacao || typeof iluminacao !== "object") {
+        return criarInfoCard({
+            titulo: "Iluminação",
+            icone: "☀️",
+            conteudo: obterTexto(iluminacao),
+            classeExtra: "card-iluminacao-v2"
+        });
+    }
+
+    const valorSol = String(iluminacao.solDireto || "").trim();
+    const solNormalizado = valorSol.toLowerCase();
+
+    let textoSol = valorSol;
+    let iconeSol = "🌤️";
+
+    if (solNormalizado === "sol pleno") {
+        textoSol = "Sol pleno";
+        iconeSol = "☀️";
+    } else if (
+        solNormalizado === "não permitido" ||
+        solNormalizado === "nao permitido"
+    ) {
+        textoSol = "Não permitido";
+        iconeSol = "🚫";
+    } else if (
+        solNormalizado === "permitido com restrição" ||
+        solNormalizado === "permitido com restricao"
+    ) {
+        textoSol = "Permitido com restrição";
+        iconeSol = "⚠️";
+    } else if (solNormalizado === "permitido" || solNormalizado === "sim") {
+        textoSol = "Permitido";
+        iconeSol = "🌤️";
+    }
+
+    const indicadores = [
+        criarIndicadorRotulado(
+            "Sombrite",
+            criarChip("🟨", iluminacao.sombrite)
+        ),
+        criarIndicadorRotulado(
+            "Sol direto",
+            criarChip(iconeSol, textoSol)
+        )
+    ];
+
+    const horario = String(iluminacao.horario || "").trim();
+    const horarioEhTemporal =
+        /\b(?:[0-1]?\d|2[0-3])\s*(?:h|:)\s*(?:[0-5]\d)?\b/i.test(horario) ||
+        /(manhã|manha|tarde|amanhecer|entardecer|início do dia|inicio do dia|primeiras horas|final do dia|fim do dia|antes das|após as|apos as)/i.test(horario);
+
+    if ((textoSol === "Permitido" || textoSol === "Permitido com restrição") && horario && horarioEhTemporal) {
+        indicadores.push(
+            criarIndicadorRotulado(
+                "Exposição segura",
+                criarChip("🕘", horario)
+            )
+        );
+    }
+
+    return criarInfoCard({
+        titulo: "Iluminação",
+        icone: "☀️",
+        indicadores,
+        descricao: iluminacao.observacoes || "",
+        classeExtra: "card-iluminacao-v2"
+    });
+}
+
+function obterFotos(fotos) {
     if (!Array.isArray(fotos)) {
         return [];
     }
 
-    return fotos
-        .map((foto) => {
-            if (typeof foto === "string") {
-                return foto.trim();
-            }
+    return fotos.filter((foto) => {
+        return (
+            typeof foto === "string" &&
+            foto.trim() !== ""
+        );
+    });
+}
 
-            if (foto && typeof foto === "object") {
-                return String(
-                    foto.src ||
-                    foto.url ||
-                    foto.arquivo ||
-                    ""
-                ).trim();
-            }
+function criarCaracteristicas(caracteristicas) {
+    if (
+        !Array.isArray(caracteristicas) ||
+        caracteristicas.length === 0
+    ) {
+        return "";
+    }
 
-            return "";
+    return caracteristicas
+        .map((caracteristica) => {
+            return `
+                <span class="caracteristica">
+                    ${caracteristica}
+                </span>
+            `;
         })
-        .filter(Boolean);
+        .join("");
 }
 
 function criarEstrelas(nota) {
-    const valor = Math.max(
-        0,
-        Math.min(5, Number(nota) || 0)
-    );
+    const valor = Number(nota) || 0;
 
     let estrelas = "";
 
-    for (let indice = 1; indice <= 5; indice += 1) {
-        estrelas += indice <= valor ? "★" : "☆";
+    for (let indice = 1; indice <= 5; indice++) {
+        estrelas +=
+            indice <= valor
+                ? "★"
+                : "☆";
     }
 
     return estrelas;
 }
 
-function criarAvaliacao(titulo, nota) {
-    const valor = Math.max(
-        0,
-        Math.min(5, Number(nota) || 0)
-    );
+function criarAvaliacao(
+    titulo,
+    nota,
+    icone
+) {
+    const valor = Number(nota) || 0;
 
     return `
-        <div class="avaliacao-item">
+        <div class="avaliacao-v2">
 
-            <span class="avaliacao-titulo">
-                ${escaparHTML(titulo)}
-            </span>
+            <div class="avaliacao-v2-cabecalho">
 
-            <span
-                class="estrelas"
+                <span class="avaliacao-v2-titulo">
+                    ${icone} ${titulo}
+                </span>
+
+                <span class="avaliacao-v2-nota">
+                    ${valor}/5
+                </span>
+
+            </div>
+
+            <div
+                class="estrelas-v2"
                 aria-label="${valor} de 5 estrelas"
                 title="${valor} de 5"
             >
                 ${criarEstrelas(valor)}
-            </span>
+            </div>
 
         </div>
     `;
 }
 
-function criarCalendarioFloracao(mesesAtivos) {
-    const mesesValidos = Array.isArray(mesesAtivos)
-        ? mesesAtivos.map(Number)
-        : [];
+function criarCalendarioFloracao(
+    mesesFloracao
+) {
+    const mesesAtivos =
+        Array.isArray(mesesFloracao)
+            ? mesesFloracao.map(Number)
+            : [];
 
     return nomesMeses
         .map((mes, indice) => {
             const numeroMes = indice + 1;
-            const ativo = mesesValidos.includes(numeroMes);
+
+            const ativo =
+                mesesAtivos.includes(numeroMes);
 
             return `
                 <div
-                    class="mes-floracao ${
-                        ativo ? "mes-ativo" : ""
-                    }"
-                    title="${
-                        ativo
-                            ? "Mês previsto de floração"
-                            : "Fora do período cadastrado"
-                    }"
+                    class="
+                        mes-floracao-v2
+                        ${ativo ? "mes-ativo-v2" : ""}
+                    "
                 >
-                    <span>${mes}</span>
 
-                    <strong aria-hidden="true">
+                    <span>
+                        ${mes}
+                    </span>
+
+                    <strong>
                         ${ativo ? "🌸" : "—"}
                     </strong>
+
                 </div>
             `;
         })
         .join("");
 }
 
-function criarCaracteristicas(lista) {
-    if (!Array.isArray(lista) || lista.length === 0) {
-        return "";
+function rotuloDificuldadeCultivo(valor) {
+    const original = String(valor || "").trim();
+    const normalizado = original.toLowerCase();
+
+    if (normalizado.includes("fácil") || normalizado.includes("facil")) return "fácil";
+    if (normalizado.includes("moder")) return "moderado";
+    if (normalizado.includes("difícil") || normalizado.includes("dificil") || normalizado.includes("avanç")) return "avançado";
+
+    return original || "não informado";
+}
+
+function criarSelos(orquidea) {
+    const selos = [];
+    const textoCaracteristicas = Array.isArray(orquidea.caracteristicas)
+        ? orquidea.caracteristicas.join(" ").toLowerCase()
+        : "";
+    const tipo = String(orquidea.tipo || "").toLowerCase();
+    const dificuldade = String(orquidea.dificuldade || "").toLowerCase();
+    const origem = String(orquidea.origem || "").toLowerCase();
+
+    if (origem.includes("brasil") || textoCaracteristicas.includes("brasileir")) {
+        selos.push(["🇧🇷", "Brasileira"]);
     }
 
-    return lista
-        .filter((item) => String(item || "").trim())
-        .map((item) => `
-            <span class="caracteristica">
-                ${escaparHTML(item)}
-            </span>
-        `)
-        .join("");
+    if (tipo.includes("híbr") || tipo.includes("hibr")) {
+        selos.push(["🧬", "Híbrido"]);
+    } else if (tipo.includes("espéc") || tipo.includes("espec")) {
+        selos.push(["🌿", "Espécie botânica"]);
+    }
+
+    if (textoCaracteristicas.includes("perfum")) {
+        selos.push(["🌸", "Perfumada"]);
+    }
+
+    if (dificuldade.includes("fácil") || dificuldade.includes("facil")) {
+        selos.push(["🟢", "Cultivo fácil"]);
+    } else if (dificuldade.includes("moder")) {
+        selos.push(["🟡", "Cultivo moderado"]);
+    } else if (dificuldade.includes("difícil") || dificuldade.includes("dificil") || dificuldade.includes("avanç")) {
+        selos.push(["🔴", "Cultivo avançado"]);
+    }
+
+    return selos.slice(0, 5).map(([icone, texto]) => `
+        <span class="selo-especie-v4">
+            <span aria-hidden="true">${icone}</span>
+            ${texto}
+        </span>
+    `).join("");
 }
 
-function criarGaleria(fotos, nome) {
-    const imagens =
-        fotos.length > 0
-            ? fotos
-            : [IMAGEM_PADRAO];
+function criarGaleria(fotos) {
+    if (fotos.length === 0) {
+        return `
+            <div class="galeria-v2-sem-foto">
+                <span>🌸</span>
+                <p>Imagem ainda não cadastrada</p>
+            </div>
+        `;
+    }
 
-    return imagens
-        .map((foto, indice) => `
+    const fotoPrincipal = fotos[0];
+    const fotosSecundarias = fotos.slice(1, 4);
+    const quantidadeExtra = Math.max(0, fotos.length - 4);
+
+    const miniaturas = fotosSecundarias
+        .map((foto, indice) => {
+            const indiceReal = indice + 1;
+            const mostrarExtra = indice === 2 && quantidadeExtra > 0;
+
+            return `
+                <button
+                    class="miniatura-v2"
+                    type="button"
+                    data-galeria-indice="${indiceReal}"
+                    aria-label="Exibir foto ${indiceReal + 1} como principal"
+                    aria-pressed="false"
+                >
+                    <img
+                        src="${foto}"
+                        alt="${orquidea.nome} — foto ${indiceReal + 1}"
+                        loading="lazy"
+                    >
+                    ${mostrarExtra ? `<span class="mais-fotos-v4">+${quantidadeExtra}</span>` : ""}
+                </button>
+            `;
+        })
+        .join("");
+
+    return `
+        <div class="galeria-v2" data-total-fotos="${fotos.length}">
             <button
-                class="foto-galeria"
+                id="foto-principal-v4"
+                class="foto-principal-v2"
                 type="button"
-                data-indice="${indice}"
-                aria-label="Ampliar foto ${indice + 1} de ${escaparHTML(nome)}"
+                data-abrir-indice="0"
+                aria-label="Ampliar foto principal"
             >
                 <img
-                    src="${escaparHTML(foto)}"
-                    alt="${escaparHTML(nome)} — foto ${indice + 1}"
-                    loading="${indice === 0 ? "eager" : "lazy"}"
-                    decoding="async"
-                    onerror="
-                        this.onerror = null;
-                        this.src = '${IMAGEM_PADRAO}';
-                    "
+                    id="imagem-principal-v4"
+                    src="${fotoPrincipal}"
+                    alt="${orquidea.nome} — foto principal"
+                    loading="eager"
                 >
+                <span class="ampliar-foto-v4" aria-hidden="true">⛶ Ampliar</span>
             </button>
-        `)
-        .join("");
+
+            ${miniaturas ? `<div class="miniaturas-v2">${miniaturas}</div>` : ""}
+        </div>
+    `;
 }
 
-function mostrarMensagemBotao(botao, mensagem) {
+function mostrarMensagemBotao(
+    botao,
+    mensagem
+) {
     const textoOriginal = botao.innerHTML;
 
     botao.innerHTML = mensagem;
@@ -222,10 +1079,10 @@ function mostrarMensagemBotao(botao, mensagem) {
 }
 
 async function copiarLinkFicha(botao) {
-    const link = window.location.href;
-
     try {
-        await navigator.clipboard.writeText(link);
+        await navigator.clipboard.writeText(
+            window.location.href
+        );
 
         mostrarMensagemBotao(
             botao,
@@ -235,14 +1092,23 @@ async function copiarLinkFicha(botao) {
         const campoTemporario =
             document.createElement("textarea");
 
-        campoTemporario.value = link;
-        campoTemporario.style.position = "fixed";
-        campoTemporario.style.opacity = "0";
+        campoTemporario.value =
+            window.location.href;
 
-        document.body.appendChild(campoTemporario);
+        campoTemporario.style.position =
+            "fixed";
+
+        campoTemporario.style.opacity =
+            "0";
+
+        document.body.appendChild(
+            campoTemporario
+        );
 
         campoTemporario.select();
+
         document.execCommand("copy");
+
         campoTemporario.remove();
 
         mostrarMensagemBotao(
@@ -253,109 +1119,383 @@ async function copiarLinkFicha(botao) {
 }
 
 /* =========================================================
-   LOCALIZAÇÃO DA ORQUÍDEA
+   ORQUÍDEA NÃO ENCONTRADA
 ========================================================= */
-
-const orquidea = orquideas.find((item) => {
-    return String(item?.id || "").trim() === idOrquidea;
-});
 
 if (!orquidea) {
+
     ficha.style.display = "none";
-    fichaNaoEncontrada.style.display = "block";
+
+    fichaNaoEncontrada.style.display =
+        "block";
+
 } else {
-    renderizarFicha(orquidea);
-}
 
-/* =========================================================
-   RENDERIZAÇÃO
-========================================================= */
-
-function renderizarFicha(dados) {
-    const nome =
-        textoSeguro(
-            dados.nome,
-            "Orquídea sem identificação"
-        );
-
-    const fotos = normalizarFotos(dados.fotos);
-
-    const avaliacoes =
-        dados.avaliacoes &&
-        typeof dados.avaliacoes === "object"
-            ? dados.avaliacoes
-            : {};
+    fichaNaoEncontrada.style.display =
+        "none";
 
     document.title =
-        `${nome} | Catálogo de Orquídeas`;
+        `${orquidea.nome} | Catálogo de Orquídeas`;
+
+    const fotos = obterFotos(
+        orquidea.imagens || orquidea.fotos
+    );
+
+    const avaliacoes =
+        orquidea.avaliacoes || {};
+
+    /* =====================================================
+       CONTEÚDO DA FICHA V2
+    ===================================================== */
 
     ficha.innerHTML = `
-        <section class="cabecalho-especie">
 
-            <div class="linha-superior-especie">
+        <nav class="breadcrumb-v4" aria-label="Navegação estrutural">
+            <a href="index.html">Início</a>
+            <span aria-hidden="true">›</span>
+            <a href="index.html#catalogo">Catálogo</a>
+            <span aria-hidden="true">›</span>
+            <span aria-current="page">${orquidea.nome}</span>
+        </nav>
 
-                <div class="identificacao-especie">
+        <section class="topo-ficha-v2">
 
-                    <div class="etiquetas">
+            <div class="identificacao-v2">
 
-                        <span class="etiqueta">
-                            ${escaparHTML(
-                                textoSeguro(
-                                    dados.tipo,
-                                    "Classificação não informada"
-                                )
-                            )}
-                        </span>
+                <div class="etiquetas-v2">
 
-                        <span class="etiqueta">
-                            ${escaparHTML(
-                                textoSeguro(
-                                    dados.genero,
-                                    "Gênero não informado"
-                                )
-                            )}
-                        </span>
-
-                        <span class="etiqueta">
-                            Cultivo ${escaparHTML(
-                                textoSeguro(
-                                    dados.dificuldade,
-                                    "não informado"
-                                )
-                            )}
-                        </span>
-
-                    </div>
-
-                    <h2 class="titulo-ficha">
-                        <em>${escaparHTML(nome)}</em>
-                    </h2>
-
-                    <div class="lista-caracteristicas">
-                        ${criarCaracteristicas(
-                            dados.caracteristicas
+                    <span class="etiqueta-v2">
+                        ${obterTexto(
+                            orquidea.tipo,
+                            "Tipo não informado"
                         )}
+                    </span>
+
+                    <span class="etiqueta-v2">
+                        ${obterTexto(
+                            orquidea.genero,
+                            "Gênero não informado"
+                        )}
+                    </span>
+
+                    <span class="etiqueta-v2">
+                        Cultivo ${rotuloDificuldadeCultivo(orquidea.dificuldade)}
+                    </span>
+
+                    ${orquidea.adaptacaoRegional ? `
+                        <span class="etiqueta-v2 etiqueta-regional-v3">
+                            🌍 Adaptação regional
+                        </span>
+                    ` : ""}
+
+                </div>
+
+                <h2 class="titulo-ficha-v2">
+                    ${orquidea.nome}
+                </h2>
+
+                <div class="selos-especie-v4" aria-label="Destaques da espécie">
+                    ${criarSelos(orquidea)}
+                </div>
+
+                <div class="caracteristicas-v2">
+
+                    ${criarCaracteristicas(
+                        orquidea.caracteristicas
+                    )}
+
+                </div>
+
+            </div>
+
+            <div class="acoes-ficha-v2">
+
+                <button
+                    id="imprimir-ficha"
+                    class="botao-v2 botao-imprimir-v2"
+                    type="button"
+                >
+                    🖨️ Imprimir
+                </button>
+
+                <button
+                    id="copiar-link"
+                    class="botao-v2 botao-copiar-v2"
+                    type="button"
+                >
+                    🔗 Copiar link
+                </button>
+
+            </div>
+
+        </section>
+
+        <nav class="navegacao-ficha-v3" aria-label="Seções da ficha">
+            <a href="#visao-geral">Visão geral</a>
+            <a href="#sobre-especie">Sobre</a>
+            <a href="#guia-cultivo">Cultivo</a>
+            <a href="#avaliacao-especie">Avaliações</a>
+            ${orquidea.errosComuns ? `<a href="#erros-comuns">Erros comuns</a>` : ""}
+            ${orquidea.adaptacaoRegional ? `<a href="#adaptacao-regional">Adaptação regional</a>` : ""}
+            <a href="#dica-ouro">Dica de Ouro</a>
+        </nav>
+
+        <section id="visao-geral" class="apresentacao-v2 secao-ancora-v3">
+
+            <div class="area-galeria-v2">
+
+                ${criarGaleria(fotos)}
+
+            </div>
+
+            <aside class="resumo-lateral-v2">
+
+                <div class="resumo-item-v2">
+
+                    <span class="resumo-icone-v2">
+                        🌎
+                    </span>
+
+                    <div>
+                        <strong>Origem</strong>
+
+                        <p class="info-horizontal">
+                            ${obterTexto(
+                                orquidea.origem
+                            )}
+                        </p>
                     </div>
 
                 </div>
 
-                <div class="acoes-ficha">
+                <div class="resumo-item-v2">
 
-                    <button
-                        id="imprimir-ficha"
-                        class="botao-acao-ficha botao-imprimir"
-                        type="button"
-                    >
-                        🖨️ Imprimir / Salvar em PDF
-                    </button>
+                    <span class="resumo-icone-v2">
+                        📍
+                    </span>
 
-                    <button
-                        id="copiar-link"
-                        class="botao-acao-ficha botao-copiar"
-                        type="button"
-                    >
-                        🔗 Copiar link
-                    </button>
+                    <div>
+                        <strong>Região natural</strong>
+
+                        <p class="info-horizontal">
+                            ${obterTexto(
+                                orquidea.regiao
+                            )}
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="resumo-item-v2">
+
+                    <span class="resumo-icone-v2">
+                        🌳
+                    </span>
+
+                    <div>
+                        <strong>Habitat</strong>
+
+                        <p class="info-horizontal">
+                            ${obterTexto(
+                                orquidea.habitat
+                            )}
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="resumo-item-v2">
+
+                    <span class="resumo-icone-v2">
+                        🌡️
+                    </span>
+
+                    <div>
+                        <strong>Clima</strong>
+
+                        <p class="info-horizontal">
+                            ${obterTexto(
+                                orquidea.clima
+                            )}
+                        </p>
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </section>
+
+        ${criarNavegacaoEntreFichas(orquidea)}
+
+        <section id="sobre-especie" class="descricao-v2 secao-ancora-v3">
+
+            <div class="titulo-secao-v2">
+
+                <span>🌸</span>
+
+                <h3>
+                    Sobre a espécie
+                </h3>
+
+            </div>
+
+            <div class="identificacao-cientifica-v2">
+                <div>
+                    <span>📖 Nome científico</span>
+                    <strong><em>${orquidea.nome}</em></strong>
+                </div>
+
+                <div>
+                    <span>🌍 Origem</span>
+                    <strong>${obterTexto(orquidea.origem)}</strong>
+                </div>
+            </div>
+
+            <p>
+                ${obterTexto(
+                    orquidea.descricao,
+                    "A descrição desta orquídea ainda não foi cadastrada."
+                )}
+            </p>
+
+        </section>
+
+        <section id="guia-cultivo" class="secao-cultivo-v2 secao-ancora-v3">
+
+            <div class="titulo-secao-v2">
+
+                <span>🌿</span>
+
+                <h3>
+                    Guia de cultivo
+                </h3>
+
+            </div>
+
+            ${criarFormasCultivoV4(orquidea.formasCultivo)}
+            ${criarSubstratoVisualV4(orquidea.substratoVisual, orquidea.substrato)}
+
+            <div class="grade-cultivo-v2">
+
+                ${criarCardIluminacao(orquidea.iluminacao)}
+
+                ${criarInfoCard({
+                    titulo: "Rega",
+                    icone: "💧",
+                    chips: criarSelosRega(orquidea),
+                    conteudo: obterTexto(orquidea.rega),
+                    classeExtra: "card-rega-v4"
+                })}
+
+                ${criarInfoCard({
+                    titulo: "Clima para floração",
+                    icone: "🌡️",
+                    chips: criarSelosClimaFloracao(orquidea),
+                    conteudo: obterTexto(
+                        orquidea.climaFloracao,
+                        orquidea.clima ||
+                        "Condições específicas de floração ainda não cadastradas."
+                    ),
+                    classeExtra: "card-clima-floracao-v2 card-clima-v4"
+                })}
+
+                ${criarCardEstruturado({
+                    titulo: "Adubação recomendada",
+                    icone: "🧪",
+                    valor: orquidea.adubacao,
+                    classeExtra: "card-adubacao-v2"
+                })}
+
+                ${orquidea.formasCultivo ? "" : criarCardEstruturado({
+                    titulo: "Suportes recomendados",
+                    icone: "🪵",
+                    valor: orquidea.suporte,
+                    classeExtra: "card-suporte-v2"
+                })}
+
+
+            </div>
+
+        </section>
+
+        <section id="avaliacao-especie" class="painel-dados-v2 secao-ancora-v3">
+
+            <div class="avaliacoes-v2">
+
+                <div class="titulo-secao-v2">
+
+                    <span>⭐</span>
+
+                    <h3>
+                        Avaliação da espécie
+                    </h3>
+
+                </div>
+
+                <div class="lista-avaliacoes-v2">
+
+                    ${criarAvaliacao(
+                        "Cultivo",
+                        avaliacoes.cultivo,
+                        "🌿"
+                    )}
+
+                    ${criarAvaliacao(
+                        "Floração",
+                        avaliacoes.floracao,
+                        "🌸"
+                    )}
+
+                    ${criarAvaliacao(
+                        "Perfume",
+                        avaliacoes.perfume,
+                        "🌺"
+                    )}
+
+                    ${criarAvaliacao(
+                        "Luminosidade",
+                        avaliacoes.luminosidade,
+                        "☀️"
+                    )}
+
+                    ${criarAvaliacao(
+                        "Água",
+                        avaliacoes.agua,
+                        "💧"
+                    )}
+
+                    ${criarAvaliacao(
+                        "Raridade",
+                        avaliacoes.raridade,
+                        "💎"
+                    )}
+
+                </div>
+
+            </div>
+
+            <div class="calendario-v2">
+
+                <div class="titulo-secao-v2">
+
+                    <span>🌸</span>
+
+                    <h3>
+                        Floração
+                    </h3>
+
+                </div>
+
+                <p class="texto-floracao-v2">
+                    ${obterTexto(orquidea.floracao,"Período de floração não cadastrado.")}
+                </p>
+
+                <div class="meses-v2">
+
+                    ${criarCalendarioFloracao(
+                        orquidea.mesesFloracao
+                    )}
 
                 </div>
 
@@ -363,218 +1503,42 @@ function renderizarFicha(dados) {
 
         </section>
 
-        <section class="galeria-detalhada">
-            ${criarGaleria(fotos, nome)}
-        </section>
+        ${criarErrosComuns(orquidea.errosComuns)}
 
-        <section class="conteudo-ficha">
+        ${criarAdaptacaoRegional(orquidea.adaptacaoRegional, orquidea.indiceAdaptacaoRegional)}
 
-            <section class="descricao-especie">
+        <section id="dica-ouro" class="dica-ouro-v2 secao-ancora-v3">
 
-                <h3>Sobre a espécie</h3>
+            <div class="icone-dica-v2">
+                💡
+            </div>
+
+            <div>
+
+                <h3>
+                    Dica de Ouro
+                </h3>
 
                 <p>
-                    ${escaparHTML(
-                        textoSeguro(
-                            dados.descricao,
-                            "Descrição ainda não cadastrada."
-                        )
+                    ${obterTexto(
+                        orquidea.dica,
+                        "Nenhuma dica cadastrada."
                     )}
                 </p>
 
-            </section>
-
-            <section class="resumo-natural">
-
-                <div class="bloco-informacao">
-                    <h3>🌎 Origem</h3>
-                    <p>
-                        ${escaparHTML(
-                            textoSeguro(dados.origem)
-                        )}
-                    </p>
-                </div>
-
-                <div class="bloco-informacao">
-                    <h3>📍 Região natural</h3>
-                    <p>
-                        ${escaparHTML(
-                            textoSeguro(dados.regiao)
-                        )}
-                    </p>
-                </div>
-
-                <div class="bloco-informacao">
-                    <h3>🌳 Habitat</h3>
-                    <p>
-                        ${escaparHTML(
-                            textoSeguro(dados.habitat)
-                        )}
-                    </p>
-                </div>
-
-            </section>
-
-            <section class="painel-avaliacoes">
-
-                <div class="avaliacoes">
-
-                    <h3>Avaliação da espécie</h3>
-
-                    ${criarAvaliacao(
-                        "Facilidade de cultivo",
-                        avaliacoes.cultivo
-                    )}
-
-                    ${criarAvaliacao(
-                        "Facilidade de floração",
-                        avaliacoes.floracao
-                    )}
-
-                    ${criarAvaliacao(
-                        "Perfume",
-                        avaliacoes.perfume
-                    )}
-
-                    ${criarAvaliacao(
-                        "Luminosidade",
-                        avaliacoes.luminosidade
-                    )}
-
-                    ${criarAvaliacao(
-                        "Necessidade de água",
-                        avaliacoes.agua
-                    )}
-
-                    ${criarAvaliacao(
-                        "Raridade",
-                        avaliacoes.raridade
-                    )}
-
-                </div>
-
-                <div class="calendario-floracao">
-
-                    <h3>Calendário de floração</h3>
-
-                    <div class="meses">
-                        ${criarCalendarioFloracao(
-                            dados.mesesFloracao
-                        )}
-                    </div>
-
-                </div>
-
-            </section>
-
-            <section class="grade-informacoes">
-
-                <div class="bloco-informacao">
-                    <h3>🌡️ Clima para floração</h3>
-                    <p>
-                        ${escaparHTML(
-                            textoSeguro(dados.clima)
-                        )}
-                    </p>
-                </div>
-
-                <div class="bloco-informacao">
-                    <h3>☀️ Iluminação</h3>
-                    <p>
-                        ${escaparHTML(
-                            textoSeguro(dados.iluminacao)
-                        )}
-                    </p>
-                </div>
-
-                <div class="bloco-informacao">
-                    <h3>🌸 Época de floração</h3>
-                    <p>
-                        ${escaparHTML(
-                            textoSeguro(dados.floracao)
-                        )}
-                    </p>
-                </div>
-
-                <div class="bloco-informacao">
-                    <h3>🧪 Adubação</h3>
-                    <p>
-                        ${escaparHTML(
-                            textoSeguro(dados.adubacao)
-                        )}
-                    </p>
-                </div>
-
-                <div class="bloco-informacao">
-                    <h3>💧 Rega</h3>
-                    <p>
-                        ${escaparHTML(
-                            textoSeguro(dados.rega)
-                        )}
-                    </p>
-                </div>
-
-                <div class="bloco-informacao">
-                    <h3>🪵 Suporte ideal</h3>
-                    <p>
-                        ${escaparHTML(
-                            textoSeguro(dados.suporte)
-                        )}
-                    </p>
-                </div>
-
-                <div class="bloco-informacao bloco-largo">
-                    <h3>🌱 Substrato ideal</h3>
-                    <p>
-                        ${escaparHTML(
-                            textoSeguro(dados.substrato)
-                        )}
-                    </p>
-                </div>
-
-            </section>
-
-            <section class="dica-ouro">
-
-                <h3>💡 Dica de ouro</h3>
-
-                <p>
-                    ${escaparHTML(
-                        textoSeguro(
-                            dados.dica,
-                            "Nenhuma dica cadastrada."
-                        )
-                    )}
-                </p>
-
-            </section>
-
-            <section class="rodape-ficha-impressao">
-
-                <p>
-                    Ficha de cultivo do
-                    <strong>Catálogo de Orquídeas</strong>
-                </p>
-
-                <p>
-                    Coleção particular cultivada em Serra/ES
-                </p>
-
-            </section>
+            </div>
 
         </section>
 
         <div
-            id="visualizador-fotos"
-            class="visualizador-fotos"
+            id="visualizador-v2"
+            class="visualizador-v2"
             aria-hidden="true"
-            role="dialog"
-            aria-modal="true"
-            aria-label="Visualizador de fotos"
         >
+
             <button
-                id="fechar-visualizador"
-                class="fechar-visualizador"
+                id="fechar-visualizador-v2"
+                class="fechar-visualizador-v2"
                 type="button"
                 aria-label="Fechar visualizador"
             >
@@ -582,8 +1546,8 @@ function renderizarFicha(dados) {
             </button>
 
             <button
-                id="foto-anterior"
-                class="controle-foto anterior"
+                id="foto-anterior-v2"
+                class="controle-visualizador-v2 anterior-v2"
                 type="button"
                 aria-label="Foto anterior"
             >
@@ -591,181 +1555,300 @@ function renderizarFicha(dados) {
             </button>
 
             <img
-                id="foto-ampliada"
+                id="foto-ampliada-v2"
                 src=""
                 alt=""
             >
 
             <button
-                id="proxima-foto"
-                class="controle-foto proxima"
+                id="proxima-foto-v2"
+                class="controle-visualizador-v2 proxima-v2"
                 type="button"
                 aria-label="Próxima foto"
             >
                 ›
             </button>
 
-            <span id="contador-fotos"></span>
+            <span
+                id="contador-v2"
+                class="contador-v2"
+            ></span>
+
         </div>
+
     `;
 
-    configurarAcoes(fotos, nome);
-}
-
-/* =========================================================
-   AÇÕES DA FICHA E GALERIA
-========================================================= */
-
-function configurarAcoes(fotosOriginais, nome) {
-    const fotos =
-        fotosOriginais.length > 0
-            ? fotosOriginais
-            : [IMAGEM_PADRAO];
+    /* =====================================================
+       BOTÕES
+    ===================================================== */
 
     const botaoImprimir =
-        document.getElementById("imprimir-ficha");
+        document.getElementById(
+            "imprimir-ficha"
+        );
 
     const botaoCopiarLink =
-        document.getElementById("copiar-link");
-
-    botaoImprimir?.addEventListener("click", () => {
-        window.print();
-    });
-
-    botaoCopiarLink?.addEventListener("click", () => {
-        copiarLinkFicha(botaoCopiarLink);
-    });
-
-    let indiceAtual = 0;
-
-    const visualizador =
-        document.getElementById("visualizador-fotos");
-
-    const fotoAmpliada =
-        document.getElementById("foto-ampliada");
-
-    const contadorFotos =
-        document.getElementById("contador-fotos");
-
-    const fecharVisualizador =
-        document.getElementById("fechar-visualizador");
-
-    const fotoAnterior =
-        document.getElementById("foto-anterior");
-
-    const proximaFoto =
-        document.getElementById("proxima-foto");
-
-    const botoesFotos =
-        document.querySelectorAll(".foto-galeria");
-
-    function atualizarVisualizador() {
-        fotoAmpliada.src = fotos[indiceAtual];
-        fotoAmpliada.alt =
-            `${nome} — foto ${indiceAtual + 1}`;
-
-        contadorFotos.textContent =
-            `${indiceAtual + 1} de ${fotos.length}`;
-    }
-
-    function abrirVisualizador(indice) {
-        indiceAtual = indice;
-
-        atualizarVisualizador();
-
-        visualizador.classList.add("aberto");
-        visualizador.setAttribute(
-            "aria-hidden",
-            "false"
+        document.getElementById(
+            "copiar-link"
         );
 
-        document.body.classList.add("sem-rolagem");
-        fecharVisualizador.focus();
-    }
-
-    function fecharGaleria() {
-        visualizador.classList.remove("aberto");
-        visualizador.setAttribute(
-            "aria-hidden",
-            "true"
-        );
-
-        document.body.classList.remove("sem-rolagem");
-    }
-
-    function mostrarFotoAnterior() {
-        indiceAtual =
-            (indiceAtual - 1 + fotos.length) %
-            fotos.length;
-
-        atualizarVisualizador();
-    }
-
-    function mostrarProximaFoto() {
-        indiceAtual =
-            (indiceAtual + 1) %
-            fotos.length;
-
-        atualizarVisualizador();
-    }
-
-    botoesFotos.forEach((botao) => {
-        botao.addEventListener("click", () => {
-            abrirVisualizador(
-                Number(botao.dataset.indice)
-            );
-        });
-    });
-
-    fecharVisualizador?.addEventListener(
+    botaoImprimir.addEventListener(
         "click",
-        fecharGaleria
-    );
-
-    fotoAnterior?.addEventListener(
-        "click",
-        mostrarFotoAnterior
-    );
-
-    proximaFoto?.addEventListener(
-        "click",
-        mostrarProximaFoto
-    );
-
-    visualizador?.addEventListener(
-        "click",
-        (evento) => {
-            if (evento.target === visualizador) {
-                fecharGaleria();
-            }
+        () => {
+            window.print();
         }
     );
 
-    document.addEventListener(
-        "keydown",
-        (evento) => {
-            if (
-                !visualizador?.classList.contains("aberto")
-            ) {
+    botaoCopiarLink.addEventListener(
+        "click",
+        () => {
+            copiarLinkFicha(
+                botaoCopiarLink
+            );
+        }
+    );
+
+    /* =====================================================
+       GALERIA AMPLIADA
+    ===================================================== */
+
+    if (fotos.length > 0) {
+
+        let indiceAtual = 0;
+
+        const visualizador =
+            document.getElementById(
+                "visualizador-v2"
+            );
+
+        const fotoAmpliada =
+            document.getElementById(
+                "foto-ampliada-v2"
+            );
+
+        const contador =
+            document.getElementById(
+                "contador-v2"
+            );
+
+        const fecharVisualizador =
+            document.getElementById(
+                "fechar-visualizador-v2"
+            );
+
+        const fotoAnterior =
+            document.getElementById(
+                "foto-anterior-v2"
+            );
+
+        const proximaFoto =
+            document.getElementById(
+                "proxima-foto-v2"
+            );
+
+        const botaoFotoPrincipal =
+            document.getElementById("foto-principal-v4");
+
+        const imagemPrincipal =
+            document.getElementById("imagem-principal-v4");
+
+        const botoesMiniaturas =
+            document.querySelectorAll("[data-galeria-indice]");
+
+        let indicePrincipal = 0;
+
+        function atualizarVisualizador() {
+            fotoAmpliada.src =
+                fotos[indiceAtual];
+
+            fotoAmpliada.alt =
+                `${orquidea.nome} — foto ${indiceAtual + 1}`;
+
+            contador.textContent =
+                `${indiceAtual + 1} de ${fotos.length}`;
+        }
+
+        function abrirVisualizador(indice) {
+            indiceAtual = indice;
+
+            atualizarVisualizador();
+
+            visualizador.classList.add(
+                "visualizador-v2-aberto"
+            );
+
+            visualizador.setAttribute(
+                "aria-hidden",
+                "false"
+            );
+
+            document.body.classList.add(
+                "sem-rolagem"
+            );
+        }
+
+        function fecharGaleria() {
+            visualizador.classList.remove(
+                "visualizador-v2-aberto"
+            );
+
+            visualizador.setAttribute(
+                "aria-hidden",
+                "true"
+            );
+
+            document.body.classList.remove(
+                "sem-rolagem"
+            );
+        }
+
+        function mostrarFotoAnterior() {
+            indiceAtual =
+                (
+                    indiceAtual -
+                    1 +
+                    fotos.length
+                ) %
+                fotos.length;
+
+            atualizarVisualizador();
+        }
+
+        function mostrarProximaFoto() {
+            indiceAtual =
+                (
+                    indiceAtual +
+                    1
+                ) %
+                fotos.length;
+
+            atualizarVisualizador();
+        }
+
+        function trocarFotoPrincipal(botaoMiniatura) {
+            if (!imagemPrincipal || !botaoFotoPrincipal || !botaoMiniatura) {
                 return;
             }
 
-            if (evento.key === "Escape") {
-                fecharGaleria();
+            const imagemMiniatura = botaoMiniatura.querySelector("img");
+            const indiceClicado = Number(botaoMiniatura.dataset.galeriaIndice);
+
+            if (!imagemMiniatura || !Number.isInteger(indiceClicado)) {
+                return;
             }
 
-            if (evento.key === "ArrowLeft") {
-                mostrarFotoAnterior();
-            }
+            const indiceAnterior = indicePrincipal;
+            indicePrincipal = indiceClicado;
 
-            if (evento.key === "ArrowRight") {
-                mostrarProximaFoto();
-            }
+            imagemPrincipal.classList.add("imagem-principal-v4-trocando");
+            botaoMiniatura.classList.add("miniatura-v2-trocando");
+
+            // Troca real: a lateral sobe e a antiga principal ocupa exatamente
+            // o botão lateral clicado. Não há cópia nem imagem duplicada.
+            const fotoClicada = imagemMiniatura.src;
+            const altClicado = imagemMiniatura.alt;
+            const fotoPrincipalAnterior = imagemPrincipal.src;
+            const altPrincipalAnterior = imagemPrincipal.alt;
+
+            imagemPrincipal.src = fotoClicada;
+            imagemPrincipal.alt = altClicado;
+            botaoFotoPrincipal.dataset.abrirIndice = String(indiceClicado);
+
+            imagemMiniatura.src = fotoPrincipalAnterior;
+            imagemMiniatura.alt = altPrincipalAnterior;
+            botaoMiniatura.dataset.galeriaIndice = String(indiceAnterior);
+            botaoMiniatura.setAttribute(
+                "aria-label",
+                `Exibir foto ${indiceAnterior + 1} como principal`
+            );
+
+            botoesMiniaturas.forEach((miniatura) => {
+                miniatura.classList.remove("miniatura-v2-ativa");
+                miniatura.setAttribute("aria-pressed", "false");
+            });
+
+            window.requestAnimationFrame(() => {
+                imagemPrincipal.classList.remove("imagem-principal-v4-trocando");
+                botaoMiniatura.classList.remove("miniatura-v2-trocando");
+            });
         }
-    );
 
-    if (fotos.length <= 1) {
-        fotoAnterior.style.display = "none";
-        proximaFoto.style.display = "none";
+        botoesMiniaturas.forEach((botao) => {
+            botao.addEventListener("click", () => {
+                trocarFotoPrincipal(botao);
+            });
+        });
+
+        if (botaoFotoPrincipal) {
+            botaoFotoPrincipal.addEventListener("click", () => {
+                abrirVisualizador(indicePrincipal);
+            });
+        }
+
+        fecharVisualizador.addEventListener(
+            "click",
+            fecharGaleria
+        );
+
+        fotoAnterior.addEventListener(
+            "click",
+            mostrarFotoAnterior
+        );
+
+        proximaFoto.addEventListener(
+            "click",
+            mostrarProximaFoto
+        );
+
+        visualizador.addEventListener(
+            "click",
+            (evento) => {
+                if (
+                    evento.target ===
+                    visualizador
+                ) {
+                    fecharGaleria();
+                }
+            }
+        );
+
+        document.addEventListener(
+            "keydown",
+            (evento) => {
+                if (
+                    !visualizador.classList.contains(
+                        "visualizador-v2-aberto"
+                    )
+                ) {
+                    return;
+                }
+
+                if (evento.key === "Escape") {
+                    fecharGaleria();
+                }
+
+                if (
+                    evento.key ===
+                    "ArrowLeft"
+                ) {
+                    mostrarFotoAnterior();
+                }
+
+                if (
+                    evento.key ===
+                    "ArrowRight"
+                ) {
+                    mostrarProximaFoto();
+                }
+            }
+        );
+
+        if (fotos.length <= 1) {
+            fotoAnterior.style.display =
+                "none";
+
+            proximaFoto.style.display =
+                "none";
+        }
     }
 }
