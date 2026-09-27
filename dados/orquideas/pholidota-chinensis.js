@@ -5,6 +5,10 @@ export const pholidotaChinensis = {
     descricao:"À primeira vista, Pholidota chinensis parece uma planta de folhagem tranquila, mas sua floração transforma completamente a touceira. Pseudobulbos sulcados sustentam folhas largas e, junto aos novos crescimentos, surgem inflorescências arqueadas e pendentes de 15 a 30 cm, capazes de carregar dezenas de pequenas flores claras e perfumadas. Na natureza, a espécie ocupa desde árvores de florestas úmidas até rochas e paredões próximos a cursos d’água, distribuindo-se do Himalaia oriental e sul da China até a Indochina. Essa amplitude explica sua tolerância, mas não significa indiferença ao clima: muitas populações vivem em altitude, e no litoral brasileiro o desafio passa a ser manter raízes frescas, umidade regular e ar em movimento sem transformar o vaso em um reservatório quente. O nome Pholidota chinensis continua muito conhecido entre colecionadores, embora o POWO/Kew atualmente a inclua em Coelogyne chinensis.",
     caracteristicas:["Epífita e litófita", "Pseudobulbos sulcados", "Inflorescências pendentes de 15–30 cm", "Até cerca de 35 flores", "Flores perfumadas", "Ampla faixa de 300–2.500 m", "Prefere raízes frescas", "Sensível a calor excessivo"],
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 3, luminosidade: 2, agua: 4, raridade: 4 },
+    selosCultivo: {
+        rega: { nivel: "frequente" },
+        climaFloracao: { faixa: "intermediario-fresco" }
+    }
     fotos:["https://inaturalist-open-data.s3.amazonaws.com/photos/262546179/original.jpeg", "https://www.fascinationoforchids.com/species/Blog/22-06%20Jun/Scott/Pholidota-chinensis-2.jpg", "https://fangblatt.de/cdn/shop/files/20200508_114446_1280x1280_410d952c-6f3f-4066-8bea-3ead5e363993_grande.jpg?v=1709897785", "https://orchids.la.coocan.jp/Pholidota/Pholidota%20chinensis/DSC09173.JPG"],mesesFloracao:[4,5,6,7],
     clima:"Intermediário a fresco · úmido · ventilado",
     climaFloracao:"A espécie ocupa faixa altitudinal muito ampla, mas a Flora of China a registra principalmente entre 900 e 2.100 m e estudos de gradiente também a encontram por volta de 1.000–1.200 m. Isso indica que o litoral quente não é impossível, porém reduz a margem de erro. Para florescer na Serra/ES, procure noites o mais frescas possível, alta ventilação, sombra luminosa e raízes que não aqueçam dentro de mistura compacta.",
@@ -29,7 +33,27 @@ export const pholidotaChinensis = {
     ],alerta:"No litoral quente, o perigo é o substrato permanecer quente e saturado à noite. Use vaso proporcional, ventilação forte e rega matinal."},
     errosComuns:["Tratar a ampla distribuição altitudinal como prova de que tolera qualquer calor.","Usar sol forte para tentar estimular floração.","Deixar o substrato secar completamente por longos períodos durante o crescimento.","Manter esfagno compacto ou mistura fina permanentemente molhada.","Usar vaso grande demais, que permanece úmido e quente no centro.","Forçar adubação de floração quando o verdadeiro limitante é temperatura noturna."],
     revisaoCientificaIAR:{nome:"Pholidota chinensis Lindl.",statusTaxonomico:"POWO/Kew 2026 trata Pholidota chinensis como sinônimo de Coelogyne chinensis; WFO e bases horticulturais ainda exibem o nome tradicional. O catálogo mantém Pholidota chinensis por reconhecimento no cultivo e registra o nome aceito.",sinonimosPrincipais:"Coelogyne chinensis (Lindl.) Rchb.f.; Coelogyne pholas; Pholidota annamensis entre os sinônimos listados por Kew.",morfologiaDimensoes:"Pseudobulbos ovoides e sulcados; folhas ovado-oblongas a lanceoladas; inflorescência pendente de cerca de 15–30 cm com numerosas flores claras e perfumadas.",habitatAltitudeClima:"Epífita ou litófita do bioma tropical úmido. Kew dá ampla distribuição de Sikkim ao sul da China e Indochina; Flora of China registra 900–2.100 m e outras referências ampliam a faixa para aproximadamente 300–2.500 m.",distribuicaoGeografica:"Sul e centro-sul da China, sudeste da China, Himalaia oriental, Hainan, Laos, Myanmar, Tailândia, Tibete e Vietnã.",cultivoPremiacao:"Cultivo inferido principalmente de ecologia, fenologia e amplitude altitudinal; há menos documentação pública de orquidários brasileiros para esta espécie do que para Summer Wind. Por isso a confiança horticultural regional é menor.",confianca:"alta para taxonomia/ecologia; média para cultivo no litoral brasileiro",fontes:["POWO/Kew 2026","Flora of China/eFloras","World Flora Online","Orchids.org/IOSPE-derived culture records","estudo de gradiente altitudinal em floresta tropical"]},
-    indiceDificuldadeCultivo:{versao:"IDC 3.2 — selo por facilidade",escala:"dificuldade",indice:48,classificacao:"Moderada",cultivoEstrelas:3,criterios:{temperatura:{notaDificuldade:3,peso:15},rega:{notaDificuldade:2,peso:15},umidade:{notaDificuldade:2,peso:10},ventilacao:{notaDificuldade:2,peso:10},luminosidade:{notaDificuldade:2,peso:10},raizesSubstrato:{notaDificuldade:2,peso:10},sazonalidade:{notaDificuldade:2,peso:10},floracao:{notaDificuldade:3,peso:20}},faixas:{
+    raridadeIndice: {
+        versao: "2.0",
+        aplicavel: true,
+        distribuicao: {
+            pontuacao: 10,
+            justificativa: "Distribuição nativa ampla do Himalaia oriental/sul da China à Indochina."
+        },
+        endemismoHabitat: {
+            pontuacao: 15,
+            justificativa: "Não endêmica e presente em diferentes habitats epífitos/litófitos ao longo de ampla faixa altitudinal."
+        },
+        ocorrenciasGBIF: null,
+        conservacao: null,
+        populacaoFragmentacao: null,
+        ameacas: null,
+        disponibilidadeComercial: null,
+        fase1Legado: { estrelasCalculadas: 4 },
+        observacao: "Auditoria V2 ainda abaixo de 60% de peso validado; a metodologia exige preservar temporariamente a estrela legada em vez de inventar precisão.",
+        revisadoEm: "2026-09-27"
+    },
+        indiceDificuldadeCultivo:{versao:"IDC 3.2 — selo por facilidade",escala:"dificuldade",indice:47,classificacao:"Moderada",cultivoEstrelas:3,criterios:{temperatura:{notaDificuldade:3,peso:15},rega:{notaDificuldade:2,peso:15},umidade:{notaDificuldade:2,peso:10},ventilacao:{notaDificuldade:2,peso:10},luminosidade:{notaDificuldade:2,peso:10},raizesSubstrato:{notaDificuldade:2,peso:10},sazonalidade:{notaDificuldade:2,peso:10},floracao:{notaDificuldade:3,peso:20}},faixas:{
             facil: "0–25",
             moderada: "26–50",
             dificil: "51–89",

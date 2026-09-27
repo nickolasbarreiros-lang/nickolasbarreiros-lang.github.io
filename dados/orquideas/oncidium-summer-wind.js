@@ -5,7 +5,11 @@ export const oncidiumSummerWind = {
     origem:"Híbrido hortícola", regiao:"Cultivado e comercializado no Brasil", habitat:"Não possui habitat natural próprio.",
     descricao:"Uma orquídea que muda completamente de escala quando chega à maturidade. Oncidium Summer Wind forma pseudobulbos robustos e grandes touceiras, mas sua assinatura aparece nas inflorescências: hastes vigorosas, muito ramificadas e capazes de ultrapassar um metro, carregando dezenas — e em exemplares excepcionais perto de uma centena — de pequenas flores amarelas marcadas de castanho. O conjunto fica suspenso acima da folhagem como uma nuvem floral e pode permanecer ornamental por muitas semanas. No Brasil há exemplares cultivados ao ar livre formando touceiras volumosas e florações abundantes, enquanto plantas mantidas em ambiente abafado perdem vigor rapidamente. Essa resposta deixa claro o caráter da planta: Summer Wind gosta de claridade, raízes drenadas, umidade disponível e, acima de tudo, ar em movimento.",
     caracteristicas:["Porte médio a grande", "Touceiras vigorosas", "Hastes acima de 1 m", "Até dezenas de flores por haste", "Floração longa", "Ventilação crítica", "50–70% de sombreamento", "Bom desempenho em vaso plástico"],
-    avaliacoes: { cultivo: 4, floracao: 5, perfume: 2, luminosidade: 4, agua: 4, raridade: 3 },
+    avaliacoes: { cultivo: 3, floracao: 5, perfume: 2, luminosidade: 4, agua: 4, raridade: 0 },
+    selosCultivo: {
+        rega: { nivel: "frequente" },
+        climaFloracao: { faixa: "intermediario-quente" }
+    }
     fotos:["https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/oncidium-2.jpg?w=940", "https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/img_20180915_143822538.jpg?w=940", "https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/img_20180918_203316043.jpg?w=940", "https://orquideasjph.wordpress.com/wp-content/uploads/2018/09/oncidium-summer-wind-mnha-foto-cristiano-1.jpg?w=940"], mesesFloracao:[8,9,10,11],
     clima:"Intermediário a quente · ventilado · umidade média",
     climaFloracao:"A experiência brasileira publicada é particularmente útil nesta ficha. Juan Pablo Heller relata floração no fim do inverno no Sul, duração superior a dois meses, 50% de sombreamento e faixa ampla de 5–35 °C. O Orquidário 4 Estações classifica o clima como tropical e usa 60–70% de sombreamento. Já a Ocotea trabalha com 18–25 °C como faixa preferencial. Para o litoral quente, portanto, a planta é viável, mas ventilação e controle do superaquecimento tornam-se decisivos.",
@@ -38,7 +42,13 @@ export const oncidiumSummerWind = {
     },
     errosComuns:["Cultivar em estufa fechada ou canto sem circulação de ar.","Deixar água acumulada no fundo do vaso.","Usar vaso leve demais para uma touceira e hastes muito grandes.","Não tutorar hastes longas, favorecendo quebras.","Manter sombra excessiva e tentar compensar com adubo.","Dividir em porções pequenas; mantenha pelo menos três pseudobulbos por divisão."],
     revisaoCientificaIAR:{nome:"Oncidium Summer Wind",statusTaxonomico:"Híbrido hortícola registrado; a parentagem não foi considerada confirmada porque as fontes públicas consultadas não a apresentaram de forma confiável.",sinonimosPrincipais:"Não aplicável.",morfologiaDimensoes:"Simpodial, pseudobulboso, porte médio/grande, inflorescências longas e ramificadas; produtores brasileiros citam cachos com grande número de flores pequenas.",habitatAltitudeClima:"Sem habitat natural. Dados de cultivo brasileiros indicam ampla tolerância, com melhor desempenho sob ventilação intensa e sombra moderada.",distribuicaoGeografica:"Híbrido cultivado internacionalmente e disponível em orquidários brasileiros.",cultivoPremiacao:"Confronto principal: experiência de Juan Pablo Heller/Cristiano Nogueira, Orquidário 4 Estações e Orquídeas Ocotea.",confianca:"média-alta",fontes:["Orquídeas Encanto e Paixão — Juan Pablo Heller","Orquidário 4 Estações","Orquídeas Ocotea","RHS/Orchidex para registro do grex"]},
-    indiceDificuldadeCultivo:{versao:"IDC 3.2 — selo por facilidade",escala:"dificuldade",indice:32,classificacao:"Moderada",cultivoEstrelas:4,criterios:{temperatura:{notaDificuldade:2,peso:15},rega:{notaDificuldade:2,peso:15},umidade:{notaDificuldade:2,peso:10},ventilacao:{notaDificuldade:2,peso:10},luminosidade:{notaDificuldade:2,peso:10},raizesSubstrato:{notaDificuldade:1,peso:10},sazonalidade:{notaDificuldade:1,peso:10},floracao:{notaDificuldade:2,peso:20}},faixas:{
+    raridadeIndice: {
+        versao: "2.0",
+        aplicavel: false,
+        motivo: "Híbridos/grexes não possuem população natural própria comparável a uma espécie botânica.",
+        revisadoEm: "2026-09-27"
+    },
+        indiceDificuldadeCultivo:{versao:"IDC 3.2 — selo por facilidade",escala:"dificuldade",indice:36,classificacao:"Moderada",cultivoEstrelas:3,criterios:{temperatura:{notaDificuldade:2,peso:15},rega:{notaDificuldade:2,peso:15},umidade:{notaDificuldade:2,peso:10},ventilacao:{notaDificuldade:2,peso:10},luminosidade:{notaDificuldade:2,peso:10},raizesSubstrato:{notaDificuldade:1,peso:10},sazonalidade:{notaDificuldade:1,peso:10},floracao:{notaDificuldade:2,peso:20}},faixas:{
             facil: "0–25",
             moderada: "26–50",
             dificil: "51–89",

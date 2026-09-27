@@ -12,7 +12,11 @@ export const epidendrumHokuleaSuperRed = {
     descricao: "Um híbrido que chama atenção mesmo à distância. Epidendrum Hokulea ‘Super Red’ forma hastes eretas e vigorosas que terminam em grandes conjuntos de flores vermelho-intenso, capazes de abrir sucessivamente durante vários meses. O grex Hokulea foi registrado em 1986 a partir de Epidendrum Joseph Lii × Epidendrum cinnabarinum e sua composição genética é dominada por E. cinnabarinum, espécie brasileira associada inclusive a ambientes abertos, restingas e afloramentos rochosos. Essa herança aparece no gosto por calor, luminosidade elevada, raízes muito arejadas e crescimento vigoroso. ‘Super Red’ não é apenas um nome comercial: é um cultivar reconhecido pela American Orchid Society, com registros de premiação AM/AOS. Quando bem estabelecida, a planta forma uma touceira alta e muito ornamental, coroada por cabeças florais intensamente vermelhas — uma orquídea de presença forte e floração prolongada.",
     caracteristicas: ["Grex RHS registrado em 1986", "Cultivar ‘Super Red’ AM/AOS", "87,5% Epidendrum cinnabarinum", "Flores não ressupinadas", "Abertura sucessiva por meses", "Crescimento em canas", "Tolera calor", "Exige luz forte"],
     fotos: ["https://images.squarespace-cdn.com/content/v1/5122a27ee4b04a9f6b611a5a/1665350515066-VSME3IP83HK419MXBUE6/Epidendrum%2B%27Sexy%2BRed%27%2B%28Sassy%2BRed%2B-%2BDark%29.jpeg?format=1500w", "https://www.zynahorchids.com/image/cache/catalog/Epidendrum%20Red-500x500.jpg", "https://images.squarespace-cdn.com/content/v1/5122a27ee4b04a9f6b611a5a/1665350515066-VSME3IP83HK419MXBUE6/Epidendrum%2B%27Sexy%2BRed%27%2B%28Sassy%2BRed%2B-%2BDark%29.jpeg?format=1000w", "https://images.squarespace-cdn.com/content/v1/5122a27ee4b04a9f6b611a5a/c5433b01-bb70-4d63-8c01-b0ff56f5b40e/Epidendrum%2B%27Red%27.jpeg?format=1000w"],
-    avaliacoes: { cultivo: 5, floracao: 5, perfume: 1, luminosidade: 5, agua: 3, raridade: 3 },
+    avaliacoes: { cultivo: 5, floracao: 5, perfume: 1, luminosidade: 5, agua: 3, raridade: 0 },
+    selosCultivo: {
+        rega: { nivel: "moderada" },
+        climaFloracao: { faixa: "quente" }
+    }
     mesesFloracao: [9,10,11,12,1,2,3],
     clima: "Quente a intermediário · luminoso · muito ventilado",
     climaFloracao: "A Atlanta Orchid Society recomenda cultivar Hokulea quente e com luz forte, em meio poroso que seque entre as regas. A predominância genética de E. cinnabarinum reforça a boa compatibilidade com calor. Para o litoral quente, a quebra térmica não é requisito central: a prioridade é maturar canas fortes sob luminosidade alta, sem superaquecer folhas e raízes.",
@@ -65,7 +69,13 @@ export const epidendrumHokuleaSuperRed = {
         confianca: "alta",
         fontes: ["RHS International Orchid Register","Orchids.org/OrchidRoots","American Orchid Society — registros de premiação","Atlanta Orchid Society","Flora do Brasil/JBRJ — E. cinnabarinum"]
     },
-    indiceDificuldadeCultivo: {
+    raridadeIndice: {
+        versao: "2.0",
+        aplicavel: false,
+        motivo: "Híbridos/grexes não possuem população natural própria comparável a uma espécie botânica.",
+        revisadoEm: "2026-09-27"
+    },
+        indiceDificuldadeCultivo: {
         versao:"IDC 3.2 — selo por facilidade", escala:"dificuldade", indice:22, classificacao:"Fácil", cultivoEstrelas:5,
         criterios:{
             temperatura:{notaDificuldade:1,peso:15}, rega:{notaDificuldade:1,peso:15}, umidade:{notaDificuldade:1,peso:10},

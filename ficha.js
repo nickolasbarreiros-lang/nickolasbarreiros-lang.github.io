@@ -1,5 +1,6 @@
 import { orquideas } from "./dados/orquideas/index.js";
 import { obterAssetCultivoV4 } from "./js/biblioteca-cultivo-v4.js";
+import { obterNotaRaridadeCalculada } from "./js/raridade.js";
 
 /* =========================================================
    CONFIGURAÇÃO INICIAL
@@ -922,7 +923,14 @@ function criarAvaliacao(
     nota,
     icone
 ) {
-    const valor = Number(nota) || 0;
+    const naoAplicavel =
+        nota === null ||
+        nota === "N/A";
+
+    const valor =
+        naoAplicavel
+            ? null
+            : (Number(nota) || 0);
 
     return `
         <div class="avaliacao-v2">
@@ -934,17 +942,17 @@ function criarAvaliacao(
                 </span>
 
                 <span class="avaliacao-v2-nota">
-                    ${valor}/5
+                    ${naoAplicavel ? "N/A" : `${valor}/5`}
                 </span>
 
             </div>
 
             <div
                 class="estrelas-v2"
-                aria-label="${valor} de 5 estrelas"
-                title="${valor} de 5"
+                aria-label="${naoAplicavel ? "Não aplicável" : `${valor} de 5 estrelas`}"
+                title="${naoAplicavel ? "Não aplicável" : `${valor} de 5`}"
             >
-                ${criarEstrelas(valor)}
+                ${naoAplicavel ? "—" : criarEstrelas(valor)}
             </div>
 
         </div>
@@ -1179,6 +1187,11 @@ if (!orquidea) {
 
     const avaliacoes =
         orquidea.avaliacoes || {};
+
+    const raridadeCalculada =
+        orquidea?.raridadeIndice?.aplicavel === false
+            ? null
+            : obterNotaRaridadeCalculada(orquidea);
 
     /* =====================================================
        CONTEÚDO DA FICHA V2
@@ -1503,7 +1516,7 @@ if (!orquidea) {
 
                     ${criarAvaliacao(
                         "Raridade",
-                        avaliacoes.raridade,
+                        raridadeCalculada,
                         "💎"
                     )}
 
