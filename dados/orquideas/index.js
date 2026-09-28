@@ -142,7 +142,12 @@ import { phalaenopsisPulcherrima } from "./phalaenopsis-pulcherrima.js";
 import { dendrobiumSpectabile } from "./dendrobium-spectabile.js";
 import { aeridesOdorata } from "./aerides-odorata.js";
 import { anathallisSclerophylla } from "./anathallis-sclerophylla.js";
+import { stelisCfAprica } from "./stelis-cf-aprica.js";
+import { masdevalliaInfracta } from "./masdevallia-infracta.js";
+
 export const orquideas = [
+    stelisCfAprica,
+    masdevalliaInfracta,
     anathallisSclerophylla,
     aeridesOdorata,
     epidendrumCentropetalum,
