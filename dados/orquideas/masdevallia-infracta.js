@@ -19,10 +19,10 @@ export const masdevalliaInfracta = {
     "Floração de verão"
 ],
     fotos: [
+      "https://dcdn-us.mitiendanube.com/stores/659/711/products/masdevallia-infracta-680014e9a40ac62f3117052636106551-640-0.webp",
+      "https://www.fascinationoforchids.com/species/Blog/22-06%20Jun/Roberta/Masd%20infracta1%20.jpg",
       "https://www.orchidspecies.com/orphotdir/masdevinfract.jpg",
-      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Masdevallia%20infracta%20-%20Acianthera%20bragae%20(as%20Physosiphon%20pubescens)%20-%20Stelis%20serrulata%20(as%20Physosiphon%20serrulatus)%20-%20Fl.Br.3-4-77.jpg",
-      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Masdevallia%20infracta%20-%20Woolward%20-%20The%20Genus%20Masdevallia%20(1896).jpg",
-      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Masdevallia%20aristata%20-%20Woolward%20-%20The%20Genus%20Masdevallia%20(1896).jpg",
+      "https://static.wixstatic.com/media/2cb69b_38a66578e89f450e8e13a91c735ad16e~mv2.jpg"
     ],
     selosCultivo: { rega: { nivel: "frequente" }, climaFloracao: { faixa: "intermediario" } },
     avaliacoes: {
@@ -53,7 +53,7 @@ export const masdevalliaInfracta = {
     formasCultivo: { perfilVisual: "micro-pleurothalidina", destaque: "Placa / ripinha de madeira", resumo: "Raízes finas de Pleurothallidinae pedem alta aeração, umidade regular e pouca compactação.", metodos: [
     {
         "nome": "Placa / ripinha de madeira",
-        "asset": "placa-madeira",
+        "asset": "masdevallia-infracta-placa",
         "estrelas": 5,
         "status": "Ideal",
         "texto": "É coerente com o cultivo documentado pelo Orquidário Aparecida e oferece aeração alta, importante em clima quente."

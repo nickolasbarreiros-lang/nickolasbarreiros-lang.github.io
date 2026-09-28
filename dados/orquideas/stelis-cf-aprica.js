@@ -20,9 +20,9 @@ export const stelisCfAprica = {
 ],
     fotos: [
       "https://www.orchidspecies.com/orphotdir/stelaprica.jpg",
-      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Stelis%20aprica%20(as%20syn.%20Stelis%20microglossa)%20-%20cutout%20from%20Flora%20Brasiliensis%203-4-80%20fig%20IV.jpg",
-      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Stelis%20plurispicata%20(as%20S.%20papaquerensis)-S.%20argentata%20(as%20S.%20yauaperyensis)-S.%20aprica%20(as%20S.%20rodriguesii%20and%20as%20S.%20microglossa)-S.%20palmeiraensis-S.%20modesta%20-%20Fl.Br.%203-4-80.jpg",
-      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Stelis%20aprica%20(as%20syn.%20Stelis%20microglossa)%20-%20cutout%20from%20Flora%20Brasiliensis%203-4-80%20fig%20IV.jpg?width=900",
+      "https://www.orquideasmantovani.com.br/store-1200x1200-eaec8bbd83da6db9.jpg",
+      "https://fm-digital-assets.fieldmuseum.org/1499/219/ORCH_Stelis_aprica_bra_caze47.jpg",
+      "https://cdn.awsli.com.br/600x450/2446/2446161/produto/164685411/8c78b8fffb.jpg"
     ],
     selosCultivo: { rega: { nivel: "frequente" }, climaFloracao: { faixa: "quente" } },
     avaliacoes: {
@@ -45,38 +45,38 @@ export const stelisCfAprica = {
     adubacao: "🌿 Orgânica: bokashi apenas em quantidade mínima e isolado das raízes.\n💧 Foliar/mineral: 20-20-20 ou equivalente em cerca de 1/4 da dose, a cada 10–15 dias no crescimento ativo.\n🧪 Liberação lenta: somente em vaso e em quantidade muito pequena; faça lavagem periódica com água limpa.",
     rega: "Mantenha umidade frequente sem encharcamento permanente. Em placa, regue novamente antes que as raízes finas permaneçam secas por longos períodos; em vaso, use mistura muito aerada e deixe ocorrer leve perda de umidade superficial.",
     suporte: [
-    "Acompanha bem o hábito epífito e mantém as raízes muito arejadas; use apenas pequena reserva de esfagno.",
-    "Boa alternativa para manter umidade e ventilação sem compactar as raízes.",
-    "Funciona bem se pequeno e muito perfurado, com substrato leve e arejado."
+    "Vaso plástico pequeno e bem vasado é a melhor escolha para manter umidade mais estável sem perder aeração.",
+    "Placa ou tronco funciona bem, mas seca mais rápido e exige maior frequência de rega.",
+    "Cesto de madeira é uma alternativa muito aerada para ambientes de umidade elevada."
 ],
-    formasCultivo: { perfilVisual: "micro-pleurothalidina", destaque: "Placa / tronco", resumo: "Raízes finas de Pleurothallidinae pedem alta aeração, umidade regular e pouca compactação.", metodos: [
+    formasCultivo: { perfilVisual: "micro-pleurothalidina", destaque: "Vaso plástico vasado", resumo: "Para esta Stelis, o vaso plástico pequeno e muito perfurado oferece o melhor equilíbrio entre umidade constante e aeração das raízes finas. A montagem em madeira continua adequada, mas no cultivo diário tende a secar mais rapidamente.", metodos: [
+    {
+        "nome": "Vaso plástico vasado",
+        "asset": "stelis-aprica-vaso-plastico",
+        "estrelas": 5,
+        "status": "Ideal",
+        "texto": "Melhor escolha para manter umidade radicular mais uniforme. Use vaso pequeno e muito perfurado, com mistura leve e bastante aerada; nunca compacte o substrato ao redor da base."
+    },
     {
         "nome": "Placa / tronco",
         "asset": "placa-madeira",
-        "estrelas": 5,
-        "status": "Ideal",
-        "texto": "Acompanha bem o hábito epífito e mantém as raízes muito arejadas; use apenas pequena reserva de esfagno."
+        "estrelas": 4,
+        "status": "Muito recomendado",
+        "texto": "Compatível com o hábito epífito e excelente em aeração, porém seca mais depressa e exige regas mais frequentes, sobretudo no litoral quente."
     },
     {
         "nome": "Cesto de madeira",
         "asset": "cesto-madeira",
         "estrelas": 4,
         "status": "Muito recomendado",
-        "texto": "Boa alternativa para manter umidade e ventilação sem compactar as raízes."
-    },
-    {
-        "nome": "Vaso plástico vasado",
-        "asset": "vaso-plastico-vasado",
-        "estrelas": 4,
-        "status": "Muito recomendado",
-        "texto": "Funciona bem se pequeno e muito perfurado, com substrato leve e arejado."
+        "texto": "Boa alternativa quando a umidade ambiental é alta; permite excelente circulação de ar e espaço para as raízes."
     },
     {
         "nome": "Árvore viva",
         "asset": "arvore-viva",
-        "estrelas": 4,
-        "status": "Muito recomendado",
-        "texto": "Boa opção em jardim úmido e sombreado, desde que seja possível manter hidratação nas estiagens."
+        "estrelas": 3,
+        "status": "Adequado",
+        "texto": "Pode funcionar em jardim úmido e sombreado, mas oferece menos controle de hidratação que o vaso plástico."
     }
 ] },
     substrato: [
@@ -86,7 +86,7 @@ export const stelisCfAprica = {
 ],
     substratoVisual: {
       titulo: "Substrato ideal", contexto: "Receita para cultivo em vaso",
-      resumo: "A mistura abaixo é indicada quando a planta não estiver montada em placa/ripinha; prioriza aeração com reserva hídrica controlada.",
+      resumo: "Como o vaso plástico é a forma preferencial nesta ficha, a mistura abaixo foi pensada para manter umidade regular sem sacrificar a aeração das raízes finas.",
       justificativa: "Como Stelis aprica é epífita de ambientes úmidos e apresenta raízes finas, o vaso precisa reter alguma umidade sem perder macroporos. A recomendação é horticultural e não uma fórmula experimental publicada para a espécie.", receitaTexto: "35% pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 20% esfagno solto.",
       perfil: [
     "Raízes finas",
