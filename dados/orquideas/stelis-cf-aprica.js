@@ -8,8 +8,8 @@ export const stelisCfAprica = {
     dificuldade: "Moderada",
     origem: "América do Sul tropical; espécie registrada no Brasil",
     regiao: "Brasil (incluindo ES, MG, RJ, SP, PR, SC e BA em literatura brasileira); florestas tropicais úmidas",
-    habitat: "Epífita de florestas úmidas, frequentemente associada a substratos com musgos e líquens.",
-    descricao: "Micro-orquídea epífita de folhas coriáceas e inflorescências eretas com numerosas flores amarelo-esverdeadas diminutas. A ficha mantém “cf.” porque a planta do catálogo ainda depende de confirmação morfológica definitiva; os dados de cultivo abaixo usam Stelis aprica como hipótese de trabalho.",
+    habitat: "Epífita de florestas tropicais úmidas, estabelecendo-se sobre cascas e ramos onde há umidade atmosférica elevada, luz filtrada e circulação de ar. Musgos e líquens podem acompanhar o micro-habitat, mas isso não significa raízes permanentemente encharcadas: a água chega com frequência e o excesso escoa rapidamente.",
+    descricao: "Uma micro-orquídea que recompensa o olhar de perto. Stelis cf. aprica forma touceiras compactas de folhas coriáceas e lança racemos delgados carregados por numerosas flores amarelo-esverdeadas de poucos milímetros. O efeito ornamental não vem de uma flor isolada, mas do conjunto: quando várias hastes amadurecem ao mesmo tempo, a planta ganha uma textura delicada, quase rendada. Stelis aprica Lindl. é um nome aceito pelo POWO/Kew e possui distribuição ampla na América do Sul tropical, incluindo diferentes regiões do Brasil, sempre associado a ambientes úmidos. No catálogo, porém, mantemos “cf.” porque a planta fotografada foi encontrada no Espírito Santo e ainda não passou por confirmação morfológica definitiva. Essa cautela é importante em Stelis, gênero em que detalhes diminutos de sépalas, pétalas e labelo podem separar espécies visualmente muito próximas. No cultivo, o ponto central é reproduzir o equilíbrio da mata úmida: raízes finas nunca devem permanecer secas por muito tempo, mas também não podem ficar sufocadas. Por isso, para esta planta, um vaso plástico pequeno e muito perfurado supera a madeira como escolha principal: conserva umidade de maneira mais uniforme sem impedir a entrada de ar.",
     caracteristicas: [
     "Micro-orquídea",
     "Epífita",
@@ -39,11 +39,11 @@ export const stelisCfAprica = {
     6
 ],
     clima: "Quente a intermediário, úmido, sombreado e bem ventilado.",
-    climaFloracao: "A ampla distribuição e referências horticulturais brasileiras sustentam cultivo tropical, mas a combinação de noites muito quentes, ar parado e raízes saturadas deve ser evitada. Umidade constante e ventilação são mais importantes que uma queda térmica forte.",
+    climaFloracao: "A espécie possui distribuição geográfica ampla, portanto não deve ser tratada como uma Stelis obrigatoriamente fria. Para florescer bem, o mais importante é manter crescimento contínuo, raízes ativas, umidade atmosférica e boa ventilação. No litoral quente, noites abafadas somadas a substrato saturado são mais perigosas que a temperatura isoladamente. Uma pequena queda noturna ajuda, mas não é necessário buscar frio artificial; o objetivo é evitar superaquecimento do vaso e manter o sistema radicular oxigenado. Hastes novas tendem a responder melhor quando a planta atravessa semanas estáveis, sem alternância entre seca forte e encharcamento.",
     iluminacao: { sombrite: "70–80% como referência inicial;", solDireto: "Não permitido", horario: "", observacoes: "Luz difusa de baixa a moderada intensidade. Orquidários brasileiros recomendam 70–80% de sombreamento; no litoral quente, evite sol direto forte e ajuste pela coloração e firmeza das folhas." },
-    floracao: "Pode florescer em diferentes épocas conforme procedência e microclima. Literatura brasileira registra floração em junho, enquanto cultivo comercial brasileiro relata predominância no outono; por isso o calendário é propositalmente amplo.",
-    adubacao: "🌿 Orgânica: bokashi apenas em quantidade mínima e isolado das raízes.\n💧 Foliar/mineral: 20-20-20 ou equivalente em cerca de 1/4 da dose, a cada 10–15 dias no crescimento ativo.\n🧪 Liberação lenta: somente em vaso e em quantidade muito pequena; faça lavagem periódica com água limpa.",
-    rega: "Mantenha umidade frequente sem encharcamento permanente. Em placa, regue novamente antes que as raízes finas permaneçam secas por longos períodos; em vaso, use mistura muito aerada e deixe ocorrer leve perda de umidade superficial.",
+    floracao: "A floração é discreta em tamanho e abundante em número: racemos eretos podem carregar sucessivas flores minúsculas, produzindo um efeito muito mais interessante quando observado como conjunto. Registros brasileiros e referências de cultivo não apontam uma janela absolutamente rígida; há indicação de floração no outono e também registros próximos do inverno. Por isso, o calendário da ficha deve ser lido como tendência, não como regra. Não corte a haste enquanto ela permanecer verde e ativa. Uma planta que vegeta bem, mas não floresce, deve ser avaliada primeiro quanto à luminosidade excessivamente baixa, estabilidade hídrica e ventilação antes de se tentar reduzir rega ou forçar frio.",
+    adubacao: "🌿 Orgânica: use bokashi com extrema parcimônia, preferencialmente em pequeno porta-adubo e sem contato direto com as raízes. Em micro-orquídeas de raízes finas, excesso orgânico pode manter o vaso úmido demais e acelerar a degradação do substrato.\n💧 Foliar/mineral: fertilizante equilibrado, como 20-20-20 ou formulação equivalente, em aproximadamente 1/4 da dose indicada pelo fabricante a cada 10–15 dias durante crescimento ativo. Em períodos muito quentes ou de crescimento lento, aumente o intervalo.\n🧪 Liberação lenta: opcional, apenas em vaso e em quantidade mínima. Prefira poucos grânulos bem afastados da base. Faça regas abundantes somente com água periodicamente para lixiviar sais; pontas de raízes queimadas e folhas opacas são sinais para reduzir a concentração.",
+    rega: "A meta não é “molhar muito”, mas impedir que as raízes finas atravessem ciclos extremos. No vaso plástico vasado, regue completamente até a água sair livremente e repita quando a superfície estiver começando a perder umidade, enquanto o interior ainda conserva leve frescor. Em dias quentes e ventilados isso pode ocorrer rapidamente; em períodos úmidos, o intervalo aumenta. Nunca estabeleça frequência fixa sem observar o vaso. Se o esfagno permanece pesado e frio por vários dias, há retenção excessiva; se raízes e pontas novas desidratam entre regas, falta reserva hídrica. Água de baixa salinidade é especialmente vantajosa.",
     suporte: [
     "Vaso plástico pequeno e bem vasado é a melhor escolha para manter umidade mais estável sem perder aeração.",
     "Placa ou tronco funciona bem, mas seca mais rápido e exige maior frequência de rega.",
@@ -134,7 +134,10 @@ export const stelisCfAprica = {
     "Manter o vaso permanentemente encharcado.",
     "Cultivar em ambiente quente e abafado.",
     "Aplicar fertilizante concentrado.",
-    "Retirar o “cf.” antes da confirmação taxonômica da planta."
+    "Retirar o “cf.” antes da confirmação taxonômica da planta.",
+    "Usar vaso grande demais para uma touceira pequena, prolongando a secagem do miolo.",
+    "Confundir alta umidade ambiental com necessidade de substrato constantemente saturado.",
+    "Manter sombra excessiva: folhas bonitas sem hastes podem indicar luz insuficiente."
 ],
     revisaoCientificaIAR: {
     "nome": "Stelis cf. aprica",
@@ -256,5 +259,5 @@ export const stelisCfAprica = {
     }
 } },
     adaptacaoRegional: { tituloMontanha:'Regiões de montanha e noites frescas', litoral:{texto:"Boa adaptação potencial ao litoral quente se mantida em sombra clara, alta umidade e ventilação constante. A própria horticultura brasileira trata a espécie como tropical; o maior risco é calor associado a abafamento e saturação radicular."}, montanha:{texto:"Também se adapta bem a regiões serranas e noites frescas; reduza a frequência de rega quando a evaporação cair para evitar raízes constantemente saturadas."} },
-    dica: "🏆 Mantenha a planta sombreada, úmida e muito ventilada. Como a identificação ainda é comparativa, fotografe flores abertas em macro — principalmente sépalas, pétalas, labelo e coluna — antes de remover o “cf.”."
+    dica: "🏆 O segredo desta Stelis é estabilidade, não excesso. Use vaso plástico pequeno e muito perfurado, substrato aberto com pequena reserva de esfagno e mantenha-o onde receba luz filtrada e ar constante. Levante o vaso após a rega e aprenda seu peso: quando estiver visivelmente mais leve, mas ainda não completamente seco, é o melhor momento para regar novamente. Esse método simples reduz tanto a desidratação quanto o encharcamento."
 };

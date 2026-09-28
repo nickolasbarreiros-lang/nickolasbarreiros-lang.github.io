@@ -8,8 +8,8 @@ export const masdevalliaInfracta = {
     dificuldade: "Moderada",
     origem: "Brasil e Bolívia",
     regiao: "Brasil Nordeste, Sudeste e Sul; registros confirmados para Espírito Santo e outros estados do Sudeste",
-    habitat: "Epífita cespitosa de florestas tropicais úmidas, especialmente ambientes montanos; referências especializadas citam cerca de 1.100–2.000 m.",
-    descricao: "Masdevallia brasileira de porte miniatura a pequeno, folhas eretas e coriáceas e flores vistosas produzidas sucessivamente em hastes eretas. Apesar da associação do gênero com clima frio, esta espécie mostra tolerância horticultural mais ampla e é cultivada comercialmente no Brasil em ripinha de madeira.",
+    habitat: "Epífita de florestas tropicais úmidas, com registros brasileiros em Mata Atlântica e ambientes serranos. Cresce fixada a troncos e ramos, recebendo água frequente, elevada umidade atmosférica e ventilação constante. Referências de cultivo e literatura especializada situam muitas ocorrências em condições intermediárias a montanas; o denominador comum é raiz úmida e oxigenada, não substrato compacto.",
+    descricao: "Uma Masdevallia brasileira que foge parcialmente do estereótipo de que todo o gênero exige frio intenso. Masdevallia infracta é uma epífita simpodial de porte compacto, sem pseudobulbos, formando touceiras de folhas coriáceas sustentadas por ramicaules curtos. Das laterais surgem inflorescências eretas ou levemente arqueadas, geralmente com uma flor vistosa de cada vez; sépalas unidas formam a estrutura tubular característica e terminam em caudas, enquanto a coloração pode variar de tons amarelados e alaranjados a vermelho, vinho e púrpura. A espécie foi descrita por Lindley em 1833 e o nome é aceito pelo POWO/Kew, que registra distribuição do Brasil à Bolívia. Estudos brasileiros documentam ocorrência no Sudeste, Sul e Nordeste e descrevem populações em ambientes úmidos, inclusive na Mata Atlântica. Embora tolere condições intermediárias melhor que muitas Masdevallia andinas frias, isso não transforma a espécie em planta de calor parado: ela não possui órgãos de reserva expressivos e depende de raízes continuamente funcionais. No litoral, a estratégia é combinar umidade frequente com forte troca de ar; por isso a montagem em ripinha de madeira é particularmente eficiente.",
     caracteristicas: [
     "Miniatura a pequena",
     "Epífita cespitosa",
@@ -40,11 +40,11 @@ export const masdevalliaInfracta = {
     3
 ],
     clima: "Intermediário a fresco, úmido e muito ventilado; tolera calor melhor que muitas Masdevallia quando há circulação de ar.",
-    climaFloracao: "A origem montana recomenda cautela com noites quentes prolongadas, porém o índice do IOSPE lista a espécie de cool a hot e o Orquidário Aparecida relata cultivo fácil e floração de verão no Brasil. No litoral, o foco é impedir superaquecimento radicular e abafamento.",
+    climaFloracao: "Masdevallia infracta é mais tolerante a condições intermediárias que várias espécies clássicas de altitude, mas sua fisiologia continua sendo a de uma Pleurothallidinae sem pseudobulbos: calor prolongado aumenta rapidamente a perda de água e o risco de colapso radicular. A Orchid Society of Great Britain inclui M. infracta entre as Masdevallia de floresta nublada de condição intermediária. No litoral quente, o manejo deve reduzir a temperatura efetiva das raízes por sombreamento, evaporação e circulação de ar, sobretudo durante a tarde e à noite. Não é necessário provocar repouso seco. Crescimento contínuo, folhas firmes e raízes ativas são melhores indicadores de capacidade de floração do que uma queda térmica artificial.",
     iluminacao: { sombrite: "70–80% como referência inicial;", solDireto: "Somente início da manhã", horario: "", observacoes: "Prefere meia-sombra/luz filtrada. No litoral quente, 70–80% de sombreamento reduz aquecimento; sol direto, quando houver, deve ficar restrito ao início da manhã e ser interrompido se as folhas aquecerem." },
-    floracao: "Predominantemente no verão. IOSPE e Orquidário Aparecida convergem para floração nessa estação; hastes podem produzir flores sucessivamente.",
-    adubacao: "🌿 Orgânica: bokashi em quantidade mínima, preferencialmente em porta-adubo.\n💧 Foliar/mineral: fertilizante equilibrado a 1/4 da dose a cada 10–15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional e mínima em vaso; lave periodicamente o substrato para reduzir sais.",
-    rega: "Mantenha umidade regular durante crescimento e floração, mas nunca água estagnada nas raízes. Em ripinha, regas podem ser frequentes no verão; em vaso, espere leve perda de umidade superficial antes da nova irrigação.",
+    floracao: "Pode florescer por uma janela ampla, com forte referência para os meses quentes em cultivo brasileiro. Há registros de flores na primavera e no verão, e material brasileiro coletado em novembro e dezembro. As inflorescências podem permanecer funcionais e produzir flores sucessivamente, portanto não devem ser cortadas enquanto estiverem verdes. Para estimular florações regulares, preserve folhas maduras, evite mudanças bruscas de posição e não faça replante agressivo quando a planta estiver emitindo haste. Se a planta cresce, mas não floresce no litoral, investigue primeiro excesso de calor noturno e baixa ventilação; reduzir drasticamente a água costuma piorar o problema.",
+    adubacao: "🌿 Orgânica: se utilizar bokashi, aplique quantidade mínima em porta-adubo, longe do colo. A espécie aprecia umidade, mas material orgânico em decomposição junto às raízes reduz oxigenação e pode aquecer a montagem.\n💧 Foliar/mineral: fertilizante equilibrado em 1/4 da dose, aproximadamente a cada 10–15 dias enquanto houver raízes e folhas novas. Em montagem de madeira, onde a lixiviação é rápida, pequenas doses frequentes são mais seguras que aplicações concentradas.\n🧪 Liberação lenta: não é prioridade na ripinha. Se a planta estiver em vaso, use poucos grânulos e mantenha distância das raízes jovens. Faça lavagem periódica com água limpa; Masdevallia de raízes finas reage mal ao acúmulo de sais.",
+    rega: "Na ripinha, molhe toda a zona radicular até que raízes, madeira e pequena camada de esfagno estejam completamente hidratadas. Em clima quente, a montagem pode exigir rega diária e, em períodos excepcionalmente secos, nova hidratação quando secar cedo demais; isso depende da ventilação e da umidade do orquidário. A montagem deve perder o excesso de água rapidamente, mas não permanecer seca por longos períodos. Em vaso, reduza a frequência e aumente o controle: espere leve perda de umidade superficial sem permitir secagem total. Folhas que perdem firmeza indicam déficit hídrico ou raiz comprometida; substrato com odor, raízes escuras e base constantemente molhada apontam falta de oxigenação.",
     suporte: [
     "É coerente com o cultivo documentado pelo Orquidário Aparecida e oferece aeração alta, importante em clima quente.",
     "Mantém excelente ventilação e permite pequena reserva de esfagno entre as regas.",
@@ -135,7 +135,10 @@ export const masdevalliaInfracta = {
     "Usar vaso grande com substrato fino.",
     "Cultivar no litoral quente sem ventilação forte.",
     "Aplicar fertilizante concentrado em raízes finas.",
-    "Confundir M. infracta com táxons historicamente tratados como subespécies e hoje aceitos separadamente."
+    "Confundir M. infracta com táxons historicamente tratados como subespécies e hoje aceitos separadamente.",
+    "Cortar hastes ainda verdes após a queda da primeira flor.",
+    "Tentar compensar calor com encharcamento permanente em vez de aumentar ventilação.",
+    "Replantar ou dividir uma planta em plena emissão de haste sem necessidade."
 ],
     revisaoCientificaIAR: {
     "nome": "Masdevallia infracta Lindl.",
@@ -257,5 +260,5 @@ export const masdevalliaInfracta = {
     }
 } },
     adaptacaoRegional: { tituloMontanha:'Regiões de montanha e noites frescas', litoral:{texto:"Adaptação possível, mas exige microclima. A espécie tolera calor melhor que muitas Masdevallia e há cultivo comercial brasileiro bem-sucedido; ainda assim, sua ocorrência montana torna noites muito quentes e abafadas o principal risco para floração regular."}, montanha:{texto:"Excelente compatibilidade com montanha e noites frescas, coerente com o habitat montano. Preserve umidade, ventilação e evite frio associado a encharcamento prolongado."} },
-    dica: "🏆 No litoral, priorize ripinha de madeira em posição baixa e sombreada do orquidário, com forte circulação de ar. O objetivo é manter raízes úmidas e oxigenadas sem aquecê-las ou abafá-las."
+    dica: "🏆 No litoral quente, trate a ripinha como um sistema de resfriamento radicular: coloque a planta em posição sombreada e muito ventilada, mantenha uma pequena almofada de esfagno apenas onde as raízes precisam de reserva e molhe pela manhã. A água evapora ao longo do dia, retirando calor da montagem sem deixar um bloco de substrato quente e encharcado. Preserve hastes verdes após a primeira flor, pois elas podem continuar ativas."
 };
