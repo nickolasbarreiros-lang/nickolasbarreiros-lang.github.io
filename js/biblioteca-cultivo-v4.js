@@ -150,6 +150,14 @@ export const bibliotecaCultivoV4 = {
     "bifrenaria-harrisoniae-cesto": {
         nome: "Bifrenaria harrisoniae em cesto de madeira",
         imagem: "imagens/cultivo-v4/especies/bifrenaria-harrisoniae/cesto-madeira.webp"
+    },
+    "stelis-aprica-vaso-plastico": {
+        nome: "Stelis cf. aprica — vaso plástico vasado",
+        imagem: "imagens/cultivo-v4/stelis-aprica-vaso-plastico.webp"
+    },
+    "masdevallia-infracta-placa": {
+        nome: "Masdevallia infracta — placa / ripinha de madeira",
+        imagem: "imagens/cultivo-v4/masdevallia-infracta-placa.webp"
     }
 };
 
