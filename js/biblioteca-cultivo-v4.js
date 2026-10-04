@@ -158,6 +158,10 @@ export const bibliotecaCultivoV4 = {
     "masdevallia-infracta-placa": {
         nome: "Masdevallia infracta — placa / ripinha de madeira",
         imagem: "imagens/cultivo-v4/masdevallia-infracta-placa.webp"
+    },
+    "acianthera-auriculata-placa": {
+        nome: "Acianthera auriculata — placa / ripinha de madeira",
+        imagem: "imagens/cultivo-v4/acianthera-auriculata-placa.webp"
     }
 };
 
