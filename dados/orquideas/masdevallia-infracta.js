@@ -19,8 +19,8 @@ export const masdevalliaInfracta = {
     "Floração de verão"
 ],
     fotos: [
-      "https://www.ocotea.net.br/storage/2025/02/6433925813_b7d4e008db_b-1.jpg",
       "https://www.fascinationoforchids.com/species/Blog/22-06%20Jun/Roberta/Masd%20infracta1%20.jpg",
+      "https://www.ocotea.net.br/storage/2025/02/6433925813_b7d4e008db_b-1.jpg",
       "https://www.orchidspecies.com/orphotdir/masdevinfract.jpg",
       "https://static.wixstatic.com/media/2cb69b_38a66578e89f450e8e13a91c735ad16e~mv2.jpg"
     ],
