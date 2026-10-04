@@ -15,7 +15,7 @@ export const aciantheraAuriculata = {
         "https://upload.wikimedia.org/wikipedia/commons/8/86/Acianthera_auriculata_02.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/1/15/Acianthera_auriculata_01.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/dd/Acianthera_auriculata_03.jpg",
-        "https://fm-digital-assets.fieldmuseum.org/1496/804/ORCH_Acianthera_auriculata_bra_PLei143.jpg"
+        "https://static.inaturalist.org/photos/33948111/medium.jpg"
     ],
     selosCultivo: {
         rega: { nivel: "frequente" },
