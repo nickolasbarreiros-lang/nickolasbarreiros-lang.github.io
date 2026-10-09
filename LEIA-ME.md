@@ -1,1 +1,1 @@
-Atualização V6 — substrato fundamentado no manejo hídrico e aeração. Substituir apenas dados/orquideas/pinalia-elata.js. Receita principal 50/30/20 é proposta experimental para litoral quente, não ensaio científico. Outras misturas são alternativas de composição, não instruções de suporte. Receita documentada 1:1:1 preservada como alternativa.
+V7: remove os dois erros comuns de caráter taxonômico e substitui a Dica de Ouro redundante por uma orientação prática de observação das raízes. Substituir somente dados/orquideas/pinalia-elata.js.
