@@ -1,1 +1,1 @@
-V7: remove os dois erros comuns de caráter taxonômico e substitui a Dica de Ouro redundante por uma orientação prática de observação das raízes. Substituir somente dados/orquideas/pinalia-elata.js.
+V8: origem, regiao, habitat e clima preenchidos com os dados da referencia horticultural principal (Juan Pablo Heller, 2020). Substitua apenas dados/orquideas/pinalia-elata.js. A referencia bibliografica permanece nos metadados; a ficha prioriza informacoes praticas de cultivo.
