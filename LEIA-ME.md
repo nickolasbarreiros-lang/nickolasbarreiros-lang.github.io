@@ -1,1 +1,1 @@
-Correção pontual de textos e layout da ficha. Substitua apenas dados/orquideas/pinalia-elata.js. Etiquetas do perfil radicular encurtadas, descrições dos suportes simplificadas e referências nominais removidas dos textos de cultivo. Fontes continuam no campo técnico da ficha.
+Correção V5: nomenclatura padronizada Cesto de madeira; mesmo asset cesto-madeira, avaliação 4 estrelas e status Muito recomendado. Substituir somente dados/orquideas/pinalia-elata.js.
