@@ -1,1 +1,1 @@
-V8: origem, regiao, habitat e clima preenchidos com os dados da referencia horticultural principal (Juan Pablo Heller, 2020). Substitua apenas dados/orquideas/pinalia-elata.js. A referencia bibliografica permanece nos metadados; a ficha prioriza informacoes praticas de cultivo.
+V9: padronização do cabeçalho Substrato ideal / Para cultivo em vaso e descrição curta. Mantidas as proporções, alternativas e demais dados da V8. Substitua dados/orquideas/pinalia-elata.js.
