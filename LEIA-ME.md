@@ -1,1 +1,1 @@
-Correção V5: nomenclatura padronizada Cesto de madeira; mesmo asset cesto-madeira, avaliação 4 estrelas e status Muito recomendado. Substituir somente dados/orquideas/pinalia-elata.js.
+Atualização V6 — substrato fundamentado no manejo hídrico e aeração. Substituir apenas dados/orquideas/pinalia-elata.js. Receita principal 50/30/20 é proposta experimental para litoral quente, não ensaio científico. Outras misturas são alternativas de composição, não instruções de suporte. Receita documentada 1:1:1 preservada como alternativa.
