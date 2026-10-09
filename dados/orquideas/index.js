@@ -1,3 +1,4 @@
+import { pinaliaElata } from "./pinalia-elata.js";
 import { aciantheraAuriculata } from "./acianthera-auriculata.js";
 // ÍNDICE ÚNICO E OFICIAL DAS FICHAS DO ORQUIDÁRIO.
 // Cada orquídea deve existir em apenas um arquivo dentro desta pasta.
@@ -147,6 +148,7 @@ import { stelisCfAprica } from "./stelis-cf-aprica.js";
 import { masdevalliaInfracta } from "./masdevallia-infracta.js";
 
 export const orquideas = [
+    pinaliaElata,
     aciantheraAuriculata,
     stelisCfAprica,
     masdevalliaInfracta,
