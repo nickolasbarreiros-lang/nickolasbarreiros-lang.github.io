@@ -1,0 +1,1 @@
+Substituir os arquivos nos caminhos indicados. Índice do catálogo preservado. Foto enviada usada apenas como referência visual do vaso ripado, não como identificação botânica. Receitas, temperaturas e índices são estimativas de manejo. As quatro URLs anteriores de galeria foram preservadas, sem validação independente.

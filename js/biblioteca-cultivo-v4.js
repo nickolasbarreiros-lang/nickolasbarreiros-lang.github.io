@@ -1,4 +1,5 @@
 export const bibliotecaCultivoV4 = {
+ "pinalia-elata-vaso-vasado": {nome:"Exemplo de cultivo em vaso vasado — identificação não confirmada",tipo:"foto",imagem:"imagens/cultivo-v4/especies/pinalia-elata/vaso-vasado.webp"},
     "epidendrum-hokulea-super-red-vaso-plastico": {
         nome: "Epidendrum Hokulea ‘Super Red’ em vaso plástico",
         imagem: "imagens/cultivo-v4/especies/epidendrum-hokulea-super-red/vaso-plastico.webp"
@@ -150,18 +151,6 @@ export const bibliotecaCultivoV4 = {
     "bifrenaria-harrisoniae-cesto": {
         nome: "Bifrenaria harrisoniae em cesto de madeira",
         imagem: "imagens/cultivo-v4/especies/bifrenaria-harrisoniae/cesto-madeira.webp"
-    },
-    "stelis-aprica-vaso-plastico": {
-        nome: "Stelis cf. aprica — vaso plástico vasado",
-        imagem: "imagens/cultivo-v4/stelis-aprica-vaso-plastico.webp"
-    },
-    "masdevallia-infracta-placa": {
-        nome: "Masdevallia infracta — placa / ripinha de madeira",
-        imagem: "imagens/cultivo-v4/masdevallia-infracta-placa.webp"
-    },
-    "acianthera-auriculata-placa": {
-        nome: "Acianthera auriculata — placa / ripinha de madeira",
-        imagem: "imagens/cultivo-v4/acianthera-auriculata-placa.webp"
     }
 };
 
