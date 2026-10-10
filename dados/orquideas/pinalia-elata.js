@@ -11,6 +11,7 @@ export const pinaliaElata = {
   "https://cdnhuawei.lojavirtuolpro.com/orquidariorobertomartins/produto/multifotos/20230105141411_5381994619_DM.webp",
   "https://cdnhuawei.lojavirtuolpro.com/orquidariorobertomartins/produto/20230105141406_5221994779_D.webp",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk4nfIDQ3bgJbSlmIh_5dR90_w4VAf7EFkU4T6tSM1Zg&s",
+  "https://acdn-us.mitiendanube.com/stores/005/944/878/products/eria-acervata-4f7139cff4b19c93ec17425023502799-1024-1024.webp",
 ],
  referenciasFotograficas:["https://orquideasjph.wordpress.com/2020/02/16/eria-elata/", "Orquidário Rio Pardo — vídeo de cultivo", "POWO — Pinalia acervata", "Flora of Thailand (2022) — Pinalia acervata"],
  selosCultivo:{rega:{nivel:"moderada"},climaFloracao:{faixa:"intermediario"}},
