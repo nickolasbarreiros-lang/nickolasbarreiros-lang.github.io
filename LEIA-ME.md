@@ -1,1 +1,1 @@
-V15: adiciona Vaso de barro como terceira alternativa em Outras formas de cultivo. Substitua dados/orquideas/pinalia-elata.js. O ícone usa a chave vaso-barro, que deve existir na biblioteca visual do site; caso não exista, ajustar o mapeamento de assets.
+V16 — Padronização das regiões climáticas. Substitua somente dados/orquideas/pinalia-elata.js. Foram substituídas referências locais de cidades e estados por região quente (clima de litoral) e região fria (clima de montanha). Demais parâmetros preservados.
