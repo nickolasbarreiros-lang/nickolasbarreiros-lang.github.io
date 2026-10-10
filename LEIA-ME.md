@@ -1,1 +1,1 @@
-V10: complementa a ficha com relato independente de cultivo no Brasil (2009): raízes marrons, floração mais abundante em touceiras e perfume suave. Referência adicionada na bibliografia técnica. Não altera o substrato, índices, fotos nem outras fichas. Substituir dados/orquideas/pinalia-elata.js.
+V11: calendário de floração marca outubro, novembro, dezembro, janeiro e fevereiro. Atualizado o texto de floração e referências de época em campos relacionados. Substitua apenas dados/orquideas/pinalia-elata.js.
