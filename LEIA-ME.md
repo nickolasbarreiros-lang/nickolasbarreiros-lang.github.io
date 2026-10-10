@@ -1,1 +1,1 @@
-V9: padronização do cabeçalho Substrato ideal / Para cultivo em vaso e descrição curta. Mantidas as proporções, alternativas e demais dados da V8. Substitua dados/orquideas/pinalia-elata.js.
+V10: complementa a ficha com relato independente de cultivo no Brasil (2009): raízes marrons, floração mais abundante em touceiras e perfume suave. Referência adicionada na bibliografia técnica. Não altera o substrato, índices, fotos nem outras fichas. Substituir dados/orquideas/pinalia-elata.js.
