@@ -1,1 +1,3 @@
-V22 — Incluída a imagem fornecida como foto 4 da ficha Pinalia cf. acervata. Mantidas as fotos 1–3 e todas as demais informações da V21.
+# V24 — Texto botânico objetivo
+
+Substitua somente `dados/orquideas/pinalia-elata.js`. Removidas referências à planta fotografada e relatos individualizados na descrição, floração, suporte e metadados científicos. Galeria e demais parâmetros preservados.
