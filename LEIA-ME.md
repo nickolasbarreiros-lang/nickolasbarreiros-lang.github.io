@@ -1,1 +1,5 @@
-V12 — substitua apenas dados/orquideas/pinalia-elata.js. Alterada exclusivamente a lista de outras misturas recomendadas: pedra-pomes, akadama e chips de coco; preservada a receita documentada. As misturas novas são sugestões experimentais, não validadas especificamente para a planta.
+# V13 — avaliações e índices
+
+Substitua apenas `dados/orquideas/pinalia-elata.js`.
+
+Avaliações: perfume 4/5 e floração 4/5. IDC 41/100: soma ponderada Σ[(nota−1)/4 × peso]. IAR litoral Serra/ES 72/100 e montanha Santa Teresa/ES 76/100: soma ponderada Σ[nota/5 × peso]. Pesos e notas estão declarados na ficha. Os valores são estimativas, não resultados de ensaios experimentais.
