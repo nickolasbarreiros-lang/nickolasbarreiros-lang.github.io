@@ -1,7 +1,4 @@
-# Correção V18 — Eria elata
+V19 — Clima para floração
 
-Substitua somente `dados/orquideas/pinalia-elata.js`.
-
-Alteração: padronizada a seção «Outras misturas recomendadas» com quatro combinações curtas, sem porcentagens ou explicações extensas, seguindo o formato das demais fichas do Orquidário Digital. A quarta mistura incorpora casca de arroz carbonizada, mencionada no vídeo de cultivo.
-
-Todas as demais informações e índices da V17 foram preservados.
+Substitua somente dados/orquideas/pinalia-elata.js.
+Alteração única em relação à V18: texto da seção Clima para floração. Mantidos selo CLIMA INTERMEDIÁRIO, índices, avaliações, substratos e demais campos.
