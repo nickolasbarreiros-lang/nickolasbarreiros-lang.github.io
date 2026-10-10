@@ -1,1 +1,1 @@
-V11: calendário de floração marca outubro, novembro, dezembro, janeiro e fevereiro. Atualizado o texto de floração e referências de época em campos relacionados. Substitua apenas dados/orquideas/pinalia-elata.js.
+V12 — substitua apenas dados/orquideas/pinalia-elata.js. Alterada exclusivamente a lista de outras misturas recomendadas: pedra-pomes, akadama e chips de coco; preservada a receita documentada. As misturas novas são sugestões experimentais, não validadas especificamente para a planta.
