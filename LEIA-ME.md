@@ -1,3 +1,1 @@
-# V24 — Texto botânico objetivo
-
-Substitua somente `dados/orquideas/pinalia-elata.js`. Removidas referências à planta fotografada e relatos individualizados na descrição, floração, suporte e metadados científicos. Galeria e demais parâmetros preservados.
+V25: substituída exclusivamente a URL da fotografia de baixa resolução do vegetal pela nova imagem enviada. Demais imagens, textos e dados preservados.
