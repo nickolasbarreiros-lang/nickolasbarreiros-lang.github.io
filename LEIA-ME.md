@@ -1,7 +1,7 @@
-# Atualização de floração — Gomesa cornigera V6
+# Foto personalizada — Pinalia elata
 
-Substituir somente `dados/orquideas/gomesa-cornigera.js` no repositório.
+Copie a pasta `imagens` para a raiz do repositório, preservando o caminho `imagens/cultivo-v4/especies/pinalia-elata/vaso-vasado.webp`.
 
-Calendário: novembro, dezembro, janeiro, fevereiro e março. Novembro é eventual, condicionado ao microclima. Texto de floração simplificado.
+A ficha já usa o asset `pinalia-elata-vaso-vasado`, segundo o relatório do GitHub Actions. Execute o reparador V2 (`python scripts/corrigir_fotos_cultivo.py`) para cadastrar a imagem na biblioteca e no manifesto; depois rode `python scripts/verificar_fotos_cultivo.py`.
 
-Base: V5 cartões concisos. Nenhum outro arquivo, índice ou manifesto foi alterado.
+Este ZIP inclui somente a imagem e as instruções. Não substitui a biblioteca, o manifesto nem o índice de espécies.
