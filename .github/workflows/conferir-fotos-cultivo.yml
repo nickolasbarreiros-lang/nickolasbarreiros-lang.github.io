@@ -1,0 +1,21 @@
+name: Conferir fotos de cultivo ideal
+on:
+  push:
+    paths:
+      - 'dados/orquideas/**'
+      - 'js/biblioteca-cultivo-v4.js'
+      - 'imagens/cultivo-v4/**'
+      - 'cultivo-ideal-manifesto.json'
+      - 'scripts/verificar_fotos_cultivo.py'
+      - '.github/workflows/conferir-fotos-cultivo.yml'
+  pull_request:
+  workflow_dispatch:
+jobs:
+  conferir-fotos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/verificar_fotos_cultivo.py

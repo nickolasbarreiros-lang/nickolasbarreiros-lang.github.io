@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "descricao": "Imagens personalizadas de cultivo ideal. Adicionar ao cadastrar nova fotografia.",
+  "fotos": {
+    "acianthera-auriculata": {
+      "asset": "acianthera-auriculata-placa",
+      "arquivo": "imagens/cultivo-v4/acianthera-auriculata-placa.webp"
+    },
+    "gomesa-cornigera": {
+      "asset": "gomesa-cornigera-placa",
+      "arquivo": "imagens/cultivo-v4/gomesa-cornigera-placa.webp"
+    }
+  }
+}
