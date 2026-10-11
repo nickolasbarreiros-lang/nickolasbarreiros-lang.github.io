@@ -1,8 +1,1 @@
-# Correção Gomesa cornigera V3
-Arquivos alterados: dados/orquideas/gomesa-cornigera.js, js/biblioteca-cultivo-v4.js, imagens/cultivo-v4/gomesa-cornigera-placa.webp.
-
-A ficha possui quatro URLs diretas de imagens verificadas em páginas de referência: três fotografias da Flora Digital UFSC e uma do IOSPE. A foto enviada pelo usuário foi reservada para a ilustração do cultivo ideal em placa/tronco.
-
-IMPORTANTE: biblioteca-cultivo-v4.js foi gerado a partir da versão disponível na correção da Acianthera auriculata. Caso o arquivo do seu site tenha recebido outras entradas posteriormente, mescle SOMENTE a chave gomesa-cornigera-placa no objeto existente, sem substituir o arquivo inteiro. Não substitua o índice do catálogo: preserve o index.js atual de 143 espécies.
-
-Créditos das fotografias: Flora Digital UFSC — Marcelo Pedron (2), Douglas Meyer (1); IOSPE — Dalton Holland Baptista. Consulte as condições de uso e atribuição de cada fonte. A fotografia de cultivo ideal foi fornecida pelo usuário.
+Correção V4: texto de apresentação conciso; orientações de cultivo e substrato ampliadas; floração simplificada; foto do cultivo corrigida no registro bibliotecaCultivoV4. Não altera dados/orquideas/index.js. ATENÇÃO: se js/biblioteca-cultivo-v4.js tiver sido alterado no seu repositório depois da versão base, mescle apenas a entrada gomesa-cornigera-placa em bibliotecaCultivoV4. As quatro fotos da galeria continuam sendo links externos, cuja disponibilidade depende dos servidores de origem. Pesquisa de 25 produtores brasileiros ainda pendente.

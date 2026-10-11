@@ -1,4 +1,8 @@
 export const bibliotecaCultivoV4 = {
+    "gomesa-cornigera-placa": {
+        nome: "Gomesa cornigera — cultivo em placa / tronco",
+        imagem: "imagens/cultivo-v4/gomesa-cornigera-placa.webp"
+    },
     "epidendrum-hokulea-super-red-vaso-plastico": {
         nome: "Epidendrum Hokulea ‘Super Red’ em vaso plástico",
         imagem: "imagens/cultivo-v4/especies/epidendrum-hokulea-super-red/vaso-plastico.webp"
@@ -180,10 +184,6 @@ export const perfisVisuaisCultivoV4 = {
             "cesto-madeira": { nome: "Cesto de madeira — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/cesto-madeira.webp" },
             "vaso-plastico-vasado": { nome: "Vaso plástico vasado — micro-orquídea", imagem: "imagens/cultivo-v4/perfis/micro-pleurothalidina/vaso-plastico-vasado.webp" }
         }
-    },
-    "gomesa-cornigera-placa": {
-        nome: "Gomesa cornigera — cultivo em placa / tronco",
-        imagem: "imagens/cultivo-v4/gomesa-cornigera-placa.webp"
     }
 };
 
