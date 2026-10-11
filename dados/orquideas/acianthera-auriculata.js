@@ -15,7 +15,7 @@ export const aciantheraAuriculata = {
         "https://upload.wikimedia.org/wikipedia/commons/8/86/Acianthera_auriculata_02.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/1/15/Acianthera_auriculata_01.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/dd/Acianthera_auriculata_03.jpg",
-        "https://static.inaturalist.org/photos/33948111/medium.jpg"
+        "https://fm-digital-assets.fieldmuseum.org/1496/804/ORCH_Acianthera_auriculata_bra_PLei143.jpg"
     ],
     selosCultivo: {
         rega: { nivel: "frequente" },
@@ -40,7 +40,7 @@ export const aciantheraAuriculata = {
         destaque: "Placa / tronco",
         resumo: "Como epífita de pequeno porte, responde bem a um suporte que mantenha as raízes expostas ao ar, receba água com frequência e elimine rapidamente o excesso. A montagem reduz o risco de uma zona radicular quente, compactada e permanentemente saturada.",
         metodos: [
-            { nome: "Placa / tronco", asset: "acianthera-auriculata-placa", estrelas: 5, status: "Ideal", texto: "Mantém as raízes muito oxigenadas e permite que a água escorra logo após a rega. Uma pequena quantidade de esfagno sob as raízes pode prolongar a umidade sem transformar o suporte em uma massa encharcada. É especialmente útil onde calor e alta umidade aumentariam o risco de abafamento radicular em vasos compactos." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Mantém as raízes muito oxigenadas e permite que a água escorra logo após a rega. Uma pequena quantidade de esfagno sob as raízes pode prolongar a umidade sem transformar o suporte em uma massa encharcada. É especialmente útil onde calor e alta umidade aumentariam o risco de abafamento radicular em vasos compactos." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa quando se deseja maior estabilidade hídrica. Use recipiente pequeno e raso, com muitos furos e mistura grosseira; o ganho de retenção só é vantajoso enquanto o ar continua circulando entre as raízes." },
             { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Combina secagem rápida das laterais com pequena reserva de substrato no centro. Funciona bem quando as regas são frequentes e a mistura interna permanece aberta." },
             { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Pode reproduzir muito bem o hábito epífito quando a casca oferece aderência, sombra filtrada e umidade ambiental. O ponto negativo é o menor controle sobre chuva, secagem e posicionamento da planta." }

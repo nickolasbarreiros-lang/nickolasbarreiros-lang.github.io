@@ -19,8 +19,8 @@ export const masdevalliaInfracta = {
     "Floração de verão"
 ],
     fotos: [
-      "https://www.fascinationoforchids.com/species/Blog/22-06%20Jun/Roberta/Masd%20infracta1%20.jpg",
       "https://www.ocotea.net.br/storage/2025/02/6433925813_b7d4e008db_b-1.jpg",
+      "https://www.fascinationoforchids.com/species/Blog/22-06%20Jun/Roberta/Masd%20infracta1%20.jpg",
       "https://www.orchidspecies.com/orphotdir/masdevinfract.jpg",
       "https://static.wixstatic.com/media/2cb69b_38a66578e89f450e8e13a91c735ad16e~mv2.jpg"
     ],
@@ -260,5 +260,5 @@ export const masdevalliaInfracta = {
     }
 } },
     adaptacaoRegional: { tituloMontanha:'Regiões de montanha e noites frescas', litoral:{texto:"Adaptação possível, mas exige microclima. A espécie tolera calor melhor que muitas Masdevallia e há cultivo comercial brasileiro bem-sucedido; ainda assim, sua ocorrência montana torna noites muito quentes e abafadas o principal risco para floração regular."}, montanha:{texto:"Excelente compatibilidade com montanha e noites frescas, coerente com o habitat montano. Preserve umidade, ventilação e evite frio associado a encharcamento prolongado."} },
-    dica: "🌟 Não corte a haste floral enquanto ela estiver verde. Em Masdevallia infracta, a inflorescência pode permanecer ativa depois que uma flor murcha e produzir novas flores sucessivamente na mesma haste. Há inclusive registro histórico brasileiro de pedúnculos capazes de produzir flores por mais de um ano. Por isso, mesmo que a haste fique algum tempo sem botão, preserve-a enquanto estiver verde e firme. Remova-a pela base somente quando amarelar, secar ou estiver claramente morta. Cortar uma haste verde pode eliminar florações futuras."
+    dica: "🏆 No litoral quente, trate a ripinha como um sistema de resfriamento radicular: coloque a planta em posição sombreada e muito ventilada, mantenha uma pequena almofada de esfagno apenas onde as raízes precisam de reserva e molhe pela manhã. A água evapora ao longo do dia, retirando calor da montagem sem deixar um bloco de substrato quente e encharcado. Preserve hastes verdes após a primeira flor, pois elas podem continuar ativas."
 };
