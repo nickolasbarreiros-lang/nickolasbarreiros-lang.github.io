@@ -1,22 +1,8 @@
-# Gomesa cornigera — patch editorial V2 (revisão pendente)
+# Correção Gomesa cornigera V3
+Arquivos alterados: dados/orquideas/gomesa-cornigera.js, js/biblioteca-cultivo-v4.js, imagens/cultivo-v4/gomesa-cornigera-placa.webp.
 
-Arquivos: dados/orquideas/gomesa-cornigera.js e dados/orquideas/index.js.
+A ficha possui quatro URLs diretas de imagens verificadas em páginas de referência: três fotografias da Flora Digital UFSC e uma do IOSPE. A foto enviada pelo usuário foi reservada para a ilustração do cultivo ideal em placa/tronco.
 
-## Fotografias
-- URL direta confirmada por resultado de pesquisa: fotografia Flora Digital UFSC (foto 1).
-- URL direta de ilustração histórica (foto 2): não é fotografia de campo.
-- Fotos adicionais identificadas em páginas fonte da Flora Digital UFSC (img=8856 e img=4936), mas as URLs diretas das imagens ainda não foram recuperadas. NÃO foram inseridas como fotos porque links para páginas HTML quebrariam a galeria.
-- A exigência de quatro fotografias diretas distintas permanece PENDENTE.
+IMPORTANTE: biblioteca-cultivo-v4.js foi gerado a partir da versão disponível na correção da Acianthera auriculata. Caso o arquivo do seu site tenha recebido outras entradas posteriormente, mescle SOMENTE a chave gomesa-cornigera-placa no objeto existente, sem substituir o arquivo inteiro. Não substitua o índice do catálogo: preserve o index.js atual de 143 espécies.
 
-## Metodologia
-IDC 3.2 calculado por Σ[(nota−1)/4×peso], 36/100 = 3 estrelas; IAR 2.0 estimado para litoral 56/100 e montanha 86/100. Notas de entrada são estimativas, não medições.
-Raridade V2: dados insuficientes para nota calculada; 3/5 permanece marcador editorial provisório, não índice validado.
-Calendário: dezembro, janeiro, fevereiro e março provisórios; observações fotográficas em dezembro e março, literatura com outras épocas.
-
-## Pendências antes de publicar
-1. Obter mais duas URLs diretas de fotografias distintas e verificar carregamento de todas as quatro.
-2. Concluir comparação de pelo menos 25 orquidários/produtores brasileiros; ainda não realizada.
-3. Auditar as notas e os dados de raridade com evidências.
-4. Conferir se o index.js incluído corresponde à versão publicada atualmente; foi usado o índice do pacote Acianthera auriculata disponível.
-
-Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77101221-1 ; https://www.orchidspecies.com/onccornigerum.htm ; https://floradigital.ufsc.br/open_sp.php?img=4932 ; https://floradigital.ufsc.br/open_sp.php?img=8856 ; https://floradigital.ufsc.br/open_sp.php?img=4936 .
+Créditos das fotografias: Flora Digital UFSC — Marcelo Pedron (2), Douglas Meyer (1); IOSPE — Dalton Holland Baptista. Consulte as condições de uso e atribuição de cada fonte. A fotografia de cultivo ideal foi fornecida pelo usuário.
