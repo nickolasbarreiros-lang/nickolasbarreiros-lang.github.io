@@ -1,7 +1,12 @@
-# Foto personalizada — Pinalia elata
+# Correção das fotografias de cultivo ideal — auditoria completa
 
-Copie a pasta `imagens` para a raiz do repositório, preservando o caminho `imagens/cultivo-v4/especies/pinalia-elata/vaso-vasado.webp`.
+Base: ZIP do site enviado em 11/10/2026.
 
-A ficha já usa o asset `pinalia-elata-vaso-vasado`, segundo o relatório do GitHub Actions. Execute o reparador V2 (`python scripts/corrigir_fotos_cultivo.py`) para cadastrar a imagem na biblioteca e no manifesto; depois rode `python scripts/verificar_fotos_cultivo.py`.
+Substitua somente os arquivos nas pastas correspondentes:
+- dados/orquideas/acianthera-auriculata.js
+- js/biblioteca-cultivo-v4.js
+- cultivo-ideal-manifesto.json
 
-Este ZIP inclui somente a imagem e as instruções. Não substitui a biblioteca, o manifesto nem o índice de espécies.
+Foram conferidas 143 fichas e 18 fotografias personalizadas. O script `python scripts/verificar_fotos_cultivo.py` retornou APROVADO no site extraído.
+
+O índice de espécies, fotografias e scripts não foram alterados. Após enviar os três arquivos, confira GitHub Actions > Conferir fotos de cultivo ideal.

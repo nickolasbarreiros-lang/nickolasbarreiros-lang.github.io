@@ -1,4 +1,6 @@
 export const bibliotecaCultivoV4 = {
+  "pinalia-elata-vaso-vasado": { nome: "Pinalia Elata", imagem: "imagens/cultivo-v4/especies/pinalia-elata/vaso-vasado.webp" },
+  "bifrenaria-verboonenii-vaso-barro": { nome: "Bifrenaria Verboonenii", imagem: "imagens/cultivo-v4/especies/bifrenaria-verboonenii/vaso-barro.webp" },
     "gomesa-cornigera-placa": {
         nome: "Gomesa cornigera — cultivo em placa / tronco",
         imagem: "imagens/cultivo-v4/gomesa-cornigera-placa.webp"

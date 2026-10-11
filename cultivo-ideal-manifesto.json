@@ -6,9 +6,73 @@
       "asset": "acianthera-auriculata-placa",
       "arquivo": "imagens/cultivo-v4/acianthera-auriculata-placa.webp"
     },
+    "acianthera-aveniformis": {
+      "asset": "acianthera-aveniformis-placa",
+      "arquivo": "imagens/cultivo-v4/especies/acianthera-aveniformis/placa-tronco.webp"
+    },
+    "acianthera-bragae": {
+      "asset": "acianthera-bragae-placa",
+      "arquivo": "imagens/cultivo-v4/especies/acianthera-bragae/placa-tronco.webp"
+    },
+    "acianthera-glumacea": {
+      "asset": "acianthera-glumacea-placa",
+      "arquivo": "imagens/cultivo-v4/especies/acianthera-glumacea/placa-tronco.webp"
+    },
+    "acianthera-pubescens": {
+      "asset": "acianthera-pubescens-placa",
+      "arquivo": "imagens/cultivo-v4/especies/acianthera-pubescens/placa-tronco.webp"
+    },
+    "acianthera-sonderiana": {
+      "asset": "acianthera-sonderiana-placa",
+      "arquivo": "imagens/cultivo-v4/especies/acianthera-sonderiana/placa-tronco.webp"
+    },
+    "aerides-odorata": {
+      "asset": "aerides-odorata-cultivo-ideal",
+      "arquivo": "imagens/cultivo-v4/especies/aerides-odorata/cultivo-ideal.webp"
+    },
+    "anathallis-sclerophylla": {
+      "asset": "anathallis-sclerophylla-placa",
+      "arquivo": "imagens/cultivo-v4/especies/anathallis-sclerophylla/placa-tronco.webp"
+    },
+    "arpophyllum-giganteum": {
+      "asset": "arpophyllum-giganteum-vaso-plastico",
+      "arquivo": "imagens/cultivo-v4/especies/arpophyllum-giganteum/vaso-plastico.webp"
+    },
+    "aspasia-lunata": {
+      "asset": "aspasia-lunata-vaso-plastico",
+      "arquivo": "imagens/cultivo-v4/especies/aspasia-lunata/vaso-plastico.webp"
+    },
+    "bifrenaria-aureofulva": {
+      "asset": "bifrenaria-aureofulva-vaso-barro",
+      "arquivo": "imagens/cultivo-v4/especies/bifrenaria-aureofulva/vaso-barro.webp"
+    },
+    "bifrenaria-harrisoniae": {
+      "asset": "bifrenaria-harrisoniae-cesto",
+      "arquivo": "imagens/cultivo-v4/especies/bifrenaria-harrisoniae/cesto-madeira.webp"
+    },
+    "bifrenaria-verboonenii": {
+      "asset": "bifrenaria-verboonenii-vaso-barro",
+      "arquivo": "imagens/cultivo-v4/especies/bifrenaria-verboonenii/vaso-barro.webp"
+    },
+    "epidendrum-hokulea-super-red": {
+      "asset": "epidendrum-hokulea-super-red-vaso-plastico",
+      "arquivo": "imagens/cultivo-v4/especies/epidendrum-hokulea-super-red/vaso-plastico.webp"
+    },
     "gomesa-cornigera": {
       "asset": "gomesa-cornigera-placa",
       "arquivo": "imagens/cultivo-v4/gomesa-cornigera-placa.webp"
+    },
+    "oncidium-summer-wind": {
+      "asset": "oncidium-summer-wind-vaso-plastico",
+      "arquivo": "imagens/cultivo-v4/especies/oncidium-summer-wind/vaso-plastico.webp"
+    },
+    "pholidota-chinensis": {
+      "asset": "pholidota-chinensis-vaso-plastico",
+      "arquivo": "imagens/cultivo-v4/especies/pholidota-chinensis/vaso-plastico.webp"
+    },
+    "pinalia-elata": {
+      "asset": "pinalia-elata-vaso-vasado",
+      "arquivo": "imagens/cultivo-v4/especies/pinalia-elata/vaso-vasado.webp"
     }
   }
 }
