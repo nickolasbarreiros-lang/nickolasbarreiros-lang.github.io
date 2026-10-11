@@ -38,7 +38,7 @@ export const aciantheraAuriculata = {
     formasCultivo: {
         perfilVisual: "micro-pleurothalidina",
         destaque: "Placa / tronco",
-        resumo: "Como epífita de pequeno porte, responde bem a um suporte que mantenha as raízes expostas ao ar, receba água com frequência e elimine rapidamente o excesso. A montagem reduz o risco de uma zona radicular quente, compactada e permanentemente saturada.",
+        resumo: "Como epífita de pequeno porte, responde bem a um suporte que mantenha as raízes expostas no ar, receba água com frequência e elimine rapidamente o excesso. A montagem reduz o risco de uma zona radicular quente, compactada e permanentemente saturada.",
         metodos: [
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Mantém as raízes muito oxigenadas e permite que a água escorra logo após a rega. Uma pequena quantidade de esfagno sob as raízes pode prolongar a umidade sem transformar o suporte em uma massa encharcada. É especialmente útil onde calor e alta umidade aumentariam o risco de abafamento radicular em vasos compactos." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa quando se deseja maior estabilidade hídrica. Use recipiente pequeno e raso, com muitos furos e mistura grosseira; o ganho de retenção só é vantajoso enquanto o ar continua circulando entre as raízes." },
