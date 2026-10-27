@@ -36,6 +36,38 @@ export const brassavolaPerrini = {
     rega: "Regue abundantemente, mas garanta que o sistema radicular seque completamente antes da próxima irrigação. Exemplares montados em troncos ou cascas podem receber água diariamente nos dias quentes de verão; em dias frios ou chuvosos, espace bastante as regas. Esta espécie tolera a seca curta muito melhor do que a umidade constante.",
     suporte: "🥇 Placa de madeira dura ou tronco: acompanha o crescimento pendente e oferece secagem rápida.\n🥈 Cachepô de madeira muito vazado.\n🥉 Vaso de barro pequeno, com grandes furos laterais.",
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n🥉 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.\n⭐ Alternativa: Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso.",
+    formasCultivo: {
+        perfilVisual: "cattleya",
+        destaque: "Placa / tronco",
+        resumo: "Epífita de raízes expostas que aprecia muita luz, ventilação constante e ciclos de hidratação seguidos de secagem.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Permite fixação natural das raízes e secagem rápida, com regas frequentes nos períodos quentes e ventilados." },
+            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece espaço e ventilação para raízes pendentes; utilizar preenchimento grosso e pouco retentivo." },
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Recipiente pequeno e bem drenado, adequado quando a frequência de rega em placa é inviável." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Funciona com mistura grossa e ventilação lateral; monitorar secagem e evitar excesso de volume." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em vaso ou cesto",
+        resumo: "Mistura grossa, de baixa retenção, com macroporos persistentes e secagem rápida.",
+        justificativa: "A casca de macadâmia grossa cria estrutura e espaço para raízes; o carvão vegetal acrescenta fração rígida e arejada; o pinus grosso oferece pequena reserva hídrica; e a brita ou pedra-pomes preserva drenagem e macroporos. A proporção baixa de pinus limita a compactação com o envelhecimento, mas exige inspeção e troca quando houver degradação. Não é necessário esfagno para plantas adultas bem estabelecidas nessa proposta; a rega deve acompanhar o ritmo real de secagem.",
+        receitaTexto: "35% casca de macadâmia grossa + 25% carvão vegetal grosso + 20% casca de pinus grossa + 20% brita pequena/média.",
+        perfil: ["Raízes epífitas", "Aeração máxima", "Baixa retenção", "Secagem rápida", "Granulometria grossa", "Baixa compactação"],
+        itens: [
+            { asset: "macadamia", nome: "Casca de macadâmia grossa", proporcao: "35%", nota: "estrutura", finalidade: "Mantém espaços de ar e suporte para fixação radicular." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal grosso", proporcao: "25%", nota: "aeração", finalidade: "Ajuda a manter o substrato aberto e drenante." },
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "20%", nota: "reserva hídrica", finalidade: "Retém umidade limitada entre regas; substituir ao degradar." },
+            { asset: "brita-pura", nome: "Brita pequena/média", proporcao: "20%", nota: "macroporos", finalidade: "Acrescenta estrutura mineral e reduz o colapso físico da mistura." }
+        ],
+        comportamento: [
+            { nome: "Retenção", valor: 1, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 5, icone: "☀️" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        alerta: "Em placa, regar conforme temperatura e velocidade de secagem. Em vasos, não permitir umidade estagnada. A mistura é uma proposta técnica para plantas adultas, não uma fórmula validada em ensaio comparativo da espécie."
+    },
     errosComuns: "Cultivar em sombra excessiva; Usar substratos finos, compactos ou com acúmulo de pó; Manter as raízes molhadas continuamente; Plantar em vasos grandes e fundos; Exagerar no uso de esfagno ou materiais de alta retenção hídrica; Dividir touceiras pequenas prematuramente; Aplicar adubo com alto teor de nitrogênio de forma contínua durante todo o ano.",
     dica: "Use as folhas como termômetro: o ponto certo de luz é aquele que deixa a folhagem cilíndrica ereta, rígida e em um tom verde-claro (quase amarelado). Se ela cresce muito mas não floresce, o segredo para forçar a floração é dar mais claridade — sem medo do sol direto matinal — e cortar o adubo rico em nitrogênio.",
     revisaoCientificaIAR: {
