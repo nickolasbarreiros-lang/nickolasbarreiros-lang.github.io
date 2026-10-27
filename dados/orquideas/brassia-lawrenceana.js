@@ -41,7 +41,7 @@ export const brassiaLawrenceana = {
         "🥈 Vaso de barro bem perfurado com substrato grosso e aerado.",
         "🥉 Vaso plástico baixo e muito perfurado, controlando cuidadosamente a retenção de água."
     ],
-    substrato: ["🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.", "🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.", "🥉 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.", "⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco."],
+    substrato: ["🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.", "🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.", "🥉 Pinus médio + perlita + argila expandida miúda + pequena fração de esfagno solto.", "⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco."],
     formasCultivo: {
         perfilVisual: "cattleya",
         destaque: "Cesto de madeira",
@@ -57,15 +57,15 @@ export const brassiaLawrenceana = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em cesto de madeira",
         resumo: "Mistura de granulometria média, arejada e com retenção moderada, adequada ao crescimento ativo das raízes.",
-        justificativa: "A casca de pinus média fornece suporte e uma reserva hídrica moderada; os chips de coco lavados e tamponados prolongam a umidade entre regas; a macadâmia média acrescenta estrutura; o carvão e a pedra-pomes preservam espaços de ar. Pinus e coco se alteram com o envelhecimento, aumentando a retenção e exigindo inspeção e substituição quando houver decomposição. A água de irrigação e o preparo dos materiais influenciam o pH; não se deve presumir um pH fixo da mistura. Esta receita é uma proposta horticultural, não uma formulação publicada especificamente para a espécie por orquidário brasileiro.",
-        receitaTexto: "35% casca de pinus média + 25% chips de coco lavados + 20% casca de macadâmia média + 10% carvão vegetal + 10% pedra-pomes.",
+        justificativa: "A casca de pinus média fornece suporte e uma reserva hídrica moderada; os chips de coco lavados e tamponados prolongam a umidade entre regas; a macadâmia média acrescenta estrutura; o carvão e a perlita grossa ajudam a preservar espaços de ar. Pinus e coco se alteram com o envelhecimento, aumentando a retenção e exigindo inspeção e substituição quando houver decomposição. A água de irrigação e o preparo dos materiais influenciam o pH; não se deve presumir um pH fixo da mistura. Esta receita é uma proposta horticultural, não uma formulação publicada especificamente para a espécie por orquidário brasileiro.",
+        receitaTexto: "35% casca de pinus média + 25% chips de coco lavados + 20% casca de macadâmia média + 10% carvão vegetal + 10% perlita grossa.",
         perfil: ["Epífita", "Aeração elevada", "Retenção moderada", "Secagem intermediária", "Granulometria média", "Monitorar envelhecimento"],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura e umidade", finalidade: "Sustenta raízes e retém umidade moderada." },
             { asset: "chips-coco", nome: "Chips de coco lavados", proporcao: "25%", nota: "reserva hídrica", finalidade: "Reduz a secagem excessiva do cesto; usar material preparado e de baixa salinidade." },
             { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "20%", nota: "estrutura", finalidade: "Ajuda a manter poros maiores entre os componentes." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "10%", nota: "aeração", finalidade: "Acrescenta fração rígida e drenante." },
-            { asset: "pedra-pomes", nome: "Pedra-pomes", proporcao: "10%", nota: "macroporos", finalidade: "Contribui para estrutura estável e oxigenação." }
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "10%", nota: "macroporos", finalidade: "Favorece a porosidade e reduz o peso do cesto; usar granulometria grossa." }
         ],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },

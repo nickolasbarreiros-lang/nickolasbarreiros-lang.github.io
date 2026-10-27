@@ -1,5 +1,4 @@
 export const bibliotecaCultivoV4 = {
-  "brassia-lawrenceana-cesto": { nome: "Brassia lawrenceana — cesto de madeira", imagem: "imagens/cultivo-v4/especies/brassia-lawrenceana/cesto-madeira.webp" },
   "pinalia-elata-vaso-vasado": { nome: "Pinalia Elata", imagem: "imagens/cultivo-v4/especies/pinalia-elata/vaso-vasado.webp" },
   "bifrenaria-verboonenii-vaso-barro": { nome: "Bifrenaria Verboonenii", imagem: "imagens/cultivo-v4/especies/bifrenaria-verboonenii/vaso-barro.webp" },
     "gomesa-cornigera-placa": {
@@ -57,10 +56,6 @@ export const bibliotecaCultivoV4 = {
     "vaso-barro-perfurado": {
         nome: "Vaso de barro perfurado",
         imagem: "imagens/cultivo-v4/vaso-barro-perfurado.webp"
-    },
-    "brassavola-perrini-placa": {
-        nome: "Brassavola tuberculata — placa / tronco",
-        imagem: "imagens/cultivo-v4/especies/brassavola-tuberculata/placa-tronco.webp"
     },
     "placa-tronco": {
         nome: "Placa / tronco",
@@ -125,6 +120,10 @@ export const bibliotecaCultivoV4 = {
     "perlita": {
         nome: "Perlita",
         imagem: "imagens/cultivo-v4/perlita.webp"
+    },
+    "chips-coco": {
+        nome: "Chips de coco",
+        imagem: "imagens/cultivo-v4/fibra-coco.webp"
     },
     "fibra-coco": {
         nome: "Fibra de coco",
