@@ -57,7 +57,7 @@ export const bibliotecaCultivoV4 = {
         nome: "Vaso de barro perfurado",
         imagem: "imagens/cultivo-v4/vaso-barro-perfurado.webp"
     },
-    "brassavola-tuberculata-placa": {
+    "brassavola-perrini-placa": {
         nome: "Brassavola tuberculata — placa / tronco",
         imagem: "imagens/cultivo-v4/especies/brassavola-tuberculata/placa-tronco.webp"
     },
