@@ -1,0 +1,27 @@
+name: Preservar assets de cultivo V4
+on:
+  pull_request:
+    paths:
+      - 'js/biblioteca-cultivo-v4.js'
+      - 'scripts/verificar_preservacao_assets.py'
+      - '.github/workflows/preservar-assets-cultivo.yml'
+  workflow_dispatch:
+jobs:
+  preservar-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verificar preservação de assets em relação à base do PR
+        if: github.event_name == 'pull_request'
+        run: python scripts/verificar_preservacao_assets.py "${{ github.event.pull_request.base.sha }}"
+      - name: Conferir sintaxe e presença da biblioteca
+        if: github.event_name == 'workflow_dispatch'
+        run: node --check js/biblioteca-cultivo-v4.js
