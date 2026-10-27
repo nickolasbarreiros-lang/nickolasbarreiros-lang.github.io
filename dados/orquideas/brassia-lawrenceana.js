@@ -48,8 +48,9 @@ export const brassiaLawrenceana = {
         resumo: "Epífita de raízes vigorosas que prefere umidade regular com circulação de ar e drenagem eficiente.",
         metodos: [
             { nome: "Cesto de madeira", asset: "brassia-lawrenceana-cesto", estrelas: 5, status: "Ideal", texto: "Mantém raízes arejadas e permite acomodar a expansão dos pseudobulbos; exige regas ajustadas à secagem do substrato." },
-            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 4, status: "Muito recomendado", texto: "Boa estabilidade e troca de ar; observar a secagem mais rápida em períodos quentes." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Retém umidade por mais tempo; usar mistura aberta e controlar as irrigações." }
+            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Boa estabilidade e troca de ar; observar a secagem mais rápida em períodos quentes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Retém umidade por mais tempo; usar mistura aberta e controlar as irrigações." },
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 2, status: "Com restrições", texto: "Usar vaso pequeno e substrato muito aerado; controlar cuidadosamente a umidade para evitar encharcamento." }
         ]
     },
     substratoVisual: {
