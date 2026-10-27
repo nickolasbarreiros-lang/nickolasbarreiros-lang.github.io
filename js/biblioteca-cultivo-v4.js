@@ -1,4 +1,6 @@
 export const bibliotecaCultivoV4 = {
+  "brassavola-perrini-placa": { nome: "Brassavola tuberculata — placa / tronco", imagem: "imagens/cultivo-v4/especies/brassavola-tuberculata/placa-tronco.webp" },
+  "brassia-lawrenceana-cesto": { nome: "Brassia lawrenceana — cesto de madeira", imagem: "imagens/cultivo-v4/especies/brassia-lawrenceana/cesto-madeira.webp" },
   "pinalia-elata-vaso-vasado": { nome: "Pinalia Elata", imagem: "imagens/cultivo-v4/especies/pinalia-elata/vaso-vasado.webp" },
   "bifrenaria-verboonenii-vaso-barro": { nome: "Bifrenaria Verboonenii", imagem: "imagens/cultivo-v4/especies/bifrenaria-verboonenii/vaso-barro.webp" },
     "gomesa-cornigera-placa": {
