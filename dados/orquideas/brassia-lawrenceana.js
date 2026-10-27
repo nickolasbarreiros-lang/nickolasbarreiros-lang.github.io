@@ -42,6 +42,38 @@ export const brassiaLawrenceana = {
         "🥉 Vaso plástico baixo e muito perfurado, controlando cuidadosamente a retenção de água."
     ],
     substrato: ["🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.", "🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.", "🥉 Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.", "⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco."],
+    formasCultivo: {
+        perfilVisual: "cattleya",
+        destaque: "Cesto de madeira",
+        resumo: "Epífita de raízes vigorosas que prefere umidade regular com circulação de ar e drenagem eficiente.",
+        metodos: [
+            { nome: "Cesto de madeira", asset: "brassia-lawrenceana-cesto", estrelas: 5, status: "Ideal", texto: "Mantém raízes arejadas e permite acomodar a expansão dos pseudobulbos; exige regas ajustadas à secagem do substrato." },
+            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 4, status: "Muito recomendado", texto: "Boa estabilidade e troca de ar; observar a secagem mais rápida em períodos quentes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Retém umidade por mais tempo; usar mistura aberta e controlar as irrigações." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cultivo em cesto de madeira",
+        resumo: "Mistura de granulometria média, arejada e com retenção moderada, adequada ao crescimento ativo das raízes.",
+        justificativa: "A casca de pinus média fornece suporte e uma reserva hídrica moderada; os chips de coco lavados e tamponados prolongam a umidade entre regas; a macadâmia média acrescenta estrutura; o carvão e a pedra-pomes preservam espaços de ar. Pinus e coco se alteram com o envelhecimento, aumentando a retenção e exigindo inspeção e substituição quando houver decomposição. A água de irrigação e o preparo dos materiais influenciam o pH; não se deve presumir um pH fixo da mistura. Esta receita é uma proposta horticultural, não uma formulação publicada especificamente para a espécie por orquidário brasileiro.",
+        receitaTexto: "35% casca de pinus média + 25% chips de coco lavados + 20% casca de macadâmia média + 10% carvão vegetal + 10% pedra-pomes.",
+        perfil: ["Epífita", "Aeração elevada", "Retenção moderada", "Secagem intermediária", "Granulometria média", "Monitorar envelhecimento"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura e umidade", finalidade: "Sustenta raízes e retém umidade moderada." },
+            { asset: "chips-coco", nome: "Chips de coco lavados", proporcao: "25%", nota: "reserva hídrica", finalidade: "Reduz a secagem excessiva do cesto; usar material preparado e de baixa salinidade." },
+            { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "20%", nota: "estrutura", finalidade: "Ajuda a manter poros maiores entre os componentes." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "10%", nota: "aeração", finalidade: "Acrescenta fração rígida e drenante." },
+            { asset: "pedra-pomes", nome: "Pedra-pomes", proporcao: "10%", nota: "macroporos", finalidade: "Contribui para estrutura estável e oxigenação." }
+        ],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "☀️" },
+            { nome: "Compactação", valor: 2, icone: "🧱" }
+        ],
+        alerta: "Cesto seca mais rapidamente que vaso plástico. Ajuste a frequência de rega ao microclima e inspecione a decomposição do pinus e do coco; a composição é uma inferência técnica para plantas adultas."
+    },
     errosComuns: [
         "Cultivar em sombra profunda",
         "Manter o substrato permanentemente encharcado",

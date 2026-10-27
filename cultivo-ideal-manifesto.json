@@ -77,6 +77,10 @@
     "brassavola-perrini": {
       "asset": "brassavola-perrini-placa",
       "arquivo": "imagens/cultivo-v4/especies/brassavola-tuberculata/placa-tronco.webp"
+    },
+    "brassia-lawrenceana": {
+      "asset": "brassia-lawrenceana-cesto",
+      "arquivo": "imagens/cultivo-v4/especies/brassia-lawrenceana/cesto-madeira.webp"
     }
   }
 }
