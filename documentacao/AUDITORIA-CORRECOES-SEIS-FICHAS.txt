@@ -1,0 +1,11 @@
+CORREÇÃO DAS SEIS FICHAS V4 — 29/10/2026
+
+1. Fotos: incluído UM link externo identificado por espécie, encontrado em fontes botânicas/horticulturais. A disponibilidade do servidor externo pode variar. Não foram baixadas nem redistribuídas imagens. Não são quatro fotografias próprias e não há licença de redistribuição confirmada.
+2. Substrato: corrigidos os identificadores de assets para nomes existentes na biblioteca: brita-pura e perlita, em vez de brita-fina e perlita-grossa. A função do site FILTRA ingredientes com asset inválido, causando o erro de exibir só 30% + 15% = 45%.
+3. Percentuais: todas as seis receitas têm quatro ingredientes e somam 100%, em volume. As fórmulas são inferências horticulturais, não prescrições publicadas por 25 produtores.
+4. Floração: meses assinalados apenas quando sustentados pelas fontes relacionadas nas fichas. Variabilidade entre hemisférios e relatos conflitantes exigem cautela.
+5. Dica de ouro: substituída por orientação específica da espécie.
+6. NÃO modificar index.js, manifesto ou ficha.js. A biblioteca de cultivo e o renderizador já reconhecem os assets usados neste pacote.
+7. Fotos externas: os links podem ser bloqueados por hotlink ou mudar. Recomenda-se substituir por fotografias próprias ou arquivos com autorização/licença verificável.
+
+ATENÇÃO: auditoria taxonômica completa (POWO/WFO/IPNI/GBIF/Tropicos) e 25 produtores brasileiros por espécie permanecem pendentes. Não declarar conclusão científica definitiva.

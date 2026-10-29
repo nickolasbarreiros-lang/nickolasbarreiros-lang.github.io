@@ -1,24 +1,26 @@
-// Ficha V4 — auditoria editorial e estrutura de cultivo ampliadas; não inventar fotografias nem dados de fonte.
+// Ficha V4 — correção de composição total 100%, imagens externas de referência e fenologia documentada.
 export const aciantheraTeres = {
     "id": "acianthera-teres",
     "nome": "Acianthera teres",
     "genero": "Acianthera",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
-    "fotos": [],
+    "fotos": [
+        "https://www.orchidspecies.com/orphotdir/pleurotteres.jpg"
+    ],
     "descricao": "É uma espécie brasileira singular pela folhagem espessa, alongada e quase cilíndrica, uma adaptação associada à conservação de água. Seu hábito rupícola implica raízes que recebem água em pulsos e logo retornam à aeração, mas não autoriza cultivar uma planta recém-adquirida sob sol forte. O relato de cultivo do Orquidário Aparecida sobre madeira com sombreamento elevado mostra como a resposta de exemplares aclimatados pode diferir da exposição encontrada no habitat. O manejo deve equilibrar claridade suficiente para indução floral, ventilação e temperatura do suporte. A confirmação de autoria, sinonímia e variações intraespecíficas permanece condicionada à conferência individual em POWO, WFO, IPNI e literatura original; não se deve transformar uma hipótese de cultivo em dado taxonômico.",
     "origem": "América Tropical",
     "regiao": "Brasil; ambientes de afloramentos rochosos, com registros em formações abertas e rupestres.",
     "habitat": "Predominantemente rupícola em afloramentos rochosos com raízes aderidas a fendas e superfícies muito drenantes; vegetação xeromórfica não equivale a tolerância ilimitada ao sol quente.",
     "clima": "Quente a intermediário, com alta circulação de ar e forte variação microclimática sobre rochas.",
-    "climaFloracao": "A floração depende de brotos maduros, luz adequada e vigor radicular. Relatos de duração prolongada das flores precisam ser confirmados por clone; não é seguro fixar meses sem fenologia publicada verificável.",
+    "climaFloracao": "Dezembro a fevereiro: registros de floração em populações brasileiras estudadas; outras localidades e cultivos podem variar.",
     "iluminacao": {
         "sombrite": "50% a 70% como ponto de partida",
         "solDireto": "Permitido com restrição",
         "horario": "Somente início da manhã",
         "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
     },
-    "floracao": "A floração depende de brotos maduros, luz adequada e vigor radicular. Relatos de duração prolongada das flores precisam ser confirmados por clone; não é seguro fixar meses sem fenologia publicada verificável.",
+    "floracao": "Dezembro a fevereiro: registros de floração em populações brasileiras estudadas; outras localidades e cultivos podem variar.",
     "adubacao": "🌿 Orgânica: em plantas pequenas, usar bokashi apenas em sachê afastado de raízes e brotos, quando aplicável.\n💧 Mineral/foliar: fertilizante equilibrado a cerca de 1/4 da dose do fabricante durante crescimento ativo, em intervalos ajustados à resposta da planta; evitar pulverizar flores.\n🧪 Liberação lenta: somente em vaso com boa drenagem, em dose muito pequena. Lavar periodicamente o substrato com água limpa para reduzir acúmulo de sais. Suspender aplicações fortes quando raízes estiverem inativas.",
     "rega": "Regar abundantemente durante a emissão de raízes e brotos; permitir secagem rápida do suporte, sem transformar o cultivo em seca prolongada. Em vaso mineral, avaliar peso, cor das raízes e temperatura antes de repetir a rega. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
     "suporte": [
@@ -27,7 +29,7 @@ export const aciantheraTeres = {
         "🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.",
         "🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem."
     ],
-    "substrato": "🥇 45% brita fina + 30% carvão vegetal + 15% casca de pinus + 10% perlita grossa\n🥈 Ajustar granulometria e retenção à velocidade real de secagem.\n🥉 Em montagem, utilizar apenas reserva hídrica mínima quando necessária.\n⭐ Evitar compactação e pedra-pomes.",
+    "substrato": "🥇 45% brita fina + 25% carvão vegetal + 20% casca de pinus + 10% perlita grossa\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
     "errosComuns": [
         "Confundir tolerância vegetativa com floração garantida em clima quente.",
         "Usar sombra profunda ou sol direto forte sem aclimatação.",
@@ -37,20 +39,18 @@ export const aciantheraTeres = {
         "Ignorar diferenças entre plantas de procedências distintas.",
         "Fixar meses de floração com base em um único anúncio comercial."
     ],
-    "dica": "Luz e drenagem precisam ser equilibradas; hábito rupícola não significa que a planta recém-adquirida deva receber sol pleno.",
+    "dica": "Fixe a planta em suporte muito ventilado e aumente a claridade aos poucos até os novos brotos amadurecerem firmes; observe se as folhas mantêm consistência sem superaquecer. Para estimular floração, evite sombra excessiva, mas não leve uma planta de sombrite diretamente ao sol quente.",
     "revisaoCientificaIAR": {
         "nome": "Acianthera teres",
         "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
         "cultivoPremiacao": "Proposta de manejo derivada de ecologia e recomendações horticulturais brasileiras já levantadas. Nenhuma premiação AOS/OrchidPro foi confirmada; não presumir ausência de premiações.",
-        "confianca": "parcial — faltam validações bibliográficas individuais",
+        "confianca": "parcial — foto externa sujeita a disponibilidade; cultivo ainda não validado por 25 produtores",
         "fontes": [
-            "POWO / WFO / IPNI — auditoria taxonômica individual pendente",
-            "GBIF / Tropicos / Swiss Orchid Foundation — distribuição e sinonímia a cruzar",
-            "IOSPE / Flora e Funga do Brasil — ecologia e endemismo a conferir",
-            "BHL — protólogo e dimensões florais pendentes",
-            "Orquidário Aparecida, Mogi Mirim, 4 Estações, Hang e outros produtores brasileiros — consultas horticulturais parciais, sem atingir 25 produtores por espécie"
+            "https://new.scielo.br/j/rod/a/F7w6Stqr8Q7ktJD6g7mJqdK/",
+            "https://proflora.jbrj.gov.br/html/Acianthera%20teres_2012.html",
+            "https://orquidarioaparecida.com.br/produtos/acianthera-teres/"
         ],
-        "observacao": "Pontuações são estimativas ponderadas, não probabilidades estatísticas de floração.",
+        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: IOSPE — Pleurothallis teres. Receita de substrato é proposta horticultural (não consenso de 25 produtores).",
         "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
         "distribuicaoGeografica": "Brasil; ambientes de afloramentos rochosos, com registros em formações abertas e rupestres.",
         "habitatAltitudeClima": "Predominantemente rupícola em afloramentos rochosos com raízes aderidas a fendas e superfícies muito drenantes; vegetação xeromórfica não equivale a tolerância ilimitada ao sol quente. Quente a intermediário, com alta circulação de ar e forte variação microclimática sobre rochas."
@@ -179,7 +179,11 @@ export const aciantheraTeres = {
         "litoralQuente": "Compatibilidade estimada 80/100; verificar especialmente floração real sob noites quentes. O índice mede compatibilidade ecológica estimada, não chance percentual de florescer; avaliar sobretudo noites quentes, raízes e procedência.",
         "montanhaFrio": "Compatibilidade estimada 80/100; ajustar rega à temperatura e secagem. Evitar excesso de água em dias frios e garantir circulação de ar."
     },
-    "mesesFloracao": [],
+    "mesesFloracao": [
+        12,
+        1,
+        2
+    ],
     "selosCultivo": {
         "rega": {
             "nivel": "moderada",
@@ -198,7 +202,7 @@ export const aciantheraTeres = {
         "agua": 3,
         "raridade": 3
     },
-    "statusRevisao": "V4 — conteúdo editorial ampliado; fontes, morfometria e fotografias ainda em auditoria",
+    "statusRevisao": "V4 — correção dos assets de substrato, fenologia documentada, dicas individualizadas e 1 foto de referência externa",
     "sinonimo": "Pleurothallis teres (combinação histórica; autoria a verificar)",
     "caracteristicas": [
         "Folhas cilíndricas e suculentas",
@@ -244,10 +248,10 @@ export const aciantheraTeres = {
     },
     "substratoVisual": {
         "titulo": "Substrato ideal",
-        "contexto": "Receita técnica para vaso ventilado — proposta, não ensaio experimental",
-        "resumo": "Mistura proposta conforme hábito ecológico, velocidade de secagem e necessidade de oxigênio das raízes.",
-        "justificativa": "A composição é uma inferência horticultural baseada no hábito da espécie, não uma fórmula publicada e validada por 25 produtores. A proporção de materiais deve ser revista conforme granulometria, clima e vaso. Convergências com produtores brasileiros incluem ênfase em drenagem, ventilação e rega ajustada; divergências sobre material orgânico e sombra devem ser tratadas como variação de manejo, não consenso.",
-        "receitaTexto": "45% brita fina + 30% carvão vegetal + 15% casca de pinus + 10% perlita grossa",
+        "contexto": "Mistura para vaso — 100% em volume",
+        "resumo": "45% brita fina + 25% carvão vegetal + 20% casca de pinus + 10% perlita grossa — proporções em volume, para vaso ventilado.",
+        "justificativa": "A receita totaliza 100% em volume e é uma proposta horticultural para cultivo em vaso, distinta da montagem principal quando esta for em madeira. Fixe a planta em suporte muito ventilado e aumente a claridade aos poucos até os novos brotos amadurecerem firmes; observe se as folhas mantêm consistência sem superaquecer. Para estimular floração, evite sombra excessiva, mas não leve uma planta de sombrite diretamente ao sol quente. Ajuste o tamanho das partículas e a frequência de rega à velocidade de secagem, sem compactar.",
+        "receitaTexto": "45% brita fina + 25% carvão vegetal + 20% casca de pinus + 10% perlita grossa",
         "perfil": [
             "Alta aeração",
             "Drenagem funcional",
@@ -279,34 +283,39 @@ export const aciantheraTeres = {
         ],
         "itens": [
             {
-                "asset": "brita-fina",
+                "asset": "brita-pura",
                 "nome": "Brita fina",
                 "proporcao": "45%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "nota": "drenagem mineral",
+                "finalidade": "Forma a maior parte do volume sem acumular água entre as raízes; usar granulometria compatível com vaso pequeno."
             },
             {
                 "asset": "carvao-vegetal",
                 "nome": "Carvão vegetal",
-                "proporcao": "30%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "proporcao": "25%",
+                "nota": "estrutura e macroporos",
+                "finalidade": "Reduz fechamento da mistura e cria canais de circulação de ar."
             },
             {
                 "asset": "casca-pinus",
                 "nome": "Casca de pinus",
-                "proporcao": "15%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "proporcao": "20%",
+                "nota": "reserva hídrica moderada",
+                "finalidade": "Mantém uma fração orgânica para suavizar a secagem, sem sufocar as raízes rupícolas."
             },
             {
-                "asset": "perlita-grossa",
+                "asset": "perlita",
                 "nome": "Perlita grossa",
                 "proporcao": "10%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "nota": "leveza e porosidade",
+                "finalidade": "Diminui densidade e favorece drenagem; não substituir por pedra-pomes."
             }
         ],
         "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
+    },
+    "fotoReferencia": {
+        "origem": "IOSPE — Pleurothallis teres",
+        "url": "https://www.orchidspecies.com/orphotdir/pleurotteres.jpg",
+        "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
     }
 };

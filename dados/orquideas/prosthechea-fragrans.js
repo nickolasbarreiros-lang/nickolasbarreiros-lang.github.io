@@ -1,24 +1,26 @@
-// Ficha V4 — auditoria editorial e estrutura de cultivo ampliadas; não inventar fotografias nem dados de fonte.
+// Ficha V4 — correção de composição total 100%, imagens externas de referência e fenologia documentada.
 export const prosthecheaFragrans = {
     "id": "prosthechea-fragrans",
     "nome": "Prosthechea fragrans",
     "genero": "Prosthechea",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
-    "fotos": [],
+    "fotos": [
+        "https://bs.plantnet.org/image/o/1640afbb70e63d75ead8e88c817540e7eee60c36"
+    ],
     "descricao": "Prosthechea fragrans é conhecida pelo perfume atribuído às flores, frequentemente descrito em notas doces ou cítricas, mas a intensidade depende do exemplar e do horário. A identificação merece cautela: plantas comercializadas sob esse nome podem ser confundidas com Prosthechea aemula, e a comparação de flores maduras é indispensável. Como epífita de crescimento com pseudobulbos, beneficia-se de rega regular durante a emissão de raízes e de uma redução gradual quando o crescimento desacelera; isso não deve ser confundido com necessidade comprovada de repouso seco. A confirmação de autoria, sinonímia e variações intraespecíficas permanece condicionada à conferência individual em POWO, WFO, IPNI e literatura original; não se deve transformar uma hipótese de cultivo em dado taxonômico.",
     "origem": "América Tropical",
     "regiao": "América tropical; identificação de exemplares brasileiros requer comparação com Prosthechea aemula.",
     "habitat": "Epífita de florestas tropicais; raízes em superfícies drenantes, com umidade ambiental e boa renovação de ar.",
     "clima": "Quente a intermediário conforme procedência; evitar superaquecimento de vasos.",
-    "climaFloracao": "A maturação dos pseudobulbos e a estabilidade do microclima influenciam a floração. Confirmar identidade com P. aemula antes de atribuir época, perfume ou dimensões como características diagnósticas definitivas.",
+    "climaFloracao": "Novembro a janeiro documentado em flora de Barro Colorado; observações em novembro na Costa Rica. Não extrapolar como época obrigatória brasileira.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
         "horario": "Somente início da manhã",
         "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
     },
-    "floracao": "A maturação dos pseudobulbos e a estabilidade do microclima influenciam a floração. Confirmar identidade com P. aemula antes de atribuir época, perfume ou dimensões como características diagnósticas definitivas.",
+    "floracao": "Novembro a janeiro documentado em flora de Barro Colorado; observações em novembro na Costa Rica. Não extrapolar como época obrigatória brasileira.",
     "adubacao": "🌿 Orgânica: em plantas pequenas, usar bokashi apenas em sachê afastado de raízes e brotos, quando aplicável.\n💧 Mineral/foliar: fertilizante equilibrado a cerca de 1/4 da dose do fabricante durante crescimento ativo, em intervalos ajustados à resposta da planta; evitar pulverizar flores.\n🧪 Liberação lenta: somente em vaso com boa drenagem, em dose muito pequena. Lavar periodicamente o substrato com água limpa para reduzir acúmulo de sais. Suspender aplicações fortes quando raízes estiverem inativas.",
     "rega": "Regar durante a fase de raízes ativas e crescimento dos pseudobulbos; permitir que a camada superficial perca umidade entre regas. Reduzir moderadamente quando a atividade desacelerar, sem secagem radical. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
     "suporte": [
@@ -27,7 +29,7 @@ export const prosthecheaFragrans = {
         "🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.",
         "🥈 Vaso plástico vasado — alternativa dependente da ventilação e da velocidade de secagem."
     ],
-    "substrato": "🥇 45% casca de pinus + 25% carvão vegetal + 20% perlita grossa + 10% brita fina\n🥈 Ajustar granulometria e retenção à velocidade real de secagem.\n🥉 Em montagem, utilizar apenas reserva hídrica mínima quando necessária.\n⭐ Evitar compactação e pedra-pomes.",
+    "substrato": "🥇 45% casca de pinus média + 25% carvão vegetal + 20% casca de arroz carbonizada + 10% perlita grossa\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
     "errosComuns": [
         "Confundir tolerância vegetativa com floração garantida em clima quente.",
         "Usar sombra profunda ou sol direto forte sem aclimatação.",
@@ -37,20 +39,17 @@ export const prosthecheaFragrans = {
         "Ignorar diferenças entre plantas de procedências distintas.",
         "Fixar meses de floração com base em um único anúncio comercial."
     ],
-    "dica": "Não impor repouso seco rigoroso; conferir caracteres florais antes de confirmar a identificação.",
+    "dica": "Para preservar raízes e favorecer a floração perfumada, mantenha umidade e nutrição regulares enquanto os pseudobulbos crescem, mas evite água parada quando amadurecem. Não imponha repouso seco rigoroso: ajuste a rega pela atividade radicular e pela secagem real do vaso.",
     "revisaoCientificaIAR": {
         "nome": "Prosthechea fragrans",
         "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
         "cultivoPremiacao": "Proposta de manejo derivada de ecologia e recomendações horticulturais brasileiras já levantadas. Nenhuma premiação AOS/OrchidPro foi confirmada; não presumir ausência de premiações.",
-        "confianca": "parcial — faltam validações bibliográficas individuais",
+        "confianca": "parcial — foto externa sujeita a disponibilidade; cultivo ainda não validado por 25 produtores",
         "fontes": [
-            "POWO / WFO / IPNI — auditoria taxonômica individual pendente",
-            "GBIF / Tropicos / Swiss Orchid Foundation — distribuição e sinonímia a cruzar",
-            "IOSPE / Flora e Funga do Brasil — ecologia e endemismo a conferir",
-            "BHL — protólogo e dimensões florais pendentes",
-            "Orquidário Aparecida, Mogi Mirim, 4 Estações, Hang e outros produtores brasileiros — consultas horticulturais parciais, sem atingir 25 produtores por espécie"
+            "https://cotram.org/taxa/index.php?clid=0&taxauthid=1&tid=28538",
+            "https://www.acguanacaste.ac.cr/paginas-de-especies/plantas/734-orchidaceae/6245-i-prosthechea-fragrans-i-orchidiaceae"
         ],
-        "observacao": "Pontuações são estimativas ponderadas, não probabilidades estatísticas de floração.",
+        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: Pl@ntNet — Prosthechea fragrans. Receita de substrato é proposta horticultural (não consenso de 25 produtores).",
         "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
         "distribuicaoGeografica": "América tropical; identificação de exemplares brasileiros requer comparação com Prosthechea aemula.",
         "habitatAltitudeClima": "Epífita de florestas tropicais; raízes em superfícies drenantes, com umidade ambiental e boa renovação de ar. Quente a intermediário conforme procedência; evitar superaquecimento de vasos."
@@ -179,7 +178,11 @@ export const prosthecheaFragrans = {
         "litoralQuente": "Compatibilidade estimada 80/100; verificar especialmente floração real sob noites quentes. O índice mede compatibilidade ecológica estimada, não chance percentual de florescer; avaliar sobretudo noites quentes, raízes e procedência.",
         "montanhaFrio": "Compatibilidade estimada 80/100; ajustar rega à temperatura e secagem. Evitar excesso de água em dias frios e garantir circulação de ar."
     },
-    "mesesFloracao": [],
+    "mesesFloracao": [
+        11,
+        12,
+        1
+    ],
     "selosCultivo": {
         "rega": {
             "nivel": "moderada",
@@ -198,7 +201,7 @@ export const prosthecheaFragrans = {
         "agua": 3,
         "raridade": 3
     },
-    "statusRevisao": "V4 — conteúdo editorial ampliado; fontes, morfometria e fotografias ainda em auditoria",
+    "statusRevisao": "V4 — correção dos assets de substrato, fenologia documentada, dicas individualizadas e 1 foto de referência externa",
     "sinonimo": "Epidendrum fragrans (combinação histórica; confirmar autoria)",
     "caracteristicas": [
         "Pseudobulbos",
@@ -244,10 +247,10 @@ export const prosthecheaFragrans = {
     },
     "substratoVisual": {
         "titulo": "Substrato ideal",
-        "contexto": "Receita técnica para vaso ventilado — proposta, não ensaio experimental",
-        "resumo": "Mistura proposta conforme hábito ecológico, velocidade de secagem e necessidade de oxigênio das raízes.",
-        "justificativa": "A composição é uma inferência horticultural baseada no hábito da espécie, não uma fórmula publicada e validada por 25 produtores. A proporção de materiais deve ser revista conforme granulometria, clima e vaso. Convergências com produtores brasileiros incluem ênfase em drenagem, ventilação e rega ajustada; divergências sobre material orgânico e sombra devem ser tratadas como variação de manejo, não consenso.",
-        "receitaTexto": "45% casca de pinus + 25% carvão vegetal + 20% perlita grossa + 10% brita fina",
+        "contexto": "Mistura para vaso — 100% em volume",
+        "resumo": "45% casca de pinus média + 25% carvão vegetal + 20% casca de arroz carbonizada + 10% perlita grossa — proporções em volume, para vaso ventilado.",
+        "justificativa": "A receita totaliza 100% em volume e é uma proposta horticultural para cultivo em vaso, distinta da montagem principal quando esta for em madeira. Para preservar raízes e favorecer a floração perfumada, mantenha umidade e nutrição regulares enquanto os pseudobulbos crescem, mas evite água parada quando amadurecem. Não imponha repouso seco rigoroso: ajuste a rega pela atividade radicular e pela secagem real do vaso. Ajuste o tamanho das partículas e a frequência de rega à velocidade de secagem, sem compactar.",
+        "receitaTexto": "45% casca de pinus média + 25% carvão vegetal + 20% casca de arroz carbonizada + 10% perlita grossa",
         "perfil": [
             "Alta aeração",
             "Drenagem funcional",
@@ -280,33 +283,38 @@ export const prosthecheaFragrans = {
         "itens": [
             {
                 "asset": "casca-pinus",
-                "nome": "Casca de pinus",
+                "nome": "Casca de pinus média",
                 "proporcao": "45%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "nota": "suporte e umidade",
+                "finalidade": "Sustenta raízes e mantém umidade breve durante crescimento."
             },
             {
                 "asset": "carvao-vegetal",
                 "nome": "Carvão vegetal",
                 "proporcao": "25%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "nota": "aeração",
+                "finalidade": "Ajuda a preservar espaços livres no vaso."
             },
             {
-                "asset": "perlita-grossa",
-                "nome": "Perlita grossa",
+                "asset": "casca-arroz-carbonizada",
+                "nome": "Casca de arroz carbonizada",
                 "proporcao": "20%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "nota": "porosidade",
+                "finalidade": "Reduz compactação e acelera drenagem."
             },
             {
-                "asset": "brita-fina",
-                "nome": "Brita fina",
+                "asset": "perlita",
+                "nome": "Perlita grossa",
                 "proporcao": "10%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "nota": "leveza",
+                "finalidade": "Mantém a mistura arejada e facilita renovação radicular."
             }
         ],
         "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
+    },
+    "fotoReferencia": {
+        "origem": "Pl@ntNet — Prosthechea fragrans",
+        "url": "https://bs.plantnet.org/image/o/1640afbb70e63d75ead8e88c817540e7eee60c36",
+        "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
     }
 };

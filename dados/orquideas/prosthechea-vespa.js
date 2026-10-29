@@ -1,24 +1,26 @@
-// Ficha V4 — auditoria editorial e estrutura de cultivo ampliadas; não inventar fotografias nem dados de fonte.
+// Ficha V4 — correção de composição total 100%, imagens externas de referência e fenologia documentada.
 export const prosthecheaVespa = {
     "id": "prosthechea-vespa",
     "nome": "Prosthechea vespa",
     "genero": "Prosthechea",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
-    "fotos": [],
+    "fotos": [
+        "https://garden.org/pics/2016-12-21/robertduval14/3a78c7.jpg"
+    ],
     "descricao": "Espécie de Prosthechea reconhecida pelo aspecto marcante de suas flores e pela arquitetura de crescimento com pseudobulbos. Fontes botânicas e horticulturais descrevem ocupação de ambientes com luminosidade variável, o que exige evitar uma recomendação única de sol pleno. Em clima quente, o sucesso depende de combinar boa claridade com raízes que não permaneçam abafadas; a emissão de brotos e o amadurecimento dos pseudobulbos devem orientar a intensidade das regas e a adubação. A amplitude ecológica favorece a adaptação vegetativa, mas não garante floração anual em qualquer microclima. A confirmação de autoria, sinonímia e variações intraespecíficas permanece condicionada à conferência individual em POWO, WFO, IPNI e literatura original; não se deve transformar uma hipótese de cultivo em dado taxonômico.",
     "origem": "América Tropical",
     "regiao": "América tropical; registros em ampla faixa de altitude, inclusive regiões relativamente baixas.",
     "habitat": "Epífita de ambientes florestais e, em alguns registros, associada a locais mais expostos; raízes requerem aeração e drenagem.",
     "clima": "Quente a intermediário; boa possibilidade de crescimento em clima quente com luminosidade e ventilação adequadas.",
-    "climaFloracao": "A emissão de inflorescências costuma acompanhar pseudobulbos maduros e boa luminosidade; a janela anual precisa ser confirmada por registros fenológicos da procedência.",
+    "climaFloracao": "Do fim da primavera a meados do verão, segundo Orquídeas Gaúchas; o período varia com a região.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
         "horario": "Somente início da manhã",
         "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
     },
-    "floracao": "A emissão de inflorescências costuma acompanhar pseudobulbos maduros e boa luminosidade; a janela anual precisa ser confirmada por registros fenológicos da procedência.",
+    "floracao": "Do fim da primavera a meados do verão, segundo Orquídeas Gaúchas; o período varia com a região.",
     "adubacao": "🌿 Orgânica: em plantas pequenas, usar bokashi apenas em sachê afastado de raízes e brotos, quando aplicável.\n💧 Mineral/foliar: fertilizante equilibrado a cerca de 1/4 da dose do fabricante durante crescimento ativo, em intervalos ajustados à resposta da planta; evitar pulverizar flores.\n🧪 Liberação lenta: somente em vaso com boa drenagem, em dose muito pequena. Lavar periodicamente o substrato com água limpa para reduzir acúmulo de sais. Suspender aplicações fortes quando raízes estiverem inativas.",
     "rega": "Regar mais durante crescimento ativo e formação de pseudobulbos; após amadurecimento, espaçar de acordo com a secagem real, sem impor repouso seco não documentado. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
     "suporte": [
@@ -27,7 +29,7 @@ export const prosthecheaVespa = {
         "🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.",
         "🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem."
     ],
-    "substrato": "🥇 45% casca de pinus + 25% carvão vegetal + 20% perlita grossa + 10% brita fina\n🥈 Ajustar granulometria e retenção à velocidade real de secagem.\n🥉 Em montagem, utilizar apenas reserva hídrica mínima quando necessária.\n⭐ Evitar compactação e pedra-pomes.",
+    "substrato": "🥇 45% casca de pinus média + 25% carvão vegetal + 20% brita fina + 10% perlita grossa\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
     "errosComuns": [
         "Confundir tolerância vegetativa com floração garantida em clima quente.",
         "Usar sombra profunda ou sol direto forte sem aclimatação.",
@@ -37,20 +39,17 @@ export const prosthecheaVespa = {
         "Ignorar diferenças entre plantas de procedências distintas.",
         "Fixar meses de floração com base em um único anúncio comercial."
     ],
-    "dica": "Evitar excesso de sombra e substrato compactado; exposição de populações silvestres não autoriza sol forte abrupto.",
+    "dica": "Acompanhe o surgimento das pontas radiculares: esse é o momento mais seguro para reenvasar e intensificar gradualmente rega e nutrição. Mantenha os pseudobulbos acima do substrato e ofereça claridade filtrada suficiente para amadurecer os novos crescimentos e favorecer a haste floral.",
     "revisaoCientificaIAR": {
         "nome": "Prosthechea vespa",
         "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
         "cultivoPremiacao": "Proposta de manejo derivada de ecologia e recomendações horticulturais brasileiras já levantadas. Nenhuma premiação AOS/OrchidPro foi confirmada; não presumir ausência de premiações.",
-        "confianca": "parcial — faltam validações bibliográficas individuais",
+        "confianca": "parcial — foto externa sujeita a disponibilidade; cultivo ainda não validado por 25 produtores",
         "fontes": [
-            "POWO / WFO / IPNI — auditoria taxonômica individual pendente",
-            "GBIF / Tropicos / Swiss Orchid Foundation — distribuição e sinonímia a cruzar",
-            "IOSPE / Flora e Funga do Brasil — ecologia e endemismo a conferir",
-            "BHL — protólogo e dimensões florais pendentes",
-            "Orquidário Aparecida, Mogi Mirim, 4 Estações, Hang e outros produtores brasileiros — consultas horticulturais parciais, sem atingir 25 produtores por espécie"
+            "https://orquideasgauchas.net/P_desc_especie.php?cod_especie=35",
+            "https://monografiasfloradobrasil.jbrj.gov.br/prosthechea.pdf"
         ],
-        "observacao": "Pontuações são estimativas ponderadas, não probabilidades estatísticas de floração.",
+        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: Garden.org — Prosthechea vespa. Receita de substrato é proposta horticultural (não consenso de 25 produtores).",
         "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
         "distribuicaoGeografica": "América tropical; registros em ampla faixa de altitude, inclusive regiões relativamente baixas.",
         "habitatAltitudeClima": "Epífita de ambientes florestais e, em alguns registros, associada a locais mais expostos; raízes requerem aeração e drenagem. Quente a intermediário; boa possibilidade de crescimento em clima quente com luminosidade e ventilação adequadas."
@@ -179,7 +178,12 @@ export const prosthecheaVespa = {
         "litoralQuente": "Compatibilidade estimada 97/100; verificar especialmente floração real sob noites quentes. O índice mede compatibilidade ecológica estimada, não chance percentual de florescer; avaliar sobretudo noites quentes, raízes e procedência.",
         "montanhaFrio": "Compatibilidade estimada 80/100; ajustar rega à temperatura e secagem. Evitar excesso de água em dias frios e garantir circulação de ar."
     },
-    "mesesFloracao": [],
+    "mesesFloracao": [
+        11,
+        12,
+        1,
+        2
+    ],
     "selosCultivo": {
         "rega": {
             "nivel": "moderada",
@@ -198,7 +202,7 @@ export const prosthecheaVespa = {
         "agua": 3,
         "raridade": 3
     },
-    "statusRevisao": "V4 — conteúdo editorial ampliado; fontes, morfometria e fotografias ainda em auditoria",
+    "statusRevisao": "V4 — correção dos assets de substrato, fenologia documentada, dicas individualizadas e 1 foto de referência externa",
     "sinonimo": "Encyclia vespa (combinação histórica; confirmar autoria)",
     "caracteristicas": [
         "Pseudobulbos",
@@ -244,10 +248,10 @@ export const prosthecheaVespa = {
     },
     "substratoVisual": {
         "titulo": "Substrato ideal",
-        "contexto": "Receita técnica para vaso ventilado — proposta, não ensaio experimental",
-        "resumo": "Mistura proposta conforme hábito ecológico, velocidade de secagem e necessidade de oxigênio das raízes.",
-        "justificativa": "A composição é uma inferência horticultural baseada no hábito da espécie, não uma fórmula publicada e validada por 25 produtores. A proporção de materiais deve ser revista conforme granulometria, clima e vaso. Convergências com produtores brasileiros incluem ênfase em drenagem, ventilação e rega ajustada; divergências sobre material orgânico e sombra devem ser tratadas como variação de manejo, não consenso.",
-        "receitaTexto": "45% casca de pinus + 25% carvão vegetal + 20% perlita grossa + 10% brita fina",
+        "contexto": "Mistura para vaso — 100% em volume",
+        "resumo": "45% casca de pinus média + 25% carvão vegetal + 20% brita fina + 10% perlita grossa — proporções em volume, para vaso ventilado.",
+        "justificativa": "A receita totaliza 100% em volume e é uma proposta horticultural para cultivo em vaso, distinta da montagem principal quando esta for em madeira. Acompanhe o surgimento das pontas radiculares: esse é o momento mais seguro para reenvasar e intensificar gradualmente rega e nutrição. Mantenha os pseudobulbos acima do substrato e ofereça claridade filtrada suficiente para amadurecer os novos crescimentos e favorecer a haste floral. Ajuste o tamanho das partículas e a frequência de rega à velocidade de secagem, sem compactar.",
+        "receitaTexto": "45% casca de pinus média + 25% carvão vegetal + 20% brita fina + 10% perlita grossa",
         "perfil": [
             "Alta aeração",
             "Drenagem funcional",
@@ -280,33 +284,38 @@ export const prosthecheaVespa = {
         "itens": [
             {
                 "asset": "casca-pinus",
-                "nome": "Casca de pinus",
+                "nome": "Casca de pinus média",
                 "proporcao": "45%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "nota": "estrutura principal",
+                "finalidade": "Fornece apoio e secagem moderada aos pseudobulbos em crescimento."
             },
             {
                 "asset": "carvao-vegetal",
                 "nome": "Carvão vegetal",
                 "proporcao": "25%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "nota": "macroporos",
+                "finalidade": "Favorece ventilação e reduz compactação."
             },
             {
-                "asset": "perlita-grossa",
-                "nome": "Perlita grossa",
-                "proporcao": "20%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
-            },
-            {
-                "asset": "brita-fina",
+                "asset": "brita-pura",
                 "nome": "Brita fina",
+                "proporcao": "20%",
+                "nota": "drenagem e lastro",
+                "finalidade": "Acelera a saída de água e estabiliza o vaso."
+            },
+            {
+                "asset": "perlita",
+                "nome": "Perlita grossa",
                 "proporcao": "10%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "nota": "aeração e leveza",
+                "finalidade": "Abre a mistura sem elevar excessivamente a retenção."
             }
         ],
         "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
+    },
+    "fotoReferencia": {
+        "origem": "Garden.org — Prosthechea vespa",
+        "url": "https://garden.org/pics/2016-12-21/robertduval14/3a78c7.jpg",
+        "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
     }
 };

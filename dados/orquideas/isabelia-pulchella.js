@@ -1,24 +1,26 @@
-// Ficha V4 — auditoria editorial e estrutura de cultivo ampliadas; não inventar fotografias nem dados de fonte.
+// Ficha V4 — correção de composição total 100%, imagens externas de referência e fenologia documentada.
 export const isabeliaPulchella = {
     "id": "isabelia-pulchella",
     "nome": "Isabelia pulchella",
     "genero": "Isabelia",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
-    "fotos": [],
+    "fotos": [
+        "https://www.lacanopee.com/781-large_default/isabelia-pulchella-sur-plaque.jpg"
+    ],
     "descricao": "Orquídea de pequeno porte cuja principal dificuldade no litoral quente não é apenas mantê-la viva, mas obter crescimento regular seguido de floração. A literatura horticultural brasileira frequentemente indica montagem em madeira e luz filtrada; há divergências entre produtores sobre o enquadramento térmico e a época principal de floração. Por isso, é importante separar a tolerância vegetativa à temperatura da necessidade de noites mais amenas para formação das flores. Em cultivo, raízes delicadas exigem hidratação frequente, mas não um suporte saturado e abafado. A confirmação de autoria, sinonímia e variações intraespecíficas permanece condicionada à conferência individual em POWO, WFO, IPNI e literatura original; não se deve transformar uma hipótese de cultivo em dado taxonômico.",
     "origem": "Brasil",
     "regiao": "Brasil; ocorrência associada a ambientes florestais e regiões com variação sazonal de temperatura.",
     "habitat": "Epífita miniaturizada, com raízes delicadas que se beneficiam de suportes ventilados e umidade regular.",
     "clima": "Intermediário a fresco; noites excessivamente quentes podem limitar a indução floral em determinadas procedências.",
-    "climaFloracao": "Fontes horticulturais divergem entre primavera e períodos mais frios. O fator crítico em regiões quentes pode ser a amplitude térmica noturna; registrar a primeira floração do próprio exemplar antes de definir meses fixos.",
+    "climaFloracao": "Primavera segundo Orquidário Aparecida, Hang e 4 Estações; existem registros divergentes de outono/inverno, por isso não representa calendário exclusivo.",
     "iluminacao": {
         "sombrite": "60% a 80%",
         "solDireto": "Não permitido",
         "horario": "",
         "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
     },
-    "floracao": "Fontes horticulturais divergem entre primavera e períodos mais frios. O fator crítico em regiões quentes pode ser a amplitude térmica noturna; registrar a primeira floração do próprio exemplar antes de definir meses fixos.",
+    "floracao": "Primavera segundo Orquidário Aparecida, Hang e 4 Estações; existem registros divergentes de outono/inverno, por isso não representa calendário exclusivo.",
     "adubacao": "🌿 Orgânica: em plantas pequenas, usar bokashi apenas em sachê afastado de raízes e brotos, quando aplicável.\n💧 Mineral/foliar: fertilizante equilibrado a cerca de 1/4 da dose do fabricante durante crescimento ativo, em intervalos ajustados à resposta da planta; evitar pulverizar flores.\n🧪 Liberação lenta: somente em vaso com boa drenagem, em dose muito pequena. Lavar periodicamente o substrato com água limpa para reduzir acúmulo de sais. Suspender aplicações fortes quando raízes estiverem inativas.",
     "rega": "Em placa, umedecer as raízes com frequência e observar a velocidade de secagem. Uma pequena camada de esfagno solto pode retardar a desidratação; excesso de material úmido junto à base favorece apodrecimento. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
     "suporte": [
@@ -27,7 +29,7 @@ export const isabeliaPulchella = {
         "🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.",
         "🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem."
     ],
-    "substrato": "🥇 40% casca de pinus + 25% casca de arroz carbonizada + 20% carvão vegetal + 15% esfagno solto\n🥈 Ajustar granulometria e retenção à velocidade real de secagem.\n🥉 Em montagem, utilizar apenas reserva hídrica mínima quando necessária.\n⭐ Evitar compactação e pedra-pomes.",
+    "substrato": "🥇 40% casca de pinus pequena + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
     "errosComuns": [
         "Confundir tolerância vegetativa com floração garantida em clima quente.",
         "Usar sombra profunda ou sol direto forte sem aclimatação.",
@@ -37,20 +39,18 @@ export const isabeliaPulchella = {
         "Ignorar diferenças entre plantas de procedências distintas.",
         "Fixar meses de floração com base em um único anúncio comercial."
     ],
-    "dica": "No litoral quente, observar se há maturação e emissão de flores, e não apenas crescimento vegetativo.",
+    "dica": "Mantenha o rizoma rastejante preso superficialmente a uma pequena placa, com as raízes livres e uma fina reserva de umidade. A planta deve receber claridade filtrada e ventilação constante; a chave para florir é formar vários pseudobulbos maduros sem ressecar os brotos novos.",
     "revisaoCientificaIAR": {
         "nome": "Isabelia pulchella",
         "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
         "cultivoPremiacao": "Proposta de manejo derivada de ecologia e recomendações horticulturais brasileiras já levantadas. Nenhuma premiação AOS/OrchidPro foi confirmada; não presumir ausência de premiações.",
-        "confianca": "parcial — faltam validações bibliográficas individuais",
+        "confianca": "parcial — foto externa sujeita a disponibilidade; cultivo ainda não validado por 25 produtores",
         "fontes": [
-            "POWO / WFO / IPNI — auditoria taxonômica individual pendente",
-            "GBIF / Tropicos / Swiss Orchid Foundation — distribuição e sinonímia a cruzar",
-            "IOSPE / Flora e Funga do Brasil — ecologia e endemismo a conferir",
-            "BHL — protólogo e dimensões florais pendentes",
-            "Orquidário Aparecida, Mogi Mirim, 4 Estações, Hang e outros produtores brasileiros — consultas horticulturais parciais, sem atingir 25 produtores por espécie"
+            "https://www.orquidario4e.com.br/orquidea-isabelia-pulchella",
+            "https://orquidarioaparecida.com.br/produtos/isabelia-pulchella-m/",
+            "https://www.orquideasnoape.com.br/2019/05/orquidea-isabelia-pulchella.html"
         ],
-        "observacao": "Pontuações são estimativas ponderadas, não probabilidades estatísticas de floração.",
+        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: La Canopée — Isabelia pulchella. Receita de substrato é proposta horticultural (não consenso de 25 produtores).",
         "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
         "distribuicaoGeografica": "Brasil; ocorrência associada a ambientes florestais e regiões com variação sazonal de temperatura.",
         "habitatAltitudeClima": "Epífita miniaturizada, com raízes delicadas que se beneficiam de suportes ventilados e umidade regular. Intermediário a fresco; noites excessivamente quentes podem limitar a indução floral em determinadas procedências."
@@ -179,7 +179,11 @@ export const isabeliaPulchella = {
         "litoralQuente": "Compatibilidade estimada 52/100; verificar especialmente floração real sob noites quentes. O índice mede compatibilidade ecológica estimada, não chance percentual de florescer; avaliar sobretudo noites quentes, raízes e procedência.",
         "montanhaFrio": "Compatibilidade estimada 97/100; ajustar rega à temperatura e secagem. Evitar excesso de água em dias frios e garantir circulação de ar."
     },
-    "mesesFloracao": [],
+    "mesesFloracao": [
+        9,
+        10,
+        11
+    ],
     "selosCultivo": {
         "rega": {
             "nivel": "moderada",
@@ -198,7 +202,7 @@ export const isabeliaPulchella = {
         "agua": 3,
         "raridade": 3
     },
-    "statusRevisao": "V4 — conteúdo editorial ampliado; fontes, morfometria e fotografias ainda em auditoria",
+    "statusRevisao": "V4 — correção dos assets de substrato, fenologia documentada, dicas individualizadas e 1 foto de referência externa",
     "sinonimo": "Neolauchea pulchella (sinônimo histórico)",
     "caracteristicas": [
         "Miniatura epífita",
@@ -244,10 +248,10 @@ export const isabeliaPulchella = {
     },
     "substratoVisual": {
         "titulo": "Substrato ideal",
-        "contexto": "Receita técnica para vaso ventilado — proposta, não ensaio experimental",
-        "resumo": "Mistura proposta conforme hábito ecológico, velocidade de secagem e necessidade de oxigênio das raízes.",
-        "justificativa": "A composição é uma inferência horticultural baseada no hábito da espécie, não uma fórmula publicada e validada por 25 produtores. A proporção de materiais deve ser revista conforme granulometria, clima e vaso. Convergências com produtores brasileiros incluem ênfase em drenagem, ventilação e rega ajustada; divergências sobre material orgânico e sombra devem ser tratadas como variação de manejo, não consenso.",
-        "receitaTexto": "40% casca de pinus + 25% casca de arroz carbonizada + 20% carvão vegetal + 15% esfagno solto",
+        "contexto": "Mistura para vaso — 100% em volume",
+        "resumo": "40% casca de pinus pequena + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto — proporções em volume, para vaso ventilado.",
+        "justificativa": "A receita totaliza 100% em volume e é uma proposta horticultural para cultivo em vaso, distinta da montagem principal quando esta for em madeira. Mantenha o rizoma rastejante preso superficialmente a uma pequena placa, com as raízes livres e uma fina reserva de umidade. A planta deve receber claridade filtrada e ventilação constante; a chave para florir é formar vários pseudobulbos maduros sem ressecar os brotos novos. Ajuste o tamanho das partículas e a frequência de rega à velocidade de secagem, sem compactar.",
+        "receitaTexto": "40% casca de pinus pequena + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto",
         "perfil": [
             "Alta aeração",
             "Drenagem funcional",
@@ -280,33 +284,38 @@ export const isabeliaPulchella = {
         "itens": [
             {
                 "asset": "casca-pinus",
-                "nome": "Casca de pinus",
+                "nome": "Casca de pinus pequena",
                 "proporcao": "40%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "nota": "estrutura e umidade",
+                "finalidade": "Permite umidade moderada com ventilação para raízes finas."
             },
             {
                 "asset": "casca-arroz-carbonizada",
                 "nome": "Casca de arroz carbonizada",
                 "proporcao": "25%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "nota": "porosidade",
+                "finalidade": "Impede adensamento e facilita oxigenação."
             },
             {
                 "asset": "carvao-vegetal",
-                "nome": "Carvão vegetal",
+                "nome": "Carvão vegetal pequeno",
                 "proporcao": "20%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "nota": "estabilidade",
+                "finalidade": "Preserva espaços de ar e facilita renovação da mistura."
             },
             {
                 "asset": "esfagno",
                 "nome": "Esfagno solto",
                 "proporcao": "15%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Reserva de água em pequena proporção; usar solto, nunca prensado."
+                "nota": "reserva hídrica localizada",
+                "finalidade": "Evita desidratação de raízes pequenas; manter solto, nunca compactado."
             }
         ],
         "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
+    },
+    "fotoReferencia": {
+        "origem": "La Canopée — Isabelia pulchella",
+        "url": "https://www.lacanopee.com/781-large_default/isabelia-pulchella-sur-plaque.jpg",
+        "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
     }
 };

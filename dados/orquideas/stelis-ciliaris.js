@@ -1,24 +1,26 @@
-// Ficha V4 — auditoria editorial e estrutura de cultivo ampliadas; não inventar fotografias nem dados de fonte.
+// Ficha V4 — correção de composição total 100%, imagens externas de referência e fenologia documentada.
 export const stelisCiliaris = {
     "id": "stelis-ciliaris",
     "nome": "Stelis ciliaris",
     "genero": "Stelis",
     "tipo": "Espécie botânica",
     "dificuldade": "Difícil",
-    "fotos": [],
+    "fotos": [
+        "https://ecuagenera.com/cdn/shop/files/Stelis._ciliaris.jpg?v=1754667689"
+    ],
     "descricao": "Stelis ciliaris apresenta flores pequenas cuja observação detalhada revela margens ciliadas, caráter importante para a identificação. O porte discreto contrasta com inflorescências que podem se alongar bem além das folhas. Não deve ser descrita como obrigatoriamente fria: há registros ecológicos em florestas úmidas de baixa altitude, embora populações de regiões elevadas possam responder de modo diferente ao calor. No cultivo, a principal dificuldade é manter raízes finas hidratadas e oxigenadas ao mesmo tempo, com boa ventilação e proteção contra aquecimento excessivo. A confirmação de autoria, sinonímia e variações intraespecíficas permanece condicionada à conferência individual em POWO, WFO, IPNI e literatura original; não se deve transformar uma hipótese de cultivo em dado taxonômico.",
     "origem": "América Tropical",
     "regiao": "América tropical, do sul do México à América do Sul; confirmar limites por base taxonômica.",
     "habitat": "Epífita de florestas úmidas; registros do gênero e da espécie incluem ambientes quentes e intermediários, exigindo avaliação da procedência.",
     "clima": "Quente a intermediário conforme procedência e altitude; umidade atmosférica elevada e circulação contínua.",
-    "climaFloracao": "Inflorescências pequenas e sucessão floral podem variar conforme a procedência; a disponibilidade de registros fenológicos comparáveis é insuficiente para preencher com segurança um calendário mensal.",
+    "climaFloracao": "Outubro: registro brasileiro em cultivo publicado em Rodriguésia; fim do outono e começo do inverno em descrições internacionais, conforme hemisfério.",
     "iluminacao": {
         "sombrite": "70% a 80%",
         "solDireto": "Não permitido",
         "horario": "",
         "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
     },
-    "floracao": "Inflorescências pequenas e sucessão floral podem variar conforme a procedência; a disponibilidade de registros fenológicos comparáveis é insuficiente para preencher com segurança um calendário mensal.",
+    "floracao": "Outubro: registro brasileiro em cultivo publicado em Rodriguésia; fim do outono e começo do inverno em descrições internacionais, conforme hemisfério.",
     "adubacao": "🌿 Orgânica: em plantas pequenas, usar bokashi apenas em sachê afastado de raízes e brotos, quando aplicável.\n💧 Mineral/foliar: fertilizante equilibrado a cerca de 1/4 da dose do fabricante durante crescimento ativo, em intervalos ajustados à resposta da planta; evitar pulverizar flores.\n🧪 Liberação lenta: somente em vaso com boa drenagem, em dose muito pequena. Lavar periodicamente o substrato com água limpa para reduzir acúmulo de sais. Suspender aplicações fortes quando raízes estiverem inativas.",
     "rega": "Manter hidratação frequente, especialmente em plantas montadas. Regar quando a superfície começar a perder umidade, sem deixar raízes finas secarem por vários dias e sem manter esfagno compactado constantemente molhado. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
     "suporte": [
@@ -27,7 +29,7 @@ export const stelisCiliaris = {
         "🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.",
         "🥈 Vaso plástico vasado — alternativa dependente da ventilação e da velocidade de secagem."
     ],
-    "substrato": "🥇 40% casca de pinus + 25% casca de arroz carbonizada + 20% carvão vegetal + 15% esfagno solto\n🥈 Ajustar granulometria e retenção à velocidade real de secagem.\n🥉 Em montagem, utilizar apenas reserva hídrica mínima quando necessária.\n⭐ Evitar compactação e pedra-pomes.",
+    "substrato": "🥇 35% casca de pinus pequena + 30% esfagno solto + 20% casca de arroz carbonizada + 15% carvão vegetal pequeno\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
     "errosComuns": [
         "Confundir tolerância vegetativa com floração garantida em clima quente.",
         "Usar sombra profunda ou sol direto forte sem aclimatação.",
@@ -37,20 +39,17 @@ export const stelisCiliaris = {
         "Ignorar diferenças entre plantas de procedências distintas.",
         "Fixar meses de floração com base em um único anúncio comercial."
     ],
-    "dica": "Evitar combinar calor, ar parado e raízes secas; umidade ambiental não é encharcamento.",
+    "dica": "A prioridade é impedir que raízes finas desidratem por horas em dias quentes sem transformá-las em raízes encharcadas: use suporte pequeno, umidade ambiental estável, luz suave e movimento contínuo de ar. Verifique a umidade junto às raízes, não apenas a superfície.",
     "revisaoCientificaIAR": {
         "nome": "Stelis ciliaris",
         "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
         "cultivoPremiacao": "Proposta de manejo derivada de ecologia e recomendações horticulturais brasileiras já levantadas. Nenhuma premiação AOS/OrchidPro foi confirmada; não presumir ausência de premiações.",
-        "confianca": "parcial — faltam validações bibliográficas individuais",
+        "confianca": "parcial — foto externa sujeita a disponibilidade; cultivo ainda não validado por 25 produtores",
         "fontes": [
-            "POWO / WFO / IPNI — auditoria taxonômica individual pendente",
-            "GBIF / Tropicos / Swiss Orchid Foundation — distribuição e sinonímia a cruzar",
-            "IOSPE / Flora e Funga do Brasil — ecologia e endemismo a conferir",
-            "BHL — protólogo e dimensões florais pendentes",
-            "Orquidário Aparecida, Mogi Mirim, 4 Estações, Hang e outros produtores brasileiros — consultas horticulturais parciais, sem atingir 25 produtores por espécie"
+            "https://www.scielo.br/j/rod/a/fc47DHWbDSGprdF6S3GCfyS/",
+            "https://orchidspecies.com/stelciliaris.htm"
         ],
-        "observacao": "Pontuações são estimativas ponderadas, não probabilidades estatísticas de floração.",
+        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: Ecuagenera — Stelis ciliaris. Receita de substrato é proposta horticultural (não consenso de 25 produtores).",
         "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
         "distribuicaoGeografica": "América tropical, do sul do México à América do Sul; confirmar limites por base taxonômica.",
         "habitatAltitudeClima": "Epífita de florestas úmidas; registros do gênero e da espécie incluem ambientes quentes e intermediários, exigindo avaliação da procedência. Quente a intermediário conforme procedência e altitude; umidade atmosférica elevada e circulação contínua."
@@ -179,7 +178,11 @@ export const stelisCiliaris = {
         "litoralQuente": "Compatibilidade estimada 68/100; verificar especialmente floração real sob noites quentes. O índice mede compatibilidade ecológica estimada, não chance percentual de florescer; avaliar sobretudo noites quentes, raízes e procedência.",
         "montanhaFrio": "Compatibilidade estimada 80/100; ajustar rega à temperatura e secagem. Evitar excesso de água em dias frios e garantir circulação de ar."
     },
-    "mesesFloracao": [],
+    "mesesFloracao": [
+        10,
+        11,
+        12
+    ],
     "selosCultivo": {
         "rega": {
             "nivel": "frequente",
@@ -198,7 +201,7 @@ export const stelisCiliaris = {
         "agua": 4,
         "raridade": 4
     },
-    "statusRevisao": "V4 — conteúdo editorial ampliado; fontes, morfometria e fotografias ainda em auditoria",
+    "statusRevisao": "V4 — correção dos assets de substrato, fenologia documentada, dicas individualizadas e 1 foto de referência externa",
     "sinonimo": "Apatostelis ciliaris (combinação histórica; verificar autoria)",
     "caracteristicas": [
         "Pleurothallidinae",
@@ -244,10 +247,10 @@ export const stelisCiliaris = {
     },
     "substratoVisual": {
         "titulo": "Substrato ideal",
-        "contexto": "Receita técnica para vaso ventilado — proposta, não ensaio experimental",
-        "resumo": "Mistura proposta conforme hábito ecológico, velocidade de secagem e necessidade de oxigênio das raízes.",
-        "justificativa": "A composição é uma inferência horticultural baseada no hábito da espécie, não uma fórmula publicada e validada por 25 produtores. A proporção de materiais deve ser revista conforme granulometria, clima e vaso. Convergências com produtores brasileiros incluem ênfase em drenagem, ventilação e rega ajustada; divergências sobre material orgânico e sombra devem ser tratadas como variação de manejo, não consenso.",
-        "receitaTexto": "40% casca de pinus + 25% casca de arroz carbonizada + 20% carvão vegetal + 15% esfagno solto",
+        "contexto": "Mistura para vaso — 100% em volume",
+        "resumo": "35% casca de pinus pequena + 30% esfagno solto + 20% casca de arroz carbonizada + 15% carvão vegetal pequeno — proporções em volume, para vaso ventilado.",
+        "justificativa": "A receita totaliza 100% em volume e é uma proposta horticultural para cultivo em vaso, distinta da montagem principal quando esta for em madeira. A prioridade é impedir que raízes finas desidratem por horas em dias quentes sem transformá-las em raízes encharcadas: use suporte pequeno, umidade ambiental estável, luz suave e movimento contínuo de ar. Verifique a umidade junto às raízes, não apenas a superfície. Ajuste o tamanho das partículas e a frequência de rega à velocidade de secagem, sem compactar.",
+        "receitaTexto": "35% casca de pinus pequena + 30% esfagno solto + 20% casca de arroz carbonizada + 15% carvão vegetal pequeno",
         "perfil": [
             "Alta aeração",
             "Drenagem funcional",
@@ -280,33 +283,38 @@ export const stelisCiliaris = {
         "itens": [
             {
                 "asset": "casca-pinus",
-                "nome": "Casca de pinus",
-                "proporcao": "40%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
-            },
-            {
-                "asset": "casca-arroz-carbonizada",
-                "nome": "Casca de arroz carbonizada",
-                "proporcao": "25%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
-            },
-            {
-                "asset": "carvao-vegetal",
-                "nome": "Carvão vegetal",
-                "proporcao": "20%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "nome": "Casca de pinus pequena",
+                "proporcao": "35%",
+                "nota": "estrutura porosa",
+                "finalidade": "Dá apoio a raízes finas e alguma retenção sem lama."
             },
             {
                 "asset": "esfagno",
                 "nome": "Esfagno solto",
+                "proporcao": "30%",
+                "nota": "umidade regular",
+                "finalidade": "Amortece a secagem rápida em clima quente; aplicar sem compactar."
+            },
+            {
+                "asset": "casca-arroz-carbonizada",
+                "nome": "Casca de arroz carbonizada",
+                "proporcao": "20%",
+                "nota": "aeração",
+                "finalidade": "Mantém canais de ar junto às raízes."
+            },
+            {
+                "asset": "carvao-vegetal",
+                "nome": "Carvão vegetal pequeno",
                 "proporcao": "15%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Reserva de água em pequena proporção; usar solto, nunca prensado."
+                "nota": "drenagem e estabilidade",
+                "finalidade": "Ajuda a conservar macroporos e evitar saturação prolongada."
             }
         ],
         "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
+    },
+    "fotoReferencia": {
+        "origem": "Ecuagenera — Stelis ciliaris",
+        "url": "https://ecuagenera.com/cdn/shop/files/Stelis._ciliaris.jpg?v=1754667689",
+        "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
     }
 };

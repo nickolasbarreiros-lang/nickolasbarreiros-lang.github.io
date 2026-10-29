@@ -1,24 +1,26 @@
-// Ficha V4 — auditoria editorial e estrutura de cultivo ampliadas; não inventar fotografias nem dados de fonte.
+// Ficha V4 — correção de composição total 100%, imagens externas de referência e fenologia documentada.
 export const dinemaPolybulbon = {
     "id": "dinema-polybulbon",
     "nome": "Dinema polybulbon",
     "genero": "Dinema",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
-    "fotos": [],
+    "fotos": [
+        "https://ecuagenera.com/cdn/shop/files/Dinema_polybulbon._1024x1024.jpg?v=1758991091"
+    ],
     "descricao": "Dinema polybulbon é uma miniatura epífita com pseudobulbos numerosos, capaz de formar conjuntos compactos quando recebe água, luminosidade filtrada e circulação de ar em equilíbrio. Produtores brasileiros frequentemente indicam placas ou troncos, embora as porcentagens de sombreamento recomendadas variem. Os relatos de perfume são contraditórios: alguns produtores descrevem ausência de fragrância, enquanto outros mencionam odor suave. Essa diferença não deve ser convertida em característica taxonômica fixa sem observação do clone. A confirmação de autoria, sinonímia e variações intraespecíficas permanece condicionada à conferência individual em POWO, WFO, IPNI e literatura original; não se deve transformar uma hipótese de cultivo em dado taxonômico.",
     "origem": "América Tropical",
     "regiao": "América tropical; verificar extensão e eventuais lacunas de distribuição no POWO/GBIF.",
     "habitat": "Epífita de pequeno porte, com pseudobulbos agrupados ou espaçados sobre suportes, beneficiada por boa aeração.",
     "clima": "Quente a intermediário, úmido e ventilado; ajustar exposição à procedência.",
-    "climaFloracao": "Há relatos comerciais divergentes sobre a época de floração. Registrar a resposta do exemplar em cultivo antes de selecionar meses; luminosidade insuficiente pode favorecer crescimento vegetativo sem flores.",
+    "climaFloracao": "Outono e inverno segundo produtores brasileiros; uma segunda floração na primavera é relatada por Juan Pablo Heller.",
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Permitido com restrição",
         "horario": "Somente início da manhã",
         "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
     },
-    "floracao": "Há relatos comerciais divergentes sobre a época de floração. Registrar a resposta do exemplar em cultivo antes de selecionar meses; luminosidade insuficiente pode favorecer crescimento vegetativo sem flores.",
+    "floracao": "Outono e inverno segundo produtores brasileiros; uma segunda floração na primavera é relatada por Juan Pablo Heller.",
     "adubacao": "🌿 Orgânica: em plantas pequenas, usar bokashi apenas em sachê afastado de raízes e brotos, quando aplicável.\n💧 Mineral/foliar: fertilizante equilibrado a cerca de 1/4 da dose do fabricante durante crescimento ativo, em intervalos ajustados à resposta da planta; evitar pulverizar flores.\n🧪 Liberação lenta: somente em vaso com boa drenagem, em dose muito pequena. Lavar periodicamente o substrato com água limpa para reduzir acúmulo de sais. Suspender aplicações fortes quando raízes estiverem inativas.",
     "rega": "Regar regularmente durante a formação de novos pseudobulbos. Em montagem, a secagem pode ser rápida e exigir hidratação diária no calor; em vaso, esperar perda parcial da umidade superficial. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
     "suporte": [
@@ -27,7 +29,7 @@ export const dinemaPolybulbon = {
         "🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.",
         "🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem."
     ],
-    "substrato": "🥇 45% casca de pinus + 25% carvão vegetal + 20% perlita grossa + 10% casca de arroz carbonizada\n🥈 Ajustar granulometria e retenção à velocidade real de secagem.\n🥉 Em montagem, utilizar apenas reserva hídrica mínima quando necessária.\n⭐ Evitar compactação e pedra-pomes.",
+    "substrato": "🥇 35% casca de pinus pequena + 25% carvão vegetal pequeno + 25% esfagno solto + 15% casca de arroz carbonizada\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
     "errosComuns": [
         "Confundir tolerância vegetativa com floração garantida em clima quente.",
         "Usar sombra profunda ou sol direto forte sem aclimatação.",
@@ -37,20 +39,18 @@ export const dinemaPolybulbon = {
         "Ignorar diferenças entre plantas de procedências distintas.",
         "Fixar meses de floração com base em um único anúncio comercial."
     ],
-    "dica": "Boa ventilação com umidade constante; montagem em madeira pode exigir irrigação diária em dias quentes.",
+    "dica": "Deixe a touceira expandir horizontalmente sobre madeira ou casca, sem enterrar os rizomas. A floração tende a melhorar quando há muitos pseudobulbos maduros; preserve a umidade nas raízes expostas com regas rápidas e boa ventilação, evitando mudanças frequentes de suporte.",
     "revisaoCientificaIAR": {
         "nome": "Dinema polybulbon",
         "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
         "cultivoPremiacao": "Proposta de manejo derivada de ecologia e recomendações horticulturais brasileiras já levantadas. Nenhuma premiação AOS/OrchidPro foi confirmada; não presumir ausência de premiações.",
-        "confianca": "parcial — faltam validações bibliográficas individuais",
+        "confianca": "parcial — foto externa sujeita a disponibilidade; cultivo ainda não validado por 25 produtores",
         "fontes": [
-            "POWO / WFO / IPNI — auditoria taxonômica individual pendente",
-            "GBIF / Tropicos / Swiss Orchid Foundation — distribuição e sinonímia a cruzar",
-            "IOSPE / Flora e Funga do Brasil — ecologia e endemismo a conferir",
-            "BHL — protólogo e dimensões florais pendentes",
-            "Orquidário Aparecida, Mogi Mirim, 4 Estações, Hang e outros produtores brasileiros — consultas horticulturais parciais, sem atingir 25 produtores por espécie"
+            "https://orquidarioaparecida.com.br/produtos/dinema-polybulbon/",
+            "https://orquideasjph.wordpress.com/2017/07/30/dinema-polybulbon/",
+            "https://www.mertenorquideas.com.br/orquideas/outras-variedades/dinema-polybulbon-com-haste-floral"
         ],
-        "observacao": "Pontuações são estimativas ponderadas, não probabilidades estatísticas de floração.",
+        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: Ecuagenera — Dinema polybulbon. Receita de substrato é proposta horticultural (não consenso de 25 produtores).",
         "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
         "distribuicaoGeografica": "América tropical; verificar extensão e eventuais lacunas de distribuição no POWO/GBIF.",
         "habitatAltitudeClima": "Epífita de pequeno porte, com pseudobulbos agrupados ou espaçados sobre suportes, beneficiada por boa aeração. Quente a intermediário, úmido e ventilado; ajustar exposição à procedência."
@@ -179,7 +179,13 @@ export const dinemaPolybulbon = {
         "litoralQuente": "Compatibilidade estimada 86/100; verificar especialmente floração real sob noites quentes. O índice mede compatibilidade ecológica estimada, não chance percentual de florescer; avaliar sobretudo noites quentes, raízes e procedência.",
         "montanhaFrio": "Compatibilidade estimada 80/100; ajustar rega à temperatura e secagem. Evitar excesso de água em dias frios e garantir circulação de ar."
     },
-    "mesesFloracao": [],
+    "mesesFloracao": [
+        4,
+        5,
+        6,
+        7,
+        8
+    ],
     "selosCultivo": {
         "rega": {
             "nivel": "frequente",
@@ -198,7 +204,7 @@ export const dinemaPolybulbon = {
         "agua": 4,
         "raridade": 4
     },
-    "statusRevisao": "V4 — conteúdo editorial ampliado; fontes, morfometria e fotografias ainda em auditoria",
+    "statusRevisao": "V4 — correção dos assets de substrato, fenologia documentada, dicas individualizadas e 1 foto de referência externa",
     "sinonimo": "Epidendrum polybulbon (basiônimo histórico; verificar autoria)",
     "caracteristicas": [
         "Miniatura epífita",
@@ -244,10 +250,10 @@ export const dinemaPolybulbon = {
     },
     "substratoVisual": {
         "titulo": "Substrato ideal",
-        "contexto": "Receita técnica para vaso ventilado — proposta, não ensaio experimental",
-        "resumo": "Mistura proposta conforme hábito ecológico, velocidade de secagem e necessidade de oxigênio das raízes.",
-        "justificativa": "A composição é uma inferência horticultural baseada no hábito da espécie, não uma fórmula publicada e validada por 25 produtores. A proporção de materiais deve ser revista conforme granulometria, clima e vaso. Convergências com produtores brasileiros incluem ênfase em drenagem, ventilação e rega ajustada; divergências sobre material orgânico e sombra devem ser tratadas como variação de manejo, não consenso.",
-        "receitaTexto": "45% casca de pinus + 25% carvão vegetal + 20% perlita grossa + 10% casca de arroz carbonizada",
+        "contexto": "Mistura para vaso — 100% em volume",
+        "resumo": "35% casca de pinus pequena + 25% carvão vegetal pequeno + 25% esfagno solto + 15% casca de arroz carbonizada — proporções em volume, para vaso ventilado.",
+        "justificativa": "A receita totaliza 100% em volume e é uma proposta horticultural para cultivo em vaso, distinta da montagem principal quando esta for em madeira. Deixe a touceira expandir horizontalmente sobre madeira ou casca, sem enterrar os rizomas. A floração tende a melhorar quando há muitos pseudobulbos maduros; preserve a umidade nas raízes expostas com regas rápidas e boa ventilação, evitando mudanças frequentes de suporte. Ajuste o tamanho das partículas e a frequência de rega à velocidade de secagem, sem compactar.",
+        "receitaTexto": "35% casca de pinus pequena + 25% carvão vegetal pequeno + 25% esfagno solto + 15% casca de arroz carbonizada",
         "perfil": [
             "Alta aeração",
             "Drenagem funcional",
@@ -280,33 +286,38 @@ export const dinemaPolybulbon = {
         "itens": [
             {
                 "asset": "casca-pinus",
-                "nome": "Casca de pinus",
-                "proporcao": "45%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "nome": "Casca de pinus pequena",
+                "proporcao": "35%",
+                "nota": "estrutura",
+                "finalidade": "Favorece fixação dos pseudobulbos rastejantes sem enterrar rizoma."
             },
             {
                 "asset": "carvao-vegetal",
-                "nome": "Carvão vegetal",
+                "nome": "Carvão vegetal pequeno",
                 "proporcao": "25%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "nota": "ventilação",
+                "finalidade": "Mantém poros e evita umidade parada."
             },
             {
-                "asset": "perlita-grossa",
-                "nome": "Perlita grossa",
-                "proporcao": "20%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "asset": "esfagno",
+                "nome": "Esfagno solto",
+                "proporcao": "25%",
+                "nota": "reserva hídrica",
+                "finalidade": "Protege raízes superficiais contra secagem excessiva em suporte pequeno."
             },
             {
                 "asset": "casca-arroz-carbonizada",
                 "nome": "Casca de arroz carbonizada",
-                "proporcao": "10%",
-                "nota": "função estrutural e hídrica",
-                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+                "proporcao": "15%",
+                "nota": "porosidade",
+                "finalidade": "Mantém leveza e oxigênio entre partículas."
             }
         ],
         "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
+    },
+    "fotoReferencia": {
+        "origem": "Ecuagenera — Dinema polybulbon",
+        "url": "https://ecuagenera.com/cdn/shop/files/Dinema_polybulbon._1024x1024.jpg?v=1758991091",
+        "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
     }
 };
