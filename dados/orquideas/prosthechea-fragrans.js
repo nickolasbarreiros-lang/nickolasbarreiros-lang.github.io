@@ -8,10 +8,10 @@ export const prosthecheaFragrans = {
   "fotos": [
     "https://bs.plantnet.org/image/o/1640afbb70e63d75ead8e88c817540e7eee60c36",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Prosthechea%20fragrans.jpg",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Prosthechea%20fragrans%20Costa%20Rica.jpg",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Encyclia%20fragrans%20-%20flower.jpg"
-  ],
-  "descricao": "A Prosthechea fragrans combina flores elegantes com uma característica especial: a fragrância que lhe deu o nome. Suas flores claras, muitas vezes marcadas por tons contrastantes no centro, têm um desenho delicado e diferente. É uma orquídea que pode conquistar tanto pelo visual quanto pelo perfume.",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Encyclia%20fragrans%20-%20flower.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Encyclia%20fragrans-Prosthechea%20fragrans%20inflorescence%20%2836005226200%29.jpg"
+],
+  "descricao": "Delicada e perfumada, a Prosthechea fragrans conquista pelo conjunto das flores, não pelo tamanho exagerado. A planta desenvolve pseudobulbos com folhas firmes e produz flores claras, geralmente com detalhes no labelo, que podem liberar um aroma agradável. Seu nome faz referência justamente à fragrância, uma das características mais apreciadas por colecionadores. Na natureza, cresce em ambientes florestais, frequentemente apoiada sobre árvores. Como existem orquídeas semelhantes comercializadas sob nomes próximos, observar o formato das flores é especialmente importante para reconhecer a planta. É uma bela escolha para quem gosta de flores elegantes e pequenos detalhes.",
   "origem": "América Tropical",
   "regiao": "América tropical; identificação de exemplares brasileiros requer comparação com Prosthechea aemula.",
   "habitat": "Epífita de florestas tropicais; raízes em superfícies drenantes, com umidade ambiental e boa renovação de ar.",

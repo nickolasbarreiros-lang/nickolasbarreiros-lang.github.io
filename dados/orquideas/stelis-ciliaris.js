@@ -10,8 +10,8 @@ export const stelisCiliaris = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Stelis%20ciliaris.jpg",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Stelis%20ciliaris%20%28cropped%29%201.jpg",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Stelis%20ciliaris%20%28cropped%29%202.jpg"
-  ],
-  "descricao": "A Stelis ciliaris é uma miniatura de aparência discreta, mas cheia de detalhes. Suas pequenas flores se destacam pelas bordas delicadamente franjadas, um encanto que aparece melhor em fotografias aproximadas. É uma ótima representante das orquídeas cuja beleza se revela nos detalhes.",
+],
+  "descricao": "Uma miniatura para observar de perto! A Stelis ciliaris forma pequenas touceiras de folhas firmes e produz flores diminutas que revelam seus detalhes quando vistas de perto. O nome ciliaris faz referência à aparência delicadamente ciliada de estruturas florais, uma característica que merece atenção nas fotografias ampliadas. É uma orquídea de ambientes florestais úmidos, encontrada em diferentes regiões da América tropical. Em vez de apostar em flores grandes e chamativas, conquista pela delicadeza e pelo conjunto de suas pequenas inflorescências. É daquelas espécies que mostram como o universo das micro-orquídeas pode ser surpreendente.",
   "origem": "América Tropical",
   "regiao": "América tropical, do sul do México à América do Sul; confirmar limites por base taxonômica.",
   "habitat": "Epífita de florestas úmidas; registros do gênero e da espécie incluem ambientes quentes e intermediários, exigindo avaliação da procedência.",

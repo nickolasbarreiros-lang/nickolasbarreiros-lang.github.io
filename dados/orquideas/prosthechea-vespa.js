@@ -7,11 +7,11 @@ export const prosthecheaVespa = {
   "dificuldade": "Moderada",
   "fotos": [
     "https://garden.org/pics/2016-12-21/robertduval14/3a78c7.jpg",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Prosthechea%20vespa.jpg",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Prosthechea%20vespa%201.jpg",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Prosthechea%20vespa%202.jpg"
-  ],
-  "descricao": "A Prosthechea vespa chama a atenção pelas flores de formato curioso, marcadas por desenhos e contrastes que lembram pequenos insetos. Suas hastes surgem entre folhas e pseudobulbos alongados, dando um toque exótico à planta. O próprio nome “vespa” faz referência a essa aparência singular.",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Prosthechea%20vespa%208.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Orchidaceae%20Prosthechea%20vespa%201.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Prosthechea%20vespa%20%28Orchidaceae%29%20%2829064666517%29.jpg"
+],
+  "descricao": "Flores de desenho incomum são a marca da Prosthechea vespa! Essa orquídea forma pseudobulbos alongados, com folhas no alto, e pode produzir hastes com várias flores de aparência estrelada e cores contrastantes. O conjunto de manchas e formas lembra pequenos insetos, o que ajuda a explicar seu nome curioso. Na natureza, pode crescer sobre árvores ou rochas, em ambientes com boa circulação de ar. Quando a touceira está bem desenvolvida, a floração se destaca acima da folhagem e transforma uma planta de aspecto discreto em uma verdadeira atração. É uma espécie interessante tanto pela arquitetura vegetal quanto pela beleza dos detalhes florais.",
   "origem": "Brasil (sudeste; distribuição nativa segundo Kew)",
   "regiao": "Distribuição nativa aceita por Plants of the World Online (Kew): sudeste do Brasil, do sul do Rio de Janeiro ao norte de São Paulo. Registros atribuídos ao nome em outras regiões exigem revisão de identificação e conceito taxonômico.",
   "habitat": "Epífita ou litófita de ambiente tropical úmido, conforme o tratamento taxonômico do Plants of the World Online (Kew). As raízes requerem aeração e drenagem; altitude e exigências térmicas específicas precisam de fontes de ocorrência verificadas.",

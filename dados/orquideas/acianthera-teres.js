@@ -7,8 +7,8 @@ export const aciantheraTeres = {
   "dificuldade": "Moderada",
   "fotos": [
     "https://www.orchidspecies.com/orphotdir/pleurotteres.jpg"
-  ],
-  "descricao": "A Acianthera teres é uma pequena orquídea brasileira de aparência inconfundível: suas folhas compridas e cilíndricas lembram finos dedos verdes. Costuma crescer sobre rochas e surpreende com flores discretas, que revelam seus detalhes quando observadas de perto. Uma miniatura diferente de tudo o que se espera de uma orquídea.",
+],
+  "descricao": "Uma orquídea de personalidade singular! A Acianthera teres chama a atenção pelas folhas estreitas e quase cilíndricas, bem diferentes das folhas achatadas de muitas orquídeas. É uma espécie brasileira associada a ambientes rochosos e bastante iluminados, onde cresce em pequenas touceiras. Suas flores discretas surgem próximas à folhagem e recompensam quem gosta de observar os detalhes. O formato das folhas ajuda a entender sua resistência à exposição e à secagem rápida, mas isso não significa que aprecie raízes superaquecidas ou longos períodos de abandono. Uma miniatura de aparência simples, mas com um jeito de crescer muito particular.",
   "origem": "América Tropical",
   "regiao": "Brasil; ambientes de afloramentos rochosos, com registros em formações abertas e rupestres.",
   "habitat": "Predominantemente rupícola em afloramentos rochosos com raízes aderidas a fendas e superfícies muito drenantes; vegetação xeromórfica não equivale a tolerância ilimitada ao sol quente.",

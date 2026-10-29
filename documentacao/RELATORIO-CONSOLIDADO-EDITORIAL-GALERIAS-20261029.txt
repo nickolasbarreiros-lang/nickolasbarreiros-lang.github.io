@@ -1,0 +1,54 @@
+PACOTE CONSOLIDADO — REVISÃO EDITORIAL E GALERIAS
+Data: 29/10/2026
+Base: ZIP de revisão editorial e galerias parciais
+
+O campo Sobre a espécie foi reescrito em todas as seis fichas, usando a Huntleya meleagris e a Acianthera auriculata como referência de estilo.
+Fotografias: as URLs adicionais foram montadas com títulos de arquivos EXISTENTES em categorias Wikimedia Commons. Não houve download nem teste HTTP direto dos binários; não afirmar que carregamento está confirmado.
+Créditos: antes de publicar, verificar a licença e a atribuição individual de cada arquivo nas páginas correspondentes. O simples link de imagem não substitui atribuição CC.
+Stelis ciliaris: duas fotos são recortes do mesmo original, portanto não representam quatro fotografias independentes.
+Acianthera teres: três imagens permanecem pendentes; não inventar URLs.
+Fotos originais externas preservadas, mas disponibilidade e licença não verificadas.
+
+FONTES DE CATEGORIAS:
+isabelia-pulchella: https://commons.wikimedia.org/wiki/Category:Isabelia_pulchella
+dinema-polybulbon: https://commons.wikimedia.org/wiki/Category:Dinema_polybulbon
+prosthechea-vespa: https://commons.wikimedia.org/wiki/Category:Prosthechea_vespa
+prosthechea-fragrans: https://commons.wikimedia.org/wiki/Category:Prosthechea_fragrans
+stelis-ciliaris: https://commons.wikimedia.org/wiki/Category:Stelis_ciliaris
+
+CONTAGEM POR FICHA:
+acianthera-teres: 1/4 links; descrição 97 palavras
+isabelia-pulchella: 4/4 links; descrição 100 palavras
+stelis-ciliaris: 4/4 links; descrição 93 palavras
+prosthechea-vespa: 4/4 links; descrição 102 palavras
+prosthechea-fragrans: 4/4 links; descrição 94 palavras
+dinema-polybulbon: 4/4 links; descrição 95 palavras
+
+URLS:
+acianthera-teres:
+https://www.orchidspecies.com/orphotdir/pleurotteres.jpg
+isabelia-pulchella:
+https://www.lacanopee.com/781-large_default/isabelia-pulchella-sur-plaque.jpg
+https://commons.wikimedia.org/wiki/Special:FilePath/Isabelia%20pulchella%20%286408060743%29.jpg
+https://commons.wikimedia.org/wiki/Special:FilePath/Isabelia%20pulchella.jpg
+https://commons.wikimedia.org/wiki/Special:FilePath/Neolauchea%20pulchella%20%28Isabelia%20pulchella%29%20-%20Orchid%20Nursery%20Margaret%20Mee%20-%20DSC09755.JPG
+stelis-ciliaris:
+https://ecuagenera.com/cdn/shop/files/Stelis._ciliaris.jpg?v=1754667689
+https://commons.wikimedia.org/wiki/Special:FilePath/Stelis%20ciliaris.jpg
+https://commons.wikimedia.org/wiki/Special:FilePath/Stelis%20ciliaris%20%28cropped%29%201.jpg
+https://commons.wikimedia.org/wiki/Special:FilePath/Stelis%20ciliaris%20%28cropped%29%202.jpg
+prosthechea-vespa:
+https://garden.org/pics/2016-12-21/robertduval14/3a78c7.jpg
+https://commons.wikimedia.org/wiki/Special:FilePath/Prosthechea%20vespa%208.jpg
+https://commons.wikimedia.org/wiki/Special:FilePath/Orchidaceae%20Prosthechea%20vespa%201.jpg
+https://commons.wikimedia.org/wiki/Special:FilePath/Prosthechea%20vespa%20%28Orchidaceae%29%20%2829064666517%29.jpg
+prosthechea-fragrans:
+https://bs.plantnet.org/image/o/1640afbb70e63d75ead8e88c817540e7eee60c36
+https://commons.wikimedia.org/wiki/Special:FilePath/Prosthechea%20fragrans.jpg
+https://commons.wikimedia.org/wiki/Special:FilePath/Encyclia%20fragrans%20-%20flower.jpg
+https://commons.wikimedia.org/wiki/Special:FilePath/Encyclia%20fragrans-Prosthechea%20fragrans%20inflorescence%20%2836005226200%29.jpg
+dinema-polybulbon:
+https://ecuagenera.com/cdn/shop/files/Dinema_polybulbon._1024x1024.jpg?v=1758991091
+https://commons.wikimedia.org/wiki/Special:FilePath/Dinema%20polybulbon%20BotGardBln27120A.jpg
+https://commons.wikimedia.org/wiki/Special:FilePath/Dinema%20polybulbon%20-%20Flickr%20003.jpg
+https://commons.wikimedia.org/wiki/Special:FilePath/Encyclia%20polybulbon%20GotBot%202015%20001.JPG

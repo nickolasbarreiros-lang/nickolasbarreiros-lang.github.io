@@ -6,9 +6,12 @@ export const dinemaPolybulbon = {
   "tipo": "Espécie botânica",
   "dificuldade": "Moderada",
   "fotos": [
-    "https://ecuagenera.com/cdn/shop/files/Dinema_polybulbon._1024x1024.jpg?v=1758991091"
-  ],
-  "descricao": "A Dinema polybulbon é uma miniatura de crescimento rastejante que forma pequenas touceiras sobre troncos e placas. Suas flores amarelo-esverdeadas, com detalhes contrastantes no centro, parecem grandes perto dos pseudobulbos diminutos. É uma espécie charmosa para quem gosta de observar os detalhes das miniaturas.",
+    "https://ecuagenera.com/cdn/shop/files/Dinema_polybulbon._1024x1024.jpg?v=1758991091",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Dinema%20polybulbon%20BotGardBln27120A.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Dinema%20polybulbon%20-%20Flickr%20003.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Encyclia%20polybulbon%20GotBot%202015%20001.JPG"
+],
+  "descricao": "Uma pequena orquídea que gosta de ocupar espaço! A Dinema polybulbon cresce de maneira rastejante, espalhando seus numerosos pseudobulbos pelo tronco ou pela placa até formar um tapete verde. Suas flores são relativamente grandes para o tamanho da planta, com tons claros e detalhes amarelados ou castanhos que dão um contraste delicado. É nativa de regiões do México, da América Central e do Caribe, onde vive associada a ambientes florestais. O nome polybulbon combina muito bem com seu visual: uma sucessão de pequenos pseudobulbos que, com o tempo, pode criar uma touceira cheia de personalidade.",
   "origem": "México, América Central e Caribe",
   "regiao": "Distribuição natural registrada no México, em países da América Central e em ilhas do Caribe. Não presumir ocorrência nativa no Brasil a partir do uso comercial do nome.",
   "habitat": "Epífita de pequeno porte, com pseudobulbos agrupados ou espaçados sobre suportes, beneficiada por boa aeração.",

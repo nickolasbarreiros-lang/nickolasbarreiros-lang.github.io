@@ -6,9 +6,12 @@ export const isabeliaPulchella = {
   "tipo": "Espécie botânica",
   "dificuldade": "Moderada",
   "fotos": [
-    "https://www.lacanopee.com/781-large_default/isabelia-pulchella-sur-plaque.jpg"
-  ],
-  "descricao": "A Isabelia pulchella é uma delicada miniatura brasileira. Seus pseudobulbos pequeninos se espalham pelo suporte e, na época da floração, surgem flores rosadas de pétalas finas, surpreendentes para uma planta tão pequena. É daquelas orquídeas que convidam a olhar de pertinho.",
+    "https://www.lacanopee.com/781-large_default/isabelia-pulchella-sur-plaque.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Isabelia%20pulchella%20%286408060743%29.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Isabelia%20pulchella.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Neolauchea%20pulchella%20%28Isabelia%20pulchella%29%20-%20Orchid%20Nursery%20Margaret%20Mee%20-%20DSC09755.JPG"
+],
+  "descricao": "Pequena no tamanho, encantadora na floração! A Isabelia pulchella é uma miniatura brasileira que se espalha delicadamente pelo suporte, formando uma sequência de pseudobulbos miúdos e folhas finas. Quando floresce, exibe flores rosadas de pétalas estreitas, muito vistosas em comparação com o tamanho da planta. Também aparece em publicações antigas como Neolauchea pulchella, nome pelo qual ainda pode ser encontrada entre colecionadores. Na natureza, vive sobre árvores em ambientes úmidos do Sul e Sudeste do Brasil. Seu crescimento rastejante é parte do charme: com o tempo, a planta pode formar uma pequena colônia que fica especialmente bonita sobre uma placa.",
   "origem": "Brasil",
   "regiao": "Brasil, com registros de distribuição natural nas regiões Sul e Sudeste. A amplitude altitudinal e os micro-habitats específicos precisam ser confirmados em registros de coleta.",
   "habitat": "Epífita miniaturizada, com raízes delicadas que se beneficiam de suportes ventilados e umidade regular.",
