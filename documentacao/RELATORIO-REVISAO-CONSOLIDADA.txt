@@ -1,0 +1,19 @@
+REVISÃO CONSOLIDADA DAS SEIS FICHAS — SEM IMAGENS DE CULTIVO IDEAL
+Base: pacote mais recente com links de fotos fornecidos pelo usuário.
+Escopo: revisão editorial de habitat, região e erros comuns, preservando galeria, índices, substratos e métodos.
+As seis imagens de Cultivo Ideal foram deixadas para uma etapa posterior, conforme solicitado.
+
+Acianthera teres: habitat, errosComuns; 4 URLs preservadas; 7 erros comuns individualizados.
+Isabelia pulchella: regiao, habitat, errosComuns; 4 URLs preservadas; 7 erros comuns individualizados.
+Stelis ciliaris: regiao, habitat, errosComuns; 4 URLs preservadas; 7 erros comuns individualizados.
+Prosthechea vespa: regiao, habitat, errosComuns; 4 URLs preservadas; 7 erros comuns individualizados.
+Prosthechea fragrans: habitat, errosComuns; 4 URLs preservadas; 7 erros comuns individualizados.
+Dinema polybulbon: regiao, habitat, errosComuns; 4 URLs preservadas; 7 erros comuns individualizados.
+
+IMPORTANTE:
+- Verificação automática de sintaxe e estrutura concluída.
+- URLs das 24 fotos preservadas, mas carregamento e licenças não foram revalidados.
+- Não foi realizada pesquisa de 25 produtores por espécie nesta etapa.
+- Sem modificações em índice, manifesto, imagens ou scripts globais.
+- As imagens de Cultivo Ideal continuam pendentes.
+- Não houve publicação no GitHub.
