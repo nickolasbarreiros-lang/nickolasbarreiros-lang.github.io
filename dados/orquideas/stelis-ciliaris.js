@@ -6,9 +6,12 @@ export const stelisCiliaris = {
   "tipo": "Espécie botânica",
   "dificuldade": "Difícil",
   "fotos": [
-    "https://ecuagenera.com/cdn/shop/files/Stelis._ciliaris.jpg?v=1754667689"
+    "https://ecuagenera.com/cdn/shop/files/Stelis._ciliaris.jpg?v=1754667689",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Stelis%20ciliaris.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Stelis%20ciliaris%20%28cropped%29%201.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Stelis%20ciliaris%20%28cropped%29%202.jpg"
   ],
-  "descricao": "Stelis ciliaris pertence à subtribo Pleurothallidinae e produz inflorescências alongadas com pequenas flores cuja margem ciliada é uma característica diagnóstica importante. A identificação definitiva depende da observação das peças florais, sobretudo sépalas, pétalas e labelo, porque várias espécies do grupo compartilham vegetação semelhante. É uma epífita associada a florestas úmidas; registros em ambientes tropicais de menor altitude desaconselham classificá-la automaticamente como espécie obrigatoriamente fria. O desafio no cultivo quente é manter raízes finas ativas sem deixar o suporte permanentemente saturado. A floração pode ser prejudicada tanto por secagem intensa como por falta de luz filtrada.\n\nAs inflorescências alongadas e as flores pequenas com margens ciliadas são úteis na observação, mas a identificação específica deve ser confirmada pela estrutura floral. A planta exige observação atenta das raízes finas: um suporte que seca rapidamente pode produzir estresse mesmo quando a umidade relativa do ambiente parece alta. As flores pequenas e as estruturas ciliadas merecem observação com lente, porque a identificação de Stelis não deve depender apenas da cor de uma fotografia. Raízes finas requerem umidade regular e troca gasosa contínua. O registro de populações em ambientes tropicais baixos impede classificar toda a espécie como exclusivamente de frio; ainda assim, noites quentes e ar parado podem reduzir vigor e floração em cultivo.",
+  "descricao": "A Stelis ciliaris é uma miniatura de aparência discreta, mas cheia de detalhes. Suas pequenas flores se destacam pelas bordas delicadamente franjadas, um encanto que aparece melhor em fotografias aproximadas. É uma ótima representante das orquídeas cuja beleza se revela nos detalhes.",
   "origem": "América Tropical",
   "regiao": "América tropical, do sul do México à América do Sul; confirmar limites por base taxonômica.",
   "habitat": "Epífita de florestas úmidas; registros do gênero e da espécie incluem ambientes quentes e intermediários, exigindo avaliação da procedência.",
@@ -34,7 +37,7 @@ export const stelisCiliaris = {
     "Ignorar diferenças entre plantas de procedências distintas.",
     "Fixar meses de floração com base em um único anúncio comercial."
   ],
-  "dica": "A prioridade é impedir que raízes finas desidratem por horas em dias quentes sem transformá-las em raízes encharcadas: use suporte pequeno, umidade ambiental estável, luz suave e movimento contínuo de ar. Verifique a umidade junto às raízes, não apenas a superfície. Há registros da espécie em ambientes quentes e úmidos, portanto não é correto prescrever resfriamento artificial como requisito universal. No litoral, priorize sombra filtrada, estabilidade hídrica e ventilação; monitore temperaturas noturnas reais antes de atribuir ausência de floração exclusivamente ao calor. Faça a checagem de umidade no ponto de fixação das raízes, não na superfície externa do esfagno. Quando o miolo permanece saturado, troque o suporte ou diminua a camada de retenção em vez de simplesmente reduzir a ventilação.",
+  "dica": "Mantenha umidade constante ao redor das raízes finas, sempre com boa circulação de ar.",
   "revisaoCientificaIAR": {
     "nome": "Stelis ciliaris",
     "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",

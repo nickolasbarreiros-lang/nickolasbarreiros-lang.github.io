@@ -6,9 +6,12 @@ export const prosthecheaFragrans = {
   "tipo": "Espécie botânica",
   "dificuldade": "Moderada",
   "fotos": [
-    "https://bs.plantnet.org/image/o/1640afbb70e63d75ead8e88c817540e7eee60c36"
+    "https://bs.plantnet.org/image/o/1640afbb70e63d75ead8e88c817540e7eee60c36",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Prosthechea%20fragrans.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Prosthechea%20fragrans%20Costa%20Rica.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Encyclia%20fragrans%20-%20flower.jpg"
   ],
-  "descricao": "Prosthechea fragrans é uma epífita simpodial conhecida pela possibilidade de flores perfumadas. A identificação merece atenção porque exemplares brasileiros comercializados sob esse nome podem corresponder a espécies próximas, incluindo Prosthechea aemula; a confirmação requer examinar a flor aberta, não apenas pseudobulbos ou etiqueta comercial. O perfume varia com a idade da flor, temperatura e horário. O ciclo de crescimento alterna emissão de brotos, enraizamento e maturação dos pseudobulbos. Para favorecer a floração, a planta deve completar esse ciclo com iluminação filtrada suficiente, sem excesso de água parada junto às raízes e sem imposição automática de um repouso seco rigoroso.\n\nO nome comercial requer conferência das flores, pois há confusão documentada entre materiais identificados como P. fragrans e P. aemula. Características vegetativas e perfume isoladamente não bastam para identificação conclusiva. Registre fotografias frontais e laterais das flores, coluna e labelo, além da origem da muda. A identidade da planta deve ser conferida com flores abertas, especialmente pela possibilidade de confusão horticultural com Prosthechea aemula. O perfume é uma característica útil para observação, mas isoladamente não confirma a identificação. A floração deve ser relacionada à maturação dos pseudobulbos, à iluminação filtrada e ao estado das raízes, sem pressupor que um repouso seco rigoroso seja necessário.",
+  "descricao": "A Prosthechea fragrans combina flores elegantes com uma característica especial: a fragrância que lhe deu o nome. Suas flores claras, muitas vezes marcadas por tons contrastantes no centro, têm um desenho delicado e diferente. É uma orquídea que pode conquistar tanto pelo visual quanto pelo perfume.",
   "origem": "América Tropical",
   "regiao": "América tropical; identificação de exemplares brasileiros requer comparação com Prosthechea aemula.",
   "habitat": "Epífita de florestas tropicais; raízes em superfícies drenantes, com umidade ambiental e boa renovação de ar.",
@@ -34,7 +37,7 @@ export const prosthecheaFragrans = {
     "Ignorar diferenças entre plantas de procedências distintas.",
     "Fixar meses de floração com base em um único anúncio comercial."
   ],
-  "dica": "Para preservar raízes e favorecer a floração perfumada, mantenha umidade e nutrição regulares enquanto os pseudobulbos crescem, mas evite água parada quando amadurecem. Não imponha repouso seco rigoroso: ajuste a rega pela atividade radicular e pela secagem real do vaso. A redução de água após a maturação não equivale a repouso seco obrigatório. Observe a atividade radicular, o peso do vaso e a velocidade de secagem; a planta não deve ser submetida a desidratação prolongada apenas para tentar induzir floração. Antes de atribuir ausência de flores a clima inadequado, confira a identidade da planta em floração e o estágio de maturação dos pseudobulbos. A distinção taxonômica afeta a interpretação de exigências e de época floral.",
+  "dica": "Deixe o substrato secar parcialmente entre as regas, sem manter as raízes encharcadas.",
   "revisaoCientificaIAR": {
     "nome": "Prosthechea fragrans",
     "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",

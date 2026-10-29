@@ -1,0 +1,1 @@
+Revisão editorial consolidada: campos descricao (Sobre a espécie) e dica (Dica de Ouro) reescritos nas seis fichas, com linguagem acessível e textos curtos. Demais campos e fotos preservados. Seis verificações node --check aprovadas. As 18 fotos adicionais continuam pendentes.

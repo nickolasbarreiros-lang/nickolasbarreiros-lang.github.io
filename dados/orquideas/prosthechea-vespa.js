@@ -6,9 +6,12 @@ export const prosthecheaVespa = {
   "tipo": "Espécie botânica",
   "dificuldade": "Moderada",
   "fotos": [
-    "https://garden.org/pics/2016-12-21/robertduval14/3a78c7.jpg"
+    "https://garden.org/pics/2016-12-21/robertduval14/3a78c7.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Prosthechea%20vespa.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Prosthechea%20vespa%201.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Prosthechea%20vespa%202.jpg"
   ],
-  "descricao": "Prosthechea vespa é uma orquídea epífita de crescimento simpodial, com pseudobulbos que armazenam água e sustentam folhas coriáceas. A inflorescência pode portar diversas flores de padrão contrastante; forma, manchas e posição do labelo são úteis para confirmar a identificação em floração. O crescimento sazonal é marcado pela emissão de novos brotos e, posteriormente, pela maturação dos pseudobulbos. Essa sequência deve orientar rega e adubação: raízes novas absorvem melhor nutrientes e uma planta com pseudobulbos ainda imaturos não deve ser submetida a seca severa. O manejo ideal privilegia luz filtrada relativamente clara, raízes oxigenadas e recipiente estável.\n\nO crescimento simpodial permite interpretar o ciclo pela emissão de brotos, raízes e amadurecimento dos pseudobulbos. A reserva de água dos pseudobulbos não elimina a necessidade de umidade durante a formação de novas raízes. Em cultivo, a posição do rizoma e a estabilidade do vaso são determinantes para que os brotos não apodreçam. A planta cresce de forma simpodial e armazena recursos em pseudobulbos; acompanhe a emissão de raízes novas para decidir a época de replante. Uma haste floral bem formada depende de brotos que completem o desenvolvimento sob luminosidade filtrada suficiente, e não de adubação concentrada perto da floração. A distribuição altitudinal ampla relatada para a espécie exige cautela ao generalizar uma única temperatura ideal.",
+  "descricao": "A Prosthechea vespa chama a atenção pelas flores de formato curioso, marcadas por desenhos e contrastes que lembram pequenos insetos. Suas hastes surgem entre folhas e pseudobulbos alongados, dando um toque exótico à planta. O próprio nome “vespa” faz referência a essa aparência singular.",
   "origem": "Brasil (sudeste; distribuição nativa segundo Kew)",
   "regiao": "Distribuição nativa aceita por Plants of the World Online (Kew): sudeste do Brasil, do sul do Rio de Janeiro ao norte de São Paulo. Registros atribuídos ao nome em outras regiões exigem revisão de identificação e conceito taxonômico.",
   "habitat": "Epífita ou litófita de ambiente tropical úmido, conforme o tratamento taxonômico do Plants of the World Online (Kew). As raízes requerem aeração e drenagem; altitude e exigências térmicas específicas precisam de fontes de ocorrência verificadas.",
@@ -34,7 +37,7 @@ export const prosthecheaVespa = {
     "Ignorar diferenças entre plantas de procedências distintas.",
     "Fixar meses de floração com base em um único anúncio comercial."
   ],
-  "dica": "Acompanhe o surgimento das pontas radiculares: esse é o momento mais seguro para reenvasar e intensificar gradualmente rega e nutrição. Mantenha os pseudobulbos acima do substrato e ofereça claridade filtrada suficiente para amadurecer os novos crescimentos e favorecer a haste floral. A luminosidade precisa ser suficiente para completar o crescimento e permitir diferenciação floral, mas a exposição deve ser ajustada à temperatura foliar e ao vigor. Reenvasar durante a emissão de raízes novas reduz o tempo em que a planta permanece com sistema radicular comprometido. Reenvase quando as novas pontas radiculares estiverem surgindo, deixando espaço à frente do crescimento. Replantar durante repouso ou cortar raízes antigas em excesso pode atrasar o ciclo e a próxima floração.",
+  "dica": "Espere aparecerem raízes novas para replantar: é quando a planta tem mais facilidade para se fixar.",
   "revisaoCientificaIAR": {
     "nome": "Prosthechea vespa",
     "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",

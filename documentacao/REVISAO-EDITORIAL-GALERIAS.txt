@@ -1,0 +1,10 @@
+Revisão editorial das seis fichas: descricao como carta de apresentação, dica curta e específica.
+
+acianthera-teres: somente foto original preservada; nenhuma URL adicional suficientemente identificada.
+isabelia-pulchella: somente foto original preservada; nenhuma URL adicional suficientemente identificada.
+stelis-ciliaris: +3 URLs de arquivos nomeados no Wikimedia Commons (sem teste HTTP direto; verificar licenças; Stelis tem recortes da mesma foto).
+prosthechea-vespa: +3 URLs de arquivos nomeados no Wikimedia Commons (sem teste HTTP direto; verificar licenças; Stelis tem recortes da mesma foto).
+prosthechea-fragrans: +3 URLs de arquivos nomeados no Wikimedia Commons (sem teste HTTP direto; verificar licenças; Stelis tem recortes da mesma foto).
+dinema-polybulbon: somente foto original preservada; nenhuma URL adicional suficientemente identificada.
+
+ATENÇÃO: URLs Special:FilePath montadas a partir de nomes listados em categorias do Commons. Sem acesso HTTP no ambiente de criação, disponibilidade final e licenças individuais NÃO foram verificadas. Conferir antes de publicar. Não representam 9 fotos independentes: Stelis tem duas versões recortadas da mesma imagem.
