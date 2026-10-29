@@ -15,8 +15,8 @@ export const isabeliaPulchella = {
     "origem": "Brasil",
     "regiao": "Florestas do Sul e Sudeste do Brasil.",
     "habitat": "Vive sobre árvores em ambientes úmidos, espalhando seus pequenos pseudobulbos pela superfície da casca. As raízes são delicadas e se beneficiam de umidade regular, sem ficar abafadas.",
-    "clima": "Intermediário a fresco; noites excessivamente quentes podem limitar a indução floral em determinadas procedências.",
-    "climaFloracao": "Clima intermediário a ameno, com noites mais frescas favorecendo a maturação dos pseudobulbos e possivelmente a indução floral. Em litoral quente, o desafio principal é o excesso de calor noturno persistente, não a falta de regas. Manter luz filtrada, umidade equilibrada e ventilação; uma redução moderada de água após o crescimento pode acompanhar a sazonalidade, mas não deve virar repouso seco rigoroso sem evidência da procedência. A exigência de quebra térmica ainda não está quantificada para a espécie. Em clima quente, acompanhe especialmente a temperatura noturna e a formação de pseudobulbos maduros. A sobrevivência da planta não confirma que o microclima permita indução floral; se houver crescimento sem floração, experimente um local naturalmente mais fresco e ventilado, sem impor seca intensa.",
+    "clima": "Intermediário a ameno; pode crescer em ambientes mais quentes, mas noites frescas favorecem as condições de floração.",
+    "climaFloracao": "Prefere temperaturas intermediárias a amenas, especialmente à noite. Em litoral quente, pode crescer bem e ainda assim florescer pouco quando as noites permanecem abafadas. Mantenha luz filtrada e boa ventilação; noites naturalmente mais frescas podem ajudar, mas não há comprovação de uma queda térmica obrigatória.",
     "iluminacao": {
         "sombrite": "60% a 80%",
         "solDireto": "Não permitido",
@@ -192,8 +192,7 @@ export const isabeliaPulchella = {
             "regime": "ano-todo"
         },
         "climaFloracao": {
-            "faixa": "amplo",
-            "quedaTermica": true
+            "faixa": "ameno"
         }
     },
     "avaliacoes": {

@@ -6,7 +6,7 @@ export const dinemaPolybulbon = {
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "fotos": [
-        "https://ecuagenera.com/cdn/shop/files/Dinema_polybulbon._1024x1024.jpg?v=1758991091",
+        "https://images.tcdn.com.br/img/img_prod/1106264/dinema_polybulbon_com_haste_floral_1167_1_685f8284e3fa3cefefee0962c08868b7.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Dinema%20polybulbon%20BotGardBln27120A.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Dinema%20polybulbon%20-%20Flickr%20003.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Encyclia%20polybulbon%20GotBot%202015%20001.JPG"
@@ -319,9 +319,9 @@ export const dinemaPolybulbon = {
         "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
     },
     "fotoReferencia": {
-        "origem": "Ecuagenera — Dinema polybulbon",
-        "url": "https://ecuagenera.com/cdn/shop/files/Dinema_polybulbon._1024x1024.jpg?v=1758991091",
-        "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
+        "origem": "Loja online — imagem indicada pelo usuário",
+        "url": "https://images.tcdn.com.br/img/img_prod/1106264/dinema_polybulbon_com_haste_floral_1167_1_685f8284e3fa3cefefee0962c08868b7.jpg",
+        "licenca": "não verificada; link externo, sem redistribuição"
     },
     "observacoesAuditoriaV405": {
         "galeria": "1 de 4 fotografias cadastradas; faltam 3 imagens com identificação e direitos de uso verificados",
