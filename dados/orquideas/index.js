@@ -4,6 +4,14 @@ import { stelisCiliaris } from "./stelis-ciliaris.js";
 import { prosthecheaVespa } from "./prosthechea-vespa.js";
 import { isabeliaPulchella } from "./isabelia-pulchella.js";
 import { aciantheraTeres } from "./acianthera-teres.js";
+import { aciantheraAuriculata } from "./acianthera-auriculata.js";
+import { epidendrumHokuleaSuperRed } from "./epidendrum-hokulea-super-red.js";
+import { gomesaCornigera } from "./gomesa-cornigera.js";
+import { masdevalliaInfracta } from "./masdevallia-infracta.js";
+import { oncidiumSummerWind } from "./oncidium-summer-wind.js";
+import { pholidotaChinensis } from "./pholidota-chinensis.js";
+import { pinaliaElata } from "./pinalia-elata.js";
+import { stelisCfAprica } from "./stelis-cf-aprica.js";
 // ÍNDICE ÚNICO E OFICIAL DAS FICHAS DO ORQUIDÁRIO.
 // Cada orquídea deve existir em apenas um arquivo dentro desta pasta.
 
@@ -286,4 +294,12 @@ bulbophyllumSyciobulbon,
     stelisCiliaris,
     prosthecheaFragrans,
     dinemaPolybulbon,
+    aciantheraAuriculata,
+    epidendrumHokuleaSuperRed,
+    gomesaCornigera,
+    masdevalliaInfracta,
+    oncidiumSummerWind,
+    pholidotaChinensis,
+    pinaliaElata,
+    stelisCfAprica,
 ];

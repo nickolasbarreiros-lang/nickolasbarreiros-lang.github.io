@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "catalogo": "Orquidário Digital",
-  "quantidade_esperada": 143,
+  "quantidade_esperada": 149,
   "arquivos_esperados": [
     "acianthera-auriculata.js",
     "acianthera-aveniformis.js",
@@ -9,6 +9,7 @@
     "acianthera-glumacea.js",
     "acianthera-pubescens.js",
     "acianthera-sonderiana.js",
+    "acianthera-teres.js",
     "aerides-odorata.js",
     "anathallis-sclerophylla.js",
     "arpophyllum-giganteum.js",
@@ -63,6 +64,7 @@
     "dendrobium-tenellum.js",
     "dichaea-cogniauxiana.js",
     "dichaea-pendula.js",
+    "dinema-polybulbon.js",
     "dryadella-aviceps.js",
     "dryadella-liliputiana.js",
     "encyclia-alboxanthina.js",
@@ -79,6 +81,7 @@
     "gongora-bufonia.js",
     "howeara-lava-burst.js",
     "huntleya-meleagris.js",
+    "isabelia-pulchella.js",
     "isabelia-virginalis.js",
     "isochilus-linearis.js",
     "jacquiniella-globosa.js",
@@ -131,6 +134,8 @@
     "polystachya-concreta.js",
     "promenaea-guttata.js",
     "promenaea-xanthina.js",
+    "prosthechea-fragrans.js",
+    "prosthechea-vespa.js",
     "renanthera-coccinea.js",
     "rodricidium.js",
     "rodriguezia-lanceolata.js",
@@ -143,9 +148,10 @@
     "stanhopea-guttulata.js",
     "stanhopea-hernandezii.js",
     "stelis-cf-aprica.js",
+    "stelis-ciliaris.js",
     "trichocentrum-fuscum.js",
     "zygolum-louisendorf.js",
     "zygopetalum-maculatum.js"
   ],
-  "observacao": "Atualizar com python scripts/verificar_catalogo.py --atualizar após adicionar ficha. Nunca substituir index.js antigo."
+  "observacao": "Atualizado pelo verificador; faça commit junto com nova ficha e index.js."
 }
