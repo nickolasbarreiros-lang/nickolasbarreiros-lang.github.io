@@ -1,0 +1,27 @@
+AUDITORIA CONSOLIDADA — REGA / CLIMA PARA FLORAÇÃO / ADUBAÇÃO
+
+Base: pacote Orquidario_V4_correcao_Dinema_Isabelia_clima_20261029.zip.
+
+CORREÇÕES:
+- 18 textos revisados, sem repetições e sem transformar cada menu em manual extenso.
+- 5 valores inválidos de climaFloracao.faixa ("amplo") substituídos por valores reconhecidos pelo componente ficha.js.
+- Isabelia pulchella mantida como CLIMA AMENO, sem selo de queda térmica obrigatória.
+- Rega da Isabelia alterada de MODERADA para FREQUENTE, coerente com a montagem em placa.
+- Todos os seis selos de rega recebem alerta EVITAR ENCHARCAMENTO (precaução para raízes aeradas, não proibição de rega frequente).
+- Nenhuma ficha recebe selo QUEDA TÉRMICA, FRIO NECESSÁRIO ou FLORA NO CALOR sem evidência específica suficiente.
+- Faixa INTERMEDIÁRIO nas cinco outras espécies é uma classificação conservadora de cultivo/floração; não significa intolerância ao calor.
+- Os textos de adubação diferenciam orgânica, mineral e liberação lenta sem prescrever dose universal ou calendário rígido.
+
+LIMITES:
+- Selos de clima expressam melhor adequação, não limites fisiológicos comprovados.
+- Verificação feita com ficha.js do projeto-base; não foi feita implantação em GitHub Pages.
+- URLs de fotos, fotos principais, métodos de cultivo, substratos, IDC/IAR, calendário e índice não alterados.
+- Não equivale a levantamento de 25 produtores brasileiros por espécie.
+
+FONTES DE APOIO:
+https://www.orchidweb.com/p/isabelia-pulchella-syn-neolauchea-pulchello
+https://orquidarioaparecida.com.br/produtos/isabelia-pulchella-p/
+https://www.orquidariomogimirim.com.br/stelis-ciliaris-
+https://orquidarioaparecida.com.br/produtos/dinema-polybulbon/
+https://www.orchidweb.com/p/dinema-polybulbon
+https://orquidariomatsuoka.com.br/produto/dinema-polybulbon/
