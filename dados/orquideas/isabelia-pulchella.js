@@ -1,113 +1,59 @@
-// Ficha V4 — revisão de publicação 29/10/2026: arquivo atualizado individualmente; índices estimados e fotografias pendentes.
+// Ficha V4 — auditoria editorial e estrutura de cultivo ampliadas; não inventar fotografias nem dados de fonte.
 export const isabeliaPulchella = {
     "id": "isabelia-pulchella",
-    "formasCultivo": {
-        "perfilVisual": "micro-pleurothalidina",
-        "destaque": "Placa / tronco",
-        "resumo": "Placa ventilada com raízes livres, sombra luminosa e atenção às noites quentes.",
-        "metodos": [
-            {
-                "nome": "Placa / tronco",
-                "asset": "placa-madeira",
-                "estrelas": 5,
-                "status": "Ideal",
-                "texto": "Placa ventilada com raízes livres, sombra luminosa e atenção às noites quentes."
-            },
-            {
-                "nome": "Vaso de barro",
-                "asset": "vaso-barro",
-                "estrelas": 4,
-                "status": "Muito recomendado",
-                "texto": "Recipiente pequeno, com muitos furos e mistura de partículas abertas; ajustar regas pela secagem real."
-            },
-            {
-                "nome": "Cesto de madeira",
-                "asset": "cesto-madeira",
-                "estrelas": 4,
-                "status": "Recomendado",
-                "texto": "Mantém aeração lateral, mas exige atenção à perda rápida de umidade em tempo quente."
-            },
-            {
-                "nome": "Árvore viva",
-                "asset": "arvore-viva",
-                "estrelas": 3,
-                "status": "Alternativa",
-                "texto": "Adequada apenas em local com luminosidade e umidade compatíveis; irrigar até o enraizamento."
-            }
-        ]
-    },
-    "substratoVisual": {
-        "titulo": "Substrato ideal",
-        "contexto": "Receita técnica para vaso ventilado",
-        "resumo": "45% pinus pequeno + 25% carvão pequeno + 20% perlita grossa + 10% esfagno",
-        "justificativa": "Mistura proposta para equilibrar água disponível e oxigênio radicular; é síntese horticultural, não receita publicada especificamente para esta espécie.",
-        "receitaTexto": "45% pinus pequeno + 25% carvão pequeno + 20% perlita grossa + 10% esfagno",
-        "perfil": [
-            "Alta aeração",
-            "Drenagem rápida",
-            "Retenção ajustada ao suporte"
-        ],
-        "comportamento": [
-            {
-                "nome": "Retenção",
-                "valor": 3,
-                "icone": "💧"
-            },
-            {
-                "nome": "Aeração",
-                "valor": 5,
-                "icone": "💨"
-            },
-            {
-                "nome": "Secagem",
-                "valor": 4,
-                "icone": "⚡"
-            },
-            {
-                "nome": "Compactação",
-                "valor": 1,
-                "icone": "🧱"
-            }
-        ],
-        "itens": [],
-        "alerta": "Não compactar a mistura, não enterrar a base da planta e não usar pedra-pomes."
-    },
     "nome": "Isabelia pulchella",
     "genero": "Isabelia",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "fotos": [],
-    "descricao": "Isabelia pulchella é uma pequena orquídea epífita brasileira, conhecida também na literatura horticultural pelo nome Neolauchea pulchella. Forma touceiras compactas que podem ser montadas sobre madeira, com raízes expostas e flores delicadas de coloração rosada a lilás. Produtores brasileiros convergem na preferência por placas ou ripas de madeira e cerca de 70% de sombreamento, mas divergem sobre a melhor faixa térmica e a época de floração. Há relatos de flores na primavera, no outono e no inverno, com duração aproximada de 15–20 dias em alguns cultivos. No litoral quente, o ponto crítico é a combinação de noites persistentemente quentes com pouca circulação de ar; sobreviver e produzir novos brotos não garante floração regular. A ficha deve orientar a observação do exemplar e evitar afirmar uma estação única de floração.",
+    "descricao": "Orquídea de pequeno porte cuja principal dificuldade no litoral quente não é apenas mantê-la viva, mas obter crescimento regular seguido de floração. A literatura horticultural brasileira frequentemente indica montagem em madeira e luz filtrada; há divergências entre produtores sobre o enquadramento térmico e a época principal de floração. Por isso, é importante separar a tolerância vegetativa à temperatura da necessidade de noites mais amenas para formação das flores. Em cultivo, raízes delicadas exigem hidratação frequente, mas não um suporte saturado e abafado. A confirmação de autoria, sinonímia e variações intraespecíficas permanece condicionada à conferência individual em POWO, WFO, IPNI e literatura original; não se deve transformar uma hipótese de cultivo em dado taxonômico.",
     "origem": "Brasil",
-    "regiao": "Distribuição geográfica a conferir na revisão taxonômica individual",
-    "habitat": "Epífita ou rupícola conforme a espécie e a população; detalhes na documentação de revisão.",
-    "clima": "Avaliar microclima, temperatura noturna e capacidade real de floração.",
-    "climaFloracao": "Produtores brasileiros relatam floração em estações diferentes, com duração aproximada de 15–20 dias em alguns cultivos; não restringir a um único mês.",
+    "regiao": "Brasil; ocorrência associada a ambientes florestais e regiões com variação sazonal de temperatura.",
+    "habitat": "Epífita miniaturizada, com raízes delicadas que se beneficiam de suportes ventilados e umidade regular.",
+    "clima": "Intermediário a fresco; noites excessivamente quentes podem limitar a indução floral em determinadas procedências.",
+    "climaFloracao": "Fontes horticulturais divergem entre primavera e períodos mais frios. O fator crítico em regiões quentes pode ser a amplitude térmica noturna; registrar a primeira floração do próprio exemplar antes de definir meses fixos.",
     "iluminacao": {
-        "sombrite": "65% a 75%",
-        "solDireto": "Permitido com restrição",
-        "horario": "Somente início da manhã",
-        "observacoes": "Luz filtrada; calor noturno persistente pode prejudicar a floração."
+        "sombrite": "60% a 80%",
+        "solDireto": "Não permitido",
+        "horario": "",
+        "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
     },
-    "floracao": "Produtores brasileiros relatam floração em estações diferentes, com duração aproximada de 15–20 dias em alguns cultivos; não restringir a um único mês.",
-    "adubacao": "Adubação equilibrada diluída durante crescimento ativo; reduzir quando houver pouca atividade radicular e lavar periodicamente o substrato para evitar sais.",
-    "rega": "Regas regulares em crescimento; reduzir quando o clima estiver frio e a secagem lenta.",
-    "suporte": "🥇 Placa de madeira ventilada, com raízes livres e umidade ambiental estável.\n🥈 Vaso de barro bem perfurado, adaptado ao porte.\n🥉 Cachepô de madeira com irrigação ajustada à secagem.",
-    "substrato": "🥇 Montada com esfagno discreto; alternativa em pinus fino + carvão + perlita grossa.\n🥈 Casca de pinus + carvão vegetal + perlita grossa, ajustando granulometria.\n🥉 Casca de pinus + chips de coco + carvão, sem compactar.\n⭐ Montagem em madeira com retenção mínima quando necessária.",
-    "errosComuns": "❌ Exposição solar brusca.\n❌ Substrato compactado ou encharcado.\n❌ Confundir sobrevivência com floração garantida.\n❌ Aplicar repouso seco sem evidência.",
+    "floracao": "Fontes horticulturais divergem entre primavera e períodos mais frios. O fator crítico em regiões quentes pode ser a amplitude térmica noturna; registrar a primeira floração do próprio exemplar antes de definir meses fixos.",
+    "adubacao": "🌿 Orgânica: em plantas pequenas, usar bokashi apenas em sachê afastado de raízes e brotos, quando aplicável.\n💧 Mineral/foliar: fertilizante equilibrado a cerca de 1/4 da dose do fabricante durante crescimento ativo, em intervalos ajustados à resposta da planta; evitar pulverizar flores.\n🧪 Liberação lenta: somente em vaso com boa drenagem, em dose muito pequena. Lavar periodicamente o substrato com água limpa para reduzir acúmulo de sais. Suspender aplicações fortes quando raízes estiverem inativas.",
+    "rega": "Em placa, umedecer as raízes com frequência e observar a velocidade de secagem. Uma pequena camada de esfagno solto pode retardar a desidratação; excesso de material úmido junto à base favorece apodrecimento. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
+    "suporte": [
+        "🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.",
+        "🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.",
+        "🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.",
+        "🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem."
+    ],
+    "substrato": "🥇 40% casca de pinus + 25% casca de arroz carbonizada + 20% carvão vegetal + 15% esfagno solto\n🥈 Ajustar granulometria e retenção à velocidade real de secagem.\n🥉 Em montagem, utilizar apenas reserva hídrica mínima quando necessária.\n⭐ Evitar compactação e pedra-pomes.",
+    "errosComuns": [
+        "Confundir tolerância vegetativa com floração garantida em clima quente.",
+        "Usar sombra profunda ou sol direto forte sem aclimatação.",
+        "Manter raízes abafadas em recipiente grande ou substrato fino.",
+        "Aplicar repouso seco obrigatório sem evidência fenológica.",
+        "Adubar raízes inativas com solução concentrada.",
+        "Ignorar diferenças entre plantas de procedências distintas.",
+        "Fixar meses de floração com base em um único anúncio comercial."
+    ],
     "dica": "No litoral quente, observar se há maturação e emissão de flores, e não apenas crescimento vegetativo.",
     "revisaoCientificaIAR": {
         "nome": "Isabelia pulchella",
         "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
-        "cultivoPremiacao": "Recomendações técnicas sintetizadas de fontes horticulturais brasileiras levantadas na pesquisa; não representam consenso de 25 produtores.",
-        "confianca": "parcial",
+        "cultivoPremiacao": "Proposta de manejo derivada de ecologia e recomendações horticulturais brasileiras já levantadas. Nenhuma premiação AOS/OrchidPro foi confirmada; não presumir ausência de premiações.",
+        "confianca": "parcial — faltam validações bibliográficas individuais",
         "fontes": [
-            "BR Orquídea — catálogo comercial (confirma oferta, não método de cultivo)",
-            "Orquidário Aparecida — relatos de cultivo, conforme disponibilidade",
-            "Orquidário Hang / Mogi Mirim / 4 Estações — recomendações consultadas nas etapas anteriores",
-            "POWO/WCVP — taxonomia a conferir individualmente"
+            "POWO / WFO / IPNI — auditoria taxonômica individual pendente",
+            "GBIF / Tropicos / Swiss Orchid Foundation — distribuição e sinonímia a cruzar",
+            "IOSPE / Flora e Funga do Brasil — ecologia e endemismo a conferir",
+            "BHL — protólogo e dimensões florais pendentes",
+            "Orquidário Aparecida, Mogi Mirim, 4 Estações, Hang e outros produtores brasileiros — consultas horticulturais parciais, sem atingir 25 produtores por espécie"
         ],
-        "observacao": "Pontuações são estimativas ponderadas, não probabilidades estatísticas de floração."
+        "observacao": "Pontuações são estimativas ponderadas, não probabilidades estatísticas de floração.",
+        "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
+        "distribuicaoGeografica": "Brasil; ocorrência associada a ambientes florestais e regiões com variação sazonal de temperatura.",
+        "habitatAltitudeClima": "Epífita miniaturizada, com raízes delicadas que se beneficiam de suportes ventilados e umidade regular. Intermediário a fresco; noites excessivamente quentes podem limitar a indução floral em determinadas procedências."
     },
     "indiceDificuldadeCultivo": {
         "versao": "IDC 3.2 — selo por facilidade",
@@ -230,8 +176,8 @@ export const isabeliaPulchella = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Compatibilidade estimada 52/100; verificar especialmente floração real sob noites quentes.",
-        "montanhaFrio": "Compatibilidade estimada 97/100; ajustar rega à temperatura e secagem."
+        "litoralQuente": "Compatibilidade estimada 52/100; verificar especialmente floração real sob noites quentes. O índice mede compatibilidade ecológica estimada, não chance percentual de florescer; avaliar sobretudo noites quentes, raízes e procedência.",
+        "montanhaFrio": "Compatibilidade estimada 97/100; ajustar rega à temperatura e secagem. Evitar excesso de água em dias frios e garantir circulação de ar."
     },
     "mesesFloracao": [],
     "selosCultivo": {
@@ -252,5 +198,115 @@ export const isabeliaPulchella = {
         "agua": 3,
         "raridade": 3
     },
-    "statusRevisao": "V4 — índices calculados; pesquisa brasileira e fotos pendentes"
+    "statusRevisao": "V4 — conteúdo editorial ampliado; fontes, morfometria e fotografias ainda em auditoria",
+    "sinonimo": "Neolauchea pulchella (sinônimo histórico)",
+    "caracteristicas": [
+        "Miniatura epífita",
+        "Raízes finas",
+        "Floração sensível ao microclima",
+        "Montagem ventilada",
+        "Sinônimo Neolauchea pulchella"
+    ],
+    "formasCultivo": {
+        "perfilVisual": "epifita-ventilada",
+        "destaque": "Placa / tronco",
+        "resumo": "A recomendação principal busca reproduzir o equilíbrio entre umidade disponível e oxigênio radicular. O suporte mais aberto reduz abafamento, mas exige regas mais frequentes; alternativas envasadas estabilizam a umidade ao custo de maior vigilância contra compactação.",
+        "metodos": [
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-tronco",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Método preferencial: Epífita miniaturizada, com raízes delicadas que se beneficiam de suportes ventilados e umidade regular. Em placa, umedecer as raízes com frequência e observar a velocidade de secagem. Uma pequena camada de esfagno solto pode retardar a desidratação; excesso de material úmido junto à base favorece apodrecimento."
+            },
+            {
+                "nome": "Cesto de madeira",
+                "asset": "cesto-madeira",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+            },
+            {
+                "nome": "Vaso de barro",
+                "asset": "vaso-barro",
+                "estrelas": 4,
+                "status": "Recomendado",
+                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Não compactar o substrato e observar a secagem interna."
+            },
+            {
+                "nome": "Árvore viva",
+                "asset": "arvore-viva",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+            }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita técnica para vaso ventilado — proposta, não ensaio experimental",
+        "resumo": "Mistura proposta conforme hábito ecológico, velocidade de secagem e necessidade de oxigênio das raízes.",
+        "justificativa": "A composição é uma inferência horticultural baseada no hábito da espécie, não uma fórmula publicada e validada por 25 produtores. A proporção de materiais deve ser revista conforme granulometria, clima e vaso. Convergências com produtores brasileiros incluem ênfase em drenagem, ventilação e rega ajustada; divergências sobre material orgânico e sombra devem ser tratadas como variação de manejo, não consenso.",
+        "receitaTexto": "40% casca de pinus + 25% casca de arroz carbonizada + 20% carvão vegetal + 15% esfagno solto",
+        "perfil": [
+            "Alta aeração",
+            "Drenagem funcional",
+            "Retenção ajustada",
+            "Base da planta exposta",
+            "Baixa compactação"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 3,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 5,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 4,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 1,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [
+            {
+                "asset": "casca-pinus",
+                "nome": "Casca de pinus",
+                "proporcao": "40%",
+                "nota": "função estrutural e hídrica",
+                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+            },
+            {
+                "asset": "casca-arroz-carbonizada",
+                "nome": "Casca de arroz carbonizada",
+                "proporcao": "25%",
+                "nota": "função estrutural e hídrica",
+                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+            },
+            {
+                "asset": "carvao-vegetal",
+                "nome": "Carvão vegetal",
+                "proporcao": "20%",
+                "nota": "função estrutural e hídrica",
+                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+            },
+            {
+                "asset": "esfagno",
+                "nome": "Esfagno solto",
+                "proporcao": "15%",
+                "nota": "função estrutural e hídrica",
+                "finalidade": "Reserva de água em pequena proporção; usar solto, nunca prensado."
+            }
+        ],
+        "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
+    }
 };

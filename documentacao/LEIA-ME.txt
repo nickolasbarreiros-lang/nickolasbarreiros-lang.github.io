@@ -1,0 +1,1 @@
+Atualização das seis fichas. Comparação estrutural com Acianthera auriculata, A. aveniformis e A. pubescens do repositório enviado. Não substitui index.js ou catálogo-manifesto.json. Fotografias de espécies não foram inventadas; faltam fontes validadas e revisão taxonômica individual. Conferir integração com renderer após aplicação.

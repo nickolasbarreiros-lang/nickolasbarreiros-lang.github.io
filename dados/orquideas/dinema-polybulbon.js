@@ -1,113 +1,59 @@
-// Ficha V4 — revisão de publicação 29/10/2026: arquivo atualizado individualmente; índices estimados e fotografias pendentes.
+// Ficha V4 — auditoria editorial e estrutura de cultivo ampliadas; não inventar fotografias nem dados de fonte.
 export const dinemaPolybulbon = {
     "id": "dinema-polybulbon",
-    "formasCultivo": {
-        "perfilVisual": "epifita-ventilada",
-        "destaque": "Placa / tronco",
-        "resumo": "Placa ou ripas de madeira com musgo mínimo; manter regas frequentes durante enraizamento.",
-        "metodos": [
-            {
-                "nome": "Placa / tronco",
-                "asset": "placa-madeira",
-                "estrelas": 5,
-                "status": "Ideal",
-                "texto": "Placa ou ripas de madeira com musgo mínimo; manter regas frequentes durante enraizamento."
-            },
-            {
-                "nome": "Vaso de barro",
-                "asset": "vaso-barro",
-                "estrelas": 4,
-                "status": "Muito recomendado",
-                "texto": "Recipiente pequeno, com muitos furos e mistura de partículas abertas; ajustar regas pela secagem real."
-            },
-            {
-                "nome": "Cesto de madeira",
-                "asset": "cesto-madeira",
-                "estrelas": 4,
-                "status": "Recomendado",
-                "texto": "Mantém aeração lateral, mas exige atenção à perda rápida de umidade em tempo quente."
-            },
-            {
-                "nome": "Árvore viva",
-                "asset": "arvore-viva",
-                "estrelas": 3,
-                "status": "Alternativa",
-                "texto": "Adequada apenas em local com luminosidade e umidade compatíveis; irrigar até o enraizamento."
-            }
-        ]
-    },
-    "substratoVisual": {
-        "titulo": "Substrato ideal",
-        "contexto": "Receita técnica para vaso ventilado",
-        "resumo": "45% pinus pequeno + 30% carvão pequeno + 15% perlita grossa + 10% esfagno",
-        "justificativa": "Mistura proposta para equilibrar água disponível e oxigênio radicular; é síntese horticultural, não receita publicada especificamente para esta espécie.",
-        "receitaTexto": "45% pinus pequeno + 30% carvão pequeno + 15% perlita grossa + 10% esfagno",
-        "perfil": [
-            "Alta aeração",
-            "Drenagem rápida",
-            "Retenção ajustada ao suporte"
-        ],
-        "comportamento": [
-            {
-                "nome": "Retenção",
-                "valor": 3,
-                "icone": "💧"
-            },
-            {
-                "nome": "Aeração",
-                "valor": 5,
-                "icone": "💨"
-            },
-            {
-                "nome": "Secagem",
-                "valor": 4,
-                "icone": "⚡"
-            },
-            {
-                "nome": "Compactação",
-                "valor": 1,
-                "icone": "🧱"
-            }
-        ],
-        "itens": [],
-        "alerta": "Não compactar a mistura, não enterrar a base da planta e não usar pedra-pomes."
-    },
     "nome": "Dinema polybulbon",
     "genero": "Dinema",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "fotos": [],
-    "descricao": "Dinema polybulbon é uma orquídea epífita miniatura que forma agrupamentos densos de pequenos pseudobulbos e folhas, frequentemente avançando lateralmente sobre cascas e placas de madeira. Suas flores, relativamente grandes para o porte da planta, apresentam tons amarelos, castanhos e claros. A montagem ventilada facilita a expansão dos novos crescimentos, mas exige regas mais frequentes em períodos secos. Produtores brasileiros concordam quanto à boa adaptação ao cultivo em madeira, à luz filtrada e à necessidade de drenagem; divergem quanto ao perfume e à época principal de floração. Matsuoka, Aparecida e Merten descrevem flores sem perfume, enquanto 4 Estações relata fragrância suave. Aparecida e Merten indicam outono, e 4 Estações relata primavera/verão. Essas observações devem permanecer identificadas como relatos de cultivo, sem impor um calendário universal.",
+    "descricao": "Dinema polybulbon é uma miniatura epífita com pseudobulbos numerosos, capaz de formar conjuntos compactos quando recebe água, luminosidade filtrada e circulação de ar em equilíbrio. Produtores brasileiros frequentemente indicam placas ou troncos, embora as porcentagens de sombreamento recomendadas variem. Os relatos de perfume são contraditórios: alguns produtores descrevem ausência de fragrância, enquanto outros mencionam odor suave. Essa diferença não deve ser convertida em característica taxonômica fixa sem observação do clone. A confirmação de autoria, sinonímia e variações intraespecíficas permanece condicionada à conferência individual em POWO, WFO, IPNI e literatura original; não se deve transformar uma hipótese de cultivo em dado taxonômico.",
     "origem": "América Tropical",
-    "regiao": "México, América Central e Caribe; distribuição nativa a validar em POWO para delimitação exata.",
-    "habitat": "Epífita de florestas úmidas, frequentemente sobre galhos e troncos, formando touceiras compactas.",
-    "clima": "Quente a intermediário, com umidade regular, luz filtrada e boa renovação do ar.",
-    "climaFloracao": "Produtores brasileiros divergem sobre a estação de floração e sobre perfume (ausente ou suave); registrar a variação sem fixar uma única resposta.",
+    "regiao": "América tropical; verificar extensão e eventuais lacunas de distribuição no POWO/GBIF.",
+    "habitat": "Epífita de pequeno porte, com pseudobulbos agrupados ou espaçados sobre suportes, beneficiada por boa aeração.",
+    "clima": "Quente a intermediário, úmido e ventilado; ajustar exposição à procedência.",
+    "climaFloracao": "Há relatos comerciais divergentes sobre a época de floração. Registrar a resposta do exemplar em cultivo antes de selecionar meses; luminosidade insuficiente pode favorecer crescimento vegetativo sem flores.",
     "iluminacao": {
         "sombrite": "60% a 70%",
-        "solDireto": "Não permitido",
-        "horario": "",
-        "observacoes": "Luz difusa intermediária, sem sol direto forte."
+        "solDireto": "Permitido com restrição",
+        "horario": "Somente início da manhã",
+        "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
     },
-    "floracao": "Produtores brasileiros divergem sobre a estação de floração e sobre perfume (ausente ou suave); registrar a variação sem fixar uma única resposta.",
-    "adubacao": "Adubação equilibrada diluída durante crescimento ativo; reduzir quando houver pouca atividade radicular e lavar periodicamente o substrato para evitar sais.",
-    "rega": "Regas frequentes em madeira no calor; deixar secar superficialmente entre irrigações.",
-    "suporte": "🥇 Placa de madeira com pequena quantidade de esfagno apenas para reduzir desidratação.\n🥈 Vaso de barro bem perfurado, adaptado ao porte.\n🥉 Cachepô de madeira com irrigação ajustada à secagem.",
-    "substrato": "🥇 Pinus pequeno/médio + carvão vegetal + pouca retenção de esfagno em vaso ventilado.\n🥈 Casca de pinus + carvão vegetal + perlita grossa, ajustando granulometria.\n🥉 Casca de pinus + chips de coco + carvão, sem compactar.\n⭐ Montagem em madeira com retenção mínima quando necessária.",
-    "errosComuns": "❌ Exposição solar brusca.\n❌ Substrato compactado ou encharcado.\n❌ Confundir sobrevivência com floração garantida.\n❌ Aplicar repouso seco sem evidência.",
+    "floracao": "Há relatos comerciais divergentes sobre a época de floração. Registrar a resposta do exemplar em cultivo antes de selecionar meses; luminosidade insuficiente pode favorecer crescimento vegetativo sem flores.",
+    "adubacao": "🌿 Orgânica: em plantas pequenas, usar bokashi apenas em sachê afastado de raízes e brotos, quando aplicável.\n💧 Mineral/foliar: fertilizante equilibrado a cerca de 1/4 da dose do fabricante durante crescimento ativo, em intervalos ajustados à resposta da planta; evitar pulverizar flores.\n🧪 Liberação lenta: somente em vaso com boa drenagem, em dose muito pequena. Lavar periodicamente o substrato com água limpa para reduzir acúmulo de sais. Suspender aplicações fortes quando raízes estiverem inativas.",
+    "rega": "Regar regularmente durante a formação de novos pseudobulbos. Em montagem, a secagem pode ser rápida e exigir hidratação diária no calor; em vaso, esperar perda parcial da umidade superficial. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
+    "suporte": [
+        "🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.",
+        "🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.",
+        "🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.",
+        "🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem."
+    ],
+    "substrato": "🥇 45% casca de pinus + 25% carvão vegetal + 20% perlita grossa + 10% casca de arroz carbonizada\n🥈 Ajustar granulometria e retenção à velocidade real de secagem.\n🥉 Em montagem, utilizar apenas reserva hídrica mínima quando necessária.\n⭐ Evitar compactação e pedra-pomes.",
+    "errosComuns": [
+        "Confundir tolerância vegetativa com floração garantida em clima quente.",
+        "Usar sombra profunda ou sol direto forte sem aclimatação.",
+        "Manter raízes abafadas em recipiente grande ou substrato fino.",
+        "Aplicar repouso seco obrigatório sem evidência fenológica.",
+        "Adubar raízes inativas com solução concentrada.",
+        "Ignorar diferenças entre plantas de procedências distintas.",
+        "Fixar meses de floração com base em um único anúncio comercial."
+    ],
     "dica": "Boa ventilação com umidade constante; montagem em madeira pode exigir irrigação diária em dias quentes.",
     "revisaoCientificaIAR": {
         "nome": "Dinema polybulbon",
         "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
-        "cultivoPremiacao": "Recomendações técnicas sintetizadas de fontes horticulturais brasileiras levantadas na pesquisa; não representam consenso de 25 produtores.",
-        "confianca": "parcial",
-        "fontesConfirmadas": ["Orquidário Matsuoka", "Orquidário Aparecida", "Orquidário Maripá", "Orquidário 4 Estações", "Merten Orquídeas"], "fontes": [
-            "BR Orquídea — catálogo comercial (confirma oferta, não método de cultivo)",
-            "Orquidário Aparecida — relatos de cultivo, conforme disponibilidade",
-            "Orquidário Hang / Mogi Mirim / 4 Estações — recomendações consultadas nas etapas anteriores",
-            "POWO/WCVP — taxonomia a conferir individualmente"
+        "cultivoPremiacao": "Proposta de manejo derivada de ecologia e recomendações horticulturais brasileiras já levantadas. Nenhuma premiação AOS/OrchidPro foi confirmada; não presumir ausência de premiações.",
+        "confianca": "parcial — faltam validações bibliográficas individuais",
+        "fontes": [
+            "POWO / WFO / IPNI — auditoria taxonômica individual pendente",
+            "GBIF / Tropicos / Swiss Orchid Foundation — distribuição e sinonímia a cruzar",
+            "IOSPE / Flora e Funga do Brasil — ecologia e endemismo a conferir",
+            "BHL — protólogo e dimensões florais pendentes",
+            "Orquidário Aparecida, Mogi Mirim, 4 Estações, Hang e outros produtores brasileiros — consultas horticulturais parciais, sem atingir 25 produtores por espécie"
         ],
-        "observacao": "Pontuações são estimativas ponderadas, não probabilidades estatísticas de floração."
+        "observacao": "Pontuações são estimativas ponderadas, não probabilidades estatísticas de floração.",
+        "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
+        "distribuicaoGeografica": "América tropical; verificar extensão e eventuais lacunas de distribuição no POWO/GBIF.",
+        "habitatAltitudeClima": "Epífita de pequeno porte, com pseudobulbos agrupados ou espaçados sobre suportes, beneficiada por boa aeração. Quente a intermediário, úmido e ventilado; ajustar exposição à procedência."
     },
     "indiceDificuldadeCultivo": {
         "versao": "IDC 3.2 — selo por facilidade",
@@ -230,8 +176,8 @@ export const dinemaPolybulbon = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Compatibilidade estimada 86/100; verificar especialmente floração real sob noites quentes.",
-        "montanhaFrio": "Compatibilidade estimada 80/100; ajustar rega à temperatura e secagem."
+        "litoralQuente": "Compatibilidade estimada 86/100; verificar especialmente floração real sob noites quentes. O índice mede compatibilidade ecológica estimada, não chance percentual de florescer; avaliar sobretudo noites quentes, raízes e procedência.",
+        "montanhaFrio": "Compatibilidade estimada 80/100; ajustar rega à temperatura e secagem. Evitar excesso de água em dias frios e garantir circulação de ar."
     },
     "mesesFloracao": [],
     "selosCultivo": {
@@ -252,5 +198,115 @@ export const dinemaPolybulbon = {
         "agua": 4,
         "raridade": 4
     },
-    "statusRevisao": "V4 — índices calculados; pesquisa brasileira e fotos pendentes"
+    "statusRevisao": "V4 — conteúdo editorial ampliado; fontes, morfometria e fotografias ainda em auditoria",
+    "sinonimo": "Epidendrum polybulbon (basiônimo histórico; verificar autoria)",
+    "caracteristicas": [
+        "Miniatura epífita",
+        "Múltiplos pseudobulbos",
+        "Crescimento sobre suportes",
+        "Flores pequenas",
+        "Perfume variável entre relatos"
+    ],
+    "formasCultivo": {
+        "perfilVisual": "epifita-ventilada",
+        "destaque": "Placa / tronco",
+        "resumo": "A recomendação principal busca reproduzir o equilíbrio entre umidade disponível e oxigênio radicular. O suporte mais aberto reduz abafamento, mas exige regas mais frequentes; alternativas envasadas estabilizam a umidade ao custo de maior vigilância contra compactação.",
+        "metodos": [
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-tronco",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Método preferencial: Epífita de pequeno porte, com pseudobulbos agrupados ou espaçados sobre suportes, beneficiada por boa aeração. Regar regularmente durante a formação de novos pseudobulbos. Em montagem, a secagem pode ser rápida e exigir hidratação diária no calor; em vaso, esperar perda parcial da umidade superficial."
+            },
+            {
+                "nome": "Cesto de madeira",
+                "asset": "cesto-madeira",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+            },
+            {
+                "nome": "Vaso de barro",
+                "asset": "vaso-barro",
+                "estrelas": 4,
+                "status": "Recomendado",
+                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Não compactar o substrato e observar a secagem interna."
+            },
+            {
+                "nome": "Árvore viva",
+                "asset": "arvore-viva",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+            }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita técnica para vaso ventilado — proposta, não ensaio experimental",
+        "resumo": "Mistura proposta conforme hábito ecológico, velocidade de secagem e necessidade de oxigênio das raízes.",
+        "justificativa": "A composição é uma inferência horticultural baseada no hábito da espécie, não uma fórmula publicada e validada por 25 produtores. A proporção de materiais deve ser revista conforme granulometria, clima e vaso. Convergências com produtores brasileiros incluem ênfase em drenagem, ventilação e rega ajustada; divergências sobre material orgânico e sombra devem ser tratadas como variação de manejo, não consenso.",
+        "receitaTexto": "45% casca de pinus + 25% carvão vegetal + 20% perlita grossa + 10% casca de arroz carbonizada",
+        "perfil": [
+            "Alta aeração",
+            "Drenagem funcional",
+            "Retenção ajustada",
+            "Base da planta exposta",
+            "Baixa compactação"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 2,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 5,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 4,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 1,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [
+            {
+                "asset": "casca-pinus",
+                "nome": "Casca de pinus",
+                "proporcao": "45%",
+                "nota": "função estrutural e hídrica",
+                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+            },
+            {
+                "asset": "carvao-vegetal",
+                "nome": "Carvão vegetal",
+                "proporcao": "25%",
+                "nota": "função estrutural e hídrica",
+                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+            },
+            {
+                "asset": "perlita-grossa",
+                "nome": "Perlita grossa",
+                "proporcao": "20%",
+                "nota": "função estrutural e hídrica",
+                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+            },
+            {
+                "asset": "casca-arroz-carbonizada",
+                "nome": "Casca de arroz carbonizada",
+                "proporcao": "10%",
+                "nota": "função estrutural e hídrica",
+                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+            }
+        ],
+        "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
+    }
 };

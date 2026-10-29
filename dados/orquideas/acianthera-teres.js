@@ -1,113 +1,59 @@
-// Ficha V4 — revisão de publicação 29/10/2026: arquivo atualizado individualmente; índices estimados e fotografias pendentes.
+// Ficha V4 — auditoria editorial e estrutura de cultivo ampliadas; não inventar fotografias nem dados de fonte.
 export const aciantheraTeres = {
     "id": "acianthera-teres",
-    "formasCultivo": {
-        "perfilVisual": "epifita-ventilada",
-        "destaque": "Placa / tronco",
-        "resumo": "Montagem mineral ou madeira muito ventilada; aclimatar gradualmente à alta claridade.",
-        "metodos": [
-            {
-                "nome": "Placa / tronco",
-                "asset": "placa-madeira",
-                "estrelas": 5,
-                "status": "Ideal",
-                "texto": "Montagem mineral ou madeira muito ventilada; aclimatar gradualmente à alta claridade."
-            },
-            {
-                "nome": "Vaso de barro",
-                "asset": "vaso-barro",
-                "estrelas": 4,
-                "status": "Muito recomendado",
-                "texto": "Recipiente pequeno, com muitos furos e mistura de partículas abertas; ajustar regas pela secagem real."
-            },
-            {
-                "nome": "Cesto de madeira",
-                "asset": "cesto-madeira",
-                "estrelas": 4,
-                "status": "Recomendado",
-                "texto": "Mantém aeração lateral, mas exige atenção à perda rápida de umidade em tempo quente."
-            },
-            {
-                "nome": "Árvore viva",
-                "asset": "arvore-viva",
-                "estrelas": 3,
-                "status": "Alternativa",
-                "texto": "Adequada apenas em local com luminosidade e umidade compatíveis; irrigar até o enraizamento."
-            }
-        ]
-    },
-    "substratoVisual": {
-        "titulo": "Substrato ideal",
-        "contexto": "Receita técnica para vaso ventilado",
-        "resumo": "45% brita fina + 30% carvão + 15% pinus + 10% perlita grossa",
-        "justificativa": "Mistura proposta para equilibrar água disponível e oxigênio radicular; é síntese horticultural, não receita publicada especificamente para esta espécie.",
-        "receitaTexto": "45% brita fina + 30% carvão + 15% pinus + 10% perlita grossa",
-        "perfil": [
-            "Alta aeração",
-            "Drenagem rápida",
-            "Retenção ajustada ao suporte"
-        ],
-        "comportamento": [
-            {
-                "nome": "Retenção",
-                "valor": 3,
-                "icone": "💧"
-            },
-            {
-                "nome": "Aeração",
-                "valor": 5,
-                "icone": "💨"
-            },
-            {
-                "nome": "Secagem",
-                "valor": 4,
-                "icone": "⚡"
-            },
-            {
-                "nome": "Compactação",
-                "valor": 1,
-                "icone": "🧱"
-            }
-        ],
-        "itens": [],
-        "alerta": "Não compactar a mistura, não enterrar a base da planta e não usar pedra-pomes."
-    },
     "nome": "Acianthera teres",
     "genero": "Acianthera",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "fotos": [],
-    "descricao": "Acianthera teres é uma orquídea brasileira de hábito predominantemente rupícola, com folhas espessas, alongadas e quase cilíndricas, associadas à conservação de água. Ocorre em afloramentos rochosos expostos e apresenta adaptações xeromórficas, mas isso não significa que uma planta produzida sob sombrite deva ser transferida imediatamente para sol forte. A intensidade luminosa necessária ao crescimento e à floração deve ser separada da tolerância à radiação direta em clima costeiro quente. O Orquidário Aparecida relata cultivo sobre ripas de madeira com 70% de sombreamento, umidade e ventilação; outros relatos enfatizam alta claridade. A combinação sugere aclimatação progressiva, raízes muito ventiladas e atenção ao aquecimento do suporte.",
+    "descricao": "É uma espécie brasileira singular pela folhagem espessa, alongada e quase cilíndrica, uma adaptação associada à conservação de água. Seu hábito rupícola implica raízes que recebem água em pulsos e logo retornam à aeração, mas não autoriza cultivar uma planta recém-adquirida sob sol forte. O relato de cultivo do Orquidário Aparecida sobre madeira com sombreamento elevado mostra como a resposta de exemplares aclimatados pode diferir da exposição encontrada no habitat. O manejo deve equilibrar claridade suficiente para indução floral, ventilação e temperatura do suporte. A confirmação de autoria, sinonímia e variações intraespecíficas permanece condicionada à conferência individual em POWO, WFO, IPNI e literatura original; não se deve transformar uma hipótese de cultivo em dado taxonômico.",
     "origem": "América Tropical",
-    "regiao": "Distribuição geográfica a conferir na revisão taxonômica individual",
-    "habitat": "Epífita ou rupícola conforme a espécie e a população; detalhes na documentação de revisão.",
-    "clima": "Avaliar microclima, temperatura noturna e capacidade real de floração.",
-    "climaFloracao": "Flores surgem em plantas maduras; relatos de longa permanência floral exigem confirmação por clone.",
+    "regiao": "Brasil; ambientes de afloramentos rochosos, com registros em formações abertas e rupestres.",
+    "habitat": "Predominantemente rupícola em afloramentos rochosos com raízes aderidas a fendas e superfícies muito drenantes; vegetação xeromórfica não equivale a tolerância ilimitada ao sol quente.",
+    "clima": "Quente a intermediário, com alta circulação de ar e forte variação microclimática sobre rochas.",
+    "climaFloracao": "A floração depende de brotos maduros, luz adequada e vigor radicular. Relatos de duração prolongada das flores precisam ser confirmados por clone; não é seguro fixar meses sem fenologia publicada verificável.",
     "iluminacao": {
-        "sombrite": "50% a 70%",
+        "sombrite": "50% a 70% como ponto de partida",
         "solDireto": "Permitido com restrição",
         "horario": "Somente início da manhã",
-        "observacoes": "Alta claridade filtrada; adaptar gradualmente a eventual sol suave."
+        "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
     },
-    "floracao": "Flores surgem em plantas maduras; relatos de longa permanência floral exigem confirmação por clone.",
-    "adubacao": "Adubação equilibrada diluída durante crescimento ativo; reduzir quando houver pouca atividade radicular e lavar periodicamente o substrato para evitar sais.",
-    "rega": "Frequente no crescimento; deixar raízes arejadas e sem água retida.",
-    "suporte": "🥇 Placa de madeira ventilada ou suporte mineral com fixação firme.\n🥈 Vaso de barro bem perfurado, adaptado ao porte.\n🥉 Cachepô de madeira com irrigação ajustada à secagem.",
-    "substrato": "🥇 Brita fina + carvão vegetal + casca de pinus grossa; mistura de secagem rápida.\n🥈 Casca de pinus + carvão vegetal + perlita grossa, ajustando granulometria.\n🥉 Casca de pinus + chips de coco + carvão, sem compactar.\n⭐ Montagem em madeira com retenção mínima quando necessária.",
-    "errosComuns": "❌ Exposição solar brusca.\n❌ Substrato compactado ou encharcado.\n❌ Confundir sobrevivência com floração garantida.\n❌ Aplicar repouso seco sem evidência.",
+    "floracao": "A floração depende de brotos maduros, luz adequada e vigor radicular. Relatos de duração prolongada das flores precisam ser confirmados por clone; não é seguro fixar meses sem fenologia publicada verificável.",
+    "adubacao": "🌿 Orgânica: em plantas pequenas, usar bokashi apenas em sachê afastado de raízes e brotos, quando aplicável.\n💧 Mineral/foliar: fertilizante equilibrado a cerca de 1/4 da dose do fabricante durante crescimento ativo, em intervalos ajustados à resposta da planta; evitar pulverizar flores.\n🧪 Liberação lenta: somente em vaso com boa drenagem, em dose muito pequena. Lavar periodicamente o substrato com água limpa para reduzir acúmulo de sais. Suspender aplicações fortes quando raízes estiverem inativas.",
+    "rega": "Regar abundantemente durante a emissão de raízes e brotos; permitir secagem rápida do suporte, sem transformar o cultivo em seca prolongada. Em vaso mineral, avaliar peso, cor das raízes e temperatura antes de repetir a rega. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
+    "suporte": [
+        "🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.",
+        "🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.",
+        "🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.",
+        "🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem."
+    ],
+    "substrato": "🥇 45% brita fina + 30% carvão vegetal + 15% casca de pinus + 10% perlita grossa\n🥈 Ajustar granulometria e retenção à velocidade real de secagem.\n🥉 Em montagem, utilizar apenas reserva hídrica mínima quando necessária.\n⭐ Evitar compactação e pedra-pomes.",
+    "errosComuns": [
+        "Confundir tolerância vegetativa com floração garantida em clima quente.",
+        "Usar sombra profunda ou sol direto forte sem aclimatação.",
+        "Manter raízes abafadas em recipiente grande ou substrato fino.",
+        "Aplicar repouso seco obrigatório sem evidência fenológica.",
+        "Adubar raízes inativas com solução concentrada.",
+        "Ignorar diferenças entre plantas de procedências distintas.",
+        "Fixar meses de floração com base em um único anúncio comercial."
+    ],
     "dica": "Luz e drenagem precisam ser equilibradas; hábito rupícola não significa que a planta recém-adquirida deva receber sol pleno.",
     "revisaoCientificaIAR": {
         "nome": "Acianthera teres",
         "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
-        "cultivoPremiacao": "Recomendações técnicas sintetizadas de fontes horticulturais brasileiras levantadas na pesquisa; não representam consenso de 25 produtores.",
-        "confianca": "parcial",
+        "cultivoPremiacao": "Proposta de manejo derivada de ecologia e recomendações horticulturais brasileiras já levantadas. Nenhuma premiação AOS/OrchidPro foi confirmada; não presumir ausência de premiações.",
+        "confianca": "parcial — faltam validações bibliográficas individuais",
         "fontes": [
-            "BR Orquídea — catálogo comercial (confirma oferta, não método de cultivo)",
-            "Orquidário Aparecida — relatos de cultivo, conforme disponibilidade",
-            "Orquidário Hang / Mogi Mirim / 4 Estações — recomendações consultadas nas etapas anteriores",
-            "POWO/WCVP — taxonomia a conferir individualmente"
+            "POWO / WFO / IPNI — auditoria taxonômica individual pendente",
+            "GBIF / Tropicos / Swiss Orchid Foundation — distribuição e sinonímia a cruzar",
+            "IOSPE / Flora e Funga do Brasil — ecologia e endemismo a conferir",
+            "BHL — protólogo e dimensões florais pendentes",
+            "Orquidário Aparecida, Mogi Mirim, 4 Estações, Hang e outros produtores brasileiros — consultas horticulturais parciais, sem atingir 25 produtores por espécie"
         ],
-        "observacao": "Pontuações são estimativas ponderadas, não probabilidades estatísticas de floração."
+        "observacao": "Pontuações são estimativas ponderadas, não probabilidades estatísticas de floração.",
+        "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
+        "distribuicaoGeografica": "Brasil; ambientes de afloramentos rochosos, com registros em formações abertas e rupestres.",
+        "habitatAltitudeClima": "Predominantemente rupícola em afloramentos rochosos com raízes aderidas a fendas e superfícies muito drenantes; vegetação xeromórfica não equivale a tolerância ilimitada ao sol quente. Quente a intermediário, com alta circulação de ar e forte variação microclimática sobre rochas."
     },
     "indiceDificuldadeCultivo": {
         "versao": "IDC 3.2 — selo por facilidade",
@@ -230,8 +176,8 @@ export const aciantheraTeres = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Compatibilidade estimada 80/100; verificar especialmente floração real sob noites quentes.",
-        "montanhaFrio": "Compatibilidade estimada 80/100; ajustar rega à temperatura e secagem."
+        "litoralQuente": "Compatibilidade estimada 80/100; verificar especialmente floração real sob noites quentes. O índice mede compatibilidade ecológica estimada, não chance percentual de florescer; avaliar sobretudo noites quentes, raízes e procedência.",
+        "montanhaFrio": "Compatibilidade estimada 80/100; ajustar rega à temperatura e secagem. Evitar excesso de água em dias frios e garantir circulação de ar."
     },
     "mesesFloracao": [],
     "selosCultivo": {
@@ -252,5 +198,115 @@ export const aciantheraTeres = {
         "agua": 3,
         "raridade": 3
     },
-    "statusRevisao": "V4 — índices calculados; pesquisa brasileira e fotos pendentes"
+    "statusRevisao": "V4 — conteúdo editorial ampliado; fontes, morfometria e fotografias ainda em auditoria",
+    "sinonimo": "Pleurothallis teres (combinação histórica; autoria a verificar)",
+    "caracteristicas": [
+        "Folhas cilíndricas e suculentas",
+        "Hábito predominantemente rupícola",
+        "Raízes expostas e ventiladas",
+        "Adaptação a secagem rápida",
+        "Floração depende da maturidade dos brotos"
+    ],
+    "formasCultivo": {
+        "perfilVisual": "epifita-ventilada",
+        "destaque": "Placa / tronco",
+        "resumo": "A recomendação principal busca reproduzir o equilíbrio entre umidade disponível e oxigênio radicular. O suporte mais aberto reduz abafamento, mas exige regas mais frequentes; alternativas envasadas estabilizam a umidade ao custo de maior vigilância contra compactação.",
+        "metodos": [
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-tronco",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Método preferencial: Predominantemente rupícola em afloramentos rochosos com raízes aderidas a fendas e superfícies muito drenantes; vegetação xeromórfica não equivale a tolerância ilimitada ao sol quente. Regar abundantemente durante a emissão de raízes e brotos; permitir secagem rápida do suporte, sem transformar o cultivo em seca prolongada. Em vaso mineral, avaliar peso, cor das raízes e temperatura antes de repetir a rega."
+            },
+            {
+                "nome": "Vaso de barro",
+                "asset": "vaso-barro",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Não compactar o substrato e observar a secagem interna."
+            },
+            {
+                "nome": "Cesto de madeira",
+                "asset": "cesto-madeira",
+                "estrelas": 4,
+                "status": "Recomendado",
+                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+            },
+            {
+                "nome": "Árvore viva",
+                "asset": "arvore-viva",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+            }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita técnica para vaso ventilado — proposta, não ensaio experimental",
+        "resumo": "Mistura proposta conforme hábito ecológico, velocidade de secagem e necessidade de oxigênio das raízes.",
+        "justificativa": "A composição é uma inferência horticultural baseada no hábito da espécie, não uma fórmula publicada e validada por 25 produtores. A proporção de materiais deve ser revista conforme granulometria, clima e vaso. Convergências com produtores brasileiros incluem ênfase em drenagem, ventilação e rega ajustada; divergências sobre material orgânico e sombra devem ser tratadas como variação de manejo, não consenso.",
+        "receitaTexto": "45% brita fina + 30% carvão vegetal + 15% casca de pinus + 10% perlita grossa",
+        "perfil": [
+            "Alta aeração",
+            "Drenagem funcional",
+            "Retenção ajustada",
+            "Base da planta exposta",
+            "Baixa compactação"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 2,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 5,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 4,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 1,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [
+            {
+                "asset": "brita-fina",
+                "nome": "Brita fina",
+                "proporcao": "45%",
+                "nota": "função estrutural e hídrica",
+                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+            },
+            {
+                "asset": "carvao-vegetal",
+                "nome": "Carvão vegetal",
+                "proporcao": "30%",
+                "nota": "função estrutural e hídrica",
+                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+            },
+            {
+                "asset": "casca-pinus",
+                "nome": "Casca de pinus",
+                "proporcao": "15%",
+                "nota": "função estrutural e hídrica",
+                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+            },
+            {
+                "asset": "perlita-grossa",
+                "nome": "Perlita grossa",
+                "proporcao": "10%",
+                "nota": "função estrutural e hídrica",
+                "finalidade": "Contribui para manter macroporos e limitar a compactação."
+            }
+        ],
+        "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
+    }
 };
