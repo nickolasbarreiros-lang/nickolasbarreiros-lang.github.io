@@ -1,4 +1,4 @@
-// V4.04 — revisão comparativa com Acianthera auriculata.
+// Revisão V4.05: aprofundamento de diagnóstico e auditoria de lacunas.
 export const stelisCiliaris = {
   "id": "stelis-ciliaris",
   "nome": "Stelis ciliaris",
@@ -8,7 +8,7 @@ export const stelisCiliaris = {
   "fotos": [
     "https://ecuagenera.com/cdn/shop/files/Stelis._ciliaris.jpg?v=1754667689"
   ],
-  "descricao": "Stelis ciliaris pertence à subtribo Pleurothallidinae e produz inflorescências alongadas com pequenas flores cuja margem ciliada é uma característica diagnóstica importante. A identificação definitiva depende da observação das peças florais, sobretudo sépalas, pétalas e labelo, porque várias espécies do grupo compartilham vegetação semelhante. É uma epífita associada a florestas úmidas; registros em ambientes tropicais de menor altitude desaconselham classificá-la automaticamente como espécie obrigatoriamente fria. O desafio no cultivo quente é manter raízes finas ativas sem deixar o suporte permanentemente saturado. A floração pode ser prejudicada tanto por secagem intensa como por falta de luz filtrada.\n\nAs inflorescências alongadas e as flores pequenas com margens ciliadas são úteis na observação, mas a identificação específica deve ser confirmada pela estrutura floral. A planta exige observação atenta das raízes finas: um suporte que seca rapidamente pode produzir estresse mesmo quando a umidade relativa do ambiente parece alta.",
+  "descricao": "Stelis ciliaris pertence à subtribo Pleurothallidinae e produz inflorescências alongadas com pequenas flores cuja margem ciliada é uma característica diagnóstica importante. A identificação definitiva depende da observação das peças florais, sobretudo sépalas, pétalas e labelo, porque várias espécies do grupo compartilham vegetação semelhante. É uma epífita associada a florestas úmidas; registros em ambientes tropicais de menor altitude desaconselham classificá-la automaticamente como espécie obrigatoriamente fria. O desafio no cultivo quente é manter raízes finas ativas sem deixar o suporte permanentemente saturado. A floração pode ser prejudicada tanto por secagem intensa como por falta de luz filtrada.\n\nAs inflorescências alongadas e as flores pequenas com margens ciliadas são úteis na observação, mas a identificação específica deve ser confirmada pela estrutura floral. A planta exige observação atenta das raízes finas: um suporte que seca rapidamente pode produzir estresse mesmo quando a umidade relativa do ambiente parece alta. As flores pequenas e as estruturas ciliadas merecem observação com lente, porque a identificação de Stelis não deve depender apenas da cor de uma fotografia. Raízes finas requerem umidade regular e troca gasosa contínua. O registro de populações em ambientes tropicais baixos impede classificar toda a espécie como exclusivamente de frio; ainda assim, noites quentes e ar parado podem reduzir vigor e floração em cultivo.",
   "origem": "América Tropical",
   "regiao": "América tropical, do sul do México à América do Sul; confirmar limites por base taxonômica.",
   "habitat": "Epífita de florestas úmidas; registros do gênero e da espécie incluem ambientes quentes e intermediários, exigindo avaliação da procedência.",
@@ -23,12 +23,7 @@ export const stelisCiliaris = {
   "floracao": "Há registros de floração em diferentes estações conforme a procedência e o hemisfério. A marcação do calendário reflete registros publicados específicos, não uma estação universal. A formação de inflorescências deve ser acompanhada junto à estabilidade de umidade, ao vigor radicular e à temperatura noturna.",
   "adubacao": "🌿 Orgânica: evitar materiais orgânicos concentrados junto ao colo e às raízes finas; em geral, preferir nutrição mineral controlável.\n💧 Mineral: aplicar fertilizante equilibrado em concentração baixa (aproximadamente 1/4 do rótulo ou menos), durante crescimento ativo; alternar com regas de água limpa para prevenir acúmulo de sais.\n🧪 Liberação lenta: desaconselhada em suporte muito pequeno ou esfagno úmido, onde a liberação e a concentração local são difíceis de controlar. Não adubar intensamente plantas com raízes comprometidas.",
   "rega": "Manter hidratação frequente, especialmente em plantas montadas. Regar quando a superfície começar a perder umidade, sem deixar raízes finas secarem por vários dias e sem manter esfagno compactado constantemente molhado. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
-  "suporte": [
-    "🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.",
-    "🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.",
-    "🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.",
-    "🥈 Vaso plástico vasado — alternativa dependente da ventilação e da velocidade de secagem."
-  ],
+  "suporte": "['🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.', '🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Vaso plástico vasado — alternativa dependente da ventilação e da velocidade de secagem.'] Em placa, use reserva hídrica mínima e rega ajustada à secagem real; a planta não deve passar horas desidratada em calor intenso. Um vaso pequeno pode amortecer a perda de água, desde que o esfagno permaneça solto. Evite recipientes grandes, pois o centro úmido não acompanha a rápida secagem da superfície.",
   "substrato": "🥇 35% casca de pinus pequena + 30% esfagno solto + 20% casca de arroz carbonizada + 15% carvão vegetal pequeno\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
   "errosComuns": [
     "Confundir tolerância vegetativa com floração garantida em clima quente.",
@@ -202,7 +197,7 @@ export const stelisCiliaris = {
     "agua": 4,
     "raridade": 4
   },
-  "statusRevisao": "V4.04 — auditoria comparativa: resumo de cultivo, floração e adaptação regional individualizados; imagens complementares pendentes",
+  "statusRevisao": "V4.05 — aprofundamento ecológico e auditoria de lacunas; imagens complementares pendentes",
   "sinonimo": "Apatostelis ciliaris (combinação histórica; verificar autoria)",
   "caracteristicas": [
     "Pleurothallidinae",
@@ -318,5 +313,11 @@ export const stelisCiliaris = {
     "origem": "Ecuagenera — Stelis ciliaris",
     "url": "https://ecuagenera.com/cdn/shop/files/Stelis._ciliaris.jpg?v=1754667689",
     "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
+  },
+  "observacoesAuditoriaV405": {
+    "galeria": "1 de 4 fotografias cadastradas; faltam 3 imagens com identificação e direitos de uso verificados",
+    "taxonomia": "revisão cruzada POWO/WFO/IPNI/GBIF/Tropicos ainda pendente",
+    "cultivo": "fórmulas são propostas horticulturais, não consenso de 25 produtores brasileiros",
+    "fenologia": "meses são registros reportados, não garantia de floração"
   }
 };

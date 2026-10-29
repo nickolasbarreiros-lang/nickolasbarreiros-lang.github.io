@@ -1,4 +1,4 @@
-// V4.04 — revisão comparativa com Acianthera auriculata.
+// Revisão V4.05: aprofundamento de diagnóstico e auditoria de lacunas.
 export const prosthecheaFragrans = {
   "id": "prosthechea-fragrans",
   "nome": "Prosthechea fragrans",
@@ -8,7 +8,7 @@ export const prosthecheaFragrans = {
   "fotos": [
     "https://bs.plantnet.org/image/o/1640afbb70e63d75ead8e88c817540e7eee60c36"
   ],
-  "descricao": "Prosthechea fragrans é uma epífita simpodial conhecida pela possibilidade de flores perfumadas. A identificação merece atenção porque exemplares brasileiros comercializados sob esse nome podem corresponder a espécies próximas, incluindo Prosthechea aemula; a confirmação requer examinar a flor aberta, não apenas pseudobulbos ou etiqueta comercial. O perfume varia com a idade da flor, temperatura e horário. O ciclo de crescimento alterna emissão de brotos, enraizamento e maturação dos pseudobulbos. Para favorecer a floração, a planta deve completar esse ciclo com iluminação filtrada suficiente, sem excesso de água parada junto às raízes e sem imposição automática de um repouso seco rigoroso.\n\nO nome comercial requer conferência das flores, pois há confusão documentada entre materiais identificados como P. fragrans e P. aemula. Características vegetativas e perfume isoladamente não bastam para identificação conclusiva. Registre fotografias frontais e laterais das flores, coluna e labelo, além da origem da muda.",
+  "descricao": "Prosthechea fragrans é uma epífita simpodial conhecida pela possibilidade de flores perfumadas. A identificação merece atenção porque exemplares brasileiros comercializados sob esse nome podem corresponder a espécies próximas, incluindo Prosthechea aemula; a confirmação requer examinar a flor aberta, não apenas pseudobulbos ou etiqueta comercial. O perfume varia com a idade da flor, temperatura e horário. O ciclo de crescimento alterna emissão de brotos, enraizamento e maturação dos pseudobulbos. Para favorecer a floração, a planta deve completar esse ciclo com iluminação filtrada suficiente, sem excesso de água parada junto às raízes e sem imposição automática de um repouso seco rigoroso.\n\nO nome comercial requer conferência das flores, pois há confusão documentada entre materiais identificados como P. fragrans e P. aemula. Características vegetativas e perfume isoladamente não bastam para identificação conclusiva. Registre fotografias frontais e laterais das flores, coluna e labelo, além da origem da muda. A identidade da planta deve ser conferida com flores abertas, especialmente pela possibilidade de confusão horticultural com Prosthechea aemula. O perfume é uma característica útil para observação, mas isoladamente não confirma a identificação. A floração deve ser relacionada à maturação dos pseudobulbos, à iluminação filtrada e ao estado das raízes, sem pressupor que um repouso seco rigoroso seja necessário.",
   "origem": "América Tropical",
   "regiao": "América tropical; identificação de exemplares brasileiros requer comparação com Prosthechea aemula.",
   "habitat": "Epífita de florestas tropicais; raízes em superfícies drenantes, com umidade ambiental e boa renovação de ar.",
@@ -23,12 +23,7 @@ export const prosthecheaFragrans = {
   "floracao": "Há registros florais entre novembro e janeiro em localidades tropicais estudadas; não extrapolar automaticamente esse calendário para todos os clones ou regiões brasileiras. O principal é acompanhar pseudobulbos maduros, iluminação filtrada e retomada de atividade radicular. A intensidade do perfume pode variar com temperatura e horário.",
   "adubacao": "🌿 Orgânica: se utilizada, aplicar em sachê afastado da base dos pseudobulbos e suspender caso haja fermentação ou umidade persistente.\n💧 Mineral: adubação equilibrada diluída durante a emissão de novos brotos e raízes; reduzir gradualmente quando os pseudobulbos amadurecerem, sem retirar água de forma brusca.\n🧪 Liberação lenta: somente em vaso bem drenado e dose pequena; não usar sobre placa. Lavagens com água limpa ajudam a controlar sais, especialmente em recipientes de pouco volume.",
   "rega": "Regar durante a fase de raízes ativas e crescimento dos pseudobulbos; permitir que a camada superficial perca umidade entre regas. Reduzir moderadamente quando a atividade desacelerar, sem secagem radical. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
-  "suporte": [
-    "🥇 Vaso de barro — melhor relação entre aeração e hidratação quando corretamente manejado.",
-    "🥈 Placa / tronco — alternativa dependente da ventilação e da velocidade de secagem.",
-    "🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.",
-    "🥈 Vaso plástico vasado — alternativa dependente da ventilação e da velocidade de secagem."
-  ],
+  "suporte": "['🥇 Vaso de barro — melhor relação entre aeração e hidratação quando corretamente manejado.', '🥈 Placa / tronco — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Vaso plástico vasado — alternativa dependente da ventilação e da velocidade de secagem.'] Use vaso pequeno e muito ventilado para manter umidade breve durante a emissão de raízes. Ao amadurecerem os pseudobulbos, ajuste a frequência à secagem real em vez de impor calendário fixo. Em placa, redobre atenção à desidratação; em cesto, preserve macroporos; em árvore, observe o sombreamento sazonal.",
   "substrato": "🥇 45% casca de pinus média + 25% carvão vegetal + 20% casca de arroz carbonizada + 10% perlita grossa\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
   "errosComuns": [
     "Confundir tolerância vegetativa com floração garantida em clima quente.",
@@ -202,7 +197,7 @@ export const prosthecheaFragrans = {
     "agua": 3,
     "raridade": 3
   },
-  "statusRevisao": "V4.04 — auditoria comparativa: resumo de cultivo, floração e adaptação regional individualizados; imagens complementares pendentes",
+  "statusRevisao": "V4.05 — aprofundamento ecológico e auditoria de lacunas; imagens complementares pendentes",
   "sinonimo": "Epidendrum fragrans (combinação histórica; confirmar autoria)",
   "caracteristicas": [
     "Epífita simpodial",
@@ -318,5 +313,11 @@ export const prosthecheaFragrans = {
     "origem": "Pl@ntNet — Prosthechea fragrans",
     "url": "https://bs.plantnet.org/image/o/1640afbb70e63d75ead8e88c817540e7eee60c36",
     "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
+  },
+  "observacoesAuditoriaV405": {
+    "galeria": "1 de 4 fotografias cadastradas; faltam 3 imagens com identificação e direitos de uso verificados",
+    "taxonomia": "revisão cruzada POWO/WFO/IPNI/GBIF/Tropicos ainda pendente",
+    "cultivo": "fórmulas são propostas horticulturais, não consenso de 25 produtores brasileiros",
+    "fenologia": "meses são registros reportados, não garantia de floração"
   }
 };

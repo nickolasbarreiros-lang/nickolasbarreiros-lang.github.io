@@ -1,4 +1,4 @@
-// V4.04 — revisão comparativa com Acianthera auriculata.
+// Revisão V4.05: aprofundamento de diagnóstico e auditoria de lacunas.
 export const dinemaPolybulbon = {
   "id": "dinema-polybulbon",
   "nome": "Dinema polybulbon",
@@ -8,7 +8,7 @@ export const dinemaPolybulbon = {
   "fotos": [
     "https://ecuagenera.com/cdn/shop/files/Dinema_polybulbon._1024x1024.jpg?v=1758991091"
   ],
-  "descricao": "Dinema polybulbon é uma miniatura epífita de crescimento rastejante, formando numerosos pseudobulbos pequenos conectados por rizomas que se espalham sobre a superfície do suporte. A expansão lateral é parte essencial do hábito da espécie: recipientes profundos ou o enterramento do rizoma escondem a área de crescimento e dificultam a ventilação. As flores são pequenas e surgem em plantas estabelecidas, com diversos pseudobulbos maduros. Relatos horticulturais divergem quanto à intensidade do perfume e à estação predominante de floração; essas características devem ser registradas como variáveis, não como certeza universal. O cultivo mais previsível combina suporte amplo, luz filtrada, umidade breve e boa circulação de ar.\n\nA expansão horizontal do rizoma e a produção de numerosos pseudobulbos pequenos favorecem suportes amplos e rasos, com fixação delicada. Enterrar os rizomas em mistura fina reduz ventilação justamente na zona de brotação. Uma touceira madura pode florescer em vários pontos, mas isso depende do crescimento acumulado e das condições do ciclo.",
+  "descricao": "Dinema polybulbon é uma miniatura epífita de crescimento rastejante, formando numerosos pseudobulbos pequenos conectados por rizomas que se espalham sobre a superfície do suporte. A expansão lateral é parte essencial do hábito da espécie: recipientes profundos ou o enterramento do rizoma escondem a área de crescimento e dificultam a ventilação. As flores são pequenas e surgem em plantas estabelecidas, com diversos pseudobulbos maduros. Relatos horticulturais divergem quanto à intensidade do perfume e à estação predominante de floração; essas características devem ser registradas como variáveis, não como certeza universal. O cultivo mais previsível combina suporte amplo, luz filtrada, umidade breve e boa circulação de ar.\n\nA expansão horizontal do rizoma e a produção de numerosos pseudobulbos pequenos favorecem suportes amplos e rasos, com fixação delicada. Enterrar os rizomas em mistura fina reduz ventilação justamente na zona de brotação. Uma touceira madura pode florescer em vários pontos, mas isso depende do crescimento acumulado e das condições do ciclo. O rizoma se expande horizontalmente e pode formar tapetes de pseudobulbos pequenos. O cultivo deve preservar essa arquitetura: enterrar a haste rastejante em mistura fina favorece apodrecimento e dificulta novos enraizamentos. A floração tende a ser mais representativa em touceiras estabelecidas; relatos de perfume divergem e precisam ser avaliados no exemplar em flor, não presumidos.",
   "origem": "América Tropical",
   "regiao": "América tropical; verificar extensão e eventuais lacunas de distribuição no POWO/GBIF.",
   "habitat": "Epífita de pequeno porte, com pseudobulbos agrupados ou espaçados sobre suportes, beneficiada por boa aeração.",
@@ -23,12 +23,7 @@ export const dinemaPolybulbon = {
   "floracao": "Produtores brasileiros relatam floração principalmente no outono e inverno, mas existem observações de flores em outras estações. O calendário indica os meses mais frequentemente relatados, não exclusividade. Para obter flores, preserve uma touceira com vários pseudobulbos maduros e evite dividir ou remanejar repetidamente a planta.",
   "adubacao": "🌿 Orgânica: evitar cobertura orgânica espessa sobre rizomas e pseudobulbos; usar sachê remoto apenas se necessário.\n💧 Mineral: doses fracas de fertilizante equilibrado (aproximadamente 1/4 do rótulo) durante expansão dos rizomas e emissão de raízes, com lavagens frequentes do suporte.\n🧪 Liberação lenta: geralmente pouco prática em placa e cesto pequeno; em vaso raso, usar apenas quantidade mínima, longe dos brotos. Reduzir adubação em crescimento lento sem desidratar os pseudobulbos.",
   "rega": "Regar regularmente durante a formação de novos pseudobulbos. Em montagem, a secagem pode ser rápida e exigir hidratação diária no calor; em vaso, esperar perda parcial da umidade superficial. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
-  "suporte": [
-    "🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.",
-    "🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.",
-    "🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.",
-    "🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem."
-  ],
+  "suporte": "['🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.', '🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem.'] A madeira oferece superfície para a expansão lateral e facilita inspecionar as raízes. Em vaso raso, distribua a planta sobre o substrato sem cobrir o rizoma; em cesto, proteja contra secagem excessiva; em árvore viva, escolha casca aderente e monitore a fixação durante os primeiros brotos.",
   "substrato": "🥇 35% casca de pinus pequena + 25% carvão vegetal pequeno + 25% esfagno solto + 15% casca de arroz carbonizada\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
   "errosComuns": [
     "Confundir tolerância vegetativa com floração garantida em clima quente.",
@@ -205,7 +200,7 @@ export const dinemaPolybulbon = {
     "agua": 4,
     "raridade": 4
   },
-  "statusRevisao": "V4.04 — auditoria comparativa: resumo de cultivo, floração e adaptação regional individualizados; imagens complementares pendentes",
+  "statusRevisao": "V4.05 — aprofundamento ecológico e auditoria de lacunas; imagens complementares pendentes",
   "sinonimo": "Epidendrum polybulbon (basiônimo histórico; verificar autoria)",
   "caracteristicas": [
     "Miniatura epífita rastejante",
@@ -321,5 +316,11 @@ export const dinemaPolybulbon = {
     "origem": "Ecuagenera — Dinema polybulbon",
     "url": "https://ecuagenera.com/cdn/shop/files/Dinema_polybulbon._1024x1024.jpg?v=1758991091",
     "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
+  },
+  "observacoesAuditoriaV405": {
+    "galeria": "1 de 4 fotografias cadastradas; faltam 3 imagens com identificação e direitos de uso verificados",
+    "taxonomia": "revisão cruzada POWO/WFO/IPNI/GBIF/Tropicos ainda pendente",
+    "cultivo": "fórmulas são propostas horticulturais, não consenso de 25 produtores brasileiros",
+    "fenologia": "meses são registros reportados, não garantia de floração"
   }
 };

@@ -1,4 +1,4 @@
-// V4.04 — revisão comparativa com Acianthera auriculata.
+// Revisão V4.05: aprofundamento de diagnóstico e auditoria de lacunas.
 export const isabeliaPulchella = {
   "id": "isabelia-pulchella",
   "nome": "Isabelia pulchella",
@@ -8,7 +8,7 @@ export const isabeliaPulchella = {
   "fotos": [
     "https://www.lacanopee.com/781-large_default/isabelia-pulchella-sur-plaque.jpg"
   ],
-  "descricao": "Isabelia pulchella é uma miniatura epífita de crescimento progressivo, com rizoma rastejante, pseudobulbos diminutos e raízes finas que se fixam à superfície do suporte. A denominação Neolauchea pulchella aparece na literatura horticultural e deve ser tratada como referência nomenclatural histórica, não como segunda espécie. Em plantas pequenas, a perda de um único broto ou de um segmento radicular representa proporção importante da touceira. As flores delicadas aparecem em estruturas curtas e sua observação depende de plantas estabelecidas. No cultivo, a combinação mais delicada é conservar umidade junto às raízes sem abafamento, especialmente quando as noites permanecem quentes.\n\nO rizoma rastejante e os pseudobulbos pequenos tornam a espécie sensível ao tamanho do recipiente e à perda brusca de umidade na superfície. Uma placa pequena permite acompanhar a expansão dos brotos e a formação de raízes, mas pode secar depressa demais em dias de vento quente. O cultivo deve favorecer sucessivos crescimentos completos, não apenas a sobrevivência de uma touceira reduzida.",
+  "descricao": "Isabelia pulchella é uma miniatura epífita de crescimento progressivo, com rizoma rastejante, pseudobulbos diminutos e raízes finas que se fixam à superfície do suporte. A denominação Neolauchea pulchella aparece na literatura horticultural e deve ser tratada como referência nomenclatural histórica, não como segunda espécie. Em plantas pequenas, a perda de um único broto ou de um segmento radicular representa proporção importante da touceira. As flores delicadas aparecem em estruturas curtas e sua observação depende de plantas estabelecidas. No cultivo, a combinação mais delicada é conservar umidade junto às raízes sem abafamento, especialmente quando as noites permanecem quentes.\n\nO rizoma rastejante e os pseudobulbos pequenos tornam a espécie sensível ao tamanho do recipiente e à perda brusca de umidade na superfície. Uma placa pequena permite acompanhar a expansão dos brotos e a formação de raízes, mas pode secar depressa demais em dias de vento quente. O cultivo deve favorecer sucessivos crescimentos completos, não apenas a sobrevivência de uma touceira reduzida. O crescimento é rastejante e exige espaço lateral para a emissão de novos pseudobulbos; recipientes profundos não oferecem vantagem para raízes superficiais. A presença de vários pseudobulbos maduros é um indicador mais útil de capacidade de floração que o tamanho de uma única folha. Em litoral quente, a avaliação deve distinguir crescimento vegetativo satisfatório de indução floral sob noites continuamente elevadas.",
   "origem": "Brasil",
   "regiao": "Brasil; ocorrência associada a ambientes florestais e regiões com variação sazonal de temperatura.",
   "habitat": "Epífita miniaturizada, com raízes delicadas que se beneficiam de suportes ventilados e umidade regular.",
@@ -23,12 +23,7 @@ export const isabeliaPulchella = {
   "floracao": "Produtores brasileiros relatam floração principalmente na primavera, com registros divergentes de outras estações. O calendário indica uma janela observada, não exigência fixa. Para avaliar ausência de flores, registre a maturação dos pseudobulbos, a intensidade de luz filtrada e, especialmente, se houve noites mais frescas durante o ciclo.",
   "adubacao": "🌿 Orgânica: em miniatura de raízes delicadas, não encostar bokashi no rizoma; se necessário, manter pequena fonte orgânica fora do contato direto.\n💧 Mineral: adubação equilibrada muito diluída (até cerca de 1/4 do rótulo) apenas durante brotação e enraizamento; regar com água limpa entre aplicações para evitar acúmulo em placa.\n🧪 Liberação lenta: geralmente dispensável em placa pequena; grânulos próximos de raízes finas podem causar salinização localizada. No período de crescimento lento, diminuir a adubação antes de diminuir drasticamente a umidade.",
   "rega": "Em placa, umedecer as raízes com frequência e observar a velocidade de secagem. Uma pequena camada de esfagno solto pode retardar a desidratação; excesso de material úmido junto à base favorece apodrecimento. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
-  "suporte": [
-    "🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.",
-    "🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.",
-    "🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.",
-    "🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem."
-  ],
+  "suporte": "['🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.', '🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem.'] A montagem em pequena placa favorece expansão horizontal e aeração. Uma quantidade mínima de esfagno pode proteger raízes finas, mas deve ficar solta. Em vaso raso, evite cobrir o rizoma; em cesto, o risco é desidratação rápida; em árvore viva, a principal limitação é controlar a umidade nas semanas de fixação.",
   "substrato": "🥇 40% casca de pinus pequena + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
   "errosComuns": [
     "Confundir tolerância vegetativa com floração garantida em clima quente.",
@@ -203,7 +198,7 @@ export const isabeliaPulchella = {
     "agua": 3,
     "raridade": 3
   },
-  "statusRevisao": "V4.04 — auditoria comparativa: resumo de cultivo, floração e adaptação regional individualizados; imagens complementares pendentes",
+  "statusRevisao": "V4.05 — aprofundamento ecológico e auditoria de lacunas; imagens complementares pendentes",
   "sinonimo": "Neolauchea pulchella (sinônimo histórico)",
   "caracteristicas": [
     "Miniatura epífita",
@@ -319,5 +314,11 @@ export const isabeliaPulchella = {
     "origem": "La Canopée — Isabelia pulchella",
     "url": "https://www.lacanopee.com/781-large_default/isabelia-pulchella-sur-plaque.jpg",
     "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
+  },
+  "observacoesAuditoriaV405": {
+    "galeria": "1 de 4 fotografias cadastradas; faltam 3 imagens com identificação e direitos de uso verificados",
+    "taxonomia": "revisão cruzada POWO/WFO/IPNI/GBIF/Tropicos ainda pendente",
+    "cultivo": "fórmulas são propostas horticulturais, não consenso de 25 produtores brasileiros",
+    "fenologia": "meses são registros reportados, não garantia de floração"
   }
 };

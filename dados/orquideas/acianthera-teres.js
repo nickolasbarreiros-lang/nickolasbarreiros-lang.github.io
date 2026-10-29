@@ -1,4 +1,4 @@
-// V4.04 — revisão comparativa com Acianthera auriculata.
+// Revisão V4.05: aprofundamento de diagnóstico e auditoria de lacunas.
 export const aciantheraTeres = {
   "id": "acianthera-teres",
   "nome": "Acianthera teres",
@@ -8,7 +8,7 @@ export const aciantheraTeres = {
   "fotos": [
     "https://www.orchidspecies.com/orphotdir/pleurotteres.jpg"
   ],
-  "descricao": "Acianthera teres distingue-se pela arquitetura compacta e pelas folhas carnosas, quase cilíndricas, que armazenam água e reduzem a superfície exposta. O conjunto vegetativo é adaptado a microambientes rochosos onde a água escorre depressa, mas há umidade intermitente em fendas e sobre superfícies protegidas. A posição das inflorescências entre os brotos e a coloração das flores devem ser conferidas em exemplares floridos, pois material apenas vegetativo pode ser confundido com táxons próximos. A aparência xeromórfica não demonstra exigência de sol pleno: raízes e folhas podem superaquecer em vaso ou placa expostos. Em cultivo, interessa reproduzir a drenagem rápida, a boa luminosidade filtrada e a ventilação, acompanhando a firmeza das folhas e a emissão de novas raízes.\n\nAs folhas quase cilíndricas funcionam como reservatório hídrico e indicam exposição natural em ambientes de drenagem extrema. Isso não permite inferir tolerância irrestrita ao sol em cultivo: rochas, vento, altitude, orientação do afloramento e temperatura do sistema radicular modificam a exposição efetiva. Para distinguir uma planta vegetativamente saudável de uma planta apta a florescer, acompanhe a maturação dos novos ramicaules, a firmeza das folhas e o histórico de luminosidade durante o ciclo de crescimento.",
+  "descricao": "Acianthera teres distingue-se pela arquitetura compacta e pelas folhas carnosas, quase cilíndricas, que armazenam água e reduzem a superfície exposta. O conjunto vegetativo é adaptado a microambientes rochosos onde a água escorre depressa, mas há umidade intermitente em fendas e sobre superfícies protegidas. A posição das inflorescências entre os brotos e a coloração das flores devem ser conferidas em exemplares floridos, pois material apenas vegetativo pode ser confundido com táxons próximos. A aparência xeromórfica não demonstra exigência de sol pleno: raízes e folhas podem superaquecer em vaso ou placa expostos. Em cultivo, interessa reproduzir a drenagem rápida, a boa luminosidade filtrada e a ventilação, acompanhando a firmeza das folhas e a emissão de novas raízes.\n\nAs folhas quase cilíndricas funcionam como reservatório hídrico e indicam exposição natural em ambientes de drenagem extrema. Isso não permite inferir tolerância irrestrita ao sol em cultivo: rochas, vento, altitude, orientação do afloramento e temperatura do sistema radicular modificam a exposição efetiva. Para distinguir uma planta vegetativamente saudável de uma planta apta a florescer, acompanhe a maturação dos novos ramicaules, a firmeza das folhas e o histórico de luminosidade durante o ciclo de crescimento. O principal sinal de adaptação não é a cor da folha isoladamente: observe se os novos ramicaules ficam firmes, se há raízes ativas aderidas ao suporte e se a planta emite inflorescências depois da maturação. Em plantas vindas de sombreamento, aumente a claridade em etapas, sem expor a folha cilíndrica a superfícies que acumulam calor. A aparência xeromórfica explica a tolerância a secagens curtas, mas não comprova necessidade de repouso seco.",
   "origem": "América Tropical",
   "regiao": "Brasil; ambientes de afloramentos rochosos, com registros em formações abertas e rupestres.",
   "habitat": "Predominantemente rupícola em afloramentos rochosos com raízes aderidas a fendas e superfícies muito drenantes; vegetação xeromórfica não equivale a tolerância ilimitada ao sol quente.",
@@ -23,12 +23,7 @@ export const aciantheraTeres = {
   "floracao": "Registros sazonais indicam floração entre dezembro e fevereiro em populações brasileiras; o período não deve ser tratado como universal. As flores surgem em plantas que completaram crescimento vegetativo e receberam claridade suficiente, sem superaquecimento das folhas e das raízes. Registre no exemplar cultivado a idade dos brotos e a duração de cada inflorescência.",
   "adubacao": "🌿 Orgânica: não depositar bokashi diretamente sobre as folhas cilíndricas ou na base da touceira; em recipiente pequeno, usar apenas sachê afastado das raízes, se necessário.\n💧 Mineral: durante emissão de brotos e raízes, aplicar solução equilibrada bem diluída (aproximadamente 1/4 da dose indicada no rótulo), alternando com água limpa.\n🧪 Liberação lenta: evitar em placa e em vaso muito pequeno, pois a concentração local pode ser elevada; se usada, escolher dose mínima e monitorar sais. Reduzir a frequência quando o crescimento parar, sem impor repouso seco artificial.",
   "rega": "Regar abundantemente durante a emissão de raízes e brotos; permitir secagem rápida do suporte, sem transformar o cultivo em seca prolongada. Em vaso mineral, avaliar peso, cor das raízes e temperatura antes de repetir a rega. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
-  "suporte": [
-    "🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.",
-    "🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.",
-    "🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.",
-    "🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem."
-  ],
+  "suporte": "['🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.', '🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem.'] Em montagem mineral, a fixação deve impedir deslocamentos sem enterrar a base. Na madeira, a vantagem é aeração, mas o cultivo se afasta do substrato rupícola natural: exige regas mais regulares e inspeção de desidratação. Em vaso de barro, a receita mineral é apenas uma alternativa, devendo ser ajustada ao tamanho das raízes.",
   "substrato": "🥇 45% brita fina + 25% carvão vegetal + 20% casca de pinus + 10% perlita grossa\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
   "errosComuns": [
     "Confundir tolerância vegetativa com floração garantida em clima quente.",
@@ -203,7 +198,7 @@ export const aciantheraTeres = {
     "agua": 3,
     "raridade": 3
   },
-  "statusRevisao": "V4.04 — auditoria comparativa: resumo de cultivo, floração e adaptação regional individualizados; imagens complementares pendentes",
+  "statusRevisao": "V4.05 — aprofundamento ecológico e auditoria de lacunas; imagens complementares pendentes",
   "sinonimo": "Pleurothallis teres (combinação histórica; autoria a verificar)",
   "caracteristicas": [
     "Folhas carnosas quase cilíndricas",
@@ -319,5 +314,11 @@ export const aciantheraTeres = {
     "origem": "IOSPE — Pleurothallis teres",
     "url": "https://www.orchidspecies.com/orphotdir/pleurotteres.jpg",
     "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
+  },
+  "observacoesAuditoriaV405": {
+    "galeria": "1 de 4 fotografias cadastradas; faltam 3 imagens com identificação e direitos de uso verificados",
+    "taxonomia": "revisão cruzada POWO/WFO/IPNI/GBIF/Tropicos ainda pendente",
+    "cultivo": "fórmulas são propostas horticulturais, não consenso de 25 produtores brasileiros",
+    "fenologia": "meses são registros reportados, não garantia de floração"
   }
 };

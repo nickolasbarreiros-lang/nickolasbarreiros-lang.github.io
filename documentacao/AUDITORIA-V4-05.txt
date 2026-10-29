@@ -1,0 +1,14 @@
+AUDITORIA V4.05 — 6 espécies
+
+Revisão de textos de diagnóstico ecológico e decisões de manejo. NÃO foram fabricados links para as 18 imagens faltantes. O site enviado não contém fotos dessas seis espécies; cada ficha continua com apenas 1 link externo, não verificado quanto a disponibilidade e licença.
+
+Acianthera teres: fotos 1/4; formas 4/4; substrato 100%; descrição 1749 caracteres
+Isabelia pulchella: fotos 1/4; formas 4/4; substrato 100%; descrição 1504 caracteres
+Stelis ciliaris: fotos 1/4; formas 4/4; substrato 100%; descrição 1470 caracteres
+Prosthechea vespa: fotos 1/4; formas 4/4; substrato 100%; descrição 1431 caracteres
+Prosthechea fragrans: fotos 1/4; formas 4/4; substrato 100%; descrição 1436 caracteres
+Dinema polybulbon: fotos 1/4; formas 4/4; substrato 100%; descrição 1462 caracteres
+
+PENDÊNCIAS: 18 fotografias identificadas e autorizadas; auditoria taxonômica completa; revisão de 25 produtores brasileiros por espécie; confirmação das fontes de fenologia.
+
+Nenhuma alteração em index.js, manifesto, CSS ou renderizador.

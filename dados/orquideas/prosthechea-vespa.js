@@ -1,4 +1,4 @@
-// V4.04 — revisão comparativa com Acianthera auriculata.
+// Revisão V4.05: aprofundamento de diagnóstico e auditoria de lacunas.
 export const prosthecheaVespa = {
   "id": "prosthechea-vespa",
   "nome": "Prosthechea vespa",
@@ -8,7 +8,7 @@ export const prosthecheaVespa = {
   "fotos": [
     "https://garden.org/pics/2016-12-21/robertduval14/3a78c7.jpg"
   ],
-  "descricao": "Prosthechea vespa é uma orquídea epífita de crescimento simpodial, com pseudobulbos que armazenam água e sustentam folhas coriáceas. A inflorescência pode portar diversas flores de padrão contrastante; forma, manchas e posição do labelo são úteis para confirmar a identificação em floração. O crescimento sazonal é marcado pela emissão de novos brotos e, posteriormente, pela maturação dos pseudobulbos. Essa sequência deve orientar rega e adubação: raízes novas absorvem melhor nutrientes e uma planta com pseudobulbos ainda imaturos não deve ser submetida a seca severa. O manejo ideal privilegia luz filtrada relativamente clara, raízes oxigenadas e recipiente estável.\n\nO crescimento simpodial permite interpretar o ciclo pela emissão de brotos, raízes e amadurecimento dos pseudobulbos. A reserva de água dos pseudobulbos não elimina a necessidade de umidade durante a formação de novas raízes. Em cultivo, a posição do rizoma e a estabilidade do vaso são determinantes para que os brotos não apodreçam.",
+  "descricao": "Prosthechea vespa é uma orquídea epífita de crescimento simpodial, com pseudobulbos que armazenam água e sustentam folhas coriáceas. A inflorescência pode portar diversas flores de padrão contrastante; forma, manchas e posição do labelo são úteis para confirmar a identificação em floração. O crescimento sazonal é marcado pela emissão de novos brotos e, posteriormente, pela maturação dos pseudobulbos. Essa sequência deve orientar rega e adubação: raízes novas absorvem melhor nutrientes e uma planta com pseudobulbos ainda imaturos não deve ser submetida a seca severa. O manejo ideal privilegia luz filtrada relativamente clara, raízes oxigenadas e recipiente estável.\n\nO crescimento simpodial permite interpretar o ciclo pela emissão de brotos, raízes e amadurecimento dos pseudobulbos. A reserva de água dos pseudobulbos não elimina a necessidade de umidade durante a formação de novas raízes. Em cultivo, a posição do rizoma e a estabilidade do vaso são determinantes para que os brotos não apodreçam. A planta cresce de forma simpodial e armazena recursos em pseudobulbos; acompanhe a emissão de raízes novas para decidir a época de replante. Uma haste floral bem formada depende de brotos que completem o desenvolvimento sob luminosidade filtrada suficiente, e não de adubação concentrada perto da floração. A distribuição altitudinal ampla relatada para a espécie exige cautela ao generalizar uma única temperatura ideal.",
   "origem": "América Tropical",
   "regiao": "América tropical; registros em ampla faixa de altitude, inclusive regiões relativamente baixas.",
   "habitat": "Epífita de ambientes florestais e, em alguns registros, associada a locais mais expostos; raízes requerem aeração e drenagem.",
@@ -23,12 +23,7 @@ export const prosthecheaVespa = {
   "floracao": "Relatos horticulturais indicam florescimento do fim da primavera ao verão, com variações regionais. O ciclo depende de novos pseudobulbos bem formados e de iluminação adequada. A ausência de floração exige verificar se os crescimentos atingiram maturidade, antes de reduzir drasticamente água ou adubação.",
   "adubacao": "🌿 Orgânica: sachê de adubo orgânico afastado dos brotos e das raízes novas, em pequena quantidade, apenas se a drenagem for excelente.\n💧 Mineral: fertilizante equilibrado diluído (cerca de 1/4 do rótulo) durante crescimento dos pseudobulbos; acompanhar formação de raízes e lavar o vaso periodicamente com água limpa.\n🧪 Liberação lenta: pode ser considerada em vaso bem drenado e planta vigorosa, sempre em dose conservadora. Reduzir adubação após amadurecimento dos brotos; não confundir menor demanda com repouso seco obrigatório.",
   "rega": "Regar mais durante crescimento ativo e formação de pseudobulbos; após amadurecimento, espaçar de acordo com a secagem real, sem impor repouso seco não documentado. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
-  "suporte": [
-    "🥇 Vaso de barro — melhor relação entre aeração e hidratação quando corretamente manejado.",
-    "🥈 Placa / tronco — alternativa dependente da ventilação e da velocidade de secagem.",
-    "🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.",
-    "🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem."
-  ],
+  "suporte": "['🥇 Vaso de barro — melhor relação entre aeração e hidratação quando corretamente manejado.', '🥈 Placa / tronco — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem.'] Em vaso ventilado, mantenha os pseudobulbos acima da mistura e preserve espaço para novos brotos. Em montagem, a secagem é mais rápida e a irrigação precisa acompanhar o crescimento. Cestos oferecem boa drenagem, mas exigem monitoramento de desidratação; a árvore viva reduz controle sobre a umidade e a exposição.",
   "substrato": "🥇 45% casca de pinus média + 25% carvão vegetal + 20% brita fina + 10% perlita grossa\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
   "errosComuns": [
     "Confundir tolerância vegetativa com floração garantida em clima quente.",
@@ -203,7 +198,7 @@ export const prosthecheaVespa = {
     "agua": 3,
     "raridade": 3
   },
-  "statusRevisao": "V4.04 — auditoria comparativa: resumo de cultivo, floração e adaptação regional individualizados; imagens complementares pendentes",
+  "statusRevisao": "V4.05 — aprofundamento ecológico e auditoria de lacunas; imagens complementares pendentes",
   "sinonimo": "Encyclia vespa (combinação histórica; confirmar autoria)",
   "caracteristicas": [
     "Epífita simpodial",
@@ -319,5 +314,11 @@ export const prosthecheaVespa = {
     "origem": "Garden.org — Prosthechea vespa",
     "url": "https://garden.org/pics/2016-12-21/robertduval14/3a78c7.jpg",
     "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
+  },
+  "observacoesAuditoriaV405": {
+    "galeria": "1 de 4 fotografias cadastradas; faltam 3 imagens com identificação e direitos de uso verificados",
+    "taxonomia": "revisão cruzada POWO/WFO/IPNI/GBIF/Tropicos ainda pendente",
+    "cultivo": "fórmulas são propostas horticulturais, não consenso de 25 produtores brasileiros",
+    "fenologia": "meses são registros reportados, não garantia de floração"
   }
 };
