@@ -1,0 +1,14 @@
+REVISÃO 02 — 29/10/2026
+STATUS: NÃO PUBLICAR COMO FICHA FINAL. Não foram auditados 25 produtores brasileiros por espécie, nem calculados IDC 3.2 / IAR 2.0.
+
+Acianthera teres: CNCFlora/JBRJ e Rodriguesia documentam ocorrência rupícola em afloramentos, folhas carnosas e subcilíndricas. Exposição natural não implica sol pleno seguro em vasos no litoral quente. Alterado provisoriamente para Permitido com restrição e 30-50% sombra, estimativa técnica não validada por 25 produtores.
+Prosthechea vespa: POWO espécie aceita, nativa do sudeste brasileiro, epífita ou litófita. Descrições horticulturais de distribuição mais ampla podem envolver confusão taxonômica.
+Prosthechea fragrans: POWO espécie aceita, distribuição incluindo norte do Brasil; estudo Synopsis of Orchidaceae in the northern lowland Atlantic Forest (Acta Botanica Brasilica) esclarece confusão com P. aemula em registros nordestinos. Identidade de planta comprada pendente de fotografia floral.
+Isabelia pulchella: não extrapolar cartão de cultivo da AOS para Isabelia virginalis; verificar a espécie nominal antes de adotar manejo.
+Stelis ciliaris e Dinema polybulbon: consulta horticultural brasileira insuficiente nesta etapa; parâmetros permanecem preliminares.
+Fontes verificadas:
+https://proflora.jbrj.gov.br/html/Acianthera%20teres_2012.html
+https://new.scielo.br/j/rod/a/F7w6Stqr8Q7ktJD6g7mJqdK/
+https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1001313-1
+https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1001253-1
+https://www.scielo.br/j/abb/a/hmDjbnQfdycm8kNCXpJygcq/?lang=en
