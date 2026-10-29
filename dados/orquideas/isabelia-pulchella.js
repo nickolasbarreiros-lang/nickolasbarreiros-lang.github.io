@@ -1,4 +1,4 @@
-// Revisão V4 — conteúdo específico, sem inventar fotos ou alterar índices.
+// V4.04 — revisão comparativa com Acianthera auriculata.
 export const isabeliaPulchella = {
   "id": "isabelia-pulchella",
   "nome": "Isabelia pulchella",
@@ -20,7 +20,7 @@ export const isabeliaPulchella = {
     "horario": "",
     "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
   },
-  "floracao": "Primavera segundo Orquidário Aparecida, Hang e 4 Estações; existem registros divergentes de outono/inverno, por isso não representa calendário exclusivo.",
+  "floracao": "Produtores brasileiros relatam floração principalmente na primavera, com registros divergentes de outras estações. O calendário indica uma janela observada, não exigência fixa. Para avaliar ausência de flores, registre a maturação dos pseudobulbos, a intensidade de luz filtrada e, especialmente, se houve noites mais frescas durante o ciclo.",
   "adubacao": "🌿 Orgânica: em miniatura de raízes delicadas, não encostar bokashi no rizoma; se necessário, manter pequena fonte orgânica fora do contato direto.\n💧 Mineral: adubação equilibrada muito diluída (até cerca de 1/4 do rótulo) apenas durante brotação e enraizamento; regar com água limpa entre aplicações para evitar acúmulo em placa.\n🧪 Liberação lenta: geralmente dispensável em placa pequena; grânulos próximos de raízes finas podem causar salinização localizada. No período de crescimento lento, diminuir a adubação antes de diminuir drasticamente a umidade.",
   "rega": "Em placa, umedecer as raízes com frequência e observar a velocidade de secagem. Uma pequena camada de esfagno solto pode retardar a desidratação; excesso de material úmido junto à base favorece apodrecimento. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
   "suporte": [
@@ -176,8 +176,9 @@ export const isabeliaPulchella = {
     }
   },
   "adaptacaoRegional": {
-    "litoralQuente": "Compatibilidade estimada 52/100; verificar especialmente floração real sob noites quentes. O índice mede compatibilidade ecológica estimada, não chance percentual de florescer; avaliar sobretudo noites quentes, raízes e procedência.",
-    "montanhaFrio": "Compatibilidade estimada 97/100; ajustar rega à temperatura e secagem. Evitar excesso de água em dias frios e garantir circulação de ar."
+    "litoralQuente": "Principal limitação potencial: noites continuamente quentes podem permitir crescimento sem assegurar indução floral. Evite aumentar o sol como compensação automática. Teste posição ventilada com redução natural da temperatura noturna, preservando raízes hidratadas e observando a floração por mais de um ciclo.",
+    "montanhaFrio": "Noites mais frescas tendem a oferecer condições mais próximas às de registros montanos, desde que o suporte não permaneça frio e saturado. Reduza regas somente quando a secagem ficar lenta; não imponha dormência seca sem evidência.",
+    "montanhaFria": ""
   },
   "mesesFloracao": [
     9,
@@ -202,7 +203,7 @@ export const isabeliaPulchella = {
     "agua": 3,
     "raridade": 3
   },
-  "statusRevisao": "V4 — revisão 03: indução floral e diagnóstico de manejo por espécie; 3 imagens adicionais pendentes",
+  "statusRevisao": "V4.04 — auditoria comparativa: resumo de cultivo, floração e adaptação regional individualizados; imagens complementares pendentes",
   "sinonimo": "Neolauchea pulchella (sinônimo histórico)",
   "caracteristicas": [
     "Miniatura epífita",
@@ -215,7 +216,7 @@ export const isabeliaPulchella = {
   "formasCultivo": {
     "perfilVisual": "epifita-ventilada",
     "destaque": "Placa / tronco",
-    "resumo": "Métodos avaliados segundo o hábito e a fisiologia desta espécie. A escolha principal pressupõe manejo correto da rega; as alternativas exigem ajustes específicos de retenção, ventilação e fixação.",
+    "resumo": "A espécie possui crescimento compacto e rizoma rastejante: o suporte deve permitir expansão horizontal sem soterrar os pseudobulbos. A montagem pequena em madeira com fina reserva de umidade favorece raízes expostas; vaso raso é alternativa para quem não consegue irrigar montagens com frequência.",
     "metodos": [
       {
         "nome": "Placa / tronco",

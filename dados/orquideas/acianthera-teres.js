@@ -1,4 +1,4 @@
-// Revisão V4 — conteúdo específico, sem inventar fotos ou alterar índices.
+// V4.04 — revisão comparativa com Acianthera auriculata.
 export const aciantheraTeres = {
   "id": "acianthera-teres",
   "nome": "Acianthera teres",
@@ -20,7 +20,7 @@ export const aciantheraTeres = {
     "horario": "Somente início da manhã",
     "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
   },
-  "floracao": "Dezembro a fevereiro: registros de floração em populações brasileiras estudadas; outras localidades e cultivos podem variar.",
+  "floracao": "Registros sazonais indicam floração entre dezembro e fevereiro em populações brasileiras; o período não deve ser tratado como universal. As flores surgem em plantas que completaram crescimento vegetativo e receberam claridade suficiente, sem superaquecimento das folhas e das raízes. Registre no exemplar cultivado a idade dos brotos e a duração de cada inflorescência.",
   "adubacao": "🌿 Orgânica: não depositar bokashi diretamente sobre as folhas cilíndricas ou na base da touceira; em recipiente pequeno, usar apenas sachê afastado das raízes, se necessário.\n💧 Mineral: durante emissão de brotos e raízes, aplicar solução equilibrada bem diluída (aproximadamente 1/4 da dose indicada no rótulo), alternando com água limpa.\n🧪 Liberação lenta: evitar em placa e em vaso muito pequeno, pois a concentração local pode ser elevada; se usada, escolher dose mínima e monitorar sais. Reduzir a frequência quando o crescimento parar, sem impor repouso seco artificial.",
   "rega": "Regar abundantemente durante a emissão de raízes e brotos; permitir secagem rápida do suporte, sem transformar o cultivo em seca prolongada. Em vaso mineral, avaliar peso, cor das raízes e temperatura antes de repetir a rega. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
   "suporte": [
@@ -176,8 +176,9 @@ export const aciantheraTeres = {
     }
   },
   "adaptacaoRegional": {
-    "litoralQuente": "Compatibilidade estimada 80/100; verificar especialmente floração real sob noites quentes. O índice mede compatibilidade ecológica estimada, não chance percentual de florescer; avaliar sobretudo noites quentes, raízes e procedência.",
-    "montanhaFrio": "Compatibilidade estimada 80/100; ajustar rega à temperatura e secagem. Evitar excesso de água em dias frios e garantir circulação de ar."
+    "litoralQuente": "Em clima quente, a sobrevivência pode ser boa se o suporte não superaquecer; para florescer, priorize maturação dos brotos e luminosidade filtrada alta. Sombra excessiva pode favorecer folhas sem indução floral, enquanto sol forte sobre rocha ou madeira seca pode danificar raízes. O IAR 80/100 não é probabilidade de florescer.",
+    "montanhaFrio": "A maior amplitude térmica pode reduzir o aquecimento radicular e facilitar aclimatação à luz, mas não substitui rega ajustada ao suporte. Em períodos frios e chuvosos, prolongue o intervalo de secagem sem criar repouso seco obrigatório.",
+    "montanhaFria": ""
   },
   "mesesFloracao": [
     12,
@@ -202,7 +203,7 @@ export const aciantheraTeres = {
     "agua": 3,
     "raridade": 3
   },
-  "statusRevisao": "V4 — revisão 03: indução floral e diagnóstico de manejo por espécie; 3 imagens adicionais pendentes",
+  "statusRevisao": "V4.04 — auditoria comparativa: resumo de cultivo, floração e adaptação regional individualizados; imagens complementares pendentes",
   "sinonimo": "Pleurothallis teres (combinação histórica; autoria a verificar)",
   "caracteristicas": [
     "Folhas carnosas quase cilíndricas",
@@ -215,7 +216,7 @@ export const aciantheraTeres = {
   "formasCultivo": {
     "perfilVisual": "epifita-ventilada",
     "destaque": "Placa / tronco",
-    "resumo": "Métodos avaliados segundo o hábito e a fisiologia desta espécie. A escolha principal pressupõe manejo correto da rega; as alternativas exigem ajustes específicos de retenção, ventilação e fixação.",
+    "resumo": "Por ser predominantemente rupícola, a prioridade é manter raízes firmemente aderidas, ventiladas e com secagem rápida após a rega. A placa é uma solução de cultivo, não uma afirmação de que a espécie seja naturalmente epífita. Para quem não consegue regar suportes diariamente, um vaso baixo e muito drenante pode ser mais seguro.",
     "metodos": [
       {
         "nome": "Placa / tronco",

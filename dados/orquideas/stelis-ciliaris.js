@@ -1,4 +1,4 @@
-// Revisão V4 — conteúdo específico, sem inventar fotos ou alterar índices.
+// V4.04 — revisão comparativa com Acianthera auriculata.
 export const stelisCiliaris = {
   "id": "stelis-ciliaris",
   "nome": "Stelis ciliaris",
@@ -20,7 +20,7 @@ export const stelisCiliaris = {
     "horario": "",
     "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
   },
-  "floracao": "Outubro: registro brasileiro em cultivo publicado em Rodriguésia; fim do outono e começo do inverno em descrições internacionais, conforme hemisfério.",
+  "floracao": "Há registros de floração em diferentes estações conforme a procedência e o hemisfério. A marcação do calendário reflete registros publicados específicos, não uma estação universal. A formação de inflorescências deve ser acompanhada junto à estabilidade de umidade, ao vigor radicular e à temperatura noturna.",
   "adubacao": "🌿 Orgânica: evitar materiais orgânicos concentrados junto ao colo e às raízes finas; em geral, preferir nutrição mineral controlável.\n💧 Mineral: aplicar fertilizante equilibrado em concentração baixa (aproximadamente 1/4 do rótulo ou menos), durante crescimento ativo; alternar com regas de água limpa para prevenir acúmulo de sais.\n🧪 Liberação lenta: desaconselhada em suporte muito pequeno ou esfagno úmido, onde a liberação e a concentração local são difíceis de controlar. Não adubar intensamente plantas com raízes comprometidas.",
   "rega": "Manter hidratação frequente, especialmente em plantas montadas. Regar quando a superfície começar a perder umidade, sem deixar raízes finas secarem por vários dias e sem manter esfagno compactado constantemente molhado. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
   "suporte": [
@@ -175,8 +175,9 @@ export const stelisCiliaris = {
     }
   },
   "adaptacaoRegional": {
-    "litoralQuente": "Compatibilidade estimada 68/100; verificar especialmente floração real sob noites quentes. O índice mede compatibilidade ecológica estimada, não chance percentual de florescer; avaliar sobretudo noites quentes, raízes e procedência.",
-    "montanhaFrio": "Compatibilidade estimada 80/100; ajustar rega à temperatura e secagem. Evitar excesso de água em dias frios e garantir circulação de ar."
+    "litoralQuente": "O habitat inclui ambientes tropicais quentes e úmidos, portanto não é correto classificá-la automaticamente como planta de frio. No litoral, o risco maior é a combinação de calor, ar parado e raízes desidratadas. Favoreça umidade ambiental estável, sombra filtrada e ventilação; monitore se a planta floresce, não apenas se vegeta.",
+    "montanhaFrio": "A temperatura mais amena pode reduzir estresse hídrico, mas o substrato demora mais a secar. Preserve umidade regular sem manter esfagno constantemente encharcado; aeração das raízes continua essencial.",
+    "montanhaFria": ""
   },
   "mesesFloracao": [
     10,
@@ -201,7 +202,7 @@ export const stelisCiliaris = {
     "agua": 4,
     "raridade": 4
   },
-  "statusRevisao": "V4 — revisão 03: indução floral e diagnóstico de manejo por espécie; 3 imagens adicionais pendentes",
+  "statusRevisao": "V4.04 — auditoria comparativa: resumo de cultivo, floração e adaptação regional individualizados; imagens complementares pendentes",
   "sinonimo": "Apatostelis ciliaris (combinação histórica; verificar autoria)",
   "caracteristicas": [
     "Pleurothallidinae",
@@ -214,7 +215,7 @@ export const stelisCiliaris = {
   "formasCultivo": {
     "perfilVisual": "epifita-ventilada",
     "destaque": "Placa / tronco",
-    "resumo": "Métodos avaliados segundo o hábito e a fisiologia desta espécie. A escolha principal pressupõe manejo correto da rega; as alternativas exigem ajustes específicos de retenção, ventilação e fixação.",
+    "resumo": "Raízes finas exigem equilíbrio particularmente delicado entre água disponível e oxigênio. Placa pequena com camada mínima de esfagno solto permite observar a hidratação; vaso muito pequeno e perfurado pode reduzir a frequência de rega, mas aumenta o risco de saturação se o material for compacto.",
     "metodos": [
       {
         "nome": "Placa / tronco",

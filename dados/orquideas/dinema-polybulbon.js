@@ -1,4 +1,4 @@
-// Revisão V4 — conteúdo específico, sem inventar fotos ou alterar índices.
+// V4.04 — revisão comparativa com Acianthera auriculata.
 export const dinemaPolybulbon = {
   "id": "dinema-polybulbon",
   "nome": "Dinema polybulbon",
@@ -20,7 +20,7 @@ export const dinemaPolybulbon = {
     "horario": "Somente início da manhã",
     "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
   },
-  "floracao": "Outono e inverno segundo produtores brasileiros; uma segunda floração na primavera é relatada por Juan Pablo Heller.",
+  "floracao": "Produtores brasileiros relatam floração principalmente no outono e inverno, mas existem observações de flores em outras estações. O calendário indica os meses mais frequentemente relatados, não exclusividade. Para obter flores, preserve uma touceira com vários pseudobulbos maduros e evite dividir ou remanejar repetidamente a planta.",
   "adubacao": "🌿 Orgânica: evitar cobertura orgânica espessa sobre rizomas e pseudobulbos; usar sachê remoto apenas se necessário.\n💧 Mineral: doses fracas de fertilizante equilibrado (aproximadamente 1/4 do rótulo) durante expansão dos rizomas e emissão de raízes, com lavagens frequentes do suporte.\n🧪 Liberação lenta: geralmente pouco prática em placa e cesto pequeno; em vaso raso, usar apenas quantidade mínima, longe dos brotos. Reduzir adubação em crescimento lento sem desidratar os pseudobulbos.",
   "rega": "Regar regularmente durante a formação de novos pseudobulbos. Em montagem, a secagem pode ser rápida e exigir hidratação diária no calor; em vaso, esperar perda parcial da umidade superficial. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
   "suporte": [
@@ -58,7 +58,7 @@ export const dinemaPolybulbon = {
   "indiceDificuldadeCultivo": {
     "versao": "IDC 3.2 — selo por facilidade",
     "escala": "dificuldade",
-    "indice": 30.0,
+    "indice": 30,
     "classificacao": "Moderada",
     "cultivoEstrelas": 4,
     "criterios": {
@@ -176,8 +176,9 @@ export const dinemaPolybulbon = {
     }
   },
   "adaptacaoRegional": {
-    "litoralQuente": "Compatibilidade estimada 86/100; verificar especialmente floração real sob noites quentes. O índice mede compatibilidade ecológica estimada, não chance percentual de florescer; avaliar sobretudo noites quentes, raízes e procedência.",
-    "montanhaFrio": "Compatibilidade estimada 80/100; ajustar rega à temperatura e secagem. Evitar excesso de água em dias frios e garantir circulação de ar."
+    "litoralQuente": "Tende a crescer bem em clima quente úmido quando recebe luz filtrada e ventilação; em placa, o risco é ressecar completamente as raízes superficiais. Para favorecer floração, mantenha a touceira estável até acumular pseudobulbos maduros, sem impor seca severa.",
+    "montanhaFrio": "Com evaporação mais lenta, reduza frequência de irrigação, mas não deixe a montagem passar longos períodos totalmente seca. O rizoma deve continuar superficial e ventilado; vigie manchas em períodos úmidos e frios.",
+    "montanhaFria": ""
   },
   "mesesFloracao": [
     4,
@@ -204,7 +205,7 @@ export const dinemaPolybulbon = {
     "agua": 4,
     "raridade": 4
   },
-  "statusRevisao": "V4 — revisão 03: indução floral e diagnóstico de manejo por espécie; 3 imagens adicionais pendentes",
+  "statusRevisao": "V4.04 — auditoria comparativa: resumo de cultivo, floração e adaptação regional individualizados; imagens complementares pendentes",
   "sinonimo": "Epidendrum polybulbon (basiônimo histórico; verificar autoria)",
   "caracteristicas": [
     "Miniatura epífita rastejante",
@@ -217,7 +218,7 @@ export const dinemaPolybulbon = {
   "formasCultivo": {
     "perfilVisual": "epifita-ventilada",
     "destaque": "Placa / tronco",
-    "resumo": "Métodos avaliados segundo o hábito e a fisiologia desta espécie. A escolha principal pressupõe manejo correto da rega; as alternativas exigem ajustes específicos de retenção, ventilação e fixação.",
+    "resumo": "O rizoma rastejante produz pseudobulbos sucessivos e se beneficia de superfície horizontal para se expandir. Placa ou cesto aberto permite crescimento lateral; a planta deve ser fixada sem cobrir rizoma e brotos. A pequena massa de raízes exige observação diária da secagem em tempo quente.",
     "metodos": [
       {
         "nome": "Placa / tronco",

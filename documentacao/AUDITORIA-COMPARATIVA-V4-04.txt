@@ -1,0 +1,7 @@
+AUDITORIA COMPARATIVA V4.04 — SEIS FICHAS
+Referência: Acianthera auriculata (arquivo JS no ZIP do site enviado).
+Alterações efetivas: seis resumos de cultivo, seis textos de floração, doze avaliações regionais reescritas de forma específica.
+Não foram inseridas fotografias não verificadas. Cada ficha mantém uma foto externa; faltam 18 fotos para atingir quatro por espécie.
+Os dados de floração existentes permanecem indicativos, não calendário garantido.
+Preservados: índices IDC/IAR, estrelas, avaliações, proporções de substrato, fotos existentes, index.js e manifesto.
+AVISO: este patch NÃO constitui validação taxonômica integral ou revisão de 25 produtores por espécie.

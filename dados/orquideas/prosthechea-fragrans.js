@@ -1,4 +1,4 @@
-// Revisão V4 — conteúdo específico, sem inventar fotos ou alterar índices.
+// V4.04 — revisão comparativa com Acianthera auriculata.
 export const prosthecheaFragrans = {
   "id": "prosthechea-fragrans",
   "nome": "Prosthechea fragrans",
@@ -20,7 +20,7 @@ export const prosthecheaFragrans = {
     "horario": "Somente início da manhã",
     "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
   },
-  "floracao": "Novembro a janeiro documentado em flora de Barro Colorado; observações em novembro na Costa Rica. Não extrapolar como época obrigatória brasileira.",
+  "floracao": "Há registros florais entre novembro e janeiro em localidades tropicais estudadas; não extrapolar automaticamente esse calendário para todos os clones ou regiões brasileiras. O principal é acompanhar pseudobulbos maduros, iluminação filtrada e retomada de atividade radicular. A intensidade do perfume pode variar com temperatura e horário.",
   "adubacao": "🌿 Orgânica: se utilizada, aplicar em sachê afastado da base dos pseudobulbos e suspender caso haja fermentação ou umidade persistente.\n💧 Mineral: adubação equilibrada diluída durante a emissão de novos brotos e raízes; reduzir gradualmente quando os pseudobulbos amadurecerem, sem retirar água de forma brusca.\n🧪 Liberação lenta: somente em vaso bem drenado e dose pequena; não usar sobre placa. Lavagens com água limpa ajudam a controlar sais, especialmente em recipientes de pouco volume.",
   "rega": "Regar durante a fase de raízes ativas e crescimento dos pseudobulbos; permitir que a camada superficial perca umidade entre regas. Reduzir moderadamente quando a atividade desacelerar, sem secagem radical. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
   "suporte": [
@@ -57,7 +57,7 @@ export const prosthecheaFragrans = {
   "indiceDificuldadeCultivo": {
     "versao": "IDC 3.2 — selo por facilidade",
     "escala": "dificuldade",
-    "indice": 37.0,
+    "indice": 37,
     "classificacao": "Moderada",
     "cultivoEstrelas": 3,
     "criterios": {
@@ -175,8 +175,9 @@ export const prosthecheaFragrans = {
     }
   },
   "adaptacaoRegional": {
-    "litoralQuente": "Compatibilidade estimada 80/100; verificar especialmente floração real sob noites quentes. O índice mede compatibilidade ecológica estimada, não chance percentual de florescer; avaliar sobretudo noites quentes, raízes e procedência.",
-    "montanhaFrio": "Compatibilidade estimada 80/100; ajustar rega à temperatura e secagem. Evitar excesso de água em dias frios e garantir circulação de ar."
+    "litoralQuente": "O calor pode ser compatível com o crescimento, mas a floração depende de pseudobulbos maduros, raízes funcionais e boa claridade sem queimar folhas. Não aplique repouso seco forte para forçar flores. Confirme a identificação quando abrir a flor, especialmente diante da semelhança com P. aemula.",
+    "montanhaFrio": "Temperaturas moderadas podem favorecer a duração floral, mas exigem menor frequência de rega se a secagem desacelerar. Evite água retida nas bainhas e mantenha ventilação durante noites frias.",
+    "montanhaFria": ""
   },
   "mesesFloracao": [
     11,
@@ -201,7 +202,7 @@ export const prosthecheaFragrans = {
     "agua": 3,
     "raridade": 3
   },
-  "statusRevisao": "V4 — revisão 03: indução floral e diagnóstico de manejo por espécie; 3 imagens adicionais pendentes",
+  "statusRevisao": "V4.04 — auditoria comparativa: resumo de cultivo, floração e adaptação regional individualizados; imagens complementares pendentes",
   "sinonimo": "Epidendrum fragrans (combinação histórica; confirmar autoria)",
   "caracteristicas": [
     "Epífita simpodial",
@@ -214,7 +215,7 @@ export const prosthecheaFragrans = {
   "formasCultivo": {
     "perfilVisual": "epifita-ventilada",
     "destaque": "Vaso de barro",
-    "resumo": "Métodos avaliados segundo o hábito e a fisiologia desta espécie. A escolha principal pressupõe manejo correto da rega; as alternativas exigem ajustes específicos de retenção, ventilação e fixação.",
+    "resumo": "Espécie de pseudobulbos e flores frequentemente aromáticas: um vaso arejado permite manter umidade moderada enquanto raízes e novos crescimentos estão ativos. O nome comercial exige cautela de identificação porque há confusão histórica com espécies próximas, especialmente P. aemula.",
     "metodos": [
       {
         "nome": "Vaso de barro",

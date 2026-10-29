@@ -1,4 +1,4 @@
-// Revisão V4 — conteúdo específico, sem inventar fotos ou alterar índices.
+// V4.04 — revisão comparativa com Acianthera auriculata.
 export const prosthecheaVespa = {
   "id": "prosthechea-vespa",
   "nome": "Prosthechea vespa",
@@ -20,7 +20,7 @@ export const prosthecheaVespa = {
     "horario": "Somente início da manhã",
     "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
   },
-  "floracao": "Do fim da primavera a meados do verão, segundo Orquídeas Gaúchas; o período varia com a região.",
+  "floracao": "Relatos horticulturais indicam florescimento do fim da primavera ao verão, com variações regionais. O ciclo depende de novos pseudobulbos bem formados e de iluminação adequada. A ausência de floração exige verificar se os crescimentos atingiram maturidade, antes de reduzir drasticamente água ou adubação.",
   "adubacao": "🌿 Orgânica: sachê de adubo orgânico afastado dos brotos e das raízes novas, em pequena quantidade, apenas se a drenagem for excelente.\n💧 Mineral: fertilizante equilibrado diluído (cerca de 1/4 do rótulo) durante crescimento dos pseudobulbos; acompanhar formação de raízes e lavar o vaso periodicamente com água limpa.\n🧪 Liberação lenta: pode ser considerada em vaso bem drenado e planta vigorosa, sempre em dose conservadora. Reduzir adubação após amadurecimento dos brotos; não confundir menor demanda com repouso seco obrigatório.",
   "rega": "Regar mais durante crescimento ativo e formação de pseudobulbos; após amadurecimento, espaçar de acordo com a secagem real, sem impor repouso seco não documentado. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
   "suporte": [
@@ -175,8 +175,9 @@ export const prosthecheaVespa = {
     }
   },
   "adaptacaoRegional": {
-    "litoralQuente": "Compatibilidade estimada 97/100; verificar especialmente floração real sob noites quentes. O índice mede compatibilidade ecológica estimada, não chance percentual de florescer; avaliar sobretudo noites quentes, raízes e procedência.",
-    "montanhaFrio": "Compatibilidade estimada 80/100; ajustar rega à temperatura e secagem. Evitar excesso de água em dias frios e garantir circulação de ar."
+    "litoralQuente": "Boa compatibilidade estimada com ambiente quente, desde que haja ventilação, luz filtrada suficiente e raízes saudáveis. A formação de pseudobulbos completos é indicador mais útil do que apenas o número de brotos. IAR 97/100 expressa compatibilidade, não chance de florescer.",
+    "montanhaFrio": "Em períodos mais frios, a evaporação diminui; mantenha o substrato ventilado e reduza regas conforme a secagem. Não trate qualquer pausa de crescimento como necessidade de repouso seco rigoroso.",
+    "montanhaFria": ""
   },
   "mesesFloracao": [
     11,
@@ -202,7 +203,7 @@ export const prosthecheaVespa = {
     "agua": 3,
     "raridade": 3
   },
-  "statusRevisao": "V4 — revisão 03: indução floral e diagnóstico de manejo por espécie; 3 imagens adicionais pendentes",
+  "statusRevisao": "V4.04 — auditoria comparativa: resumo de cultivo, floração e adaptação regional individualizados; imagens complementares pendentes",
   "sinonimo": "Encyclia vespa (combinação histórica; confirmar autoria)",
   "caracteristicas": [
     "Epífita simpodial",
@@ -215,7 +216,7 @@ export const prosthecheaVespa = {
   "formasCultivo": {
     "perfilVisual": "epifita-ventilada",
     "destaque": "Vaso de barro",
-    "resumo": "Métodos avaliados segundo o hábito e a fisiologia desta espécie. A escolha principal pressupõe manejo correto da rega; as alternativas exigem ajustes específicos de retenção, ventilação e fixação.",
+    "resumo": "O crescimento por pseudobulbos favorece cultivo em recipiente firme e arejado, com espaço para a próxima frente de crescimento. O melhor momento de reenvasar é o surgimento de raízes novas; mudanças quando a planta está sem raízes ativas aumentam risco de desidratação e atrasam a floração.",
     "metodos": [
       {
         "nome": "Vaso de barro",
