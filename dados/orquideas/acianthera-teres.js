@@ -1,4 +1,4 @@
-// Ficha V4 — correção de composição total 100%, imagens externas de referência e fenologia documentada.
+// Ficha V4 — clima para floração distinto de calendário fenológico.
 export const aciantheraTeres = {
     "id": "acianthera-teres",
     "nome": "Acianthera teres",
@@ -13,7 +13,7 @@ export const aciantheraTeres = {
     "regiao": "Brasil; ambientes de afloramentos rochosos, com registros em formações abertas e rupestres.",
     "habitat": "Predominantemente rupícola em afloramentos rochosos com raízes aderidas a fendas e superfícies muito drenantes; vegetação xeromórfica não equivale a tolerância ilimitada ao sol quente.",
     "clima": "Quente a intermediário, com alta circulação de ar e forte variação microclimática sobre rochas.",
-    "climaFloracao": "Dezembro a fevereiro: registros de floração em populações brasileiras estudadas; outras localidades e cultivos podem variar.",
+    "climaFloracao": "Clima quente a intermediário, com luminosidade filtrada relativamente alta e ventilação intensa. A indução floral depende principalmente do amadurecimento dos brotos, da manutenção de raízes funcionais e de boa disponibilidade de luz sem superaquecimento das folhas. Não há comprovação suficiente de que uma queda térmica noturna acentuada ou repouso seco obrigatório sejam necessários. Em ambiente litorâneo, priorizar a secagem rápida após a rega e evitar calor acumulado no suporte.",
     "iluminacao": {
         "sombrite": "50% a 70% como ponto de partida",
         "solDireto": "Permitido com restrição",

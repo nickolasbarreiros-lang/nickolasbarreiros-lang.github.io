@@ -1,4 +1,4 @@
-// Ficha V4 — correção de composição total 100%, imagens externas de referência e fenologia documentada.
+// Ficha V4 — clima para floração distinto de calendário fenológico.
 export const dinemaPolybulbon = {
     "id": "dinema-polybulbon",
     "nome": "Dinema polybulbon",
@@ -13,7 +13,7 @@ export const dinemaPolybulbon = {
     "regiao": "América tropical; verificar extensão e eventuais lacunas de distribuição no POWO/GBIF.",
     "habitat": "Epífita de pequeno porte, com pseudobulbos agrupados ou espaçados sobre suportes, beneficiada por boa aeração.",
     "clima": "Quente a intermediário, úmido e ventilado; ajustar exposição à procedência.",
-    "climaFloracao": "Outono e inverno segundo produtores brasileiros; uma segunda floração na primavera é relatada por Juan Pablo Heller.",
+    "climaFloracao": "Clima quente a intermediário, úmido e bem ventilado, com luz filtrada e raízes que molham e secam rapidamente sobre o suporte. A floração depende sobretudo de touceira estabelecida e pseudobulbos maduros; alguma sazonalidade de temperatura e umidade pode influenciar o ciclo, mas não há comprovação de necessidade de choque térmico ou repouso seco rígido. No litoral quente, evitar tanto desidratação prolongada quanto esfagno permanentemente encharcado.",
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Permitido com restrição",

@@ -1,4 +1,4 @@
-// Ficha V4 — correção de composição total 100%, imagens externas de referência e fenologia documentada.
+// Ficha V4 — clima para floração distinto de calendário fenológico.
 export const prosthecheaFragrans = {
     "id": "prosthechea-fragrans",
     "nome": "Prosthechea fragrans",
@@ -13,7 +13,7 @@ export const prosthecheaFragrans = {
     "regiao": "América tropical; identificação de exemplares brasileiros requer comparação com Prosthechea aemula.",
     "habitat": "Epífita de florestas tropicais; raízes em superfícies drenantes, com umidade ambiental e boa renovação de ar.",
     "clima": "Quente a intermediário conforme procedência; evitar superaquecimento de vasos.",
-    "climaFloracao": "Novembro a janeiro documentado em flora de Barro Colorado; observações em novembro na Costa Rica. Não extrapolar como época obrigatória brasileira.",
+    "climaFloracao": "Clima quente a intermediário, com umidade regular na fase de crescimento, luz filtrada e noites moderadas quando disponíveis. Para favorecer hastes florais, permitir que os pseudobulbos completem a maturação e evitar raízes constantemente saturadas. Após a maturação, ajustar a frequência de rega à secagem real do vaso, sem estabelecer seca severa ou quebra térmica obrigatória. A identidade botânica deve ser confirmada na floração, pois há confusão documentada com espécies próximas.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",

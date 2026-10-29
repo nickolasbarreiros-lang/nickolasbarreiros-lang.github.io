@@ -1,4 +1,4 @@
-// Ficha V4 — correção de composição total 100%, imagens externas de referência e fenologia documentada.
+// Ficha V4 — clima para floração distinto de calendário fenológico.
 export const isabeliaPulchella = {
     "id": "isabelia-pulchella",
     "nome": "Isabelia pulchella",
@@ -13,7 +13,7 @@ export const isabeliaPulchella = {
     "regiao": "Brasil; ocorrência associada a ambientes florestais e regiões com variação sazonal de temperatura.",
     "habitat": "Epífita miniaturizada, com raízes delicadas que se beneficiam de suportes ventilados e umidade regular.",
     "clima": "Intermediário a fresco; noites excessivamente quentes podem limitar a indução floral em determinadas procedências.",
-    "climaFloracao": "Primavera segundo Orquidário Aparecida, Hang e 4 Estações; existem registros divergentes de outono/inverno, por isso não representa calendário exclusivo.",
+    "climaFloracao": "Clima intermediário a ameno, com noites mais frescas favorecendo a maturação dos pseudobulbos e possivelmente a indução floral. Em litoral quente, o desafio principal é o excesso de calor noturno persistente, não a falta de regas. Manter luz filtrada, umidade equilibrada e ventilação; uma redução moderada de água após o crescimento pode acompanhar a sazonalidade, mas não deve virar repouso seco rigoroso sem evidência da procedência. A exigência de quebra térmica ainda não está quantificada para a espécie.",
     "iluminacao": {
         "sombrite": "60% a 80%",
         "solDireto": "Não permitido",

@@ -1,0 +1,1 @@
+Corrigido climaFloracao nas seis fichas: agora descreve condições térmicas, hídricas, luminosas e fenológicas necessárias ou favoráveis à floração, sem repetir os meses. floracao e mesesFloracao foram preservados. Não foram alterados índices, manifesto ou assets. As exigências térmicas não comprovadas são explicitamente identificadas como incertas.

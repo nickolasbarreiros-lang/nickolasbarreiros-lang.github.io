@@ -1,4 +1,4 @@
-// Ficha V4 — correção de composição total 100%, imagens externas de referência e fenologia documentada.
+// Ficha V4 — clima para floração distinto de calendário fenológico.
 export const prosthecheaVespa = {
     "id": "prosthechea-vespa",
     "nome": "Prosthechea vespa",
@@ -13,7 +13,7 @@ export const prosthecheaVespa = {
     "regiao": "América tropical; registros em ampla faixa de altitude, inclusive regiões relativamente baixas.",
     "habitat": "Epífita de ambientes florestais e, em alguns registros, associada a locais mais expostos; raízes requerem aeração e drenagem.",
     "clima": "Quente a intermediário; boa possibilidade de crescimento em clima quente com luminosidade e ventilação adequadas.",
-    "climaFloracao": "Do fim da primavera a meados do verão, segundo Orquídeas Gaúchas; o período varia com a região.",
+    "climaFloracao": "Clima quente a intermediário, com boa claridade filtrada, circulação de ar e alternância entre molhamento e secagem parcial do substrato. A floração é favorecida por pseudobulbos novos bem desenvolvidos e amadurecidos; manter rega e nutrição durante o crescimento, reduzindo apenas o excesso de umidade quando a atividade radicular desacelerar. Não existe evidência suficiente para exigir frio intenso ou repouso seco prolongado como condição obrigatória.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",

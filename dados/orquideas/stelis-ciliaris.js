@@ -1,4 +1,4 @@
-// Ficha V4 — correção de composição total 100%, imagens externas de referência e fenologia documentada.
+// Ficha V4 — clima para floração distinto de calendário fenológico.
 export const stelisCiliaris = {
     "id": "stelis-ciliaris",
     "nome": "Stelis ciliaris",
@@ -13,7 +13,7 @@ export const stelisCiliaris = {
     "regiao": "América tropical, do sul do México à América do Sul; confirmar limites por base taxonômica.",
     "habitat": "Epífita de florestas úmidas; registros do gênero e da espécie incluem ambientes quentes e intermediários, exigindo avaliação da procedência.",
     "clima": "Quente a intermediário conforme procedência e altitude; umidade atmosférica elevada e circulação contínua.",
-    "climaFloracao": "Outubro: registro brasileiro em cultivo publicado em Rodriguésia; fim do outono e começo do inverno em descrições internacionais, conforme hemisfério.",
+    "climaFloracao": "Clima úmido, quente a intermediário conforme a procedência, com temperaturas estáveis, noites sem calor excessivo, sombra filtrada e ventilação contínua. O fator crítico para emitir hastes é conservar raízes finas ativas e umidade atmosférica elevada sem abafamento. Registros de populações em baixas altitudes impedem tratá-la como obrigatoriamente fria. Não há base para impor repouso seco ou choque térmico como gatilho universal de floração.",
     "iluminacao": {
         "sombrite": "70% a 80%",
         "solDireto": "Não permitido",
