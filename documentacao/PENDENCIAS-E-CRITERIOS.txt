@@ -1,0 +1,7 @@
+REVISÃO 02 — 6 fichas
+
+Implementado: aprofundamento individualizado do texto botânico e das ressalvas de manejo; correção editorial da distinção entre dados observados e inferências; 6 arquivos JavaScript sintaticamente válidos.
+
+PENDÊNCIAS NÃO RESOLVIDAS: 18 fotos (3 por ficha), checagem de links externos e licenças, validação cruzada POWO/WFO/IPNI/GBIF/Tropicos, morfometria em literatura primária, 25 produtores brasileiros por espécie, e validação experimental de misturas. Não foram inventadas fotos nem dados de fontes.
+
+Índice e manifesto não incluídos nem alterados.
