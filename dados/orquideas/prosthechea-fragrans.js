@@ -23,7 +23,7 @@ export const prosthecheaFragrans = {
   "floracao": "Há registros florais entre novembro e janeiro em localidades tropicais estudadas; não extrapolar automaticamente esse calendário para todos os clones ou regiões brasileiras. O principal é acompanhar pseudobulbos maduros, iluminação filtrada e retomada de atividade radicular. A intensidade do perfume pode variar com temperatura e horário.",
   "adubacao": "🌿 Orgânica: se utilizada, aplicar em sachê afastado da base dos pseudobulbos e suspender caso haja fermentação ou umidade persistente.\n💧 Mineral: adubação equilibrada diluída durante a emissão de novos brotos e raízes; reduzir gradualmente quando os pseudobulbos amadurecerem, sem retirar água de forma brusca.\n🧪 Liberação lenta: somente em vaso bem drenado e dose pequena; não usar sobre placa. Lavagens com água limpa ajudam a controlar sais, especialmente em recipientes de pouco volume.",
   "rega": "Regar durante a fase de raízes ativas e crescimento dos pseudobulbos; permitir que a camada superficial perca umidade entre regas. Reduzir moderadamente quando a atividade desacelerar, sem secagem radical. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
-  "suporte": "['🥇 Vaso de barro — melhor relação entre aeração e hidratação quando corretamente manejado.', '🥈 Placa / tronco — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Vaso plástico vasado — alternativa dependente da ventilação e da velocidade de secagem.'] Use vaso pequeno e muito ventilado para manter umidade breve durante a emissão de raízes. Ao amadurecerem os pseudobulbos, ajuste a frequência à secagem real em vez de impor calendário fixo. Em placa, redobre atenção à desidratação; em cesto, preserve macroporos; em árvore, observe o sombreamento sazonal.",
+  "suporte": "Consulte as quatro opções individualizadas em Formas de cultivo. O método principal e as três alternativas apresentam vantagens, limitações e manejo próprios; escolha considerando secagem do suporte, temperatura das raízes e frequência de rega disponível. Use vaso pequeno e muito ventilado para manter umidade breve durante a emissão de raízes. Ao amadurecerem os pseudobulbos, ajuste a frequência à secagem real em vez de impor calendário fixo. Em placa, redobre atenção à desidratação; em cesto, preserve macroporos; em árvore, observe o sombreamento sazonal.",
   "substrato": "🥇 45% casca de pinus média + 25% carvão vegetal + 20% casca de arroz carbonizada + 10% perlita grossa\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
   "errosComuns": [
     "Confundir tolerância vegetativa com floração garantida em clima quente.",
@@ -197,7 +197,7 @@ export const prosthecheaFragrans = {
     "agua": 3,
     "raridade": 3
   },
-  "statusRevisao": "V4.05 — aprofundamento ecológico e auditoria de lacunas; imagens complementares pendentes",
+  "statusRevisao": "V4.06 — integridade estrutural auditada; galeria incompleta e validação externa pendente",
   "sinonimo": "Epidendrum fragrans (combinação histórica; confirmar autoria)",
   "caracteristicas": [
     "Epífita simpodial",

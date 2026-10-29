@@ -23,7 +23,7 @@ export const dinemaPolybulbon = {
   "floracao": "Produtores brasileiros relatam floração principalmente no outono e inverno, mas existem observações de flores em outras estações. O calendário indica os meses mais frequentemente relatados, não exclusividade. Para obter flores, preserve uma touceira com vários pseudobulbos maduros e evite dividir ou remanejar repetidamente a planta.",
   "adubacao": "🌿 Orgânica: evitar cobertura orgânica espessa sobre rizomas e pseudobulbos; usar sachê remoto apenas se necessário.\n💧 Mineral: doses fracas de fertilizante equilibrado (aproximadamente 1/4 do rótulo) durante expansão dos rizomas e emissão de raízes, com lavagens frequentes do suporte.\n🧪 Liberação lenta: geralmente pouco prática em placa e cesto pequeno; em vaso raso, usar apenas quantidade mínima, longe dos brotos. Reduzir adubação em crescimento lento sem desidratar os pseudobulbos.",
   "rega": "Regar regularmente durante a formação de novos pseudobulbos. Em montagem, a secagem pode ser rápida e exigir hidratação diária no calor; em vaso, esperar perda parcial da umidade superficial. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
-  "suporte": "['🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.', '🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem.'] A madeira oferece superfície para a expansão lateral e facilita inspecionar as raízes. Em vaso raso, distribua a planta sobre o substrato sem cobrir o rizoma; em cesto, proteja contra secagem excessiva; em árvore viva, escolha casca aderente e monitore a fixação durante os primeiros brotos.",
+  "suporte": "Consulte as quatro opções individualizadas em Formas de cultivo. O método principal e as três alternativas apresentam vantagens, limitações e manejo próprios; escolha considerando secagem do suporte, temperatura das raízes e frequência de rega disponível. A madeira oferece superfície para a expansão lateral e facilita inspecionar as raízes. Em vaso raso, distribua a planta sobre o substrato sem cobrir o rizoma; em cesto, proteja contra secagem excessiva; em árvore viva, escolha casca aderente e monitore a fixação durante os primeiros brotos.",
   "substrato": "🥇 35% casca de pinus pequena + 25% carvão vegetal pequeno + 25% esfagno solto + 15% casca de arroz carbonizada\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
   "errosComuns": [
     "Confundir tolerância vegetativa com floração garantida em clima quente.",
@@ -200,7 +200,7 @@ export const dinemaPolybulbon = {
     "agua": 4,
     "raridade": 4
   },
-  "statusRevisao": "V4.05 — aprofundamento ecológico e auditoria de lacunas; imagens complementares pendentes",
+  "statusRevisao": "V4.06 — integridade estrutural auditada; galeria incompleta e validação externa pendente",
   "sinonimo": "Epidendrum polybulbon (basiônimo histórico; verificar autoria)",
   "caracteristicas": [
     "Miniatura epífita rastejante",

@@ -23,7 +23,7 @@ export const prosthecheaVespa = {
   "floracao": "Relatos horticulturais indicam florescimento do fim da primavera ao verão, com variações regionais. O ciclo depende de novos pseudobulbos bem formados e de iluminação adequada. A ausência de floração exige verificar se os crescimentos atingiram maturidade, antes de reduzir drasticamente água ou adubação.",
   "adubacao": "🌿 Orgânica: sachê de adubo orgânico afastado dos brotos e das raízes novas, em pequena quantidade, apenas se a drenagem for excelente.\n💧 Mineral: fertilizante equilibrado diluído (cerca de 1/4 do rótulo) durante crescimento dos pseudobulbos; acompanhar formação de raízes e lavar o vaso periodicamente com água limpa.\n🧪 Liberação lenta: pode ser considerada em vaso bem drenado e planta vigorosa, sempre em dose conservadora. Reduzir adubação após amadurecimento dos brotos; não confundir menor demanda com repouso seco obrigatório.",
   "rega": "Regar mais durante crescimento ativo e formação de pseudobulbos; após amadurecimento, espaçar de acordo com a secagem real, sem impor repouso seco não documentado. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
-  "suporte": "['🥇 Vaso de barro — melhor relação entre aeração e hidratação quando corretamente manejado.', '🥈 Placa / tronco — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem.'] Em vaso ventilado, mantenha os pseudobulbos acima da mistura e preserve espaço para novos brotos. Em montagem, a secagem é mais rápida e a irrigação precisa acompanhar o crescimento. Cestos oferecem boa drenagem, mas exigem monitoramento de desidratação; a árvore viva reduz controle sobre a umidade e a exposição.",
+  "suporte": "Consulte as quatro opções individualizadas em Formas de cultivo. O método principal e as três alternativas apresentam vantagens, limitações e manejo próprios; escolha considerando secagem do suporte, temperatura das raízes e frequência de rega disponível. Em vaso ventilado, mantenha os pseudobulbos acima da mistura e preserve espaço para novos brotos. Em montagem, a secagem é mais rápida e a irrigação precisa acompanhar o crescimento. Cestos oferecem boa drenagem, mas exigem monitoramento de desidratação; a árvore viva reduz controle sobre a umidade e a exposição.",
   "substrato": "🥇 45% casca de pinus média + 25% carvão vegetal + 20% brita fina + 10% perlita grossa\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
   "errosComuns": [
     "Confundir tolerância vegetativa com floração garantida em clima quente.",
@@ -198,7 +198,7 @@ export const prosthecheaVespa = {
     "agua": 3,
     "raridade": 3
   },
-  "statusRevisao": "V4.05 — aprofundamento ecológico e auditoria de lacunas; imagens complementares pendentes",
+  "statusRevisao": "V4.06 — integridade estrutural auditada; galeria incompleta e validação externa pendente",
   "sinonimo": "Encyclia vespa (combinação histórica; confirmar autoria)",
   "caracteristicas": [
     "Epífita simpodial",

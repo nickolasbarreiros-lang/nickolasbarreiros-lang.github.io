@@ -1,0 +1,15 @@
+AUDITORIA V4.06 — 29/10/2026
+Base: revisão V4.05. Sem alteração de índices, calendário, substratos ou manifesto.
+
+dados/orquideas/acianthera-teres.js: corrigido campo suporte que continha representação literal de lista Python.
+dados/orquideas/isabelia-pulchella.js: corrigido campo suporte que continha representação literal de lista Python.
+dados/orquideas/stelis-ciliaris.js: corrigido campo suporte que continha representação literal de lista Python.
+dados/orquideas/prosthechea-vespa.js: corrigido campo suporte que continha representação literal de lista Python.
+dados/orquideas/prosthechea-fragrans.js: corrigido campo suporte que continha representação literal de lista Python.
+dados/orquideas/dinema-polybulbon.js: corrigido campo suporte que continha representação literal de lista Python.
+
+GALERIA: 1 URL externa por ficha; faltam 3 fotos por ficha (18 no total). Nenhuma imagem nova foi inserida sem verificação de identidade, disponibilidade e direitos de uso.
+
+INTEGRIDADE: 6/6 arquivos JS passaram em node --check.
+PENDENTE: validação de taxonomia, morfometria, períodos de floração e fontes brasileiras especializadas.
+ATENÇÃO: esta revisão corrige inconsistência de serialização; não representa pesquisa científica concluída.

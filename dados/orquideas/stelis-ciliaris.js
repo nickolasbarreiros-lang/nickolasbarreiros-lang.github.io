@@ -23,7 +23,7 @@ export const stelisCiliaris = {
   "floracao": "Há registros de floração em diferentes estações conforme a procedência e o hemisfério. A marcação do calendário reflete registros publicados específicos, não uma estação universal. A formação de inflorescências deve ser acompanhada junto à estabilidade de umidade, ao vigor radicular e à temperatura noturna.",
   "adubacao": "🌿 Orgânica: evitar materiais orgânicos concentrados junto ao colo e às raízes finas; em geral, preferir nutrição mineral controlável.\n💧 Mineral: aplicar fertilizante equilibrado em concentração baixa (aproximadamente 1/4 do rótulo ou menos), durante crescimento ativo; alternar com regas de água limpa para prevenir acúmulo de sais.\n🧪 Liberação lenta: desaconselhada em suporte muito pequeno ou esfagno úmido, onde a liberação e a concentração local são difíceis de controlar. Não adubar intensamente plantas com raízes comprometidas.",
   "rega": "Manter hidratação frequente, especialmente em plantas montadas. Regar quando a superfície começar a perder umidade, sem deixar raízes finas secarem por vários dias e sem manter esfagno compactado constantemente molhado. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
-  "suporte": "['🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.', '🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Vaso plástico vasado — alternativa dependente da ventilação e da velocidade de secagem.'] Em placa, use reserva hídrica mínima e rega ajustada à secagem real; a planta não deve passar horas desidratada em calor intenso. Um vaso pequeno pode amortecer a perda de água, desde que o esfagno permaneça solto. Evite recipientes grandes, pois o centro úmido não acompanha a rápida secagem da superfície.",
+  "suporte": "Consulte as quatro opções individualizadas em Formas de cultivo. O método principal e as três alternativas apresentam vantagens, limitações e manejo próprios; escolha considerando secagem do suporte, temperatura das raízes e frequência de rega disponível. Em placa, use reserva hídrica mínima e rega ajustada à secagem real; a planta não deve passar horas desidratada em calor intenso. Um vaso pequeno pode amortecer a perda de água, desde que o esfagno permaneça solto. Evite recipientes grandes, pois o centro úmido não acompanha a rápida secagem da superfície.",
   "substrato": "🥇 35% casca de pinus pequena + 30% esfagno solto + 20% casca de arroz carbonizada + 15% carvão vegetal pequeno\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
   "errosComuns": [
     "Confundir tolerância vegetativa com floração garantida em clima quente.",
@@ -197,7 +197,7 @@ export const stelisCiliaris = {
     "agua": 4,
     "raridade": 4
   },
-  "statusRevisao": "V4.05 — aprofundamento ecológico e auditoria de lacunas; imagens complementares pendentes",
+  "statusRevisao": "V4.06 — integridade estrutural auditada; galeria incompleta e validação externa pendente",
   "sinonimo": "Apatostelis ciliaris (combinação histórica; verificar autoria)",
   "caracteristicas": [
     "Pleurothallidinae",

@@ -23,7 +23,7 @@ export const isabeliaPulchella = {
   "floracao": "Produtores brasileiros relatam floração principalmente na primavera, com registros divergentes de outras estações. O calendário indica uma janela observada, não exigência fixa. Para avaliar ausência de flores, registre a maturação dos pseudobulbos, a intensidade de luz filtrada e, especialmente, se houve noites mais frescas durante o ciclo.",
   "adubacao": "🌿 Orgânica: em miniatura de raízes delicadas, não encostar bokashi no rizoma; se necessário, manter pequena fonte orgânica fora do contato direto.\n💧 Mineral: adubação equilibrada muito diluída (até cerca de 1/4 do rótulo) apenas durante brotação e enraizamento; regar com água limpa entre aplicações para evitar acúmulo em placa.\n🧪 Liberação lenta: geralmente dispensável em placa pequena; grânulos próximos de raízes finas podem causar salinização localizada. No período de crescimento lento, diminuir a adubação antes de diminuir drasticamente a umidade.",
   "rega": "Em placa, umedecer as raízes com frequência e observar a velocidade de secagem. Uma pequena camada de esfagno solto pode retardar a desidratação; excesso de material úmido junto à base favorece apodrecimento. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
-  "suporte": "['🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.', '🥈 Cesto de madeira — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Vaso de barro — alternativa dependente da ventilação e da velocidade de secagem.', '🥈 Árvore viva — alternativa dependente da ventilação e da velocidade de secagem.'] A montagem em pequena placa favorece expansão horizontal e aeração. Uma quantidade mínima de esfagno pode proteger raízes finas, mas deve ficar solta. Em vaso raso, evite cobrir o rizoma; em cesto, o risco é desidratação rápida; em árvore viva, a principal limitação é controlar a umidade nas semanas de fixação.",
+  "suporte": "Consulte as quatro opções individualizadas em Formas de cultivo. O método principal e as três alternativas apresentam vantagens, limitações e manejo próprios; escolha considerando secagem do suporte, temperatura das raízes e frequência de rega disponível. A montagem em pequena placa favorece expansão horizontal e aeração. Uma quantidade mínima de esfagno pode proteger raízes finas, mas deve ficar solta. Em vaso raso, evite cobrir o rizoma; em cesto, o risco é desidratação rápida; em árvore viva, a principal limitação é controlar a umidade nas semanas de fixação.",
   "substrato": "🥇 40% casca de pinus pequena + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto\n🥈 Para montagem em madeira, não reproduzir esta receita como camada sobre o tronco.\n⭐ Ajustar rega à secagem observada.",
   "errosComuns": [
     "Confundir tolerância vegetativa com floração garantida em clima quente.",
@@ -198,7 +198,7 @@ export const isabeliaPulchella = {
     "agua": 3,
     "raridade": 3
   },
-  "statusRevisao": "V4.05 — aprofundamento ecológico e auditoria de lacunas; imagens complementares pendentes",
+  "statusRevisao": "V4.06 — integridade estrutural auditada; galeria incompleta e validação externa pendente",
   "sinonimo": "Neolauchea pulchella (sinônimo histórico)",
   "caracteristicas": [
     "Miniatura epífita",
