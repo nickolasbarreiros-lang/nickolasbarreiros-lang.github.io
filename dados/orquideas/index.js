@@ -1,12 +1,11 @@
-import { gomesaCornigera } from "./gomesa-cornigera.js";
-import { pinaliaElata } from "./pinalia-elata.js";
-import { aciantheraAuriculata } from "./acianthera-auriculata.js";
+import { dinemaPolybulbon } from "./dinema-polybulbon.js";
+import { prosthecheaFragrans } from "./prosthechea-fragrans.js";
+import { stelisCiliaris } from "./stelis-ciliaris.js";
+import { prosthecheaVespa } from "./prosthechea-vespa.js";
+import { isabeliaPulchella } from "./isabelia-pulchella.js";
+import { aciantheraTeres } from "./acianthera-teres.js";
 // ÍNDICE ÚNICO E OFICIAL DAS FICHAS DO ORQUIDÁRIO.
 // Cada orquídea deve existir em apenas um arquivo dentro desta pasta.
-
-import { epidendrumHokuleaSuperRed } from "./epidendrum-hokulea-super-red.js";
-import { oncidiumSummerWind } from "./oncidium-summer-wind.js";
-import { pholidotaChinensis } from "./pholidota-chinensis.js";
 
 import { sophronitisWittigiana } from "./sophronitis-wittigiana.js";
 import { dendrobiumPolysema } from "./dendrobium-polysema.js";
@@ -145,15 +144,7 @@ import { phalaenopsisPulcherrima } from "./phalaenopsis-pulcherrima.js";
 import { dendrobiumSpectabile } from "./dendrobium-spectabile.js";
 import { aeridesOdorata } from "./aerides-odorata.js";
 import { anathallisSclerophylla } from "./anathallis-sclerophylla.js";
-import { stelisCfAprica } from "./stelis-cf-aprica.js";
-import { masdevalliaInfracta } from "./masdevallia-infracta.js";
-
 export const orquideas = [
-    gomesaCornigera,
-    pinaliaElata,
-    aciantheraAuriculata,
-    stelisCfAprica,
-    masdevalliaInfracta,
     anathallisSclerophylla,
     aeridesOdorata,
     epidendrumCentropetalum,
@@ -289,7 +280,10 @@ bulbophyllumSyciobulbon,
     maxillariaBrasiliensis,
     isochilusLinearis,
     aciantheraSonderiana,
-    epidendrumHokuleaSuperRed,
-    oncidiumSummerWind,
-    pholidotaChinensis,
+    aciantheraTeres,
+    isabeliaPulchella,
+    prosthecheaVespa,
+    stelisCiliaris,
+    prosthecheaFragrans,
+    dinemaPolybulbon,
 ];

@@ -1,0 +1,1 @@
+LOTE PRELIMINAR: seis fichas estruturadas sem fotos. Os índices IDC, IAR, raridade e selos finais não foram calculados, pois exigem validação das fontes brasileiras por espécie. Não publicar como versão final. O index.js pressupõe instalação anterior dos 135 módulos existentes.
