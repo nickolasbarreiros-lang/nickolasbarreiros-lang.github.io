@@ -1,0 +1,8 @@
+Atualização de galerias por URLs fornecidas pelo usuário.
+Stelis ciliaris: substituídos todos os quatro links.
+Acianthera teres: mantido o link original da foto principal, acrescentados três links.
+Atribuição de grupos conforme ordem enviada: primeiros quatro Stelis, últimos três Acianthera.
+IMPORTANTE: links externos não puderam ser testados por restrição de conexão neste ambiente.
+A URL do YouTube é uma miniatura de vídeo, não necessariamente uma foto botânica de qualidade.
+Não há confirmação independente de identidade botânica, direitos de uso ou disponibilidade dos links.
+Demais arquivos JS inalterados.

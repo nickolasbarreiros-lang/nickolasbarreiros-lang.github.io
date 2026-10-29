@@ -6,10 +6,10 @@ export const stelisCiliaris = {
   "tipo": "Espécie botânica",
   "dificuldade": "Difícil",
   "fotos": [
-    "https://ecuagenera.com/cdn/shop/files/Stelis._ciliaris.jpg?v=1754667689",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Stelis%20ciliaris.jpg",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Stelis%20ciliaris%20%28cropped%29%201.jpg",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Stelis%20ciliaris%20%28cropped%29%202.jpg"
+    "https://acdn-us.mitiendanube.com/stores/002/752/705/products/img_7901-c2909b9028dcb4b9fc17902144419679-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/002/752/705/products/img_7903-1a8607a7cd7717534a17902144418867-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/002/752/705/products/img_9879-66f263d56f774ea49317566727228105-1024-1024.webp",
+    "https://garden.org/pics/2022-06-14/Ursula/5639c1.jpg"
 ],
   "descricao": "Pequena nos detalhes, surpreendente quando floresce! A Stelis ciliaris forma touceiras compactas de folhas firmes e produz flores minúsculas, que convidam a uma observação bem de perto. O nome ciliaris faz referência a delicadas estruturas das flores, mais fáceis de perceber em fotografias ampliadas. Essa miniatura ocorre em ambientes florestais úmidos de diferentes regiões da América tropical. Seu encanto está justamente no contraste entre a aparência discreta da planta e a riqueza de formas que aparece nas inflorescências. É uma ótima representante do universo das micro-orquídeas, onde os detalhes fazem toda a diferença.",
   "origem": "América Tropical",

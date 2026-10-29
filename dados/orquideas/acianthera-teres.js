@@ -6,7 +6,10 @@ export const aciantheraTeres = {
   "tipo": "Espécie botânica",
   "dificuldade": "Moderada",
   "fotos": [
-    "https://www.orchidspecies.com/orphotdir/pleurotteres.jpg"
+    "https://www.orchidspecies.com/orphotdir/pleurotteres.jpg",
+    "https://acdn-us.mitiendanube.com/stores/002/752/705/products/fb_img_16932753868851-5df709cb99a7e5922a16932770003337-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/002/752/705/products/20230828_1611351-f2aca0a1c9f86a160a16932770008071-1024-1024.webp",
+    "https://i.ytimg.com/vi/_ZDPqOCOaHI/sddefault.jpg"
 ],
   "descricao": "Uma brasileira de visual inconfundível! A Acianthera teres tem folhas estreitas, grossinhas e quase cilíndricas, que dão à touceira um aspecto diferente das orquídeas de folhas largas. Suas flores pequenas e discretas aparecem junto à folhagem e revelam detalhes delicados quando observadas de perto. Na natureza, destaca-se pela presença em afloramentos rochosos do Sudeste brasileiro, onde encontra muita claridade e excelente drenagem. É uma espécie que chama a atenção menos pelo tamanho das flores e mais pela forma singular da planta e pelo ambiente em que vive.",
   "origem": "Brasil — Sudeste",
