@@ -1,12 +1,83 @@
 // Ficha V4 — revisão de publicação 29/10/2026: arquivo atualizado individualmente; índices estimados e fotografias pendentes.
 export const aciantheraTeres = {
     "id": "acianthera-teres",
+    "formasCultivo": {
+        "perfilVisual": "epifita-ventilada",
+        "destaque": "Placa / tronco",
+        "resumo": "Montagem mineral ou madeira muito ventilada; aclimatar gradualmente à alta claridade.",
+        "metodos": [
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-madeira",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Montagem mineral ou madeira muito ventilada; aclimatar gradualmente à alta claridade."
+            },
+            {
+                "nome": "Vaso de barro",
+                "asset": "vaso-barro",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Recipiente pequeno, com muitos furos e mistura de partículas abertas; ajustar regas pela secagem real."
+            },
+            {
+                "nome": "Cesto de madeira",
+                "asset": "cesto-madeira",
+                "estrelas": 4,
+                "status": "Recomendado",
+                "texto": "Mantém aeração lateral, mas exige atenção à perda rápida de umidade em tempo quente."
+            },
+            {
+                "nome": "Árvore viva",
+                "asset": "arvore-viva",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Adequada apenas em local com luminosidade e umidade compatíveis; irrigar até o enraizamento."
+            }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita técnica para vaso ventilado",
+        "resumo": "45% brita fina + 30% carvão + 15% pinus + 10% perlita grossa",
+        "justificativa": "Mistura proposta para equilibrar água disponível e oxigênio radicular; é síntese horticultural, não receita publicada especificamente para esta espécie.",
+        "receitaTexto": "45% brita fina + 30% carvão + 15% pinus + 10% perlita grossa",
+        "perfil": [
+            "Alta aeração",
+            "Drenagem rápida",
+            "Retenção ajustada ao suporte"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 3,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 5,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 4,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 1,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [],
+        "alerta": "Não compactar a mistura, não enterrar a base da planta e não usar pedra-pomes."
+    },
     "nome": "Acianthera teres",
     "genero": "Acianthera",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "fotos": [],
-    "descricao": "Acianthera teres: ficha de cultivo V4 com recomendações técnicas e índices estimados; identificação e floração devem ser confirmadas no exemplar adquirido.",
+    "descricao": "Acianthera teres é uma orquídea brasileira de hábito predominantemente rupícola, com folhas espessas, alongadas e quase cilíndricas, associadas à conservação de água. Ocorre em afloramentos rochosos expostos e apresenta adaptações xeromórficas, mas isso não significa que uma planta produzida sob sombrite deva ser transferida imediatamente para sol forte. A intensidade luminosa necessária ao crescimento e à floração deve ser separada da tolerância à radiação direta em clima costeiro quente. O Orquidário Aparecida relata cultivo sobre ripas de madeira com 70% de sombreamento, umidade e ventilação; outros relatos enfatizam alta claridade. A combinação sugere aclimatação progressiva, raízes muito ventiladas e atenção ao aquecimento do suporte.",
     "origem": "América Tropical",
     "regiao": "Distribuição geográfica a conferir na revisão taxonômica individual",
     "habitat": "Epífita ou rupícola conforme a espécie e a população; detalhes na documentação de revisão.",

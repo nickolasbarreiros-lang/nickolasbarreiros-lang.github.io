@@ -1,16 +1,87 @@
 // Ficha V4 — revisão de publicação 29/10/2026: arquivo atualizado individualmente; índices estimados e fotografias pendentes.
 export const dinemaPolybulbon = {
     "id": "dinema-polybulbon",
+    "formasCultivo": {
+        "perfilVisual": "epifita-ventilada",
+        "destaque": "Placa / tronco",
+        "resumo": "Placa ou ripas de madeira com musgo mínimo; manter regas frequentes durante enraizamento.",
+        "metodos": [
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-madeira",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Placa ou ripas de madeira com musgo mínimo; manter regas frequentes durante enraizamento."
+            },
+            {
+                "nome": "Vaso de barro",
+                "asset": "vaso-barro",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Recipiente pequeno, com muitos furos e mistura de partículas abertas; ajustar regas pela secagem real."
+            },
+            {
+                "nome": "Cesto de madeira",
+                "asset": "cesto-madeira",
+                "estrelas": 4,
+                "status": "Recomendado",
+                "texto": "Mantém aeração lateral, mas exige atenção à perda rápida de umidade em tempo quente."
+            },
+            {
+                "nome": "Árvore viva",
+                "asset": "arvore-viva",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Adequada apenas em local com luminosidade e umidade compatíveis; irrigar até o enraizamento."
+            }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita técnica para vaso ventilado",
+        "resumo": "45% pinus pequeno + 30% carvão pequeno + 15% perlita grossa + 10% esfagno",
+        "justificativa": "Mistura proposta para equilibrar água disponível e oxigênio radicular; é síntese horticultural, não receita publicada especificamente para esta espécie.",
+        "receitaTexto": "45% pinus pequeno + 30% carvão pequeno + 15% perlita grossa + 10% esfagno",
+        "perfil": [
+            "Alta aeração",
+            "Drenagem rápida",
+            "Retenção ajustada ao suporte"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 3,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 5,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 4,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 1,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [],
+        "alerta": "Não compactar a mistura, não enterrar a base da planta e não usar pedra-pomes."
+    },
     "nome": "Dinema polybulbon",
     "genero": "Dinema",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "fotos": [],
-    "descricao": "Dinema polybulbon: ficha de cultivo V4 com recomendações técnicas e índices estimados; identificação e floração devem ser confirmadas no exemplar adquirido.",
+    "descricao": "Dinema polybulbon é uma orquídea epífita miniatura que forma agrupamentos densos de pequenos pseudobulbos e folhas, frequentemente avançando lateralmente sobre cascas e placas de madeira. Suas flores, relativamente grandes para o porte da planta, apresentam tons amarelos, castanhos e claros. A montagem ventilada facilita a expansão dos novos crescimentos, mas exige regas mais frequentes em períodos secos. Produtores brasileiros concordam quanto à boa adaptação ao cultivo em madeira, à luz filtrada e à necessidade de drenagem; divergem quanto ao perfume e à época principal de floração. Matsuoka, Aparecida e Merten descrevem flores sem perfume, enquanto 4 Estações relata fragrância suave. Aparecida e Merten indicam outono, e 4 Estações relata primavera/verão. Essas observações devem permanecer identificadas como relatos de cultivo, sem impor um calendário universal.",
     "origem": "América Tropical",
-    "regiao": "Distribuição geográfica a conferir na revisão taxonômica individual",
-    "habitat": "Epífita ou rupícola conforme a espécie e a população; detalhes na documentação de revisão.",
-    "clima": "Avaliar microclima, temperatura noturna e capacidade real de floração.",
+    "regiao": "México, América Central e Caribe; distribuição nativa a validar em POWO para delimitação exata.",
+    "habitat": "Epífita de florestas úmidas, frequentemente sobre galhos e troncos, formando touceiras compactas.",
+    "clima": "Quente a intermediário, com umidade regular, luz filtrada e boa renovação do ar.",
     "climaFloracao": "Produtores brasileiros divergem sobre a estação de floração e sobre perfume (ausente ou suave); registrar a variação sem fixar uma única resposta.",
     "iluminacao": {
         "sombrite": "60% a 70%",
@@ -30,7 +101,7 @@ export const dinemaPolybulbon = {
         "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
         "cultivoPremiacao": "Recomendações técnicas sintetizadas de fontes horticulturais brasileiras levantadas na pesquisa; não representam consenso de 25 produtores.",
         "confianca": "parcial",
-        "fontes": [
+        "fontesConfirmadas": ["Orquidário Matsuoka", "Orquidário Aparecida", "Orquidário Maripá", "Orquidário 4 Estações", "Merten Orquídeas"], "fontes": [
             "BR Orquídea — catálogo comercial (confirma oferta, não método de cultivo)",
             "Orquidário Aparecida — relatos de cultivo, conforme disponibilidade",
             "Orquidário Hang / Mogi Mirim / 4 Estações — recomendações consultadas nas etapas anteriores",

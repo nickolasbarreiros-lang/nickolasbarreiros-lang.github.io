@@ -1,12 +1,83 @@
 // Ficha V4 — revisão de publicação 29/10/2026: arquivo atualizado individualmente; índices estimados e fotografias pendentes.
 export const prosthecheaVespa = {
     "id": "prosthechea-vespa",
+    "formasCultivo": {
+        "perfilVisual": "epifita-ventilada",
+        "destaque": "Vaso de barro",
+        "resumo": "Vaso de barro ventilado com mistura aberta e boa secagem após as regas.",
+        "metodos": [
+            {
+                "nome": "Vaso de barro",
+                "asset": "vaso-barro",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Vaso de barro ventilado com mistura aberta e boa secagem após as regas."
+            },
+            {
+                "nome": "Vaso de barro",
+                "asset": "vaso-barro",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Recipiente pequeno, com muitos furos e mistura de partículas abertas; ajustar regas pela secagem real."
+            },
+            {
+                "nome": "Cesto de madeira",
+                "asset": "cesto-madeira",
+                "estrelas": 4,
+                "status": "Recomendado",
+                "texto": "Mantém aeração lateral, mas exige atenção à perda rápida de umidade em tempo quente."
+            },
+            {
+                "nome": "Árvore viva",
+                "asset": "arvore-viva",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Adequada apenas em local com luminosidade e umidade compatíveis; irrigar até o enraizamento."
+            }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita técnica para vaso ventilado",
+        "resumo": "50% pinus médio + 25% carvão + 25% perlita grossa",
+        "justificativa": "Mistura proposta para equilibrar água disponível e oxigênio radicular; é síntese horticultural, não receita publicada especificamente para esta espécie.",
+        "receitaTexto": "50% pinus médio + 25% carvão + 25% perlita grossa",
+        "perfil": [
+            "Alta aeração",
+            "Drenagem rápida",
+            "Retenção ajustada ao suporte"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 3,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 5,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 4,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 1,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [],
+        "alerta": "Não compactar a mistura, não enterrar a base da planta e não usar pedra-pomes."
+    },
     "nome": "Prosthechea vespa",
     "genero": "Prosthechea",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "fotos": [],
-    "descricao": "Prosthechea vespa: ficha de cultivo V4 com recomendações técnicas e índices estimados; identificação e floração devem ser confirmadas no exemplar adquirido.",
+    "descricao": "Prosthechea vespa é uma orquídea epífita ou rupícola com pseudobulbos e inflorescências que exibem flores de desenho contrastante, típicas do gênero. Registros brasileiros apontam populações em ambientes florestais e também em posições mais expostas, demonstrando plasticidade luminosa. No cultivo, a luminosidade deve ser relativamente alta, porém filtrada até que a planta esteja aclimatada, e o substrato precisa secar de modo previsível sem permanecer compacto. Uma mistura aberta de casca de pinus, carvão vegetal e perlita grossa em vaso de barro ventilado é proposta técnica, não fórmula experimental da espécie. A maturação dos pseudobulbos e a alternância sazonal de crescimento ajudam a interpretar a floração; não é adequado impor repouso seco absoluto sem evidência.",
     "origem": "América Tropical",
     "regiao": "Distribuição geográfica a conferir na revisão taxonômica individual",
     "habitat": "Epífita ou rupícola conforme a espécie e a população; detalhes na documentação de revisão.",

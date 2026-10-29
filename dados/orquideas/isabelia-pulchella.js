@@ -1,12 +1,83 @@
 // Ficha V4 — revisão de publicação 29/10/2026: arquivo atualizado individualmente; índices estimados e fotografias pendentes.
 export const isabeliaPulchella = {
     "id": "isabelia-pulchella",
+    "formasCultivo": {
+        "perfilVisual": "micro-pleurothalidina",
+        "destaque": "Placa / tronco",
+        "resumo": "Placa ventilada com raízes livres, sombra luminosa e atenção às noites quentes.",
+        "metodos": [
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-madeira",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Placa ventilada com raízes livres, sombra luminosa e atenção às noites quentes."
+            },
+            {
+                "nome": "Vaso de barro",
+                "asset": "vaso-barro",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Recipiente pequeno, com muitos furos e mistura de partículas abertas; ajustar regas pela secagem real."
+            },
+            {
+                "nome": "Cesto de madeira",
+                "asset": "cesto-madeira",
+                "estrelas": 4,
+                "status": "Recomendado",
+                "texto": "Mantém aeração lateral, mas exige atenção à perda rápida de umidade em tempo quente."
+            },
+            {
+                "nome": "Árvore viva",
+                "asset": "arvore-viva",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Adequada apenas em local com luminosidade e umidade compatíveis; irrigar até o enraizamento."
+            }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita técnica para vaso ventilado",
+        "resumo": "45% pinus pequeno + 25% carvão pequeno + 20% perlita grossa + 10% esfagno",
+        "justificativa": "Mistura proposta para equilibrar água disponível e oxigênio radicular; é síntese horticultural, não receita publicada especificamente para esta espécie.",
+        "receitaTexto": "45% pinus pequeno + 25% carvão pequeno + 20% perlita grossa + 10% esfagno",
+        "perfil": [
+            "Alta aeração",
+            "Drenagem rápida",
+            "Retenção ajustada ao suporte"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 3,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 5,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 4,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 1,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [],
+        "alerta": "Não compactar a mistura, não enterrar a base da planta e não usar pedra-pomes."
+    },
     "nome": "Isabelia pulchella",
     "genero": "Isabelia",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "fotos": [],
-    "descricao": "Isabelia pulchella: ficha de cultivo V4 com recomendações técnicas e índices estimados; identificação e floração devem ser confirmadas no exemplar adquirido.",
+    "descricao": "Isabelia pulchella é uma pequena orquídea epífita brasileira, conhecida também na literatura horticultural pelo nome Neolauchea pulchella. Forma touceiras compactas que podem ser montadas sobre madeira, com raízes expostas e flores delicadas de coloração rosada a lilás. Produtores brasileiros convergem na preferência por placas ou ripas de madeira e cerca de 70% de sombreamento, mas divergem sobre a melhor faixa térmica e a época de floração. Há relatos de flores na primavera, no outono e no inverno, com duração aproximada de 15–20 dias em alguns cultivos. No litoral quente, o ponto crítico é a combinação de noites persistentemente quentes com pouca circulação de ar; sobreviver e produzir novos brotos não garante floração regular. A ficha deve orientar a observação do exemplar e evitar afirmar uma estação única de floração.",
     "origem": "Brasil",
     "regiao": "Distribuição geográfica a conferir na revisão taxonômica individual",
     "habitat": "Epífita ou rupícola conforme a espécie e a população; detalhes na documentação de revisão.",

@@ -1,12 +1,83 @@
 // Ficha V4 — revisão de publicação 29/10/2026: arquivo atualizado individualmente; índices estimados e fotografias pendentes.
 export const prosthecheaFragrans = {
     "id": "prosthechea-fragrans",
+    "formasCultivo": {
+        "perfilVisual": "epifita-ventilada",
+        "destaque": "Vaso de barro",
+        "resumo": "Vaso pequeno e ventilado, sem esfagno compactado e sem repouso seco obrigatório.",
+        "metodos": [
+            {
+                "nome": "Vaso de barro",
+                "asset": "vaso-barro",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Vaso pequeno e ventilado, sem esfagno compactado e sem repouso seco obrigatório."
+            },
+            {
+                "nome": "Vaso de barro",
+                "asset": "vaso-barro",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Recipiente pequeno, com muitos furos e mistura de partículas abertas; ajustar regas pela secagem real."
+            },
+            {
+                "nome": "Cesto de madeira",
+                "asset": "cesto-madeira",
+                "estrelas": 4,
+                "status": "Recomendado",
+                "texto": "Mantém aeração lateral, mas exige atenção à perda rápida de umidade em tempo quente."
+            },
+            {
+                "nome": "Árvore viva",
+                "asset": "arvore-viva",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Adequada apenas em local com luminosidade e umidade compatíveis; irrigar até o enraizamento."
+            }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita técnica para vaso ventilado",
+        "resumo": "50% pinus fino/médio + 25% carvão + 25% perlita grossa",
+        "justificativa": "Mistura proposta para equilibrar água disponível e oxigênio radicular; é síntese horticultural, não receita publicada especificamente para esta espécie.",
+        "receitaTexto": "50% pinus fino/médio + 25% carvão + 25% perlita grossa",
+        "perfil": [
+            "Alta aeração",
+            "Drenagem rápida",
+            "Retenção ajustada ao suporte"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 3,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 5,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 4,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 1,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [],
+        "alerta": "Não compactar a mistura, não enterrar a base da planta e não usar pedra-pomes."
+    },
     "nome": "Prosthechea fragrans",
     "genero": "Prosthechea",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "fotos": [],
-    "descricao": "Prosthechea fragrans: ficha de cultivo V4 com recomendações técnicas e índices estimados; identificação e floração devem ser confirmadas no exemplar adquirido.",
+    "descricao": "Prosthechea fragrans é uma orquídea de pseudobulbos e flores conhecidas por relatos de fragrância agradável, frequentemente descrita como cítrica ou semelhante ao mel. A identificação exige atenção: estudos florísticos brasileiros mostram que algumas plantas anteriormente chamadas P. fragrans pertencem a Prosthechea aemula. Por isso, o nome recebido na compra deve permanecer provisório até a comparação das flores com caracteres diagnósticos e fontes taxonômicas. Em cultivo, a proposta é um recipiente pequeno e ventilado com pinus, carvão e perlita grossa, regas regulares no crescimento ativo e redução moderada quando a atividade vegetativa diminui, sem transformar essa redução em repouso seco obrigatório. A resposta de floração depende da maturação dos pseudobulbos e da identidade correta da planta.",
     "origem": "América Tropical",
     "regiao": "Distribuição geográfica a conferir na revisão taxonômica individual",
     "habitat": "Epífita ou rupícola conforme a espécie e a população; detalhes na documentação de revisão.",
