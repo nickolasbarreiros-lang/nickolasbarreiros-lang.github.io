@@ -1,0 +1,7 @@
+MAXILLARIA CAMARIDII — REVISÃO DO CALENDÁRIO FLORAL
+
+Alterações: mesesFloracao de [1,2,8,9,10,11] para [12,1,2,3,4]; texto de floracao atualizado.
+Justificativa: janeiro-fevereiro possuem registros botânicos diretos citados na análise anterior; dezembro-abril corresponde a observações fenológicas regionais. A espécie também pode florescer fora desse intervalo. Não há base suficiente para manter agosto-novembro como meses típicos no calendário geral.
+Importante: a marcação de dezembro a abril representa uma janela observada regionalmente, não comprovação de floração em todos esses meses em todos os locais.
+Preservados: fotos, selos, adubação, rega, clima, substrato, IDC, IAR, índices e manifesto.
+Este patch altera somente uma ficha. Não altera o site publicado.
