@@ -1,0 +1,13 @@
+REVISÃO TÉCNICA DAS SEIS FICHAS — 29/10/2026
+
+Implementado:
+- Seis descrições botânicas e ecológicas ampliadas, sem medidas inventadas.
+- 24 descrições de métodos de cultivo (4 por espécie), sem textos repetidos.
+- Seis planos de adubação específicos por hábito, com ressalvas de dosagem.
+- Características individuais e separação entre clima para floração e meses.
+- Preservados: IDC 3.2, IAR 2.0, Raridade V2, receitas de substrato somando 100%, índice, manifesto e arquivos existentes.
+
+PENDENTE: 18 fotografias adicionais com identificação correta, disponibilidade e direitos de uso verificáveis. Os links únicos existentes são externos e não foram verificados nesta execução. NÃO se inventaram links, não se reutilizou uma mesma imagem para simular quatro fotos e não se alteraram fotos existentes.
+PENDENTE: cruzamento científico completo POWO/WFO/IPNI/GBIF/Tropicos e levantamento de 25 produtores brasileiros por espécie. As recomendações de cultivo são inferências técnicas, não consenso documentado.
+
+O ZIP inclui somente os seis arquivos JS e esta documentação. Substituir em dados/orquideas/. 

@@ -8,7 +8,7 @@ export const prosthecheaFragrans = {
     "fotos": [
         "https://bs.plantnet.org/image/o/1640afbb70e63d75ead8e88c817540e7eee60c36"
     ],
-    "descricao": "Prosthechea fragrans é conhecida pelo perfume atribuído às flores, frequentemente descrito em notas doces ou cítricas, mas a intensidade depende do exemplar e do horário. A identificação merece cautela: plantas comercializadas sob esse nome podem ser confundidas com Prosthechea aemula, e a comparação de flores maduras é indispensável. Como epífita de crescimento com pseudobulbos, beneficia-se de rega regular durante a emissão de raízes e de uma redução gradual quando o crescimento desacelera; isso não deve ser confundido com necessidade comprovada de repouso seco. A confirmação de autoria, sinonímia e variações intraespecíficas permanece condicionada à conferência individual em POWO, WFO, IPNI e literatura original; não se deve transformar uma hipótese de cultivo em dado taxonômico.",
+    "descricao": "Prosthechea fragrans é uma epífita simpodial conhecida pela possibilidade de flores perfumadas. A identificação merece atenção porque exemplares brasileiros comercializados sob esse nome podem corresponder a espécies próximas, incluindo Prosthechea aemula; a confirmação requer examinar a flor aberta, não apenas pseudobulbos ou etiqueta comercial. O perfume varia com a idade da flor, temperatura e horário. O ciclo de crescimento alterna emissão de brotos, enraizamento e maturação dos pseudobulbos. Para favorecer a floração, a planta deve completar esse ciclo com iluminação filtrada suficiente, sem excesso de água parada junto às raízes e sem imposição automática de um repouso seco rigoroso.",
     "origem": "América Tropical",
     "regiao": "América tropical; identificação de exemplares brasileiros requer comparação com Prosthechea aemula.",
     "habitat": "Epífita de florestas tropicais; raízes em superfícies drenantes, com umidade ambiental e boa renovação de ar.",
@@ -21,7 +21,7 @@ export const prosthecheaFragrans = {
         "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
     },
     "floracao": "Novembro a janeiro documentado em flora de Barro Colorado; observações em novembro na Costa Rica. Não extrapolar como época obrigatória brasileira.",
-    "adubacao": "🌿 Orgânica: em plantas pequenas, usar bokashi apenas em sachê afastado de raízes e brotos, quando aplicável.\n💧 Mineral/foliar: fertilizante equilibrado a cerca de 1/4 da dose do fabricante durante crescimento ativo, em intervalos ajustados à resposta da planta; evitar pulverizar flores.\n🧪 Liberação lenta: somente em vaso com boa drenagem, em dose muito pequena. Lavar periodicamente o substrato com água limpa para reduzir acúmulo de sais. Suspender aplicações fortes quando raízes estiverem inativas.",
+    "adubacao": "🌿 Orgânica: se utilizada, aplicar em sachê afastado da base dos pseudobulbos e suspender caso haja fermentação ou umidade persistente.\n💧 Mineral: adubação equilibrada diluída durante a emissão de novos brotos e raízes; reduzir gradualmente quando os pseudobulbos amadurecerem, sem retirar água de forma brusca.\n🧪 Liberação lenta: somente em vaso bem drenado e dose pequena; não usar sobre placa. Lavagens com água limpa ajudam a controlar sais, especialmente em recipientes de pouco volume.",
     "rega": "Regar durante a fase de raízes ativas e crescimento dos pseudobulbos; permitir que a camada superficial perca umidade entre regas. Reduzir moderadamente quando a atividade desacelerar, sem secagem radical. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
     "suporte": [
         "🥇 Vaso de barro — melhor relação entre aeração e hidratação quando corretamente manejado.",
@@ -49,7 +49,7 @@ export const prosthecheaFragrans = {
             "https://cotram.org/taxa/index.php?clid=0&taxauthid=1&tid=28538",
             "https://www.acguanacaste.ac.cr/paginas-de-especies/plantas/734-orchidaceae/6245-i-prosthechea-fragrans-i-orchidiaceae"
         ],
-        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: Pl@ntNet — Prosthechea fragrans. Receita de substrato é proposta horticultural (não consenso de 25 produtores).",
+        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: Pl@ntNet — Prosthechea fragrans. Receita de substrato é proposta horticultural (não consenso de 25 produtores). Revisão técnica de métodos de cultivo e adubação elaborada por inferência horticultural; não representa consenso de 25 produtores.",
         "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
         "distribuicaoGeografica": "América tropical; identificação de exemplares brasileiros requer comparação com Prosthechea aemula.",
         "habitatAltitudeClima": "Epífita de florestas tropicais; raízes em superfícies drenantes, com umidade ambiental e boa renovação de ar. Quente a intermediário conforme procedência; evitar superaquecimento de vasos."
@@ -201,47 +201,48 @@ export const prosthecheaFragrans = {
         "agua": 3,
         "raridade": 3
     },
-    "statusRevisao": "V4 — correção dos assets de substrato, fenologia documentada, dicas individualizadas e 1 foto de referência externa",
+    "statusRevisao": "V4 — aprofundamento editorial e horticultural; fotografias adicionais e auditoria taxonômica completa pendentes",
     "sinonimo": "Epidendrum fragrans (combinação histórica; confirmar autoria)",
     "caracteristicas": [
+        "Epífita simpodial",
         "Pseudobulbos",
         "Flores potencialmente perfumadas",
-        "Epífita",
         "Identificação comparativa com P. aemula",
-        "Crescimento sazonal"
+        "Brotos e raízes sazonais",
+        "Sem repouso seco obrigatório comprovado"
     ],
     "formasCultivo": {
         "perfilVisual": "epifita-ventilada",
         "destaque": "Vaso de barro",
-        "resumo": "A recomendação principal busca reproduzir o equilíbrio entre umidade disponível e oxigênio radicular. O suporte mais aberto reduz abafamento, mas exige regas mais frequentes; alternativas envasadas estabilizam a umidade ao custo de maior vigilância contra compactação.",
+        "resumo": "Métodos avaliados segundo o hábito e a fisiologia desta espécie. A escolha principal pressupõe manejo correto da rega; as alternativas exigem ajustes específicos de retenção, ventilação e fixação.",
         "metodos": [
             {
                 "nome": "Vaso de barro",
                 "asset": "vaso-barro",
                 "estrelas": 5,
                 "status": "Ideal",
-                "texto": "Método preferencial: Epífita de florestas tropicais; raízes em superfícies drenantes, com umidade ambiental e boa renovação de ar. Regar durante a fase de raízes ativas e crescimento dos pseudobulbos; permitir que a camada superficial perca umidade entre regas. Reduzir moderadamente quando a atividade desacelerar, sem secagem radical."
+                "texto": "Vaso de barro justo, com mistura de casca média, carvão e partículas porosas, mantém os pseudobulbos estáveis sem enterrar sua base. Deixar espaço na direção dos novos brotos e reenvasar quando houver pontas radiculares ativas."
             },
             {
                 "nome": "Placa / tronco",
                 "asset": "placa-tronco",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+                "texto": "Placa de madeira favorece aeração e observação das raízes, mas exige rega mais frequente durante o crescimento. É adequada apenas quando a umidade ambiente permite manter raízes ativas sem secagem prolongada."
             },
             {
                 "nome": "Cesto de madeira",
                 "asset": "cesto-madeira",
                 "estrelas": 4,
                 "status": "Recomendado",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+                "texto": "Cesto de madeira com mistura aberta reduz risco de saturação e acomoda raízes externas. Deve permanecer em luz filtrada e circulação constante, sem vento quente incidindo diretamente sobre brotos novos."
             },
             {
                 "nome": "Vaso plástico vasado",
                 "asset": "vaso-plastico-vasado",
                 "estrelas": 3,
                 "status": "Alternativa",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Não compactar o substrato e observar a secagem interna."
+                "texto": "Vaso plástico vasado retém umidade por mais tempo que barro e pode ser útil em local muito ventilado. Requer atenção à granulometria e aos furos laterais, pois o centro pode permanecer úmido mesmo quando a superfície parece seca."
             }
         ]
     },

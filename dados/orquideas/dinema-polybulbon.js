@@ -8,7 +8,7 @@ export const dinemaPolybulbon = {
     "fotos": [
         "https://ecuagenera.com/cdn/shop/files/Dinema_polybulbon._1024x1024.jpg?v=1758991091"
     ],
-    "descricao": "Dinema polybulbon é uma miniatura epífita com pseudobulbos numerosos, capaz de formar conjuntos compactos quando recebe água, luminosidade filtrada e circulação de ar em equilíbrio. Produtores brasileiros frequentemente indicam placas ou troncos, embora as porcentagens de sombreamento recomendadas variem. Os relatos de perfume são contraditórios: alguns produtores descrevem ausência de fragrância, enquanto outros mencionam odor suave. Essa diferença não deve ser convertida em característica taxonômica fixa sem observação do clone. A confirmação de autoria, sinonímia e variações intraespecíficas permanece condicionada à conferência individual em POWO, WFO, IPNI e literatura original; não se deve transformar uma hipótese de cultivo em dado taxonômico.",
+    "descricao": "Dinema polybulbon é uma miniatura epífita de crescimento rastejante, formando numerosos pseudobulbos pequenos conectados por rizomas que se espalham sobre a superfície do suporte. A expansão lateral é parte essencial do hábito da espécie: recipientes profundos ou o enterramento do rizoma escondem a área de crescimento e dificultam a ventilação. As flores são pequenas e surgem em plantas estabelecidas, com diversos pseudobulbos maduros. Relatos horticulturais divergem quanto à intensidade do perfume e à estação predominante de floração; essas características devem ser registradas como variáveis, não como certeza universal. O cultivo mais previsível combina suporte amplo, luz filtrada, umidade breve e boa circulação de ar.",
     "origem": "América Tropical",
     "regiao": "América tropical; verificar extensão e eventuais lacunas de distribuição no POWO/GBIF.",
     "habitat": "Epífita de pequeno porte, com pseudobulbos agrupados ou espaçados sobre suportes, beneficiada por boa aeração.",
@@ -21,7 +21,7 @@ export const dinemaPolybulbon = {
         "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
     },
     "floracao": "Outono e inverno segundo produtores brasileiros; uma segunda floração na primavera é relatada por Juan Pablo Heller.",
-    "adubacao": "🌿 Orgânica: em plantas pequenas, usar bokashi apenas em sachê afastado de raízes e brotos, quando aplicável.\n💧 Mineral/foliar: fertilizante equilibrado a cerca de 1/4 da dose do fabricante durante crescimento ativo, em intervalos ajustados à resposta da planta; evitar pulverizar flores.\n🧪 Liberação lenta: somente em vaso com boa drenagem, em dose muito pequena. Lavar periodicamente o substrato com água limpa para reduzir acúmulo de sais. Suspender aplicações fortes quando raízes estiverem inativas.",
+    "adubacao": "🌿 Orgânica: evitar cobertura orgânica espessa sobre rizomas e pseudobulbos; usar sachê remoto apenas se necessário.\n💧 Mineral: doses fracas de fertilizante equilibrado (aproximadamente 1/4 do rótulo) durante expansão dos rizomas e emissão de raízes, com lavagens frequentes do suporte.\n🧪 Liberação lenta: geralmente pouco prática em placa e cesto pequeno; em vaso raso, usar apenas quantidade mínima, longe dos brotos. Reduzir adubação em crescimento lento sem desidratar os pseudobulbos.",
     "rega": "Regar regularmente durante a formação de novos pseudobulbos. Em montagem, a secagem pode ser rápida e exigir hidratação diária no calor; em vaso, esperar perda parcial da umidade superficial. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
     "suporte": [
         "🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.",
@@ -50,7 +50,7 @@ export const dinemaPolybulbon = {
             "https://orquideasjph.wordpress.com/2017/07/30/dinema-polybulbon/",
             "https://www.mertenorquideas.com.br/orquideas/outras-variedades/dinema-polybulbon-com-haste-floral"
         ],
-        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: Ecuagenera — Dinema polybulbon. Receita de substrato é proposta horticultural (não consenso de 25 produtores).",
+        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: Ecuagenera — Dinema polybulbon. Receita de substrato é proposta horticultural (não consenso de 25 produtores). Revisão técnica de métodos de cultivo e adubação elaborada por inferência horticultural; não representa consenso de 25 produtores.",
         "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
         "distribuicaoGeografica": "América tropical; verificar extensão e eventuais lacunas de distribuição no POWO/GBIF.",
         "habitatAltitudeClima": "Epífita de pequeno porte, com pseudobulbos agrupados ou espaçados sobre suportes, beneficiada por boa aeração. Quente a intermediário, úmido e ventilado; ajustar exposição à procedência."
@@ -204,47 +204,48 @@ export const dinemaPolybulbon = {
         "agua": 4,
         "raridade": 4
     },
-    "statusRevisao": "V4 — correção dos assets de substrato, fenologia documentada, dicas individualizadas e 1 foto de referência externa",
+    "statusRevisao": "V4 — aprofundamento editorial e horticultural; fotografias adicionais e auditoria taxonômica completa pendentes",
     "sinonimo": "Epidendrum polybulbon (basiônimo histórico; verificar autoria)",
     "caracteristicas": [
-        "Miniatura epífita",
-        "Múltiplos pseudobulbos",
-        "Crescimento sobre suportes",
-        "Flores pequenas",
+        "Miniatura epífita rastejante",
+        "Rizomas superficiais",
+        "Numerosos pseudobulbos pequenos",
+        "Expansão horizontal",
+        "Floração em touceiras maduras",
         "Perfume variável entre relatos"
     ],
     "formasCultivo": {
         "perfilVisual": "epifita-ventilada",
         "destaque": "Placa / tronco",
-        "resumo": "A recomendação principal busca reproduzir o equilíbrio entre umidade disponível e oxigênio radicular. O suporte mais aberto reduz abafamento, mas exige regas mais frequentes; alternativas envasadas estabilizam a umidade ao custo de maior vigilância contra compactação.",
+        "resumo": "Métodos avaliados segundo o hábito e a fisiologia desta espécie. A escolha principal pressupõe manejo correto da rega; as alternativas exigem ajustes específicos de retenção, ventilação e fixação.",
         "metodos": [
             {
                 "nome": "Placa / tronco",
                 "asset": "placa-tronco",
                 "estrelas": 5,
                 "status": "Ideal",
-                "texto": "Método preferencial: Epífita de pequeno porte, com pseudobulbos agrupados ou espaçados sobre suportes, beneficiada por boa aeração. Regar regularmente durante a formação de novos pseudobulbos. Em montagem, a secagem pode ser rápida e exigir hidratação diária no calor; em vaso, esperar perda parcial da umidade superficial."
+                "texto": "Placa de madeira mais larga que profunda, permitindo ao rizoma avançar horizontalmente. Fixar apenas segmentos antigos e deixar a frente de crescimento livre; uma pequena quantidade de esfagno solto junto às raízes ajuda na adaptação, sem cobrir os pseudobulbos."
             },
             {
                 "nome": "Cesto de madeira",
                 "asset": "cesto-madeira",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+                "texto": "Cesto de madeira raso com mistura muito aberta permite que brotos se espalhem pelas bordas. Adequado para ambiente úmido e ventilado, mas as raízes superficiais exigem observação frequente de secagem."
             },
             {
                 "nome": "Vaso de barro",
                 "asset": "vaso-barro",
                 "estrelas": 4,
                 "status": "Recomendado",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Não compactar o substrato e observar a secagem interna."
+                "texto": "Vaso de barro baixo, mais largo que profundo, oferece reserva hídrica moderada. Apoiar o rizoma sobre a superfície e não enterrá-lo; escolher partículas pequenas, porém arejadas, para raízes finas."
             },
             {
                 "nome": "Árvore viva",
                 "asset": "arvore-viva",
                 "estrelas": 3,
                 "status": "Alternativa",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+                "texto": "Árvore viva de casca rugosa pode acomodar a expansão horizontal, mas torna difícil proteger uma miniatura durante estiagens. Preferir galho protegido de sol forte e fixar apenas plantas já enraizadas."
             }
         ]
     },

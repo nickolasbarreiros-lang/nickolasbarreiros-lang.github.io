@@ -8,7 +8,7 @@ export const isabeliaPulchella = {
     "fotos": [
         "https://www.lacanopee.com/781-large_default/isabelia-pulchella-sur-plaque.jpg"
     ],
-    "descricao": "Orquídea de pequeno porte cuja principal dificuldade no litoral quente não é apenas mantê-la viva, mas obter crescimento regular seguido de floração. A literatura horticultural brasileira frequentemente indica montagem em madeira e luz filtrada; há divergências entre produtores sobre o enquadramento térmico e a época principal de floração. Por isso, é importante separar a tolerância vegetativa à temperatura da necessidade de noites mais amenas para formação das flores. Em cultivo, raízes delicadas exigem hidratação frequente, mas não um suporte saturado e abafado. A confirmação de autoria, sinonímia e variações intraespecíficas permanece condicionada à conferência individual em POWO, WFO, IPNI e literatura original; não se deve transformar uma hipótese de cultivo em dado taxonômico.",
+    "descricao": "Isabelia pulchella é uma miniatura epífita de crescimento progressivo, com rizoma rastejante, pseudobulbos diminutos e raízes finas que se fixam à superfície do suporte. A denominação Neolauchea pulchella aparece na literatura horticultural e deve ser tratada como referência nomenclatural histórica, não como segunda espécie. Em plantas pequenas, a perda de um único broto ou de um segmento radicular representa proporção importante da touceira. As flores delicadas aparecem em estruturas curtas e sua observação depende de plantas estabelecidas. No cultivo, a combinação mais delicada é conservar umidade junto às raízes sem abafamento, especialmente quando as noites permanecem quentes.",
     "origem": "Brasil",
     "regiao": "Brasil; ocorrência associada a ambientes florestais e regiões com variação sazonal de temperatura.",
     "habitat": "Epífita miniaturizada, com raízes delicadas que se beneficiam de suportes ventilados e umidade regular.",
@@ -21,7 +21,7 @@ export const isabeliaPulchella = {
         "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
     },
     "floracao": "Primavera segundo Orquidário Aparecida, Hang e 4 Estações; existem registros divergentes de outono/inverno, por isso não representa calendário exclusivo.",
-    "adubacao": "🌿 Orgânica: em plantas pequenas, usar bokashi apenas em sachê afastado de raízes e brotos, quando aplicável.\n💧 Mineral/foliar: fertilizante equilibrado a cerca de 1/4 da dose do fabricante durante crescimento ativo, em intervalos ajustados à resposta da planta; evitar pulverizar flores.\n🧪 Liberação lenta: somente em vaso com boa drenagem, em dose muito pequena. Lavar periodicamente o substrato com água limpa para reduzir acúmulo de sais. Suspender aplicações fortes quando raízes estiverem inativas.",
+    "adubacao": "🌿 Orgânica: em miniatura de raízes delicadas, não encostar bokashi no rizoma; se necessário, manter pequena fonte orgânica fora do contato direto.\n💧 Mineral: adubação equilibrada muito diluída (até cerca de 1/4 do rótulo) apenas durante brotação e enraizamento; regar com água limpa entre aplicações para evitar acúmulo em placa.\n🧪 Liberação lenta: geralmente dispensável em placa pequena; grânulos próximos de raízes finas podem causar salinização localizada. No período de crescimento lento, diminuir a adubação antes de diminuir drasticamente a umidade.",
     "rega": "Em placa, umedecer as raízes com frequência e observar a velocidade de secagem. Uma pequena camada de esfagno solto pode retardar a desidratação; excesso de material úmido junto à base favorece apodrecimento. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
     "suporte": [
         "🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.",
@@ -50,7 +50,7 @@ export const isabeliaPulchella = {
             "https://orquidarioaparecida.com.br/produtos/isabelia-pulchella-m/",
             "https://www.orquideasnoape.com.br/2019/05/orquidea-isabelia-pulchella.html"
         ],
-        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: La Canopée — Isabelia pulchella. Receita de substrato é proposta horticultural (não consenso de 25 produtores).",
+        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: La Canopée — Isabelia pulchella. Receita de substrato é proposta horticultural (não consenso de 25 produtores). Revisão técnica de métodos de cultivo e adubação elaborada por inferência horticultural; não representa consenso de 25 produtores.",
         "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
         "distribuicaoGeografica": "Brasil; ocorrência associada a ambientes florestais e regiões com variação sazonal de temperatura.",
         "habitatAltitudeClima": "Epífita miniaturizada, com raízes delicadas que se beneficiam de suportes ventilados e umidade regular. Intermediário a fresco; noites excessivamente quentes podem limitar a indução floral em determinadas procedências."
@@ -202,47 +202,48 @@ export const isabeliaPulchella = {
         "agua": 3,
         "raridade": 3
     },
-    "statusRevisao": "V4 — correção dos assets de substrato, fenologia documentada, dicas individualizadas e 1 foto de referência externa",
+    "statusRevisao": "V4 — aprofundamento editorial e horticultural; fotografias adicionais e auditoria taxonômica completa pendentes",
     "sinonimo": "Neolauchea pulchella (sinônimo histórico)",
     "caracteristicas": [
         "Miniatura epífita",
-        "Raízes finas",
-        "Floração sensível ao microclima",
-        "Montagem ventilada",
-        "Sinônimo Neolauchea pulchella"
+        "Rizoma rastejante",
+        "Pseudobulbos diminutos",
+        "Raízes finas e superficiais",
+        "Sinônimo histórico Neolauchea pulchella",
+        "Microclima úmido e ventilado"
     ],
     "formasCultivo": {
         "perfilVisual": "epifita-ventilada",
         "destaque": "Placa / tronco",
-        "resumo": "A recomendação principal busca reproduzir o equilíbrio entre umidade disponível e oxigênio radicular. O suporte mais aberto reduz abafamento, mas exige regas mais frequentes; alternativas envasadas estabilizam a umidade ao custo de maior vigilância contra compactação.",
+        "resumo": "Métodos avaliados segundo o hábito e a fisiologia desta espécie. A escolha principal pressupõe manejo correto da rega; as alternativas exigem ajustes específicos de retenção, ventilação e fixação.",
         "metodos": [
             {
                 "nome": "Placa / tronco",
                 "asset": "placa-tronco",
                 "estrelas": 5,
                 "status": "Ideal",
-                "texto": "Método preferencial: Epífita miniaturizada, com raízes delicadas que se beneficiam de suportes ventilados e umidade regular. Em placa, umedecer as raízes com frequência e observar a velocidade de secagem. Uma pequena camada de esfagno solto pode retardar a desidratação; excesso de material úmido junto à base favorece apodrecimento."
+                "texto": "Placa pequena de madeira ou casca rugosa com rizoma inteiramente exposto. Uma lâmina muito fina de esfagno junto às raízes ajuda na transição de plantas recém-fixadas; retirar excesso que permaneça molhado por dias. Evitar deslocar a planta antes de as raízes aderirem."
             },
             {
                 "nome": "Cesto de madeira",
                 "asset": "cesto-madeira",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+                "texto": "Cesto de madeira diminuto, com mistura muito aberta, oferece espaço para a expansão lateral do rizoma e reduz abafamento. É indicado quando há regas frequentes e ventilação estável; exige inspeção para não deixar o centro secar completamente."
             },
             {
                 "nome": "Vaso de barro",
                 "asset": "vaso-barro",
                 "estrelas": 4,
                 "status": "Recomendado",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Não compactar o substrato e observar a secagem interna."
+                "texto": "Vaso de barro raso, com granulometria pequena mas porosa, dá mais reserva de umidade que a placa. Deixe o rizoma acima da mistura, porque pseudobulbos enterrados apodrecem facilmente. Atenção à secagem rápida das paredes em clima quente."
             },
             {
                 "nome": "Árvore viva",
                 "asset": "arvore-viva",
                 "estrelas": 3,
                 "status": "Alternativa",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+                "texto": "Árvore viva em ponto protegido de vento ressecante e sol forte pode funcionar quando a umidade atmosférica é alta. A espécie cresce lentamente e a fixação é pouco reversível; preferir suporte removível enquanto a adaptação não estiver comprovada."
             }
         ]
     },

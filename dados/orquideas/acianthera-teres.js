@@ -8,7 +8,7 @@ export const aciantheraTeres = {
     "fotos": [
         "https://www.orchidspecies.com/orphotdir/pleurotteres.jpg"
     ],
-    "descricao": "É uma espécie brasileira singular pela folhagem espessa, alongada e quase cilíndrica, uma adaptação associada à conservação de água. Seu hábito rupícola implica raízes que recebem água em pulsos e logo retornam à aeração, mas não autoriza cultivar uma planta recém-adquirida sob sol forte. O relato de cultivo do Orquidário Aparecida sobre madeira com sombreamento elevado mostra como a resposta de exemplares aclimatados pode diferir da exposição encontrada no habitat. O manejo deve equilibrar claridade suficiente para indução floral, ventilação e temperatura do suporte. A confirmação de autoria, sinonímia e variações intraespecíficas permanece condicionada à conferência individual em POWO, WFO, IPNI e literatura original; não se deve transformar uma hipótese de cultivo em dado taxonômico.",
+    "descricao": "Acianthera teres distingue-se pela arquitetura compacta e pelas folhas carnosas, quase cilíndricas, que armazenam água e reduzem a superfície exposta. O conjunto vegetativo é adaptado a microambientes rochosos onde a água escorre depressa, mas há umidade intermitente em fendas e sobre superfícies protegidas. A posição das inflorescências entre os brotos e a coloração das flores devem ser conferidas em exemplares floridos, pois material apenas vegetativo pode ser confundido com táxons próximos. A aparência xeromórfica não demonstra exigência de sol pleno: raízes e folhas podem superaquecer em vaso ou placa expostos. Em cultivo, interessa reproduzir a drenagem rápida, a boa luminosidade filtrada e a ventilação, acompanhando a firmeza das folhas e a emissão de novas raízes.",
     "origem": "América Tropical",
     "regiao": "Brasil; ambientes de afloramentos rochosos, com registros em formações abertas e rupestres.",
     "habitat": "Predominantemente rupícola em afloramentos rochosos com raízes aderidas a fendas e superfícies muito drenantes; vegetação xeromórfica não equivale a tolerância ilimitada ao sol quente.",
@@ -21,7 +21,7 @@ export const aciantheraTeres = {
         "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
     },
     "floracao": "Dezembro a fevereiro: registros de floração em populações brasileiras estudadas; outras localidades e cultivos podem variar.",
-    "adubacao": "🌿 Orgânica: em plantas pequenas, usar bokashi apenas em sachê afastado de raízes e brotos, quando aplicável.\n💧 Mineral/foliar: fertilizante equilibrado a cerca de 1/4 da dose do fabricante durante crescimento ativo, em intervalos ajustados à resposta da planta; evitar pulverizar flores.\n🧪 Liberação lenta: somente em vaso com boa drenagem, em dose muito pequena. Lavar periodicamente o substrato com água limpa para reduzir acúmulo de sais. Suspender aplicações fortes quando raízes estiverem inativas.",
+    "adubacao": "🌿 Orgânica: não depositar bokashi diretamente sobre as folhas cilíndricas ou na base da touceira; em recipiente pequeno, usar apenas sachê afastado das raízes, se necessário.\n💧 Mineral: durante emissão de brotos e raízes, aplicar solução equilibrada bem diluída (aproximadamente 1/4 da dose indicada no rótulo), alternando com água limpa.\n🧪 Liberação lenta: evitar em placa e em vaso muito pequeno, pois a concentração local pode ser elevada; se usada, escolher dose mínima e monitorar sais. Reduzir a frequência quando o crescimento parar, sem impor repouso seco artificial.",
     "rega": "Regar abundantemente durante a emissão de raízes e brotos; permitir secagem rápida do suporte, sem transformar o cultivo em seca prolongada. Em vaso mineral, avaliar peso, cor das raízes e temperatura antes de repetir a rega. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
     "suporte": [
         "🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.",
@@ -50,7 +50,7 @@ export const aciantheraTeres = {
             "https://proflora.jbrj.gov.br/html/Acianthera%20teres_2012.html",
             "https://orquidarioaparecida.com.br/produtos/acianthera-teres/"
         ],
-        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: IOSPE — Pleurothallis teres. Receita de substrato é proposta horticultural (não consenso de 25 produtores).",
+        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: IOSPE — Pleurothallis teres. Receita de substrato é proposta horticultural (não consenso de 25 produtores). Revisão técnica de métodos de cultivo e adubação elaborada por inferência horticultural; não representa consenso de 25 produtores.",
         "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
         "distribuicaoGeografica": "Brasil; ambientes de afloramentos rochosos, com registros em formações abertas e rupestres.",
         "habitatAltitudeClima": "Predominantemente rupícola em afloramentos rochosos com raízes aderidas a fendas e superfícies muito drenantes; vegetação xeromórfica não equivale a tolerância ilimitada ao sol quente. Quente a intermediário, com alta circulação de ar e forte variação microclimática sobre rochas."
@@ -202,47 +202,48 @@ export const aciantheraTeres = {
         "agua": 3,
         "raridade": 3
     },
-    "statusRevisao": "V4 — correção dos assets de substrato, fenologia documentada, dicas individualizadas e 1 foto de referência externa",
+    "statusRevisao": "V4 — aprofundamento editorial e horticultural; fotografias adicionais e auditoria taxonômica completa pendentes",
     "sinonimo": "Pleurothallis teres (combinação histórica; autoria a verificar)",
     "caracteristicas": [
-        "Folhas cilíndricas e suculentas",
-        "Hábito predominantemente rupícola",
-        "Raízes expostas e ventiladas",
-        "Adaptação a secagem rápida",
-        "Floração depende da maturidade dos brotos"
+        "Folhas carnosas quase cilíndricas",
+        "Hábito rupícola documentado",
+        "Touceira compacta",
+        "Raízes de secagem rápida",
+        "Flores a conferir na planta adquirida",
+        "Sensível a superaquecimento do suporte"
     ],
     "formasCultivo": {
         "perfilVisual": "epifita-ventilada",
         "destaque": "Placa / tronco",
-        "resumo": "A recomendação principal busca reproduzir o equilíbrio entre umidade disponível e oxigênio radicular. O suporte mais aberto reduz abafamento, mas exige regas mais frequentes; alternativas envasadas estabilizam a umidade ao custo de maior vigilância contra compactação.",
+        "resumo": "Métodos avaliados segundo o hábito e a fisiologia desta espécie. A escolha principal pressupõe manejo correto da rega; as alternativas exigem ajustes específicos de retenção, ventilação e fixação.",
         "metodos": [
             {
                 "nome": "Placa / tronco",
                 "asset": "placa-tronco",
                 "estrelas": 5,
                 "status": "Ideal",
-                "texto": "Método preferencial: Predominantemente rupícola em afloramentos rochosos com raízes aderidas a fendas e superfícies muito drenantes; vegetação xeromórfica não equivale a tolerância ilimitada ao sol quente. Regar abundantemente durante a emissão de raízes e brotos; permitir secagem rápida do suporte, sem transformar o cultivo em seca prolongada. Em vaso mineral, avaliar peso, cor das raízes e temperatura antes de repetir a rega."
+                "texto": "Montagem sobre madeira firme, com raízes presas superficialmente e sem envolver o rizoma em massa orgânica. É uma alternativa prática ao hábito rupícola porque permite secagem rápida, desde que a rega seja ajustada ao calor e ao vento. Evite placa pequena sob sol forte, que aquece mais que o ambiente."
             },
             {
                 "nome": "Vaso de barro",
                 "asset": "vaso-barro",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Não compactar o substrato e observar a secagem interna."
+                "texto": "Vaso de barro baixo com partículas minerais e orgânicas grossas: fornece lastro e estabilidade à touceira, com evaporação pelas paredes. Não pressione as raízes contra brita pontiaguda; observe o centro do vaso, que seca mais devagar que a borda."
             },
             {
                 "nome": "Cesto de madeira",
                 "asset": "cesto-madeira",
                 "estrelas": 4,
                 "status": "Recomendado",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+                "texto": "Cesto de madeira com pequena quantidade de mistura grosseira permite circulação lateral intensa. Útil quando a planta precisa de fixação, mas exige acompanhamento em dias secos, pois o cesto pode perder umidade antes de um vaso convencional."
             },
             {
                 "nome": "Árvore viva",
                 "asset": "arvore-viva",
                 "estrelas": 3,
                 "status": "Alternativa",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+                "texto": "Em árvore viva, escolha casca rugosa e posição clara, protegida do sol mais quente. A fixação deve permitir raízes aderirem à casca sem estrangular a planta; a exposição à chuva e a dificuldade de mudar de lugar tornam o método menos controlável."
             }
         ]
     },

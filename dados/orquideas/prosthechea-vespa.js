@@ -8,7 +8,7 @@ export const prosthecheaVespa = {
     "fotos": [
         "https://garden.org/pics/2016-12-21/robertduval14/3a78c7.jpg"
     ],
-    "descricao": "Espécie de Prosthechea reconhecida pelo aspecto marcante de suas flores e pela arquitetura de crescimento com pseudobulbos. Fontes botânicas e horticulturais descrevem ocupação de ambientes com luminosidade variável, o que exige evitar uma recomendação única de sol pleno. Em clima quente, o sucesso depende de combinar boa claridade com raízes que não permaneçam abafadas; a emissão de brotos e o amadurecimento dos pseudobulbos devem orientar a intensidade das regas e a adubação. A amplitude ecológica favorece a adaptação vegetativa, mas não garante floração anual em qualquer microclima. A confirmação de autoria, sinonímia e variações intraespecíficas permanece condicionada à conferência individual em POWO, WFO, IPNI e literatura original; não se deve transformar uma hipótese de cultivo em dado taxonômico.",
+    "descricao": "Prosthechea vespa é uma orquídea epífita de crescimento simpodial, com pseudobulbos que armazenam água e sustentam folhas coriáceas. A inflorescência pode portar diversas flores de padrão contrastante; forma, manchas e posição do labelo são úteis para confirmar a identificação em floração. O crescimento sazonal é marcado pela emissão de novos brotos e, posteriormente, pela maturação dos pseudobulbos. Essa sequência deve orientar rega e adubação: raízes novas absorvem melhor nutrientes e uma planta com pseudobulbos ainda imaturos não deve ser submetida a seca severa. O manejo ideal privilegia luz filtrada relativamente clara, raízes oxigenadas e recipiente estável.",
     "origem": "América Tropical",
     "regiao": "América tropical; registros em ampla faixa de altitude, inclusive regiões relativamente baixas.",
     "habitat": "Epífita de ambientes florestais e, em alguns registros, associada a locais mais expostos; raízes requerem aeração e drenagem.",
@@ -21,7 +21,7 @@ export const prosthecheaVespa = {
         "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
     },
     "floracao": "Do fim da primavera a meados do verão, segundo Orquídeas Gaúchas; o período varia com a região.",
-    "adubacao": "🌿 Orgânica: em plantas pequenas, usar bokashi apenas em sachê afastado de raízes e brotos, quando aplicável.\n💧 Mineral/foliar: fertilizante equilibrado a cerca de 1/4 da dose do fabricante durante crescimento ativo, em intervalos ajustados à resposta da planta; evitar pulverizar flores.\n🧪 Liberação lenta: somente em vaso com boa drenagem, em dose muito pequena. Lavar periodicamente o substrato com água limpa para reduzir acúmulo de sais. Suspender aplicações fortes quando raízes estiverem inativas.",
+    "adubacao": "🌿 Orgânica: sachê de adubo orgânico afastado dos brotos e das raízes novas, em pequena quantidade, apenas se a drenagem for excelente.\n💧 Mineral: fertilizante equilibrado diluído (cerca de 1/4 do rótulo) durante crescimento dos pseudobulbos; acompanhar formação de raízes e lavar o vaso periodicamente com água limpa.\n🧪 Liberação lenta: pode ser considerada em vaso bem drenado e planta vigorosa, sempre em dose conservadora. Reduzir adubação após amadurecimento dos brotos; não confundir menor demanda com repouso seco obrigatório.",
     "rega": "Regar mais durante crescimento ativo e formação de pseudobulbos; após amadurecimento, espaçar de acordo com a secagem real, sem impor repouso seco não documentado. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
     "suporte": [
         "🥇 Vaso de barro — melhor relação entre aeração e hidratação quando corretamente manejado.",
@@ -49,7 +49,7 @@ export const prosthecheaVespa = {
             "https://orquideasgauchas.net/P_desc_especie.php?cod_especie=35",
             "https://monografiasfloradobrasil.jbrj.gov.br/prosthechea.pdf"
         ],
-        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: Garden.org — Prosthechea vespa. Receita de substrato é proposta horticultural (não consenso de 25 produtores).",
+        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: Garden.org — Prosthechea vespa. Receita de substrato é proposta horticultural (não consenso de 25 produtores). Revisão técnica de métodos de cultivo e adubação elaborada por inferência horticultural; não representa consenso de 25 produtores.",
         "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
         "distribuicaoGeografica": "América tropical; registros em ampla faixa de altitude, inclusive regiões relativamente baixas.",
         "habitatAltitudeClima": "Epífita de ambientes florestais e, em alguns registros, associada a locais mais expostos; raízes requerem aeração e drenagem. Quente a intermediário; boa possibilidade de crescimento em clima quente com luminosidade e ventilação adequadas."
@@ -202,47 +202,48 @@ export const prosthecheaVespa = {
         "agua": 3,
         "raridade": 3
     },
-    "statusRevisao": "V4 — correção dos assets de substrato, fenologia documentada, dicas individualizadas e 1 foto de referência externa",
+    "statusRevisao": "V4 — aprofundamento editorial e horticultural; fotografias adicionais e auditoria taxonômica completa pendentes",
     "sinonimo": "Encyclia vespa (combinação histórica; confirmar autoria)",
     "caracteristicas": [
-        "Pseudobulbos",
+        "Epífita simpodial",
+        "Pseudobulbos com reserva de água",
         "Folhas coriáceas",
         "Inflorescência multiflora",
         "Flores de padrão contrastante",
-        "Epífita de ampla plasticidade"
+        "Adubação associada a brotos novos"
     ],
     "formasCultivo": {
         "perfilVisual": "epifita-ventilada",
         "destaque": "Vaso de barro",
-        "resumo": "A recomendação principal busca reproduzir o equilíbrio entre umidade disponível e oxigênio radicular. O suporte mais aberto reduz abafamento, mas exige regas mais frequentes; alternativas envasadas estabilizam a umidade ao custo de maior vigilância contra compactação.",
+        "resumo": "Métodos avaliados segundo o hábito e a fisiologia desta espécie. A escolha principal pressupõe manejo correto da rega; as alternativas exigem ajustes específicos de retenção, ventilação e fixação.",
         "metodos": [
             {
                 "nome": "Vaso de barro",
                 "asset": "vaso-barro",
                 "estrelas": 5,
                 "status": "Ideal",
-                "texto": "Método preferencial: Epífita de ambientes florestais e, em alguns registros, associada a locais mais expostos; raízes requerem aeração e drenagem. Regar mais durante crescimento ativo e formação de pseudobulbos; após amadurecimento, espaçar de acordo com a secagem real, sem impor repouso seco não documentado."
+                "texto": "Vaso de barro de tamanho justo com casca média, carvão e componentes minerais porosos. Os pseudobulbos permanecem acima da mistura e a frente de crescimento fica com espaço livre. Replantar preferencialmente quando surgirem novas raízes, evitando lesões no crescimento antigo."
             },
             {
                 "nome": "Placa / tronco",
                 "asset": "placa-tronco",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+                "texto": "Placa de madeira com amarração firme e raízes expostas é viável em ambiente muito úmido e com rega frequente. A espécie possui reserva nos pseudobulbos, mas brotos jovens ainda podem desidratar; não usar placa excessivamente pequena."
             },
             {
                 "nome": "Cesto de madeira",
                 "asset": "cesto-madeira",
                 "estrelas": 4,
                 "status": "Recomendado",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+                "texto": "Cesto de madeira acomoda raízes que procuram ar e permite secagem pelas laterais. Utilizar mistura grossa que não escape pelas frestas; vigiar o centro para não formar bolsões úmidos."
             },
             {
                 "nome": "Árvore viva",
                 "asset": "arvore-viva",
                 "estrelas": 3,
                 "status": "Alternativa",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+                "texto": "Árvore viva com casca aderente e luz filtrada pode reproduzir o hábito epífito, mas dificulta controlar a nutrição e proteger brotos jovens de períodos secos. Fixar apenas exemplares enraizados e aclimatados."
             }
         ]
     },

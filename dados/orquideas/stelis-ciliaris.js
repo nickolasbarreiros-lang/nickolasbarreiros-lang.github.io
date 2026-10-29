@@ -8,7 +8,7 @@ export const stelisCiliaris = {
     "fotos": [
         "https://ecuagenera.com/cdn/shop/files/Stelis._ciliaris.jpg?v=1754667689"
     ],
-    "descricao": "Stelis ciliaris apresenta flores pequenas cuja observação detalhada revela margens ciliadas, caráter importante para a identificação. O porte discreto contrasta com inflorescências que podem se alongar bem além das folhas. Não deve ser descrita como obrigatoriamente fria: há registros ecológicos em florestas úmidas de baixa altitude, embora populações de regiões elevadas possam responder de modo diferente ao calor. No cultivo, a principal dificuldade é manter raízes finas hidratadas e oxigenadas ao mesmo tempo, com boa ventilação e proteção contra aquecimento excessivo. A confirmação de autoria, sinonímia e variações intraespecíficas permanece condicionada à conferência individual em POWO, WFO, IPNI e literatura original; não se deve transformar uma hipótese de cultivo em dado taxonômico.",
+    "descricao": "Stelis ciliaris pertence à subtribo Pleurothallidinae e produz inflorescências alongadas com pequenas flores cuja margem ciliada é uma característica diagnóstica importante. A identificação definitiva depende da observação das peças florais, sobretudo sépalas, pétalas e labelo, porque várias espécies do grupo compartilham vegetação semelhante. É uma epífita associada a florestas úmidas; registros em ambientes tropicais de menor altitude desaconselham classificá-la automaticamente como espécie obrigatoriamente fria. O desafio no cultivo quente é manter raízes finas ativas sem deixar o suporte permanentemente saturado. A floração pode ser prejudicada tanto por secagem intensa como por falta de luz filtrada.",
     "origem": "América Tropical",
     "regiao": "América tropical, do sul do México à América do Sul; confirmar limites por base taxonômica.",
     "habitat": "Epífita de florestas úmidas; registros do gênero e da espécie incluem ambientes quentes e intermediários, exigindo avaliação da procedência.",
@@ -21,7 +21,7 @@ export const stelisCiliaris = {
         "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
     },
     "floracao": "Outubro: registro brasileiro em cultivo publicado em Rodriguésia; fim do outono e começo do inverno em descrições internacionais, conforme hemisfério.",
-    "adubacao": "🌿 Orgânica: em plantas pequenas, usar bokashi apenas em sachê afastado de raízes e brotos, quando aplicável.\n💧 Mineral/foliar: fertilizante equilibrado a cerca de 1/4 da dose do fabricante durante crescimento ativo, em intervalos ajustados à resposta da planta; evitar pulverizar flores.\n🧪 Liberação lenta: somente em vaso com boa drenagem, em dose muito pequena. Lavar periodicamente o substrato com água limpa para reduzir acúmulo de sais. Suspender aplicações fortes quando raízes estiverem inativas.",
+    "adubacao": "🌿 Orgânica: evitar materiais orgânicos concentrados junto ao colo e às raízes finas; em geral, preferir nutrição mineral controlável.\n💧 Mineral: aplicar fertilizante equilibrado em concentração baixa (aproximadamente 1/4 do rótulo ou menos), durante crescimento ativo; alternar com regas de água limpa para prevenir acúmulo de sais.\n🧪 Liberação lenta: desaconselhada em suporte muito pequeno ou esfagno úmido, onde a liberação e a concentração local são difíceis de controlar. Não adubar intensamente plantas com raízes comprometidas.",
     "rega": "Manter hidratação frequente, especialmente em plantas montadas. Regar quando a superfície começar a perder umidade, sem deixar raízes finas secarem por vários dias e sem manter esfagno compactado constantemente molhado. Ajustar sempre à granulometria, ao recipiente, à ventilação e ao ritmo de emissão de raízes; não fixar regas por calendário sem observar o suporte.",
     "suporte": [
         "🥇 Placa / tronco — melhor relação entre aeração e hidratação quando corretamente manejado.",
@@ -49,7 +49,7 @@ export const stelisCiliaris = {
             "https://www.scielo.br/j/rod/a/fc47DHWbDSGprdF6S3GCfyS/",
             "https://orchidspecies.com/stelciliaris.htm"
         ],
-        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: Ecuagenera — Stelis ciliaris. Receita de substrato é proposta horticultural (não consenso de 25 produtores).",
+        "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: Ecuagenera — Stelis ciliaris. Receita de substrato é proposta horticultural (não consenso de 25 produtores). Revisão técnica de métodos de cultivo e adubação elaborada por inferência horticultural; não representa consenso de 25 produtores.",
         "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
         "distribuicaoGeografica": "América tropical, do sul do México à América do Sul; confirmar limites por base taxonômica.",
         "habitatAltitudeClima": "Epífita de florestas úmidas; registros do gênero e da espécie incluem ambientes quentes e intermediários, exigindo avaliação da procedência. Quente a intermediário conforme procedência e altitude; umidade atmosférica elevada e circulação contínua."
@@ -201,47 +201,48 @@ export const stelisCiliaris = {
         "agua": 4,
         "raridade": 4
     },
-    "statusRevisao": "V4 — correção dos assets de substrato, fenologia documentada, dicas individualizadas e 1 foto de referência externa",
+    "statusRevisao": "V4 — aprofundamento editorial e horticultural; fotografias adicionais e auditoria taxonômica completa pendentes",
     "sinonimo": "Apatostelis ciliaris (combinação histórica; verificar autoria)",
     "caracteristicas": [
         "Pleurothallidinae",
-        "Flores pequenas com margens ciliadas",
+        "Flores pequenas de margens ciliadas",
         "Inflorescências alongadas",
-        "Epífita de florestas úmidas",
-        "Sensível à desidratação radicular"
+        "Epífita de floresta úmida",
+        "Raízes finas sensíveis à secagem",
+        "Clima não exclusivamente frio"
     ],
     "formasCultivo": {
         "perfilVisual": "epifita-ventilada",
         "destaque": "Placa / tronco",
-        "resumo": "A recomendação principal busca reproduzir o equilíbrio entre umidade disponível e oxigênio radicular. O suporte mais aberto reduz abafamento, mas exige regas mais frequentes; alternativas envasadas estabilizam a umidade ao custo de maior vigilância contra compactação.",
+        "resumo": "Métodos avaliados segundo o hábito e a fisiologia desta espécie. A escolha principal pressupõe manejo correto da rega; as alternativas exigem ajustes específicos de retenção, ventilação e fixação.",
         "metodos": [
             {
                 "nome": "Placa / tronco",
                 "asset": "placa-tronco",
                 "estrelas": 5,
                 "status": "Ideal",
-                "texto": "Método preferencial: Epífita de florestas úmidas; registros do gênero e da espécie incluem ambientes quentes e intermediários, exigindo avaliação da procedência. Manter hidratação frequente, especialmente em plantas montadas. Regar quando a superfície começar a perder umidade, sem deixar raízes finas secarem por vários dias e sem manter esfagno compactado constantemente molhado."
+                "texto": "Placa de madeira pequena, protegida do vento seco, com fina faixa de esfagno apenas sob raízes ativas. É a forma mais arejada, mas precisa de monitoramento frequente da umidade: a planta não deve passar longos períodos completamente seca."
             },
             {
                 "nome": "Vaso de barro",
                 "asset": "vaso-barro",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Não compactar o substrato e observar a secagem interna."
+                "texto": "Vaso de barro pequeno com casca fina e porosa e uma fração controlada de esfagno. Favorece estabilidade hídrica, mas a evaporação lateral pode acelerar demais a secagem; não compactar a mistura ao redor da base."
             },
             {
                 "nome": "Cesto de madeira",
                 "asset": "cesto-madeira",
                 "estrelas": 4,
                 "status": "Recomendado",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Garantir fixação segura e monitorar desidratação em dias quentes."
+                "texto": "Cesto de madeira com partículas pequenas retidas por uma tela permite boa circulação, mas seca rapidamente. É alternativa para ambiente muito úmido, não para local de vento quente constante."
             },
             {
                 "nome": "Vaso plástico vasado",
                 "asset": "vaso-plastico-vasado",
                 "estrelas": 3,
                 "status": "Alternativa",
-                "texto": "Alternativa para ajustar reserva hídrica e estabilidade do conjunto. Não compactar o substrato e observar a secagem interna."
+                "texto": "Vaso plástico vasado pequeno conserva umidade por mais tempo que o barro, útil em ambiente seco, desde que haja muitos furos laterais e mistura aberta. Evite água parada no fundo e inspecione o interior antes de regar."
             }
         ]
     },
