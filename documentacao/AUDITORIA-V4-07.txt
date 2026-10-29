@@ -1,0 +1,14 @@
+AUDITORIA V4.07 — SUPORTES E LACUNAS DE GALERIA
+Base: pacote V4.06; referência editorial: ficha Acianthera auriculata.
+Alteração efetiva: campo suporte reescrito de modo individualizado nas seis fichas.
+Nenhum link de foto foi inventado. A disponibilidade/licença das fotos existentes não foi validada.
+
+acianthera-teres: 1/4 fotos; faltam 3; 4 métodos presentes; JS válido; suporte individualizado.
+isabelia-pulchella: 1/4 fotos; faltam 3; 4 métodos presentes; JS válido; suporte individualizado.
+stelis-ciliaris: 1/4 fotos; faltam 3; 4 métodos presentes; JS válido; suporte individualizado.
+prosthechea-vespa: 1/4 fotos; faltam 3; 4 métodos presentes; JS válido; suporte individualizado.
+prosthechea-fragrans: 1/4 fotos; faltam 3; 4 métodos presentes; JS válido; suporte individualizado.
+dinema-polybulbon: 1/4 fotos; faltam 3; 4 métodos presentes; JS válido; suporte individualizado.
+
+PENDÊNCIAS NÃO CONCLUÍDAS: 18 fotografias de espécie, verificação de direitos e identificação, validação botânica, confronto com 25 produtores brasileiros por espécie.
+Índice e manifesto não incluídos nem alterados.
