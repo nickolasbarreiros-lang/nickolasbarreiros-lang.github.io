@@ -36,6 +36,7 @@ export const isabeliaPulchella = {
   ],
   "dica": "Mantenha o rizoma rastejante preso superficialmente a uma pequena placa, com as raízes livres e uma fina reserva de umidade. A planta deve receber claridade filtrada e ventilação constante; a chave para florir é formar vários pseudobulbos maduros sem ressecar os brotos novos. A recomendação de noites amenas para favorecer a floração é hipótese de manejo coerente com relatos de cultivo, não prova de uma quebra térmica obrigatória. Antes de classificar a espécie como incapaz de florescer no litoral, é necessário comparar plantas de procedências conhecidas sob temperaturas noturnas registradas. Ao montar, deixe o rizoma livre para avançar e use somente uma película de esfagno junto às raízes. A camada espessa pode manter o colo encharcado e prejudicar justamente a miniatura que se pretendia proteger.",
   "revisaoCientificaIAR": {
+    "distribuicaoFonteConferidaV410": "https://commons.wikimedia.org/wiki/Isabelia_pulchella",
     "notaRevisao09": "Distribuição brasileira (Sul e Sudeste) corroborada pela galeria taxonômica Wikimedia Commons; conferir delimitação e altitude no POWO e na Flora e Funga do Brasil.",
     "fonteDistribuicao09": "https://commons.wikimedia.org/wiki/Isabelia_pulchella",
     "nome": "Isabelia pulchella",
@@ -49,7 +50,7 @@ export const isabeliaPulchella = {
     ],
     "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: La Canopée — Isabelia pulchella. Receita de substrato é proposta horticultural (não consenso de 25 produtores). Revisão técnica de métodos de cultivo e adubação elaborada por inferência horticultural; não representa consenso de 25 produtores. GALERIA: somente uma imagem externa de referência; faltam três imagens por espécie com identificação e disponibilidade verificadas. O texto ampliado diferencia dados morfológicos, recomendações e hipóteses horticulturais.",
     "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
-    "distribuicaoGeografica": "Brasil; ocorrência associada a ambientes florestais e regiões com variação sazonal de temperatura.",
+    "distribuicaoGeografica": "Distribuição nativa registrada no Sul e Sudeste do Brasil.",
     "habitatAltitudeClima": "Epífita miniaturizada, com raízes delicadas que se beneficiam de suportes ventilados e umidade regular. Intermediário a fresco; noites excessivamente quentes podem limitar a indução floral em determinadas procedências."
   },
   "indiceDificuldadeCultivo": {

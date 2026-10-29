@@ -36,6 +36,7 @@ export const dinemaPolybulbon = {
   ],
   "dica": "Deixe a touceira expandir horizontalmente sobre madeira ou casca, sem enterrar os rizomas. A floração tende a melhorar quando há muitos pseudobulbos maduros; preserve a umidade nas raízes expostas com regas rápidas e boa ventilação, evitando mudanças frequentes de suporte. Os relatos de perfume e de meses de floração divergem entre produtores; a ficha deve preservar essa divergência. Para avaliar floração em ambiente quente, registre a maturação dos pseudobulbos, o histórico de luz e a frequência de secagem, sem impor um repouso seco que não esteja comprovado. A planta cresce lateralmente e perde desempenho quando o rizoma é enterrado. Monte sobre casca ou madeira com espaço para expansão, amarrando apenas o necessário até as raízes aderirem; evite desmontar a touceira a cada ciclo.",
   "revisaoCientificaIAR": {
+    "distribuicaoFonteConferidaV410": "https://commons.wikimedia.org/wiki/Dinema_polybulbon",
     "notaRevisao09": "Distribuição geográfica regional corroborada pela galeria taxonômica Wikimedia Commons; validar limites atuais e registros de ocorrência no POWO.",
     "fonteDistribuicao09": "https://commons.wikimedia.org/wiki/Dinema_polybulbon",
     "nome": "Dinema polybulbon",
@@ -49,7 +50,7 @@ export const dinemaPolybulbon = {
     ],
     "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: Ecuagenera — Dinema polybulbon. Receita de substrato é proposta horticultural (não consenso de 25 produtores). Revisão técnica de métodos de cultivo e adubação elaborada por inferência horticultural; não representa consenso de 25 produtores. GALERIA: somente uma imagem externa de referência; faltam três imagens por espécie com identificação e disponibilidade verificadas. O texto ampliado diferencia dados morfológicos, recomendações e hipóteses horticulturais.",
     "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
-    "distribuicaoGeografica": "América tropical; verificar extensão e eventuais lacunas de distribuição no POWO/GBIF.",
+    "distribuicaoGeografica": "Distribuição nativa registrada no México, América Central e Caribe; não considerar o Brasil parte da distribuição nativa sem evidência.",
     "habitatAltitudeClima": "Epífita de pequeno porte, com pseudobulbos agrupados ou espaçados sobre suportes, beneficiada por boa aeração. Quente a intermediário, úmido e ventilado; ajustar exposição à procedência."
   },
   "indiceDificuldadeCultivo": {

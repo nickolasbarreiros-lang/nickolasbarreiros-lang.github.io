@@ -1,0 +1,15 @@
+REVISÃO V4.10 — CONSISTÊNCIA DE DISTRIBUIÇÃO E FONTES VISUAIS
+
+ALTERAÇÕES EFETIVAS
+- Isabelia pulchella: corrigido campo interno distribuicaoGeografica, anteriormente genérico, para Sul e Sudeste do Brasil; fonte de conferência anexada ao bloco de auditoria.
+- Dinema polybulbon: corrigido campo interno distribuicaoGeografica, anteriormente genérico e incoerente com origem/regiao, para México, América Central e Caribe; fonte de conferência anexada.
+- Campos de notas IDC/IAR, fotos, substrato, formas de cultivo, indice e manifesto não foram modificados.
+
+FONTES CONSULTADAS (galerias taxonômicas, não substituem revisão POWO)
+https://commons.wikimedia.org/wiki/Isabelia_pulchella
+https://commons.wikimedia.org/wiki/Dinema_polybulbon
+https://commons.wikimedia.org/wiki/Category:Isabelia_pulchella
+
+FOTOS: ainda são 1 por espécie (6/24). Não inserir imagens diretamente a partir das páginas de galeria: é preciso selecionar cada arquivo, confirmar táxon, licença, autoria, URL estável e se a fotografia mostra aspecto distinto da planta. Uma galeria não equivale a três fotos verificadas.
+
+PENDÊNCIAS: 18 fotos, medidas morfológicas verificadas, contraste com a ficha Acianthera auriculata, checagem POWO/Flora e Funga do Brasil, validação com produtores brasileiros.
