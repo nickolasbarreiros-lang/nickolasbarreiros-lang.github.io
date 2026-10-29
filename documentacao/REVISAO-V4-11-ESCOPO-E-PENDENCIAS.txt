@@ -1,0 +1,17 @@
+REVISÃO V4.11 — AUDITORIA CONSOLIDADA
+
+Alterados: textos Sobre a espécie das seis fichas, em linguagem dinâmica e informativa; origem e distribuição de Acianthera teres segundo POWO/Kew e CNCFlora.
+
+NÃO CONCLUÍDO: verificação HTTP de links externos e licenças; o ambiente não permite acesso HTTP direto. Não foram acrescentadas imagens fictícias nem cópias repetidas.
+
+GALERIAS (URLs cadastradas; não equivale a fotos verificadas):
+- acianthera-teres: 1/4
+- isabelia-pulchella: 4/4
+- stelis-ciliaris: 4/4
+- prosthechea-vespa: 4/4
+- prosthechea-fragrans: 4/4
+- dinema-polybulbon: 4/4
+
+ATENÇÃO: Stelis ciliaris contém duas imagens derivadas da mesma fotografia; devem ser substituídas por imagens independentes. Acianthera teres precisa de três fotografias adicionais.
+
+PRESERVADOS: demais campos de cultivo, índices IDC/IAR, substratos, índice e manifesto.

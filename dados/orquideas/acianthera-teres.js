@@ -8,9 +8,9 @@ export const aciantheraTeres = {
   "fotos": [
     "https://www.orchidspecies.com/orphotdir/pleurotteres.jpg"
 ],
-  "descricao": "Uma orquídea de personalidade singular! A Acianthera teres chama a atenção pelas folhas estreitas e quase cilíndricas, bem diferentes das folhas achatadas de muitas orquídeas. É uma espécie brasileira associada a ambientes rochosos e bastante iluminados, onde cresce em pequenas touceiras. Suas flores discretas surgem próximas à folhagem e recompensam quem gosta de observar os detalhes. O formato das folhas ajuda a entender sua resistência à exposição e à secagem rápida, mas isso não significa que aprecie raízes superaquecidas ou longos períodos de abandono. Uma miniatura de aparência simples, mas com um jeito de crescer muito particular.",
-  "origem": "América Tropical",
-  "regiao": "Brasil; ambientes de afloramentos rochosos, com registros em formações abertas e rupestres.",
+  "descricao": "Uma brasileira de visual inconfundível! A Acianthera teres tem folhas estreitas, grossinhas e quase cilíndricas, que dão à touceira um aspecto diferente das orquídeas de folhas largas. Suas flores pequenas e discretas aparecem junto à folhagem e revelam detalhes delicados quando observadas de perto. Na natureza, destaca-se pela presença em afloramentos rochosos do Sudeste brasileiro, onde encontra muita claridade e excelente drenagem. É uma espécie que chama a atenção menos pelo tamanho das flores e mais pela forma singular da planta e pelo ambiente em que vive.",
+  "origem": "Brasil — Sudeste",
+  "regiao": "Sudeste do Brasil, sobretudo afloramentos rochosos e campos rupestres.",
   "habitat": "Predominantemente rupícola em afloramentos rochosos com raízes aderidas a fendas e superfícies muito drenantes; vegetação xeromórfica não equivale a tolerância ilimitada ao sol quente.",
   "clima": "Quente a intermediário, com alta circulação de ar e forte variação microclimática sobre rochas.",
   "climaFloracao": "Clima quente a intermediário, com luminosidade filtrada relativamente alta e ventilação intensa. A indução floral depende principalmente do amadurecimento dos brotos, da manutenção de raízes funcionais e de boa disponibilidade de luz sem superaquecimento das folhas. Não há comprovação suficiente de que uma queda térmica noturna acentuada ou repouso seco obrigatório sejam necessários. Em ambiente litorâneo, priorizar a secagem rápida após a rega e evitar calor acumulado no suporte. Ao avaliar floração, registre separadamente brotos maduros, firmeza das folhas, intensidade de luz e temperatura do suporte. Uma touceira que cresce, mas não floresce, não deve receber automaticamente mais sol: confirme primeiro se a luz chega de modo uniforme sem aquecer as raízes.",
@@ -37,17 +37,18 @@ export const aciantheraTeres = {
   "dica": "Aposte em muita claridade filtrada e ventilação: suas folhas carnudas não gostam de calor parado.",
   "revisaoCientificaIAR": {
     "nome": "Acianthera teres",
-    "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
+    "statusTaxonomico": "Nome aceito por Plants of the World Online (Kew); a identidade de exemplares comerciais ainda depende de confirmação.",
     "cultivoPremiacao": "Proposta de manejo derivada de ecologia e recomendações horticulturais brasileiras já levantadas. Nenhuma premiação AOS/OrchidPro foi confirmada; não presumir ausência de premiações.",
     "confianca": "parcial — foto externa sujeita a disponibilidade; cultivo ainda não validado por 25 produtores",
     "fontes": [
       "https://new.scielo.br/j/rod/a/F7w6Stqr8Q7ktJD6g7mJqdK/",
       "https://proflora.jbrj.gov.br/html/Acianthera%20teres_2012.html",
+      "https://powo.science.kew.org/taxon/77068365-1",
       "https://orquidarioaparecida.com.br/produtos/acianthera-teres/"
     ],
     "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: IOSPE — Pleurothallis teres. Receita de substrato é proposta horticultural (não consenso de 25 produtores). Revisão técnica de métodos de cultivo e adubação elaborada por inferência horticultural; não representa consenso de 25 produtores. GALERIA: somente uma imagem externa de referência; faltam três imagens por espécie com identificação e disponibilidade verificadas. O texto ampliado diferencia dados morfológicos, recomendações e hipóteses horticulturais.",
     "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
-    "distribuicaoGeografica": "Brasil; ambientes de afloramentos rochosos, com registros em formações abertas e rupestres.",
+    "distribuicaoGeografica": "Sudeste do Brasil; afloramentos rochosos e campos rupestres, com ocorrências documentadas em formações abertas.",
     "habitatAltitudeClima": "Predominantemente rupícola em afloramentos rochosos com raízes aderidas a fendas e superfícies muito drenantes; vegetação xeromórfica não equivale a tolerância ilimitada ao sol quente. Quente a intermediário, com alta circulação de ar e forte variação microclimática sobre rochas."
   },
   "indiceDificuldadeCultivo": {
