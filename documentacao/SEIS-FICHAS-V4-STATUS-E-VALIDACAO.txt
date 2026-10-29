@@ -1,0 +1,11 @@
+PACOTE DE SUBSTITUIÇÃO DAS SEIS FICHAS — SEM INDEX/MANIFESTO
+
+As seis fichas V4 incluem IDC 3.2 e IAR 2.0 calculados matematicamente.
+NÃO contém fotografias; o campo fotos permanece vazio, sem caminhos fictícios.
+Não altera dados/orquideas/index.js, catalogo-manifesto.json ou scripts de verificação.
+
+ATENÇÃO: índices e cultivo são estimativas técnicas; meta de 25 produtores brasileiros por espécie NÃO cumprida.
+Não apresentar como pesquisa exaustiva. Meses de floração ficam vazios por ausência de comprovação suficiente.
+A identificação Prosthechea fragrans / P. aemula exige confirmação por flor.
+As misturas são propostas técnicas, não transcrições literais de produtores.
+Fontes consultadas ao longo das etapas: BR Orquídea, Orquidário Aparecida, Hang, Mogi Mirim, 4 Estações, Matsuoka, Merten, Orquídeas Gaúchas, POWO e literatura florística.
