@@ -1,0 +1,12 @@
+REVISÃO V4.09 — DISTRIBUIÇÃO GEOGRÁFICA COM RASTREABILIDADE
+
+Base: V4.08. Alterados somente dois arquivos de espécie:
+- Isabelia pulchella: especificação de distribuição no Sul e Sudeste do Brasil, sem inventar altitude.
+- Dinema polybulbon: especificação de distribuição no México, América Central e Caribe, sem afirmar ocorrência nativa no Brasil.
+
+Fontes consultadas: https://commons.wikimedia.org/wiki/Isabelia_pulchella ; https://commons.wikimedia.org/wiki/Dinema_polybulbon
+A fonte Commons é um ponto de verificação taxonômica, não substitui uma revisão de POWO/Flora e Funga do Brasil.
+
+Não houve acréscimo de fotografias: 18 ainda pendentes de validação individual de identidade e licença.
+Nenhum índice, manifesto, substrato ou pontuação foi modificado.
+As outras quatro fichas foram preservadas.
