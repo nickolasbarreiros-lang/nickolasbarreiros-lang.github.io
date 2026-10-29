@@ -1,4 +1,4 @@
-// Ficha V4: índices calculados; evidências horticulturais ainda parciais.
+// Ficha V4 — revisão de publicação 29/10/2026: arquivo atualizado individualmente; índices estimados e fotografias pendentes.
 export const aciantheraTeres = {
     "id": "acianthera-teres",
     "nome": "Acianthera teres",
