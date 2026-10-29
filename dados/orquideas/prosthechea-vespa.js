@@ -9,9 +9,9 @@ export const prosthecheaVespa = {
     "https://garden.org/pics/2016-12-21/robertduval14/3a78c7.jpg"
   ],
   "descricao": "Prosthechea vespa é uma orquídea epífita de crescimento simpodial, com pseudobulbos que armazenam água e sustentam folhas coriáceas. A inflorescência pode portar diversas flores de padrão contrastante; forma, manchas e posição do labelo são úteis para confirmar a identificação em floração. O crescimento sazonal é marcado pela emissão de novos brotos e, posteriormente, pela maturação dos pseudobulbos. Essa sequência deve orientar rega e adubação: raízes novas absorvem melhor nutrientes e uma planta com pseudobulbos ainda imaturos não deve ser submetida a seca severa. O manejo ideal privilegia luz filtrada relativamente clara, raízes oxigenadas e recipiente estável.\n\nO crescimento simpodial permite interpretar o ciclo pela emissão de brotos, raízes e amadurecimento dos pseudobulbos. A reserva de água dos pseudobulbos não elimina a necessidade de umidade durante a formação de novas raízes. Em cultivo, a posição do rizoma e a estabilidade do vaso são determinantes para que os brotos não apodreçam. A planta cresce de forma simpodial e armazena recursos em pseudobulbos; acompanhe a emissão de raízes novas para decidir a época de replante. Uma haste floral bem formada depende de brotos que completem o desenvolvimento sob luminosidade filtrada suficiente, e não de adubação concentrada perto da floração. A distribuição altitudinal ampla relatada para a espécie exige cautela ao generalizar uma única temperatura ideal.",
-  "origem": "América Tropical",
-  "regiao": "América tropical; registros em ampla faixa de altitude, inclusive regiões relativamente baixas.",
-  "habitat": "Epífita de ambientes florestais e, em alguns registros, associada a locais mais expostos; raízes requerem aeração e drenagem.",
+  "origem": "Brasil (sudeste; distribuição nativa segundo Kew)",
+  "regiao": "Distribuição nativa aceita por Plants of the World Online (Kew): sudeste do Brasil, do sul do Rio de Janeiro ao norte de São Paulo. Registros atribuídos ao nome em outras regiões exigem revisão de identificação e conceito taxonômico.",
+  "habitat": "Epífita ou litófita de ambiente tropical úmido, conforme o tratamento taxonômico do Plants of the World Online (Kew). As raízes requerem aeração e drenagem; altitude e exigências térmicas específicas precisam de fontes de ocorrência verificadas.",
   "clima": "Quente a intermediário; boa possibilidade de crescimento em clima quente com luminosidade e ventilação adequadas.",
   "climaFloracao": "Clima quente a intermediário, com boa claridade filtrada, circulação de ar e alternância entre molhamento e secagem parcial do substrato. A floração é favorecida por pseudobulbos novos bem desenvolvidos e amadurecidos; manter rega e nutrição durante o crescimento, reduzindo apenas o excesso de umidade quando a atividade radicular desacelerar. Não existe evidência suficiente para exigir frio intenso ou repouso seco prolongado como condição obrigatória. A emissão de novos pseudobulbos e de raízes ativas orienta o manejo para florescer. Mantenha luminosidade filtrada relativamente clara durante a maturação, mas não presuma necessidade de noites frias ou de repouso seco absoluto sem evidência da procedência cultivada.",
   "iluminacao": {
@@ -41,13 +41,14 @@ export const prosthecheaVespa = {
     "cultivoPremiacao": "Proposta de manejo derivada de ecologia e recomendações horticulturais brasileiras já levantadas. Nenhuma premiação AOS/OrchidPro foi confirmada; não presumir ausência de premiações.",
     "confianca": "parcial — foto externa sujeita a disponibilidade; cultivo ainda não validado por 25 produtores",
     "fontes": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1001313-1",
       "https://orquideasgauchas.net/P_desc_especie.php?cod_especie=35",
       "https://monografiasfloradobrasil.jbrj.gov.br/prosthechea.pdf"
     ],
     "observacao": "Calendário baseado em observações de fontes indicadas; não é garantia anual. Foto externa de referência: Garden.org — Prosthechea vespa. Receita de substrato é proposta horticultural (não consenso de 25 produtores). Revisão técnica de métodos de cultivo e adubação elaborada por inferência horticultural; não representa consenso de 25 produtores. GALERIA: somente uma imagem externa de referência; faltam três imagens por espécie com identificação e disponibilidade verificadas. O texto ampliado diferencia dados morfológicos, recomendações e hipóteses horticulturais.",
     "morfologiaDimensoes": "Características gerais registradas na ficha; medidas milimétricas de peças florais ainda exigem consulta à descrição original ou monografia, não devem ser estimadas.",
-    "distribuicaoGeografica": "América tropical; registros em ampla faixa de altitude, inclusive regiões relativamente baixas.",
-    "habitatAltitudeClima": "Epífita de ambientes florestais e, em alguns registros, associada a locais mais expostos; raízes requerem aeração e drenagem. Quente a intermediário; boa possibilidade de crescimento em clima quente com luminosidade e ventilação adequadas."
+    "distribuicaoGeografica": "POWO/Kew: Brasil, sul do Rio de Janeiro ao norte de São Paulo; registros fora desse recorte requerem revisão taxonômica.",
+    "habitatAltitudeClima": "Epífita ou litófita de ambiente tropical úmido (POWO/Kew); altitude específica não confirmada nesta auditoria. Raízes requerem aeração e drenagem. Quente a intermediário; boa possibilidade de crescimento em clima quente com luminosidade e ventilação adequadas."
   },
   "indiceDificuldadeCultivo": {
     "versao": "IDC 3.2 — selo por facilidade",

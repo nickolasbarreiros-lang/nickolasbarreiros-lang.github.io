@@ -1,0 +1,23 @@
+ORQUIDÁRIO DIGITAL — AUDITORIA V4.08 — 29/10/2026
+
+ALTERAÇÃO EFETIVA
+- Prosthechea vespa: origem, região, habitat, distribuição científica e referência corrigidos conforme POWO/Kew. A base Kew restringe a área nativa aceita ao sul do Rio de Janeiro até o norte de São Paulo e registra hábito epífito ou litófito em bioma tropical úmido.
+- Não confundir a distribuição nativa aceita por Kew com registros de fotografias identificadas em outras regiões. Há aparente conflito de conceitos/identificações, a resolver antes de ampliar a ficha.
+
+FOTOGRAFIAS — FONTES CANDIDATAS, NÃO INSERIDAS AUTOMATICAMENTE
+- Stelis ciliaris: https://commons.wikimedia.org/wiki/Category:Stelis_ciliaris (3 arquivos; falta conferir licenças e detalhes botânicos)
+- Prosthechea vespa: https://commons.wikimedia.org/wiki/Category:Prosthechea_vespa (22 arquivos; verificar licenças e a possível divergência taxonômica)
+- Prosthechea fragrans: https://commons.wikimedia.org/wiki/Category:Prosthechea_fragrans (15 arquivos; verificar confusão com espécies próximas)
+- Isabelia pulchella: https://commons.wikimedia.org/wiki/Isabelia_pulchella (galeria de planta e flores)
+- Acianthera teres: ainda sem três fotografias adicionais verificadas.
+- Dinema polybulbon: ainda sem três fotografias adicionais verificadas.
+
+Nenhuma das 18 imagens pendentes foi cadastrada: fontes candidatas não equivalem a imagens verificadas e autorizadas para republicação. Acesso automático ao servidor de imagens não estava disponível nesta etapa.
+
+PRÓXIMAS AÇÕES
+1. Conferir licença, autoria, táxon e resolução por arquivo; preferir hospedar cópias com atribuição, respeitando licença.
+2. Incorporar três imagens adicionais em cada fotos[] sem remover a principal, verificar resposta HTTP e testar renderização.
+3. Reavaliar textos que inferem adaptação térmica com base em ocorrência geográfica.
+4. Verificar sinonímia de Prosthechea vespa em espécimes de outras regiões antes de consolidar fenologia e IAR.
+
+INTEGRIDADE: seis JS mantidos; nenhum índice/manifesto/asset excluído. Receitas e IDC/IAR preservados.
