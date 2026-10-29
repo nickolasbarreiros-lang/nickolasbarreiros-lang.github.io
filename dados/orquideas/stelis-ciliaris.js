@@ -13,7 +13,7 @@ export const stelisCiliaris = {
   "regiao": "América tropical, do sul do México à América do Sul; confirmar limites por base taxonômica.",
   "habitat": "Epífita de florestas úmidas; registros do gênero e da espécie incluem ambientes quentes e intermediários, exigindo avaliação da procedência.",
   "clima": "Quente a intermediário conforme procedência e altitude; umidade atmosférica elevada e circulação contínua.",
-  "climaFloracao": "Clima úmido, quente a intermediário conforme a procedência, com temperaturas estáveis, noites sem calor excessivo, sombra filtrada e ventilação contínua. O fator crítico para emitir hastes é conservar raízes finas ativas e umidade atmosférica elevada sem abafamento. Registros de populações em baixas altitudes impedem tratá-la como obrigatoriamente fria. Não há base para impor repouso seco ou choque térmico como gatilho universal de floração.",
+  "climaFloracao": "Clima úmido, quente a intermediário conforme a procedência, com temperaturas estáveis, noites sem calor excessivo, sombra filtrada e ventilação contínua. O fator crítico para emitir hastes é conservar raízes finas ativas e umidade atmosférica elevada sem abafamento. Registros de populações em baixas altitudes impedem tratá-la como obrigatoriamente fria. Não há base para impor repouso seco ou choque térmico como gatilho universal de floração. A floração depende de raízes finas funcionais, luz difusa e umidade ambiental regular. Em calor persistente, reduzir o aquecimento do suporte e melhorar a ventilação costuma ser mais seguro que tentar induzir flores por suspensão de regas; a exigência de quebra térmica não está estabelecida para todas as procedências.",
   "iluminacao": {
     "sombrite": "70% a 80%",
     "solDireto": "Não permitido",
@@ -39,7 +39,7 @@ export const stelisCiliaris = {
     "Ignorar diferenças entre plantas de procedências distintas.",
     "Fixar meses de floração com base em um único anúncio comercial."
   ],
-  "dica": "A prioridade é impedir que raízes finas desidratem por horas em dias quentes sem transformá-las em raízes encharcadas: use suporte pequeno, umidade ambiental estável, luz suave e movimento contínuo de ar. Verifique a umidade junto às raízes, não apenas a superfície. Há registros da espécie em ambientes quentes e úmidos, portanto não é correto prescrever resfriamento artificial como requisito universal. No litoral, priorize sombra filtrada, estabilidade hídrica e ventilação; monitore temperaturas noturnas reais antes de atribuir ausência de floração exclusivamente ao calor.",
+  "dica": "A prioridade é impedir que raízes finas desidratem por horas em dias quentes sem transformá-las em raízes encharcadas: use suporte pequeno, umidade ambiental estável, luz suave e movimento contínuo de ar. Verifique a umidade junto às raízes, não apenas a superfície. Há registros da espécie em ambientes quentes e úmidos, portanto não é correto prescrever resfriamento artificial como requisito universal. No litoral, priorize sombra filtrada, estabilidade hídrica e ventilação; monitore temperaturas noturnas reais antes de atribuir ausência de floração exclusivamente ao calor. Faça a checagem de umidade no ponto de fixação das raízes, não na superfície externa do esfagno. Quando o miolo permanece saturado, troque o suporte ou diminua a camada de retenção em vez de simplesmente reduzir a ventilação.",
   "revisaoCientificaIAR": {
     "nome": "Stelis ciliaris",
     "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
@@ -201,7 +201,7 @@ export const stelisCiliaris = {
     "agua": 4,
     "raridade": 4
   },
-  "statusRevisao": "V4 — aprofundamento editorial 02; fotografia principal 1/4, 3 fotos pendentes de validação por espécie",
+  "statusRevisao": "V4 — revisão 03: indução floral e diagnóstico de manejo por espécie; 3 imagens adicionais pendentes",
   "sinonimo": "Apatostelis ciliaris (combinação histórica; verificar autoria)",
   "caracteristicas": [
     "Pleurothallidinae",

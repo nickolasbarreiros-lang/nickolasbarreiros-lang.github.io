@@ -13,7 +13,7 @@ export const isabeliaPulchella = {
   "regiao": "Brasil; ocorrência associada a ambientes florestais e regiões com variação sazonal de temperatura.",
   "habitat": "Epífita miniaturizada, com raízes delicadas que se beneficiam de suportes ventilados e umidade regular.",
   "clima": "Intermediário a fresco; noites excessivamente quentes podem limitar a indução floral em determinadas procedências.",
-  "climaFloracao": "Clima intermediário a ameno, com noites mais frescas favorecendo a maturação dos pseudobulbos e possivelmente a indução floral. Em litoral quente, o desafio principal é o excesso de calor noturno persistente, não a falta de regas. Manter luz filtrada, umidade equilibrada e ventilação; uma redução moderada de água após o crescimento pode acompanhar a sazonalidade, mas não deve virar repouso seco rigoroso sem evidência da procedência. A exigência de quebra térmica ainda não está quantificada para a espécie.",
+  "climaFloracao": "Clima intermediário a ameno, com noites mais frescas favorecendo a maturação dos pseudobulbos e possivelmente a indução floral. Em litoral quente, o desafio principal é o excesso de calor noturno persistente, não a falta de regas. Manter luz filtrada, umidade equilibrada e ventilação; uma redução moderada de água após o crescimento pode acompanhar a sazonalidade, mas não deve virar repouso seco rigoroso sem evidência da procedência. A exigência de quebra térmica ainda não está quantificada para a espécie. Em clima quente, acompanhe especialmente a temperatura noturna e a formação de pseudobulbos maduros. A sobrevivência da planta não confirma que o microclima permita indução floral; se houver crescimento sem floração, experimente um local naturalmente mais fresco e ventilado, sem impor seca intensa.",
   "iluminacao": {
     "sombrite": "60% a 80%",
     "solDireto": "Não permitido",
@@ -39,7 +39,7 @@ export const isabeliaPulchella = {
     "Ignorar diferenças entre plantas de procedências distintas.",
     "Fixar meses de floração com base em um único anúncio comercial."
   ],
-  "dica": "Mantenha o rizoma rastejante preso superficialmente a uma pequena placa, com as raízes livres e uma fina reserva de umidade. A planta deve receber claridade filtrada e ventilação constante; a chave para florir é formar vários pseudobulbos maduros sem ressecar os brotos novos. A recomendação de noites amenas para favorecer a floração é hipótese de manejo coerente com relatos de cultivo, não prova de uma quebra térmica obrigatória. Antes de classificar a espécie como incapaz de florescer no litoral, é necessário comparar plantas de procedências conhecidas sob temperaturas noturnas registradas.",
+  "dica": "Mantenha o rizoma rastejante preso superficialmente a uma pequena placa, com as raízes livres e uma fina reserva de umidade. A planta deve receber claridade filtrada e ventilação constante; a chave para florir é formar vários pseudobulbos maduros sem ressecar os brotos novos. A recomendação de noites amenas para favorecer a floração é hipótese de manejo coerente com relatos de cultivo, não prova de uma quebra térmica obrigatória. Antes de classificar a espécie como incapaz de florescer no litoral, é necessário comparar plantas de procedências conhecidas sob temperaturas noturnas registradas. Ao montar, deixe o rizoma livre para avançar e use somente uma película de esfagno junto às raízes. A camada espessa pode manter o colo encharcado e prejudicar justamente a miniatura que se pretendia proteger.",
   "revisaoCientificaIAR": {
     "nome": "Isabelia pulchella",
     "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
@@ -202,7 +202,7 @@ export const isabeliaPulchella = {
     "agua": 3,
     "raridade": 3
   },
-  "statusRevisao": "V4 — aprofundamento editorial 02; fotografia principal 1/4, 3 fotos pendentes de validação por espécie",
+  "statusRevisao": "V4 — revisão 03: indução floral e diagnóstico de manejo por espécie; 3 imagens adicionais pendentes",
   "sinonimo": "Neolauchea pulchella (sinônimo histórico)",
   "caracteristicas": [
     "Miniatura epífita",

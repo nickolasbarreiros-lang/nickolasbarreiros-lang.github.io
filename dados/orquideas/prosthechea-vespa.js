@@ -13,7 +13,7 @@ export const prosthecheaVespa = {
   "regiao": "América tropical; registros em ampla faixa de altitude, inclusive regiões relativamente baixas.",
   "habitat": "Epífita de ambientes florestais e, em alguns registros, associada a locais mais expostos; raízes requerem aeração e drenagem.",
   "clima": "Quente a intermediário; boa possibilidade de crescimento em clima quente com luminosidade e ventilação adequadas.",
-  "climaFloracao": "Clima quente a intermediário, com boa claridade filtrada, circulação de ar e alternância entre molhamento e secagem parcial do substrato. A floração é favorecida por pseudobulbos novos bem desenvolvidos e amadurecidos; manter rega e nutrição durante o crescimento, reduzindo apenas o excesso de umidade quando a atividade radicular desacelerar. Não existe evidência suficiente para exigir frio intenso ou repouso seco prolongado como condição obrigatória.",
+  "climaFloracao": "Clima quente a intermediário, com boa claridade filtrada, circulação de ar e alternância entre molhamento e secagem parcial do substrato. A floração é favorecida por pseudobulbos novos bem desenvolvidos e amadurecidos; manter rega e nutrição durante o crescimento, reduzindo apenas o excesso de umidade quando a atividade radicular desacelerar. Não existe evidência suficiente para exigir frio intenso ou repouso seco prolongado como condição obrigatória. A emissão de novos pseudobulbos e de raízes ativas orienta o manejo para florescer. Mantenha luminosidade filtrada relativamente clara durante a maturação, mas não presuma necessidade de noites frias ou de repouso seco absoluto sem evidência da procedência cultivada.",
   "iluminacao": {
     "sombrite": "50% a 60%",
     "solDireto": "Permitido com restrição",
@@ -39,7 +39,7 @@ export const prosthecheaVespa = {
     "Ignorar diferenças entre plantas de procedências distintas.",
     "Fixar meses de floração com base em um único anúncio comercial."
   ],
-  "dica": "Acompanhe o surgimento das pontas radiculares: esse é o momento mais seguro para reenvasar e intensificar gradualmente rega e nutrição. Mantenha os pseudobulbos acima do substrato e ofereça claridade filtrada suficiente para amadurecer os novos crescimentos e favorecer a haste floral. A luminosidade precisa ser suficiente para completar o crescimento e permitir diferenciação floral, mas a exposição deve ser ajustada à temperatura foliar e ao vigor. Reenvasar durante a emissão de raízes novas reduz o tempo em que a planta permanece com sistema radicular comprometido.",
+  "dica": "Acompanhe o surgimento das pontas radiculares: esse é o momento mais seguro para reenvasar e intensificar gradualmente rega e nutrição. Mantenha os pseudobulbos acima do substrato e ofereça claridade filtrada suficiente para amadurecer os novos crescimentos e favorecer a haste floral. A luminosidade precisa ser suficiente para completar o crescimento e permitir diferenciação floral, mas a exposição deve ser ajustada à temperatura foliar e ao vigor. Reenvasar durante a emissão de raízes novas reduz o tempo em que a planta permanece com sistema radicular comprometido. Reenvase quando as novas pontas radiculares estiverem surgindo, deixando espaço à frente do crescimento. Replantar durante repouso ou cortar raízes antigas em excesso pode atrasar o ciclo e a próxima floração.",
   "revisaoCientificaIAR": {
     "nome": "Prosthechea vespa",
     "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
@@ -202,7 +202,7 @@ export const prosthecheaVespa = {
     "agua": 3,
     "raridade": 3
   },
-  "statusRevisao": "V4 — aprofundamento editorial 02; fotografia principal 1/4, 3 fotos pendentes de validação por espécie",
+  "statusRevisao": "V4 — revisão 03: indução floral e diagnóstico de manejo por espécie; 3 imagens adicionais pendentes",
   "sinonimo": "Encyclia vespa (combinação histórica; confirmar autoria)",
   "caracteristicas": [
     "Epífita simpodial",

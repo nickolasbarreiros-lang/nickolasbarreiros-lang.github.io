@@ -1,0 +1,9 @@
+REVISÃO 03 — SEIS FICHAS V4
+
+Avanços implementados: 6 complementos individualizados para clima/indução floral; 6 dicas adicionais sobre a principal armadilha de cultivo de cada espécie. Preservados todos os demais campos, 4 métodos de cultivo por ficha, 100% de substrato em volume, meses de floração, IDC 3.2, IAR 2.0, Raridade V2.
+
+Checagens automatizadas: 6 arquivos JavaScript sintaticamente válidos; 4 métodos por espécie; soma dos substratos 100%; clima para floração distinto do calendário; 1 foto por espécie.
+
+PENDÊNCIAS CRÍTICAS: 18 fotos faltantes (3 por ficha). Nenhuma foto foi inventada ou repetida. As seis fotos existentes são URLs externas e não tiveram disponibilidade ou licença confirmadas. A auditoria taxonômica global e o levantamento de 25 produtores por espécie continuam incompletos. Este pacote não é versão definitiva.
+
+Apenas 6 JS + documento. Não modifica index.js, manifesto nem assets.

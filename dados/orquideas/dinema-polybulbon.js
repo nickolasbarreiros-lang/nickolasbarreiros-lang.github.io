@@ -13,7 +13,7 @@ export const dinemaPolybulbon = {
   "regiao": "América tropical; verificar extensão e eventuais lacunas de distribuição no POWO/GBIF.",
   "habitat": "Epífita de pequeno porte, com pseudobulbos agrupados ou espaçados sobre suportes, beneficiada por boa aeração.",
   "clima": "Quente a intermediário, úmido e ventilado; ajustar exposição à procedência.",
-  "climaFloracao": "Clima quente a intermediário, úmido e bem ventilado, com luz filtrada e raízes que molham e secam rapidamente sobre o suporte. A floração depende sobretudo de touceira estabelecida e pseudobulbos maduros; alguma sazonalidade de temperatura e umidade pode influenciar o ciclo, mas não há comprovação de necessidade de choque térmico ou repouso seco rígido. No litoral quente, evitar tanto desidratação prolongada quanto esfagno permanentemente encharcado.",
+  "climaFloracao": "Clima quente a intermediário, úmido e bem ventilado, com luz filtrada e raízes que molham e secam rapidamente sobre o suporte. A floração depende sobretudo de touceira estabelecida e pseudobulbos maduros; alguma sazonalidade de temperatura e umidade pode influenciar o ciclo, mas não há comprovação de necessidade de choque térmico ou repouso seco rígido. No litoral quente, evitar tanto desidratação prolongada quanto esfagno permanentemente encharcado. A floração costuma depender de touceira bem estabelecida e de pseudobulbos maduros. Aumente a claridade filtrada apenas gradualmente e mantenha ventilação com umidade frequente nas raízes superficiais; não aplique repouso seco rigoroso como regra geral.",
   "iluminacao": {
     "sombrite": "60% a 70%",
     "solDireto": "Permitido com restrição",
@@ -39,7 +39,7 @@ export const dinemaPolybulbon = {
     "Ignorar diferenças entre plantas de procedências distintas.",
     "Fixar meses de floração com base em um único anúncio comercial."
   ],
-  "dica": "Deixe a touceira expandir horizontalmente sobre madeira ou casca, sem enterrar os rizomas. A floração tende a melhorar quando há muitos pseudobulbos maduros; preserve a umidade nas raízes expostas com regas rápidas e boa ventilação, evitando mudanças frequentes de suporte. Os relatos de perfume e de meses de floração divergem entre produtores; a ficha deve preservar essa divergência. Para avaliar floração em ambiente quente, registre a maturação dos pseudobulbos, o histórico de luz e a frequência de secagem, sem impor um repouso seco que não esteja comprovado.",
+  "dica": "Deixe a touceira expandir horizontalmente sobre madeira ou casca, sem enterrar os rizomas. A floração tende a melhorar quando há muitos pseudobulbos maduros; preserve a umidade nas raízes expostas com regas rápidas e boa ventilação, evitando mudanças frequentes de suporte. Os relatos de perfume e de meses de floração divergem entre produtores; a ficha deve preservar essa divergência. Para avaliar floração em ambiente quente, registre a maturação dos pseudobulbos, o histórico de luz e a frequência de secagem, sem impor um repouso seco que não esteja comprovado. A planta cresce lateralmente e perde desempenho quando o rizoma é enterrado. Monte sobre casca ou madeira com espaço para expansão, amarrando apenas o necessário até as raízes aderirem; evite desmontar a touceira a cada ciclo.",
   "revisaoCientificaIAR": {
     "nome": "Dinema polybulbon",
     "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
@@ -204,7 +204,7 @@ export const dinemaPolybulbon = {
     "agua": 4,
     "raridade": 4
   },
-  "statusRevisao": "V4 — aprofundamento editorial 02; fotografia principal 1/4, 3 fotos pendentes de validação por espécie",
+  "statusRevisao": "V4 — revisão 03: indução floral e diagnóstico de manejo por espécie; 3 imagens adicionais pendentes",
   "sinonimo": "Epidendrum polybulbon (basiônimo histórico; verificar autoria)",
   "caracteristicas": [
     "Miniatura epífita rastejante",

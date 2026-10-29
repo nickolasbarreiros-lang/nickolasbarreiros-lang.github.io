@@ -13,7 +13,7 @@ export const prosthecheaFragrans = {
   "regiao": "América tropical; identificação de exemplares brasileiros requer comparação com Prosthechea aemula.",
   "habitat": "Epífita de florestas tropicais; raízes em superfícies drenantes, com umidade ambiental e boa renovação de ar.",
   "clima": "Quente a intermediário conforme procedência; evitar superaquecimento de vasos.",
-  "climaFloracao": "Clima quente a intermediário, com umidade regular na fase de crescimento, luz filtrada e noites moderadas quando disponíveis. Para favorecer hastes florais, permitir que os pseudobulbos completem a maturação e evitar raízes constantemente saturadas. Após a maturação, ajustar a frequência de rega à secagem real do vaso, sem estabelecer seca severa ou quebra térmica obrigatória. A identidade botânica deve ser confirmada na floração, pois há confusão documentada com espécies próximas.",
+  "climaFloracao": "Clima quente a intermediário, com umidade regular na fase de crescimento, luz filtrada e noites moderadas quando disponíveis. Para favorecer hastes florais, permitir que os pseudobulbos completem a maturação e evitar raízes constantemente saturadas. Após a maturação, ajustar a frequência de rega à secagem real do vaso, sem estabelecer seca severa ou quebra térmica obrigatória. A identidade botânica deve ser confirmada na floração, pois há confusão documentada com espécies próximas. Priorize a conclusão do crescimento dos pseudobulbos sob luz filtrada e raízes arejadas. Uma redução moderada da água após amadurecimento pode acompanhar o ritmo de crescimento, mas não equivale a repouso seco obrigatório; observe também que exemplares comercializados sob este nome podem exigir confirmação floral frente a P. aemula.",
   "iluminacao": {
     "sombrite": "50% a 70%",
     "solDireto": "Permitido com restrição",
@@ -39,7 +39,7 @@ export const prosthecheaFragrans = {
     "Ignorar diferenças entre plantas de procedências distintas.",
     "Fixar meses de floração com base em um único anúncio comercial."
   ],
-  "dica": "Para preservar raízes e favorecer a floração perfumada, mantenha umidade e nutrição regulares enquanto os pseudobulbos crescem, mas evite água parada quando amadurecem. Não imponha repouso seco rigoroso: ajuste a rega pela atividade radicular e pela secagem real do vaso. A redução de água após a maturação não equivale a repouso seco obrigatório. Observe a atividade radicular, o peso do vaso e a velocidade de secagem; a planta não deve ser submetida a desidratação prolongada apenas para tentar induzir floração.",
+  "dica": "Para preservar raízes e favorecer a floração perfumada, mantenha umidade e nutrição regulares enquanto os pseudobulbos crescem, mas evite água parada quando amadurecem. Não imponha repouso seco rigoroso: ajuste a rega pela atividade radicular e pela secagem real do vaso. A redução de água após a maturação não equivale a repouso seco obrigatório. Observe a atividade radicular, o peso do vaso e a velocidade de secagem; a planta não deve ser submetida a desidratação prolongada apenas para tentar induzir floração. Antes de atribuir ausência de flores a clima inadequado, confira a identidade da planta em floração e o estágio de maturação dos pseudobulbos. A distinção taxonômica afeta a interpretação de exigências e de época floral.",
   "revisaoCientificaIAR": {
     "nome": "Prosthechea fragrans",
     "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
@@ -201,7 +201,7 @@ export const prosthecheaFragrans = {
     "agua": 3,
     "raridade": 3
   },
-  "statusRevisao": "V4 — aprofundamento editorial 02; fotografia principal 1/4, 3 fotos pendentes de validação por espécie",
+  "statusRevisao": "V4 — revisão 03: indução floral e diagnóstico de manejo por espécie; 3 imagens adicionais pendentes",
   "sinonimo": "Epidendrum fragrans (combinação histórica; confirmar autoria)",
   "caracteristicas": [
     "Epífita simpodial",

@@ -13,7 +13,7 @@ export const aciantheraTeres = {
   "regiao": "Brasil; ambientes de afloramentos rochosos, com registros em formações abertas e rupestres.",
   "habitat": "Predominantemente rupícola em afloramentos rochosos com raízes aderidas a fendas e superfícies muito drenantes; vegetação xeromórfica não equivale a tolerância ilimitada ao sol quente.",
   "clima": "Quente a intermediário, com alta circulação de ar e forte variação microclimática sobre rochas.",
-  "climaFloracao": "Clima quente a intermediário, com luminosidade filtrada relativamente alta e ventilação intensa. A indução floral depende principalmente do amadurecimento dos brotos, da manutenção de raízes funcionais e de boa disponibilidade de luz sem superaquecimento das folhas. Não há comprovação suficiente de que uma queda térmica noturna acentuada ou repouso seco obrigatório sejam necessários. Em ambiente litorâneo, priorizar a secagem rápida após a rega e evitar calor acumulado no suporte.",
+  "climaFloracao": "Clima quente a intermediário, com luminosidade filtrada relativamente alta e ventilação intensa. A indução floral depende principalmente do amadurecimento dos brotos, da manutenção de raízes funcionais e de boa disponibilidade de luz sem superaquecimento das folhas. Não há comprovação suficiente de que uma queda térmica noturna acentuada ou repouso seco obrigatório sejam necessários. Em ambiente litorâneo, priorizar a secagem rápida após a rega e evitar calor acumulado no suporte. Ao avaliar floração, registre separadamente brotos maduros, firmeza das folhas, intensidade de luz e temperatura do suporte. Uma touceira que cresce, mas não floresce, não deve receber automaticamente mais sol: confirme primeiro se a luz chega de modo uniforme sem aquecer as raízes.",
   "iluminacao": {
     "sombrite": "50% a 70% como ponto de partida",
     "solDireto": "Permitido com restrição",
@@ -39,7 +39,7 @@ export const aciantheraTeres = {
     "Ignorar diferenças entre plantas de procedências distintas.",
     "Fixar meses de floração com base em um único anúncio comercial."
   ],
-  "dica": "Fixe a planta em suporte muito ventilado e aumente a claridade aos poucos até os novos brotos amadurecerem firmes; observe se as folhas mantêm consistência sem superaquecer. Para estimular floração, evite sombra excessiva, mas não leve uma planta de sombrite diretamente ao sol quente. Atenção ao contraste entre hábito rupícola e recomendação em placa: a madeira é uma alternativa de manejo, não uma reprodução literal da rocha. Para testar montagem mineral, use recipiente raso, mistura muito aberta e controle a temperatura da brita ao sol. A indicação de 45% de brita é proposta experimental de manejo, não percentual publicado como ótimo para a espécie.",
+  "dica": "Fixe a planta em suporte muito ventilado e aumente a claridade aos poucos até os novos brotos amadurecerem firmes; observe se as folhas mantêm consistência sem superaquecer. Para estimular floração, evite sombra excessiva, mas não leve uma planta de sombrite diretamente ao sol quente. Atenção ao contraste entre hábito rupícola e recomendação em placa: a madeira é uma alternativa de manejo, não uma reprodução literal da rocha. Para testar montagem mineral, use recipiente raso, mistura muito aberta e controle a temperatura da brita ao sol. A indicação de 45% de brita é proposta experimental de manejo, não percentual publicado como ótimo para a espécie. Na montagem rupícola, o risco principal não é apenas a falta de água: brita aquecida pode danificar pontas radiculares. Prefira vaso raso protegido do sol forte e teste a secagem do centro antes de repetir a rega.",
   "revisaoCientificaIAR": {
     "nome": "Acianthera teres",
     "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
@@ -202,7 +202,7 @@ export const aciantheraTeres = {
     "agua": 3,
     "raridade": 3
   },
-  "statusRevisao": "V4 — aprofundamento editorial 02; fotografia principal 1/4, 3 fotos pendentes de validação por espécie",
+  "statusRevisao": "V4 — revisão 03: indução floral e diagnóstico de manejo por espécie; 3 imagens adicionais pendentes",
   "sinonimo": "Pleurothallis teres (combinação histórica; autoria a verificar)",
   "caracteristicas": [
     "Folhas carnosas quase cilíndricas",
