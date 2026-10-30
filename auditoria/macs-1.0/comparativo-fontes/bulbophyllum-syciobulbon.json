@@ -1,0 +1,37 @@
+{
+  "metodologia": "MACS 1.0",
+  "especie": "Bulbophyllum sicyobulbon (arquivo syciobulbon)",
+  "arquivo_ficha": "dados/orquideas/bulbophyllum-syciobulbon.js",
+  "status": "evidencias_parciais_nao_validado",
+  "fontes": [
+    {
+      "id": "orchid_sicy",
+      "titulo": "Orchid.guru - Bulbophyllum sicyobulbon",
+      "url": "https://www.orchid.guru/content/orchids/b/bulbophyllum/sicyobulbon/",
+      "escopo": "especie"
+    },
+    {
+      "id": "aos_bulbo",
+      "titulo": "American Orchid Society - Bulbophyllum culture sheet",
+      "url": "https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet",
+      "escopo": "genero"
+    },
+    {
+      "id": "osgb_bulbo",
+      "titulo": "Orchid Society of Great Britain - Bulbophyllum care",
+      "url": "https://www.osgb.org.uk/orchids/orchid-care-guides/bulbophyllum-orchid-care",
+      "escopo": "genero"
+    }
+  ],
+  "convergencias_divergencias": {
+    "hidrica": "Fonte especifica relata crescimento trepador/rastejante e meio drenante; generalizacoes de genero exigem cautela.",
+    "substrato": "Montagem pode acomodar crescimento, mas em clima quente aumenta necessidade de agua."
+  },
+  "implicacao_para_cultivo_ideal": "Vaso plastico vasado e plausivel, mas a arquitetura trepadora deve ser reavaliada.",
+  "fontes_brasileiras_produtores_consultados_com_recomendacao_documentada": 0,
+  "meta_produtores_brasileiros": 25,
+  "pontuacao_7_metodos": "pendente",
+  "proporcoes_validadas": "pendente",
+  "nivel_confianca": "baixo_ou_moderado_conforme_item",
+  "observacao": "Nao atribuir percentual de substrato ou nota MACS definitiva sem fundamentacao e teste de coerencia."
+}

@@ -1,0 +1,49 @@
+{
+  "metodologia": "MACS 1.0",
+  "especie": "Catasetum mattosianum",
+  "arquivo_ficha": "dados/orquideas/catasetum-mattosianum.js",
+  "status": "evidencias_parciais_nao_validado",
+  "fontes": [
+    {
+      "id": "conservacao",
+      "titulo": "Plano de acao para conservacao da biodiversidade - Catasetum mattosianum",
+      "url": "https://www.reparacaobaciariodoce.com/wp-content/uploads/2020/12/Livro_Plano_de_Acao_Conservacao_da_Biodiversidade-_Terrestre_PG30.pdf",
+      "escopo": "especie - habitat"
+    },
+    {
+      "id": "durval",
+      "titulo": "Orquidario Durval Ferreira - Como cultivar Catasetum",
+      "url": "https://www.orquidariodurvalferreira.com.br/pagina/como-cultivar-catasetum.html",
+      "escopo": "genero"
+    },
+    {
+      "id": "aos_cat",
+      "titulo": "American Orchid Society - Catasetum culture sheet",
+      "url": "https://www.aos.org/orchid-care/care-sheets/catasetum-culture-sheet",
+      "escopo": "genero"
+    },
+    {
+      "id": "universo",
+      "titulo": "Universo das Orquideas - Catasetum",
+      "url": "https://universodasorquideas.com.br/catasetum/",
+      "escopo": "genero"
+    },
+    {
+      "id": "sosa",
+      "titulo": "SOSA - Dicas de cultivo",
+      "url": "https://www.sosa.org.br/site/dicas-de-cultivo.php",
+      "escopo": "geral"
+    }
+  ],
+  "convergencias_divergencias": {
+    "hidrica": "Habitat epifito de floresta umida e restinga documentado; manejo do genero depende de crescimento ativo e repouso.",
+    "substrato": "Fontes brasileiras citam esfagno, pinus, carvao e coco, mas nao comprovam percentuais especificos para C. mattosianum."
+  },
+  "implicacao_para_cultivo_ideal": "A receita deve permitir irrigacao intensa em crescimento e secagem no repouso; nenhuma formula foi validada para a especie.",
+  "fontes_brasileiras_produtores_consultados_com_recomendacao_documentada": 1,
+  "meta_produtores_brasileiros": 25,
+  "pontuacao_7_metodos": "pendente",
+  "proporcoes_validadas": "pendente",
+  "nivel_confianca": "baixo_ou_moderado_conforme_item",
+  "observacao": "Nao atribuir percentual de substrato ou nota MACS definitiva sem fundamentacao e teste de coerencia."
+}

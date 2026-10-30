@@ -1,0 +1,37 @@
+{
+  "metodologia": "MACS 1.0",
+  "especie": "Bulbophyllum saltatorium var. albociliatum (arquivo miniatum)",
+  "arquivo_ficha": "dados/orquideas/bulbophyllum-miniatum.js",
+  "status": "evidencias_parciais_nao_validado",
+  "fontes": [
+    {
+      "id": "matsuoka",
+      "titulo": "Orquidario Matsuoka - Bulbophyllum saltatorium",
+      "url": "https://orquidariomatsuoka.com.br/produto/bulbophyllum-saltatorium/",
+      "escopo": "especie (sem confirmação da variedade)"
+    },
+    {
+      "id": "aos_bulbo",
+      "titulo": "American Orchid Society - Bulbophyllum culture sheet",
+      "url": "https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet",
+      "escopo": "genero"
+    },
+    {
+      "id": "osgb_bulbo",
+      "titulo": "Orchid Society of Great Britain - Bulbophyllum care",
+      "url": "https://www.osgb.org.uk/orchids/orchid-care-guides/bulbophyllum-orchid-care",
+      "escopo": "genero"
+    }
+  ],
+  "convergencias_divergencias": {
+    "hidrica": "Orquidario brasileiro recomenda substrato drenante ou madeira com esfagno para B. saltatorium.",
+    "substrato": "A recomendacao comercial nao especifica proporcoes nem comprova resultado para a variedade albociliatum."
+  },
+  "implicacao_para_cultivo_ideal": "Placa/tronco e opcao sustentada por fonte brasileira, mas deve constar ressalva de irrigacao.",
+  "fontes_brasileiras_produtores_consultados_com_recomendacao_documentada": 1,
+  "meta_produtores_brasileiros": 25,
+  "pontuacao_7_metodos": "pendente",
+  "proporcoes_validadas": "pendente",
+  "nivel_confianca": "baixo_ou_moderado_conforme_item",
+  "observacao": "Nao atribuir percentual de substrato ou nota MACS definitiva sem fundamentacao e teste de coerencia."
+}

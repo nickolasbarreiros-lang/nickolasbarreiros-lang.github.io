@@ -1,0 +1,37 @@
+{
+  "metodologia": "MACS 1.0",
+  "especie": "Bulbophyllum roxburghii (arquivo sikkimense)",
+  "arquivo_ficha": "dados/orquideas/bulbophyllum-sikkimense.js",
+  "status": "evidencias_parciais_nao_validado",
+  "fontes": [
+    {
+      "id": "orchid_rox",
+      "titulo": "Orchid.guru - Bulbophyllum roxburghii",
+      "url": "https://www.orchid.guru/content/orchids/b/bulbophyllum/roxburghii/",
+      "escopo": "especie"
+    },
+    {
+      "id": "aos_bulbo",
+      "titulo": "American Orchid Society - Bulbophyllum culture sheet",
+      "url": "https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet",
+      "escopo": "genero"
+    },
+    {
+      "id": "osgb_bulbo",
+      "titulo": "Orchid Society of Great Britain - Bulbophyllum care",
+      "url": "https://www.osgb.org.uk/orchids/orchid-care-guides/bulbophyllum-orchid-care",
+      "escopo": "genero"
+    }
+  ],
+  "convergencias_divergencias": {
+    "hidrica": "Fonte especifica admite cultivo relativamente mais seco; fontes gerais pedem umidade quase constante.",
+    "substrato": "Misturas drenantes com casca, esfagno ou perlita sao citadas como opcoes, sem proporcao comprovada."
+  },
+  "implicacao_para_cultivo_ideal": "Priorizar monitoramento da secagem; evitar classificar a retencao como alta sem observacao.",
+  "fontes_brasileiras_produtores_consultados_com_recomendacao_documentada": 0,
+  "meta_produtores_brasileiros": 25,
+  "pontuacao_7_metodos": "pendente",
+  "proporcoes_validadas": "pendente",
+  "nivel_confianca": "baixo_ou_moderado_conforme_item",
+  "observacao": "Nao atribuir percentual de substrato ou nota MACS definitiva sem fundamentacao e teste de coerencia."
+}

@@ -1,0 +1,37 @@
+{
+  "metodologia": "MACS 1.0",
+  "especie": "Bulbophyllum rothschildianum",
+  "arquivo_ficha": "dados/orquideas/bulbophyllum-rothschildianum.js",
+  "status": "evidencias_parciais_nao_validado",
+  "fontes": [
+    {
+      "id": "orchid_roth",
+      "titulo": "Orchid.guru - Bulbophyllum rothschildianum",
+      "url": "https://www.orchid.guru/content/orchids/b/bulbophyllum/rothschildianum/",
+      "escopo": "especie"
+    },
+    {
+      "id": "aos_bulbo",
+      "titulo": "American Orchid Society - Bulbophyllum culture sheet",
+      "url": "https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet",
+      "escopo": "genero"
+    },
+    {
+      "id": "osgb_bulbo",
+      "titulo": "Orchid Society of Great Britain - Bulbophyllum care",
+      "url": "https://www.osgb.org.uk/orchids/orchid-care-guides/bulbophyllum-orchid-care",
+      "escopo": "genero"
+    }
+  ],
+  "convergencias_divergencias": {
+    "hidrica": "Umidade constante sem saturacao; cultivo montado exige regas frequentes.",
+    "substrato": "A fonte especifica admite placa de cortica e orienta ajustar a profundidade e a textura do meio ao tamanho das raizes."
+  },
+  "implicacao_para_cultivo_ideal": "Cachepo de madeira e plausivel, mas a superioridade sobre vaso raso nao foi demonstrada.",
+  "fontes_brasileiras_produtores_consultados_com_recomendacao_documentada": 0,
+  "meta_produtores_brasileiros": 25,
+  "pontuacao_7_metodos": "pendente",
+  "proporcoes_validadas": "pendente",
+  "nivel_confianca": "baixo_ou_moderado_conforme_item",
+  "observacao": "Nao atribuir percentual de substrato ou nota MACS definitiva sem fundamentacao e teste de coerencia."
+}
