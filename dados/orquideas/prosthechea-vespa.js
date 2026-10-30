@@ -219,7 +219,7 @@ export const prosthecheaVespa = {
     "metodos": [
       {
         "nome": "Vaso de barro",
-        "asset": "vaso-barro",
+        "asset": "prosthechea-vespa-cultivo-ideal",
         "estrelas": 5,
         "status": "Ideal",
         "texto": "Vaso de barro de tamanho justo com casca média, carvão e componentes minerais porosos. Os pseudobulbos permanecem acima da mistura e a frente de crescimento fica com espaço livre. Replantar preferencialmente quando surgirem novas raízes, evitando lesões no crescimento antigo."

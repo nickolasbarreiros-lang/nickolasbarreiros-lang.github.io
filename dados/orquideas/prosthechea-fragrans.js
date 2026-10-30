@@ -217,7 +217,7 @@ export const prosthecheaFragrans = {
     "metodos": [
       {
         "nome": "Vaso de barro",
-        "asset": "vaso-barro",
+        "asset": "prosthechea-fragrans-cultivo-ideal",
         "estrelas": 5,
         "status": "Ideal",
         "texto": "Vaso de barro justo, com mistura de casca média, carvão e partículas porosas, mantém os pseudobulbos estáveis sem enterrar sua base. Deixar espaço na direção dos novos brotos e reenvasar quando houver pontas radiculares ativas."

@@ -221,7 +221,7 @@ export const isabeliaPulchella = {
     "metodos": [
       {
         "nome": "Placa / tronco",
-        "asset": "placa-tronco",
+        "asset": "isabelia-pulchella-cultivo-ideal",
         "estrelas": 5,
         "status": "Ideal",
         "texto": "Placa pequena de madeira ou casca rugosa com rizoma inteiramente exposto. Uma lâmina muito fina de esfagno junto às raízes ajuda na transição de plantas recém-fixadas; retirar excesso que permaneça molhado por dias. Evitar deslocar a planta antes de as raízes aderirem."

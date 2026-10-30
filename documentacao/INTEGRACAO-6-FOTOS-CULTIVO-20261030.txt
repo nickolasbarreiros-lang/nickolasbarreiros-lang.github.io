@@ -1,0 +1,1 @@
+Integradas 6 imagens personalizadas em WebP. Atualizados apenas assets dos métodos principais das seis fichas, biblioteca e manifesto. Demais arquivos preservados.

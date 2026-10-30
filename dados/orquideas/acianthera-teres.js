@@ -219,7 +219,7 @@ export const aciantheraTeres = {
     "metodos": [
       {
         "nome": "Placa / tronco",
-        "asset": "placa-tronco",
+        "asset": "acianthera-teres-cultivo-ideal",
         "estrelas": 5,
         "status": "Ideal",
         "texto": "Montagem sobre madeira firme, com raízes presas superficialmente e sem envolver o rizoma em massa orgânica. É uma alternativa prática ao hábito rupícola porque permite secagem rápida, desde que a rega seja ajustada ao calor e ao vento. Evite placa pequena sob sol forte, que aquece mais que o ambiente."

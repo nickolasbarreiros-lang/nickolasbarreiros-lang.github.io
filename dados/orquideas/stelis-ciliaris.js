@@ -217,7 +217,7 @@ export const stelisCiliaris = {
     "metodos": [
       {
         "nome": "Placa / tronco",
-        "asset": "placa-tronco",
+        "asset": "stelis-ciliaris-cultivo-ideal",
         "estrelas": 5,
         "status": "Ideal",
         "texto": "Placa de madeira pequena, protegida do vento seco, com fina faixa de esfagno apenas sob raízes ativas. É a forma mais arejada, mas precisa de monitoramento frequente da umidade: a planta não deve passar longos períodos completamente seca."

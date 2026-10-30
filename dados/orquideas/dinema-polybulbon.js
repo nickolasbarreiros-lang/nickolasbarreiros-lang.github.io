@@ -223,7 +223,7 @@ export const dinemaPolybulbon = {
     "metodos": [
       {
         "nome": "Placa / tronco",
-        "asset": "placa-tronco",
+        "asset": "dinema-polybulbon-cultivo-ideal",
         "estrelas": 5,
         "status": "Ideal",
         "texto": "Placa de madeira mais larga que profunda, permitindo ao rizoma avançar horizontalmente. Fixar apenas segmentos antigos e deixar a frente de crescimento livre; uma pequena quantidade de esfagno solto junto às raízes ajuda na adaptação, sem cobrir os pseudobulbos."

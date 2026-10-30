@@ -1,4 +1,10 @@
 export const bibliotecaCultivoV4 = {
+  "acianthera-teres-cultivo-ideal": { nome: "Acianthera teres — cultivo ideal", imagem: "imagens/cultivo-v4/especies/acianthera-teres/cultivo-ideal.webp" },
+  "dinema-polybulbon-cultivo-ideal": { nome: "Dinema polybulbon — cultivo ideal", imagem: "imagens/cultivo-v4/especies/dinema-polybulbon/cultivo-ideal.webp" },
+  "isabelia-pulchella-cultivo-ideal": { nome: "Isabelia pulchella — cultivo ideal", imagem: "imagens/cultivo-v4/especies/isabelia-pulchella/cultivo-ideal.webp" },
+  "stelis-ciliaris-cultivo-ideal": { nome: "Stelis ciliaris — cultivo ideal", imagem: "imagens/cultivo-v4/especies/stelis-ciliaris/cultivo-ideal.webp" },
+  "prosthechea-vespa-cultivo-ideal": { nome: "Prosthechea vespa — cultivo ideal", imagem: "imagens/cultivo-v4/especies/prosthechea-vespa/cultivo-ideal.webp" },
+  "prosthechea-fragrans-cultivo-ideal": { nome: "Prosthechea fragrans — cultivo ideal", imagem: "imagens/cultivo-v4/especies/prosthechea-fragrans/cultivo-ideal.webp" },
   "brassavola-perrini-placa": { nome: "Brassavola tuberculata — placa / tronco", imagem: "imagens/cultivo-v4/especies/brassavola-tuberculata/placa-tronco.webp" },
   "brassia-lawrenceana-cesto": { nome: "Brassia lawrenceana — cesto de madeira", imagem: "imagens/cultivo-v4/especies/brassia-lawrenceana/cesto-madeira.webp" },
   "pinalia-elata-vaso-vasado": { nome: "Pinalia Elata", imagem: "imagens/cultivo-v4/especies/pinalia-elata/vaso-vasado.webp" },

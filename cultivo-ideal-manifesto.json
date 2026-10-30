@@ -81,6 +81,30 @@
     "brassia-lawrenceana": {
       "asset": "brassia-lawrenceana-cesto",
       "arquivo": "imagens/cultivo-v4/especies/brassia-lawrenceana/cesto-madeira.webp"
+    },
+    "acianthera-teres": {
+      "asset": "acianthera-teres-cultivo-ideal",
+      "arquivo": "imagens/cultivo-v4/especies/acianthera-teres/cultivo-ideal.webp"
+    },
+    "dinema-polybulbon": {
+      "asset": "dinema-polybulbon-cultivo-ideal",
+      "arquivo": "imagens/cultivo-v4/especies/dinema-polybulbon/cultivo-ideal.webp"
+    },
+    "isabelia-pulchella": {
+      "asset": "isabelia-pulchella-cultivo-ideal",
+      "arquivo": "imagens/cultivo-v4/especies/isabelia-pulchella/cultivo-ideal.webp"
+    },
+    "stelis-ciliaris": {
+      "asset": "stelis-ciliaris-cultivo-ideal",
+      "arquivo": "imagens/cultivo-v4/especies/stelis-ciliaris/cultivo-ideal.webp"
+    },
+    "prosthechea-vespa": {
+      "asset": "prosthechea-vespa-cultivo-ideal",
+      "arquivo": "imagens/cultivo-v4/especies/prosthechea-vespa/cultivo-ideal.webp"
+    },
+    "prosthechea-fragrans": {
+      "asset": "prosthechea-fragrans-cultivo-ideal",
+      "arquivo": "imagens/cultivo-v4/especies/prosthechea-fragrans/cultivo-ideal.webp"
     }
   }
 }
