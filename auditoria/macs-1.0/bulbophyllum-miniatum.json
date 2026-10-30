@@ -193,7 +193,7 @@
           "adaptacao_calor": 3,
           "evidencia_documentada": 1
         },
-        "indice_exploratorio_0_a_5": 3.0,
+        "indice_exploratorio_0_a_5": 3,
         "alerta": "Secagem mais rápida nas paredes; monitorar no calor.",
         "status": "HIPOTESE_NAO_VALIDADA"
       },
@@ -208,7 +208,7 @@
           "adaptacao_calor": 3,
           "evidencia_documentada": 1
         },
-        "indice_exploratorio_0_a_5": 3.0,
+        "indice_exploratorio_0_a_5": 3,
         "alerta": "Encharcamento se a mistura for fina ou compactar.",
         "status": "HIPOTESE_NAO_VALIDADA"
       },
@@ -238,7 +238,7 @@
           "adaptacao_calor": 3,
           "evidencia_documentada": 2
         },
-        "indice_exploratorio_0_a_5": 4.0,
+        "indice_exploratorio_0_a_5": 4,
         "alerta": "Secagem rápida em calor e vento; exige irrigação ajustada.",
         "status": "HIPOTESE_NAO_VALIDADA"
       },
@@ -292,6 +292,25 @@
   "controle_de_incerteza": {
     "status": "PENDENTE",
     "regra": "Evidências de gênero e de clima estrangeiro não validam proporções, adaptação local ou método de cultivo para a espécie.",
-    "sem_substituicao_automatica_das_estrelas": true
-  }
+    "sem_substituicao_automatica_das_estrelas": true,
+    "observacao_fontes_complementares": "Fontes complementares não ampliam automaticamente a contagem de 25 produtores específicos nem validam estrelas ou proporções MACS."
+  },
+  "fontes_complementares_verificadas_2026_10_30": [
+    {
+      "titulo": "Orquidário Maripá — B. saltatorium sem variedade especificada",
+      "url": "https://www.orquidariomaripa.com.br/produtos/bulbophyllum-saltatorium-adulta-mini-orquidea/",
+      "escopo": "espécie-base, variedade não confirmada",
+      "evidencia": "Sombreamento 50–60%, mistura de cascas, carvão, madeira e musgo; recipientes plásticos, barro ou caixetas, além de árvores com rega reforçada no enraizamento.",
+      "tipo": "produtor_brasileiro_contextual",
+      "conta_como_produtor_especifico_da_variedade": false
+    },
+    {
+      "titulo": "Orquidário Matsuoka — B. saltatorium sem variedade especificada",
+      "url": "https://orquidariomatsuoka.com.br/produto/bulbophyllum-saltatorium/",
+      "escopo": "espécie-base, variedade não confirmada",
+      "evidencia": "Substrato drenante ou madeira com esfagno, luz indireta e hidratação ajustada; não demonstra superioridade de placa para var. albociliatum.",
+      "tipo": "produtor_brasileiro_ja_contabilizado_como_generico",
+      "conta_como_produtor_especifico_da_variedade": false
+    }
+  ]
 }
