@@ -2,19 +2,21 @@ name: Validar e publicar Orquidário Digital
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
-  pages: write
-  id-token: write
 concurrency:
-  group: orquidario-pages
+  group: orquidario-pages-${{ github.ref }}
   cancel-in-progress: true
 jobs:
   validar:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -25,7 +27,7 @@ jobs:
           python scripts/verificar_comparativo_sazonal_macs.py
           python scripts/verificar_fontes_macs_1_0.py
           python scripts/verificar_rastreabilidade_macs.py
-      - name: Conferir catálogo e integridade das fotografias
+      - name: Conferir catálogo e fotos
         run: |
           python scripts/verificar_catalogo.py
           python scripts/verificar_fotos_cultivo.py
@@ -40,8 +42,32 @@ jobs:
           test -f orquidea.html
           test -f estilos.css
           test -f .nojekyll
+      - name: Impedir perda de assets existentes (pull request)
+        if: github.event_name == 'pull_request'
+        run: |
+          python scripts/verificar_preservacao_assets.py "${{ github.event.pull_request.base.sha }}"
+  pacote-diferencial:
+    if: github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000'
+    needs: validar
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Gerar pacote somente com arquivos alterados
+        run: |
+          python scripts/empacotar_alteracoes.py "${{ github.event.before }}" "${{ github.sha }}" Orquidario_Alteracoes.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: orquidario-arquivos-modificados
+          path: Orquidario_Alteracoes.zip
+          retention-days: 30
   publicar:
-    if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: validar
     runs-on: ubuntu-latest
     environment:
