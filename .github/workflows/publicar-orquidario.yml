@@ -1,0 +1,52 @@
+name: Validar e publicar Orquidário Digital
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: orquidario-pages
+  cancel-in-progress: true
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validar MACS e fichas
+        run: |
+          python scripts/verificar_macs_1_0.py
+          python scripts/verificar_lote_macs_5.py
+          python scripts/verificar_comparativo_sazonal_macs.py
+          python scripts/verificar_fontes_macs_1_0.py
+          python scripts/verificar_rastreabilidade_macs.py
+      - name: Verificar sintaxe JS
+        run: |
+          node --check ficha.js
+          node --check js/biblioteca-cultivo-v4.js
+      - name: Verificar arquivos essenciais
+        run: |
+          test -f index.html
+          test -f orquidea.html
+          test -f estilos.css
+          test -f .nojekyll
+  publicar:
+    if: github.ref == 'refs/heads/main'
+    needs: validar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
