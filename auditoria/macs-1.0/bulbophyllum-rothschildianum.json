@@ -238,7 +238,7 @@
           "adaptacao_calor": 3,
           "evidencia_documentada": 1
         },
-        "indice_exploratorio_0_a_5": 3.0,
+        "indice_exploratorio_0_a_5": 3,
         "alerta": "Secagem mais rápida nas paredes; monitorar no calor.",
         "status": "HIPOTESE_NAO_VALIDADA"
       },
@@ -283,7 +283,7 @@
           "adaptacao_calor": 3,
           "evidencia_documentada": 2
         },
-        "indice_exploratorio_0_a_5": 4.0,
+        "indice_exploratorio_0_a_5": 4,
         "alerta": "Secagem rápida em calor e vento; exige irrigação ajustada.",
         "status": "HIPOTESE_NAO_VALIDADA"
       },
@@ -337,6 +337,33 @@
   "controle_de_incerteza": {
     "status": "PENDENTE",
     "regra": "Evidências de gênero e de clima estrangeiro não validam proporções, adaptação local ou método de cultivo para a espécie.",
-    "sem_substituicao_automatica_das_estrelas": true
-  }
+    "sem_substituicao_automatica_das_estrelas": true,
+    "observacao_fontes_complementares": "Fontes complementares não ampliam automaticamente a contagem de 25 produtores específicos nem validam estrelas ou proporções MACS."
+  },
+  "fontes_complementares_verificadas_2026_10_30": [
+    {
+      "titulo": "Orquidário Maripá — instruções específicas",
+      "url": "https://www.orquidariomaripa.com.br/produtos/bulbophyllum-rothschildianum-pre-adulta/",
+      "escopo": "espécie",
+      "evidencia": "Sombreamento de 50–60%; cascas, carvão, madeira e musgo; admite plástico, barro, caixeta e árvore com irrigação reforçada durante enraizamento.",
+      "tipo": "produtor_brasileiro_ja_contabilizado",
+      "conta_como_novo_produtor": false
+    },
+    {
+      "titulo": "Orquidário Mogi Mirim — instruções específicas",
+      "url": "https://www.orquidariomogimirim.com.br/bulbophyllum-rothschildianum-",
+      "escopo": "espécie",
+      "evidencia": "Pinus, carvão e esfagno; vasos ou troncos; manter umidade moderada sem saturação.",
+      "tipo": "produtor_brasileiro_ja_contabilizado",
+      "conta_como_novo_produtor": false
+    },
+    {
+      "titulo": "Congresso Brasileiro de Gestão Ambiental — estudo de implantação",
+      "url": "https://www.ibeas.org.br/congresso/Trabalhos2025/VI-009.pdf",
+      "escopo": "estudo incluindo B. rothschildianum",
+      "evidencia": "Relata implantação experimental de B. rothschildianum em epífitas, com mistura pinus/chips de coco/carvão ou madeira com esfagno; não compara métodos especificamente para esta espécie.",
+      "tipo": "pesquisa_nao_produtor",
+      "conta_como_novo_produtor": false
+    }
+  ]
 }
