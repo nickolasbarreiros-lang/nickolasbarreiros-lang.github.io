@@ -25,6 +25,11 @@ jobs:
           python scripts/verificar_comparativo_sazonal_macs.py
           python scripts/verificar_fontes_macs_1_0.py
           python scripts/verificar_rastreabilidade_macs.py
+      - name: Conferir catálogo e integridade das fotografias
+        run: |
+          python scripts/verificar_catalogo.py
+          python scripts/verificar_fotos_cultivo.py
+          python scripts/verificar_assets_cultivo_v49.py
       - name: Verificar sintaxe JS
         run: |
           node --check ficha.js
