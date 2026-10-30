@@ -79,10 +79,12 @@ export const bulbophyllumElassonotum = {
         "justificativa": "O cesto raso oferece espaço para o rizoma se espalhar e deixa livres as inflorescências arqueadas ou pendentes. Uma mistura solta evita que o centro fique saturado em períodos úmidos. Esta receita para recipiente é uma proposta técnica de cultivo, não uma fórmula experimental validada especificamente para a espécie.",
         "receitaTexto": "35% casca de pinus média + 25% chips de coco tratados + 25% perlita grossa + 15% esfagno solto.",
         "perfil": [
-            "Raízes epífitas",
-            "Substrato arejado",
-            "Rizoma ou base sem enterramento",
-            "Umidade conforme secagem"
+            "Rizoma longo",
+            "Raízes finas",
+            "Umidade regular",
+            "Cesto amplo",
+            "Boa aeração",
+            "Base exposta"
         ],
         "comportamento": [
             {

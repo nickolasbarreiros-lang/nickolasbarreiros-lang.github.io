@@ -80,10 +80,12 @@ export const bulbophyllumFalcatum = {
         "justificativa": "Cesto amplo e suspenso para que a raque floral possa projetar-se livremente. A planta deve ficar firme, mas com rizoma visível e espaço lateral para os novos pseudobulbos. Esta receita para recipiente é uma proposta técnica de cultivo, não uma fórmula experimental validada especificamente para a espécie.",
         "receitaTexto": "35% casca de pinus média + 25% chips de coco tratados + 25% perlita grossa + 15% esfagno solto.",
         "perfil": [
-            "Raízes epífitas",
-            "Substrato arejado",
-            "Rizoma ou base sem enterramento",
-            "Umidade conforme secagem"
+            "Rizoma longo",
+            "Raízes finas",
+            "Cesto amplo",
+            "Umidade regular",
+            "Boa aeração",
+            "Base exposta"
         ],
         "comportamento": [
             {

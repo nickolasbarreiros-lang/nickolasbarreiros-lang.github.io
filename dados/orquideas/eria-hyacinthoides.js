@@ -72,10 +72,12 @@ export const eriaHyacinthoides = {
         "justificativa": "Cesto raso que acomoda o avanço lateral dos brotos e mantém a base da planta fora de uma massa compacta. Em calor prolongado, a pequena reserva hídrica deve ser compensada por regas bem observadas. Esta receita para recipiente é uma proposta técnica de cultivo, não uma fórmula experimental validada especificamente para a espécie.",
         "receitaTexto": "35% casca de pinus média + 25% chips de coco tratados + 25% perlita grossa + 15% esfagno solto.",
         "perfil": [
-            "Raízes epífitas",
-            "Substrato arejado",
-            "Rizoma ou base sem enterramento",
-            "Umidade conforme secagem"
+            "Raízes finas",
+            "Boa aeração",
+            "Umidade regular",
+            "Cesto raso",
+            "Base livre",
+            "Secagem suave"
         ],
         "comportamento": [
             {

@@ -76,10 +76,12 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
         "justificativa": "Vaso de barro ajustado ao volume das raízes, com drenagem livre. O híbrido forma pseudobulbos robustos e precisa de alternância entre hidratação abundante e secagem perceptível para manter raízes ativas. Esta receita para recipiente é uma proposta técnica de cultivo, não uma fórmula experimental validada especificamente para a espécie.",
         "receitaTexto": "40% casca de pinus grossa + 25% carvão vegetal + 20% brita fina + 15% chips de coco tratados.",
         "perfil": [
-            "Raízes epífitas",
-            "Substrato arejado",
-            "Rizoma ou base sem enterramento",
-            "Umidade conforme secagem"
+            "Raízes grossas",
+            "Alta aeração",
+            "Drenagem rápida",
+            "Secagem parcial",
+            "Vaso firme",
+            "Base livre"
         ],
         "comportamento": [
             {
