@@ -1,0 +1,36 @@
+{
+  "especie": "Catasetum mattosianum",
+  "fontes": [
+    {
+      "instituicao": "Plants of the World Online — Kew",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77177106-1",
+      "alcance": "espécie",
+      "evidencia": "Epífita pseudobulbosa de ambiente tropical úmido."
+    },
+    {
+      "instituicao": "American Orchid Society",
+      "url": "https://www.aos.org/orchid-care/care-sheets/catasetum-culture-sheet",
+      "alcance": "gênero",
+      "evidencia": "Demanda alta de água no crescimento; redução e interrupção durante repouso conforme estágio."
+    },
+    {
+      "instituicao": "Orquidário Durval Ferreira",
+      "url": "https://www.orquidariodurvalferreira.com.br/pagina/como-cultivar-catasetum.html",
+      "alcance": "gênero, produtor brasileiro",
+      "evidencia": "Substrato úmido na fase ativa; manejo mais seco no repouso; esfagno é opção."
+    }
+  ],
+  "implicacoes": [
+    "Pontuar retenção e secagem separadamente para crescimento e repouso.",
+    "Preferir recipiente que permita irrigação abundante e controle de secagem na dormência.",
+    "Não extrapolar dados do gênero como ensaio específico de mattosianum."
+  ],
+  "arquitetura_rizoma": "crescimento_simpoidal_com_pseudobulbos",
+  "regime_sazonal": "crescimento_umido_repouso_seco",
+  "metodologia": "MACS 1.0",
+  "status": "evidencias_parciais_nao_validado",
+  "data": "2026-10-30",
+  "produtores_brasileiros_meta": 25,
+  "pontuacao_sete_metodos": null,
+  "substrato_validado": false
+}

@@ -1,0 +1,36 @@
+{
+  "especie": "Bulbophyllum sicyobulbon",
+  "fontes": [
+    {
+      "instituicao": "Plants of the World Online — Kew",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:620167-1",
+      "alcance": "espécie",
+      "evidencia": "Epífita de floresta tropical úmida; distribuição na Indochina."
+    },
+    {
+      "instituicao": "Orchid.guru",
+      "url": "https://www.orchid.guru/content/orchids/b/bulbophyllum/sicyobulbon/",
+      "alcance": "espécie",
+      "evidencia": "Hábito rastejante ou trepador; meio drenante ou montagem com irrigação frequente no calor."
+    },
+    {
+      "instituicao": "Orchid Society of Great Britain",
+      "url": "https://www.osgb.org.uk/orchids/orchid-care-guides/bulbophyllum-orchid-care",
+      "alcance": "gênero",
+      "evidencia": "Espaço para expansão horizontal; evitar enterrar rizoma."
+    }
+  ],
+  "implicacoes": [
+    "Avaliar espaço lateral/vertical para rizoma antes de escolher recipiente.",
+    "Comparar vaso raso, cachepô e placa; a escolha anterior de vaso vasado permanece provisória.",
+    "Não fixar percentual de retenção hídrica sem dados sobre raiz e microclima."
+  ],
+  "arquitetura_rizoma": "rastejante_ou_trepador",
+  "regime_sazonal": "nao_determinado",
+  "metodologia": "MACS 1.0",
+  "status": "evidencias_parciais_nao_validado",
+  "data": "2026-10-30",
+  "produtores_brasileiros_meta": 25,
+  "pontuacao_sete_metodos": null,
+  "substrato_validado": false
+}
