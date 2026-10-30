@@ -289,5 +289,128 @@
       "Sem teste controlado das misturas e sem medição da secagem",
       "Não substituir avaliação do risco sazonal e veto por dados empíricos"
     ]
+  },
+  "fontes_contextuais_revisadas_2026_10_30": [
+    {
+      "autor": "American Orchid Society",
+      "url": "https://www.aos.org/orchid-care/care-sheets/catasetum-culture-sheet",
+      "escopo": "gênero",
+      "evidencia": "Crescimento ativo muito úmido, repouso seco, aguardar raízes novas de 7,5–12,5 cm para regas intensas.",
+      "conta_como_produtor_brasileiro_especifico": false
+    },
+    {
+      "autor": "Orquidário Durval Ferreira",
+      "url": "https://www.orquidariodurvalferreira.com.br/pagina/como-cultivar-catasetum.html",
+      "escopo": "gênero",
+      "evidencia": "Vaso úmido no crescimento; placas secam no repouso mas exigem maior esforço de rega no crescimento.",
+      "conta_como_produtor_brasileiro_especifico": false
+    }
+  ],
+  "controle_de_incerteza": {
+    "status": "PENDENTE",
+    "regra": "Evidências de gênero e de clima estrangeiro não validam proporções, adaptação local ou método de cultivo para a espécie.",
+    "sem_substituicao_automatica_das_estrelas": true
+  },
+  "avaliacao_sazonal_exploratoria": {
+    "status": "HIPOTESE_NAO_VALIDADA",
+    "fases": [
+      "crescimento_ativo",
+      "repouso"
+    ],
+    "metodos": [
+      {
+        "asset": "placa-tronco",
+        "crescimento_ativo": {
+          "equilibrio_hidrico_hipotetico_0_a_5": 1,
+          "risco_critico": "desidratacao_sem_regas_frequentes"
+        },
+        "repouso": {
+          "facilidade_manejo_seco_hipotetica_0_a_5": 5,
+          "risco_critico": null
+        },
+        "apto_sem_condicoes": false,
+        "nota": "Avaliação por fase, não média anual. Verificar irrigação e secagem real antes de recomendar."
+      },
+      {
+        "asset": "vaso-barro",
+        "crescimento_ativo": {
+          "equilibrio_hidrico_hipotetico_0_a_5": 3,
+          "risco_critico": null
+        },
+        "repouso": {
+          "facilidade_manejo_seco_hipotetica_0_a_5": 4,
+          "risco_critico": null
+        },
+        "apto_sem_condicoes": false,
+        "nota": "Avaliação por fase, não média anual. Verificar irrigação e secagem real antes de recomendar."
+      },
+      {
+        "asset": "vaso-plastico",
+        "crescimento_ativo": {
+          "equilibrio_hidrico_hipotetico_0_a_5": 5,
+          "risco_critico": null
+        },
+        "repouso": {
+          "facilidade_manejo_seco_hipotetica_0_a_5": 2,
+          "risco_critico": "umidade_residual_em_mistura_fina"
+        },
+        "apto_sem_condicoes": false,
+        "nota": "Avaliação por fase, não média anual. Verificar irrigação e secagem real antes de recomendar."
+      },
+      {
+        "asset": "vaso-plastico-vasado",
+        "crescimento_ativo": {
+          "equilibrio_hidrico_hipotetico_0_a_5": 4,
+          "risco_critico": null
+        },
+        "repouso": {
+          "facilidade_manejo_seco_hipotetica_0_a_5": 4,
+          "risco_critico": null
+        },
+        "apto_sem_condicoes": false,
+        "nota": "Avaliação por fase, não média anual. Verificar irrigação e secagem real antes de recomendar."
+      },
+      {
+        "asset": "cesto-madeira",
+        "crescimento_ativo": {
+          "equilibrio_hidrico_hipotetico_0_a_5": 2,
+          "risco_critico": null
+        },
+        "repouso": {
+          "facilidade_manejo_seco_hipotetica_0_a_5": 5,
+          "risco_critico": null
+        },
+        "apto_sem_condicoes": false,
+        "nota": "Avaliação por fase, não média anual. Verificar irrigação e secagem real antes de recomendar."
+      },
+      {
+        "asset": "arvore-viva",
+        "crescimento_ativo": {
+          "equilibrio_hidrico_hipotetico_0_a_5": 2,
+          "risco_critico": "desidratacao_sem_regas_frequentes"
+        },
+        "repouso": {
+          "facilidade_manejo_seco_hipotetica_0_a_5": 4,
+          "risco_critico": null
+        },
+        "apto_sem_condicoes": false,
+        "nota": "Avaliação por fase, não média anual. Verificar irrigação e secagem real antes de recomendar."
+      },
+      {
+        "asset": "raizes-soltas",
+        "crescimento_ativo": {
+          "equilibrio_hidrico_hipotetico_0_a_5": 1,
+          "risco_critico": "desidratacao_sem_regas_frequentes"
+        },
+        "repouso": {
+          "facilidade_manejo_seco_hipotetica_0_a_5": 5,
+          "risco_critico": null
+        },
+        "apto_sem_condicoes": false,
+        "nota": "Avaliação por fase, não média anual. Verificar irrigação e secagem real antes de recomendar."
+      }
+    ],
+    "regra_de_veto": "Se ocorrer risco crítico sem mitigação demonstrada, não promover o método a ideal independentemente do índice geral.",
+    "marco_retomada_rega": "Confirmar novas raízes desenvolvidas; AOS cita aproximadamente 7,5–12,5 cm para o gênero, não limiar validado para esta espécie."
   }
 }

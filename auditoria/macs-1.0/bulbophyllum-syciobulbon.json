@@ -270,5 +270,19 @@
       "Sem teste controlado das misturas e sem medição da secagem",
       "Não substituir avaliação do risco sazonal e veto por dados empíricos"
     ]
+  },
+  "fontes_contextuais_revisadas_2026_10_30": [
+    {
+      "autor": "Orchid Society of Great Britain",
+      "url": "https://www.osgb.org.uk/orchids/orchid-care-guides/bulbophyllum-orchid-care",
+      "escopo": "gênero",
+      "evidencia": "Muitos Bulbophyllum crescem horizontalmente e exigem espaço lateral; não é comprovação da espécie.",
+      "conta_como_produtor_brasileiro_especifico": false
+    }
+  ],
+  "controle_de_incerteza": {
+    "status": "PENDENTE",
+    "regra": "Evidências de gênero e de clima estrangeiro não validam proporções, adaptação local ou método de cultivo para a espécie.",
+    "sem_substituicao_automatica_das_estrelas": true
   }
 }

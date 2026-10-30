@@ -20,4 +20,5 @@ jobs:
           python-version: '3.11'
       - run: python scripts/verificar_macs_1_0.py
       - run: python scripts/verificar_lote_macs_5.py
+      - run: python scripts/verificar_comparativo_sazonal_macs.py
       - run: python scripts/verificar_fontes_macs_1_0.py

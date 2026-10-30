@@ -279,5 +279,19 @@
       "Sem teste controlado das misturas e sem medição da secagem",
       "Não substituir avaliação do risco sazonal e veto por dados empíricos"
     ]
+  },
+  "fontes_contextuais_revisadas_2026_10_30": [
+    {
+      "autor": "American Orchid Society",
+      "url": "https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet",
+      "escopo": "gênero",
+      "evidencia": "Gênero com raízes superficiais, umidade regular e ventilação; não valida variedade.",
+      "conta_como_produtor_brasileiro_especifico": false
+    }
+  ],
+  "controle_de_incerteza": {
+    "status": "PENDENTE",
+    "regra": "Evidências de gênero e de clima estrangeiro não validam proporções, adaptação local ou método de cultivo para a espécie.",
+    "sem_substituicao_automatica_das_estrelas": true
   }
 }

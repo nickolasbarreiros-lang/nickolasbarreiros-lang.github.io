@@ -324,5 +324,19 @@
       "Sem teste controlado das misturas e sem medição da secagem",
       "Não substituir avaliação do risco sazonal e veto por dados empíricos"
     ]
+  },
+  "fontes_contextuais_revisadas_2026_10_30": [
+    {
+      "autor": "Tropical Orchids Portugal",
+      "url": "https://www.tropicalorchidsportugal.com/en/product/bulbophyllum-rothschildianum/",
+      "escopo": "espécie",
+      "evidencia": "Rizoma rastejante; placa, vaso raso ou cesto; pinus e esfagno; manter úmido sem encharcar.",
+      "conta_como_produtor_brasileiro_especifico": false
+    }
+  ],
+  "controle_de_incerteza": {
+    "status": "PENDENTE",
+    "regra": "Evidências de gênero e de clima estrangeiro não validam proporções, adaptação local ou método de cultivo para a espécie.",
+    "sem_substituicao_automatica_das_estrelas": true
   }
 }

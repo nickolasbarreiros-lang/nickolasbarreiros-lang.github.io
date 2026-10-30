@@ -270,5 +270,27 @@
       "Sem teste controlado das misturas e sem medição da secagem",
       "Não substituir avaliação do risco sazonal e veto por dados empíricos"
     ]
-  }
+  },
+  "fontes_contextuais_revisadas_2026_10_30": [
+    {
+      "autor": "Isle of Portland Orchids",
+      "url": "https://www.isleofportlandorchids.co.uk/orchid-information-pages/bulbophyllum-roxburghii",
+      "escopo": "espécie",
+      "evidencia": "Cultivo úmido no verão e mais seco no inverno, temperatura mínima de cultivo relatada 17 °C.",
+      "conta_como_produtor_brasileiro_especifico": false
+    },
+    {
+      "autor": "orchid.guru",
+      "url": "https://www.orchid.guru/content/orchids/b/bulbophyllum/roxburghii/",
+      "escopo": "espécie",
+      "evidencia": "Meio bem drenado ou montagem com rega regular; alerta para estresse térmico e excesso de água.",
+      "conta_como_produtor_brasileiro_especifico": false
+    }
+  ],
+  "controle_de_incerteza": {
+    "status": "PENDENTE",
+    "regra": "Evidências de gênero e de clima estrangeiro não validam proporções, adaptação local ou método de cultivo para a espécie.",
+    "sem_substituicao_automatica_das_estrelas": true
+  },
+  "alerta_termico": "Há evidências divergentes entre descrições de faixa térmica e relatos de cultivo em verão quente. Não inferir floração garantida em litoral quente apenas por tolerância vegetativa; avaliar noites e resposta floral."
 }
