@@ -152,5 +152,132 @@
       "conta_para_25_produtores_br": false
     }
   ],
-  "confianca_macs": "preliminar"
+  "confianca_macs": "preliminar",
+  "comparativo_quantitativo_exploratorio": {
+    "modelo": "MACS 1.0 - simulação de recipientes",
+    "status": "HIPOTESE_NAO_VALIDADA",
+    "pesos_percentuais": {
+      "compatibilidade_raizes": 25,
+      "equilibrio_hidrico": 25,
+      "aeracao_drenagem": 20,
+      "espaco_crescimento": 10,
+      "adaptacao_calor": 10,
+      "evidencia_documentada": 10
+    },
+    "premissas": "Notas são julgamento de engenharia de cultivo por recipiente e hábito do gênero; não são observações da espécie nem resultados de ensaios. Não alteram estrelas da ficha.",
+    "ambiente": "clima quente de baixa altitude; irrigação manual ou controlada",
+    "metodos": [
+      {
+        "asset": "placa-tronco",
+        "nome": "Placa / tronco",
+        "notas_hipoteticas_0_a_5": {
+          "compatibilidade_raizes": 4,
+          "equilibrio_hidrico": 2,
+          "aeracao_drenagem": 5,
+          "espaco_crescimento": 5,
+          "adaptacao_calor": 2,
+          "evidencia_documentada": 2
+        },
+        "indice_exploratorio_0_a_5": 3.4,
+        "alerta": "Desidratação acelerada em calor e vento; regas frequentes obrigatórias.",
+        "status": "HIPOTESE_NAO_VALIDADA"
+      },
+      {
+        "asset": "vaso-barro",
+        "nome": "Vaso de Barro",
+        "notas_hipoteticas_0_a_5": {
+          "compatibilidade_raizes": 3,
+          "equilibrio_hidrico": 3,
+          "aeracao_drenagem": 4,
+          "espaco_crescimento": 3,
+          "adaptacao_calor": 3,
+          "evidencia_documentada": 1
+        },
+        "indice_exploratorio_0_a_5": 3.0,
+        "alerta": "Secagem mais rápida nas paredes; monitorar no calor.",
+        "status": "HIPOTESE_NAO_VALIDADA"
+      },
+      {
+        "asset": "vaso-plastico",
+        "nome": "Vaso plástico",
+        "notas_hipoteticas_0_a_5": {
+          "compatibilidade_raizes": 3,
+          "equilibrio_hidrico": 5,
+          "aeracao_drenagem": 2,
+          "espaco_crescimento": 2,
+          "adaptacao_calor": 3,
+          "evidencia_documentada": 1
+        },
+        "indice_exploratorio_0_a_5": 3.0,
+        "alerta": "Encharcamento se a mistura for fina ou compactar.",
+        "status": "HIPOTESE_NAO_VALIDADA"
+      },
+      {
+        "asset": "vaso-plastico-vasado",
+        "nome": "Vaso plástico vasado",
+        "notas_hipoteticas_0_a_5": {
+          "compatibilidade_raizes": 4,
+          "equilibrio_hidrico": 4,
+          "aeracao_drenagem": 4,
+          "espaco_crescimento": 3,
+          "adaptacao_calor": 4,
+          "evidencia_documentada": 1
+        },
+        "indice_exploratorio_0_a_5": 3.6,
+        "alerta": "Secagem desigual em sol e vento; dimensionar regas.",
+        "status": "HIPOTESE_NAO_VALIDADA"
+      },
+      {
+        "asset": "cesto-madeira",
+        "nome": "Cachepô de Madeira",
+        "notas_hipoteticas_0_a_5": {
+          "compatibilidade_raizes": 5,
+          "equilibrio_hidrico": 3,
+          "aeracao_drenagem": 5,
+          "espaco_crescimento": 5,
+          "adaptacao_calor": 3,
+          "evidencia_documentada": 2
+        },
+        "indice_exploratorio_0_a_5": 4.0,
+        "alerta": "Secagem rápida em calor e vento; exige irrigação ajustada.",
+        "status": "HIPOTESE_NAO_VALIDADA"
+      },
+      {
+        "asset": "arvore-viva",
+        "nome": "Árvore viva",
+        "notas_hipoteticas_0_a_5": {
+          "compatibilidade_raizes": 4,
+          "equilibrio_hidrico": 2,
+          "aeracao_drenagem": 5,
+          "espaco_crescimento": 5,
+          "adaptacao_calor": 2,
+          "evidencia_documentada": 1
+        },
+        "indice_exploratorio_0_a_5": 3.3,
+        "alerta": "Água e luminosidade pouco controláveis; risco de desidratação.",
+        "status": "HIPOTESE_NAO_VALIDADA"
+      },
+      {
+        "asset": "raizes-soltas",
+        "nome": "Raízes Soltas",
+        "notas_hipoteticas_0_a_5": {
+          "compatibilidade_raizes": 2,
+          "equilibrio_hidrico": 1,
+          "aeracao_drenagem": 5,
+          "espaco_crescimento": 5,
+          "adaptacao_calor": 1,
+          "evidencia_documentada": 0
+        },
+        "indice_exploratorio_0_a_5": 2.35,
+        "alerta": "Risco elevado de desidratação, especialmente em clima quente.",
+        "status": "HIPOTESE_NAO_VALIDADA"
+      }
+    ],
+    "limitacoes": [
+      "Ausência de 25 produtores brasileiros documentados por espécie",
+      "Morfologia radicular específica ainda insuficiente",
+      "Sem teste controlado das misturas e sem medição da secagem",
+      "Não substituir avaliação do risco sazonal e veto por dados empíricos"
+    ]
+  }
 }
