@@ -1,0 +1,30 @@
+{
+  "metodologia": "MACS 1.0",
+  "data_revisao": "2026-10-30",
+  "especie": "Bulbophyllum roxburghii",
+  "arquivo_ficha": "dados/orquideas/bulbophyllum-sikkimense.js",
+  "status": "auditoria_cruzada_parcial_nao_validado",
+  "fontes_revisadas": [
+    {
+      "instituicao": "Orchid.guru",
+      "url": "https://www.orchid.guru/content/orchids/b/bulbophyllum/roxburghii/",
+      "alcance": "espécie",
+      "orientacao": "meio drenante ou montagem, com regas mais frequentes no calor"
+    },
+    {
+      "instituicao": "AOS",
+      "url": "https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet",
+      "alcance": "gênero",
+      "orientacao": "meio úmido com leve secagem entre regas"
+    }
+  ],
+  "contagem_fontes_com_orientacao": 2,
+  "meta_orquidarios_brasileiros": 25,
+  "orquidarios_brasileiros_com_orientacao_confirmada": 0,
+  "decisao_provisoria": "Vaso plástico vasado permanece hipótese; não é possível fixar secagem ideal por gênero.",
+  "risco_principal": "Recomendações sobre secagem não são equivalentes; observar raiz e microclima.",
+  "pontuacao_sete_montagens": null,
+  "substrato_validado": false,
+  "confianca": "baixa",
+  "nota": "Fontes consultadas nesta rodada; não confundir com amostra exaustiva ou validação da espécie. Percentuais de substrato existentes seguem hipóteses não ensaiadas."
+}

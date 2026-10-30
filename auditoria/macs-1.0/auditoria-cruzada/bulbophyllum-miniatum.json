@@ -1,0 +1,30 @@
+{
+  "metodologia": "MACS 1.0",
+  "data_revisao": "2026-10-30",
+  "especie": "Bulbophyllum saltatorium var. albociliatum",
+  "arquivo_ficha": "dados/orquideas/bulbophyllum-miniatum.js",
+  "status": "auditoria_cruzada_parcial_nao_validado",
+  "fontes_revisadas": [
+    {
+      "instituicao": "Orquidário Matsuoka",
+      "url": "https://orquidariomatsuoka.com.br/produto/bulbophyllum-saltatorium/",
+      "alcance": "espécie, variedade não confirmada",
+      "orientacao": "substrato drenante ou toco de madeira com esfagno"
+    },
+    {
+      "instituicao": "Orquidário Maripá",
+      "url": "https://www.orquidariomaripa.com.br/produtos/bulbophyllum-saltatorium-adulta-mini-orquidea/",
+      "alcance": "espécie, variedade não confirmada",
+      "orientacao": "mistura de cascas, carvão, madeira e musgo; plástico, barro ou caixetas"
+    }
+  ],
+  "contagem_fontes_com_orientacao": 2,
+  "meta_orquidarios_brasileiros": 25,
+  "orquidarios_brasileiros_com_orientacao_confirmada": 2,
+  "decisao_provisoria": "Placa / tronco tem suporte brasileiro, mas a variedade albociliatum não foi confirmada nas fontes.",
+  "risco_principal": "Montagem sem reserva hídrica pode secar depressa em clima quente.",
+  "pontuacao_sete_montagens": null,
+  "substrato_validado": false,
+  "confianca": "baixa",
+  "nota": "Fontes consultadas nesta rodada; não confundir com amostra exaustiva ou validação da espécie. Percentuais de substrato existentes seguem hipóteses não ensaiadas."
+}

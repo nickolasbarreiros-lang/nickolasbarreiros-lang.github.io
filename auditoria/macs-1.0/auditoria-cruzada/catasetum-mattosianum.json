@@ -1,0 +1,30 @@
+{
+  "metodologia": "MACS 1.0",
+  "data_revisao": "2026-10-30",
+  "especie": "Catasetum mattosianum",
+  "arquivo_ficha": "dados/orquideas/catasetum-mattosianum.js",
+  "status": "auditoria_cruzada_parcial_nao_validado",
+  "fontes_revisadas": [
+    {
+      "instituicao": "American Orchid Society",
+      "url": "https://www.aos.org/orchid-care/care-sheets/catasetum-culture-sheet",
+      "alcance": "gênero",
+      "orientacao": "raízes vigorosas e meio úmido no crescimento; manejo de repouso"
+    },
+    {
+      "instituicao": "Revista Jardins",
+      "url": "https://revistajardins.pt/plantas/herbaceas/os-invulgares-catasetum/",
+      "alcance": "gênero",
+      "orientacao": "casca com esfagno ou perlita; drenagem excelente; regas conforme raízes e repouso"
+    }
+  ],
+  "contagem_fontes_com_orientacao": 2,
+  "meta_orquidarios_brasileiros": 25,
+  "orquidarios_brasileiros_com_orientacao_confirmada": 0,
+  "decisao_provisoria": "Vaso plástico vasado é opção plausível, ainda sem validação específica para mattosianum.",
+  "risco_principal": "Repouso e início da irrigação dependem do estágio vegetativo, não apenas de calendário.",
+  "pontuacao_sete_montagens": null,
+  "substrato_validado": false,
+  "confianca": "baixa",
+  "nota": "Fontes consultadas nesta rodada; não confundir com amostra exaustiva ou validação da espécie. Percentuais de substrato existentes seguem hipóteses não ensaiadas."
+}

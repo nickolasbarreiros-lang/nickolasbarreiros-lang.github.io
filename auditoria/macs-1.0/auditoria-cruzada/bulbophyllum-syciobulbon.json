@@ -1,0 +1,24 @@
+{
+  "metodologia": "MACS 1.0",
+  "data_revisao": "2026-10-30",
+  "especie": "Bulbophyllum sicyobulbon",
+  "arquivo_ficha": "dados/orquideas/bulbophyllum-syciobulbon.js",
+  "status": "auditoria_cruzada_parcial_nao_validado",
+  "fontes_revisadas": [
+    {
+      "instituicao": "Orchid Society of Great Britain",
+      "url": "https://www.osgb.org.uk/orchids/orchid-care-guides/bulbophyllum-orchid-care",
+      "alcance": "gênero",
+      "orientacao": "rizomas podem ser rasteiros; vasos rasos ou placas, sem enterrar rizoma"
+    }
+  ],
+  "contagem_fontes_com_orientacao": 1,
+  "meta_orquidarios_brasileiros": 25,
+  "orquidarios_brasileiros_com_orientacao_confirmada": 0,
+  "decisao_provisoria": "Vaso plástico vasado é apenas hipótese por analogia de gênero.",
+  "risco_principal": "Sem evidência específica suficiente sobre hábito e hidratação para pontuação comparativa.",
+  "pontuacao_sete_montagens": null,
+  "substrato_validado": false,
+  "confianca": "baixa",
+  "nota": "Fontes consultadas nesta rodada; não confundir com amostra exaustiva ou validação da espécie. Percentuais de substrato existentes seguem hipóteses não ensaiadas."
+}

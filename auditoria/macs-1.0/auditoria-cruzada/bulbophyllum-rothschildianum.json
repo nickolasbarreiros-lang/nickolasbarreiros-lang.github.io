@@ -1,0 +1,36 @@
+{
+  "metodologia": "MACS 1.0",
+  "data_revisao": "2026-10-30",
+  "especie": "Bulbophyllum rothschildianum",
+  "arquivo_ficha": "dados/orquideas/bulbophyllum-rothschildianum.js",
+  "status": "auditoria_cruzada_parcial_nao_validado",
+  "fontes_revisadas": [
+    {
+      "instituicao": "IOSPE",
+      "url": "https://iospe.ja.bz/bulbrothchildsianum.htm",
+      "alcance": "espécie",
+      "orientacao": "vaso ou cesto, mistura de drenagem rápida, água abundante e ar circulante"
+    },
+    {
+      "instituicao": "Orchids.org",
+      "url": "https://www.orchids.org/myplants/melvin-waki-bulbophyllum-rothschildianum-a-doribil",
+      "alcance": "cultivo documentado",
+      "orientacao": "cesto plástico com esfagno, sombra de 70%, rega 2 a 3 vezes por semana"
+    },
+    {
+      "instituicao": "AOS",
+      "url": "https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet",
+      "alcance": "gênero",
+      "orientacao": "umidade constante com leve secagem, raízes arejadas"
+    }
+  ],
+  "contagem_fontes_com_orientacao": 3,
+  "meta_orquidarios_brasileiros": 25,
+  "orquidarios_brasileiros_com_orientacao_confirmada": 0,
+  "decisao_provisoria": "Cachepô de Madeira plausível; não demonstrado superior ao vaso raso ou cesto plástico.",
+  "risco_principal": "Evitar secagem rápida do cesto no calor; adequar umidade e rega.",
+  "pontuacao_sete_montagens": null,
+  "substrato_validado": false,
+  "confianca": "baixa",
+  "nota": "Fontes consultadas nesta rodada; não confundir com amostra exaustiva ou validação da espécie. Percentuais de substrato existentes seguem hipóteses não ensaiadas."
+}
