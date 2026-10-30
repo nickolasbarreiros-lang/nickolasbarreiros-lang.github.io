@@ -1,0 +1,16 @@
+{
+  "metodologia": "MACS 1.0",
+  "especie_arquivo": "bulbophyllum-miniatum",
+  "status": "evidencia_parcial_nao_validada",
+  "fontes_verificadas": [
+    {
+      "fonte": "Orchid Society of Great Britain — Bulbophyllum care",
+      "url": "https://www.osgb.org.uk/orchids/orchid-care-guides/bulbophyllum-orchid-care",
+      "escopo": "genero",
+      "conclusao": "Misturas finas a médias e montagens são possíveis; seleção depende de crescimento e umidade."
+    }
+  ],
+  "interpretacao": "Montagem proposta para B. saltatorium var. albociliatum permanece hipótese.",
+  "orquidarios_brasileiros_consultados_nesta_etapa": 0,
+  "observacao": "Adendo de evidências. Não substitui registros MACS anteriores nem valida composição percentual."
+}

@@ -1,0 +1,22 @@
+{
+  "metodologia": "MACS 1.0",
+  "especie_arquivo": "bulbophyllum-rothschildianum",
+  "status": "evidencia_parcial_nao_validada",
+  "fontes_verificadas": [
+    {
+      "fonte": "Internet Orchid Species Photo Encyclopedia",
+      "url": "https://iospe.ja.bz/bulbrothchildsianum.htm",
+      "escopo": "especie",
+      "conclusao": "Vaso ou cesto com meio drenante, sombra parcial, água abundante e circulação de ar."
+    },
+    {
+      "fonte": "Tropical Orchids Portugal",
+      "url": "https://www.tropicalorchidsportugal.com/produto/bulbophyllum-rothschildianum/",
+      "escopo": "especie",
+      "conclusao": "Admite placas, vasos rasos e cestos; manter umidade sem saturação."
+    }
+  ],
+  "interpretacao": "Cachepô é opção plausível; preferência exclusiva não comprovada.",
+  "orquidarios_brasileiros_consultados_nesta_etapa": 0,
+  "observacao": "Adendo de evidências. Não substitui registros MACS anteriores nem valida composição percentual."
+}

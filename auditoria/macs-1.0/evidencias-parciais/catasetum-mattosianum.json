@@ -1,0 +1,28 @@
+{
+  "metodologia": "MACS 1.0",
+  "especie_arquivo": "catasetum-mattosianum",
+  "status": "evidencia_parcial_nao_validada",
+  "fontes_verificadas": [
+    {
+      "fonte": "Kew POWO",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77177106-1",
+      "escopo": "especie taxonomia/habitat",
+      "conclusao": "Espécie epífita pseudobulbosa do Brasil tropical úmido."
+    },
+    {
+      "fonte": "American Orchid Society — Catasetum Culture Sheet",
+      "url": "https://www.aos.org/orchid-care/care-sheets/catasetum-culture-sheet",
+      "escopo": "genero",
+      "conclusao": "Água abundante no crescimento e repouso mais seco; raízes novas devem se desenvolver antes de retomar irrigação intensa."
+    },
+    {
+      "fonte": "Sunset Valley Orchids — Catasetum Growth Cycle",
+      "url": "https://www.catasetinae.com/culture-cycle.htm",
+      "escopo": "grupo",
+      "conclusao": "Manejo depende do ciclo de crescimento; cuidado ao irrigar brotações sem raízes estabelecidas."
+    }
+  ],
+  "interpretacao": "Adicionar manejo sazonal explícito; não aplicar regra absoluta sem observar brotação e raízes.",
+  "orquidarios_brasileiros_consultados_nesta_etapa": 0,
+  "observacao": "Adendo de evidências. Não substitui registros MACS anteriores nem valida composição percentual."
+}

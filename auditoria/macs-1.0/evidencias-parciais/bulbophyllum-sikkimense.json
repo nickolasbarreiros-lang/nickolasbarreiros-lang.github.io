@@ -1,0 +1,16 @@
+{
+  "metodologia": "MACS 1.0",
+  "especie_arquivo": "bulbophyllum-sikkimense",
+  "status": "evidencia_parcial_nao_validada",
+  "fontes_verificadas": [
+    {
+      "fonte": "American Orchid Society — Bulbophyllum Culture Sheet",
+      "url": "https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet",
+      "escopo": "genero",
+      "conclusao": "Em geral, umidade regular, meio fino ou esfagno e recipiente compatível com crescimento horizontal."
+    }
+  ],
+  "interpretacao": "Evidência genérica não autoriza receita específica para B. roxburghii.",
+  "orquidarios_brasileiros_consultados_nesta_etapa": 0,
+  "observacao": "Adendo de evidências. Não substitui registros MACS anteriores nem valida composição percentual."
+}

@@ -1,0 +1,16 @@
+{
+  "metodologia": "MACS 1.0",
+  "especie_arquivo": "bulbophyllum-syciobulbon",
+  "status": "evidencia_parcial_nao_validada",
+  "fontes_verificadas": [
+    {
+      "fonte": "Kew POWO",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:620167-1",
+      "escopo": "especie taxonomia/habitat",
+      "conclusao": "Epífita pseudobulbosa de bioma tropical úmido; não oferece receita de substrato."
+    }
+  ],
+  "interpretacao": "Confirmar identidade e habitat; não extrapolar percentuais de mistura.",
+  "orquidarios_brasileiros_consultados_nesta_etapa": 0,
+  "observacao": "Adendo de evidências. Não substitui registros MACS anteriores nem valida composição percentual."
+}
