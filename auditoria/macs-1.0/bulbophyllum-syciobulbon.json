@@ -126,5 +126,22 @@
     "Validar ou revisar receita com fontes e cultivo documentado"
   ],
   "observacao": "Evidência específica insuficiente: nenhuma conclusão de espécie deve ser apresentada como validada.",
-  "ultima_revisao": "2026-10-30"
+  "ultima_revisao": "2026-10-30",
+  "fontes_verificadas_adicionais_2026_10_30": [
+    {
+      "titulo": "Orchid.guru",
+      "url": "https://www.orchid.guru/content/orchids/b/bulbophyllum/sicyobulbon/",
+      "alcance": "especie",
+      "observacao": "Rizoma rastejante ou trepador; placa ou cesto possível com regas regulares.",
+      "conta_para_25_produtores_br": false
+    },
+    {
+      "titulo": "Orchid Society of Great Britain",
+      "url": "https://www.osgb.org.uk/orchids/orchid-care-guides/bulbophyllum-orchid-care",
+      "alcance": "genero",
+      "observacao": "Preferir recipientes rasos ou montagens com espaço lateral.",
+      "conta_para_25_produtores_br": false
+    }
+  ],
+  "confianca_macs": "preliminar"
 }

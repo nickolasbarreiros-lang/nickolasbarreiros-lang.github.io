@@ -127,5 +127,30 @@
     "Validar ou revisar receita com fontes e cultivo documentado"
   ],
   "observacao": "O produtor brasileiro descreve toco com esfagno ou substrato drenante para B. saltatorium; aplicação à variedade é indireta.",
-  "ultima_revisao": "2026-10-30"
+  "ultima_revisao": "2026-10-30",
+  "fontes_verificadas_2026_10_30": [
+    {
+      "url": "https://orquidariomatsuoka.com.br/produto/bulbophyllum-saltatorium/",
+      "nivel": "espécie, não variedade",
+      "evidencia": "Substrato drenante ou toco de madeira com esfagno; menos água nos meses frios.",
+      "pais": "Brasil"
+    }
+  ],
+  "fontes_verificadas_adicionais_2026_10_30": [
+    {
+      "titulo": "Orquidário Matsuoka",
+      "url": "https://orquidariomatsuoka.com.br/produto/bulbophyllum-saltatorium/",
+      "alcance": "especie_sem_variedade",
+      "observacao": "Substrato drenante ou toco com esfagno; reduzir água nos meses frios.",
+      "conta_para_25_produtores_br": false
+    },
+    {
+      "titulo": "Orquidário Maripá",
+      "url": "https://www.orquidariomaripa.com.br/produtos/bulbophyllum-saltatorium-adulta-mini-orquidea/",
+      "alcance": "especie_sem_variedade",
+      "observacao": "Mistura de cascas, carvão, madeira e musgo; vaso plástico, barro ou caixeta.",
+      "conta_para_25_produtores_br": false
+    }
+  ],
+  "confianca_macs": "preliminar"
 }

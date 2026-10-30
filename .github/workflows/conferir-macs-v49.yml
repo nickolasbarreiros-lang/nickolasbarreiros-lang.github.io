@@ -1,0 +1,23 @@
+name: Conferir MACS 1.0 e fichas V4.9
+on:
+  push:
+    paths:
+      - 'dados/orquideas/**'
+      - 'auditoria/macs-1.0/**'
+      - 'scripts/verificar_macs_1_0.py'
+      - 'scripts/verificar_lote_macs_5.py'
+      - 'scripts/verificar_fontes_macs_1_0.py'
+      - '.github/workflows/conferir-macs-v49.yml'
+  pull_request:
+  workflow_dispatch:
+jobs:
+  verificar-macs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/verificar_macs_1_0.py
+      - run: python scripts/verificar_lote_macs_5.py
+      - run: python scripts/verificar_fontes_macs_1_0.py

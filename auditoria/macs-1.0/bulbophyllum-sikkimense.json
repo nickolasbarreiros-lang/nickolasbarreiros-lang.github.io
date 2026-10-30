@@ -126,5 +126,22 @@
     "Validar ou revisar receita com fontes e cultivo documentado"
   ],
   "observacao": "B. sikkimense é sinônimo de B. roxburghii conforme Kew; evitar secagem intensa no verão.",
-  "ultima_revisao": "2026-10-30"
+  "ultima_revisao": "2026-10-30",
+  "fontes_verificadas_adicionais_2026_10_30": [
+    {
+      "titulo": "Orchid.guru",
+      "url": "https://www.orchid.guru/content/orchids/b/bulbophyllum/roxburghii/",
+      "alcance": "especie",
+      "observacao": "Drenagem eficiente; regas ajustadas à secagem; a descrição de clima fresco requer cautela no calor contínuo.",
+      "conta_para_25_produtores_br": false
+    },
+    {
+      "titulo": "American Orchid Society",
+      "url": "https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet",
+      "alcance": "genero",
+      "observacao": "Manter umidade e aeração; não permitir secagem prolongada para o gênero em geral.",
+      "conta_para_25_produtores_br": false
+    }
+  ],
+  "confianca_macs": "preliminar"
 }

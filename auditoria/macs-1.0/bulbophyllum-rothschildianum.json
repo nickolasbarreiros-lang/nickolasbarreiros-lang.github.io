@@ -5,7 +5,7 @@
   "status": "pesquisa_em_andamento",
   "produtores_brasileiros": {
     "consultados": 4,
-    "com_recomendacao_especifica": 4,
+    "com_recomendacao_especifica": 2,
     "registros": [
       {
         "nome": "Orquidário Mogi Mirim",
@@ -23,13 +23,13 @@
         "nome": "Orquidário Aniela",
         "url_ou_referencia": "https://www.orquidarioaniela.com.br/product-page/bulbophyllum-rothschildianum",
         "resultado": "Ambiente úmido com sombreamento",
-        "nivel": "especie"
+        "nivel": "descricao_especie_sem_receita"
       },
       {
         "nome": "Orquidário Oriental",
         "url_ou_referencia": "https://www.orquidariooriental.com.br/produto/ibulbophyllum-rothschildianumi%2C2217/",
         "resultado": "Epífita em floresta úmida ventilada",
-        "nivel": "especie"
+        "nivel": "descricao_especie_sem_receita"
       }
     ]
   },
@@ -166,5 +166,36 @@
     "Validar ou revisar receita com fontes e cultivo documentado"
   ],
   "observacao": "Preferir cachepô amplo; espécie pode sentir calor noturno persistente.",
-  "ultima_revisao": "2026-10-30"
+  "ultima_revisao": "2026-10-30",
+  "fontes_verificadas_2026_10_30": [
+    {
+      "url": "https://www.orquidariomaripa.com.br/produtos/bulbophyllum-rothschildianum-pre-adulta/",
+      "nivel": "espécie",
+      "evidencia": "Mistura de cascas, carvão, madeira e musgo; plástico, barro e caixetas; regar mais após montagem em árvore.",
+      "pais": "Brasil"
+    },
+    {
+      "url": "https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet",
+      "nivel": "gênero",
+      "evidencia": "Umidade sem secagem completa, raízes superficiais, cestos/placas para rizomas alongados.",
+      "pais": "EUA"
+    }
+  ],
+  "fontes_verificadas_adicionais_2026_10_30": [
+    {
+      "titulo": "American Orchid Society",
+      "url": "https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet",
+      "alcance": "genero",
+      "observacao": "Rizomas espaçados podem favorecer montagens; mistura deve conservar umidade sem cobrir pseudobulbos.",
+      "conta_para_25_produtores_br": false
+    },
+    {
+      "titulo": "Orchid Society of Great Britain",
+      "url": "https://www.osgb.org.uk/orchids/orchid-care-guides/bulbophyllum-orchid-care",
+      "alcance": "genero",
+      "observacao": "Vasos rasos ou montagens com espaço de expansão; mistura fina/média com esfagno ou perlita.",
+      "conta_para_25_produtores_br": false
+    }
+  ],
+  "confianca_macs": "preliminar"
 }

@@ -124,5 +124,43 @@
     "Validar ou revisar receita com fontes e cultivo documentado"
   ],
   "observacao": "Não confundir repouso seco com mera redução de regas; avaliar fase fenológica.",
-  "ultima_revisao": "2026-10-30"
+  "ultima_revisao": "2026-10-30",
+  "fontes_verificadas_2026_10_30": [
+    {
+      "url": "https://www.orquidariodurvalferreira.com.br/pagina/como-cultivar-catasetum.html",
+      "nivel": "gênero",
+      "evidencia": "Substrato úmido e água abundante durante crescimento; repouso mais seco; esfagno possível.",
+      "pais": "Brasil"
+    },
+    {
+      "url": "https://www.aos.org/orchid-care/care-sheets/catasetum-culture-sheet",
+      "nivel": "gênero",
+      "evidencia": "Aguardar novas raízes desenvolvidas antes de retomar regas intensas; repouso sazonal.",
+      "pais": "EUA"
+    }
+  ],
+  "fontes_verificadas_adicionais_2026_10_30": [
+    {
+      "titulo": "Kew POWO",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77177106-1",
+      "alcance": "especie_botanica",
+      "observacao": "Epífita pseudobulbosa de ambientes tropicais úmidos.",
+      "conta_para_25_produtores_br": false
+    },
+    {
+      "titulo": "Orquidário Durval Ferreira",
+      "url": "https://www.orquidariodurvalferreira.com.br/pagina/como-cultivar-catasetum.html",
+      "alcance": "genero",
+      "observacao": "Água abundante no crescimento, substrato mais seco no repouso; esfagno é opção.",
+      "conta_para_25_produtores_br": false
+    },
+    {
+      "titulo": "American Orchid Society",
+      "url": "https://www.aos.org/orchid-care/care-sheets/catasetum-culture-sheet",
+      "alcance": "genero",
+      "observacao": "Regas ajustadas ao estágio de desenvolvimento das raízes e à dormência.",
+      "conta_para_25_produtores_br": false
+    }
+  ],
+  "confianca_macs": "preliminar"
 }
