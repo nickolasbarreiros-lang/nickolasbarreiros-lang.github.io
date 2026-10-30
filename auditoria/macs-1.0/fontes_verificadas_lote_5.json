@@ -1,0 +1,102 @@
+{
+  "data": "2026-10-30",
+  "fontes": [
+    {
+      "id": "AOS-CATA",
+      "url": "https://www.aos.org/orchid-care/care-sheets/catasetum-culture-sheet",
+      "tipo": "guia_genero",
+      "pais": "EUA",
+      "especies": [
+        "catasetum-mattosianum"
+      ],
+      "evidencia": "Crescimento com água abundante; dormência com restrição; retomada quando raízes novas estiverem desenvolvidas.",
+      "limite": "Orientação de gênero, não ensaio específico de C. mattosianum."
+    },
+    {
+      "id": "DURVAL-CATA",
+      "url": "https://www.orquidariodurvalferreira.com.br/pagina/como-cultivar-catasetum.html",
+      "tipo": "produtor_brasileiro_genero",
+      "pais": "Brasil",
+      "especies": [
+        "catasetum-mattosianum"
+      ],
+      "evidencia": "Substrato úmido no crescimento; esfagno é uma alternativa; montagem em placa facilita secagem no repouso, mas complica hidratação ativa.",
+      "limite": "Não confirma proporções de mistura para a espécie."
+    },
+    {
+      "id": "AOS-BULB-BASKET",
+      "url": "https://www.aos.org/orchids/articles/tree-fern-baskets",
+      "tipo": "artigo_genero",
+      "pais": "EUA",
+      "especies": [
+        "bulbophyllum-rothschildianum",
+        "bulbophyllum-sikkimense",
+        "bulbophyllum-miniatum",
+        "bulbophyllum-syciobulbon"
+      ],
+      "evidencia": "Cestos podem acomodar Bulbophyllum; exigência de umidade depende da espécie e estação.",
+      "limite": "Exemplos não são das quatro espécies do lote."
+    },
+    {
+      "id": "CARTER-BULB",
+      "url": "https://www.carterandholmes.com/pages/bulbophyllum-care-sheet",
+      "tipo": "produtor_genero",
+      "pais": "EUA",
+      "especies": [
+        "bulbophyllum-rothschildianum",
+        "bulbophyllum-sikkimense",
+        "bulbophyllum-miniatum",
+        "bulbophyllum-syciobulbon"
+      ],
+      "evidencia": "Não há recipiente universal; retenção hídrica e drenagem precisam coexistir.",
+      "limite": "Orientação geral por gênero."
+    },
+    {
+      "id": "TOP-ROTH",
+      "url": "https://www.tropicalorchidsportugal.com/en/product/bulbophyllum-rothschildianum/",
+      "tipo": "produtor_especie",
+      "pais": "Portugal",
+      "especies": [
+        "bulbophyllum-rothschildianum"
+      ],
+      "evidencia": "Rizoma rastejante; cestos, vasos rasos ou placas; pinus fino-médio com esfagno; umidade constante sem encharcamento.",
+      "limite": "Cultivo em condições não necessariamente equivalentes a litoral quente."
+    },
+    {
+      "id": "PORTLAND-ROTH",
+      "url": "https://www.isleofportlandorchids.co.uk/orchid-information-pages/bulbophyllum-rothschildianum",
+      "tipo": "produtor_especie",
+      "pais": "Reino Unido",
+      "especies": [
+        "bulbophyllum-rothschildianum"
+      ],
+      "evidencia": "Cultivo em cestos e vasos; boa drenagem e regas regulares mesmo na estação mais seca.",
+      "limite": "Condições de cultivo distintas do clima-alvo."
+    },
+    {
+      "id": "ORCHIDGURU-ROTH",
+      "url": "https://www.orchid.guru/content/orchids/b/bulbophyllum/rothschildianum/",
+      "tipo": "guia_especie",
+      "pais": "Não determinado",
+      "especies": [
+        "bulbophyllum-rothschildianum"
+      ],
+      "evidencia": "Evitar desidratação no calor; montagem em cortiça possível.",
+      "limite": "Sugestões de envasamento incluem orientações genéricas condicionadas ao tipo de raiz."
+    },
+    {
+      "id": "AOS-MOUNT",
+      "url": "https://www.aos.org/orchid-care/orchid-care-basics/mounting",
+      "tipo": "guia_tecnico",
+      "pais": "EUA",
+      "especies": [
+        "bulbophyllum-rothschildianum",
+        "bulbophyllum-sikkimense",
+        "bulbophyllum-miniatum",
+        "bulbophyllum-syciobulbon"
+      ],
+      "evidencia": "Montagens secam mais rápido; uso de esfagno depende de umidade e ventilação.",
+      "limite": "Não estabelece preferência específica por espécie."
+    }
+  ]
+}

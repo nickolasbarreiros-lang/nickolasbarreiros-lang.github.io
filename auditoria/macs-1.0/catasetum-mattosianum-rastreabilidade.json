@@ -1,0 +1,14 @@
+{
+  "especie": "Catasetum mattosianum",
+  "arquivo": "dados/orquideas/catasetum-mattosianum.js",
+  "status": "pesquisa_pendente",
+  "fontes_verificadas_ids": [
+    "AOS-CATA",
+    "DURVAL-CATA"
+  ],
+  "produtores_brasileiros_com_recomendacao_documentada": 1,
+  "meta_produtores_brasileiros_consultados": 25,
+  "especies_especificas_fontes": 0,
+  "conclusao": "Sem validação MACS: amostra brasileira incompleta e avaliação dos sete métodos pendente.",
+  "observacao": "Fontes gerais por gênero não contam como recomendações específicas da espécie."
+}

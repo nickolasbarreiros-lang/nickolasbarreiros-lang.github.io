@@ -1,0 +1,15 @@
+{
+  "especie": "Bulbophyllum roxburghii",
+  "arquivo": "dados/orquideas/bulbophyllum-sikkimense.js",
+  "status": "pesquisa_pendente",
+  "fontes_verificadas_ids": [
+    "AOS-BULB-BASKET",
+    "CARTER-BULB",
+    "AOS-MOUNT"
+  ],
+  "produtores_brasileiros_com_recomendacao_documentada": 0,
+  "meta_produtores_brasileiros_consultados": 25,
+  "especies_especificas_fontes": 0,
+  "conclusao": "Sem validação MACS: amostra brasileira incompleta e avaliação dos sete métodos pendente.",
+  "observacao": "Fontes gerais por gênero não contam como recomendações específicas da espécie."
+}
