@@ -10,14 +10,16 @@
   },
   "fontes_botanicas": [
     {
-      "titulo": "Kew POWO — B. roxburghii",
-      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:620048-1",
-      "tipo": "taxonomia"
+      "titulo": "IOSPE — roxburghii",
+      "url": "https://orchidspecies.com/bulbroxburg.htm",
+      "tipo": "especie",
+      "conclusao": "Cestos ou vasos, calor, meia-sombra, ventilação e água moderada"
     },
     {
-      "titulo": "Isle of Portland Orchids — B. roxburghii",
-      "url": "https://www.isleofportlandorchids.co.uk/orchid-information-pages/bulbophyllum-roxburghii",
-      "tipo": "espécie"
+      "titulo": "IOSPE — sikkimense",
+      "url": "https://www.orchidspecies.com/cirrsikhimense.htm",
+      "tipo": "sinonimo_historico",
+      "conclusao": "Vaso ou cesto, regas regulares; população historicamente tratada separadamente"
     }
   ],
   "perfil_radicular_hidrico": {
@@ -27,7 +29,7 @@
     "necessidade_umidade": null,
     "tolerancia_secagem": null,
     "sensibilidade_saturacao": null,
-    "arquitetura_crescimento": "avaliacao preliminar: Raízes finas, Porte pequeno, Verão úmido, Inverno menos úmido, Boa aeração, Rizoma exposto",
+    "arquitetura_crescimento": "Pseudobulbos curtos; Rizoma rasteiro; Água regular; Base exposta; Boa aeração; Secagem parcial",
     "condicoes_termicas": null
   },
   "avaliacao_montagens": {
@@ -38,34 +40,83 @@
       "vaso-barro"
     ],
     "melhor_hipotese": "vaso-plastico-vasado",
-    "notas": "Pontuação MACS não atribuída: levantamento brasileiro incompleto"
+    "notas": "Pontuação MACS não atribuída: levantamento brasileiro incompleto",
+    "comparacao_qualitativa": [
+      {
+        "asset": "placa-tronco",
+        "nome": "Placa / tronco",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "Possível com irrigação frequente e microclima úmido."
+      },
+      {
+        "asset": "vaso-barro",
+        "nome": "Vaso de Barro",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "Pode funcionar em ambiente úmido; monitorar secagem das bordas."
+      },
+      {
+        "asset": "vaso-plastico",
+        "nome": "Vaso plástico",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "insuficiente para nota MACS"
+      },
+      {
+        "asset": "vaso-plastico-vasado",
+        "nome": "Vaso plástico vasado",
+        "classificacao": "proposta_principal",
+        "evidencia": "Favorece umidade regular e drenagem, com rizoma mantido sobre o substrato."
+      },
+      {
+        "asset": "cesto-madeira",
+        "nome": "Cachepô de Madeira",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "Acomoda crescimento lateral, mas seca mais rápido no calor."
+      },
+      {
+        "asset": "arvore-viva",
+        "nome": "Árvore viva",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "insuficiente para nota MACS"
+      },
+      {
+        "asset": "raizes-soltas",
+        "nome": "Raízes Soltas",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "insuficiente para nota MACS"
+      }
+    ],
+    "notas_macs": "nao_atribuidas_sem_base_suficiente"
   },
   "substrato": {
     "composicao": [
       {
         "asset": "casca-pinus",
-        "percentual": 30,
-        "funcao": "Permite raízes aderirem sem compactar."
+        "percentual": 35,
+        "funcao": "Mantém canais de ar em vaso raso."
       },
       {
         "asset": "chips-coco",
-        "percentual": 30,
-        "funcao": "Amortece secagem durante crescimento."
+        "percentual": 25,
+        "funcao": "Reserva hídrica moderada."
       },
       {
         "asset": "perlita",
         "percentual": 25,
-        "funcao": "Mantém circulação de ar."
+        "funcao": "Reduz compactação."
       },
       {
         "asset": "esfagno",
         "percentual": 15,
-        "funcao": "Pequena reserva, sem cobrir o rizoma."
+        "funcao": "Protege raízes novas sem encharcar."
       }
     ],
-    "convergencias": [],
-    "divergencias": [],
-    "justificativa": "Miniatura epífita de ambiente de monções: raízes pedem umidade durante crescimento e redução gradual no período menos ativo; vaso raso vasado permite controlar essa alternância. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem."
+    "convergencias": [
+      "IOSPE — roxburghii: Cestos ou vasos, calor, meia-sombra, ventilação e água moderada"
+    ],
+    "divergencias": [
+      "Não há ensaio comparativo específico suficiente para comprovar as proporções propostas."
+    ],
+    "justificativa": "A literatura sobre B. roxburghii e o táxon histórico sikkimense recomenda vasos ou cestos com umidade regular e ventilação. A receita abaixo é inferência para vaso vasado; não há convergência brasileira específica documentada."
   },
   "confianca": "baixa_provisoria",
   "pendencias": [
@@ -74,5 +125,6 @@
     "Conferir morfologia radicular específica",
     "Validar ou revisar receita com fontes e cultivo documentado"
   ],
-  "observacao": "B. sikkimense é sinônimo de B. roxburghii conforme Kew; evitar secagem intensa no verão."
+  "observacao": "B. sikkimense é sinônimo de B. roxburghii conforme Kew; evitar secagem intensa no verão.",
+  "ultima_revisao": "2026-10-30"
 }

@@ -11,18 +11,15 @@
   "fontes_botanicas": [
     {
       "titulo": "Kew POWO — C. mattosianum",
-      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77177106-1",
-      "tipo": "taxonomia"
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77177106-1",
+      "tipo": "botanica",
+      "conclusao": "Epífita pseudobulbosa de ambiente tropical úmido"
     },
     {
-      "titulo": "Orquidário Durval Ferreira — Catasetum",
-      "url": "https://www.orquidariodurvalferreira.com.br/pagina/como-cultivar-catasetum.html",
-      "tipo": "produtor_br_genero"
-    },
-    {
-      "titulo": "AOS — Catasetum",
+      "titulo": "American Orchid Society — Catasetum",
       "url": "https://www.aos.org/orchid-care/care-sheets/catasetum-culture-sheet",
-      "tipo": "genero"
+      "tipo": "genero",
+      "conclusao": "Muita água no crescimento; repouso seco; retomar regas após raízes novas desenvolvidas"
     }
   ],
   "perfil_radicular_hidrico": {
@@ -32,7 +29,7 @@
     "necessidade_umidade": null,
     "tolerancia_secagem": null,
     "sensibilidade_saturacao": null,
-    "arquitetura_crescimento": "avaliacao preliminar: Raízes vigorosas, Reserva nos bulbos, Ciclo sazonal, Crescimento úmido, Repouso seco, Boa drenagem",
+    "arquitetura_crescimento": "Raízes vigorosas; Bulbos de reserva; Ciclo sazonal; Crescimento úmido; Repouso seco; Boa drenagem",
     "condicoes_termicas": null
   },
   "avaliacao_montagens": {
@@ -43,34 +40,81 @@
       "vaso-barro"
     ],
     "melhor_hipotese": "vaso-plastico-vasado",
-    "notas": "Pontuação MACS não atribuída: levantamento brasileiro incompleto"
+    "notas": "Pontuação MACS não atribuída: levantamento brasileiro incompleto",
+    "comparacao_qualitativa": [
+      {
+        "asset": "placa-tronco",
+        "nome": "Placa / tronco",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "Facilita repouso seco, mas requer irrigação frequente quando há folhas e raízes ativas."
+      },
+      {
+        "asset": "vaso-barro",
+        "nome": "Vaso de Barro",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "Secagem acelerada pode dificultar hidratação durante crescimento."
+      },
+      {
+        "asset": "vaso-plastico",
+        "nome": "Vaso plástico",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "insuficiente para nota MACS"
+      },
+      {
+        "asset": "vaso-plastico-vasado",
+        "nome": "Vaso plástico vasado",
+        "classificacao": "proposta_principal",
+        "evidencia": "Permite hidratação intensa no crescimento e secagem controlada durante dormência."
+      },
+      {
+        "asset": "cesto-madeira",
+        "nome": "Cachepô de Madeira",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "Boa aeração; em crescimento pode secar depressa demais no calor."
+      },
+      {
+        "asset": "arvore-viva",
+        "nome": "Árvore viva",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "insuficiente para nota MACS"
+      },
+      {
+        "asset": "raizes-soltas",
+        "nome": "Raízes Soltas",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "insuficiente para nota MACS"
+      }
+    ],
+    "notas_macs": "nao_atribuidas_sem_base_suficiente"
   },
   "substrato": {
     "composicao": [
       {
         "asset": "chips-coco",
         "percentual": 35,
-        "funcao": "Reserva hídrica na fase ativa."
+        "funcao": "Reserva água durante crescimento ativo."
       },
       {
         "asset": "casca-pinus",
         "percentual": 30,
-        "funcao": "Mantém circulação de ar."
+        "funcao": "Mantém espaços de ar e drenagem."
       },
       {
         "asset": "perlita",
         "percentual": 20,
-        "funcao": "Ajuda a secar no repouso."
+        "funcao": "Evita adensamento do meio."
       },
       {
         "asset": "casca-arroz-carbonizada",
         "percentual": 15,
-        "funcao": "Evita compactação e facilita drenagem."
+        "funcao": "Contribui para porosidade e secagem no repouso."
       }
     ],
     "convergencias": [],
-    "divergencias": [],
-    "justificativa": "Vaso plástico vasado favorece raízes vigorosas e regas intensas no crescimento, mas permite manter o meio quase seco na dormência; iniciar regas fortes apenas com raízes novas desenvolvidas. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem."
+    "divergencias": [
+      "Não há ensaio comparativo específico suficiente para comprovar as proporções propostas."
+    ],
+    "justificativa": "A espécie é epífita pseudobulbosa de ambiente tropical úmido; a orientação sazonal é baseada no gênero Catasetum. Mistura leve com reserva hídrica favorece crescimento e deve secar no repouso. Proporções são hipótese, não receita testada na espécie."
   },
   "confianca": "baixa_provisoria",
   "pendencias": [
@@ -79,5 +123,6 @@
     "Conferir morfologia radicular específica",
     "Validar ou revisar receita com fontes e cultivo documentado"
   ],
-  "observacao": "Não confundir repouso seco com mera redução de regas; avaliar fase fenológica."
+  "observacao": "Não confundir repouso seco com mera redução de regas; avaliar fase fenológica.",
+  "ultima_revisao": "2026-10-30"
 }

@@ -4,20 +4,59 @@
   "arquivo": "dados/orquideas/bulbophyllum-rothschildianum.js",
   "status": "pesquisa_em_andamento",
   "produtores_brasileiros": {
-    "consultados": 0,
-    "com_recomendacao_especifica": 0,
-    "registros": []
+    "consultados": 4,
+    "com_recomendacao_especifica": 4,
+    "registros": [
+      {
+        "nome": "Orquidário Mogi Mirim",
+        "url_ou_referencia": "https://www.orquidariomogimirim.com.br/bulbophyllum-rothschildianum-",
+        "resultado": "Pinus, carvão e esfagno; vaso ou tronco; umidade leve sem encharcar",
+        "nivel": "especie"
+      },
+      {
+        "nome": "Orquidário Maripá",
+        "url_ou_referencia": "https://www.orquidariomaripa.com.br/produtos/bulbophyllum-rothschildianum-pre-adulta/",
+        "resultado": "Cascas, carvão, madeira, musgo; plástico, barro e caixeta",
+        "nivel": "especie"
+      },
+      {
+        "nome": "Orquidário Aniela",
+        "url_ou_referencia": "https://www.orquidarioaniela.com.br/product-page/bulbophyllum-rothschildianum",
+        "resultado": "Ambiente úmido com sombreamento",
+        "nivel": "especie"
+      },
+      {
+        "nome": "Orquidário Oriental",
+        "url_ou_referencia": "https://www.orquidariooriental.com.br/produto/ibulbophyllum-rothschildianumi%2C2217/",
+        "resultado": "Epífita em floresta úmida ventilada",
+        "nivel": "especie"
+      }
+    ]
   },
   "fontes_botanicas": [
     {
-      "titulo": "Orchid.guru — B. rothschildianum",
-      "url": "https://www.orchid.guru/content/orchids/b/bulbophyllum/rothschildianum/",
-      "tipo": "espécie"
+      "titulo": "Orquidário Mogi Mirim",
+      "url": "https://www.orquidariomogimirim.com.br/bulbophyllum-rothschildianum-",
+      "tipo": "especie",
+      "conclusao": "Pinus, carvão e esfagno; vaso ou tronco; umidade leve sem encharcar"
     },
     {
-      "titulo": "Tropical Orchids Portugal — B. rothschildianum",
-      "url": "https://www.tropicalorchidsportugal.com/produto/bulbophyllum-rothschildianum/",
-      "tipo": "espécie"
+      "titulo": "Orquidário Maripá",
+      "url": "https://www.orquidariomaripa.com.br/produtos/bulbophyllum-rothschildianum-pre-adulta/",
+      "tipo": "especie",
+      "conclusao": "Cascas, carvão, madeira, musgo; plástico, barro e caixeta"
+    },
+    {
+      "titulo": "Orquidário Aniela",
+      "url": "https://www.orquidarioaniela.com.br/product-page/bulbophyllum-rothschildianum",
+      "tipo": "especie",
+      "conclusao": "Ambiente úmido com sombreamento"
+    },
+    {
+      "titulo": "Orquidário Oriental",
+      "url": "https://www.orquidariooriental.com.br/produto/ibulbophyllum-rothschildianumi%2C2217/",
+      "tipo": "especie",
+      "conclusao": "Epífita em floresta úmida ventilada"
     }
   ],
   "perfil_radicular_hidrico": {
@@ -27,7 +66,7 @@
     "necessidade_umidade": null,
     "tolerancia_secagem": null,
     "sensibilidade_saturacao": null,
-    "arquitetura_crescimento": "avaliacao preliminar: Rizoma rasteiro, Raízes finas, Umidade regular, Base exposta, Boa aeração, Secagem suave",
+    "arquitetura_crescimento": "Rizoma rasteiro; Raízes epífitas; Umidade regular; Base exposta; Boa aeração; Secagem suave",
     "condicoes_termicas": null
   },
   "avaliacao_montagens": {
@@ -38,34 +77,86 @@
       "vaso-barro"
     ],
     "melhor_hipotese": "cesto-madeira",
-    "notas": "Pontuação MACS não atribuída: levantamento brasileiro incompleto"
+    "notas": "Pontuação MACS não atribuída: levantamento brasileiro incompleto",
+    "comparacao_qualitativa": [
+      {
+        "asset": "placa-tronco",
+        "nome": "Placa / tronco",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "Acompanha a expansão do rizoma, mas requer irrigação mais frequente no calor."
+      },
+      {
+        "asset": "vaso-barro",
+        "nome": "Vaso de Barro",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "Funciona com mistura mais úmida; evaporação pelas paredes pode acelerar a secagem."
+      },
+      {
+        "asset": "vaso-plastico",
+        "nome": "Vaso plástico",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "insuficiente para nota MACS"
+      },
+      {
+        "asset": "vaso-plastico-vasado",
+        "nome": "Vaso plástico vasado",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "Opção de secagem mais lenta que o cachepô; use recipiente largo e rizoma à superfície."
+      },
+      {
+        "asset": "cesto-madeira",
+        "nome": "Cachepô de Madeira",
+        "classificacao": "proposta_principal",
+        "evidencia": "Acomoda o rizoma horizontal e permite a saída das flores; exige reserva de umidade e regas regulares."
+      },
+      {
+        "asset": "arvore-viva",
+        "nome": "Árvore viva",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "insuficiente para nota MACS"
+      },
+      {
+        "asset": "raizes-soltas",
+        "nome": "Raízes Soltas",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "insuficiente para nota MACS"
+      }
+    ],
+    "notas_macs": "nao_atribuidas_sem_base_suficiente"
   },
   "substrato": {
     "composicao": [
       {
         "asset": "casca-pinus",
         "percentual": 35,
-        "funcao": "Espaços para circulação de ar."
+        "funcao": "Permite expansão radicular com drenagem."
+      },
+      {
+        "asset": "carvao-vegetal",
+        "percentual": 20,
+        "funcao": "Conserva porosidade e reduz adensamento."
       },
       {
         "asset": "chips-coco",
-        "percentual": 30,
-        "funcao": "Retenção moderada sem compactação."
-      },
-      {
-        "asset": "perlita",
-        "percentual": 20,
-        "funcao": "Mantém macroporos e leveza."
+        "percentual": 25,
+        "funcao": "Amortece a secagem em recipiente aberto."
       },
       {
         "asset": "esfagno",
-        "percentual": 15,
-        "funcao": "Evita secagem brusca das pontas radiculares."
+        "percentual": 20,
+        "funcao": "Mantém umidade local sem cobrir o rizoma."
       }
     ],
-    "convergencias": [],
-    "divergencias": [],
-    "justificativa": "Rizoma rastejante e inflorescências amplas favorecem cachepô aberto; proteger raízes finas da secagem total, com circulação de ar. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem."
+    "convergencias": [
+      "Orquidário Mogi Mirim: Pinus, carvão e esfagno; vaso ou tronco; umidade leve sem encharcar",
+      "Orquidário Maripá: Cascas, carvão, madeira, musgo; plástico, barro e caixeta",
+      "Orquidário Aniela: Ambiente úmido com sombreamento",
+      "Orquidário Oriental: Epífita em floresta úmida ventilada"
+    ],
+    "divergencias": [
+      "Não há ensaio comparativo específico suficiente para comprovar as proporções propostas."
+    ],
+    "justificativa": "Fontes brasileiras específicas convergem em mistura arejada com pinus, carvão e musgo; caixeta e vaso são ambos praticados. Para clima quente, cachepô largo com reserva hídrica leve é hipótese coerente, não superioridade comprovada."
   },
   "confianca": "baixa_provisoria",
   "pendencias": [
@@ -74,5 +165,6 @@
     "Conferir morfologia radicular específica",
     "Validar ou revisar receita com fontes e cultivo documentado"
   ],
-  "observacao": "Preferir cachepô amplo; espécie pode sentir calor noturno persistente."
+  "observacao": "Preferir cachepô amplo; espécie pode sentir calor noturno persistente.",
+  "ultima_revisao": "2026-10-30"
 }

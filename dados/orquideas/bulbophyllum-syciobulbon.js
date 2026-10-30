@@ -48,45 +48,38 @@ export const bulbophyllumSyciobulbon = {
                 "asset": "vaso-plastico-vasado",
                 "estrelas": 5,
                 "status": "Ideal",
-                "texto": "Cultivo provisório em vaso vasado, com rizoma sobre a superfície e umidade moderada; a identificação e o hábito radicular precisam de fontes específicas antes de validar a escolha."
+                "texto": "Adequado com bordas livres para o rizoma avançar; evite restringir a frente de crescimento."
             },
             {
                 "nome": "Cachepô de Madeira",
                 "asset": "cesto-madeira",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+                "texto": "Oferece espaço lateral e boa drenagem, com necessidade de regas mais frequentes."
             },
             {
                 "nome": "Placa / tronco",
                 "asset": "placa-tronco",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Oferece raízes ventiladas, mas demanda irrigação mais frequente em calor persistente."
+                "texto": "Compatível com o hábito trepador, desde que a umidade seja mantida."
             },
             {
                 "nome": "Vaso de Barro",
                 "asset": "vaso-barro",
                 "estrelas": 3,
                 "status": "Alternativa",
-                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+                "texto": "Pode limitar a expansão e secar rápido no calor."
             }
         ]
     },
     substratoVisual: {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
-        "resumo": "Mistura técnica preliminar para recipiente; proporções dependem da granulometria e do regime de rega.",
-        "justificativa": "Cultivo provisório em vaso vasado, com rizoma sobre a superfície e umidade moderada; a identificação e o hábito radicular precisam de fontes específicas antes de validar a escolha. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem.",
-        "receitaTexto": "35% pinus médio + 25% chips de coco + 25% perlita grossa + 15% esfagno solto.",
-        "perfil": [
-            "Raízes epífitas",
-            "Rizoma exposto",
-            "Umidade moderada",
-            "Boa aeração",
-            "Vaso baixo",
-            "Secagem gradual"
-        ],
+        "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
+        "justificativa": "Fonte específica descreve crescimento trepador ou espalhado e cultivo drenante ou montado. Vaso vasado é possível, mas o espaço para o rizoma pode tornar placa ou cachepô mais conveniente. Mistura é inferência técnica.",
+        "receitaTexto": "40% pinus médio + 20% chips de coco + 25% perlita grossa + 15% esfagno solto.",
+        "perfil": ["Rizoma trepador", "Crescimento lateral", "Raízes epífitas", "Secagem parcial", "Boa aeração", "Umidade variável"],
         "comportamento": [
             {
                 "nome": "Retenção",
@@ -111,32 +104,32 @@ export const bulbophyllumSyciobulbon = {
         ],
         "itens": [
             {
-                "asset": "casca-pinus",
-                "nome": "Pinus médio",
-                "proporcao": "35%",
-                "nota": "estrutura",
-                "finalidade": "Dá sustentação sem fechar o meio."
+                            "asset": "casca-pinus",
+                            "nome": "Pinus médio",
+                            "proporcao": "40%",
+                            "nota": "estrutura",
+                            "finalidade": "Suporta raízes sem compactar o rizoma."
             },
             {
-                "asset": "chips-coco",
-                "nome": "Chips de coco",
-                "proporcao": "25%",
-                "nota": "umidade",
-                "finalidade": "Conserva água de modo moderado."
+                            "asset": "chips-coco",
+                            "nome": "Chips de coco",
+                            "proporcao": "20%",
+                            "nota": "umidade",
+                            "finalidade": "Conserva hidratação moderada."
             },
             {
-                "asset": "perlita",
-                "nome": "Perlita grossa",
-                "proporcao": "25%",
-                "nota": "aeração",
-                "finalidade": "Evita adensamento."
+                            "asset": "perlita",
+                            "nome": "Perlita grossa",
+                            "proporcao": "25%",
+                            "nota": "aeração",
+                            "finalidade": "Facilita drenagem."
             },
             {
-                "asset": "esfagno",
-                "nome": "Esfagno solto",
-                "proporcao": "15%",
-                "nota": "reserva",
-                "finalidade": "Pequena reserva hídrica."
+                            "asset": "esfagno",
+                            "nome": "Esfagno solto",
+                            "proporcao": "15%",
+                            "nota": "retenção",
+                            "finalidade": "Pequena reserva hídrica para brotos novos."
             }
         ],
         "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo."

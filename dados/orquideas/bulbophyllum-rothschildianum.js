@@ -40,45 +40,38 @@ export const bulbophyllumRothschildianum = {
                 "asset": "cesto-madeira",
                 "estrelas": 5,
                 "status": "Ideal",
-                "texto": "Rizoma rastejante e inflorescências amplas favorecem cachepô aberto; proteger raízes finas da secagem total, com circulação de ar."
+                "texto": "Acomoda o rizoma horizontal e permite a saída das flores; exige reserva de umidade e regas regulares."
             },
             {
                 "nome": "Vaso plástico vasado",
                 "asset": "vaso-plastico-vasado",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+                "texto": "Opção de secagem mais lenta que o cachepô; use recipiente largo e rizoma à superfície."
             },
             {
                 "nome": "Placa / tronco",
                 "asset": "placa-tronco",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Oferece raízes ventiladas, mas demanda irrigação mais frequente em calor persistente."
+                "texto": "Acompanha a expansão do rizoma, mas requer irrigação mais frequente no calor."
             },
             {
                 "nome": "Vaso de Barro",
                 "asset": "vaso-barro",
                 "estrelas": 3,
                 "status": "Alternativa",
-                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+                "texto": "Funciona com mistura mais úmida; evaporação pelas paredes pode acelerar a secagem."
             }
         ]
     },
     substratoVisual: {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
-        "resumo": "Mistura técnica preliminar para recipiente; proporções dependem da granulometria e do regime de rega.",
-        "justificativa": "Rizoma rastejante e inflorescências amplas favorecem cachepô aberto; proteger raízes finas da secagem total, com circulação de ar. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem.",
-        "receitaTexto": "35% pinus médio + 30% chips de coco + 20% perlita grossa + 15% esfagno solto.",
-        "perfil": [
-            "Rizoma rasteiro",
-            "Raízes finas",
-            "Umidade regular",
-            "Base exposta",
-            "Boa aeração",
-            "Secagem suave"
-        ],
+        "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
+        "justificativa": "Fontes brasileiras específicas convergem em mistura arejada com pinus, carvão e musgo; caixeta e vaso são ambos praticados. Para clima quente, cachepô largo com reserva hídrica leve é hipótese coerente, não superioridade comprovada.",
+        "receitaTexto": "35% pinus médio + 20% carvão vegetal + 25% chips de coco + 20% esfagno solto.",
+        "perfil": ["Rizoma rasteiro", "Raízes epífitas", "Umidade regular", "Base exposta", "Boa aeração", "Secagem suave"],
         "comportamento": [
             {
                 "nome": "Retenção",
@@ -103,32 +96,32 @@ export const bulbophyllumRothschildianum = {
         ],
         "itens": [
             {
-                "asset": "casca-pinus",
-                "nome": "Pinus médio",
-                "proporcao": "35%",
-                "nota": "estrutura",
-                "finalidade": "Espaços para circulação de ar."
+                            "asset": "casca-pinus",
+                            "nome": "Pinus médio",
+                            "proporcao": "35%",
+                            "nota": "estrutura",
+                            "finalidade": "Permite expansão radicular com drenagem."
             },
             {
-                "asset": "chips-coco",
-                "nome": "Chips de coco",
-                "proporcao": "30%",
-                "nota": "umidade",
-                "finalidade": "Retenção moderada sem compactação."
+                            "asset": "carvao-vegetal",
+                            "nome": "Carvão vegetal",
+                            "proporcao": "20%",
+                            "nota": "aeração",
+                            "finalidade": "Conserva porosidade e reduz adensamento."
             },
             {
-                "asset": "perlita",
-                "nome": "Perlita grossa",
-                "proporcao": "20%",
-                "nota": "porosidade",
-                "finalidade": "Mantém macroporos e leveza."
+                            "asset": "chips-coco",
+                            "nome": "Chips de coco",
+                            "proporcao": "25%",
+                            "nota": "umidade",
+                            "finalidade": "Amortece a secagem em recipiente aberto."
             },
             {
-                "asset": "esfagno",
-                "nome": "Esfagno solto",
-                "proporcao": "15%",
-                "nota": "proteção",
-                "finalidade": "Evita secagem brusca das pontas radiculares."
+                            "asset": "esfagno",
+                            "nome": "Esfagno solto",
+                            "proporcao": "20%",
+                            "nota": "retenção",
+                            "finalidade": "Mantém umidade local sem cobrir o rizoma."
             }
         ],
         "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo."

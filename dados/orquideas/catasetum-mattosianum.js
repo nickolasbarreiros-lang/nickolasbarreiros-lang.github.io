@@ -46,45 +46,38 @@ export const catasetumMattosianum = {
                 "asset": "vaso-plastico-vasado",
                 "estrelas": 5,
                 "status": "Ideal",
-                "texto": "Vaso plástico vasado favorece raízes vigorosas e regas intensas no crescimento, mas permite manter o meio quase seco na dormência; iniciar regas fortes apenas com raízes novas desenvolvidas."
+                "texto": "Permite hidratação intensa no crescimento e secagem controlada durante dormência."
             },
             {
                 "nome": "Cachepô de Madeira",
                 "asset": "cesto-madeira",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+                "texto": "Boa aeração; em crescimento pode secar depressa demais no calor."
             },
             {
                 "nome": "Placa / tronco",
                 "asset": "placa-tronco",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Oferece raízes ventiladas, mas demanda irrigação mais frequente em calor persistente."
+                "texto": "Facilita repouso seco, mas requer irrigação frequente quando há folhas e raízes ativas."
             },
             {
                 "nome": "Vaso de Barro",
                 "asset": "vaso-barro",
                 "estrelas": 3,
                 "status": "Alternativa",
-                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+                "texto": "Secagem acelerada pode dificultar hidratação durante crescimento."
             }
         ]
     },
     substratoVisual: {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
-        "resumo": "Mistura técnica preliminar para recipiente; proporções dependem da granulometria e do regime de rega.",
-        "justificativa": "Vaso plástico vasado favorece raízes vigorosas e regas intensas no crescimento, mas permite manter o meio quase seco na dormência; iniciar regas fortes apenas com raízes novas desenvolvidas. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem.",
-        "receitaTexto": "35% chips de coco + 30% pinus médio + 20% perlita grossa + 15% casca de arroz.",
-        "perfil": [
-            "Raízes vigorosas",
-            "Reserva nos bulbos",
-            "Ciclo sazonal",
-            "Crescimento úmido",
-            "Repouso seco",
-            "Boa drenagem"
-        ],
+        "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
+        "justificativa": "A espécie é epífita pseudobulbosa de ambiente tropical úmido; a orientação sazonal é baseada no gênero Catasetum. Mistura leve com reserva hídrica favorece crescimento e deve secar no repouso. Proporções são hipótese, não receita testada na espécie.",
+        "receitaTexto": "35% chips de coco + 30% pinus médio + 20% perlita grossa + 15% casca de arroz carbonizada.",
+        "perfil": ["Raízes vigorosas", "Bulbos de reserva", "Ciclo sazonal", "Crescimento úmido", "Repouso seco", "Boa drenagem"],
         "comportamento": [
             {
                 "nome": "Retenção",
@@ -109,32 +102,32 @@ export const catasetumMattosianum = {
         ],
         "itens": [
             {
-                "asset": "chips-coco",
-                "nome": "Chips de coco",
-                "proporcao": "35%",
-                "nota": "retenção",
-                "finalidade": "Reserva hídrica na fase ativa."
+                            "asset": "chips-coco",
+                            "nome": "Chips de coco",
+                            "proporcao": "35%",
+                            "nota": "umidade",
+                            "finalidade": "Reserva água durante crescimento ativo."
             },
             {
-                "asset": "casca-pinus",
-                "nome": "Pinus médio",
-                "proporcao": "30%",
-                "nota": "estrutura",
-                "finalidade": "Mantém circulação de ar."
+                            "asset": "casca-pinus",
+                            "nome": "Pinus médio",
+                            "proporcao": "30%",
+                            "nota": "estrutura",
+                            "finalidade": "Mantém espaços de ar e drenagem."
             },
             {
-                "asset": "perlita",
-                "nome": "Perlita grossa",
-                "proporcao": "20%",
-                "nota": "drenagem",
-                "finalidade": "Ajuda a secar no repouso."
+                            "asset": "perlita",
+                            "nome": "Perlita grossa",
+                            "proporcao": "20%",
+                            "nota": "aeração",
+                            "finalidade": "Evita adensamento do meio."
             },
             {
-                "asset": "casca-arroz-carbonizada",
-                "nome": "Casca de arroz",
-                "proporcao": "15%",
-                "nota": "porosidade",
-                "finalidade": "Evita compactação e facilita drenagem."
+                            "asset": "casca-arroz-carbonizada",
+                            "nome": "Casca de arroz carbonizada",
+                            "proporcao": "15%",
+                            "nota": "leveza",
+                            "finalidade": "Contribui para porosidade e secagem no repouso."
             }
         ],
         "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo."

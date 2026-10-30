@@ -10,9 +10,16 @@
   },
   "fontes_botanicas": [
     {
-      "titulo": "AOS — cultivo de Bulbophyllum",
-      "url": "https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet",
-      "tipo": "genero"
+      "titulo": "Orchid.guru — B. sicyobulbon",
+      "url": "https://www.orchid.guru/content/orchids/b/bulbophyllum/sicyobulbon/",
+      "tipo": "especie",
+      "conclusao": "Rizoma trepador ou espalhado; mistura drenante ou montagem com irrigação frequente"
+    },
+    {
+      "titulo": "Kew POWO — B. sicyobulbon",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A620167-1",
+      "tipo": "botanica",
+      "conclusao": "Epífita de bioma tropical úmido"
     }
   ],
   "perfil_radicular_hidrico": {
@@ -22,7 +29,7 @@
     "necessidade_umidade": null,
     "tolerancia_secagem": null,
     "sensibilidade_saturacao": null,
-    "arquitetura_crescimento": "avaliacao preliminar: Raízes epífitas, Rizoma exposto, Umidade moderada, Boa aeração, Vaso baixo, Secagem gradual",
+    "arquitetura_crescimento": "Rizoma trepador; Crescimento lateral; Raízes epífitas; Secagem parcial; Boa aeração; Umidade variável",
     "condicoes_termicas": null
   },
   "avaliacao_montagens": {
@@ -33,34 +40,83 @@
       "vaso-barro"
     ],
     "melhor_hipotese": "vaso-plastico-vasado",
-    "notas": "Pontuação MACS não atribuída: levantamento brasileiro incompleto"
+    "notas": "Pontuação MACS não atribuída: levantamento brasileiro incompleto",
+    "comparacao_qualitativa": [
+      {
+        "asset": "placa-tronco",
+        "nome": "Placa / tronco",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "Compatível com o hábito trepador, desde que a umidade seja mantida."
+      },
+      {
+        "asset": "vaso-barro",
+        "nome": "Vaso de Barro",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "Pode limitar a expansão e secar rápido no calor."
+      },
+      {
+        "asset": "vaso-plastico",
+        "nome": "Vaso plástico",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "insuficiente para nota MACS"
+      },
+      {
+        "asset": "vaso-plastico-vasado",
+        "nome": "Vaso plástico vasado",
+        "classificacao": "proposta_principal",
+        "evidencia": "Adequado com bordas livres para o rizoma avançar; evite restringir a frente de crescimento."
+      },
+      {
+        "asset": "cesto-madeira",
+        "nome": "Cachepô de Madeira",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "Oferece espaço lateral e boa drenagem, com necessidade de regas mais frequentes."
+      },
+      {
+        "asset": "arvore-viva",
+        "nome": "Árvore viva",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "insuficiente para nota MACS"
+      },
+      {
+        "asset": "raizes-soltas",
+        "nome": "Raízes Soltas",
+        "classificacao": "alternativa_nao_pontuada",
+        "evidencia": "insuficiente para nota MACS"
+      }
+    ],
+    "notas_macs": "nao_atribuidas_sem_base_suficiente"
   },
   "substrato": {
     "composicao": [
       {
         "asset": "casca-pinus",
-        "percentual": 35,
-        "funcao": "Dá sustentação sem fechar o meio."
+        "percentual": 40,
+        "funcao": "Suporta raízes sem compactar o rizoma."
       },
       {
         "asset": "chips-coco",
-        "percentual": 25,
-        "funcao": "Conserva água de modo moderado."
+        "percentual": 20,
+        "funcao": "Conserva hidratação moderada."
       },
       {
         "asset": "perlita",
         "percentual": 25,
-        "funcao": "Evita adensamento."
+        "funcao": "Facilita drenagem."
       },
       {
         "asset": "esfagno",
         "percentual": 15,
-        "funcao": "Pequena reserva hídrica."
+        "funcao": "Pequena reserva hídrica para brotos novos."
       }
     ],
-    "convergencias": [],
-    "divergencias": [],
-    "justificativa": "Cultivo provisório em vaso vasado, com rizoma sobre a superfície e umidade moderada; a identificação e o hábito radicular precisam de fontes específicas antes de validar a escolha. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem."
+    "convergencias": [
+      "Orchid.guru — B. sicyobulbon: Rizoma trepador ou espalhado; mistura drenante ou montagem com irrigação frequente"
+    ],
+    "divergencias": [
+      "Não há ensaio comparativo específico suficiente para comprovar as proporções propostas."
+    ],
+    "justificativa": "Fonte específica descreve crescimento trepador ou espalhado e cultivo drenante ou montado. Vaso vasado é possível, mas o espaço para o rizoma pode tornar placa ou cachepô mais conveniente. Mistura é inferência técnica."
   },
   "confianca": "baixa_provisoria",
   "pendencias": [
@@ -69,5 +125,6 @@
     "Conferir morfologia radicular específica",
     "Validar ou revisar receita com fontes e cultivo documentado"
   ],
-  "observacao": "Evidência específica insuficiente: nenhuma conclusão de espécie deve ser apresentada como validada."
+  "observacao": "Evidência específica insuficiente: nenhuma conclusão de espécie deve ser apresentada como validada.",
+  "ultima_revisao": "2026-10-30"
 }

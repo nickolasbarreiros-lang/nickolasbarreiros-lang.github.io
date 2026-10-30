@@ -42,45 +42,38 @@ export const bulbophyllumSikkimense = {
                 "asset": "vaso-plastico-vasado",
                 "estrelas": 5,
                 "status": "Ideal",
-                "texto": "Miniatura epífita de ambiente de monções: raízes pedem umidade durante crescimento e redução gradual no período menos ativo; vaso raso vasado permite controlar essa alternância."
+                "texto": "Favorece umidade regular e drenagem, com rizoma mantido sobre o substrato."
             },
             {
                 "nome": "Cachepô de Madeira",
                 "asset": "cesto-madeira",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+                "texto": "Acomoda crescimento lateral, mas seca mais rápido no calor."
             },
             {
                 "nome": "Placa / tronco",
                 "asset": "placa-tronco",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Oferece raízes ventiladas, mas demanda irrigação mais frequente em calor persistente."
+                "texto": "Possível com irrigação frequente e microclima úmido."
             },
             {
                 "nome": "Vaso de Barro",
                 "asset": "vaso-barro",
                 "estrelas": 3,
                 "status": "Alternativa",
-                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+                "texto": "Pode funcionar em ambiente úmido; monitorar secagem das bordas."
             }
         ]
     },
     substratoVisual: {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
-        "resumo": "Mistura técnica preliminar para recipiente; proporções dependem da granulometria e do regime de rega.",
-        "justificativa": "Miniatura epífita de ambiente de monções: raízes pedem umidade durante crescimento e redução gradual no período menos ativo; vaso raso vasado permite controlar essa alternância. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem.",
-        "receitaTexto": "30% pinus médio + 30% chips de coco + 25% perlita grossa + 15% esfagno solto.",
-        "perfil": [
-            "Raízes finas",
-            "Porte pequeno",
-            "Verão úmido",
-            "Inverno menos úmido",
-            "Boa aeração",
-            "Rizoma exposto"
-        ],
+        "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
+        "justificativa": "A literatura sobre B. roxburghii e o táxon histórico sikkimense recomenda vasos ou cestos com umidade regular e ventilação. A receita abaixo é inferência para vaso vasado; não há convergência brasileira específica documentada.",
+        "receitaTexto": "35% pinus médio + 25% chips de coco + 25% perlita grossa + 15% esfagno solto.",
+        "perfil": ["Pseudobulbos curtos", "Rizoma rasteiro", "Água regular", "Base exposta", "Boa aeração", "Secagem parcial"],
         "comportamento": [
             {
                 "nome": "Retenção",
@@ -105,32 +98,32 @@ export const bulbophyllumSikkimense = {
         ],
         "itens": [
             {
-                "asset": "casca-pinus",
-                "nome": "Pinus médio",
-                "proporcao": "30%",
-                "nota": "estrutura",
-                "finalidade": "Permite raízes aderirem sem compactar."
+                            "asset": "casca-pinus",
+                            "nome": "Pinus médio",
+                            "proporcao": "35%",
+                            "nota": "estrutura",
+                            "finalidade": "Mantém canais de ar em vaso raso."
             },
             {
-                "asset": "chips-coco",
-                "nome": "Chips de coco",
-                "proporcao": "30%",
-                "nota": "umidade",
-                "finalidade": "Amortece secagem durante crescimento."
+                            "asset": "chips-coco",
+                            "nome": "Chips de coco",
+                            "proporcao": "25%",
+                            "nota": "umidade",
+                            "finalidade": "Reserva hídrica moderada."
             },
             {
-                "asset": "perlita",
-                "nome": "Perlita grossa",
-                "proporcao": "25%",
-                "nota": "porosidade",
-                "finalidade": "Mantém circulação de ar."
+                            "asset": "perlita",
+                            "nome": "Perlita grossa",
+                            "proporcao": "25%",
+                            "nota": "aeração",
+                            "finalidade": "Reduz compactação."
             },
             {
-                "asset": "esfagno",
-                "nome": "Esfagno solto",
-                "proporcao": "15%",
-                "nota": "reserva",
-                "finalidade": "Pequena reserva, sem cobrir o rizoma."
+                            "asset": "esfagno",
+                            "nome": "Esfagno solto",
+                            "proporcao": "15%",
+                            "nota": "retenção",
+                            "finalidade": "Protege raízes novas sem encharcar."
             }
         ],
         "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo."

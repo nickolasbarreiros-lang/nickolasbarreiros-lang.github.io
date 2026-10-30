@@ -42,45 +42,38 @@ export const bulbophyllumMiniatum = {
                 "asset": "placa-tronco",
                 "estrelas": 5,
                 "status": "Ideal",
-                "texto": "Montagem em placa facilita observar as raízes epífitas e permite saída livre das inflorescências; em clima quente, exige hidratação frequente e umidade ambiental."
+                "texto": "Madeira com pequena faixa de esfagno: alternativa publicada para a espécie, exigindo regas frequentes."
             },
             {
                 "nome": "Cachepô de Madeira",
                 "asset": "cesto-madeira",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+                "texto": "Permite ventilação e pequena reserva hídrica; não cobrir pseudobulbos."
             },
             {
                 "nome": "Vaso plástico vasado",
                 "asset": "vaso-plastico-vasado",
                 "estrelas": 4,
                 "status": "Muito recomendado",
-                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+                "texto": "Mistura drenante oferece maior intervalo entre regas do que placa."
             },
             {
                 "nome": "Vaso de Barro",
                 "asset": "vaso-barro",
                 "estrelas": 3,
                 "status": "Alternativa",
-                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+                "texto": "Evaporação rápida pode exigir regas mais próximas."
             }
         ]
     },
     substratoVisual: {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
-        "resumo": "Mistura técnica preliminar para recipiente; proporções dependem da granulometria e do regime de rega.",
-        "justificativa": "Montagem em placa facilita observar as raízes epífitas e permite saída livre das inflorescências; em clima quente, exige hidratação frequente e umidade ambiental. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem.",
-        "receitaTexto": "35% pinus médio + 30% chips de coco + 20% perlita grossa + 15% esfagno solto.",
-        "perfil": [
-            "Hábito epífito",
-            "Raízes finas",
-            "Base exposta",
-            "Umidade regular",
-            "Boa aeração",
-            "Floração pendente"
-        ],
+        "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
+        "justificativa": "Há recomendação brasileira para B. saltatorium (sem confirmação da variedade): madeira com esfagno ou substrato drenante. Montagem é uma alternativa documentada; proporções da receita em recipiente são inferência.",
+        "receitaTexto": "35% pinus médio + 25% chips de coco + 25% perlita grossa + 15% esfagno solto.",
+        "perfil": ["Hábito epífito", "Raízes delicadas", "Base exposta", "Umidade regular", "Boa aeração", "Montagem úmida"],
         "comportamento": [
             {
                 "nome": "Retenção",
@@ -105,32 +98,32 @@ export const bulbophyllumMiniatum = {
         ],
         "itens": [
             {
-                "asset": "casca-pinus",
-                "nome": "Pinus médio",
-                "proporcao": "35%",
-                "nota": "estrutura",
-                "finalidade": "Suporte ventilado para raízes."
+                            "asset": "casca-pinus",
+                            "nome": "Pinus médio",
+                            "proporcao": "35%",
+                            "nota": "estrutura",
+                            "finalidade": "Apoia raízes superficiais sem compactar."
             },
             {
-                "asset": "chips-coco",
-                "nome": "Chips de coco",
-                "proporcao": "30%",
-                "nota": "umidade",
-                "finalidade": "Evita secagem excessiva."
+                            "asset": "chips-coco",
+                            "nome": "Chips de coco",
+                            "proporcao": "25%",
+                            "nota": "umidade",
+                            "finalidade": "Reduz secagem brusca."
             },
             {
-                "asset": "perlita",
-                "nome": "Perlita grossa",
-                "proporcao": "20%",
-                "nota": "aeração",
-                "finalidade": "Preserva porosidade."
+                            "asset": "perlita",
+                            "nome": "Perlita grossa",
+                            "proporcao": "25%",
+                            "nota": "aeração",
+                            "finalidade": "Mantém poros abertos."
             },
             {
-                "asset": "esfagno",
-                "nome": "Esfagno solto",
-                "proporcao": "15%",
-                "nota": "reserva",
-                "finalidade": "Pequena reserva de água em vaso."
+                            "asset": "esfagno",
+                            "nome": "Esfagno solto",
+                            "proporcao": "15%",
+                            "nota": "retenção",
+                            "finalidade": "Protege pontas radiculares sem abafar a base."
             }
         ],
         "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo."
