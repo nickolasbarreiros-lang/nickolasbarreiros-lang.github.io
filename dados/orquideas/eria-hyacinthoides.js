@@ -32,25 +32,25 @@ export const eriaHyacinthoides = {
     suporte: "🥇 Cesto ou cachepô bem ventilado.\n🥈 Vaso de barro.\n🥉 Montagem em tronco apenas em ambiente de alta umidade relativa.",
     formasCultivo: {
         "perfilVisual": "epifita",
-        "destaque": "Cesto raso ventilado",
+        "destaque": "Cachepô de Madeira",
         "resumo": "Cesto raso que acomoda o avanço lateral dos brotos e mantém a base da planta fora de uma massa compacta. Em calor prolongado, a pequena reserva hídrica deve ser compensada por regas bem observadas.",
         "metodos": [
             {
-                "nome": "Cesto raso ventilado",
+                "nome": "Cachepô de Madeira",
                 "asset": "cesto-madeira",
                 "estrelas": 5,
                 "status": "Ideal",
                 "texto": "Acomoda a expansão dos brotos e conserva ar em torno das raízes, sem encharcar a base."
             },
             {
-                "nome": "Vaso de barro baixo",
+                "nome": "Vaso de Barro",
                 "asset": "vaso-barro",
                 "estrelas": 4,
                 "status": "Muito recomendado",
                 "texto": "Boa estabilidade e evaporação lateral, com substrato aberto e recipiente justo."
             },
             {
-                "nome": "Vaso plástico muito perfurado",
+                "nome": "Vaso plástico vasado",
                 "asset": "vaso-plastico-vasado",
                 "estrelas": 4,
                 "status": "Muito recomendado",

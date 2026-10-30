@@ -36,11 +36,11 @@ export const bifrenariaHarrisoniae = {
     suporte: "Cesto de madeira suspenso é a escolha principal. Vaso de barro e vaso plástico vasado também funcionam muito bem quando a mistura é extremamente drenante.",
     formasCultivo: {
         perfilVisual: "bifrenaria",
-        destaque: "Cesto de madeira",
+        destaque: "Cachepô de Madeira",
         resumo: "Bifrenaria brasileira de hábito epífito e rupícola, favorecida por cultivo muito drenante, raízes intensamente ventiladas e secagem rápida após as regas.",
         metodos: [
-            { nome: "Cesto de madeira", asset: "bifrenaria-harrisoniae-cesto", estrelas: 5, status: "Ideal", texto: "É a combinação mais segura entre sustentação da touceira, drenagem rápida e ventilação intensa das raízes, especialmente em clima quente e úmido." },
-            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Boa estabilidade e troca gasosa, com secagem mais rápida da mistura e menor risco de umidade persistente junto aos pseudobulbos." },
+            { nome: "Cachepô de Madeira", asset: "bifrenaria-harrisoniae-cesto", estrelas: 5, status: "Ideal", texto: "É a combinação mais segura entre sustentação da touceira, drenagem rápida e ventilação intensa das raízes, especialmente em clima quente e úmido." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Boa estabilidade e troca gasosa, com secagem mais rápida da mistura e menor risco de umidade persistente junto aos pseudobulbos." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "As aberturas laterais favorecem forte circulação de ar e drenagem; exige acompanhamento da secagem no período quente." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Muito recomendado", texto: "Compatível com o hábito epífito e proporciona excelente oxigenação, mas requer regas mais frequentes porque praticamente não existe reserva hídrica." }
         ]

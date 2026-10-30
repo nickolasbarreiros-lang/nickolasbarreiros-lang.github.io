@@ -42,7 +42,7 @@ export const aciantheraGlumacea = {
         metodos: [
             { nome: "Placa / tronco", asset: "acianthera-glumacea-placa", estrelas: 5, status: "Ideal", texto: "É a opção preferencial por reproduzir diretamente o hábito epífito da espécie. Use placa, cortiça, casca rugosa ou pequeno tronco, com boa ventilação e pequena reserva de umidade junto às raízes." },
             { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Excelente alternativa em jardim sombreado, úmido e ventilado, especialmente em casca rugosa que permita boa fixação das raízes." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Muito adequado para touceiras maiores: oferece ótima ventilação, boa drenagem e espaço para crescimento sem manter a base abafada." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Muito adequado para touceiras maiores: oferece ótima ventilação, boa drenagem e espaço para crescimento sem manter a base abafada." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Viável quando pequeno e muito perfurado, usando mistura estruturalmente aberta e mantendo o rizoma sobre a superfície." },
         ]
     },

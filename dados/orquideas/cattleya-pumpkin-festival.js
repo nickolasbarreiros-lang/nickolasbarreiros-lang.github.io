@@ -39,11 +39,11 @@ export const cattleyaPumpkinFestival = {
     dica: "A intensidade da coloração laranja e o tamanho das flores dependem diretamente da luminosidade recebida durante a formação dos pseudobulbos. Cultive em vaso relativamente justo, com excelente ventilação e alta luminosidade, evitando apenas queimaduras causadas pelo sol forte do meio-dia.",
     formasCultivo: {
         perfilVisual: "cattleya",
-        destaque: "Vaso de barro",
+        destaque: "Vaso de Barro",
         resumo: "Como híbrido da aliança Cattleya, prefere recipiente proporcional, substrato grosso e aerado e um ciclo claro de molhar bem e aproximar-se da secagem antes da próxima rega.",
         metodos: [
-            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 5, status: "Ideal", texto: "A terracota porosa favorece aeração, evaporação e raízes mais frescas. É uma escolha muito equilibrada para clima quente quando o substrato é grosso e drenante." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação e drenagem para raízes grossas. Em períodos quentes e secos, exige regas mais frequentes que um vaso convencional." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Ideal", texto: "A terracota porosa favorece aeração, evaporação e raízes mais frescas. É uma escolha muito equilibrada para clima quente quando o substrato é grosso e drenante." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação e drenagem para raízes grossas. Em períodos quentes e secos, exige regas mais frequentes que um vaso convencional." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Funciona bem em ambientes úmidos ou com mistura de maior retenção. A grande quantidade de aberturas acelera a secagem e exige ajuste da rega." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 2, status: "Pouco recomendado", texto: "É possível, mas uma Cattleya híbrida vigorosa tende a exigir suporte grande e regas frequentes. Para manejo doméstico, vasos e cestos costumam ser mais práticos." }
         ]

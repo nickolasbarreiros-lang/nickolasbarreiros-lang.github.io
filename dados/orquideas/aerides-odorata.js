@@ -42,12 +42,12 @@ export const aeridesOdorata = {
     ],
     formasCultivo: {
         perfilVisual: "aerides",
-        destaque: "Suspensa, raízes livres",
+        destaque: "Raízes Soltas",
         resumo: "Como vandácea epífita de raízes grossas e aéreas, Aerides odorata responde melhor quando as raízes ficam muito livres, recebem água abundante e secam rapidamente com forte circulação de ar.",
         metodos: [
-            { nome: "Suspensa, raízes livres", asset: "aerides-odorata-cultivo-ideal", estrelas: 5, status: "Ideal", texto: "É a condição mais próxima da lógica de cultivo das vandáceas: raízes totalmente arejadas, livres para crescer e secar rapidamente após regas generosas." },
-            { nome: "Árvore viva / tronco", asset: "arvore-viva", estrelas: 5, status: "Ideal", texto: "Excelente em clima quente e úmido quando a planta é firmemente presa ao tronco e as raízes podem aderir à casca e permanecer expostas ao ar." },
-            { nome: "Cesto extremamente vazado", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para sustentar a planta sem confinar as raízes; use pouco ou nenhum substrato e permita que as raízes atravessem livremente as aberturas." },
+            { nome: "Raízes Soltas", asset: "aerides-odorata-cultivo-ideal", estrelas: 5, status: "Ideal", texto: "É a condição mais próxima da lógica de cultivo das vandáceas: raízes totalmente arejadas, livres para crescer e secar rapidamente após regas generosas." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 5, status: "Ideal", texto: "Excelente em clima quente e úmido quando a planta é firmemente presa ao tronco e as raízes podem aderir à casca e permanecer expostas ao ar." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para sustentar a planta sem confinar as raízes; use pouco ou nenhum substrato e permita que as raízes atravessem livremente as aberturas." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode funcionar quando o recipiente tem muitas aberturas laterais e inferiores e recebe apenas material muito grosso em pequeno volume, sem comprimir as raízes." },
         ]
     },

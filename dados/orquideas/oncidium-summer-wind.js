@@ -23,8 +23,8 @@ export const oncidiumSummerWind = {
         metodos:[
             {nome:"Vaso plástico",asset:"oncidium-summer-wind-vaso-plastico",estrelas:5,status:"Ideal",texto:"Recomendação brasileira específica: dá estabilidade à touceira e às hastes, desde que a drenagem seja muito eficiente."},
             {nome:"Placa / tronco",asset:"placa-tronco",estrelas:4,status:"Muito recomendado",texto:"Cultivador brasileiro considera uma ótima opção para Oncidium, mas Summer Wind exige placa grande e regas mais frequentes."},
-            {nome:"Vaso de barro",asset:"vaso-barro",estrelas:4,status:"Muito recomendado",texto:"Ajuda a acelerar a secagem no litoral úmido e oferece bom peso para a planta adulta."},
-            {nome:"Cesto de madeira",asset:"cesto-madeira",estrelas:4,status:"Muito recomendado",texto:"Mantém aeração excelente e acomoda a touceira, exigindo atenção maior à frequência de rega."}
+            {nome:"Vaso de Barro",asset:"vaso-barro",estrelas:4,status:"Muito recomendado",texto:"Ajuda a acelerar a secagem no litoral úmido e oferece bom peso para a planta adulta."},
+            {nome:"Cachepô de Madeira",asset:"cesto-madeira",estrelas:4,status:"Muito recomendado",texto:"Mantém aeração excelente e acomoda a touceira, exigindo atenção maior à frequência de rega."}
         ]
     },
     substrato:["Pinus médio + carvão em partes iguais — receita brasileira publicada para Summer Wind.", "Macadâmia + pinus + carvão — versão mais estrutural e durável.", "Macadâmia + CAC + carvão — alternativa de secagem rápida para ambiente muito úmido.", "Chips de coco bem lavados + carvão + brita, opção compatível com prática comercial brasileira quando o coco é de boa procedência."],

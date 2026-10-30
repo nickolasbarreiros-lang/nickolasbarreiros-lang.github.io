@@ -212,11 +212,11 @@ export const prosthecheaFragrans = {
   ],
   "formasCultivo": {
     "perfilVisual": "epifita-ventilada",
-    "destaque": "Vaso de barro",
+    "destaque": "Vaso de Barro",
     "resumo": "Espécie de pseudobulbos e flores frequentemente aromáticas: um vaso arejado permite manter umidade moderada enquanto raízes e novos crescimentos estão ativos. O nome comercial exige cautela de identificação porque há confusão histórica com espécies próximas, especialmente P. aemula.",
     "metodos": [
       {
-        "nome": "Vaso de barro",
+        "nome": "Vaso de Barro",
         "asset": "prosthechea-fragrans-cultivo-ideal",
         "estrelas": 5,
         "status": "Ideal",
@@ -230,7 +230,7 @@ export const prosthecheaFragrans = {
         "texto": "Placa de madeira favorece aeração e observação das raízes, mas exige rega mais frequente durante o crescimento. É adequada apenas quando a umidade ambiente permite manter raízes ativas sem secagem prolongada."
       },
       {
-        "nome": "Cesto de madeira",
+        "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 4,
         "status": "Recomendado",

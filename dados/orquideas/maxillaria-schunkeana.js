@@ -39,12 +39,12 @@ export const maxillariaSchunkeana = {
     "dica": "Cultive sob 70% a 80% de sombreamento, mas com claridade difusa e ar em movimento. A base da touceira deve permanecer visível: flores e botões são muito escuros e podem passar despercebidos, apodrecendo sob bainhas deterioradas ou substrato acumulado. Retire apenas material solto, nunca arranque bainhas firmes à força. Use vaso pequeno, mistura arejada e rega matinal. A combinação de sombra protegida, raízes frescas, base limpa e ventilação constante é muito mais importante do que tentar estimular a florada com seca.",
     formasCultivo: {
         perfilVisual: "maxillaria",
-        destaque: "Vaso de barro perfurado",
+        destaque: "Vaso de Barro",
         resumo: "É uma Maxillaria pequena de floresta úmida e sombreada; o melhor cultivo combina umidade regular, raiz fresca, boa aeração e proteção total do sol forte.",
         metodos: [
-            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 5, status: "Ideal", texto: "Ajuda a manter a zona radicular fresca e permite secagem uniforme sem deixar a pequena touceira desidratar rapidamente." },
+            { nome: "Vaso de Barro", asset: "vaso-barro-perfurado", estrelas: 5, status: "Ideal", texto: "Ajuda a manter a zona radicular fresca e permite secagem uniforme sem deixar a pequena touceira desidratar rapidamente." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Funciona bem em locais de secagem mais rápida, desde que o vaso seja pequeno e a mistura permaneça aberta." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 3, status: "Adequado", texto: "É útil em ambientes muito úmidos, mas exige atenção porque pode secar rápido demais para esta espécie." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 3, status: "Adequado", texto: "É útil em ambientes muito úmidos, mas exige atenção porque pode secar rápido demais para esta espécie." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Pode funcionar com alta umidade ambiental e regas consistentes; em clima seco, a oscilação hídrica aumenta bastante." }
         ]
     },

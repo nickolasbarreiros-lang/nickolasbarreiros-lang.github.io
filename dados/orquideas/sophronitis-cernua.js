@@ -42,8 +42,8 @@ export const sophronitisCernua = {
         resumo: "Cattleya cernua é uma miniatura de alta luminosidade e raízes muito aeradas; suporta calor melhor que outras antigas Sophronitis, desde que seque rapidamente após a rega.",
         metodos: [
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Combina muito bem com o porte miniatura e o hábito epífito, mantendo as raízes expostas ao ar e permitindo regas frequentes com secagem rápida." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa opção para touceiras estabelecidas, com alta ventilação e drenagem. Exige atenção à frequência de rega em períodos quentes e secos." },
-            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "A porosidade da terracota favorece evaporação e resfriamento das raízes. Use recipiente pequeno e mistura grossa, sem compactação." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa opção para touceiras estabelecidas, com alta ventilação e drenagem. Exige atenção à frequência de rega em períodos quentes e secos." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "A porosidade da terracota favorece evaporação e resfriamento das raízes. Use recipiente pequeno e mistura grossa, sem compactação." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Alternativa prática quando se deseja muita aeração. Como seca rapidamente, ajuste a rega para evitar desidratação prolongada das raízes finas." }
         ]
     },

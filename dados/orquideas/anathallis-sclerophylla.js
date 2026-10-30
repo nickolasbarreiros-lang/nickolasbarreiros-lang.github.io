@@ -63,9 +63,9 @@ export const anathallisSclerophylla = {
         resumo: "Espécie epífita de floresta tropical úmida, atualmente tratada por Kew como Stelis sclerophylla; prefere umidade frequente e raízes permanentemente oxigenadas.",
         metodos: [
             { nome: "Placa / tronco", asset: "anathallis-sclerophylla-placa", estrelas: 5, status: "Ideal", texto: "É a opção preferencial por reproduzir diretamente o hábito epífito da espécie. Mantém as raízes muito arejadas e permite crescimento em touceira, desde que haja umidade frequente e não ocorra ressecamento prolongado." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação e espaço para a touceira e para as inflorescências, mantendo pequena reserva de umidade junto às raízes." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação e espaço para a touceira e para as inflorescências, mantendo pequena reserva de umidade junto às raízes." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa prática com mistura leve e muito aerada. As aberturas laterais favorecem oxigenação e reduzem o risco de compactação." },
-            { nome: "Vaso plástico", asset: "vaso-plastico-comum", estrelas: 3, status: "Adequado", texto: "Pode ser usado em recipiente pequeno, com drenagem eficiente e substrato aberto, exigindo maior controle da umidade para preservar a aeração das raízes." }
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 3, status: "Adequado", texto: "Pode ser usado em recipiente pequeno, com drenagem eficiente e substrato aberto, exigindo maior controle da umidade para preservar a aeração das raízes." }
         ]
     },
     substrato: [

@@ -78,7 +78,7 @@ export const bibliotecaCultivoV4 = {
         imagem: "imagens/cultivo-v4/tronco-v3.webp"
     },
     "cesto-madeira": {
-        nome: "Cesto de madeira",
+        nome: "Cachepô de Madeira",
         imagem: "imagens/cultivo-v4/cesto-madeira-v3.webp"
     },
     "cesto-plastico": {

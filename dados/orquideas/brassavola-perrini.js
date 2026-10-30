@@ -42,8 +42,8 @@ export const brassavolaPerrini = {
         resumo: "Epífita de raízes expostas que aprecia muita luz, ventilação constante e ciclos de hidratação seguidos de secagem.",
         metodos: [
             { nome: "Placa / tronco", asset: "brassavola-perrini-placa", estrelas: 5, status: "Ideal", texto: "Permite fixação natural das raízes e secagem rápida, com regas frequentes nos períodos quentes e ventilados." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece espaço e ventilação para raízes pendentes; utilizar preenchimento grosso e pouco retentivo." },
-            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Recipiente pequeno e bem drenado, adequado quando a frequência de rega em placa é inviável." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece espaço e ventilação para raízes pendentes; utilizar preenchimento grosso e pouco retentivo." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Recipiente pequeno e bem drenado, adequado quando a frequência de rega em placa é inviável." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Funciona com mistura grossa e ventilação lateral; monitorar secagem e evitar excesso de volume." }
         ]
     },

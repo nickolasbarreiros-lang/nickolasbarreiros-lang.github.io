@@ -42,9 +42,9 @@ export const mediocalcarDecoratum = {
         resumo: "O crescimento em tapete e as raízes pequenas favorecem montagem úmida e muito ventilada ou recipientes rasos com mistura leve que nunca fique completamente seca.",
         metodos: [
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Acompanha o crescimento em tapete e permite muita troca de ar; use uma fina camada de esfagno para evitar desidratação rápida." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Excelente em ambiente úmido e fresco, permitindo expansão lateral e ventilação constante." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Excelente em ambiente úmido e fresco, permitindo expansão lateral e ventilação constante." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Use modelo raso e pequeno, com mistura leve e controle para não secar totalmente." },
-            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 3, status: "Adequado", texto: "Pode funcionar em clima úmido, mas a evaporação intensa exige regas mais frequentes para esta micro-orquídea." }
+            { nome: "Vaso de Barro", asset: "vaso-barro-perfurado", estrelas: 3, status: "Adequado", texto: "Pode funcionar em clima úmido, mas a evaporação intensa exige regas mais frequentes para esta micro-orquídea." }
         ]
     },
     substrato: [

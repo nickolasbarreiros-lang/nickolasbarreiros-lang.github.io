@@ -40,18 +40,18 @@ export const bulbophyllumFalcatum = {
     suporte: "🥇 Cesto raso e amplo, deixando a raque floral totalmente livre.\n🥈 Vaso baixo e largo, muito perfurado.\n🥉 Placa de cortiça ou madeira com reserva mínima de umidade.\nO recipiente deve permitir avanço do rizoma e projeção lateral da inflorescência.",
     formasCultivo: {
         "perfilVisual": "bulbophyllum",
-        "destaque": "Cesto raso amplo",
+        "destaque": "Cachepô de Madeira",
         "resumo": "Cesto amplo e suspenso para que a raque floral possa projetar-se livremente. A planta deve ficar firme, mas com rizoma visível e espaço lateral para os novos pseudobulbos.",
         "metodos": [
             {
-                "nome": "Cesto raso amplo",
+                "nome": "Cachepô de Madeira",
                 "asset": "cesto-madeira",
                 "estrelas": 5,
                 "status": "Ideal",
                 "texto": "Mantém a raque livre e permite expansão do rizoma sem compactar as raízes."
             },
             {
-                "nome": "Vaso baixo muito perfurado",
+                "nome": "Vaso plástico vasado",
                 "asset": "vaso-plastico-vasado",
                 "estrelas": 4,
                 "status": "Muito recomendado",
@@ -65,7 +65,7 @@ export const bulbophyllumFalcatum = {
                 "texto": "Reproduz o hábito epífito; demanda atenção à desidratação."
             },
             {
-                "nome": "Vaso de barro raso",
+                "nome": "Vaso de Barro",
                 "asset": "vaso-barro",
                 "estrelas": 3,
                 "status": "Alternativa",

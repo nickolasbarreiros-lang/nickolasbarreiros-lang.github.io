@@ -44,8 +44,8 @@ export const dendrobiumLoddigesii = {
         resumo: "O hábito pendente e a necessidade de repouso mais seco favorecem suportes muito ventilados que permitam secagem rápida e livre queda das hastes.",
         metodos: [
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Mantém raízes aeradas e deixa as hastes pendentes, facilitando a redução de água durante o repouso." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 5, status: "Ideal", texto: "Excelente para touceiras maiores e para preservar hastes antigas, que podem reflorir por vários anos." },
-            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 3, status: "Adequado", texto: "Use pequeno e suspenso, com mistura grossa e pouquíssima retenção para respeitar o repouso." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Ideal", texto: "Excelente para touceiras maiores e para preservar hastes antigas, que podem reflorir por vários anos." },
+            { nome: "Vaso de Barro", asset: "vaso-barro-perfurado", estrelas: 3, status: "Adequado", texto: "Use pequeno e suspenso, com mistura grossa e pouquíssima retenção para respeitar o repouso." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 2, status: "Pouco recomendado", texto: "Só é seguro com muita furação e mistura extremamente drenante; o risco é manter umidade excessiva no inverno." }
         ]
     },

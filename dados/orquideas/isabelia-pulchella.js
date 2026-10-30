@@ -227,14 +227,14 @@ export const isabeliaPulchella = {
         "texto": "Placa pequena de madeira ou casca rugosa com rizoma inteiramente exposto. Uma lâmina muito fina de esfagno junto às raízes ajuda na transição de plantas recém-fixadas; retirar excesso que permaneça molhado por dias. Evitar deslocar a planta antes de as raízes aderirem."
       },
       {
-        "nome": "Cesto de madeira",
+        "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 4,
         "status": "Muito recomendado",
         "texto": "Cesto de madeira diminuto, com mistura muito aberta, oferece espaço para a expansão lateral do rizoma e reduz abafamento. É indicado quando há regas frequentes e ventilação estável; exige inspeção para não deixar o centro secar completamente."
       },
       {
-        "nome": "Vaso de barro",
+        "nome": "Vaso de Barro",
         "asset": "vaso-barro",
         "estrelas": 4,
         "status": "Recomendado",

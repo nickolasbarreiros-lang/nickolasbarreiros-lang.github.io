@@ -37,13 +37,13 @@ export const bifrenariaAureofulva = {
     suporte: "🥇 Vaso de barro pequeno a médio e bem drenado.\n🥈 Cachepô de madeira muito ventilado.\n🥉 Placa de madeira ou tronco em ambientes com alta umidade relativa e regas frequentes.",
     formasCultivo: {
         perfilVisual: "bifrenaria",
-        destaque: "Vaso de barro",
+        destaque: "Vaso de Barro",
         resumo: "Espécie pseudobulbosa brasileira, epífita e também registrada como rupícola; responde melhor a cultivo firme, muito drenante e arejado, sem permanecer encharcada junto à base dos pseudobulbos.",
         metodos: [
-            { nome: "Vaso de barro", asset: "bifrenaria-aureofulva-vaso-barro", estrelas: 5, status: "Ideal", texto: "Combina estabilidade para a touceira com maior troca gasosa e secagem mais segura da mistura, reduzindo o risco de umidade persistente junto aos pseudobulbos." },
+            { nome: "Vaso de Barro", asset: "bifrenaria-aureofulva-vaso-barro", estrelas: 5, status: "Ideal", texto: "Combina estabilidade para a touceira com maior troca gasosa e secagem mais segura da mistura, reduzindo o risco de umidade persistente junto aos pseudobulbos." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação lateral e drenagem; exige atenção para não secar rápido demais durante o crescimento ativo." },
             { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 4, status: "Muito recomendado", texto: "Funciona bem com vaso proporcional à touceira e mistura estrutural muito drenante, controlando a frequência de rega por reter umidade por mais tempo." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 3, status: "Adequado", texto: "Mantém alta aeração e drenagem, mas acelera bastante a secagem e aumenta a necessidade de regas no período quente." }
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 3, status: "Adequado", texto: "Mantém alta aeração e drenagem, mas acelera bastante a secagem e aumenta a necessidade de regas no período quente." }
         ]
     },
     substrato: [

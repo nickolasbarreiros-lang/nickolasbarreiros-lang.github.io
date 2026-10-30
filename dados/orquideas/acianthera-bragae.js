@@ -42,7 +42,7 @@ export const aciantheraBragae = {
         metodos: [
             { nome: "Placa / tronco", asset: "acianthera-bragae-placa", estrelas: 5, status: "Ideal", texto: "É a forma mais coerente com o crescimento rastejante. Produtores brasileiros comercializam a espécie fixada em ripas de madeira, favorecendo aeração e expansão do rizoma." },
             { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Boa escolha em ambiente sombreado, úmido e ventilado, desde que a casca ofereça aderência e a planta não fique sujeita a sol forte." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Permite que a planta se espalhe pelas bordas sem sufocar o rizoma e mantém excelente circulação de ar." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Permite que a planta se espalhe pelas bordas sem sufocar o rizoma e mantém excelente circulação de ar." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode ser usada em recipiente pequeno e raso, com mistura leve e bem drenada. Evite vasos profundos e compactação." },
         ]
     },

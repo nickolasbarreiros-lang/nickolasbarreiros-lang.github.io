@@ -51,21 +51,21 @@ export const bulbophyllumAmbrosia = {
                 "texto": "Acompanha o crescimento horizontal e evita acúmulo de água na base dos pseudobulbos."
             },
             {
-                "nome": "Cesto raso",
+                "nome": "Cachepô de Madeira",
                 "asset": "cesto-madeira",
                 "estrelas": 4,
                 "status": "Muito recomendado",
                 "texto": "Permite expansão e secagem lateral, com substrato apenas no centro."
             },
             {
-                "nome": "Vaso plástico baixo",
+                "nome": "Vaso plástico vasado",
                 "asset": "vaso-plastico-vasado",
                 "estrelas": 4,
                 "status": "Muito recomendado",
                 "texto": "Facilita manter umidade estável, desde que o rizoma fique sobre a superfície."
             },
             {
-                "nome": "Vaso de barro baixo",
+                "nome": "Vaso de Barro",
                 "asset": "vaso-barro",
                 "estrelas": 3,
                 "status": "Alternativa",

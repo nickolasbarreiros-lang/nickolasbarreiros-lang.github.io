@@ -39,18 +39,18 @@ export const bulbophyllumElassonotum = {
     suporte: "🥇 Cesto raso e largo, muito perfurado.\n🥈 Placa de cortiça ou madeira com fina camada de esfagno.\n🥉 Vaso baixo e amplo, com espaço para expansão horizontal.\nDeixe a inflorescência com área livre para arquear e pender.",
     formasCultivo: {
         "perfilVisual": "bulbophyllum",
-        "destaque": "Cesto raso e largo",
+        "destaque": "Cachepô de Madeira",
         "resumo": "O cesto raso oferece espaço para o rizoma se espalhar e deixa livres as inflorescências arqueadas ou pendentes. Uma mistura solta evita que o centro fique saturado em períodos úmidos.",
         "metodos": [
             {
-                "nome": "Cesto raso e largo",
+                "nome": "Cachepô de Madeira",
                 "asset": "cesto-madeira",
                 "estrelas": 5,
                 "status": "Ideal",
                 "texto": "Oferece espaço lateral para novos pseudobulbos e saída livre às hastes pendentes."
             },
             {
-                "nome": "Vaso baixo perfurado",
+                "nome": "Vaso plástico vasado",
                 "asset": "vaso-plastico-vasado",
                 "estrelas": 4,
                 "status": "Muito recomendado",
@@ -64,7 +64,7 @@ export const bulbophyllumElassonotum = {
                 "texto": "Excelente aeração, mas requer regas mais próximas em clima quente."
             },
             {
-                "nome": "Vaso de barro baixo",
+                "nome": "Vaso de Barro",
                 "asset": "vaso-barro",
                 "estrelas": 3,
                 "status": "Alternativa",

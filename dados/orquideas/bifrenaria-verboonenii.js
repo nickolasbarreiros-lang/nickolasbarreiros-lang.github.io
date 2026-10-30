@@ -43,12 +43,12 @@ export const bifrenariaVerboonenii = {
     dica: "🏆 Esqueça tentar imitar fendas de rocha e foque no frescor das raízes. Use vasos de barro ou cachepôs altamente ventilados com um substrato bem grosso e de drenagem imediata (casca de pinus, brita e carvão). Posicione a planta no local mais fresco e arejado do cultivo, mantendo regas fartas na fase de crescimento, espaçando no inverno e replantando estritamente quando surgirem as primeiras pontas de novas raízes.",
     formasCultivo: {
         perfilVisual: "bifrenaria",
-        destaque: "Vaso de barro",
+        destaque: "Vaso de Barro",
         resumo: "O vaso de barro oferece o melhor equilíbrio entre estabilidade, evaporação e aeração para esta Bifrenaria de forte afinidade rupícola.",
         metodos: [
-            { nome: "Vaso de barro", asset: "bifrenaria-verboonenii-vaso-barro", estrelas: 5, status: "Ideal", texto: "Favorece secagem rápida e ajuda a manter as raízes mais frescas e oxigenadas, sem a oscilação extrema de uma montagem nua." },
+            { nome: "Vaso de Barro", asset: "bifrenaria-verboonenii-vaso-barro", estrelas: 5, status: "Ideal", texto: "Favorece secagem rápida e ajuda a manter as raízes mais frescas e oxigenadas, sem a oscilação extrema de uma montagem nua." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Funciona muito bem com mistura mineral e estrutural bastante aberta, desde que não permaneça úmida por longos períodos." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação e drenagem, especialmente em locais úmidos e bem ventilados." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação e drenagem, especialmente em locais úmidos e bem ventilados." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Biologicamente possível, mas exige regas mais frequentes e controle maior da desidratação durante o crescimento ativo." }
         ]
     },

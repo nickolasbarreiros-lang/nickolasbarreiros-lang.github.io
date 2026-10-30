@@ -223,14 +223,14 @@ export const stelisCiliaris = {
         "texto": "Placa de madeira pequena, protegida do vento seco, com fina faixa de esfagno apenas sob raízes ativas. É a forma mais arejada, mas precisa de monitoramento frequente da umidade: a planta não deve passar longos períodos completamente seca."
       },
       {
-        "nome": "Vaso de barro",
+        "nome": "Vaso de Barro",
         "asset": "vaso-barro",
         "estrelas": 4,
         "status": "Muito recomendado",
         "texto": "Vaso de barro pequeno com casca fina e porosa e uma fração controlada de esfagno. Favorece estabilidade hídrica, mas a evaporação lateral pode acelerar demais a secagem; não compactar a mistura ao redor da base."
       },
       {
-        "nome": "Cesto de madeira",
+        "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 4,
         "status": "Recomendado",

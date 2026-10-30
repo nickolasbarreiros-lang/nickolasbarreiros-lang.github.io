@@ -214,11 +214,11 @@ export const prosthecheaVespa = {
   ],
   "formasCultivo": {
     "perfilVisual": "epifita-ventilada",
-    "destaque": "Vaso de barro",
+    "destaque": "Vaso de Barro",
     "resumo": "O crescimento por pseudobulbos favorece cultivo em recipiente firme e arejado, com espaço para a próxima frente de crescimento. O melhor momento de reenvasar é o surgimento de raízes novas; mudanças quando a planta está sem raízes ativas aumentam risco de desidratação e atrasam a floração.",
     "metodos": [
       {
-        "nome": "Vaso de barro",
+        "nome": "Vaso de Barro",
         "asset": "prosthechea-vespa-cultivo-ideal",
         "estrelas": 5,
         "status": "Ideal",
@@ -232,7 +232,7 @@ export const prosthecheaVespa = {
         "texto": "Placa de madeira com amarração firme e raízes expostas é viável em ambiente muito úmido e com rega frequente. A espécie possui reserva nos pseudobulbos, mas brotos jovens ainda podem desidratar; não usar placa excessivamente pequena."
       },
       {
-        "nome": "Cesto de madeira",
+        "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 4,
         "status": "Recomendado",

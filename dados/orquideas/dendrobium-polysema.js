@@ -43,11 +43,11 @@ export const dendrobiumPolysema = {
     "dica": "Controle a temperatura foliar, não apenas a temperatura do ar. Sombreamento adequado e ventilação contínua devem manter as folhas amenas. Se a folha estiver quente ao toque, a planta já está sob estresse. Preserve todas as hastes antigas firmes.",
     formasCultivo: {
         perfilVisual: "dendrobium",
-        destaque: "Cesto de madeira",
+        destaque: "Cachepô de Madeira",
         resumo: "As raízes precisam de umidade regular, mas também de circulação constante de ar e temperaturas moderadas; o recipiente deve favorecer ventilação e evitar aquecimento.",
         metodos: [
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 5, status: "Ideal", texto: "Combina boa aeração com pequena reserva de umidade e permite acomodar o crescimento sem criar um núcleo encharcado." },
-            { nome: "Vaso de barro perfurado", asset: "vaso-barro-perfurado", estrelas: 4, status: "Muito recomendado", texto: "Favorece evaporação e ajuda a manter a zona radicular mais fresca em ambientes quentes." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Ideal", texto: "Combina boa aeração com pequena reserva de umidade e permite acomodar o crescimento sem criar um núcleo encharcado." },
+            { nome: "Vaso de Barro", asset: "vaso-barro-perfurado", estrelas: 4, status: "Muito recomendado", texto: "Favorece evaporação e ajuda a manter a zona radicular mais fresca em ambientes quentes." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Use apenas em local muito ventilado, com mistura aberta e controle rigoroso para não aquecer ou saturar as raízes." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Funciona em ambientes naturalmente úmidos e frescos; exige regas mais frequentes e é menos tolerante a períodos secos." }
         ]

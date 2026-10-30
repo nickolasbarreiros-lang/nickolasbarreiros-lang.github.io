@@ -50,16 +50,16 @@ export const masdevalliaInfracta = {
     "Mantém excelente ventilação e permite pequena reserva de esfagno entre as regas.",
     "Use vaso pequeno e muito perfurado com mistura aberta; evite recipiente grande e profundo."
 ],
-    formasCultivo: { perfilVisual: "micro-pleurothalidina", destaque: "Placa / ripinha de madeira", resumo: "Raízes finas de Pleurothallidinae pedem alta aeração, umidade regular e pouca compactação.", metodos: [
+    formasCultivo: { perfilVisual: "micro-pleurothalidina", destaque: "Placa / tronco", resumo: "Raízes finas de Pleurothallidinae pedem alta aeração, umidade regular e pouca compactação.", metodos: [
     {
-        "nome": "Placa / ripinha de madeira",
+        "nome": "Placa / tronco",
         "asset": "masdevallia-infracta-placa",
         "estrelas": 5,
         "status": "Ideal",
         "texto": "É coerente com o cultivo documentado pelo Orquidário Aparecida e oferece aeração alta, importante em clima quente."
     },
     {
-        "nome": "Cesto de madeira",
+        "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 4,
         "status": "Muito recomendado",

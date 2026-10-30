@@ -65,7 +65,7 @@ export const stelisCfAprica = {
         "texto": "Compatível com o hábito epífito e excelente em aeração, porém seca mais depressa e exige regas mais frequentes, sobretudo no litoral quente."
     },
     {
-        "nome": "Cesto de madeira",
+        "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 4,
         "status": "Muito recomendado",

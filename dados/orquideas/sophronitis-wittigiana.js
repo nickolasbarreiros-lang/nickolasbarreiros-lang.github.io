@@ -48,8 +48,8 @@ export const sophronitisWittigiana = {
         resumo: "O porte miniatura e as raízes epífitas pedem muita aeração, umidade frequente e secagem relativamente rápida, sobretudo no litoral quente.",
         metodos: [
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Melhor opção para manter as raízes frescas e oxigenadas. Use cortiça, madeira dura ou casca rugosa com apenas uma fina reserva de esfagno sob as raízes." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para touceiras maiores, mantendo alta ventilação e permitindo secagem uniforme após as regas." },
-            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "A terracota porosa favorece evaporação e ajuda a manter as raízes mais frescas. Use vaso pequeno, mistura muito aerada e não deixe o substrato permanecer saturado." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para touceiras maiores, mantendo alta ventilação e permitindo secagem uniforme após as regas." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "A terracota porosa favorece evaporação e ajuda a manter as raízes mais frescas. Use vaso pequeno, mistura muito aerada e não deixe o substrato permanecer saturado." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode ser usado em locais de secagem rápida, desde que seja pequeno, muito perfurado e receba mistura extremamente aerada." }
         ]
     },

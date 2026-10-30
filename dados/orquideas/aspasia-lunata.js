@@ -41,8 +41,8 @@ export const aspasiaLunata = {
         resumo: "Epífita pseudobulbosa de floresta tropical úmida. Em cultivo, responde bem à umidade regular combinada com substrato aberto e raízes bem oxigenadas.",
         metodos: [
             { nome: "Vaso plástico", asset: "aspasia-lunata-vaso-plastico", estrelas: 5, status: "Ideal", texto: "Mantém umidade mais regular ao redor das raízes sem exigir uma mistura pesada. Com substrato estrutural e arejado, oferece excelente equilíbrio entre hidratação e oxigenação." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação e espaço para expansão da touceira, mas exige maior atenção às regas por secar mais rapidamente." },
-            { nome: "Vaso de barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para ambientes úmidos, com maior troca de ar pelas paredes e secagem mais rápida que no vaso plástico." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação e espaço para expansão da touceira, mas exige maior atenção às regas por secar mais rapidamente." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para ambientes úmidos, com maior troca de ar pelas paredes e secagem mais rápida que no vaso plástico." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "É biologicamente compatível com o hábito epífito, porém exige regas mais frequentes e controle rigoroso para evitar ressecamento prolongado no clima quente." }
         ]
     },

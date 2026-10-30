@@ -229,14 +229,14 @@ export const dinemaPolybulbon = {
         "texto": "Placa de madeira mais larga que profunda, permitindo ao rizoma avançar horizontalmente. Fixar apenas segmentos antigos e deixar a frente de crescimento livre; uma pequena quantidade de esfagno solto junto às raízes ajuda na adaptação, sem cobrir os pseudobulbos."
       },
       {
-        "nome": "Cesto de madeira",
+        "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 4,
         "status": "Muito recomendado",
         "texto": "Cesto de madeira raso com mistura muito aberta permite que brotos se espalhem pelas bordas. Adequado para ambiente úmido e ventilado, mas as raízes superficiais exigem observação frequente de secagem."
       },
       {
-        "nome": "Vaso de barro",
+        "nome": "Vaso de Barro",
         "asset": "vaso-barro",
         "estrelas": 4,
         "status": "Recomendado",

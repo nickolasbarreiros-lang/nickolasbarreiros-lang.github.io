@@ -48,7 +48,7 @@ export const aciantheraPubescens = {
         metodos: [
             { nome: "Placa / tronco", asset: "acianthera-pubescens-placa", estrelas: 5, status: "Ideal", texto: "É a opção mais coerente com o hábito epífito e também é utilizada por produtores brasileiros. Use madeira de superfície rugosa e mantenha umidade regular, com secagem parcial entre as regas." },
             { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Funciona muito bem quando fixada em casca rugosa, em posição protegida do sol forte, com boa umidade ambiente e ventilação constante." },
-            { nome: "Cesto de madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para plantas maiores ou touceiras, mantendo elevada aeração e espaço para o crescimento do rizoma sem compactar as raízes." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para plantas maiores ou touceiras, mantendo elevada aeração e espaço para o crescimento do rizoma sem compactar as raízes." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode ser usado com mistura muito aberta e recipiente pequeno. No litoral quente, ajuda a conservar alguma umidade sem eliminar a ventilação das raízes finas." }
         ]
     },

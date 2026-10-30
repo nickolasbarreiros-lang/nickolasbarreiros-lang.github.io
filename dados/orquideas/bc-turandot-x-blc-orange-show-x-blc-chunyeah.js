@@ -36,25 +36,25 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     suporte: "Vaso de barro, vaso plástico com furos laterais ou cachepô de madeira, sempre em tamanho justo para o sistema radicular.",
     formasCultivo: {
         "perfilVisual": "cattleya",
-        "destaque": "Vaso de barro",
+        "destaque": "Vaso de Barro",
         "resumo": "Vaso de barro ajustado ao volume das raízes, com drenagem livre. O híbrido forma pseudobulbos robustos e precisa de alternância entre hidratação abundante e secagem perceptível para manter raízes ativas.",
         "metodos": [
             {
-                "nome": "Vaso de barro",
+                "nome": "Vaso de Barro",
                 "asset": "vaso-barro",
                 "estrelas": 5,
                 "status": "Ideal",
                 "texto": "Favorece a troca de ar pelas paredes e a secagem progressiva; ideal para raízes espessas e ambiente quente."
             },
             {
-                "nome": "Vaso plástico perfurado",
+                "nome": "Vaso plástico vasado",
                 "asset": "vaso-plastico-vasado",
                 "estrelas": 4,
                 "status": "Muito recomendado",
                 "texto": "Retém água por mais tempo, útil em locais secos, desde que haja muitos furos e mistura grosseira."
             },
             {
-                "nome": "Cesto de madeira",
+                "nome": "Cachepô de Madeira",
                 "asset": "cesto-madeira",
                 "estrelas": 4,
                 "status": "Muito recomendado",

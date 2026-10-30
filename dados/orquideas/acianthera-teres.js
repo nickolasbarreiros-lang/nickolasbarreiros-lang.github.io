@@ -225,14 +225,14 @@ export const aciantheraTeres = {
         "texto": "Montagem sobre madeira firme, com raízes presas superficialmente e sem envolver o rizoma em massa orgânica. É uma alternativa prática ao hábito rupícola porque permite secagem rápida, desde que a rega seja ajustada ao calor e ao vento. Evite placa pequena sob sol forte, que aquece mais que o ambiente."
       },
       {
-        "nome": "Vaso de barro",
+        "nome": "Vaso de Barro",
         "asset": "vaso-barro",
         "estrelas": 4,
         "status": "Muito recomendado",
         "texto": "Vaso de barro baixo com partículas minerais e orgânicas grossas: fornece lastro e estabilidade à touceira, com evaporação pelas paredes. Não pressione as raízes contra brita pontiaguda; observe o centro do vaso, que seca mais devagar que a borda."
       },
       {
-        "nome": "Cesto de madeira",
+        "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 4,
         "status": "Recomendado",
