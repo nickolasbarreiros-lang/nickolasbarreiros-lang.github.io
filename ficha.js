@@ -502,7 +502,7 @@ function criarFormasCultivoV4(config, perfilRadicular = []) {
                     const icone = nome.includes("vaso") && (nome.includes("vasado") || nome.includes("perfurado"))
                         ? `<img class="icone-img-cultivo-v421" src="imagens/ui/vaso-plastico-vasado.webp" alt="">`
                         : nome.includes("árvore") || nome.includes("arvore") ? "🌳"
-                        : nome.includes("cesto") ? `<img class="icone-img-cultivo-v421" src="imagens/ui/cesto-madeira-orquideas.webp" alt="">`
+                        : (metodo.asset === "cesto-madeira" || nome.includes("cesto") || nome.includes("cachepô") || nome.includes("cachepo")) ? `<img class="icone-img-cultivo-v421" src="imagens/ui/cesto-madeira-orquideas.webp" alt="">`
                         : nome.includes("barro") ? `<img class="icone-img-cultivo-v421" src="imagens/ui/vaso-barro-orquideas-v438.webp" alt="">`
                 : (nome === "vaso plástico" || nome === "vaso plástico comum") ? `<img class="icone-img-cultivo-v421" src="imagens/ui/vaso-plastico-comum-v453.webp" alt="">`
                         : nome.includes("vaso") ? "🪴"
