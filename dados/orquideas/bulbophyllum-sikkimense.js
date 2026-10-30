@@ -128,7 +128,7 @@ export const bulbophyllumSikkimense = {
         ],
         "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo."
     },
-    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + pequena fração de esfagno solto.\n🥈 Casca de macadâmia triturada média + pinus médio + perlita grossa + esfagno em baixa proporção.\n🥉 Cesto raso com esfagno de fibra longa bem solto + perlita grossa, sem compactar o rizoma.\n⭐ Alternativa: Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
+    substrato: "🥇 Vaso plástico vasado e raso: 35% pinus médio + 25% chips de coco + 25% perlita grossa + 15% esfagno solto; receita visual provisória, sem enterrar o rizoma.\n🥈 Casca de macadâmia triturada média + pinus médio + perlita grossa + esfagno em baixa proporção.\n🥉 Cesto raso com esfagno de fibra longa bem solto + perlita grossa, sem compactar o rizoma.\n⭐ Alternativa: Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
     errosComuns: "• Apresentar B. sikkimense como nome atualmente aceito.\n• Ignorar que Kew o inclui em B. roxburghii.\n• Tratar a planta como alpina por causa do nome Sikkim.\n• Impor repouso seco severo.\n• Manter sombra profunda.\n• Compactar o substrato.\n• Usar recipiente estreito.\n• Aplicar adubo concentrado.",
     dica: "🏆 Use o nome histórico como pista de procedência, não como instrução para cultivar no frio. Os dados de 300–500 m mostram uma planta de contrafortes quentes. No litoral, mantenha água regular, ar em movimento, recipiente raso e luz filtrada clara; a pequena diferença entre dia e noite já é mais coerente que qualquer tentativa de resfriamento artificial.",
     revisaoCientificaIAR: {
