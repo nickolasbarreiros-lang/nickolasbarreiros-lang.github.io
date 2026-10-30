@@ -1,1 +1,14 @@
-Restaurar a foto personalizada da Acianthera auriculata. Copie o arquivo para imagens/cultivo-v4/acianthera-auriculata-placa.webp no repositorio. Nao substitua nenhum JS ou index.js. Confirme que js/biblioteca-cultivo-v4.js possui a chave acianthera-auriculata-placa apontando para este caminho e que a ficha usa o mesmo asset. Se o navegador mantiver a foto antiga, atualize ignorando cache (Ctrl+F5).
+REGISTRO DE NOVO LAYOUT — ORQUIDÁRIO DIGITAL V4.9
+
+Este pacote NÃO modifica arquivos de fichas.
+Copie os dois arquivos para a raiz do repositório.
+
+- inventario_layouts_v4_9.json: registra a presença dos dois layouts por espécie.
+- verificar_marcacao_layouts.py: valida a integridade do registro e existência dos arquivos.
+
+Para executar: python verificar_marcacao_layouts.py
+
+IMPORTANTE: null significa NÃO VERIFICADO, e não ausência de layout.
+As 10 fichas antes chamadas parciais e as seis novas foram confirmadas visualmente pelo usuário.
+As 20 iniciais vieram de detecção estrutural anterior e ainda não passaram por conferência visual individual.
+O script NÃO valida renderização nem completude editorial; apenas a integridade da marcação.
