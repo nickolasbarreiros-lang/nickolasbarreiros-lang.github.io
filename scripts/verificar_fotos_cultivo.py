@@ -21,14 +21,14 @@ def biblioteca(texto):
 
 def asset_principal(texto):
     # Exige uma forma de cultivo explicitamente recomendada, não uma ocorrência incidental.
-    match = re.search(r'formasCultivo\s*:\s*\{', texto)
+    match = re.search(r'[\"\']?formasCultivo[\"\']?\s*:\s*\{', texto)
     if not match: return None
     trecho = texto[match.end():]
-    lista = re.search(r'metodos\s*:\s*\[', trecho)
+    lista = re.search(r'[\"\']?metodos[\"\']?\s*:\s*\[', trecho)
     if not lista: return None
     obj = re.search(r'\{[^{}]*\}', trecho[lista.end():], re.S)
     if not obj: return None
-    m = re.search(r'\basset\s*:\s*["\']([^"\']+)', obj.group())
+    m = re.search(r'[\"\']?asset[\"\']?\s*:\s*[\"\']([^\"\']+)', obj.group())
     return m.group(1) if m else None
 
 def main():

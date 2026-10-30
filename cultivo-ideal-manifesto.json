@@ -26,6 +26,10 @@
       "asset": "acianthera-sonderiana-placa",
       "arquivo": "imagens/cultivo-v4/especies/acianthera-sonderiana/placa-tronco.webp"
     },
+    "acianthera-teres": {
+      "asset": "acianthera-teres-cultivo-ideal",
+      "arquivo": "imagens/cultivo-v4/especies/acianthera-teres/cultivo-ideal.webp"
+    },
     "aerides-odorata": {
       "asset": "aerides-odorata-cultivo-ideal",
       "arquivo": "imagens/cultivo-v4/especies/aerides-odorata/cultivo-ideal.webp"
@@ -54,6 +58,18 @@
       "asset": "bifrenaria-verboonenii-vaso-barro",
       "arquivo": "imagens/cultivo-v4/especies/bifrenaria-verboonenii/vaso-barro.webp"
     },
+    "brassavola-perrini": {
+      "asset": "brassavola-perrini-placa",
+      "arquivo": "imagens/cultivo-v4/especies/brassavola-tuberculata/placa-tronco.webp"
+    },
+    "brassia-lawrenceana": {
+      "asset": "brassia-lawrenceana-cesto",
+      "arquivo": "imagens/cultivo-v4/especies/brassia-lawrenceana/cesto-madeira.webp"
+    },
+    "dinema-polybulbon": {
+      "asset": "dinema-polybulbon-cultivo-ideal",
+      "arquivo": "imagens/cultivo-v4/especies/dinema-polybulbon/cultivo-ideal.webp"
+    },
     "epidendrum-hokulea-super-red": {
       "asset": "epidendrum-hokulea-super-red-vaso-plastico",
       "arquivo": "imagens/cultivo-v4/especies/epidendrum-hokulea-super-red/vaso-plastico.webp"
@@ -61,6 +77,14 @@
     "gomesa-cornigera": {
       "asset": "gomesa-cornigera-placa",
       "arquivo": "imagens/cultivo-v4/gomesa-cornigera-placa.webp"
+    },
+    "isabelia-pulchella": {
+      "asset": "isabelia-pulchella-cultivo-ideal",
+      "arquivo": "imagens/cultivo-v4/especies/isabelia-pulchella/cultivo-ideal.webp"
+    },
+    "masdevallia-infracta": {
+      "asset": "masdevallia-infracta-placa",
+      "arquivo": "imagens/cultivo-v4/masdevallia-infracta-placa.webp"
     },
     "oncidium-summer-wind": {
       "asset": "oncidium-summer-wind-vaso-plastico",
@@ -74,37 +98,17 @@
       "asset": "pinalia-elata-vaso-vasado",
       "arquivo": "imagens/cultivo-v4/especies/pinalia-elata/vaso-vasado.webp"
     },
-    "brassavola-perrini": {
-      "asset": "brassavola-perrini-placa",
-      "arquivo": "imagens/cultivo-v4/especies/brassavola-tuberculata/placa-tronco.webp"
-    },
-    "brassia-lawrenceana": {
-      "asset": "brassia-lawrenceana-cesto",
-      "arquivo": "imagens/cultivo-v4/especies/brassia-lawrenceana/cesto-madeira.webp"
-    },
-    "acianthera-teres": {
-      "asset": "acianthera-teres-cultivo-ideal",
-      "arquivo": "imagens/cultivo-v4/especies/acianthera-teres/cultivo-ideal.webp"
-    },
-    "dinema-polybulbon": {
-      "asset": "dinema-polybulbon-cultivo-ideal",
-      "arquivo": "imagens/cultivo-v4/especies/dinema-polybulbon/cultivo-ideal.webp"
-    },
-    "isabelia-pulchella": {
-      "asset": "isabelia-pulchella-cultivo-ideal",
-      "arquivo": "imagens/cultivo-v4/especies/isabelia-pulchella/cultivo-ideal.webp"
-    },
-    "stelis-ciliaris": {
-      "asset": "stelis-ciliaris-cultivo-ideal",
-      "arquivo": "imagens/cultivo-v4/especies/stelis-ciliaris/cultivo-ideal.webp"
+    "prosthechea-fragrans": {
+      "asset": "prosthechea-fragrans-cultivo-ideal",
+      "arquivo": "imagens/cultivo-v4/especies/prosthechea-fragrans/cultivo-ideal.webp"
     },
     "prosthechea-vespa": {
       "asset": "prosthechea-vespa-cultivo-ideal",
       "arquivo": "imagens/cultivo-v4/especies/prosthechea-vespa/cultivo-ideal.webp"
     },
-    "prosthechea-fragrans": {
-      "asset": "prosthechea-fragrans-cultivo-ideal",
-      "arquivo": "imagens/cultivo-v4/especies/prosthechea-fragrans/cultivo-ideal.webp"
+    "stelis-ciliaris": {
+      "asset": "stelis-ciliaris-cultivo-ideal",
+      "arquivo": "imagens/cultivo-v4/especies/stelis-ciliaris/cultivo-ideal.webp"
     }
   }
 }
