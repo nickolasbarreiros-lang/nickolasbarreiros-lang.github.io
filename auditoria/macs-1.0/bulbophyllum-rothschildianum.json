@@ -1,0 +1,37 @@
+{
+  "metodologia": "MACS 1.0",
+  "especie": "Bulbophyllum rothschildianum",
+  "arquivo": "dados/orquideas/bulbophyllum-rothschildianum.js",
+  "status": "pesquisa_pendente",
+  "produtores_brasileiros": {
+    "consultados": 0,
+    "com_recomendacao_especifica": 0,
+    "registros": []
+  },
+  "fontes_botanicas": [],
+  "perfil_radicular_hidrico": {
+    "espessura_raizes": null,
+    "exposicao_natural": null,
+    "reserva_hidrica": null,
+    "necessidade_umidade": null,
+    "tolerancia_secagem": null,
+    "sensibilidade_saturacao": null,
+    "arquitetura_crescimento": null,
+    "condicoes_termicas": null
+  },
+  "avaliacao_montagens": {},
+  "substrato": {
+    "composicao": [],
+    "convergencias": [],
+    "divergencias": [],
+    "justificativa": null
+  },
+  "confianca": "nao_avaliada",
+  "pendencias": [
+    "Pesquisar no mínimo 25 produtores brasileiros e registrar evidências publicadas ou ausência delas",
+    "Confrontar com fontes botânicas especializadas",
+    "Avaliar raízes, rizoma e regime hídrico",
+    "Pontuar sete formas de cultivo",
+    "Justificar mistura de substrato e limites da evidência"
+  ]
+}
