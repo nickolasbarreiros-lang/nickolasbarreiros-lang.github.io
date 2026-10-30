@@ -2,13 +2,24 @@
   "metodologia": "MACS 1.0",
   "especie": "Bulbophyllum roxburghii",
   "arquivo": "dados/orquideas/bulbophyllum-sikkimense.js",
-  "status": "pesquisa_pendente",
+  "status": "pesquisa_em_andamento",
   "produtores_brasileiros": {
     "consultados": 0,
     "com_recomendacao_especifica": 0,
     "registros": []
   },
-  "fontes_botanicas": [],
+  "fontes_botanicas": [
+    {
+      "titulo": "Kew POWO — B. roxburghii",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:620048-1",
+      "tipo": "taxonomia"
+    },
+    {
+      "titulo": "Isle of Portland Orchids — B. roxburghii",
+      "url": "https://www.isleofportlandorchids.co.uk/orchid-information-pages/bulbophyllum-roxburghii",
+      "tipo": "espécie"
+    }
+  ],
   "perfil_radicular_hidrico": {
     "espessura_raizes": null,
     "exposicao_natural": null,
@@ -16,22 +27,52 @@
     "necessidade_umidade": null,
     "tolerancia_secagem": null,
     "sensibilidade_saturacao": null,
-    "arquitetura_crescimento": null,
+    "arquitetura_crescimento": "avaliacao preliminar: Raízes finas, Porte pequeno, Verão úmido, Inverno menos úmido, Boa aeração, Rizoma exposto",
     "condicoes_termicas": null
   },
-  "avaliacao_montagens": {},
+  "avaliacao_montagens": {
+    "avaliacao_preliminar": [
+      "vaso-plastico-vasado",
+      "cesto-madeira",
+      "placa-tronco",
+      "vaso-barro"
+    ],
+    "melhor_hipotese": "vaso-plastico-vasado",
+    "notas": "Pontuação MACS não atribuída: levantamento brasileiro incompleto"
+  },
   "substrato": {
-    "composicao": [],
+    "composicao": [
+      {
+        "asset": "casca-pinus",
+        "percentual": 30,
+        "funcao": "Permite raízes aderirem sem compactar."
+      },
+      {
+        "asset": "chips-coco",
+        "percentual": 30,
+        "funcao": "Amortece secagem durante crescimento."
+      },
+      {
+        "asset": "perlita",
+        "percentual": 25,
+        "funcao": "Mantém circulação de ar."
+      },
+      {
+        "asset": "esfagno",
+        "percentual": 15,
+        "funcao": "Pequena reserva, sem cobrir o rizoma."
+      }
+    ],
     "convergencias": [],
     "divergencias": [],
-    "justificativa": null
+    "justificativa": "Miniatura epífita de ambiente de monções: raízes pedem umidade durante crescimento e redução gradual no período menos ativo; vaso raso vasado permite controlar essa alternância. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem."
   },
-  "confianca": "nao_avaliada",
+  "confianca": "baixa_provisoria",
   "pendencias": [
-    "Pesquisar no mínimo 25 produtores brasileiros e registrar evidências publicadas ou ausência delas",
-    "Confrontar com fontes botânicas especializadas",
-    "Avaliar raízes, rizoma e regime hídrico",
-    "Pontuar sete formas de cultivo",
-    "Justificar mistura de substrato e limites da evidência"
-  ]
+    "Consultar e registrar 25 orquidários brasileiros distintos",
+    "Pontuar os sete métodos após evidências",
+    "Conferir morfologia radicular específica",
+    "Validar ou revisar receita com fontes e cultivo documentado"
+  ],
+  "observacao": "B. sikkimense é sinônimo de B. roxburghii conforme Kew; evitar secagem intensa no verão."
 }

@@ -32,7 +32,110 @@ export const bulbophyllumMiniatum = {
     adubacao: "🌿 Orgânica: Bokashi em porção pequena, de preferência em sachê e afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose recomendada a cada 10 a 15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: Osmocote somente em dose muito baixa em vasos/cestos; evite contato direto com raízes finas. Reduza quando os pseudobulbos amadurecerem e faça periodicamente regas abundantes apenas com água para lavar sais.",
     rega: "Mantenha umidade leve e relativamente constante durante o crescimento, sem permitir encharcamento permanente. Em montagem, pode exigir regas diárias no calor; em cesto ou vaso, regue novamente quando a camada superficial começar a perder umidade. Não imponha repouso seco completo.",
     suporte: "🥇 Cortiça ou galho rugoso com fina reserva de esfagno sob as raízes.\n🥈 Cesto raso e largo.\n🥉 Vaso tipo cuia muito perfurado.\nDeixe o rizoma livre e com espaço para avançar.",
-    substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n🥉 Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.\n⭐ Alternativa: Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.",
+    formasCultivo: {
+        "perfilVisual": "bulbophyllum",
+        "destaque": "Placa / tronco",
+        "resumo": "Montagem em placa facilita observar as raízes epífitas e permite saída livre das inflorescências; em clima quente, exige hidratação frequente e umidade ambiental.",
+        "metodos": [
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-tronco",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Montagem em placa facilita observar as raízes epífitas e permite saída livre das inflorescências; em clima quente, exige hidratação frequente e umidade ambiental."
+            },
+            {
+                "nome": "Cachepô de Madeira",
+                "asset": "cesto-madeira",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+            },
+            {
+                "nome": "Vaso plástico vasado",
+                "asset": "vaso-plastico-vasado",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+            },
+            {
+                "nome": "Vaso de Barro",
+                "asset": "vaso-barro",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+            }
+        ]
+    },
+    substratoVisual: {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita para cultivo em vaso ou recipiente",
+        "resumo": "Mistura técnica preliminar para recipiente; proporções dependem da granulometria e do regime de rega.",
+        "justificativa": "Montagem em placa facilita observar as raízes epífitas e permite saída livre das inflorescências; em clima quente, exige hidratação frequente e umidade ambiental. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem.",
+        "receitaTexto": "35% pinus médio + 30% chips de coco + 20% perlita grossa + 15% esfagno solto.",
+        "perfil": [
+            "Hábito epífito",
+            "Raízes finas",
+            "Base exposta",
+            "Umidade regular",
+            "Boa aeração",
+            "Floração pendente"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 3,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 4,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 3,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 2,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [
+            {
+                "asset": "casca-pinus",
+                "nome": "Pinus médio",
+                "proporcao": "35%",
+                "nota": "estrutura",
+                "finalidade": "Suporte ventilado para raízes."
+            },
+            {
+                "asset": "chips-coco",
+                "nome": "Chips de coco",
+                "proporcao": "30%",
+                "nota": "umidade",
+                "finalidade": "Evita secagem excessiva."
+            },
+            {
+                "asset": "perlita",
+                "nome": "Perlita grossa",
+                "proporcao": "20%",
+                "nota": "aeração",
+                "finalidade": "Preserva porosidade."
+            },
+            {
+                "asset": "esfagno",
+                "nome": "Esfagno solto",
+                "proporcao": "15%",
+                "nota": "reserva",
+                "finalidade": "Pequena reserva de água em vaso."
+            }
+        ],
+        "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo."
+    },
+    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + pequena fração de esfagno solto.\n🥈 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n🥉 Casca de macadâmia triturada média + pinus médio + perlita grossa + esfagno em baixa proporção.\n⭐ Alternativa: Cesto raso com esfagno de fibra longa bem solto + perlita grossa, sem compactar o rizoma.",
     errosComuns: "• Tratar Bulbophyllum miniatum como espécie atualmente aceita separada.\n• Enterrar o rizoma ou a base dos pseudobulbos.\n• Compactar esfagno.\n• Confundir alta umidade com substrato saturado.\n• Deixar a planta secar completamente por vários dias.\n• Cultivar em sombra profunda e abafada.\n• Aplicar adubo concentrado sobre raízes finas.\n• Forçar repouso seco para induzir floração.",
     dica: "🏆 O ponto central é separar umidade de encharcamento: mantenha raízes hidratadas, mas o rizoma exposto e aerado. Como a planta avança lateralmente, posicione a parte antiga junto à borda e deixe a frente de crescimento voltada para espaço livre. No litoral quente, 60% a 70% de sombra, ventilação contínua e rega frequente funcionam melhor que tentar produzir frio artificial.",
     revisaoCientificaIAR: {

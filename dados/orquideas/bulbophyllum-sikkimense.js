@@ -32,7 +32,110 @@ export const bulbophyllumSikkimense = {
     adubacao: "🌿 Orgânica: Bokashi em quantidade mínima e preferencialmente em sachê.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: Osmocote em dose baixa, afastado do rizoma; reduza depois da maturação dos pseudobulbos e lave o meio periodicamente com água limpa.",
     rega: "Irrigue regularmente durante brotação e enraizamento, sempre com drenagem rápida. Depois da maturação, reduza apenas moderadamente a frequência se o clima ficar mais fresco. Não imponha seca prolongada.",
     suporte: "🥇 Cesto/cachepô raso e largo.\n🥈 Vaso tipo cuia muito perfurado.\n🥉 Placa de cortiça ou madeira com pequena reserva de esfagno.\nDeixe espaço para o crescimento horizontal.",
-    substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.\n🥉 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n⭐ Alternativa: Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
+    formasCultivo: {
+        "perfilVisual": "bulbophyllum",
+        "destaque": "Vaso plástico vasado",
+        "resumo": "Miniatura epífita de ambiente de monções: raízes pedem umidade durante crescimento e redução gradual no período menos ativo; vaso raso vasado permite controlar essa alternância.",
+        "metodos": [
+            {
+                "nome": "Vaso plástico vasado",
+                "asset": "vaso-plastico-vasado",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Miniatura epífita de ambiente de monções: raízes pedem umidade durante crescimento e redução gradual no período menos ativo; vaso raso vasado permite controlar essa alternância."
+            },
+            {
+                "nome": "Cachepô de Madeira",
+                "asset": "cesto-madeira",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+            },
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-tronco",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Oferece raízes ventiladas, mas demanda irrigação mais frequente em calor persistente."
+            },
+            {
+                "nome": "Vaso de Barro",
+                "asset": "vaso-barro",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+            }
+        ]
+    },
+    substratoVisual: {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita para cultivo em vaso ou recipiente",
+        "resumo": "Mistura técnica preliminar para recipiente; proporções dependem da granulometria e do regime de rega.",
+        "justificativa": "Miniatura epífita de ambiente de monções: raízes pedem umidade durante crescimento e redução gradual no período menos ativo; vaso raso vasado permite controlar essa alternância. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem.",
+        "receitaTexto": "30% pinus médio + 30% chips de coco + 25% perlita grossa + 15% esfagno solto.",
+        "perfil": [
+            "Raízes finas",
+            "Porte pequeno",
+            "Verão úmido",
+            "Inverno menos úmido",
+            "Boa aeração",
+            "Rizoma exposto"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 3,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 4,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 3,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 2,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [
+            {
+                "asset": "casca-pinus",
+                "nome": "Pinus médio",
+                "proporcao": "30%",
+                "nota": "estrutura",
+                "finalidade": "Permite raízes aderirem sem compactar."
+            },
+            {
+                "asset": "chips-coco",
+                "nome": "Chips de coco",
+                "proporcao": "30%",
+                "nota": "umidade",
+                "finalidade": "Amortece secagem durante crescimento."
+            },
+            {
+                "asset": "perlita",
+                "nome": "Perlita grossa",
+                "proporcao": "25%",
+                "nota": "porosidade",
+                "finalidade": "Mantém circulação de ar."
+            },
+            {
+                "asset": "esfagno",
+                "nome": "Esfagno solto",
+                "proporcao": "15%",
+                "nota": "reserva",
+                "finalidade": "Pequena reserva, sem cobrir o rizoma."
+            }
+        ],
+        "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo."
+    },
+    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + pequena fração de esfagno solto.\n🥈 Casca de macadâmia triturada média + pinus médio + perlita grossa + esfagno em baixa proporção.\n🥉 Cesto raso com esfagno de fibra longa bem solto + perlita grossa, sem compactar o rizoma.\n⭐ Alternativa: Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
     errosComuns: "• Apresentar B. sikkimense como nome atualmente aceito.\n• Ignorar que Kew o inclui em B. roxburghii.\n• Tratar a planta como alpina por causa do nome Sikkim.\n• Impor repouso seco severo.\n• Manter sombra profunda.\n• Compactar o substrato.\n• Usar recipiente estreito.\n• Aplicar adubo concentrado.",
     dica: "🏆 Use o nome histórico como pista de procedência, não como instrução para cultivar no frio. Os dados de 300–500 m mostram uma planta de contrafortes quentes. No litoral, mantenha água regular, ar em movimento, recipiente raso e luz filtrada clara; a pequena diferença entre dia e noite já é mais coerente que qualquer tentativa de resfriamento artificial.",
     revisaoCientificaIAR: {

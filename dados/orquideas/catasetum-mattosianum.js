@@ -36,7 +36,110 @@ export const catasetumMattosianum = {
     adubacao: "🌿 Orgânica: Bokashi pode ser usado em pequena quantidade durante crescimento, somente depois de o novo sistema radicular estar funcional.\n💧 Foliar/mineral: NPK equilibrado ou levemente mais nitrogenado em 1/4 a 1/3 da dose, com maior frequência no crescimento vigoroso.\n🧪 Liberação lenta: Osmocote 14-14-14 pode ser utilizado em dose moderada quando as regas regulares já começaram. Suspenda fertilização quando as folhas amarelecerem e a dormência se instalar.",
     rega: "Divida o manejo em fases. Broto recém-surgido: mantenha o vaso predominantemente seco e evite encharcar. Quando várias raízes novas atingirem aproximadamente 5 a 8 cm, aumente a água gradualmente. Durante o crescimento explosivo e o engrossamento do pseudobulbo, regue abundantemente. Quando as folhas amarelecerem e caírem, reduza fortemente ou suspenda as regas regulares; hidrate apenas de forma mínima se os pseudobulbos entrarem em desidratação excessiva.",
     suporte: "🥇 O vaso plástico bem perfurado mas capaz de conservar a umidade necessária durante o verão, sendo também uma excelente opção para o cultivo em semi-hidroponia.\n🥈 Cachepô ou cesto de madeira para manejo com regas frequentes.\n🥉 Cesta plástica ou vaso tipo cuia, combinando ventilação e retenção moderada.",
-    substrato: "🥇 Chips de coco médios + pedra-pomes + casca de arroz carbonizada + carvão vegetal: boa reserva hídrica no crescimento e secagem eficiente no repouso.\n🥈 Esfagno de fibra longa solto + pedra-pomes + carvão, apenas em vaso pequeno e muito drenado no litoral quente.\n🥉 Pinus médio + chips de coco + pedra-pomes + casca de arroz carbonizada.\n⭐ Alternativa: Argila expandida + pedra-pomes + chips de coco, com fina camada superficial de esfagno somente na fase ativa.",
+    formasCultivo: {
+        "perfilVisual": "catasetum",
+        "destaque": "Vaso plástico vasado",
+        "resumo": "Vaso plástico vasado favorece raízes vigorosas e regas intensas no crescimento, mas permite manter o meio quase seco na dormência; iniciar regas fortes apenas com raízes novas desenvolvidas.",
+        "metodos": [
+            {
+                "nome": "Vaso plástico vasado",
+                "asset": "vaso-plastico-vasado",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Vaso plástico vasado favorece raízes vigorosas e regas intensas no crescimento, mas permite manter o meio quase seco na dormência; iniciar regas fortes apenas com raízes novas desenvolvidas."
+            },
+            {
+                "nome": "Cachepô de Madeira",
+                "asset": "cesto-madeira",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+            },
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-tronco",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Oferece raízes ventiladas, mas demanda irrigação mais frequente em calor persistente."
+            },
+            {
+                "nome": "Vaso de Barro",
+                "asset": "vaso-barro",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+            }
+        ]
+    },
+    substratoVisual: {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita para cultivo em vaso ou recipiente",
+        "resumo": "Mistura técnica preliminar para recipiente; proporções dependem da granulometria e do regime de rega.",
+        "justificativa": "Vaso plástico vasado favorece raízes vigorosas e regas intensas no crescimento, mas permite manter o meio quase seco na dormência; iniciar regas fortes apenas com raízes novas desenvolvidas. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem.",
+        "receitaTexto": "35% chips de coco + 30% pinus médio + 20% perlita grossa + 15% casca de arroz.",
+        "perfil": [
+            "Raízes vigorosas",
+            "Reserva nos bulbos",
+            "Ciclo sazonal",
+            "Crescimento úmido",
+            "Repouso seco",
+            "Boa drenagem"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 3,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 4,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 3,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 2,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [
+            {
+                "asset": "chips-coco",
+                "nome": "Chips de coco",
+                "proporcao": "35%",
+                "nota": "retenção",
+                "finalidade": "Reserva hídrica na fase ativa."
+            },
+            {
+                "asset": "casca-pinus",
+                "nome": "Pinus médio",
+                "proporcao": "30%",
+                "nota": "estrutura",
+                "finalidade": "Mantém circulação de ar."
+            },
+            {
+                "asset": "perlita",
+                "nome": "Perlita grossa",
+                "proporcao": "20%",
+                "nota": "drenagem",
+                "finalidade": "Ajuda a secar no repouso."
+            },
+            {
+                "asset": "casca-arroz-carbonizada",
+                "nome": "Casca de arroz",
+                "proporcao": "15%",
+                "nota": "porosidade",
+                "finalidade": "Evita compactação e facilita drenagem."
+            }
+        ],
+        "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo."
+    },
+    substrato: "🥇 Chips de coco médios + perlita grossa + casca de arroz carbonizada + carvão vegetal: boa reserva hídrica no crescimento e secagem eficiente no repouso.\n🥈 Esfagno de fibra longa solto + perlita grossa + carvão, apenas em vaso pequeno e muito drenado no litoral quente.\n🥉 Pinus médio + chips de coco + perlita grossa + casca de arroz carbonizada.\n⭐ Alternativa: Argila expandida + perlita grossa + chips de coco, com fina camada superficial de esfagno somente na fase ativa.",
     errosComuns: "• Encharcar o broto antes de as raízes novas estarem funcionais.\n• Replantar quando as raízes novas já estão longas e frágeis.\n• Economizar água durante o crescimento vigoroso.\n• Continuar regando normalmente após a queda das folhas.\n• Adubar durante dormência.\n• Remover pseudobulbos traseiros saudáveis, que funcionam como reserva.\n• Usar substrato velho e compacto.\n• Tentar forçar flores femininas com excesso de sol.",
     dica: "🏆Faça o replante no início da brotação, logo após a planta sair da dormência e antes que as novas raízes fiquem compridas. Após o replante, mantenha o vaso relativamente seco até que várias raízes atinjam de 5 a 8 cm de comprimento. Em seguida, aumente a rega para manter a umidade, porem sem encharcar o broto e adote uma adubação leve e frequente, e garanta boa iluminação e ventilação. Com a queda das folhas, suspenda a adubação e deixe o vaso predominantemente seco. Lembre-se de preservar os pseudobulbos antigos saudáveis, pois eles nutrem a próxima brotação.",
     revisaoCientificaIAR: {

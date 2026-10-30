@@ -4,8 +4,8 @@
   "metodo": "Registro independente de layouts. true=presença identificada/confirmada; null=não verificado, NÃO significa ausência. Não modifica fichas.",
   "total_arquivos": 150,
   "resumo": {
-    "ambos_layouts_marcados": 41,
-    "pendentes_de_verificacao": 109
+    "ambos_layouts_marcados": 46,
+    "pendentes_de_verificacao": 104
   },
   "fichas": [
     {
@@ -200,38 +200,42 @@
     {
       "arquivo": "dados/orquideas/bulbophyllum-miniatum.js",
       "especie": "Bulbophyllum saltatorium var. albociliatum",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "lote_macs_1_0_provisorio",
+      "versao_referencia": "V4.9",
+      "status_macs": "pesquisa_em_andamento"
     },
     {
       "arquivo": "dados/orquideas/bulbophyllum-rothschildianum.js",
       "especie": "Bulbophyllum rothschildianum",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "lote_macs_1_0_provisorio",
+      "versao_referencia": "V4.9",
+      "status_macs": "pesquisa_em_andamento"
     },
     {
       "arquivo": "dados/orquideas/bulbophyllum-sikkimense.js",
       "especie": "Bulbophyllum roxburghii",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "lote_macs_1_0_provisorio",
+      "versao_referencia": "V4.9",
+      "status_macs": "pesquisa_em_andamento"
     },
     {
       "arquivo": "dados/orquideas/bulbophyllum-syciobulbon.js",
       "especie": "Bulbophyllum sicyobulbon",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "lote_macs_1_0_provisorio",
+      "versao_referencia": "V4.9",
+      "status_macs": "pesquisa_em_andamento"
     },
     {
       "arquivo": "dados/orquideas/camaridium-carinatum.js",
@@ -245,11 +249,12 @@
     {
       "arquivo": "dados/orquideas/catasetum-mattosianum.js",
       "especie": "Catasetum mattosianum",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "lote_macs_1_0_provisorio",
+      "versao_referencia": "V4.9",
+      "status_macs": "pesquisa_em_andamento"
     },
     {
       "arquivo": "dados/orquideas/cattleya-a-brazilian-dream.js",

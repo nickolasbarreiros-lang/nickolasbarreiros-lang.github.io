@@ -2,13 +2,24 @@
   "metodologia": "MACS 1.0",
   "especie": "Bulbophyllum saltatorium var. albociliatum",
   "arquivo": "dados/orquideas/bulbophyllum-miniatum.js",
-  "status": "pesquisa_pendente",
+  "status": "pesquisa_em_andamento",
   "produtores_brasileiros": {
     "consultados": 0,
     "com_recomendacao_especifica": 0,
     "registros": []
   },
-  "fontes_botanicas": [],
+  "fontes_botanicas": [
+    {
+      "titulo": "Smithsonian — B. saltatorium var. albociliatum",
+      "url": "https://si.gardenexplorer.org/taxon-30740.aspx",
+      "tipo": "taxonomia"
+    },
+    {
+      "titulo": "Orquidário Matsuoka — B. saltatorium",
+      "url": "https://orquidariomatsuoka.com.br/produto/bulbophyllum-saltatorium/",
+      "tipo": "produtor_br_genero"
+    }
+  ],
   "perfil_radicular_hidrico": {
     "espessura_raizes": null,
     "exposicao_natural": null,
@@ -16,22 +27,52 @@
     "necessidade_umidade": null,
     "tolerancia_secagem": null,
     "sensibilidade_saturacao": null,
-    "arquitetura_crescimento": null,
+    "arquitetura_crescimento": "avaliacao preliminar: Hábito epífito, Raízes finas, Base exposta, Umidade regular, Boa aeração, Floração pendente",
     "condicoes_termicas": null
   },
-  "avaliacao_montagens": {},
+  "avaliacao_montagens": {
+    "avaliacao_preliminar": [
+      "placa-tronco",
+      "cesto-madeira",
+      "vaso-plastico-vasado",
+      "vaso-barro"
+    ],
+    "melhor_hipotese": "placa-tronco",
+    "notas": "Pontuação MACS não atribuída: levantamento brasileiro incompleto"
+  },
   "substrato": {
-    "composicao": [],
+    "composicao": [
+      {
+        "asset": "casca-pinus",
+        "percentual": 35,
+        "funcao": "Suporte ventilado para raízes."
+      },
+      {
+        "asset": "chips-coco",
+        "percentual": 30,
+        "funcao": "Evita secagem excessiva."
+      },
+      {
+        "asset": "perlita",
+        "percentual": 20,
+        "funcao": "Preserva porosidade."
+      },
+      {
+        "asset": "esfagno",
+        "percentual": 15,
+        "funcao": "Pequena reserva de água em vaso."
+      }
+    ],
     "convergencias": [],
     "divergencias": [],
-    "justificativa": null
+    "justificativa": "Montagem em placa facilita observar as raízes epífitas e permite saída livre das inflorescências; em clima quente, exige hidratação frequente e umidade ambiental. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem."
   },
-  "confianca": "nao_avaliada",
+  "confianca": "baixa_provisoria",
   "pendencias": [
-    "Pesquisar no mínimo 25 produtores brasileiros e registrar evidências publicadas ou ausência delas",
-    "Confrontar com fontes botânicas especializadas",
-    "Avaliar raízes, rizoma e regime hídrico",
-    "Pontuar sete formas de cultivo",
-    "Justificar mistura de substrato e limites da evidência"
-  ]
+    "Consultar e registrar 25 orquidários brasileiros distintos",
+    "Pontuar os sete métodos após evidências",
+    "Conferir morfologia radicular específica",
+    "Validar ou revisar receita com fontes e cultivo documentado"
+  ],
+  "observacao": "O produtor brasileiro descreve toco com esfagno ou substrato drenante para B. saltatorium; aplicação à variedade é indireta."
 }

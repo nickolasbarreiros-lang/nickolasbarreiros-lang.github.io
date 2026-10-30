@@ -2,13 +2,24 @@
   "metodologia": "MACS 1.0",
   "especie": "Bulbophyllum rothschildianum",
   "arquivo": "dados/orquideas/bulbophyllum-rothschildianum.js",
-  "status": "pesquisa_pendente",
+  "status": "pesquisa_em_andamento",
   "produtores_brasileiros": {
     "consultados": 0,
     "com_recomendacao_especifica": 0,
     "registros": []
   },
-  "fontes_botanicas": [],
+  "fontes_botanicas": [
+    {
+      "titulo": "Orchid.guru — B. rothschildianum",
+      "url": "https://www.orchid.guru/content/orchids/b/bulbophyllum/rothschildianum/",
+      "tipo": "espécie"
+    },
+    {
+      "titulo": "Tropical Orchids Portugal — B. rothschildianum",
+      "url": "https://www.tropicalorchidsportugal.com/produto/bulbophyllum-rothschildianum/",
+      "tipo": "espécie"
+    }
+  ],
   "perfil_radicular_hidrico": {
     "espessura_raizes": null,
     "exposicao_natural": null,
@@ -16,22 +27,52 @@
     "necessidade_umidade": null,
     "tolerancia_secagem": null,
     "sensibilidade_saturacao": null,
-    "arquitetura_crescimento": null,
+    "arquitetura_crescimento": "avaliacao preliminar: Rizoma rasteiro, Raízes finas, Umidade regular, Base exposta, Boa aeração, Secagem suave",
     "condicoes_termicas": null
   },
-  "avaliacao_montagens": {},
+  "avaliacao_montagens": {
+    "avaliacao_preliminar": [
+      "cesto-madeira",
+      "vaso-plastico-vasado",
+      "placa-tronco",
+      "vaso-barro"
+    ],
+    "melhor_hipotese": "cesto-madeira",
+    "notas": "Pontuação MACS não atribuída: levantamento brasileiro incompleto"
+  },
   "substrato": {
-    "composicao": [],
+    "composicao": [
+      {
+        "asset": "casca-pinus",
+        "percentual": 35,
+        "funcao": "Espaços para circulação de ar."
+      },
+      {
+        "asset": "chips-coco",
+        "percentual": 30,
+        "funcao": "Retenção moderada sem compactação."
+      },
+      {
+        "asset": "perlita",
+        "percentual": 20,
+        "funcao": "Mantém macroporos e leveza."
+      },
+      {
+        "asset": "esfagno",
+        "percentual": 15,
+        "funcao": "Evita secagem brusca das pontas radiculares."
+      }
+    ],
     "convergencias": [],
     "divergencias": [],
-    "justificativa": null
+    "justificativa": "Rizoma rastejante e inflorescências amplas favorecem cachepô aberto; proteger raízes finas da secagem total, com circulação de ar. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem."
   },
-  "confianca": "nao_avaliada",
+  "confianca": "baixa_provisoria",
   "pendencias": [
-    "Pesquisar no mínimo 25 produtores brasileiros e registrar evidências publicadas ou ausência delas",
-    "Confrontar com fontes botânicas especializadas",
-    "Avaliar raízes, rizoma e regime hídrico",
-    "Pontuar sete formas de cultivo",
-    "Justificar mistura de substrato e limites da evidência"
-  ]
+    "Consultar e registrar 25 orquidários brasileiros distintos",
+    "Pontuar os sete métodos após evidências",
+    "Conferir morfologia radicular específica",
+    "Validar ou revisar receita com fontes e cultivo documentado"
+  ],
+  "observacao": "Preferir cachepô amplo; espécie pode sentir calor noturno persistente."
 }

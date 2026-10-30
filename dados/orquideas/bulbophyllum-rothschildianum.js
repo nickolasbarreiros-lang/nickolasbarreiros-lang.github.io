@@ -30,7 +30,110 @@ export const bulbophyllumRothschildianum = {
     adubacao: "🌿 Orgânica: Bokashi opcional em dose pequena e protegido em sachê.\n💧 Foliar/mineral: NPK equilibrado em cerca de 1/4 da dose a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: Osmocote em dose baixa em cestos ou vasos. Reduza após maturação e lave o substrato periodicamente com água limpa para evitar acúmulo de sais.",
     rega: "Durante brotação e enraizamento, ofereça água abundante e regular, sempre com drenagem rápida. Não deixe o meio secar completamente por vários dias. Em períodos mais frios ou de crescimento lento, reduza moderadamente a frequência, mas mantenha alguma umidade.",
     suporte: "🥇 Cesto raso e largo de madeira.\n🥈 Vaso tipo cuia muito perfurado.\n🥉 Cortiça ou madeira com pequena reserva de esfagno junto às raízes.\nDirecione a frente de crescimento para espaço livre.",
-    substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.\n🥉 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n⭐ Alternativa: Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
+    formasCultivo: {
+        "perfilVisual": "bulbophyllum",
+        "destaque": "Cachepô de Madeira",
+        "resumo": "Rizoma rastejante e inflorescências amplas favorecem cachepô aberto; proteger raízes finas da secagem total, com circulação de ar.",
+        "metodos": [
+            {
+                "nome": "Cachepô de Madeira",
+                "asset": "cesto-madeira",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Rizoma rastejante e inflorescências amplas favorecem cachepô aberto; proteger raízes finas da secagem total, com circulação de ar."
+            },
+            {
+                "nome": "Vaso plástico vasado",
+                "asset": "vaso-plastico-vasado",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+            },
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-tronco",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Oferece raízes ventiladas, mas demanda irrigação mais frequente em calor persistente."
+            },
+            {
+                "nome": "Vaso de Barro",
+                "asset": "vaso-barro",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+            }
+        ]
+    },
+    substratoVisual: {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita para cultivo em vaso ou recipiente",
+        "resumo": "Mistura técnica preliminar para recipiente; proporções dependem da granulometria e do regime de rega.",
+        "justificativa": "Rizoma rastejante e inflorescências amplas favorecem cachepô aberto; proteger raízes finas da secagem total, com circulação de ar. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem.",
+        "receitaTexto": "35% pinus médio + 30% chips de coco + 20% perlita grossa + 15% esfagno solto.",
+        "perfil": [
+            "Rizoma rasteiro",
+            "Raízes finas",
+            "Umidade regular",
+            "Base exposta",
+            "Boa aeração",
+            "Secagem suave"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 3,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 4,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 3,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 2,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [
+            {
+                "asset": "casca-pinus",
+                "nome": "Pinus médio",
+                "proporcao": "35%",
+                "nota": "estrutura",
+                "finalidade": "Espaços para circulação de ar."
+            },
+            {
+                "asset": "chips-coco",
+                "nome": "Chips de coco",
+                "proporcao": "30%",
+                "nota": "umidade",
+                "finalidade": "Retenção moderada sem compactação."
+            },
+            {
+                "asset": "perlita",
+                "nome": "Perlita grossa",
+                "proporcao": "20%",
+                "nota": "porosidade",
+                "finalidade": "Mantém macroporos e leveza."
+            },
+            {
+                "asset": "esfagno",
+                "nome": "Esfagno solto",
+                "proporcao": "15%",
+                "nota": "proteção",
+                "finalidade": "Evita secagem brusca das pontas radiculares."
+            }
+        ],
+        "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo."
+    },
+    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + pequena fração de esfagno solto.\n🥈 Casca de macadâmia triturada média + pinus médio + perlita grossa + esfagno em baixa proporção.\n🥉 Cesto raso com esfagno de fibra longa bem solto + perlita grossa, sem compactar o rizoma.\n⭐ Alternativa: Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.",
     errosComuns: "• Exibir vários sinônimos no campo resumido.\n• Tratar a espécie como obrigatoriamente fria.\n• Deixar o substrato secar por vários dias.\n• Compactar esfagno.\n• Usar vaso estreito para rizoma rastejante.\n• Manter calor e umidade em ambiente abafado.\n• Expor ao sol forte direto.\n• Fertilizar em concentração elevada.",
     dica: "🏆 A umbela larga e as sépalas de até cerca de 17 cm precisam de espaço livre para se desenvolver sem encostar no recipiente. Use cesto largo, deixe a nova frente voltada para fora e mantenha ventilação constante. No litoral quente, a prioridade não é produzir frio, e sim evitar noites excessivamente abafadas e raízes saturadas.",
     revisaoCientificaIAR: {

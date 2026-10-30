@@ -2,13 +2,19 @@
   "metodologia": "MACS 1.0",
   "especie": "Bulbophyllum sicyobulbon",
   "arquivo": "dados/orquideas/bulbophyllum-syciobulbon.js",
-  "status": "pesquisa_pendente",
+  "status": "pesquisa_em_andamento",
   "produtores_brasileiros": {
     "consultados": 0,
     "com_recomendacao_especifica": 0,
     "registros": []
   },
-  "fontes_botanicas": [],
+  "fontes_botanicas": [
+    {
+      "titulo": "AOS — cultivo de Bulbophyllum",
+      "url": "https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet",
+      "tipo": "genero"
+    }
+  ],
   "perfil_radicular_hidrico": {
     "espessura_raizes": null,
     "exposicao_natural": null,
@@ -16,22 +22,52 @@
     "necessidade_umidade": null,
     "tolerancia_secagem": null,
     "sensibilidade_saturacao": null,
-    "arquitetura_crescimento": null,
+    "arquitetura_crescimento": "avaliacao preliminar: Raízes epífitas, Rizoma exposto, Umidade moderada, Boa aeração, Vaso baixo, Secagem gradual",
     "condicoes_termicas": null
   },
-  "avaliacao_montagens": {},
+  "avaliacao_montagens": {
+    "avaliacao_preliminar": [
+      "vaso-plastico-vasado",
+      "cesto-madeira",
+      "placa-tronco",
+      "vaso-barro"
+    ],
+    "melhor_hipotese": "vaso-plastico-vasado",
+    "notas": "Pontuação MACS não atribuída: levantamento brasileiro incompleto"
+  },
   "substrato": {
-    "composicao": [],
+    "composicao": [
+      {
+        "asset": "casca-pinus",
+        "percentual": 35,
+        "funcao": "Dá sustentação sem fechar o meio."
+      },
+      {
+        "asset": "chips-coco",
+        "percentual": 25,
+        "funcao": "Conserva água de modo moderado."
+      },
+      {
+        "asset": "perlita",
+        "percentual": 25,
+        "funcao": "Evita adensamento."
+      },
+      {
+        "asset": "esfagno",
+        "percentual": 15,
+        "funcao": "Pequena reserva hídrica."
+      }
+    ],
     "convergencias": [],
     "divergencias": [],
-    "justificativa": null
+    "justificativa": "Cultivo provisório em vaso vasado, com rizoma sobre a superfície e umidade moderada; a identificação e o hábito radicular precisam de fontes específicas antes de validar a escolha. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem."
   },
-  "confianca": "nao_avaliada",
+  "confianca": "baixa_provisoria",
   "pendencias": [
-    "Pesquisar no mínimo 25 produtores brasileiros e registrar evidências publicadas ou ausência delas",
-    "Confrontar com fontes botânicas especializadas",
-    "Avaliar raízes, rizoma e regime hídrico",
-    "Pontuar sete formas de cultivo",
-    "Justificar mistura de substrato e limites da evidência"
-  ]
+    "Consultar e registrar 25 orquidários brasileiros distintos",
+    "Pontuar os sete métodos após evidências",
+    "Conferir morfologia radicular específica",
+    "Validar ou revisar receita com fontes e cultivo documentado"
+  ],
+  "observacao": "Evidência específica insuficiente: nenhuma conclusão de espécie deve ser apresentada como validada."
 }

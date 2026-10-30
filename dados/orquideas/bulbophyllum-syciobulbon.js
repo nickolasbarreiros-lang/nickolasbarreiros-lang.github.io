@@ -38,7 +38,110 @@ export const bulbophyllumSyciobulbon = {
     adubacao: "🌿 Orgânica: Bokashi é opcional e deve ser usado apenas em quantidade mínima, preferencialmente em porta-adubo e longe do rizoma.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional apenas em cestos; use poucos grânulos. Em planta montada é dispensável. Faça lavagens periódicas com água pura para evitar acúmulo de sais em raízes finas.",
     rega: "Mantenha umidade leve e relativamente constante enquanto houver crescimento, mas com drenagem imediata e muito ar nas raízes. O material junto ao rizoma pode permanecer ligeiramente úmido, nunca encharcado. Evite tanto a secagem total por vários dias quanto a saturação contínua. Em períodos frios ou muito nublados, ajuste a frequência à velocidade real de secagem e regue preferencialmente pela manhã.",
     suporte: "🥇 Placa longa de cortiça ou galho largo, deixando bastante espaço para o avanço do rizoma.\n🥈 Cesto muito largo e raso, com retenção leve de umidade.\n🥉 Bandeja ou cachepô comprido e vazado.\nO formato do recipiente é mais importante que profundidade: o rizoma precisa de espaço horizontal por vários anos.",
-    substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
+    formasCultivo: {
+        "perfilVisual": "bulbophyllum",
+        "destaque": "Vaso plástico vasado",
+        "resumo": "Cultivo provisório em vaso vasado, com rizoma sobre a superfície e umidade moderada; a identificação e o hábito radicular precisam de fontes específicas antes de validar a escolha.",
+        "metodos": [
+            {
+                "nome": "Vaso plástico vasado",
+                "asset": "vaso-plastico-vasado",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Cultivo provisório em vaso vasado, com rizoma sobre a superfície e umidade moderada; a identificação e o hábito radicular precisam de fontes específicas antes de validar a escolha."
+            },
+            {
+                "nome": "Cachepô de Madeira",
+                "asset": "cesto-madeira",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+            },
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-tronco",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Oferece raízes ventiladas, mas demanda irrigação mais frequente em calor persistente."
+            },
+            {
+                "nome": "Vaso de Barro",
+                "asset": "vaso-barro",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Boa alternativa quando a frequência de regas e a umidade ambiental são ajustadas à secagem real do recipiente."
+            }
+        ]
+    },
+    substratoVisual: {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita para cultivo em vaso ou recipiente",
+        "resumo": "Mistura técnica preliminar para recipiente; proporções dependem da granulometria e do regime de rega.",
+        "justificativa": "Cultivo provisório em vaso vasado, com rizoma sobre a superfície e umidade moderada; a identificação e o hábito radicular precisam de fontes específicas antes de validar a escolha. A formulação é inferência técnica para recipiente, não ensaio específico da espécie. Ajustar regas observando raízes e velocidade real de secagem.",
+        "receitaTexto": "35% pinus médio + 25% chips de coco + 25% perlita grossa + 15% esfagno solto.",
+        "perfil": [
+            "Raízes epífitas",
+            "Rizoma exposto",
+            "Umidade moderada",
+            "Boa aeração",
+            "Vaso baixo",
+            "Secagem gradual"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 3,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 4,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 3,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 2,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [
+            {
+                "asset": "casca-pinus",
+                "nome": "Pinus médio",
+                "proporcao": "35%",
+                "nota": "estrutura",
+                "finalidade": "Dá sustentação sem fechar o meio."
+            },
+            {
+                "asset": "chips-coco",
+                "nome": "Chips de coco",
+                "proporcao": "25%",
+                "nota": "umidade",
+                "finalidade": "Conserva água de modo moderado."
+            },
+            {
+                "asset": "perlita",
+                "nome": "Perlita grossa",
+                "proporcao": "25%",
+                "nota": "aeração",
+                "finalidade": "Evita adensamento."
+            },
+            {
+                "asset": "esfagno",
+                "nome": "Esfagno solto",
+                "proporcao": "15%",
+                "nota": "reserva",
+                "finalidade": "Pequena reserva hídrica."
+            }
+        ],
+        "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo."
+    },
+    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + perlita grossa, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + perlita grossa + esfagno em baixa proporção.",
     errosComuns: "• Usar vaso pequeno e obrigar replantes frequentes.\n• Enterrar o rizoma ou os pseudobulbos.\n• Confundir alta umidade com ar parado.\n• Manter esfagno compactado e saturado.\n• Deixar a planta secar completamente por longos períodos.\n• Cultivar sob sol direto forte.\n• Adubar em concentração alta.\n• Tentar compensar calor noturno excessivo com encharcamento.",
     dica: "🏆 Planeje o espaço antes do crescimento. Como os pseudobulbos podem ficar separados por 5 a 7 cm, comece com uma placa longa, galho extenso ou cesto largo e raso. Quanto menos a planta precisar ser removida depois de aderir ao suporte, melhor. No litoral quente, priorize o ponto mais fresco e ventilado, mantenha umidade moderada junto às raízes e evite qualquer material que permaneça quente e encharcado durante a noite.",
     revisaoCientificaIAR: {
