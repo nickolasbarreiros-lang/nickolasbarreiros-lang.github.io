@@ -38,7 +38,108 @@ export const bulbophyllumAmbrosia = {
     adubacao: "🌿 Orgânica: Bokashi é opcional e deve ser usado em quantidade mínima, preferencialmente em sachê e sem contato com o rizoma ou raízes novas.\n💧 Foliar/mineral: use NPK equilibrado em cerca de 1/4 da dose recomendada, a cada 10 a 15 dias durante brotação e enraizamento ativos.\n🧪 Liberação lenta: opcional, em poucos grânulos para plantas em vaso ou cesto; normalmente dispensável em plantas montadas.\nComo possui raízes finas e superficiais, responda mais à regularidade de adubação fraca do que a doses fortes. Faça lavagens periódicas do substrato para reduzir acúmulo de sais.",
     rega: "Durante o crescimento, molhe completamente e deixe o excesso drenar de imediato. Mantenha leve umidade residual, sem deixar o conjunto permanecer seco por vários dias. No inverno ou quando o crescimento desacelerar, aumente apenas moderadamente o intervalo entre regas; não imponha repouso seco. Em montagem, a frequência pode ser maior porque o sistema seca rapidamente.",
     suporte: "🥇 Placa de cortiça ou madeira com fina camada de esfagno sob as raízes.\n🥈 Cesto raso e bem perfurado, acompanhando o avanço do rizoma.\n🥉 Vaso baixo e largo, com meio muito aberto.\nA espécie cresce horizontalmente; reserve espaço livre à frente do rizoma.",
-    substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
+    formasCultivo: {
+        "perfilVisual": "bulbophyllum",
+        "destaque": "Placa / tronco",
+        "resumo": "Montagem em placa com fixação suave do rizoma rastejante. A exposição das raízes favorece aeração, mas uma película de umidade junto ao suporte reduz a desidratação dos brotos novos.",
+        "metodos": [
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-tronco",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Acompanha o crescimento horizontal e evita acúmulo de água na base dos pseudobulbos."
+            },
+            {
+                "nome": "Cesto raso",
+                "asset": "cesto-madeira",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Permite expansão e secagem lateral, com substrato apenas no centro."
+            },
+            {
+                "nome": "Vaso plástico baixo",
+                "asset": "vaso-plastico-vasado",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Facilita manter umidade estável, desde que o rizoma fique sobre a superfície."
+            },
+            {
+                "nome": "Vaso de barro baixo",
+                "asset": "vaso-barro",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Drena bem, porém pode secar rapidamente em ambientes muito ventilados."
+            }
+        ]
+    },
+    substratoVisual: {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita para cultivo em vaso ou recipiente",
+        "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
+        "justificativa": "Montagem em placa com fixação suave do rizoma rastejante. A exposição das raízes favorece aeração, mas uma película de umidade junto ao suporte reduz a desidratação dos brotos novos. Esta receita para recipiente é uma proposta técnica de cultivo, não uma fórmula experimental validada especificamente para a espécie.",
+        "receitaTexto": "35% casca de pinus média + 25% chips de coco tratados + 25% perlita grossa + 15% esfagno solto.",
+        "perfil": [
+            "Raízes epífitas",
+            "Substrato arejado",
+            "Rizoma ou base sem enterramento",
+            "Umidade conforme secagem"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 3,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 4,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 3,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 2,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [
+            {
+                "asset": "casca-pinus",
+                "nome": "Casca de pinus média",
+                "proporcao": "35%",
+                "nota": "base porosa",
+                "finalidade": "Dá suporte ao rizoma superficial e conserva alguma umidade."
+            },
+            {
+                "asset": "chips-coco",
+                "nome": "Chips de coco tratados",
+                "proporcao": "25%",
+                "nota": "retenção moderada",
+                "finalidade": "Protegem raízes jovens entre regas, sem usar fibras compactadas."
+            },
+            {
+                "asset": "perlita",
+                "nome": "Perlita grossa",
+                "proporcao": "25%",
+                "nota": "macroporos",
+                "finalidade": "Favorece a renovação de ar na zona radicular."
+            },
+            {
+                "asset": "esfagno",
+                "nome": "Esfagno solto",
+                "proporcao": "15%",
+                "nota": "reserva hídrica",
+                "finalidade": "Reduz secagem excessiva, mas deve permanecer em pequenas porções."
+            }
+        ],
+        "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura."
+    },
+    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + perlita grossa, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + perlita grossa + esfagno em baixa proporção.",
     errosComuns: "• Enterrar o rizoma.\n• Tratar a espécie como exclusivamente fria.\n• Usar substrato fino e compactado.\n• Deixar a planta secar por vários dias.\n• Manter saturação constante em noites quentes.\n• Cultivar em sombra profunda.\n• Adubar em concentração alta.\n• Manter substrato decomposto por tempo excessivo.\n• Confundir umidade ambiental elevada com falta de ventilação.",
     dica: "🏆 O melhor manejo reproduz a combinação natural de umidade com oxigenação. Monte-a ou use recipiente raso, mantenha o rizoma exposto e proporcione ventilação contínua. A fragrância e a floração aparecem melhor em plantas maduras e bem iluminadas, sem necessidade de submeter a planta a frio forte. No litoral quente, noites ventiladas e suporte que não acumule calor são mais importantes que tentar baixar drasticamente a temperatura.",
     revisaoCientificaIAR: {

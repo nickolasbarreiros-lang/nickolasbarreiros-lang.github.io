@@ -30,7 +30,108 @@ export const eriaHyacinthoides = {
     adubacao: "💧 Foliar: NPK equilibrado, como 20-20-20, diluído a 1/4 da dose recomendada pelo fabricante, a cada 7 a 10 dias durante o crescimento ativo.\n🌿 Orgânica: Bokashi em dose muito reduzida e afastado das raízes.\n🧪 Liberação lenta: poucos grânulos de Osmocote em recipiente bem ventilado.\n⚠️ Atenção: as raízes finas são sensíveis ao acúmulo de sais; realize periodicamente regas abundantes apenas com água para lixiviar o substrato.",
     rega: "Mantenha regas regulares e frequentes durante os períodos quentes, permitindo apenas uma leve aeração na camada superficial do substrato entre as irrigações. No inverno ou em dias frios, reduza ligeiramente a frequência, mas nunca deixe o substrato secar por completo.",
     suporte: "🥇 Cesto ou cachepô bem ventilado.\n🥈 Vaso de barro.\n🥉 Montagem em tronco apenas em ambiente de alta umidade relativa.",
-    substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
+    formasCultivo: {
+        "perfilVisual": "epifita",
+        "destaque": "Cesto raso ventilado",
+        "resumo": "Cesto raso que acomoda o avanço lateral dos brotos e mantém a base da planta fora de uma massa compacta. Em calor prolongado, a pequena reserva hídrica deve ser compensada por regas bem observadas.",
+        "metodos": [
+            {
+                "nome": "Cesto raso ventilado",
+                "asset": "cesto-madeira",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Acomoda a expansão dos brotos e conserva ar em torno das raízes, sem encharcar a base."
+            },
+            {
+                "nome": "Vaso de barro baixo",
+                "asset": "vaso-barro",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Boa estabilidade e evaporação lateral, com substrato aberto e recipiente justo."
+            },
+            {
+                "nome": "Vaso plástico muito perfurado",
+                "asset": "vaso-plastico-vasado",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Ajuda a preservar umidade em dias quentes; atenção à secagem lenta no centro."
+            },
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-tronco",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Exige umidade ambiental alta e regas frequentes para evitar desidratação."
+            }
+        ]
+    },
+    substratoVisual: {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita para cultivo em vaso ou recipiente",
+        "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
+        "justificativa": "Cesto raso que acomoda o avanço lateral dos brotos e mantém a base da planta fora de uma massa compacta. Em calor prolongado, a pequena reserva hídrica deve ser compensada por regas bem observadas. Esta receita para recipiente é uma proposta técnica de cultivo, não uma fórmula experimental validada especificamente para a espécie.",
+        "receitaTexto": "35% casca de pinus média + 25% chips de coco tratados + 25% perlita grossa + 15% esfagno solto.",
+        "perfil": [
+            "Raízes epífitas",
+            "Substrato arejado",
+            "Rizoma ou base sem enterramento",
+            "Umidade conforme secagem"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 3,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 4,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 3,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 2,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [
+            {
+                "asset": "casca-pinus",
+                "nome": "Casca de pinus média",
+                "proporcao": "35%",
+                "nota": "estrutura e umidade moderada",
+                "finalidade": "Cria apoio para raízes epífitas sem enterrá-las em material fino."
+            },
+            {
+                "asset": "chips-coco",
+                "nome": "Chips de coco tratados",
+                "proporcao": "25%",
+                "nota": "reserva de água",
+                "finalidade": "Aumentam a estabilidade hídrica entre regas; devem ser bem lavados."
+            },
+            {
+                "asset": "perlita",
+                "nome": "Perlita grossa",
+                "proporcao": "25%",
+                "nota": "aeração e leveza",
+                "finalidade": "Mantém a mistura solta, reduzindo a compactação com o tempo."
+            },
+            {
+                "asset": "esfagno",
+                "nome": "Esfagno solto",
+                "proporcao": "15%",
+                "nota": "amortecimento da secagem",
+                "finalidade": "Pequena fração distribuída sem pressão protege raízes novas da secagem abrupta."
+            }
+        ],
+        "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura."
+    },
+    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + perlita grossa, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + perlita grossa + esfagno em baixa proporção.",
     errosComuns: "Manter a planta identificada apenas sob o gênero desatualizado Eria nos registros da coleção; Permitir secura prolongada do substrato; Cultivar em ambientes com pouca ventilação; Exagerar na dosagem dos adubos e causar queima das raízes por sais; Dividir touceiras pequenas antes de a planta estar bem estabelecida.",
     dica: "Deixe a planta formar uma touceira antes de dividir. O efeito ornamental vem justamente das hastes densas e numerosas; em clima quente, combine umidade do ar com ventilação forte para que as raízes finas permaneçam hidratadas sem ficar abafadas.",
     revisaoCientificaIAR: {

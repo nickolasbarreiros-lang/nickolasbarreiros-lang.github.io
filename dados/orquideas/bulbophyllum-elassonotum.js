@@ -37,7 +37,108 @@ export const bulbophyllumElassonotum = {
     adubacao: "🌿 Orgânica: Bokashi opcional, em pequena quantidade e longe do rizoma.\n💧 Foliar/mineral: NPK equilibrado em aproximadamente 1/4 da dose, a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional em dose baixa para plantas em vaso/cesto.\nReduza a frequência quando não houver brotação ou enraizamento ativo, mas não faça uma interrupção drástica apenas porque a espécie floresce no inverno.",
     rega: "Mantenha umidade regular enquanto houver crescimento, molhando bem e drenando rapidamente. Entre regas, permita perda parcial de umidade, sem secagem total prolongada. No período mais fresco, ajuste a frequência à evaporação real. Populações de habitat sazonal toleram alguma redução hídrica, mas isso não equivale a repouso seco obrigatório.",
     suporte: "🥇 Cesto raso e largo, muito perfurado.\n🥈 Placa de cortiça ou madeira com fina camada de esfagno.\n🥉 Vaso baixo e amplo, com espaço para expansão horizontal.\nDeixe a inflorescência com área livre para arquear e pender.",
-    substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n🥉 Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.\n⭐ Alternativa: Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.",
+    formasCultivo: {
+        "perfilVisual": "bulbophyllum",
+        "destaque": "Cesto raso e largo",
+        "resumo": "O cesto raso oferece espaço para o rizoma se espalhar e deixa livres as inflorescências arqueadas ou pendentes. Uma mistura solta evita que o centro fique saturado em períodos úmidos.",
+        "metodos": [
+            {
+                "nome": "Cesto raso e largo",
+                "asset": "cesto-madeira",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Oferece espaço lateral para novos pseudobulbos e saída livre às hastes pendentes."
+            },
+            {
+                "nome": "Vaso baixo perfurado",
+                "asset": "vaso-plastico-vasado",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Preserva umidade de forma mais uniforme, com atenção à drenagem."
+            },
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-tronco",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Excelente aeração, mas requer regas mais próximas em clima quente."
+            },
+            {
+                "nome": "Vaso de barro baixo",
+                "asset": "vaso-barro",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Mantém a touceira estável, embora possa restringir a expansão do rizoma."
+            }
+        ]
+    },
+    substratoVisual: {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita para cultivo em vaso ou recipiente",
+        "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
+        "justificativa": "O cesto raso oferece espaço para o rizoma se espalhar e deixa livres as inflorescências arqueadas ou pendentes. Uma mistura solta evita que o centro fique saturado em períodos úmidos. Esta receita para recipiente é uma proposta técnica de cultivo, não uma fórmula experimental validada especificamente para a espécie.",
+        "receitaTexto": "35% casca de pinus média + 25% chips de coco tratados + 25% perlita grossa + 15% esfagno solto.",
+        "perfil": [
+            "Raízes epífitas",
+            "Substrato arejado",
+            "Rizoma ou base sem enterramento",
+            "Umidade conforme secagem"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 3,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 4,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 3,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 2,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [
+            {
+                "asset": "casca-pinus",
+                "nome": "Casca de pinus média",
+                "proporcao": "35%",
+                "nota": "estrutura",
+                "finalidade": "Sustenta as raízes com espaços de ar e secagem gradual."
+            },
+            {
+                "asset": "chips-coco",
+                "nome": "Chips de coco tratados",
+                "proporcao": "25%",
+                "nota": "umidade residual",
+                "finalidade": "Amortecem os intervalos entre irrigações."
+            },
+            {
+                "asset": "perlita",
+                "nome": "Perlita grossa",
+                "proporcao": "25%",
+                "nota": "aeração",
+                "finalidade": "Evita que o meio se feche ao longo do uso."
+            },
+            {
+                "asset": "esfagno",
+                "nome": "Esfagno solto",
+                "proporcao": "15%",
+                "nota": "retenção controlada",
+                "finalidade": "Apenas uma fração pequena, sem cobrir o rizoma."
+            }
+        ],
+        "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura."
+    },
+    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + pequena fração de esfagno solto.\n🥈 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n🥉 Casca de macadâmia triturada média + pinus médio + perlita grossa + esfagno em baixa proporção.\n⭐ Alternativa: Cesto raso com esfagno de fibra longa bem solto + perlita grossa, sem compactar o rizoma.",
     errosComuns: "• Enterrar o rizoma.\n• Tratar toda procedência como espécie fria.\n• Compactar esfagno.\n• Usar vaso profundo com baixa aeração.\n• Deixar raízes secarem por vários dias.\n• Manter calor, umidade e ar parado ao mesmo tempo.\n• Cultivar em sombra profunda.\n• Forçar repouso seco por causa de habitats sazonais.\n• Adubação concentrada em raízes finas.",
     dica: "🏆 A amplitude altitudinal é a chave para interpretar esta espécie. Ela não exige uma temperatura única; exige equilíbrio entre procedência, umidade e ventilação. No litoral quente, use suporte raso, 60% a 70% de sombra e movimento de ar constante. Mantenha o rizoma sobre a superfície e deixe espaço para a raque pendente, especialmente quando a planta entra no período de floração de inverno.",
     revisaoCientificaIAR: {

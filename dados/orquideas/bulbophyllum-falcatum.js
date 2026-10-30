@@ -38,7 +38,108 @@ export const bulbophyllumFalcatum = {
     adubacao: "🌿 Orgânica: Bokashi em pequena dose, preferencialmente em sachê e longe do rizoma.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração, cerca de 1/4 da dose, a cada 10 a 15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: opcional, com poucos grânulos em vaso/cesto e redução das demais fontes.\nApós a maturação dos pseudobulbos, reduza a intensidade da adubação, sem suspender a água abruptamente.",
     rega: "Mantenha umidade regular durante o crescimento. Molhe completamente, deixe drenar e volte a regar quando o meio estiver apenas parcialmente seco. Plantas montadas podem precisar de irrigação diária em períodos quentes e secos. No inverno, reduza a frequência conforme a secagem real, sem deixar os pseudobulbos enrugarem por desidratação prolongada.",
     suporte: "🥇 Cesto raso e amplo, deixando a raque floral totalmente livre.\n🥈 Vaso baixo e largo, muito perfurado.\n🥉 Placa de cortiça ou madeira com reserva mínima de umidade.\nO recipiente deve permitir avanço do rizoma e projeção lateral da inflorescência.",
-    substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + pedra-pomes/perlita, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + pedra-pomes + esfagno em baixa proporção.",
+    formasCultivo: {
+        "perfilVisual": "bulbophyllum",
+        "destaque": "Cesto raso amplo",
+        "resumo": "Cesto amplo e suspenso para que a raque floral possa projetar-se livremente. A planta deve ficar firme, mas com rizoma visível e espaço lateral para os novos pseudobulbos.",
+        "metodos": [
+            {
+                "nome": "Cesto raso amplo",
+                "asset": "cesto-madeira",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Mantém a raque livre e permite expansão do rizoma sem compactar as raízes."
+            },
+            {
+                "nome": "Vaso baixo muito perfurado",
+                "asset": "vaso-plastico-vasado",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Facilita hidratação regular, desde que não bloqueie a saída das inflorescências."
+            },
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-tronco",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Reproduz o hábito epífito; demanda atenção à desidratação."
+            },
+            {
+                "nome": "Vaso de barro raso",
+                "asset": "vaso-barro",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Estável e ventilado, mas exige observar secagem nas bordas."
+            }
+        ]
+    },
+    substratoVisual: {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita para cultivo em vaso ou recipiente",
+        "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
+        "justificativa": "Cesto amplo e suspenso para que a raque floral possa projetar-se livremente. A planta deve ficar firme, mas com rizoma visível e espaço lateral para os novos pseudobulbos. Esta receita para recipiente é uma proposta técnica de cultivo, não uma fórmula experimental validada especificamente para a espécie.",
+        "receitaTexto": "35% casca de pinus média + 25% chips de coco tratados + 25% perlita grossa + 15% esfagno solto.",
+        "perfil": [
+            "Raízes epífitas",
+            "Substrato arejado",
+            "Rizoma ou base sem enterramento",
+            "Umidade conforme secagem"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 3,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 4,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 3,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 2,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [
+            {
+                "asset": "casca-pinus",
+                "nome": "Casca de pinus média",
+                "proporcao": "35%",
+                "nota": "base estrutural",
+                "finalidade": "Conserva macroporos e suporte para raízes superficiais."
+            },
+            {
+                "asset": "chips-coco",
+                "nome": "Chips de coco tratados",
+                "proporcao": "25%",
+                "nota": "reserva hídrica",
+                "finalidade": "Evita perda de água excessivamente rápida entre regas."
+            },
+            {
+                "asset": "perlita",
+                "nome": "Perlita grossa",
+                "proporcao": "25%",
+                "nota": "aeração",
+                "finalidade": "Reduz adensamento e facilita drenagem."
+            },
+            {
+                "asset": "esfagno",
+                "nome": "Esfagno solto",
+                "proporcao": "15%",
+                "nota": "umidade de segurança",
+                "finalidade": "Pequena fração sem compactar protege pontas de raízes novas."
+            }
+        ],
+        "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura."
+    },
+    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + perlita grossa, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + perlita grossa + esfagno em baixa proporção.",
     errosComuns: "• Enterrar o rizoma.\n• Usar vaso estreito e profundo.\n• Bloquear a raque floral contra a borda do vaso.\n• Compactar esfagno.\n• Deixar substrato envelhecer e azedar.\n• Manter calor com ar parado.\n• Permitir ressecamento prolongado.\n• Forçar repouso seco.\n• Aplicar fertilizante concentrado sobre raízes superficiais.",
     dica: "🏆 Antes da floração, verifique se há espaço lateral livre. A raque achatada é a principal característica da espécie e pode ser deformada ou abortar se ficar presa entre vaso, parede ou outras plantas. No litoral quente, cesto raso, rizoma exposto, sombra clara, umidade regular e ventilação contínua formam a combinação mais segura.",
     revisaoCientificaIAR: {

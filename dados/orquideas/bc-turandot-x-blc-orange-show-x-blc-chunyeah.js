@@ -34,7 +34,108 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     adubacao: "💧 Foliar: durante o crescimento ativo, aplique NPK equilibrado, como 20-20-20, quinzenalmente. Após a maturação do pseudobulbo, reduza o nitrogênio e priorize fórmulas com maior teor de fósforo e potássio, como 09-45-15 ou 10-30-20, para favorecer a formação da bainha e dos botões florais.\n🌿 Orgânica: Bokashi em saquinho, sempre afastado dos brotos.\n🧪 Liberação lenta: pouca quantidade de Osmocote em vasos ou cachepôs.",
     rega: "Regue abundantemente nas primeiras horas da manhã, permitindo que o substrato seque quase completamente antes da próxima irrigação. Intensifique a frequência durante o surgimento de novos brotos e raízes; reduza após a maturação dos pseudobulbos, nos dias frios ou durante períodos chuvosos. Atenção: evite acúmulo de água no miolo dos brotos e nas bainhas ao final da tarde ou à noite para prevenir podridões e abortamento de botões.",
     suporte: "Vaso de barro, vaso plástico com furos laterais ou cachepô de madeira, sempre em tamanho justo para o sistema radicular.",
-    substrato: "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + pedra-pomes + carvão vegetal.\n🥈 Cachepô/cesto com pinus grosso + macadâmia grossa + pedra-pomes, deixando grandes espaços de ar.\n🥉 Casca de pinus grossa + carvão vegetal + pedra-pomes/brita, com quase nenhuma fração fina.\n⭐ Alternativa: Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.",
+    formasCultivo: {
+        "perfilVisual": "cattleya",
+        "destaque": "Vaso de barro",
+        "resumo": "Vaso de barro ajustado ao volume das raízes, com drenagem livre. O híbrido forma pseudobulbos robustos e precisa de alternância entre hidratação abundante e secagem perceptível para manter raízes ativas.",
+        "metodos": [
+            {
+                "nome": "Vaso de barro",
+                "asset": "vaso-barro",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Favorece a troca de ar pelas paredes e a secagem progressiva; ideal para raízes espessas e ambiente quente."
+            },
+            {
+                "nome": "Vaso plástico perfurado",
+                "asset": "vaso-plastico-vasado",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Retém água por mais tempo, útil em locais secos, desde que haja muitos furos e mistura grosseira."
+            },
+            {
+                "nome": "Cesto de madeira",
+                "asset": "cesto-madeira",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Oferece ótima ventilação, mas demanda regas mais frequentes e fixação firme."
+            },
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-tronco",
+                "estrelas": 3,
+                "status": "Alternativa",
+                "texto": "Viável com alta umidade e irrigação frequente; exige mais atenção à hidratação de plantas grandes."
+            }
+        ]
+    },
+    substratoVisual: {
+        "titulo": "Substrato ideal",
+        "contexto": "Receita para cultivo em vaso ou recipiente",
+        "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
+        "justificativa": "Vaso de barro ajustado ao volume das raízes, com drenagem livre. O híbrido forma pseudobulbos robustos e precisa de alternância entre hidratação abundante e secagem perceptível para manter raízes ativas. Esta receita para recipiente é uma proposta técnica de cultivo, não uma fórmula experimental validada especificamente para a espécie.",
+        "receitaTexto": "40% casca de pinus grossa + 25% carvão vegetal + 20% brita fina + 15% chips de coco tratados.",
+        "perfil": [
+            "Raízes epífitas",
+            "Substrato arejado",
+            "Rizoma ou base sem enterramento",
+            "Umidade conforme secagem"
+        ],
+        "comportamento": [
+            {
+                "nome": "Retenção",
+                "valor": 2,
+                "icone": "💧"
+            },
+            {
+                "nome": "Aeração",
+                "valor": 5,
+                "icone": "💨"
+            },
+            {
+                "nome": "Secagem",
+                "valor": 4,
+                "icone": "⚡"
+            },
+            {
+                "nome": "Compactação",
+                "valor": 1,
+                "icone": "🧱"
+            }
+        ],
+        "itens": [
+            {
+                "asset": "casca-pinus",
+                "nome": "Casca de pinus grossa",
+                "proporcao": "40%",
+                "nota": "estrutura e drenagem",
+                "finalidade": "Sustenta as raízes sem comprimi-las; a granulometria grossa conserva espaços amplos para oxigênio."
+            },
+            {
+                "asset": "carvao-vegetal",
+                "nome": "Carvão vegetal",
+                "proporcao": "25%",
+                "nota": "porosidade e estabilidade",
+                "finalidade": "Mantém canais de ar e ajuda a evitar que a mistura se torne excessivamente fechada."
+            },
+            {
+                "asset": "brita-pura",
+                "nome": "Brita fina",
+                "proporcao": "20%",
+                "nota": "peso e drenagem",
+                "finalidade": "Estabiliza o vaso e favorece escoamento; use granulometria que não preencha os poros do pinus."
+            },
+            {
+                "asset": "chips-coco",
+                "nome": "Chips de coco tratados",
+                "proporcao": "15%",
+                "nota": "reserva hídrica moderada",
+                "finalidade": "Amortece a secagem sem transformar o vaso em ambiente permanentemente úmido."
+            }
+        ],
+        "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura."
+    },
+    substrato: "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + perlita grossa + carvão vegetal.\n🥈 Cachepô/cesto com pinus grosso + macadâmia grossa + perlita grossa, deixando grandes espaços de ar.\n🥉 Casca de pinus grossa + carvão vegetal + brita fina, com quase nenhuma fração fina.\n⭐ Alternativa: Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.",
     errosComuns: "Cultivar em sombra excessiva; Usar vasos muito grandes ou substratos finos e compactados; Manter as raízes constantemente encharcadas; Deixar água acumulada no miolo dos brotos e bainhas durante a noite; Exagerar na adubação nitrogenada após o amadurecimento dos pseudobulbos; Dividir a touceira com menos de três a quatro pseudobulbos por corte.",
     dica: "Posicione a planta no setor mais iluminado e arejado do cultivo. Evite vasos excessivamente grandes e substratos retentivos: as raízes deste híbrido exigem aeração constante e ciclos rápidos de molha-e-seca para formar pseudobulbos encorpados e garantir floradas regulares e duradouras.",
     revisaoCientificaIAR: {

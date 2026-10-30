@@ -4,8 +4,8 @@
   "metodo": "Registro independente de layouts. true=presença identificada/confirmada; null=não verificado, NÃO significa ausência. Não modifica fichas.",
   "total_arquivos": 150,
   "resumo": {
-    "ambos_layouts_marcados": 36,
-    "pendentes_de_verificacao": 114
+    "ambos_layouts_marcados": 41,
+    "pendentes_de_verificacao": 109
   },
   "fichas": [
     {
@@ -110,11 +110,11 @@
     {
       "arquivo": "dados/orquideas/bc-turandot-x-blc-orange-show-x-blc-chunyeah.js",
       "especie": "Brassocattleya Turandot × (Rhyncholaeliocattleya Orange Show × Rlc. Chunyeah)",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "renovacao_lote_5_v4_9_2026_10_30",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/bifrenaria-aureofulva.js",
@@ -173,29 +173,29 @@
     {
       "arquivo": "dados/orquideas/bulbophyllum-ambrosia.js",
       "especie": "Bulbophyllum ambrosia",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "renovacao_lote_5_v4_9_2026_10_30",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/bulbophyllum-elassonotum.js",
       "especie": "Bulbophyllum elassonotum",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "renovacao_lote_5_v4_9_2026_10_30",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/bulbophyllum-falcatum.js",
       "especie": "Bulbophyllum falcatum",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "renovacao_lote_5_v4_9_2026_10_30",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/bulbophyllum-miniatum.js",
@@ -659,11 +659,11 @@
     {
       "arquivo": "dados/orquideas/eria-hyacinthoides.js",
       "especie": "Bryobium hyacinthoides",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "renovacao_lote_5_v4_9_2026_10_30",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/gomesa-cornigera.js",
