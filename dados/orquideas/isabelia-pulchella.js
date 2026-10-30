@@ -37,7 +37,7 @@ export const isabeliaPulchella = {
     "Adubar em excesso um conjunto de raízes muito pequenas.",
     "Esperar floração regular em noites permanentemente quentes sem observar a resposta da planta."
   ],
-  "dica": "Monte em uma placa pequena, com espaço para crescer, e evite que as raízes delicadas sequem por muito tempo.",
+  "dica": "Nesta miniatura, a diferença entre secagem saudável e desidratação é pequena. Em placa, acompanhe as raízes finas e o enrugamento persistente dos pseudobulbos; se secarem depressa demais, ajuste a frequência das regas e a umidade ao redor, sem abafar a planta. Em regiões de noites quentes, priorize o ponto mais ventilado e ameno do orquidário. Crescer bem não garante flores: observe também se os novos pseudobulbos amadurecem e se surgem hastes.",
   "revisaoCientificaIAR": {
     "distribuicaoFonteConferidaV410": "https://commons.wikimedia.org/wiki/Isabelia_pulchella",
     "notaRevisao09": "Distribuição brasileira (Sul e Sudeste) corroborada pela galeria taxonômica Wikimedia Commons; conferir delimitação e altitude no POWO e na Flora e Funga do Brasil.",

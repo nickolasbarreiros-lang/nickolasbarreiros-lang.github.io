@@ -37,7 +37,7 @@ export const aciantheraTeres = {
     "Regar sempre pelo calendário, sem observar a secagem das raízes.",
     "Aplicar adubo concentrado em uma montagem pequena e de secagem rápida."
   ],
-  "dica": "Aposte em muita claridade filtrada e ventilação: suas folhas carnudas não gostam de calor parado.",
+  "dica": "O segredo é oferecer claridade suficiente sem transformar o suporte em uma chapa quente. Observe a temperatura da madeira ou da brita nas horas mais quentes: se aquecem demais, aumente a proteção e a circulação de ar. Regue quando as raízes estiverem secando, sem impor uma estiagem prolongada só porque as folhas são carnudas. Brotos firmes e raízes ativas são sinais mais úteis que um calendário fixo.",
   "revisaoCientificaIAR": {
     "nome": "Acianthera teres",
     "statusTaxonomico": "Nome aceito por Plants of the World Online (Kew); a identidade de exemplares comerciais ainda depende de confirmação.",

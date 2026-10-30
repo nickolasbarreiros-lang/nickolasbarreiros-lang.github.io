@@ -37,7 +37,7 @@ export const prosthecheaVespa = {
     "Dividir uma touceira pequena antes de ela ganhar força.",
     "Impor repouso seco severo sem observar o ciclo de crescimento."
   ],
-  "dica": "Espere aparecerem raízes novas para replantar: é quando a planta tem mais facilidade para se fixar.",
+  "dica": "Planeje o replante para o início da emissão de raízes novas, não apenas para depois da floração: é nessa fase que a planta consegue ocupar o substrato e se recuperar melhor. Mantenha os pseudobulbos firmes e bem iluminados, com luz filtrada, durante a maturação; sombra excessiva pode produzir vegetação sem boa floração. Se o vaso demora muitos dias para secar, corrija a aeração antes de simplesmente reduzir todas as regas.",
   "revisaoCientificaIAR": {
     "nome": "Prosthechea vespa",
     "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
