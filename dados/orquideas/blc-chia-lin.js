@@ -73,43 +73,69 @@ export const blcChiaLin = {
 },
     substratoVisual: {
     "titulo": "Substrato ideal",
-    "contexto": "Mistura em vaso — proporções não definidas",
-    "resumo": "Mistura aberta com os componentes indicados na recomendação original.",
-    "justificativa": "As raízes epífitas necessitam de oxigênio e drenagem; o tamanho dos componentes e a rega devem ser ajustados ao recipiente.",
-    "receitaTexto": "\udd47 Casca de macadâmia triturada grossa + casca de pinus grossa + perlita grossa + carvão vegetal.",
+    "contexto": "Receita técnica sugerida para cultivo em vaso",
+    "resumo": "Mistura de partículas abertas para boa aeração e drenagem, com proporções iniciais ajustáveis ao microclima.",
+    "justificativa": "As raízes epífitas precisam alternar molhamento e secagem. A mistura combina suporte orgânico, porosidade e drenagem sem reter água por tempo excessivo.",
+    "receitaTexto": "Proposta técnica inicial: 35% casca de macadâmia + 30% casca de pinus + 20% perlita grossa + 15% carvão vegetal. Percentuais propostos para teste de cultivo, não publicados como fórmula experimental para esta espécie.",
     "perfil": [
         "Raízes epífitas",
-        "Boa aeração",
-        "Drenagem livre",
-        "Secagem entre regas"
+        "Aeração alta",
+        "Secagem entre regas",
+        "Drenagem rápida"
     ],
     "itens": [
         {
             "asset": "macadamia",
             "nome": "Casca de macadâmia",
-            "nota": "Componente da receita original",
-            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+            "proporcao": "35%",
+            "nota": "estrutura",
+            "finalidade": "Cria partículas estruturais e espaços de ar; use granulometria grossa ou média conforme o porte."
         },
         {
             "asset": "casca-pinus",
             "nome": "Casca de pinus",
-            "nota": "Componente da receita original",
-            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+            "proporcao": "30%",
+            "nota": "base orgânica",
+            "finalidade": "Forma a base orgânica e retém umidade moderada sem bloquear os espaços entre partículas."
         },
         {
             "asset": "perlita",
             "nome": "Perlita grossa",
-            "nota": "Componente da receita original",
-            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+            "proporcao": "20%",
+            "nota": "aeração",
+            "finalidade": "Aumenta a porosidade e reduz a compactação, favorecendo a oxigenação das raízes."
         },
         {
             "asset": "carvao-vegetal",
             "nome": "Carvão vegetal",
-            "nota": "Componente da receita original",
-            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+            "proporcao": "15%",
+            "nota": "drenagem",
+            "finalidade": "Contribui para uma mistura aberta e de drenagem rápida; não substitui a renovação periódica."
         }
     ],
-    "alerta": "Percentuais não documentados na ficha original; não foram atribuídos valores arbitrários."
+    "alerta": "Percentuais são uma proposta técnica inicial, não uma fórmula específica validada experimentalmente; ajuste ao clima, recipiente e ritmo de secagem.",
+    "comportamento": [
+        {
+            "nome": "Retenção",
+            "valor": 2,
+            "icone": "💧"
+        },
+        {
+            "nome": "Aeração",
+            "valor": 5,
+            "icone": "💨"
+        },
+        {
+            "nome": "Secagem",
+            "valor": 4,
+            "icone": "⚡"
+        },
+        {
+            "nome": "Compactação",
+            "valor": 1,
+            "icone": "🧱"
+        }
+    ]
 },
     errosComuns: "Cultivar com pouca luz; usar vaso grande demais; manter substrato velho, ácido ou constantemente molhado; regar por calendário sem observar a secagem; usar adubo concentrado ou grandes doses de fósforo para tentar forçar floração; replantar fora do início do enraizamento; molhar repetidamente brotos novos no fim do dia; deixar água acumulada na espata; dividir plantas pequenas.",
     dica: "Observe o pseudobulbo, não apenas o calendário. Durante brotação e enraizamento, forneça água, adubação leve e luz suficiente para que o novo crescimento atinja seu tamanho máximo. Quando a folha estiver firme e o pseudobulbo maduro, reduza naturalmente a adubação e mantenha boa luminosidade. Um pseudobulbo robusto sustentado por raízes saudáveis tem muito mais chance de preencher a espata e produzir flores grandes.",
