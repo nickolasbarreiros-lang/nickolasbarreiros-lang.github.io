@@ -563,9 +563,9 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                 ${itensValidos.map((item, indice) => `
                     ${indice > 0 ? `<span class="sinal-mais-substrato-v4" aria-hidden="true">+</span>` : ""}
                     <article class="ingrediente-substrato-v4">
+                        ${item.proporcao ? `<span class="proporcao-substrato-v4">${item.proporcao}</span>` : `<span class="proporcao-substrato-v4 proporcao-pendente-v49" aria-label="Proporção ainda não definida">—</span>`}
                         ${criarImagemAssetCultivoV4(item.asset, item.assetInfo.nome, "imagem-substrato-v4")}
                         <strong>${item.nome || item.assetInfo.nome}</strong>
-                        ${item.proporcao ? `<span class="proporcao-substrato-v4">${item.proporcao}</span>` : ""}
                         ${item.nota ? `<small>${item.nota}</small>` : ""}
                     </article>
                 `).join("")}
