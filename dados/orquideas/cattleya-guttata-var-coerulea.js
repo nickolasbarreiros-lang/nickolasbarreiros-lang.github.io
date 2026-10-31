@@ -40,6 +40,80 @@ export const cattleyaGuttataVarCoerulea = {
     rega: "No crescimento ativo, regue generosamente e deixe o meio drenar e perder grande parte da umidade antes de regar novamente. A meta é secagem acentuada e forte oxigenação, não obrigatoriamente deixar toda a massa radicular absolutamente seca por longos períodos. Após a maturação dos pseudobulbos, aumente moderadamente os intervalos conforme temperatura e velocidade de secagem.",
     suporte: "🥇 Vaso de barro pesado, oferecendo estabilidade e evaporação.\n🥈 Cachepô grande e robusto de madeira para touceiras com várias frentes.\n🥉 Cesto estrutural para plantas adultas de grande porte.\nEm todos os casos, imobilize a base e o rizoma até que o novo enraizamento trave o conjunto.",
     substrato: "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.",
+    formasCultivo: {
+    "perfilVisual": "cattleya",
+    "destaque": "Vaso de barro",
+    "resumo": "Alternativas derivadas das recomendações existentes. Estrelas visuais provisórias; MACS ainda não validado.",
+    "metodos": [
+        {
+            "nome": "Vaso de barro",
+            "asset": "vaso-barro",
+            "estrelas": 5,
+            "status": "Ideal",
+            "texto": "Vaso de barro pesado, oferecendo estabilidade e evaporação."
+        },
+        {
+            "nome": "Cachepô de madeira",
+            "asset": "cesto-madeira",
+            "estrelas": 4,
+            "status": "Muito recomendado",
+            "texto": "Cachepô grande e robusto de madeira para touceiras com várias frentes."
+        },
+        {
+            "nome": "Cachepô de madeira",
+            "asset": "cesto-madeira",
+            "estrelas": 3,
+            "status": "Adequado",
+            "texto": "Cesto estrutural para plantas adultas de grande porte."
+        },
+        {
+            "nome": "Vaso plástico",
+            "asset": "vaso-plastico",
+            "estrelas": 2,
+            "status": "Alternativa",
+            "texto": "Em todos os casos, imobilize a base e o rizoma até que o novo enraizamento trave o conjunto."
+        }
+    ]
+},
+    substratoVisual: {
+    "titulo": "Substrato ideal",
+    "contexto": "Receita visual provisória",
+    "resumo": "Ingredientes da receita existente, sem atribuição de porcentagens não verificadas.",
+    "justificativa": "A composição mantém os materiais anteriormente recomendados. A definição quantitativa e a validação técnica ficam para a revisão específica.",
+    "receitaTexto": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.",
+    "perfil": [
+        "Aeração",
+        "Drenagem",
+        "Proporções a validar"
+    ],
+    "itens": [
+        {
+            "asset": "macadamia",
+            "nome": "Casca de macadâmia",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        },
+        {
+            "asset": "casca-pinus",
+            "nome": "Casca de pinus",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        },
+        {
+            "asset": "perlita",
+            "nome": "Perlita grossa",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        },
+        {
+            "asset": "carvao-vegetal",
+            "nome": "Carvão vegetal",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        }
+    ],
+    "alerta": "Receita visual preliminar; consultar recomendações originais até validação das proporções."
+},
     errosComuns: "• Planta balançando após o replantio, rompendo pontas radiculares novas.\n• Vaso leve que tomba com o peso dos pseudobulbos.\n• Sombra excessiva e crescimento estiolado.\n• Vaso enorme com núcleo constantemente úmido.\n• Substrato velho e decomposto.\n• Secar demais durante a formação de novos pseudobulbos.\n• Dividir clones valiosos em pedaços muito pequenos.\n• Replantar quando não há novas raízes em início de crescimento.\n• Adubação excessiva ou uso de fósforo muito concentrado.",
     dica: "🏆 Imobilize a base antes de pensar na floração. O grande porte transforma cada pseudobulbo em uma alavanca: vento ou esbarrões podem movimentar o rizoma e romper as pontas das raízes novas. Após o replantio, fixe firmemente rizoma e pseudobulbos principais com amarração macia ou revestida, sem estrangular os tecidos. Preserve divisões com pelo menos 4 a 5 pseudobulbos e, em clones coerulea valiosos, prefira touceiras ainda maiores. Faça o replantio quando as primeiras raízes novas começarem a aparecer.",
     revisaoCientificaIAR: {
