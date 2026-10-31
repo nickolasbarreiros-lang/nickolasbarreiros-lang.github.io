@@ -57,6 +57,7 @@ export const aciantheraGlumacea = {
         contexto: "Para cultivo em vaso",
         resumo: "Mistura aberta e estável, com boa aeração e uma reserva hídrica moderada para acompanhar o hábito epífito de ambientes florestais úmidos.",
         justificativa: "Acianthera glumacea é principalmente epífita, embora também possa ocorrer como rupícola. Há registros em diferentes formações florestais da Mata Atlântica e sobre casca rugosa com musgo. Para cultivo em vaso, isso favorece uma mistura estruturalmente aberta, que permita bastante oxigênio nas raízes, mas que retenha um pouco mais de umidade do que uma composição extremamente seca. A receita abaixo é uma recomendação prática derivada dessa ecologia e do comportamento esperado das raízes, não uma fórmula experimental publicada.",
+        receitaTexto: "Mistura-base provisória para vaso pequeno e ventilado: 45% casca de pinus média + 20% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto.",
         perfil: ["Raízes finas", "Boa aeração", "Umidade moderada", "Secagem moderada", "Baixa compactação", "Rizoma livre"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -71,6 +72,7 @@ export const aciantheraGlumacea = {
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva hídrica moderada", finalidade: "Mantém umidade entre regas sem transformar a mistura em um meio permanentemente encharcado." }
         ],
         alerta: "Mantenha o rizoma sobre a superfície. Em litoral quente e muito úmido, use vaso pequeno e bem ventilado e reduza o esfagno se a secagem estiver lenta."
+        notaEvidencia: "A composição é uma hipótese horticultural para cultivo em vaso, não ensaio controlado específico da espécie. Ainda depende de confronto documentado com 25 produtores brasileiros distintos; não alterar estrelas MACS por inferência.",
     },
     errosComuns: ["Remover ramicaules antigos ainda verdes que podem reflorir.", "Encharcar o centro de touceiras densas.", "Cultivar em calor noturno abafado.", "Usar substrato decomposto ou compactado.", "Usar vaso excessivamente grande.", "Manter sombra profunda.", "Confundir a preferência por umidade com necessidade de substrato permanentemente saturado."],
     revisaoCientificaIAR: {
