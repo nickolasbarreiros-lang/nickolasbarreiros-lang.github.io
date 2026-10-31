@@ -74,43 +74,69 @@ export const cattleyaLoddigesii = {
 },
     substratoVisual: {
     "titulo": "Substrato ideal",
-    "contexto": "Composição da ficha — proporções a validar",
-    "resumo": "Componentes da recomendação original, apresentados sem percentuais não documentados.",
-    "justificativa": "As raízes epífitas dependem de ar entre as partículas; mantenha drenagem e ajuste a rega ao recipiente.",
-    "receitaTexto": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.",
+    "contexto": "Receita técnica sugerida para cultivo em vaso",
+    "resumo": "Mistura de partículas abertas para boa aeração e drenagem, com proporções iniciais ajustáveis ao microclima.",
+    "justificativa": "As raízes epífitas precisam alternar molhamento e secagem. A mistura combina suporte orgânico, porosidade e drenagem sem reter água por tempo excessivo.",
+    "receitaTexto": "Proposta técnica inicial: 35% casca de macadâmia + 30% casca de pinus + 20% perlita grossa + 15% carvão vegetal. Percentuais propostos para teste de cultivo, não publicados como fórmula experimental para esta espécie.",
     "perfil": [
         "Raízes epífitas",
-        "Boa aeração",
-        "Drenagem livre",
-        "Secagem entre regas"
+        "Aeração alta",
+        "Secagem entre regas",
+        "Drenagem rápida"
     ],
     "itens": [
         {
             "asset": "macadamia",
             "nome": "Casca de macadâmia",
-            "nota": "Componente da mistura original",
-            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
+            "proporcao": "35%",
+            "nota": "estrutura",
+            "finalidade": "Cria partículas estruturais e espaços de ar; use granulometria grossa ou média conforme o porte."
         },
         {
             "asset": "casca-pinus",
             "nome": "Casca de pinus",
-            "nota": "Componente da mistura original",
-            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
+            "proporcao": "30%",
+            "nota": "base orgânica",
+            "finalidade": "Forma a base orgânica e retém umidade moderada sem bloquear os espaços entre partículas."
         },
         {
             "asset": "perlita",
             "nome": "Perlita grossa",
-            "nota": "Componente da mistura original",
-            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
+            "proporcao": "20%",
+            "nota": "aeração",
+            "finalidade": "Aumenta a porosidade e reduz a compactação, favorecendo a oxigenação das raízes."
         },
         {
             "asset": "carvao-vegetal",
             "nome": "Carvão vegetal",
-            "nota": "Componente da mistura original",
-            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
+            "proporcao": "15%",
+            "nota": "drenagem",
+            "finalidade": "Contribui para uma mistura aberta e de drenagem rápida; não substitui a renovação periódica."
         }
     ],
-    "alerta": "As proporções não foram informadas na receita original e permanecem pendentes de validação."
+    "alerta": "Percentuais são uma proposta técnica inicial, não uma fórmula específica validada experimentalmente; ajuste ao clima, recipiente e ritmo de secagem.",
+    "comportamento": [
+        {
+            "nome": "Retenção",
+            "valor": 2,
+            "icone": "💧"
+        },
+        {
+            "nome": "Aeração",
+            "valor": 5,
+            "icone": "💨"
+        },
+        {
+            "nome": "Secagem",
+            "valor": 4,
+            "icone": "⚡"
+        },
+        {
+            "nome": "Compactação",
+            "valor": 1,
+            "icone": "🧱"
+        }
+    ]
 },
     errosComuns: "Cultivar sob sombra excessiva; secar demais durante crescimento ativo; manter substrato velho, compactado ou constantemente molhado; usar vaso muito grande; enterrar o rizoma; replantar sem novas raízes em emissão; quebrar raízes novas durante o replante; dividir touceiras pequenas; aplicar fertilizante em excesso.",
     dica: "Replante apenas quando as primeiras pontas de raízes novas surgirem na base do crescimento mais recente. Esse é o momento em que a planta coloniza rapidamente o novo recipiente. Evite dividir apenas para organizar a touceira: várias frentes significam mais reservas, mais raízes e vários pseudobulbos capazes de florir simultaneamente.",
