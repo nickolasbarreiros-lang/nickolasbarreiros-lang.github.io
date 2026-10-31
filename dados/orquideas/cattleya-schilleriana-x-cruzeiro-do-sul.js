@@ -63,7 +63,7 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
             { asset: "casca-pinus", nome: "Casca de pinus média/grossa", proporcao: "40%", nota: "estrutura", finalidade: "Mantém espaços de ar entre as raízes." },
             { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "25%", nota: "estrutura", finalidade: "Acrescenta porosidade à mistura." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "drenagem", finalidade: "Reduz compactação." },
-            { asset: "perlita-grossa", nome: "Perlita grossa", proporcao: "15%", nota: "aeração", finalidade: "Ajuda a manter a mistura aberta." }
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "15%", nota: "aeração", finalidade: "Ajuda a manter a mistura aberta." }
         ],
         alerta: "Não enterre o rizoma. Replante somente no início da emissão de novas raízes."
     },
