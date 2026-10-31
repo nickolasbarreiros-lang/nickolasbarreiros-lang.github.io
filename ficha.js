@@ -471,7 +471,7 @@ function criarFormasCultivoV4(config, perfilRadicular = []) {
                     ${criarImagemAssetCultivoV4(principal.asset, principal.nome, "imagem-forma-v4", config.perfilVisual || "")}
                     <div class="corpo-forma-v4">
                         <div class="topo-forma-v4"><h5>${principal.nome}</h5><span class="status-forma-v4">${principal.status || ""}</span></div>
-                        ${estrelas(principal.estrelas)}
+                        ${Number.isFinite(principal.estrelas) ? estrelas(principal.estrelas) : ""}
                         <p>${principal.texto || ""}</p>
                         ${Array.isArray(perfilRadicular) && perfilRadicular.length ? `
                             <div class="perfil-cultivo-principal-v417">
@@ -516,7 +516,7 @@ function criarFormasCultivoV4(config, perfilRadicular = []) {
                                     <strong class="nome-alternativa-forma-v48">${metodo.nome}</strong>
                                     <div class="avaliacao-alternativa-forma-v413">
                                         <span class="status-forma-v4">${metodo.status || ""}</span>
-                                        <span class="estrelas-alternativa-forma-v48">${estrelas(metodo.estrelas)}</span>
+                                        <span class="estrelas-alternativa-forma-v48">${Number.isFinite(metodo.estrelas) ? estrelas(metodo.estrelas) : ""}</span>
                                     </div>
                                 </div>
                                 <p class="comentario-alternativa-forma-v413">${metodo.texto || ""}</p>
