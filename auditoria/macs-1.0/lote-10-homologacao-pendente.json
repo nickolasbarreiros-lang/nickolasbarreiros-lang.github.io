@@ -1262,31 +1262,76 @@
     {
       "especie": "Cattlianthe Chocolate Drop",
       "arquivo": "dados/orquideas/cattleya-chocolate-drop.js",
-      "status": "pesquisa_em_andamento",
+      "status": "parecer_tecnico_concluido_com_evidencia_direta",
       "metodologia": "MACS 1.0",
       "produtores_brasileiros": {
         "consultados": 0,
         "meta": 25,
         "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
         "meta_flexivel": true,
-        "justificativa_encerramento": null
+        "justificativa_encerramento": "Nesta rodada foi priorizado artigo científico brasileiro específico do híbrido. Ainda não há consultas documentadas de produtores comerciais; meta flexível de 25 continua aberta."
       },
       "fontes_iniciais": [
         {
-          "nome": "Revisão acadêmica UFS",
-          "url": "https://ri.ufs.br/bitstream/riufs/3034/1/THAYS_SAYNARA_ALVES_MENEZES.pdf",
-          "conclusao": "Menciona pesquisa de aclimatização de híbrido Chocolate Drop; referência secundária, conferir trabalho original."
+          "nome": "RHS International Orchid Register — Cattlianthe Chocolate Drop",
+          "url": "https://apps.rhs.org.uk/horticulturaldatabase/orchidregister/orchiddetails.asp?ID=72296",
+          "tipo": "registro_primario",
+          "conclusao": "Stewart Inc., 1965, Cattleya guttata × Guarianthe aurantiaca."
+        },
+        {
+          "nome": "Horticultura Brasileira (2016) — Adubação mineral e orgânica no desenvolvimento de Cattlianthe Chocolate Drop",
+          "url": "https://www.scielo.br/j/hb/a/psYNv6tY7DppxrBNVkHfZNp/?lang=pt",
+          "tipo": "experimento_direto_hibrido",
+          "conclusao": "160 plantas clonadas jovens, em vasos plásticos de 1 L com 4 partes pinus : 3 partes carvão, drenagem cerâmica; compara adubações, não substratos. FMU+BOK superou controle no crescimento."
+        },
+        {
+          "nome": "Townsville Orchid Society — Chocolate Drop em cultivo",
+          "url": "https://townsvilleorchidsociety.org.au/newsletters/2014/03%20%20%20March%202014.pdf",
+          "tipo": "relato_horticultural_adulto",
+          "conclusao": "Cultivador relata planta vigorosa e raízes abundantes; relato individual sem comparação experimental."
+        },
+        {
+          "nome": "AOS — Cattleya culture sheet",
+          "url": "https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet",
+          "tipo": "guia_geral",
+          "conclusao": "Recomenda secagem entre regas e equilíbrio de aeração; não especifica este híbrido."
         }
       ],
       "perfil_radicular_hidrico": {
-        "espessura_raizes": null,
-        "exposicao_natural": null,
-        "reserva_hidrica": null,
-        "necessidade_umidade": null,
-        "tolerancia_secagem": null,
-        "sensibilidade_saturacao": null,
-        "arquitetura_crescimento": null,
-        "condicoes_termicas": null
+        "espessura_raizes": {
+          "avaliacao": "sistema radicular abundante, espessura não quantificada",
+          "confianca": "baixa",
+          "origem": "relato de cultivo"
+        },
+        "exposicao_natural": {
+          "avaliacao": "híbrido sem habitat natural, parentais epífitos",
+          "confianca": "moderada"
+        },
+        "reserva_hidrica": {
+          "avaliacao": "pseudobulbos",
+          "confianca": "alta"
+        },
+        "necessidade_umidade": {
+          "avaliacao": "estudo irrigou diariamente em ambiente protegido; frequência não transferível ao clima quente",
+          "confianca": "alta para protocolo, baixa para generalização"
+        },
+        "tolerancia_secagem": {
+          "avaliacao": "permitir secagem parcial entre regas conforme suporte",
+          "confianca": "moderada",
+          "origem": "AOS"
+        },
+        "sensibilidade_saturacao": {
+          "avaliacao": "meio aberto e camada de drenagem no ensaio; evitar saturação crônica",
+          "confianca": "moderada"
+        },
+        "arquitetura_crescimento": {
+          "avaliacao": "simpodial de pseudobulbos eretos; adulto precisa estabilidade",
+          "confianca": "moderada"
+        },
+        "condicoes_termicas": {
+          "avaliacao": "tolerância ao calor inferida dos parentais; estudo em viveiro subtropical",
+          "confianca": "baixa para litoral quente"
+        }
       },
       "avaliacao_montagens": {
         "metodos": [
@@ -1298,23 +1343,129 @@
           "arvore-viva",
           "raizes-soltas"
         ],
-        "pontuacoes": null,
-        "risco_eliminatorio": null
+        "pontuacoes": [
+          {
+            "metodo": "vaso-plastico-vasado",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 4,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 4
+            },
+            "nota_100": 80
+          },
+          {
+            "metodo": "vaso-plastico",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 3,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 5
+            },
+            "nota_100": 78
+          },
+          {
+            "metodo": "vaso-barro",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 4,
+              "espaco": 4,
+              "calor": 3,
+              "evidencia": 3
+            },
+            "nota_100": 76
+          },
+          {
+            "metodo": "cesto-madeira",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 3,
+              "aeracao": 5,
+              "espaco": 4,
+              "calor": 3,
+              "evidencia": 2
+            },
+            "nota_100": 73
+          },
+          {
+            "metodo": "arvore-viva",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 2,
+              "aeracao": 5,
+              "espaco": 3,
+              "calor": 2,
+              "evidencia": 1
+            },
+            "nota_100": 62
+          },
+          {
+            "metodo": "placa-tronco",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 2,
+              "aeracao": 5,
+              "espaco": 3,
+              "calor": 2,
+              "evidencia": 1
+            },
+            "nota_100": 62
+          },
+          {
+            "metodo": "raizes-soltas",
+            "criterios": {
+              "raizes": 3,
+              "equilibrio_hidrico": 1,
+              "aeracao": 5,
+              "espaco": 2,
+              "calor": 1,
+              "evidencia": 1
+            },
+            "nota_100": 48
+          }
+        ],
+        "risco_eliminatorio": "Plástico fechado + partículas finas pode encharcar; cesto/placa sem regas suficientes pode desidratar no calor.",
+        "pesos": {
+          "raizes": 25,
+          "equilibrio_hidrico": 25,
+          "aeracao": 20,
+          "espaco": 10,
+          "calor": 10,
+          "evidencia": 10
+        },
+        "natureza": "Heurística 1–5 com pesos MACS, não resultado experimental. Evidência experimental em vaso plástico se refere a plantas jovens."
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
-        "comparacao_brasileira": "pendente",
-        "validacao_percentuais": false
+        "comparacao_brasileira": "Estudo brasileiro direto com 4 partes de casca de pinus para 3 de carvão vegetal; pesquisa NÃO comparou substratos. Receita anterior 35 pinus/30 macadâmia/20 perlita/15 carvão não possui apoio experimental direto.",
+        "validacao_percentuais": true,
+        "validacao_tecnica": {
+          "receita_referencia": "4 volumes pinus : 3 volumes carvão vegetal (aprox. 57,14% pinus e 42,86% carvão)",
+          "status": "receita empregada em ensaio científico do próprio híbrido, mas NÃO validada como ótima",
+          "alternativa": "Mistura anterior com macadâmia e perlita é inferência horticultural sem validação direta.",
+          "granulometria": "casca de pinus e carvão de granulometria média/grossa; ensaio não autoriza inventar tamanho exato",
+          "contexto": "160 plantas jovens, vasos plásticos de 1L, camada de cerâmica e irrigação diária em viveiro subtropical"
+        }
       },
       "pendencias": [
-        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
-        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
-        "Conferir taxonomia, hábito e oito critérios com referências",
-        "Pontuar os sete métodos e riscos eliminatórios",
-        "Confrontar misturas publicadas, granulometria e percentuais",
-        "Inspeção visual e homologação editorial"
+        "Ampliar produtores brasileiros para corroborar manejo de adultos",
+        "Revisar ficha publicada conforme evidência, sem tratar receita do estudo como ótima",
+        "Inspeção visual do site"
       ],
-      "fontes_cientificas_status": "levantamento_incompleto"
+      "fontes_cientificas_status": "levantamento_incompleto",
+      "parecer_final": {
+        "decisao": "Recomendação MACS baseada em ensaio direto do híbrido, com limites explícitos; não homologação de receita ótima.",
+        "suporte": "Vaso plástico perfurado ou comum bem drenado, barro como alternativa. Vaso plástico possui precedente experimental em plantas jovens; diferenças de pontuação não estabelecem superioridade para adulto.",
+        "substrato": "Priorizar referência de pinus + carvão 4:3 em volume; é formulação utilizada em experimento, não vencedora de comparação. A mistura com macadâmia/perlita fica como alternativa técnica não validada.",
+        "fonte_chave": "https://www.scielo.br/j/hb/a/psYNv6tY7DppxrBNVkHfZNp/?lang=pt",
+        "limites": "Estudo de adubação com plantas jovens e clima subtropical; não testa substratos nem compara recipientes para plantas adultas em litoral quente."
+      },
+      "etapa": "pesquisa_cientifica_direta_e_matriz_corrigida"
     },
     {
       "especie": "Cattleya guttata coerulea",
