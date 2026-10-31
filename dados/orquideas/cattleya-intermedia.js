@@ -42,7 +42,7 @@ export const cattleyaIntermedia = {
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Cachepô de madeira",
-    "resumo": "A escolha do recipiente equilibra oxigenação das raízes, drenagem e estabilidade, com secagem adequada entre regas.",
+    "resumo": "MACS 1.0: cachepô de madeira (91/100), árvore viva (82/100), barro e plástico vasado (80/100). As pontuações são heurísticas, não ensaios comparativos.",
     "metodos": [
         {
             "nome": "Cachepô de madeira",
@@ -78,7 +78,7 @@ export const cattleyaIntermedia = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "A espécie forma touceiras com raízes expostas; a mistura equilibra aeração e retenção moderada para cultivo em recipiente.",
+    "justificativa": "A espécie forma touceiras e requer boa aeração. Estudos com plântulas avaliaram coco e pinus, mas não validaram os percentuais desta mistura para plantas adultas; a composição permanece proposta horticultural.",
     "receitaTexto": "Proposta de cultivo (não validada por ensaio): 30% casca de macadâmia + 30% casca de pinus + 25% perlita grossa + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
     "perfil": [
         "Raízes epífitas",
@@ -116,7 +116,7 @@ export const cattleyaIntermedia = {
             "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
-    "alerta": "Proporções orientativas, sujeitas à revisão por fontes brasileiras específicas; observar a secagem antes de repetir a rega."
+    "alerta": "Mistura orientativa 30/30/25/15, sem ensaio específico em plantas adultas. Resultados científicos de aclimatização de plântulas não demonstram superioridade desta receita; acompanhar a secagem."
 },
     errosComuns: "• Enterrar o rizoma ou as gemas de brotação.\n• Sombra excessiva, que produz pseudobulbos finos e reduz a floração.\n• Vaso muito grande e com excesso de substrato úmido.\n• Substrato velho, ácido ou decomposto.\n• Replantar fora do início da emissão de raízes novas.\n• Manter o centro do recipiente constantemente molhado.\n• Secar excessivamente durante crescimento ativo.\n• Tentar compensar pouca luz com adubação forte.",
     dica: "🏆 Mantenha o rizoma livre e replante apenas quando surgirem as primeiras pontas de raízes novas. Cattleya intermedia responde melhor quando o novo crescimento consegue colonizar imediatamente o recipiente. Em vez de perseguir uma cor exata de folha, observe raízes ativas, pseudobulbos robustos, folhas firmes e floração regular. Preserve touceiras grandes sempre que houver espaço: várias frentes maduras significam mais reservas e maior potencial de flores simultâneas.",
