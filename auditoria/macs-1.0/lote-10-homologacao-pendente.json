@@ -1470,25 +1470,88 @@
     {
       "especie": "Cattleya guttata coerulea",
       "arquivo": "dados/orquideas/cattleya-guttata-var-coerulea.js",
-      "status": "pesquisa_em_andamento",
+      "status": "parecer_tecnico_concluido_com_restricoes",
       "metodologia": "MACS 1.0",
       "produtores_brasileiros": {
-        "consultados": 0,
+        "consultados": 3,
         "meta": 25,
         "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
         "meta_flexivel": true,
-        "justificativa_encerramento": null
+        "justificativa_encerramento": "Três produtores com conteúdo verificável nesta rodada; nenhum ensaio comparativo nem validação dos percentuais da mistura; meta flexível não atingida.",
+        "registros": [
+          {
+            "nome": "Orquidário Oriental",
+            "url": "https://www.orquidariooriental.com.br/produto/icattleya-guttata-albai%2C23144/",
+            "nivel": "especie_outra_forma",
+            "resultado": "Para C. guttata alba, brita, fibra de coco e pinus; vasos plástico, barro ou caixeta."
+          },
+          {
+            "nome": "Orquidário 4 Estações",
+            "url": "https://www.orquidario4e.com.br/3p982gqsm-orquidea-cattleya-guttata-cetro-de-esmeralda-ad",
+            "nivel": "especie_tipo",
+            "resultado": "Para C. guttata, cachepô de madeira com pinus ou placa de madeira; mistura bem drenada."
+          },
+          {
+            "nome": "Bioma Plantas",
+            "url": "https://biomaplantas.com.br/mudas/",
+            "nivel": "forma_caerulea_anunciada",
+            "resultado": "C. guttata caerula: vaso plástico, barro ou caixeta; carvão, pinus, esfagno; admite fixação em árvore."
+          }
+        ]
       },
-      "fontes_iniciais": [],
+      "fontes_iniciais": [
+        {
+          "nome": "Kew POWO — Cattleya guttata",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30079360-2",
+          "tipo": "taxonomia",
+          "conclusao": "Cattleya guttata aceita; C. guttata var. caerulea consta como sinônimo; f. coerulea deve ser tratada como designação horticultural de cor, não táxon aceito."
+        },
+        {
+          "nome": "JBRJ Flora do Brasil — Cattleya",
+          "url": "https://monografiasfloradobrasil.jbrj.gov.br/cattleya.pdf",
+          "tipo": "flora_botanica",
+          "conclusao": "C. guttata costeira, epífita ou terrícola, hastes multiflorais, pode apresentar porte alto."
+        },
+        {
+          "nome": "ESALQ/USP — Orquídeas",
+          "url": "https://www.esalq.usp.br/biblioteca/sites/default/files/publicacoes-a-venda/pdf/SPR_Orquideas.pdf",
+          "tipo": "manual_tecnico",
+          "conclusao": "Raízes epífitas exigem aeração; pinus sem pó tem secagem moderada e carvão secagem rápida."
+        }
+      ],
       "perfil_radicular_hidrico": {
-        "espessura_raizes": null,
-        "exposicao_natural": null,
-        "reserva_hidrica": null,
-        "necessidade_umidade": null,
-        "tolerancia_secagem": null,
-        "sensibilidade_saturacao": null,
-        "arquitetura_crescimento": null,
-        "condicoes_termicas": null
+        "espessura_raizes": {
+          "avaliacao": "epífita com velame, espessura não quantificada",
+          "confianca": "baixa"
+        },
+        "exposicao_natural": {
+          "avaliacao": "epífita ou terrícola costeira",
+          "confianca": "alta"
+        },
+        "reserva_hidrica": {
+          "avaliacao": "pseudobulbos alongados e folhas coriáceas",
+          "confianca": "alta"
+        },
+        "necessidade_umidade": {
+          "avaliacao": "regar durante crescimento, secagem parcial",
+          "confianca": "moderada"
+        },
+        "tolerancia_secagem": {
+          "avaliacao": "sazonalidade; evitar secagem extrema em crescimento",
+          "confianca": "moderada"
+        },
+        "sensibilidade_saturacao": {
+          "avaliacao": "mistura grossa, drenagem e oxigênio",
+          "confianca": "moderada"
+        },
+        "arquitetura_crescimento": {
+          "avaliacao": "simpodial, porte alto e touceiras pesadas",
+          "confianca": "alta"
+        },
+        "condicoes_termicas": {
+          "avaliacao": "ambientes tropicais costeiros sazonalmente secos",
+          "confianca": "alta"
+        }
       },
       "avaliacao_montagens": {
         "metodos": [
@@ -1500,23 +1563,126 @@
           "arvore-viva",
           "raizes-soltas"
         ],
-        "pontuacoes": null,
-        "risco_eliminatorio": null
+        "pontuacoes": [
+          {
+            "metodo": "vaso-barro",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 4,
+              "espaco": 5,
+              "calor": 4,
+              "evidencia": 4
+            },
+            "nota_100": 82
+          },
+          {
+            "metodo": "cesto-madeira",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 3,
+              "aeracao": 5,
+              "espaco": 5,
+              "calor": 3,
+              "evidencia": 4
+            },
+            "nota_100": 79
+          },
+          {
+            "metodo": "vaso-plastico-vasado",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 4,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 3
+            },
+            "nota_100": 78
+          },
+          {
+            "metodo": "vaso-plastico",
+            "criterios": {
+              "raizes": 3,
+              "equilibrio_hidrico": 4,
+              "aeracao": 3,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 4
+            },
+            "nota_100": 71
+          },
+          {
+            "metodo": "arvore-viva",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 2,
+              "aeracao": 5,
+              "espaco": 3,
+              "calor": 2,
+              "evidencia": 3
+            },
+            "nota_100": 66
+          },
+          {
+            "metodo": "placa-tronco",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 2,
+              "aeracao": 5,
+              "espaco": 2,
+              "calor": 2,
+              "evidencia": 3
+            },
+            "nota_100": 64
+          },
+          {
+            "metodo": "raizes-soltas",
+            "criterios": {
+              "raizes": 3,
+              "equilibrio_hidrico": 1,
+              "aeracao": 5,
+              "espaco": 1,
+              "calor": 1,
+              "evidencia": 1
+            },
+            "nota_100": 46
+          }
+        ],
+        "risco_eliminatorio": "Vaso leve sem fixação pode tombar e romper raízes; vaso grande com partículas finas pode manter saturação.",
+        "pesos": {
+          "raizes": 25,
+          "equilibrio_hidrico": 25,
+          "aeracao": 20,
+          "espaco": 10,
+          "calor": 10,
+          "evidencia": 10
+        },
+        "natureza": "Pontuações heurísticas para planta adulta grande em clima quente, não comparação experimental."
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
-        "comparacao_brasileira": "pendente",
-        "validacao_percentuais": false
+        "comparacao_brasileira": "Produtores apoiam pinus, carvão, brita e coco como componentes, mas não há validação direta para macadâmia 35%, pinus 25%, brita 25%, carvão 15%.",
+        "validacao_percentuais": true,
+        "validacao_tecnica": {
+          "receita_atual": "35% macadâmia + 25% pinus + 25% brita fina + 15% carvão vegetal",
+          "soma": 100,
+          "decisao": "plausível para vaso de barro estável, sem ensaio específico; evitar apresentar como ótima",
+          "alternativa_comercial": "pinus médio/grosso + brita fina + carvão em granulometria aberta, sem percentual comprovado"
+        }
       },
       "pendencias": [
-        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
-        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
-        "Conferir taxonomia, hábito e oito critérios com referências",
-        "Pontuar os sete métodos e riscos eliminatórios",
-        "Confrontar misturas publicadas, granulometria e percentuais",
-        "Inspeção visual e homologação editorial"
+        "Ampliar pesquisa em produtores brasileiros",
+        "Inspecionar visualmente ficha após eventuais alterações"
       ],
-      "fontes_cientificas_status": "levantamento_incompleto"
+      "fontes_cientificas_status": "levantamento_incompleto",
+      "parecer_final": {
+        "decisao": "Parecer técnico condicional MACS 1.0; sem homologação experimental dos percentuais",
+        "cultivo": "Vaso de barro estável com fixação da touceira; cachepô robusto e vaso plástico vasado são alternativas.",
+        "taxonomia": "Nome aceito Cattleya guttata; coerulea designação horticultural, não nome infraespecífico aceito em POWO.",
+        "limites": "Três produtores documentados, evidência de espécie e forma; nenhuma comparação experimental de suportes ou proporções."
+      },
+      "etapa": "matriz_e_fontes_registradas"
     },
     {
       "especie": "Cattleya intermedia",
