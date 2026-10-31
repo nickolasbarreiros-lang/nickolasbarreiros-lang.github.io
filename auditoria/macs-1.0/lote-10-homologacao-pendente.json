@@ -678,22 +678,89 @@
       "status": "pesquisa_em_andamento",
       "metodologia": "MACS 1.0",
       "produtores_brasileiros": {
-        "consultados": 0,
+        "consultados": 1,
         "meta": 25,
         "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
         "meta_flexivel": true,
-        "justificativa_encerramento": null
+        "justificativa_encerramento": "Uma fonte comercial diretamente atribuída ao grex foi localizada nesta rodada; não é amostragem exaustiva nem suficiente para alegar convergência de produtores.",
+        "registros": [
+          {
+            "nome": "Orquidário Bauru",
+            "url": "https://orquidariobauru.meucatalogodigital.com/",
+            "resultado": "Anuncia Cattleya A Brazilian Dream, sem recomendação específica de substrato ou suporte.",
+            "nivel": "grex_exato_sem_orientacao"
+          }
+        ]
       },
-      "fontes_iniciais": [],
+      "fontes_iniciais": [
+        {
+          "nome": "RHS International Orchid Register suplemento 2019",
+          "url": "https://www.rhs.org.uk/about-us/pdfs/publications/orchid-hybrid-lists/orchid-reg-nhl-1329-oct-dec-2019",
+          "tipo": "registro_primario",
+          "conclusao": "C. nobilior × C. loddigesii, W. Pires, 2019."
+        },
+        {
+          "nome": "Kew POWO Cattleya nobilior",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:622173-1",
+          "tipo": "botanica_parental",
+          "conclusao": "Epífita pseudobulbosa de bioma tropical sazonalmente seco."
+        },
+        {
+          "nome": "Sorace (2008), UEL",
+          "url": "https://repositorio.uel.br/items/ea109160-d382-4cc6-9d7c-eeaad0fc9bb3",
+          "tipo": "experimento_parental_juvenil",
+          "conclusao": "Em plântulas de C. loddigesii, pinus e pinus+arroz carbonizado destacaram-se; fibra de coco isolada teve pior desempenho. Não extrapolar a híbrido adulto."
+        },
+        {
+          "nome": "Schnitzer et al. (2015), Revista Ceres",
+          "url": "https://ojs.ceres.ufv.br/ceres/article/view/4222",
+          "tipo": "experimento_parental_juvenil",
+          "conclusao": "C. loddigesii em mistura 1:1:1 coco, pinus e arroz carbonizado; estudo testou extrato pirolenhoso, não superioridade da mistura."
+        },
+        {
+          "nome": "American Orchid Society — Cattleya culture",
+          "url": "https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet",
+          "tipo": "guia_horticultural",
+          "conclusao": "Ciclos molhado/seco e regas mais frequentes em suportes expostos em calor."
+        }
+      ],
       "perfil_radicular_hidrico": {
         "espessura_raizes": null,
-        "exposicao_natural": null,
-        "reserva_hidrica": null,
-        "necessidade_umidade": null,
-        "tolerancia_secagem": null,
-        "sensibilidade_saturacao": null,
-        "arquitetura_crescimento": null,
-        "condicoes_termicas": null
+        "exposicao_natural": {
+          "avaliacao": "híbrido sem habitat; pais epífitos",
+          "confianca": "alta",
+          "origem": "RHS/POWO"
+        },
+        "reserva_hidrica": {
+          "avaliacao": "pseudobulbos",
+          "confianca": "moderada",
+          "origem": "parentais"
+        },
+        "necessidade_umidade": {
+          "avaliacao": "regar em crescimento e permitir secagem",
+          "confianca": "moderada",
+          "origem": "AOS"
+        },
+        "tolerancia_secagem": {
+          "avaliacao": "variável; não impor repouso seco extremo",
+          "confianca": "baixa",
+          "origem": "inferência a partir de parentais"
+        },
+        "sensibilidade_saturacao": {
+          "avaliacao": "evitar encharcamento persistente",
+          "confianca": "moderada",
+          "origem": "AOS"
+        },
+        "arquitetura_crescimento": {
+          "avaliacao": "simpodial, com pseudobulbos",
+          "confianca": "moderada",
+          "origem": "parentais"
+        },
+        "condicoes_termicas": {
+          "avaliacao": "quente-intermediário como hipótese de cultivo",
+          "confianca": "baixa",
+          "origem": "parentais"
+        }
       },
       "avaliacao_montagens": {
         "metodos": [
@@ -705,23 +772,139 @@
           "arvore-viva",
           "raizes-soltas"
         ],
-        "pontuacoes": null,
-        "risco_eliminatorio": null
+        "pontuacoes": [
+          {
+            "metodo": "vaso-plastico-vasado",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 4,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 2
+            },
+            "nota_100": 76
+          },
+          {
+            "metodo": "vaso-barro",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 4,
+              "espaco": 4,
+              "calor": 3,
+              "evidencia": 2
+            },
+            "nota_100": 74
+          },
+          {
+            "metodo": "cesto-madeira",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 3,
+              "aeracao": 5,
+              "espaco": 4,
+              "calor": 3,
+              "evidencia": 2
+            },
+            "nota_100": 73
+          },
+          {
+            "metodo": "arvore-viva",
+            "criterios": {
+              "raizes": 5,
+              "equilibrio_hidrico": 2,
+              "aeracao": 5,
+              "espaco": 4,
+              "calor": 2,
+              "evidencia": 2
+            },
+            "nota_100": 71
+          },
+          {
+            "metodo": "placa-tronco",
+            "criterios": {
+              "raizes": 5,
+              "equilibrio_hidrico": 2,
+              "aeracao": 5,
+              "espaco": 3,
+              "calor": 2,
+              "evidencia": 2
+            },
+            "nota_100": 69
+          },
+          {
+            "metodo": "vaso-plastico",
+            "criterios": {
+              "raizes": 3,
+              "equilibrio_hidrico": 4,
+              "aeracao": 3,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 2
+            },
+            "nota_100": 67
+          },
+          {
+            "metodo": "raizes-soltas",
+            "criterios": {
+              "raizes": 3,
+              "equilibrio_hidrico": 1,
+              "aeracao": 5,
+              "espaco": 2,
+              "calor": 1,
+              "evidencia": 1
+            },
+            "nota_100": 48
+          }
+        ],
+        "risco_eliminatorio": "Cesto e placa sem irrigação suficiente em calor: desidratação; plástico com partículas finas: saturação.",
+        "pesos": {
+          "raizes": 25,
+          "equilibrio_hidrico": 25,
+          "aeracao": 20,
+          "espaco": 10,
+          "calor": 10,
+          "evidencia": 10
+        },
+        "natureza": "Pontuação heurística condicional; não ensaio do grex."
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
-        "comparacao_brasileira": "pendente",
-        "validacao_percentuais": false
+        "comparacao_brasileira": "UEL encontrou resultados favoráveis com pinus e pinus+arroz carbonizado em plântulas do parental C. loddigesii; composição com macadâmia/perlita não foi ensaiada.",
+        "validacao_percentuais": true,
+        "validacao_tecnica": {
+          "composicao": [
+            {
+              "material": "macadamia",
+              "percentual": 40
+            },
+            {
+              "material": "casca-pinus",
+              "percentual": 25
+            },
+            {
+              "material": "perlita",
+              "percentual": 20
+            },
+            {
+              "material": "carvao-vegetal",
+              "percentual": 15
+            }
+          ],
+          "soma": 100,
+          "decisao": "plausível mas não comprovada; maior fração de macadâmia carece de evidência direta",
+          "alternativa_cientificamente_informada": "pinus grosso e casca de arroz carbonizada em proporções ajustadas ao recipiente; estudo parental em plântulas não determina receita de adulto",
+          "limites": "Sem ensaio direto do grex; percentuais são hipótese técnica."
+        }
       },
       "pendencias": [
-        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
-        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
-        "Conferir taxonomia, hábito e oito critérios com referências",
-        "Pontuar os sete métodos e riscos eliminatórios",
-        "Confrontar misturas publicadas, granulometria e percentuais",
-        "Inspeção visual e homologação editorial"
+        "Ampliar consulta de produtores com grex exato ou documentar escassez",
+        "Investigar evidências específicas para cultivo de híbrido adulto",
+        "Revisão editorial e inspeção visual da ficha antes de homologar"
       ],
-      "fontes_cientificas_status": "levantamento_incompleto"
+      "fontes_cientificas_status": "levantamento_incompleto",
+      "etapa": "revisao_cientifica_parentais_e_matriz_inicial"
     },
     {
       "especie": "Cattleya aclandiae",
