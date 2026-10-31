@@ -40,7 +40,7 @@ export const cattleyaLoddigesii = {
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso de barro",
-    "resumo": "A escolha do recipiente equilibra oxigenação das raízes, drenagem e estabilidade, com secagem adequada entre regas.",
+    "resumo": "MACS 1.0: barro e plástico vasado são opções próximas; o vaso de barro segue como proposta principal pela secagem lateral.",
     "metodos": [
         {
             "nome": "Vaso de barro",
@@ -114,7 +114,7 @@ export const cattleyaLoddigesii = {
             "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
-    "alerta": "Proporções orientativas, sujeitas à revisão por fontes brasileiras específicas; observar a secagem antes de repetir a rega."
+    "alerta": "Estudos com plântulas favorecem pinus e pinus associado à casca de arroz carbonizada, mas não validam esta receita para plantas adultas. Observar secagem e manter drenagem."
 },
     errosComuns: "Cultivar sob sombra excessiva; secar demais durante crescimento ativo; manter substrato velho, compactado ou constantemente molhado; usar vaso muito grande; enterrar o rizoma; replantar sem novas raízes em emissão; quebrar raízes novas durante o replante; dividir touceiras pequenas; aplicar fertilizante em excesso.",
     dica: "Replante apenas quando as primeiras pontas de raízes novas surgirem na base do crescimento mais recente. Esse é o momento em que a planta coloniza rapidamente o novo recipiente. Evite dividir apenas para organizar a touceira: várias frentes significam mais reservas, mais raízes e vários pseudobulbos capazes de florir simultaneamente.",
