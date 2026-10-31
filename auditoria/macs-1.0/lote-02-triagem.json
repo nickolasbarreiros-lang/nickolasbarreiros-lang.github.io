@@ -39,8 +39,74 @@
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
-      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
+      "status_macs": "pesquisa_especifica_documentada_parecer_parcial",
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS.",
+      "fontes": [
+        {
+          "nome": "Flora do Brasil JBRJ",
+          "url": "https://monografiasfloradobrasil.jbrj.gov.br/cattleya.pdf",
+          "tipo": "botanica",
+          "conclusao": "Espécie epífita, endêmica, pseudobulbos e folhas bifoliadas; descrição taxonômica."
+        },
+        {
+          "nome": "American Orchid Society",
+          "url": "https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-schilleriana-rchb-f",
+          "tipo": "horticultura_especie",
+          "conclusao": "Relata plantas robustas em recipientes com casca média porosa, barro em espécimes grandes; menos água em fase de menor crescimento; não é experimento."
+        },
+        {
+          "nome": "Orquidário Santa Clara",
+          "url": "https://orquidariosantaclara.com.br/cattleyas-e-afins/4790-cattleya-schilleriana-coerulea-ad.html",
+          "tipo": "produtor_brasileiro_outra_forma",
+          "conclusao": "Vaso com pinus e carvão, também placas com retenção local junto às raízes."
+        },
+        {
+          "nome": "Orquidário Paulista",
+          "url": "https://www.orquidariopaulista.com.br/produtos/cattleya-schilleriana-v-tipo/",
+          "tipo": "produtor_brasileiro_forma_tipo",
+          "conclusao": "Cachepô de madeira, barro e placa; meio de secagem rápida."
+        },
+        {
+          "nome": "Orquidário Maripá",
+          "url": "https://www.orquidariomaripa.com.br/produtos/orquidea-cattleya-schilleriana-x-self-linda-pintalgada-mudas-fortes-pre-adulta/",
+          "tipo": "produtor_brasileiro_descendencia_self",
+          "conclusao": "Mistura de cascas, carvão e madeira; vasos plásticos, barro, caixetas ou árvore; produto é descendência de self, não planta tipo idêntica."
+        }
+      ],
+      "produtores_brasileiros": {
+        "consultados": 3,
+        "meta_flexivel": 25,
+        "nomes": [
+          "Orquidário Santa Clara",
+          "Orquidário Paulista",
+          "Orquidário Maripá"
+        ],
+        "justificativa": "Três produtores distintos com orientação de cultivo, amostra não exaustiva."
+      },
+      "perfil_radicular_hidrico": {
+        "exposicao_natural": "Epífita",
+        "reserva_hidrica": "Pseudobulbos",
+        "necessidade_umidade": "Mais água em crescimento ativo",
+        "tolerancia_secagem": "Secagem entre regas, menor aporte em baixa atividade",
+        "sensibilidade_saturacao": "Mistura porosa e drenante",
+        "arquitetura_crescimento": "Simpodial bifoliada",
+        "condicoes_termicas": "Tropical; evitar extrapolar frequência fixa de rega",
+        "espessura_raizes": "Sem medida específica verificada"
+      },
+      "comparacao_suportes": {
+        "barro": "Recomendado por AOS e Paulista",
+        "cesto": "Recomendado por Paulista e Maripá",
+        "placa": "Recomendado por Paulista e Santa Clara, maior risco de secagem",
+        "plastico": "Relatado por AOS e Maripá, controlar retenção",
+        "demais": "Sem comparação específica documentada; não atribuir notas ainda"
+      },
+      "comparacao_substratos": "AOS favorece casca média porosa; Santa Clara pinus e carvão; Maripá cascas, carvão e madeira. Não há proporções experimentais para plantas adultas.",
+      "pendencias": [
+        "Investigar mais produtores e registrar consultas negativas",
+        "Pontuar sete suportes com critérios e pesos auditáveis",
+        "Definir mistura de 100% apenas após confrontar o recipiente",
+        "Inspecionar visualmente antes de implementar V4.9"
+      ]
     },
     {
       "arquivo": "dados/orquideas/cattleya-schilleriana-x-cruzeiro-do-sul.js",
