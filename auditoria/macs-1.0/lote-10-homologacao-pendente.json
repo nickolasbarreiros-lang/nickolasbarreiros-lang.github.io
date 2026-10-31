@@ -1687,14 +1687,26 @@
     {
       "especie": "Cattleya intermedia",
       "arquivo": "dados/orquideas/cattleya-intermedia.js",
-      "status": "pesquisa_em_andamento",
+      "status": "parecer_tecnico_concluido_sem_homologacao_experimental",
       "metodologia": "MACS 1.0",
       "produtores_brasileiros": {
-        "consultados": 0,
+        "consultados": 2,
         "meta": 25,
         "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
         "meta_flexivel": true,
-        "justificativa_encerramento": null
+        "justificativa_encerramento": "Duas fontes comerciais distintas documentadas nesta rodada; meta de 25 não atingida, pesquisa complementar pendente.",
+        "registros": [
+          {
+            "nome": "Orquidário Oriental",
+            "url": "https://www.orquidariooriental.com.br/produto/cattleya-intermedia--tipo-suave-puntata--i-x-ii%2C53889/",
+            "resultado": "Pinus, chips de coco e brita; plástico, barro ou caixeta."
+          },
+          {
+            "nome": "Orquidário Mantovani",
+            "url": "https://www.orquideasmantovani.com.br/cattleya-intermedia-flamea-694/p",
+            "resultado": "Cultivo em madeira, plástico, barro ou cachepô; sem receita de substrato."
+          }
+        ]
       },
       "fontes_iniciais": [
         {
@@ -1706,17 +1718,27 @@
           "nome": "Acta Scientiarum, 2010",
           "url": "https://www.scielo.br/j/asagr/a/SwVJrySdJB8RcgnKsQvGLCx/?lang=pt",
           "conclusao": "Mudas: comparação de pinus, coco, arroz carbonizado e carvão, com tratamento de extrato pirolenhoso."
+        },
+        {
+          "nome": "Orquidário Oriental — Cattleya intermedia",
+          "url": "https://www.orquidariooriental.com.br/produto/cattleya-intermedia--tipo-suave-puntata--i-x-ii%2C53889/",
+          "conclusao": "Pinus, coco e brita."
+        },
+        {
+          "nome": "Orquidário Mantovani — Cattleya intermedia",
+          "url": "https://www.orquideasmantovani.com.br/cattleya-intermedia-flamea-694/p",
+          "conclusao": "Madeira, plástico, barro ou cachepô."
         }
       ],
       "perfil_radicular_hidrico": {
-        "espessura_raizes": null,
-        "exposicao_natural": null,
-        "reserva_hidrica": null,
-        "necessidade_umidade": null,
-        "tolerancia_secagem": null,
-        "sensibilidade_saturacao": null,
-        "arquitetura_crescimento": null,
-        "condicoes_termicas": null
+        "espessura_raizes": "Epífitas com velame; diâmetro não medido",
+        "exposicao_natural": "Epífita, ocasionalmente rupícola",
+        "reserva_hidrica": "Pseudobulbos e folhas coriáceas",
+        "necessidade_umidade": "Regular durante crescimento, com drenagem",
+        "tolerancia_secagem": "Secagem parcial; evitar desidratação prolongada em brotação",
+        "sensibilidade_saturacao": "Evitar núcleo constantemente úmido",
+        "arquitetura_crescimento": "Simpodial bifoliada, forma touceiras",
+        "condicoes_termicas": "Quente a intermediário; ajustar irrigação à evaporação"
       },
       "avaliacao_montagens": {
         "metodos": [
@@ -1728,23 +1750,125 @@
           "arvore-viva",
           "raizes-soltas"
         ],
-        "pontuacoes": null,
-        "risco_eliminatorio": null
+        "pontuacoes": [
+          {
+            "metodo": "cesto-madeira",
+            "criterios": {
+              "raizes": 5,
+              "equilibrio_hidrico": 4,
+              "aeracao": 5,
+              "espaco": 5,
+              "calor": 4,
+              "evidencia": 4
+            },
+            "nota_100": 91
+          },
+          {
+            "metodo": "arvore-viva",
+            "criterios": {
+              "raizes": 5,
+              "equilibrio_hidrico": 3,
+              "aeracao": 5,
+              "espaco": 5,
+              "calor": 3,
+              "evidencia": 3
+            },
+            "nota_100": 82
+          },
+          {
+            "metodo": "vaso-barro",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 4,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 4
+            },
+            "nota_100": 80
+          },
+          {
+            "metodo": "vaso-plastico-vasado",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 4,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 4
+            },
+            "nota_100": 80
+          },
+          {
+            "metodo": "vaso-plastico",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 3,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 5
+            },
+            "nota_100": 78
+          },
+          {
+            "metodo": "placa-tronco",
+            "criterios": {
+              "raizes": 5,
+              "equilibrio_hidrico": 2,
+              "aeracao": 5,
+              "espaco": 4,
+              "calor": 3,
+              "evidencia": 3
+            },
+            "nota_100": 75
+          },
+          {
+            "metodo": "raizes-soltas",
+            "criterios": {
+              "raizes": 3,
+              "equilibrio_hidrico": 1,
+              "aeracao": 5,
+              "espaco": 2,
+              "calor": 1,
+              "evidencia": 1
+            },
+            "nota_100": 48
+          }
+        ],
+        "risco_eliminatorio": "Cesto ou placa sem rega suficiente podem desidratar; vaso fechado com meio fino pode saturar.",
+        "pesos": {
+          "raizes": 25,
+          "equilibrio_hidrico": 25,
+          "aeracao": 20,
+          "espaco": 10,
+          "calor": 10,
+          "evidencia": 10
+        },
+        "natureza": "Heurística MACS, não comparação experimental."
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
-        "comparacao_brasileira": "pendente",
-        "validacao_percentuais": false
+        "comparacao_brasileira": "Estudos em plântulas favorecem coco ou pinus+coco; produtores citam pinus, coco e brita. A receita publicada não foi comparada em ensaio de plantas adultas.",
+        "validacao_percentuais": true,
+        "validacao_tecnica": {
+          "receita": "30% macadâmia + 30% pinus + 25% perlita grossa + 15% carvão",
+          "soma": 100,
+          "status": "Hipótese técnica sem validação experimental para adultos",
+          "granulometria": "média a grossa, sem pó"
+        }
       },
       "pendencias": [
-        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
-        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
-        "Conferir taxonomia, hábito e oito critérios com referências",
-        "Pontuar os sete métodos e riscos eliminatórios",
-        "Confrontar misturas publicadas, granulometria e percentuais",
-        "Inspeção visual e homologação editorial"
+        "Ampliar pesquisa em produtores brasileiros",
+        "Inspecionar visualmente a ficha publicada"
       ],
-      "fontes_cientificas_status": "levantamento_incompleto"
+      "fontes_cientificas_status": "levantamento_incompleto",
+      "parecer_final": {
+        "decisao": "Parecer técnico condicional; não homologação experimental",
+        "suporte": "Cachepô de madeira para touceiras adultas; vaso de barro e plástico vasado são alternativas próximas.",
+        "limites": "Dois produtores, meta 25 pendente; ensaios científicos são de plântulas, não de plantas adultas."
+      },
+      "etapa": "matriz_e_parecer_registrados"
     },
     {
       "especie": "Cattleya leopoldii Dark Princess",
