@@ -40,7 +40,7 @@ export const cattleyaABrazilianDream = {
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Cachepô de madeira",
-    "resumo": "O suporte deve equilibrar ventilação radicular, estabilidade e secagem entre regas, sem compactar o substrato.",
+    "resumo": "MACS 1.0: o plástico vasado (76/100), barro (74/100) e cesto (73/100) são próximos; o cesto publicado permanece opção plausível, não comprovadamente superior.",
     "metodos": [
         {
             "nome": "Cachepô de madeira",
@@ -114,7 +114,7 @@ export const cattleyaABrazilianDream = {
             "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
-    "alerta": "Proporções orientativas, sujeitas à revisão por fontes brasileiras específicas; observar a secagem antes de repetir a rega."
+    "alerta": "Receita inferida para planta adulta; estudos de plântulas dos parentais não demonstram o melhor substrato deste híbrido. Observar secagem e manter drenagem."
 },
     errosComuns: "• Enterrar rizoma e gemas de brotação.\n• Usar vaso superdimensionado.\n• Substrato fino ou compactado.\n• Manter raízes continuamente molhadas.\n• Copiar um repouso rígido de C. nobilior em clone ainda ativo.\n• Cultivar em sombra excessiva.\n• Dividir plantas pequenas sem necessidade.\n• Tratar características de um clone como regra do grex.",
     dica: "🏆 Cultive a planta que você tem, não uma média teórica dos pais. Comece com manejo intermediário: raízes muito aeradas, bastante luz filtrada e regas fortes no crescimento. Depois observe o clone. Se as raízes seguem ativas após a maturação, mantenha alguma água; se a atividade cai e o meio demora a secar, aumente os intervalos. Essa leitura individual é mais segura que tentar reproduzir integralmente o regime de C. nobilior ou de C. loddigesii.",
