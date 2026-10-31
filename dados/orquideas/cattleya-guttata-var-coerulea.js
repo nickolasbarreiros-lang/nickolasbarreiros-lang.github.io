@@ -43,7 +43,7 @@ export const cattleyaGuttataVarCoerulea = {
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso de barro",
-    "resumo": "Plantas vigorosas precisam de suporte estável, raízes ventiladas e mistura grossa que não acumule água.",
+    "resumo": "MACS 1.0: vaso de barro (82/100), cesto de madeira (79/100) e plástico vasado (78/100) são opções próximas; as notas são heurísticas, não resultados de ensaio.",
     "metodos": [
         {
             "nome": "Vaso de barro",
@@ -79,7 +79,7 @@ export const cattleyaGuttataVarCoerulea = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "O porte alto exige estabilidade e circulação de ar; a fração mineral acrescenta peso ao recipiente.",
+    "justificativa": "O porte alto exige estabilidade e circulação de ar; a brita acrescenta peso ao recipiente. Pinus, carvão e brita aparecem em recomendações brasileiras, mas os percentuais desta mistura não foram validados em ensaio da espécie.",
     "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de macadâmia + 25% casca de pinus + 25% brita fina + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
     "perfil": [
         "Raízes epífitas",
@@ -117,13 +117,13 @@ export const cattleyaGuttataVarCoerulea = {
             "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
-    "alerta": "Proporções orientativas, sujeitas à revisão por fontes brasileiras específicas; observar a secagem antes de repetir a rega."
+    "alerta": "Proporções heurísticas (35/25/25/15), não validadas experimentalmente para Cattleya guttata; observar secagem, fixação da touceira e estabilidade do vaso."
 },
     errosComuns: "• Planta balançando após o replantio, rompendo pontas radiculares novas.\n• Vaso leve que tomba com o peso dos pseudobulbos.\n• Sombra excessiva e crescimento estiolado.\n• Vaso enorme com núcleo constantemente úmido.\n• Substrato velho e decomposto.\n• Secar demais durante a formação de novos pseudobulbos.\n• Dividir clones valiosos em pedaços muito pequenos.\n• Replantar quando não há novas raízes em início de crescimento.\n• Adubação excessiva ou uso de fósforo muito concentrado.",
     dica: "🏆 Imobilize a base antes de pensar na floração. O grande porte transforma cada pseudobulbo em uma alavanca: vento ou esbarrões podem movimentar o rizoma e romper as pontas das raízes novas. Após o replantio, fixe firmemente rizoma e pseudobulbos principais com amarração macia ou revestida, sem estrangular os tecidos. Preserve divisões com pelo menos 4 a 5 pseudobulbos e, em clones coerulea valiosos, prefira touceiras ainda maiores. Faça o replantio quando as primeiras raízes novas começarem a aparecer.",
     revisaoCientificaIAR: {
         "nome": "Cattleya guttata f. coerulea",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "statusTaxonomico": "Cattleya guttata é o nome aceito; coerulea é designação horticultural de coloração nesta ficha, não um táxon infraespecífico formalmente aceito.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
         "morfologiaDimensoes": "Uma Cattleya brasileira de presença marcante! Cattleya guttata pode formar pseudobulbos altos e grandes touceiras, recompensando o espaço ocupado com hastes carregadas de flores cerosas e pintalgadas. Nesta seleção coerulea, o contraste fica ainda mais interessante: em vez dos tons mais quentes normalmente vistos no labelo, surgem nuances lavanda, violeta frio ou azuladas — nun",
         "habitatAltitudeClima": "Restingas e matas costeiras abertas · baixa altitude | Quente · úmido · muito ventilado",
