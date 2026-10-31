@@ -71,7 +71,7 @@ export const aciantheraGlumacea = {
             { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Favorece porosidade e estabilidade física da mistura." },
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva hídrica moderada", finalidade: "Mantém umidade entre regas sem transformar a mistura em um meio permanentemente encharcado." }
         ],
-        alerta: "Mantenha o rizoma sobre a superfície. Em litoral quente e muito úmido, use vaso pequeno e bem ventilado e reduza o esfagno se a secagem estiver lenta."
+        alerta: "Mantenha o rizoma sobre a superfície. Em litoral quente e muito úmido, use vaso pequeno e bem ventilado e reduza o esfagno se a secagem estiver lenta.",
         notaEvidencia: "A composição é uma hipótese horticultural para cultivo em vaso, não ensaio controlado específico da espécie. Ainda depende de confronto documentado com 25 produtores brasileiros distintos; não alterar estrelas MACS por inferência.",
     },
     errosComuns: ["Remover ramicaules antigos ainda verdes que podem reflorir.", "Encharcar o centro de touceiras densas.", "Cultivar em calor noturno abafado.", "Usar substrato decomposto ou compactado.", "Usar vaso excessivamente grande.", "Manter sombra profunda.", "Confundir a preferência por umidade com necessidade de substrato permanentemente saturado."],
