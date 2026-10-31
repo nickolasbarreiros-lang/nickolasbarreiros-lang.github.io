@@ -42,76 +42,77 @@ export const cattleyaIntermedia = {
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Cachepô de madeira",
-    "resumo": "Alternativas derivadas das recomendações existentes. Estrelas visuais provisórias; MACS ainda não validado.",
+    "resumo": "A escolha do recipiente equilibra oxigenação das raízes, drenagem e estabilidade, com secagem adequada entre regas.",
     "metodos": [
         {
             "nome": "Cachepô de madeira",
             "asset": "cesto-madeira",
-            "estrelas": 5,
-            "status": "Ideal",
-            "texto": "Cachepô de madeira vazado, especialmente adequado para formar grandes touceiras no litoral."
+            "estrelas": null,
+            "status": "Mais indicada na ficha",
+            "texto": "As aberturas laterais mantêm as raízes ventiladas e favorecem a drenagem, mas a mistura seca mais depressa."
         },
         {
             "nome": "Vaso de barro",
             "asset": "vaso-barro",
-            "estrelas": 4,
-            "status": "Muito recomendado",
-            "texto": "Vaso de barro proporcional ao sistema radicular, oferecendo estabilidade e evaporação."
-        },
-        {
-            "nome": "Cachepô de madeira",
-            "asset": "cesto-madeira",
-            "estrelas": 3,
-            "status": "Adequado",
-            "texto": "Vaso plástico muito perfurado ou montagem em madeira para ambientes de alta umidade."
-        },
-        {
-            "nome": "Cachepô de madeira",
-            "asset": "cesto-madeira",
-            "estrelas": 2,
+            "estrelas": null,
             "status": "Alternativa",
-            "texto": "Possibilidade de montagem sujeita à avaliação de ventilação e manejo."
+            "texto": "A terracota oferece estabilidade e evaporação pelas paredes; o vaso deve ter tamanho proporcional e mistura bem drenante."
+        },
+        {
+            "nome": "Placa / tronco",
+            "asset": "placa-tronco",
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "Raízes ficam expostas ao ar e secam rapidamente após molhar; requer umidade ambiental e regas compatíveis."
+        },
+        {
+            "nome": "Vaso plástico vasado",
+            "asset": "vaso-plastico-vasado",
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "Os furos favorecem a oxigenação e reduzem a retenção excessiva; monitore a secagem da mistura."
         }
     ]
 },
     substratoVisual: {
     "titulo": "Substrato ideal",
-    "contexto": "Receita visual provisória",
-    "resumo": "Ingredientes da receita existente, sem atribuição de porcentagens não verificadas.",
-    "justificativa": "A composição mantém os materiais anteriormente recomendados. A definição quantitativa e a validação técnica ficam para a revisão específica.",
+    "contexto": "Composição da ficha — proporções a validar",
+    "resumo": "Componentes da recomendação original, apresentados sem percentuais não documentados.",
+    "justificativa": "As raízes epífitas dependem de ar entre as partículas; mantenha drenagem e ajuste a rega ao recipiente.",
     "receitaTexto": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.",
     "perfil": [
-        "Aeração",
-        "Drenagem",
-        "Proporções a validar"
+        "Raízes epífitas",
+        "Boa aeração",
+        "Drenagem livre",
+        "Secagem entre regas"
     ],
     "itens": [
         {
             "asset": "macadamia",
             "nome": "Casca de macadâmia",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         },
         {
             "asset": "casca-pinus",
             "nome": "Casca de pinus",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         },
         {
             "asset": "perlita",
             "nome": "Perlita grossa",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         },
         {
             "asset": "carvao-vegetal",
             "nome": "Carvão vegetal",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         }
     ],
-    "alerta": "Receita visual preliminar; consultar recomendações originais até validação das proporções."
+    "alerta": "As proporções não foram informadas na receita original e permanecem pendentes de validação."
 },
     errosComuns: "• Enterrar o rizoma ou as gemas de brotação.\n• Sombra excessiva, que produz pseudobulbos finos e reduz a floração.\n• Vaso muito grande e com excesso de substrato úmido.\n• Substrato velho, ácido ou decomposto.\n• Replantar fora do início da emissão de raízes novas.\n• Manter o centro do recipiente constantemente molhado.\n• Secar excessivamente durante crescimento ativo.\n• Tentar compensar pouca luz com adubação forte.",
     dica: "🏆 Mantenha o rizoma livre e replante apenas quando surgirem as primeiras pontas de raízes novas. Cattleya intermedia responde melhor quando o novo crescimento consegue colonizar imediatamente o recipiente. Em vez de perseguir uma cor exata de folha, observe raízes ativas, pseudobulbos robustos, folhas firmes e floração regular. Preserve touceiras grandes sempre que houver espaço: várias frentes maduras significam mais reservas e maior potencial de flores simultâneas.",
