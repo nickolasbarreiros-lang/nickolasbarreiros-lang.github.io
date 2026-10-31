@@ -29,8 +29,8 @@ export const cattleyaViolaceaFFlamea = {
     "climaFloracao": "A floração depende de crescimento contínuo, raízes ativas, noites quentes, umidade atmosférica estável e pseudobulbos plenamente maduros. Não é necessário induzir por frio ou seca severa. Ao contrário, noites frias e desidratação prolongada paralisam raízes e brotos. Uma leve redução de água pode ocorrer apenas quando a evaporação diminui, sem permitir que o sistema radicular seque por vários dias. Em regiões quentes, a ventilação evita que a combinação de calor e umidade resulte em podridão.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Sol pleno",
-        "horario": "",
+        "solDireto": "Permitido com restrição",
+        "horario": "Somente início da manhã",
         "observacoes": "Forneça luz brilhante, uniforme e filtrada. Folhas firmes e verde-médio indicam bom equilíbrio. Sombra excessiva produz pseudobulbos finos; sol forte causa superaquecimento e queimaduras."
     },
     "floracao": "Floresce principalmente da primavera ao verão, entre outubro e março, e pode produzir flores fora dessa janela quando mantida em crescimento contínuo. A inflorescência surge no ápice do pseudobulbo maduro e sustenta flores violeta-púrpura com padrão flamea nas pétalas e labelo magenta intenso. A duração das flores melhora quando são protegidas de chuva direta, sol forte e calor excessivo.",
@@ -68,13 +68,13 @@ export const cattleyaViolaceaFFlamea = {
     },
     revisaoCientificaIAR: {
         "nome": "Cattleya violacea f. flamea",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "statusTaxonomico": "Cattleya violacea é espécie aceita; flamea é designação horticultural de padrão de cor, sem presumir categoria taxonômica formal aceita.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
         "morfologiaDimensoes": "Uma Cattleya amazônica de cores vibrantes e presença marcante! A forma flamea de Cattleya violacea chama atenção pelo contraste das pétalas, que ficam mais intensamente coloridas nas pontas, criando um efeito semelhante a pequenas chamas. Suas flores são grandes, cerosas, perfumadas e podem chegar perto de 13 cm. Na natureza, a espécie vive principalmente em florestas tropicais",
         "habitatAltitudeClima": "Florestas úmidas próximas a rios · ~200–700 m. | Quente e úmido · noites quentes.",
         "distribuicaoGeografica": "Amazônia e norte da América do Sul.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
+        "confianca": "moderada",
         "fontes": [
             "POWO/Kew",
             "WFO/IPNI",
@@ -349,6 +349,6 @@ export const cattleyaViolaceaFFlamea = {
             "https://powo.science.kew.org/",
             "https://www.aos.org/"
         ],
-        "limites": "Forma flamea é horticultural; sem ensaio específico dos sete suportes; consultas brasileiras adicionais e verificação visual pendentes."
+        "limites": "Forma flamea é horticultural; sem ensaio específico dos sete suportes; evidência brasileira direta: AWZ Orchids descrita na AOS com cultivo em placas e cestos; não é ensaio comparativo. Consulta independente ampliada e verificação visual pendentes."
     }
 };
