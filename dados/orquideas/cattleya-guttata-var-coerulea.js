@@ -43,76 +43,77 @@ export const cattleyaGuttataVarCoerulea = {
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso de barro",
-    "resumo": "Alternativas derivadas das recomendações existentes. Estrelas visuais provisórias; MACS ainda não validado.",
+    "resumo": "Plantas vigorosas precisam de suporte estável, raízes ventiladas e mistura grossa que não acumule água.",
     "metodos": [
         {
             "nome": "Vaso de barro",
             "asset": "vaso-barro",
-            "estrelas": 5,
-            "status": "Ideal",
-            "texto": "Vaso de barro pesado, oferecendo estabilidade e evaporação."
+            "estrelas": null,
+            "status": "Mais indicada na ficha",
+            "texto": "A terracota oferece estabilidade e evaporação pelas paredes; o vaso deve ter tamanho proporcional e mistura bem drenante."
         },
         {
             "nome": "Cachepô de madeira",
             "asset": "cesto-madeira",
-            "estrelas": 4,
-            "status": "Muito recomendado",
-            "texto": "Cachepô grande e robusto de madeira para touceiras com várias frentes."
-        },
-        {
-            "nome": "Cachepô de madeira",
-            "asset": "cesto-madeira",
-            "estrelas": 3,
-            "status": "Adequado",
-            "texto": "Cesto estrutural para plantas adultas de grande porte."
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "As aberturas laterais mantêm as raízes ventiladas e favorecem a drenagem, mas a mistura seca mais depressa."
         },
         {
             "nome": "Vaso plástico",
             "asset": "vaso-plastico",
-            "estrelas": 2,
+            "estrelas": null,
             "status": "Alternativa",
-            "texto": "Em todos os casos, imobilize a base e o rizoma até que o novo enraizamento trave o conjunto."
+            "texto": "A retenção maior exige atenção ao tamanho das partículas e aos intervalos de rega."
+        },
+        {
+            "nome": "Placa / tronco",
+            "asset": "placa-tronco",
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "Raízes ficam expostas ao ar e secam rapidamente após molhar; requer umidade ambiental e regas compatíveis."
         }
     ]
 },
     substratoVisual: {
     "titulo": "Substrato ideal",
-    "contexto": "Receita visual provisória",
-    "resumo": "Ingredientes da receita existente, sem atribuição de porcentagens não verificadas.",
-    "justificativa": "A composição mantém os materiais anteriormente recomendados. A definição quantitativa e a validação técnica ficam para a revisão específica.",
+    "contexto": "Composição da ficha — proporções a validar",
+    "resumo": "Componentes da recomendação original, apresentados sem percentuais não documentados.",
+    "justificativa": "As raízes epífitas dependem de ar entre as partículas; mantenha drenagem e ajuste a rega ao recipiente.",
     "receitaTexto": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.",
     "perfil": [
-        "Aeração",
-        "Drenagem",
-        "Proporções a validar"
+        "Raízes epífitas",
+        "Boa aeração",
+        "Drenagem livre",
+        "Secagem entre regas"
     ],
     "itens": [
         {
             "asset": "macadamia",
             "nome": "Casca de macadâmia",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         },
         {
             "asset": "casca-pinus",
             "nome": "Casca de pinus",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         },
         {
             "asset": "perlita",
             "nome": "Perlita grossa",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         },
         {
             "asset": "carvao-vegetal",
             "nome": "Carvão vegetal",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         }
     ],
-    "alerta": "Receita visual preliminar; consultar recomendações originais até validação das proporções."
+    "alerta": "As proporções não foram informadas na receita original e permanecem pendentes de validação."
 },
     errosComuns: "• Planta balançando após o replantio, rompendo pontas radiculares novas.\n• Vaso leve que tomba com o peso dos pseudobulbos.\n• Sombra excessiva e crescimento estiolado.\n• Vaso enorme com núcleo constantemente úmido.\n• Substrato velho e decomposto.\n• Secar demais durante a formação de novos pseudobulbos.\n• Dividir clones valiosos em pedaços muito pequenos.\n• Replantar quando não há novas raízes em início de crescimento.\n• Adubação excessiva ou uso de fósforo muito concentrado.",
     dica: "🏆 Imobilize a base antes de pensar na floração. O grande porte transforma cada pseudobulbo em uma alavanca: vento ou esbarrões podem movimentar o rizoma e romper as pontas das raízes novas. Após o replantio, fixe firmemente rizoma e pseudobulbos principais com amarração macia ou revestida, sem estrangular os tecidos. Preserve divisões com pelo menos 4 a 5 pseudobulbos e, em clones coerulea valiosos, prefira touceiras ainda maiores. Faça o replantio quando as primeiras raízes novas começarem a aparecer.",
