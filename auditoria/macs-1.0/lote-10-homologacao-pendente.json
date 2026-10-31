@@ -10,11 +10,50 @@
       "status": "pesquisa_em_andamento",
       "metodologia": "MACS 1.0",
       "produtores_brasileiros": {
-        "consultados": 0,
+        "consultados": 6,
         "meta": 25,
-        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
+        "observacao": "Seis fornecedores consultados, incluindo páginas sem indicação específica. A sexta é cultivar com nome derivado, evidência indireta; não confundir clones.",
         "meta_flexivel": true,
-        "justificativa_encerramento": null
+        "justificativa_encerramento": null,
+        "registros": [
+          {
+            "nome": "Orquidário Maripá",
+            "url": "https://www.orquidariomaripa.com.br/produtos/orquidea-blc-chia-lin-new-city-pre-adulta/",
+            "tipo": "clone_New_City",
+            "resultado": "mistura de cascas, carvão e madeira; plástico, barro ou caixeta; árvores com regas frequentes até enraizar"
+          },
+          {
+            "nome": "Orquidário Santa Clara",
+            "url": "https://orquidariosantaclara.com.br/home/587-blc-chia-lin-new-city-espatando.html",
+            "tipo": "clone_New_City",
+            "resultado": "pinus, carvão triturado; vaso; pedrisco no fundo, prática descrita mas não adotada automaticamente"
+          },
+          {
+            "nome": "Orquidário Mantovani",
+            "url": "https://www.orquideasmantovani.com.br/blc-chia-lin-new-city-317/p",
+            "tipo": "clone_New_City",
+            "resultado": "permite replantar em madeira, vaso plástico, barro ou cachepô; não informa mistura"
+          },
+          {
+            "nome": "Florália Orquidário",
+            "url": "https://floraliaorquidario.com.br/adultas/265-blc-chia-lin.html",
+            "tipo": "clone_New_City",
+            "resultado": "orienta luminosidade e adubação; sem substrato específico"
+          },
+          {
+            "nome": "Orquidário Santa Bárbara",
+            "url": "https://www.orquidariosantabarbara.com/loja/produto/blc-chia-lin-golden-bell-2/",
+            "tipo": "clone_Golden_Bell",
+            "resultado": "anúncio de planta; não descreve substrato nem recipiente"
+          },
+          {
+            "nome": "Orquídea Garden",
+            "url": "https://www.orquideagarden.com.br/cattleya/orquidea-cattleya-blc-chia-lin-beauty-golden-eye-adulta",
+            "tipo": "cultivar_derivado_nome_similar",
+            "resultado": "orientação genérica de Cattleya: pinus ou esfagno; não comprova receita do grex Chia Lin"
+          }
+        ],
+        "com_recomendacao_direta": 2
       },
       "fontes_iniciais": [
         {
@@ -62,7 +101,7 @@
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
-        "comparacao_brasileira": "Estudos acadêmicos de outras Cattleya mostram alternativas com pinus, casca de arroz carbonizada, coco e carvão. Receita atual de macadâmia/pinus/perlita/carvão permanece hipótese sem ensaio específico.",
+        "comparacao_brasileira": "Maripá e Santa Clara convergem em cascas/pinus e carvão. Não se identificou percentual publicado de macadâmia ou perlita específico para Chia Lin. Receituário permanece hipótese.",
         "validacao_percentuais": false
       },
       "pendencias": [
@@ -72,9 +111,10 @@
         "Pontuar os sete métodos e riscos eliminatórios",
         "Confrontar misturas publicadas, granulometria e percentuais",
         "Inspeção visual e homologação editorial",
-        "Conferir dados de cultivo de Chia Lin diretamente com produtores brasileiros e separar clones/grex"
+        "Conferir dados de cultivo de Chia Lin diretamente com produtores brasileiros e separar clones/grex",
+        "Verificar fonte primária de registro RHS e ampliar amostragem independente, incluindo busca negativa"
       ],
-      "fontes_cientificas_status": "fontes_primarias_e_analogias_identificadas"
+      "fontes_cientificas_status": "levantamento_parcial"
     },
     {
       "especie": "Camaridium carinatum",
