@@ -184,7 +184,7 @@
           "adaptacao_calor": 3,
           "evidencia_documentada": 1
         },
-        "indice_exploratorio_0_a_5": 3.0,
+        "indice_exploratorio_0_a_5": 3,
         "alerta": "Secagem mais rápida nas paredes; monitorar no calor.",
         "status": "HIPOTESE_NAO_VALIDADA"
       },
@@ -284,5 +284,21 @@
     "status": "PENDENTE",
     "regra": "Evidências de gênero e de clima estrangeiro não validam proporções, adaptação local ou método de cultivo para a espécie.",
     "sem_substituicao_automatica_das_estrelas": true
+  },
+  "revisao_documental_lote_5_2026_10_30": {
+    "status": "revisao_parcial_sem_validacao_macs",
+    "fonte": {
+      "url": "https://www.osgb.org.uk/orchids/orchid-care-guides/bulbophyllum-orchid-care",
+      "escopo": "genero",
+      "conclusao": "Referência geral: rizomas longos requerem suporte que comporte crescimento; não enterrar rizoma; montagens secam rapidamente. Evidência apenas de gênero.",
+      "conta_para_25_produtores_brasileiros": false
+    },
+    "integridade": {
+      "metodologia_macs_preservada": true,
+      "estrelas_nao_recalculadas": true,
+      "substrato_permanece_hipotese": true,
+      "exige_25_produtores_brasileiros": true
+    },
+    "pendencia": "Pesquisa de produtores brasileiros específicos e verificação experimental de métodos e proporções não concluídas."
   }
 }
