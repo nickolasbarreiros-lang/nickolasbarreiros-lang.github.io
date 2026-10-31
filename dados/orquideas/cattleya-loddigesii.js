@@ -37,6 +37,80 @@ export const cattleyaLoddigesii = {
     rega: "Durante brotação e enraizamento, regue abundantemente e permita que o substrato perca boa parte da umidade antes da próxima irrigação. No outono e inverno, reduza a frequência conforme temperatura, chuva, atividade radicular e velocidade de secagem, sem deixar os pseudobulbos desidratarem em excesso. Cattleya loddigesii não exige repouso seco rigoroso.",
     suporte: "🥇 Vaso de barro pequeno ou médio, apenas do tamanho necessário.\n🥈 Cachepô de madeira, excelente para formar touceiras com várias frentes.\n🥉 Placa ou tronco, especialmente em ambientes de alta umidade, lembrando que plantas adultas ficam pesadas e exigem regas mais frequentes.",
     substrato: "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.",
+    formasCultivo: {
+    "perfilVisual": "cattleya",
+    "destaque": "Vaso de barro",
+    "resumo": "Alternativas derivadas das recomendações existentes. Estrelas visuais provisórias; MACS ainda não validado.",
+    "metodos": [
+        {
+            "nome": "Vaso de barro",
+            "asset": "vaso-barro",
+            "estrelas": 5,
+            "status": "Ideal",
+            "texto": "Vaso de barro pequeno ou médio, apenas do tamanho necessário."
+        },
+        {
+            "nome": "Cachepô de madeira",
+            "asset": "cesto-madeira",
+            "estrelas": 4,
+            "status": "Muito recomendado",
+            "texto": "Cachepô de madeira, excelente para formar touceiras com várias frentes."
+        },
+        {
+            "nome": "Placa / tronco",
+            "asset": "placa-tronco",
+            "estrelas": 3,
+            "status": "Adequado",
+            "texto": "Placa ou tronco, especialmente em ambientes de alta umidade, lembrando que plantas adultas ficam pesadas e exigem regas mais frequentes."
+        },
+        {
+            "nome": "Cachepô de madeira",
+            "asset": "cesto-madeira",
+            "estrelas": 2,
+            "status": "Alternativa",
+            "texto": "Possibilidade de montagem sujeita à avaliação de ventilação e manejo."
+        }
+    ]
+},
+    substratoVisual: {
+    "titulo": "Substrato ideal",
+    "contexto": "Receita visual provisória",
+    "resumo": "Ingredientes da receita existente, sem atribuição de porcentagens não verificadas.",
+    "justificativa": "A composição mantém os materiais anteriormente recomendados. A definição quantitativa e a validação técnica ficam para a revisão específica.",
+    "receitaTexto": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.",
+    "perfil": [
+        "Aeração",
+        "Drenagem",
+        "Proporções a validar"
+    ],
+    "itens": [
+        {
+            "asset": "macadamia",
+            "nome": "Casca de macadâmia",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        },
+        {
+            "asset": "casca-pinus",
+            "nome": "Casca de pinus",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        },
+        {
+            "asset": "perlita",
+            "nome": "Perlita grossa",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        },
+        {
+            "asset": "carvao-vegetal",
+            "nome": "Carvão vegetal",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        }
+    ],
+    "alerta": "Receita visual preliminar; consultar recomendações originais até validação das proporções."
+},
     errosComuns: "Cultivar sob sombra excessiva; secar demais durante crescimento ativo; manter substrato velho, compactado ou constantemente molhado; usar vaso muito grande; enterrar o rizoma; replantar sem novas raízes em emissão; quebrar raízes novas durante o replante; dividir touceiras pequenas; aplicar fertilizante em excesso.",
     dica: "Replante apenas quando as primeiras pontas de raízes novas surgirem na base do crescimento mais recente. Esse é o momento em que a planta coloniza rapidamente o novo recipiente. Evite dividir apenas para organizar a touceira: várias frentes significam mais reservas, mais raízes e vários pseudobulbos capazes de florir simultaneamente.",
     revisaoCientificaIAR: {
