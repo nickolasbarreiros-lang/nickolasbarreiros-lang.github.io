@@ -41,6 +41,32 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
     "substrato": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.\n🥉 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n⭐ Alternativa: Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
     "errosComuns": "Replantar sem raízes novas; usar vaso grande; manter substrato velho; enterrar o rizoma; regar por calendário; cultivar em sombra; aplicar excesso de nitrogênio; deixar a planta solta; dividir touceira pequena; manter cachepô decorativo com água; cortar raízes aderidas sem necessidade.",
     "dica": "Trate o híbrido como mais vigoroso, mas não como indestrutível. O replante deve ocorrer quando a nova frente emitir raízes curtas e ativas. Preserve as raízes antigas, use vaso pequeno e fixe a planta firmemente. O vigor híbrido aparece quando o sistema radicular permanece íntegro; sem raízes, a planta perde rapidamente a vantagem do cruzamento.",
+    formasCultivo: {
+        perfilVisual: "cattleya",
+        destaque: "Vaso de Barro",
+        resumo: "Vaso pequeno, substrato arejado e secagem entre regas; replante somente com raízes novas.",
+        metodos: [
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Ideal", texto: "Poroso e estável, permite secagem previsível em ambiente quente com substrato grosso." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa aeração; exige atenção à secagem rápida durante o crescimento." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Adequado", texto: "Boa opção com furação abundante e mistura grossa, evitando água retida." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Condicionado", texto: "Raízes ventiladas, mas maior exigência de rega no calor." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Vaso de barro pequeno e perfurado",
+        resumo: "Mistura média a grossa, ventilada, sem material fino.",
+        justificativa: "Pinus e carvão convergem com práticas para C. schilleriana; macadâmia e perlita são proposta técnica para o híbrido, sem ensaio comparativo.",
+        receitaTexto: "40% pinus médio/grosso + 25% macadâmia média + 20% carvão + 15% perlita grossa.",
+        perfil: ["Aeração elevada", "Secagem entre regas", "Rizoma exposto"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média/grossa", proporcao: "40%", nota: "estrutura", finalidade: "Mantém espaços de ar entre as raízes." },
+            { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "25%", nota: "estrutura", finalidade: "Acrescenta porosidade à mistura." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "drenagem", finalidade: "Reduz compactação." },
+            { asset: "perlita-grossa", nome: "Perlita grossa", proporcao: "15%", nota: "aeração", finalidade: "Ajuda a manter a mistura aberta." }
+        ],
+        alerta: "Não enterre o rizoma. Replante somente no início da emissão de novas raízes."
+    },
     revisaoCientificaIAR: {
         "nome": "Cattleya schilleriana × Cruzeiro do Sul",
         "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
