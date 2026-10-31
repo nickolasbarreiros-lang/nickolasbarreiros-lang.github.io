@@ -39,6 +39,80 @@ export const camaridiumCarinatum = {
     rega: "Durante crescimento ativo, regue bem e permita que a camada superficial e parte da intermediária arejem antes da próxima irrigação. Não mantenha o recipiente permanentemente saturado. Depois da maturação, aumente moderadamente o intervalo sem impor seca prolongada. Prefira regas pela manhã para que bainhas e brotações sequem antes da noite.",
     suporte: "🥇 Cesto ou cachepô largo e raso, acompanhando a expansão horizontal do rizoma.\n🥈 Vaso tipo bacia, de barro ou plástico, com muitos furos.\n🥉 Placa robusta de cortiça ou madeira, apenas onde a umidade permita regas frequentes.",
     substrato: "🥇 Casca de pinus média + casca de macadâmia triturada + perlita grossa + fibra de coco grossa.\n🥈 Fibra de coco grossa + chips de coco + perlita grossa + pinus médio, sem compactação.\n🥉 Chips de coco + pinus médio + perlita + carvão vegetal miúdo.\n⭐ Alternativa: Pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia.",
+    formasCultivo: {
+            "perfilVisual": "epifita",
+            "destaque": "Cesto ou cachepô largo e raso",
+            "resumo": "Montagens organizadas a partir das recomendações já registradas nesta ficha; classificações visuais provisórias, sem validação MACS.",
+            "metodos": [
+                    {
+                            "nome": "Cesto ou cachepô largo e raso",
+                            "asset": "cesto-madeira",
+                            "estrelas": 5,
+                            "status": "Ideal",
+                            "texto": "Cesto ou cachepô largo e raso, acompanhando a expansão horizontal do rizoma."
+                    },
+                    {
+                            "nome": "Vaso tipo bacia",
+                            "asset": "vaso-barro",
+                            "estrelas": 4,
+                            "status": "Muito recomendado",
+                            "texto": "Vaso tipo bacia, de barro ou plástico, com muitos furos."
+                    },
+                    {
+                            "nome": "Placa robusta de cortiça ou madeira",
+                            "asset": "cesto-madeira",
+                            "estrelas": 3,
+                            "status": "Adequado",
+                            "texto": "Placa robusta de cortiça ou madeira, apenas onde a umidade permita regas frequentes."
+                    },
+                    {
+                            "nome": "Vaso plástico vasado",
+                            "asset": "vaso-plastico-vasado",
+                            "estrelas": 2,
+                            "status": "Alternativa",
+                            "texto": "Opção de montagem a avaliar conforme ventilação, retenção de água e condições locais."
+                    }
+            ]
+    },
+    substratoVisual: {
+            "titulo": "Substrato ideal",
+            "contexto": "Composição ilustrativa — proporções a validar",
+            "resumo": "Componentes extraídos da mistura já recomendada na ficha. Nenhuma porcentagem foi inventada.",
+            "justificativa": "A apresentação visual conserva os ingredientes já indicados. Proporções, comportamento e comparação científica permanecem pendentes de validação.",
+            "receitaTexto": "🥇 Casca de pinus média + casca de macadâmia triturada + perlita grossa + fibra de coco grossa.",
+            "perfil": [
+                    "Composição original preservada",
+                    "Proporções pendentes",
+                    "Boa drenagem"
+            ],
+            "itens": [
+                    {
+                            "asset": "casca-pinus",
+                            "nome": "Casca de pinus",
+                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
+                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
+                    },
+                    {
+                            "asset": "macadamia",
+                            "nome": "Casca de macadâmia",
+                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
+                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
+                    },
+                    {
+                            "asset": "perlita",
+                            "nome": "Perlita grossa",
+                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
+                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
+                    },
+                    {
+                            "asset": "chips-coco",
+                            "nome": "Chips de coco",
+                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
+                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
+                    }
+            ],
+            "alerta": "As proporções não foram determinadas nesta migração de layout; manter a orientação textual original até revisão técnica."
+    },
     errosComuns: "• Usar vaso estreito ou profundo.\n• Direcionar a frente de crescimento contra a borda.\n• Enterrar rizoma ou base dos pseudobulbos.\n• Deixar água parada nas bainhas dos brotos.\n• Substrato continuamente saturado.\n• Impor seca severa.\n• Cultivar em sombra excessiva.\n• Aplicar adubo concentrado ou liberação lenta encostada nas brotações.",
     dica: "🏆 No replantio, coloque os pseudobulbos mais antigos próximos a uma borda e direcione a frente ativa para a maior área livre. O recipiente deve ser largo e raso, porque o rizoma avança horizontalmente. A base dos pseudobulbos precisa permanecer descoberta: além de reduzir podridão, isso não bloqueia as inflorescências basais.",
     revisaoCientificaIAR: {
