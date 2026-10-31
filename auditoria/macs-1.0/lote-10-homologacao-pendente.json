@@ -420,7 +420,7 @@
     {
       "especie": "Maxillaria imbricata (sin. Camaridium carinatum)",
       "arquivo": "dados/orquideas/camaridium-carinatum.js",
-      "status": "pesquisa_em_andamento",
+      "status": "parecer_tecnico_concluido_sem_homologacao_cientifica",
       "metodologia": "MACS 1.0",
       "produtores_brasileiros": {
         "consultados": 0,
@@ -459,6 +459,18 @@
           "url": "https://www.aos.org/orchid-care/orchid-care-basics/mounting",
           "tipo": "guia_horticultural_geral",
           "conclusao": "Montagens exigem controle de hidratação; fibras de coco podem ter sais residuais; lavar e verificar condutividade."
+        },
+        {
+          "nome": "Kew POWO — sinônimo Camaridium carinatum",
+          "url": "https://powo.science.kew.org/taxon/43679-2",
+          "tipo": "taxonomia_primaria",
+          "conclusao": "Confirma sinonímia de Camaridium carinatum sob Maxillaria imbricata."
+        },
+        {
+          "nome": "IPNI — Maxillaria imbricata",
+          "url": "https://www.ipni.org/n/155104-2",
+          "tipo": "nomenclatura_primaria",
+          "conclusao": "Nome publicado por Barbosa Rodrigues em 1877."
         }
       ],
       "perfil_radicular_hidrico": {
@@ -640,13 +652,25 @@
         }
       },
       "pendencias": [
-        "Localizar produtores brasileiros com recomendações diretamente atribuíveis à espécie ou sinônimo",
-        "Verificar anatomia radicular e morfologia de crescimento em fonte específica",
-        "Inspeção visual e revisão editorial antes de homologar"
+        "Evidência direta de produtores brasileiros sobre a espécie e substrato, caso disponível",
+        "Validação observacional de resposta radicular e secagem por ciclo de crescimento",
+        "Inspeção visual final do site antes de eventual mudança de texto"
       ],
       "fontes_cientificas_status": "taxonomia_e_habito_confirmados; sem_ensaio_especifico_de_substrato",
       "confianca": "alta_para_taxonomia_e_habito; baixa_para_ranking_e_receita_especifica",
-      "etapa": "revisao_tecnica_preliminar_com_matriz_heuristica"
+      "etapa": "parecer_tecnico_finalizado_com_restricoes",
+      "parecer_final": {
+        "data": "2026-10-30",
+        "escopo": "parecer técnico de cultivo MACS 1.0, não ensaio experimental",
+        "decisao": "Aprovar condicionalmente o cultivo em recipiente largo e ventilado e a mistura existente como orientação de manejo; NÃO homologar como receita ótima específica.",
+        "suporte_recomendado": "cesto-madeira ou vaso-plastico-vasado, escolha dependente da frequência de regas e do microclima",
+        "justificativa": "A diferença heurística 76 vs 75 pontos é inferior à precisão das evidências e não permite afirmar superioridade. Cesto atende rizoma horizontal; vaso vasado retém mais umidade no calor.",
+        "substrato": "35% casca de pinus + 25% chips de coco grossos lavados + 25% perlita grossa + 15% carvão vegetal, em volume",
+        "substrato_validacao": "Soma 100%; mistura aberta plausível para epífita úmida. Proporções não comprovadas especificamente para Maxillaria imbricata.",
+        "pesquisa": "Busca pelos nomes aceito e sinônimo; fontes taxonômicas verificadas, nenhum orquidário brasileiro com receita específica confirmado nesta rodada. Meta 25 não atingida, sem alegação de esgotamento.",
+        "grau_confianca": "alta taxonomia/hábito; baixa a moderada adequação de recipiente; baixa proporções exatas",
+        "limites": "Homologação plena dependeria de evidência horticultural específica ou validação observacional documentada; não há base para declarar fórmula ideal comprovada."
+      }
     },
     {
       "especie": "Cattleya A Brazilian Dream",
