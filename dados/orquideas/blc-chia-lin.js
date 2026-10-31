@@ -39,7 +39,7 @@ export const blcChiaLin = {
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso de barro",
-    "resumo": "O suporte deve equilibrar ventilação radicular, estabilidade e secagem entre regas, sem compactar o substrato.",
+    "resumo": "MACS 1.0: parecer condicional; vaso de barro é a proposta principal, sem ensaio específico de comparação entre suportes.",
     "metodos": [
         {
             "nome": "Vaso de barro",
@@ -113,7 +113,7 @@ export const blcChiaLin = {
             "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
-    "alerta": "Proporções orientativas, sujeitas à revisão por fontes brasileiras específicas; observar a secagem antes de repetir a rega."
+    "alerta": "A receita ilustrada é uma hipótese horticultural para planta adulta, não uma formulação comprovada para este híbrido. Observar secagem e manter drenagem."
 },
     errosComuns: "Cultivar com pouca luz; usar vaso grande demais; manter substrato velho, ácido ou constantemente molhado; regar por calendário sem observar a secagem; usar adubo concentrado ou grandes doses de fósforo para tentar forçar floração; replantar fora do início do enraizamento; molhar repetidamente brotos novos no fim do dia; deixar água acumulada na espata; dividir plantas pequenas.",
     dica: "Observe o pseudobulbo, não apenas o calendário. Durante brotação e enraizamento, forneça água, adubação leve e luz suficiente para que o novo crescimento atinja seu tamanho máximo. Quando a folha estiver firme e o pseudobulbo maduro, reduza naturalmente a adubação e mantenha boa luminosidade. Um pseudobulbo robusto sustentado por raízes saudáveis tem muito mais chance de preencher a espata e produzir flores grandes.",
