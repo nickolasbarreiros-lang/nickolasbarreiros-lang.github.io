@@ -72,6 +72,7 @@ export const aciantheraAuriculata = {
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva hídrica controlada", finalidade: "Evita que a mistura muito aerada passe de úmida a completamente seca depressa demais. Deve permanecer solto; compactado, produz exatamente o abafamento que queremos evitar." }
         ],
         alerta: "Use vaso pequeno e muito perfurado. Replante quando a drenagem ficar lenta, o pinus se fragmentar ou o esfagno perder estrutura. Não enterre a base dos ramicaules e não compacte o substrato para firmar a planta."
+        notaEvidencia: "A composição é uma hipótese horticultural para cultivo em vaso, não ensaio controlado específico da espécie. Ainda depende de confronto documentado com 25 produtores brasileiros distintos; não alterar estrelas MACS por inferência.",
     },
     errosComuns: ["Confundir ambiente sombreado com sombra profunda.", "Manter a planta constantemente encharcada para compensar o calor.", "Usar vaso grande ou substrato fino que demora muitos dias para secar.", "Deixar uma planta montada secar completamente por vários dias.", "Cultivar em local quente e sem movimento de ar.", "Aplicar fertilizante concentrado em raízes finas.", "Tratar todos os clones como se exigissem exatamente a mesma temperatura por causa de um único registro de altitude."],
     revisaoCientificaIAR: {
