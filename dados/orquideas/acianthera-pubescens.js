@@ -58,6 +58,7 @@ export const aciantheraPubescens = {
         contexto: "Para cultivo em vaso",
         resumo: "Mistura leve, muito aerada e de retenção moderada, adequada a raízes finas que pedem umidade regular sem compactação.",
         justificativa: "A espécie é predominantemente epífita e possui raízes finas. Em vaso, a prioridade é manter macroporos e secagem parcial sem deixar a mistura desidratar abruptamente. A casca de arroz carbonizada aumenta a estabilidade e a aeração; pinus fornece estrutura; carvão prolonga a porosidade; e uma pequena fração de esfagno cria reserva hídrica localizada.",
+        receitaTexto: "Mistura-base provisória para vaso pequeno e drenante: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto.",
         perfil: ["Raízes finas", "Alta aeração", "Umidade frequente", "Secagem moderada", "Baixa compactação", "Rizoma livre"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -72,6 +73,7 @@ export const aciantheraPubescens = {
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva hídrica localizada", finalidade: "Evita secagem brusca das raízes finas sem transformar a mistura em um meio encharcado." }
         ],
         alerta: "Em vaso, mantenha o rizoma próximo da superfície e não compacte a mistura. Prefira recipiente pequeno e muito drenado."
+        notaEvidencia: "A composição é uma hipótese horticultural para cultivo em vaso, não ensaio controlado específico da espécie. Ainda depende de confronto documentado com 25 produtores brasileiros distintos; não alterar estrelas MACS por inferência.",
     },
     errosComuns: ["Aplicar o mesmo regime a exemplares de procedências muito diferentes.", "Manter touceira densa molhada e sem ventilação.", "Usar substrato compacto ou decomposto.", "Expor ao sol direto forte.", "Deixar as raízes secarem completamente por períodos longos.", "Acumular sais de fertilizante.", "Fixar uma época única de floração para uma espécie que pode florescer o ano inteiro."],
     revisaoCientificaIAR: {
