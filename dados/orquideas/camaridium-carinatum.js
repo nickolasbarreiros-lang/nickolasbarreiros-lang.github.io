@@ -42,7 +42,7 @@ export const camaridiumCarinatum = {
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Cachepô de madeira",
-    "resumo": "O crescimento lateral pede recipiente largo e raso, com boa drenagem e espaço para novos brotos.",
+    "resumo": "MACS 1.0: cachepô largo e ventilado é proposta para crescimento lateral; falta comparação experimental dos sete suportes.",
     "metodos": [
         {
             "nome": "Cachepô de madeira",
@@ -116,7 +116,7 @@ export const camaridiumCarinatum = {
             "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
-    "alerta": "Proporções orientativas, sujeitas à revisão por fontes brasileiras específicas; observar a secagem antes de repetir a rega."
+    "alerta": "A mistura de pinus, coco, perlita e carvão é proposta técnica, sem ensaio específico de validação das proporções. Observar secagem e manter drenagem."
 },
     errosComuns: "• Usar vaso estreito ou profundo.\n• Direcionar a frente de crescimento contra a borda.\n• Enterrar rizoma ou base dos pseudobulbos.\n• Deixar água parada nas bainhas dos brotos.\n• Substrato continuamente saturado.\n• Impor seca severa.\n• Cultivar em sombra excessiva.\n• Aplicar adubo concentrado ou liberação lenta encostada nas brotações.",
     dica: "🏆 No replantio, coloque os pseudobulbos mais antigos próximos a uma borda e direcione a frente ativa para a maior área livre. O recipiente deve ser largo e raso, porque o rizoma avança horizontalmente. A base dos pseudobulbos precisa permanecer descoberta: além de reduzir podridão, isso não bloqueia as inflorescências basais.",
