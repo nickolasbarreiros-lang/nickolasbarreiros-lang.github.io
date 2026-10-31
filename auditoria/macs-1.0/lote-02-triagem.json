@@ -638,15 +638,15 @@
     },
     {
       "arquivo": "dados/orquideas/cattleya-schilleriana-x-cruzeiro-do-sul.js",
-      "especie": "Cattleya schilleriana × Cruzeiro do Sul",
+      "especie": "Cattleya Memoria Rita Franke (C. schilleriana × C. Cruzeiro do Sul)",
       "fotos_cadastradas": 4,
       "formas_cultivo": false,
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
-      "status_macs": "implementacao_integrada_assets_verificados_inspecao_visual_publica_pendente",
+      "status_macs": "implementado_identidade_confirmada_assets_verificados_visual_publica_nao_acessivel",
       "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS.",
-      "parecer_final": "Ficha completa estruturalmente: MACS sete suportes, formasCultivo e substratoVisual integrados ao renderizador ficha.js; oito assets visuais e quatro fotos confirmados por GitHub; percentuais 100. Homologação visual ao vivo não realizada.",
+      "parecer_final": "Identificação horticultural registrada confirmada por OrchidRoots (RHS) e Orquidário Wolf. Ficha com MACS sete suportes, quatro fotos e oito assets existentes; integração com renderizador ficha.js confirmada por código. A inspeção visual publicada não foi possível, portanto não homologada visualmente.",
       "integridade": {
         "fotos_cadastradas": 4,
         "quatro_arquivos_fotos_existentes": true,
@@ -660,10 +660,21 @@
         "renderizacao_publica_verificada": false
       },
       "pendencias": [
-        "Inspeção visual do site em navegador real não executada",
-        "Identidade formal do grex Memoria Rita Franke a confirmar",
-        "Pesquisa mais ampla de produtores e revisão científica externa"
-      ]
+        "Inspeção visual em navegador real: endereço do site publicado não acessível pela ferramenta de consulta",
+        "Pesquisa ampla de produtores e revisão experimental externa: não realizadas"
+      ],
+      "identidade_horticultural": {
+        "nome_registrado": "Cattleya Memoria Rita Franke",
+        "registrante": "R. Martiarena",
+        "ano": 2023,
+        "parentais": [
+          "Cattleya schilleriana",
+          "Cattleya Cruzeiro do Sul"
+        ],
+        "fonte": "https://orchidroots.com/display/summary/orchidaceae/101058304/",
+        "corroboracao": "https://www.orquidariowolf.com.br/produtos/cattleya-memoria-rita-franke1/",
+        "id_legado_preservado": true
+      }
     },
     {
       "arquivo": "dados/orquideas/cattleya-violacea-f-flamea.js",
