@@ -40,6 +40,32 @@ export const cattleyaViolaceaFFlamea = {
     "substrato": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.",
     "errosComuns": "Expor a frio prolongado; impor repouso seco; deixar raízes secas por vários dias; manter substrato saturado; usar pouca ventilação; cultivar em sombra profunda; deixar água no rizoma; regar à noite; usar substrato fino; aplicar excesso de adubo; replantar sem raízes novas; confundir alta umidade do ar com encharcamento.",
     "dica": "O segredo não é simplesmente regar mais, mas manter calor, umidade e ar em equilíbrio. Use cesto ou vaso muito perfurado, regue com frequência pela manhã e permita que a superfície das raízes respire. Mantenha noites quentes e nunca aplique um repouso seco típico de Cattleyas do Sudeste. A planta deve permanecer hidratada e metabolicamente ativa sem ficar encharcada.",
+    formasCultivo: {
+        perfilVisual: "cattleya",
+        destaque: "Cachepô de Madeira",
+        resumo: "Raízes ventiladas com irrigação regular e secagem superficial, sem repouso seco rigoroso.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Ideal", texto: "Permite umidade regular com alta aeração; ajustar regas conforme calor e ventilação." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Boa estabilidade e drenagem, sem deixar a planta desidratar por períodos longos." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Adequado", texto: "Retém um pouco mais de água, mas exige furação ampla e mistura grossa." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 3, status: "Condicionado", texto: "Pode favorecer raízes livres, desde que o ambiente mantenha umidade e permita irrigação." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Para cachepô de madeira aberto",
+        resumo: "Mistura de granulometria média a grossa, aerada e com retenção moderada.",
+        justificativa: "A proposta equilibra umidade e oxigênio para uma Cattleya tropical sem repouso seco rígido; percentuais são inferência técnica.",
+        receitaTexto: "35% pinus médio + 25% macadâmia média + 20% carvão vegetal + 20% chips de coco grossos.",
+        perfil: ["Umidade regular", "Raízes aeradas", "Secagem superficial", "Noites quentes"],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Fornece suporte sem compactação." },
+            { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "25%", nota: "estrutura", finalidade: "Mantém porosidade entre raízes." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração", finalidade: "Favorece drenagem e reduz compactação." },
+            { asset: "chips-coco", nome: "Chips de coco grossos", proporcao: "20%", nota: "umidade", finalidade: "Prolonga hidratação sem bloquear espaços de ar." }
+        ],
+        alerta: "Não manter encharcado e não impor repouso seco severo. Fixe o rizoma acima da mistura."
+    },
     revisaoCientificaIAR: {
         "nome": "Cattleya violacea f. flamea",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
