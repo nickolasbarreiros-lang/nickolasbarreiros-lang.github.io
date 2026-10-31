@@ -9792,3 +9792,37 @@ main.container{
 .botao-carregar-mais-catalogo:focus-visible {
     background: #f4faf6;
 }
+
+/* V4.9 — alinhamento uniforme das proporções, fotos e legendas do substrato. */
+.ingrediente-substrato-v4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ingrediente-substrato-v4 .proporcao-substrato-v4 {
+    order: 0;
+    box-sizing: border-box;
+    min-height: 30px;
+    margin: 0 0 8px;
+    padding: 5px 11px;
+    font-size: .78rem;
+    line-height: 20px;
+    color: #fff;
+    background: #4b973b;
+}
+.ingrediente-substrato-v4 .proporcao-pendente-v49 {
+    background: #f0f3ec;
+    color: #667465;
+    border: 1px dashed #b7c8b1;
+}
+.ingrediente-substrato-v4 .imagem-substrato-v4 {
+    order: 1;
+    flex-shrink: 0;
+}
+.ingrediente-substrato-v4 strong {
+    order: 2;
+    min-height: 2.3em;
+}
+.ingrediente-substrato-v4 small {
+    order: 3;
+}
