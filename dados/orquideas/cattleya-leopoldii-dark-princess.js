@@ -43,76 +43,77 @@ export const cattleyaLeopoldiiDarkPrincess = {
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso de barro",
-    "resumo": "Alternativas derivadas das recomendações existentes. Estrelas visuais provisórias; MACS ainda não validado.",
+    "resumo": "Plantas vigorosas precisam de suporte estável, raízes ventiladas e mistura grossa que não acumule água.",
     "metodos": [
         {
             "nome": "Vaso de barro",
             "asset": "vaso-barro",
-            "estrelas": 5,
-            "status": "Ideal",
-            "texto": "Vaso de barro pesado, largo o suficiente para estabilidade e com tutor rígido."
+            "estrelas": null,
+            "status": "Mais indicada na ficha",
+            "texto": "A terracota oferece estabilidade e evaporação pelas paredes; o vaso deve ter tamanho proporcional e mistura bem drenante."
         },
         {
             "nome": "Cachepô de madeira",
             "asset": "cesto-madeira",
-            "estrelas": 4,
-            "status": "Muito recomendado",
-            "texto": "Cachepô robusto de madeira, preso de forma segura à bancada."
-        },
-        {
-            "nome": "Vaso plástico",
-            "asset": "vaso-plastico",
-            "estrelas": 3,
-            "status": "Adequado",
-            "texto": "Cesta grande para touceiras adultas."
-        },
-        {
-            "nome": "Vaso plástico",
-            "asset": "vaso-plastico",
-            "estrelas": 2,
+            "estrelas": null,
             "status": "Alternativa",
-            "texto": "Use brita ou perlita grossa na base para contrapeso, sem bloquear os furos. Tutores devem ser instalados quando o broto ainda estiver flexível."
+            "texto": "As aberturas laterais mantêm as raízes ventiladas e favorecem a drenagem, mas a mistura seca mais depressa."
+        },
+        {
+            "nome": "Vaso plástico",
+            "asset": "vaso-plastico",
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "A retenção maior exige atenção ao tamanho das partículas e aos intervalos de rega."
+        },
+        {
+            "nome": "Placa / tronco",
+            "asset": "placa-tronco",
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "Raízes ficam expostas ao ar e secam rapidamente após molhar; requer umidade ambiental e regas compatíveis."
         }
     ]
 },
     substratoVisual: {
     "titulo": "Substrato ideal",
-    "contexto": "Receita visual provisória",
-    "resumo": "Ingredientes da receita existente, sem atribuição de porcentagens não verificadas.",
-    "justificativa": "A composição mantém os materiais anteriormente recomendados. A definição quantitativa e a validação técnica ficam para a revisão específica.",
+    "contexto": "Composição da ficha — proporções a validar",
+    "resumo": "Componentes da recomendação original, apresentados sem percentuais não documentados.",
+    "justificativa": "As raízes epífitas dependem de ar entre as partículas; mantenha drenagem e ajuste a rega ao recipiente.",
     "receitaTexto": "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + perlita grossa + carvão vegetal.",
     "perfil": [
-        "Aeração",
-        "Drenagem",
-        "Proporções a validar"
+        "Raízes epífitas",
+        "Boa aeração",
+        "Drenagem livre",
+        "Secagem entre regas"
     ],
     "itens": [
         {
             "asset": "macadamia",
             "nome": "Casca de macadâmia",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         },
         {
             "asset": "casca-pinus",
             "nome": "Casca de pinus",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         },
         {
             "asset": "perlita",
             "nome": "Perlita grossa",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         },
         {
             "asset": "carvao-vegetal",
             "nome": "Carvão vegetal",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         }
     ],
-    "alerta": "Receita visual preliminar; consultar recomendações originais até validação das proporções."
+    "alerta": "As proporções não foram informadas na receita original e permanecem pendentes de validação."
 },
     "errosComuns": "Pouca luz; vaso leve; ausência de tutoramento; amarrar o broto com excesso de pressão; tentar endireitar pseudobulbo maduro; substrato fino; excesso de água no inverno; excesso de nitrogênio; girar o vaso durante a haste; dividir em poucas frentes; impedir espaço vertical; deixar o rizoma frouxo.",
     "dica": "Tutore a frente nova desde os primeiros centímetros de alongamento. Use amarração flexível, com folga para o espessamento, e ajuste gradualmente. Instale o vaso definitivo em local estável antes que a planta fique alta. Depois do endurecimento dos tecidos, não tente dobrar ou reposicionar a haste. A estabilidade física melhora a orientação da haste, protege raízes novas e evita que o conjunto tombe com o peso das flores.",
