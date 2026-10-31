@@ -314,7 +314,7 @@ export const isabeliaPulchella = {
         "finalidade": "Evita desidratação de raízes pequenas; manter solto, nunca compactado."
       }
     ],
-    "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
+    "alerta": "Não usar perlita grossa. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
   },
   "fotoReferencia": {
     "origem": "La Canopée — Isabelia pulchella",
