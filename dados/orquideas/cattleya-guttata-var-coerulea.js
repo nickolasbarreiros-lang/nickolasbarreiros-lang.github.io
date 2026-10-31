@@ -77,10 +77,10 @@ export const cattleyaGuttataVarCoerulea = {
 },
     substratoVisual: {
     "titulo": "Substrato ideal",
-    "contexto": "Receita técnica sugerida para cultivo em vaso",
-    "resumo": "Mistura de partículas abertas para boa aeração e drenagem, com proporções iniciais ajustáveis ao microclima.",
-    "justificativa": "O porte alto e as raízes vigorosas exigem estrutura estável, oxigenação e drenagem rápida; evite partículas finas que mantenham o centro do recipiente saturado.",
-    "receitaTexto": "Proposta técnica inicial: 35% casca de macadâmia + 30% casca de pinus + 20% perlita grossa + 15% carvão vegetal. Percentuais propostos para teste de cultivo, não publicados como fórmula experimental para esta espécie.",
+    "contexto": "Proposta de mistura para recipiente",
+    "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
+    "justificativa": "O porte alto exige estabilidade e circulação de ar; a fração mineral acrescenta peso ao recipiente.",
+    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de macadâmia + 25% casca de pinus + 25% brita fina + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
@@ -93,53 +93,31 @@ export const cattleyaGuttataVarCoerulea = {
             "nome": "Casca de macadâmia",
             "proporcao": "35%",
             "nota": "estrutura",
-            "finalidade": "Cria partículas estruturais e espaços de ar; use granulometria grossa ou média conforme o porte."
+            "finalidade": "Partículas resistentes criam espaços de ar entre as raízes."
         },
         {
             "asset": "casca-pinus",
             "nome": "Casca de pinus",
-            "proporcao": "30%",
-            "nota": "base orgânica",
-            "finalidade": "Forma a base orgânica e retém umidade moderada sem bloquear os espaços entre partículas."
+            "proporcao": "25%",
+            "nota": "umidade moderada",
+            "finalidade": "Conserva alguma umidade sem fechar a mistura quando usada em granulometria adequada."
         },
         {
-            "asset": "perlita",
-            "nome": "Perlita grossa",
-            "proporcao": "20%",
-            "nota": "aeração",
-            "finalidade": "Aumenta a porosidade e reduz a compactação, favorecendo a oxigenação das raízes."
+            "asset": "brita-pura",
+            "nome": "Brita fina",
+            "proporcao": "25%",
+            "nota": "estabilidade",
+            "finalidade": "Acrescenta peso e drenagem em plantas altas sem aumentar retenção orgânica."
         },
         {
             "asset": "carvao-vegetal",
             "nome": "Carvão vegetal",
             "proporcao": "15%",
             "nota": "drenagem",
-            "finalidade": "Contribui para uma mistura aberta e de drenagem rápida; não substitui a renovação periódica."
+            "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
-    "alerta": "Percentuais são uma proposta técnica inicial, não uma fórmula específica validada experimentalmente; ajuste ao clima, recipiente e ritmo de secagem.",
-    "comportamento": [
-        {
-            "nome": "Retenção",
-            "valor": 2,
-            "icone": "💧"
-        },
-        {
-            "nome": "Aeração",
-            "valor": 5,
-            "icone": "💨"
-        },
-        {
-            "nome": "Secagem",
-            "valor": 4,
-            "icone": "⚡"
-        },
-        {
-            "nome": "Compactação",
-            "valor": 1,
-            "icone": "🧱"
-        }
-    ]
+    "alerta": "Proporções orientativas, sujeitas à revisão por fontes brasileiras específicas; observar a secagem antes de repetir a rega."
 },
     errosComuns: "• Planta balançando após o replantio, rompendo pontas radiculares novas.\n• Vaso leve que tomba com o peso dos pseudobulbos.\n• Sombra excessiva e crescimento estiolado.\n• Vaso enorme com núcleo constantemente úmido.\n• Substrato velho e decomposto.\n• Secar demais durante a formação de novos pseudobulbos.\n• Dividir clones valiosos em pedaços muito pequenos.\n• Replantar quando não há novas raízes em início de crescimento.\n• Adubação excessiva ou uso de fósforo muito concentrado.",
     dica: "🏆 Imobilize a base antes de pensar na floração. O grande porte transforma cada pseudobulbo em uma alavanca: vento ou esbarrões podem movimentar o rizoma e romper as pontas das raízes novas. Após o replantio, fixe firmemente rizoma e pseudobulbos principais com amarração macia ou revestida, sem estrangular os tecidos. Preserve divisões com pelo menos 4 a 5 pseudobulbos e, em clones coerulea valiosos, prefira touceiras ainda maiores. Faça o replantio quando as primeiras raízes novas começarem a aparecer.",
