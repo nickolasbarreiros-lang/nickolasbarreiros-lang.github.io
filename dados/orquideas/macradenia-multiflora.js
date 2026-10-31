@@ -55,9 +55,9 @@ export const macradeniaMultiflora = {
     ],
 
     substrato: [
-        "🥇 Casca de pinus média + carvão vegetal + pedra-pomes.",
-        "🥈 Casca de pinus + pequena fração de esfagno + pedra-pomes/perlita.",
-        "🥉 Chips de coco + carvão + pedra-pomes, sem compactação.",
+        "🥇 Casca de pinus média + carvão vegetal + perlita grossa.",
+        "🥈 Casca de pinus + pequena fração de esfagno + perlita grossa/perlita.",
+        "🥉 Chips de coco + carvão + perlita grossa, sem compactação.",
         "⭐ Montada: fina camada de esfagno apenas junto às raízes novas."
     ],
 
