@@ -1,0 +1,507 @@
+{
+  "titulo": "Auditoria de homologação MACS 1.0 — lote de dez fichas",
+  "data": "2026-10-30",
+  "status_geral": "nao_homologado",
+  "regra": "Não marcar como validado sem satisfazer os requisitos de auditoria/macs-1.0/LEIA-ME.md.",
+  "registros": [
+    {
+      "especie": "Blc. Chia Lin",
+      "arquivo": "dados/orquideas/blc-chia-lin.js",
+      "status": "pesquisa_em_andamento",
+      "metodologia": "MACS 1.0",
+      "produtores_brasileiros": {
+        "consultados": 0,
+        "meta": 25,
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+      },
+      "fontes_iniciais": [],
+      "perfil_radicular_hidrico": {
+        "espessura_raizes": null,
+        "exposicao_natural": null,
+        "reserva_hidrica": null,
+        "necessidade_umidade": null,
+        "tolerancia_secagem": null,
+        "sensibilidade_saturacao": null,
+        "arquitetura_crescimento": null,
+        "condicoes_termicas": null
+      },
+      "avaliacao_montagens": {
+        "metodos": [
+          "placa-tronco",
+          "vaso-barro",
+          "vaso-plastico",
+          "vaso-plastico-vasado",
+          "cesto-madeira",
+          "arvore-viva",
+          "raizes-soltas"
+        ],
+        "pontuacoes": null,
+        "risco_eliminatorio": null
+      },
+      "substrato": {
+        "receita_publicada": "proposta_preliminar_nao_homologada",
+        "comparacao_brasileira": "pendente",
+        "validacao_percentuais": false
+      },
+      "pendencias": [
+        "Completar 25 consultas distintas a produtores brasileiros",
+        "Conferir taxonomia, hábito e oito critérios com referências",
+        "Pontuar os sete métodos e riscos eliminatórios",
+        "Confrontar misturas publicadas, granulometria e percentuais",
+        "Inspeção visual e homologação editorial"
+      ]
+    },
+    {
+      "especie": "Camaridium carinatum",
+      "arquivo": "dados/orquideas/camaridium-carinatum.js",
+      "status": "pesquisa_em_andamento",
+      "metodologia": "MACS 1.0",
+      "produtores_brasileiros": {
+        "consultados": 0,
+        "meta": 25,
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+      },
+      "fontes_iniciais": [],
+      "perfil_radicular_hidrico": {
+        "espessura_raizes": null,
+        "exposicao_natural": null,
+        "reserva_hidrica": null,
+        "necessidade_umidade": null,
+        "tolerancia_secagem": null,
+        "sensibilidade_saturacao": null,
+        "arquitetura_crescimento": null,
+        "condicoes_termicas": null
+      },
+      "avaliacao_montagens": {
+        "metodos": [
+          "placa-tronco",
+          "vaso-barro",
+          "vaso-plastico",
+          "vaso-plastico-vasado",
+          "cesto-madeira",
+          "arvore-viva",
+          "raizes-soltas"
+        ],
+        "pontuacoes": null,
+        "risco_eliminatorio": null
+      },
+      "substrato": {
+        "receita_publicada": "proposta_preliminar_nao_homologada",
+        "comparacao_brasileira": "pendente",
+        "validacao_percentuais": false
+      },
+      "pendencias": [
+        "Completar 25 consultas distintas a produtores brasileiros",
+        "Conferir taxonomia, hábito e oito critérios com referências",
+        "Pontuar os sete métodos e riscos eliminatórios",
+        "Confrontar misturas publicadas, granulometria e percentuais",
+        "Inspeção visual e homologação editorial"
+      ]
+    },
+    {
+      "especie": "Cattleya A Brazilian Dream",
+      "arquivo": "dados/orquideas/cattleya-a-brazilian-dream.js",
+      "status": "pesquisa_em_andamento",
+      "metodologia": "MACS 1.0",
+      "produtores_brasileiros": {
+        "consultados": 0,
+        "meta": 25,
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+      },
+      "fontes_iniciais": [],
+      "perfil_radicular_hidrico": {
+        "espessura_raizes": null,
+        "exposicao_natural": null,
+        "reserva_hidrica": null,
+        "necessidade_umidade": null,
+        "tolerancia_secagem": null,
+        "sensibilidade_saturacao": null,
+        "arquitetura_crescimento": null,
+        "condicoes_termicas": null
+      },
+      "avaliacao_montagens": {
+        "metodos": [
+          "placa-tronco",
+          "vaso-barro",
+          "vaso-plastico",
+          "vaso-plastico-vasado",
+          "cesto-madeira",
+          "arvore-viva",
+          "raizes-soltas"
+        ],
+        "pontuacoes": null,
+        "risco_eliminatorio": null
+      },
+      "substrato": {
+        "receita_publicada": "proposta_preliminar_nao_homologada",
+        "comparacao_brasileira": "pendente",
+        "validacao_percentuais": false
+      },
+      "pendencias": [
+        "Completar 25 consultas distintas a produtores brasileiros",
+        "Conferir taxonomia, hábito e oito critérios com referências",
+        "Pontuar os sete métodos e riscos eliminatórios",
+        "Confrontar misturas publicadas, granulometria e percentuais",
+        "Inspeção visual e homologação editorial"
+      ]
+    },
+    {
+      "especie": "Cattleya aclandiae",
+      "arquivo": "dados/orquideas/cattleya-aclandiae-tipo.js",
+      "status": "pesquisa_em_andamento",
+      "metodologia": "MACS 1.0",
+      "produtores_brasileiros": {
+        "consultados": 1,
+        "meta": 25,
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+      },
+      "fontes_iniciais": [
+        {
+          "nome": "Orquídeas & Cia",
+          "url": "https://www.orquideacia.com.br/produto/cattleya-aclandiae",
+          "conclusao": "Cultivo em tronco de madeira ou mistura grossa de brita e pinus; recomendação de fornecedor, não ensaio comparativo."
+        }
+      ],
+      "perfil_radicular_hidrico": {
+        "espessura_raizes": null,
+        "exposicao_natural": null,
+        "reserva_hidrica": null,
+        "necessidade_umidade": null,
+        "tolerancia_secagem": null,
+        "sensibilidade_saturacao": null,
+        "arquitetura_crescimento": null,
+        "condicoes_termicas": null
+      },
+      "avaliacao_montagens": {
+        "metodos": [
+          "placa-tronco",
+          "vaso-barro",
+          "vaso-plastico",
+          "vaso-plastico-vasado",
+          "cesto-madeira",
+          "arvore-viva",
+          "raizes-soltas"
+        ],
+        "pontuacoes": null,
+        "risco_eliminatorio": null
+      },
+      "substrato": {
+        "receita_publicada": "proposta_preliminar_nao_homologada",
+        "comparacao_brasileira": "pendente",
+        "validacao_percentuais": false
+      },
+      "pendencias": [
+        "Completar 25 consultas distintas a produtores brasileiros",
+        "Conferir taxonomia, hábito e oito critérios com referências",
+        "Pontuar os sete métodos e riscos eliminatórios",
+        "Confrontar misturas publicadas, granulometria e percentuais",
+        "Inspeção visual e homologação editorial"
+      ]
+    },
+    {
+      "especie": "Cattlianthe Chocolate Drop",
+      "arquivo": "dados/orquideas/cattleya-chocolate-drop.js",
+      "status": "pesquisa_em_andamento",
+      "metodologia": "MACS 1.0",
+      "produtores_brasileiros": {
+        "consultados": 0,
+        "meta": 25,
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+      },
+      "fontes_iniciais": [
+        {
+          "nome": "Revisão acadêmica UFS",
+          "url": "https://ri.ufs.br/bitstream/riufs/3034/1/THAYS_SAYNARA_ALVES_MENEZES.pdf",
+          "conclusao": "Menciona pesquisa de aclimatização de híbrido Chocolate Drop; referência secundária, conferir trabalho original."
+        }
+      ],
+      "perfil_radicular_hidrico": {
+        "espessura_raizes": null,
+        "exposicao_natural": null,
+        "reserva_hidrica": null,
+        "necessidade_umidade": null,
+        "tolerancia_secagem": null,
+        "sensibilidade_saturacao": null,
+        "arquitetura_crescimento": null,
+        "condicoes_termicas": null
+      },
+      "avaliacao_montagens": {
+        "metodos": [
+          "placa-tronco",
+          "vaso-barro",
+          "vaso-plastico",
+          "vaso-plastico-vasado",
+          "cesto-madeira",
+          "arvore-viva",
+          "raizes-soltas"
+        ],
+        "pontuacoes": null,
+        "risco_eliminatorio": null
+      },
+      "substrato": {
+        "receita_publicada": "proposta_preliminar_nao_homologada",
+        "comparacao_brasileira": "pendente",
+        "validacao_percentuais": false
+      },
+      "pendencias": [
+        "Completar 25 consultas distintas a produtores brasileiros",
+        "Conferir taxonomia, hábito e oito critérios com referências",
+        "Pontuar os sete métodos e riscos eliminatórios",
+        "Confrontar misturas publicadas, granulometria e percentuais",
+        "Inspeção visual e homologação editorial"
+      ]
+    },
+    {
+      "especie": "Cattleya guttata coerulea",
+      "arquivo": "dados/orquideas/cattleya-guttata-var-coerulea.js",
+      "status": "pesquisa_em_andamento",
+      "metodologia": "MACS 1.0",
+      "produtores_brasileiros": {
+        "consultados": 0,
+        "meta": 25,
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+      },
+      "fontes_iniciais": [],
+      "perfil_radicular_hidrico": {
+        "espessura_raizes": null,
+        "exposicao_natural": null,
+        "reserva_hidrica": null,
+        "necessidade_umidade": null,
+        "tolerancia_secagem": null,
+        "sensibilidade_saturacao": null,
+        "arquitetura_crescimento": null,
+        "condicoes_termicas": null
+      },
+      "avaliacao_montagens": {
+        "metodos": [
+          "placa-tronco",
+          "vaso-barro",
+          "vaso-plastico",
+          "vaso-plastico-vasado",
+          "cesto-madeira",
+          "arvore-viva",
+          "raizes-soltas"
+        ],
+        "pontuacoes": null,
+        "risco_eliminatorio": null
+      },
+      "substrato": {
+        "receita_publicada": "proposta_preliminar_nao_homologada",
+        "comparacao_brasileira": "pendente",
+        "validacao_percentuais": false
+      },
+      "pendencias": [
+        "Completar 25 consultas distintas a produtores brasileiros",
+        "Conferir taxonomia, hábito e oito critérios com referências",
+        "Pontuar os sete métodos e riscos eliminatórios",
+        "Confrontar misturas publicadas, granulometria e percentuais",
+        "Inspeção visual e homologação editorial"
+      ]
+    },
+    {
+      "especie": "Cattleya intermedia",
+      "arquivo": "dados/orquideas/cattleya-intermedia.js",
+      "status": "pesquisa_em_andamento",
+      "metodologia": "MACS 1.0",
+      "produtores_brasileiros": {
+        "consultados": 0,
+        "meta": 25,
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+      },
+      "fontes_iniciais": [
+        {
+          "nome": "Lone et al., 2008",
+          "url": "https://periodicos.uem.br/ojs/index.php/ActaSciAgron/article/view/5299",
+          "conclusao": "Aclimatização: fibra de coco ou pinus + fibra de coco 1:1; não extrapolar automaticamente para plantas adultas."
+        },
+        {
+          "nome": "Acta Scientiarum, 2010",
+          "url": "https://www.scielo.br/j/asagr/a/SwVJrySdJB8RcgnKsQvGLCx/?lang=pt",
+          "conclusao": "Mudas: comparação de pinus, coco, arroz carbonizado e carvão, com tratamento de extrato pirolenhoso."
+        }
+      ],
+      "perfil_radicular_hidrico": {
+        "espessura_raizes": null,
+        "exposicao_natural": null,
+        "reserva_hidrica": null,
+        "necessidade_umidade": null,
+        "tolerancia_secagem": null,
+        "sensibilidade_saturacao": null,
+        "arquitetura_crescimento": null,
+        "condicoes_termicas": null
+      },
+      "avaliacao_montagens": {
+        "metodos": [
+          "placa-tronco",
+          "vaso-barro",
+          "vaso-plastico",
+          "vaso-plastico-vasado",
+          "cesto-madeira",
+          "arvore-viva",
+          "raizes-soltas"
+        ],
+        "pontuacoes": null,
+        "risco_eliminatorio": null
+      },
+      "substrato": {
+        "receita_publicada": "proposta_preliminar_nao_homologada",
+        "comparacao_brasileira": "pendente",
+        "validacao_percentuais": false
+      },
+      "pendencias": [
+        "Completar 25 consultas distintas a produtores brasileiros",
+        "Conferir taxonomia, hábito e oito critérios com referências",
+        "Pontuar os sete métodos e riscos eliminatórios",
+        "Confrontar misturas publicadas, granulometria e percentuais",
+        "Inspeção visual e homologação editorial"
+      ]
+    },
+    {
+      "especie": "Cattleya leopoldii Dark Princess",
+      "arquivo": "dados/orquideas/cattleya-leopoldii-dark-princess.js",
+      "status": "pesquisa_em_andamento",
+      "metodologia": "MACS 1.0",
+      "produtores_brasileiros": {
+        "consultados": 0,
+        "meta": 25,
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+      },
+      "fontes_iniciais": [],
+      "perfil_radicular_hidrico": {
+        "espessura_raizes": null,
+        "exposicao_natural": null,
+        "reserva_hidrica": null,
+        "necessidade_umidade": null,
+        "tolerancia_secagem": null,
+        "sensibilidade_saturacao": null,
+        "arquitetura_crescimento": null,
+        "condicoes_termicas": null
+      },
+      "avaliacao_montagens": {
+        "metodos": [
+          "placa-tronco",
+          "vaso-barro",
+          "vaso-plastico",
+          "vaso-plastico-vasado",
+          "cesto-madeira",
+          "arvore-viva",
+          "raizes-soltas"
+        ],
+        "pontuacoes": null,
+        "risco_eliminatorio": null
+      },
+      "substrato": {
+        "receita_publicada": "proposta_preliminar_nao_homologada",
+        "comparacao_brasileira": "pendente",
+        "validacao_percentuais": false
+      },
+      "pendencias": [
+        "Completar 25 consultas distintas a produtores brasileiros",
+        "Conferir taxonomia, hábito e oito critérios com referências",
+        "Pontuar os sete métodos e riscos eliminatórios",
+        "Confrontar misturas publicadas, granulometria e percentuais",
+        "Inspeção visual e homologação editorial"
+      ]
+    },
+    {
+      "especie": "Cattleya loddigesii",
+      "arquivo": "dados/orquideas/cattleya-loddigesii.js",
+      "status": "pesquisa_em_andamento",
+      "metodologia": "MACS 1.0",
+      "produtores_brasileiros": {
+        "consultados": 0,
+        "meta": 25,
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+      },
+      "fontes_iniciais": [
+        {
+          "nome": "Sorace, UEL",
+          "url": "https://repositorio.uel.br/items/ea109160-d382-4cc6-9d7c-eeaad0fc9bb3",
+          "conclusao": "Pesquisa com plântulas: pinus e combinações com casca de arroz carbonizada entre melhores tratamentos."
+        }
+      ],
+      "perfil_radicular_hidrico": {
+        "espessura_raizes": null,
+        "exposicao_natural": null,
+        "reserva_hidrica": null,
+        "necessidade_umidade": null,
+        "tolerancia_secagem": null,
+        "sensibilidade_saturacao": null,
+        "arquitetura_crescimento": null,
+        "condicoes_termicas": null
+      },
+      "avaliacao_montagens": {
+        "metodos": [
+          "placa-tronco",
+          "vaso-barro",
+          "vaso-plastico",
+          "vaso-plastico-vasado",
+          "cesto-madeira",
+          "arvore-viva",
+          "raizes-soltas"
+        ],
+        "pontuacoes": null,
+        "risco_eliminatorio": null
+      },
+      "substrato": {
+        "receita_publicada": "proposta_preliminar_nao_homologada",
+        "comparacao_brasileira": "pendente",
+        "validacao_percentuais": false
+      },
+      "pendencias": [
+        "Completar 25 consultas distintas a produtores brasileiros",
+        "Conferir taxonomia, hábito e oito critérios com referências",
+        "Pontuar os sete métodos e riscos eliminatórios",
+        "Confrontar misturas publicadas, granulometria e percentuais",
+        "Inspeção visual e homologação editorial"
+      ]
+    },
+    {
+      "especie": "Cattleya lueddemanniana",
+      "arquivo": "dados/orquideas/cattleya-lueddemanniana-tipo.js",
+      "status": "pesquisa_em_andamento",
+      "metodologia": "MACS 1.0",
+      "produtores_brasileiros": {
+        "consultados": 0,
+        "meta": 25,
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+      },
+      "fontes_iniciais": [],
+      "perfil_radicular_hidrico": {
+        "espessura_raizes": null,
+        "exposicao_natural": null,
+        "reserva_hidrica": null,
+        "necessidade_umidade": null,
+        "tolerancia_secagem": null,
+        "sensibilidade_saturacao": null,
+        "arquitetura_crescimento": null,
+        "condicoes_termicas": null
+      },
+      "avaliacao_montagens": {
+        "metodos": [
+          "placa-tronco",
+          "vaso-barro",
+          "vaso-plastico",
+          "vaso-plastico-vasado",
+          "cesto-madeira",
+          "arvore-viva",
+          "raizes-soltas"
+        ],
+        "pontuacoes": null,
+        "risco_eliminatorio": null
+      },
+      "substrato": {
+        "receita_publicada": "proposta_preliminar_nao_homologada",
+        "comparacao_brasileira": "pendente",
+        "validacao_percentuais": false
+      },
+      "pendencias": [
+        "Completar 25 consultas distintas a produtores brasileiros",
+        "Conferir taxonomia, hábito e oito critérios com referências",
+        "Pontuar os sete métodos e riscos eliminatórios",
+        "Confrontar misturas publicadas, granulometria e percentuais",
+        "Inspeção visual e homologação editorial"
+      ]
+    }
+  ]
+}
