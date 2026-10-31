@@ -16,3 +16,11 @@ jobs:
         with:
           python-version: '3.11'
       - run: python scripts/verificar_catalogo.py
+      - name: Validar sintaxe JavaScript de todas as fichas
+        shell: bash
+        run: |
+          set -euo pipefail
+          for arquivo in dados/orquideas/*.js; do
+            node --input-type=module --check < "$arquivo"
+          done
+          echo 'Sintaxe JavaScript de todas as fichas aprovada.'
