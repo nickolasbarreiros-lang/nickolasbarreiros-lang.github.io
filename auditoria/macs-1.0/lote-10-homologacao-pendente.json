@@ -675,22 +675,54 @@
     {
       "especie": "Cattleya A Brazilian Dream",
       "arquivo": "dados/orquideas/cattleya-a-brazilian-dream.js",
-      "status": "pesquisa_em_andamento",
+      "status": "parecer_tecnico_concluido_sem_homologacao_cientifica",
       "metodologia": "MACS 1.0",
       "produtores_brasileiros": {
-        "consultados": 1,
+        "consultados": 6,
         "meta": 25,
         "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
         "meta_flexivel": true,
-        "justificativa_encerramento": "Uma fonte comercial diretamente atribuída ao grex foi localizada nesta rodada; não é amostragem exaustiva nem suficiente para alegar convergência de produtores.",
+        "justificativa_encerramento": "Seis fontes comerciais documentadas: uma do grex exato sem instruções, uma de cruzamento recíproco com clones específicos e quatro dos parentais. Não equivalem a seis validações do híbrido. Pesquisa ampliável; não demonstrado esgotamento de fontes.",
         "registros": [
           {
             "nome": "Orquidário Bauru",
             "url": "https://orquidariobauru.meucatalogodigital.com/",
             "resultado": "Anuncia Cattleya A Brazilian Dream, sem recomendação específica de substrato ou suporte.",
             "nivel": "grex_exato_sem_orientacao"
+          },
+          {
+            "nome": "Orquidário Serra do Mar",
+            "url": "https://www.orquidarioserradomar.com.br/outras/htp-1048-c-loddigesii-flamea-x-c-nobilior-amaliae",
+            "resultado": "Anuncia cruzamento recíproco com clones parentais especificados, sem receita de substrato. Evidência de híbrido aparentado, NÃO necessariamente mesmo grex.",
+            "nivel": "cruzamento_reciproco_nao_equivalente"
+          },
+          {
+            "nome": "Orquidário Oriental",
+            "url": "https://www.orquidariooriental.com.br/produto/cattleya-nobilior-70-x--c-nobilior-867%2C53621/",
+            "resultado": "Para parental C. nobilior recomenda substrato drenado, cachepô com pinus ou placa de madeira; não é recomendação do grex.",
+            "nivel": "parental"
+          },
+          {
+            "nome": "Orquivitro",
+            "url": "https://www.orquivitro.com.br/orquideas-especies/cattleya/cattleya-loddigesii",
+            "resultado": "Para parental C. loddigesii recomenda drenagem e aeração; admite plástico, barro, cachepô, toco ou árvore.",
+            "nivel": "parental"
+          },
+          {
+            "nome": "Orquidário 4 Estações",
+            "url": "https://www.orquidario4e.com.br/orquidea-cattleya-loddigesii-nbs",
+            "resultado": "Para parental C. loddigesii, indica substrato bem drenado, cachepô com pinus ou placa; não especifica percentuais.",
+            "nivel": "parental"
+          },
+          {
+            "nome": "Orquidário Matsuoka",
+            "url": "https://orquidariomatsuoka.com.br/produto/cattleya-nobilior-coerulescens-colecao-2/",
+            "resultado": "Para parental C. nobilior, toco de madeira, brita ou substrato de orquídea; regar após secagem.",
+            "nivel": "parental"
           }
-        ]
+        ],
+        "com_recomendacao_grex_exato": 0,
+        "com_recomendacao_parental": 4
       },
       "fontes_iniciais": [
         {
@@ -740,6 +772,36 @@
           "url": "https://www.rhs.org.uk/about-us/pdfs/publications/orchid-hybrid-lists/orchid-reg-nhl-1329-oct-dec-2019",
           "tipo": "registro_primario",
           "conclusao": "Cattleya A Brazilian Dream = C. nobilior × C. loddigesii; registrado por W. Pires."
+        },
+        {
+          "nome": "Orquidário Serra do Mar — cruzamento recíproco",
+          "url": "https://www.orquidarioserradomar.com.br/outras/htp-1048-c-loddigesii-flamea-x-c-nobilior-amaliae",
+          "tipo": "fonte_comercial_hibrido_relacionado",
+          "conclusao": "C. loddigesii × C. nobilior com clones nomeados, não comprova substrato do grex A Brazilian Dream."
+        },
+        {
+          "nome": "Orquidário Oriental — Cattleya nobilior",
+          "url": "https://www.orquidariooriental.com.br/produto/cattleya-nobilior-70-x--c-nobilior-867%2C53621/",
+          "tipo": "produtor_parental",
+          "conclusao": "Pinus em cachepô, placa e meio drenado."
+        },
+        {
+          "nome": "Orquivitro — Cattleya loddigesii",
+          "url": "https://www.orquivitro.com.br/orquideas-especies/cattleya/cattleya-loddigesii",
+          "tipo": "produtor_parental",
+          "conclusao": "Recipientes diversos e meio aerado/drenado."
+        },
+        {
+          "nome": "Orquidário 4 Estações — Cattleya loddigesii",
+          "url": "https://www.orquidario4e.com.br/orquidea-cattleya-loddigesii-nbs",
+          "tipo": "produtor_parental",
+          "conclusao": "Cachepô com pinus ou placa, drenagem."
+        },
+        {
+          "nome": "Orquidário Matsuoka — Cattleya nobilior",
+          "url": "https://orquidariomatsuoka.com.br/produto/cattleya-nobilior-coerulescens-colecao-2/",
+          "tipo": "produtor_parental",
+          "conclusao": "Toco, brita e substrato drenado."
         }
       ],
       "perfil_radicular_hidrico": {
@@ -917,12 +979,11 @@
         }
       },
       "pendencias": [
-        "Ampliar consulta de produtores com grex exato ou documentar escassez",
-        "Investigar evidências específicas para cultivo de híbrido adulto",
-        "Revisão editorial e inspeção visual da ficha antes de homologar"
+        "Revisão visual/editorial da ficha publicada caso recomendações sejam modificadas",
+        "Ampliar evidência direta do grex quando disponível"
       ],
       "fontes_cientificas_status": "levantamento_incompleto",
-      "etapa": "revisao_cientifica_parentais_ampliada",
+      "etapa": "parecer_tecnico_finalizado",
       "parecer_parcial": {
         "resultado": "A formulação de 40% macadâmia + 25% pinus + 20% perlita + 15% carvão é hipótese coerente com aeração, mas não superioridade demonstrada.",
         "base_mais_proxima": "Sorace (UEL, 2008) avaliou plântulas de C. loddigesii e observou bons resultados com pinus e pinus + arroz carbonizado.",
@@ -933,6 +994,14 @@
           "https://repositorio.uft.edu.br/handle/11612/2025",
           "https://doi.org/10.1590/0103-8478cr20240271"
         ]
+      },
+      "parecer_final": {
+        "decisao": "Parecer técnico MACS concluído com recomendação condicional, NÃO homologação experimental ou de grex específico.",
+        "cultivo": "Vaso plástico vasado (76/100), barro (74/100), cesto de madeira (73/100): diferenças pequenas e notas heurísticas. Cesto pode secar rapidamente em calor; escolher por manejo hídrico.",
+        "substrato": "Mistura atual 40% macadâmia + 25% pinus + 20% perlita + 15% carvão, volumétrica, total 100%, é plausível mas não validada diretamente. Preferir não alegar superioridade da macadâmia; testar mistura alternativa baseada em pinus e arroz carbonizado como hipótese, não recomendação comprovada para híbrido adulto.",
+        "evidencia": "RHS registro; UEL ensaio em plântulas de C. loddigesii; UFT e Diversitas em plântulas C. nobilior; 6 fornecedores dos quais apenas um grex exato sem manejo.",
+        "confianca": "moderada em princípios gerais, baixa em percentuais e ranking",
+        "limites": "Ausência de ensaio do híbrido adulto e recomendações de produtores específicas ao grex; não inventar precisão científica."
       }
     },
     {
