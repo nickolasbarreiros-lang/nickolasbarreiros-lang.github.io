@@ -36,6 +36,80 @@ export const blcChiaLin = {
     rega: "Durante brotação e enraizamento, molhe completamente e espere o substrato perder boa parte da umidade antes da próxima irrigação. Após a maturação, aumente discretamente o intervalo entre as regas, sem impor repouso seco. Em Litoral de clima quente, ajuste a frequência conforme temperatura, ventilação e velocidade de secagem do recipiente.",
     suporte: "🥇 Vaso de barro, excelente para o clima quente de Litoral de clima quente.\n🥈 Cachepô de madeira para plantas com várias frentes e raízes vigorosas.\n🥉 Vaso plástico muito perfurado ou cesto de madeira/plástico para exemplares grandes.",
     substrato: "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + perlita grossa + carvão vegetal.\n🥈 Casca de pinus grossa + carvão vegetal + brita fina, com quase nenhuma fração fina.\n🥉 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.\n⭐ Alternativa: Cachepô/cesto com pinus grosso + macadâmia grossa + perlita grossa, deixando grandes espaços de ar.",
+    formasCultivo: {
+            "perfilVisual": "epifita",
+            "destaque": "Vaso de barro",
+            "resumo": "Montagens organizadas a partir das recomendações já registradas nesta ficha; classificações visuais provisórias, sem validação MACS.",
+            "metodos": [
+                    {
+                            "nome": "Vaso de barro",
+                            "asset": "vaso-barro",
+                            "estrelas": 5,
+                            "status": "Ideal",
+                            "texto": "Vaso de barro, excelente para o clima quente de Litoral de clima quente."
+                    },
+                    {
+                            "nome": "Cachepô de madeira para plantas com várias frentes e raízes vi",
+                            "asset": "cesto-madeira",
+                            "estrelas": 4,
+                            "status": "Muito recomendado",
+                            "texto": "Cachepô de madeira para plantas com várias frentes e raízes vigorosas."
+                    },
+                    {
+                            "nome": "Vaso plástico muito perfurado ou cesto de madeira/plástico par",
+                            "asset": "cesto-madeira",
+                            "estrelas": 3,
+                            "status": "Adequado",
+                            "texto": "Vaso plástico muito perfurado ou cesto de madeira/plástico para exemplares grandes."
+                    },
+                    {
+                            "nome": "Vaso plástico vasado",
+                            "asset": "vaso-plastico-vasado",
+                            "estrelas": 2,
+                            "status": "Alternativa",
+                            "texto": "Opção de montagem a avaliar conforme ventilação, retenção de água e condições locais."
+                    }
+            ]
+    },
+    substratoVisual: {
+            "titulo": "Substrato ideal",
+            "contexto": "Composição ilustrativa — proporções a validar",
+            "resumo": "Componentes extraídos da mistura já recomendada na ficha. Nenhuma porcentagem foi inventada.",
+            "justificativa": "A apresentação visual conserva os ingredientes já indicados. Proporções, comportamento e comparação científica permanecem pendentes de validação.",
+            "receitaTexto": "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + perlita grossa + carvão vegetal.",
+            "perfil": [
+                    "Composição original preservada",
+                    "Proporções pendentes",
+                    "Boa drenagem"
+            ],
+            "itens": [
+                    {
+                            "asset": "casca-pinus",
+                            "nome": "Casca de pinus",
+                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
+                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
+                    },
+                    {
+                            "asset": "macadamia",
+                            "nome": "Casca de macadâmia",
+                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
+                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
+                    },
+                    {
+                            "asset": "perlita",
+                            "nome": "Perlita grossa",
+                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
+                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
+                    },
+                    {
+                            "asset": "carvao-vegetal",
+                            "nome": "Carvão vegetal",
+                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
+                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
+                    }
+            ],
+            "alerta": "As proporções não foram determinadas nesta migração de layout; manter a orientação textual original até revisão técnica."
+    },
     errosComuns: "Cultivar com pouca luz; usar vaso grande demais; manter substrato velho, ácido ou constantemente molhado; regar por calendário sem observar a secagem; usar adubo concentrado ou grandes doses de fósforo para tentar forçar floração; replantar fora do início do enraizamento; molhar repetidamente brotos novos no fim do dia; deixar água acumulada na espata; dividir plantas pequenas.",
     dica: "Observe o pseudobulbo, não apenas o calendário. Durante brotação e enraizamento, forneça água, adubação leve e luz suficiente para que o novo crescimento atinja seu tamanho máximo. Quando a folha estiver firme e o pseudobulbo maduro, reduza naturalmente a adubação e mantenha boa luminosidade. Um pseudobulbo robusto sustentado por raízes saudáveis tem muito mais chance de preencher a espata e produzir flores grandes.",
     revisaoCientificaIAR: {
