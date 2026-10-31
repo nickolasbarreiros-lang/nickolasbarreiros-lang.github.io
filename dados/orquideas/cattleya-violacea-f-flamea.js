@@ -200,4 +200,129 @@ export const cattleyaViolaceaFFlamea = {
         "agua": 4,
         "raridade": 5
     }
+    macs1_0: {
+        "versao": "MACS 1.0",
+        "status": "parecer_tecnico_implementado_sem_homologacao_visual",
+        "natureza": "Pontuações heurísticas por fisiologia da espécie e cultivo da aliança Cattleya; não são ensaios comparativos.",
+        "pesos": {
+            "raizes": 25,
+            "equilibrio_hidrico": 25,
+            "aeracao": 20,
+            "espaco": 10,
+            "calor": 10,
+            "evidencia": 10
+        },
+        "perfil": {
+            "espessura_raizes": "sem mensuração direta nesta forma; inferência da espécie",
+            "exposicao_natural": "epífita em ambiente tropical úmido",
+            "reservas": "pseudobulbos",
+            "necessidade_umidade": "regular durante crescimento, sem repouso seco severo",
+            "tolerancia_secagem": "intervalos curtos de secagem superficial",
+            "sensibilidade_saturacao": "alta, exige ar nas raízes",
+            "arquitetura": "simpodial bifoliada",
+            "condicoes_termicas": "quente e úmido, noites quentes"
+        },
+        "montagens": [
+            {
+                "suporte": "cesto-madeira",
+                "notas": [
+                    5,
+                    5,
+                    5,
+                    4,
+                    4,
+                    3
+                ],
+                "pontuacao": 92
+            },
+            {
+                "suporte": "vaso-barro",
+                "notas": [
+                    5,
+                    4,
+                    5,
+                    4,
+                    4,
+                    3
+                ],
+                "pontuacao": 87
+            },
+            {
+                "suporte": "vaso-plastico-vasado",
+                "notas": [
+                    4,
+                    5,
+                    5,
+                    4,
+                    4,
+                    3
+                ],
+                "pontuacao": 87
+            },
+            {
+                "suporte": "arvore-viva",
+                "notas": [
+                    5,
+                    3,
+                    5,
+                    4,
+                    4,
+                    2
+                ],
+                "pontuacao": 80
+            },
+            {
+                "suporte": "placa-tronco",
+                "notas": [
+                    5,
+                    3,
+                    5,
+                    3,
+                    4,
+                    2
+                ],
+                "pontuacao": 78
+            },
+            {
+                "suporte": "vaso-plastico",
+                "notas": [
+                    4,
+                    5,
+                    3,
+                    4,
+                    3,
+                    3
+                ],
+                "pontuacao": 77
+            },
+            {
+                "suporte": "raizes-soltas",
+                "notas": [
+                    3,
+                    1,
+                    5,
+                    2,
+                    2,
+                    1
+                ],
+                "pontuacao": 50
+            }
+        ],
+        "substrato": {
+            "recipiente": "cesto de madeira aberto",
+            "percentuais": {
+                "casca de pinus media": 35,
+                "casca de macadamia media": 25,
+                "carvao vegetal": 20,
+                "chips de coco grossos": 20
+            },
+            "natureza": "proposta técnica para clima quente, sem validação experimental específica",
+            "comparacao": "A mistura mantém fração orgânica estruturada e ventilação, em contraste com receitas mais secas para Cattleyas sazonais; confirmar recomendações de produtores para C. violacea antes da homologação."
+        },
+        "fontes": [
+            "https://powo.science.kew.org/",
+            "https://www.aos.org/"
+        ],
+        "limites": "Forma flamea é horticultural; sem ensaio específico dos sete suportes; consultas brasileiras adicionais e verificação visual pendentes."
+    }
 };
