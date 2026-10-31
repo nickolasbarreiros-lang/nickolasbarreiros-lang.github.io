@@ -259,7 +259,7 @@
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
-      "status_macs": "pesquisa_especifica_documentada_parecer_parcial",
+      "status_macs": "parecer_tecnico_completo_sem_homologacao_editorial",
       "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS.",
       "fontes": [
         {
@@ -291,6 +291,24 @@
           "url": "https://livrozilla.com/doc/467277/acesse-a-publica%C3%A7%C3%A3o---prefeitura-de-s%C3%A3o-paulo",
           "tipo": "manual_horticultural",
           "achado": "Descreve C. walkeriana e C. nobilior como favoráveis a suportes de madeira; generalização observacional, sem ensaio controlado."
+        },
+        {
+          "nome": "Brasil et al. (2016), Revista Bionorte — placas de Pinus",
+          "url": "https://www.revistabionorte.com.br/arquivos_up/artigos/a37.pdf",
+          "tipo": "ensaio_direto_especie",
+          "achado": "C. walkeriana, C. lueddemanniana e C. labiata coerulea mantidas em placas de Pinus sob 50% sombreamento e irrigação diária; crescimento possível no período avaliado, sem comparação direta com vaso."
+        },
+        {
+          "nome": "ESALQ/USP — Orquídeas, manual técnico",
+          "url": "https://www.esalq.usp.br/biblioteca/sites/default/files/publicacoes-a-venda/pdf/SPR_Orquideas.pdf",
+          "tipo": "manual_tecnico",
+          "achado": "Indica C. walkeriana entre espécies adaptáveis a suporte de madeira; descreve diferenças de velocidade de secagem dos materiais."
+        },
+        {
+          "nome": "Diário do Orquidófilo — experiência com walkerianas",
+          "url": "https://diariodoorquidofilo.com.br/ajuste-no-cultivo-das-cattleyas-walkerianas/",
+          "tipo": "relato_pratico_nao_produtor_comercial",
+          "achado": "Relato de placa inclinada e mistura macadâmia/carvão/peroba, com ajuste pontual de musgo em plantas desidratadas; não é ensaio controlado."
         }
       ],
       "produtores_brasileiros": {
@@ -314,11 +332,121 @@
       },
       "comparacao_substratos": "Santa Clara e Mogi Mirim convergem em pinus+carvão; estudo IFPB em discos de madeira encontrou maior crescimento com esfagno, mas não comparou esses vasos nem misturas. Em clima quente, esfagno requer cautela para evitar saturação e desidratação alternadas.",
       "pendencias": [
-        "Ampliar produtores distintos e registrar buscas negativas",
-        "Pontuar sete suportes com fonte e confiança por critério",
-        "Propor receita e granulometria vinculadas ao suporte após comparação",
-        "Inspecionar visualmente ficha antes de alterações"
-      ]
+        "Ampliar pesquisa de produtores distintos",
+        "Inspeção visual da ficha e confirmação de layout antes de alterar",
+        "Homologação da matriz e da composição por revisor"
+      ],
+      "avaliacao_montagens": {
+        "natureza": "Heurística MACS 1.0; a evidência direta apoia viabilidade em madeira, não superioridade numérica entre sete suportes",
+        "pesos": {
+          "compatibilidade_raizes": 25,
+          "equilibrio_hidrico": 25,
+          "aeracao_drenagem": 20,
+          "espaco_crescimento": 10,
+          "adaptacao_calor": 10,
+          "evidencia_documentada": 10
+        },
+        "pontuacoes": [
+          {
+            "metodo": "cesto-madeira",
+            "notas": {
+              "compatibilidade_raizes": 5,
+              "equilibrio_hidrico": 4,
+              "aeracao_drenagem": 5,
+              "espaco_crescimento": 5,
+              "adaptacao_calor": 3,
+              "evidencia_documentada": 3
+            },
+            "nota_100": 87
+          },
+          {
+            "metodo": "placa-tronco",
+            "notas": {
+              "compatibilidade_raizes": 5,
+              "equilibrio_hidrico": 3,
+              "aeracao_drenagem": 5,
+              "espaco_crescimento": 5,
+              "adaptacao_calor": 3,
+              "evidencia_documentada": 5
+            },
+            "nota_100": 86
+          },
+          {
+            "metodo": "arvore-viva",
+            "notas": {
+              "compatibilidade_raizes": 5,
+              "equilibrio_hidrico": 3,
+              "aeracao_drenagem": 5,
+              "espaco_crescimento": 5,
+              "adaptacao_calor": 3,
+              "evidencia_documentada": 3
+            },
+            "nota_100": 82
+          },
+          {
+            "metodo": "vaso-barro",
+            "notas": {
+              "compatibilidade_raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao_drenagem": 4,
+              "espaco_crescimento": 4,
+              "adaptacao_calor": 4,
+              "evidencia_documentada": 3
+            },
+            "nota_100": 78
+          },
+          {
+            "metodo": "vaso-plastico-vasado",
+            "notas": {
+              "compatibilidade_raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao_drenagem": 5,
+              "espaco_crescimento": 4,
+              "adaptacao_calor": 3,
+              "evidencia_documentada": 2
+            },
+            "nota_100": 78
+          },
+          {
+            "metodo": "vaso-plastico",
+            "notas": {
+              "compatibilidade_raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao_drenagem": 3,
+              "espaco_crescimento": 4,
+              "adaptacao_calor": 3,
+              "evidencia_documentada": 2
+            },
+            "nota_100": 70
+          },
+          {
+            "metodo": "raizes-soltas",
+            "notas": {
+              "compatibilidade_raizes": 2,
+              "equilibrio_hidrico": 1,
+              "aeracao_drenagem": 5,
+              "espaco_crescimento": 2,
+              "adaptacao_calor": 2,
+              "evidencia_documentada": 1
+            },
+            "nota_100": 45
+          }
+        ]
+      },
+      "substrato_macs": {
+        "suporte_principal": "placa-tronco",
+        "proposta": "Fixação em placa de madeira com raízes expostas e, se necessário, pequena quantidade localizada de esfagno para estabelecimento",
+        "percentuais": null,
+        "justificativa": "Montagem não corresponde a mistura volumétrica de vaso; IFPB testou esfagno sobre discos, mas umidade e irrigação devem ser controladas no clima quente.",
+        "alternativa_vaso": "50% casca de pinus grossa + 30% carvão granulado + 20% brita fina (proposta não ensaiada)",
+        "alternativa_percentuais": [
+          50,
+          30,
+          20
+        ],
+        "granulometria": "Grossa e ventilada, evitando pó e compactação",
+        "limite": "A proporção de vaso é inferência; estudo de placas não a valida."
+      }
     },
     {
       "arquivo": "dados/orquideas/cattleya-walkeriana-f-alba-gnomus-x-f-alba-suprema.js",
