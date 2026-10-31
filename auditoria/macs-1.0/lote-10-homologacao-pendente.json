@@ -2101,6 +2101,24 @@
           "nome": "Orquivitro — Cattleya loddigesii",
           "url": "https://www.orquivitro.com.br/orquideas-especies/cattleya/cattleya-loddigesii",
           "conclusao": "Cultivo drenante em barro, plástico, cachepô ou tronco; sem percentual validado."
+        },
+        {
+          "nome": "Sorace 2008 — dissertação UEL, 8 substratos e 12 repetições",
+          "url": "https://repositorio.uel.br/items/ea109160-d382-4cc6-9d7c-eeaad0fc9bb3",
+          "tipo": "ensaio_direto_especie_plantulas",
+          "conclusao": "Em plântulas de C. loddigesii, casca de pinus e casca de arroz carbonizada + pinus 1:1 apresentaram melhores resultados. Fibra de coco isolada foi menos eficiente. Experimento não avaliou planta adulta."
+        },
+        {
+          "nome": "Schnitzer et al. 2015 — Revista Ceres",
+          "url": "https://ojs.ceres.ufv.br/ceres/article/view/4222",
+          "tipo": "ensaio_direto_especie_plantulas",
+          "conclusao": "Plantas in vitro cultivadas em pinus+coco+arroz carbonizado 1:1:1; ensaio de doses de extrato pirolenhoso, não comparação de substratos."
+        },
+        {
+          "nome": "Orquivitro — C. loddigesii pelórica",
+          "url": "https://www.orquivitro.com.br/orquideas-especies/cattleya-loddigesii-var-aquini",
+          "tipo": "produtor_outra_selecao",
+          "conclusao": "Pinus e carvão, misturas com arroz, perlita e esfagno; plástico, barro, cachepô, placas, troncos e árvores. Mesmo produtor já contabilizado."
         }
       ],
       "perfil_radicular_hidrico": {
@@ -2172,7 +2190,7 @@
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
-        "comparacao_brasileira": "Pesquisa de plântulas favorece pinus e pinus+arroz carbonizado; não comprova receita adulta 35/25/25/15.",
+        "comparacao_brasileira": "UEL testou oito substratos com plântulas: pinus e pinus+arroz carbonizado tiveram melhor desempenho para C. loddigesii; coco isolado inferior. Orquivitro recomenda pinus+carvão e misturas. Receita adulta 35/25/25/15 não foi testada.",
         "validacao_percentuais": true,
         "validacao_tecnica": {
           "receita": "35% pinus, 25% macadâmia, 25% perlita grossa, 15% carvão",
@@ -2181,11 +2199,12 @@
         }
       },
       "pendencias": [
-        "Ampliar pesquisa em produtores",
-        "Verificar texto integral de estudos de recipientes",
-        "Inspeção visual"
+        "Ampliar consultas distintas e documentar resultados negativos",
+        "Reavaliar pontuações por critérios com fontes e confiança",
+        "Inspecionar visualmente a página V4.9"
       ],
-      "fontes_cientificas_status": "levantamento_incompleto"
+      "fontes_cientificas_status": "levantamento_incompleto",
+      "evidencia_nova_verificada_em": "2026-10-30"
     },
     {
       "especie": "Cattleya lueddemanniana",
@@ -2235,6 +2254,12 @@
           "url": "https://www.orquidariothomes.com.br/cattleya-lueddemanniana-alba-/prod-10430560/",
           "tipo": "produtor_outra_forma",
           "conclusao": "Vasos de barro, plástico e cachepôs, substratos variados, luz e arejamento."
+        },
+        {
+          "nome": "Orquidário Thomes — C. lueddemanniana alba (página conferida)",
+          "url": "https://www.orquidariothomes.com.br/cattleya-lueddemanniana-alba-/prod-10430560/",
+          "tipo": "produtor_outra_forma",
+          "conclusao": "Relata cultivo em vasos de barro, plástico e cachepôs com substratos diversos; não oferece percentuais e não é clone tipo."
         }
       ],
       "perfil_radicular_hidrico": {
@@ -2315,9 +2340,9 @@
         }
       },
       "pendencias": [
-        "Ampliar buscas documentadas em produtores brasileiros",
-        "Revisar notas e evidência individual de cada suporte",
-        "Inspecionar visualmente a ficha"
+        "Ampliar consultas brasileiras distintas com registro de buscas negativas",
+        "Completar pontuação individual e confiança de cada suporte",
+        "Inspecionar visualmente página V4.9"
       ],
       "fontes_cientificas_status": "levantamento_incompleto",
       "parecer_final": {
