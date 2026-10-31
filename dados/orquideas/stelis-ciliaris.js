@@ -310,7 +310,7 @@ export const stelisCiliaris = {
         "finalidade": "Ajuda a conservar macroporos e evitar saturação prolongada."
       }
     ],
-    "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
+    "alerta": "Não usar perlita grossa. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
   },
   "fotoReferencia": {
     "origem": "Ecuagenera — Stelis ciliaris",
