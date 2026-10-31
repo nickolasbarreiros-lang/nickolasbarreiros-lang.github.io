@@ -72,6 +72,7 @@ export const aciantheraAveniformis = {
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva hídrica controlada", finalidade: "Compensa a secagem rápida dos componentes muito aerados. A proporção é limitada porque esfagno compactado ou degradado pode manter água demais ao redor das raízes muito finas." }
         ],
         alerta: "Observe a estrutura, não apenas o calendário: replante quando o pinus estiver fragmentado, o esfagno compactado, a drenagem ficar visivelmente mais lenta ou a mistura permanecer úmida por muito mais tempo que quando nova. Não enterre o rizoma."
+        notaEvidencia: "A composição é uma hipótese horticultural para cultivo em vaso, não ensaio controlado específico da espécie. Ainda depende de confronto documentado com 25 produtores brasileiros distintos; não alterar estrelas MACS por inferência.",
     },
     errosComuns: ["Tratar a espécie como obrigatoriamente de clima frio.", "Cobrir rizoma e base dos ramicaules com esfagno.", "Deixar as raízes secarem completamente por vários dias.", "Manter substrato permanentemente encharcado.", "Cultivar em ambiente quente e abafado, sem circulação de ar.", "Aplicar fertilizante concentrado em raízes muito finas.", "Expor ao sol direto forte."],
     revisaoCientificaIAR: {
