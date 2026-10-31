@@ -39,7 +39,7 @@ export const cattleyaLueddemannianaTipo = {
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Cachepô de madeira",
-    "resumo": "A escolha do recipiente equilibra oxigenação das raízes, drenagem e estabilidade, com secagem adequada entre regas.",
+    "resumo": "MACS 1.0: cachepô de madeira permanece proposta principal, sujeita à avaliação da velocidade de secagem no clima quente.",
     "metodos": [
         {
             "nome": "Cachepô de madeira",
@@ -113,7 +113,7 @@ export const cattleyaLueddemannianaTipo = {
             "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
-    "alerta": "Proporções orientativas, sujeitas à revisão por fontes brasileiras específicas; observar a secagem antes de repetir a rega."
+    "alerta": "Mistura ilustrada como proposta técnica; não há ensaio específico apresentado que demonstre superioridade destas proporções para plantas adultas. Observar secagem e manter drenagem."
 },
     errosComuns: "Cortar espata seca sem verificar se há botões; deixar água acumulada dentro de espata fechada; manter substrato constantemente molhado; cultivar com pouca luz; usar vaso excessivamente grande; enterrar o rizoma; confundir repouso com seca absoluta; replantar fora da emissão de novas raízes; adubar em excesso.",
     dica: "Nunca descarte uma espata apenas porque ficou amarela, marrom ou aparentemente seca. Ela pode proteger botões que ainda estão se desenvolvendo. Evite água parada dentro da bainha, especialmente em noites quentes. Depois da floração, observe a base do novo crescimento: quando começarem a despontar raízes novas, chegou a melhor janela para replantar.",
