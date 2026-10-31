@@ -79,6 +79,7 @@ export const aciantheraSonderiana = {
         contexto: "Para cultivo em vaso",
         resumo: "Mistura muito aerada, leve e com reserva hídrica moderada para raízes finas que não devem permanecer secas por longos períodos.",
         justificativa: "Como epífita de ambientes úmidos, a espécie pede oxigenação elevada junto com umidade relativamente constante. No litoral quente, uma mistura excessivamente mineral pode secar depressa demais; por outro lado, esfagno compacto ou substrato fino aumentam o risco de abafamento. A combinação abaixo equilibra estrutura, aeração e pequena reserva de água.",
+        receitaTexto: "Mistura-base provisória para cultivo em vaso: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno solto + 15% carvão vegetal pequeno. Ajustar granulometria e rega conforme secagem observada.",
         perfil: ["Raízes finas", "Alta aeração", "Umidade constante", "Secagem moderada", "Baixa compactação", "Vaso pequeno"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
