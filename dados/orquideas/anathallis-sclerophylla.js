@@ -79,6 +79,7 @@ export const anathallisSclerophylla = {
         contexto: "Para cultivo em vaso",
         resumo: "Mistura leve, arejada e com reserva hídrica moderada, adequada às raízes finas de uma epífita de floresta úmida.",
         justificativa: "Anathallis sclerophylla é epífita e ocorre em florestas tropicais úmidas. Em vaso, o objetivo é manter oxigenação elevada sem produzir a secagem extrema usada em vandáceas de raízes grossas. Pinus fornece estrutura, a casca de arroz carbonizada aumenta a porosidade, o esfagno mantém uma reserva hídrica moderada e o carvão ajuda a conservar o conjunto aberto.",
+        receitaTexto: "Mistura-base provisória para cultivo em vaso: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno solto + 15% carvão vegetal pequeno. Ajustar granulometria e rega conforme secagem observada.",
         perfil: ["Raízes finas", "Alta aeração", "Umidade frequente", "Secagem moderada", "Baixa compactação", "Touceira"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
