@@ -71,7 +71,7 @@ export const aciantheraBragae = {
             { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Ajuda a conservar espaços de ar e estabilidade estrutural." },
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva hídrica controlada", finalidade: "Fornece pequena reserva de umidade sem dominar uma mistura que precisa continuar muito aerada." }
         ],
-        alerta: "Em vaso, use recipiente pequeno, raso e muito perfurado. Mantenha o rizoma sobre a superfície e não compacte a mistura. Em ambiente naturalmente muito úmido, reduza ainda mais o esfagno."
+        alerta: "Em vaso, use recipiente pequeno, raso e muito perfurado. Mantenha o rizoma sobre a superfície e não compacte a mistura. Em ambiente naturalmente muito úmido, reduza ainda mais o esfagno.",
         notaEvidencia: "A composição é uma hipótese horticultural para cultivo em vaso, não ensaio controlado específico da espécie. Ainda depende de confronto documentado com 25 produtores brasileiros distintos; não alterar estrelas MACS por inferência.",
     },
     errosComuns: ["Usar vaso profundo para uma planta de crescimento rastejante.", "Enterrar ou cobrir o rizoma.", "Manter água parada entre folhas e ramicaules.", "Deixar a montagem secar por vários dias no calor.", "Cultivar em sombra profunda e sem circulação de ar.", "Aplicar adubação forte em raízes finas.", "Interpretar a altitude como necessidade de clima frio rígido."],
