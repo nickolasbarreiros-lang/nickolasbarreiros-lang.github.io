@@ -56,7 +56,7 @@ export const bifrenariaHarrisoniae = {
         contexto: "Para cultivo em cesto ou vaso",
         resumo: "Mistura de altíssima aeração e drenagem, com baixa retenção e estrutura durável.",
         justificativa: "Bifrenaria harrisoniae exige excelente oxigenação radicular e não deve permanecer com as raízes molhadas por longos períodos. A brita mantém drenagem e macroporos permanentes; a macadâmia acrescenta estrutura orgânica durável; o carvão ajuda a conservar a mistura aberta; e o pinus entra apenas como fração minoritária para oferecer pequena reserva de umidade sem comprometer a aeração.",
-        receitaTexto: "35% brita pequena/média + 30% casca de macadâmia média + 20% carvão vegetal médio + 15% casca de pinus média.",
+        receitaTexto: "35% brita pequena/média + 30% casca de macadâmia média + 20% carvão vegetal médio + 15% casca de pinus média. — composição técnica provisória para recipiente, sem esfagno; ajustar a rega à secagem observada.",
         perfil: ["Raízes finas a médias", "Aeração máxima", "Baixa retenção", "Secagem muito rápida", "Alta estabilidade", "Baixa compactação"],
         itens: [
             { asset: "brita-pura", nome: "Brita pequena/média", proporcao: "35%", nota: "drenagem + macroporos", finalidade: "Forma a base mineral da mistura e mantém drenagem muito rápida, oxigenação intensa e estabilidade estrutural." },
