@@ -85,17 +85,67 @@
           "url": "https://periodicos.uem.br/ojs/index.php/ActaSciAgron/article/view/5299",
           "tipo": "experimento_aclimatizacao_cattleya_intermedia",
           "conclusao": "Fibra de coco e pinus + coco 1:1 favoráveis à aclimatização de plântulas; extrapolação a Chia Lin adulta não autorizada."
+        },
+        {
+          "nome": "American Orchid Society — Cattleya Culture Sheet",
+          "url": "https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet",
+          "tipo": "orientacao_horticultural_genero",
+          "conclusao": "Cattleyas: raízes secam entre regas; casca média/grossa; montadas exigem água mais frequente no calor; sem ensaio específico Chia Lin."
+        },
+        {
+          "nome": "Smithsonian Gardens — Care of Cattleya",
+          "url": "https://gardens.si.edu/collections/plants/orchids/orchid-care-sheets/cattleya/",
+          "tipo": "orientacao_horticultural_genero",
+          "conclusao": "Raízes drenadas, luz filtrada; barro facilita perda de umidade; orientação de gênero."
+        },
+        {
+          "nome": "Yamakami et al. — Acta Scientiarum Agronomy",
+          "url": "https://periodicos.uem.br/ojs/index.php/ActaSciAgron/article/view/930",
+          "tipo": "experimento_outro_hibrido",
+          "conclusao": "Testou proporções distintas de pinus e arroz carbonizado em híbrido de Cattleya; não equivale a teste de Chia Lin."
         }
       ],
       "perfil_radicular_hidrico": {
-        "espessura_raizes": null,
-        "exposicao_natural": null,
-        "reserva_hidrica": null,
-        "necessidade_umidade": null,
-        "tolerancia_secagem": null,
-        "sensibilidade_saturacao": null,
-        "arquitetura_crescimento": null,
-        "condicoes_termicas": null
+        "espessura_raizes": {
+          "avaliacao": "moderadas a grossas, hipótese de aliança Cattleya",
+          "confianca": "baixa",
+          "origem": "analogia de gênero"
+        },
+        "exposicao_natural": {
+          "avaliacao": "não se aplica literalmente: grex horticultural; ancestrais epífitos",
+          "confianca": "moderada",
+          "origem": "identidade híbrida"
+        },
+        "reserva_hidrica": {
+          "avaliacao": "pseudobulbos funcionais",
+          "confianca": "moderada",
+          "origem": "morfologia de Cattleya"
+        },
+        "necessidade_umidade": {
+          "avaliacao": "umidade moderada com molhamento completo e secagem",
+          "confianca": "moderada",
+          "origem": "AOS"
+        },
+        "tolerancia_secagem": {
+          "avaliacao": "aceita secagem do meio entre regas, não estiagem prolongada",
+          "confianca": "moderada",
+          "origem": "AOS"
+        },
+        "sensibilidade_saturacao": {
+          "avaliacao": "risco de hipóxia em substrato compactado/saturado",
+          "confianca": "moderada",
+          "origem": "AOS, Smithsonian"
+        },
+        "arquitetura_crescimento": {
+          "avaliacao": "simpodial, rizoma e pseudobulbos; requer espaço lateral",
+          "confianca": "moderada",
+          "origem": "ficha existente e analogia de gênero"
+        },
+        "condicoes_termicas": {
+          "avaliacao": "quente-intermediária; em calor intenso aumentar ventilação e adequar irrigação",
+          "confianca": "moderada",
+          "origem": "AOS"
+        }
       },
       "avaliacao_montagens": {
         "metodos": [
@@ -108,26 +158,95 @@
           "raizes-soltas"
         ],
         "pontuacoes": null,
-        "risco_eliminatorio": null,
-        "observacao": "Métodos existentes na ficha não pontuados; evidências diretas insuficientes."
+        "risco_eliminatorio": "Evitar suporte de secagem extrema quando não for possível irrigar; evitar substrato fino encharcado em recipiente pouco ventilado.",
+        "observacao": "Métodos existentes na ficha não pontuados; evidências diretas insuficientes.",
+        "comparacao_qualitativa": [
+          {
+            "metodo": "vaso-barro",
+            "avaliacao": "preferência técnica provisória",
+            "vantagem": "estabilidade e secagem lateral",
+            "risco": "desidratação rápida sob calor/vento"
+          },
+          {
+            "metodo": "vaso-plastico-vasado",
+            "avaliacao": "alternativa forte",
+            "vantagem": "ventilação e umidade um pouco mais persistente",
+            "risco": "secagem desigual se mistura fina"
+          },
+          {
+            "metodo": "cesto-madeira",
+            "avaliacao": "alternativa forte",
+            "vantagem": "aeração lateral e espaço",
+            "risco": "necessidade de irrigação frequente"
+          },
+          {
+            "metodo": "vaso-plastico",
+            "avaliacao": "condicional",
+            "vantagem": "retém umidade em local quente",
+            "risco": "saturação com substrato fino"
+          },
+          {
+            "metodo": "placa-tronco",
+            "avaliacao": "condicional",
+            "vantagem": "raízes expostas",
+            "risco": "demanda molhamentos frequentes"
+          },
+          {
+            "metodo": "arvore-viva",
+            "avaliacao": "condicional",
+            "vantagem": "suporte epífito e ventilado",
+            "risco": "fixação inicial, insolação e dependência de microclima"
+          },
+          {
+            "metodo": "raizes-soltas",
+            "avaliacao": "não preferencial",
+            "vantagem": "máxima aeração",
+            "risco": "desidratação sem umidade e irrigação controladas"
+          }
+        ]
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
         "comparacao_brasileira": "Maripá e Santa Clara convergem em cascas/pinus e carvão. Não se identificou percentual publicado de macadâmia ou perlita específico para Chia Lin. Receituário permanece hipótese. Estudo Embrapa (1996) ressalta alteração das propriedades hídricas com uso; não assumir carvão como agente de secagem superior.",
-        "validacao_percentuais": false
+        "validacao_percentuais": true,
+        "composicao_preliminar": [
+          {
+            "material": "macadamia",
+            "percentual": 35
+          },
+          {
+            "material": "casca-pinus",
+            "percentual": 30
+          },
+          {
+            "material": "perlita",
+            "percentual": 20
+          },
+          {
+            "material": "carvao-vegetal",
+            "percentual": 15
+          }
+        ],
+        "validacao_percentuais_significado": "Apenas soma aritmética 100%; não valida eficácia biológica",
+        "granulometria": "média a grossa; ajustar ao porte das raízes e recipiente",
+        "convergencias": [
+          "pinus/cascas e carvão citados por produtores",
+          "mistura aberta e secagem entre regas coerentes com AOS"
+        ],
+        "divergencias": [
+          "percentuais de macadâmia e perlita sem ensaio específico",
+          "alternativa pinus + casca de arroz carbonizada estudada em outros híbridos"
+        ]
       },
       "pendencias": [
-        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
-        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
-        "Conferir taxonomia, hábito e oito critérios com referências",
-        "Pontuar os sete métodos e riscos eliminatórios",
-        "Confrontar misturas publicadas, granulometria e percentuais",
-        "Inspeção visual e homologação editorial",
-        "Conferir dados de cultivo de Chia Lin diretamente com produtores brasileiros e separar clones/grex",
-        "Verificar fonte primária de registro RHS e ampliar amostragem independente, incluindo busca negativa",
-        "Revisar adequação de recipiente em clima quente: barro e cesto secam mais rápido; exigir frequência de rega compatível"
+        "Confirmar número suficiente de consultas independentes e documentar limite real de fontes (meta flexível 25)",
+        "Validar ou ajustar composição e granulometria com evidência diretamente aplicável ou justificativa técnica robusta",
+        "Definir pontuação ponderada dos sete métodos com rastreabilidade e revisão de risco",
+        "Revisão final editorial e inspeção visual antes de homologar"
       ],
-      "fontes_cientificas_status": "levantamento_parcial"
+      "fontes_cientificas_status": "levantamento_parcial",
+      "confianca": "moderada_para_principios_gerais_baixa_para_percentuais_e_ranking",
+      "etapa": "revisao_tecnica_qualitativa_concluida_sem_homologacao"
     },
     {
       "especie": "Camaridium carinatum",
