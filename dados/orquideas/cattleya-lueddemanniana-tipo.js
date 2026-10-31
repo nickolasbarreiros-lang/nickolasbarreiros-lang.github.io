@@ -39,76 +39,77 @@ export const cattleyaLueddemannianaTipo = {
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Cachepô de madeira",
-    "resumo": "Alternativas derivadas das recomendações existentes. Estrelas visuais provisórias; MACS ainda não validado.",
+    "resumo": "A escolha do recipiente equilibra oxigenação das raízes, drenagem e estabilidade, com secagem adequada entre regas.",
     "metodos": [
         {
             "nome": "Cachepô de madeira",
             "asset": "cesto-madeira",
-            "estrelas": 5,
-            "status": "Ideal",
-            "texto": "Cachepô de madeira, excelente para secagem rápida e raízes arejadas."
+            "estrelas": null,
+            "status": "Mais indicada na ficha",
+            "texto": "As aberturas laterais mantêm as raízes ventiladas e favorecem a drenagem, mas a mistura seca mais depressa."
         },
         {
             "nome": "Vaso de barro",
             "asset": "vaso-barro",
-            "estrelas": 4,
-            "status": "Muito recomendado",
-            "texto": "Vaso de barro, que ajuda a dissipar umidade e calor pelas paredes."
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "A terracota oferece estabilidade e evaporação pelas paredes; o vaso deve ter tamanho proporcional e mistura bem drenante."
         },
         {
             "nome": "Vaso plástico vasado",
             "asset": "vaso-plastico-vasado",
-            "estrelas": 3,
-            "status": "Adequado",
-            "texto": "Vaso plástico muito perfurado, sempre com substrato grosseiro e excelente drenagem."
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "Os furos favorecem a oxigenação e reduzem a retenção excessiva; monitore a secagem da mistura."
         },
         {
-            "nome": "Cachepô de madeira",
-            "asset": "cesto-madeira",
-            "estrelas": 2,
+            "nome": "Placa / tronco",
+            "asset": "placa-tronco",
+            "estrelas": null,
             "status": "Alternativa",
-            "texto": "Possibilidade de montagem sujeita à avaliação de ventilação e manejo."
+            "texto": "Raízes ficam expostas ao ar e secam rapidamente após molhar; requer umidade ambiental e regas compatíveis."
         }
     ]
 },
     substratoVisual: {
     "titulo": "Substrato ideal",
-    "contexto": "Receita visual provisória",
-    "resumo": "Ingredientes da receita existente, sem atribuição de porcentagens não verificadas.",
-    "justificativa": "A composição mantém os materiais anteriormente recomendados. A definição quantitativa e a validação técnica ficam para a revisão específica.",
+    "contexto": "Composição da ficha — proporções a validar",
+    "resumo": "Componentes da recomendação original, apresentados sem percentuais não documentados.",
+    "justificativa": "As raízes epífitas dependem de ar entre as partículas; mantenha drenagem e ajuste a rega ao recipiente.",
     "receitaTexto": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.",
     "perfil": [
-        "Aeração",
-        "Drenagem",
-        "Proporções a validar"
+        "Raízes epífitas",
+        "Boa aeração",
+        "Drenagem livre",
+        "Secagem entre regas"
     ],
     "itens": [
         {
             "asset": "macadamia",
             "nome": "Casca de macadâmia",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         },
         {
             "asset": "casca-pinus",
             "nome": "Casca de pinus",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         },
         {
             "asset": "perlita",
             "nome": "Perlita grossa",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         },
         {
             "asset": "carvao-vegetal",
             "nome": "Carvão vegetal",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         }
     ],
-    "alerta": "Receita visual preliminar; consultar recomendações originais até validação das proporções."
+    "alerta": "As proporções não foram informadas na receita original e permanecem pendentes de validação."
 },
     errosComuns: "Cortar espata seca sem verificar se há botões; deixar água acumulada dentro de espata fechada; manter substrato constantemente molhado; cultivar com pouca luz; usar vaso excessivamente grande; enterrar o rizoma; confundir repouso com seca absoluta; replantar fora da emissão de novas raízes; adubar em excesso.",
     dica: "Nunca descarte uma espata apenas porque ficou amarela, marrom ou aparentemente seca. Ela pode proteger botões que ainda estão se desenvolvendo. Evite água parada dentro da bainha, especialmente em noites quentes. Depois da floração, observe a base do novo crescimento: quando começarem a despontar raízes novas, chegou a melhor janela para replantar.",
