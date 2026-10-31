@@ -40,6 +40,80 @@ export const cattleyaLeopoldiiDarkPrincess = {
     "rega": "Durante o crescimento, regue abundantemente e permita secagem quase completa antes da próxima aplicação. Após a maturação, aumente o intervalo, acompanhando o clima. No inverno, evite substrato frio e constantemente molhado. A planta tolera melhor breve secagem que abafamento prolongado, mas hastes em crescimento não devem sofrer desidratação repetida.",
     "suporte": "🥇 Vaso de barro pesado, largo o suficiente para estabilidade e com tutor rígido.\n🥈 Cachepô robusto de madeira, preso de forma segura à bancada.\n🥉 Cesta grande para touceiras adultas.\nUse brita ou perlita grossa na base para contrapeso, sem bloquear os furos. Tutores devem ser instalados quando o broto ainda estiver flexível.",
     "substrato": "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + perlita grossa + carvão vegetal.\n🥈 Cachepô/cesto com pinus grosso + macadâmia grossa + perlita grossa, deixando grandes espaços de ar.\n🥉 Casca de pinus grossa + carvão vegetal + brita fina, com quase nenhuma fração fina.\n⭐ Alternativa: Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.",
+    formasCultivo: {
+    "perfilVisual": "cattleya",
+    "destaque": "Vaso de barro",
+    "resumo": "Alternativas derivadas das recomendações existentes. Estrelas visuais provisórias; MACS ainda não validado.",
+    "metodos": [
+        {
+            "nome": "Vaso de barro",
+            "asset": "vaso-barro",
+            "estrelas": 5,
+            "status": "Ideal",
+            "texto": "Vaso de barro pesado, largo o suficiente para estabilidade e com tutor rígido."
+        },
+        {
+            "nome": "Cachepô de madeira",
+            "asset": "cesto-madeira",
+            "estrelas": 4,
+            "status": "Muito recomendado",
+            "texto": "Cachepô robusto de madeira, preso de forma segura à bancada."
+        },
+        {
+            "nome": "Vaso plástico",
+            "asset": "vaso-plastico",
+            "estrelas": 3,
+            "status": "Adequado",
+            "texto": "Cesta grande para touceiras adultas."
+        },
+        {
+            "nome": "Vaso plástico",
+            "asset": "vaso-plastico",
+            "estrelas": 2,
+            "status": "Alternativa",
+            "texto": "Use brita ou perlita grossa na base para contrapeso, sem bloquear os furos. Tutores devem ser instalados quando o broto ainda estiver flexível."
+        }
+    ]
+},
+    substratoVisual: {
+    "titulo": "Substrato ideal",
+    "contexto": "Receita visual provisória",
+    "resumo": "Ingredientes da receita existente, sem atribuição de porcentagens não verificadas.",
+    "justificativa": "A composição mantém os materiais anteriormente recomendados. A definição quantitativa e a validação técnica ficam para a revisão específica.",
+    "receitaTexto": "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + perlita grossa + carvão vegetal.",
+    "perfil": [
+        "Aeração",
+        "Drenagem",
+        "Proporções a validar"
+    ],
+    "itens": [
+        {
+            "asset": "macadamia",
+            "nome": "Casca de macadâmia",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        },
+        {
+            "asset": "casca-pinus",
+            "nome": "Casca de pinus",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        },
+        {
+            "asset": "perlita",
+            "nome": "Perlita grossa",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        },
+        {
+            "asset": "carvao-vegetal",
+            "nome": "Carvão vegetal",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        }
+    ],
+    "alerta": "Receita visual preliminar; consultar recomendações originais até validação das proporções."
+},
     "errosComuns": "Pouca luz; vaso leve; ausência de tutoramento; amarrar o broto com excesso de pressão; tentar endireitar pseudobulbo maduro; substrato fino; excesso de água no inverno; excesso de nitrogênio; girar o vaso durante a haste; dividir em poucas frentes; impedir espaço vertical; deixar o rizoma frouxo.",
     "dica": "Tutore a frente nova desde os primeiros centímetros de alongamento. Use amarração flexível, com folga para o espessamento, e ajuste gradualmente. Instale o vaso definitivo em local estável antes que a planta fique alta. Depois do endurecimento dos tecidos, não tente dobrar ou reposicionar a haste. A estabilidade física melhora a orientação da haste, protege raízes novas e evita que o conjunto tombe com o peso das flores.",
     revisaoCientificaIAR: {
