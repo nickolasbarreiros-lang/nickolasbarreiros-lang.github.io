@@ -12,7 +12,7 @@
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
-      "status_macs": "pesquisa_especifica_ampliada_pontuacao_pendente",
+      "status_macs": "implementado_na_ficha_parecer_tecnico_concluido_homologacao_visual_pendente",
       "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS.",
       "fontes": [
         {
@@ -62,16 +62,23 @@
           "url": "https://www.orquidariodurvalferreira.com.br/cattleya-nobilior-amaliae-amestista-02-adulta",
           "tipo": "produtor",
           "achado": "Para amaliae adulta, recomenda troncos e placas de secagem rápida."
+        },
+        {
+          "nome": "Florália Orquídeas",
+          "url": "https://floraliaorquidario.com.br/especies-cattleyas/87-cattleya-nobilior-amaliae.html",
+          "tipo": "produtor_brasileiro_outra_fase",
+          "achado": "Mudas jovens de amaliae são comercializadas montadas em plaquinha de madeira; demonstra prática, não superioridade experimental."
         }
       ],
       "produtores_brasileiros": {
-        "consultados": 4,
+        "consultados": 5,
         "meta_flexivel": 25,
         "nomes": [
           "Odara Orchids",
           "Orquidário Mantovani",
           "Orquidário Tradição",
-          "Orquidário Durval Ferreira"
+          "Orquidário Durval Ferreira",
+          "Florália Orquídeas"
         ],
         "com_recomendacao_especifica": 2,
         "com_orientacao_generica": 1,
@@ -90,11 +97,129 @@
       },
       "parecer_preliminar": "Priorizar avaliação de suporte de madeira ou cachepô para amaliae, distinguindo-a da forma tipo; ausência de ensaio comparativo em adultas impede pontuação homologada.",
       "pendencias": [
-        "Ampliar produtores e registrar consultas negativas",
-        "Pontuar sete suportes com evidência por critério",
-        "Comparar receita e granulometria para recipiente proposto",
-        "Inspecionar visualmente a ficha antes de implementar"
-      ]
+        "Inspeção visual no site publicado: não executada",
+        "Verificação de renderização do campo macs1_0: não há evidência de integração à interface",
+        "Aumentar documentação de consultas brasileiras ou justificar encerramento para homologação"
+      ],
+      "avaliacao_montagens": {
+        "pesos": {
+          "compatibilidade_raizes": 25,
+          "equilibrio_hidrico": 25,
+          "aeracao_drenagem": 20,
+          "espaco_crescimento": 10,
+          "adaptacao_calor": 10,
+          "evidencia_documentada": 10
+        },
+        "pontuacoes": [
+          {
+            "metodo": "cesto-madeira",
+            "notas": {
+              "compatibilidade_raizes": 5,
+              "equilibrio_hidrico": 4,
+              "aeracao_drenagem": 5,
+              "espaco_crescimento": 5,
+              "adaptacao_calor": 3,
+              "evidencia_documentada": 4
+            },
+            "nota_100": 89
+          },
+          {
+            "metodo": "placa-tronco",
+            "notas": {
+              "compatibilidade_raizes": 5,
+              "equilibrio_hidrico": 3,
+              "aeracao_drenagem": 5,
+              "espaco_crescimento": 5,
+              "adaptacao_calor": 3,
+              "evidencia_documentada": 5
+            },
+            "nota_100": 86
+          },
+          {
+            "metodo": "arvore-viva",
+            "notas": {
+              "compatibilidade_raizes": 5,
+              "equilibrio_hidrico": 3,
+              "aeracao_drenagem": 5,
+              "espaco_crescimento": 5,
+              "adaptacao_calor": 3,
+              "evidencia_documentada": 3
+            },
+            "nota_100": 82
+          },
+          {
+            "metodo": "vaso-barro",
+            "notas": {
+              "compatibilidade_raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao_drenagem": 4,
+              "espaco_crescimento": 4,
+              "adaptacao_calor": 4,
+              "evidencia_documentada": 3
+            },
+            "nota_100": 78
+          },
+          {
+            "metodo": "vaso-plastico-vasado",
+            "notas": {
+              "compatibilidade_raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao_drenagem": 5,
+              "espaco_crescimento": 4,
+              "adaptacao_calor": 3,
+              "evidencia_documentada": 2
+            },
+            "nota_100": 78
+          },
+          {
+            "metodo": "vaso-plastico",
+            "notas": {
+              "compatibilidade_raizes": 4,
+              "equilibrio_hidrico": 3,
+              "aeracao_drenagem": 3,
+              "espaco_crescimento": 4,
+              "adaptacao_calor": 3,
+              "evidencia_documentada": 2
+            },
+            "nota_100": 65
+          },
+          {
+            "metodo": "raizes-soltas",
+            "notas": {
+              "compatibilidade_raizes": 2,
+              "equilibrio_hidrico": 1,
+              "aeracao_drenagem": 5,
+              "espaco_crescimento": 2,
+              "adaptacao_calor": 2,
+              "evidencia_documentada": 1
+            },
+            "nota_100": 45
+          }
+        ],
+        "natureza": "Notas heurísticas, não medições experimentais"
+      },
+      "substrato_macs": {
+        "principal": "Placa de madeira ventilada, sem mistura volumétrica; fixação com raízes expostas.",
+        "alternativa_recipient": "Cachepô de madeira",
+        "composicao": [
+          {
+            "material": "casca de pinus grossa",
+            "percentual": 50
+          },
+          {
+            "material": "carvão vegetal granulado",
+            "percentual": 30
+          },
+          {
+            "material": "brita fina",
+            "percentual": 20
+          }
+        ],
+        "granulometria": "Grossa, sem pó; brita fina apenas como fração mineral drenante",
+        "status": "proposta técnica não ensaiada em adultas",
+        "comparacao": "Odara recomenda suportes rústicos/cachepôs; Mantovani admite diferentes recipientes; Florália vende mudas montadas em madeira; experimento UNESP com esfagno e coco é apenas de aclimatação de plântulas."
+      },
+      "parecer_final": "Matriz técnica implementada na ficha JS. Cesto de madeira 89 e placa 86, ambos adequados; placa mantida como cultivo ideal editorial existente por aderência à montagem epífita e maior secagem no repouso. Preferir cesto se placa desidratar no calor."
     },
     {
       "arquivo": "dados/orquideas/cattleya-pumpkin-festival.js",
