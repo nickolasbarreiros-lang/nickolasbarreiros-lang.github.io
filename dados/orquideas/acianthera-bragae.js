@@ -57,6 +57,7 @@ export const aciantheraBragae = {
         contexto: "Para cultivo em vaso",
         resumo: "Mistura leve, aberta e de baixa compactação para uma micro-orquídea reptante que aprecia umidade frequente, mas exige oxigenação constante nas raízes.",
         justificativa: "A. bragae é uma micro-orquídea epífita ou litófita, reptante, de ambientes úmidos e sombreados. Em cultivo brasileiro é frequentemente mantida diretamente em madeira, enquanto vasos também são usados desde que o substrato seja muito drenante e contenha apenas uma reserva moderada de umidade. Para vaso, a mistura abaixo prioriza macroporos, estabilidade e secagem relativamente rápida, evitando que o rizoma e as raízes permaneçam abafados.",
+        receitaTexto: "Mistura-base provisória para vaso pequeno e muito perfurado: 45% casca de pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 10% esfagno solto.",
         perfil: ["Raízes finas", "Alta aeração", "Umidade frequente", "Secagem rápida", "Baixa compactação", "Rizoma exposto"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -71,6 +72,7 @@ export const aciantheraBragae = {
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva hídrica controlada", finalidade: "Fornece pequena reserva de umidade sem dominar uma mistura que precisa continuar muito aerada." }
         ],
         alerta: "Em vaso, use recipiente pequeno, raso e muito perfurado. Mantenha o rizoma sobre a superfície e não compacte a mistura. Em ambiente naturalmente muito úmido, reduza ainda mais o esfagno."
+        notaEvidencia: "A composição é uma hipótese horticultural para cultivo em vaso, não ensaio controlado específico da espécie. Ainda depende de confronto documentado com 25 produtores brasileiros distintos; não alterar estrelas MACS por inferência.",
     },
     errosComuns: ["Usar vaso profundo para uma planta de crescimento rastejante.", "Enterrar ou cobrir o rizoma.", "Manter água parada entre folhas e ramicaules.", "Deixar a montagem secar por vários dias no calor.", "Cultivar em sombra profunda e sem circulação de ar.", "Aplicar adubação forte em raízes finas.", "Interpretar a altitude como necessidade de clima frio rígido."],
     revisaoCientificaIAR: {
