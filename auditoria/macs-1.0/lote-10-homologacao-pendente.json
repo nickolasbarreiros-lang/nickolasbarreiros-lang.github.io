@@ -2204,7 +2204,24 @@
         "Inspecionar visualmente a página V4.9"
       ],
       "fontes_cientificas_status": "levantamento_incompleto",
-      "evidencia_nova_verificada_em": "2026-10-30"
+      "evidencia_nova_verificada_em": "2026-10-30",
+      "verificacao_fontes_2026_10_30": {
+        "fontes": [
+          {
+            "url": "https://repositorio.uel.br/items/ea109160-d382-4cc6-9d7c-eeaad0fc9bb3",
+            "evidencia": "Sorace: ensaio de 8 substratos, 12 repetições, plântulas, pinus e pinus+arroz carbonizado destacados para loddigesii; não adultos."
+          },
+          {
+            "url": "https://ojs.ceres.ufv.br/ceres/article/view/4222",
+            "evidencia": "Schnitzer: mistura 1:1:1 coco/pinus/arroz carbonizado é controle de meio, variável testada foi extrato pirolenhoso."
+          },
+          {
+            "url": "https://www.orquivitro.com.br/orquideas-especies/cattleya-loddigesii-var-aquini",
+            "evidencia": "Orquivitro, cultivar pelórico, recomenda pinus/carvão e outras misturas; mesma empresa já contada."
+          }
+        ],
+        "conclusao": "Confirma fontes anteriores; nenhuma nova empresa distinta; receita adulta ainda sem validação."
+      }
     },
     {
       "especie": "Cattleya lueddemanniana",
@@ -2350,6 +2367,15 @@
         "cultivo": "Cachepô de madeira ou vaso de barro com secagem rápida; respaldo direto AOS",
         "substrato": "35/25/25/15 é inferência técnica, não receita experimentalmente validada",
         "limites": "Duas fontes comerciais de outras formas, sem ensaio específico de suporte/substrato para tipo; matriz preliminar ainda requer revisão individual de critérios."
+      },
+      "verificacao_fontes_2026_10_30": {
+        "fontes": [
+          {
+            "url": "https://www.orquidariooriental.com.br/produto/cattleya-lueddemanniana-concolor%2C53632/",
+            "evidencia": "Forma concolor: substrato bem drenado; cachepô de madeira com pinus ou placa."
+          }
+        ],
+        "conclusao": "Confirma fonte comercial anterior; nenhuma nova empresa distinta ou ensaio específico para tipo."
       }
     }
   ]
