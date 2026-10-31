@@ -46,7 +46,7 @@ export const aspasiaLunata = {
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "É biologicamente compatível com o hábito epífito, porém exige regas mais frequentes e controle rigoroso para evitar ressecamento prolongado no clima quente." }
         ]
     },
-    substrato: "🥇 Casca de pinus média + chips de coco + pedra-pomes + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + pedra-pomes, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + pedra-pomes + argila expandida miúda + pequena fração de esfagno solto.",
+    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.",
     substrato: [
         "Casca de macadâmia média + carvão vegetal + casca de arroz carbonizada + esfagno solto",
         "Casca de pinus média + carvão vegetal + perlita grossa + esfagno solto",
@@ -59,6 +59,7 @@ export const aspasiaLunata = {
         contexto: "Para cultivo em vaso",
         resumo: "Mistura estrutural e arejada, com umidade moderada e boa estabilidade para uma epífita que aprecia hidratação regular sem encharcamento.",
         justificativa: "A macadâmia fornece estrutura durável e macroporos; o pinus complementa a fração orgânica tradicionalmente utilizada por orquidários brasileiros; a casca de arroz carbonizada aumenta porosidade e leveza; o carvão ajuda a manter a mistura aberta; e uma pequena quantidade de esfagno cria reserva hídrica sem dominar o vaso.",
+        receitaTexto: "Mistura-base sugerida para vaso: 30% casca de macadâmia média + 25% casca de pinus média + 20% casca de arroz carbonizada + 15% carvão vegetal médio + 10% esfagno solto. Proposta técnica a ajustar pela secagem observada.",
         perfil: ["Raízes médias", "Boa aeração", "Umidade regular", "Secagem moderada", "Alta estabilidade", "Touceira"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
