@@ -75,10 +75,10 @@ export const cattleyaAclandiaeTipo = {
 },
     substratoVisual: {
     "titulo": "Substrato ideal",
-    "contexto": "Alternativa para cultivo em vaso",
-    "resumo": "A montagem principal permanece em cortiça ou madeira; esta mistura é uma alternativa para vaso pequeno e muito perfurado.",
-    "justificativa": "O cultivo principal expõe as raízes ao ar sobre suporte firme. Caso seja necessário um vaso, partículas grossas e muita drenagem ajudam a reduzir a permanência de água nas raízes.",
-    "receitaTexto": "Proposta técnica inicial: 45% casca de macadâmia + 30% perlita grossa + 25% carvão vegetal. Percentuais propostos para teste de cultivo, não publicados como fórmula experimental para esta espécie.",
+    "contexto": "Mistura alternativa para vaso",
+    "resumo": "Cultivo principal em suporte sem substrato; a mistura abaixo é apenas uma alternativa para vaso perfurado.",
+    "justificativa": "Esta é apenas uma alternativa para vaso muito perfurado; a montagem principal da espécie permanece sobre madeira ou cortiça, com raízes expostas.",
+    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 45% casca de macadâmia + 30% perlita grossa + 25% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
     "perfil": [
         "Raízes epífitas grossas",
         "Montagem ventilada",
@@ -91,46 +91,24 @@ export const cattleyaAclandiaeTipo = {
             "nome": "Casca de macadâmia",
             "proporcao": "45%",
             "nota": "estrutura",
-            "finalidade": "Cria partículas estruturais e espaços de ar; use granulometria grossa ou média conforme o porte."
+            "finalidade": "Partículas resistentes criam espaços de ar entre as raízes."
         },
         {
             "asset": "perlita",
             "nome": "Perlita grossa",
             "proporcao": "30%",
             "nota": "aeração",
-            "finalidade": "Aumenta a porosidade e reduz a compactação, favorecendo a oxigenação das raízes."
+            "finalidade": "Amplia a porosidade e reduz a compactação do recipiente."
         },
         {
             "asset": "carvao-vegetal",
             "nome": "Carvão vegetal",
             "proporcao": "25%",
             "nota": "drenagem",
-            "finalidade": "Contribui para uma mistura aberta e de drenagem rápida; não substitui a renovação periódica."
+            "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
-    "alerta": "Montagem em madeira/cortiça é a opção principal; esta receita serve apenas ao cultivo alternativo em vaso.",
-    "comportamento": [
-        {
-            "nome": "Retenção",
-            "valor": 2,
-            "icone": "💧"
-        },
-        {
-            "nome": "Aeração",
-            "valor": 5,
-            "icone": "💨"
-        },
-        {
-            "nome": "Secagem",
-            "valor": 4,
-            "icone": "⚡"
-        },
-        {
-            "nome": "Compactação",
-            "valor": 1,
-            "icone": "🧱"
-        }
-    ]
+    "alerta": "Cultivo principal em placa ou tronco; não cobrir as raízes com mistura compacta."
 },
     errosComuns: "• Vaso grande ou fechado.\n• Esfagno compacto e raízes permanentemente úmidas.\n• Replantar fora do início de emissão de novas raízes.\n• Sombra excessiva.\n• Secar demais durante crescimento ativo.\n• Enterrar o rizoma.\n• Confundir pigmentação natural das folhas com doença.\n• Adubação concentrada.\n• Manter planta fria e molhada durante período de menor atividade.",
     dica: "🏆 Replante somente quando a planta estiver pronta para emitir raízes novas. Cattleya aclandiae adere fortemente ao suporte e reage mal a danos extensos em raízes antigas. Sempre que possível, mantenha-a montada em cortiça ou madeira rugosa por muitos anos. Se for necessário intervir, espere as primeiras pontas de raízes novas. No litoral quente, não tente cultivá-la 'seca' o tempo todo: dê bastante água durante atividade, mas faça essa água desaparecer rapidamente com ventilação e raízes expostas.",
