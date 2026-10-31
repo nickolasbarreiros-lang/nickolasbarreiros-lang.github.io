@@ -57,6 +57,7 @@ export const arpophyllumGiganteum = {
         contexto: "Para cultivo em vaso",
         resumo: "Mistura estrutural de longa duração, com boa reserva hídrica e ampla aeração para uma touceira adulta que não deve ser replantada desnecessariamente.",
         justificativa: "A casca de macadâmia entra como componente estrutural durável; o pinus mantém uma fração orgânica tradicional e funcional no cultivo brasileiro; o carvão amplia os macroporos e a estabilidade; a casca de arroz carbonizada mantém leveza e porosidade; e uma pequena fração de esfagno fornece reserva hídrica sem dominar a mistura.",
+        receitaTexto: "Mistura-base provisória para cultivo em vaso: 35% casca de macadâmia média + 25% casca de pinus média + 20% carvão vegetal médio + 10% casca de arroz carbonizada + 10% esfagno solto. Ajustar granulometria e rega conforme secagem observada.",
         perfil: ["Raízes médias", "Boa aeração", "Umidade moderada", "Secagem moderada", "Alta estabilidade", "Touceira grande"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
