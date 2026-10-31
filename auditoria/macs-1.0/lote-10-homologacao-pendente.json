@@ -73,6 +73,18 @@
           "url": "https://ojs.uel.br/revistas/uel/index.php/semagrarias/article/view/4072",
           "tipo": "experimento_hibrido_diferente",
           "conclusao": "Em plântulas de C. intermedia × H. purpurata, pinus + casca de arroz carbonizada teve bom desempenho; analogia, não ensaio de Chia Lin."
+        },
+        {
+          "nome": "Dematté & Dematté (1996), Pesquisa Agropecuária Brasileira/Embrapa",
+          "url": "https://apct.sede.embrapa.br/pab/en/article/view/4552",
+          "tipo": "estudo_propriedades_hidricas_substratos",
+          "conclusao": "Adsorção e perda de água mudam com o envelhecimento dos materiais; carvão não alterou significativamente propriedades hídricas testadas. Evidência de materiais, não ensaio do grex."
+        },
+        {
+          "nome": "Lone et al. (2008), Acta Scientiarum Agronomy",
+          "url": "https://periodicos.uem.br/ojs/index.php/ActaSciAgron/article/view/5299",
+          "tipo": "experimento_aclimatizacao_cattleya_intermedia",
+          "conclusao": "Fibra de coco e pinus + coco 1:1 favoráveis à aclimatização de plântulas; extrapolação a Chia Lin adulta não autorizada."
         }
       ],
       "perfil_radicular_hidrico": {
@@ -101,7 +113,7 @@
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
-        "comparacao_brasileira": "Maripá e Santa Clara convergem em cascas/pinus e carvão. Não se identificou percentual publicado de macadâmia ou perlita específico para Chia Lin. Receituário permanece hipótese.",
+        "comparacao_brasileira": "Maripá e Santa Clara convergem em cascas/pinus e carvão. Não se identificou percentual publicado de macadâmia ou perlita específico para Chia Lin. Receituário permanece hipótese. Estudo Embrapa (1996) ressalta alteração das propriedades hídricas com uso; não assumir carvão como agente de secagem superior.",
         "validacao_percentuais": false
       },
       "pendencias": [
@@ -112,7 +124,8 @@
         "Confrontar misturas publicadas, granulometria e percentuais",
         "Inspeção visual e homologação editorial",
         "Conferir dados de cultivo de Chia Lin diretamente com produtores brasileiros e separar clones/grex",
-        "Verificar fonte primária de registro RHS e ampliar amostragem independente, incluindo busca negativa"
+        "Verificar fonte primária de registro RHS e ampliar amostragem independente, incluindo busca negativa",
+        "Revisar adequação de recipiente em clima quente: barro e cesto secam mais rápido; exigir frequência de rega compatível"
       ],
       "fontes_cientificas_status": "levantamento_parcial"
     },
