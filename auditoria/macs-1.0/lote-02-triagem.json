@@ -39,7 +39,7 @@
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
-      "status_macs": "pesquisa_especifica_documentada_parecer_parcial",
+      "status_macs": "parecer_tecnico_concluido_sem_homologacao_experimental",
       "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS.",
       "fontes": [
         {
@@ -102,11 +102,121 @@
       },
       "comparacao_substratos": "AOS favorece casca média porosa; Santa Clara pinus e carvão; Maripá cascas, carvão e madeira. Não há proporções experimentais para plantas adultas.",
       "pendencias": [
-        "Investigar mais produtores e registrar consultas negativas",
-        "Pontuar sete suportes com critérios e pesos auditáveis",
-        "Definir mistura de 100% apenas após confrontar o recipiente",
-        "Inspecionar visualmente antes de implementar V4.9"
-      ]
+        "Aumentar pesquisa documentada de produtores e consultas negativas",
+        "Inspecionar ficha visual V4.9 antes de qualquer migração",
+        "Homologação editorial e revisão das notas por fonte"
+      ],
+      "avaliacao_montagens": {
+        "natureza": "Heurística MACS, não comparação experimental de suportes",
+        "pesos": {
+          "raizes": 25,
+          "equilibrio_hidrico": 25,
+          "aeracao": 20,
+          "espaco": 10,
+          "calor": 10,
+          "evidencia": 10
+        },
+        "pontuacoes": [
+          {
+            "metodo": "vaso-barro",
+            "criterios": {
+              "raizes": 5,
+              "equilibrio_hidrico": 5,
+              "aeracao": 4,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 5
+            },
+            "nota_100": 92
+          },
+          {
+            "metodo": "vaso-plastico-vasado",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 5,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 4
+            },
+            "nota_100": 84
+          },
+          {
+            "metodo": "cesto-madeira",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 3,
+              "aeracao": 5,
+              "espaco": 5,
+              "calor": 3,
+              "evidencia": 4
+            },
+            "nota_100": 79
+          },
+          {
+            "metodo": "vaso-plastico",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 3,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 4
+            },
+            "nota_100": 76
+          },
+          {
+            "metodo": "placa-tronco",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 2,
+              "aeracao": 5,
+              "espaco": 3,
+              "calor": 3,
+              "evidencia": 4
+            },
+            "nota_100": 70
+          },
+          {
+            "metodo": "arvore-viva",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 2,
+              "aeracao": 5,
+              "espaco": 4,
+              "calor": 3,
+              "evidencia": 2
+            },
+            "nota_100": 68
+          },
+          {
+            "metodo": "raizes-soltas",
+            "criterios": {
+              "raizes": 2,
+              "equilibrio_hidrico": 1,
+              "aeracao": 5,
+              "espaco": 1,
+              "calor": 1,
+              "evidencia": 1
+            },
+            "nota_100": 41
+          }
+        ],
+        "risco_eliminatorio": "Placa, árvore ou raízes soltas sem irrigação suficiente podem desidratar; vaso grande com mistura fina e encharcada pode causar hipóxia."
+      },
+      "substrato_macs": {
+        "proposta": "70% pinus médio + 20% carvão vegetal granulado + 10% perlita grossa",
+        "percentuais": [
+          70,
+          20,
+          10
+        ],
+        "soma": 100,
+        "status": "Proposta horticultural para vaso de barro, não testada experimentalmente para a espécie",
+        "granulometria": "Pinus médio; carvão em fragmentos e perlita grossa, evitando pó e compactação",
+        "comparacao": "AOS relata bom desempenho com casca média porosa; Santa Clara usa pinus e carvão; Paulista prioriza secagem rápida. A proporção 70/20/10 é inferência técnica, não receita atribuída às fontes."
+      },
+      "parecer_final": "Vaso de barro com mistura porosa é proposta principal para planta adulta em clima quente, com plástico vasado e cachepô como alternativas. Evidência direta horticultural, sem ensaio de comparação de suportes ou validação de percentuais."
     },
     {
       "arquivo": "dados/orquideas/cattleya-schilleriana-x-cruzeiro-do-sul.js",
