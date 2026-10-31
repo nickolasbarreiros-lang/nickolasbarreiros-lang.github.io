@@ -35,7 +35,7 @@ export const brassavolaPerrini = {
     adubacao: "🌿 Orgânica: Bokashi em pequena quantidade, devidamente protegido em saquinho, aplicado apenas durante o período de crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em baixa dosagem a cada 10 a 15 dias. Reduza a carga de nitrogênio assim que as folhas amadurecerem para incentivar o surgimento de botões florais.\n🧪 Liberação lenta: poucos grânulos de Osmocote 14-14-14 em vasos ou cachepôs, sempre distantes das raízes novas.",
     rega: "Regue abundantemente, mas garanta que o sistema radicular seque completamente antes da próxima irrigação. Exemplares montados em troncos ou cascas podem receber água diariamente nos dias quentes de verão; em dias frios ou chuvosos, espace bastante as regas. Esta espécie tolera a seca curta muito melhor do que a umidade constante.",
     suporte: "🥇 Placa de madeira dura ou tronco: acompanha o crescimento pendente e oferece secagem rápida.\n🥈 Cachepô de madeira muito vazado.\n🥉 Vaso de barro pequeno, com grandes furos laterais.",
-    substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.", "🥈 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.", "🥉 Casca de macadâmia grossa + pedra-pomes + carvão vegetal, com secagem muito rápida.", "⭐ Alternativa: Pinus grosso + brita/pedra-pomes + carvão vegetal; evitar esfagno no miolo do vaso."],
+    substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.", "🥈 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.", "🥉 Casca de macadâmia grossa + perlita grossa + carvão vegetal, com secagem muito rápida.", "⭐ Alternativa: Pinus grosso + brita fina ou perlita grossa + carvão vegetal; evitar esfagno no miolo do vaso."],
     formasCultivo: {
         perfilVisual: "cattleya",
         destaque: "Placa / tronco",
@@ -51,7 +51,7 @@ export const brassavolaPerrini = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso ou cesto",
         resumo: "Mistura grossa, de baixa retenção, com macroporos persistentes e secagem rápida.",
-        justificativa: "A casca de macadâmia grossa cria estrutura e espaço para raízes; o carvão vegetal acrescenta fração rígida e arejada; o pinus grosso oferece pequena reserva hídrica; e a brita ou pedra-pomes preserva drenagem e macroporos. A proporção baixa de pinus limita a compactação com o envelhecimento, mas exige inspeção e troca quando houver degradação. Não é necessário esfagno para plantas adultas bem estabelecidas nessa proposta; a rega deve acompanhar o ritmo real de secagem.",
+        justificativa: "A casca de macadâmia grossa cria estrutura e espaço para raízes; o carvão vegetal acrescenta fração rígida e arejada; o pinus grosso oferece pequena reserva hídrica; e a brita fina ou perlita grossa preserva drenagem e macroporos. A proporção baixa de pinus limita a compactação com o envelhecimento, mas exige inspeção e troca quando houver degradação. Não é necessário esfagno para plantas adultas bem estabelecidas nessa proposta; a rega deve acompanhar o ritmo real de secagem.",
         receitaTexto: "35% casca de macadâmia grossa + 25% carvão vegetal grosso + 20% casca de pinus grossa + 20% brita pequena/média.",
         perfil: ["Raízes epífitas", "Aeração máxima", "Baixa retenção", "Secagem rápida", "Granulometria grossa", "Baixa compactação"],
         itens: [
