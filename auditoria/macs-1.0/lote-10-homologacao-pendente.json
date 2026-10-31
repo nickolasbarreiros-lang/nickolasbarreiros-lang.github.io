@@ -2,7 +2,7 @@
   "titulo": "Auditoria de homologação MACS 1.0 — lote de dez fichas",
   "data": "2026-10-30",
   "status_geral": "nao_homologado",
-  "regra": "Não marcar como validado sem satisfazer os requisitos de auditoria/macs-1.0/LEIA-ME.md.",
+  "regra": "MACS 1.0: fontes científicas obrigatórias, pesquisa maximizada de produtores brasileiros, meta flexível de 25 e homologação apenas com evidências suficientes.",
   "registros": [
     {
       "especie": "Blc. Chia Lin",
@@ -12,7 +12,9 @@
       "produtores_brasileiros": {
         "consultados": 0,
         "meta": 25,
-        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
+        "meta_flexivel": true,
+        "justificativa_encerramento": null
       },
       "fontes_iniciais": [],
       "perfil_radicular_hidrico": {
@@ -44,12 +46,14 @@
         "validacao_percentuais": false
       },
       "pendencias": [
-        "Completar 25 consultas distintas a produtores brasileiros",
+        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
+        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
         "Conferir taxonomia, hábito e oito critérios com referências",
         "Pontuar os sete métodos e riscos eliminatórios",
         "Confrontar misturas publicadas, granulometria e percentuais",
         "Inspeção visual e homologação editorial"
-      ]
+      ],
+      "fontes_cientificas_status": "levantamento_incompleto"
     },
     {
       "especie": "Camaridium carinatum",
@@ -59,7 +63,9 @@
       "produtores_brasileiros": {
         "consultados": 0,
         "meta": 25,
-        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
+        "meta_flexivel": true,
+        "justificativa_encerramento": null
       },
       "fontes_iniciais": [],
       "perfil_radicular_hidrico": {
@@ -91,12 +97,14 @@
         "validacao_percentuais": false
       },
       "pendencias": [
-        "Completar 25 consultas distintas a produtores brasileiros",
+        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
+        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
         "Conferir taxonomia, hábito e oito critérios com referências",
         "Pontuar os sete métodos e riscos eliminatórios",
         "Confrontar misturas publicadas, granulometria e percentuais",
         "Inspeção visual e homologação editorial"
-      ]
+      ],
+      "fontes_cientificas_status": "levantamento_incompleto"
     },
     {
       "especie": "Cattleya A Brazilian Dream",
@@ -106,7 +114,9 @@
       "produtores_brasileiros": {
         "consultados": 0,
         "meta": 25,
-        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
+        "meta_flexivel": true,
+        "justificativa_encerramento": null
       },
       "fontes_iniciais": [],
       "perfil_radicular_hidrico": {
@@ -138,12 +148,14 @@
         "validacao_percentuais": false
       },
       "pendencias": [
-        "Completar 25 consultas distintas a produtores brasileiros",
+        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
+        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
         "Conferir taxonomia, hábito e oito critérios com referências",
         "Pontuar os sete métodos e riscos eliminatórios",
         "Confrontar misturas publicadas, granulometria e percentuais",
         "Inspeção visual e homologação editorial"
-      ]
+      ],
+      "fontes_cientificas_status": "levantamento_incompleto"
     },
     {
       "especie": "Cattleya aclandiae",
@@ -153,7 +165,9 @@
       "produtores_brasileiros": {
         "consultados": 1,
         "meta": 25,
-        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
+        "meta_flexivel": true,
+        "justificativa_encerramento": null
       },
       "fontes_iniciais": [
         {
@@ -191,12 +205,14 @@
         "validacao_percentuais": false
       },
       "pendencias": [
-        "Completar 25 consultas distintas a produtores brasileiros",
+        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
+        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
         "Conferir taxonomia, hábito e oito critérios com referências",
         "Pontuar os sete métodos e riscos eliminatórios",
         "Confrontar misturas publicadas, granulometria e percentuais",
         "Inspeção visual e homologação editorial"
-      ]
+      ],
+      "fontes_cientificas_status": "levantamento_incompleto"
     },
     {
       "especie": "Cattlianthe Chocolate Drop",
@@ -206,7 +222,9 @@
       "produtores_brasileiros": {
         "consultados": 0,
         "meta": 25,
-        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
+        "meta_flexivel": true,
+        "justificativa_encerramento": null
       },
       "fontes_iniciais": [
         {
@@ -244,12 +262,14 @@
         "validacao_percentuais": false
       },
       "pendencias": [
-        "Completar 25 consultas distintas a produtores brasileiros",
+        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
+        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
         "Conferir taxonomia, hábito e oito critérios com referências",
         "Pontuar os sete métodos e riscos eliminatórios",
         "Confrontar misturas publicadas, granulometria e percentuais",
         "Inspeção visual e homologação editorial"
-      ]
+      ],
+      "fontes_cientificas_status": "levantamento_incompleto"
     },
     {
       "especie": "Cattleya guttata coerulea",
@@ -259,7 +279,9 @@
       "produtores_brasileiros": {
         "consultados": 0,
         "meta": 25,
-        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
+        "meta_flexivel": true,
+        "justificativa_encerramento": null
       },
       "fontes_iniciais": [],
       "perfil_radicular_hidrico": {
@@ -291,12 +313,14 @@
         "validacao_percentuais": false
       },
       "pendencias": [
-        "Completar 25 consultas distintas a produtores brasileiros",
+        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
+        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
         "Conferir taxonomia, hábito e oito critérios com referências",
         "Pontuar os sete métodos e riscos eliminatórios",
         "Confrontar misturas publicadas, granulometria e percentuais",
         "Inspeção visual e homologação editorial"
-      ]
+      ],
+      "fontes_cientificas_status": "levantamento_incompleto"
     },
     {
       "especie": "Cattleya intermedia",
@@ -306,7 +330,9 @@
       "produtores_brasileiros": {
         "consultados": 0,
         "meta": 25,
-        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
+        "meta_flexivel": true,
+        "justificativa_encerramento": null
       },
       "fontes_iniciais": [
         {
@@ -349,12 +375,14 @@
         "validacao_percentuais": false
       },
       "pendencias": [
-        "Completar 25 consultas distintas a produtores brasileiros",
+        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
+        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
         "Conferir taxonomia, hábito e oito critérios com referências",
         "Pontuar os sete métodos e riscos eliminatórios",
         "Confrontar misturas publicadas, granulometria e percentuais",
         "Inspeção visual e homologação editorial"
-      ]
+      ],
+      "fontes_cientificas_status": "levantamento_incompleto"
     },
     {
       "especie": "Cattleya leopoldii Dark Princess",
@@ -364,7 +392,9 @@
       "produtores_brasileiros": {
         "consultados": 0,
         "meta": 25,
-        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
+        "meta_flexivel": true,
+        "justificativa_encerramento": null
       },
       "fontes_iniciais": [],
       "perfil_radicular_hidrico": {
@@ -396,12 +426,14 @@
         "validacao_percentuais": false
       },
       "pendencias": [
-        "Completar 25 consultas distintas a produtores brasileiros",
+        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
+        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
         "Conferir taxonomia, hábito e oito critérios com referências",
         "Pontuar os sete métodos e riscos eliminatórios",
         "Confrontar misturas publicadas, granulometria e percentuais",
         "Inspeção visual e homologação editorial"
-      ]
+      ],
+      "fontes_cientificas_status": "levantamento_incompleto"
     },
     {
       "especie": "Cattleya loddigesii",
@@ -411,7 +443,9 @@
       "produtores_brasileiros": {
         "consultados": 0,
         "meta": 25,
-        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
+        "meta_flexivel": true,
+        "justificativa_encerramento": null
       },
       "fontes_iniciais": [
         {
@@ -449,12 +483,14 @@
         "validacao_percentuais": false
       },
       "pendencias": [
-        "Completar 25 consultas distintas a produtores brasileiros",
+        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
+        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
         "Conferir taxonomia, hábito e oito critérios com referências",
         "Pontuar os sete métodos e riscos eliminatórios",
         "Confrontar misturas publicadas, granulometria e percentuais",
         "Inspeção visual e homologação editorial"
-      ]
+      ],
+      "fontes_cientificas_status": "levantamento_incompleto"
     },
     {
       "especie": "Cattleya lueddemanniana",
@@ -464,7 +500,9 @@
       "produtores_brasileiros": {
         "consultados": 0,
         "meta": 25,
-        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada."
+        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
+        "meta_flexivel": true,
+        "justificativa_encerramento": null
       },
       "fontes_iniciais": [],
       "perfil_radicular_hidrico": {
@@ -496,12 +534,14 @@
         "validacao_percentuais": false
       },
       "pendencias": [
-        "Completar 25 consultas distintas a produtores brasileiros",
+        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
+        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
         "Conferir taxonomia, hábito e oito critérios com referências",
         "Pontuar os sete métodos e riscos eliminatórios",
         "Confrontar misturas publicadas, granulometria e percentuais",
         "Inspeção visual e homologação editorial"
-      ]
+      ],
+      "fontes_cientificas_status": "levantamento_incompleto"
     }
   ]
 }
