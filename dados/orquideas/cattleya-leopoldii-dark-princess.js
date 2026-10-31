@@ -43,7 +43,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso de barro",
-    "resumo": "Plantas vigorosas precisam de suporte estável, raízes ventiladas e mistura grossa que não acumule água.",
+    "resumo": "MACS 1.0: vaso de barro (82/100), cesto de madeira (79/100) e plástico vasado (78/100). As notas são estimativas heurísticas para plantas adultas altas.",
     "metodos": [
         {
             "nome": "Vaso de barro",
@@ -79,7 +79,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "Para pseudobulbos altos e touceiras pesadas, a brita acrescenta estabilidade e a fração grossa limita saturação.",
+    "justificativa": "Para pseudobulbos altos, a brita acrescenta estabilidade e partículas grossas favorecem a aeração. Produtores citam pinus, carvão, coco e brita, mas não validam esta mistura específica para o cultivar Dark Princess.",
     "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de macadâmia + 25% casca de pinus + 25% brita fina + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
     "perfil": [
         "Raízes epífitas",
@@ -117,7 +117,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
             "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
-    "alerta": "Proporções orientativas, sujeitas à revisão por fontes brasileiras específicas; observar a secagem antes de repetir a rega."
+    "alerta": "Mistura 35/25/25/15 é proposta horticultural sem ensaio comparativo específico; manter boa drenagem, fixação e observar a secagem antes de regar."
 },
     "errosComuns": "Pouca luz; vaso leve; ausência de tutoramento; amarrar o broto com excesso de pressão; tentar endireitar pseudobulbo maduro; substrato fino; excesso de água no inverno; excesso de nitrogênio; girar o vaso durante a haste; dividir em poucas frentes; impedir espaço vertical; deixar o rizoma frouxo.",
     "dica": "Tutore a frente nova desde os primeiros centímetros de alongamento. Use amarração flexível, com folga para o espessamento, e ajuste gradualmente. Instale o vaso definitivo em local estável antes que a planta fique alta. Depois do endurecimento dos tecidos, não tente dobrar ou reposicionar a haste. A estabilidade física melhora a orientação da haste, protege raízes novas e evita que o conjunto tombe com o peso das flores.",
