@@ -29,8 +29,8 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     "climaFloracao": "A floração é favorecida por pseudobulbos maduros, noites quentes, luminosidade constante e sistema radicular saudável. A planta não deve ser induzida por frio ou seca intensa. Temperaturas baixas, água muito salina, fertilização concentrada e substrato degradado interrompem o crescimento e reduzem o tamanho e a qualidade das flores. Como se trata de progênie self, o período exato de floração pode variar entre indivíduos.",
     "iluminacao": {
         "sombrite": "50% a 60%",
-        "solDireto": "Sol pleno",
-        "horario": "",
+        "solDireto": "Permitido com restrição",
+        "horario": "Somente início da manhã",
         "observacoes": "Luz brilhante e filtrada é essencial. Folhas verde-médio e pseudobulbos firmes indicam equilíbrio. Sombra produz pseudobulbos finos; sol forte causa amarelecimento e queimaduras."
     },
     "floracao": "Floresce principalmente da primavera ao verão, entre outubro e março, com variação conforme o indivíduo e o microclima. As flores tendem a apresentar sépalas e pétalas muito claras, em rosa-esbranquiçado ou lilás suave, e labelo magenta com área amarelada na garganta. Plantas jovens podem alterar tamanho e intensidade de cor nas primeiras florações até alcançarem maturidade.",
@@ -40,9 +40,87 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     "substrato": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.",
     "errosComuns": "Temperaturas prolongadas abaixo de 15 °C; seca severa; água salina; fertilizante concentrado; excesso de Osmocote; falta de flushing; raízes abafadas; pouca luz; substrato degradado; água no rizoma; replantar fora do novo enraizamento; assumir que todas as mudas self serão idênticas à planta-mãe.",
     "dica": "A prioridade é preservar pontas radiculares ativas durante todo o ano. Use água de baixa salinidade, adubação fraca e lavagem periódica. Mantenha temperatura noturna preferencialmente acima de 15 °C e não aplique repouso seco. Por ser uma progênie self, avalie cada planta pelo desempenho próprio: diferenças de cor e vigor entre irmãos são naturais.",
+    formasCultivo: {
+        "perfilVisual": "cattleya",
+        "destaque": "Cachepô de Madeira",
+        "resumo": "Raízes bem arejadas, água de baixa salinidade e umidade regular sem repouso seco severo.",
+        "metodos": [
+            {
+                "nome": "Cachepô de Madeira",
+                "asset": "cesto-madeira",
+                "estrelas": 5,
+                "status": "Ideal",
+                "texto": "Secagem rápida e ventilação; exige regas regulares e lavagem de sais."
+            },
+            {
+                "nome": "Vaso de Barro",
+                "asset": "vaso-barro",
+                "estrelas": 4,
+                "status": "Muito recomendado",
+                "texto": "Boa estabilidade, drenagem e controle de umidade."
+            },
+            {
+                "nome": "Vaso plástico vasado",
+                "asset": "vaso-plastico-vasado",
+                "estrelas": 4,
+                "status": "Adequado",
+                "texto": "Permite retenção moderada com mistura grossa e ampla furação."
+            },
+            {
+                "nome": "Placa / tronco",
+                "asset": "placa-tronco",
+                "estrelas": 3,
+                "status": "Condicionado",
+                "texto": "Boa aeração; precisa umidade ambiente alta e regas frequentes."
+            }
+        ]
+    },
+    substratoVisual: {
+        "titulo": "Substrato ideal",
+        "contexto": "Cachepô de madeira aberto",
+        "resumo": "Mistura média e grossa, com boa aeração e retenção moderada.",
+        "justificativa": "AOS documenta C. violacea em cestos e placas na AWZ Orchids; os percentuais são inferência horticultural para a progênie self, não fórmula validada.",
+        "receitaTexto": "35% pinus médio + 25% macadâmia média + 20% carvão vegetal + 20% chips de coco grossos.",
+        "perfil": [
+            "Umidade regular",
+            "Aeração elevada",
+            "Baixa salinidade"
+        ],
+        "itens": [
+            {
+                "asset": "casca-pinus",
+                "nome": "Casca de pinus média",
+                "proporcao": "35%",
+                "nota": "estrutura",
+                "finalidade": "Suporte poroso."
+            },
+            {
+                "asset": "macadamia",
+                "nome": "Casca de macadâmia média",
+                "proporcao": "25%",
+                "nota": "aeração",
+                "finalidade": "Mantém espaços entre raízes."
+            },
+            {
+                "asset": "carvao-vegetal",
+                "nome": "Carvão vegetal",
+                "proporcao": "20%",
+                "nota": "drenagem",
+                "finalidade": "Ajuda a evitar compactação."
+            },
+            {
+                "asset": "chips-coco",
+                "nome": "Chips de coco grossos",
+                "proporcao": "20%",
+                "nota": "umidade",
+                "finalidade": "Retém umidade sem eliminar ventilação."
+            }
+        ],
+        "alerta": "Lave periodicamente para reduzir sais; evite encharcar e não enterre o rizoma."
+    },
     revisaoCientificaIAR: {
         "nome": "Cattleya violacea f. suavissima × self",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "statusTaxonomico": "Cattleya violacea é espécie botânica; suavissima é denominação horticultural de coloração e × self indica progênie por autofecundação, não espécie ou híbrido interespecífico.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
         "morfologiaDimensoes": "Uma versão delicada de uma das mais belas Cattleyas amazônicas! Esta progênie vem da autofecundação de uma Cattleya violacea selecionada pela coloração muito suave, buscando descendentes em tons claros de rosa, lilás ou quase branco, geralmente com o labelo mais destacado. Como toda reprodução por sementes, cada planta pode apresentar diferenças de cor, forma, perfume e vigor. ",
         "habitatAltitudeClima": "Referência: florestas tropicais úmidas · baixa altitude. | Quente e úmido · sem seca prolongada.",
@@ -199,5 +277,137 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
         "luminosidade": 4,
         "agua": 4,
         "raridade": 5
+    }
+    macs1_0: {
+        "versao": "MACS 1.0",
+        "status": "parecer_tecnico_sem_homologacao_visual",
+        "pesos": [
+            25,
+            25,
+            20,
+            10,
+            10,
+            10
+        ],
+        "criterios": [
+            "raizes",
+            "agua",
+            "aeracao",
+            "espaco",
+            "calor",
+            "evidencia"
+        ],
+        "montagens": [
+            {
+                "suporte": "cesto-madeira",
+                "notas": [
+                    5,
+                    5,
+                    5,
+                    4,
+                    4,
+                    3
+                ],
+                "pontuacao": 92
+            },
+            {
+                "suporte": "vaso-barro",
+                "notas": [
+                    5,
+                    4,
+                    5,
+                    4,
+                    4,
+                    3
+                ],
+                "pontuacao": 87
+            },
+            {
+                "suporte": "vaso-plastico-vasado",
+                "notas": [
+                    4,
+                    5,
+                    5,
+                    4,
+                    4,
+                    3
+                ],
+                "pontuacao": 87
+            },
+            {
+                "suporte": "arvore-viva",
+                "notas": [
+                    5,
+                    3,
+                    5,
+                    4,
+                    4,
+                    2
+                ],
+                "pontuacao": 80
+            },
+            {
+                "suporte": "placa-tronco",
+                "notas": [
+                    5,
+                    3,
+                    5,
+                    3,
+                    4,
+                    2
+                ],
+                "pontuacao": 78
+            },
+            {
+                "suporte": "vaso-plastico",
+                "notas": [
+                    4,
+                    5,
+                    3,
+                    4,
+                    3,
+                    3
+                ],
+                "pontuacao": 77
+            },
+            {
+                "suporte": "raizes-soltas",
+                "notas": [
+                    3,
+                    1,
+                    5,
+                    2,
+                    2,
+                    1
+                ],
+                "pontuacao": 50
+            }
+        ],
+        "perfil": {
+            "raizes": "epífitas, não medidas diretamente nesta progênie",
+            "exposicao": "epífita amazônica por referência à espécie",
+            "reserva": "pseudobulbos",
+            "umidade": "regular com secagem rápida",
+            "seca": "não impor repouso seco severo",
+            "saturacao": "evitar encharcamento",
+            "arquitetura": "simpodial bifoliada",
+            "temperatura": "quente, umidade alta e ar circulante"
+        },
+        "substrato": {
+            "recipiente": "cachepô de madeira",
+            "percentuais": {
+                "pinus medio": 35,
+                "macadamia media": 25,
+                "carvao vegetal": 20,
+                "chips coco grossos": 20
+            },
+            "natureza": "proposta técnica para progênie self; não receita testada"
+        },
+        "fontes": [
+            "https://www.aos.org/orchids/articles/cattleya-violacea",
+            "https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet",
+            "https://www.sosa.org.br/site/dicas-de-cultivo.php"
+        ],
+        "observacao": "Evidência AOS sobre a espécie e AWZ Orchids brasileira; extrapolação à progênie suavissima × self. Não confundir recomendação de suporte com ensaio comparativo."
     }
 };
