@@ -195,4 +195,199 @@ export const cattleyaNobiliorVarAmaliae = {
         agua: 2,
         raridade: 4
     }
+    macs1_0: {
+        "versao": "MACS 1.0",
+        "status": "parecer_tecnico_concluido_sem_homologacao_visual",
+        "natureza": "Notas heurísticas, não medições experimentais",
+        "perfil": {
+            "espessura_raizes": {
+                "valor": null,
+                "confianca": "insuficiente",
+                "fonte": "Sem medida direta"
+            },
+            "exposicao_natural": {
+                "valor": "epífita sobre árvores",
+                "confianca": "alta",
+                "fonte": "AOS Cattleya Hunting in Brazil"
+            },
+            "reservas": {
+                "valor": "pseudobulbos",
+                "confianca": "alta",
+                "fonte": "morfologia da espécie"
+            },
+            "necessidade_umidade": {
+                "valor": "rega na atividade e redução no repouso",
+                "confianca": "moderada",
+                "fonte": "AOS; Odara Orchids"
+            },
+            "tolerancia_secagem": {
+                "valor": "sazonalidade seca, sem desidratação extrema",
+                "confianca": "moderada",
+                "fonte": "AOS"
+            },
+            "sensibilidade_saturacao": {
+                "valor": "secagem rápida das raízes",
+                "confianca": "moderada",
+                "fonte": "Odara; Durval Ferreira"
+            },
+            "arquitetura": {
+                "valor": "crescimento simpodial compacto",
+                "confianca": "alta",
+                "fonte": "morfologia da espécie"
+            },
+            "condicoes_termicas": {
+                "valor": "tropical sazonal, adaptar a irrigação ao calor",
+                "confianca": "moderada",
+                "fonte": "AOS"
+            }
+        },
+        "pesos": {
+            "compatibilidade_raizes": 25,
+            "equilibrio_hidrico": 25,
+            "aeracao_drenagem": 20,
+            "espaco_crescimento": 10,
+            "adaptacao_calor": 10,
+            "evidencia_documentada": 10
+        },
+        "avaliacao_montagens": [
+            {
+                "metodo": "cesto-madeira",
+                "notas": {
+                    "compatibilidade_raizes": 5,
+                    "equilibrio_hidrico": 4,
+                    "aeracao_drenagem": 5,
+                    "espaco_crescimento": 5,
+                    "adaptacao_calor": 3,
+                    "evidencia_documentada": 4
+                },
+                "nota_100": 89
+            },
+            {
+                "metodo": "placa-tronco",
+                "notas": {
+                    "compatibilidade_raizes": 5,
+                    "equilibrio_hidrico": 3,
+                    "aeracao_drenagem": 5,
+                    "espaco_crescimento": 5,
+                    "adaptacao_calor": 3,
+                    "evidencia_documentada": 5
+                },
+                "nota_100": 86
+            },
+            {
+                "metodo": "arvore-viva",
+                "notas": {
+                    "compatibilidade_raizes": 5,
+                    "equilibrio_hidrico": 3,
+                    "aeracao_drenagem": 5,
+                    "espaco_crescimento": 5,
+                    "adaptacao_calor": 3,
+                    "evidencia_documentada": 3
+                },
+                "nota_100": 82
+            },
+            {
+                "metodo": "vaso-barro",
+                "notas": {
+                    "compatibilidade_raizes": 4,
+                    "equilibrio_hidrico": 4,
+                    "aeracao_drenagem": 4,
+                    "espaco_crescimento": 4,
+                    "adaptacao_calor": 4,
+                    "evidencia_documentada": 3
+                },
+                "nota_100": 78
+            },
+            {
+                "metodo": "vaso-plastico-vasado",
+                "notas": {
+                    "compatibilidade_raizes": 4,
+                    "equilibrio_hidrico": 4,
+                    "aeracao_drenagem": 5,
+                    "espaco_crescimento": 4,
+                    "adaptacao_calor": 3,
+                    "evidencia_documentada": 2
+                },
+                "nota_100": 78
+            },
+            {
+                "metodo": "vaso-plastico",
+                "notas": {
+                    "compatibilidade_raizes": 4,
+                    "equilibrio_hidrico": 3,
+                    "aeracao_drenagem": 3,
+                    "espaco_crescimento": 4,
+                    "adaptacao_calor": 3,
+                    "evidencia_documentada": 2
+                },
+                "nota_100": 65
+            },
+            {
+                "metodo": "raizes-soltas",
+                "notas": {
+                    "compatibilidade_raizes": 2,
+                    "equilibrio_hidrico": 1,
+                    "aeracao_drenagem": 5,
+                    "espaco_crescimento": 2,
+                    "adaptacao_calor": 2,
+                    "evidencia_documentada": 1
+                },
+                "nota_100": 45
+            }
+        ],
+        "cultivo_ideal": {
+            "suporte": "placa-tronco",
+            "motivo": "Montagem epífita aberta e secagem rápida; exige regas mais frequentes no calor durante crescimento.",
+            "alternativas": [
+                "cesto-madeira",
+                "arvore-viva",
+                "vaso-barro"
+            ],
+            "riscos": "Desidratação em placa sem irrigação adequada; apodrecimento em vaso com substrato compacto; proteger de chuvas prolongadas no repouso."
+        },
+        "substrato": {
+            "principal": "Placa de madeira ventilada, sem mistura volumétrica; fixação com raízes expostas.",
+            "alternativa_recipient": "Cachepô de madeira",
+            "composicao": [
+                {
+                    "material": "casca de pinus grossa",
+                    "percentual": 50
+                },
+                {
+                    "material": "carvão vegetal granulado",
+                    "percentual": 30
+                },
+                {
+                    "material": "brita fina",
+                    "percentual": 20
+                }
+            ],
+            "granulometria": "Grossa, sem pó; brita fina apenas como fração mineral drenante",
+            "status": "proposta técnica não ensaiada em adultas",
+            "comparacao": "Odara recomenda suportes rústicos/cachepôs; Mantovani admite diferentes recipientes; Florália vende mudas montadas em madeira; experimento UNESP com esfagno e coco é apenas de aclimatação de plântulas."
+        },
+        "fontes": [
+            {
+                "nome": "AOS",
+                "url": "https://www.aos.org/orchids/articles/cattleya-hunting-in-brazil"
+            },
+            {
+                "nome": "Odara Orchids",
+                "url": "https://odara.orquidario.online/cattleya-nobilior/"
+            },
+            {
+                "nome": "Orquidário Durval Ferreira",
+                "url": "https://www.orquidariodurvalferreira.com.br/cattleya-nobilior-amaliae-amestista-02-adulta"
+            },
+            {
+                "nome": "Florália Orquídeas",
+                "url": "https://floraliaorquidario.com.br/especies-cattleyas/87-cattleya-nobilior-amaliae.html"
+            },
+            {
+                "nome": "UNESP",
+                "url": "https://repositorio.unesp.br/entities/publication/86aaa3af-2fa8-4986-8f94-07e0caf8bf04/full"
+            }
+        ],
+        "ressalva": "Homologação visual V4.9 não executada; recomendações de substrato não testadas em adultas."
+    }
 };
