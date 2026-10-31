@@ -1,0 +1,118 @@
+{
+  "titulo": "MACS 1.0 — segundo lote, triagem estrutural",
+  "data": "2026-10-31",
+  "status_geral": "pesquisa_pendente_nao_homologado",
+  "nota": "Triagem de arquivos e percentuais; não equivale a parecer horticultural ou homologação.",
+  "registros": [
+    {
+      "arquivo": "dados/orquideas/cattleya-nobilior-var-amaliae.js",
+      "especie": "Cattleya nobilior var. amaliae",
+      "fotos_cadastradas": 4,
+      "formas_cultivo": false,
+      "substrato_visual": false,
+      "percentuais": [],
+      "soma_percentuais": 0,
+      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
+      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+    },
+    {
+      "arquivo": "dados/orquideas/cattleya-pumpkin-festival.js",
+      "especie": "Cattleya Pumpkin Festival",
+      "fotos_cadastradas": 4,
+      "formas_cultivo": true,
+      "substrato_visual": true,
+      "percentuais": [],
+      "soma_percentuais": 0,
+      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
+      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+    },
+    {
+      "arquivo": "dados/orquideas/cattleya-schilleriana.js",
+      "especie": "cattleya-schilleriana.js",
+      "fotos_cadastradas": 0,
+      "formas_cultivo": false,
+      "substrato_visual": false,
+      "percentuais": [],
+      "soma_percentuais": 0,
+      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
+      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+    },
+    {
+      "arquivo": "dados/orquideas/cattleya-schilleriana-x-cruzeiro-do-sul.js",
+      "especie": "cattleya-schilleriana-x-cruzeiro-do-sul.js",
+      "fotos_cadastradas": 0,
+      "formas_cultivo": false,
+      "substrato_visual": false,
+      "percentuais": [],
+      "soma_percentuais": 0,
+      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
+      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+    },
+    {
+      "arquivo": "dados/orquideas/cattleya-violacea-f-flamea.js",
+      "especie": "cattleya-violacea-f-flamea.js",
+      "fotos_cadastradas": 0,
+      "formas_cultivo": false,
+      "substrato_visual": false,
+      "percentuais": [],
+      "soma_percentuais": 0,
+      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
+      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+    },
+    {
+      "arquivo": "dados/orquideas/cattleya-violacea-f-suavissima-x-self.js",
+      "especie": "cattleya-violacea-f-suavissima-x-self.js",
+      "fotos_cadastradas": 0,
+      "formas_cultivo": false,
+      "substrato_visual": false,
+      "percentuais": [],
+      "soma_percentuais": 0,
+      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
+      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+    },
+    {
+      "arquivo": "dados/orquideas/cattleya-walkeriana.js",
+      "especie": "cattleya-walkeriana.js",
+      "fotos_cadastradas": 0,
+      "formas_cultivo": false,
+      "substrato_visual": false,
+      "percentuais": [],
+      "soma_percentuais": 0,
+      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
+      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+    },
+    {
+      "arquivo": "dados/orquideas/cattleya-walkeriana-f-alba-gnomus-x-f-alba-suprema.js",
+      "especie": "Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema')",
+      "fotos_cadastradas": 4,
+      "formas_cultivo": false,
+      "substrato_visual": false,
+      "percentuais": [],
+      "soma_percentuais": 0,
+      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
+      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+    },
+    {
+      "arquivo": "dados/orquideas/cattleya-warneri.js",
+      "especie": "cattleya-warneri.js",
+      "fotos_cadastradas": 0,
+      "formas_cultivo": false,
+      "substrato_visual": false,
+      "percentuais": [],
+      "soma_percentuais": 0,
+      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
+      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+    },
+    {
+      "arquivo": "dados/orquideas/epicattleya-rene-marques.js",
+      "especie": "Epicattleya René Marqués",
+      "fotos_cadastradas": 4,
+      "formas_cultivo": false,
+      "substrato_visual": false,
+      "percentuais": [],
+      "soma_percentuais": 0,
+      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
+      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+    }
+  ]
+}
