@@ -39,79 +39,55 @@ export const cattleyaAclandiaeTipo = {
     suporte: "🥇 Cortiça natural ou galho de casca rugosa.\n🥈 Madeira dura e texturizada, com ampla exposição das raízes.\n🥉 Pequeno cachepô de madeira extremamente aberto e com pouco substrato.",
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura: raízes grossas recebem ar máximo e secam rapidamente após a rega.\n🥈 Casca de macadâmia grossa + perlita grossa + carvão vegetal, em vaso pequeno e muito perfurado.\n🥉 Pinus grosso + brita fina + carvão vegetal, sem esfagno no centro do vaso.\n⭐ Alternativa: Chips de coco muito grossos + argila expandida + carvão, apenas em cesto bastante vazado.",
     formasCultivo: {
-            "perfilVisual": "epifita",
-            "destaque": "Cortiça natural ou galho de casca rugosa",
-            "resumo": "Montagens organizadas a partir das recomendações já registradas nesta ficha; classificações visuais provisórias, sem validação MACS.",
-            "metodos": [
-                    {
-                            "nome": "Cortiça natural ou galho de casca rugosa",
-                            "asset": "placa-tronco",
-                            "estrelas": 5,
-                            "status": "Ideal",
-                            "texto": "Cortiça natural ou galho de casca rugosa."
-                    },
-                    {
-                            "nome": "Madeira dura e texturizada",
-                            "asset": "cesto-madeira",
-                            "estrelas": 4,
-                            "status": "Muito recomendado",
-                            "texto": "Madeira dura e texturizada, com ampla exposição das raízes."
-                    },
-                    {
-                            "nome": "Pequeno cachepô de madeira extremamente aberto e com pouco sub",
-                            "asset": "cesto-madeira",
-                            "estrelas": 3,
-                            "status": "Adequado",
-                            "texto": "Pequeno cachepô de madeira extremamente aberto e com pouco substrato."
-                    },
-                    {
-                            "nome": "Vaso de barro",
-                            "asset": "vaso-barro",
-                            "estrelas": 2,
-                            "status": "Alternativa",
-                            "texto": "Opção de montagem a avaliar conforme ventilação, retenção de água e condições locais."
-                    }
-            ]
-    },
+    "perfilVisual": "cattleya",
+    "destaque": "Placa / tronco",
+    "resumo": "Raízes expostas e alta ventilação são prioritárias; a frequência das regas deve acompanhar a secagem do suporte.",
+    "metodos": [
+        {
+            "nome": "Placa / tronco",
+            "asset": "placa-tronco",
+            "estrelas": null,
+            "status": "Mais indicada na ficha",
+            "texto": "A fixação em madeira ou cortiça deixa as raízes livres para receber ar e secar após a rega; exige atenção à umidade e à fixação da planta."
+        },
+        {
+            "nome": "Cachepô de madeira",
+            "asset": "cesto-madeira",
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "As frestas permitem ventilação lateral e rápida drenagem, úteis para raízes epífitas. A secagem mais rápida exige acompanhamento das regas."
+        },
+        {
+            "nome": "Vaso de barro",
+            "asset": "vaso-barro",
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "A terracota oferece estabilidade e favorece a evaporação lateral. Utilize recipiente proporcional, mistura aberta e furos de drenagem livres."
+        },
+        {
+            "nome": "Vaso plástico vasado",
+            "asset": "vaso-plastico-vasado",
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "Os furos ampliam a circulação de ar e reduzem a saturação da mistura; monitore a secagem e não enterre o rizoma."
+        }
+    ]
+},
     substratoVisual: {
-            "titulo": "Substrato ideal",
-            "contexto": "Composição ilustrativa — proporções a validar",
-            "resumo": "Componentes extraídos da mistura já recomendada na ficha. Nenhuma porcentagem foi inventada.",
-            "justificativa": "A apresentação visual conserva os ingredientes já indicados. Proporções, comportamento e comparação científica permanecem pendentes de validação.",
-            "receitaTexto": "🥇 Montagem em nó de pinho, cortiça ou madeira dura: raízes grossas recebem ar máximo e secam rapidamente após a rega.",
-            "perfil": [
-                    "Composição original preservada",
-                    "Proporções pendentes",
-                    "Boa drenagem"
-            ],
-            "itens": [
-                    {
-                            "asset": "casca-pinus",
-                            "nome": "Casca de pinus",
-                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
-                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
-                    },
-                    {
-                            "asset": "macadamia",
-                            "nome": "Casca de macadâmia",
-                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
-                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
-                    },
-                    {
-                            "asset": "perlita",
-                            "nome": "Perlita grossa",
-                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
-                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
-                    },
-                    {
-                            "asset": "carvao-vegetal",
-                            "nome": "Carvão vegetal",
-                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
-                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
-                    }
-            ],
-            "alerta": "As proporções não foram determinadas nesta migração de layout; manter a orientação textual original até revisão técnica."
-    },
+    "titulo": "Substrato ideal",
+    "contexto": "Montagem sem substrato convencional",
+    "resumo": "Suporte ventilado e raízes expostas; mistura de vaso apenas como alternativa.",
+    "justificativa": "O suporte evita compactação e favorece oxigenação. A frequência de rega precisa compensar a menor reserva de água.",
+    "receitaTexto": "\udd47 Montagem em nó de pinho, cortiça ou madeira dura: raízes grossas recebem ar máximo e secam rapidamente após a rega.",
+    "perfil": [
+        "Raízes expostas",
+        "Alta aeração",
+        "Rega conforme secagem",
+        "Fixação firme"
+    ],
+    "itens": [],
+    "alerta": "Percentuais não documentados na ficha original; não foram atribuídos valores arbitrários."
+},
     errosComuns: "• Vaso grande ou fechado.\n• Esfagno compacto e raízes permanentemente úmidas.\n• Replantar fora do início de emissão de novas raízes.\n• Sombra excessiva.\n• Secar demais durante crescimento ativo.\n• Enterrar o rizoma.\n• Confundir pigmentação natural das folhas com doença.\n• Adubação concentrada.\n• Manter planta fria e molhada durante período de menor atividade.",
     dica: "🏆 Replante somente quando a planta estiver pronta para emitir raízes novas. Cattleya aclandiae adere fortemente ao suporte e reage mal a danos extensos em raízes antigas. Sempre que possível, mantenha-a montada em cortiça ou madeira rugosa por muitos anos. Se for necessário intervir, espere as primeiras pontas de raízes novas. No litoral quente, não tente cultivá-la 'seca' o tempo todo: dê bastante água durante atividade, mas faça essa água desaparecer rapidamente com ventilação e raízes expostas.",
     revisaoCientificaIAR: {
