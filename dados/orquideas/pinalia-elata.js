@@ -26,7 +26,7 @@ export const pinaliaElata = {
  formasCultivo:{perfilVisual:"epifita-pseudobulbosa",destaque:"Vaso plástico raso e ventilado",resumo:"Pode ser cultivada em vaso plástico raso e ventilado, placa de madeira, cesto de madeira ou vaso de barro baixo. A escolha depende da umidade e da frequência de regas.",metodos:[{nome:"Vaso plástico vasado",asset:"pinalia-elata-vaso-vasado",estrelas:5,status:"Recomendado",texto:"Mistura arejada com 50% pinus, 30% carvão e 20% esfagno. Furos laterais ajudam a evitar abafamento; monitorar secagem no centro do vaso."},{nome:"Placa / tronco",asset:"placa-madeira",estrelas:5,status:"Muito recomendado",texto:"Placa de madeira bem ventilada; manter umidade regular e ajustar as regas à secagem das raízes."},{nome:"Cachepô de Madeira",asset:"cesto-madeira",estrelas:4,status:"Muito recomendado",texto:"Boa ventilação lateral e drenagem; acompanhar a secagem do substrato."},{nome:"Vaso de Barro",asset:"vaso-barro",estrelas:4,status:"Recomendado",texto:"Prefira vaso baixo e largo, com boa drenagem. A porosidade favorece a secagem; ajuste as regas para manter umidade moderada."}]},
  substrato:[
   "Casca de pinus média + carvão vegetal médio + esfagno solto.",
-  "Casca de pinus média + pedra-pomes pequena + akadama média + pequena quantidade de esfagno.",
+  "Casca de pinus média + perlita grossa pequena + akadama média + pequena quantidade de esfagno.",
   "Casca de pinus média + chips de coco lavados + carvão vegetal médio.",
   "Brita pequena + casca de arroz carbonizada + carvão vegetal médio + pequena quantidade de esfagno."
  ],
