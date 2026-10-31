@@ -47,15 +47,15 @@ export const cattleyaAclandiaeTipo = {
             "nome": "Cachepô de madeira",
             "asset": "cesto-madeira",
             "estrelas": null,
-            "status": "Alternativa",
-            "texto": "A fixação em madeira ou cortiça deixa as raízes livres para receber ar e secar após a rega; exige atenção à umidade e à fixação da planta."
+            "status": "Mais indicada na ficha",
+            "texto": "As frestas do cesto ventilam as raízes e permitem expansão; monitore a secagem no calor para evitar desidratação."
         },
         {
             "nome": "Placa / tronco",
             "asset": "placa-tronco",
             "estrelas": null,
-            "status": "Mais indicada na ficha",
-            "texto": "As frestas permitem ventilação lateral e rápida drenagem, úteis para raízes epífitas. A secagem mais rápida exige acompanhamento das regas."
+            "status": "Alternativa",
+            "texto": "A cortiça ou madeira rugosa permite aderência e secagem rápida das raízes; exige regas mais frequentes no calor."
         },
         {
             "nome": "Vaso de barro",
@@ -76,8 +76,8 @@ export const cattleyaAclandiaeTipo = {
     substratoVisual: {
     "titulo": "Substrato ideal",
     "contexto": "Mistura alternativa para vaso",
-    "resumo": "Cultivo principal em suporte sem substrato; a mistura abaixo é apenas uma alternativa para vaso perfurado.",
-    "justificativa": "Esta é apenas uma alternativa para vaso muito perfurado; a montagem principal da espécie permanece sobre madeira ou cortiça, com raízes expostas.",
+    "resumo": "O cultivo principal é em cesto de madeira muito aberto ou placa; esta mistura é alternativa apenas para vaso perfurado.",
+    "justificativa": "Mistura opcional para vaso muito perfurado; cesto de madeira e placa de cortiça são preferidos por manter as raízes ventiladas.",
     "receitaTexto": "Proposta de cultivo (não validada por ensaio): 45% casca de macadâmia + 30% perlita grossa + 25% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
     "perfil": [
         "Raízes epífitas grossas",
@@ -108,7 +108,7 @@ export const cattleyaAclandiaeTipo = {
             "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
-    "alerta": "Cultivo principal em placa ou tronco; não cobrir as raízes com mistura compacta."
+    "alerta": "Cultivo principal em cesto aberto ou placa/tronco; não cobrir as raízes com mistura compacta."
 },
     errosComuns: "• Vaso grande ou fechado.\n• Esfagno compacto e raízes permanentemente úmidas.\n• Replantar fora do início de emissão de novas raízes.\n• Sombra excessiva.\n• Secar demais durante crescimento ativo.\n• Enterrar o rizoma.\n• Confundir pigmentação natural das folhas com doença.\n• Adubação concentrada.\n• Manter planta fria e molhada durante período de menor atividade.",
     dica: "🏆 Replante somente quando a planta estiver pronta para emitir raízes novas. Cattleya aclandiae adere fortemente ao suporte e reage mal a danos extensos em raízes antigas. Sempre que possível, mantenha-a montada em cortiça ou madeira rugosa por muitos anos. Se for necessário intervir, espere as primeiras pontas de raízes novas. No litoral quente, não tente cultivá-la 'seca' o tempo todo: dê bastante água durante atividade, mas faça essa água desaparecer rapidamente com ventilação e raízes expostas.",
