@@ -45,76 +45,77 @@ export const cattleyaChocolateDrop = {
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso de barro",
-    "resumo": "Alternativas derivadas das recomendações existentes. Estrelas visuais provisórias; MACS ainda não validado.",
+    "resumo": "A escolha do recipiente equilibra oxigenação das raízes, drenagem e estabilidade, com secagem adequada entre regas.",
     "metodos": [
         {
             "nome": "Vaso de barro",
             "asset": "vaso-barro",
-            "estrelas": 5,
-            "status": "Ideal",
-            "texto": "Vaso de barro — oferece peso, estabilidade e secagem rápida."
+            "estrelas": null,
+            "status": "Mais indicada na ficha",
+            "texto": "A terracota oferece estabilidade e evaporação pelas paredes; o vaso deve ter tamanho proporcional e mistura bem drenante."
         },
         {
             "nome": "Cachepô de madeira",
             "asset": "cesto-madeira",
-            "estrelas": 4,
-            "status": "Muito recomendado",
-            "texto": "Cachepô de madeira — excelente para touceiras adultas e raízes vigorosas."
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "As aberturas laterais mantêm as raízes ventiladas e favorecem a drenagem, mas a mistura seca mais depressa."
         },
         {
             "nome": "Vaso plástico vasado",
             "asset": "vaso-plastico-vasado",
-            "estrelas": 3,
-            "status": "Adequado",
-            "texto": "Vaso plástico muito perfurado — opção prática em locais de secagem rápida."
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "Os furos favorecem a oxigenação e reduzem a retenção excessiva; monitore a secagem da mistura."
         },
         {
             "nome": "Vaso plástico",
             "asset": "vaso-plastico",
-            "estrelas": 2,
+            "estrelas": null,
             "status": "Alternativa",
-            "texto": "Escolha recipiente proporcional e mantenha o rizoma acima do substrato."
+            "texto": "A retenção maior exige atenção ao tamanho das partículas e aos intervalos de rega."
         }
     ]
 },
     substratoVisual: {
     "titulo": "Substrato ideal",
-    "contexto": "Receita visual provisória",
-    "resumo": "Ingredientes da receita existente, sem atribuição de porcentagens não verificadas.",
-    "justificativa": "A composição mantém os materiais anteriormente recomendados. A definição quantitativa e a validação técnica ficam para a revisão específica.",
+    "contexto": "Composição da ficha — proporções a validar",
+    "resumo": "Componentes da recomendação original, apresentados sem percentuais não documentados.",
+    "justificativa": "As raízes epífitas dependem de ar entre as partículas; mantenha drenagem e ajuste a rega ao recipiente.",
     "receitaTexto": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.",
     "perfil": [
-        "Aeração",
-        "Drenagem",
-        "Proporções a validar"
+        "Raízes epífitas",
+        "Boa aeração",
+        "Drenagem livre",
+        "Secagem entre regas"
     ],
     "itens": [
         {
             "asset": "macadamia",
             "nome": "Casca de macadâmia",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         },
         {
             "asset": "casca-pinus",
             "nome": "Casca de pinus",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         },
         {
             "asset": "perlita",
             "nome": "Perlita grossa",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         },
         {
             "asset": "carvao-vegetal",
             "nome": "Carvão vegetal",
-            "nota": "Proporção a validar",
-            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+            "nota": "Componente da mistura original",
+            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
         }
     ],
-    "alerta": "Receita visual preliminar; consultar recomendações originais até validação das proporções."
+    "alerta": "As proporções não foram informadas na receita original e permanecem pendentes de validação."
 },
     "errosComuns": "Cultivar à sombra; excesso de nitrogênio; usar vaso grande; manter substrato compactado; enterrar o rizoma; acumular água na bainha floral; abrir ou cortar a espata sem necessidade; replantar fora da emissão de raízes; dividir touceiras pequenas; acreditar que adubo de floração substitui luz.",
     "dica": "A qualidade da florada depende mais de luz alta, maturação dos pseudobulbos e raízes saudáveis do que de adubação forte. Aclimate gradualmente ao ponto mais claro do orquidário, mantenha as bainhas secas e deixe o substrato quase secar. Isso produz cachos mais compactos, hastes firmes e pigmentação mais intensa.",
