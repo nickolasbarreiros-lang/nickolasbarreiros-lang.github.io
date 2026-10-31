@@ -13,7 +13,7 @@
       "percentuais": [],
       "soma_percentuais": 0,
       "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
     },
     {
       "arquivo": "dados/orquideas/cattleya-pumpkin-festival.js",
@@ -21,65 +21,70 @@
       "fotos_cadastradas": 4,
       "formas_cultivo": true,
       "substrato_visual": true,
-      "percentuais": [],
-      "soma_percentuais": 0,
+      "percentuais": [
+        45,
+        25,
+        20,
+        10
+      ],
+      "soma_percentuais": 100,
       "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
     },
     {
       "arquivo": "dados/orquideas/cattleya-schilleriana.js",
-      "especie": "cattleya-schilleriana.js",
-      "fotos_cadastradas": 0,
+      "especie": "Cattleya schilleriana",
+      "fotos_cadastradas": 4,
       "formas_cultivo": false,
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
       "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
     },
     {
       "arquivo": "dados/orquideas/cattleya-schilleriana-x-cruzeiro-do-sul.js",
-      "especie": "cattleya-schilleriana-x-cruzeiro-do-sul.js",
-      "fotos_cadastradas": 0,
+      "especie": "Cattleya schilleriana × Cruzeiro do Sul",
+      "fotos_cadastradas": 4,
       "formas_cultivo": false,
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
       "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
     },
     {
       "arquivo": "dados/orquideas/cattleya-violacea-f-flamea.js",
-      "especie": "cattleya-violacea-f-flamea.js",
-      "fotos_cadastradas": 0,
+      "especie": "Cattleya violacea f. flamea",
+      "fotos_cadastradas": 4,
       "formas_cultivo": false,
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
       "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
     },
     {
       "arquivo": "dados/orquideas/cattleya-violacea-f-suavissima-x-self.js",
-      "especie": "cattleya-violacea-f-suavissima-x-self.js",
-      "fotos_cadastradas": 0,
+      "especie": "Cattleya violacea f. suavissima × self",
+      "fotos_cadastradas": 4,
       "formas_cultivo": false,
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
       "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
     },
     {
       "arquivo": "dados/orquideas/cattleya-walkeriana.js",
-      "especie": "cattleya-walkeriana.js",
-      "fotos_cadastradas": 0,
+      "especie": "Cattleya walkeriana",
+      "fotos_cadastradas": 4,
       "formas_cultivo": false,
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
       "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
     },
     {
       "arquivo": "dados/orquideas/cattleya-walkeriana-f-alba-gnomus-x-f-alba-suprema.js",
@@ -90,18 +95,18 @@
       "percentuais": [],
       "soma_percentuais": 0,
       "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
     },
     {
       "arquivo": "dados/orquideas/cattleya-warneri.js",
-      "especie": "cattleya-warneri.js",
-      "fotos_cadastradas": 0,
+      "especie": "Cattleya warneri",
+      "fotos_cadastradas": 4,
       "formas_cultivo": false,
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
       "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
     },
     {
       "arquivo": "dados/orquideas/epicattleya-rene-marques.js",
@@ -112,7 +117,7 @@
       "percentuais": [],
       "soma_percentuais": 0,
       "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "Sem pontuação MACS homologada; preservar conteúdo V4.9 até pesquisa específica."
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
     }
   ]
 }
