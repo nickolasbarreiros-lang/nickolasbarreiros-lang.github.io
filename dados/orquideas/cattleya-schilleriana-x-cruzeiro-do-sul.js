@@ -229,7 +229,7 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
     }
     macs1_0: {
         "versao": "MACS 1.0",
-        "status": "parecer_tecnico_sem_homologacao_visual",
+        "status": "implementado_com_assets_verificados_homologacao_visual_externa_pendente",
         "pesos": [
             25,
             25,
@@ -284,18 +284,6 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
                 "pontuacao": 84
             },
             {
-                "suporte": "vaso-plastico",
-                "notas": [
-                    4,
-                    4,
-                    3,
-                    4,
-                    3,
-                    4
-                ],
-                "pontuacao": 74
-            },
-            {
                 "suporte": "placa-tronco",
                 "notas": [
                     4,
@@ -306,6 +294,18 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
                     4
                 ],
                 "pontuacao": 75
+            },
+            {
+                "suporte": "vaso-plastico",
+                "notas": [
+                    4,
+                    4,
+                    3,
+                    4,
+                    3,
+                    4
+                ],
+                "pontuacao": 74
             },
             {
                 "suporte": "arvore-viva",
@@ -358,6 +358,6 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
             "https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-schilleriana-rchb-f",
             "https://www.orquidariopaulista.com.br/produtos/cattleya-schilleriana-v-tipo/"
         ],
-        "observacao": "Orquidário Wolf identifica cruzamento como Cattleya Memoria Rita Franke; confirmar registro antes de alterar nome."
+        "observacao": "Orquidário Wolf identifica cruzamento como Cattleya Memoria Rita Franke; confirmar registro antes de alterar nome. As notas foram recalculadas e ordenadas pela ponderação MACS, sem ajuste artificial."
     }
 };
