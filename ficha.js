@@ -606,7 +606,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                         ${itensValidos.filter((item) => item.finalidade).length === 5 ? `
                             <div class="complemento-cinco-substratos-v4">
                                 ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
-                                <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres e use brita ou pedaços de isopor no fundo para melhorar a drenagem e a aeração das raízes.</div>
+                                <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres, evite compactar o substrato e não enterre o rizoma. Ajuste a rega à secagem real da mistura.</div>
                             </div>
                         ` : ""}
                     </div>
@@ -635,7 +635,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
 
             ${itensValidos.filter((item) => item.finalidade).length !== 5 ? `
                 ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
-                <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres e use brita ou pedaços de isopor no fundo para melhorar a drenagem e a aeração das raízes.</div>
+                <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres, evite compactar o substrato e não enterre o rizoma. Ajuste a rega à secagem real da mistura.</div>
             ` : ""}
 
             ${misturasRecomendadas.length ? `
