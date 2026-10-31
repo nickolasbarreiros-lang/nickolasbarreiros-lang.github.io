@@ -365,5 +365,21 @@
       "tipo": "pesquisa_nao_produtor",
       "conta_como_novo_produtor": false
     }
-  ]
+  ],
+  "revisao_documental_lote_5_2026_10_30": {
+    "status": "revisao_parcial_sem_validacao_macs",
+    "fonte": {
+      "url": "https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet",
+      "escopo": "genero",
+      "conclusao": "Bulbophyllum: raízes e rizomas superficiais, manter meio levemente úmido sem saturação; cestos/placas exigem regas mais frequentes.",
+      "conta_para_25_produtores_brasileiros": false
+    },
+    "integridade": {
+      "metodologia_macs_preservada": true,
+      "estrelas_nao_recalculadas": true,
+      "substrato_permanece_hipotese": true,
+      "exige_25_produtores_brasileiros": true
+    },
+    "pendencia": "Pesquisa de produtores brasileiros específicos e verificação experimental de métodos e proporções não concluídas."
+  }
 }
