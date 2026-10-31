@@ -312,5 +312,21 @@
       "tipo": "produtor_brasileiro_ja_contabilizado_como_generico",
       "conta_como_produtor_especifico_da_variedade": false
     }
-  ]
+  ],
+  "revisao_documental_lote_5_2026_10_30": {
+    "status": "revisao_parcial_sem_validacao_macs",
+    "fonte": {
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:953053-1",
+      "escopo": "taxonomia_botanica",
+      "conclusao": "POWO aceita B. saltatorium var. albociliatum e lista B. miniatum como sinônimo; recomendações para B. saltatorium sem variedade identificada não são validação varietal.",
+      "conta_para_25_produtores_brasileiros": false
+    },
+    "integridade": {
+      "metodologia_macs_preservada": true,
+      "estrelas_nao_recalculadas": true,
+      "substrato_permanece_hipotese": true,
+      "exige_25_produtores_brasileiros": true
+    },
+    "pendencia": "Pesquisa de produtores brasileiros específicos e verificação experimental de métodos e proporções não concluídas."
+  }
 }
