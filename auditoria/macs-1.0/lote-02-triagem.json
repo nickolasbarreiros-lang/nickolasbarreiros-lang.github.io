@@ -644,8 +644,22 @@
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
-      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
+      "status_macs": "implementado_com_cultivo_visual_e_substrato_visual_validacao_runtime_pendente",
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS.",
+      "parecer_final": "MACS com sete suportes e pesos registrado; 4 formas visuais e mistura 40/25/20/15 implementadas na ficha, preservando quatro fotos e IDC/IAR.",
+      "integridade": {
+        "fotos_cadastradas": 4,
+        "formas_cultivo": true,
+        "substrato_visual": true,
+        "percentuais_somam_100": true,
+        "macs_sete_suportes": true,
+        "renderizacao_publica_verificada": false
+      },
+      "pendencias": [
+        "Verificação da interface publicada e imagens efetivamente carregadas",
+        "Confirmar identidade horticultural Memoria Rita Franke e parentais",
+        "Pesquisa mais ampla de produtores e revisão técnica externa"
+      ]
     },
     {
       "arquivo": "dados/orquideas/cattleya-violacea-f-flamea.js",
