@@ -37,79 +37,80 @@ export const blcChiaLin = {
     suporte: "🥇 Vaso de barro, excelente para o clima quente de Litoral de clima quente.\n🥈 Cachepô de madeira para plantas com várias frentes e raízes vigorosas.\n🥉 Vaso plástico muito perfurado ou cesto de madeira/plástico para exemplares grandes.",
     substrato: "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + perlita grossa + carvão vegetal.\n🥈 Casca de pinus grossa + carvão vegetal + brita fina, com quase nenhuma fração fina.\n🥉 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.\n⭐ Alternativa: Cachepô/cesto com pinus grosso + macadâmia grossa + perlita grossa, deixando grandes espaços de ar.",
     formasCultivo: {
-            "perfilVisual": "epifita",
-            "destaque": "Vaso de barro",
-            "resumo": "Montagens organizadas a partir das recomendações já registradas nesta ficha; classificações visuais provisórias, sem validação MACS.",
-            "metodos": [
-                    {
-                            "nome": "Vaso de barro",
-                            "asset": "vaso-barro",
-                            "estrelas": 5,
-                            "status": "Ideal",
-                            "texto": "Vaso de barro, excelente para o clima quente de Litoral de clima quente."
-                    },
-                    {
-                            "nome": "Cachepô de madeira para plantas com várias frentes e raízes vi",
-                            "asset": "cesto-madeira",
-                            "estrelas": 4,
-                            "status": "Muito recomendado",
-                            "texto": "Cachepô de madeira para plantas com várias frentes e raízes vigorosas."
-                    },
-                    {
-                            "nome": "Vaso plástico muito perfurado ou cesto de madeira/plástico par",
-                            "asset": "cesto-madeira",
-                            "estrelas": 3,
-                            "status": "Adequado",
-                            "texto": "Vaso plástico muito perfurado ou cesto de madeira/plástico para exemplares grandes."
-                    },
-                    {
-                            "nome": "Vaso plástico vasado",
-                            "asset": "vaso-plastico-vasado",
-                            "estrelas": 2,
-                            "status": "Alternativa",
-                            "texto": "Opção de montagem a avaliar conforme ventilação, retenção de água e condições locais."
-                    }
-            ]
-    },
+    "perfilVisual": "cattleya",
+    "destaque": "Vaso de barro",
+    "resumo": "O suporte deve equilibrar ventilação radicular, estabilidade e secagem entre regas, sem compactar o substrato.",
+    "metodos": [
+        {
+            "nome": "Vaso de barro",
+            "asset": "vaso-barro",
+            "estrelas": null,
+            "status": "Mais indicada na ficha",
+            "texto": "A terracota oferece estabilidade e favorece a evaporação lateral. Utilize recipiente proporcional, mistura aberta e furos de drenagem livres."
+        },
+        {
+            "nome": "Cachepô de madeira",
+            "asset": "cesto-madeira",
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "As frestas permitem ventilação lateral e rápida drenagem, úteis para raízes epífitas. A secagem mais rápida exige acompanhamento das regas."
+        },
+        {
+            "nome": "Vaso plástico vasado",
+            "asset": "vaso-plastico-vasado",
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "Os furos ampliam a circulação de ar e reduzem a saturação da mistura; monitore a secagem e não enterre o rizoma."
+        },
+        {
+            "nome": "Placa / tronco",
+            "asset": "placa-tronco",
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "Mantém raízes expostas e muito ventiladas, mas demanda umidade ambiental suficiente e molhamentos mais frequentes, especialmente no calor."
+        }
+    ]
+},
     substratoVisual: {
-            "titulo": "Substrato ideal",
-            "contexto": "Composição ilustrativa — proporções a validar",
-            "resumo": "Componentes extraídos da mistura já recomendada na ficha. Nenhuma porcentagem foi inventada.",
-            "justificativa": "A apresentação visual conserva os ingredientes já indicados. Proporções, comportamento e comparação científica permanecem pendentes de validação.",
-            "receitaTexto": "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + perlita grossa + carvão vegetal.",
-            "perfil": [
-                    "Composição original preservada",
-                    "Proporções pendentes",
-                    "Boa drenagem"
-            ],
-            "itens": [
-                    {
-                            "asset": "casca-pinus",
-                            "nome": "Casca de pinus",
-                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
-                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
-                    },
-                    {
-                            "asset": "macadamia",
-                            "nome": "Casca de macadâmia",
-                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
-                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
-                    },
-                    {
-                            "asset": "perlita",
-                            "nome": "Perlita grossa",
-                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
-                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
-                    },
-                    {
-                            "asset": "carvao-vegetal",
-                            "nome": "Carvão vegetal",
-                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
-                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
-                    }
-            ],
-            "alerta": "As proporções não foram determinadas nesta migração de layout; manter a orientação textual original até revisão técnica."
-    },
+    "titulo": "Substrato ideal",
+    "contexto": "Mistura em vaso — proporções não definidas",
+    "resumo": "Mistura aberta com os componentes indicados na recomendação original.",
+    "justificativa": "As raízes epífitas necessitam de oxigênio e drenagem; o tamanho dos componentes e a rega devem ser ajustados ao recipiente.",
+    "receitaTexto": "\udd47 Casca de macadâmia triturada grossa + casca de pinus grossa + perlita grossa + carvão vegetal.",
+    "perfil": [
+        "Raízes epífitas",
+        "Boa aeração",
+        "Drenagem livre",
+        "Secagem entre regas"
+    ],
+    "itens": [
+        {
+            "asset": "macadamia",
+            "nome": "Casca de macadâmia",
+            "nota": "Componente da receita original",
+            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+        },
+        {
+            "asset": "casca-pinus",
+            "nome": "Casca de pinus",
+            "nota": "Componente da receita original",
+            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+        },
+        {
+            "asset": "perlita",
+            "nome": "Perlita grossa",
+            "nota": "Componente da receita original",
+            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+        },
+        {
+            "asset": "carvao-vegetal",
+            "nome": "Carvão vegetal",
+            "nota": "Componente da receita original",
+            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+        }
+    ],
+    "alerta": "Percentuais não documentados na ficha original; não foram atribuídos valores arbitrários."
+},
     errosComuns: "Cultivar com pouca luz; usar vaso grande demais; manter substrato velho, ácido ou constantemente molhado; regar por calendário sem observar a secagem; usar adubo concentrado ou grandes doses de fósforo para tentar forçar floração; replantar fora do início do enraizamento; molhar repetidamente brotos novos no fim do dia; deixar água acumulada na espata; dividir plantas pequenas.",
     dica: "Observe o pseudobulbo, não apenas o calendário. Durante brotação e enraizamento, forneça água, adubação leve e luz suficiente para que o novo crescimento atinja seu tamanho máximo. Quando a folha estiver firme e o pseudobulbo maduro, reduza naturalmente a adubação e mantenha boa luminosidade. Um pseudobulbo robusto sustentado por raízes saudáveis tem muito mais chance de preencher a espata e produzir flores grandes.",
     revisaoCientificaIAR: {
