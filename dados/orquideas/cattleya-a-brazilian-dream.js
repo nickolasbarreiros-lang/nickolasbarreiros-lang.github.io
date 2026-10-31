@@ -74,43 +74,69 @@ export const cattleyaABrazilianDream = {
 },
     substratoVisual: {
     "titulo": "Substrato ideal",
-    "contexto": "Mistura em vaso — proporções não definidas",
-    "resumo": "Mistura aberta com os componentes indicados na recomendação original.",
-    "justificativa": "As raízes epífitas necessitam de oxigênio e drenagem; o tamanho dos componentes e a rega devem ser ajustados ao recipiente.",
-    "receitaTexto": "\udd47 Casca de macadâmia triturada grossa + casca de pinus grossa + perlita grossa + carvão vegetal.",
+    "contexto": "Receita técnica sugerida para cultivo em vaso",
+    "resumo": "Mistura de partículas abertas para boa aeração e drenagem, com proporções iniciais ajustáveis ao microclima.",
+    "justificativa": "As raízes epífitas precisam alternar molhamento e secagem. A mistura combina suporte orgânico, porosidade e drenagem sem reter água por tempo excessivo.",
+    "receitaTexto": "Proposta técnica inicial: 35% casca de macadâmia + 30% casca de pinus + 20% perlita grossa + 15% carvão vegetal. Percentuais propostos para teste de cultivo, não publicados como fórmula experimental para esta espécie.",
     "perfil": [
         "Raízes epífitas",
-        "Boa aeração",
-        "Drenagem livre",
-        "Secagem entre regas"
+        "Aeração alta",
+        "Secagem entre regas",
+        "Drenagem rápida"
     ],
     "itens": [
         {
             "asset": "macadamia",
             "nome": "Casca de macadâmia",
-            "nota": "Componente da receita original",
-            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+            "proporcao": "35%",
+            "nota": "estrutura",
+            "finalidade": "Cria partículas estruturais e espaços de ar; use granulometria grossa ou média conforme o porte."
         },
         {
             "asset": "casca-pinus",
             "nome": "Casca de pinus",
-            "nota": "Componente da receita original",
-            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+            "proporcao": "30%",
+            "nota": "base orgânica",
+            "finalidade": "Forma a base orgânica e retém umidade moderada sem bloquear os espaços entre partículas."
         },
         {
             "asset": "perlita",
             "nome": "Perlita grossa",
-            "nota": "Componente da receita original",
-            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+            "proporcao": "20%",
+            "nota": "aeração",
+            "finalidade": "Aumenta a porosidade e reduz a compactação, favorecendo a oxigenação das raízes."
         },
         {
             "asset": "carvao-vegetal",
             "nome": "Carvão vegetal",
-            "nota": "Componente da receita original",
-            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+            "proporcao": "15%",
+            "nota": "drenagem",
+            "finalidade": "Contribui para uma mistura aberta e de drenagem rápida; não substitui a renovação periódica."
         }
     ],
-    "alerta": "Percentuais não documentados na ficha original; não foram atribuídos valores arbitrários."
+    "alerta": "Percentuais são uma proposta técnica inicial, não uma fórmula específica validada experimentalmente; ajuste ao clima, recipiente e ritmo de secagem.",
+    "comportamento": [
+        {
+            "nome": "Retenção",
+            "valor": 2,
+            "icone": "💧"
+        },
+        {
+            "nome": "Aeração",
+            "valor": 5,
+            "icone": "💨"
+        },
+        {
+            "nome": "Secagem",
+            "valor": 4,
+            "icone": "⚡"
+        },
+        {
+            "nome": "Compactação",
+            "valor": 1,
+            "icone": "🧱"
+        }
+    ]
 },
     errosComuns: "• Enterrar rizoma e gemas de brotação.\n• Usar vaso superdimensionado.\n• Substrato fino ou compactado.\n• Manter raízes continuamente molhadas.\n• Copiar um repouso rígido de C. nobilior em clone ainda ativo.\n• Cultivar em sombra excessiva.\n• Dividir plantas pequenas sem necessidade.\n• Tratar características de um clone como regra do grex.",
     dica: "🏆 Cultive a planta que você tem, não uma média teórica dos pais. Comece com manejo intermediário: raízes muito aeradas, bastante luz filtrada e regas fortes no crescimento. Depois observe o clone. Se as raízes seguem ativas após a maturação, mantenha alguma água; se a atividade cai e o meio demora a secar, aumente os intervalos. Essa leitura individual é mais segura que tentar reproduzir integralmente o regime de C. nobilior ou de C. loddigesii.",
