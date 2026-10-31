@@ -36,6 +36,80 @@ export const cattleyaLueddemannianaTipo = {
     rega: "Durante o crescimento ativo, regue abundantemente e deixe o sistema radicular secar de forma significativa antes da próxima irrigação. Após a maturação do pseudobulbo, aumente gradualmente o intervalo entre as regas, mantendo a planta mais seca sem provocar desidratação excessiva. Em Litoral de clima quente, a frequência deve acompanhar o suporte, a temperatura e a velocidade real de secagem.",
     suporte: "🥇 Cachepô de madeira, excelente para secagem rápida e raízes arejadas.\n🥈 Vaso de barro, que ajuda a dissipar umidade e calor pelas paredes.\n🥉 Vaso plástico muito perfurado, sempre com substrato grosseiro e excelente drenagem.",
     substrato: "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.\n🥉 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n⭐ Alternativa: Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+    formasCultivo: {
+    "perfilVisual": "cattleya",
+    "destaque": "Cachepô de madeira",
+    "resumo": "Alternativas derivadas das recomendações existentes. Estrelas visuais provisórias; MACS ainda não validado.",
+    "metodos": [
+        {
+            "nome": "Cachepô de madeira",
+            "asset": "cesto-madeira",
+            "estrelas": 5,
+            "status": "Ideal",
+            "texto": "Cachepô de madeira, excelente para secagem rápida e raízes arejadas."
+        },
+        {
+            "nome": "Vaso de barro",
+            "asset": "vaso-barro",
+            "estrelas": 4,
+            "status": "Muito recomendado",
+            "texto": "Vaso de barro, que ajuda a dissipar umidade e calor pelas paredes."
+        },
+        {
+            "nome": "Vaso plástico vasado",
+            "asset": "vaso-plastico-vasado",
+            "estrelas": 3,
+            "status": "Adequado",
+            "texto": "Vaso plástico muito perfurado, sempre com substrato grosseiro e excelente drenagem."
+        },
+        {
+            "nome": "Cachepô de madeira",
+            "asset": "cesto-madeira",
+            "estrelas": 2,
+            "status": "Alternativa",
+            "texto": "Possibilidade de montagem sujeita à avaliação de ventilação e manejo."
+        }
+    ]
+},
+    substratoVisual: {
+    "titulo": "Substrato ideal",
+    "contexto": "Receita visual provisória",
+    "resumo": "Ingredientes da receita existente, sem atribuição de porcentagens não verificadas.",
+    "justificativa": "A composição mantém os materiais anteriormente recomendados. A definição quantitativa e a validação técnica ficam para a revisão específica.",
+    "receitaTexto": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.",
+    "perfil": [
+        "Aeração",
+        "Drenagem",
+        "Proporções a validar"
+    ],
+    "itens": [
+        {
+            "asset": "macadamia",
+            "nome": "Casca de macadâmia",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        },
+        {
+            "asset": "casca-pinus",
+            "nome": "Casca de pinus",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        },
+        {
+            "asset": "perlita",
+            "nome": "Perlita grossa",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        },
+        {
+            "asset": "carvao-vegetal",
+            "nome": "Carvão vegetal",
+            "nota": "Proporção a validar",
+            "finalidade": "Material da recomendação original; quantidade ainda não validada."
+        }
+    ],
+    "alerta": "Receita visual preliminar; consultar recomendações originais até validação das proporções."
+},
     errosComuns: "Cortar espata seca sem verificar se há botões; deixar água acumulada dentro de espata fechada; manter substrato constantemente molhado; cultivar com pouca luz; usar vaso excessivamente grande; enterrar o rizoma; confundir repouso com seca absoluta; replantar fora da emissão de novas raízes; adubar em excesso.",
     dica: "Nunca descarte uma espata apenas porque ficou amarela, marrom ou aparentemente seca. Ela pode proteger botões que ainda estão se desenvolvendo. Evite água parada dentro da bainha, especialmente em noites quentes. Depois da floração, observe a base do novo crescimento: quando começarem a despontar raízes novas, chegou a melhor janela para replantar.",
     revisaoCientificaIAR: {
