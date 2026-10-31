@@ -40,79 +40,80 @@ export const camaridiumCarinatum = {
     suporte: "🥇 Cesto ou cachepô largo e raso, acompanhando a expansão horizontal do rizoma.\n🥈 Vaso tipo bacia, de barro ou plástico, com muitos furos.\n🥉 Placa robusta de cortiça ou madeira, apenas onde a umidade permita regas frequentes.",
     substrato: "🥇 Casca de pinus média + casca de macadâmia triturada + perlita grossa + fibra de coco grossa.\n🥈 Fibra de coco grossa + chips de coco + perlita grossa + pinus médio, sem compactação.\n🥉 Chips de coco + pinus médio + perlita + carvão vegetal miúdo.\n⭐ Alternativa: Pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia.",
     formasCultivo: {
-            "perfilVisual": "epifita",
-            "destaque": "Cesto ou cachepô largo e raso",
-            "resumo": "Montagens organizadas a partir das recomendações já registradas nesta ficha; classificações visuais provisórias, sem validação MACS.",
-            "metodos": [
-                    {
-                            "nome": "Cesto ou cachepô largo e raso",
-                            "asset": "cesto-madeira",
-                            "estrelas": 5,
-                            "status": "Ideal",
-                            "texto": "Cesto ou cachepô largo e raso, acompanhando a expansão horizontal do rizoma."
-                    },
-                    {
-                            "nome": "Vaso tipo bacia",
-                            "asset": "vaso-barro",
-                            "estrelas": 4,
-                            "status": "Muito recomendado",
-                            "texto": "Vaso tipo bacia, de barro ou plástico, com muitos furos."
-                    },
-                    {
-                            "nome": "Placa robusta de cortiça ou madeira",
-                            "asset": "cesto-madeira",
-                            "estrelas": 3,
-                            "status": "Adequado",
-                            "texto": "Placa robusta de cortiça ou madeira, apenas onde a umidade permita regas frequentes."
-                    },
-                    {
-                            "nome": "Vaso plástico vasado",
-                            "asset": "vaso-plastico-vasado",
-                            "estrelas": 2,
-                            "status": "Alternativa",
-                            "texto": "Opção de montagem a avaliar conforme ventilação, retenção de água e condições locais."
-                    }
-            ]
-    },
+    "perfilVisual": "cattleya",
+    "destaque": "Cachepô de madeira",
+    "resumo": "O crescimento lateral pede recipiente largo e raso, com boa drenagem e espaço para novos brotos.",
+    "metodos": [
+        {
+            "nome": "Cachepô de madeira",
+            "asset": "cesto-madeira",
+            "estrelas": null,
+            "status": "Mais indicada na ficha",
+            "texto": "A estrutura aberta acomoda o avanço do rizoma, sem concentrar umidade excessiva junto à base da planta."
+        },
+        {
+            "nome": "Vaso de barro",
+            "asset": "vaso-barro",
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "A terracota oferece estabilidade e favorece a evaporação lateral. Utilize recipiente proporcional, mistura aberta e furos de drenagem livres."
+        },
+        {
+            "nome": "Placa / tronco",
+            "asset": "placa-tronco",
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "Mantém raízes expostas e muito ventiladas, mas demanda umidade ambiental suficiente e molhamentos mais frequentes, especialmente no calor."
+        },
+        {
+            "nome": "Vaso plástico vasado",
+            "asset": "vaso-plastico-vasado",
+            "estrelas": null,
+            "status": "Alternativa",
+            "texto": "Os furos ampliam a circulação de ar e reduzem a saturação da mistura; monitore a secagem e não enterre o rizoma."
+        }
+    ]
+},
     substratoVisual: {
-            "titulo": "Substrato ideal",
-            "contexto": "Composição ilustrativa — proporções a validar",
-            "resumo": "Componentes extraídos da mistura já recomendada na ficha. Nenhuma porcentagem foi inventada.",
-            "justificativa": "A apresentação visual conserva os ingredientes já indicados. Proporções, comportamento e comparação científica permanecem pendentes de validação.",
-            "receitaTexto": "🥇 Casca de pinus média + casca de macadâmia triturada + perlita grossa + fibra de coco grossa.",
-            "perfil": [
-                    "Composição original preservada",
-                    "Proporções pendentes",
-                    "Boa drenagem"
-            ],
-            "itens": [
-                    {
-                            "asset": "casca-pinus",
-                            "nome": "Casca de pinus",
-                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
-                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
-                    },
-                    {
-                            "asset": "macadamia",
-                            "nome": "Casca de macadâmia",
-                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
-                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
-                    },
-                    {
-                            "asset": "perlita",
-                            "nome": "Perlita grossa",
-                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
-                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
-                    },
-                    {
-                            "asset": "chips-coco",
-                            "nome": "Chips de coco",
-                            "nota": "Componente citado na recomendação existente; proporção ainda não validada.",
-                            "finalidade": "Contribui para a estrutura física da mistura; ajuste quantitativo sujeito à revisão horticultural."
-                    }
-            ],
-            "alerta": "As proporções não foram determinadas nesta migração de layout; manter a orientação textual original até revisão técnica."
-    },
+    "titulo": "Substrato ideal",
+    "contexto": "Mistura em vaso — proporções não definidas",
+    "resumo": "Mistura aberta com os componentes indicados na recomendação original.",
+    "justificativa": "As raízes epífitas necessitam de oxigênio e drenagem; o tamanho dos componentes e a rega devem ser ajustados ao recipiente.",
+    "receitaTexto": "\udd47 Casca de pinus média + casca de macadâmia triturada + perlita grossa + fibra de coco grossa.",
+    "perfil": [
+        "Raízes epífitas",
+        "Boa aeração",
+        "Drenagem livre",
+        "Secagem entre regas"
+    ],
+    "itens": [
+        {
+            "asset": "macadamia",
+            "nome": "Casca de macadâmia",
+            "nota": "Componente da receita original",
+            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+        },
+        {
+            "asset": "casca-pinus",
+            "nome": "Casca de pinus",
+            "nota": "Componente da receita original",
+            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+        },
+        {
+            "asset": "perlita",
+            "nome": "Perlita grossa",
+            "nota": "Componente da receita original",
+            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+        },
+        {
+            "asset": "fibra-coco",
+            "nome": "Fibra de coco",
+            "nota": "Componente da receita original",
+            "finalidade": "Material presente na mistura já recomendada; a proporção depende de revisão específica."
+        }
+    ],
+    "alerta": "Percentuais não documentados na ficha original; não foram atribuídos valores arbitrários."
+},
     errosComuns: "• Usar vaso estreito ou profundo.\n• Direcionar a frente de crescimento contra a borda.\n• Enterrar rizoma ou base dos pseudobulbos.\n• Deixar água parada nas bainhas dos brotos.\n• Substrato continuamente saturado.\n• Impor seca severa.\n• Cultivar em sombra excessiva.\n• Aplicar adubo concentrado ou liberação lenta encostada nas brotações.",
     dica: "🏆 No replantio, coloque os pseudobulbos mais antigos próximos a uma borda e direcione a frente ativa para a maior área livre. O recipiente deve ser largo e raso, porque o rizoma avança horizontalmente. A base dos pseudobulbos precisa permanecer descoberta: além de reduzir podridão, isso não bloqueia as inflorescências basais.",
     revisaoCientificaIAR: {
