@@ -12,7 +12,7 @@
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
-      "status_macs": "pesquisa_especifica_documentada_parecer_parcial",
+      "status_macs": "pesquisa_especifica_ampliada_pontuacao_pendente",
       "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS.",
       "fontes": [
         {
@@ -50,23 +50,36 @@
           "url": "https://www.orquidariotradicao.com.br/cattleya-nobilior-var-amaliae",
           "tipo": "produtor_brasileiro_catalogo",
           "achado": "Comercializa a variedade, sem indicação específica de suporte/substrato na página."
+        },
+        {
+          "nome": "Flora do Brasil 2020",
+          "url": "https://monografiasfloradobrasil.jbrj.gov.br/cattleya.pdf",
+          "tipo": "taxonomia",
+          "achado": "Variedade epífita também encontrada em floresta ciliar/galeria."
+        },
+        {
+          "nome": "Orquidário Durval Ferreira",
+          "url": "https://www.orquidariodurvalferreira.com.br/cattleya-nobilior-amaliae-amestista-02-adulta",
+          "tipo": "produtor",
+          "achado": "Para amaliae adulta, recomenda troncos e placas de secagem rápida."
         }
       ],
       "produtores_brasileiros": {
-        "consultados": 3,
+        "consultados": 4,
         "meta_flexivel": 25,
         "nomes": [
           "Odara Orchids",
           "Orquidário Mantovani",
-          "Orquidário Tradição"
+          "Orquidário Tradição",
+          "Orquidário Durval Ferreira"
         ],
-        "com_recomendacao_especifica": 1,
+        "com_recomendacao_especifica": 2,
         "com_orientacao_generica": 1,
         "apenas_catalogo": 1,
         "nota": "Contagem distingue páginas comerciais sem recomendações de manejo; não equivale a 3 evidências de substrato."
       },
       "perfil_radicular_hidrico": {
-        "exposicao_natural": "Epífita em árvores de floresta decídua",
+        "exposicao_natural": "Epífita também em floresta ciliar/galeria; evitar generalizar habitat exclusivamente seco.",
         "reservas": "Pseudobulbos",
         "sazonalidade": "Habitat com estação seca prolongada",
         "agua": "Reforçar durante crescimento, reduzir conforme atividade e secagem, sem impor calendário rígido",
