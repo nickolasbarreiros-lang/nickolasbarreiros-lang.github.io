@@ -24,7 +24,7 @@ export const cattleyaViolaceaFFlamea = {
     "descricao": "Uma Cattleya amazônica de cores vibrantes e presença marcante! A forma flamea de Cattleya violacea chama atenção pelo contraste das pétalas, que ficam mais intensamente coloridas nas pontas, criando um efeito semelhante a pequenas chamas. Suas flores são grandes, cerosas, perfumadas e podem chegar perto de 13 cm. Na natureza, a espécie vive principalmente em florestas tropicais quentes e úmidas, muitas vezes próxima a rios, em altitudes geralmente baixas. Por isso, aprecia calor, boa umidade e ventilação constante, sem um repouso seco rigoroso. No litoral quente, encontra condições favoráveis desde que as raízes recebam bastante ar e nunca permaneçam abafadas ou encharcadas.",
     "origem": "América do Sul tropical",
     "regiao": "Amazônia e norte da América do Sul",
-    "habitat": "Florestas úmidas próximas a rios · ~200–700 m.",
+    "habitat": "Florestas tropicais úmidas próximas a rios e lagos · do nível do mar a cerca de 450 m.",
     "clima": "Quente e úmido · noites quentes.",
     "climaFloracao": "A floração depende de crescimento contínuo, raízes ativas, noites quentes, umidade atmosférica estável e pseudobulbos plenamente maduros. Não é necessário induzir por frio ou seca severa. Ao contrário, noites frias e desidratação prolongada paralisam raízes e brotos. Uma leve redução de água pode ocorrer apenas quando a evaporação diminui, sem permitir que o sistema radicular seque por vários dias. Em regiões quentes, a ventilação evita que a combinação de calor e umidade resulte em podridão.",
     "iluminacao": {
@@ -33,7 +33,7 @@ export const cattleyaViolaceaFFlamea = {
         "horario": "Somente início da manhã",
         "observacoes": "Forneça luz brilhante, uniforme e filtrada. Folhas firmes e verde-médio indicam bom equilíbrio. Sombra excessiva produz pseudobulbos finos; sol forte causa superaquecimento e queimaduras."
     },
-    "floracao": "Floresce principalmente da primavera ao verão, entre outubro e março, e pode produzir flores fora dessa janela quando mantida em crescimento contínuo. A inflorescência surge no ápice do pseudobulbo maduro e sustenta flores violeta-púrpura com padrão flamea nas pétalas e labelo magenta intenso. A duração das flores melhora quando são protegidas de chuva direta, sol forte e calor excessivo.",
+    "floracao": "A época de floração varia conforme o microclima e a procedência; em cultivo brasileiro documentado há floração principal na primavera, mas também podem ocorrer florações em outros meses. A inflorescência surge no ápice do pseudobulbo maduro e sustenta flores violeta-púrpura com padrão flamea nas pétalas e labelo magenta intenso. A duração das flores melhora quando são protegidas de chuva direta, sol forte e calor excessivo.",
     "adubacao": "🌿 Orgânica: bokashi em quantidade pequena e somente enquanto houver crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose, semanalmente ou a cada 15 dias.\n🌱 Crescimento contínuo: não suspenda completamente a nutrição se a planta continuar emitindo raízes e brotos.\n🧪 Liberação lenta: Osmocote em dose baixa, apenas em cestos ou vasos muito drenantes.\n🚿 Flushing: lave mensalmente com água pura para evitar salinização.\nEvite adubar durante calor extremo ou sobre raízes secas.",
     "rega": "Regue regularmente durante todo o ano, molhando bem e permitindo leve secagem superficial antes da próxima aplicação. Em cestos, a frequência pode ser alta; em vasos, verifique o interior antes de repetir. Não deixe a planta completamente seca por vários dias e não mantenha o substrato saturado. Regue pela manhã, evite água parada no rizoma e garanta que folhas e brotos sequem antes da noite.",
     "suporte": "🥇 Cestinho de madeira aberto: permite irrigação frequente com máxima aeração.\n🥈 Vaso de barro muito perfurado: mantém estabilidade e boa troca gasosa.\n🥉 Placa de madeira ou tronco: indicada apenas quando a umidade do ar permanece alta e existe rotina de rega frequente.\nUse suporte dimensionado para alguns anos, pois a espécie não aprecia perturbações repetidas.",
@@ -71,7 +71,7 @@ export const cattleyaViolaceaFFlamea = {
         "statusTaxonomico": "Cattleya violacea é espécie aceita; flamea é designação horticultural de padrão de cor, sem presumir categoria taxonômica formal aceita.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
         "morfologiaDimensoes": "Uma Cattleya amazônica de cores vibrantes e presença marcante! A forma flamea de Cattleya violacea chama atenção pelo contraste das pétalas, que ficam mais intensamente coloridas nas pontas, criando um efeito semelhante a pequenas chamas. Suas flores são grandes, cerosas, perfumadas e podem chegar perto de 13 cm. Na natureza, a espécie vive principalmente em florestas tropicais",
-        "habitatAltitudeClima": "Florestas úmidas próximas a rios · ~200–700 m. | Quente e úmido · noites quentes.",
+        "habitatAltitudeClima": "Florestas tropicais úmidas próximas a rios e lagos · 0–450 m segundo revisão AOS. | Quente e úmido · noites quentes.",
         "distribuicaoGeografica": "Amazônia e norte da América do Sul.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
         "confianca": "moderada",
@@ -207,12 +207,16 @@ export const cattleyaViolaceaFFlamea = {
         "montanhaFrio": "Cultive em local protegido, preferencialmente aquecido. Evite temperaturas noturnas prolongadas abaixo de 15 °C e reduza a água apenas conforme a evaporação."
     },
     "mesesFloracao": [
+        9,
         10,
         11,
         12,
         1,
         2,
-        3
+        3,
+        4,
+        5,
+        6
     ],
     "selosCultivo": {
         "rega": { "nivel": "moderada" },
