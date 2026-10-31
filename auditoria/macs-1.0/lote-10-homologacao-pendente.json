@@ -1007,7 +1007,7 @@
     {
       "especie": "Cattleya aclandiae",
       "arquivo": "dados/orquideas/cattleya-aclandiae-tipo.js",
-      "status": "parecer_tecnico_concluido_sem_homologacao_experimental",
+      "status": "macs_1_0_parecer_tecnico_implementado",
       "metodologia": "MACS 1.0",
       "produtores_brasileiros": {
         "consultados": 6,
@@ -1084,6 +1084,12 @@
           "url": "https://periodicos.uem.br/ojs/index.php/ActaSciAgron/article/view/5299",
           "tipo": "ensaio_outra_especie_juvenil",
           "conclusao": "C. intermedia plântulas: coco e pinus+coco foram adequados na aclimatização; não extrapolar para aclandiae adulta."
+        },
+        {
+          "nome": "Pridgeon, Cantankerous Cattleyas on Cork (SAOS, janeiro 2024)",
+          "url": "https://staugorchidsociety.org/PDF/SAOSNewsletter202401.pdf",
+          "tipo": "artigo_horticultural_especie",
+          "conclusao": "C. aclandiae em casca de árvores rugosas, forte sazonalidade; cortiça favorece aderência, drenagem e menor acúmulo de sais."
         }
       ],
       "perfil_radicular_hidrico": {
@@ -1132,18 +1138,6 @@
         ],
         "pontuacoes": [
           {
-            "metodo": "placa-tronco",
-            "criterios": {
-              "raizes": 5,
-              "equilibrio_hidrico": 3,
-              "aeracao": 5,
-              "espaco": 5,
-              "calor": 3,
-              "evidencia": 5
-            },
-            "nota_100": null
-          },
-          {
             "metodo": "cesto-madeira",
             "criterios": {
               "raizes": 5,
@@ -1153,7 +1147,19 @@
               "calor": 4,
               "evidencia": 4
             },
-            "nota_100": null
+            "nota_100": 91
+          },
+          {
+            "metodo": "placa-tronco",
+            "criterios": {
+              "raizes": 5,
+              "equilibrio_hidrico": 3,
+              "aeracao": 5,
+              "espaco": 5,
+              "calor": 3,
+              "evidencia": 5
+            },
+            "nota_100": 86
           },
           {
             "metodo": "arvore-viva",
@@ -1165,7 +1171,7 @@
               "calor": 3,
               "evidencia": 3
             },
-            "nota_100": null
+            "nota_100": 82
           },
           {
             "metodo": "vaso-barro",
@@ -1177,7 +1183,7 @@
               "calor": 4,
               "evidencia": 3
             },
-            "nota_100": null
+            "nota_100": 78
           },
           {
             "metodo": "vaso-plastico-vasado",
@@ -1189,7 +1195,7 @@
               "calor": 4,
               "evidencia": 3
             },
-            "nota_100": null
+            "nota_100": 78
           },
           {
             "metodo": "vaso-plastico",
@@ -1201,7 +1207,7 @@
               "calor": 4,
               "evidencia": 2
             },
-            "nota_100": null
+            "nota_100": 65
           },
           {
             "metodo": "raizes-soltas",
@@ -1213,7 +1219,7 @@
               "calor": 2,
               "evidencia": 1
             },
-            "nota_100": null
+            "nota_100": 57
           }
         ],
         "risco_eliminatorio": "Placa/árvore sem possibilidade de regas em calor intenso pode desidratar; recipiente fechado com substrato fino pode sufocar raízes.",
@@ -1225,7 +1231,8 @@
           "calor": 10,
           "evidencia": 10
         },
-        "natureza": "Notas heurísticas 1–5 ponderadas, não ensaio; cesto pode superar placa sob calor pela estabilidade hídrica."
+        "natureza": "Notas heurísticas 1–5 ponderadas, não ensaio; cesto pode superar placa sob calor pela estabilidade hídrica.",
+        "verificacao": "Soma ponderada conferida: soma dos pesos 100; notas 1–5 convertidas para escala 0–100."
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
@@ -1241,17 +1248,16 @@
         }
       },
       "pendencias": [
-        "Inspeção visual da ficha antes de qualquer mudança",
-        "Evidência experimental específica de substrato, caso disponível"
+        "Validação experimental de percentuais da mistura não disponível; não confundir com homologação técnica"
       ],
       "fontes_cientificas_status": "levantamento_incompleto",
       "parecer_final": {
         "decisao": "Parecer MACS 1.0 concluído com recomendação horticultural condicional, sem homologação experimental de receita.",
-        "suporte": "Placa/tronco ou cesto de madeira; AOS recomenda placas/cestos rasos para C. aclandiae; cesto ganha em balanço hídrico na matriz heurística, placa é mais fiel ao hábito epífito.",
+        "suporte": "Placa/tronco ou cesto de madeira: pontuações heurísticas corrigidas, consultar matriz. Fontes de cultivo específicas favorecem placas de cortiça/madeira; o cesto pode melhorar estabilidade hídrica em calor.",
         "substrato": "Montagem principal sem substrato; para vaso, receita atual 45/30/25 é hipótese técnica, com alternativa pinus grosso + brita indicada por produtor brasileiro.",
         "limites": "Seis fontes de produtores, meta 25 não alcançada; nenhum ensaio de percentuais da espécie; estudo de C. intermedia não prova manejo de C. aclandiae."
       },
-      "etapa": "parecer_tecnico_finalizado"
+      "etapa": "matriz_corrigida_e_recomendacao_implementada"
     },
     {
       "especie": "Cattlianthe Chocolate Drop",
