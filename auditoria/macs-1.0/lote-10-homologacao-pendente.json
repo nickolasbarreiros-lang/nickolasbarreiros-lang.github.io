@@ -722,6 +722,24 @@
           "url": "https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet",
           "tipo": "guia_horticultural",
           "conclusao": "Ciclos molhado/seco e regas mais frequentes em suportes expostos em calor."
+        },
+        {
+          "nome": "UFT — Oliveira, aclimatização de Cattleya nobilior",
+          "url": "https://repositorio.uft.edu.br/handle/11612/2025",
+          "tipo": "dissertacao_parental_plântulas",
+          "conclusao": "Palhada de soja + Bioplant em proporções variáveis teve resultados na aclimatização de C. nobilior; não recomendável transpor a híbrido adulto ou adicionar palhada automaticamente."
+        },
+        {
+          "nome": "Ciência Rural 2025 — micropropagação Cattleya nobilior",
+          "url": "https://doi.org/10.1590/0103-8478cr20240271",
+          "tipo": "artigo_parental_propagacao",
+          "conclusao": "Biorreator e meios enriquecidos afetam estabelecimento ex vitro; não testa suportes adultos nem a mistura da ficha."
+        },
+        {
+          "nome": "RHS — suplemento do registro 2019",
+          "url": "https://www.rhs.org.uk/about-us/pdfs/publications/orchid-hybrid-lists/orchid-reg-nhl-1329-oct-dec-2019",
+          "tipo": "registro_primario",
+          "conclusao": "Cattleya A Brazilian Dream = C. nobilior × C. loddigesii; registrado por W. Pires."
         }
       ],
       "perfil_radicular_hidrico": {
@@ -871,7 +889,7 @@
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
-        "comparacao_brasileira": "UEL encontrou resultados favoráveis com pinus e pinus+arroz carbonizado em plântulas do parental C. loddigesii; composição com macadâmia/perlita não foi ensaiada.",
+        "comparacao_brasileira": "UEL encontrou resultados favoráveis com pinus e pinus+arroz carbonizado em plântulas do parental C. loddigesii; composição com macadâmia/perlita não foi ensaiada. Pesquisa adicional UFT com parental nobilior confirma que formulações de aclimatização de mudas diferem das necessidades de plantas adultas; não fornece evidência para 40% macadâmia.",
         "validacao_percentuais": true,
         "validacao_tecnica": {
           "composicao": [
@@ -904,7 +922,18 @@
         "Revisão editorial e inspeção visual da ficha antes de homologar"
       ],
       "fontes_cientificas_status": "levantamento_incompleto",
-      "etapa": "revisao_cientifica_parentais_e_matriz_inicial"
+      "etapa": "revisao_cientifica_parentais_ampliada",
+      "parecer_parcial": {
+        "resultado": "A formulação de 40% macadâmia + 25% pinus + 20% perlita + 15% carvão é hipótese coerente com aeração, mas não superioridade demonstrada.",
+        "base_mais_proxima": "Sorace (UEL, 2008) avaliou plântulas de C. loddigesii e observou bons resultados com pinus e pinus + arroz carbonizado.",
+        "diferenca_parentais": "C. nobilior tem estudos de aclimatização com misturas orgânicas que não são evidência de cultivo adulto; recomendações devem conciliar secagem com crescimento ativo.",
+        "decisao": "Manter receita atual como condicional; não afirmar validação experimental.",
+        "fontes": [
+          "https://repositorio.uel.br/items/ea109160-d382-4cc6-9d7c-eeaad0fc9bb3",
+          "https://repositorio.uft.edu.br/handle/11612/2025",
+          "https://doi.org/10.1590/0103-8478cr20240271"
+        ]
+      }
     },
     {
       "especie": "Cattleya aclandiae",
