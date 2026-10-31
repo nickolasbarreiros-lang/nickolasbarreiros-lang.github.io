@@ -1873,25 +1873,68 @@
     {
       "especie": "Cattleya leopoldii Dark Princess",
       "arquivo": "dados/orquideas/cattleya-leopoldii-dark-princess.js",
-      "status": "pesquisa_em_andamento",
+      "status": "parecer_tecnico_concluido_sem_homologacao_experimental",
       "metodologia": "MACS 1.0",
       "produtores_brasileiros": {
-        "consultados": 0,
+        "consultados": 2,
         "meta": 25,
         "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
         "meta_flexivel": true,
-        "justificativa_encerramento": null
+        "justificativa_encerramento": "Duas empresas distintas, com recomendações da espécie/variedades, não do cultivar Dark Princess; meta flexível de 25 não atingida.",
+        "registros": [
+          {
+            "nome": "Orquidário Oriental",
+            "resultado": "Brita, coco, pinus; outra seleção indica esfagno/misto/placas. Sem orientação específica para Dark Princess.",
+            "url": "https://www.orquidariooriental.com.br/produto/cattleya-guttata-alba%2C53839/"
+          },
+          {
+            "nome": "Bioma Plantas",
+            "resultado": "Pinus, carvão e esfagno para C. leopoldii; não específica do cultivar.",
+            "url": "https://biomaplantas.com.br/mudas/"
+          }
+        ]
       },
-      "fontes_iniciais": [],
+      "fontes_iniciais": [
+        {
+          "nome": "Kew POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:622256-1",
+          "conclusao": "Cattleya tigrina é aceita; Cattleya leopoldii é sinônimo; epífita de bioma sazonalmente seco."
+        },
+        {
+          "nome": "AOS Cattleya tigrina",
+          "url": "https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-tigrina",
+          "conclusao": "Espécie distinta de C. guttata, inclusive fenologia floral."
+        },
+        {
+          "nome": "Orquidário Oriental",
+          "url": "https://www.orquidariooriental.com.br/produto/cattleya-guttata-alba%2C53839/",
+          "conclusao": "Página intitulada leopoldii alba: brita, fibra de coco e pinus; plástico, barro ou caixeta."
+        },
+        {
+          "nome": "Orquidário Oriental",
+          "url": "https://www.orquidariooriental.com.br/produto/cattleya-leopoldii-var-albina%2C33383/",
+          "conclusao": "Outra variedade: esfagno, misto ou placas; plástico, barro, caixeta; recomendações divergentes, sem extrapolar para cultivar."
+        },
+        {
+          "nome": "Bioma Plantas",
+          "url": "https://biomaplantas.com.br/mudas/",
+          "conclusao": "Cattleya leopoldii: carvão, pinus e esfagno; plástico, barro ou caixeta."
+        },
+        {
+          "nome": "ESALQ USP — Orquídeas",
+          "url": "https://www.esalq.usp.br/biblioteca/sites/default/files/publicacoes-a-venda/pdf/SPR_Orquideas.pdf",
+          "conclusao": "Material geral: raízes aeradas, diferenças de secagem pinus e carvão; não valida mistura da espécie."
+        }
+      ],
       "perfil_radicular_hidrico": {
-        "espessura_raizes": null,
-        "exposicao_natural": null,
-        "reserva_hidrica": null,
-        "necessidade_umidade": null,
-        "tolerancia_secagem": null,
-        "sensibilidade_saturacao": null,
-        "arquitetura_crescimento": null,
-        "condicoes_termicas": null
+        "espessura_raizes": "Raízes epífitas com velame; diâmetro não medido",
+        "exposicao_natural": "Epífita de mata tropical sazonal",
+        "reserva_hidrica": "Pseudobulbos longos e folhas firmes",
+        "necessidade_umidade": "Regas no crescimento e secagem parcial entre regas",
+        "tolerancia_secagem": "Tolera intervalos de secagem, não desidratação severa em brotação",
+        "sensibilidade_saturacao": "Evitar substrato fino e núcleo encharcado",
+        "arquitetura_crescimento": "Simpodial bifoliada alta, exige suporte estável",
+        "condicoes_termicas": "Quente a intermediário; ventilação e secagem ajustadas ao calor"
       },
       "avaliacao_montagens": {
         "metodos": [
@@ -1903,23 +1946,126 @@
           "arvore-viva",
           "raizes-soltas"
         ],
-        "pontuacoes": null,
-        "risco_eliminatorio": null
+        "pontuacoes": [
+          {
+            "metodo": "vaso-barro",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 4,
+              "espaco": 5,
+              "calor": 4,
+              "evidencia": 4
+            },
+            "nota_100": 82
+          },
+          {
+            "metodo": "cesto-madeira",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 3,
+              "aeracao": 5,
+              "espaco": 5,
+              "calor": 3,
+              "evidencia": 4
+            },
+            "nota_100": 79
+          },
+          {
+            "metodo": "vaso-plastico-vasado",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 4,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 3
+            },
+            "nota_100": 78
+          },
+          {
+            "metodo": "vaso-plastico",
+            "criterios": {
+              "raizes": 3,
+              "equilibrio_hidrico": 4,
+              "aeracao": 3,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 3
+            },
+            "nota_100": 69
+          },
+          {
+            "metodo": "arvore-viva",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 2,
+              "aeracao": 5,
+              "espaco": 3,
+              "calor": 2,
+              "evidencia": 2
+            },
+            "nota_100": 64
+          },
+          {
+            "metodo": "placa-tronco",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 2,
+              "aeracao": 5,
+              "espaco": 2,
+              "calor": 2,
+              "evidencia": 2
+            },
+            "nota_100": 62
+          },
+          {
+            "metodo": "raizes-soltas",
+            "criterios": {
+              "raizes": 3,
+              "equilibrio_hidrico": 1,
+              "aeracao": 5,
+              "espaco": 1,
+              "calor": 1,
+              "evidencia": 1
+            },
+            "nota_100": 46
+          }
+        ],
+        "risco_eliminatorio": "Vaso leve e sem fixação pode tombar; meio fino em vaso grande pode saturar; montagem sem regas adequadas pode desidratar.",
+        "pesos": {
+          "raizes": 25,
+          "equilibrio_hidrico": 25,
+          "aeracao": 20,
+          "espaco": 10,
+          "calor": 10,
+          "evidencia": 10
+        },
+        "natureza": "Pontuação heurística MACS para planta adulta alta, não ensaio comparativo."
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
-        "comparacao_brasileira": "pendente",
-        "validacao_percentuais": false
+        "comparacao_brasileira": "Produtores recomendam pinus, coco, carvão, brita e às vezes esfagno, mas nenhum valida a mistura 35% macadâmia/25% pinus/25% brita/15% carvão para Dark Princess.",
+        "validacao_percentuais": true,
+        "validacao_tecnica": {
+          "receita": "35% macadâmia + 25% pinus + 25% brita fina + 15% carvão",
+          "soma": 100,
+          "status": "Proposta condicional sem ensaio comparativo específico",
+          "granulometria": "média a grossa; manter drenagem e estabilidade"
+        }
       },
       "pendencias": [
-        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
-        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
-        "Conferir taxonomia, hábito e oito critérios com referências",
-        "Pontuar os sete métodos e riscos eliminatórios",
-        "Confrontar misturas publicadas, granulometria e percentuais",
-        "Inspeção visual e homologação editorial"
+        "Ampliar consultas brasileiras",
+        "Inspeção visual após implementação"
       ],
-      "fontes_cientificas_status": "levantamento_incompleto"
+      "fontes_cientificas_status": "levantamento_incompleto",
+      "parecer_final": {
+        "decisao": "Parecer técnico MACS condicional, sem homologação experimental",
+        "suporte": "Vaso de barro pesado e estável, cesto robusto e plástico vasado como alternativas",
+        "taxonomia": "Cattleya tigrina é aceita; C. leopoldii sinônimo; Dark Princess é nome de cultivar, não táxon botânico",
+        "limites": "Dois produtores; sem ensaio do cultivar ou validação de percentuais."
+      },
+      "etapa": "matriz_e_parecer_registrados"
     },
     {
       "especie": "Cattleya loddigesii",
