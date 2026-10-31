@@ -79,43 +79,69 @@ export const cattleyaChocolateDrop = {
 },
     substratoVisual: {
     "titulo": "Substrato ideal",
-    "contexto": "Composição da ficha — proporções a validar",
-    "resumo": "Componentes da recomendação original, apresentados sem percentuais não documentados.",
-    "justificativa": "As raízes epífitas dependem de ar entre as partículas; mantenha drenagem e ajuste a rega ao recipiente.",
-    "receitaTexto": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.",
+    "contexto": "Receita técnica sugerida para cultivo em vaso",
+    "resumo": "Mistura de partículas abertas para boa aeração e drenagem, com proporções iniciais ajustáveis ao microclima.",
+    "justificativa": "As raízes epífitas precisam alternar molhamento e secagem. A mistura combina suporte orgânico, porosidade e drenagem sem reter água por tempo excessivo.",
+    "receitaTexto": "Proposta técnica inicial: 35% casca de macadâmia + 30% casca de pinus + 20% perlita grossa + 15% carvão vegetal. Percentuais propostos para teste de cultivo, não publicados como fórmula experimental para esta espécie.",
     "perfil": [
         "Raízes epífitas",
-        "Boa aeração",
-        "Drenagem livre",
-        "Secagem entre regas"
+        "Aeração alta",
+        "Secagem entre regas",
+        "Drenagem rápida"
     ],
     "itens": [
         {
             "asset": "macadamia",
             "nome": "Casca de macadâmia",
-            "nota": "Componente da mistura original",
-            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
+            "proporcao": "35%",
+            "nota": "estrutura",
+            "finalidade": "Cria partículas estruturais e espaços de ar; use granulometria grossa ou média conforme o porte."
         },
         {
             "asset": "casca-pinus",
             "nome": "Casca de pinus",
-            "nota": "Componente da mistura original",
-            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
+            "proporcao": "30%",
+            "nota": "base orgânica",
+            "finalidade": "Forma a base orgânica e retém umidade moderada sem bloquear os espaços entre partículas."
         },
         {
             "asset": "perlita",
             "nome": "Perlita grossa",
-            "nota": "Componente da mistura original",
-            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
+            "proporcao": "20%",
+            "nota": "aeração",
+            "finalidade": "Aumenta a porosidade e reduz a compactação, favorecendo a oxigenação das raízes."
         },
         {
             "asset": "carvao-vegetal",
             "nome": "Carvão vegetal",
-            "nota": "Componente da mistura original",
-            "finalidade": "Material recomendado na ficha; a quantidade ainda depende de validação."
+            "proporcao": "15%",
+            "nota": "drenagem",
+            "finalidade": "Contribui para uma mistura aberta e de drenagem rápida; não substitui a renovação periódica."
         }
     ],
-    "alerta": "As proporções não foram informadas na receita original e permanecem pendentes de validação."
+    "alerta": "Percentuais são uma proposta técnica inicial, não uma fórmula específica validada experimentalmente; ajuste ao clima, recipiente e ritmo de secagem.",
+    "comportamento": [
+        {
+            "nome": "Retenção",
+            "valor": 2,
+            "icone": "💧"
+        },
+        {
+            "nome": "Aeração",
+            "valor": 5,
+            "icone": "💨"
+        },
+        {
+            "nome": "Secagem",
+            "valor": 4,
+            "icone": "⚡"
+        },
+        {
+            "nome": "Compactação",
+            "valor": 1,
+            "icone": "🧱"
+        }
+    ]
 },
     "errosComuns": "Cultivar à sombra; excesso de nitrogênio; usar vaso grande; manter substrato compactado; enterrar o rizoma; acumular água na bainha floral; abrir ou cortar a espata sem necessidade; replantar fora da emissão de raízes; dividir touceiras pequenas; acreditar que adubo de floração substitui luz.",
     "dica": "A qualidade da florada depende mais de luz alta, maturação dos pseudobulbos e raízes saudáveis do que de adubação forte. Aclimate gradualmente ao ponto mais claro do orquidário, mantenha as bainhas secas e deixe o substrato quase secar. Isso produz cachos mais compactos, hastes firmes e pigmentação mais intensa.",
