@@ -529,6 +529,15 @@ function criarFormasCultivoV4(config, perfilRadicular = []) {
 }
 
 function criarSubstratoVisualV4(config, recomendados = []) {
+    // Compatibilidade V4.9: fichas antigas armazenam as alternativas como texto,
+    // enquanto fichas novas usam uma lista. Preservar ambas no mesmo menu.
+    const misturasRecomendadas = Array.isArray(recomendados)
+        ? recomendados.filter((item) => typeof item === "string" && item.trim()).map((item) => item.trim())
+        : typeof recomendados === "string"
+            ? recomendados.split(/\r?\n/).map((item) => item.trim()
+                .replace(/^(?:🥇|🥈|🥉|⭐|\d+[.)-]?)\s*/, ""))
+                .filter(Boolean)
+            : [];
     if (!config) {
         return "";
     }
@@ -629,7 +638,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                 <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres e use brita ou pedaços de isopor no fundo para melhorar a drenagem e a aeração das raízes.</div>
             ` : ""}
 
-            ${Array.isArray(recomendados) && recomendados.length ? `
+            ${misturasRecomendadas.length ? `
                 <div class="substratos-recomendados-v4">
                     <div class="titulo-recomendados-v4">
                         <span aria-hidden="true">🌱</span>
@@ -639,7 +648,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                         </div>
                     </div>
                     <ul>
-                        ${recomendados.map((item, indice) => `<li><span class="marcador-recomendado-v4" aria-hidden="true">${indice + 1}</span><span>${item}</span></li>`).join("")}
+                        ${misturasRecomendadas.map((item, indice) => `<li><span class="marcador-recomendado-v4" aria-hidden="true">${indice + 1}</span><span>${item}</span></li>`).join("")}
                     </ul>
                 </div>
             ` : ""}
