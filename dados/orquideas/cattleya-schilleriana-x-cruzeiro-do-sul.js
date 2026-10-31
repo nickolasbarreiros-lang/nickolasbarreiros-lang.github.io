@@ -2,10 +2,10 @@
 
 export const cattleyaSchillerianaXCruzeiroDoSul = {
     "id": "cattleya-schilleriana-x-cruzeiro-do-sul",
-    "nome": "Cattleya schilleriana × Cruzeiro do Sul",
+    "nome": "Cattleya Memoria Rita Franke",
     "genero": "Cattleya",
-    "sinonimo": "Não se aplica",
-    "tipo": "Híbrido hortícola",
+    "sinonimo": "Cattleya schilleriana × Cattleya Cruzeiro do Sul",
+    "tipo": "Híbrido horticultural registrado em 2023 (RHS)",
     "dificuldade": "Moderada",
     "caracteristicas": [
         "Híbrido hortícola brasileiro",
@@ -68,7 +68,7 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
         alerta: "Não enterre o rizoma. Replante somente no início da emissão de novas raízes."
     },
     revisaoCientificaIAR: {
-        "nome": "Cattleya schilleriana × Cruzeiro do Sul",
+        "nome": "Cattleya Memoria Rita Franke",
         "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
         "morfologiaDimensoes": "Um cruzamento brasileiro de aparência marcante, Cattleya schilleriana × Cruzeiro do Sul combina o charme das Cattleyas bifoliadas com flores de forte contraste. Dependendo do indivíduo, podem aparecer sépalas e pétalas pintalgadas ou manchadas, textura firme e um labelo magenta ou purpúreo bastante expressivo. Como plantas provenientes de semente nunca são cópias umas das outra",
@@ -358,6 +358,6 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
             "https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-schilleriana-rchb-f",
             "https://www.orquidariopaulista.com.br/produtos/cattleya-schilleriana-v-tipo/"
         ],
-        "observacao": "Orquidário Wolf identifica cruzamento como Cattleya Memoria Rita Franke; confirmar registro antes de alterar nome. As notas foram recalculadas e ordenadas pela ponderação MACS, sem ajuste artificial."
+        "observacao": "Identidade confirmada: Cattleya Memoria Rita Franke, R. Martiarena 2023, cruzamento C. schilleriana × C. Cruzeiro do Sul (OrchidRoots/RHS; Orquidário Wolf). As notas foram recalculadas e ordenadas pela ponderação MACS, sem ajuste artificial."
     }
 };
