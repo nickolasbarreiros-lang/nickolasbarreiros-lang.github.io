@@ -63,6 +63,7 @@ export const aeridesOdorata = {
         contexto: "Para cultivo em vaso ou cesto",
         resumo: "Mistura muito grossa e extremamente aerada, usada apenas para estabilizar a planta e manter pequena reserva de umidade sem enterrar as raízes aéreas.",
         justificativa: "Aerides odorata é uma vandácea monopodial epífita, com numerosas raízes aéreas grossas. O cultivo principal continua sendo suspenso com raízes livres. Quando se usa vaso ou cesto, o substrato deve ocupar pouco volume e funcionar como apoio, nunca como uma massa envolvendo todo o sistema radicular. Casca grossa e carvão mantêm grandes macroporos; uma pequena fração de esfagno fornece reserva hídrica localizada para o litoral quente.",
+        receitaTexto: "Mistura-base provisória para cultivo em vaso: 45% casca de pinus grossa + 35% carvão vegetal grosso + 10% casca de arroz carbonizada + 10% esfagno solto. Ajustar granulometria e rega conforme secagem observada.",
         perfil: ["Raízes grossas", "Aeração máxima", "Raízes expostas", "Secagem rápida", "Baixa compactação", "Pouco substrato"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
