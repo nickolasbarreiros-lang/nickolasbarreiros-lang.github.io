@@ -7,7 +7,7 @@
     {
       "especie": "Blc. Chia Lin",
       "arquivo": "dados/orquideas/blc-chia-lin.js",
-      "status": "revisao_tecnica_concluida_homologacao_pendente",
+      "status": "parecer_tecnico_concluido_sem_homologacao_experimental",
       "metodologia": "MACS 1.0",
       "produtores_brasileiros": {
         "consultados": 6,
@@ -387,13 +387,35 @@
         }
       },
       "pendencias": [
-        "Homologação científica plena exige evidência direta ou teste de cultivo controlado para afirmar superioridade da mistura e das notas; matriz atual é heurística.",
-        "Inspeção visual e editorial da ficha publicada após eventual atualização.",
-        "Ampliar amostra brasileira se novas fontes relevantes forem encontradas; não foi comprovado esgotamento."
+        "Opcional: ampliar consulta brasileira se surgirem fontes independentes específicas",
+        "Opcional: ensaio comparativo de percentuais para reivindicar superioridade experimental",
+        "Inspeção visual do site após atualização de texto"
       ],
       "fontes_cientificas_status": "levantamento_parcial",
       "confianca": "moderada_para_manejo_geral; baixa_para_percentuais_especificos_e_ranking",
-      "etapa": "matriz_pontuada_e_receita_condicionalmente_aprovada"
+      "etapa": "parecer_tecnico_finalizado",
+      "parecer_final": {
+        "data": "2026-10-30",
+        "decisao": "Apta para publicação como recomendação horticultural fundamentada, com incerteza explícita; não há evidência para declarar receita ótima comprovada ou pontuação experimental.",
+        "suporte_recomendado": "vaso-barro",
+        "motivo": "Escolha operacional estável e consistente com produtores e guias AOS/Smithsonian; cesto pontuou mais alto em aeração/espaço na matriz heurística, mas demanda irrigação mais frequente em calor. Ranking não representa superioridade experimental.",
+        "substrato_recomendado": "35% macadâmia + 30% pinus + 20% perlita grossa + 15% carvão (proporções volumétricas orientativas)",
+        "validacao": "Soma correta, componentes compatíveis com raízes epífitas e drenagem; proporções sem validação específica. Macadâmia permanece inferência estrutural.",
+        "alternativa_com_base_mais_direta": "pinus grosso + carvão, sem proporções publicadas pelo Orquidário Santa Clara",
+        "limite_pesquisa": "6 fornecedores documentados, 2 recomendações diretamente aplicáveis; não houve demonstração de exaustividade ou teste comparativo; meta 25 flexível.",
+        "criterios_de_reavaliacao": [
+          "raízes novas saudáveis após ciclo de crescimento",
+          "secagem regular sem saturação persistente",
+          "sem enrugamento por desidratação crônica",
+          "reavaliar mistura após degradação das partículas"
+        ],
+        "fontes_verificadas": [
+          "https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet",
+          "https://www.aos.org/orchid-care-and-culture-sheets/repotting",
+          "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/cattleya",
+          "https://orquidariosantaclara.com.br/home/587-blc-chia-lin-new-city-espatando.html"
+        ]
+      }
     },
     {
       "especie": "Camaridium carinatum",
