@@ -16,7 +16,26 @@
         "meta_flexivel": true,
         "justificativa_encerramento": null
       },
-      "fontes_iniciais": [],
+      "fontes_iniciais": [
+        {
+          "nome": "Royal Horticultural Society — International Orchid Register",
+          "url": "https://apps.rhs.org.uk/horticulturaldatabase/orchidregister/orchiddetails.asp?ID=85628",
+          "tipo": "registro_primario_hibrido",
+          "conclusao": "Rlc. Chia Lin registrada em 01/09/1989 por Su Ping-Ho; pais Rlc. Oconee × Rlc. Maitland. Não é evidência de substrato."
+        },
+        {
+          "nome": "Schnitzer et al. (2010), Acta Scientiarum Agronomy",
+          "url": "https://www.scielo.br/j/asagr/a/SwVJrySdJB8RcgnKsQvGLCx/?lang=pt",
+          "tipo": "experimento_outra_especie",
+          "conclusao": "Em plântulas de Cattleya intermedia, testaram pinus, fibra de coco, casca de arroz carbonizada e carvão; não validar percentuais para o híbrido Chia Lin."
+        },
+        {
+          "nome": "Sorace et al. (2009), Semina Ciências Agrárias",
+          "url": "https://ojs.uel.br/revistas/uel/index.php/semagrarias/article/view/4072",
+          "tipo": "experimento_hibrido_diferente",
+          "conclusao": "Em plântulas de C. intermedia × H. purpurata, pinus + casca de arroz carbonizada teve bom desempenho; analogia, não ensaio de Chia Lin."
+        }
+      ],
       "perfil_radicular_hidrico": {
         "espessura_raizes": null,
         "exposicao_natural": null,
@@ -38,11 +57,12 @@
           "raizes-soltas"
         ],
         "pontuacoes": null,
-        "risco_eliminatorio": null
+        "risco_eliminatorio": null,
+        "observacao": "Métodos existentes na ficha não pontuados; evidências diretas insuficientes."
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
-        "comparacao_brasileira": "pendente",
+        "comparacao_brasileira": "Estudos acadêmicos de outras Cattleya mostram alternativas com pinus, casca de arroz carbonizada, coco e carvão. Receita atual de macadâmia/pinus/perlita/carvão permanece hipótese sem ensaio específico.",
         "validacao_percentuais": false
       },
       "pendencias": [
@@ -51,9 +71,10 @@
         "Conferir taxonomia, hábito e oito critérios com referências",
         "Pontuar os sete métodos e riscos eliminatórios",
         "Confrontar misturas publicadas, granulometria e percentuais",
-        "Inspeção visual e homologação editorial"
+        "Inspeção visual e homologação editorial",
+        "Conferir dados de cultivo de Chia Lin diretamente com produtores brasileiros e separar clones/grex"
       ],
-      "fontes_cientificas_status": "levantamento_incompleto"
+      "fontes_cientificas_status": "fontes_primarias_e_analogias_identificadas"
     },
     {
       "especie": "Camaridium carinatum",
