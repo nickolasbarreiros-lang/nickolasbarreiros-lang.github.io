@@ -2190,16 +2190,53 @@
     {
       "especie": "Cattleya lueddemanniana",
       "arquivo": "dados/orquideas/cattleya-lueddemanniana-tipo.js",
-      "status": "matriz_preliminar_sem_parecer_cientifico",
+      "status": "parecer_tecnico_condicional_sem_homologacao",
       "metodologia": "MACS 1.0",
       "produtores_brasileiros": {
-        "consultados": 0,
+        "consultados": 2,
         "meta": 25,
         "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
         "meta_flexivel": true,
-        "justificativa_encerramento": null
+        "justificativa_encerramento": "Duas fontes distintas documentadas; a meta flexível de 25 não foi alcançada nem há demonstração de esgotamento das buscas.",
+        "registros": [
+          {
+            "nome": "Orquidário Oriental",
+            "url": "https://www.orquidariooriental.com.br/produto/cattleya-lueddemanniana-concolor%2C53632/",
+            "resultado": "Cachepô com pinus, placa e substrato drenante; forma concolor, não tipo."
+          },
+          {
+            "nome": "Orquidário Thomes",
+            "url": "https://www.orquidariothomes.com.br/cattleya-lueddemanniana-alba-/prod-10430560/",
+            "resultado": "Barro, plástico ou cachepô; sem proporções; forma alba, não tipo."
+          }
+        ]
       },
-      "fontes_iniciais": [],
+      "fontes_iniciais": [
+        {
+          "nome": "Kew POWO — Cattleya lueddemanniana",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:50260-2",
+          "tipo": "taxonomia_especie",
+          "conclusao": "Espécie aceita, epífita nativa da Venezuela."
+        },
+        {
+          "nome": "American Orchid Society — Cattleya lueddemanniana",
+          "url": "https://www.aos.org/explore-orchids-and-their-care-a-z/cattleya-lueddemanniana",
+          "tipo": "horticultura_especie",
+          "conclusao": "Recomenda meio de secagem rápida, cesto de madeira ou barro; irrigação uma a duas vezes por semana em condições descritas, adaptar à secagem real."
+        },
+        {
+          "nome": "Orquidário Oriental — Cattleya lueddemanniana concolor",
+          "url": "https://www.orquidariooriental.com.br/produto/cattleya-lueddemanniana-concolor%2C53632/",
+          "tipo": "produtor_outra_forma",
+          "conclusao": "Substrato bem drenado; cachepô com pinus ou placa de madeira."
+        },
+        {
+          "nome": "Orquidário Thomes — Cattleya lueddemanniana alba",
+          "url": "https://www.orquidariothomes.com.br/cattleya-lueddemanniana-alba-/prod-10430560/",
+          "tipo": "produtor_outra_forma",
+          "conclusao": "Vasos de barro, plástico e cachepôs, substratos variados, luz e arejamento."
+        }
+      ],
       "perfil_radicular_hidrico": {
         "espessura_raizes": "Velame epífito, diâmetro não medido",
         "exposicao_natural": "Epífita tropical",
@@ -2269,7 +2306,7 @@
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
-        "comparacao_brasileira": "Pesquisa brasileira de produtores ainda não realizada; receita publicada não homologada.",
+        "comparacao_brasileira": "Oriental indica pinus em cachepô e substrato drenante; Thomes admite diversos materiais sem proporção. Não há validação experimental da mistura publicada.",
         "validacao_percentuais": true,
         "validacao_tecnica": {
           "receita": "35% macadâmia, 25% pinus, 25% perlita grossa, 15% carvão",
@@ -2278,12 +2315,17 @@
         }
       },
       "pendencias": [
-        "Pesquisar literatura taxonômica e horticultural específica",
-        "Consultar produtores brasileiros",
-        "Verificar notas heurísticas",
-        "Inspeção visual"
+        "Ampliar buscas documentadas em produtores brasileiros",
+        "Revisar notas e evidência individual de cada suporte",
+        "Inspecionar visualmente a ficha"
       ],
-      "fontes_cientificas_status": "levantamento_incompleto"
+      "fontes_cientificas_status": "levantamento_incompleto",
+      "parecer_final": {
+        "decisao": "Revisão científica e horticultural inicial concluída, sem homologação integral",
+        "cultivo": "Cachepô de madeira ou vaso de barro com secagem rápida; respaldo direto AOS",
+        "substrato": "35/25/25/15 é inferência técnica, não receita experimentalmente validada",
+        "limites": "Duas fontes comerciais de outras formas, sem ensaio específico de suporte/substrato para tipo; matriz preliminar ainda requer revisão individual de critérios."
+      }
     }
   ]
 }
