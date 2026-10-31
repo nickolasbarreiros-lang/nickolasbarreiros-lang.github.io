@@ -684,9 +684,9 @@
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
-      "status_macs": "parecer_cientifico_revisado_implementacao_completa_homologacao_visual_pendente",
+      "status_macs": "implementado_revisado_cientificamente_verificacao_visual_externa_pendente",
       "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS.",
-      "parecer_final": "MACS 1.0 e componentes visuais implementados. AOS documenta AWZ Orchids brasileira cultivando C. violacea em cestos e placas; receita exata 35/25/20/20 é proposta técnica não validada. Quatro fotos e oito assets existentes. Corrigida luminosidade: sem sol pleno irrestrito; flamea é forma horticultural. Sem inspeção de navegador.",
+      "parecer_final": "Ficha implementada com MACS 1.0, cultivo ideal, substrato visual, fotos e assets existentes. AOS confirmou habitats 0–450 m e sazonalidade variável. Parecer técnico documentado, não equivalendo a ensaio de suportes nem a teste visual publicado.",
       "integridade": {
         "fotos": 4,
         "fotos_existentes": true,
@@ -721,7 +721,16 @@
           "tipo": "orientacao_geral_substratos",
           "achado": "Pinus, carvão e coco apresentam velocidades de secagem distintas; substrato deve preservar aeração."
         }
-      ]
+      ],
+      "revisao_final": {
+        "altitude": "0–450 m documentado em AOS",
+        "floracao": "sazonalidade variável, inclusive cultivo brasileiro e floração adicional",
+        "fontes_especificas": [
+          "https://www.aos.org/orchids/articles/cattleya-violacea",
+          "https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet"
+        ],
+        "revisao_em_codigo": true
+      }
     },
     {
       "arquivo": "dados/orquideas/cattleya-violacea-f-suavissima-x-self.js",
