@@ -684,9 +684,9 @@
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
-      "status_macs": "implementado_com_cultivo_e_substrato_visuais_assets_verificados_pesquisa_pendente",
+      "status_macs": "parecer_cientifico_revisado_implementacao_completa_homologacao_visual_pendente",
       "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS.",
-      "parecer_final": "MACS 1.0 com sete suportes, oito critérios, cultivo ideal em cesto e mistura 35/25/20/20; quatro fotos e oito assets visuais existentes no GitHub. Evidência horticultural brasileira específica ainda não documentada; não homologado.",
+      "parecer_final": "MACS 1.0 e componentes visuais implementados. AOS documenta AWZ Orchids brasileira cultivando C. violacea em cestos e placas; receita exata 35/25/20/20 é proposta técnica não validada. Quatro fotos e oito assets existentes. Corrigida luminosidade: sem sol pleno irrestrito; flamea é forma horticultural. Sem inspeção de navegador.",
       "integridade": {
         "fotos": 4,
         "fotos_existentes": true,
@@ -699,9 +699,28 @@
         "visual_publicado_verificado": false
       },
       "pendencias": [
-        "Pesquisa documentada em orquidários brasileiros e confronto com literatura científica",
-        "Inspeção visual da ficha publicada em navegador",
-        "Validar perfil da forma flamea sem confundir forma horticultural com espécie separada"
+        "Inspeção visual efetiva no navegador do site publicado",
+        "Ampliação da consulta independente a produtores brasileiros (meta ~25); até aqui a pesquisa documentada não alcançou essa abrangência"
+      ],
+      "fontes": [
+        {
+          "nome": "American Orchid Society — Cattleya violacea",
+          "url": "https://www.aos.org/orchids/articles/cattleya-violacea",
+          "tipo": "artigo_especializado_com_pratica_produtor_brasileiro",
+          "achado": "AWZ Orchids cultiva C. violacea em placas e cestos; rega reduzida com menor evaporação, sem repouso seco severo em calor; suporte muito drenante e alta aeração."
+        },
+        {
+          "nome": "American Orchid Society — Cattleya culture sheet",
+          "url": "https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet",
+          "tipo": "cultivo_geral_genero",
+          "achado": "Raízes exigem alternância umedecimento/secagem, replantar no início das raízes novas; não demonstra ranking específico."
+        },
+        {
+          "nome": "ESALQ/USP — Orquídeas",
+          "url": "https://www.esalq.usp.br/biblioteca/sites/default/files/publicacoes-a-venda/pdf/SPR_Orquideas.pdf",
+          "tipo": "orientacao_geral_substratos",
+          "achado": "Pinus, carvão e coco apresentam velocidades de secagem distintas; substrato deve preservar aeração."
+        }
       ]
     },
     {
