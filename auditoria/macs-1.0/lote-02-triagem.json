@@ -684,8 +684,25 @@
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
-      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
+      "status_macs": "implementado_com_cultivo_e_substrato_visuais_assets_verificados_pesquisa_pendente",
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS.",
+      "parecer_final": "MACS 1.0 com sete suportes, oito critérios, cultivo ideal em cesto e mistura 35/25/20/20; quatro fotos e oito assets visuais existentes no GitHub. Evidência horticultural brasileira específica ainda não documentada; não homologado.",
+      "integridade": {
+        "fotos": 4,
+        "fotos_existentes": true,
+        "metodos_visuais": 4,
+        "assets_cultivo_existentes": true,
+        "ingredientes_visuais": 4,
+        "assets_substrato_existentes": true,
+        "substrato_100": true,
+        "renderizador_suporta_componentes": true,
+        "visual_publicado_verificado": false
+      },
+      "pendencias": [
+        "Pesquisa documentada em orquidários brasileiros e confronto com literatura científica",
+        "Inspeção visual da ficha publicada em navegador",
+        "Validar perfil da forma flamea sem confundir forma horticultural com espécie separada"
+      ]
     },
     {
       "arquivo": "dados/orquideas/cattleya-violacea-f-suavissima-x-self.js",
