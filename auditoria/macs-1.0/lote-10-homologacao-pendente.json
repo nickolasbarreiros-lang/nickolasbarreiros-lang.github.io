@@ -7,14 +7,14 @@
     {
       "especie": "Blc. Chia Lin",
       "arquivo": "dados/orquideas/blc-chia-lin.js",
-      "status": "pesquisa_em_andamento",
+      "status": "revisao_tecnica_concluida_homologacao_pendente",
       "metodologia": "MACS 1.0",
       "produtores_brasileiros": {
         "consultados": 6,
         "meta": 25,
         "observacao": "Seis fornecedores consultados, incluindo páginas sem indicação específica. A sexta é cultivar com nome derivado, evidência indireta; não confundir clones.",
         "meta_flexivel": true,
-        "justificativa_encerramento": null,
+        "justificativa_encerramento": "Etapa analítica encerrada com seis fontes documentadas; ampliação futura recomendada, sem alegar esgotamento.",
         "registros": [
           {
             "nome": "Orquidário Maripá",
@@ -53,7 +53,15 @@
             "resultado": "orientação genérica de Cattleya: pinus ou esfagno; não comprova receita do grex Chia Lin"
           }
         ],
-        "com_recomendacao_direta": 2
+        "com_recomendacao_direta": 2,
+        "abrangencia_final": {
+          "consultas_registradas": 6,
+          "meta_flexivel": 25,
+          "consultas_com_recomendacao_direta": 2,
+          "consultas_sem_receita_especifica": 4,
+          "justificativa": "Pesquisa documentada em seis fornecedores brasileiros, predominantemente anúncios de clones New City e Golden Bell. A evidência diretamente aplicável é limitada e não representa amostragem exaustiva. A meta flexível de 25 não foi alcançada; não há comprovação de esgotamento das fontes. É possível encerrar a etapa de análise comparativa, não a validação empírica.",
+          "limite": "Não declarar pesquisa exaustiva nem homologação científica com base nesta amostra."
+        }
       },
       "fontes_iniciais": [
         {
@@ -103,6 +111,24 @@
           "url": "https://periodicos.uem.br/ojs/index.php/ActaSciAgron/article/view/930",
           "tipo": "experimento_outro_hibrido",
           "conclusao": "Testou proporções distintas de pinus e arroz carbonizado em híbrido de Cattleya; não equivale a teste de Chia Lin."
+        },
+        {
+          "nome": "American Orchid Society — Cattleya Culture Sheet",
+          "url": "https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet",
+          "tipo": "guia especializado",
+          "conclusao": "Secagem entre regas, bark médio/grosso, mistura geral bark/perlite/charcoal, montadas com rega frequente no calor."
+        },
+        {
+          "nome": "Missouri Botanical Garden — Cattleya",
+          "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/cattleya",
+          "tipo": "guia botanico_horticultural",
+          "conclusao": "Bark médio-grosso com carvão/perlita; vasos barro/plástico com drenagem; sem proporção específica para Chia Lin."
+        },
+        {
+          "nome": "AOS — Cattleya Culture Part 3",
+          "url": "https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-culture-part-3",
+          "tipo": "guia especializado",
+          "conclusao": "Mistura ideal depende das condições do cultivador; testar ao longo de um a dois anos para comparação."
         }
       ],
       "perfil_radicular_hidrico": {
@@ -157,8 +183,93 @@
           "arvore-viva",
           "raizes-soltas"
         ],
-        "pontuacoes": null,
-        "risco_eliminatorio": "Evitar suporte de secagem extrema quando não for possível irrigar; evitar substrato fino encharcado em recipiente pouco ventilado.",
+        "pontuacoes": [
+          {
+            "metodo": "cesto-madeira",
+            "criterios": {
+              "raizes": 5,
+              "equilibrio_hidrico": 3,
+              "aeracao": 5,
+              "espaco": 5,
+              "calor": 3,
+              "evidencia": 3
+            },
+            "nota_100": 82
+          },
+          {
+            "metodo": "vaso-barro",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 4,
+              "espaco": 4,
+              "calor": 3,
+              "evidencia": 4
+            },
+            "nota_100": 78
+          },
+          {
+            "metodo": "vaso-plastico-vasado",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 4,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 3
+            },
+            "nota_100": 78
+          },
+          {
+            "metodo": "arvore-viva",
+            "criterios": {
+              "raizes": 5,
+              "equilibrio_hidrico": 2,
+              "aeracao": 5,
+              "espaco": 4,
+              "calor": 2,
+              "evidencia": 3
+            },
+            "nota_100": 73
+          },
+          {
+            "metodo": "vaso-plastico",
+            "criterios": {
+              "raizes": 3,
+              "equilibrio_hidrico": 4,
+              "aeracao": 3,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 4
+            },
+            "nota_100": 71
+          },
+          {
+            "metodo": "placa-tronco",
+            "criterios": {
+              "raizes": 5,
+              "equilibrio_hidrico": 2,
+              "aeracao": 5,
+              "espaco": 3,
+              "calor": 2,
+              "evidencia": 3
+            },
+            "nota_100": 71
+          },
+          {
+            "metodo": "raizes-soltas",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 1,
+              "aeracao": 5,
+              "espaco": 2,
+              "calor": 1,
+              "evidencia": 1
+            },
+            "nota_100": 53
+          }
+        ],
+        "risco_eliminatorio": "Placa, árvore ou raízes soltas sem irrigação suficiente: risco de desidratação. Vaso plástico com substrato compacto: risco de saturação. Nenhuma opção eliminada universalmente.",
         "observacao": "Métodos existentes na ficha não pontuados; evidências diretas insuficientes.",
         "comparacao_qualitativa": [
           {
@@ -203,7 +314,17 @@
             "vantagem": "máxima aeração",
             "risco": "desidratação sem umidade e irrigação controladas"
           }
-        ]
+        ],
+        "pesos": {
+          "raizes": 25,
+          "equilibrio_hidrico": 25,
+          "aeracao": 20,
+          "espaco": 10,
+          "calor": 10,
+          "evidencia": 10
+        },
+        "escala": "1 a 5; escore = soma(peso × nota / 5); cenário: exemplar adulto, clima quente, regas monitoradas, ventilação adequada",
+        "natureza": "Matriz de decisão técnica heurística; notas inferidas, não ensaio comparativo ou prova de superioridade"
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
@@ -236,17 +357,43 @@
         "divergencias": [
           "percentuais de macadâmia e perlita sem ensaio específico",
           "alternativa pinus + casca de arroz carbonizada estudada em outros híbridos"
-        ]
+        ],
+        "validacao_tecnica": {
+          "receita": [
+            {
+              "material": "macadamia",
+              "percentual": 35
+            },
+            {
+              "material": "casca-pinus",
+              "percentual": 30
+            },
+            {
+              "material": "perlita",
+              "percentual": 20
+            },
+            {
+              "material": "carvao-vegetal",
+              "percentual": 15
+            }
+          ],
+          "soma_percentuais": 100,
+          "aprovacao": "APROVADA CONDICIONALMENTE como formulação horticultural orientativa, não comprovada por experimento específico",
+          "base": "Pinus, carvão e cascas: fornecedores Maripá/Santa Clara; perlite e carvão em misturas gerais de Cattleya: AOS, Missouri Botanical Garden; macadâmia: hipótese de componente estrutural, sem evidência específica identificada",
+          "granulometria": "fração média-grossa; preferir partículas que não compactem e reavaliar retenção após envelhecimento",
+          "condicoes": "usar em recipiente drenado; molhar completamente e aguardar secagem; reduzir macadâmia caso se observe secagem excessiva; evitar recipiente grande demais",
+          "limites": "Não há ensaio comparativo para percentuais 35/30/20/15, nem justificativa de superioridade perante mistura baseada em pinus. Não transformar recomendação condicional em receita comprovadamente ótima.",
+          "alternativa_para_teste": "pinus grosso 60%, perlita grossa 25%, carvão horticultural 15%, em volume; hipótese comparativa mais alinhada à literatura geral, não testada no grex"
+        }
       },
       "pendencias": [
-        "Confirmar número suficiente de consultas independentes e documentar limite real de fontes (meta flexível 25)",
-        "Validar ou ajustar composição e granulometria com evidência diretamente aplicável ou justificativa técnica robusta",
-        "Definir pontuação ponderada dos sete métodos com rastreabilidade e revisão de risco",
-        "Revisão final editorial e inspeção visual antes de homologar"
+        "Homologação científica plena exige evidência direta ou teste de cultivo controlado para afirmar superioridade da mistura e das notas; matriz atual é heurística.",
+        "Inspeção visual e editorial da ficha publicada após eventual atualização.",
+        "Ampliar amostra brasileira se novas fontes relevantes forem encontradas; não foi comprovado esgotamento."
       ],
       "fontes_cientificas_status": "levantamento_parcial",
-      "confianca": "moderada_para_principios_gerais_baixa_para_percentuais_e_ranking",
-      "etapa": "revisao_tecnica_qualitativa_concluida_sem_homologacao"
+      "confianca": "moderada_para_manejo_geral; baixa_para_percentuais_especificos_e_ranking",
+      "etapa": "matriz_pontuada_e_receita_condicionalmente_aprovada"
     },
     {
       "especie": "Camaridium carinatum",
