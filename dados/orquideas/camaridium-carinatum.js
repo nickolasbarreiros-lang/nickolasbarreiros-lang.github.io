@@ -76,10 +76,10 @@ export const camaridiumCarinatum = {
 },
     substratoVisual: {
     "titulo": "Substrato ideal",
-    "contexto": "Receita técnica sugerida para cultivo em vaso",
-    "resumo": "Mistura de partículas abertas para boa aeração e drenagem, com proporções iniciais ajustáveis ao microclima.",
-    "justificativa": "O rizoma de crescimento lateral precisa avançar sem ficar enterrado; partículas abertas e alguma reserva hídrica ajudam a manter raízes ativas sem compactação.",
-    "receitaTexto": "Proposta técnica inicial: 35% casca de pinus + 25% casca de macadâmia + 25% perlita grossa + 15% fibra de coco grossa. Percentuais propostos para teste de cultivo, não publicados como fórmula experimental para esta espécie.",
+    "contexto": "Proposta de mistura para recipiente",
+    "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
+    "justificativa": "O rizoma de crescimento horizontal precisa de espaço e aeração, enquanto os chips de coco ajudam a reduzir secagem brusca.",
+    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de pinus + 25% chips de coco grossos + 25% perlita grossa + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
     "perfil": [
         "Rizoma superficial",
         "Crescimento lateral",
@@ -91,54 +91,32 @@ export const camaridiumCarinatum = {
             "asset": "casca-pinus",
             "nome": "Casca de pinus",
             "proporcao": "35%",
-            "nota": "base orgânica",
-            "finalidade": "Forma a base orgânica e retém umidade moderada sem bloquear os espaços entre partículas."
+            "nota": "umidade moderada",
+            "finalidade": "Conserva alguma umidade sem fechar a mistura quando usada em granulometria adequada."
         },
         {
-            "asset": "macadamia",
-            "nome": "Casca de macadâmia",
+            "asset": "chips-coco",
+            "nome": "Chips de coco grossos",
             "proporcao": "25%",
-            "nota": "estrutura",
-            "finalidade": "Cria partículas estruturais e espaços de ar; use granulometria grossa ou média conforme o porte."
+            "nota": "retenção",
+            "finalidade": "Prolongam a disponibilidade de umidade para raízes ativas; usar lavados."
         },
         {
             "asset": "perlita",
             "nome": "Perlita grossa",
             "proporcao": "25%",
             "nota": "aeração",
-            "finalidade": "Aumenta a porosidade e reduz a compactação, favorecendo a oxigenação das raízes."
+            "finalidade": "Amplia a porosidade e reduz a compactação do recipiente."
         },
         {
-            "asset": "fibra-coco",
-            "nome": "Fibra de coco grossa",
+            "asset": "carvao-vegetal",
+            "nome": "Carvão vegetal",
             "proporcao": "15%",
-            "nota": "retenção moderada",
-            "finalidade": "Acrescenta retenção moderada para raízes ativas, desde que lavada e mantida sem compactação."
+            "nota": "drenagem",
+            "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
-    "alerta": "Percentuais são uma proposta técnica inicial, não uma fórmula específica validada experimentalmente; ajuste ao clima, recipiente e ritmo de secagem.",
-    "comportamento": [
-        {
-            "nome": "Retenção",
-            "valor": 3,
-            "icone": "💧"
-        },
-        {
-            "nome": "Aeração",
-            "valor": 5,
-            "icone": "💨"
-        },
-        {
-            "nome": "Secagem",
-            "valor": 4,
-            "icone": "⚡"
-        },
-        {
-            "nome": "Compactação",
-            "valor": 1,
-            "icone": "🧱"
-        }
-    ]
+    "alerta": "Proporções orientativas, sujeitas à revisão por fontes brasileiras específicas; observar a secagem antes de repetir a rega."
 },
     errosComuns: "• Usar vaso estreito ou profundo.\n• Direcionar a frente de crescimento contra a borda.\n• Enterrar rizoma ou base dos pseudobulbos.\n• Deixar água parada nas bainhas dos brotos.\n• Substrato continuamente saturado.\n• Impor seca severa.\n• Cultivar em sombra excessiva.\n• Aplicar adubo concentrado ou liberação lenta encostada nas brotações.",
     dica: "🏆 No replantio, coloque os pseudobulbos mais antigos próximos a uma borda e direcione a frente ativa para a maior área livre. O recipiente deve ser largo e raso, porque o rizoma avança horizontalmente. A base dos pseudobulbos precisa permanecer descoberta: além de reduzir podridão, isso não bloqueia as inflorescências basais.",
