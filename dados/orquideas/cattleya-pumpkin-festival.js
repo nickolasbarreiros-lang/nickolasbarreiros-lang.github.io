@@ -232,4 +232,207 @@ export const cattleyaPumpkinFestival = {
         agua: 3,
         raridade: 4
     }
+    macs1_0: {
+        "versao": "MACS 1.0",
+        "status": "parecer_tecnico_implementado_sem_homologacao_visual",
+        "natureza": "Pontuações heurísticas de 1 a 5; não são resultados experimentais",
+        "perfil_radicular_hidrico": {
+            "espessura_raizes": {
+                "valor": null,
+                "confianca": "insuficiente",
+                "fonte": "Sem mensuração específica no estudo UNESP"
+            },
+            "exposicao_natural": {
+                "valor": "Híbrido horticultural epífito, sem habitat natural próprio",
+                "confianca": "alta",
+                "fonte": "RHS; produtores"
+            },
+            "reservas": {
+                "valor": "Pseudobulbos armazenam água",
+                "confianca": "alta",
+                "fonte": "UNESP 2022; morfologia de Cattleya"
+            },
+            "necessidade_umidade": {
+                "valor": "Irrigação regular no crescimento, com drenagem e secagem parcial",
+                "confianca": "moderada",
+                "fonte": "UNESP 2022; Maripá; Shimoda"
+            },
+            "tolerancia_secagem": {
+                "valor": "Suporta intervalos entre regas, sem repouso seco rígido demonstrado",
+                "confianca": "moderada",
+                "fonte": "produtores e analogia da aliança Cattleya"
+            },
+            "sensibilidade_saturacao": {
+                "valor": "Evitar mistura compacta e água estagnada",
+                "confianca": "moderada",
+                "fonte": "Maripá; Shimoda"
+            },
+            "arquitetura": {
+                "valor": "Simpodial de pseudobulbos e crescimento lateral",
+                "confianca": "alta",
+                "fonte": "UNESP 2022"
+            },
+            "condicoes_termicas": {
+                "valor": "Quente a intermediário; no calor ajustar frequência ao recipiente",
+                "confianca": "moderada",
+                "fonte": "Suzuki; Maripá"
+            }
+        },
+        "pesos": {
+            "compatibilidade_raizes": 25,
+            "equilibrio_hidrico": 25,
+            "aeracao_drenagem": 20,
+            "espaco_crescimento": 10,
+            "adaptacao_calor": 10,
+            "evidencia_documentada": 10
+        },
+        "avaliacao_montagens": [
+            {
+                "metodo": "vaso-barro",
+                "notas": {
+                    "compatibilidade_raizes": 4,
+                    "equilibrio_hidrico": 4,
+                    "aeracao_drenagem": 5,
+                    "espaco_crescimento": 4,
+                    "adaptacao_calor": 5,
+                    "evidencia_documentada": 4
+                },
+                "nota_100": 86
+            },
+            {
+                "metodo": "vaso-plastico-vasado",
+                "notas": {
+                    "compatibilidade_raizes": 4,
+                    "equilibrio_hidrico": 4,
+                    "aeracao_drenagem": 5,
+                    "espaco_crescimento": 4,
+                    "adaptacao_calor": 4,
+                    "evidencia_documentada": 4
+                },
+                "nota_100": 84
+            },
+            {
+                "metodo": "vaso-plastico",
+                "notas": {
+                    "compatibilidade_raizes": 4,
+                    "equilibrio_hidrico": 5,
+                    "aeracao_drenagem": 3,
+                    "espaco_crescimento": 4,
+                    "adaptacao_calor": 3,
+                    "evidencia_documentada": 5
+                },
+                "nota_100": 81
+            },
+            {
+                "metodo": "cesto-madeira",
+                "notas": {
+                    "compatibilidade_raizes": 4,
+                    "equilibrio_hidrico": 3,
+                    "aeracao_drenagem": 5,
+                    "espaco_crescimento": 5,
+                    "adaptacao_calor": 3,
+                    "evidencia_documentada": 4
+                },
+                "nota_100": 79
+            },
+            {
+                "metodo": "arvore-viva",
+                "notas": {
+                    "compatibilidade_raizes": 4,
+                    "equilibrio_hidrico": 2,
+                    "aeracao_drenagem": 5,
+                    "espaco_crescimento": 4,
+                    "adaptacao_calor": 3,
+                    "evidencia_documentada": 2
+                },
+                "nota_100": 68
+            },
+            {
+                "metodo": "placa-tronco",
+                "notas": {
+                    "compatibilidade_raizes": 4,
+                    "equilibrio_hidrico": 2,
+                    "aeracao_drenagem": 5,
+                    "espaco_crescimento": 3,
+                    "adaptacao_calor": 3,
+                    "evidencia_documentada": 2
+                },
+                "nota_100": 66
+            },
+            {
+                "metodo": "raizes-soltas",
+                "notas": {
+                    "compatibilidade_raizes": 2,
+                    "equilibrio_hidrico": 1,
+                    "aeracao_drenagem": 5,
+                    "espaco_crescimento": 1,
+                    "adaptacao_calor": 1,
+                    "evidencia_documentada": 1
+                },
+                "nota_100": 41
+            }
+        ],
+        "cultivo_ideal": {
+            "suporte": "vaso-barro",
+            "justificativa": "Escolha editorial para ambiente quente e úmido: boa aeração e secagem sem perder estabilidade; plástico apresenta melhor evidência direta de viabilidade, mas não foi comparado experimentalmente.",
+            "alternativas": [
+                "vaso-plastico",
+                "vaso-plastico-vasado",
+                "cesto-madeira"
+            ],
+            "riscos": "Em plástico, observar umidade no centro; em cesto, evitar secagem excessiva; em barro, não usar vaso desproporcional; não enterrar rizoma."
+        },
+        "substrato": {
+            "recipiente": "vaso-barro",
+            "composicao": [
+                {
+                    "material": "casca de pinus grossa",
+                    "percentual": 45
+                },
+                {
+                    "material": "carvão vegetal granulado",
+                    "percentual": 25
+                },
+                {
+                    "material": "brita fina",
+                    "percentual": 20
+                },
+                {
+                    "material": "casca de macadâmia grossa",
+                    "percentual": 10
+                }
+            ],
+            "granulometria": "Grossa e peneirada, sem partículas finas; brita fina não é pó",
+            "natureza": "Proposta técnica preservada da ficha, não ensaiada especificamente nesta proporção",
+            "comparacao": "UNESP 2022 cultivou Pumpkin Festival adulta em plástico nº 15 com chips de coco, pinus e carvão; ensaio testou GA3, não recipientes ou substratos. Maripá recomenda cascas/carvão/madeira e plástico/barro/cachepô; Shimoda indica pinus/carvão/coco e barro/plástico furado; Orquivitro recomenda pinus/macadâmia/carvão. Receita preservada é mais mineral e menos retentiva que essas práticas; acompanhar secagem no clima quente."
+        },
+        "fontes": [
+            {
+                "nome": "UNESP — Rodacki 2022, GA3 em BLC Pumpkin Festival",
+                "url": "https://repositorio.unesp.br/server/api/core/bitstreams/b47597d1-20ca-4bd3-b20b-b18108c545dc/content",
+                "aplicabilidade": "Plantas adultas do híbrido, vaso plástico e mistura; experimento de hormônio, não de suportes"
+            },
+            {
+                "nome": "Orquidário Maripá — For Queen",
+                "url": "https://www.orquidariomaripa.com.br/produtos/orquidea-blc-pumpkin-festival-for-queen-cattleya-flores-grandes-mudas-pre-adulta/",
+                "aplicabilidade": "Cultivar For Queen, recomendação comercial"
+            },
+            {
+                "nome": "Orquidário Shimoda — For Queen",
+                "url": "https://www.orquidarioshimoda.com.br/produtos/blc-pumpkin-festival-for-queen-vagv4/",
+                "aplicabilidade": "Cultivar For Queen, orientação geral de Cattleya"
+            },
+            {
+                "nome": "Orquidário Suzuki — Pumpkin Festival",
+                "url": "https://www.orquidariosuzuki.com.br/cattleya-pumpkin-festival-adulta",
+                "aplicabilidade": "Registro de parentais e clima; sem ensaio de substrato"
+            },
+            {
+                "nome": "Orquivitro — revenda",
+                "url": "https://www.magazineluiza.com.br/orquidea-cattleya-laranja-adulta-orquivitro/p/bgg810c92c/fj/pntr/",
+                "aplicabilidade": "Descrição de produto atribuída ao produtor, sem verificação independente do cultivo"
+            }
+        ],
+        "limites": "Cinco empresas/estudos distintos; pesquisa não esgotou meta flexível de 25 consultas. Visualização publicada e integridade de assets não verificadas."
+    }
 };
