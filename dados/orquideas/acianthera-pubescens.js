@@ -72,7 +72,7 @@ export const aciantheraPubescens = {
             { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "20%", nota: "porosidade + durabilidade", finalidade: "Ajuda a preservar macroporos e estabilidade física por mais tempo." },
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva hídrica localizada", finalidade: "Evita secagem brusca das raízes finas sem transformar a mistura em um meio encharcado." }
         ],
-        alerta: "Em vaso, mantenha o rizoma próximo da superfície e não compacte a mistura. Prefira recipiente pequeno e muito drenado."
+        alerta: "Em vaso, mantenha o rizoma próximo da superfície e não compacte a mistura. Prefira recipiente pequeno e muito drenado.",
         notaEvidencia: "A composição é uma hipótese horticultural para cultivo em vaso, não ensaio controlado específico da espécie. Ainda depende de confronto documentado com 25 produtores brasileiros distintos; não alterar estrelas MACS por inferência.",
     },
     errosComuns: ["Aplicar o mesmo regime a exemplares de procedências muito diferentes.", "Manter touceira densa molhada e sem ventilação.", "Usar substrato compacto ou decomposto.", "Expor ao sol direto forte.", "Deixar as raízes secarem completamente por períodos longos.", "Acumular sais de fertilizante.", "Fixar uma época única de floração para uma espécie que pode florescer o ano inteiro."],
