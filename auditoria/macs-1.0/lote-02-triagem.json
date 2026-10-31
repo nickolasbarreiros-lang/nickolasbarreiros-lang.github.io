@@ -259,8 +259,66 @@
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
-      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
+      "status_macs": "pesquisa_especifica_documentada_parecer_parcial",
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS.",
+      "fontes": [
+        {
+          "nome": "Kew POWO — Cattleya walkeriana",
+          "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A622278-1/general-information",
+          "tipo": "botanica",
+          "achado": "Epífita ou litófita pseudobulbosa de ambiente tropical sazonalmente seco; espécie aceita."
+        },
+        {
+          "nome": "IFPB — Desenvolvimento de orquídeas em diferentes substratos e suportes",
+          "url": "https://repositorio.ifpb.edu.br/handle/177683/5585",
+          "tipo": "ensaio_especie",
+          "achado": "Em discos de madeira de tamanhos distintos, esfagno teve maior crescimento vegetativo que neem e coco; todos tratamentos permitiram desenvolvimento. Não comparou vaso de barro ou plástico."
+        },
+        {
+          "nome": "Orquidário Santa Clara — walkeriana flamea trilabelo",
+          "url": "https://orquidariosantaclara.com.br/cattleyas-walkerianas/4965-cattleya-walkeriana-flamea-trilabelo-ad.html",
+          "tipo": "produtor_brasileiro_outra_forma",
+          "achado": "Pinus, carvão e pedrisco de drenagem em vaso; placa com pequena retenção junto às raízes."
+        },
+        {
+          "nome": "Orquidário Mogi Mirim — walkeriana coerulea",
+          "url": "https://www.orquidariomogimirim.com.br/c-w-coerulea-n-01",
+          "tipo": "produtor_brasileiro_outra_forma",
+          "achado": "Pinus grosso e carvão; vasos rasos de barro, cestos ou placas."
+        },
+        {
+          "nome": "Prefeitura de São Paulo — manual de cultivo",
+          "url": "https://livrozilla.com/doc/467277/acesse-a-publica%C3%A7%C3%A3o---prefeitura-de-s%C3%A3o-paulo",
+          "tipo": "manual_horticultural",
+          "achado": "Descreve C. walkeriana e C. nobilior como favoráveis a suportes de madeira; generalização observacional, sem ensaio controlado."
+        }
+      ],
+      "produtores_brasileiros": {
+        "consultados": 2,
+        "meta_flexivel": 25,
+        "nomes": [
+          "Orquidário Santa Clara",
+          "Orquidário Mogi Mirim"
+        ],
+        "justificativa": "Dois produtores distintos identificados nesta rodada, ambas outras formas horticulturais da espécie; não extrapolar para clones específicos."
+      },
+      "perfil_radicular_hidrico": {
+        "espessura_raizes": "Sem medição específica nas fontes",
+        "exposicao_natural": "Epífita ou litófita",
+        "reserva_hidrica": "Pseudobulbos",
+        "necessidade_umidade": "Água no crescimento, com secagem entre irrigações",
+        "tolerancia_secagem": "Sazonalidade seca no habitat, mas não pressupõe desidratação contínua em vaso",
+        "sensibilidade_saturacao": "Evitar saturação prolongada; pinus e carvão drenantes",
+        "arquitetura_crescimento": "Simpodial de rizoma rastejante",
+        "condicoes_termicas": "Ambiente tropical com sazonalidade hídrica; ajustar irrigação à evaporação local"
+      },
+      "comparacao_substratos": "Santa Clara e Mogi Mirim convergem em pinus+carvão; estudo IFPB em discos de madeira encontrou maior crescimento com esfagno, mas não comparou esses vasos nem misturas. Em clima quente, esfagno requer cautela para evitar saturação e desidratação alternadas.",
+      "pendencias": [
+        "Ampliar produtores distintos e registrar buscas negativas",
+        "Pontuar sete suportes com fonte e confiança por critério",
+        "Propor receita e granulometria vinculadas ao suporte após comparação",
+        "Inspecionar visualmente ficha antes de alterações"
+      ]
     },
     {
       "arquivo": "dados/orquideas/cattleya-walkeriana-f-alba-gnomus-x-f-alba-suprema.js",
