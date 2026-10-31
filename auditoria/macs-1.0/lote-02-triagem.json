@@ -740,8 +740,40 @@
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
-      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
+      "status_macs": "implementado_macs_visual_assets_verificados_homologacao_publica_pendente",
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS.",
+      "parecer_final": "MACS 1.0 com sete suportes e ponderação 25/25/20/10/10/10, formasCultivo e substratoVisual integrados. 4 fotos e 8 assets confirmados existentes. Fonte específica de espécie AOS e sociedade orquidófila brasileira SOSA; inferência para progênie self, sem ensaio. Preservados IDC/IAR e fotografias.",
+      "integridade": {
+        "fotos": 4,
+        "quatro_fotos_existentes": true,
+        "formas_cultivo": 4,
+        "quatro_assets_cultivo_existentes": true,
+        "substrato_itens": 4,
+        "quatro_assets_substrato_existentes": true,
+        "percentuais_somam_100": true,
+        "macs_suportes": 7,
+        "renderizador_suporta_componentes": true,
+        "teste_visual_publicado": false
+      },
+      "fontes": [
+        {
+          "url": "https://www.aos.org/orchids/articles/cattleya-violacea",
+          "tipo": "artigo sobre espécie parental e práticas AWZ Orchids"
+        },
+        {
+          "url": "https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet",
+          "tipo": "orientações gerais Cattleya"
+        },
+        {
+          "url": "https://www.sosa.org.br/site/dicas-de-cultivo.php",
+          "tipo": "sociedade orquidófila brasileira, referência geral"
+        }
+      ],
+      "pendencias": [
+        "Inspeção visual do site publicado",
+        "Consulta ampliada e documentada a produtores brasileiros não concluída",
+        "Pontuações MACS são estimativas técnicas, não ensaios experimentais"
+      ]
     },
     {
       "arquivo": "dados/orquideas/cattleya-walkeriana.js",
