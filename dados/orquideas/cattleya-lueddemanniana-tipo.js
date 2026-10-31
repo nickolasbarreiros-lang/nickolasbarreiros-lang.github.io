@@ -73,10 +73,10 @@ export const cattleyaLueddemannianaTipo = {
 },
     substratoVisual: {
     "titulo": "Substrato ideal",
-    "contexto": "Receita técnica sugerida para cultivo em vaso",
-    "resumo": "Mistura de partículas abertas para boa aeração e drenagem, com proporções iniciais ajustáveis ao microclima.",
-    "justificativa": "As raízes epífitas precisam alternar molhamento e secagem. A mistura combina suporte orgânico, porosidade e drenagem sem reter água por tempo excessivo.",
-    "receitaTexto": "Proposta técnica inicial: 35% casca de macadâmia + 30% casca de pinus + 20% perlita grossa + 15% carvão vegetal. Percentuais propostos para teste de cultivo, não publicados como fórmula experimental para esta espécie.",
+    "contexto": "Proposta de mistura para recipiente",
+    "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
+    "justificativa": "Em cachepô bem ventilado, partículas grossas e perlita favorecem a secagem após regas abundantes.",
+    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de macadâmia + 25% casca de pinus + 25% perlita grossa + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
@@ -89,53 +89,31 @@ export const cattleyaLueddemannianaTipo = {
             "nome": "Casca de macadâmia",
             "proporcao": "35%",
             "nota": "estrutura",
-            "finalidade": "Cria partículas estruturais e espaços de ar; use granulometria grossa ou média conforme o porte."
+            "finalidade": "Partículas resistentes criam espaços de ar entre as raízes."
         },
         {
             "asset": "casca-pinus",
             "nome": "Casca de pinus",
-            "proporcao": "30%",
-            "nota": "base orgânica",
-            "finalidade": "Forma a base orgânica e retém umidade moderada sem bloquear os espaços entre partículas."
+            "proporcao": "25%",
+            "nota": "umidade moderada",
+            "finalidade": "Conserva alguma umidade sem fechar a mistura quando usada em granulometria adequada."
         },
         {
             "asset": "perlita",
             "nome": "Perlita grossa",
-            "proporcao": "20%",
+            "proporcao": "25%",
             "nota": "aeração",
-            "finalidade": "Aumenta a porosidade e reduz a compactação, favorecendo a oxigenação das raízes."
+            "finalidade": "Amplia a porosidade e reduz a compactação do recipiente."
         },
         {
             "asset": "carvao-vegetal",
             "nome": "Carvão vegetal",
             "proporcao": "15%",
             "nota": "drenagem",
-            "finalidade": "Contribui para uma mistura aberta e de drenagem rápida; não substitui a renovação periódica."
+            "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
-    "alerta": "Percentuais são uma proposta técnica inicial, não uma fórmula específica validada experimentalmente; ajuste ao clima, recipiente e ritmo de secagem.",
-    "comportamento": [
-        {
-            "nome": "Retenção",
-            "valor": 2,
-            "icone": "💧"
-        },
-        {
-            "nome": "Aeração",
-            "valor": 5,
-            "icone": "💨"
-        },
-        {
-            "nome": "Secagem",
-            "valor": 4,
-            "icone": "⚡"
-        },
-        {
-            "nome": "Compactação",
-            "valor": 1,
-            "icone": "🧱"
-        }
-    ]
+    "alerta": "Proporções orientativas, sujeitas à revisão por fontes brasileiras específicas; observar a secagem antes de repetir a rega."
 },
     errosComuns: "Cortar espata seca sem verificar se há botões; deixar água acumulada dentro de espata fechada; manter substrato constantemente molhado; cultivar com pouca luz; usar vaso excessivamente grande; enterrar o rizoma; confundir repouso com seca absoluta; replantar fora da emissão de novas raízes; adubar em excesso.",
     dica: "Nunca descarte uma espata apenas porque ficou amarela, marrom ou aparentemente seca. Ela pode proteger botões que ainda estão se desenvolvendo. Evite água parada dentro da bainha, especialmente em noites quentes. Depois da floração, observe a base do novo crescimento: quando começarem a despontar raízes novas, chegou a melhor janela para replantar.",
