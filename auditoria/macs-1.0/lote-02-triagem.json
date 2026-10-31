@@ -644,21 +644,25 @@
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
-      "status_macs": "implementado_com_cultivo_visual_e_substrato_visual_validacao_runtime_pendente",
+      "status_macs": "implementacao_integrada_assets_verificados_inspecao_visual_publica_pendente",
       "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS.",
-      "parecer_final": "MACS com sete suportes e pesos registrado; 4 formas visuais e mistura 40/25/20/15 implementadas na ficha, preservando quatro fotos e IDC/IAR.",
+      "parecer_final": "Ficha completa estruturalmente: MACS sete suportes, formasCultivo e substratoVisual integrados ao renderizador ficha.js; oito assets visuais e quatro fotos confirmados por GitHub; percentuais 100. Homologação visual ao vivo não realizada.",
       "integridade": {
         "fotos_cadastradas": 4,
+        "quatro_arquivos_fotos_existentes": true,
         "formas_cultivo": true,
+        "quatro_assets_montagens_existentes": true,
         "substrato_visual": true,
+        "quatro_assets_substrato_existentes": true,
         "percentuais_somam_100": true,
         "macs_sete_suportes": true,
+        "renderizador_formas_e_substrato_confirmado": true,
         "renderizacao_publica_verificada": false
       },
       "pendencias": [
-        "Verificação da interface publicada e imagens efetivamente carregadas",
-        "Confirmar identidade horticultural Memoria Rita Franke e parentais",
-        "Pesquisa mais ampla de produtores e revisão técnica externa"
+        "Inspeção visual do site em navegador real não executada",
+        "Identidade formal do grex Memoria Rita Franke a confirmar",
+        "Pesquisa mais ampla de produtores e revisão científica externa"
       ]
     },
     {
