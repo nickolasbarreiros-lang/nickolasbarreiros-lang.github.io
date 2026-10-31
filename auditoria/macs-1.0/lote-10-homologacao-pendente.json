@@ -418,27 +418,89 @@
       }
     },
     {
-      "especie": "Camaridium carinatum",
+      "especie": "Maxillaria imbricata (sin. Camaridium carinatum)",
       "arquivo": "dados/orquideas/camaridium-carinatum.js",
       "status": "pesquisa_em_andamento",
       "metodologia": "MACS 1.0",
       "produtores_brasileiros": {
         "consultados": 0,
         "meta": 25,
-        "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
+        "observacao": "Nenhum produtor brasileiro com recomendação específica foi verificado nesta rodada; não inventar resultados negativos individuais.",
         "meta_flexivel": true,
-        "justificativa_encerramento": null
+        "justificativa_encerramento": "Buscas web pelos nomes Maxillaria imbricata e Camaridium carinatum não retornaram produtores com receita específica verificável nesta rodada. Não contar páginas científicas como orquidários. Busca não exaustiva; meta flexível permanece aberta."
       },
-      "fontes_iniciais": [],
+      "fontes_iniciais": [
+        {
+          "nome": "Kew POWO — Maxillaria imbricata",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155104-2",
+          "tipo": "taxonomia_habitat",
+          "conclusao": "Nome aceito Maxillaria imbricata, sinônimo Camaridium carinatum; epífita pseudobulbosa de bioma tropical úmido."
+        },
+        {
+          "nome": "Sinopse Orchidaceae Parque Nacional de Boa Nova — Hoehnea",
+          "url": "https://www.scielo.br/j/hoehnea/a/3ny9LMzTztYwyQJJnmJQ5tL/?format=html",
+          "tipo": "artigo_cientifico_especie",
+          "conclusao": "Documenta epifitismo, flores amarelas e inflorescência 3–4 cm sob sinônimo Camaridium carinatum; não avalia substratos."
+        },
+        {
+          "nome": "SENAR Paraná — Cultivo de Orquídeas",
+          "url": "https://www.sistemafaep.org.br/wp-content/uploads/2026/01/PR.0397-Cultivo-de-Orquideas_web.pdf",
+          "tipo": "manual_tecnico_geral",
+          "conclusao": "Seleção do substrato depende de hábito, recipiente e clima; coco, casca, carvão, arroz carbonizado são materiais gerais, não receita específica."
+        },
+        {
+          "nome": "ESALQ/USP — Orquídeas",
+          "url": "https://www.esalq.usp.br/biblioteca/sites/default/files/publicacoes-a-venda/pdf/SPR_Orquideas.pdf",
+          "tipo": "manual_tecnico_geral",
+          "conclusao": "Diferencia secagem dos materiais; pinus moderado sem pó, coco varia conforme fibra e carvão tende a secar rápido. Não comprova mistura desta espécie."
+        },
+        {
+          "nome": "American Orchid Society — Mounting",
+          "url": "https://www.aos.org/orchid-care/orchid-care-basics/mounting",
+          "tipo": "guia_horticultural_geral",
+          "conclusao": "Montagens exigem controle de hidratação; fibras de coco podem ter sais residuais; lavar e verificar condutividade."
+        }
+      ],
       "perfil_radicular_hidrico": {
-        "espessura_raizes": null,
-        "exposicao_natural": null,
-        "reserva_hidrica": null,
-        "necessidade_umidade": null,
-        "tolerancia_secagem": null,
-        "sensibilidade_saturacao": null,
-        "arquitetura_crescimento": null,
-        "condicoes_termicas": null
+        "espessura_raizes": {
+          "avaliacao": null,
+          "confianca": "insuficiente"
+        },
+        "exposicao_natural": {
+          "avaliacao": "epífita",
+          "confianca": "alta",
+          "origem": "POWO e Hoehnea"
+        },
+        "reserva_hidrica": {
+          "avaliacao": "pseudobulbos presentes",
+          "confianca": "alta",
+          "origem": "POWO"
+        },
+        "necessidade_umidade": {
+          "avaliacao": "ambiente tropical úmido; evitar seca prolongada é inferência",
+          "confianca": "moderada",
+          "origem": "POWO"
+        },
+        "tolerancia_secagem": {
+          "avaliacao": "secagem parcial do recipiente, não ressecamento contínuo",
+          "confianca": "baixa",
+          "origem": "inferência horticultural"
+        },
+        "sensibilidade_saturacao": {
+          "avaliacao": "evitar saturação crônica",
+          "confianca": "moderada",
+          "origem": "manuais gerais"
+        },
+        "arquitetura_crescimento": {
+          "avaliacao": "rizoma alongado, pseudobulbos espaçados conforme ficha; confirmar documentação morfológica",
+          "confianca": "moderada",
+          "origem": "ficha e identificação botânica"
+        },
+        "condicoes_termicas": {
+          "avaliacao": "tropical úmida; ventilação importante",
+          "confianca": "moderada",
+          "origem": "POWO"
+        }
       },
       "avaliacao_montagens": {
         "metodos": [
@@ -450,23 +512,141 @@
           "arvore-viva",
           "raizes-soltas"
         ],
-        "pontuacoes": null,
-        "risco_eliminatorio": null
+        "pontuacoes": [
+          {
+            "metodo": "vaso-plastico-vasado",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 4,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 2
+            },
+            "nota_100": 76
+          },
+          {
+            "metodo": "cesto-madeira",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 3,
+              "aeracao": 5,
+              "espaco": 5,
+              "calor": 3,
+              "evidencia": 2
+            },
+            "nota_100": 75
+          },
+          {
+            "metodo": "placa-tronco",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 2,
+              "aeracao": 5,
+              "espaco": 5,
+              "calor": 2,
+              "evidencia": 2
+            },
+            "nota_100": 68
+          },
+          {
+            "metodo": "arvore-viva",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 2,
+              "aeracao": 5,
+              "espaco": 5,
+              "calor": 2,
+              "evidencia": 2
+            },
+            "nota_100": 68
+          },
+          {
+            "metodo": "vaso-barro",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 3,
+              "aeracao": 4,
+              "espaco": 3,
+              "calor": 3,
+              "evidencia": 2
+            },
+            "nota_100": 67
+          },
+          {
+            "metodo": "vaso-plastico",
+            "criterios": {
+              "raizes": 3,
+              "equilibrio_hidrico": 4,
+              "aeracao": 3,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 2
+            },
+            "nota_100": 67
+          },
+          {
+            "metodo": "raizes-soltas",
+            "criterios": {
+              "raizes": 3,
+              "equilibrio_hidrico": 1,
+              "aeracao": 5,
+              "espaco": 4,
+              "calor": 1,
+              "evidencia": 1
+            },
+            "nota_100": 52
+          }
+        ],
+        "risco_eliminatorio": "Suporte aberto sem irrigação compatível pode desidratar; plástico com substrato compacto pode encharcar; coco não lavado pode ter sais.",
+        "pesos": {
+          "raizes": 25,
+          "equilibrio_hidrico": 25,
+          "aeracao": 20,
+          "espaco": 10,
+          "calor": 10,
+          "evidencia": 10
+        },
+        "natureza": "Heurística de 1 a 5, cenário de clima quente úmido e regas monitoradas; evidência direta limitada; notas NÃO são resultados experimentais."
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
-        "comparacao_brasileira": "pendente",
-        "validacao_percentuais": false
+        "comparacao_brasileira": "Manuais SENAR e ESALQ apoiam classes de materiais e atenção ao clima, mas não validam esta composição específica.",
+        "validacao_percentuais": true,
+        "validacao_tecnica": {
+          "composicao": [
+            {
+              "material": "casca-pinus",
+              "percentual": 35
+            },
+            {
+              "material": "chips-coco",
+              "percentual": 25
+            },
+            {
+              "material": "perlita",
+              "percentual": 25
+            },
+            {
+              "material": "carvao-vegetal",
+              "percentual": 15
+            }
+          ],
+          "soma_percentuais": 100,
+          "aprovacao": "condicional, por plausibilidade técnica, sem ensaio específico",
+          "granulometria": "média-grossa, chips de coco previamente lavados; avaliar salinidade",
+          "limites": "Não existe comprovação de proporção ótima; observar retenção de água em cesto ventilado; alternativas com maior retenção podem ser necessárias em calor seco.",
+          "comparacao": "Materiais coerentes com manuais gerais SENAR e ESALQ, sem recomendação específica encontrada para Maxillaria imbricata."
+        }
       },
       "pendencias": [
-        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
-        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
-        "Conferir taxonomia, hábito e oito critérios com referências",
-        "Pontuar os sete métodos e riscos eliminatórios",
-        "Confrontar misturas publicadas, granulometria e percentuais",
-        "Inspeção visual e homologação editorial"
+        "Localizar produtores brasileiros com recomendações diretamente atribuíveis à espécie ou sinônimo",
+        "Verificar anatomia radicular e morfologia de crescimento em fonte específica",
+        "Inspeção visual e revisão editorial antes de homologar"
       ],
-      "fontes_cientificas_status": "levantamento_incompleto"
+      "fontes_cientificas_status": "taxonomia_e_habito_confirmados; sem_ensaio_especifico_de_substrato",
+      "confianca": "alta_para_taxonomia_e_habito; baixa_para_ranking_e_receita_especifica",
+      "etapa": "revisao_tecnica_preliminar_com_matriz_heuristica"
     },
     {
       "especie": "Cattleya A Brazilian Dream",
