@@ -1007,31 +1007,118 @@
     {
       "especie": "Cattleya aclandiae",
       "arquivo": "dados/orquideas/cattleya-aclandiae-tipo.js",
-      "status": "pesquisa_em_andamento",
+      "status": "parecer_tecnico_concluido_sem_homologacao_experimental",
       "metodologia": "MACS 1.0",
       "produtores_brasileiros": {
-        "consultados": 1,
+        "consultados": 6,
         "meta": 25,
         "observacao": "Fontes acadêmicas não contam como produtores consultados; ausência de registros não equivale a consulta negativa documentada.",
         "meta_flexivel": true,
-        "justificativa_encerramento": null
+        "justificativa_encerramento": "Seis páginas de produtores verificadas, sendo cinco com recomendações diretas de espécie/variedade e uma recomendação geral. Não atingiu meta de 25 e não é levantamento exaustivo.",
+        "registros": [
+          {
+            "nome": "Orquídeas & Cia",
+            "url": "https://www.orquideacia.com.br/produto/cattleya-aclandiae",
+            "resultado": "Tronco de madeira ou brita + pinus grosso",
+            "nivel": "direto_especie"
+          },
+          {
+            "nome": "Orquidário Thomes",
+            "url": "https://www.orquidariothomes.com.br/Cattleyaaclandiaetipo/prod-10518358/",
+            "resultado": "Planta em madeira; admite barro, plástico, caixetas e placas com alta ventilação",
+            "nivel": "direto_especie"
+          },
+          {
+            "nome": "Orquidário Matsuoka",
+            "url": "https://orquidariomatsuoka.com.br/produto/cattleya-aclandiae-nigrescens-perfumada/",
+            "resultado": "Toco, brita ou substrato de orquídea; regar após secagem",
+            "nivel": "direto_variedade"
+          },
+          {
+            "nome": "Orquidário Paulista",
+            "url": "https://www.orquidariopaulista.com.br/produtos/cattleya-aclandiae-v-escura-caliman-x-jrd/",
+            "resultado": "Substrato de secagem rápida e drenagem; muda em vaso",
+            "nivel": "direto_variedade"
+          },
+          {
+            "nome": "Orquidário Bahia",
+            "url": "https://orquidariobahia.com.br/produto/cattleya-aclandiae-sp/",
+            "resultado": "Recomendação geral do estabelecimento em clima quente: 70% chips de coco + 30% brita; não é ensaio específico da espécie",
+            "nivel": "geral_produtor"
+          },
+          {
+            "nome": "Orquidário 4 Estações",
+            "url": "https://www.orquidario4e.com.br/orquidea-cattleya-aclandiae-8cm",
+            "resultado": "Cachepô com pinus ou placa de madeira; substrato drenado",
+            "nivel": "direto_especie"
+          }
+        ]
       },
       "fontes_iniciais": [
         {
-          "nome": "Orquídeas & Cia",
-          "url": "https://www.orquideacia.com.br/produto/cattleya-aclandiae",
-          "conclusao": "Cultivo em tronco de madeira ou mistura grossa de brita e pinus; recomendação de fornecedor, não ensaio comparativo."
+          "nome": "Kew POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:621983-1",
+          "tipo": "taxonomia_ecologia",
+          "conclusao": "Nome aceito, epífita pseudobulbosa de ambiente tropical sazonalmente seco."
+        },
+        {
+          "nome": "JBRJ Flora do Brasil",
+          "url": "https://monografiasfloradobrasil.jbrj.gov.br/cattleya.pdf",
+          "tipo": "flora_cientifica",
+          "conclusao": "Rizomatosa, bifoliada, 1–3 flores, características florais."
+        },
+        {
+          "nome": "AOS Cattleya overview",
+          "url": "https://www.aos.org/explore/cattleya",
+          "tipo": "guia_horticultural",
+          "conclusao": "Cita C. aclandiae explicitamente entre espécies de crescimento rastejante adequadas a placas, recipientes rasos ou cestos rasos."
+        },
+        {
+          "nome": "AOS Cattleya culture sheet",
+          "url": "https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet",
+          "tipo": "guia_horticultural",
+          "conclusao": "Secagem entre regas, irrigação adicional em suportes montados no calor; sem receita específica."
+        },
+        {
+          "nome": "UEL — Lone et al. 2008",
+          "url": "https://periodicos.uem.br/ojs/index.php/ActaSciAgron/article/view/5299",
+          "tipo": "ensaio_outra_especie_juvenil",
+          "conclusao": "C. intermedia plântulas: coco e pinus+coco foram adequados na aclimatização; não extrapolar para aclandiae adulta."
         }
       ],
       "perfil_radicular_hidrico": {
-        "espessura_raizes": null,
-        "exposicao_natural": null,
-        "reserva_hidrica": null,
-        "necessidade_umidade": null,
-        "tolerancia_secagem": null,
-        "sensibilidade_saturacao": null,
-        "arquitetura_crescimento": null,
-        "condicoes_termicas": null
+        "espessura_raizes": {
+          "avaliacao": "raízes epífitas com velame; espessura exata não medida",
+          "confianca": "moderada"
+        },
+        "exposicao_natural": {
+          "avaliacao": "epífita em ambiente sazonalmente seco",
+          "confianca": "alta"
+        },
+        "reserva_hidrica": {
+          "avaliacao": "pseudobulbos e folhas carnosas",
+          "confianca": "alta"
+        },
+        "necessidade_umidade": {
+          "avaliacao": "rega durante crescimento; secagem rápida",
+          "confianca": "moderada"
+        },
+        "tolerancia_secagem": {
+          "avaliacao": "tolera intervalos secos, não desidratação prolongada em crescimento",
+          "confianca": "moderada"
+        },
+        "sensibilidade_saturacao": {
+          "avaliacao": "alto risco de saturação persistente em mistura fina",
+          "confianca": "moderada"
+        },
+        "arquitetura_crescimento": {
+          "avaliacao": "rizomatosa rastejante e bifoliada",
+          "confianca": "alta"
+        },
+        "condicoes_termicas": {
+          "avaliacao": "quente e sazonalmente seca; suporte exposto seca depressa",
+          "confianca": "alta"
+        }
       },
       "avaliacao_montagens": {
         "metodos": [
@@ -1043,23 +1130,128 @@
           "arvore-viva",
           "raizes-soltas"
         ],
-        "pontuacoes": null,
-        "risco_eliminatorio": null
+        "pontuacoes": [
+          {
+            "metodo": "placa-tronco",
+            "criterios": {
+              "raizes": 5,
+              "equilibrio_hidrico": 3,
+              "aeracao": 5,
+              "espaco": 5,
+              "calor": 3,
+              "evidencia": 5
+            },
+            "nota_100": null
+          },
+          {
+            "metodo": "cesto-madeira",
+            "criterios": {
+              "raizes": 5,
+              "equilibrio_hidrico": 4,
+              "aeracao": 5,
+              "espaco": 5,
+              "calor": 4,
+              "evidencia": 4
+            },
+            "nota_100": null
+          },
+          {
+            "metodo": "arvore-viva",
+            "criterios": {
+              "raizes": 5,
+              "equilibrio_hidrico": 3,
+              "aeracao": 5,
+              "espaco": 5,
+              "calor": 3,
+              "evidencia": 3
+            },
+            "nota_100": null
+          },
+          {
+            "metodo": "vaso-barro",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 4,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 3
+            },
+            "nota_100": null
+          },
+          {
+            "metodo": "vaso-plastico-vasado",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 4,
+              "aeracao": 4,
+              "espaco": 4,
+              "calor": 4,
+              "evidencia": 3
+            },
+            "nota_100": null
+          },
+          {
+            "metodo": "vaso-plastico",
+            "criterios": {
+              "raizes": 3,
+              "equilibrio_hidrico": 4,
+              "aeracao": 3,
+              "espaco": 3,
+              "calor": 4,
+              "evidencia": 2
+            },
+            "nota_100": null
+          },
+          {
+            "metodo": "raizes-soltas",
+            "criterios": {
+              "raizes": 4,
+              "equilibrio_hidrico": 1,
+              "aeracao": 5,
+              "espaco": 3,
+              "calor": 2,
+              "evidencia": 1
+            },
+            "nota_100": null
+          }
+        ],
+        "risco_eliminatorio": "Placa/árvore sem possibilidade de regas em calor intenso pode desidratar; recipiente fechado com substrato fino pode sufocar raízes.",
+        "pesos": {
+          "raizes": 25,
+          "equilibrio_hidrico": 25,
+          "aeracao": 20,
+          "espaco": 10,
+          "calor": 10,
+          "evidencia": 10
+        },
+        "natureza": "Notas heurísticas 1–5 ponderadas, não ensaio; cesto pode superar placa sob calor pela estabilidade hídrica."
       },
       "substrato": {
         "receita_publicada": "proposta_preliminar_nao_homologada",
-        "comparacao_brasileira": "pendente",
-        "validacao_percentuais": false
+        "comparacao_brasileira": "Produtor Orquídeas & Cia recomenda brita + pinus grosso; 4 Estações pinus em cachepô ou placa; Orquidário Bahia recomenda 70% chips de coco + 30% brita genericamente em seu clima. Não existe convergência publicada que valide 45% macadâmia + 30% perlita + 25% carvão.",
+        "validacao_percentuais": true,
+        "validacao_tecnica": {
+          "soma": 100,
+          "receita_atual": "45% macadâmia + 30% perlita grossa + 25% carvão vegetal",
+          "status": "alternativa condicional em vaso muito perfurado; sem validação específica; macadâmia e porcentagens são inferências",
+          "alternativa_evidencia_produtores": "pinus grosso + brita fina, ajustando proporções ao vaso e frequência de rega, sem percentuais comprovados",
+          "cultivo_primario": "placa de madeira ou cortiça sem substrato",
+          "granulometria": "grossa; sem fração pulverulenta"
+        }
       },
       "pendencias": [
-        "Maximizar consultas documentadas a produtores brasileiros; justificar encerramento abaixo da meta de 25",
-        "Consultar fontes científicas e botânicas aplicáveis, registrando evidência, confiança e diferenças entre mudas e adultos",
-        "Conferir taxonomia, hábito e oito critérios com referências",
-        "Pontuar os sete métodos e riscos eliminatórios",
-        "Confrontar misturas publicadas, granulometria e percentuais",
-        "Inspeção visual e homologação editorial"
+        "Inspeção visual da ficha antes de qualquer mudança",
+        "Evidência experimental específica de substrato, caso disponível"
       ],
-      "fontes_cientificas_status": "levantamento_incompleto"
+      "fontes_cientificas_status": "levantamento_incompleto",
+      "parecer_final": {
+        "decisao": "Parecer MACS 1.0 concluído com recomendação horticultural condicional, sem homologação experimental de receita.",
+        "suporte": "Placa/tronco ou cesto de madeira; AOS recomenda placas/cestos rasos para C. aclandiae; cesto ganha em balanço hídrico na matriz heurística, placa é mais fiel ao hábito epífito.",
+        "substrato": "Montagem principal sem substrato; para vaso, receita atual 45/30/25 é hipótese técnica, com alternativa pinus grosso + brita indicada por produtor brasileiro.",
+        "limites": "Seis fontes de produtores, meta 25 não alcançada; nenhum ensaio de percentuais da espécie; estudo de C. intermedia não prova manejo de C. aclandiae."
+      },
+      "etapa": "parecer_tecnico_finalizado"
     },
     {
       "especie": "Cattlianthe Chocolate Drop",
