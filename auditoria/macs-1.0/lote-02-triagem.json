@@ -12,8 +12,76 @@
       "substrato_visual": false,
       "percentuais": [],
       "soma_percentuais": 0,
-      "status_macs": "triagem_estrutural_concluida_pesquisa_pendente",
-      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS."
+      "status_macs": "pesquisa_especifica_documentada_parecer_parcial",
+      "observacao": "A triagem verifica estrutura e percentuais, não prova conformidade V4.9 nem validação MACS.",
+      "fontes": [
+        {
+          "nome": "Kew POWO",
+          "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A622173-1",
+          "tipo": "taxonomia",
+          "achado": "C. nobilior é espécie aceita; var. amaliae consta como sinônimo de C. nobilior f. amaliae, não táxon aceito separado."
+        },
+        {
+          "nome": "AOS — Cattleya Hunting in Brazil",
+          "url": "https://www.aos.org/orchids/articles/cattleya-hunting-in-brazil",
+          "tipo": "observacao_habitat_forma_amaliae",
+          "achado": "Forma amaliae observada em árvores de floresta decídua de cerrado com estação seca prolongada; especificidade de hospedeiros e faixa altitudinal."
+        },
+        {
+          "nome": "UNESP — Crescimento in vitro e aclimatação de orquídeas nativas",
+          "url": "https://repositorio.unesp.br/server/api/core/bitstreams/a1f2d0fc-778b-4ebe-ab77-2ea24bde7954/content",
+          "tipo": "experimento_direto_aclimatacao",
+          "achado": "Testou esfagno e pó de coco na aclimatação de C. nobilior var. amaliae; diferentes substratos e doses de adubação influenciaram crescimento, sem inferir superioridade em plantas adultas."
+        },
+        {
+          "nome": "Odara Orchids",
+          "url": "https://odara.orquidario.online/cattleya-nobilior/",
+          "tipo": "produtor_brasileiro_recomendacao_especifica",
+          "achado": "Distingue forma amaliae da tipo; recomenda amaliae em suportes rústicos de madeira ou cachepôs, não confundir com vaso de barro recomendado para tipo."
+        },
+        {
+          "nome": "Orquidário Mantovani",
+          "url": "https://www.orquideasmantovani.com.br/cattleya-nobilior-amaliae-375/p",
+          "tipo": "produtor_brasileiro_orientacao_generica",
+          "achado": "Oferece mudas sem vaso e lista madeira, plástico, barro e cachepô como opções de replante; não compara resultados."
+        },
+        {
+          "nome": "Orquidário Tradição",
+          "url": "https://www.orquidariotradicao.com.br/cattleya-nobilior-var-amaliae",
+          "tipo": "produtor_brasileiro_catalogo",
+          "achado": "Comercializa a variedade, sem indicação específica de suporte/substrato na página."
+        }
+      ],
+      "produtores_brasileiros": {
+        "consultados": 3,
+        "meta_flexivel": 25,
+        "nomes": [
+          "Odara Orchids",
+          "Orquidário Mantovani",
+          "Orquidário Tradição"
+        ],
+        "com_recomendacao_especifica": 1,
+        "com_orientacao_generica": 1,
+        "apenas_catalogo": 1,
+        "nota": "Contagem distingue páginas comerciais sem recomendações de manejo; não equivale a 3 evidências de substrato."
+      },
+      "perfil_radicular_hidrico": {
+        "exposicao_natural": "Epífita em árvores de floresta decídua",
+        "reservas": "Pseudobulbos",
+        "sazonalidade": "Habitat com estação seca prolongada",
+        "agua": "Reforçar durante crescimento, reduzir conforme atividade e secagem, sem impor calendário rígido",
+        "saturacao": "Evitar encharcamento prolongado",
+        "arquitetura": "Simpodial, rizoma rastejante",
+        "termico": "Adaptar ao calor e ventilação do cultivo",
+        "espessura_raizes": "Não medida nas fontes verificadas"
+      },
+      "parecer_preliminar": "Priorizar avaliação de suporte de madeira ou cachepô para amaliae, distinguindo-a da forma tipo; ausência de ensaio comparativo em adultas impede pontuação homologada.",
+      "pendencias": [
+        "Ampliar produtores e registrar consultas negativas",
+        "Pontuar sete suportes com evidência por critério",
+        "Comparar receita e granulometria para recipiente proposto",
+        "Inspecionar visualmente a ficha antes de implementar"
+      ]
     },
     {
       "arquivo": "dados/orquideas/cattleya-pumpkin-festival.js",
