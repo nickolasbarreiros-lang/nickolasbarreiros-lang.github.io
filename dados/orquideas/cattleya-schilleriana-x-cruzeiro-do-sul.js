@@ -201,4 +201,137 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
         "agua": 3,
         "raridade": 4
     }
+    macs1_0: {
+        "versao": "MACS 1.0",
+        "status": "parecer_tecnico_sem_homologacao_visual",
+        "pesos": [
+            25,
+            25,
+            20,
+            10,
+            10,
+            10
+        ],
+        "criterios": [
+            "raizes",
+            "agua",
+            "aeracao",
+            "espaco",
+            "calor",
+            "evidencia"
+        ],
+        "montagens": [
+            {
+                "suporte": "vaso-barro",
+                "notas": [
+                    5,
+                    4,
+                    5,
+                    4,
+                    5,
+                    4
+                ],
+                "pontuacao": 91
+            },
+            {
+                "suporte": "cesto-madeira",
+                "notas": [
+                    5,
+                    4,
+                    5,
+                    4,
+                    4,
+                    4
+                ],
+                "pontuacao": 89
+            },
+            {
+                "suporte": "vaso-plastico-vasado",
+                "notas": [
+                    4,
+                    4,
+                    5,
+                    4,
+                    4,
+                    4
+                ],
+                "pontuacao": 84
+            },
+            {
+                "suporte": "vaso-plastico",
+                "notas": [
+                    4,
+                    4,
+                    3,
+                    4,
+                    3,
+                    4
+                ],
+                "pontuacao": 74
+            },
+            {
+                "suporte": "placa-tronco",
+                "notas": [
+                    4,
+                    3,
+                    5,
+                    3,
+                    3,
+                    4
+                ],
+                "pontuacao": 75
+            },
+            {
+                "suporte": "arvore-viva",
+                "notas": [
+                    4,
+                    3,
+                    5,
+                    4,
+                    3,
+                    2
+                ],
+                "pontuacao": 73
+            },
+            {
+                "suporte": "raizes-soltas",
+                "notas": [
+                    2,
+                    1,
+                    5,
+                    1,
+                    2,
+                    1
+                ],
+                "pontuacao": 43
+            }
+        ],
+        "perfil": {
+            "raizes": "espessura não medida; sensíveis ao replante",
+            "exposicao": "epífita por analogia parental",
+            "reserva": "pseudobulbos",
+            "umidade": "rega no crescimento e secagem entre irrigações",
+            "seca": "tolerância a secagem moderada",
+            "saturacao": "evitar encharcamento",
+            "arquitetura": "simpodial",
+            "temperatura": "quente a intermediária"
+        },
+        "substrato": {
+            "recipiente": "vaso de barro",
+            "percentuais": {
+                "pinus medio-grosso": 40,
+                "macadamia media": 25,
+                "carvao": 20,
+                "perlita grossa": 15
+            },
+            "natureza": "proposta técnica sem teste comparativo"
+        },
+        "fontes": [
+            "https://www.orquidariowolf.com.br/produtos/cattleya-memoria-rita-franke1/",
+            "https://www.orquidarioaniela.com.br/product-page/cattleya-cruzeiro-do-sul-x-cattleya-schileriana",
+            "https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-schilleriana-rchb-f",
+            "https://www.orquidariopaulista.com.br/produtos/cattleya-schilleriana-v-tipo/"
+        ],
+        "observacao": "Orquidário Wolf identifica cruzamento como Cattleya Memoria Rita Franke; confirmar registro antes de alterar nome."
+    }
 };
