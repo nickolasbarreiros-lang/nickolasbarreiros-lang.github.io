@@ -40,18 +40,18 @@ export const cattleyaChocolateDrop = {
     "floracao": "Floresce geralmente do outono ao inverno, entre abril e agosto, embora o ciclo varie conforme o clone. As hastes eretas carregam flores cerosas, brilhantes e duráveis. O perfume pode variar de discreto a moderado. Plantas adultas e pouco divididas costumam produzir cachos mais densos e mais de uma haste simultânea.",
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade a cada 60–90 dias durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/2 da dose a cada 7–15 dias.\n🌱 Crescimento: mantenha nutrição até os pseudobulbos engrossarem e as folhas endurecerem.\n🌸 Maturação: reduza o nitrogênio; fórmulas muito ricas em fósforo não substituem luz adequada.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, distante de raízes novas.\n🚿 Flushing: lave mensalmente o vaso para evitar sais.",
     "rega": "Regue abundantemente durante brotação e alongamento dos pseudobulbos, deixando o substrato quase secar antes da próxima aplicação. Após a maturação, aumente ligeiramente o intervalo, sem impor seca severa. Evite água parada em bainhas e espatas, especialmente à noite. Raízes claras e firmes indicam saúde; raízes escuras, ocas e substrato com odor azedo indicam retenção excessiva.",
-    "suporte": "🥇 Vaso de barro — oferece peso, estabilidade e secagem rápida.\n🥈 Cachepô de madeira — excelente para touceiras adultas e raízes vigorosas.\n🥉 Vaso plástico muito perfurado — opção prática em locais de secagem rápida.\nEscolha recipiente proporcional e mantenha o rizoma acima do substrato.",
+    "suporte": "🥇 Vaso plástico vasado — boa aeração e retenção controlável; opção principal do MACS 1.0.\n🥈 Vaso plástico comum com mistura grossa e drenagem livre — utilizado em pesquisa brasileira com mudas deste híbrido.\n🥉 Vaso de barro — estabilidade e secagem lateral para plantas maiores.\nO ranking é heurístico, não comparação experimental de recipientes.",
     "substrato": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.\n🥉 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n⭐ Alternativa: Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
     formasCultivo: {
     "perfilVisual": "cattleya",
-    "destaque": "Vaso de barro",
-    "resumo": "A escolha do recipiente equilibra oxigenação das raízes, drenagem e estabilidade, com secagem adequada entre regas.",
+    "destaque": "Vaso plástico vasado",
+    "resumo": "MACS 1.0: vaso plástico vasado (80/100) e vaso plástico comum (78/100) são opções próximas; a pesquisa com mudas utilizou vaso plástico, sem comparar recipientes.",
     "metodos": [
         {
             "nome": "Vaso de barro",
             "asset": "vaso-barro",
             "estrelas": null,
-            "status": "Mais indicada na ficha",
+            "status": "Alternativa",
             "texto": "A terracota oferece estabilidade e evaporação pelas paredes; o vaso deve ter tamanho proporcional e mistura bem drenante."
         },
         {
@@ -65,8 +65,8 @@ export const cattleyaChocolateDrop = {
             "nome": "Vaso plástico vasado",
             "asset": "vaso-plastico-vasado",
             "estrelas": null,
-            "status": "Alternativa",
-            "texto": "Os furos favorecem a oxigenação e reduzem a retenção excessiva; monitore a secagem da mistura."
+            "status": "Mais indicada na ficha",
+            "texto": "Os furos aumentam a ventilação e ajudam a evitar saturação; o resultado MACS é uma estimativa, não uma comparação experimental de vasos."
         },
         {
             "nome": "Vaso plástico",
@@ -80,8 +80,8 @@ export const cattleyaChocolateDrop = {
     substratoVisual: {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
-    "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "Como híbrido de Cattleya, precisa de substrato que não permaneça encharcado, mas ofereça alguma reserva de umidade entre regas.",
+    "resumo": "Referência científica para mudas: pinus e carvão 4:3 em volume; a mistura abaixo é alternativa de cultivo para planta estabelecida.",
+    "justificativa": "Estudo brasileiro cultivou mudas do próprio híbrido com pinus e carvão (4:3), mas comparou adubações, não substratos. A mistura ilustrada permanece uma alternativa horticultural.",
     "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de pinus + 30% casca de macadâmia + 20% perlita grossa + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
     "perfil": [
         "Raízes epífitas",
@@ -119,7 +119,7 @@ export const cattleyaChocolateDrop = {
             "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
-    "alerta": "Proporções orientativas, sujeitas à revisão por fontes brasileiras específicas; observar a secagem antes de repetir a rega."
+    "alerta": "Evidência direta: pinus e carvão (4:3 em volume) foram usados em pesquisa com mudas, sem comparação de substratos. A mistura ilustrada de quatro componentes não tem validação específica; observar a secagem."
 },
     "errosComuns": "Cultivar à sombra; excesso de nitrogênio; usar vaso grande; manter substrato compactado; enterrar o rizoma; acumular água na bainha floral; abrir ou cortar a espata sem necessidade; replantar fora da emissão de raízes; dividir touceiras pequenas; acreditar que adubo de floração substitui luz.",
     "dica": "A qualidade da florada depende mais de luz alta, maturação dos pseudobulbos e raízes saudáveis do que de adubação forte. Aclimate gradualmente ao ponto mais claro do orquidário, mantenha as bainhas secas e deixe o substrato quase secar. Isso produz cachos mais compactos, hastes firmes e pigmentação mais intensa.",
