@@ -37,6 +37,38 @@ export const ornithocephalusMyrticola = {
     "rega": "Reproduza o ciclo natural: molhar, hidratar, secar rapidamente e repetir. Em placas, borrife pela manhã diariamente no calor; uma segunda nebulização ambiental pode ser necessária no início da tarde, sem deixar o leque molhado à noite. Folhas enrugadas lateralmente indicam baixa umidade; base amolecida ou centro escuro indicam podridão; raízes cinzentas e quebradiças sugerem seca; raízes marrons e ocas indicam abafamento.",
     "suporte": "🥇 Placa rugosa de cortiça, sanção-do-campo, peroba velha ou aroeira bem curtida: melhor fixação e aeração.\n🥈 Tela plástica com fina pluma de esfagno: útil em ambiente muito úmido.\n🥉 Cachepô minúsculo e totalmente vazado: apenas como suporte mecânico.\nMadeiras lisas dificultam a aderência; o vaso nunca deve funcionar como reservatório de água.",
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.\n🥉 Esfagno de fibra longa usado muito solto + perlita grossa fina; evitar compactação junto ao rizoma.\n⭐ Alternativa: Casca de pinus fina + perlita + perlita grossa fina + pequena fração de esfagno solto.",
+    formasCultivo: {
+        perfilVisual: "ornithocephalus-miniatura-leque-raizes-delgadas",
+        destaque: "Placa / tronco",
+        resumo: "Miniatura epífita em leque, sem pseudobulbos, de raízes muito delicadas. Montagem em madeira rugosa ou cortiça permite aderência, umidade frequente e ventilação contínua.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Madeira rugosa bem curtida ou cortiça, com apenas uma pluma fina de esfagno sob as raízes." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 3, status: "Uso condicional", texto: "Cachepô minúsculo e totalmente aberto, funcionando apenas como suporte mecânico, sem reserva de água." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Recipiente muito pequeno e totalmente vazado, sem substrato profundo ou acúmulo de água." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 3, status: "Uso condicional", texto: "Tronco rugoso protegido de sol direto, somente em microclima de umidade regular e ventilação." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem em placa rugosa com esfagno mínimo",
+        resumo: "A montagem principal usa apenas uma lâmina fina de esfagno sob as raízes. Mistura de partículas pequenas é alternativa para suporte totalmente vazado, sem formar reservatório de água.",
+        justificativa: "A receita percentual corresponde à segunda alternativa qualitativa já registrada na ficha, para recipientes muito abertos. A montagem principal não requer substrato volumoso. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "40% chips de coco pequenos + 30% casca de pinus fina + 30% perlita grossa.",
+        perfil: ["Miniatura epífita", "Folhas em leque", "Sem pseudobulbos", "Raízes delicadas", "Umidade frequente e ventilação"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "chips-coco", nome: "Chips de coco pequenos", proporcao: "40%", nota: "umidade", finalidade: "Oferecem umidade moderada em suporte muito aberto." },
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "30%", nota: "estrutura", finalidade: "Apoia as raízes sem formar camada profunda." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "30%", nota: "aeração", finalidade: "Mantém drenagem e circulação de ar." }
+        ],
+        alerta: "Evitar secagem por vários dias, água acumulada no centro do leque, madeira lisa, sol direto e folhas molhadas à noite. Umidade elevada exige ventilação constante.",
+        notaEvidencia: "Receita percentual apenas para suporte vazado; na placa, usar esfagno mínimo. Estrelas e percentuais são estimativas não homologadas pela MACS 1.0. Conferência visual dos assets pendente."
+    },
     "errosComuns": "Secar por vários dias; encharcar o centro do leque; cultivar em vaso profundo; usar madeira lisa; aplicar adubo concentrado; expor ao sol direto; deixar a planta molhada à noite; aumentar umidade sem ventilação; manter junto a parede quente.",
     "dica": "Quatro pilares definem o sucesso: planta montada, umidade diária, folhas secas antes da noite e brisa contínua. Use apenas uma pluma de esfagno, suficiente para atrasar a secagem sem abafar. No calor, aumente a frequência das pequenas hidratações e não a quantidade de material retentivo. Observe o centro do leque diariamente: qualquer escurecimento exige secagem e mais ventilação.",
     revisaoCientificaIAR: {
