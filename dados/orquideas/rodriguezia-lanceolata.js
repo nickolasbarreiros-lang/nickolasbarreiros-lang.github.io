@@ -41,6 +41,39 @@ export const rodrigueziaLanceolata = {
     "rega": "Regue com frequência nos meses quentes e durante emissão de brotos e raízes novas. Em plantas montadas, regas diárias podem ser necessárias no verão, desde que as raízes sequem rapidamente. Em vasos, permita leve secagem entre irrigações. No frio ou em períodos chuvosos, reduza a frequência.",
     "suporte": "🥇 Cachepô pequeno de madeira — excelente equilíbrio entre retenção e ventilação.\n🥈 Tronco, placa de madeira ou cortiça — reproduz muito bem o hábito epífito.\n🥉 Vaso pequeno e muito vazado — opção prática em ambientes mais secos.\nEvite recipientes grandes ou fundos.",
     "substrato": "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.",
+    formasCultivo: {
+        perfilVisual: "rodriguezia-epifita-raizes-finas-hastes-pendentes",
+        destaque: "Cachepô de Madeira",
+        resumo: "Epífita compacta de raízes finas e hastes arqueadas ou pendentes. Cachepô pequeno e vazado equilibra umidade e ventilação.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô pequeno e bem vazado, com mistura aberta e espaço para as hastes pendentes." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Muito recomendado", texto: "Madeira ou cortiça rugosa com raízes expostas, desde que a umidade e as regas sejam suficientes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e muito furado, útil onde a montagem seca rápido demais." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e ventilado, acompanhando a secagem para não desidratar as raízes finas." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aberta para cachepô pequeno",
+        resumo: "Substrato de partículas médias que mantém aeração alta, com umidade moderada entre regas e secagem progressiva.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        perfil: ["Epífita compacta", "Raízes finas", "Hastes pendentes", "Umidade moderada", "Ventilação alta"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Mantém espaços de ar ao redor das raízes." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a evitar secagem excessiva entre regas." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para estrutura aberta e secagem." }
+        ],
+        alerta: "Evitar sombra profunda, recipientes grandes, substrato compactado e raízes encharcadas. Regar preferencialmente no início da manhã; replantar quando surgirem novas raízes.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "Sombra excessiva; vaso grande; substrato compactado; raízes constantemente encharcadas; bokashi em contato direto com raízes; molhar flores à noite; cortar hastes antes de secarem; pouca ventilação; replantar sem novas raízes.",
     "dica": "Em regiões quentes, use meia-sombra clara, cachepô pequeno ou montagem em madeira e regas no início da manhã. O objetivo é oferecer água com frequência sem sacrificar o oxigênio das raízes finas. Se o suporte ainda estiver molhado à noite, há retenção excessiva.",
     revisaoCientificaIAR: {
