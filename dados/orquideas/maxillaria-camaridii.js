@@ -41,6 +41,39 @@ export const maxillariaCamaridii = {
     "rega": "Mantenha regas regulares durante todo o ano, principalmente no calor. A espécie aprecia umidade constante no ambiente, mas as raízes devem secar rapidamente após a irrigação e nunca permanecer abafadas ou encharcadas. Em cultivo montado, pode exigir rega diária em períodos quentes e secos. No inverno ou em semanas frias e nubladas, ajuste a frequência à velocidade real de secagem, sem estabelecer repouso seco.",
     "suporte": "🥇 Cachepô/cesto de madeira, acompanhando o crescimento rizomatoso e oferecendo excelente aeração.\n🥈 Placa de madeira, cortiça ou tronco, ideal onde seja possível regar com frequência.\n🥉 Vaso largo e muito perfurado com mistura grossa, deixando espaço horizontal para o rizoma avançar. Evite vasos profundos e substratos compactos.",
     "substrato": "🥇 Casca de pinus grossa + carvão vegetal + perlita grossa + chips de coco.\n🥈 Casca de macadâmia + pinus grosso + perlita grossa + pequena fração de fibra de coco grossa.\n🥉 Chips de coco + carvão + brita fina, em recipiente muito ventilado.\n⭐ Montada: pequena quantidade de esfagno apenas junto às raízes novas, sem envolver ou sufocar o rizoma.",
+    formasCultivo: {
+        perfilVisual: "epifita-rizomatosa-pseudobulbos-espacados",
+        destaque: "Cachepô de Madeira",
+        resumo: "Epífita de rizoma alongado, pseudobulbos espaçados e flores laterais de curta duração. Favorecer suporte ventilado com espaço horizontal, regas frequentes e rápida secagem superficial das raízes.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô amplo e vazado que acomoda o avanço horizontal do rizoma, com ótima ventilação e drenagem." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Alternativa excelente", texto: "Placa de cortiça, madeira ou tronco em ambiente com regas frequentes, sem sufocar o rizoma." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso largo e muito perfurado com mistura grossa, permitindo expansão lateral." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso largo, raso e perfurado, com atenção à secagem no calor." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura grossa para cachepô de madeira ventilado",
+        resumo: "Substrato aberto para raízes ativas, com pequena reserva hídrica e drenagem rápida após regas frequentes.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Percentuais estimados, ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus grossa + 25% carvão vegetal + 25% perlita grossa + 15% chips de coco grossos.",
+        perfil: ["Epífita rizomatosa", "Pseudobulbos espaçados", "Raízes arejadas", "Regas frequentes", "Secagem superficial rápida"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "35%", nota: "estrutura", finalidade: "Oferece sustentação às raízes sem compactação." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "25%", nota: "porosidade", finalidade: "Contribui para drenagem e espaços de ar." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece rápida drenagem e oxigenação." },
+            { asset: "chips-coco", nome: "Chips de coco grossos", proporcao: "15%", nota: "reserva hídrica", finalidade: "Mantém umidade pontual entre regas sem sufocar as raízes." }
+        ],
+        alerta: "Evitar substrato fino, encharcamento prolongado, sombra profunda, sol forte repentino e repouso seco forçado. Manter o rizoma exposto e espaço lateral para novas brotações.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "❌ Usar substrato fino e manter as raízes molhadas por longos períodos.\n❌ Confundir alta umidade ambiental com necessidade de encharcamento constante.\n❌ Cultivar em sombra profunda, reduzindo vigor e floração.\n❌ Expor abruptamente ao sol forte do litoral.\n❌ Forçar repouso seco para induzir floração.\n❌ Confinar o rizoma alongado em vaso pequeno e profundo.\n❌ Dividir a planta sem preservar vários pseudobulbos e crescimento ativo.",
     "dica": "O segredo é separar duas necessidades que parecem contraditórias: muita disponibilidade de água e muita aeração. A planta pode receber regas frequentes, mas as raízes precisam respirar e secar superficialmente rápido. Para exemplares rizomatosos, cesto ou placa costuma reproduzir melhor essa dinâmica. Em litoral quente, combine 60–70% de sombra com ventilação constante; aumente a luz apenas gradualmente.",
     revisaoCientificaIAR: {
