@@ -41,6 +41,39 @@ export const dendrobiumSpectabile = {
         "🥉 Vaso plástico firme e perfurado com substrato grosso, evitando retenção excessiva."
     ],
     substrato: ["🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + perlita grossa + carvão vegetal.", "🥈 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.", "🥉 Cachepô/cesto com pinus grosso + macadâmia grossa + perlita grossa, deixando grandes espaços de ar.", "⭐ Alternativa: Casca de pinus grossa + carvão vegetal + brita fina, com quase nenhuma fração fina."],
+    formasCultivo: {
+        perfilVisual: "dendrobium-epifita-tropical",
+        destaque: "Cachepô de Madeira",
+        resumo: "Espécie epífita tropical de porte médio a grande. Precisa de suporte firme, luz filtrada abundante, raízes muito aeradas e água regular durante o crescimento, sem repouso seco severo.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô robusto e bem ventilado, dimensionado para a planta adulta, com amplo espaço para raízes e hastes." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Muito recomendado", texto: "Vaso pesado e muito drenante, oferecendo estabilidade para hastes grandes e mistura grossa." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Modelo reforçado, firme e perfurado, com partículas grossas e secagem monitorada." },
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 3, status: "Alternativa condicional", texto: "Somente recipiente bem perfurado e estável, evitando retenção prolongada e substrato compacto." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Proposta para cachepô ou vaso robusto e muito drenante",
+        resumo: "Mistura grossa de alta aeração, com retenção moderada e boa secagem entre regas.",
+        justificativa: "Os quatro componentes seguem a primeira receita qualitativa já indicada nesta ficha. Os percentuais são uma proposta horticultural, ainda sem homologação MACS 1.0.",
+        receitaTexto: "35% casca de macadâmia grossa + 30% casca de pinus grossa + 20% perlita grossa + 15% carvão vegetal.",
+        perfil: ["Epífita tropical", "Porte médio a grande", "Raízes aeradas", "Umidade no crescimento", "Sem repouso seco severo"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia grossa", proporcao: "35%", nota: "estrutura", finalidade: "Fornece partículas firmes e amplos espaços para as raízes." },
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "30%", nota: "drenagem", finalidade: "Mantém a mistura aberta e evita compactação." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Aumenta a porosidade e favorece a secagem entre regas." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "estabilidade", finalidade: "Acrescenta estrutura e drenagem à mistura." }
+        ],
+        alerta: "Durante o crescimento ativo, não deixar novos brotos secarem; evitar encharcamento permanente e não impor repouso seco severo. Dimensionar o suporte para a planta adulta.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual de assets ainda pendente."
+    },
     errosComuns: [
         "Cultivar em sombra excessiva",
         "Usar substrato fino e compactado",
