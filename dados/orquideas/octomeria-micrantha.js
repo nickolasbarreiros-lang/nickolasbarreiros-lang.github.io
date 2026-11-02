@@ -36,6 +36,38 @@ export const octomeriaMicrantha = {
     "rega": "Mantenha umidade regular, permitindo que o suporte seque parcialmente entre regas. Em placas, normalmente exige irrigação diária no verão, mas tolera a secagem superficial melhor que O. diaphana. No inverno, reduza a frequência em períodos frios e úmidos. Nunca deixe a planta completamente seca por vários dias. Pontas secas podem resultar de baixa umidade, excesso de sais ou raízes comprometidas; brotos escuros na base indicam abafamento.",
     "suporte": "🥇 Placa de madeira dura, cortiça ou galho rugoso: melhor opção para raízes aderentes e secagem rápida.\n🥈 Pequeno cesto de madeira: favorece aeração e formação de almofadas.\n🥉 Cuia rasa e muito perfurada: alternativa para locais de umidade ambiental mais baixa.\nPrefira montagem permanente e evite mexer depois que a planta se fixar.",
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Esfagno de fibra longa usado muito solto + perlita grossa fina; evitar compactação junto ao rizoma.\n🥉 Casca de pinus fina + perlita + perlita grossa fina + pequena fração de esfagno solto.\n⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
+    formasCultivo: {
+        perfilVisual: "octomeria-miniatura-epifita-cespitosa",
+        destaque: "Placa / tronco",
+        resumo: "Micro-orquídea epífita de raízes finas e touceira em almofada. A montagem permanente em madeira ou cortiça favorece aeração e secagem superficial leve, sem desidratação prolongada.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Placa de madeira dura ou cortiça, com fina lâmina de esfagno apenas sob as raízes e sem cobrir a base da touceira." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cesto pequeno e aberto para formar almofadas compactas com boa ventilação." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Cuia rasa e muito perfurada, útil quando a umidade ambiental é menor, com mistura solta e leve." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 2, status: "Menos indicado", texto: "Somente vaso pequeno e raso, com regas ajustadas para evitar secagem prolongada." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem em madeira ou cortiça com fina lâmina de esfagno",
+        resumo: "A montagem principal utiliza suporte rugoso e pequena quantidade de esfagno sob as raízes. Em recipientes rasos, uma mistura leve pode oferecer umidade moderada sem compactar.",
+        justificativa: "A receita percentual usa a alternativa de chips de coco, perlita e pinus já registrada na ficha, destinada a recipientes. A montagem principal não utiliza mistura volumosa. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "40% chips de coco pequenos + 30% casca de pinus fina + 30% perlita grossa.",
+        perfil: ["Miniatura epífita", "Raízes finas", "Touceira cespitosa", "Secagem superficial leve", "Montagem permanente"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "chips-coco", nome: "Chips de coco pequenos", proporcao: "40%", nota: "umidade", finalidade: "Oferece retenção moderada em cuia ou cesto." },
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "30%", nota: "estrutura", finalidade: "Apoia as raízes finas sem excesso de volume." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "30%", nota: "aeração", finalidade: "Mantém drenagem e porosidade." }
+        ],
+        alerta: "Evitar divisão em poucas hastes, substrato encharcado, vaso fundo, adubo concentrado e seca prolongada. Não mudar o suporte após a fixação das raízes.",
+        notaEvidencia: "Receita percentual apenas para recipientes; na placa, usar fina lâmina de esfagno. Estrelas e percentuais são estimativas não homologadas pela MACS 1.0. Conferência visual dos assets pendente."
+    },
     "errosComuns": "❌ Fracionar touceiras em poucas hastes.\n❌ Manter substrato encharcado ou compactado.\n❌ Usar vaso fundo.\n❌ Aplicar fertilizante concentrado.\n❌ Cultivar em sombra profunda.\n❌ Impor seca prolongada no verão.\n❌ Remover bainhas ainda verdes.\n❌ Manipular a planta enquanto novos ramicaules se formam.\n❌ Molhar a folhagem no fim da tarde em noites frias.",
     "dica": "Preserve touceiras robustas e, se a divisão for indispensável, mantenha pelo menos 5 ramicaules vigorosos e enraizados. Prefira montagem permanente em madeira ou cortiça, com pouca umidade concentrada na base e raízes livres. Não retire bainhas verdes nem manipule a planta durante o crescimento. A espécie tolera secagem superficial leve, mas não abandono hídrico. Quanto maior a almofada, maior será o número de fascículos florais.",
     revisaoCientificaIAR: {
