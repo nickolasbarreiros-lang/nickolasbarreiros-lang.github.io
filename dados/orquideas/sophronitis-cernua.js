@@ -47,12 +47,7 @@ export const sophronitisCernua = {
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Alternativa prática quando se deseja muita aeração. Como seca rapidamente, ajuste a rega para evitar desidratação prolongada das raízes finas." }
         ]
     },
-    substrato: [
-        "Montagem em madeira, cortiça ou pequeno tronco, geralmente sem material retentivo ou com mínima fibra apenas no estabelecimento.",
-        "Em vaso mínimo: casca de pinus grossa + carvão vegetal + brita pequena + casca de macadâmia.",
-        "Mantenha a base da touceira exposta e permita secagem rápida após cada rega.",
-        "Evite substratos finos e esfagno envolvendo as raízes."
-    ],
+    substrato: ["🥇 Casca de pinus grossa + carvão vegetal + brita fina.", "🥈 Casca de macadâmia grossa + carvão vegetal + perlita grossa."],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em recipiente",
