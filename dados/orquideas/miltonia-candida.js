@@ -37,6 +37,39 @@ export const miltoniaCandida = {
     "rega": "Na emissão de brotos e folhas, regue assim que a superfície do substrato começar a secar. Não permita secagem completa prolongada. Folhas sanfonadas registram interrupções na expansão e não voltam ao formato normal. Antes de simplesmente aumentar as regas, examine as raízes: claras e firmes apontam para seca ou baixa umidade; castanhas, moles ou ocas revelam perda radicular, caso em que mais água agrava o problema. Após a maturação, aumente levemente o intervalo sem desidratar os pseudobulbos.",
     "suporte": "🥇 Vaso plástico pequeno e perfurado: conserva umidade homogênea com pouco volume de substrato.\n🥈 Vaso de barro: indicado para ambientes úmidos ou rotinas de rega frequente.\n🥉 Cesto de madeira: ótimo para touceiras expansivas e locais com elevada umidade relativa.",
     "substrato": "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.",
+    formasCultivo: {
+        perfilVisual: "miltonia-epifita-raizes-finas-umidade-regular",
+        destaque: "Vaso plástico vasado",
+        resumo: "Miltonia de raízes finas e crescimento sensível a oscilações hídricas. Recipiente pequeno e perfurado ajuda a manter umidade homogênea, sem sufocar as raízes.",
+        metodos: [
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso plástico pequeno e perfurado, com mistura aberta e umidade regular durante a expansão foliar." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Boa opção em locais úmidos ou quando é possível compensar a secagem com regas frequentes." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Adequado a touceiras expansivas e ambientes de alta umidade relativa, com regas ajustadas." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Exige alta umidade ambiental e regas consistentes para não desidratar as raízes finas." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aberta para vaso plástico pequeno e perfurado",
+        resumo: "Equilíbrio entre umidade regular e boa drenagem, protegendo raízes finas durante a formação de novos pseudobulbos.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        perfil: ["Miltonia epífita", "Raízes finas", "Umidade homogênea", "Drenagem eficiente", "Baixa salinidade"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Mantém apoio radicular e umidade moderada." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "reserva hídrica", finalidade: "Ajuda a manter umidade estável durante o crescimento." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para estrutura aberta e circulação de ar." }
+        ],
+        alerta: "Evitar vaso grande, substrato decomposto, sais acumulados e secas durante expansão foliar. O efeito sanfona pode indicar falta de água ou perda de raízes.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "❌ Substrato decomposto: sufoca e elimina as raízes finas.\n❌ Vaso grande: acumula água no centro e favorece podridão.\n❌ Falta de água durante expansão foliar: causa efeito sanfona irreversível.\n❌ Sombra excessiva: forma folhagem escura, mas reduz hastes.\n❌ Acúmulo de sais: queima pontas radiculares e amarelece folhas.\n❌ Água retida no centro do broto durante noites abafadas: favorece podridão bacteriana ou fúngica.",
     "dica": "O objetivo é formar um pseudobulbo novo cheio e vigoroso sem perder as raízes. Durante a expansão das folhas, mantenha água regular, substrato aerado e fertilização diluída. Quando surgir efeito sanfona, inspecione primeiro o sistema radicular. Replante assim que a casca começar a degradar, preferencialmente na emissão das primeiras raízes novas. O flushing mensal reduz sais e preserva as pontas radiculares que alimentarão a floração seguinte.",
     revisaoCientificaIAR: {
