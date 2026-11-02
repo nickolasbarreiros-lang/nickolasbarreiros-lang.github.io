@@ -67,7 +67,7 @@ export const oncidiumPumilum = {
         ],
         itens: [
             { asset: "perlita", nome: "Perlita grossa", proporcao: "35%", nota: "aeração", finalidade: "Promove espaços de ar e drenagem rápida." },
-            { asset: "brita", nome: "Brita fina/média", proporcao: "30%", nota: "drenagem", finalidade: "Mantém estrutura mineral e evita retenção prolongada." },
+            { asset: "brita-fina", nome: "Brita fina/média", proporcao: "30%", nota: "drenagem", finalidade: "Mantém estrutura mineral e evita retenção prolongada." },
             { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "25%", nota: "estrutura", finalidade: "Oferece pontos de fixação e pequena reserva hídrica." },
             { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "10%", nota: "fração orgânica", finalidade: "Complementa a fixação das raízes sem dominar a mistura." }
         ],
