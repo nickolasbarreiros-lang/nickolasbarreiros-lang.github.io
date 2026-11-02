@@ -36,7 +36,7 @@ export const cattleyaABrazilianDream = {
     adubacao: "🌿 Orgânica: Bokashi em pequena quantidade durante crescimento ativo, preferencialmente em porta-adubo e sem contato com o rizoma.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 a 1/3 da dose a cada 7 a 15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada para plantas em vaso ou cachepô. Fórmulas extremamente fosfatadas não são necessárias para induzir floração.",
     rega: "Durante crescimento ativo, regue profundamente e deixe o meio perder grande parte da umidade antes da próxima irrigação. Depois da maturação, aumente gradualmente o intervalo, observando a atividade das raízes. Não copie automaticamente a seca extrema de C. nobilior se o híbrido continuar ativo: a herança de C. loddigesii pede manejo mais flexível.",
     suporte: "🥇 Cachepô de madeira bem ventilado.\n🥈 Vaso de barro pequeno a médio e muito drenado.\n🥉 Placa de madeira ou cortiça em ambiente com umidade e possibilidade de regas frequentes.",
-    substrato: "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + perlita grossa + carvão vegetal.\n🥈 Casca de pinus grossa + carvão vegetal + brita fina, com quase nenhuma fração fina.\n🥉 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.\n⭐ Alternativa: Cachepô/cesto com pinus grosso + macadâmia grossa + perlita grossa, deixando grandes espaços de ar.",
+    substrato: ["🥇 Casca de pinus grossa + carvão vegetal + brita fina.","🥈 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.","🥉 Pinus grosso + macadâmia grossa + perlita grossa."],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Cachepô de madeira",
