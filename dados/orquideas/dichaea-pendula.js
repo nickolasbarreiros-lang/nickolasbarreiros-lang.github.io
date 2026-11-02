@@ -39,7 +39,7 @@ export const dichaeaPendula = {
     adubacao: "🌿 Orgânica: use bokashi apenas em quantidade mínima e longe das raízes ativas.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante crescimento ativo.\n🌱 Crescimento: mantenha nutrição leve e contínua, pois a espécie não apresenta repouso seco marcado.\n🧪 Liberação lenta: geralmente desnecessária; em vasos, use pouquíssimos grânulos.\n🚿 Lavagem: enxágue o suporte periodicamente para evitar acúmulo de sais nas raízes finas.",
     rega: "Mantenha as raízes regularmente úmidas, sem permitir secas prolongadas. Em placas, regas diárias podem ser necessárias no verão. A frequência deve cair quando a evaporação diminuir, mas nunca ao ponto de desidratar completamente a planta. Regue preferencialmente pela manhã e garanta ventilação suficiente para que a água não permaneça acumulada entre bainhas e folhas durante a noite.",
     suporte: "🥇 Placa vertical de cortiça ou madeira com fina camada de esfagno — favorece o hábito pendente e a aeração.\n🥈 Cesto suspenso pequeno — permite que as hastes cresçam livres.\n🥉 Vaso estreito e muito ventilado — útil quando a umidade ambiental é menor.\nMantenha espaço livre abaixo da planta para o desenvolvimento natural dos ramos.",
-    substrato: ["🥇 Casca de pinus fina/média + chips de coco pequenos + perlita grossa.","🥈 Pinus médio + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto."],
+    substrato: ["🥇 Pinus médio + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto."],
     formasCultivo: {
         perfilVisual: "dichaea-epifita-pendente-umida",
         destaque: "Placa / tronco",
