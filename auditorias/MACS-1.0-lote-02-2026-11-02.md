@@ -179,3 +179,13 @@ Inspeção direta dos blocos `formasCultivo.destaque`, `formasCultivo.metodos` e
 - A interface deve preservar o texto de contexto «Para cultivo em recipiente»/«Para cesto ou vaso suspenso» para impedir que leitores interpretem a mistura como exigência da montagem.
 - **Pendência científica mantida:** validar quantitativamente receitas com fontes independentes, especialmente *B. aureofulva*, *D. polysema* e *S. wittigiana*.
 - **0 edições de fichas nesta passagem**. Este registro é uma auditoria de consistência, não homologação MACS 1.0.
+
+## Revisão direcionada de três receitas prioritárias
+
+Verificação dos blocos `substratoVisual` no GitHub:
+
+- **Bifrenaria aureofulva:** 35% brita + 30% macadâmia + 20% carvão + 15% pinus; justificativa já explicita divergência com receita brasileira de partes iguais pinus/carvão/brita. A receita permanece **provisória** e sem esfagno, como exigido.
+- **Dendrobium polysema:** 45% pinus + 20% carvão + 20% macadâmia + 15% esfagno; contexto correto «Para cesto ou vaso ventilado», perfil «Sem repouso seco severo», alerta para reduzir esfagno se a umidade ambiental já for alta. Não confundir com dendróbios que exigem repouso seco.
+- **Sophronitis wittigiana:** 45% pinus + 25% carvão + 20% brita + 10% esfagno; contexto «Para cultivo em recipiente» distingue da placa/tronco recomendada como cultivo principal. Alerta foi corrigido de «No litoral quente» para «Em clima quente», em respeito à padronização editorial sem referências geográficas específicas, commit `e41fe05866c1f3f93acd7663794590d875ec9bf4`.
+
+**Resultado:** nenhum erro aritmético ou incompatibilidade categórica comprovada nessas três receitas; não modificar percentuais sem base comparativa. A avaliação de secagem em vaso real e a homologação MACS seguem pendentes.
