@@ -36,6 +36,39 @@ export const leptotesUnicolor = {
     rega: "Molhe abundantemente e deixe as raízes secarem antes da próxima irrigação. Em placas de madeira, pode precisar de rega diária no verão; em vasos ou cestos pequenos, regue quando o material estiver quase seco. A espécie tolera melhor uma breve secagem do que permanecer continuamente úmida. No inverno, aumente o intervalo sem permitir enrugamento persistente das folhas.",
     suporte: "🥇 Placa de cortiça, peroba ou galho rugoso.\n🥈 Pequena cesta de madeira ou plástico vazado.\n🥉 Vaso de barro muito pequeno, apenas onde a secagem seja rápida.\nUse amarração leve, sem apertar o rizoma.",
     substrato: "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.\n🥉 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n⭐ Alternativa: Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+    formasCultivo: {
+        perfilVisual: "miniatura-epifita-pendente-folhas-cilindricas",
+        destaque: "Placa / tronco",
+        resumo: "Miniatura epífita pendente, de folhas cilíndricas e carnosas. Prefere montagem firme em cortiça ou galho rugoso, luz filtrada abundante e ciclos rápidos de molhamento e secagem.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cortiça, madeira durável ou galho rugoso, com fixação leve e rizoma descoberto." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cestinho pequeno e muito vazado, com partículas grossas e secagem rápida." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Recipiente mínimo e muito perfurado, sem material retentor em excesso." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso muito pequeno e ventilado, somente quando a mistura seca rapidamente." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem principal em placa; mistura alternativa para cestinho ou vaso mínimo",
+        resumo: "Mistura de partículas médias, aberta e de secagem rápida, para evitar retenção excessiva nas raízes.",
+        justificativa: "A placa é o suporte principal já registrado. Para recipiente, os quatro materiais seguem a primeira receita qualitativa original; percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        perfil: ["Miniatura pendente", "Epífita", "Folhas carnosas", "Raízes expostas", "Secagem rápida"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 5, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece apoio às raízes sem compactação." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "apoio radicular", finalidade: "Permite fixação e pequena reserva de umidade." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Mantém espaços de ar e drenagem." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta da mistura." }
+        ],
+        alerta: "Evitar vaso grande, esfagno compactado, rizoma enterrado, sombra excessiva e amarração apertada. Fixar ou replantar preferencialmente durante emissão de raízes novas.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Usar vaso grande ou substrato retentor; cobrir o rizoma; compactar esfagno; cultivar em sombra excessiva; adubar em dosagem alta; molhar ao fim do dia em noites frias; replantar fora da emissão de raízes novas; apertar o rizoma com arame; confundir folhas murchas por perda de raízes com simples falta de água.",
     dica: "Replante ou fixe a planta quando surgirem raízes novas na base da brotação. As raízes antigas raramente voltam a aderir bem a um novo suporte, então a recuperação depende principalmente das raízes emitidas depois da mudança. Para essa espécie, uma boa montagem vale mais que um substrato sofisticado.",
     revisaoCientificaIAR: {
