@@ -231,7 +231,7 @@ export const cattleyaPumpkinFestival = {
         luminosidade: 5,
         agua: 3,
         raridade: 4
-    }
+    },
     macs1_0: {
         "versao": "MACS 1.0",
         "status": "parecer_tecnico_implementado_sem_homologacao_visual",
