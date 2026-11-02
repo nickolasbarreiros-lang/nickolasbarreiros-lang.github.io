@@ -35,7 +35,7 @@ export const jacquiniellaGlobosa = {
     adubacao: "🌿 Orgânica: bokashi apenas em quantidade mínima, isolado em porta-adubo e sem contato com a touceira.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante a atividade.\n🧪 Liberação lenta: preferencialmente evitar em plantas montadas; em vaso ou cesto, usar pouquíssimos grânulos. Faça lavagem mensal com água pura para remover sais.",
     rega: "Durante o crescimento e nos dias quentes, regue com frequência, especialmente em plantas montadas. Após cada irrigação, permita que raízes e suporte arejem e sequem antes da próxima rega. No frio ou em períodos nublados, reduza conforme a evaporação, sem provocar murchamento persistente das folhas carnosas.",
     suporte: "🥇 Placa pequena de cortiça ou madeira dura.\n🥈 Galho fino de casca rugosa.\n🥉 Cesto pequeno e muito aberto. Vaso raso é apenas opção secundária.",
-    substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Casca de pinus fina + perlita + perlita grossa fina + pequena fração de esfagno solto.\n🥉 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.\n⭐ Alternativa: Esfagno de fibra longa usado muito solto + perlita grossa fina; evitar compactação junto ao rizoma.",
+    substrato: ["🥇 Chips de coco pequenos + perlita de granulometria adequada a miniaturas + casca de pinus fina.","🥈 Esfagno de fibra longa solto + perlita de granulometria adequada a miniaturas."],
     formasCultivo: {
         perfilVisual: "miniatura-epifita-caules-finos-sem-pseudobulbos",
         destaque: "Placa / tronco",
