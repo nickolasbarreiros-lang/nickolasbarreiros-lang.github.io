@@ -31,6 +31,39 @@ export const gongoraBufonia = {
     rega: "Durante a emissão de brotos e raízes, regue abundantemente e volte a molhar antes que o conjunto fique completamente seco. As raízes gostam de umidade, mas precisam de oxigênio contínuo. Após a maturação dos pseudobulbos, aumente discretamente o intervalo conforme a evaporação, sem permitir desidratação prolongada ou enrugamento acentuado.",
     suporte: "🥇 Cesto suspenso de madeira, com fundo e laterais bem abertos.\n🥈 Cesto plástico amplamente perfurado e suspenso.\n🥉 Cachepô muito vazado, instalado alto para permitir o livre caimento das hastes.",
     substrato: "🥇 Chips de coco grossos + casca de pinus média + perlita grossa + esfagno solto, em cesto vazado.\n🥈 Casca de macadâmia média + chips de coco + perlita + esfagno em baixa proporção.\n🥉 Pinus médio + fibra de coco grossa + perlita grossa + carvão vegetal, mantendo umidade sem bloquear a haste descendente.\n⭐ Alternativa: Cesto com chips de coco + macadâmia + perlita grossa e uma fina camada de esfagno no topo, nunca compactada.",
+    formasCultivo: {
+        perfilVisual: "gongora-epifita-hastes-pendentes",
+        destaque: "Cachepô de Madeira",
+        resumo: "Epífita de florestas úmidas com hastes florais longas e descendentes. Precisa de cesto suspenso e aberto, sombra clara, raízes úmidas e ventiladas, sem bloqueio da saída das inflorescências.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cesto suspenso, com fundo e laterais abertos, para que as hastes florais atravessem livremente a estrutura." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa suspensa", texto: "Usar cesto plástico amplamente perfurado e suspenso, sem obstruir o fundo nem a passagem das hastes." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 2, status: "Uso condicional", texto: "Montagem apenas onde seja possível garantir umidade frequente e espaço livre para hastes longas." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 1, status: "Pouco indicado", texto: "Vasos convencionais podem bloquear as hastes descendentes; preferir cesto suspenso com fundo aberto." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura para cesto suspenso com fundo aberto",
+        resumo: "Substrato grosso e arejado, com reserva moderada de umidade para raízes ativas, sem compactação ou bloqueio das hastes.",
+        justificativa: "Os quatro componentes seguem a primeira mistura qualitativa já registrada na ficha. Percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        receitaTexto: "35% chips de coco grossos + 30% casca de pinus média + 20% perlita grossa + 15% esfagno de fibra longa solto.",
+        perfil: ["Epífita de floresta úmida", "Pseudobulbos sulcados", "Hastes pendentes", "Umidade regular", "Fundo do cesto aberto"],
+        comportamento: [
+            { nome: "Retenção", valor: 4, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 2, icone: "⚡" },
+            { nome: "Compactação", valor: 2, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "chips-coco", nome: "Chips de coco grossos", proporcao: "35%", nota: "umidade", finalidade: "Mantêm umidade moderada sem impedir a passagem das hastes." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "estrutura", finalidade: "Sustenta raízes com espaços de ar." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Favorece drenagem e reduz compactação." },
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "15%", nota: "retenção leve", finalidade: "Evita secagem completa durante o crescimento sem formar massa densa." }
+        ],
+        alerta: "Não bloquear o fundo do cesto, apoiar a planta onde as hastes não possam descer ou usar vaso fechado. Evitar sol forte, seca completa e calor abafado.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Cultivar em vaso fechado; bloquear o fundo do cesto; usar substrato fino ou compactado; deixar secar completamente durante o crescimento; impor repouso seco; manter calor abafado; expor ao sol forte; adubar em excesso; dividir a touceira em fragmentos pequenos; apoiar o cesto onde as hastes pendentes não tenham passagem.",
     dica: "Pense primeiro na haste floral e depois no vaso. A inflorescência nasce na base e precisa cair livremente; por isso o cesto suspenso, vazado e sem obstáculos é parte do cultivo, não apenas uma escolha estética. Combine esse espaço livre com raízes úmidas e oxigenadas, e a espécie responde com hastes longas e floradas muito mais consistentes.",
     revisaoCientificaIAR: {
