@@ -1,11 +1,12 @@
 {
   "versao_referencia": "V4.9",
-  "data_auditoria": "2026-10-30",
-  "metodo": "Registro independente de layouts. true=presença identificada/confirmada; null=não verificado, NÃO significa ausência. Não modifica fichas.",
+  "data_auditoria": "2026-11-02",
+  "metodo": "Auditoria direta dos arquivos JS: presença das propriedades formasCultivo e substratoVisual. index.js é arquivo técnico, não ficha. Marcação estrutural não certifica renderização, imagens/assets ou MACS 1.0. Não modifica fichas.",
   "total_arquivos": 150,
   "resumo": {
-    "ambos_layouts_marcados": 46,
-    "pendentes_de_verificacao": 104
+    "ambos_layouts_marcados": 149,
+    "pendentes_de_verificacao": 0,
+    "arquivo_tecnico_excluido": 1
   },
   "fichas": [
     {
@@ -146,11 +147,11 @@
     {
       "arquivo": "dados/orquideas/blc-chia-lin.js",
       "especie": "Rhyncholaeliocattleya Chia Lin",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/brassavola-perrini.js",
@@ -240,11 +241,11 @@
     {
       "arquivo": "dados/orquideas/camaridium-carinatum.js",
       "especie": "Maxillaria imbricata",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/catasetum-mattosianum.js",
@@ -259,83 +260,83 @@
     {
       "arquivo": "dados/orquideas/cattleya-a-brazilian-dream.js",
       "especie": "Cattleya A Brazilian Dream",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattleya-aclandiae-tipo.js",
       "especie": "Cattleya aclandiae",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattleya-chocolate-drop.js",
       "especie": "cattleya-chocolate-drop",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattleya-guttata-var-coerulea.js",
       "especie": "Cattleya guttata f. coerulea",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattleya-intermedia.js",
       "especie": "Cattleya intermedia",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattleya-leopoldii-dark-princess.js",
       "especie": "cattleya-leopoldii-dark-princess",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattleya-loddigesii.js",
       "especie": "Cattleya loddigesii",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattleya-lueddemanniana-tipo.js",
       "especie": "Cattleya lueddemanniana",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattleya-nobilior-var-amaliae.js",
       "especie": "Cattleya nobilior var. amaliae",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattleya-pumpkin-festival.js",
@@ -349,155 +350,155 @@
     {
       "arquivo": "dados/orquideas/cattleya-schilleriana.js",
       "especie": "cattleya-schilleriana",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattleya-schilleriana-x-cruzeiro-do-sul.js",
       "especie": "cattleya-schilleriana-x-cruzeiro-do-sul",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattleya-violacea-f-flamea.js",
       "especie": "cattleya-violacea-f-flamea",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattleya-violacea-f-suavissima-x-self.js",
       "especie": "cattleya-violacea-f-suavissima-x-self",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattleya-walkeriana.js",
       "especie": "cattleya-walkeriana",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattleya-walkeriana-f-alba-gnomus-x-f-alba-suprema.js",
       "especie": "Cattleya walkeriana (f. alba ",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattleya-warneri.js",
       "especie": "cattleya-warneri",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cattlianthe-ctt-jewel-box.js",
       "especie": "cattlianthe-ctt-jewel-box",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/coelogyne-asperata.js",
       "especie": "coelogyne-asperata",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/coelogyne-cristata.js",
       "especie": "coelogyne-cristata",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/coelogyne-fimbriata.js",
       "especie": "coelogyne-fimbriata",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/coelogyne-flaccida.js",
       "especie": "coelogyne-flaccida",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/coelogyne-ovalis-var-miniatum.js",
       "especie": "coelogyne-ovalis-var-miniatum",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/colmanara-wildcat.js",
       "especie": "colmanara-wildcat",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cyrtopodium-podophyllum.js",
       "especie": "cyrtopodium-podophyllum",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/cyrtopodium-saintlegerianum.js",
       "especie": "cyrtopodium-saintlegerianum",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/dendrobium-aggregatum.js",
       "especie": "dendrobium-aggregatum",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/dendrobium-loddigesii.js",
@@ -511,11 +512,11 @@
     {
       "arquivo": "dados/orquideas/dendrobium-moscatum.js",
       "especie": "dendrobium-moscatum",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/dendrobium-polysema.js",
@@ -529,38 +530,38 @@
     {
       "arquivo": "dados/orquideas/dendrobium-spectabile.js",
       "especie": "Dendrobium spectabile",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/dendrobium-tenellum.js",
       "especie": "dendrobium-tenellum",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/dichaea-cogniauxiana.js",
       "especie": "Dichaea cogniauxiana",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/dichaea-pendula.js",
       "especie": "Dichaea pendula",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/dinema-polybulbon.js",
@@ -574,83 +575,83 @@
     {
       "arquivo": "dados/orquideas/dryadella-aviceps.js",
       "especie": "Dryadella aviceps",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/dryadella-liliputiana.js",
       "especie": "Dryadella lilliputiana",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/encyclia-alboxanthina.js",
       "especie": "Encyclia alboxanthina",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/encyclia-bracteata.js",
       "especie": "Encyclia bracteata",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/encyclia-gallopavina.js",
       "especie": "Encyclia gallopavina",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/encyclia-mineirinha.js",
       "especie": "Encyclia ‘Mineirinha’",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/encyclia-oncidioides.js",
       "especie": "Encyclia oncidioides",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/epicattleya-rene-marques.js",
       "especie": "Epicattleya René Marqués",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/epidendrum-centropetalum.js",
       "especie": "Epidendrum centropetalum",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/epidendrum-hokulea-super-red.js",
@@ -682,38 +683,38 @@
     {
       "arquivo": "dados/orquideas/gomesa-recurva.js",
       "especie": "Gomesa recurva",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/gongora-bufonia.js",
       "especie": "Gongora bufonia",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/howeara-lava-burst.js",
       "especie": "Leomesezia Lava Burst",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/huntleya-meleagris.js",
       "especie": "Huntleya meleagris",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/index.js",
@@ -736,146 +737,146 @@
     {
       "arquivo": "dados/orquideas/isabelia-virginalis.js",
       "especie": "Isabelia virginalis",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/isochilus-linearis.js",
       "especie": "Isochilus linearis",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/jacquiniella-globosa.js",
       "especie": "Jacquiniella globosa",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/laelia-caulencens.js",
       "especie": "Cattleya caulescens",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/laelia-cinnabarina.js",
       "especie": "Cattleya cinnabarina",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/laelia-fournieri.js",
       "especie": "Cattleya fournieri",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/laelia-gloriosa.js",
       "especie": "Laelia gloriosa",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/laelia-lundii.js",
       "especie": "Cattleya lundii",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/laelia-lundii-alba.js",
       "especie": "Cattleya lundii f. alba",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/laelia-praestans.js",
       "especie": "Cattleya praestans",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/laelia-splendida.js",
       "especie": "Laelia splendida",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/lc-trick-or-treat.js",
       "especie": "Cattlianthe Trick or Treat",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/leptotes-unicolor.js",
       "especie": "Leptotes unicolor",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/lockhartia-lunifera.js",
       "especie": "Lockhartia lunifera",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/ludisia-discolor.js",
       "especie": "Ludisia discolor",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/macradenia-multiflora.js",
       "especie": "Macradenia multiflora",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/masdevallia-infracta.js",
@@ -889,56 +890,56 @@
     {
       "arquivo": "dados/orquideas/maxillaria-brasiliensis.js",
       "especie": "Maxillaria brasiliensis",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/maxillaria-camaridii.js",
       "especie": "maxillaria-camaridii",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/maxillaria-chrysantha.js",
       "especie": "Maxillaria chrysantha",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/maxillaria-leucaimata.js",
       "especie": "Maxillaria leucaimata",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/maxillaria-picta.js",
       "especie": "maxillaria-picta",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/maxillaria-pumila-ex-minuta.js",
       "especie": "maxillaria-pumila-ex-minuta",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/maxillaria-schunkeana.js",
@@ -952,20 +953,20 @@
     {
       "arquivo": "dados/orquideas/maxillaria-subulata.js",
       "especie": "maxillaria-subulata",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/maxillaria-tenuifolia.js",
       "especie": "maxillaria-tenuifolia",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/mediocalcar-decoratum.js",
@@ -979,101 +980,101 @@
     {
       "arquivo": "dados/orquideas/miltonia-candida.js",
       "especie": "miltonia-candida",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/miltonia-clowesii.js",
       "especie": "miltonia-clowesii",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/miltonia-regnellii.js",
       "especie": "miltonia-regnellii",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/miltonia-russelliana.js",
       "especie": "Miltonia russelliana",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/miltonia-spectabilis-var-moreliana.js",
       "especie": "miltonia-spectabilis-var-moreliana",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/neobenthamia-gracilis.js",
       "especie": "neobenthamia-gracilis",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/notylia-pubescens.js",
       "especie": "notylia-pubescens",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/octomeria-diaphana.js",
       "especie": "octomeria-diaphana",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/octomeria-micrantha.js",
       "especie": "octomeria-micrantha",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/oncidium-pubes.js",
       "especie": "oncidium-pubes",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/oncidium-pumilum.js",
       "especie": "oncidium-pumilum",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/oncidium-summer-wind.js",
@@ -1087,65 +1088,65 @@
     {
       "arquivo": "dados/orquideas/oncidium-twinkle.js",
       "especie": "oncidium-twinkle",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/ornithocephalus-myrticola.js",
       "especie": "ornithocephalus-myrticola",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/ornithophora-radicans.js",
       "especie": "Gomesa radicans",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/pabstiella-trifida.js",
       "especie": "pabstiella-trifida",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/phaius-tankervilleae-alba.js",
       "especie": "phaius-tankervilleae-alba",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/phalaenopsis-mannii.js",
       "especie": "phalaenopsis-mannii",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/phalaenopsis-pulcherrima.js",
       "especie": "Phalaenopsis pulcherrima",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/pholidota-chinensis.js",
@@ -1168,38 +1169,38 @@
     {
       "arquivo": "dados/orquideas/pleurothallis-modestissima.js",
       "especie": "pleurothallis-modestissima",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/polystachya-concreta.js",
       "especie": "Polystachya concreta",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/promenaea-guttata.js",
       "especie": "promenaea-guttata",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/promenaea-xanthina.js",
       "especie": "Promenaea xanthina",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/prosthechea-fragrans.js",
@@ -1222,38 +1223,38 @@
     {
       "arquivo": "dados/orquideas/renanthera-coccinea.js",
       "especie": "renanthera-coccinea",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/rodricidium.js",
       "especie": "rodricidium",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/rodriguezia-lanceolata.js",
       "especie": "rodriguezia-lanceolata",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/rodriguezia-venusta.js",
       "especie": "rodriguezia-venusta",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/sophronitis-cernua.js",
@@ -1276,47 +1277,47 @@
     {
       "arquivo": "dados/orquideas/spathoglottis-plicata.js",
       "especie": "spathoglottis-plicata",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/specklinia-grobyi.js",
       "especie": "specklinia-grobyi",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/stanhopea-assidensis.js",
       "especie": "Stanhopea Assidensis",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/stanhopea-guttulata.js",
       "especie": "stanhopea-guttulata",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/stanhopea-hernandezii.js",
       "especie": "stanhopea-hernandezii",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/stelis-cf-aprica.js",
@@ -1339,11 +1340,11 @@
     {
       "arquivo": "dados/orquideas/trichocentrum-fuscum.js",
       "especie": "trichocentrum-fuscum",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     },
     {
       "arquivo": "dados/orquideas/zygolum-louisendorf.js",
@@ -1357,11 +1358,11 @@
     {
       "arquivo": "dados/orquideas/zygopetalum-maculatum.js",
       "especie": "zygopetalum-maculatum",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
     }
   ],
   "marcacao_nao_e_certificacao_editorial": true
