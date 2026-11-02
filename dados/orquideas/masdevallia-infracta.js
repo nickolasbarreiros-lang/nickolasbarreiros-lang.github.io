@@ -80,11 +80,7 @@ export const masdevalliaInfracta = {
         "texto": "Pode funcionar em local úmido e fresco, mas reduz o controle sobre hidratação e temperatura radicular."
     }
 ] },
-    substrato: [
-    "Casca de pinus fina/média + casca de arroz carbonizada + carvão + esfagno",
-    "Casca de pinus fina + perlita + esfagno",
-    "Chips de coco pequenos + carvão + esfagno"
-],
+    substrato: ["🥇 Casca de pinus fina + perlita de granulometria adequada + esfagno solto.","🥈 Chips de coco pequenos + carvão vegetal pequeno + esfagno solto."],
     substratoVisual: {
       titulo: "Substrato ideal", contexto: "Receita para cultivo em vaso",
       resumo: "A mistura abaixo é indicada quando a planta não estiver montada em placa/ripinha; prioriza aeração com reserva hídrica controlada.",
