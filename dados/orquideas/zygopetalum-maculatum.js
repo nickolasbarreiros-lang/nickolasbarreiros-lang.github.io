@@ -41,6 +41,37 @@ export const zygopetalumMaculatum = {
     "rega": "Mantenha o substrato levemente úmido, regando pela manhã. No frio, reduza a frequência conforme a evaporação, mas preserve pseudobulbos firmes. Evite água acumulada nos brotos novos e regas noturnas.",
     "suporte": "🥇 Vaso de barro muito perfurado — favorece resfriamento por evaporação.\n🥈 Vaso plástico claro, largo e baixo — reduz absorção de calor.\nPosicione preferencialmente em bancada baixa e fresca, sem bloquear o fluxo de ar.",
     "substrato": "🥇 Chips de coco médios + casca de pinus fina/média + perlita + perlita grossa, mantendo umidade regular.\n🥈 Fibra de coco grossa + casca de arroz carbonizada + pinus médio + perlita grossa.\n🥉 Casca de macadâmia média + chips de coco + perlita + pequena fração de esfagno picado.\n⭐ Alternativa: Pinus médio + fibra de coco + perlita grossa + casca de arroz carbonizada; evitar secagem extrema e compactação.",
+    formasCultivo: {
+        perfilVisual: "zygopetalum-maculatum-terrestre-rupicola-raizes-sensiveis-calor",
+        destaque: "Vaso de Barro",
+        resumo: "Espécie terrestre ou rupícola com raízes sensíveis ao calor. Vaso de barro muito perfurado favorece evaporação e ajuda a manter o sistema radicular fresco, sem encharcamento.",
+        metodos: [
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso de barro bem perfurado, proporcional à touceira, em bancada baixa e ventilada para favorecer resfriamento evaporativo." },
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 4, status: "Alternativa", texto: "Vaso claro, largo e relativamente baixo, protegido de aquecimento pelo sol e com boa drenagem." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Recipiente claro e muito perfurado, com monitoramento da secagem para evitar desidratação prolongada." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura porosa com umidade regular para raízes sensíveis ao calor",
+        resumo: "Chips de coco, pinus e perlita grossa mantêm a mistura leve e aerada, permitindo regas regulares sem saturação prolongada.",
+        justificativa: "A primeira mistura qualitativa citava perlita e perlita grossa separadamente; foram reunidas como perlita grossa para evitar duplicação. Percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        receitaTexto: "40% chips de coco médios + 35% casca de pinus fina/média + 25% perlita grossa.",
+        perfil: ["Terrestre ou rupícola", "Raízes sensíveis ao calor", "Umidade regular", "Boa drenagem", "Preferência por noites frescas"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "chips-coco", nome: "Chips de coco médios", proporcao: "40%", nota: "umidade e estrutura", finalidade: "Conserva umidade moderada sem compactar o recipiente." },
+            { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece suporte às raízes com espaços de ar." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e reduz retenção excessiva." }
+        ],
+        alerta: "Evitar vaso preto exposto ao sol, calor acumulado, substrato encharcado, água parada nos brotos novos e secagem completa por vários dias. A receita não substitui a necessidade de noites mais frescas para floração consistente.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "Calor acumulado; vaso preto exposto ao sol; substrato encharcado; água nos brotos novos; regas noturnas; excesso de Osmocote no calor; pouca ventilação; sol forte; deixar raízes secarem totalmente por muitos dias.",
     "dica": "Em regiões litorâneas quentes, coloque a planta em bancada baixa, sombreada e ventilada. Prefira vaso de barro ou plástico claro e nunca deixe recipiente preto receber sol. Regue pela manhã e mantenha o sistema radicular fresco: esse manejo é decisivo para floração consistente.",
     revisaoCientificaIAR: {
