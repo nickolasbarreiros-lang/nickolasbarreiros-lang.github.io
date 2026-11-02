@@ -42,6 +42,39 @@ export const laeliaSplendida = {
         "🥉 Placa ou tronco robusto, quando houver umidade suficiente para regas frequentes."
     ],
     substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.", "🥈 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.", "🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.", "⭐ Alternativa: Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas."],
+    formasCultivo: {
+        perfilVisual: "laelia-robusta-epifita-rupicola-alta-luz",
+        destaque: "Cachepô de Madeira",
+        resumo: "Espécie robusta, epífita ou rupícola, de hastes florais longas. Priorizar suporte amplo, estável e muito ventilado, luminosidade elevada com aclimatação e espaço para novas frentes de crescimento.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô robusto e muito vazado, com espaço para crescimento e raízes bem ventiladas." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso largo, pesado e bem perfurado, proporcional ao rizoma e com mistura grossa." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Uso condicional", texto: "Tronco robusto e bem fixado, com regas frequentes durante estabelecimento e em períodos secos." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 3, status: "Uso condicional", texto: "Fixação permanente em árvore adequada, com luz suficiente e suporte para o porte adulto." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura grosseira para cachepô de madeira bem ventilado",
+        resumo: "Componentes médios e grossos para sustentação, boa drenagem e secagem perceptível entre regas.",
+        justificativa: "A receita quantifica os quatro materiais da primeira mistura qualitativa já registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        perfil: ["Epífita ou rupícola", "Pseudobulbos robustos", "Hastes longas", "Alta luminosidade", "Raízes arejadas"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece sustentação às raízes sem compactação." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "apoio radicular", finalidade: "Favorece fixação com umidade moderada." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Mantém drenagem e espaços de ar." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta do recipiente." }
+        ],
+        alerta: "Evitar sombra excessiva, vaso profundo, substrato encharcado e exposição abrupta ao sol forte. Reservar espaço para as novas frentes e hastes florais longas.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: [
         "Cultivar em sombra excessiva",
         "Usar vaso profundo e pouco ventilado",
