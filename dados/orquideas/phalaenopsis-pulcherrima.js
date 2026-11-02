@@ -68,7 +68,7 @@ export const phalaenopsisPulcherrima = {
         ],
         itens: [
             { asset: "perlita", nome: "Perlita grossa", proporcao: "35%", nota: "aeração", finalidade: "Mantém espaços de ar junto às raízes." },
-            { asset: "brita", nome: "Brita fina/média", proporcao: "30%", nota: "drenagem", finalidade: "Oferece estabilidade mineral e drenagem rápida." },
+            { asset: "brita-fina", nome: "Brita fina/média", proporcao: "30%", nota: "drenagem", finalidade: "Oferece estabilidade mineral e drenagem rápida." },
             { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "25%", nota: "estrutura", finalidade: "Cria pontos de fixação sem compactar." },
             { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "10%", nota: "fração orgânica", finalidade: "Acrescenta retenção discreta à mistura." }
         ],
