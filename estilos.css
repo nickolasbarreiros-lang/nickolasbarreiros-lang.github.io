@@ -9826,3 +9826,31 @@ main.container{
 .ingrediente-substrato-v4 small {
     order: 3;
 }
+
+/* V4.9.1 — ampliar somente a fotografia do cultivo principal, sem cortar a planta. */
+.formas-cultivo-foco-v41 .forma-principal-v4 .imagem-forma-v4 {
+    height: clamp(230px, 28vw, 320px);
+    min-height: 230px;
+    padding: 6px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formas-cultivo-foco-v41 .forma-principal-v4 .imagem-forma-v4 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    object-fit: contain;
+    object-position: center;
+    transform: none;
+}
+@media (max-width: 620px) {
+    .formas-cultivo-foco-v41 .forma-principal-v4 .imagem-forma-v4 {
+        height: 240px;
+        min-height: 240px;
+    }
+}
