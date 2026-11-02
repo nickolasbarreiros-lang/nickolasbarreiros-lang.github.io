@@ -55,10 +55,8 @@ export const polystachyaConcreta = {
     ],
 
     substrato: [
-        "🥇 Casca de pinus média + carvão vegetal + perlita grossa.",
-        "🥈 Casca de pinus + chips de coco + perlita grossa, em mistura aberta.",
-        "🥉 Carvão + casca grossa + pequena fração de esfagno para retenção moderada.",
-        "⭐ Montada: fina camada de esfagno junto às raízes, sem compactação."
+        "🥇 Casca de pinus média + chips de coco + perlita grossa.",
+        "🥈 Carvão vegetal + casca de pinus grossa + pequena fração de esfagno solto."
     ],
 
     formasCultivo: {
