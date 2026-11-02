@@ -292,3 +292,14 @@ Menegusso et al. (2021), *Ornamental Horticulture*, DOI 10.1590/2447-536X.v27i3.
 
 ### Critério de encerramento
 As cinco prioridades possuem agora **parecer operacional documentado**, mas **não receitas percentuais homologadas**. O passo seguinte útil é aplicar **ajustes editoriais de manejo claramente fundamentados**, após ler cada ficha, e reservar mudança de mistura para contradições demonstradas ou ensaio. Não declarar 25 produtores consultados sem evidência.
+
+## Verificação de implementação nas cinco fichas prioritárias — 02/11/2026
+
+Arquivos inspecionados diretamente no repositório:
+- `dados/orquideas/aerides-odorata.js`: rega abundante seguida de secagem rápida, raízes livres como cultivo principal e vasos muito vazados como alternativa. **Texto coerente; sem mudança.**
+- `dados/orquideas/epidendrum-centropetalum.js`: rega regular sem encharcamento, cachepô ventilado e montagem com camada fina de esfagno; `substratoVisual.justificativa` declara percentuais não homologados. **Texto coerente; sem mudança.**
+- `dados/orquideas/miltonia-russelliana.js`: rega regular sem seca prolongada, substrato arejado; **granulometria de pinus médio e perlita grossa ainda precisa de confronto técnico**. Sem mudança.
+- `dados/orquideas/promenaea-xanthina.js`: **corrigida em dois commits**: `461e9edc68ea15d9457ca7c014b35c2c2764cda0` (rega conforme maturação dos brotos e raízes) e `9082ee8fbedbe816648cc7c86b3e537a448d4459` (distinção de umidade do ar e alerta de brotos pequenos). Fonte direta: AOS https://www.aos.org/explore/promenaea .
+- `dados/orquideas/phalaenopsis-pulcherrima.js`: regas regulares, drenagem completa, vaso baixo e substrato mineral aberto; **65% de perlita + brita permanece hipótese não homologada**, sem mudança.
+
+**Balanço de execução:** 5/5 fichas prioritárias inspecionadas, 1/5 com correções textuais efetivas, 4/5 mantidas; **0 receitas percentuais alteradas**. A inspeção é de código/texto, não teste de renderização visual. Não declarar o lote homologado cientificamente. Próxima etapa: iniciar lote 02 com 10 arquivos novos e registrar composição e evidências, evitando repetir pesquisa inconclusiva do lote 01.
