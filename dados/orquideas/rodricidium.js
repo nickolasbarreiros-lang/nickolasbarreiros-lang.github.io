@@ -40,6 +40,39 @@ export const rodricidium = {
     "rega": "Regue quando a superfície secar e permita que a mistura perca a maior parte do excesso em 1–2 dias. No frio, aumente o intervalo conforme a evaporação, sem permitir enrugamento severo dos pseudobulbos.",
     "suporte": "🥇 Cachepô pequeno e bem vazado — máxima ventilação.\n🥈 Placa de madeira dura — excelente em ambiente úmido.\n🥉 Vaso pequeno de barro ou plástico furado — opção prática.\nUse recipiente proporcional ao sistema radicular.",
     "substrato": "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.",
+    formasCultivo: {
+        perfilVisual: "rodricidium-hibrido-simpodial-epifita",
+        destaque: "Cachepô de Madeira",
+        resumo: "Híbrido intergenérico de porte variável, com pseudobulbos e raízes que exigem circulação de ar. Cachepô pequeno e muito vazado favorece secagem rápida, sem ressecamento prolongado.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô pequeno e bem vazado, com mistura grossa, secagem monitorada e espaço para novas frentes." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Madeira dura ou cortiça em ambiente úmido, com regas ajustadas à secagem." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e perfurado, com substrato aberto e rizoma acima da superfície." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e muito furado, sem retenção excessiva no centro." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aberta para cachepô pequeno e ventilado",
+        resumo: "Partículas médias e grossas com boa oxigenação e retenção moderada. A secagem prevista na ficha é de aproximadamente 1–2 dias, dependendo do ambiente.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Como o grex e os parentais exatos não foram identificados, o manejo é uma referência geral para o notogênero, não uma prescrição específica para todos os híbridos. Percentuais ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        perfil: ["Híbrido intergenérico", "Pseudobulbos comprimidos", "Raízes epífitas", "Secagem rápida", "Ventilação alta"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta as raízes e mantém porosidade." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a manter hidratação entre regas." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Facilita secagem e oxigenação." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "drenagem", finalidade: "Contribui para a estrutura aberta." }
+        ],
+        alerta: "Evitar sombra profunda, vasos grandes, encharcamento, seca prolongada e enterro do rizoma. Replantar preferencialmente na emissão de novas raízes.",
+        notaEvidencia: "Grex/parentais não informados. Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets pendente."
+    },
     "errosComuns": "Sombra excessiva; vaso grande; substrato compactado; encharcamento; seca prolongada; cortar haste verde; replantar fora da brotação; pouca ventilação; adubo forte; enterrar rizoma.",
     "dica": "O melhor momento de replante é quando a nova frente começa a emitir raízes. Faça a troca nesse exato estágio e use recipiente pequeno, muito aerado e substrato que seque em 1–2 dias. Isso reduz drasticamente o tempo de recuperação.",
     revisaoCientificaIAR: {
