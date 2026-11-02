@@ -36,6 +36,39 @@ export const maxillariaChrysantha = {
     rega: "Durante o crescimento, mantenha umidade regular, permitindo boa aeração entre regas. O substrato não deve secar completamente por períodos longos nem permanecer saturado. Após a maturação, aumente discretamente o intervalo. Em dias frios, úmidos ou nublados, ajuste a frequência à menor evaporação. Pseudobulbos enrugando progressivamente exigem inspeção das raízes antes de aumentar a água.",
     suporte: "🥇 Vaso de barro pequeno e bem furado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira vazado.\n🥉 Placa de madeira ou cortiça somente em ambiente fresco e úmido o suficiente para evitar desidratação rápida.",
     substrato: "🥇 Casca de pinus média + casca de macadâmia triturada + perlita grossa + fibra de coco grossa.\n🥈 Pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia.\n🥉 Fibra de coco grossa + chips de coco + perlita grossa + pinus médio, sem compactação.\n⭐ Alternativa: Chips de coco + pinus médio + perlita + carvão vegetal miúdo.",
+    formasCultivo: {
+        perfilVisual: "maxillaria-montana-raizes-sensiveis-calor",
+        destaque: "Vaso de Barro",
+        resumo: "Epífita montana de flores amarelas, favorecida por noites amenas, umidade regular e ventilação. O vaso pequeno e bem furado ajuda a reduzir retenção de água e calor nas raízes.",
+        metodos: [
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno e bem furado, pouco maior que a touceira, em local fresco e ventilado." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô vazado com mistura aberta, mantendo umidade regular sem saturação." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Cortiça ou madeira apenas em ambiente fresco e úmido, com regas suficientes para evitar desidratação." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Recipiente pequeno e muito perfurado, com atenção especial ao aquecimento e à umidade acumulada." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aberta para vaso pequeno em ambiente ameno",
+        resumo: "Substrato de partículas médias com umidade moderada, drenagem rápida e baixa compactação.",
+        justificativa: "A composição quantifica os quatro componentes da primeira receita qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% casca de macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa.",
+        perfil: ["Epífita montana", "Noites amenas", "Raízes sensíveis", "Umidade moderada", "Boa ventilação"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece suporte às raízes com umidade moderada." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "30%", nota: "drenagem", finalidade: "Mantém estrutura aberta e estável." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Amplia drenagem e espaços de ar." },
+            { asset: "fibra-coco", nome: "Fibra de coco grossa", proporcao: "10%", nota: "reserva hídrica", finalidade: "Retém pequena fração de umidade sem compactar." }
+        ],
+        alerta: "O substrato não substitui noites amenas: calor noturno persistente pode limitar a floração. Evitar vaso grande, rizoma enterrado, substrato degradado e replante fora da emissão de raízes novas.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Replantar fora do início de novas raízes; enterrar o rizoma; cobrir hastes basais; usar vaso grande; manter detritos deteriorados bloqueando botões; cultivar em calor noturno abafado; usar substrato saturado ou degradado; regar demais em períodos frios; dividir a touceira em porções pequenas; aplicar adubo concentrado.",
     dica: "Replante somente quando novas pontas radiculares estiverem surgindo. Preserve o máximo possível das raízes firmes e deixe a base dos pseudobulbos livre, pois é dali que saem as hastes. Para florir bem no litoral, concentre seus esforços em noites mais frescas, ventilação e baixa retenção de calor no vaso, em vez de provocar seca artificial.",
     revisaoCientificaIAR: {
