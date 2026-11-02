@@ -61,6 +61,38 @@ export const macradeniaMultiflora = {
         "⭐ Montada: fina camada de esfagno apenas junto às raízes novas."
     ],
 
+    formasCultivo: {
+        perfilVisual: "epifita-compacta-inflorescencia-pendente",
+        destaque: "Cachepô de Madeira",
+        resumo: "Epífita compacta com inflorescência pendente multifloral. Favorecer cachepô pequeno e ventilado, com espaço livre sob a planta, luz filtrada e umidade regular sem encharcamento.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô pequeno e vazado, suspenso para permitir queda livre da haste floral e boa drenagem." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Cortiça ou madeira durável, com regas mais frequentes para impedir desidratação prolongada." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e muito perfurado, com mistura leve e espaço livre para a haste pendente." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e bem vazado, sem acúmulo de água e com a inflorescência desobstruída." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aberta para cachepô pequeno e suspenso",
+        resumo: "Substrato leve de secagem moderada, com raízes ventiladas e umidade regular durante o crescimento.",
+        justificativa: "A receita quantifica os três componentes da primeira mistura qualitativa já registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "45% casca de pinus média + 30% perlita grossa + 25% carvão vegetal.",
+        perfil: ["Epífita compacta", "Inflorescência pendente", "Umidade regular", "Raízes ventiladas", "Secagem moderada"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "45%", nota: "estrutura e umidade", finalidade: "Oferece apoio radicular e umidade moderada sem compactação." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "30%", nota: "aeração", finalidade: "Amplia espaços de ar e drenagem." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "25%", nota: "porosidade", finalidade: "Mantém estrutura aberta e drenante." }
+        ],
+        alerta: "Evitar sol direto forte, seca prolongada em montagem, substrato encharcado e repouso seco intenso. Deixar a haste floral pender livremente.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: [
         "Expor ao sol direto forte porque a planta aceita boa luminosidade filtrada.",
         "Manter o substrato permanentemente encharcado por interpretar 'rega frequente' como saturação constante.",
