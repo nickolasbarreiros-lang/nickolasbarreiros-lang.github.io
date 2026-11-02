@@ -42,6 +42,39 @@ export const dichaeaCogniauxiana = {
         "🥉 Vaso pequeno e muito perfurado, evitando compactação e retenção excessiva de água."
     ],
     substrato: ["🥇 Casca de pinus fina/média + chips de coco pequenos + perlita + perlita grossa.", "🥈 Casca de macadâmia triturada média + fibra de coco grossa + perlita grossa + pequena fração de esfagno.", "🥉 Pinus médio + perlita + carvão vegetal miúdo + esfagno picado em baixa proporção.", "⭐ Alternativa: Chips de coco + perlita grossa + casca de pinus fina, mantendo umidade uniforme sem encharcar."],
+    formasCultivo: {
+        perfilVisual: "dichaea-epifita-umida",
+        destaque: "Placa / tronco",
+        resumo: "Epífita delicada de ambientes sombreados e muito úmidos. Exige raízes constantemente hidratadas, mas bem ventiladas, sem sol direto forte nem secagem prolongada.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Placa rugosa com camada fina e solta de esfagno junto às raízes; manter umidade frequente e circulação de ar constante." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Cachepô pequeno, arejado e com mistura leve, protegido de vento ressecante e luz intensa." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e bem perfurado, com substrato poroso e monitoramento da umidade." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Recipiente pequeno, de secagem mais rápida; usar apenas quando for possível manter umidade sem encharcar." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Proposta para cachepô ou vaso pequeno; placa com esfagno leve junto às raízes",
+        resumo: "Mistura leve de umidade relativamente constante, com partículas abertas e boa circulação de ar.",
+        justificativa: "A receita quantitativa parte da segunda alternativa já descrita na ficha, evitando duplicação de granulometrias de perlita da primeira. Percentuais não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de macadâmia média + 30% fibra de coco grossa + 25% perlita grossa + 10% esfagno solto.",
+        perfil: ["Epífita delicada", "Raízes sensíveis à seca", "Umidade elevada", "Sombra luminosa", "Ventilação constante"],
+        comportamento: [
+            { nome: "Retenção", valor: 4, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 2, icone: "⚡" },
+            { nome: "Compactação", valor: 2, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Cria suporte e espaços de ar para raízes delicadas." },
+            { asset: "fibra-coco", nome: "Fibra de coco grossa", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a conservar umidade sem formar massa compacta." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Mantém a mistura porosa e evita saturação contínua." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "retenção complementar", finalidade: "Protege contra secagem excessiva quando aplicado sem compactação." }
+        ],
+        alerta: "Evitar sol direto forte, secagem prolongada e esfagno compactado. Alta umidade não significa raízes encharcadas: manter ar em movimento.",
+        notaEvidencia: "Percentuais e estrelas são estimativas horticulturais ainda não homologadas pela MACS 1.0. Validação visual dos assets pendente."
+    },
     errosComuns: [
         "Expor ao sol direto forte",
         "Permitir secagem prolongada das raízes",
