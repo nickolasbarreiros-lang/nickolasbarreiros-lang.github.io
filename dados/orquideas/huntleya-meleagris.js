@@ -31,6 +31,39 @@ export const huntleyaMeleagris = {
     rega: "Mantenha o substrato uniformemente úmido, mas nunca saturado. Como não possui pseudobulbos, a espécie sofre com secas prolongadas; ao mesmo tempo, as raízes também deterioram em meio quente e sem oxigênio. Regue pela manhã e garanta que água acumulada entre as folhas seque antes da noite.",
     suporte: "🥇 Vaso plástico raso, justo e bastante perfurado.\n🥈 Vaso de barro perfurado, onde a umidade ambiental seja alta.\n🥉 Cesto pequeno revestido internamente com esfagno solto, em local muito ventilado.",
     substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.",
+    formasCultivo: {
+        perfilVisual: "epifita-sem-pseudobulbos-folhas-leque",
+        destaque: "Vaso plástico vasado",
+        resumo: "Espécie sem pseudobulbos e com folhas em leque, sensível à seca completa e ao calor abafado. Requer umidade regular, sombra clara, raízes frescas e oxigenadas.",
+        metodos: [
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso raso, justo e bastante perfurado, para manter umidade sem saturar as raízes." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e perfurado onde a umidade ambiental seja alta; acompanhar a secagem acelerada." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cesto pequeno, ventilado, com esfagno de fibra longa solto como revestimento interno, sem compactação." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 2, status: "Uso condicional", texto: "Somente com umidade ambiental muito alta e irrigação frequente; a ausência de pseudobulbos aumenta o risco de desidratação." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura para vaso raso e bastante perfurado",
+        resumo: "Mistura aberta que retém umidade moderada e fornece oxigênio continuamente às raízes delicadas.",
+        justificativa: "Os quatro materiais seguem a primeira mistura qualitativa já registrada na ficha. Percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 35% chips de coco + 20% perlita grossa + 10% carvão vegetal.",
+        perfil: ["Sem pseudobulbos", "Folhas em leque", "Alta umidade", "Raízes sensíveis", "Sombra clara"],
+        comportamento: [
+            { nome: "Retenção", valor: 4, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 2, icone: "⚡" },
+            { nome: "Compactação", valor: 2, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Mantém espaços de ar ao redor das raízes." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "35%", nota: "umidade", finalidade: "Ajuda a manter água disponível entre regas sem formar massa compacta." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Favorece oxigenação e drenagem." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "estrutura", finalidade: "Complementa a porosidade da mistura." }
+        ],
+        alerta: "Não deixar secar completamente, impor repouso seco, expor ao sol direto ou usar água muito salina. Evitar calor abafado, substrato saturado e água parada no centro dos leques à noite.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Deixar secar completamente; cultivar em vaso grande; manter substrato quente e saturado; usar água muito salina; aplicar fertilizante concentrado; expor ao sol direto; cultivar em ambiente abafado; deixar água parada no centro dos leques durante a noite; impor repouso seco no inverno.",
     dica: "O ponto-chave não é simplesmente ‘regar muito’, mas manter água disponível junto com oxigênio. Em dias quentes, aumente primeiro ventilação e umidade do ambiente antes de encharcar o vaso. Essa diferença é decisiva: raízes frescas e oxigenadas sustentam os leques; raízes quentes e saturadas entram em declínio rapidamente.",
     revisaoCientificaIAR: {
