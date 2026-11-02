@@ -27,3 +27,25 @@ Data: 02/11/2026. Ordem do índice oficial `dados/orquideas/index.js`, posiçõe
 2. Consultar produtores brasileiros com recomendações da espécie/híbrido, distinguindo lojas, relatos e estudos.
 3. Confrontar os percentuais com recipiente, granulometria, drenagem, umidade e sazonalidade.
 4. Corrigir apenas divergências demonstráveis, preservando layout V4.9, imagens, assets, IDC e IAR.
+
+## Primeira triangulação científica — Dendrobium loddigesii, Maxillaria schunkeana e Mediocalcar decoratum
+
+### Dendrobium loddigesii
+- RHS (espécie): https://www.rhs.org.uk/plants/5522/dendrobium-loddigesii/details — cultivo montado com umidade suficiente ou cesto com casca média, pedrisco horticultural, musgo ou fibra de coco; secagem entre regas, especialmente no inverno. Temperaturas de referência 20–25 °C no verão e 8–14 °C no inverno.
+- AOS (grupo): https://www.aos.org/orchids/articles/cold-tolerance-of-warm-growing-orchids — seção Dendrobium inclui *D. loddigesii* e aponta resposta à estação mais fresca e seca. Evidência de grupo, não ensaio de percentuais.
+- Receita atual 45% pinus grosso, 30% carvão, 25% brita: drenagem coerente; a recomendação de brita/pedrisco **não comprova 25% em volume**. **Prioridade mantida**: confrontar baixa retenção com regas em crescimento e repouso.
+
+### Maxillaria schunkeana (= Schunkea schunkeana)
+- AOS, gênero monoespecífico Schunkea: https://www.aos.org/explore/schunkea — prefere montagem com pequena almofada retentora; regas regulares, luz clara indireta e temperaturas intermediárias a quentes; em vasos, reduzir rega fora do crescimento.
+- Sutherland Shire Orchid Society, boletim junho 2025: https://ssos.org.au/wp-content/uploads/2025/06/BulletinJun25.pdf — relata melhor adaptação a condições intermediárias/intermediárias-frias e pouca tolerância ao calor elevado. **Há divergência de tolerância térmica**; não resolver por uma única fonte nem transformar temperatura de boletim em limite absoluto.
+- Receita atual 45% pinus médio/fino, 25% carvão, 20% macadâmia, 10% esfagno: componentes compatíveis com aeração, mas retenção e proteção térmica ainda não verificadas. **Prioridade mantida.**
+
+### Mediocalcar decoratum
+- AOS, gênero: https://www.aos.org/explore/mediocalcar — mistura epífita média com ingrediente retentor ou montagem com almofada retentora; temperaturas frescas/intermediárias, rega regular e raízes sem secagem completa.
+- OrchidWeb, espécie: https://www.orchidweb.com/p/mediocalcar-decoratum — relata bom cultivo em esfagno e rega quando este se aproxima da secagem; tolera algum calor no verão, não equivale a adaptação comprovada ao calor constante.
+- Receita atual 40% pinus fino, 25% esfagno, 20% carvão, 15% macadâmia: retenção funcional plausível, sem validação dos percentuais. **Prioridade mantida** sobretudo pelo fator térmico.
+
+### Controle de evidências
+- Nenhuma dessas fontes é produtor brasileiro com receita percentual testada para a espécie; não aumentar artificialmente a contagem MACS de produtores nacionais.
+- Foram comparadas 3/10 fichas do lote com fontes externas nesta etapa; 7/10 permanecem na triagem inicial.
+- **0 receitas alteradas e 0 homologações percentuais**. Preservar V4.9 e classificações IDC/IAR até revisão própria.
