@@ -51,7 +51,7 @@ export const bifrenariaAureofulva = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura de altíssima aeração e drenagem, com baixa retenção e estrutura durável.",
-        justificativa: "Bifrenarias exigem excelente oxigenação das raízes e não toleram substrato permanecendo molhado por longos períodos. A brita domina a drenagem e mantém macroporos permanentes; a macadâmia acrescenta estrutura orgânica durável; o carvão mantém a mistura aberta; e o pinus entra apenas como fração minoritária para oferecer pequena reserva de umidade sem reduzir excessivamente a aeração.",
+        justificativa: "Bifrenarias exigem excelente oxigenação das raízes e não toleram substrato permanecendo molhado por longos períodos. A brita domina a drenagem e mantém macroporos permanentes; a macadâmia acrescenta estrutura orgânica durável; o carvão mantém a mistura aberta; e o pinus entra apenas como fração minoritária para oferecer pequena reserva de umidade sem reduzir excessivamente a aeração. Uma referência brasileira de cultivo utiliza partes iguais de pinus, carvão e brita, sem macadâmia; portanto, esta composição alternativa permanece provisória e seus percentuais não estão homologados pela MACS 1.0.",
         receitaTexto: "35% brita pequena/média + 30% casca de macadâmia média + 20% carvão vegetal médio + 15% casca de pinus média. Composição técnica provisória para recipiente, sem esfagno; ajustar a rega à secagem observada.",
         perfil: ["Raízes finas a médias", "Aeração máxima", "Baixa retenção", "Secagem muito rápida", "Alta estabilidade", "Baixa compactação"],
         itens: [
