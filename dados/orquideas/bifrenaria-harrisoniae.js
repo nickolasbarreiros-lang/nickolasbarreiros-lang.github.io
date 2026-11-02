@@ -45,12 +45,7 @@ export const bifrenariaHarrisoniae = {
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Muito recomendado", texto: "Compatível com o hábito epífito e proporciona excelente oxigenação, mas requer regas mais frequentes porque praticamente não existe reserva hídrica." }
         ]
     },
-    substrato: [
-        "Brita pequena/média + casca de macadâmia média + carvão vegetal médio.",
-        "Brita pequena/média + casca de pinus média + carvão vegetal médio.",
-        "Brita pequena/média + casca de arroz carbonizada + carvão vegetal médio + casca de macadâmia média.",
-        "Brita pura, com rega e adubação ajustadas ao cultivo mineral de baixíssima retenção."
-    ],
+    substrato: ["🥇 Brita pequena/média + casca de macadâmia média + carvão vegetal médio.","🥈 Brita pequena/média + casca de pinus média + carvão vegetal médio.","🥉 Brita pequena/média + casca de arroz carbonizada + carvão vegetal médio + casca de macadâmia média."],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em cesto ou vaso",
