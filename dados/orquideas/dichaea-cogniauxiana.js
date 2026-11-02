@@ -41,7 +41,7 @@ export const dichaeaCogniauxiana = {
         "🥈 Cachepô ou cesto pequeno e muito aerado, com substrato leve.",
         "🥉 Vaso pequeno e muito perfurado, evitando compactação e retenção excessiva de água."
     ],
-    substrato: ["🥇 Casca de pinus fina/média + chips de coco pequenos + perlita grossa.","🥈 Pinus médio + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto.","🥉 Chips de coco + perlita grossa + casca de pinus fina."],
+    substrato: ["🥇 Casca de pinus fina/média + chips de coco pequenos + perlita grossa.","🥈 Pinus médio + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto."],
     formasCultivo: {
         perfilVisual: "dichaea-epifita-umida",
         destaque: "Placa / tronco",
