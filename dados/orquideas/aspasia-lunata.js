@@ -46,7 +46,7 @@ export const aspasiaLunata = {
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "É biologicamente compatível com o hábito epífito, porém exige regas mais frequentes e controle rigoroso para evitar ressecamento prolongado no clima quente." }
         ]
     },
-    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita grossa + casca de pinus média.\n⭐ Alternativa: Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.",
+    substrato: ["🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
     substrato: [
         "Casca de macadâmia média + carvão vegetal + casca de arroz carbonizada + esfagno solto",
         "Casca de pinus média + carvão vegetal + perlita grossa + esfagno solto",
