@@ -42,6 +42,39 @@ export const phalaenopsisPulcherrima = {
         "🥉 Montagem em tronco ou cortiça em ambiente úmido e com regas frequentes."
     ],
     substrato: ["🥇 perlita grossa + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.", "🥈 perlita grossa + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.", "🥉 Brita + perlita grossa + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.", "⭐ Alternativa: Macadâmia grossa + perlita grossa + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado."],
+    formasCultivo: {
+        perfilVisual: "phalaenopsis-pulcherrima-terrestre-litofita",
+        destaque: "Vaso de Barro",
+        resumo: "Espécie terrestre ou litófita de clima quente, com haste floral ereta. Recipiente baixo, muito perfurado e estável permite mistura mineral aberta e colo bem ventilado.",
+        metodos: [
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso baixo e bem perfurado, com substrato mineral e drenagem rápida, mantendo o colo fora da mistura." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso baixo e muito vazado, com mistura aberta e controle rigoroso da umidade." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô pequeno com partículas minerais e casca, evitando ressecamento excessivo." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Montagem em cortiça ou tronco apenas com umidade elevada e regas frequentes." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura mineral muito aberta para vaso baixo",
+        resumo: "A espécie cresce sobre rochas e solos arenosos; mistura com predominância mineral mantém drenagem rápida, colo ventilado e pequena fração orgânica.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa já registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% perlita grossa + 30% brita fina/média + 25% casca de macadâmia triturada + 10% casca de pinus grossa.",
+        perfil: ["Terrestre ou litófita", "Clima quente", "Haste ereta", "Colo ventilado", "Drenagem rápida"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 5, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "35%", nota: "aeração", finalidade: "Mantém espaços de ar junto às raízes." },
+            { asset: "brita", nome: "Brita fina/média", proporcao: "30%", nota: "drenagem", finalidade: "Oferece estabilidade mineral e drenagem rápida." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "25%", nota: "estrutura", finalidade: "Cria pontos de fixação sem compactar." },
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "10%", nota: "fração orgânica", finalidade: "Acrescenta retenção discreta à mistura." }
+        ],
+        alerta: "Evitar sombra profunda, encharcamento, vasos grandes, água acumulada na coroa e exposição súbita ao sol forte. Preservar hastes verdes que ainda produzam botões.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: [
         "Cultivar em sombra profunda como uma Phalaenopsis comum",
         "Manter o substrato permanentemente encharcado",
