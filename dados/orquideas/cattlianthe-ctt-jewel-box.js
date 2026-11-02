@@ -41,6 +41,39 @@ export const cattliantheCttJewelBox = {
     "rega": "Durante brotação e enraizamento, regue abundantemente quando o substrato estiver próximo da secagem. Após a maturação, aumente levemente o intervalo, sem desidratar os pseudobulbos. No inverno ou em semanas frias e chuvosas, reduza a frequência conforme a evaporação. Evite água acumulada nas bainhas e espatas, sobretudo à noite, pois isso favorece fungos e podridão dos botões.",
     "suporte": "🥇 Vaso de barro ou plástico muito furado — oferece estabilidade, boa drenagem e espaço controlado para novas frentes.\n🥈 Cestinho de madeira — excelente para formação de touceiras, raízes arejadas e expansão do rizoma.\n🥉 Placa de madeira — indicada para exemplares compactos e ambientes com umidade atmosférica elevada.\nUse recipiente apenas um pouco maior que a touceira, deixando espaço para duas ou três novas frentes.",
     "substrato": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.",
+    "formasCultivo": {
+        "perfilVisual": "cattleya",
+        "destaque": "Vaso de Barro",
+        "resumo": "Híbrido vigoroso que forma touceiras e prefere boa sustentação, raízes aeradas e espaço para poucas frentes novas. A recomendação visual prioriza vaso perfurado, conforme a ficha original, sem representar homologação MACS 1.0.",
+        "metodos": [
+            { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Vaso firme e bem perfurado, pouco maior que a touceira. Favorece estabilidade, boa drenagem e espaço controlado para novos pseudobulbos." },
+            { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 5, "status": "Muito recomendado", "texto": "Alternativa leve e ventilada, desde que haja muitos furos e mistura de granulometria média a grossa. Observe a secagem interna." },
+            { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": 4, "status": "Alternativa", "texto": "Permite expansão do rizoma e boa ventilação; pode demandar regas mais frequentes conforme o ambiente." },
+            { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": 3, "status": "Alternativa condicional", "texto": "Adequada para exemplares compactos, com umidade ambiental suficiente e irrigação compatível com a secagem rápida." }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Mistura proposta para vaso perfurado",
+        "resumo": "Composição aberta de granulometria média para sustentar touceiras vigorosas sem reter água em excesso.",
+        "justificativa": "A primeira mistura já registrada na ficha reúne macadâmia, pinus, perlita e carvão. Os percentuais abaixo são uma sugestão horticultural de apresentação visual, ainda sem validação por comparação sistemática com produtores conforme MACS 1.0.",
+        "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        "perfil": ["Raízes epífitas", "Touceira vigorosa", "Boa sustentação", "Aeração alta", "Secagem moderadamente rápida"],
+        "comportamento": [
+            { "nome": "Retenção", "valor": 2, "icone": "💧" },
+            { "nome": "Aeração", "valor": 5, "icone": "💨" },
+            { "nome": "Secagem", "valor": 4, "icone": "⚡" },
+            { "nome": "Compactação", "valor": 1, "icone": "🧱" }
+        ],
+        "itens": [
+            { "asset": "macadamia", "nome": "Casca de macadâmia média", "proporcao": "35%", "nota": "estrutura", "finalidade": "Oferece sustentação e preserva espaços para circulação de ar." },
+            { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "30%", "nota": "suporte e umidade moderada", "finalidade": "Ajuda a manter umidade transitória sem dispensar boa drenagem." },
+            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "20%", "nota": "aeração", "finalidade": "Aumenta a porosidade e reduz compactação." },
+            { "asset": "carvao-vegetal", "nome": "Carvão vegetal", "proporcao": "15%", "nota": "drenagem e estabilidade", "finalidade": "Contribui para manter a mistura aberta e estável." }
+        ],
+        "alerta": "Não enterre o rizoma, evite vaso grande e substitua o substrato quando degradado. Preserve touceiras estabelecidas para favorecer florações abundantes.",
+        "notaEvidencia": "Proporções e estrelas são sugestões técnicas não homologadas pela MACS 1.0. Validar visualmente os assets antes de considerar a ficha plenamente concluída."
+    },
     "errosComuns": "Cultivar sob sombra excessiva; dividir a touceira com frequência; usar vaso grande; deixar o substrato degradar; enterrar o rizoma; excesso de nitrogênio; somar várias fontes de adubo em dose completa; acumular água nas bainhas e espatas; replantar sem raízes novas; manter a planta frouxa no vaso.",
     "dica": "Preserve a touceira e permita o adensamento de vários pseudobulbos. Cada pseudobulbo maduro representa uma possível haste floral e uma reserva para os novos crescimentos. Com luz alta, raízes saudáveis e poucas divisões, Cattlianthe Jewel Box produz cachos mais cheios, hastes mais firmes e floradas simultâneas.",
     revisaoCientificaIAR: {
