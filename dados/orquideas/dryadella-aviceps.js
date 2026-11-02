@@ -40,6 +40,38 @@ export const dryadellaAviceps = {
     rega: "Mantenha umidade relativamente constante, permitindo que o excesso de água saia rapidamente. Não deixe a touceira secar por longos períodos, mas também não mantenha o centro do vaso cronicamente saturado. Em montagens, a rega pode ser diária no calor; em vasos com esfagno, espere a superfície se aproximar da secagem antes de regar novamente.",
     suporte: "🥇 Placa pequena de cortiça ou madeira com musgo fino — excelente para raízes arejadas.\n🥈 Vaso miniatura de barro — ajuda a dissipar calor e controlar umidade.\n🥉 Pequeno cachepô bem vazado — adequado com mistura leve e pouco material retentor.\nEvite dividir a planta sem necessidade.",
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.\n🥉 Esfagno de fibra longa usado muito solto + perlita grossa fina; evitar compactação junto ao rizoma.\n⭐ Alternativa: Casca de pinus fina + perlita + perlita grossa fina + pequena fração de esfagno solto.",
+    formasCultivo: {
+        perfilVisual: "miniatura-epifita-umida",
+        destaque: "Placa / tronco",
+        resumo: "Miniatura epífita de raízes finas e touceira compacta. Prefere sombra luminosa, umidade regular e ventilação, sem secagem total nem encharcamento nas noites quentes.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Placa pequena de cortiça ou madeira com lâmina fina de esfagno solto sob as raízes; manter umidade frequente sem compactar." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Muito recomendado", texto: "Vaso miniatura e raso, com mistura leve; pode ajudar a moderar a temperatura quando há circulação de ar." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô pequeno e vazado, com partículas finas a médias e pouca fração retentora." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Modelo miniatura, muito perfurado e com secagem monitorada; evitar excesso de volume e umidade estagnada." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem principal com esfagno fino; proposta para vaso miniatura ou cachepô",
+        resumo: "Mistura de partículas pequenas, arejada e levemente úmida, sem esfagno compactado ao redor do rizoma.",
+        justificativa: "A montagem é a primeira opção original. A receita quantitativa usa os três componentes da segunda alternativa já registrada na ficha; proporções ainda não homologadas pela MACS 1.0.",
+        receitaTexto: "40% chips de coco pequenos + 35% casca de pinus fina + 25% perlita grossa de granulometria adequada a miniaturas.",
+        perfil: ["Miniatura epífita", "Raízes finas", "Touceira compacta", "Umidade regular", "Sombra luminosa"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 2, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "chips-coco", nome: "Chips de coco pequenos", proporcao: "40%", nota: "umidade moderada", finalidade: "Retém umidade sem formar massa densa em recipiente pequeno." },
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "35%", nota: "estrutura", finalidade: "Acomoda raízes finas mantendo pequenos espaços de ar." },
+            { asset: "perlita", nome: "Perlita grossa calibrada", proporcao: "25%", nota: "aeração", finalidade: "Ajuda a manter drenagem e evitar compactação." }
+        ],
+        alerta: "Evitar divisão desnecessária, vaso grande, secagem total das raízes, sol direto e esfagno envelhecido ou compactado. Não usar encharcamento como método de resfriamento.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Validação visual dos assets ainda pendente."
+    },
     errosComuns: "Dividir touceiras pequenas; usar vaso grande; secar totalmente as raízes; manter esfagno velho e compacto; excesso de sais; sol direto; baixa ventilação; tratar a espécie como obrigatoriamente fria; encharcar durante noites quentes; adubação concentrada.",
     dica: "O melhor indicador de acerto é uma touceira compacta, firme e com raízes ativas. No litoral quente, não tente 'resfriar' a planta mantendo o vaso encharcado: ofereça sombra luminosa, ventilação contínua e umidade do ar, enquanto o substrato permanece pequeno e oxigenado.",
     revisaoCientificaIAR: {
