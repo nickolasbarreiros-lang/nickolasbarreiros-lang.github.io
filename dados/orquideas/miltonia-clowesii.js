@@ -37,6 +37,39 @@ export const miltoniaClowesii = {
     "rega": "Durante a expansão do broto, mantenha umidade regular e deixe apenas a superfície começar a secar antes de regar novamente. Irregularidade hídrica nessa fase causa folhas sanfonadas, mas aumentar a rega não resolve se as raízes já estiverem danificadas. Examine-as: raízes claras e firmes sugerem seca ou baixa umidade; raízes castanhas, moles ou ocas indicam perda radicular por substrato velho ou excesso de retenção. Após a maturação, aumente discretamente o intervalo sem murchar fortemente os pseudobulbos.",
     "suporte": "🥇 Vaso plástico pequeno e muito perfurado: mantém umidade relativamente uniforme sem grande massa de substrato.\n🥈 Vaso de barro: favorece evaporação e resfriamento radicular em ambientes úmidos.\n🥉 Cesto de madeira: indicado para touceiras grandes, com excelente ventilação e regas mais frequentes.",
     "substrato": "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.",
+    formasCultivo: {
+        perfilVisual: "miltonia-epifita-raizes-finas-hastes-arqueadas",
+        destaque: "Vaso plástico vasado",
+        resumo: "Miltonia de raízes finas e hastes arqueadas. Recipiente pequeno e muito perfurado mantém umidade regular sem saturar o centro, favorecendo novos pseudobulbos vigorosos.",
+        metodos: [
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno e muito perfurado, com mistura aberta e umidade homogênea durante a expansão foliar." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Favorece evaporação e resfriamento radicular em ambientes úmidos, exigindo atenção à frequência de rega." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Para touceiras grandes, com excelente ventilação e regas mais frequentes." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Apenas em ambiente úmido e com regas consistentes para evitar secagem das raízes finas." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura arejada para vaso pequeno e perfurado",
+        resumo: "Umidade moderada e regular com alta porosidade, protegendo raízes finas da compactação e do encharcamento.",
+        justificativa: "A receita quantifica os quatro materiais da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        perfil: ["Miltonia epífita", "Raízes finas", "Umidade regular", "Boa aeração", "Pseudobulbos vigorosos"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta raízes com retenção moderada." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a uniformizar a disponibilidade hídrica." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Mantém drenagem e espaços de ar." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para a estrutura aberta do substrato." }
+        ],
+        alerta: "Evitar vaso grande, substrato velho ou compacto, secagem na expansão foliar, sombra excessiva e água parada nas bainhas durante noites abafadas. Replantar no início de novas raízes.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "❌ Substrato velho ou compactado: elimina rapidamente as raízes finas.\n❌ Vaso grande: mantém o centro saturado e favorece podridão.\n❌ Secagem durante expansão foliar: produz folhas sanfonadas permanentes.\n❌ Sombra excessiva: enfraquece o pseudobulbo e reduz hastes.\n❌ Calor abafado e água nas bainhas à noite: favorecem fungos e podridão dos brotos.\n❌ Replantio fora da emissão de raízes: pode comprometer o pseudobulbo e a floração seguinte.",
     "dica": "O pseudobulbo novo é o reservatório que financiará a próxima haste. Durante sua formação, forneça água regular, luz filtrada forte, nutrição diluída e raízes muito aeradas. Uma folha sanfonada registra uma interrupção ocorrida durante a expansão e não voltará ao normal. Antes de aumentar a água, confira as raízes. Replante somente quando novas pontas radiculares aparecerem na base do broto; isso reduz o choque e permite que a planta se fixe antes de amadurecer o pseudobulbo.",
     revisaoCientificaIAR: {
