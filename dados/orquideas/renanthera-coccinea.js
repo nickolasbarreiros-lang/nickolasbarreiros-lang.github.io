@@ -40,6 +40,38 @@ export const renantheraCoccinea = {
     "rega": "Em dias quentes, regue abundantemente pela manhã. Plantas em cesto, com muitas raízes expostas, podem precisar de água diária no verão. Reduza apenas quando a evaporação cair. Evite água parada no ápice durante a noite e nunca mantenha as raízes mergulhadas ou em substrato compacto.",
     "suporte": "🥇 Cesto grande e muito vazado com tutor alto — melhor combinação para raízes e porte.\n🥈 Vaso pesado de drenagem ampla + tutor robusto.\n🥉 Estrutura vertical de madeira com raízes praticamente livres.\nPlaneje desde cedo o tamanho adulto e o espaço das hastes florais.",
     "substrato": "🥇 Cesto muito aberto com macadâmia grossa + carvão vegetal + perlita grossa; não preencher todos os espaços entre as raízes.\n🥈 Cultivo quase sem substrato, usando nós de pinho ou sarrafos de madeira apenas para fixação.\n🥉 Pinus muito grosso + argila expandida + carvão vegetal em cesto vazado.\n⭐ Alternativa: Chips de coco muito grossos + macadâmia + carvão, apenas o suficiente para estabilizar a planta.",
+    formasCultivo: {
+        perfilVisual: "renanthera-monopodial-trepadora-raizes-aereas",
+        destaque: "Cachepô de Madeira",
+        resumo: "Orquídea monopodial de grande porte, com crescimento vertical e raízes aéreas vigorosas. Cesto grande, muito vazado e com tutor alto permite fixação estável sem sufocar as raízes.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cesto grande e aberto com tutor robusto, substrato grosso apenas para fixação e raízes expostas." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso pesado, amplo e muito drenante, com tutor alto e mistura extremamente grossa." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Estrutura vertical de madeira, com raízes praticamente livres e hidratação frequente." },
+            { nome: "Raízes soltas", asset: "raizes-soltas", estrelas: 4, status: "Uso condicional", texto: "Cultivo de raízes livres com fixação vertical firme e regas frequentes; exige alta ventilação e acompanhamento hídrico." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura grossa e descontínua para cesto muito aberto",
+        resumo: "A espécie prefere raízes amplamente expostas ao ar. Pouco substrato grosso serve à estabilidade, com secagem rápida após regas abundantes.",
+        justificativa: "A receita quantifica os três componentes da primeira mistura qualitativa já registrada na ficha. As porcentagens referem-se apenas ao material solto no cesto, sem preencher todos os espaços entre raízes. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "45% casca de macadâmia grossa + 35% carvão vegetal grosso + 20% perlita grossa.",
+        perfil: ["Monopodial trepadora", "Raízes aéreas", "Porte grande", "Alta luminosidade", "Secagem rápida"],
+        comportamento: [
+            { nome: "Retenção", valor: 1, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 5, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia grossa", proporcao: "45%", nota: "fixação", finalidade: "Estabiliza a planta sem preencher a zona de raízes." },
+            { asset: "carvao", nome: "Carvão vegetal grosso", proporcao: "35%", nota: "estrutura", finalidade: "Mantém espaços amplos e secagem rápida." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Complementa a porosidade do material de fixação." }
+        ],
+        alerta: "Evitar sombra excessiva, vasos pequenos, mistura fina, cortes de raízes aéreas e falta de tutor. Aumentar a exposição ao sol gradualmente; manter água abundante com secagem rápida.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "Sombra excessiva; vaso pequeno; substrato fino e retentivo; cortar raízes aéreas; falta de tutor; pouca ventilação; adubo concentrado em raízes secas; replantios frequentes; espaço vertical insuficiente; exposição repentina a sol forte sem aclimatação.",
     "dica": "Se não floresce, olhe primeiro para a luz. Esta é uma espécie naturalmente exposta, inclusive em rochas abertas. Aumente a luminosidade gradualmente, mantenha raízes livres e forneça água abundante com secagem rápida — uma combinação muito mais eficiente do que tentar induzir floração com seca.",
     revisaoCientificaIAR: {
