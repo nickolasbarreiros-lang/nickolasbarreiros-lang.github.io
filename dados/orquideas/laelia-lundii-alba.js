@@ -36,7 +36,7 @@ export const laeliaLundiiAlba = {
     adubacao: "🌿 Orgânica: bokashi opcional em quantidade mínima, sempre afastado do rizoma.\n💧 Foliar/Mineral: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante crescimento ativo.\n🌱 Maturação: reduza a frequência quando o pseudobulbo estiver completo e a atividade diminuir.\n🧪 Liberação lenta: poucos grânulos apenas em recipiente muito drenante; em plantas montadas, é dispensável.\n🚿 Intercale regas somente com água para evitar sais.",
     rega: "Na brotação e emissão de raízes, regue bem e permita secagem rápida. Em montagem no verão, pode exigir regas diárias. Quando o crescimento desacelerar, aumente o intervalo entre irrigações, sem permitir desidratação severa dos pequenos pseudobulbos.",
     suporte: "🥇 Cortiça, galho ou madeira dura.\n🥈 Pequeno cachepô ou cesto de madeira.\n🥉 Vaso de barro pequeno, muito perfurado e preenchido com material grosseiro.",
-    substrato: "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.",
+    substrato: ["🥇 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.","🥉 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
     formasCultivo: {
         perfilVisual: "miniatura-epifita-rupicola-forma-alba",
         destaque: "Placa / tronco",
