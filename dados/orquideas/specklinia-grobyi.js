@@ -41,6 +41,37 @@ export const speckliniaGrobyi = {
     "rega": "Em placas, regue diariamente nos dias quentes e permita que a superfície seque em poucas horas. Em recipientes diminutos, regue quando o material começar a perder umidade, sem chegar à secagem total. Durante períodos frios e chuvosos, reduza a água e aumente a ventilação. O objetivo é umidade frequente com oxigênio constante.",
     "suporte": "🥇 Placa de cortiça, madeira dura ou galho fino — simula o hábito natural e dá máxima oxigenação.\n🥈 Cachepô diminuto e muito vazado — útil em ambiente quente.\n🥉 Vaso de barro muito pequeno e perfurado — opção para locais mais secos.\nUma camada mínima de esfagno é suficiente; o suporte não deve ficar abafado.",
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Esfagno de fibra longa usado muito solto + perlita grossa fina; evitar compactação junto ao rizoma.\n🥉 Casca de pinus fina + perlita + perlita grossa fina + pequena fração de esfagno solto.\n⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
+    formasCultivo: {
+        perfilVisual: "specklinia-grobyi-miniatura-epifita-raizes-finas",
+        destaque: "Placa / tronco",
+        resumo: "Micro-orquídea epífita de raízes delicadas. A montagem pequena em cortiça ou madeira permite umidade frequente sem abafamento.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Pequena placa de cortiça ou madeira rugosa, com lâmina mínima de esfagno sob as raízes e regas frequentes." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô diminuto e muito aberto, com pouca mistura e atenção à desidratação." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso muito pequeno e perfurado, adequado onde montagens secam rápido demais." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Recipiente mínimo e muito furado, com esfagno solto e sem compactação." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem principal em placa; mistura alternativa para recipiente mínimo",
+        resumo: "Na placa, apenas uma lâmina fina de esfagno sob as raízes. Em recipiente, esfagno de fibra longa muito solto e perlita grossa proporcionam umidade e ar.",
+        justificativa: "A montagem em madeira é a primeira indicação original. A receita percentual quantifica a segunda alternativa qualitativa para recipiente, não uma camada para aplicar sobre a placa. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "65% esfagno de fibra longa muito solto + 35% perlita grossa.",
+        perfil: ["Micro-orquídea epífita", "Raízes finas", "Umidade frequente", "Alta aeração", "Sem compactação"],
+        comportamento: [
+            { nome: "Retenção", valor: 4, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 2, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "65%", nota: "umidade", finalidade: "Mantém reserva hídrica quando usado sem compressão." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "35%", nota: "aeração", finalidade: "Amplia espaços de ar e reduz saturação da mistura." }
+        ],
+        alerta: "Evitar sol direto, calor abafado, vasos grandes, esfagno comprimido e secagem completa por vários dias. Regar preferencialmente pela manhã e permitir secagem superficial rápida na placa.",
+        notaEvidencia: "Percentuais aplicam-se apenas à alternativa em recipiente. Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets pendente."
+    },
     "errosComuns": "Vaso grande; esfagno comprimido; secar por vários dias; calor abafado; adubo concentrado; sol direto; água salina; deixar molhada à noite sem ventilação; divisão excessiva; replantio frequente; falta de circulação de ar.",
     "dica": "Monte em uma pequena placa com uma camada quase transparente de esfagno. Regue com frequência, inclusive diariamente no verão quando necessário, mas faça a montagem secar superficialmente em poucas horas. O equilíbrio entre umidade e renovação de ar é mais importante que manter o suporte constantemente molhado.",
     revisaoCientificaIAR: {
