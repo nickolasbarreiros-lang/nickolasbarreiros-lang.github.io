@@ -25,6 +25,39 @@ export const encycliaMineirinha = {
     rega: "Regue abundantemente durante a brotação e deixe o substrato secar completamente entre as regas. Após o amadurecimento dos pseudobulbos, reduza a frequência. Nunca use prato sob o vaso nem permita água acumulada no fundo.",
     suporte: "🥇 Vaso de barro com furos laterais.\n🥈 Cachepô de madeira vazado.\n🥉 Placa de madeira dura ou cortiça.",
     substrato: "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.",
+    formasCultivo: {
+        perfilVisual: "encyclia-hibrido-epifita-clara",
+        destaque: "Vaso de Barro",
+        resumo: "Híbrido primário de Encyclia patens × E. oliveirana, com pseudobulbos firmes e raízes que exigem aeração. Cultivar com luz alta filtrada e secagem rápida entre regas, sem enterrar o rizoma.",
+        metodos: [
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso proporcional à touceira, com furos laterais, boa estabilidade e drenagem rápida." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Muito recomendado", texto: "Cachepô vazado e de tamanho justo, permitindo ampla circulação de ar junto às raízes." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Montagem em madeira dura ou cortiça, com regas mais frequentes para compensar a secagem acelerada." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Recipiente pequeno e muito perfurado, com substrato aberto e sem água retida no fundo." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura para vaso de barro com furos laterais ou cachepô vazado",
+        resumo: "Partículas médias e grossas, com drenagem rápida, boa aeração e secagem clara entre regas.",
+        justificativa: "Os quatro componentes seguem a primeira receita qualitativa já registrada na ficha. Proporções estimadas para visualização e ainda não homologadas pela MACS 1.0.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        perfil: ["Híbrido primário", "Pseudobulbos firmes", "Luz alta filtrada", "Raízes arejadas", "Secagem rápida"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta raízes e mantém espaços de ar." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "drenagem", finalidade: "Ajuda a manter a mistura porosa." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Reduz compactação e acelera a drenagem." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "estabilidade", finalidade: "Complementa a estrutura aberta do substrato." }
+        ],
+        alerta: "Não catalogar como espécie pura: é híbrido de E. patens × E. oliveirana. Evitar sombra excessiva, rizoma enterrado, vaso grande e substrato compacto.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Catalogar como espécie pura; sombra excessiva; vaso grande; substrato compacto; rizoma enterrado; água acumulada no fundo; esfagno denso.",
     dica: "Cultive em recipiente justo e muito drenante, com o rizoma livre e alta ventilação. A identificação mais informativa para a coleção é: Encyclia ‘Mineirinha’ — E. patens × E. oliveirana. Por ser híbrido, porte, cor, perfume e época exata de floração podem variar entre plantas.",
     revisaoCientificaIAR: {
