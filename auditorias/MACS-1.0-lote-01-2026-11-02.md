@@ -123,3 +123,29 @@ Dez fichas do índice oficial. Este documento é um registro de auditoria técni
 
 ### Controle de rigor
 Resultados negativos da busca também são registrados para impedir falsa contagem de 25 produtores. **Nenhuma receita foi alterada; nenhuma porcentagem homologada**. Próxima busca deve priorizar produtores com ficha específica da espécie, sem reutilizar a mesma loja em páginas diferentes como evidências independentes.
+
+## Adendo — confronto de três produtores brasileiros (02/11/2026)
+
+### Phalaenopsis pulcherrima: evidência específica de produtores
+1. Orquidário Roberto Martins: https://orquidariorobertomartins.com.br/phalaenopsis-doritis-pulcherrima/p — planta litófita, vaso proporcional, substrato misto de granulometria pequena, brita no fundo, regas regulares e atenção à umidade. **Não fornece proporções.**
+2. Orquidário Mogi Mirim: https://www.orquidariomogimirim.com.br/phalaenopsis-pulcherrima — planta comercializada em leque de madeira; recomenda pinus, musgo e boa drenagem. **Não fornece proporções.**
+3. Orquídeas & Cia: https://www.orquideacia.com.br/produto/doritis-pulcherrima — recomenda cultivo semelhante a Phalaenopsis; **não descreve substrato específico**, portanto não contar como confirmação da receita.
+
+Referência botânica: POWO/Kew https://powo.science.kew.org/taxon/650578-1 — litófita do bioma tropical úmido.
+
+**Convergência:** boa drenagem, umidade regular e recipiente proporcional. **Divergência real:** granulometria fina em vaso vs cultivo montado. Receita atual 35% perlita, 30% brita, 25% macadâmia e 10% pinus não é confirmada por esses produtores. Priorizar teste de retenção e comparação com formulação orgânico-mineral mais fina; não trocar percentuais sem teste.
+
+### Aerides odorata: nova fonte brasileira específica
+- Orquidário Mantovani: https://www.orquideasmantovani.com.br/aerides-odorata-25/p — informa que a planta pode ser replantada em madeira, vaso plástico, barro ou cachepô; **não informa composição nem porcentagens**. Contar como evidência de flexibilidade do suporte, não da mistura.
+- POWO/Kew: https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A615287-1/general-information — epífita de bioma tropical úmido.
+- Receita 45% pinus, 35% carvão, 10% arroz carbonizado, 10% esfagno: ainda sem validação específica. Manter distinção entre cultivo com raízes expostas e alternativa de recipiente.
+
+### Promenaea xanthina: fonte brasileira específica confirmada
+- Orquidário Oriental: https://www.orquidariooriental.com.br/produto/ipromenaea-xanthinai%2C887/ — esfagno ou mistura de fibra de coco/pinus/carvão, regas constantes, vasos de plástico/barro ou caixeta. Nenhuma proporção exata.
+- Receita 45% pinus, 40% perlita, 15% esfagno: fração elevada de perlita requer ensaio de secagem; não assumir inadequação só pelo percentual.
+
+### Balanço verificável desta passagem
+- *P. pulcherrima*: **2 produtores brasileiros** com recomendações de substrato/suporte específico (Roberto Martins e Mogi Mirim); Orquídeas & Cia é fonte adicional de cultivo sem receita.
+- *A. odorata*: **1 produtor brasileiro** com recomendação de recipientes, sem receita (Mantovani).
+- *P. xanthina*: **1 produtor brasileiro** com recomendação de substrato confirmada nesta passagem (Oriental; outros já documentados anteriormente).
+- Meta de até 25 produtores por espécie **não atingida**. Nenhuma composição percentual homologada ou alterada.
