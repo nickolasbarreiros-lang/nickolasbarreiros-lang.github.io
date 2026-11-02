@@ -40,6 +40,39 @@ export const cyrtopodiumPodophyllum = {
     "rega": "Com brotos, raízes e folhas ativas, regue fartamente e permita drenagem imediata. À medida que o crescimento amadurece e as folhas amarelecem, aumente gradualmente o intervalo. Na dormência, mantenha apenas água suficiente para evitar desidratação extrema, ajustando à temperatura e à umidade local. O comportamento da planta vale mais do que um calendário fixo.",
     "suporte": "🥇 Vaso grande, pesado e muito drenante — dá estabilidade às hastes altas.\n🥈 Jardineira ou caixa de cultivo com grande volume mineral.\n🥉 Canteiro elevado arenoso/pedregoso, protegido de excesso de chuva na dormência.\nO recipiente deve ser firme, mas nunca manter água parada no fundo.",
     "substrato": "🥇 Casca de arroz carbonizada + fibra de coco + perlita + perlita grossa, com pequena fração de pinus fino.\n🥈 Chips de coco pequenos + casca de arroz carbonizada + perlita grossa + argila expandida miúda.\n🥉 Fibra de coco + perlita + pinus fino + carvão vegetal miúdo, mantendo drenagem rápida.\n⭐ Alternativa: Casca de macadâmia média + casca de arroz carbonizada + perlita grossa + fibra de coco, para estrutura durável e arejada.",
+    "formasCultivo": {
+        "perfilVisual": "terrestre-rupicola",
+        "destaque": "Vaso de Barro",
+        "resumo": "Espécie terrestre ou rupícola de grande porte, consolidada nesta ficha como Cyrtopodium flavum. Requer muita luminosidade, suporte firme, drenagem rápida e redução sazonal das regas após a maturação dos pseudobulbos.",
+        "metodos": [
+            { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Vaso grande, largo e pesado, com drenagem abundante e estabilidade para hastes altas. Nunca manter água acumulada no fundo." },
+            { "nome": "Vaso plástico", "asset": "vaso-plastico", "estrelas": 4, "status": "Alternativa com lastro", "texto": "Recipiente grande e muito perfurado, estabilizado para evitar tombamento. Redobrar atenção à retenção hídrica no repouso." },
+            { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 4, "status": "Alternativa", "texto": "Modelo largo, reforçado e bem apoiado, com mistura estrutural e drenagem rápida." },
+            { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": 3, "status": "Uso condicional", "texto": "Somente modelo grande, rígido e estável, com substrato mineralizado e reposição de água ajustada à secagem." }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Proposta para vaso grande, firme e muito drenante",
+        "resumo": "Mistura leve e porosa, com retenção moderada durante o crescimento e secagem facilitada no repouso sazonal.",
+        "justificativa": "Receita quantitativa proposta a partir da segunda mistura já registrada na ficha. A primeira mistura original contém perlita em duas granulometrias sem proporções definidas; não foi alterada. Esta formulação não possui homologação MACS 1.0.",
+        "receitaTexto": "35% casca de arroz carbonizada + 30% chips de coco pequenos + 25% perlita grossa + 10% argila expandida miúda.",
+        "perfil": ["Terrestre ou rupícola", "Pseudobulbos volumosos", "Drenagem rápida", "Alta luminosidade", "Repouso sazonal com menos água"],
+        "comportamento": [
+            { "nome": "Retenção", "valor": 2, "icone": "💧" },
+            { "nome": "Aeração", "valor": 5, "icone": "💨" },
+            { "nome": "Secagem", "valor": 4, "icone": "⚡" },
+            { "nome": "Compactação", "valor": 1, "icone": "🧱" }
+        ],
+        "itens": [
+            { "asset": "casca-arroz-carbonizada", "nome": "Casca de arroz carbonizada", "proporcao": "35%", "nota": "drenagem e estrutura", "finalidade": "Mantém espaços de ar e reduz a compactação da mistura." },
+            { "asset": "chips-coco", "nome": "Chips de coco pequenos", "proporcao": "30%", "nota": "reserva hídrica", "finalidade": "Oferece alguma umidade na fase de crescimento, sem dominar a composição." },
+            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "25%", "nota": "aeração", "finalidade": "Aumenta porosidade e facilita a secagem entre regas." },
+            { "asset": "argila-expandida", "nome": "Argila expandida miúda", "proporcao": "10%", "nota": "estrutura", "finalidade": "Acrescenta partículas estáveis e espaços para drenagem." }
+        ],
+        "alerta": "Aclimatar gradualmente à alta luminosidade. Reduzir regas e suspender adubação quando a folhagem amarelar naturalmente; não manter prato com água.",
+        "notaEvidencia": "Percentuais e estrelas são estimativas horticulturais, não uma receita homologada pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "Pouca luz; solo argiloso e compacto; prato com água; regar da mesma forma o ano inteiro; cortar pseudobulbos traseiros firmes; excesso de nitrogênio perto da dormência; confundir queda natural das folhas com doença; replantar durante emissão da haste; aclimatar ao sol de forma abrupta.",
     "dica": "As reservas estão nos pseudobulbos. Durante a estação de crescimento, concentre o manejo em formar pseudobulbos grandes, firmes e bem iluminados. Quando a folhagem começar a amarelar naturalmente, reduza água e suspenda adubação. Essa alternância é mais eficiente para estimular floração do que simplesmente aumentar fósforo.",
     revisaoCientificaIAR: {
