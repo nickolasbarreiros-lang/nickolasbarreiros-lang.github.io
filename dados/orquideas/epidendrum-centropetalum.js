@@ -42,6 +42,38 @@ export const epidendrumCentropetalum = {
         "🥉 Vaso pequeno e bem perfurado, usando mistura leve e de drenagem rápida."
     ],
     substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Casca de pinus fina + perlita + perlita grossa fina + pequena fração de esfagno solto.", "🥉 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "⭐ Alternativa: Esfagno de fibra longa usado muito solto + perlita grossa fina; evitar compactação junto ao rizoma."],
+    formasCultivo: {
+        perfilVisual: "epifita-montana-caules-finos-keikis",
+        destaque: "Cachepô de Madeira",
+        resumo: "Epífita montana de caules finos e raízes aéreas, com tendência a formar keikis. Precisa de umidade regular, boa luz filtrada, circulação constante e noites menos abafadas.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô aberto e bem ventilado, com espaço para expansão dos caules, raízes aéreas e keikis." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Muito recomendado", texto: "Montagem em cortiça ou madeira com camada fina de esfagno sob as raízes, exigindo umidade frequente." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e muito perfurado, com mistura leve e sem água estagnada." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e bem drenado, com atenção à secagem acelerada das raízes delicadas." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem com esfagno fino; mistura alternativa para cachepô ou vaso pequeno",
+        resumo: "Substrato leve e arejado, mantendo umidade moderada sem saturação prolongada.",
+        justificativa: "A montagem com esfagno fino é a primeira indicação original de substrato. A receita quantitativa para recipiente deriva da segunda alternativa, consolidando granulometrias de perlita; percentuais não homologados pela MACS 1.0.",
+        receitaTexto: "45% casca de pinus fina + 35% perlita calibrada + 20% esfagno de fibra longa solto.",
+        perfil: ["Epífita montana", "Caules finos", "Raízes aéreas", "Forma keikis", "Umidade regular"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 2, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "45%", nota: "estrutura", finalidade: "Apoia raízes delicadas sem formar massa compacta." },
+            { asset: "perlita", nome: "Perlita calibrada", proporcao: "35%", nota: "aeração", finalidade: "Favorece circulação de ar e drenagem." },
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "20%", nota: "retenção leve", finalidade: "Ajuda a evitar secagem prolongada sem encharcar." }
+        ],
+        alerta: "Evitar calor noturno abafado, sol forte do meio do dia, substrato encharcado e seca prolongada. Não retirar keikis antes de desenvolverem raízes suficientes.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: [
         "Cultivar em ambiente quente e sem circulação de ar",
         "Manter sombra excessivamente profunda",
