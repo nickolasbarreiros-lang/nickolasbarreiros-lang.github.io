@@ -40,6 +40,38 @@ export const dichaeaPendula = {
     rega: "Mantenha as raízes regularmente úmidas, sem permitir secas prolongadas. Em placas, regas diárias podem ser necessárias no verão. A frequência deve cair quando a evaporação diminuir, mas nunca ao ponto de desidratar completamente a planta. Regue preferencialmente pela manhã e garanta ventilação suficiente para que a água não permaneça acumulada entre bainhas e folhas durante a noite.",
     suporte: "🥇 Placa vertical de cortiça ou madeira com fina camada de esfagno — favorece o hábito pendente e a aeração.\n🥈 Cesto suspenso pequeno — permite que as hastes cresçam livres.\n🥉 Vaso estreito e muito ventilado — útil quando a umidade ambiental é menor.\nMantenha espaço livre abaixo da planta para o desenvolvimento natural dos ramos.",
     substrato: "🥇 Casca de pinus fina/média + chips de coco pequenos + perlita + perlita grossa.\n🥈 Chips de coco + perlita grossa + casca de pinus fina, mantendo umidade uniforme sem encharcar.\n🥉 Casca de macadâmia triturada média + fibra de coco grossa + perlita grossa + pequena fração de esfagno.\n⭐ Alternativa: Pinus médio + perlita + carvão vegetal miúdo + esfagno picado em baixa proporção.",
+    formasCultivo: {
+        perfilVisual: "dichaea-epifita-pendente-umida",
+        destaque: "Placa / tronco",
+        resumo: "Epífita pendente sem pseudobulbos, sensível à seca prolongada e ao calor noturno abafado. Prefere montagem vertical com umidade frequente, sombra luminosa e circulação de ar.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Placa vertical de cortiça ou madeira com esfagno fino e solto junto às raízes; deixar espaço livre abaixo para os ramos pendentes." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Muito recomendado", texto: "Cachepô pequeno e suspenso, com mistura leve e úmida, permitindo que as hastes se desenvolvam livremente." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Recipiente estreito, bem ventilado e suspenso, útil quando a umidade ambiental for menor." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e raso, mantido em posição alta; exige atenção à secagem rápida e à hidratação das hastes." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura para cachepô ou vaso; montagem principal usa apenas esfagno fino junto às raízes",
+        resumo: "Partículas pequenas a médias que preservam umidade uniforme e aeração, sem formar massa compacta.",
+        justificativa: "Receita quantitativa baseada na segunda alternativa já indicada na ficha, evitando a duplicação de granulometrias de perlita presente na primeira. Ainda não homologada pela MACS 1.0.",
+        receitaTexto: "40% chips de coco pequenos + 35% casca de pinus fina/média + 25% perlita grossa.",
+        perfil: ["Epífita pendente", "Sem pseudobulbos", "Umidade frequente", "Sombra luminosa", "Boa circulação de ar"],
+        comportamento: [
+            { nome: "Retenção", valor: 4, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 2, icone: "⚡" },
+            { nome: "Compactação", valor: 2, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "chips-coco", nome: "Chips de coco pequenos", proporcao: "40%", nota: "umidade", finalidade: "Ajuda a manter umidade frequente sem encharcar." },
+            { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece apoio às raízes e espaços de ar." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Reduz compactação e favorece drenagem." }
+        ],
+        alerta: "Evitar secagem completa, sol direto forte, calor noturno abafado e água parada nas axilas. Regar de modo a hidratar as raízes sem prolongar o molhamento das folhas.",
+        notaEvidencia: "Percentuais e estrelas são estimativas horticulturais não homologadas pela MACS 1.0. Validação visual dos assets pendente."
+    },
     errosComuns: "Deixar secar completamente; cultivar em calor noturno abafado; baixa umidade do ar; água parada nas axilas; sol direto forte; esfagno velho e compacto; vaso profundo; excesso de adubo; regas noturnas frequentes; falta de espaço para as hastes pendentes.",
     dica: "Não interprete a necessidade de umidade como necessidade de encharcamento. Em litoral quente, a melhor combinação é suporte pequeno, umidade atmosférica alta, regas frequentes e muita circulação de ar. Se as hastes começarem a enrugar, aumente a frequência das regas; se houver manchas escuras e tecidos moles nas bainhas, aumente imediatamente a ventilação e reduza o tempo de molhamento.",
     revisaoCientificaIAR: {
