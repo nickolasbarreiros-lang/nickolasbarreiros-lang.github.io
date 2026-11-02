@@ -41,6 +41,38 @@ export const dryadellaLiliputiana = {
     rega: "Mantenha umidade relativamente estável, mas nunca uma massa de substrato quente e saturada. Regue novamente quando o material ao redor das raízes estiver se aproximando da secagem. Em montagem com pouco musgo, pode exigir rega diária no verão; em vaso com esfagno, o intervalo deve ser maior. Evite tanto seca prolongada quanto encharcamento contínuo.",
     suporte: "🥇 Placa pequena de cortiça ou madeira com camada fina de esfagno — máxima aeração.\n🥈 Vaso miniatura de barro — ajuda a dissipar calor por evaporação.\n🥉 Cachepô pequeno e muito aberto — útil com mistura extremamente leve.\nMantenha a touceira íntegra e evite manipulações frequentes.",
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Casca de pinus fina + perlita + perlita grossa fina + pequena fração de esfagno solto.\n🥉 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.\n⭐ Alternativa: Esfagno de fibra longa usado muito solto + perlita grossa fina; evitar compactação junto ao rizoma.",
+    formasCultivo: {
+        perfilVisual: "microorquidea-montana-umida",
+        destaque: "Placa / tronco",
+        resumo: "Micro-orquídea montana sem pseudobulbos, sensível ao calor noturno acumulado, à seca prolongada e ao esfagno saturado. Prefere sombra luminosa, umidade frequente e circulação de ar.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Placa minúscula de cortiça ou madeira com lâmina fina de esfagno solto sob as raízes, mantendo a montagem úmida e arejada." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa recomendada", texto: "Vaso miniatura e raso, com substrato leve; a evaporação pode ajudar a moderar a temperatura quando há ventilação." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô muito pequeno e aberto, com mistura de baixa compactação e hidratação frequente." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Recipiente miniatura e muito perfurado, sem acúmulo de água e protegido do aquecimento." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem principal com fina camada de esfagno; proposta para vaso miniatura ou cachepô",
+        resumo: "Mistura fina e aberta, capaz de manter leve umidade sem saturar a base da microtouceira.",
+        justificativa: "A montagem é a primeira recomendação original. A receita quantitativa utiliza os componentes da segunda alternativa, consolidando as granulometrias de perlita para evitar duplicação; percentuais não homologados pela MACS 1.0.",
+        receitaTexto: "45% casca de pinus fina + 35% perlita de granulometria adequada a miniaturas + 20% esfagno de fibra longa solto.",
+        perfil: ["Micro-orquídea montana", "Sem pseudobulbos", "Raízes delicadas", "Umidade frequente", "Noites amenas"],
+        comportamento: [
+            { nome: "Retenção", valor: 4, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 2, icone: "⚡" },
+            { nome: "Compactação", valor: 2, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "45%", nota: "estrutura", finalidade: "Oferece apoio para raízes pequenas sem compactação." },
+            { asset: "perlita", nome: "Perlita calibrada", proporcao: "35%", nota: "aeração", finalidade: "Mantém espaços de ar e drenagem no recipiente miniatura." },
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "20%", nota: "retenção leve", finalidade: "Reduz secagem excessiva sem formar bola saturada junto ao rizoma." }
+        ],
+        alerta: "Evitar noites quentes e abafadas, esfagno compactado ou encharcado, secagem por vários dias e divisão da touceira. Água em excesso não compensa temperatura elevada.",
+        notaEvidencia: "Percentuais e estrelas são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Calor noturno acumulado; esfagno permanentemente encharcado; deixar secar por vários dias; água muito salina; adubação forte; pouca circulação de ar; dividir a touceira; vaso grande; exposição ao sol; tentar compensar calor com excesso de água no substrato.",
     dica: "O porte minúsculo exige estabilidade, não excesso. Em Litoral de clima quente, cultive em um ponto fresco, luminoso sem sol, com ar sempre em movimento. Uma montagem levemente úmida e regada com frequência costuma ser mais segura no verão do que uma bola de esfagno quente e saturada.",
     revisaoCientificaIAR: {
