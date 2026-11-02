@@ -65,13 +65,17 @@ export const bibliotecaCultivoV4 = {
         nome: "Vaso de barro perfurado",
         imagem: "imagens/cultivo-v4/vaso-barro-perfurado.webp"
     },
+    "raizes-soltas": {
+        nome: "Raízes soltas",
+        imagem: "imagens/cultivo-v4/raizes-soltas.webp"
+    },
     "placa-tronco": {
         nome: "Placa / tronco",
-        imagem: "imagens/cultivo-v4/placa-madeira-v3.webp"
+        imagem: "imagens/cultivo-v4/placa-madeira-v4.webp"
     },
     "placa-madeira": {
         nome: "Placa de madeira",
-        imagem: "imagens/cultivo-v4/placa-madeira-v3.webp"
+        imagem: "imagens/cultivo-v4/placa-madeira-v4.webp"
     },
     "tronco": {
         nome: "Tronco / galho",
