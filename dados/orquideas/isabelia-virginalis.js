@@ -30,6 +30,38 @@ export const isabeliaVirginalis = {
     rega: "No calor e durante a brotação, molhe completamente e permita secagem rápida antes da próxima rega. Plantas montadas podem precisar de água quase diária em dias secos e ventilados. No frio, aumente o intervalo, mas não deixe a colônia murchar por períodos prolongados.",
     suporte: "🥇 Placa de cortiça ou galho de casca rugosa.\n🥈 Madeira dura e durável, instalada horizontal ou levemente inclinada.\n🥉 Cesto muito raso e largo, com mistura grosseira e rizoma totalmente exposto.",
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n🥉 Casca de macadâmia grossa + perlita grossa + carvão vegetal, com secagem muito rápida.\n⭐ Alternativa: Pinus grosso + brita fina + carvão vegetal; evitar esfagno no miolo do vaso.",
+    formasCultivo: {
+        perfilVisual: "miniatura-rizoma-rastejante-fibras",
+        destaque: "Placa / tronco",
+        resumo: "Miniatura de crescimento rastejante, com bainhas fibrosas naturais e raízes superficiais. Favorecer suporte durável, rizoma exposto, boa luz filtrada e ciclos rápidos de molhamento e secagem.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cortiça ou madeira dura de casca rugosa, horizontal ou levemente inclinada, para a colônia avançar livremente." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô muito raso e largo, extremamente ventilado, com rizoma totalmente exposto e mistura grossa." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 2, status: "Uso condicional", texto: "Apenas recipiente muito raso, perfurado e com raízes superficiais; não enterrar o rizoma." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 2, status: "Uso condicional", texto: "Somente vaso muito baixo e bem vazado, sem retenção prolongada nem cobertura do rizoma." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem principal sem substrato retentivo; receita alternativa para cachepô muito raso",
+        resumo: "A primeira opção é a fixação direta em cortiça ou madeira durável. Em cesto, usar componentes muito grossos e secagem rápida.",
+        justificativa: "A montagem sem material retentivo é a primeira recomendação original. A receita quantitativa adapta a segunda mistura para cesto, com percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "45% chips de coco muito grossos + 35% argila expandida + 20% carvão vegetal.",
+        perfil: ["Miniatura rastejante", "Bainhas fibrosas", "Rizoma exposto", "Raízes superficiais", "Secagem rápida"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 5, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "chips-coco", nome: "Chips de coco muito grossos", proporcao: "45%", nota: "estrutura", finalidade: "Oferecem apoio aberto sem cobrir o rizoma." },
+            { asset: "argila-expandida", nome: "Argila expandida", proporcao: "35%", nota: "drenagem", finalidade: "Mantém vazios amplos e favorece secagem rápida." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração", finalidade: "Complementa a porosidade e evita massa compacta." }
+        ],
+        alerta: "Não retirar as bainhas fibrosas nem enterrar o rizoma. Evitar esfagno compactado, vaso profundo, sombra excessiva e longos períodos de encharcamento ou seca.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Remover as bainhas fibrosas; enterrar o rizoma; compactar esfagno ao redor da planta; cultivar em sombra profunda; manter a colônia permanentemente molhada; deixar secar por muitos dias; usar vaso grande e profundo; adubar forte; dividir em pedaços pequenos; manter ambiente abafado.",
     dica: "Preserve a colônia inteira e deixe-a caminhar pelo suporte. Quanto menos você interfere na trama fibrosa e no rizoma rastejante, melhor. Uma placa durável, boa luz e ciclos rápidos de molhamento e secagem produzem uma touceira muito mais bonita do que o cultivo apertado em vaso convencional.",
     revisaoCientificaIAR: {
