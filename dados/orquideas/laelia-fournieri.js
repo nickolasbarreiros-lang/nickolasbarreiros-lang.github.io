@@ -39,6 +39,39 @@ export const laeliaFournieri = {
     rega: "Durante brotação e enraizamento, regue bem e permita que o meio drene rapidamente e se aproxime da secagem antes da próxima irrigação. Rupícola não significa xerófita absoluta: uma planta pequena em vaso mineral pode secar muito rápido no verão e necessitar de água frequente. No período frio ou de menor atividade, aumente os intervalos, evitando desidratação severa dos pequenos pseudobulbos.",
     suporte: "🥇 Vaso de barro pequeno, raso e muito perfurado.\n🥈 Pedra porosa ou rocha mineral, com fixação muito firme.\n🥉 Cesto baixo e extremamente aberto.\nEscolha sempre o local mais fresco e ventilado, e não simplesmente o ponto mais alto do orquidário.",
     substrato: "🥇 perlita grossa + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.\n🥈 Brita + perlita grossa + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.\n🥉 Macadâmia grossa + perlita grossa + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado.\n⭐ Alternativa: perlita grossa + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.",
+    formasCultivo: {
+        perfilVisual: "cattleya-miniatura-rupicola-altitude",
+        destaque: "Vaso de Barro",
+        resumo: "Miniatura rupícola de altitude, com raízes sensíveis ao calor. Precisa de vaso pequeno e raso, substrato predominantemente mineral, ventilação máxima e proteção contra superaquecimento.",
+        metodos: [
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno, raso e muito perfurado, com pouco substrato mineral e raízes frescas." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Por ser rupícola, preferir fixação firme em pedra porosa, protegida contra aquecimento excessivo; não é montagem convencional em madeira." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cesto baixo e extremamente aberto, com mistura mineral estável e regas ajustadas à secagem." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Alternativa", texto: "Recipiente pequeno e muito vazado, desde que não acumule calor e umidade no centro." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura mineral para vaso baixo e muito perfurado",
+        resumo: "Mistura de drenagem imediata, com fração orgânica reduzida, evitando calor e compactação nas raízes sensíveis.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa já registrada na ficha. Os percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        receitaTexto: "40% brita fina/média + 30% perlita grossa + 20% casca de macadâmia triturada + 10% casca de pinus grossa.",
+        perfil: ["Miniatura rupícola", "Raízes sensíveis ao calor", "Alta aeração", "Drenagem imediata", "Pouco volume de substrato"],
+        comportamento: [
+            { nome: "Retenção", valor: 1, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 5, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "brita-fina", nome: "Brita fina/média", proporcao: "40%", nota: "base mineral", finalidade: "Garante drenagem rápida e estabilidade em recipiente raso." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "30%", nota: "aeração", finalidade: "Amplia os espaços de ar ao redor das raízes." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "20%", nota: "fração orgânica", finalidade: "Fornece apoio e pequena reserva de umidade." },
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "10%", nota: "fração orgânica", finalidade: "Complementa a estrutura sem reter água em excesso." }
+        ],
+        alerta: "Evitar calor abafado, vaso grande ou profundo, pedras superaquecidas, substrato decomposto e repouso seco exagerado. Replantar preferencialmente no início de novas raízes.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "• Cultivar em local quente e abafado.\n• Confundir hábito rupícola com necessidade de seca extrema.\n• Vaso grande, profundo ou com material compactado.\n• Deixar pedra ou vaso superaquecer ao sol.\n• Excesso de matéria orgânica decomposta no calor.\n• Replantar por conveniência quando não há novas raízes, salvo emergência.\n• Adubação concentrada e acúmulo de sais.\n• Repouso seco exagerado, levando rapidamente ao enrugamento dos pseudobulbos.",
     dica: "🏆 Replante preferencialmente quando as primeiras raízes novas começarem a surgir e use pouco volume de substrato, muita drenagem e máxima circulação de ar. No litoral quente, o objetivo é baixar a temperatura radicular e evitar abafamento; secar demais uma planta tão pequena costuma piorar o problema.",
     revisaoCientificaIAR: {
