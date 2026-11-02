@@ -35,7 +35,7 @@ export const ornithophoraRadicans = {
     adubacao: "🌿 Orgânica: bokashi em saquinho minúsculo suspenso acima da planta, permitindo dissolução suave durante as regas.\n💧 Foliar: NPK equilibrado a 1/4 ou até 1/6 da dose a cada 10–15 dias.\n🧪 Liberação lenta: Osmocote apenas em dose mínima e somente em cachepô, sempre afastado das raízes.\n🚿 Lavagem: uma vez por mês, lave abundantemente a montagem ou o substrato apenas com água pura para remover sais acumulados.",
     rega: "Mantenha umidade regular durante o crescimento, mas com secagem superficial rápida e alta oxigenação. Plantas montadas podem necessitar de rega diária nos dias quentes. Regue preferencialmente pela manhã e evite que folhas e raízes permaneçam molhadas durante toda a noite. Reduza no frio sem deixar a touceira ressecar por vários dias.",
     suporte: "🥇 Placa de madeira dura, cortiça ou tronco fino.\n🥈 Cachepô pequeno de madeira muito vazado.\n🥉 Vaso raso e pequeno apenas com drenagem extrema.",
-    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.\n🥉 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n⭐ Alternativa: Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+    substrato: ["🥇 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
     formasCultivo: {
         perfilVisual: "gomesa-radicans-miniatura-epifita-pendente",
         destaque: "Placa / tronco",
