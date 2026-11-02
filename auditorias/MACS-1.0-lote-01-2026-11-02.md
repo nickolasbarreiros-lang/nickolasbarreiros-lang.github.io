@@ -218,3 +218,25 @@ Fontes brasileiras específicas:
 **Cuidado com evidência indireta:** a ficha de *Aerides odorata × lawrenciae* do Orquidário 4 Estações é de **híbrido**, não valida substrato de *A. odorata*. O estudo de Yamamoto et al. (2009) é sobre *Miltonia regnellii × Oncidium concolor*, não sobre *M. russelliana*.
 
 **Estado:** lote 01 com 10 pareceres documentados; sem homologação numérica definitiva ou alteração de fichas. A contagem de fontes comerciais não deve incorporar relatos pessoais como produtores nem duplicar páginas do mesmo estabelecimento.
+
+## Adendo — critérios operacionais para Aerides odorata e Miltonia russelliana (02/11/2026)
+
+### Aerides odorata
+- AOS, ficha do gênero: https://www.aos.org/explore/aerides — separa espécies de caule curto (cestos pequenos, mistura média/grossa ou placas com pouco material retentor) de espécies alongadas (cestos grandes sem substrato), recomendando secagem quase completa das raízes entre regas nos primeiros casos. **Não há atribuição específica do porte de A. odorata nessa ficha.**
+- NParks, ficha específica: https://www.nparks.gov.sg/florafaunaweb/flora/5/9/5995 — *A. odorata* epífita, substrato de drenagem livre ou montagem, raízes frequentemente molhadas quando montada. **Evidência específica independente.**
+- Orchid.guru, ficha específica: https://www.orchid.guru/content/orchids/a/aerides/odorata/ — pinus/casca, carvão e perlita em mistura grossa e drenante; montagem como alternativa. **Fonte secundária**, sem ensaio.
+- Decisão: manter a distinção de cultivo montado/cesto vs mistura de vaso; não afirmar que a receita atual 45% pinus, 35% carvão, 10% arroz carbonizado, 10% esfagno é superior a cultivo de raízes livres. Manter prioridade até confrontar tamanho real das raízes, recipiente e ciclo de secagem.
+
+### Miltonia russelliana
+- AOS, ficha do gênero: https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet — raízes finas, boa drenagem, irrigação abundante; sugere mistura com **70% de casca fina de mudas + carvão/perlita** ou 70% fibra de xaxim + 30% esfagno. Recomenda vasos rasos. **Genérico, não teste da espécie.**
+- Orquídeas dos Frades, ficha de Miltonia: https://www.orquideasdosfrades.com.br/c%C3%B3pia-lycaste — reproduz Rosenn Le Page: 60% casca de pinus fina/média, 30% esfagno, 10% argila expandida. **Fonte secundária de livro, não ensaio do produtor nem de M. russelliana.**
+- A receita atual (35% pinus médio, 30% chips de coco, 25% perlita grossa, 10% carvão) tem drenagem, mas precisa confrontar a **granulometria média/grossa** com raízes finas. A presença de coco pode favorecer retenção, dependendo do processamento, tamanho e rega; não inferir percentuais ideais sem medir.
+- Decisão: manter prioridade e **não trocar automaticamente** a receita por 60/30/10, que não foi testada para a espécie.
+
+### Método — conclusão provisória do lote 01
+As fontes acima permitem validar princípios físicos e formas de cultivo, não percentuais exatos. Para encerrar cada ficha MACS com rigor, distinguir:
+(A) evidência específica da espécie;
+(B) recomendações para o gênero ou espécies aparentadas;
+(C) inferência física/hortícola;
+(D) ensaio de comparação de substratos.
+**Não exigir 25 produtores quando indisponíveis, mas declarar a cobertura efetiva e suas lacunas.**
