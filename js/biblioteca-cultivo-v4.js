@@ -105,6 +105,8 @@ export const bibliotecaCultivoV4 = {
         nome: "Semi-hidro",
         imagem: "imagens/cultivo-v4/semi-hidro.webp"
     },
+    "casca-macadamia": { nome: "Casca de macadâmia", imagem: "imagens/cultivo-v4/macadamia.webp" },
+    "carvao": { nome: "Carvão vegetal", imagem: "imagens/cultivo-v4/carvao-vegetal.webp" },
     "casca-pinus": {
         nome: "Casca de pinus",
         imagem: "imagens/cultivo-v4/casca-pinus.webp"
