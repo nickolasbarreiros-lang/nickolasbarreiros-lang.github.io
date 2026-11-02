@@ -61,3 +61,17 @@ Dez fichas do índice oficial. Este documento é um registro de auditoria técni
 3. Testar tempo de secagem após rega completa em condições comparáveis; observar raízes novas e sinais de hipóxia ou desidratação.
 4. Distinguir explicitamente: fonte botânica, recomendação comercial de produtor, extrapolação de gênero e inferência horticultural.
 5. Não converter número de fontes consultadas em falsa confirmação experimental dos percentuais.
+
+## Adendo técnico — sete fichas restantes (2026-11-02)
+
+**Natureza das evidências:** fontes abaixo são botânicas ou recomendações horticulturais gerais, não ensaios controlados das proporções cadastradas. Não declarar homologação percentual.
+
+1. **Anathallis sclerophylla** — 35% pinus, 30% arroz carbonizado, 20% esfagno, 15% carvão. Parecer: condicional; ainda faltam fontes de cultivo especificamente publicadas para a espécie e observação de secagem de raízes finas. Não corrigir percentuais por analogia isolada.
+2. **Epidendrum centropetalum** — 45% pinus, 35% perlita, 20% esfagno. Parecer: condicional; conferir tempo de secagem e tamanho das raízes em recipiente pequeno ou suporte. A necessidade de umidade não implica compactação do esfagno.
+3. **Miltonia russelliana** — 35% pinus médio, 30% chips de coco, 25% perlita grossa, 10% carvão. AOS Miltonia Culture Sheet (https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet) indica raízes finas, boa drenagem, recipientes rasos e meios finos; AOS Miltonia (https://www.aos.org/explore/miltonia) alerta para deterioração em vasos fundos e meios decompostos. Parecer: **revisão da granulometria**, não alteração automática de proporções.
+4. **Brassia lawrenceana** — 35% pinus, 25% coco, 20% macadâmia, 10% carvão, 10% perlita. AOS Brassia (https://www.aos.org/explore/brassia) recomenda mistura epífita média em vaso ou cesto e água regular. Parecer: compatibilidade geral dos materiais; percentuais continuam inferenciais. Atenção à secagem mais rápida no cesto.
+5. **Laelia splendida** — 35% macadâmia, 30% pinus, 20% perlita, 15% carvão. Parecer: compatibilidade plausível com cultivo arejado; falta confronto documentado com recomendações específicas da espécie e medição de retenção no cachepô. Não homologar percentuais.
+6. **Encyclia alboxanthina** — 35% macadâmia, 30% pinus, 20% perlita, 15% carvão. POWO (https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:276526-2) confirma epífita de bioma tropical sazonalmente seco. Isso apoia evitar saturação permanente, **não** prova percentuais nem determina repouso seco prolongado. Parecer: condicional.
+7. **Dendrobium spectabile** — 35% macadâmia, 30% pinus, 20% perlita, 15% carvão. AOS, Dendrobium Care (https://www.aos.org/orchids/orchid-basics/orchid-question-and-answer/dendrobium-care) orienta umidade durante o ano e período relativamente mais fresco/seco no inverno para floração; AOS, Dendrobium General Culture Sheet (https://www.aos.org/orchid-care/care-sheets/dendrobium-general-culture-sheet) recomenda casca média/grossa, perlita e carvão em estufas. Parecer: mistura plausível; manter água adequada no crescimento e evitar repouso severo.
+
+**Resultado documental:** 10 fichas têm parecer escrito. As fontes específicas e os produtores brasileiros continuam insuficientes para afirmar que 10/10 foram homologadas conforme a meta MACS 1.0. Nenhuma ficha foi editada.
