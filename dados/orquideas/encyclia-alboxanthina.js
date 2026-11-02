@@ -40,7 +40,7 @@ export const encycliaAlboxanthina = {
         "🥈 Vaso de barro bem perfurado e proporcional à touceira.",
         "🥉 Montagem em cortiça ou madeira, quando houver disponibilidade de regas frequentes."
     ],
-    substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.", "🥈 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.", "🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.", "⭐ Alternativa: Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas."],
+    substrato: ["🥇 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥈 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","🥉 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
     formasCultivo: {
         perfilVisual: "encyclia-epifita-rupicola-clara",
         destaque: "Cachepô de Madeira",
