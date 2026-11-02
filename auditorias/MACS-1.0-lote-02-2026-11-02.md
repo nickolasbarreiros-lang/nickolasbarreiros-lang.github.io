@@ -204,3 +204,14 @@ Verificação dos blocos `substratoVisual` no GitHub:
 - **Decisão:** a referência comercial não apresenta proporções; portanto, **não autoriza eliminar os 20% de brita ou homologar os 10% de esfagno**. Registrar a diferença como componente alternativo a verificar, sem alteração automática.
 
 **Controle metodológico:** estas fontes acrescentam evidência botânica e de manejo, mas **não completam a meta de 25 produtores brasileiros específicos por espécie**. Não contam artigos de gênero como produtores individuais, nem fontes de híbridos como evidência direta da espécie. Permanecem 0 homologações quantitativas no lote 02.
+
+## Checagem independente de referências — Latouria e Sophronitis (continuação)
+
+1. **AOS, Latouria:** https://www.aos.org/explore-orchids/dendrobium-alliance/den-sec-latouria lista expressamente *D. polysema* com indicação **intermediária** (legenda `** Intermediate`); espécies da seção ocupam desde baixas até altas altitudes e regiões de chuva anual. Isso sustenta evitar classificação térmica única para toda Latouria.
+2. **AOS, Dendrobium geral:** https://www.aos.org/orchid-care/care-sheets/dendrobium-general-culture-sheet recomenda mistura drenante de casca com perlita e carvão, podendo incluir esfagno conforme ambiente, e ressalta redução forte de rega sobretudo em tipos nobile. **Não prova proporções da receita de D. polysema**.
+3. **Caboolture Orchid Society, maio/2023, notas Latouria:** https://www.cabooltureorchidsociety.org/uploads/1/4/0/8/140873502/5_may_2023_.pdf descreve casca, esfagno ou casca de coco em recipientes drenantes, rega consistente e sem repouso seco obrigatório. É **evidência de seção**, não da espécie.
+4. **Orquidário Oriental, Sophronitis wittigiana:** https://www.orquidariooriental.com.br/produto/isophronitis-wittigianai%2C1667/ publica opções esfagno, mistura fibra de coco/pinus/carvão e placa de madeira, sem percentuais. **É referência de espécie e produtor brasileiro**, mas não homologa 20% de brita da receita local.
+5. **AOS, Sophronitis brasileiras:** https://www.aos.org/orchids/collectors-items/book-reviews/the-culture-of-the-brazilian-sophronitis discute umidade elevada e boa ventilação, mas boa parte dos resultados se refere a *S. coccinea*; **não transferir seus percentuais nem recomendações específicas indiscriminadamente para *S. wittigiana***.
+6. **Controle de falso positivo:** páginas comerciais de *Sophronitis coccinea × wittigiana* e *S. wittigiana × Cattleya walkeriana* são de **híbridos** e **não foram contadas** como produtores com evidência específica de *S. wittigiana*.
+
+**Conclusão de qualidade das fontes:** nenhum dado novo autoriza alterar quantitativamente as receitas. O gargalo permanece evidência de composição exata para a espécie, preferencialmente com recipiente, granulometria e regime de rega explícitos. Status: MACS 1.0 **não homologada numericamente** para essas duas fichas.
