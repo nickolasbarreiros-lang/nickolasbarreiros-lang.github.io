@@ -40,6 +40,39 @@ export const cyrtopodiumSaintlegerianum = {
     "rega": "Durante brotação e expansão foliar, regue abundantemente e permita secagem rápida entre irrigações. Quando as folhas amarelecerem naturalmente, reduza progressivamente. Na fase desfolhada, mantenha a planta muito mais seca e proteja de chuvas repetidas, sem transformar a regra em seca absoluta se os pseudobulbos estiverem desidratando de forma extrema.",
     "suporte": "🥇 Tronco grosso ou placa extremamente robusta — aproxima o hábito observado sobre palmeiras.\n🥈 Cesto grande, rígido e muito vazado.\n🥉 Vaso pesado com drenagem extrema para quem não pode montar a planta.\nPlaneje o suporte para longo prazo: raízes aderidas não devem ser arrancadas em replantios frequentes.",
     "substrato": "🥇 Casca de macadâmia triturada grossa + casca de pinus grossa + perlita grossa + carvão vegetal.\n🥈 Casca de pinus grossa + carvão vegetal + brita fina, com quase nenhuma fração fina.\n🥉 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.\n⭐ Alternativa: Cachepô/cesto com pinus grosso + macadâmia grossa + perlita grossa, deixando grandes espaços de ar.",
+    "formasCultivo": {
+        "perfilVisual": "cyrtopodium-epifita-sazonal",
+        "destaque": "Placa / tronco",
+        "resumo": "Espécie robusta, frequentemente epífita sobre palmeiras, que exige suporte muito firme, alta luminosidade, ventilação intensa e repouso sazonal mais seco após a queda natural das folhas.",
+        "metodos": [
+            { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Tronco grosso ou placa excepcionalmente robusta, planejada para longo prazo. As raízes aderidas não devem ser arrancadas em replantios frequentes." },
+            { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": 5, "status": "Muito recomendado", "texto": "Cachepô grande, rígido e bastante vazado, com espaço para raízes e crescimento da touceira." },
+            { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": 4, "status": "Alternativa", "texto": "Vaso pesado e muito drenante, com partículas grossas e pouca fração fina, para oferecer estabilidade quando não houver montagem." },
+            { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 3, "status": "Uso condicional", "texto": "Somente recipiente reforçado e estabilizado, com drenagem extrema e cuidado para não acumular água na dormência." }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Proposta para cachepô ou vaso muito drenante; montagem dispensa mistura volumétrica",
+        "resumo": "Mistura grossa, muito arejada e de secagem rápida, ajustada ao hábito epífito e ao repouso sazonal.",
+        "justificativa": "Os quatro componentes seguem a primeira receita já indicada na ficha. Percentuais são estimativas técnicas e não constituem homologação MACS 1.0.",
+        "receitaTexto": "35% casca de macadâmia grossa + 30% casca de pinus grossa + 20% perlita grossa + 15% carvão vegetal.",
+        "perfil": ["Raízes epífitas aderentes", "Pseudobulbos volumosos", "Alta luminosidade", "Aeração muito alta", "Repouso sazonal mais seco"],
+        "comportamento": [
+            { "nome": "Retenção", "valor": 2, "icone": "💧" },
+            { "nome": "Aeração", "valor": 5, "icone": "💨" },
+            { "nome": "Secagem", "valor": 5, "icone": "⚡" },
+            { "nome": "Compactação", "valor": 1, "icone": "🧱" }
+        ],
+        "itens": [
+            { "asset": "casca-macadamia", "nome": "Casca de macadâmia grossa", "proporcao": "35%", "nota": "estrutura durável", "finalidade": "Cria espaços amplos entre partículas e oferece suporte às raízes." },
+            { "asset": "casca-pinus", "nome": "Casca de pinus grossa", "proporcao": "30%", "nota": "drenagem", "finalidade": "Mantém a mistura aberta e facilita a secagem." },
+            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "20%", "nota": "aeração", "finalidade": "Amplia a porosidade sem adicionar fração fina compactante." },
+            { "asset": "carvao", "nome": "Carvão vegetal", "proporcao": "15%", "nota": "estrutura e drenagem", "finalidade": "Acrescenta partículas estáveis e espaços de ar." }
+        ],
+        "alerta": "Durante o crescimento ativo, manter regas compatíveis com a secagem rápida; após a maturação e queda natural das folhas, reduzir água e adubação. Não arrancar raízes aderidas.",
+        "notaEvidencia": "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Validação visual de assets ainda pendente."
+    },
     "errosComuns": "Pouca luz; regar intensamente após a queda das folhas; manter adubação na dormência; suporte frágil; cortar raízes aderidas; excesso de esfagno; vaso com pouca drenagem; tentar manter crescimento contínuo; confundir queda natural das folhas com doença.",
     "dica": "Se for montar a planta, escolha o suporte como se ele fosse definitivo. Cyrtopodium saintlegerianum pode tornar-se grande e pesado, e raízes aderidas sofrem muito quando são removidas. Durante o crescimento, água e alimento são abundantes; depois da maturação e queda das folhas, faça a transição para um período mais seco, claro e ventilado.",
     revisaoCientificaIAR: {
