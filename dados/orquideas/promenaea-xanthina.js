@@ -26,7 +26,7 @@ export const promenaeaXanthina = {
     regiao: "Leste e Sul do Brasil",
     habitat: "Epífita de florestas montanas úmidas e protegidas, chegando a cerca de 1.700 m.",
     clima: "Intermediário a fresco, úmido e muito ventilado.",
-    climaFloracao: "A floração é favorecida por planta bem estabelecida, noites amenas, umidade constante e luz filtrada. No litoral quente, evite sobretudo o superaquecimento noturno. Após a maturação dos pseudobulbos, uma breve redução nas regas pode ajudar, mas sem transformar o período em repouso seco.",
+    climaFloracao: "A floração é favorecida por planta bem estabelecida, noites amenas, umidade ambiental elevada e luz filtrada. No litoral quente, evite sobretudo o superaquecimento noturno. Após a maturação dos pseudobulbos, uma breve redução nas regas pode ajudar, mas sem transformar o período em repouso seco.",
     iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não permitido",
@@ -71,7 +71,7 @@ export const promenaeaXanthina = {
             { asset: "perlita", nome: "Perlita grossa", proporcao: "40%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação radicular." },
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "15%", nota: "umidade", finalidade: "Retém umidade sem compactar quando usado em pequena quantidade." }
         ],
-        alerta: "Evitar sol forte, calor noturno acumulado, esfagno compactado, encharcamento, secagem completa no crescimento e repouso seco prolongado. O substrato não substitui noites mais amenas.",
+        alerta: "Evitar sol forte, calor noturno acumulado, esfagno compactado e água acumulada em brotos ainda pequenos; após o enraizamento dos novos crescimentos, evitar encharcamento, secagem completa e repouso seco prolongado. O substrato não substitui noites mais amenas.",
         notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
     },
     errosComuns: [
