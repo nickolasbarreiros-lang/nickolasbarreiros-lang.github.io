@@ -37,6 +37,39 @@ export const miltoniaSpectabilisVarMoreliana = {
     "rega": "Durante a brotação, mantenha umidade regular e permita apenas que a superfície comece a secar. Secagem prolongada nessa fase gera folhas sanfonadas permanentes. Antes de aumentar a água, examine as raízes: firmes e claras indicam falta de umidade; escuras, ocas ou moles revelam perda radicular e excesso de retenção. Depois que o pseudobulbo amadurecer, aumente discretamente o intervalo sem causar murchamento profundo.",
     "suporte": "🥇 Vaso plástico raso tipo cuia, com muitos furos: oferece espaço horizontal ao rizoma sem grande coluna de substrato.\n🥈 Vaso de barro raso: excelente para regiões úmidas e regas frequentes.\n🥉 Cesto de madeira: indicado para touceiras grandes e ambientes com umidade elevada.",
     "substrato": "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.",
+    formasCultivo: {
+        perfilVisual: "miltonia-moreliana-rizoma-expansivo-raizes-capilares",
+        destaque: "Vaso plástico vasado",
+        resumo: "Miltonia de rizoma expansivo e raízes capilares delicadas. Um vaso plástico raso, largo e muito perfurado permite avanço horizontal dos novos brotos sem criar uma coluna profunda de substrato.",
+        metodos: [
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 5, status: "Mais recomendado na ficha", texto: "Modelo raso tipo cuia e muito perfurado, com a frente de crescimento orientada para o espaço livre." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Modelo raso, adequado a ambiente úmido ou a regas frequentes, sem desidratar as raízes finas." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Para touceiras grandes em ambiente de umidade elevada, com aeração e rega controladas." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Somente com umidade ambiental elevada e regas consistentes, devido à sensibilidade das raízes capilares." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aerada para vaso raso tipo cuia",
+        resumo: "Umidade regular, granulometria média e excelente drenagem para raízes delicadas, sem compactação ou saturação prolongada.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        perfil: ["Epífita simpodial", "Rizoma expansivo", "Raízes capilares", "Vaso raso", "Umidade regular"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta as raízes sem formar massa compacta." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a manter umidade regular durante a formação dos brotos." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece a drenagem e a oxigenação das raízes capilares." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para a estrutura aberta do substrato." }
+        ],
+        alerta: "Evitar vasos fundos, substrato compacto, sombra excessiva e adubação concentrada. Deixar espaço para a frente de crescimento e preservar vários pseudobulbos ao dividir a touceira.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "❌ Vaso fundo e substrato compacto: destroem rapidamente as raízes capilares.\n❌ Falta de água no broto: causa folhas sanfonadas.\n❌ Sombra excessiva: reduz ou elimina a floração.\n❌ Fertilizante concentrado: queima pontas radiculares.\n❌ Divisão em brotos isolados: reduz reservas e exige longo período de recuperação.\n❌ Deixar a frente de crescimento sem espaço: faz novos brotos escaparem do recipiente antes de enraizar.",
     "dica": "Use um recipiente mais largo que profundo e posicione os pseudobulbos antigos próximos à borda, deixando a frente ativa voltada para o espaço livre. Durante a expansão do broto, mantenha água constante, mas não saturação. Folhas sanfonadas são um registro de estresse passado; investigue raízes antes de corrigir a rega. Replante apenas quando novas pontas radiculares aparecerem, preserve vários pseudobulbos maduros e faça flushing mensal para proteger o sistema radicular delicado.",
     revisaoCientificaIAR: {
