@@ -35,7 +35,7 @@ export const promenaeaXanthina = {
     },
     floracao: "Principalmente na primavera e no verão. Para o calendário do site, setembro a fevereiro funciona como janela prática de referência, podendo variar conforme procedência e condições de cultivo.",
     adubacao: "🌿 Orgânica: bokashi apenas em dose mínima e preferencialmente em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional e com bastante parcimônia em vasos pequenos.\n🚿 Lavagem: faça regas periódicas apenas com água pura para reduzir o acúmulo de sais.",
-    rega: "Durante o crescimento, mantenha o substrato levemente úmido e nunca permita secagem prolongada. Molhe bem e deixe drenar completamente. Depois que os pseudobulbos amadurecerem, reduza moderadamente a frequência por algumas semanas, acompanhando a secagem real do recipiente, sem desidratar a planta.",
+    rega: "Quando os brotos ainda estão pequenos e sem raízes novas, regue com parcimônia, evitando água acumulada junto às brotações. Quando os novos crescimentos estiverem quase maduros e com raízes ativas, mantenha regas regulares, deixando o substrato apenas levemente úmido entre irrigações, sem encharcar nem permitir seca prolongada. Ajuste a frequência à secagem real do recipiente e reduza gradualmente após a maturação, sem desidratar a planta.",
     suporte: [
         "🥇 Vaso pequeno e muito perfurado, mantendo as raízes úmidas e arejadas.",
         "🥈 Pequeno cesto ou cachepô com substrato leve e drenante.",
