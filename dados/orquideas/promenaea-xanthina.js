@@ -42,6 +42,38 @@ export const promenaeaXanthina = {
         "🥉 Montagem em cortiça ou madeira com fina camada de esfagno, apenas em ambiente de alta umidade."
     ],
     substrato: ["🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.", "🥈 Casca de pinus fina + perlita + perlita grossa fina + pequena fração de esfagno solto.", "🥉 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.", "⭐ Alternativa: Esfagno de fibra longa usado muito solto + perlita grossa fina; evitar compactação junto ao rizoma."],
+    formasCultivo: {
+        perfilVisual: "promenaea-xanthina-miniatura-montana-raizes-frescas",
+        destaque: "Vaso plástico vasado",
+        resumo: "Miniatura epífita de clima ameno e raízes delicadas. Vaso pequeno e muito perfurado oferece umidade regular sem abafamento, desde que permaneça em microclima fresco.",
+        metodos: [
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno e muito perfurado, com mistura leve e ventilação constante; proteger do calor acumulado." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô pequeno e aberto, com substrato drenante e acompanhamento da umidade." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Cortiça ou madeira com lâmina fina de esfagno, apenas em ambiente de alta umidade e regas frequentes." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e perfurado, observando a secagem mais rápida e a temperatura das raízes." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura leve para vaso pequeno e ventilado",
+        resumo: "Raízes frescas e úmidas, sem saturação. Pinus fino, perlita e esfagno solto em pequena fração oferecem retenção moderada com boa aeração.",
+        justificativa: "A receita quantifica a segunda alternativa qualitativa já registrada na ficha, para recipientes. A montagem com esfagno mínimo permanece preservada como alternativa. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "45% casca de pinus fina + 40% perlita grossa + 15% esfagno de fibra longa solto.",
+        perfil: ["Miniatura epífita", "Raízes sensíveis", "Clima ameno", "Umidade regular", "Boa ventilação"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "45%", nota: "estrutura", finalidade: "Apoia raízes finas e mantém o substrato aberto." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "40%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação radicular." },
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "15%", nota: "umidade", finalidade: "Retém umidade sem compactar quando usado em pequena quantidade." }
+        ],
+        alerta: "Evitar sol forte, calor noturno acumulado, esfagno compactado, encharcamento, secagem completa no crescimento e repouso seco prolongado. O substrato não substitui noites mais amenas.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: [
         "Expor ao sol direto forte",
         "Compactar esfagno em torno das raízes",
