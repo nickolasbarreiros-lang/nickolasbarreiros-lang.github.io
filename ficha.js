@@ -506,7 +506,7 @@ function criarFormasCultivoV4(config, perfilRadicular = []) {
                         : nome.includes("barro") ? `<img class="icone-img-cultivo-v421" src="imagens/ui/vaso-barro-orquideas-v438.webp" alt="">`
                 : (nome === "vaso plástico" || nome === "vaso plástico comum") ? `<img class="icone-img-cultivo-v421" src="imagens/ui/vaso-plastico-comum-v453.webp" alt="">`
                         : nome.includes("vaso") ? "🪴"
-                        : nome.includes("placa") || nome.includes("tronco") ? "🪵" : "🌿";
+                        : nome.includes("placa") || nome.includes("tronco") ? `<img class="icone-img-cultivo-v421" src="imagens/cultivo-v4/placa-madeira-v4.webp" alt="">` : "🌿";
                     return `
                     <article class="alternativa-forma-v41">
                         <div class="icone-alternativa-forma-v41" aria-hidden="true"><span>${icone}</span></div>
