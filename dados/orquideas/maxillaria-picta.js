@@ -37,6 +37,39 @@ export const maxillariaPicta = {
     "rega": "Durante a brotação, regue generosamente e permita que o substrato perca parte da umidade antes da próxima irrigação. Após a maturação, aumente discretamente o intervalo, sobretudo nas semanas frias e nubladas. A espécie não deve receber seca severa. Pseudobulbos levemente sulcados podem ser normais; enrugamento progressivo exige inspeção. Se houver raízes escuras e substrato molhado, o problema tende a ser perda radicular por falta de oxigênio; se as raízes estiverem firmes e a mistura seca, pode ser deficiência hídrica real.",
     "suporte": "🥇 Vaso de barro ou plástico muito perfurado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira, adequado a exemplares grandes e bem estabelecidos.\n🥉 Placa de madeira ou cortiça com pequena quantidade de musgo, somente onde a umidade ambiente e a rotina de rega evitarem desidratação. Preserve espaço para poucos crescimentos futuros.",
     "substrato": "🥇 Casca de pinus média + casca de macadâmia triturada + perlita grossa + fibra de coco grossa.\n🥈 Chips de coco + pinus médio + perlita + carvão vegetal miúdo.\n🥉 Pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia.\n⭐ Alternativa: Fibra de coco grossa + chips de coco + perlita grossa + pinus médio, sem compactação.",
+    formasCultivo: {
+        perfilVisual: "maxillaria-epifita-litofita-touceira-densa",
+        destaque: "Vaso de Barro",
+        resumo: "Espécie de touceiras densas, com flores basais e preferência por noites amenas. Vaso proporcional e muito perfurado favorece raízes arejadas, secagem uniforme e proteção dos brotos.",
+        metodos: [
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno e muito perfurado, pouco maior que a touceira, com mistura de granulometria média." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 5, status: "Alternativa equivalente", texto: "Plástico muito vazado e proporcional, evitando centro úmido por muitos dias." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô ventilado para exemplares maiores e bem estabelecidos." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Montagem com pequena reserva de musgo apenas onde umidade e regas impedirem desidratação." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aberta para vaso pequeno e bem perfurado",
+        resumo: "Partículas médias com retenção moderada, drenagem rápida e aeração contínua, evitando umidade parada na base.",
+        justificativa: "A receita quantifica os quatro materiais da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% casca de macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa.",
+        perfil: ["Epífita ou litófita", "Touceira densa", "Flores basais", "Noites amenas", "Secagem rápida"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece apoio radicular com umidade moderada." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "30%", nota: "drenagem", finalidade: "Mantém a mistura aberta e estável." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece oxigenação e drenagem rápida." },
+            { asset: "fibra-coco", nome: "Fibra de coco grossa", proporcao: "10%", nota: "reserva hídrica", finalidade: "Retém pequena fração de umidade sem compactar." }
+        ],
+        alerta: "Evitar vaso grande, rizoma enterrado, substrato degradado, sombra profunda e replante fora da emissão de raízes novas. Não arrancar bainhas firmes nem deixar água acumulada junto aos botões basais.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "❌ Replantar ou dividir fora do início de novas raízes.\n❌ Usar vaso muito grande e manter o centro úmido por vários dias.\n❌ Enterrar o rizoma, brotos ou hastes basais.\n❌ Cultivar em sombra profunda e esperar que apenas o frio provoque floração.\n❌ Arrancar bainhas firmemente aderidas durante a limpeza da base.\n❌ Regar com frequência no frio sem ventilação.\n❌ Aplicar adubo concentrado em raízes finas ou secas.",
     "dica": "Replante somente quando novas pontas de raízes começarem a aparecer. Fora dessa janela, a planta pode permanecer estagnada por muitos meses. No outono e inverno, mantenha luz filtrada forte e aproveite a queda natural da temperatura noturna para indução. Como as hastes florais são curtas e basais, remova apenas detritos soltos e bainhas totalmente deterioradas; não “descasque” o pseudobulbo à força. Mantenha a base ventilada e evite que água fique acumulada ao redor dos botões.",
     revisaoCientificaIAR: {
