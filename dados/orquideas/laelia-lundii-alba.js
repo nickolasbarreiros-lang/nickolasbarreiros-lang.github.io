@@ -37,6 +37,39 @@ export const laeliaLundiiAlba = {
     rega: "Na brotação e emissão de raízes, regue bem e permita secagem rápida. Em montagem no verão, pode exigir regas diárias. Quando o crescimento desacelerar, aumente o intervalo entre irrigações, sem permitir desidratação severa dos pequenos pseudobulbos.",
     suporte: "🥇 Cortiça, galho ou madeira dura.\n🥈 Pequeno cachepô ou cesto de madeira.\n🥉 Vaso de barro pequeno, muito perfurado e preenchido com material grosseiro.",
     substrato: "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.",
+    formasCultivo: {
+        perfilVisual: "miniatura-epifita-rupicola-forma-alba",
+        destaque: "Placa / tronco",
+        resumo: "Forma alba miniatura de crescimento em touceira. Favorecer montagem firme em cortiça ou madeira durável, raízes arejadas, boa luz filtrada e secagem rápida entre regas.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cortiça, galho rugoso ou madeira dura, com espaço para expansão da touceira e fixação estável." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cestinho pequeno e muito ventilado, com partículas grosseiras e regas adaptadas à secagem." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno, muito perfurado, com substrato grosso e arejado." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 3, status: "Uso condicional", texto: "Fixação em galho rugoso com claridade filtrada e regas regulares durante o estabelecimento." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem principal em placa; mistura alternativa para cesto ou vaso pequeno",
+        resumo: "Mistura grosseira, arejada e de secagem perceptível, sem compactar raízes ou base da touceira.",
+        justificativa: "A montagem é a primeira opção de suporte original. A receita para recipiente quantifica os quatro materiais da primeira mistura qualitativa já registrada; percentuais ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        perfil: ["Forma alba", "Miniatura epífita ou rupícola", "Touceira compacta", "Raízes arejadas", "Luz filtrada abundante"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta raízes finas sem compactação." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "apoio radicular", finalidade: "Oferece fixação e umidade moderada." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Mantém espaços de ar e drenagem." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta." }
+        ],
+        alerta: "Evitar sombra excessiva, sol forte direto, vaso grande, esfagno compactado, raízes constantemente molhadas e divisões frequentes de touceiras pequenas.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Dividir touceiras pequenas; cultivar em sombra excessiva por ser uma forma alba; expor ao sol forte direto; usar esfagno compactado; escolher vaso grande; manter raízes sempre molhadas; impor repouso seco exagerado; deixar a planta frouxa no suporte; adubar em excesso.",
     dica: "Preserve a planta em touceira. Quanto mais frentes ativas ela acumular, maior será o sistema radicular e a chance de uma floração mais cheia. Em litoral quente, prefira montagem, circulação de ar constante e bastante luz filtrada.",
     revisaoCientificaIAR: {
