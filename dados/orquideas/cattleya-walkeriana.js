@@ -41,6 +41,38 @@ export const cattleyaWalkeriana = {
     "rega": "Na brotação e no enraizamento, regue abundantemente pela manhã e permita que o suporte seque completamente em poucas horas. Após a maturação, aumente progressivamente os intervalos. Durante o período frio e seco, ofereça apenas a água necessária para evitar enrugamento extremo e perda das raízes. A ausência de pontas verdes indica menor consumo, não abandono hídrico total. Evite água acumulada no rizoma, nos brotos florais e em recipientes decorativos.",
     "suporte": "🥇 Placa de madeira dura ou cortiça — melhor reprodução do hábito natural e secagem imediata.\n🥈 Cestinho pequeno de madeira — circulação de ar em todas as direções.\n🥉 Vaso de barro raso e muito perfurado — alternativa em ambientes de menor umidade atmosférica.\nA planta deve ficar firmemente presa; movimento constante quebra pontas radiculares.",
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Casca de macadâmia grossa + perlita grossa + carvão vegetal, com secagem muito rápida.\n🥉 Pinus grosso + brita fina + carvão vegetal; evitar esfagno no miolo do vaso.\n⭐ Alternativa: Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.",
+    "formasCultivo": {
+        "perfilVisual": "cattleya",
+        "destaque": "Placa / tronco",
+        "resumo": "Cattleya epífita de porte compacto, com raízes que precisam de muita aeração, secagem rápida e fixação firme. Durante o crescimento ativo a planta demanda mais água; após a maturação, convém reduzir as regas sem desidratação severa.",
+        "metodos": [
+            { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Madeira dura ou cortiça reproduz o hábito epífito e permite secagem rápida. Exige regas adequadas durante a emissão de raízes e proteção contra chuva persistente na fase de repouso." },
+            { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": 5, "status": "Muito recomendado", "texto": "Permite crescimento de raízes ventiladas e firmeza do rizoma. Escolha tamanho pequeno e use apenas mistura grosseira, se necessária." },
+            { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": 4, "status": "Alternativa", "texto": "Prefira vaso raso e muito perfurado, com secagem rápida entre regas e rizoma exposto." },
+            { "nome": "Árvore viva", "asset": "arvore-viva", "estrelas": 4, "status": "Alternativa condicional", "texto": "A fixação natural é favorável à aeração, mas a chuva e a umidade do período de repouso são menos controláveis." }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Proposta para recipiente muito ventilado; em placa não há mistura volumétrica",
+        "resumo": "Mistura grossa, estável e drenante, destinada a manter as raízes oxigenadas e secar rapidamente.",
+        "justificativa": "A ficha original prioriza montagem epífita e cita macadâmia grossa, perlita grossa e carvão vegetal como alternativa em recipiente. A composição abaixo organiza esses materiais em percentuais sugeridos; não representa ensaio específico nem homologação MACS 1.0.",
+        "receitaTexto": "45% casca de macadâmia grossa + 30% perlita grossa + 25% carvão vegetal granulado.",
+        "perfil": ["Raízes epífitas", "Aeração muito alta", "Secagem rápida", "Repouso sazonal mais seco", "Rizoma exposto"],
+        "comportamento": [
+            { "nome": "Retenção", "valor": 1, "icone": "💧" },
+            { "nome": "Aeração", "valor": 5, "icone": "💨" },
+            { "nome": "Secagem", "valor": 5, "icone": "⚡" },
+            { "nome": "Compactação", "valor": 1, "icone": "🧱" }
+        ],
+        "itens": [
+            { "asset": "macadamia", "nome": "Casca de macadâmia grossa", "proporcao": "45%", "nota": "estrutura e sustentação", "finalidade": "Mantém espaços de ar e dá apoio às raízes sem formar uma massa compacta." },
+            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "30%", "nota": "aeração e leveza", "finalidade": "Amplia a porosidade e reduz a permanência de água entre partículas." },
+            { "asset": "carvao-vegetal", "nome": "Carvão vegetal granulado", "proporcao": "25%", "nota": "drenagem e estabilidade", "finalidade": "Contribui para a estrutura aberta; lavar periodicamente para evitar concentração de sais." }
+        ],
+        "alerta": "Em placa, dispense substrato volumétrico. Não enterre o rizoma, não use vaso profundo e evite umidade contínua durante o repouso.",
+        "notaEvidencia": "Percentuais e estrelas são estimativas horticulturais para apresentação visual; não são resultados de pesquisa experimental ou MACS 1.0 homologada."
+    },
     "errosComuns": "Pouca luz; regar por calendário; manter substrato úmido; usar vaso profundo ou grande; empregar material fino; enterrar o rizoma; confundir repouso com abandono total; replantar fora da emissão de raízes; deixar a planta frouxa; molhar o broto floral; excesso de nitrogênio; dividir a touceira em poucas frentes.",
     "dica": "A adubação não compensa ambiente inadequado. Primeiro ofereça luz alta, vento contínuo, suporte aberto e secagem rápida. Pontas radiculares verdes indicam maior demanda de água e nutrição; após a maturação, reduza progressivamente. No litoral, proteger das chuvas persistentes no repouso é mais seguro que provocar uma seca extrema.",
     revisaoCientificaIAR: {
