@@ -54,12 +54,7 @@ export const macradeniaMultiflora = {
         "🥉 Vaso pequeno e muito perfurado, com mistura leve e de secagem moderada."
     ],
 
-    substrato: [
-        "🥇 Casca de pinus média + carvão vegetal + perlita grossa.",
-        "🥈 Casca de pinus + pequena fração de esfagno + perlita grossa/perlita.",
-        "🥉 Chips de coco + carvão + perlita grossa, sem compactação.",
-        "⭐ Montada: fina camada de esfagno apenas junto às raízes novas."
-    ],
+    substrato: ["🥇 Casca de pinus + pequena fração de esfagno solto + perlita grossa.","🥈 Chips de coco + carvão vegetal + perlita grossa."],
 
     formasCultivo: {
         perfilVisual: "epifita-compacta-inflorescencia-pendente",
