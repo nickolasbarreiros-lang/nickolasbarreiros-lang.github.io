@@ -36,6 +36,39 @@ export const lockhartiaLunifera = {
     rega: "Regue com frequência durante crescimento e calor, sobretudo em plantas montadas. Depois de cada irrigação, permita boa aeração e perda do excesso de água antes da próxima. A espécie não tolera seca prolongada, mas raízes permanentemente saturadas também se deterioram. Regue preferencialmente pela manhã para que as bainhas foliares não permaneçam molhadas durante a noite.",
     suporte: "🥇 Placa inclinada de cortiça, galho rugoso ou madeira dura: acompanha o hábito pendente e facilita o escoamento da água.\n🥈 Cesto pequeno e suspenso, muito ventilado.\n🥉 Vaso pequeno e raso com mistura extremamente aberta, sem forçar os caules a permanecerem eretos.",
     substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.\n🥉 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n⭐ Alternativa: Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+    formasCultivo: {
+        perfilVisual: "epifita-pendente-sem-pseudobulbos",
+        destaque: "Placa / tronco",
+        resumo: "Epífita de caules imbricados e sem pseudobulbos, dependente de umidade regular e ventilação. Montagem inclinada ou pendente favorece escoamento de água entre as folhas.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Placa inclinada de cortiça ou madeira dura, ou galho rugoso, permitindo caules pendentes e escoamento da água." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cesto pequeno, suspenso e muito ventilado, com umidade regular sem saturação." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e raso, com mistura muito aberta e espaço para caules pendentes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Recipiente pequeno e extremamente perfurado, sem retenção contínua nas raízes." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem principal em placa; mistura alternativa para cesto ou vaso raso",
+        resumo: "Mistura aberta com retenção moderada, adequada a raízes que precisam de umidade frequente e ar constante.",
+        justificativa: "A montagem inclinada é o primeiro suporte da ficha. A mistura alternativa quantifica os quatro componentes da primeira receita qualitativa original; percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco grossos + 20% perlita grossa + 15% carvão vegetal.",
+        perfil: ["Epífita sem pseudobulbos", "Caules pendentes", "Umidade regular", "Boa ventilação", "Secagem superficial rápida"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Fornece suporte radicular e umidade moderada." },
+            { asset: "chips-coco", nome: "Chips de coco grossos", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a reduzir a desidratação sem compactar a mistura." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Mantém drenagem e espaços de ar." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta." }
+        ],
+        alerta: "Evitar seca prolongada, raízes saturadas, sombra excessiva e água parada entre as bainhas à noite. Não cortar caules ainda verdes após a floração.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Cortar caules verdes após a floração; cultivar em sombra excessiva; deixar água retida nas bainhas durante a noite; impor seca prolongada; manter raízes continuamente saturadas; usar vaso profundo; aplicar adubo concentrado; permitir acúmulo de sais; cultivar em ambiente abafado.",
     dica: "Preserve todos os caules enquanto estiverem verdes e dê preferência ao cultivo inclinado ou pendente. Essa posição acompanha o crescimento natural, melhora o escoamento da água entre as folhas e expõe melhor as flores. A combinação de umidade regular, secagem superficial rápida e ventilação contínua é mais importante do que qualquer calendário rígido de rega.",
     revisaoCientificaIAR: {
