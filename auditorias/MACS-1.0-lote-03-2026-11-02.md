@@ -77,3 +77,32 @@ Inspeção direta de `formasCultivo`, `substratoVisual` e `rega`:
 - **Alerta metodológico:** não transferir recomendações de *Dendrochilum tenellum* para *Dendrobium tenellum*: gêneros e espécies diferentes.
 
 **Status desta passagem:** 3 fichas confrontadas com fontes externas; nenhuma receita ou classificação modificada; 0 homologações quantitativas. Mantidas as dez receitas visuais identificadas na retificação do detector.
+
+## Terceira passagem — sete fichas restantes, verificação científica orientada por risco
+
+Conferidos diretamente os arquivos de *Cattleya schilleriana*, *Bulbophyllum rothschildianum*, *Encyclia Mineirinha*, *Arpophyllum giganteum*, *Oncidium Twinkle*, *Dendrobium lindleyi* (= *D. aggregatum*) e *Dendrobium moschatum*. Receitas atuais e cultivos principais registrados abaixo. **Os percentuais não são resultados experimentais nem homologação MACS.**
+
+| Ficha | Cultivo principal | Receita atual | Risco/questão científica |
+|---|---|---|---|
+| Cattleya schilleriana | Cachepô de madeira | 35 macadâmia / 30 pinus / 20 perlita / 15 carvão | Secagem rápida e enraizamento sensível; verificar frequência hídrica conforme tamanho do cachepô |
+| Bulbophyllum rothschildianum | Cachepô de madeira | 35 pinus / 20 carvão / 25 coco / 20 esfagno | Conciliação de umidade constante com aeração e rizoma exposto |
+| Encyclia Mineirinha (híbrido) | Vaso de barro | 35 macadâmia / 30 pinus / 20 perlita / 15 carvão | Validar em separado parentalidade e cultivo do híbrido, sem atribuir evidência de espécie pura |
+| Arpophyllum giganteum | Vaso plástico | 35 macadâmia / 25 pinus / 20 carvão / 10 arroz carbonizado / 10 esfagno | Fração hídrica de 10% de esfagno depende de volume do vaso, ambiente e rega |
+| Oncidium Twinkle (híbrido) | Vaso plástico | 35 pinus / 30 coco / 25 perlita / 10 carvão | Noites quentes podem prejudicar desempenho/floração mesmo com boa mistura |
+| Dendrobium lindleyi | Placa/tronco | 45 pinus / 30 brita / 25 carvão **apenas em vaso/cesto** | Repouso seco e noites frias como fatores de indução floral; não aplicar mistura à placa |
+| Dendrobium moschatum | Cachepô de madeira | 35 pinus / 30 macadâmia / 20 carvão / 15 perlita | Manejo sazonal deve ser específico, não copiar repouso de D. lindleyi |
+
+### Fontes efetivamente verificadas nesta passagem
+
+- AOS, *Why Will It Not Bloom, Part 1*: https://www.aos.org/orchids/articles/why-will-it-not-bloom-part-1-general-considerations — discute especificamente *D. lindleyi*, com dias abaixo de ~28°C, noites abaixo de ~10°C e grande amplitude diária associados à floração **em seu habitat**; isso não equivale a temperatura mínima obrigatória universal em cultivo.
+- Wisconsin Horticulture, *Dendrobium lindleyi* (rev. outubro de 2026): https://hort.extension.wisc.edu/articles/dendrobium-lindleyi/ — repouso invernal mais seco e noites na faixa ~10–16°C; ausência de floração com noites acima de ~16°C durante o período de indução, nas condições descritas. A ficha já orienta repouso mais seco, mas os fatores térmicos são críticos para avaliar floração em litoral quente.
+- AOS, *Bulbophyllum Culture Sheet*: https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet — gênero requer umidade regular, secagem apenas leve, substratos como esfagno e casca fina; rizoma e pseudobulbos não devem ser enterrados. **Fonte de gênero, não percentuais de B. rothschildianum.**
+- RHS, *Cool growing oncidium orchids*: https://www.rhs.org.uk/plants/oncidium/cool/growing-guide — lista expressamente o híbrido **Oncidium Twinkle** e discute noites frescas, substratos drenantes e rega regular. **Não comprova que a fórmula de 35/30/25/10 seja ideal**.
+- Orchid Society of Great Britain, *Oncidium Orchid Care*: https://www.osgb.org.uk/orchids/orchid-care-guides/oncidium-orchid-care — casca com perlita ou carvão e ajuste de retenção segundo ambiente, sem proporções específicas de Twinkle.
+- AOS, *Dendrobium General Culture Sheet*: https://www.aos.org/orchid-care/care-sheets/dendrobium-general-culture-sheet — recomendações gerais de casca grossa, perlita e carvão, com forte variação do repouso entre seções; **não extrapolar D. lindleyi para D. moschatum**.
+
+### Decisão desta passagem
+
+**10/10 fichas do lote 03 tiveram ao menos triagem de composição, recipiente e água.** Três foram confrontadas na passagem anterior com fontes de espécie; as sete restantes foram conferidas nesta passagem quanto a compatibilidade e riscos, com **fontes externas gerais ou específicas para parte delas**. Isso **não significa** que as dez já atingiram o alvo de 25 produtores brasileiros por espécie.
+
+Não alterar os percentuais sem base comparativa; não alterar estrelas IDC/IAR nesta auditoria de substrato; nenhuma ficha foi modificada. **Homologação quantitativa: 0/10.**
