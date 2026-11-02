@@ -37,6 +37,39 @@ export const laeliaGloriosa = {
     rega: "Durante a emissão de brotos e raízes novas, regue abundantemente e permita secagem rápida antes da próxima irrigação. Após a maturação dos pseudobulbos, aumente moderadamente o intervalo, especialmente em períodos frios ou nublados, sem causar enrugamento severo.",
     suporte: "🥇 Cesto grande e robusto de madeira, firmemente suspenso ou fixado.\n🥈 Vaso de barro pesado, largo e muito furado.\n🥉 Fixação definitiva em tronco de árvore, apenas onde não haja geadas e seja possível regar durante o estabelecimento.",
     substrato: "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.",
+    formasCultivo: {
+        perfilVisual: "epifita-grande-pseudobulbos-robustos",
+        destaque: "Cachepô de Madeira",
+        resumo: "Epífita tropical de grande porte, pseudobulbos robustos e hastes florais muito longas. Exige suporte estável, luminosidade alta, espaço para o rizoma e secagem clara entre regas.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô grande, robusto e firmemente suspenso, com mistura grossa e espaço para a touceira crescer." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso pesado, largo e muito perfurado, com estabilidade para pseudobulbos e hastes altas." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Uso condicional", texto: "Fixação definitiva em tronco bem iluminado, sem geadas e com regas de estabelecimento." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Somente tronco grande e firme, dimensionado para o porte adulto e a necessidade de água no estabelecimento." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura grossa para cachepô robusto e muito ventilado",
+        resumo: "Partículas médias e grossas com aeração elevada, boa sustentação e secagem perceptível entre regas.",
+        justificativa: "Os quatro componentes seguem a primeira mistura qualitativa já registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        perfil: ["Epífita de grande porte", "Pseudobulbos robustos", "Rizoma expansivo", "Alta luminosidade", "Raízes ventiladas"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta a touceira com boa porosidade." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "apoio radicular", finalidade: "Permite fixação das raízes e umidade moderada." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Mantém drenagem e espaços de ar." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta do cachepô." }
+        ],
+        alerta: "Não usar recipiente instável, substrato compacto ou sombra excessiva. Reservar espaço para haste floral longa e evitar manter as raízes permanentemente molhadas.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Cultivar em sombra; usar recipiente leve e instável; empregar substrato fino ou compactado; manter raízes constantemente molhadas; dar pouco espaço ao rizoma; não reservar espaço vertical para a haste; deixar água acumulada em brotos novos; adubar raízes secas com solução concentrada; usar Schomburgkia crispa como sinônimo; cortar haste ainda verde.",
     dica: "🏆 Planeje o cultivo para o tamanho adulto. Use cesto robusto ou vaso pesado, dê espaço ao rizoma e reserve área livre para uma haste que pode passar de 1 metro. No crescimento, forneça água e nutrição com generosidade; depois, mantenha muita luz e apenas reduza moderadamente as regas.",
     revisaoCientificaIAR: {
