@@ -52,7 +52,7 @@ export const maxillariaSchunkeana = {
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
-        resumo: "Mistura leve e aerada, com retenção moderada para uma espécie de floresta úmida do Espírito Santo.",
+        resumo: "Mistura leve e aerada, com retenção moderada para uma espécie de floresta úmida.",
         justificativa: "Kew reconhece Maxillaria schunkeana como epífita do bioma tropical úmido, e registros de cultivo a situam em torno de 600–700 m. A receita busca umidade regular sem transformar o vaso em um núcleo abafado.",
         receitaTexto: "Mistura-base sugerida: 45% casca de pinus média/fina + 25% carvão vegetal + 20% casca de macadâmia + 10% esfagno solto.",
         perfil: ["Raízes finas", "Umidade regular", "Sombra clara", "Boa ventilação", "Vaso pequeno"],
