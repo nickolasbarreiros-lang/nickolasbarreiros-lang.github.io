@@ -67,7 +67,7 @@ export const sophronitisWittigiana = {
             { asset: "brita-pura", nome: "Brita pequena", proporcao: "20%", nota: "drenagem", finalidade: "Melhora drenagem e estabilidade sem reter excesso de água." },
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva de umidade", finalidade: "Compensa a secagem rápida em pequena quantidade, sem envolver o rizoma." }
         ],
-        alerta: "Não enterre o rizoma nem compacte a mistura. No litoral quente, priorize suporte fresco e ventilado."
+        alerta: "Não enterre o rizoma nem compacte a mistura. Em clima quente, priorize suporte fresco e ventilado."
     },
     errosComuns: [
         "Calor noturno abafado e pouca ventilação.",
