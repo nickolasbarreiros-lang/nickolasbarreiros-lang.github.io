@@ -75,3 +75,27 @@ Dez fichas do índice oficial. Este documento é um registro de auditoria técni
 7. **Dendrobium spectabile** — 35% macadâmia, 30% pinus, 20% perlita, 15% carvão. AOS, Dendrobium Care (https://www.aos.org/orchids/orchid-basics/orchid-question-and-answer/dendrobium-care) orienta umidade durante o ano e período relativamente mais fresco/seco no inverno para floração; AOS, Dendrobium General Culture Sheet (https://www.aos.org/orchid-care/care-sheets/dendrobium-general-culture-sheet) recomenda casca média/grossa, perlita e carvão em estufas. Parecer: mistura plausível; manter água adequada no crescimento e evitar repouso severo.
 
 **Resultado documental:** 10 fichas têm parecer escrito. As fontes específicas e os produtores brasileiros continuam insuficientes para afirmar que 10/10 foram homologadas conforme a meta MACS 1.0. Nenhuma ficha foi editada.
+
+## Adendo — novas evidências e correção de interpretação (2026-11-02)
+
+### Anathallis sclerophylla — evidência anatômica específica
+- POWO/Kew aceita **Stelis sclerophylla** e lista *Anathallis sclerophylla* como sinônimo homotípico: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77142174-1 . Manter nome editorial somente por decisão explícita do catálogo, sem tratá-lo como aceito por POWO.
+- Tese de doutorado da UNESP (Kedrovski, 2019), com estudo da ontogenia de tilossomos especificamente em *Anathallis sclerophylla*: https://repositorio.unesp.br/entities/publication/0de09a61-c957-4a86-b182-409dc84449b8 . Discute especializações anatômicas relacionadas ao balanço hídrico, **não** recomenda percentuais de substrato.
+- Consequência: ampliar a fundamentação fisiológica, sem converter hipótese sobre transporte hídrico em prescrição de 20% de esfagno.
+
+### Epidendrum centropetalum — divergência específica importante
+- Monaco Nature Encyclopedia, ficha da espécie: https://www.monaconatureencyclopedia.com/epidendrum-centropetalum/?lang=en — recomenda secagem das raízes entre regas, cultivo preferencial montado em casca/cortiça com esfagno opcional na base, ou recipiente pequeno com meio muito drenante (casca média/grossa e carvão).
+- AOS, *Reedstem Epidendrum Culture*: https://www.aos.org/orchid-care/orchid-care-basics/reedstem-epidendrum-culture — recomenda casca fina/média e 15–20% perlita para epidendros de haste tipo cana; **não é orientação específica para E. centropetalum**.
+- Consequência: a frase anterior 'umidade regular' não pode ser lida como raízes continuamente molhadas. A mistura atual (45% pinus fino, 35% perlita, 20% esfagno) precisa ser reavaliada conforme secagem no recipiente. **Elevar prioridade de revisão** em vez de aprovar provisoriamente com base em extrapolação genérica.
+
+### Miltonia russelliana — referência brasileira comparativa e ensaio de híbrido
+- AOS Miltonia: https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet — mistura para raízes finas, 70% casca fina para mudas com carvão/perlita, ou 70% fibra de samambaia arbórea e 30% esfagno; preferência por recipientes rasos. A composição não foi publicada especificamente para *M. russelliana*.
+- Orquídeas dos Frades, texto geral de miltônia atribuído ao livro *ABC das Orquídeas*: https://www.orquideasdosfrades.com.br/c%C3%B3pia-lycaste — 60% casca fina/média, 30% esfagno, 10% argila expandida; **generalização de gênero, não receita da espécie**.
+- Yamamoto et al. (2009), estudo de substratos no híbrido *Miltonia regnellii × Oncidium concolor*: https://ojs.uel.br/revistas/uel/index.php/semagrarias/article/view/4639 — ensaio com dez plantas por tratamento, doze meses; resultados não transferíveis automaticamente à espécie alvo.
+- Consequência: prioridade de inspeção de granulometria e comportamento hídrico; sem homologação de nova proporção.
+
+### Status após o adendo
+- **5 prioridades de revisão documental**: *Aerides odorata*, *Epidendrum centropetalum*, *Miltonia russelliana*, *Promenaea xanthina* e *Phalaenopsis pulcherrima*.
+- **5 pareceres condicionais**: *Anathallis sclerophylla*, *Brassia lawrenceana*, *Laelia splendida*, *Encyclia alboxanthina*, *Dendrobium spectabile*.
+- A contagem original 4/6 permanece como fotografia histórica da primeira auditoria; esta seção registra a reclassificação posterior.
+- Nenhum percentual alterado e nenhuma ficha declarada homologada.
