@@ -133,7 +133,7 @@ export const eriaHyacinthoides = {
         ],
         "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura."
     },
-    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + pequena fração de esfagno solto.\n🥈 Cesto raso com esfagno de fibra longa bem solto + perlita grossa, sem compactar o rizoma.\n🥉 Chips de coco tratados + perlita + carvão vegetal miúdo + pouco esfagno.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + perlita grossa + esfagno em baixa proporção.",
+    substrato: ["🥇 Esfagno de fibra longa solto + perlita grossa.","🥈 Chips de coco tratados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno.","🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de esfagno."],
     errosComuns: "Manter a planta identificada apenas sob o gênero desatualizado Eria nos registros da coleção; Permitir secura prolongada do substrato; Cultivar em ambientes com pouca ventilação; Exagerar na dosagem dos adubos e causar queima das raízes por sais; Dividir touceiras pequenas antes de a planta estar bem estabelecida.",
     dica: "Deixe a planta formar uma touceira antes de dividir. O efeito ornamental vem justamente das hastes densas e numerosas; em clima quente, combine umidade do ar com ventilação forte para que as raízes finas permaneçam hidratadas sem ficar abafadas.",
     revisaoCientificaIAR: {
