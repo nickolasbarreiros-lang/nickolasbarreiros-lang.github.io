@@ -202,3 +202,19 @@ Consultas direcionadas realizadas:
 - Prioridade técnica mais alta: verificar secagem/retencão real em vaso de *E. centropetalum* e *P. pulcherrima* antes de atribuir porcentagens definitivas.
 - Evidências de fornecedores estrangeiros não entram na meta de até 25 produtores brasileiros.
 - Status inalterado: dez pareceres documentados, cinco prioritários, cinco condicionais, zero homologações percentuais definitivas e zero alterações em fichas.
+
+## Adendo — convergência/divergência documentada para Promenaea xanthina (02/11/2026)
+
+Fontes brasileiras específicas:
+1. Orquidário Oriental, https://www.orquidariooriental.com.br/produto/ipromenaea-xanthinai%2C887/ : esfagno ou mistura de fibra de coco, pinus e carvão; regas constantes e umidade constante; vasos de plástico, barro ou caixeta. **Não fornece percentuais.**
+2. Orquidário Santa Clara, https://orquidariosantaclara.com.br/home/2688-promenaea-xantina-ad.html : diferentes meios e recipientes, incluindo troncos; evitar encharcamento. **Não fornece receita quantitativa.**
+3. Orquidário Aparecida, https://orquidarioaparecida.com.br/produtos/promenaea-xanthina-p/ : planta anunciada montada em madeira cambará; as orientações adicionais do estabelecimento são gerais para o orquidário. **Não valida mistura para vaso.**
+4. Cultivador brasileiro Orquídeas Encanto e Paixão, https://orquideasjph.wordpress.com/2016/09/20/promenaea-xanthina/ : recomenda **partes iguais** de pinus, esfagno e carvão em vaso/caixeta, umidade elevada sem encharcamento. É relato individual de cultivo, **não ensaio replicado nem orquidário comercial**.
+
+**Comparação quantitativa transparente:** receita atual: 45% pinus, 40% perlita, 15% esfagno, 0% carvão. Receita do cultivador: aproximadamente 33,3% pinus, 33,3% esfagno, 33,3% carvão, 0% perlita. A diferença é expressiva sobretudo no esfagno e na fração mineral; a receita do cultivador não prova superioridade, mas mostra que **40% perlita não está corroborado** por essa referência.
+
+**Parecer técnico:** elevar prioridade de *P. xanthina* para comparação prática da secagem e umidade do meio. Não adotar proporções do relato individual como padrão sem comparação de recipiente, frequência de rega e clima. O Oriental pede umidade constante; o Santa Clara alerta contra encharcamento — recomendações compatíveis se houver alta disponibilidade hídrica com boa aeração.
+
+**Cuidado com evidência indireta:** a ficha de *Aerides odorata × lawrenciae* do Orquidário 4 Estações é de **híbrido**, não valida substrato de *A. odorata*. O estudo de Yamamoto et al. (2009) é sobre *Miltonia regnellii × Oncidium concolor*, não sobre *M. russelliana*.
+
+**Estado:** lote 01 com 10 pareceres documentados; sem homologação numérica definitiva ou alteração de fichas. A contagem de fontes comerciais não deve incorporar relatos pessoais como produtores nem duplicar páginas do mesmo estabelecimento.
