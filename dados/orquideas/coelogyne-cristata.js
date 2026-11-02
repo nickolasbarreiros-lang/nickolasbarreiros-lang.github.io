@@ -41,6 +41,39 @@ export const coelogyneCristata = {
     "rega": "Na primavera e no verão, regue abundantemente enquanto houver brotos e raízes ativas, deixando o substrato arejado. No outono, reduza de forma progressiva. Durante o inverno, mantenha quase seca, com irrigações mínimas apenas se os pseudobulbos começarem a enrugar excessivamente. Não deixe a mistura fria e molhada. Retome a rega de modo gradual com o aparecimento de botões ou novos crescimentos.",
     "suporte": "🥇 Cestinho largo de madeira — permite expansão da touceira e caimento das hastes.\n🥈 Vaso raso e amplo — oferece estabilidade sem excesso de substrato profundo.\n🥉 Placa grande — indicada somente em clima frio e úmido, com regas controladas.\nMantenha o recipiente suspenso e com espaço livre abaixo.",
     "substrato": "🥇 Chips de coco médios + casca de pinus média + perlita grossa + esfagno picado em pequena proporção.\n🥈 Pinus médio + chips de coco + perlita + carvão vegetal miúdo.\n🥉 Esfagno de fibra longa bem solto + perlita grossa + casca de pinus média, em recipiente raso e ventilado.\n⭐ Alternativa: Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno.",
+    "formasCultivo": {
+        "perfilVisual": "coelogyne",
+        "destaque": "Cachepô de Madeira",
+        "resumo": "Espécie de altitude que requer noites frias para florescer e redução acentuada das regas no inverno. O suporte aberto ajuda a evitar umidade estagnada, mas não substitui o frio necessário à indução floral.",
+        "metodos": [
+            { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Cachepô largo e suspenso, com espaço para expansão da touceira e caimento das hastes. Controlar rigorosamente as regas no período frio." },
+            { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": 4, "status": "Alternativa", "texto": "Vaso raso, amplo e bem drenante, sem camada profunda de substrato. Evitar que a mistura permaneça fria e encharcada." },
+            { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 4, "status": "Alternativa condicional", "texto": "Pode funcionar com boa ventilação e secagem monitorada, desde que haja espaço para as hastes pendentes." },
+            { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": 3, "status": "Somente em clima frio e úmido", "texto": "Montagem grande e estável, reservada a ambientes com frio noturno e umidade adequados. Demanda controle preciso da hidratação." }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Proposta para cachepô largo e ventilado",
+        "resumo": "Mistura que mantém umidade durante o crescimento, mas permite redução hídrica e secagem mais pronunciada no repouso.",
+        "justificativa": "A composição segue os quatro materiais da primeira receita já presente na ficha. Os percentuais são uma sugestão técnica, ainda não homologada pela MACS 1.0.",
+        "receitaTexto": "35% chips de coco médios + 30% casca de pinus média + 25% perlita grossa + 10% esfagno picado e solto.",
+        "perfil": ["Raízes epífitas", "Touceira expansiva", "Umidade na fase ativa", "Repouso hídrico de inverno", "Exigência de noites frias para floração"],
+        "comportamento": [
+            { "nome": "Retenção", "valor": 4, "icone": "💧" },
+            { "nome": "Aeração", "valor": 4, "icone": "💨" },
+            { "nome": "Secagem", "valor": 2, "icone": "⚡" },
+            { "nome": "Compactação", "valor": 2, "icone": "🧱" }
+        ],
+        "itens": [
+            { "asset": "chips-coco", "nome": "Chips de coco médios", "proporcao": "35%", "nota": "umidade na fase ativa", "finalidade": "Oferece retenção moderada durante o crescimento, com espaço entre partículas." },
+            { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "30%", "nota": "estrutura", "finalidade": "Mantém suporte e drenagem para as raízes." },
+            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "25%", "nota": "aeração", "finalidade": "Evita compactação e facilita a secagem controlada no repouso." },
+            { "asset": "esfagno", "nome": "Esfagno picado e solto", "proporcao": "10%", "nota": "retenção complementar", "finalidade": "Reduz secagem excessiva na fase ativa; não compactar nem manter saturado no inverno." }
+        ],
+        "alerta": "Em clima quente de litoral, a floração pode não ocorrer por falta de noites frias, mesmo com rega e substrato corretos. Não tente substituir o frio por seca extrema.",
+        "notaEvidencia": "Estrelas e percentuais são estimativas horticulturais. MACS 1.0 e validação visual ainda pendentes."
+    },
     "errosComuns": "Noites quentes no inverno; tentar induzir floração apenas com seca; manter regas constantes no repouso; adubar no inverno; calor abafado no verão; pouca luz no período frio; deixar o substrato frio e encharcado; falta de espaço para a touceira; colocar em vaso profundo; retomar água em excesso antes da atividade radicular.",
     "dica": "O gatilho floral é triplo: frio noturno real, luminosidade alta e repouso hídrico. Reduzir água sem oferecer frio não basta. No inverno, mantenha quase seca, suspenda adubos e permita apenas irrigações mínimas para preservar os pseudobulbos.",
     revisaoCientificaIAR: {
