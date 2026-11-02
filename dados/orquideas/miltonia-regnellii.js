@@ -37,6 +37,39 @@ export const miltoniaRegnellii = {
     "rega": "Na fase de crescimento ativo, regue assim que a camada superficial do substrato começar a secar, mantendo umidade regular sem deixar o vaso continuamente encharcado. A falta de água durante a expansão das folhas pode causar o efeito sanfona, que é permanente. Porém, antes de aumentar a rega, examine as raízes: raízes claras, firmes e ativas sugerem deficiência hídrica ou baixa umidade; raízes escuras, moles ou ocas indicam perda radicular por abafamento, substrato velho ou excesso de água. Após a maturação do pseudobulbo, aumente apenas levemente o intervalo entre as regas.",
     "suporte": "🥇 Vaso plástico pequeno e muito perfurado: conserva umidade homogênea ao redor das raízes finas sem excesso de substrato.\n🥈 Vaso de barro: indicado para ambientes úmidos ou rotinas de rega frequente, pois acelera a secagem e refresca as raízes.\n🥉 Cesto de madeira: opção para touceiras grandes, desde que a umidade ambiente seja suficiente.\nUse sempre recipiente apenas ligeiramente maior que a touceira.",
     "substrato": "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.\n⭐ Alternativa: Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.",
+    formasCultivo: {
+        perfilVisual: "miltonia-epifita-simpodial-raizes-finas",
+        destaque: "Vaso plástico vasado",
+        resumo: "Miltonia epífita de raízes finas e pseudobulbos comprimidos. Um vaso pequeno e muito perfurado mantém umidade regular, aeração e espaço apenas para poucos novos crescimentos.",
+        metodos: [
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno e muito perfurado, apenas ligeiramente maior que a touceira, com umidade homogênea." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Favorece evaporação e resfriamento radicular em ambiente úmido ou com regas frequentes." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Para touceiras grandes e ambientes com umidade suficiente, exigindo acompanhamento da secagem." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Somente com umidade ambiental elevada e regas consistentes para proteger raízes finas." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura arejada para vaso pequeno e muito perfurado",
+        resumo: "Retenção moderada e uniforme durante o crescimento, sem acúmulo de água no centro do recipiente.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        perfil: ["Epífita simpodial", "Raízes finas", "Pseudobulbos comprimidos", "Umidade regular", "Boa ventilação"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta raízes e fornece umidade moderada." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a manter disponibilidade hídrica regular." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para a estrutura aberta do substrato." }
+        ],
+        alerta: "Evitar vaso grande, substrato degradado, seca prolongada dos brotos, sombra profunda e sais acumulados. Inspecionar as raízes antes de interpretar pseudobulbos murchos como falta de água.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "❌ Manter substrato velho, ácido ou compactado.\n❌ Usar vaso grande, que conserva umidade excessiva no centro.\n❌ Deixar o broto novo secar por longos períodos, causando folhas sanfonadas.\n❌ Interpretar pseudobulbo murcho como sede sem verificar raízes mortas.\n❌ Cultivar em sombra profunda, produzindo folhas escuras e poucas hastes.\n❌ Aplicar adubo concentrado ou deixar sais acumularem.\n❌ Replantar fora da fase de raízes novas.\n❌ Deixar água acumulada nas bainhas em noites quentes e abafadas.",
     "dica": "O pseudobulbo novo é a reserva que sustentará a próxima floração. Para que ele amadureça grande e firme, mantenha rega regular, luz filtrada abundante e adubação suave durante todo o crescimento. Previna folhas sanfonadas observando simultaneamente a umidade e a saúde das raízes; aumentar a água não resolve quando o sistema radicular já está deteriorado. Faça flushing mensal e replante somente quando as novas pontas de raízes aparecerem. Quanto mais robusto o pseudobulbo, maior a probabilidade de hastes fortes, multifloras e duráveis.",
     revisaoCientificaIAR: {
