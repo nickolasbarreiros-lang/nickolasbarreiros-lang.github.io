@@ -36,6 +36,38 @@ export const octomeriaDiaphana = {
     "rega": "Por não possuir pseudobulbos, necessita de umidade regular. Em placas, regue diariamente no verão ou antes que a fina camada de esfagno seque completamente por vários dias. O suporte deve permanecer úmido apenas o suficiente para hidratar as raízes, mas com circulação de ar constante. Pontas secas podem indicar ar muito seco, excesso de sais ou raízes comprometidas. Brotações escurecendo pela base sugerem abafamento, substrato velho ou água parada nas axilas.",
     "suporte": "🥇 Placa de cortiça ou madeira dura com uma camada fina de esfagno: suporte ideal e permanente.\n🥈 Pequeno cesto de madeira: permite formar almofadas compactas com boa aeração.\n🥉 Cuia plástica rasa e perfurada: útil apenas em ambientes de umidade mais baixa.\nEvite trocas frequentes de suporte depois que a planta se fixar.",
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.\n🥉 Esfagno de fibra longa usado muito solto + perlita grossa fina; evitar compactação junto ao rizoma.\n⭐ Alternativa: Casca de pinus fina + perlita + perlita grossa fina + pequena fração de esfagno solto.",
+    formasCultivo: {
+        perfilVisual: "octomeria-miniatura-epifita-cespitosa",
+        destaque: "Placa / tronco",
+        resumo: "Miniatura epífita de raízes finas e touceira cespitosa. A montagem permanente em madeira ou cortiça, com fina lâmina de esfagno, combina umidade regular e alta aeração.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cortiça ou madeira dura com camada mínima de esfagno sob as raízes, sem cobrir a base da touceira." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cesto pequeno e aberto, permitindo almofada compacta com circulação de ar." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Cuia rasa e perfurada para ambientes de menor umidade, com mistura leve e sem compactação." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 2, status: "Menos indicado", texto: "Somente vaso muito pequeno e raso, com regas ajustadas à secagem acelerada." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem em madeira ou cortiça com fina lâmina de esfagno",
+        resumo: "Na montagem principal, esfagno apenas sob as raízes, sem massa de substrato. Para cesto ou cuia, mistura leve de partículas pequenas com boa drenagem.",
+        justificativa: "A receita percentual refere-se à segunda alternativa já registrada na ficha, para recipientes. A montagem principal não utiliza mistura volumosa. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "40% chips de coco pequenos + 30% casca de pinus fina + 30% perlita grossa.",
+        perfil: ["Miniatura epífita", "Raízes finas", "Touceira cespitosa", "Umidade regular", "Montagem permanente"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "chips-coco", nome: "Chips de coco pequenos", proporcao: "40%", nota: "umidade", finalidade: "Mantêm reserva hídrica moderada no recipiente." },
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "30%", nota: "estrutura", finalidade: "Oferece fixação às raízes finas sem excesso de volume." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "30%", nota: "aeração", finalidade: "Mantém a mistura porosa e drenante." }
+        ],
+        alerta: "Preservar a touceira inteira e evitar mudanças de suporte após fixação. Não compactar esfagno, permitir seca completa por vários dias ou aplicar adubação concentrada.",
+        notaEvidencia: "Receita percentual apenas para recipientes; na placa, usar fina lâmina de esfagno. Estrelas e percentuais são estimativas não homologadas pela MACS 1.0. Conferência visual dos assets pendente."
+    },
     "errosComuns": "❌ Dividir a touceira em 1 ou 2 ramicaules.\n❌ Permitir seca completa por vários dias.\n❌ Cultivar em vaso fundo ou substrato compacto.\n❌ Aplicar adubo forte ou deixar sais acumularem.\n❌ Deixar água parada nas axilas durante noites frias.\n❌ Retirar folhas antigas ainda verdes, que continuam ajudando na reserva hídrica.\n❌ Manipular a planta durante a emissão de novos ramicaules.\n❌ Manter em ambiente sem circulação de ar.",
     "dica": "Preserve a touceira inteira. Se a divisão for inevitável, mantenha pelo menos 5–6 ramicaules vigorosos e enraizados. Monte em madeira ou cortiça com uma lâmina fina de esfagno, deixando as raízes respirar, e evite mudar o suporte depois da fixação. Não retire folhas verdes antigas nem manipule a planta durante o crescimento. Quanto mais antiga e densa a touceira, maior o número de fascículos e mais evidente o efeito de nuvem de flores diáfanas.",
     revisaoCientificaIAR: {
