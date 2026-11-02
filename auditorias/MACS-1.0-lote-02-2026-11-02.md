@@ -142,3 +142,19 @@ Inspeção direta do conteúdo versionado em `dados/orquideas/mediocalcar-decora
 
 ### Próximo teste verificável
 Comparar, para cada ficha, (a) recipiente e granulometria cadastrados, (b) comportamento de secagem esperado em clima quente, (c) recomendações específicas de produtores brasileiros, com registro de cada fonte; apenas depois propor correções numéricas.
+
+## Auditoria de recipiente × granulometria × secagem — três fichas
+
+Inspeção direta dos blocos `formasCultivo` e `substratoVisual` no repositório.
+
+| Ficha | Método principal cadastrado | Receita-base em recipiente | Observação de compatibilidade |
+|---|---|---|---|
+| *Mediocalcar decoratum* | Placa/tronco (5★), com fina camada de esfagno | Vaso raso: pinus fino 40%, esfagno 25%, carvão 20%, macadâmia 15% | **Não confundir receita do vaso com montagem.** A placa tem retenção localizada na camada fina de esfagno; o vaso usa mistura em volume. Ambos requerem controle para não secar completamente. |
+| *Maxillaria schunkeana* | Vaso de barro (5★) | Pinus médio/fino 45%, carvão 25%, macadâmia 20%, esfagno 10% | A evaporação pela terracota pode reduzir temperatura da superfície quando há circulação e evaporação, mas também acelerar a secagem; verificar tamanho do vaso e frequência de rega. |
+| *Zygolum Louisendorf* | Vaso plástico (5★) | Pinus médio 45%, fibra de coco grossa 25%, carvão 20%, esfagno 10% | Paredes plásticas reduzem evaporação lateral; drenagem pelo fundo e estrutura do substrato são críticas para evitar centro persistentemente molhado. |
+
+### Correção editorial efetiva
+Em `dados/orquideas/maxillaria-schunkeana.js`, o resumo de `substratoVisual` continha referência explícita a um estado brasileiro, vedada pela regra editorial do projeto. Texto corrigido para «Mistura leve e aerada, com retenção moderada para uma espécie de floresta úmida.» Commit `f7f15872090725839d4bf3876bae00d0066b45bb`. **Sem alterações** de percentuais, cultivo principal, imagens, assets, classificações ou layout.
+
+### Limite da auditoria
+A inspeção confirma coerência textual e possíveis riscos físicos; não mede a secagem real nem homologa as receitas. A próxima verificação deve confrontar observações de cultivo por espécie e tipo de recipiente antes de qualquer mudança quantitativa.
