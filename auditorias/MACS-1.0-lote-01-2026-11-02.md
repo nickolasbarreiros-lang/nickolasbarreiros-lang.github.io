@@ -105,3 +105,21 @@ Dez fichas do índice oficial. Este documento é um registro de auditoria técni
 - AOS especifica umidade ao longo do ano e descanso relativamente mais fresco/seco para florescer D. spectabile; não extrapolar para seca severa: https://www.aos.org/orchids/orchid-basics/orchid-question-and-answer/dendrobium-care
 - Encyclia alboxanthina: artigo brasileiro de 2021 em Ornamental Horticulture encontrou melhor floração em meios com esfagno para **híbrido Encyclia 'Kropp' x E. atropurpurea**, não para E. alboxanthina. Resultado não invalida automaticamente a mistura drenante da espécie: https://www.scielo.br/j/oh/a/XLHMMtpS9sDpYJXyMHMvYLf/
 - Decisão: conservar receitas como condicionais; não homologar porcentagens sem dados da espécie, granulometria e recipiente. Nenhuma ficha alterada.
+
+## Adendo — pesquisa brasileira controlada (02/11/2026)
+
+### Referências novas verificadas
+- SENAR-PR, *Cultivo de Orquídeas* (2026), p. 50: https://www.sistemafaep.org.br/wp-content/uploads/2026/01/PR.0397-Cultivo-de-Orquideas_web.pdf . Seleção de meio depende do hábito natural, clima e recipiente. **Fonte geral de capacitação**, não receita para uma das dez espécies.
+- Sociedade Orquidófila de Santo André (SOSA), *Dicas de cultivo*: https://www.sosa.org.br/site/dicas-de-cultivo.php . Descreve secagem rápida em tronco/carvão e mais lenta em musgo; recomendação **genérica**, não por espécie. Atenção: sua regra genérica de secar completamente não deve ser imposta a espécies que requerem umidade contínua.
+- AOS, *Miltonia Culture Sheet*: https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet . Recomenda casca fina e recipiente raso para raízes finas; **referência de gênero**, não teste de *M. russelliana*.
+- Orquídeas dos Frades, *Miltônia*, reproduz orientação de Rosenn Le Page: https://www.orquideasdosfrades.com.br/c%C3%B3pia-lycaste . Mistura geral 60% pinus fino/médio, 30% esfagno, 10% argila expandida; **não** contar como produtor que ensaiou *M. russelliana*.
+- Schnitzer et al. (2010), *Acta Scientiarum Agronomy*, DOI 10.4025/actasciagron.v32i1.714: https://www.scielo.br/j/asagr/a/SwVJrySdJB8RcgnKsQvGLCx/?lang=pt . Ensaio com *Miltonia clowesii* e *Cattleya intermedia* de pinus, coco, arroz carbonizado e carvão em proporções iguais, com/sem extrato pirolenhoso. **Não** é ensaio com *M. russelliana*.
+- Yamamoto et al. (2009), *Semina: Ciências Agrárias*, DOI 10.5433/1679-0359.2009v30n4Sup1p1035: https://ojs.uel.br/revistas/uel/index.php/semagrarias/article/view/4639 . Ensaio com híbrido *Miltonia regnellii × Oncidium concolor*; substrato bagaço de cana + esfagno não foi aprovado no experimento. Não extrapolar ao gênero inteiro.
+
+### Triagem das três fichas
+- **Anathallis sclerophylla**: buscas brasileiras trouxeram recomendações do Orquidário Matsuoka para *A. imbricata* e *A. ourobranquensis*, mas **não para a espécie-alvo**. Não contar como validação específica. Mantém status condicional.
+- **Epidendrum centropetalum**: texto brasileiro geral sobre *Epidendrum* não demonstra cultivo da espécie-alvo. Mantém revisão prioritária e hipótese de ajuste da retenção.
+- **Miltonia russelliana**: convergência das referências gerais em granulometria mais fina e aeração; não há ensaio encontrado para os percentuais 35/30/25/10 da ficha. Mantém revisão prioritária.
+
+### Controle de rigor
+Resultados negativos da busca também são registrados para impedir falsa contagem de 25 produtores. **Nenhuma receita foi alterada; nenhuma porcentagem homologada**. Próxima busca deve priorizar produtores com ficha específica da espécie, sem reutilizar a mesma loja em páginas diferentes como evidências independentes.
