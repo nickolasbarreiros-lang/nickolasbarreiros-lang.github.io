@@ -40,6 +40,39 @@ export const phalaenopsisMannii = {
     "rega": "Na fase ativa, regue abundantemente quando as raízes perderem o verde e o suporte estiver quase seco. No inverno, aumente moderadamente o intervalo, imitando a estação mais seca do habitat sem desidratar a planta. Evite água parada na coroa e nas axilas, principalmente durante a noite.",
     "suporte": "🥇 Placa de cortiça ou madeira com pequena almofada de esfagno — acompanha muito bem o hábito pendente.\n🥈 Vaso transparente pequeno e muito perfurado.\n🥉 Cesto vazado com casca grossa.\nEvite recipientes profundos e abafados.",
     "substrato": "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Pinus médio + perlita grossa + esfagno em pequena quantidade apenas para estabilizar a umidade.\n🥉 Casca de macadâmia média + pinus médio + pequena fração de esfagno solto.\n⭐ Alternativa: Chips de coco + perlita + carvão vegetal + casca de pinus média.",
+    formasCultivo: {
+        perfilVisual: "phalaenopsis-epifita-pendente-raizes-aereas",
+        destaque: "Placa / tronco",
+        resumo: "Espécie epífita de crescimento levemente pendente. Montagem em cortiça ou madeira rugosa com esfagno mínimo acompanha o hábito natural e favorece ventilação radicular.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cortiça ou madeira rugosa com pequena almofada de esfagno sob as raízes; manter folhas e hastes com espaço para pender." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso transparente pequeno e muito perfurado, com mistura grossa e circulação de ar." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cesto vazado com casca grossa, favorecendo raízes arejadas e crescimento pendente." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Recipiente pequeno e aberto, com atenção à secagem e sem abafamento das raízes." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aerada para vaso ou cesto; placa com esfagno mínimo",
+        resumo: "Raízes epífitas precisam de ar e umidade moderada, com secagem parcial entre regas. Em placa, basta pequena almofada de esfagno sob as raízes.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa já registrada na ficha, destinada a recipientes. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        perfil: ["Epífita pendente", "Raízes aeradas", "Umidade no crescimento", "Inverno ligeiramente mais seco", "Hastes persistentes"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Apoia raízes e mantém espaços de ar." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Contribui para hidratação regular sem saturar a mistura." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Facilita drenagem e circulação de ar." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Ajuda a preservar a estrutura aberta." }
+        ],
+        alerta: "Evitar água acumulada na coroa, sol forte, vasos abafados e substrato permanentemente molhado no inverno. Não cortar hastes ainda verdes; reduzir regas apenas moderadamente na estação mais seca.",
+        notaEvidencia: "Receita percentual apenas para recipientes; a forma principal é montagem em placa. Estrelas e percentuais são estimativas não homologadas pela MACS 1.0. Conferência visual dos assets pendente."
+    },
     "errosComuns": "Cortar hastes ainda verdes; manter substrato permanentemente molhado no inverno; água na coroa; vaso sem ventilação; sol direto forte; adubo concentrado; tratar como híbrida comercial de ambiente fechado; ignorar o hábito pendente; secar demais por tentar reproduzir um 'repouso'.",
     "dica": "O melhor manejo é respeitar o ritmo sazonal: crescimento mais úmido e nutrido, seguido de inverno apenas um pouco mais seco. Preserve as hastes verdes e dê espaço para que cresçam pendentes — elas podem continuar produzindo flores sucessivamente.",
     revisaoCientificaIAR: {
