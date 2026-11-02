@@ -24,7 +24,7 @@ export const encycliaMineirinha = {
     adubacao: "🌿 Orgânica: bokashi leve em sachê, renovado a cada 60 a 90 dias.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/3 a 1/2 da dose semanalmente ou a cada 15 dias durante a brotação.\n🧪 Liberação lenta: poucos grânulos de Osmocote no canto do vaso, longe das raízes novas.",
     rega: "Regue abundantemente durante a brotação e deixe o substrato secar completamente entre as regas. Após o amadurecimento dos pseudobulbos, reduza a frequência. Nunca use prato sob o vaso nem permita água acumulada no fundo.",
     suporte: "🥇 Vaso de barro com furos laterais.\n🥈 Cachepô de madeira vazado.\n🥉 Placa de madeira dura ou cortiça.",
-    substrato: "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.",
+    substrato: ["🥇 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥈 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","🥉 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
     formasCultivo: {
         perfilVisual: "encyclia-hibrido-epifita-clara",
         destaque: "Vaso de Barro",
