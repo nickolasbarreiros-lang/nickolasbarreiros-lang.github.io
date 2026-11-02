@@ -37,6 +37,39 @@ export const neobenthamiaGracilis = {
     "rega": "Durante o crescimento ativo, mantenha o substrato uniformemente úmido, regando abundantemente e deixando toda a água excedente escoar. Por ser terrestre, tolera mais retenção que muitas epífitas, mas não aceita solo lodoso, compactado ou sem oxigênio. No período frio, reduza a frequência e mantenha apenas umidade residual. Seca severa no verão paralisa a expansão dos caules, resseca folhas e pode abortar a formação das inflorescências apicais.",
     "suporte": "🥇 Vaso grande e pesado de barro, cerâmica ou plástico espesso: evita tombamento pelo peso da parte aérea.\n🥈 Jardineira profunda e drenada: permite formar touceiras densas e alinhadas.\n🥉 Canteiro protegido: excelente para jardins tropicais de sombra clara, desde que o solo seja solto e drenante.\nUse tutores de bambu, fibra ou madeira desde o início do alongamento, antes que os caules se inclinem ou quebrem.",
     "substrato": "🥇 Casca de arroz carbonizada + fibra de coco + perlita + perlita grossa, com pequena fração de pinus fino.\n🥈 Casca de macadâmia média + casca de arroz carbonizada + perlita grossa + fibra de coco, para estrutura durável e arejada.\n🥉 Chips de coco pequenos + casca de arroz carbonizada + perlita grossa + argila expandida miúda.\n⭐ Alternativa: Fibra de coco + perlita + pinus fino + carvão vegetal miúdo, mantendo drenagem rápida.",
+    formasCultivo: {
+        perfilVisual: "terrestre-rupicola-canes-alto-porte",
+        destaque: "Vaso de Barro",
+        resumo: "Orquídea terrestre ou rupícola de caules altos e touceira volumosa. Requer recipiente pesado, espaço radicular, drenagem e tutores firmes para evitar tombamento.",
+        metodos: [
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso grande, pesado e bem drenado, com tutor para os caules altos; evitar solo compacto." },
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 4, status: "Alternativa", texto: "Plástico espesso, amplo e muito bem drenado, com base estabilizada para resistir ao peso da parte aérea." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 3, status: "Uso condicional", texto: "Estrutura ampla e firme, com mistura de maior retenção e regas ajustadas para não secar rapidamente." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Somente modelo grande e estável, com tutor e controle da secagem excessiva." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aberta para vaso pesado e bem drenado",
+        resumo: "Mistura leve, com retenção moderada e boa drenagem para uma touceira terrestre ou rupícola de grande porte.",
+        justificativa: "A primeira receita textual repete perlita em duas granulometrias. Para evitar duplicação ambígua, a proposta visual usa a segunda alternativa já registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de macadâmia média + 25% casca de arroz carbonizada + 20% perlita grossa + 20% fibra de coco grossa.",
+        perfil: ["Terrestre ou rupícola", "Grande porte", "Touceira de caules altos", "Boa drenagem", "Umidade regular"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 2, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Mantém espaços de ar e estrutura durável." },
+            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "25%", nota: "leveza", finalidade: "Contribui para porosidade e drenagem." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Favorece oxigenação e saída do excesso de água." },
+            { asset: "fibra-coco", nome: "Fibra de coco grossa", proporcao: "20%", nota: "umidade", finalidade: "Ajuda a reter umidade entre regas sem compactar." }
+        ],
+        alerta: "Usar tutor e vaso estável. Evitar solo argiloso, encharcamento contínuo, sombra excessiva, matéria orgânica fresca junto às raízes e corte de caules verdes.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "❌ Cultivar em sombra excessiva, formando caules fracos e pouco floríferos.\n❌ Usar solo argiloso ou recipiente sem drenagem.\n❌ Manter o substrato permanentemente encharcado.\n❌ Impor seca forte depois da maturação.\n❌ Cortar caules verdes, que ainda armazenam reservas e podem emitir brotações.\n❌ Deixar a planta tombar por falta de tutor ou vaso pesado.\n❌ Dividir touceiras pequenas demais.\n❌ Aplicar matéria orgânica fresca junto às raízes.",
     "dica": "Dê espaço para a planta formar uma touceira grande e estável. Quanto mais caules maduros, maior o potencial de produzir várias cabeças florais ao mesmo tempo. Luz alta é decisiva, mas faça aclimatação para evitar queimaduras. Como a espécie ocorre de 380 a 2.000 m, não trate toda planta como estritamente quente ou fria: no litoral, priorize sol fraco da manhã, ventilação e raízes frescas; plantas de procedência mais alta podem agradecer noites mais amenas.",
     revisaoCientificaIAR: {
