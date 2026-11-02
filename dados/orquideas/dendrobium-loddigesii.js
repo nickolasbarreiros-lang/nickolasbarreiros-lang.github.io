@@ -49,12 +49,7 @@ export const dendrobiumLoddigesii = {
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 2, status: "Pouco recomendado", texto: "Só é seguro com muita furação e mistura extremamente drenante; o risco é manter umidade excessiva no inverno." }
         ]
     },
-    substrato: [
-        "Montagem em madeira ou cortiça, sem material retentivo no centro das raízes.",
-        "Em cesto ou vaso suspenso: casca de pinus grossa + carvão vegetal + brita pequena.",
-        "Durante o crescimento, regue e adube; após o amadurecimento das hastes, reduza fortemente água e suspenda nitrogênio.",
-        "Evite esfagno no centro do recipiente e não corte hastes antigas ainda vivas."
-    ],
+    substrato: ["🥇 Casca de pinus grossa + carvão vegetal + perlita grossa.", "🥈 Casca de macadâmia grossa + carvão vegetal + brita fina."],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cesto ou vaso suspenso",
