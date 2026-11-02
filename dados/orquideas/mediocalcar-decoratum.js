@@ -47,12 +47,7 @@ export const mediocalcarDecoratum = {
             { nome: "Vaso de Barro", asset: "vaso-barro-perfurado", estrelas: 3, status: "Adequado", texto: "Pode funcionar em clima úmido, mas a evaporação intensa exige regas mais frequentes para esta micro-orquídea." }
         ]
     },
-    substrato: [
-        "Montagem em cortiça ou madeira com fina camada de esfagno sob a região radicular.",
-        "Em recipiente raso: casca de pinus fina + esfagno solto + carvão vegetal + casca de macadâmia.",
-        "Mantenha umidade leve e contínua, sempre com circulação de ar.",
-        "Evite vasos profundos e núcleos de substrato frios e saturados."
-    ],
+    substrato: ["🥇 Casca de pinus fina + esfagno solto + perlita grossa.", "🥈 Casca de macadâmia pequena + carvão vegetal + esfagno solto."],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para recipiente raso",
