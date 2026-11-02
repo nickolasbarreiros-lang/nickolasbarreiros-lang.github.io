@@ -30,7 +30,7 @@ export const huntleyaMeleagris = {
     adubacao: "🌿 Orgânica: bokashi somente em quantidade mínima e em porta-adubo, sem contato com raízes ou coroa.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 7–10 dias durante o crescimento ativo.\n🧪 Liberação lenta: usar com muita cautela; adubação líquida diluída oferece maior controle.\n💦 Lavagem: mensalmente, lave o substrato com água de baixa salinidade para reduzir resíduos minerais.",
     rega: "Mantenha o substrato uniformemente úmido, mas nunca saturado. Como não possui pseudobulbos, a espécie sofre com secas prolongadas; ao mesmo tempo, as raízes também deterioram em meio quente e sem oxigênio. Regue pela manhã e garanta que água acumulada entre as folhas seque antes da noite.",
     suporte: "🥇 Vaso plástico raso, justo e bastante perfurado.\n🥈 Vaso de barro perfurado, onde a umidade ambiental seja alta.\n🥉 Cesto pequeno revestido internamente com esfagno solto, em local muito ventilado.",
-    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.",
+    substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
     formasCultivo: {
         perfilVisual: "epifita-sem-pseudobulbos-folhas-leque",
         destaque: "Vaso plástico vasado",
