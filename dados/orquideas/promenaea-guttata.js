@@ -41,6 +41,38 @@ export const promenaeaGuttata = {
     "rega": "Mantenha leve umidade constante durante o crescimento, regando antes de ocorrer secagem prolongada. O substrato deve estar úmido, não saturado. Em períodos frios ou de crescimento lento, aumente moderadamente o intervalo conforme a evaporação cair; não imponha repouso seco rígido.",
     "suporte": "🥇 Vaso pequeno, baixo e muito perfurado.\n🥈 Cachepô pequeno e vazado.\n🥉 Placa de cortiça/madeira com fina camada de esfagno, somente onde a umidade ambiental for alta.\nO recipiente deve ser proporcional ao pequeno sistema radicular.",
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.\n🥉 Esfagno de fibra longa usado muito solto + perlita grossa fina; evitar compactação junto ao rizoma.\n⭐ Alternativa: Casca de pinus fina + perlita + perlita grossa fina + pequena fração de esfagno solto.",
+    formasCultivo: {
+        perfilVisual: "promenaea-miniatura-epifita-raizes-delicadas",
+        destaque: "Vaso plástico vasado",
+        resumo: "Miniatura epífita de raízes sensíveis ao abafamento. Vaso baixo, pequeno e muito perfurado ajuda a manter umidade regular sem encharcar.",
+        metodos: [
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno e baixo, com muitos furos, mistura leve e raízes protegidas de calor excessivo." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô pequeno e vazado, com atenção à secagem rápida e à umidade ambiental." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Cortiça ou madeira com esfagno mínimo apenas em ambiente muito úmido e com regas frequentes." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso minúsculo e perfurado, mantendo umidade sem aquecer ou ressecar as raízes." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura leve para vaso pequeno e muito ventilado",
+        resumo: "O cultivo principal em vaso exige umidade moderada e aeração constante. Mistura de chips de coco, pinus fino e perlita evita compactação junto ao rizoma.",
+        justificativa: "A receita quantifica a segunda alternativa qualitativa já registrada na ficha, compatível com o vaso principal; a primeira alternativa original, montagem com esfagno mínimo, permanece preservada. Percentuais estimados e não homologados pela MACS 1.0.",
+        receitaTexto: "40% chips de coco pequenos + 30% casca de pinus fina + 30% perlita grossa.",
+        perfil: ["Miniatura epífita", "Raízes delicadas", "Umidade regular", "Alta aeração", "Sombra clara"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "chips-coco", nome: "Chips de coco pequenos", proporcao: "40%", nota: "umidade", finalidade: "Mantêm umidade moderada em recipiente ventilado." },
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "30%", nota: "estrutura", finalidade: "Apoia raízes delicadas sem formar massa densa." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "30%", nota: "aeração", finalidade: "Favorece oxigenação e drenagem." }
+        ],
+        alerta: "Evitar sol direto, vaso grande, esfagno compactado, secagem por vários dias, adubação forte e calor acumulado no vaso. Alta umidade não significa substrato saturado.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "Sol direto; vaso grande; esfagno compactado; secagem completa por vários dias; ambiente quente sem circulação de ar; fertilizante concentrado; confundir alta umidade atmosférica com encharcamento; repouso seco rígido; deixar o vaso aquecer.",
     "dica": "Pense em 'úmida e arejada', nunca em 'molhada o tempo todo'. Um vaso pequeno e muito ventilado, com substrato fino mas solto, costuma ser mais seguro do que aumentar indefinidamente a frequência das regas.",
     revisaoCientificaIAR: {
