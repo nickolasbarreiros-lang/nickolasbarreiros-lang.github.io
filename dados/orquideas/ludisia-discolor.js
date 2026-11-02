@@ -36,6 +36,39 @@ export const ludisiaDiscolor = {
     rega: "Mantenha umidade regular e uniforme, regando quando a superfície começar a perder umidade. O substrato não deve secar totalmente por longos períodos nem permanecer encharcado. Como os caules caminham sobre a superfície, água parada junto aos nós favorece podridões. No inverno, apenas ajuste a frequência à menor evaporação, sem impor repouso seco.",
     suporte: "🥇 Vaso plástico largo e raso, permitindo expansão horizontal dos caules.\n🥈 Bacia ou jardineira baixa com boa drenagem.\n🥉 Terrário ventilado ou parcialmente aberto; recipientes herméticos e constantemente condensados aumentam o risco de fungos e podridões.",
     substrato: "🥇 Fibra de coco + casca de arroz carbonizada + perlita + casca de pinus fina, formando meio humoso e muito aerado.\n🥈 Chips de coco pequenos + pinus fino + perlita + vermiculita em proporção pequena (até ~10%).\n🥉 Fibra de coco + perlita grossa fina + esfagno picado + casca de arroz carbonizada.\n⭐ Alternativa: Pinus fino + chips de coco + perlita + pequena fração de vermiculita; nunca usar terra pesada e compacta.",
+    formasCultivo: {
+        perfilVisual: "orquidea-joia-terrestre-rizoma-rastejante",
+        destaque: "Vaso plástico",
+        resumo: "Orquídea-joia terrestre de caules rastejantes, adaptada a luz indireta e meio orgânico arejado, levemente úmido. Precisa de recipiente largo e raso, com drenagem e espaço horizontal.",
+        metodos: [
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso largo e raso com furos de drenagem, permitindo expansão horizontal dos caules." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Cuia larga e rasa, com umidade monitorada para evitar secagem excessiva." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Recipiente baixo e ventilado, desde que a mistura não seque rapidamente demais." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 2, status: "Uso condicional", texto: "Somente com recipiente interno drenante e meio orgânico que preserve umidade; não é a opção preferencial." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura orgânica arejada para vaso largo e raso",
+        resumo: "Meio leve e humoso, com retenção moderada e boa drenagem, sem compactar nem encharcar os caules rastejantes.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa já registrada na ficha. Percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        receitaTexto: "40% fibra de coco + 25% casca de arroz carbonizada + 20% perlita + 15% casca de pinus fina.",
+        perfil: ["Terrestre", "Rizoma rastejante", "Folhas aveludadas", "Umidade moderada", "Luz indireta"],
+        comportamento: [
+            { nome: "Retenção", valor: 4, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 2, icone: "⚡" },
+            { nome: "Compactação", valor: 2, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "fibra-coco", nome: "Fibra de coco", proporcao: "40%", nota: "base orgânica", finalidade: "Conserva umidade moderada com textura leve." },
+            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "25%", nota: "estrutura", finalidade: "Melhora a porosidade e a drenagem." },
+            { asset: "perlita", nome: "Perlita", proporcao: "20%", nota: "aeração", finalidade: "Evita compactação e amplia espaços de ar." },
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "15%", nota: "matéria orgânica", finalidade: "Acrescenta estrutura e apoio às raízes superficiais." }
+        ],
+        alerta: "Evitar sol direto, vaso sem drenagem, terrário hermético, substrato pesado e caules profundamente enterrados. Manter nós e caules sobre a superfície e cobrir apenas as raízes.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Expor ao sol direto; manter em sombra total sem claridade; enterrar profundamente os caules; usar substrato pesado ou encharcado; cultivar em vaso sem drenagem; manter terrário fechado e saturado; molhar abundantemente os nós no fim do dia; usar adubo concentrado; compactar esfagno sobre os caules; permitir acúmulo de sais.",
     dica: "Deixe os caules rastejarem sobre a superfície e cubra apenas as raízes. Os nós próximos ao ar emitem novos brotos com facilidade e podem ser usados para propagação. Um vaso mais largo do que profundo combina melhor com seu crescimento natural e reduz o risco de um centro permanentemente encharcado.",
     revisaoCientificaIAR: {
