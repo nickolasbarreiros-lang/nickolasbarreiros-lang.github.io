@@ -37,6 +37,39 @@ export const maxillariaTenuifolia = {
     "rega": "Na fase de crescimento, molhe abundantemente e permita que o substrato perca boa parte da umidade antes da próxima rega. As raízes aéreas dos pseudobulbos superiores podem precisar de borrifação matinal em dias muito quentes. Após a maturação, aumente discretamente o intervalo sem provocar murchamento acentuado. Pseudobulbos levemente sulcados podem ser normais; enrugamento progressivo acompanhado de raízes pretas, ocas ou moles indica perda radicular por abafamento, e não simples falta de água.",
     "suporte": "🥇 Vaso de barro pesado com tutor vertical de madeira, cortiça ou casca rugosa: estabiliza a touceira e permite que o rizoma escandente se fixe.\n🥈 Cachepô de madeira: acomoda exemplares grandes e deixa brotos e raízes escaparem pelas laterais.\n🥉 Cepo, tronco ou placa robusta: reproduz o crescimento natural e funciona muito bem onde há umidade ambiental suficiente.",
     "substrato": "🥇 Casca de pinus média + casca de macadâmia triturada + perlita grossa + fibra de coco grossa.\n🥈 Pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia.\n🥉 Fibra de coco grossa + chips de coco + perlita grossa + pinus médio, sem compactação.\n⭐ Alternativa: Chips de coco + pinus médio + perlita + carvão vegetal miúdo.",
+    formasCultivo: {
+        perfilVisual: "maxillaria-escandente-rizoma-em-escada",
+        destaque: "Vaso de Barro",
+        resumo: "Orquídea-coco de rizoma escandente e raízes aéreas nos pseudobulbos superiores. O cultivo mais estável combina vaso pesado com tutor rugoso vertical para orientar o crescimento em escada.",
+        metodos: [
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso de barro pesado e proporcional, acompanhado de tutor vertical de madeira ou cortiça para fixação do rizoma ascendente." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô amplo e vazado para touceiras grandes, permitindo brotos e raízes escaparem pelas laterais." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Cepo ou tronco robusto para crescimento vertical, em ambiente com umidade e regas suficientes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Pode funcionar com tutor firme e base estabilizada, evitando tombamento pelo crescimento escandente." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aberta para vaso com tutor vertical",
+        resumo: "Mistura de granulometria média com retenção moderada e boa drenagem, mantendo raízes basais ativas enquanto o rizoma ascende pelo tutor.",
+        justificativa: "A receita quantifica os quatro materiais da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% casca de macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa.",
+        perfil: ["Epífita escandente", "Rizoma em escada", "Raízes aéreas superiores", "Tutor vertical", "Drenagem rápida"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece suporte e umidade moderada às raízes basais." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "30%", nota: "drenagem", finalidade: "Ajuda a manter a mistura aberta e estável." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece a oxigenação e a saída rápida do excesso de água." },
+            { asset: "fibra-coco", nome: "Fibra de coco grossa", proporcao: "10%", nota: "reserva hídrica", finalidade: "Complementa a umidade entre regas sem compactar." }
+        ],
+        alerta: "Não enterrar nem cortar rizomas aéreos sem raízes próprias. Evitar sombra profunda, vaso grande e encharcamento no frio. Aumentar luminosidade gradualmente quando houver crescimento vigoroso sem floração.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "❌ Sombra intensa: produz muitos brotos, mas reduz drasticamente a floração.\n❌ Cortar rizomas aéreos sem raízes próprias: enfraquece ou mata os crescimentos superiores.\n❌ Vaso grande e profundo: cria uma zona central que seca lentamente e perde raízes.\n❌ Enterrar o rizoma: favorece podridão da base dos pseudobulbos.\n❌ Encharcamento no inverno: aumenta fungos e manchas foliares.\n❌ Replantar fora do início de novas raízes: prolonga o choque e dificulta a fixação da planta.",
     "dica": "O segredo é conduzir o crescimento em escada, em vez de tentar forçá-lo para dentro do vaso. Instale um tutor rugoso atrás da touceira e fixe suavemente o rizoma ascendente, sem apertá-lo. As raízes emitidas nos pseudobulbos superiores poderão aderir ao suporte e sustentar esses crescimentos. Se a planta vegeta vigorosamente, mas não floresce, aumente a luminosidade de forma gradual e mantenha a base dos pseudobulbos visível. Replante somente quando novas pontas radiculares estiverem surgindo, preservando o maior número possível de raízes e segmentos do rizoma.",
     revisaoCientificaIAR: {
