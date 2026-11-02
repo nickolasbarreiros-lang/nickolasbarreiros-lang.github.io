@@ -194,7 +194,7 @@ export const cattleyaNobiliorVarAmaliae = {
         luminosidade: 5,
         agua: 2,
         raridade: 4
-    }
+    },
     macs1_0: {
         "versao": "MACS 1.0",
         "status": "parecer_tecnico_concluido_sem_homologacao_visual",
