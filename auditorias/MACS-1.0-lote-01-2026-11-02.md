@@ -149,3 +149,14 @@ Referência botânica: POWO/Kew https://powo.science.kew.org/taxon/650578-1 — 
 - *A. odorata*: **1 produtor brasileiro** com recomendação de recipientes, sem receita (Mantovani).
 - *P. xanthina*: **1 produtor brasileiro** com recomendação de substrato confirmada nesta passagem (Oriental; outros já documentados anteriormente).
 - Meta de até 25 produtores por espécie **não atingida**. Nenhuma composição percentual homologada ou alterada.
+
+## Adendo — buscas direcionadas sem resultado (02/11/2026)
+
+Consultas direcionadas realizadas:
+- `site:orquidariooriental.com.br "Miltonia russelliana" substrato`
+- `site:orquidariosantaclara.com.br "Brassia lawrenceana" substrato`
+- `site:orquidariooriental.com.br "Epidendrum centropetalum" cultivo`
+
+**Resultado:** nenhuma página encontrada por essas consultas. Isso **não demonstra inexistência de recomendações**, apenas ausência de resultados nessa estratégia e nesses domínios.
+
+**Consequência para MACS 1.0:** não elevar contagem de produtores; não extrapolar receita de gênero como específica. Mantêm-se os pareceres e os percentuais originais. Próxima estratégia de pesquisa: ampliar sinônimos taxonômicos e procurar documentação técnica de produtores fora desses domínios, com checagem da identidade botânica.
