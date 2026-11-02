@@ -39,6 +39,38 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     rega: "Durante emissão de brotos e raízes novas, regue abundantemente e permita secagem rápida entre as irrigações. Em planta montada no verão de Litoral de clima quente, isso pode significar regas frequentes. Quando as raízes reduzirem a atividade e os pseudobulbos estiverem maduros, aumente gradualmente os intervalos. Não use a ponta verde como um interruptor absoluto: raízes fechadas não significam que a planta deva permanecer seca por semanas. Observe também turgor dos pseudobulbos, temperatura, umidade e velocidade de secagem do suporte.",
     suporte: "🥇 Placa de madeira dura ou cortiça — permite raízes livres, rápida secagem e leitura visual da atividade radicular.\n🥈 Cachepô ou cestinho pequeno de madeira — ótima aeração com alguma estabilidade hídrica.\n🥉 Vaso de barro raso e muito perfurado — opção segura para cultivo envasado.\n⭐ Pedra porosa ou placa mineral também pode funcionar, respeitando o hábito litófito da espécie.",
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Casca de macadâmia grossa + perlita grossa + carvão vegetal, com secagem muito rápida.\n🥉 Pinus grosso + brita fina + carvão vegetal; evitar esfagno no miolo do vaso.\n⭐ Alternativa: Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.",
+    formasCultivo: {
+        perfilVisual: "cattleya",
+        destaque: "Placa / tronco",
+        resumo: "Progênie alba de Cattleya walkeriana, com raízes que exigem muita aeração e secagem rápida. O suporte deve manter a planta firme e permitir maior oferta de água na fase de crescimento, com redução cuidadosa no repouso.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Montagem em madeira dura ou cortiça, com rizoma exposto e raízes livres. Facilita observar o enraizamento e controlar a secagem." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Muito recomendado", texto: "Oferece ventilação em todas as direções e alguma estabilidade hídrica. Use suporte pequeno e substrato grosso, sem compactar." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Prefira recipiente raso e muito perfurado, com secagem rápida e rizoma sempre acima da mistura." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Alternativa condicional", texto: "Permite fixação epífita, mas exige observar chuvas e umidade no período de repouso, pois o controle da água é menor." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Alternativa para cachepô ou vaso muito ventilado; montagem em placa dispensa mistura",
+        resumo: "Mistura de partículas grossas, muito drenante, com espaços amplos para circulação de ar.",
+        justificativa: "A ficha existente recomenda macadâmia grossa, perlita grossa e carvão vegetal como alternativa à montagem. Os percentuais abaixo são uma formulação horticultural sugerida para visualização e não correspondem a ensaio comparativo nem à homologação MACS 1.0.",
+        receitaTexto: "45% casca de macadâmia grossa + 30% perlita grossa + 25% carvão vegetal granulado.",
+        perfil: ["Raízes epífitas", "Aeração muito alta", "Secagem rápida", "Rizoma exposto", "Repouso sazonal menos úmido"],
+        comportamento: [
+            { nome: "Retenção", valor: 1, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 5, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "macadamia", nome: "Casca de macadâmia grossa", proporcao: "45%", nota: "estrutura e suporte", finalidade: "Mantém a mistura aberta e dá apoio às raízes sem formar uma zona central compacta." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "30%", nota: "aeração e leveza", finalidade: "Amplia os espaços de ar e reduz o tempo de saturação após as regas." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal granulado", proporcao: "25%", nota: "drenagem e estabilidade", finalidade: "Contribui para a estrutura aberta e facilita a drenagem." }
+        ],
+        alerta: "Em placa, não adicionar substrato volumétrico. Evitar esfagno no miolo, vasos grandes, rizoma enterrado e umidade constante durante o repouso.",
+        notaEvidencia: "Estrelas e percentuais são estimativas técnicas, não resultados de MACS 1.0 homologada; a validação científica e visual permanece pendente."
+    },
     errosComuns: "Substrato permanentemente úmido; pouca luz; replantar sem emissão de raízes novas; enterrar o rizoma; usar vaso grande; dividir touceiras pequenas; deixar completamente seca por semanas apenas porque não há pontas verdes; adubar fortemente plantas montadas; mudar constantemente a posição e a iluminação; interpretar folhas amareladas como objetivo de cultivo.",
     dica: "Leia a planta inteira, não apenas o calendário ou a ponta das raízes. Pontas verdes indicam crescimento ativo e permitem regas abundantes e adubação leve. Depois da maturação, aumente os intervalos entre as regas sem transformar o repouso em seca absoluta. E replante apenas quando novas raízes estiverem iniciando: em Cattleya walkeriana, o momento do replantio pode definir se a planta se estabelece rapidamente ou passa muitos meses debilitada.",
     revisaoCientificaIAR: {
