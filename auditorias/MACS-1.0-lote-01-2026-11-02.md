@@ -99,3 +99,9 @@ Dez fichas do índice oficial. Este documento é um registro de auditoria técni
 - **5 pareceres condicionais**: *Anathallis sclerophylla*, *Brassia lawrenceana*, *Laelia splendida*, *Encyclia alboxanthina*, *Dendrobium spectabile*.
 - A contagem original 4/6 permanece como fotografia histórica da primeira auditoria; esta seção registra a reclassificação posterior.
 - Nenhum percentual alterado e nenhuma ficha declarada homologada.
+
+## Adendo: triangulação de Dendrobium spectabile e Encyclia (02/11/2026)
+- Dendrobium spectabile: Orquidário Santa Clara descreve pinus, carvão e pedrisco no fundo do vaso; Acta Botânica recomenda cachepô com substrato drenante. São **dois produtores independentes**; duas páginas do Santa Clara não contam como dois produtores. Fontes: https://orquidariosantaclara.com.br/home/5588-dendrobium-spectabile-pre-adulta.html e https://loja.actabotanica.com.br/familia/orquidaceae/dendrobium/dendrobium-spectabile
+- AOS especifica umidade ao longo do ano e descanso relativamente mais fresco/seco para florescer D. spectabile; não extrapolar para seca severa: https://www.aos.org/orchids/orchid-basics/orchid-question-and-answer/dendrobium-care
+- Encyclia alboxanthina: artigo brasileiro de 2021 em Ornamental Horticulture encontrou melhor floração em meios com esfagno para **híbrido Encyclia 'Kropp' x E. atropurpurea**, não para E. alboxanthina. Resultado não invalida automaticamente a mistura drenante da espécie: https://www.scielo.br/j/oh/a/XLHMMtpS9sDpYJXyMHMvYLf/
+- Decisão: conservar receitas como condicionais; não homologar porcentagens sem dados da espécie, granulometria e recipiente. Nenhuma ficha alterada.
