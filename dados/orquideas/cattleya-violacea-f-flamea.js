@@ -229,7 +229,7 @@ export const cattleyaViolaceaFFlamea = {
         "luminosidade": 4,
         "agua": 4,
         "raridade": 5
-    }
+    },
     macs1_0: {
         "versao": "MACS 1.0",
         "status": "parecer_tecnico_implementado_sem_homologacao_visual",
