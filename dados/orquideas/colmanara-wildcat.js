@@ -40,6 +40,39 @@ export const colmanaraWildcat = {
     "rega": "Regue abundantemente e volte a molhar quando o substrato estiver próximo de secar, sem deixar a mistura permanecer encharcada. Durante brotação e formação do pseudobulbo, evite secas longas. Em períodos mais frios ou de crescimento lento, aumente o intervalo entre regas. Pseudobulbo enrugado com substrato constantemente molhado sugere problema radicular, não falta de água.",
     "suporte": "🥇 Vaso plástico pequeno e bem perfurado — mantém umidade mais uniforme.\n🥈 Vaso de barro — excelente onde há muita umidade e regas frequentes.\n🥉 Cesto compacto — indicado para plantas grandes e raízes muito aeradas.\nDeixe apenas alguns centímetros livres à frente do novo crescimento; vasos grandes demais permanecem úmidos no centro.",
     "substrato": "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.\n🥉 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n⭐ Alternativa: Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+    "formasCultivo": {
+        "perfilVisual": "hibrido-oncidiinae",
+        "destaque": "Vaso plástico",
+        "resumo": "Híbrido Oncostele Wildcat, anteriormente conhecido como Colmanara Wildcat. Tem raízes finas, prefere umidade regular com boa drenagem e se beneficia de recipiente apenas ligeiramente maior que a touceira.",
+        "metodos": [
+            { "nome": "Vaso plástico", "asset": "vaso-plastico", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Vaso compacto, bem perfurado e com poucos centímetros livres para o próximo crescimento. Mantém umidade mais uniforme sem exigir recipiente grande." },
+            { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": 4, "status": "Muito recomendado", "texto": "Boa opção em ambientes úmidos com regas frequentes; acompanhar a secagem mais rápida das paredes." },
+            { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 4, "status": "Alternativa", "texto": "Oferece mais aeração, desde que a rega compense a secagem acelerada e preserve as raízes finas." },
+            { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": 3, "status": "Para touceiras grandes", "texto": "Usar apenas com raízes bem estabelecidas e controle cuidadoso da umidade; evitar secagem prolongada." }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Proposta para vaso plástico compacto e bem perfurado",
+        "resumo": "Mistura aberta com retenção intermediária, apropriada para raízes finas que não devem permanecer nem encharcadas nem completamente secas por muito tempo.",
+        "justificativa": "Os quatro componentes correspondem à primeira mistura já indicada na ficha. As proporções são uma proposta horticultural e não representam homologação MACS 1.0.",
+        "receitaTexto": "40% casca de pinus média + 25% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        "perfil": ["Raízes finas", "Umidade regular", "Boa drenagem", "Sensível a replantio", "Vaso compacto"],
+        "comportamento": [
+            { "nome": "Retenção", "valor": 3, "icone": "💧" },
+            { "nome": "Aeração", "valor": 4, "icone": "💨" },
+            { "nome": "Secagem", "valor": 3, "icone": "⚡" },
+            { "nome": "Compactação", "valor": 2, "icone": "🧱" }
+        ],
+        "itens": [
+            { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "40%", "nota": "estrutura", "finalidade": "Sustenta as raízes e mantém drenagem." },
+            { "asset": "chips-coco", "nome": "Chips de coco", "proporcao": "25%", "nota": "umidade", "finalidade": "Ajuda a reduzir oscilações de umidade entre regas." },
+            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "25%", "nota": "aeração", "finalidade": "Mantém porosidade e evita compactação excessiva." },
+            { "asset": "carvao", "nome": "Carvão vegetal", "proporcao": "10%", "nota": "drenagem", "finalidade": "Acrescenta partículas estáveis e espaços de ar à mistura." }
+        ],
+        "alerta": "Evitar vaso grande e substrato envelhecido. Replantar preferencialmente quando o novo broto começar a emitir raízes curtas, preservando as raízes delicadas.",
+        "notaEvidencia": "Estrelas e percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0; os assets visuais precisam de conferência."
+    },
     "errosComuns": "Replantar quando as raízes novas já estão longas; vaso grande; enterrar o rizoma; substrato velho e compactado; sombra profunda; excesso de sais; água acumulada no broto; dividir com poucos pseudobulbos; confundir enrugamento por raiz perdida com falta de rega.",
     "dica": "O melhor momento para replantar é quando o novo broto começa a emitir raízes com cerca de 0,5–1 cm. Nessa fase elas já estão ativas, mas ainda não aderiram ao vaso e quebram menos. Preservar raízes novas é uma das formas mais eficientes de manter o próximo pseudobulbo forte e garantir nova haste floral.",
     revisaoCientificaIAR: {
