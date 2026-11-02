@@ -215,3 +215,34 @@ Verificação dos blocos `substratoVisual` no GitHub:
 6. **Controle de falso positivo:** páginas comerciais de *Sophronitis coccinea × wittigiana* e *S. wittigiana × Cattleya walkeriana* são de **híbridos** e **não foram contadas** como produtores com evidência específica de *S. wittigiana*.
 
 **Conclusão de qualidade das fontes:** nenhum dado novo autoriza alterar quantitativamente as receitas. O gargalo permanece evidência de composição exata para a espécie, preferencialmente com recipiente, granulometria e regime de rega explícitos. Status: MACS 1.0 **não homologada numericamente** para essas duas fichas.
+
+## Matriz de decisão de fechamento técnico — lote 02
+
+Esta matriz **não** declara homologação MACS de percentuais: separa o que já foi verificado do que ainda depende de evidência de produtores e observação física da mistura.
+
+| Ficha | Suporte científico qualitativo | Pendência que impede homologar percentuais | Encaminhamento |
+|---|---|---|---|
+| Cattleya Pumpkin Festival | Parentais RHS confirmados; drenagem de Cattleya plausível | Produtores do grex, granulometria e secagem em vaso de barro | Manter provisória |
+| Dendrobium polysema | AOS identifica espécie na seção Latouria com temperatura intermediária; sem repouso seco tipo nobile | Receita específica da espécie em cesto e comportamento térmico | Manter provisória |
+| Bifrenaria verboonenii | Sinonímia com B. tyrianthina documentada; hábito rupícola relatado | Dados de cultivo por identificação aceita e retenção da fração mineral | Manter provisória; sem esfagno |
+| Bifrenaria aureofulva | Relato brasileiro da espécie com partes iguais de pinus/carvão/brita | Substituição de frações por macadâmia não comparada experimentalmente | Manter provisória; comparar misturas |
+| Sophronitis wittigiana | Produtor brasileiro específico recomenda montagem ou mistura orgânica | Brita e proporções do vaso não confirmadas | Manter provisória; separar montagem de vaso |
+| Sophronitis cernua | Hábito e aeração de miniatura epífita sustentados por fonte de grupo | Receita exata de vaso e desempenho em clima quente | Manter provisória |
+| Zygolum Louisendorf | Parentais RHS confirmados e recomendações de cultivo do híbrido | Percentuais e efeito das noites quentes | Manter provisória |
+| Dendrobium loddigesii | AOS recomenda estação mais seca para este grupo; RHS admite suportes drenantes | Receita específica e manejo da água em crescimento ativo | Manter provisória |
+| Maxillaria schunkeana | AOS (Schunkea) sustenta umidade regular e boa ventilação | Tolerância térmica divergente e proporções do vaso | Manter provisória |
+| Mediocalcar decoratum | AOS recomenda umidade constante sem saturação e temperaturas frescas/intermediárias | Mistura exata e controle térmico de micro-orquídea | Manter provisória |
+
+### Portões de homologação MACS 1.0
+1. **Identidade:** nome aceito/sinônimo e híbridos-parentais conferidos.
+2. **Evidência:** fonte da própria espécie/híbrido com recipiente, ingredientes, granulometria e regime hídrico; contabilizar individualmente produtores brasileiros quando existirem, até alvo de 25, sem fabricar número.
+3. **Ponderação:** registrar convergências e divergências; evidência de gênero ou de híbridos relacionados deve receber menor peso.
+4. **Percentuais:** não transformar consenso qualitativo de ingredientes em percentuais exatos supostamente comprovados; indicar receita técnica proposta quando não houver ensaio.
+5. **Controle visual:** preservar V4.9, fotos, assets, estrelas e critérios IDC/IAR durante auditoria de substrato.
+
+### Verificação externa pontual nesta consolidação
+- AOS lista *D. polysema* na seção Latouria e explicita que as orientações da seção são gerais: https://www.aos.org/explore-orchids/dendrobium-alliance/den-sec-latouria
+- AOS apresenta recomendações de substrato por ambiente (estufa versus interior), sem validar a fórmula local da espécie: https://www.aos.org/orchid-care/care-sheets/dendrobium-general-culture-sheet
+- RHS confirma a filiação de Zygolum Louisendorf: https://apps.rhs.org.uk/horticulturaldatabase/orchidregister/orchiddetails.asp?ID=135845
+
+**Fechamento da fase de triagem:** 10/10 inventariadas, 10/10 com fontes externas de alcance variável, 10/10 cruzadas entre recipiente e receita; **0/10 homologadas quantitativamente**. Próximo lote pode avançar em paralelo, mantendo estas pendências explicitamente abertas.
