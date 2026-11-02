@@ -99,3 +99,27 @@ Data: 02/11/2026. Ordem do índice oficial `dados/orquideas/index.js`, posiçõe
 - **0 arquivos de fichas alterados** nesta rodada.
 - Alertas prioritários: taxonomia de *B. verboonenii*; retenção e sazonalidade de *D. loddigesii*; exigência térmica de *M. decoratum*, *M. schunkeana* e *Zygolum Louisendorf*; divergência de mistura em *B. aureofulva*.
 - Próxima ação executável: inspecionar conteúdo da ficha de *B. verboonenii* e verificar se a sinonímia já está descrita; corrigir somente informação ausente ou contraditória, sem alterar a receita sem validação.
+
+## Avaliação dirigida da retenção — Bifrenaria aureofulva (02/11/2026)
+
+**Fontes verificadas nesta passagem**
+1. Juan Pablo Heller, cultivo próprio da espécie, https://orquideasjph.wordpress.com/2019/07/28/bifrenaria-aureofulva/ — vaso raso ou caixeta, 1/3 pinus + 1/3 carvão + 1/3 brita; drenagem decisiva e rega regular com redução no frio.
+2. Orquídeas & Cia, ficha comercial de conjunto que inclui a espécie, https://www.orquideacia.com.br/kit-3-especies-bifrenaria-tyrianthina-aureofulva-e-harrisoniae-x-wittigii — pinus, carvão e brita; regar após secagem parcial. **Fonte de kit multiespécies, não ensaio específico.**
+3. AOS, gênero, https://www.aos.org/explore/bifrenaria — mistura epífita média, regas regulares, leve secagem entre irrigações; não superdimensionar vasos.
+4. POWO, https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A617537-1 — nome aceito, hábito epífito de bioma tropical úmido; fonte botânica, não receita de cultivo.
+
+**Comparação numérica da receita atual com o relato específico** (valores em % de volume):
+| Componente | Ficha atual | Relato Heller | Diferença |
+|---|---:|---:|---:|
+| Pinus | 15 | ~33,3 | -18,3 p.p. |
+| Carvão | 20 | ~33,3 | -13,3 p.p. |
+| Brita | 35 | ~33,3 | +1,7 p.p. |
+| Macadâmia | 30 | 0 | +30 p.p. |
+
+**Interpretação:** a ficha atual não é simplesmente mais mineral: a fração de brita é próxima à do relato; a diferença principal é **substituir parte do pinus e do carvão por 30% de casca de macadâmia**. A retenção hídrica efetiva não pode ser deduzida somente da tabela porque depende de granulometria, recipiente, envelhecimento, clima e frequência de rega. Não há evidência para afirmar que macadâmia retém necessariamente menos ou mais água que pinus na composição específica.
+
+**Decisão:** não alterar os 35/30/20/15 nesta passagem. **Reclassificar a dúvida como substituição de componentes orgânicos e comportamento físico, não excesso comprovado de brita.** A justificativa na ficha já registra a divergência; exigir comparação controlada antes de homologar.
+
+**Ensaio mínimo proposto:** mesmo tipo e volume de vaso raso; mistura A = atual, mistura B = 1/3 pinus + 1/3 carvão + 1/3 brita; mesmo tamanho de partículas sempre que viável; hidratar, drenar e pesar em 0, 24, 48 e 72 h; observar raízes ativas e pseudobulbos por várias semanas. As pesagens avaliam perda de massa de água, não provam isoladamente maior sucesso de cultivo. Preservar ausência de esfagno nas duas receitas.
+
+**Contagem MACS:** 1 relato individual específico + 1 ficha comercial coletiva + 1 recomendação de gênero + 1 fonte taxonômica; **não equivalem a 4 produtores brasileiros específicos nem a homologação de percentuais**.
