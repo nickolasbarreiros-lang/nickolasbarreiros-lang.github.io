@@ -41,7 +41,7 @@ export const phalaenopsisPulcherrima = {
         "🥈 Cesto ou cachepô pequeno com mistura mineral e casca.",
         "🥉 Montagem em tronco ou cortiça em ambiente úmido e com regas frequentes."
     ],
-    substrato: ["🥇 perlita grossa + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.", "🥈 perlita grossa + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.", "🥉 Brita + perlita grossa + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.", "⭐ Alternativa: Macadâmia grossa + perlita grossa + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado."],
+    substrato: ["🥇 Perlita grossa + argila expandida + carvão vegetal + pequena fração de casca de pinus grossa.","🥈 Brita fina/média + perlita grossa + carvão vegetal + 15–25% de componente orgânico grosso.","🥉 Casca de macadâmia grossa + perlita grossa + cacos de cerâmica ou argila expandida."],
     formasCultivo: {
         perfilVisual: "phalaenopsis-pulcherrima-terrestre-litofita",
         destaque: "Vaso de Barro",
