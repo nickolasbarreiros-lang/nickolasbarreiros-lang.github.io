@@ -36,6 +36,38 @@ export const jacquiniellaGlobosa = {
     rega: "Durante o crescimento e nos dias quentes, regue com frequência, especialmente em plantas montadas. Após cada irrigação, permita que raízes e suporte arejem e sequem antes da próxima rega. No frio ou em períodos nublados, reduza conforme a evaporação, sem provocar murchamento persistente das folhas carnosas.",
     suporte: "🥇 Placa pequena de cortiça ou madeira dura.\n🥈 Galho fino de casca rugosa.\n🥉 Cesto pequeno e muito aberto. Vaso raso é apenas opção secundária.",
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Casca de pinus fina + perlita + perlita grossa fina + pequena fração de esfagno solto.\n🥉 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.\n⭐ Alternativa: Esfagno de fibra longa usado muito solto + perlita grossa fina; evitar compactação junto ao rizoma.",
+    formasCultivo: {
+        perfilVisual: "miniatura-epifita-caules-finos-sem-pseudobulbos",
+        destaque: "Placa / tronco",
+        resumo: "Miniatura de caules finos e folhas carnosas subcilíndricas. Precisa de umidade regular com rápida oxigenação, boa ventilação e proteção contra sol forte e seca prolongada.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cortiça, madeira dura ou galho fino rugoso, com camada mínima de esfagno sob as raízes e regas frequentes conforme a secagem." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cesto pequeno e muito aberto, com material leve e atenção à umidade das raízes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso secundário", texto: "Vaso muito pequeno e raso, bastante perfurado, com mistura fina porém aerada." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 2, status: "Uso condicional", texto: "Apenas vaso muito raso e perfurado, com regas ajustadas à evaporação rápida." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem principal em placa; mistura alternativa para cesto ou vaso muito pequeno",
+        resumo: "Suporte arejado com fina reserva localizada de umidade; em recipiente, usar mistura leve sem compactação.",
+        justificativa: "A primeira recomendação original é a montagem em madeira ou cortiça com uma lâmina fina de esfagno sob as raízes. A receita para recipiente adapta a segunda indicação qualitativa; percentuais ainda não homologados pela MACS 1.0.",
+        receitaTexto: "45% casca de pinus fina + 35% perlita de granulometria adequada + 20% esfagno de fibra longa solto.",
+        perfil: ["Miniatura epífita", "Caules finos", "Sem pseudobulbos verdadeiros", "Umidade regular", "Raízes ventiladas"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "45%", nota: "estrutura", finalidade: "Oferece apoio para raízes pequenas sem compactar." },
+            { asset: "perlita", nome: "Perlita de granulometria adequada", proporcao: "35%", nota: "aeração", finalidade: "Mantém espaços de ar e drenagem." },
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "20%", nota: "retenção leve", finalidade: "Reduz desidratação sem deixar a base continuamente molhada." }
+        ],
+        alerta: "Evitar sol direto forte, sombra profunda, ar parado, esfagno compactado, base enterrada, encharcamento constante e seca prolongada.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Expor ao sol direto forte; cultivar em sombra profunda; manter ar parado; usar vaso profundo; compactar esfagno; enterrar a base dos caules; deixar o suporte sempre molhado; submeter a seca prolongada; adubar em concentração alta; confundir necessidade de rega frequente com encharcamento constante.",
     dica: "🏆 Trate-a como uma miniatura que gosta de água com ar. Em placa de cortiça, galho rugoso ou cesto muito aberto, regue com frequência no calor, mas permita rápida oxigenação depois. Como a espécie ocorre de cerca de 200 a 2.400 m, ajuste a frequência de rega e a proteção térmica à procedência e ao microclima, em vez de aplicar uma regra única de temperatura.",
     revisaoCientificaIAR: {
