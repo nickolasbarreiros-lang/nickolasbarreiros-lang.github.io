@@ -160,3 +160,21 @@ Consultas direcionadas realizadas:
 **Resultado:** nenhuma página encontrada por essas consultas. Isso **não demonstra inexistência de recomendações**, apenas ausência de resultados nessa estratégia e nesses domínios.
 
 **Consequência para MACS 1.0:** não elevar contagem de produtores; não extrapolar receita de gênero como específica. Mantêm-se os pareceres e os percentuais originais. Próxima estratégia de pesquisa: ampliar sinônimos taxonômicos e procurar documentação técnica de produtores fora desses domínios, com checagem da identidade botânica.
+
+## Adendo — busca por sinônimos e evidências específicas (02/11/2026)
+
+### Phalaenopsis pulcherrima (= Doritis pulcherrima)
+- Orquidário Oriental: https://www.orquidariooriental.com.br/produto/doritis-pulcherrima-coerulea%2C53516/ — pinus ou chips de coco desidratados com areia grossa; pedriscos, brita ou cacos de telha para drenagem; regar após secagem. Trata-se de forma coerulea, não ensaio de todas as formas da espécie.
+- Orquidário Santa Clara: https://orquidariosantaclara.com.br/phalaenopsis-e-afins/3889-doritis-pulcherrima-var-alba-t3.html — pinus, carvão triturado e pedrisco na base; referência à variedade alba.
+- Orquídeas Ocotea: https://www.ocotea.net.br/doritis-pulcherrima/ — cachepô de madeira com pinus, evitando meio excessivamente úmido.
+- A convergência apoia boa drenagem e componente orgânico estrutural. **Não valida proporções exatas**, tampouco demonstra que 65% de fração mineral na receita atual seja prejudicial. Não confundir pedrisco no fundo com porcentagem do volume integral do meio.
+- A pesquisa anterior já incluía Roberto Martins e Mogi Mirim; conferir independência e relevância das descrições antes de consolidar contagem de produtores. Nenhum ensaio comparativo por receita foi encontrado.
+
+### Brassia lawrenceana
+- RHS, ficha específica: https://www.rhs.org.uk/plants/28016/brassia-lawrenceana/details — casca aberta com perlita, esfagno ou coco; drenagem completa e regas regulares. Corrobora princípios físicos da receita 35/25/20/10/10, **não seus percentuais**.
+- Flora do Brasil 2020: https://monografiasfloradobrasil.jbrj.gov.br/brassia.pdf — epífita de floresta úmida; evidência de habitat, não receita.
+
+### Epidendrum centropetalum
+- Lankesteriana, 2005: https://www.lankesteriana.org/lankesteriana/Lankesteriana%20vol.%205.%202005/Lankesteriana%205%281%29/Numerocompleto/Lankesteriana%205%281%29.pdf — revisão nomenclatural confirma *Oerstedella centradenia* como sinônimo de *E. centropetalum*. A pesquisa por sinônimos é válida; não inferir exigências de substrato a partir de taxonomia.
+
+**Decisão:** manter cinco fichas prioritárias e cinco condicionais, zero homologações definitivas e zero alterações de receitas. O relatório distingue a fração de drenagem no fundo do vaso da composição volumétrica do substrato.
