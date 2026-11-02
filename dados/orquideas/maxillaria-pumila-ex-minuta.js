@@ -37,6 +37,39 @@ export const maxillariaPumilaExMinuta = {
     "rega": "Mantenha umidade frequente, regando quando a superfície ou o suporte começar a secar. Em placas, pode precisar de água diária no verão; em microvasos, espere a aeração da camada superior antes de repetir. As raízes capilares devem receber água regularmente, mas não podem permanecer imersas em musgo compactado. Folhas murchas com raízes escuras e moles geralmente indicam perda radicular por excesso de umidade. Folhas murchas com raízes claras e suporte completamente seco indicam déficit hídrico real.",
     "suporte": "🥇 Placa pequena de cortiça ou madeira dura com filete mínimo de esfagno.\n🥈 Microvaso de barro ou plástico perfurado, sem sobra de espaço.\n🥉 Cesto pequeno de madeira ou arame revestido de material muito arejado. Evite suportes desproporcionais ao tamanho da touceira.",
     "substrato": "🥇 Casca de pinus média + casca de macadâmia triturada + perlita grossa + fibra de coco grossa.\n🥈 Fibra de coco grossa + chips de coco + perlita grossa + pinus médio, sem compactação.\n🥉 Chips de coco + pinus médio + perlita + carvão vegetal miúdo.\n⭐ Alternativa: Pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia.",
+    formasCultivo: {
+        perfilVisual: "miniatura-epifita-raizes-capilares",
+        destaque: "Placa / tronco",
+        resumo: "Miniatura epífita de raízes capilares e touceira compacta. Favorecer placa pequena com fixação delicada, umidade frequente, rápida renovação de ar e adubação muito diluída.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Placa pequena de cortiça ou madeira dura com filete mínimo e solto de esfagno, sem cobrir rizoma e pseudobulbos." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Microvaso bem furado e proporcional, com mistura leve e de granulometria adequada às raízes finas." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Microvaso muito perfurado, sem volume sobrando e sem compactação." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 3, status: "Uso condicional", texto: "Cestinho muito pequeno e arejado, evitando secagem excessiva das raízes capilares." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem principal em placa; mistura alternativa para microvaso",
+        resumo: "Mistura leve com partículas pequenas a médias, contato delicado com raízes capilares e boa aeração, sem esfagno compactado.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original para cultivo em recipiente. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% casca de macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa.",
+        perfil: ["Miniatura epífita", "Raízes capilares", "Touceira em almofada", "Umidade frequente", "Alta aeração"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece apoio radicular sem saturação permanente." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "30%", nota: "estrutura leve", finalidade: "Ajuda a manter a mistura solta e estável." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Mantém espaços de ar e drenagem." },
+            { asset: "fibra-coco", nome: "Fibra de coco grossa", proporcao: "10%", nota: "umidade pontual", finalidade: "Complementa umidade entre regas sem compactação." }
+        ],
+        alerta: "Evitar vasos grandes, materiais grossos demais para raízes capilares, esfagno compactado, adubo concentrado e divisões pequenas. Fixar ou replantar durante emissão de raízes novas.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "❌ Usar casca grossa demais, que não mantém contato uniforme com raízes capilares.\n❌ Usar vaso grande ou profundo.\n❌ Dividir a touceira em pequenos fragmentos.\n❌ Aplicar fertilizante concentrado ou Osmocote junto às raízes.\n❌ Enterrar o rizoma ou cobrir os pseudobulbos minúsculos.\n❌ Compactar esfagno ao redor da planta.\n❌ Manter alta umidade sem movimento de ar.\n❌ Replantar fora da emissão de raízes novas.",
     "dica": "Preserve a touceira como um bloco único sempre que possível. O conjunto cria um microclima que reduz oscilações de temperatura e umidade, além de aumentar muito o impacto da floração. Adube de forma “homeopática” e faça lavagem mensal, porque raízes capilares queimam rapidamente com sais. Na montagem ou troca de vaso, espere novas pontas radiculares e use material de granulometria fina, porém solto. O objetivo não é manter tudo molhado, mas oferecer água frequente com rápida renovação de oxigênio.",
     revisaoCientificaIAR: {
