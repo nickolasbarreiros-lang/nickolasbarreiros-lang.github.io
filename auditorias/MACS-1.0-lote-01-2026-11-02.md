@@ -269,3 +269,26 @@ Menegusso et al. (2021), *Ornamental Horticulture*, DOI 10.1590/2447-536X.v27i3.
 3. Priorizar alterações apenas quando houver contradição material demonstrável, documentando alternativa e seu nível de certeza.
 4. Teste opcional para validação numérica: comparar dois substratos em recipientes iguais, aferir massa do vaso após rega e 24/48/72 h, observar novas raízes e floração durante período de cultivo suficiente; controlar luz, temperatura, ventilação e frequência de rega.
 5. A meta de 25 produtores é **teto de busca**, não mínimo artificial: declarar cobertura real sem inventar referências.
+
+## Encerramento de triagem técnica das cinco prioridades — 02/11/2026
+
+**Objetivo desta passagem:** definir uma decisão executável por espécie, sem transformar ausência de ensaio em homologação percentual. As receitas não são alteradas nesta etapa.
+
+| Espécie | Decisão sobre forma de cultivo e substrato | Condição crítica | Ação na ficha quando houver edição autorizada |
+|---|---|---|---|
+| *Aerides odorata* | Manter cultivo montado/cesto como opção principal onde a ventilação e a frequência de regas o permitam; mistura grossa drenante como alternativa | Raízes expostas secam rapidamente; não extrapolar umidade de vaso para montagem | Explicitar dependência do recipiente e da frequência de irrigação, sem alterar percentuais |
+| *Epidendrum centropetalum* | Manter mistura de vaso provisoriamente e priorizar montagem como comparação técnica | Umidade ambiental alta não exige raízes continuamente molhadas | Verificar compactação de pinus fino + esfagno; sem substituir receita sem teste |
+| *Miltonia russelliana* | Manter vaso raso e meio drenante como hipóteses; revisar granulometria da receita | Raízes finas podem sofrer com espaços excessivos e secagem prolongada | Conferir tamanho das partículas e retenção; sem alteração percentual automática |
+| *Promenaea xanthina* | Manter meio fino/médio com ingrediente retentor e drenagem; observar estágio de brotação | AOS alerta que regas excessivas em brotos pequenos favorecem apodrecimento | Acrescentar nota sazonal de rega apenas após conferir texto existente; não impor rega constante em todas as fases |
+| *Phalaenopsis pulcherrima* | Manter avaliação de meio orgânico-mineral bem drenante, sem presumir que brita basal equivale a 30% de brita misturada | Recipiente, granulometria e umidade mudam retenção | Confrontar 65% mineral com alternativas documentadas, sem alterar receita sem validação |
+
+### Referências novas desta passagem
+- AOS, *Promenaea*: https://www.aos.org/explore/promenaea — vaso raso/cesto com mistura fina/média e ingredientes retentores; pouca água até amadurecimento dos brotos e surgimento de novas raízes; depois rega regular.
+- AOS, *Aerides*: https://www.aos.org/explore/aerides — distinção entre espécies de caule curto e alongadas, montagem/cestos, mistura média/grossa e secagem entre regas conforme porte.
+- NParks, *Aerides odorata*: https://www.nparks.gov.sg/florafaunaweb/flora/5/9/5995 — espécie epífita de caule curto e robusto; meio de drenagem livre ou montagem, molhar raízes com frequência em montagem.
+- AOS, *Miltonia*: https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet — raízes finas, meio drenante, vaso raso, evitar secagem excessiva.
+- Orchid.guru, *Miltonia russelliana*: https://www.orchid.guru/content/orchids/m/miltonia/russelliana/ — alerta específico de raízes finas sensíveis tanto à seca prolongada quanto ao encharcamento; fonte secundária.
+- Tauranga Orchid Society, *Promenaea xanthina*: https://taurangaorchids.wordpress.com/newsletters/may-2020-newsletter-423/ — alternativas com esfagno/fibra/casca e recipiente raso, sem validação comparativa.
+
+### Critério de encerramento
+As cinco prioridades possuem agora **parecer operacional documentado**, mas **não receitas percentuais homologadas**. O passo seguinte útil é aplicar **ajustes editoriais de manejo claramente fundamentados**, após ler cada ficha, e reservar mudança de mistura para contradições demonstradas ou ensaio. Não declarar 25 produtores consultados sem evidência.
