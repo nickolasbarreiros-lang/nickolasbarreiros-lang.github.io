@@ -37,6 +37,39 @@ export const laeliaLundii = {
     rega: "Durante brotação e emissão de raízes, molhe bem e permita secagem rápida. Em montagem, uma planta ativa no verão pode exigir rega diária ou quase diária, desde que as raízes não permaneçam molhadas por longos períodos. Quando o crescimento diminuir, aumente o intervalo entre irrigações. O inverno naturalmente mais seco deve ser reproduzido como redução, não como desidratação prolongada.",
     suporte: "🥇 Placa de cortiça ou madeira dura.\n🥈 Galho natural rugoso, permitindo expansão da touceira.\n🥉 Cachepô ou cestinho pequeno e muito vazado.\nVaso de barro pequeno também funciona quando preenchido com material grosseiro e muito aerado.",
     substrato: "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.\n🥉 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n⭐ Alternativa: Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+    formasCultivo: {
+        perfilVisual: "miniatura-epifita-rupicola-bifoliada",
+        destaque: "Placa / tronco",
+        resumo: "Miniatura epífita ou rupícola, com pseudobulbos curtos e raízes que preferem alta aeração. Favorecer montagem firme em cortiça ou madeira durável, luz filtrada abundante e secagem rápida entre regas.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Placa de cortiça, madeira dura ou galho rugoso, com espaço para a touceira se expandir e fixação estável." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cestinho pequeno e muito vazado, com mistura grosseira e regas adaptadas à secagem." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e perfurado, com partículas grossas e muito arejadas." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 3, status: "Uso condicional", texto: "Fixação em galho rugoso com luminosidade adequada e regas durante o estabelecimento." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem principal em placa; mistura alternativa para cesto ou vaso pequeno",
+        resumo: "Mistura grosseira e ventilada, com retenção moderada e secagem perceptível entre regas.",
+        justificativa: "A placa é a primeira opção de suporte já registrada. A mistura quantitativa para recipiente segue os quatro componentes da primeira receita original; percentuais ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        perfil: ["Miniatura bifoliada", "Epífita ou rupícola", "Raízes muito arejadas", "Secagem rápida", "Touceira compacta"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece apoio radicular sem compactação." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "apoio e umidade", finalidade: "Favorece enraizamento e umidade moderada." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Amplia espaços de ar e drenagem." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta." }
+        ],
+        alerta: "Evitar vaso grande, esfagno compactado, sombra excessiva, repouso seco prolongado e divisão frequente de touceiras pequenas. Fixar a planta firmemente.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Usar vaso grande e profundo; manter esfagno compactado; cultivar com pouca luz; confundir cultivo montado com pouca necessidade de água; impor repouso seco excessivo; manter raízes encharcadas em períodos frios ou chuvosos; dividir touceiras pequenas; deixar a planta frouxa no suporte; fertilizar em excesso.",
     dica: "Deixe a planta conquistar o suporte e formar uma touceira. Cattleya lundii responde melhor quando não é constantemente removida ou dividida: várias frentes pequenas juntas criam mais raízes, reservas e pontos de floração. Em litoral quente, ventilação e secagem rápida valem mais que simplesmente reduzir água.",
     revisaoCientificaIAR: {
