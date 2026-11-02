@@ -71,11 +71,11 @@ export const bibliotecaCultivoV4 = {
     },
     "placa-tronco": {
         nome: "Placa / tronco",
-        imagem: "imagens/cultivo-v4/placa-madeira-v4.webp"
+        imagem: "imagens/cultivo-v4/placa-madeira-v3.webp"
     },
     "placa-madeira": {
         nome: "Placa de madeira",
-        imagem: "imagens/cultivo-v4/placa-madeira-v4.webp"
+        imagem: "imagens/cultivo-v4/placa-madeira-v3.webp"
     },
     "tronco": {
         nome: "Tronco / galho",
