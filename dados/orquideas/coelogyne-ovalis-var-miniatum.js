@@ -40,6 +40,39 @@ export const coelogyneOvalisVarMiniatum = {
     "rega": "Mantenha umidade regular durante o crescimento, mas permita boa entrada de ar no sistema radicular. A espécie ocorre tanto sobre árvores quanto rochas musgosas, indicando raízes acostumadas a umidade frequente sem compactação. No período mais fresco, reduza moderadamente se a planta desacelerar, sem impor seca severa nem deixar os pseudobulbos enrugarem de forma contínua.",
     "suporte": "🥇 Placa larga com pequena faixa de esfagno — acompanha naturalmente o rizoma rastejante.\n🥈 Cesto raso — oferece espaço horizontal e ótima aeração.\n🥉 Vaso largo e baixo — útil onde a umidade ambiental é menor.\nDeixe o rizoma sobre a superfície e reserve espaço para vários anos de avanço.",
     "substrato": "🥇 Chips de coco médios + casca de pinus média + perlita grossa + esfagno picado em pequena proporção.\n🥈 Pinus médio + chips de coco + perlita + carvão vegetal miúdo.\n🥉 Esfagno de fibra longa bem solto + perlita grossa + casca de pinus média, em recipiente raso e ventilado.\n⭐ Alternativa: Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno.",
+    "formasCultivo": {
+        "perfilVisual": "coelogyne",
+        "destaque": "Placa / tronco",
+        "resumo": "Planta de crescimento horizontal e rizoma rastejante, registrada sob o rótulo horticultural ‘Miniatum’, cuja identidade ainda depende de confirmação floral. Precisa de superfície ampla, umidade equilibrada e ventilação constante.",
+        "metodos": [
+            { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Placa larga e durável, com pequena faixa de esfagno solto junto às raízes, sem cobrir o rizoma. Ajustar as regas à secagem." },
+            { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": 5, "status": "Muito recomendado", "texto": "Cachepô raso e amplo, permitindo avanço horizontal dos pseudobulbos e aeração das raízes." },
+            { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": 4, "status": "Alternativa", "texto": "Vaso largo e baixo, útil quando a umidade ambiental é menor. Manter o rizoma acima do substrato." },
+            { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 4, "status": "Alternativa condicional", "texto": "Recipiente baixo e muito perfurado, com mistura aberta e controle da umidade interna." }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Proposta para recipiente raso; em placa usar apenas fixação leve",
+        "resumo": "Mistura porosa com retenção moderada para raízes superficiais, sem compactar sobre o rizoma.",
+        "justificativa": "A composição segue a primeira alternativa já descrita na ficha, com percentuais sugeridos para visualização. A identidade horticultural ‘Miniatum’ ainda requer confirmação, e a receita não foi homologada pela MACS 1.0.",
+        "receitaTexto": "35% chips de coco médios + 30% casca de pinus média + 25% perlita grossa + 10% esfagno picado e solto.",
+        "perfil": ["Rizoma rastejante", "Pseudobulbos espaçados", "Raízes superficiais", "Umidade equilibrada", "Aeração alta"],
+        "comportamento": [
+            { "nome": "Retenção", "valor": 4, "icone": "💧" },
+            { "nome": "Aeração", "valor": 4, "icone": "💨" },
+            { "nome": "Secagem", "valor": 2, "icone": "⚡" },
+            { "nome": "Compactação", "valor": 2, "icone": "🧱" }
+        ],
+        "itens": [
+            { "asset": "chips-coco", "nome": "Chips de coco médios", "proporcao": "35%", "nota": "umidade equilibrada", "finalidade": "Ajuda a conservar umidade sem formar massa compacta." },
+            { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "30%", "nota": "estrutura", "finalidade": "Mantém espaços de ar e suporte às raízes." },
+            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "25%", "nota": "aeração", "finalidade": "Aumenta a porosidade e facilita a drenagem." },
+            { "asset": "esfagno", "nome": "Esfagno picado e solto", "proporcao": "10%", "nota": "retenção complementar", "finalidade": "Reduz secagem excessiva sem cobrir ou sufocar o rizoma." }
+        ],
+        "alerta": "Não enterrar o rizoma nem compactar o esfagno. O nome ‘Miniatum’ é um rótulo horticultural, não uma variedade botânica formal; confirmar a identificação na próxima floração.",
+        "notaEvidencia": "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0; a identidade do exemplar e os assets visuais ainda precisam de validação."
+    },
     "errosComuns": "Tratar ‘Miniatum’ como variedade botânica formal; ignorar a necessidade de confirmar a flor; vaso profundo; enterrar o rizoma; calor noturno constante sem ventilação; deixar secar completamente por longos períodos; esfagno compactado; excesso de sais; replantar sem novas raízes.",
     "dica": "A próxima floração vale mais do que o rótulo. Registre flor frontal, perfil, labelo, inflorescência, pseudobulbos e a distância entre eles. Coelogyne ovalis apresenta pseudobulbos separados ao longo do rizoma, normalmente com duas folhas, e flores perfumadas de aproximadamente 3–4 cm. Essa documentação permitirá confirmar a identidade sem perder o histórico da planta.",
     revisaoCientificaIAR: {
