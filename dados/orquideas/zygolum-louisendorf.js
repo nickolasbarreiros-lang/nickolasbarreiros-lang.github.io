@@ -52,12 +52,7 @@ export const zygolumLouisendorf = {
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 2, status: "Pouco recomendado", texto: "Pode ser usado com mistura que preserve mais umidade, porém seca mais rápido que os vasos. Exige controle de rega mais rigoroso e não é a primeira escolha para este híbrido." }
         ]
     },
-    substrato: [
-        "Em vaso proporcional: casca de pinus média + fibra de coco grossa + carvão vegetal + pequena fração de esfagno.",
-        "Mantenha o substrato levemente úmido durante crescimento ativo, sem saturação permanente.",
-        "Evite vasos muito quentes e intervalos longos que deixem as raízes completamente secas.",
-        "Replante quando a mistura estiver degradada, preferencialmente no início de novas raízes."
-    ],
+    substrato: ["🥇 Casca de pinus média + fibra de coco grossa + perlita grossa.", "🥈 Casca de pinus média + carvão vegetal + pequena fração de esfagno solto."],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
