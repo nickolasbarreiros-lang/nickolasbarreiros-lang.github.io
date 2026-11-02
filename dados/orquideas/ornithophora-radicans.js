@@ -36,6 +36,39 @@ export const ornithophoraRadicans = {
     rega: "Mantenha umidade regular durante o crescimento, mas com secagem superficial rápida e alta oxigenação. Plantas montadas podem necessitar de rega diária nos dias quentes. Regue preferencialmente pela manhã e evite que folhas e raízes permaneçam molhadas durante toda a noite. Reduza no frio sem deixar a touceira ressecar por vários dias.",
     suporte: "🥇 Placa de madeira dura, cortiça ou tronco fino.\n🥈 Cachepô pequeno de madeira muito vazado.\n🥉 Vaso raso e pequeno apenas com drenagem extrema.",
     substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.\n🥉 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n⭐ Alternativa: Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+    formasCultivo: {
+        perfilVisual: "gomesa-radicans-miniatura-epifita-pendente",
+        destaque: "Placa / tronco",
+        resumo: "Miniatura epífita de raízes filiformes, touceira pendente e hastes arqueadas. Montagem em madeira ou cortiça mantém aeração elevada e deixa as inflorescências livres.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Madeira dura, cortiça ou tronco fino, suspenso para deixar as hastes livres e facilitar ventilação das raízes." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô pequeno e muito vazado, elevado, sem impedir a queda das hastes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno, raso e extremamente perfurado, com substrato aberto e secagem monitorada." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Somente recipiente pequeno e raso, com drenagem extrema e regas ajustadas." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aberta para cachepô ou vaso raso; placa sem substrato volumoso",
+        resumo: "A montagem principal em placa prioriza raízes expostas e umidade regular. Em recipientes, mistura leve de pinus, coco, perlita e carvão preserva aeração.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa já registrada na ficha, destinada a recipientes. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        perfil: ["Miniatura epífita", "Raízes filiformes", "Touceira pendente", "Alta ventilação", "Umidade regular"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece fixação às raízes em recipientes pequenos." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a evitar desidratação prolongada." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para manter o substrato aberto." }
+        ],
+        alerta: "Evitar adubo concentrado, excesso de fertilizante de liberação lenta, esfagno compactado, pouca ventilação e bloqueio das hastes pendentes. Não cortar raízes finas saudáveis.",
+        notaEvidencia: "Receita percentual apenas para recipientes; a forma principal é montagem em placa. Estrelas e percentuais são estimativas não homologadas pela MACS 1.0. Conferência visual dos assets pendente."
+    },
     errosComuns: "Aplicar adubo químico concentrado; usar vaso grande; compactar esfagno; manter a touceira molhada durante toda a noite; cultivar sem circulação de ar; cortar raízes finas saudáveis; deixar o substrato secar completamente por longos períodos; impedir que as hastes pendam livremente; usar Osmocote em excesso ou encostado no rizoma.",
     dica: "Use adubação homeopática, lavagem mensal de sais e muito ar. A Gomesa radicans prefere pequenas quantidades de nutrientes de forma contínua a doses fortes de fertilizante. Aplique apenas 1/4 ou 1/6 da dose foliar, faça uma lavagem completa com água pura uma vez por mês e cultive, sempre que possível, montada em cortiça, madeira dura ou cachepô muito ventilado. Para esta espécie, boa circulação de ar é mais importante do que simplesmente aumentar a quantidade de água.",
     revisaoCientificaIAR: {
