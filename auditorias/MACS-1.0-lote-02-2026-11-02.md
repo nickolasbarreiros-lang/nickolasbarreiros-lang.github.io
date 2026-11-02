@@ -73,3 +73,29 @@ Data: 02/11/2026. Ordem do índice oficial `dados/orquideas/index.js`, posiçõe
 
 ### Controle de progresso
 7/10 fichas do lote 02 confrontadas com fontes externas (3 na passagem anterior + 4 nesta). Restam **Cattleya Pumpkin Festival, Bifrenaria verboonenii e Zygolum Louisendorf**. Evidência brasileira específica registrada nesta passagem: um relato independente para *B. aureofulva* e uma ficha de produtor para *S. wittigiana*. **Nenhuma receita alterada ou homologada.**
+
+## Terceira triangulação científica — três fichas restantes (02/11/2026)
+
+### Cattleya Pumpkin Festival
+- **Parentais confirmados no Registro Internacional RHS:** *Cattleya Naomi Kerns* × *Cattleya Waianae Sunset*, registrado em 01/12/1978. Fonte primária: https://apps.rhs.org.uk/horticulturaldatabase/orchidregister/orchiddetails.asp?ID=70758
+- Mistura atual: 45% pinus grosso, 25% carvão, 20% brita, 10% macadâmia. **Compatibilidade de drenagem plausível**, porém nenhum percentual demonstrado para o híbrido; pesquisar os ancestrais e produtores específicos antes de mudar. **Condicional**.
+
+### Bifrenaria verboonenii — alerta taxonômico
+- **Kew POWO trata *B. verboonenii* como sinônimo de *Bifrenaria tyrianthina*.** Fonte primária: https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A320731-2
+- Flora do Brasil 2020 inclui *B. verboonenii* na sinonímia de *B. tyrianthina* e registra hábito rupícola: https://monografiasfloradobrasil.jbrj.gov.br/bifrenaria.pdf
+- Smithsonian Gardens registra *B. tyrianthina* em habitat montano (1000–2000 m) e descreve hábito epífito; isso mostra **variação de tratamento de hábito**, não autorização para generalizar que toda planta seja exclusivamente rupícola: https://si.gardenexplorer.org/taxon-23690.aspx
+- Mistura atual 40% brita, 25% macadâmia, 20% carvão, 15% pinus. A fração mineral elevada é uma **hipótese plausível** para cultivo de hábito rupícola, mas 40% não é demonstrado por essas fontes. **Prioridade alta**: verificar a identificação da planta e registrar o nome aceito sem perder o nome comercial na ficha. Preservar a regra sem esfagno.
+
+### Zygolum Louisendorf — parentesco e microclima
+- **Parentais confirmados no RHS:** *Zygosepalum labiosum* × *Zygopetalum Artur Elle*, registro de 29/01/2004: https://apps.rhs.org.uk/horticulturaldatabase/orchidregister/orchiddetails.asp?ID=135845
+- NParks recomenda **condições frescas, idealmente até ~25 °C**, meia-sombra e rega moderada; é orientação de cultivo do híbrido, não limite letal: https://www.nparks.gov.sg/florafaunaweb/flora/6/8/6892
+- Palmer Orchids relata cultivo do clone 'Rhein Moonlight' em casca média aerada, irrigando quando o substrato começa a secar, sem encharcar: https://www.palmerorchids.com/zygopetalum/zygolum-louisendorf
+- New England Botanic Garden publica para o clone 'Rhein Moonlight' uso de chips de coco, casca e perlita, tolerância a dias quentes por períodos, mas noites mais frescas: https://www.nebg.org/wp-content/uploads/2022/03/Prismatic_OrchidGuide_UpdatedMarch4th2022.pdf
+- Mistura atual 45% pinus médio, 25% fibra de coco grossa, 20% carvão, 10% esfagno: **convergência qualitativa** com componentes orgânicos aerados; porcentagens não demonstradas. A adequação a clima quente depende especialmente da temperatura noturna. **Condicional com atenção térmica**.
+
+## Fechamento da primeira rodada externa do lote 02
+- **10/10 fichas confrontadas** com pelo menos alguma fonte externa de relevância variável (algumas de gênero, outras da espécie/híbrido).
+- **0/10 receitas homologadas em percentuais**; não se atingiu meta de 25 produtores brasileiros por espécie. A pesquisa é **triagem científica**, não homologação MACS 1.0.
+- **0 arquivos de fichas alterados** nesta rodada.
+- Alertas prioritários: taxonomia de *B. verboonenii*; retenção e sazonalidade de *D. loddigesii*; exigência térmica de *M. decoratum*, *M. schunkeana* e *Zygolum Louisendorf*; divergência de mistura em *B. aureofulva*.
+- Próxima ação executável: inspecionar conteúdo da ficha de *B. verboonenii* e verificar se a sinonímia já está descrita; corrigir somente informação ausente ou contraditória, sem alterar a receita sem validação.
