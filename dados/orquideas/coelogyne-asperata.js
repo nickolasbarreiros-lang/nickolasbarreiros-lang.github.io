@@ -41,6 +41,39 @@ export const coelogyneAsperata = {
     "rega": "Mantenha umidade regular durante a formação dos brotos e pseudobulbos, sem permitir água estagnada. O substrato deve permanecer levemente úmido, mas com circulação de ar. Após a maturação, reduza apenas de forma moderada. No inverno quente do litoral, a planta continua consumindo água. Regue pela manhã e ajuste a frequência conforme o tamanho do recipiente, a ventilação e a evaporação.",
     "suporte": "🥇 Vaso largo e estável — suporta o peso da touceira e acompanha o avanço do rizoma.\n🥈 Cesto amplo de madeira — oferece aeração e espaço para hastes pendentes.\n🥉 Cachepô muito drenante — útil em ambientes úmidos.\nEscolha recipiente definitivo ou de longa duração, pois a espécie cresce rápido e ressente-se de divisões frequentes.",
     "substrato": "🥇 Chips de coco médios + casca de pinus média + perlita grossa + esfagno picado em pequena proporção.\n🥈 Pinus médio + chips de coco + perlita + carvão vegetal miúdo.\n🥉 Esfagno de fibra longa bem solto + perlita grossa + casca de pinus média, em recipiente raso e ventilado.\n⭐ Alternativa: Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno.",
+    "formasCultivo": {
+        "perfilVisual": "coelogyne",
+        "destaque": "Vaso de Barro",
+        "resumo": "Espécie tropical de grande porte e rizoma expansivo. Precisa de recipiente largo, firme e drenante, com umidade relativamente constante durante o crescimento, sem repouso seco rigoroso.",
+        "metodos": [
+            { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Vaso largo, pesado e estável, com espaço para avanço do rizoma. Acompanhar a umidade para evitar secagem prolongada." },
+            { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": 5, "status": "Muito recomendado", "texto": "Modelo amplo e firme, com aeração e espaço para inflorescências arqueadas ou pendentes. Exige atenção à frequência das regas." },
+            { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 4, "status": "Alternativa", "texto": "Recipiente largo e muito drenante, desde que seja estabilizado contra o peso da touceira e mantenha umidade sem encharcar." },
+            { "nome": "Vaso plástico", "asset": "vaso-plastico", "estrelas": 3, "status": "Alternativa condicional", "texto": "Pode reduzir a secagem excessiva, mas deve ter drenagem suficiente e estrutura firme; evite compactação e água estagnada." }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Proposta para recipiente largo, estável e drenante",
+        "resumo": "Mistura de umidade moderada a alta, mas aberta, para sustentar pseudobulbos volumosos sem secar completamente no crescimento.",
+        "justificativa": "A receita mantém os quatro materiais da primeira mistura já indicada na ficha. As proporções são uma hipótese técnica de cultivo, ainda sem homologação MACS 1.0.",
+        "receitaTexto": "35% chips de coco médios + 30% casca de pinus média + 25% perlita grossa + 10% esfagno picado e solto.",
+        "perfil": ["Raízes epífitas", "Touceira grande e pesada", "Umidade contínua sem encharcamento", "Aeração alta", "Sem repouso seco rigoroso"],
+        "comportamento": [
+            { "nome": "Retenção", "valor": 4, "icone": "💧" },
+            { "nome": "Aeração", "valor": 4, "icone": "💨" },
+            { "nome": "Secagem", "valor": 2, "icone": "⚡" },
+            { "nome": "Compactação", "valor": 2, "icone": "🧱" }
+        ],
+        "itens": [
+            { "asset": "chips-coco", "nome": "Chips de coco médios", "proporcao": "35%", "nota": "reserva hídrica", "finalidade": "Conserva umidade entre regas sem eliminar os espaços de ar." },
+            { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "30%", "nota": "estrutura", "finalidade": "Dá suporte às raízes e favorece drenagem." },
+            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "25%", "nota": "aeração", "finalidade": "Ajuda a manter a mistura porosa mesmo com regas frequentes." },
+            { "asset": "esfagno", "nome": "Esfagno picado e solto", "proporcao": "10%", "nota": "retenção complementar", "finalidade": "Reduz secagem excessiva, sem formar camada compacta no centro." }
+        ],
+        "alerta": "Não impor repouso seco severo, não dividir frequentemente e não deixar a planta secar durante crescimento ativo. Manter espaço para o avanço do rizoma e o caimento das hastes.",
+        "notaEvidencia": "Percentuais e estrelas são estimativas horticulturais, não resultados de ensaios nem de homologação MACS 1.0."
+    },
     "errosComuns": "Tratar como Coelogyne himalaica; impor seca severa; expor a frio abaixo de 14 °C; usar vaso pequeno; dividir com frequência; deixar secar durante crescimento; usar substrato compactado; cultivar sob sol direto forte; limitar o caimento das hastes; manter recipiente instável diante do peso da touceira.",
     "dica": "Planeje o recipiente para a planta adulta. Use vaso largo e pesado ou cesto amplo, preserve a touceira e deixe o rizoma avançar. A combinação de espaço, calor acima de 14 °C, umidade contínua e raízes aeradas produz pseudobulbos maiores e inflorescências mais longas.",
     revisaoCientificaIAR: {
