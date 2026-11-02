@@ -41,6 +41,39 @@ export const oncidiumPumilum = {
     "rega": "Regue com boa frequência durante brotação e enraizamento, sempre permitindo secagem rápida. Em placas, borrifos ou regas diárias podem ser necessários no verão se o suporte secar em poucas horas. Após maturação, reduza moderadamente a frequência sem desidratar as folhas.",
     "suporte": "🥇 Placa de madeira, cortiça ou tronquinho — opção ideal para secagem rápida.\n🥈 Cachepô pequeno e muito vazado — acomoda bem touceiras densas.\n🥉 Vaso pequeno de barro muito furado — opção viável em locais mais secos.\nEvite recipientes grandes.",
     "substrato": "🥇 perlita grossa + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.\n🥈 Brita + perlita grossa + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.\n🥉 Macadâmia grossa + perlita grossa + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado.\n⭐ Alternativa: perlita grossa + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.",
+    formasCultivo: {
+        perfilVisual: "trichocentrum-miniatura-epifita-touceira-densa",
+        destaque: "Placa / tronco",
+        resumo: "Miniatura epífita de folhas firmes e raízes que precisam secar rapidamente. Montagem em placa de madeira ou cortiça evita excesso de umidade e permite expansão da touceira.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Madeira dura, cortiça ou tronquinho rugoso com raízes expostas e secagem rápida após regas." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô pequeno e muito vazado, adequado a touceiras densas sem reter água junto ao colo." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e muito furado para locais mais secos; manter mistura mineral e grossa." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Recipiente pequeno e muito aberto, evitando umidade persistente junto ao rizoma." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura mineral e muito aerada para cultivo em recipiente",
+        resumo: "A montagem principal em placa não requer mistura volumosa. Em cachepô ou vaso pequeno, predomínio de componentes minerais com fração orgânica reduzida favorece secagem rápida.",
+        justificativa: "A receita quantifica os componentes da primeira mistura qualitativa já registrada na ficha, com baixa fração de pinus. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% perlita grossa + 30% brita fina/média + 25% casca de macadâmia triturada + 10% casca de pinus grossa.",
+        perfil: ["Miniatura epífita", "Touceira densa", "Raízes aeradas", "Secagem rápida", "Pouca retenção"],
+        comportamento: [
+            { nome: "Retenção", valor: 1, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 5, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "35%", nota: "aeração", finalidade: "Promove espaços de ar e drenagem rápida." },
+            { asset: "brita", nome: "Brita fina/média", proporcao: "30%", nota: "drenagem", finalidade: "Mantém estrutura mineral e evita retenção prolongada." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "25%", nota: "estrutura", finalidade: "Oferece pontos de fixação e pequena reserva hídrica." },
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "10%", nota: "fração orgânica", finalidade: "Complementa a fixação das raízes sem dominar a mistura." }
+        ],
+        alerta: "Evitar sombra densa, vasos grandes, encharcamento, excesso de esfagno, adubação concentrada e divisão de touceiras pequenas.",
+        notaEvidencia: "Receita percentual apenas para recipientes; a forma principal é montagem em placa. Estrelas e percentuais são estimativas não homologadas pela MACS 1.0. Conferência visual dos assets pendente."
+    },
     "errosComuns": "Sombra densa; vaso grande; encharcamento; dividir touceiras pequenas; enterrar rizoma; adubo concentrado; pouca ventilação; excesso de esfagno; replantio frequente.",
     "dica": "Preserve a touceira. Quanto mais frentes maduras permanecerem juntas, maior tende a ser o número de hastes e o efeito de 'nuvem amarela'. Combine isso com luz filtrada forte e secagem rápida após as regas matinais.",
     revisaoCientificaIAR: {
