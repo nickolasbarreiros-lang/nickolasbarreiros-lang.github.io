@@ -39,6 +39,39 @@ export const laeliaCaulencens = {
     rega: "Durante crescimento ativo, regue abundantemente e permita drenagem imediata, forte oxigenação e secagem progressiva antes da próxima irrigação. No período de menor atividade, aumente significativamente o intervalo entre regas, sem deixar os pequenos pseudobulbos desidratarem em excesso.",
     suporte: "🥇 Vaso baixo de barro, pequeno e bem perfurado.\n🥈 Cesto raso e muito vazado.\n🥉 Pedra porosa ou montagem mineral firmemente fixada.\nO vaso pequeno é útil porque reduz o volume de material úmido, não porque as raízes precisem ficar comprimidas.",
     substrato: "🥇 perlita grossa + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.\n🥈 perlita grossa + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.\n🥉 Brita + perlita grossa + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.\n⭐ Alternativa: Macadâmia grossa + perlita grossa + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado.",
+    formasCultivo: {
+        perfilVisual: "cattleya-rupicola-compacta-mineral",
+        destaque: "Vaso de Barro",
+        resumo: "Rupícola compacta de ambientes abertos e muito iluminados. Prefere vaso baixo e firme, mistura predominantemente mineral, drenagem imediata e boa ventilação, evitando superaquecimento das raízes.",
+        metodos: [
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno, baixo e perfurado, com mistura mineral muito drenante e colo exposto." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô raso e muito vazado, com mistura mineral estável e regas ajustadas à secagem." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 2, status: "Uso condicional", texto: "A espécie é rupícola; preferir fixação mineral em pedra porosa estável em vez de madeira, sem aquecimento excessivo." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Alternativa", texto: "Vaso pequeno e baixo, muito perfurado, com material predominantemente mineral e sem retenção prolongada." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura predominantemente mineral para vaso baixo",
+        resumo: "Partículas minerais grossas e estáveis, com pequena fração orgânica, drenagem imediata e raízes muito arejadas.",
+        justificativa: "A receita quantifica a primeira mistura qualitativa já registrada na ficha, com maior participação mineral. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% brita fina/média + 30% perlita grossa + 25% casca de macadâmia triturada + 10% casca de pinus grossa.",
+        perfil: ["Rupícola compacta", "Unifoliada", "Alta luminosidade", "Drenagem imediata", "Raízes arejadas"],
+        comportamento: [
+            { nome: "Retenção", valor: 1, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 5, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "brita-fina", nome: "Brita fina/média", proporcao: "35%", nota: "base mineral", finalidade: "Favorece drenagem imediata e estabilidade do vaso." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "30%", nota: "aeração", finalidade: "Mantém espaços de ar e reduz retenção excessiva." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "25%", nota: "fração orgânica", finalidade: "Oferece apoio e pequena reserva de umidade." },
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "10%", nota: "fração orgânica", finalidade: "Complementa a estrutura sem bloquear drenagem." }
+        ],
+        alerta: "Não usar vaso grande ou profundo, substrato compacto nem sombra excessiva. Evitar sol forte aquecendo pedra ou recipiente e repouso seco exagerado.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "• Substrato compacto.\n• Vaso grande e profundo.\n• Sombra excessiva e estiolamento.\n• Sol forte aquecendo pedra ou vaso.\n• Confundir rupícola com xerófita extrema.\n• Repouso seco exagerado.\n• Pouca ventilação no litoral.\n• Excesso de fertilizante e acúmulo de sais.",
     dica: "🏆 O melhor resultado vem de reproduzir a dinâmica de uma encosta rochosa: muita luz, água abundante quando a planta está ativa, drenagem imediata e ar retornando rapidamente às raízes. No litoral, prefira vaso baixo e claro ou barro bem ventilado e proteja o recipiente do sol forte da tarde.",
     revisaoCientificaIAR: {
