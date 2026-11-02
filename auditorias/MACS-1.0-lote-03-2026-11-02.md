@@ -52,3 +52,28 @@ Inspecionar campos e estrutura das quatro fichas sem receita visual e a ficha `b
 - Orchid Society of Great Britain: https://www.osgb.org.uk/orchids/orchid-care-guides/bulbophyllum-orchid-care — casca fina/média, por vezes esfagno/perlita, recipientes rasos e montagem; não comprova a porcentagem específica de *B. rothschildianum*.
 
 **Pendências reais:** evidência específica de espécie/híbrido, adequação de recipiente, comportamento de secagem e homologação de percentuais. **Nenhum arquivo de ficha foi modificado** nesta correção de auditoria.
+
+## Segunda passagem — Rodriguezia venusta × R. lanceolata e Dendrobium tenellum
+
+### Rodriguezia: receitas iguais, recipientes principais diferentes
+Inspeção direta de `formasCultivo`, `substratoVisual` e `rega`:
+
+| Critério | *R. venusta* | *R. lanceolata* |
+|---|---|---|
+| Cultivo principal | Placa/tronco (5 estrelas) | Cachepô de madeira (5 estrelas) |
+| Destino explícito da receita | Alternativa para cachepô ou vaso, **não** enchimento da placa | Cachepô pequeno |
+| Receita para recipiente | 35% pinus + 30% chips de coco + 25% perlita + 10% carvão | 35% pinus + 30% chips de coco + 25% perlita + 10% carvão |
+| Regas | Montagem pode requerer regas diárias no calor; vaso seca parcialmente entre regas | Regas frequentes no crescimento, leve secagem entre irrigações em vaso |
+
+- Fonte específica de *R. venusta*: https://www.orchid.guru/content/orchids/r/rodriguezia/venusta/ — cultivo montado e em cestos, regas frequentes com drenagem, atenção à desidratação em calor. Lista casca, carvão, esfagno e perlita como materiais possíveis; **não valida chips de coco nem percentuais exatos**.
+- Fonte específica de *R. lanceolata*: https://www.orchid.guru/content/orchids/r/rodriguezia/lanceolata/ — casca e perlita, mistura aberta e montagem como alternativa, rega regular; **não valida a receita de 35/30/25/10**.
+- **Conclusão:** coincidência das receitas não demonstra erro porque ambas são epífitas de raízes finas e o contexto do recipiente difere. Entretanto, a identidade percentual **não está cientificamente homologada** e pode refletir uma fórmula-base editorial reutilizada. Preservar por ora; investigar produtores brasileiros específicos para cada espécie, não contar fontes genéricas duas vezes.
+
+### Dendrobium tenellum: identidade confirmada, cautela com amplitude ecológica
+- Kew POWO, espécie aceita: https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A628738-1 — *D. tenellum* é nome aceito; *Onychium tenellum* é sinônimo, nativo de Java e epífita de bioma tropical úmido.
+- IOSPE reproduzido em orchids.org: https://www.orchids.org/grexes/onychium-tenellum — relata ambientes montanos entre cerca de 1.500–2.200 m e hábito predominantemente epífito; isso **não estabelece** por si só os limites térmicos de cultivo.
+- RHS, guia de gênero: https://www.rhs.org.uk/plants/dendrobium/how-to-grow-dendrobium — necessidade de luz, temperatura e repouso varia muito entre espécies e grupos.
+- A ficha já indica cachepô suspenso, raízes ventiladas, retenção intermediária e noites amenas; receita de 40% pinus + 25% coco + 25% perlita + 10% carvão **permanece provisória**, sem percentuais confirmados em ensaio específico.
+- **Alerta metodológico:** não transferir recomendações de *Dendrochilum tenellum* para *Dendrobium tenellum*: gêneros e espécies diferentes.
+
+**Status desta passagem:** 3 fichas confrontadas com fontes externas; nenhuma receita ou classificação modificada; 0 homologações quantitativas. Mantidas as dez receitas visuais identificadas na retificação do detector.
