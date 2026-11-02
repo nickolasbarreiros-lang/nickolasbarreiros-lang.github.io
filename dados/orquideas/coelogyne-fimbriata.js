@@ -41,6 +41,39 @@ export const coelogyneFimbriata = {
     "rega": "Durante crescimento ativo, mantenha o suporte ou substrato levemente úmido, deixando apenas a superfície secar. Em placas, regas mais frequentes podem ser necessárias. No inverno, reduza moderadamente conforme a evaporação, sem impor seca total. O rizoma e as raízes finas não toleram desidratação prolongada nem água estagnada.",
     "suporte": "🥇 Placa larga de cortiça ou madeira dura — acompanha o hábito rastejante e permite expansão lateral.\n🥈 Cestinho raso de madeira — deixa o rizoma ultrapassar as bordas livremente.\n🥉 Vaso largo e baixo — oferece superfície sem excesso de profundidade.\nPriorize largura e durabilidade; o suporte deve permitir crescimento por vários anos.",
     "substrato": "🥇 Chips de coco médios + casca de pinus média + perlita grossa + esfagno picado em pequena proporção.\n🥈 Esfagno de fibra longa bem solto + perlita grossa + casca de pinus média, em recipiente raso e ventilado.\n🥉 Casca de macadâmia média + fibra de coco grossa + perlita + pequena quantidade de esfagno.\n⭐ Alternativa: Pinus médio + chips de coco + perlita + carvão vegetal miúdo.",
+    "formasCultivo": {
+        "perfilVisual": "coelogyne",
+        "destaque": "Placa / tronco",
+        "resumo": "Espécie compacta, de rizoma rastejante e expansão horizontal. Prefere superfície ampla, raízes aeradas e umidade frequente, sem encharcamento nem repouso seco severo.",
+        "metodos": [
+            { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Placa larga e durável de cortiça ou madeira, com espaço para avanço lateral do rizoma e regas frequentes conforme a secagem." },
+            { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": 5, "status": "Muito recomendado", "texto": "Cesto raso e largo, permitindo que novas frentes ultrapassem as bordas sem enterrar o rizoma." },
+            { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": 4, "status": "Alternativa", "texto": "Recipiente largo e baixo, com mistura aberta e controle de umidade para evitar secagem prolongada." },
+            { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 4, "status": "Alternativa condicional", "texto": "Escolher modelo raso, largo e muito perfurado; evitar excesso de profundidade ou material compactado." }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Proposta para cesto ou recipiente raso; placa requer apenas fixação leve",
+        "resumo": "Mistura arejada que conserva umidade entre regas sem restringir a expansão horizontal do rizoma.",
+        "justificativa": "A formulação reúne os quatro componentes da primeira receita já indicada nesta ficha. Os percentuais são uma proposta técnica de apresentação, não uma homologação MACS 1.0.",
+        "receitaTexto": "35% chips de coco médios + 30% casca de pinus média + 25% perlita grossa + 10% esfagno picado e solto.",
+        "perfil": ["Rizoma rastejante", "Expansão horizontal", "Raízes epífitas", "Umidade frequente", "Aeração alta"],
+        "comportamento": [
+            { "nome": "Retenção", "valor": 4, "icone": "💧" },
+            { "nome": "Aeração", "valor": 4, "icone": "💨" },
+            { "nome": "Secagem", "valor": 2, "icone": "⚡" },
+            { "nome": "Compactação", "valor": 2, "icone": "🧱" }
+        ],
+        "itens": [
+            { "asset": "chips-coco", "nome": "Chips de coco médios", "proporcao": "35%", "nota": "umidade equilibrada", "finalidade": "Mantém umidade transitória sem fechar os espaços de ar." },
+            { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "30%", "nota": "estrutura", "finalidade": "Fornece suporte e drenagem para raízes superficiais." },
+            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "25%", "nota": "aeração", "finalidade": "Preserva a porosidade da mistura e ajuda a evitar compactação." },
+            { "asset": "esfagno", "nome": "Esfagno picado e solto", "proporcao": "10%", "nota": "retenção complementar", "finalidade": "Reduz secagem excessiva, sem formar massa densa sobre o rizoma." }
+        ],
+        "alerta": "Não enterre o rizoma, não use recipiente profundo e evite tanto seca prolongada quanto encharcamento. Em placa, dispense mistura volumétrica.",
+        "notaEvidencia": "Estrelas e proporções são estimativas horticulturais, ainda não homologadas pela MACS 1.0; a validação visual permanece pendente."
+    },
     "errosComuns": "Usar vaso profundo; enterrar o rizoma; limitar o avanço horizontal; deixar secar por muitos dias; manter encharcada; cultivar em calor abafado; sombra profunda; dividir em pedaços pequenos; replantar sem novas raízes; usar excesso de esfagno ou substrato compactado.",
     "dica": "Pense em superfície, não em profundidade. Conduza o rizoma sobre placa larga, cesto raso ou bacia baixa e deixe as novas frentes avançarem sem obstáculos. Mantenha o rizoma descoberto e umidade frequente com aeração; esse equilíbrio permite que a planta forme colônias extensas e floresça em várias frentes.",
     revisaoCientificaIAR: {
