@@ -40,6 +40,39 @@ export const encycliaBracteata = {
     rega: "Durante novos brotos e raízes, regue bem e espere o substrato se aproximar da secagem antes da próxima irrigação. Após a maturação dos pseudobulbos, reduza discretamente a frequência, sem impor repouso seco prolongado. O risco principal no litoral quente é manter raízes úmidas e abafadas por muitas horas.",
     suporte: "🥇 Vaso pequeno de barro — excelente evaporação e estabilidade.\n🥈 Cachepô bem vazado — combina aeração e retenção moderada.\n🥉 Placa de cortiça ou madeira — ótima opção em orquidário úmido, com regas mais frequentes.\nUse recipiente apenas ligeiramente maior que o rizoma.",
     substrato: "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.",
+    formasCultivo: {
+        perfilVisual: "encyclia-miniatura-epifita",
+        destaque: "Vaso de Barro",
+        resumo: "Encyclia epífita de pequeno porte e pseudobulbos compactos. Prefere recipiente proporcional ao rizoma, alta luminosidade filtrada, boa ventilação e raízes que sequem parcialmente entre regas.",
+        metodos: [
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno, apenas ligeiramente maior que o rizoma, com drenagem e evaporação rápidas." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Muito recomendado", texto: "Cachepô pequeno e vazado, com mistura grossa e umidade moderada durante o crescimento." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa em ambiente úmido", texto: "Montagem em cortiça ou madeira, com regas mais frequentes e proteção contra secagem prolongada." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e muito perfurado, com substrato aberto e sem água estagnada junto ao rizoma." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Proposta para vaso pequeno ou cachepô bem ventilado",
+        resumo: "Mistura média e porosa, com boa drenagem e secagem perceptível entre regas.",
+        justificativa: "Os quatro componentes seguem a primeira mistura qualitativa já registrada na ficha. Percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        perfil: ["Miniatura epífita", "Pseudobulbos unifoliados", "Alta luminosidade filtrada", "Raízes aeradas", "Secagem parcial entre regas"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece apoio às raízes sem compactar o recipiente pequeno." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "drenagem", finalidade: "Mantém espaços de ar e secagem regular." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Favorece drenagem e reduz retenção excessiva." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "estrutura", finalidade: "Complementa a porosidade da mistura." }
+        ],
+        alerta: "Não usar vaso grande, enterrar o rizoma nem manter raízes constantemente molhadas. Evitar sombra excessiva e repouso completamente seco por meses.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Sombra excessiva; vaso grande; substrato fino; raízes constantemente molhadas; enterrar o rizoma; replantar fora da emissão de raízes novas; excesso de fertilizante; interpretar baixa altitude como tolerância a abafamento; impor repouso totalmente seco por meses.",
     dica: "A espécie é pequena, mas quer bastante luz. No litoral quente, use vaso pequeno, mistura grossa e ventilação permanente. Regue com generosidade enquanto houver crescimento ativo e deixe o ar retornar rapidamente às raízes após cada rega.",
     revisaoCientificaIAR: {
