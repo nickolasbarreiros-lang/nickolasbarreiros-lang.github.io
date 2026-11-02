@@ -41,6 +41,38 @@ export const stanhopeaHernandezii = {
     "rega": "Durante a brotação, mantenha o substrato constantemente levemente úmido, nunca seco por longos períodos. Após a maturação dos pseudobulbos, reduza discretamente a frequência. Regue preferencialmente pela manhã e evite manter a cesta encharcada à noite.",
     "suporte": "🥇 Cesta vazada de madeira — suporte ideal e praticamente obrigatório.\n🥈 Cachepô suspenso com fundo aberto — excelente alternativa.\n🥉 Cesto aramado/plástico revestido com fibra solta — funcional se totalmente vazado.\nO fundo deve permanecer livre de ripas fechadas, telas densas ou obstáculos.",
     "substrato": "🥇 Chips de coco grossos + casca de pinus média + perlita grossa + esfagno solto, em cesto vazado.\n🥈 Pinus médio + fibra de coco grossa + perlita grossa + carvão vegetal, mantendo umidade sem bloquear a haste descendente.\n🥉 Cesto com chips de coco + macadâmia + perlita grossa e uma fina camada de esfagno no topo, nunca compactada.\n⭐ Alternativa: Casca de macadâmia média + chips de coco + perlita + esfagno em baixa proporção.",
+    formasCultivo: {
+        perfilVisual: "stanhopea-hernandezii-hastes-descendentes-cesto-aberto",
+        destaque: "Cachepô de Madeira",
+        resumo: "Espécie de porte médio a grande com hastes florais descendentes. Cesta suspensa, muito vazada e com fundo totalmente livre permite a saída das flores.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cesta suspensa com ripas bem espaçadas e fundo desobstruído, mantendo a touceira centralizada." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa condicionada", texto: "Somente cesto plástico com aberturas amplas no fundo e laterais, sem bloquear hastes descendentes." },
+            { nome: "Raízes soltas", asset: "raizes-soltas", estrelas: 3, status: "Uso condicional", texto: "Cesto aramado aberto com fibra solta em camada fina, sem telas densas ou compactação." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura para cesta suspensa com fundo livre",
+        resumo: "Partículas grossas com umidade moderada e excelente circulação de ar, sem compactar o caminho das hastes florais.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "40% chips de coco grossos + 30% casca de pinus média + 20% perlita grossa + 10% esfagno de fibra longa solto.",
+        perfil: ["Espécie epífita", "Hastes descendentes", "Cesto suspenso", "Umidade regular", "Fundo desobstruído"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "chips-coco", nome: "Chips de coco grossos", proporcao: "40%", nota: "estrutura e umidade", finalidade: "Conserva umidade moderada sem formar massa densa." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "estrutura", finalidade: "Sustenta as raízes e preserva espaços de ar." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação." },
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "10%", nota: "umidade", finalidade: "Acrescenta reserva hídrica discreta sem obstruir o fundo." }
+        ],
+        alerta: "Evitar vaso fechado, fundo bloqueado, secagem completa na brotação e substrato compacto. Não mover, girar ou replantar a cesta durante a emissão das hastes florais.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "Vaso fechado; fundo bloqueado; seca total na brotação; mover ou girar a cesta com haste emergente; replantar durante floração; molhar flores à noite; sombra profunda; substrato velho e compacto.",
     "dica": "Use cesta suspensa com o fundo totalmente livre. Assim que a haste floral aparecer por baixo, não gire, não mude de posição e não replante a planta. A estabilidade física durante essa fase é tão importante quanto água e luz.",
     revisaoCientificaIAR: {
