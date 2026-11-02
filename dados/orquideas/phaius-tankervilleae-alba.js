@@ -41,6 +41,39 @@ export const phaiusTankervilleaeAlba = {
     "rega": "Durante o crescimento, mantenha o substrato uniformemente úmido, regando novamente antes da secagem completa. A planta tolera mais umidade que muitas epífitas, mas não água parada em meio compacto. No período mais frio ou após maturação dos pseudobulbos, apenas aumente o intervalo conforme a evaporação diminuir.",
     "suporte": "🥇 Vaso plástico largo e profundo, muito perfurado — melhor equilíbrio entre umidade e espaço radicular.\n🥈 Vaso de barro grande — ótimo para estabilidade e aeração.\n🥉 Canteiro elevado e sombreado — viável em clima quente, desde que o solo seja leve e drenante.\nPlaneje espaço para uma touceira de grande porte.",
     "substrato": "🥇 Fibra de coco + chips de coco pequenos + casca de arroz carbonizada + perlita, mantendo umidade regular sem compactação.\n🥈 Pinus fino + fibra de coco + perlita + pequena fração de vermiculita para aumentar retenção sem encharcar.\n🥉 Chips de coco + perlita grossa fina + casca de arroz carbonizada + esfagno picado em pequena quantidade.\n⭐ Alternativa: Fibra de coco + pinus fino + perlita + carvão vegetal miúdo; vaso profundo, mas com drenagem livre.",
+    formasCultivo: {
+        perfilVisual: "calanthe-terrestre-grande-porte-umidade-regular",
+        destaque: "Vaso plástico",
+        resumo: "Orquídea terrestre de grande porte, folhas plissadas e hastes florais altas. Precisa de vaso amplo e profundo, drenagem livre e umidade regular durante o crescimento.",
+        metodos: [
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso largo, profundo e muito perfurado, com espaço para pseudobulbos e raízes e umidade estável." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Recipiente grande e estável, com boa aeração e regas ajustadas à secagem." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Somente modelo grande e profundo, com substrato mais retentivo e regas frequentes." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 2, status: "Menos indicado", texto: "Apenas estrutura grande e estável com forração adequada; pode secar rápido demais para uma terrestre de grande porte." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura úmida e aerada para vaso grande e profundo",
+        resumo: "Substrato de retenção moderada a alta, porém drenante, que sustenta a expansão foliar e radicular sem compactar.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "30% fibra de coco + 30% chips de coco pequenos + 20% casca de arroz carbonizada + 20% perlita grossa.",
+        perfil: ["Terrestre de grande porte", "Folhas plissadas", "Pseudobulbos robustos", "Umidade constante", "Substrato aerado"],
+        comportamento: [
+            { nome: "Retenção", valor: 4, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 2, icone: "⚡" },
+            { nome: "Compactação", valor: 2, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "fibra-coco", nome: "Fibra de coco", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a manter umidade regular na zona radicular." },
+            { asset: "chips-coco", nome: "Chips de coco pequenos", proporcao: "30%", nota: "estrutura", finalidade: "Retêm água e preservam espaços de ar." },
+            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "20%", nota: "drenagem", finalidade: "Reduz compactação e melhora porosidade." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Mantém drenagem livre mesmo em recipiente profundo." }
+        ],
+        alerta: "Evitar vaso pequeno, substrato compacto, secagem completa durante a expansão das folhas, água parada, sol forte e enterro profundo da base dos brotos.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "Vaso pequeno; substrato pobre ou compactado; deixar secar durante expansão foliar; água parada; sombra excessiva; sol forte; excesso de sais; enterrar profundamente a base dos brotos; cortar folhas ainda verdes; impor repouso seco rígido.",
     "dica": "Dê espaço e alimento enquanto a planta está crescendo. O tamanho da haste floral é construído meses antes, quando folhas e pseudobulbos estão se formando. Um vaso amplo com mistura rica, úmida e aerada costuma produzir plantas muito mais robustas do que recipientes pequenos e secos.",
     revisaoCientificaIAR: {
