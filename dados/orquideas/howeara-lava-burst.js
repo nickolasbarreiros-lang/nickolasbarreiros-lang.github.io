@@ -30,7 +30,7 @@ export const howearaLavaBurst = {
     adubacao: "🌿 Orgânica: bokashi em dose mínima e sempre afastado do coleto.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 7–15 dias enquanto houver raízes e brotos ativos.\n🧪 Liberação lenta: poucos grânulos apenas em vaso muito drenante.\n💦 Lavagem: uma vez por mês, passe água limpa em abundância pelo substrato para reduzir sais acumulados.",
     rega: "Regue quando a superfície começar a secar, mantendo umidade leve e regular sem deixar o miolo do vaso saturado. Os pseudobulbos pequenos guardam pouca água e não devem enrugar repetidamente. No inverno ou em períodos chuvosos, reduza apenas de acordo com a evaporação real.",
     suporte: "🥇 Vaso plástico pequeno e muito perfurado.\n🥈 Cachepô pequeno e bem ventilado.\n🥉 Vaso de barro pequeno em ambientes onde a secagem não seja rápida demais.",
-    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.\n🥉 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n⭐ Alternativa: Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+    substrato: ["🥇 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
     formasCultivo: {
         perfilVisual: "hibrido-miniatura-raizes-finas",
         destaque: "Vaso plástico vasado",
