@@ -30,7 +30,7 @@ export const isochilusLinearis = {
     adubacao: "🌿 Orgânica: bokashi em dose mínima e sempre afastado das raízes.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante o crescimento ativo.\n🧪 Liberação lenta: apenas poucos grânulos em recipiente pequeno e drenante.\n💦 Lavagem: mensalmente, faça uma rega abundante com água limpa para remover sais do substrato.",
     rega: "Mantenha umidade regular e volte a regar antes que a touceira permaneça seca por muito tempo. Ao mesmo tempo, permita a entrada de ar no substrato entre as regas. AOS recomenda que espécies do gênero não sequem completamente. No inverno, apenas acompanhe a menor evaporação e reduza proporcionalmente a frequência.",
     suporte: "🥇 Cachepô de madeira bem vazado.\n🥈 Vaso de barro pequeno e raso.\n🥉 Vaso plástico pequeno e bem perfurado.\n🏅 Placa de cortiça em ambiente de alta umidade, com regas frequentes.",
-    substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Casca de pinus fina + perlita + perlita grossa fina + pequena fração de esfagno solto.\n🥉 Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.\n⭐ Alternativa: Esfagno de fibra longa usado muito solto + perlita grossa fina; evitar compactação junto ao rizoma.",
+    substrato: ["🥇 Chips de coco pequenos + perlita de granulometria adequada a miniaturas + casca de pinus fina.","🥈 Esfagno de fibra longa solto + perlita de granulometria adequada a miniaturas."],
     formasCultivo: {
         perfilVisual: "epifita-rupicola-caules-finos-sem-pseudobulbos",
         destaque: "Cachepô de Madeira",
