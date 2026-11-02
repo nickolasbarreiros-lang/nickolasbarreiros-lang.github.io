@@ -40,6 +40,38 @@ export const dendrobiumAggregatum = {
     "rega": "Com brotos e raízes ativos, regue generosamente e deixe o suporte secar parcialmente entre irrigações. Quando os pseudobulbos estiverem maduros e o crescimento parar, reduza gradualmente. No repouso, forneça apenas água suficiente para evitar enrugamento excessivo e prolongado. Chuva frequente fora de época pode reduzir a indução floral e aumentar risco de podridão.",
     "suporte": "🥇 Placa de madeira dura ou cortiça — excelente secagem e exposição dos cachos.\n🥈 Cesto pequeno de madeira — acomoda touceiras sem prender inflorescências.\n🥉 Vaso de barro raso e muito drenante.\nEvite recipientes fundos e muito retentivos, principalmente em regiões úmidas.",
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Pinus grosso + brita fina + carvão vegetal; evitar esfagno no miolo do vaso.\n🥉 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n⭐ Alternativa: Casca de macadâmia grossa + perlita grossa + carvão vegetal, com secagem muito rápida.",
+    "formasCultivo": {
+        "perfilVisual": "dendrobium-epifita-sazonal",
+        "destaque": "Placa / tronco",
+        "resumo": "Dendrobium lindleyi, historicamente chamado D. aggregatum, forma touceiras compactas e cachos pendentes. Beneficia-se de montagem arejada, muita luz adequada e repouso mais seco depois que os pseudobulbos amadurecem.",
+        "metodos": [
+            { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Montagem em madeira dura ou cortiça, sem material retentivo no centro das raízes; proporciona secagem rápida e liberdade para os cachos pendentes." },
+            { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": 5, "status": "Muito recomendado", "texto": "Cesto pequeno e muito vazado, sem obstruir as inflorescências; controlar a rega durante o repouso." },
+            { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": 4, "status": "Alternativa", "texto": "Vaso raso e bem drenante, com partículas grossas e sem esfagno compacto no centro." },
+            { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 3, "status": "Alternativa condicional", "texto": "Usar apenas modelo pequeno e muito aberto, evitando retenção prolongada durante o período de repouso." }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Montagem principal sem mistura volumétrica; receita para cesto ou vaso",
+        "resumo": "Na montagem, raízes expostas sobre suporte firme. Para recipiente, mistura grossa e de secagem rápida, sem esfagno no miolo.",
+        "justificativa": "A primeira recomendação original é montagem sem substrato. A receita quantitativa abaixo usa os três componentes da segunda alternativa já presente na ficha; não é homologação MACS 1.0.",
+        "receitaTexto": "45% casca de pinus grossa + 30% brita fina + 25% carvão vegetal.",
+        "perfil": ["Raízes epífitas", "Touceira compacta", "Cachos pendentes", "Secagem rápida", "Repouso sazonal mais seco"],
+        "comportamento": [
+            { "nome": "Retenção", "valor": 1, "icone": "💧" },
+            { "nome": "Aeração", "valor": 5, "icone": "💨" },
+            { "nome": "Secagem", "valor": 5, "icone": "⚡" },
+            { "nome": "Compactação", "valor": 1, "icone": "🧱" }
+        ],
+        "itens": [
+            { "asset": "casca-pinus", "nome": "Casca de pinus grossa", "proporcao": "45%", "nota": "estrutura", "finalidade": "Mantém grandes espaços de ar e suporte às raízes." },
+            { "asset": "brita-fina", "nome": "Brita fina", "proporcao": "30%", "nota": "drenagem", "finalidade": "Reduz a retenção de água e contribui para estabilidade do recipiente." },
+            { "asset": "carvao", "nome": "Carvão vegetal", "proporcao": "25%", "nota": "aeração", "finalidade": "Acrescenta partículas firmes e drenantes." }
+        ],
+        "alerta": "Só iniciar a redução das regas depois de os pseudobulbos amadurecerem. Evitar chuva contínua e adubação nitrogenada intensa durante o repouso; não desidratar severamente a planta.",
+        "notaEvidencia": "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual de assets ainda pendente."
+    },
     "errosComuns": "Regar e adubar da mesma forma o ano inteiro; iniciar o repouso antes de o pseudobulbo amadurecer; sombra excessiva; esfagno compacto; tentar induzir floração apenas com adubo rico em fósforo; cortar pseudobulbos antigos ainda firmes; dividir touceiras pequenas; deixar chuva constante atingir a planta durante o repouso.",
     "dica": "O segredo da floração está na transição, não na seca extrema. Deixe o pseudobulbo completar seu crescimento e endurecer; depois aumente a luz, reduza bastante a água e suspenda o nitrogênio. Um leve enrugamento é normal, mas pseudobulbos profundamente desidratados indicam que a redução foi longe demais.",
     revisaoCientificaIAR: {
