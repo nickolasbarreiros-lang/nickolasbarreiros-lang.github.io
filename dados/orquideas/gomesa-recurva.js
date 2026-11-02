@@ -31,6 +31,39 @@ export const gomesaRecurva = {
     rega: "Durante a brotação, regue quando o substrato estiver próximo da secagem, mantendo umidade regular sem saturação. Após a maturação dos pseudobulbos, aumente gradualmente o intervalo entre as irrigações, sem permitir enrugamento intenso. No final do inverno, ajuste a água à menor atividade vegetativa, mas não imponha dormência seca.",
     suporte: "🥇 Placa de madeira dura ou cortiça, valorizando o hábito pendente.\n🥈 Cachepô pequeno de madeira.\n🥉 Vaso de barro baixo e perfurado, instalado em posição elevada.",
     substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.",
+    formasCultivo: {
+        perfilVisual: "gomesa-epifita-hastes-arqueadas",
+        destaque: "Placa / tronco",
+        resumo: "Epífita de hastes florais arqueadas que se beneficia de posição suspensa, luz filtrada abundante e raízes ventiladas. Manter umidade regular sem encharcamento nem seca severa.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Placa de madeira dura ou cortiça suspensa, deixando espaço livre para a queda das inflorescências e regando conforme a secagem." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Muito recomendado", texto: "Cachepô pequeno e vazado, suspenso para permitir o arqueamento das hastes." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso baixo, perfurado e elevado, com mistura arejada e volume proporcional às raízes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno, baixo e muito perfurado, instalado em posição elevada para não comprimir as hastes." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem principal em placa; mistura alternativa para cachepô ou vaso baixo",
+        resumo: "Mistura média e porosa, com retenção moderada e boa circulação de ar, sem esfagno em excesso.",
+        justificativa: "A receita usa os quatro materiais da primeira mistura qualitativa já registrada na ficha. Percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        receitaTexto: "40% casca de pinus média + 30% chips de coco + 20% perlita grossa + 10% carvão vegetal.",
+        perfil: ["Epífita", "Hastes arqueadas", "Posição suspensa", "Umidade regular", "Raízes ventiladas"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 2, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "40%", nota: "estrutura", finalidade: "Mantém espaços de ar e apoio para raízes." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade moderada", finalidade: "Ajuda a conservar umidade sem formar massa compacta." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Facilita drenagem e reduz compactação." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "estrutura", finalidade: "Complementa a porosidade do substrato." }
+        ],
+        alerta: "Não cultivar em sombra excessiva ou ambiente abafado, nem usar vaso grande ou substrato envelhecido. Evitar seca severa e deixar espaço para as hastes arqueadas.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Cultivar em sombra excessiva; manter calor noturno abafado e sem vento; usar vaso grande; deixar o substrato velho ou compactado; utilizar esfagno em excesso no clima quente e úmido; impor seca severa; retirar hastes antes de secarem completamente; instalar a planta sem espaço para o desenvolvimento das inflorescências arqueadas.",
     dica: "Cultive em posição elevada ou suspensa para deixar as hastes de 10–35 cm arquearem livremente. No litoral, aproveite o resfriamento natural do outono em vez de tentar impor frio: boa ventilação, luz adequada e pseudobulbos maduros são os gatilhos mais coerentes para a floração.",
     revisaoCientificaIAR: {
