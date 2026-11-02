@@ -35,6 +35,39 @@ export const epicattleyaReneMarques = {
     rega: "Regue generosamente durante a emissão de brotos e raízes, permitindo que o substrato se aproxime da secagem antes da próxima irrigação. Reduza a frequência no inverno ou quando não houver crescimento ativo. Evite água acumulada no miolo das folhas e nas inflorescências em formação.",
     suporte: "🥇 Vaso de barro firme e bem drenado.\n🥈 Vaso plástico com furação lateral abundante.\n🥉 Cachepô de madeira robusto.\n🌿 Placa de madeira apenas para divisões jovens e vigorosas.",
     substrato: "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.",
+    formasCultivo: {
+        perfilVisual: "hibrido-intergenerico-alto-vigoroso",
+        destaque: "Vaso de Barro",
+        resumo: "Híbrido intergenérico de caules altos e hastes terminais multiflorais. Precisa de muita claridade, recipiente firme, drenagem rápida e espaço vertical; tutoramento pode ser necessário.",
+        metodos: [
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso firme e proporcional à touceira, com drenagem eficiente e estabilidade para os caules altos." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso com furação lateral abundante, bem estabilizado para evitar tombamento." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô robusto e bem vazado, capaz de sustentar o porte vertical do híbrido." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 2, status: "Apenas divisões jovens", texto: "Montagem restrita a divisões jovens e vigorosas; plantas adultas grandes exigem suporte mais estável." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura para vaso firme e bem drenado",
+        resumo: "Partículas médias e grossas que sustentam a planta vigorosa sem reter água continuamente.",
+        justificativa: "Os quatro materiais seguem a primeira mistura qualitativa já registrada na ficha. As proporções são estimativas horticulturais, não homologadas pela MACS 1.0.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        perfil: ["Híbrido intergenérico", "Caules altos", "Hastes terminais", "Alta luminosidade", "Raízes aeradas"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta raízes vigorosas mantendo espaços de ar." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "drenagem", finalidade: "Favorece porosidade e secagem regular." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Ajuda a evitar compactação e excesso de água." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "estrutura", finalidade: "Complementa a drenagem e a estabilidade da mistura." }
+        ],
+        alerta: "Não enterrar o rizoma, usar vaso desproporcional nem manter substrato encharcado. Garantir espaço vertical e tutoramento quando necessário; evitar sombra excessiva.",
+        notaEvidencia: "Percentuais e estrelas são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Enterrar o rizoma; cultivar sob sombra excessiva; usar vasos grandes demais; manter o substrato continuamente encharcado; exagerar no nitrogênio após a maturação; tentar compensar pouca luz com adubos concentrados de fósforo ou potássio; replantar fora da emissão de raízes novas; deixar hastes altas sem tutoramento quando necessário.",
     dica: "Dê espaço vertical e luz abundante: esse híbrido pode ultrapassar 1 m e florescer no topo dos caules. O grex é geneticamente 50% E. pseudepidendrum, 25% C. loddigesii e 25% C. intermedia; por isso, vigor, forma e intensidade de cor podem variar entre clones, e não devem ser tratados como características fixas.",
     revisaoCientificaIAR: {
