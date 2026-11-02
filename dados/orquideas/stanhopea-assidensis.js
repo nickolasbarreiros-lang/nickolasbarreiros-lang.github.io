@@ -31,6 +31,38 @@ export const stanhopeaAssidensis = {
     rega: "Regue de forma regular e abundante durante a formação de brotos, raízes e pseudobulbos. O substrato deve permanecer levemente úmido, mas nunca encharcado ou compactado. Evite deixá-lo completamente seco por vários dias. No inverno, reduza a frequência, mantendo umidade suficiente para impedir o enrugamento excessivo dos pseudobulbos.",
     suporte: "🥇 Cesta suspensa de madeira com ripas largas.\n🥈 Cesto de plástico amplamente perfurado.\n🥉 Cesto aramado revestido apenas com uma camada fina de fibra de coco ou esfagno.\nNunca utilize vaso fechado ou prato sob o recipiente, pois a haste floral precisa sair pela parte inferior ou pelas laterais.",
     substrato: "🥇 Chips de coco grossos + casca de pinus média + perlita grossa + esfagno solto, em cesto vazado.\n🥈 Casca de macadâmia média + chips de coco + perlita + esfagno em baixa proporção.\n🥉 Pinus médio + fibra de coco grossa + perlita grossa + carvão vegetal, mantendo umidade sem bloquear a haste descendente.\n⭐ Alternativa: Cesto com chips de coco + macadâmia + perlita grossa e uma fina camada de esfagno no topo, nunca compactada.",
+    formasCultivo: {
+        perfilVisual: "stanhopea-hibrido-primario-hastes-descendentes",
+        destaque: "Cachepô de Madeira",
+        resumo: "Híbrido de Stanhopea com inflorescências descendentes. Cesto suspenso, com fundo realmente aberto, permite a passagem das hastes florais e ventilação das raízes.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cesta suspensa com ripas espaçadas e fundo livre; conferir a passagem das hastes por baixo." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa condicionada", texto: "Somente cesto plástico amplamente perfurado, inclusive no fundo, sem bloquear as hastes descendentes." },
+            { nome: "Raízes soltas", asset: "raizes-soltas", estrelas: 3, status: "Uso condicional", texto: "Cesto aramado muito aberto, com camada fina e solta de fibra de coco ou esfagno para reter umidade." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura leve para cesto suspenso com fundo aberto",
+        resumo: "Partículas grossas mantêm umidade moderada e circulação de ar, sem compactar a saída das hastes florais pelo fundo.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa já registrada na ficha. Os percentuais são estimativas horticulturais e não foram homologados pela MACS 1.0.",
+        receitaTexto: "40% chips de coco grossos + 30% casca de pinus média + 20% perlita grossa + 10% esfagno de fibra longa solto.",
+        perfil: ["Híbrido primário", "Hastes descendentes", "Cesto suspenso", "Umidade regular", "Fundo livre"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "chips-coco", nome: "Chips de coco grossos", proporcao: "40%", nota: "estrutura e umidade", finalidade: "Mantém umidade com espaços abertos entre partículas." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "estrutura", finalidade: "Sustenta raízes sem bloquear o fundo do cesto." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação." },
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "10%", nota: "umidade", finalidade: "Oferece pequena reserva hídrica sem compactação." }
+        ],
+        alerta: "Não usar vaso fechado, tela densa nem fundo obstruído. Evitar esfagno compactado, secagem completa no crescimento, sol forte e replantio durante a formação de hastes florais.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Usar vaso fechado; bloquear o fundo da cesta; compactar o esfagno; deixar o substrato secar completamente durante o crescimento; manter a planta em ambiente abafado; expor ao sol forte; regar em excesso no inverno; replantar durante a formação de hastes florais.",
     dica: "O recipiente é o fator decisivo: mantenha a planta em cesto suspenso e confira regularmente a parte inferior. Uma haste floral pode se perder se encontrar madeira, tela apertada ou substrato compactado no caminho.",
     revisaoCientificaIAR: {
