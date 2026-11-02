@@ -189,3 +189,18 @@ Verificação dos blocos `substratoVisual` no GitHub:
 - **Sophronitis wittigiana:** 45% pinus + 25% carvão + 20% brita + 10% esfagno; contexto «Para cultivo em recipiente» distingue da placa/tronco recomendada como cultivo principal. Alerta foi corrigido de «No litoral quente» para «Em clima quente», em respeito à padronização editorial sem referências geográficas específicas, commit `e41fe05866c1f3f93acd7663794590d875ec9bf4`.
 
 **Resultado:** nenhum erro aritmético ou incompatibilidade categórica comprovada nessas três receitas; não modificar percentuais sem base comparativa. A avaliação de secagem em vaso real e a homologação MACS seguem pendentes.
+
+## Nova verificação de fonte primária — Dendrobium polysema e Sophronitis wittigiana
+
+**Dendrobium polysema: identificação do grupo confirmada pela AOS.**
+- A American Orchid Society lista expressamente `D. polysema` na seção **Latouria** e marca a espécie com **temperatura intermediária** (duplo asterisco na legenda), e não quente. Fonte: https://www.aos.org/explore-orchids/dendrobium-alliance/den-sec-latouria
+- O guia geral AOS explica que os tipos Latouria preferem luz filtrada, podem receber adubação leve ao longo do ano e **não devem receber automaticamente o repouso hídrico severo dos tipos nobile**: https://www.aos.org/orchid-care/care-sheets/dendrobium-general-culture-sheet
+- O Orchid Council of New Zealand distingue explicitamente Latouria entre os dendróbios sem repouso seco de inverno e recomenda manter raízes úmidas sem encharcamento: https://www.orchidcouncil.org.nz/cultural-notes/cultural-notes-july-august-september/
+- **Decisão:** a ficha atual já declara «Clima fresco a ameno» e «Sem repouso seco severo», e sua receita de 45% pinus/20% carvão/20% macadâmia/15% esfagno é uma proposta funcional plausível para cesto ventilado. **Não há prova dos percentuais nem garantia de floração em noites quentes.** Classificação de evidência: grupo confirmado + manejo do grupo; não receita percentual específica.
+
+**Sophronitis wittigiana: fonte de produtor realmente específica.**
+- Orquidário Oriental publica para **a espécie**, não para um híbrido, opções de esfagno, mistura de fibra de coco/pinus/carvão ou placa de madeira, em plástico/barro/caixeta, com intervalos de secagem: https://www.orquidariooriental.com.br/produto/isophronitis-wittigianai%2C1667/
+- A ficha do Orquidário Digital recomenda placa/tronco como principal e **45% pinus + 25% carvão + 20% brita + 10% esfagno para recipiente**. A primeira opção coincide qualitativamente com a montagem publicada; a receita do recipiente diverge por conter brita e não fibra de coco.
+- **Decisão:** a referência comercial não apresenta proporções; portanto, **não autoriza eliminar os 20% de brita ou homologar os 10% de esfagno**. Registrar a diferença como componente alternativo a verificar, sem alteração automática.
+
+**Controle metodológico:** estas fontes acrescentam evidência botânica e de manejo, mas **não completam a meta de 25 produtores brasileiros específicos por espécie**. Não contam artigos de gênero como produtores individuais, nem fontes de híbridos como evidência direta da espécie. Permanecem 0 homologações quantitativas no lote 02.
