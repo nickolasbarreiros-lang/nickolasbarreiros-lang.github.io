@@ -40,6 +40,38 @@ export const cattleyaNobiliorVarAmaliae = {
     rega: "Durante crescimento ativo e emissão de raízes, regue abundantemente e permita secagem rápida antes da próxima irrigação. Depois que os pseudobulbos amadurecerem e a estação seca se estabelecer, aumente bastante o intervalo entre as regas. No repouso, forneça apenas a água necessária para impedir desidratação severa. Não espere obrigatoriamente uma ponta verde para cada irrigação, mas use a atividade radicular, o turgor dos pseudobulbos, a temperatura e o suporte em conjunto para decidir. Em Litoral de clima quente, proteger da chuva persistente no inverno é especialmente importante.",
     suporte: "🥇 Placa de madeira dura ou cortiça — máxima aeração e rápida secagem.\n🥈 Cesto de madeira pequeno e aberto — excelente para raízes livres e controle da estação seca.\n🥉 Vaso de barro pequeno, raso e muito perfurado — opção segura para envasamento.\nMantenha o rizoma exposto e evite recipientes profundos ou grandes.",
     substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n🥉 Casca de macadâmia grossa + perlita grossa + carvão vegetal, com secagem muito rápida.\n⭐ Alternativa: Pinus grosso + brita fina + carvão vegetal; evitar esfagno no miolo do vaso.",
+    formasCultivo: {
+        perfilVisual: "cattleya",
+        destaque: "Placa / tronco",
+        resumo: "Montagem epífita aberta, com raízes expostas e secagem rápida. Durante o crescimento ativo requer regas suficientes; depois da maturação dos pseudobulbos, o manejo deve respeitar a estação mais seca. A preferência pelo suporte é uma recomendação técnica, não uma comparação experimental.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado", texto: "Favorece aeração e secagem rápida, desde que a planta receba água suficiente durante a emissão de raízes e o crescimento ativo. No repouso, reduzir as regas sem permitir desidratação extrema." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Alternativa muito indicada", texto: "Suporte aberto e firme, com raízes ventiladas e possibilidade de uma pequena mistura grossa. Evite acúmulo de umidade no centro durante a fase seca." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Alternativa", texto: "Permite fixação epífita natural, mas reduz o controle das chuvas e da sazonalidade hídrica. Prefira local luminoso e ventilado." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Escolha vaso pequeno, raso e bem perfurado, com mistura muito grossa. Mantenha rizoma exposto e secagem rápida, especialmente na fase de repouso." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura alternativa para cachepô de madeira ou recipiente muito ventilado",
+        resumo: "O cultivo principal é em placa, sem substrato volumétrico. Para recipientes, utilizar mistura grossa e aberta que seque rapidamente.",
+        justificativa: "A espécie é epífita, com crescimento sazonal e raízes que precisam de boa oxigenação. O MACS 1.0 existente indica montagem aberta como cultivo preferencial e propõe esta mistura apenas para recipientes. A formulação não foi testada experimentalmente em plantas adultas e deve ser ajustada à secagem observada.",
+        receitaTexto: "50% casca de pinus grossa + 30% carvão vegetal granulado + 20% brita fina. Não compactar nem enterrar o rizoma.",
+        perfil: ["Raízes epífitas", "Aeração muito alta", "Secagem rápida", "Repouso sazonal mais seco", "Granulometria grossa"],
+        comportamento: [
+            { nome: "Retenção", valor: 1, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 5, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "50%", nota: "estrutura e suporte", finalidade: "Fornece sustentação com espaços de ar; substituir antes de se decompor e compactar." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal granulado", proporcao: "30%", nota: "drenagem e estabilidade", finalidade: "Mantém espaços entre partículas e favorece drenagem; lavar o substrato periodicamente para reduzir acúmulo de sais." },
+            { asset: "brita-fina", nome: "Brita fina", proporcao: "20%", nota: "fração mineral drenante", finalidade: "Acrescenta peso e estrutura sem aumentar a retenção hídrica; utilizar limpa e sem pó." }
+        ],
+        alerta: "A montagem em placa dispensa mistura volumétrica. Em recipiente, evitar esfagno no miolo, excesso de chuva durante o repouso e vasos grandes ou profundos.",
+        notaEvidencia: "Mistura proposta no parecer MACS 1.0 existente, sem ensaio controlado em adultas. As estrelas de cultivo são uma apresentação aproximada das notas heurísticas MACS, não validação experimental."
+    },
     errosComuns: "Pouca luz; manter umidade constante no inverno; secar demais durante crescimento ativo; vaso grande ou substrato fino; pouca ventilação; enterrar o rizoma; replantar fora da emissão de raízes; dividir plantas pequenas; adubar durante repouso forte; interpretar repouso seco como abandono completo até enrugamento severo; deixar a planta receber chuvas contínuas no inverno litorâneo.",
     dica: "A chave é reproduzir a sazonalidade, e não simplesmente dar pouca água. Enquanto houver raízes e pseudobulbos novos, regue com abundância e adube levemente, sempre permitindo secagem rápida. Após a maturação, aumente bastante os intervalos e suspenda a adubação. No repouso, mantenha a planta muito mais seca, mas intervenha antes de ocorrer desidratação severa. Em Litoral de clima quente, o maior segredo é abrigo contra chuva persistente de inverno sem sacrificar a ventilação.",
     revisaoCientificaIAR: {
