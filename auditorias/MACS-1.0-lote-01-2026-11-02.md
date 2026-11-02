@@ -178,3 +178,27 @@ Consultas direcionadas realizadas:
 - Lankesteriana, 2005: https://www.lankesteriana.org/lankesteriana/Lankesteriana%20vol.%205.%202005/Lankesteriana%205%281%29/Numerocompleto/Lankesteriana%205%281%29.pdf — revisão nomenclatural confirma *Oerstedella centradenia* como sinônimo de *E. centropetalum*. A pesquisa por sinônimos é válida; não inferir exigências de substrato a partir de taxonomia.
 
 **Decisão:** manter cinco fichas prioritárias e cinco condicionais, zero homologações definitivas e zero alterações de receitas. O relatório distingue a fração de drenagem no fundo do vaso da composição volumétrica do substrato.
+
+## Adendo — confronto de evidências contraditórias, sinônimo Oerstedella e hábito de Doritis (02/11/2026)
+
+### Epidendrum centropetalum (= Oerstedella centradenia): divergência de manejo, não erro comprovado
+- Monaco Nature Encyclopedia (ficha da espécie): https://www.monaconatureencyclopedia.com/epidendrum-centropetalum/?lang=en — prefere montagem, raízes secando entre regas; em vaso recomenda casca média/grossa com carvão, altamente aerada.
+- IOSPE (ficha da espécie): https://www.orchidspecies.com/oerscentradenia.htm — habitat montano úmido, 1200–1500 m, umidade elevada e água ao longo do ano, reduzindo quando madura.
+- Associação Trentino Orchidee (relato de cultivo da espécie): https://associazione-trentino-orchidee.weebly.com/archivio-uno-sguardo-su/post-title-click-and-type-to-edit — cultivo em cortiça, nebulizações frequentes e alta umidade, sem repouso rígido.
+- Tropical Orchids Portugal (mesmo produtor, duas páginas): https://tropicalorchidsportugal.com/oerstedella-centradenia/?lang=en e https://tropicalorchidsportugal.com/oerstedella-centradenia-cachepot/ — planta comercializada em vaso/cachepô com esfagno; isso descreve meio de venda, não ensaio de cultivo prolongado; **contar como um único produtor, não dois**, e não brasileiro.
+- AOS sobre montagem: https://www.aos.org/orchid-care/orchid-care-basics/mounting — esfagno frouxo ou compacto altera retenção e velocidade de secagem; montagem não é equivalente a vaso.
+- **Interpretação:** alta umidade do ar e regas frequentes em placa podem coexistir com raízes arejadas que secam entre molhamentos. Portanto não concluir que “umidade elevada” exige meio permanentemente encharcado.
+- Receita atual (45% pinus fino, 35% perlita, 20% esfagno): requer verificação física em vaso (granulometria, secagem, compactação). **Não homologar nem substituir por receita numérica sem ensaio.**
+
+### Phalaenopsis pulcherrima (= Doritis pulcherrima): distinção crucial entre drenagem basal e volume da mistura
+- Orquidário Roberto Martins: https://orquidariorobertomartins.com.br/phalaenopsis-doritis-pulcherrima/p — litófita em regiões quentes, vaso proporcional, substrato misto de granulometria pequena e brita **no fundo**.
+- Orquidário Santa Clara (var. alba): https://orquidariosantaclara.com.br/phalaenopsis-e-afins/3889-doritis-pulcherrima-var-alba-t3.html — pinus/carvão, pedrisco **no fundo**. Página de outra variedade do mesmo produtor não conta como fonte independente.
+- Orquídeas Ocotea: https://www.ocotea.net.br/doritis-pulcherrima/ — cachepô com pinus, evitar meio excessivamente úmido.
+- Atlanta Orchid Society (relato botânico): https://www.atlantaorchidsociety.org/wp-content/uploads/2013/05/2009_01_AtlOS_Newsletter.pdf — hábito também terrestre em solo arenoso drenante com matéria orgânica, sob sombra clara.
+- **Interpretação:** coexistem hábitos litófito e terrestre; a receita deve equilibrar fração mineral e orgânica conforme recipiente e irrigação. Brita como camada basal não valida 30% de brita **misturada no volume total**.
+- Receita atual (35% perlita, 30% brita, 25% macadâmia, 10% pinus): **revisão prioritária mantida**; falta comprovação de 65% mineral como ideal. Não alterar automaticamente.
+
+### Decisão operacional do lote
+- Prioridade técnica mais alta: verificar secagem/retencão real em vaso de *E. centropetalum* e *P. pulcherrima* antes de atribuir porcentagens definitivas.
+- Evidências de fornecedores estrangeiros não entram na meta de até 25 produtores brasileiros.
+- Status inalterado: dez pareceres documentados, cinco prioritários, cinco condicionais, zero homologações percentuais definitivas e zero alterações em fichas.
