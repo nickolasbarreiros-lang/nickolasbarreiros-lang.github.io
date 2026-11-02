@@ -61,6 +61,40 @@ export const polystachyaConcreta = {
         "⭐ Montada: fina camada de esfagno junto às raízes, sem compactação."
     ],
 
+    formasCultivo: {
+        perfilVisual: "polystachya-epifita-cespitosa-compacta",
+        destaque: "Vaso plástico",
+        resumo: "Espécie epífita cespitosa, com raízes compactas e pseudobulbos próximos. Vaso pequeno e bem perfurado mantém o conjunto estável e a mistura arejada.",
+        metodos: [
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno, proporcional à touceira, com muitos furos e mistura aberta para evitar saturação." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô pequeno e vazado, com drenagem e circulação lateral de ar." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Cortiça ou madeira rugosa com hidratação frequente no calor e esfagno mínimo, se necessário." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e perfurado, ajustando regas à secagem mais rápida." }
+        ]
+    },
+
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aberta para vaso pequeno",
+        resumo: "Mistura de casca de pinus, carvão e perlita que sustenta a touceira e seca sem permanecer saturada.",
+        justificativa: "A receita quantifica os três componentes da primeira mistura qualitativa já registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "45% casca de pinus média + 30% carvão vegetal + 25% perlita grossa.",
+        perfil: ["Epífita cespitosa", "Raízes compactas", "Boa aeração", "Drenagem rápida", "Umidade moderada"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "45%", nota: "estrutura", finalidade: "Oferece suporte às raízes sem compactar." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "30%", nota: "drenagem", finalidade: "Contribui para porosidade e secagem." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Mantém circulação de ar entre as partículas." }
+        ],
+        alerta: "Evitar sol direto forte, sombra profunda, substrato fino e saturado, repouso seco rígido e desidratação prolongada de plantas montadas durante o crescimento.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
+
     errosComuns: [
         "Colocar a planta sob sol direto por confundir ampla distribuição geográfica com exigência de alta luminosidade.",
         "Cultivar em sombra profunda e sem claridade suficiente para amadurecer bem os novos pseudobulbos.",
