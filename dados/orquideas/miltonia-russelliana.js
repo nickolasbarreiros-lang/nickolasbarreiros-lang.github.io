@@ -42,6 +42,39 @@ export const miltoniaRusselliana = {
         "🥉 Montagem em madeira ou cortiça em ambientes com umidade alta e regas frequentes."
     ],
     substrato: ["🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.", "🥈 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.", "🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.", "⭐ Alternativa: Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
+    formasCultivo: {
+        perfilVisual: "miltonia-epifita-touceira-pseudobulbos",
+        destaque: "Cachepô de Madeira",
+        resumo: "Miltonia epífita de touceira compacta e hastes arqueadas, que se beneficia de raízes ventiladas, umidade regular e espaço apenas para poucos novos crescimentos.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô vazado com mistura aerada, mantendo regas regulares sem encharcar." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e perfurado, proporcional à touceira, com boa secagem e umidade acompanhada." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso muito perfurado e proporcional, evitando excesso de substrato no centro." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Madeira ou cortiça apenas em ambiente úmido e com regas frequentes." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aerada para cachepô de madeira",
+        resumo: "Equilíbrio entre umidade moderada e alta ventilação, favorecendo pseudobulbos vigorosos sem saturação prolongada.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        perfil: ["Epífita simpodial", "Touceira compacta", "Umidade regular", "Raízes arejadas", "Hastes arqueadas"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece suporte às raízes com umidade moderada." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a regular a disponibilidade hídrica entre regas." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e circulação de ar." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para a estrutura aberta da mistura." }
+        ],
+        alerta: "Evitar sombra profunda, vaso grande, substrato constantemente encharcado, secagem prolongada durante crescimento e divisão em porções pequenas. Preservar ventilação mesmo com umidade elevada.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: [
         "Cultivar em sombra profunda",
         "Usar vaso grande demais para a touceira",
