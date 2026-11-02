@@ -123,3 +123,22 @@ Data: 02/11/2026. Ordem do índice oficial `dados/orquideas/index.js`, posiçõe
 **Ensaio mínimo proposto:** mesmo tipo e volume de vaso raso; mistura A = atual, mistura B = 1/3 pinus + 1/3 carvão + 1/3 brita; mesmo tamanho de partículas sempre que viável; hidratar, drenar e pesar em 0, 24, 48 e 72 h; observar raízes ativas e pseudobulbos por várias semanas. As pesagens avaliam perda de massa de água, não provam isoladamente maior sucesso de cultivo. Preservar ausência de esfagno nas duas receitas.
 
 **Contagem MACS:** 1 relato individual específico + 1 ficha comercial coletiva + 1 recomendação de gênero + 1 fonte taxonômica; **não equivalem a 4 produtores brasileiros específicos nem a homologação de percentuais**.
+
+## Auditoria cruzada de coerência térmica e hídrica — três fichas prioritárias
+
+Inspeção direta do conteúdo versionado em `dados/orquideas/mediocalcar-decoratum.js`, `maxillaria-schunkeana.js` e `zygolum-louisendorf.js`, confrontado com as referências externas já documentadas neste relatório.
+
+| Espécie/híbrido | Água e aeração no texto atual | Principal risco em clima quente | Decisão |
+|---|---|---|---|
+| *Mediocalcar decoratum* | Alerta explícito para não secar completamente, manter raízes frescas e oxigenadas | Calor persistente nas raízes; elevar esfagno sem controlar temperatura pode piorar aeração | **Manter receita provisória 40/25/20/15**; alerta já adequado |
+| *Maxillaria schunkeana* | Justificativa prevê umidade regular sem abafamento; alerta contra aquecimento do vaso | Temperatura do recipiente, divergência entre fontes quanto à tolerância ao calor | **Manter receita provisória 45/25/20/10**; não concluir adaptação apenas pelo substrato |
+| *Zygolum Louisendorf* | Justificativa pede umidade constante com aeração; alerta contra secagem longa e água estagnada | Noites quentes e umidade excessiva em vaso sem ventilação | **Manter receita provisória 45/25/20/10**; reavaliar adaptação térmica independentemente da mistura |
+
+### Constatações
+1. **Nenhuma contradição textual inequívoca** foi encontrada entre os três alertas atuais e as referências científicas já registradas.
+2. Aumentar arbitrariamente esfagno, fibra de coco ou pinus para tentar compensar calor é uma **intervenção não justificada** sem dados de secagem, granulometria, volume do vaso e ventilação.
+3. A homologação MACS deve tratar **viabilidade do substrato** e **viabilidade térmica de floração** como eixos diferentes: um substrato coerente não elimina necessidade de noites mais frescas.
+4. **Nenhuma receita alterada** nesta verificação; os textos de alerta já contemplam os riscos principais. Preservados layout V4.9, assets, IDC e IAR.
+
+### Próximo teste verificável
+Comparar, para cada ficha, (a) recipiente e granulometria cadastrados, (b) comportamento de secagem esperado em clima quente, (c) recomendações específicas de produtores brasileiros, com registro de cada fonte; apenas depois propor correções numéricas.
