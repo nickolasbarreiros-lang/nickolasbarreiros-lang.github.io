@@ -226,7 +226,7 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
         "luminosidade": 4,
         "agua": 3,
         "raridade": 4
-    }
+    },
     macs1_0: {
         "versao": "MACS 1.0",
         "status": "implementado_com_assets_verificados_homologacao_visual_externa_pendente",
