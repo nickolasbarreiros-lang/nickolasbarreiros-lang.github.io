@@ -40,6 +40,39 @@ export const cattleyaWarneri = {
     "rega": "Durante primavera, verão e início do outono, regue quando o substrato estiver próximo da secagem. Após a maturação, aumente gradualmente os intervalos. No inverno, o vaso deve secar de forma nítida antes da próxima rega, mas os pseudobulbos não devem sofrer desidratação extrema. Evite água acumulada entre folha e espata e não molhe repetidamente a bainha em dias frios.",
     "suporte": "🥇 Vaso de barro firme e perfurado — estabilidade e secagem equilibrada.\n🥈 Cestinho de madeira — excelente em clima quente e úmido.\n🥉 Placa de madeira robusta — indicada para plantas adaptadas e ambientes úmidos.\nUse recipiente para duas ou três novas frentes, sem excesso de volume.",
     "substrato": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.",
+    "formasCultivo": {
+        "perfilVisual": "cattleya",
+        "destaque": "Vaso de Barro",
+        "resumo": "Cattleya unifoliada de porte grande, com necessidade de suporte firme, aeração abundante e secagem equilibrada. A recomendação principal mantém a preferência por vaso de barro já documentada nesta ficha.",
+        "metodos": [
+            { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Vaso firme e perfurado, dimensionado para duas ou três frentes novas. Permite estabilidade da planta grande, drenagem e secagem controlada." },
+            { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": 5, "status": "Muito recomendado", "texto": "Oferece ventilação intensa, especialmente útil em ambiente quente e úmido. Acompanhe a secagem para ajustar as regas." },
+            { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": 4, "status": "Alternativa", "texto": "Suporte robusto para planta já adaptada, com raízes bem fixadas e regas compatíveis com a secagem mais rápida." },
+            { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 3, "status": "Alternativa condicional", "texto": "Usar apenas com perfuração ampla, mistura grossa e monitoramento da umidade interna; não aumentar demais o volume do recipiente." }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Mistura sugerida para vaso de barro perfurado",
+        "resumo": "Mistura de granulometria média a grossa, com sustentação firme, aeração e drenagem para raízes epífitas.",
+        "justificativa": "A receita organiza os quatro materiais indicados como primeira opção na ficha original. Os percentuais abaixo são uma proposta horticultural ainda não confrontada com o conjunto de produtores exigido pela metodologia MACS 1.0.",
+        "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        "perfil": ["Raízes epífitas", "Porte grande", "Boa sustentação", "Aeração alta", "Secagem equilibrada"],
+        "comportamento": [
+            { "nome": "Retenção", "valor": 2, "icone": "💧" },
+            { "nome": "Aeração", "valor": 5, "icone": "💨" },
+            { "nome": "Secagem", "valor": 4, "icone": "⚡" },
+            { "nome": "Compactação", "valor": 1, "icone": "🧱" }
+        ],
+        "itens": [
+            { "asset": "macadamia", "nome": "Casca de macadâmia média", "proporcao": "35%", "nota": "estrutura", "finalidade": "Dá sustentação e preserva espaços de ar entre partículas." },
+            { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "30%", "nota": "suporte e retenção moderada", "finalidade": "Mantém o contato das raízes com umidade transitória, sem dispensar drenagem." },
+            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "20%", "nota": "aeração", "finalidade": "Aumenta a porosidade da mistura e favorece a secagem." },
+            { "asset": "carvao-vegetal", "nome": "Carvão vegetal", "proporcao": "15%", "nota": "drenagem e estabilidade", "finalidade": "Ajuda a conservar a estrutura aberta da mistura." }
+        ],
+        "alerta": "Evite vasos grandes, mistura compactada e excesso de água durante a maturação. Não corte a espata apenas porque ficou seca: a floração pode ocorrer posteriormente.",
+        "notaEvidencia": "Percentuais e estrelas são propostas horticulturais de apresentação; homologação MACS 1.0 e validação visual permanecem pendentes."
+    },
     "errosComuns": "Cortar a espata seca; abrir a espata para procurar botões; pouca luz; molhar repetidamente a espata; excesso de água no inverno; vaso grande; substrato compactado; replantar sem raízes novas; excesso de nitrogênio; girar a planta durante a formação da haste; dividir em poucas frentes.",
     "dica": "Preserve a espata mesmo quando estiver castanha e aparentemente seca. Em Cattleya warneri, a bainha pode secar meses antes da haste se desenvolver. Não abra, não corte e não aperte. Mantenha luz alta no inverno, ventilação, rega controlada e aguarde a primavera.",
     revisaoCientificaIAR: {
