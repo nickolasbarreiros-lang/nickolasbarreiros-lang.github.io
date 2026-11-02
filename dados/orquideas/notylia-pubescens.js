@@ -36,6 +36,39 @@ export const notyliaPubescens = {
     "rega": "Se montada em placa, regue diariamente nos dias quentes, permitindo que as raízes sequem em poucas horas. Em cestos ou cuias rasas, regue quando o material interno estiver próximo da secagem. Não deixe a planta passar por seca prolongada durante a formação das hastes, pois os botões podem abortar. Ao mesmo tempo, evite água acumulada na base da folha. Folha única murcha ou dobrada, associada a raízes escuras e moles, geralmente indica perda radicular por abafamento, e não simples falta de água.",
     "suporte": "🥇 Placa ou tronquinho de madeira dura, cortiça ou sanção-do-campo: melhor opção para raízes aeradas e racemos livres.\n🥈 Cesto pequeno de madeira sem fundo fechado: excelente para cultivo elevado.\n🥉 Cuia plástica pequena, rasa e muito perfurada: alternativa para locais mais secos.\nInstale a planta acima da linha dos olhos, com espaço totalmente livre abaixo e leve inclinação para favorecer o escoamento da água.",
     "substrato": "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.\n🥉 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n⭐ Alternativa: Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+    formasCultivo: {
+        perfilVisual: "notylia-epifita-compacta-racemos-pendentes",
+        destaque: "Placa / tronco",
+        resumo: "Epífita compacta de raízes finas e inflorescências pendentes. Montagem suspensa e levemente inclinada mantém raízes arejadas e espaço livre para os cachos florais.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Placa ou tronquinho de madeira dura ou cortiça, suspenso e levemente inclinado, com espaço livre abaixo para as hastes." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cesto pequeno e aberto, elevado, sem fundo fechado que bloqueie os racemos." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Cuia plástica pequena, rasa e muito perfurada, suspensa para permitir a queda das hastes; útil em locais de secagem mais rápida." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 2, status: "Menos indicado", texto: "Somente modelo raso e suspenso, com umidade acompanhada; evitar impedir o desenvolvimento dos racemos pendentes." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aberta para recipiente suspenso; montagem principal sem substrato volumoso",
+        resumo: "Para a montagem em placa, raízes fixadas diretamente no suporte e umidade mantida por regas regulares. Em cuia ou cesto, usar mistura leve e muito aerada.",
+        justificativa: "A receita visual quantifica os quatro componentes da primeira mistura qualitativa original, destinada a recipientes. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        perfil: ["Epífita compacta", "Raízes finas", "Hastes pendentes", "Suporte suspenso", "Alta aeração"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece fixação às raízes em recipientes rasos." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Retém umidade moderada entre regas." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Mantém espaços de ar e drenagem rápida." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Ajuda a manter o substrato aberto." }
+        ],
+        alerta: "Não bloquear as hastes pendentes, usar esfagno espesso ou deixar água na base da folha. Evitar sol direto e movimentação durante a formação dos cachos.",
+        notaEvidencia: "A forma principal é montagem em placa; a receita percentual refere-se apenas às alternativas em recipiente. Estrelas e percentuais são estimativas não homologadas pela MACS 1.0. Conferência visual dos assets pendente."
+    },
     "errosComuns": "❌ Usar vaso fundo ou fundo fechado, bloqueando as hastes pendentes.\n❌ Encostar a planta em parede, prateleira ou outros vasos.\n❌ Expor ao sol direto.\n❌ Aplicar fertilizante concentrado.\n❌ Deixar água acumulada na base da folha.\n❌ Permitir seca prolongada durante a botonação.\n❌ Girar, mudar ou manipular a planta enquanto os cachos se formam.\n❌ Cortar hastes ainda verdes.\n❌ Usar esfagno espesso e compactado.",
     "dica": "Cultive a planta suspensa e acima dos olhos, preferencialmente em placa levemente inclinada para baixo. A inclinação melhora o escoamento da água da base da folha, mantém as raízes ventiladas e permite que os racemos caiam livremente. Não mova nem gire o suporte durante a formação das hastes, pois elas são frágeis. Em clima quente, aumente a frequência das regas em vez de engrossar a camada de esfagno. Quanto maior e mais estável a touceira, maior o número de cachos simultâneos.",
     revisaoCientificaIAR: {
