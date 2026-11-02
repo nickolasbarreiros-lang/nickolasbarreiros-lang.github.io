@@ -158,3 +158,24 @@ Em `dados/orquideas/maxillaria-schunkeana.js`, o resumo de `substratoVisual` con
 
 ### Limite da auditoria
 A inspeção confirma coerência textual e possíveis riscos físicos; não mede a secagem real nem homologa as receitas. A próxima verificação deve confrontar observações de cultivo por espécie e tipo de recipiente antes de qualquer mudança quantitativa.
+
+## Auditoria integral de coerência entre cultivo principal e receita visual — sete fichas restantes
+
+Inspeção direta dos blocos `formasCultivo.destaque`, `formasCultivo.metodos` e `substratoVisual.contexto` em todos os sete arquivos restantes. Somados às três fichas da etapa anterior, **10/10 fichas do lote 02 têm agora o cruzamento estrutural recipiente × receita realizado**.
+
+| Ficha | Destaque de cultivo | Contexto da receita | Diagnóstico |
+|---|---|---|---|
+| Cattleya Pumpkin Festival | Vaso de barro | Cesto ou vaso | Compatível: mistura grossa de secagem rápida; conferir granulometria conforme tamanho do recipiente |
+| Dendrobium polysema | Cachepô de madeira | Cesto ou vaso ventilado | Compatível: mistura aberta com pequena fração de esfagno para compensar secagem do cesto |
+| Bifrenaria verboonenii | Vaso de barro | Vaso | Compatível: mistura mineral e estrutural, sem esfagno |
+| Bifrenaria aureofulva | Vaso de barro | Vaso | Compatível estruturalmente; composição percentual segue pendente da comparação documentada |
+| Sophronitis wittigiana | Placa/tronco | **Recipiente** | **Duas modalidades distintas:** a receita percentual é para vaso/cesto, não deve ser aplicada como volume percentual à montagem; a montagem já prevê fina reserva localizada de esfagno |
+| Sophronitis cernua | Placa/tronco | **Recipiente** | **Duas modalidades distintas:** receita percentual só para recipiente, montagem de raízes expostas com rega mais frequente |
+| Dendrobium loddigesii | Placa/tronco | Cesto ou vaso suspenso | **Duas modalidades distintas:** receita de substrato destinada ao cesto/vaso; montagem não usa a mistura em percentuais |
+
+### Critério de conformidade aplicado
+- `destaque` é a forma de cultivo mais recomendada, **não obriga** que a receita percentual descreva esse mesmo suporte quando `substratoVisual.contexto` indica explicitamente outro recipiente.
+- **Sem contradição inequívoca** que exija substituir um asset, alterar estrelas, mexer na foto principal ou modificar porcentagens.
+- A interface deve preservar o texto de contexto «Para cultivo em recipiente»/«Para cesto ou vaso suspenso» para impedir que leitores interpretem a mistura como exigência da montagem.
+- **Pendência científica mantida:** validar quantitativamente receitas com fontes independentes, especialmente *B. aureofulva*, *D. polysema* e *S. wittigiana*.
+- **0 edições de fichas nesta passagem**. Este registro é uma auditoria de consistência, não homologação MACS 1.0.
