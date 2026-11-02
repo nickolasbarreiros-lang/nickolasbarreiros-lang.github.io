@@ -31,6 +31,39 @@ export const encycliaOncidioides = {
     rega: "Durante a emissão de brotos e raízes, regue abundantemente e permita que o substrato seque completamente antes da próxima irrigação. Após a maturação dos pseudobulbos, aumente gradualmente o intervalo entre as regas, sem impor desidratação severa nem seguir um número fixo de dias. Observe o clima, a ventilação, o tamanho do vaso e a firmeza dos pseudobulbos.",
     suporte: "🥇 Vaso de barro justo, com furos laterais e drenagem rápida.\n🥈 Cachepô de madeira bem vazado.\n🥉 Tronco ou placa de madeira dura para plantas adaptadas ao cultivo montado.",
     substrato: "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.",
+    formasCultivo: {
+        perfilVisual: "encyclia-epifita-rupicola-clara",
+        destaque: "Vaso de Barro",
+        resumo: "Encyclia de porte médio a grande, pseudobulbos robustos e hastes longas. Prefere alta luminosidade filtrada, ventilação e secagem rápida das raízes entre regas, sem dormência seca rigorosa.",
+        metodos: [
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso justo, com furos laterais, boa estabilidade para hastes altas e drenagem rápida." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Muito recomendado", texto: "Cachepô bem vazado, proporcional ao rizoma, para ampla aeração das raízes." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Tronco ou placa de madeira dura para plantas adaptadas ao cultivo montado; exige regas mais frequentes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Recipiente firme e muito perfurado, com mistura grossa e sem acúmulo de água." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura para vaso de barro justo ou cachepô vazado",
+        resumo: "Substrato médio a grosso, de alta porosidade, com secagem clara entre regas.",
+        justificativa: "Os quatro materiais correspondem à primeira mistura qualitativa já registrada na ficha. As proporções são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        perfil: ["Pseudobulbos robustos", "Porte médio a grande", "Alta luminosidade filtrada", "Raízes ventiladas", "Secagem rápida"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta raízes com amplos espaços de ar." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "drenagem", finalidade: "Mantém a mistura aberta e de secagem regular." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Reduz compactação e retenção excessiva." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "estrutura", finalidade: "Complementa porosidade e estabilidade do substrato." }
+        ],
+        alerta: "Evitar vaso grande ou profundo, rizoma enterrado, sombra excessiva e substrato constantemente molhado. Não impor repouso seco rigoroso nem cortar hastes ainda verdes.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Usar vaso grande ou profundo; cultivar em sombra excessiva; manter raízes constantemente molhadas; usar substrato fino, velho ou compactado; enterrar o rizoma; cortar hastes ainda verdes; aplicar excesso de nitrogênio após a maturação; seguir um número fixo de dias sem água; tratar o inverno como dormência seca rigorosa.",
     dica: "Priorize luz alta filtrada e raízes muito arejadas. A ocorrência natural desde o nível do mar até cerca de 750 m explica por que ela pode ir muito bem no litoral quente: o ponto decisivo é evitar abafamento e substrato constantemente molhado, não tentar produzir frio artificial.",
     revisaoCientificaIAR: {
