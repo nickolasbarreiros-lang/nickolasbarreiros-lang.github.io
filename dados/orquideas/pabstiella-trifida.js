@@ -38,6 +38,38 @@ export const pabstiellaTrifida = {
     "rega": "Em placas, regue pela manhã diariamente durante o calor, permitindo secagem parcial com forte ventilação. O suporte não deve secar por vários dias nem permanecer ensopado. Use água de chuva, filtrada ou de baixa salinidade quando possível. Pontas secas podem indicar ar seco, sais ou raízes mortas; base do ramicaule escurecendo indica abafamento; murchamento com suporte úmido sugere perda radicular.",
     "suporte": "🥇 Placa de cortiça ou madeira rugosa com fina lâmina de esfagno: melhor equilíbrio entre água e oxigênio.\n🥈 Cachepô muito pequeno e vazado: alternativa para ambiente mais seco.\n🥉 Vaso de barro minúsculo: apenas com mistura extremamente aerada.\nPosicione na bancada mais baixa, próxima ao solo e cercada por outras plantas, sem encostar em áreas quentes.",
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira com uma lâmina fina de esfagno apenas sob as raízes.\n🥈 Esfagno de fibra longa usado muito solto + perlita grossa fina; evitar compactação junto ao rizoma.\n🥉 Casca de pinus fina + perlita + perlita grossa fina + pequena fração de esfagno solto.\n⭐ Alternativa: Chips de coco pequenos + perlita + casca de pinus fina, mantendo o conjunto leve e aerado.",
+    formasCultivo: {
+        perfilVisual: "pabstiella-miniatura-pleurothallidinae-fresca",
+        destaque: "Placa / tronco",
+        resumo: "Miniatura epífita de raízes capilares sensíveis, típica de ambiente úmido e fresco. Placa rugosa com esfagno mínimo favorece oxigenação e hidratação, desde que o microclima não superaqueça.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cortiça ou madeira rugosa com fina lâmina de esfagno, em posição baixa, sombreada e bem ventilada." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô minúsculo e muito vazado, com umidade acompanhada e raízes sem compactação." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso minúsculo com mistura muito aerada; observar secagem e temperatura das raízes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Recipiente muito pequeno e vazado, apenas em microclima fresco e com substrato solto." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem em cortiça ou madeira rugosa com esfagno mínimo",
+        resumo: "A montagem principal usa apenas fina lâmina de esfagno sob as raízes. Para recipientes minúsculos, mistura muito leve com umidade moderada e alta aeração.",
+        justificativa: "A receita percentual quantifica a alternativa já registrada de chips de coco pequenos, perlita e pinus fino, destinada a recipientes. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "40% chips de coco pequenos + 30% casca de pinus fina + 30% perlita grossa.",
+        perfil: ["Pleurothallidinae miniatura", "Sem pseudobulbos", "Raízes capilares", "Noites frescas", "Umidade constante"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "chips-coco", nome: "Chips de coco pequenos", proporcao: "40%", nota: "umidade", finalidade: "Ajudam a manter umidade moderada em recipientes muito abertos." },
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "30%", nota: "estrutura", finalidade: "Oferece suporte às raízes finas sem massa compacta." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "30%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação radicular." }
+        ],
+        alerta: "O substrato não compensa calor excessivo: manter a planta longe do telhado quente, em sombra clara e ventilação. Evitar esfagno compactado, sais, adubação forte e divisão de touceiras pequenas.",
+        notaEvidencia: "Receita percentual apenas para recipientes; a forma principal é montagem em placa. Estrelas e percentuais são estimativas não homologadas pela MACS 1.0. Conferência visual dos assets pendente."
+    },
     "errosComuns": "Cultivar próximo ao telhado; manter ar parado; usar vaso grande; compactar esfagno; expor ao sol; adubar forte; molhar no fim da tarde em noites quentes; usar água muito salina; dividir touceiras pequenas; confundir umidade atmosférica com substrato encharcado.",
     "dica": "Em regiões quentes, o posicionamento é mais importante que aumentar a rega: instale na parte mais baixa, fresca e sombreada do orquidário, longe do calor do teto. Monte em cortiça com pouco esfagno e regue cedo. Molhar o chão ao redor ajuda a reduzir a temperatura e elevar a umidade sem sufocar as raízes. Preserve touceiras robustas e só divida quando cada parte puder manter vários ramicaules e raízes próprias.",
     revisaoCientificaIAR: {
