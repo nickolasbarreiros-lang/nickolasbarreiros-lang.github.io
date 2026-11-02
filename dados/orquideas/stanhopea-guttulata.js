@@ -41,6 +41,38 @@ export const stanhopeaGuttulata = {
     "rega": "Durante brotação e crescimento, mantenha o substrato constantemente levemente úmido, porém poroso. Não permita ressecamento completo por longos períodos, pois isso enruga pseudobulbos e reduz a força das novas frentes. Após a maturação, reduza apenas discretamente. Regue pela manhã e evite que folhas, brotos e flores permaneçam molhados em noites abafadas.",
     "suporte": "🥇 Cesta de madeira suspensa e muito vazada — ideal para a passagem das hastes.\n🥈 Cachepô de ripas com fundo aberto — excelente ventilação.\n🥉 Cesto aramado ou plástico totalmente perfurado — funcional se não houver barreiras inferiores.\nCentralize a touceira e mantenha o fundo completamente livre.",
     "substrato": "🥇 Chips de coco grossos + casca de pinus média + perlita grossa + esfagno solto, em cesto vazado.\n🥈 Pinus médio + fibra de coco grossa + perlita grossa + carvão vegetal, mantendo umidade sem bloquear a haste descendente.\n🥉 Cesto com chips de coco + macadâmia + perlita grossa e uma fina camada de esfagno no topo, nunca compactada.\n⭐ Alternativa: Casca de macadâmia média + chips de coco + perlita + esfagno em baixa proporção.",
+    formasCultivo: {
+        perfilVisual: "stanhopea-guttulata-epifita-hastes-descendentes",
+        destaque: "Cachepô de Madeira",
+        resumo: "Espécie epífita com inflorescências descendentes que atravessam o substrato. Cesta suspensa, muito vazada e com fundo livre é essencial para permitir a floração.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cesta de madeira suspensa, com ripas espaçadas, fundo aberto e touceira centralizada." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa condicionada", texto: "Apenas cesto plástico inteiramente perfurado, com aberturas inferiores suficientes para as hastes." },
+            { nome: "Raízes soltas", asset: "raizes-soltas", estrelas: 3, status: "Uso condicional", texto: "Cesto aramado aberto com cobertura muito leve de fibra, sem telas densas nem barreiras inferiores." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aberta para cesta suspensa com fundo desobstruído",
+        resumo: "Partículas grossas e pequena fração de esfagno solto oferecem umidade durante o crescimento, sem impedir a passagem das hastes descendentes.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa registrada na ficha. Percentuais horticulturais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "40% chips de coco grossos + 30% casca de pinus média + 20% perlita grossa + 10% esfagno de fibra longa solto.",
+        perfil: ["Epífita de porte médio a grande", "Hastes descendentes", "Cesto suspenso", "Umidade regular", "Fundo livre"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "chips-coco", nome: "Chips de coco grossos", proporcao: "40%", nota: "estrutura e umidade", finalidade: "Conserva umidade moderada com espaços amplos." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "estrutura", finalidade: "Sustenta raízes sem formar camada compacta." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Melhora drenagem e oxigenação." },
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "10%", nota: "umidade", finalidade: "Oferece reserva hídrica discreta sem obstruir o fundo." }
+        ],
+        alerta: "Nunca usar vaso fechado nem bloquear o fundo da cesta. Evitar secagem completa no crescimento, esfagno compactado e movimentação durante a emissão de hastes florais.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "Usar vaso fechado; bloquear o fundo; plantar a touceira encostada na lateral; deixar secar completamente; sombra profunda; substrato velho ou compactado; excesso de esfagno; mover a cesta durante a emissão; molhar flores sem ventilação; replantar fora do novo enraizamento.",
     "dica": "Plante a touceira no centro de uma cesta realmente vazada e trate a área abaixo como parte da planta: ela deve permanecer totalmente livre. A haste floral atravessa o substrato e precisa sair por baixo sem bater em ripas ou outros obstáculos. Durante a emissão, inspecione por baixo e remova somente obstáculos soltos, sem tocar ou redirecionar a haste.",
     revisaoCientificaIAR: {
