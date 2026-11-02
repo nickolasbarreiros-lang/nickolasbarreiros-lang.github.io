@@ -39,6 +39,39 @@ export const cattleyaSchilleriana = {
     "rega": "Durante a emissão de brotos e raízes, molhe abundantemente pela manhã, atingindo todo o sistema radicular, e permita que o suporte seque rapidamente. Em placas e cachepôs, a frequência pode ser maior; em vasos, a próxima rega só deve ocorrer quando o interior estiver próximo da secagem. Após o amadurecimento do pseudobulbo, aumente o intervalo entre regas, mantendo umidade ambiental elevada e sem provocar enrugamento severo. Pseudobulbos murchos com substrato úmido geralmente indicam raízes mortas por abafamento, não falta de água. Evite molhar no final da tarde, deixar água presa entre as folhas ou na base dos brotos e utilizar água muito salina.",
     "suporte": "🥇 Cachepô pequeno de madeira dura: é a opção mais equilibrada, pois mantém a planta firme, permite expansão das raízes e seca rapidamente.\n🥈 Placa de cortiça ou madeira resistente: excelente para ambientes úmidos e regas frequentes; deve ser grande o suficiente para vários anos de crescimento.\n🥉 Vaso de barro pequeno e muito perfurado: boa alternativa quando se deseja maior estabilidade, desde que usado com granulometria grossa.\n📏 Tamanho do recipiente: escolha apenas o espaço necessário para duas ou três novas frentes. Vasos grandes criam uma área central permanentemente úmida.\n🔒 Fixação: o rizoma deve ficar firme, sobre a superfície, sem balançar; movimento constante quebra pontas radiculares recém-formadas.",
     "substrato": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n🥉 Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.\n⭐ Alternativa: Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.",
+    "formasCultivo": {
+        "perfilVisual": "cattleya",
+        "destaque": "Cachepô de Madeira",
+        "resumo": "Espécie bifoliada compacta, de raízes sensíveis ao manuseio, que prefere fixação firme, circulação intensa de ar e secagem rápida. A hierarquia dos suportes segue as recomendações já presentes na ficha, sem alegar pontuação MACS homologada.",
+        "metodos": [
+            { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Permite fixar firmemente o rizoma e manter raízes ventiladas. Use cachepô pequeno e aberto, com espaço apenas para poucas frentes novas e substrato grosso." },
+            { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": 5, "status": "Muito recomendado", "texto": "Boa opção quando a umidade ambiental e a frequência de regas compensam a secagem rápida. Escolha suporte durável, sem precisar remover raízes aderidas a cada estação." },
+            { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": 4, "status": "Alternativa", "texto": "Vaso pequeno, raso e muito perfurado, com mistura grossa e secagem perceptível entre regas. Não enterrar o rizoma." },
+            { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 3, "status": "Alternativa condicional", "texto": "Somente com perfurações abundantes, mistura aberta e controle cuidadoso da umidade interna. Evite recipientes grandes." }
+        ]
+    },
+    "substratoVisual": {
+        "titulo": "Substrato ideal",
+        "contexto": "Proposta técnica para cachepô pequeno e muito ventilado",
+        "resumo": "Mistura de granulometria média a grossa para sustentar a planta sem manter as raízes continuamente molhadas.",
+        "justificativa": "A composição traduz a mistura preferida já descrita nesta ficha: casca de macadâmia, pinus, perlita grossa e carvão vegetal. Os percentuais são uma proposta de apresentação técnica, não resultados de ensaio comparativo ou homologação MACS 1.0.",
+        "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        "perfil": ["Raízes epífitas sensíveis", "Aeração alta", "Secagem rápida", "Fixação firme do rizoma", "Baixa compactação"],
+        "comportamento": [
+            { "nome": "Retenção", "valor": 2, "icone": "💧" },
+            { "nome": "Aeração", "valor": 5, "icone": "💨" },
+            { "nome": "Secagem", "valor": 4, "icone": "⚡" },
+            { "nome": "Compactação", "valor": 1, "icone": "🧱" }
+        ],
+        "itens": [
+            { "asset": "macadamia", "nome": "Casca de macadâmia média", "proporcao": "35%", "nota": "estrutura durável", "finalidade": "Ajuda a manter espaços de ar e sustentação sem compactar rapidamente." },
+            { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "30%", "nota": "estrutura e reserva moderada", "finalidade": "Fornece suporte às raízes; substituir quando começar a se fragmentar." },
+            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "20%", "nota": "leveza e aeração", "finalidade": "Aumenta a porosidade da mistura, reduzindo pontos de saturação." },
+            { "asset": "carvao-vegetal", "nome": "Carvão vegetal", "proporcao": "15%", "nota": "drenagem", "finalidade": "Mantém a mistura aberta; usar granulação compatível com os demais componentes." }
+        ],
+        "alerta": "Replantar somente quando houver início de raízes novas. Evitar vasos grandes, substrato fino, rizoma enterrado e remoção agressiva de raízes aderidas.",
+        "notaEvidencia": "Percentuais e estrelas são propostas horticulturais derivadas das recomendações textuais existentes; a ficha ainda não contém MACS 1.0 homologada."
+    },
     "errosComuns": "Replantar fora do início do enraizamento; descolar raízes aderidas; utilizar vaso grande; deixar a planta frouxa no suporte; enterrar o rizoma; manter substrato constantemente úmido; usar mistura fina ou velha; cultivar em sombra profunda; deixar água presa nos brotos; adubar forte; dividir em poucas frentes; cortar pseudobulbos traseiros firmes; mudar a planta de lugar durante a formação dos botões; confundir pseudobulbo murcho com simples falta de rega sem verificar as raízes.",
     "dica": "A janela de replante é curta e deve ser respeitada com rigor. Espere a nova frente começar a emitir pontas radiculares verdes de poucos milímetros a cerca de 1 cm. Prepare o recipiente, o substrato e os materiais antes de retirar a planta do suporte antigo. Preserve o máximo possível das raízes aderidas e fixe o rizoma firmemente. Depois do replante, mantenha sombra levemente maior por alguns dias, ventilação constante e regas cuidadosas, sem saturar. Fora dessa fase, é melhor adiar o manejo do que perturbar uma planta estável.",
     revisaoCientificaIAR: {
