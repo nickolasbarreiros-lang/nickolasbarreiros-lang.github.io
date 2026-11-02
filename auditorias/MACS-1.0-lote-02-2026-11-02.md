@@ -49,3 +49,27 @@ Data: 02/11/2026. Ordem do índice oficial `dados/orquideas/index.js`, posiçõe
 - Nenhuma dessas fontes é produtor brasileiro com receita percentual testada para a espécie; não aumentar artificialmente a contagem MACS de produtores nacionais.
 - Foram comparadas 3/10 fichas do lote com fontes externas nesta etapa; 7/10 permanecem na triagem inicial.
 - **0 receitas alteradas e 0 homologações percentuais**. Preservar V4.9 e classificações IDC/IAR até revisão própria.
+
+## Segunda triangulação científica — quatro fichas adicionais
+
+### Bifrenaria aureofulva
+- AOS, gênero Bifrenaria: https://www.aos.org/explore/bifrenaria — mistura epífita média, vasos/cestos, regas regulares e leve secagem entre regas; evitar recipientes grandes.
+- Relato de cultivo brasileiro de Juan Pablo Heller: https://orquideasjph.wordpress.com/2019/07/28/bifrenaria-aureofulva/ — para a espécie, mistura em **partes iguais de pinus, carvão e brita**, em vaso raso ou caixeta; rega regular e redução em estação fria. É **um relato independente**, não ensaio comparativo ou produtor comercial.
+- Receita cadastrada 35% brita + 30% macadâmia + 20% carvão + 15% pinus: **divergência quantitativa documentada** com o relato (aprox. 33/33/33 pinus/carvão/brita). A receita atual tem menos pinus e inclui macadâmia, que não figura no relato. **Não homologar nem substituir automaticamente**: avaliar secagem em recipiente real. A regra editorial sem esfagno é preservada.
+
+### Sophronitis wittigiana
+- Produtor brasileiro Orquidário Oriental: https://www.orquidariooriental.com.br/produto/isophronitis-wittigianai%2C1667/ — para a espécie recomenda esfagno ou mistura de fibra de coco, pinus e carvão, além de montagem; regas espaçadas com secagem do substrato.
+- Orchid.guru, espécie: https://www.orchid.guru/content/orchids/s/sophronitis/wittigiana/ — cultivo fresco a intermediário/quente, mistura drenante ou montagem, com maior frequência de rega na montagem.
+- Receita cadastrada 45% pinus médio + 25% carvão + 20% brita + 10% esfagno: ingredientes parcialmente convergentes; **20% de brita não documentados pelo produtor citado**. Atenção à diferença entre secagem do vaso e alta umidade ambiental.
+
+### Sophronitis cernua
+- AOS, artigo sobre sophronitis brasileiras: https://www.aos.org/orchids/collectors-items/book-reviews/the-culture-of-the-brazilian-sophronitis — *S. cernua* apresenta maior tolerância térmica relativa que outras sophronitis montanas; alta umidade e boa ventilação são essenciais. O artigo trata várias espécies; **não extrapolar automaticamente todas as receitas de S. coccinea**.
+- Receita cadastrada 40% pinus grosso + 30% carvão + 20% brita + 10% macadâmia: estrutura drenante coerente, mas a adequação da retenção depende do recipiente e da frequência de rega. **Condicional**.
+
+### Dendrobium polysema
+- AOS, folha geral: https://www.aos.org/orchid-care/care-sheets/dendrobium-general-culture-sheet — ressalva expressamente que grupos de Dendrobium têm necessidades diferentes; espécies do grupo Latouria não devem receber automaticamente repouso seco dos tipos nobile.
+- RHS, guia geral: https://www.rhs.org.uk/plants/dendrobium/how-to-grow-dendrobium — diversidade de grupos térmicos e sazonais; fonte geral, não evidência específica de *D. polysema*.
+- Receita cadastrada 45% pinus médio + 20% carvão + 20% macadâmia + 15% esfagno: **nenhuma validação específica de percentuais localizada nesta passagem**. Prioridade mantida até confirmar grupo e fontes da espécie.
+
+### Controle de progresso
+7/10 fichas do lote 02 confrontadas com fontes externas (3 na passagem anterior + 4 nesta). Restam **Cattleya Pumpkin Festival, Bifrenaria verboonenii e Zygolum Louisendorf**. Evidência brasileira específica registrada nesta passagem: um relato independente para *B. aureofulva* e uma ficha de produtor para *S. wittigiana*. **Nenhuma receita alterada ou homologada.**
