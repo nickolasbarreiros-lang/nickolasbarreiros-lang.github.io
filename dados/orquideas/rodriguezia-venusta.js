@@ -41,6 +41,39 @@ export const rodrigueziaVenusta = {
     "rega": "Durante o crescimento, mantenha umidade regular sem saturação. Em placas ou troncos, regas diárias podem ser necessárias nos dias quentes, desde que as raízes sequem superficialmente em poucas horas. Em vasos ou cachepôs, espere o substrato perder boa parte da umidade antes de repetir. Regue preferencialmente pela manhã, permitindo que folhas, bainhas e raízes estejam sem excesso de água à noite.",
     "suporte": "🥇 Placa vertical de cortiça, madeira dura ou galho rugoso — melhor opção para raízes finas e para o caimento natural das hastes.\n🥈 Cachepô pequeno e muito vazado — mantém touceira compacta e excelente ventilação.\n🥉 Vaso pequeno de barro bem furado — alternativa segura em ambientes de menor umidade.\nMantenha a planta suspensa ou com espaço livre abaixo das inflorescências.",
     "substrato": "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.",
+    formasCultivo: {
+        perfilVisual: "rodriguezia-bracteata-epifita-pendente-raizes-finas",
+        destaque: "Placa / tronco",
+        resumo: "Epífita compacta de raízes finas e hastes pendentes. Montagem vertical em cortiça ou madeira rugosa oferece raízes bem ventiladas e espaço livre para as flores.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cortiça, madeira dura ou galho rugoso em posição vertical, com espaço abaixo das hastes e hidratação regular." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Muito recomendado", texto: "Cachepô pequeno e muito vazado, suspenso para permitir o caimento das inflorescências." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e muito perfurado, com mistura aberta e espaço lateral para as hastes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e extremamente ventilado, sem esfagno excessivo nem água acumulada." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura alternativa para cachepô ou vaso; montagem principal sem enchimento",
+        resumo: "Na placa vertical, fixar as raízes com mínimo material retentivo. Para recipientes, usar mistura aberta de pinus, coco, perlita e carvão.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa registrada na ficha, destinada a recipientes; não deve ser aplicada como camada espessa sobre a placa. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        perfil: ["Epífita compacta", "Raízes finas", "Hastes pendentes", "Ventilação alta", "Secagem rápida"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta raízes sem compactação." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Oferece retenção moderada entre regas." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Mantém drenagem e oxigenação." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para mistura aberta." }
+        ],
+        alerta: "Evitar sombra profunda, vasos grandes, esfagno compactado e molhamento prolongado à noite. Não bloquear as hastes pendentes; regar preferencialmente pela manhã.",
+        notaEvidencia: "Receita percentual somente para recipientes. Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "Sombra profunda; vaso grande; excesso de esfagno; substrato velho ou compactado; impedir o caimento das hastes; deixar a touceira molhada à noite; aplicar matéria orgânica diretamente sobre raízes; adubar forte; replantar fora da emissão de novas raízes; dividir touceiras pequenas; falta de ventilação.",
     "dica": "O melhor manejo é suspender a planta em placa, cortiça ou cachepô vazado e liberar completamente o espaço abaixo das hastes. A montagem vertical combina exatamente o que a espécie precisa: raízes finas bem oxigenadas, secagem rápida depois da rega e caminho livre para as inflorescências pendentes. Regue pela manhã e use apenas uma camada mínima de material retentivo.",
     revisaoCientificaIAR: {
