@@ -35,7 +35,7 @@ export const ludisiaDiscolor = {
     adubacao: "🌿 Orgânica: húmus bem curtido ou bokashi em quantidade mínima, aplicados na borda e afastados dos caules.\n💧 Foliar ou radicular: NPK equilibrado em cerca de 1/4 da dose a cada 15 dias durante crescimento ativo.\n🧪 Liberação lenta: poucos grânulos apenas em vasos bem drenados. Uma vez por mês, faça uma rega abundante somente com água limpa para reduzir sais, especialmente em vasos plásticos e ambientes internos.",
     rega: "Mantenha umidade regular e uniforme, regando quando a superfície começar a perder umidade. O substrato não deve secar totalmente por longos períodos nem permanecer encharcado. Como os caules caminham sobre a superfície, água parada junto aos nós favorece podridões. No inverno, apenas ajuste a frequência à menor evaporação, sem impor repouso seco.",
     suporte: "🥇 Vaso plástico largo e raso, permitindo expansão horizontal dos caules.\n🥈 Bacia ou jardineira baixa com boa drenagem.\n🥉 Terrário ventilado ou parcialmente aberto; recipientes herméticos e constantemente condensados aumentam o risco de fungos e podridões.",
-    substrato: ["🥇 Chips de coco pequenos + pinus fino + perlita + pequena fração de vermiculita (até 10%).","🥈 Fibra de coco + perlita de granulometria fina/média + esfagno picado + casca de arroz carbonizada.","🥉 Pinus fino + chips de coco + perlita + pequena fração de vermiculita."],
+    substrato: ["🥇 Chips de coco pequenos + pinus fino + perlita de granulometria fina/média + pequena fração de vermiculita (até 10%).","🥈 Fibra de coco + perlita de granulometria fina/média + esfagno picado + casca de arroz carbonizada."],
     formasCultivo: {
         perfilVisual: "orquidea-joia-terrestre-rizoma-rastejante",
         destaque: "Vaso plástico",
