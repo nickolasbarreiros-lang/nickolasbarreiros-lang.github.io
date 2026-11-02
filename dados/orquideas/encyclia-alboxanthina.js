@@ -41,6 +41,39 @@ export const encycliaAlboxanthina = {
         "🥉 Montagem em cortiça ou madeira, quando houver disponibilidade de regas frequentes."
     ],
     substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.", "🥈 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.", "🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.", "⭐ Alternativa: Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas."],
+    formasCultivo: {
+        perfilVisual: "encyclia-epifita-rupicola-clara",
+        destaque: "Cachepô de Madeira",
+        resumo: "Encyclia de ambientes claros, epífita e ocasionalmente rupícola, que exige raízes muito aeradas, alta luminosidade filtrada e leve secagem entre regas, sem repouso seco prolongado.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô bem ventilado e proporcional à touceira, com mistura grossa e secagem perceptível entre regas." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Muito recomendado", texto: "Vaso bem perfurado e ajustado ao tamanho das raízes, favorecendo estabilidade e evaporação." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Montagem em cortiça ou madeira, com regas mais frequentes para compensar a secagem rápida." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Recipiente pequeno e muito vazado, com mistura grossa e controle para não acumular água junto aos pseudobulbos." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura para cachepô ou vaso proporcional à touceira",
+        resumo: "Substrato de granulometria média a grossa, com excelente aeração e leve secagem entre regas.",
+        justificativa: "Os quatro componentes correspondem à primeira mistura qualitativa já registrada na ficha. Percentuais são estimativas técnicas ainda não homologadas pela MACS 1.0.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        perfil: ["Epífita ou rupícola", "Pseudobulbos firmes", "Alta luminosidade filtrada", "Raízes aeradas", "Leve secagem entre regas"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta as raízes com espaços de ar." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "drenagem", finalidade: "Ajuda a manter porosidade e secagem regular." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Reduz compactação e facilita a circulação de ar." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "estrutura", finalidade: "Complementa a drenagem e a estabilidade da mistura." }
+        ],
+        alerta: "Evitar sombra profunda, substrato constantemente molhado e enterramento da base dos pseudobulbos. Leve secagem não significa impor repouso seco prolongado.",
+        notaEvidencia: "Percentuais e estrelas são estimativas horticulturais não homologadas pela MACS 1.0. Validação visual dos assets pendente."
+    },
     errosComuns: [
         "Cultivar em sombra profunda",
         "Manter o substrato permanentemente molhado",
