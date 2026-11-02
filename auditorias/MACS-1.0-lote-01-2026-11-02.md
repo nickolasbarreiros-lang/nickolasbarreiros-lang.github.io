@@ -240,3 +240,32 @@ As fontes acima permitem validar princípios físicos e formas de cultivo, não 
 (C) inferência física/hortícola;
 (D) ensaio de comparação de substratos.
 **Não exigir 25 produtores quando indisponíveis, mas declarar a cobertura efetiva e suas lacunas.**
+
+## Síntese decisória do lote 01 — análise de força da evidência (02/11/2026)
+
+A auditoria não deve ficar indefinidamente presa à procura de uma receita exata de terceiros. **Homologação técnica** pode significar aprovação fundamentada dos componentes e da faixa funcional, enquanto **percentuais experimentais validados** exigem teste comparativo da própria espécie. Os dois rótulos devem permanecer separados.
+
+### Matriz de decisão operacional (sem alteração automática de receitas)
+
+| Espécie | Mistura registrada | Evidência mais próxima | Decisão técnica | Lacuna para homologar percentuais |
+|---|---|---|---|---|
+| Anathallis sclerophylla | 35 pinus / 30 arroz carbonizado / 20 esfagno / 15 carvão | Anatomia/habitat e gênero, sem comparação da espécie | **Condicional**; verificar retenção em raízes finas | Teste de secagem e resposta radicular |
+| Aerides odorata | 45 pinus / 35 carvão / 10 arroz carbonizado / 10 esfagno | Espécie epífita; suportes diversos e recomendações de drenagem | **Prioritária**; não confundir vaso com raízes livres | Comparação vaso vs cesto/placa e intervalo de secagem |
+| Epidendrum centropetalum | 45 pinus fino / 35 perlita / 20 esfagno | Espécie montada, alta umidade e secagem entre molhamentos | **Prioritária**; avaliar compactação | Secagem do meio em vaso vs montagem |
+| Miltonia russelliana | 35 pinus médio / 30 coco / 25 perlita / 10 carvão | Orientação de gênero para raízes finas e casca fina | **Prioritária**; verificar granulometria | Granulometria/retensão e vigor radicular |
+| Promenaea xanthina | 45 pinus fino / 40 perlita / 15 esfagno | Produtores específicos recomendam umidade e meios orgânicos | **Prioritária**; verificar secagem | Medição de umidade entre regas |
+| Brassia lawrenceana | 35 pinus / 25 coco / 20 macadâmia / 10 carvão / 10 perlita | RHS: casca aberta com perlita/esfagno/coco | **Condicional**; componentes plausíveis | Proporções não testadas na espécie |
+| Laelia splendida | 35 macadâmia / 30 pinus / 20 perlita / 15 carvão | Habitat exposto; mistura grossa e drenante | **Condicional**; estrutura plausível | Proporções não testadas na espécie |
+| Encyclia alboxanthina | 35 macadâmia / 30 pinus / 20 perlita / 15 carvão | Habitat sazonalmente seco; fonte horticultural da espécie | **Condicional**; não extrapolar estudo com híbrido | Proporções não testadas na espécie |
+| Phalaenopsis pulcherrima | 35 perlita / 30 brita / 25 macadâmia / 10 pinus | Produtores específicos usam orgânicos drenantes e brita basal | **Prioritária**; 65% mineral sem apoio direto | Comparação de retenção e fração mineral |
+| Dendrobium spectabile | 35 macadâmia / 30 pinus / 20 perlita / 15 carvão | Dois produtores específicos recomendam meio drenante | **Condicional**; princípios convergentes | Proporções não testadas na espécie |
+
+### Nova leitura de artigo experimental
+Menegusso et al. (2021), *Ornamental Horticulture*, DOI 10.1590/2447-536X.v27i3.2233: https://www.scielo.br/j/oh/a/XLHMMtpS9sDpYJXyMHMvYLf/ — no híbrido *Encyclia* 'Kropp' × *E. atropurpurea*, **substratos com esfagno favoreceram floração**, enquanto **carvão + pinus favoreceram desenvolvimento radicular**. Não há um único substrato vencedor para todos os indicadores, nem evidência de que esses efeitos se repitam em *E. alboxanthina*. Isso impede justificar percentuais com base apenas em um parâmetro.
+
+### Encaminhamento finito e verificável
+1. Para cada espécie, registrar fontes independentes e classificar a evidência: espécie, gênero, híbrido, estudo, inferência.
+2. Se não houver dados experimentais da espécie, encerrar como **homologação técnica condicional** quando componentes, recipiente e manejo forem coerentes, mantendo aviso explícito de que percentuais são proposta técnica; não usar o termo “percentuais cientificamente comprovados”.
+3. Priorizar alterações apenas quando houver contradição material demonstrável, documentando alternativa e seu nível de certeza.
+4. Teste opcional para validação numérica: comparar dois substratos em recipientes iguais, aferir massa do vaso após rega e 24/48/72 h, observar novas raízes e floração durante período de cultivo suficiente; controlar luz, temperatura, ventilação e frequência de rega.
+5. A meta de 25 produtores é **teto de busca**, não mínimo artificial: declarar cobertura real sem inventar referências.
