@@ -36,6 +36,39 @@ export const maxillariaLeucaimata = {
     rega: "Na fase de crescimento, molhe abundantemente e deixe o excesso escorrer. Ajuste vaso, substrato e ventilação para que a mistura perca rapidamente a água livre e volte a receber oxigênio. Após a maturação, amplie levemente o intervalo entre regas, sem impor seca severa. Pseudobulbos enrugados com substrato ainda molhado geralmente indicam perda radicular, abafamento ou substrato degradado — não simples falta de água.",
     suporte: "🥇 Vaso pequeno e muito perfurado: melhor equilíbrio entre retenção e oxigenação.\n🥈 Vaso de barro: excelente em locais úmidos ou para quem rega com frequência.\n🥉 Cesto de madeira ou placa: bons quando a umidade relativa permanece alta e é possível regar regularmente. O recipiente deve acomodar apenas poucos crescimentos futuros.",
     substrato: "🥇 perlita grossa + brita fina/média + casca de macadâmia triturada, com pequena fração de pinus.\n🥈 Macadâmia grossa + perlita grossa + cacos de cerâmica/argila expandida, mantendo o colo totalmente aerado.\n🥉 perlita grossa + argila expandida + carvão vegetal + casca de pinus grossa em baixa proporção.\n⭐ Alternativa: Brita + perlita grossa + carvão vegetal, acrescentando apenas 15–25% de componente orgânico grosso.",
+    formasCultivo: {
+        perfilVisual: "maxillaria-epifita-rupicola-raizes-finas",
+        destaque: "Vaso plástico vasado",
+        resumo: "Espécie epífita ou rupícola de raízes finas, que exige alta oxigenação e drenagem. Recipiente pequeno e muito perfurado favorece umidade disponível sem saturação prolongada.",
+        metodos: [
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno, muito perfurado e proporcional à touceira, com mistura mineral e orgânica extremamente aberta." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Alternativa excelente", texto: "Boa opção em locais úmidos ou com regas frequentes, mantendo rápida troca de ar nas raízes." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô vazado em ambiente de umidade elevada e regas regulares." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Montagem apenas quando umidade e frequência de rega impedirem desidratação prolongada." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura mineral muito aberta para vaso pequeno",
+        resumo: "Predomínio de partículas minerais drenantes, com fração orgânica grossa reduzida para raízes sensíveis à saturação.",
+        justificativa: "A composição quantifica os quatro materiais da primeira mistura qualitativa original, preservando sua predominância mineral. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% perlita grossa + 30% brita fina/média + 25% casca de macadâmia triturada + 10% casca de pinus média.",
+        perfil: ["Epífita ou rupícola", "Raízes finas", "Alta oxigenação", "Drenagem rápida", "Umidade sem saturação"],
+        comportamento: [
+            { nome: "Retenção", valor: 1, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 5, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "35%", nota: "aeração", finalidade: "Mantém espaços de ar e reduz a compactação." },
+            { asset: "brita-fina", nome: "Brita fina/média", proporcao: "30%", nota: "drenagem", finalidade: "Favorece escoamento rápido e estabilidade física." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "25%", nota: "estrutura orgânica", finalidade: "Oferece apoio às raízes sem retenção excessiva." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "10%", nota: "umidade pontual", finalidade: "Acrescenta pequena reserva hídrica à mistura mineral." }
+        ],
+        alerta: "Evitar vaso grande, rizoma enterrado, substrato degradado ou saturado e seca prolongada. Observar o tempo real de secagem e replantar no início do enraizamento.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Usar vaso grande; enterrar o rizoma ou base dos brotos; manter substrato velho, triturado ou permanentemente saturado; cultivar em sombra profunda; impor seca prolongada; adubar em concentração alta; não fazer lavagem periódica; replantar fora do início do enraizamento.",
     dica: "Observe o tempo de secagem real do vaso. A espécie gosta de receber bastante água quando regada, mas também precisa recuperar rapidamente o oxigênio em torno das raízes. Se a mistura continua molhada por muitos dias, corrija o vaso, a granulometria ou a ventilação em vez de simplesmente reduzir o volume de água aplicado.",
     revisaoCientificaIAR: {
