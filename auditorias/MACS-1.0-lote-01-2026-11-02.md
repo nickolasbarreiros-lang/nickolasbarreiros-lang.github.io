@@ -32,3 +32,32 @@ Dez fichas do índice oficial. Este documento é um registro de auditoria técni
 - A abrangência de produtores brasileiros por espécie ainda não atingiu a meta de até 25; não alegar tal cobertura.
 - Não substituir percentuais com base apenas em intuição. Preservar fichas V4.9, imagens, assets, IDC, IAR e alternativas.
 - Próxima ação: documentação específica por espécie, comparação com produtores nacionais e testes observacionais de retenção/secagem por recipiente.
+
+## Adendo de evidências específicas — 2026-11-02
+
+### Aerides odorata
+- AOS, gênero Aerides: https://www.aos.org/explore/aerides — diferencia plantas de caule curto (cestos pequenos, substrato médio/grosso, ou placas com pequeno reservatório hídrico) e plantas de crescimento alongado (cestos grandes sem substrato, rega diária). **Não universalizar a indicação de raízes totalmente livres para todas as plantas do gênero.**
+- NParks, ficha da espécie: https://www.nparks.gov.sg/florafaunaweb/flora/5/9/5995 — cultivo em meio muito drenante ou montada; borrifar raízes frequentemente quando montada.
+- Decisão: manter cultivo montado/raízes livres como opção condicionada à disponibilidade de rega frequente; mistura atual de vaso permanece alternativa, não comprovadamente inferior. Não retirar esfagno apenas por pertencer às vandáceas.
+- Lacuna: verificar morfologia, porte do exemplar e secagem efetiva no recipiente escolhido.
+
+### Promenaea xanthina
+- Orquidário Oriental: https://www.orquidariooriental.com.br/produto/ipromenaea-xanthinai%2C887/ — esfagno ou misturas de coco/pinus/carvão, regas constantes, umidade contínua.
+- Orquidário Santa Clara: https://orquidariosantaclara.com.br/home/2688-promenaea-xantina-ad.html — vários substratos/recipientes, ventilação e evitar encharcamento.
+- Orquidário Aparecida: https://orquidarioaparecida.com.br/produtos/promenaea-xanthina-p/ — exemplares montados em ripas de madeira, com alta umidade ambiental e rega conforme necessidade.
+- Convergência: umidade disponível e oxigenação; divergência aparente de recipiente explicada pelo manejo da irrigação e microclima.
+- Decisão: receita 45/40/15 não homologada; aumento de retenção é hipótese de manejo, não porcentagem publicada. Não alterar automaticamente para 40/25/25/10.
+
+### Phalaenopsis pulcherrima
+- OrchidCambodia: https://www.orchidcambodia.com/phalaenopsis-doritis-pulcherrima — terrestre ou litófita, solo arenoso e rochas às vezes musgosas.
+- AOS / artigo de Carlos Fighetti reproduzido pela St. Augustine Orchid Society: https://staugorchidsociety.org/PDF/SAOSNewsletter202107.pdf — raízes de substrato e meio semiterrestre, luz relativamente alta.
+- NYBG: https://libguides.nybg.org/orchidfaqs — meios finos/médios podem ser mais adequados a terrestres e espécies que precisam de umidade; aeração permanece essencial.
+- Decisão: formulação mineral atual requer ensaio de retenção e estabilidade; alternativa 20/25/15/25/15 anteriormente discutida é somente hipótese, não receita homologada.
+- Lacuna: referências específicas de produtores brasileiros, tamanho radicular e comparação observacional por recipiente.
+
+### Metodologia de avaliação futura
+1. Identificar a forma principal de cultivo e avaliar a mistura somente no recipiente ao qual se aplica.
+2. Registrar granulometria real, origem e preparação de cada componente, salinidade do coco quando usado, e degradação do material orgânico.
+3. Testar tempo de secagem após rega completa em condições comparáveis; observar raízes novas e sinais de hipóxia ou desidratação.
+4. Distinguir explicitamente: fonte botânica, recomendação comercial de produtor, extrapolação de gênero e inferência horticultural.
+5. Não converter número de fontes consultadas em falsa confirmação experimental dos percentuais.
