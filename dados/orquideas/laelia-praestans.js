@@ -37,6 +37,39 @@ export const laeliaPraestans = {
     rega: "Durante brotação e emissão de raízes, regue abundantemente e permita que a mistura perca boa parte da umidade antes da próxima irrigação. A espécie aprecia umidade atmosférica, mas precisa de oxigênio nas raízes. Após o amadurecimento do pseudobulbo, diminua discretamente a frequência sem impor seca prolongada. Em montagem, pode exigir regas muito frequentes no verão quente.",
     suporte: "🥇 Cachepô pequeno e muito vazado.\n🥈 Vaso pequeno de barro, que ajuda a dissipar calor e acelerar a secagem.\n🥉 Placa de cortiça ou madeira, ótima para aeração, porém exigindo regas mais frequentes.\nO recipiente deve ser proporcional à planta, sem grande volume de substrato sobrando.",
     substrato: "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.",
+    formasCultivo: {
+        perfilVisual: "cattleya-compacta-epifita-raizes-aeradas",
+        destaque: "Cachepô de Madeira",
+        resumo: "Epífita compacta com flores grandes em relação ao porte. Prefere recipiente pequeno, raízes muito ventiladas, umidade regular durante crescimento e secagem perceptível entre regas.",
+        metodos: [
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô pequeno e muito vazado, com substrato grosso e espaço suficiente para o rizoma." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e perfurado, que ajuda a dissipar calor e favorece secagem mais rápida." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Cortiça ou madeira durável com raízes expostas; requer regas mais frequentes em períodos quentes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Vaso proporcional à planta e muito perfurado, sem grande volume de substrato retentivo." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aberta para cachepô pequeno",
+        resumo: "Partículas médias com boa sustentação, drenagem rápida e reserva hídrica moderada.",
+        justificativa: "A composição quantifica os quatro componentes da primeira mistura qualitativa já registrada na ficha. Percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        perfil: ["Epífita compacta", "Pseudobulbos curtos", "Raízes ventiladas", "Umidade regular", "Secagem perceptível"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta raízes sem compactar o recipiente." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "apoio e umidade", finalidade: "Favorece enraizamento com umidade moderada." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Mantém espaços de ar e drenagem." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta." }
+        ],
+        alerta: "Evitar sombra excessiva, sol forte sem aclimatação, vaso grande, substrato compactado e excesso de água. Não enterrar o rizoma nem replantar fora da emissão de raízes novas sem necessidade.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Sombra excessiva; sol forte do litoral sem aclimatação; substrato compactado; excesso constante de água; deixar secar demais durante crescimento ativo; vaso grande; enterrar o rizoma; replantar fora da emissão de raízes novas; excesso de fertilizante; dividir touceiras pequenas; compensar calor aumentando indiscriminadamente as regas.",
     dica: "O segredo é equilibrar umidade ambiental com muita aeração nas raízes. Em clima quente, melhore primeiro ventilação e sombreamento antes de aumentar a água. Uma planta com pseudobulbos firmes, folhas compactas e raízes ativas costuma responder com flores grandes na primavera.",
     revisaoCientificaIAR: {
