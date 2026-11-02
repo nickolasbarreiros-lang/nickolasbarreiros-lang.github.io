@@ -41,6 +41,38 @@ export const spathoglottisPlicata = {
     "rega": "Mantenha umidade regular durante emissão de brotos, folhas e hastes, sempre com drenagem imediata. No frio ou em períodos muito chuvosos, reduza a frequência, mas não deixe o vaso secar totalmente durante crescimento ativo. Nunca mantenha prato com água.",
     "suporte": "🥇 Vaso largo e profundo, com muitos furos — acomoda raízes e novas frentes.\n🥈 Jardineira bem drenada — excelente para expansão da touceira.\n🥉 Canteiro elevado com solo leve — indicado em jardins quentes.\nMantenha os pseudobulbos na superfície, sem enterrá-los profundamente.",
     "substrato": "🥇 Casca de arroz carbonizada + fibra de coco + perlita + perlita grossa, com pequena fração de pinus fino.\n🥈 Chips de coco pequenos + casca de arroz carbonizada + perlita grossa + argila expandida miúda.\n🥉 Fibra de coco + perlita + pinus fino + carvão vegetal miúdo, mantendo drenagem rápida apesar do hábito terrestre.\n⭐ Alternativa: Macadâmia média + casca de arroz carbonizada + perlita grossa + fibra de coco para uma mistura durável e aberta.",
+    formasCultivo: {
+        perfilVisual: "spathoglottis-terrestre-touceirante-raizes-vaso",
+        destaque: "Vaso plástico",
+        resumo: "Orquídea terrestre de touceira expansiva. Recipiente largo e profundo, com muitos furos, permite o crescimento das raízes e novas frentes sem encharcamento.",
+        metodos: [
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso amplo e profundo, com muitos furos e mistura terrestre leve; manter pseudobulbos próximos da superfície." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso largo e bem drenado, com acompanhamento da secagem mais rápida." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Recipiente amplo e muito perfurado, com rega ajustada à evaporação." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura terrestre leve para recipiente amplo e drenado",
+        resumo: "Uma mistura de componentes finos e médios, leve e arejada, que conserva umidade sem formar massa compacta.",
+        justificativa: "A receita quantifica os componentes da primeira mistura qualitativa da ficha. O termo perlita aparece duas vezes na receita original; foi consolidado em perlita grossa para evitar duplicidade. Percentuais estimados, não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de arroz carbonizada + 30% fibra de coco + 25% perlita grossa + 10% casca de pinus fina.",
+        perfil: ["Orquídea terrestre", "Touceira expansiva", "Raízes em recipiente", "Umidade regular", "Drenagem elevada"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 2, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "35%", nota: "estrutura", finalidade: "Mantém a mistura leve e permeável." },
+            { asset: "fibra-coco", nome: "Fibra de coco", proporcao: "30%", nota: "umidade", finalidade: "Oferece retenção moderada para raízes terrestres." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Melhora drenagem e evita compactação." },
+            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "10%", nota: "estrutura", finalidade: "Complementa a porosidade da mistura." }
+        ],
+        alerta: "Evitar terra compacta, vasos sem furos, pratos com água e enterro profundo dos pseudobulbos. Não deixar a mistura secar completamente durante o crescimento ativo.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Verificação visual dos assets pendente."
+    },
     "errosComuns": "Terra compacta; enterrar pseudobulbos; prato com água; sombra profunda; matéria orgânica fresca; vaso sem drenagem; deixar secar totalmente no crescimento; excesso de chuva no colo; cortar folhas verdes; dividir em poucas unidades; pouca luz.",
     "dica": "Use recipiente amplo, mistura terrestre leve e muito drenante e ofereça sol da manhã. Deixe os pseudobulbos parcialmente expostos na superfície. Essa combinação de luz alta, água regular e raízes oxigenadas mantém a planta vigorosa e capaz de produzir hastes por muitos meses.",
     revisaoCientificaIAR: {
