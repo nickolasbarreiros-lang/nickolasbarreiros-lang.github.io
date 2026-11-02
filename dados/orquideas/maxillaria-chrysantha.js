@@ -35,7 +35,7 @@ export const maxillariaChrysantha = {
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade dentro de porta-adubo e afastado do rizoma.\n💧 Foliar/radicular: NPK equilibrado em 1/4 a 1/3 da dose a cada 10 a 15 dias durante raízes e brotos ativos.\n🧪 Liberação lenta: usar dose mínima e afastada das raízes novas. Faça flushing mensal apenas com água pura para reduzir sais.",
     rega: "Durante o crescimento, mantenha umidade regular, permitindo boa aeração entre regas. O substrato não deve secar completamente por períodos longos nem permanecer saturado. Após a maturação, aumente discretamente o intervalo. Em dias frios, úmidos ou nublados, ajuste a frequência à menor evaporação. Pseudobulbos enrugando progressivamente exigem inspeção das raízes antes de aumentar a água.",
     suporte: "🥇 Vaso de barro pequeno e bem furado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira vazado.\n🥉 Placa de madeira ou cortiça somente em ambiente fresco e úmido o suficiente para evitar desidratação rápida.",
-    substrato: "🥇 Casca de pinus média + casca de macadâmia triturada + perlita grossa + fibra de coco grossa.\n🥈 Pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia.\n🥉 Fibra de coco grossa + chips de coco + perlita grossa + pinus médio, sem compactação.\n⭐ Alternativa: Chips de coco + pinus médio + perlita + carvão vegetal miúdo.",
+    substrato: ["🥇 Pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia.","🥈 Fibra de coco grossa + chips de coco + perlita grossa + pinus médio.","🥉 Chips de coco + pinus médio + perlita grossa + carvão vegetal miúdo."],
     formasCultivo: {
         perfilVisual: "maxillaria-montana-raizes-sensiveis-calor",
         destaque: "Vaso de Barro",
