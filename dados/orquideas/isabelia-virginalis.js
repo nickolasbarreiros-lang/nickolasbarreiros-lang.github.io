@@ -29,7 +29,7 @@ export const isabeliaVirginalis = {
     adubacao: "🌿 Orgânica: bokashi em quantidade mínima dentro de porta-adubo, sem contato com a touceira.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: somente poucos grânulos em cesto ou vaso raso e muito drenante.\n💦 Lavagem: passe água limpa pelo suporte periodicamente para evitar acúmulo de sais nas raízes finas.",
     rega: "No calor e durante a brotação, molhe completamente e permita secagem rápida antes da próxima rega. Plantas montadas podem precisar de água quase diária em dias secos e ventilados. No frio, aumente o intervalo, mas não deixe a colônia murchar por períodos prolongados.",
     suporte: "🥇 Placa de cortiça ou galho de casca rugosa.\n🥈 Madeira dura e durável, instalada horizontal ou levemente inclinada.\n🥉 Cesto muito raso e largo, com mistura grosseira e rizoma totalmente exposto.",
-    substrato: "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n🥉 Casca de macadâmia grossa + perlita grossa + carvão vegetal, com secagem muito rápida.\n⭐ Alternativa: Pinus grosso + brita fina + carvão vegetal; evitar esfagno no miolo do vaso.",
+    substrato: ["🥇 Casca de macadâmia grossa + perlita grossa + carvão vegetal.","🥈 Pinus grosso + brita fina + carvão vegetal."],
     formasCultivo: {
         perfilVisual: "miniatura-rizoma-rastejante-fibras",
         destaque: "Placa / tronco",
