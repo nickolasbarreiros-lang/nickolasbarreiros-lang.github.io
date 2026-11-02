@@ -37,6 +37,39 @@ export const lcTrickOrTreat = {
     rega: "Durante a emissão de brotos e raízes novas, regue abundantemente e deixe o substrato secar de forma clara antes da próxima irrigação. Na fase de enchimento dos pseudobulbos, evite secas longas que produzam frentes menores. Após a maturação, aumente moderadamente o intervalo. Em períodos frios ou chuvosos, ajuste pela evaporação real e regue preferencialmente pela manhã.",
     suporte: "🥇 Vaso de barro ou plástico muito perfurado.\n🥈 Cachepô de madeira, excelente para raízes vigorosas e touceiras adultas.\n🥉 Cesto amplo, indicado para plantas grandes e com várias frentes.\nUse recipiente proporcional e com espaço para duas ou três brotações futuras.",
     substrato: "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Chips de coco grossos + perlita grossa + carvão + pinus médio, com secagem clara entre regas.\n🥉 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n⭐ Alternativa: Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.",
+    formasCultivo: {
+        perfilVisual: "hibrido-cattlianthe-vigoroso-multifloral",
+        destaque: "Vaso de Barro",
+        resumo: "Híbrido vigoroso de crescimento em touceira e hastes multiflorais. Favorecer vaso proporcional e bem perfurado, luz alta filtrada, secagem perceptível entre regas e espaço para brotações futuras.",
+        metodos: [
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso proporcional à touceira, largo e muito perfurado, com espaço para duas ou três brotações futuras." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 5, status: "Alternativa equivalente", texto: "Plástico muito perfurado, com mistura grossa e regas ajustadas à secagem." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô robusto e ventilado, especialmente para raízes vigorosas e touceiras adultas." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 2, status: "Uso condicional", texto: "Montagem apenas em suporte grande e estável, com manejo de regas adequado ao porte adulto." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aberta para vaso bem perfurado",
+        resumo: "Partículas médias e grossas, com apoio às raízes vigorosas e secagem perceptível entre regas.",
+        justificativa: "A receita quantifica os quatro materiais da primeira mistura qualitativa já registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        perfil: ["Híbrido vigoroso", "Touceira expansiva", "Raízes ativas", "Alta luz filtrada", "Secagem entre regas"],
+        comportamento: [
+            { nome: "Retenção", valor: 2, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 4, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta raízes vigorosas sem compactação." },
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "apoio e umidade", finalidade: "Favorece fixação radicular com umidade moderada." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Mantém drenagem e espaços de ar." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta da mistura." }
+        ],
+        alerta: "Evitar sombra excessiva, vaso grande, rizoma enterrado, substrato compacto e regas sem secagem. Tutorar a haste enquanto cresce e não reorientá-la depois de endurecida.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     errosComuns: "Pouca luz; excesso de nitrogênio na maturação; vaso grande; substrato compactado; rizoma enterrado; regas sem secagem; falta de tutoramento; tentar corrigir a posição da haste depois de endurecida; cortar haste ainda verde; replantar sem raízes novas; dividir a touceira com frequência; somar várias fontes de adubo em dose completa.",
     dica: "Instale o tutor enquanto a haste ainda está crescendo e antes de os botões ganharem peso. Depois que ela endurece, tentar reorientá-la aumenta o risco de quebra. Para florações cheias, combine luz alta filtrada, pseudobulbos bem formados e uma touceira com várias frentes maduras.",
     revisaoCientificaIAR: {
