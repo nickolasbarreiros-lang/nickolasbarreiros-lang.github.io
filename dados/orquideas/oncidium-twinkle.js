@@ -37,6 +37,39 @@ export const oncidiumTwinkle = {
     "rega": "Mantenha umidade regular enquanto brotos e raízes novas estiverem ativos, permitindo secagem superficial entre regas. Após a maturação, reduza ligeiramente sem deixar os pequenos pseudobulbos enrugarem profundamente. Pseudobulbo enrugado com substrato seco sugere falta de água; enrugamento com substrato úmido indica provável perda de raízes. Brotos amolecendo pela base apontam abafamento, água retida ou rega tardia.",
     "suporte": "🥇 Vaso plástico pequeno e bem perfurado: mantém umidade uniforme sem excesso.\n🥈 Cachepô compacto de madeira: oferece aeração e espaço para a touceira.\n🥉 Placa com esfagno fino: somente em ambientes de alta umidade e rega frequente.\nO recipiente deve ser proporcional, não apertado a ponto de esmagar raízes nem grande a ponto de permanecer molhado.",
     "substrato": "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.",
+    formasCultivo: {
+        perfilVisual: "oncidium-twinkle-hibrido-compacto-raizes-capilares",
+        destaque: "Vaso plástico",
+        resumo: "Híbrido compacto de raízes capilares finas e touceira florífera. Vaso plástico pequeno, proporcional e bem perfurado mantém umidade uniforme sem excesso.",
+        metodos: [
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno e bem perfurado, dimensionado para a touceira, sem comprimir raízes ou reter água por tempo excessivo." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô compacto e aberto, com aeração e regas ajustadas à secagem." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Modelo pequeno e bastante vazado, com atenção à umidade durante o crescimento ativo." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Placa com esfagno em camada fina, apenas em ambiente úmido e com regas frequentes." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aerada com umidade uniforme para vaso compacto",
+        resumo: "Raízes finas precisam de umidade regular e substrato aberto, com drenagem eficiente e sem secagem completa durante o crescimento.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa já registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        perfil: ["Híbrido compacto", "Raízes capilares", "Touceira florífera", "Umidade regular", "Vaso proporcional"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Mantém raízes apoiadas sem compactação." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a manter umidade regular entre regas." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação das raízes finas." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para a estrutura aberta da mistura." }
+        ],
+        alerta: "Evitar vasos grandes, substrato degradado, sombra excessiva, adubação concentrada e secagem completa durante o crescimento. Preservar vários pseudobulbos ao dividir.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "Usar vaso grande; manter substrato velho; dividir em 1–2 pseudobulbos; cultivar em sombra excessiva; adubar forte; deixar secar completamente no crescimento; molhar brotos no fim do dia; confundir vaso proporcional com raiz comprimida.",
     "dica": "O segredo não é 'apertar' fisicamente a planta, e sim usar recipiente proporcional, que seque por igual e preserve as raízes capilares. Mantenha a touceira intacta e replante apenas quando o substrato degradar, a planta sair do vaso ou novas raízes começarem. Divisões devem conservar vários pseudobulbos maduros, broto ativo e raízes próprias para não sacrificar a floração em nuvem.",
     revisaoCientificaIAR: {
