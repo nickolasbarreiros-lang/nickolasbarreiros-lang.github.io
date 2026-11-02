@@ -30,7 +30,7 @@ export const gomesaRecurva = {
     adubacao: "🌿 Orgânica: bokashi leve em porta-adubo no início da brotação.\n💧 Foliar: NPK equilibrado em 1/4 da dose, semanalmente ou a cada 10–15 dias durante o crescimento ativo.\n🧪 Liberação lenta: poucos grânulos no perímetro de vaso drenante, sempre afastados das raízes novas.\n💦 Lavagem: faça periodicamente uma rega abundante apenas com água limpa para reduzir o acúmulo de sais.",
     rega: "Durante a brotação, regue quando o substrato estiver próximo da secagem, mantendo umidade regular sem saturação. Após a maturação dos pseudobulbos, aumente gradualmente o intervalo entre as irrigações, sem permitir enrugamento intenso. No final do inverno, ajuste a água à menor atividade vegetativa, mas não imponha dormência seca.",
     suporte: "🥇 Placa de madeira dura ou cortiça, valorizando o hábito pendente.\n🥈 Cachepô pequeno de madeira.\n🥉 Vaso de barro baixo e perfurado, instalado em posição elevada.",
-    substrato: "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n🥉 Chips de coco + carvão vegetal + perlita + casca de pinus média.\n⭐ Alternativa: Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.",
+    substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
     formasCultivo: {
         perfilVisual: "gomesa-epifita-hastes-arqueadas",
         destaque: "Placa / tronco",
