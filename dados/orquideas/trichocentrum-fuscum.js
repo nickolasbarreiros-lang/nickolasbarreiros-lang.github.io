@@ -41,6 +41,37 @@ export const trichocentrumFuscum = {
     "rega": "Molhe abundantemente e espere raízes e suporte secarem quase por completo antes de repetir. Em plantas montadas, pode haver rega diária no verão se a secagem ocorrer em poucas horas. No inverno, reduza significativamente a frequência. Nunca deixe água acumulada na base foliar, sobretudo à noite.",
     "suporte": "🥇 Placa de madeira, cortiça ou tronquinho — reproduz melhor a secagem rápida do habitat.\n🥈 Cachepô pequeno e muito vazado — mantém raízes expostas ao ar.\n🥉 Vaso pequeno de barro com muitos furos — alternativa para ambientes mais secos.\nUse pouca ou nenhuma retenção ao redor das raízes.",
     "substrato": "🥇 Montagem em nó de pinho, cortiça ou madeira dura, sem material retentivo no centro das raízes.\n🥈 Pinus grosso + brita fina + carvão vegetal; evitar esfagno no miolo do vaso.\n🥉 Chips de coco muito grossos + argila expandida + carvão, em cesto extremamente ventilado.\n⭐ Alternativa: Casca de macadâmia grossa + perlita grossa + carvão vegetal, com secagem muito rápida.",
+    formasCultivo: {
+        perfilVisual: "trichocentrum-fuscum-epifita-raizes-aereas-secagem-rapida",
+        destaque: "Placa / tronco",
+        resumo: "Epífita adaptada a secagem rápida, com raízes muito arejadas. Montagem em madeira ou cortiça evita acúmulo de água junto à base.",
+        metodos: [
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Montar em cortiça ou madeira firme, com raízes expostas e sem material retentivo no centro." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô pequeno e muito aberto, com partículas grossas e secagem rápida." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e bastante perfurado, com mistura mineral e vegetal muito drenante." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Montagem principal sem substrato; receita alternativa para vaso pequeno",
+        resumo: "Em placa, não colocar material retentivo junto às raízes. Para vaso, partículas grossas e drenantes favorecem secagem rápida.",
+        justificativa: "A receita percentual traduz a segunda mistura qualitativa da ficha para uso em vaso, não para aplicação sobre a placa. Percentuais ainda não homologados pela MACS 1.0.",
+        receitaTexto: "45% casca de pinus grossa + 30% brita fina + 25% carvão vegetal grosso.",
+        perfil: ["Epífita", "Raízes expostas", "Baixa retenção", "Secagem rápida", "Ventilação elevada"],
+        comportamento: [
+            { nome: "Retenção", valor: 1, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 5, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "45%", nota: "estrutura", finalidade: "Mantém espaços amplos de ar." },
+            { asset: "brita-fina", nome: "Brita fina", proporcao: "30%", nota: "drenagem", finalidade: "Evita retenção prolongada de água." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal grosso", proporcao: "25%", nota: "aeração", finalidade: "Contribui para porosidade e secagem rápida." }
+        ],
+        alerta: "Evitar esfagno no centro das raízes, vaso grande, sombra excessiva, água acumulada na base das folhas e regar antes da secagem.",
+        notaEvidencia: "Mistura percentual aplicável apenas a vaso alternativo. Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Verificação visual dos assets pendente."
+    },
     "errosComuns": "Sombra excessiva; vaso grande; regar novamente antes da secagem; substrato compacto; água acumulada na base das folhas; pouca ventilação; adubo forte; manter molhado no inverno; excesso de esfagno; replantar fora da emissão de raízes.",
     "dica": "Use a própria suculência das folhas como guia: a planta foi construída para armazenar água, não para permanecer molhada. Molhe completamente, ventile e deixe o sistema radicular secar quase por inteiro antes da próxima rega. Montagem em madeira ou recipiente extremamente vazado torna esse ciclo muito mais seguro.",
     revisaoCientificaIAR: {
