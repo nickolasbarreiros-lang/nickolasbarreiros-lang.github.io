@@ -38,6 +38,39 @@ export const oncidiumPubes = {
     "rega": "Regue generosamente enquanto novos brotos e raízes estiverem ativos, permitindo que o substrato se aproxime da secagem antes da próxima irrigação. Após a maturação, aumente moderadamente o intervalo. Pseudobulbos ligeiramente sulcados podem ser normais; enrugamento profundo com substrato úmido sugere raízes mortas por abafamento. Raízes novas apresentam pontas claras ou verdes; raízes escuras, ocas ou moles indicam substrato velho, excesso de água ou falta de oxigênio.",
     "suporte": "🥇 Vaso de barro pesado ou plástico bem perfurado com ancoragem: evita tombamento pelo peso da haste.\n🥈 Cesto de madeira: permite boa aeração e livre desenvolvimento das inflorescências arqueadas.\n🥉 Placa de madeira dura: indicada apenas em ambientes úmidos com regas frequentes.\nTutores devem ser instalados cedo e presos com folga, sem apertar a haste ainda em alongamento.",
     "substrato": "🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.\n🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.\n🥉 Casca de macadâmia triturada média + pinus médio + perlita grossa, com pequena fração de fibra de coco.\n⭐ Alternativa: Chips de coco + carvão vegetal + perlita + casca de pinus média.",
+    formasCultivo: {
+        perfilVisual: "gomesa-epifita-hastes-longas-arqueadas",
+        destaque: "Vaso de Barro",
+        resumo: "Epífita de pseudobulbos bifoliados e hastes longas e ramificadas. O vaso pesado, bem drenado e ancorado evita tombamento, enquanto a luz frontal estável favorece o desenvolvimento da haste.",
+        metodos: [
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pesado e perfurado, com ancoragem e tutor precoce para as hastes longas." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso muito perfurado, desde que a base seja estabilizada para evitar tombamento." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Oferece aeração e espaço livre para as inflorescências arqueadas, com suporte estável." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Madeira dura apenas em ambiente úmido e com regas frequentes." }
+        ]
+    },
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Mistura aberta para vaso estável e perfurado",
+        resumo: "Retenção moderada, drenagem eficiente e boa oxigenação para raízes epífitas, sem compactação junto ao rizoma.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        perfil: ["Epífita simpodial", "Pseudobulbos bifoliados", "Hastes ramificadas", "Vaso estável", "Boa aeração"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Apoia raízes sem compactação excessiva." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Oferece umidade moderada entre regas." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Ajuda a manter a mistura aberta." }
+        ],
+        alerta: "Evitar girar o vaso durante a formação da haste, recipientes leves, sombra profunda, substrato velho, rizoma enterrado e replantio fora da emissão de raízes novas.",
+        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+    },
     "errosComuns": "❌ Girar ou mudar o vaso durante a formação da haste.\n❌ Usar recipiente leve que tombe com a inflorescência.\n❌ Cultivar em sombra profunda.\n❌ Manter substrato velho e compacto.\n❌ Enterrar o rizoma.\n❌ Forçar repouso seco após a maturação.\n❌ Exagerar no nitrogênio quando o pseudobulbo já está maduro.\n❌ Replantar fora da fase de emissão de novas raízes.",
     "dica": "Assim que a haste aparecer, marque a frente do vaso e mantenha a planta em posição definitiva, com luz frontal constante. Garanta peso no recipiente, espaço vertical e tutor precoce. O fototropismo é forte: mudanças de posição fazem a haste se contorcer. Replante somente no início das novas raízes, preservando as pontas ativas que sustentarão o pseudobulbo e a próxima floração.",
     revisaoCientificaIAR: {
