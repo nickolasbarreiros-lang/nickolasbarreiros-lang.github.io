@@ -40,7 +40,7 @@ export const rodrigueziaLanceolata = {
     "adubacao": "🌿 Orgânica: bokashi em sachê pequeno, afastado das raízes e do centro da touceira.\n💧 Mineral/Foliar: NPK equilibrado bem diluído a cada 7–15 dias durante brotação e enraizamento.\n🌱 Crescimento: mantenha nutrição leve enquanto houver raízes novas ativas.\n🧪 Liberação lenta: Osmocote em dose reduzida apenas em vasos/cachepôs muito drenantes.\n🚿 Lavagem: enxágue periodicamente o suporte para evitar acúmulo de sais.",
     "rega": "Regue com frequência nos meses quentes e durante emissão de brotos e raízes novas. Em plantas montadas, regas diárias podem ser necessárias no verão, desde que as raízes sequem rapidamente. Em vasos, permita leve secagem entre irrigações. No frio ou em períodos chuvosos, reduza a frequência.",
     "suporte": "🥇 Cachepô pequeno de madeira — excelente equilíbrio entre retenção e ventilação.\n🥈 Tronco, placa de madeira ou cortiça — reproduz muito bem o hábito epífito.\n🥉 Vaso pequeno e muito vazado — opção prática em ambientes mais secos.\nEvite recipientes grandes ou fundos.",
-    substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
+    substrato: ["🥇 Para cachepô ou vaso: casca de pinus média + chips de coco + perlita grossa + carvão vegetal (mistura-base provisória do substrato visual; placa/tronco permanece principal).","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
     formasCultivo: {
         perfilVisual: "rodriguezia-epifita-raizes-finas-hastes-pendentes",
         destaque: "Placa / tronco",
@@ -56,7 +56,7 @@ export const rodrigueziaLanceolata = {
         titulo: "Substrato ideal",
         contexto: "Mistura alternativa para cachepô ou vaso; montagem principal em placa/tronco sem enchimento",
         resumo: "Na placa ou tronco, manter raízes expostas e bem ventiladas, sem preencher a montagem com a mistura percentual. Em cachepô ou vaso, utilizar substrato aberto de partículas médias e umidade moderada.",
-        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original e destina-se apenas a recipientes; não deve ser aplicada como camada espessa sobre a placa ou tronco. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual propõe pinus, chips de coco, perlita e carvão para cachepô ou vaso, agora também descritos como primeira alternativa textual. As alternativas anteriores usam materiais distintos. Não aplicar como camada espessa sobre placa ou tronco, que permanecem o cultivo principal. Percentuais estimados e ainda não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
         perfil: ["Epífita compacta", "Raízes finas", "Hastes pendentes", "Umidade moderada", "Ventilação alta"],
         comportamento: [
