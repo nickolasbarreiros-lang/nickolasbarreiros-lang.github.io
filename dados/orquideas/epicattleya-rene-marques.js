@@ -34,7 +34,7 @@ export const epicattleyaReneMarques = {
     adubacao: "🌿 Orgânica: bokashi leve no canto do vaso a cada 2–3 meses durante o crescimento.\n💧 Foliar: NPK equilibrado a cerca de 1/3 da dose semanalmente ou a cada 10–15 dias.\n🧪 Pré-floração: reduza o excesso de nitrogênio e mantenha adubação equilibrada e diluída. Uma fórmula moderadamente mais rica em potássio pode ser alternada ocasionalmente, sem usar doses elevadas de fósforo ou sais.",
     rega: "Regue generosamente durante a emissão de brotos e raízes, permitindo que o substrato se aproxime da secagem antes da próxima irrigação. Reduza a frequência no inverno ou quando não houver crescimento ativo. Evite água acumulada no miolo das folhas e nas inflorescências em formação.",
     suporte: "🥇 Vaso de barro firme e bem drenado.\n🥈 Vaso plástico com furação lateral abundante.\n🥉 Cachepô de madeira robusto.\n🌿 Placa de madeira apenas para divisões jovens e vigorosas.",
-    substrato: ["🥇 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","🥈 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio.","🥉 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco."],
+    substrato: ["🥇 Para vaso firme e bem drenado: casca de macadâmia média 35% + casca de pinus média 30% + perlita grossa 20% + carvão vegetal 15% (mistura visual provisória, não homologada).","🥈 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","🥉 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio.","Alternativa adicional: pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco."],
     formasCultivo: {
         perfilVisual: "hibrido-intergenerico-alto-vigoroso",
         destaque: "Vaso de Barro",
@@ -50,7 +50,7 @@ export const epicattleyaReneMarques = {
         titulo: "Substrato ideal",
         contexto: "Mistura para vaso firme e bem drenado",
         resumo: "Partículas médias e grossas que sustentam a planta vigorosa sem reter água continuamente.",
-        justificativa: "Os quatro materiais seguem a primeira mistura qualitativa já registrada na ficha. As proporções são estimativas horticulturais, não homologadas pela MACS 1.0.",
+        justificativa: "A receita visual combina macadâmia média, pinus médio, perlita grossa e carvão vegetal; a formulação exata foi acrescentada como primeira alternativa textual, preservando as três misturas anteriores. A orientação geral para Cattleyas sustenta recipiente drenante e mistura aberta, mas não valida os percentuais para este grex. Proposta horticultural ainda não homologada pela MACS 1.0.",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Híbrido intergenérico", "Caules altos", "Hastes terminais", "Alta luminosidade", "Raízes aeradas"],
         comportamento: [
