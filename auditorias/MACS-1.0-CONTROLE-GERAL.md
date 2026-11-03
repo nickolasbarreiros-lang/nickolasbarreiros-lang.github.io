@@ -988,3 +988,14 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Conferido `dados/orquideas/pinalia-elata.js`: identificação ainda provisória, dependente de confirmação do labelo. Receita visual para vaso 50% pinus + 30% carvão + 20% esfagno solto = 100%; texto, itens e descrição do vaso vasado concordam. Vaso plástico vasado e placa/tronco 5 estrelas, cachepô madeira e barro 4; notas não homologadas.
 - Primeira alternativa qualitativa contém os mesmos ingredientes, mas sem percentuais que validem 50/30/20; outras três alternativas divergem. CORREÇÃO EDITORIAL: alerta deixou de chamar mistura de 'receita experimental' sem ensaio documentado e passou a qualificá-la como proposta horticultural ainda não validada para planta de identificação provisória. Commit `9b55d5e37baf2a2789dba51173bf9d810d27c0e5`. Ingredientes, percentuais, estrelas, fotos/assets, IDC/IAR e layout preservados.
 - Validar identificação botânica, 20% esfagno, retenção/secagem em vaso e placa, sazonalidade e fontes específicas de até 25 produtores brasileiros. Percentuais e estrelas NÃO HOMOLOGADOS. **Progresso: 148/149 checagens da segunda passagem; 0/149 homologações quantitativas comprovadas.** Próxima ficha: 149 — Stelis cf. aprica.
+
+
+## Registro 149 — Stelis cf. aprica (segunda passagem, 2026-11-03)
+- Conferido `dados/orquideas/stelis-cf-aprica.js`: receita visual para vaso plástico vasado 35% pinus fina/média + 25% arroz carbonizado + 20% carvão pequeno + 20% esfagno solto = 100%; `receitaTexto` e `itens` concordam. Vaso plástico vasado 5 estrelas, placa/tronco e cachepô madeira 4, árvore viva 3; notas não homologadas.
+- Alternativa qualitativa 1 pinus+carvão+esfagno, sem arroz; alternativa 2 coco+carvão+perlita, sem pinus/arroz/esfagno. Nenhuma coincide integralmente com a receita visual; justificativa já qualifica a fórmula como proposta horticultural sem ensaio específico. Nenhuma alteração necessária no JS, fotos, assets, IDC/IAR ou layout.
+- Validar 20% esfagno, granulometria, retenção/secagem no vaso vasado e em placa, identidade taxonômica ainda indicada por 'cf.' e recomendações de até 25 produtores brasileiros. Percentuais e estrelas NÃO HOMOLOGADOS.
+
+## Fechamento da segunda passagem documental — 149/149 (2026-11-03)
+- As 149 fichas foram percorridas na segunda passagem documental, com correções editoriais pontuais quando encontradas inconsistências. A presente etapa NÃO equivale à homologação científica/quantitativa MACS 1.0.
+- Homologações quantitativas comprovadas nesta segunda passagem: **0/149**. A validação permanece pendente: confrontar receitas e percentuais, granulometria, formas de cultivo e estrelas com fontes botânicas e com o máximo possível de até 25 orquidários/produtores brasileiros por espécie; documentar fontes, divergências e ponderação antes de marcar fichas como homologadas.
+- Preservados os padrões V4.9, fotos/assets e índices IDC 3.2/IAR 2.0 nas checagens finais.
