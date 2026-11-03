@@ -660,3 +660,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Justificativa corrigida: primeira alternativa antiga não contém macadâmia; segunda contém argila expandida em vez de perlita. Nenhuma reproduz integralmente a receita visual. Acrescentada ressalva de adequação da granulometria média ao volume do vaso e calibre das raízes miniaturizadas. Commit ficha: 33bea06b91f9919003b14124750da340af720593.
 - Suportes e estrelas, fotos/assets, IDC/IAR e layout preservados. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
 - Progresso: 89/149 checagens; 87 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 090 — Stanhopea Assidensis. Lote 09 (81–90) será encerrado após a ficha 090.
+
+## Registro 090 — Stanhopea Assidensis (2026-11-03)
+- Híbrido primário S. tigrina × S. wardii; hastes descendentes. Receita visual/`receitaTexto` mantidos: 40% chips de coco grossos + 30% pinus médio + 20% perlita grossa + 10% esfagno solto = 100%; itens concordavam. Receita visual adicionada como primeira alternativa textual; duas receitas qualitativas anteriores preservadas.
+- Justificativa corrigida: primeira receita antiga contém macadâmia sem pinus; segunda contém fibra de coco/carvão sem chips de coco/esfagno. Nenhuma correspondia integralmente. Reforçada exigência funcional de manter mistura solta e fundo aberto para não bloquear hastes descendentes. Commit ficha: 355c35e47903c23fbd10083ae07ba99520074e17.
+- Cesto suspenso com fundo livre mantido; demais suportes, estrelas, fotos/assets, IDC/IAR e layout preservados. Percentuais e estrelas NÃO HOMOLOGADOS; meta 25 produtores específicos não atingida.
+- Progresso: 90/149 checagens; 88 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Lote 09 (81–90) encerrado na primeira passagem documental, sem homologação quantitativa. Próxima ficha: 091 — identificar no lote 10.
