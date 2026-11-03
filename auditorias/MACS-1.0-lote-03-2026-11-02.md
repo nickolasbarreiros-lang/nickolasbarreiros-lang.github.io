@@ -472,3 +472,7 @@ Foi atualizado somente o bloco formasCultivo, preservando 5 estrelas em ambas as
 Rodriguezia lanceolata teve a montagem em placa/tronco priorizada na passagem 24. Foi identificada ambiguidade em substratoVisual: o texto anterior apresentava mistura para cachepo sem dizer explicitamente que se tratava de alternativa. Ajustados apenas contexto, resumo, justificativa e notaEvidencia: receita percentual aplica-se a cachepo/vaso e NAO deve ser colocada como camada espessa na placa ou tronco. Mantidos percentuais 35/30/25/10, todos os assets, fotos, classificacoes e demais campos. Commit da ficha: 72ef39314ed6f079cbbba374fd2c25a6093ecd06.
 
 Comparacao com Rodriguezia bracteata (venusta): sua ficha ja continha a distincao entre montagem principal e mistura para recipiente; nao precisou de alteracao. Pendencia: verificacao visual renderizada dos assets, ainda nao concluida.
+
+## Passagem 26 — integridade dos arquivos de fotos de Rodriguezia
+
+Conferidos diretamente via GitHub os oito caminhos de fotos presentes nos arrays fotos das fichas rodriguezia-venusta.js (nome aceito R. bracteata) e rodriguezia-lanceolata.js. Resultado: 8 de 8 arquivos existem no repositorio, cada qual com blob SHA. As duas fichas possuem quatro referencias de formasCultivo: placa-tronco, cesto-madeira, vaso-plastico-vasado e vaso-barro, com placa/tronco como destaque apos passagem 24. A verificacao nao inclui renderizacao do site, decodificacao visual das imagens ou existencia dos assets globais; essas etapas permanecem pendentes. Nenhum arquivo alterado.
