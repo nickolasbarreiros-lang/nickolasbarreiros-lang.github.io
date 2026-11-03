@@ -216,3 +216,30 @@ A página comercial do Orquidário Mogi Mirim para *B. rothschildianum* informa 
 4. Contagem desta passagem: **7 páginas de produtores**, de **5 estabelecimentos distintos**, distribuídas por espécie (*R. lanceolata* 3, *R. venusta* 2, *D. moschatum* 2). Não confundir páginas com validações quantitativas. Sem modificações de fichas nesta passagem.
 
 **Status:** MACS 1.0 quantitativa ainda não homologada; evidência para suporte montado de *R. lanceolata* reforçada.
+
+## Oitava passagem — Cattleya schilleriana: quatro produtores adicionais e controle experimental para Encyclia
+
+### Cattleya schilleriana: evidências específicas de produtores independentes
+
+| Produtor | Prática publicada | Força/limitação |
+|---|---|---|
+| Orquidário Matsuoka | Substrato para orquídeas, toco de madeira ou brita; regar após secagem | **Brita** pode ser meio ou suporte alternativo, mas não comprova 20% perlita nem 35% macadâmia. https://orquidariomatsuoka.com.br/produto/cattleya-schilleriana-beltrame-x-c-schilleriana-alberto-basile-n2/ |
+| Orquidário Santa Clara | Vaso com **pinus, carvão triturado e pedrisco no fundo**; placa com pouco material junto às raízes | Corrobora pinus e carvão; **pedrisco no fundo não equivale a brita como 30% de mistura**. https://orquidariosantaclara.com.br/cattleyas-e-afins/4790-cattleya-schilleriana-coerulea-ad.html |
+| Orquidário Paulista | Cachepô, barro ou placa de madeira; meio de **secagem rápida e drenagem boa** | Corrobora o recipiente principal atual, sem validar ingredientes ou percentuais. https://www.orquidariopaulista.com.br/produtos/cattleya-schilleriana-v-tipo/ |
+| Orquidário Aparecida | Planta de *C. schilleriana* enviada em **casca de peroba com musgo na base**; madeira, cachepôs e vasos no cultivo do produtor | Evidência específica de montagem com retenção localizada; não equivale a enchimento com 10–20% esfagno. https://orquidarioaparecida.com.br/produtos/cattleya-schilleriana-semi-alba-lacre-185405/ |
+
+**Confronto com a ficha:** 35% macadâmia média + 30% pinus + 20% perlita + 15% carvão, em cachepô de madeira. O **recipiente e a necessidade de secagem rápida estão bem corroborados**; pinus e carvão possuem evidência específica; macadâmia e perlita, e especialmente as porcentagens, **não foram validadas por estes quatro produtores**. Não converter a menção de pedrisco de fundo em comprovação da fração mineral da receita.
+
+### Encyclia Mineirinha — estudo brasileiro com outro híbrido (evidência indireta, não homologação)
+
+Menegusso et al. (2021), *Vegetative development and flowering of Encyclia hybrid based on fertilization and substrate*, Ornamental Horticulture 27(3):391–397, DOI https://doi.org/10.1590/2447-536X.v27i3.2233 , comparou substratos e adubação no híbrido **Encyclia “Kropp” × E. atropurpurea** em experimento com blocos casualizados, quatro substratos, cinco intervalos de fertilização, quatro repetições e quatro vasos por repetição. **Substratos à base de esfagno tiveram melhor resultado de floração no híbrido estudado**, em associação ao manejo de adubação. Artigo: https://ornamentalhorticulture.com.br/rbho/article/view/2233 .
+
+**Não extrapolar o resultado** para *Encyclia Mineirinha* (*E. patens × E. oliveirana*): híbrido diferente, ambiente e manejo distintos. O artigo reforça que a retenção hídrica e a floração merecem comparação, mas **não demonstra que a mistura atual 35% macadâmia / 30% pinus / 20% perlita / 15% carvão esteja errada** nem autoriza inserir esfagno automaticamente.
+
+**Referência metodológica complementar:** SENAR-PR, *Cultivo de Orquídeas* (2026), https://www.sistemafaep.org.br/wp-content/uploads/2026/01/PR.0397-Cultivo-de-Orquideas_web.pdf — escolha do substrato depende de ambiente e recipiente, além do material. Documento geral, não prova proporções por espécie.
+
+### Balanço
+- Quatro páginas adicionais, de **quatro produtores independentes**, específicas para *Cattleya schilleriana*.
+- Um estudo brasileiro experimental **indireto** para *Encyclia Mineirinha*.
+- **0 percentuais homologados; 0 fichas alteradas**.
+- Prosseguir busca de produtores independentes e estudos diretos, sem contar artigo sobre híbrido distinto como ensaio de *Encyclia Mineirinha*.
