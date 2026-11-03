@@ -11,7 +11,7 @@ Escopo: dez proximas fichas apos Maxillaria tenuifolia, na ordem do indice. Conf
 7. `cattleya-schilleriana-x-cruzeiro-do-sul.js` — passagem concluida
 8. `lc-trick-or-treat.js` — passagem concluida
 9. `acianthera-aveniformis.js` — passagem concluida
-10. `dryadella-aviceps.js` — pendente
+10. `dryadella-aviceps.js` — passagem concluida
 
 ## Passagem 41 — Oncostele Wildcat (arquivo colmanara-wildcat.js)
 
@@ -82,3 +82,15 @@ TAXONOMIA: POWO https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames
 Ficha: placa/tronco 5 estrelas, árvore viva 4; mistura de vaso 40% pinus fino/médio + 25% casca arroz carbonizada + 20% carvão pequeno + 15% esfagno solto = 100%. PRODUTOR BRASILEIRO ESPECÍFICO Milena Orquídeas https://milenaorquideas.com.br/produtos/acianthera-aveniformis/ comercializa a espécie e descreve umidade ambiental elevada, ventilação e rega conforme necessidade; NÃO fornece receita específica de substrato. Não contar referências de outras Acianthera como evidência direta. Apenas um produtor específico encontrado, sem fórmula; meta até 25 não atingida.
 
 Parecer: hábito epífito e rizoma reptante apoiam cultivo montado por inferência; manter umidade sem saturação. Percentuais de pinus/arroz/carvão/esfagno NÃO HOMOLOGADOS, sem ensaio comparativo ou consenso documentado de produtores. Estrelas não homologadas. Atualizada somente notaEvidencia, commit b2dda888daf0048232f03ee5f62eba2efa2de072. Próxima ficha Dryadella aviceps.
+
+## Passagem 50 — Dryadella aviceps
+
+TAXONOMIA E HABITAT: POWO https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A84203-2 aceita Dryadella aviceps como epífita do leste/sul do Brasil ao Paraguai, sobretudo em bioma tropical sazonalmente seco. Revisão brasileira Imig, Toscano de Brito e Smidt (2024), Rodriguésia 75, DOI 10.1590/2175-7860202475035, https://www.scielo.br/j/rod/a/xzwL7bpkwWTscFCc8RyVYCP/?lang=en sinonimiza D. espirito-santensis, D. gomes-ferreirae e D. litoralis sob D. aviceps, descrevendo populações pequenas em florestas abertas/secas e restingas arbóreas. A revisão é taxonômica e ecológica, NÃO teste de substratos.
+
+FICHA: placa/tronco 5 estrelas, barro miniatura 5, cachepô madeira 4; receita de vaso 40% chips coco pequenos + 35% pinus fino + 25% perlita grossa calibrada = 100%. PRODUTOR BRASILEIRO ESPECÍFICO: Orquidário Oriental https://www.orquidariooriental.com.br/produto/dryadella-avicepsbr-micro-orquidea%2C53907/ recomenda amarrar em árvores/placas e cultivar com umidade alta e pouca luz, sem mistura ou percentuais de vaso. Orientação geral da AOS https://www.aos.org/orchid-care/orchid-care-basics/mounting recomenda placas/cortiça, um pouco de esfagno quando necessário e ressalta secagem acelerada de montagens em calor; não é validação específica da espécie. Apenas 1 produtor brasileiro específico com orientação qualitativa identificado nesta passagem, meta até 25 não atingida.
+
+PARECER: montagem e cuidado contra desidratação têm respaldo ecológico e de produtor; receita 40/35/25 NÃO HOMOLOGADA. A ficha não deve inferir que ambiente de ocorrência sazonalmente seco autoriza secagem completa de raízes finas. Estrelas também não homologadas. Apenas notaEvidencia alterada, commit df72f9c8052ee9a2570b129616adee31936b5451.
+
+## Fechamento do lote 05 — 10/10 primeiras passagens
+
+As dez fichas acima receberam avaliação documental e ressalvas de evidência. Não foi realizada homologação quantitativa de percentuais MACS 1.0 nem pesquisa exaustiva de 25 produtores por espécie; o número de fontes brasileiras específicas efetivamente encontradas foi indicado em cada passagem. Foram preservados receitas, estrelas, IDC/IAR, fotos, assets e layouts. A etapa seguinte é revisão aprofundada e validação quantitativa quando houver fontes suficientes, sem atribuir grau de certeza superior à evidência.
