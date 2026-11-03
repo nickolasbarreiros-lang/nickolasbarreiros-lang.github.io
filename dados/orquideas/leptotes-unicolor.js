@@ -35,7 +35,7 @@ export const leptotesUnicolor = {
     adubacao: "🌿 Orgânica: bokashi em quantidade mínima, sempre em porta-adubo e sem contato com o rizoma.\n💧 Foliar/Mineral: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante brotação e enraizamento, alternando com regas apenas de água.\n🌱 Após a maturação: reduza a frequência, sem necessidade de suspensão absoluta.\n🧪 Liberação lenta: poucos grânulos somente em cesto ou vaso pequeno, afastados das raízes novas.\n🚿 Faça lavagens periódicas com água limpa para evitar sais em raízes finas.",
     rega: "Molhe abundantemente e deixe as raízes secarem antes da próxima irrigação. Em placas de madeira, pode precisar de rega diária no verão; em vasos ou cestos pequenos, regue quando o material estiver quase seco. A espécie tolera melhor uma breve secagem do que permanecer continuamente úmida. No inverno, aumente o intervalo sem permitir enrugamento persistente das folhas.",
     suporte: "🥇 Placa de cortiça, peroba ou galho rugoso.\n🥈 Pequena cesta de madeira ou plástico vazado.\n🥉 Vaso de barro muito pequeno, apenas onde a secagem seja rápida.\nUse amarração leve, sem apertar o rizoma.",
-    substrato: ["Casca de pinus média + carvão vegetal + perlita grossa","Casca de pinus média + chips de coco grossos + carvão vegetal"],
+    substrato: ["Casca de pinus média + carvão vegetal + perlita grossa","Casca de pinus média + chips de coco grossos preparados + carvão vegetal"],
     formasCultivo: {
         perfilVisual: "miniatura-epifita-pendente-folhas-cilindricas",
         destaque: "Placa / tronco",
