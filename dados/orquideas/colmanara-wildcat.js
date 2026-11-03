@@ -39,7 +39,7 @@ export const colmanaraWildcat = {
     "adubacao": "🌿 Orgânica: bokashi em pequena dose, afastado do broto e das raízes novas.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose durante brotação, enraizamento e enchimento do pseudobulbo.\n🧪 Osmocote: poucos grânulos em vaso bem drenado; não concentrar junto às raízes finas.\n🍂 Maturação: reduza a frequência quando o pseudobulbo estiver cheio e firme.\n🚿 Flushing: use água pura a cada 2–4 semanas para reduzir acúmulo de sais.",
     "rega": "Regue abundantemente e volte a molhar quando o substrato estiver próximo de secar, sem deixar a mistura permanecer encharcada. Durante brotação e formação do pseudobulbo, evite secas longas. Em períodos mais frios ou de crescimento lento, aumente o intervalo entre regas. Pseudobulbo enrugado com substrato constantemente molhado sugere problema radicular, não falta de água.",
     "suporte": "🥇 Vaso plástico pequeno e bem perfurado — mantém umidade mais uniforme.\n🥈 Vaso de barro — excelente onde há muita umidade e regas frequentes.\n🥉 Cesto compacto — indicado para plantas grandes e raízes muito aeradas.\nDeixe apenas alguns centímetros livres à frente do novo crescimento; vasos grandes demais permanecem úmidos no centro.",
-    substrato: ["🥇 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
+    substrato: ["🥇 Para vaso compacto: casca de pinus média + chips de coco + perlita grossa + carvão vegetal (mistura visual provisória, não homologada).","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
     "formasCultivo": {
         "perfilVisual": "hibrido-oncidiinae",
         "destaque": "Vaso plástico",
@@ -55,7 +55,7 @@ export const colmanaraWildcat = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para vaso plástico compacto e bem perfurado",
         "resumo": "Mistura aberta com retenção intermediária, apropriada para raízes finas que não devem permanecer nem encharcadas nem completamente secas por muito tempo.",
-        "justificativa": "Os quatro componentes correspondem à primeira mistura já indicada na ficha. As proporções são uma proposta horticultural e não representam homologação MACS 1.0.",
+        "justificativa": "A receita visual propõe pinus médio, chips de coco, perlita grossa e carvão vegetal, agora também registrados na primeira alternativa textual. As duas misturas anteriores contêm materiais diferentes e foram preservadas. As proporções são uma proposta horticultural e não representam homologação MACS 1.0.",
         "receitaTexto": "40% casca de pinus média + 25% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
         "perfil": ["Raízes finas", "Umidade regular", "Boa drenagem", "Sensível a replantio", "Vaso compacto"],
         "comportamento": [
