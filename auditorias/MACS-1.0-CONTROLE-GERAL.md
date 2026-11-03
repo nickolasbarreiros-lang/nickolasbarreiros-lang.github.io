@@ -1066,3 +1066,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Receita visual atual **45% pinus fino + 35% perlita calibrada + 20% esfagno solto = 100%**, distinta das duas alternativas qualitativas; método cachepô madeira e placa/tronco 5 estrelas, vaso plástico vasado 4, barro 3. Fontes específicas apoiam qualitativamente placa e cultivo em recipiente ventilado, mas **não comprovam 35% perlita, 20% esfagno, preferência por cachepô sobre vaso de barro ou notas exatas**. Evidência de cultivo em barro/esfagno sugere investigar estrelas antes de mudar qualquer classificação.
 - **Status:** taxonomia, habitat e alternativas de suporte corroborados parcialmente; **0/25 produtores brasileiros com receita específica verificada nesta rodada**; fórmula e estrelas NÃO HOMOLOGADAS. Sem alteração na ficha JS, assets, fotos, IDC/IAR ou V4.9.
 - **Controle:** 3/149 fichas com confronto externo iniciado; 0/149 homologações quantitativas concluídas.
+
+
+## Adoção da MACS 1.1 — homologação por convergência (2026-11-03)
+- Metodologia aprovada pelo responsável do projeto e instituída em `auditorias/MACS-1.1-METODOLOGIA-HOMOLOGACAO.md` (commit `33183074e5798614847fc286cfb792d13c6e70db`). MACS 1.0 preservada como histórico da auditoria documental.
+- Níveis A experimental direta, B horticultural específica, C convergência técnico-científica, D proposta provisória; critérios e limites de inferência, matriz de adequação 30/25/20/15/10, buscas de até 25 produtores e separação composição/percentuais/estrelas documentados no novo protocolo.
+- Migração inicial: Anathallis sclerophylla, Aerides odorata e Epidendrum centropetalum permanecem D para composição, percentuais e estrelas até completarem comparação de fontes/propriedades físicas e alternativas. Não são classificadas como homologadas; fichas JS preservadas.
+- Próximo lote: completar matriz comparativa auditável das três espécies e então seguir ordem oficial do catálogo. Não confundir índice heurístico com validação experimental.
