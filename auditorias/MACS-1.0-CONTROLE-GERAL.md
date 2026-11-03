@@ -322,3 +322,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência específica já registrada na ficha:** POWO confirma hábito epífito; estudo ecológico de Freitas et al. (UFV, 29º Congresso Brasileiro de Microbiologia) aborda raízes em árvores hospedeiras, mas não testa a mistura 40/30/20/10. Comercialização por Orquidário Santa Bárbara e substrato genérico pinus/carvão não constituem recomendação específica para a espécie. Nota de evidência preservada.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 38/149 checagens; 36 fichas com correções efetivas (003–038); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 039 — Maxillaria subulata.
+
+## Correção na mesma passagem — registro 039 (2026-11-03)
+- **Ficha 039 — Maxillaria subulata** (`dados/orquideas/maxillaria-subulata.js`): cultivo principal em vaso de barro pequeno e perfurado; receita visual 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa = 100%.
+- **Correções efetivas:** receita visual não correspondia integralmente às três alternativas textuais; incluída como primeira opção provisória, preservadas as três anteriores. Justificativa corrigida: atribuição indevida dos quatro ingredientes à primeira mistura original. Commit `94a4cbe182a49a3868f481f4b0307044d246dda2`.
+- **Evidência já registrada na ficha:** POWO confirma hábito epífito, mas fontes gerais de Maxillaria não homologam macadâmia ou os percentuais para M. subulata. Nota de evidência preservada. Não inferir validação a partir de mistura visual semelhante à de outra espécie.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 39/149 checagens; 37 fichas com correções efetivas (003–039); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 040 — Maxillaria tenuifolia.
