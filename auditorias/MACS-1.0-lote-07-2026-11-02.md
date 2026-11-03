@@ -7,7 +7,7 @@ Escopo: dez fichas seguintes a Lockhartia lunifera na ordem de imports de `dados
 3. `acianthera-pubescens.js` — passagem concluida
 4. `maxillaria-leucaimata.js` — passagem concluida
 5. `coelogyne-asperata.js` — pendente
-6. `coelogyne-flaccida.js` — pendente
+6. `coelogyne-flaccida.js` — passagem concluida
 7. `howeara-lava-burst.js` — pendente
 8. `epicattleya-rene-marques.js` — pendente
 9. `coelogyne-fimbriata.js` — pendente
@@ -43,3 +43,8 @@ TAXONOMIA/HÁBITO: POWO/Kew https://powo.science.kew.org/taxon/urn:lsid:ipni.org
 PRODUTOR BRASILEIRO ESPECÍFICO: BR Orquídea https://www.br-orquidea.com.br/espanol/default.asp?ct=1&id=plantas_detalhes2&pd=195 comercializa Maxillaria leucaimata, informa sombreamento 50%, altitude 100–900 m e hábito epífita/rupícola; NÃO fornece receita de substrato ou comparação de suportes. UM produtor brasileiro específico identificado nesta passagem; meta até 25 não atingida. AOS https://www.aos.org/explore/maxillaria apresenta orientação de gênero, não evidência experimental específica.
 
 FICHA: vaso plástico vasado 5 estrelas, barro 5, cachepô madeira 4, placa/tronco 3. Receita 35% perlita grossa + 30% brita fina/média + 25% casca de macadâmia triturada + 10% pinus médio = 100%. A composição favorece drenagem/aeração por inferência técnica, mas nenhuma fonte localizada testa os percentuais ou demonstra superioridade do suporte. PARECER: receita e estrelas NÃO HOMOLOGADAS. Apenas notaEvidencia alterada, preservando percentuais, índices, imagens, assets e layout. Commit da ficha c69ac58218cb2366c3d1b67ed8c3a59b607b32df. Próxima ficha Coelogyne asperata.
+
+
+## Passagem 66 — Coelogyne flaccida
+
+POWO https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:623859-1 aceita o nome, hábito epífita/rupícola. BSI https://bsi.gov.in/uploads/userfiles/file/Chromosome%20Database/Species%20data/Angiosperms/Coelogyne%20flaccida.pdf registra altitude 1500–1800 m. PRODUTOR ESPECÍFICO: Orquidário Mogi Mirim https://www.orquidariomogimirim.com.br/coelogyne-flaccida recomenda sombra 50–60%, substrato comercial poroso, rega frequente no crescimento e reduzida no inverno, sem composição percentual. AOS https://www.aos.org/orchid-care/care-sheets/coelogyne-culture-sheet indica para o gênero mistura casca/perlita 3:1 e cestos suspensos; não é ensaio específico. Receita existente: 35% chips coco + 30% pinus + 25% perlita + 10% esfagno = 100%; cachepô madeira e vaso plástico vasado 5 estrelas. Sem validação quantitativa, NÃO HOMOLOGADOS percentuais e estrelas. Apenas notaEvidencia alterada, demais campos preservados. UM produtor brasileiro específico localizado; meta até 25 não atingida. Commit 2035a7b4c2353f15e1c50a6ada43e65daf5c02e3. Próxima ficha Howeara Lava Burst.
