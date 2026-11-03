@@ -40,7 +40,7 @@ export const spathoglottisPlicata = {
     "adubacao": "🌿 Orgânica: bokashi ou composto bem curtido em pequena quantidade na superfície, sem encostar nos pseudobulbos.\n💧 Mineral/Foliar: NPK equilibrado a cada 10–15 dias durante crescimento ativo.\n🌱 Nutrição de base: por ser terrestre vigorosa, responde bem a matéria orgânica estável e fração mineral.\n🧪 Liberação lenta: Osmocote em dose moderada, distribuído na mistura e longe dos pseudobulbos.\n🚿 Lavagem: em vasos, regas profundas periódicas evitam concentração de sais.",
     "rega": "Mantenha umidade regular durante emissão de brotos, folhas e hastes, sempre com drenagem imediata. No frio ou em períodos muito chuvosos, reduza a frequência, mas não deixe o vaso secar totalmente durante crescimento ativo. Nunca mantenha prato com água.",
     "suporte": "🥇 Vaso largo e profundo, com muitos furos — acomoda raízes e novas frentes.\n🥈 Jardineira bem drenada — excelente para expansão da touceira.\n🥉 Canteiro elevado com solo leve — indicado em jardins quentes.\nMantenha os pseudobulbos na superfície, sem enterrá-los profundamente.",
-    substrato: ["🥇 Mistura terrestre fértil e permeável com matéria orgânica estabilizada + casca de pinus para drenagem (alternativa qualitativa documentada; proporções a validar).","🥈 Casca de arroz carbonizada + fibra de coco + perlita grossa + casca de pinus fina (receita visual provisória, ainda não validada como ideal para espécie terrestre).","🥉 Chips de coco pequenos + casca de arroz carbonizada + perlita grossa + argila expandida miúda.","Alternativa adicional: fibra de coco + perlita grossa + pinus fino + carvão vegetal miúdo.","Alternativa adicional: casca de macadâmia média + casca de arroz carbonizada + perlita grossa + fibra de coco."],
+    substrato: ["🥈 Alternativa 1 — 30% Terra vegetal + 40% Casca de pinus + 20% Perlita + 10% Composto orgânico. Maior fração estrutural para vaso com secagem lenta; proporções inferidas MACS 1.1 D, não homologadas.","🥉 Alternativa 2 — 45% Terra vegetal + 20% Casca de pinus + 10% Perlita + 15% Composto orgânico + 10% Casca de arroz carbonizada. Maior reserva orgânica potencial para vaso que seca rapidamente; proporções inferidas MACS 1.1 D, não homologadas."],
     formasCultivo: {
         perfilVisual: "spathoglottis-terrestre-touceirante-raizes-vaso",
         destaque: "Vaso plástico",
@@ -54,9 +54,9 @@ export const spathoglottisPlicata = {
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Mistura terrestre leve para recipiente amplo e drenado",
-        resumo: "Uma mistura de componentes finos e médios, leve e arejada, que conserva umidade sem formar massa compacta.",
-        justificativa: "Por ser terrestre, a espécie é descrita em fontes específicas com meio fértil, rico em matéria orgânica estabilizada e bem drenado. A composição visual de arroz carbonizado, fibra de coco, perlita e pinus é alternativa experimental para recipiente, agora também listada entre as opções textuais; não representa a primeira recomendação cientificamente demonstrada nem foi homologada como substrato ideal pela MACS 1.0. Os percentuais são estimativas.",
-        receitaTexto: "35% casca de arroz carbonizada + 30% fibra de coco + 25% perlita grossa + 10% casca de pinus fina.",
+        resumo: "Mistura terrestre fértil, estruturada e bem drenada, com terra vegetal e composto orgânico estável.",
+        justificativa: "MACS 1.1: fórmula documental de 4 partes Terra vegetal, 3 partes Casca de pinus, 2 partes Perlita e 1 parte Composto orgânico, publicada para Spathoglottis plicata pelo Universo das Orquídeas (variante com perlita, sem carvão opcional). Também converge com recomendações do Orquidário 4 Estações e da UF/IFAS para solo fértil e drenado. É receita publicada, não ensaio controlado nem comprovação de superioridade. Usar materiais estruturados e composto bem curtido.",
+        receitaTexto: "40% Terra vegetal + 30% Casca de pinus + 20% Perlita + 10% Composto orgânico.",
         perfil: ["Orquídea terrestre", "Touceira expansiva", "Raízes em recipiente", "Umidade regular", "Drenagem elevada"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -65,13 +65,13 @@ export const spathoglottisPlicata = {
             { nome: "Compactação", valor: 2, icone: "🧱" }
         ],
         itens: [
-            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "35%", nota: "estrutura", finalidade: "Mantém a mistura leve e permeável." },
-            { asset: "fibra-coco", nome: "Fibra de coco", proporcao: "30%", nota: "umidade", finalidade: "Oferece retenção moderada para raízes terrestres." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Melhora drenagem e evita compactação." },
-            { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "10%", nota: "estrutura", finalidade: "Complementa a porosidade da mistura." }
+            { nome: "Terra vegetal", proporcao: "40%", nota: "base terrestre estruturada", finalidade: "Usar terra vegetal solta, fértil e sem compactação; asset visual dedicado pendente." },
+            { asset: "casca-pinus", nome: "Casca de pinus", proporcao: "30%", nota: "estrutura", finalidade: "Usar granulometria média para criar espaços de ar." },
+            { asset: "perlita", nome: "Perlita", proporcao: "20%", nota: "aeração", finalidade: "Utilizar partículas grossas para favorecer a drenagem." },
+            { nome: "Composto orgânico", proporcao: "10%", nota: "fertilidade", finalidade: "Usar composto bem curtido e estabilizado, sem encostar nos pseudobulbos; asset visual dedicado pendente." }
         ],
         alerta: "Evitar terra compacta, vasos sem furos, pratos com água e enterro profundo dos pseudobulbos. Não deixar a mistura secar completamente durante o crescimento ativo.",
-        notaEvidencia: "MACS 1.0: espécie terrestre. ESALQ e Orquidário 4 Estações recomendam meio permeável com terra vegetal rica em matéria orgânica e casca de pinus; UF/IFAS recomenda enriquecer o solo com matéria orgânica. A fórmula publicada (35% arroz carbonizado + 30% fibra de coco + 25% perlita + 10% pinus) é alternativa experimental sem terra vegetal ou composto estabilizado e não foi demonstrada como substrato ideal para a espécie. Não homologar percentuais; reavaliar inclusão de fração terrestre orgânica em receita tecnicamente justificada, sem usar solo compactado nem enterrar pseudobulbos."
+        notaEvidencia: "MACS 1.1: receita documental específica publicada pelo Universo das Orquídeas (40% Terra vegetal, 30% Casca de pinus, 20% Perlita, 10% Composto orgânico), variante de 4:3:2:1 sem carvão opcional. Composição B específica e percentuais B documentais, mas NÃO HOMOLOGADOS EXPERIMENTALMENTE. Duas alternativas inferidas D no menu. Assets visuais específicos para Terra vegetal e Composto orgânico pendentes; não substituir por imagens de outros materiais. Matriz: auditorias/MACS-1.1-MATRIZ-034-SPATHOGLOTTIS-PLICATA.md."
     },
     "errosComuns": "Terra compacta; enterrar pseudobulbos; prato com água; sombra profunda; matéria orgânica fresca; vaso sem drenagem; deixar secar totalmente no crescimento; excesso de chuva no colo; cortar folhas verdes; dividir em poucas unidades; pouca luz.",
     "dica": "Use recipiente amplo, mistura terrestre leve e muito drenante e ofereça sol da manhã. Deixe os pseudobulbos parcialmente expostos na superfície. Essa combinação de luz alta, água regular e raízes oxigenadas mantém a planta vigorosa e capaz de produzir hastes por muitos meses.",
