@@ -54,11 +54,7 @@ export const polystachyaConcreta = {
         "🥉 Placa de madeira ou cortiça, desde que seja possível manter regas frequentes no calor."
     ],
 
-    substrato: [
-        "🥇 Para vaso pequeno e bem perfurado: casca de pinus média 45% + carvão vegetal 30% + perlita grossa 25% (mistura visual provisória, não homologada).",
-        "🥈 Casca de pinus média + chips de coco + perlita grossa.",
-        "🥉 Carvão vegetal + casca de pinus grossa + pequena fração de esfagno solto."
-    ],
+    substrato: ["Casca de pinus média + chips de coco + perlita grossa","Carvão vegetal + casca de pinus grossa + pequena fração de esfagno solto"],
 
     formasCultivo: {
         perfilVisual: "polystachya-epifita-cespitosa-compacta",
