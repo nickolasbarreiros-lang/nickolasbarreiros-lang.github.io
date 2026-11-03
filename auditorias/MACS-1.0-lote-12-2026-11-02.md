@@ -11,7 +11,7 @@ Escopo: primeira passagem documental de cultivo e substratos. Não alterar recei
 5. laelia-lundii-alba.js — passagem concluída
 6. cattleya-chocolate-drop.js — passagem concluída
 7. cattleya-a-brazilian-dream.js — passagem concluída
-8. cattleya-violacea-f-suavissima-x-self.js — pendente
+8. cattleya-violacea-f-suavissima-x-self.js — passagem concluída
 9. cattleya-violacea-f-flamea.js — pendente
 10. cattleya-nobilior-var-amaliae.js — pendente
 
@@ -48,3 +48,8 @@ HÍBRIDO primário vigoroso bifoliado; raízes epífitas, alta luz e secagem ent
 ## Passagem 117 — Cattleya A Brazilian Dream
 
 HÍBRIDO C. nobilior × C. loddigesii, grex variável, raízes epífitas e secagem controlada. SUPORTES: destaque cachepô madeira, mas resumo heurístico atribui 76/100 ao plástico vasado, 74/100 ao barro e 73/100 ao cesto: divergência de ranking a revisar; métodos com estrelas null. RECEITA VISUAL: 40% macadâmia + 25% pinus + 20% perlita grossa + 15% carvão = 100%; texto e itens coerentes. QUALITATIVAS: primeira pinus + carvão + brita fina; segunda chips coco + macadâmia + carvão + argila expandida; terceira pinus + macadâmia + perlita. Nenhuma coincide integralmente com visual. Texto já reconhece limitação da extrapolação de estudos de plântulas parentais ao grex. Validar retenção/secagem, variação clonal, suportes e produtores. Meta até 25 produtores brasileiros específicos não atingida; percentuais e suportes NÃO HOMOLOGADOS. Criado apenas notaEvidencia; demais campos preservados. Commit f8c83168a9d8d2cfe301d395ee6113d939e4b582. Próxima ficha Cattleya violacea f. suavissima × self.
+
+
+## Passagem 118 — Cattleya violacea f. suavissima × self
+
+PROGÊNIE por autofecundação de seleção de cor, não híbrido interespecífico; epífita bifoliada quente/úmida, sensível a sais e seca prolongada. SUPORTES: cachepô madeira 5 estrelas, barro e plástico vasado 4, placa/tronco 3. RECEITA VISUAL: 35% pinus médio + 25% macadâmia média + 20% carvão + 20% chips coco grossos = 100%; texto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: quatro qualitativas no campo string: primeira macadâmia+pinus+perlita+carvão; segunda pinus+perlita+carvão+chips coco; terceira macadâmia+argila expandida+carvão+pinus; quarta chips coco+perlita+carvão+pinus. Nenhuma coincide: visual não usa perlita ou argila. Referência AOS/AWZ na justificativa concerne suportes, não percentuais específicos da progênie; confirmar fonte original. Validar retenção, salinidade, secagem e variação entre seedlings. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit ca6826d21b0583a153792c0e319731a6de1d86e1. Próxima ficha Cattleya violacea f. flamea.
