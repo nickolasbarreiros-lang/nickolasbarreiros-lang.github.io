@@ -7,7 +7,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 1. dinema-polybulbon.js — passagem concluída
 2. acianthera-auriculata.js — passagem concluída
 3. epidendrum-hokulea-super-red.js — passagem concluída
-4. gomesa-cornigera.js — pendente
+4. gomesa-cornigera.js — passagem concluída
 5. masdevallia-infracta.js — pendente
 6. oncidium-summer-wind.js — pendente
 7. pholidota-chinensis.js — pendente
@@ -27,3 +27,8 @@ MICROEPÍFITA de raízes finas e alta necessidade de aeração. SUPORTES: placa/
 ## Passagem 143 — Epidendrum Hokulea ‘Super Red’
 
 HÍBRIDO hortícola de canas altas e raízes vigorosas, alta luminosidade, ventilação e secagem entre regas. SUPORTES: vaso plástico 5 estrelas, barro e cachepô madeira 4, placa/tronco 3. RECEITA VISUAL PARA VASO: 35% macadâmia média + 25% pinus médio + 25% carvão médio + 15% arroz carbonizado = 100%; receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa macadâmia + arroz + perlita grossa + turfa, sem pinus/carvão; segunda arroz + perlita + turfa, sem macadâmia/pinus/carvão. Nenhuma coincide; justificativa explica a visual, mas não a divergência. Validar retenção em plástico, granulometria, estabilidade das canas e recomendação específica ao grex/cultivar. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit e9a08e0528211e7cab285476258ab4df61e84ee2. Próxima ficha Gomesa cornigera.
+
+
+## Passagem 144 — Gomesa cornigera
+
+EPÍFITA de florestas úmidas, raízes finas, aeração e umidade regular. SUPORTES: placa/tronco e cachepô madeira 5 estrelas, plástico vasado e barro 4. RECEITA VISUAL alternativa PARA VASO: 50% pinus + 30% carvão + 20% esfagno solto = 100%; receitaTexto, itens e justificativa coerentes. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa pinus + perlita grossa + akadama (sem carvão/esfagno); segunda pinus + chips coco + carvão (sem esfagno); terceira brita + arroz carbonizado + carvão (sem pinus/esfagno). Nenhuma coincide. Receita explicitamente experimental; validar 20% esfagno, granulometria, retenção e secagem em calor, além de possível confusão com G. lietzei. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 4687d90d9e9e3e721391429e0adefd1909145347. Próxima ficha Masdevallia infracta.
