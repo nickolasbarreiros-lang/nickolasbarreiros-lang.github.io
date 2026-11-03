@@ -77,8 +77,8 @@ export const bulbophyllumAmbrosia = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
-        "justificativa": "Montagem em placa com fixação suave do rizoma rastejante. A exposição das raízes favorece aeração, mas uma película de umidade junto ao suporte reduz a desidratação dos brotos novos. Esta receita para recipiente é uma proposta técnica de cultivo, não uma fórmula experimental validada especificamente para a espécie.",
-        "receitaTexto": "35% casca de pinus média + 25% chips de coco tratados + 25% perlita grossa + 15% esfagno solto.",
+        "justificativa": "A montagem principal em placa ou tronco mantém o rizoma exposto e dispensa substrato volumoso. A receita percentual é alternativa para recipiente raso e muito ventilado, combinando pinus, chips de coco médios preparados, perlita de granulometria adequada e esfagno de fibra longa solto, com soma de 100%. As duas outras misturas são alternativas qualitativas distintas, sem percentuais homologados. Observar a retenção dos 15% de esfagno e a secagem real em clima quente, sem abafar raízes nem brotos. MACS 1.1: proposta horticultural sem homologação quantitativa específica.",
+        "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita de granulometria adequada + 15% esfagno de fibra longa solto.",
         "perfil": [
             "Rizoma rasteiro",
             "Raízes finas",
@@ -119,30 +119,30 @@ export const bulbophyllumAmbrosia = {
             },
             {
                 "asset": "chips-coco",
-                "nome": "Chips de coco tratados",
+                "nome": "Chips de coco médios preparados",
                 "proporcao": "25%",
                 "nota": "retenção moderada",
                 "finalidade": "Protegem raízes jovens entre regas, sem usar fibras compactadas."
             },
             {
                 "asset": "perlita",
-                "nome": "Perlita grossa",
+                "nome": "Perlita de granulometria adequada",
                 "proporcao": "25%",
                 "nota": "macroporos",
                 "finalidade": "Favorece a renovação de ar na zona radicular."
             },
             {
                 "asset": "esfagno",
-                "nome": "Esfagno solto",
+                "nome": "Esfagno de fibra longa solto",
                 "proporcao": "15%",
                 "nota": "reserva hídrica",
                 "finalidade": "Reduz secagem excessiva, mas deve permanecer em pequenas porções."
             }
         ],
         "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura.",
-        "notaEvidencia": "MACS 1.0 — primeira passagem documental: Bulbophyllum ambrosia, miniatura epífita/litófita de rizoma rastejante e raízes finas, demanda umidade regular com aeração e rizoma exposto. Suportes placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; notas não homologadas. Receita visual alternativa para recipiente 35% pinus médio + 25% chips coco tratados + 25% perlita grossa + 15% esfagno solto = 100%; receitaTexto e itens concordam. DIVERGÊNCIA DOCUMENTAL: receita visual não corresponde integralmente às qualitativas: primeira esfagno + perlita; segunda chips coco + perlita + carvão + esfagno (sem pinus); terceira macadâmia + pinus + perlita + esfagno (sem chips coco). Justificativa corretamente a apresenta como proposta não validada, sem afirmar equivalência. Validar retenção de 15% esfagno, granulometria e secagem em clima quente; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        "notaEvidencia": "MACS 1.1 — revisão documental: Bulbophyllum ambrosia, miniatura epífita/litófita de rizoma rastejante e raízes finas, demanda umidade regular com aeração e rizoma exposto. Suportes placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; notas não homologadas. Receita visual alternativa para recipiente 35% pinus médio + 25% chips coco tratados + 25% perlita grossa + 15% esfagno solto = 100%; receitaTexto e itens concordam. Receita percentual visual e textual coincidem; duas alternativas qualitativas distintas são apresentadas sem alegar equivalência ou homologação. Validar retenção de 15% esfagno, granulometria e secagem em clima quente; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    substrato: ["🥇 Esfagno de fibra longa solto + perlita grossa.","🥈 Chips de coco tratados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno.","🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de esfagno."],
+    substrato: ["🥇 Montagem principal em placa/tronco com rizoma exposto e umidade frequente, sem substrato volumoso. Para recipiente raso e muito ventilado: 35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita de granulometria adequada + 15% esfagno de fibra longa solto (proposta NÃO homologada para Bulbophyllum ambrosia).", "🥈 Esfagno de fibra longa solto + perlita de granulometria adequada (alternativa qualitativa sem percentuais homologados).", "🥉 Chips de coco médios preparados + perlita de granulometria adequada + carvão vegetal miúdo + pequena fração de esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados)."],
     errosComuns: "• Enterrar o rizoma.\n• Tratar a espécie como exclusivamente fria.\n• Usar substrato fino e compactado.\n• Deixar a planta secar por vários dias.\n• Manter saturação constante em noites quentes.\n• Cultivar em sombra profunda.\n• Adubar em concentração alta.\n• Manter substrato decomposto por tempo excessivo.\n• Confundir umidade ambiental elevada com falta de ventilação.",
     dica: "🏆 O melhor manejo reproduz a combinação natural de umidade com oxigenação. Monte-a ou use recipiente raso, mantenha o rizoma exposto e proporcione ventilação contínua. A fragrância e a floração aparecem melhor em plantas maduras e bem iluminadas, sem necessidade de submeter a planta a frio forte. No litoral quente, noites ventiladas e suporte que não acumule calor são mais importantes que tentar baixar drasticamente a temperatura.",
     revisaoCientificaIAR: {
