@@ -1073,3 +1073,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Níveis A experimental direta, B horticultural específica, C convergência técnico-científica, D proposta provisória; critérios e limites de inferência, matriz de adequação 30/25/20/15/10, buscas de até 25 produtores e separação composição/percentuais/estrelas documentados no novo protocolo.
 - Migração inicial: Anathallis sclerophylla, Aerides odorata e Epidendrum centropetalum permanecem D para composição, percentuais e estrelas até completarem comparação de fontes/propriedades físicas e alternativas. Não são classificadas como homologadas; fichas JS preservadas.
 - Próximo lote: completar matriz comparativa auditável das três espécies e então seguir ordem oficial do catálogo. Não confundir índice heurístico com validação experimental.
+
+
+### MACS 1.1 — Matriz comparativa 001 concluída como avaliação preliminar (2026-11-03)
+- Documento criado: `auditorias/MACS-1.1-MATRIZ-001-ANATHALLIS-SCLEROPHYLLA.md`, commit `712861cde98ce3fc07ab666421b2e7c897a70704`.
+- Três cenários por volume para vaso plástico vasado: R0 atual 35/30/20/15 pinus/arroz/esfagno/carvão; R1 40/35/10/15; R2 30/25/30/15. Todas somam 100%; R1 e R2 **não são prescrições**.
+- Referências científicas efetivamente consultadas incluem Dematté & Dematté 1996 (retenção e perda hídrica em substratos), Faria et al. 2018 (revisão de substratos epífitos), Hwang & Jeong 2007 (Phalaenopsis, comparável distante), Faria et al. 2001 (Oncidium/Maxillaria, comparáveis distantes), além do POWO para taxonomia/habitat. URLs, limitações e critérios constam na matriz.
+- Sem propriedades físicas medidas no recipiente e sem comparável próximo justificável, notas de 0–5 **não atribuídas** e índice heurístico **não calculado**. Composição D, percentuais D e estrelas D; sem homologação. Ficha JS e índices preservados.
