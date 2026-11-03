@@ -80,7 +80,7 @@ export const masdevalliaInfracta = {
         "texto": "Pode funcionar em local úmido e fresco, mas reduz o controle sobre hidratação e temperatura radicular."
     }
 ] },
-    substrato: ["🥇 Placa / tronco: cultivo principal com raízes expostas e fina camada de esfagno de fibra longa solto. Para vaso pequeno muito ventilado, mistura opcional: 35% casca de pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 20% esfagno de fibra longa solto (proposta NÃO homologada).","🥈 Casca de pinus fina + perlita de granulometria adequada a raízes finas + esfagno de fibra longa solto (alternativa qualitativa para vaso, sem percentuais homologados).","🥉 Chips de coco pequenos preparados + carvão vegetal pequeno + esfagno de fibra longa solto (alternativa qualitativa para vaso, sem percentuais homologados)."],
+    substrato: ["Casca de pinus fina + perlita de granulometria adequada a raízes finas + esfagno de fibra longa solto","Chips de coco pequenos preparados + carvão vegetal pequeno + esfagno de fibra longa solto"],
     substratoVisual: {
       titulo: "Substrato ideal", contexto: "Placa / tronco principal; mistura opcional para vaso pequeno muito ventilado",
       resumo: "Placa / tronco é a forma principal; para vaso pequeno muito ventilado, mistura opcional de pinus fino/médio, casca de arroz carbonizada, carvão pequeno e esfagno de fibra longa solto.",
