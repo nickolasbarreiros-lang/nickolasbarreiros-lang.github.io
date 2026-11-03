@@ -581,3 +581,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Incluída a composição visual exata como primeira alternativa textual provisória; três receitas qualitativas anteriores preservadas. Justificativa reescrita para declarar explicitamente a ausência de correspondência e a falta de validação dos percentuais para espécie terrestre/rupícola de grande porte. Commit ficha: 00bec41d258a4dad7eabe002f072dd1dce83158f.
 - Suporte principal vaso de barro pesado e drenante, com tutor, mantido; estrelas e percentuais NÃO HOMOLOGADOS. Fontes da passagem não apresentam comparação experimental nem 25 produtores com receita específica. Fotos, assets, IDC/IAR e layout preservados.
 - Progresso: 76/149 checagens; 74 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 077 — Aspasia lunata.
+
+## Registro 077 — Aspasia lunata (2026-11-03)
+- **Correção estrutural de JavaScript:** propriedade `substrato` estava declarada duas vezes no mesmo objeto; a segunda definição sobrescrevia silenciosamente a primeira. Consolidada em uma única propriedade, sem descartar opções: mantidas as três receitas da primeira lista e as quatro da segunda (sete alternativas antigas no total), acrescentando a receita visual como primeira opção provisória.
+- **Receita visual:** 30% macadâmia média + 25% pinus médio + 20% casca de arroz carbonizada + 15% carvão vegetal + 10% esfagno = 100%. Itens e `receitaTexto` já concordavam; a divergência era com as listas de alternativas. Não alterar proporções nem os componentes visuais.
+- Commit ficha: 233682e2110cf7d878996f618d8fc4c22fdccc58. Fotos, assets, IDC/IAR e layout preservados. Receita e estrelas NÃO HOMOLOGADAS; fontes não comprovam percentuais ou ranking de recipientes.
+- **Verificação recomendada:** executar teste de sintaxe/build e confirmar ausência de outras chaves `substrato` duplicadas nos arquivos de espécies; nesta ficha, a duplicidade foi eliminada por consolidação.
+- Progresso: 77/149 checagens; 75 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 078 — Cyrtopodium saintlegerianum.
