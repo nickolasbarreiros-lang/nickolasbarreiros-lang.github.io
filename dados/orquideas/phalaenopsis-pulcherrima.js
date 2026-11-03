@@ -41,7 +41,7 @@ export const phalaenopsisPulcherrima = {
         "🥈 Cesto ou cachepô pequeno com mistura mineral e casca.",
         "🥉 Montagem em tronco ou cortiça em ambiente úmido e com regas frequentes."
     ],
-    substrato: ["🥇 Perlita grossa + brita fina/média + casca de macadâmia triturada + casca de pinus grossa (mistura provisória do substrato visual).","🥈 Perlita grossa + argila expandida + carvão vegetal + pequena fração de casca de pinus grossa.","🥉 Brita fina/média + perlita grossa + carvão vegetal + 15–25% de componente orgânico grosso.","⭐ Casca de macadâmia grossa + perlita grossa + cacos de cerâmica ou argila expandida."],
+    substrato: ["🥇 Para Vaso de Barro baixo e bem perfurado: 35% perlita grossa + 30% brita fina/média lavada e sem pó + 25% casca de macadâmia média + 10% casca de pinus grossa (proposta NÃO homologada).", "🥈 Perlita grossa + argila expandida pequena + carvão vegetal médio + pequena fração de casca de pinus grossa (alternativa qualitativa sem percentuais homologados).", "🥉 Brita fina/média lavada e sem pó + perlita grossa + carvão vegetal médio + pequena fração de casca de pinus grossa (alternativa qualitativa sem percentuais homologados)."],
     formasCultivo: {
         perfilVisual: "phalaenopsis-pulcherrima-terrestre-litofita",
         destaque: "Vaso de Barro",
@@ -57,8 +57,8 @@ export const phalaenopsisPulcherrima = {
         titulo: "Substrato ideal",
         contexto: "Mistura mineral muito aberta para vaso baixo",
         resumo: "A espécie cresce sobre rochas e solos arenosos; mistura com predominância mineral mantém drenagem rápida, colo ventilado e pequena fração orgânica.",
-        justificativa: "A mistura provisória para vaso baixo combina perlita grossa, brita fina/média, casca de macadâmia triturada e pinus grosso, buscando drenagem rápida e alguma estrutura orgânica. Ela difere das alternativas qualitativas anteriores, que incluem outros componentes minerais e carvão. O equilíbrio entre drenagem e disponibilidade hídrica exige validação; percentuais ainda não homologados pela MACS 1.0.",
-        receitaTexto: "35% perlita grossa + 30% brita fina/média + 25% casca de macadâmia triturada + 10% casca de pinus grossa.",
+        justificativa: "Phalaenopsis pulcherrima (sin. Doritis pulcherrima) ocorre como terrestre ou litófita, inclusive em solos arenosos e rochas, e prefere substrato aberto com colo ventilado. Para vaso de barro baixo e bem perfurado, a receita visual propõe perlita grossa, brita fina/média lavada e sem pó, macadâmia média e pinus grosso, totalizando 100%. A mistura tem 65% de componentes minerais e 35% de fração orgânica; não deve ser descrita como quase totalmente mineral. As duas outras misturas são alternativas qualitativas distintas e não fundamentam os percentuais visuais. Controlar secagem rápida em clima quente sem deixar água acumulada na coroa. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
+        receitaTexto: "35% perlita grossa + 30% brita fina/média lavada e sem pó + 25% casca de macadâmia média + 10% casca de pinus grossa (proposta não homologada).",
         perfil: ["Terrestre ou litófita", "Clima quente", "Haste ereta", "Colo ventilado", "Drenagem rápida"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -68,12 +68,12 @@ export const phalaenopsisPulcherrima = {
         ],
         itens: [
             { asset: "perlita", nome: "Perlita grossa", proporcao: "35%", nota: "aeração", finalidade: "Mantém espaços de ar junto às raízes." },
-            { asset: "brita-fina", nome: "Brita fina/média", proporcao: "30%", nota: "drenagem", finalidade: "Oferece estabilidade mineral e drenagem rápida." },
-            { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "25%", nota: "estrutura", finalidade: "Cria pontos de fixação sem compactar." },
+            { asset: "brita-fina", nome: "Brita fina/média lavada e sem pó", proporcao: "30%", nota: "drenagem", finalidade: "Oferece estabilidade mineral e drenagem rápida." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "25%", nota: "estrutura", finalidade: "Cria pontos de fixação sem compactar." },
             { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "10%", nota: "fração orgânica", finalidade: "Acrescenta retenção discreta à mistura." }
         ],
         alerta: "Evitar sombra profunda, encharcamento, vasos grandes, água acumulada na coroa e exposição súbita ao sol forte. Preservar hastes verdes que ainda produzam botões.",
-        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+        notaEvidencia: "MACS 1.1 — revisão documental: Phalaenopsis pulcherrima (sin. Doritis pulcherrima), terrestre ou litófita de rochas e solos arenosos, requer vaso baixo, colo ventilado e drenagem rápida com umidade ajustada ao clima. Vaso de Barro bem perfurado é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 35% perlita grossa + 30% brita fina/média lavada e sem pó + 25% macadâmia média + 10% pinus grosso = 100% (65% fração mineral e 35% orgânica). Exatamente duas outras misturas qualitativas distintas: perlita/argila expandida pequena/carvão/pouco pinus e brita/perlita/carvão/pouco pinus. Elas não fundamentam os percentuais visuais. Os identificadores de assets perlita, brita-fina, casca-macadamia e casca-pinus constam no registro de biblioteca; inspeção de renderização não executada. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
         "Cultivar em sombra profunda como uma Phalaenopsis comum",
