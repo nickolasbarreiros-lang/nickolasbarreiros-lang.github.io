@@ -9,7 +9,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 3. phalaenopsis-mannii.js — passagem concluída
 4. bulbophyllum-falcatum.js — passagem concluída
 5. bulbophyllum-syciobulbon.js — passagem concluída
-6. laelia-caulencens.js — pendente
+6. laelia-caulencens.js — passagem concluída
 7. rodricidium.js — pendente
 8. laelia-praestans.js — pendente
 9. phaius-tankervilleae-alba.js — pendente
@@ -38,3 +38,8 @@ EPÍFITA africana de rizoma rastejante e raízes finas, umidade regular, raque f
 ## Passagem 125 — Bulbophyllum sicyobulbon
 
 ESPÉCIE montana epífita de rizoma muito espaçado; arquivo histórico syciobulbon preservado. SUPORTES: plástico vasado 5 estrelas (provisório), cachepô madeira e placa/tronco 4, barro 3. RECEITA VISUAL: 40% pinus médio + 20% chips coco + 25% perlita grossa + 15% esfagno solto = 100%; texto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: qualitativa 1 esfagno longo + perlita; qualitativa 2 chips coco + perlita + carvão miúdo + esfagno, sem pinus; qualitativa 3 macadâmia + pinus + perlita + esfagno, sem coco. Nenhuma coincide. Justificativa reconhece inferência e escolha provisória do vaso. Validar retenção, granulometria, espaço lateral e noites frescas. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit b4f6f385ea2fd85ced6fc60b822a2c5930b3c16e. Próxima ficha Laelia caulencens.
+
+
+## Passagem 126 — Cattleya caulescens (arquivo histórico laelia-caulencens)
+
+RUPÍCOLA compacta de alta luz, com raízes aeradas, drenagem rápida e risco de aquecimento do recipiente. SUPORTES: barro 5 estrelas, cachepô madeira 4, plástico vasado 3, placa/tronco 2. RECEITA VISUAL: 35% brita fina/média + 30% perlita grossa + 25% macadâmia triturada + 10% pinus grosso = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira qualitativa, mas primeira é perlita + argila expandida + carvão + pouco pinus, sem brita/macadâmia. Segunda é brita + perlita + carvão + 15–25% orgânico, enquanto visual omite carvão e contém 35% orgânicos. Terceira macadâmia + perlita + cerâmica/argila expandida, sem brita/pinus. Nenhuma coincide. Validar peso e aquecimento da brita, fração orgânica e secagem. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit c9d59cecbc405cd4b0306a9ce41058eaf80f005b. Próxima ficha Rodricidium.
