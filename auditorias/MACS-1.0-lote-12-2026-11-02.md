@@ -10,7 +10,7 @@ Escopo: primeira passagem documental de cultivo e substratos. Não alterar recei
 4. pabstiella-trifida.js — passagem concluída
 5. laelia-lundii-alba.js — passagem concluída
 6. cattleya-chocolate-drop.js — passagem concluída
-7. cattleya-a-brazilian-dream.js — pendente
+7. cattleya-a-brazilian-dream.js — passagem concluída
 8. cattleya-violacea-f-suavissima-x-self.js — pendente
 9. cattleya-violacea-f-flamea.js — pendente
 10. cattleya-nobilior-var-amaliae.js — pendente
@@ -43,3 +43,8 @@ ECOLOGIA: miniatura epífita/rupícola, touceira compacta, montagem principal em
 ## Passagem 116 — Cattlianthe Chocolate Drop
 
 HÍBRIDO primário vigoroso bifoliado; raízes epífitas, alta luz e secagem entre regas. SUPORTES: plástico vasado 80/100 e plástico comum 78/100 no resumo, valores heurísticos; métodos com estrelas null. RECEITA VISUAL: 35% pinus + 30% macadâmia + 20% perlita grossa + 15% carvão = 100%; texto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: qualitativas primeira e segunda usam chips coco + perlita + carvão + pinus (sem macadâmia); terceira macadâmia + argila expandida + carvão + pinus (sem perlita); nenhuma coincide. EVIDÊNCIA LIMITADA: ficha menciona pesquisa brasileira com mudas em pinus/carvão 4:3, mas comparou adubações, não substratos ou recipientes. Não extrapolar à receita visual. Validar referência do estudo, granulometria, secagem e estabilidade. Meta até 25 produtores brasileiros específicos não atingida; percentuais e suportes NÃO HOMOLOGADOS. Criado apenas notaEvidencia; demais campos preservados. Commit 02238d1181f15534efe61f2b24abe7fdd6359a61. Próxima ficha Cattleya A Brazilian Dream.
+
+
+## Passagem 117 — Cattleya A Brazilian Dream
+
+HÍBRIDO C. nobilior × C. loddigesii, grex variável, raízes epífitas e secagem controlada. SUPORTES: destaque cachepô madeira, mas resumo heurístico atribui 76/100 ao plástico vasado, 74/100 ao barro e 73/100 ao cesto: divergência de ranking a revisar; métodos com estrelas null. RECEITA VISUAL: 40% macadâmia + 25% pinus + 20% perlita grossa + 15% carvão = 100%; texto e itens coerentes. QUALITATIVAS: primeira pinus + carvão + brita fina; segunda chips coco + macadâmia + carvão + argila expandida; terceira pinus + macadâmia + perlita. Nenhuma coincide integralmente com visual. Texto já reconhece limitação da extrapolação de estudos de plântulas parentais ao grex. Validar retenção/secagem, variação clonal, suportes e produtores. Meta até 25 produtores brasileiros específicos não atingida; percentuais e suportes NÃO HOMOLOGADOS. Criado apenas notaEvidencia; demais campos preservados. Commit f8c83168a9d8d2cfe301d395ee6113d939e4b582. Próxima ficha Cattleya violacea f. suavissima × self.
