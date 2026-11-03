@@ -35,7 +35,7 @@ export const brassavolaPerrini = {
     adubacao: "🌿 Orgânica: Bokashi em pequena quantidade, devidamente protegido em saquinho, aplicado apenas durante o período de crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em baixa dosagem a cada 10 a 15 dias. Reduza a carga de nitrogênio assim que as folhas amadurecerem para incentivar o surgimento de botões florais.\n🧪 Liberação lenta: poucos grânulos de Osmocote 14-14-14 em vasos ou cachepôs, sempre distantes das raízes novas.",
     rega: "Regue abundantemente, mas garanta que o sistema radicular seque completamente antes da próxima irrigação. Exemplares montados em troncos ou cascas podem receber água diariamente nos dias quentes de verão; em dias frios ou chuvosos, espace bastante as regas. Esta espécie tolera a seca curta muito melhor do que a umidade constante.",
     suporte: "🥇 Placa de madeira dura ou tronco: acompanha o crescimento pendente e oferece secagem rápida.\n🥈 Cachepô de madeira muito vazado.\n🥉 Vaso de barro pequeno, com grandes furos laterais.",
-    substrato: ["🥇 Para vaso ou cesto: casca de macadâmia grossa + carvão vegetal grosso + casca de pinus grossa + brita pequena/média (mistura visual provisória, não homologada).","🥈 Chips de coco muito grossos + argila expandida + carvão vegetal.","🥉 Casca de macadâmia grossa + perlita grossa + carvão vegetal.","Alternativa adicional: pinus grosso + brita fina + carvão vegetal."],
+    substrato: ["🥈 Alternativa 1 — 40% Casca de macadâmia + 30% Carvão vegetal + 15% Casca de pinus + 15% Brita, para vaso/cesto muito ventilado; proporções D inferenciais, não homologadas.","🥉 Alternativa 2 — 25% Casca de macadâmia + 25% Carvão vegetal + 30% Casca de pinus + 20% Brita, para vaso/cesto muito ventilado; proporções D inferenciais, não homologadas."],
     formasCultivo: {
         perfilVisual: "cattleya",
         destaque: "Placa / tronco",
@@ -51,14 +51,14 @@ export const brassavolaPerrini = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso ou cesto",
         resumo: "Mistura grossa, de baixa retenção, com macroporos persistentes e secagem rápida.",
-        justificativa: "A casca de macadâmia grossa cria estrutura e espaço para raízes; o carvão vegetal acrescenta fração rígida e arejada; o pinus grosso oferece pequena reserva hídrica; e a brita fina ou perlita grossa preserva drenagem e macroporos. A proporção baixa de pinus limita a compactação com o envelhecimento, mas exige inspeção e troca quando houver degradação. Não é necessário esfagno para plantas adultas bem estabelecidas nessa proposta; a rega deve acompanhar o ritmo real de secagem.",
-        receitaTexto: "35% casca de macadâmia grossa + 25% carvão vegetal grosso + 20% casca de pinus grossa + 20% brita pequena/média.",
+        justificativa: "MACS 1.1: Placa/tronco é a forma principal, com suporte em IOSPE e orientações de cultivo de Brassavola. Para vaso/cesto, esta mistura de cascas, carvão e brita é uma hipótese horticultural de baixa retenção; a Casca de macadâmia e os percentuais não possuem validação específica para Brassavola tuberculata. Não atribuir superioridade experimental à receita e ajustar regas à secagem real.",
+        receitaTexto: "35% Casca de macadâmia + 25% Carvão vegetal + 20% Casca de pinus + 20% Brita (por volume, proposta D não homologada).",
         perfil: ["Raízes epífitas", "Aeração máxima", "Baixa retenção", "Secagem rápida", "Granulometria grossa", "Baixa compactação"],
         itens: [
-            { asset: "macadamia", nome: "Casca de macadâmia grossa", proporcao: "35%", nota: "estrutura", finalidade: "Mantém espaços de ar e suporte para fixação radicular." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal grosso", proporcao: "25%", nota: "aeração", finalidade: "Ajuda a manter o substrato aberto e drenante." },
-            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "20%", nota: "reserva hídrica", finalidade: "Retém umidade limitada entre regas; substituir ao degradar." },
-            { asset: "brita-pura", nome: "Brita pequena/média", proporcao: "20%", nota: "macroporos", finalidade: "Acrescenta estrutura mineral e reduz o colapso físico da mistura." }
+            { asset: "macadamia", nome: "Casca de macadâmia", proporcao: "35%", nota: "estrutura", finalidade: "Usar partículas grossas, mantendo espaços de ar e apoio radicular." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "25%", nota: "aeração", finalidade: "Usar carvão em pedaços grossos para manter o substrato aberto e drenante." },
+            { asset: "casca-pinus", nome: "Casca de pinus", proporcao: "20%", nota: "reserva hídrica", finalidade: "Usar casca grossa, que oferece umidade limitada; substituir ao degradar." },
+            { asset: "brita-pura", nome: "Brita", proporcao: "20%", nota: "macroporos", finalidade: "Usar brita lavada pequena/média, com estrutura mineral e macroporos persistentes." }
         ],
         comportamento: [
             { nome: "Retenção", valor: 1, icone: "💧" },
@@ -66,7 +66,7 @@ export const brassavolaPerrini = {
             { nome: "Secagem", valor: 5, icone: "☀️" },
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
-        alerta: "MACS 1.0: Brassavola perrinii é tratada por POWO/Kew como sinônimo de B. tuberculata. A montagem em placa tem apoio em AOS e produtores brasileiros. Para vaso, a receita 35% macadâmia + 25% carvão + 20% pinus + 20% brita é hipótese horticultural NÃO homologada; Orquivitro indica pinus/placa, enquanto Orquidário Oriental indica 50–60% de esfagno, mostrando divergência de manejo. Em clima quente e úmido, monitorar a secagem real e não presumir superioridade de qualquer receita sem comparação específica."
+        alerta: "MACS 1.1: POWO/Kew e AOS tratam Brassavola perrinii como sinônimo de Brassavola tuberculata. IOSPE documenta cultivo em placa/cortiça e secagem sazonal; Orquivitro recomenda pinus ou placa, sem percentuais. Montagem principal em Placa / tronco, sem receita volumétrica. Mistura R1 para vaso/cesto: 35% Casca de macadâmia + 25% Carvão vegetal + 20% Casca de pinus + 20% Brita; alternativas R2/R3 distintas. Composição e percentuais da mistura são inferências D NÃO HOMOLOGADAS; não há ensaio quantitativo específico, e macadâmia não foi validada para a espécie. Nomes e assets canônicos conferidos. Matriz: auditorias/MACS-1.1-MATRIZ-042-BRASSAVOLA-TUBERCULATA.md."
     },
     errosComuns: "Cultivar em sombra excessiva; Usar substratos finos, compactos ou com acúmulo de pó; Manter as raízes molhadas continuamente; Plantar em vasos grandes e fundos; Exagerar no uso de esfagno ou materiais de alta retenção hídrica; Dividir touceiras pequenas prematuramente; Aplicar adubo com alto teor de nitrogênio de forma contínua durante todo o ano.",
     dica: "Use as folhas como termômetro: o ponto certo de luz é aquele que deixa a folhagem cilíndrica ereta, rígida e em um tom verde-claro (quase amarelado). Se ela cresce muito mas não floresce, o segredo para forçar a floração é dar mais claridade — sem medo do sol direto matinal — e cortar o adubo rico em nitrogênio.",
