@@ -39,7 +39,7 @@ export const phalaenopsisMannii = {
     "adubacao": "🌿 Orgânica: bokashi apenas em microdose e longe do colo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/2 dose a cada 10–15 dias durante raízes e folhas ativas.\n🌱 Crescimento: maior frequência quando surgem pontas verdes nas raízes.\n❄️ Inverno: reduza a adubação junto com a desaceleração do crescimento.\n🚿 Lavagem: faça flushing periódico para limitar sais nas raízes.",
     "rega": "Na fase ativa, regue abundantemente quando as raízes perderem o verde e o suporte estiver quase seco. No inverno, aumente moderadamente o intervalo, imitando a estação mais seca do habitat sem desidratar a planta. Evite água parada na coroa e nas axilas, principalmente durante a noite.",
     "suporte": "🥇 Placa de cortiça ou madeira com pequena almofada de esfagno — acompanha muito bem o hábito pendente.\n🥈 Vaso transparente pequeno e muito perfurado.\n🥉 Cesto vazado com casca grossa.\nEvite recipientes profundos e abafados.",
-    substrato: ["🥇 Pinus médio + perlita grossa + pequena fração de esfagno solto.","🥈 Casca de macadâmia média + pinus médio + pequena fração de esfagno solto."],
+    substrato: ["🥇 Montagem principal em placa/tronco, com raízes ventiladas e pequena almofada de esfagno de fibra longa solto. Para vaso plástico vasado ou cesto: 35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa compatível com o recipiente + 10% carvão vegetal médio (proposta NÃO homologada).", "🥈 Casca de pinus média + perlita grossa + pequena fração de esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de macadâmia média + casca de pinus média + pequena fração de esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados)."],
     formasCultivo: {
         perfilVisual: "phalaenopsis-epifita-pendente-raizes-aereas",
         destaque: "Placa / tronco",
@@ -55,8 +55,8 @@ export const phalaenopsisMannii = {
         titulo: "Substrato ideal",
         contexto: "Mistura aerada para vaso ou cesto; placa com esfagno mínimo",
         resumo: "Raízes epífitas precisam de ar e umidade moderada, com secagem parcial entre regas. Em placa, basta pequena almofada de esfagno sob as raízes.",
-        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa já registrada na ficha, destinada a recipientes. Percentuais estimados e ainda não homologados pela MACS 1.0.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        justificativa: "Phalaenopsis mannii é epífita de hábito levemente pendente, com raízes ventiladas e umidade regular durante o crescimento. A montagem em placa/tronco com pequena almofada de esfagno de fibra longa solto é a proposta principal, sem mistura volumosa. Para vaso vasado ou cesto, a receita visual alternativa combina pinus médio, chips de coco médios preparados, perlita grossa compatível com o recipiente e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não originam os percentuais visuais. Evitar água acumulada na coroa e secagem prolongada; no inverno, reduzir regas apenas moderadamente. MACS 1.1: hipótese horticultural não homologada quantitativamente.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa compatível com o recipiente + 10% carvão vegetal médio (proposta não homologada).",
         perfil: ["Epífita pendente", "Raízes aeradas", "Umidade no crescimento", "Inverno ligeiramente mais seco", "Hastes persistentes"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -66,167 +66,9 @@ export const phalaenopsisMannii = {
         ],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Apoia raízes e mantém espaços de ar." },
-            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Contribui para hidratação regular sem saturar a mistura." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Facilita drenagem e circulação de ar." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Ajuda a preservar a estrutura aberta." }
+            { asset: "chips-coco", nome: "Chips de coco médios preparados", proporcao: "30%", nota: "umidade", finalidade: "Contribui para hidratação regular sem saturar a mistura." },
+            { asset: "perlita", nome: "Perlita grossa compatível com o recipiente", proporcao: "25%", nota: "aeração", finalidade: "Facilita drenagem e circulação de ar." },
+            { asset: "carvao", nome: "Carvão vegetal médio", proporcao: "10%", nota: "porosidade", finalidade: "Ajuda a preservar a estrutura aberta." }
         ],
         alerta: "Evitar água acumulada na coroa, sol forte, vasos abafados e substrato permanentemente molhado no inverno. Não cortar hastes ainda verdes; reduzir regas apenas moderadamente na estação mais seca.",
-        notaEvidencia: "MACS 1.0 — primeira passagem documental: Phalaenopsis mannii, epífita levemente pendente, raízes ventiladas, umidade na fase ativa e inverno moderadamente mais seco. Suportes placa/tronco 5 estrelas, plástico vasado e cachepô madeira 4, barro 3; notas não homologadas. Receita visual alternativa para recipiente 35% pinus médio + 30% chips coco + 25% perlita grossa + 10% carvão = 100%; receitaTexto e itens concordam. DIVERGÊNCIA GRAVE: justificativa diz quantificar quatro componentes da primeira qualitativa, mas primeira é pinus médio + perlita grossa + pequena fração esfagno solto (três componentes, sem coco/carvão). Segunda é macadâmia média + pinus médio + esfagno solto (sem coco/perlita/carvão). Visual omite esfagno presente nas duas qualitativas, introduz chips coco/carvão e não corresponde a nenhuma. Validar retenção em recipiente, velocidade de secagem, necessidade de esfagno para raízes e diferença entre montagem principal e receita alternativa; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
-    },
-    "errosComuns": "Cortar hastes ainda verdes; manter substrato permanentemente molhado no inverno; água na coroa; vaso sem ventilação; sol direto forte; adubo concentrado; tratar como híbrida comercial de ambiente fechado; ignorar o hábito pendente; secar demais por tentar reproduzir um 'repouso'.",
-    "dica": "O melhor manejo é respeitar o ritmo sazonal: crescimento mais úmido e nutrido, seguido de inverno apenas um pouco mais seco. Preserve as hastes verdes e dê espaço para que cresçam pendentes — elas podem continuar produzindo flores sucessivamente.",
-    revisaoCientificaIAR: {
-        "nome": "Phalaenopsis mannii",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma Phalaenopsis bem diferente das híbridas de floricultura! A Phalaenopsis mannii tem crescimento naturalmente um pouco pendente e produz flores cerosas de 3 a 5 cm, amarelo-esverdeadas e marcadas por castanho-avermelhado. Além do desenho marcante, as flores podem exalar um agradável perfume lembrando mandarina. Na natureza cresce sobre cascas rugosas em florestas úmidas próxi",
-        "habitatAltitudeClima": "Florestas úmidas junto a rios · 500–1.500 m. | Quente a ameno · úmido · inverno mais seco.",
-        "distribuicaoGeografica": "Nepal/Assam a Myanmar, Vietnã e Yunnan.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
-        "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies",
-            "AOS/OrchidPro (dados públicos localizados)"
-        ]
-    },
-    indiceDificuldadeCultivo: {
-        "versao": "IDC 3.2 — selo por facilidade",
-        "escala": "dificuldade",
-        "indice": 40,
-        "classificacao": "Moderada",
-        "cultivoEstrelas": 3,
-        "criterios": {
-            "temperatura": {
-                "notaDificuldade": 2,
-                "peso": 15
-            },
-            "rega": {
-                "notaDificuldade": 2,
-                "peso": 15
-            },
-            "umidade": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "ventilacao": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "luminosidade": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "raizesSubstrato": {
-                "notaDificuldade": 1,
-                "peso": 10
-            },
-            "sazonalidade": {
-                "notaDificuldade": 1,
-                "peso": 10
-            },
-            "floracao": {
-                "notaDificuldade": 3,
-                "peso": 20
-            }
-        },
-        "faixas": {
-            "facil": "0–25",
-            "moderada": "26–50",
-            "dificil": "51–89",
-            "extrema": "90–100"
-        }
-    },
-    indiceAdaptacaoRegional: {
-        "versao": "IAR 2.0 — revisão científica",
-        "escala": "compatibilidade regional",
-        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
-        "litoralQuente": {
-            "indice": 79,
-            "estrelas": 4,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 4,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 4,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 5,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 2,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 4,
-                    "peso": 20
-                }
-            }
-        },
-        "montanhaFrio": {
-            "indice": 79,
-            "estrelas": 4,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 4,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 4,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 3,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 4,
-                    "peso": 20
-                }
-            }
-        }
-    },
-    "adaptacaoRegional": {
-        "litoralQuente": "Adaptação boa, mas prefira o ponto mais ventilado e protegido do calor acumulado. No inverno capixaba, aproveite a queda natural de temperatura e reduza discretamente as regas para estimular o ciclo floral.",
-        "montanhaFrio": "Muito boa em condições amenas; evite frio excessivo e mantenha menor frequência de rega quando a evaporação cair."
-    },
-    "mesesFloracao": [8, 9, 10, 11, 12],
-    "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
-        "climaFloracao": { "faixa": "intermediario" }
-    },
-        "avaliacoes": {
-        "cultivo": 3,
-        "floracao": 4,
-        "perfume": 3,
-        "luminosidade": 2,
-        "agua": 4,
-        "raridade": 4
-    }
-};
+        notaEvidencia: "MACS 1.1 — revisão documental: Phalaenopsis mannii é epífita levemente pendente, de raízes ventiladas, com umidade no crescimento e inverno moderadamente mais seco. Placa/tronco com pequena almofada de esfagno de fibra longa solto é suporte principal; estrelas são heurísticas. Receita visual alternativa para vaso vasado/cesto: 35% pinus médio + 30% chips coco médios preparados + 25% perlita grossa compatível com recipiente + 10% carvão vegetal médio = 100%; receitaTexto e itens concordam. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/esfagno solto e macadâmia/pinus/esfagno solto. Elas não são a origem dos percentuais visuais; justificativa anterior que afirmava equivalência foi corrigida. Preservar hastes verdes, evitar água na coroa e observar secagem sem repouso seco severo. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS
