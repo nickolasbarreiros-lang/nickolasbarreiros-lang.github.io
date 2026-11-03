@@ -9,7 +9,7 @@ Escopo: primeira passagem documental de cultivo e substratos. Não alterar recei
 3. gongora-bufonia.js — passagem concluída
 4. pabstiella-trifida.js — passagem concluída
 5. laelia-lundii-alba.js — passagem concluída
-6. cattleya-chocolate-drop.js — pendente
+6. cattleya-chocolate-drop.js — passagem concluída
 7. cattleya-a-brazilian-dream.js — pendente
 8. cattleya-violacea-f-suavissima-x-self.js — pendente
 9. cattleya-violacea-f-flamea.js — pendente
@@ -38,3 +38,8 @@ ECOLOGIA: miniatura sem pseudobulbos, raízes capilares e exigência de umidade/
 ## Passagem 115 — Cattleya lundii f. alba
 
 ECOLOGIA: miniatura epífita/rupícola, touceira compacta, montagem principal em placa com secagem rápida. SUPORTES: placa/tronco 5 estrelas, cachepô madeira e barro 4, árvore viva 3. RECEITA VISUAL alternativa para recipiente: 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa afirma quantificar primeira qualitativa (pinus + perlita + carvão + chips coco), mas visual omite chips coco e introduz macadâmia; segunda usa argila expandida sem perlita, terceira chips coco sem macadâmia. Nenhuma coincide. Validar granulometria, fixação e secagem em recipiente pequeno. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 09a6989435da351335f11fe82aa21cea8cb5122b. Próxima ficha Cattleya Chocolate Drop.
+
+
+## Passagem 116 — Cattlianthe Chocolate Drop
+
+HÍBRIDO primário vigoroso bifoliado; raízes epífitas, alta luz e secagem entre regas. SUPORTES: plástico vasado 80/100 e plástico comum 78/100 no resumo, valores heurísticos; métodos com estrelas null. RECEITA VISUAL: 35% pinus + 30% macadâmia + 20% perlita grossa + 15% carvão = 100%; texto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: qualitativas primeira e segunda usam chips coco + perlita + carvão + pinus (sem macadâmia); terceira macadâmia + argila expandida + carvão + pinus (sem perlita); nenhuma coincide. EVIDÊNCIA LIMITADA: ficha menciona pesquisa brasileira com mudas em pinus/carvão 4:3, mas comparou adubações, não substratos ou recipientes. Não extrapolar à receita visual. Validar referência do estudo, granulometria, secagem e estabilidade. Meta até 25 produtores brasileiros específicos não atingida; percentuais e suportes NÃO HOMOLOGADOS. Criado apenas notaEvidencia; demais campos preservados. Commit 02238d1181f15534efe61f2b24abe7fdd6359a61. Próxima ficha Cattleya A Brazilian Dream.
