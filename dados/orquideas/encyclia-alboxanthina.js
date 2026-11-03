@@ -40,7 +40,7 @@ export const encycliaAlboxanthina = {
         "🥈 Vaso de barro bem perfurado e proporcional à touceira.",
         "🥉 Montagem em cortiça ou madeira, quando houver disponibilidade de regas frequentes."
     ],
-    substrato: ["🥇 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥈 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","🥉 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
+    substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal (mistura provisória do substrato visual).","🥈 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥉 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","⭐ Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
     formasCultivo: {
         perfilVisual: "encyclia-epifita-rupicola-clara",
         destaque: "Cachepô de Madeira",
@@ -56,7 +56,7 @@ export const encycliaAlboxanthina = {
         titulo: "Substrato ideal",
         contexto: "Mistura para cachepô ou vaso proporcional à touceira",
         resumo: "Substrato de granulometria média a grossa, com excelente aeração e leve secagem entre regas.",
-        justificativa: "Os quatro componentes correspondem à primeira mistura qualitativa já registrada na ficha. Percentuais são estimativas técnicas ainda não homologadas pela MACS 1.0.",
+        justificativa: "A mistura provisória para cachepô ou vaso combina casca de macadâmia média, pinus médio, perlita grossa e carvão vegetal, priorizando aeração e secagem perceptível entre regas. Ela não reproduz integralmente nenhuma das alternativas qualitativas anteriores. Os percentuais são estimativas técnicas ainda não homologadas pela MACS 1.0.",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Epífita ou rupícola", "Pseudobulbos firmes", "Alta luminosidade filtrada", "Raízes aeradas", "Leve secagem entre regas"],
         comportamento: [
