@@ -79,11 +79,11 @@ export const stelisCfAprica = {
         "texto": "Pode funcionar em jardim úmido e sombreado, mas oferece menos controle de hidratação que o vaso plástico."
     }
 ] },
-    substrato: ["🥇 Casca de pinus fina + carvão vegetal pequeno + esfagno solto.","🥈 Chips de coco pequenos + carvão vegetal pequeno + perlita de granulometria adequada."],
+    substrato: ["🥇 Vaso plástico pequeno e muito perfurado: 35% casca de pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 20% esfagno de fibra longa solto (proposta NÃO homologada; identificação cf. aprica).","🥈 Casca de pinus fina/média + carvão vegetal pequeno + esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados).","🥉 Chips de coco pequenos preparados + carvão vegetal pequeno + perlita de granulometria adequada a raízes finas (alternativa qualitativa sem percentuais homologados)."],
     substratoVisual: {
       titulo: "Substrato ideal", contexto: "Receita para cultivo em vaso",
       resumo: "Como o vaso plástico é a forma preferencial nesta ficha, a mistura abaixo foi pensada para manter umidade regular sem sacrificar a aeração das raízes finas.",
-      justificativa: "Como Stelis aprica é epífita de ambientes úmidos e apresenta raízes finas, o vaso precisa reter alguma umidade sem perder macroporos. A recomendação é horticultural e não uma fórmula experimental publicada para a espécie.", receitaTexto: "35% pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 20% esfagno solto.",
+      justificativa: "A planta identificada provisoriamente como Stelis cf. aprica é microepífita de raízes finas que necessita umidade frequente, sombra luminosa e alta aeração sem saturação. Para vaso plástico pequeno e muito perfurado, a receita visual de pinus fino/médio, casca de arroz carbonizada, carvão pequeno e esfagno de fibra longa solto totaliza 100% em volume; os percentuais não foram homologados. As duas outras misturas são alternativas qualitativas distintas, com chips de coco preparados e perlita de granulometria compatível quando utilizados. Monitorar retenção dos 20% de esfagno e a secagem do miolo em clima quente. A identificação permanece cf. até confirmação morfológica. MACS 1.1: inferência horticultural sem homologação quantitativa específica.", receitaTexto: "35% casca de pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 20% esfagno de fibra longa solto (proposta para vaso plástico pequeno muito perfurado, não homologada).",
       perfil: [
     "Raízes finas",
     "Aeração alta",
@@ -116,12 +116,12 @@ export const stelisCfAprica = {
     },
     {
         "asset": "esfagno",
-        "nome": "Esfagno solto",
+        "nome": "Esfagno de fibra longa solto",
         "proporcao": "20%",
         "nota": "reserva hídrica controlada",
         "finalidade": "Retém umidade entre regas sem formar uma massa compacta quando usado solto e em baixa proporção."
     }
-], alerta: "Replante antes que a mistura compacte ou permaneça molhada por tempo muito maior que quando nova; preserve a base dos ramicaules arejada.", notaEvidencia: "MACS 1.0 — primeira passagem documental: Stelis cf. aprica, micro-orquídea epífita de raízes finas, identificação específica ainda prudencial (cf.), umidade frequente sem saturação, alta aeração e sombra luminosa. Suportes vaso plástico vasado 5 estrelas, placa/tronco e cachepô madeira 4, árvore viva 3; não homologados. Receita visual PARA VASO 35% pinus fina/média + 25% arroz carbonizado + 20% carvão pequeno + 20% esfagno solto = 100%; receitaTexto e itens concordam. Primeira qualitativa pinus fino + carvão pequeno + esfagno (sem arroz carbonizado); segunda chips coco pequenos + carvão pequeno + perlita adequada (sem pinus/arroz/esfagno). Nenhuma coincide integralmente. Justificativa reconhece proposta horticultural sem ensaio específico; validar 20% esfagno, granulometria, retenção no vaso plástico vasado e secagem de montagem em clima quente; confirmar identidade taxonômica antes de extrapolar recomendações. Duas referências de orquidários citadas não equivalem a verificação documentada de até 25 produtores brasileiros com receitas específicas. Percentuais e estrelas NÃO HOMOLOGADOS."
+], alerta: "Replante antes que a mistura compacte ou permaneça molhada por tempo muito maior que quando nova; preserve a base dos ramicaules arejada.", notaEvidencia: "MACS 1.1 — revisão documental: Stelis cf. aprica, microepífita de raízes finas, identificação ainda prudencial (cf.), umidade frequente sem saturação, alta aeração e sombra luminosa. Vaso plástico pequeno e muito perfurado é suporte principal; placa/tronco e cachepô de madeira são alternativas de cultivo. Receita visual e textual PARA VASO: 35% pinus fino/médio + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 20% esfagno de fibra longa solto = 100% em volume. Exatamente duas outras misturas qualitativas: pinus/carvão/esfagno e chips de coco pequenos preparados/carvão/perlita de granulometria adequada a raízes finas. Alternativas não comprovam percentuais da receita principal. Monitorar retenção do esfagno, secagem do centro do vaso, granulometria e identificação taxonômica. Duas referências de orquidários citadas não constituem levantamento individualizado de até 25 produtores brasileiros. Sem ensaio quantitativo específico; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
     "Expor ao sol direto forte.",
