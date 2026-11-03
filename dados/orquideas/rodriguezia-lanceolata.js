@@ -78,7 +78,7 @@ export const rodrigueziaLanceolata = {
     "dica": "Em regiões quentes, use meia-sombra clara, cachepô pequeno ou montagem em madeira e regas no início da manhã. O objetivo é oferecer água com frequência sem sacrificar o oxigênio das raízes finas. Se o suporte ainda estiver molhado à noite, há retenção excessiva.",
     revisaoCientificaIAR: {
         "nome": "Rodriguezia lanceolata",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "statusTaxonomico": "Nome aceito em POWO/Kew: Rodriguezia lanceolata Ruiz & Pav.; Rodriguezia secunda é sinônimo.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
         "morfologiaDimensoes": "Uma Rodriguezia de floração alegre e abundante. Esta pequena epífita forma touceiras compactas e produz hastes arqueadas de até cerca de 35 cm, com numerosas flores rosa a vermelho-púrpura concentradas no mesmo lado da inflorescência. Na natureza cresce sobre galhos menores de florestas tropicais úmidas, geralmente sob boa luminosidade, e pode florescer em diferentes épocas do ",
         "habitatAltitudeClima": "Epífita de florestas úmidas, sobre galhos claros; ~650–1.500 m. | Quente a intermediário, úmido e ventilado.",
