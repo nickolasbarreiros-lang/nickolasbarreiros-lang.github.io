@@ -41,7 +41,7 @@ export const epidendrumCentropetalum = {
         "🥈 Placa de cortiça ou madeira com pequena camada de esfagno junto às raízes.",
         "🥉 Vaso pequeno e bem perfurado, usando mistura leve e de drenagem rápida."
     ],
-    substrato: ["🥇 Chips de coco pequenos + perlita de granulometria adequada a miniaturas + casca de pinus fina.","🥈 Esfagno de fibra longa solto + perlita de granulometria adequada a miniaturas."],
+    substrato: ["🥇 Para Cachepô de Madeira pequeno e bem vazado: 45% casca de pinus fina + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto (proposta NÃO homologada).", "🥈 Chips de coco pequenos preparados + perlita de granulometria adequada a raízes finas + casca de pinus fina (alternativa qualitativa sem percentuais homologados).", "🥉 Esfagno de fibra longa solto + perlita de granulometria adequada a raízes finas (alternativa qualitativa sem percentuais homologados; controlar a retenção)."],
     formasCultivo: {
         perfilVisual: "epifita-montana-caules-finos-keikis",
         destaque: "Cachepô de Madeira",
@@ -55,10 +55,10 @@ export const epidendrumCentropetalum = {
     },
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Montagem com esfagno fino; mistura alternativa para cachepô ou vaso pequeno",
+        contexto: "Mistura principal para cachepô bem vazado; montagem em placa como método alternativo",
         resumo: "Substrato leve e arejado, mantendo umidade moderada sem saturação prolongada.",
-        justificativa: "A mistura provisória para cachepô ou vaso pequeno combina pinus fino, perlita calibrada e esfagno solto para conciliar aeração e umidade regular. É uma formulação distinta das duas alternativas qualitativas listadas; na montagem em placa/tronco utiliza-se uma pequena camada de esfagno. Os percentuais ainda não foram homologados pela MACS 1.0.",
-        receitaTexto: "45% casca de pinus fina + 35% perlita calibrada + 20% esfagno de fibra longa solto.",
+        justificativa: "Epidendrum centropetalum (sin. Oerstedella centradenia) é epífita montana de caules finos e raízes aéreas, exigindo umidade regular, boa ventilação e noites menos abafadas. Para cachepô de madeira bem vazado, a receita visual propõe pinus fino, perlita de granulometria adequada a raízes finas e esfagno de fibra longa solto, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não fundamentam os percentuais visuais. A montagem em placa/tronco com fina camada de esfagno é outro método, não a receita principal. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
+        receitaTexto: "45% casca de pinus fina + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto (proposta não homologada).",
         perfil: ["Epífita montana", "Caules finos", "Raízes aéreas", "Forma keikis", "Umidade regular"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -68,11 +68,11 @@ export const epidendrumCentropetalum = {
         ],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "45%", nota: "estrutura", finalidade: "Apoia raízes delicadas sem formar massa compacta." },
-            { asset: "perlita", nome: "Perlita calibrada", proporcao: "35%", nota: "aeração", finalidade: "Favorece circulação de ar e drenagem." },
+            { asset: "perlita", nome: "Perlita de granulometria adequada a raízes finas", proporcao: "35%", nota: "aeração", finalidade: "Favorece circulação de ar e drenagem." },
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "20%", nota: "retenção leve", finalidade: "Ajuda a evitar secagem prolongada sem encharcar." }
         ],
         alerta: "Evitar calor noturno abafado, sol forte do meio do dia, substrato encharcado e seca prolongada. Não retirar keikis antes de desenvolverem raízes suficientes.",
-        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+        notaEvidencia: "MACS 1.1 — revisão documental: Epidendrum centropetalum (sin. Oerstedella centradenia), epífita montana com caules finos, keikis e raízes aéreas; umidade regular, ventilação e noites menos abafadas são importantes. Cachepô de Madeira bem vazado é suporte principal; placa/tronco com esfagno fino é método alternativo, não receita principal. Receita visual e textual coincidem: 45% pinus fino + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Não fundamentam os percentuais visuais. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
         "Cultivar em ambiente quente e sem circulação de ar",
