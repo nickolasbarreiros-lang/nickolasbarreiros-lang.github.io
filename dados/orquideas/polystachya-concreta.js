@@ -55,8 +55,9 @@ export const polystachyaConcreta = {
     ],
 
     substrato: [
-        "🥇 Casca de pinus média + chips de coco + perlita grossa.",
-        "🥈 Carvão vegetal + casca de pinus grossa + pequena fração de esfagno solto."
+        "🥇 Para vaso pequeno e bem perfurado: casca de pinus média 45% + carvão vegetal 30% + perlita grossa 25% (mistura visual provisória, não homologada).",
+        "🥈 Casca de pinus média + chips de coco + perlita grossa.",
+        "🥉 Carvão vegetal + casca de pinus grossa + pequena fração de esfagno solto."
     ],
 
     formasCultivo: {
@@ -75,7 +76,7 @@ export const polystachyaConcreta = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso pequeno",
         resumo: "Mistura de casca de pinus, carvão e perlita que sustenta a touceira e seca sem permanecer saturada.",
-        justificativa: "A receita quantifica os três componentes da primeira mistura qualitativa já registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual para vaso pequeno e bem perfurado combina casca de pinus média, carvão vegetal e perlita grossa. A formulação exata foi acrescentada como primeira alternativa textual, preservando as duas misturas anteriores. A primeira receita antiga continha chips de coco, portanto não correspondia à composição visual. As referências botânicas e florísticas apoiam o hábito epífito, mas não validam estes percentuais nem o ranking de recipientes. Proposta ainda não homologada pela MACS 1.0.",
         receitaTexto: "45% casca de pinus média + 30% carvão vegetal + 25% perlita grossa.",
         perfil: ["Epífita cespitosa", "Raízes compactas", "Boa aeração", "Drenagem rápida", "Umidade moderada"],
         comportamento: [
