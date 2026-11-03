@@ -446,3 +446,9 @@ A busca direcionada identificou **quatro estabelecimentos brasileiros independen
 
 ### Critério de conclusão
 Os dois pares ficam classificados como **coincidência numérica sem validação biológica completa**, e não como erro demonstrado. **Nenhum índice ou substrato alterado** nesta passagem. Próxima etapa: obter fontes de cultivo/observações florais de cada espécie e atribuir notas por fator separadamente, com justificativa de cada diferença ou igualdade. Fontes de gênero, resumos de habitat e anúncios de venda não autorizam inventar frequências de floração em clima quente.
+
+## Passagem 21 — Rodriguezia: comparação de rega e substrato
+
+Fontes: Kew POWO (R. bracteata, bioma sazonalmente seco; R. lanceolata, bioma tropical úmido); Orquídeas no Apê (cultivo brasileiro de venusta em pinus, carvão e esfagno, com secagem antes da rega); orchid.guru (orientações secundárias para ambas, não percentuais experimentais).
+
+As duas fichas possuem instruções de rega distintas e coerentes qualitativamente com o manejo de raízes ventiladas: venusta/bracteata exige secagem mais pronunciada no recipiente; lanceolata, leve secagem entre regas. Ambas têm a mesma receita 35% pinus + 30% chips de coco + 25% perlita + 10% carvão. O recipiente principal, porém, difere: placa para bracteata/venusta e cachepô de madeira para lanceolata. A receita se refere às alternativas com substrato, não ao cultivo ideal montado em placa. A igualdade de proporções ainda não tem validação específica; não alterar sem evidência. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:221598-2 ; https://powo.science.kew.org/taxon/655797-1 ; https://www.orquideasnoape.com.br/2017/01/orquidea-rodriguezia-venusta.html .
