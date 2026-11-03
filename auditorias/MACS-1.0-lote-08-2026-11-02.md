@@ -8,7 +8,7 @@ Escopo: próximas dez fichas na ordem de imports de dados/orquideas/index.js ap�
 4. maxillaria-chrysantha.js — passagem concluída
 5. miltonia-regnellii.js — passagem concluída
 6. neobenthamia-gracilis.js — passagem concluída
-7. aspasia-lunata.js — pendente
+7. aspasia-lunata.js — passagem concluída
 8. cyrtopodium-saintlegerianum.js — pendente
 9. cattleya-warneri.js — pendente
 10. bulbophyllum-elassonotum.js — pendente
@@ -41,3 +41,8 @@ ECOLOGIA: epífita simpodial de raízes finas, exige umidade regular com aeraç�
 ## Passagem 76 — Polystachya neobenthamia (sin. Neobenthamia gracilis)
 
 ECOLOGIA: terrestre/rupícola de grande porte e caules altos, estabilidade do vaso e drenagem são prioridades inferidas do hábito. SUPORTES: barro 5 estrelas, plástico 4, cachepô madeira e plástico vasado 3, sem ensaio comparativo. RECEITA VISUAL: 35% macadâmia + 25% casca arroz carbonizada + 20% perlita + 20% fibra coco = 100%. DIVERGÊNCIA GRAVE: nenhuma das receitas qualitativas inclui macadâmia; justificativa visual declara que primeira mistura repete perlita e que a composição visual corresponde à segunda alternativa, o que não é sustentado pelo texto da ficha. Primeira mistura: arroz carbonizado + fibra coco + perlita + pinus fino; segunda: chips coco + arroz carbonizado + perlita + argila expandida. Revisão técnica posterior necessária, sem alterar conteúdo nesta passagem. Fontes botânicas já citadas não homologam percentuais ou estrelas; meta até 25 produtores brasileiros não atingida. Apenas notaEvidencia alterada, demais campos preservados. Commit f8cb25e33415930ad4270e96be5c3eeb4ad53def. Próxima ficha Aspasia lunata.
+
+
+## Passagem 77 — Aspasia lunata
+
+ESPÉCIE: epífita simpodial, florestas úmidas. RECEITA VISUAL: 30% macadâmia + 25% pinus + 20% arroz carbonizado + 15% carvão + 10% esfagno = 100%; receitaTexto e itens concordam. ALERTA DE CÓDIGO: propriedade `substrato` definida duas vezes; a segunda substitui a primeira em tempo de execução, deixando inacessível a primeira lista. A receita visual combina materiais, mas não coincide integralmente com nenhuma das quatro alternativas da segunda lista. SUPORTES: plástico 5 estrelas, cachepô e barro 4, placa 3, sem ensaio comparativo. Não foram demonstradas receitas quantitativas de até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia a substratoVisual (antes ausente); demais campos preservados. Commit 5c7bb87bded317858b4b2f137339c7281ded0332. Próxima ficha Cyrtopodium saintlegerianum.
