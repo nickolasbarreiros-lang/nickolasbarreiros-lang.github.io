@@ -1187,3 +1187,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **POWO:** nome aceito Cattleya wittigiana; Sophronitis wittigiana sinônimo editorial. IOSPE: epífita serrana de árvores musgosas 700–2000 m, cultivo em cortiça e água frequente. **Orquidário Oriental:** esfagno ou coco/pinus/carvão, placa de madeira e vasos, sem percentuais. Colibri Orquídeas: ventilação/umidade, sem receita. **2 produtores com orientações específicas, 1 com ingredientes, 0 com proporções**.
 - R0 45% pinus/25% carvão/20% brita/10% esfagno; R1 50/25/0/25; R2 50/20/10/20. R1/R2 hipóteses. **Alerta brita 20% sem suporte específico** e não presumir que placa resfrie raízes em litoral quente. Placa/cortiça B qualitativo específico; ingredientes pinus/carvão/esfagno B qualitativo; composição R0 D, percentuais D, estrelas D.
 - **Terceiro lote de cinco concluído: 15/149 matrizes documentadas, 0/149 homologações quantitativas.** Sem alterações JS/assets. Próxima ficha oficial: Sophronitis cernua.
+
+
+### MACS 1.1 — Matriz 016: Sophronitis cernua (2026-11-03)
+- Documento `auditorias/MACS-1.1-MATRIZ-016-SOPHRONITIS-CERNUA.md`, commit `eecd00debb19ab725cd01eaff4bc024f4fe843b7`.
+- **Evidência experimental específica A apenas para aclimatização de plântulas**: Tsutsumoto et al. 2026 (Horticulturae, DOI 10.3390/horticulturae12030307) comparou fibra de coco (61,11% de sobrevivência média) versus esfagno (38,89%), com fator adicional de fertilizante. **Não valida receitas para adultos**.
+- R0 atual 40% pinus/30% carvão/20% brita/10% macadâmia; R1 hipótese 50/30/10/0 mais 10% coco; R2 hipótese 40/20/0/0 mais 40% coco. Nenhuma mistura experimental adulta; composição R0 D, percentuais D, estrelas D. Montagem com evidência B qualitativa. Sem alteração JS/assets.
+- **Progresso: 16/149 matrizes documentadas; 0/149 homologações quantitativas de receitas adultas.** Próxima ficha oficial: Zygolum Louisendorf.
