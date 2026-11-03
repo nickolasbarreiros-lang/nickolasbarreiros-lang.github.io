@@ -41,7 +41,7 @@ export const dichaeaCogniauxiana = {
         "🥈 Cachepô ou cesto pequeno e muito aerado, com substrato leve.",
         "🥉 Vaso pequeno e muito perfurado, evitando compactação e retenção excessiva de água."
     ],
-    substrato: ["🥇 Receita visual provisória para cachepô ou vaso pequeno: casca de macadâmia média 35% + fibra de coco grossa 30% + perlita grossa 25% + esfagno solto 10% (100%; não homologada).","🥈 Casca de pinus fina/média + chips de coco pequenos + perlita grossa.","🥉 Pinus médio + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto."],
+    substrato: ["🥇 Para cachepô ou vaso pequeno: 35% casca de macadâmia média + 30% fibra de coco grossa preparada + 25% perlita grossa + 10% esfagno de fibra longa solto (hipótese horticultural NÃO homologada para Dichaea cogniauxiana).", "🥈 Casca de pinus fina/média + chips de coco pequenos preparados + perlita grossa (alternativa qualitativa sem proporções homologadas).", "🥉 Casca de pinus média + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno de fibra longa solto (alternativa qualitativa sem percentuais específicos publicados)."],
     formasCultivo: {
         perfilVisual: "dichaea-epifita-umida",
         destaque: "Placa / tronco",
@@ -57,8 +57,8 @@ export const dichaeaCogniauxiana = {
         titulo: "Substrato ideal",
         contexto: "Proposta para cachepô ou vaso pequeno; placa com esfagno leve junto às raízes",
         resumo: "Mistura leve de umidade relativamente constante, com partículas abertas e boa circulação de ar.",
-        justificativa: "A receita visual para cachepô ou vaso pequeno combina macadâmia média, fibra de coco grossa, perlita grossa e esfagno solto. A primeira receita qualitativa antiga contém pinus fino/médio e chips de coco, sem macadâmia ou fibra de coco grossa; a segunda contém pinus, carvão e esfagno, também sem macadâmia. Nenhuma corresponde à composição visual, e não há duplicação de granulometrias de perlita na primeira receita. A fórmula visual foi incluída como primeira alternativa provisória, preservando as duas anteriores. A montagem principal em placa utiliza esfagno leve junto às raízes e não esta mistura volumétrica. Para raízes delicadas, evitar compactação e validar retenção sem encharcamento. Percentuais não homologados pela MACS 1.0.",
-        receitaTexto: "35% casca de macadâmia média + 30% fibra de coco grossa + 25% perlita grossa + 10% esfagno solto.",
+        justificativa: "A montagem principal em placa ou tronco utiliza uma camada fina e solta de esfagno junto às raízes, não a mistura volumétrica. Para cachepô ou vaso pequeno, a receita principal textual e visual coincidem: macadâmia média, fibra de coco grossa preparada, perlita grossa e esfagno solto. As duas alternativas qualitativas são composições distintas, sem equivalência com a principal. A granulometria e a retenção precisam ser ajustadas ao calibre delicado das raízes e à ventilação disponível. MACS 1.1: proporções provisórias sem homologação quantitativa específica",
+        receitaTexto: "35% casca de macadâmia média + 30% fibra de coco grossa preparada + 25% perlita grossa + 10% esfagno de fibra longa solto.",
         perfil: ["Epífita delicada", "Raízes sensíveis à seca", "Umidade elevada", "Sombra luminosa", "Ventilação constante"],
         comportamento: [
             { nome: "Retenção", valor: 4, icone: "💧" },
@@ -68,12 +68,12 @@ export const dichaeaCogniauxiana = {
         ],
         itens: [
             { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Cria suporte e espaços de ar para raízes delicadas." },
-            { asset: "fibra-coco", nome: "Fibra de coco grossa", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a conservar umidade sem formar massa compacta." },
+            { asset: "fibra-coco", nome: "Fibra de coco grossa preparada", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a conservar umidade sem formar massa compacta." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Mantém a mistura porosa e evita saturação contínua." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "retenção complementar", finalidade: "Protege contra secagem excessiva quando aplicado sem compactação." }
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "10%", nota: "retenção complementar", finalidade: "Protege contra secagem excessiva quando aplicado sem compactação." }
         ],
         alerta: "Evitar sol direto forte, secagem prolongada e esfagno compactado. Alta umidade não significa raízes encharcadas: manter ar em movimento.",
-        notaEvidencia: "MACS 1.0 — primeira passagem documental: Dichaea cogniauxiana, epífita de floresta sombreada e úmida, raízes sensíveis à seca e ao abafamento. Suportes placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; notas sem comparação quantitativa específica. Receita visual para recipiente 35% macadâmia média + 30% fibra coco grossa + 25% perlita grossa + 10% esfagno solto = 100%; receitaTexto e itens concordam. DIVERGÊNCIA GRAVE: justificativa atribui receita à segunda alternativa e alega duplicação de granulometrias de perlita na primeira; primeira contém pinus + chips coco + perlita (apenas uma granulometria), segunda pinus + perlita + carvão + esfagno, nenhuma contém macadâmia nem fibra coco grossa. Montagem principal em placa com esfagno junto às raízes é distinta da receita para recipiente. Verificar retenção e granulometria para raízes delicadas; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Dichaea cogniauxiana, epífita de floresta sombreada e úmida, raízes sensíveis à seca e ao abafamento. Suportes placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; notas sem comparação quantitativa específica. Receita visual para recipiente 35% macadâmia média + 30% fibra coco grossa + 25% perlita grossa + 10% esfagno solto = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem; as duas alternativas qualitativas são diferentes da principal e não há duplicação de perlita. Montagem principal em placa com esfagno junto às raízes é distinta da receita para recipiente. Verificar retenção e granulometria para raízes delicadas; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
         "Expor ao sol direto forte",
