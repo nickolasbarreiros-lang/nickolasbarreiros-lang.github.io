@@ -575,3 +575,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Justificativa corrigida para registrar que argila expandida/esfagno não correspondem aos chips de coco/carvão da imagem. Ecologia de raízes finas e umidade regular sustenta apenas lógica qualitativa; não valida percentuais ou ranking de recipientes. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores não atingida.
 - Commit da ficha: ad1571b945b0b309bf294e8d1de9f288390523f2. Fotos, assets, índices IDC/IAR e layout preservados.
 - Progresso: 75/149 checagens; 73 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 076 — Polystachya neobenthamia (sin. Neobenthamia gracilis).
+
+## Registro 076 — Polystachya neobenthamia (sin. Neobenthamia gracilis) (2026-11-03)
+- Corrigida divergência grave: a receita visual é 35% macadâmia média + 25% casca de arroz carbonizada + 20% perlita grossa + 20% fibra de coco grossa; nenhuma das três misturas textuais anteriores continha macadâmia. A justificativa afirmava incorretamente correspondência com a segunda alternativa.
+- Incluída a composição visual exata como primeira alternativa textual provisória; três receitas qualitativas anteriores preservadas. Justificativa reescrita para declarar explicitamente a ausência de correspondência e a falta de validação dos percentuais para espécie terrestre/rupícola de grande porte. Commit ficha: 00bec41d258a4dad7eabe002f072dd1dce83158f.
+- Suporte principal vaso de barro pesado e drenante, com tutor, mantido; estrelas e percentuais NÃO HOMOLOGADOS. Fontes da passagem não apresentam comparação experimental nem 25 produtores com receita específica. Fotos, assets, IDC/IAR e layout preservados.
+- Progresso: 76/149 checagens; 74 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 077 — Aspasia lunata.
