@@ -52,3 +52,22 @@ Pesquisas específicas também pelo sinônimo Stelis sclerophylla não identific
 ## Próximo passo
 
 Ficha 003 — Epidendrum centropetalum; ampliar pesquisa de A. sclerophylla e A. odorata sem substituir ausência de fontes por recomendações genéricas ou híbridos diferentes.
+
+
+## Ficha 003 — Epidendrum centropetalum (sin. Oerstedella centradenia)
+
+**Situação:** pesquisa externa inicial concluída, homologação quantitativa PENDENTE. **Ficha de cultivo não alterada.**
+
+**Taxonomia e ecologia verificadas:** POWO/Kew confirma Epidendrum centropetalum Rchb.f. (1852) como nome aceito, Oerstedella centradenia e Epidendrum centradenia como sinônimos, epífita de bioma tropical úmido, nativa do sul do México à América Central: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:631548-1 . WFO confirma: https://www.worldfloraonline.org/taxon/wfo-1000054429 . Tratamento botânico especializado (Herbario AMO) documenta raízes em caules e keikis, sem proporções de substrato: https://www.herbarioamo.org/index_archivos/Fascicle8.pdf .
+
+**Receita atual PARA RECIPIENTE, não modificada:** 45% pinus fino + 35% perlita calibrada + 20% esfagno de fibra longa solto = 100%; receitaTexto e itens coerentes. Suportes cachepô madeira e placa/tronco 5 estrelas, plástico vasado 4, barro 3. A justificativa diferencia montagem com esfagno fino e receita alternativa para recipiente. Qualitativa 1 chips de coco pequenos + perlita + pinus (sem esfagno); qualitativa 2 esfagno + perlita (sem pinus): nenhuma coincide integralmente com a visual. Verificar risco de secagem excessiva em cachepô, retenção dos 20% esfagno, calibração da perlita, temperatura noturna e adequação de caules/keikis.
+
+**Busca de produtores brasileiros:** consultas pelos nomes Epidendrum centropetalum, Oerstedella centradenia e cultivo/substrato/orquidário não identificaram nesta rodada uma publicação de produtor brasileiro com recomendação específica da espécie. Página do Orquídeas dos Frades sobre Epidendrum (https://www.orquideasdosfrades.com.br/c%C3%B3pia-dendrobium-phalaenopsis) é **genérica para o gênero**, não prova de manejo desta espécie nem da mistura 45/35/20, e não entra na contagem. **Produtores com orientação específica verificável: 0/25; receitas quantitativas específicas: 0/25.** A ausência nesta busca inicial não comprova inexistência; ampliar pesquisa.
+
+**Alerta taxonômico:** não confundir com homônimo posterior Epidendrum centropetalum Rchb.f. (1855), que POWO trata como sinônimo de E. viridibrunneum; a ficha corresponde ao nome de 1852. Fonte: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77240549-1 .
+
+**Conclusão:** a ecologia epífita apoia aeração e hidratação regular, mas não demonstra superioridade quantitativa dos suportes nem os percentuais propostos. **NÃO HOMOLOGADO**; não modificar receitas, estrelas, assets, IDC ou IAR.
+
+## Próxima ficha
+
+004 Miltonia russelliana — buscar recomendações de produtores brasileiros e confrontar percentuais sem inferir dados ausentes.
