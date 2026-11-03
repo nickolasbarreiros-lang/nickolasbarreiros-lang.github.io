@@ -106,3 +106,17 @@ Conferidos diretamente os arquivos de *Cattleya schilleriana*, *Bulbophyllum rot
 **10/10 fichas do lote 03 tiveram ao menos triagem de composição, recipiente e água.** Três foram confrontadas na passagem anterior com fontes de espécie; as sete restantes foram conferidas nesta passagem quanto a compatibilidade e riscos, com **fontes externas gerais ou específicas para parte delas**. Isso **não significa** que as dez já atingiram o alvo de 25 produtores brasileiros por espécie.
 
 Não alterar os percentuais sem base comparativa; não alterar estrelas IDC/IAR nesta auditoria de substrato; nenhuma ficha foi modificada. **Homologação quantitativa: 0/10.**
+
+## Quarta passagem — confirmação específica de Oncidium Twinkle e risco de indução floral
+
+**Fonte específica, superior à inferência por gênero:** RHS, página do próprio híbrido *Oncidium Twinkle gx*: https://www.rhs.org.uk/plants/327502/oncidium-twinkle-gx/details . O RHS recomenda mistura aberta baseada em casca com adição possível de material mineral, esfagno ou fibra de coco; luz filtrada; temperaturas ideais em torno de **12°C à noite a 25°C de dia**; rega regular com drenagem completa, reduzida no inverno. A orientação não informa porcentagens de ingredientes.
+
+**Corroboração:** RHS, guia de oncidiums de clima mais fresco, https://www.rhs.org.uk/plants/oncidium/cool/growing-guide , lista nominalmente *Oncidium Twinkle* entre os híbridos recomendados e enfatiza queda térmica noturna na indução floral.
+
+**Comparação com a ficha real:** o arquivo `dados/orquideas/oncidium-twinkle.js` já informa, no campo `adaptacaoRegional`, que calor noturno persistente pode reduzir vigor e floração; o campo `climaFloracao` também valoriza noites mais frescas. A receita 35% pinus + 30% chips de coco + 25% perlita + 10% carvão é **compatível em categorias de materiais** com o RHS, mas os percentuais são proposta horticultural não validada.
+
+**Decisão:** não modificar campos já corretos, não alterar IDC 3.2 ou IAR 2.0 e **não homologar** os percentuais por extrapolação. Registrar a referência RHS do híbrido como evidência direta de qualidade superior a guias genéricos de Oncidium.
+
+**Nota de auditoria sobre *D. lindleyi*:** AOS, https://www.aos.org/orchids/articles/why-will-it-not-bloom-part-1-general-considerations , associa floração em habitat a dias abaixo de 27,7°C, noites abaixo de 10°C e amplitude diária acima de 13,9°C, junto com luz e sazonalidade. **Esses números descrevem condições de habitat discutidas pela fonte, não limiares absolutos de sobrevivência ou floração em todo cultivo.** O repouso hídrico isolado não substitui a sazonalidade térmica.
+
+**Status:** sem alteração de receitas; evidência de espécie/híbrido específica fortalecida; homologação percentual continua pendente.
