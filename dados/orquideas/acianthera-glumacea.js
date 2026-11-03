@@ -47,18 +47,15 @@ export const aciantheraGlumacea = {
         ]
     },
     substrato: [
-        "Para vaso pequeno: casca de pinus média + casca de arroz carbonizada + carvão vegetal pequeno + esfagno solto (mistura-base visual provisória, não homologada)",
-        "Casca de pinus média + carvão vegetal pequeno + esfagno solto",
-        "Casca de pinus média + casca de arroz carbonizada + carvão vegetal pequeno",
-        "Chips de coco médios + carvão vegetal pequeno + casca de arroz carbonizada",
-        "Casca de pinus média + perlita + esfagno solto"
+        "🥈 Alternativa 1 — 55% Casca de pinus + 20% Casca de arroz carbonizada + 20% Carvão vegetal + 5% Esfagno. Para vaso pequeno de secagem lenta; proporções MACS 1.1 D, inferidas e não homologadas.",
+        "🥉 Alternativa 2 — 40% Casca de pinus + 10% Casca de arroz carbonizada + 20% Carvão vegetal + 30% Esfagno. Para vaso pequeno de secagem rápida; esfagno disposto solto, proporções MACS 1.1 D, inferidas e não homologadas."
     ],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura aberta e estável, com boa aeração e uma reserva hídrica moderada para acompanhar o hábito epífito de ambientes florestais úmidos.",
         justificativa: "Acianthera glumacea é principalmente epífita, embora também possa ocorrer como rupícola. Há registros em diferentes formações florestais da Mata Atlântica e sobre casca rugosa com musgo. Para cultivo em vaso, isso favorece uma mistura estruturalmente aberta, que permita bastante oxigênio nas raízes, mas que retenha um pouco mais de umidade do que uma composição extremamente seca. A receita abaixo é uma recomendação prática derivada dessa ecologia e do comportamento esperado das raízes, não uma fórmula experimental publicada.",
-        receitaTexto: "Mistura-base provisória para vaso pequeno e ventilado: 45% casca de pinus média + 20% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto.",
+        receitaTexto: "45% Casca de pinus + 20% Casca de arroz carbonizada + 20% Carvão vegetal + 15% Esfagno. Percentuais por volume, provisórios.",
         perfil: ["Raízes finas", "Boa aeração", "Umidade moderada", "Secagem moderada", "Baixa compactação", "Rizoma livre"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -67,13 +64,13 @@ export const aciantheraGlumacea = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "45%", nota: "estrutura + retenção moderada", finalidade: "Mantém a mistura aberta e cria uma base semelhante a uma superfície lenhosa, sem compactar rapidamente." },
+            { asset: "casca-pinus", nome: "Casca de pinus", proporcao: "45%", nota: "estrutura + retenção moderada", finalidade: "Utilizar granulometria média; mantém a mistura aberta e cria base lenhosa sem compactação." },
             { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "20%", nota: "macroporos + leveza", finalidade: "Amplia os espaços de ar e ajuda a manter a mistura leve." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Favorece porosidade e estabilidade física da mistura." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva hídrica moderada", finalidade: "Mantém umidade entre regas sem transformar a mistura em um meio permanentemente encharcado." }
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração + estabilidade", finalidade: "Usar partículas pequenas; favorece porosidade e estabilidade física da mistura." },
+            { asset: "esfagno", nome: "Esfagno", proporcao: "15%", nota: "reserva hídrica moderada", finalidade: "Dispor solto, sem compactar; reserva moderada de umidade entre regas." }
         ],
         alerta: "Mantenha o rizoma sobre a superfície. Em litoral quente e muito úmido, use vaso pequeno e bem ventilado e reduza o esfagno se a secagem estiver lenta.",
-        notaEvidencia: "MACS 1.0: POWO e Flora Digital UFSC confirmam hábito epífito; IOSPE descreve ocorrência sobre casca rugosa com musgo. Esses registros apoiam qualitativamente montagem em placa e umidade moderada, mas não demonstram que a mistura de vaso 45% pinus + 20% arroz carbonizado + 20% carvão + 15% esfagno seja superior. Percentuais provisórios, não homologados; nesta etapa não foi localizado produtor brasileiro com receita quantitativa específica, portanto a meta de até 25 produtores permanece pendente. Não alterar estrelas por inferência.",
+        notaEvidencia: "MACS 1.1: IOSPE documenta hábito epífito sobre casca rugosa com musgo. Orientações brasileiras para o gênero Acianthera e literatura geral de epífitas sustentam qualitativamente Casca de pinus, Carvão vegetal e Esfagno; Casca de arroz carbonizada é inferência horticultural adicional. Composição C/D, percentuais D inferenciais e NÃO HOMOLOGADOS. Mantida receita visual anterior, sem prova de superioridade. Apenas duas alternativas no menu; estrelas D preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-036-ACIANTHERA-GLUMACEA.md.",
     },
     errosComuns: ["Remover ramicaules antigos ainda verdes que podem reflorir.", "Encharcar o centro de touceiras densas.", "Cultivar em calor noturno abafado.", "Usar substrato decomposto ou compactado.", "Usar vaso excessivamente grande.", "Manter sombra profunda.", "Confundir a preferência por umidade com necessidade de substrato permanentemente saturado."],
     revisaoCientificaIAR: {
