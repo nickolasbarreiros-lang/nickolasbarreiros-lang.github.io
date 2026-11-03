@@ -9,7 +9,7 @@ Escopo: fichas 81–90, na ordem de `dados/orquideas/index.js`, após Bulbophyll
 5. laelia-cinnabarina.js — passagem concluída
 6. laelia-lundii.js — passagem concluída
 7. catasetum-mattosianum.js — passagem concluída
-8. laelia-gloriosa.js — pendente
+8. laelia-gloriosa.js — passagem concluída
 9. encyclia-bracteata.js — pendente
 10. stanhopea-assidensis.js — pendente
 
@@ -46,3 +46,8 @@ ECOLOGIA: miniatura epífita ou rupícola, alta aeração e secagem rápida entr
 ## Passagem 87 — Catasetum mattosianum
 
 ECOLOGIA: epífita caducifólia com crescimento úmido e dormência de rega muito reduzida; regas fortes apenas após raízes novas desenvolvidas. SUPORTES: plástico vasado 5 estrelas, cachepô e placa/tronco 4, barro 3; notas não validadas por comparação específica. RECEITA VISUAL: 35% chips coco + 30% pinus + 20% perlita + 15% arroz carbonizado = 100%, texto e itens coerentes. DIVERGÊNCIA SUBSTANCIAL: primeira alternativa qualitativa contém esfagno + perlita + carvão; segunda argila expandida + perlita + chips coco + esfagno. Nenhuma inclui pinus ou arroz carbonizado. Justificativa já reconhece hipótese baseada no gênero, não ensaio da espécie; retenção e secagem durante fases do ciclo carecem de homologação. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia adicionada, demais campos preservados. Commit 4355c1efc0b6e849db75fe9faf48b3aaeeae87e8. Próxima ficha Laelia gloriosa.
+
+
+## Passagem 88 — Laelia gloriosa
+
+ECOLOGIA: epífita tropical de grande porte, raízes ventiladas, rizoma expansivo, suporte estável. SUPORTES: cachepô madeira 5 estrelas, barro e árvore viva 4, placa/tronco 3; ranking não validado especificamente. RECEITA VISUAL: 35% macadâmia + 30% pinus + 20% perlita + 15% carvão = 100%; texto e itens coerentes. DIVERGÊNCIA: justificativa afirma quatro materiais da primeira alternativa qualitativa, que contém pinus + perlita + carvão + chips coco, sem macadâmia; segunda contém macadâmia + argila expandida + carvão + pinus, sem perlita. Nenhuma coincide integralmente com a receita visual. A estabilidade do cesto grande é critério técnico plausível, não valida percentuais. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 24112b3715b001bb15a6553d0ab57fe91a05fe85. Próxima ficha Encyclia bracteata.
