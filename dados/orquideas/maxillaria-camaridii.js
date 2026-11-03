@@ -40,7 +40,7 @@ export const maxillariaCamaridii = {
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, sempre afastado do rizoma e protegido da umidade excessiva.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante crescimento ativo.\n🌸 Pré-floração: mantenha nutrição equilibrada; não há necessidade de indução por seca severa.\n🧪 Liberação lenta: poucos grânulos em cesto ou vaso muito drenante, longe das pontas de raízes.\n🚿 Faça lavagem periódica do substrato com água pura para evitar acúmulo de sais.",
     "rega": "Mantenha regas regulares durante todo o ano, principalmente no calor. A espécie aprecia umidade constante no ambiente, mas as raízes devem secar rapidamente após a irrigação e nunca permanecer abafadas ou encharcadas. Em cultivo montado, pode exigir rega diária em períodos quentes e secos. No inverno ou em semanas frias e nubladas, ajuste a frequência à velocidade real de secagem, sem estabelecer repouso seco.",
     "suporte": "🥇 Cachepô/cesto de madeira, acompanhando o crescimento rizomatoso e oferecendo excelente aeração.\n🥈 Placa de madeira, cortiça ou tronco, ideal onde seja possível regar com frequência.\n🥉 Vaso largo e muito perfurado com mistura grossa, deixando espaço horizontal para o rizoma avançar. Evite vasos profundos e substratos compactos.",
-    substrato: ["🥇 Casca de macadâmia + pinus grosso + perlita grossa + pequena fração de fibra de coco grossa.","🥈 Chips de coco + carvão vegetal + brita fina."],
+    substrato: ["🥇 Para cachepô de madeira ventilado: casca de pinus grossa 35% + carvão vegetal 25% + perlita grossa 25% + chips de coco grossos 15% (mistura visual provisória, não homologada).","🥈 Casca de macadâmia + pinus grosso + perlita grossa + pequena fração de fibra de coco grossa.","🥉 Chips de coco + carvão vegetal + brita fina."],
     formasCultivo: {
         perfilVisual: "epifita-rizomatosa-pseudobulbos-espacados",
         destaque: "Cachepô de Madeira",
@@ -56,7 +56,7 @@ export const maxillariaCamaridii = {
         titulo: "Substrato ideal",
         contexto: "Mistura grossa para cachepô de madeira ventilado",
         resumo: "Substrato aberto para raízes ativas, com pequena reserva hídrica e drenagem rápida após regas frequentes.",
-        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Percentuais estimados, ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual para cachepô de madeira ventilado combina pinus grosso, carvão vegetal, perlita grossa e chips de coco grossos. A formulação exata foi incluída como primeira alternativa textual; as duas misturas anteriores foram preservadas. A primeira receita antiga continha macadâmia e fibra de coco, portanto não correspondia à composição visual. Percentuais estimados e ainda não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de pinus grossa + 25% carvão vegetal + 25% perlita grossa + 15% chips de coco grossos.",
         perfil: ["Epífita rizomatosa", "Pseudobulbos espaçados", "Raízes arejadas", "Regas frequentes", "Secagem superficial rápida"],
         comportamento: [
