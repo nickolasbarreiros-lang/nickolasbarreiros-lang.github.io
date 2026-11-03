@@ -1,4 +1,7 @@
 export const bibliotecaCultivoV4 = {
+  "areia-grossa": { nome: "Areia grossa", imagem: "imagens/cultivo-v4/areia-grossa.svg" },
+  "terra-vegetal": { nome: "Terra vegetal", imagem: "imagens/cultivo-v4/terra-vegetal.svg" },
+  "composto-organico": { nome: "Composto orgânico", imagem: "imagens/cultivo-v4/composto-organico.svg" },
   "acianthera-teres-cultivo-ideal": { nome: "Acianthera teres — cultivo ideal", imagem: "imagens/cultivo-v4/especies/acianthera-teres/cultivo-ideal.webp" },
   "dinema-polybulbon-cultivo-ideal": { nome: "Dinema polybulbon — cultivo ideal", imagem: "imagens/cultivo-v4/especies/dinema-polybulbon/cultivo-ideal.webp" },
   "isabelia-pulchella-cultivo-ideal": { nome: "Isabelia pulchella — cultivo ideal", imagem: "imagens/cultivo-v4/especies/isabelia-pulchella/cultivo-ideal.webp" },
