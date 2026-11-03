@@ -429,3 +429,20 @@ A busca direcionada identificou **quatro estabelecimentos brasileiros independen
 - **AOS, Dendrobium geral:** https://www.aos.org/orchid-care/care-sheets/dendrobium-general-culture-sheet — grupos têm necessidades térmicas e de repouso diferentes; não aplicar um único gatilho de floração a *D. tenellum* e *D. moschatum*.
 
 **Decisão:** manter as notas restantes até pesquisa individual. **0 novos índices alterados; 0 percentuais MACS homologados**. Esta passagem resolve a auditoria **aritmética** do lote e abre revisão **biológica** de dois pares de notas exatamente idênticas.
+
+## Décima oitava passagem — investigação biológica dos dois pares de IAR idênticos
+
+**Arquivos inspecionados diretamente:** `oncidium-twinkle.js`, `dendrobium-tenellum.js`, `rodriguezia-venusta.js`, `rodriguezia-lanceolata.js`.
+
+### Par 1: Oncidium Twinkle × Dendrobium tenellum (IAR 47/96)
+- **Oncidium Twinkle:** híbrido horticultural de parentais montanos; o texto da ficha privilegia crescimento contínuo, touceira madura, umidade regular e noites amenas. RHS inclui *Twinkle* entre híbridos de Oncidium de cultivo mais fresco: https://www.rhs.org.uk/plants/oncidium-orchids/cool/growing-guide . AOS reconhece ampla tolerância do grupo Oncidium: https://www.aos.org/orchid-care/care-sheets/oncidium-culture-sheet .
+- **Dendrobium tenellum:** espécie montana de Java, 1.500–2.200 m segundo IOSPE; requer manejo sazonal de regas e é descrita como fresca/fria na ficha. https://www.orchidspecies.com/dentennelum.htm . Relato de produtor OrchidWeb indica que cultivo intermediário/quente também é possível: https://www.orchidweb.com/p/dendrobium-tenellum .
+- **Conclusão:** ambos podem ter baixa compatibilidade de floração sob noites quentes persistentes (nota litoral 2/5), mas **a identidade exata das sete notas regionais não foi demonstrada biologicamente**. Especialmente sazonalidade/repouso e compatibilidade de habitat devem ser revisitadas de modo individual; o híbrido não possui habitat natural próprio, enquanto *D. tenellum* possui. Não alterar números por suposição.
+
+### Par 2: Rodriguezia venusta × Rodriguezia lanceolata (IAR 96/64)
+- **R. venusta:** IOSPE a descreve como epífita de crescimento quente a intermediário, a 500–1.800 m, com floração sobretudo na primavera, em inflorescências pendentes: https://www.orchidspecies.com/rodrvenusta.htm .
+- **R. lanceolata:** IOSPE descreve epífita de crescimento quente a fresco, em galhos finos de florestas úmidas, a 650–1.500 m, com floração possível ao longo do ano, principalmente primavera: https://www.orchidspecies.com/rodsecunda.htm . POWO confirma espécie aceita e ampla distribuição tropical: https://powo.science.kew.org/taxon/655797-1 .
+- **Diferença documentada:** sazonalidade e padrão de inflorescência não são idênticos. A equivalência exata das notas IAR **pode ser válida em compatibilidade ampla**, mas não é comprovada pela similaridade de gênero. Em especial, 5/5 de floração em litoral quente para ambas **ainda precisa de observações específicas em baixada quente**; habitat tropical por si só não é ensaio de floração regional.
+
+### Critério de conclusão
+Os dois pares ficam classificados como **coincidência numérica sem validação biológica completa**, e não como erro demonstrado. **Nenhum índice ou substrato alterado** nesta passagem. Próxima etapa: obter fontes de cultivo/observações florais de cada espécie e atribuir notas por fator separadamente, com justificativa de cada diferença ou igualdade. Fontes de gênero, resumos de habitat e anúncios de venda não autorizam inventar frequências de floração em clima quente.
