@@ -314,7 +314,8 @@ export const isabeliaPulchella = {
         "finalidade": "Evita desidratação de raízes pequenas; manter solto, nunca compactado."
       }
     ],
-    "alerta": "Não usar perlita grossa. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
+    "alerta": "Não usar perlita grossa. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos.",
+    "notaEvidencia": "MACS 1.0 — primeira passagem documental: Isabelia pulchella, microepífita de rizoma rastejante e pseudobulbos pequenos, raízes finas e superficiais; umidade regular, ventilação e noites amenas favorecem desempenho, sem repouso seco severo. Suportes placa/tronco 5 estrelas, cachepô madeira e barro 4, árvore viva 3; não homologados. Receita visual alternativa PARA VASO: 40% pinus pequeno + 25% casca arroz carbonizada + 20% carvão pequeno + 15% esfagno solto = 100% em volume; resumo, receitaTexto e itens concordam. Qualitativa 1 pinus pequeno + carvão pequeno + perlita grossa (sem arroz/esfagno); qualitativa 2 arroz carbonizado + pinus pequeno + pouco esfagno (sem carvão). Visual combina componentes de ambas, não coincide integralmente com nenhuma. ALERTA DE COERÊNCIA: campo alerta proíbe perlita grossa, enquanto a primeira qualitativa ainda a recomenda; registrar divergência para correção posterior, sem editar receitas. Validar granulometria, umidade na montagem versus vaso, rizoma exposto, calor noturno e retenção de esfagno. Meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
   },
   "fotoReferencia": {
     "origem": "La Canopée — Isabelia pulchella",
