@@ -12,7 +12,7 @@ Escopo: primeira passagem documental, sem homologação quantitativa. Apenas not
 6. isabelia-virginalis.js — passagem concluída
 7. huntleya-meleagris.js — passagem concluída
 8. miltonia-spectabilis-var-moreliana.js — passagem concluída
-9. oncidium-pubes.js — pendente
+9. oncidium-pubes.js — passagem concluída
 10. miltonia-candida.js — pendente
 
 ## Passagem 91 — Dichaea pendula
@@ -53,3 +53,8 @@ ECOLOGIA: epífita sem pseudobulbos, requer umidade uniforme com oxigenação; s
 ## Passagem 98 — Miltonia moreliana
 
 IDENTIFICAÇÃO: nome atual na ficha Miltonia moreliana; arquivo histórico miltonia-spectabilis-var-moreliana.js. ECOLOGIA: epífita de rizoma expansivo e raízes capilares, vaso raso e largo, umidade regular sem saturação. SUPORTES: plástico vasado 5 estrelas, barro e cachepô madeira 4, placa/tronco 3; notas não homologadas. RECEITA VISUAL: 35% pinus médio + 30% chips coco + 25% perlita grossa + 10% carvão = 100%, texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira receita qualitativa, que contém pinus + perlita + argila expandida + esfagno, sem chips coco nem carvão. Segunda contém macadâmia + pinus + perlita + fibra coco, sem carvão e com fibra em vez de chips. Nenhuma coincide integralmente. Validar retenção e granulometria para raízes capilares em cuia ventilada. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit ecd576a8e2b333d36c4cbc5d472bf19037c8cb6c. Próxima ficha Oncidium pubes.
+
+
+## Passagem 99 — Gomesa pubes
+
+IDENTIFICAÇÃO: nome atual na ficha Gomesa pubes, arquivo histórico oncidium-pubes.js. ECOLOGIA: epífita com pseudobulbos bifoliados e hastes longas; raízes aeradas e suporte estável. SUPORTES: barro 5 estrelas, plástico vasado e cachepô madeira 4, placa/tronco 3; notas não homologadas. RECEITA VISUAL: 35% pinus médio + 30% chips coco + 25% perlita grossa + 10% carvão = 100%, texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira mistura qualitativa, que contém pinus + perlita + argila expandida + esfagno, sem chips coco nem carvão. Segunda contém macadâmia + pinus + perlita + fibra coco, sem carvão e com fibra em vez de chips. Nenhuma coincide integralmente. Validar retenção, secagem e estabilidade em vaso de barro sob hastes longas. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit f78346389b41f5b8591b05a52c900e3e7b1311de. Próxima ficha Miltonia candida.
