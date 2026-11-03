@@ -40,7 +40,7 @@ export const rodrigueziaLanceolata = {
     "adubacao": "🌿 Orgânica: bokashi em sachê pequeno, afastado das raízes e do centro da touceira.\n💧 Mineral/Foliar: NPK equilibrado bem diluído a cada 7–15 dias durante brotação e enraizamento.\n🌱 Crescimento: mantenha nutrição leve enquanto houver raízes novas ativas.\n🧪 Liberação lenta: Osmocote em dose reduzida apenas em vasos/cachepôs muito drenantes.\n🚿 Lavagem: enxágue periodicamente o suporte para evitar acúmulo de sais.",
     "rega": "Regue com frequência nos meses quentes e durante emissão de brotos e raízes novas. Em plantas montadas, regas diárias podem ser necessárias no verão, desde que as raízes sequem rapidamente. Em vasos, permita leve secagem entre irrigações. No frio ou em períodos chuvosos, reduza a frequência.",
     "suporte": "🥇 Cachepô pequeno de madeira — excelente equilíbrio entre retenção e ventilação.\n🥈 Tronco, placa de madeira ou cortiça — reproduz muito bem o hábito epífito.\n🥉 Vaso pequeno e muito vazado — opção prática em ambientes mais secos.\nEvite recipientes grandes ou fundos.",
-    substrato: ["casca de pinus pequena/média + perlita grossa + carvão vegetal pequeno","casca de pinus pequena/média + esfagno solto + perlita grossa + carvão vegetal pequeno"],
+    substrato: ["Casca de pinus pequena/média + perlita grossa + carvão vegetal pequeno","Casca de pinus pequena/média + esfagno de fibra longa solto + perlita grossa + carvão vegetal pequeno"],
     formasCultivo: {
         perfilVisual: "rodriguezia-epifita-raizes-finas-hastes-pendentes",
         destaque: "Placa / tronco",
