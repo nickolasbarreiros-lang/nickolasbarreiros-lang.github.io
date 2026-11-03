@@ -65,11 +65,7 @@ export const anathallisSclerophylla = {
             { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 3, status: "Adequado", texto: "Pode ser usado em recipiente pequeno, com drenagem eficiente e substrato aberto, exigindo maior controle da umidade para preservar a aeração das raízes." }
         ]
     },
-    substrato: [
-        "🥇 Placa / tronco: cultivo principal com raízes expostas e fina camada de esfagno de fibra longa solto, mantendo umidade frequente. Mistura opcional para vaso pequeno: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno (proposta NÃO homologada).",
-        "🥈 Chips de coco pequenos preparados + casca de arroz carbonizada + carvão vegetal pequeno (alternativa qualitativa para vaso, sem percentuais homologados).",
-        "🥉 Casca de pinus fina/média + perlita adequada a miniaturas + esfagno de fibra longa solto (alternativa qualitativa para vaso, sem percentuais homologados)."
-    ],
+    substrato: ["Chips de coco pequenos preparados + casca de arroz carbonizada + carvão vegetal pequeno","Casca de pinus fina/média + perlita adequada a miniaturas + esfagno de fibra longa solto"],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Placa / tronco principal; receita opcional para vaso pequeno — 100% em volume",
