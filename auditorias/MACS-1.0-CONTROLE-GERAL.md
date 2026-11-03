@@ -612,3 +612,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - `receitaTexto` e os quatro itens visuais já concordavam; percentuais, itens, comportamento, fotos e assets não foram alterados. A indicação de montagem com esfagno é atribuída a B. saltatorium sem confirmação para esta variedade, portanto extrapolação, não evidência específica. Commit ficha: 8afb92c670dd9804b5c6449e9dd90a33b4ff7664.
 - Fontes disponíveis não comprovam fórmula percentual nem ranking de suportes; meta 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS. IDC/IAR/layout preservados.
 - Progresso: 81/149 checagens; 79 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 082 — Bulbophyllum roxburghii (sin. B. sikkimense).
+
+## Registro 082 — Bulbophyllum roxburghii (sin. B. sikkimense) (2026-11-03)
+- Corrigida divergência entre receita visual (35% pinus médio + 25% chips de coco + 25% perlita grossa + 15% esfagno solto) e três alternativas qualitativas: nenhuma correspondia integralmente. Fórmula visual incluída como primeira alternativa provisória; três receitas anteriores preservadas.
+- `receitaTexto` e quatro itens visuais já concordavam; composição, percentuais, fotos/assets e comportamento não alterados. Justificativa já reconhecia ausência de convergência brasileira específica; nenhuma alteração necessária nela. Commit ficha: 3dd2345c22af3a85a2dd5898b3b96a965ae991dd.
+- Nome aceito na ficha como B. roxburghii, com B. sikkimense como sinônimo; não inferir clima alpino pelo epíteto. Fontes não validam percentuais nem ranking dos suportes; meta 25 produtores específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS.
+- Progresso: 82/149 checagens; 80 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 083 — Cattlianthe Jewel Box.
