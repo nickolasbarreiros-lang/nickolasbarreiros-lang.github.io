@@ -476,3 +476,13 @@ Comparacao com Rodriguezia bracteata (venusta): sua ficha ja continha a distinca
 ## Passagem 26 — integridade dos arquivos de fotos de Rodriguezia
 
 Conferidos diretamente via GitHub os oito caminhos de fotos presentes nos arrays fotos das fichas rodriguezia-venusta.js (nome aceito R. bracteata) e rodriguezia-lanceolata.js. Resultado: 8 de 8 arquivos existem no repositorio, cada qual com blob SHA. As duas fichas possuem quatro referencias de formasCultivo: placa-tronco, cesto-madeira, vaso-plastico-vasado e vaso-barro, com placa/tronco como destaque apos passagem 24. A verificacao nao inclui renderizacao do site, decodificacao visual das imagens ou existencia dos assets globais; essas etapas permanecem pendentes. Nenhum arquivo alterado.
+
+## Passagem 27 — MACS 1.0: evidencias especificas e limites quantitativos em Rodriguezia
+
+Rodriguezia bracteata (venusta): Orquivitro recomenda pinus + esfagno ou esfagno + casca de arroz carbonizada; Orquideas Encanto e Paixao e Orquideas no Ape relatam pinus + carvao + esfagno. Fontes: https://www.orquivitro.com.br/orquideas-especies/rodriguezia/rodriguezia-venusta-toquinho-de-madeira ; https://orquideasjph.wordpress.com/2016/10/17/rodriguezia-bracteata/ ; https://www.orquideasnoape.com.br/2017/01/orquidea-rodriguezia-venusta.html .
+
+Rodriguezia lanceolata: Orquideas Encanto e Paixao recomenda esfagno + carvao + pinus; Orquidario Matsuoka documenta cultivo em toco ou substrato sem proporcoes. Fontes: https://orquideasjph.wordpress.com/2016/08/21/rodriguezia-lanceolata/ ; https://orquidariomatsuoka.com.br/produto/epidendrum-porpax-colecao/ .
+
+A revisao academica da UFV documenta pinus, esfagno, carvao, chips de coco e perlita como materiais usados em orquideas, mas nao valida percentuais para estas especies: https://locus.ufv.br/bitstream/123456789/6816/1/texto%20completo.pdf .
+
+Decisao: manter por ora a receita 35% pinus + 30% chips coco + 25% perlita + 10% carvao, por falta de comparacao quantitativa que sustente nova composicao; alterar apenas notaEvidencia nas duas fichas para registrar alternativas de pinus/carvao/esfagno e que os percentuais de coco/perlita sao hipoteses. Commits: venusta d67ecb4d7fd9c47c64e2fc2e274fba8444e451fe; lanceolata 1bce9c69639d82c4c4c2bcec1f805d1745b91495. Nao homologadas.
