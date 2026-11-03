@@ -1256,3 +1256,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 Matriz: `auditorias/MACS-1.1-MATRIZ-025-ONCIDIUM-TWINKLE.md` (commit `95bb70af`). Ficha atualizada: `dados/orquideas/oncidium-twinkle.js` (commit `353cec26`). Método integrado: commit `505291a6`.
 Receita recomendada por convergência, por volume: 55% pinus fino/médio, 25% esfagno solto, 10% chips de coco lavados, 10% carvão pequeno. Total 100%. Composição e percentuais C inferenciais; estrelas D; sem validação experimental A. RHS e NEBG documentam casca e esfagno para o híbrido, sem proporções. Não alterar outras características da ficha.
 Progresso: 25/149 matrizes; 1 ficha quantitativamente revisada; 1 formulação C; 0 experimentos A. Próxima: Dendrobium tenellum. Revisitar 001–024 posteriormente.
+
+
+### MACS 1.1 — 026 Dendrobium tenellum (2026-11-03)
+Matriz: `auditorias/MACS-1.1-MATRIZ-026-DENDROBIUM-TENELLUM.md` (commit `399da226`). Ficha atualizada: `dados/orquideas/dendrobium-tenellum.js` (commit `c418ec76`), sintaxe verificada.
+Receita principal provisória por volume: 50% pinus médio, 20% chips de coco lavados, 15% perlita grossa, 15% carvão pequeno. Duas alternativas apenas: R2 60/10/20/10 e R3 45/30/10/15 (pinus/coco/perlita/carvão). Composição C por convergência; **percentuais D não homologados**; estrelas D. Não há ensaio ou receita quantitativa específica identificada. Fontes: POWO, IOSPE, RHS (genérica) e orchid.guru. 0 produtores brasileiros com receitas quantitativas específicas localizados nesta rodada.
+Progresso: 26/149 matrizes; 2 fichas integradas ao novo fluxo; 1 receita C com percentuais inferenciais; 1 receita D provisória; 0 validações experimentais A. Próxima: Dendrobium aggregatum.
