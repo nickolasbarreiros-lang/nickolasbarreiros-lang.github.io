@@ -308,3 +308,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 04:** POWO e Flora Digital UFSC confirmam hábito epífito; IOSPE registra ocorrência sobre casca rugosa com musgo. Não há produtor brasileiro específico com receita quantitativa confirmado nesta passagem. Não se validam os percentuais por mera plausibilidade ecológica.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 36/149 checagens; 34 fichas com correções efetivas (003–036); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 037 — Miltonia clowesii.
+
+## Correção na mesma passagem — registro 037 (2026-11-03)
+- **Ficha 037 — Miltonia clowesii** (`dados/orquideas/miltonia-clowesii.js`): vaso plástico vasado como cultivo principal; receita visual 35% pinus médio + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal = 100%.
+- **Correções efetivas:** receita visual ausente das duas alternativas textuais; adicionada como primeira opção provisória, preservadas as duas originais. Justificativa corrigida para não atribuir os quatro componentes à primeira mistura original. Commit `ede1175966e37033b71bdcd2cb22d312fe150e9f`.
+- **Evidência específica já registrada na ficha:** Schnitzer et al. (2010), Acta Scientiarum. Agronomy, DOI https://doi.org/10.4025/actasciagron.v32i1.714, avaliaram materiais e tratamentos para **mudas** de Miltonia clowesii, não a receita visual 35/30/25/10; não extrapolar resultados para plantas adultas nem homologar percentuais. Nota de evidência preservada.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 37/149 checagens; 35 fichas com correções efetivas (003–037); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 038 — Gomesa recurva.
