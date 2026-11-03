@@ -56,7 +56,7 @@ export const coelogyneAsperata = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para recipiente largo, estável e drenante",
         "resumo": "Mistura de umidade moderada a alta, mas aberta, para sustentar pseudobulbos volumosos sem secar completamente no crescimento.",
-        "justificativa": "A receita mantém os quatro materiais da primeira mistura já indicada na ficha. As proporções são uma hipótese técnica de cultivo, ainda sem homologação MACS 1.0.",
+        "justificativa": "A receita visual reúne chips de coco médios, casca de pinus média, perlita grossa e esfagno picado e solto. Como a ficha não apresenta uma lista textual anterior de substratos, esta composição fica registrada aqui como proposta provisória para recipiente largo e estável, sem alegar correspondência a uma mistura preexistente. As proporções são hipótese técnica, ainda sem homologação MACS 1.0.",
         "receitaTexto": "35% chips de coco médios + 30% casca de pinus média + 25% perlita grossa + 10% esfagno picado e solto.",
         "perfil": ["Raízes epífitas", "Touceira grande e pesada", "Umidade contínua sem encharcamento", "Aeração alta", "Sem repouso seco rigoroso"],
         "comportamento": [
