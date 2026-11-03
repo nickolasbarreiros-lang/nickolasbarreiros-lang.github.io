@@ -426,3 +426,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 06:** POWO aceita L. unicolor; AOS recomenda montagem para o gênero; Orquidário 4 Estações, Matsuoka e Hang oferecem orientações específicas sobre placa/toco e drenagem, sem receita percentual. Meta de 25 produtores com receitas específicas não atingida. Composição 35/30/20/15 sem homologação quantitativa.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 53/149 checagens; 51 fichas com correções efetivas (003–053); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 054 — Cattleya aclandiae tipo.
+
+## Correção na mesma passagem — registro 054 (2026-11-03)
+- **Ficha 054 — Cattleya aclandiae tipo** (`dados/orquideas/cattleya-aclandiae-tipo.js`): cultivo principal cachepô de madeira aberto, alternativa placa/tronco; receita visual alternativa para vaso muito perfurado 45% macadâmia + 30% perlita grossa + 25% carvão vegetal = 100%.
+- **Correção efetiva:** receita visual ausente das duas alternativas textuais; incluída como primeira opção provisória, preservadas as duas anteriores. Justificativa já distinguia corretamente cultivo principal e mistura de vaso; mantida. Commit `3806ba06d2b80ec52e7615e2e40e73442c742870`.
+- **Evidência prévia no lote 06:** POWO aceita C. aclandiae; quatro produtores brasileiros (4 Estações, Thomes, Orquídeas & Cia, Matsuoka) orientam suporte aberto, placa/tronco ou misturas grossas, mas não validam 45/30/25. Meta de 25 produtores não atingida; escores 91/100 e 86/100 são estimativas.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 54/149 checagens; 52 fichas com correções efetivas (003–054); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 055 — Cattleya lueddemanniana tipo.
