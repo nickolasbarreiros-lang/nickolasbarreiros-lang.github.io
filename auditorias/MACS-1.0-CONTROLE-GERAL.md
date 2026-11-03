@@ -433,3 +433,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 06:** POWO aceita C. aclandiae; quatro produtores brasileiros (4 Estações, Thomes, Orquídeas & Cia, Matsuoka) orientam suporte aberto, placa/tronco ou misturas grossas, mas não validam 45/30/25. Meta de 25 produtores não atingida; escores 91/100 e 86/100 são estimativas.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 54/149 checagens; 52 fichas com correções efetivas (003–054); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 055 — Cattleya lueddemanniana tipo.
+
+## Correção na mesma passagem — registro 055 (2026-11-03)
+- **Ficha 055 — Cattleya lueddemanniana tipo** (`dados/orquideas/cattleya-lueddemanniana-tipo.js`): cultivo principal cachepô de madeira ventilado; receita visual 35% macadâmia + 25% pinus + 25% perlita grossa + 15% carvão vegetal = 100%.
+- **Correção efetiva:** receita visual ausente das três alternativas textuais; incluída como primeira opção provisória, preservadas as três anteriores. Justificativa original já coerente com drenagem e secagem e foi preservada. Commit `dd7565808af584f31f82ebaf138d00db4d92d874`.
+- **Evidência prévia no lote 06:** AOS recomenda cesto de madeira/vaso de barro e secagem rápida para C. lueddemanniana; orquidários Oriental, Santa Clara e Mogi Mirim apresentam misturas distintas, sem validar 35/25/25/15. Três produtores brasileiros específicos, meta de 25 não atingida; homologação quantitativa pendente.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados.
+- **Progresso:** 55/149 checagens; 53 fichas com correções efetivas (003–055); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 056 — Cattleya walkeriana.
