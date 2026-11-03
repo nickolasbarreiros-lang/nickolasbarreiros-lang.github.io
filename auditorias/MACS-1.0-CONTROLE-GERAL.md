@@ -489,3 +489,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência do lote 07:** POWO/Kew aceita Maxillaria imbricata e sinonimiza Camaridium carinatum; AOS oferece orientação geral para Maxillaria, não ensaio da espécie. Belgrave Orchids comenta maxilárias rastejantes, também sem testar esta fórmula. Nenhuma receita quantitativa específica de produtor brasileiro confirmada nesta passagem; meta 25 não atingida. Receita e preferência de suporte não homologadas.
 - **Limites:** percentuais, demais receitas, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 62/149 checagens; 60 fichas com correções efetivas (003–062); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 063 — Acianthera pubescens.
+
+## Correção na mesma passagem — registro 063 (2026-11-03)
+- **Ficha 063 — Acianthera pubescens** (`dados/orquideas/acianthera-pubescens.js`): cultivo em vaso pequeno e muito drenante como alternativa; receita visual 35% pinus fino/médio + 30% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto = 100%.
+- **Correção efetiva:** a primeira receita textual listava os ingredientes sem percentuais e omitia o esfagno, embora o visual o incluísse; incluída a composição visual exata como primeira opção provisória, mantendo as quatro alternativas anteriores. Commit `73411a5951c2293cec7e81298af2665715ab9226`.
+- **Evidência do lote 07:** POWO/Kew reconhece A. pubescens (sin. Pleurothallis pubescens) como epífita; estudo florístico UNESP descreve hábito holoepífito, simpodial e reptante. Orquidário Aparecida comercializa exemplares montados em ripinha de cambará, evidência prática de suporte, não de comparação de substratos. Apenas um produtor brasileiro com indicação específica confirmado; meta 25 não atingida. Percentuais não homologados.
+- **Limites:** demais receitas, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 63/149 checagens; 61 fichas com correções efetivas (003–063); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 064 — confirmar pela ordem do lote 07.
