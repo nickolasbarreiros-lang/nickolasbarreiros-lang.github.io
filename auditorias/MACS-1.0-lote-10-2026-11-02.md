@@ -6,7 +6,7 @@ Escopo: primeira passagem documental, sem homologação quantitativa. Apenas not
 
 1. dichaea-pendula.js — passagem concluída
 2. dichaea-cogniauxiana.js — passagem concluída
-3. promenaea-guttata.js — pendente
+3. promenaea-guttata.js — passagem concluída
 4. encyclia-gallopavina.js — pendente
 5. stanhopea-guttulata.js — pendente
 6. isabelia-virginalis.js — pendente
@@ -23,3 +23,8 @@ ECOLOGIA: epífita pendente sem pseudobulbos, umidade frequente, sem seca prolon
 ## Passagem 92 — Dichaea cogniauxiana
 
 ECOLOGIA: epífita de sombra e alta umidade, raízes delicadas sensíveis à seca e ao abafamento. SUPORTES: placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; ranking sem comparação específica. RECEITA VISUAL PARA RECIPIENTE: 35% macadâmia + 30% fibra coco grossa + 25% perlita + 10% esfagno = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa atribui mistura à segunda alternativa e alega duplicação de granulometrias de perlita na primeira. Primeira contém pinus + chips coco + perlita, com uma só granulometria; segunda pinus + perlita + carvão + esfagno. Nenhuma contém macadâmia nem fibra coco grossa. Montagem principal em placa com esfagno junto às raízes difere da receita para recipiente. Retenção e granulometria precisam de validação para raízes delicadas. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 7e551276eeeb7181fed01687b212eaa0184f05d1. Próxima ficha Promenaea guttata.
+
+
+## Passagem 93 — Promenaea guttata
+
+TAXONOMIA NO ARQUIVO: ficha aponta tratamento POWO como Promenaea stapelioides subsp. xanthina, sem nova verificação taxonômica nesta passagem. ECOLOGIA: miniatura epífita, raízes delicadas, umidade regular e boa aeração. SUPORTES: plástico vasado 5 estrelas, cachepô madeira 4, placa/tronco e barro 3; notas não validadas especificamente. RECEITA VISUAL: 40% chips coco pequenos + 30% pinus fino + 30% perlita grossa = 100%, texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar segunda alternativa, que contém pinus + perlita adequada a miniaturas + esfagno, sem chips coco; primeira contém esfagno + perlita e não é montagem em placa como afirma justificativa. Nenhuma coincide integralmente com visual. Validar granulometria de perlita grossa e proporção de coco para vaso pequeno e raízes sensíveis. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit d4cf43afd509db7d53deff30082a5ebe42648566. Próxima ficha Encyclia gallopavina.
