@@ -399,3 +399,33 @@ A busca direcionada identificou **quatro estabelecimentos brasileiros independen
 **Arquivo corrigido:** `dados/orquideas/dendrobium-aggregatum.js` — apenas `indiceAdaptacaoRegional.litoralQuente.fatores.floracao.nota` de 4 para 2 e `indiceAdaptacaoRegional.litoralQuente.indice` de 78 para 70. Commit `ba696a9a751988bb22488dd14ece0d7d5d9d79ed`.
 
 **Limitação importante:** o índice descreve cenário de clima quente e noites persistentemente quentes, **não previsão determinística** para cada microclima. Não foram alterados substratos MACS, recipientes, fotos, assets ou IDC. Se a exibição do site tiver cache ou índice derivado externo, conferir posteriormente se lê os dados da ficha atualizados.
+
+## Décima sétima passagem — auditoria matemática completa do IAR 2.0 nas dez fichas do lote
+
+**Procedimento:** ler diretamente os dez arquivos de `dados/orquideas/`, extrair os sete pares `nota/peso` de cada região, recalcular `Σ(nota×peso/5)` conforme `documentacao/indices/IAR-METODOLOGIA.js`, somar os pesos e conferir o selo da faixa (0–20=1; 21–40=2; 41–60=3; 61–80=4; 81–100=5). **Resultado: 20/20 índices matematicamente corretos, 20/20 somas de pesos iguais a 100 e 20/20 selos consistentes.** Isto testa aritmética, **não validade científica das notas**.
+
+| Espécie | Litoral quente (IAR/estrelas; nota de floração) | Montanha fria (IAR/estrelas; nota de floração) |
+|---|---|---|
+| *Cattleya schilleriana* | 97/5★; floração 5 | 68/4★; floração 4 |
+| *Bulbophyllum rothschildianum* | 63/4★; floração 3 | 79/4★; floração 4 |
+| *Encyclia ‘Mineirinha’* | 73/4★; floração 4 | 79/4★; floração 4 |
+| *Arpophyllum giganteum* | 64/4★; floração 3 | 96/5★; floração 5 |
+| *Oncidium Twinkle* | 47/3★; floração 2 | 96/5★; floração 5 |
+| *Dendrobium tenellum* | 47/3★; floração 2 | 96/5★; floração 5 |
+| *Dendrobium lindleyi* (= aggregatum) | **70/4★; floração 2** (corrigido na passagem anterior) | 84/5★; floração 5 |
+| *Dendrobium moschatum* | 78/4★; floração 4 | 80/4★; floração 4 |
+| *Rodriguezia venusta* | 96/5★; floração 5 | 64/4★; floração 3 |
+| *Rodriguezia lanceolata* | 96/5★; floração 5 | 64/4★; floração 3 |
+
+### Alertas de possível reutilização de notas
+- *Oncidium Twinkle* e *Dendrobium tenellum* apresentam **as mesmas sete notas fatoriais em ambas as regiões**, gerando exatamente 47/96. Embora ambas possam ser sensíveis a noites quentes, são plantas com biologia distinta: **solicitar revalidação científica individual de cada fator**, não concluir erro automaticamente.
+- *Rodriguezia venusta* e *R. lanceolata* também apresentam **as mesmas sete notas fatoriais em ambas as regiões**, gerando 96/64. O cultivo de ambas pode ser semelhante, mas **a igualdade completa requer justificativa por espécie**.
+- **Cuidado:** notas idênticas não são prova de cópia indevida. A coincidência é um sinal de triagem para revisão das fontes primárias.
+
+### Evidência externa de floração no calor
+- **RHS, *Oncidium Twinkle* específico:** https://www.rhs.org.uk/plants/327502/oncidium-twinkle-gx/details — recomenda mínimo noturno próximo de 12°C e máximo diurno em torno de 25°C, com substrato aberto. Não fornece limiar absoluto de inviabilidade no litoral quente.
+- **RHS, grupo Oncidium quente:** https://www.rhs.org.uk/plants/oncidium-orchids/warm/growing-guide — queda noturna de aproximadamente 5°C pode estimular floração. Fonte de grupo, não substitui avaliação específica do híbrido.
+- **RHS, *Arpophyllum giganteum* específico:** https://www.rhs.org.uk/plants/1612/arpophyllum-giganteum/details — temperaturas 12–30°C, flutuação sazonal e diária favorece floração; cultivo intermediário a quente possível. Nota litoral 3/5 em floração é **plausível**, não homologada por ensaio regional.
+- **AOS, Dendrobium geral:** https://www.aos.org/orchid-care/care-sheets/dendrobium-general-culture-sheet — grupos têm necessidades térmicas e de repouso diferentes; não aplicar um único gatilho de floração a *D. tenellum* e *D. moschatum*.
+
+**Decisão:** manter as notas restantes até pesquisa individual. **0 novos índices alterados; 0 percentuais MACS homologados**. Esta passagem resolve a auditoria **aritmética** do lote e abre revisão **biológica** de dois pares de notas exatamente idênticas.
