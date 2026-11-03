@@ -39,7 +39,7 @@ export const rodricidium = {
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade na borda do vaso.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 10–15 dias durante crescimento.\n🌸 Pré-floração: pode-se alternar ocasionalmente com fórmula mais rica em fósforo/potássio, sem exageros.\n🧪 Liberação lenta: Osmocote em dose baixa.\n🚿 Lavagem: água pura periodicamente para reduzir sais.",
     "rega": "Regue quando a superfície secar e permita que a mistura perca a maior parte do excesso em 1–2 dias. No frio, aumente o intervalo conforme a evaporação, sem permitir enrugamento severo dos pseudobulbos.",
     "suporte": "🥇 Cachepô pequeno e bem vazado — máxima ventilação.\n🥈 Placa de madeira dura — excelente em ambiente úmido.\n🥉 Vaso pequeno de barro ou plástico furado — opção prática.\nUse recipiente proporcional ao sistema radicular.",
-    substrato: ["🥇 Para Cachepô de Madeira pequeno e vazado: 35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa compatível com o recipiente + 10% carvão vegetal médio (proposta NÃO homologada).", "🥈 Casca de pinus média + perlita grossa + argila expandida pequena + pequena fração de esfagno de fibra longa solto (alternativa qualitativa).", "🥉 Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de fibra de coco grossa preparada (alternativa qualitativa)."],
+    substrato: ["Casca de pinus média + perlita grossa + argila expandida pequena + pequena fração de esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de fibra de coco grossa preparada"],
     formasCultivo: {
         perfilVisual: "rodricidium-hibrido-simpodial-epifita",
         destaque: "Cachepô de Madeira",
