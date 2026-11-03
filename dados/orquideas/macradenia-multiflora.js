@@ -54,7 +54,7 @@ export const macradeniaMultiflora = {
         "🥉 Vaso pequeno e muito perfurado, com mistura leve e de secagem moderada."
     ],
 
-    substrato: ["🥇 Para cachepô pequeno e suspenso: casca de pinus média 45% + perlita grossa 30% + carvão vegetal 25% (mistura visual provisória, não homologada).","🥈 Casca de pinus + pequena fração de esfagno solto + perlita grossa.","🥉 Chips de coco + carvão vegetal + perlita grossa."],
+    substrato: ["Casca de pinus + pequena fração de esfagno solto + perlita grossa","Chips de coco + carvão vegetal + perlita grossa"],
 
     formasCultivo: {
         perfilVisual: "epifita-compacta-inflorescencia-pendente",
