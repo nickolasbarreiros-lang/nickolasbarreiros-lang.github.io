@@ -54,7 +54,7 @@ export const macradeniaMultiflora = {
         "🥉 Vaso pequeno e muito perfurado, com mistura leve e de secagem moderada."
     ],
 
-    substrato: ["🥇 Casca de pinus + pequena fração de esfagno solto + perlita grossa.","🥈 Chips de coco + carvão vegetal + perlita grossa."],
+    substrato: ["🥇 Para cachepô pequeno e suspenso: casca de pinus média 45% + perlita grossa 30% + carvão vegetal 25% (mistura visual provisória, não homologada).","🥈 Casca de pinus + pequena fração de esfagno solto + perlita grossa.","🥉 Chips de coco + carvão vegetal + perlita grossa."],
 
     formasCultivo: {
         perfilVisual: "epifita-compacta-inflorescencia-pendente",
@@ -71,7 +71,7 @@ export const macradeniaMultiflora = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para cachepô pequeno e suspenso",
         resumo: "Substrato leve de secagem moderada, com raízes ventiladas e umidade regular durante o crescimento.",
-        justificativa: "A receita quantifica os três componentes da primeira mistura qualitativa já registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual para cachepô pequeno e suspenso combina pinus médio, perlita grossa e carvão vegetal. A formulação exata foi incluída como primeira alternativa textual; as duas misturas anteriores foram preservadas. A primeira receita antiga continha esfagno, portanto não correspondia à composição visual. As referências brasileiras citadas apoiam cultivo sombreado, drenagem e umidade, mas não testam estes percentuais. Proposta ainda não homologada pela MACS 1.0.",
         receitaTexto: "45% casca de pinus média + 30% perlita grossa + 25% carvão vegetal.",
         perfil: ["Epífita compacta", "Inflorescência pendente", "Umidade regular", "Raízes ventiladas", "Secagem moderada"],
         comportamento: [
