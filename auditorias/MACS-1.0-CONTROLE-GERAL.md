@@ -594,3 +594,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Justificativa corrigida: montagem em placa/tronco dispensa mistura volumétrica; fórmula para vaso/cachepô não tem validação comparativa. Brita fina da alternativa antiga foi mantida, sem confundir com a receita visual. Commit da ficha: a13f26a535e730cb9e7340e9f821aeaa7f7505ce.
 - Hábito epífito sazonal e repouso mais seco mantidos; placa/tronco ou cachepô como suporte de longo prazo é inferência ecológica, não comparação experimental. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores não atingida. Fotos/assets/IDC/IAR/layout preservados.
 - Progresso: 78/149 checagens; 76 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 079 — Cattleya warneri.
+
+## Registro 079 — Cattleya warneri (2026-11-03)
+- Corrigida divergência entre primeira receita qualitativa (macadâmia + argila expandida + carvão + pinus grosso) e receita visual: 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão vegetal = 100%. Fórmula visual exata incluída como primeira alternativa provisória; três misturas anteriores preservadas.
+- Justificativa corrigida: argila expandida foi substituída por perlita e granulometria do pinus ajustada; não se deve dizer que a receita visual repete literalmente a antiga. Referências gerais de Cattleya apoiam substrato aberto/drenagem, sem validar proporções específicas para C. warneri. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
+- Commit ficha: 53cc1b950c5d61eccd627b893a79dccfbc78fac2. Fotos, assets, IDC/IAR e layout preservados.
+- Progresso: 79/149 checagens; 77 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 080 — Bulbophyllum elassonotum.
