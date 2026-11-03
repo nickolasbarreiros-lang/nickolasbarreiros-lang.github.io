@@ -1111,3 +1111,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - R0 vigente 45% pinus/40% perlita/15% esfagno; R1 hipotética 55/25/20; R2 relato partes iguais de pinus/esfagno/carvão. AOS recomenda mistura com reserva hídrica para o gênero; nenhuma fonte valida especificamente R0. **Pendência taxonômica:** ficha registra que POWO trata o nome editorial Promenaea xanthina sob Promenaea stapelioides; conferir antes de transferir estudos.
 - Ingredientes alternativos e suportes nível B qualitativo; **R0 composição D, percentuais D e estrelas D**. Sem índice numérico artificial e sem alterações JS/assets.
 - Progresso: **5/149 matrizes MACS 1.1 documentadas; 0/149 homologações quantitativas concluídas**. Próxima espécie oficial: Brassia lawrenceana.
+
+
+### MACS 1.1 — Matriz 006: Brassia lawrenceana (2026-11-03)
+- Criada `auditorias/MACS-1.1-MATRIZ-006-BRASSIA-LAWRENCEANA.md`, commit `91d291578c2e65d653dd05cb26f9c66485fdcb31`.
+- Evidências: Flora do Brasil confirma epífita amazônica; RHS específica recomenda casca aberta com perlita/esfagno/coco, sem percentuais; AOS Brassia recomenda vaso/cesto e secagem parcial; IOSPE documenta ambiente quente a morno. Fontes não validam quantitativamente R0.
+- R0 atual 35% pinus, 25% coco, 20% macadâmia, 10% carvão, 10% perlita; R1 45/15/20/10/10; R2 45/25/0/15/15. Alternativas apenas para comparação. **Alerta:** macadâmia 20% sem evidência específica; investigar propriedades e substituição fundamentada, não alterar sem base. Montagem citada por fonte específica mas omitida dos quatro métodos atuais: revisar inclusão.
+- Possibilidade de vaso/cesto nível B; composição D, percentuais D, estrelas D. **Não homologada**. Progresso **6/149 matrizes**, **0/149 homologações por convergência**; próxima espécie segundo ordem oficial: Laelia splendida (confirmar arquivo/nome editorial).
