@@ -4,7 +4,7 @@ Escopo: dez proximas fichas apos Maxillaria tenuifolia, na ordem do indice. Conf
 
 1. `colmanara-wildcat.js` — passagem concluida
 2. `brassavola-perrini.js` — passagem concluida
-3. `ornithophora-radicans.js` — pendente
+3. `ornithophora-radicans.js` — passagem concluida
 4. `coelogyne-ovalis-var-miniatum.js` — pendente
 5. `coelogyne-cristata.js` — pendente
 6. `bc-turandot-x-blc-orange-show-x-blc-chunyeah.js` — pendente
@@ -26,3 +26,11 @@ POWO https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A618050-1
 Ficha: placa/tronco 5 estrelas; cachepo e barro 4; plastico vasado 3. Receita de vaso 35% macadamia grossa + 25% carvao grosso + 20% pinus grosso + 20% brita pequena/media = 100%. AOS https://www.aos.org/explore/brassavola recomenda para genero placa sem material retentor, regas regulares e secagem entre regas; meio epifito medio em vaso/cesto. PRODUTORES BRASILEIROS ESPECIFICOS: Orquivitro https://www.orquivitro.com.br/orquideas-especies/brassavola-perrini recomenda pinus medio, mix proprio ou placa (sem percentuais); Orquidario Oriental https://www.orquidariooriental.com.br/produto/brassavola-tuberculata%2C53425/ recomenda 50-60% esfagno com restante carvao e cascas moidas em partes iguais, mostrando divergencia forte da receita de baixa retencao; Orquideas & Cia https://www.orquideacia.com.br/brassavola-perrini sugere arvores/cachepos/vasos drenantes/placas, sem receita quantitativa. Sao 3 fontes brasileiras com orientacoes qualitativas ou uma quantitativa alternativa; meta de ate 25 nao atingida.
 
 Parecer: suporte lenhoso e secagem entre regas bem fundamentados, mas a receita de macadamia 35% nao foi localizada em ensaio especifico. A divergencia de esfagno nao permite afirmar superioridade universal; avaliar clima quente e ventilacao. Percentuais e estrelas NAO HOMOLOGADOS. Atualizado apenas alerta MACS da ficha, commit 6b47b73c96811a49ad10f5064a93b01cec4f4f25. Proxima especie Ornithophora radicans.
+
+## Passagem 43 — Ornithophora radicans (= Gomesa radicans)
+
+Taxonomia: POWO https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77101300-1 confirma Gomesa radicans como nome aceito, Ornithophora radicans como sinonimo e habito epifito; https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A176530-2 explicita sinonimia. RHS https://www.rhs.org.uk/plants/523682/gomesa-radicans/details recomenda substrato umido porem bem drenado, meia-sombra; sem receita quantitativa.
+
+Ficha: placa/tronco principal (5 estrelas), cachepo madeira 4, plastico vasado e barro 3. Alternativa de vaso: 35% pinus medio + 30% chips coco + 25% perlita grossa + 10% carvao = 100%. Produtor brasileiro ESPECIFICO Orquidario Oriental https://www.orquidariooriental.com.br/produto/iornithophora-radicansi%2C1661/ cita placa de madeira, esfagno, fibra coco/pinus/carvao, vasos plastico/barro/caixeta, regas com intervalos de secagem; SEM percentuais. Relato de cultivador australiano publicado em https://www.canberraorchids.org/pubs/bulletin3703.pdf (Canberra Orchid Society, maio-junho 2022) documenta sucesso em cortica e placas de fibra de samambaia-arborea, risco de excesso de agua em vaso e necessidade de mistura aberta; nao e ensaio controlado nem produtor brasileiro.
+
+Parecer: placa tem respaldo ecológico e de cultivadores; ingredientes qualitativos de vaso parcialmente corroborados. Nao foi encontrada recomendacao especifica de perlita 25% nem ensaio 35/30/25/10. Formula NAO HOMOLOGADA; estrelas tambem nao validadas. Um produtor brasileiro com orientacao especifica documentado; meta de ate 25 pendente. Atualizada somente notaEvidencia, commit e6622c6bb19b1b35f79a2175e65524b105ae5a1e. Proxima ficha Coelogyne ovalis var. miniatum.
