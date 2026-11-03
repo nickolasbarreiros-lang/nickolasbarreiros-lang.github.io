@@ -1118,3 +1118,11 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Evidências: Flora do Brasil confirma epífita amazônica; RHS específica recomenda casca aberta com perlita/esfagno/coco, sem percentuais; AOS Brassia recomenda vaso/cesto e secagem parcial; IOSPE documenta ambiente quente a morno. Fontes não validam quantitativamente R0.
 - R0 atual 35% pinus, 25% coco, 20% macadâmia, 10% carvão, 10% perlita; R1 45/15/20/10/10; R2 45/25/0/15/15. Alternativas apenas para comparação. **Alerta:** macadâmia 20% sem evidência específica; investigar propriedades e substituição fundamentada, não alterar sem base. Montagem citada por fonte específica mas omitida dos quatro métodos atuais: revisar inclusão.
 - Possibilidade de vaso/cesto nível B; composição D, percentuais D, estrelas D. **Não homologada**. Progresso **6/149 matrizes**, **0/149 homologações por convergência**; próxima espécie segundo ordem oficial: Laelia splendida (confirmar arquivo/nome editorial).
+
+
+### MACS 1.1 — Matriz 007: Laelia splendida (2026-11-03)
+- Criado `auditorias/MACS-1.1-MATRIZ-007-LAELIA-SPLENDIDA.md`, commit `514edbddcab777d378e665fc31fe9387cf2c4eaf`.
+- Taxonomia Laelia splendida (= Schomburgkia splendida) confirmada em WFO/Kew/IPNI; distribuição Colômbia e Equador. Smithsonian descreve epífita em locais expostos e florestas relativamente secas junto a rios, 600–1500 m. Não confundir com Laelia gloriosa ou Schomburgkia crispa.
+- R0 atual 35% macadâmia/30% pinus/20% perlita/15% carvão; R1 15/50/20/15; R2 0/55/25/20. R1/R2 são hipóteses comparativas. **Alerta prioritário:** macadâmia é o maior ingrediente (35%), sem evidência específica encontrada; investigar propriedades físicas e necessidade, sem alterar automaticamente.
+- Composição D, percentuais D, estrelas D; possibilidade de suporte epífito ventilado corroborada apenas qualitativamente. Índice heurístico não calculado. Ficha JS e assets preservados.
+- Progresso: **7/149 matrizes documentadas**, **0/149 homologações por convergência**. Próxima espécie: Encyclia alboxanthina.
