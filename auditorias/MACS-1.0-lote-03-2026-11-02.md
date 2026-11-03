@@ -120,3 +120,48 @@ Não alterar os percentuais sem base comparativa; não alterar estrelas IDC/IAR 
 **Nota de auditoria sobre *D. lindleyi*:** AOS, https://www.aos.org/orchids/articles/why-will-it-not-bloom-part-1-general-considerations , associa floração em habitat a dias abaixo de 27,7°C, noites abaixo de 10°C e amplitude diária acima de 13,9°C, junto com luz e sazonalidade. **Esses números descrevem condições de habitat discutidas pela fonte, não limiares absolutos de sobrevivência ou floração em todo cultivo.** O repouso hídrico isolado não substitui a sazonalidade térmica.
 
 **Status:** sem alteração de receitas; evidência de espécie/híbrido específica fortalecida; homologação percentual continua pendente.
+
+## Quinta passagem — produtores brasileiros documentados, com evidência discriminada
+
+### Bulbophyllum rothschildianum — 3 produtores independentes localizados
+
+| Produtor | Recomendações publicadas para a espécie | Limite da evidência |
+|---|---|---|
+| Orquidário Maripá | Cascas, carvão, pedaços de madeira e musgo; vaso plástico, barro ou caixeta; montagem em árvore com mais regas durante o enraizamento | Não publica percentuais, nem especifica chips de coco ou granulometria |
+| Orquidário Mogi Mirim | Pinus, carvão e esfagno; vaso ou tronco; umidade moderada, sem encharcar | Não publica percentuais; página também afirma origem em Papua Nova Guiné, **incompatível com Kew POWO** |
+| Orquidário Oriental | Informa habitat epífito em floresta úmida bem ventilada, da região de Darjiling a Assam, até 1.200 m | Página comercial **não publica receita de substrato**; não contar como fonte de composição |
+
+Fontes:
+- https://www.orquidariomaripa.com.br/produtos/bulbophyllum-rothschildianum-pre-adulta/
+- https://www.orquidariomogimirim.com.br/bulbophyllum-rothschildianum-
+- https://www.orquidariooriental.com.br/produto/ibulbophyllum-rothschildianumi,2217/
+- Controle taxonômico Kew POWO: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:620046-1 — distribuição nativa de Darjiling a sul de Yunnan e norte de Myanmar, **não Papua Nova Guiné**.
+
+**Confronto com a ficha:** 35% pinus + 20% carvão + 25% chips de coco + 20% esfagno. Pinus, carvão e musgo aparecem explicitamente nas fontes de produtores. A fração de **25% de chips de coco** é plausível, mas **não demonstrada nas duas receitas específicas encontradas**; não confundir madeira em pedaços com chips de coco. Nenhum dos três produtores comprova percentuais. O cultivo em cachepô de madeira é uma opção corroborada, não superioridade quantitativamente demonstrada.
+
+### Arpophyllum giganteum — 3 produtores independentes localizados
+
+| Produtor | Recomendações publicadas para a espécie | Limite da evidência |
+|---|---|---|
+| Orquidário Maripá | Cascas, carvão, pedaços de madeira e esfagno; vaso plástico/barro/caixeta; montagem possível | Não menciona macadâmia, arroz carbonizado ou percentuais |
+| Orquidário 4 Estações | Substrato bem drenado, várias misturas possíveis; clima tropical/quente e sombreamento ~60% | Sem ingredientes ou proporções |
+| Orquidário Mogi Mirim | Regas regulares no crescimento, com leve secagem; redução em época mais fria sem desidratar | O trecho consultado não comprova ingredientes/percentuais |
+
+Fontes:
+- https://www.orquidariomaripa.com.br/produtos/orquidea-arpophyllum-giganteum-especie-para-colecionar-pre-adulta/
+- https://orquidario-4-estacoes.lojaintegrada.com.br/orquidea-arpophyllum-giganteum-nbs
+- https://www.orquidariomogimirim.com.br/arpophyllum-giganteum
+
+**Confronto com a ficha:** 35% macadâmia + 25% pinus + 20% carvão + 10% arroz carbonizado + 10% esfagno. Há convergência qualitativa em cascas, carvão, musgo e drenagem. **Macadâmia e casca de arroz carbonizada são escolhas técnicas ainda sem confirmação direta dessas três fontes para a espécie**. Não confundir menção genérica a cascas com confirmação específica de macadâmia.
+
+### Achado de controle de qualidade das fontes
+
+A página comercial do Orquidário Mogi Mirim para *B. rothschildianum* informa origem em Papua Nova Guiné; **Kew POWO não inclui Papua Nova Guiné na distribuição nativa**. Usar a página comercial apenas para recomendações de cultivo declaradas e adotar Kew como referência de distribuição. **Não transpor informação geográfica errada para a ficha.**
+
+### Contagem e decisão
+
+- *B. rothschildianum*: **3 produtores com páginas da própria espécie**, sendo **2 com composição de substrato** e 1 apenas com contexto ecológico.
+- *A. giganteum*: **3 produtores com páginas da própria espécie**, sendo **1 com ingredientes nomeados**, 1 com drenagem genérica e 1 com manejo hídrico.
+- Total: **6 páginas de produtores específicos, sem duplicar variações comerciais do mesmo produtor**.
+- **0 receitas com percentuais confirmados**; **0 arquivos de fichas modificados**.
+- Não se atingiu a meta de até 25 produtores por espécie. Prosseguir com as demais espécies e pesquisas complementares, sem declarar homologação numérica.
