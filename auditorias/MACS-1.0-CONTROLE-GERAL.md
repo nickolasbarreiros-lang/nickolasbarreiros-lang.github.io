@@ -530,3 +530,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência do lote 07:** OrchidRoots/Orchids.org registra grex e genealogia Epidendrum pseudepidendrum × Cattleya Claesiana, 1979; AOS oferece orientação geral para Cattleya sobre recipiente drenante e substrato aberto, não ensaio com este grex. Nenhum produtor brasileiro com fórmula percentual específica confirmado; meta 25 não atingida. Percentuais e estrelas não homologados.
 - **Limites:** demais receitas, fotos, assets, IDC/IAR e layout preservados.
 - **Progresso:** 68/149 checagens; 66 fichas com correções efetivas (003–068); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 069 — Coelogyne fimbriata.
+
+## Correção na mesma passagem — registro 069 (2026-11-03)
+- **Ficha 069 — Coelogyne fimbriata** (`dados/orquideas/coelogyne-fimbriata.js`): cultivo principal placa larga de cortiça/madeira ou cesto raso; receita para cesto/recipiente raso 35% chips de coco médios + 30% pinus médio + 25% perlita grossa + 10% esfagno picado e solto = 100%. Não aplicar mistura volumétrica na placa.
+- **Correções efetivas:** a mistura visual não correspondia à primeira alternativa textual (pinus/chips/perlita/carvão); incluída a fórmula visual exata como primeira opção provisória, preservadas as três receitas anteriores. Justificativa corrigida: os materiais da receita visual não eram os da primeira mistura antiga. Commit `c673dadb6a54387970548f94711f349eaf0a53bf`.
+- **Evidência do lote 07:** ficha e referências gerais POWO/Kew e AOS apoiam hábito epífita/litófita e orientação geral, mas não teste comparativo de suportes nem receita percentual. Nenhum produtor brasileiro com fórmula percentual específica confirmado; meta 25 não atingida. Estrelas e percentuais permanecem NÃO HOMOLOGADOS.
+- **Limites:** demais receitas, fotos, assets, IDC/IAR e layout preservados.
+- **Progresso:** 69/149 checagens; 67 fichas com correções efetivas (003–069); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 070 — Maxillaria picta.
