@@ -46,7 +46,7 @@ export const aciantheraAveniformis = {
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Alternativa prática para cultivo em recipiente. Use modelo pequeno, raso e muito perfurado, com mistura leve e bem aerada, mantendo o rizoma sempre sobre o substrato." }
         ],
     },
-    substrato: ["🥇 Para vaso pequeno e raso: 40% casca de pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto (proposta técnica provisória, NÃO homologada para esta espécie).", "🥈 Casca de pinus fina + carvão vegetal pequeno + esfagno solto (alternativa qualitativa sem proporções comprovadas).", "🥉 Casca de pinus fina + perlita grossa + esfagno solto (alternativa qualitativa sem proporções comprovadas)."],
+    substrato: ["Casca de pinus fina + carvão vegetal pequeno + esfagno solto","Casca de pinus fina + perlita grossa + esfagno solto"],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Receita para cultivo em vaso",
