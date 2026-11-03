@@ -55,7 +55,7 @@ export const dryadellaAviceps = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal com esfagno fino; proposta para vaso miniatura ou cachepô",
         resumo: "Mistura de partículas pequenas, arejada e levemente úmida, sem esfagno compactado ao redor do rizoma.",
-        justificativa: "A montagem é a primeira opção original. A receita quantitativa usa os três componentes da segunda alternativa já registrada na ficha; proporções ainda não homologadas pela MACS 1.0.",
+        justificativa: "A montagem em placa/tronco permanece o cultivo principal. Para vaso miniatura ou cachepô, a receita visual quantifica os três ingredientes da primeira alternativa textual — chips de coco pequenos, casca de pinus fina e perlita adequada a miniaturas — sem alterar as demais opções. Proporções ainda não homologadas pela MACS 1.0.",
         receitaTexto: "40% chips de coco pequenos + 35% casca de pinus fina + 25% perlita grossa de granulometria adequada a miniaturas.",
         perfil: ["Miniatura epífita", "Raízes finas", "Touceira compacta", "Umidade regular", "Sombra luminosa"],
         comportamento: [
