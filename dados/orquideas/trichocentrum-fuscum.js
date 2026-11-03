@@ -55,7 +55,7 @@ export const trichocentrumFuscum = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal sem substrato; receita alternativa para vaso pequeno",
         resumo: "Em placa, não colocar material retentivo junto às raízes. Para vaso, partículas grossas e drenantes favorecem secagem rápida.",
-        justificativa: "A receita percentual traduz a segunda mistura qualitativa da ficha para uso em vaso, não para aplicação sobre a placa. Percentuais ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual alternativa para vaso pequeno combina pinus grosso, brita fina e carvão vegetal grosso. A segunda mistura qualitativa antiga contém macadâmia grossa, perlita grossa e carvão, sem pinus nem brita; a primeira contém chips de coco muito grossos, argila expandida e carvão. Nenhuma corresponde à composição visual. A fórmula foi mantida como proposta específica para recipiente, sem aplicação sobre a placa. Avaliar o peso da brita e sua granulometria, além da retenção do pinus, para evitar recipiente excessivamente pesado ou secagem inadequada. Percentuais não homologados pela MACS 1.0.",
         receitaTexto: "45% casca de pinus grossa + 30% brita fina + 25% carvão vegetal grosso.",
         perfil: ["Epífita", "Raízes expostas", "Baixa retenção", "Secagem rápida", "Ventilação elevada"],
         comportamento: [
