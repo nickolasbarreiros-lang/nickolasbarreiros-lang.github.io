@@ -7,7 +7,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 1. cattleya-walkeriana-f-alba-gnomus-x-f-alba-suprema.js — passagem concluída
 2. zygopetalum-maculatum.js — passagem concluída
 3. phalaenopsis-mannii.js — passagem concluída
-4. bulbophyllum-falcatum.js — pendente
+4. bulbophyllum-falcatum.js — passagem concluída
 5. bulbophyllum-syciobulbon.js — pendente
 6. laelia-caulencens.js — pendente
 7. rodricidium.js — pendente
@@ -28,3 +28,8 @@ TERRESTRE/RUPÍCOLA com raízes sensíveis ao calor, umidade regular e preferên
 ## Passagem 123 — Phalaenopsis mannii
 
 EPÍFITA pendente, raízes ventiladas, crescimento úmido e inverno moderadamente mais seco. SUPORTES: placa/tronco 5 estrelas, plástico vasado e cachepô madeira 4, barro 3. RECEITA VISUAL alternativa para recipiente: 35% pinus médio + 30% chips coco + 25% perlita grossa + 10% carvão = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar quatro componentes da primeira qualitativa, mas primeira tem somente pinus + perlita + pouco esfagno, sem coco/carvão. Segunda tem macadâmia + pinus + esfagno, sem coco/perlita/carvão. Visual omite esfagno das duas qualitativas e introduz materiais; nenhuma coincide. Validar retenção, secagem, papel do esfagno e distinção entre montagem principal e mistura para recipiente. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 59a7e571753c56a9ab64c9aeb9ecdda9fa37eea5. Próxima ficha Bulbophyllum falcatum.
+
+
+## Passagem 124 — Bulbophyllum falcatum
+
+EPÍFITA africana de rizoma rastejante e raízes finas, umidade regular, raque floral achatada que precisa de espaço lateral. SUPORTES: cachepô madeira 5 estrelas, plástico vasado e placa/tronco 4, barro 3. RECEITA VISUAL: 35% pinus médio + 25% chips coco tratados + 25% perlita grossa + 15% esfagno solto = 100%; texto e itens coerentes. QUALITATIVAS: primeira esfagno longo + perlita; segunda chips coco + perlita + carvão miúdo + esfagno (sem pinus); terceira macadâmia + pinus + perlita + esfagno (sem coco). Nenhuma coincide integralmente com visual. Justificativa reconhece hipótese não testada. Validar retenção, granulometria, rizoma exposto e saída livre da inflorescência. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 5982e59606d88278c8a330ec0ffc4845f64de07a. Próxima ficha Bulbophyllum syciobulbon.
