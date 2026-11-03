@@ -405,3 +405,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 05:** POWO aceita Dryadella aviceps como epífita; Orquidário Oriental recomenda placa/árvore, umidade elevada e pouca luz, sem receita quantitativa; AOS dá orientação geral sobre desidratação de montadas. Não há validação da proporção 40/35/25.
 - **Limites:** receitas textuais e percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 50/149 checagens; 48 fichas com correções efetivas (003–050); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 051 — consultar ordem do lote 06.
+
+## Correção na mesma passagem — registro 051 (2026-11-03)
+- **Ficha 051 — Specklinia grobyi** (`dados/orquideas/specklinia-grobyi.js`): cultivo principal placa/tronco com lâmina fina de esfagno; receita visual alternativa para recipiente mínimo 65% esfagno de fibra longa muito solto + 35% perlita grossa = 100%.
+- **Correções efetivas:** receita visual ausente das duas alternativas textuais; incluída como primeira opção provisória, preservadas as duas anteriores. Justificativa corrigida para não atribuir a receita à segunda alternativa antiga e não confundir mistura de recipiente com cobertura da placa. Commit `e1008308b34f12b3bde73a1226cc8e9b3b2b3b8d`.
+- **Evidência prévia no lote 06:** POWO confirma espécie epífita; Roehampton Orchids, Isle of Portland Orchids e Canadian Orchid Congress apoiam montagem, umidade frequente e recipiente pequeno, sem proporções específicas. Nenhum produtor brasileiro específico nem ensaio valida 65/35.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 51/149 checagens; 49 fichas com correções efetivas (003–051); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 052 — Dryadella lilliputiana.
