@@ -226,3 +226,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Correção efetiva:** nenhuma das quatro alternativas textuais continha a combinação visual completa. Incluída a receita visual como primeira alternativa provisória, preservando as quatro anteriores. Commit `0629d342a66258aeb499ed06ab90d25693bd4024`.
 - **Fundamentação/limites:** o texto existente justifica porosidade, reserva hídrica moderada e estabilidade da mistura para touceira adulta; isso não equivale a ensaio de percentuais nem prova de superioridade. Nenhuma nova receita de produtores brasileiros verificada nesta passagem. Percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados.
 - **Progresso:** 24/149 checagens; 22 fichas com correções efetivas (003–024); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 025 — Oncidium Twinkle.
+
+## Correção na mesma passagem — registro 025 (2026-11-03)
+- **Ficha 025 — Oncidium Twinkle** (`dados/orquideas/oncidium-twinkle.js`): receita visual com 35% pinus médio + 30% chips de coco + 25% perlita grossa + 10% carvão = 100%.
+- **Correções efetivas:** mistura visual não correspondia integralmente às alternativas textuais; adicionada como primeira alternativa provisória, preservadas as duas anteriores. Justificativa corrigida: afirmava indevidamente que os quatro componentes da receita visual já estavam na primeira mistura qualitativa. Commit `7b63939be4bc25b44e99f0c77586d9fd6c08d676`.
+- **Limites:** proporções, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente. A recomendação de umidade regular com aeração para raízes finas não demonstra os percentuais específicos; nenhuma nova receita percentual de produtores brasileiros verificada nesta passagem.
+- **Progresso:** 25/149 checagens; 23 fichas com correções efetivas (003–025); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 026 — Dendrobium tenellum.
