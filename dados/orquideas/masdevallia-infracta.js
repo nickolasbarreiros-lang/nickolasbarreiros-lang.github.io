@@ -80,11 +80,11 @@ export const masdevalliaInfracta = {
         "texto": "Pode funcionar em local úmido e fresco, mas reduz o controle sobre hidratação e temperatura radicular."
     }
 ] },
-    substrato: ["🥇 Casca de pinus fina + perlita de granulometria adequada + esfagno solto.","🥈 Chips de coco pequenos + carvão vegetal pequeno + esfagno solto."],
+    substrato: ["🥇 Placa / tronco: cultivo principal com raízes expostas e fina camada de esfagno de fibra longa solto. Para vaso pequeno muito ventilado, mistura opcional: 35% casca de pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 20% esfagno de fibra longa solto (proposta NÃO homologada).","🥈 Casca de pinus fina + perlita de granulometria adequada a raízes finas + esfagno de fibra longa solto (alternativa qualitativa para vaso, sem percentuais homologados).","🥉 Chips de coco pequenos preparados + carvão vegetal pequeno + esfagno de fibra longa solto (alternativa qualitativa para vaso, sem percentuais homologados)."],
     substratoVisual: {
-      titulo: "Substrato ideal", contexto: "Receita para cultivo em vaso",
-      resumo: "A mistura abaixo é indicada quando a planta não estiver montada em placa/ripinha; prioriza aeração com reserva hídrica controlada.",
-      justificativa: "As raízes finas precisam de umidade frequente e oxigenação. Em clima quente, a mistura deve ser aberta para dissipar calor e renovar o ar, mantendo apenas uma reserva hídrica moderada.", receitaTexto: "35% pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 20% esfagno solto.",
+      titulo: "Substrato ideal", contexto: "Placa / tronco principal; mistura opcional para vaso pequeno muito ventilado",
+      resumo: "Placa / tronco é a forma principal; para vaso pequeno muito ventilado, mistura opcional de pinus fino/médio, casca de arroz carbonizada, carvão pequeno e esfagno de fibra longa solto.",
+      justificativa: "Masdevallia infracta tem raízes finas e exige umidade frequente sem saturação, ventilação e proteção contra calor excessivo, sobretudo noturno. Placa / tronco com fina camada de esfagno de fibra longa solto é o cultivo principal. Para vaso pequeno muito ventilado, a receita opcional de pinus fino/médio, casca de arroz carbonizada, carvão pequeno e esfagno solto totaliza 100% em volume. As duas outras misturas são alternativas qualitativas distintas, sem percentuais homologados. Monitorar a retenção dos 20% de esfagno e não compactar a mistura. Preservar hastes verdes que possam reflorir. MACS 1.1: inferência horticultural, sem homologação quantitativa específica.", receitaTexto: "Placa / tronco: raízes expostas com fina camada de esfagno de fibra longa solto. Para vaso pequeno muito ventilado: 35% casca de pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 20% esfagno de fibra longa solto (proposta não homologada).",
       perfil: [
     "Raízes finas",
     "Aeração alta",
@@ -117,12 +117,12 @@ export const masdevalliaInfracta = {
     },
     {
         "asset": "esfagno",
-        "nome": "Esfagno solto",
+        "nome": "Esfagno de fibra longa solto",
         "proporcao": "20%",
         "nota": "reserva hídrica controlada",
         "finalidade": "Retém umidade entre regas sem formar uma massa compacta quando usado solto e em baixa proporção."
     }
-], alerta: "Replante antes que a mistura compacte ou permaneça molhada por tempo muito maior que quando nova; preserve a base dos ramicaules arejada.", notaEvidencia: "MACS 1.0 — primeira passagem documental: Masdevallia infracta, epífita sem pseudobulbos, raízes finas, umidade frequente, alta aeração e risco de calor noturno no litoral; hastes verdes podem reflorir. Suportes placa/tronco 5 estrelas, cachepô madeira e vaso plástico vasado 4, árvore viva 3; não homologados. Receita visual alternativa PARA VASO 35% pinus fina/média + 25% arroz carbonizado + 20% carvão pequeno + 20% esfagno solto = 100%; receitaTexto e itens concordam. Primeira qualitativa pinus fino + perlita de granulometria adequada + esfagno (sem arroz/carvão); segunda chips coco pequenos + carvão pequeno + esfagno (sem pinus/arroz). Nenhuma coincide integralmente. Justificativa descreve perfil radicular, mas não documenta derivação quantitativa. Validar granulometria, retenção de 20% esfagno, temperatura/oxigenação no vaso e secagem de placa em calor; Orquidário Aparecida documenta ripinha, mas não demonstra esta mistura percentual. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
+], alerta: "Replante antes que a mistura compacte ou permaneça molhada por tempo muito maior que quando nova; preserve a base dos ramicaules arejada.", notaEvidencia: "MACS 1.1 — revisão documental: Masdevallia infracta, epífita de raízes finas, demanda umidade frequente e aeração alta, com risco de calor noturno em clima quente; hastes verdes podem reflorir. Placa / tronco com mínima camada de esfagno é suporte principal. Receita visual opcional PARA VASO PEQUENO MUITO VENTILADO: 35% pinus fino/médio + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 20% esfagno de fibra longa solto = 100% em volume. Exatamente duas outras misturas qualitativas: pinus fino/perlita de granulometria adequada/esfagno solto e chips de coco pequenos preparados/carvão pequeno/esfagno solto. Não fundamentam percentuais visuais. Orquidário Aparecida documenta ripinha, não esta formulação percentual. Monitorar retenção do esfagno, temperatura, ventilação e secagem. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
     "Tratar como planta de sol.",
