@@ -51,7 +51,7 @@ export const octomeriaMicrantha = {
         titulo: "Substrato ideal",
         contexto: "Montagem em madeira ou cortiça com fina lâmina de esfagno",
         resumo: "A montagem principal utiliza suporte rugoso e pequena quantidade de esfagno sob as raízes. Em recipientes rasos, uma mistura leve pode oferecer umidade moderada sem compactar.",
-        justificativa: "A receita percentual usa a alternativa de chips de coco, perlita e pinus já registrada na ficha, destinada a recipientes. A montagem principal não utiliza mistura volumosa. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita percentual para recipiente combina chips de coco pequenos, pinus fino e perlita grossa. Nenhuma das duas alternativas qualitativas registradas corresponde a essa composição: a primeira contém esfagno solto e perlita para miniaturas; a segunda contém pinus fino, perlita para miniaturas e pequena fração de esfagno. A montagem principal continua sendo placa ou tronco com lâmina fina de esfagno, sem mistura volumosa. A granulometria da perlita grossa e a retenção dos chips precisam ser avaliadas para raízes finas. Percentuais estimados e ainda não homologados pela MACS 1.0.",
         receitaTexto: "40% chips de coco pequenos + 30% casca de pinus fina + 30% perlita grossa.",
         perfil: ["Miniatura epífita", "Raízes finas", "Touceira cespitosa", "Secagem superficial leve", "Montagem permanente"],
         comportamento: [
