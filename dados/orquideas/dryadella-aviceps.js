@@ -53,10 +53,10 @@ export const dryadellaAviceps = {
     },
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Montagem principal com esfagno fino; proposta para vaso miniatura ou cachepô",
-        resumo: "Mistura de partículas pequenas, arejada e levemente úmida, sem esfagno compactado ao redor do rizoma.",
-        justificativa: "A montagem em placa/tronco permanece o cultivo principal. Para vaso miniatura ou cachepô, a receita visual quantifica os três ingredientes da primeira alternativa textual — chips de coco pequenos, casca de pinus fina e perlita adequada a miniaturas — sem alterar as demais opções. Proporções propostas tecnicamente, sem ensaio ou homologação quantitativa MACS 1.1 para esta espécie.",
-        receitaTexto: "40% chips de coco pequenos + 35% casca de pinus fina + 25% perlita grossa de granulometria adequada a miniaturas.",
+        contexto: "Mistura alternativa para vaso miniatura ou cachepô, sem esfagno",
+        resumo: "Mistura de partículas pequenas, arejada e com retenção moderada; evitar compactação ao redor do rizoma.",
+        justificativa: "A montagem em placa/tronco permanece o cultivo principal. Para vaso miniatura ou cachepô, a receita visual apresenta uma proposta independente com chips de coco pequenos, casca de pinus fina e perlita calibrada; as duas alternativas textuais têm composições distintas, sem percentuais específicos. Proporções propostas tecnicamente, sem ensaio ou homologação quantitativa MACS 1.1 para esta espécie.",
+        receitaTexto: "40% chips de coco pequenos preparados + 35% casca de pinus fina + 25% perlita de granulometria adequada a miniaturas.",
         perfil: ["Miniatura epífita", "Raízes finas", "Touceira compacta", "Umidade regular", "Sombra luminosa"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -65,12 +65,12 @@ export const dryadellaAviceps = {
             { nome: "Compactação", valor: 2, icone: "🧱" }
         ],
         itens: [
-            { asset: "chips-coco", nome: "Chips de coco pequenos", proporcao: "40%", nota: "umidade moderada", finalidade: "Retém umidade sem formar massa densa em recipiente pequeno." },
+            { asset: "chips-coco", nome: "Chips de coco pequenos preparados", proporcao: "40%", nota: "umidade moderada", finalidade: "Retém umidade sem formar massa densa em recipiente pequeno." },
             { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "35%", nota: "estrutura", finalidade: "Acomoda raízes finas mantendo pequenos espaços de ar." },
-            { asset: "perlita", nome: "Perlita grossa calibrada", proporcao: "25%", nota: "aeração", finalidade: "Ajuda a manter drenagem e evitar compactação." }
+            { asset: "perlita", nome: "Perlita calibrada para miniaturas", proporcao: "25%", nota: "aeração", finalidade: "Ajuda a manter drenagem e evitar compactação." }
         ],
         alerta: "Evitar divisão desnecessária, vaso grande, secagem total das raízes, sol direto e esfagno envelhecido ou compactado. Não usar encharcamento como método de resfriamento.",
-        notaEvidencia: "MACS 1.1: POWO/Kew aceita Dryadella aviceps como epífita; revisão taxonômica brasileira de 2024 confirma ampla sinonímia e ocorrência em florestas secas/abertas e restingas arbóreas, sem oferecer ensaio de substrato. Orquidário Oriental recomenda especificamente amarrar em árvores ou placas, com umidade elevada e pouca luz, mas não informa receita de vaso. AOS recomenda atenção à desidratação de orquídeas montadas em calor; orientação geral, não ensaio desta espécie. A mistura de vaso 40% chips coco + 35% pinus fino + 25% perlita é hipótese horticultural NÃO homologada, sem validação quantitativa específica nem consenso de 25 produtores brasileiros. As duas alternativas não possuem proporções publicadas. A soma de 100% na receita visual é apenas consistência aritmética, não homologação científica. Estrelas provisórias."
+        notaEvidencia: "MACS 1.1: POWO/Kew aceita Dryadella aviceps como epífita; revisão taxonômica brasileira de 2024 confirma ampla sinonímia e ocorrência em florestas secas/abertas e restingas arbóreas, sem oferecer ensaio de substrato. Orquidário Oriental recomenda especificamente amarrar em árvores ou placas, com umidade elevada e pouca luz, mas não informa receita de vaso. AOS recomenda atenção à desidratação de orquídeas montadas em calor; orientação geral, não ensaio desta espécie. A mistura de vaso 40% chips de coco preparados + 35% pinus fino + 25% perlita calibrada é hipótese horticultural NÃO homologada, sem validação quantitativa específica nem consenso de 25 produtores brasileiros. As duas alternativas não possuem proporções publicadas. A soma de 100% na receita visual é apenas consistência aritmética, não homologação científica. Estrelas provisórias."
     },
     errosComuns: "Dividir touceiras pequenas; usar vaso grande; secar totalmente as raízes; manter esfagno velho e compacto; excesso de sais; sol direto; baixa ventilação; tratar a espécie como obrigatoriamente fria; encharcar durante noites quentes; adubação concentrada.",
     dica: "O melhor indicador de acerto é uma touceira compacta, firme e com raízes ativas. No litoral quente, não tente 'resfriar' a planta mantendo o vaso encharcado: ofereça sombra luminosa, ventilação contínua e umidade do ar, enquanto o substrato permanece pequeno e oxigenado.",
