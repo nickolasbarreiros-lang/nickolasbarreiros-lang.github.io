@@ -326,15 +326,4 @@ export const aciantheraTeres = {
     "cultivo": "fórmulas são propostas horticulturais, não consenso de 25 produtores brasileiros",
     "fenologia": "meses são registros reportados, não garantia de floração"
   }
-};  "fotoReferencia": {
-    "origem": "IOSPE — Pleurothallis teres",
-    "url": "https://www.orchidspecies.com/orphotdir/pleurotteres.jpg",
-    "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
-  },
-  "observacoesAuditoriaV405": {
-    "galeria": "1 de 4 fotografias cadastradas; faltam 3 imagens com identificação e direitos de uso verificados",
-    "taxonomia": "revisão cruzada POWO/WFO/IPNI/GBIF/Tropicos ainda pendente",
-    "cultivo": "fórmulas são propostas horticulturais, não consenso de 25 produtores brasileiros",
-    "fenologia": "meses são registros reportados, não garantia de floração"
-  }
 };
