@@ -65,13 +65,13 @@ export const spathoglottisPlicata = {
             { nome: "Compactação", valor: 2, icone: "🧱" }
         ],
         itens: [
-            { nome: "Terra vegetal", proporcao: "40%", nota: "base terrestre estruturada", finalidade: "Usar terra vegetal solta, fértil e sem compactação; asset visual dedicado pendente." },
+            { asset: "terra-vegetal", nome: "Terra vegetal", proporcao: "40%", nota: "base terrestre estruturada", finalidade: "Usar terra vegetal solta, fértil e sem compactação; asset dedicado terra-vegetal cadastrado." },
             { asset: "casca-pinus", nome: "Casca de pinus", proporcao: "30%", nota: "estrutura", finalidade: "Usar granulometria média para criar espaços de ar." },
             { asset: "perlita", nome: "Perlita", proporcao: "20%", nota: "aeração", finalidade: "Utilizar partículas grossas para favorecer a drenagem." },
-            { nome: "Composto orgânico", proporcao: "10%", nota: "fertilidade", finalidade: "Usar composto bem curtido e estabilizado, sem encostar nos pseudobulbos; asset visual dedicado pendente." }
+            { asset: "composto-organico", nome: "Composto orgânico", proporcao: "10%", nota: "fertilidade", finalidade: "Usar composto bem curtido e estabilizado, sem encostar nos pseudobulbos; asset dedicado composto-organico cadastrado." }
         ],
         alerta: "Evitar terra compacta, vasos sem furos, pratos com água e enterro profundo dos pseudobulbos. Não deixar a mistura secar completamente durante o crescimento ativo.",
-        notaEvidencia: "MACS 1.1: receita documental específica publicada pelo Universo das Orquídeas (40% Terra vegetal, 30% Casca de pinus, 20% Perlita, 10% Composto orgânico), variante de 4:3:2:1 sem carvão opcional. Composição B específica e percentuais B documentais, mas NÃO HOMOLOGADOS EXPERIMENTALMENTE. Duas alternativas inferidas D no menu. Assets visuais específicos para Terra vegetal e Composto orgânico pendentes; não substituir por imagens de outros materiais. Matriz: auditorias/MACS-1.1-MATRIZ-034-SPATHOGLOTTIS-PLICATA.md."
+        notaEvidencia: "MACS 1.1: receita documental específica publicada pelo Universo das Orquídeas (40% Terra vegetal, 30% Casca de pinus, 20% Perlita, 10% Composto orgânico), variante de 4:3:2:1 sem carvão opcional. Composição B específica e percentuais B documentais, mas NÃO HOMOLOGADOS EXPERIMENTALMENTE. Duas alternativas inferidas D no menu. Assets específicos terra-vegetal e composto-organico cadastrados na biblioteca V4. Matriz: auditorias/MACS-1.1-MATRIZ-034-SPATHOGLOTTIS-PLICATA.md."
     },
     "errosComuns": "Terra compacta; enterrar pseudobulbos; prato com água; sombra profunda; matéria orgânica fresca; vaso sem drenagem; deixar secar totalmente no crescimento; excesso de chuva no colo; cortar folhas verdes; dividir em poucas unidades; pouca luz.",
     "dica": "Use recipiente amplo, mistura terrestre leve e muito drenante e ofereça sol da manhã. Deixe os pseudobulbos parcialmente expostos na superfície. Essa combinação de luz alta, água regular e raízes oxigenadas mantém a planta vigorosa e capaz de produzir hastes por muitos meses.",
