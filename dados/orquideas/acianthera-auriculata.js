@@ -46,7 +46,7 @@ export const aciantheraAuriculata = {
             { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Pode reproduzir muito bem o hábito epífito quando a casca oferece aderência, sombra filtrada e umidade ambiental. O ponto negativo é o menor controle sobre chuva, secagem e posicionamento da planta." }
         ]
     },
-    substrato: ["🥇 Placa / tronco: cultivo principal com raízes expostas e pequena camada de esfagno de fibra longa solto sob as raízes. Para vaso pequeno muito perfurado, mistura opcional: 40% casca de pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto (proposta NÃO homologada).", "🥈 Chips de coco pequenos preparados + carvão vegetal pequeno + casca de arroz carbonizada (alternativa qualitativa para vaso, sem percentuais homologados).", "🥉 Casca de pinus fina/média + perlita de granulometria adequada a miniaturas + esfagno de fibra longa solto (alternativa qualitativa para vaso, sem percentuais homologados)."],
+    substrato: ["Chips de coco pequenos preparados + carvão vegetal pequeno + casca de arroz carbonizada","Casca de pinus fina/média + perlita de granulometria adequada a miniaturas + esfagno de fibra longa solto"],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Placa / tronco principal; mistura opcional para vaso pequeno muito perfurado",
