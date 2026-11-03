@@ -36,7 +36,7 @@ export const maxillariaSubulata = {
     "adubacao": "🌿 Orgânica: pequena quantidade de bokashi em porta-adubo, afastada do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias na atividade vegetativa.\n🧪 Liberação lenta: poucos grânulos em recipiente muito drenante e longe das raízes novas.\n🚿 Flushing mensal com água pura para reduzir salinidade. Hidrate as raízes antes de aplicar fertilizante.",
     "rega": "Regue abundantemente na brotação e permita secagem parcial rápida antes da próxima irrigação. As folhas subuladas e os pseudobulbos relativamente pequenos oferecem reserva limitada, portanto evite seca severa. Ao mesmo tempo, não mantenha o fundo do vaso permanentemente molhado. Após a maturação, aumente levemente o intervalo. Pseudobulbos enrugados com substrato molhado e raízes escuras sugerem perda radicular; pseudobulbos enrugados com raízes firmes e substrato seco indicam déficit de água.",
     "suporte": "🥇 Vaso de barro ou plástico muito perfurado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira para máxima aeração das raízes finas.\n🥉 Placa de madeira ou cortiça com fina camada de musgo, indicada apenas onde a umidade ambiental supera 65% e há regas frequentes.",
-    substrato: ["🥇 Para vaso pequeno: casca de pinus média + casca de macadâmia triturada + perlita grossa + fibra de coco grossa (mistura visual provisória, não homologada).","🥈 Fibra de coco grossa + chips de coco + perlita grossa + pinus médio.","🥉 Chips de coco + pinus médio + perlita grossa + carvão vegetal miúdo.","Alternativa adicional: pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia."],
+    substrato: ["🥈 Alternativa 1 — 45% Casca de pinus + 30% Casca de macadâmia + 20% Perlita + 5% Fibra de coco. Mistura para vaso pequeno com menor reserva hídrica; proporções inferidas D, não homologadas.","🥉 Alternativa 2 — 30% Casca de pinus + 25% Casca de macadâmia + 25% Perlita + 20% Fibra de coco. Mistura para vaso pequeno com maior reserva hídrica; proporções inferidas D, não homologadas."],
     formasCultivo: {
         perfilVisual: "maxillaria-epifita-raizes-finas-folhas-subuladas",
         destaque: "Vaso de Barro",
@@ -52,8 +52,8 @@ export const maxillariaSubulata = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso pequeno e bem perfurado",
         resumo: "Partículas médias com retenção moderada e alta aeração, adequadas a raízes finas que não toleram saturação prolongada.",
-        justificativa: "A receita visual propõe pinus médio, macadâmia triturada, perlita grossa e fibra de coco grossa, agora também listados na primeira alternativa textual. As três alternativas anteriores contêm outros componentes e foram preservadas. Percentuais estimados e ainda não homologados pela MACS 1.0.",
-        receitaTexto: "35% casca de pinus média + 30% casca de macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa.",
+        justificativa: "MACS 1.1: POWO, IOSPE e estudos de habitat confirmam o hábito epífito/rupícola de Maxillaria subulata, mas não documentam receita quantitativa específica para vaso. Mantida a composição anterior como hipótese horticultural, sem alegar superioridade ou homologação. A Casca de macadâmia e as proporções são escolhas inferidas D, não recomendações comprovadas para a espécie.",
+        receitaTexto: "35% Casca de pinus + 30% Casca de macadâmia + 25% Perlita + 10% Fibra de coco (por volume, receita inferida D).",
         perfil: ["Epífita simpodial", "Raízes finas", "Folhas subuladas", "Umidade regular", "Alta aeração"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -62,13 +62,13 @@ export const maxillariaSubulata = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece apoio radicular com umidade moderada." },
-            { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "30%", nota: "drenagem", finalidade: "Mantém a mistura aberta e estável." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece oxigenação e drenagem." },
-            { asset: "fibra-coco", nome: "Fibra de coco grossa", proporcao: "10%", nota: "reserva hídrica", finalidade: "Retém pequena quantidade de água sem compactar." }
+            { asset: "casca-pinus", nome: "Casca de pinus", proporcao: "35%", nota: "estrutura", finalidade: "Usar partículas médias, oferecendo apoio radicular e umidade moderada." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia", proporcao: "30%", nota: "drenagem", finalidade: "Usar casca triturada em partículas médias, mantendo a mistura aberta e estável." },
+            { asset: "perlita", nome: "Perlita", proporcao: "25%", nota: "aeração", finalidade: "Usar partículas grossas, favorecendo oxigenação e drenagem." },
+            { asset: "fibra-coco", nome: "Fibra de coco", proporcao: "10%", nota: "reserva hídrica", finalidade: "Usar fibra grossa e solta, com preparo adequado; retém pouca água sem compactar." }
         ],
         alerta: "Evitar vaso grande, substrato compacto, rizoma enterrado, seca prolongada, divisões pequenas e replante fora da emissão de raízes novas.",
-        notaEvidencia: "MACS 1.0: POWO confirma hábito epífito de Maxillaria subulata. A receita de 35% pinus + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa é uma hipótese horticultural para vaso pequeno, sem ensaio quantitativo específico localizado. Fontes gerais de Maxillaria não devem ser tratadas como validação para esta espécie; a presença de macadâmia e os percentuais não foram homologados. Requer confronto com recomendações verificáveis de produtores brasileiros, sem atribuir receita a fontes que apenas vendem a planta."
+        notaEvidencia: "MACS 1.1: POWO aceita Maxillaria subulata e registra hábito epífito/rupícola; IOSPE e estudos de campo documentam morfologia e habitat. Não foi localizada receita específica publicada ou ensaio para substrato em vaso; Orquidário Aparecida comercializa a espécie, mas não publica receita específica. R1 35% Casca de pinus + 30% Casca de macadâmia + 25% Perlita + 10% Fibra de coco, e alternativas R2/R3, são inferências D NÃO HOMOLOGADAS. Nomes canônicos e quatro assets conferidos; estrelas D preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-039-MAXILLARIA-SUBULATA.md."
     },
     "errosComuns": "❌ Usar vaso grande, fundo ou pouco perfurado.\n❌ Manter substrato compactado ou encharcado.\n❌ Enterrar rizoma e base dos pseudobulbos.\n❌ Dividir a touceira em porções pequenas.\n❌ Cultivar em sombra profunda e produzir folhas fracas.\n❌ Impor seca intensa por longo período.\n❌ Adubar em concentração alta ou sem lavagem mensal.\n❌ Replantar fora da emissão de raízes novas.",
     "dica": "Use vaso pequeno, muito perfurado, e uma mistura que retenha umidade apenas pelo tempo necessário para hidratar a planta. Folhas estreitas não significam que a espécie deva ficar seca; significam que a reposição de água precisa ser frequente, enquanto as raízes exigem renovação constante de oxigênio. Replante apenas quando surgirem novas pontas radiculares, preserve a maior parte da touceira e mantenha o rizoma exposto. Essa combinação reduz o choque, evita mela e acelera a fixação.",
