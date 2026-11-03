@@ -503,3 +503,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência do lote 07:** POWO aceita M. leucaimata; WFO/Flora do Brasil registra hábito epífita/rupícola; BR Orquídea informa sombra 50%, altitude 100–900 m e hábito, sem receita. AOS fornece apenas orientação genérica para o gênero. Um produtor brasileiro específico, abaixo da meta 25. Receita 35/30/25/10 e estrelas não homologadas.
 - **Limites:** demais receitas, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 64/149 checagens; 62 fichas com correções efetivas (003–064); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 065 — confirmar ordem no manifesto do lote 07.
+
+## Correção na mesma passagem — registro 065 (2026-11-03)
+- **Ficha 065 — Coelogyne asperata** (`dados/orquideas/coelogyne-asperata.js`): receita visual 35% chips de coco médios + 30% pinus médio + 25% perlita grossa + 10% esfagno picado e solto = 100%; recipiente largo, estável e drenante.
+- **Correção efetiva:** corrigida justificativa que dizia que os quatro materiais já constavam da primeira mistura textual, embora não exista campo/lista textual anterior de substratos na ficha. A receita já estava descrita em receitaTexto e itens; nenhum ingrediente, percentual, asset, foto, classificação ou layout foi alterado. Commit `40fa3c966e97d1d169e8e49522d4cc492ec30b19`.
+- **Evidência:** registro prévio do lote 07 descreve ecologia epífita tropical e rizoma expansivo; suporte largo/estável é hipótese morfológica, não comparação experimental. Nenhuma receita percentual específica de produtor brasileiro confirmada; meta 25 não atingida. Percentuais e estrelas não homologados.
+- **Progresso:** 65/149 checagens; 63 fichas com correções efetivas (003–065); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 066 — seguir manifesto do lote 07.
