@@ -5,7 +5,7 @@ Escopo: fichas 81–90, na ordem de `dados/orquideas/index.js`, após Bulbophyll
 1. bulbophyllum-miniatum.js — passagem concluída
 2. bulbophyllum-sikkimense.js — passagem concluída
 3. cattlianthe-ctt-jewel-box.js — passagem concluída
-4. cattleya-loddigesii.js — pendente
+4. cattleya-loddigesii.js — passagem concluída
 5. laelia-cinnabarina.js — pendente
 6. laelia-lundii.js — pendente
 7. catasetum-mattosianum.js — pendente
@@ -26,3 +26,8 @@ ECOLOGIA: miniatura epífita de rizoma rasteiro, umidade regular com boa drenage
 ## Passagem 83 — Cattlianthe Jewel Box
 
 HIBRIDO: Guarianthe aurantiaca × Cattleya Anzac; sem habitat natural próprio, genealogia não prova composição de substrato. SUPORTES: barro e plástico vasado 5 estrelas, cachepô madeira 4, placa/tronco 3, sem comparação experimental. RECEITA VISUAL: 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%, texto e itens coerentes. DIVERGÊNCIA: justificativa atribui à primeira mistura qualitativa macadâmia, pinus, perlita e carvão, mas ela contém pinus, perlita, carvão e chips coco (sem macadâmia). A segunda contém macadâmia, argila expandida, carvão e pinus (sem perlita); nenhuma coincide integralmente com a visual. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada; demais campos preservados. Commit c4bdac29fe5f8ce45e2b0bd690be9ce3d3f6b469. Próxima ficha Cattleya loddigesii.
+
+
+## Passagem 84 — Cattleya loddigesii
+
+ECOLOGIA: bifoliada epífita ou rupícola, aeração e secagem entre regas segundo ficha. SUPORTES: barro em destaque, cachepô, placa/tronco e plástico vasado; todos os métodos registram `estrelas: null` — sem pontuação a comparar ou homologar. RECEITA VISUAL: 35% pinus + 25% macadâmia + 25% perlita grossa + 15% carvão = 100%; texto e itens concordam. DIVERGÊNCIA: primeira e terceira receitas qualitativas incluem chips de coco no lugar da macadâmia; segunda inclui argila expandida no lugar da perlita; nenhuma coincide integralmente. ALERTA DE EVIDÊNCIA: referência genérica a estudos com plântulas e pinus/arroz carbonizado não valida a mistura para plantas adultas. Meta até 25 produtores brasileiros específicos não atingida; percentuais e ranking de suportes NÃO HOMOLOGADOS. Apenas notaEvidencia adicionada; demais campos preservados. Commit 408934c9585faa5cf4dab6e3de5b845ae8fafa8c. Próxima ficha Laelia cinnabarina.
