@@ -72,9 +72,9 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     substratoVisual: {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
-        "resumo": "Mistura aberta de referência para Cattleyas, com casca predominante e carvão; secagem controlada em vaso de barro.",
-        "justificativa": "O Missouri Botanical Garden documenta para Cattleyas e outras orquídeas simpodiais cinco partes de casca para uma de carvão (5:1), equivalentes a aproximadamente 83,3% e 16,7%. É referência genérica institucional, não ensaio deste híbrido. AOS recomenda casca média/grossa, boa aeração e secagem entre regas. A receita anterior com 20% de brita e 15% de coco não possuía respaldo quantitativo específico e foi substituída. Em vaso de barro, observar a velocidade real de secagem.",
-        "receitaTexto": "83,3% casca de pinus grossa + 16,7% carvão vegetal (proporção 5:1 documentada para Cattleyas em geral; não homologada para este híbrido).",
+        "resumo": "Mistura aberta de referência para Cattleyas, com pinus média predominante e carvão horticultural; secagem controlada em vaso de barro.",
+        "justificativa": "O Missouri Botanical Garden documenta cinco partes de casca de abeto de granulometria média para uma parte de carvão horticultural (5:1), equivalentes a aproximadamente 83,3% e 16,7%. A substituição da casca de abeto por casca de pinus média é uma adaptação de material, não reprodução literal da receita nem ensaio deste híbrido. AOS recomenda casca média/grossa, boa aeração e secagem entre regas. A receita anterior com 20% de brita e 15% de coco não possuía respaldo quantitativo específico e foi substituída. Em vaso de barro, observar a velocidade real de secagem.",
+        "receitaTexto": "83,3% casca de pinus média + 16,7% carvão vegetal horticultural (adaptação da proporção 5:1 com casca de abeto média documentada para Cattleyas; não homologada para este híbrido).",
         "perfil": [
             "Raízes grossas",
             "Alta aeração",
@@ -106,10 +106,10 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
             }
         ],
         "itens": [
-            { "asset": "casca-pinus", "nome": "Casca de pinus grossa", "proporcao": "83,3%", "nota": "estrutura e drenagem", "finalidade": "Base porosa predominante, permitindo ar e secagem entre regas." },
-            { "asset": "carvao-vegetal", "nome": "Carvão vegetal", "proporcao": "16,7%", "nota": "aeração complementar", "finalidade": "Complementa a estrutura da mistura em proporção 5:1 com a casca." }
+            { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "83,3%", "nota": "estrutura e drenagem", "finalidade": "Base porosa predominante, permitindo ar e secagem entre regas." },
+            { "asset": "carvao-vegetal", "nome": "Carvão vegetal horticultural", "proporcao": "16,7%", "nota": "aeração complementar", "finalidade": "Complementa a estrutura da mistura em proporção 5:1 com a casca." }
         ],
-        "alerta": "MACS 1.1: referência quantitativa genérica do Missouri Botanical Garden, cinco partes de casca para uma de carvão (83,3/16,7), sem ensaio específico deste híbrido. AOS recomenda aeração e secagem entre regas para Cattleyas adultas. Nenhuma proporção foi homologada experimentalmente para este cruzamento. Ajustar a granulometria ao volume radicular e não enterrar o rizoma. Fonte: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids"
+        "alerta": "MACS 1.1: referência quantitativa genérica do Missouri Botanical Garden, cinco partes de casca de abeto média para uma de carvão horticultural (83,3/16,7). A receita com pinus média é adaptação não ensaiada, sem homologação específica deste híbrido. AOS recomenda aeração e secagem entre regas para Cattleyas adultas. Nenhuma proporção foi homologada experimentalmente para este cruzamento. Ajustar a granulometria ao volume radicular e não enterrar o rizoma. Fonte: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids"
     },
     substrato: ["Casca de pinus grossa + carvão vegetal + brita fina","Casca de pinus grossa + casca de macadâmia grossa + perlita grossa"],
     errosComuns: "Cultivar em sombra excessiva; Usar vasos muito grandes ou substratos finos e compactados; Manter as raízes constantemente encharcadas; Deixar água acumulada no miolo dos brotos e bainhas durante a noite; Exagerar na adubação nitrogenada após o amadurecimento dos pseudobulbos; Dividir a touceira com menos de três a quatro pseudobulbos por corte.",
