@@ -135,7 +135,7 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
                 "finalidade": "Amortece a secagem sem transformar o vaso em ambiente permanentemente úmido."
             }
         ],
-        "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura."
+        "alerta": "MACS 1.0: cruzamento horticultural complexo sem ensaio de substrato específico localizado. AOS recomenda para Cattleya adulta casca média/grossa, aeração e secagem entre regas; Missouri Botanical Garden usa 5 partes de casca para 1 de carvão (receita genérica). Pesquisa brasileira de Sorace/UEL testou pinus, fibra de coco e casca de arroz em outras Cattleyas e híbrido distinto; não valida esta fórmula. Os 40% pinus + 25% carvão + 20% brita + 15% chips coco são hipótese horticultural NÃO homologada; a brita 20% e demais percentuais não possuem confirmação específica. Mantenha rizoma livre, ajuste regas pela secagem real e substitua substrato degradado."
     },
     substrato: ["🥇 Pinus grosso + casca de macadâmia grossa + perlita grossa.","🥈 Casca de pinus grossa + carvão vegetal + brita fina.","🥉 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida."],
     errosComuns: "Cultivar em sombra excessiva; Usar vasos muito grandes ou substratos finos e compactados; Manter as raízes constantemente encharcadas; Deixar água acumulada no miolo dos brotos e bainhas durante a noite; Exagerar na adubação nitrogenada após o amadurecimento dos pseudobulbos; Dividir a touceira com menos de três a quatro pseudobulbos por corte.",
