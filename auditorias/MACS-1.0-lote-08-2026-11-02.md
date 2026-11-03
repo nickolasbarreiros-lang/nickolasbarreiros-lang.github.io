@@ -11,7 +11,7 @@ Escopo: próximas dez fichas na ordem de imports de dados/orquideas/index.js ap�
 7. aspasia-lunata.js — passagem concluída
 8. cyrtopodium-saintlegerianum.js — passagem concluída
 9. cattleya-warneri.js — passagem concluída
-10. bulbophyllum-elassonotum.js — pendente
+10. bulbophyllum-elassonotum.js — passagem concluída
 
 ## Passagem 71 — Maxillaria camaridii (sin. M. lutescens)
 
@@ -56,3 +56,12 @@ ECOLOGIA: epífita robusta de ambientes sazonais, com raízes aderentes e repous
 ## Passagem 79 — Cattleya warneri
 
 ECOLOGIA: epífita unifoliada de grande porte, demanda estabilidade e aeração com redução hídrica após maturação conforme ficha. SUPORTES: barro/cachepô 5 estrelas, placa/tronco 4, plástico vasado 3, sem comparação quantitativa. RECEITA VISUAL: 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%. DIVERGÊNCIA INTERNA: primeira mistura qualitativa contém macadâmia + argila expandida + carvão + pinus grosso; justificativa afirma usar os quatro componentes originais, mas visual substitui argila por perlita e modifica granulometria do pinus. Requer pesquisa técnica posterior; sem alteração da receita nesta passagem. Referências botânicas existentes não comprovam percentuais; meta até 25 produtores brasileiros não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada; demais campos preservados. Commit 9ca90a43efacb6f4438c3777b00d09801758d2b2. Próxima ficha Bulbophyllum elassonotum.
+
+
+## Passagem 80 — Bulbophyllum elassonotum
+
+ECOLOGIA: miniatura epífita de rizoma rastejante e hastes pendentes, requer espaço lateral e aeração segundo ficha. SUPORTES: cachepô madeira 5 estrelas, plástico vasado e placa/tronco 4, barro 3, sem comparação experimental. RECEITA VISUAL: 35% pinus médio + 25% chips coco tratados + 25% perlita grossa + 15% esfagno = 100%; receitaTexto e itens concordam. DIVERGÊNCIA ENTRE ALTERNATIVAS: primeira mistura qualitativa contém chips coco + perlita + carvão miúdo + esfagno, enquanto visual troca carvão por pinus; segunda mistura contém macadâmia + pinus + perlita + esfagno, sem chips coco. Justificativa visual não declara equivalência literal e reconhece natureza propositiva. Referências botânicas já citadas não homologam os percentuais; meta até 25 produtores brasileiros não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia adicionada; demais campos preservados. Commit 143f4636964a563b4674ed32bc710981637ec32d.
+
+## Encerramento do Lote 08
+
+Dez fichas (71–80) com primeira passagem documental MACS 1.0 registrada e alterações limitadas a notaEvidencia. Foram identificadas divergências entre receitas qualitativas e visuais, inclusive propriedade `substrato` duplicada em Aspasia lunata. Nenhuma das dez fichas recebeu homologação quantitativa integral; são necessárias fontes específicas de produtores, comparação das recomendações e revisão técnica posterior das divergências antes de qualquer ajuste de percentuais ou estrelas.
