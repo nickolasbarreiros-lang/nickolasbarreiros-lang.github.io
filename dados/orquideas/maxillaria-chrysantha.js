@@ -35,7 +35,7 @@ export const maxillariaChrysantha = {
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade dentro de porta-adubo e afastado do rizoma.\n💧 Foliar/radicular: NPK equilibrado em 1/4 a 1/3 da dose a cada 10 a 15 dias durante raízes e brotos ativos.\n🧪 Liberação lenta: usar dose mínima e afastada das raízes novas. Faça flushing mensal apenas com água pura para reduzir sais.",
     rega: "Durante o crescimento, mantenha umidade regular, permitindo boa aeração entre regas. O substrato não deve secar completamente por períodos longos nem permanecer saturado. Após a maturação, aumente discretamente o intervalo. Em dias frios, úmidos ou nublados, ajuste a frequência à menor evaporação. Pseudobulbos enrugando progressivamente exigem inspeção das raízes antes de aumentar a água.",
     suporte: "🥇 Vaso de barro pequeno e bem furado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira vazado.\n🥉 Placa de madeira ou cortiça somente em ambiente fresco e úmido o suficiente para evitar desidratação rápida.",
-    substrato: ["🥇 Pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia.","🥈 Fibra de coco grossa + chips de coco + perlita grossa + pinus médio.","🥉 Chips de coco + pinus médio + perlita grossa + carvão vegetal miúdo."],
+    substrato: ["🥇 Para vaso pequeno em ambiente ameno: casca de pinus média 35% + casca de macadâmia triturada 30% + perlita grossa 25% + fibra de coco grossa 10% (mistura visual provisória, não homologada).","🥈 Pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia.","🥉 Fibra de coco grossa + chips de coco + perlita grossa + pinus médio.","Alternativa adicional: chips de coco + pinus médio + perlita grossa + carvão vegetal miúdo."],
     formasCultivo: {
         perfilVisual: "maxillaria-montana-raizes-sensiveis-calor",
         destaque: "Vaso de Barro",
@@ -51,7 +51,7 @@ export const maxillariaChrysantha = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso pequeno em ambiente ameno",
         resumo: "Substrato de partículas médias com umidade moderada, drenagem rápida e baixa compactação.",
-        justificativa: "A composição quantifica os quatro componentes da primeira receita qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual para vaso pequeno em ambiente ameno combina pinus médio, macadâmia triturada, perlita grossa e fibra de coco grossa. A formulação exata foi acrescentada como primeira alternativa textual; as três misturas anteriores foram preservadas. A primeira receita antiga continha esfagno, não fibra de coco, portanto não correspondia à composição visual. As referências ecológicas sobre hábito montano e noites amenas não validam os percentuais nem o ranking de recipientes. Proposta ainda não homologada pela MACS 1.0.",
         receitaTexto: "35% casca de pinus média + 30% casca de macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa.",
         perfil: ["Epífita montana", "Noites amenas", "Raízes sensíveis", "Umidade moderada", "Boa ventilação"],
         comportamento: [
