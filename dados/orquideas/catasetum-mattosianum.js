@@ -75,8 +75,8 @@ export const catasetumMattosianum = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
-        "justificativa": "A espécie é epífita pseudobulbosa de ambiente tropical úmido; a orientação sazonal é baseada no gênero Catasetum. Mistura leve com reserva hídrica favorece crescimento e deve secar no repouso. Proporções são hipótese, não receita testada na espécie.",
-        "receitaTexto": "35% chips de coco + 30% pinus médio + 20% perlita grossa + 15% casca de arroz carbonizada.",
+        "justificativa": "A espécie é epífita pseudobulbosa de ambiente tropical úmido; a orientação sazonal é baseada no gênero Catasetum. Mistura leve com reserva hídrica pode favorecer o crescimento ativo; durante a dormência, reduzir fortemente as regas e observar a secagem do recipiente, sem pressupor que a mistura seque sozinha. Proporções são hipótese, não receita testada na espécie.",
+        "receitaTexto": "35% chips de coco médios preparados + 30% casca de pinus média + 20% perlita grossa + 15% casca de arroz carbonizada.",
         "perfil": ["Raízes vigorosas", "Bulbos de reserva", "Ciclo sazonal", "Crescimento úmido", "Repouso seco", "Boa drenagem"],
         "comportamento": [
             {
@@ -103,14 +103,14 @@ export const catasetumMattosianum = {
         "itens": [
             {
                             "asset": "chips-coco",
-                            "nome": "Chips de coco",
+                            "nome": "Chips de coco médios preparados",
                             "proporcao": "35%",
                             "nota": "umidade",
                             "finalidade": "Reserva água durante crescimento ativo."
             },
             {
                             "asset": "casca-pinus",
-                            "nome": "Pinus médio",
+                            "nome": "Casca de pinus média",
                             "proporcao": "30%",
                             "nota": "estrutura",
                             "finalidade": "Mantém espaços de ar e drenagem."
@@ -130,10 +130,10 @@ export const catasetumMattosianum = {
                             "finalidade": "Contribui para porosidade e secagem no repouso."
             }
         ],
-        "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo.",
-        "notaEvidencia": "MACS 1.0 — primeira passagem documental: Catasetum mattosianum, epífita caducifólia de ciclo sazonal; regas intensas apenas após enraizamento ativo e redução forte na dormência. Suportes vaso plástico vasado 5 estrelas, cachepô madeira e placa/tronco 4, barro 3; avaliações horticulturais sem validação comparativa. Receita visual 35% chips coco + 30% pinus médio + 20% perlita grossa + 15% casca de arroz carbonizada = 100%; receitaTexto e itens concordam. DIVERGÊNCIA SUBSTANCIAL: nenhuma das duas alternativas qualitativas contém pinus ou casca de arroz carbonizada. A primeira é esfagno + perlita + carvão; a segunda argila expandida + perlita + chips coco + esfagno. A justificativa reconhece hipótese não testada na espécie, baseada em orientação geral do gênero; retenção e secagem sazonal da composição exigem validação. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
+        "alerta": "Proposta preliminar MACS 1.1; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo.",
+        "notaEvidencia": "MACS 1.1 — revisão documental: Catasetum mattosianum, epífita caducifólia de ciclo sazonal; regas intensas apenas após enraizamento ativo e redução forte na dormência. Suportes vaso plástico vasado 5 estrelas, cachepô madeira e placa/tronco 4, barro 3; avaliações horticulturais sem validação comparativa. Receita visual 35% chips coco + 30% pinus médio + 20% perlita grossa + 15% casca de arroz carbonizada = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% chips de coco, 30% pinus, 20% perlita, 15% casca de arroz carbonizada). As duas alternativas qualitativas são composições distintas, não equivalentes à principal. A justificativa reconhece hipótese não testada na espécie, baseada em orientação geral do gênero; retenção e secagem sazonal da composição exigem validação. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    substrato: ["🥇 Receita visual provisória para vaso plástico vasado: chips de coco 35% + pinus médio 30% + perlita grossa 20% + casca de arroz carbonizada 15% (100%; não homologada).","🥈 Esfagno de fibra longa solto + perlita grossa + carvão vegetal.","🥉 Argila expandida + perlita grossa + chips de coco + pequena fração de esfagno solto."],
+    substrato: ["🥇 Para vaso plástico vasado: 35% chips de coco médios preparados + 30% casca de pinus média + 20% perlita grossa + 15% casca de arroz carbonizada (hipótese horticultural NÃO homologada especificamente para Catasetum mattosianum).", "🥈 Esfagno de fibra longa solto + perlita grossa + carvão vegetal (alternativa qualitativa sem proporções homologadas; monitorar retenção na dormência).", "🥉 Argila expandida + perlita grossa + chips de coco médios preparados + pequena fração de esfagno solto (alternativa qualitativa sem percentuais específicos publicados)."],
     errosComuns: "• Encharcar o broto antes de as raízes novas estarem funcionais.\n• Replantar quando as raízes novas já estão longas e frágeis.\n• Economizar água durante o crescimento vigoroso.\n• Continuar regando normalmente após a queda das folhas.\n• Adubar durante dormência.\n• Remover pseudobulbos traseiros saudáveis, que funcionam como reserva.\n• Usar substrato velho e compacto.\n• Tentar forçar flores femininas com excesso de sol.",
     dica: "🏆Faça o replante no início da brotação, logo após a planta sair da dormência e antes que as novas raízes fiquem compridas. Após o replante, mantenha o vaso relativamente seco até que várias raízes atinjam de 5 a 8 cm de comprimento. Em seguida, aumente a rega para manter a umidade, porem sem encharcar o broto e adote uma adubação leve e frequente, e garanta boa iluminação e ventilação. Com a queda das folhas, suspenda a adubação e deixe o vaso predominantemente seco. Lembre-se de preservar os pseudobulbos antigos saudáveis, pois eles nutrem a próxima brotação.",
     revisaoCientificaIAR: {
