@@ -37,7 +37,7 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, dentro de porta-adubo, durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/2 da dose a cada 10–15 dias enquanto houver brotos e raízes.\n🌱 Raízes novas: reduza a concentração durante as primeiras semanas para evitar queimaduras nas pontas.\n🌸 Maturação: diminua o nitrogênio após o pseudobulbo endurecer.\n🧪 Liberação lenta: Osmocote em dose baixa, afastado do broto e somente em vaso muito drenante.\n🚿 Flushing: irrigação abundante com água pura uma vez por mês.",
     "rega": "Molhe bem durante a formação dos brotos, mas só repita quando o substrato estiver próximo da secagem. Após a maturação, aumente o intervalo entre regas, sem deixar pseudobulbos murcharem excessivamente. Evite água acumulada nas bainhas, regas noturnas e o uso de cachepôs decorativos fechados. Se a planta murchar com o substrato ainda úmido, verifique imediatamente as raízes.",
     "suporte": "🥇 Vaso de barro pequeno e perfurado: fornece estabilidade e secagem rápida.\n🥈 Cestinho de madeira aberto: ideal para máxima aeração.\n🥉 Placa de madeira ou cortiça: indicada em orquidários úmidos e com rotina de rega frequente.\nO recipiente deve permitir apenas duas ou três novas frentes e o rizoma deve ser fixado sobre a superfície.",
-    substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal + chips de coco preparados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
+    substrato: ["Casca de pinus média + perlita grossa + carvão vegetal + chips de coco preparados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
     "errosComuns": "Replantar sem raízes novas; usar vaso grande; manter substrato velho; enterrar o rizoma; regar por calendário; cultivar em sombra; aplicar excesso de nitrogênio; deixar a planta solta; dividir touceira pequena; manter cachepô decorativo com água; cortar raízes aderidas sem necessidade.",
     "dica": "Trate o híbrido como mais vigoroso, mas não como indestrutível. O replante deve ocorrer quando a nova frente emitir raízes curtas e ativas. Preserve as raízes antigas, use vaso pequeno e fixe a planta firmemente. O vigor híbrido aparece quando o sistema radicular permanece íntegro; sem raízes, a planta perde rapidamente a vantagem do cruzamento.",
     formasCultivo: {
@@ -55,14 +55,14 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
         titulo: "Substrato ideal",
         contexto: "Vaso de barro pequeno e perfurado",
         resumo: "Mistura aberta de casca e carvão, com proporção institucional publicada para Cattleyas em geral; sem validação deste híbrido.",
-        justificativa: "O Missouri Botanical Garden publica proporção de cinco partes de casca para uma de carvão no replante de Cattleyas e outras orquídeas simpodiais (5:1 = 83,3/16,7). Trata-se de referência genérica, não de ensaio para Cattleya Memoria Rita Franke. O Orquidário Santa Clara cita pinus e carvão para a progenitora C. schilleriana, sem percentuais. A fórmula anterior com macadâmia e perlita não tinha suporte quantitativo específico. Manter vaso pequeno e secagem entre regas.",
-        receitaTexto: "83,3% casca de pinus média/grossa + 16,7% carvão vegetal (referência genérica 5:1; não homologada especificamente para o híbrido).",
+        justificativa: "O Missouri Botanical Garden publica proporção de cinco partes de casca de abeto média para uma de carvão horticultural no replante de Cattleyas e outras orquídeas simpodiais (5:1 = 83,3/16,7). Trata-se de referência genérica, não de ensaio para Cattleya Memoria Rita Franke. O Orquidário Santa Clara cita pinus e carvão para a progenitora C. schilleriana, sem percentuais. A substituição de casca de abeto por pinus é adaptação de material, não reprodução literal da receita institucional. A fórmula anterior com macadâmia e perlita não tinha suporte quantitativo específico. Manter vaso pequeno e secagem entre regas.",
+        receitaTexto: "83,3% casca de pinus média + 16,7% carvão vegetal horticultural (adaptação da receita genérica 5:1 com casca de abeto; não homologada especificamente para o híbrido).",
         perfil: ["Aeração elevada", "Secagem entre regas", "Rizoma exposto"],
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus média/grossa", proporcao: "83,3%", nota: "estrutura e drenagem", finalidade: "Base porosa para raízes epífitas, com secagem entre regas." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "16,7%", nota: "aeração complementar", finalidade: "Complementa a mistura de casca na proporção institucional 5:1." }
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "83,3%", nota: "estrutura e drenagem", finalidade: "Base porosa para raízes epífitas, com secagem entre regas." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal horticultural", proporcao: "16,7%", nota: "aeração complementar", finalidade: "Complementa a mistura de casca na proporção institucional 5:1." }
         ],
-        alerta: "MACS 1.1: Missouri Botanical Garden publica 5 partes de casca para 1 de carvão para Cattleyas em geral (83,3/16,7); não é ensaio específico de Cattleya Memoria Rita Franke. Orquidário Wolf documenta o cruzamento; Orquidário Santa Clara recomenda pinus e carvão para C. schilleriana sem percentuais. Não foram identificadas proporções publicadas por produtor para este híbrido. Receita principal com evidência quantitativa em nível de grupo, NÃO homologada experimentalmente para o cruzamento. Fontes: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids ; https://www.orquidariowolf.com.br/produtos/cattleya-memoria-rita-franke1/"
+        alerta: "MACS 1.1: Missouri Botanical Garden publica 5 partes de casca de abeto média para 1 de carvão horticultural para Cattleyas em geral (83,3/16,7); não é ensaio específico de Cattleya Memoria Rita Franke. Orquidário Wolf documenta o cruzamento; Orquidário Santa Clara recomenda pinus e carvão para C. schilleriana sem percentuais. Não foram identificadas proporções publicadas por produtor para este híbrido. Receita principal adaptada para pinus, com evidência quantitativa em nível de grupo, NÃO homologada experimentalmente para o cruzamento. Fontes: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids ; https://www.orquidariowolf.com.br/produtos/cattleya-memoria-rita-franke1/"
     },
     revisaoCientificaIAR: {
         "nome": "Cattleya Memoria Rita Franke",
@@ -342,12 +342,10 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
         "substrato": {
             "recipiente": "vaso de barro",
             "percentuais": {
-                "pinus medio-grosso": 40,
-                "macadamia media": 25,
-                "carvao": 20,
-                "perlita grossa": 15
+                "casca de pinus média": 83.3,
+                "carvão vegetal horticultural": 16.7
             },
-            "natureza": "proposta técnica sem teste comparativo"
+            "natureza": "adaptação documental da receita genérica Missouri Botanical Garden 5:1; não testada especificamente no híbrido"
         },
         "fontes": [
             "https://www.orquidariowolf.com.br/produtos/cattleya-memoria-rita-franke1/",
