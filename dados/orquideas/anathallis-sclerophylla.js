@@ -70,6 +70,28 @@ export const anathallisSclerophylla = {
         "🥈 Chips de coco pequenos preparados + casca de arroz carbonizada + carvão vegetal pequeno (alternativa qualitativa para vaso, sem percentuais homologados).",
         "🥉 Casca de pinus fina/média + perlita adequada a miniaturas + esfagno de fibra longa solto (alternativa qualitativa para vaso, sem percentuais homologados)."
     ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Placa / tronco principal; receita opcional para vaso pequeno — 100% em volume",
+        resumo: "Para vaso pequeno: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno.",
+        justificativa: "Anathallis sclerophylla é epífita de ambientes úmidos, com raízes que exigem hidratação frequente e oxigenação. A placa / tronco com fina camada de esfagno solto permanece a primeira opção. Em vaso pequeno e ventilado, a mistura visual proposta combina estrutura, porosidade e reserva hídrica. MACS 1.1: proposta horticultural documental, sem homologação quantitativa específica.",
+        receitaTexto: "Placa / tronco: raízes expostas e fina camada de esfagno de fibra longa solto. Para vaso pequeno: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno (proposta não homologada).",
+        perfil: ["Epífita de ambiente úmido", "Raízes oxigenadas", "Umidade frequente", "Boa ventilação", "Evitar compactação"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 5, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "35%", nota: "estrutura", finalidade: "Mantém espaço para as raízes sem compactar a mistura." },
+            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "30%", nota: "porosidade", finalidade: "Ajuda a manter o substrato leve e aerado." },
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "20%", nota: "reserva hídrica", finalidade: "Reduz a secagem excessiva das raízes finas." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "15%", nota: "aeração", finalidade: "Complementa a estrutura drenante da mistura." }
+        ],
+        alerta: "A receita de 100% em volume destina-se apenas ao vaso pequeno. Na placa / tronco, manter raízes expostas e esfagno em camada fina. Não enterrar a base nem compactar o esfagno.",
+        notaEvidencia: "MACS 1.1 — estrutura visual alinhada à receita anteriormente cadastrada, preservando percentuais e duas alternativas qualitativas. Suporte principal: placa / tronco. Receita opcional para vaso: 35% pinus + 30% casca de arroz carbonizada + 20% esfagno + 15% carvão = 100%. Não há levantamento quantitativo individualizado de produtores nem ensaio comparativo específico; percentuais e estrelas NÃO HOMOLOGADOS."
+    },
     revisaoCientificaIAR: {
         "nome": "Anathallis sclerophylla",
         "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Stelis sclerophylla.",
