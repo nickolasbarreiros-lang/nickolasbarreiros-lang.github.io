@@ -529,15 +529,26 @@ function criarFormasCultivoV4(config, perfilRadicular = []) {
 }
 
 function criarSubstratoVisualV4(config, recomendados = []) {
-    // Compatibilidade V4.9: fichas antigas armazenam as alternativas como texto,
-    // enquanto fichas novas usam uma lista. Preservar ambas no mesmo menu.
-    const misturasRecomendadas = Array.isArray(recomendados)
-        ? recomendados.filter((item) => typeof item === "string" && item.trim()).map((item) => item.trim())
+    // O menu apresenta somente duas composições alternativas. A receita principal,
+    // seus percentuais e suas ressalvas ficam exclusivamente em "Substrato ideal".
+    const entradas = Array.isArray(recomendados)
+        ? recomendados
         : typeof recomendados === "string"
-            ? recomendados.split(/\r?\n/).map((item) => item.trim()
-                .replace(/^(?:🥇|🥈|🥉|⭐|\d+[.)-]?)\s*/, ""))
-                .filter(Boolean)
+            ? recomendados.split(/\\n|\r?\n/)
             : [];
+    const limparAlternativa = (valor) => String(valor || "")
+        .trim()
+        .replace(/^(?:🥇|🥈|🥉|⭐|\\d+[.)-]?)\\s*/u, "")
+        .replace(/^(?:Alternativa\\s*\\d+\\s*[—:-]\\s*)/i, "")
+        .replace(/\\s*\\([^()]*\\b(?:homologad[ao]s?|qualitativ[ao]s?|proposta)\\b[^()]*\\)\\s*\\.?$/i, "")
+        .replace(/\\s+/g, " ")
+        .replace(/\\.$/, "")
+        .trim();
+    const misturasRecomendadas = [...new Set(entradas
+        .filter((item) => typeof item === "string")
+        .filter((item) => !/(?:🥇|\\b(?:mistura|receita|substrato)\\s+principal\\b|\\d+\\s*%)/i.test(item))
+        .map(limparAlternativa)
+        .filter((item) => item && item.includes("+") && !/\\d+\\s*%/.test(item)))].slice(0, 2);
     if (!config) {
         return "";
     }
