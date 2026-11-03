@@ -69,8 +69,8 @@ export const eriaHyacinthoides = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
-        "justificativa": "Cesto raso que acomoda o avanço lateral dos brotos e mantém a base da planta fora de uma massa compacta. Em calor prolongado, a pequena reserva hídrica deve ser compensada por regas bem observadas. Esta receita para recipiente é uma proposta técnica de cultivo, não uma fórmula experimental validada especificamente para a espécie.",
-        "receitaTexto": "35% casca de pinus média + 25% chips de coco tratados + 25% perlita grossa + 15% esfagno solto.",
+        "justificativa": "MACS 1.1: receita provisória para cachepô raso e ventilado. Dois produtores brasileiros documentam pinus, carvão, esfagno ou macadâmia para esta espécie; fonte secundária específica também cita perlita. As proporções são inferenciais, não receitas publicadas nem experimentalmente validadas para Bryobium hyacinthoides.",
+        "receitaTexto": "55% casca de pinus média + 20% esfagno solto + 15% carvão vegetal pequeno + 10% perlita grossa.",
         "perfil": [
             "Raízes finas",
             "Boa aeração",
@@ -105,36 +105,36 @@ export const eriaHyacinthoides = {
             {
                 "asset": "casca-pinus",
                 "nome": "Casca de pinus média",
-                "proporcao": "35%",
+                "proporcao": "55%",
                 "nota": "estrutura e umidade moderada",
                 "finalidade": "Cria apoio para raízes epífitas sem enterrá-las em material fino."
             },
             {
-                "asset": "chips-coco",
-                "nome": "Chips de coco tratados",
-                "proporcao": "25%",
-                "nota": "reserva de água",
-                "finalidade": "Aumentam a estabilidade hídrica entre regas; devem ser bem lavados."
+                "asset": "esfagno",
+                "nome": "Esfagno solto",
+                "proporcao": "20%",
+                "nota": "reserva hídrica",
+                "finalidade": "Retém umidade moderada sem compactar as raízes finas."
+            },
+            {
+                "asset": "carvao",
+                "nome": "Carvão vegetal pequeno",
+                "proporcao": "15%",
+                "nota": "estrutura e aeração",
+                "finalidade": "Acrescenta partículas firmes e espaços de ar."
             },
             {
                 "asset": "perlita",
                 "nome": "Perlita grossa",
-                "proporcao": "25%",
-                "nota": "aeração e leveza",
-                "finalidade": "Mantém a mistura solta, reduzindo a compactação com o tempo."
-            },
-            {
-                "asset": "esfagno",
-                "nome": "Esfagno solto",
-                "proporcao": "15%",
-                "nota": "amortecimento da secagem",
-                "finalidade": "Pequena fração distribuída sem pressão protege raízes novas da secagem abrupta."
+                "proporcao": "10%",
+                "nota": "aeração",
+                "finalidade": "Complementa a porosidade do substrato."
             }
         ],
         "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura.",
-        "notaEvidencia": "MACS 1.0: Bryobium hyacinthoides (sinônimo Eria hyacinthoides) é epífita de florestas tropicais úmidas segundo POWO. Fonte horticultural secundária menciona casca, carvão, esfagno e perlita, mas não valida chips de coco nem percentuais para esta espécie. A receita 35% pinus + 25% coco + 25% perlita + 15% esfagno é proposta horticultural de recipiente, não homologada; requer levantamento de produtores brasileiros e evidência quantitativa específica."
+        "notaEvidencia": "MACS 1.1: ingredientes B qualitativa específica em dois produtores brasileiros (pinus, carvão, esfagno, macadâmia); perlita C em fonte secundária específica. Percentuais D inferenciais e NÃO HOMOLOGADOS; não são receitas publicadas nem ensaiadas para a espécie. Exatamente duas alternativas no menu. Estrelas de suporte D preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-032-BRYOBIUM-HYACINTHOIDES.md."
     },
-    substrato: ["🥇 Para recipiente: casca de pinus média + chips de coco tratados + perlita grossa + esfagno solto (mistura-base provisória do substrato visual).","🥈 Esfagno de fibra longa solto + perlita grossa.","🥉 Chips de coco tratados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno.","Alternativa adicional: casca de macadâmia média + pinus médio + perlita grossa + pequena fração de esfagno."],
+    substrato: ["🥈 Alternativa 1 — 60% casca de pinus média + 20% carvão vegetal pequeno + 10% esfagno solto + 10% perlita grossa. Para recipiente de secagem lenta; percentuais MACS 1.1 D, inferidos e não homologados.","🥉 Alternativa 2 — 45% casca de pinus média + 25% esfagno solto + 15% carvão vegetal pequeno + 15% casca de macadâmia média. Reserva hídrica potencialmente maior para cachepô de secagem rápida; percentuais MACS 1.1 D, inferidos e não homologados."],
     errosComuns: "Manter a planta identificada apenas sob o gênero desatualizado Eria nos registros da coleção; Permitir secura prolongada do substrato; Cultivar em ambientes com pouca ventilação; Exagerar na dosagem dos adubos e causar queima das raízes por sais; Dividir touceiras pequenas antes de a planta estar bem estabelecida.",
     dica: "Deixe a planta formar uma touceira antes de dividir. O efeito ornamental vem justamente das hastes densas e numerosas; em clima quente, combine umidade do ar com ventilação forte para que as raízes finas permaneçam hidratadas sem ficar abafadas.",
     revisaoCientificaIAR: {
