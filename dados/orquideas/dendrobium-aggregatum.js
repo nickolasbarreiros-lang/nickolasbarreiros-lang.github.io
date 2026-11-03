@@ -39,7 +39,7 @@ export const dendrobiumAggregatum = {
     "adubacao": "🌱 Brotação: NPK equilibrado em baixa concentração quando novas raízes aparecerem.\n☀️ Crescimento: mantenha alimentação regular e leve enquanto o pseudobulbo estiver aumentando.\n🍂 Maturação: reduza gradualmente o nitrogênio quando o crescimento endurecer.\n💤 Repouso: suspenda a adubação até o reinício do crescimento.\n🌿 Bokashi/Osmocote: somente no início do ciclo e em quantidade pequena, especialmente em placas e cestos.",
     "rega": "Com brotos e raízes ativos, regue generosamente e deixe o suporte secar parcialmente entre irrigações. Quando os pseudobulbos estiverem maduros e o crescimento parar, reduza gradualmente. No repouso, forneça apenas água suficiente para evitar enrugamento excessivo e prolongado. Chuva frequente fora de época pode reduzir a indução floral e aumentar risco de podridão.",
     "suporte": "🥇 Placa de madeira dura ou cortiça — excelente secagem e exposição dos cachos.\n🥈 Cesto pequeno de madeira — acomoda touceiras sem prender inflorescências.\n🥉 Vaso de barro raso e muito drenante.\nEvite recipientes fundos e muito retentivos, principalmente em regiões úmidas.",
-    substrato: ["🥇 Para cesto ou vaso: casca de pinus grossa + brita fina + carvão vegetal (mistura-base provisória do substrato visual; montagem em placa/tronco permanece principal).","🥈 Chips de coco muito grossos + argila expandida + carvão vegetal.","🥉 Casca de macadâmia grossa + perlita grossa + carvão vegetal."],
+    substrato: ["🥈 Alternativa 1 — 70% casca de pinus média/grossa + 20% carvão vegetal + 10% perlita grossa. Mistura mais aberta para cesto ou vaso com secagem lenta; proporções inferidas (MACS 1.1 D), sem validação específica.","🥉 Alternativa 2 — 55% casca de pinus média/grossa + 25% chips de coco lavados + 20% carvão vegetal. Maior reserva hídrica para cachepô de secagem rápida; proporções inferidas (MACS 1.1 D), sem validação específica."],
     "formasCultivo": {
         "perfilVisual": "dendrobium-epifita-sazonal",
         "destaque": "Placa / tronco",
@@ -55,8 +55,8 @@ export const dendrobiumAggregatum = {
         "titulo": "Substrato ideal",
         "contexto": "Montagem principal sem mistura volumétrica; receita para cesto ou vaso",
         "resumo": "Na montagem, raízes expostas sobre suporte firme. Para recipiente, mistura grossa e de secagem rápida, sem esfagno no miolo.",
-        "justificativa": "O cultivo principal permanece a montagem em placa ou tronco, sem mistura volumétrica. A receita quantitativa abaixo é uma proposta provisória para cesto ou vaso, agora incluída também entre as alternativas textuais; as alternativas anteriores usam materiais distintos. Não constitui homologação MACS 1.0.",
-        "receitaTexto": "45% casca de pinus grossa + 30% brita fina + 25% carvão vegetal.",
+        "justificativa": "MACS 1.1: a montagem em placa/tronco continua sendo o cultivo principal, sem receita percentual. Para cesto ou vaso raso, adotou-se a formulação genérica documentada para Dendrobium (pinus, carvão e coco), coerente com relato brasileiro específico de D. lindleyi que cita os mesmos ingredientes sem percentuais. Os percentuais não foram validados especificamente nesta espécie.",
+        "receitaTexto": "60% casca de pinus média/grossa + 20% carvão vegetal + 20% chips de coco lavados.",
         "perfil": ["Raízes epífitas", "Touceira compacta", "Cachos pendentes", "Secagem rápida", "Repouso sazonal mais seco"],
         "comportamento": [
             { "nome": "Retenção", "valor": 1, "icone": "💧" },
@@ -65,12 +65,12 @@ export const dendrobiumAggregatum = {
             { "nome": "Compactação", "valor": 1, "icone": "🧱" }
         ],
         "itens": [
-            { "asset": "casca-pinus", "nome": "Casca de pinus grossa", "proporcao": "45%", "nota": "estrutura", "finalidade": "Mantém grandes espaços de ar e suporte às raízes." },
-            { "asset": "brita-fina", "nome": "Brita fina", "proporcao": "30%", "nota": "drenagem", "finalidade": "Reduz a retenção de água e contribui para estabilidade do recipiente." },
-            { "asset": "carvao", "nome": "Carvão vegetal", "proporcao": "25%", "nota": "aeração", "finalidade": "Acrescenta partículas firmes e drenantes." }
+            { "asset": "casca-pinus", "nome": "Casca de pinus média/grossa", "proporcao": "60%", "nota": "estrutura", "finalidade": "Fornece suporte e aeração em cesto ou vaso raso." },
+            { "asset": "chips-coco", "nome": "Chips de coco lavados", "proporcao": "20%", "nota": "reserva hídrica", "finalidade": "Conserva umidade moderada durante o crescimento; usar chips lavados e soltos." },
+            { "asset": "carvao", "nome": "Carvão vegetal", "proporcao": "20%", "nota": "aeração", "finalidade": "Acrescenta partículas firmes e espaços de ar." }
         ],
         "alerta": "Só iniciar a redução das regas depois de os pseudobulbos amadurecerem. Evitar chuva contínua e adubação nitrogenada intensa durante o repouso; não desidratar severamente a planta.",
-        "notaEvidencia": "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual de assets ainda pendente."
+        "notaEvidencia": "MACS 1.1: receita para cesto/vaso 60% pinus + 20% carvão + 20% chips de coco (por volume), documentada para Dendrobium genérico, NÃO especificamente validada para D. lindleyi (percentuais D). A montagem em placa/tronco permanece preferencial e dispensa mistura volumétrica. Estrelas de suporte D, preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-027-DENDROBIUM-LINDLEYI-AGGREGATUM.md."
     },
     "errosComuns": "Regar e adubar da mesma forma o ano inteiro; iniciar o repouso antes de o pseudobulbo amadurecer; sombra excessiva; esfagno compacto; tentar induzir floração apenas com adubo rico em fósforo; cortar pseudobulbos antigos ainda firmes; dividir touceiras pequenas; deixar chuva constante atingir a planta durante o repouso.",
     "dica": "O segredo da floração está na transição, não na seca extrema. Deixe o pseudobulbo completar seu crescimento e endurecer; depois aumente a luz, reduza bastante a água e suspenda o nitrogênio. Um leve enrugamento é normal, mas pseudobulbos profundamente desidratados indicam que a redução foi longe demais.",
