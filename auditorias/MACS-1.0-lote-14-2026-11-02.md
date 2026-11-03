@@ -11,7 +11,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 5. acianthera-sonderiana.js — passagem concluída
 6. acianthera-teres.js — passagem concluída
 7. isabelia-pulchella.js — passagem concluída
-8. prosthechea-vespa.js — pendente
+8. prosthechea-vespa.js — passagem concluída
 9. stelis-ciliaris.js — pendente
 10. prosthechea-fragrans.js — pendente
 
@@ -48,3 +48,8 @@ RUPÍCOLA de rochas expostas; montagem em madeira é adaptação prática. SUPOR
 ## Passagem 137 — Isabelia pulchella
 
 MICROEPÍFITA de rizoma rastejante, raízes finas, umidade regular e boa ventilação. SUPORTES: placa/tronco 5 estrelas, cachepô madeira e barro 4, árvore viva 3. RECEITA VISUAL alternativa PARA VASO: 40% pinus pequeno + 25% arroz carbonizado + 20% carvão pequeno + 15% esfagno solto = 100% em volume; resumo, receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa pinus + carvão + perlita grossa, sem arroz/esfagno; segunda arroz + pinus + esfagno, sem carvão. Nenhuma coincide. CONTRADIÇÃO INTERNA: alerta proíbe perlita grossa, porém primeira mistura qualitativa a recomenda. Validar granulometria, rizoma superficial, secagem e noites quentes. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 4793255e7a2374fb6f214b5c9397007c91ed3e9b. Próxima ficha Prosthechea vespa.
+
+
+## Passagem 138 — Prosthechea vespa
+
+EPÍFITA/RUPÍCOLA com pseudobulbos e raízes ventiladas. SUPORTES: vaso barro 5 estrelas, placa/tronco e cachepô madeira 4, árvore viva 3. RECEITA VISUAL PARA VASO: 45% pinus médio + 25% carvão + 20% brita fina + 10% perlita grossa = 100%; resumo, receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa pinus + brita + carvão (sem perlita); segunda macadâmia + carvão + perlita (sem pinus/brita). Nenhuma coincide. CONTRADIÇÃO GRAVE: alerta proíbe perlita grossa, enquanto receita visual contém 10% e segunda qualitativa também recomenda perlita grossa. Validar granulometria, secagem do barro e compatibilidade da perlita. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 786be80a27ef871fa04b2657b0660b9ddeea4c6f. Próxima ficha Stelis ciliaris.
