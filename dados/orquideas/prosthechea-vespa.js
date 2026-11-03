@@ -312,7 +312,8 @@ export const prosthecheaVespa = {
         "finalidade": "Abre a mistura sem elevar excessivamente a retenção."
       }
     ],
-    "alerta": "Não usar perlita grossa. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
+    "alerta": "Não usar perlita grossa. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos.",
+    "notaEvidencia": "MACS 1.0 — primeira passagem documental: Prosthechea vespa, epífita/rupícola com pseudobulbos, raízes arejadas, água durante crescimento e secagem moderada após maturação, sem repouso seco severo. Suportes barro 5 estrelas, placa/tronco e cachepô madeira 4, árvore viva 3; não homologados. Receita visual PARA VASO 45% pinus médio + 25% carvão vegetal + 20% brita fina + 10% perlita grossa = 100% em volume; resumo, receitaTexto e itens concordam. Primeira qualitativa pinus médio + brita fina + carvão, sem perlita; segunda macadâmia média + carvão + perlita grossa, sem pinus/brita. Nenhuma coincide integralmente. CONTRADIÇÃO GRAVE: alerta de substratoVisual diz 'Não usar perlita grossa', mas receitaTexto e itens incluem 10% perlita grossa, e segunda qualitativa também recomenda perlita grossa. Justificativa declara receita provisória, não homologada. Validar adequação de perlita, granulometria da brita, secagem do barro, fase de emissão de raízes e estabilidade dos pseudobulbos. Meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
   },
   "fotoReferencia": {
     "origem": "Garden.org — Prosthechea vespa",
