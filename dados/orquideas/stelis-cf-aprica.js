@@ -121,7 +121,7 @@ export const stelisCfAprica = {
         "nota": "reserva hídrica controlada",
         "finalidade": "Retém umidade entre regas sem formar uma massa compacta quando usado solto e em baixa proporção."
     }
-], alerta: "Replante antes que a mistura compacte ou permaneça molhada por tempo muito maior que quando nova; preserve a base dos ramicaules arejada."
+], alerta: "Replante antes que a mistura compacte ou permaneça molhada por tempo muito maior que quando nova; preserve a base dos ramicaules arejada.", notaEvidencia: "MACS 1.0 — primeira passagem documental: Stelis cf. aprica, micro-orquídea epífita de raízes finas, identificação específica ainda prudencial (cf.), umidade frequente sem saturação, alta aeração e sombra luminosa. Suportes vaso plástico vasado 5 estrelas, placa/tronco e cachepô madeira 4, árvore viva 3; não homologados. Receita visual PARA VASO 35% pinus fina/média + 25% arroz carbonizado + 20% carvão pequeno + 20% esfagno solto = 100%; receitaTexto e itens concordam. Primeira qualitativa pinus fino + carvão pequeno + esfagno (sem arroz carbonizado); segunda chips coco pequenos + carvão pequeno + perlita adequada (sem pinus/arroz/esfagno). Nenhuma coincide integralmente. Justificativa reconhece proposta horticultural sem ensaio específico; validar 20% esfagno, granulometria, retenção no vaso plástico vasado e secagem de montagem em clima quente; confirmar identidade taxonômica antes de extrapolar recomendações. Duas referências de orquidários citadas não equivalem a verificação documentada de até 25 produtores brasileiros com receitas específicas. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
     "Expor ao sol direto forte.",
