@@ -13,7 +13,7 @@ Escopo: primeira passagem documental de cultivo e substratos. Não alterar recei
 7. cattleya-a-brazilian-dream.js — passagem concluída
 8. cattleya-violacea-f-suavissima-x-self.js — passagem concluída
 9. cattleya-violacea-f-flamea.js — passagem concluída
-10. cattleya-nobilior-var-amaliae.js — pendente
+10. cattleya-nobilior-var-amaliae.js — passagem concluída
 
 ## Passagem 111 — Rhyncholaeliocattleya Chia Lin
 
@@ -58,3 +58,12 @@ PROGÊNIE por autofecundação de seleção de cor, não híbrido interespecífi
 ## Passagem 119 — Cattleya violacea f. flamea
 
 FORMA horticultural de cor de C. violacea; epífita bifoliada tropical, umidade regular sem repouso seco severo. SUPORTES: cachepô madeira 5 estrelas, barro e plástico vasado 4, árvore viva 3. RECEITA VISUAL: 35% pinus médio + 25% macadâmia média + 20% carvão + 20% chips coco grossos = 100%; texto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: quatro qualitativas no campo string: primeira macadâmia+pinus+perlita+carvão; segunda pinus+perlita+carvão+chips coco; terceira macadâmia+argila expandida+carvão+pinus; quarta chips coco+perlita+carvão+pinus. Nenhuma coincide com visual, que não contém perlita nem argila. Justificativa reconhece percentuais como inferência técnica. Validar retenção, granulometria, salinidade e secagem com regas frequentes. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 643ee60b480c4b6386cac2c8240061e1492aa52b. Próxima ficha Cattleya nobilior var. amaliae.
+
+
+## Passagem 120 — Cattleya nobilior var. amaliae
+
+FORMA tradicional de C. nobilior, epífita do Cerrado, luz alta, raízes muito aeradas e redução sazonal das regas após maturação. SUPORTES: placa/tronco e cachepô madeira 5 estrelas, árvore viva e barro 4. RECEITA VISUAL alternativa para recipiente: 50% pinus grosso + 30% carvão granulado + 20% brita fina = 100%; texto e itens coerentes. DIVERGÊNCIA FORTE: qualitativa 1 chips coco grossos + argila expandida + carvão; qualitativa 2 macadâmia grossa + perlita grossa + carvão; nenhuma coincide com visual. Justificativa já reconhece ausência de ensaio em plantas adultas e não alega equivalência. Validar peso/granulometria da brita, retenção do pinus e secagem no repouso sob chuva. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit ea02b311be87cd50420ab7131b680d8c5417a034.
+
+## Encerramento do lote 12
+
+Primeira passagem documental concluída para as dez fichas 111–120. Todas registradas no GitHub com notas de evidência; divergências preservadas para revisão técnica posterior. Nenhuma receita, percentual, estrela, asset, layout, IDC ou IAR alterado. Homologação quantitativa MACS 1.0 e consulta individualizada de até 25 produtores brasileiros por ficha permanecem pendentes. Próxima etapa: lote 13, iniciando na ficha 121 segundo dados/orquideas/index.js.
