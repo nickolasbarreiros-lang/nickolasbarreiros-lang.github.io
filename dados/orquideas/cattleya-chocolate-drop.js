@@ -41,11 +41,11 @@ export const cattleyaChocolateDrop = {
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade a cada 60–90 dias durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/2 da dose a cada 7–15 dias.\n🌱 Crescimento: mantenha nutrição até os pseudobulbos engrossarem e as folhas endurecerem.\n🌸 Maturação: reduza o nitrogênio; fórmulas muito ricas em fósforo não substituem luz adequada.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, distante de raízes novas.\n🚿 Flushing: lave mensalmente o vaso para evitar sais.",
     "rega": "Regue abundantemente durante brotação e alongamento dos pseudobulbos, deixando o substrato quase secar antes da próxima aplicação. Após a maturação, aumente ligeiramente o intervalo, sem impor seca severa. Evite água parada em bainhas e espatas, especialmente à noite. Raízes claras e firmes indicam saúde; raízes escuras, ocas e substrato com odor azedo indicam retenção excessiva.",
     "suporte": "🥇 Vaso plástico vasado — boa aeração e retenção controlável; opção principal do MACS 1.0.\n🥈 Vaso plástico comum com mistura grossa e drenagem livre — utilizado em pesquisa brasileira com mudas deste híbrido.\n🥉 Vaso de barro — estabilidade e secagem lateral para plantas maiores.\nO ranking é heurístico, não comparação experimental de recipientes.",
-    substrato: ["🥇 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio.","🥈 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso."],
+    substrato: ["🥇 Para vaso plástico vasado: 35% casca de pinus média + 30% casca de macadâmia média + 20% perlita grossa + 15% carvão vegetal médio (proposta horticultural NÃO homologada).", "🥈 Chips de coco grossos preparados + perlita grossa + carvão vegetal médio + casca de pinus média (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de macadâmia média + argila expandida média + carvão vegetal médio + casca de pinus grossa (alternativa qualitativa sem percentuais homologados)."],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso plástico vasado",
-    "resumo": "MACS 1.0: vaso plástico vasado (80/100) e vaso plástico comum (78/100) são opções próximas; a pesquisa com mudas utilizou vaso plástico, sem comparar recipientes.",
+    "resumo": "MACS 1.1: vaso plástico vasado é a opção principal da ficha; a pesquisa com mudas utilizou vaso plástico, sem comparar recipientes. Pontuações anteriores eram heurísticas, não resultados de ensaio.",
     "metodos": [
         {
             "nome": "Vaso de barro",
@@ -55,7 +55,7 @@ export const cattleyaChocolateDrop = {
             "texto": "A terracota oferece estabilidade e evaporação pelas paredes; o vaso deve ter tamanho proporcional e mistura bem drenante."
         },
         {
-            "nome": "Cachepô de madeira",
+            "nome": "Cachepô de Madeira",
             "asset": "cesto-madeira",
             "estrelas": null,
             "status": "Alternativa",
@@ -81,8 +81,8 @@ export const cattleyaChocolateDrop = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Referência científica para mudas: pinus e carvão 4:3 em volume; a mistura abaixo é alternativa de cultivo para planta estabelecida.",
-    "justificativa": "Estudo brasileiro cultivou mudas do próprio híbrido com pinus e carvão (4:3), mas comparou adubações, não substratos. A mistura ilustrada permanece uma alternativa horticultural.",
-    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de pinus + 30% casca de macadâmia + 20% perlita grossa + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
+    "justificativa": "Estudo brasileiro relatado na ficha cultivou mudas deste híbrido em pinus e carvão (4:3 em volume), porém investigou adubações e não comparou substratos. Portanto não valida a receita visual para plantas estabelecidas. Esta proposta combina pinus médio, macadâmia média, perlita grossa e carvão vegetal médio em 100%, para vaso plástico vasado, com secagem entre regas. As duas outras misturas são alternativas qualitativas distintas e não herdam os percentuais da principal. MACS 1.1: proporções e comparação de suportes não homologadas quantitativamente.",
+    "receitaTexto": "35% casca de pinus média + 30% casca de macadâmia média + 20% perlita grossa + 15% carvão vegetal médio (proposta horticultural não homologada).",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
@@ -92,14 +92,14 @@ export const cattleyaChocolateDrop = {
     "itens": [
         {
             "asset": "casca-pinus",
-            "nome": "Casca de pinus",
+            "nome": "Casca de pinus média",
             "proporcao": "35%",
             "nota": "umidade moderada",
             "finalidade": "Conserva alguma umidade sem fechar a mistura quando usada em granulometria adequada."
         },
         {
             "asset": "macadamia",
-            "nome": "Casca de macadâmia",
+            "nome": "Casca de macadâmia média",
             "proporcao": "30%",
             "nota": "estrutura",
             "finalidade": "Partículas resistentes criam espaços de ar entre as raízes."
@@ -113,175 +113,11 @@ export const cattleyaChocolateDrop = {
         },
         {
             "asset": "carvao-vegetal",
-            "nome": "Carvão vegetal",
+            "nome": "Carvão vegetal médio",
             "proporcao": "15%",
             "nota": "drenagem",
             "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
     "alerta": "Evidência direta: pinus e carvão (4:3 em volume) foram usados em pesquisa com mudas, sem comparação de substratos. A mistura ilustrada de quatro componentes não tem validação específica; observar a secagem.",
-    "notaEvidencia": "MACS 1.0 — primeira passagem documental: Cattlianthe Chocolate Drop, híbrido primário vigoroso bifoliado, raízes epífitas, alta luminosidade e secagem entre regas. Suporte principal plástico vasado 80/100 e plástico comum 78/100 no resumo, notas heurísticas; métodos têm estrelas null, não inferir estrelas. Receita visual 35% pinus + 30% macadâmia + 20% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. DIVERGÊNCIA DOCUMENTAL: nenhuma das três qualitativas coincide integralmente (primeira chips coco + perlita + carvão + pinus, sem macadâmia; segunda pinus + perlita + carvão + chips coco, sem macadâmia; terceira macadâmia + argila expandida + carvão + pinus, sem perlita). Ficha menciona estudo brasileiro com mudas em pinus/carvão 4:3, mas comparação foi de adubações, NÃO de substratos ou recipientes; não extrapolar eficácia à receita de quatro materiais. Validar fonte do estudo, granulometria, secagem e estabilidade; meta até 25 produtores brasileiros específicos não atingida. Percentuais e suportes NÃO HOMOLOGADOS."
-},
-    "errosComuns": "Cultivar à sombra; excesso de nitrogênio; usar vaso grande; manter substrato compactado; enterrar o rizoma; acumular água na bainha floral; abrir ou cortar a espata sem necessidade; replantar fora da emissão de raízes; dividir touceiras pequenas; acreditar que adubo de floração substitui luz.",
-    "dica": "A qualidade da florada depende mais de luz alta, maturação dos pseudobulbos e raízes saudáveis do que de adubação forte. Aclimate gradualmente ao ponto mais claro do orquidário, mantenha as bainhas secas e deixe o substrato quase secar. Isso produz cachos mais compactos, hastes firmes e pigmentação mais intensa.",
-    revisaoCientificaIAR: {
-        "nome": "Cattlianthe Chocolate Drop",
-        "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Cattlianthe Chocolate Drop é daqueles híbridos que fazem jus ao nome: suas flores cerosas aparecem em cachos vistosos e podem variar do alaranjado e vermelho queimado a tons vinho e chocolate, criando um efeito especialmente intenso sob boa luminosidade. A planta é vigorosa, de crescimento ereto e geralmente bifoliado, formando rapidamente uma touceira robusta quando dispõe de ",
-        "habitatAltitudeClima": "Sem habitat natural · cultivo luminoso e ventilado | Quente a intermediário · alta luz",
-        "distribuicaoGeografica": "Parentais: Brasil + México/América Central",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
-        "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies",
-            "OrchidRoots/RHS"
-        ]
-    },
-    indiceDificuldadeCultivo: {
-        "versao": "IDC 3.2 — selo por facilidade",
-        "escala": "dificuldade",
-        "indice": 32,
-        "classificacao": "Moderada",
-        "cultivoEstrelas": 4,
-        "criterios": {
-            "temperatura": {
-                "notaDificuldade": 2,
-                "peso": 15
-            },
-            "rega": {
-                "notaDificuldade": 2,
-                "peso": 15
-            },
-            "umidade": {
-                "notaDificuldade": 1,
-                "peso": 10
-            },
-            "ventilacao": {
-                "notaDificuldade": 1,
-                "peso": 10
-            },
-            "luminosidade": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "raizesSubstrato": {
-                "notaDificuldade": 1,
-                "peso": 10
-            },
-            "sazonalidade": {
-                "notaDificuldade": 1,
-                "peso": 10
-            },
-            "floracao": {
-                "notaDificuldade": 2,
-                "peso": 20
-            }
-        },
-        "faixas": {
-            "facil": "0–25",
-            "moderada": "26–50",
-            "dificil": "51–89",
-            "extrema": "90–100"
-        }
-    },
-    indiceAdaptacaoRegional: {
-        "versao": "IAR 2.0 — revisão científica",
-        "escala": "compatibilidade regional",
-        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
-        "litoralQuente": {
-            "indice": 97,
-            "estrelas": 5,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 5,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 5,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 3,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 5,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 5,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 5,
-                    "peso": 20
-                }
-            }
-        },
-        "montanhaFrio": {
-            "indice": 63,
-            "estrelas": 4,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 3,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 3,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 3,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 3,
-                    "peso": 20
-                }
-            }
-        }
-    },
-    "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, adapta-se muito bem. Use ventilação constante, alta luminosidade filtrada e substrato grosseiro. Proteja botões e bainhas durante chuvas persistentes.",
-        "montanhaFrio": "Tolera noites frescas, mas deve ser protegida de geadas e de substrato frio e encharcado."
-    },
-    "mesesFloracao": [
-        4,
-        5,
-        6,
-        7,
-        8
-    ],
-    "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
-        "climaFloracao": { "faixa": "quente" }
-    },
-        "avaliacoes": {
-        "cultivo": 4,
-        "floracao": 4,
-        "perfume": 3,
-        "luminosidade": 4,
-        "agua": 3,
-        "raridade": 2
-    }
-};
+    "notaEvidencia": "MACS 1.1 — revisão documental: Cattlianthe Chocolate Drop é híbrido de raízes epífitas, com preferência por luminosidade elevada e secagem entre regas. Vaso plástico vasado como proposta principal, sem ensaio comparativo de suportes; métodos têm estrelas null. Receita visual e textual coincidem: 35% pinus médio + 30% macadâmia média + 20% perlita grossa + 15% carvão vegetal médio = 100%. Duas outras misturas qualitativas distintas: chips coco preparados/perlita/carvão/pinus e macadâmia/argila expandida/carvão/pinus; não são a base quantitativa da principal. Pesquisa brasileira citada na ficha usou pinus e carvão 4:3 com mudas, comparando adubações, NÃO substratos; não extrapolar validação à receita de quatro componentes. Sem homologação quantitativa específica nem consulta individualizada a até 25 produtores brasileiros; percentuais e suportes NÃO HOMOLOGADOS
