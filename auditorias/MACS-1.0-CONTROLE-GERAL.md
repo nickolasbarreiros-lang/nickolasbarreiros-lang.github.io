@@ -1088,3 +1088,11 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - AOS (gênero Aerides), NParks (espécie Aerides odorata), Orchid Digest e St. Augustine Orchid Society respaldam qualitativamente montagem/cesto/recipiente aberto, mas não percentuais nem estrelas. Matriz de 5 critérios com lacunas e sensibilidade documentada; **sem notas numéricas ou índice heurístico inventados**.
 - Evidência B para possibilidade de cultivo em suportes diversos, D para hierarquia/estrelas e composição/percentuais S2. **Não homologada**. Um produtor brasileiro com espécie registrada; zero com receita específica. JS, fotos, assets, IDC/IAR e V4.9 intactos.
 - Progresso: 2/149 matrizes comparativas registradas; 0/149 homologações por convergência concluídas. Próxima matriz: Epidendrum centropetalum.
+
+
+### MACS 1.1 — Matriz comparativa 003: Epidendrum centropetalum (2026-11-03)
+- Criado `auditorias/MACS-1.1-MATRIZ-003-EPIDENDRUM-CENTROPETALUM.md`, commit `16c08817a7cf1ef50ff227043fed6431126e68a1`.
+- Sistemas separados: placa/tronco com esfagno opcional; cachepô aberto; vaso pequeno de plástico/barro. Evidências específicas de Monaco Nature Encyclopedia (placa/casca média-grossa/carvão), Carlos Fighetti (vaso barro com esfagno), Tropical Orchids Portugal (cachepô com esfagno). Nenhuma comprova estrelas ou percentuais.
+- R0 atual 45/35/20 pinus fino/perlita/esfagno; R1 55/35/10; R2 60% pinus, 20% esfagno, 20% carvão. Hipóteses comparativas, não novas prescrições. **Alerta prioritário:** granulometria fina da ficha versus casca média/grossa indicada por fonte específica; avaliar em conjunto com umidade e tamanho do recipiente.
+- Possibilidade de suportes nível B; estrelas D; composição D; percentuais D; notas da matriz não calculadas por insuficiência de evidências. Nenhuma modificação na ficha JS ou assets.
+- Progresso MACS 1.1: **3/149 matrizes comparativas documentadas**, **0/149 homologações por convergência**. Próxima ficha da lista oficial: Miltonia russelliana.
