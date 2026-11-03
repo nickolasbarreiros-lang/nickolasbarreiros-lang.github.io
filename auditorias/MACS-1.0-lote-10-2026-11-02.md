@@ -10,7 +10,7 @@ Escopo: primeira passagem documental, sem homologação quantitativa. Apenas not
 4. encyclia-gallopavina.js — passagem concluída
 5. stanhopea-guttulata.js — passagem concluída
 6. isabelia-virginalis.js — passagem concluída
-7. huntleya-meleagris.js — pendente
+7. huntleya-meleagris.js — passagem concluída
 8. miltonia-spectabilis-var-moreliana.js — pendente
 9. oncidium-pubes.js — pendente
 10. miltonia-candida.js — pendente
@@ -43,3 +43,8 @@ ECOLOGIA: epífita de hastes descendentes; cesta suspensa com fundo desobstruíd
 ## Passagem 96 — Isabelia virginalis
 
 ECOLOGIA: miniatura rastejante epífita/rupícola, rizoma exposto e bainhas fibrosas preservadas, secagem rápida. SUPORTES: placa/tronco 5 estrelas, cachepô madeira 4, barro e plástico vasado 2; ranking não homologado. MONTAGEM PRINCIPAL: fixação direta em cortiça/madeira sem substrato retentivo, mas não constitui a primeira receita qualitativa do campo substrato. RECEITA VISUAL PARA CESTO RASO: 45% chips coco muito grossos + 35% argila expandida + 20% carvão = 100%, texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz adaptar segunda mistura qualitativa, mas ela contém pinus grosso + brita fina + carvão, sem chips coco nem argila expandida; primeira contém macadâmia grossa + perlita grossa + carvão. Nenhuma coincide integralmente. Validar retenção de 45% chips coco e estabilidade de argila expandida com rizoma exposto. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 9211e42fcfdf36e2d09562693bc1fe94a40f93b0. Próxima ficha Huntleya meleagris.
+
+
+## Passagem 97 — Huntleya meleagris
+
+ECOLOGIA: epífita sem pseudobulbos, requer umidade uniforme com oxigenação; seca prolongada e saturação quente são riscos. SUPORTES: plástico vasado 5 estrelas, barro e cachepô madeira 4, placa/tronco 2; notas não homologadas. RECEITA VISUAL: 35% pinus médio + 35% chips coco + 20% perlita + 10% carvão = 100%, texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz seguir quatro materiais da primeira receita qualitativa, mas esta contém macadâmia + pinus + perlita + fibra coco, sem carvão e com fibra em vez de chips. Segunda receita contém pinus + perlita + argila expandida + esfagno, também distinta. Nenhuma coincide integralmente. Avaliar retenção de 35% chips coco em vaso raso e secagem sem pseudobulbos. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 12013aa6bdc822c1eb5d3868cf7669d8a848fd6e. Próxima ficha Miltonia spectabilis var. moreliana.
