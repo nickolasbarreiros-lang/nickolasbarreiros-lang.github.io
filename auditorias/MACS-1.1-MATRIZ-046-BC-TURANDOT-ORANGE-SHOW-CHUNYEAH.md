@@ -36,3 +36,14 @@ Ambas diferem da receita principal e entre si, sem percentuais no menu. São com
 
 ## Retificação documental — 2026-11-03
 A conferência direta do Missouri Botanical Garden identificou casca de abeto **média** e carvão **horticultural** como materiais originais. A ficha foi corrigida para pinus **média** e carvão horticultural, com nota explícita de que pinus substitui abeto por adaptação. A AOS, na fonte primária https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet, confirma a necessidade de substrato de casca média/grossa e ciclos de secagem para Cattleya, mas **não valida a adaptação 83,3/16,7 para este híbrido**. Conferência documental destas duas fontes encerrada; pesquisa brasileira específica e comprovação experimental permanecem indisponíveis nesta rodada. **Não marcar a matriz como homologação científica experimental concluída.**
+
+## Busca direcionada de produtores brasileiros — atualização de 2026-11-03
+Buscas por combinações do nome do cruzamento (Turandot / Orange Show / Chunyeah / Chunyeh) identificaram **três fornecedores brasileiros distintos** que anunciam o cruzamento ou variante grafada do mesmo: 
+1. Orquidário Ibanez — https://www.orquidarioibanez.com.br/rlc-turandot-x-rth-orange-show-x-rlc-chunyeah — anuncia planta adulta **no vaso**, sem identificar material do vaso nem mistura.
+2. Orquídeas dos Frades — https://www.orquideasdosfrades.com.br/product-page/bc-turandot-x-blc-orange-show-x-blc-chunyeah — anuncia a planta, com envio **raízes nuas**, sem indicar receita de cultivo.
+3. Orquideomania — https://www.orquideomania.com.br/orquidea/cattleya/ — anuncia Cattleya Turandot × Orange Show × Chunyeh; página de categoria, sem composição do substrato.
+**Cobertura verificável desta busca:** 3 fornecedores identificados; 0 receitas quantitativas específicas e 0 comparações experimentais de substratos. Não inferir o substrato usado pelo produtor a partir de “no vaso” ou “raízes nuas”. As variações de nomenclatura comercial não provam identidade genética de cada exemplar.
+
+**Confronto técnico adicional:** Clemson University Extension, https://hgic.clemson.edu/repotting-your-orchid/, descreve misturas de casca com carvão e perlita, incluindo casca de pinus ou abeto, e destaca aeração e drenagem. É referência de cultivo geral, não valida a formulação 83,3/16,7 para este cruzamento.
+
+**Parecer após buscas:** a recomendação quantitativa da ficha é uma adaptação técnica coerente e rastreada a fonte genérica, **não uma homologação específica**. Não existem, nas fontes aqui localizadas, dados suficientes para alegar que os 25 produtores foram consultados ou que os percentuais foram experimentalmente comprovados. Esta lacuna de evidência é um limite real da homologação, não um resultado positivo. Não avançar de matriz apenas por concluir a redação documental.
