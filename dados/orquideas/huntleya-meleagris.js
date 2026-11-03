@@ -30,7 +30,7 @@ export const huntleyaMeleagris = {
     adubacao: "🌿 Orgânica: bokashi somente em quantidade mínima e em porta-adubo, sem contato com raízes ou coroa.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 7–10 dias durante o crescimento ativo.\n🧪 Liberação lenta: usar com muita cautela; adubação líquida diluída oferece maior controle.\n💦 Lavagem: mensalmente, lave o substrato com água de baixa salinidade para reduzir resíduos minerais.",
     rega: "Mantenha o substrato uniformemente úmido, mas nunca saturado. Como não possui pseudobulbos, a espécie sofre com secas prolongadas; ao mesmo tempo, as raízes também deterioram em meio quente e sem oxigênio. Regue pela manhã e garanta que água acumulada entre as folhas seque antes da noite.",
     suporte: "🥇 Vaso plástico raso, justo e bastante perfurado.\n🥈 Vaso de barro perfurado, onde a umidade ambiental seja alta.\n🥉 Cesto pequeno revestido internamente com esfagno solto, em local muito ventilado.",
-    substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
+    substrato: ["🥇 Receita visual provisória para vaso raso e bastante perfurado: pinus médio 35% + chips de coco 35% + perlita grossa 20% + carvão vegetal 10% (100%; não homologada).","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
     formasCultivo: {
         perfilVisual: "epifita-sem-pseudobulbos-folhas-leque",
         destaque: "Vaso plástico vasado",
@@ -46,7 +46,7 @@ export const huntleyaMeleagris = {
         titulo: "Substrato ideal",
         contexto: "Mistura para vaso raso e bastante perfurado",
         resumo: "Mistura aberta que retém umidade moderada e fornece oxigênio continuamente às raízes delicadas.",
-        justificativa: "Os quatro materiais seguem a primeira mistura qualitativa já registrada na ficha. Percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        justificativa: "A receita visual para vaso raso e bastante perfurado combina pinus médio, chips de coco, perlita grossa e carvão vegetal. A primeira receita qualitativa antiga contém macadâmia e pequena fração de fibra de coco, sem carvão e sem chips; a segunda contém argila expandida e esfagno, também ausentes na receita visual. Nenhuma corresponde integralmente. A composição visual foi incluída como primeira alternativa textual provisória, preservando as duas misturas anteriores. Como Huntleya meleagris não possui pseudobulbos, a retenção moderada dos chips de coco pode ajudar a evitar secagem completa, mas 35% não está validado e precisa ser confrontado com a velocidade de secagem do vaso, temperatura e ventilação. O objetivo é umidade estável com oxigenação, não saturação. Percentuais não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de pinus média + 35% chips de coco + 20% perlita grossa + 10% carvão vegetal.",
         perfil: ["Sem pseudobulbos", "Folhas em leque", "Alta umidade", "Raízes sensíveis", "Sombra clara"],
         comportamento: [
