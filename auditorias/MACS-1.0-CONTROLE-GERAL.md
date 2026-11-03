@@ -200,3 +200,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 02:** AOS (https://www.aos.org/explore/mediocalcar) descreve mistura epífita com retenção e raízes sem secagem completa; OrchidWeb (https://www.orchidweb.com/p/mediocalcar-decoratum) registra cultivo em esfagno. Nenhuma fonte demonstra os percentuais; atenção à temperatura radicular em clima quente e à oxigenação em mistura úmida. Nenhuma nova receita percentual de produtores brasileiros verificada nesta passagem.
 - **Limites:** percentuais, itens visuais, estrelas, fotos, assets, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Fechamento do segundo grupo:** 20/149 checagens na segunda passagem; 18 fichas com correções editoriais/taxonômicas efetivas (003–020); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 021, conforme índice oficial e relatório MACS lote 03.
+
+## Correção na mesma passagem — registro 021 (2026-11-03)
+- **Ficha 021 — Cattleya schilleriana** (`dados/orquideas/cattleya-schilleriana.js`): receita visual com 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%.
+- **Correções efetivas:** a receita visual não constava integralmente das alternativas textuais; adicionada como primeira opção provisória, preservadas as três anteriores. Corrigida a justificativa visual que afirmava indevidamente que essa mesma mistura já era a preferida descrita na ficha. Commit `02dc599f117a88303df1e795d45424a755038eed`.
+- **Limites:** nenhum percentual, item visual, foto, asset, índice IDC/IAR, estrela ou layout alterado; homologação científica quantitativa pendente. A triagem inicial do lote 03 que acusou falta de `substratoVisual` foi retificada como falso negativo: o componente já existia.
+- **Progresso:** 21/149 checagens; 19 fichas com correções efetivas (003–021); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 022 — Bulbophyllum rothschildianum.
