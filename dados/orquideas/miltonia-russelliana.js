@@ -41,7 +41,7 @@ export const miltoniaRusselliana = {
         "🥈 Vaso de barro ou plástico muito perfurado, proporcional ao tamanho da touceira.",
         "🥉 Montagem em madeira ou cortiça em ambientes com umidade alta e regas frequentes."
     ],
-    substrato: ["🥇 Casca de macadâmia triturada média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
+    substrato: ["🥇 Para Cachepô de Madeira bem vazado: 35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa compatível com o cachepô + 10% carvão vegetal médio (proposta NÃO homologada).", "🥈 Casca de macadâmia média + casca de pinus média + perlita grossa compatível com o cachepô + pequena fração de fibra de coco grossa preparada (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de pinus média + perlita grossa compatível com o cachepô + argila expandida pequena + pequena fração de esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados)."],
     formasCultivo: {
         perfilVisual: "miltonia-epifita-touceira-pseudobulbos",
         destaque: "Cachepô de Madeira",
@@ -57,8 +57,8 @@ export const miltoniaRusselliana = {
         titulo: "Substrato ideal",
         contexto: "Mistura aerada para cachepô de madeira",
         resumo: "Equilíbrio entre umidade moderada e alta ventilação, favorecendo pseudobulbos vigorosos sem saturação prolongada.",
-        justificativa: "A mistura provisória para cachepô de madeira combina pinus médio, chips de coco, perlita grossa e carvão vegetal, visando suporte, umidade moderada e aeração. Ela não reproduz integralmente nenhuma das duas alternativas qualitativas listadas na ficha. Granulometria e percentuais ainda precisam de validação pela MACS 1.0.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        justificativa: "Miltonia russelliana é epífita simpodial de touceira compacta, beneficiada por umidade regular e raízes bem ventiladas. Para cachepô de madeira vazado, a receita visual propõe pinus médio, chips de coco médios preparados, perlita grossa compatível com o recipiente e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não fundamentam os percentuais visuais. Evitar secagem prolongada durante crescimento, substrato saturado e divisões pequenas. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa compatível com o cachepô + 10% carvão vegetal médio (proposta não homologada).",
         perfil: ["Epífita simpodial", "Touceira compacta", "Umidade regular", "Raízes arejadas", "Hastes arqueadas"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -68,12 +68,12 @@ export const miltoniaRusselliana = {
         ],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece suporte às raízes com umidade moderada." },
-            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a regular a disponibilidade hídrica entre regas." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e circulação de ar." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para a estrutura aberta da mistura." }
+            { asset: "chips-coco", nome: "Chips de coco médios preparados", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a regular a disponibilidade hídrica entre regas." },
+            { asset: "perlita", nome: "Perlita grossa compatível com o cachepô", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e circulação de ar." },
+            { asset: "carvao", nome: "Carvão vegetal médio", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para a estrutura aberta da mistura." }
         ],
         alerta: "Evitar sombra profunda, vaso grande, substrato constantemente encharcado, secagem prolongada durante crescimento e divisão em porções pequenas. Preservar ventilação mesmo com umidade elevada.",
-        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+        notaEvidencia: "MACS 1.1 — revisão documental: Miltonia russelliana, epífita simpodial de touceira compacta e hastes arqueadas; umidade regular, ventilação e preservação de pseudobulbos saudáveis são importantes. Cachepô de Madeira vazado é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 35% pinus médio + 30% chips de coco médios preparados + 25% perlita grossa compatível com cachepô + 10% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: macadâmia/pinus/perlita/pequena fração de fibra de coco grossa preparada e pinus/perlita/argila expandida pequena/pouco esfagno de fibra longa solto. Elas não fundamentam os percentuais visuais. Monitorar retenção de chips de coco, secagem e ventilação em clima quente. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
         "Cultivar em sombra profunda",
