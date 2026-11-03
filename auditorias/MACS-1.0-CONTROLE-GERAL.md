@@ -315,3 +315,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência específica já registrada na ficha:** Schnitzer et al. (2010), Acta Scientiarum. Agronomy, DOI https://doi.org/10.4025/actasciagron.v32i1.714, avaliaram materiais e tratamentos para **mudas** de Miltonia clowesii, não a receita visual 35/30/25/10; não extrapolar resultados para plantas adultas nem homologar percentuais. Nota de evidência preservada.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 37/149 checagens; 35 fichas com correções efetivas (003–037); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 038 — Gomesa recurva.
+
+## Correção na mesma passagem — registro 038 (2026-11-03)
+- **Ficha 038 — Gomesa recurva** (`dados/orquideas/gomesa-recurva.js`): montagem principal em placa/tronco; receita visual para cachepô ou vaso baixo, 40% pinus médio + 30% chips de coco + 20% perlita grossa + 10% carvão vegetal = 100%.
+- **Correções efetivas:** mistura visual ausente das duas alternativas textuais; incluída como primeira opção provisória, preservadas as duas originais. Justificativa corrigida para não atribuir os quatro componentes à primeira mistura anterior. Commit `a176d84e2441c0b4d21edf32e2a085c83437c763`.
+- **Evidência específica já registrada na ficha:** POWO confirma hábito epífito; estudo ecológico de Freitas et al. (UFV, 29º Congresso Brasileiro de Microbiologia) aborda raízes em árvores hospedeiras, mas não testa a mistura 40/30/20/10. Comercialização por Orquidário Santa Bárbara e substrato genérico pinus/carvão não constituem recomendação específica para a espécie. Nota de evidência preservada.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 38/149 checagens; 36 fichas com correções efetivas (003–038); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 039 — Maxillaria subulata.
