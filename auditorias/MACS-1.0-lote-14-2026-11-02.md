@@ -9,7 +9,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 3. maxillaria-brasiliensis.js — passagem concluída
 4. isochilus-linearis.js — passagem concluída
 5. acianthera-sonderiana.js — passagem concluída
-6. acianthera-teres.js — pendente
+6. acianthera-teres.js — passagem concluída
 7. isabelia-pulchella.js — pendente
 8. prosthechea-vespa.js — pendente
 9. stelis-ciliaris.js — pendente
@@ -38,3 +38,8 @@ EPÍFITA/RUPÍCOLA de caules finos sem pseudobulbos; umidade regular sem secagem
 ## Passagem 135 — Acianthera sonderiana
 
 MICROEPÍFITA cespitosa de raízes finas, umidade regular sem abafamento. SUPORTES: placa/tronco 5 estrelas, árvore viva e vaso plástico 4, cachepô madeira 3. RECEITA VISUAL alternativa para vaso: 35% pinus fino/médio + 30% arroz carbonizado + 20% esfagno solto + 15% carvão pequeno = 100%; texto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: quatro alternativas qualitativas não coincidem integralmente: primeira não contém carvão; segunda arroz + perlita + turfa, sem pinus/carvão; terceira chips coco + arroz + esfagno, sem pinus/carvão; quarta pinus + perlita + esfagno, sem arroz/carvão. Justificativa reconhece composição provisória, não alega equivalência. Validar granulometria, umidade e montagem principal versus vaso alternativo. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 626042fabc93bfa849e1be55dfe65e00e1b6312f. Próxima ficha Acianthera teres.
+
+
+## Passagem 136 — Acianthera teres
+
+RUPÍCOLA de rochas expostas; montagem em madeira é adaptação prática. SUPORTES: placa/tronco 5 estrelas, barro e cachepô madeira 4, árvore viva 3. RECEITA VISUAL alternativa PARA VASO: 45% brita fina + 25% carvão + 20% pinus + 10% perlita grossa = 100% em volume; resumo, receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa brita + carvão + perlita (sem pinus); segunda brita + pinus + carvão (sem perlita). Visual combina ambas, sem equivalência integral. Justificativa reconhece caráter provisório e diferença para placa principal. Validar peso e aquecimento dos 45% de brita, granulometria, secagem e contato com raízes. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 6b4148a46ce0d17f9d4616e88550991bf7c4a6dc. Próxima ficha Isabelia pulchella.
