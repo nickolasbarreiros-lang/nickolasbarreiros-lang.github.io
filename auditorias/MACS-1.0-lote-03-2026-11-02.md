@@ -243,3 +243,29 @@ Menegusso et al. (2021), *Vegetative development and flowering of Encyclia hybri
 - Um estudo brasileiro experimental **indireto** para *Encyclia Mineirinha*.
 - **0 percentuais homologados; 0 fichas alteradas**.
 - Prosseguir busca de produtores independentes e estudos diretos, sem contar artigo sobre híbrido distinto como ensaio de *Encyclia Mineirinha*.
+
+## Nona passagem — revisão direta de Dendrobium tenellum e Encyclia Mineirinha
+
+### Dendrobium tenellum — divergência de amplitude térmica e correção editorial efetiva
+
+- **Kew POWO:** nome aceito *Dendrobium tenellum* (Blume) Lindl., nativo de Java, epífita do bioma tropical úmido. https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A628738-1
+- **IOSPE (Jay Pfahl):** ocorrência em florestas montanas entre 1.500 e 2.200 m, cultivo fresco a frio, redução moderada de água e adubo no inverno; não recomenda seca absoluta. https://www.orchidspecies.com/dentennelum.htm
+- **OrchidWeb (produtor especializado internacional):** classifica cultivo **intermediário a quente**, relata êxito em vasos com esfagno neozelandês ou cascas e montado em madeira/cortiça; regar quando o meio estiver começando a secar. https://www.orchidweb.com/p/dendrobium-tenellum
+- **orchid.guru:** cita cultivo em cascas/mistura drenante ou montado e sugere proporção genérica aproximada de 70% orgânicos/30% inorgânicos, mas a página contém números de clima internamente inconsistentes; **não usar seus valores de temperatura, precipitação ou percentuais como comprovação experimental**. https://www.orchid.guru/content/orchids/d/dendrobium/tenellum/
+
+**Achado:** altitude natural não autoriza afirmar que todo cultivo quente é inviável. O produtor especializado descreve cultivo intermediário a quente, em contraste com o IOSPE. É evidência de plasticidade sob condições de cultivo, **não prova de floração confiável em noites quentes permanentes**.
+
+**Alteração implementada em `dados/orquideas/dendrobium-tenellum.js`:** a descrição passou a registrar origem montana e risco de calor noturno, **qualificando** a afirmação anterior de preferência estrita por frio com o relato de cultivo intermediário/quente. **Commit `1fb9c1e9e6ee1e1efa0f3e53abb1fe471b5be187`.** Não foram alterados substrato visual (40% pinus / 25% coco / 25% perlita / 10% carvão), estrelas, índices IDC/IAR, fotos ou assets. Esfagno é alternativa documentada por produtor, não obrigação de substituir a mistura.
+
+### Encyclia Mineirinha — primeira evidência comercial direta sobre recipiente
+
+**Orquidário Wolf:** https://www.orquidariowolf.com.br/produtos/encyclia-mineirinha-xb68w/ — confirma explicitamente cruzamento primário **Encyclia patens × E. oliveirana** e comercializa plantas adultas **em cestinho**, com envio envasado. O anúncio não especifica os componentes do substrato.
+
+**Comparação com a ficha:** `Encyclia ‘Mineirinha’` é corretamente tratada como híbrido primário. A ficha destaca **vaso de barro**, mas o uso de cestinho por um produtor específico demonstra que recipiente aberto também é praticado. **Não é prova de que o vaso de barro seja inferior** e não valida a receita 35% macadâmia / 30% pinus / 20% perlita / 15% carvão. Não alterar método principal ou percentuais sem mais evidência.
+
+### Estado e lacunas
+
+- *D. tenellum*: **1 produtor internacional específico** com relato de substrato, mais Kew/IOSPE; nenhum produtor brasileiro específico encontrado nesta passagem.
+- *Encyclia Mineirinha*: **1 produtor brasileiro específico**, evidência direta de recipiente, **sem receita**.
+- **1 ficha corrigida cientificamente** (*D. tenellum*), sem alterar classificações, fotos ou receitas.
+- **0 homologações de percentuais**. O alvo de até 25 produtores brasileiros por espécie permanece pendente, sem preencher lacunas com fontes de outros táxons.
