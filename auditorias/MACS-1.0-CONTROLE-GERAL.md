@@ -419,3 +419,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 06:** POWO aceita D. lilliputiana; Orquidário Matsuoka indica toco/substrato genérico; Orquídeas Encanto e Paixão recomenda montagem com pouco esfagno ou vaso raso com pinus, carvão e esfagno em partes iguais, sem perlita. Receita visual 45/35/20 sem ensaio específico; apenas duas fontes brasileiras específicas, meta de 25 não atingida.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 52/149 checagens; 50 fichas com correções efetivas (003–052); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 053 — Leptotes unicolor.
+
+## Correção na mesma passagem — registro 053 (2026-11-03)
+- **Ficha 053 — Leptotes unicolor** (`dados/orquideas/leptotes-unicolor.js`): cultivo principal placa/tronco; receita visual alternativa para cestinho/vaso mínimo 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão vegetal = 100%.
+- **Correções efetivas:** receita visual ausente das três alternativas textuais; incluída como primeira opção provisória, preservadas as três anteriores. Justificativa corrigida para não atribuir a receita visual à primeira alternativa antiga. Commit `73a06747a4e36cc159991333b12c67248db46a7c`.
+- **Evidência prévia no lote 06:** POWO aceita L. unicolor; AOS recomenda montagem para o gênero; Orquidário 4 Estações, Matsuoka e Hang oferecem orientações específicas sobre placa/toco e drenagem, sem receita percentual. Meta de 25 produtores com receitas específicas não atingida. Composição 35/30/20/15 sem homologação quantitativa.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 53/149 checagens; 51 fichas com correções efetivas (003–053); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 054 — Cattleya aclandiae tipo.
