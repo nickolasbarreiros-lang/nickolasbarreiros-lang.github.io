@@ -36,7 +36,7 @@ export const laeliaGloriosa = {
     adubacao: "🌿 Orgânica: bokashi em porta-adubo durante a brotação.\n💧 Foliar: NPK equilibrado em baixa concentração a cada 7–15 dias durante o crescimento ativo.\n🧪 Liberação lenta: dose baixa a moderada conforme o tamanho do recipiente, sem contato direto com raízes novas. Após a maturação, reduza a frequência e o excesso de nitrogênio, sem necessidade de suspender toda nutrição. Periodicamente lave o substrato com água pura.",
     rega: "Durante a emissão de brotos e raízes novas, regue abundantemente e permita secagem rápida antes da próxima irrigação. Após a maturação dos pseudobulbos, aumente moderadamente o intervalo, especialmente em períodos frios ou nublados, sem causar enrugamento severo.",
     suporte: "🥇 Cesto grande e robusto de madeira, firmemente suspenso ou fixado.\n🥈 Vaso de barro pesado, largo e muito furado.\n🥉 Fixação definitiva em tronco de árvore, apenas onde não haja geadas e seja possível regar durante o estabelecimento.",
-    substrato: ["🥇 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥈 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","🥉 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
+    substrato: ["🥇 Para cachepô grande e robusto: casca de macadâmia média 35% + casca de pinus média 30% + perlita grossa 20% + carvão vegetal 15% (mistura visual provisória, não homologada).","🥈 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥉 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","Alternativa adicional: chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
     formasCultivo: {
         perfilVisual: "epifita-grande-pseudobulbos-robustos",
         destaque: "Cachepô de Madeira",
@@ -52,7 +52,7 @@ export const laeliaGloriosa = {
         titulo: "Substrato ideal",
         contexto: "Mistura grossa para cachepô robusto e muito ventilado",
         resumo: "Partículas médias e grossas com aeração elevada, boa sustentação e secagem perceptível entre regas.",
-        justificativa: "Os quatro componentes seguem a primeira mistura qualitativa já registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual para cachepô grande e robusto combina macadâmia média, pinus médio, perlita grossa e carvão vegetal. A primeira mistura qualitativa antiga contém pinus, perlita, carvão e chips de coco, sem macadâmia; a segunda contém macadâmia, argila expandida, carvão e pinus, sem perlita. Nenhuma reproduz integralmente a composição visual. A fórmula foi incluída como primeira alternativa para recipiente, preservando as três anteriores. A estabilidade estrutural do cachepô é importante para o porte adulto, mas não valida os percentuais, que permanecem não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Epífita de grande porte", "Pseudobulbos robustos", "Rizoma expansivo", "Alta luminosidade", "Raízes ventiladas"],
         comportamento: [
