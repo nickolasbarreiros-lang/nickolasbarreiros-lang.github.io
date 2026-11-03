@@ -343,3 +343,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 05:** RHS recomenda mistura aberta de casca com perlita/esfagno/coco; AOS indica casca e ventilação para este grex em clima quente; cultivador brasileiro Orquídeas no Apê cita pinus, carvão e fibra de coco. Não homologam percentuais 40/25/25/10.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 41/149 checagens; 39 fichas com correções efetivas (003–041); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 042 — Brassavola perrinii.
+
+## Correção na mesma passagem — registro 042 (2026-11-03)
+- **Ficha 042 — Brassavola perrinii (sinônimo de B. tuberculata segundo POWO)** (`dados/orquideas/brassavola-perrini.js`): cultivo principal placa/tronco; receita visual para vaso/cachepô 35% macadâmia grossa + 25% carvão grosso + 20% pinus grosso + 20% brita pequena/média = 100%.
+- **Correção efetiva:** mistura visual ausente das três alternativas textuais; incluída como primeira opção provisória, preservadas as três anteriores. Justificativa já descrevia corretamente os ingredientes e foi preservada. Commit `01a0e398635db8cbc4fed2d42854f72dda621e9b`.
+- **Evidência prévia no lote 05:** POWO considera B. perrinii sinônimo de B. tuberculata; AOS apoia montagem e secagem entre regas. Orquivitro cita pinus/placa; Orquidário Oriental recomenda mistura com 50–60% esfagno, divergente da fórmula visual. Nenhuma fonte homologa os percentuais 35/25/20/20.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 42/149 checagens; 40 fichas com correções efetivas (003–042); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 043 — Ornithophora radicans (Gomesa radicans).
