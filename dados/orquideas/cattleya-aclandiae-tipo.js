@@ -37,7 +37,7 @@ export const cattleyaAclandiaeTipo = {
     adubacao: "🌿 Orgânica: Bokashi é opcional e deve ser mínimo, preferencialmente em porta-adubo e longe das raízes.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose a cada 7 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: dispensável em montagem; em pequeno cesto use pouquíssimos grânulos. Fórmulas extremamente fosfatadas não são necessárias para induzir floração.",
     rega: "Durante crescimento ativo, regue generosamente e permita secagem muito rápida, com forte circulação de ar. Plantas montadas podem exigir regas frequentes no verão quente. No período de menor atividade, aumente os intervalos e reproduza uma estação relativamente mais seca, mas não deixe pseudobulbos desidratarem severamente. A regra é água abundante quando ativa e secagem rápida sempre.",
     suporte: "🥇 Cachepô/cesto de madeira pequeno, raso e muito aberto, com raízes ventiladas e regas monitoradas.\n🥈 Placa de cortiça natural ou galho de casca rugosa, especialmente com regas frequentes.\n🥉 Árvore viva de casca rugosa, em posição luminosa e ventilada.",
-    substrato: ["🥇 Pinus grosso + brita fina + carvão vegetal.","🥈 Chips de coco muito grossos + argila expandida + carvão vegetal."],
+    substrato: ["🥇 Alternativa para vaso muito perfurado: casca de macadâmia + perlita grossa + carvão vegetal (mistura visual provisória, não homologada).","🥈 Pinus grosso + brita fina + carvão vegetal.","🥉 Chips de coco muito grossos + argila expandida + carvão vegetal."],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Cachepô de madeira",
