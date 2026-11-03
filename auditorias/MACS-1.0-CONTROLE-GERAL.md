@@ -696,3 +696,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Justificativa corrigida: primeira receita antiga contém fibra de coco grossa e carvão, sem chips de coco/esfagno; segunda contém macadâmia e chips, sem pinus. Nenhuma correspondia integralmente. Reforçada necessidade de cesta com fundo aberto e mistura solta, sem obstruir hastes descendentes. Commit ficha: d3764195e41f528d1ee725144530387510a7017d.
 - Cesta suspensa, suportes/estrelas, fotos/assets, IDC/IAR e layout preservados. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
 - Progresso: 95/149 checagens; 93 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 096 — Isabelia virginalis.
+
+## Registro 096 — Isabelia virginalis (2026-11-03)
+- Receita visual/`receitaTexto` mantidos para cesto muito raso: 45% chips de coco muito grossos + 35% argila expandida + 20% carvão vegetal = 100%; três itens concordavam. Fórmula visual adicionada como primeira alternativa textual; duas receitas qualitativas antigas preservadas.
+- Corrigida justificativa falsa: receita visual não adapta a segunda alternativa; as duas receitas antigas (macadâmia + perlita + carvão; pinus + brita + carvão) não incluem chips de coco nem argila expandida. Explicitada separação: montagem principal em cortiça/madeira sem substrato volumétrico; fórmula apenas para cesto muito raso. Ressalva de validar retenção dos chips e estabilidade da argila sem cobrir rizoma exposto.
+- Commit ficha: 40f3256e9071e7cd1acbe4e4b00e32bfe31b3be5. Suportes/estrelas, fotos/assets, IDC/IAR e layout preservados. Percentuais e estrelas NÃO HOMOLOGADOS; meta 25 produtores específicos não atingida.
+- Progresso: 96/149 checagens; 94 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 097 — Huntleya meleagris.
