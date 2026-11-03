@@ -40,7 +40,7 @@ export const coelogyneFimbriata = {
     "adubacao": "🌿 Orgânica: bokashi leve em sachê durante brotação ativa, longe do rizoma.\n💧 Mineral/Foliar: NPK equilibrado diluído a cada 10–15 dias enquanto houver crescimento.\n🌱 Colônia em expansão: mantenha nutrição suave e contínua para formar novos pseudobulbos.\n🍂 Período frio: reduza a frequência, mas não suspenda rigidamente se houver atividade.\n🧪 Liberação lenta: pequena dose de Osmocote em cestos ou vasos rasos.\n🚿 Lavagem: enxágue periodicamente para evitar sais nas raízes finas.",
     "rega": "Durante crescimento ativo, mantenha o suporte ou substrato levemente úmido, deixando apenas a superfície secar. Em placas, regas mais frequentes podem ser necessárias. No inverno, reduza moderadamente conforme a evaporação, sem impor seca total. O rizoma e as raízes finas não toleram desidratação prolongada nem água estagnada.",
     "suporte": "🥇 Placa larga de cortiça ou madeira dura — acompanha o hábito rastejante e permite expansão lateral.\n🥈 Cestinho raso de madeira — deixa o rizoma ultrapassar as bordas livremente.\n🥉 Vaso largo e baixo — oferece superfície sem excesso de profundidade.\nPriorize largura e durabilidade; o suporte deve permitir crescimento por vários anos.",
-    "substrato": ["🥇 Pinus médio + chips de coco + perlita grossa + carvão vegetal miúdo.","🥈 Esfagno de fibra longa solto + perlita grossa + casca de pinus média.","🥉 Casca de macadâmia média + fibra de coco grossa + perlita grossa + pequena fração de esfagno solto."],
+    "substrato": ["🥇 Para cesto ou recipiente raso: chips de coco médios 35% + casca de pinus média 30% + perlita grossa 25% + esfagno picado e solto 10% (mistura visual provisória, não homologada).","🥈 Pinus médio + chips de coco + perlita grossa + carvão vegetal miúdo.","🥉 Esfagno de fibra longa solto + perlita grossa + casca de pinus média.","Alternativa adicional: casca de macadâmia média + fibra de coco grossa + perlita grossa + pequena fração de esfagno solto."],
     "formasCultivo": {
         "perfilVisual": "coelogyne",
         "destaque": "Placa / tronco",
@@ -56,7 +56,7 @@ export const coelogyneFimbriata = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cesto ou recipiente raso; placa requer apenas fixação leve",
         "resumo": "Mistura arejada que conserva umidade entre regas sem restringir a expansão horizontal do rizoma.",
-        "justificativa": "A formulação reúne os quatro componentes da primeira receita já indicada nesta ficha. Os percentuais são uma proposta técnica de apresentação, não uma homologação MACS 1.0.",
+        "justificativa": "A receita visual para cesto ou recipiente raso combina chips de coco médios, pinus médio, perlita grossa e esfagno picado e solto. A formulação exata foi incluída como primeira alternativa textual; as três misturas anteriores foram preservadas. Não aplicar a mistura volumétrica sobre placa ou tronco, que requer apenas fixação leve. Os percentuais são uma proposta horticultural, não uma homologação MACS 1.0.",
         "receitaTexto": "35% chips de coco médios + 30% casca de pinus média + 25% perlita grossa + 10% esfagno picado e solto.",
         "perfil": ["Rizoma rastejante", "Expansão horizontal", "Raízes epífitas", "Umidade frequente", "Aeração alta"],
         "comportamento": [
