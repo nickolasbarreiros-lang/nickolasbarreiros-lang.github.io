@@ -40,7 +40,7 @@ export const dendrobiumSpectabile = {
         "🥈 Vaso de barro pesado e muito perfurado, oferecendo estabilidade às hastes.",
         "🥉 Vaso plástico firme e perfurado com substrato grosso, evitando retenção excessiva."
     ],
-    substrato: ["🥇 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.","🥈 Pinus grosso + macadâmia grossa + perlita grossa.","🥉 Casca de pinus grossa + carvão vegetal + brita fina."],
+    substrato: ["🥇 Casca de macadâmia grossa + pinus grosso + perlita grossa + carvão vegetal (mistura provisória do substrato visual).","🥈 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.","🥉 Pinus grosso + macadâmia grossa + perlita grossa.","⭐ Casca de pinus grossa + carvão vegetal + brita fina."],
     formasCultivo: {
         perfilVisual: "dendrobium-epifita-tropical",
         destaque: "Cachepô de Madeira",
@@ -56,7 +56,7 @@ export const dendrobiumSpectabile = {
         titulo: "Substrato ideal",
         contexto: "Proposta para cachepô ou vaso robusto e muito drenante",
         resumo: "Mistura grossa de alta aeração, com retenção moderada e boa secagem entre regas.",
-        justificativa: "Os quatro componentes seguem a primeira receita qualitativa já indicada nesta ficha. Os percentuais são uma proposta horticultural, ainda sem homologação MACS 1.0.",
+        justificativa: "A mistura provisória para cachepô ou vaso robusto combina casca de macadâmia grossa, pinus grosso, perlita grossa e carvão vegetal, favorecendo suporte, aeração e drenagem. Ela difere da primeira alternativa qualitativa anterior, que incluía chips de coco e argila expandida. Os percentuais são uma proposta horticultural, ainda sem homologação MACS 1.0.",
         receitaTexto: "35% casca de macadâmia grossa + 30% casca de pinus grossa + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Epífita tropical", "Porte médio a grande", "Raízes aeradas", "Umidade no crescimento", "Sem repouso seco severo"],
         comportamento: [
