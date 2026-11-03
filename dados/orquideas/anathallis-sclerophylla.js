@@ -1,5 +1,5 @@
 // Ficha científica e de cultivo revisada — Anathallis sclerophylla.,
-        notaEvidencia: "MACS 1.1 — revisão documental: Anathallis sclerophylla (nome editorial; Stelis sclerophylla segundo POWO/WFO), epífita de florestas úmidas com raízes finas. Placa / tronco com fina camada de esfagno solto é o cultivo principal; receita visual representa alternativa para vaso pequeno. Receita visual e textual opcional coincidem: 35% pinus fino/médio + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno = 100%. Exatamente duas outras misturas qualitativas: chips de coco pequenos preparados/casca de arroz carbonizada/carvão pequeno e pinus fino-médio/perlita para miniaturas/esfagno solto. Não fundamentam percentuais específicos da espécie. Identificadores de assets casca-pinus, casca-arroz-carbonizada, esfagno e carvao-vegetal presentes na biblioteca; renderização não testada. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
+
 // Nome mantido no Orquidário Digital conforme identificação adotada no catálogo.
 // POWO/WFO atualmente tratam o nome como sinônimo de Stelis sclerophylla.
 
@@ -74,6 +74,28 @@ export const anathallisSclerophylla = {
         "🥈 Chips de coco pequenos preparados + casca de arroz carbonizada + carvão vegetal pequeno (alternativa qualitativa para vaso, sem percentuais homologados).",
         "🥉 Casca de pinus fina/média + perlita adequada a miniaturas + esfagno de fibra longa solto (alternativa qualitativa para vaso, sem percentuais homologados)."
     ],
+    substratoVisual: {
+        titulo: "Substrato ideal",
+        contexto: "Alternativa para vaso pequeno; cultivo principal em placa / tronco",
+        resumo: "Mistura leve para raízes finas, mantendo umidade frequente sem compactação.",
+        justificativa: "A montagem em placa ou tronco com fina camada de esfagno de fibra longa solto permanece preferencial. Quando se usa vaso pequeno e muito ventilado, a mistura proposta combina pinus fino/médio, casca de arroz carbonizada, esfagno solto e carvão pequeno. Os percentuais são uma hipótese horticultural e não foram homologados quantitativamente para a espécie.",
+        receitaTexto: "35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno (proposta não homologada).",
+        perfil: ["Raízes finas", "Umidade frequente", "Alta ventilação", "Vaso pequeno"],
+        comportamento: [
+            { nome: "Retenção", valor: 3, icone: "💧" },
+            { nome: "Aeração", valor: 4, icone: "💨" },
+            { nome: "Secagem", valor: 3, icone: "⚡" },
+            { nome: "Compactação", valor: 1, icone: "🧱" }
+        ],
+        itens: [
+            { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "35%", nota: "estrutura", finalidade: "Mantém espaços de ar entre as raízes." },
+            { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "30%", nota: "porosidade", finalidade: "Contribui para leveza e drenagem." },
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "20%", nota: "umidade", finalidade: "Retém umidade sem compressão." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "15%", nota: "aeração", finalidade: "Complementa a estrutura aberta." }
+        ],
+        alerta: "Evitar esfagno comprimido, vaso profundo e ressecamento prolongado; a montagem em placa / tronco exige regas frequentes.",
+        notaEvidencia: "MACS 1.1: receita opcional de vaso, com percentuais inferenciais e NÃO HOMOLOGADOS. Montagem em placa / tronco permanece cultivo principal; sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros."
+    },
     revisaoCientificaIAR: {
         "nome": "Anathallis sclerophylla",
         "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Stelis sclerophylla.",
