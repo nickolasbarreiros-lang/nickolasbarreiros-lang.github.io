@@ -10,7 +10,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 4. gomesa-cornigera.js — passagem concluída
 5. masdevallia-infracta.js — passagem concluída
 6. oncidium-summer-wind.js — passagem concluída
-7. pholidota-chinensis.js — pendente
+7. pholidota-chinensis.js — passagem concluída
 8. pinalia-elata.js — pendente
 9. stelis-cf-aprica.js — pendente
 
@@ -42,3 +42,8 @@ EPÍFITA de raízes finas sem pseudobulbos, umidade frequente e aeração, sens�
 ## Passagem 146 — Oncidium Summer Wind
 
 HÍBRIDO pseudobulboso de porte grande, hastes longas, demanda ventilação, drenagem e suporte estável. SUPORTES: vaso plástico 5 estrelas, placa/tronco, barro e cachepô madeira 4. RECEITA VISUAL PARA VASO: 35% macadâmia média + 30% pinus médio + 25% carvão médio + 10% arroz carbonizado = 100%; receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: fonte brasileira específica recomenda pinus + carvão em partes iguais, sem validar macadâmia/arroz ou os percentuais visuais; demais alternativas qualitativas também não coincidem integralmente. Validar granulometria, secagem em vaso grande, estabilidade das hastes e efeito da camada de brita/isopor sobre umidade. Três referências brasileiras citadas não equivalem a 25 produtores específicos verificados; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit d48dcfd5df66a5b41d3bd4e0af08717baddc9745. Próxima ficha Pholidota chinensis.
+
+
+## Passagem 147 — Pholidota chinensis
+
+EPÍFITA/LITÓFITA pseudobulbosa, raízes finas a médias, umidade regular e sensibilidade a noites quentes; nome aceito Coelogyne chinensis conforme ficha. SUPORTES: plástico e barro 5 estrelas, cachepô madeira 4, placa/tronco 3. RECEITA VISUAL PARA VASO: 30% macadâmia + 25% pinus + 20% arroz carbonizado + 15% carvão + 10% esfagno solto = 100%; receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: nenhuma das quatro misturas qualitativas coincide integralmente com a visual (primeira sem carvão; segunda sem macadâmia/arroz; terceira arroz + perlita + turfa; quarta macadâmia + coco + carvão). Validar 10% esfagno, granulometria, temperatura/umidade no barro versus plástico e procedência altitudinal. Fontes botânicas não homologam percentuais nem até 25 produtores brasileiros específicos; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit c9f1305ee4604b4cefd1d9787482c62337cba0e1. Próxima ficha Pinalia elata.
