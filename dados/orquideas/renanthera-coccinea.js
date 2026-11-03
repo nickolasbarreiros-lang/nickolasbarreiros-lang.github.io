@@ -39,7 +39,7 @@ export const renantheraCoccinea = {
     "adubacao": "🌿 Orgânica: bokashi em sachê, distante do caule.\n💧 Mineral/Foliar: NPK equilibrado em baixa concentração semanalmente durante crescimento intenso.\n🌱 Raízes aéreas: hidrate antes de adubar.\n🧪 Liberação lenta: moderada em cestos ou vasos muito drenantes.\n🚿 Lavagem: regas abundantes com água pura reduzem sais acumulados nas raízes.",
     "rega": "Em dias quentes, regue abundantemente pela manhã. Plantas em cesto, com muitas raízes expostas, podem precisar de água diária no verão. Reduza apenas quando a evaporação cair. Evite água parada no ápice durante a noite e nunca mantenha as raízes mergulhadas ou em substrato compacto.",
     "suporte": "🥇 Cesto grande e muito vazado com tutor alto — melhor combinação para raízes e porte.\n🥈 Vaso pesado de drenagem ampla + tutor robusto.\n🥉 Estrutura vertical de madeira com raízes praticamente livres.\nPlaneje desde cedo o tamanho adulto e o espaço das hastes florais.",
-    substrato: ["🥇 Pinus muito grosso + argila expandida + carvão vegetal.","🥈 Chips de coco muito grossos + casca de macadâmia grossa + carvão vegetal."],
+    substrato: ["🥇 Para pequena fixação em cesto aberto: casca de macadâmia grossa + carvão vegetal grosso + perlita grossa (mistura-base provisória do substrato visual; manter raízes expostas).","🥈 Pinus muito grosso + argila expandida + carvão vegetal.","🥉 Chips de coco muito grossos + casca de macadâmia grossa + carvão vegetal."],
     formasCultivo: {
         perfilVisual: "renanthera-monopodial-trepadora-raizes-aereas",
         destaque: "Cachepô de Madeira",
@@ -55,7 +55,7 @@ export const renantheraCoccinea = {
         titulo: "Substrato ideal",
         contexto: "Mistura grossa e descontínua para cesto muito aberto",
         resumo: "A espécie prefere raízes amplamente expostas ao ar. Pouco substrato grosso serve à estabilidade, com secagem rápida após regas abundantes.",
-        justificativa: "A receita quantifica os três componentes da primeira mistura qualitativa já registrada na ficha. As porcentagens referem-se apenas ao material solto no cesto, sem preencher todos os espaços entre raízes. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual propõe macadâmia grossa, carvão grosso e perlita grossa, agora também descritos como primeira alternativa textual. As alternativas anteriores usam outros materiais. As porcentagens referem-se somente ao pequeno volume de material solto para fixação em cesto aberto, sem preencher espaços entre raízes. Percentuais estimados e ainda não homologados pela MACS 1.0.",
         receitaTexto: "45% casca de macadâmia grossa + 35% carvão vegetal grosso + 20% perlita grossa.",
         perfil: ["Monopodial trepadora", "Raízes aéreas", "Porte grande", "Alta luminosidade", "Secagem rápida"],
         comportamento: [
