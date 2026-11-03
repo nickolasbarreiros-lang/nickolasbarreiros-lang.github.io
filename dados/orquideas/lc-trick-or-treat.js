@@ -36,7 +36,7 @@ export const lcTrickOrTreat = {
     adubacao: "🌿 Orgânica: bokashi em dose moderada, preferencialmente em sachê e afastado do rizoma, durante brotação e enraizamento.\n💧 Mineral/Foliar: NPK equilibrado em cerca de 1/3 da dose semanalmente ou a cada 10 dias enquanto houver crescimento ativo.\n🌱 Formação dos pseudobulbos: mantenha nutrição regular até a folha endurecer e o pseudobulbo completar o enchimento.\n🌸 Maturação: reduza o nitrogênio depois que o crescimento estiver completo; não é necessário usar doses extremas de fósforo.\n🧪 Liberação lenta: Osmocote em dose moderada apenas em recipientes muito drenantes e sem contato com raízes novas.\n🚿 Faça uma rega abundante apenas com água periodicamente para remover sais.",
     rega: "Durante a emissão de brotos e raízes novas, regue abundantemente e deixe o substrato secar de forma clara antes da próxima irrigação. Na fase de enchimento dos pseudobulbos, evite secas longas que produzam frentes menores. Após a maturação, aumente moderadamente o intervalo. Em períodos frios ou chuvosos, ajuste pela evaporação real e regue preferencialmente pela manhã.",
     suporte: "🥇 Vaso de barro ou plástico muito perfurado.\n🥈 Cachepô de madeira, excelente para raízes vigorosas e touceiras adultas.\n🥉 Cesto amplo, indicado para plantas grandes e com várias frentes.\nUse recipiente proporcional e com espaço para duas ou três brotações futuras.",
-    substrato: ["🥇 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio.","🥈 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso."],
+    substrato: ["🥇 Para vaso bem perfurado: casca de macadâmia média + casca de pinus média + perlita grossa + carvão vegetal (mistura visual provisória, não homologada).","🥈 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio.","🥉 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","Alternativa adicional: casca de macadâmia + argila expandida + carvão vegetal + pinus grosso."],
     formasCultivo: {
         perfilVisual: "hibrido-cattlianthe-vigoroso-multifloral",
         destaque: "Vaso de Barro",
@@ -52,7 +52,7 @@ export const lcTrickOrTreat = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso bem perfurado",
         resumo: "Partículas médias e grossas, com apoio às raízes vigorosas e secagem perceptível entre regas.",
-        justificativa: "A receita quantifica os quatro materiais da primeira mistura qualitativa já registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual para vaso bem perfurado combina casca de macadâmia média, pinus médio, perlita grossa e carvão vegetal, agora registrados na primeira alternativa textual. As três misturas anteriores diferem nos materiais e foram preservadas. Percentuais estimados e ainda não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Híbrido vigoroso", "Touceira expansiva", "Raízes ativas", "Alta luz filtrada", "Secagem entre regas"],
         comportamento: [
