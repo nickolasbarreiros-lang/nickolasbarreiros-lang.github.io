@@ -9,7 +9,7 @@ Escopo: próximas dez fichas na ordem de imports de dados/orquideas/index.js ap�
 5. miltonia-regnellii.js — passagem concluída
 6. neobenthamia-gracilis.js — passagem concluída
 7. aspasia-lunata.js — passagem concluída
-8. cyrtopodium-saintlegerianum.js — pendente
+8. cyrtopodium-saintlegerianum.js — passagem concluída
 9. cattleya-warneri.js — pendente
 10. bulbophyllum-elassonotum.js — pendente
 
@@ -46,3 +46,8 @@ ECOLOGIA: terrestre/rupícola de grande porte e caules altos, estabilidade do va
 ## Passagem 77 — Aspasia lunata
 
 ESPÉCIE: epífita simpodial, florestas úmidas. RECEITA VISUAL: 30% macadâmia + 25% pinus + 20% arroz carbonizado + 15% carvão + 10% esfagno = 100%; receitaTexto e itens concordam. ALERTA DE CÓDIGO: propriedade `substrato` definida duas vezes; a segunda substitui a primeira em tempo de execução, deixando inacessível a primeira lista. A receita visual combina materiais, mas não coincide integralmente com nenhuma das quatro alternativas da segunda lista. SUPORTES: plástico 5 estrelas, cachepô e barro 4, placa 3, sem ensaio comparativo. Não foram demonstradas receitas quantitativas de até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia a substratoVisual (antes ausente); demais campos preservados. Commit 5c7bb87bded317858b4b2f137339c7281ded0332. Próxima ficha Cyrtopodium saintlegerianum.
+
+
+## Passagem 78 — Cyrtopodium saintlegerianum
+
+ECOLOGIA: epífita robusta de ambientes sazonais, com raízes aderentes e repouso hídrico relativo após perda das folhas; tronco e cesto ventilado coerentes com hábito descrito, sem comparação experimental. SUPORTES: placa/tronco e cachepô 5 estrelas, barro 4, plástico vasado 3. RECEITA VISUAL (vaso/cachepô): 35% macadâmia grossa + 30% pinus grosso + 20% perlita + 15% carvão = 100%; cultivo em tronco dispensa mistura volumétrica. DIVERGÊNCIA INTERNA: primeira receita qualitativa tem apenas pinus + carvão + brita fina, enquanto justificativa visual afirma quantificar seus quatro componentes; macadâmia/perlita entram e brita sai. Corrigir somente após pesquisa técnica, sem alterar nesta passagem. Fontes botânicas preexistentes não validam receita; meta até 25 produtores brasileiros não atingida, estrelas e percentuais NÃO HOMOLOGADOS. Apenas notaEvidencia alterada; demais campos preservados. Commit e0a891b4e698c3b0c690a515901fd905f6c92488. Próxima ficha Cattleya warneri.
