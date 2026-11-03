@@ -56,11 +56,7 @@ export const aciantheraSonderiana = {
         "🥈 Vaso pequeno e muito ventilado com esfagno solto.",
         "🥉 Cachepô pequeno com mistura fina, leve e altamente aerada."
     ],
-    substrato: [
-        "🥇 Montagem principal em placa/tronco com raízes expostas e mínima lâmina de esfagno de fibra longa solto, sem massa compacta. Para vaso pequeno e perfurado: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno (proposta NÃO homologada).",
-        "🥈 Casca de pinus fina + casca de arroz carbonizada + esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados).",
-        "🥉 Chips de coco pequenos preparados + casca de arroz carbonizada + esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados)."
-    ],
+    substrato: ["Casca de pinus fina + casca de arroz carbonizada + esfagno de fibra longa solto","Chips de coco pequenos preparados + casca de arroz carbonizada + esfagno de fibra longa solto"],
     formasCultivo: {
         perfilVisual: "micro-pleurothalidina",
         destaque: "Placa / tronco",
