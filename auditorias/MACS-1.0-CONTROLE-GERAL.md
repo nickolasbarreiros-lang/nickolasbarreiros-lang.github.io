@@ -755,3 +755,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Nenhuma alteração em alternativas, justificativa visual, composição, suportes/estrelas, fotos/assets, IDC/IAR ou layout. Montagem principal em placa com esfagno mínimo; receita apenas para microvaso. Granulometria, contato hídrico, secagem e sais permanecem pontos de validação. Commit ficha: 78001343c10e368294556936b5bd6ed575c2b29c.
 - Percentuais e estrelas NÃO HOMOLOGADOS; meta até 25 produtores brasileiros específicos não atingida.
 - Progresso: 105/149 checagens; 102 fichas com correções efetivas; 1 ficha sem necessidade de correção; 0 homologações quantitativas comprovadas. Próxima ficha: 106 — Ludisia discolor.
+
+## Registro 106 — Ludisia discolor (2026-11-03)
+- Receita visual/`receitaTexto`/itens conferidos: 40% fibra de coco + 25% casca de arroz carbonizada + 20% perlita + 15% pinus fino = 100%; componentes concordam. Conforme escopo do manifesto, alterada somente `notaEvidencia` para explicitar divergência: primeira qualitativa (chips coco + pinus + perlita fina/média + vermiculita) difere da visual; segunda (fibra coco + perlita + esfagno + arroz carbonizado) também difere por conter esfagno e não pinus.
+- Justificativa, alternativas, composição, suportes/estrelas, fotos/assets, IDC/IAR e layout preservados. Terrestre, rizoma rastejante, vaso largo e raso; avaliar retenção/oxigenação, ausência de componente humoso e granulometria da perlita. Commit ficha: 1b55f97bda739269831beac15b49876a5a76db0f.
+- Percentuais e estrelas NÃO HOMOLOGADOS; meta até 25 produtores brasileiros específicos não atingida.
+- Progresso: 106/149 checagens; 102 fichas com correções efetivas; 1 ficha sem necessidade de correção; 0 homologações quantitativas comprovadas. Próxima ficha: 107 — Bulbophyllum ambrosia.
