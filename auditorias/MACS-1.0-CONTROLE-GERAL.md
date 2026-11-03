@@ -329,3 +329,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência já registrada na ficha:** POWO confirma hábito epífito, mas fontes gerais de Maxillaria não homologam macadâmia ou os percentuais para M. subulata. Nota de evidência preservada. Não inferir validação a partir de mistura visual semelhante à de outra espécie.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 39/149 checagens; 37 fichas com correções efetivas (003–039); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 040 — Maxillaria tenuifolia.
+
+## Correção na mesma passagem — registro 040 (2026-11-03)
+- **Ficha 040 — Maxillaria tenuifolia** (`dados/orquideas/maxillaria-tenuifolia.js`): cultivo principal em vaso de barro com tutor vertical para rizoma ascendente; receita visual 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa = 100%.
+- **Correções efetivas:** receita visual não correspondia integralmente às três alternativas textuais; incluída como primeira opção provisória, preservadas as três anteriores. Justificativa corrigida: atribuição indevida dos quatro ingredientes à primeira mistura original; explicitada particularidade do rizoma escandente. Commit `ca5c5084a284f502fd06c52970cfcb61902af3ca`.
+- **Evidência já registrada na ficha:** AOS recomenda casca/coco e cesto ou placa, RHS mistura aberta de casca; Orquidário Mogi Mirim e Orquidário Maripá citam alternativas com pinus, carvão, esfagno e madeira, sem percentuais. Nenhuma fonte citada valida a mistura 35/30/25/10, nem justifica copiar o manejo de Maxillaria subulata. Nota de evidência preservada.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 40/149 checagens; 38 fichas com correções efetivas (003–040); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 041 — consultar lote 05 para identificar arquivo e espécie.
