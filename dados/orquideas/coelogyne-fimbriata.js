@@ -40,7 +40,7 @@ export const coelogyneFimbriata = {
     "adubacao": "🌿 Orgânica: bokashi leve em sachê durante brotação ativa, longe do rizoma.\n💧 Mineral/Foliar: NPK equilibrado diluído a cada 10–15 dias enquanto houver crescimento.\n🌱 Colônia em expansão: mantenha nutrição suave e contínua para formar novos pseudobulbos.\n🍂 Período frio: reduza a frequência, mas não suspenda rigidamente se houver atividade.\n🧪 Liberação lenta: pequena dose de Osmocote em cestos ou vasos rasos.\n🚿 Lavagem: enxágue periodicamente para evitar sais nas raízes finas.",
     "rega": "Durante crescimento ativo, mantenha o suporte ou substrato levemente úmido, deixando apenas a superfície secar. Em placas, regas mais frequentes podem ser necessárias. No inverno, reduza moderadamente conforme a evaporação, sem impor seca total. O rizoma e as raízes finas não toleram desidratação prolongada nem água estagnada.",
     "suporte": "🥇 Placa larga de cortiça ou madeira dura — acompanha o hábito rastejante e permite expansão lateral.\n🥈 Cestinho raso de madeira — deixa o rizoma ultrapassar as bordas livremente.\n🥉 Vaso largo e baixo — oferece superfície sem excesso de profundidade.\nPriorize largura e durabilidade; o suporte deve permitir crescimento por vários anos.",
-    "substrato": ["🥇 Para cesto ou recipiente raso: chips de coco médios 35% + casca de pinus média 30% + perlita grossa 25% + esfagno picado e solto 10% (mistura visual provisória, não homologada).","🥈 Pinus médio + chips de coco + perlita grossa + carvão vegetal miúdo.","🥉 Esfagno de fibra longa solto + perlita grossa + casca de pinus média.","Alternativa adicional: casca de macadâmia média + fibra de coco grossa + perlita grossa + pequena fração de esfagno solto."],
+    "substrato": ["🥇 Para cesto ou recipiente raso: 75% casca de pinus média + 25% perlita grossa (proporção 3:1 recomendada pela AOS para o gênero Coelogyne; NÃO homologada para C. fimbriata).", "🥈 Casca de pinus média + chips de coco médios + perlita grossa (alternativa qualitativa sem proporções específicas publicadas).", "🥉 Casca de pinus média + perlita grossa + esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados)."],
     "formasCultivo": {
         "perfilVisual": "coelogyne",
         "destaque": "Placa / tronco",
@@ -55,9 +55,9 @@ export const coelogyneFimbriata = {
     "substratoVisual": {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cesto ou recipiente raso; placa requer apenas fixação leve",
-        "resumo": "Mistura arejada que conserva umidade entre regas sem restringir a expansão horizontal do rizoma.",
-        "justificativa": "A receita visual para cesto ou recipiente raso combina chips de coco médios, pinus médio, perlita grossa e esfagno picado e solto. A formulação exata foi incluída como primeira alternativa textual; as três misturas anteriores foram preservadas. Não aplicar a mistura volumétrica sobre placa ou tronco, que requer apenas fixação leve. Os percentuais são uma proposta horticultural, não uma homologação MACS 1.0.",
-        "receitaTexto": "35% chips de coco médios + 30% casca de pinus média + 25% perlita grossa + 10% esfagno picado e solto.",
+        "resumo": "Mistura aberta de casca de pinus média e perlita grossa em proporção 3:1, para cesto ou recipiente raso.",
+        "justificativa": "AOS apresenta para o gênero Coelogyne uma mistura volumétrica de casca e perlita 3:1; é referência institucional de gênero, NÃO experimento específico para C. fimbriata. A mistura anterior com coco e esfagno não tinha validação quantitativa específica. O rizoma rastejante pede suporte largo e ventilado. Em placa/tronco não aplicar mistura volumétrica, apenas fixação adequada e eventual retenção localizada.",
+        "receitaTexto": "75% casca de pinus média + 25% perlita grossa (3:1 em volume; recomendação genérica para Coelogyne).",
         "perfil": ["Rizoma rastejante", "Expansão horizontal", "Raízes epífitas", "Umidade frequente", "Aeração alta"],
         "comportamento": [
             { "nome": "Retenção", "valor": 4, "icone": "💧" },
@@ -66,13 +66,11 @@ export const coelogyneFimbriata = {
             { "nome": "Compactação", "valor": 2, "icone": "🧱" }
         ],
         "itens": [
-            { "asset": "chips-coco", "nome": "Chips de coco médios", "proporcao": "35%", "nota": "umidade equilibrada", "finalidade": "Mantém umidade transitória sem fechar os espaços de ar." },
-            { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "30%", "nota": "estrutura", "finalidade": "Fornece suporte e drenagem para raízes superficiais." },
-            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "25%", "nota": "aeração", "finalidade": "Preserva a porosidade da mistura e ajuda a evitar compactação." },
-            { "asset": "esfagno", "nome": "Esfagno picado e solto", "proporcao": "10%", "nota": "retenção complementar", "finalidade": "Reduz secagem excessiva, sem formar massa densa sobre o rizoma." }
+            { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "75%", "nota": "estrutura", "finalidade": "Mantém a mistura aberta e sustenta as raízes em recipiente raso." },
+            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "25%", "nota": "aeração", "finalidade": "Conserva porosidade e facilita drenagem entre regas." }
         ],
         "alerta": "Não enterre o rizoma, não use recipiente profundo e evite tanto seca prolongada quanto encharcamento. Em placa, dispense mistura volumétrica.",
-        "notaEvidencia": "MACS 1.0 — primeira passagem documental: a ficha descreve Coelogyne fimbriata como epífita/litófita de rizoma rastejante, com pseudobulbos espaçados e necessidade de expansão horizontal. A preferência por placa/tronco ou cachepô raso é inferência morfológica, não comparação experimental específica. Receita para cesto/vaso 35% chips coco médios + 30% pinus médio + 25% perlita grossa + 10% esfagno solto = 100%; não deve ser aplicada volumetricamente à placa. Nenhum produtor brasileiro com fórmula percentual específica confirmado nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS. Referências gerais para conferência: POWO/Kew (taxonomia/hábito) e AOS (orientação de gênero)."
+        "notaEvidencia": "MACS 1.1: Coelogyne fimbriata tem hábito epífito/litófito e rizoma rastejante; suporte largo ou placa é inferência morfológica, sem comparação experimental específica. AOS, em orientação PARA O GÊNERO Coelogyne, recomenda casca e perlita em proporção 3:1: https://www.aos.org/orchid-care/care-sheets/coelogyne-culture-sheet . A receita 75% pinus + 25% perlita tem referência quantitativa genérica, mas NÃO é homologada para C. fimbriata. Não aplicar mistura volumétrica em placa. Duas alternativas qualitativas sem percentuais inventados; estrelas dos suportes sem validação comparativa. Nenhum produtor brasileiro com fórmula específica confirmado na passagem documental, meta até 25 não atingida."
     },
     "errosComuns": "Usar vaso profundo; enterrar o rizoma; limitar o avanço horizontal; deixar secar por muitos dias; manter encharcada; cultivar em calor abafado; sombra profunda; dividir em pedaços pequenos; replantar sem novas raízes; usar excesso de esfagno ou substrato compactado.",
     "dica": "Pense em superfície, não em profundidade. Conduza o rizoma sobre placa larga, cesto raso ou bacia baixa e deixe as novas frentes avançarem sem obstáculos. Mantenha o rizoma descoberto e umidade frequente com aeração; esse equilíbrio permite que a planta forme colônias extensas e floresça em várias frentes.",
