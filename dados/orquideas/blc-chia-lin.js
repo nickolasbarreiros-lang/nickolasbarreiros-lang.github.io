@@ -35,11 +35,11 @@ export const blcChiaLin = {
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose a cada 7 a 15 dias durante brotação e enraizamento. Após a maturação do pseudobulbo, reduza a frequência e evite excesso de nitrogênio, sem necessidade de fórmulas extremamente ricas em fósforo.\n🧪 Liberação lenta: Osmocote 14-14-14 ou equivalente em dose moderada para vasos e cachepôs; reduza a adubação líquida se estiver usando liberação lenta.",
     rega: "Durante brotação e enraizamento, molhe completamente e espere o substrato perder boa parte da umidade antes da próxima irrigação. Após a maturação, aumente discretamente o intervalo entre as regas, sem impor repouso seco. Em Litoral de clima quente, ajuste a frequência conforme temperatura, ventilação e velocidade de secagem do recipiente.",
     suporte: "🥇 Vaso de barro, excelente para o clima quente de Litoral de clima quente.\n🥈 Cachepô de madeira para plantas com várias frentes e raízes vigorosas.\n🥉 Vaso plástico muito perfurado ou cesto de madeira/plástico para exemplares grandes.",
-    substrato: ["🥇 Casca de pinus grossa + carvão vegetal + brita fina.","🥈 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida."],
+    substrato: ["🥇 Vaso de barro estável e drenado: 35% casca de macadâmia média + 30% casca de pinus média/grossa + 20% perlita grossa + 15% carvão vegetal médio (proposta horticultural NÃO homologada para este híbrido).", "🥈 Casca de pinus grossa + carvão vegetal médio + brita pequena/média (alternativa qualitativa sem percentuais homologados).", "🥉 Chips de coco grossos preparados + casca de macadâmia média + carvão vegetal médio + argila expandida (alternativa qualitativa sem percentuais homologados)."],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso de barro",
-    "resumo": "MACS 1.0: parecer condicional; vaso de barro é a proposta principal, sem ensaio específico de comparação entre suportes.",
+    "resumo": "MACS 1.1: vaso de barro é a proposta principal para estabilidade e secagem; alternativas dependem de ventilação e manejo, sem ensaio comparativo específico.",
     "metodos": [
         {
             "nome": "Vaso de barro",
@@ -49,7 +49,7 @@ export const blcChiaLin = {
             "texto": "A terracota oferece estabilidade e favorece a evaporação lateral. Utilize recipiente proporcional, mistura aberta e furos de drenagem livres."
         },
         {
-            "nome": "Cachepô de madeira",
+            "nome": "Cachepô de Madeira",
             "asset": "cesto-madeira",
             "estrelas": null,
             "status": "Alternativa",
@@ -75,8 +75,8 @@ export const blcChiaLin = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "Para o híbrido vigoroso, a mistura grossa combina estabilidade e secagem previsível; o porte exige recipiente firme.",
-    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de macadâmia + 30% casca de pinus + 20% perlita grossa + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
+    "justificativa": "Rhyncholaeliocattleya Chia Lin é híbrido horticultural vigoroso de raízes epífitas. A mistura principal para vaso de barro firme combina macadâmia média, pinus médio/grosso, perlita grossa e carvão vegetal médio, somando 100%. Os quatro itens visuais representam esta receita, enquanto as duas outras misturas são alternativas qualitativas distintas e sem percentuais homologados. Monitorar a secagem real, manter o vaso proporcional à touceira e evitar compactação. MACS 1.1: proposta horticultural provisória sem ensaio quantitativo específico para o grex.",
+    "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média/grossa + 20% perlita grossa + 15% carvão vegetal médio (proposta não homologada).",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
@@ -86,14 +86,14 @@ export const blcChiaLin = {
     "itens": [
         {
             "asset": "macadamia",
-            "nome": "Casca de macadâmia",
+            "nome": "Casca de macadâmia média",
             "proporcao": "35%",
             "nota": "estrutura",
             "finalidade": "Partículas resistentes criam espaços de ar entre as raízes."
         },
         {
             "asset": "casca-pinus",
-            "nome": "Casca de pinus",
+            "nome": "Casca de pinus média/grossa",
             "proporcao": "30%",
             "nota": "umidade moderada",
             "finalidade": "Conserva alguma umidade sem fechar a mistura quando usada em granulometria adequada."
@@ -107,169 +107,11 @@ export const blcChiaLin = {
         },
         {
             "asset": "carvao-vegetal",
-            "nome": "Carvão vegetal",
+            "nome": "Carvão vegetal médio",
             "proporcao": "15%",
             "nota": "drenagem",
             "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
     "alerta": "A receita ilustrada é uma hipótese horticultural para planta adulta, não uma formulação comprovada para este híbrido. Observar secagem e manter drenagem.",
-    "notaEvidencia": "MACS 1.0 — primeira passagem documental: Rhyncholaeliocattleya Chia Lin (grex híbrido, sem habitat natural), raízes epífitas e pseudobulbos robustos; suporte principal vaso barro, alternativas cachepô madeira, plástico vasado e placa. Métodos apresentam estrelas null; não inferir notas ou ranking quantitativo. Receita visual 35% macadâmia + 30% pinus + 20% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. DIVERGÊNCIA DOCUMENTAL: primeira mistura qualitativa é pinus grosso + carvão + brita fina, sem macadâmia/perlita; segunda chips coco grossos + macadâmia + carvão + argila expandida, sem pinus/perlita; visual não coincide com nenhuma. Texto já classifica fórmula como hipótese não validada. Validar porte, estabilidade, granulometria, secagem e variação entre clones; meta até 25 produtores brasileiros específicos não atingida. Percentuais e suportes NÃO HOMOLOGADOS."
-},
-    errosComuns: "Cultivar com pouca luz; usar vaso grande demais; manter substrato velho, ácido ou constantemente molhado; regar por calendário sem observar a secagem; usar adubo concentrado ou grandes doses de fósforo para tentar forçar floração; replantar fora do início do enraizamento; molhar repetidamente brotos novos no fim do dia; deixar água acumulada na espata; dividir plantas pequenas.",
-    dica: "Observe o pseudobulbo, não apenas o calendário. Durante brotação e enraizamento, forneça água, adubação leve e luz suficiente para que o novo crescimento atinja seu tamanho máximo. Quando a folha estiver firme e o pseudobulbo maduro, reduza naturalmente a adubação e mantenha boa luminosidade. Um pseudobulbo robusto sustentado por raízes saudáveis tem muito mais chance de preencher a espata e produzir flores grandes.",
-    revisaoCientificaIAR: {
-        "nome": "Rhyncholaeliocattleya Chia Lin",
-        "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma Cattleya híbrida feita para impressionar! Rhyncholaeliocattleya Chia Lin é conhecida pelas flores grandes, espessas e muito bem formadas, geralmente em tons intensos de vermelho, vinho, púrpura ou magenta, muitas vezes acompanhadas de perfume. Registrado em 1989 a partir do cruzamento Rlc. Oconee × Rlc. Maitland, o grex reúne uma linhagem selecionada justamente pela qualida",
-        "habitatAltitudeClima": "Sem habitat natural · Aliança Cattleya | Quente–intermediário · luminoso · ventilado",
-        "distribuicaoGeografica": "Su Ping-Ho · registro 1989",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "media",
-        "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies",
-            "OrchidRoots/RHS"
-        ]
-    },
-    indiceDificuldadeCultivo: {
-        "versao": "IDC 3.2 — selo por facilidade",
-        "escala": "dificuldade",
-        "indice": 40,
-        "classificacao": "Moderada",
-        "cultivoEstrelas": 3,
-        "criterios": {
-            "temperatura": {
-                "notaDificuldade": 2,
-                "peso": 15
-            },
-            "rega": {
-                "notaDificuldade": 2,
-                "peso": 15
-            },
-            "umidade": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "ventilacao": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "luminosidade": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "raizesSubstrato": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "sazonalidade": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "floracao": {
-                "notaDificuldade": 2,
-                "peso": 20
-            }
-        },
-        "faixas": {
-            "facil": "0–25",
-            "moderada": "26–50",
-            "dificil": "51–89",
-            "extrema": "90–100"
-        }
-    },
-    indiceAdaptacaoRegional: {
-        "versao": "IAR 2.0 — revisão científica",
-        "escala": "compatibilidade regional",
-        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
-        "litoralQuente": {
-            "indice": 79,
-            "estrelas": 4,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 4,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 4,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 3,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 4,
-                    "peso": 20
-                }
-            }
-        },
-        "montanhaFrio": {
-            "indice": 63,
-            "estrelas": 4,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 3,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 3,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 3,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 3,
-                    "peso": 20
-                }
-            }
-        }
-    },
-        adaptacaoRegional: {
-        litoralQuente: { texto: "À Litoral de clima quente. O calor costuma ser bem tolerado; o maior risco é a combinação de noites quentes, substrato velho e raízes constantemente molhadas. Use vaso ou cachepô bem ventilado e bastante luz filtrada." },
-        montanhaFrio: { texto: "Adapta-se bem às noites frescas. Uma amplitude térmica moderada pode favorecer o ciclo fisiológico, mas não é requisito absoluto. Reduza as regas em períodos frios e nublados e proteja contra extremos de temperatura." }
-    },
-    mesesFloracao: [4, 5, 6, 7, 8, 9, 10, 11],
-    "selosCultivo": {
-        "rega": { "nivel": "sazonal", "regime": "reduzir-repouso" },
-        "climaFloracao": { "faixa": "quente" }
-    },
-        avaliacoes: {
-        cultivo: 3,
-        floracao: 4,
-        perfume: 3,
-        luminosidade: 4,
-        agua: 3,
-        raridade: 2
-    }
-};
+    "notaEvidencia": "MACS 1.1 — revisão documental: Rhyncholaeliocattleya Chia Lin é grex híbrido sem habitat natural próprio; orientar substrato pela fisiologia epífita da aliança Cattleya, porte e manejo. Vaso de barro como proposta principal; métodos têm estrelas null e não constituem ranking experimental. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio/grosso + 20% perlita grossa + 15% carvão vegetal médio = 100%. Exatamente duas alternativas qualitativas distintas, sem proporções homologadas: pinus/carvão/brita e chips de coco preparados/macadamia/carvão/argila expandida. Não há homologação quantitativa específica para o grex nem consulta individualizada a até 25 produtores brasileiros; percentuais e suportes NÃO HOMOLOGADOS
