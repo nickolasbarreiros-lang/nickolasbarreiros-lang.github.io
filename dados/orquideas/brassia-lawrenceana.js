@@ -41,7 +41,7 @@ export const brassiaLawrenceana = {
         "🥈 Vaso de barro bem perfurado com substrato grosso e aerado.",
         "🥉 Vaso plástico baixo e muito perfurado, controlando cuidadosamente a retenção de água."
     ],
-    substrato: ["Casca de pinus média + perlita grossa compatível com o cesto + argila expandida pequena + pequena fração de esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita grossa compatível com o cesto + pequena fração de fibra de coco grossa preparada"],
+    substrato: ["Casca de pinus média + perlita grossa + argila expandida pequena + pequena fração de esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de fibra de coco grossa preparada"],
     formasCultivo: {
         perfilVisual: "cattleya",
         destaque: "Cachepô de Madeira",
