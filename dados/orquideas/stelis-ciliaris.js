@@ -27,7 +27,7 @@ export const stelisCiliaris = {
   "adubacao": "🌿 Orgânica: se utilizar bokashi, prefira quantidade mínima em sachê separado das raízes finas; em montagens pequenas, é melhor evitar excesso de matéria orgânica.\n💧 Mineral/foliar: use fertilizante equilibrado em dose fraca, aproximadamente a cada 10–15 dias durante o crescimento. Em raízes delicadas, aplicações leves e regulares são preferíveis a doses fortes; respeite o rótulo.\n🧪 Liberação lenta: opcional apenas em vaso bem drenado e em dose muito pequena; não coloque grânulos diretamente no esfagno que envolve as raízes.\n🚿 Lavagem: passe água limpa periodicamente pelo suporte para reduzir a concentração de sais.",
   "rega": "Mantenha umidade regular durante todo o crescimento, pois as raízes finas sofrem com secas prolongadas. Em placa, regas frequentes podem ser necessárias, inclusive diariamente no calor; em vaso pequeno, regue quando a mistura começar a perder umidade, sem deixá-la saturada. O importante é combinar umidade com circulação de ar: esfagno permanentemente molhado e abafado favorece problemas nas raízes. Ajuste as regas à secagem real do suporte, não a um intervalo fixo.",
   "suporte": "A prioridade é preservar raízes finas em ambiente úmido, porém continuamente ventilado. Uma placa com pequena reserva localizada de umidade exige observação frequente para evitar secagem completa; o vaso pequeno e drenante oferece maior estabilidade hídrica, mas não pode ficar encharcado. O cesto favorece circulação lateral quando o ambiente tem umidade elevada. A montagem em árvore viva depende de microclima sombreado e proteção contra vento ressecante. Escolha pelo equilíbrio entre umidade das raízes e ausência de abafamento.",
-  "substrato": ["🥇 Casca de pinus pequena + esfagno solto + perlita grossa.", "🥈 Casca de arroz carbonizada + esfagno solto + carvão vegetal pequeno."],
+  "substrato": ["🥇 Placa / tronco: cultivo principal com raízes expostas e fina faixa de esfagno de fibra longa solto sob as raízes ativas. Para vaso pequeno muito perfurado, mistura opcional: 35% casca de pinus pequena + 30% esfagno de fibra longa solto + 20% casca de arroz carbonizada + 15% carvão vegetal pequeno (proposta NÃO homologada).", "🥈 Casca de pinus pequena + esfagno de fibra longa solto + carvão vegetal pequeno (alternativa qualitativa para vaso, sem percentuais homologados).", "🥉 Casca de arroz carbonizada + esfagno de fibra longa solto + carvão vegetal pequeno (alternativa qualitativa para vaso, sem percentuais homologados)."],
   "errosComuns": [
     "Deixar as raízes finas secarem por tempo prolongado.",
     "Manter esfagno permanentemente encharcado e sem ventilação.",
@@ -247,10 +247,10 @@ export const stelisCiliaris = {
   },
   "substratoVisual": {
     "titulo": "Substrato ideal",
-    "contexto": "Mistura para vaso — 100% em volume",
-    "resumo": "35% casca de pinus pequena + 30% esfagno solto + 20% casca de arroz carbonizada + 15% carvão vegetal pequeno — proporções em volume, para vaso ventilado.",
-    "justificativa": "A receita totaliza 100% em volume e é uma proposta horticultural para cultivo em vaso, distinta da montagem principal quando esta for em madeira. A prioridade é impedir que raízes finas desidratem por horas em dias quentes sem transformá-las em raízes encharcadas: use suporte pequeno, umidade ambiental estável, luz suave e movimento contínuo de ar. Verifique a umidade junto às raízes, não apenas a superfície. Ajuste o tamanho das partículas e a frequência de rega à velocidade de secagem, sem compactar.",
-    "receitaTexto": "35% casca de pinus pequena + 30% esfagno solto + 20% casca de arroz carbonizada + 15% carvão vegetal pequeno",
+    "contexto": "Placa / tronco principal; mistura opcional para vaso pequeno — 100% em volume",
+    "resumo": "Para vaso pequeno: 35% pinus pequeno + 30% esfagno de fibra longa solto + 20% casca de arroz carbonizada + 15% carvão vegetal pequeno; placa usa somente fina faixa de esfagno.",
+    "justificativa": "Stelis ciliaris é microepífita de florestas úmidas, com raízes finas sensíveis a desidratação prolongada e a encharcamento. A forma principal é Placa / tronco com fina faixa de esfagno solto sob as raízes ativas. Para vaso pequeno muito perfurado, a mistura visual opcional combina pinus pequeno, esfagno de fibra longa solto, casca de arroz carbonizada e carvão pequeno, totalizando 100% em volume. As duas outras misturas são alternativas qualitativas distintas, sem perlita grossa, e não fundamentam os percentuais visuais. A fração de 30% de esfagno exige monitoramento da umidade e da compactação em clima quente. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
+    "receitaTexto": "Placa / tronco: raízes expostas e fina faixa de esfagno de fibra longa solto. Para vaso pequeno: 35% casca de pinus pequena + 30% esfagno de fibra longa solto + 20% casca de arroz carbonizada + 15% carvão vegetal pequeno (proposta não homologada).",
     "perfil": [
       "Alta aeração",
       "Drenagem funcional",
@@ -290,7 +290,7 @@ export const stelisCiliaris = {
       },
       {
         "asset": "esfagno",
-        "nome": "Esfagno solto",
+        "nome": "Esfagno de fibra longa solto",
         "proporcao": "30%",
         "nota": "umidade regular",
         "finalidade": "Amortece a secagem rápida em clima quente; aplicar sem compactar."
@@ -310,8 +310,8 @@ export const stelisCiliaris = {
         "finalidade": "Ajuda a conservar macroporos e evitar saturação prolongada."
       }
     ],
-    "alerta": "A receita visual principal não inclui perlita grossa; a alternativa qualitativa que a menciona ainda exige avaliação de granulometria e secagem antes de ser recomendada. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita visual é para vaso, não para revestir integralmente placas ou troncos.",
-    "notaEvidencia": "MACS 1.0 — ficha 139/149 conferida em 2026-11-03: Stelis ciliaris, microepífita de raízes finas de florestas úmidas; umidade regular, aeração constante, sem secagem prolongada e sem repouso seco. Suportes placa/tronco 5 estrelas, vaso barro e cachepô madeira 4, plástico vasado 3; não homologados. Receita visual alternativa PARA VASO 35% pinus pequeno + 30% esfagno solto + 20% arroz carbonizado + 15% carvão vegetal pequeno = 100% em volume; resumo, receitaTexto e itens concordam. Primeira qualitativa pinus pequeno + esfagno solto + perlita grossa (sem arroz/carvão); segunda arroz carbonizado + esfagno solto + carvão pequeno (sem pinus). Nenhuma corresponde integralmente à visual. CONTRADIÇÃO INTERNA: alerta proíbe perlita grossa, mas primeira qualitativa recomenda perlita grossa. Avaliar 30% esfagno solto quanto a retenção, compactação e oxigenação em vaso, tamanho de partículas e secagem da placa versus vaso, procedência climática. Meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+    "alerta": "Não utilizar perlita grossa nas misturas recomendadas para esta microepífita de raízes finas. Não compactar o esfagno nem enterrar a base da planta. A receita visual é opcional para vaso pequeno, não para revestir integralmente placas ou troncos; acompanhar a secagem e a aeração.",
+    "notaEvidencia": "MACS 1.1 — revisão documental: Stelis ciliaris, microepífita de raízes finas de florestas úmidas; umidade regular, aeração constante e ausência de repouso seco. Placa / tronco com faixa fina de esfagno é suporte principal. Receita visual opcional PARA VASO PEQUENO: 35% pinus pequeno + 30% esfagno de fibra longa solto + 20% casca de arroz carbonizada + 15% carvão vegetal pequeno = 100% em volume. Exatamente duas alternativas qualitativas: pinus/esfagno/carvão e casca de arroz carbonizada/esfagno/carvão. Divergência anterior resolvida: perlita grossa removida da alternativa, coerente com o alerta. As alternativas não fundamentam percentuais visuais. Monitorar compactação de 30% de esfagno, temperatura, secagem e raízes. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
   },
   "fotoReferencia": {
     "origem": "Ecuagenera — Stelis ciliaris",
