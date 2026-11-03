@@ -34,7 +34,7 @@ export const epicattleyaReneMarques = {
     adubacao: "🌿 Orgânica: bokashi leve no canto do vaso a cada 2–3 meses durante o crescimento.\n💧 Foliar: NPK equilibrado a cerca de 1/3 da dose semanalmente ou a cada 10–15 dias.\n🧪 Pré-floração: reduza o excesso de nitrogênio e mantenha adubação equilibrada e diluída. Uma fórmula moderadamente mais rica em potássio pode ser alternada ocasionalmente, sem usar doses elevadas de fósforo ou sais.",
     rega: "Regue generosamente durante a emissão de brotos e raízes, permitindo que o substrato se aproxime da secagem antes da próxima irrigação. Reduza a frequência no inverno ou quando não houver crescimento ativo. Evite água acumulada no miolo das folhas e nas inflorescências em formação.",
     suporte: "🥇 Vaso de barro firme e bem drenado.\n🥈 Vaso plástico com furação lateral abundante.\n🥉 Cachepô de madeira robusto.\n🌿 Placa de madeira apenas para divisões jovens e vigorosas.",
-    substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal","Chips de coco grossos + casca de pinus média + perlita grossa + carvão vegetal"],
+    substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal","Chips de coco grossos preparados + casca de pinus média + perlita grossa + carvão vegetal"],
     formasCultivo: {
         perfilVisual: "hibrido-intergenerico-alto-vigoroso",
         destaque: "Vaso de Barro",
