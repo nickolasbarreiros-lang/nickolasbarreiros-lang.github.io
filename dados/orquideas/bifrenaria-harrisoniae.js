@@ -45,7 +45,7 @@ export const bifrenariaHarrisoniae = {
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Muito recomendado", texto: "Compatível com o hábito epífito e proporciona excelente oxigenação, mas requer regas mais frequentes porque praticamente não existe reserva hídrica." }
         ]
     },
-    substrato: ["🥇 Para cesto ou vaso bem perfurado: 35% brita pequena/média + 30% casca de macadâmia média + 20% carvão vegetal médio + 15% casca de pinus média (proposta técnica provisória NÃO homologada para Bifrenaria harrisoniae).", "🥈 Brita pequena/média + casca de macadâmia média + carvão vegetal médio (alternativa qualitativa sem proporções homologadas).", "🥉 Brita pequena/média + casca de pinus média + carvão vegetal médio (alternativa qualitativa sem proporções homologadas)."],
+    substrato: ["Brita pequena/média + casca de macadâmia média + carvão vegetal médio","Brita pequena/média + casca de pinus média + carvão vegetal médio"],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em cesto ou vaso",
