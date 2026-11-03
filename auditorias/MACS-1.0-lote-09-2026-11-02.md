@@ -6,7 +6,7 @@ Escopo: fichas 81–90, na ordem de `dados/orquideas/index.js`, após Bulbophyll
 2. bulbophyllum-sikkimense.js — passagem concluída
 3. cattlianthe-ctt-jewel-box.js — passagem concluída
 4. cattleya-loddigesii.js — passagem concluída
-5. laelia-cinnabarina.js — pendente
+5. laelia-cinnabarina.js — passagem concluída
 6. laelia-lundii.js — pendente
 7. catasetum-mattosianum.js — pendente
 8. laelia-gloriosa.js — pendente
@@ -31,3 +31,8 @@ HIBRIDO: Guarianthe aurantiaca × Cattleya Anzac; sem habitat natural próprio, 
 ## Passagem 84 — Cattleya loddigesii
 
 ECOLOGIA: bifoliada epífita ou rupícola, aeração e secagem entre regas segundo ficha. SUPORTES: barro em destaque, cachepô, placa/tronco e plástico vasado; todos os métodos registram `estrelas: null` — sem pontuação a comparar ou homologar. RECEITA VISUAL: 35% pinus + 25% macadâmia + 25% perlita grossa + 15% carvão = 100%; texto e itens concordam. DIVERGÊNCIA: primeira e terceira receitas qualitativas incluem chips de coco no lugar da macadâmia; segunda inclui argila expandida no lugar da perlita; nenhuma coincide integralmente. ALERTA DE EVIDÊNCIA: referência genérica a estudos com plântulas e pinus/arroz carbonizado não valida a mistura para plantas adultas. Meta até 25 produtores brasileiros específicos não atingida; percentuais e ranking de suportes NÃO HOMOLOGADOS. Apenas notaEvidencia adicionada; demais campos preservados. Commit 408934c9585faa5cf4dab6e3de5b845ae8fafa8c. Próxima ficha Laelia cinnabarina.
+
+
+## Passagem 85 — Cattleya cinnabarina (sin. Laelia cinnabarina)
+
+ECOLOGIA: rupícola de alta luz, raízes muito aeradas, risco de superaquecimento do vaso e pedra. SUPORTES: barro 5 estrelas, cachepô madeira 4, plástico vasado 3, placa/tronco 2, sem comparação experimental. RECEITA VISUAL: 35% brita fina/média + 30% perlita + 25% macadâmia + 10% pinus = 100%, texto e itens coerentes. DIVERGÊNCIA: justificativa declara quatro materiais da primeira mistura qualitativa, mas ela lista macadâmia + perlita + cacos de cerâmica OU argila expandida, sem brita ou pinus. Terceira alternativa sugere brita + perlita + carvão + 15–25% orgânico grosso, enquanto visual contém 35% orgânico (macadâmia + pinus). Exige verificação técnica posterior; sem alterações de receitas. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 3a8830646215bf6e79b0a385f6f81a06cfb28546. Próxima ficha Laelia lundii.
