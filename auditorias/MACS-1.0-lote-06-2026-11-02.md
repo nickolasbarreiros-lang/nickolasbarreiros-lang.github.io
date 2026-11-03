@@ -5,7 +5,7 @@ Escopo: dez fichas seguintes a Dryadella aviceps na ordem dos imports de `dados/
 1. `specklinia-grobyi.js` — passagem concluida
 2. `dryadella-liliputiana.js` — passagem concluida
 3. `leptotes-unicolor.js` — passagem concluida
-4. `cattleya-aclandiae-tipo.js` — pendente
+4. `cattleya-aclandiae-tipo.js` — passagem concluida
 5. `cattleya-lueddemanniana-tipo.js` — pendente
 6. `cattleya-walkeriana.js` — pendente
 7. `cattleya-intermedia.js` — pendente
@@ -36,3 +36,11 @@ TAXONOMIA/HABITAT: POWO/Kew https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni
 FICHA: placa/tronco 5 estrelas; cachepô e vaso plástico vasado 4; receita para vaso/cestinho 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%. TRÊS PRODUTORES BRASILEIROS ESPECÍFICOS: (1) Orquidário 4 Estações https://www.orquidario4e.com.br/orquidea-leptotes-unicolor-adulta afirma que cresce melhor em placas de madeira; (2) Orquidário Matsuoka https://orquidariomatsuoka.com.br/produto/leptotes-unicolor/ recomenda toco ou substrato genérico e secagem antes da rega; (3) Orquidário Hang https://www.orquidariohang.com.br/especies/micro-orquidea/leptotes-unicolor recomenda meio bem drenado, sem especificar materiais. SOSA https://www.sosa.org.br/site/dicas-de-cultivo.php recomenda placas para o gênero Leptotes, mas não é orientação específica para L. unicolor; não contabilizar como quarto produtor específico. Nenhum dos três documenta fórmula quantitativa para L. unicolor; meta de 25 não atingida.
 
 PARECER: suporte montado bem respaldado, mistura grossa drenante plausível, mas 35/30/20/15 NÃO HOMOLOGADA. Estrelas não comprovadas por comparação controlada. Apenas notaEvidencia modificada; commit 34de669104e16ad3bd0dd6f6ef83735b3b007a39. Próxima ficha Cattleya aclandiae (tipo).
+
+## Passagem 54 — Cattleya aclandiae (tipo)
+
+POWO/Kew https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A621983-1 reconhece espécie epífita nativa de ambiente tropical sazonalmente seco. AOS https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet e https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-culture-part-3 recomendam genericamente para Cattleyas adultas casca média/grossa, aeração, ciclos molha/seca e transplante no início das raízes novas, sem validação de receita para aclandiae. Estudo brasileiro https://doi.org/10.4025/actasciagron.v30i4.5299 avaliou substratos na aclimatização de Cattleya intermedia, outra espécie e fase, portanto NÃO comprova receita da ficha.
+
+FICHA: cachepô madeira principal com escore 91/100, placa/tronco 86/100; receita opcional para vaso 45% macadâmia + 30% perlita grossa + 25% carvão = 100%. QUATRO PRODUTORES BRASILEIROS ESPECÍFICOS: (1) Orquidário 4 Estações https://www.orquidario4e.com.br/orquidea-cattleya-aclandiae-8cm recomenda cachepô de madeira com casca de pinus ou placas; (2) Orquidário Thomes https://www.orquidariothomes.com.br/Cattleyaaclandiaetipo/prod-10518358/ informa vaso de madeira e cultivo em recipientes variados ou placas ventiladas, sem receita; (3) Orquídeas & Cia https://www.orquideacia.com.br/produto/cattleya-aclandiae recomenda tronco ou substrato com brita e pinus grosso; (4) Orquidário Matsuoka https://orquidariomatsuoka.com.br/produto/cattleya-aclandiae-nigrescens-n2-perfumada/ recomenda toco, brita ou substrato genérico para variedade Nigrescens, evidência da espécie porém não necessariamente do tipo. Nenhum valida proporção 45/30/25; alternativas publicadas divergem quanto a pinus/brita. Meta 25 não atingida.
+
+PARECER: preferência por suporte aberto tem respaldo qualitativo; receita e escores 91/100 e 86/100 NÃO HOMOLOGADOS por ensaio ou comparação controlada. Acrescentada somente notaEvidencia em substratoVisual; demais campos preservados. Commit da ficha 8ee1997655754b357b3c397d2d2a5ab60ef0f037. Próxima ficha Cattleya lueddemanniana (tipo).
