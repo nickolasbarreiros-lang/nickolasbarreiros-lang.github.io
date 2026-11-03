@@ -11,7 +11,7 @@ Escopo: dez fichas seguintes a Dryadella aviceps na ordem dos imports de `dados/
 7. `cattleya-intermedia.js` — passagem concluida
 8. `cattleya-leopoldii-dark-princess.js` — passagem concluida
 9. `laelia-fournieri.js` — passagem concluida
-10. `lockhartia-lunifera.js` — pendente
+10. `lockhartia-lunifera.js` — passagem concluida
 
 ## Passagem 51 — Specklinia grobyi
 
@@ -88,3 +88,15 @@ TAXONOMIA/HABITAT: POWO/Kew https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni
 FICHA: vaso de barro pequeno e raso principal (5 estrelas), cachepô madeira (4), placa/tronco e plástico vasado (3). Receita alternativa para vaso 40% brita fina/média + 30% perlita grossa + 20% macadâmia triturada + 10% pinus grosso = 100%; 70% mineral, 30% orgânica. Nenhuma dessas proporções é demonstrada por experimento específico da espécie. Estudo de aclimatização em Cattleya forbesii e Laelia purpurata https://www.scielo.br/j/asagr/a/cg3xhSWmmGn44KHxTRX38Rc/ compara brita, turfa e mistura em OUTRAS espécies e NÃO deve ser extrapolado como validação. Nenhum produtor brasileiro com receita quantitativa específica de C. fournieri foi identificado nas buscas desta passagem; meta de 25 não atingida, não inferir ausência absoluta de publicações.
 
 PARECER: uso de meio muito drenante é plausível para espécie rupícola, mas nem vaso de barro 5 estrelas nem receita 40/30/20/10 têm homologação quantitativa. A falta de evidência sobre macadâmia/perlita exige cautela. Apenas notaEvidencia atualizada, sem modificar fotos, assets, percentuais, estrelas ou índices. Commit da ficha 3698c62fd090b179da07196ab552f109ea3419ea. Próxima ficha Lockhartia lunifera.
+
+## Passagem 60 — Lockhartia lunifera
+
+TAXONOMIA/HABITAT: POWO/Kew https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A641725-1 aceita Lockhartia lunifera (Lindl.) Rchb.f., epífita nativa do Brasil, com Fernandezia lunifera como sinônimo. Levantamento florístico específico https://www.scielo.br/j/hoehnea/a/WSxwFWtMWhZMNkjBJnmCqyp/?lang=pt registra caules pendentes ou eretos, sem pseudobulbos, e ocorrência sobre árvores, especialmente próximas a cursos de água. AOS https://www.aos.org/explore/lockhartia recomenda para o GÊNERO placas pequenas, temperaturas intermediárias, luz intensa e regas constantes com secagem radicular entre regas; não é experimento de L. lunifera.
+
+FICHA: placa/tronco 5 estrelas; cachepô madeira 4; mistura para cesto ou vaso raso 35% pinus médio + 30% chips de coco grossos + 20% perlita grossa + 15% carvão = 100%. FONTES BRASILEIRAS ESPECÍFICAS: (1) Orquidário Paulista https://www.orquidariopaulista.com.br/produtos/lockhartia-lunifera/ indica placa ou cachepô de madeira com meio drenante de secagem rápida, sem fórmula; (2) Orquidário Maripá https://www.orquidariomaripa.com.br/produtos/orquidea-lockhartia-lunifera-adulta-mini-orquidea/ indica mistura de cascas, carvão, madeira e esfagno, sem proporções, e vaso plástico/barro/caixeta ou árvore; (3) cultivador Orquídeas Encanto e Paixão https://orquideasjph.wordpress.com/2020/02/23/lockhartia-lunifera-2/ recomenda montagem ou vaso/caixeta rasos com partes iguais de pinus, carvão e esfagno. Contagem: DOIS orquidários/produtores + UM relato de cultivador; não contar o blog como produtor. Meta 25 não atingida. AOS e estudo florístico não testam substratos.
+
+PARECER: suporte montado respaldado por AOS e produtores; receita 35/30/20/15 NÃO HOMOLOGADA e diverge da mistura 1:1:1 pinus/carvão/esfagno documentada em relato brasileiro. Estrelas não validadas experimentalmente. Apenas notaEvidencia alterada, sem modificar fotos, assets, receita ou índices. Commit da ficha bab3af0d6e987a886d1f465336dcd22a86f1d642.
+
+## Fechamento do Lote 06 — primeira passagem documental
+
+As dez fichas listadas acima receberam revisão de evidências e registro de limitações no campo `substratoVisual.notaEvidencia`, sem substituição automática de receitas ou homologação quantitativa. Total acumulado no fluxo: 60 fichas com primeira passagem documental. As metas MACS 1.0 de até 25 produtores por espécie, comparação quantitativa de receitas, testes de desempenho e auditoria visual dos assets NÃO estão concluídas. Recomenda-se segunda etapa específica de homologação e verificação visual antes de declarar MACS 1.0 concluída.
