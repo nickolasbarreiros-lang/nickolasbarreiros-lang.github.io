@@ -454,3 +454,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 06:** Lone et al. (2008) e Schnitzer et al. (2010) estudaram substratos na aclimatização de plântulas de C. intermedia, não a receita 30/30/25/15 em plantas adultas. Escores de cultivo 91/82/80 são estimativas, não ensaios comparativos; homologação quantitativa pendente.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados.
 - **Progresso:** 57/149 checagens; 55 fichas com correções efetivas (003–057); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 058 — Cattleya leopoldii 'Dark Princess'.
+
+## Correção na mesma passagem — registro 058 (2026-11-03)
+- **Ficha 058 — Cattleya leopoldii 'Dark Princess'** (`dados/orquideas/cattleya-leopoldii-dark-princess.js`): cultivo principal vaso de barro estável; receita visual 35% macadâmia grossa + 25% pinus + 25% brita fina + 15% carvão vegetal = 100%.
+- **Correção efetiva:** mistura visual ausente das três alternativas textuais; incluída como primeira opção provisória, preservadas as três anteriores. Justificativa já distinguia adequadamente suporte qualitativo e ausência de ensaio, preservada. Commit `60d32bde71ddc1a12dc9f9f988c1f01e2d4e4b62`.
+- **Evidência prévia no lote 06:** POWO trata C. leopoldii como sinônimo de C. tigrina; AOS recomenda vaso de barro drenante e substrato grosso de casca/coco com material inerte, sem percentuais. Mogi Mirim, Bioma Plantas e Matsuoka oferecem referências brasileiras qualitativas, nenhuma testa cultivar Dark Princess ou fórmula 35/25/25/15. Meta de 25 produtores não atingida; homologação quantitativa pendente.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados.
+- **Progresso:** 58/149 checagens; 56 fichas com correções efetivas (003–058); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 059 — consultar ordem do lote 06.
