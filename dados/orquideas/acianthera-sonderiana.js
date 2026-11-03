@@ -57,10 +57,9 @@ export const aciantheraSonderiana = {
         "🥉 Cachepô pequeno com mistura fina, leve e altamente aerada."
     ],
     substrato: [
-        "Casca de pinus fina + casca de arroz carbonizada + esfagno solto",
-        "Casca de arroz carbonizada + perlita grossa + turfa de esfagno em baixa proporção",
-        "Chips de coco pequenos + casca de arroz carbonizada + esfagno solto",
-        "Casca de pinus fina + perlita grossa + esfagno solto"
+        "🥇 Montagem principal em placa/tronco com raízes expostas e mínima lâmina de esfagno de fibra longa solto, sem massa compacta. Para vaso pequeno e perfurado: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno (proposta NÃO homologada).",
+        "🥈 Casca de pinus fina + casca de arroz carbonizada + esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados).",
+        "🥉 Chips de coco pequenos preparados + casca de arroz carbonizada + esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados)."
     ],
     formasCultivo: {
         perfilVisual: "micro-pleurothalidina",
@@ -78,8 +77,8 @@ export const aciantheraSonderiana = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura muito aerada, leve e com reserva hídrica moderada para raízes finas que não devem permanecer secas por longos períodos.",
-        justificativa: "Como epífita de ambientes úmidos, a espécie pede oxigenação elevada junto com umidade relativamente constante. No litoral quente, uma mistura excessivamente mineral pode secar depressa demais; por outro lado, esfagno compacto ou substrato fino aumentam o risco de abafamento. A combinação abaixo equilibra estrutura, aeração e pequena reserva de água.",
-        receitaTexto: "Mistura-base provisória para cultivo em vaso: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno solto + 15% carvão vegetal pequeno. Ajustar granulometria e rega conforme secagem observada.",
+        justificativa: "Como epífita de raízes finas, Acianthera sonderiana exige umidade regular e alta oxigenação. A montagem principal em placa/tronco usa apenas uma lâmina mínima de esfagno de fibra longa solto, sem compactação. Para vaso pequeno e perfurado, a receita visual alternativa combina pinus fino/médio, casca de arroz carbonizada, esfagno de fibra longa solto e carvão vegetal pequeno, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não recebem os percentuais da receita visual. Em clima quente, ajustar a frequência de rega à secagem real. MACS 1.1: hipótese horticultural não homologada quantitativamente.",
+        receitaTexto: "Mistura-base provisória para cultivo em vaso: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno. Ajustar granulometria e rega conforme secagem observada.",
         perfil: ["Raízes finas", "Alta aeração", "Umidade constante", "Secagem moderada", "Baixa compactação", "Vaso pequeno"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -90,100 +89,8 @@ export const aciantheraSonderiana = {
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "35%", nota: "estrutura + umidade moderada", finalidade: "Mantém a estrutura principal do vaso sem formar uma massa compacta." },
             { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "30%", nota: "aeração + estabilidade", finalidade: "Aumenta macroporos, drenagem e estabilidade física da mistura." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "20%", nota: "reserva hídrica", finalidade: "Protege as raízes finas contra secagem abrupta, especialmente em clima quente." },
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "20%", nota: "reserva hídrica", finalidade: "Protege as raízes finas contra secagem abrupta, especialmente em clima quente." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "15%", nota: "porosidade + durabilidade", finalidade: "Ajuda a preservar a estrutura aberta e a circulação de ar entre os componentes." }
         ],
         alerta: "Não compacte o esfagno. Em clima quente, mantenha umidade regular, mas permita boa oxigenação e drenagem; raízes finas sofrem tanto com secagem prolongada quanto com substrato abafado.",
-        notaEvidencia: "MACS 1.0 — primeira passagem documental: Acianthera sonderiana, microepífita cespitosa de raízes finas, alta umidade radicular, ventilação e risco de desidratação em montagem no calor. Suportes placa/tronco 5 estrelas, árvore viva e vaso plástico 4, cachepô madeira 3; não homologados. Receita visual alternativa PARA VASO 35% pinus fino/médio + 30% casca arroz carbonizada + 20% esfagno solto + 15% carvão vegetal pequeno = 100%; receitaTexto e itens concordam. Qualitativa 1 pinus fino + arroz carbonizado + esfagno (sem carvão); qualitativa 2 arroz carbonizado + perlita grossa + pouca turfa esfagno (sem pinus/carvão); qualitativa 3 chips coco + arroz carbonizado + esfagno (sem pinus/carvão); qualitativa 4 pinus fino + perlita grossa + esfagno (sem arroz/carvão). Nenhuma coincide integralmente com receita visual; justificativa reconhece mistura provisória, não alega identidade. Verificar granulometria fina/média, umidade constante sem compactar esfagno, comparação entre montagem principal e mistura alternativa para vaso, procedência de produtores brasileiros. Meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
-    },
-    errosComuns: [
-        "Deixar uma micro-orquídea montada secar completamente por muitas horas em dias quentes.",
-        "Confundir necessidade de muita água com tolerância a substrato encharcado e sem ar.",
-        "Cultivar em calor abafado, principalmente com noites persistentemente quentes.",
-        "Usar vaso grande ou substrato compactado.",
-        "Expor ao sol forte do meio do dia.",
-        "Reduzir excessivamente a luz e comprometer a floração.",
-        "Acumular sais de fertilizante nas raízes finas."
-    ],
-    revisaoCientificaIAR: {
-        nome: "Acianthera sonderiana (Rchb.f.) Pridgeon & M.W.Chase",
-        statusTaxonomico: "Nome aceito por POWO/Kew. Combinação publicada em Lindleyana 16: 246 (2001).",
-        sinonimosPrincipais: "Pleurothallis sonderiana Rchb.f. (basiônimo); Humboltia sonderiana (Rchb.f.) Kuntze; Specklinia sonderiana (Rchb.f.) F.Barros; Pleurothallis sonderiana var. longicaulis Barb.Rodr.",
-        morfologiaDimensoes: "Planta cespitosa de aproximadamente 2,5–7 cm; ramicaules 0,5–5 cm; folhas lineares, carnosas e sulcadas, aproximadamente 1–3 cm; inflorescências curtas de 1–3 cm com 2–4(5) flores; flores amarelo-alaranjadas de cerca de 4–7 mm.",
-        habitatAltitudeClima: "Epífita de troncos e ramos em florestas úmidas, incluindo ambientes montanos, ombrófilos, florestas hidrófilas e matas ribeirinhas. O conjunto das fontes favorece clima intermediário a fresco, alta umidade e ventilação.",
-        distribuicaoGeografica: "Sudeste e Sul do Brasil, Paraguai, Uruguai e Argentina (Misiones). Registros brasileiros incluem ES, MG, RJ, SP, PR, SC e RS.",
-        cultivoPremiacao: "Cultivo confrontado com referências orquidológicas e comerciais: sombra filtrada, umidade alta, rega frequente e boa ventilação. Não foi localizada premiação AOS pública específica que justificasse afirmação adicional.",
-        confianca: "alta",
-        fontes: [
-            "POWO/Kew",
-            "IPNI/WFO",
-            "Flora e Funga do Brasil",
-            "literatura florística brasileira e paraguaia",
-            "Orchids.org / referências de cultivo",
-            "registros regionais UFSC/RS"
-        ]
-    },
-    indiceDificuldadeCultivo: {
-        versao: "IDC 3.2 — selo por facilidade",
-        escala: "dificuldade",
-        indice: 35,
-        classificacao: "Moderada",
-        cultivoEstrelas: 4,
-        criterios: {
-            temperatura: { notaDificuldade: 3, peso: 15 },
-            rega: { notaDificuldade: 2, peso: 15 },
-            umidade: { notaDificuldade: 2, peso: 10 },
-            ventilacao: { notaDificuldade: 2, peso: 10 },
-            luminosidade: { notaDificuldade: 1, peso: 10 },
-            raizesSubstrato: { notaDificuldade: 2, peso: 10 },
-            sazonalidade: { notaDificuldade: 1, peso: 10 },
-            floracao: { notaDificuldade: 2, peso: 20 }
-        },
-        faixas: {
-            facil: "0–25",
-            moderada: "26–50",
-            dificil: "51–89",
-            extrema: "90–100"
-        }
-    },
-    indiceAdaptacaoRegional: {
-        versao: "IAR 2.0 — revisão científica",
-        escala: "compatibilidade regional",
-        metodo: "notas atribuídas manualmente após confronto de distribuição, habitat, clima e cultivo; não derivadas automaticamente do texto",
-        litoralQuente: {
-            indice: 56,
-            estrelas: 3,
-            fatores: {
-                habitatNatural: { nota: 3, peso: 30 },
-                temperatura: { nota: 2, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 3, peso: 20 }
-            }
-        },
-        montanhaFrio: {
-            indice: 94,
-            estrelas: 5,
-            fatores: {
-                habitatNatural: { nota: 5, peso: 30 },
-                temperatura: { nota: 5, peso: 30 },
-                aguaUmidade: { nota: 4, peso: 5 },
-                ventilacao: { nota: 4, peso: 5 },
-                luminosidade: { nota: 4, peso: 5 },
-                sazonalidade: { nota: 4, peso: 5 },
-                floracao: { nota: 5, peso: 20 }
-            }
-        }
-    },
-    adaptacaoRegional: {
-        litoral: {
-            texto: "Adaptação moderada. Apesar de haver registros no Sudeste, grande parte das referências ecológicas aponta ambientes úmidos e mais amenos. No litoral quente, deve ficar no setor mais fresco, sombreado e ventilado, com atenção especial às noites muito quentes e à rápida desidratação das montagens."
-        },
-        montanha: {
-            texto: "Adaptação excelente. Temperaturas mais amenas, noites frescas e umidade elevada reproduzem melhor os ambientes florestais associados à espécie. Evite apenas excesso de água quando a evaporação cair muito no inverno."
-        }
-    },
-    dica: "🏆 Para esta micro-orquídea, o ponto-chave é manter as raízes pequenas hidratadas sem abafá-las: montagem pequena, fina reserva de esfagno, ventilação constante e regas frequentes. No litoral quente, priorize o local mais fresco e protegido do sol forte."
-};
+        notaEvidencia: "MACS 1.1 — revisão documental: Acianthera sonderiana é miniatura epífita cespitosa de raízes finas, com necessidade de umidade regular e boa ventilação. Cultivo principal em placa/tronco com mínima lâmina de esfagno solto e rizoma exposto; mistura visual alternativa para vaso pequeno e perfurado: 35% pinus fino/médio + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno = 100%. Receita textual e itens visuais correspondem. Exatamente duas alternativas qualitativas distintas, sem percentuais homologados. Em clima quente monitorar secagem e evitar esfagno compactado. Classificações de suportes são heurísticas, não resultados experimentais. Não foram documentados ensaios quantitativos específicos nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS
