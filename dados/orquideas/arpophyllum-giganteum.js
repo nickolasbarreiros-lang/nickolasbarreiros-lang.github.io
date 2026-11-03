@@ -46,11 +46,7 @@ export const arpophyllumGiganteum = {
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Funciona bem em ambientes muito úmidos, porém aumenta a velocidade de secagem e pode exigir regas mais frequentes no litoral quente." }
         ]
     },
-    substrato: [
-        "🥇 Vaso estável: 35% casca de macadâmia média + 25% casca de pinus média + 20% carvão vegetal médio + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto (proposta NÃO homologada).",
-        "🥈 Casca de macadâmia média + carvão vegetal médio + casca de arroz carbonizada + pequena quantidade de esfagno de fibra longa solto (alternativa qualitativa).",
-        "🥉 Casca de pinus média + carvão vegetal médio + perlita grossa compatível com vaso + pequena quantidade de esfagno de fibra longa solto (alternativa qualitativa)."
-    ],
+    substrato: ["Casca de macadâmia média + carvão vegetal médio + casca de arroz carbonizada + pequena quantidade de esfagno de fibra longa solto","Casca de pinus média + carvão vegetal médio + perlita grossa + pequena quantidade de esfagno de fibra longa solto"],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
