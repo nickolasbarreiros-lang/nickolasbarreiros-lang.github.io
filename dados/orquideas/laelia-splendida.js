@@ -41,7 +41,7 @@ export const laeliaSplendida = {
         "🥈 Vaso de barro largo e bem perfurado, proporcional à frente de crescimento.",
         "🥉 Placa ou tronco robusto, quando houver umidade suficiente para regas frequentes."
     ],
-    substrato: ["🥇 Para Cachepô de Madeira robusto e bem vazado: 35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa compatível com o cesto + 15% carvão vegetal médio (proposta NÃO homologada).", "🥈 Casca de pinus média/grossa + perlita grossa compatível com o cesto + carvão vegetal médio + pequena fração de chips de coco grossos preparados (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de macadâmia média + argila expandida média + carvão vegetal médio + casca de pinus grossa (alternativa qualitativa sem percentuais homologados)."],
+    substrato: ["Casca de pinus média/grossa + perlita grossa compatível com o cesto + carvão vegetal médio + pequena fração de chips de coco grossos preparados","Casca de macadâmia média + argila expandida média + carvão vegetal médio + casca de pinus grossa"],
     formasCultivo: {
         perfilVisual: "laelia-robusta-epifita-rupicola-alta-luz",
         destaque: "Cachepô de Madeira",
