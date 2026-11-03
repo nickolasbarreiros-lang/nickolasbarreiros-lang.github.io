@@ -312,7 +312,8 @@ export const aciantheraTeres = {
         "finalidade": "Diminui densidade e favorece drenagem; não substituir por pedra-pomes."
       }
     ],
-    "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
+    "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos.",
+    "notaEvidencia": "MACS 1.0 — primeira passagem documental: Acianthera teres, predominantemente rupícola em rochas expostas; a placa/tronco é adaptação prática, não reprodução literal do habitat. Suportes placa/tronco 5 estrelas, barro e cachepô madeira 4, árvore viva 3; não homologados. Receita visual alternativa PARA VASO: 45% brita fina + 25% carvão vegetal + 20% pinus + 10% perlita grossa = 100% em volume; resumo, receitaTexto e itens concordam. Qualitativas registradas: primeira brita fina + carvão + perlita (sem pinus); segunda brita fina + pinus grosso + carvão (sem perlita). A receita visual combina as duas, não coincide integralmente com nenhuma; justificativa já identifica receita como proposta provisória distinta da montagem principal. Verificar experimentalmente 45% brita: peso, aquecimento em clima quente, granulometria/pontas e contato com raízes; secagem do vaso versus placa e disponibilidade hídrica, sem confundir folhas carnosas com tolerância a seca prolongada. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
   },
   "fotoReferencia": {
     "origem": "IOSPE — Pleurothallis teres",
