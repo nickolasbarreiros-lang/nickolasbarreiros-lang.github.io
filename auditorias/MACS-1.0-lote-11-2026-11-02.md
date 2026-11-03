@@ -7,7 +7,7 @@ Escopo: primeira passagem documental de cultivo e substratos. Não alterar recei
 1. ornithocephalus-myrticola.js — passagem concluída
 2. notylia-pubescens.js — passagem concluída
 3. trichocentrum-fuscum.js — passagem concluída
-4. bifrenaria-harrisoniae.js — pendente
+4. bifrenaria-harrisoniae.js — passagem concluída
 5. maxillaria-pumila-ex-minuta.js — pendente
 6. ludisia-discolor.js — pendente
 7. bulbophyllum-ambrosia.js — pendente
@@ -28,3 +28,8 @@ ECOLOGIA: epífita compacta com raízes finas e racemos pendentes; montagem prin
 ## Passagem 103 — Trichocentrum fuscum
 
 ECOLOGIA: epífita compacta com folhas carnosas, raízes expostas, baixa retenção e secagem rápida. Cultivo principal em placa/tronco sem substrato; suportes placa/tronco 5 estrelas, cachepô madeira 4, barro 3. RECEITA VISUAL alternativa para vaso: 45% pinus grosso + 30% brita fina + 25% carvão grosso = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa atribui receita à segunda qualitativa (macadâmia grossa + perlita grossa + carvão), mas visual substitui macadâmia por pinus e perlita por brita. Primeira qualitativa (chips coco grossos + argila expandida + carvão) também difere. Validar peso e granulometria da brita e secagem do pinus em vaso pequeno. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 7ea4542bd2323e950e7893225f684ecc1f7e51eb. Próxima ficha Bifrenaria harrisoniae.
+
+
+## Passagem 104 — Bifrenaria harrisoniae
+
+ECOLOGIA: epífita/rupícola com pseudobulbos robustos, requer alta aeração e secagem entre regas. SUPORTES: cachepô madeira 5 estrelas, barro, plástico vasado e placa/tronco 4; não homologados. RECEITA VISUAL: 35% brita pequena/média + 30% macadâmia média + 20% carvão médio + 15% pinus médio = 100%; texto e itens coerentes, sem esfagno conforme regra Bifrenaria. DIVERGÊNCIA DOCUMENTAL: receita visual combina componentes das alternativas qualitativas, mas não coincide integralmente com nenhuma (primeira sem pinus; segunda sem macadâmia; terceira com arroz carbonizado). Justificativa técnica é hipótese, não validação quantitativa. Avaliar peso da brita, retenção do pinus e secagem por recipiente. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Campo notaEvidencia criado em substratoVisual, demais campos preservados. Commit 95fb846b947f59b0fd4234302bf16639c876793b. Próxima ficha Maxillaria pumila ex minuta.
