@@ -8,7 +8,7 @@ Escopo: fichas 81–90, na ordem de `dados/orquideas/index.js`, após Bulbophyll
 4. cattleya-loddigesii.js — passagem concluída
 5. laelia-cinnabarina.js — passagem concluída
 6. laelia-lundii.js — passagem concluída
-7. catasetum-mattosianum.js — pendente
+7. catasetum-mattosianum.js — passagem concluída
 8. laelia-gloriosa.js — pendente
 9. encyclia-bracteata.js — pendente
 10. stanhopea-assidensis.js — pendente
@@ -41,3 +41,8 @@ ECOLOGIA: rupícola de alta luz, raízes muito aeradas, risco de superaqueciment
 ## Passagem 86 — Cattleya lundii (sin. Laelia lundii)
 
 ECOLOGIA: miniatura epífita ou rupícola, alta aeração e secagem rápida entre regas. SUPORTES: placa/tronco 5 estrelas, cachepô madeira e vaso barro 4, árvore viva 3; notas não validadas quantitativamente. RECEITA VISUAL PARA RECIPIENTE: 35% macadâmia + 30% pinus + 20% perlita + 15% carvão = 100%, texto e itens coerentes; cultivo principal é montagem em placa, sem aplicar mistura do recipiente à placa. DIVERGÊNCIA: justificativa afirma que os quatro ingredientes derivam da primeira alternativa qualitativa, que contém chips coco + perlita + carvão + pinus, sem macadâmia; terceira contém macadâmia + argila expandida + carvão + pinus, sem perlita. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 86997fd028acc09f7c10facbef6a1c52216f4c65. Próxima ficha Catasetum mattosianum.
+
+
+## Passagem 87 — Catasetum mattosianum
+
+ECOLOGIA: epífita caducifólia com crescimento úmido e dormência de rega muito reduzida; regas fortes apenas após raízes novas desenvolvidas. SUPORTES: plástico vasado 5 estrelas, cachepô e placa/tronco 4, barro 3; notas não validadas por comparação específica. RECEITA VISUAL: 35% chips coco + 30% pinus + 20% perlita + 15% arroz carbonizado = 100%, texto e itens coerentes. DIVERGÊNCIA SUBSTANCIAL: primeira alternativa qualitativa contém esfagno + perlita + carvão; segunda argila expandida + perlita + chips coco + esfagno. Nenhuma inclui pinus ou arroz carbonizado. Justificativa já reconhece hipótese baseada no gênero, não ensaio da espécie; retenção e secagem durante fases do ciclo carecem de homologação. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia adicionada, demais campos preservados. Commit 4355c1efc0b6e849db75fe9faf48b3aaeeae87e8. Próxima ficha Laelia gloriosa.
