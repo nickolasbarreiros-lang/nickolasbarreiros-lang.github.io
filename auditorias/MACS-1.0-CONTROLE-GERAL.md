@@ -1103,3 +1103,11 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - POWO confirma espécie aceita e epífita brasileira; AOS e NYBG recomendam montagens para gênero Miltonia; fonte específica Orchid.guru confirma montagem possível e atenção a raízes finas. **Alerta:** placa/tronco recebe apenas 3 estrelas na ficha enquanto cachepô recebe 5; diferença sem demonstração comparativa. Revisar, não mudar automaticamente.
 - R0 atual 35% pinus médio/30% chips coco/25% perlita grossa/10% carvão; R1 50/15/25/10; R2 35/40/15/10. R1/R2 são cenários hipotéticos, não prescrições. Matriz 30/25/20/15/10 documentada sem notas artificiais. Composição D, percentuais D, estrelas D; possibilidades de suporte B. **Não homologada**.
 - Progresso: **4/149 matrizes MACS 1.1 documentadas; 0/149 homologações quantitativas por convergência**. Próxima espécie oficial: Promenaea xanthina.
+
+
+### MACS 1.1 — Matriz comparativa 005: Promenaea xanthina (2026-11-03)
+- Documento: `auditorias/MACS-1.1-MATRIZ-005-PROMENAEA-XANTHINA.md`, commit `2d331c8d0e09948fe138566e7cbbf8c25c318281`.
+- **Avanço de evidência brasileira:** Orquidário Oriental recomenda esfagno ou mistura de coco/pinus/carvão; Orquidário Aparecida envia planta em ripinha de madeira; Orquidário Santa Clara cita vasos, caixetas e troncos. Um blog de cultivador brasileiro descreve partes iguais de pinus/esfagno/carvão, sem unidade especificada. **3 orquidários com espécie e orientação, 1 com ingredientes específicos; 1 relato individual com proporções nominais.** Não atribuir ao relato status de produtor comercial.
+- R0 vigente 45% pinus/40% perlita/15% esfagno; R1 hipotética 55/25/20; R2 relato partes iguais de pinus/esfagno/carvão. AOS recomenda mistura com reserva hídrica para o gênero; nenhuma fonte valida especificamente R0. **Pendência taxonômica:** ficha registra que POWO trata o nome editorial Promenaea xanthina sob Promenaea stapelioides; conferir antes de transferir estudos.
+- Ingredientes alternativos e suportes nível B qualitativo; **R0 composição D, percentuais D e estrelas D**. Sem índice numérico artificial e sem alterações JS/assets.
+- Progresso: **5/149 matrizes MACS 1.1 documentadas; 0/149 homologações quantitativas concluídas**. Próxima espécie oficial: Brassia lawrenceana.
