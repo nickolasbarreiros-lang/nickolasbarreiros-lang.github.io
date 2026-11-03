@@ -5,7 +5,7 @@ Escopo: dez proximas fichas apos Maxillaria tenuifolia, na ordem do indice. Conf
 1. `colmanara-wildcat.js` — passagem concluida
 2. `brassavola-perrini.js` — passagem concluida
 3. `ornithophora-radicans.js` — passagem concluida
-4. `coelogyne-ovalis-var-miniatum.js` — pendente
+4. `coelogyne-ovalis-var-miniatum.js` — passagem concluida
 5. `coelogyne-cristata.js` — pendente
 6. `bc-turandot-x-blc-orange-show-x-blc-chunyeah.js` — pendente
 7. `cattleya-schilleriana-x-cruzeiro-do-sul.js` — pendente
@@ -34,3 +34,13 @@ Taxonomia: POWO https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames
 Ficha: placa/tronco principal (5 estrelas), cachepo madeira 4, plastico vasado e barro 3. Alternativa de vaso: 35% pinus medio + 30% chips coco + 25% perlita grossa + 10% carvao = 100%. Produtor brasileiro ESPECIFICO Orquidario Oriental https://www.orquidariooriental.com.br/produto/iornithophora-radicansi%2C1661/ cita placa de madeira, esfagno, fibra coco/pinus/carvao, vasos plastico/barro/caixeta, regas com intervalos de secagem; SEM percentuais. Relato de cultivador australiano publicado em https://www.canberraorchids.org/pubs/bulletin3703.pdf (Canberra Orchid Society, maio-junho 2022) documenta sucesso em cortica e placas de fibra de samambaia-arborea, risco de excesso de agua em vaso e necessidade de mistura aberta; nao e ensaio controlado nem produtor brasileiro.
 
 Parecer: placa tem respaldo ecológico e de cultivadores; ingredientes qualitativos de vaso parcialmente corroborados. Nao foi encontrada recomendacao especifica de perlita 25% nem ensaio 35/30/25/10. Formula NAO HOMOLOGADA; estrelas tambem nao validadas. Um produtor brasileiro com orientacao especifica documentado; meta de ate 25 pendente. Atualizada somente notaEvidencia, commit e6622c6bb19b1b35f79a2175e65524b105ae5a1e. Proxima ficha Coelogyne ovalis var. miniatum.
+
+## Passagem 44 — Coelogyne ovalis ‘Miniatum’ (identificacao pendente)
+
+Taxonomia: POWO https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A623974-1 aceita Coelogyne ovalis, epifita asiatica. Miniatum nao aparece como variedade formal no rol de sinonimos e nao esta confirmado para este exemplar; recomenda-se confirmar floracao antes de afirmar identidade varietal.
+
+Ficha: placa/tronco e cachepo madeira 5 estrelas; barro e plastico vasado 4. Mistura de vaso 35% chips coco medios + 30% pinus medio + 25% perlita grossa + 10% esfagno solto = 100%. PRODUTORES BRASILEIROS ESPECIFICOS: Orquidario 4 Estacoes https://www.orquidario4e.com.br/orquidea-coelogyne-ovalis-ad recomenda substrato drenante, pinus em cachepo ou placa, sem proporcoes. Gracas Garden https://www.orquidarioggarden.com.br/adultas/orquideas/coelogyne-ovalis cita casca de madeira, carvao, chips coco, pedras e esfagno, sem proporcoes. Orquidario Aparecida https://orquidarioaparecida.com.br/produtos/coelogyne-ovalis-lacre-0000122-mxq1c/ descreve exemplar enraizado em ripinha de madeira; condicoes gerais de cultivo da estufa. Orquidario Mantovani https://www.orquideasmantovani.com.br/coelogyne-ovalis-465/p permite replante em madeira, plastico, barro ou cachepo, sem receita especifica. Estes 4 registros sao qualitativos e nao validam percentuais.
+
+AOS https://www.aos.org/orchid-care/care-sheets/coelogyne-culture-sheet cita para genero casca de pinus/perlita 3:1 (75/25) como mistura comum, nao especificamente para C. ovalis; https://www.aos.org/orchid-care/orchid-care-and-culture-sheets/coelogyne-culture-sheet/coelogyne-culture observa montagem possivel com umidade alta e regas varias vezes ao dia em calor, e uso frequente de cestos/vasos rasos. Associacao espanhola https://orquiburjassot.org/cultivo-de-coelogyne/ cita C. ovalis como montavel se umidade elevada e mistura generica de 80% casca + 10% brita + 10% perlita, tambem nao experimento da especie. Nao extrapolar uma receita generica de Coelogyne para ‘Miniatum’ nao confirmado.
+
+Parecer: habito epifito, suporte amplo e mistura arejada plausiveis; receita 35/30/25/10 NAO HOMOLOGADA, estrelas nao validadas. Identidade do exemplar ainda incerta; manter rotulo com ressalva. Apenas notaEvidencia alterada na ficha, commit 71a22fb626b3371baf2955981a62fbeb95b168ba. Quatro produtores brasileiros com orientacoes especificas qualitativas localizados; meta de ate 25 nao atingida. Proxima ficha Coelogyne cristata.
