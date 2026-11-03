@@ -175,3 +175,21 @@ A página comercial do Orquidário Mogi Mirim para *B. rothschildianum* informa 
 **Comparação com a receita cadastrada:** 35% casca de macadâmia + 30% pinus + 20% perlita + 15% carvão. O produtor corrobora **categorias gerais de cascas e carvão**, além da viabilidade de caixeta, mas **não cita explicitamente casca de macadâmia nem perlita** e não fornece percentuais. Pedaços de madeira **não são equivalentes automaticamente** a casca de macadâmia ou perlita. Não alterar receita por essa única referência.
 
 **Situação da amostra:** +1 página de produtor brasileiro com recomendação de substrato para material identificado como *C. schilleriana × self*; nenhum percentual homologado; ficha preservada. Outros resultados localizados nesta busca foram listagens de produtos, não recomendações técnicas específicas, e **não foram contados** como fontes de composição.
+
+## Sexta passagem — confronto com três páginas adicionais de produtores brasileiros (02/11/2026)
+
+**Critério de contagem:** contar produtor independente uma única vez por espécie, independentemente de quantos anúncios da mesma planta possua. Página de venda sem composição não é fonte para ingredientes. Cruzamentos autofecundados (x self) não são tratados como híbridos interespecíficos.
+
+| Espécie | Produtor e página | Evidência diretamente publicada | Confronto com receita visual |
+|---|---|---|---|
+| *Cattleya schilleriana* (lote comercial x self) | Orquidário Maripá — https://www.orquidariomaripa.com.br/produtos/orquidea-cattleya-schilleriana-x-self-linda-pintalgada-mudas-fortes-pre-adulta/ | Mistura de cascas, carvão, pedaços de madeira; vasos de plástico/barro/caixetas, ou árvore com irrigação maior durante enraizamento; sombreamento 50–70% | Corrobora cascas e carvão, e o uso de recipiente aberto. **Não cita macadâmia especificamente, perlita ou proporções**. A descrição comercial usa o termo genérico 'híbrido', mas x self é autofecundação e não prova hibridação interespecífica. |
+| *Dendrobium aggregatum* (= *D. lindleyi*) | Orquidário Maripá — https://www.orquidariomaripa.com.br/produtos/orquidea-dendrobium-aggregatum-variedade-gigante-adulta/ | Cascas, carvão, pedaços de madeira **e esfagno**; vasos de plástico/barro/caixetas ou montagem em árvore; sombreamento 50% | A receita visual do projeto, **45% pinus + 30% brita fina + 25% carvão**, tem casca/carvão, mas diverge ao usar brita e omitir esfagno. Não significa erro: a ficha indica montagem principal sem mistura e a receita é alternativa para vaso/cesto de secagem rápida. **Diferença deve ser testada no contexto de repouso mais seco e ambiente.** |
+| *Oncidium Twinkle* cultivar 'Red Fantasy' | Orquidário Oriental — https://www.orquidariooriental.com.br/produto/ioncidiumi-twinkle-red-fantasy%2C624/ | Sombreamento 60%, faixa de temperatura informada **10–35°C**, floração outono–inverno; **não informa substrato** | Fonte útil para tolerância comercial e época floral, **não** para validar a mistura 35% pinus / 30% coco / 25% perlita / 10% carvão. A faixa anunciada não prova indução floral sob calor noturno persistente. |
+
+### Regras de interpretação reforçadas
+1. *D. lindleyi*: registrar **divergência real** entre a recomendação comercial com esfagno e a alternativa muito drenante da ficha, sem substituir brita por esfagno por inferência. Investigar se o produtor recomenda esfagno apenas como fração superficial/pequena ou no enchimento do vaso, e o manejo de repouso.
+2. *C. schilleriana*: 'cascas' não prova casca de macadâmia, tampouco percentuais.
+3. *Oncidium Twinkle*: distinguir **tolerância térmica anunciada** de temperaturas ideais e de temperaturas para indução floral; evitar equivalência entre elas.
+4. Não multiplicar a mesma receita de Orquidário Maripá em diferentes anúncios de *D. aggregatum* como produtores distintos.
+
+**Resultado:** 3 páginas específicas adicionais, de 2 produtores independentes (Maripá e Oriental), cobrindo 3 táxons/cultivares. **0 percentuais homologados; 0 fichas alteradas.** Prosseguir buscando produtores adicionais independentes para cumprir o objetivo MACS 1.0.
