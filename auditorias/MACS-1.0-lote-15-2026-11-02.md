@@ -8,7 +8,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 2. acianthera-auriculata.js — passagem concluída
 3. epidendrum-hokulea-super-red.js — passagem concluída
 4. gomesa-cornigera.js — passagem concluída
-5. masdevallia-infracta.js — pendente
+5. masdevallia-infracta.js — passagem concluída
 6. oncidium-summer-wind.js — pendente
 7. pholidota-chinensis.js — pendente
 8. pinalia-elata.js — pendente
@@ -32,3 +32,8 @@ HÍBRIDO hortícola de canas altas e raízes vigorosas, alta luminosidade, venti
 ## Passagem 144 — Gomesa cornigera
 
 EPÍFITA de florestas úmidas, raízes finas, aeração e umidade regular. SUPORTES: placa/tronco e cachepô madeira 5 estrelas, plástico vasado e barro 4. RECEITA VISUAL alternativa PARA VASO: 50% pinus + 30% carvão + 20% esfagno solto = 100%; receitaTexto, itens e justificativa coerentes. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa pinus + perlita grossa + akadama (sem carvão/esfagno); segunda pinus + chips coco + carvão (sem esfagno); terceira brita + arroz carbonizado + carvão (sem pinus/esfagno). Nenhuma coincide. Receita explicitamente experimental; validar 20% esfagno, granulometria, retenção e secagem em calor, além de possível confusão com G. lietzei. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 4687d90d9e9e3e721391429e0adefd1909145347. Próxima ficha Masdevallia infracta.
+
+
+## Passagem 145 — Masdevallia infracta
+
+EPÍFITA de raízes finas sem pseudobulbos, umidade frequente e aeração, sensível a calor noturno; hastes verdes potencialmente reflorentes. SUPORTES: placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, árvore viva 3. RECEITA VISUAL alternativa PARA VASO: 35% pinus fina/média + 25% arroz carbonizado + 20% carvão pequeno + 20% esfagno solto = 100%; receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa pinus + perlita adequada + esfagno (sem arroz/carvão); segunda chips coco + carvão + esfagno (sem pinus/arroz). Nenhuma coincide. Orquidário Aparecida documenta ripinha, não percentuais visuais. Validar granulometria, retenção, aeração e calor no vaso versus secagem em placa. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit e1811978aa1be4b6089ed94a83bb3aa6ded94ac6. Próxima ficha Oncidium Summer Wind.
