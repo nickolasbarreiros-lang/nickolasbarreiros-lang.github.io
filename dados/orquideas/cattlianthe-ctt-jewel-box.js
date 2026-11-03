@@ -56,7 +56,7 @@ export const cattliantheCttJewelBox = {
         "titulo": "Substrato ideal",
         "contexto": "Mistura proposta para vaso perfurado",
         "resumo": "Composição aberta de granulometria média para sustentar touceiras vigorosas sem reter água em excesso.",
-        "justificativa": "A primeira mistura já registrada na ficha reúne macadâmia, pinus, perlita e carvão. Os percentuais abaixo são uma sugestão horticultural de apresentação visual, ainda sem validação por comparação sistemática com produtores conforme MACS 1.0.",
+        "justificativa": "A receita visual combina casca de macadâmia média, pinus médio, perlita grossa e carvão vegetal. A primeira mistura qualitativa antiga, porém, contém pinus, perlita, carvão e chips de coco — sem macadâmia; a segunda contém macadâmia, argila expandida, carvão e pinus — sem perlita. Portanto, nenhuma das alternativas anteriores reproduzia integralmente a composição visual. A fórmula visual permanece proposta horticultural, sem validação por comparação sistemática com produtores conforme MACS 1.0.",
         "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         "perfil": ["Raízes epífitas", "Touceira vigorosa", "Boa sustentação", "Aeração alta", "Secagem moderadamente rápida"],
         "comportamento": [
