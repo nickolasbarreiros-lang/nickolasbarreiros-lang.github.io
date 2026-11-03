@@ -9,7 +9,7 @@ Escopo: primeira passagem documental, sem homologação quantitativa. Apenas not
 3. promenaea-guttata.js — passagem concluída
 4. encyclia-gallopavina.js — passagem concluída
 5. stanhopea-guttulata.js — passagem concluída
-6. isabelia-virginalis.js — pendente
+6. isabelia-virginalis.js — passagem concluída
 7. huntleya-meleagris.js — pendente
 8. miltonia-spectabilis-var-moreliana.js — pendente
 9. oncidium-pubes.js — pendente
@@ -38,3 +38,8 @@ ECOLOGIA: epífita de raízes grossas, pseudobulbos robustos, drenagem e secagem
 ## Passagem 95 — Stanhopea guttulata
 
 ECOLOGIA: epífita de hastes descendentes; cesta suspensa com fundo desobstruído, umidade regular e aeração são indispensáveis. SUPORTES: cachepô madeira 5 estrelas, plástico vasado 4 apenas se saída inferior aberta, raízes soltas/cesto aramado 3; notas não homologadas. RECEITA VISUAL: 40% chips coco grossos + 30% pinus médio + 20% perlita grossa + 10% esfagno solto = 100%, texto e itens coerentes. DIVERGÊNCIA: justificativa atribui os quatro componentes à primeira mistura qualitativa, que tem pinus + fibra coco grossa + perlita + carvão, sem esfagno e com fibra em vez de chips. Segunda mistura tem macadâmia + chips coco + perlita + esfagno, sem pinus. Nenhuma coincide integralmente. Validar se mistura não impede a passagem de hastes e mantém umidade sem compactação. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 012169a3e7a6fef51b1b8326547ae633c26bac4b. Próxima ficha Isabelia virginalis.
+
+
+## Passagem 96 — Isabelia virginalis
+
+ECOLOGIA: miniatura rastejante epífita/rupícola, rizoma exposto e bainhas fibrosas preservadas, secagem rápida. SUPORTES: placa/tronco 5 estrelas, cachepô madeira 4, barro e plástico vasado 2; ranking não homologado. MONTAGEM PRINCIPAL: fixação direta em cortiça/madeira sem substrato retentivo, mas não constitui a primeira receita qualitativa do campo substrato. RECEITA VISUAL PARA CESTO RASO: 45% chips coco muito grossos + 35% argila expandida + 20% carvão = 100%, texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz adaptar segunda mistura qualitativa, mas ela contém pinus grosso + brita fina + carvão, sem chips coco nem argila expandida; primeira contém macadâmia grossa + perlita grossa + carvão. Nenhuma coincide integralmente. Validar retenção de 45% chips coco e estabilidade de argila expandida com rizoma exposto. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 9211e42fcfdf36e2d09562693bc1fe94a40f93b0. Próxima ficha Huntleya meleagris.
