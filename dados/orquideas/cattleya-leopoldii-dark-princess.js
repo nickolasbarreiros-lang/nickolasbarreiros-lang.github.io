@@ -39,7 +39,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade a cada 60–90 dias durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/2 da dose a cada 7–15 dias.\n🌱 Alongamento: mantenha nutrição regular enquanto o pseudobulbo cresce e engrossa.\n🌸 Maturação: reduza o nitrogênio após o endurecimento do pseudobulbo; não exagere em fórmulas de floração.\n🧪 Liberação lenta: Osmocote em dose moderada, sem contato com raízes jovens.\n🚿 Flushing: lavagem mensal para evitar sais.",
     "rega": "Durante o crescimento, regue abundantemente e permita secagem quase completa antes da próxima aplicação. Após a maturação, aumente o intervalo, acompanhando o clima. No inverno, evite substrato frio e constantemente molhado. A planta tolera melhor breve secagem que abafamento prolongado, mas hastes em crescimento não devem sofrer desidratação repetida.",
     "suporte": "🥇 Vaso de barro pesado, largo o suficiente para estabilidade e com tutor rígido.\n🥈 Cachepô robusto de madeira, preso de forma segura à bancada.\n🥉 Cesta grande para touceiras adultas.\nUse brita ou perlita grossa na base para contrapeso, sem bloquear os furos. Tutores devem ser instalados quando o broto ainda estiver flexível.",
-    substrato: ["🥇 Para vaso de barro estável: casca de macadâmia grossa + casca de pinus + brita fina + carvão vegetal (mistura visual provisória, não homologada).","🥈 Pinus grosso + casca de macadâmia grossa + perlita grossa.","🥉 Casca de pinus grossa + carvão vegetal + brita fina.","Alternativa adicional: chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida."],
+    substrato: ["🥇 Para vaso de barro com drenagem ampla: 5 partes de casca de pinus grossa + 1 parte de carvão vegetal (83,3%/16,7%; referência institucional genérica para Cattleyas, NÃO homologada para C. tigrina ou o cultivar Dark Princess).", "🥈 Casca de pinus grossa + carvão vegetal + esfagno de fibra longa em pequena quantidade (alternativa qualitativa citada por produtores para a espécie, sem proporções publicadas).", "🥉 Casca de pinus grossa + carvão vegetal + brita fina (alternativa qualitativa drenante, sem percentuais específicos publicados)."],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso de barro",
@@ -78,9 +78,9 @@ export const cattleyaLeopoldiiDarkPrincess = {
     substratoVisual: {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
-    "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "Para pseudobulbos altos, a brita acrescenta estabilidade e partículas grossas favorecem a aeração. Produtores citam pinus, carvão, coco e brita, mas não validam esta mistura específica para o cultivar Dark Princess.",
-    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de macadâmia + 25% casca de pinus + 25% brita fina + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
+    "resumo": "Casca de pinus grossa e carvão em vaso de barro com ampla drenagem; estabilidade da planta deve ser garantida pelo vaso e tutoramento.",
+    "justificativa": "AOS recomenda especificamente para Cattleya tigrina (sin. C. leopoldii) vaso de barro com drenagem ampliada e casca ou coco em partículas grossas, sem percentuais. Mogi Mirim e Bioma Plantas citam pinus, carvão e esfagno. Missouri Botanical Garden apresenta para Cattleyas em geral mistura 5:1 de casca e carvão; é referência quantitativa genérica, NÃO ensaio da espécie ou do cultivar Dark Princess. A brita pode ser empregada como material inerte de drenagem/estabilidade quando necessário, sem ser incluída artificialmente em percentual não documentado.",
+    "receitaTexto": "83,3% casca de pinus grossa + 16,7% carvão vegetal (5:1; referência genérica para Cattleyas, sem homologação específica para o cultivar).",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
@@ -88,37 +88,11 @@ export const cattleyaLeopoldiiDarkPrincess = {
         "Drenagem rápida"
     ],
     "itens": [
-        {
-            "asset": "macadamia",
-            "nome": "Casca de macadâmia",
-            "proporcao": "35%",
-            "nota": "estrutura",
-            "finalidade": "Partículas resistentes criam espaços de ar entre as raízes."
-        },
-        {
-            "asset": "casca-pinus",
-            "nome": "Casca de pinus",
-            "proporcao": "25%",
-            "nota": "umidade moderada",
-            "finalidade": "Conserva alguma umidade sem fechar a mistura quando usada em granulometria adequada."
-        },
-        {
-            "asset": "brita-pura",
-            "nome": "Brita fina",
-            "proporcao": "25%",
-            "nota": "estabilidade",
-            "finalidade": "Acrescenta peso e drenagem em plantas altas sem aumentar retenção orgânica."
-        },
-        {
-            "asset": "carvao-vegetal",
-            "nome": "Carvão vegetal",
-            "proporcao": "15%",
-            "nota": "drenagem",
-            "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
-        }
+        { "asset": "casca-pinus", "nome": "Casca de pinus grossa", "proporcao": "83,3%", "nota": "estrutura e drenagem", "finalidade": "Mantém espaços amplos de ar e favorece secagem entre regas." },
+        { "asset": "carvao-vegetal", "nome": "Carvão vegetal", "proporcao": "16,7%", "nota": "aeração complementar", "finalidade": "Complementa a estrutura na proporção institucional genérica 5:1." }
     ],
-    "alerta": "Mistura 35/25/25/15 é proposta horticultural sem ensaio comparativo específico; manter boa drenagem, fixação e observar a secagem antes de regar.",
-    "notaEvidencia": "MACS 1.0: POWO/Kew aceita Cattleya tigrina e trata Cattleya leopoldii como sinônimo; hábito epífito em ambiente tropical sazonalmente seco. AOS, em artigo específico sobre C. tigrina, recomenda vaso de barro com drenagem ampliada, substrato grosso de casca ou coco e material inerte para evitar saturação no centro do vaso; respaldo qualitativo para estabilidade/aeração, NÃO para percentuais. Três produtores brasileiros distintos com orientações para a espécie: Mogi Mirim (pinus, carvão e esfagno), Bioma Plantas (pinus, carvão e esfagno) e Matsuoka (toco, brita ou substrato genérico). Nenhuma fonte testou o cultivar Dark Princess nem comprovou 35% macadâmia + 25% pinus + 25% brita fina + 15% carvão. Receita e escores 82/79/78 são estimativas NÃO HOMOLOGADAS; meta de 25 produtores não atingida. Não confundir referências da espécie com validação específica do cultivar. Assets não inspecionados nesta passagem."
+    "alerta": "AOS recomenda drenagem central ampla e estabilidade para a espécie. Não confundir mistura genérica de Cattleyas com ensaio do cultivar; fixar pseudobulbos altos e evitar centro do vaso saturado.",
+    "notaEvidencia": "MACS 1.1: POWO/Kew aceita Cattleya tigrina e trata C. leopoldii como sinônimo. AOS recomenda especificamente vaso de barro, drenagem central ampliada e casca/coco grosso para C. tigrina: https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-tigrina . Orquidários Mogi Mirim e Bioma Plantas citam pinus, carvão e esfagno; Matsuoka cita toco ou brita; nenhum publica proporções para o cultivar. Missouri Botanical Garden documenta genericamente para Cattleyas cinco partes de casca para uma de carvão: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids . Receita 83,3/16,7 possui referência de grupo, NÃO HOMOLOGAÇÃO experimental para C. tigrina ou Dark Princess. Duas alternativas qualitativas sem percentuais; escores 82/79/78 heurísticos e meta 25 produtores não atingida."
 },
     "errosComuns": "Pouca luz; vaso leve; ausência de tutoramento; amarrar o broto com excesso de pressão; tentar endireitar pseudobulbo maduro; substrato fino; excesso de água no inverno; excesso de nitrogênio; girar o vaso durante a haste; dividir em poucas frentes; impedir espaço vertical; deixar o rizoma frouxo.",
     "dica": "Tutore a frente nova desde os primeiros centímetros de alongamento. Use amarração flexível, com folga para o espessamento, e ajuste gradualmente. Instale o vaso definitivo em local estável antes que a planta fique alta. Depois do endurecimento dos tecidos, não tente dobrar ou reposicionar a haste. A estabilidade física melhora a orientação da haste, protege raízes novas e evita que o conjunto tombe com o peso das flores.",
