@@ -39,7 +39,7 @@ export const cyrtopodiumPodophyllum = {
     "adubacao": "🌿 Orgânica: bokashi ou composto muito bem curtido em pequena quantidade, somente durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado e diluído enquanto houver folhas, raízes e pseudobulbos em expansão.\n🧪 Liberação lenta: Osmocote em dose moderada no início do ciclo; evite renovar perto da dormência.\n🍂 Maturação: reduza o nitrogênio quando os pseudobulbos estiverem cheios e as folhas começarem a envelhecer.\n🛑 Repouso: suspenda a adubação quando a planta estiver desfolhada e sem crescimento ativo.",
     "rega": "Com brotos, raízes e folhas ativas, regue fartamente e permita drenagem imediata. À medida que o crescimento amadurece e as folhas amarelecem, aumente gradualmente o intervalo. Na dormência, mantenha apenas água suficiente para evitar desidratação extrema, ajustando à temperatura e à umidade local. O comportamento da planta vale mais do que um calendário fixo.",
     "suporte": "🥇 Vaso grande, pesado e muito drenante — dá estabilidade às hastes altas.\n🥈 Jardineira ou caixa de cultivo com grande volume mineral.\n🥉 Canteiro elevado arenoso/pedregoso, protegido de excesso de chuva na dormência.\nO recipiente deve ser firme, mas nunca manter água parada no fundo.",
-    substrato: ["🥇 Casca de arroz carbonizada + fibra de coco + perlita grossa + pequena fração de pinus fino.","🥈 Fibra de coco + perlita grossa + pinus fino + carvão vegetal miúdo.","🥉 Casca de macadâmia média + casca de arroz carbonizada + perlita grossa + fibra de coco."],
+    substrato: ["🥇 Para vaso: casca de arroz carbonizada + chips de coco pequenos + perlita grossa + argila expandida miúda (receita visual provisória, não homologada para a espécie).","🥈 Casca de arroz carbonizada + fibra de coco + perlita grossa + pequena fração de pinus fino.","🥉 Fibra de coco + perlita grossa + pinus fino + carvão vegetal miúdo.","Alternativa adicional: casca de macadâmia média + casca de arroz carbonizada + perlita grossa + fibra de coco."],
     "formasCultivo": {
         "perfilVisual": "terrestre-rupicola",
         "destaque": "Vaso de Barro",
@@ -55,7 +55,7 @@ export const cyrtopodiumPodophyllum = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para vaso grande, firme e muito drenante",
         "resumo": "Mistura leve e porosa, com retenção moderada durante o crescimento e secagem facilitada no repouso sazonal.",
-        "justificativa": "Receita quantitativa proposta a partir da segunda mistura já registrada na ficha. A primeira mistura original contém perlita em duas granulometrias sem proporções definidas; não foi alterada. Esta formulação não possui homologação MACS 1.0.",
+        "justificativa": "Receita visual provisória para vaso com arroz carbonizado, chips de coco pequenos, perlita grossa e argila expandida miúda, agora também registrada entre as alternativas textuais. As três alternativas anteriores usam componentes distintos. Fontes específicas para Cyrtopodium flavum também citam areia grossa, brita e carvão, mas não validam esta formulação nem seus percentuais. Não possui homologação MACS 1.0.",
         "receitaTexto": "35% casca de arroz carbonizada + 30% chips de coco pequenos + 25% perlita grossa + 10% argila expandida miúda.",
         "perfil": ["Terrestre ou rupícola", "Pseudobulbos volumosos", "Drenagem rápida", "Alta luminosidade", "Repouso sazonal com menos água"],
         "comportamento": [
