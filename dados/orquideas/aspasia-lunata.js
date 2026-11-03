@@ -46,12 +46,15 @@ export const aspasiaLunata = {
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "É biologicamente compatível com o hábito epífito, porém exige regas mais frequentes e controle rigoroso para evitar ressecamento prolongado no clima quente." }
         ]
     },
-    substrato: ["🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
     substrato: [
-        "Casca de macadâmia média + carvão vegetal + casca de arroz carbonizada + esfagno solto",
-        "Casca de pinus média + carvão vegetal + perlita grossa + esfagno solto",
-        "Casca de macadâmia média + chips de coco médios + carvão vegetal",
-        "Casca de arroz carbonizada + perlita grossa + casca de macadâmia + pequena quantidade de turfa de esfagno"
+        "🥇 Receita visual provisória: 30% casca de macadâmia média + 25% casca de pinus média + 20% casca de arroz carbonizada + 15% carvão vegetal médio + 10% esfagno solto (100%; não homologada).",
+        "🥈 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.",
+        "🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.",
+        "Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.",
+        "Casca de macadâmia média + carvão vegetal + casca de arroz carbonizada + esfagno solto.",
+        "Casca de pinus média + carvão vegetal + perlita grossa + esfagno solto.",
+        "Casca de macadâmia média + chips de coco médios + carvão vegetal.",
+        "Casca de arroz carbonizada + perlita grossa + casca de macadâmia + pequena quantidade de turfa de esfagno."
     ],
 
     substratoVisual: {
