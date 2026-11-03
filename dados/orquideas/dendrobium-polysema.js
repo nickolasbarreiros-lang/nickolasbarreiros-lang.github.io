@@ -52,7 +52,7 @@ export const dendrobiumPolysema = {
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Funciona em ambientes naturalmente úmidos e frescos; exige regas mais frequentes e é menos tolerante a períodos secos." }
         ]
     },
-    substrato: ["🥇 Casca de pinus média + carvão vegetal + casca de macadâmia + esfagno solto (mistura-base provisória do substrato visual).", "🥈 Casca de pinus média + carvão vegetal + perlita grossa.", "🥉 Casca de macadâmia média + carvão vegetal + pequena fração de esfagno solto."],
+    substrato: ["Casca de pinus média + carvão vegetal + perlita grossa","Casca de macadâmia média + carvão vegetal + pequena fração de esfagno solto"],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cesto ou vaso ventilado",
