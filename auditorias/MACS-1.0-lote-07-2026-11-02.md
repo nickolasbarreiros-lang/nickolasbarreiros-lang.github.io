@@ -8,7 +8,7 @@ Escopo: dez fichas seguintes a Lockhartia lunifera na ordem de imports de `dados
 4. `maxillaria-leucaimata.js` — passagem concluida
 5. `coelogyne-asperata.js` — pendente
 6. `coelogyne-flaccida.js` — passagem concluida
-7. `howeara-lava-burst.js` — pendente
+7. `howeara-lava-burst.js` — passagem concluida
 8. `epicattleya-rene-marques.js` — pendente
 9. `coelogyne-fimbriata.js` — pendente
 10. `maxillaria-picta.js` — pendente
@@ -48,3 +48,8 @@ FICHA: vaso plástico vasado 5 estrelas, barro 5, cachepô madeira 4, placa/tron
 ## Passagem 66 — Coelogyne flaccida
 
 POWO https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:623859-1 aceita o nome, hábito epífita/rupícola. BSI https://bsi.gov.in/uploads/userfiles/file/Chromosome%20Database/Species%20data/Angiosperms/Coelogyne%20flaccida.pdf registra altitude 1500–1800 m. PRODUTOR ESPECÍFICO: Orquidário Mogi Mirim https://www.orquidariomogimirim.com.br/coelogyne-flaccida recomenda sombra 50–60%, substrato comercial poroso, rega frequente no crescimento e reduzida no inverno, sem composição percentual. AOS https://www.aos.org/orchid-care/care-sheets/coelogyne-culture-sheet indica para o gênero mistura casca/perlita 3:1 e cestos suspensos; não é ensaio específico. Receita existente: 35% chips coco + 30% pinus + 25% perlita + 10% esfagno = 100%; cachepô madeira e vaso plástico vasado 5 estrelas. Sem validação quantitativa, NÃO HOMOLOGADOS percentuais e estrelas. Apenas notaEvidencia alterada, demais campos preservados. UM produtor brasileiro específico localizado; meta até 25 não atingida. Commit 2035a7b4c2353f15e1c50a6ada43e65daf5c02e3. Próxima ficha Howeara Lava Burst.
+
+
+## Passagem 67 — Leomesezia Lava Burst (sin. Howeara Lava Burst)
+
+GENEALOGIA: https://www.orchids.org/grexes/leomesezia-lava-burst registra nome RHS aceito, cruzamento Leomesezia Mini-Primi x Rodriguezia lanceolata, originador Puanani, ano 1993. Não há habitat natural próprio de híbrido. FICHA: vaso plástico vasado 5 estrelas, cachepô madeira 4, barro 4, placa/tronco 2. Receita 35% pinus + 30% chips coco + 25% perlita + 10% carvão = 100%. Nenhum produtor brasileiro com fórmula percentual específica confirmada; meta 25 não atingida. Sem comparação controlada de recipientes e percentuais, NÃO HOMOLOGADOS. Observação de consistência: selo de rega 'baixa' diverge do texto 'umidade regular', para revisão posterior; não alterar nesta passagem. Apenas notaEvidencia modificada, fotos/assets/layout/índices preservados. Commit 4511e3e7bd9c9246b6ae01def0e4d9ab37a49ca4. Próxima ficha Epicattleya Rene Marques.
