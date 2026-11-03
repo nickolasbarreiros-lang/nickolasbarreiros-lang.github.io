@@ -40,7 +40,7 @@ export const dendrobiumSpectabile = {
         "🥈 Vaso de barro pesado e muito perfurado, oferecendo estabilidade às hastes.",
         "🥉 Vaso plástico firme e perfurado com substrato grosso, evitando retenção excessiva."
     ],
-    substrato: ["🥇 Para Cachepô de Madeira robusto e bem vazado: 35% casca de macadâmia grossa + 30% casca de pinus grossa + 20% perlita grossa compatível com o cachepô + 15% carvão vegetal médio/grosso (proposta NÃO homologada).", "🥈 Chips de coco grossos preparados + casca de macadâmia grossa + carvão vegetal médio/grosso + argila expandida média (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de pinus grossa + carvão vegetal médio/grosso + brita fina/média lavada e sem pó (alternativa qualitativa sem percentuais homologados; observar o peso do conjunto)."],
+    substrato: ["Chips de coco grossos preparados + casca de macadâmia grossa + carvão vegetal médio/grosso + argila expandida média","Casca de pinus grossa + carvão vegetal médio/grosso + brita fina/média lavada e sem pó"],
     formasCultivo: {
         perfilVisual: "dendrobium-epifita-tropical",
         destaque: "Cachepô de Madeira",
