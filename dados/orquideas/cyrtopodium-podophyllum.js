@@ -39,7 +39,7 @@ export const cyrtopodiumPodophyllum = {
     "adubacao": "🌿 Orgânica: bokashi ou composto muito bem curtido em pequena quantidade, somente durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado e diluído enquanto houver folhas, raízes e pseudobulbos em expansão.\n🧪 Liberação lenta: Osmocote em dose moderada no início do ciclo; evite renovar perto da dormência.\n🍂 Maturação: reduza o nitrogênio quando os pseudobulbos estiverem cheios e as folhas começarem a envelhecer.\n🛑 Repouso: suspenda a adubação quando a planta estiver desfolhada e sem crescimento ativo.",
     "rega": "Com brotos, raízes e folhas ativas, regue fartamente e permita drenagem imediata. À medida que o crescimento amadurece e as folhas amarelecem, aumente gradualmente o intervalo. Na dormência, mantenha apenas água suficiente para evitar desidratação extrema, ajustando à temperatura e à umidade local. O comportamento da planta vale mais do que um calendário fixo.",
     "suporte": "🥇 Vaso grande, pesado e muito drenante — dá estabilidade às hastes altas.\n🥈 Jardineira ou caixa de cultivo com grande volume mineral.\n🥉 Canteiro elevado arenoso/pedregoso, protegido de excesso de chuva na dormência.\nO recipiente deve ser firme, mas nunca manter água parada no fundo.",
-    substrato: ["🥇 Para vaso: casca de arroz carbonizada + chips de coco pequenos + perlita grossa + argila expandida miúda (receita visual provisória, não homologada para a espécie).","🥈 Casca de arroz carbonizada + fibra de coco + perlita grossa + pequena fração de pinus fino.","🥉 Fibra de coco + perlita grossa + pinus fino + carvão vegetal miúdo.","Alternativa adicional: casca de macadâmia média + casca de arroz carbonizada + perlita grossa + fibra de coco."],
+    substrato: ["🥈 Alternativa 1 — 50% Areia grossa + 50% Carvão vegetal. Variante percentual publicada especificamente para Cyrtopodium flavum; usar partículas grossas e vaso muito drenante, sem homologação experimental.","🥉 Alternativa 2 — 50% Areia grossa + 50% Casca de pinus. Variante percentual publicada especificamente para Cyrtopodium flavum; usar partículas grossas, observar secagem e decomposição, sem homologação experimental."],
     "formasCultivo": {
         "perfilVisual": "terrestre-rupicola",
         "destaque": "Vaso de Barro",
@@ -55,8 +55,8 @@ export const cyrtopodiumPodophyllum = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para vaso grande, firme e muito drenante",
         "resumo": "Mistura leve e porosa, com retenção moderada durante o crescimento e secagem facilitada no repouso sazonal.",
-        "justificativa": "Receita visual provisória para vaso com arroz carbonizado, chips de coco pequenos, perlita grossa e argila expandida miúda, agora também registrada entre as alternativas textuais. As três alternativas anteriores usam componentes distintos. Fontes específicas para Cyrtopodium flavum também citam areia grossa, brita e carvão, mas não validam esta formulação nem seus percentuais. Não possui homologação MACS 1.0.",
-        "receitaTexto": "35% casca de arroz carbonizada + 30% chips de coco pequenos + 25% perlita grossa + 10% argila expandida miúda.",
+        "justificativa": "MACS 1.1: cultivador brasileiro publica 50% Areia grossa + 50% de Carvão vegetal, Casca de pinus, Brita ou combinação. Nesta proposta, os 50% restantes são divididos em 25% Casca de pinus e 25% Carvão vegetal por inferência técnica, não proporção publicada. Vaso grande, pesado e muito drenante; partículas grossas e rega sazonal. A mistura não foi validada experimentalmente para Cyrtopodium flavum.",
+        "receitaTexto": "50% Areia grossa + 25% Casca de pinus + 25% Carvão vegetal.",
         "perfil": ["Terrestre ou rupícola", "Pseudobulbos volumosos", "Drenagem rápida", "Alta luminosidade", "Repouso sazonal com menos água"],
         "comportamento": [
             { "nome": "Retenção", "valor": 2, "icone": "💧" },
@@ -65,13 +65,12 @@ export const cyrtopodiumPodophyllum = {
             { "nome": "Compactação", "valor": 1, "icone": "🧱" }
         ],
         "itens": [
-            { "asset": "casca-arroz-carbonizada", "nome": "Casca de arroz carbonizada", "proporcao": "35%", "nota": "drenagem e estrutura", "finalidade": "Mantém espaços de ar e reduz a compactação da mistura." },
-            { "asset": "chips-coco", "nome": "Chips de coco pequenos", "proporcao": "30%", "nota": "reserva hídrica", "finalidade": "Oferece alguma umidade na fase de crescimento, sem dominar a composição." },
-            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "25%", "nota": "aeração", "finalidade": "Aumenta porosidade e facilita a secagem entre regas." },
-            { "asset": "argila-expandida", "nome": "Argila expandida miúda", "proporcao": "10%", "nota": "estrutura", "finalidade": "Acrescenta partículas estáveis e espaços para drenagem." }
+            { "nome": "Areia grossa", "proporcao": "50%", "nota": "fração mineral", "finalidade": "Usar areia de grãos grossos e limpa; asset visual específico pendente, não substituir por Brita." },
+            { "asset": "casca-pinus", "nome": "Casca de pinus", "proporcao": "25%", "nota": "estrutura", "finalidade": "Usar partículas médias/grossas, sem pó, para manter drenagem." },
+            { "asset": "carvao", "nome": "Carvão vegetal", "proporcao": "25%", "nota": "aeração", "finalidade": "Usar partículas médias/grossas e evitar compactação." }
         ],
         "alerta": "Aclimatar gradualmente à alta luminosidade. Reduzir regas e suspender adubação quando a folhagem amarelar naturalmente; não manter prato com água.",
-        "notaEvidencia": "MACS 1.0: a ficha trata de Cyrtopodium flavum, terrestre ou rupícola em restingas segundo CNCFlora/JBRJ. Fontes específicas de cultivo recomendam misturas com areia grossa, brita, carvão, pinus e, em uma alternativa, matéria orgânica; a receita publicada de 35% arroz carbonizado + 30% chips de coco + 25% perlita + 10% argila expandida não foi comparada experimentalmente nem homologada. Verificar estabilidade de vaso grande, fração mineral e secagem no repouso antes de alterar percentuais. Estrelas também são estimativas horticulturais."
+        "notaEvidencia": "MACS 1.1: receita de cultivador brasileiro específica com 50% Areia grossa e 50% de Casca de pinus, Carvão vegetal ou Brita, isolados ou combinados. A receita visual de 50% Areia grossa + 25% Casca de pinus + 25% Carvão vegetal tem a fração areia documental B e divisão restante inferida D, NÃO homologada experimentalmente. As duas alternativas de 50/50 são documentais B, também sem ensaio. POWO classifica a espécie como epífita, enquanto literatura brasileira registra hábito terrestre/rupícola em restinga: divergência registrada na matriz. Asset específico de Areia grossa pendente. Estrelas D preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-035-CYRTOPODIUM-FLAVUM.md."
     },
     "errosComuns": "Pouca luz; solo argiloso e compacto; prato com água; regar da mesma forma o ano inteiro; cortar pseudobulbos traseiros firmes; excesso de nitrogênio perto da dormência; confundir queda natural das folhas com doença; replantar durante emissão da haste; aclimatar ao sol de forma abrupta.",
     "dica": "As reservas estão nos pseudobulbos. Durante a estação de crescimento, concentre o manejo em formar pseudobulbos grandes, firmes e bem iluminados. Quando a folhagem começar a amarelar naturalmente, reduza água e suspenda adubação. Essa alternância é mais eficiente para estimular floração do que simplesmente aumentar fósforo.",
