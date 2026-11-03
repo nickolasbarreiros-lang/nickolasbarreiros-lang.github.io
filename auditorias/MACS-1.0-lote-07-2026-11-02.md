@@ -5,7 +5,7 @@ Escopo: dez fichas seguintes a Lockhartia lunifera na ordem de imports de `dados
 1. `jacquiniella-globosa.js` — passagem concluida
 2. `camaridium-carinatum.js` — passagem concluida
 3. `acianthera-pubescens.js` — passagem concluida
-4. `maxillaria-leucaimata.js` — pendente
+4. `maxillaria-leucaimata.js` — passagem concluida
 5. `coelogyne-asperata.js` — pendente
 6. `coelogyne-flaccida.js` — pendente
 7. `howeara-lava-burst.js` — pendente
@@ -34,3 +34,12 @@ TAXONOMIA/HÁBITO: POWO/Kew https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni
 PRODUTOR BRASILEIRO ESPECÍFICO: Orquidário Aparecida https://orquidarioaparecida.com.br/produtos/acianthera-pubescens/ oferece esta espécie montada em ripinha de cambará, descreve ambiente úmido e ventilado, e admite madeira/cachepô/vasos em seu manejo geral. Evidência prática direta da viabilidade de madeira, mas sem comparação de suportes nem fórmula percentual. Apenas UM produtor com recomendação específica confirmado nesta passagem; meta de 25 não atingida. Outras páginas de cuidado genérico com epífitas não contam como produtores específicos.
 
 FICHA: placa/tronco 5 estrelas, árvore viva e outras alternativas mantidas. Receita para vaso 35% pinus fino/médio + 30% casca de arroz carbonizada + 20% carvão pequeno + 15% esfagno solto = 100%. Sem ensaio controlado localizado para esta composição ou ranking dos suportes: NÃO HOMOLOGADA. Apenas notaEvidencia atualizada, preservando receitas, estrelas, índices, fotos e assets; conferência visual pendente. Commit da ficha 659795f9b17854c727ed3c51b63445d3dacb34db. Próxima ficha Maxillaria leucaimata.
+
+
+## Passagem 64 — Maxillaria leucaimata
+
+TAXONOMIA/HÁBITO: POWO/Kew https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:643560-1 aceita Maxillaria leucaimata Barb.Rodr., epífita pseudobulbosa de floresta tropical úmida. WFO/Flora do Brasil https://www.worldfloraonline.org/taxon/wfo-0000238554 registra hábito epífita e rupícola. A ficha já descreve ambos.
+
+PRODUTOR BRASILEIRO ESPECÍFICO: BR Orquídea https://www.br-orquidea.com.br/espanol/default.asp?ct=1&id=plantas_detalhes2&pd=195 comercializa Maxillaria leucaimata, informa sombreamento 50%, altitude 100–900 m e hábito epífita/rupícola; NÃO fornece receita de substrato ou comparação de suportes. UM produtor brasileiro específico identificado nesta passagem; meta até 25 não atingida. AOS https://www.aos.org/explore/maxillaria apresenta orientação de gênero, não evidência experimental específica.
+
+FICHA: vaso plástico vasado 5 estrelas, barro 5, cachepô madeira 4, placa/tronco 3. Receita 35% perlita grossa + 30% brita fina/média + 25% casca de macadâmia triturada + 10% pinus médio = 100%. A composição favorece drenagem/aeração por inferência técnica, mas nenhuma fonte localizada testa os percentuais ou demonstra superioridade do suporte. PARECER: receita e estrelas NÃO HOMOLOGADAS. Apenas notaEvidencia alterada, preservando percentuais, índices, imagens, assets e layout. Commit da ficha c69ac58218cb2366c3d1b67ed8c3a59b607b32df. Próxima ficha Coelogyne asperata.
