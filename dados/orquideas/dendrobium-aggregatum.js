@@ -39,7 +39,7 @@ export const dendrobiumAggregatum = {
     "adubacao": "🌱 Brotação: NPK equilibrado em baixa concentração quando novas raízes aparecerem.\n☀️ Crescimento: mantenha alimentação regular e leve enquanto o pseudobulbo estiver aumentando.\n🍂 Maturação: reduza gradualmente o nitrogênio quando o crescimento endurecer.\n💤 Repouso: suspenda a adubação até o reinício do crescimento.\n🌿 Bokashi/Osmocote: somente no início do ciclo e em quantidade pequena, especialmente em placas e cestos.",
     "rega": "Com brotos e raízes ativos, regue generosamente e deixe o suporte secar parcialmente entre irrigações. Quando os pseudobulbos estiverem maduros e o crescimento parar, reduza gradualmente. No repouso, forneça apenas água suficiente para evitar enrugamento excessivo e prolongado. Chuva frequente fora de época pode reduzir a indução floral e aumentar risco de podridão.",
     "suporte": "🥇 Placa de madeira dura ou cortiça — excelente secagem e exposição dos cachos.\n🥈 Cesto pequeno de madeira — acomoda touceiras sem prender inflorescências.\n🥉 Vaso de barro raso e muito drenante.\nEvite recipientes fundos e muito retentivos, principalmente em regiões úmidas.",
-    substrato: ["🥇 Chips de coco muito grossos + argila expandida + carvão vegetal.","🥈 Casca de macadâmia grossa + perlita grossa + carvão vegetal."],
+    substrato: ["🥇 Para cesto ou vaso: casca de pinus grossa + brita fina + carvão vegetal (mistura-base provisória do substrato visual; montagem em placa/tronco permanece principal).","🥈 Chips de coco muito grossos + argila expandida + carvão vegetal.","🥉 Casca de macadâmia grossa + perlita grossa + carvão vegetal."],
     "formasCultivo": {
         "perfilVisual": "dendrobium-epifita-sazonal",
         "destaque": "Placa / tronco",
@@ -55,7 +55,7 @@ export const dendrobiumAggregatum = {
         "titulo": "Substrato ideal",
         "contexto": "Montagem principal sem mistura volumétrica; receita para cesto ou vaso",
         "resumo": "Na montagem, raízes expostas sobre suporte firme. Para recipiente, mistura grossa e de secagem rápida, sem esfagno no miolo.",
-        "justificativa": "A primeira recomendação original é montagem sem substrato. A receita quantitativa abaixo usa os três componentes da segunda alternativa já presente na ficha; não é homologação MACS 1.0.",
+        "justificativa": "O cultivo principal permanece a montagem em placa ou tronco, sem mistura volumétrica. A receita quantitativa abaixo é uma proposta provisória para cesto ou vaso, agora incluída também entre as alternativas textuais; as alternativas anteriores usam materiais distintos. Não constitui homologação MACS 1.0.",
         "receitaTexto": "45% casca de pinus grossa + 30% brita fina + 25% carvão vegetal.",
         "perfil": ["Raízes epífitas", "Touceira compacta", "Cachos pendentes", "Secagem rápida", "Repouso sazonal mais seco"],
         "comportamento": [
