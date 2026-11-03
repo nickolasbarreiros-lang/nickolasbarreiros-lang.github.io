@@ -13,7 +13,7 @@ Escopo: primeira passagem documental, sem homologação quantitativa. Apenas not
 7. huntleya-meleagris.js — passagem concluída
 8. miltonia-spectabilis-var-moreliana.js — passagem concluída
 9. oncidium-pubes.js — passagem concluída
-10. miltonia-candida.js — pendente
+10. miltonia-candida.js — passagem concluída
 
 ## Passagem 91 — Dichaea pendula
 
@@ -58,3 +58,12 @@ IDENTIFICAÇÃO: nome atual na ficha Miltonia moreliana; arquivo histórico milt
 ## Passagem 99 — Gomesa pubes
 
 IDENTIFICAÇÃO: nome atual na ficha Gomesa pubes, arquivo histórico oncidium-pubes.js. ECOLOGIA: epífita com pseudobulbos bifoliados e hastes longas; raízes aeradas e suporte estável. SUPORTES: barro 5 estrelas, plástico vasado e cachepô madeira 4, placa/tronco 3; notas não homologadas. RECEITA VISUAL: 35% pinus médio + 30% chips coco + 25% perlita grossa + 10% carvão = 100%, texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira mistura qualitativa, que contém pinus + perlita + argila expandida + esfagno, sem chips coco nem carvão. Segunda contém macadâmia + pinus + perlita + fibra coco, sem carvão e com fibra em vez de chips. Nenhuma coincide integralmente. Validar retenção, secagem e estabilidade em vaso de barro sob hastes longas. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit f78346389b41f5b8591b05a52c900e3e7b1311de. Próxima ficha Miltonia candida.
+
+
+## Passagem 100 — Miltonia candida
+
+ECOLOGIA: epífita de raízes finas sensíveis a sais e secagem prolongada; vaso pequeno ventilado, umidade homogênea sem saturação. SUPORTES: plástico vasado 5 estrelas, barro e cachepô madeira 4, placa/tronco 3; notas não homologadas. RECEITA VISUAL: 35% pinus médio + 30% chips coco + 25% perlita grossa + 10% carvão = 100%, texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira mistura qualitativa, que contém pinus + perlita + argila expandida + esfagno, sem chips coco nem carvão. Segunda contém macadâmia + pinus + perlita + fibra coco, sem carvão e com fibra em vez de chips. Nenhuma coincide integralmente. Validar retenção para raízes finas, aeração e controle de sais. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit c31855eba642a9c8b12747c8a51e9026f8701366.
+
+## Fechamento do Lote 10
+
+Dez fichas (91–100) com primeira passagem documental registrada em seus respectivos campos notaEvidencia. Receitas visuais e percentuais foram preservados, assim como estrelas, classificações, layouts e assets. As discrepâncias entre receitas visuais, alternativas qualitativas e justificativas estão registradas para revisão técnica posterior. Este fechamento NÃO representa homologação quantitativa MACS 1.0 nem conferência de produtores brasileiros em quantidade-alvo.
