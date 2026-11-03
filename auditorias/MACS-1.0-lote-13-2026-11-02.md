@@ -8,7 +8,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 2. zygopetalum-maculatum.js — passagem concluída
 3. phalaenopsis-mannii.js — passagem concluída
 4. bulbophyllum-falcatum.js — passagem concluída
-5. bulbophyllum-syciobulbon.js — pendente
+5. bulbophyllum-syciobulbon.js — passagem concluída
 6. laelia-caulencens.js — pendente
 7. rodricidium.js — pendente
 8. laelia-praestans.js — pendente
@@ -33,3 +33,8 @@ EPÍFITA pendente, raízes ventiladas, crescimento úmido e inverno moderadament
 ## Passagem 124 — Bulbophyllum falcatum
 
 EPÍFITA africana de rizoma rastejante e raízes finas, umidade regular, raque floral achatada que precisa de espaço lateral. SUPORTES: cachepô madeira 5 estrelas, plástico vasado e placa/tronco 4, barro 3. RECEITA VISUAL: 35% pinus médio + 25% chips coco tratados + 25% perlita grossa + 15% esfagno solto = 100%; texto e itens coerentes. QUALITATIVAS: primeira esfagno longo + perlita; segunda chips coco + perlita + carvão miúdo + esfagno (sem pinus); terceira macadâmia + pinus + perlita + esfagno (sem coco). Nenhuma coincide integralmente com visual. Justificativa reconhece hipótese não testada. Validar retenção, granulometria, rizoma exposto e saída livre da inflorescência. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 5982e59606d88278c8a330ec0ffc4845f64de07a. Próxima ficha Bulbophyllum syciobulbon.
+
+
+## Passagem 125 — Bulbophyllum sicyobulbon
+
+ESPÉCIE montana epífita de rizoma muito espaçado; arquivo histórico syciobulbon preservado. SUPORTES: plástico vasado 5 estrelas (provisório), cachepô madeira e placa/tronco 4, barro 3. RECEITA VISUAL: 40% pinus médio + 20% chips coco + 25% perlita grossa + 15% esfagno solto = 100%; texto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: qualitativa 1 esfagno longo + perlita; qualitativa 2 chips coco + perlita + carvão miúdo + esfagno, sem pinus; qualitativa 3 macadâmia + pinus + perlita + esfagno, sem coco. Nenhuma coincide. Justificativa reconhece inferência e escolha provisória do vaso. Validar retenção, granulometria, espaço lateral e noites frescas. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit b4f6f385ea2fd85ced6fc60b822a2c5930b3c16e. Próxima ficha Laelia caulencens.
