@@ -600,3 +600,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Justificativa corrigida: argila expandida foi substituída por perlita e granulometria do pinus ajustada; não se deve dizer que a receita visual repete literalmente a antiga. Referências gerais de Cattleya apoiam substrato aberto/drenagem, sem validar proporções específicas para C. warneri. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
 - Commit ficha: 53cc1b950c5d61eccd627b893a79dccfbc78fac2. Fotos, assets, IDC/IAR e layout preservados.
 - Progresso: 79/149 checagens; 77 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 080 — Bulbophyllum elassonotum.
+
+## Registro 080 — Bulbophyllum elassonotum (2026-11-03)
+- Corrigida divergência entre a receita visual (35% pinus médio + 25% chips de coco tratados + 25% perlita grossa + 15% esfagno solto) e as três alternativas qualitativas: nenhuma correspondia exatamente. A receita visual foi acrescentada como primeira alternativa provisória; as três anteriores foram preservadas integralmente.
+- `receitaTexto` e os quatro itens visuais já concordavam; composição, percentuais, comportamento, fotos e assets não foram alterados. Uma única propriedade `substrato` confirmada no objeto. Commit ficha: 609c86e73ab42d63a69ab130c0460b523a7aced8.
+- Cesto raso/cachepô ventilado permanece coerente com rizoma rastejante e inflorescências pendentes, mas ranking de suportes é inferencial. Fontes da ficha não comprovam fórmula percentual; meta 25 produtores específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS. IDC/IAR/layout preservados.
+- Progresso: 80/149 checagens; 78 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Lote 08 (71–80) concluído em primeira passagem; próximas etapas devem prosseguir no manifesto seguinte. Próxima ficha: 081 — identificar no lote 09.
