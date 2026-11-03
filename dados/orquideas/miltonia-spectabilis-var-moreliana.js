@@ -36,7 +36,7 @@ export const miltoniaSpectabilisVarMoreliana = {
     "adubacao": "🌿 Orgânica: bokashi em pequena porção, dentro de porta-adubo na borda do recipiente.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose, a cada 10–15 dias enquanto broto e pseudobulbo estiverem crescendo. Reduza após a maturação.\n🧪 Liberação lenta: poucos grânulos em vaso muito drenante, longe de raízes novas.\n🚿 Flushing: uma vez por mês, regue abundantemente somente com água pura para remover sais acumulados.",
     "rega": "Durante a brotação, mantenha umidade regular e permita apenas que a superfície comece a secar. Secagem prolongada nessa fase gera folhas sanfonadas permanentes. Antes de aumentar a água, examine as raízes: firmes e claras indicam falta de umidade; escuras, ocas ou moles revelam perda radicular e excesso de retenção. Depois que o pseudobulbo amadurecer, aumente discretamente o intervalo sem causar murchamento profundo.",
     "suporte": "🥇 Vaso plástico raso tipo cuia, com muitos furos: oferece espaço horizontal ao rizoma sem grande coluna de substrato.\n🥈 Vaso de barro raso: excelente para regiões úmidas e regas frequentes.\n🥉 Cesto de madeira: indicado para touceiras grandes e ambientes com umidade elevada.",
-    substrato: ["🥇 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
+    substrato: ["🥇 Receita visual provisória para vaso raso tipo cuia: pinus médio 35% + chips de coco 30% + perlita grossa 25% + carvão vegetal 10% (100%; não homologada).","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
     formasCultivo: {
         perfilVisual: "miltonia-moreliana-rizoma-expansivo-raizes-capilares",
         destaque: "Vaso plástico vasado",
@@ -52,7 +52,7 @@ export const miltoniaSpectabilisVarMoreliana = {
         titulo: "Substrato ideal",
         contexto: "Mistura aerada para vaso raso tipo cuia",
         resumo: "Umidade regular, granulometria média e excelente drenagem para raízes delicadas, sem compactação ou saturação prolongada.",
-        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual para vaso raso tipo cuia combina pinus médio, chips de coco, perlita grossa e carvão vegetal. A primeira mistura qualitativa antiga contém argila expandida e esfagno, sem chips de coco nem carvão; a segunda contém macadâmia e fibra de coco, também sem carvão e com fibra em vez de chips. Nenhuma corresponde integralmente à composição visual. A fórmula visual foi incluída como primeira alternativa textual provisória, preservando as duas receitas anteriores. Para as raízes capilares, usar partículas de tamanho compatível com o sistema radicular e manter umidade regular sem saturação; os percentuais ainda não foram validados por comparação com produtores. Não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
         perfil: ["Epífita simpodial", "Rizoma expansivo", "Raízes capilares", "Vaso raso", "Umidade regular"],
         comportamento: [
