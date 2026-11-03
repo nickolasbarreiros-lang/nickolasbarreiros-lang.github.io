@@ -496,3 +496,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência do lote 07:** POWO/Kew reconhece A. pubescens (sin. Pleurothallis pubescens) como epífita; estudo florístico UNESP descreve hábito holoepífito, simpodial e reptante. Orquidário Aparecida comercializa exemplares montados em ripinha de cambará, evidência prática de suporte, não de comparação de substratos. Apenas um produtor brasileiro com indicação específica confirmado; meta 25 não atingida. Percentuais não homologados.
 - **Limites:** demais receitas, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 63/149 checagens; 61 fichas com correções efetivas (003–063); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 064 — confirmar pela ordem do lote 07.
+
+## Correção na mesma passagem — registro 064 (2026-11-03)
+- **Ficha 064 — Maxillaria leucaimata** (`dados/orquideas/maxillaria-leucaimata.js`): cultivo em vaso pequeno; receita visual 35% perlita grossa + 30% brita fina/média + 25% macadâmia triturada + 10% pinus médio = 100%.
+- **Correções efetivas:** primeira alternativa textual não correspondia à receita visual (incluía cacos/argila expandida e omitia brita/pinus); adicionada receita exata como primeira opção e preservadas as três anteriores. Justificativa corrigida para descrever os componentes reais, não homologação e hábito epífita/rupícola. Commit `9fa4cebc5a2526c6aad61bbbeda23f682cd5749e`.
+- **Evidência do lote 07:** POWO aceita M. leucaimata; WFO/Flora do Brasil registra hábito epífita/rupícola; BR Orquídea informa sombra 50%, altitude 100–900 m e hábito, sem receita. AOS fornece apenas orientação genérica para o gênero. Um produtor brasileiro específico, abaixo da meta 25. Receita 35/30/25/10 e estrelas não homologadas.
+- **Limites:** demais receitas, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 64/149 checagens; 62 fichas com correções efetivas (003–064); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 065 — confirmar ordem no manifesto do lote 07.
