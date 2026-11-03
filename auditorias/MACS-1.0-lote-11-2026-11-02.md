@@ -9,7 +9,7 @@ Escopo: primeira passagem documental de cultivo e substratos. Não alterar recei
 3. trichocentrum-fuscum.js — passagem concluída
 4. bifrenaria-harrisoniae.js — passagem concluída
 5. maxillaria-pumila-ex-minuta.js — passagem concluída
-6. ludisia-discolor.js — pendente
+6. ludisia-discolor.js — passagem concluída
 7. bulbophyllum-ambrosia.js — pendente
 8. cattleya-guttata-var-coerulea.js — pendente
 9. octomeria-diaphana.js — pendente
@@ -38,3 +38,8 @@ ECOLOGIA: epífita/rupícola com pseudobulbos robustos, requer alta aeração e 
 ## Passagem 105 — Maxillaria pumila (ex-minuta)
 
 ECOLOGIA: miniatura epífita de raízes capilares, montagem principal em placa com esfagno mínimo e umidade frequente. SUPORTES: placa/tronco 5 estrelas, barro e plástico vasado 4, cachepô madeira 3; notas não homologadas. RECEITA VISUAL alternativa para microvaso: 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra coco grossa = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira qualitativa (fibra coco + chips coco + perlita + pinus), mas visual omite chips coco e introduz macadâmia. Segunda e terceira qualitativas também diferem. Validar granulometria média/grossa, contato hídrico com raízes capilares, secagem e sais. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 2295c6dfff2a7899f5af39e59b11000134d1a93c. Próxima ficha Ludisia discolor.
+
+
+## Passagem 106 — Ludisia discolor
+
+ECOLOGIA: orquídea-joia TERRESTRE de rizoma rastejante; vaso largo e raso, meio orgânico levemente úmido e drenado. SUPORTES: plástico 5 estrelas, barro 4, plástico vasado 3, cachepô madeira 2; não homologados. RECEITA VISUAL: 40% fibra coco + 25% casca arroz carbonizada + 20% perlita + 15% pinus fino = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa atribui receita à primeira qualitativa (chips coco pequenos + pinus fino + perlita fina/média + vermiculita até 10%), mas visual introduz fibra coco e arroz carbonizado, omite chips e vermiculita. Segunda qualitativa contém fibra coco + perlita + esfagno + arroz carbonizado, sem pinus, e também não coincide. Validar retenção e oxigenação para hábito terrestre, ausência de componente humoso e granulometria da perlita. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit ab29be2c6376e1551d4eff8fe9cdb858451ae08f. Próxima ficha Bulbophyllum ambrosia.
