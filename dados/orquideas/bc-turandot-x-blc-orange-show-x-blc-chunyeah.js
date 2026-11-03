@@ -72,9 +72,9 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     substratoVisual: {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
-        "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
-        "justificativa": "Vaso de barro ajustado ao volume das raízes, com drenagem livre. O híbrido forma pseudobulbos robustos e precisa de alternância entre hidratação abundante e secagem perceptível para manter raízes ativas. Esta receita para recipiente é uma proposta técnica de cultivo, não uma fórmula experimental validada especificamente para a espécie.",
-        "receitaTexto": "40% casca de pinus grossa + 25% carvão vegetal + 20% brita fina + 15% chips de coco tratados.",
+        "resumo": "Mistura aberta de referência para Cattleyas, com casca predominante e carvão; secagem controlada em vaso de barro.",
+        "justificativa": "O Missouri Botanical Garden documenta para Cattleyas e outras orquídeas simpodiais cinco partes de casca para uma de carvão (5:1), equivalentes a aproximadamente 83,3% e 16,7%. É referência genérica institucional, não ensaio deste híbrido. AOS recomenda casca média/grossa, boa aeração e secagem entre regas. A receita anterior com 20% de brita e 15% de coco não possuía respaldo quantitativo específico e foi substituída. Em vaso de barro, observar a velocidade real de secagem.",
+        "receitaTexto": "83,3% casca de pinus grossa + 16,7% carvão vegetal (proporção 5:1 documentada para Cattleyas em geral; não homologada para este híbrido).",
         "perfil": [
             "Raízes grossas",
             "Alta aeração",
@@ -106,38 +106,12 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
             }
         ],
         "itens": [
-            {
-                "asset": "casca-pinus",
-                "nome": "Casca de pinus grossa",
-                "proporcao": "40%",
-                "nota": "estrutura e drenagem",
-                "finalidade": "Sustenta as raízes sem comprimi-las; a granulometria grossa conserva espaços amplos para oxigênio."
-            },
-            {
-                "asset": "carvao-vegetal",
-                "nome": "Carvão vegetal",
-                "proporcao": "25%",
-                "nota": "porosidade e estabilidade",
-                "finalidade": "Mantém canais de ar e ajuda a evitar que a mistura se torne excessivamente fechada."
-            },
-            {
-                "asset": "brita-pura",
-                "nome": "Brita fina",
-                "proporcao": "20%",
-                "nota": "peso e drenagem",
-                "finalidade": "Estabiliza o vaso e favorece escoamento; use granulometria que não preencha os poros do pinus."
-            },
-            {
-                "asset": "chips-coco",
-                "nome": "Chips de coco tratados",
-                "proporcao": "15%",
-                "nota": "reserva hídrica moderada",
-                "finalidade": "Amortece a secagem sem transformar o vaso em ambiente permanentemente úmido."
-            }
+            { "asset": "casca-pinus", "nome": "Casca de pinus grossa", "proporcao": "83,3%", "nota": "estrutura e drenagem", "finalidade": "Base porosa predominante, permitindo ar e secagem entre regas." },
+            { "asset": "carvao-vegetal", "nome": "Carvão vegetal", "proporcao": "16,7%", "nota": "aeração complementar", "finalidade": "Complementa a estrutura da mistura em proporção 5:1 com a casca." }
         ],
-        "alerta": "MACS 1.0: cruzamento horticultural complexo sem ensaio de substrato específico localizado. AOS recomenda para Cattleya adulta casca média/grossa, aeração e secagem entre regas; Missouri Botanical Garden usa 5 partes de casca para 1 de carvão (receita genérica). Pesquisa brasileira de Sorace/UEL testou pinus, fibra de coco e casca de arroz em outras Cattleyas e híbrido distinto; não valida esta fórmula. Os 40% pinus + 25% carvão + 20% brita + 15% chips coco são hipótese horticultural NÃO homologada; a brita 20% e demais percentuais não possuem confirmação específica. Mantenha rizoma livre, ajuste regas pela secagem real e substitua substrato degradado."
+        "alerta": "MACS 1.1: referência quantitativa genérica do Missouri Botanical Garden, cinco partes de casca para uma de carvão (83,3/16,7), sem ensaio específico deste híbrido. AOS recomenda aeração e secagem entre regas para Cattleyas adultas. Nenhuma proporção foi homologada experimentalmente para este cruzamento. Ajustar a granulometria ao volume radicular e não enterrar o rizoma. Fonte: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids"
     },
-    substrato: ["🥇 Para vaso de barro: casca de pinus grossa + carvão vegetal + brita fina + chips de coco tratados (mistura visual provisória, não homologada).","🥈 Pinus grosso + casca de macadâmia grossa + perlita grossa.","🥉 Casca de pinus grossa + carvão vegetal + brita fina.","Alternativa adicional: chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida."],
+    substrato: ["🥇 Para vaso de barro: 5 partes de casca de pinus grossa + 1 parte de carvão vegetal (83,3%/16,7%; referência institucional genérica para Cattleyas, não validada para este híbrido).", "🥈 Casca de pinus grossa + carvão vegetal + brita fina (alternativa qualitativa sem proporções homologadas).", "🥉 Casca de pinus grossa + casca de macadâmia grossa + perlita grossa (alternativa qualitativa sem proporções documentadas)."],
     errosComuns: "Cultivar em sombra excessiva; Usar vasos muito grandes ou substratos finos e compactados; Manter as raízes constantemente encharcadas; Deixar água acumulada no miolo dos brotos e bainhas durante a noite; Exagerar na adubação nitrogenada após o amadurecimento dos pseudobulbos; Dividir a touceira com menos de três a quatro pseudobulbos por corte.",
     dica: "Posicione a planta no setor mais iluminado e arejado do cultivo. Evite vasos excessivamente grandes e substratos retentivos: as raízes deste híbrido exigem aeração constante e ciclos rápidos de molha-e-seca para formar pseudobulbos encorpados e garantir floradas regulares e duradouras.",
     revisaoCientificaIAR: {
