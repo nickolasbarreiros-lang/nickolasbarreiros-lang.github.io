@@ -53,7 +53,7 @@ export const laeliaCinnabarina = {
         titulo: "Substrato ideal",
         contexto: "Mistura predominantemente mineral para vaso baixo",
         resumo: "Mistura grossa, muito drenante e arejada, com pequena fração orgânica para estabilidade hídrica.",
-        justificativa: "A composição quantifica os quatro materiais da primeira mistura qualitativa já registrada na ficha. Os percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        justificativa: "A receita visual contém brita fina/média, perlita grossa, macadâmia triturada e pinus grosso. A primeira mistura qualitativa antiga, porém, contém macadâmia, perlita e cacos cerâmicos ou argila expandida — não brita nem pinus. A terceira alternativa menciona brita e componente orgânico grosso, mas não define os mesmos materiais nem proporções. Portanto, nenhuma alternativa antiga reproduz integralmente a receita visual. A proporção mineral/orgânica permanece uma hipótese horticultural que exige validação específica para esta rupícola; os percentuais não são homologados pela MACS 1.0.",
         receitaTexto: "35% brita fina/média + 30% perlita grossa + 25% casca de macadâmia triturada + 10% casca de pinus grossa.",
         perfil: ["Rupícola", "Alta luminosidade", "Raízes arejadas", "Drenagem rápida", "Hastes florais altas"],
         comportamento: [
