@@ -317,3 +317,17 @@ A busca direcionada identificou **quatro estabelecimentos brasileiros independen
 **Decisão MACS:** há convergência razoável para pinus + carvão, apoio específico para coco, e **lacuna para perlita a 25%**. A mistura atual é horticulturalmente plausível, mas **não homologada**. Esfagno merece aparecer como alternativa contextual de retenção hídrica, sem adição automática à receita. **Nenhuma alteração de ficha nesta passagem**, pois não há demonstração comparativa de superioridade.
 
 **Próxima verificação:** procurar evidência independente para perlita no cultivo do híbrido e examinar se o manejo hídrico da ficha descreve secagem total ou parcial, visto que as recomendações de produtores divergem.
+
+## Décima segunda passagem — Oncidium Twinkle: evidência específica para perlita
+
+**Fonte específica e independente:** Ottawa Orchid Society, boletim *SPIKE*, janeiro de 2021, resumo da apresentação de Marilyn Light (dezembro de 2020), p. 16: https://ottawaorchidsociety.com/wp-content/uploads/spike/january_2021.pdf . A seção dedicada a **Oncidium Twinkle** identifica os parentais *Onc. cheirophorum × O. sotoanum* e recomenda cultivo quente a intermediário, **em vaso com chips de coco finos/médios, casca e perlita**, luz indireta forte, rega abundante seguida de secagem e adubação leve ao longo do ano.
+
+**Relevância MACS:** evidência de cultivo **diretamente atribuída ao híbrido**, publicada por sociedade de orquidófilos, agora corrobora **perlita como ingrediente** junto com casca e coco. É uma fonte internacional de orientação técnica, **não um produtor brasileiro**, não fornece percentuais e não demonstra que 25% de perlita seja melhor do que 10%, 15% ou 30%.
+
+**Fonte de apoio ao gênero:** Orchid Society of Great Britain, https://www.osgb.org.uk/orchids/orchid-care-guides/oncidium-orchid-care : recomenda casca média com perlita ou carvão e ressalta retenção equilibrada e raízes finas. Evidência de gênero, não prova para o híbrido.
+
+**Fontes adicionais de orientação:** American Orchid Society, https://www.aos.org/orchid-care/care-sheets/oncidium-culture-sheet , enfatiza umidade moderada e aeração e descreve várias alternativas de mistura com cascas/esfagno, sem proporção de perlita específica para Twinkle. RHS, https://www.rhs.org.uk/plants/327502/oncidium-twinkle-gx/details , recomenda substrato aberto à base de cascas, com brita hortícola, esfagno ou fibra de coco; não define percentuais.
+
+**Reavaliação da pendência anterior:** a afirmação "perlita sem respaldo" fica **superada** no sentido de **adequação qualitativa do ingrediente**, mas continua válida como **ausência de homologação quantitativa brasileira**. Conservar receita atual 35% pinus / 30% coco / 25% perlita / 10% carvão. Não atribuir a essa mistura a condição de ideal cientificamente demonstrado.
+
+**Resultado:** 1 fonte internacional específica do híbrido, 3 fontes institucionais complementares, 0 produtores brasileiros adicionais, 0 fichas alteradas, 0 percentuais homologados.
