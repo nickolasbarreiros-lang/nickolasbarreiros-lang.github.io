@@ -40,7 +40,7 @@ export const rodrigueziaVenusta = {
     "adubacao": "🌿 Orgânica: bokashi em sachê pequeno, colocado na borda do vaso/cachepô e sem contato direto com raízes.\n💧 Mineral/Foliar: NPK equilibrado em cerca de 1/3 a 1/2 da dose a cada 7–15 dias durante brotação e enraizamento.\n🌱 Crescimento: mantenha nutrição leve e constante enquanto novas raízes estiverem ativas.\n🧪 Liberação lenta: Osmocote somente em dose muito reduzida e em recipientes muito drenantes.\n🚿 Lavagem: faça flushing periódico com água pura para reduzir sais, pois as raízes finas são sensíveis à salinização.",
     "rega": "Durante o crescimento, mantenha umidade regular sem saturação. Em placas ou troncos, regas diárias podem ser necessárias nos dias quentes, desde que as raízes sequem superficialmente em poucas horas. Em vasos ou cachepôs, espere o substrato perder boa parte da umidade antes de repetir. Regue preferencialmente pela manhã, permitindo que folhas, bainhas e raízes estejam sem excesso de água à noite.",
     "suporte": "🥇 Placa vertical de cortiça, madeira dura ou galho rugoso — melhor opção para raízes finas e para o caimento natural das hastes.\n🥈 Cachepô pequeno e muito vazado — mantém touceira compacta e excelente ventilação.\n🥉 Vaso pequeno de barro bem furado — alternativa segura em ambientes de menor umidade.\nMantenha a planta suspensa ou com espaço livre abaixo das inflorescências.",
-    substrato: ["🥇 Para cachepô ou vaso: casca de pinus média + chips de coco + perlita grossa + carvão vegetal (mistura-base provisória do substrato visual; placa/tronco permanece principal).","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
+    substrato: ["🥈 Alternativa 1 — 60% casca de pinus pequena/média + 20% carvão vegetal pequeno + 10% esfagno solto + 10% chips de coco lavados. Mistura mais aberta para secagem lenta; percentuais MACS 1.1 D, inferidos e não homologados.","🥉 Alternativa 2 — 50% casca de pinus pequena/média + 25% esfagno solto + 25% casca de arroz carbonizada. Opção sem carvão, para ambiente com secagem rápida; percentuais MACS 1.1 D, inferidos e não homologados."],
     formasCultivo: {
         perfilVisual: "rodriguezia-bracteata-epifita-pendente-raizes-finas",
         destaque: "Placa / tronco",
@@ -55,9 +55,9 @@ export const rodrigueziaVenusta = {
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Mistura alternativa para cachepô ou vaso; montagem principal sem enchimento",
-        resumo: "Na placa vertical, fixar as raízes com mínimo material retentivo. Para recipientes, usar mistura aberta de pinus, coco, perlita e carvão.",
-        justificativa: "A receita visual propõe pinus, chips de coco, perlita e carvão para cachepô ou vaso, agora explicitados como primeira alternativa textual. As alternativas anteriores empregam outros materiais. Não aplicar como camada espessa sobre a placa, que permanece o cultivo principal. Percentuais estimados e ainda não homologados pela MACS 1.0.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        resumo: "Na placa vertical, manter raízes livres e mínimo material retentivo. Para cachepô pequeno e muito vazado, usar mistura aberta de pinus, esfagno solto, carvão e chips de coco lavados.",
+        justificativa: "MACS 1.1: composição por convergência de fontes brasileiras específicas que documentam pinus, esfagno, carvão e coco para cultivo em recipiente. Montagem em placa/tronco permanece principal e dispensa mistura percentual. Percentuais por volume são hipóteses técnicas, não receitas publicadas ou experimentalmente validadas.",
+        receitaTexto: "55% casca de pinus pequena/média + 20% esfagno solto + 15% carvão vegetal pequeno + 10% chips de coco lavados.",
         perfil: ["Epífita compacta", "Raízes finas", "Hastes pendentes", "Ventilação alta", "Secagem rápida"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -66,13 +66,13 @@ export const rodrigueziaVenusta = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta raízes sem compactação." },
-            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Oferece retenção moderada entre regas." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Mantém drenagem e oxigenação." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para mistura aberta." }
+            { asset: "casca-pinus", nome: "Casca de pinus pequena/média", proporcao: "55%", nota: "estrutura", finalidade: "Sustenta raízes finas com aeração em recipiente pequeno." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "20%", nota: "reserva hídrica", finalidade: "Conserva umidade para raízes finas sem compactação." },
+            { asset: "carvao", nome: "Carvão vegetal pequeno", proporcao: "15%", nota: "aeração", finalidade: "Complementa a estrutura aberta e a secagem." },
+            { asset: "chips-coco", nome: "Chips de coco lavados", proporcao: "10%", nota: "umidade moderada", finalidade: "Amortece a secagem sem dominar o volume; lavar antes do uso." }
         ],
         alerta: "Evitar sombra profunda, vasos grandes, esfagno compactado e molhamento prolongado à noite. Não bloquear as hastes pendentes; regar preferencialmente pela manhã.",
-        notaEvidencia: "Receita para recipientes ainda não homologada pela MACS 1.0. Fontes brasileiras específicas documentam pinus + carvão + esfagno, e pinus + esfagno ou esfagno + casca de arroz carbonizada; a mistura atual com 30% chips de coco e 25% perlita é hipótese horticultural, não proporção comprovada. Na placa/tronco, não utilizar a mistura como enchimento."
+        notaEvidencia: "MACS 1.1: composição B qualitativa específica (Orquivitro, Orquídeas no Apê, Nhá Mercedes); percentuais D inferenciais, NÃO HOMOLOGADOS para a espécie. Não há receita percentual específica publicada nem validação experimental. Placa/tronco continua principal sem enchimento; estrelas de suportes D preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-029-RODRIGUEZIA-BRACTEATA-VENUSTA.md."
     },
     "errosComuns": "Sombra profunda; vaso grande; excesso de esfagno; substrato velho ou compactado; impedir o caimento das hastes; deixar a touceira molhada à noite; aplicar matéria orgânica diretamente sobre raízes; adubar forte; replantar fora da emissão de novas raízes; dividir touceiras pequenas; falta de ventilação.",
     "dica": "O melhor manejo é suspender a planta em placa, cortiça ou cachepô vazado e liberar completamente o espaço abaixo das hastes. A montagem vertical combina exatamente o que a espécie precisa: raízes finas bem oxigenadas, secagem rápida depois da rega e caminho livre para as inflorescências pendentes. Regue pela manhã e use apenas uma camada mínima de material retentivo.",
