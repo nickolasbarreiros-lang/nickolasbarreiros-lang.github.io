@@ -371,3 +371,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 05:** POWO classifica C. cristata principalmente como litófita; AOS admite epífita/litófita, RHS/AOS recomendam substrato drenante, umidade no crescimento e repouso mais seco com frio. Produtores Mogi Mirim, Maripá, Nhá Mercedes e Graças Garden citam pinus/cascas/carvão/esfagno/coco, sem proporções. A receita 35/30/25/10 não está homologada. Em clima quente a floração pode falhar mesmo com substrato correto.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 45/149 checagens; 43 fichas com correções efetivas (003–045); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 046 — Bc. Turandot × Blc. Orange Show × Blc. Chunyeah.
+
+## Correção na mesma passagem — registro 046 (2026-11-03)
+- **Ficha 046 — Bc. Turandot × Blc. Orange Show × Blc. Chunyeah** (`dados/orquideas/bc-turandot-x-blc-orange-show-x-blc-chunyeah.js`): cultivo principal em vaso de barro; receita visual 40% pinus grosso + 25% carvão vegetal + 20% brita fina + 15% chips de coco tratados = 100%.
+- **Correção efetiva:** receita visual ausente das três alternativas textuais; incluída como primeira opção provisória, preservadas as três anteriores. A justificativa visual já identificava corretamente o caráter provisório e foi preservada. Commit `9c0a63fdd0ecefeecc1ea7228bdacab829e988b8`.
+- **Limites:** híbrido horticultural complexo, sem ensaio quantitativo específico confirmado; percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados. Homologação quantitativa pendente.
+- **Progresso:** 46/149 checagens; 44 fichas com correções efetivas (003–046); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 047 — Cattleya schilleriana × Cruzeiro do Sul.
