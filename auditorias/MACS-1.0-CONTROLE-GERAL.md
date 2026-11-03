@@ -1250,3 +1250,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **4 fornecedores brasileiros específicos:** Maripá (cascas/carvão/madeira/esfagno; plástico/barro/caixeta/árvore), Mogi Mirim (pinus/carvão/perlita/esfagno opcional), Vico (pinus/carvão/pedras; barro pesado ou cachepô), Matsuoka (substrato genérico ou toco; classificação terrestre isolada diverge das demais). **3 com ingredientes; 0 receitas percentuais**.
 - R0 35% macadâmia/25% pinus/20% carvão/10% arroz carbonizado/10% esfagno; R1 hipótese sem macadâmia (55% pinus/25% carvão/10% esfagno/10% perlita); R2 hipótese 15% macadâmia/45% pinus/20% carvão/10% arroz/10% esfagno. **Macadâmia 35% e arroz 10% sem respaldo específico**. AOS de montagem alerta sobre desidratação no calor; estudo de Dematté 1996 mede propriedades hídricas de materiais, não esta espécie. Ingredientes B qualitativo; R0 D, percentuais D, estrelas D. Sem homologação quantitativa nem alterações JS/assets.
 - **Progresso: 24/149 matrizes documentadas; 0/149 homologações quantitativas de desempenho.** Próxima ficha oficial: Oncidium Twinkle.
+
+
+### MACS 1.1 — 025 Oncidium Twinkle (2026-11-03)
+Matriz: `auditorias/MACS-1.1-MATRIZ-025-ONCIDIUM-TWINKLE.md` (commit `95bb70af`). Ficha atualizada: `dados/orquideas/oncidium-twinkle.js` (commit `353cec26`). Método integrado: commit `505291a6`.
+Receita recomendada por convergência, por volume: 55% pinus fino/médio, 25% esfagno solto, 10% chips de coco lavados, 10% carvão pequeno. Total 100%. Composição e percentuais C inferenciais; estrelas D; sem validação experimental A. RHS e NEBG documentam casca e esfagno para o híbrido, sem proporções. Não alterar outras características da ficha.
+Progresso: 25/149 matrizes; 1 ficha quantitativamente revisada; 1 formulação C; 0 experimentos A. Próxima: Dendrobium tenellum. Revisitar 001–024 posteriormente.
