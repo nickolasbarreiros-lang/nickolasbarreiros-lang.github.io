@@ -537,3 +537,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência do lote 07:** ficha e referências gerais POWO/Kew e AOS apoiam hábito epífita/litófita e orientação geral, mas não teste comparativo de suportes nem receita percentual. Nenhum produtor brasileiro com fórmula percentual específica confirmado; meta 25 não atingida. Estrelas e percentuais permanecem NÃO HOMOLOGADOS.
 - **Limites:** demais receitas, fotos, assets, IDC/IAR e layout preservados.
 - **Progresso:** 69/149 checagens; 67 fichas com correções efetivas (003–069); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 070 — Maxillaria picta.
+
+## Correção na mesma passagem — registro 070 (2026-11-03)
+- **Ficha 070 — Maxillaria picta (= Brasiliorchis picta)** (`dados/orquideas/maxillaria-picta.js`): cultivo principal vaso pequeno e bem perfurado; receita visual 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa = 100%.
+- **Correções efetivas:** a primeira mistura textual anterior (chips de coco + pinus + perlita + carvão) divergia da receita visual (macadâmia + fibra de coco). Incluída a fórmula visual exata como primeira alternativa provisória, preservadas as três receitas anteriores. Justificativa corrigida para reconhecer a divergência real. Commit `1ea0dbe51c6d0ff984ad996488aa2db8a053544d`.
+- **Evidência do lote 07:** manifesto registra hábito epífita/rupícola, flores basais e preferência por noites amenas; suporta a escolha de vaso proporcional e muito perfurado como hipótese horticultural, não experimento comparativo. Não há produtor brasileiro com receita percentual específica confirmado; meta de 25 não atingida. Percentuais e estrelas permanecem NÃO HOMOLOGADOS.
+- **Limites:** demais receitas, fotos, assets, IDC/IAR e layout preservados.
+- **Progresso:** 70/149 checagens; 68 fichas com correções efetivas (003–070); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** abrir/consultar manifesto para identificar 071.
