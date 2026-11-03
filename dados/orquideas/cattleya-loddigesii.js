@@ -36,11 +36,11 @@ export const cattleyaLoddigesii = {
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose semanal ou quinzenalmente enquanto houver brotos e raízes em crescimento. Próximo à maturação dos pseudobulbos, pode-se reduzir a frequência ou o nitrogênio, sem necessidade de adubos excessivamente ricos em fósforo.\n🧪 Liberação lenta: Osmocote 14-14-14 ou equivalente em dose moderada, sem encostar diretamente nas raízes novas e evitando sobreposição com adubação líquida intensa.",
     rega: "Durante brotação e enraizamento, regue abundantemente e permita que o substrato perca boa parte da umidade antes da próxima irrigação. No outono e inverno, reduza a frequência conforme temperatura, chuva, atividade radicular e velocidade de secagem, sem deixar os pseudobulbos desidratarem em excesso. Cattleya loddigesii não exige repouso seco rigoroso.",
     suporte: "🥇 Vaso de barro pequeno ou médio, apenas do tamanho necessário.\n🥈 Cachepô de madeira, excelente para formar touceiras com várias frentes.\n🥉 Placa ou tronco, especialmente em ambientes de alta umidade, lembrando que plantas adultas ficam pesadas e exigem regas mais frequentes.",
-    substrato: ["🥇 Proposta provisória para recipiente bem drenado: casca de pinus 35% + casca de macadâmia 25% + perlita grossa 25% + carvão vegetal 15% (100%; não validada por ensaio).","🥈 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥉 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","Alternativa adicional: chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
+    substrato: ["🥇 Para recipiente proporcional e bem drenado: 35% casca de pinus média + 25% casca de macadâmia média + 25% perlita grossa + 15% carvão vegetal (hipótese horticultural NÃO homologada para plantas adultas de Cattleya loddigesii).", "🥈 Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios preparados (alternativa qualitativa sem proporções homologadas).", "🥉 Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa (alternativa qualitativa sem percentuais específicos publicados)."],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso de barro",
-    "resumo": "MACS 1.0: barro e plástico vasado são opções próximas; o vaso de barro segue como proposta principal pela secagem lateral.",
+    "resumo": "MACS 1.1: barro e plástico vasado são opções possíveis sem comparação quantitativa; o vaso de barro segue como proposta principal pela secagem lateral.",
     "metodos": [
         {
             "nome": "Vaso de barro",
@@ -77,7 +77,7 @@ export const cattleyaLoddigesii = {
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
     "justificativa": "Para recipiente proporcional ao porte, o pinus oferece alguma umidade sem comprometer a ventilação das raízes.",
-    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de pinus + 25% casca de macadâmia + 25% perlita grossa + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
+    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de pinus média + 25% casca de macadâmia média + 25% perlita grossa + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
@@ -87,14 +87,14 @@ export const cattleyaLoddigesii = {
     "itens": [
         {
             "asset": "casca-pinus",
-            "nome": "Casca de pinus",
+            "nome": "Casca de pinus média",
             "proporcao": "35%",
             "nota": "umidade moderada",
             "finalidade": "Conserva alguma umidade sem fechar a mistura quando usada em granulometria adequada."
         },
         {
-            "asset": "macadamia",
-            "nome": "Casca de macadâmia",
+            "asset": "casca-macadamia",
+            "nome": "Casca de macadâmia média",
             "proporcao": "25%",
             "nota": "estrutura",
             "finalidade": "Partículas resistentes criam espaços de ar entre as raízes."
@@ -107,7 +107,7 @@ export const cattleyaLoddigesii = {
             "finalidade": "Amplia a porosidade e reduz a compactação do recipiente."
         },
         {
-            "asset": "carvao-vegetal",
+            "asset": "carvao",
             "nome": "Carvão vegetal",
             "proporcao": "15%",
             "nota": "drenagem",
@@ -115,7 +115,7 @@ export const cattleyaLoddigesii = {
         }
     ],
     "alerta": "Estudos com plântulas favorecem pinus e pinus associado à casca de arroz carbonizada, mas não validam esta receita para plantas adultas. Observar secagem e manter drenagem.",
-    "notaEvidencia": "MACS 1.0 — primeira passagem documental: Cattleya loddigesii, espécie bifoliada epífita ou rupícola, requer suporte estável, drenagem e secagem entre regas. Métodos listados: vaso de barro (destaque), cachepô madeira, placa/tronco e plástico vasado; TODOS têm estrelas:null, portanto ranking quantitativo de suportes ausente, sem atribuir notas nesta passagem. Receita visual 35% pinus + 25% macadâmia + 25% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. DIVERGÊNCIA: nenhuma das três alternativas qualitativas coincide integralmente com receita visual: primeira contém chips coco e não macadâmia; segunda contém argila expandida e não perlita; terceira contém chips coco e não macadâmia. Alerta da ficha cita estudos com plântulas e pinus/arroz carbonizado, sem validar composição para adultas. Meta até 25 produtores brasileiros específicos não atingida; percentuais e avaliação de suportes NÃO HOMOLOGADOS."
+    "notaEvidencia": "MACS 1.1 — revisão documental: Cattleya loddigesii, espécie bifoliada epífita ou rupícola, requer suporte estável, drenagem e secagem entre regas. Métodos listados: vaso de barro (destaque), cachepô madeira, placa/tronco e plástico vasado; TODOS têm estrelas:null, portanto ranking quantitativo de suportes ausente, sem atribuir notas nesta passagem. Receita visual 35% pinus + 25% macadâmia + 25% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% pinus, 25% macadâmia, 25% perlita, 15% carvão); as duas alternativas qualitativas são distintas, não equivalentes à principal. Alerta da ficha cita estudos com plântulas e pinus/arroz carbonizado, sem validar composição para adultas. Meta até 25 produtores brasileiros específicos não atingida; percentuais e avaliação de suportes NÃO HOMOLOGADOS."
 },
     errosComuns: "Cultivar sob sombra excessiva; secar demais durante crescimento ativo; manter substrato velho, compactado ou constantemente molhado; usar vaso muito grande; enterrar o rizoma; replantar sem novas raízes em emissão; quebrar raízes novas durante o replante; dividir touceiras pequenas; aplicar fertilizante em excesso.",
     dica: "Replante apenas quando as primeiras pontas de raízes novas surgirem na base do crescimento mais recente. Esse é o momento em que a planta coloniza rapidamente o novo recipiente. Evite dividir apenas para organizar a touceira: várias frentes significam mais reservas, mais raízes e vários pseudobulbos capazes de florir simultaneamente.",
