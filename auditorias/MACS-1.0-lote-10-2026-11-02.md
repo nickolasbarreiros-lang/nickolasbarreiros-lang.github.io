@@ -8,7 +8,7 @@ Escopo: primeira passagem documental, sem homologação quantitativa. Apenas not
 2. dichaea-cogniauxiana.js — passagem concluída
 3. promenaea-guttata.js — passagem concluída
 4. encyclia-gallopavina.js — passagem concluída
-5. stanhopea-guttulata.js — pendente
+5. stanhopea-guttulata.js — passagem concluída
 6. isabelia-virginalis.js — pendente
 7. huntleya-meleagris.js — pendente
 8. miltonia-spectabilis-var-moreliana.js — pendente
@@ -33,3 +33,8 @@ TAXONOMIA NO ARQUIVO: ficha aponta tratamento POWO como Promenaea stapelioides s
 ## Passagem 94 — Encyclia gallopavina
 
 ECOLOGIA: epífita de raízes grossas, pseudobulbos robustos, drenagem e secagem entre regas, sem repouso seco rígido. SUPORTES: cachepô madeira e barro 5 estrelas, placa/tronco e plástico vasado 4; ranking não validado especificamente. RECEITA VISUAL: 35% macadâmia + 30% pinus + 20% perlita + 15% carvão = 100%; texto e itens coerentes. DIVERGÊNCIA: justificativa atribui os quatro componentes à primeira alternativa qualitativa, que contém pinus + perlita + carvão + chips coco, sem macadâmia. Segunda alternativa tem macadâmia + argila expandida + carvão + pinus, sem perlita; terceira tem chips coco + perlita + carvão + pinus, sem macadâmia. Nenhuma coincide integralmente. Avaliar granulometria e secagem em cachepô versus barro. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit e7a7a811d28a4bf506574e3895787666ec9d0ed0. Próxima ficha Stanhopea guttulata.
+
+
+## Passagem 95 — Stanhopea guttulata
+
+ECOLOGIA: epífita de hastes descendentes; cesta suspensa com fundo desobstruído, umidade regular e aeração são indispensáveis. SUPORTES: cachepô madeira 5 estrelas, plástico vasado 4 apenas se saída inferior aberta, raízes soltas/cesto aramado 3; notas não homologadas. RECEITA VISUAL: 40% chips coco grossos + 30% pinus médio + 20% perlita grossa + 10% esfagno solto = 100%, texto e itens coerentes. DIVERGÊNCIA: justificativa atribui os quatro componentes à primeira mistura qualitativa, que tem pinus + fibra coco grossa + perlita + carvão, sem esfagno e com fibra em vez de chips. Segunda mistura tem macadâmia + chips coco + perlita + esfagno, sem pinus. Nenhuma coincide integralmente. Validar se mistura não impede a passagem de hastes e mantém umidade sem compactação. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 012169a3e7a6fef51b1b8326547ae633c26bac4b. Próxima ficha Isabelia virginalis.
