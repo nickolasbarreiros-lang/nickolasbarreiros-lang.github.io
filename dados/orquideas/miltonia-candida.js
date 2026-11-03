@@ -36,7 +36,7 @@ export const miltoniaCandida = {
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, dentro de porta-adubo e afastado do rizoma e dos brotos.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose, a cada 10–15 dias durante o crescimento. Reduza depois que o pseudobulbo encorpar.\n🧪 Liberação lenta: poucos grânulos em vaso extremamente drenante, sem contato com raízes novas.\n🚿 Flushing: realize uma lavagem abundante com água pura aproximadamente uma vez por mês, ajustando conforme a qualidade da água e a intensidade da adubação.",
     "rega": "Na emissão de brotos e folhas, regue assim que a superfície do substrato começar a secar. Não permita secagem completa prolongada. Folhas sanfonadas registram interrupções na expansão e não voltam ao formato normal. Antes de simplesmente aumentar as regas, examine as raízes: claras e firmes apontam para seca ou baixa umidade; castanhas, moles ou ocas revelam perda radicular, caso em que mais água agrava o problema. Após a maturação, aumente levemente o intervalo sem desidratar os pseudobulbos.",
     "suporte": "🥇 Vaso plástico pequeno e perfurado: conserva umidade homogênea com pouco volume de substrato.\n🥈 Vaso de barro: indicado para ambientes úmidos ou rotinas de rega frequente.\n🥉 Cesto de madeira: ótimo para touceiras expansivas e locais com elevada umidade relativa.",
-    substrato: ["🥇 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
+    substrato: ["🥇 Receita visual provisória para vaso plástico pequeno e perfurado: pinus médio 35% + chips de coco 30% + perlita grossa 25% + carvão vegetal 10% (100%; não homologada).","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
     formasCultivo: {
         perfilVisual: "miltonia-epifita-raizes-finas-umidade-regular",
         destaque: "Vaso plástico vasado",
@@ -52,7 +52,7 @@ export const miltoniaCandida = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso plástico pequeno e perfurado",
         resumo: "Equilíbrio entre umidade regular e boa drenagem, protegendo raízes finas durante a formação de novos pseudobulbos.",
-        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual para vaso plástico pequeno e perfurado combina pinus médio, chips de coco, perlita grossa e carvão vegetal. A primeira mistura qualitativa antiga contém argila expandida e esfagno, sem chips de coco nem carvão; a segunda contém macadâmia e fibra de coco, sem carvão e com fibra em vez de chips. Nenhuma corresponde integralmente à composição visual. A fórmula visual foi incluída como primeira alternativa textual provisória, preservando as duas receitas anteriores. Para as raízes finas de Miltonia candida, acompanhar a retenção dos chips de coco e a secagem do vaso, mantendo umidade homogênea sem saturação; usar água de baixa salinidade e realizar lavagem periódica dos sais. Percentuais não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
         perfil: ["Miltonia epífita", "Raízes finas", "Umidade homogênea", "Drenagem eficiente", "Baixa salinidade"],
         comportamento: [
