@@ -40,7 +40,7 @@ export const coelogyneCristata = {
     "adubacao": "🌿 Orgânica: bokashi leve somente durante brotação ativa, retirado ou interrompido antes do repouso.\n💧 Mineral/Foliar: NPK equilibrado bem diluído na primavera e verão.\n🌱 Crescimento: adube enquanto folhas e pseudobulbos estiverem se formando.\n🍂 Outono: reduza gradualmente junto com a água.\n💤 Inverno: suspenda totalmente a adubação.\n🧪 Liberação lenta: dose baixa apenas no início da estação de crescimento; evite formulações que continuem liberando nutrientes no repouso.",
     "rega": "Na primavera e no verão, regue abundantemente enquanto houver brotos e raízes ativas, deixando o substrato arejado. No outono, reduza de forma progressiva. Durante o inverno, mantenha quase seca, com irrigações mínimas apenas se os pseudobulbos começarem a enrugar excessivamente. Não deixe a mistura fria e molhada. Retome a rega de modo gradual com o aparecimento de botões ou novos crescimentos.",
     "suporte": "🥇 Cestinho largo de madeira — permite expansão da touceira e caimento das hastes.\n🥈 Vaso raso e amplo — oferece estabilidade sem excesso de substrato profundo.\n🥉 Placa grande — indicada somente em clima frio e úmido, com regas controladas.\nMantenha o recipiente suspenso e com espaço livre abaixo.",
-    "substrato": ["Casca de pinus média + esfagno solto + carvão vegetal","Casca de pinus média + chips de coco médios + carvão vegetal"],
+    "substrato": ["Casca de pinus média + esfagno de fibra longa solto + carvão vegetal médio","Casca de pinus média + chips de coco médios preparados + carvão vegetal médio"],
     "formasCultivo": {
         "perfilVisual": "coelogyne",
         "destaque": "Cachepô de Madeira",
