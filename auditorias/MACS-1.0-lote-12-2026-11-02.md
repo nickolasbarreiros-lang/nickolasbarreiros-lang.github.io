@@ -7,7 +7,7 @@ Escopo: primeira passagem documental de cultivo e substratos. Não alterar recei
 1. blc-chia-lin.js — passagem concluída
 2. octomeria-micrantha.js — passagem concluída
 3. gongora-bufonia.js — passagem concluída
-4. pabstiella-trifida.js — pendente
+4. pabstiella-trifida.js — passagem concluída
 5. laelia-lundii-alba.js — pendente
 6. cattleya-chocolate-drop.js — pendente
 7. cattleya-a-brazilian-dream.js — pendente
@@ -28,3 +28,8 @@ ECOLOGIA: miniatura epífita cespitosa, raízes finas, montagem principal em pla
 ## Passagem 113 — Gongora bufonia
 
 ECOLOGIA: epífita de florestas úmidas, hastes florais pendentes, exige cesto suspenso de fundo aberto e umidade regular com aeração. SUPORTES: cachepô madeira 5 estrelas, plástico vasado 4, placa/tronco 2, barro 1. RECEITA VISUAL: 35% chips coco grossos + 30% pinus médio + 20% perlita grossa + 15% esfagno solto = 100%; texto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: justificativa diz seguir a primeira qualitativa (macadâmia + chips coco + perlita + esfagno), mas visual substitui macadâmia por pinus; segunda qualitativa pinus + fibra coco + perlita + carvão também não coincide. Validar retenção do esfagno e passagem livre das inflorescências. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada; demais campos preservados. Commit 4e46bde1a0514c1f97c894afb0c5147462290018. Próxima ficha Pabstiella trifida.
+
+
+## Passagem 114 — Pabstiella trifida
+
+ECOLOGIA: miniatura sem pseudobulbos, raízes capilares e exigência de umidade/noites frescas; principal placa com esfagno mínimo. SUPORTES: placa/tronco 5 estrelas, cachepô madeira 4, barro e plástico vasado 3. RECEITA VISUAL alternativa para recipiente: 40% chips coco pequenos + 30% pinus fino + 30% perlita grossa = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa alega receita chips coco + perlita + pinus já existente, mas qualitativas são (1) esfagno + perlita adequada a miniaturas e (2) pinus fino + perlita adequada a miniaturas + esfagno. Nenhuma inclui chips coco; visual omite esfagno e especifica perlita grossa. Validar granulometria para raízes capilares, retenção e temperatura/secagem no calor. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 2a80be2d349b7a8b6997cbc66cabe31bdfb0adbd. Próxima ficha Laelia lundii alba.
