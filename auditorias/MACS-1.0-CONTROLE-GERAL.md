@@ -618,3 +618,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - `receitaTexto` e quatro itens visuais já concordavam; composição, percentuais, fotos/assets e comportamento não alterados. Justificativa já reconhecia ausência de convergência brasileira específica; nenhuma alteração necessária nela. Commit ficha: 3dd2345c22af3a85a2dd5898b3b96a965ae991dd.
 - Nome aceito na ficha como B. roxburghii, com B. sikkimense como sinônimo; não inferir clima alpino pelo epíteto. Fontes não validam percentuais nem ranking dos suportes; meta 25 produtores específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS.
 - Progresso: 82/149 checagens; 80 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 083 — Cattlianthe Jewel Box.
+
+## Registro 083 — Cattlianthe Jewel Box (2026-11-03)
+- Híbrido Guarianthe aurantiaca × Cattleya Anzac; sem habitat natural próprio. Receita visual mantida: 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão vegetal = 100%; `receitaTexto` e itens já concordavam.
+- Corrigida a justificativa de `substratoVisual`: a primeira mistura textual anterior continha pinus + perlita + carvão + chips de coco (sem macadâmia); a segunda continha macadâmia + argila expandida + carvão + pinus (sem perlita). Nenhuma correspondia integralmente à composição visual. Nenhum ingrediente ou percentual alterado; demais alternativas, fotos, assets, suportes/estrelas, IDC/IAR e layout preservados. Commit ficha: 78705ec743da030cb239110a0d41250fbbb9b3ea.
+- Genealogia do híbrido não é evidência de substrato. Até 25 produtores específicos não encontrados; percentuais e estrelas NÃO HOMOLOGADOS.
+- Progresso: 83/149 checagens; 81 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 084 — Cattleya loddigesii.
