@@ -73,7 +73,7 @@ export const dichaeaCogniauxiana = {
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "retenção complementar", finalidade: "Protege contra secagem excessiva quando aplicado sem compactação." }
         ],
         alerta: "Evitar sol direto forte, secagem prolongada e esfagno compactado. Alta umidade não significa raízes encharcadas: manter ar em movimento.",
-        notaEvidencia: "Percentuais e estrelas são estimativas horticulturais ainda não homologadas pela MACS 1.0. Validação visual dos assets pendente."
+        notaEvidencia: "MACS 1.0 — primeira passagem documental: Dichaea cogniauxiana, epífita de floresta sombreada e úmida, raízes sensíveis à seca e ao abafamento. Suportes placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; notas sem comparação quantitativa específica. Receita visual para recipiente 35% macadâmia média + 30% fibra coco grossa + 25% perlita grossa + 10% esfagno solto = 100%; receitaTexto e itens concordam. DIVERGÊNCIA GRAVE: justificativa atribui receita à segunda alternativa e alega duplicação de granulometrias de perlita na primeira; primeira contém pinus + chips coco + perlita (apenas uma granulometria), segunda pinus + perlita + carvão + esfagno, nenhuma contém macadâmia nem fibra coco grossa. Montagem principal em placa com esfagno junto às raízes é distinta da receita para recipiente. Verificar retenção e granulometria para raízes delicadas; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
         "Expor ao sol direto forte",
