@@ -79,3 +79,11 @@ Este controle é um índice de progresso, não substitui os pareceres detalhados
 - **Cobertura adicional de produtores brasileiros com receitas específicas verificada nesta passagem:** 0 novas fontes; meta até 25 continua pendente. Não significa que não existam recomendações.
 - **Decisão:** inconsistência textual identificada e necessidade de validação da granulometria; manter receita, índices, estrelas e assets até haver evidência suficiente. **Não homologada quantitativamente**.
 - **Próxima ficha:** 005 — Promenaea xanthina. **Progresso:** 4/149 checagens registradas; 0/149 homologações quantitativas comprovadas.
+
+## Segunda passagem — registro 005 (2026-11-03)
+- **Ficha 005 — Promenaea xanthina** (`dados/orquideas/promenaea-xanthina.js`): receita visual 45% pinus fino + 40% perlita grossa + 15% esfagno solto = 100%; correspondência entre `receitaTexto` e `itens` confirmada.
+- **Divergência de origem:** `substratoVisual.justificativa` afirma quantificar a segunda alternativa qualitativa; esta contém somente esfagno + perlita, sem pinus. A primeira contém chips de coco + perlita + pinus, sem esfagno. Nenhuma corresponde à receita visual; corrigir justificativa apenas com base documental suficiente.
+- **Cultivo principal:** vaso plástico vasado pequeno. Retenção efetiva e velocidade de secagem dependem de volume, ventilação, tamanho real da perlita e frequência de rega.
+- **Evidência brasileira preexistente no lote 01:** Orquidário Oriental (esfagno ou misturas de coco/pinus/carvão, umidade regular), Orquidário Santa Clara (ventilação, evitar encharcamento) e Orquidário Aparecida (montagem com manejo hídrico). Essas recomendações mostram diversidade de recipientes, não validam 45/40/15. **Novas recomendações brasileiras específicas verificadas nesta passagem:** 0; meta até 25 ainda pendente.
+- **Parecer:** revisão prioritária da fração de 40% de perlita grossa e do risco de secagem rápida em vaso pequeno no clima quente, sem assumir que aumentar esfagno é necessariamente correto. Manejo de água por estágio de brotação já está diferenciado na ficha. **Percentuais e estrelas não homologados**; não alterar receita, assets ou índices nesta checagem.
+- **Próxima ficha:** 006 — Brassia lawrenceana. **Progresso:** 5/149 checagens internas registradas; 0/149 homologações quantitativas comprovadas.
