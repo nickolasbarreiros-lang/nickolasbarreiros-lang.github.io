@@ -40,7 +40,7 @@ export const encycliaAlboxanthina = {
         "🥈 Vaso de barro bem perfurado e proporcional à touceira.",
         "🥉 Montagem em cortiça ou madeira, quando houver disponibilidade de regas frequentes."
     ],
-    substrato: ["🥇 Para Cachepô de Madeira bem vazado: 35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa compatível com o cachepô + 15% carvão vegetal médio (proposta NÃO homologada).", "🥈 Casca de pinus média/grossa + perlita grossa compatível com o cachepô + carvão vegetal médio + pequena fração de chips de coco grossos preparados (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de macadâmia média + argila expandida média + carvão vegetal médio + casca de pinus grossa (alternativa qualitativa sem percentuais homologados)."],
+    substrato: ["Casca de pinus média/grossa + perlita grossa compatível com o cachepô + carvão vegetal médio + pequena fração de chips de coco grossos preparados","Casca de macadâmia média + argila expandida média + carvão vegetal médio + casca de pinus grossa"],
     formasCultivo: {
         perfilVisual: "encyclia-epifita-rupicola-clara",
         destaque: "Cachepô de Madeira",
