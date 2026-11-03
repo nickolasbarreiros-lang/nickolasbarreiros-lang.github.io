@@ -40,7 +40,7 @@ export const coelogyneFimbriata = {
     "adubacao": "🌿 Orgânica: bokashi leve em sachê durante brotação ativa, longe do rizoma.\n💧 Mineral/Foliar: NPK equilibrado diluído a cada 10–15 dias enquanto houver crescimento.\n🌱 Colônia em expansão: mantenha nutrição suave e contínua para formar novos pseudobulbos.\n🍂 Período frio: reduza a frequência, mas não suspenda rigidamente se houver atividade.\n🧪 Liberação lenta: pequena dose de Osmocote em cestos ou vasos rasos.\n🚿 Lavagem: enxágue periodicamente para evitar sais nas raízes finas.",
     "rega": "Durante crescimento ativo, mantenha o suporte ou substrato levemente úmido, deixando apenas a superfície secar. Em placas, regas mais frequentes podem ser necessárias. No inverno, reduza moderadamente conforme a evaporação, sem impor seca total. O rizoma e as raízes finas não toleram desidratação prolongada nem água estagnada.",
     "suporte": "🥇 Placa larga de cortiça ou madeira dura — acompanha o hábito rastejante e permite expansão lateral.\n🥈 Cestinho raso de madeira — deixa o rizoma ultrapassar as bordas livremente.\n🥉 Vaso largo e baixo — oferece superfície sem excesso de profundidade.\nPriorize largura e durabilidade; o suporte deve permitir crescimento por vários anos.",
-    "substrato": ["Casca de pinus média + chips de coco médios + perlita grossa","Casca de pinus média + perlita grossa + esfagno de fibra longa solto"],
+    "substrato": ["Casca de pinus média + chips de coco médios preparados + perlita grossa","Casca de pinus média + perlita grossa + esfagno de fibra longa solto"],
     "formasCultivo": {
         "perfilVisual": "coelogyne",
         "destaque": "Placa / tronco",
