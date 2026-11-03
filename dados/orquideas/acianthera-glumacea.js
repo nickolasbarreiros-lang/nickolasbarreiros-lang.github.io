@@ -72,7 +72,7 @@ export const aciantheraGlumacea = {
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva hídrica moderada", finalidade: "Mantém umidade entre regas sem transformar a mistura em um meio permanentemente encharcado." }
         ],
         alerta: "Mantenha o rizoma sobre a superfície. Em litoral quente e muito úmido, use vaso pequeno e bem ventilado e reduza o esfagno se a secagem estiver lenta.",
-        notaEvidencia: "A composição é uma hipótese horticultural para cultivo em vaso, não ensaio controlado específico da espécie. Ainda depende de confronto documentado com 25 produtores brasileiros distintos; não alterar estrelas MACS por inferência.",
+        notaEvidencia: "MACS 1.0: POWO e Flora Digital UFSC confirmam hábito epífito; IOSPE descreve ocorrência sobre casca rugosa com musgo. Esses registros apoiam qualitativamente montagem em placa e umidade moderada, mas não demonstram que a mistura de vaso 45% pinus + 20% arroz carbonizado + 20% carvão + 15% esfagno seja superior. Percentuais provisórios, não homologados; nesta etapa não foi localizado produtor brasileiro com receita quantitativa específica, portanto a meta de até 25 produtores permanece pendente. Não alterar estrelas por inferência.",
     },
     errosComuns: ["Remover ramicaules antigos ainda verdes que podem reflorir.", "Encharcar o centro de touceiras densas.", "Cultivar em calor noturno abafado.", "Usar substrato decomposto ou compactado.", "Usar vaso excessivamente grande.", "Manter sombra profunda.", "Confundir a preferência por umidade com necessidade de substrato permanentemente saturado."],
     revisaoCientificaIAR: {
