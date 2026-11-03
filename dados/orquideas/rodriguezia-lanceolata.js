@@ -43,11 +43,11 @@ export const rodrigueziaLanceolata = {
     substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
     formasCultivo: {
         perfilVisual: "rodriguezia-epifita-raizes-finas-hastes-pendentes",
-        destaque: "Cachepô de Madeira",
-        resumo: "Epífita compacta de raízes finas e hastes arqueadas ou pendentes. Cachepô pequeno e vazado equilibra umidade e ventilação.",
+        destaque: "Placa / tronco",
+        resumo: "Epífita compacta de raízes finas e hastes pendentes. Placa ou tronco de madeira permite fixação natural e ótima ventilação; cachepô pequeno e vazado é alternativa igualmente recomendada onde a montagem seca depressa.",
         metodos: [
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô pequeno e bem vazado, com mistura aberta e espaço para as hastes pendentes." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Muito recomendado", texto: "Madeira ou cortiça rugosa com raízes expostas, desde que a umidade e as regas sejam suficientes." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Madeira ou cortiça rugosa, com raízes expostas e regas ajustadas à secagem rápida da montagem." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Muito recomendado", texto: "Cachepô pequeno e bem vazado, com mistura aberta e espaço para as hastes pendentes." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e muito furado, útil onde a montagem seca rápido demais." },
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e ventilado, acompanhando a secagem para não desidratar as raízes finas." }
         ]
