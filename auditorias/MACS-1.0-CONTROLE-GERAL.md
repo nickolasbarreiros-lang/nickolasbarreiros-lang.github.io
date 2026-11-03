@@ -563,3 +563,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Justificativa corrigida: a receita textual antiga continha chips de coco, que não aparecem na composição visual. Referências botânicas/florísticas sustentam o hábito epífito cespitoso, mas não validam os percentuais nem o ranking de recipientes. Estrelas e receita continuam NÃO HOMOLOGADAS; meta de 25 produtores específicos não atingida.
 - Commit da ficha: bc0349658b1769097dffaf761efe5d5b52d922c1. Fotos, assets, índices IDC/IAR e layout preservados.
 - Progresso: 73/149 checagens; 71 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 074 — Maxillaria chrysantha.
+
+## Registro 074 — Maxillaria chrysantha (2026-11-03)
+- Corrigida divergência entre a primeira receita textual (pinus + perlita + esfagno + macadâmia) e receita visual (35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa). Fórmula visual exata incluída como primeira alternativa provisória; três receitas antigas preservadas.
+- Justificativa corrigida para registrar que fibra de coco substitui esfagno e que referências ecológicas de hábito montano/noites amenas não homologam percentuais nem ranking de recipientes. Commit da ficha: 20ef322aa18fb047da825d9d5f4b3701ad5812da.
+- Percentuais e estrelas NÃO HOMOLOGADOS; nenhuma comparação experimental específica documentada. Fotos, assets, índices IDC/IAR e layout preservados.
+- Progresso: 74/149 checagens; 72 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: consultar manifesto do lote 08.
