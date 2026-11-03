@@ -45,3 +45,11 @@ Não modificar automaticamente percentuais ou estrelas por mera inferência. Pre
 Relatórios existentes: `auditorias/MACS-1.0-lote-01-2026-11-02.md` até `auditorias/MACS-1.0-lote-15-2026-11-02.md`.
 Última ficha da primeira passagem: 149, `stelis-cf-aprica.js`.
 Este controle é um índice de progresso, não substitui os pareceres detalhados nem certifica receitas.
+
+## Segunda passagem — registro 001 (2026-11-03)
+- **Ficha 001 — Anathallis sclerophylla** (`dados/orquideas/anathallis-sclerophylla.js`): verificação de consistência interna da mistura visual concluída; 35% pinus fino/médio + 30% arroz carbonizado + 20% esfagno solto + 15% carvão = 100%, com correspondência entre `receitaTexto` e `itens`.
+- **Cultivo principal:** placa/tronco com pequena reserva de esfagno, distinto da receita volumétrica indicada para vaso. Não aplicar a mistura de vaso automaticamente à montagem.
+- **Evidência preexistente no lote 01:** POWO/Kew registra o nome aceito `Stelis sclerophylla`; tese UNESP sobre anatomia hídrica da espécie não testa substratos. Nenhuma dessas fontes comprova a receita percentual.
+- **Cobertura brasileira quantitativa verificada nesta passagem:** 0 recomendações específicas adicionais; não interpretar como inexistência de produtores. Meta de até 25 fontes continua aberta.
+- **Parecer:** plausibilidade horticultural condicional, **não homologada quantitativamente**. Conferir retenção e tempo de secagem em vaso pequeno, raízes finas, e necessidade de umidade/ventilação no microclima. Não modificar percentuais, estrelas, fotos, assets ou índices sem fundamentação nova.
+- **Próxima ficha da segunda passagem:** 002 — Aerides odorata. **Progresso da segunda passagem:** 1/149 com checagem interna registrada; 0/149 com homologação quantitativa comprovada.
