@@ -1134,3 +1134,11 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - R0 atual 35% macadâmia/30% pinus/20% perlita/15% carvão, idêntica à de Laelia splendida; R1 15/50/20/15 e R2 0/55/25/20 são hipóteses, não prescrições. **Alerta:** não copiar validação entre espécies nem aceitar 35% macadâmia sem dados específicos.
 - AOS Encyclia oferece orientação genérica de mistura média, secagem leve e montagens; estudo em híbrido Encyclia não valida a espécie. Composição D, percentuais D, estrelas D; possibilidades de suporte C qualitativo. Sem alterações em JS/assets.
 - Progresso: **8/149 matrizes documentadas**, **0/149 homologações quantitativas**. Próxima espécie oficial: Phalaenopsis pulcherrima (sin. Doritis pulcherrima).
+
+
+### MACS 1.1 — Matriz 009: Phalaenopsis pulcherrima (2026-11-03)
+- Documento: `auditorias/MACS-1.1-MATRIZ-009-PHALAENOPSIS-PULCHERRIMA.md`, commit `36c13a1343c23668e8154d213763c538e971665f`.
+- Fontes específicas MyBIS, Smithsonian, OrchidCambodia e revisão científica confirmam hábito **terrestre/litófito**, frequentemente em solos arenosos/húmus raso ou rochas. Não extrapolar cultivo de Phalaenopsis epífitas ou híbridos.
+- R0 vigente 35% perlita/30% brita/25% macadâmia/10% pinus (65% mineral); R1 35/30/10/25; R2 25/20/15/40. Alternativas apenas hipóteses. **Alerta:** 25% macadâmia sem evidência específica; secagem excessiva possível se confundir drenagem com necessidade de desidratação.
+- Cultivo em vaso qualitativamente B; coerência de mistura drenante C conceitual, **composição R0 D, percentuais D, estrelas D**. Índice não calculado. Nenhuma alteração JS/assets.
+- Progresso: **9/149 matrizes documentadas**, **0/149 homologações quantitativas**. Próxima espécie oficial: Dendrobium spectabile.
