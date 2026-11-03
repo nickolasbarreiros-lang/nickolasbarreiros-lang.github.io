@@ -10,7 +10,7 @@ Escopo: dez fichas seguintes a Lockhartia lunifera na ordem de imports de `dados
 6. `coelogyne-flaccida.js` — passagem concluida
 7. `howeara-lava-burst.js` — passagem concluida
 8. `epicattleya-rene-marques.js` — passagem concluida
-9. `coelogyne-fimbriata.js` — pendente
+9. `coelogyne-fimbriata.js` — passagem concluida
 10. `maxillaria-picta.js` — pendente
 
 ## Passagem 61 — Jacquiniella globosa
@@ -58,3 +58,8 @@ GENEALOGIA: https://www.orchids.org/grexes/leomesezia-lava-burst registra nome R
 ## Passagem 68 — Epicattleya René Marqués
 
 HÍBRIDO: grex horticultural Epicattleya René Marqués (Epidendrum pseudepidendrum x Cattleya Claesiana), registrado em 1979; não possui habitat natural próprio. Fontes gerais https://www.orchids.org/grexes/epicattleya-rene-marques e https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet : genealogia e cultivo de Cattleya, não validação da fórmula deste grex. FICHA: vaso de barro 5 estrelas, plástico vasado e cachepô madeira 4, placa/tronco 2. Receita 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%. Sem receita percentual publicada especificamente para o grex por produtor brasileiro confirmada nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada; fotos, assets, índices e layout preservados. Commit 13cce2579c8072a8d9ea380b7b24d6e94e6471ca. Próxima ficha Coelogyne fimbriata.
+
+
+## Passagem 69 — Coelogyne fimbriata
+
+ECOLOGIA E SUPORTE: hábito epífita/litófita e rizoma rastejante registrados na ficha; placa/tronco e cachepô raso ambos 5 estrelas, barro e plástico vasado 4. A expansão horizontal é argumento morfológico plausível para suportes largos, sem experimento comparativo específico. RECEITA PARA CESTO/VASO: 35% chips coco + 30% pinus + 25% perlita + 10% esfagno = 100%; não aplicar mistura volumétrica sobre placa. Nenhum produtor brasileiro com fórmula percentual específica confirmado nesta passagem; meta até 25 não atingida. Fontes externas específicas ainda precisam de checagem documental aprofundada; não afirmar homologação. Percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, fotos/assets/índices/layout preservados. Commit ba3de2c842a6998bae5709e5d683f01dd033af02. Próxima ficha Maxillaria picta.
