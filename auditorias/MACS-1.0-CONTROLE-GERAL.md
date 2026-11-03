@@ -87,3 +87,13 @@ Este controle é um índice de progresso, não substitui os pareceres detalhados
 - **Evidência brasileira preexistente no lote 01:** Orquidário Oriental (esfagno ou misturas de coco/pinus/carvão, umidade regular), Orquidário Santa Clara (ventilação, evitar encharcamento) e Orquidário Aparecida (montagem com manejo hídrico). Essas recomendações mostram diversidade de recipientes, não validam 45/40/15. **Novas recomendações brasileiras específicas verificadas nesta passagem:** 0; meta até 25 ainda pendente.
 - **Parecer:** revisão prioritária da fração de 40% de perlita grossa e do risco de secagem rápida em vaso pequeno no clima quente, sem assumir que aumentar esfagno é necessariamente correto. Manejo de água por estágio de brotação já está diferenciado na ficha. **Percentuais e estrelas não homologados**; não alterar receita, assets ou índices nesta checagem.
 - **Próxima ficha:** 006 — Brassia lawrenceana. **Progresso:** 5/149 checagens internas registradas; 0/149 homologações quantitativas comprovadas.
+
+## Novo fluxo de trabalho — correção na mesma passagem (2026-11-03)
+A partir de agora: auditar → corrigir divergências comprovadas na ficha → verificar preservação da receita/layout → registrar fontes e pendências → avançar. Não confundir correção editorial com homologação quantitativa. Fichas 001–005 reabertas para tratamento de pendências antes de iniciar 006.
+
+### Correções efetivamente aplicadas — fichas 003–005
+- **003 Epidendrum centropetalum**: `substratoVisual.justificativa` corrigida para descrever os três ingredientes reais e separar receita de recipiente da montagem; removida afirmação incorreta de que a receita deriva da segunda alternativa. Commit `2221553770bc34cc805b49a06f9163ade9d45bd8`.
+- **004 Miltonia russelliana**: justificativa corrigida para descrever pinus, chips de coco, perlita e carvão e explicitar que não equivale às alternativas qualitativas. Commit `740e133b9b8940f092fea188f234aa1be4b7c340`.
+- **005 Promenaea xanthina**: justificativa corrigida para descrever pinus, perlita e esfagno, sem atribuição indevida à segunda alternativa. Commit `f4ea7fc6a7f7b2f816fedcbe32d54714b743ac84`.
+- **Escopo destas correções:** somente texto do campo `substratoVisual.justificativa`; receitas, percentuais, estrelas, índices, fotos, assets e estrutura do layout preservados. Não se declara homologação científica quantitativa.
+- **Situação:** 3 fichas com divergência editorial corrigida; as cinco primeiras ainda requerem conclusão de pesquisa/homologação científica. Próxima atividade: revisar pendências 001–002 e avançar para 006 com correção imediata quando fundamentada.
