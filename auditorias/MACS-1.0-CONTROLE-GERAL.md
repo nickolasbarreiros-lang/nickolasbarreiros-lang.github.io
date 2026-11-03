@@ -1080,3 +1080,11 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Três cenários por volume para vaso plástico vasado: R0 atual 35/30/20/15 pinus/arroz/esfagno/carvão; R1 40/35/10/15; R2 30/25/30/15. Todas somam 100%; R1 e R2 **não são prescrições**.
 - Referências científicas efetivamente consultadas incluem Dematté & Dematté 1996 (retenção e perda hídrica em substratos), Faria et al. 2018 (revisão de substratos epífitos), Hwang & Jeong 2007 (Phalaenopsis, comparável distante), Faria et al. 2001 (Oncidium/Maxillaria, comparáveis distantes), além do POWO para taxonomia/habitat. URLs, limitações e critérios constam na matriz.
 - Sem propriedades físicas medidas no recipiente e sem comparável próximo justificável, notas de 0–5 **não atribuídas** e índice heurístico **não calculado**. Composição D, percentuais D e estrelas D; sem homologação. Ficha JS e índices preservados.
+
+
+### MACS 1.1 — Matriz comparativa 002: Aerides odorata (2026-11-03)
+- Criado `auditorias/MACS-1.1-MATRIZ-002-AERIDES-ODORATA.md`, commit `2ae195a7d51747c20065f6f11cbe79141c97f34e`.
+- Sistemas separados: S1 raízes soltas/árvore viva **sem substrato percentual**; S2 vaso muito vasado/cachepô com mistura grossa. R0 vigente 45/35/10/10 pinus/carvão/arroz/esfagno; R1 50/40/10/0; R2 40/30/10/20, todas por volume e somando 100%.
+- AOS (gênero Aerides), NParks (espécie Aerides odorata), Orchid Digest e St. Augustine Orchid Society respaldam qualitativamente montagem/cesto/recipiente aberto, mas não percentuais nem estrelas. Matriz de 5 critérios com lacunas e sensibilidade documentada; **sem notas numéricas ou índice heurístico inventados**.
+- Evidência B para possibilidade de cultivo em suportes diversos, D para hierarquia/estrelas e composição/percentuais S2. **Não homologada**. Um produtor brasileiro com espécie registrada; zero com receita específica. JS, fotos, assets, IDC/IAR e V4.9 intactos.
+- Progresso: 2/149 matrizes comparativas registradas; 0/149 homologações por convergência concluídas. Próxima matriz: Epidendrum centropetalum.
