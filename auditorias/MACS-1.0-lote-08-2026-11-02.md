@@ -6,7 +6,7 @@ Escopo: próximas dez fichas na ordem de imports de dados/orquideas/index.js ap�
 2. macradenia-multiflora.js — passagem concluída
 3. polystachya-concreta.js — passagem concluída
 4. maxillaria-chrysantha.js — passagem concluída
-5. miltonia-regnellii.js — pendente
+5. miltonia-regnellii.js — passagem concluída
 6. neobenthamia-gracilis.js — pendente
 7. aspasia-lunata.js — pendente
 8. cyrtopodium-saintlegerianum.js — pendente
@@ -31,3 +31,8 @@ ESPÉCIE: epífita cespitosa de pequeno porte, ampla distribuição, descrita em
 ## Passagem 74 — Maxillaria chrysantha
 
 ECOLOGIA: epífita montana, cerca de 1.400 m, noites amenas segundo revisão já existente na ficha; informações botânicas não são ensaios de substrato. SUPORTES: barro 5 estrelas, cachepô madeira 4, placa/tronco e plástico vasado 3, sem comparação experimental específica. RECEITA VISUAL: 35% pinus médio + 30% macadâmia + 25% perlita + 10% fibra de coco grossa = 100%. DIVERGÊNCIA INTERNA: primeira receita qualitativa contém pinus + perlita + esfagno + macadâmia, enquanto justificativa visual afirma os mesmos quatro componentes, mas utiliza fibra de coco em vez de esfagno. Requer revisão posterior, sem alteração nesta passagem. Meta até 25 produtores brasileiros não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada; receitas, fotos, assets, índices e layout preservados. Commit 7e27dd5013fff306397ee34c4ab633f1778db621. Próxima ficha Miltonia regnellii.
+
+
+## Passagem 75 — Miltonia regnellii
+
+ECOLOGIA: epífita simpodial de raízes finas, exige umidade regular com aeração segundo ficha existente. SUPORTES: vaso plástico vasado 5 estrelas, barro/cachepô madeira 4, placa/tronco 3; sem comparação quantitativa específica. RECEITA VISUAL: 35% pinus médio + 30% chips coco + 25% perlita + 10% carvão = 100%. DIVERGÊNCIA INTERNA: primeira mistura qualitativa lista pinus + perlita + argila expandida miúda + esfagno solto, mas a justificativa visual diz quantificar os mesmos quatro componentes; chips de coco e carvão substituem argila e esfagno. Requer revisão técnica posterior, sem alteração nesta passagem. Fontes botânicas já citadas não validam os percentuais; meta até 25 produtores brasileiros não atingida; estrelas e percentuais NÃO HOMOLOGADOS. Apenas notaEvidencia alterada; demais campos preservados. Commit 1718315df0bfadecf7ca9b31f6de2f9b7e61edd5. Próxima ficha Neobenthamia gracilis.
