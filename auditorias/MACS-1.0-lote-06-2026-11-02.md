@@ -6,7 +6,7 @@ Escopo: dez fichas seguintes a Dryadella aviceps na ordem dos imports de `dados/
 2. `dryadella-liliputiana.js` — passagem concluida
 3. `leptotes-unicolor.js` — passagem concluida
 4. `cattleya-aclandiae-tipo.js` — passagem concluida
-5. `cattleya-lueddemanniana-tipo.js` — pendente
+5. `cattleya-lueddemanniana-tipo.js` — passagem concluida
 6. `cattleya-walkeriana.js` — pendente
 7. `cattleya-intermedia.js` — pendente
 8. `cattleya-leopoldii-dark-princess.js` — pendente
@@ -44,3 +44,11 @@ POWO/Kew https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A6219
 FICHA: cachepô madeira principal com escore 91/100, placa/tronco 86/100; receita opcional para vaso 45% macadâmia + 30% perlita grossa + 25% carvão = 100%. QUATRO PRODUTORES BRASILEIROS ESPECÍFICOS: (1) Orquidário 4 Estações https://www.orquidario4e.com.br/orquidea-cattleya-aclandiae-8cm recomenda cachepô de madeira com casca de pinus ou placas; (2) Orquidário Thomes https://www.orquidariothomes.com.br/Cattleyaaclandiaetipo/prod-10518358/ informa vaso de madeira e cultivo em recipientes variados ou placas ventiladas, sem receita; (3) Orquídeas & Cia https://www.orquideacia.com.br/produto/cattleya-aclandiae recomenda tronco ou substrato com brita e pinus grosso; (4) Orquidário Matsuoka https://orquidariomatsuoka.com.br/produto/cattleya-aclandiae-nigrescens-n2-perfumada/ recomenda toco, brita ou substrato genérico para variedade Nigrescens, evidência da espécie porém não necessariamente do tipo. Nenhum valida proporção 45/30/25; alternativas publicadas divergem quanto a pinus/brita. Meta 25 não atingida.
 
 PARECER: preferência por suporte aberto tem respaldo qualitativo; receita e escores 91/100 e 86/100 NÃO HOMOLOGADOS por ensaio ou comparação controlada. Acrescentada somente notaEvidencia em substratoVisual; demais campos preservados. Commit da ficha 8ee1997655754b357b3c397d2d2a5ab60ef0f037. Próxima ficha Cattleya lueddemanniana (tipo).
+
+## Passagem 55 — Cattleya lueddemanniana (tipo)
+
+AOS (referência específica) https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-lueddemanniana-rchb-f recomenda cesto de madeira ou vaso de barro, meio de secagem muito rápida, rega 1–2 vezes por semana conforme ambiente e replante após floração com emissão de raízes novas. Referência genérica AOS https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet recomenda casca média/grossa para Cattleyas adultas em estufa; não comprova receita específica.
+
+FICHA: cachepô madeira principal; alternativas barro e plástico vasado. Receita 35% macadâmia + 25% pinus + 25% perlita grossa + 15% carvão = 100%. TRÊS PRODUTORES BRASILEIROS DISTINTOS ESPECÍFICOS: (1) Orquidário Oriental https://www.orquidariooriental.com.br/produto/cattleya-lueddemanniana-concolor%2C53632/ indica cachepô com pinus ou placa para forma concolor, sem proporções; (2) Orquidário Santa Clara https://orquidariosantaclara.com.br/cattleyas-e-afins/2253-cattleya-lueddemanniana-tipo-t3.html informa para tipo pinus + carvão triturado + musgo + pedrisco, sem percentuais (outras páginas do mesmo orquidário NÃO contam como produtores adicionais); (3) Orquidário Mogi Mirim https://www.orquidariomogimirim.com.br/cattleya-lueddemanniana-alba indica pinus + carvão para forma alba, sem percentuais. Relato de site de divulgação https://universodasorquideas.com.br/cattleya-lueddemanniana/ sugere 50% pinus + 25% carvão + 25% brita/pomes/rocha, mas não foi contabilizado como orquidário e inclui pedra-pomes, material vetado no projeto. Estudo https://ornamentalhorticulture.com.br/rbho/article/view/1888 testa substratos em híbrido de Cattleya Francis x C. lueddemanniana semi-alba, não na espécie adulta pura, portanto NÃO homologa fórmula 35/25/25/15. Meta de 25 produtores não atingida.
+
+PARECER: recipiente principal com respaldo específico AOS e produtores; receita 35/25/25/15 NÃO HOMOLOGADA, sem validação comparativa; percentuais de macadâmia/perlita especialmente sem confirmação específica nas fontes. Apenas notaEvidencia acrescentada; commit da ficha da0034f3adbe80282e7bad4b9e86d41e6fc7753e. Próxima ficha Cattleya walkeriana.
