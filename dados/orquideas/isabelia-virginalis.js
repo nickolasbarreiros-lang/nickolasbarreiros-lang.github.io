@@ -29,7 +29,7 @@ export const isabeliaVirginalis = {
     adubacao: "🌿 Orgânica: bokashi em quantidade mínima dentro de porta-adubo, sem contato com a touceira.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: somente poucos grânulos em cesto ou vaso raso e muito drenante.\n💦 Lavagem: passe água limpa pelo suporte periodicamente para evitar acúmulo de sais nas raízes finas.",
     rega: "No calor e durante a brotação, molhe completamente e permita secagem rápida antes da próxima rega. Plantas montadas podem precisar de água quase diária em dias secos e ventilados. No frio, aumente o intervalo, mas não deixe a colônia murchar por períodos prolongados.",
     suporte: "🥇 Placa de cortiça ou galho de casca rugosa.\n🥈 Madeira dura e durável, instalada horizontal ou levemente inclinada.\n🥉 Cesto muito raso e largo, com mistura grosseira e rizoma totalmente exposto.",
-    substrato: ["🥇 Casca de macadâmia grossa + perlita grossa + carvão vegetal.","🥈 Pinus grosso + brita fina + carvão vegetal."],
+    substrato: ["🥇 Receita visual provisória apenas para cesto muito raso: chips de coco muito grossos 45% + argila expandida 35% + carvão vegetal 20% (100%; não homologada).","🥈 Casca de macadâmia grossa + perlita grossa + carvão vegetal.","🥉 Pinus grosso + brita fina + carvão vegetal."],
     formasCultivo: {
         perfilVisual: "miniatura-rizoma-rastejante-fibras",
         destaque: "Placa / tronco",
@@ -45,7 +45,7 @@ export const isabeliaVirginalis = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal sem substrato retentivo; receita alternativa para cachepô muito raso",
         resumo: "A primeira opção é a fixação direta em cortiça ou madeira durável. Em cesto, usar componentes muito grossos e secagem rápida.",
-        justificativa: "A montagem sem material retentivo é a primeira recomendação original. A receita quantitativa adapta a segunda mistura para cesto, com percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A montagem principal continua sendo a fixação direta em cortiça ou madeira durável, sem camada volumétrica de substrato retentivo. A receita visual é uma alternativa exclusiva para cesto muito raso: 45% chips de coco muito grossos + 35% argila expandida + 20% carvão. As duas receitas qualitativas antigas são macadâmia + perlita + carvão e pinus + brita + carvão; nenhuma contém chips de coco ou argila expandida, portanto a afirmação de que a fórmula adapta a segunda mistura era incorreta. A composição visual foi incluída como primeira alternativa textual, preservando as duas antigas. Avaliar se a fração de chips de coco mantém umidade excessiva e se a argila oferece estabilidade sem cobrir o rizoma exposto. Percentuais não homologados pela MACS 1.0.",
         receitaTexto: "45% chips de coco muito grossos + 35% argila expandida + 20% carvão vegetal.",
         perfil: ["Miniatura rastejante", "Bainhas fibrosas", "Rizoma exposto", "Raízes superficiais", "Secagem rápida"],
         comportamento: [
