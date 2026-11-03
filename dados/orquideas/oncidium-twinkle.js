@@ -36,7 +36,7 @@ export const oncidiumTwinkle = {
     "adubacao": "🌿 Orgânica: pequena porção de bokashi na borda, sem contato com o coleto.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante crescimento ativo.\n🧪 Osmocote: opcional, em quantidade mínima e afastado dos brotos.\n🚿 Flushing: lave o vaso com água pura mensalmente. Raízes finas sofrem rapidamente com acúmulo de sais; prefira doses fracas e regulares a aplicações concentradas.",
     "rega": "Mantenha umidade regular enquanto brotos e raízes novas estiverem ativos, permitindo secagem superficial entre regas. Após a maturação, reduza ligeiramente sem deixar os pequenos pseudobulbos enrugarem profundamente. Pseudobulbo enrugado com substrato seco sugere falta de água; enrugamento com substrato úmido indica provável perda de raízes. Brotos amolecendo pela base apontam abafamento, água retida ou rega tardia.",
     "suporte": "🥇 Vaso plástico pequeno e bem perfurado: mantém umidade uniforme sem excesso.\n🥈 Cachepô compacto de madeira: oferece aeração e espaço para a touceira.\n🥉 Placa com esfagno fino: somente em ambientes de alta umidade e rega frequente.\nO recipiente deve ser proporcional, não apertado a ponto de esmagar raízes nem grande a ponto de permanecer molhado.",
-    substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
+    substrato: ["🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal (mistura-base provisória do substrato visual).","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
     formasCultivo: {
         perfilVisual: "oncidium-twinkle-hibrido-compacto-raizes-capilares",
         destaque: "Vaso plástico",
@@ -52,7 +52,7 @@ export const oncidiumTwinkle = {
         titulo: "Substrato ideal",
         contexto: "Mistura aerada com umidade uniforme para vaso compacto",
         resumo: "Raízes finas precisam de umidade regular e substrato aberto, com drenagem eficiente e sem secagem completa durante o crescimento.",
-        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa já registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual reúne pinus médio, chips de coco, perlita grossa e carvão vegetal, agora também descritos como primeira alternativa textual. As alternativas anteriores empregam materiais distintos. Percentuais estimados e ainda não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
         perfil: ["Híbrido compacto", "Raízes capilares", "Touceira florífera", "Umidade regular", "Vaso proporcional"],
         comportamento: [
