@@ -41,7 +41,7 @@ export const laeliaSplendida = {
         "🥈 Vaso de barro largo e bem perfurado, proporcional à frente de crescimento.",
         "🥉 Placa ou tronco robusto, quando houver umidade suficiente para regas frequentes."
     ],
-    substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal (mistura provisória do substrato visual).","🥈 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.","⭐ Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
+    substrato: ["🥇 Para Cachepô de Madeira robusto e bem vazado: 35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa compatível com o cesto + 15% carvão vegetal médio (proposta NÃO homologada).", "🥈 Casca de pinus média/grossa + perlita grossa compatível com o cesto + carvão vegetal médio + pequena fração de chips de coco grossos preparados (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de macadâmia média + argila expandida média + carvão vegetal médio + casca de pinus grossa (alternativa qualitativa sem percentuais homologados)."],
     formasCultivo: {
         perfilVisual: "laelia-robusta-epifita-rupicola-alta-luz",
         destaque: "Cachepô de Madeira",
@@ -57,8 +57,8 @@ export const laeliaSplendida = {
         titulo: "Substrato ideal",
         contexto: "Mistura grosseira para cachepô de madeira bem ventilado",
         resumo: "Componentes médios e grossos para sustentação, boa drenagem e secagem perceptível entre regas.",
-        justificativa: "A mistura provisória para cachepô combina casca de macadâmia média, pinus médio, perlita grossa e carvão vegetal para oferecer sustentação, drenagem e espaços de ar. Ela não corresponde integralmente a nenhuma das alternativas qualitativas anteriores; percentuais estimados e ainda não homologados pela MACS 1.0.",
-        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        justificativa: "Laelia splendida (sin. Schomburgkia splendida) é epífita ou rupícola robusta, de hastes florais longas, que precisa de alta luminosidade com aclimatação, suporte estável e raízes arejadas. Para cachepô de madeira bem vazado, a receita visual propõe macadâmia média, pinus médio, perlita grossa compatível com o cesto e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não fundamentam os percentuais visuais. Manter secagem perceptível entre regas e espaço para as novas frentes de crescimento. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa compatível com o cesto + 15% carvão vegetal médio (proposta não homologada).",
         perfil: ["Epífita ou rupícola", "Pseudobulbos robustos", "Hastes longas", "Alta luminosidade", "Raízes arejadas"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -69,11 +69,11 @@ export const laeliaSplendida = {
         itens: [
             { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece sustentação às raízes sem compactação." },
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "apoio radicular", finalidade: "Favorece fixação com umidade moderada." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Mantém drenagem e espaços de ar." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta do recipiente." }
+            { asset: "perlita", nome: "Perlita grossa compatível com o cesto", proporcao: "20%", nota: "aeração", finalidade: "Mantém drenagem e espaços de ar." },
+            { asset: "carvao", nome: "Carvão vegetal médio", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta do recipiente." }
         ],
         alerta: "Evitar sombra excessiva, vaso profundo, substrato encharcado e exposição abrupta ao sol forte. Reservar espaço para as novas frentes e hastes florais longas.",
-        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+        notaEvidencia: "MACS 1.1 — revisão documental: Laelia splendida (sin. Schomburgkia splendida), epífita/rupícola robusta de hastes longas; alta luminosidade com aclimatação, suporte estável e raízes arejadas. Cachepô de Madeira bem vazado é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com cesto + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus grosso. Elas não fundamentam os percentuais visuais. Monitorar secagem, estabilidade e espaço para hastes. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
         "Cultivar em sombra excessiva",
