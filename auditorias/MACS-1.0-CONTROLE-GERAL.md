@@ -398,3 +398,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 05:** POWO aceita Pabstiella aveniformis e sinonimiza Acianthera aveniformis; IOSPE registra miniatura epífita reptante, sem receita; Milena Orquídeas orienta umidade e ventilação sem proporções. Nenhum ensaio nem 25 produtores validam a composição 40/25/20/15.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 49/149 checagens; 47 fichas com correções efetivas (003–049); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 050 — Dryadella aviceps.
+
+## Correção na mesma passagem — registro 050 (2026-11-03)
+- **Ficha 050 — Dryadella aviceps** (`dados/orquideas/dryadella-aviceps.js`): cultivo principal placa/tronco com fina camada de esfagno; receita visual para vaso miniatura/cachepô 40% chips de coco pequenos + 35% pinus fino + 25% perlita adequada a miniaturas = 100%.
+- **Correção efetiva:** a receita visual JÁ correspondia aos três componentes da primeira alternativa textual. Corrigida apenas a justificativa que dizia incorretamente tratar-se da segunda alternativa. Nenhuma mistura foi acrescentada ou modificada. Commit `03626522257758c396992cb262a95918e9dc29bc`.
+- **Evidência prévia no lote 05:** POWO aceita Dryadella aviceps como epífita; Orquidário Oriental recomenda placa/árvore, umidade elevada e pouca luz, sem receita quantitativa; AOS dá orientação geral sobre desidratação de montadas. Não há validação da proporção 40/35/25.
+- **Limites:** receitas textuais e percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 50/149 checagens; 48 fichas com correções efetivas (003–050); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 051 — consultar ordem do lote 06.
