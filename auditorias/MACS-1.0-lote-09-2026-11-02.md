@@ -7,7 +7,7 @@ Escopo: fichas 81–90, na ordem de `dados/orquideas/index.js`, após Bulbophyll
 3. cattlianthe-ctt-jewel-box.js — passagem concluída
 4. cattleya-loddigesii.js — passagem concluída
 5. laelia-cinnabarina.js — passagem concluída
-6. laelia-lundii.js — pendente
+6. laelia-lundii.js — passagem concluída
 7. catasetum-mattosianum.js — pendente
 8. laelia-gloriosa.js — pendente
 9. encyclia-bracteata.js — pendente
@@ -36,3 +36,8 @@ ECOLOGIA: bifoliada epífita ou rupícola, aeração e secagem entre regas segun
 ## Passagem 85 — Cattleya cinnabarina (sin. Laelia cinnabarina)
 
 ECOLOGIA: rupícola de alta luz, raízes muito aeradas, risco de superaquecimento do vaso e pedra. SUPORTES: barro 5 estrelas, cachepô madeira 4, plástico vasado 3, placa/tronco 2, sem comparação experimental. RECEITA VISUAL: 35% brita fina/média + 30% perlita + 25% macadâmia + 10% pinus = 100%, texto e itens coerentes. DIVERGÊNCIA: justificativa declara quatro materiais da primeira mistura qualitativa, mas ela lista macadâmia + perlita + cacos de cerâmica OU argila expandida, sem brita ou pinus. Terceira alternativa sugere brita + perlita + carvão + 15–25% orgânico grosso, enquanto visual contém 35% orgânico (macadâmia + pinus). Exige verificação técnica posterior; sem alterações de receitas. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 3a8830646215bf6e79b0a385f6f81a06cfb28546. Próxima ficha Laelia lundii.
+
+
+## Passagem 86 — Cattleya lundii (sin. Laelia lundii)
+
+ECOLOGIA: miniatura epífita ou rupícola, alta aeração e secagem rápida entre regas. SUPORTES: placa/tronco 5 estrelas, cachepô madeira e vaso barro 4, árvore viva 3; notas não validadas quantitativamente. RECEITA VISUAL PARA RECIPIENTE: 35% macadâmia + 30% pinus + 20% perlita + 15% carvão = 100%, texto e itens coerentes; cultivo principal é montagem em placa, sem aplicar mistura do recipiente à placa. DIVERGÊNCIA: justificativa afirma que os quatro ingredientes derivam da primeira alternativa qualitativa, que contém chips coco + perlita + carvão + pinus, sem macadâmia; terceira contém macadâmia + argila expandida + carvão + pinus, sem perlita. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 86997fd028acc09f7c10facbef6a1c52216f4c65. Próxima ficha Catasetum mattosianum.
