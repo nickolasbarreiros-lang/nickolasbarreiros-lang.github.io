@@ -39,7 +39,7 @@ export const colmanaraWildcat = {
     "adubacao": "🌿 Orgânica: bokashi em pequena dose, afastado do broto e das raízes novas.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose durante brotação, enraizamento e enchimento do pseudobulbo.\n🧪 Osmocote: poucos grânulos em vaso bem drenado; não concentrar junto às raízes finas.\n🍂 Maturação: reduza a frequência quando o pseudobulbo estiver cheio e firme.\n🚿 Flushing: use água pura a cada 2–4 semanas para reduzir acúmulo de sais.",
     "rega": "Regue abundantemente e volte a molhar quando o substrato estiver próximo de secar, sem deixar a mistura permanecer encharcada. Durante brotação e formação do pseudobulbo, evite secas longas. Em períodos mais frios ou de crescimento lento, aumente o intervalo entre regas. Pseudobulbo enrugado com substrato constantemente molhado sugere problema radicular, não falta de água.",
     "suporte": "🥇 Vaso plástico pequeno e bem perfurado — mantém umidade mais uniforme.\n🥈 Vaso de barro — excelente onde há muita umidade e regas frequentes.\n🥉 Cesto compacto — indicado para plantas grandes e raízes muito aeradas.\nDeixe apenas alguns centímetros livres à frente do novo crescimento; vasos grandes demais permanecem úmidos no centro.",
-    substrato: ["🥇 Para vaso compacto: casca de pinus média + chips de coco + perlita grossa + carvão vegetal (mistura visual provisória, não homologada).","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
+    substrato: ["🥈 Alternativa 1 — 60% Casca de pinus + 20% Fibra de coco + 20% Carvão vegetal. Para vaso compacto de secagem mais lenta; percentuais MACS 1.1 D inferenciais, não homologados.","🥉 Alternativa 2 — 45% Casca de pinus + 35% Fibra de coco + 20% Carvão vegetal. Para vaso compacto de secagem rápida; percentuais MACS 1.1 D inferenciais, não homologados."],
     "formasCultivo": {
         "perfilVisual": "hibrido-oncidiinae",
         "destaque": "Vaso plástico",
@@ -55,8 +55,8 @@ export const colmanaraWildcat = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para vaso plástico compacto e bem perfurado",
         "resumo": "Mistura aberta com retenção intermediária, apropriada para raízes finas que não devem permanecer nem encharcadas nem completamente secas por muito tempo.",
-        "justificativa": "A receita visual propõe pinus médio, chips de coco, perlita grossa e carvão vegetal, agora também registrados na primeira alternativa textual. As duas misturas anteriores contêm materiais diferentes e foram preservadas. As proporções são uma proposta horticultural e não representam homologação MACS 1.0.",
-        "receitaTexto": "40% casca de pinus média + 25% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        "justificativa": "MACS 1.1: o Orquidário Oriental documenta especificamente para Wildcat Leopard uma mistura de Casca de pinus, Fibra de coco e Carvão vegetal, sem percentuais; a AOS recomenda substrato baseado em casca e boa ventilação em clima quente. A receita visual usa esses três ingredientes, mas os percentuais são inferências D não homologadas. Fibra de coco não é Chips de coco.",
+        "receitaTexto": "50% Casca de pinus + 30% Fibra de coco + 20% Carvão vegetal (por volume, percentuais inferidos D).",
         "perfil": ["Raízes finas", "Umidade regular", "Boa drenagem", "Sensível a replantio", "Vaso compacto"],
         "comportamento": [
             { "nome": "Retenção", "valor": 3, "icone": "💧" },
@@ -65,13 +65,12 @@ export const colmanaraWildcat = {
             { "nome": "Compactação", "valor": 2, "icone": "🧱" }
         ],
         "itens": [
-            { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "40%", "nota": "estrutura", "finalidade": "Sustenta as raízes e mantém drenagem." },
-            { "asset": "chips-coco", "nome": "Chips de coco", "proporcao": "25%", "nota": "umidade", "finalidade": "Ajuda a reduzir oscilações de umidade entre regas." },
-            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "25%", "nota": "aeração", "finalidade": "Mantém porosidade e evita compactação excessiva." },
-            { "asset": "carvao", "nome": "Carvão vegetal", "proporcao": "10%", "nota": "drenagem", "finalidade": "Acrescenta partículas estáveis e espaços de ar à mistura." }
+            { "asset": "casca-pinus", "nome": "Casca de pinus", "proporcao": "50%", "nota": "estrutura", "finalidade": "Usar granulometria média para manter apoio radicular e porosidade." },
+            { "asset": "fibra-coco", "nome": "Fibra de coco", "proporcao": "30%", "nota": "reserva hídrica", "finalidade": "Usar fibra solta e condicionada conforme procedência, sem confundir com Chips de coco." },
+            { "asset": "carvao", "nome": "Carvão vegetal", "proporcao": "20%", "nota": "aeração", "finalidade": "Usar partículas pequenas ou médias para manter drenagem e espaços de ar." }
         ],
         "alerta": "Evitar vaso grande e substrato envelhecido. Replantar preferencialmente quando o novo broto começar a emitir raízes curtas, preservando as raízes delicadas.",
-        "notaEvidencia": "MACS 1.0: Oncostele Wildcat (sin. Colmanara Wildcat). RHS recomenda mistura aberta à base de casca, com perlita, esfagno ou coco; AOS, especificamente para este grex em clima quente, favorece substrato de casca de pinus e boa ventilação. Cultivador brasileiro Orquídeas no Apê recomenda qualitativamente pinus, carvão e fibra de coco. A receita atual 40% pinus + 25% chips de coco + 25% perlita + 10% carvão é compatível em ingredientes, mas não foi testada nem homologada nesses percentuais; monitorar secagem e calor das raízes. Estrelas também são estimativas."
+        "notaEvidencia": "MACS 1.1: Oncostele Wildcat, antigo Colmanara Wildcat, grex registrado em 1992. AOS recomenda substrato baseado em casca e ventilação para calor; Orquidário Oriental publica para Wildcat Leopard mistura de Casca de pinus, Fibra de coco e Carvão vegetal, sem percentuais. New England Botanic Garden também recomenda mistura drenante, porém de composição distinta. R1 50% Casca de pinus + 30% Fibra de coco + 20% Carvão vegetal: composição B qualitativa específica, percentuais D inferenciais NÃO HOMOLOGADOS. R2/R3 também D. Corrigido asset de Fibra de coco, sem usar Chips de coco. Matriz: auditorias/MACS-1.1-MATRIZ-041-ONCOSTELE-WILDCAT.md."
     },
     "errosComuns": "Replantar quando as raízes novas já estão longas; vaso grande; enterrar o rizoma; substrato velho e compactado; sombra profunda; excesso de sais; água acumulada no broto; dividir com poucos pseudobulbos; confundir enrugamento por raiz perdida com falta de rega.",
     "dica": "O melhor momento para replantar é quando o novo broto começa a emitir raízes com cerca de 0,5–1 cm. Nessa fase elas já estão ativas, mas ainda não aderiram ao vaso e quebram menos. Preservar raízes novas é uma das formas mais eficientes de manter o próximo pseudobulbo forte e garantir nova haste floral.",
