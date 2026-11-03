@@ -77,7 +77,7 @@ export const bulbophyllumElassonotum = {
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
         "justificativa": "O cesto raso oferece espaço para o rizoma se espalhar e deixa livres as inflorescências arqueadas ou pendentes. Uma mistura solta evita que o centro fique saturado em períodos úmidos. Esta receita para recipiente é uma proposta técnica de cultivo, não uma fórmula experimental validada especificamente para a espécie.",
-        "receitaTexto": "35% casca de pinus média + 25% chips de coco tratados + 25% perlita grossa + 15% esfagno solto.",
+        "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno solto.",
         "perfil": [
             "Rizoma longo",
             "Raízes finas",
@@ -118,7 +118,7 @@ export const bulbophyllumElassonotum = {
             },
             {
                 "asset": "chips-coco",
-                "nome": "Chips de coco tratados",
+                "nome": "Chips de coco médios preparados",
                 "proporcao": "25%",
                 "nota": "umidade residual",
                 "finalidade": "Amortecem os intervalos entre irrigações."
@@ -139,9 +139,9 @@ export const bulbophyllumElassonotum = {
             }
         ],
         "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura.",
-        "notaEvidencia": "MACS 1.0 — primeira passagem documental: Bulbophyllum elassonotum, miniatura epífita de rizoma rastejante e inflorescências pendentes. Cachepô madeira 5 estrelas, vaso plástico vasado e placa/tronco 4, barro 3: inferência horticultural, sem ensaio comparativo específico. Receita visual 35% pinus médio + 25% chips de coco tratados + 25% perlita grossa + 15% esfagno solto = 100%; receitaTexto e itens concordam. DIVERGÊNCIA: primeira receita qualitativa lista chips coco + perlita + carvão miúdo + esfagno, mas a visual substitui carvão por pinus. A segunda receita qualitativa inclui macadâmia + pinus + perlita + esfagno, não chips de coco. A justificativa não alega correspondência literal, e reconhece proposta não validada. Fontes botânicas da ficha não homologam proporções; meta de até 25 produtores brasileiros com receitas específicas não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        "notaEvidencia": "MACS 1.1 — revisão documental: Bulbophyllum elassonotum, miniatura epífita de rizoma rastejante e inflorescências pendentes. Cachepô madeira 5 estrelas, vaso plástico vasado e placa/tronco 4, barro 3: inferência horticultural, sem ensaio comparativo específico. Receita visual 35% pinus médio + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno solto = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% pinus, 25% chips de coco, 25% perlita, 15% esfagno); as duas alternativas qualitativas são diferentes e não devem ser confundidas com a receita principal. Fontes botânicas da ficha não homologam proporções; meta de até 25 produtores brasileiros com receitas específicas não atingida. Percentuais e estrelas NÃO HOMOLOGADOS. Duas alternativas mantidas; o termo chips de coco médios preparados indica material previamente lavado, hidratado e drenado, não uma nova categoria de substrato."
     },
-    substrato: ["🥇 Receita visual provisória para cesto raso: pinus médio 35% + chips de coco tratados 25% + perlita grossa 25% + esfagno solto 15% (100%; não homologada).","🥈 Chips de coco tratados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno.","🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de esfagno.","Esfagno de fibra longa solto + perlita grossa."],
+    substrato: ["🥇 Para cesto raso: 35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno de fibra longa solto (hipótese horticultural NÃO homologada especificamente para Bulbophyllum elassonotum).", "🥈 Chips de coco médios preparados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto (alternativa qualitativa sem proporções homologadas).", "🥉 Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de esfagno solto (alternativa qualitativa sem percentuais específicos publicados)."],
     errosComuns: "• Enterrar o rizoma.\n• Tratar toda procedência como espécie fria.\n• Compactar esfagno.\n• Usar vaso profundo com baixa aeração.\n• Deixar raízes secarem por vários dias.\n• Manter calor, umidade e ar parado ao mesmo tempo.\n• Cultivar em sombra profunda.\n• Forçar repouso seco por causa de habitats sazonais.\n• Adubação concentrada em raízes finas.",
     dica: "🏆 A amplitude altitudinal é a chave para interpretar esta espécie. Ela não exige uma temperatura única; exige equilíbrio entre procedência, umidade e ventilação. No litoral quente, use suporte raso, 60% a 70% de sombra e movimento de ar constante. Mantenha o rizoma sobre a superfície e deixe espaço para a raque pendente, especialmente quando a planta entra no período de floração de inverno.",
     revisaoCientificaIAR: {
