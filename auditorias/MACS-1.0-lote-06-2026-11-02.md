@@ -10,7 +10,7 @@ Escopo: dez fichas seguintes a Dryadella aviceps na ordem dos imports de `dados/
 6. `cattleya-walkeriana.js` — passagem concluida
 7. `cattleya-intermedia.js` — passagem concluida
 8. `cattleya-leopoldii-dark-princess.js` — passagem concluida
-9. `laelia-fournieri.js` — pendente
+9. `laelia-fournieri.js` — passagem concluida
 10. `lockhartia-lunifera.js` — pendente
 
 ## Passagem 51 — Specklinia grobyi
@@ -80,3 +80,11 @@ FONTE TÉCNICA ESPECÍFICA: AOS https://www.aos.org/explore-orchids/cattleya-all
 FICHA: vaso de barro principal 82/100, cachepô madeira 79/100, plástico vasado 78/100 (heurísticos). Receita 35% macadâmia + 25% pinus + 25% brita fina + 15% carvão = 100%. PRODUTORES BRASILEIROS ESPECÍFICOS (3): (1) Orquidário Mogi Mirim https://www.orquidariomogimirim.com.br/cattleya-tigrina-adulta recomenda pinus + carvão + esfagno, sem proporções; (2) Bioma Plantas https://biomaplantas.com.br/mudas/ lista Cattleya leopoldii com vaso plástico/barro/caixeta e carvão + pinus + esfagno, sem proporções; (3) Orquidário Matsuoka https://orquidariomatsuoka.com.br/produto/cattleya-tigrina-n1-cheiro-cravo-e-canela/ recomenda toco, brita ou substrato genérico, sem composição. Fontes sobre a espécie, não especificamente sobre o cultivar. Meta de 25 não atingida.
 
 PARECER: vaso de barro e substrato grosso respaldados pela AOS; brita como componente inerte plausível. Percentuais 35/25/25/15 e escores NÃO HOMOLOGADOS; mistura da ficha difere das recomendações de pinus/carvão/esfagno dos produtores. Apenas notaEvidencia acrescentada; receita, índices, fotos e assets preservados. Commit da ficha 785b69fde5cabb6b4eaaa22bf4f94617cd940918. Próxima ficha Laelia fournieri.
+
+## Passagem 59 — Cattleya fournieri (sin. Laelia fournieri)
+
+TAXONOMIA/HABITAT: POWO/Kew https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A60448090-2 aceita Cattleya fournieri como litófita endêmica de Minas Gerais, em bioma tropical sazonalmente seco; https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A977344-1 confirma Laelia fournieri como sinônimo. Flora do Brasil 2020/JBRJ https://monografiasfloradobrasil.jbrj.gov.br/cattleya.pdf documenta espécie rupícola dos campos rupestres, geralmente sobre quartzito, na região do Quadrilátero Ferrífero. WFO https://worldfloraonline.org/taxon/wfo-0000837325 confirma hábito rupícola. IOSPE (texto reproduzido em https://www.orchids.org/grexes/cattleya-fournieri) registra afloramentos a 1100–1800 m, mas classifica como epífita; diante da documentação primária Kew/JBRJ/WFO, priorizar rupícola e sinalizar a inconsistência da descrição secundária.
+
+FICHA: vaso de barro pequeno e raso principal (5 estrelas), cachepô madeira (4), placa/tronco e plástico vasado (3). Receita alternativa para vaso 40% brita fina/média + 30% perlita grossa + 20% macadâmia triturada + 10% pinus grosso = 100%; 70% mineral, 30% orgânica. Nenhuma dessas proporções é demonstrada por experimento específico da espécie. Estudo de aclimatização em Cattleya forbesii e Laelia purpurata https://www.scielo.br/j/asagr/a/cg3xhSWmmGn44KHxTRX38Rc/ compara brita, turfa e mistura em OUTRAS espécies e NÃO deve ser extrapolado como validação. Nenhum produtor brasileiro com receita quantitativa específica de C. fournieri foi identificado nas buscas desta passagem; meta de 25 não atingida, não inferir ausência absoluta de publicações.
+
+PARECER: uso de meio muito drenante é plausível para espécie rupícola, mas nem vaso de barro 5 estrelas nem receita 40/30/20/10 têm homologação quantitativa. A falta de evidência sobre macadâmia/perlita exige cautela. Apenas notaEvidencia atualizada, sem modificar fotos, assets, percentuais, estrelas ou índices. Commit da ficha 3698c62fd090b179da07196ab552f109ea3419ea. Próxima ficha Lockhartia lunifera.
