@@ -630,3 +630,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Não foram alterados receita visual, percentuais, itens, alerta de evidência, métodos de cultivo ou fotos/assets. A ficha registra que estudos de plântulas com pinus/arroz carbonizado não validam receita para plantas adultas. Commit ficha: bffd29df0fb63ce4ce359581ceb23cb89bdc12e9.
 - Métodos de suporte estão todos com `estrelas:null`; nenhuma pontuação inventada. Percentuais e ranking NÃO HOMOLOGADOS; meta de 25 produtores brasileiros específicos não atingida.
 - Progresso: 84/149 checagens; 82 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 085 — Cattleya cinnabarina (sin. Laelia cinnabarina).
+
+## Registro 085 — Cattleya cinnabarina (sin. Laelia cinnabarina) (2026-11-03)
+- Receita visual e `receitaTexto` mantidos: 35% brita fina/média + 30% perlita grossa + 25% macadâmia triturada + 10% pinus grosso = 100%; quatro itens concordavam. Não alterar percentuais nem ingredientes nesta passagem.
+- Corrigida justificativa falsa de correspondência com a primeira alternativa qualitativa. A primeira lista macadâmia + perlita + cacos cerâmicos ou argila expandida, sem brita/pinus. A terceira menciona brita e componente orgânico genérico, mas não os materiais/proporções exatos. Nenhuma reproduz a receita visual. Nova justificativa explicita divergência e a necessidade de validar a proporção mineral/orgânica para espécie rupícola.
+- Commit ficha: 46b012e74739871d1384e34abd42393c2904880f. Métodos/estrelas, fotos, assets, IDC/IAR e layout preservados. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
+- Progresso: 85/149 checagens; 83 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 086 — verificar sequência do lote 09.
