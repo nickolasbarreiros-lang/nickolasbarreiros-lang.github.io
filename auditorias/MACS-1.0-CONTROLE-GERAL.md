@@ -761,3 +761,8 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Justificativa, alternativas, composição, suportes/estrelas, fotos/assets, IDC/IAR e layout preservados. Terrestre, rizoma rastejante, vaso largo e raso; avaliar retenção/oxigenação, ausência de componente humoso e granulometria da perlita. Commit ficha: 1b55f97bda739269831beac15b49876a5a76db0f.
 - Percentuais e estrelas NÃO HOMOLOGADOS; meta até 25 produtores brasileiros específicos não atingida.
 - Progresso: 106/149 checagens; 102 fichas com correções efetivas; 1 ficha sem necessidade de correção; 0 homologações quantitativas comprovadas. Próxima ficha: 107 — Bulbophyllum ambrosia.
+
+## Registro 107 — Bulbophyllum ambrosia (2026-11-03)
+- Receita visual/`receitaTexto`/itens concordam: 35% pinus médio + 25% chips de coco tratados + 25% perlita grossa + 15% esfagno solto = 100%. Três alternativas qualitativas são distintas; notaEvidencia corretamente registra a divergência e a justificativa não afirma equivalência, classificando a receita como proposta técnica não validada.
+- Nenhuma alteração na ficha nesta passagem: composição, justificativa, alternativas, suportes/estrelas, fotos/assets, IDC/IAR e layout preservados. Pontos para futura homologação: retenção de 15% esfagno, granulometria e secagem em clima quente; rizoma exposto e ventilação. Percentuais e estrelas NÃO HOMOLOGADOS; meta até 25 produtores brasileiros específicos não atingida.
+- Progresso: 107/149 checagens; 102 fichas com correções efetivas; 2 fichas sem necessidade de correção; 0 homologações quantitativas comprovadas. Próxima ficha: 108 — Cattleya guttata f. coerulea.
