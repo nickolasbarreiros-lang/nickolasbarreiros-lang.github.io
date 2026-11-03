@@ -28,7 +28,7 @@ export const dendrobiumAggregatum = {
     "regiao": "NE da Índia · sul da China · Indochina",
     "habitat": "Florestas sazonais · epífita · 400–1.300 m.",
     "clima": "Quente a fresco · inverno mais seco e luminoso.",
-    "climaFloracao": "A espécie aparece entre aproximadamente 400 e 1.300 m, portanto possui considerável amplitude térmica. IOSPE recomenda inverno mais fresco e seco, mas no litoral quente a parte que pode ser reproduzida com maior segurança é a sazonalidade: pseudobulbos completamente maduros, aumento de luz, forte redução de água e interrupção do nitrogênio. Não é necessário desidratar severamente a planta nem buscar frio artificial extremo.",
+    "climaFloracao": "A espécie ocorre em diferentes altitudes e precisa de pseudobulbos maduros, boa luminosidade e repouso mais seco para favorecer a floração. Entretanto, a redução de água não substitui integralmente noites mais frescas: referências especializadas associam a indução floral à combinação de frio noturno sazonal, luz e seca relativa. Em ambientes onde as noites permanecem quentes durante todo o repouso, a planta pode crescer bem e ainda florescer pouco ou não florescer. Reduza regas e adubação após a maturação, sem provocar desidratação severa nem tentar compensar o calor com seca extrema.",
     "iluminacao": {
         "sombrite": "40% a 50%",
         "solDireto": "Permitido com restrição",
