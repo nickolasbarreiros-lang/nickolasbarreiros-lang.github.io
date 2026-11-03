@@ -353,3 +353,19 @@ A busca direcionada identificou **quatro estabelecimentos brasileiros independen
 | 10% carvão | porosidade complementar | não corrige falta de drenagem por si só | preservar furos e volume proporcional |
 
 **Conclusão:** a receita é **internamente compatível** com o manejo publicado na ficha e qualitativamente defensável. Não há motivo para corrigir agora a orientação de rega ou substituir perlita. **25% de perlita e os demais percentuais continuam sem homologação experimental ou comparação quantitativa de produtores.** Evitar declarar mistura "ideal comprovada"; preferir "proposta de mistura para recipiente pequeno e ventilado". Nesta passagem: **0 fichas alteradas; 0 percentuais homologados**.
+
+## Décima quarta passagem — correção da indução floral de Dendrobium lindleyi
+
+**Achado com implicação prática para clima quente de baixa altitude:** a ficha de *Dendrobium lindleyi* (= *D. aggregatum*) já descrevia repouso hídrico, mas dava peso excessivo à possibilidade de reproduzir sazonalidade de água/luz sem noites frescas. A redução de água **não substitui necessariamente** o gatilho térmico.
+
+**Fontes especializadas:**
+- **University of Wisconsin–Madison Extension, revisão outubro de 2026**, https://hort.extension.wisc.edu/articles/dendrobium-lindleyi/ : requer luz forte, repouso seco e inverno mais fresco; alerta que a espécie pode não florescer se as noites permanecerem acima de 60 °F (aprox. 15,6 °C) durante o repouso. Trata-se de orientação de cultivo, não limiar fisiológico universal.
+- **American Orchid Society**, https://www.aos.org/orchids/articles/why-will-it-not-bloom-part-1-general-considerations : discute conjuntamente amplitude dia/noite, luz e redução de chuvas em *D. lindleyi* e *D. nobile*; o padrão natural de indução inclui noites mais frescas, não apenas secura.
+- **American Orchid Society**, https://www.aos.org/orchids/articles/cold-tolerance-of-warm-growing-orchids : coloca *D. lindleyi* no grupo Densiflora/Callista, cujas espécies toleram noites frias sazonais; tolerância ao frio não equivale a exigência de atingir uma temperatura exata em todo cultivo.
+- **Orchid Species Society (Austrália)**, https://orchidspeciessoc.org.au/dendrobium-culture/ : recomenda para o grupo de *D. lindleyi* noites próximas a 10 °C no inverno, com pouca água e sem adubo, como manejo de floração.
+
+**Correção efetiva:** alterado **somente** o campo `climaFloracao` de `dados/orquideas/dendrobium-aggregatum.js`, para distinguir cultivo vegetativo viável de indução floral confiável em noites quentes e desaconselhar seca extrema como substituto de frio. Commit `f093b7db4dc5342f2bb1ac46d2da6de6b76a0e76`.
+
+**Escopo preservado:** nenhuma mudança na mistura visual de 45% pinus / 30% brita fina / 25% carvão, no suporte principal, em IDC 3.2, IAR 2.0, estrelas, fotos ou assets. **Pendência:** revisar em etapa própria a nota de probabilidade de floração no clima quente, cotejando a pontuação IAR vigente e o protocolo do projeto antes de recalcular qualquer índice.
+
+**Resultado:** 1 correção editorial de floração fundamentada; 0 percentuais de substrato homologados.
