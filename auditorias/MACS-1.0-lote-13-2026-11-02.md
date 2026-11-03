@@ -12,7 +12,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 6. laelia-caulencens.js — passagem concluída
 7. rodricidium.js — passagem concluída
 8. laelia-praestans.js — passagem concluída
-9. phaius-tankervilleae-alba.js — pendente
+9. phaius-tankervilleae-alba.js — passagem concluída
 10. stanhopea-hernandezii.js — pendente
 
 ## Passagem 121 — Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema')
@@ -53,3 +53,8 @@ NOTOGÊNERO híbrido Oncidium × Rodriguezia, sem grex e parentais específicos 
 ## Passagem 128 — Cattleya praestans (arquivo histórico laelia-praestans)
 
 EPÍFITA compacta de floresta úmida, raízes ventiladas e umidade regular no crescimento. SUPORTES: cachepô madeira 5 estrelas, barro e placa/tronco 4, plástico vasado 3. RECEITA VISUAL: 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira qualitativa, mas primeira é pinus + perlita + carvão + pouco chips coco, sem macadâmia; visual substitui coco por macadâmia. Segunda é macadâmia + argila expandida + carvão + pinus, sem perlita; terceira é chips coco + perlita + carvão + pinus, sem macadâmia. Nenhuma coincide. Validar retenção, secagem e granulometria em recipiente pequeno e calor noturno. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 7a5de47fbbb4e1e5f7e09283ce070cf861d14da5. Próxima ficha Phaius tankervilleae alba.
+
+
+## Passagem 129 — Calanthe tankervilleae forma alba (arquivo histórico phaius-tankervilleae-alba)
+
+TERRESTRE grande, vaso amplo/profundo, umidade regular e aeração. SUPORTES: plástico 5 estrelas, barro 4, plástico vasado 3, cachepô madeira 2. RECEITA VISUAL: 30% fibra coco + 30% chips coco pequenos + 20% arroz carbonizado + 20% perlita grossa = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira qualitativa, mas primeira é pinus fino + fibra coco + perlita grossa + pouca vermiculita, sem chips/arroz. Segunda chips coco + perlita fina/média + arroz carbonizado + esfagno, sem fibra coco; terceira fibra coco + pinus + perlita + carvão, sem chips/arroz. Nenhuma coincide. Validar retenção/compactação em vaso profundo, salinidade do coco, granulometria e estabilidade da touceira alta. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 8800a464bb915cb7e5dae08f65651e4bfc1f93f2. Próxima ficha Stanhopea hernandezii.
