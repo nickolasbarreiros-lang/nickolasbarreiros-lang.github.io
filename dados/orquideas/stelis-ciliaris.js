@@ -310,7 +310,7 @@ export const stelisCiliaris = {
         "finalidade": "Ajuda a conservar macroporos e evitar saturação prolongada."
       }
     ],
-    "alerta": "Não usar perlita grossa. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos.",
+    "alerta": "A receita visual principal não inclui perlita grossa; a alternativa qualitativa que a menciona ainda exige avaliação de granulometria e secagem antes de ser recomendada. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita visual é para vaso, não para revestir integralmente placas ou troncos.",
     "notaEvidencia": "MACS 1.0 — ficha 139/149 conferida em 2026-11-03: Stelis ciliaris, microepífita de raízes finas de florestas úmidas; umidade regular, aeração constante, sem secagem prolongada e sem repouso seco. Suportes placa/tronco 5 estrelas, vaso barro e cachepô madeira 4, plástico vasado 3; não homologados. Receita visual alternativa PARA VASO 35% pinus pequeno + 30% esfagno solto + 20% arroz carbonizado + 15% carvão vegetal pequeno = 100% em volume; resumo, receitaTexto e itens concordam. Primeira qualitativa pinus pequeno + esfagno solto + perlita grossa (sem arroz/carvão); segunda arroz carbonizado + esfagno solto + carvão pequeno (sem pinus). Nenhuma corresponde integralmente à visual. CONTRADIÇÃO INTERNA: alerta proíbe perlita grossa, mas primeira qualitativa recomenda perlita grossa. Avaliar 30% esfagno solto quanto a retenção, compactação e oxigenação em vaso, tamanho de partículas e secagem da placa versus vaso, procedência climática. Meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
   },
   "fotoReferencia": {
