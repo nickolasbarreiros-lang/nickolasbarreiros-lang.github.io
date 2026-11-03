@@ -39,7 +39,7 @@ export const renantheraCoccinea = {
     "adubacao": "🌿 Orgânica: bokashi em sachê, distante do caule.\n💧 Mineral/Foliar: NPK equilibrado em baixa concentração semanalmente durante crescimento intenso.\n🌱 Raízes aéreas: hidrate antes de adubar.\n🧪 Liberação lenta: moderada em cestos ou vasos muito drenantes.\n🚿 Lavagem: regas abundantes com água pura reduzem sais acumulados nas raízes.",
     "rega": "Em dias quentes, regue abundantemente pela manhã. Plantas em cesto, com muitas raízes expostas, podem precisar de água diária no verão. Reduza apenas quando a evaporação cair. Evite água parada no ápice durante a noite e nunca mantenha as raízes mergulhadas ou em substrato compacto.",
     "suporte": "🥇 Cesto grande e muito vazado com tutor alto — melhor combinação para raízes e porte.\n🥈 Vaso pesado de drenagem ampla + tutor robusto.\n🥉 Estrutura vertical de madeira com raízes praticamente livres.\nPlaneje desde cedo o tamanho adulto e o espaço das hastes florais.",
-    substrato: ["🥈 Alternativa 1 — 70% Casca de pinus + 30% Carvão vegetal. Usar partículas grossas em pequena quantidade para fixação em cesto de secagem lenta; percentuais MACS 1.1 D, provisórios e não homologados.","🥉 Alternativa 2 — 45% Casca de pinus + 30% Carvão vegetal + 25% Chips de coco. Usar partículas grossas em cesto de secagem rápida, com maior reserva hídrica potencial; percentuais MACS 1.1 D, provisórios e não homologados. Preparar os chips conforme procedência e teor de sais."],
+    substrato: ["Casca de pinus + Carvão vegetal","Casca de pinus + Carvão vegetal + Chips de coco"],
     formasCultivo: {
         perfilVisual: "renanthera-monopodial-trepadora-raizes-aereas",
         destaque: "Cachepô de Madeira",
