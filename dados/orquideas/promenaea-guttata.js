@@ -40,7 +40,7 @@ export const promenaeaGuttata = {
     "adubacao": "🌿 Orgânica: bokashi apenas em microdose, preferencialmente em sachê.\n💧 Mineral/Foliar: NPK equilibrado em cerca de 1/4 da dose a cada 10–15 dias durante crescimento ativo.\n🌱 Novos pseudobulbos: mantenha nutrição regular, mas suave.\n🧪 Liberação lenta: opcional e somente em quantidade mínima.\n🚿 Lavagem: regas periódicas com água pura reduzem sais nas raízes finas.",
     "rega": "Mantenha leve umidade constante durante o crescimento, regando antes de ocorrer secagem prolongada. O substrato deve estar úmido, não saturado. Em períodos frios ou de crescimento lento, aumente moderadamente o intervalo conforme a evaporação cair; não imponha repouso seco rígido.",
     "suporte": "🥇 Vaso pequeno, baixo e muito perfurado.\n🥈 Cachepô pequeno e vazado.\n🥉 Placa de cortiça/madeira com fina camada de esfagno, somente onde a umidade ambiental for alta.\nO recipiente deve ser proporcional ao pequeno sistema radicular.",
-    substrato: ["🥇 Esfagno de fibra longa solto + perlita de granulometria adequada a miniaturas.","🥈 Casca de pinus fina + perlita de granulometria adequada a miniaturas + pequena fração de esfagno solto."],
+    substrato: ["🥇 Receita visual provisória para vaso pequeno e muito ventilado: chips de coco pequenos 40% + casca de pinus fina 30% + perlita grossa 30% (100%; não homologada).","🥈 Esfagno de fibra longa solto + perlita de granulometria adequada a miniaturas.","🥉 Casca de pinus fina + perlita de granulometria adequada a miniaturas + pequena fração de esfagno solto."],
     formasCultivo: {
         perfilVisual: "promenaea-miniatura-epifita-raizes-delicadas",
         destaque: "Vaso plástico vasado",
@@ -56,7 +56,7 @@ export const promenaeaGuttata = {
         titulo: "Substrato ideal",
         contexto: "Mistura leve para vaso pequeno e muito ventilado",
         resumo: "O cultivo principal em vaso exige umidade moderada e aeração constante. Mistura de chips de coco, pinus fino e perlita evita compactação junto ao rizoma.",
-        justificativa: "A receita quantifica a segunda alternativa qualitativa já registrada na ficha, compatível com o vaso principal; a primeira alternativa original, montagem com esfagno mínimo, permanece preservada. Percentuais estimados e não homologados pela MACS 1.0.",
+        justificativa: "A receita visual para vaso pequeno e muito ventilado combina chips de coco pequenos, pinus fino e perlita grossa. A primeira alternativa antiga é esfagno solto com perlita; a segunda é pinus fino, perlita e pequena fração de esfagno. Nenhuma contém chips de coco, portanto nenhuma corresponde integralmente à composição visual. A fórmula visual foi incluída como primeira alternativa, preservando as duas anteriores. Como a planta é miniatura e tem raízes delicadas, a perlita grossa deve ser conferida fisicamente quanto ao tamanho das partículas em relação às raízes e ao volume do vaso; não presumir que granulometria grossa seja ideal só por aumentar a aeração. Percentuais não homologados pela MACS 1.0.",
         receitaTexto: "40% chips de coco pequenos + 30% casca de pinus fina + 30% perlita grossa.",
         perfil: ["Miniatura epífita", "Raízes delicadas", "Umidade regular", "Alta aeração", "Sombra clara"],
         comportamento: [
