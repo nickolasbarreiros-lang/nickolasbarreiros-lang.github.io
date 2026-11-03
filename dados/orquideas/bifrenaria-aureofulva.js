@@ -46,7 +46,7 @@ export const bifrenariaAureofulva = {
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 3, status: "Adequado", texto: "Mantém alta aeração e drenagem, mas acelera bastante a secagem e aumenta a necessidade de regas no período quente." }
         ]
     },
-    substrato: ["Brita fina/média + casca de pinus média + carvão vegetal médio","⭐ Brita fina/média + casca de arroz carbonizada + carvão vegetal médio + casca de macadâmia média"],
+    substrato: ["Brita fina/média + casca de pinus média + carvão vegetal médio","Brita fina/média + casca de arroz carbonizada + carvão vegetal médio + casca de macadâmia média"],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
