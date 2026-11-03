@@ -40,7 +40,7 @@ export const encycliaAlboxanthina = {
         "🥈 Vaso de barro bem perfurado e proporcional à touceira.",
         "🥉 Montagem em cortiça ou madeira, quando houver disponibilidade de regas frequentes."
     ],
-    substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal (mistura provisória do substrato visual).","🥈 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥉 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","⭐ Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
+    substrato: ["🥇 Para Cachepô de Madeira bem vazado: 35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa compatível com o cachepô + 15% carvão vegetal médio (proposta NÃO homologada).", "🥈 Casca de pinus média/grossa + perlita grossa compatível com o cachepô + carvão vegetal médio + pequena fração de chips de coco grossos preparados (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de macadâmia média + argila expandida média + carvão vegetal médio + casca de pinus grossa (alternativa qualitativa sem percentuais homologados)."],
     formasCultivo: {
         perfilVisual: "encyclia-epifita-rupicola-clara",
         destaque: "Cachepô de Madeira",
@@ -56,8 +56,8 @@ export const encycliaAlboxanthina = {
         titulo: "Substrato ideal",
         contexto: "Mistura para cachepô ou vaso proporcional à touceira",
         resumo: "Substrato de granulometria média a grossa, com excelente aeração e leve secagem entre regas.",
-        justificativa: "A mistura provisória para cachepô ou vaso combina casca de macadâmia média, pinus médio, perlita grossa e carvão vegetal, priorizando aeração e secagem perceptível entre regas. Ela não reproduz integralmente nenhuma das alternativas qualitativas anteriores. Os percentuais são estimativas técnicas ainda não homologadas pela MACS 1.0.",
-        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        justificativa: "Encyclia alboxanthina é epífita e ocasionalmente rupícola de ambientes claros, com raízes que exigem alta aeração e secagem perceptível entre regas. Para cachepô de madeira bem vazado, a receita visual propõe macadâmia média, pinus médio, perlita grossa compatível com o recipiente e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não fundamentam os percentuais visuais. Manter a base dos pseudobulbos acima do substrato e evitar repouso seco prolongado. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa compatível com o cachepô + 15% carvão vegetal médio (proposta não homologada).",
         perfil: ["Epífita ou rupícola", "Pseudobulbos firmes", "Alta luminosidade filtrada", "Raízes aeradas", "Leve secagem entre regas"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -68,11 +68,11 @@ export const encycliaAlboxanthina = {
         itens: [
             { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta as raízes com espaços de ar." },
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "drenagem", finalidade: "Ajuda a manter porosidade e secagem regular." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Reduz compactação e facilita a circulação de ar." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "estrutura", finalidade: "Complementa a drenagem e a estabilidade da mistura." }
+            { asset: "perlita", nome: "Perlita grossa compatível com o cachepô", proporcao: "20%", nota: "aeração", finalidade: "Reduz compactação e facilita a circulação de ar." },
+            { asset: "carvao", nome: "Carvão vegetal médio", proporcao: "15%", nota: "estrutura", finalidade: "Complementa a drenagem e a estabilidade da mistura." }
         ],
         alerta: "Evitar sombra profunda, substrato constantemente molhado e enterramento da base dos pseudobulbos. Leve secagem não significa impor repouso seco prolongado.",
-        notaEvidencia: "Percentuais e estrelas são estimativas horticulturais não homologadas pela MACS 1.0. Validação visual dos assets pendente."
+        notaEvidencia: "MACS 1.1 — revisão documental: Encyclia alboxanthina, epífita e ocasionalmente rupícola de ambientes claros e sazonalmente secos, com raízes que exigem alta aeração e secagem perceptível entre regas, sem repouso seco prolongado. Cachepô de Madeira bem vazado é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com cachepô + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus grosso. Não fundamentam os percentuais visuais. Monitorar secagem, luz e posição dos pseudobulbos. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
         "Cultivar em sombra profunda",
