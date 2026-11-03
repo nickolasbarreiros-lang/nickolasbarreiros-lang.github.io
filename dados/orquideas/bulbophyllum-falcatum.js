@@ -75,10 +75,10 @@ export const bulbophyllumFalcatum = {
     },
     substratoVisual: {
         "titulo": "Substrato ideal",
-        "contexto": "Receita para cultivo em vaso ou recipiente",
+        "contexto": "Receita para cachepô de madeira amplo e suspenso ou recipiente muito ventilado",
         "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
-        "justificativa": "Cesto amplo e suspenso para que a raque floral possa projetar-se livremente. A planta deve ficar firme, mas com rizoma visível e espaço lateral para os novos pseudobulbos. Esta receita para recipiente é uma proposta técnica de cultivo, não uma fórmula experimental validada especificamente para a espécie.",
-        "receitaTexto": "35% casca de pinus média + 25% chips de coco tratados + 25% perlita grossa + 15% esfagno solto.",
+        "justificativa": "Bulbophyllum falcatum possui rizoma rastejante e inflorescência achatada que necessita espaço lateral livre. O cachepô amplo e suspenso é a proposta principal, com rizoma exposto e fixação estável. A receita visual combina pinus médio, chips de coco médios preparados, perlita grossa compatível com raízes finas e esfagno de fibra longa solto, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não originam os percentuais da principal. Manter umidade regular sem compactação nem secagem prolongada. MACS 1.1: formulação horticultural provisória, sem homologação quantitativa específica.",
+        "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa compatível com raízes finas + 15% esfagno de fibra longa solto (proposta não homologada).",
         "perfil": [
             "Rizoma longo",
             "Raízes finas",
@@ -119,30 +119,30 @@ export const bulbophyllumFalcatum = {
             },
             {
                 "asset": "chips-coco",
-                "nome": "Chips de coco tratados",
+                "nome": "Chips de coco médios preparados",
                 "proporcao": "25%",
                 "nota": "reserva hídrica",
                 "finalidade": "Evita perda de água excessivamente rápida entre regas."
             },
             {
                 "asset": "perlita",
-                "nome": "Perlita grossa",
+                "nome": "Perlita grossa compatível com raízes finas",
                 "proporcao": "25%",
                 "nota": "aeração",
                 "finalidade": "Reduz adensamento e facilita drenagem."
             },
             {
                 "asset": "esfagno",
-                "nome": "Esfagno solto",
+                "nome": "Esfagno de fibra longa solto",
                 "proporcao": "15%",
                 "nota": "umidade de segurança",
                 "finalidade": "Pequena fração sem compactar protege pontas de raízes novas."
             }
         ],
         "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura.",
-        "notaEvidencia": "MACS 1.0 — primeira passagem documental: Bulbophyllum falcatum, epífita africana de rizoma rastejante, raízes finas, umidade regular e inflorescência achatada com necessidade de espaço lateral. Suportes cachepô madeira 5 estrelas, plástico vasado e placa/tronco 4, barro 3; não homologados. Receita visual para recipiente 35% pinus médio + 25% chips coco tratados + 25% perlita grossa + 15% esfagno solto = 100%; receitaTexto e itens concordam. Qualitativas: (1) esfagno longo + perlita, sem pinus/coco; (2) chips coco + perlita + carvão miúdo + esfagno, sem pinus e com carvão ausente no visual; (3) macadâmia + pinus + perlita + esfagno, sem coco. Nenhuma coincide integralmente com visual. Justificativa reconhece proposta não validada, não alega equivalência. Validar retenção de esfagno e chips, granulometria para raízes finas, rizoma exposto e passagem livre da raque floral. Meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        "notaEvidencia": "MACS 1.1 — revisão documental: Bulbophyllum falcatum é epífita africana de rizoma rastejante, raízes finas e inflorescência achatada que precisa de passagem lateral livre. Cachepô de Madeira amplo e suspenso é suporte principal; estrelas são heurísticas. Receita visual e textual coincidem: 35% pinus médio + 25% chips de coco médios preparados + 25% perlita grossa compatível com raízes finas + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: esfagno solto/perlita e macadâmia/pinus/perlita/pequena fração de esfagno solto. Elas não originam os percentuais visuais. Monitorar retenção, ventilação, rizoma exposto e passagem livre da raque floral. Não há ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
     },
-    substrato: ["🥇 Esfagno de fibra longa solto + perlita grossa.","🥈 Chips de coco tratados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno.","🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de esfagno."],
+    substrato: ["🥇 Para Cachepô de Madeira amplo e suspenso: 35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa compatível com raízes finas + 15% esfagno de fibra longa solto (proposta NÃO homologada).", "🥈 Esfagno de fibra longa solto + perlita de granulometria compatível com raízes finas (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de macadâmia média + casca de pinus média + perlita de granulometria compatível com raízes finas + pequena fração de esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados)."],
     errosComuns: "• Enterrar o rizoma.\n• Usar vaso estreito e profundo.\n• Bloquear a raque floral contra a borda do vaso.\n• Compactar esfagno.\n• Deixar substrato envelhecer e azedar.\n• Manter calor com ar parado.\n• Permitir ressecamento prolongado.\n• Forçar repouso seco.\n• Aplicar fertilizante concentrado sobre raízes superficiais.",
     dica: "🏆 Antes da floração, verifique se há espaço lateral livre. A raque achatada é a principal característica da espécie e pode ser deformada ou abortar se ficar presa entre vaso, parede ou outras plantas. No litoral quente, cesto raso, rizoma exposto, sombra clara, umidade regular e ventilação contínua formam a combinação mais segura.",
     revisaoCientificaIAR: {
