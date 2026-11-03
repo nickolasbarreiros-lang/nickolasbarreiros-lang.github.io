@@ -30,7 +30,7 @@ export const stanhopeaAssidensis = {
     adubacao: "🌿 Orgânica: aplique pequena quantidade de bokashi na borda da cesta a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: utilize adubo equilibrado em meia dose a cada 10 a 15 dias, evitando aplicações nas flores.\n🧪 Liberação lenta: Osmocote pode ser usado em dose moderada, sem contato direto com brotos e raízes novas. Reduza bastante a adubação no inverno ou quando a planta estiver sem crescimento ativo.",
     rega: "Regue de forma regular e abundante durante a formação de brotos, raízes e pseudobulbos. O substrato deve permanecer levemente úmido, mas nunca encharcado ou compactado. Evite deixá-lo completamente seco por vários dias. No inverno, reduza a frequência, mantendo umidade suficiente para impedir o enrugamento excessivo dos pseudobulbos.",
     suporte: "🥇 Cesta suspensa de madeira com ripas largas.\n🥈 Cesto de plástico amplamente perfurado.\n🥉 Cesto aramado revestido apenas com uma camada fina de fibra de coco ou esfagno.\nNunca utilize vaso fechado ou prato sob o recipiente, pois a haste floral precisa sair pela parte inferior ou pelas laterais.",
-    substrato: "🥇 Casca de macadâmia média + chips de coco + perlita grossa + pequena fração de esfagno solto.\n🥈 Casca de pinus média + fibra de coco grossa + perlita grossa + carvão vegetal.",
+    substrato: "🥇 Receita visual provisória para cesto suspenso: chips de coco grossos 40% + casca de pinus média 30% + perlita grossa 20% + esfagno de fibra longa solto 10% (100%; não homologada).\n🥈 Casca de macadâmia média + chips de coco + perlita grossa + pequena fração de esfagno solto.\n🥉 Casca de pinus média + fibra de coco grossa + perlita grossa + carvão vegetal.",
     formasCultivo: {
         perfilVisual: "stanhopea-hibrido-primario-hastes-descendentes",
         destaque: "Cachepô de Madeira",
@@ -45,7 +45,7 @@ export const stanhopeaAssidensis = {
         titulo: "Substrato ideal",
         contexto: "Mistura leve para cesto suspenso com fundo aberto",
         resumo: "Partículas grossas mantêm umidade moderada e circulação de ar, sem compactar a saída das hastes florais pelo fundo.",
-        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa já registrada na ficha. Os percentuais são estimativas horticulturais e não foram homologados pela MACS 1.0.",
+        justificativa: "A receita visual combina chips de coco grossos, pinus médio, perlita grossa e esfagno de fibra longa solto. A primeira mistura qualitativa antiga contém macadâmia, chips de coco, perlita e esfagno, sem pinus; a segunda contém pinus, fibra de coco, perlita e carvão, sem chips de coco nem esfagno. Nenhuma reproduz integralmente a composição visual. A fórmula foi incluída como primeira alternativa provisória, preservando as duas receitas anteriores. Em Stanhopea, a mistura deve permanecer solta e não pode obstruir o fundo aberto nem o trajeto das hastes descendentes. Percentuais não homologados pela MACS 1.0.",
         receitaTexto: "40% chips de coco grossos + 30% casca de pinus média + 20% perlita grossa + 10% esfagno de fibra longa solto.",
         perfil: ["Híbrido primário", "Hastes descendentes", "Cesto suspenso", "Umidade regular", "Fundo livre"],
         comportamento: [
