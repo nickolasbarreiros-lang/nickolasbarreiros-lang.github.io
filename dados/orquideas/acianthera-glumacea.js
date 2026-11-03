@@ -47,6 +47,7 @@ export const aciantheraGlumacea = {
         ]
     },
     substrato: [
+        "Para vaso pequeno: casca de pinus média + casca de arroz carbonizada + carvão vegetal pequeno + esfagno solto (mistura-base visual provisória, não homologada)",
         "Casca de pinus média + carvão vegetal pequeno + esfagno solto",
         "Casca de pinus média + casca de arroz carbonizada + carvão vegetal pequeno",
         "Chips de coco médios + carvão vegetal pequeno + casca de arroz carbonizada",
