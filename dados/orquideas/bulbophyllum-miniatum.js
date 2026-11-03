@@ -126,7 +126,8 @@ export const bulbophyllumMiniatum = {
                             "finalidade": "Protege pontas radiculares sem abafar a base."
             }
         ],
-        "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo."
+        "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo.",
+        "notaEvidencia": "MACS 1.0 — primeira passagem documental: nome aceito na ficha Bulbophyllum saltatorium var. albociliatum (sin. B. miniatum), miniatura epífita de rizoma rastejante. Placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; indicação de montagem com esfagno atribuída na ficha a B. saltatorium sem confirmação da variedade, portanto extrapolação taxonômica e não ensaio específico. Receita visual 35% pinus médio + 25% chips coco + 25% perlita grossa + 15% esfagno = 100%; receitaTexto e itens concordam. DIVERGÊNCIA: primeira receita qualitativa contém chips coco + perlita + carvão miúdo + esfagno, sem pinus; segunda contém macadâmia + pinus + perlita + esfagno, sem chips coco. Proposta não validada quantitativamente; meta de até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     substrato: "🥇 Chips de coco tratados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto.\n🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de esfagno solto.\n🥉 Esfagno de fibra longa solto + perlita grossa.",
     errosComuns: "• Tratar Bulbophyllum miniatum como espécie atualmente aceita separada.\n• Enterrar o rizoma ou a base dos pseudobulbos.\n• Compactar esfagno.\n• Confundir alta umidade com substrato saturado.\n• Deixar a planta secar completamente por vários dias.\n• Cultivar em sombra profunda e abafada.\n• Aplicar adubo concentrado sobre raízes finas.\n• Forçar repouso seco para induzir floração.",
