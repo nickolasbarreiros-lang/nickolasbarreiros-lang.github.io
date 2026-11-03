@@ -36,14 +36,14 @@ export const cattleyaABrazilianDream = {
     adubacao: "🌿 Orgânica: Bokashi em pequena quantidade durante crescimento ativo, preferencialmente em porta-adubo e sem contato com o rizoma.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 a 1/3 da dose a cada 7 a 15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada para plantas em vaso ou cachepô. Fórmulas extremamente fosfatadas não são necessárias para induzir floração.",
     rega: "Durante crescimento ativo, regue profundamente e deixe o meio perder grande parte da umidade antes da próxima irrigação. Depois da maturação, aumente gradualmente o intervalo, observando a atividade das raízes. Não copie automaticamente a seca extrema de C. nobilior se o híbrido continuar ativo: a herança de C. loddigesii pede manejo mais flexível.",
     suporte: "🥇 Cachepô de madeira bem ventilado.\n🥈 Vaso de barro pequeno a médio e muito drenado.\n🥉 Placa de madeira ou cortiça em ambiente com umidade e possibilidade de regas frequentes.",
-    substrato: ["🥇 Casca de pinus grossa + carvão vegetal + brita fina.","🥈 Chips de coco grossos + casca de macadâmia + carvão vegetal + argila expandida.","🥉 Pinus grosso + macadâmia grossa + perlita grossa."],
+    substrato: ["🥇 Para cachepô de madeira aberto: 40% casca de macadâmia média + 25% casca de pinus média/grossa + 20% perlita grossa + 15% carvão vegetal médio (proposta NÃO homologada).", "🥈 Casca de pinus grossa + carvão vegetal médio + brita pequena/média (alternativa qualitativa sem percentuais homologados).", "🥉 Chips de coco grossos preparados + casca de macadâmia média + carvão vegetal médio + argila expandida média (alternativa qualitativa sem percentuais homologados)."],
     formasCultivo: {
     "perfilVisual": "cattleya",
-    "destaque": "Cachepô de madeira",
-    "resumo": "MACS 1.0: o plástico vasado (76/100), barro (74/100) e cesto (73/100) são próximos; o cesto publicado permanece opção plausível, não comprovadamente superior.",
+    "destaque": "Cachepô de Madeira",
+    "resumo": "MACS 1.1: cachepô de madeira aberto é a proposta publicada, sem superioridade experimental comprovada sobre vaso plástico vasado ou barro; pontuações anteriores eram heurísticas.",
     "metodos": [
         {
-            "nome": "Cachepô de madeira",
+            "nome": "Cachepô de Madeira",
             "asset": "cesto-madeira",
             "estrelas": null,
             "status": "Mais indicada na ficha",
@@ -76,8 +76,8 @@ export const cattleyaABrazilianDream = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "O híbrido de raízes epífitas beneficia-se de mistura grossa e de secagem rápida em cachepô ventilado.",
-    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 40% casca de macadâmia + 25% casca de pinus + 20% perlita grossa + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
+    "justificativa": "Cattleya A Brazilian Dream é grex de C. nobilior × C. loddigesii, com variação entre clones. Para cachepô de madeira aberto, a receita visual propõe macadâmia média, pinus médio/grosso, perlita grossa e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não herdam os percentuais da principal. O suporte publicado não foi comprovado superior a vasos perfurados; observar atividade das raízes e secagem sem impor repouso rígido derivado de apenas um parental. MACS 1.1: proposta horticultural sem homologação quantitativa específica.",
+    "receitaTexto": "40% casca de macadâmia média + 25% casca de pinus média/grossa + 20% perlita grossa + 15% carvão vegetal médio (proposta não homologada).",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
@@ -87,14 +87,14 @@ export const cattleyaABrazilianDream = {
     "itens": [
         {
             "asset": "macadamia",
-            "nome": "Casca de macadâmia",
+            "nome": "Casca de macadâmia média",
             "proporcao": "40%",
             "nota": "estrutura",
             "finalidade": "Partículas resistentes criam espaços de ar entre as raízes."
         },
         {
             "asset": "casca-pinus",
-            "nome": "Casca de pinus",
+            "nome": "Casca de pinus média/grossa",
             "proporcao": "25%",
             "nota": "umidade moderada",
             "finalidade": "Conserva alguma umidade sem fechar a mistura quando usada em granulometria adequada."
@@ -108,169 +108,11 @@ export const cattleyaABrazilianDream = {
         },
         {
             "asset": "carvao-vegetal",
-            "nome": "Carvão vegetal",
+            "nome": "Carvão vegetal médio",
             "proporcao": "15%",
             "nota": "drenagem",
             "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
     "alerta": "Receita inferida para planta adulta; estudos de plântulas dos parentais não demonstram o melhor substrato deste híbrido. Observar secagem e manter drenagem.",
-    "notaEvidencia": "MACS 1.0 — primeira passagem documental: Cattleya A Brazilian Dream (C. nobilior × C. loddigesii), grex híbrido variável entre seedlings; raízes epífitas, alta aeração, secagem entre regas sem copiar repouso seco rígido de um parental. Destaque publicado cachepô madeira, mas resumo heurístico pontua plástico vasado 76/100, barro 74/100 e cesto 73/100: DIVERGÊNCIA DE RANKING entre destaque e maior pontuação; métodos têm estrelas null, não inferir estrelas. Receita visual 40% macadâmia + 25% pinus + 20% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. Qualitativas: (1) pinus + carvão + brita fina (sem macadâmia/perlita), (2) chips coco + macadâmia + carvão + argila expandida (sem pinus/perlita), (3) pinus + macadâmia + perlita (sem carvão). Nenhuma coincide integralmente. Texto reconhece que evidência de plântulas parentais não demonstra melhor receita do grex. Validar retenção/secagem, variabilidade clonal, comparação de suportes e fontes de produtores brasileiros; meta até 25 produtores específicos não atingida. Percentuais e suportes NÃO HOMOLOGADOS."
-},
-    errosComuns: "• Enterrar rizoma e gemas de brotação.\n• Usar vaso superdimensionado.\n• Substrato fino ou compactado.\n• Manter raízes continuamente molhadas.\n• Copiar um repouso rígido de C. nobilior em clone ainda ativo.\n• Cultivar em sombra excessiva.\n• Dividir plantas pequenas sem necessidade.\n• Tratar características de um clone como regra do grex.",
-    dica: "🏆 Cultive a planta que você tem, não uma média teórica dos pais. Comece com manejo intermediário: raízes muito aeradas, bastante luz filtrada e regas fortes no crescimento. Depois observe o clone. Se as raízes seguem ativas após a maturação, mantenha alguma água; se a atividade cai e o meio demora a secar, aumente os intervalos. Essa leitura individual é mais segura que tentar reproduzir integralmente o regime de C. nobilior ou de C. loddigesii.",
-    revisaoCientificaIAR: {
-        "nome": "Cattleya A Brazilian Dream",
-        "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Um encontro entre duas Cattleyas brasileiras muito diferentes — e justamente aí está o charme de *Cattleya A Brazilian Dream*. O híbrido reúne *Cattleya nobilior* e *Cattleya loddigesii*, combinando a rusticidade e preferência por muita luz da primeira com a maior afinidade por ambientes úmidos da segunda. O resultado pode variar bastante de uma planta para outra: porte, tonali",
-        "habitatAltitudeClima": "Não ocorre na natureza · ecologia derivada dos parentais. | Quente a intermediário · luminoso e ventilado.",
-        "distribuicaoGeografica": "Grex registrado em 2019 · sem distribuição natural.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
-        "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies",
-            "OrchidRoots/RHS"
-        ]
-    },
-    indiceDificuldadeCultivo: {
-        "versao": "IDC 3.2 — selo por facilidade",
-        "escala": "dificuldade",
-        "indice": 22,
-        "classificacao": "Fácil",
-        "cultivoEstrelas": 5,
-        "criterios": {
-            "temperatura": {
-                "notaDificuldade": 1,
-                "peso": 15
-            },
-            "rega": {
-                "notaDificuldade": 1,
-                "peso": 15
-            },
-            "umidade": {
-                "notaDificuldade": 1,
-                "peso": 10
-            },
-            "ventilacao": {
-                "notaDificuldade": 1,
-                "peso": 10
-            },
-            "luminosidade": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "raizesSubstrato": {
-                "notaDificuldade": 1,
-                "peso": 10
-            },
-            "sazonalidade": {
-                "notaDificuldade": 1,
-                "peso": 10
-            },
-            "floracao": {
-                "notaDificuldade": 1,
-                "peso": 20
-            }
-        },
-        "faixas": {
-            "facil": "0–25",
-            "moderada": "26–50",
-            "dificil": "51–89",
-            "extrema": "90–100"
-        }
-    },
-    indiceAdaptacaoRegional: {
-        "versao": "IAR 2.0 — revisão científica",
-        "escala": "compatibilidade regional",
-        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
-        "litoralQuente": {
-            "indice": 81,
-            "estrelas": 5,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 4,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 4,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 3,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 5,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 5,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 4,
-                    "peso": 20
-                }
-            }
-        },
-        "montanhaFrio": {
-            "indice": 80,
-            "estrelas": 4,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 4,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 4,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 3,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 5,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 4,
-                    "peso": 20
-                }
-            }
-        }
-    },
-        adaptacaoRegional: {
-        litoralQuente: { texto: "O calor é compatível com ambos os parentais; ventilação, secagem rápida e luz alta filtrada são os pontos centrais." },
-        montanhaFrio: { texto: "Desde que receba luz alta e não permaneça fria e molhada por longos períodos." }
-    },
-    mesesFloracao: [3, 4, 5, 6, 7, 8],
-    "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
-        "climaFloracao": { "faixa": "quente" }
-    },
-        avaliacoes: {
-        cultivo: 5,
-        floracao: 4,
-        perfume: 3,
-        luminosidade: 4,
-        agua: 3,
-        raridade: 4
-    }
-};
+    "notaEvidencia": "MACS 1.1 — revisão documental: Cattleya A Brazilian Dream (C. nobilior × C. loddigesii) é grex híbrido com variação clonal; raízes epífitas e necessidade de aeração, com secagem ajustada à atividade radicular. Cachepô de Madeira permanece proposta principal publicada, sem superioridade comprovada sobre plástico vasado ou barro; métodos têm estrelas null e rankings anteriores eram heurísticos. Receita visual e textual coincidem: 40% macadâmia média + 25% pinus médio/grosso + 20% perlita grossa + 15% carvão vegetal médio = 100%. Duas outras misturas qualitativas distintas: pinus/carvão/brita e chips coco preparados/macadamia/carvão/argila expandida; não são a origem dos percentuais visuais. Estudos dos parentais não homologam o substrato do grex. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e suportes NÃO HOMOLOGADOS
