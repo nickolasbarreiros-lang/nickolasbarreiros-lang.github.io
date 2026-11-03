@@ -40,7 +40,7 @@ export const rodrigueziaLanceolata = {
     "adubacao": "🌿 Orgânica: bokashi em sachê pequeno, afastado das raízes e do centro da touceira.\n💧 Mineral/Foliar: NPK equilibrado bem diluído a cada 7–15 dias durante brotação e enraizamento.\n🌱 Crescimento: mantenha nutrição leve enquanto houver raízes novas ativas.\n🧪 Liberação lenta: Osmocote em dose reduzida apenas em vasos/cachepôs muito drenantes.\n🚿 Lavagem: enxágue periodicamente o suporte para evitar acúmulo de sais.",
     "rega": "Regue com frequência nos meses quentes e durante emissão de brotos e raízes novas. Em plantas montadas, regas diárias podem ser necessárias no verão, desde que as raízes sequem rapidamente. Em vasos, permita leve secagem entre irrigações. No frio ou em períodos chuvosos, reduza a frequência.",
     "suporte": "🥇 Cachepô pequeno de madeira — excelente equilíbrio entre retenção e ventilação.\n🥈 Tronco, placa de madeira ou cortiça — reproduz muito bem o hábito epífito.\n🥉 Vaso pequeno e muito vazado — opção prática em ambientes mais secos.\nEvite recipientes grandes ou fundos.",
-    substrato: ["🥇 Para cachepô ou vaso: casca de pinus média + chips de coco + perlita grossa + carvão vegetal (mistura-base provisória do substrato visual; placa/tronco permanece principal).","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
+    substrato: ["🥈 Alternativa 1 — 65% casca de pinus pequena/média + 25% perlita grossa + 10% carvão vegetal pequeno. Para recipiente de secagem lenta, mistura mais aberta; percentuais MACS 1.1 D, provisórios e não homologados.","🥉 Alternativa 2 — 50% casca de pinus pequena/média + 25% esfagno solto + 15% perlita grossa + 10% carvão vegetal pequeno. Maior reserva hídrica para recipiente de secagem rápida; percentuais MACS 1.1 D, provisórios e não homologados."],
     formasCultivo: {
         perfilVisual: "rodriguezia-epifita-raizes-finas-hastes-pendentes",
         destaque: "Placa / tronco",
@@ -56,8 +56,8 @@ export const rodrigueziaLanceolata = {
         titulo: "Substrato ideal",
         contexto: "Mistura alternativa para cachepô ou vaso; montagem principal em placa/tronco sem enchimento",
         resumo: "Na placa ou tronco, manter raízes expostas e bem ventiladas, sem preencher a montagem com a mistura percentual. Em cachepô ou vaso, utilizar substrato aberto de partículas médias e umidade moderada.",
-        justificativa: "A receita visual propõe pinus, chips de coco, perlita e carvão para cachepô ou vaso, agora também descritos como primeira alternativa textual. As alternativas anteriores usam materiais distintos. Não aplicar como camada espessa sobre placa ou tronco, que permanecem o cultivo principal. Percentuais estimados e ainda não homologados pela MACS 1.0.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        justificativa: "MACS 1.1: casca e perlita documentadas em orientação horticultural específica para Rodriguezia lanceolata; esfagno solto e carvão acrescentados por inferência técnica de retenção moderada e estrutura. Receita percentual provisória para cachepô ou vaso pequeno, não publicada nem testada para esta espécie. Placa/tronco permanece cultivo principal, sem enchimento volumétrico.",
+        receitaTexto: "55% casca de pinus pequena/média + 20% perlita grossa + 15% esfagno solto + 10% carvão vegetal pequeno.",
         perfil: ["Epífita compacta", "Raízes finas", "Hastes pendentes", "Umidade moderada", "Ventilação alta"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -66,13 +66,13 @@ export const rodrigueziaLanceolata = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Mantém espaços de ar ao redor das raízes." },
-            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a evitar secagem excessiva entre regas." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para estrutura aberta e secagem." }
+            { asset: "casca-pinus", nome: "Casca de pinus pequena/média", proporcao: "55%", nota: "estrutura", finalidade: "Mantém espaços de ar e apoio às raízes finas." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Mantém a mistura aberta e com drenagem." },
+            { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva hídrica", finalidade: "Reserva moderada de umidade sem compactação." },
+            { asset: "carvao", nome: "Carvão vegetal pequeno", proporcao: "10%", nota: "porosidade", finalidade: "Complementa a estrutura aberta da mistura." }
         ],
         alerta: "Evitar sombra profunda, recipientes grandes, substrato compactado e raízes encharcadas. Regar preferencialmente no início da manhã; replantar quando surgirem novas raízes.",
-        notaEvidencia: "Receita para recipientes ainda não homologada pela MACS 1.0. Relato de cultivo específico recomenda pinus + carvão + esfagno; há cultivo documentado sem substrato em placa/tronco. Os 30% de chips de coco e 25% de perlita da mistura atual são hipótese horticultural, não proporções validadas para a espécie. Na montagem principal, não utilizar a mistura como enchimento."
+        notaEvidencia: "MACS 1.1: pinus/perlita documentados em orientação horticultural específica, esfagno/carvão por inferência; composição completa D quanto à especificidade e percentuais D, NÃO HOMOLOGADOS. Montagem em madeira documentada por produtores brasileiros; estrelas de suporte D preservadas. A receita de recipiente não deve ser aplicada à placa/tronco. Matriz: auditorias/MACS-1.1-MATRIZ-030-RODRIGUEZIA-LANCEOLATA.md."
     },
     "errosComuns": "Sombra excessiva; vaso grande; substrato compactado; raízes constantemente encharcadas; bokashi em contato direto com raízes; molhar flores à noite; cortar hastes antes de secarem; pouca ventilação; replantar sem novas raízes.",
     "dica": "Em regiões quentes, use meia-sombra clara, cachepô pequeno ou montagem em madeira e regas no início da manhã. O objetivo é oferecer água com frequência sem sacrificar o oxigênio das raízes finas. Se o suporte ainda estiver molhado à noite, há retenção excessiva.",
