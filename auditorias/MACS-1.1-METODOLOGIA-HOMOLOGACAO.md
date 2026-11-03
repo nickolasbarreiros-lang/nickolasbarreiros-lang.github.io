@@ -73,3 +73,12 @@ A ficha só pode ser encerrada como C quando tiver ecologia da espécie, proprie
 6. Se evidência insuficiente para uma receita recomendada C, **não forçar homologação**: manter provisória D, registrar lacunas e ainda concluir a etapa documental e a revisão de coerência da ficha.
 7. Concluir ficha antes de avançar à próxima. Após a sequência futura, retornar às matrizes 001–024 para concluir sua revisão quantitativa.
 **Contadores separados:** matrizes concluídas; fichas atualizadas com receita recomendada; receitas com nível C por convergência; receitas com ensaio experimental A. Não confundir esses totais.
+
+
+## Regra editorial integrada — Outras misturas recomendadas (2026-11-03)
+- Em cada ficha concluída pelo novo fluxo, apresentar **exatamente 2 alternativas de substrato** no menu `substrato`, **além da receita principal** exibida em `substratoVisual`. Não repetir a receita principal nesse menu.
+- Pesquisar e comparar todas as alternativas preexistentes; conservar somente as duas mais justificáveis para o hábito radicular, clima, recipiente e manejo. Não manter uma mistura apenas por estar na lista antiga.
+- Para cada alternativa, documentar composição quantitativa por volume, soma 100%, objetivo/condição de uso, nível de evidência e limitação; **percentuais inferidos não são receitas publicadas nem homologação experimental**. Se a base para duas alternativas for insuficiente, registrar provisórias e a limitação, sem inventar respaldo.
+- Priorizar alternativas tecnicamente distintas da receita ideal e entre si, que atendam cenários reais (secagem mais rápida ou mais lenta, disponibilidade de materiais, suporte diferente). Não incluir pedra-pomes.
+- Verificar a renderização existente do menu antes de alterar sua estrutura. Preservar layout V4.9, fotos, assets e índices; não modificar a contagem de métodos de cultivo.
+- A ficha 025 Oncidium Twinkle já foi ajustada para 2 alternativas; as fichas 001–024 serão adequadas na revisão retroativa, e as seguintes deverão cumprir esta regra.
