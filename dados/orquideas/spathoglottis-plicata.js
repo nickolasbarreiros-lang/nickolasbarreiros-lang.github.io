@@ -71,7 +71,7 @@ export const spathoglottisPlicata = {
             { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "10%", nota: "estrutura", finalidade: "Complementa a porosidade da mistura." }
         ],
         alerta: "Evitar terra compacta, vasos sem furos, pratos com água e enterro profundo dos pseudobulbos. Não deixar a mistura secar completamente durante o crescimento ativo.",
-        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Verificação visual dos assets pendente."
+        notaEvidencia: "MACS 1.0: espécie terrestre. ESALQ e Orquidário 4 Estações recomendam meio permeável com terra vegetal rica em matéria orgânica e casca de pinus; UF/IFAS recomenda enriquecer o solo com matéria orgânica. A fórmula publicada (35% arroz carbonizado + 30% fibra de coco + 25% perlita + 10% pinus) é alternativa experimental sem terra vegetal ou composto estabilizado e não foi demonstrada como substrato ideal para a espécie. Não homologar percentuais; reavaliar inclusão de fração terrestre orgânica em receita tecnicamente justificada, sem usar solo compactado nem enterrar pseudobulbos."
     },
     "errosComuns": "Terra compacta; enterrar pseudobulbos; prato com água; sombra profunda; matéria orgânica fresca; vaso sem drenagem; deixar secar totalmente no crescimento; excesso de chuva no colo; cortar folhas verdes; dividir em poucas unidades; pouca luz.",
     "dica": "Use recipiente amplo, mistura terrestre leve e muito drenante e ofereça sol da manhã. Deixe os pseudobulbos parcialmente expostos na superfície. Essa combinação de luz alta, água regular e raízes oxigenadas mantém a planta vigorosa e capaz de produzir hastes por muitos meses.",
