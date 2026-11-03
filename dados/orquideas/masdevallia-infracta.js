@@ -122,7 +122,7 @@ export const masdevalliaInfracta = {
         "nota": "reserva hídrica controlada",
         "finalidade": "Retém umidade entre regas sem formar uma massa compacta quando usado solto e em baixa proporção."
     }
-], alerta: "Replante antes que a mistura compacte ou permaneça molhada por tempo muito maior que quando nova; preserve a base dos ramicaules arejada."
+], alerta: "Replante antes que a mistura compacte ou permaneça molhada por tempo muito maior que quando nova; preserve a base dos ramicaules arejada.", notaEvidencia: "MACS 1.0 — primeira passagem documental: Masdevallia infracta, epífita sem pseudobulbos, raízes finas, umidade frequente, alta aeração e risco de calor noturno no litoral; hastes verdes podem reflorir. Suportes placa/tronco 5 estrelas, cachepô madeira e vaso plástico vasado 4, árvore viva 3; não homologados. Receita visual alternativa PARA VASO 35% pinus fina/média + 25% arroz carbonizado + 20% carvão pequeno + 20% esfagno solto = 100%; receitaTexto e itens concordam. Primeira qualitativa pinus fino + perlita de granulometria adequada + esfagno (sem arroz/carvão); segunda chips coco pequenos + carvão pequeno + esfagno (sem pinus/arroz). Nenhuma coincide integralmente. Justificativa descreve perfil radicular, mas não documenta derivação quantitativa. Validar granulometria, retenção de 20% esfagno, temperatura/oxigenação no vaso e secagem de placa em calor; Orquidário Aparecida documenta ripinha, mas não demonstra esta mistura percentual. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
     "Tratar como planta de sol.",
