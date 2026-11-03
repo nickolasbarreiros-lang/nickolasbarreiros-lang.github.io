@@ -336,3 +336,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência já registrada na ficha:** AOS recomenda casca/coco e cesto ou placa, RHS mistura aberta de casca; Orquidário Mogi Mirim e Orquidário Maripá citam alternativas com pinus, carvão, esfagno e madeira, sem percentuais. Nenhuma fonte citada valida a mistura 35/30/25/10, nem justifica copiar o manejo de Maxillaria subulata. Nota de evidência preservada.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 40/149 checagens; 38 fichas com correções efetivas (003–040); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 041 — consultar lote 05 para identificar arquivo e espécie.
+
+## Correção na mesma passagem — registro 041 (2026-11-03)
+- **Ficha 041 — Oncostele Wildcat (arquivo histórico colmanara-wildcat.js)**: vaso plástico compacto como cultivo principal; receita visual 40% pinus médio + 25% chips de coco + 25% perlita grossa + 10% carvão vegetal = 100%.
+- **Correções efetivas:** mistura visual ausente das duas alternativas textuais; incluída como primeira opção provisória, preservadas as duas anteriores. Justificativa corrigida para não atribuir seus quatro ingredientes à primeira mistura antiga. Commit `e45d1b42459211aa631dade3464589df36b7397b`. A tentativa de escrita anterior foi bloqueada, mas esta gravação foi confirmada pelo GitHub.
+- **Evidência prévia no lote 05:** RHS recomenda mistura aberta de casca com perlita/esfagno/coco; AOS indica casca e ventilação para este grex em clima quente; cultivador brasileiro Orquídeas no Apê cita pinus, carvão e fibra de coco. Não homologam percentuais 40/25/25/10.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 41/149 checagens; 39 fichas com correções efetivas (003–041); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 042 — Brassavola perrinii.
