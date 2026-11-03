@@ -41,7 +41,7 @@ export const dichaeaCogniauxiana = {
         "🥈 Cachepô ou cesto pequeno e muito aerado, com substrato leve.",
         "🥉 Vaso pequeno e muito perfurado, evitando compactação e retenção excessiva de água."
     ],
-    substrato: ["🥇 Casca de pinus fina/média + chips de coco pequenos + perlita grossa.","🥈 Pinus médio + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto."],
+    substrato: ["🥇 Receita visual provisória para cachepô ou vaso pequeno: casca de macadâmia média 35% + fibra de coco grossa 30% + perlita grossa 25% + esfagno solto 10% (100%; não homologada).","🥈 Casca de pinus fina/média + chips de coco pequenos + perlita grossa.","🥉 Pinus médio + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto."],
     formasCultivo: {
         perfilVisual: "dichaea-epifita-umida",
         destaque: "Placa / tronco",
@@ -57,7 +57,7 @@ export const dichaeaCogniauxiana = {
         titulo: "Substrato ideal",
         contexto: "Proposta para cachepô ou vaso pequeno; placa com esfagno leve junto às raízes",
         resumo: "Mistura leve de umidade relativamente constante, com partículas abertas e boa circulação de ar.",
-        justificativa: "A receita quantitativa parte da segunda alternativa já descrita na ficha, evitando duplicação de granulometrias de perlita da primeira. Percentuais não homologados pela MACS 1.0.",
+        justificativa: "A receita visual para cachepô ou vaso pequeno combina macadâmia média, fibra de coco grossa, perlita grossa e esfagno solto. A primeira receita qualitativa antiga contém pinus fino/médio e chips de coco, sem macadâmia ou fibra de coco grossa; a segunda contém pinus, carvão e esfagno, também sem macadâmia. Nenhuma corresponde à composição visual, e não há duplicação de granulometrias de perlita na primeira receita. A fórmula visual foi incluída como primeira alternativa provisória, preservando as duas anteriores. A montagem principal em placa utiliza esfagno leve junto às raízes e não esta mistura volumétrica. Para raízes delicadas, evitar compactação e validar retenção sem encharcamento. Percentuais não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de macadâmia média + 30% fibra de coco grossa + 25% perlita grossa + 10% esfagno solto.",
         perfil: ["Epífita delicada", "Raízes sensíveis à seca", "Umidade elevada", "Sombra luminosa", "Ventilação constante"],
         comportamento: [
