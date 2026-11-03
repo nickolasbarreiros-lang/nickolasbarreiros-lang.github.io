@@ -9,7 +9,7 @@ Escopo: dez fichas seguintes a Lockhartia lunifera na ordem de imports de `dados
 5. `coelogyne-asperata.js` — pendente
 6. `coelogyne-flaccida.js` — passagem concluida
 7. `howeara-lava-burst.js` — passagem concluida
-8. `epicattleya-rene-marques.js` — pendente
+8. `epicattleya-rene-marques.js` — passagem concluida
 9. `coelogyne-fimbriata.js` — pendente
 10. `maxillaria-picta.js` — pendente
 
@@ -53,3 +53,8 @@ POWO https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:623859-1 aceita 
 ## Passagem 67 — Leomesezia Lava Burst (sin. Howeara Lava Burst)
 
 GENEALOGIA: https://www.orchids.org/grexes/leomesezia-lava-burst registra nome RHS aceito, cruzamento Leomesezia Mini-Primi x Rodriguezia lanceolata, originador Puanani, ano 1993. Não há habitat natural próprio de híbrido. FICHA: vaso plástico vasado 5 estrelas, cachepô madeira 4, barro 4, placa/tronco 2. Receita 35% pinus + 30% chips coco + 25% perlita + 10% carvão = 100%. Nenhum produtor brasileiro com fórmula percentual específica confirmada; meta 25 não atingida. Sem comparação controlada de recipientes e percentuais, NÃO HOMOLOGADOS. Observação de consistência: selo de rega 'baixa' diverge do texto 'umidade regular', para revisão posterior; não alterar nesta passagem. Apenas notaEvidencia modificada, fotos/assets/layout/índices preservados. Commit 4511e3e7bd9c9246b6ae01def0e4d9ab37a49ca4. Próxima ficha Epicattleya Rene Marques.
+
+
+## Passagem 68 — Epicattleya René Marqués
+
+HÍBRIDO: grex horticultural Epicattleya René Marqués (Epidendrum pseudepidendrum x Cattleya Claesiana), registrado em 1979; não possui habitat natural próprio. Fontes gerais https://www.orchids.org/grexes/epicattleya-rene-marques e https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet : genealogia e cultivo de Cattleya, não validação da fórmula deste grex. FICHA: vaso de barro 5 estrelas, plástico vasado e cachepô madeira 4, placa/tronco 2. Receita 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%. Sem receita percentual publicada especificamente para o grex por produtor brasileiro confirmada nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada; fotos, assets, índices e layout preservados. Commit 13cce2579c8072a8d9ea380b7b24d6e94e6471ca. Próxima ficha Coelogyne fimbriata.
