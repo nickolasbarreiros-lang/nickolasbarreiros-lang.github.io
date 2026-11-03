@@ -9,7 +9,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 3. epidendrum-hokulea-super-red.js — passagem concluída
 4. gomesa-cornigera.js — passagem concluída
 5. masdevallia-infracta.js — passagem concluída
-6. oncidium-summer-wind.js — pendente
+6. oncidium-summer-wind.js — passagem concluída
 7. pholidota-chinensis.js — pendente
 8. pinalia-elata.js — pendente
 9. stelis-cf-aprica.js — pendente
@@ -37,3 +37,8 @@ EPÍFITA de florestas úmidas, raízes finas, aeração e umidade regular. SUPOR
 ## Passagem 145 — Masdevallia infracta
 
 EPÍFITA de raízes finas sem pseudobulbos, umidade frequente e aeração, sensível a calor noturno; hastes verdes potencialmente reflorentes. SUPORTES: placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, árvore viva 3. RECEITA VISUAL alternativa PARA VASO: 35% pinus fina/média + 25% arroz carbonizado + 20% carvão pequeno + 20% esfagno solto = 100%; receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa pinus + perlita adequada + esfagno (sem arroz/carvão); segunda chips coco + carvão + esfagno (sem pinus/arroz). Nenhuma coincide. Orquidário Aparecida documenta ripinha, não percentuais visuais. Validar granulometria, retenção, aeração e calor no vaso versus secagem em placa. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit e1811978aa1be4b6089ed94a83bb3aa6ded94ac6. Próxima ficha Oncidium Summer Wind.
+
+
+## Passagem 146 — Oncidium Summer Wind
+
+HÍBRIDO pseudobulboso de porte grande, hastes longas, demanda ventilação, drenagem e suporte estável. SUPORTES: vaso plástico 5 estrelas, placa/tronco, barro e cachepô madeira 4. RECEITA VISUAL PARA VASO: 35% macadâmia média + 30% pinus médio + 25% carvão médio + 10% arroz carbonizado = 100%; receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: fonte brasileira específica recomenda pinus + carvão em partes iguais, sem validar macadâmia/arroz ou os percentuais visuais; demais alternativas qualitativas também não coincidem integralmente. Validar granulometria, secagem em vaso grande, estabilidade das hastes e efeito da camada de brita/isopor sobre umidade. Três referências brasileiras citadas não equivalem a 25 produtores específicos verificados; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit d48dcfd5df66a5b41d3bd4e0af08717baddc9745. Próxima ficha Pholidota chinensis.
