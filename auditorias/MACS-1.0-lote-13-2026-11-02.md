@@ -10,7 +10,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 4. bulbophyllum-falcatum.js — passagem concluída
 5. bulbophyllum-syciobulbon.js — passagem concluída
 6. laelia-caulencens.js — passagem concluída
-7. rodricidium.js — pendente
+7. rodricidium.js — passagem concluída
 8. laelia-praestans.js — pendente
 9. phaius-tankervilleae-alba.js — pendente
 10. stanhopea-hernandezii.js — pendente
@@ -43,3 +43,8 @@ ESPÉCIE montana epífita de rizoma muito espaçado; arquivo histórico syciobul
 ## Passagem 126 — Cattleya caulescens (arquivo histórico laelia-caulencens)
 
 RUPÍCOLA compacta de alta luz, com raízes aeradas, drenagem rápida e risco de aquecimento do recipiente. SUPORTES: barro 5 estrelas, cachepô madeira 4, plástico vasado 3, placa/tronco 2. RECEITA VISUAL: 35% brita fina/média + 30% perlita grossa + 25% macadâmia triturada + 10% pinus grosso = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira qualitativa, mas primeira é perlita + argila expandida + carvão + pouco pinus, sem brita/macadâmia. Segunda é brita + perlita + carvão + 15–25% orgânico, enquanto visual omite carvão e contém 35% orgânicos. Terceira macadâmia + perlita + cerâmica/argila expandida, sem brita/pinus. Nenhuma coincide. Validar peso e aquecimento da brita, fração orgânica e secagem. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit c9d59cecbc405cd4b0306a9ce41058eaf80f005b. Próxima ficha Rodricidium.
+
+
+## Passagem 127 — Rodricidium (Rdcm.)
+
+NOTOGÊNERO híbrido Oncidium × Rodriguezia, sem grex e parentais específicos identificados. SUPORTES: cachepô madeira 5 estrelas, placa/tronco, barro e plástico vasado 4. RECEITA VISUAL: 35% pinus médio + 30% chips coco + 25% perlita grossa + 10% carvão = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira qualitativa, mas primeira é pinus + perlita + argila expandida miúda + pouco esfagno, sem chips coco/carvão; segunda é macadâmia + pinus + perlita + fibra coco, também diferente. Nenhuma coincide. Sem grex, não generalizar percentuais nem secagem de 1–2 dias para todos os híbridos. Validar granulometria, retenção, clima e parentais. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 76a1e21acf661899091cdfda650415dc88a3e64a. Próxima ficha Laelia praestans.
