@@ -551,3 +551,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência do lote 08:** revisão preexistente registra POWO/WCVP, IPNI, estudos florísticos, Sociedade Bandeirante de Orquídeas e Diário do Orquidófilo; referências apontam cultivo sombreado, umidade e ventilação, mas não validam a fórmula percentual. Cachepô/placa para rizoma alongado é inferência morfológica; estrelas e percentuais NÃO HOMOLOGADOS. Meta de até 25 produtores específicos não atingida.
 - **Limites:** segunda alternativa preservada, fotos, assets, IDC/IAR e layout preservados; nenhuma alegação de validação experimental.
 - **Progresso:** 71/149 checagens; 69 fichas com correções efetivas (003–071); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 072 — Macradenia multiflora.
+
+## Registro 072 — Macradenia multiflora (2026-11-03)
+- Corrigida a divergência entre receita visual e primeira receita textual. A primeira alternativa agora reproduz 45% pinus médio + 30% perlita grossa + 25% carvão vegetal; as duas receitas anteriores foram preservadas.
+- Justificativa esclarece que a receita antiga continha esfagno e não correspondia à visual. Referências brasileiras citadas apoiam sombra, drenagem e umidade, mas não validam percentuais nem ranking de suportes.
+- Commit da ficha: fd5d62f255bc9d4ae06d28c3d8c554d37891dd60. Fotos, assets, índices e layout preservados. Percentuais e estrelas não homologados; meta de 25 produtores não atingida.
+- Progresso: 72/149 checagens; 70 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 073 — Polystachya concreta.
