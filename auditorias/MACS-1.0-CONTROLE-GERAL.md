@@ -648,3 +648,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Ciclo sazonal e alerta de manejo preservados: crescimento ativo com rega após raízes funcionais; forte redução/suspensão durante dormência. Receita é hipótese para recipiente, não testada na espécie; composição deve ser avaliada ao longo das fases do ciclo. Commit ficha: a24aa4e20dec922a9499cc1e04b8379b7f2140b8.
 - Nenhum suporte/estrela, foto, asset, IDC/IAR ou layout alterado. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
 - Progresso: 87/149 checagens; 85 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 088 — Laelia gloriosa.
+
+## Registro 088 — Laelia gloriosa (sin. Schomburgkia gloriosa) (2026-11-03)
+- Receita visual/`receitaTexto` mantidos: 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; quatro itens concordavam. Adicionada fórmula visual como primeira alternativa para cachepô grande e robusto; três receitas antigas preservadas.
+- Justificativa corrigida: nenhuma das duas primeiras receitas anteriores correspondia integralmente (primeira tinha chips de coco sem macadâmia; segunda argila expandida sem perlita). Estabilidade estrutural do recipiente é exigência de porte, não validação dos percentuais. Commit ficha: e3cef16fbb142c2f0ace7820c8c2e49b9779f39e.
+- Cachepô grande e robusto, rizoma expansivo, espaço vertical para haste longa preservados; sem alterações em suportes/estrelas, fotos/assets, IDC/IAR ou layout. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
+- Progresso: 88/149 checagens; 86 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 089 — Encyclia bracteata.
