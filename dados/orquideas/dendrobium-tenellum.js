@@ -40,7 +40,7 @@ export const dendrobiumTenellum = {
     "adubacao": "🌿 Orgânica: bokashi em dose leve apenas no início da brotação.\n💧 Mineral/Foliar: adubo equilibrado a cada 10–15 dias durante crescimento ativo.\n🌱 Crescimento: mantenha nutrição até a maturação das hastes.\n🍂 Outono: reduza gradualmente.\n💤 Inverno: suspenda ou use apenas doses mínimas se houver atividade.\n🧪 Liberação lenta: poucos grânulos no início do ciclo.",
     "rega": "Na fase vegetativa, mantenha o substrato levemente úmido, com secagem parcial entre as regas. No inverno, reduza significativamente, mas não deixe as hastes secarem por longos períodos. Proteja da chuva contínua durante o descanso.",
     "suporte": "🥇 Cesto suspenso — acomoda perfeitamente as hastes pendentes.\n🥈 Placa de madeira — oferece máxima aeração.\n🥉 Vaso raso em posição alta — alternativa prática.\nEvite recipientes profundos e locais baixos.",
-    substrato: ["🥇 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
+    substrato: ["🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal (mistura-base provisória do substrato visual).","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
     "formasCultivo": {
         "perfilVisual": "dendrobium-montano-pendente",
         "destaque": "Cachepô de Madeira",
@@ -56,7 +56,7 @@ export const dendrobiumTenellum = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cachepô suspenso ou vaso raso",
         "resumo": "Mistura de aeração elevada com retenção intermediária, evitando tanto saturação quanto seca extrema.",
-        "justificativa": "Os quatro materiais correspondem à primeira mistura já indicada na ficha. Percentuais são uma proposta horticultural de visualização e não homologação MACS 1.0.",
+        "justificativa": "A mistura visual combina pinus médio, chips de coco, perlita grossa e carvão vegetal, agora também descritos como primeira alternativa textual. As alternativas anteriores utilizam outros materiais. Os percentuais são uma proposta horticultural de visualização, não homologação MACS 1.0.",
         "receitaTexto": "40% casca de pinus média + 25% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
         "perfil": ["Epífita montana", "Hastes finas pendentes", "Noites amenas", "Boa ventilação", "Repouso moderado"],
         "comportamento": [
