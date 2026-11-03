@@ -6,7 +6,7 @@ Escopo: primeira passagem documental de cultivo e substratos. Não alterar recei
 
 1. ornithocephalus-myrticola.js — passagem concluída
 2. notylia-pubescens.js — passagem concluída
-3. trichocentrum-fuscum.js — pendente
+3. trichocentrum-fuscum.js — passagem concluída
 4. bifrenaria-harrisoniae.js — pendente
 5. maxillaria-pumila-ex-minuta.js — pendente
 6. ludisia-discolor.js — pendente
@@ -23,3 +23,8 @@ Miniatura sem pseudobulbos, raízes muito delicadas. Montagem principal em placa
 ## Passagem 102 — Notylia pubescens
 
 ECOLOGIA: epífita compacta com raízes finas e racemos pendentes; montagem principal em placa/tronco suspensa, sem substrato volumoso. SUPORTES: placa/tronco 5 estrelas, cachepô madeira 4, plástico vasado 3, barro 2; notas não homologadas. RECEITA VISUAL alternativa para recipientes: 35% pinus médio + 30% chips coco + 25% perlita grossa + 10% carvão = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa atribui a receita à primeira qualitativa, que contém pinus + perlita + argila expandida + esfagno, sem chips coco nem carvão; segunda contém macadâmia + pinus + perlita + fibra coco, sem carvão. Nenhuma coincide integralmente. Validar retenção, ventilação para raízes finas e passagem livre das hastes. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit b357853885c5b9ed32e220e052ed7fdd5912d6fd. Próxima ficha Trichocentrum fuscum.
+
+
+## Passagem 103 — Trichocentrum fuscum
+
+ECOLOGIA: epífita compacta com folhas carnosas, raízes expostas, baixa retenção e secagem rápida. Cultivo principal em placa/tronco sem substrato; suportes placa/tronco 5 estrelas, cachepô madeira 4, barro 3. RECEITA VISUAL alternativa para vaso: 45% pinus grosso + 30% brita fina + 25% carvão grosso = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa atribui receita à segunda qualitativa (macadâmia grossa + perlita grossa + carvão), mas visual substitui macadâmia por pinus e perlita por brita. Primeira qualitativa (chips coco grossos + argila expandida + carvão) também difere. Validar peso e granulometria da brita e secagem do pinus em vaso pequeno. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 7ea4542bd2323e950e7893225f684ecc1f7e51eb. Próxima ficha Bifrenaria harrisoniae.
