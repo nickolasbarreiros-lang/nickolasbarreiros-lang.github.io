@@ -41,7 +41,7 @@ export const laeliaSplendida = {
         "🥈 Vaso de barro largo e bem perfurado, proporcional à frente de crescimento.",
         "🥉 Placa ou tronco robusto, quando houver umidade suficiente para regas frequentes."
     ],
-    substrato: ["🥇 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.","🥉 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
+    substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal (mistura provisória do substrato visual).","🥈 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.","⭐ Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
     formasCultivo: {
         perfilVisual: "laelia-robusta-epifita-rupicola-alta-luz",
         destaque: "Cachepô de Madeira",
@@ -57,7 +57,7 @@ export const laeliaSplendida = {
         titulo: "Substrato ideal",
         contexto: "Mistura grosseira para cachepô de madeira bem ventilado",
         resumo: "Componentes médios e grossos para sustentação, boa drenagem e secagem perceptível entre regas.",
-        justificativa: "A receita quantifica os quatro materiais da primeira mistura qualitativa já registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A mistura provisória para cachepô combina casca de macadâmia média, pinus médio, perlita grossa e carvão vegetal para oferecer sustentação, drenagem e espaços de ar. Ela não corresponde integralmente a nenhuma das alternativas qualitativas anteriores; percentuais estimados e ainda não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Epífita ou rupícola", "Pseudobulbos robustos", "Hastes longas", "Alta luminosidade", "Raízes arejadas"],
         comportamento: [
