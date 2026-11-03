@@ -39,7 +39,7 @@ export const encycliaGallopavina = {
     adubacao: "🌿 Orgânica: bokashi leve na borda do vaso a cada 60–90 dias durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/3 da dose semanal ou quinzenalmente durante brotação e enraizamento.\n🌱 Maturação: reduza excesso de nitrogênio quando o pseudobulbo estiver completo.\n🧪 Liberação lenta: pode ser usada em pequena quantidade em vasos muito drenantes.\n🚿 Lavagem: faça regas periódicas somente com água para remover sais.",
     rega: "Regue abundantemente durante a formação de novos brotos e raízes, sempre permitindo drenagem completa. Após o pseudobulbo amadurecer, aumente um pouco o intervalo entre regas, sem desidratar severamente a planta. No litoral quente, ajuste a frequência pela velocidade real de secagem, não pelo calendário.",
     suporte: "🥇 Cachepô de madeira bem vazado — excelente aeração para raízes grossas.\n🥈 Vaso pequeno de barro — ajuda na evaporação e estabilidade.\n🥉 Placa de cortiça ou madeira — boa opção em ambientes úmidos e com regas frequentes.",
-    substrato: ["🥇 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥈 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","🥉 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
+    substrato: ["🥇 Receita visual provisória para cachepô bem vazado ou vaso pequeno: casca de macadâmia média 35% + casca de pinus média 30% + perlita grossa 20% + carvão vegetal 15% (100%; não homologada).","🥈 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥉 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","Alternativa adicional: chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
     formasCultivo: {
         perfilVisual: "encyclia-epifita-raizes-grossas",
         destaque: "Cachepô de Madeira",
@@ -55,7 +55,7 @@ export const encycliaGallopavina = {
         titulo: "Substrato ideal",
         contexto: "Proposta para cachepô bem vazado ou vaso pequeno",
         resumo: "Mistura de granulometria média a grossa, arejada e de secagem perceptível entre regas.",
-        justificativa: "Os quatro componentes seguem a primeira mistura qualitativa já indicada na ficha. Percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        justificativa: "A receita visual para cachepô bem vazado ou vaso pequeno combina macadâmia média, pinus médio, perlita grossa e carvão vegetal. A primeira mistura qualitativa antiga contém pinus, perlita, carvão e chips de coco, sem macadâmia; a segunda contém macadâmia, argila expandida, carvão e pinus, sem perlita; a terceira também não contém macadâmia. Nenhuma reproduz integralmente a composição visual. A fórmula foi incluída como primeira alternativa textual provisória, preservando as três misturas anteriores. A escolha entre cachepô e barro depende da velocidade real de secagem no ambiente de cultivo; não há comparação específica suficiente para validar o ranking. Percentuais não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Epífita de raízes grossas", "Pseudobulbos robustos", "Luz alta filtrada", "Crescimento úmido", "Redução discreta após maturação"],
         comportamento: [
