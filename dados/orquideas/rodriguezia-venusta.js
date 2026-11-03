@@ -40,7 +40,7 @@ export const rodrigueziaVenusta = {
     "adubacao": "🌿 Orgânica: bokashi em sachê pequeno, colocado na borda do vaso/cachepô e sem contato direto com raízes.\n💧 Mineral/Foliar: NPK equilibrado em cerca de 1/3 a 1/2 da dose a cada 7–15 dias durante brotação e enraizamento.\n🌱 Crescimento: mantenha nutrição leve e constante enquanto novas raízes estiverem ativas.\n🧪 Liberação lenta: Osmocote somente em dose muito reduzida e em recipientes muito drenantes.\n🚿 Lavagem: faça flushing periódico com água pura para reduzir sais, pois as raízes finas são sensíveis à salinização.",
     "rega": "Durante o crescimento, mantenha umidade regular sem saturação. Em placas ou troncos, regas diárias podem ser necessárias nos dias quentes, desde que as raízes sequem superficialmente em poucas horas. Em vasos ou cachepôs, espere o substrato perder boa parte da umidade antes de repetir. Regue preferencialmente pela manhã, permitindo que folhas, bainhas e raízes estejam sem excesso de água à noite.",
     "suporte": "🥇 Placa vertical de cortiça, madeira dura ou galho rugoso — melhor opção para raízes finas e para o caimento natural das hastes.\n🥈 Cachepô pequeno e muito vazado — mantém touceira compacta e excelente ventilação.\n🥉 Vaso pequeno de barro bem furado — alternativa segura em ambientes de menor umidade.\nMantenha a planta suspensa ou com espaço livre abaixo das inflorescências.",
-    substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
+    substrato: ["🥇 Para cachepô ou vaso: casca de pinus média + chips de coco + perlita grossa + carvão vegetal (mistura-base provisória do substrato visual; placa/tronco permanece principal).","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
     formasCultivo: {
         perfilVisual: "rodriguezia-bracteata-epifita-pendente-raizes-finas",
         destaque: "Placa / tronco",
@@ -56,7 +56,7 @@ export const rodrigueziaVenusta = {
         titulo: "Substrato ideal",
         contexto: "Mistura alternativa para cachepô ou vaso; montagem principal sem enchimento",
         resumo: "Na placa vertical, fixar as raízes com mínimo material retentivo. Para recipientes, usar mistura aberta de pinus, coco, perlita e carvão.",
-        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa registrada na ficha, destinada a recipientes; não deve ser aplicada como camada espessa sobre a placa. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual propõe pinus, chips de coco, perlita e carvão para cachepô ou vaso, agora explicitados como primeira alternativa textual. As alternativas anteriores empregam outros materiais. Não aplicar como camada espessa sobre a placa, que permanece o cultivo principal. Percentuais estimados e ainda não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
         perfil: ["Epífita compacta", "Raízes finas", "Hastes pendentes", "Ventilação alta", "Secagem rápida"],
         comportamento: [
