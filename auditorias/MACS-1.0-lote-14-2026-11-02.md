@@ -13,7 +13,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 7. isabelia-pulchella.js — passagem concluída
 8. prosthechea-vespa.js — passagem concluída
 9. stelis-ciliaris.js — passagem concluída
-10. prosthechea-fragrans.js — pendente
+10. prosthechea-fragrans.js — passagem concluída
 
 ## Passagem 131 — Encyclia oncidioides
 
@@ -58,3 +58,12 @@ EPÍFITA/RUPÍCOLA com pseudobulbos e raízes ventiladas. SUPORTES: vaso barro 5
 ## Passagem 139 — Stelis ciliaris
 
 MICROEPÍFITA de raízes finas, umidade regular e aeração contínua. SUPORTES: placa/tronco 5 estrelas, barro e cachepô madeira 4, plástico vasado 3. RECEITA VISUAL PARA VASO: 35% pinus pequeno + 30% esfagno solto + 20% arroz carbonizado + 15% carvão pequeno = 100%; resumo, receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa pinus + esfagno + perlita grossa, sem arroz/carvão; segunda arroz + esfagno + carvão, sem pinus. Nenhuma coincide. CONTRADIÇÃO INTERNA: alerta proíbe perlita grossa, mas primeira mistura qualitativa recomenda perlita grossa. Validar 30% esfagno, retenção e aeração em vaso, granulometria e secagem em placa. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 90bc2cb2c09ff322985ae30615e8583b9b11ed9a. Próxima ficha Prosthechea fragrans.
+
+
+## Passagem 140 — Prosthechea fragrans
+
+EPÍFITA com pseudobulbos e raízes ventiladas; identificação comercial requer comparação com P. aemula. SUPORTES: vaso barro 5 estrelas, placa/tronco e cachepô madeira 4, plástico vasado 3. RECEITA VISUAL PARA VASO: 45% pinus médio + 25% carvão + 20% arroz carbonizado + 10% perlita grossa = 100%; resumo, receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa pinus + carvão + perlita, sem arroz; segunda macadâmia + arroz + carvão, sem pinus/perlita. Nenhuma coincide. Alerta de não usar pedra-pomes é coerente. Validar granulometria, retenção, raízes e identidade taxonômica. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit cacc80090fd36b1f0a7e63050e488bd3958f9797.
+
+## Encerramento do Lote 14
+
+Dez fichas (131–140) receberam primeira passagem documental MACS 1.0 com registros individuais em notaEvidencia. Todas as receitas, percentuais, estrelas, classificações, layouts e assets originais foram preservados. Divergências e contradições foram registradas para correção técnica posterior. Esta passagem NÃO constitui homologação quantitativa: faltam cotejo de fontes e recomendações específicas de até 25 produtores brasileiros por espécie e validação ponderada das proporções.
