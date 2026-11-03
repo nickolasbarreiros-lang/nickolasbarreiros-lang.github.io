@@ -569,3 +569,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Justificativa corrigida para registrar que fibra de coco substitui esfagno e que referências ecológicas de hábito montano/noites amenas não homologam percentuais nem ranking de recipientes. Commit da ficha: 20ef322aa18fb047da825d9d5f4b3701ad5812da.
 - Percentuais e estrelas NÃO HOMOLOGADOS; nenhuma comparação experimental específica documentada. Fotos, assets, índices IDC/IAR e layout preservados.
 - Progresso: 74/149 checagens; 72 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: consultar manifesto do lote 08.
+
+## Registro 075 — Miltonia regnellii (2026-11-03)
+- Corrigida divergência entre a primeira receita textual (pinus + perlita + argila expandida + esfagno) e a receita visual (35% pinus médio + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal). Fórmula visual exata incluída como primeira alternativa provisória; duas receitas antigas preservadas.
+- Justificativa corrigida para registrar que argila expandida/esfagno não correspondem aos chips de coco/carvão da imagem. Ecologia de raízes finas e umidade regular sustenta apenas lógica qualitativa; não valida percentuais ou ranking de recipientes. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores não atingida.
+- Commit da ficha: ad1571b945b0b309bf294e8d1de9f288390523f2. Fotos, assets, índices IDC/IAR e layout preservados.
+- Progresso: 75/149 checagens; 73 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 076 — Polystachya neobenthamia (sin. Neobenthamia gracilis).
