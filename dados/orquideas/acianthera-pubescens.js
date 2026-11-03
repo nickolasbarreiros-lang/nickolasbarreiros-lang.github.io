@@ -36,8 +36,9 @@ export const aciantheraPubescens = {
     rega: "Regue regularmente, mantendo as raízes hidratadas sem saturação contínua. Plantas montadas podem exigir rega diária ou quase diária no verão litorâneo; vasos devem perder parte da umidade superficial antes da próxima irrigação. Ajuste a frequência à procedência: clones de ambientes montanos geralmente apreciam umidade constante com temperaturas mais amenas e excelente ventilação.",
     suporte: ["🥇 Vaso pequeno e muito drenado.", "🥈 Placa de madeira, cortiça ou tronco com pequena reserva de musgo.", "🥉 Cachepô pequeno e ventilado, adequado a touceiras adultas."],
     substrato: [
-        "Casca de pinus fina + casca de arroz carbonizada + carvão vegetal pequeno",
-        "Casca de arroz carbonizada + perlita grossa + turfa de esfagno em baixa proporção",
+        "🥇 Para vaso pequeno e muito drenante: casca de pinus fina/média 35% + casca de arroz carbonizada 30% + carvão vegetal pequeno 20% + esfagno solto 15% (mistura provisória, não homologada).",
+        "🥈 Casca de pinus fina + casca de arroz carbonizada + carvão vegetal pequeno",
+        "🥉 Casca de arroz carbonizada + perlita grossa + turfa de esfagno em baixa proporção",
         "Chips de coco pequenos + casca de arroz carbonizada + carvão vegetal pequeno",
         "Casca de pinus fina + perlita grossa + esfagno solto"
     ],
