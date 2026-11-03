@@ -11,7 +11,7 @@ Escopo: dez fichas seguintes a Lockhartia lunifera na ordem de imports de `dados
 7. `howeara-lava-burst.js` — passagem concluida
 8. `epicattleya-rene-marques.js` — passagem concluida
 9. `coelogyne-fimbriata.js` — passagem concluida
-10. `maxillaria-picta.js` — pendente
+10. `maxillaria-picta.js` — passagem concluida
 
 ## Passagem 61 — Jacquiniella globosa
 
@@ -63,3 +63,8 @@ HÍBRIDO: grex horticultural Epicattleya René Marqués (Epidendrum pseudepidend
 ## Passagem 69 — Coelogyne fimbriata
 
 ECOLOGIA E SUPORTE: hábito epífita/litófita e rizoma rastejante registrados na ficha; placa/tronco e cachepô raso ambos 5 estrelas, barro e plástico vasado 4. A expansão horizontal é argumento morfológico plausível para suportes largos, sem experimento comparativo específico. RECEITA PARA CESTO/VASO: 35% chips coco + 30% pinus + 25% perlita + 10% esfagno = 100%; não aplicar mistura volumétrica sobre placa. Nenhum produtor brasileiro com fórmula percentual específica confirmado nesta passagem; meta até 25 não atingida. Fontes externas específicas ainda precisam de checagem documental aprofundada; não afirmar homologação. Percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, fotos/assets/índices/layout preservados. Commit ba3de2c842a6998bae5709e5d683f01dd033af02. Próxima ficha Maxillaria picta.
+
+
+## Passagem 70 — Maxillaria picta
+
+ECOLOGIA: ficha registra espécie epífita/rupícola com pseudobulbos densos, flores basais e preferência por noites amenas; sinônimo Brasiliorchis picta. SUPORTES: vaso barro e plástico vasado 5 estrelas, cachepô madeira 4, placa/tronco 3; plausibilidade horticultural sem ensaio comparativo específico. RECEITA VISUAL: 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa = 100%. INCONSISTÊNCIA INTERNA IMPORTANTE: primeira mistura qualitativa da ficha é chips de coco + pinus + perlita + carvão; a justificativa visual afirma falsamente que usa os mesmos quatro materiais. Correção técnica pendente de análise, sem modificar a composição nesta passagem. Nenhum produtor brasileiro com receita percentual específica confirmado nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada; fotos/assets/layout/índices preservados. Commit 88f0e89b8b3b89f3c9d7dadc03883b1d23cb32d6.
