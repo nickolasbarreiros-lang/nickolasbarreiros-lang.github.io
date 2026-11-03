@@ -116,7 +116,8 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
                 "finalidade": "Retém umidade sem eliminar ventilação."
             }
         ],
-        "alerta": "Lave periodicamente para reduzir sais; evite encharcar e não enterre o rizoma."
+        "alerta": "Lave periodicamente para reduzir sais; evite encharcar e não enterre o rizoma.",
+        "notaEvidencia": "MACS 1.0 — primeira passagem documental: Cattleya violacea f. suavissima × self é progênie por autofecundação de seleção de cor, não híbrido interespecífico; epífita bifoliada de clima quente úmido, sensível a sais e seca prolongada. Suportes cachepô madeira 5 estrelas, barro e plástico vasado 4, placa/tronco 3; notas não homologadas. Receita visual 35% pinus médio + 25% macadâmia média + 20% carvão + 20% chips coco grossos = 100%; receitaTexto e itens concordam. DIVERGÊNCIA DOCUMENTAL: campo substrato qualitativo é string com quatro alternativas: primeira macadâmia + pinus + perlita + carvão (sem chips coco), segunda pinus + perlita + carvão + chips coco (sem macadâmia), terceira macadâmia + argila expandida + carvão + pinus (sem chips coco), quarta chips coco + perlita + carvão + pinus (sem macadâmia). Nenhuma coincide integralmente com visual, que não tem perlita nem argila. Justificativa cita AOS/AWZ para suportes, não evidência de percentuais da progênie; conferir fonte original. Validar retenção, salinidade, secagem e variação entre seedlings; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     revisaoCientificaIAR: {
         "nome": "Cattleya violacea f. suavissima × self",
