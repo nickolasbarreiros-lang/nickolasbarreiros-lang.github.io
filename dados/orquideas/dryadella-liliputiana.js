@@ -40,7 +40,7 @@ export const dryadellaLiliputiana = {
     adubacao: "🌿 Orgânica: evite bokashi diretamente no pequeno recipiente, pois é difícil dosar sem aumentar decomposição e sais.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante crescimento ativo.\n🧪 Liberação lenta: não recomendada para recipientes tão pequenos.\n🚿 Lavagem: faça regas abundantes apenas com água periodicamente para remover sais.\n💧 Água: baixa condutividade é especialmente benéfica às raízes finas.",
     rega: "Mantenha umidade relativamente estável, mas nunca uma massa de substrato quente e saturada. Regue novamente quando o material ao redor das raízes estiver se aproximando da secagem. Em montagem com pouco musgo, pode exigir rega diária no verão; em vaso com esfagno, o intervalo deve ser maior. Evite tanto seca prolongada quanto encharcamento contínuo.",
     suporte: "🥇 Placa pequena de cortiça ou madeira com camada fina de esfagno — máxima aeração.\n🥈 Vaso miniatura de barro — ajuda a dissipar calor por evaporação.\n🥉 Cachepô pequeno e muito aberto — útil com mistura extremamente leve.\nMantenha a touceira íntegra e evite manipulações frequentes.",
-    substrato: ["🥇 Chips de coco pequenos + perlita de granulometria adequada a miniaturas + casca de pinus fina.","🥈 Esfagno de fibra longa solto + perlita de granulometria adequada a miniaturas."],
+    substrato: ["🥇 Para vaso miniatura ou cachepô: casca de pinus fina + perlita adequada a miniaturas + esfagno de fibra longa solto (mistura visual provisória, não homologada).","🥈 Chips de coco pequenos + perlita de granulometria adequada a miniaturas + casca de pinus fina.","🥉 Esfagno de fibra longa solto + perlita de granulometria adequada a miniaturas."],
     formasCultivo: {
         perfilVisual: "microorquidea-montana-umida",
         destaque: "Placa / tronco",
@@ -56,7 +56,7 @@ export const dryadellaLiliputiana = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal com fina camada de esfagno; proposta para vaso miniatura ou cachepô",
         resumo: "Mistura fina e aberta, capaz de manter leve umidade sem saturar a base da microtouceira.",
-        justificativa: "A montagem é a primeira recomendação original. A receita quantitativa utiliza os componentes da segunda alternativa, consolidando as granulometrias de perlita para evitar duplicação; percentuais não homologados pela MACS 1.0.",
+        justificativa: "A montagem em placa/tronco permanece a recomendação principal, com fina camada de esfagno sob as raízes. Para vaso miniatura ou cachepô, a receita visual combina pinus fino, perlita calibrada e esfagno de fibra longa solto, agora registrados na primeira alternativa textual. As duas misturas anteriores foram preservadas. Os percentuais não foram homologados pela MACS 1.0, e há alternativa publicada de pinus, carvão e esfagno em partes iguais.",
         receitaTexto: "45% casca de pinus fina + 35% perlita de granulometria adequada a miniaturas + 20% esfagno de fibra longa solto.",
         perfil: ["Micro-orquídea montana", "Sem pseudobulbos", "Raízes delicadas", "Umidade frequente", "Noites amenas"],
         comportamento: [
