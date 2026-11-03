@@ -12,7 +12,7 @@ Escopo: primeira passagem documental de cultivo e substratos. Não alterar recei
 6. cattleya-chocolate-drop.js — passagem concluída
 7. cattleya-a-brazilian-dream.js — passagem concluída
 8. cattleya-violacea-f-suavissima-x-self.js — passagem concluída
-9. cattleya-violacea-f-flamea.js — pendente
+9. cattleya-violacea-f-flamea.js — passagem concluída
 10. cattleya-nobilior-var-amaliae.js — pendente
 
 ## Passagem 111 — Rhyncholaeliocattleya Chia Lin
@@ -53,3 +53,8 @@ HÍBRIDO C. nobilior × C. loddigesii, grex variável, raízes epífitas e secag
 ## Passagem 118 — Cattleya violacea f. suavissima × self
 
 PROGÊNIE por autofecundação de seleção de cor, não híbrido interespecífico; epífita bifoliada quente/úmida, sensível a sais e seca prolongada. SUPORTES: cachepô madeira 5 estrelas, barro e plástico vasado 4, placa/tronco 3. RECEITA VISUAL: 35% pinus médio + 25% macadâmia média + 20% carvão + 20% chips coco grossos = 100%; texto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: quatro qualitativas no campo string: primeira macadâmia+pinus+perlita+carvão; segunda pinus+perlita+carvão+chips coco; terceira macadâmia+argila expandida+carvão+pinus; quarta chips coco+perlita+carvão+pinus. Nenhuma coincide: visual não usa perlita ou argila. Referência AOS/AWZ na justificativa concerne suportes, não percentuais específicos da progênie; confirmar fonte original. Validar retenção, salinidade, secagem e variação entre seedlings. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit ca6826d21b0583a153792c0e319731a6de1d86e1. Próxima ficha Cattleya violacea f. flamea.
+
+
+## Passagem 119 — Cattleya violacea f. flamea
+
+FORMA horticultural de cor de C. violacea; epífita bifoliada tropical, umidade regular sem repouso seco severo. SUPORTES: cachepô madeira 5 estrelas, barro e plástico vasado 4, árvore viva 3. RECEITA VISUAL: 35% pinus médio + 25% macadâmia média + 20% carvão + 20% chips coco grossos = 100%; texto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: quatro qualitativas no campo string: primeira macadâmia+pinus+perlita+carvão; segunda pinus+perlita+carvão+chips coco; terceira macadâmia+argila expandida+carvão+pinus; quarta chips coco+perlita+carvão+pinus. Nenhuma coincide com visual, que não contém perlita nem argila. Justificativa reconhece percentuais como inferência técnica. Validar retenção, granulometria, salinidade e secagem com regas frequentes. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 643ee60b480c4b6386cac2c8240061e1492aa52b. Próxima ficha Cattleya nobilior var. amaliae.
