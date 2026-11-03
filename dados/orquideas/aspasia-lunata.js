@@ -47,21 +47,16 @@ export const aspasiaLunata = {
         ]
     },
     substrato: [
-        "🥇 Receita visual provisória: 30% casca de macadâmia média + 25% casca de pinus média + 20% casca de arroz carbonizada + 15% carvão vegetal médio + 10% esfagno solto (100%; não homologada).",
-        "🥈 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal.",
-        "🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.",
-        "Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.",
-        "Casca de macadâmia média + carvão vegetal + casca de arroz carbonizada + esfagno solto.",
-        "Casca de pinus média + carvão vegetal + perlita grossa + esfagno solto.",
-        "Casca de macadâmia média + chips de coco médios + carvão vegetal.",
-        "Casca de arroz carbonizada + perlita grossa + casca de macadâmia + pequena quantidade de turfa de esfagno."
+        "🥇 Para vaso proporcional e bem drenado: 30% casca de macadâmia média + 25% casca de pinus média + 20% casca de arroz carbonizada + 15% carvão vegetal médio + 10% esfagno de fibra longa solto (hipótese horticultural NÃO homologada para Aspasia lunata).",
+        "🥈 Casca de pinus média + chips de coco médios + perlita grossa + carvão vegetal (alternativa qualitativa sem percentuais específicos publicados).",
+        "🥉 Casca de macadâmia média + casca de pinus média + perlita grossa + fibra de coco grossa (alternativa qualitativa sem proporções homologadas)."
     ],
 
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura estrutural e arejada, com umidade moderada e boa estabilidade para uma epífita que aprecia hidratação regular sem encharcamento.",
-        justificativa: "A macadâmia fornece estrutura durável e macroporos; o pinus complementa a fração orgânica tradicionalmente utilizada por orquidários brasileiros; a casca de arroz carbonizada aumenta porosidade e leveza; o carvão ajuda a manter a mistura aberta; e uma pequena quantidade de esfagno cria reserva hídrica sem dominar o vaso.",
+        justificativa: "A receita textual e visual coincide (30% macadâmia, 25% pinus, 20% arroz carbonizado, 15% carvão e 10% esfagno solto). É hipótese horticultural com aeração e retenção moderada, NÃO homologada quantitativamente para Aspasia lunata; as duas outras misturas são alternativas qualitativas independentes.",
         receitaTexto: "Mistura-base sugerida para vaso: 30% casca de macadâmia média + 25% casca de pinus média + 20% casca de arroz carbonizada + 15% carvão vegetal médio + 10% esfagno solto. Proposta técnica a ajustar pela secagem observada.",
         perfil: ["Raízes médias", "Boa aeração", "Umidade regular", "Secagem moderada", "Alta estabilidade", "Touceira"],
         comportamento: [
@@ -71,14 +66,14 @@ export const aspasiaLunata = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "30%", nota: "estrutura + durabilidade", finalidade: "Mantém macroporos e estabilidade estrutural por mais tempo." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "30%", nota: "estrutura + durabilidade", finalidade: "Mantém macroporos e estabilidade estrutural por mais tempo." },
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "25%", nota: "estrutura + umidade", finalidade: "Complementa a estrutura e contribui para uma reserva moderada de umidade." },
             { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "20%", nota: "porosidade + leveza", finalidade: "Aumenta a oxigenação e reduz a tendência à compactação." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal médio", proporcao: "15%", nota: "macroporos + estabilidade", finalidade: "Mantém a mistura aberta e melhora a drenagem estrutural." },
+            { asset: "carvao", nome: "Carvão vegetal médio", proporcao: "15%", nota: "macroporos + estabilidade", finalidade: "Mantém a mistura aberta e melhora a drenagem estrutural." },
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva hídrica", finalidade: "Mantém pequena reserva de água entre regas sem transformar a mistura em uma massa úmida." }
         ],
         alerta: "Mantenha o substrato arejado e com umidade regular, mas nunca permanentemente saturado. Evite compactar o esfagno e replante quando houver perda evidente de estrutura ou drenagem.",
-        notaEvidencia: "MACS 1.0 — primeira passagem documental: Aspasia lunata, epífita simpodial de florestas úmidas. Receita visual 30% macadâmia + 25% pinus + 20% arroz carbonizado + 15% carvão + 10% esfagno = 100%; texto e itens visuais concordam. ALERTA DE CÓDIGO: a ficha declara a propriedade substrato duas vezes; em JavaScript, a segunda definição prevalece, ocultando a primeira lista. A receita visual combina materiais das alternativas, mas não corresponde integralmente a nenhuma das quatro misturas efetivamente exibidas. Vaso plástico 5 estrelas, cachepô/barro 4, placa 3: inferência horticultural, não comparação experimental. Revisão botânica preexistente não comprova percentuais; meta de até 25 recomendações específicas de produtores brasileiros não atingida. Percentuais e estrelas NÃO HOMOLOGADOS. Preservar receitas e demais campos nesta passagem."
+        notaEvidencia: "MACS 1.1 — revisão documental: Aspasia lunata é epífita simpodial de florestas úmidas. Receita principal textual e visual concordam: 30% macadâmia, 25% pinus, 20% casca de arroz carbonizada, 15% carvão e 10% esfagno = 100%. Duas alternativas qualitativas, sem percentuais atribuídos. Apenas uma propriedade substrato identificada no arquivo atual; a nota anterior sobre duplicidade não se confirmou nesta versão e foi corrigida. Os percentuais e as estrelas dos recipientes são hipóteses horticulturais NÃO HOMOLOGADAS para a espécie; não foi documentada amostra de até 25 produtores brasileiros com receitas específicas. IDs de materiais visuais padronizados com outras fichas (casca-macadamia, casca-pinus, casca-arroz-carbonizada, carvao, esfagno); disponibilidade física dos arquivos não comprovada nesta alteração."
     },
     errosComuns: "Cultivar em sombra profunda; expor ao sol direto forte; manter o substrato permanentemente encharcado; usar mistura fina e compactada; usar vaso desproporcionalmente grande; dividir a touceira em porções muito pequenas; deixar os pseudobulbos enrugarem durante o crescimento ativo; impor repouso seco severo sem necessidade.",
     dica: "Evite dividir Aspasia lunata em mudas muito pequenas. Preserve ao menos três a quatro pseudobulbos adultos por divisão para manter reservas suficientes, recuperação rápida e maior capacidade de produzir hastes florais robustas. Mais importante que 'apertar' a planta é oferecer um vaso proporcional, muita aeração e boa luminosidade filtrada.",
