@@ -1,0 +1,25 @@
+name: Verificar sintaxe das fichas de orquídeas
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dados/orquideas/**'
+      - 'scripts/verificar-sintaxe-fichas.mjs'
+      - '.github/workflows/verificar-fichas.yml'
+  pull_request:
+    paths:
+      - 'dados/orquideas/**'
+      - 'scripts/verificar-sintaxe-fichas.mjs'
+      - '.github/workflows/verificar-fichas.yml'
+  workflow_dispatch:
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validar sintaxe de todas as fichas
+        run: node scripts/verificar-sintaxe-fichas.mjs
