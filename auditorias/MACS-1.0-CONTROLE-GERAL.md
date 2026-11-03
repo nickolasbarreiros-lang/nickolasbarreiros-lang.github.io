@@ -1126,3 +1126,11 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - R0 atual 35% macadâmia/30% pinus/20% perlita/15% carvão; R1 15/50/20/15; R2 0/55/25/20. R1/R2 são hipóteses comparativas. **Alerta prioritário:** macadâmia é o maior ingrediente (35%), sem evidência específica encontrada; investigar propriedades físicas e necessidade, sem alterar automaticamente.
 - Composição D, percentuais D, estrelas D; possibilidade de suporte epífito ventilado corroborada apenas qualitativamente. Índice heurístico não calculado. Ficha JS e assets preservados.
 - Progresso: **7/149 matrizes documentadas**, **0/149 homologações por convergência**. Próxima espécie: Encyclia alboxanthina.
+
+
+### MACS 1.1 — Matriz 008: Encyclia alboxanthina (2026-11-03)
+- Documento `auditorias/MACS-1.1-MATRIZ-008-ENCYCLIA-ALBOXANTHINA.md`, commit `fa7dc09b5843f8a6491ae3db602b14b97c247e60`.
+- **Avanço ecológico de campo:** POWO registra epífita do bioma sazonalmente seco na Bahia/Sergipe; estudo em Rodriguésia registra E. alboxanthina sobre afloramentos rochosos em campo rupestre; IOSPE também descreve litófita. Manter ambos os registros e distinguir suporte natural rochoso de receita mineral para vaso.
+- R0 atual 35% macadâmia/30% pinus/20% perlita/15% carvão, idêntica à de Laelia splendida; R1 15/50/20/15 e R2 0/55/25/20 são hipóteses, não prescrições. **Alerta:** não copiar validação entre espécies nem aceitar 35% macadâmia sem dados específicos.
+- AOS Encyclia oferece orientação genérica de mistura média, secagem leve e montagens; estudo em híbrido Encyclia não valida a espécie. Composição D, percentuais D, estrelas D; possibilidades de suporte C qualitativo. Sem alterações em JS/assets.
+- Progresso: **8/149 matrizes documentadas**, **0/149 homologações quantitativas**. Próxima espécie oficial: Phalaenopsis pulcherrima (sin. Doritis pulcherrima).
