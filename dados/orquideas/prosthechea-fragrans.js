@@ -27,7 +27,7 @@ export const prosthecheaFragrans = {
   "adubacao": "🌿 Orgânica: use bokashi com moderação, em sachê ou na borda do vaso, sem cobrir os pseudobulbos.\n💧 Mineral/foliar: fertilizante equilibrado em concentração fraca, aproximadamente a cada 10–15 dias durante o crescimento e enraizamento. Diminua as aplicações quando a planta estiver menos ativa e respeite o rótulo.\n🧪 Liberação lenta: opcional em vaso bem drenado, com poucos grânulos longe dos brotos; se usar, reduza a adubação líquida.\n🚿 Lavagem: faça regas periódicas apenas com água para reduzir sais retidos no substrato.",
   "rega": "Regue de forma regular quando surgirem brotos e raízes, molhando completamente a mistura e deixando escorrer. Em vasos de casca, carvão e componentes leves, espere o substrato perder parte da umidade antes de repetir; em placas, observe a secagem mais rápida. Depois que os pseudobulbos amadurecerem, reduza moderadamente a frequência se o crescimento desacelerar. Evite tanto raízes constantemente molhadas quanto seca severa, que pode desidratar a planta.",
   "suporte": "O vaso de barro ventilado é útil para acomodar pseudobulbos maduros e raízes ativas sem retenção excessiva no centro. Em placa, fixe a planta na direção de crescimento e aumente a frequência de rega enquanto surgirem raízes novas. Cesto de madeira é alternativa quando o ambiente tem boa umidade, mas não substitui o controle de secagem. Em árvore viva, escolha posição protegida do calor intenso e acompanhe a fixação inicial. Evite mudanças de suporte durante a formação das novas raízes.",
-  "substrato": ["🥇 Casca de pinus média + carvão vegetal + perlita grossa.", "🥈 Casca de macadâmia média + casca de arroz carbonizada + carvão vegetal."],
+  "substrato": ["🥇 Para Vaso de Barro proporcional à touceira: 45% casca de pinus média + 25% carvão vegetal médio + 20% casca de arroz carbonizada + 10% perlita grossa compatível com o vaso (proposta NÃO homologada).", "🥈 Casca de pinus média + carvão vegetal médio + perlita grossa compatível com o vaso (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de macadâmia média + casca de arroz carbonizada + carvão vegetal médio (alternativa qualitativa sem percentuais homologados)."],
   "errosComuns": [
     "Manter o centro do vaso constantemente molhado.",
     "Enterrar a base dos pseudobulbos.",
@@ -248,9 +248,9 @@ export const prosthecheaFragrans = {
   "substratoVisual": {
     "titulo": "Substrato ideal",
     "contexto": "Mistura para vaso — 100% em volume",
-    "resumo": "45% casca de pinus média + 25% carvão vegetal + 20% casca de arroz carbonizada + 10% perlita grossa — proporções em volume, para vaso ventilado.",
-    "justificativa": "A receita totaliza 100% em volume e é uma proposta horticultural para cultivo em vaso, distinta da montagem principal quando esta for em madeira. Para preservar raízes e favorecer a floração perfumada, mantenha umidade e nutrição regulares enquanto os pseudobulbos crescem, mas evite água parada quando amadurecem. Não imponha repouso seco rigoroso: ajuste a rega pela atividade radicular e pela secagem real do vaso. Ajuste o tamanho das partículas e a frequência de rega à velocidade de secagem, sem compactar.",
-    "receitaTexto": "45% casca de pinus média + 25% carvão vegetal + 20% casca de arroz carbonizada + 10% perlita grossa",
+    "resumo": "45% casca de pinus média + 25% carvão vegetal médio + 20% casca de arroz carbonizada + 10% perlita grossa compatível com o vaso — proposta em volume.",
+    "justificativa": "Prosthechea fragrans é epífita de crescimento simpodial, com pseudobulbos e raízes que exigem aeração, rega regular no crescimento e secagem parcial após maturação, sem repouso seco severo. Para vaso de barro proporcional à touceira, a mistura visual propõe pinus médio, carvão vegetal médio, casca de arroz carbonizada e perlita grossa compatível com o vaso, totalizando 100% em volume. As duas outras misturas são alternativas qualitativas distintas, sem percentuais homologados. Manter a base dos pseudobulbos acima do substrato e replantar no surgimento de novas raízes. A identificação comercial exige cautela diante de possíveis confusões com Prosthechea aemula. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
+    "receitaTexto": "45% casca de pinus média + 25% carvão vegetal médio + 20% casca de arroz carbonizada + 10% perlita grossa compatível com o vaso (proposta não homologada).",
     "perfil": [
       "Alta aeração",
       "Drenagem funcional",
@@ -290,7 +290,7 @@ export const prosthecheaFragrans = {
       },
       {
         "asset": "carvao-vegetal",
-        "nome": "Carvão vegetal",
+        "nome": "Carvão vegetal médio",
         "proporcao": "25%",
         "nota": "aeração",
         "finalidade": "Ajuda a preservar espaços livres no vaso."
@@ -304,14 +304,14 @@ export const prosthecheaFragrans = {
       },
       {
         "asset": "perlita",
-        "nome": "Perlita grossa",
+        "nome": "Perlita grossa compatível com o vaso",
         "proporcao": "10%",
         "nota": "leveza",
         "finalidade": "Mantém a mistura arejada e facilita renovação radicular."
       }
     ],
     "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos.",
-    "notaEvidencia": "MACS 1.0 — primeira passagem documental: Prosthechea fragrans, epífita com pseudobulbos, raízes arejadas, rega regular durante crescimento e secagem parcial após maturação sem repouso seco obrigatório; identidade comercial requer confronto com P. aemula. Suportes vaso barro 5 estrelas, placa/tronco e cachepô madeira 4, plástico vasado 3; não homologados. Receita visual PARA VASO 45% pinus médio + 25% carvão vegetal + 20% arroz carbonizado + 10% perlita grossa = 100% em volume; resumo, receitaTexto e itens concordam. Primeira qualitativa pinus médio + carvão + perlita grossa (sem arroz carbonizado); segunda macadâmia média + arroz carbonizado + carvão (sem pinus/perlita). Nenhuma coincide integralmente; justificativa admite proposta horticultural. Alerta de não usar pedra-pomes é coerente com receita atual. Validar granulometria, retenção no barro, renovação radicular e identificação taxonômica antes de generalizar recomendação. Meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+    "notaEvidencia": "MACS 1.1 — revisão documental: Prosthechea fragrans, epífita simpodial com pseudobulbos, requer raízes aeradas, água no crescimento e secagem parcial após maturação, sem repouso seco obrigatório. Vaso de Barro é suporte principal. Receita visual e textual coincidem: 45% pinus médio + 25% carvão vegetal médio + 20% casca de arroz carbonizada + 10% perlita grossa compatível com o vaso = 100% em volume. Exatamente duas alternativas qualitativas: pinus/carvão/perlita e macadâmia/casca de arroz carbonizada/carvão; não fundamentam os percentuais visuais. Alerta de não usar pedra-pomes preservado. Identificação comercial deve ser confrontada com P. aemula, sem assumir equivalência. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
   },
   "fotoReferencia": {
     "origem": "Pl@ntNet — Prosthechea fragrans",
