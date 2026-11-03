@@ -39,7 +39,7 @@ export const dichaeaPendula = {
     adubacao: "🌿 Orgânica: use bokashi apenas em quantidade mínima e longe das raízes ativas.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante crescimento ativo.\n🌱 Crescimento: mantenha nutrição leve e contínua, pois a espécie não apresenta repouso seco marcado.\n🧪 Liberação lenta: geralmente desnecessária; em vasos, use pouquíssimos grânulos.\n🚿 Lavagem: enxágue o suporte periodicamente para evitar acúmulo de sais nas raízes finas.",
     rega: "Mantenha as raízes regularmente úmidas, sem permitir secas prolongadas. Em placas, regas diárias podem ser necessárias no verão. A frequência deve cair quando a evaporação diminuir, mas nunca ao ponto de desidratar completamente a planta. Regue preferencialmente pela manhã e garanta ventilação suficiente para que a água não permaneça acumulada entre bainhas e folhas durante a noite.",
     suporte: "🥇 Placa vertical de cortiça ou madeira com fina camada de esfagno — favorece o hábito pendente e a aeração.\n🥈 Cesto suspenso pequeno — permite que as hastes cresçam livres.\n🥉 Vaso estreito e muito ventilado — útil quando a umidade ambiental é menor.\nMantenha espaço livre abaixo da planta para o desenvolvimento natural dos ramos.",
-    substrato: ["🥇 Pinus médio + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto."],
+    substrato: ["🥇 Receita visual provisória para cachepô ou vaso ventilado: chips de coco pequenos 40% + casca de pinus fina/média 35% + perlita grossa 25% (100%; não homologada).","🥈 Pinus médio + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto."],
     formasCultivo: {
         perfilVisual: "dichaea-epifita-pendente-umida",
         destaque: "Placa / tronco",
@@ -55,7 +55,7 @@ export const dichaeaPendula = {
         titulo: "Substrato ideal",
         contexto: "Mistura para cachepô ou vaso; montagem principal usa apenas esfagno fino junto às raízes",
         resumo: "Partículas pequenas a médias que preservam umidade uniforme e aeração, sem formar massa compacta.",
-        justificativa: "Receita quantitativa baseada na segunda alternativa já indicada na ficha, evitando a duplicação de granulometrias de perlita presente na primeira. Ainda não homologada pela MACS 1.0.",
+        justificativa: "A receita visual para cachepô ou vaso ventilado combina chips de coco pequenos, pinus fino/médio e perlita grossa. A única receita qualitativa anterior contém pinus médio, perlita grossa, carvão miúdo e esfagno, sem chips de coco; portanto, não corresponde à composição visual. A fórmula visual foi incluída como primeira alternativa provisória e a receita anterior foi preservada como segunda. A montagem principal em placa usa apenas esfagno fino e solto junto às raízes, não esta mistura volumétrica. Em espécie sem pseudobulbos, retenção e frequência de rega exigem observação cuidadosa; os percentuais não estão homologados pela MACS 1.0.",
         receitaTexto: "40% chips de coco pequenos + 35% casca de pinus fina/média + 25% perlita grossa.",
         perfil: ["Epífita pendente", "Sem pseudobulbos", "Umidade frequente", "Sombra luminosa", "Boa circulação de ar"],
         comportamento: [
