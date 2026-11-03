@@ -51,7 +51,7 @@ export const aeridesOdorata = {
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode funcionar quando o recipiente tem muitas aberturas laterais e inferiores e recebe apenas material muito grosso em pequeno volume, sem comprimir as raízes." },
         ]
     },
-    substrato: ["Casca de pinus grossa + chips de coco grossos preparados + carvão vegetal grosso","Casca de pinus grossa + perlita grossa compatível com cesto + pequena quantidade de esfagno de fibra longa solto"],
+    substrato: ["Casca de pinus grossa + chips de coco grossos preparados + carvão vegetal grosso","Casca de pinus grossa + perlita grossa + pequena quantidade de esfagno de fibra longa solto"],
 
     substratoVisual: {
         titulo: "Substrato ideal",
