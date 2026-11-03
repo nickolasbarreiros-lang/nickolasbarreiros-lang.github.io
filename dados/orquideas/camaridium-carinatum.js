@@ -74,6 +74,7 @@ export const camaridiumCarinatum = {
         }
     ]
 },
+    substrato: ["Casca de pinus média + carvão vegetal médio + perlita grossa","Casca de macadâmia média + chips de coco grossos preparados + carvão vegetal médio"],
     substratoVisual: {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
