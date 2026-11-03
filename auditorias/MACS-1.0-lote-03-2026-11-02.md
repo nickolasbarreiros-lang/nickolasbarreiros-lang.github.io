@@ -165,3 +165,13 @@ A página comercial do Orquidário Mogi Mirim para *B. rothschildianum* informa 
 - Total: **6 páginas de produtores específicos, sem duplicar variações comerciais do mesmo produtor**.
 - **0 receitas com percentuais confirmados**; **0 arquivos de fichas modificados**.
 - Não se atingiu a meta de até 25 produtores por espécie. Prosseguir com as demais espécies e pesquisas complementares, sem declarar homologação numérica.
+
+## Sexta passagem — Cattleya schilleriana: evidência de produtor e controle de identidade
+
+**Produtor brasileiro consultado:** Orquidário Maripá, anúncio *Cattleya schilleriana × self*, https://www.orquidariomaripa.com.br/produtos/orquidea-cattleya-schilleriana-x-self-linda-pintalgada-mudas-fortes-pre-adulta/ . O produtor recomenda **mistura de cascas, carvão e pedaços de madeira** e aceita **vaso plástico, vaso de barro ou caixeta de madeira**. Informa ainda que a planta pode ser fixada em árvore, com mais regas até enraizar.
+
+**Controle de identidade:** trata-se de um lote de **autofecundação (× self)** da espécie, não de prova sobre todos os clones ou sobre um híbrido interespecífico. O próprio anúncio usa o termo comercial “híbrido”; por isso, registrar a identificação exata do material comercial e não tratá-lo como experimento científico controlado.
+
+**Comparação com a receita cadastrada:** 35% casca de macadâmia + 30% pinus + 20% perlita + 15% carvão. O produtor corrobora **categorias gerais de cascas e carvão**, além da viabilidade de caixeta, mas **não cita explicitamente casca de macadâmia nem perlita** e não fornece percentuais. Pedaços de madeira **não são equivalentes automaticamente** a casca de macadâmia ou perlita. Não alterar receita por essa única referência.
+
+**Situação da amostra:** +1 página de produtor brasileiro com recomendação de substrato para material identificado como *C. schilleriana × self*; nenhum percentual homologado; ficha preservada. Outros resultados localizados nesta busca foram listagens de produtos, não recomendações técnicas específicas, e **não foram contados** como fontes de composição.
