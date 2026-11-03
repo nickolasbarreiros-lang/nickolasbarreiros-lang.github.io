@@ -62,3 +62,14 @@ Esses níveis D são **conservadores e transitórios**, não juízo de que a rec
 
 ## Regra de conclusão
 A ficha só pode ser encerrada como C quando tiver ecologia da espécie, propriedades dos componentes e pelo menos um comparável justificado, com matriz reproduzível e limitações. Se faltar um elo, documentar D e seguir à próxima ficha, mantendo fila de pendências. Não repetir buscas indefinidamente nem fabricar referências.
+
+
+## MACS 1.1 — Fluxo integrado de conclusão por ficha (aprovado em 2026-11-03)
+1. Elaborar matriz com fontes auditáveis, receitas candidatas e classificação separada de evidência para composição, percentuais e suportes.
+2. Comparar quantitativamente as proporções **por volume**, verificando 100% e a coerência entre raízes, granulometria, recipiente, rega e clima. Sem medições comparativas, **não atribuir notas numéricas de desempenho** nem declarar vantagem experimental.
+3. Selecionar receita de referência apenas se existir base técnica suficiente. Identificar explicitamente como **formulação quantitativa estimada por convergência**, **receita documental publicada** ou **experimentalmente validada**, conforme evidência real. Percentuais criados por inferência nunca são receitas publicadas.
+4. Atualizar na mesma ficha os campos `substratoVisual.receitaTexto`, `substratoVisual.itens`, `substratoVisual.justificativa`, `substratoVisual.notaEvidencia` e `substrato` **somente quando necessário para manter coerência e registrar a decisão**; preservar fotografias, assets, demais campos e layout V4.9. Não alterar estrelas de suportes sem avaliação independente.
+5. Verificar soma de percentuais, consistência de nomes/assets e sintaxe JavaScript antes de publicar; registrar commit da matriz, da ficha e do controle geral.
+6. Se evidência insuficiente para uma receita recomendada C, **não forçar homologação**: manter provisória D, registrar lacunas e ainda concluir a etapa documental e a revisão de coerência da ficha.
+7. Concluir ficha antes de avançar à próxima. Após a sequência futura, retornar às matrizes 001–024 para concluir sua revisão quantitativa.
+**Contadores separados:** matrizes concluídas; fichas atualizadas com receita recomendada; receitas com nível C por convergência; receitas com ensaio experimental A. Não confundir esses totais.
