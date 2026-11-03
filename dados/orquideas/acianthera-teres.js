@@ -27,7 +27,7 @@ export const aciantheraTeres = {
   "adubacao": "🌿 Orgânica: se optar por bokashi, use uma porção mínima em sachê, longe da base e das raízes expostas; em placas pequenas, pode ser dispensado.\n💧 Mineral/foliar: fertilizante equilibrado em concentração fraca durante o crescimento ativo, aproximadamente a cada 10–15 dias, sempre respeitando a dose do fabricante para orquídeas. Molhe as raízes antes da aplicação e intercale regas com água limpa.\n🧪 Liberação lenta: pouco indicada em placa ou recipientes minerais pequenos; em vaso, só em quantidade conservadora, afastada dos brotos.\n🚿 Lavagem: faça regas abundantes com água limpa para evitar acúmulo de sais.",
   "rega": "Regue abundantemente durante a emissão de brotos e raízes, deixando a água escorrer por completo. Em placa ou suporte mineral, as raízes podem secar rápido, especialmente em dias quentes e ventilados; observe a planta antes de repetir a rega. Em vaso com brita e carvão, espere a mistura perder boa parte da umidade. Não confunda drenagem rápida com necessidade de deixar a planta vários dias sem água. Evite água parada entre as folhas e calor acumulado no suporte.",
   "suporte": "Montagem principal em placa de madeira: mantenha a base descoberta, amarre sem comprimir os ramicaules e acompanhe a secagem rápida das raízes. Como a espécie é predominantemente rupícola, a placa é uma adaptação prática, não uma reprodução do habitat. Em vaso baixo de barro, use mistura mineral muito aberta e proteja a brita do superaquecimento. Cesto de madeira exige regas mais frequentes; árvore viva exige casca rugosa, posição clara e fixação estável. A decisão entre os quatro suportes depende sobretudo da temperatura radicular e da frequência real de rega.",
-  substrato: ["🥇 Brita fina + carvão vegetal + perlita grossa (mistura alternativa provisória, não homologada).","🥈 Brita fina + casca de pinus grossa + carvão vegetal (mistura alternativa provisória, não homologada)."],
+  substrato: ["🥇 Placa / tronco: cultivo principal sem mistura solta, com raízes aderidas superficialmente e secagem monitorada. Para vaso baixo, receita opcional: 45% brita fina lavada e sem pó + 25% carvão vegetal pequeno + 20% casca de pinus média + 10% perlita grossa compatível com vaso pequeno (proposta NÃO homologada).","🥈 Brita fina lavada e sem pó + carvão vegetal pequeno + perlita grossa compatível com vaso pequeno (alternativa qualitativa para vaso, sem percentuais homologados).","🥉 Brita fina lavada e sem pó + casca de pinus média + carvão vegetal pequeno (alternativa qualitativa para vaso, sem percentuais homologados)."],
   "errosComuns": [
     "Deixar a planta sob sol forte sem aclimatação, superaquecendo as folhas e o suporte.",
     "Usar substrato fino ou vaso profundo, mantendo as raízes abafadas.",
@@ -316,6 +316,17 @@ export const aciantheraTeres = {
     "notaEvidencia": "MACS 1.0 — primeira passagem documental: Acianthera teres, predominantemente rupícola em rochas expostas; a placa/tronco é adaptação prática, não reprodução literal do habitat. Suportes placa/tronco 5 estrelas, barro e cachepô madeira 4, árvore viva 3; não homologados. Receita visual alternativa PARA VASO: 45% brita fina + 25% carvão vegetal + 20% pinus + 10% perlita grossa = 100% em volume; resumo, receitaTexto e itens concordam. Qualitativas registradas: primeira brita fina + carvão + perlita (sem pinus); segunda brita fina + pinus grosso + carvão (sem perlita). A receita visual combina as duas, não coincide integralmente com nenhuma; justificativa já identifica receita como proposta provisória distinta da montagem principal. Verificar experimentalmente 45% brita: peso, aquecimento em clima quente, granulometria/pontas e contato com raízes; secagem do vaso versus placa e disponibilidade hídrica, sem confundir folhas carnosas com tolerância a seca prolongada. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
   },
   "fotoReferencia": {
+    "origem": "IOSPE — Pleurothallis teres",
+    "url": "https://www.orchidspecies.com/orphotdir/pleurotteres.jpg",
+    "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
+  },
+  "observacoesAuditoriaV405": {
+    "galeria": "1 de 4 fotografias cadastradas; faltam 3 imagens com identificação e direitos de uso verificados",
+    "taxonomia": "revisão cruzada POWO/WFO/IPNI/GBIF/Tropicos ainda pendente",
+    "cultivo": "fórmulas são propostas horticulturais, não consenso de 25 produtores brasileiros",
+    "fenologia": "meses são registros reportados, não garantia de floração"
+  }
+};  "fotoReferencia": {
     "origem": "IOSPE — Pleurothallis teres",
     "url": "https://www.orchidspecies.com/orphotdir/pleurotteres.jpg",
     "licenca": "não verificada — imagem vinculada externamente, sem redistribuição"
