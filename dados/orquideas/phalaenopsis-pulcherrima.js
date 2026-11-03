@@ -41,7 +41,7 @@ export const phalaenopsisPulcherrima = {
         "🥈 Cesto ou cachepô pequeno com mistura mineral e casca.",
         "🥉 Montagem em tronco ou cortiça em ambiente úmido e com regas frequentes."
     ],
-    substrato: ["🥇 Perlita grossa + argila expandida + carvão vegetal + pequena fração de casca de pinus grossa.","🥈 Brita fina/média + perlita grossa + carvão vegetal + 15–25% de componente orgânico grosso.","🥉 Casca de macadâmia grossa + perlita grossa + cacos de cerâmica ou argila expandida."],
+    substrato: ["🥇 Perlita grossa + brita fina/média + casca de macadâmia triturada + casca de pinus grossa (mistura provisória do substrato visual).","🥈 Perlita grossa + argila expandida + carvão vegetal + pequena fração de casca de pinus grossa.","🥉 Brita fina/média + perlita grossa + carvão vegetal + 15–25% de componente orgânico grosso.","⭐ Casca de macadâmia grossa + perlita grossa + cacos de cerâmica ou argila expandida."],
     formasCultivo: {
         perfilVisual: "phalaenopsis-pulcherrima-terrestre-litofita",
         destaque: "Vaso de Barro",
@@ -57,7 +57,7 @@ export const phalaenopsisPulcherrima = {
         titulo: "Substrato ideal",
         contexto: "Mistura mineral muito aberta para vaso baixo",
         resumo: "A espécie cresce sobre rochas e solos arenosos; mistura com predominância mineral mantém drenagem rápida, colo ventilado e pequena fração orgânica.",
-        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa já registrada na ficha. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A mistura provisória para vaso baixo combina perlita grossa, brita fina/média, casca de macadâmia triturada e pinus grosso, buscando drenagem rápida e alguma estrutura orgânica. Ela difere das alternativas qualitativas anteriores, que incluem outros componentes minerais e carvão. O equilíbrio entre drenagem e disponibilidade hídrica exige validação; percentuais ainda não homologados pela MACS 1.0.",
         receitaTexto: "35% perlita grossa + 30% brita fina/média + 25% casca de macadâmia triturada + 10% casca de pinus grossa.",
         perfil: ["Terrestre ou litófita", "Clima quente", "Haste ereta", "Colo ventilado", "Drenagem rápida"],
         comportamento: [
