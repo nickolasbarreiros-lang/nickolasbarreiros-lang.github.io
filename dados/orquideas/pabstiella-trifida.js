@@ -37,7 +37,7 @@ export const pabstiellaTrifida = {
     "adubacao": "🌿 Orgânica: quantidade mínima de bokashi em sachê, muito afastada das raízes.\n💧 Mineral: NPK equilibrado e solúvel em 1/5 a 1/4 da dose a cada 15 dias no crescimento ativo.\n🚿 Flushing: água pura regularmente, sobretudo se a água local for salina.\n🧪 Liberação lenta: desaconselhada em placas; em vaso, use pouquíssimos grânulos longe do vegetativo.",
     "rega": "Em placas, regue pela manhã diariamente durante o calor, permitindo secagem parcial com forte ventilação. O suporte não deve secar por vários dias nem permanecer ensopado. Use água de chuva, filtrada ou de baixa salinidade quando possível. Pontas secas podem indicar ar seco, sais ou raízes mortas; base do ramicaule escurecendo indica abafamento; murchamento com suporte úmido sugere perda radicular.",
     "suporte": "🥇 Placa de cortiça ou madeira rugosa com fina lâmina de esfagno: melhor equilíbrio entre água e oxigênio.\n🥈 Cachepô muito pequeno e vazado: alternativa para ambiente mais seco.\n🥉 Vaso de barro minúsculo: apenas com mistura extremamente aerada.\nPosicione na bancada mais baixa, próxima ao solo e cercada por outras plantas, sem encostar em áreas quentes.",
-    substrato: ["🥇 Esfagno de fibra longa solto + perlita de granulometria adequada a miniaturas.","🥈 Casca de pinus fina + perlita de granulometria adequada a miniaturas + pequena fração de esfagno solto."],
+    substrato: ["🥇 Montagem principal em placa/tronco com fina lâmina de esfagno de fibra longa solto sob as raízes, sem substrato volumoso. Para recipiente minúsculo e muito perfurado: 40% chips de coco pequenos preparados + 30% casca de pinus fina + 30% perlita de granulometria adequada a miniaturas (proposta NÃO homologada).", "🥈 Esfagno de fibra longa solto + perlita de granulometria adequada a miniaturas (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de pinus fina + perlita de granulometria adequada a miniaturas + pequena fração de esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados)."],
     formasCultivo: {
         perfilVisual: "pabstiella-miniatura-pleurothallidinae-fresca",
         destaque: "Placa / tronco",
@@ -53,8 +53,8 @@ export const pabstiellaTrifida = {
         titulo: "Substrato ideal",
         contexto: "Montagem em cortiça ou madeira rugosa com esfagno mínimo",
         resumo: "A montagem principal usa apenas fina lâmina de esfagno sob as raízes. Para recipientes minúsculos, mistura muito leve com umidade moderada e alta aeração.",
-        justificativa: "A receita percentual quantifica a alternativa já registrada de chips de coco pequenos, perlita e pinus fino, destinada a recipientes. Percentuais estimados e ainda não homologados pela MACS 1.0.",
-        receitaTexto: "40% chips de coco pequenos + 30% casca de pinus fina + 30% perlita grossa.",
+        justificativa: "Pabstiella trifida é miniatura epífita de raízes capilares associada a ambientes úmidos e relativamente frescos. A montagem principal em cortiça ou madeira rugosa usa fina lâmina de esfagno de fibra longa solto, sem massa compacta. Para recipiente minúsculo e muito perfurado, a receita visual alternativa combina chips de coco pequenos preparados, pinus fino e perlita de granulometria adequada a miniaturas, somando 100%. As duas outras misturas são alternativas qualitativas distintas, não a origem dos percentuais visuais. Em clima quente, nenhuma mistura substitui um microclima fresco, ventilado e úmido. MACS 1.1: hipótese horticultural sem homologação quantitativa específica",
+        receitaTexto: "40% chips de coco pequenos preparados + 30% casca de pinus fina + 30% perlita de granulometria adequada a miniaturas.",
         perfil: ["Pleurothallidinae miniatura", "Sem pseudobulbos", "Raízes capilares", "Noites frescas", "Umidade constante"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -63,170 +63,9 @@ export const pabstiellaTrifida = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "chips-coco", nome: "Chips de coco pequenos", proporcao: "40%", nota: "umidade", finalidade: "Ajudam a manter umidade moderada em recipientes muito abertos." },
+            { asset: "chips-coco", nome: "Chips de coco pequenos preparados", proporcao: "40%", nota: "umidade", finalidade: "Ajudam a manter umidade moderada em recipientes muito abertos." },
             { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "30%", nota: "estrutura", finalidade: "Oferece suporte às raízes finas sem massa compacta." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "30%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação radicular." }
+            { asset: "perlita", nome: "Perlita de granulometria adequada a miniaturas", proporcao: "30%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação radicular." }
         ],
         alerta: "O substrato não compensa calor excessivo: manter a planta longe do telhado quente, em sombra clara e ventilação. Evitar esfagno compactado, sais, adubação forte e divisão de touceiras pequenas.",
-        notaEvidencia: "MACS 1.0 — primeira passagem documental: Pabstiella trifida, miniatura epífita sem pseudobulbos com raízes capilares, de ambiente úmido e noites frescas; suporte principal placa/tronco com fina lâmina de esfagno, evitar superaquecimento noturno. Suportes placa/tronco 5 estrelas, cachepô madeira 4, barro e plástico vasado 3; não homologados. Receita visual alternativa para recipiente 40% chips coco pequenos + 30% pinus fino + 30% perlita grossa = 100%; receitaTexto e itens concordam. DIVERGÊNCIA GRAVE: justificativa diz quantificar alternativa de chips coco + perlita + pinus já registrada, mas qualitativas existentes são (1) esfagno + perlita adequada a miniaturas e (2) pinus fino + perlita adequada a miniaturas + pequena fração de esfagno. Ambas omitem chips coco; visual omite esfagno e usa perlita grossa. Validar compatibilidade da granulometria com raízes capilares, retenção de 40% chips e risco de secagem/temperatura em clima quente; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
-    },
-    "errosComuns": "Cultivar próximo ao telhado; manter ar parado; usar vaso grande; compactar esfagno; expor ao sol; adubar forte; molhar no fim da tarde em noites quentes; usar água muito salina; dividir touceiras pequenas; confundir umidade atmosférica com substrato encharcado.",
-    "dica": "Em regiões quentes, o posicionamento é mais importante que aumentar a rega: instale na parte mais baixa, fresca e sombreada do orquidário, longe do calor do teto. Monte em cortiça com pouco esfagno e regue cedo. Molhar o chão ao redor ajuda a reduzir a temperatura e elevar a umidade sem sufocar as raízes. Preserve touceiras robustas e só divida quando cada parte puder manter vários ramicaules e raízes próprias.",
-    revisaoCientificaIAR: {
-        "nome": "Pabstiella trifida",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma pequena joia das matas úmidas do Sul e Sudeste do Brasil. Pabstiella trifida forma touceiras compactas, com folhas estreitas e firmes e flores diminutas que surgem em delicadas hastes finas. O nome trifida faz referência ao aspecto de três pontas do labelo. Na natureza cresce sobre árvores cobertas de musgo, geralmente entre 1.000 e 1.200 m, por isso aprecia umidade constan",
-        "habitatAltitudeClima": "Matas primárias musgosas · 1.000–1.200 m. | Intermediário a fresco · úmido.",
-        "distribuicaoGeografica": "Leste e Sul do Brasil.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
-        "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
-        ]
-    },
-    indiceDificuldadeCultivo: {
-        "versao": "IDC 3.2 — selo por facilidade",
-        "escala": "dificuldade",
-        "indice": 54,
-        "classificacao": "Difícil",
-        "cultivoEstrelas": 2,
-        "criterios": {
-            "temperatura": {
-                "notaDificuldade": 3,
-                "peso": 15
-            },
-            "rega": {
-                "notaDificuldade": 3,
-                "peso": 15
-            },
-            "umidade": {
-                "notaDificuldade": 3,
-                "peso": 10
-            },
-            "ventilacao": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "luminosidade": {
-                "notaDificuldade": 3,
-                "peso": 10
-            },
-            "raizesSubstrato": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "sazonalidade": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "floracao": {
-                "notaDificuldade": 3,
-                "peso": 20
-            }
-        },
-        "faixas": {
-            "facil": "0–25",
-            "moderada": "26–50",
-            "dificil": "51–89",
-            "extrema": "90–100"
-        }
-    },
-    indiceAdaptacaoRegional: {
-        "versao": "IAR 2.0 — revisão científica",
-        "escala": "compatibilidade regional",
-        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
-        "litoralQuente": {
-            "indice": 57,
-            "estrelas": 3,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 2,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 3,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 3,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 3,
-                    "peso": 20
-                }
-            }
-        },
-        "montanhaFrio": {
-            "indice": 86,
-            "estrelas": 5,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 5,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 4,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 4,
-                    "peso": 20
-                }
-            }
-        }
-    },
-    "adaptacaoRegional": {
-        "litoralQuente": "No litoral quente, o cultivo é exigente porque a espécie ocorre principalmente em matas montanas de 1.000–1.200 m. Use bancada baixa, 70–80% de sombra, ventilação permanente e regas matinais. Elevar a umidade do ambiente ajuda, mas não compensa noites abafadas com raízes sufocadas.",
-        "montanhaFrio": "Excelente adaptação. Noites frescas favorecem crescimento e floração. Proteja apenas de geadas e ventos muito secos, reduzindo a água em semanas frias e chuvosas."
-    },
-    "mesesFloracao": [
-        11,
-        12,
-        1
-    ],
-    "selosCultivo": {
-        "rega": { "nivel": "muito-frequente" },
-        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
-    },
-        "avaliacoes": {
-        "cultivo": 2,
-        "floracao": 3,
-        "perfume": 1,
-        "luminosidade": 1,
-        "agua": 5,
-        "raridade": 4
-    }
-};
+        notaEvidencia: "MACS 1.1 — revisão documental: Pabstiella trifida é miniatura epífita sem pseudobulbos e de raízes capilares, associada a umidade elevada e noites relativamente frescas. Suporte principal placa/tronco com fina lâmina de esfagno solto. Receita visual alternativa para recipiente minúsculo e muito perfurado: 40% chips de coco pequenos preparados + 30% pinus fino + 30% perlita de granulometria adequada a miniaturas = 100%; receitaTexto e itens concordam. Duas outras misturas qualitativas distintas contêm esfagno e não chips de coco; não atribuir-lhes os percentuais da principal. Temperatura e umidade do microclima são limitações independentes da mistura. Estrelas dos suportes são heurísticas. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS
