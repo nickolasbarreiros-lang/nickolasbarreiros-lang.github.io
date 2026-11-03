@@ -690,3 +690,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Justificativa corrigida: primeira mistura antiga não contém macadâmia; segunda contém argila expandida em vez de perlita; terceira também não contém macadâmia. Nenhuma reproduz a receita visual. Acrescentada ressalva de que escolha entre cachepô e barro depende da secagem observada, sem evidência comparativa específica para homologar ranking. Commit ficha: 569e46d5f3ff74873ba1a47cc4339df251cafe93.
 - Rizoma não enterrado, pseudobulbos amadurecidos antes de redução discreta de regas, suportes/estrelas, fotos/assets, IDC/IAR e layout preservados. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
 - Progresso: 94/149 checagens; 92 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 095 — Stanhopea guttulata.
+
+## Registro 095 — Stanhopea guttulata (2026-11-03)
+- Receita visual/`receitaTexto` mantidos: 40% chips de coco grossos + 30% pinus médio + 20% perlita grossa + 10% esfagno solto = 100%; quatro itens concordavam. Propriedade `substrato` textual existente como string; lista de alternativas atualizada para incluir a fórmula visual como primeira opção, preservando as duas alternativas anteriores.
+- Justificativa corrigida: primeira receita antiga contém fibra de coco grossa e carvão, sem chips de coco/esfagno; segunda contém macadâmia e chips, sem pinus. Nenhuma correspondia integralmente. Reforçada necessidade de cesta com fundo aberto e mistura solta, sem obstruir hastes descendentes. Commit ficha: d3764195e41f528d1ee725144530387510a7017d.
+- Cesta suspensa, suportes/estrelas, fotos/assets, IDC/IAR e layout preservados. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
+- Progresso: 95/149 checagens; 93 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 096 — Isabelia virginalis.
