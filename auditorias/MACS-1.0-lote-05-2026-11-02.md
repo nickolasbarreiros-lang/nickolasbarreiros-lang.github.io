@@ -9,7 +9,7 @@ Escopo: dez proximas fichas apos Maxillaria tenuifolia, na ordem do indice. Conf
 5. `coelogyne-cristata.js` — passagem concluida
 6. `bc-turandot-x-blc-orange-show-x-blc-chunyeah.js` — passagem concluida
 7. `cattleya-schilleriana-x-cruzeiro-do-sul.js` — passagem concluida
-8. `lc-trick-or-treat.js` — pendente
+8. `lc-trick-or-treat.js` — passagem concluida
 9. `acianthera-aveniformis.js` — pendente
 10. `dryadella-aviceps.js` — pendente
 
@@ -68,3 +68,9 @@ IDENTIDADE: Orquidario Wolf https://www.orquidariowolf.com.br/produtos/cattleya-
 Ficha: vaso barro 5 estrelas, cachepo madeira e plastico vasado 4, placa 3. Receita 40% pinus medio/grosso + 25% macadamia media + 20% carvao + 15% perlita grossa = 100%. Orquidario Santa Clara https://orquidariosantaclara.com.br/cattleyas-e-afins/4790-cattleya-schilleriana-coerulea-ad.html recomenda para PROGENITORA C. schilleriana pinus, carvao e pedrisco no fundo ou placas com um pouco de substrato, sem percentuais; nao e prova especifica do hibrido. Orquidario Mantovani https://www.orquideasmantovani.com.br/cattleya-cruzeiro-do-sul-674/p menciona madeira/vasos/cachepos para a OUTRA progenitora Cruzeiro do Sul, sem receita especifica. Estudo brasileiro Sorace/UEL https://repositorio.uel.br/items/ea109160-d382-4cc6-9d7c-eeaad0fc9bb3 avaliou pinus, coco e casca de arroz em outras Cattleyas e outro hibrido, com resultados variaveis; nao valida 40/25/20/15. Estudo brasileiro https://periodicos.uem.br/ojs/index.php/ActaSciAgron/article/view/5299 avaliou C. intermedia na aclimatizacao, tambem nao extrapolavel automaticamente para hibrido adulto.
 
 Parecer: pinus e carvao respaldados qualitativamente pela progenitora; 25% macadamia e 15% perlita sem evidencia quantitativa especifica. Receita e estrelas NAO HOMOLOGADAS. Nenhum produtor brasileiro com receita especifica para o cruzamento encontrado; meta ate 25 nao atingida. Atualizado apenas alerta da ficha, commit 2fd58c614d3520ed495b6c841283cfc109f8c22d. Proxima ficha Lc. Trick or Treat.
+
+## Passagem 48 — Cattlianthe Trick or Treat (Lc. Trick or Treat)
+
+Ficha: vaso de barro e plastico vasado 5 estrelas, cachepo madeira 4. Receita 35% casca macadamia media + 30% pinus medio + 20% perlita grossa + 15% carvao vegetal = 100%. AOS https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet recomenda casca media/grossa para Cattleyas adultas em estufa, secagem entre regas e replante com novas raizes. AOS https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-culture-part-3 detalha exigencia de meios abertos para raizes epifitas; orientacao generica, nao ensaio do grex. Orchid Society of Great Britain https://www.osgb.org.uk/orchids/orchid-care-guides/cattleya-orchid-care cita casca e carvao/perlita como alternativas gerais. Artigo cientifico brasileiro https://www.scielo.br/j/hb/a/psYNv6tY7DppxrBNVkHfZNp/?lang=pt descreve em OUTRO hibrido Cattlianthe Chocolate Drop mistura de 4 partes de pinus para 3 de carvao; estudo testa adubacao mineral/organica e nao compara substratos, portanto NAO valida receita atual. Nenhum produtor brasileiro com receita especifica publicada para Trick or Treat foi localizado nesta passagem; meta ate 25 nao atingida.
+
+Parecer: mistura arejada e secagem entre regas fundamentadas para alianca Cattleya, mas 35% macadamia e demais proporcoes sem validacao especifica; NAO HOMOLOGADA. Estrelas nao verificadas por ensaio. Apenas notaEvidencia alterada, commit 85b55632315b5beb9f20049ca6c1a512ffe892dc. Proxima ficha Acianthera aveniformis.
