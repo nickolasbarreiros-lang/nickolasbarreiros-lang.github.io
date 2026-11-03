@@ -165,3 +165,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência preexistente no lote 02:** Orquidário Oriental (https://www.orquidariooriental.com.br/produto/isophronitis-wittigianai%2C1667/) recomenda esfagno ou fibra de coco/pinus/carvão, além de montagem, mas não valida brita a 20% nem percentuais. Equilíbrio entre ventilação, umidade e temperatura radicular permanece questão técnica; nenhuma nova fonte de percentuais homologados verificada nesta passagem.
 - **Limites:** percentuais, itens visuais, estrelas, fotos, assets, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 15/149 checagens; 13 fichas com correções editoriais efetivas (003–015); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 016 — Sophronitis cernua.
+
+## Correção na mesma passagem — registro 016 (2026-11-03)
+- **Ficha 016 — Sophronitis cernua** (`dados/orquideas/sophronitis-cernua.js`): receita visual e itens concordam (40% pinus grosso + 30% carvão + 20% brita pequena + 10% macadâmia = 100%).
+- **Correção efetiva:** campo `substrato` não incluía a combinação visual completa; adicionada como primeira alternativa provisória, preservadas as duas anteriores. Commit `9d91505e3266444e4fd196f11c4ae2cde9da846b`.
+- **Evidência prévia no lote 02:** AOS (https://www.aos.org/orchids/collectors-items/book-reviews/the-culture-of-the-brazilian-sophronitis) descreve tolerância térmica relativa e exigência de umidade/ventilação do grupo; não demonstra percentuais. Equilíbrio entre secagem, rega e tipo de recipiente ainda necessita validação específica; nenhuma nova fonte brasileira de percentuais verificada nesta passagem.
+- **Limites:** percentuais, itens visuais, estrelas, fotos, assets, IDC/IAR e layout preservados. **Homologação quantitativa pendente**.
+- **Progresso:** 16/149 checagens; 14 fichas com correções editoriais efetivas (003–016); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 017 — Zygolum Louisendorf.
