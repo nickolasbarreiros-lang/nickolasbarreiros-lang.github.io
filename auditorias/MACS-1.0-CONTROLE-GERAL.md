@@ -1172,3 +1172,11 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Pendência taxonômica crítica:** ficha declara inclusão em B. tyrianthina segundo POWO, mas IOSPE/Limodore e terceiros apresentam B. verboonenii como espécie distinta. Confirmar **diretamente POWO/WFO** antes de cruzar evidências de B. tyrianthina. Não confundir Cattleya/Gomesa verboonenii. AOS Bifrenaria só oferece orientação de gênero.
 - R0 40% brita/25% macadâmia/20% carvão/15% pinus, sem esfagno. R1 40/10/20/30; R2 25/0/25/50. R1/R2 hipóteses, **regra sem esfagno mantida**. Hábito rupícola não comprova 40% brita no vaso. Composição D, percentuais D, estrelas D; possibilidade de vaso/cesto C qualitativo. **Não homologada**.
 - Progresso: **13/149 matrizes documentadas**, **0/149 homologações quantitativas**. Próxima espécie oficial: Bifrenaria aureofulva.
+
+
+### MACS 1.1 — Matriz 014: Bifrenaria aureofulva (2026-11-03)
+- Documento `auditorias/MACS-1.1-MATRIZ-014-BIFRENARIA-AUREOFULVA.md`, commit `c793bd093cd28cc7d7b534b5bac88775ea3a6879`.
+- **Avanço: receita brasileira quantitativa em partes publicada para a própria espécie.** Juan Pablo Heller (cultivador, não produtor comercial), 2019, recomenda **partes iguais de pinus, carvão e brita**, sem especificar unidade de partes; vaso plástico raso/caixeta de madeira ou casca/tronco. **1 cultivador com receita específica em partes; 0 produtores comerciais com percentuais confirmados nesta rodada.** Nível B documental específico, **não A experimental**.
+- POWO: espécie aceita e epífita do Brasil; estudo florístico Serra do Cipó: epífita, raramente rupícola. Não assumir que ocorrência sobre rocha exija maioria mineral.
+- R0 35% brita/30% macadâmia/20% carvão/15% pinus; R1 partes iguais brita/carvão/pinus, **fonte publicada** (percentuais por volume não informados); R2 hipótese 25/0/25/50. **Macadâmia 30% sem evidência específica**. Manter sem esfagno. Composição R0 D, percentuais R0 D, estrelas D. Montagem em tronco documentada e ausente dos quatro métodos principais.
+- **Progresso: 14/149 matrizes documentadas, 0/149 homologações quantitativas de desempenho.** Nenhuma alteração JS/assets. Próxima espécie deve ser confirmada na ordem do índice.
