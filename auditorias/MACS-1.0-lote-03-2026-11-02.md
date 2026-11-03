@@ -193,3 +193,26 @@ A página comercial do Orquidário Mogi Mirim para *B. rothschildianum* informa 
 4. Não multiplicar a mesma receita de Orquidário Maripá em diferentes anúncios de *D. aggregatum* como produtores distintos.
 
 **Resultado:** 3 páginas específicas adicionais, de 2 produtores independentes (Maripá e Oriental), cobrindo 3 táxons/cultivares. **0 percentuais homologados; 0 fichas alteradas.** Prosseguir buscando produtores adicionais independentes para cumprir o objetivo MACS 1.0.
+
+## Sétima passagem — evidência independente sobre as duas Rodriguezia e Dendrobium moschatum
+
+**Achado prioritário:** o Orquidário 4 Estações publica fichas comerciais **separadas** de *Rodriguezia venusta* e *R. lanceolata* e recomenda **troncos ou leques de madeira para ambas**, com umidade ambiental média/alta e sombreamento de cerca de 70%. Isso fortalece o cultivo montado como alternativa principal para *R. lanceolata*, cujo destaque atual no site é cachepô de madeira. Não comprova que o cachepô esteja errado: as duas formas podem funcionar, e o próprio produtor não publica ensaio comparativo.
+- *R. lanceolata*: https://www.orquidario4e.com.br/orquidea-rodriguezia-lanceolata-7cm
+- *R. venusta*: https://www.orquidario4e.com.br/orquidea-rodriguezia-venusta-8cm
+
+**Segunda fonte para R. lanceolata:** Orquidário Mantovani, https://www.orquideasmantovani.com.br/rodriguezia-lanceolata-704/p , informa planta adulta **enraizada em bolacha de madeira**. É observação direta do suporte comercial usado, não ensaio de superioridade.
+
+**Terceira fonte para R. lanceolata:** Orquidário Matsuoka, https://orquidariomatsuoka.com.br/produto/epidendrum-porpax-colecao/ , apesar do slug de URL não correspondente, tem título da página **Rodriguezia lanceolata** e descreve cultivo em **toco de madeira** ou substrato para orquídeas. O URL inconsistente exige identificação pelo conteúdo da página, não pelo slug.
+
+**Segunda fonte para R. venusta:** Orquidário Nhá Mercedes, https://www.sitionhamercedes.com.br/rodriguezia-venusta , recomenda para vaso **pinus, carvão e fibra de coco** e, para plantas montadas, **esfagno ao redor das raízes**. Essa fonte confirma três dos quatro materiais da receita visual do projeto (35% pinus + 30% chips de coco + 25% perlita + 10% carvão), **não confirma perlita ou qualquer percentual**. O produtor também menciona secagem leve entre regas.
+
+**Dendrobium moschatum:** Orquidário 4 Estações, https://www.orquidario4e.com.br/orquidea-dendrobium-moschatum-4050-cm , recomenda **substrato bem drenado**, aceita vários tipos, e cita **vaso de barro** ou vaso plástico com boa drenagem; não publica componentes ou percentuais. Orquidário Mantovani, https://www.orquideasmantovani.com.br/dendrobium-moschatum-149/p , descreve replante em madeira, plástico, barro ou cachepô, mas **não valida a composição**. Assim, há evidência brasileira de flexibilidade do recipiente, sem homologação da receita 35% pinus / 30% macadâmia / 20% carvão / 15% perlita.
+
+### Implicações e ações
+
+1. *R. lanceolata*: **abrir pendência editorial de reavaliação do método com 5 estrelas**: montagem em madeira está corroborada por três produtores independentes; cachepô de madeira continua plausível, mas sua superioridade atual não está demonstrada. Não alterar estrelas sem confronto adicional do manejo hídrico e clima.
+2. *R. venusta*: manter placa/tronco como método principal; concordância com produtor específico. Receita para vaso é **alternativa**, não mistura para preencher placa.
+3. *D. moschatum*: não converter orientação genérica de drenagem em porcentagens de macadâmia ou perlita.
+4. Contagem desta passagem: **7 páginas de produtores**, de **5 estabelecimentos distintos**, distribuídas por espécie (*R. lanceolata* 3, *R. venusta* 2, *D. moschatum* 2). Não confundir páginas com validações quantitativas. Sem modificações de fichas nesta passagem.
+
+**Status:** MACS 1.0 quantitativa ainda não homologada; evidência para suporte montado de *R. lanceolata* reforçada.
