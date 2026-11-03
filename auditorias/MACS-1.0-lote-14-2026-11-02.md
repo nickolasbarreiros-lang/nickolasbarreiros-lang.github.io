@@ -10,7 +10,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 4. isochilus-linearis.js — passagem concluída
 5. acianthera-sonderiana.js — passagem concluída
 6. acianthera-teres.js — passagem concluída
-7. isabelia-pulchella.js — pendente
+7. isabelia-pulchella.js — passagem concluída
 8. prosthechea-vespa.js — pendente
 9. stelis-ciliaris.js — pendente
 10. prosthechea-fragrans.js — pendente
@@ -43,3 +43,8 @@ MICROEPÍFITA cespitosa de raízes finas, umidade regular sem abafamento. SUPORT
 ## Passagem 136 — Acianthera teres
 
 RUPÍCOLA de rochas expostas; montagem em madeira é adaptação prática. SUPORTES: placa/tronco 5 estrelas, barro e cachepô madeira 4, árvore viva 3. RECEITA VISUAL alternativa PARA VASO: 45% brita fina + 25% carvão + 20% pinus + 10% perlita grossa = 100% em volume; resumo, receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa brita + carvão + perlita (sem pinus); segunda brita + pinus + carvão (sem perlita). Visual combina ambas, sem equivalência integral. Justificativa reconhece caráter provisório e diferença para placa principal. Validar peso e aquecimento dos 45% de brita, granulometria, secagem e contato com raízes. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 6b4148a46ce0d17f9d4616e88550991bf7c4a6dc. Próxima ficha Isabelia pulchella.
+
+
+## Passagem 137 — Isabelia pulchella
+
+MICROEPÍFITA de rizoma rastejante, raízes finas, umidade regular e boa ventilação. SUPORTES: placa/tronco 5 estrelas, cachepô madeira e barro 4, árvore viva 3. RECEITA VISUAL alternativa PARA VASO: 40% pinus pequeno + 25% arroz carbonizado + 20% carvão pequeno + 15% esfagno solto = 100% em volume; resumo, receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa pinus + carvão + perlita grossa, sem arroz/esfagno; segunda arroz + pinus + esfagno, sem carvão. Nenhuma coincide. CONTRADIÇÃO INTERNA: alerta proíbe perlita grossa, porém primeira mistura qualitativa a recomenda. Validar granulometria, rizoma superficial, secagem e noites quentes. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 4793255e7a2374fb6f214b5c9397007c91ed3e9b. Próxima ficha Prosthechea vespa.
