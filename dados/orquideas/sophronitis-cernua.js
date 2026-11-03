@@ -47,7 +47,7 @@ export const sophronitisCernua = {
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Alternativa prática quando se deseja muita aeração. Como seca rapidamente, ajuste a rega para evitar desidratação prolongada das raízes finas." }
         ]
     },
-    substrato: ["🥇 Casca de pinus grossa + carvão vegetal + brita pequena + casca de macadâmia (mistura-base provisória do substrato visual).", "🥈 Casca de pinus grossa + carvão vegetal + brita fina.", "🥉 Casca de macadâmia grossa + carvão vegetal + perlita grossa."],
+    substrato: ["Casca de pinus grossa + carvão vegetal + brita fina","Casca de macadâmia grossa + carvão vegetal + perlita grossa"],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em recipiente",
