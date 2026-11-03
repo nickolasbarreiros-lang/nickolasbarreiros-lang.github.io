@@ -35,7 +35,7 @@ export const cattleyaLueddemannianaTipo = {
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose semanal ou quinzenalmente enquanto brotos e raízes estiverem ativos. Após a maturação, reduza a frequência e evite excesso de nitrogênio; não há necessidade de doses elevadas de fósforo para induzir floração.\n🧪 Liberação lenta: Osmocote 14-14-14 ou equivalente em dose moderada para vasos e cachepôs, reduzindo a adubação líquida se for utilizado.",
     rega: "Durante o crescimento ativo, regue abundantemente e deixe o sistema radicular secar de forma significativa antes da próxima irrigação. Após a maturação do pseudobulbo, aumente gradualmente o intervalo entre as regas, mantendo a planta mais seca sem provocar desidratação excessiva. Em Litoral de clima quente, a frequência deve acompanhar o suporte, a temperatura e a velocidade real de secagem.",
     suporte: "🥇 Cachepô de madeira, excelente para secagem rápida e raízes arejadas.\n🥈 Vaso de barro, que ajuda a dissipar umidade e calor pelas paredes.\n🥉 Vaso plástico muito perfurado, sempre com substrato grosseiro e excelente drenagem.",
-    substrato: ["🥇 Para cachepô de madeira ventilado: casca de macadâmia + casca de pinus + perlita grossa + carvão vegetal (mistura visual provisória, não homologada).","🥈 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio.","🥉 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","Alternativa adicional: casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso."],
+    substrato: ["🥇 Para cachepô de madeira ventilado: 5 partes de casca de pinus média/grossa + 1 parte de carvão vegetal (83,3%/16,7%; referência institucional genérica para Cattleyas, NÃO homologada especificamente para C. lueddemanniana).", "🥈 Casca de pinus média/grossa + carvão vegetal + esfagno de fibra longa solto (alternativa qualitativa alinhada a materiais citados para a forma tipo, sem proporções publicadas).", "🥉 Casca de pinus média/grossa + carvão vegetal + brita fina (alternativa qualitativa, sem percentuais específicos publicados)."],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Cachepô de madeira",
@@ -74,9 +74,9 @@ export const cattleyaLueddemannianaTipo = {
     substratoVisual: {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
-    "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "Em cachepô bem ventilado, partículas grossas e perlita favorecem a secagem após regas abundantes.",
-    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de macadâmia + 25% casca de pinus + 25% perlita grossa + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
+    "resumo": "Casca de pinus predominante e carvão em cachepô ventilado, com secagem rápida entre regas.",
+    "justificativa": "AOS recomenda especificamente para C. lueddemanniana cachepô de madeira ou vaso de barro e meio de secagem rápida. Orquidários brasileiros citam pinus, carvão e outros materiais, sem proporções homologadas. Missouri Botanical Garden documenta genericamente para Cattleyas mistura de 5 partes de casca para 1 de carvão, equivalente a 83,3%/16,7%. É referência quantitativa de grupo, não ensaio desta espécie; substitui percentuais anteriores de macadâmia e perlita sem respaldo específico.",
+    "receitaTexto": "83,3% casca de pinus média/grossa + 16,7% carvão vegetal (proporção 5:1 documentada para Cattleyas em geral; não homologada para C. lueddemanniana).",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
@@ -84,37 +84,11 @@ export const cattleyaLueddemannianaTipo = {
         "Drenagem rápida"
     ],
     "itens": [
-        {
-            "asset": "macadamia",
-            "nome": "Casca de macadâmia",
-            "proporcao": "35%",
-            "nota": "estrutura",
-            "finalidade": "Partículas resistentes criam espaços de ar entre as raízes."
-        },
-        {
-            "asset": "casca-pinus",
-            "nome": "Casca de pinus",
-            "proporcao": "25%",
-            "nota": "umidade moderada",
-            "finalidade": "Conserva alguma umidade sem fechar a mistura quando usada em granulometria adequada."
-        },
-        {
-            "asset": "perlita",
-            "nome": "Perlita grossa",
-            "proporcao": "25%",
-            "nota": "aeração",
-            "finalidade": "Amplia a porosidade e reduz a compactação do recipiente."
-        },
-        {
-            "asset": "carvao-vegetal",
-            "nome": "Carvão vegetal",
-            "proporcao": "15%",
-            "nota": "drenagem",
-            "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
-        }
+        { "asset": "casca-pinus", "nome": "Casca de pinus média/grossa", "proporcao": "83,3%", "nota": "estrutura e drenagem", "finalidade": "Base porosa com espaços para ar e secagem entre regas." },
+        { "asset": "carvao-vegetal", "nome": "Carvão vegetal", "proporcao": "16,7%", "nota": "aeração complementar", "finalidade": "Complementa a casca na proporção institucional de 5:1." }
     ],
     "alerta": "Mistura ilustrada como proposta técnica; não há ensaio específico apresentado que demonstre superioridade destas proporções para plantas adultas. Observar secagem e manter drenagem.",
-    "notaEvidencia": "MACS 1.0: AOS recomenda especificamente para Cattleya lueddemanniana cesto de madeira ou vaso de barro e meio de secagem rápida, com replante no início das raízes novas. Três orquidários brasileiros distintos consultados: Oriental recomenda cachepô de madeira com pinus ou placa para forma concolor; Santa Clara descreve para forma tipo pinus, carvão, musgo e pedrisco; Mogi Mirim recomenda pinus e carvão para forma alba. Convergência para aeração, mas misturas diferentes. Pesquisa brasileira sobre híbrido com C. lueddemanniana como progenitora não testa esta receita em plantas adultas puras. Proporções 35% macadâmia + 25% pinus + 25% perlita + 15% carvão NÃO HOMOLOGADAS; 3 produtores distintos identificados, nenhum com esta fórmula quantitativa, abaixo da meta de 25. Preservados índices, estrelas, receita e layout; assets não inspecionados."
+    "notaEvidencia": "MACS 1.1: AOS recomenda especificamente para Cattleya lueddemanniana cachepô de madeira ou vaso de barro e meio de secagem rápida: https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-lueddemanniana-rchb-f . Orquidários brasileiros Oriental, Santa Clara e Mogi Mirim citam pinus, carvão, musgo e pedrisco, sem receita quantitativa para a espécie adulta tipo. Missouri Botanical Garden documenta genericamente para Cattleyas 5 partes de casca para 1 de carvão: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids . Proporção 83,3/16,7 documentada em nível de grupo, NÃO HOMOLOGADA experimentalmente para esta espécie; alternativas qualitativas sem percentuais publicados. Três produtores distintos consultados, abaixo da meta 25; estrelas não homologadas por ensaio."
 },
     errosComuns: "Cortar espata seca sem verificar se há botões; deixar água acumulada dentro de espata fechada; manter substrato constantemente molhado; cultivar com pouca luz; usar vaso excessivamente grande; enterrar o rizoma; confundir repouso com seca absoluta; replantar fora da emissão de novas raízes; adubar em excesso.",
     dica: "Nunca descarte uma espata apenas porque ficou amarela, marrom ou aparentemente seca. Ela pode proteger botões que ainda estão se desenvolvendo. Evite água parada dentro da bainha, especialmente em noites quentes. Depois da floração, observe a base do novo crescimento: quando começarem a despontar raízes novas, chegou a melhor janela para replantar.",
