@@ -11,7 +11,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 5. masdevallia-infracta.js — passagem concluída
 6. oncidium-summer-wind.js — passagem concluída
 7. pholidota-chinensis.js — passagem concluída
-8. pinalia-elata.js — pendente
+8. pinalia-elata.js — passagem concluída
 9. stelis-cf-aprica.js — pendente
 
 ## Passagem 141 — Dinema polybulbon
@@ -47,3 +47,8 @@ HÍBRIDO pseudobulboso de porte grande, hastes longas, demanda ventilação, dre
 ## Passagem 147 — Pholidota chinensis
 
 EPÍFITA/LITÓFITA pseudobulbosa, raízes finas a médias, umidade regular e sensibilidade a noites quentes; nome aceito Coelogyne chinensis conforme ficha. SUPORTES: plástico e barro 5 estrelas, cachepô madeira 4, placa/tronco 3. RECEITA VISUAL PARA VASO: 30% macadâmia + 25% pinus + 20% arroz carbonizado + 15% carvão + 10% esfagno solto = 100%; receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: nenhuma das quatro misturas qualitativas coincide integralmente com a visual (primeira sem carvão; segunda sem macadâmia/arroz; terceira arroz + perlita + turfa; quarta macadâmia + coco + carvão). Validar 10% esfagno, granulometria, temperatura/umidade no barro versus plástico e procedência altitudinal. Fontes botânicas não homologam percentuais nem até 25 produtores brasileiros específicos; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit c9f1305ee4604b4cefd1d9787482c62337cba0e1. Próxima ficha Pinalia elata.
+
+
+## Passagem 148 — Pinalia cf. acervata (arquivo histórico pinalia-elata.js)
+
+IDENTIFICAÇÃO PROVISÓRIA: confirmar labelo antes de tratar a identificação específica como definitiva. Epífita pseudobulbosa de raízes finas e crescimento agrupado. SUPORTES: vaso plástico vasado e placa/tronco 5 estrelas, cachepô madeira e barro 4. RECEITA VISUAL PARA VASO: 50% pinus + 30% carvão + 20% esfagno solto = 100%; receitaTexto, itens e texto do método principal coerentes. CONVERGÊNCIA QUALITATIVA: primeira alternativa contém os mesmos três ingredientes, mas NÃO comprova percentuais 50/30/20. Outras três qualitativas divergem dos ingredientes visuais. Alerta reconhece receita experimental e possível excesso de 20% esfagno em vaso profundo. Validar identificação, retenção, secagem em placa versus vaso e sazonalidade. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 1e2ef0c89714624570b330520e20222cb56c6892. Próxima ficha Stelis cf. aprica.
