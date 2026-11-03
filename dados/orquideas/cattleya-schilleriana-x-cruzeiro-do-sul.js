@@ -65,7 +65,7 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
             { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "drenagem", finalidade: "Reduz compactação." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "15%", nota: "aeração", finalidade: "Ajuda a manter a mistura aberta." }
         ],
-        alerta: "Não enterre o rizoma. Replante somente no início da emissão de novas raízes."
+        alerta: "MACS 1.0: Cattleya Memoria Rita Franke corresponde ao cruzamento Cruzeiro do Sul × C. schilleriana, documentado pelo Orquidário Wolf. O Orquidário Santa Clara recomenda para C. schilleriana pinus e carvão, com pedrisco no fundo, mas não para este híbrido; estudos brasileiros em outras Cattleyas mostram respostas distintas conforme espécie e substrato. A receita 40% pinus + 25% macadâmia + 20% carvão + 15% perlita é hipótese horticultural NÃO homologada para este cruzamento; não há evidência quantitativa específica dos 25% de macadâmia e 15% de perlita. Não enterre o rizoma e replante no início da emissão de raízes novas."
     },
     revisaoCientificaIAR: {
         "nome": "Cattleya Memoria Rita Franke",
