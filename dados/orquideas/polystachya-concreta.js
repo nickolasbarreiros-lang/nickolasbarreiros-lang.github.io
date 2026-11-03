@@ -90,7 +90,7 @@ export const polystachyaConcreta = {
             { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Mantém circulação de ar entre as partículas." }
         ],
         alerta: "Evitar sol direto forte, sombra profunda, substrato fino e saturado, repouso seco rígido e desidratação prolongada de plantas montadas durante o crescimento.",
-        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+        notaEvidencia: "MACS 1.0 — primeira passagem documental: Polystachya concreta é epífita frequentemente cespitosa, de pseudobulbos próximos; vaso pequeno bem perfurado é hipótese horticultural coerente, não resultado de comparação controlada. Receita visual 45% pinus médio + 30% carvão vegetal + 25% perlita grossa = 100%. DIVERGÊNCIA: primeira mistura qualitativa da ficha lista pinus + chips de coco + perlita, enquanto a justificativa visual afirma quantificar os mesmos três componentes; carvão substitui chips de coco. A preferência por vaso plástico 5 estrelas, cachepô/placa 4 e barro 3 não está homologada. Referências florísticas e taxonômicas citadas na revisão existente não demonstram estes percentuais. Nenhum conjunto de até 25 recomendações específicas de produtores brasileiros foi verificado nesta passagem. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
 
     errosComuns: [
