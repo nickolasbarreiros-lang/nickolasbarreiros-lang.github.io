@@ -35,7 +35,7 @@ export const leptotesUnicolor = {
     adubacao: "🌿 Orgânica: bokashi em quantidade mínima, sempre em porta-adubo e sem contato com o rizoma.\n💧 Foliar/Mineral: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante brotação e enraizamento, alternando com regas apenas de água.\n🌱 Após a maturação: reduza a frequência, sem necessidade de suspensão absoluta.\n🧪 Liberação lenta: poucos grânulos somente em cesto ou vaso pequeno, afastados das raízes novas.\n🚿 Faça lavagens periódicas com água limpa para evitar sais em raízes finas.",
     rega: "Molhe abundantemente e deixe as raízes secarem antes da próxima irrigação. Em placas de madeira, pode precisar de rega diária no verão; em vasos ou cestos pequenos, regue quando o material estiver quase seco. A espécie tolera melhor uma breve secagem do que permanecer continuamente úmida. No inverno, aumente o intervalo sem permitir enrugamento persistente das folhas.",
     suporte: "🥇 Placa de cortiça, peroba ou galho rugoso.\n🥈 Pequena cesta de madeira ou plástico vazado.\n🥉 Vaso de barro muito pequeno, apenas onde a secagem seja rápida.\nUse amarração leve, sem apertar o rizoma.",
-    substrato: ["🥇 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio.","🥈 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso."],
+    substrato: ["🥇 Para cestinho ou vaso mínimo: casca de macadâmia média + casca de pinus média + perlita grossa + carvão vegetal (mistura visual provisória, não homologada).","🥈 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio.","🥉 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","Alternativa adicional: casca de macadâmia + argila expandida + carvão vegetal + pinus grosso."],
     formasCultivo: {
         perfilVisual: "miniatura-epifita-pendente-folhas-cilindricas",
         destaque: "Placa / tronco",
@@ -51,7 +51,7 @@ export const leptotesUnicolor = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para cestinho ou vaso mínimo",
         resumo: "Mistura de partículas médias, aberta e de secagem rápida, para evitar retenção excessiva nas raízes.",
-        justificativa: "A placa é o suporte principal já registrado. Para recipiente, os quatro materiais seguem a primeira receita qualitativa original; percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A placa permanece o suporte principal. Para cestinho ou vaso mínimo, a receita visual combina casca de macadâmia média, pinus médio, perlita grossa e carvão vegetal; a mistura foi acrescentada à primeira alternativa textual, preservando as três receitas anteriores, que não correspondiam integralmente a ela. Percentuais estimados e ainda não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Miniatura pendente", "Epífita", "Folhas carnosas", "Raízes expostas", "Secagem rápida"],
         comportamento: [
