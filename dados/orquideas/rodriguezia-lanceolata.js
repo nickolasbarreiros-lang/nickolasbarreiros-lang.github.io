@@ -54,9 +54,9 @@ export const rodrigueziaLanceolata = {
     },
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Mistura aberta para cachepô pequeno",
-        resumo: "Substrato de partículas médias que mantém aeração alta, com umidade moderada entre regas e secagem progressiva.",
-        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        contexto: "Mistura alternativa para cachepô ou vaso; montagem principal em placa/tronco sem enchimento",
+        resumo: "Na placa ou tronco, manter raízes expostas e bem ventiladas, sem preencher a montagem com a mistura percentual. Em cachepô ou vaso, utilizar substrato aberto de partículas médias e umidade moderada.",
+        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original e destina-se apenas a recipientes; não deve ser aplicada como camada espessa sobre a placa ou tronco. Percentuais estimados e ainda não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
         perfil: ["Epífita compacta", "Raízes finas", "Hastes pendentes", "Umidade moderada", "Ventilação alta"],
         comportamento: [
@@ -72,7 +72,7 @@ export const rodrigueziaLanceolata = {
             { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para estrutura aberta e secagem." }
         ],
         alerta: "Evitar sombra profunda, recipientes grandes, substrato compactado e raízes encharcadas. Regar preferencialmente no início da manhã; replantar quando surgirem novas raízes.",
-        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+        notaEvidencia: "Receita percentual apenas para recipientes, não para a montagem principal em placa/tronco. Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
     },
     "errosComuns": "Sombra excessiva; vaso grande; substrato compactado; raízes constantemente encharcadas; bokashi em contato direto com raízes; molhar flores à noite; cortar hastes antes de secarem; pouca ventilação; replantar sem novas raízes.",
     "dica": "Em regiões quentes, use meia-sombra clara, cachepô pequeno ou montagem em madeira e regas no início da manhã. O objetivo é oferecer água com frequência sem sacrificar o oxigênio das raízes finas. Se o suporte ainda estiver molhado à noite, há retenção excessiva.",
