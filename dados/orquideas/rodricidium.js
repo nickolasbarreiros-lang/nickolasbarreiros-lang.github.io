@@ -39,7 +39,7 @@ export const rodricidium = {
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade na borda do vaso.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 10–15 dias durante crescimento.\n🌸 Pré-floração: pode-se alternar ocasionalmente com fórmula mais rica em fósforo/potássio, sem exageros.\n🧪 Liberação lenta: Osmocote em dose baixa.\n🚿 Lavagem: água pura periodicamente para reduzir sais.",
     "rega": "Regue quando a superfície secar e permita que a mistura perca a maior parte do excesso em 1–2 dias. No frio, aumente o intervalo conforme a evaporação, sem permitir enrugamento severo dos pseudobulbos.",
     "suporte": "🥇 Cachepô pequeno e bem vazado — máxima ventilação.\n🥈 Placa de madeira dura — excelente em ambiente úmido.\n🥉 Vaso pequeno de barro ou plástico furado — opção prática.\nUse recipiente proporcional ao sistema radicular.",
-    substrato: ["🥇 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
+    substrato: ["🥇 Para Cachepô de Madeira pequeno e vazado: 35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa compatível com o recipiente + 10% carvão vegetal médio (proposta NÃO homologada).", "🥈 Casca de pinus média + perlita grossa + argila expandida pequena + pequena fração de esfagno de fibra longa solto (alternativa qualitativa).", "🥉 Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de fibra de coco grossa preparada (alternativa qualitativa)."],
     formasCultivo: {
         perfilVisual: "rodricidium-hibrido-simpodial-epifita",
         destaque: "Cachepô de Madeira",
@@ -54,9 +54,9 @@ export const rodricidium = {
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para cachepô pequeno e ventilado",
-        resumo: "Partículas médias e grossas com boa oxigenação e retenção moderada. A secagem prevista na ficha é de aproximadamente 1–2 dias, dependendo do ambiente.",
-        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Como o grex e os parentais exatos não foram identificados, o manejo é uma referência geral para o notogênero, não uma prescrição específica para todos os híbridos. Percentuais ainda não homologados pela MACS 1.0.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        resumo: "Partículas médias e grossas com boa oxigenação e retenção moderada. Observar a secagem real conforme o grex, o recipiente e o ambiente, sem fixar prazo universal.",
+        justificativa: "Rodricidium é notogênero de híbridos Oncidium × Rodriguezia, sem grex ou parentais específicos identificados. A receita visual para cachepô de madeira vazado combina pinus médio, chips de coco médios preparados, perlita grossa e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não originam esses percentuais. Ajustar a retenção e as regas à resposta das raízes; secagem em 1–2 dias não é requisito universal. MACS 1.1: inferência horticultural geral, não homologada quantitativamente",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa compatível com o recipiente + 10% carvão vegetal médio (proposta não homologada).",
         perfil: ["Híbrido intergenérico", "Pseudobulbos comprimidos", "Raízes epífitas", "Secagem rápida", "Ventilação alta"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -66,12 +66,12 @@ export const rodricidium = {
         ],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta as raízes e mantém porosidade." },
-            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a manter hidratação entre regas." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Facilita secagem e oxigenação." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "drenagem", finalidade: "Contribui para a estrutura aberta." }
+            { asset: "chips-coco", nome: "Chips de coco médios preparados", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a manter hidratação entre regas." },
+            { asset: "perlita", nome: "Perlita grossa compatível com o recipiente", proporcao: "25%", nota: "aeração", finalidade: "Facilita secagem e oxigenação." },
+            { asset: "carvao", nome: "Carvão vegetal médio", proporcao: "10%", nota: "drenagem", finalidade: "Contribui para a estrutura aberta." }
         ],
         alerta: "Evitar sombra profunda, vasos grandes, encharcamento, seca prolongada e enterro do rizoma. Replantar preferencialmente na emissão de novas raízes.",
-        notaEvidencia: "MACS 1.0 — primeira passagem documental: Rodricidium (Oncidium × Rodriguezia), notogênero de híbridos, grex e parentais específicos não identificados; epífita simpodial variável, raízes ventiladas e secagem pretendida em 1–2 dias. Suportes cachepô madeira 5 estrelas, placa/tronco, barro e plástico vasado 4; notas gerais não homologadas. Receita visual 35% pinus médio + 30% chips coco + 25% perlita grossa + 10% carvão = 100%; receitaTexto e itens concordam. DIVERGÊNCIA GRAVE: justificativa afirma quantificar os quatro componentes da primeira qualitativa, mas primeira contém pinus + perlita + argila expandida miúda + pequena fração esfagno, sem chips coco/carvão. Segunda contém macadâmia + pinus + perlita + pequena fração fibra coco, sem chips coco/carvão. Visual omite argila/esfagno e substitui fibra por chips; nenhuma coincide. Sem identificação do grex, percentuais e secagem de 1–2 dias não são generalizáveis; validar retenção, granulometria, clima e parentesco. Meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — Rodricidium é notogênero híbrido Oncidium × Rodriguezia, sem grex/parentais específicos identificados. Cachepô de Madeira pequeno e vazado é suporte sugerido, com estrelas heurísticas. Receita visual e textual coincidem: 35% pinus médio + 30% chips coco médios preparados + 25% perlita grossa compatível com recipiente + 10% carvão vegetal médio = 100%. Exatamente duas alternativas qualitativas distintas: pinus/perlita/argila expandida/esfagno de fibra longa solto e macadâmia/pinus/perlita/fibra de coco grossa preparada. Elas não fundamentam os percentuais visuais; justificativa anterior foi corrigida. Secagem em 1–2 dias é contextual, não universal. Sem identificação do grex, ensaio quantitativo ou consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
     },
     "errosComuns": "Sombra excessiva; vaso grande; substrato compactado; encharcamento; seca prolongada; cortar haste verde; replantar fora da brotação; pouca ventilação; adubo forte; enterrar rizoma.",
     "dica": "O melhor momento de replante é quando a nova frente começa a emitir raízes. Faça a troca nesse exato estágio e use recipiente pequeno, muito aerado e substrato que seque em 1–2 dias. Isso reduz drasticamente o tempo de recuperação.",
