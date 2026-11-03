@@ -13,7 +13,7 @@ export const speckliniaGrobyi = {
         "Crescimento cespitoso",
         "Sem pseudobulbos de reserva",
         "Raízes extremamente finas",
-        "Flores pequenas próximas à base",
+        "Flores pequenas em hastes racemosas delicadas",
         "Floração possível durante todo o ano",
         "Umidade elevada com aeração contínua",
         "Cultivo montado muito favorecido"
@@ -24,12 +24,12 @@ export const speckliniaGrobyi = {
         "imagens/Specklinia grobyi/Specklinia grobyi3.jpg",
         "imagens/Specklinia grobyi/Specklinia grobyi4.jpg"
     ],
-    "descricao": "Uma micro-orquídea para observar de perto! Specklinia grobyi forma pequenas touceiras de folhas firmes e produz hastes delicadas com flores minúsculas, discretas e cheias de detalhes. Sua distribuição é enorme, do sul do México até boa parte da América do Sul, e isso explica a grande variação de porte e tolerância climática encontrada entre populações. No cultivo, o segredo não é mantê-la encharcada, mas conservar as raízes finas hidratadas e sempre bem oxigenadas.",
+    "descricao": "Uma micro-orquídea para observar de perto! Specklinia grobyi forma pequenas touceiras de folhas firmes e produz hastes racemosas delicadas, frequentemente mais longas que as folhas, com pequenas flores sucessivas de tons variáveis. Ocorre desde o sul do México até a América do Sul tropical, em florestas de condições variadas. A amplitude geográfica acompanha uma notável diversidade de formas e cores, mas não garante que qualquer exemplar tolere todos os extremos climáticos. No cultivo, o segredo não é mantê-la encharcada, mas conservar as raízes finas hidratadas e sempre bem oxigenadas.",
     "origem": "América Tropical",
     "regiao": "México · América Central · América do Sul tropical",
     "habitat": "Epífita · florestas diversas · ~60–3.200 m.",
     "clima": "Ampla faixa térmica · prefere umidade e ventilação.",
-    "climaFloracao": "A enorme amplitude altitudinal mostra que não existe um único regime térmico para toda a espécie. Em cultivo, plantas de procedência desconhecida respondem melhor a condições intermediárias, sem extremos, com raízes arejadas e umidade frequente. Pode florescer em diferentes épocas do ano conforme o crescimento.",
+    "climaFloracao": "A ampla distribuição e os diferentes habitats registrados indicam diversidade ecológica; não se deve assumir que todos os exemplares tolerem a mesma faixa térmica. Em cultivo, plantas de procedência desconhecida respondem melhor a condições intermediárias, sem extremos, com raízes arejadas e umidade frequente. Pode florescer em diferentes épocas do ano conforme o crescimento.",
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Não permitido",
