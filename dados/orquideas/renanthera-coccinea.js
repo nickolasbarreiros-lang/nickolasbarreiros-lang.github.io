@@ -39,7 +39,7 @@ export const renantheraCoccinea = {
     "adubacao": "🌿 Orgânica: bokashi em sachê, distante do caule.\n💧 Mineral/Foliar: NPK equilibrado em baixa concentração semanalmente durante crescimento intenso.\n🌱 Raízes aéreas: hidrate antes de adubar.\n🧪 Liberação lenta: moderada em cestos ou vasos muito drenantes.\n🚿 Lavagem: regas abundantes com água pura reduzem sais acumulados nas raízes.",
     "rega": "Em dias quentes, regue abundantemente pela manhã. Plantas em cesto, com muitas raízes expostas, podem precisar de água diária no verão. Reduza apenas quando a evaporação cair. Evite água parada no ápice durante a noite e nunca mantenha as raízes mergulhadas ou em substrato compacto.",
     "suporte": "🥇 Cesto grande e muito vazado com tutor alto — melhor combinação para raízes e porte.\n🥈 Vaso pesado de drenagem ampla + tutor robusto.\n🥉 Estrutura vertical de madeira com raízes praticamente livres.\nPlaneje desde cedo o tamanho adulto e o espaço das hastes florais.",
-    substrato: ["🥇 Para pequena fixação em cesto aberto: casca de macadâmia grossa + carvão vegetal grosso + perlita grossa (mistura-base provisória do substrato visual; manter raízes expostas).","🥈 Pinus muito grosso + argila expandida + carvão vegetal.","🥉 Chips de coco muito grossos + casca de macadâmia grossa + carvão vegetal."],
+    substrato: ["🥈 Alternativa 1 — 70% Casca de pinus + 30% Carvão vegetal. Usar partículas grossas em pequena quantidade para fixação em cesto de secagem lenta; percentuais MACS 1.1 D, provisórios e não homologados.","🥉 Alternativa 2 — 45% Casca de pinus + 30% Carvão vegetal + 25% Chips de coco. Usar partículas grossas em cesto de secagem rápida, com maior reserva hídrica potencial; percentuais MACS 1.1 D, provisórios e não homologados. Preparar os chips conforme procedência e teor de sais."],
     formasCultivo: {
         perfilVisual: "renanthera-monopodial-trepadora-raizes-aereas",
         destaque: "Cachepô de Madeira",
@@ -55,8 +55,8 @@ export const renantheraCoccinea = {
         titulo: "Substrato ideal",
         contexto: "Mistura grossa e descontínua para cesto muito aberto",
         resumo: "A espécie prefere raízes amplamente expostas ao ar. Pouco substrato grosso serve à estabilidade, com secagem rápida após regas abundantes.",
-        justificativa: "A receita visual propõe macadâmia grossa, carvão grosso e perlita grossa, agora também descritos como primeira alternativa textual. As alternativas anteriores usam outros materiais. As porcentagens referem-se somente ao pequeno volume de material solto para fixação em cesto aberto, sem preencher espaços entre raízes. Percentuais estimados e ainda não homologados pela MACS 1.0.",
-        receitaTexto: "45% casca de macadâmia grossa + 35% carvão vegetal grosso + 20% perlita grossa.",
+        justificativa: "MACS 1.1: mistura provisória de partículas grossas de Casca de pinus, Carvão vegetal e Chips de coco, em pequeno volume para ancoragem no cachepô aberto. O hábito de raízes aéreas é coerente com orientações gerais de Vanda/Renanthera, mas não há receita percentual específica validada para Renanthera coccinea. Os nomes dos materiais seguem o vocabulário canônico; granulometria e preparo são especificações separadas.",
+        receitaTexto: "60% Casca de pinus + 30% Carvão vegetal + 10% Chips de coco.",
         perfil: ["Monopodial trepadora", "Raízes aéreas", "Porte grande", "Alta luminosidade", "Secagem rápida"],
         comportamento: [
             { nome: "Retenção", valor: 1, icone: "💧" },
@@ -65,12 +65,12 @@ export const renantheraCoccinea = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "casca-macadamia", nome: "Casca de macadâmia grossa", proporcao: "45%", nota: "fixação", finalidade: "Estabiliza a planta sem preencher a zona de raízes." },
-            { asset: "carvao", nome: "Carvão vegetal grosso", proporcao: "35%", nota: "estrutura", finalidade: "Mantém espaços amplos e secagem rápida." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Complementa a porosidade do material de fixação." }
+            { asset: "casca-pinus", nome: "Casca de pinus", proporcao: "60%", nota: "estrutura grossa", finalidade: "Utilizar partículas grossas e descontínuas apenas para ancoragem, sem cobrir raízes aéreas." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "30%", nota: "estrutura grossa", finalidade: "Utilizar partículas grossas para manter espaços amplos e secagem rápida." },
+            { asset: "chips-coco", nome: "Chips de coco", proporcao: "10%", nota: "reserva hídrica limitada", finalidade: "Usar chips grossos; verificar sais e lavar/condicionar conforme a procedência, sem compactar." }
         ],
         alerta: "Evitar sombra excessiva, vasos pequenos, mistura fina, cortes de raízes aéreas e falta de tutor. Aumentar a exposição ao sol gradualmente; manter água abundante com secagem rápida.",
-        notaEvidencia: "MACS 1.0: a espécie é epífita e há respaldo qualitativo para cultivo em cesto aberto, suporte de madeira e raízes arejadas. Fontes horticulturais citam cascas e carvão, com perlita como componente possível, mas não validam 45% macadâmia + 35% carvão + 20% perlita para esta espécie. Percentuais são estimativas não homologadas e aplicam-se somente ao pequeno volume de material de fixação, sem preencher o cesto ou cobrir raízes aéreas. Levantamento de produtores brasileiros específicos ainda insuficiente."
+        notaEvidencia: "MACS 1.1: composição C por convergência de orientações gerais de Vanda e raízes aéreas; percentuais D inferenciais e NÃO HOMOLOGADOS para Renanthera coccinea. Não há receita específica percentual auditável nesta rodada. Apenas pequeno volume para fixação no cesto, sem preencher raízes. Estrelas D preservadas. Nomes canônicos de materiais; preparo separado. Matriz: auditorias/MACS-1.1-MATRIZ-033-RENANTHERA-COCCINEA.md."
     },
     "errosComuns": "Sombra excessiva; vaso pequeno; substrato fino e retentivo; cortar raízes aéreas; falta de tutor; pouca ventilação; adubo concentrado em raízes secas; replantios frequentes; espaço vertical insuficiente; exposição repentina a sol forte sem aclimatação.",
     "dica": "Se não floresce, olhe primeiro para a luz. Esta é uma espécie naturalmente exposta, inclusive em rochas abertas. Aumente a luminosidade gradualmente, mantenha raízes livres e forneça água abundante com secagem rápida — uma combinação muito mais eficiente do que tentar induzir floração com seca.",
