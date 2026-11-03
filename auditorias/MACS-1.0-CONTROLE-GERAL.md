@@ -588,3 +588,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Commit ficha: 233682e2110cf7d878996f618d8fc4c22fdccc58. Fotos, assets, IDC/IAR e layout preservados. Receita e estrelas NÃO HOMOLOGADAS; fontes não comprovam percentuais ou ranking de recipientes.
 - **Verificação recomendada:** executar teste de sintaxe/build e confirmar ausência de outras chaves `substrato` duplicadas nos arquivos de espécies; nesta ficha, a duplicidade foi eliminada por consolidação.
 - Progresso: 77/149 checagens; 75 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 078 — Cyrtopodium saintlegerianum.
+
+## Registro 078 — Cyrtopodium saintlegerianum (2026-11-03)
+- Corrigida divergência: primeira receita textual antiga continha somente pinus grosso + carvão + brita fina, enquanto a receita visual usa 35% macadâmia grossa + 30% pinus grosso + 20% perlita grossa + 15% carvão. Fórmula visual exata incluída como primeira alternativa provisória; duas receitas antigas preservadas.
+- Justificativa corrigida: montagem em placa/tronco dispensa mistura volumétrica; fórmula para vaso/cachepô não tem validação comparativa. Brita fina da alternativa antiga foi mantida, sem confundir com a receita visual. Commit da ficha: a13f26a535e730cb9e7340e9f821aeaa7f7505ce.
+- Hábito epífito sazonal e repouso mais seco mantidos; placa/tronco ou cachepô como suporte de longo prazo é inferência ecológica, não comparação experimental. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores não atingida. Fotos/assets/IDC/IAR/layout preservados.
+- Progresso: 78/149 checagens; 76 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 079 — Cattleya warneri.
