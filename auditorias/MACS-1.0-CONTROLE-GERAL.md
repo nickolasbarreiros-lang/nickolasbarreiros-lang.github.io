@@ -1180,3 +1180,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - POWO: espécie aceita e epífita do Brasil; estudo florístico Serra do Cipó: epífita, raramente rupícola. Não assumir que ocorrência sobre rocha exija maioria mineral.
 - R0 35% brita/30% macadâmia/20% carvão/15% pinus; R1 partes iguais brita/carvão/pinus, **fonte publicada** (percentuais por volume não informados); R2 hipótese 25/0/25/50. **Macadâmia 30% sem evidência específica**. Manter sem esfagno. Composição R0 D, percentuais R0 D, estrelas D. Montagem em tronco documentada e ausente dos quatro métodos principais.
 - **Progresso: 14/149 matrizes documentadas, 0/149 homologações quantitativas de desempenho.** Nenhuma alteração JS/assets. Próxima espécie deve ser confirmada na ordem do índice.
+
+
+### MACS 1.1 — Matriz 015: Sophronitis wittigiana (2026-11-03)
+- Documento `auditorias/MACS-1.1-MATRIZ-015-SOPHRONITIS-WITTIGIANA.md`, commit `ab15074a3520272a2d46bb7d5f1f725739e51cf2`.
+- **POWO:** nome aceito Cattleya wittigiana; Sophronitis wittigiana sinônimo editorial. IOSPE: epífita serrana de árvores musgosas 700–2000 m, cultivo em cortiça e água frequente. **Orquidário Oriental:** esfagno ou coco/pinus/carvão, placa de madeira e vasos, sem percentuais. Colibri Orquídeas: ventilação/umidade, sem receita. **2 produtores com orientações específicas, 1 com ingredientes, 0 com proporções**.
+- R0 45% pinus/25% carvão/20% brita/10% esfagno; R1 50/25/0/25; R2 50/20/10/20. R1/R2 hipóteses. **Alerta brita 20% sem suporte específico** e não presumir que placa resfrie raízes em litoral quente. Placa/cortiça B qualitativo específico; ingredientes pinus/carvão/esfagno B qualitativo; composição R0 D, percentuais D, estrelas D.
+- **Terceiro lote de cinco concluído: 15/149 matrizes documentadas, 0/149 homologações quantitativas.** Sem alterações JS/assets. Próxima ficha oficial: Sophronitis cernua.
