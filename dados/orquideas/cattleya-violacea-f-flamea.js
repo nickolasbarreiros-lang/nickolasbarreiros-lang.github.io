@@ -64,7 +64,8 @@ export const cattleyaViolaceaFFlamea = {
             { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração", finalidade: "Favorece drenagem e reduz compactação." },
             { asset: "chips-coco", nome: "Chips de coco grossos", proporcao: "20%", nota: "umidade", finalidade: "Prolonga hidratação sem bloquear espaços de ar." }
         ],
-        alerta: "Não manter encharcado e não impor repouso seco severo. Fixe o rizoma acima da mistura."
+        alerta: "Não manter encharcado e não impor repouso seco severo. Fixe o rizoma acima da mistura.",
+        notaEvidencia: "MACS 1.0 — primeira passagem documental: Cattleya violacea f. flamea é padrão de cor horticultural da espécie, não táxon formal distinto; epífita tropical bifoliada, quente/úmida, sem repouso seco severo. Suportes cachepô madeira 5 estrelas, barro e plástico vasado 4, árvore viva 3; não homologados. Receita visual 35% pinus médio + 25% macadâmia média + 20% carvão + 20% chips coco grossos = 100%; receitaTexto e itens concordam. DIVERGÊNCIA DOCUMENTAL: campo substrato qualitativo (string) oferece quatro alternativas: (1) macadâmia + pinus + perlita + carvão, (2) pinus + perlita + carvão + chips coco, (3) macadâmia + argila expandida + carvão + pinus, (4) chips coco + perlita + carvão + pinus. Nenhuma coincide integralmente com visual, que não tem perlita nem argila. Justificativa reconhece percentuais como inferência técnica, sem ensaio para forma flamea. Validar retenção de chips coco, granulometria, salinidade, aeração e secagem com rega frequente; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     revisaoCientificaIAR: {
         "nome": "Cattleya violacea f. flamea",
