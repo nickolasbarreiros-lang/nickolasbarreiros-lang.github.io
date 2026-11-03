@@ -37,7 +37,7 @@ export const dendrobiumMoscatum = {
     "adubacao": "🌱 Primavera: fertilizante com nitrogênio moderado durante o alongamento inicial.\n☀️ Verão: NPK equilibrado em baixa concentração enquanto a haste engrossa.\n🍂 Final do verão: reduzir nitrogênio e manter nutrição mais leve.\n💤 Inverno: pouca ou nenhuma adubação, conforme a atividade.\n🌿 Bokashi/Osmocote: somente no início do crescimento, em dose proporcional ao recipiente.",
     "rega": "Na primavera e no verão, regue abundantemente e permita secagem parcial. Quando a haste cessar o crescimento, endurecer e mudar discretamente de aspecto, reduza moderadamente. No inverno, mantenha hidratação espaçada, sem seca extrema e sem substrato continuamente molhado.",
     "suporte": "🥇 Cesto grande e suspenso, respeitando seu hábito epífito natural.\n🥈 Vaso grande, pesado e bem drenado, excelente para exemplares adultos e para cultivo com maior retenção de matéria orgânica.\n🥉 Tronco, placa robusta ou cachepô vazado, especialmente para plantas jovens.\nEmbora seja epífita na natureza, mostra boa plasticidade em cultivo e pode desenvolver-se muito bem em recipientes amplos, desde que as raízes permaneçam oxigenadas e sem encharcamento.",
-    "substrato": "🥇 Casca de pinus média/grossa + chips de coco + carvão vegetal + perlita grossa + pequena fração de composto orgânico estabilizado.\n🥈 Casca grossa + brita fina + carvão vegetal + pequena fração de matéria orgânica estabilizada.",
+    "substrato": "🥇 Casca de pinus grossa + casca de macadâmia grossa + carvão vegetal + perlita grossa (mistura-base provisória do substrato visual).\n🥈 Casca de pinus média/grossa + chips de coco + carvão vegetal + perlita grossa + pequena fração de composto orgânico estabilizado.\n🥉 Casca grossa + brita fina + carvão vegetal + pequena fração de matéria orgânica estabilizada.",
     "formasCultivo": {
         "perfilVisual": "dendrobium-epifita-grande",
         "destaque": "Cachepô de Madeira",
@@ -53,7 +53,7 @@ export const dendrobiumMoscatum = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cachepô ou vaso grande com drenagem rápida",
         "resumo": "Mistura grossa e muito arejada, com retenção moderada durante o crescimento e secagem mais rápida na fase de menor atividade.",
-        "justificativa": "Os quatro componentes reproduzem a primeira mistura qualitativa já indicada na ficha. Percentuais propostos para visualização, ainda sem homologação MACS 1.0.",
+        "justificativa": "A mistura visual reúne pinus grosso, macadâmia grossa, carvão e perlita, agora descritos também como primeira alternativa textual. As alternativas anteriores empregam materiais diferentes. Percentuais propostos para visualização, ainda sem homologação MACS 1.0.",
         "receitaTexto": "35% casca de pinus grossa + 30% casca de macadâmia grossa + 20% carvão vegetal + 15% perlita grossa.",
         "perfil": ["Epífita de grande porte", "Raízes oxigenadas", "Hastes arqueadas", "Umidade na fase ativa", "Repouso moderado após maturação"],
         "comportamento": [
