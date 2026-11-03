@@ -557,3 +557,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Justificativa esclarece que a receita antiga continha esfagno e não correspondia à visual. Referências brasileiras citadas apoiam sombra, drenagem e umidade, mas não validam percentuais nem ranking de suportes.
 - Commit da ficha: fd5d62f255bc9d4ae06d28c3d8c554d37891dd60. Fotos, assets, índices e layout preservados. Percentuais e estrelas não homologados; meta de 25 produtores não atingida.
 - Progresso: 72/149 checagens; 70 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 073 — Polystachya concreta.
+
+## Registro 073 — Polystachya concreta (2026-11-03)
+- Corrigida a divergência entre a receita visual e a primeira alternativa textual. Receita visual: 45% casca de pinus média + 30% carvão vegetal + 25% perlita grossa = 100%; adicionada como primeira opção provisória, preservadas as duas alternativas anteriores.
+- Justificativa corrigida: a receita textual antiga continha chips de coco, que não aparecem na composição visual. Referências botânicas/florísticas sustentam o hábito epífito cespitoso, mas não validam os percentuais nem o ranking de recipientes. Estrelas e receita continuam NÃO HOMOLOGADAS; meta de 25 produtores específicos não atingida.
+- Commit da ficha: bc0349658b1769097dffaf761efe5d5b52d922c1. Fotos, assets, índices IDC/IAR e layout preservados.
+- Progresso: 73/149 checagens; 71 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 074 — Maxillaria chrysantha.
