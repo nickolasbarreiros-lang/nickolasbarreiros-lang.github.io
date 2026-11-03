@@ -40,7 +40,7 @@ export const oncidiumPumilum = {
     "adubacao": "🌿 Orgânica: bokashi em dose pequena e afastado do centro da touceira.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 10–15 dias durante crescimento.\n🌱 Brotação: mantenha adubação enquanto houver raízes ativas.\n🧪 Liberação lenta: Osmocote em dose mínima somente em vasos/cachepôs.\n🚿 Lavagem: enxágue o suporte periodicamente para evitar sais.",
     "rega": "Regue com boa frequência durante brotação e enraizamento, sempre permitindo secagem rápida. Em placas, borrifos ou regas diárias podem ser necessários no verão se o suporte secar em poucas horas. Após maturação, reduza moderadamente a frequência sem desidratar as folhas.",
     "suporte": "🥇 Placa de madeira, cortiça ou tronquinho — opção ideal para secagem rápida.\n🥈 Cachepô pequeno e muito vazado — acomoda bem touceiras densas.\n🥉 Vaso pequeno de barro muito furado — opção viável em locais mais secos.\nEvite recipientes grandes.",
-    substrato: ["🥇 Brita fina/média + perlita grossa + carvão vegetal + 15–25% de componente orgânico grosso.","🥈 Casca de macadâmia grossa + perlita grossa + cacos de cerâmica ou argila expandida.","🥉 Perlita grossa + argila expandida + carvão vegetal + pequena fração de casca de pinus grossa."],
+    substrato: ["🥇 Para cachepô ou vaso: perlita grossa + brita fina/média + casca de macadâmia triturada + casca de pinus grossa (mistura-base provisória do substrato visual; placa/tronco permanece principal).","🥈 Brita fina/média + perlita grossa + carvão vegetal + 15–25% de componente orgânico grosso.","🥉 Casca de macadâmia grossa + perlita grossa + cacos de cerâmica ou argila expandida.","Alternativa adicional: perlita grossa + argila expandida + carvão vegetal + pequena fração de casca de pinus grossa."],
     formasCultivo: {
         perfilVisual: "trichocentrum-miniatura-epifita-touceira-densa",
         destaque: "Placa / tronco",
@@ -56,7 +56,7 @@ export const oncidiumPumilum = {
         titulo: "Substrato ideal",
         contexto: "Mistura mineral e muito aerada para cultivo em recipiente",
         resumo: "A montagem principal em placa não requer mistura volumosa. Em cachepô ou vaso pequeno, predomínio de componentes minerais com fração orgânica reduzida favorece secagem rápida.",
-        justificativa: "A receita quantifica os componentes da primeira mistura qualitativa já registrada na ficha, com baixa fração de pinus. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual propõe perlita, brita, macadâmia e pinus para recipiente, agora também descritos como primeira alternativa textual. A primeira mistura anterior inclui carvão e não corresponde à composição visual; as demais permanecem alternativas. Montagem em placa/tronco continua principal. Percentuais estimados e ainda não homologados pela MACS 1.0.",
         receitaTexto: "35% perlita grossa + 30% brita fina/média + 25% casca de macadâmia triturada + 10% casca de pinus grossa.",
         perfil: ["Miniatura epífita", "Touceira densa", "Raízes aeradas", "Secagem rápida", "Pouca retenção"],
         comportamento: [
