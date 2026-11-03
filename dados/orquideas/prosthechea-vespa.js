@@ -27,7 +27,7 @@ export const prosthecheaVespa = {
   "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, preferencialmente em sachê na borda do vaso, longe de brotos e raízes novas.\n💧 Mineral/foliar: adubo equilibrado diluído a cada 10–15 dias enquanto os pseudobulbos se desenvolvem; reduza a frequência quando o crescimento parar, sem aumentar artificialmente o fósforo para forçar flores. Siga a dose indicada pelo fabricante.\n🧪 Liberação lenta: pode ser usada em vaso arejado, em dose conservadora e sem contato direto com a planta; evite somar doses completas de adubo líquido e granulado.\n🚿 Lavagem: regue com água limpa periodicamente para remover sais acumulados.",
   "rega": "Durante a formação dos brotos e das raízes novas, regue bem e deixe o substrato drenar. Em vaso de casca e carvão, repita a rega quando a mistura perder boa parte da umidade; em montagem, a secagem é mais rápida e pode exigir regas mais frequentes. Quando os pseudobulbos amadurecem e o crescimento diminui, aumente moderadamente o intervalo entre regas. Essa redução não equivale a repouso seco: evite tanto o encharcamento contínuo quanto o murchamento persistente.",
   "suporte": "Use suporte que comporte pseudobulbos sucessivos e permita replantio apenas quando raízes novas começarem a surgir. O vaso de barro com mistura grossa oferece estabilidade para brotos eretos e secagem previsível; cesto de madeira melhora ventilação, mas demanda acompanhamento hídrico. Placa de madeira é viável com rega mais regular e fixação firme da base. Árvore viva funciona melhor onde a planta receba luz filtrada e chuva sem ficar exposta ao sol forte. Não enterre a base dos pseudobulbos nem divida touceiras pequenas.",
-  "substrato": ["🥇 Casca de pinus média + brita fina + carvão vegetal.", "🥈 Casca de macadâmia média + carvão vegetal + perlita grossa."],
+  "substrato": ["🥇 Vaso de Barro proporcional à touceira: 45% casca de pinus média + 25% carvão vegetal médio + 20% brita fina lavada e sem pó + 10% perlita grossa compatível com o vaso (proposta NÃO homologada).", "🥈 Casca de pinus média + brita fina lavada e sem pó + carvão vegetal médio (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de macadâmia média + carvão vegetal médio + perlita grossa compatível com o vaso (alternativa qualitativa sem percentuais homologados)."],
   "errosComuns": [
     "Replantar fora da fase de emissão de raízes novas.",
     "Enterrar a base dos pseudobulbos na mistura.",
@@ -250,9 +250,9 @@ export const prosthecheaVespa = {
   "substratoVisual": {
     "titulo": "Substrato ideal",
     "contexto": "Mistura para vaso — 100% em volume",
-    "resumo": "45% casca de pinus média + 25% carvão vegetal + 20% brita fina + 10% perlita grossa — proporções em volume, para vaso ventilado.",
-    "justificativa": "A receita totaliza 100% em volume e é uma proposta horticultural para cultivo em vaso, distinta da montagem principal quando esta for em madeira. Acompanhe o surgimento das pontas radiculares: esse é o momento mais seguro para reenvasar e intensificar gradualmente rega e nutrição. Mantenha os pseudobulbos acima do substrato e ofereça claridade filtrada suficiente para amadurecer os novos crescimentos e favorecer a haste floral. Ajuste o tamanho das partículas e a frequência de rega à velocidade de secagem, sem compactar.",
-    "receitaTexto": "45% casca de pinus média + 25% carvão vegetal + 20% brita fina + 10% perlita grossa",
+    "resumo": "45% casca de pinus média + 25% carvão vegetal médio + 20% brita fina lavada e sem pó + 10% perlita grossa compatível com o vaso — mistura proposta em volume.",
+    "justificativa": "Prosthechea vespa é epífita ou rupícola de crescimento simpodial, com pseudobulbos que exigem raízes ventiladas e secagem moderada. Em vaso de barro proporcional à touceira, a mistura visual propõe pinus médio, carvão médio, brita fina lavada e sem pó e pequena fração de perlita grossa compatível com o vaso, totalizando 100% em volume. A perlita está expressamente permitida nesta receita em 10%, corrigindo o antigo alerta contraditório. As duas outras misturas são alternativas qualitativas distintas, sem percentuais homologados. Replantar quando novas raízes surgirem e manter pseudobulbos acima da mistura. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
+    "receitaTexto": "45% casca de pinus média + 25% carvão vegetal médio + 20% brita fina lavada e sem pó + 10% perlita grossa compatível com o vaso (proposta não homologada).",
     "perfil": [
       "Alta aeração",
       "Drenagem funcional",
@@ -292,28 +292,28 @@ export const prosthecheaVespa = {
       },
       {
         "asset": "carvao-vegetal",
-        "nome": "Carvão vegetal",
+        "nome": "Carvão vegetal médio",
         "proporcao": "25%",
         "nota": "macroporos",
         "finalidade": "Favorece ventilação e reduz compactação."
       },
       {
         "asset": "brita-pura",
-        "nome": "Brita fina",
+        "nome": "Brita fina lavada e sem pó",
         "proporcao": "20%",
         "nota": "drenagem e lastro",
         "finalidade": "Acelera a saída de água e estabiliza o vaso."
       },
       {
         "asset": "perlita",
-        "nome": "Perlita grossa",
+        "nome": "Perlita grossa compatível com o vaso",
         "proporcao": "10%",
         "nota": "aeração e leveza",
         "finalidade": "Abre a mistura sem elevar excessivamente a retenção."
       }
     ],
-    "alerta": "Não usar perlita grossa. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos.",
-    "notaEvidencia": "MACS 1.0 — primeira passagem documental: Prosthechea vespa, epífita/rupícola com pseudobulbos, raízes arejadas, água durante crescimento e secagem moderada após maturação, sem repouso seco severo. Suportes barro 5 estrelas, placa/tronco e cachepô madeira 4, árvore viva 3; não homologados. Receita visual PARA VASO 45% pinus médio + 25% carvão vegetal + 20% brita fina + 10% perlita grossa = 100% em volume; resumo, receitaTexto e itens concordam. Primeira qualitativa pinus médio + brita fina + carvão, sem perlita; segunda macadâmia média + carvão + perlita grossa, sem pinus/brita. Nenhuma coincide integralmente. CONTRADIÇÃO GRAVE: alerta de substratoVisual diz 'Não usar perlita grossa', mas receitaTexto e itens incluem 10% perlita grossa, e segunda qualitativa também recomenda perlita grossa. Justificativa declara receita provisória, não homologada. Validar adequação de perlita, granulometria da brita, secagem do barro, fase de emissão de raízes e estabilidade dos pseudobulbos. Meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+    "alerta": "Perlita grossa é permitida em fração moderada (10% na receita visual), com granulometria compatível com o vaso; não substituir por pó fino. Não enterrar a base dos pseudobulbos; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir placas ou troncos.",
+    "notaEvidencia": "MACS 1.1 — revisão documental: Prosthechea vespa, epífita/rupícola simpodial, com raízes aeradas, água no crescimento e secagem moderada após maturação, sem repouso seco severo. Vaso de Barro é suporte principal. Receita visual e textual coincidem: 45% pinus médio + 25% carvão vegetal médio + 20% brita fina lavada e sem pó + 10% perlita grossa compatível com o vaso = 100% em volume. Contradição anterior resolvida: perlita grossa permitida na receita a 10% e alerta atualizado. Exatamente duas alternativas qualitativas: pinus/brita/carvão e macadâmia/carvão/perlita, sem percentuais homologados. Não fundamentam a composição quantitativa visual. Monitorar secagem, peso da brita, raízes novas e pseudobulbos. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
   },
   "fotoReferencia": {
     "origem": "Garden.org — Prosthechea vespa",
