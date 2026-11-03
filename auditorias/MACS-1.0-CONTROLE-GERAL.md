@@ -53,3 +53,11 @@ Este controle é um índice de progresso, não substitui os pareceres detalhados
 - **Cobertura brasileira quantitativa verificada nesta passagem:** 0 recomendações específicas adicionais; não interpretar como inexistência de produtores. Meta de até 25 fontes continua aberta.
 - **Parecer:** plausibilidade horticultural condicional, **não homologada quantitativamente**. Conferir retenção e tempo de secagem em vaso pequeno, raízes finas, e necessidade de umidade/ventilação no microclima. Não modificar percentuais, estrelas, fotos, assets ou índices sem fundamentação nova.
 - **Próxima ficha da segunda passagem:** 002 — Aerides odorata. **Progresso da segunda passagem:** 1/149 com checagem interna registrada; 0/149 com homologação quantitativa comprovada.
+
+## Segunda passagem — registro 002 (2026-11-03)
+- **Ficha 002 — Aerides odorata** (`dados/orquideas/aerides-odorata.js`): `substratoVisual.receitaTexto` e `itens` concordam: 45% pinus grosso + 35% carvão grosso + 10% arroz carbonizado + 10% esfagno = 100%.
+- **Forma de cultivo:** `formasCultivo.destaque` = raízes soltas; mistura percentual é alternativa para vaso/cesto com pequeno volume, não deve ser atribuída às raízes livres. AOS Aerides e NParks Aerides odorata, citados no lote 01, corroboram drenagem e aeração, não os percentuais.
+- **Inconsistência editorial detectada:** texto `rega` descreve rega frequente em crescimento ativo e ajuste por evaporação; campo posterior `selosCultivo.rega.nivel` está como `sazonal`. Verificar sem modificar automaticamente o selo.
+- **Cobertura brasileira quantitativa adicional verificada nesta passagem:** 0 novas recomendações específicas; meta até 25 continua aberta. Não declarar ausência de produtores.
+- **Parecer:** compatibilidade técnica condicional da mistura como opção de recipiente; **percentuais e estrelas não homologados**. Manter receita e demais parâmetros; falta evidência independente específica e comparação de secagem de raízes livres versus recipiente.
+- **Próxima ficha:** 003 — Epidendrum centropetalum. **Progresso da segunda passagem:** 2/149 checagens internas registradas; 0/149 homologações quantitativas comprovadas.
