@@ -9,7 +9,7 @@ Escopo: dez fichas seguintes a Dryadella aviceps na ordem dos imports de `dados/
 5. `cattleya-lueddemanniana-tipo.js` — passagem concluida
 6. `cattleya-walkeriana.js` — passagem concluida
 7. `cattleya-intermedia.js` — passagem concluida
-8. `cattleya-leopoldii-dark-princess.js` — pendente
+8. `cattleya-leopoldii-dark-princess.js` — passagem concluida
 9. `laelia-fournieri.js` — pendente
 10. `lockhartia-lunifera.js` — pendente
 
@@ -70,3 +70,13 @@ FICHA: cachepô madeira principal (91/100), árvore viva 82/100, barro/plástico
 ENSAIOS CIENTÍFICOS ESPECÍFICOS DA ESPÉCIE: (1) Lone et al. (2008), Acta Scientiarum Agronomy 30(4):465-469, DOI https://doi.org/10.4025/actasciagron.v30i4.5299 comparou xaxim, esfagno, casca de arroz carbonizada, pinus, fibra de coco e pinus+coco 1:1 em plântulas de C. intermedia durante dez meses. Fibra de coco e pinus+coco 1:1 foram alternativas promissoras na ACLIMATIZAÇÃO, não ensaio de plantas adultas. (2) Schnitzer et al. (2010), Acta Scientiarum Agronomy 32(1), DOI https://doi.org/10.4025/actasciagron.v32i1.714 avaliou plântulas de C. intermedia e Miltonia clowesii com misturas de pinus, fibra de coco, arroz carbonizado e carvão; T3 (partes iguais com carvão previamente tratado com extrato pirolenhoso) teve melhor desempenho. O tratamento químico experimental não deve ser generalizado como recomendação de manejo. (3) Dorneles e Trevelin, Iheringia Série Botânica https://isb.emnuvens.com.br/iheringia/article/view/47 relata sobrevivência de 53% em esfagno e 27% em pinus na aclimatização de plântulas, não em adultos. (4) Sorace et al. (2009) DOI https://doi.org/10.5433/1679-0359.2009v30n4p771 avaliou híbrido C. intermedia x Hadrolaelia purpurata, NÃO espécie pura, com melhor resultado em arroz carbonizado+pinus.
 
 PARECER: três fontes experimentais diretamente específicas à espécie demonstram alternativas com pinus, coco, arroz carbonizado e esfagno na fase juvenil, mas não homologam receita 30/30/25/15, especialmente macadâmia/perlita, nem os escores de suportes. Pesquisa exaustiva de 25 produtores brasileiros com receita específica não realizada nesta passagem; não alegar meta cumprida. Apenas notaEvidencia acrescentada em substratoVisual; receita, índices, fotos, assets e layout preservados. Commit da ficha dfde81386a4edbd4f5e1e7355106c47cdfa4bfa6. Próxima ficha Cattleya leopoldii Dark Princess.
+
+## Passagem 58 — Cattleya tigrina 'Dark Princess' (sin. Cattleya leopoldii)
+
+TAXONOMIA: POWO/Kew https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A622256-1 reconhece Cattleya tigrina como nome aceito, epífita de ambientes tropicais sazonalmente secos; https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A622138-1 confirma Cattleya leopoldii como sinônimo. Não há ensaio identificado para o cultivar 'Dark Princess'.
+
+FONTE TÉCNICA ESPECÍFICA: AOS https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-tigrina recomenda vasos de barro com drenagem central ampliada, partículas grandes de casca de conífera ou coco e material inerte grosso no fundo de vasos grandes, evitando substrato encharcado e replante fora do início de raízes novas. Essa recomendação da espécie sustenta aeração e estabilidade, mas NÃO receita percentual.
+
+FICHA: vaso de barro principal 82/100, cachepô madeira 79/100, plástico vasado 78/100 (heurísticos). Receita 35% macadâmia + 25% pinus + 25% brita fina + 15% carvão = 100%. PRODUTORES BRASILEIROS ESPECÍFICOS (3): (1) Orquidário Mogi Mirim https://www.orquidariomogimirim.com.br/cattleya-tigrina-adulta recomenda pinus + carvão + esfagno, sem proporções; (2) Bioma Plantas https://biomaplantas.com.br/mudas/ lista Cattleya leopoldii com vaso plástico/barro/caixeta e carvão + pinus + esfagno, sem proporções; (3) Orquidário Matsuoka https://orquidariomatsuoka.com.br/produto/cattleya-tigrina-n1-cheiro-cravo-e-canela/ recomenda toco, brita ou substrato genérico, sem composição. Fontes sobre a espécie, não especificamente sobre o cultivar. Meta de 25 não atingida.
+
+PARECER: vaso de barro e substrato grosso respaldados pela AOS; brita como componente inerte plausível. Percentuais 35/25/25/15 e escores NÃO HOMOLOGADOS; mistura da ficha difere das recomendações de pinus/carvão/esfagno dos produtores. Apenas notaEvidencia acrescentada; receita, índices, fotos e assets preservados. Commit da ficha 785b69fde5cabb6b4eaaa22bf4f94617cd940918. Próxima ficha Laelia fournieri.
