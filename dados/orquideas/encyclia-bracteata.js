@@ -39,7 +39,7 @@ export const encycliaBracteata = {
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade a cada 60–90 dias durante crescimento ativo, afastado do rizoma.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/3 da dose semanal ou quinzenalmente enquanto houver novos brotos e raízes.\n🌱 Maturação: reduza o excesso de nitrogênio quando o pseudobulbo estiver completando o crescimento.\n🧪 Liberação lenta: poucos grânulos apenas em recipientes extremamente drenantes.\n🚿 Lavagem: faça regas periódicas somente com água para reduzir sais.",
     rega: "Durante novos brotos e raízes, regue bem e espere o substrato se aproximar da secagem antes da próxima irrigação. Após a maturação dos pseudobulbos, reduza discretamente a frequência, sem impor repouso seco prolongado. O risco principal no litoral quente é manter raízes úmidas e abafadas por muitas horas.",
     suporte: "🥇 Vaso pequeno de barro — excelente evaporação e estabilidade.\n🥈 Cachepô bem vazado — combina aeração e retenção moderada.\n🥉 Placa de cortiça ou madeira — ótima opção em orquidário úmido, com regas mais frequentes.\nUse recipiente apenas ligeiramente maior que o rizoma.",
-    substrato: ["🥇 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥈 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","🥉 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
+    substrato: ["🥇 Para vaso pequeno ou cachepô ventilado: casca de macadâmia média 35% + casca de pinus média 30% + perlita grossa 20% + carvão vegetal 15% (mistura visual provisória, não homologada).","🥈 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco.","🥉 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","Alternativa adicional: chips de coco grossos + perlita grossa + carvão vegetal + pinus médio."],
     formasCultivo: {
         perfilVisual: "encyclia-miniatura-epifita",
         destaque: "Vaso de Barro",
@@ -55,7 +55,7 @@ export const encycliaBracteata = {
         titulo: "Substrato ideal",
         contexto: "Proposta para vaso pequeno ou cachepô bem ventilado",
         resumo: "Mistura média e porosa, com boa drenagem e secagem perceptível entre regas.",
-        justificativa: "Os quatro componentes seguem a primeira mistura qualitativa já registrada na ficha. Percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        justificativa: "A receita visual para vaso pequeno ou cachepô ventilado combina macadâmia média, pinus médio, perlita grossa e carvão vegetal. A primeira mistura qualitativa antiga contém pinus, perlita, carvão e chips de coco, sem macadâmia; a segunda contém macadâmia, argila expandida, carvão e pinus, sem perlita. Nenhuma reproduz integralmente a composição visual. A fórmula foi incluída como primeira alternativa para recipiente, preservando as três receitas anteriores. A granulometria média deve ser ajustada ao volume do recipiente e ao calibre das raízes; os percentuais permanecem sem homologação MACS 1.0.",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Miniatura epífita", "Pseudobulbos unifoliados", "Alta luminosidade filtrada", "Raízes aeradas", "Secagem parcial entre regas"],
         comportamento: [
