@@ -75,10 +75,10 @@ export const bulbophyllumSyciobulbon = {
     },
     substratoVisual: {
         "titulo": "Substrato ideal",
-        "contexto": "Receita para cultivo em vaso ou recipiente",
+        "contexto": "Receita para vaso plástico vasado amplo e raso, com rizoma exposto",
         "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
-        "justificativa": "Fonte específica descreve crescimento trepador ou espalhado e cultivo drenante ou montado. Vaso vasado é possível, mas o espaço para o rizoma pode tornar placa ou cachepô mais conveniente. Mistura é inferência técnica.",
-        "receitaTexto": "40% pinus médio + 20% chips de coco + 25% perlita grossa + 15% esfagno solto.",
+        "justificativa": "Bulbophyllum sicyobulbon é epífita de rizoma espaçado, que requer espaço para expansão lateral, raízes ventiladas e umidade moderada. O vaso plástico vasado amplo e raso permanece como proposta principal provisória; placa longa ou cachepô amplo podem acomodar melhor o avanço do rizoma. A receita visual combina pinus médio, chips de coco médios preparados, perlita compatível com raízes finas e esfagno de fibra longa solto, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas, não a origem dos percentuais visuais. Noites frescas não são substituídas por substrato mais úmido. MACS 1.1: inferência horticultural não homologada quantitativamente.",
+        "receitaTexto": "40% casca de pinus média + 20% chips de coco médios preparados + 25% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto (proposta não homologada).",
         "perfil": ["Rizoma trepador", "Crescimento lateral", "Raízes epífitas", "Secagem parcial", "Boa aeração", "Umidade variável"],
         "comportamento": [
             {
@@ -105,37 +105,37 @@ export const bulbophyllumSyciobulbon = {
         "itens": [
             {
                             "asset": "casca-pinus",
-                            "nome": "Pinus médio",
+                            "nome": "Casca de pinus média",
                             "proporcao": "40%",
                             "nota": "estrutura",
                             "finalidade": "Suporta raízes sem compactar o rizoma."
             },
             {
                             "asset": "chips-coco",
-                            "nome": "Chips de coco",
+                            "nome": "Chips de coco médios preparados",
                             "proporcao": "20%",
                             "nota": "umidade",
                             "finalidade": "Conserva hidratação moderada."
             },
             {
                             "asset": "perlita",
-                            "nome": "Perlita grossa",
+                            "nome": "Perlita de granulometria compatível com raízes finas",
                             "proporcao": "25%",
                             "nota": "aeração",
                             "finalidade": "Facilita drenagem."
             },
             {
                             "asset": "esfagno",
-                            "nome": "Esfagno solto",
+                            "nome": "Esfagno de fibra longa solto",
                             "proporcao": "15%",
                             "nota": "retenção",
                             "finalidade": "Pequena reserva hídrica para brotos novos."
             }
         ],
-        "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo.",
-        "notaEvidencia": "MACS 1.0 — primeira passagem documental: ficha histórica syciobulbon, espécie grafada Bulbophyllum sicyobulbon no nome; epífita montana de rizoma muito espaçado, raízes que exigem aeração e umidade leve, noites frescas. Suportes plástico vasado 5 estrelas, cachepô madeira e placa/tronco 4, barro 3; preferência por vaso é declaradamente provisória. Receita visual 40% pinus médio + 20% chips coco + 25% perlita grossa + 15% esfagno solto = 100%; receitaTexto e itens concordam. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa esfagno longo + perlita (sem pinus/coco); segunda chips coco + perlita + carvão miúdo + esfagno (sem pinus); terceira macadâmia + pinus + perlita + esfagno (sem coco). Nenhuma coincide com visual. Justificativa reconhece inferência técnica e incerteza de suporte. Validar retenção, tamanho de partículas, expansão lateral do rizoma, temperatura noturna e viabilidade de recipiente vs placa; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        "alerta": "MACS 1.1 provisória: manter rizoma e pseudobulbos expostos, deixar espaço para crescimento lateral e ajustar regas pela secagem real. Evitar esfagno compactado, ar parado e calor noturno excessivo.",
+        "notaEvidencia": "MACS 1.1 — revisão documental: nome exibido Bulbophyllum sicyobulbon; grafia histórica syciobulbon mantida no identificador e arquivo por compatibilidade. Epífita montana com rizoma muito espaçado, raízes que requerem aeração, umidade moderada e noites frescas. Vaso plástico vasado amplo e raso é proposta provisória; cachepô amplo ou placa longa podem favorecer expansão lateral. Estrelas dos suportes são heurísticas. Receita visual e textual coincidem: 40% pinus médio + 20% chips coco médios preparados + 25% perlita compatível com raízes finas + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: esfagno/perlita e macadâmia/pinus/perlita/esfagno. Elas não originam percentuais visuais. Monitorar temperatura noturna, retenção, secagem e avanço lateral do rizoma. Não há ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
     },
-    substrato: ["🥇 Esfagno de fibra longa solto + perlita grossa.","🥈 Chips de coco tratados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno.","🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de esfagno."],
+    substrato: ["🥇 Para vaso plástico vasado amplo e raso: 40% casca de pinus média + 20% chips de coco médios preparados + 25% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto (proposta NÃO homologada).", "🥈 Esfagno de fibra longa solto + perlita de granulometria compatível com raízes finas (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de macadâmia média + casca de pinus média + perlita de granulometria compatível com raízes finas + pequena fração de esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados)."],
     errosComuns: "• Usar vaso pequeno e obrigar replantes frequentes.\n• Enterrar o rizoma ou os pseudobulbos.\n• Confundir alta umidade com ar parado.\n• Manter esfagno compactado e saturado.\n• Deixar a planta secar completamente por longos períodos.\n• Cultivar sob sol direto forte.\n• Adubar em concentração alta.\n• Tentar compensar calor noturno excessivo com encharcamento.",
     dica: "🏆 Planeje o espaço antes do crescimento. Como os pseudobulbos podem ficar separados por 5 a 7 cm, comece com uma placa longa, galho extenso ou cesto largo e raso. Quanto menos a planta precisar ser removida depois de aderir ao suporte, melhor. No litoral quente, priorize o ponto mais fresco e ventilado, mantenha umidade moderada junto às raízes e evite qualquer material que permaneça quente e encharcado durante a noite.",
     revisaoCientificaIAR: {
