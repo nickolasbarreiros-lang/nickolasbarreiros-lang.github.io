@@ -213,3 +213,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 03:** AOS (https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet) e OSGB (https://www.osgb.org.uk/orchids/orchid-care-guides/bulbophyllum-orchid-care) apoiam substrato arejado com retenção de umidade, recipiente raso e rizoma exposto para muitos Bulbophyllum, mas não homologam os percentuais desta espécie. Investigar produtores brasileiros específicos e controle de secagem/ventilação.
 - **Limites:** percentuais, itens visuais, estrelas, fotos, assets, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 22/149 checagens; 20 fichas com correções efetivas (003–022); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 023 — Encyclia mineirinha.
+
+## Correção na mesma passagem — registro 023 (2026-11-03)
+- **Ficha 023 — Encyclia 'Mineirinha'** (`dados/orquideas/encyclia-mineirinha.js`): receita visual com 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%.
+- **Correções efetivas:** mistura visual não constava integralmente das alternativas textuais; adicionada como primeira opção provisória, preservadas as três anteriores. Justificativa corrigida: afirmava indevidamente que os quatro componentes já seguiam a primeira receita qualitativa. Commit `bb6234c25ed7e77b72bfae44062737fe84891910`.
+- **Identidade da ficha:** híbrido de Encyclia patens × E. oliveirana, não espécie pura; preservar identificação e índices. Percentuais continuam estimativas, sem evidência experimental homologada. Nenhuma nova receita de produtores brasileiros verificada nesta passagem.
+- **Limites:** nenhum percentual, item visual, foto, asset, índice IDC/IAR, estrela ou layout alterado; homologação quantitativa pendente.
+- **Progresso:** 23/149 checagens; 21 fichas com correções efetivas (003–023); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 024 — Arpophyllum giganteum.
