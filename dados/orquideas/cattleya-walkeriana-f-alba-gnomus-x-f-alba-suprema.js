@@ -38,7 +38,7 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     adubacao: "🌿 Orgânica: bokashi apenas em quantidade mínima, preferencialmente em sachê e longe do rizoma, durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado, como 20-20-20 ou equivalente, em 1/4 a 1/3 da dose, semanal ou quinzenalmente enquanto houver brotação e enraizamento.\n🌱 Maturação: reduza o excesso de nitrogênio quando o pseudobulbo estiver completando o crescimento.\n🧪 Liberação lenta: geralmente desnecessária em plantas montadas; em vasos ou cachepôs, use apenas poucos grânulos.\n🚿 Lavagem: faça regas periódicas somente com água para evitar acúmulo de sais nas raízes expostas.",
     rega: "Durante emissão de brotos e raízes novas, regue abundantemente e permita secagem rápida entre as irrigações. Em planta montada no verão de Litoral de clima quente, isso pode significar regas frequentes. Quando as raízes reduzirem a atividade e os pseudobulbos estiverem maduros, aumente gradualmente os intervalos. Não use a ponta verde como um interruptor absoluto: raízes fechadas não significam que a planta deva permanecer seca por semanas. Observe também turgor dos pseudobulbos, temperatura, umidade e velocidade de secagem do suporte.",
     suporte: "🥇 Placa de madeira dura ou cortiça — permite raízes livres, rápida secagem e leitura visual da atividade radicular.\n🥈 Cachepô ou cestinho pequeno de madeira — ótima aeração com alguma estabilidade hídrica.\n🥉 Vaso de barro raso e muito perfurado — opção segura para cultivo envasado.\n⭐ Pedra porosa ou placa mineral também pode funcionar, respeitando o hábito litófito da espécie.",
-    substrato: ["🥇 Pinus grosso + brita fina + carvão vegetal.","🥈 Chips de coco muito grossos + argila expandida + carvão vegetal."],
+    substrato: ["🥇 Montagem principal em placa/tronco com raízes expostas, sem substrato volumoso. Para cachepô ou vaso muito ventilado: 45% casca de macadâmia grossa + 30% perlita grossa + 25% carvão vegetal médio (proposta NÃO homologada).", "🥈 Casca de pinus grossa + brita pequena limpa e sem pó + carvão vegetal médio (alternativa qualitativa sem percentuais homologados).", "🥉 Chips de coco muito grossos preparados + argila expandida média + carvão vegetal médio (alternativa qualitativa sem percentuais homologados)."],
     formasCultivo: {
         perfilVisual: "cattleya",
         destaque: "Placa / tronco",
@@ -54,8 +54,8 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
         titulo: "Substrato ideal",
         contexto: "Alternativa para cachepô ou vaso muito ventilado; montagem em placa dispensa mistura",
         resumo: "Mistura de partículas grossas, muito drenante, com espaços amplos para circulação de ar.",
-        justificativa: "A ficha existente recomenda macadâmia grossa, perlita grossa e carvão vegetal como alternativa à montagem. Os percentuais abaixo são uma formulação horticultural sugerida para visualização e não correspondem a ensaio comparativo nem à homologação MACS 1.0.",
-        receitaTexto: "45% casca de macadâmia grossa + 30% perlita grossa + 25% carvão vegetal granulado.",
+        justificativa: "A progênie alba entre os clones Gnomus e Suprema pertence à própria Cattleya walkeriana e não é híbrido interespecífico. A montagem em placa/tronco dispensa substrato volumoso. Para cachepô ou vaso muito ventilado, a receita visual propõe macadâmia grossa, perlita grossa e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não são a origem dos percentuais visuais. O crescimento sazonal exige água durante emissão de raízes e intervalos maiores após maturação, sem seca absoluta. MACS 1.1: hipótese horticultural sem homologação quantitativa específica.",
+        receitaTexto: "45% casca de macadâmia grossa + 30% perlita grossa + 25% carvão vegetal médio (proposta não homologada).",
         perfil: ["Raízes epífitas", "Aeração muito alta", "Secagem rápida", "Rizoma exposto", "Repouso sazonal menos úmido"],
         comportamento: [
             { nome: "Retenção", valor: 1, icone: "💧" },
@@ -66,164 +66,7 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
         itens: [
             { asset: "macadamia", nome: "Casca de macadâmia grossa", proporcao: "45%", nota: "estrutura e suporte", finalidade: "Mantém a mistura aberta e dá apoio às raízes sem formar uma zona central compacta." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "30%", nota: "aeração e leveza", finalidade: "Amplia os espaços de ar e reduz o tempo de saturação após as regas." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal granulado", proporcao: "25%", nota: "drenagem e estabilidade", finalidade: "Contribui para a estrutura aberta e facilita a drenagem." }
+            { asset: "carvao-vegetal", nome: "Carvão vegetal médio", proporcao: "25%", nota: "drenagem e estabilidade", finalidade: "Contribui para a estrutura aberta e facilita a drenagem." }
         ],
         alerta: "Em placa, não adicionar substrato volumétrico. Evitar esfagno no miolo, vasos grandes, rizoma enterrado e umidade constante durante o repouso.",
-        notaEvidencia: "MACS 1.0 — primeira passagem documental: Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema'), progênie entre clones albos da mesma espécie, não híbrido interespecífico; raízes epífitas muito aeradas, crescimento sazonal e redução de regas após maturação. Suportes placa/tronco e cachepô madeira 5 estrelas, barro e árvore viva 4; não homologados. Receita visual alternativa para recipiente 45% macadâmia grossa + 30% perlita grossa + 25% carvão granulado = 100%; receitaTexto e itens concordam. DIVERGÊNCIA DOCUMENTAL: justificativa afirma que ficha existente recomenda macadâmia + perlita + carvão, mas campo substrato qualitativo atual contém apenas (1) pinus grosso + brita fina + carvão e (2) chips coco muito grossos + argila expandida + carvão; nenhuma coincide com visual. Validar secagem no repouso, granulometria, estabilidade de planta compacta e evidência específica de progênie; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
-    },
-    errosComuns: "Substrato permanentemente úmido; pouca luz; replantar sem emissão de raízes novas; enterrar o rizoma; usar vaso grande; dividir touceiras pequenas; deixar completamente seca por semanas apenas porque não há pontas verdes; adubar fortemente plantas montadas; mudar constantemente a posição e a iluminação; interpretar folhas amareladas como objetivo de cultivo.",
-    dica: "Leia a planta inteira, não apenas o calendário ou a ponta das raízes. Pontas verdes indicam crescimento ativo e permitem regas abundantes e adubação leve. Depois da maturação, aumente os intervalos entre as regas sem transformar o repouso em seca absoluta. E replante apenas quando novas raízes estiverem iniciando: em Cattleya walkeriana, o momento do replantio pode definir se a planta se estabelece rapidamente ou passa muitos meses debilitada.",
-    revisaoCientificaIAR: {
-        "nome": "Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema')",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma combinação especial entre duas walkerianas albas selecionadas! O cruzamento entre os clones ‘Gnomus’ e ‘Suprema’ busca reunir flores brancas, boa forma e o perfume intenso característico de Cattleya walkeriana. Mesmo entre plantas irmãs podem surgir diferenças de tamanho, formato, substância e intensidade do amarelo na garganta, o que torna cada muda única. É uma Cattleya b",
-        "habitatAltitudeClima": "Cerrado e matas sazonais · árvores e rochas. | Quente a intermediário · estação mais seca.",
-        "distribuicaoGeografica": "Centro-Oeste e Sudeste.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
-        "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
-        ]
-    },
-    indiceDificuldadeCultivo: {
-        "versao": "IDC 3.2 — selo por facilidade",
-        "escala": "dificuldade",
-        "indice": 42,
-        "classificacao": "Moderada",
-        "cultivoEstrelas": 3,
-        "criterios": {
-            "temperatura": {
-                "notaDificuldade": 2,
-                "peso": 15
-            },
-            "rega": {
-                "notaDificuldade": 2,
-                "peso": 15
-            },
-            "umidade": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "ventilacao": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "luminosidade": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "raizesSubstrato": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "sazonalidade": {
-                "notaDificuldade": 1,
-                "peso": 10
-            },
-            "floracao": {
-                "notaDificuldade": 3,
-                "peso": 20
-            }
-        },
-        "faixas": {
-            "facil": "0–25",
-            "moderada": "26–50",
-            "dificil": "51–89",
-            "extrema": "90–100"
-        }
-    },
-    indiceAdaptacaoRegional: {
-        "versao": "IAR 2.0 — revisão científica",
-        "escala": "compatibilidade regional",
-        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
-        "litoralQuente": {
-            "indice": 98,
-            "estrelas": 5,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 5,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 5,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 3,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 5,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 5,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 5,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 5,
-                    "peso": 20
-                }
-            }
-        },
-        "montanhaFrio": {
-            "indice": 80,
-            "estrelas": 4,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 4,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 4,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 3,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 5,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 4,
-                    "peso": 20
-                }
-            }
-        }
-    },
-        adaptacaoRegional: {
-        litoralQuente: { texto: "Em Litoral de clima quente. O calor é tolerado; o maior risco é a combinação de chuva contínua, umidade persistente e pouca ventilação. Cultivo montado ou muito aerado é especialmente indicado." },
-        montanhaFrio: { texto: "Em clima intermediário, com muita luz filtrada. Proteja de geadas, frio úmido prolongado e substrato que permaneça molhado por muitos dias." }
-    },
-    mesesFloracao: [4, 5, 6, 7, 8],
-    "selosCultivo": {
-        "rega": { "nivel": "frequente" },
-        "climaFloracao": { "faixa": "quente" }
-    },
-        avaliacoes: {
-        cultivo: 3,
-        floracao: 5,
-        perfume: 5,
-        luminosidade: 5,
-        agua: 2,
-        raridade: 5
-    }
-};
+        notaEvidencia: "MACS 1.1 — revisão documental: Cattleya walkeriana f. alba Gnomus × f. alba Suprema é progênie entre clones albos da mesma espécie, não híbrido interespecífico. Montagem em placa/tronco é suporte principal, sem mistura volumosa; estrelas dos suportes são heurísticas. Receita visual alternativa para recipiente muito ventilado: 45% macadâmia grossa + 30% perlita grossa + 25% carvão vegetal médio = 100%; receitaTexto e itens concordam. Exatamente duas outras misturas qualitativas distintas: pinus grosso/brita pequena limpa/carvão médio e chips coco muito grossos preparados/argila expandida média/carvão médio. Não atribuir a elas percentuais visuais. Observar estabilidade, aeração e redução sazonal das regas sem seca absoluta. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS
