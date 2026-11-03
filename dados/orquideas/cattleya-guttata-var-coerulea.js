@@ -39,11 +39,11 @@ export const cattleyaGuttataVarCoerulea = {
     adubacao: "🌿 Orgânica: Bokashi em pequena quantidade a cada 60 a 90 dias durante crescimento ativo, sem contato direto com raízes novas.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose semanal ou quinzenalmente enquanto brotos e raízes estiverem ativos.\n🧪 Liberação lenta: Osmocote 14-14-14 ou equivalente pode ser usado em dose moderada em vasos grandes. Reduza a adubação líquida se usar liberação lenta. Não há necessidade de formulações extremamente fosfatadas, como 9-45-15, para induzir floração.",
     rega: "No crescimento ativo, regue generosamente e deixe o meio drenar e perder grande parte da umidade antes de regar novamente. A meta é secagem acentuada e forte oxigenação, não obrigatoriamente deixar toda a massa radicular absolutamente seca por longos períodos. Após a maturação dos pseudobulbos, aumente moderadamente os intervalos conforme temperatura e velocidade de secagem.",
     suporte: "🥇 Vaso de barro pesado, oferecendo estabilidade e evaporação.\n🥈 Cachepô grande e robusto de madeira para touceiras com várias frentes.\n🥉 Cesto estrutural para plantas adultas de grande porte.\nEm todos os casos, imobilize a base e o rizoma até que o novo enraizamento trave o conjunto.",
-    substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.","🥈 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.","🥉 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio.","⭐ Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco."],
+    substrato: ["🥇 Para vaso de barro estável e bem drenado: 35% casca de macadâmia média + 25% casca de pinus média + 25% brita pequena/média + 15% carvão vegetal médio (proposta horticultural NÃO homologada).", "🥈 Casca de macadâmia média + casca de pinus média + perlita grossa + carvão vegetal médio (alternativa qualitativa sem proporções homologadas).", "🥉 Casca de macadâmia média + argila expandida + carvão vegetal médio + casca de pinus grossa (alternativa qualitativa sem proporções homologadas)."],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso de barro",
-    "resumo": "MACS 1.0: vaso de barro (82/100), cesto de madeira (79/100) e plástico vasado (78/100) são opções próximas; as notas são heurísticas, não resultados de ensaio.",
+    "resumo": "MACS 1.1: vaso de barro, cachepô de madeira e plástico vasado são alternativas de boa aeração; a escolha depende da estabilidade da touceira e da secagem. Classificações quantitativas anteriores eram heurísticas, não ensaios.",
     "metodos": [
         {
             "nome": "Vaso de barro",
@@ -53,18 +53,18 @@ export const cattleyaGuttataVarCoerulea = {
             "texto": "A terracota oferece estabilidade e evaporação pelas paredes; o vaso deve ter tamanho proporcional e mistura bem drenante."
         },
         {
-            "nome": "Cachepô de madeira",
+            "nome": "Cachepô de Madeira",
             "asset": "cesto-madeira",
             "estrelas": null,
             "status": "Alternativa",
             "texto": "As aberturas laterais mantêm as raízes ventiladas e favorecem a drenagem, mas a mistura seca mais depressa."
         },
         {
-            "nome": "Vaso plástico",
-            "asset": "vaso-plastico",
+            "nome": "Vaso plástico vasado",
+            "asset": "vaso-plastico-vasado",
             "estrelas": null,
             "status": "Alternativa",
-            "texto": "A retenção maior exige atenção ao tamanho das partículas e aos intervalos de rega."
+            "texto": "As aberturas favorecem a drenagem; ajustar a frequência de rega à secagem e garantir estabilidade da touceira."
         },
         {
             "nome": "Placa / tronco",
@@ -79,8 +79,8 @@ export const cattleyaGuttataVarCoerulea = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "O porte alto exige estabilidade e circulação de ar; a brita acrescenta peso ao recipiente. Pinus, carvão e brita aparecem em recomendações brasileiras, mas os percentuais desta mistura não foram validados em ensaio da espécie.",
-    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de macadâmia + 25% casca de pinus + 25% brita fina + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
+    "justificativa": "O porte alto exige estabilidade e circulação de ar. A receita principal proposta combina macadâmia média, pinus médio, brita pequena/média e carvão vegetal médio, totalizando 100%; a brita acrescenta peso ao vaso e sua granulometria deve manter espaços de ar. As duas outras misturas são alternativas qualitativas diferentes da receita principal. Não há ensaio quantitativo específico que homologue estas proporções para Cattleya guttata ou sua seleção de coloração coerulea. MACS 1.1: recomendação horticultural provisória.",
+    "receitaTexto": "35% casca de macadâmia média + 25% casca de pinus média + 25% brita pequena/média + 15% carvão vegetal médio (proposta não homologada).",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
@@ -90,35 +90,35 @@ export const cattleyaGuttataVarCoerulea = {
     "itens": [
         {
             "asset": "macadamia",
-            "nome": "Casca de macadâmia",
+            "nome": "Casca de macadâmia média",
             "proporcao": "35%",
             "nota": "estrutura",
             "finalidade": "Partículas resistentes criam espaços de ar entre as raízes."
         },
         {
             "asset": "casca-pinus",
-            "nome": "Casca de pinus",
+            "nome": "Casca de pinus média",
             "proporcao": "25%",
             "nota": "umidade moderada",
             "finalidade": "Conserva alguma umidade sem fechar a mistura quando usada em granulometria adequada."
         },
         {
             "asset": "brita-pura",
-            "nome": "Brita fina",
+            "nome": "Brita pequena/média",
             "proporcao": "25%",
             "nota": "estabilidade",
             "finalidade": "Acrescenta peso e drenagem em plantas altas sem aumentar retenção orgânica."
         },
         {
             "asset": "carvao-vegetal",
-            "nome": "Carvão vegetal",
+            "nome": "Carvão vegetal médio",
             "proporcao": "15%",
             "nota": "drenagem",
             "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
         }
     ],
     "alerta": "Proporções heurísticas (35/25/25/15), não validadas experimentalmente para Cattleya guttata; observar secagem, fixação da touceira e estabilidade do vaso.",
-    "notaEvidencia": "MACS 1.0 — primeira passagem documental: Cattleya guttata f. coerulea (designação horticultural), bifoliada epífita de grande porte; priorizar estabilidade da touceira, drenagem e ventilação. Suportes: vaso barro indicado (heurística 82/100), cachepô madeira 79/100, plástico vasado 78/100 mencionado no resumo, porém métodos listam VASO PLÁSTICO não especificado como vasado; estrelas dos métodos são null, portanto não inferir estrelas ou equiparar recipientes. Receita visual 35% macadâmia + 25% pinus + 25% brita fina + 15% carvão = 100%; receitaTexto e itens concordam. DIVERGÊNCIA DOCUMENTAL: receita visual não coincide integralmente com as quatro qualitativas; primeira macadâmia + pinus + perlita + carvão, sem brita; segunda macadâmia + argila expandida + carvão + pinus; terceira chips coco + perlita + carvão + pinus; quarta pinus + perlita + carvão + chips coco. Justificativa reconhece percentuais heurísticos não validados; conferir origem da alegação sobre recomendações brasileiras e distinguir evidência publicada de inferência. Validar peso de 25% brita, estabilidade, granulometria e secagem; meta até 25 produtores brasileiros específicos não atingida. Percentuais, notas e estrelas NÃO HOMOLOGADOS."
+    "notaEvidencia": "MACS 1.1 — revisão documental: Cattleya guttata f. coerulea (designação horticultural), bifoliada epífita de grande porte; priorizar estabilidade da touceira, drenagem e ventilação. Suportes: vaso barro indicado (heurística 82/100), cachepô madeira 79/100, plástico vasado 78/100 mencionado no resumo, e os métodos agora especificam VASO PLÁSTICO VASADO; estrelas dos métodos são null, portanto não inferir estrelas ou equiparar recipientes. Receita visual 35% macadâmia + 25% pinus + 25% brita fina + 15% carvão = 100%; receitaTexto e itens concordam. Receita principal visual e textual concordam; mantidas somente duas alternativas qualitativas distintas, sem atribuir-lhes os percentuais da principal. Justificativa reconhece percentuais heurísticos não validados; conferir origem da alegação sobre recomendações brasileiras e distinguir evidência publicada de inferência. Validar peso de 25% brita, estabilidade, granulometria e secagem; meta até 25 produtores brasileiros específicos não atingida. Percentuais, notas e estrelas NÃO HOMOLOGADOS."
 },
     errosComuns: "• Planta balançando após o replantio, rompendo pontas radiculares novas.\n• Vaso leve que tomba com o peso dos pseudobulbos.\n• Sombra excessiva e crescimento estiolado.\n• Vaso enorme com núcleo constantemente úmido.\n• Substrato velho e decomposto.\n• Secar demais durante a formação de novos pseudobulbos.\n• Dividir clones valiosos em pedaços muito pequenos.\n• Replantar quando não há novas raízes em início de crescimento.\n• Adubação excessiva ou uso de fósforo muito concentrado.",
     dica: "🏆 Imobilize a base antes de pensar na floração. O grande porte transforma cada pseudobulbo em uma alavanca: vento ou esbarrões podem movimentar o rizoma e romper as pontas das raízes novas. Após o replantio, fixe firmemente rizoma e pseudobulbos principais com amarração macia ou revestida, sem estrangular os tecidos. Preserve divisões com pelo menos 4 a 5 pseudobulbos e, em clones coerulea valiosos, prefira touceiras ainda maiores. Faça o replantio quando as primeiras raízes novas começarem a aparecer.",
