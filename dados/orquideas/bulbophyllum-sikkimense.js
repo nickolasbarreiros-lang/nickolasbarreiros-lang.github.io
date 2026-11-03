@@ -126,7 +126,8 @@ export const bulbophyllumSikkimense = {
                             "finalidade": "Protege raízes novas sem encharcar."
             }
         ],
-        "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo."
+        "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo.",
+        "notaEvidencia": "MACS 1.0 — primeira passagem documental: nome aceito adotado na ficha Bulbophyllum roxburghii (sin. B. sikkimense), miniatura epífita de rizoma rasteiro, exigindo umidade regular e boa drenagem. Vaso plástico vasado 5 estrelas, cachepô e placa/tronco 4, barro 3: hipótese horticultural sem comparação quantitativa. Receita visual 35% pinus médio + 25% chips de coco + 25% perlita grossa + 15% esfagno = 100%; receitaTexto e itens concordam. DIVERGÊNCIA: primeira mistura qualitativa tem macadâmia + pinus + perlita + esfagno (sem chips coco); segunda apenas esfagno + perlita; terceira chips coco + perlita + carvão + esfagno (sem pinus). Justificativa já admite ausência de convergência brasileira específica. Fontes botânicas preexistentes não homologam percentuais; meta de até 25 produtores brasileiros não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de esfagno.","🥈 Esfagno de fibra longa solto + perlita grossa.","🥉 Chips de coco tratados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno."],
     errosComuns: "• Apresentar B. sikkimense como nome atualmente aceito.\n• Ignorar que Kew o inclui em B. roxburghii.\n• Tratar a planta como alpina por causa do nome Sikkim.\n• Impor repouso seco severo.\n• Manter sombra profunda.\n• Compactar o substrato.\n• Usar recipiente estreito.\n• Aplicar adubo concentrado.",
