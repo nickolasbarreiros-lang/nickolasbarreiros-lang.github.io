@@ -47,7 +47,7 @@ export const mediocalcarDecoratum = {
             { nome: "Vaso de Barro", asset: "vaso-barro-perfurado", estrelas: 3, status: "Adequado", texto: "Pode funcionar em clima úmido, mas a evaporação intensa exige regas mais frequentes para esta micro-orquídea." }
         ]
     },
-    substrato: ["🥇 Casca de pinus fina + esfagno solto + perlita grossa.", "🥈 Casca de macadâmia pequena + carvão vegetal + esfagno solto."],
+    substrato: ["🥇 Casca de pinus fina + esfagno solto + carvão vegetal + casca de macadâmia (mistura-base provisória do substrato visual).", "🥈 Casca de pinus fina + esfagno solto + perlita grossa.", "🥉 Casca de macadâmia pequena + carvão vegetal + esfagno solto."],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para recipiente raso",
