@@ -41,7 +41,7 @@ export const miltoniaRusselliana = {
         "🥈 Vaso de barro ou plástico muito perfurado, proporcional ao tamanho da touceira.",
         "🥉 Montagem em madeira ou cortiça em ambientes com umidade alta e regas frequentes."
     ],
-    substrato: ["🥇 Para Cachepô de Madeira bem vazado: 35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa compatível com o cachepô + 10% carvão vegetal médio (proposta NÃO homologada).", "🥈 Casca de macadâmia média + casca de pinus média + perlita grossa compatível com o cachepô + pequena fração de fibra de coco grossa preparada (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de pinus média + perlita grossa compatível com o cachepô + argila expandida pequena + pequena fração de esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados)."],
+    substrato: ["Casca de macadâmia média + casca de pinus média + perlita grossa compatível com o cachepô + pequena fração de fibra de coco grossa preparada","Casca de pinus média + perlita grossa compatível com o cachepô + argila expandida pequena + pequena fração de esfagno de fibra longa solto"],
     formasCultivo: {
         perfilVisual: "miltonia-epifita-touceira-pseudobulbos",
         destaque: "Cachepô de Madeira",
