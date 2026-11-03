@@ -35,7 +35,7 @@ export const lockhartiaLunifera = {
     adubacao: "🌿 Orgânica: bokashi em quantidade mínima dentro de porta-adubo, sem contato com caules ou raízes.\n💧 Foliar/radicular: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: evitar em plantas montadas; em cestos ou vasos, usar poucos grânulos afastados das raízes novas. Uma vez por mês, lavar abundantemente raízes e suporte apenas com água pura para reduzir sais.",
     rega: "Regue com frequência durante crescimento e calor, sobretudo em plantas montadas. Depois de cada irrigação, permita boa aeração e perda do excesso de água antes da próxima. A espécie não tolera seca prolongada, mas raízes permanentemente saturadas também se deterioram. Regue preferencialmente pela manhã para que as bainhas foliares não permaneçam molhadas durante a noite.",
     suporte: "🥇 Placa inclinada de cortiça, galho rugoso ou madeira dura: acompanha o hábito pendente e facilita o escoamento da água.\n🥈 Cesto pequeno e suspenso, muito ventilado.\n🥉 Vaso pequeno e raso com mistura extremamente aberta, sem forçar os caules a permanecerem eretos.",
-    substrato: ["Casca de pinus média + carvão vegetal + pequenos fragmentos de madeira","Casca de pinus média + carvão vegetal + chips de coco grossos"],
+    substrato: ["Casca de pinus média + carvão vegetal + fragmentos de madeira","Casca de pinus média + carvão vegetal + chips de coco grossos preparados"],
     formasCultivo: {
         perfilVisual: "epifita-pendente-sem-pseudobulbos",
         destaque: "Placa / tronco",
