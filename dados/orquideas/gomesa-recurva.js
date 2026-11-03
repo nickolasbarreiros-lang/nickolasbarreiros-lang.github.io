@@ -30,7 +30,7 @@ export const gomesaRecurva = {
     adubacao: "🌿 Orgânica: bokashi leve em porta-adubo no início da brotação.\n💧 Foliar: NPK equilibrado em 1/4 da dose, semanalmente ou a cada 10–15 dias durante o crescimento ativo.\n🧪 Liberação lenta: poucos grânulos no perímetro de vaso drenante, sempre afastados das raízes novas.\n💦 Lavagem: faça periodicamente uma rega abundante apenas com água limpa para reduzir o acúmulo de sais.",
     rega: "Durante a brotação, regue quando o substrato estiver próximo da secagem, mantendo umidade regular sem saturação. Após a maturação dos pseudobulbos, aumente gradualmente o intervalo entre as irrigações, sem permitir enrugamento intenso. No final do inverno, ajuste a água à menor atividade vegetativa, mas não imponha dormência seca.",
     suporte: "🥇 Placa de madeira dura ou cortiça, valorizando o hábito pendente.\n🥈 Cachepô pequeno de madeira.\n🥉 Vaso de barro baixo e perfurado, instalado em posição elevada.",
-    substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
+    substrato: ["🥇 Para cachepô ou vaso baixo: casca de pinus média + chips de coco + perlita grossa + carvão vegetal (mistura visual provisória; placa/tronco permanece principal).","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
     formasCultivo: {
         perfilVisual: "gomesa-epifita-hastes-arqueadas",
         destaque: "Placa / tronco",
@@ -46,7 +46,7 @@ export const gomesaRecurva = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para cachepô ou vaso baixo",
         resumo: "Mistura média e porosa, com retenção moderada e boa circulação de ar, sem esfagno em excesso.",
-        justificativa: "A receita usa os quatro materiais da primeira mistura qualitativa já registrada na ficha. Percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        justificativa: "A receita visual propõe pinus médio, chips de coco, perlita grossa e carvão para cachepô ou vaso baixo, agora também descritos na primeira alternativa textual. As alternativas anteriores contêm outros materiais; a montagem principal permanece em placa/tronco, sem mistura volumosa. Percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
         receitaTexto: "40% casca de pinus média + 30% chips de coco + 20% perlita grossa + 10% carvão vegetal.",
         perfil: ["Epífita", "Hastes arqueadas", "Posição suspensa", "Umidade regular", "Raízes ventiladas"],
         comportamento: [
