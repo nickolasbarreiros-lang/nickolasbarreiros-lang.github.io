@@ -1194,3 +1194,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência experimental específica A apenas para aclimatização de plântulas**: Tsutsumoto et al. 2026 (Horticulturae, DOI 10.3390/horticulturae12030307) comparou fibra de coco (61,11% de sobrevivência média) versus esfagno (38,89%), com fator adicional de fertilizante. **Não valida receitas para adultos**.
 - R0 atual 40% pinus/30% carvão/20% brita/10% macadâmia; R1 hipótese 50/30/10/0 mais 10% coco; R2 hipótese 40/20/0/0 mais 40% coco. Nenhuma mistura experimental adulta; composição R0 D, percentuais D, estrelas D. Montagem com evidência B qualitativa. Sem alteração JS/assets.
 - **Progresso: 16/149 matrizes documentadas; 0/149 homologações quantitativas de receitas adultas.** Próxima ficha oficial: Zygolum Louisendorf.
+
+
+### MACS 1.1 — Matriz 017: Zygolum Louisendorf (2026-11-03)
+- Documento `auditorias/MACS-1.1-MATRIZ-017-ZYGOLUM-LOUISENDORF.md`, commit `7db3caff41991deb84adf3226b9ca69ddbe76048`.
+- **RHS primária confirma Zygosepalum labiosum × Zygopetalum Artur Elle**, registro de 2004; Galeopetalum Giant sinônimo. NParks indica preferência por clima mais fresco. Merten Orquídeas lista casca, carvão, coco e pedrinhas sem percentuais; New England Botanic Garden indica coco, casca e perlita para cultivar Rhein Moonlight. Página do Orquidário 4 Estações excluída por URL Louisendorf com conteúdo de Z. microphytum.
+- R0 45% pinus/25% coco/20% carvão/10% esfagno; R1 50/30/20/0; R2 45/30/10/0 mais 15% perlita. R1/R2 hipóteses; esfagno 10% não validado. Ingredientes B qualitativo, composição R0 D, percentuais D, estrelas D. Nenhuma alteração JS/assets.
+- **Progresso: 17/149 matrizes documentadas, 0/149 homologações quantitativas.** Próxima ficha oficial: Dendrobium loddigesii.
