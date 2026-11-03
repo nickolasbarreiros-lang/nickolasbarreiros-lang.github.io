@@ -39,7 +39,7 @@ export const cattleyaWarneri = {
     "adubacao": "🌿 Orgânica: bokashi moderado em porta-adubo durante brotação, nunca sobre o rizoma.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/2 da dose a cada 10–15 dias enquanto houver brotos e raízes ativos.\n🌱 Formação de reservas: mantenha nutrição até a folha expandir e o pseudobulbo ganhar volume.\n🌸 Maturação: reduza nitrogênio e frequência após a espata se formar.\n🧪 Liberação lenta: dose baixa no início do novo crescimento.\n🚿 Flushing: lave o substrato mensalmente com água pura.",
     "rega": "Durante primavera, verão e início do outono, regue quando o substrato estiver próximo da secagem. Após a maturação, aumente gradualmente os intervalos. No inverno, o vaso deve secar de forma nítida antes da próxima rega, mas os pseudobulbos não devem sofrer desidratação extrema. Evite água acumulada entre folha e espata e não molhe repetidamente a bainha em dias frios.",
     "suporte": "🥇 Vaso de barro firme e perfurado — estabilidade e secagem equilibrada.\n🥈 Cestinho de madeira — excelente em clima quente e úmido.\n🥉 Placa de madeira robusta — indicada para plantas adaptadas e ambientes úmidos.\nUse recipiente para duas ou três novas frentes, sem excesso de volume.",
-    substrato: ["🥇 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","🥈 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio.","🥉 Pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco."],
+    substrato: ["🥇 Para vaso de barro perfurado: casca de macadâmia média 35% + casca de pinus média 30% + perlita grossa 20% + carvão vegetal 15% (mistura visual provisória, não homologada).","🥈 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","🥉 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio.","Alternativa adicional: pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco."],
     "formasCultivo": {
         "perfilVisual": "cattleya",
         "destaque": "Vaso de Barro",
@@ -55,7 +55,7 @@ export const cattleyaWarneri = {
         "titulo": "Substrato ideal",
         "contexto": "Mistura sugerida para vaso de barro perfurado",
         "resumo": "Mistura de granulometria média a grossa, com sustentação firme, aeração e drenagem para raízes epífitas.",
-        "justificativa": "A receita organiza os quatro materiais indicados como primeira opção na ficha original. Os percentuais abaixo são uma proposta horticultural ainda não confrontada com o conjunto de produtores exigido pela metodologia MACS 1.0.",
+        "justificativa": "A receita visual para vaso de barro perfurado combina macadâmia média, pinus médio, perlita grossa e carvão vegetal. A primeira receita antiga continha argila expandida e pinus grosso, portanto não correspondia literalmente à composição visual. A fórmula visual exata foi incluída como primeira alternativa textual provisória, preservando as três misturas anteriores. As referências de cultivo para Cattleya apoiam substrato aberto e drenagem, mas não validam estes percentuais para Cattleya warneri. Proposta ainda não homologada pela MACS 1.0.",
         "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         "perfil": ["Raízes epífitas", "Porte grande", "Boa sustentação", "Aeração alta", "Secagem equilibrada"],
         "comportamento": [
