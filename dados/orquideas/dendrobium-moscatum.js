@@ -37,7 +37,7 @@ export const dendrobiumMoscatum = {
     "adubacao": "🌱 Primavera: fertilizante com nitrogênio moderado durante o alongamento inicial.\n☀️ Verão: NPK equilibrado em baixa concentração enquanto a haste engrossa.\n🍂 Final do verão: reduzir nitrogênio e manter nutrição mais leve.\n💤 Inverno: pouca ou nenhuma adubação, conforme a atividade.\n🌿 Bokashi/Osmocote: somente no início do crescimento, em dose proporcional ao recipiente.",
     "rega": "Na primavera e no verão, regue abundantemente e permita secagem parcial. Quando a haste cessar o crescimento, endurecer e mudar discretamente de aspecto, reduza moderadamente. No inverno, mantenha hidratação espaçada, sem seca extrema e sem substrato continuamente molhado.",
     "suporte": "🥇 Cesto grande e suspenso, respeitando seu hábito epífito natural.\n🥈 Vaso grande, pesado e bem drenado, excelente para exemplares adultos e para cultivo com maior retenção de matéria orgânica.\n🥉 Tronco, placa robusta ou cachepô vazado, especialmente para plantas jovens.\nEmbora seja epífita na natureza, mostra boa plasticidade em cultivo e pode desenvolver-se muito bem em recipientes amplos, desde que as raízes permaneçam oxigenadas e sem encharcamento.",
-    "substrato": "🥇 Casca de pinus grossa + casca de macadâmia grossa + carvão vegetal + perlita grossa (mistura-base provisória do substrato visual).\n🥈 Casca de pinus média/grossa + chips de coco + carvão vegetal + perlita grossa + pequena fração de composto orgânico estabilizado.\n🥉 Casca grossa + brita fina + carvão vegetal + pequena fração de matéria orgânica estabilizada.",
+    "substrato": "🥈 Alternativa 1 — 50% casca de pinus grossa + 25% chips de coco lavados + 15% carvão vegetal grosso + 10% perlita grossa. Reserva hídrica potencialmente maior para recipiente de secagem rápida; percentuais estimados, não homologados (MACS 1.1 D).\n🥉 Alternativa 2 — 45% casca de pinus grossa + 30% casca de macadâmia grossa + 20% carvão vegetal grosso + 5% perlita grossa. Mistura aberta para recipiente com secagem mais lenta; percentuais estimados, não homologados (MACS 1.1 D).",
     "formasCultivo": {
         "perfilVisual": "dendrobium-epifita-grande",
         "destaque": "Cachepô de Madeira",
@@ -53,8 +53,8 @@ export const dendrobiumMoscatum = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cachepô ou vaso grande com drenagem rápida",
         "resumo": "Mistura grossa e muito arejada, com retenção moderada durante o crescimento e secagem mais rápida na fase de menor atividade.",
-        "justificativa": "A mistura visual reúne pinus grosso, macadâmia grossa, carvão e perlita, agora descritos também como primeira alternativa textual. As alternativas anteriores empregam materiais diferentes. Percentuais propostos para visualização, ainda sem homologação MACS 1.0.",
-        "receitaTexto": "35% casca de pinus grossa + 30% casca de macadâmia grossa + 20% carvão vegetal + 15% perlita grossa.",
+        "justificativa": "MACS 1.1: receita principal provisória para cachepô grande e ventilado, com pinus majoritário, macadâmia, carvão e perlita. A composição é coerente com orientações gerais da RHS e da AOS para Dendrobium, mas não há receita percentual específica documentada para D. moschatum. Percentuais por volume inferidos, não homologados.",
+        "receitaTexto": "50% casca de pinus grossa + 20% casca de macadâmia grossa + 15% carvão vegetal grosso + 15% perlita grossa.",
         "perfil": ["Epífita de grande porte", "Raízes oxigenadas", "Hastes arqueadas", "Umidade na fase ativa", "Repouso moderado após maturação"],
         "comportamento": [
             { "nome": "Retenção", "valor": 2, "icone": "💧" },
@@ -63,13 +63,13 @@ export const dendrobiumMoscatum = {
             { "nome": "Compactação", "valor": 1, "icone": "🧱" }
         ],
         "itens": [
-            { "asset": "casca-pinus", "nome": "Casca de pinus grossa", "proporcao": "35%", "nota": "estrutura", "finalidade": "Mantém espaços amplos e drenagem para raízes de planta grande." },
-            { "asset": "casca-macadamia", "nome": "Casca de macadâmia grossa", "proporcao": "30%", "nota": "suporte", "finalidade": "Acrescenta partículas firmes e arejadas." },
-            { "asset": "carvao", "nome": "Carvão vegetal", "proporcao": "20%", "nota": "aeração", "finalidade": "Ajuda a manter porosidade e drenagem." },
+            { "asset": "casca-pinus", "nome": "Casca de pinus grossa", "proporcao": "50%", "nota": "estrutura", "finalidade": "Mantém espaços amplos e drenagem para raízes de planta grande." },
+            { "asset": "casca-macadamia", "nome": "Casca de macadâmia grossa", "proporcao": "20%", "nota": "suporte", "finalidade": "Acrescenta partículas firmes e arejadas." },
+            { "asset": "carvao", "nome": "Carvão vegetal grosso", "proporcao": "15%", "nota": "aeração", "finalidade": "Ajuda a manter porosidade e drenagem." },
             { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "15%", "nota": "secagem", "finalidade": "Reduz compactação e favorece circulação de ar." }
         ],
         "alerta": "Não restringir o arco das hastes nem usar vaso leve. Evitar encharcamento durante o repouso moderado, iniciado somente após as hastes amadurecerem.",
-        "notaEvidencia": "Estrelas e percentuais são estimativas horticulturais, não homologadas pela MACS 1.0. Validação visual dos assets ainda pendente."
+        "notaEvidencia": "MACS 1.1: composição C por convergência de fontes gerais para Dendrobium; percentuais D, estimados e NÃO HOMOLOGADOS para D. moschatum. Não é receita experimental nem publicada especificamente para esta espécie. Duas alternativas no menu, distintas da principal. Estrelas de suportes D, preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-028-DENDROBIUM-MOSCHATUM.md."
     },
     "errosComuns": "Instalar em local baixo; impedir o arco natural das hastes; sombra excessiva; encharcar no inverno; cortar hastes antigas; reduzir água antes da maturação; excesso de nitrogênio no final do verão; vaso leve; mudar constantemente de posição; substrato velho.",
     "dica": "Não limite esta espécie ao cultivo montado: apesar de ser predominantemente epífita na natureza, exemplares adultos podem responder muito bem a vasos grandes e estáveis. O segredo é combinar matéria orgânica com partículas grossas e minerais, preservando muita aeração. Observe também o amadurecimento das hastes e só reduza as regas quando elas pararem de alongar e endurecerem. Em Litoral de clima quente, evite chuva contínua durante a fase de menor atividade.",
