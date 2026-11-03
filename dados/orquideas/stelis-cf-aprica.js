@@ -79,7 +79,7 @@ export const stelisCfAprica = {
         "texto": "Pode funcionar em jardim úmido e sombreado, mas oferece menos controle de hidratação que o vaso plástico."
     }
 ] },
-    substrato: ["🥇 Vaso plástico pequeno e muito perfurado: 35% casca de pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 20% esfagno de fibra longa solto (proposta NÃO homologada; identificação cf. aprica).","🥈 Casca de pinus fina/média + carvão vegetal pequeno + esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados).","🥉 Chips de coco pequenos preparados + carvão vegetal pequeno + perlita de granulometria adequada a raízes finas (alternativa qualitativa sem percentuais homologados)."],
+    substrato: ["Casca de pinus fina/média + carvão vegetal pequeno + esfagno de fibra longa solto","Chips de coco pequenos preparados + carvão vegetal pequeno + perlita de granulometria adequada a raízes finas"],
     substratoVisual: {
       titulo: "Substrato ideal", contexto: "Receita para cultivo em vaso",
       resumo: "Como o vaso plástico é a forma preferencial nesta ficha, a mistura abaixo foi pensada para manter umidade regular sem sacrificar a aeração das raízes finas.",
