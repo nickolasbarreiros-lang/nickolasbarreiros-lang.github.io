@@ -4,7 +4,7 @@ Escopo: dez fichas seguintes a Lockhartia lunifera na ordem de imports de `dados
 
 1. `jacquiniella-globosa.js` — passagem concluida
 2. `camaridium-carinatum.js` — passagem concluida
-3. `acianthera-pubescens.js` — pendente
+3. `acianthera-pubescens.js` — passagem concluida
 4. `maxillaria-leucaimata.js` — pendente
 5. `coelogyne-asperata.js` — pendente
 6. `coelogyne-flaccida.js` — pendente
@@ -26,3 +26,11 @@ TAXONOMIA: POWO/Kew https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3An
 CULTIVO: AOS https://www.aos.org/explore/maxillaria recomenda PARA O GÊNERO Maxillaria placas com material que retém alguma umidade, cestos ou vasos com mistura epífita fina, mas ressalta diversidade e limitações de recomendações gerais. Belgrave Orchids https://belgraveorchids.com.au/blogs/care-guides/maxillaria-orchid-care-guide observa que espécies de crescimento rastejante podem beneficiar-se de montagem ou cesto suspenso, não ensaio específico de M. imbricata. AOS https://www.aos.org/orchid-care/orchid-care-basics/mounting destaca risco de secagem excessiva em ambientes quentes e necessidade de equilibrar retenção e aeração.
 
 FICHA: cachepô de madeira largo principal, alternativas barro/plástico/placa. Receita 35% pinus + 25% chips de coco grossos + 25% perlita grossa + 15% carvão = 100%. Não foi encontrada orientação quantitativa de produtor brasileiro específica da espécie nesta passagem; meta 25 não atingida. Sem experimento comparativo específico de recipientes ou da mistura. PARECER: suporte aberto é inferência plausível para rizoma horizontal, porém receita 35/25/25/15 e preferência de suporte NÃO HOMOLOGADAS; manter composição e layout, acrescentando apenas notaEvidencia. Commit da ficha b69967e761e418ecfcc143fb996e30402eb6e349. Próxima ficha Acianthera pubescens.
+
+## Passagem 63 — Acianthera pubescens
+
+TAXONOMIA/HÁBITO: POWO/Kew https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1112900-2 aceita Acianthera pubescens (Lindl.) Pridgeon & M.W.Chase e Pleurothallis pubescens como sinônimo, epífita de floresta tropical úmida do México à América tropical, inclusive Brasil. Levantamento florístico UNESP https://repositorio.unesp.br/bitstreams/76845c65-5a55-4d78-a02f-c7d2584ee623/download descreve espécie holoepífita, simpodial e reptante, sem pseudobulbos verdadeiros, mas não apresenta ensaios de cultivo. Flora Digital UFSC https://floradigital.ufsc.br/open_sp.php?img=29057 também registra hábito epífita/rupícola em sua base; não pressupor que todos os exemplares tenham exatamente o mesmo micro-habitat.
+
+PRODUTOR BRASILEIRO ESPECÍFICO: Orquidário Aparecida https://orquidarioaparecida.com.br/produtos/acianthera-pubescens/ oferece esta espécie montada em ripinha de cambará, descreve ambiente úmido e ventilado, e admite madeira/cachepô/vasos em seu manejo geral. Evidência prática direta da viabilidade de madeira, mas sem comparação de suportes nem fórmula percentual. Apenas UM produtor com recomendação específica confirmado nesta passagem; meta de 25 não atingida. Outras páginas de cuidado genérico com epífitas não contam como produtores específicos.
+
+FICHA: placa/tronco 5 estrelas, árvore viva e outras alternativas mantidas. Receita para vaso 35% pinus fino/médio + 30% casca de arroz carbonizada + 20% carvão pequeno + 15% esfagno solto = 100%. Sem ensaio controlado localizado para esta composição ou ranking dos suportes: NÃO HOMOLOGADA. Apenas notaEvidencia atualizada, preservando receitas, estrelas, índices, fotos e assets; conferência visual pendente. Commit da ficha 659795f9b17854c727ed3c51b63445d3dacb34db. Próxima ficha Maxillaria leucaimata.
