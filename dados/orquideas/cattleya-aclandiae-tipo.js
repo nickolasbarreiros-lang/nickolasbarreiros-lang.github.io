@@ -37,7 +37,7 @@ export const cattleyaAclandiaeTipo = {
     adubacao: "🌿 Orgânica: Bokashi é opcional e deve ser mínimo, preferencialmente em porta-adubo e longe das raízes.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose a cada 7 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: dispensável em montagem; em pequeno cesto use pouquíssimos grânulos. Fórmulas extremamente fosfatadas não são necessárias para induzir floração.",
     rega: "Durante crescimento ativo, regue generosamente e permita secagem muito rápida, com forte circulação de ar. Plantas montadas podem exigir regas frequentes no verão quente. No período de menor atividade, aumente os intervalos e reproduza uma estação relativamente mais seca, mas não deixe pseudobulbos desidratarem severamente. A regra é água abundante quando ativa e secagem rápida sempre.",
     suporte: "🥇 Cachepô/cesto de madeira pequeno, raso e muito aberto, com raízes ventiladas e regas monitoradas.\n🥈 Placa de cortiça natural ou galho de casca rugosa, especialmente com regas frequentes.\n🥉 Árvore viva de casca rugosa, em posição luminosa e ventilada.",
-    substrato: ["🥇 Alternativa para vaso muito perfurado: casca de macadâmia + perlita grossa + carvão vegetal (mistura visual provisória, não homologada).","🥈 Pinus grosso + brita fina + carvão vegetal.","🥉 Chips de coco muito grossos + argila expandida + carvão vegetal."],
+    substrato: ["🥇 Para vaso muito perfurado: 5 partes de casca de pinus grossa + 1 parte de carvão vegetal (83,3%/16,7%; referência institucional genérica para Cattleyas, NÃO validada especificamente para C. aclandiae).", "🥈 Casca de pinus grossa + brita fina + carvão vegetal (alternativa qualitativa apoiada em recomendação de produtor para a espécie, sem percentuais publicados).", "🥉 Casca de pinus grossa + carvão vegetal + perlita grossa (alternativa qualitativa, sem proporções específicas publicadas)."],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Cachepô de madeira",
@@ -76,9 +76,9 @@ export const cattleyaAclandiaeTipo = {
     substratoVisual: {
     "titulo": "Substrato ideal",
     "contexto": "Mistura alternativa para vaso",
-    "resumo": "O cultivo principal é em cesto de madeira muito aberto ou placa; esta mistura é alternativa apenas para vaso perfurado.",
-    "justificativa": "Mistura opcional para vaso muito perfurado; cesto de madeira e placa de cortiça são preferidos por manter as raízes ventiladas.",
-    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 45% casca de macadâmia + 30% perlita grossa + 25% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
+    "resumo": "Cachepô aberto ou placa continuam preferenciais; para vaso perfurado, referência genérica de casca grossa e carvão.",
+    "justificativa": "Orquidário 4 Estações recomenda para C. aclandiae cachepô com pinus ou placa; Orquídeas & Cia menciona pinus grosso e brita. O Missouri Botanical Garden publica, genericamente para Cattleyas, cinco partes de casca para uma de carvão (5:1). Essa referência é mais rastreável que os antigos percentuais de macadâmia/perlita/carvão, mas NÃO é ensaio desta espécie. O vaso deve ser muito perfurado e permitir secagem das raízes entre regas.",
+    "receitaTexto": "83,3% casca de pinus grossa + 16,7% carvão vegetal (5:1; receita institucional genérica para Cattleyas, não homologada para C. aclandiae).",
     "perfil": [
         "Raízes epífitas grossas",
         "Montagem ventilada",
@@ -86,30 +86,11 @@ export const cattleyaAclandiaeTipo = {
         "Rega conforme suporte"
     ],
     "itens": [
-        {
-            "asset": "macadamia",
-            "nome": "Casca de macadâmia",
-            "proporcao": "45%",
-            "nota": "estrutura",
-            "finalidade": "Partículas resistentes criam espaços de ar entre as raízes."
-        },
-        {
-            "asset": "perlita",
-            "nome": "Perlita grossa",
-            "proporcao": "30%",
-            "nota": "aeração",
-            "finalidade": "Amplia a porosidade e reduz a compactação do recipiente."
-        },
-        {
-            "asset": "carvao-vegetal",
-            "nome": "Carvão vegetal",
-            "proporcao": "25%",
-            "nota": "drenagem",
-            "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
-        }
+        { "asset": "casca-pinus", "nome": "Casca de pinus grossa", "proporcao": "83,3%", "nota": "estrutura e drenagem", "finalidade": "Mantém a mistura aberta, permitindo aeração e secagem radicular." },
+        { "asset": "carvao-vegetal", "nome": "Carvão vegetal", "proporcao": "16,7%", "nota": "aeração complementar", "finalidade": "Complementa a casca na proporção institucional 5:1." }
     ],
     "alerta": "Cultivo principal em cesto aberto ou placa/tronco; não cobrir as raízes com mistura compacta.",
-    "notaEvidencia": "MACS 1.0: POWO aceita Cattleya aclandiae como epífita de ambiente tropical sazonalmente seco. Quatro produtores brasileiros com orientações específicas consultados: Orquidário 4 Estações (cachepô com pinus ou placa), Orquidário Thomes (madeira, placa e vasos ventilados), Orquídeas & Cia (tronco ou pinus grosso com brita) e Orquidário Matsuoka (toco, brita ou substrato genérico, em variedade Nigrescens). Convergência para aeração e secagem radicular; nenhum comprova mistura de vaso 45% macadâmia + 30% perlita + 25% carvão. AOS recomenda substratos grossos e drenantes genericamente para Cattleyas, sem validar receita desta espécie. Percentuais NÃO HOMOLOGADOS; escores 91/100 e 86/100 são estimativas sem comparação controlada; meta 25 produtores não atingida. Preservados índices, escores e receita nesta passagem; assets não inspecionados."
+    "notaEvidencia": "MACS 1.1: POWO aceita Cattleya aclandiae como epífita. Quatro produtores brasileiros específicos consultados: Orquidário 4 Estações (cachepô com pinus ou placa), Orquidário Thomes (suportes ventilados), Orquídeas & Cia (pinus grosso e brita) e Orquidário Matsuoka (toco ou substrato genérico em variedade Nigrescens). Missouri Botanical Garden documenta genericamente 5 partes de casca para 1 de carvão para Cattleyas e outras simpodiais: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids . AOS recomenda casca grossa e secagem entre regas. Proporção 83,3/16,7 documentada em nível de grupo, NÃO HOMOLOGADA experimentalmente para esta espécie; alternativas qualitativas sem percentuais publicados. Escores 91/100 e 86/100 não foram validados em ensaio; meta 25 produtores não atingida."
 },
     errosComuns: "• Vaso grande ou fechado.\n• Esfagno compacto e raízes permanentemente úmidas.\n• Replantar fora do início de emissão de novas raízes.\n• Sombra excessiva.\n• Secar demais durante crescimento ativo.\n• Enterrar o rizoma.\n• Confundir pigmentação natural das folhas com doença.\n• Adubação concentrada.\n• Manter planta fria e molhada durante período de menor atividade.",
     dica: "🏆 Replante somente quando a planta estiver pronta para emitir raízes novas. Cattleya aclandiae adere fortemente ao suporte e reage mal a danos extensos em raízes antigas. Sempre que possível, mantenha-a montada em cortiça ou madeira rugosa por muitos anos. Se for necessário intervir, espere as primeiras pontas de raízes novas. No litoral quente, não tente cultivá-la 'seca' o tempo todo: dê bastante água durante atividade, mas faça essa água desaparecer rapidamente com ventilação e raízes expostas.",
