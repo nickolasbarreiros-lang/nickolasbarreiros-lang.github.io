@@ -71,7 +71,7 @@ export const colmanaraWildcat = {
             { "asset": "carvao", "nome": "Carvão vegetal", "proporcao": "10%", "nota": "drenagem", "finalidade": "Acrescenta partículas estáveis e espaços de ar à mistura." }
         ],
         "alerta": "Evitar vaso grande e substrato envelhecido. Replantar preferencialmente quando o novo broto começar a emitir raízes curtas, preservando as raízes delicadas.",
-        "notaEvidencia": "Estrelas e percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0; os assets visuais precisam de conferência."
+        "notaEvidencia": "MACS 1.0: Oncostele Wildcat (sin. Colmanara Wildcat). RHS recomenda mistura aberta à base de casca, com perlita, esfagno ou coco; AOS, especificamente para este grex em clima quente, favorece substrato de casca de pinus e boa ventilação. Cultivador brasileiro Orquídeas no Apê recomenda qualitativamente pinus, carvão e fibra de coco. A receita atual 40% pinus + 25% chips de coco + 25% perlita + 10% carvão é compatível em ingredientes, mas não foi testada nem homologada nesses percentuais; monitorar secagem e calor das raízes. Estrelas também são estimativas."
     },
     "errosComuns": "Replantar quando as raízes novas já estão longas; vaso grande; enterrar o rizoma; substrato velho e compactado; sombra profunda; excesso de sais; água acumulada no broto; dividir com poucos pseudobulbos; confundir enrugamento por raiz perdida com falta de rega.",
     "dica": "O melhor momento para replantar é quando o novo broto começa a emitir raízes com cerca de 0,5–1 cm. Nessa fase elas já estão ativas, mas ainda não aderiram ao vaso e quebram menos. Preservar raízes novas é uma das formas mais eficientes de manter o próximo pseudobulbo forte e garantir nova haste floral.",
