@@ -1150,3 +1150,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - AOS tem resposta **específica** sobre D. spectabile: espécie quente/intermediária, grande porte para floração e ligeira redução sazonal de água/temperatura, sem repouso severo. AOS Latouria, Orchids of New Guinea e Cambridge corroboram ecologia úmida e cultivo quente. Diferenciar floração de substrato.
 - R0 atual 35% macadâmia/30% pinus/20% perlita/15% carvão; R1 15/50/20/15; R2 0/60/20/20. Alternativas hipotéticas. **Alerta:** macadâmia 35% sem fonte específica; pinus/carvão qualitativamente B por produtor brasileiro, composição integral D, percentuais D, estrelas D. Não homologada quantitativamente.
 - **Segundo lote concluído: 10/149 matrizes MACS 1.1 documentadas; 0/149 homologações quantitativas.** JS/assets preservados. Próxima espécie oficial: Cattleya Pumpkin Festival (híbrido; pesquisar parentais e evitar inferir manejo de espécie botânica).
+
+
+### MACS 1.1 — Matriz 011: Cattleya Pumpkin Festival (2026-11-03)
+- Documento `auditorias/MACS-1.1-MATRIZ-011-CATTLEYA-PUMPKIN-FESTIVAL.md`, commit `75e01732156a70c6d25c3a117b22838f38f87b84`.
+- Híbrido C. Naomi Kerns × C. Waianae Sunset conforme Orquidário Suzuki (registro primário RHS ainda a conferir). Orquidário Maripá documenta mistura de cascas, carvão e madeira, suportes vaso/barro/caixeta e fixação em árvore; **1 produtor com ingredientes específicos, 0 com percentuais**. Pesquisa UNESP com 25 plantas do próprio híbrido é sobre **giberelina/floração**, não substrato; não usá-la para homologação de mistura.
+- R0 atual 45% pinus/25% carvão/20% brita/10% macadâmia; R1 60/20/15/5; R2 60/25/15/0. R1/R2 são hipóteses. **Ingredientes casca+carvão B qualitativo; composição integral D, percentuais D, estrelas D**. Alerta para 20% brita e 10% macadâmia sem evidência específica, e árvore viva como alternativa potencial não listada. Sem alterações JS/assets.
+- Progresso: **11/149 matrizes documentadas**, **0/149 homologações quantitativas**. Próxima espécie oficial: Dendrobium polysema.
