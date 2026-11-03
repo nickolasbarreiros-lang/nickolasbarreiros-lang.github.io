@@ -331,3 +331,25 @@ A busca direcionada identificou **quatro estabelecimentos brasileiros independen
 **Reavaliação da pendência anterior:** a afirmação "perlita sem respaldo" fica **superada** no sentido de **adequação qualitativa do ingrediente**, mas continua válida como **ausência de homologação quantitativa brasileira**. Conservar receita atual 35% pinus / 30% coco / 25% perlita / 10% carvão. Não atribuir a essa mistura a condição de ideal cientificamente demonstrado.
 
 **Resultado:** 1 fonte internacional específica do híbrido, 3 fontes institucionais complementares, 0 produtores brasileiros adicionais, 0 fichas alteradas, 0 percentuais homologados.
+
+## Décima terceira passagem — compatibilidade entre a receita e o manejo de Oncidium Twinkle
+
+**Inspeção direta de `dados/orquideas/oncidium-twinkle.js`:** o texto de rega exige umidade regular na brotação, secagem superficial entre regas e redução discreta após maturação. O bloco de substrato diz que raízes finas precisam de umidade regular, drenagem eficiente e **sem secagem completa durante o crescimento**. O destaque é vaso plástico pequeno e perfurado; as alternativas incluem cachepô e vaso mais vazado. Portanto, **não existe contradição interna de secagem total na ficha atual**.
+
+**RHS, orientação específica de Oncidium Twinkle:** https://www.rhs.org.uk/plants/327502/oncidium-twinkle-gx/details : composto aberto à base de cascas com brita hortícola, esfagno de fonte sustentável ou fibra de coco; rega quando o vaso estiver leve, drenagem completa, menor água/adubo no inverno. O cultivo descrito pela RHS é de clima mais ameno; não transferir a frequência de rega diretamente para litoral quente.
+
+**RHS, Oncidium de cultivo quente:** https://www.rhs.org.uk/plants/oncidium-orchids/warm/growing-guide : cascas drenantes, raízes delicadas, regar e permitir ligeira secagem, noites geralmente 13–17°C, dias 18–25°C, umidade relativa 55–75%, ventilação; menor rega no inverno. É **orientação de grupo**, não teste da receita Twinkle.
+
+**Orchid Society of Great Britain:** https://www.osgb.org.uk/orchids/orchid-care-guides/oncidium-orchid-care : casca média com perlita ou carvão, umidade moderada e rega quando o meio se aproxima de seco; destaca que tamanho do vaso e aeração alteram o risco de apodrecimento. É **orientação de grupo**, não comprovação de 25% de perlita.
+
+**Smithsonian Gardens:** https://gardens.si.edu/collections/plants/orchids/orchid-care-sheets/oncidium/ : recomenda avaliar a umidade real do vaso antes de regar; o intervalo varia conforme raízes e substrato. Útil para evitar calendário fixo.
+
+### Matriz de compatibilidade da receita (avaliação técnica qualitativa, não ensaio)
+| Componente | Função esperada | Risco no calor/umidade | Ajuste de manejo, sem trocar percentuais |
+|---|---|---|---|
+| 35% pinus médio | estrutura e porosidade | degradação/compactação com o tempo | inspecionar e substituir meio degradado |
+| 30% chips de coco | reserva hídrica entre regas | água/sais retidos conforme origem e lavagem | conferir qualidade e secagem real do vaso |
+| 25% perlita grossa | espaços de ar, menor densidade | segregação/partículas finas conforme granulometria | usar fração grossa estável e misturar uniformemente |
+| 10% carvão | porosidade complementar | não corrige falta de drenagem por si só | preservar furos e volume proporcional |
+
+**Conclusão:** a receita é **internamente compatível** com o manejo publicado na ficha e qualitativamente defensável. Não há motivo para corrigir agora a orientação de rega ou substituir perlita. **25% de perlita e os demais percentuais continuam sem homologação experimental ou comparação quantitativa de produtores.** Evitar declarar mistura "ideal comprovada"; preferir "proposta de mistura para recipiente pequeno e ventilado". Nesta passagem: **0 fichas alteradas; 0 percentuais homologados**.
