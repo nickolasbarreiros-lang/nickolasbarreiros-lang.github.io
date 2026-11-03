@@ -48,7 +48,7 @@ export const cattleyaPumpkinFestival = {
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 2, status: "Pouco recomendado", texto: "É possível, mas uma Cattleya híbrida vigorosa tende a exigir suporte grande e regas frequentes. Para manejo doméstico, vasos e cestos costumam ser mais práticos." }
         ]
     },
-    substrato: ["🥇 Casca de pinus grossa + carvão vegetal + brita pequena + casca de macadâmia (mistura-base provisória do substrato visual).", "🥈 Casca de pinus grossa + carvão vegetal + perlita grossa.", "🥉 Casca de macadâmia grossa + brita fina + carvão vegetal."],
+    substrato: ["Casca de pinus grossa + carvão vegetal + perlita grossa","Casca de macadâmia grossa + brita fina + carvão vegetal"],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cesto ou vaso",
