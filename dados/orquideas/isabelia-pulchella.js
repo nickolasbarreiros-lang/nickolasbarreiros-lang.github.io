@@ -27,7 +27,7 @@ export const isabeliaPulchella = {
   "adubacao": "🌿 Orgânica: se usar bokashi, mantenha uma quantidade muito pequena em sachê, sem contato com o rizoma ou os brotos; em placa pequena, é perfeitamente possível dispensá-lo.\n💧 Mineral/foliar: prefira fertilizante equilibrado bastante diluído, aproximadamente a cada 10–15 dias enquanto houver brotos e raízes novas. Evite pulverizações concentradas sobre a miniatura e siga o rótulo.\n🧪 Liberação lenta: geralmente desnecessária em montagens pequenas; em vaso, use apenas dose mínima e longe da planta.\n🚿 Lavagem: intercale aplicações com água limpa, evitando o acúmulo de sais nas raízes delicadas.",
   "rega": "Em placa, molhe as raízes com frequência enquanto surgem brotos, permitindo apenas uma secagem breve entre as regas. Nos dias quentes e ventosos, pode ser necessário regar diariamente; em vaso pequeno, espere a superfície começar a perder umidade antes de repetir. Um pouco de esfagno junto às raízes ajuda a segurar a umidade, mas não deve cobrir o rizoma nem ficar encharcado. Após o amadurecimento dos brotos, ajuste a frequência ao ritmo de secagem, sem impor repouso seco.",
   "suporte": "Priorize suporte que permita ao rizoma rastejante avançar sem enterrar os pseudobulbos. Na placa, fixe somente os segmentos antigos e deixe espaço para a frente de crescimento; acompanhe a desidratação nas semanas quentes. Em cesto pequeno, uma camada leve de material fibroso pode suavizar a secagem. Em vaso baixo, não afunde o rizoma na mistura; a árvore viva só é apropriada em posição ventilada, com umidade atmosférica suficiente. Evite remanejar a planta quando novas raízes estiverem aderindo.",
-  "substrato": ["🥇 Casca de pinus pequena + carvão vegetal pequeno + perlita grossa.", "🥈 Casca de arroz carbonizada + casca de pinus pequena + pequena fração de esfagno solto."],
+  "substrato": ["🥇 Placa / tronco: cultivo principal com rizoma exposto e lâmina muito fina de esfagno de fibra longa solto junto às raízes, sem mistura solta. Para vaso raso pequeno, mistura opcional: 40% casca de pinus pequena + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto (proposta NÃO homologada).", "🥈 Casca de arroz carbonizada + casca de pinus pequena + pequena fração de esfagno de fibra longa solto (alternativa qualitativa para vaso, sem percentuais homologados).", "🥉 Casca de pinus pequena + carvão vegetal pequeno + pequena fração de esfagno de fibra longa solto (alternativa qualitativa para vaso, sem percentuais homologados)."],
   "errosComuns": [
     "Enterrar o rizoma ou os pequenos pseudobulbos no substrato.",
     "Deixar uma placa recém-montada secar completamente por longos períodos.",
@@ -251,10 +251,10 @@ export const isabeliaPulchella = {
   },
   "substratoVisual": {
     "titulo": "Substrato ideal",
-    "contexto": "Mistura para vaso — 100% em volume",
-    "resumo": "40% casca de pinus pequena + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto — proporções em volume, para vaso ventilado.",
-    "justificativa": "A receita totaliza 100% em volume e é uma proposta horticultural para cultivo em vaso, distinta da montagem principal quando esta for em madeira. Mantenha o rizoma rastejante preso superficialmente a uma pequena placa, com as raízes livres e uma fina reserva de umidade. A planta deve receber claridade filtrada e ventilação constante; a chave para florir é formar vários pseudobulbos maduros sem ressecar os brotos novos. Ajuste o tamanho das partículas e a frequência de rega à velocidade de secagem, sem compactar.",
-    "receitaTexto": "40% casca de pinus pequena + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto",
+    "contexto": "Placa / tronco principal; mistura opcional para vaso raso pequeno — 100% em volume",
+    "resumo": "Para vaso raso: 40% pinus pequeno + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto; montagem em placa não usa mistura solta.",
+    "justificativa": "Isabelia pulchella é microepífita de rizoma rastejante e raízes finas. A montagem principal é Placa / tronco com rizoma exposto e uma lâmina muito fina de esfagno de fibra longa solto, sem massa de substrato. Para vaso raso pequeno, a receita visual opcional reúne pinus pequeno, casca de arroz carbonizada, carvão pequeno e esfagno solto, totalizando 100% em volume. As duas outras misturas são alternativas qualitativas distintas, sem perlita grossa, e não fundamentam os percentuais visuais. Manter umidade frequente e ventilação, sem compactar esfagno nem enterrar pseudobulbos. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
+    "receitaTexto": "Placa / tronco: rizoma exposto com lâmina muito fina de esfagno solto. Para vaso raso pequeno: 40% casca de pinus pequena + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto (proposta não homologada).",
     "perfil": [
       "Alta aeração",
       "Drenagem funcional",
@@ -308,14 +308,14 @@ export const isabeliaPulchella = {
       },
       {
         "asset": "esfagno",
-        "nome": "Esfagno solto",
+        "nome": "Esfagno de fibra longa solto",
         "proporcao": "15%",
         "nota": "reserva hídrica localizada",
         "finalidade": "Evita desidratação de raízes pequenas; manter solto, nunca compactado."
       }
     ],
     "alerta": "Não usar perlita grossa. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos.",
-    "notaEvidencia": "MACS 1.0 — primeira passagem documental: Isabelia pulchella, microepífita de rizoma rastejante e pseudobulbos pequenos, raízes finas e superficiais; umidade regular, ventilação e noites amenas favorecem desempenho, sem repouso seco severo. Suportes placa/tronco 5 estrelas, cachepô madeira e barro 4, árvore viva 3; não homologados. Receita visual alternativa PARA VASO: 40% pinus pequeno + 25% casca arroz carbonizada + 20% carvão pequeno + 15% esfagno solto = 100% em volume; resumo, receitaTexto e itens concordam. Qualitativa 1 pinus pequeno + carvão pequeno + perlita grossa (sem arroz/esfagno); qualitativa 2 arroz carbonizado + pinus pequeno + pouco esfagno (sem carvão). Visual combina componentes de ambas, não coincide integralmente com nenhuma. ALERTA DE COERÊNCIA: campo alerta proíbe perlita grossa, enquanto a primeira qualitativa ainda a recomenda; registrar divergência para correção posterior, sem editar receitas. Validar granulometria, umidade na montagem versus vaso, rizoma exposto, calor noturno e retenção de esfagno. Meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+    "notaEvidencia": "MACS 1.1 — revisão documental: Isabelia pulchella, microepífita de rizoma rastejante, raízes finas e necessidade de umidade frequente sem abafamento. Placa / tronco com rizoma exposto e mínima camada de esfagno é cultivo principal. Receita visual opcional PARA VASO RASO: 40% pinus pequeno + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto = 100% em volume. Exatamente duas alternativas qualitativas para vaso: arroz carbonizado/pinus/pouco esfagno e pinus/carvão/pouco esfagno. Divergência anterior resolvida: perlita grossa retirada das alternativas, coerente com o alerta. As alternativas não fundamentam os percentuais visuais. Monitorar secagem, calor noturno e exposição do rizoma. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
   },
   "fotoReferencia": {
     "origem": "La Canopée — Isabelia pulchella",
