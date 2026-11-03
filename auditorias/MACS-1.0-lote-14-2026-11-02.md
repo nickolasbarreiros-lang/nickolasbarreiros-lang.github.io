@@ -12,7 +12,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 6. acianthera-teres.js — passagem concluída
 7. isabelia-pulchella.js — passagem concluída
 8. prosthechea-vespa.js — passagem concluída
-9. stelis-ciliaris.js — pendente
+9. stelis-ciliaris.js — passagem concluída
 10. prosthechea-fragrans.js — pendente
 
 ## Passagem 131 — Encyclia oncidioides
@@ -53,3 +53,8 @@ MICROEPÍFITA de rizoma rastejante, raízes finas, umidade regular e boa ventila
 ## Passagem 138 — Prosthechea vespa
 
 EPÍFITA/RUPÍCOLA com pseudobulbos e raízes ventiladas. SUPORTES: vaso barro 5 estrelas, placa/tronco e cachepô madeira 4, árvore viva 3. RECEITA VISUAL PARA VASO: 45% pinus médio + 25% carvão + 20% brita fina + 10% perlita grossa = 100%; resumo, receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa pinus + brita + carvão (sem perlita); segunda macadâmia + carvão + perlita (sem pinus/brita). Nenhuma coincide. CONTRADIÇÃO GRAVE: alerta proíbe perlita grossa, enquanto receita visual contém 10% e segunda qualitativa também recomenda perlita grossa. Validar granulometria, secagem do barro e compatibilidade da perlita. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 786be80a27ef871fa04b2657b0660b9ddeea4c6f. Próxima ficha Stelis ciliaris.
+
+
+## Passagem 139 — Stelis ciliaris
+
+MICROEPÍFITA de raízes finas, umidade regular e aeração contínua. SUPORTES: placa/tronco 5 estrelas, barro e cachepô madeira 4, plástico vasado 3. RECEITA VISUAL PARA VASO: 35% pinus pequeno + 30% esfagno solto + 20% arroz carbonizado + 15% carvão pequeno = 100%; resumo, receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa pinus + esfagno + perlita grossa, sem arroz/carvão; segunda arroz + esfagno + carvão, sem pinus. Nenhuma coincide. CONTRADIÇÃO INTERNA: alerta proíbe perlita grossa, mas primeira mistura qualitativa recomenda perlita grossa. Validar 30% esfagno, retenção e aeração em vaso, granulometria e secagem em placa. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 90bc2cb2c09ff322985ae30615e8583b9b11ed9a. Próxima ficha Prosthechea fragrans.
