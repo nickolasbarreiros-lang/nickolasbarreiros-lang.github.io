@@ -39,7 +39,7 @@ export const coelogyneOvalisVarMiniatum = {
     "adubacao": "🌿 Orgânica: bokashi em quantidade mínima, afastado do rizoma e apenas durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose, aplicado com raízes novas e pseudobulbos em formação.\n🌱 Crescimento: adubação leve e regular funciona melhor do que doses fortes.\n🍂 Período mais frio: reduza a frequência se o crescimento desacelerar.\n🧪 Liberação lenta: poucos grânulos somente em mistura muito drenante.\n🚿 Lavagem: faça irrigação abundante com água pura periodicamente para remover sais.",
     "rega": "Mantenha umidade regular durante o crescimento, mas permita boa entrada de ar no sistema radicular. A espécie ocorre tanto sobre árvores quanto rochas musgosas, indicando raízes acostumadas a umidade frequente sem compactação. No período mais fresco, reduza moderadamente se a planta desacelerar, sem impor seca severa nem deixar os pseudobulbos enrugarem de forma contínua.",
     "suporte": "🥇 Placa larga com pequena faixa de esfagno — acompanha naturalmente o rizoma rastejante.\n🥈 Cesto raso — oferece espaço horizontal e ótima aeração.\n🥉 Vaso largo e baixo — útil onde a umidade ambiental é menor.\nDeixe o rizoma sobre a superfície e reserve espaço para vários anos de avanço.",
-    "substrato": ["🥇 Pinus médio + chips de coco + perlita grossa + carvão vegetal miúdo.","🥈 Esfagno de fibra longa solto + perlita grossa + casca de pinus média.","🥉 Casca de macadâmia média + fibra de coco grossa + perlita grossa + pequena fração de esfagno solto."],
+    "substrato": ["🥇 Para recipiente raso: chips de coco médios + casca de pinus média + perlita grossa + esfagno picado e solto (mistura visual provisória; em placa usar fixação leve).","🥈 Pinus médio + chips de coco + perlita grossa + carvão vegetal miúdo.","🥉 Esfagno de fibra longa solto + perlita grossa + casca de pinus média.","Alternativa adicional: casca de macadâmia média + fibra de coco grossa + perlita grossa + pequena fração de esfagno solto."],
     "formasCultivo": {
         "perfilVisual": "coelogyne",
         "destaque": "Placa / tronco",
@@ -55,7 +55,7 @@ export const coelogyneOvalisVarMiniatum = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para recipiente raso; em placa usar apenas fixação leve",
         "resumo": "Mistura porosa com retenção moderada para raízes superficiais, sem compactar sobre o rizoma.",
-        "justificativa": "A composição segue a primeira alternativa já descrita na ficha, com percentuais sugeridos para visualização. A identidade horticultural ‘Miniatum’ ainda requer confirmação, e a receita não foi homologada pela MACS 1.0.",
+        "justificativa": "A receita visual para recipiente raso combina chips de coco médios, pinus médio, perlita grossa e esfagno picado e solto; foi incluída como primeira alternativa textual. As três alternativas anteriores diferem nos componentes e foram preservadas. Em placa, usar apenas fixação leve. A identidade horticultural ‘Miniatum’ ainda requer confirmação, e a receita não foi homologada pela MACS 1.0.",
         "receitaTexto": "35% chips de coco médios + 30% casca de pinus média + 25% perlita grossa + 10% esfagno picado e solto.",
         "perfil": ["Rizoma rastejante", "Pseudobulbos espaçados", "Raízes superficiais", "Umidade equilibrada", "Aeração alta"],
         "comportamento": [
