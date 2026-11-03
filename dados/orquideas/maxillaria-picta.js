@@ -36,7 +36,7 @@ export const maxillariaPicta = {
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, protegido em porta-adubo e afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante brotação e emissão de raízes.\n🌸 Pré-floração: após a maturação, reduza o nitrogênio em vez de aumentar drasticamente fósforo e potássio.\n🧪 Liberação lenta: poucos grânulos em vaso bem drenante, longe dos brotos.\n🚿 Faça flushing mensal com água pura e nunca aplique solução forte em raízes desidratadas.",
     "rega": "Durante a brotação, regue generosamente e permita que o substrato perca parte da umidade antes da próxima irrigação. Após a maturação, aumente discretamente o intervalo, sobretudo nas semanas frias e nubladas. A espécie não deve receber seca severa. Pseudobulbos levemente sulcados podem ser normais; enrugamento progressivo exige inspeção. Se houver raízes escuras e substrato molhado, o problema tende a ser perda radicular por falta de oxigênio; se as raízes estiverem firmes e a mistura seca, pode ser deficiência hídrica real.",
     "suporte": "🥇 Vaso de barro ou plástico muito perfurado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira, adequado a exemplares grandes e bem estabelecidos.\n🥉 Placa de madeira ou cortiça com pequena quantidade de musgo, somente onde a umidade ambiente e a rotina de rega evitarem desidratação. Preserve espaço para poucos crescimentos futuros.",
-    substrato: ["🥇 Chips de coco + pinus médio + perlita grossa + carvão vegetal miúdo.","🥈 Pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia.","🥉 Fibra de coco grossa + chips de coco + perlita grossa + pinus médio."],
+    substrato: ["🥇 Para vaso pequeno e bem perfurado: casca de pinus média 35% + casca de macadâmia triturada 30% + perlita grossa 25% + fibra de coco grossa 10% (mistura visual provisória, não homologada).","🥈 Chips de coco + pinus médio + perlita grossa + carvão vegetal miúdo.","🥉 Pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia.","Alternativa adicional: fibra de coco grossa + chips de coco + perlita grossa + pinus médio."],
     formasCultivo: {
         perfilVisual: "maxillaria-epifita-litofita-touceira-densa",
         destaque: "Vaso de Barro",
@@ -52,7 +52,7 @@ export const maxillariaPicta = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso pequeno e bem perfurado",
         resumo: "Partículas médias com retenção moderada, drenagem rápida e aeração contínua, evitando umidade parada na base.",
-        justificativa: "A receita quantifica os quatro materiais da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual para vaso pequeno e bem perfurado combina pinus médio, macadâmia triturada, perlita grossa e fibra de coco grossa. A formulação exata foi acrescentada como primeira alternativa textual; as três misturas anteriores foram preservadas. A primeira mistura antiga continha chips de coco e carvão, portanto não correspondia à receita visual. Percentuais estimados e ainda não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de pinus média + 30% casca de macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa.",
         perfil: ["Epífita ou litófita", "Touceira densa", "Flores basais", "Noites amenas", "Secagem rápida"],
         comportamento: [
