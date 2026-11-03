@@ -27,7 +27,7 @@ export const dinemaPolybulbon = {
   "adubacao": "🌿 Orgânica: se usar bokashi, mantenha uma porção mínima em sachê, afastada do rizoma rastejante; em placas pequenas, pode ser dispensado.\n💧 Mineral/foliar: fertilizante equilibrado bem diluído, aproximadamente a cada 10–15 dias enquanto a touceira emite brotos e raízes. Evite concentrar a solução sobre folhas e raízes sensíveis; siga o rótulo.\n🧪 Liberação lenta: geralmente desnecessária em placa; em vaso raso, somente dose pequena e longe dos brotos.\n🚿 Lavagem: intercale aplicações com regas de água limpa para evitar acúmulo de sais.",
   "rega": "Regue com frequência durante a expansão da touceira, sobretudo quando cultivada em placa, onde as raízes superficiais secam rapidamente. Em dias quentes, pode precisar de água diariamente; em vaso raso, espere a superfície perder parte da umidade antes de repetir. Mantenha uma pequena reserva de umidade perto das raízes, mas não cubra o rizoma com esfagno compacto. Após a maturação dos brotos, ajuste a rega à secagem do suporte, sem prolongar a seca.",
   "suporte": "Por formar crescimento rastejante com pseudobulbos sucessivos, prefira placa ou tronco com espaço livre para expansão lateral. Prenda segmentos antigos, deixando os brotos novos descobertos para que enraízem na superfície. Cesto raso é opção quando a secagem da placa é rápida demais; em vaso baixo, não cubra o rizoma com partículas finas. Árvore viva pode funcionar em casca rugosa e local úmido, desde que a planta não seja deslocada após aderir. Evite esfagno compacto e permanentemente molhado sobre os brotos.",
-  "substrato": ["🥇 Casca de pinus pequena + carvão vegetal pequeno + perlita grossa.", "🥈 Casca de arroz carbonizada + esfagno solto + casca de pinus pequena."],
+  "substrato": ["🥇 Placa / tronco: cultivo principal com rizoma exposto e fina camada de esfagno de fibra longa solto sob raízes superficiais. Para vaso pequeno e ventilado, mistura opcional: 35% casca de pinus pequena + 25% carvão vegetal pequeno + 25% esfagno de fibra longa solto + 15% casca de arroz carbonizada (proposta NÃO homologada).", "🥈 Casca de pinus pequena + carvão vegetal pequeno + pequena fração de esfagno de fibra longa solto (alternativa qualitativa para vaso, sem percentuais homologados).", "🥉 Casca de arroz carbonizada + esfagno de fibra longa solto + casca de pinus pequena (alternativa qualitativa para vaso, sem percentuais homologados)."],
   "errosComuns": [
     "Escolher um suporte pequeno, sem espaço para a touceira se espalhar.",
     "Enterrar o rizoma e os pseudobulbos no substrato.",
@@ -253,10 +253,10 @@ export const dinemaPolybulbon = {
   },
   "substratoVisual": {
     "titulo": "Substrato ideal",
-    "contexto": "Mistura para vaso — 100% em volume",
-    "resumo": "35% casca de pinus pequena + 25% carvão vegetal pequeno + 25% esfagno solto + 15% casca de arroz carbonizada — proporções em volume, para vaso ventilado.",
-    "justificativa": "A receita totaliza 100% em volume e é uma proposta horticultural para cultivo em vaso, distinta da montagem principal quando esta for em madeira. Deixe a touceira expandir horizontalmente sobre madeira ou casca, sem enterrar os rizomas. A floração tende a melhorar quando há muitos pseudobulbos maduros; preserve a umidade nas raízes expostas com regas rápidas e boa ventilação, evitando mudanças frequentes de suporte. Ajuste o tamanho das partículas e a frequência de rega à velocidade de secagem, sem compactar.",
-    "receitaTexto": "35% casca de pinus pequena + 25% carvão vegetal pequeno + 25% esfagno solto + 15% casca de arroz carbonizada",
+    "contexto": "Placa / tronco principal; mistura opcional para vaso pequeno — 100% em volume",
+    "resumo": "Para vaso pequeno: 35% pinus pequeno + 25% carvão vegetal pequeno + 25% esfagno de fibra longa solto + 15% casca de arroz carbonizada; placa usa apenas fina camada de esfagno.",
+    "justificativa": "Dinema polybulbon é miniatura epífita de rizoma rastejante, pseudobulbos pequenos e raízes superficiais. Placa / tronco é a forma principal, com espaço para expansão horizontal, rizoma exposto e fina camada de esfagno solto sob raízes ativas. Para vaso pequeno ventilado, a receita visual opcional reúne pinus pequeno, carvão pequeno, esfagno de fibra longa solto e casca de arroz carbonizada, totalizando 100% em volume. As duas outras misturas são alternativas qualitativas distintas, sem perlita grossa, e não fundamentam os percentuais visuais. Monitorar a retenção da fração de 25% de esfagno e evitar compactação ou seca prolongada. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
+    "receitaTexto": "Placa / tronco: rizoma exposto com fina camada de esfagno de fibra longa solto. Para vaso pequeno: 35% casca de pinus pequena + 25% carvão vegetal pequeno + 25% esfagno de fibra longa solto + 15% casca de arroz carbonizada (proposta não homologada).",
     "perfil": [
       "Alta aeração",
       "Drenagem funcional",
@@ -303,7 +303,7 @@ export const dinemaPolybulbon = {
       },
       {
         "asset": "esfagno",
-        "nome": "Esfagno solto",
+        "nome": "Esfagno de fibra longa solto",
         "proporcao": "25%",
         "nota": "reserva hídrica",
         "finalidade": "Protege raízes superficiais contra secagem excessiva em suporte pequeno."
@@ -316,8 +316,8 @@ export const dinemaPolybulbon = {
         "finalidade": "Mantém leveza e oxigênio entre partículas."
       }
     ],
-    "alerta": "A receita visual principal não inclui perlita grossa; a alternativa qualitativa que a menciona ainda exige avaliação de granulometria e secagem antes de ser recomendada. Não enterrar a base da planta nem o rizoma; preservar drenagem e circulação de ar. A receita visual é para vaso, não para revestir integralmente placas ou troncos.",
-    "notaEvidencia": "MACS 1.0 — primeira passagem documental: Dinema polybulbon, miniatura epífita com rizoma rastejante e pseudobulbos pequenos, raízes superficiais, umidade regular e expansão horizontal; não enterrar rizoma nem impor seca prolongada. Suportes placa/tronco 5 estrelas, cachepô madeira e vaso barro 4, árvore viva 3; não homologados. Receita visual alternativa PARA VASO: 35% pinus pequeno + 25% carvão vegetal pequeno + 25% esfagno solto + 15% casca arroz carbonizada = 100% em volume; resumo, receitaTexto e itens concordam. Primeira qualitativa pinus pequeno + carvão pequeno + perlita grossa (sem esfagno/arroz); segunda arroz carbonizado + esfagno solto + pinus pequeno (sem carvão). Nenhuma coincide integralmente com a visual. CONTRADIÇÃO INTERNA: alerta proíbe perlita grossa, enquanto primeira mistura qualitativa recomenda perlita grossa. Validar 25% esfagno quanto a retenção e aeração, tamanho de partículas, secagem em placa e vaso e espaço de expansão do rizoma. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
+    "alerta": "Não usar perlita grossa nas misturas recomendadas para esta miniatura de raízes superficiais. Não enterrar rizoma nem pseudobulbos; manter o esfagno solto e aeração constante. Receita visual é opcional para vaso pequeno, não para cobrir placas ou troncos.",
+    "notaEvidencia": "MACS 1.1 — revisão documental: Dinema polybulbon, miniatura epífita de rizoma rastejante, raízes superficiais e expansão horizontal. Placa / tronco com rizoma exposto e fina camada de esfagno é suporte principal. Receita visual opcional PARA VASO PEQUENO: 35% pinus pequeno + 25% carvão vegetal pequeno + 25% esfagno de fibra longa solto + 15% casca de arroz carbonizada = 100% em volume. Exatamente duas alternativas qualitativas: pinus/carvão/pouco esfagno e arroz carbonizado/esfagno/pinus. Divergência anterior resolvida: perlita grossa retirada das alternativas, coerente com o alerta. Alternativas não fundamentam percentuais visuais. Monitorar retenção de 25% esfagno, ventilação, secagem e expansão do rizoma. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
   },
   "fotoReferencia": {
     "origem": "Loja online — imagem indicada pelo usuário",
