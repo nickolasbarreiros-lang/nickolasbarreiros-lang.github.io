@@ -1157,3 +1157,11 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Híbrido C. Naomi Kerns × C. Waianae Sunset conforme Orquidário Suzuki (registro primário RHS ainda a conferir). Orquidário Maripá documenta mistura de cascas, carvão e madeira, suportes vaso/barro/caixeta e fixação em árvore; **1 produtor com ingredientes específicos, 0 com percentuais**. Pesquisa UNESP com 25 plantas do próprio híbrido é sobre **giberelina/floração**, não substrato; não usá-la para homologação de mistura.
 - R0 atual 45% pinus/25% carvão/20% brita/10% macadâmia; R1 60/20/15/5; R2 60/25/15/0. R1/R2 são hipóteses. **Ingredientes casca+carvão B qualitativo; composição integral D, percentuais D, estrelas D**. Alerta para 20% brita e 10% macadâmia sem evidência específica, e árvore viva como alternativa potencial não listada. Sem alterações JS/assets.
 - Progresso: **11/149 matrizes documentadas**, **0/149 homologações quantitativas**. Próxima espécie oficial: Dendrobium polysema.
+
+
+### MACS 1.1 — Matriz 012: Dendrobium polysema (2026-11-03)
+- Criada `auditorias/MACS-1.1-MATRIZ-012-DENDROBIUM-POLYSEMA.md`, commit `fd7acaf8d2f0046fdfcc029585af8390421e578e`.
+- Naturalis e Orchids of New Guinea: epífita montana de **1200–1900 m**, crescimento intermediário; POWO confirma nome aceito. Orquidário Matsuoka (produtor brasileiro específico) informa **substrato genérico ou toco de madeira**, sem ingredientes/percentuais. **1 produtor com método, 0 com receita de ingredientes ou percentuais**.
+- R0 45% pinus/20% carvão/20% macadâmia/15% esfagno; R1 60/20/5/15; R2 55/20/0/25. R1/R2 hipóteses. **Macadâmia 20% sem evidência específica**; avaliar secagem e retenção sem perder a ventilação. Condição térmica montana é fator independente do substrato em litoral quente.
+- Método vaso/montagem B qualitativo; **composição D, percentuais D, estrelas D**. Não homologada quantitativamente. JS/assets preservados.
+- Progresso: **12/149 matrizes documentadas**, **0/149 homologações quantitativas**. Próxima espécie oficial: Bifrenaria verboonenii (conferir index antes de iniciar).
