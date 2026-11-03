@@ -72,7 +72,7 @@ export const bulbophyllumMiniatum = {
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
         "justificativa": "Há recomendação brasileira para B. saltatorium (sem confirmação da variedade): madeira com esfagno ou substrato drenante. Montagem é uma alternativa documentada; proporções da receita em recipiente são inferência.",
-        "receitaTexto": "35% pinus médio + 25% chips de coco + 25% perlita grossa + 15% esfagno solto.",
+        "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno de fibra longa solto.",
         "perfil": ["Hábito epífito", "Raízes delicadas", "Base exposta", "Umidade regular", "Boa aeração", "Montagem úmida"],
         "comportamento": [
             {
@@ -99,14 +99,14 @@ export const bulbophyllumMiniatum = {
         "itens": [
             {
                             "asset": "casca-pinus",
-                            "nome": "Pinus médio",
+                            "nome": "Casca de pinus média",
                             "proporcao": "35%",
                             "nota": "estrutura",
                             "finalidade": "Apoia raízes superficiais sem compactar."
             },
             {
                             "asset": "chips-coco",
-                            "nome": "Chips de coco",
+                            "nome": "Chips de coco médios preparados",
                             "proporcao": "25%",
                             "nota": "umidade",
                             "finalidade": "Reduz secagem brusca."
@@ -120,16 +120,16 @@ export const bulbophyllumMiniatum = {
             },
             {
                             "asset": "esfagno",
-                            "nome": "Esfagno solto",
+                            "nome": "Esfagno de fibra longa solto",
                             "proporcao": "15%",
                             "nota": "retenção",
                             "finalidade": "Protege pontas radiculares sem abafar a base."
             }
         ],
-        "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo.",
-        "notaEvidencia": "MACS 1.0 — primeira passagem documental: nome aceito na ficha Bulbophyllum saltatorium var. albociliatum (sin. B. miniatum), miniatura epífita de rizoma rastejante. Placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; indicação de montagem com esfagno atribuída na ficha a B. saltatorium sem confirmação da variedade, portanto extrapolação taxonômica e não ensaio específico. Receita visual 35% pinus médio + 25% chips coco + 25% perlita grossa + 15% esfagno = 100%; receitaTexto e itens concordam. DIVERGÊNCIA: primeira receita qualitativa contém chips coco + perlita + carvão miúdo + esfagno, sem pinus; segunda contém macadâmia + pinus + perlita + esfagno, sem chips coco. Proposta não validada quantitativamente; meta de até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        "alerta": "Proposta preliminar MACS 1.1; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo.",
+        "notaEvidencia": "MACS 1.1 — revisão documental: nome aceito na ficha Bulbophyllum saltatorium var. albociliatum (sin. B. miniatum), miniatura epífita de rizoma rastejante. Placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; indicação de montagem com esfagno atribuída na ficha a B. saltatorium sem confirmação da variedade, portanto extrapolação taxonômica e não ensaio específico. Receita visual 35% pinus médio + 25% chips coco + 25% perlita grossa + 15% esfagno = 100%; receitaTexto e itens concordam. Receita principal textual e visual concordam (35% pinus, 25% chips de coco, 25% perlita, 15% esfagno); duas alternativas qualitativas são distintas e não representam a composição principal. Proposta não validada quantitativamente; meta de até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    substrato: "🥇 Receita visual provisória para recipiente raso: pinus médio 35% + chips de coco 25% + perlita grossa 25% + esfagno solto 15% (100%; não homologada).\n🥈 Chips de coco tratados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto.\n🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de esfagno solto.\nAlternativa adicional: esfagno de fibra longa solto + perlita grossa.",
+    substrato: "🥇 Para recipiente raso: 35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno de fibra longa solto (hipótese horticultural NÃO homologada para Bulbophyllum saltatorium var. albociliatum).\\n🥈 Chips de coco médios preparados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto (alternativa qualitativa sem proporções homologadas).\\n🥉 Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de esfagno solto (alternativa qualitativa sem percentuais publicados).",
     errosComuns: "• Tratar Bulbophyllum miniatum como espécie atualmente aceita separada.\n• Enterrar o rizoma ou a base dos pseudobulbos.\n• Compactar esfagno.\n• Confundir alta umidade com substrato saturado.\n• Deixar a planta secar completamente por vários dias.\n• Cultivar em sombra profunda e abafada.\n• Aplicar adubo concentrado sobre raízes finas.\n• Forçar repouso seco para induzir floração.",
     dica: "🏆 O ponto central é separar umidade de encharcamento: mantenha raízes hidratadas, mas o rizoma exposto e aerado. Como a planta avança lateralmente, posicione a parte antiga junto à borda e deixe a frente de crescimento voltada para espaço livre. No litoral quente, 60% a 70% de sombra, ventilação contínua e rega frequente funcionam melhor que tentar produzir frio artificial.",
     revisaoCientificaIAR: {
