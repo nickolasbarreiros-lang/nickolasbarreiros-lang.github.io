@@ -46,11 +46,7 @@ export const aspasiaLunata = {
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "É biologicamente compatível com o hábito epífito, porém exige regas mais frequentes e controle rigoroso para evitar ressecamento prolongado no clima quente." }
         ]
     },
-    substrato: [
-        "🥇 Para vaso proporcional e bem drenado: 30% casca de macadâmia média + 25% casca de pinus média + 20% casca de arroz carbonizada + 15% carvão vegetal médio + 10% esfagno de fibra longa solto (hipótese horticultural NÃO homologada para Aspasia lunata).",
-        "🥈 Casca de pinus média + chips de coco médios + perlita grossa + carvão vegetal (alternativa qualitativa sem percentuais específicos publicados).",
-        "🥉 Casca de macadâmia média + casca de pinus média + perlita grossa + fibra de coco grossa (alternativa qualitativa sem proporções homologadas)."
-    ],
+    substrato: ["Casca de pinus média + chips de coco médios + perlita grossa + carvão vegetal","Casca de macadâmia média + casca de pinus média + perlita grossa + fibra de coco grossa"],
 
     substratoVisual: {
         titulo: "Substrato ideal",
