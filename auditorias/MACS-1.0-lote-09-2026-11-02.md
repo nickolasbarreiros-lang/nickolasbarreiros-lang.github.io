@@ -11,7 +11,7 @@ Escopo: fichas 81–90, na ordem de `dados/orquideas/index.js`, após Bulbophyll
 7. catasetum-mattosianum.js — passagem concluída
 8. laelia-gloriosa.js — passagem concluída
 9. encyclia-bracteata.js — passagem concluída
-10. stanhopea-assidensis.js — pendente
+10. stanhopea-assidensis.js — passagem concluída
 
 ## Passagem 81 — Bulbophyllum saltatorium var. albociliatum (sin. B. miniatum)
 
@@ -56,3 +56,12 @@ ECOLOGIA: epífita tropical de grande porte, raízes ventiladas, rizoma expansiv
 ## Passagem 89 — Encyclia bracteata
 
 ECOLOGIA: miniatura epífita de baixa altitude, alta luminosidade filtrada, raízes aeradas e secagem parcial entre regas. SUPORTES: barro e cachepô madeira 5 estrelas, placa/tronco e plástico vasado 4; notas não validadas especificamente. RECEITA VISUAL: 35% macadâmia + 30% pinus + 20% perlita + 15% carvão = 100%, texto e itens coerentes. DIVERGÊNCIA: justificativa afirma primeira alternativa qualitativa, que lista pinus + perlita + carvão + chips coco, sem macadâmia; segunda lista macadâmia + argila expandida + carvão + pinus, sem perlita. Nenhuma coincide integralmente. Granulometria média em recipiente de miniatura carece de verificação técnica conforme raízes e vaso. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit e51625df46d118c60f36521ddeb6884601fe7586. Próxima ficha Stanhopea assidensis.
+
+
+## Passagem 90 — Stanhopea Assidensis
+
+HIBRIDO: S. tigrina × S. wardii; hastes descendentes, cesto suspenso com fundo aberto indispensável. SUPORTES: cachepô madeira 5 estrelas, plástico vasado 4 somente se permitir saída inferior, raízes soltas/cesto aramado 3; notas não homologadas. RECEITA VISUAL: 40% chips coco + 30% pinus + 20% perlita + 10% esfagno solto = 100%, texto e itens coerentes. DIVERGÊNCIA: justificativa diz seguir quatro materiais da primeira mistura qualitativa, que contém macadâmia + chips coco + perlita + esfagno, sem pinus; segunda contém pinus + fibra coco grossa + perlita + carvão, sem esfagno. Nenhuma coincide integralmente. Confirmar tecnicamente que mistura não bloqueia passagem das hastes e conserva umidade sem compactar. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 26a8a373301506158d7406223743a8fe6fa96270.
+
+## Fechamento do lote 09
+
+Primeira passagem documental MACS 1.0 registrada para as 10 fichas 81–90, com notas individualizadas e inconsistências preservadas para posterior validação técnica. Nenhuma receita, estrela, asset, foto, layout, IDC ou IAR foi alterado. Esta conclusão NÃO significa homologação científica quantitativa das receitas ou das estrelas; a comparação específica com até 25 produtores brasileiros por ficha permanece pendente.
