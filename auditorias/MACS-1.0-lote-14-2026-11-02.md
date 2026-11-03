@@ -7,7 +7,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 1. encyclia-oncidioides.js — passagem concluída
 2. pleurothallis-modestissima.js — passagem concluída
 3. maxillaria-brasiliensis.js — passagem concluída
-4. isochilus-linearis.js — pendente
+4. isochilus-linearis.js — passagem concluída
 5. acianthera-sonderiana.js — pendente
 6. acianthera-teres.js — pendente
 7. isabelia-pulchella.js — pendente
@@ -28,3 +28,8 @@ MICRO-ORQUÍDEA de raízes finas e crescimento rasteiro. SUPORTES: vaso plástic
 ## Passagem 133 — Maxillaria brasiliensis
 
 EPÍFITA compacta, raízes finas, umidade regular e vaso pequeno arejado. SUPORTES: barro 5 estrelas, cachepô madeira e plástico vasado 4, placa/tronco 3. RECEITA VISUAL: 30% macadâmia triturada média + 30% pinus médio + 25% perlita grossa + 15% fibra coco grossa = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa afirma equivalência à primeira qualitativa, mas primeira contém chips coco + pinus + perlita + carvão miúdo, sem macadâmia/fibra coco. Segunda pinus + perlita + esfagno + macadâmia, sem fibra coco. Terceira fibra coco + chips coco + perlita + pinus, sem macadâmia. Nenhuma coincide. Validar granulometria para raízes finas, secagem em barro e retenção da fibra coco. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 7575db654d3e7bae99e2f8a2537618361920c54e. Próxima ficha Isochilus linearis.
+
+
+## Passagem 134 — Isochilus linearis
+
+EPÍFITA/RUPÍCOLA de caules finos sem pseudobulbos; umidade regular sem secagem prolongada. SUPORTES: cachepô madeira 5 estrelas, barro e plástico vasado 4, placa/tronco 3. RECEITA VISUAL: 45% pinus fino + 35% perlita adequada a miniaturas + 20% esfagno longo solto = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz adaptar segunda qualitativa reunindo 'duas granulometrias de perlita', mas segunda contém apenas esfagno + perlita (sem pinus, sem duas granulometrias); primeira contém chips coco + perlita + pinus (sem esfagno). Visual não corresponde integralmente a nenhuma. Referência à primeira indicação original de montagem em madeira também não consta nas misturas qualitativas atuais. Validar retenção, granulometria e procedência altitudinal. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit ba3ffe1173b603f4664f4467b8446af896bb733a. Próxima ficha Acianthera sonderiana.
