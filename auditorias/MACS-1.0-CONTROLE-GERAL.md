@@ -636,3 +636,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Corrigida justificativa falsa de correspondência com a primeira alternativa qualitativa. A primeira lista macadâmia + perlita + cacos cerâmicos ou argila expandida, sem brita/pinus. A terceira menciona brita e componente orgânico genérico, mas não os materiais/proporções exatos. Nenhuma reproduz a receita visual. Nova justificativa explicita divergência e a necessidade de validar a proporção mineral/orgânica para espécie rupícola.
 - Commit ficha: 46b012e74739871d1384e34abd42393c2904880f. Métodos/estrelas, fotos, assets, IDC/IAR e layout preservados. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
 - Progresso: 85/149 checagens; 83 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 086 — verificar sequência do lote 09.
+
+## Registro 086 — Cattleya lundii (sin. Laelia lundii) (2026-11-03)
+- Receita visual/`receitaTexto` mantidos para recipiente: 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; quatro itens concordavam. Corrigida a lista de alternativas: adicionada a composição visual exata como primeira opção para cesto/vaso pequeno e preservadas as três receitas anteriores.
+- Justificativa corrigida: primeira receita antiga usa chips de coco, sem macadâmia; terceira usa argila expandida, sem perlita. Nenhuma correspondia à visual. Reforçado que a mistura é somente para recipiente; placa/tronco continua cultivo principal e não recebe essa receita volumétrica. Commit ficha: 9303357ef2fab1ca83da3c30dec8ae99e2f77a8e.
+- Nenhuma mudança na receita visual, suporte, estrelas, fotos/assets, IDC/IAR ou layout. Percentuais e ranking NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
+- Progresso: 86/149 checagens; 84 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 087 — Catasetum mattosianum.
