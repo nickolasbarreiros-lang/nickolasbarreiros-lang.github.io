@@ -38,7 +38,7 @@ export const laeliaFournieri = {
     adubacao: "🌿 Orgânica: Bokashi é dispensável como rotina; se usado, deve ser mínimo e totalmente afastado da base.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose a cada 10 a 15 dias enquanto houver crescimento ativo.\n🧪 Liberação lenta: não é a primeira escolha. Se utilizada, aplique pouquíssimos grânulos e considere toda a carga de fertilização para evitar salinização.",
     rega: "Durante brotação e enraizamento, regue bem e permita que o meio drene rapidamente e se aproxime da secagem antes da próxima irrigação. Rupícola não significa xerófita absoluta: uma planta pequena em vaso mineral pode secar muito rápido no verão e necessitar de água frequente. No período frio ou de menor atividade, aumente os intervalos, evitando desidratação severa dos pequenos pseudobulbos.",
     suporte: "🥇 Vaso de barro pequeno, raso e muito perfurado.\n🥈 Pedra porosa ou rocha mineral, com fixação muito firme.\n🥉 Cesto baixo e extremamente aberto.\nEscolha sempre o local mais fresco e ventilado, e não simplesmente o ponto mais alto do orquidário.",
-    substrato: ["🥇 Brita fina/média + perlita grossa + carvão vegetal + 15–25% de componente orgânico grosso.","🥈 Casca de macadâmia grossa + perlita grossa + cacos de cerâmica ou argila expandida.","🥉 Perlita grossa + argila expandida + carvão vegetal + pequena fração de casca de pinus grossa."],
+    substrato: ["🥇 Para vaso de barro pequeno, raso e muito perfurado: brita fina/média 40% + perlita grossa 30% + casca de macadâmia triturada 20% + casca de pinus grossa 10% (mistura visual provisória, não homologada).","🥈 Brita fina/média + perlita grossa + carvão vegetal + 15–25% de componente orgânico grosso.","🥉 Casca de macadâmia grossa + perlita grossa + cacos de cerâmica ou argila expandida.","Alternativa adicional: perlita grossa + argila expandida + carvão vegetal + pequena fração de casca de pinus grossa."],
     formasCultivo: {
         perfilVisual: "cattleya-miniatura-rupicola-altitude",
         destaque: "Vaso de Barro",
@@ -54,7 +54,7 @@ export const laeliaFournieri = {
         titulo: "Substrato ideal",
         contexto: "Mistura mineral para vaso baixo e muito perfurado",
         resumo: "Mistura de drenagem imediata, com fração orgânica reduzida, evitando calor e compactação nas raízes sensíveis.",
-        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa já registrada na ficha. Os percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        justificativa: "A receita visual quantifica uma mistura predominantemente mineral para vaso pequeno, raso e muito perfurado: 40% brita fina/média, 30% perlita grossa, 20% macadâmia triturada e 10% pinus grosso. A formulação exata foi acrescentada como primeira alternativa textual; as três opções anteriores foram preservadas. A espécie é rupícola e sensível ao aquecimento radicular; os percentuais são estimativas horticulturais, sem ensaio específico e ainda não homologadas pela MACS 1.0.",
         receitaTexto: "40% brita fina/média + 30% perlita grossa + 20% casca de macadâmia triturada + 10% casca de pinus grossa.",
         perfil: ["Miniatura rupícola", "Raízes sensíveis ao calor", "Alta aeração", "Drenagem imediata", "Pouco volume de substrato"],
         comportamento: [
