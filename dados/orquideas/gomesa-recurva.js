@@ -30,7 +30,7 @@ export const gomesaRecurva = {
     adubacao: "🌿 Orgânica: bokashi leve em porta-adubo no início da brotação.\n💧 Foliar: NPK equilibrado em 1/4 da dose, semanalmente ou a cada 10–15 dias durante o crescimento ativo.\n🧪 Liberação lenta: poucos grânulos no perímetro de vaso drenante, sempre afastados das raízes novas.\n💦 Lavagem: faça periodicamente uma rega abundante apenas com água limpa para reduzir o acúmulo de sais.",
     rega: "Durante a brotação, regue quando o substrato estiver próximo da secagem, mantendo umidade regular sem saturação. Após a maturação dos pseudobulbos, aumente gradualmente o intervalo entre as irrigações, sem permitir enrugamento intenso. No final do inverno, ajuste a água à menor atividade vegetativa, mas não imponha dormência seca.",
     suporte: "🥇 Placa de madeira dura ou cortiça, valorizando o hábito pendente.\n🥈 Cachepô pequeno de madeira.\n🥉 Vaso de barro baixo e perfurado, instalado em posição elevada.",
-    substrato: ["🥇 Para cachepô ou vaso baixo: casca de pinus média + chips de coco + perlita grossa + carvão vegetal (mistura visual provisória; placa/tronco permanece principal).","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
+    substrato: ["🥈 Alternativa 1 — 65% Casca de pinus + 25% Carvão vegetal + 10% Esfagno. Para cachepô/vaso baixo de secagem lenta; percentuais inferidos MACS 1.1 D, não homologados.","🥉 Alternativa 2 — 45% Casca de pinus + 25% Carvão vegetal + 30% Esfagno. Para cachepô/vaso baixo de secagem rápida; usar esfagno solto e monitorar umidade, percentuais inferidos MACS 1.1 D, não homologados."],
     formasCultivo: {
         perfilVisual: "gomesa-epifita-hastes-arqueadas",
         destaque: "Placa / tronco",
@@ -45,9 +45,9 @@ export const gomesaRecurva = {
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para cachepô ou vaso baixo",
-        resumo: "Mistura média e porosa, com retenção moderada e boa circulação de ar, sem esfagno em excesso.",
-        justificativa: "A receita visual propõe pinus médio, chips de coco, perlita grossa e carvão para cachepô ou vaso baixo, agora também descritos na primeira alternativa textual. As alternativas anteriores contêm outros materiais; a montagem principal permanece em placa/tronco, sem mistura volumosa. Percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
-        receitaTexto: "40% casca de pinus média + 30% chips de coco + 20% perlita grossa + 10% carvão vegetal.",
+        resumo: "Mistura de Casca de pinus, Carvão vegetal e Esfagno solto para recipiente baixo e ventilado, sem compactação.",
+        justificativa: "MACS 1.1: o Orquidário Nhá Mercedes recomenda especificamente Casca de pinus, Carvão vegetal e Esfagno para Gomesa recurva; Orquídeas no Apê descreve montagem em madeira com pequena reserva de esfagno. A composição tem apoio qualitativo específico, mas as proporções desta receita são inferências técnicas, sem ensaio ou homologação. Placa/tronco permanece suporte principal, sem mistura volumétrica.",
+        receitaTexto: "55% Casca de pinus + 25% Carvão vegetal + 20% Esfagno (por volume, proposta não homologada).",
         perfil: ["Epífita", "Hastes arqueadas", "Posição suspensa", "Umidade regular", "Raízes ventiladas"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -56,13 +56,12 @@ export const gomesaRecurva = {
             { nome: "Compactação", valor: 2, icone: "🧱" }
         ],
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "40%", nota: "estrutura", finalidade: "Mantém espaços de ar e apoio para raízes." },
-            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade moderada", finalidade: "Ajuda a conservar umidade sem formar massa compacta." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Facilita drenagem e reduz compactação." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "estrutura", finalidade: "Complementa a porosidade do substrato." }
+            { asset: "casca-pinus", nome: "Casca de pinus", proporcao: "55%", nota: "estrutura", finalidade: "Usar granulometria média, mantendo espaços de ar e apoio às raízes." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "25%", nota: "aeração", finalidade: "Usar partículas pequenas ou médias e manter o recipiente bem drenado." },
+            { asset: "esfagno", nome: "Esfagno", proporcao: "20%", nota: "reserva hídrica", finalidade: "Dispor solto e sem compactar, ajustando as regas à secagem real." }
         ],
         alerta: "Não cultivar em sombra excessiva ou ambiente abafado, nem usar vaso grande ou substrato envelhecido. Evitar seca severa e deixar espaço para as hastes arqueadas.",
-        notaEvidencia: "MACS 1.0: POWO confirma Gomesa recurva como epífita, e Freitas et al. (UFV, 29º Congresso Brasileiro de Microbiologia) estudaram raízes da espécie em diferentes árvores hospedeiras, oferecendo evidência ecológica para montagem em madeira. A receita de recipiente 40% pinus + 30% chips de coco + 20% perlita + 10% carvão é inferência horticultural, sem ensaio quantitativo específico localizado. Orquidário Santa Bárbara comercializa a espécie e mistura genérica pinus/carvão, mas não vincula essa mistura à espécie. Percentuais e estrelas não homologados; não atribuir ao produtor recomendação específica inexistente."
+        notaEvidencia: "MACS 1.1: Gomesa recurva possui indicação específica de Casca de pinus, Carvão vegetal e Esfagno pelo Orquidário Nhá Mercedes e cultivo em placa/tronco documentado por Orquídeas no Apê. Yassunaka também cita pinus, fibra de coco em cubos, brita e esfagno, sem proporções. Composição B qualitativa específica; percentuais R1/R2/R3 D inferenciais e NÃO HOMOLOGADOS. Duas alternativas distintas no menu; placa/tronco principal sem percentuais. Nomes e assets canônicos conferidos; estrelas D preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-038-GOMESA-RECURVA.md."
     },
     errosComuns: "Cultivar em sombra excessiva; manter calor noturno abafado e sem vento; usar vaso grande; deixar o substrato velho ou compactado; utilizar esfagno em excesso no clima quente e úmido; impor seca severa; retirar hastes antes de secarem completamente; instalar a planta sem espaço para o desenvolvimento das inflorescências arqueadas.",
     dica: "Cultive em posição elevada ou suspensa para deixar as hastes de 10–35 cm arquearem livremente. No litoral, aproveite o resfriamento natural do outono em vez de tentar impor frio: boa ventilação, luz adequada e pseudobulbos maduros são os gatilhos mais coerentes para a floração.",
