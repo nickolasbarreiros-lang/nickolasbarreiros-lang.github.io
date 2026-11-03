@@ -47,18 +47,16 @@ export const arpophyllumGiganteum = {
         ]
     },
     substrato: [
-        "Casca de macadâmia média + pinus médio + carvão vegetal médio + casca de arroz carbonizada + esfagno solto (mistura-base provisória do substrato visual)",
-        "Casca de macadâmia média + carvão vegetal + casca de arroz carbonizada + esfagno solto",
-        "Casca de pinus média + carvão vegetal + perlita grossa + esfagno solto",
-        "Casca de macadâmia média + chips de coco médios + carvão vegetal",
-        "Casca de arroz carbonizada + perlita grossa + casca de macadâmia + pequena quantidade de turfa de esfagno"
+        "🥇 Vaso estável: 35% casca de macadâmia média + 25% casca de pinus média + 20% carvão vegetal médio + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto (proposta NÃO homologada).",
+        "🥈 Casca de macadâmia média + carvão vegetal médio + casca de arroz carbonizada + pequena quantidade de esfagno de fibra longa solto (alternativa qualitativa).",
+        "🥉 Casca de pinus média + carvão vegetal médio + perlita grossa compatível com vaso + pequena quantidade de esfagno de fibra longa solto (alternativa qualitativa)."
     ],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura estrutural de longa duração, com boa reserva hídrica e ampla aeração para uma touceira adulta que não deve ser replantada desnecessariamente.",
-        justificativa: "A casca de macadâmia entra como componente estrutural durável; o pinus mantém uma fração orgânica tradicional e funcional no cultivo brasileiro; o carvão amplia os macroporos e a estabilidade; a casca de arroz carbonizada mantém leveza e porosidade; e uma pequena fração de esfagno fornece reserva hídrica sem dominar a mistura.",
-        receitaTexto: "Mistura-base provisória para cultivo em vaso: 35% casca de macadâmia média + 25% casca de pinus média + 20% carvão vegetal médio + 10% casca de arroz carbonizada + 10% esfagno solto. Ajustar granulometria e rega conforme secagem observada.",
+        justificativa: "Arpophyllum giganteum forma touceiras grandes e precisa de recipiente estável, substrato aerado e umidade moderada sem encharcamento persistente. A receita principal reúne macadâmia média, pinus médio, carvão médio, casca de arroz carbonizada e 10% de esfagno de fibra longa solto, totalizando 100% em volume. É uma proposta horticultural, não fórmula quantitativa homologada para a espécie. As duas outras misturas são alternativas qualitativas, sem percentuais específicos validados. Monitorar a secagem no centro do vaso e evitar replantios desnecessários. MACS 1.1: evidência quantitativa específica insuficiente.",
+        receitaTexto: "Mistura-base provisória para cultivo em vaso: 35% casca de macadâmia média + 25% casca de pinus média + 20% carvão vegetal médio + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto. Ajustar granulometria e rega conforme secagem observada.",
         perfil: ["Raízes médias", "Boa aeração", "Umidade moderada", "Secagem moderada", "Alta estabilidade", "Touceira grande"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -71,7 +69,7 @@ export const arpophyllumGiganteum = {
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "25%", nota: "estrutura + umidade", finalidade: "Complementa a estrutura e oferece equilíbrio entre aeração e retenção, com uso consolidado em orquidários brasileiros." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal médio", proporcao: "20%", nota: "macroporos + estabilidade", finalidade: "Mantém a mistura aberta e estruturalmente estável." },
             { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "10%", nota: "leveza + porosidade", finalidade: "Aumenta a porosidade sem elevar muito a retenção ou o peso do vaso." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva hídrica", finalidade: "Fornece pequena reserva de umidade entre regas sem compactar a mistura." }
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "10%", nota: "reserva hídrica", finalidade: "Fornece pequena reserva de umidade entre regas sem compactar a mistura." }
         ],
         alerta: "Evite compactar o substrato ao redor da base. Replante principalmente quando houver degradação estrutural da mistura ou perda de drenagem, evitando perturbar a touceira sem necessidade."
     },
