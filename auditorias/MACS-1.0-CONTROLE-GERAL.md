@@ -391,3 +391,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 05:** AOS orienta uso de cascas médias/grossas e secagem entre regas para Cattleyas; estudo brasileiro de outro híbrido (Cattlianthe Chocolate Drop) não valida percentuais deste grex. A composição 35/30/20/15 permanece hipótese horticultural.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 48/149 checagens; 46 fichas com correções efetivas (003–048); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 049 — Acianthera aveniformis.
+
+## Correção na mesma passagem — registro 049 (2026-11-03)
+- **Ficha 049 — Acianthera aveniformis (= Pabstiella aveniformis segundo POWO)** (`dados/orquideas/acianthera-aveniformis.js`): cultivo preferencial placa/tronco; receita visual para vaso pequeno/raso 40% pinus fina/média + 25% casca de arroz carbonizada + 20% carvão pequeno + 15% esfagno solto = 100%.
+- **Correção efetiva:** mistura visual ausente das três alternativas textuais; incluída como primeira opção provisória, preservadas as três anteriores. Justificativa já identificava corretamente o caráter hipotético da receita e foi preservada. Commit `3aa4fd9d500a71b6e2728ee2e43db9f3423eecef`.
+- **Evidência prévia no lote 05:** POWO aceita Pabstiella aveniformis e sinonimiza Acianthera aveniformis; IOSPE registra miniatura epífita reptante, sem receita; Milena Orquídeas orienta umidade e ventilação sem proporções. Nenhum ensaio nem 25 produtores validam a composição 40/25/20/15.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 49/149 checagens; 47 fichas com correções efetivas (003–049); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 050 — Dryadella aviceps.
