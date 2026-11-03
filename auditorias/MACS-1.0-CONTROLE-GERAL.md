@@ -384,3 +384,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 05:** Orquidário Wolf documenta o cruzamento Memoria Rita Franke; Orquidário Santa Clara recomenda pinus e carvão para C. schilleriana, não especificamente para o híbrido. Não há validação dos percentuais 40/25/20/15.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 47/149 checagens; 45 fichas com correções efetivas (003–047); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 048 — Lc. Trick or Treat.
+
+## Correção na mesma passagem — registro 048 (2026-11-03)
+- **Ficha 048 — Cattlianthe Trick or Treat** (`dados/orquideas/lc-trick-or-treat.js`): cultivo principal vaso de barro bem perfurado; receita visual 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão vegetal = 100%.
+- **Correções efetivas:** receita visual ausente das três alternativas textuais; incluída como primeira opção provisória, preservadas as três anteriores. Justificativa corrigida para não atribuir ingredientes da receita visual à primeira alternativa antiga. Commit `7b2b36cf7aac4ddfa1373f924ba2899982674be9`.
+- **Evidência prévia no lote 05:** AOS orienta uso de cascas médias/grossas e secagem entre regas para Cattleyas; estudo brasileiro de outro híbrido (Cattlianthe Chocolate Drop) não valida percentuais deste grex. A composição 35/30/20/15 permanece hipótese horticultural.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 48/149 checagens; 46 fichas com correções efetivas (003–048); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 049 — Acianthera aveniformis.
