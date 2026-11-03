@@ -57,7 +57,7 @@ export const epidendrumCentropetalum = {
         titulo: "Substrato ideal",
         contexto: "Montagem com esfagno fino; mistura alternativa para cachepô ou vaso pequeno",
         resumo: "Substrato leve e arejado, mantendo umidade moderada sem saturação prolongada.",
-        justificativa: "A montagem com esfagno fino é a primeira indicação original de substrato. A receita quantitativa para recipiente deriva da segunda alternativa, consolidando granulometrias de perlita; percentuais não homologados pela MACS 1.0.",
+        justificativa: "A mistura provisória para cachepô ou vaso pequeno combina pinus fino, perlita calibrada e esfagno solto para conciliar aeração e umidade regular. É uma formulação distinta das duas alternativas qualitativas listadas; na montagem em placa/tronco utiliza-se uma pequena camada de esfagno. Os percentuais ainda não foram homologados pela MACS 1.0.",
         receitaTexto: "45% casca de pinus fina + 35% perlita calibrada + 20% esfagno de fibra longa solto.",
         perfil: ["Epífita montana", "Caules finos", "Raízes aéreas", "Forma keikis", "Umidade regular"],
         comportamento: [
