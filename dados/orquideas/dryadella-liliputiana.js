@@ -40,7 +40,7 @@ export const dryadellaLiliputiana = {
     adubacao: "🌿 Orgânica: evite bokashi diretamente no pequeno recipiente, pois é difícil dosar sem aumentar decomposição e sais.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante crescimento ativo.\n🧪 Liberação lenta: não recomendada para recipientes tão pequenos.\n🚿 Lavagem: faça regas abundantes apenas com água periodicamente para remover sais.\n💧 Água: baixa condutividade é especialmente benéfica às raízes finas.",
     rega: "Mantenha umidade relativamente estável, mas nunca uma massa de substrato quente e saturada. Regue novamente quando o material ao redor das raízes estiver se aproximando da secagem. Em montagem com pouco musgo, pode exigir rega diária no verão; em vaso com esfagno, o intervalo deve ser maior. Evite tanto seca prolongada quanto encharcamento contínuo.",
     suporte: "🥇 Placa pequena de cortiça ou madeira com camada fina de esfagno — máxima aeração.\n🥈 Vaso miniatura de barro — ajuda a dissipar calor por evaporação.\n🥉 Cachepô pequeno e muito aberto — útil com mistura extremamente leve.\nMantenha a touceira íntegra e evite manipulações frequentes.",
-    substrato: ["Casca de pinus fina + perlita de granulometria adequada a miniaturas + esfagno de fibra longa solto","Chips de coco pequenos + casca de pinus fina + perlita de granulometria adequada a miniaturas"],
+    substrato: ["Casca de pinus fina + perlita de granulometria adequada a miniaturas + esfagno de fibra longa solto","Chips de coco pequenos preparados + casca de pinus fina + perlita de granulometria adequada a miniaturas"],
     formasCultivo: {
         perfilVisual: "microorquidea-montana-umida",
         destaque: "Placa / tronco",
