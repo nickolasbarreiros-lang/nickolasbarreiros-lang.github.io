@@ -47,6 +47,7 @@ export const arpophyllumGiganteum = {
         ]
     },
     substrato: [
+        "Casca de macadâmia média + pinus médio + carvão vegetal médio + casca de arroz carbonizada + esfagno solto (mistura-base provisória do substrato visual)",
         "Casca de macadâmia média + carvão vegetal + casca de arroz carbonizada + esfagno solto",
         "Casca de pinus média + carvão vegetal + perlita grossa + esfagno solto",
         "Casca de macadâmia média + chips de coco médios + carvão vegetal",
