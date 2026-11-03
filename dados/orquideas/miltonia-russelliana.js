@@ -57,7 +57,7 @@ export const miltoniaRusselliana = {
         titulo: "Substrato ideal",
         contexto: "Mistura aerada para cachepô de madeira",
         resumo: "Equilíbrio entre umidade moderada e alta ventilação, favorecendo pseudobulbos vigorosos sem saturação prolongada.",
-        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A mistura provisória para cachepô de madeira combina pinus médio, chips de coco, perlita grossa e carvão vegetal, visando suporte, umidade moderada e aeração. Ela não reproduz integralmente nenhuma das duas alternativas qualitativas listadas na ficha. Granulometria e percentuais ainda precisam de validação pela MACS 1.0.",
         receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
         perfil: ["Epífita simpodial", "Touceira compacta", "Umidade regular", "Raízes arejadas", "Hastes arqueadas"],
         comportamento: [
