@@ -6,7 +6,7 @@ Escopo: dez fichas seguintes a Lockhartia lunifera na ordem de imports de `dados
 2. `camaridium-carinatum.js` — passagem concluida
 3. `acianthera-pubescens.js` — passagem concluida
 4. `maxillaria-leucaimata.js` — passagem concluida
-5. `coelogyne-asperata.js` — pendente
+5. `coelogyne-asperata.js` — passagem concluida
 6. `coelogyne-flaccida.js` — passagem concluida
 7. `howeara-lava-burst.js` — passagem concluida
 8. `epicattleya-rene-marques.js` — passagem concluida
@@ -68,3 +68,12 @@ ECOLOGIA E SUPORTE: hábito epífita/litófita e rizoma rastejante registrados n
 ## Passagem 70 — Maxillaria picta
 
 ECOLOGIA: ficha registra espécie epífita/rupícola com pseudobulbos densos, flores basais e preferência por noites amenas; sinônimo Brasiliorchis picta. SUPORTES: vaso barro e plástico vasado 5 estrelas, cachepô madeira 4, placa/tronco 3; plausibilidade horticultural sem ensaio comparativo específico. RECEITA VISUAL: 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa = 100%. INCONSISTÊNCIA INTERNA IMPORTANTE: primeira mistura qualitativa da ficha é chips de coco + pinus + perlita + carvão; a justificativa visual afirma falsamente que usa os mesmos quatro materiais. Correção técnica pendente de análise, sem modificar a composição nesta passagem. Nenhum produtor brasileiro com receita percentual específica confirmado nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada; fotos/assets/layout/índices preservados. Commit 88f0e89b8b3b89f3c9d7dadc03883b1d23cb32d6.
+
+
+## Passagem 65 — Coelogyne asperata (regularização)
+
+ECOLOGIA: epífita tropical pseudobulbosa de rizoma expansivo, conforme descrição existente na ficha. SUPORTE: vaso largo e estável e cachepô amplo 5 estrelas, por plausibilidade morfológica, não comparação experimental. RECEITA: 35% chips coco + 30% pinus + 25% perlita + 10% esfagno = 100%. Nenhuma receita percentual específica de produtor brasileiro confirmada nesta passagem; meta 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit da ficha 8b43c737487ec781a03e72bd68c16932102113d2.
+
+## Fechamento do Lote 07 — primeira passagem documental
+
+Dez fichas registradas no GitHub (passagens 61–70). Esta conclusão não representa homologação científica quantitativa MACS 1.0: percentuais, estrelas e meta de até 25 produtores brasileiros por espécie continuam dependentes de validação. Pendências identificadas: divergência entre receita qualitativa e visual de Maxillaria picta; inconsistência entre selo de rega e texto de Leomesezia Lava Burst. Nenhum asset ou layout foi auditado neste lote.
