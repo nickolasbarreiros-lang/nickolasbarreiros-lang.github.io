@@ -137,3 +137,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Contexto científico preexistente no lote 02:** híbrido Cattleya Naomi Kerns × Cattleya Waianae Sunset, parentais conforme registro RHS (https://apps.rhs.org.uk/horticulturaldatabase/orchidregister/orchiddetails.asp?ID=70758). O parentesco não valida os percentuais da mistura; verificar recomendações de produtores brasileiros e adequação do recipiente. Nenhuma nova fonte específica de substrato com percentuais homologados verificada nesta passagem.
 - **Limites:** percentuais, itens visuais, estrelas, fotos, assets, índices IDC/IAR e layout preservados. **Homologação quantitativa pendente**.
 - **Progresso:** 11/149 checagens; 9 fichas com correções editoriais efetivas (003–011); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 012 — Dendrobium polysema.
+
+## Correção na mesma passagem — registro 012 (2026-11-03)
+- **Ficha 012 — Dendrobium polysema** (`dados/orquideas/dendrobium-polysema.js`): receita visual e itens concordam (45% pinus médio + 20% carvão + 20% macadâmia + 15% esfagno solto = 100%).
+- **Correção efetiva:** as duas alternativas do campo `substrato` não correspondiam à receita visual de quatro componentes; incluída como primeira alternativa provisória e preservadas as duas anteriores. Commit `88c3467e4bc599828fbc0b2ced7f640068a75040`.
+- **Evidência prévia:** relatório lote 02 cita AOS e RHS sobre diversidade de grupos de Dendrobium; recomendações gerais não demonstram proporções para esta espécie. Grupo Latouria não deve receber automaticamente repouso seco do tipo nobile. Não foram verificadas novas recomendações específicas de produtores brasileiros nesta passagem.
+- **Limites:** percentuais, itens visuais, estrelas, fotos, assets, índices IDC/IAR e layout preservados. Sazonalidade e retenção em ambiente quente ainda requerem validação; **homologação quantitativa pendente**.
+- **Progresso:** 12/149 checagens; 10 fichas com correções editoriais efetivas (003–012); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 013 — Bifrenaria verboonenii.
