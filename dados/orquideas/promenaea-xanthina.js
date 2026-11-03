@@ -41,7 +41,7 @@ export const promenaeaXanthina = {
         "🥈 Pequeno cesto ou cachepô com substrato leve e drenante.",
         "🥉 Montagem em cortiça ou madeira com fina camada de esfagno, apenas em ambiente de alta umidade."
     ],
-    substrato: ["🥇 Para Vaso plástico vasado pequeno: 45% casca de pinus fina + 40% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto (proposta NÃO homologada).", "🥈 Chips de coco pequenos preparados + perlita de granulometria compatível com raízes finas + casca de pinus fina (alternativa qualitativa sem percentuais homologados).", "🥉 Esfagno de fibra longa solto + perlita de granulometria compatível com raízes finas (alternativa qualitativa sem percentuais homologados; controlar retenção e temperatura)."],
+    substrato: ["Chips de coco pequenos preparados + perlita de granulometria compatível com raízes finas + casca de pinus fina","Esfagno de fibra longa solto + perlita de granulometria compatível com raízes finas"],
     formasCultivo: {
         perfilVisual: "promenaea-xanthina-miniatura-montana-raizes-frescas",
         destaque: "Vaso plástico vasado",
