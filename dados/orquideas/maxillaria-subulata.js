@@ -36,7 +36,7 @@ export const maxillariaSubulata = {
     "adubacao": "🌿 Orgânica: pequena quantidade de bokashi em porta-adubo, afastada do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias na atividade vegetativa.\n🧪 Liberação lenta: poucos grânulos em recipiente muito drenante e longe das raízes novas.\n🚿 Flushing mensal com água pura para reduzir salinidade. Hidrate as raízes antes de aplicar fertilizante.",
     "rega": "Regue abundantemente na brotação e permita secagem parcial rápida antes da próxima irrigação. As folhas subuladas e os pseudobulbos relativamente pequenos oferecem reserva limitada, portanto evite seca severa. Ao mesmo tempo, não mantenha o fundo do vaso permanentemente molhado. Após a maturação, aumente levemente o intervalo. Pseudobulbos enrugados com substrato molhado e raízes escuras sugerem perda radicular; pseudobulbos enrugados com raízes firmes e substrato seco indicam déficit de água.",
     "suporte": "🥇 Vaso de barro ou plástico muito perfurado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira para máxima aeração das raízes finas.\n🥉 Placa de madeira ou cortiça com fina camada de musgo, indicada apenas onde a umidade ambiental supera 65% e há regas frequentes.",
-    substrato: ["🥇 Fibra de coco grossa + chips de coco + perlita grossa + pinus médio.","🥈 Chips de coco + pinus médio + perlita grossa + carvão vegetal miúdo.","🥉 Pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia."],
+    substrato: ["🥇 Para vaso pequeno: casca de pinus média + casca de macadâmia triturada + perlita grossa + fibra de coco grossa (mistura visual provisória, não homologada).","🥈 Fibra de coco grossa + chips de coco + perlita grossa + pinus médio.","🥉 Chips de coco + pinus médio + perlita grossa + carvão vegetal miúdo.","Alternativa adicional: pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia."],
     formasCultivo: {
         perfilVisual: "maxillaria-epifita-raizes-finas-folhas-subuladas",
         destaque: "Vaso de Barro",
@@ -52,7 +52,7 @@ export const maxillariaSubulata = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso pequeno e bem perfurado",
         resumo: "Partículas médias com retenção moderada e alta aeração, adequadas a raízes finas que não toleram saturação prolongada.",
-        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual propõe pinus médio, macadâmia triturada, perlita grossa e fibra de coco grossa, agora também listados na primeira alternativa textual. As três alternativas anteriores contêm outros componentes e foram preservadas. Percentuais estimados e ainda não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de pinus média + 30% casca de macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa.",
         perfil: ["Epífita simpodial", "Raízes finas", "Folhas subuladas", "Umidade regular", "Alta aeração"],
         comportamento: [
