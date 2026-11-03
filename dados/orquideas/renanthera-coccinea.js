@@ -70,7 +70,7 @@ export const renantheraCoccinea = {
             { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Complementa a porosidade do material de fixação." }
         ],
         alerta: "Evitar sombra excessiva, vasos pequenos, mistura fina, cortes de raízes aéreas e falta de tutor. Aumentar a exposição ao sol gradualmente; manter água abundante com secagem rápida.",
-        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+        notaEvidencia: "MACS 1.0: a espécie é epífita e há respaldo qualitativo para cultivo em cesto aberto, suporte de madeira e raízes arejadas. Fontes horticulturais citam cascas e carvão, com perlita como componente possível, mas não validam 45% macadâmia + 35% carvão + 20% perlita para esta espécie. Percentuais são estimativas não homologadas e aplicam-se somente ao pequeno volume de material de fixação, sem preencher o cesto ou cobrir raízes aéreas. Levantamento de produtores brasileiros específicos ainda insuficiente."
     },
     "errosComuns": "Sombra excessiva; vaso pequeno; substrato fino e retentivo; cortar raízes aéreas; falta de tutor; pouca ventilação; adubo concentrado em raízes secas; replantios frequentes; espaço vertical insuficiente; exposição repentina a sol forte sem aclimatação.",
     "dica": "Se não floresce, olhe primeiro para a luz. Esta é uma espécie naturalmente exposta, inclusive em rochas abertas. Aumente a luminosidade gradualmente, mantenha raízes livres e forneça água abundante com secagem rápida — uma combinação muito mais eficiente do que tentar induzir floração com seca.",
