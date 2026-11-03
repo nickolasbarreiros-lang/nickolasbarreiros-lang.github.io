@@ -35,7 +35,7 @@ export const maxillariaLeucaimata = {
     adubacao: "🌿 Orgânica: pequena quantidade de bokashi em porta-adubo, afastada do rizoma e brotações.\n💧 Foliar/radicular: NPK equilibrado, como 20-20-20, em 1/4 da dose a cada 10 a 15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: poucos grânulos apenas em vaso muito drenante e longe das pontas novas.\n🚿 Lavagem de sais: uma vez por mês, regue abundantemente apenas com água pura.",
     rega: "Na fase de crescimento, molhe abundantemente e deixe o excesso escorrer. Ajuste vaso, substrato e ventilação para que a mistura perca rapidamente a água livre e volte a receber oxigênio. Após a maturação, amplie levemente o intervalo entre regas, sem impor seca severa. Pseudobulbos enrugados com substrato ainda molhado geralmente indicam perda radicular, abafamento ou substrato degradado — não simples falta de água.",
     suporte: "🥇 Vaso pequeno e muito perfurado: melhor equilíbrio entre retenção e oxigenação.\n🥈 Vaso de barro: excelente em locais úmidos ou para quem rega com frequência.\n🥉 Cesto de madeira ou placa: bons quando a umidade relativa permanece alta e é possível regar regularmente. O recipiente deve acomodar apenas poucos crescimentos futuros.",
-    substrato: ["🥇 Casca de macadâmia grossa + perlita grossa + cacos de cerâmica ou argila expandida.","🥈 Perlita grossa + argila expandida + carvão vegetal + pequena fração de casca de pinus grossa.","🥉 Brita fina/média + perlita grossa + carvão vegetal + 15–25% de componente orgânico grosso."],
+    substrato: ["🥇 Para vaso pequeno: perlita grossa 35% + brita fina/média 30% + casca de macadâmia triturada 25% + casca de pinus média 10% (mistura visual provisória, não homologada).","🥈 Casca de macadâmia grossa + perlita grossa + cacos de cerâmica ou argila expandida.","🥉 Perlita grossa + argila expandida + carvão vegetal + pequena fração de casca de pinus grossa.","Alternativa adicional: brita fina/média + perlita grossa + carvão vegetal + 15–25% de componente orgânico grosso."],
     formasCultivo: {
         perfilVisual: "maxillaria-epifita-rupicola-raizes-finas",
         destaque: "Vaso plástico vasado",
@@ -51,7 +51,7 @@ export const maxillariaLeucaimata = {
         titulo: "Substrato ideal",
         contexto: "Mistura mineral muito aberta para vaso pequeno",
         resumo: "Predomínio de partículas minerais drenantes, com fração orgânica grossa reduzida para raízes sensíveis à saturação.",
-        justificativa: "A composição quantifica os quatro materiais da primeira mistura qualitativa original, preservando sua predominância mineral. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual para vaso pequeno combina perlita grossa, brita fina/média, casca de macadâmia triturada e pinus médio. A formulação exata foi acrescentada como primeira alternativa textual; as três opções anteriores foram preservadas. A espécie ocorre como epífita e rupícola, mas não há ensaio específico que valide esses percentuais. Mistura provisória, ainda não homologada pela MACS 1.0.",
         receitaTexto: "35% perlita grossa + 30% brita fina/média + 25% casca de macadâmia triturada + 10% casca de pinus média.",
         perfil: ["Epífita ou rupícola", "Raízes finas", "Alta oxigenação", "Drenagem rápida", "Umidade sem saturação"],
         comportamento: [
