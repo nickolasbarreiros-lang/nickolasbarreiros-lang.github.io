@@ -36,7 +36,7 @@ export const maxillariaTenuifolia = {
     "adubacao": "🌿 Orgânica: use bokashi em pequena quantidade, preferencialmente dentro de porta-adubo e afastado do rizoma e das raízes aéreas novas.\n💧 Foliar/mineral: durante brotação e enraizamento, aplique NPK equilibrado em 1/4 a 1/3 da dose, a cada 10–15 dias. Reduza após o amadurecimento do pseudobulbo.\n🧪 Liberação lenta: poucos grânulos em vasos muito drenantes, sempre longe de brotos e pontas radiculares.\n🚿 Flushing: uma vez por mês, lave vaso, tutor e raízes aéreas abundantemente apenas com água limpa para reduzir o acúmulo de sais. Não combine doses integrais dos três métodos.",
     "rega": "Na fase de crescimento, molhe abundantemente e permita que o substrato perca boa parte da umidade antes da próxima rega. As raízes aéreas dos pseudobulbos superiores podem precisar de borrifação matinal em dias muito quentes. Após a maturação, aumente discretamente o intervalo sem provocar murchamento acentuado. Pseudobulbos levemente sulcados podem ser normais; enrugamento progressivo acompanhado de raízes pretas, ocas ou moles indica perda radicular por abafamento, e não simples falta de água.",
     "suporte": "🥇 Vaso de barro pesado com tutor vertical de madeira, cortiça ou casca rugosa: estabiliza a touceira e permite que o rizoma escandente se fixe.\n🥈 Cachepô de madeira: acomoda exemplares grandes e deixa brotos e raízes escaparem pelas laterais.\n🥉 Cepo, tronco ou placa robusta: reproduz o crescimento natural e funciona muito bem onde há umidade ambiental suficiente.",
-    substrato: ["🥇 Pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia.","🥈 Fibra de coco grossa + chips de coco + perlita grossa + pinus médio.","🥉 Chips de coco + pinus médio + perlita grossa + carvão vegetal miúdo."],
+    substrato: ["🥇 Para vaso com tutor vertical: casca de pinus média + casca de macadâmia triturada + perlita grossa + fibra de coco grossa (mistura visual provisória, não homologada).","🥈 Pinus médio + perlita grossa + pequena fração de esfagno picado + casca de macadâmia.","🥉 Fibra de coco grossa + chips de coco + perlita grossa + pinus médio.","Alternativa adicional: chips de coco + pinus médio + perlita grossa + carvão vegetal miúdo."],
     formasCultivo: {
         perfilVisual: "maxillaria-escandente-rizoma-em-escada",
         destaque: "Vaso de Barro",
@@ -52,7 +52,7 @@ export const maxillariaTenuifolia = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso com tutor vertical",
         resumo: "Mistura de granulometria média com retenção moderada e boa drenagem, mantendo raízes basais ativas enquanto o rizoma ascende pelo tutor.",
-        justificativa: "A receita quantifica os quatro materiais da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual propõe pinus médio, macadâmia triturada, perlita grossa e fibra de coco grossa para vaso com tutor vertical, agora também listados na primeira alternativa textual. As três alternativas anteriores são diferentes e foram preservadas. A espécie tem rizoma ascendente; os percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
         receitaTexto: "35% casca de pinus média + 30% casca de macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa.",
         perfil: ["Epífita escandente", "Rizoma em escada", "Raízes aéreas superiores", "Tutor vertical", "Drenagem rápida"],
         comportamento: [
