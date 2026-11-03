@@ -36,11 +36,9 @@ export const aciantheraPubescens = {
     rega: "Regue regularmente, mantendo as raízes hidratadas sem saturação contínua. Plantas montadas podem exigir rega diária ou quase diária no verão litorâneo; vasos devem perder parte da umidade superficial antes da próxima irrigação. Ajuste a frequência à procedência: clones de ambientes montanos geralmente apreciam umidade constante com temperaturas mais amenas e excelente ventilação.",
     suporte: ["🥇 Vaso pequeno e muito drenado.", "🥈 Placa de madeira, cortiça ou tronco com pequena reserva de musgo.", "🥉 Cachepô pequeno e ventilado, adequado a touceiras adultas."],
     substrato: [
-        "🥇 Para vaso pequeno e muito drenante: casca de pinus fina/média 35% + casca de arroz carbonizada 30% + carvão vegetal pequeno 20% + esfagno solto 15% (mistura provisória, não homologada).",
-        "🥈 Casca de pinus fina + casca de arroz carbonizada + carvão vegetal pequeno",
-        "🥉 Casca de arroz carbonizada + perlita grossa + turfa de esfagno em baixa proporção",
-        "Chips de coco pequenos + casca de arroz carbonizada + carvão vegetal pequeno",
-        "Casca de pinus fina + perlita grossa + esfagno solto"
+        "🥇 Para vaso pequeno e drenante: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto (hipótese horticultural NÃO homologada).",
+        "🥈 Casca de pinus fina + casca de arroz carbonizada + carvão vegetal pequeno (alternativa qualitativa sem proporções específicas publicadas).",
+        "🥉 Casca de pinus fina + perlita grossa + esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados)."
     ],
     formasCultivo: {
         perfilVisual: "micro-pleurothalidina",
@@ -59,7 +57,7 @@ export const aciantheraPubescens = {
         contexto: "Para cultivo em vaso",
         resumo: "Mistura leve, muito aerada e de retenção moderada, adequada a raízes finas que pedem umidade regular sem compactação.",
         justificativa: "A espécie é predominantemente epífita e possui raízes finas. Em vaso, a prioridade é manter macroporos e secagem parcial sem deixar a mistura desidratar abruptamente. A casca de arroz carbonizada aumenta a estabilidade e a aeração; pinus fornece estrutura; carvão prolonga a porosidade; e uma pequena fração de esfagno cria reserva hídrica localizada.",
-        receitaTexto: "Mistura-base provisória para vaso pequeno e drenante: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto.",
+        receitaTexto: "Mistura-base provisória para vaso pequeno e drenante: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto.",
         perfil: ["Raízes finas", "Alta aeração", "Umidade frequente", "Secagem moderada", "Baixa compactação", "Rizoma livre"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -71,10 +69,10 @@ export const aciantheraPubescens = {
             { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "35%", nota: "estrutura + umidade moderada", finalidade: "Forma a estrutura orgânica principal mantendo espaços de ar entre as raízes." },
             { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "30%", nota: "aeração + estabilidade", finalidade: "Reduz compactação, favorece drenagem e mantém a mistura fisicamente aberta." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "20%", nota: "porosidade + durabilidade", finalidade: "Ajuda a preservar macroporos e estabilidade física por mais tempo." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "15%", nota: "reserva hídrica localizada", finalidade: "Evita secagem brusca das raízes finas sem transformar a mistura em um meio encharcado." }
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "15%", nota: "reserva hídrica localizada", finalidade: "Evita secagem brusca das raízes finas sem transformar a mistura em um meio encharcado." }
         ],
         alerta: "Em vaso, mantenha o rizoma próximo da superfície e não compacte a mistura. Prefira recipiente pequeno e muito drenado.",
-        notaEvidencia: "MACS 1.0 — primeira passagem: POWO/Kew reconhece Acianthera pubescens (sin. Pleurothallis pubescens) como epífita de floresta tropical úmida. Estudo florístico da UNESP descreve hábito holoepífito, simpodial e reptante, sem pseudobulbos, mas não avalia substratos. Orquidário Aparecida, produtor brasileiro com orientação específica para esta espécie, comercializa plantas montadas em ripinha de cambará e informa umidade/ventilação regulares; é evidência prática para suporte em madeira, NÃO comparação de desempenho. Apenas um produtor com indicação específica foi identificado nesta passagem, abaixo da meta de 25. A receita para vaso 35% pinus fino/médio + 30% casca de arroz carbonizada + 20% carvão pequeno + 15% esfagno solto é hipótese horticultural NÃO HOMOLOGADA: nenhuma fonte consultada testa estes percentuais na espécie. Preservar estrelas e receita; conferência visual de assets pendente.",
+        notaEvidencia: "MACS 1.1 — revisão da ficha: POWO/Kew reconhece Acianthera pubescens (sin. Pleurothallis pubescens) como epífita de floresta tropical úmida. Estudo florístico da UNESP descreve hábito holoepífito, simpodial e reptante, sem pseudobulbos, mas não avalia substratos. Orquidário Aparecida, produtor brasileiro com orientação específica para esta espécie, comercializa plantas montadas em ripinha de cambará e informa umidade/ventilação regulares; é evidência prática para suporte em madeira, NÃO comparação de desempenho. Apenas um produtor com indicação específica foi identificado nesta passagem, abaixo da meta de 25. A receita para vaso 35% pinus fino/médio + 30% casca de arroz carbonizada + 20% carvão pequeno + 15% esfagno solto é hipótese horticultural NÃO HOMOLOGADA: nenhuma fonte consultada testa estes percentuais na espécie. Receita principal mantida como hipótese não homologada, com exatamente duas alternativas qualitativas. Proporções textuais e visuais coincidem e somam 100%; existência dos arquivos de imagem dos assets não verificada nesta alteração.",
     },
     errosComuns: ["Aplicar o mesmo regime a exemplares de procedências muito diferentes.", "Manter touceira densa molhada e sem ventilação.", "Usar substrato compacto ou decomposto.", "Expor ao sol direto forte.", "Deixar as raízes secarem completamente por períodos longos.", "Acumular sais de fertilizante.", "Fixar uma época única de floração para uma espécie que pode florescer o ano inteiro."],
     revisaoCientificaIAR: {
