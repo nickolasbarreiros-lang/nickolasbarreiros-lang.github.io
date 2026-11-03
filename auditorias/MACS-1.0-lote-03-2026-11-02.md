@@ -269,3 +269,24 @@ Menegusso et al. (2021), *Vegetative development and flowering of Encyclia hybri
 - *Encyclia Mineirinha*: **1 produtor brasileiro específico**, evidência direta de recipiente, **sem receita**.
 - **1 ficha corrigida cientificamente** (*D. tenellum*), sem alterar classificações, fotos ou receitas.
 - **0 homologações de percentuais**. O alvo de até 25 produtores brasileiros por espécie permanece pendente, sem preencher lacunas com fontes de outros táxons.
+
+## Décima passagem — auditoria da transferibilidade de evidências (02/11/2026)
+
+### Encyclia ‘Mineirinha’
+1. **Evidência direta de identidade e recipiente:** Orquidário Wolf, https://www.orquidariowolf.com.br/produtos/encyclia-mineirinha-xb68w/ : cruzamento *E. patens × E. oliveirana*; plantas adultas em cestinho, envio envasado. Não informa receita nem proporções.
+2. **Evidência do parental, não do híbrido:** relato de cultivo de *Encyclia patens* publicado por orquidófilo da SBO, https://amigaorquidea.wordpress.com/2010/03/13/encyclia-patens/ : vaso de barro, substrato vegetal, irrigação moderada sem encharcar ou secar completamente. **Não é recomendação específica para ‘Mineirinha’**; aponta potencial conflito com a instrução de deixar o substrato secar completamente na ficha do híbrido, mas não autoriza corrigi-la sem evidência direta.
+3. **Evidência experimental em híbrido diferente:** Menegusso et al. (2021), https://ornamentalhorticulture.com.br/rbho/article/view/2233 : híbrido *Encyclia* ‘Kropp’ × *E. atropurpurea*, quatro substratos × cinco intervalos de adubação, melhor floração com meios à base de esfagno no ensaio. **Não valida uso de esfagno em ‘Mineirinha’**, nem invalida a mistura atual. Não contar como produtor da ‘Mineirinha’.
+4. **Outro táxon, não evidência direta:** Orquidário Santa Clara, https://orquidariosantaclara.com.br/orquideas-diversas/5746-encyclia-oncidioides-dark-pre-adulta.html : *E. oncidioides*, pinus/carvão/pedrisco no fundo. Não contar para ‘Mineirinha’.
+
+**Decisão:** conservar 35% macadâmia / 30% pinus / 20% perlita / 15% carvão e método principal em vaso de barro como propostas, com pendência de testar regime hídrico contra a prática do parental *E. patens*. Sem homologação quantitativa.
+
+### Dendrobium tenellum
+1. **AOS — orientação de gênero, não específica:** https://www.aos.org/orchid-care/care-sheets/dendrobium-general-culture-sheet : casca média/grossa + perlita + carvão para estufa, com rega e repouso dependentes do grupo. Não fornece receita específica para *D. tenellum*.
+2. **Estudo brasileiro de espécie diferente:** Assis et al., https://www.periodicos.uem.br/ojs/index.php/ActaSciAgron/article/view/1843 : testa coco desfibrado, pó e cubos em *D. nobile*; alguns tratamentos com coco viáveis para **essa espécie**. Não comprova 25% chips de coco em *D. tenellum*.
+3. **Fonte terciária específica, baixa confiança numérica:** https://www.orchid.guru/content/orchids/d/dendrobium/tenellum/ : recomenda mistura drenante ou montagem e sugere 70% orgânicos/30% inorgânicos, mas o mesmo texto contém inconsistências graves de temperatura e precipitação; não homologar proporções com essa fonte.
+4. **Fonte homônima enganosa:** https://www.orchid.guru/content/orchids/d/dendrochilum/tenellum/ é *Dendrochilum tenellum*, gênero diferente; **excluir** de evidências para *Dendrobium tenellum*.
+
+**Decisão:** manter receita 40% pinus / 25% coco / 25% perlita / 10% carvão e nota de estimativa. A correção de tolerância térmica da passagem anterior permanece. Sem evidência de 25 produtores brasileiros da espécie.
+
+### Critério MACS reforçado
+Separar em cada ficha: (A) produtor brasileiro da mesma espécie/híbrido, (B) fonte científica da mesma espécie/híbrido, (C) evidência de parental, gênero ou híbrido diferente, (D) inferência horticultural. Só A/B podem corroborar diretamente uma recomendação; nenhum deles, isoladamente, homologa percentuais sem medição/comparação. **Nesta passagem: 0 fichas alteradas; 0 receitas homologadas.**
