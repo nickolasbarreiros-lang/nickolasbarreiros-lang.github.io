@@ -41,7 +41,7 @@ export const epidendrumCentropetalum = {
         "🥈 Placa de cortiça ou madeira com pequena camada de esfagno junto às raízes.",
         "🥉 Vaso pequeno e bem perfurado, usando mistura leve e de drenagem rápida."
     ],
-    substrato: ["🥇 Para Cachepô de Madeira pequeno e bem vazado: 45% casca de pinus fina + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto (proposta NÃO homologada).", "🥈 Chips de coco pequenos preparados + perlita de granulometria adequada a raízes finas + casca de pinus fina (alternativa qualitativa sem percentuais homologados).", "🥉 Esfagno de fibra longa solto + perlita de granulometria adequada a raízes finas (alternativa qualitativa sem percentuais homologados; controlar a retenção)."],
+    substrato: ["Chips de coco pequenos preparados + perlita de granulometria adequada a raízes finas + casca de pinus fina","Esfagno de fibra longa solto + perlita de granulometria adequada a raízes finas"],
     formasCultivo: {
         perfilVisual: "epifita-montana-caules-finos-keikis",
         destaque: "Cachepô de Madeira",
