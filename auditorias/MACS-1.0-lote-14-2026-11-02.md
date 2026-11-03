@@ -6,7 +6,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 
 1. encyclia-oncidioides.js — passagem concluída
 2. pleurothallis-modestissima.js — passagem concluída
-3. maxillaria-brasiliensis.js — pendente
+3. maxillaria-brasiliensis.js — passagem concluída
 4. isochilus-linearis.js — pendente
 5. acianthera-sonderiana.js — pendente
 6. acianthera-teres.js — pendente
@@ -23,3 +23,8 @@ EPÍFITA/RUPÍCOLA de luz alta, raízes aeradas, secagem entre regas. SUPORTES: 
 ## Passagem 132 — Acianthera modestissima (arquivo histórico pleurothallis-modestissima)
 
 MICRO-ORQUÍDEA de raízes finas e crescimento rasteiro. SUPORTES: vaso plástico baixo 5 estrelas, árvore viva 4, barro e placa/tronco 3. RECEITA VISUAL: 35% pinus fino + 30% brita pequena + 20% carvão pequeno + 15% esfagno solto = 100%; itens somam 100%, porém não existe receitaTexto no substratoVisual. QUALITATIVAS: primeira pinus + arroz carbonizado + carvão, sem brita/esfagno; segunda brita + pinus + esfagno, sem carvão; terceira chips coco + brita + carvão, sem pinus/esfagno; quarta pinus + perlita + esfagno, sem brita/carvão. Nenhuma coincide. INCONSISTÊNCIA ECOLÓGICA INTERNA: justificativa diz saxícola em afloramentos quartzíticos, enquanto habitat e descrição registram epífita em floresta sazonalmente seca; validar origem antes de justificar 30% brita. Validar granulometria, umidade e rizoma superficial. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 8abe6233aef7aee98d84f8f7d038d61094679066. Próxima ficha Maxillaria brasiliensis.
+
+
+## Passagem 133 — Maxillaria brasiliensis
+
+EPÍFITA compacta, raízes finas, umidade regular e vaso pequeno arejado. SUPORTES: barro 5 estrelas, cachepô madeira e plástico vasado 4, placa/tronco 3. RECEITA VISUAL: 30% macadâmia triturada média + 30% pinus médio + 25% perlita grossa + 15% fibra coco grossa = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa afirma equivalência à primeira qualitativa, mas primeira contém chips coco + pinus + perlita + carvão miúdo, sem macadâmia/fibra coco. Segunda pinus + perlita + esfagno + macadâmia, sem fibra coco. Terceira fibra coco + chips coco + perlita + pinus, sem macadâmia. Nenhuma coincide. Validar granulometria para raízes finas, secagem em barro e retenção da fibra coco. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 7575db654d3e7bae99e2f8a2537618361920c54e. Próxima ficha Isochilus linearis.
