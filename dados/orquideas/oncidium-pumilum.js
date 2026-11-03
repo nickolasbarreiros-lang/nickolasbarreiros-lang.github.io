@@ -72,7 +72,7 @@ export const oncidiumPumilum = {
             { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "10%", nota: "fração orgânica", finalidade: "Complementa a fixação das raízes sem dominar a mistura." }
         ],
         alerta: "Evitar sombra densa, vasos grandes, encharcamento, excesso de esfagno, adubação concentrada e divisão de touceiras pequenas.",
-        notaEvidencia: "Receita percentual apenas para recipientes; a forma principal é montagem em placa. Estrelas e percentuais são estimativas não homologadas pela MACS 1.0. Conferência visual dos assets pendente."
+        notaEvidencia: "MACS 1.0: montagem em placa sustentada por relatos específicos. Para recipientes, há relatos de brita pura, casca de macadâmia e misturas de pinus, carvão e fibra de coco; outra fonte descreve 50% cascas + 50% carvão, com musgo opcional. A fórmula mineral atual (35% perlita + 30% brita + 25% macadâmia + 10% pinus) é hipótese horticultural sem comparação quantitativa específica, portanto não homologada. Receita aplicável apenas a recipientes, nunca como enchimento da placa."
     },
     "errosComuns": "Sombra densa; vaso grande; encharcamento; dividir touceiras pequenas; enterrar rizoma; adubo concentrado; pouca ventilação; excesso de esfagno; replantio frequente.",
     "dica": "Preserve a touceira. Quanto mais frentes maduras permanecerem juntas, maior tende a ser o número de hastes e o efeito de 'nuvem amarela'. Combine isso com luz filtrada forte e secagem rápida após as regas matinais.",
