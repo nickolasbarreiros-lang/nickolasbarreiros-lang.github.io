@@ -13,7 +13,7 @@ Escopo: primeira passagem documental de cultivo e substratos. Não alterar recei
 7. bulbophyllum-ambrosia.js — passagem concluída
 8. cattleya-guttata-var-coerulea.js — passagem concluída
 9. octomeria-diaphana.js — passagem concluída
-10. acianthera-bragae.js — pendente
+10. acianthera-bragae.js — passagem concluída
 
 ## Passagem 101 — Ornithocephalus myrticola
 
@@ -58,3 +58,12 @@ ECOLOGIA: bifoliada epífita de grande porte, requer estabilidade, drenagem e ve
 ## Passagem 109 — Octomeria diaphana
 
 ECOLOGIA: miniatura epífita cespitosa, raízes finas e umidade regular, montagem principal em placa com esfagno mínimo. SUPORTES: placa/tronco 5 estrelas, cachepô madeira 4, plástico vasado 3, barro 2. RECEITA VISUAL alternativa para recipiente: 40% chips coco pequenos + 30% pinus fino + 30% perlita grossa = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa atribui receita à segunda qualitativa (pinus fino + perlita adequada a miniaturas + pequena fração esfagno), mas visual omite esfagno, acrescenta 40% chips coco e especifica perlita grossa; primeira qualitativa esfagno + perlita também difere. Validar granulometria da perlita para raízes finas, retenção dos chips e secagem por recipiente. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 108e83fd1e1ec915f9ee08c247fbcb9e16695eda. Próxima ficha Acianthera bragae.
+
+
+## Passagem 110 — Acianthera bragae
+
+ECOLOGIA: miniatura epífita/litófita reptante, raízes finas, umidade frequente e rizoma exposto. SUPORTES: placa/tronco 5 estrelas, árvore viva e cachepô madeira 4, plástico vasado 3. RECEITA VISUAL alternativa para vaso: 45% pinus fino/médio + 25% casca arroz carbonizada + 20% carvão pequeno + 10% esfagno solto = 100%; texto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: nenhuma das três qualitativas coincide integralmente (primeira sem arroz; segunda chips coco + carvão + arroz; terceira pinus + perlita + esfagno). Justificativa apresenta hipótese para recipiente sem afirmar equivalência; alegação sobre produtores brasileiros usando madeira requer referências individualizadas. Validar retenção de esfagno, aeração, granulometria e secagem. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 8161f3462d87c7f569e28e57cbb9f21661cfea6c.
+
+## Encerramento do Lote 11
+
+Primeira passagem documental concluída nas fichas 101–110 (10/10). Não houve alterações em receitas, percentuais, suportes, estrelas, assets, layouts, IDC ou IAR. Todas as divergências foram registradas para etapa posterior de validação técnica e comparação documentada com produtores brasileiros e referências científicas; nenhuma receita ou nota foi homologada quantitativamente nesta passagem.
