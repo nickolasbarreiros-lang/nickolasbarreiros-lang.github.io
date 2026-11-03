@@ -40,7 +40,7 @@ export const zygopetalumMaculatum = {
     "adubacao": "🌿 Orgânica: bokashi em sachê pequeno na borda do vaso.\n💧 Mineral/Foliar: NPK equilibrado bem diluído a cada 7–15 dias durante brotação ativa.\n🧪 Liberação lenta: Osmocote apenas em dose muito baixa, pois o calor acelera a liberação.\n🚿 Lavagem: faça lavagens periódicas do substrato para remover sais.",
     "rega": "Mantenha o substrato levemente úmido, regando pela manhã. No frio, reduza a frequência conforme a evaporação, mas preserve pseudobulbos firmes. Evite água acumulada nos brotos novos e regas noturnas.",
     "suporte": "🥇 Vaso de barro muito perfurado — favorece resfriamento por evaporação.\n🥈 Vaso plástico claro, largo e baixo — reduz absorção de calor.\nPosicione preferencialmente em bancada baixa e fresca, sem bloquear o fluxo de ar.",
-    substrato: ["🥇 Fibra de coco grossa + casca de arroz carbonizada + pinus médio + perlita grossa.","🥈 Casca de macadâmia média + chips de coco + perlita grossa + pequena fração de esfagno picado."],
+    substrato: ["🥇 Para vaso de barro perfurado: 40% chips de coco médios preparados + 35% casca de pinus fina/média + 25% perlita grossa compatível com o recipiente (proposta NÃO homologada).", "🥈 Fibra de coco grossa preparada + casca de arroz carbonizada + casca de pinus média + perlita grossa (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de macadâmia média + chips de coco médios preparados + perlita grossa + pequena fração de esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados)."],
     formasCultivo: {
         perfilVisual: "zygopetalum-maculatum-terrestre-rupicola-raizes-sensiveis-calor",
         destaque: "Vaso de Barro",
@@ -54,9 +54,9 @@ export const zygopetalumMaculatum = {
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Mistura porosa com umidade regular para raízes sensíveis ao calor",
-        resumo: "Chips de coco, pinus e perlita grossa mantêm a mistura leve e aerada, permitindo regas regulares sem saturação prolongada.",
-        justificativa: "A primeira mistura qualitativa citava perlita e perlita grossa separadamente; foram reunidas como perlita grossa para evitar duplicação. Percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
-        receitaTexto: "40% chips de coco médios + 35% casca de pinus fina/média + 25% perlita grossa.",
+        resumo: "Chips de coco médios preparados, pinus fino/médio e perlita compatível com o recipiente favorecem umidade regular e aeração, sem saturação prolongada.",
+        justificativa: "Zygopetalum maculatum é terrestre ou rupícola e apresenta sensibilidade ao aquecimento das raízes. Para vaso de barro perfurado, a receita visual propõe chips de coco médios preparados, casca de pinus fina/média e perlita grossa compatível com o recipiente, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas, não a origem dos percentuais visuais. A composição precisa conservar umidade regular sem encharcar, mas não substitui noites mais frescas para floração. MACS 1.1: formulação horticultural provisória sem homologação quantitativa específica.",
+        receitaTexto: "40% chips de coco médios preparados + 35% casca de pinus fina/média + 25% perlita grossa compatível com o recipiente (proposta não homologada).",
         perfil: ["Terrestre ou rupícola", "Raízes sensíveis ao calor", "Umidade regular", "Boa drenagem", "Preferência por noites frescas"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -65,173 +65,9 @@ export const zygopetalumMaculatum = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "chips-coco", nome: "Chips de coco médios", proporcao: "40%", nota: "umidade e estrutura", finalidade: "Conserva umidade moderada sem compactar o recipiente." },
+            { asset: "chips-coco", nome: "Chips de coco médios preparados", proporcao: "40%", nota: "umidade e estrutura", finalidade: "Conserva umidade moderada sem compactar o recipiente." },
             { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece suporte às raízes com espaços de ar." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e reduz retenção excessiva." }
+            { asset: "perlita", nome: "Perlita grossa compatível com o recipiente", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e reduz retenção excessiva." }
         ],
         alerta: "Evitar vaso preto exposto ao sol, calor acumulado, substrato encharcado, água parada nos brotos novos e secagem completa por vários dias. A receita não substitui a necessidade de noites mais frescas para floração consistente.",
-        notaEvidencia: "MACS 1.0 — primeira passagem documental: Zygopetalum maculatum, terrestre/rupícola, raízes sensíveis a calor, requer umidade regular e noites frescas; vaso de barro 5 estrelas, plástico comum 4, plástico vasado 3; não homologados. Receita visual 40% chips coco médios + 35% pinus fino/médio + 25% perlita grossa = 100%; receitaTexto e itens concordam. DIVERGÊNCIA GRAVE: justificativa afirma que primeira qualitativa repetia perlita e perlita grossa, mas primeira contém fibra coco grossa + casca arroz carbonizada + pinus médio + perlita grossa, sem duplicação; visual substitui fibra por chips e omite arroz carbonizado. Segunda qualitativa macadâmia + chips coco + perlita + pequena fração esfagno, também não coincide (visual introduz pinus e omite macadâmia/esfagno). Validar retenção hídrica, granulação e temperatura do sistema radicular em clima quente; nenhum substrato compensa sozinho ausência de noites frescas. Meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
-    },
-    "errosComuns": "Calor acumulado; vaso preto exposto ao sol; substrato encharcado; água nos brotos novos; regas noturnas; excesso de Osmocote no calor; pouca ventilação; sol forte; deixar raízes secarem totalmente por muitos dias.",
-    "dica": "Em regiões litorâneas quentes, coloque a planta em bancada baixa, sombreada e ventilada. Prefira vaso de barro ou plástico claro e nunca deixe recipiente preto receber sol. Regue pela manhã e mantenha o sistema radicular fresco: esse manejo é decisivo para floração consistente.",
-    revisaoCientificaIAR: {
-        "nome": "Zygopetalum maculatum",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Zygopetalum maculatum é uma das espécies mais reconhecíveis do gênero: suas flores perfumadas combinam sépalas e pétalas verde-amareladas salpicadas de castanho com um grande labelo violeta a lilás. Nativa do norte do Peru ao Brasil, cresce principalmente como terrestre ou rupícola e forma pseudobulbos carnosos com longas folhas plissadas. Gosta de umidade regular e raízes fres",
-        "habitatAltitudeClima": "Áreas úmidas; terrestre ou rupícola. | Intermediário a fresco e ventilado.",
-        "distribuicaoGeografica": "Norte do Peru, Bolívia e Brasil.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
-        "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
-        ]
-    },
-    indiceDificuldadeCultivo: {
-        "versao": "IDC 3.2 — selo por facilidade",
-        "escala": "dificuldade",
-        "indice": 60,
-        "classificacao": "Difícil",
-        "cultivoEstrelas": 2,
-        "criterios": {
-            "temperatura": {
-                "notaDificuldade": 3,
-                "peso": 15
-            },
-            "rega": {
-                "notaDificuldade": 3,
-                "peso": 15
-            },
-            "umidade": {
-                "notaDificuldade": 3,
-                "peso": 10
-            },
-            "ventilacao": {
-                "notaDificuldade": 3,
-                "peso": 10
-            },
-            "luminosidade": {
-                "notaDificuldade": 3,
-                "peso": 10
-            },
-            "raizesSubstrato": {
-                "notaDificuldade": 3,
-                "peso": 10
-            },
-            "sazonalidade": {
-                "notaDificuldade": 3,
-                "peso": 10
-            },
-            "floracao": {
-                "notaDificuldade": 3,
-                "peso": 20
-            }
-        },
-        "faixas": {
-            "facil": "0–25",
-            "moderada": "26–50",
-            "dificil": "51–89",
-            "extrema": "90–100"
-        }
-    },
-    indiceAdaptacaoRegional: {
-        "versao": "IAR 2.0 — revisão científica",
-        "escala": "compatibilidade regional",
-        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
-        "litoralQuente": {
-            "indice": 32,
-            "estrelas": 2,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 1,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 1,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 5,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 3,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 1,
-                    "peso": 20
-                }
-            }
-        },
-        "montanhaFrio": {
-            "indice": 97,
-            "estrelas": 5,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 5,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 5,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 5,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 5,
-                    "peso": 20
-                }
-            }
-        }
-    },
-    "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, cultivo mais exigente. Use o ponto mais fresco, bancada baixa, vaso claro/barro e ventilação contínua.",
-        "montanhaFrio": "Excelente adaptação; noites amenas favorecem crescimento e floração. Proteja apenas de geadas e encharcamento prolongado."
-    },
-    "mesesFloracao": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-    ],
-    "selosCultivo": {
-        "rega": { "nivel": "moderada" },
-        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
-    },
-        "avaliacoes": {
-        "cultivo": 2,
-        "floracao": 4,
-        "perfume": 4,
-        "luminosidade": 3,
-        "agua": 4,
-        "raridade": 3
-    }
-};
+        notaEvidencia: "MACS 1.1 — revisão documental: Zygopetalum maculatum é terrestre/rupícola, com raízes sensíveis ao calor, umidade regular e preferência por noites frescas. Vaso de Barro perfurado é proposta principal, estrelas de suportes heurísticas. Receita visual e textual coincidem: 40% chips coco médios preparados + 35% pinus fino/médio + 25% perlita grossa compatível com recipiente = 100%. Exatamente duas outras misturas qualitativas distintas: fibra coco grossa preparada/casca arroz carbonizada/pinus/perlita e macadâmia/chips coco preparados/perlita/pequena fração de esfagno de fibra longa solto. Nenhuma dessas alternativas valida os percentuais visuais. Não havia duplicação de perlita na primeira mistura histórica; a justificativa anterior foi corrigida. Monitorar retenção, secagem, temperatura radicular e condições noturnas; substrato sozinho não substitui noites frescas. Sem homologação quantitativa específica nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS
