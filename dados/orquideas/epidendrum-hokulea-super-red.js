@@ -41,7 +41,7 @@ export const epidendrumHokuleaSuperRed = {
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Biologicamente possível pela herança de Epidendrum, porém pouco prático para uma planta alta, pesada e de crescimento contínuo." }
         ]
     },
-    substrato: ["🥇 Vaso plástico estável: 35% casca de macadâmia média + 25% casca de pinus média + 25% carvão vegetal médio + 15% casca de arroz carbonizada (proposta NÃO homologada).","🥈 Casca de macadâmia média + casca de pinus média + carvão vegetal médio (alternativa qualitativa sem percentuais homologados).","🥉 Casca de macadâmia média + casca de arroz carbonizada + carvão vegetal médio (alternativa qualitativa sem percentuais homologados)."],
+    substrato: ["Casca de macadâmia média + casca de pinus média + carvão vegetal médio","Casca de macadâmia média + casca de arroz carbonizada + carvão vegetal médio"],
     substratoVisual: {
         titulo: "Substrato ideal", contexto: "Para cultivo em vaso",
         resumo: "Mistura estrutural, durável e de secagem rápida para raízes que exigem muito oxigênio.",
