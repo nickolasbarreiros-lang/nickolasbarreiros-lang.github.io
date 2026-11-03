@@ -654,3 +654,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Justificativa corrigida: nenhuma das duas primeiras receitas anteriores correspondia integralmente (primeira tinha chips de coco sem macadâmia; segunda argila expandida sem perlita). Estabilidade estrutural do recipiente é exigência de porte, não validação dos percentuais. Commit ficha: e3cef16fbb142c2f0ace7820c8c2e49b9779f39e.
 - Cachepô grande e robusto, rizoma expansivo, espaço vertical para haste longa preservados; sem alterações em suportes/estrelas, fotos/assets, IDC/IAR ou layout. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
 - Progresso: 88/149 checagens; 86 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 089 — Encyclia bracteata.
+
+## Registro 089 — Encyclia bracteata (2026-11-03)
+- Receita visual/`receitaTexto` mantidos: 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; quatro itens concordavam. Receita visual adicionada como primeira alternativa para vaso pequeno/cachepô ventilado; três alternativas qualitativas anteriores preservadas.
+- Justificativa corrigida: primeira alternativa antiga não contém macadâmia; segunda contém argila expandida em vez de perlita. Nenhuma reproduz integralmente a receita visual. Acrescentada ressalva de adequação da granulometria média ao volume do vaso e calibre das raízes miniaturizadas. Commit ficha: 33bea06b91f9919003b14124750da340af720593.
+- Suportes e estrelas, fotos/assets, IDC/IAR e layout preservados. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
+- Progresso: 89/149 checagens; 87 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 090 — Stanhopea Assidensis. Lote 09 (81–90) será encerrado após a ficha 090.
