@@ -369,3 +369,19 @@ A busca direcionada identificou **quatro estabelecimentos brasileiros independen
 **Escopo preservado:** nenhuma mudança na mistura visual de 45% pinus / 30% brita fina / 25% carvão, no suporte principal, em IDC 3.2, IAR 2.0, estrelas, fotos ou assets. **Pendência:** revisar em etapa própria a nota de probabilidade de floração no clima quente, cotejando a pontuação IAR vigente e o protocolo do projeto antes de recalcular qualquer índice.
 
 **Resultado:** 1 correção editorial de floração fundamentada; 0 percentuais de substrato homologados.
+
+## Décima quinta passagem — auditoria IAR 2.0 de Dendrobium lindleyi (02/11/2026)
+
+**Inspeção do código em `dados/orquideas/dendrobium-aggregatum.js`:** o campo `climaFloracao` foi corrigido na passagem anterior para enfatizar a necessidade de noites mais frescas, mas a matriz de `indiceAdaptacaoRegional` ainda atribui ao **litoral quente índice 78/100, 4 estrelas e nota de floração 4/5**; à montanha fria, índice 84/100, 5 estrelas e nota de floração 5/5. O IDC 3.2 é 32/100 (moderada), com `floracao.notaDificuldade=3`. **Esses números são os cadastrados, não uma validação da metodologia.**
+
+**Fontes específicas:**
+- Wisconsin–Madison Extension (revisada em outubro de 2026): https://hort.extension.wisc.edu/articles/dendrobium-lindleyi/ — não floresce quando noites de inverno ficam continuamente acima de cerca de 60°F (15,6°C), na experiência horticultural relatada; inverno seco, luz forte, noites frescas.
+- AOS: https://www.aos.org/orchids/articles/why-will-it-not-bloom-part-1-general-considerations — condições naturais de floração de *D. lindleyi* incluem dias abaixo de ~27,7°C, noites abaixo de ~10°C e amplitude dia/noite superior a ~13,9°C, em conjunto com luz e estação seca. Esses são **parâmetros descritivos do habitat/indução, não limiares universais absolutos**.
+- RHS específica: https://www.rhs.org.uk/plants/402946/dendrobium-lindleyi/details — recomenda diferença dia/noite de pelo menos 10–14°C, cultivo montado ou cesto com cascas e material mineral/musgo/coco.
+- Central Vancouver Island Orchid Society: https://www.cvios.org/temp-ranges — a planta pode crescer bem com verões quentes, mas depende de inverno significativamente mais fresco e quase seco para florescer.
+
+**Diagnóstico:** há **inconsistência científica potencial** entre a afirmação explícita de que noites permanentemente quentes podem impedir floração e a nota 4/5 de floração no litoral quente. Não se pode tratar 4/5 como "alta chance de florescer" sem verificar o significado operacional da nota no IAR 2.0. Tampouco se pode reduzir arbitrariamente a nota e manter índice 78: a matriz usa pesos específicos e qualquer alteração exige recálculo correto e conferência de todos os componentes que exibem estrelas.
+
+**Próxima ação recomendada:** localizar implementação/fórmula e faixas da metodologia IAR 2.0 no repositório; confirmar se o fator floração mede probabilidade de floração ou capacidade de manejo; então recalcular a nota de floração para litoral quente, índice e estrelas em um único commit consistente, se as fontes e a fórmula justificarem. Verificar também se a faixa climática do projeto representa noites persistentes acima de 15,6°C durante o repouso; não pressupor medição climática local.
+
+**Estado:** 1 divergência IAR potencial identificada e documentada; **0 índices modificados**, **0 receitas MACS homologadas**.
