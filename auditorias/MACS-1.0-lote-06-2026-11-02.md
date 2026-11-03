@@ -4,7 +4,7 @@ Escopo: dez fichas seguintes a Dryadella aviceps na ordem dos imports de `dados/
 
 1. `specklinia-grobyi.js` — passagem concluida
 2. `dryadella-liliputiana.js` — passagem concluida
-3. `leptotes-unicolor.js` — pendente
+3. `leptotes-unicolor.js` — passagem concluida
 4. `cattleya-aclandiae-tipo.js` — pendente
 5. `cattleya-lueddemanniana-tipo.js` — pendente
 6. `cattleya-walkeriana.js` — pendente
@@ -28,3 +28,11 @@ TAXONOMIA: POWO https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames
 FICHA: placa/tronco 5 estrelas; barro e cachepô madeira 4; vaso miniatura 45% pinus fino + 35% perlita calibrada + 20% esfagno solto = 100%. FONTES BRASILEIRAS ESPECÍFICAS (2): (1) Orquidário Matsuoka https://orquidariomatsuoka.com.br/produto/dryadella-lilliputiana/ recomenda cultivo em toco ou substrato genérico, informa envio em toco, sem receita; descrição de distribuição geográfica parece genérica e conflita com POWO, portanto desconsiderada para taxonomia. (2) Orquídeas Encanto e Paixão https://orquideasjph.wordpress.com/2018/12/09/dryadella-liliputiana/ recomenda montagem em galhos/casca com pouco esfagno, ou vaso raso com PARTES IGUAIS de pinus + carvão + esfagno (aprox. 1:1:1 em volume, sem comprovação experimental). Divergência concreta: receita publicada inclui carvão e NÃO perlita; a ficha atual contém 35% perlita e nenhum carvão. Não substituir automaticamente sem comparação de desempenho; apenas um relato de mistura. Meta 25 produtores não atingida.
 
 PARECER: cultivo montado respaldado por habitat e por dois relatos específicos; mistura atual 45/35/20 NÃO HOMOLOGADA, com divergência documentada e alternativa publicada de 1:1:1 pinus/carvão/esfagno. Estrelas igualmente não homologadas. Apenas notaEvidencia modificada; commit f59478b53596826c77cf81a6cf003e4145d4e0c8. Próxima ficha Leptotes unicolor.
+
+## Passagem 53 — Leptotes unicolor
+
+TAXONOMIA/HABITAT: POWO/Kew https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A640441-1 aceita L. unicolor, epífita rizomatosa nativa do Brasil ao nordeste da Argentina em bioma tropical sazonalmente seco. Levantamento florístico brasileiro (Rodriguésia 2024) https://doi.org/10.1590/2175-7860202475064 confirma hábito epífito, folhas suculentas e ocorrência em florestas ripárias, ombrófilas e mistas. AOS https://www.aos.org/explore/leptotes recomenda para o GÊNERO placas pequenas, luz abundante, rega frequente com secagem radicular entre regas; não testa o substrato desta espécie. IOSPE https://www.orchidspecies.com/leptunicolor.htm descreve hábito pendente e folhas carnosas, sem receita.
+
+FICHA: placa/tronco 5 estrelas; cachepô e vaso plástico vasado 4; receita para vaso/cestinho 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%. TRÊS PRODUTORES BRASILEIROS ESPECÍFICOS: (1) Orquidário 4 Estações https://www.orquidario4e.com.br/orquidea-leptotes-unicolor-adulta afirma que cresce melhor em placas de madeira; (2) Orquidário Matsuoka https://orquidariomatsuoka.com.br/produto/leptotes-unicolor/ recomenda toco ou substrato genérico e secagem antes da rega; (3) Orquidário Hang https://www.orquidariohang.com.br/especies/micro-orquidea/leptotes-unicolor recomenda meio bem drenado, sem especificar materiais. SOSA https://www.sosa.org.br/site/dicas-de-cultivo.php recomenda placas para o gênero Leptotes, mas não é orientação específica para L. unicolor; não contabilizar como quarto produtor específico. Nenhum dos três documenta fórmula quantitativa para L. unicolor; meta de 25 não atingida.
+
+PARECER: suporte montado bem respaldado, mistura grossa drenante plausível, mas 35/30/20/15 NÃO HOMOLOGADA. Estrelas não comprovadas por comparação controlada. Apenas notaEvidencia modificada; commit 34de669104e16ad3bd0dd6f6ef83735b3b007a39. Próxima ficha Cattleya aclandiae (tipo).
