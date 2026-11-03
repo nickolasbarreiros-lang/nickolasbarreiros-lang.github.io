@@ -1201,3 +1201,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **RHS primária confirma Zygosepalum labiosum × Zygopetalum Artur Elle**, registro de 2004; Galeopetalum Giant sinônimo. NParks indica preferência por clima mais fresco. Merten Orquídeas lista casca, carvão, coco e pedrinhas sem percentuais; New England Botanic Garden indica coco, casca e perlita para cultivar Rhein Moonlight. Página do Orquidário 4 Estações excluída por URL Louisendorf com conteúdo de Z. microphytum.
 - R0 45% pinus/25% coco/20% carvão/10% esfagno; R1 50/30/20/0; R2 45/30/10/0 mais 15% perlita. R1/R2 hipóteses; esfagno 10% não validado. Ingredientes B qualitativo, composição R0 D, percentuais D, estrelas D. Nenhuma alteração JS/assets.
 - **Progresso: 17/149 matrizes documentadas, 0/149 homologações quantitativas.** Próxima ficha oficial: Dendrobium loddigesii.
+
+
+### MACS 1.1 — Matriz 018: Dendrobium loddigesii (2026-11-03)
+- Documento `auditorias/MACS-1.1-MATRIZ-018-DENDROBIUM-LODDIGESII.md`, commit `d345f72e7021cda541e79a8acf56085f29051654`.
+- RHS recomenda cortiça/madeira ou cesto com casca e materiais de retenção; AOS lista espécie entre Dendrobium com repouso sazonal mais seco e noites frescas. **Orquivitro (produtor brasileiro):** pinus, carvão, coco, macadâmia e vários recipientes, sem percentuais. **Sergio Oyama Jr. (cultivador brasileiro):** relato de sucesso com vaso plástico e esfagno; alternativas de pinus/carvão/coco/brita/macadâmia, sem percentuais.
+- R0 45% pinus/30% carvão/25% brita; R1 hipótese 55/25/10 mais 10% coco; R2 hipótese 60/25/0 mais 15% coco. **Brita 25% sem evidência específica.** Cultivo em vasos plásticos possível, não justificar 2 estrelas como verdade experimental. **Não confundir ensaios de Cattleya loddigesii com Dendrobium loddigesii.** Ingredientes B qualitativo; composição R0 D, percentuais D, estrelas D. Sem homologação quantitativa, sem alterações JS/assets.
+- **Progresso: 18/149 matrizes documentadas; 0/149 homologações quantitativas.** Próxima ficha oficial: Maxillaria schunkeana.
