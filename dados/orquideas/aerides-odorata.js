@@ -52,18 +52,17 @@ export const aeridesOdorata = {
         ]
     },
     substrato: [
-        "Casca de pinus grossa + carvão vegetal grosso",
-        "Casca de pinus grossa + chips de coco grossos + carvão vegetal",
-        "Carvão vegetal grosso + casca de arroz carbonizada + pequena quantidade de esfagno",
-        "Casca de pinus grossa + perlita grossa + pequena quantidade de esfagno"
+        "🥇 Raízes Soltas: cultivo principal sem substrato, com raízes livres, regas ajustadas à secagem e ventilação intensa. Para cesto ou vaso vasado, receita de apoio opcional: 45% casca de pinus grossa + 35% carvão vegetal grosso + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto (proposta NÃO homologada).",
+        "🥈 Casca de pinus grossa + chips de coco grossos preparados + carvão vegetal grosso (alternativa qualitativa de apoio, em pequeno volume e sem percentuais homologados).",
+        "🥉 Casca de pinus grossa + perlita grossa compatível com cesto + pequena quantidade de esfagno de fibra longa solto (alternativa qualitativa de apoio, em pequeno volume e sem percentuais homologados)."
     ],
 
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Para cultivo em vaso ou cesto",
+        contexto: "Raízes Soltas como cultivo principal; mistura opcional de apoio em cesto ou vaso muito vazado",
         resumo: "Mistura muito grossa e extremamente aerada, usada apenas para estabilizar a planta e manter pequena reserva de umidade sem enterrar as raízes aéreas.",
-        justificativa: "Aerides odorata é uma vandácea monopodial epífita, com numerosas raízes aéreas grossas. O cultivo principal continua sendo suspenso com raízes livres. Quando se usa vaso ou cesto, o substrato deve ocupar pouco volume e funcionar como apoio, nunca como uma massa envolvendo todo o sistema radicular. Casca grossa e carvão mantêm grandes macroporos; uma pequena fração de esfagno fornece reserva hídrica localizada para o litoral quente.",
-        receitaTexto: "Mistura-base provisória para cultivo em vaso: 45% casca de pinus grossa + 35% carvão vegetal grosso + 10% casca de arroz carbonizada + 10% esfagno solto. Ajustar granulometria e rega conforme secagem observada.",
+        justificativa: "Aerides odorata é vandácea monopodial epífita de raízes aéreas grossas. A forma principal é Raízes Soltas, sem substrato. Apenas em cesto ou vaso muito vazado, uma pequena quantidade de material grosso pode estabilizar a planta sem envolver o sistema radicular. A receita visual opcional combina pinus grosso, carvão grosso, casca de arroz carbonizada e esfagno de fibra longa solto, totalizando 100%; ela não representa o cultivo principal. As duas outras misturas são alternativas qualitativas distintas, sem percentuais homologados. Monitorar secagem e não comprimir raízes. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
+        receitaTexto: "Cultivo principal Raízes Soltas: sem substrato. Mistura opcional de apoio para cesto ou vaso muito vazado: 45% casca de pinus grossa + 35% carvão vegetal grosso + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto (proposta não homologada).",
         perfil: ["Raízes grossas", "Aeração máxima", "Raízes expostas", "Secagem rápida", "Baixa compactação", "Pouco substrato"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -75,9 +74,10 @@ export const aeridesOdorata = {
             { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "45%", nota: "estrutura + macroporos", finalidade: "Mantém grandes espaços de ar e serve de apoio às raízes sem formar uma massa compacta." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal grosso", proporcao: "35%", nota: "aeração + durabilidade", finalidade: "Aumenta a porosidade estrutural e mantém o conjunto aberto por mais tempo." },
             { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "10%", nota: "leveza + drenagem", finalidade: "Complementa a estrutura sem aumentar muito o peso nem a retenção hídrica." },
-            { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva hídrica localizada", finalidade: "Ajuda a reduzir desidratação abrupta no calor, devendo ficar muito solto e em pequena quantidade." }
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "10%", nota: "reserva hídrica localizada", finalidade: "Ajuda a reduzir desidratação abrupta no calor, devendo ficar muito solto e em pequena quantidade." }
         ],
-        alerta: "Não enterre nem force as raízes aéreas para dentro do recipiente. Deixe a maior parte das raízes livres. Em cesto ou vaso vasado, use somente material grosso e em pequeno volume."
+        alerta: "Não enterre nem force as raízes aéreas para dentro do recipiente. Deixe a maior parte das raízes livres. Em cesto ou vaso vasado, use somente material grosso e em pequeno volume.",
+        notaEvidencia: "MACS 1.1 — revisão documental: Aerides odorata, vandácea monopodial epífita de raízes aéreas grossas. Raízes Soltas, sem substrato, é a forma principal; cesto ou vaso muito vazado pode receber mistura de apoio em pequeno volume, sem comprimir raízes. Receita visual e textual da mistura opcional coincidem: 45% pinus grosso + 35% carvão vegetal grosso + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas de apoio: pinus/chips de coco grossos preparados/carvão e pinus/perlita/pouco esfagno solto. A receita e alternativas não fundamentam percentuais específicos da espécie. Os identificadores casca-pinus, carvao-vegetal, casca-arroz-carbonizada e esfagno constam na biblioteca de cultivo; renderização não testada. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
         "Cultivar em sombra profunda e esperar floração abundante",
