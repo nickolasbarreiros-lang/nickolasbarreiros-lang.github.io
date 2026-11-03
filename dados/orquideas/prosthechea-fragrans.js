@@ -310,7 +310,8 @@ export const prosthecheaFragrans = {
         "finalidade": "Mantém a mistura arejada e facilita renovação radicular."
       }
     ],
-    "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos."
+    "alerta": "Não usar pedra-pomes. Não enterrar a base da planta; preservar drenagem e circulação de ar. A receita é para vaso, não para revestir integralmente placas ou troncos.",
+    "notaEvidencia": "MACS 1.0 — primeira passagem documental: Prosthechea fragrans, epífita com pseudobulbos, raízes arejadas, rega regular durante crescimento e secagem parcial após maturação sem repouso seco obrigatório; identidade comercial requer confronto com P. aemula. Suportes vaso barro 5 estrelas, placa/tronco e cachepô madeira 4, plástico vasado 3; não homologados. Receita visual PARA VASO 45% pinus médio + 25% carvão vegetal + 20% arroz carbonizado + 10% perlita grossa = 100% em volume; resumo, receitaTexto e itens concordam. Primeira qualitativa pinus médio + carvão + perlita grossa (sem arroz carbonizado); segunda macadâmia média + arroz carbonizado + carvão (sem pinus/perlita). Nenhuma coincide integralmente; justificativa admite proposta horticultural. Alerta de não usar pedra-pomes é coerente com receita atual. Validar granulometria, retenção no barro, renovação radicular e identificação taxonômica antes de generalizar recomendação. Meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
   },
   "fotoReferencia": {
     "origem": "Pl@ntNet — Prosthechea fragrans",
