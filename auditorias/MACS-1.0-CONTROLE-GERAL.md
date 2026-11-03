@@ -523,3 +523,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência do lote 07:** OrchidRoots/Orchids.org confirma nome RHS, genealogia Leomesezia Mini-Primi × Rodriguezia lanceolata e registro em 1993 por Puanani; genealogia não valida receita nem regime hídrico. Nenhum produtor brasileiro com recomendação percentual específica confirmado; meta 25 não atingida. Percentuais, estrelas e classificação quantitativa não homologados.
 - **Limites:** demais receitas, fotos, assets, IDC/IAR e layout preservados.
 - **Progresso:** 67/149 checagens; 65 fichas com correções efetivas (003–067); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 068 — confirmar ordem no manifesto do lote 07.
+
+## Correção na mesma passagem — registro 068 (2026-11-03)
+- **Ficha 068 — Epicattleya René Marqués** (`dados/orquideas/epicattleya-rene-marques.js`): híbrido horticultural; cultivo principal vaso de barro firme e drenante; receita visual 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão vegetal = 100%.
+- **Correção efetiva:** receita visual não correspondia à primeira alternativa textual, que continha argila expandida e pinus grosso; incluída composição exata como primeira opção provisória, preservadas as três alternativas anteriores. Justificativa corrigida para não atribuir a receita visual à mistura antiga. Commit `409e4381a482696c953691cf89eaf122764e40fa`.
+- **Evidência do lote 07:** OrchidRoots/Orchids.org registra grex e genealogia Epidendrum pseudepidendrum × Cattleya Claesiana, 1979; AOS oferece orientação geral para Cattleya sobre recipiente drenante e substrato aberto, não ensaio com este grex. Nenhum produtor brasileiro com fórmula percentual específica confirmado; meta 25 não atingida. Percentuais e estrelas não homologados.
+- **Limites:** demais receitas, fotos, assets, IDC/IAR e layout preservados.
+- **Progresso:** 68/149 checagens; 66 fichas com correções efetivas (003–068); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 069 — Coelogyne fimbriata.
