@@ -447,3 +447,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 06:** POWO reconhece espécie epífita/litófita; pesquisa experimental IFPB estudou C. walkeriana em suportes de madeira com esfagno, fibra de coco e neem, sem testar macadâmia/perlita/carvão; Jardineiro.net relata mistura de pinus/carvão/brita. Receita 45/30/25 não homologada.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 56/149 checagens; 54 fichas com correções efetivas (003–056); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 057 — Cattleya intermedia.
+
+## Correção na mesma passagem — registro 057 (2026-11-03)
+- **Ficha 057 — Cattleya intermedia** (`dados/orquideas/cattleya-intermedia.js`): cultivo principal cachepô de madeira ventilado; receita visual 30% macadâmia + 30% pinus + 25% perlita grossa + 15% carvão vegetal = 100%.
+- **Correção efetiva:** receita visual ausente das três alternativas textuais; incluída como primeira opção provisória, preservadas as três anteriores. Justificativa original já distingue corretamente ensaios em plântulas da hipótese de cultivo adulto; preservada. Commit `ca8be1711809c32ff1d70559c8de3e41e8e50778`.
+- **Evidência prévia no lote 06:** Lone et al. (2008) e Schnitzer et al. (2010) estudaram substratos na aclimatização de plântulas de C. intermedia, não a receita 30/30/25/15 em plantas adultas. Escores de cultivo 91/82/80 são estimativas, não ensaios comparativos; homologação quantitativa pendente.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados.
+- **Progresso:** 57/149 checagens; 55 fichas com correções efetivas (003–057); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 058 — Cattleya leopoldii 'Dark Princess'.
