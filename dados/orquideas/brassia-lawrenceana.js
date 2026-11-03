@@ -41,7 +41,7 @@ export const brassiaLawrenceana = {
         "🥈 Vaso de barro bem perfurado com substrato grosso e aerado.",
         "🥉 Vaso plástico baixo e muito perfurado, controlando cuidadosamente a retenção de água."
     ],
-    substrato: ["🥇 Casca de pinus média + chips de coco lavados + casca de macadâmia média + carvão vegetal + perlita grossa (mistura provisória do substrato visual).","🥈 Chips de coco + carvão vegetal + perlita grossa + casca de pinus média.","🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","⭐ Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
+    substrato: ["🥇 Para Cachepô de Madeira vazado: 35% casca de pinus média + 25% chips de coco médios preparados + 20% casca de macadâmia média + 10% carvão vegetal médio + 10% perlita grossa compatível com o cesto (proposta NÃO homologada).", "🥈 Casca de pinus média + perlita grossa compatível com o cesto + argila expandida pequena + pequena fração de esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de macadâmia média + casca de pinus média + perlita grossa compatível com o cesto + pequena fração de fibra de coco grossa preparada (alternativa qualitativa sem percentuais homologados)."],
     formasCultivo: {
         perfilVisual: "cattleya",
         destaque: "Cachepô de Madeira",
@@ -57,15 +57,15 @@ export const brassiaLawrenceana = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em cesto de madeira",
         resumo: "Mistura de granulometria média, arejada e com retenção moderada, adequada ao crescimento ativo das raízes.",
-        justificativa: "A casca de pinus média fornece suporte e uma reserva hídrica moderada; os chips de coco lavados e tamponados prolongam a umidade entre regas; a macadâmia média acrescenta estrutura; o carvão e a perlita grossa ajudam a preservar espaços de ar. Pinus e coco se alteram com o envelhecimento, aumentando a retenção e exigindo inspeção e substituição quando houver decomposição. A água de irrigação e o preparo dos materiais influenciam o pH; não se deve presumir um pH fixo da mistura. Esta receita é uma proposta horticultural, não uma formulação publicada especificamente para a espécie por orquidário brasileiro.",
-        receitaTexto: "35% casca de pinus média + 25% chips de coco lavados + 20% casca de macadâmia média + 10% carvão vegetal + 10% perlita grossa.",
+        justificativa: "A casca de pinus média fornece suporte e uma reserva hídrica moderada; os chips de coco médios preparados prolongam a umidade entre regas; a macadâmia média acrescenta estrutura; o carvão e a perlita grossa ajudam a preservar espaços de ar. Pinus e coco se alteram com o envelhecimento, aumentando a retenção e exigindo inspeção e substituição quando houver decomposição. A água de irrigação e o preparo dos materiais influenciam o pH; não se deve presumir um pH fixo da mistura. Esta receita é uma proposta horticultural, não uma formulação publicada especificamente para a espécie por orquidário brasileiro.",
+        receitaTexto: "35% casca de pinus média + 25% chips de coco médios preparados + 20% casca de macadâmia média + 10% carvão vegetal médio + 10% perlita grossa compatível com o cesto (proposta não homologada).",
         perfil: ["Epífita", "Aeração elevada", "Retenção moderada", "Secagem intermediária", "Granulometria média", "Monitorar envelhecimento"],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura e umidade", finalidade: "Sustenta raízes e retém umidade moderada." },
-            { asset: "chips-coco", nome: "Chips de coco lavados", proporcao: "25%", nota: "reserva hídrica", finalidade: "Reduz a secagem excessiva do cesto; usar material preparado e de baixa salinidade." },
+            { asset: "chips-coco", nome: "Chips de coco médios preparados", proporcao: "25%", nota: "reserva hídrica", finalidade: "Reduz a secagem excessiva do cesto; usar material preparado e de baixa salinidade." },
             { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "20%", nota: "estrutura", finalidade: "Ajuda a manter poros maiores entre os componentes." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "10%", nota: "aeração", finalidade: "Acrescenta fração rígida e drenante." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "10%", nota: "macroporos", finalidade: "Favorece a porosidade e reduz o peso do cesto; usar granulometria grossa." }
+            { asset: "carvao-vegetal", nome: "Carvão vegetal médio", proporcao: "10%", nota: "aeração", finalidade: "Acrescenta fração rígida e drenante." },
+            { asset: "perlita", nome: "Perlita grossa compatível com o cesto", proporcao: "10%", nota: "macroporos", finalidade: "Favorece a porosidade e reduz o peso do cesto; usar granulometria grossa." }
         ],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -73,7 +73,8 @@ export const brassiaLawrenceana = {
             { nome: "Secagem", valor: 3, icone: "☀️" },
             { nome: "Compactação", valor: 2, icone: "🧱" }
         ],
-        alerta: "Cesto seca mais rapidamente que vaso plástico. Ajuste a frequência de rega ao microclima e inspecione a decomposição do pinus e do coco; a composição é uma inferência técnica para plantas adultas."
+        alerta: "Cesto seca mais rapidamente que vaso plástico. Ajuste a frequência de rega ao microclima e inspecione a decomposição do pinus e do coco; a composição é uma inferência técnica para plantas adultas.",
+        notaEvidencia: "MACS 1.1 — revisão documental: Brassia lawrenceana (nome editorial; POWO adota Brassia cochleata), epífita de raízes vigorosas, requer umidade regular, drenagem e ventilação. Cachepô de Madeira vazado é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 35% pinus médio + 25% chips de coco médios preparados + 20% macadâmia média + 10% carvão vegetal médio + 10% perlita grossa compatível com o cesto = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/argila expandida pequena/pouco esfagno solto e macadâmia/pinus/perlita/pouca fibra de coco grossa preparada. Monitorar envelhecimento do pinus e coco, salinidade e secagem no cesto. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
         "Cultivar em sombra profunda",
