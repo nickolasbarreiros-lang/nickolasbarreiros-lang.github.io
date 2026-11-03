@@ -142,7 +142,7 @@ export const dendrobiumAggregatum = {
         "escala": "compatibilidade regional",
         "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
         "litoralQuente": {
-            "indice": 78,
+            "indice": 70,
             "estrelas": 4,
             "fatores": {
                 "habitatNatural": {
@@ -170,7 +170,7 @@ export const dendrobiumAggregatum = {
                     "peso": 5
                 },
                 "floracao": {
-                    "nota": 4,
+                    "nota": 2,
                     "peso": 20
                 }
             }
