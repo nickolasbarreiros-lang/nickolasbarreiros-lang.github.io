@@ -38,7 +38,7 @@ export const cattleyaIntermedia = {
     adubacao: "🌿 Orgânica: Bokashi em pequena quantidade, preferencialmente em sachê ou porta-adubo, a cada 60 a 90 dias durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20 ou equivalente, em aproximadamente 1/4 a 1/3 da dose do fabricante a cada 7 a 15 dias enquanto brotos e raízes estiverem ativos.\n🧪 Liberação lenta: Osmocote 14-14-14 ou semelhante pode ser usado em dose moderada em vaso ou cachepô. Se houver adubo de liberação lenta, reduza a fertilização líquida. Não é necessário aplicar grandes doses de fósforo para induzir a floração.",
     rega: "Durante brotação e emissão de raízes, regue abundantemente e permita que o substrato perca boa parte da umidade antes da próxima irrigação. No inverno ou em períodos de menor atividade, reduza somente conforme a secagem realmente ficar mais lenta. A espécie não exige seca forte; em dias quentes e ventilados, mesmo no inverno, pode continuar necessitando de regas regulares.",
     suporte: "🥇 Cachepô de madeira vazado, especialmente adequado para formar grandes touceiras no litoral.\n🥈 Vaso de barro proporcional ao sistema radicular, oferecendo estabilidade e evaporação.\n🥉 Vaso plástico muito perfurado ou montagem em madeira para ambientes de alta umidade.",
-    substrato: ["🥇 Para cachepô de madeira ou recipiente ventilado: casca de macadâmia + casca de pinus + perlita grossa + carvão vegetal (mistura visual provisória, não homologada).","🥈 Casca de macadâmia média + argila expandida + carvão vegetal + pinus grosso.","🥉 Chips de coco grossos + perlita grossa + carvão vegetal + pinus médio.","Alternativa adicional: pinus médio/grosso + perlita grossa + carvão vegetal + pequena fração de chips de coco."],
+    substrato: ["🥇 Para recipiente ventilado: 50% casca de pinus média + 50% fibra de coco preparada para cultivo (1:1 em volume; mistura estudada na aclimatização de plântulas de Cattleya intermedia, NÃO homologada para plantas adultas).", "🥈 Casca de pinus média + carvão vegetal + casca de arroz carbonizada (alternativa qualitativa baseada em materiais estudados em plântulas, sem percentuais homologados para adultos).", "🥉 Casca de pinus média + chips de coco de granulometria média + carvão vegetal (alternativa técnica qualitativa, sem proporções publicadas para adultos)."],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Cachepô de madeira",
@@ -77,9 +77,9 @@ export const cattleyaIntermedia = {
     substratoVisual: {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
-    "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "A espécie forma touceiras e requer boa aeração. Estudos com plântulas avaliaram coco e pinus, mas não validaram os percentuais desta mistura para plantas adultas; a composição permanece proposta horticultural.",
-    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 30% casca de macadâmia + 30% casca de pinus + 25% perlita grossa + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
+    "resumo": "Mistura de pinus e fibra de coco em partes iguais, com evidência experimental restrita à aclimatização de plântulas.",
+    "justificativa": "Lone et al. (2008) avaliaram especificamente Cattleya intermedia em aclimatização e identificaram fibra de coco e mistura 1:1 de pinus com coco entre as alternativas promissoras. A proporção tem evidência quantitativa para plântulas, NÃO para adultos em cachepô. A antiga fórmula de macadâmia/perlita/carvão não foi testada nesses trabalhos. Em plantas adultas, ajustar aeração e intervalo de rega ao recipiente e observar a secagem.",
+    "receitaTexto": "50% casca de pinus média + 50% fibra de coco preparada para cultivo (1:1 em volume; ensaio em plântulas, não validado para adultos).",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
@@ -87,37 +87,11 @@ export const cattleyaIntermedia = {
         "Drenagem rápida"
     ],
     "itens": [
-        {
-            "asset": "macadamia",
-            "nome": "Casca de macadâmia",
-            "proporcao": "30%",
-            "nota": "estrutura",
-            "finalidade": "Partículas resistentes criam espaços de ar entre as raízes."
-        },
-        {
-            "asset": "casca-pinus",
-            "nome": "Casca de pinus",
-            "proporcao": "30%",
-            "nota": "umidade moderada",
-            "finalidade": "Conserva alguma umidade sem fechar a mistura quando usada em granulometria adequada."
-        },
-        {
-            "asset": "perlita",
-            "nome": "Perlita grossa",
-            "proporcao": "25%",
-            "nota": "aeração",
-            "finalidade": "Amplia a porosidade e reduz a compactação do recipiente."
-        },
-        {
-            "asset": "carvao-vegetal",
-            "nome": "Carvão vegetal",
-            "proporcao": "15%",
-            "nota": "drenagem",
-            "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
-        }
+        { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "50%", "nota": "estrutura", "finalidade": "Componente de mistura 1:1 estudada na aclimatização de plântulas." },
+        { "asset": "fibra-coco", "nome": "Fibra de coco preparada para cultivo", "proporcao": "50%", "nota": "retenção hídrica", "finalidade": "Componente do ensaio com plântulas; usar material apropriado, lavado e sem excesso de sais." }
     ],
-    "alerta": "Mistura orientativa 30/30/25/15, sem ensaio específico em plantas adultas. Resultados científicos de aclimatização de plântulas não demonstram superioridade desta receita; acompanhar a secagem.",
-    "notaEvidencia": "MACS 1.0: estudo específico com plântulas de Cattleya intermedia (Lone et al., Acta Scientiarum Agronomy 30:465-469, 2008, DOI 10.4025/actasciagron.v30i4.5299) encontrou bons resultados com fibra de coco isolada e pinus + fibra de coco 1:1 durante aclimatização. Estudo específico (Schnitzer et al., Acta Scientiarum Agronomy 32, 2010, DOI 10.4025/actasciagron.v32i1.714) observou melhor desempenho de plântulas com pinus, coco, casca de arroz carbonizada e carvão tratado com extrato pirolenhoso em partes iguais; tratamento do carvão é variável experimental e NÃO deve ser generalizado como recomendação doméstica. Estudo de Dorneles e Trevelin (Iheringia) encontrou sobrevivência distinta de plântulas em esfagno e pinus, sem testar a fórmula atual. Nenhum ensaio validou plantas adultas em cachepô com 30% macadâmia + 30% pinus + 25% perlita + 15% carvão. Receita e escores de recipientes 91/82/80 são hipóteses NÃO HOMOLOGADAS; pesquisa de até 25 produtores brasileiros com receita específica não concluída. Preservados índices, receita e assets." 
+    "alerta": "Resultados em plântulas não comprovam superioridade para plantas adultas. A fibra de coco pode reter mais água que misturas grossas; evitar saturação em cachepô e observar a secagem das raízes.",
+    "notaEvidencia": "MACS 1.1: Lone et al. (2008), DOI 10.4025/actasciagron.v30i4.5299, testaram especificamente Cattleya intermedia na ACLIMATIZAÇÃO de plântulas e identificaram fibra de coco e pinus + coco 1:1 como alternativas promissoras. Schnitzer et al. (2010), DOI 10.4025/actasciagron.v32i1.714, avaliaram plântulas com pinus, coco, arroz carbonizado e carvão submetido a tratamento experimental com extrato pirolenhoso; NÃO recomendar o tratamento como manejo doméstico. Dorneles e Trevelin também estudaram plântulas em esfagno e pinus. Receita 50/50 possui evidência experimental específica para fase juvenil, NÃO HOMOLOGAÇÃO para plantas adultas. Duas alternativas são qualitativas e não possuem percentuais validados para adultos. Escores de suportes 91/82/80 são heurísticos; meta de 25 produtores brasileiros não comprovada." 
 },
     errosComuns: "• Enterrar o rizoma ou as gemas de brotação.\n• Sombra excessiva, que produz pseudobulbos finos e reduz a floração.\n• Vaso muito grande e com excesso de substrato úmido.\n• Substrato velho, ácido ou decomposto.\n• Replantar fora do início da emissão de raízes novas.\n• Manter o centro do recipiente constantemente molhado.\n• Secar excessivamente durante crescimento ativo.\n• Tentar compensar pouca luz com adubação forte.",
     dica: "🏆 Mantenha o rizoma livre e replante apenas quando surgirem as primeiras pontas de raízes novas. Cattleya intermedia responde melhor quando o novo crescimento consegue colonizar imediatamente o recipiente. Em vez de perseguir uma cor exata de folha, observe raízes ativas, pseudobulbos robustos, folhas firmes e floração regular. Preserve touceiras grandes sempre que houver espaço: várias frentes maduras significam mais reservas e maior potencial de flores simultâneas.",
