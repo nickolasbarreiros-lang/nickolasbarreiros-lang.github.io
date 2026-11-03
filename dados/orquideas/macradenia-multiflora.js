@@ -86,7 +86,7 @@ export const macradeniaMultiflora = {
             { asset: "carvao", nome: "Carvão vegetal", proporcao: "25%", nota: "porosidade", finalidade: "Mantém estrutura aberta e drenante." }
         ],
         alerta: "Evitar sol direto forte, seca prolongada em montagem, substrato encharcado e repouso seco intenso. Deixar a haste floral pender livremente.",
-        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+        notaEvidencia: "MACS 1.0 — primeira passagem documental: a revisão científica preexistente da ficha registra recomendações brasileiras atribuídas ao Orquidário Paulista (50% sombra, boa drenagem), Orquídeas & Cia (meia-sombra, rega frequente, pinus/esfagno/tronco) e Merten Orquídeas (umidade e sombreamento). Não há validação publicada nesta passagem para a receita visual 45% pinus médio + 30% perlita grossa + 25% carvão = 100%. INCONSISTÊNCIA: primeira mistura qualitativa inclui pinus + esfagno + perlita, mas a justificativa visual afirma quantificar os mesmos três materiais, embora substitua esfagno por carvão. Cachepô suspenso 5 estrelas, placa e vasos 4: plausibilidade pela haste pendente, sem ensaio comparativo. Percentuais e estrelas NÃO HOMOLOGADOS; meta de até 25 produtores não atingida. Preservar receitas e demais campos nesta etapa."
     },
     errosComuns: [
         "Expor ao sol direto forte porque a planta aceita boa luminosidade filtrada.",
