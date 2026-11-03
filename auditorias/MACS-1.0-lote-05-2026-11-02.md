@@ -10,7 +10,7 @@ Escopo: dez proximas fichas apos Maxillaria tenuifolia, na ordem do indice. Conf
 6. `bc-turandot-x-blc-orange-show-x-blc-chunyeah.js` — passagem concluida
 7. `cattleya-schilleriana-x-cruzeiro-do-sul.js` — passagem concluida
 8. `lc-trick-or-treat.js` — passagem concluida
-9. `acianthera-aveniformis.js` — pendente
+9. `acianthera-aveniformis.js` — passagem concluida
 10. `dryadella-aviceps.js` — pendente
 
 ## Passagem 41 — Oncostele Wildcat (arquivo colmanara-wildcat.js)
@@ -74,3 +74,11 @@ Parecer: pinus e carvao respaldados qualitativamente pela progenitora; 25% macad
 Ficha: vaso de barro e plastico vasado 5 estrelas, cachepo madeira 4. Receita 35% casca macadamia media + 30% pinus medio + 20% perlita grossa + 15% carvao vegetal = 100%. AOS https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet recomenda casca media/grossa para Cattleyas adultas em estufa, secagem entre regas e replante com novas raizes. AOS https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-culture-part-3 detalha exigencia de meios abertos para raizes epifitas; orientacao generica, nao ensaio do grex. Orchid Society of Great Britain https://www.osgb.org.uk/orchids/orchid-care-guides/cattleya-orchid-care cita casca e carvao/perlita como alternativas gerais. Artigo cientifico brasileiro https://www.scielo.br/j/hb/a/psYNv6tY7DppxrBNVkHfZNp/?lang=pt descreve em OUTRO hibrido Cattlianthe Chocolate Drop mistura de 4 partes de pinus para 3 de carvao; estudo testa adubacao mineral/organica e nao compara substratos, portanto NAO valida receita atual. Nenhum produtor brasileiro com receita especifica publicada para Trick or Treat foi localizado nesta passagem; meta ate 25 nao atingida.
 
 Parecer: mistura arejada e secagem entre regas fundamentadas para alianca Cattleya, mas 35% macadamia e demais proporcoes sem validacao especifica; NAO HOMOLOGADA. Estrelas nao verificadas por ensaio. Apenas notaEvidencia alterada, commit 85b55632315b5beb9f20049ca6c1a512ffe892dc. Proxima ficha Acianthera aveniformis.
+
+## Passagem 49 — Acianthera aveniformis (= Pabstiella aveniformis em POWO)
+
+TAXONOMIA: POWO https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77094066-1 aceita Pabstiella aveniformis (Hoehne) Luer, epífita do sul do Brasil em bioma tropical úmido, e lista Acianthera aveniformis como sinônimo; https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A60437739-2 confirma a sinonímia. Flora Digital UFSC https://floradigital.ufsc.br/open_sp.php?img=7056 documenta hábito epífito em floresta ombrófila mista, sem receita de cultivo. IOSPE https://www.orchidspecies.com/pleuraveniformis.htm descreve miniatura reptante, em torno de 400 m, com floração no inverno, mas não indica proporções de substrato.
+
+Ficha: placa/tronco 5 estrelas, árvore viva 4; mistura de vaso 40% pinus fino/médio + 25% casca arroz carbonizada + 20% carvão pequeno + 15% esfagno solto = 100%. PRODUTOR BRASILEIRO ESPECÍFICO Milena Orquídeas https://milenaorquideas.com.br/produtos/acianthera-aveniformis/ comercializa a espécie e descreve umidade ambiental elevada, ventilação e rega conforme necessidade; NÃO fornece receita específica de substrato. Não contar referências de outras Acianthera como evidência direta. Apenas um produtor específico encontrado, sem fórmula; meta até 25 não atingida.
+
+Parecer: hábito epífito e rizoma reptante apoiam cultivo montado por inferência; manter umidade sem saturação. Percentuais de pinus/arroz/carvão/esfagno NÃO HOMOLOGADOS, sem ensaio comparativo ou consenso documentado de produtores. Estrelas não homologadas. Atualizada somente notaEvidencia, commit b2dda888daf0048232f03ee5f62eba2efa2de072. Próxima ficha Dryadella aviceps.
