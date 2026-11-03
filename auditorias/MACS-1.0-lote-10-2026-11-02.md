@@ -11,7 +11,7 @@ Escopo: primeira passagem documental, sem homologação quantitativa. Apenas not
 5. stanhopea-guttulata.js — passagem concluída
 6. isabelia-virginalis.js — passagem concluída
 7. huntleya-meleagris.js — passagem concluída
-8. miltonia-spectabilis-var-moreliana.js — pendente
+8. miltonia-spectabilis-var-moreliana.js — passagem concluída
 9. oncidium-pubes.js — pendente
 10. miltonia-candida.js — pendente
 
@@ -48,3 +48,8 @@ ECOLOGIA: miniatura rastejante epífita/rupícola, rizoma exposto e bainhas fibr
 ## Passagem 97 — Huntleya meleagris
 
 ECOLOGIA: epífita sem pseudobulbos, requer umidade uniforme com oxigenação; seca prolongada e saturação quente são riscos. SUPORTES: plástico vasado 5 estrelas, barro e cachepô madeira 4, placa/tronco 2; notas não homologadas. RECEITA VISUAL: 35% pinus médio + 35% chips coco + 20% perlita + 10% carvão = 100%, texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz seguir quatro materiais da primeira receita qualitativa, mas esta contém macadâmia + pinus + perlita + fibra coco, sem carvão e com fibra em vez de chips. Segunda receita contém pinus + perlita + argila expandida + esfagno, também distinta. Nenhuma coincide integralmente. Avaliar retenção de 35% chips coco em vaso raso e secagem sem pseudobulbos. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 12013aa6bdc822c1eb5d3868cf7669d8a848fd6e. Próxima ficha Miltonia spectabilis var. moreliana.
+
+
+## Passagem 98 — Miltonia moreliana
+
+IDENTIFICAÇÃO: nome atual na ficha Miltonia moreliana; arquivo histórico miltonia-spectabilis-var-moreliana.js. ECOLOGIA: epífita de rizoma expansivo e raízes capilares, vaso raso e largo, umidade regular sem saturação. SUPORTES: plástico vasado 5 estrelas, barro e cachepô madeira 4, placa/tronco 3; notas não homologadas. RECEITA VISUAL: 35% pinus médio + 30% chips coco + 25% perlita grossa + 10% carvão = 100%, texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira receita qualitativa, que contém pinus + perlita + argila expandida + esfagno, sem chips coco nem carvão. Segunda contém macadâmia + pinus + perlita + fibra coco, sem carvão e com fibra em vez de chips. Nenhuma coincide integralmente. Validar retenção e granulometria para raízes capilares em cuia ventilada. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit ecd576a8e2b333d36c4cbc5d472bf19037c8cb6c. Próxima ficha Oncidium pubes.
