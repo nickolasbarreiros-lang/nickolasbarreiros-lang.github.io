@@ -72,7 +72,7 @@ export const bulbophyllumSikkimense = {
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
         "justificativa": "A literatura sobre B. roxburghii e o táxon histórico sikkimense recomenda vasos ou cestos com umidade regular e ventilação. A receita abaixo é inferência para vaso vasado; não há convergência brasileira específica documentada.",
-        "receitaTexto": "35% pinus médio + 25% chips de coco + 25% perlita grossa + 15% esfagno solto.",
+        "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno de fibra longa solto.",
         "perfil": ["Pseudobulbos curtos", "Rizoma rasteiro", "Água regular", "Base exposta", "Boa aeração", "Secagem parcial"],
         "comportamento": [
             {
@@ -99,14 +99,14 @@ export const bulbophyllumSikkimense = {
         "itens": [
             {
                             "asset": "casca-pinus",
-                            "nome": "Pinus médio",
+                            "nome": "Casca de pinus média",
                             "proporcao": "35%",
                             "nota": "estrutura",
                             "finalidade": "Mantém canais de ar em vaso raso."
             },
             {
                             "asset": "chips-coco",
-                            "nome": "Chips de coco",
+                            "nome": "Chips de coco médios preparados",
                             "proporcao": "25%",
                             "nota": "umidade",
                             "finalidade": "Reserva hídrica moderada."
@@ -120,16 +120,16 @@ export const bulbophyllumSikkimense = {
             },
             {
                             "asset": "esfagno",
-                            "nome": "Esfagno solto",
+                            "nome": "Esfagno de fibra longa solto",
                             "proporcao": "15%",
                             "nota": "retenção",
                             "finalidade": "Protege raízes novas sem encharcar."
             }
         ],
-        "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo.",
-        "notaEvidencia": "MACS 1.0 — primeira passagem documental: nome aceito adotado na ficha Bulbophyllum roxburghii (sin. B. sikkimense), miniatura epífita de rizoma rasteiro, exigindo umidade regular e boa drenagem. Vaso plástico vasado 5 estrelas, cachepô e placa/tronco 4, barro 3: hipótese horticultural sem comparação quantitativa. Receita visual 35% pinus médio + 25% chips de coco + 25% perlita grossa + 15% esfagno = 100%; receitaTexto e itens concordam. DIVERGÊNCIA: primeira mistura qualitativa tem macadâmia + pinus + perlita + esfagno (sem chips coco); segunda apenas esfagno + perlita; terceira chips coco + perlita + carvão + esfagno (sem pinus). Justificativa já admite ausência de convergência brasileira específica. Fontes botânicas preexistentes não homologam percentuais; meta de até 25 produtores brasileiros não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        "alerta": "Proposta preliminar MACS 1.1; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo.",
+        "notaEvidencia": "MACS 1.1 — revisão documental: nome aceito adotado na ficha Bulbophyllum roxburghii (sin. B. sikkimense), miniatura epífita de rizoma rasteiro, exigindo umidade regular e boa drenagem. Vaso plástico vasado 5 estrelas, cachepô e placa/tronco 4, barro 3: hipótese horticultural sem comparação quantitativa. Receita visual 35% pinus médio + 25% chips de coco + 25% perlita grossa + 15% esfagno = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% pinus, 25% chips de coco, 25% perlita, 15% esfagno). Duas alternativas qualitativas independentes são apresentadas, sem equivalência quantitativa com a receita principal. Justificativa já admite ausência de convergência brasileira específica. Fontes botânicas preexistentes não homologam percentuais; meta de até 25 produtores brasileiros não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    substrato: ["🥇 Receita visual provisória para vaso raso e bem ventilado: pinus médio 35% + chips de coco 25% + perlita grossa 25% + esfagno solto 15% (100%; não homologada).","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de esfagno.","🥉 Esfagno de fibra longa solto + perlita grossa.","Alternativa adicional: chips de coco tratados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno."],
+    substrato: ["🥇 Para vaso raso e bem ventilado: 35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno de fibra longa solto (hipótese horticultural NÃO homologada para Bulbophyllum roxburghii).", "🥈 Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de esfagno solto (alternativa qualitativa sem proporções homologadas).", "🥉 Chips de coco médios preparados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto (alternativa qualitativa sem percentuais específicos publicados)."],
     errosComuns: "• Apresentar B. sikkimense como nome atualmente aceito.\n• Ignorar que Kew o inclui em B. roxburghii.\n• Tratar a planta como alpina por causa do nome Sikkim.\n• Impor repouso seco severo.\n• Manter sombra profunda.\n• Compactar o substrato.\n• Usar recipiente estreito.\n• Aplicar adubo concentrado.",
     dica: "🏆 Use o nome histórico como pista de procedência, não como instrução para cultivar no frio. Os dados de 300–500 m mostram uma planta de contrafortes quentes. No litoral, mantenha água regular, ar em movimento, recipiente raso e luz filtrada clara; a pequena diferença entre dia e noite já é mais coerente que qualquer tentativa de resfriamento artificial.",
     revisaoCientificaIAR: {
