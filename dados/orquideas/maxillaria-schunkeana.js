@@ -48,7 +48,7 @@ export const maxillariaSchunkeana = {
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Pode funcionar com alta umidade ambiental e regas consistentes; em clima seco, a oscilação hídrica aumenta bastante." }
         ]
     },
-    substrato: ["🥇 Casca de pinus média/fina + casca de macadâmia + perlita grossa.", "🥈 Casca de pinus média/fina + carvão vegetal + pequena fração de esfagno solto."],
+    substrato: ["🥇 Casca de pinus média/fina + carvão vegetal + casca de macadâmia + esfagno solto (mistura-base provisória do substrato visual).", "🥈 Casca de pinus média/fina + casca de macadâmia + perlita grossa.", "🥉 Casca de pinus média/fina + carvão vegetal + pequena fração de esfagno solto."],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
