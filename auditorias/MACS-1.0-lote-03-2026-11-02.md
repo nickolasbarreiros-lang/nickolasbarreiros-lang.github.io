@@ -466,3 +466,9 @@ Resultado: cultivo montado tem evidencias diretas para ambas. Receita atual 35% 
 Decisao aplicada: placa/tronco passa a ser destaque e primeira opcao (5 estrelas); cachepo de madeira continua segunda opcao (5 estrelas). A mudanca considera recomendacao especifica do Orquidario 4 Estacoes, segundo o qual a especie vegeta melhor em troncos ou leques, alem de cultivo em madeira documentado por Santa Clara, Aparecida e Mantovani. Fontes: https://www.orquidario4e.com.br/orquidea-rodriguezia-lanceolata-7cm ; https://orquidariosantaclara.com.br/orquideas-diversas/3324-rodriguezia-lanceolata-ad.html ; https://orquidarioaparecida.com.br/produtos/rodriguezia-lanceolata-hpygv/ ; https://www.orquideasmantovani.com.br/rodriguezia-lanceolata-704/p .
 
 Foi atualizado somente o bloco formasCultivo, preservando 5 estrelas em ambas as opcoes, demais alternativas, fotos, substratoVisual, IDC e IAR. A receita 35/30/25/10 permanece alternativa para recipiente, nao aplicavel como enchimento da placa e nao homologada quantitativamente. Commit da ficha: adb95c9670d376c8c93877567d240cddac31930b.
+
+## Passagem 25 — coerencia entre cultivo principal e substrato visual
+
+Rodriguezia lanceolata teve a montagem em placa/tronco priorizada na passagem 24. Foi identificada ambiguidade em substratoVisual: o texto anterior apresentava mistura para cachepo sem dizer explicitamente que se tratava de alternativa. Ajustados apenas contexto, resumo, justificativa e notaEvidencia: receita percentual aplica-se a cachepo/vaso e NAO deve ser colocada como camada espessa na placa ou tronco. Mantidos percentuais 35/30/25/10, todos os assets, fotos, classificacoes e demais campos. Commit da ficha: 72ef39314ed6f079cbbba374fd2c25a6093ecd06.
+
+Comparacao com Rodriguezia bracteata (venusta): sua ficha ja continha a distincao entre montagem principal e mistura para recipiente; nao precisou de alteracao. Pendencia: verificacao visual renderizada dos assets, ainda nao concluida.
