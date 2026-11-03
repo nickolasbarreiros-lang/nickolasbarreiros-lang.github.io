@@ -41,7 +41,7 @@ export const promenaeaXanthina = {
         "🥈 Pequeno cesto ou cachepô com substrato leve e drenante.",
         "🥉 Montagem em cortiça ou madeira com fina camada de esfagno, apenas em ambiente de alta umidade."
     ],
-    substrato: ["🥇 Chips de coco pequenos + perlita de granulometria adequada a miniaturas + casca de pinus fina.","🥈 Esfagno de fibra longa solto + perlita de granulometria adequada a miniaturas."],
+    substrato: ["🥇 Para Vaso plástico vasado pequeno: 45% casca de pinus fina + 40% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto (proposta NÃO homologada).", "🥈 Chips de coco pequenos preparados + perlita de granulometria compatível com raízes finas + casca de pinus fina (alternativa qualitativa sem percentuais homologados).", "🥉 Esfagno de fibra longa solto + perlita de granulometria compatível com raízes finas (alternativa qualitativa sem percentuais homologados; controlar retenção e temperatura)."],
     formasCultivo: {
         perfilVisual: "promenaea-xanthina-miniatura-montana-raizes-frescas",
         destaque: "Vaso plástico vasado",
@@ -56,9 +56,9 @@ export const promenaeaXanthina = {
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Mistura leve para vaso pequeno e ventilado",
-        resumo: "Raízes frescas e úmidas, sem saturação. Pinus fino, perlita e esfagno solto em pequena fração oferecem retenção moderada com boa aeração.",
-        justificativa: "A mistura provisória para vaso pequeno combina pinus fino, perlita grossa e esfagno solto, buscando aeração com alguma reserva de umidade. Ela não reproduz integralmente nenhuma das duas alternativas qualitativas listadas; a montagem com pequena quantidade de esfagno permanece uma opção distinta. A retenção efetiva e os percentuais ainda precisam de validação pela MACS 1.0.",
-        receitaTexto: "45% casca de pinus fina + 40% perlita grossa + 15% esfagno de fibra longa solto.",
+        resumo: "Raízes frescas e úmidas, sem saturação. Pinus fino, perlita adequada a raízes delicadas e esfagno solto em pequena fração oferecem retenção moderada com boa aeração.",
+        justificativa: "Promenaea xanthina é uma miniatura epífita montana de raízes delicadas, que precisa de umidade regular, ventilação e temperaturas amenas, sobretudo à noite. Para vaso plástico vasado pequeno, a receita visual propõe pinus fino, perlita de granulometria compatível com raízes finas e esfagno de fibra longa solto, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não fundamentam os percentuais visuais. A montagem com pequena quantidade de esfagno é outro método, não a receita principal. Em clima quente, o substrato não substitui o resfriamento noturno. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
+        receitaTexto: "45% casca de pinus fina + 40% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto (proposta não homologada).",
         perfil: ["Miniatura epífita", "Raízes sensíveis", "Clima ameno", "Umidade regular", "Boa ventilação"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -68,11 +68,11 @@ export const promenaeaXanthina = {
         ],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "45%", nota: "estrutura", finalidade: "Apoia raízes finas e mantém o substrato aberto." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "40%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação radicular." },
+            { asset: "perlita", nome: "Perlita de granulometria compatível com raízes finas", proporcao: "40%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação radicular." },
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "15%", nota: "umidade", finalidade: "Retém umidade sem compactar quando usado em pequena quantidade." }
         ],
         alerta: "Evitar sol forte, calor noturno acumulado, esfagno compactado e água acumulada em brotos ainda pequenos; após o enraizamento dos novos crescimentos, evitar encharcamento, secagem completa e repouso seco prolongado. O substrato não substitui noites mais amenas.",
-        notaEvidencia: "Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+        notaEvidencia: "MACS 1.1 — revisão documental: Promenaea xanthina (nome editorial; POWO trata como Promenaea stapelioides subsp. xanthina), miniatura epífita montana com raízes delicadas; requer umidade regular, ventilação e noites amenas. Vaso plástico vasado pequeno é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 45% pinus fino + 40% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Não fundamentam os percentuais visuais. A montagem com esfagno é método separado. Noites quentes podem limitar vigor e floração mesmo com substrato correto. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
         "Expor ao sol direto forte",
