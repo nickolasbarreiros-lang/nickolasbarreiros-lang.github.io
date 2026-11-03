@@ -72,7 +72,7 @@ export const rodrigueziaVenusta = {
             { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para mistura aberta." }
         ],
         alerta: "Evitar sombra profunda, vasos grandes, esfagno compactado e molhamento prolongado à noite. Não bloquear as hastes pendentes; regar preferencialmente pela manhã.",
-        notaEvidencia: "Receita percentual somente para recipientes. Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+        notaEvidencia: "Receita para recipientes ainda não homologada pela MACS 1.0. Fontes brasileiras específicas documentam pinus + carvão + esfagno, e pinus + esfagno ou esfagno + casca de arroz carbonizada; a mistura atual com 30% chips de coco e 25% perlita é hipótese horticultural, não proporção comprovada. Na placa/tronco, não utilizar a mistura como enchimento."
     },
     "errosComuns": "Sombra profunda; vaso grande; excesso de esfagno; substrato velho ou compactado; impedir o caimento das hastes; deixar a touceira molhada à noite; aplicar matéria orgânica diretamente sobre raízes; adubar forte; replantar fora da emissão de novas raízes; dividir touceiras pequenas; falta de ventilação.",
     "dica": "O melhor manejo é suspender a planta em placa, cortiça ou cachepô vazado e liberar completamente o espaço abaixo das hastes. A montagem vertical combina exatamente o que a espécie precisa: raízes finas bem oxigenadas, secagem rápida depois da rega e caminho livre para as inflorescências pendentes. Regue pela manhã e use apenas uma camada mínima de material retentivo.",
