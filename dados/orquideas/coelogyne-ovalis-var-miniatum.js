@@ -39,7 +39,7 @@ export const coelogyneOvalisVarMiniatum = {
     "adubacao": "🌿 Orgânica: bokashi em quantidade mínima, afastado do rizoma e apenas durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose, aplicado com raízes novas e pseudobulbos em formação.\n🌱 Crescimento: adubação leve e regular funciona melhor do que doses fortes.\n🍂 Período mais frio: reduza a frequência se o crescimento desacelerar.\n🧪 Liberação lenta: poucos grânulos somente em mistura muito drenante.\n🚿 Lavagem: faça irrigação abundante com água pura periodicamente para remover sais.",
     "rega": "Mantenha umidade regular durante o crescimento, mas permita boa entrada de ar no sistema radicular. A espécie ocorre tanto sobre árvores quanto rochas musgosas, indicando raízes acostumadas a umidade frequente sem compactação. No período mais fresco, reduza moderadamente se a planta desacelerar, sem impor seca severa nem deixar os pseudobulbos enrugarem de forma contínua.",
     "suporte": "🥇 Placa larga com pequena faixa de esfagno — acompanha naturalmente o rizoma rastejante.\n🥈 Cesto raso — oferece espaço horizontal e ótima aeração.\n🥉 Vaso largo e baixo — útil onde a umidade ambiental é menor.\nDeixe o rizoma sobre a superfície e reserve espaço para vários anos de avanço.",
-    "substrato": ["Casca de pinus média + chips de coco médios + carvão vegetal","Casca de pinus média + esfagno solto + perlita grossa"],
+    "substrato": ["Casca de pinus média + chips de coco médios preparados + carvão vegetal médio","Casca de pinus média + esfagno de fibra longa solto + perlita grossa"],
     "formasCultivo": {
         "perfilVisual": "coelogyne",
         "destaque": "Placa / tronco",
