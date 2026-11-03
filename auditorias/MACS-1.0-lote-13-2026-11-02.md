@@ -13,7 +13,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 7. rodricidium.js — passagem concluída
 8. laelia-praestans.js — passagem concluída
 9. phaius-tankervilleae-alba.js — passagem concluída
-10. stanhopea-hernandezii.js — pendente
+10. stanhopea-hernandezii.js — passagem concluída
 
 ## Passagem 121 — Cattleya walkeriana (f. alba 'Gnomus' × f. alba 'Suprema')
 
@@ -58,3 +58,12 @@ EPÍFITA compacta de floresta úmida, raízes ventiladas e umidade regular no cr
 ## Passagem 129 — Calanthe tankervilleae forma alba (arquivo histórico phaius-tankervilleae-alba)
 
 TERRESTRE grande, vaso amplo/profundo, umidade regular e aeração. SUPORTES: plástico 5 estrelas, barro 4, plástico vasado 3, cachepô madeira 2. RECEITA VISUAL: 30% fibra coco + 30% chips coco pequenos + 20% arroz carbonizado + 20% perlita grossa = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira qualitativa, mas primeira é pinus fino + fibra coco + perlita grossa + pouca vermiculita, sem chips/arroz. Segunda chips coco + perlita fina/média + arroz carbonizado + esfagno, sem fibra coco; terceira fibra coco + pinus + perlita + carvão, sem chips/arroz. Nenhuma coincide. Validar retenção/compactação em vaso profundo, salinidade do coco, granulometria e estabilidade da touceira alta. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 8800a464bb915cb7e5dae08f65651e4bfc1f93f2. Próxima ficha Stanhopea hernandezii.
+
+
+## Passagem 130 — Stanhopea hernandezii
+
+EPÍFITA/RUPÍCOLA com haste floral descendente, exige cesta suspensa de fundo livre e umidade regular no crescimento. SUPORTES: cachepô madeira 5 estrelas, plástico vasado 4 condicional, raízes soltas 3. RECEITA VISUAL: 40% chips coco grossos + 30% pinus médio + 20% perlita grossa + 10% esfagno longo solto = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira qualitativa, mas primeira é pinus + fibra coco grossa + perlita + carvão, sem chips/esfagno; visual troca fibra por chips e omite carvão. Segunda é macadâmia + chips coco + perlita + esfagno, sem pinus. Nenhuma coincide. Validar retenção, granulometria e saída efetivamente livre da haste floral pelo fundo, além do calor noturno. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 2f2974d16febad6e31587a450f620792669b3ac4.
+
+## Encerramento do lote 13
+
+Dez fichas (121–130) tiveram a primeira passagem documental registrada individualmente. Todas as receitas, percentuais, estrelas, layouts, assets e índices foram preservados. Divergências entre receitas visuais, qualitativas e justificativas foram registradas para posterior correção técnica; homologação quantitativa MACS 1.0 continua pendente, sem verificação comprovada de até 25 produtores brasileiros específicos por espécie.
