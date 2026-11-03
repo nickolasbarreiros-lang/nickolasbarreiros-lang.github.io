@@ -40,7 +40,7 @@ export const coelogyneCristata = {
     "adubacao": "🌿 Orgânica: bokashi leve somente durante brotação ativa, retirado ou interrompido antes do repouso.\n💧 Mineral/Foliar: NPK equilibrado bem diluído na primavera e verão.\n🌱 Crescimento: adube enquanto folhas e pseudobulbos estiverem se formando.\n🍂 Outono: reduza gradualmente junto com a água.\n💤 Inverno: suspenda totalmente a adubação.\n🧪 Liberação lenta: dose baixa apenas no início da estação de crescimento; evite formulações que continuem liberando nutrientes no repouso.",
     "rega": "Na primavera e no verão, regue abundantemente enquanto houver brotos e raízes ativas, deixando o substrato arejado. No outono, reduza de forma progressiva. Durante o inverno, mantenha quase seca, com irrigações mínimas apenas se os pseudobulbos começarem a enrugar excessivamente. Não deixe a mistura fria e molhada. Retome a rega de modo gradual com o aparecimento de botões ou novos crescimentos.",
     "suporte": "🥇 Cestinho largo de madeira — permite expansão da touceira e caimento das hastes.\n🥈 Vaso raso e amplo — oferece estabilidade sem excesso de substrato profundo.\n🥉 Placa grande — indicada somente em clima frio e úmido, com regas controladas.\nMantenha o recipiente suspenso e com espaço livre abaixo.",
-    "substrato": ["🥇 Pinus médio + chips de coco + perlita grossa + carvão vegetal miúdo.","🥈 Esfagno de fibra longa solto + perlita grossa + casca de pinus média.","🥉 Casca de macadâmia média + fibra de coco grossa + perlita grossa + pequena fração de esfagno solto."],
+    "substrato": ["🥇 Para cachepô largo: chips de coco médios + casca de pinus média + perlita grossa + esfagno picado e solto (mistura visual provisória; controlar regas no repouso).","🥈 Pinus médio + chips de coco + perlita grossa + carvão vegetal miúdo.","🥉 Esfagno de fibra longa solto + perlita grossa + casca de pinus média.","Alternativa adicional: casca de macadâmia média + fibra de coco grossa + perlita grossa + pequena fração de esfagno solto."],
     "formasCultivo": {
         "perfilVisual": "coelogyne",
         "destaque": "Cachepô de Madeira",
@@ -56,7 +56,7 @@ export const coelogyneCristata = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cachepô largo e ventilado",
         "resumo": "Mistura que mantém umidade durante o crescimento, mas permite redução hídrica e secagem mais pronunciada no repouso.",
-        "justificativa": "A composição segue os quatro materiais da primeira receita já presente na ficha. Os percentuais são uma sugestão técnica, ainda não homologada pela MACS 1.0.",
+        "justificativa": "A receita visual para cachepô largo combina chips de coco médios, pinus médio, perlita grossa e esfagno picado e solto; foi incluída como primeira alternativa textual. As três receitas anteriores diferem nos materiais e foram preservadas. O repouso hídrico e as noites frias são fatores independentes do substrato. Percentuais ainda não homologados pela MACS 1.0.",
         "receitaTexto": "35% chips de coco médios + 30% casca de pinus média + 25% perlita grossa + 10% esfagno picado e solto.",
         "perfil": ["Raízes epífitas", "Touceira expansiva", "Umidade na fase ativa", "Repouso hídrico de inverno", "Exigência de noites frias para floração"],
         "comportamento": [
