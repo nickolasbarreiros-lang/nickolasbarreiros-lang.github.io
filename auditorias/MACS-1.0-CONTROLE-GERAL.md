@@ -273,3 +273,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 04:** Orquídeas no Apê (https://www.orquideasnoape.com.br/2012/01/compras-lophiaris-pumila.html) descreve montagem, brita ou macadâmia e alternativas; Orquideaterapia (https://orquideaterapia.blogspot.com/2017/03/oncidium-pumilum-ou-lophiaris-pumila.html) descreve cascas + carvão. Nenhuma das fontes valida os percentuais 35/30/25/10. Nota de evidência específica da ficha preservada.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 31/149 checagens; 29 fichas com correções efetivas (003–031); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 032 — Eria hyacinthoides (Bryobium hyacinthoides).
+
+## Correção na mesma passagem — registro 032 (2026-11-03)
+- **Ficha 032 — Eria hyacinthoides (nome aceito: Bryobium hyacinthoides)** (`dados/orquideas/eria-hyacinthoides.js`): receita visual para recipiente, 35% pinus médio + 25% chips de coco tratados + 25% perlita grossa + 15% esfagno solto = 100%.
+- **Correção efetiva:** mistura visual não aparecia nas três alternativas textuais; incluída como primeira opção provisória, preservadas as três alternativas originais. A justificativa visual e a nota de evidência já diferenciavam proposta técnica de validação científica e foram preservadas. Commit `516a46ee0f49fe7ffe44e03b74a83f6b4b0d5b10`.
+- **Evidência prévia no lote 04:** POWO https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77068509-1 confirma nome aceito e hábito epífito. Orchid Guru https://www.orchid.guru/content/orchids/b/bryobium/hyacinthoides/ lista materiais genéricos, sem proporções. Nenhum produtor brasileiro específico com receita confirmada na primeira passagem; homologação quantitativa permanece pendente.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados.
+- **Progresso:** 32/149 checagens; 30 fichas com correções efetivas (003–032); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 033 — Renanthera coccinea.
