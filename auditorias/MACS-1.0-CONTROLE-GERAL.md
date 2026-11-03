@@ -624,3 +624,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Corrigida a justificativa de `substratoVisual`: a primeira mistura textual anterior continha pinus + perlita + carvão + chips de coco (sem macadâmia); a segunda continha macadâmia + argila expandida + carvão + pinus (sem perlita). Nenhuma correspondia integralmente à composição visual. Nenhum ingrediente ou percentual alterado; demais alternativas, fotos, assets, suportes/estrelas, IDC/IAR e layout preservados. Commit ficha: 78705ec743da030cb239110a0d41250fbbb9b3ea.
 - Genealogia do híbrido não é evidência de substrato. Até 25 produtores específicos não encontrados; percentuais e estrelas NÃO HOMOLOGADOS.
 - Progresso: 83/149 checagens; 81 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 084 — Cattleya loddigesii.
+
+## Registro 084 — Cattleya loddigesii (2026-11-03)
+- Receita visual e `receitaTexto` já concordavam: 35% pinus + 25% macadâmia + 25% perlita grossa + 15% carvão vegetal. As três alternativas qualitativas divergiam individualmente; adicionada a receita visual como primeira alternativa provisória e preservadas as três antigas.
+- Não foram alterados receita visual, percentuais, itens, alerta de evidência, métodos de cultivo ou fotos/assets. A ficha registra que estudos de plântulas com pinus/arroz carbonizado não validam receita para plantas adultas. Commit ficha: bffd29df0fb63ce4ce359581ceb23cb89bdc12e9.
+- Métodos de suporte estão todos com `estrelas:null`; nenhuma pontuação inventada. Percentuais e ranking NÃO HOMOLOGADOS; meta de 25 produtores brasileiros específicos não atingida.
+- Progresso: 84/149 checagens; 82 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 085 — Cattleya cinnabarina (sin. Laelia cinnabarina).
