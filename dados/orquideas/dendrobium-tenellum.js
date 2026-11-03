@@ -40,7 +40,7 @@ export const dendrobiumTenellum = {
     "adubacao": "🌿 Orgânica: bokashi em dose leve apenas no início da brotação.\n💧 Mineral/Foliar: adubo equilibrado a cada 10–15 dias durante crescimento ativo.\n🌱 Crescimento: mantenha nutrição até a maturação das hastes.\n🍂 Outono: reduza gradualmente.\n💤 Inverno: suspenda ou use apenas doses mínimas se houver atividade.\n🧪 Liberação lenta: poucos grânulos no início do ciclo.",
     "rega": "Na fase vegetativa, mantenha o substrato levemente úmido, com secagem parcial entre as regas. No inverno, reduza significativamente, mas não deixe as hastes secarem por longos períodos. Proteja da chuva contínua durante o descanso.",
     "suporte": "🥇 Cesto suspenso — acomoda perfeitamente as hastes pendentes.\n🥈 Placa de madeira — oferece máxima aeração.\n🥉 Vaso raso em posição alta — alternativa prática.\nEvite recipientes profundos e locais baixos.",
-    substrato: ["casca de pinus média + perlita grossa + chips de coco lavados + carvão vegetal pequeno","casca de pinus média + chips de coco lavados + perlita grossa + carvão vegetal pequeno"],
+    substrato: ["Casca de pinus média + perlita grossa + carvão vegetal pequeno","Casca de pinus média + chips de coco preparados + carvão vegetal pequeno"],
     "formasCultivo": {
         "perfilVisual": "dendrobium-montano-pendente",
         "destaque": "Cachepô de Madeira",
