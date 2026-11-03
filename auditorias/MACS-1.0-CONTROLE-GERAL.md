@@ -377,3 +377,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Correção efetiva:** receita visual ausente das três alternativas textuais; incluída como primeira opção provisória, preservadas as três anteriores. A justificativa visual já identificava corretamente o caráter provisório e foi preservada. Commit `9c0a63fdd0ecefeecc1ea7228bdacab829e988b8`.
 - **Limites:** híbrido horticultural complexo, sem ensaio quantitativo específico confirmado; percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados. Homologação quantitativa pendente.
 - **Progresso:** 46/149 checagens; 44 fichas com correções efetivas (003–046); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 047 — Cattleya schilleriana × Cruzeiro do Sul.
+
+## Correção na mesma passagem — registro 047 (2026-11-03)
+- **Ficha 047 — Cattleya schilleriana × Cruzeiro do Sul (Cattleya Memoria Rita Franke)** (`dados/orquideas/cattleya-schilleriana-x-cruzeiro-do-sul.js`): cultivo principal em vaso de barro pequeno; receita visual 40% pinus médio/grosso + 25% macadâmia média + 20% carvão + 15% perlita grossa = 100%.
+- **Correção efetiva:** mistura visual ausente das três alternativas textuais; incluída como primeira opção provisória, preservadas as três anteriores. Justificativa já registrava caráter hipotético da receita e foi preservada. Commit `88079259e4b5e0722f043f8ed7958c77a1c3a631`.
+- **Evidência prévia no lote 05:** Orquidário Wolf documenta o cruzamento Memoria Rita Franke; Orquidário Santa Clara recomenda pinus e carvão para C. schilleriana, não especificamente para o híbrido. Não há validação dos percentuais 40/25/20/15.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 47/149 checagens; 45 fichas com correções efetivas (003–047); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 048 — Lc. Trick or Treat.
