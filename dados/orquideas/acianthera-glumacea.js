@@ -46,7 +46,7 @@ export const aciantheraGlumacea = {
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Viável quando pequeno e muito perfurado, usando mistura estruturalmente aberta e mantendo o rizoma sobre a superfície." },
         ]
     },
-    substrato: ["Casca de pinus + Casca de arroz carbonizada + Carvão vegetal + Esfagno","Casca de pinus + Casca de arroz carbonizada + Carvão vegetal + Esfagno"],
+    substrato: ["Casca de pinus fina + carvão vegetal pequeno + esfagno de fibra longa solto","Chips de coco pequenos preparados + casca de arroz carbonizada + carvão vegetal pequeno"],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
