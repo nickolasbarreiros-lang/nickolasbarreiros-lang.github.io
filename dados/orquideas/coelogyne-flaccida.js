@@ -40,7 +40,7 @@ export const coelogyneFlaccida = {
     "adubacao": "🌿 Orgânica: bokashi em pequena dose na borda do cesto no início da brotação.\n💧 Mineral/Foliar: NPK equilibrado bem diluído a cada 10–15 dias durante crescimento ativo.\n🌱 Formação dos pseudobulbos: mantenha nutrição leve até a maturação.\n🍂 Pós-maturação: reduza frequência e nitrogênio.\n🧪 Liberação lenta: dose baixa de Osmocote somente em vasos ou cestos muito drenantes.\n🚿 Lavagem: faça flushing regular para evitar acúmulo de sais.",
     "rega": "Durante a formação dos novos pseudobulbos, regue com frequência e deixe apenas a superfície secar levemente. Após a maturação, reduza moderadamente. No inverno, mantenha leve umidade sem deixar a mistura fria e saturada. Não permita desidratação severa dos pseudobulbos. Regue pela manhã e mantenha ventilação constante.",
     "suporte": "🥇 Cesto de madeira ou plástico vazado — favorece aeração e saída das hastes.\n🥈 Vaso largo e raso — oferece superfície e estabilidade sem excesso de substrato profundo.\n🥉 Placa grande — indicada somente em ambientes úmidos e frescos.\nMantenha o conjunto suspenso e com espaço vertical livre.",
-    "substrato": ["Casca de pinus média + chips de coco médios + perlita grossa","Casca de pinus média + perlita grossa + esfagno de fibra longa solto"],
+    "substrato": ["Casca de pinus média + chips de coco médios preparados + perlita grossa","Casca de pinus média + perlita grossa + esfagno de fibra longa solto"],
     "formasCultivo": {
         "perfilVisual": "coelogyne",
         "destaque": "Cachepô de Madeira",
