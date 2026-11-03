@@ -40,7 +40,7 @@ export const dendrobiumTenellum = {
     "adubacao": "🌿 Orgânica: bokashi em dose leve apenas no início da brotação.\n💧 Mineral/Foliar: adubo equilibrado a cada 10–15 dias durante crescimento ativo.\n🌱 Crescimento: mantenha nutrição até a maturação das hastes.\n🍂 Outono: reduza gradualmente.\n💤 Inverno: suspenda ou use apenas doses mínimas se houver atividade.\n🧪 Liberação lenta: poucos grânulos no início do ciclo.",
     "rega": "Na fase vegetativa, mantenha o substrato levemente úmido, com secagem parcial entre as regas. No inverno, reduza significativamente, mas não deixe as hastes secarem por longos períodos. Proteja da chuva contínua durante o descanso.",
     "suporte": "🥇 Cesto suspenso — acomoda perfeitamente as hastes pendentes.\n🥈 Placa de madeira — oferece máxima aeração.\n🥉 Vaso raso em posição alta — alternativa prática.\nEvite recipientes profundos e locais baixos.",
-    substrato: ["🥇 Casca de pinus média + chips de coco + perlita grossa + carvão vegetal (mistura-base provisória do substrato visual).","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
+    substrato: ["🥈 Alternativa 1 — 60% casca de pinus média + 20% perlita grossa + 10% chips de coco lavados + 10% carvão vegetal pequeno. Opção potencialmente mais drenante, para secagem lenta; MACS 1.1 percentuais D, estimados e não homologados.","🥉 Alternativa 2 — 45% casca de pinus média + 30% chips de coco lavados + 10% perlita grossa + 15% carvão vegetal pequeno. Opção de maior reserva hídrica para cachepô de secagem rápida; MACS 1.1 percentuais D, estimados e não homologados."],
     "formasCultivo": {
         "perfilVisual": "dendrobium-montano-pendente",
         "destaque": "Cachepô de Madeira",
@@ -56,8 +56,8 @@ export const dendrobiumTenellum = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cachepô suspenso ou vaso raso",
         "resumo": "Mistura de aeração elevada com retenção intermediária, evitando tanto saturação quanto seca extrema.",
-        "justificativa": "A mistura visual combina pinus médio, chips de coco, perlita grossa e carvão vegetal, agora também descritos como primeira alternativa textual. As alternativas anteriores utilizam outros materiais. Os percentuais são uma proposta horticultural de visualização, não homologação MACS 1.0.",
-        "receitaTexto": "40% casca de pinus média + 25% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        "justificativa": "MACS 1.1: proposta provisória para cachepô suspenso com casca majoritária, retenção moderada e aeração. POWO e IOSPE documentam a ecologia montana; RHS recomenda casca e cestos para Dendrobium em geral. Nenhuma dessas fontes valida percentuais específicos de D. tenellum. Composição C por convergência, percentuais D inferenciais; não homologados experimentalmente.",
+        "receitaTexto": "50% casca de pinus média + 20% chips de coco lavados + 15% perlita grossa + 15% carvão vegetal pequeno.",
         "perfil": ["Epífita montana", "Hastes finas pendentes", "Noites amenas", "Boa ventilação", "Repouso moderado"],
         "comportamento": [
             { "nome": "Retenção", "valor": 3, "icone": "💧" },
@@ -66,13 +66,13 @@ export const dendrobiumTenellum = {
             { "nome": "Compactação", "valor": 2, "icone": "🧱" }
         ],
         "itens": [
-            { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "40%", "nota": "estrutura", "finalidade": "Sustenta as raízes e mantém drenagem sem compactar." },
-            { "asset": "chips-coco", "nome": "Chips de coco", "proporcao": "25%", "nota": "umidade moderada", "finalidade": "Ajuda a conservar alguma umidade entre regas." },
-            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "25%", "nota": "aeração", "finalidade": "Mantém espaços de ar e evita saturação prolongada." },
-            { "asset": "carvao", "nome": "Carvão vegetal", "proporcao": "10%", "nota": "drenagem", "finalidade": "Acrescenta partículas estáveis e drenantes." }
+            { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "50%", "nota": "estrutura", "finalidade": "Sustenta as raízes e mantém drenagem sem compactar." },
+            { "asset": "chips-coco", "nome": "Chips de coco", "proporcao": "20%", "nota": "umidade moderada", "finalidade": "Ajuda a conservar alguma umidade entre regas." },
+            { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "15%", "nota": "aeração", "finalidade": "Mantém espaços de ar e evita saturação prolongada." },
+            { "asset": "carvao", "nome": "Carvão vegetal", "proporcao": "15%", "nota": "drenagem", "finalidade": "Acrescenta partículas estáveis e drenantes." }
         ],
         "alerta": "No inverno, reduzir água e adubação sem permitir que as hastes enruguem excessivamente. O suporte não substitui a necessidade de noites amenas; calor constante pode dificultar o cultivo.",
-        "notaEvidencia": "Percentuais e estrelas são estimativas horticulturais não homologadas pela MACS 1.0. Validação visual dos assets pendente."
+        "notaEvidencia": "MACS 1.1: formulação quantitativa PROVISÓRIA por volume, sem homologação de percentuais (D); composição C por convergência ecológica e fontes genéricas de Dendrobium. Não é receita publicada especificamente para Dendrobium tenellum nem ensaio experimental. Duas alternativas estimadas no menu. Estrelas dos suportes D, preservadas. Fonte e limites: auditorias/MACS-1.1-MATRIZ-026-DENDROBIUM-TENELLUM.md."
     },
     "errosComuns": "Sol direto intenso; seca extrema; encharcamento; substrato compactado; repouso excessivamente severo; chuva contínua no inverno; replantios desnecessários; vaso profundo; pouca ventilação; excesso de adubo no repouso.",
     "dica": "Durante o inverno, reduza drasticamente água e adubo, mas acompanhe visualmente as hastes. Se começarem a enrugar em excesso, faça uma irrigação leve. O equilíbrio entre descanso e preservação das hastes é o principal fator de sucesso.",
