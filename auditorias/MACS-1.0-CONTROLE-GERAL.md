@@ -1096,3 +1096,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - R0 atual 45/35/20 pinus fino/perlita/esfagno; R1 55/35/10; R2 60% pinus, 20% esfagno, 20% carvão. Hipóteses comparativas, não novas prescrições. **Alerta prioritário:** granulometria fina da ficha versus casca média/grossa indicada por fonte específica; avaliar em conjunto com umidade e tamanho do recipiente.
 - Possibilidade de suportes nível B; estrelas D; composição D; percentuais D; notas da matriz não calculadas por insuficiência de evidências. Nenhuma modificação na ficha JS ou assets.
 - Progresso MACS 1.1: **3/149 matrizes comparativas documentadas**, **0/149 homologações por convergência**. Próxima ficha da lista oficial: Miltonia russelliana.
+
+
+### MACS 1.1 — Matriz comparativa 004: Miltonia russelliana (2026-11-03)
+- Documento: `auditorias/MACS-1.1-MATRIZ-004-MILTONIA-RUSSELLIANA.md` (commit `79691e1a505a51ec1808e3a6e71ea51eb2de40d3`).
+- POWO confirma espécie aceita e epífita brasileira; AOS e NYBG recomendam montagens para gênero Miltonia; fonte específica Orchid.guru confirma montagem possível e atenção a raízes finas. **Alerta:** placa/tronco recebe apenas 3 estrelas na ficha enquanto cachepô recebe 5; diferença sem demonstração comparativa. Revisar, não mudar automaticamente.
+- R0 atual 35% pinus médio/30% chips coco/25% perlita grossa/10% carvão; R1 50/15/25/10; R2 35/40/15/10. R1/R2 são cenários hipotéticos, não prescrições. Matriz 30/25/20/15/10 documentada sem notas artificiais. Composição D, percentuais D, estrelas D; possibilidades de suporte B. **Não homologada**.
+- Progresso: **4/149 matrizes MACS 1.1 documentadas; 0/149 homologações quantitativas por convergência**. Próxima espécie oficial: Promenaea xanthina.
