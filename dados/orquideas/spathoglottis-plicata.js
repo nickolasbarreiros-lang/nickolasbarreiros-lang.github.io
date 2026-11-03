@@ -40,7 +40,7 @@ export const spathoglottisPlicata = {
     "adubacao": "🌿 Orgânica: bokashi ou composto bem curtido em pequena quantidade na superfície, sem encostar nos pseudobulbos.\n💧 Mineral/Foliar: NPK equilibrado a cada 10–15 dias durante crescimento ativo.\n🌱 Nutrição de base: por ser terrestre vigorosa, responde bem a matéria orgânica estável e fração mineral.\n🧪 Liberação lenta: Osmocote em dose moderada, distribuído na mistura e longe dos pseudobulbos.\n🚿 Lavagem: em vasos, regas profundas periódicas evitam concentração de sais.",
     "rega": "Mantenha umidade regular durante emissão de brotos, folhas e hastes, sempre com drenagem imediata. No frio ou em períodos muito chuvosos, reduza a frequência, mas não deixe o vaso secar totalmente durante crescimento ativo. Nunca mantenha prato com água.",
     "suporte": "🥇 Vaso largo e profundo, com muitos furos — acomoda raízes e novas frentes.\n🥈 Jardineira bem drenada — excelente para expansão da touceira.\n🥉 Canteiro elevado com solo leve — indicado em jardins quentes.\nMantenha os pseudobulbos na superfície, sem enterrá-los profundamente.",
-    substrato: ["🥇 Chips de coco pequenos + casca de arroz carbonizada + perlita grossa + argila expandida miúda.","🥈 Fibra de coco + perlita grossa + pinus fino + carvão vegetal miúdo.","🥉 Casca de macadâmia média + casca de arroz carbonizada + perlita grossa + fibra de coco."],
+    substrato: ["🥇 Mistura terrestre fértil e permeável com matéria orgânica estabilizada + casca de pinus para drenagem (alternativa qualitativa documentada; proporções a validar).","🥈 Casca de arroz carbonizada + fibra de coco + perlita grossa + casca de pinus fina (receita visual provisória, ainda não validada como ideal para espécie terrestre).","🥉 Chips de coco pequenos + casca de arroz carbonizada + perlita grossa + argila expandida miúda.","Alternativa adicional: fibra de coco + perlita grossa + pinus fino + carvão vegetal miúdo.","Alternativa adicional: casca de macadâmia média + casca de arroz carbonizada + perlita grossa + fibra de coco."],
     formasCultivo: {
         perfilVisual: "spathoglottis-terrestre-touceirante-raizes-vaso",
         destaque: "Vaso plástico",
@@ -55,7 +55,7 @@ export const spathoglottisPlicata = {
         titulo: "Substrato ideal",
         contexto: "Mistura terrestre leve para recipiente amplo e drenado",
         resumo: "Uma mistura de componentes finos e médios, leve e arejada, que conserva umidade sem formar massa compacta.",
-        justificativa: "A receita quantifica os componentes da primeira mistura qualitativa da ficha. O termo perlita aparece duas vezes na receita original; foi consolidado em perlita grossa para evitar duplicidade. Percentuais estimados, não homologados pela MACS 1.0.",
+        justificativa: "Por ser terrestre, a espécie é descrita em fontes específicas com meio fértil, rico em matéria orgânica estabilizada e bem drenado. A composição visual de arroz carbonizado, fibra de coco, perlita e pinus é alternativa experimental para recipiente, agora também listada entre as opções textuais; não representa a primeira recomendação cientificamente demonstrada nem foi homologada como substrato ideal pela MACS 1.0. Os percentuais são estimativas.",
         receitaTexto: "35% casca de arroz carbonizada + 30% fibra de coco + 25% perlita grossa + 10% casca de pinus fina.",
         perfil: ["Orquídea terrestre", "Touceira expansiva", "Raízes em recipiente", "Umidade regular", "Drenagem elevada"],
         comportamento: [
