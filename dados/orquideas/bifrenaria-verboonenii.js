@@ -52,7 +52,7 @@ export const bifrenariaVerboonenii = {
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Biologicamente possível, mas exige regas mais frequentes e controle maior da desidratação durante o crescimento ativo." }
         ]
     },
-    substrato: ["Brita fina/média + casca de pinus média + carvão vegetal","⭐ Brita fina/média + casca de arroz carbonizada + carvão vegetal + casca de macadâmia"],
+    substrato: ["Brita fina/média + casca de pinus média + carvão vegetal","Brita fina/média + casca de arroz carbonizada + carvão vegetal + casca de macadâmia"],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
