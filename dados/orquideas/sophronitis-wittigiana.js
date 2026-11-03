@@ -53,7 +53,7 @@ export const sophronitisWittigiana = {
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode ser usado em locais de secagem rápida, desde que seja pequeno, muito perfurado e receba mistura extremamente aerada." }
         ]
     },
-    substrato: ["🥇 Casca de pinus média + carvão vegetal + pequena fração de esfagno solto.", "🥈 Casca de macadâmia média + brita fina + pequena fração de esfagno solto."],
+    substrato: ["🥇 Casca de pinus média + carvão vegetal + brita pequena + esfagno solto (mistura-base provisória do substrato visual).", "🥈 Casca de pinus média + carvão vegetal + pequena fração de esfagno solto.", "🥉 Casca de macadâmia média + brita fina + pequena fração de esfagno solto."],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em recipiente",
