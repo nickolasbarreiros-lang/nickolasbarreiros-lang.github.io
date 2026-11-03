@@ -61,3 +61,12 @@ Este controle é um índice de progresso, não substitui os pareceres detalhados
 - **Cobertura brasileira quantitativa adicional verificada nesta passagem:** 0 novas recomendações específicas; meta até 25 continua aberta. Não declarar ausência de produtores.
 - **Parecer:** compatibilidade técnica condicional da mistura como opção de recipiente; **percentuais e estrelas não homologados**. Manter receita e demais parâmetros; falta evidência independente específica e comparação de secagem de raízes livres versus recipiente.
 - **Próxima ficha:** 003 — Epidendrum centropetalum. **Progresso da segunda passagem:** 2/149 checagens internas registradas; 0/149 homologações quantitativas comprovadas.
+
+## Segunda passagem — registro 003 (2026-11-03)
+- **Ficha 003 — Epidendrum centropetalum** (`dados/orquideas/epidendrum-centropetalum.js`): receita visual 45% pinus fino + 35% perlita calibrada + 20% esfagno solto = 100%, com concordância entre `receitaTexto` e `itens`.
+- **Cultivo:** cachepô de madeira em destaque, montagem em placa/tronco também com cinco estrelas; receita percentual aplica-se ao recipiente, não à montagem.
+- **Divergência substancial de justificativa:** `substratoVisual.justificativa` diz que a mistura deriva da 'segunda alternativa' consolidando granulometrias de perlita; porém `substrato` contém apenas (1) chips coco + perlita + pinus e (2) esfagno + perlita. A receita visual inclui pinus + perlita + esfagno e **não coincide integralmente com nenhuma**; não há duas granulometrias de perlita no texto atual. Exige correção editorial fundamentada em etapa específica.
+- **Evidência preexistente:** Monaco Nature Encyclopedia recomenda montagem ventilada e secagem das raízes entre regas, ou recipiente pequeno drenante; AOS Reedstem Epidendrum é orientação genérica para outro grupo e não valida esta receita. Consultar referências no relatório do lote 01.
+- **Cobertura brasileira quantitativa adicional nesta passagem:** 0 novas recomendações específicas verificadas. Não significa inexistência de produtores. Percentuais e estrelas **não homologados**.
+- **Parecer:** revisão técnica prioritária de coerência entre alternativas e receita, granulometria fina e retenção/tempo de secagem; nenhuma modificação de mistura ou layout autorizada por evidência atual.
+- **Próxima ficha:** 004 — Miltonia russelliana. **Progresso da segunda passagem:** 3/149 checagens registradas; 0/149 homologações quantitativas comprovadas.
