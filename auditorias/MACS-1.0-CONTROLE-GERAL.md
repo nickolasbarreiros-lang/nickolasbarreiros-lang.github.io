@@ -1165,3 +1165,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - R0 45% pinus/20% carvão/20% macadâmia/15% esfagno; R1 60/20/5/15; R2 55/20/0/25. R1/R2 hipóteses. **Macadâmia 20% sem evidência específica**; avaliar secagem e retenção sem perder a ventilação. Condição térmica montana é fator independente do substrato em litoral quente.
 - Método vaso/montagem B qualitativo; **composição D, percentuais D, estrelas D**. Não homologada quantitativamente. JS/assets preservados.
 - Progresso: **12/149 matrizes documentadas**, **0/149 homologações quantitativas**. Próxima espécie oficial: Bifrenaria verboonenii (conferir index antes de iniciar).
+
+
+### MACS 1.1 — Matriz 013: Bifrenaria verboonenii (2026-11-03)
+- Documento `auditorias/MACS-1.1-MATRIZ-013-BIFRENARIA-VERBOONENII.md`, commit `ab9feb92fd50f3eff217c8bb11d55cd448d7b383`.
+- **Pendência taxonômica crítica:** ficha declara inclusão em B. tyrianthina segundo POWO, mas IOSPE/Limodore e terceiros apresentam B. verboonenii como espécie distinta. Confirmar **diretamente POWO/WFO** antes de cruzar evidências de B. tyrianthina. Não confundir Cattleya/Gomesa verboonenii. AOS Bifrenaria só oferece orientação de gênero.
+- R0 40% brita/25% macadâmia/20% carvão/15% pinus, sem esfagno. R1 40/10/20/30; R2 25/0/25/50. R1/R2 hipóteses, **regra sem esfagno mantida**. Hábito rupícola não comprova 40% brita no vaso. Composição D, percentuais D, estrelas D; possibilidade de vaso/cesto C qualitativo. **Não homologada**.
+- Progresso: **13/149 matrizes documentadas**, **0/149 homologações quantitativas**. Próxima espécie oficial: Bifrenaria aureofulva.
