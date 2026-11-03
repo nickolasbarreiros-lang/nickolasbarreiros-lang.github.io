@@ -40,7 +40,7 @@ export const cattleyaWalkeriana = {
     "adubacao": "🌿 Orgânica: bokashi em dose mínima, em sachê, apenas durante brotação e enraizamento.\n💧 Mineral/Foliar: NPK equilibrado em cerca de 1/4 da dose a cada 10–15 dias enquanto houver raízes ativas.\n🌱 Raízes novas: adube somente após molhar as raízes com água pura.\n🌸 Maturação: reduza o nitrogênio quando o pseudobulbo estiver firme e a folha expandida.\n🧪 Liberação lenta: Osmocote somente em dose mínima e apenas no início do ciclo.\n🚿 Flushing: lave mensalmente o suporte com água pura.\n⛔ Repouso: suspenda adubação quando o crescimento estiver parado.",
     "rega": "Na brotação e no enraizamento, regue abundantemente pela manhã e permita que o suporte seque completamente em poucas horas. Após a maturação, aumente progressivamente os intervalos. Durante o período frio e seco, ofereça apenas a água necessária para evitar enrugamento extremo e perda das raízes. A ausência de pontas verdes indica menor consumo, não abandono hídrico total. Evite água acumulada no rizoma, nos brotos florais e em recipientes decorativos.",
     "suporte": "🥇 Placa de madeira dura ou cortiça — melhor reprodução do hábito natural e secagem imediata.\n🥈 Cestinho pequeno de madeira — circulação de ar em todas as direções.\n🥉 Vaso de barro raso e muito perfurado — alternativa em ambientes de menor umidade atmosférica.\nA planta deve ficar firmemente presa; movimento constante quebra pontas radiculares.",
-    substrato: ["🥇 Pinus grosso + brita fina + carvão vegetal.","🥈 Chips de coco muito grossos + argila expandida + carvão vegetal."],
+    substrato: ["🥇 Para recipiente muito ventilado: casca de macadâmia grossa + perlita grossa + carvão vegetal granulado (mistura visual provisória, não homologada).","🥈 Pinus grosso + brita fina + carvão vegetal.","🥉 Chips de coco muito grossos + argila expandida + carvão vegetal."],
     "formasCultivo": {
         "perfilVisual": "cattleya",
         "destaque": "Placa / tronco",
@@ -56,7 +56,7 @@ export const cattleyaWalkeriana = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para recipiente muito ventilado; em placa não há mistura volumétrica",
         "resumo": "Mistura grossa, estável e drenante, destinada a manter as raízes oxigenadas e secar rapidamente.",
-        "justificativa": "A ficha original prioriza montagem epífita e cita macadâmia grossa, perlita grossa e carvão vegetal como alternativa em recipiente. A composição abaixo organiza esses materiais em percentuais sugeridos; não representa ensaio específico nem homologação MACS 1.0.",
+        "justificativa": "A montagem em placa/tronco permanece a forma principal, sem substrato volumétrico. Para recipiente muito ventilado, a receita visual reúne macadâmia grossa, perlita grossa e carvão vegetal granulado; essa combinação foi incluída como primeira alternativa textual, preservando as duas receitas anteriores, que utilizam outros materiais. Os percentuais são uma hipótese horticultural, não um ensaio específico nem homologação MACS 1.0.",
         "receitaTexto": "45% casca de macadâmia grossa + 30% perlita grossa + 25% carvão vegetal granulado.",
         "perfil": ["Raízes epífitas", "Aeração muito alta", "Secagem rápida", "Repouso sazonal mais seco", "Rizoma exposto"],
         "comportamento": [
