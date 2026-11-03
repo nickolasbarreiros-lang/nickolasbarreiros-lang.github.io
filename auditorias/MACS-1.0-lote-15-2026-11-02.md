@@ -12,7 +12,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 6. oncidium-summer-wind.js — passagem concluída
 7. pholidota-chinensis.js — passagem concluída
 8. pinalia-elata.js — passagem concluída
-9. stelis-cf-aprica.js — pendente
+9. stelis-cf-aprica.js — passagem concluída
 
 ## Passagem 141 — Dinema polybulbon
 
@@ -52,3 +52,12 @@ EPÍFITA/LITÓFITA pseudobulbosa, raízes finas a médias, umidade regular e sen
 ## Passagem 148 — Pinalia cf. acervata (arquivo histórico pinalia-elata.js)
 
 IDENTIFICAÇÃO PROVISÓRIA: confirmar labelo antes de tratar a identificação específica como definitiva. Epífita pseudobulbosa de raízes finas e crescimento agrupado. SUPORTES: vaso plástico vasado e placa/tronco 5 estrelas, cachepô madeira e barro 4. RECEITA VISUAL PARA VASO: 50% pinus + 30% carvão + 20% esfagno solto = 100%; receitaTexto, itens e texto do método principal coerentes. CONVERGÊNCIA QUALITATIVA: primeira alternativa contém os mesmos três ingredientes, mas NÃO comprova percentuais 50/30/20. Outras três qualitativas divergem dos ingredientes visuais. Alerta reconhece receita experimental e possível excesso de 20% esfagno em vaso profundo. Validar identificação, retenção, secagem em placa versus vaso e sazonalidade. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 1e2ef0c89714624570b330520e20222cb56c6892. Próxima ficha Stelis cf. aprica.
+
+
+## Passagem 149 — Stelis cf. aprica
+
+MICRO-ORQUÍDEA epífita de raízes finas, identificação cf. ainda prudencial; umidade frequente, aeração e sombra. SUPORTES: plástico vasado 5 estrelas, placa/tronco e cachepô madeira 4, árvore viva 3. RECEITA VISUAL PARA VASO: 35% pinus fina/média + 25% arroz carbonizado + 20% carvão pequeno + 20% esfagno solto = 100%; receitaTexto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: primeira qualitativa pinus + carvão + esfagno, sem arroz; segunda chips coco + carvão + perlita, sem pinus/arroz/esfagno. Nenhuma coincide integralmente. Justificativa explicita hipótese horticultural; validar 20% esfagno, granulometria, retenção em plástico vasado, secagem da placa e identificação. Duas referências brasileiras citadas não equivalem a até 25 produtores com receitas específicas; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 6622f22f52eccdb310f1555b020c87b660ad31e7.
+
+## Fechamento do lote 15 e da primeira passagem documental
+
+Todas as 9 fichas do lote 15 (141–149) estão marcadas como passagem documental concluída. Segundo o controle sequencial dos lotes anteriores, esta etapa cobre as 149 fichas do catálogo. O escopo foi exclusivamente documental: observações em notaEvidencia e relatórios, sem alterar receitas, proporções, estrelas, assets, layouts, IDC ou IAR. A homologação quantitativa MACS 1.0 NÃO foi concluída: permanece necessário confrontar recomendações por espécie com até 25 produtores/orquidários brasileiros, fontes botânicas e evidência explícita para cada proporção, além de decidir correções técnicas em etapa separada. As fichas não devem ser rotuladas como MACS 1.0 homologadas apenas por terem passado nesta auditoria.
