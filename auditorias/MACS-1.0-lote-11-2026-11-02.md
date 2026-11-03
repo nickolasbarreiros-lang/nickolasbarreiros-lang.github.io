@@ -8,7 +8,7 @@ Escopo: primeira passagem documental de cultivo e substratos. Não alterar recei
 2. notylia-pubescens.js — passagem concluída
 3. trichocentrum-fuscum.js — passagem concluída
 4. bifrenaria-harrisoniae.js — passagem concluída
-5. maxillaria-pumila-ex-minuta.js — pendente
+5. maxillaria-pumila-ex-minuta.js — passagem concluída
 6. ludisia-discolor.js — pendente
 7. bulbophyllum-ambrosia.js — pendente
 8. cattleya-guttata-var-coerulea.js — pendente
@@ -33,3 +33,8 @@ ECOLOGIA: epífita compacta com folhas carnosas, raízes expostas, baixa retenç
 ## Passagem 104 — Bifrenaria harrisoniae
 
 ECOLOGIA: epífita/rupícola com pseudobulbos robustos, requer alta aeração e secagem entre regas. SUPORTES: cachepô madeira 5 estrelas, barro, plástico vasado e placa/tronco 4; não homologados. RECEITA VISUAL: 35% brita pequena/média + 30% macadâmia média + 20% carvão médio + 15% pinus médio = 100%; texto e itens coerentes, sem esfagno conforme regra Bifrenaria. DIVERGÊNCIA DOCUMENTAL: receita visual combina componentes das alternativas qualitativas, mas não coincide integralmente com nenhuma (primeira sem pinus; segunda sem macadâmia; terceira com arroz carbonizado). Justificativa técnica é hipótese, não validação quantitativa. Avaliar peso da brita, retenção do pinus e secagem por recipiente. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Campo notaEvidencia criado em substratoVisual, demais campos preservados. Commit 95fb846b947f59b0fd4234302bf16639c876793b. Próxima ficha Maxillaria pumila ex minuta.
+
+
+## Passagem 105 — Maxillaria pumila (ex-minuta)
+
+ECOLOGIA: miniatura epífita de raízes capilares, montagem principal em placa com esfagno mínimo e umidade frequente. SUPORTES: placa/tronco 5 estrelas, barro e plástico vasado 4, cachepô madeira 3; notas não homologadas. RECEITA VISUAL alternativa para microvaso: 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra coco grossa = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira qualitativa (fibra coco + chips coco + perlita + pinus), mas visual omite chips coco e introduz macadâmia. Segunda e terceira qualitativas também diferem. Validar granulometria média/grossa, contato hídrico com raízes capilares, secagem e sais. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada, demais campos preservados. Commit 2295c6dfff2a7899f5af39e59b11000134d1a93c. Próxima ficha Ludisia discolor.
