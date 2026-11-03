@@ -40,7 +40,7 @@ export const oncidiumPumilum = {
     "adubacao": "🌿 Orgânica: bokashi em dose pequena e afastado do centro da touceira.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 10–15 dias durante crescimento.\n🌱 Brotação: mantenha adubação enquanto houver raízes ativas.\n🧪 Liberação lenta: Osmocote em dose mínima somente em vasos/cachepôs.\n🚿 Lavagem: enxágue o suporte periodicamente para evitar sais.",
     "rega": "Regue com boa frequência durante brotação e enraizamento, sempre permitindo secagem rápida. Em placas, borrifos ou regas diárias podem ser necessários no verão se o suporte secar em poucas horas. Após maturação, reduza moderadamente a frequência sem desidratar as folhas.",
     "suporte": "🥇 Placa de madeira, cortiça ou tronquinho — opção ideal para secagem rápida.\n🥈 Cachepô pequeno e muito vazado — acomoda bem touceiras densas.\n🥉 Vaso pequeno de barro muito furado — opção viável em locais mais secos.\nEvite recipientes grandes.",
-    substrato: ["🥇 Para cachepô ou vaso: perlita grossa + brita fina/média + casca de macadâmia triturada + casca de pinus grossa (mistura-base provisória do substrato visual; placa/tronco permanece principal).","🥈 Brita fina/média + perlita grossa + carvão vegetal + 15–25% de componente orgânico grosso.","🥉 Casca de macadâmia grossa + perlita grossa + cacos de cerâmica ou argila expandida.","Alternativa adicional: perlita grossa + argila expandida + carvão vegetal + pequena fração de casca de pinus grossa."],
+    substrato: ["🥈 Alternativa 1 — 65% casca de pinus pequena/média + 25% carvão vegetal pequeno + 10% perlita grossa. Mistura de menor retenção potencial para recipiente com secagem lenta; percentuais MACS 1.1 D, inferidos e não homologados.","🥉 Alternativa 2 — 45% casca de pinus pequena/média + 25% chips de coco lavados + 20% carvão vegetal pequeno + 10% perlita grossa. Reserva hídrica potencialmente maior para recipiente de secagem rápida; percentuais MACS 1.1 D, inferidos e não homologados."],
     formasCultivo: {
         perfilVisual: "trichocentrum-miniatura-epifita-touceira-densa",
         destaque: "Placa / tronco",
@@ -55,9 +55,9 @@ export const oncidiumPumilum = {
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Mistura mineral e muito aerada para cultivo em recipiente",
-        resumo: "A montagem principal em placa não requer mistura volumosa. Em cachepô ou vaso pequeno, predomínio de componentes minerais com fração orgânica reduzida favorece secagem rápida.",
-        justificativa: "A receita visual propõe perlita, brita, macadâmia e pinus para recipiente, agora também descritos como primeira alternativa textual. A primeira mistura anterior inclui carvão e não corresponde à composição visual; as demais permanecem alternativas. Montagem em placa/tronco continua principal. Percentuais estimados e ainda não homologados pela MACS 1.0.",
-        receitaTexto: "35% perlita grossa + 30% brita fina/média + 25% casca de macadâmia triturada + 10% casca de pinus grossa.",
+        resumo: "A montagem principal em placa não requer mistura volumosa. Em cachepô pequeno e vazado ou vaso pequeno bem furado, priorizar casca e carvão com pequena fração de coco e perlita para manter aeração e secagem entre regas.",
+        justificativa: "MACS 1.1: revisão conservadora da antiga mistura com 65% de perlita e brita, cuja superioridade não foi documentada. Pinus, carvão e coco têm propriedades gerais descritas pela ESALQ/USP; a combinação e os percentuais são inferenciais, não receitas publicadas especificamente para Trichocentrum pumilum. Placa/tronco permanece cultivo principal sem mistura volumétrica.",
+        receitaTexto: "55% casca de pinus pequena/média + 25% carvão vegetal pequeno + 10% chips de coco lavados + 10% perlita grossa.",
         perfil: ["Miniatura epífita", "Touceira densa", "Raízes aeradas", "Secagem rápida", "Pouca retenção"],
         comportamento: [
             { nome: "Retenção", valor: 1, icone: "💧" },
@@ -66,13 +66,13 @@ export const oncidiumPumilum = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "35%", nota: "aeração", finalidade: "Promove espaços de ar e drenagem rápida." },
-            { asset: "brita-fina", nome: "Brita fina/média", proporcao: "30%", nota: "drenagem", finalidade: "Mantém estrutura mineral e evita retenção prolongada." },
-            { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "25%", nota: "estrutura", finalidade: "Oferece pontos de fixação e pequena reserva hídrica." },
-            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "10%", nota: "fração orgânica", finalidade: "Complementa a fixação das raízes sem dominar a mistura." }
+            { asset: "casca-pinus", nome: "Casca de pinus pequena/média", proporcao: "55%", nota: "estrutura", finalidade: "Sustenta raízes epífitas em recipiente pequeno e ventilado." },
+            { asset: "carvao", nome: "Carvão vegetal pequeno", proporcao: "25%", nota: "aeração", finalidade: "Mantém partículas firmes e espaços de ar." },
+            { asset: "chips-coco", nome: "Chips de coco lavados", proporcao: "10%", nota: "umidade moderada", finalidade: "Oferece reserva hídrica limitada; lavar e usar chips soltos." },
+            { asset: "perlita", nome: "Perlita grossa", proporcao: "10%", nota: "aeração", finalidade: "Complementa a porosidade e a drenagem." }
         ],
         alerta: "Evitar sombra densa, vasos grandes, encharcamento, excesso de esfagno, adubação concentrada e divisão de touceiras pequenas.",
-        notaEvidencia: "MACS 1.0: montagem em placa sustentada por relatos específicos. Para recipientes, há relatos de brita pura, casca de macadâmia e misturas de pinus, carvão e fibra de coco; outra fonte descreve 50% cascas + 50% carvão, com musgo opcional. A fórmula mineral atual (35% perlita + 30% brita + 25% macadâmia + 10% pinus) é hipótese horticultural sem comparação quantitativa específica, portanto não homologada. Receita aplicável apenas a recipientes, nunca como enchimento da placa."
+        notaEvidencia: "MACS 1.1: composição C por convergência das propriedades gerais dos materiais; percentuais D inferenciais e NÃO HOMOLOGADOS. Relatos anteriores sobre receitas específicas ainda aguardam verificação de fontes primárias; não constituem homologação. Placa/tronco continua principal e dispensa enchimento; estrelas de suporte D preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-031-TRICHOCENTRUM-PUMILUM.md."
     },
     "errosComuns": "Sombra densa; vaso grande; encharcamento; dividir touceiras pequenas; enterrar rizoma; adubo concentrado; pouca ventilação; excesso de esfagno; replantio frequente.",
     "dica": "Preserve a touceira. Quanto mais frentes maduras permanecerem juntas, maior tende a ser o número de hastes e o efeito de 'nuvem amarela'. Combine isso com luz filtrada forte e secagem rápida após as regas matinais.",
