@@ -220,3 +220,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Identidade da ficha:** híbrido de Encyclia patens × E. oliveirana, não espécie pura; preservar identificação e índices. Percentuais continuam estimativas, sem evidência experimental homologada. Nenhuma nova receita de produtores brasileiros verificada nesta passagem.
 - **Limites:** nenhum percentual, item visual, foto, asset, índice IDC/IAR, estrela ou layout alterado; homologação quantitativa pendente.
 - **Progresso:** 23/149 checagens; 21 fichas com correções efetivas (003–023); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 024 — Arpophyllum giganteum.
+
+## Correção na mesma passagem — registro 024 (2026-11-03)
+- **Ficha 024 — Arpophyllum giganteum** (`dados/orquideas/arpophyllum-giganteum.js`): receita visual com 35% macadâmia média + 25% pinus médio + 20% carvão médio + 10% casca de arroz carbonizada + 10% esfagno solto = 100%.
+- **Correção efetiva:** nenhuma das quatro alternativas textuais continha a combinação visual completa. Incluída a receita visual como primeira alternativa provisória, preservando as quatro anteriores. Commit `0629d342a66258aeb499ed06ab90d25693bd4024`.
+- **Fundamentação/limites:** o texto existente justifica porosidade, reserva hídrica moderada e estabilidade da mistura para touceira adulta; isso não equivale a ensaio de percentuais nem prova de superioridade. Nenhuma nova receita de produtores brasileiros verificada nesta passagem. Percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados.
+- **Progresso:** 24/149 checagens; 22 fichas com correções efetivas (003–024); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 025 — Oncidium Twinkle.
