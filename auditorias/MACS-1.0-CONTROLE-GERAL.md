@@ -720,3 +720,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Justificativa corrigida: primeira receita antiga contém argila expandida e esfagno, sem chips/carvão; segunda contém macadâmia e fibra de coco, sem carvão e com fibra em vez de chips. Nenhuma correspondia integralmente. Equilíbrio de retenção/secagem precisa ser observado; vaso pesado estabiliza hastes longas, mas não valida a fórmula. Commit ficha: 948cc9b87a9d18d9c828efd09b65bf168da1c66a.
 - Suportes/estrelas, fotos/assets, IDC/IAR e layout preservados. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
 - Progresso: 99/149 checagens; 97 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 100 — Miltonia candida.
+
+## Registro 100 — Miltonia candida (2026-11-03)
+- Receita visual/`receitaTexto` mantidos: 35% pinus médio + 30% chips de coco + 25% perlita grossa + 10% carvão = 100%; quatro itens concordavam. Fórmula visual incluída como primeira alternativa textual; duas receitas antigas preservadas.
+- Justificativa corrigida: primeira mistura antiga contém argila expandida e esfagno, sem chips/carvão; segunda contém macadâmia e fibra de coco, sem carvão e com fibra em vez de chips. Nenhuma correspondia integralmente. Acrescentadas observações para raízes finas: monitorar retenção dos chips, umidade homogênea sem saturação e controle de sais/água de baixa salinidade. Commit ficha: b181601b45b5751b12ea1f7ad770650d537855b3.
+- Vaso plástico pequeno e perfurado, suportes/estrelas, fotos/assets, IDC/IAR e layout preservados. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
+- Progresso: 100/149 checagens; 98 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Lote 10 (91–100) concluído em primeira passagem documental, não em homologação quantitativa. Próxima ficha: 101 — identificar no lote 11.
