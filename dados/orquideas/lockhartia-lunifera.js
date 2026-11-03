@@ -35,7 +35,7 @@ export const lockhartiaLunifera = {
     adubacao: "🌿 Orgânica: bokashi em quantidade mínima dentro de porta-adubo, sem contato com caules ou raízes.\n💧 Foliar/radicular: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: evitar em plantas montadas; em cestos ou vasos, usar poucos grânulos afastados das raízes novas. Uma vez por mês, lavar abundantemente raízes e suporte apenas com água pura para reduzir sais.",
     rega: "Regue com frequência durante crescimento e calor, sobretudo em plantas montadas. Depois de cada irrigação, permita boa aeração e perda do excesso de água antes da próxima. A espécie não tolera seca prolongada, mas raízes permanentemente saturadas também se deterioram. Regue preferencialmente pela manhã para que as bainhas foliares não permaneçam molhadas durante a noite.",
     suporte: "🥇 Placa inclinada de cortiça, galho rugoso ou madeira dura: acompanha o hábito pendente e facilita o escoamento da água.\n🥈 Cesto pequeno e suspenso, muito ventilado.\n🥉 Vaso pequeno e raso com mistura extremamente aberta, sem forçar os caules a permanecerem eretos.",
-    substrato: ["🥇 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
+    substrato: ["🥇 Para cesto suspenso ou vaso raso: pinus médio 35% + chips de coco grossos 30% + perlita grossa 20% + carvão vegetal 15% (mistura visual provisória, não homologada).","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
     formasCultivo: {
         perfilVisual: "epifita-pendente-sem-pseudobulbos",
         destaque: "Placa / tronco",
@@ -51,7 +51,7 @@ export const lockhartiaLunifera = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para cesto ou vaso raso",
         resumo: "Mistura aberta com retenção moderada, adequada a raízes que precisam de umidade frequente e ar constante.",
-        justificativa: "A montagem inclinada é o primeiro suporte da ficha. A mistura alternativa quantifica os quatro componentes da primeira receita qualitativa original; percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A montagem inclinada em placa/tronco permanece como suporte principal. Para cesto suspenso ou vaso raso, a receita visual combina pinus médio, chips de coco grossos, perlita grossa e carvão vegetal; a formulação exata foi acrescentada como primeira alternativa textual, preservando as duas misturas anteriores. Os percentuais são estimativas horticulturais e ainda não foram homologados pela MACS 1.0.",
         receitaTexto: "35% casca de pinus média + 30% chips de coco grossos + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Epífita sem pseudobulbos", "Caules pendentes", "Umidade regular", "Boa ventilação", "Secagem superficial rápida"],
         comportamento: [
