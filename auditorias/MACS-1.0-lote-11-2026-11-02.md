@@ -11,7 +11,7 @@ Escopo: primeira passagem documental de cultivo e substratos. Não alterar recei
 5. maxillaria-pumila-ex-minuta.js — passagem concluída
 6. ludisia-discolor.js — passagem concluída
 7. bulbophyllum-ambrosia.js — passagem concluída
-8. cattleya-guttata-var-coerulea.js — pendente
+8. cattleya-guttata-var-coerulea.js — passagem concluída
 9. octomeria-diaphana.js — pendente
 10. acianthera-bragae.js — pendente
 
@@ -48,3 +48,8 @@ ECOLOGIA: orquídea-joia TERRESTRE de rizoma rastejante; vaso largo e raso, meio
 ## Passagem 107 — Bulbophyllum ambrosia
 
 ECOLOGIA: miniatura epífita/litófita com rizoma rastejante, raízes finas e umidade regular com aeração. SUPORTES: placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3. RECEITA VISUAL para recipiente: 35% pinus médio + 25% chips coco tratados + 25% perlita grossa + 15% esfagno solto = 100%; texto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: receita visual não coincide integralmente com as qualitativas (primeira esfagno + perlita; segunda chips coco + perlita + carvão + esfagno; terceira macadâmia + pinus + perlita + esfagno). Justificativa corretamente identifica proposta técnica não validada. Validar retenção de esfagno, granulometria e secagem em clima quente. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Criado somente campo notaEvidencia; demais campos preservados. Commit 9c6c3a1855a2205fc7128c34d00ada349524b253. Próxima ficha Cattleya guttata var. coerulea.
+
+
+## Passagem 108 — Cattleya guttata f. coerulea
+
+ECOLOGIA: bifoliada epífita de grande porte, requer estabilidade, drenagem e ventilação. SUPORTES: barro 82/100, cachepô madeira 79/100 e plástico vasado 78/100 no resumo, mas métodos listam plástico genérico, não vasado; estrelas dos métodos são null. RECEITA VISUAL: 35% macadâmia + 25% pinus + 25% brita fina + 15% carvão = 100%; texto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: nenhuma das quatro qualitativas coincide integralmente (primeira usa perlita, não brita; segunda argila expandida; terceira e quarta chips coco + perlita). Justificativa reconhece percentuais heurísticos não validados. Validar origem de alegações sobre produtores brasileiros, peso da brita, estabilidade, granulometria e secagem. Meta até 25 produtores brasileiros específicos não atingida; percentuais e notas NÃO HOMOLOGADOS. Criado somente notaEvidencia; demais campos preservados. Commit 3adc83e69490a8bf80554114e5e8b54a4cd2f24e. Próxima ficha Octomeria diaphana.
