@@ -357,3 +357,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 05:** POWO confirma nome Gomesa radicans e hábito epífito; Orquidário Oriental recomenda placa de madeira ou mistura de fibra de coco, pinus e carvão, sem percentuais. Canberra Orchid Society relata sucesso em cortiça/placa e alerta para excesso de água em vasos. Nenhuma fonte homologa os 25% de perlita nem a receita 35/30/25/10.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 43/149 checagens; 41 fichas com correções efetivas (003–043); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 044 — Coelogyne ovalis 'Miniatum' (identificação varietal pendente).
+
+## Correção na mesma passagem — registro 044 (2026-11-03)
+- **Ficha 044 — Coelogyne ovalis 'Miniatum'** (`dados/orquideas/coelogyne-ovalis-var-miniatum.js`): cultivo principal em placa/tronco com fixação leve; receita visual para recipiente raso 35% chips de coco médios + 30% pinus médio + 25% perlita grossa + 10% esfagno picado e solto = 100%.
+- **Correções efetivas:** mistura visual ausente das três alternativas textuais; incluída como primeira opção provisória, preservadas as três anteriores. Justificativa corrigida para não alegar correspondência à primeira alternativa antiga. Commit `9dd029d8e0652e2cfbe2f73e92b15d5f8cf2ba02`.
+- **Evidência prévia no lote 05:** POWO aceita C. ovalis, mas não confirma 'Miniatum' como variedade formal; identidade do exemplar requer floração. Orquidário 4 Estações, Graças Garden, Aparecida e Mantovani publicam recomendações qualitativas variadas; AOS oferece orientação geral do gênero. Nenhuma homologa 35/30/25/10 para o exemplar.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente. Identificação varietal pendente.
+- **Progresso:** 44/149 checagens; 42 fichas com correções efetivas (003–044); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 045 — Coelogyne cristata.
