@@ -71,3 +71,26 @@ Ficha 003 — Epidendrum centropetalum; ampliar pesquisa de A. sclerophylla e A.
 ## Próxima ficha
 
 004 Miltonia russelliana — buscar recomendações de produtores brasileiros e confrontar percentuais sem inferir dados ausentes.
+
+
+## Ficha 004 — Miltonia russelliana
+
+**Situação:** rodada inicial de pesquisa externa concluída; homologação quantitativa PENDENTE. **Ficha de cultivo não alterada.**
+
+**Taxonomia e ecologia verificadas:** POWO/Kew aceita Miltonia russelliana (Lindl.) Lindl., nativa do Sudeste e Sul do Brasil, epífita pseudobulbosa, principalmente em bioma tropical sazonalmente seco (a ficha descreve ambientes florestais úmidos/ripários, a conciliar com a amplitude ecológica): https://powo.science.kew.org/taxon/644771-1 . Sinônimos incluem Anneliesia russelliana e Oncidium russellianum. Referência horticultural não brasileira: https://www.orchids.org/grexes/anneliesia-russelliana (epífita, flores no outono/inverno, sem mistura quantitativa).
+
+**Receita visual atual, não modificada:** 35% pinus médio + 30% chips de coco + 25% perlita grossa + 10% carvão = 100%; receitaTexto e itens coerentes. Suportes: cachepô madeira 5 estrelas, barro e plástico vasado 4, placa/tronco 3.
+
+**INCONSISTÊNCIA INTERNA:** justificativa diz que a receita quantifica os quatro componentes da primeira mistura qualitativa, mas a primeira qualitativa é **macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco**, enquanto a visual é **pinus + chips de coco + perlita + carvão**, sem macadâmia. A segunda qualitativa (pinus + perlita + argila expandida + esfagno) também diverge. A expressão 'quantifica os quatro componentes' é factualmente incompatível com os ingredientes atuais; exige decisão de correção técnica posterior, não edição nesta rodada. Distinguir fibra de coco de chips de coco e verificar comportamento hídrico no cachepô.
+
+**Evidências científicas comparativas, NÃO específicas:**
+
+1. Schnitzer et al., estudo brasileiro de substratos em Cattleya intermedia e **Miltonia clowesii**, com misturas em proporções iguais de pinus, fibra de coco, casca de arroz carbonizada e carvão, conforme tratamentos; espécie diferente, não confirma a fórmula visual de M. russelliana: https://www.scielo.br/j/asagr/a/SwVJrySdJB8RcgnKsQvGLCx/?lang=pt ; DOI https://doi.org/10.4025/actasciagron.v32i1.714 .
+2. Yamamoto et al., substratos alternativos ao xaxim em híbrido **Miltonia regnellii × Oncidium concolor**; não é M. russelliana: https://ojs.uel.br/revistas/uel/index.php/semagrarias/article/view/4639 .
+3. Orquidário Maripá vende mistura genérica pinus + carvão e avisa que indicação varia por espécie; **não** recomenda essa mistura especificamente para M. russelliana: https://www.orquidariomaripa.com.br/produtos/substrato-para-plantio-de-orquideas/ .
+
+**Produtores brasileiros com recomendação específica da espécie verificados nesta rodada: 0/25; receitas quantitativas específicas: 0/25.** Fontes genéricas, ensaios de outras espécies e sinônimos taxonômicos não contam como homologação. Pesquisar também Anneliesia russelliana e Oncidium russellianum; investigar compatibilidade de 30% chips de coco e 25% perlita com retenção e estabilidade em cachepô vazado. **NÃO HOMOLOGADO**. Não alterar receita, proporções, suportes, estrelas, assets, IDC ou IAR.
+
+## Próxima ficha
+
+005 Promenaea xanthina — pesquisar produtores brasileiros e documentação específica, separando evidências de gênero e espécie.
