@@ -51,11 +51,7 @@ export const aeridesOdorata = {
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode funcionar quando o recipiente tem muitas aberturas laterais e inferiores e recebe apenas material muito grosso em pequeno volume, sem comprimir as raízes." },
         ]
     },
-    substrato: [
-        "🥇 Raízes Soltas: cultivo principal sem substrato, com raízes livres, regas ajustadas à secagem e ventilação intensa. Para cesto ou vaso vasado, receita de apoio opcional: 45% casca de pinus grossa + 35% carvão vegetal grosso + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto (proposta NÃO homologada).",
-        "🥈 Casca de pinus grossa + chips de coco grossos preparados + carvão vegetal grosso (alternativa qualitativa de apoio, em pequeno volume e sem percentuais homologados).",
-        "🥉 Casca de pinus grossa + perlita grossa compatível com cesto + pequena quantidade de esfagno de fibra longa solto (alternativa qualitativa de apoio, em pequeno volume e sem percentuais homologados)."
-    ],
+    substrato: ["Casca de pinus grossa + chips de coco grossos preparados + carvão vegetal grosso","Casca de pinus grossa + perlita grossa compatível com cesto + pequena quantidade de esfagno de fibra longa solto"],
 
     substratoVisual: {
         titulo: "Substrato ideal",
