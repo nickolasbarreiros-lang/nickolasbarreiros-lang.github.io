@@ -8,7 +8,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 2. pleurothallis-modestissima.js — passagem concluída
 3. maxillaria-brasiliensis.js — passagem concluída
 4. isochilus-linearis.js — passagem concluída
-5. acianthera-sonderiana.js — pendente
+5. acianthera-sonderiana.js — passagem concluída
 6. acianthera-teres.js — pendente
 7. isabelia-pulchella.js — pendente
 8. prosthechea-vespa.js — pendente
@@ -33,3 +33,8 @@ EPÍFITA compacta, raízes finas, umidade regular e vaso pequeno arejado. SUPORT
 ## Passagem 134 — Isochilus linearis
 
 EPÍFITA/RUPÍCOLA de caules finos sem pseudobulbos; umidade regular sem secagem prolongada. SUPORTES: cachepô madeira 5 estrelas, barro e plástico vasado 4, placa/tronco 3. RECEITA VISUAL: 45% pinus fino + 35% perlita adequada a miniaturas + 20% esfagno longo solto = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz adaptar segunda qualitativa reunindo 'duas granulometrias de perlita', mas segunda contém apenas esfagno + perlita (sem pinus, sem duas granulometrias); primeira contém chips coco + perlita + pinus (sem esfagno). Visual não corresponde integralmente a nenhuma. Referência à primeira indicação original de montagem em madeira também não consta nas misturas qualitativas atuais. Validar retenção, granulometria e procedência altitudinal. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit ba3ffe1173b603f4664f4467b8446af896bb733a. Próxima ficha Acianthera sonderiana.
+
+
+## Passagem 135 — Acianthera sonderiana
+
+MICROEPÍFITA cespitosa de raízes finas, umidade regular sem abafamento. SUPORTES: placa/tronco 5 estrelas, árvore viva e vaso plástico 4, cachepô madeira 3. RECEITA VISUAL alternativa para vaso: 35% pinus fino/médio + 30% arroz carbonizado + 20% esfagno solto + 15% carvão pequeno = 100%; texto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: quatro alternativas qualitativas não coincidem integralmente: primeira não contém carvão; segunda arroz + perlita + turfa, sem pinus/carvão; terceira chips coco + arroz + esfagno, sem pinus/carvão; quarta pinus + perlita + esfagno, sem arroz/carvão. Justificativa reconhece composição provisória, não alega equivalência. Validar granulometria, umidade e montagem principal versus vaso alternativo. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Adicionada apenas notaEvidencia; demais campos preservados. Commit 626042fabc93bfa849e1be55dfe65e00e1b6312f. Próxima ficha Acianthera teres.
