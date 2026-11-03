@@ -440,3 +440,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 06:** AOS recomenda cesto de madeira/vaso de barro e secagem rápida para C. lueddemanniana; orquidários Oriental, Santa Clara e Mogi Mirim apresentam misturas distintas, sem validar 35/25/25/15. Três produtores brasileiros específicos, meta de 25 não atingida; homologação quantitativa pendente.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados.
 - **Progresso:** 55/149 checagens; 53 fichas com correções efetivas (003–055); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 056 — Cattleya walkeriana.
+
+## Correção na mesma passagem — registro 056 (2026-11-03)
+- **Ficha 056 — Cattleya walkeriana** (`dados/orquideas/cattleya-walkeriana.js`): cultivo principal placa/tronco sem mistura volumétrica; receita visual para recipiente muito ventilado 45% macadâmia grossa + 30% perlita grossa + 25% carvão granulado = 100%.
+- **Correções efetivas:** receita visual ausente das duas alternativas textuais; incluída como primeira opção provisória, preservadas as duas anteriores. Justificativa corrigida para não alegar que os materiais já estavam na ficha original. Commit `5c4e0cf98cd5d50592127ca60eaeb254c7f24172`.
+- **Evidência prévia no lote 06:** POWO reconhece espécie epífita/litófita; pesquisa experimental IFPB estudou C. walkeriana em suportes de madeira com esfagno, fibra de coco e neem, sem testar macadâmia/perlita/carvão; Jardineiro.net relata mistura de pinus/carvão/brita. Receita 45/30/25 não homologada.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 56/149 checagens; 54 fichas com correções efetivas (003–056); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 057 — Cattleya intermedia.
