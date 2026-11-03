@@ -10,7 +10,7 @@ Escopo: próximas dez fichas na ordem de imports de dados/orquideas/index.js ap�
 6. neobenthamia-gracilis.js — passagem concluída
 7. aspasia-lunata.js — passagem concluída
 8. cyrtopodium-saintlegerianum.js — passagem concluída
-9. cattleya-warneri.js — pendente
+9. cattleya-warneri.js — passagem concluída
 10. bulbophyllum-elassonotum.js — pendente
 
 ## Passagem 71 — Maxillaria camaridii (sin. M. lutescens)
@@ -51,3 +51,8 @@ ESPÉCIE: epífita simpodial, florestas úmidas. RECEITA VISUAL: 30% macadâmia 
 ## Passagem 78 — Cyrtopodium saintlegerianum
 
 ECOLOGIA: epífita robusta de ambientes sazonais, com raízes aderentes e repouso hídrico relativo após perda das folhas; tronco e cesto ventilado coerentes com hábito descrito, sem comparação experimental. SUPORTES: placa/tronco e cachepô 5 estrelas, barro 4, plástico vasado 3. RECEITA VISUAL (vaso/cachepô): 35% macadâmia grossa + 30% pinus grosso + 20% perlita + 15% carvão = 100%; cultivo em tronco dispensa mistura volumétrica. DIVERGÊNCIA INTERNA: primeira receita qualitativa tem apenas pinus + carvão + brita fina, enquanto justificativa visual afirma quantificar seus quatro componentes; macadâmia/perlita entram e brita sai. Corrigir somente após pesquisa técnica, sem alterar nesta passagem. Fontes botânicas preexistentes não validam receita; meta até 25 produtores brasileiros não atingida, estrelas e percentuais NÃO HOMOLOGADOS. Apenas notaEvidencia alterada; demais campos preservados. Commit e0a891b4e698c3b0c690a515901fd905f6c92488. Próxima ficha Cattleya warneri.
+
+
+## Passagem 79 — Cattleya warneri
+
+ECOLOGIA: epífita unifoliada de grande porte, demanda estabilidade e aeração com redução hídrica após maturação conforme ficha. SUPORTES: barro/cachepô 5 estrelas, placa/tronco 4, plástico vasado 3, sem comparação quantitativa. RECEITA VISUAL: 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%. DIVERGÊNCIA INTERNA: primeira mistura qualitativa contém macadâmia + argila expandida + carvão + pinus grosso; justificativa afirma usar os quatro componentes originais, mas visual substitui argila por perlita e modifica granulometria do pinus. Requer pesquisa técnica posterior; sem alteração da receita nesta passagem. Referências botânicas existentes não comprovam percentuais; meta até 25 produtores brasileiros não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Apenas notaEvidencia alterada; demais campos preservados. Commit 9ca90a43efacb6f4438c3777b00d09801758d2b2. Próxima ficha Bulbophyllum elassonotum.
