@@ -36,7 +36,7 @@ export const miltoniaClowesii = {
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, dentro de porta-adubo na borda do vaso e longe dos brotos.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante a formação de brotos, folhas e pseudobulbos. Reduza após o amadurecimento.\n🧪 Liberação lenta: poucos grânulos em vasos extremamente drenantes e sem contato com raízes novas.\n🚿 Flushing: uma vez por mês, lave o vaso somente com água limpa para remover sais. Não fertilize raízes completamente secas nem plantas paralisadas por calor excessivo.",
     "rega": "Durante a expansão do broto, mantenha umidade regular e deixe apenas a superfície começar a secar antes de regar novamente. Irregularidade hídrica nessa fase causa folhas sanfonadas, mas aumentar a rega não resolve se as raízes já estiverem danificadas. Examine-as: raízes claras e firmes sugerem seca ou baixa umidade; raízes castanhas, moles ou ocas indicam perda radicular por substrato velho ou excesso de retenção. Após a maturação, aumente discretamente o intervalo sem murchar fortemente os pseudobulbos.",
     "suporte": "🥇 Vaso plástico pequeno e muito perfurado: mantém umidade relativamente uniforme sem grande massa de substrato.\n🥈 Vaso de barro: favorece evaporação e resfriamento radicular em ambientes úmidos.\n🥉 Cesto de madeira: indicado para touceiras grandes, com excelente ventilação e regas mais frequentes.",
-    substrato: ["🥇 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
+    substrato: ["🥇 Para vaso pequeno e perfurado: casca de pinus média + chips de coco + perlita grossa + carvão vegetal (mistura visual provisória, não homologada).","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco.","🥉 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto."],
     formasCultivo: {
         perfilVisual: "miltonia-epifita-raizes-finas-hastes-arqueadas",
         destaque: "Vaso plástico vasado",
@@ -52,7 +52,7 @@ export const miltoniaClowesii = {
         titulo: "Substrato ideal",
         contexto: "Mistura arejada para vaso pequeno e perfurado",
         resumo: "Umidade moderada e regular com alta porosidade, protegendo raízes finas da compactação e do encharcamento.",
-        justificativa: "A receita quantifica os quatro materiais da primeira mistura qualitativa original. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual propõe pinus médio, chips de coco, perlita grossa e carvão vegetal, agora também listados como primeira alternativa textual; as alternativas anteriores usam componentes distintos. Estudo publicado para mudas de Miltonia clowesii investigou materiais e tratamentos diferentes, sem testar os percentuais desta receita. Percentuais estimados e ainda não homologados pela MACS 1.0.",
         receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
         perfil: ["Miltonia epífita", "Raízes finas", "Umidade regular", "Boa aeração", "Pseudobulbos vigorosos"],
         comportamento: [
