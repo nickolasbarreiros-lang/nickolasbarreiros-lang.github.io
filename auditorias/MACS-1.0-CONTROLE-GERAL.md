@@ -749,3 +749,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Regra específica do gênero respeitada: nenhuma receita contém esfagno. Justificativa técnica apresentada como hipótese e não como prova de percentuais; necessidade de validar peso/estabilidade da brita e retenção/secagem do pinus está registrada. Não alterar composição, alternativas, suportes/estrelas, fotos/assets, IDC/IAR ou layout.
 - Ficha tecnicamente coerente nesta passagem; nenhum commit de ficha. Percentuais e estrelas permanecem NÃO HOMOLOGADOS; meta de até 25 produtores brasileiros específicos não atingida.
 - Progresso: 104/149 checagens; 101 fichas com correções efetivas; 1 ficha auditada sem necessidade de correção; 0 homologações quantitativas comprovadas. Próxima ficha: 105 — identificar no manifesto do lote 11.
+
+## Registro 105 — Maxillaria pumila (ex-minuta) (2026-11-03)
+- Conferidos receita visual/`receitaTexto`/itens: 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa = 100%; componentes concordam. Corrigida apenas `notaEvidencia`, conforme escopo registrado no manifesto, para explicitar divergência: primeira receita qualitativa contém fibra + chips de coco + perlita + pinus, sem macadâmia; as outras duas também não coincidem.
+- Nenhuma alteração em alternativas, justificativa visual, composição, suportes/estrelas, fotos/assets, IDC/IAR ou layout. Montagem principal em placa com esfagno mínimo; receita apenas para microvaso. Granulometria, contato hídrico, secagem e sais permanecem pontos de validação. Commit ficha: 78001343c10e368294556936b5bd6ed575c2b29c.
+- Percentuais e estrelas NÃO HOMOLOGADOS; meta até 25 produtores brasileiros específicos não atingida.
+- Progresso: 105/149 checagens; 102 fichas com correções efetivas; 1 ficha sem necessidade de correção; 0 homologações quantitativas comprovadas. Próxima ficha: 106 — Ludisia discolor.
