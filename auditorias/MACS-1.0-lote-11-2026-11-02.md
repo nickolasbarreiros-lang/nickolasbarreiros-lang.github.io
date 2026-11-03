@@ -12,7 +12,7 @@ Escopo: primeira passagem documental de cultivo e substratos. Não alterar recei
 6. ludisia-discolor.js — passagem concluída
 7. bulbophyllum-ambrosia.js — passagem concluída
 8. cattleya-guttata-var-coerulea.js — passagem concluída
-9. octomeria-diaphana.js — pendente
+9. octomeria-diaphana.js — passagem concluída
 10. acianthera-bragae.js — pendente
 
 ## Passagem 101 — Ornithocephalus myrticola
@@ -53,3 +53,8 @@ ECOLOGIA: miniatura epífita/litófita com rizoma rastejante, raízes finas e um
 ## Passagem 108 — Cattleya guttata f. coerulea
 
 ECOLOGIA: bifoliada epífita de grande porte, requer estabilidade, drenagem e ventilação. SUPORTES: barro 82/100, cachepô madeira 79/100 e plástico vasado 78/100 no resumo, mas métodos listam plástico genérico, não vasado; estrelas dos métodos são null. RECEITA VISUAL: 35% macadâmia + 25% pinus + 25% brita fina + 15% carvão = 100%; texto e itens coerentes. DIVERGÊNCIA DOCUMENTAL: nenhuma das quatro qualitativas coincide integralmente (primeira usa perlita, não brita; segunda argila expandida; terceira e quarta chips coco + perlita). Justificativa reconhece percentuais heurísticos não validados. Validar origem de alegações sobre produtores brasileiros, peso da brita, estabilidade, granulometria e secagem. Meta até 25 produtores brasileiros específicos não atingida; percentuais e notas NÃO HOMOLOGADOS. Criado somente notaEvidencia; demais campos preservados. Commit 3adc83e69490a8bf80554114e5e8b54a4cd2f24e. Próxima ficha Octomeria diaphana.
+
+
+## Passagem 109 — Octomeria diaphana
+
+ECOLOGIA: miniatura epífita cespitosa, raízes finas e umidade regular, montagem principal em placa com esfagno mínimo. SUPORTES: placa/tronco 5 estrelas, cachepô madeira 4, plástico vasado 3, barro 2. RECEITA VISUAL alternativa para recipiente: 40% chips coco pequenos + 30% pinus fino + 30% perlita grossa = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa atribui receita à segunda qualitativa (pinus fino + perlita adequada a miniaturas + pequena fração esfagno), mas visual omite esfagno, acrescenta 40% chips coco e especifica perlita grossa; primeira qualitativa esfagno + perlita também difere. Validar granulometria da perlita para raízes finas, retenção dos chips e secagem por recipiente. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 108e83fd1e1ec915f9ee08c247fbcb9e16695eda. Próxima ficha Acianthera bragae.
