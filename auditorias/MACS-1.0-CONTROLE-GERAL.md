@@ -412,3 +412,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 06:** POWO confirma espécie epífita; Roehampton Orchids, Isle of Portland Orchids e Canadian Orchid Congress apoiam montagem, umidade frequente e recipiente pequeno, sem proporções específicas. Nenhum produtor brasileiro específico nem ensaio valida 65/35.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 51/149 checagens; 49 fichas com correções efetivas (003–051); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 052 — Dryadella lilliputiana.
+
+## Correção na mesma passagem — registro 052 (2026-11-03)
+- **Ficha 052 — Dryadella lilliputiana** (`dados/orquideas/dryadella-liliputiana.js`): cultivo principal placa/tronco com fina camada de esfagno; receita visual para vaso miniatura/cachepô 45% pinus fino + 35% perlita calibrada + 20% esfagno de fibra longa solto = 100%.
+- **Correções efetivas:** mistura visual ausente das duas alternativas textuais; incluída como primeira opção provisória, preservadas as duas anteriores. Justificativa corrigida para não atribuir os componentes à segunda alternativa antiga e registrar a divergência com mistura publicada. Commit `35839f045bfb1f1aec3013f1bb06340d69dc35ec`.
+- **Evidência prévia no lote 06:** POWO aceita D. lilliputiana; Orquidário Matsuoka indica toco/substrato genérico; Orquídeas Encanto e Paixão recomenda montagem com pouco esfagno ou vaso raso com pinus, carvão e esfagno em partes iguais, sem perlita. Receita visual 45/35/20 sem ensaio específico; apenas duas fontes brasileiras específicas, meta de 25 não atingida.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 52/149 checagens; 50 fichas com correções efetivas (003–052); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 053 — Leptotes unicolor.
