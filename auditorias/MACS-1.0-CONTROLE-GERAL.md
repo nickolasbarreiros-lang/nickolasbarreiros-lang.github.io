@@ -642,3 +642,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Justificativa corrigida: primeira receita antiga usa chips de coco, sem macadâmia; terceira usa argila expandida, sem perlita. Nenhuma correspondia à visual. Reforçado que a mistura é somente para recipiente; placa/tronco continua cultivo principal e não recebe essa receita volumétrica. Commit ficha: 9303357ef2fab1ca83da3c30dec8ae99e2f77a8e.
 - Nenhuma mudança na receita visual, suporte, estrelas, fotos/assets, IDC/IAR ou layout. Percentuais e ranking NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
 - Progresso: 86/149 checagens; 84 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 087 — Catasetum mattosianum.
+
+## Registro 087 — Catasetum mattosianum (2026-11-03)
+- Receita visual/`receitaTexto` mantidos: 35% chips de coco + 30% pinus médio + 20% perlita grossa + 15% casca de arroz carbonizada = 100%; quatro itens concordavam. As duas alternativas qualitativas não continham pinus nem arroz carbonizado. Adicionada receita visual como primeira alternativa provisória e preservadas as duas antigas.
+- Ciclo sazonal e alerta de manejo preservados: crescimento ativo com rega após raízes funcionais; forte redução/suspensão durante dormência. Receita é hipótese para recipiente, não testada na espécie; composição deve ser avaliada ao longo das fases do ciclo. Commit ficha: a24aa4e20dec922a9499cc1e04b8379b7f2140b8.
+- Nenhum suporte/estrela, foto, asset, IDC/IAR ou layout alterado. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
+- Progresso: 87/149 checagens; 85 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 088 — Laelia gloriosa.
