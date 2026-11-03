@@ -57,7 +57,7 @@ export const promenaeaXanthina = {
         titulo: "Substrato ideal",
         contexto: "Mistura leve para vaso pequeno e ventilado",
         resumo: "Raízes frescas e úmidas, sem saturação. Pinus fino, perlita e esfagno solto em pequena fração oferecem retenção moderada com boa aeração.",
-        justificativa: "A receita quantifica a segunda alternativa qualitativa já registrada na ficha, para recipientes. A montagem com esfagno mínimo permanece preservada como alternativa. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A mistura provisória para vaso pequeno combina pinus fino, perlita grossa e esfagno solto, buscando aeração com alguma reserva de umidade. Ela não reproduz integralmente nenhuma das duas alternativas qualitativas listadas; a montagem com pequena quantidade de esfagno permanece uma opção distinta. A retenção efetiva e os percentuais ainda precisam de validação pela MACS 1.0.",
         receitaTexto: "45% casca de pinus fina + 40% perlita grossa + 15% esfagno de fibra longa solto.",
         perfil: ["Miniatura epífita", "Raízes sensíveis", "Clima ameno", "Umidade regular", "Boa ventilação"],
         comportamento: [
