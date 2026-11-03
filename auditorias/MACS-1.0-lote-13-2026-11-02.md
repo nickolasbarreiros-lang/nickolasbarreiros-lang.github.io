@@ -11,7 +11,7 @@ Escopo: primeira passagem documental de cultivo e substratos, na ordem oficial d
 5. bulbophyllum-syciobulbon.js — passagem concluída
 6. laelia-caulencens.js — passagem concluída
 7. rodricidium.js — passagem concluída
-8. laelia-praestans.js — pendente
+8. laelia-praestans.js — passagem concluída
 9. phaius-tankervilleae-alba.js — pendente
 10. stanhopea-hernandezii.js — pendente
 
@@ -48,3 +48,8 @@ RUPÍCOLA compacta de alta luz, com raízes aeradas, drenagem rápida e risco de
 ## Passagem 127 — Rodricidium (Rdcm.)
 
 NOTOGÊNERO híbrido Oncidium × Rodriguezia, sem grex e parentais específicos identificados. SUPORTES: cachepô madeira 5 estrelas, placa/tronco, barro e plástico vasado 4. RECEITA VISUAL: 35% pinus médio + 30% chips coco + 25% perlita grossa + 10% carvão = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira qualitativa, mas primeira é pinus + perlita + argila expandida miúda + pouco esfagno, sem chips coco/carvão; segunda é macadâmia + pinus + perlita + fibra coco, também diferente. Nenhuma coincide. Sem grex, não generalizar percentuais nem secagem de 1–2 dias para todos os híbridos. Validar granulometria, retenção, clima e parentais. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 76a1e21acf661899091cdfda650415dc88a3e64a. Próxima ficha Laelia praestans.
+
+
+## Passagem 128 — Cattleya praestans (arquivo histórico laelia-praestans)
+
+EPÍFITA compacta de floresta úmida, raízes ventiladas e umidade regular no crescimento. SUPORTES: cachepô madeira 5 estrelas, barro e placa/tronco 4, plástico vasado 3. RECEITA VISUAL: 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa diz quantificar primeira qualitativa, mas primeira é pinus + perlita + carvão + pouco chips coco, sem macadâmia; visual substitui coco por macadâmia. Segunda é macadâmia + argila expandida + carvão + pinus, sem perlita; terceira é chips coco + perlita + carvão + pinus, sem macadâmia. Nenhuma coincide. Validar retenção, secagem e granulometria em recipiente pequeno e calor noturno. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 7a5de47fbbb4e1e5f7e09283ce070cf861d14da5. Próxima ficha Phaius tankervilleae alba.
