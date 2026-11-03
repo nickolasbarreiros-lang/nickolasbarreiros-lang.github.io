@@ -41,7 +41,7 @@ export const brassiaLawrenceana = {
         "🥈 Vaso de barro bem perfurado com substrato grosso e aerado.",
         "🥉 Vaso plástico baixo e muito perfurado, controlando cuidadosamente a retenção de água."
     ],
-    substrato: ["🥇 Para Cachepô de Madeira vazado: 35% casca de pinus média + 25% chips de coco médios preparados + 20% casca de macadâmia média + 10% carvão vegetal médio + 10% perlita grossa compatível com o cesto (proposta NÃO homologada).", "🥈 Casca de pinus média + perlita grossa compatível com o cesto + argila expandida pequena + pequena fração de esfagno de fibra longa solto (alternativa qualitativa sem percentuais homologados).", "🥉 Casca de macadâmia média + casca de pinus média + perlita grossa compatível com o cesto + pequena fração de fibra de coco grossa preparada (alternativa qualitativa sem percentuais homologados)."],
+    substrato: ["Casca de pinus média + perlita grossa compatível com o cesto + argila expandida pequena + pequena fração de esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita grossa compatível com o cesto + pequena fração de fibra de coco grossa preparada"],
     formasCultivo: {
         perfilVisual: "cattleya",
         destaque: "Cachepô de Madeira",
