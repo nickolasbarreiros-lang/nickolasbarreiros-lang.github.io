@@ -72,7 +72,7 @@ export const rodrigueziaLanceolata = {
             { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para estrutura aberta e secagem." }
         ],
         alerta: "Evitar sombra profunda, recipientes grandes, substrato compactado e raízes encharcadas. Regar preferencialmente no início da manhã; replantar quando surgirem novas raízes.",
-        notaEvidencia: "Receita percentual apenas para recipientes, não para a montagem principal em placa/tronco. Estrelas e percentuais são estimativas horticulturais não homologadas pela MACS 1.0. Conferência visual dos assets ainda pendente."
+        notaEvidencia: "Receita para recipientes ainda não homologada pela MACS 1.0. Relato de cultivo específico recomenda pinus + carvão + esfagno; há cultivo documentado sem substrato em placa/tronco. Os 30% de chips de coco e 25% de perlita da mistura atual são hipótese horticultural, não proporções validadas para a espécie. Na montagem principal, não utilizar a mistura como enchimento."
     },
     "errosComuns": "Sombra excessiva; vaso grande; substrato compactado; raízes constantemente encharcadas; bokashi em contato direto com raízes; molhar flores à noite; cortar hastes antes de secarem; pouca ventilação; replantar sem novas raízes.",
     "dica": "Em regiões quentes, use meia-sombra clara, cachepô pequeno ou montagem em madeira e regas no início da manhã. O objetivo é oferecer água com frequência sem sacrificar o oxigênio das raízes finas. Se o suporte ainda estiver molhado à noite, há retenção excessiva.",
