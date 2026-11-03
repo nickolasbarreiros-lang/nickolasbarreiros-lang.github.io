@@ -37,7 +37,8 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     "adubacao": "🌿 Orgânica: bokashi em quantidade mínima durante crescimento ativo, sempre afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose, semanalmente ou a cada 15 dias.\n💦 Água: prefira água de chuva, filtrada ou de baixa salinidade.\n🧪 Liberação lenta: Osmocote somente em dose baixa e em recipiente muito drenante.\n🚿 Flushing: lave o vaso mensalmente com água pura.\nNunca aplique fertilizante concentrado sobre raízes secas ou durante calor extremo.",
     "rega": "Regue com água de boa qualidade sempre que o substrato estiver próximo da secagem superficial. No verão, a frequência pode ser alta; no inverno, reduza apenas de acordo com a evaporação, sem impor repouso seco. Evite água acumulada no rizoma e nas bainhas. Pontas de raízes queimadas, depósitos esbranquiçados e folhas com margens secas podem indicar excesso de sais.",
     "suporte": "🥇 Cestinho aberto de madeira: facilita lavagem, ventilação e crescimento das raízes.\n🥈 Vaso de barro furado: boa estabilidade e secagem equilibrada.\n🥉 Placa de madeira em orquidário de umidade alta.\nO suporte deve permitir passagem abundante de água durante o flushing e não concentrar sais.",
-    "substrato": "🥇 Casca de macadâmia média + pinus médio + perlita grossa + carvão vegetal.\n🥈 Pinus médio/grosso + perlita grossa + carvão + chips de coco em baixa proporção.\n🥉 Casca de macadâmia + argila expandida + carvão vegetal + pinus grosso.\n⭐ Alternativa: Chips de coco grossos + perlita grossa + carvão + pinus médio.",
+    "substrato": "🥇 Para Cachepô de Madeira aberto: 35% casca de pinus média + 25% casca de macadâmia média + 20% carvão vegetal médio + 20% chips de coco grossos preparados (proposta NÃO homologada).\n🥈 Casca de macadâmia média + casca de pinus média + perlita grossa + carvão vegetal médio (alternativa qualitativa sem percentuais homologados).\n🥉 Casca de pinus média/grossa + perlita grossa + carvão vegetal médio + pequena fração de chips de coco grossos preparados (alternativa qualitativa sem percentuais homologados).",
+
     "errosComuns": "Temperaturas prolongadas abaixo de 15 °C; seca severa; água salina; fertilizante concentrado; excesso de Osmocote; falta de flushing; raízes abafadas; pouca luz; substrato degradado; água no rizoma; replantar fora do novo enraizamento; assumir que todas as mudas self serão idênticas à planta-mãe.",
     "dica": "A prioridade é preservar pontas radiculares ativas durante todo o ano. Use água de baixa salinidade, adubação fraca e lavagem periódica. Mantenha temperatura noturna preferencialmente acima de 15 °C e não aplique repouso seco. Por ser uma progênie self, avalie cada planta pelo desempenho próprio: diferenças de cor e vigor entre irmãos são naturais.",
     formasCultivo: {
@@ -79,8 +80,8 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
         "titulo": "Substrato ideal",
         "contexto": "Cachepô de madeira aberto",
         "resumo": "Mistura média e grossa, com boa aeração e retenção moderada.",
-        "justificativa": "AOS documenta C. violacea em cestos e placas na AWZ Orchids; os percentuais são inferência horticultural para a progênie self, não fórmula validada.",
-        "receitaTexto": "35% pinus médio + 25% macadâmia média + 20% carvão vegetal + 20% chips de coco grossos.",
+        "justificativa": "Cattleya violacea f. suavissima × self é progênie por autofecundação, com variação individual entre seedlings. O cachepô de madeira aberto favorece aeração, mas exige regas regulares e água de baixa salinidade. A receita visual combina pinus médio, macadâmia média, carvão vegetal médio e chips de coco grossos preparados, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não validam os percentuais visuais. Referências a cultivo em cestos ou placas não equivalem a ensaio comparativo de substratos. MACS 1.1: formulação horticultural provisória, sem homologação quantitativa específica.",
+        "receitaTexto": "35% casca de pinus média + 25% casca de macadâmia média + 20% carvão vegetal médio + 20% chips de coco grossos preparados (proposta não homologada).",
         "perfil": [
             "Umidade regular",
             "Aeração elevada",
@@ -103,312 +104,18 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
             },
             {
                 "asset": "carvao-vegetal",
-                "nome": "Carvão vegetal",
+                "nome": "Carvão vegetal médio",
                 "proporcao": "20%",
                 "nota": "drenagem",
                 "finalidade": "Ajuda a evitar compactação."
             },
             {
                 "asset": "chips-coco",
-                "nome": "Chips de coco grossos",
+                "nome": "Chips de coco grossos preparados",
                 "proporcao": "20%",
                 "nota": "umidade",
                 "finalidade": "Retém umidade sem eliminar ventilação."
             }
         ],
         "alerta": "Lave periodicamente para reduzir sais; evite encharcar e não enterre o rizoma.",
-        "notaEvidencia": "MACS 1.0 — primeira passagem documental: Cattleya violacea f. suavissima × self é progênie por autofecundação de seleção de cor, não híbrido interespecífico; epífita bifoliada de clima quente úmido, sensível a sais e seca prolongada. Suportes cachepô madeira 5 estrelas, barro e plástico vasado 4, placa/tronco 3; notas não homologadas. Receita visual 35% pinus médio + 25% macadâmia média + 20% carvão + 20% chips coco grossos = 100%; receitaTexto e itens concordam. DIVERGÊNCIA DOCUMENTAL: campo substrato qualitativo é string com quatro alternativas: primeira macadâmia + pinus + perlita + carvão (sem chips coco), segunda pinus + perlita + carvão + chips coco (sem macadâmia), terceira macadâmia + argila expandida + carvão + pinus (sem chips coco), quarta chips coco + perlita + carvão + pinus (sem macadâmia). Nenhuma coincide integralmente com visual, que não tem perlita nem argila. Justificativa cita AOS/AWZ para suportes, não evidência de percentuais da progênie; conferir fonte original. Validar retenção, salinidade, secagem e variação entre seedlings; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
-    },
-    revisaoCientificaIAR: {
-        "nome": "Cattleya violacea f. suavissima × self",
-        "statusTaxonomico": "Cattleya violacea é espécie botânica; suavissima é denominação horticultural de coloração e × self indica progênie por autofecundação, não espécie ou híbrido interespecífico.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma versão delicada de uma das mais belas Cattleyas amazônicas! Esta progênie vem da autofecundação de uma Cattleya violacea selecionada pela coloração muito suave, buscando descendentes em tons claros de rosa, lilás ou quase branco, geralmente com o labelo mais destacado. Como toda reprodução por sementes, cada planta pode apresentar diferenças de cor, forma, perfume e vigor. ",
-        "habitatAltitudeClima": "Referência: florestas tropicais úmidas · baixa altitude. | Quente e úmido · sem seca prolongada.",
-        "distribuicaoGeografica": "Base genética sul-americana.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
-        "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
-        ]
-    },
-    indiceDificuldadeCultivo: {
-        "versao": "IDC 3.2 — selo por facilidade",
-        "escala": "dificuldade",
-        "indice": 40,
-        "classificacao": "Moderada",
-        "cultivoEstrelas": 3,
-        "criterios": {
-            "temperatura": {
-                "notaDificuldade": 2,
-                "peso": 15
-            },
-            "rega": {
-                "notaDificuldade": 2,
-                "peso": 15
-            },
-            "umidade": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "ventilacao": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "luminosidade": {
-                "notaDificuldade": 2,
-                "peso": 10
-            },
-            "raizesSubstrato": {
-                "notaDificuldade": 1,
-                "peso": 10
-            },
-            "sazonalidade": {
-                "notaDificuldade": 1,
-                "peso": 10
-            },
-            "floracao": {
-                "notaDificuldade": 3,
-                "peso": 20
-            }
-        },
-        "faixas": {
-            "facil": "0–25",
-            "moderada": "26–50",
-            "dificil": "51–89",
-            "extrema": "90–100"
-        }
-    },
-    indiceAdaptacaoRegional: {
-        "versao": "IAR 2.0 — revisão científica",
-        "escala": "compatibilidade regional",
-        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
-        "litoralQuente": {
-            "indice": 97,
-            "estrelas": 5,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 5,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 5,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 5,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 5,
-                    "peso": 20
-                }
-            }
-        },
-        "montanhaFrio": {
-            "indice": 47,
-            "estrelas": 3,
-            "fatores": {
-                "habitatNatural": {
-                    "nota": 2,
-                    "peso": 30
-                },
-                "temperatura": {
-                    "nota": 2,
-                    "peso": 30
-                },
-                "aguaUmidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "ventilacao": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "luminosidade": {
-                    "nota": 3,
-                    "peso": 5
-                },
-                "sazonalidade": {
-                    "nota": 4,
-                    "peso": 5
-                },
-                "floracao": {
-                    "nota": 2,
-                    "peso": 20
-                }
-            }
-        }
-    },
-    "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, apresenta excelente adaptação térmica. Use sombra luminosa, alta ventilação, água de boa qualidade e controle rigoroso de sais e encharcamento.",
-        "montanhaFrio": "Proteja de noites frias e mantenha temperatura mínima preferencialmente acima de 15 °C. Reduza regas apenas conforme a evaporação."
-    },
-    "mesesFloracao": [
-        10,
-        11,
-        12,
-        1,
-        2,
-        3
-    ],
-    "selosCultivo": {
-        "rega": { "nivel": "sazonal", "regime": "reduzir-inverno" },
-        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
-    },
-        "avaliacoes": {
-        "cultivo": 3,
-        "floracao": 4,
-        "perfume": 3,
-        "luminosidade": 4,
-        "agua": 4,
-        "raridade": 5
-    },
-    macs1_0: {
-        "versao": "MACS 1.0",
-        "status": "parecer_tecnico_sem_homologacao_visual",
-        "pesos": [
-            25,
-            25,
-            20,
-            10,
-            10,
-            10
-        ],
-        "criterios": [
-            "raizes",
-            "agua",
-            "aeracao",
-            "espaco",
-            "calor",
-            "evidencia"
-        ],
-        "montagens": [
-            {
-                "suporte": "cesto-madeira",
-                "notas": [
-                    5,
-                    5,
-                    5,
-                    4,
-                    4,
-                    3
-                ],
-                "pontuacao": 92
-            },
-            {
-                "suporte": "vaso-barro",
-                "notas": [
-                    5,
-                    4,
-                    5,
-                    4,
-                    4,
-                    3
-                ],
-                "pontuacao": 87
-            },
-            {
-                "suporte": "vaso-plastico-vasado",
-                "notas": [
-                    4,
-                    5,
-                    5,
-                    4,
-                    4,
-                    3
-                ],
-                "pontuacao": 87
-            },
-            {
-                "suporte": "arvore-viva",
-                "notas": [
-                    5,
-                    3,
-                    5,
-                    4,
-                    4,
-                    2
-                ],
-                "pontuacao": 80
-            },
-            {
-                "suporte": "placa-tronco",
-                "notas": [
-                    5,
-                    3,
-                    5,
-                    3,
-                    4,
-                    2
-                ],
-                "pontuacao": 78
-            },
-            {
-                "suporte": "vaso-plastico",
-                "notas": [
-                    4,
-                    5,
-                    3,
-                    4,
-                    3,
-                    3
-                ],
-                "pontuacao": 77
-            },
-            {
-                "suporte": "raizes-soltas",
-                "notas": [
-                    3,
-                    1,
-                    5,
-                    2,
-                    2,
-                    1
-                ],
-                "pontuacao": 50
-            }
-        ],
-        "perfil": {
-            "raizes": "epífitas, não medidas diretamente nesta progênie",
-            "exposicao": "epífita amazônica por referência à espécie",
-            "reserva": "pseudobulbos",
-            "umidade": "regular com secagem rápida",
-            "seca": "não impor repouso seco severo",
-            "saturacao": "evitar encharcamento",
-            "arquitetura": "simpodial bifoliada",
-            "temperatura": "quente, umidade alta e ar circulante"
-        },
-        "substrato": {
-            "recipiente": "cachepô de madeira",
-            "percentuais": {
-                "pinus medio": 35,
-                "macadamia media": 25,
-                "carvao vegetal": 20,
-                "chips coco grossos": 20
-            },
-            "natureza": "proposta técnica para progênie self; não receita testada"
-        },
-        "fontes": [
-            "https://www.aos.org/orchids/articles/cattleya-violacea",
-            "https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet",
-            "https://www.sosa.org.br/site/dicas-de-cultivo.php"
-        ],
-        "observacao": "Evidência AOS sobre a espécie e AWZ Orchids brasileira; extrapolação à progênie suavissima × self. Não confundir recomendação de suporte com ensaio comparativo."
-    }
-};
+        "notaEvidencia": "MACS 1.1 — revisão documental: Cattleya violacea f. suavissima × self é progênie por autofecundação de seleção de cor, não híbrido interespecífico; cultivo quente e úmido, raízes epífitas sensíveis a sais e seca prolongada. Cachepô de Madeira como suporte principal proposto; estrelas são heurísticas, não ensaios comparativos. Receita visual e textual coincidem: 35% pinus médio + 25% macadâmia média + 20% carvão vegetal médio + 20% chips de coco grossos preparados = 100%. Duas outras misturas qualitativas distintas, sem os percentuais da principal. A referência anterior a cultivo em cestos/placas não valida proporções para esta progênie. Monitorar retenção, secagem, salinidade e diferenças entre seedlings. Não há homologação quantitativa específica nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS
