@@ -126,7 +126,7 @@ export const bulbophyllumRothschildianum = {
         ],
         "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo."
     },
-    substrato: ["🥇 Pinus médio + carvão vegetal + chips de coco tratados + esfagno solto (mistura-base provisória do substrato visual).","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de esfagno.","🥉 Esfagno de fibra longa solto + perlita grossa.","Alternativa adicional: chips de coco tratados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno."],
+    substrato: ["Esfagno de fibra longa solto + perlita grossa","chips de coco tratados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno"],
     errosComuns: "• Exibir vários sinônimos no campo resumido.\n• Tratar a espécie como obrigatoriamente fria.\n• Deixar o substrato secar por vários dias.\n• Compactar esfagno.\n• Usar vaso estreito para rizoma rastejante.\n• Manter calor e umidade em ambiente abafado.\n• Expor ao sol forte direto.\n• Fertilizar em concentração elevada.",
     dica: "🏆 A umbela larga e as sépalas de até cerca de 17 cm precisam de espaço livre para se desenvolver sem encostar no recipiente. Use cesto largo, deixe a nova frente voltada para fora e mantenha ventilação constante. No litoral quente, a prioridade não é produzir frio, e sim evitar noites excessivamente abafadas e raízes saturadas.",
     revisaoCientificaIAR: {
