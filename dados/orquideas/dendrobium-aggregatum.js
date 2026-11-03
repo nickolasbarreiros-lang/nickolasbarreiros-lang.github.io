@@ -39,7 +39,7 @@ export const dendrobiumAggregatum = {
     "adubacao": "🌱 Brotação: NPK equilibrado em baixa concentração quando novas raízes aparecerem.\n☀️ Crescimento: mantenha alimentação regular e leve enquanto o pseudobulbo estiver aumentando.\n🍂 Maturação: reduza gradualmente o nitrogênio quando o crescimento endurecer.\n💤 Repouso: suspenda a adubação até o reinício do crescimento.\n🌿 Bokashi/Osmocote: somente no início do ciclo e em quantidade pequena, especialmente em placas e cestos.",
     "rega": "Com brotos e raízes ativos, regue generosamente e deixe o suporte secar parcialmente entre irrigações. Quando os pseudobulbos estiverem maduros e o crescimento parar, reduza gradualmente. No repouso, forneça apenas água suficiente para evitar enrugamento excessivo e prolongado. Chuva frequente fora de época pode reduzir a indução floral e aumentar risco de podridão.",
     "suporte": "🥇 Placa de madeira dura ou cortiça — excelente secagem e exposição dos cachos.\n🥈 Cesto pequeno de madeira — acomoda touceiras sem prender inflorescências.\n🥉 Vaso de barro raso e muito drenante.\nEvite recipientes fundos e muito retentivos, principalmente em regiões úmidas.",
-    substrato: ["casca de pinus média/grossa + carvão vegetal + perlita grossa","casca de pinus média/grossa + chips de coco lavados + carvão vegetal"],
+    substrato: ["Casca de pinus média/grossa + carvão vegetal + perlita grossa","Casca de pinus média/grossa + chips de coco preparados + carvão vegetal"],
     "formasCultivo": {
         "perfilVisual": "dendrobium-epifita-sazonal",
         "destaque": "Placa / tronco",
