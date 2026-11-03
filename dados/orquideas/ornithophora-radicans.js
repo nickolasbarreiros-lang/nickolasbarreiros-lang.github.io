@@ -35,7 +35,7 @@ export const ornithophoraRadicans = {
     adubacao: "🌿 Orgânica: bokashi em saquinho minúsculo suspenso acima da planta, permitindo dissolução suave durante as regas.\n💧 Foliar: NPK equilibrado a 1/4 ou até 1/6 da dose a cada 10–15 dias.\n🧪 Liberação lenta: Osmocote apenas em dose mínima e somente em cachepô, sempre afastado das raízes.\n🚿 Lavagem: uma vez por mês, lave abundantemente a montagem ou o substrato apenas com água pura para remover sais acumulados.",
     rega: "Mantenha umidade regular durante o crescimento, mas com secagem superficial rápida e alta oxigenação. Plantas montadas podem necessitar de rega diária nos dias quentes. Regue preferencialmente pela manhã e evite que folhas e raízes permaneçam molhadas durante toda a noite. Reduza no frio sem deixar a touceira ressecar por vários dias.",
     suporte: "🥇 Placa de madeira dura, cortiça ou tronco fino.\n🥈 Cachepô pequeno de madeira muito vazado.\n🥉 Vaso raso e pequeno apenas com drenagem extrema.",
-    substrato: ["🥇 Para cachepô ou vaso raso: casca de pinus média + chips de coco + perlita grossa + carvão vegetal (mistura visual provisória; placa/tronco permanece principal).","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
+    substrato: ["🥈 Alternativa 1 — 45% Casca de pinus + 35% Carvão vegetal + 20% Esfagno, em vaso/cachepô pequeno e vazado; proporções D inferenciais, não homologadas.","🥉 Alternativa 2 — 45% Casca de pinus + 30% Fibra de coco + 25% Carvão vegetal, em vaso/cachepô pequeno e vazado; ingredientes documentados, proporções D inferenciais, não homologadas."],
     formasCultivo: {
         perfilVisual: "gomesa-radicans-miniatura-epifita-pendente",
         destaque: "Placa / tronco",
@@ -50,9 +50,9 @@ export const ornithophoraRadicans = {
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para cachepô ou vaso raso; placa sem substrato volumoso",
-        resumo: "A montagem principal em placa prioriza raízes expostas e umidade regular. Em recipientes, mistura leve de pinus, coco, perlita e carvão preserva aeração.",
-        justificativa: "A receita visual para recipientes combina pinus médio, chips de coco, perlita grossa e carvão vegetal, agora descritos na primeira alternativa textual. As duas misturas anteriores continham materiais diferentes e foram preservadas; a montagem principal continua em placa/tronco. Percentuais estimados e ainda não homologados pela MACS 1.0.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        resumo: "A montagem principal em placa prioriza raízes expostas e umidade regular. Em recipiente pequeno, a mistura documentada em partes iguais de pinus, carvão e esfagno requer boa aeração e controle da secagem.",
+        justificativa: "MACS 1.1: Orquídeas Encanto e Paixão recomenda para Ornithophora radicans partes iguais de Casca de pinus, Carvão vegetal e Esfagno em vaso/caixeta, com raízes aéreas expostas. Nhá Mercedes confirma qualitativamente os mesmos ingredientes; Oriental apresenta opção de Fibra de coco, pinus e carvão. R1 representa 1:1:1 por volume, arredondado para 34/33/33 apenas para fechar 100%; documentação B horticultural, não ensaio. Placa/tronco permanece suporte principal, sem mistura volumétrica.",
+        receitaTexto: "34% Casca de pinus + 33% Carvão vegetal + 33% Esfagno (equivalente arredondado a 1:1:1 por volume).",
         perfil: ["Miniatura epífita", "Raízes filiformes", "Touceira pendente", "Alta ventilação", "Umidade regular"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -61,13 +61,12 @@ export const ornithophoraRadicans = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece fixação às raízes em recipientes pequenos." },
-            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a evitar desidratação prolongada." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para manter o substrato aberto." }
+            { asset: "casca-pinus", nome: "Casca de pinus", proporcao: "34%", nota: "estrutura", finalidade: "Usar partículas pequenas/médias, sem pó, para apoiar raízes e manter ar." },
+            { asset: "carvao", nome: "Carvão vegetal", proporcao: "33%", nota: "aeração", finalidade: "Usar partículas pequenas/médias, preservando drenagem no recipiente." },
+            { asset: "esfagno", nome: "Esfagno", proporcao: "33%", nota: "reserva hídrica", finalidade: "Usar esfagno solto, sem compactar; observar secagem antes da próxima rega." }
         ],
         alerta: "Evitar adubo concentrado, excesso de fertilizante de liberação lenta, esfagno compactado, pouca ventilação e bloqueio das hastes pendentes. Não cortar raízes finas saudáveis.",
-        notaEvidencia: "MACS 1.0: Ornithophora radicans é sinônimo de Gomesa radicans segundo POWO/Kew; espécie epífita. Orquidário Oriental recomenda especificamente placa de madeira, esfagno ou mistura de fibra de coco, pinus e carvão em vasos, sem percentuais; informa regas com intervalo para secagem. Relato da Canberra Orchid Society documenta sucesso em cortiça e xaxim e alerta para excesso de água em vasos, sem ensaio comparativo. A receita de recipiente 35% pinus + 30% chips de coco + 25% perlita + 10% carvão permanece hipótese horticultural NÃO homologada; a perlita e seus 25% não foram corroborados por receita quantitativa específica. Estrelas de cultivo não validadas experimentalmente."
+        notaEvidencia: "MACS 1.1: Gomesa radicans (sin. Ornithophora radicans) é epífita e se adapta à montagem em placa/tronco, conforme IOSPE e fontes brasileiras. Para vaso/cachepô, Orquídeas Encanto e Paixão documenta receita específica em partes iguais de Casca de pinus, Carvão vegetal e Esfagno; Nhá Mercedes indica os mesmos ingredientes sem proporções. R1 visual 34/33/33 representa 1:1:1 arredondado, evidência B quantitativa horticultural, NÃO homologação experimental. R2 e R3 são alternativas com percentuais D inferenciais; a composição com Fibra de coco tem respaldo qualitativo no Orquidário Oriental e Orquídeas no Apê. Montagem principal sem percentuais. Assets e nomes canônicos conferidos. Matriz: auditorias/MACS-1.1-MATRIZ-043-GOMESA-RADICANS.md."
     },
     errosComuns: "Aplicar adubo químico concentrado; usar vaso grande; compactar esfagno; manter a touceira molhada durante toda a noite; cultivar sem circulação de ar; cortar raízes finas saudáveis; deixar o substrato secar completamente por longos períodos; impedir que as hastes pendam livremente; usar Osmocote em excesso ou encostado no rizoma.",
     dica: "Use adubação homeopática, lavagem mensal de sais e muito ar. A Gomesa radicans prefere pequenas quantidades de nutrientes de forma contínua a doses fortes de fertilizante. Aplique apenas 1/4 ou 1/6 da dose foliar, faça uma lavagem completa com água pura uma vez por mês e cultive, sempre que possível, montada em cortiça, madeira dura ou cachepô muito ventilado. Para esta espécie, boa circulação de ar é mais importante do que simplesmente aumentar a quantidade de água.",
