@@ -23,3 +23,11 @@ Base cientifica geral para analise, NAO prova de proporcoes por especie:
 - AOS, media review: https://www.aos.org/orchid-care/beginners-series--part-2-media-mania-revisited
 
 PENDENTE: levantamento individual de ate 25 produtores brasileiros quando disponiveis; fontes botanicas e estudos por especie; validacao dos campos das fichas 2, 5 e 6; justificativas tecnicas e correcoes de receitas somente apos confronto. Status: TRIAGEM, NAO HOMOLOGADO.
+
+## Passagem 31 — Oncidium pumilum (Trichocentrum pumilum): avaliacao MACS 1.0
+
+Fonte botanica: sinopse cientifica publicada na Hoehnea/Scielo identifica Trichocentrum pumilum como epifita e registra sinonimo Oncidium pumilum: https://www.scielo.br/j/hoehnea/a/3ny9LMzTztYwyQJJnmJQ5tL/?format=html .
+
+Fontes brasileiras especificas de cultivo: Orquideas no Ape (https://www.orquideasnoape.com.br/2012/01/compras-lophiaris-pumila.html) relata montagem em madeira, brita pura ou casca de macadamia e alternativas pinus/carvao/fibra de coco, com necessidade de secagem completa. Orquideaterapia (https://orquideaterapia.blogspot.com/2017/03/oncidium-pumilum-ou-lophiaris-pumila.html) indica casca/placa ou vaso de barro, com 50% cascas + 50% carvao e musgo opcional; nao somar musgo a 100% sem recalcular. Orientacao geral AOS https://www.aos.org/orchid-care/care-sheets/oncidium-culture-sheet e https://www.aos.org/orchid-care/orchid-care-basics/mounting reforca secagem/aeracao e adequacao do suporte, mas nao valida percentuais desta especie.
+
+Receita atual da ficha: 35% perlita grossa, 30% brita fina/media, 25% macadamia triturada, 10% pinus grosso. Soma 100%, com 65% fracao mineral. Sem estudo comparativo que justifique predominancia mineral ou os percentuais exatos. Classificacao: forma montada = evidencias qualitativas diretas; ingredientes alternativos = evidencias qualitativas; percentuais atuais = nao homologados. Alterada somente notaEvidencia da ficha, sem mudar mistura, estrelas ou outros campos. Commit ef4faf913c1819da0abd6a14374b8d2842b64713. Meta de 25 produtores ainda nao atingida; duas fontes especificas de cultivo documentadas nesta passagem, sem alegar amostra exaustiva.
