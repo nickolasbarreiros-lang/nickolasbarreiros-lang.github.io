@@ -644,7 +644,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                         <span aria-hidden="true">🌱</span>
                         <div>
                             <h5>Outras misturas recomendadas</h5>
-                            <p>Alternativas de composição adequadas para cultivo em vaso.</p>
+                            
                         </div>
                     </div>
                     <ul>
