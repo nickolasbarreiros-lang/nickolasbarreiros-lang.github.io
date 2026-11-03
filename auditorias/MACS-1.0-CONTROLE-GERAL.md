@@ -702,3 +702,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Corrigida justificativa falsa: receita visual não adapta a segunda alternativa; as duas receitas antigas (macadâmia + perlita + carvão; pinus + brita + carvão) não incluem chips de coco nem argila expandida. Explicitada separação: montagem principal em cortiça/madeira sem substrato volumétrico; fórmula apenas para cesto muito raso. Ressalva de validar retenção dos chips e estabilidade da argila sem cobrir rizoma exposto.
 - Commit ficha: 40f3256e9071e7cd1acbe4e4b00e32bfe31b3be5. Suportes/estrelas, fotos/assets, IDC/IAR e layout preservados. Percentuais e estrelas NÃO HOMOLOGADOS; meta 25 produtores específicos não atingida.
 - Progresso: 96/149 checagens; 94 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 097 — Huntleya meleagris.
+
+## Registro 097 — Huntleya meleagris (2026-11-03)
+- Receita visual/`receitaTexto` mantidos: 35% pinus médio + 35% chips de coco + 20% perlita grossa + 10% carvão vegetal = 100%; quatro itens concordavam. Incluída fórmula visual como primeira alternativa textual; duas misturas qualitativas antigas preservadas.
+- Justificativa corrigida: primeira receita antiga contém macadâmia e fibra de coco em pequena fração, sem carvão/chips; segunda contém argila expandida e esfagno, ausentes da visual. Nenhuma correspondia integralmente. Explicitado que 35% chips é hipótese a confrontar com secagem, temperatura e ventilação; espécie sem pseudobulbos requer umidade estável com oxigenação, não saturação. Commit ficha: 503b4b2d5e23221d7e0ea6f2c2d0a36e14f335b3.
+- Vaso plástico vasado, suportes/estrelas, fotos/assets, IDC/IAR e layout preservados. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
+- Progresso: 97/149 checagens; 95 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 098 — confirmar no manifesto lote 10.
