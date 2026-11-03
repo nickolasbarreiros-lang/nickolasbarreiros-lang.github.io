@@ -131,7 +131,8 @@ export const eriaHyacinthoides = {
                 "finalidade": "Pequena fração distribuída sem pressão protege raízes novas da secagem abrupta."
             }
         ],
-        "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura."
+        "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura.",
+        "notaEvidencia": "MACS 1.0: Bryobium hyacinthoides (sinônimo Eria hyacinthoides) é epífita de florestas tropicais úmidas segundo POWO. Fonte horticultural secundária menciona casca, carvão, esfagno e perlita, mas não valida chips de coco nem percentuais para esta espécie. A receita 35% pinus + 25% coco + 25% perlita + 15% esfagno é proposta horticultural de recipiente, não homologada; requer levantamento de produtores brasileiros e evidência quantitativa específica."
     },
     substrato: ["🥇 Esfagno de fibra longa solto + perlita grossa.","🥈 Chips de coco tratados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno.","🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de esfagno."],
     errosComuns: "Manter a planta identificada apenas sob o gênero desatualizado Eria nos registros da coleção; Permitir secura prolongada do substrato; Cultivar em ambientes com pouca ventilação; Exagerar na dosagem dos adubos e causar queima das raízes por sais; Dividir touceiras pequenas antes de a planta estar bem estabelecida.",
