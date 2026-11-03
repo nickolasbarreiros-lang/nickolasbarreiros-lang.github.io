@@ -7,7 +7,7 @@ Escopo: próximas dez fichas na ordem de imports de dados/orquideas/index.js ap�
 3. polystachya-concreta.js — passagem concluída
 4. maxillaria-chrysantha.js — passagem concluída
 5. miltonia-regnellii.js — passagem concluída
-6. neobenthamia-gracilis.js — pendente
+6. neobenthamia-gracilis.js — passagem concluída
 7. aspasia-lunata.js — pendente
 8. cyrtopodium-saintlegerianum.js — pendente
 9. cattleya-warneri.js — pendente
@@ -36,3 +36,8 @@ ECOLOGIA: epífita montana, cerca de 1.400 m, noites amenas segundo revisão já
 ## Passagem 75 — Miltonia regnellii
 
 ECOLOGIA: epífita simpodial de raízes finas, exige umidade regular com aeração segundo ficha existente. SUPORTES: vaso plástico vasado 5 estrelas, barro/cachepô madeira 4, placa/tronco 3; sem comparação quantitativa específica. RECEITA VISUAL: 35% pinus médio + 30% chips coco + 25% perlita + 10% carvão = 100%. DIVERGÊNCIA INTERNA: primeira mistura qualitativa lista pinus + perlita + argila expandida miúda + esfagno solto, mas a justificativa visual diz quantificar os mesmos quatro componentes; chips de coco e carvão substituem argila e esfagno. Requer revisão técnica posterior, sem alteração nesta passagem. Fontes botânicas já citadas não validam os percentuais; meta até 25 produtores brasileiros não atingida; estrelas e percentuais NÃO HOMOLOGADOS. Apenas notaEvidencia alterada; demais campos preservados. Commit 1718315df0bfadecf7ca9b31f6de2f9b7e61edd5. Próxima ficha Neobenthamia gracilis.
+
+
+## Passagem 76 — Polystachya neobenthamia (sin. Neobenthamia gracilis)
+
+ECOLOGIA: terrestre/rupícola de grande porte e caules altos, estabilidade do vaso e drenagem são prioridades inferidas do hábito. SUPORTES: barro 5 estrelas, plástico 4, cachepô madeira e plástico vasado 3, sem ensaio comparativo. RECEITA VISUAL: 35% macadâmia + 25% casca arroz carbonizada + 20% perlita + 20% fibra coco = 100%. DIVERGÊNCIA GRAVE: nenhuma das receitas qualitativas inclui macadâmia; justificativa visual declara que primeira mistura repete perlita e que a composição visual corresponde à segunda alternativa, o que não é sustentado pelo texto da ficha. Primeira mistura: arroz carbonizado + fibra coco + perlita + pinus fino; segunda: chips coco + arroz carbonizado + perlita + argila expandida. Revisão técnica posterior necessária, sem alterar conteúdo nesta passagem. Fontes botânicas já citadas não homologam percentuais ou estrelas; meta até 25 produtores brasileiros não atingida. Apenas notaEvidencia alterada, demais campos preservados. Commit f8cb25e33415930ad4270e96be5c3eeb4ad53def. Próxima ficha Aspasia lunata.
