@@ -40,7 +40,7 @@ export const speckliniaGrobyi = {
     "adubacao": "🌿 Orgânica: se utilizada, bokashi apenas em dose mínima e distante da planta.\n💧 Mineral/Foliar: NPK equilibrado em 1/5 a 1/4 da dose a cada 15 dias durante atividade.\n🧪 Liberação lenta: não recomendada em montagens; em vaso diminuto, somente microdose.\n🚿 Lavagem: lave placa e raízes regularmente com água de boa qualidade para impedir concentração de sais.",
     "rega": "Em placas, regue diariamente nos dias quentes e permita que a superfície seque em poucas horas. Em recipientes diminutos, regue quando o material começar a perder umidade, sem chegar à secagem total. Durante períodos frios e chuvosos, reduza a água e aumente a ventilação. O objetivo é umidade frequente com oxigênio constante.",
     "suporte": "🥇 Placa de cortiça, madeira dura ou galho fino — simula o hábito natural e dá máxima oxigenação.\n🥈 Cachepô diminuto e muito vazado — útil em ambiente quente.\n🥉 Vaso de barro muito pequeno e perfurado — opção para locais mais secos.\nUma camada mínima de esfagno é suficiente; o suporte não deve ficar abafado.",
-    substrato: ["🥇 Casca de pinus fina + perlita de granulometria adequada a miniaturas + pequena fração de esfagno solto.","🥈 Chips de coco pequenos + perlita de granulometria adequada a miniaturas + casca de pinus fina."],
+    substrato: ["🥇 Para recipiente mínimo: esfagno de fibra longa muito solto + perlita grossa (mistura visual provisória; não aplicar como camada volumosa sobre a placa).","🥈 Casca de pinus fina + perlita de granulometria adequada a miniaturas + pequena fração de esfagno solto.","🥉 Chips de coco pequenos + perlita de granulometria adequada a miniaturas + casca de pinus fina."],
     formasCultivo: {
         perfilVisual: "specklinia-grobyi-miniatura-epifita-raizes-finas",
         destaque: "Placa / tronco",
@@ -56,7 +56,7 @@ export const speckliniaGrobyi = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para recipiente mínimo",
         resumo: "Na placa, apenas uma lâmina fina de esfagno sob as raízes. Em recipiente, esfagno de fibra longa muito solto e perlita grossa proporcionam umidade e ar.",
-        justificativa: "A montagem em madeira é a primeira indicação original. A receita percentual quantifica a segunda alternativa qualitativa para recipiente, não uma camada para aplicar sobre a placa. Percentuais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A montagem em madeira continua sendo a forma de cultivo principal, com apenas uma lâmina fina de esfagno sob as raízes. A receita percentual para recipiente mínimo usa esfagno de fibra longa muito solto e perlita grossa; foi acrescentada às alternativas textuais sem eliminar as duas misturas anteriores. Não deve ser aplicada como camada volumosa sobre a placa. Percentuais estimados e ainda não homologados pela MACS 1.0.",
         receitaTexto: "65% esfagno de fibra longa muito solto + 35% perlita grossa.",
         perfil: ["Micro-orquídea epífita", "Raízes finas", "Umidade frequente", "Alta aeração", "Sem compactação"],
         comportamento: [
