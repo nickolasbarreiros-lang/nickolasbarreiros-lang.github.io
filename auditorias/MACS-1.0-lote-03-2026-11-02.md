@@ -290,3 +290,30 @@ Menegusso et al. (2021), *Vegetative development and flowering of Encyclia hybri
 
 ### Critério MACS reforçado
 Separar em cada ficha: (A) produtor brasileiro da mesma espécie/híbrido, (B) fonte científica da mesma espécie/híbrido, (C) evidência de parental, gênero ou híbrido diferente, (D) inferência horticultural. Só A/B podem corroborar diretamente uma recomendação; nenhum deles, isoladamente, homologa percentuais sem medição/comparação. **Nesta passagem: 0 fichas alteradas; 0 receitas homologadas.**
+
+## Décima primeira passagem — Oncidium Twinkle: quatro produtores brasileiros com substrato específico (02/11/2026)
+
+A busca direcionada identificou **quatro estabelecimentos brasileiros independentes**, cada um com página comercial específica de *Oncidium Twinkle*, incluindo cultivares de cores diferentes:
+
+| Produtor | Ingredientes/suporte publicados | Diferença frente à ficha |
+|---|---|---|
+| **Flora Kadoguchi** — https://florakadoguchi.com.br/product/oncidium-twinkle/ | Pinus pequeno/médio, carvão e **chips de coco**; esfagno **somente como cobertura fina opcional**. Vaso plástico furado, barro ou tronco. Recomenda quase secar entre regas. | Confirma **3 dos 4 materiais** da receita; não menciona perlita, não valida percentuais. |
+| **Orquídeas & Cia** — https://www.orquideacia.com.br/oncidium-twinckle | Pinus, carvão e **esfagno**; manter levemente úmido, sem encharcar. | Confirma pinus/carvão; oferece alternativa mais retentiva, não inclui chips de coco nem perlita. |
+| **Merten Orquídeas** — https://www.mertenorquideas.com.br/orquideas/oncidium/oncidium-twinkle-mesclado-com-haste-floral | Casca de madeira, carvão, chips de coco, pedrinhas, musgo/esfagno como materiais possíveis; vaso plástico, cachepô, tronco, árvore. Regar após secar. | Confirma casca/carvão/coco; **lista de opções não é uma receita com todos os ingredientes juntos**. Não prova perlita. |
+| **Orquidário Santa Clara** — https://orquidariosantaclara.com.br/saldos/2908-oncidium-twinkle-red-fantasy-saldao.html | Substrato **à base de casca de pinus**, sombreamento 60%, clima úmido/meia-sombra. | Confirma pinus, sem evidência sobre demais materiais ou percentuais. |
+
+**Receita atual:** 35% pinus + 30% chips de coco + 25% perlita grossa + 10% carvão, ideal em vaso plástico.
+
+**Síntese quantitativa estritamente documental (n=4 produtores):**
+- **Pinus/casca de madeira:** 4/4, com 3 explicitamente nomeando pinus e 1 citando casca de madeira genérica.
+- **Carvão:** 3/4.
+- **Chips de coco:** 2/4.
+- **Esfagno como ingrediente ou cobertura opcional:** 3/4; as práticas variam entre mistura e cobertura.
+- **Perlita:** 0/4.
+- **Percentuais volumétricos para ingredientes:** 0/4.
+
+**Atenção:** as frações acima são **frequências de menção**, não frequências de uso real nem taxas de sucesso, e a ausência de menção não demonstra rejeição do ingrediente. As quatro páginas descrevem o híbrido comercial em geral ou cultivares distintos; diferenças de cultivar, recipiente e microclima não foram controladas.
+
+**Decisão MACS:** há convergência razoável para pinus + carvão, apoio específico para coco, e **lacuna para perlita a 25%**. A mistura atual é horticulturalmente plausível, mas **não homologada**. Esfagno merece aparecer como alternativa contextual de retenção hídrica, sem adição automática à receita. **Nenhuma alteração de ficha nesta passagem**, pois não há demonstração comparativa de superioridade.
+
+**Próxima verificação:** procurar evidência independente para perlita no cultivo do híbrido e examinar se o manejo hídrico da ficha descreve secagem total ou parcial, visto que as recomendações de produtores divergem.
