@@ -1142,3 +1142,11 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - R0 vigente 35% perlita/30% brita/25% macadâmia/10% pinus (65% mineral); R1 35/30/10/25; R2 25/20/15/40. Alternativas apenas hipóteses. **Alerta:** 25% macadâmia sem evidência específica; secagem excessiva possível se confundir drenagem com necessidade de desidratação.
 - Cultivo em vaso qualitativamente B; coerência de mistura drenante C conceitual, **composição R0 D, percentuais D, estrelas D**. Índice não calculado. Nenhuma alteração JS/assets.
 - Progresso: **9/149 matrizes documentadas**, **0/149 homologações quantitativas**. Próxima espécie oficial: Dendrobium spectabile.
+
+
+### MACS 1.1 — Matriz 010: Dendrobium spectabile (2026-11-03)
+- Criado `auditorias/MACS-1.1-MATRIZ-010-DENDROBIUM-SPECTABILE.md`, commit `79e4c706920602ba5924b3913ddac39618db4ba7`.
+- **Evidência brasileira específica:** Orquidário Santa Clara documenta cultivo em vaso com pinus e carvão triturado e pedrisco no fundo; não fornece percentuais. **1 produtor com ingredientes específicos; 0 com fórmula percentual**. Não transformar camada de pedrisco em ingrediente percentual.
+- AOS tem resposta **específica** sobre D. spectabile: espécie quente/intermediária, grande porte para floração e ligeira redução sazonal de água/temperatura, sem repouso severo. AOS Latouria, Orchids of New Guinea e Cambridge corroboram ecologia úmida e cultivo quente. Diferenciar floração de substrato.
+- R0 atual 35% macadâmia/30% pinus/20% perlita/15% carvão; R1 15/50/20/15; R2 0/60/20/20. Alternativas hipotéticas. **Alerta:** macadâmia 35% sem fonte específica; pinus/carvão qualitativamente B por produtor brasileiro, composição integral D, percentuais D, estrelas D. Não homologada quantitativamente.
+- **Segundo lote concluído: 10/149 matrizes MACS 1.1 documentadas; 0/149 homologações quantitativas.** JS/assets preservados. Próxima espécie oficial: Cattleya Pumpkin Festival (híbrido; pesquisar parentais e evitar inferir manejo de espécie botânica).
