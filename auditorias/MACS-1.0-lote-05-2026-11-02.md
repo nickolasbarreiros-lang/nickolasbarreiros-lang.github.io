@@ -6,7 +6,7 @@ Escopo: dez proximas fichas apos Maxillaria tenuifolia, na ordem do indice. Conf
 2. `brassavola-perrini.js` — passagem concluida
 3. `ornithophora-radicans.js` — passagem concluida
 4. `coelogyne-ovalis-var-miniatum.js` — passagem concluida
-5. `coelogyne-cristata.js` — pendente
+5. `coelogyne-cristata.js` — passagem concluida
 6. `bc-turandot-x-blc-orange-show-x-blc-chunyeah.js` — pendente
 7. `cattleya-schilleriana-x-cruzeiro-do-sul.js` — pendente
 8. `lc-trick-or-treat.js` — pendente
@@ -44,3 +44,11 @@ Ficha: placa/tronco e cachepo madeira 5 estrelas; barro e plastico vasado 4. Mis
 AOS https://www.aos.org/orchid-care/care-sheets/coelogyne-culture-sheet cita para genero casca de pinus/perlita 3:1 (75/25) como mistura comum, nao especificamente para C. ovalis; https://www.aos.org/orchid-care/orchid-care-and-culture-sheets/coelogyne-culture-sheet/coelogyne-culture observa montagem possivel com umidade alta e regas varias vezes ao dia em calor, e uso frequente de cestos/vasos rasos. Associacao espanhola https://orquiburjassot.org/cultivo-de-coelogyne/ cita C. ovalis como montavel se umidade elevada e mistura generica de 80% casca + 10% brita + 10% perlita, tambem nao experimento da especie. Nao extrapolar uma receita generica de Coelogyne para ‘Miniatum’ nao confirmado.
 
 Parecer: habito epifito, suporte amplo e mistura arejada plausiveis; receita 35/30/25/10 NAO HOMOLOGADA, estrelas nao validadas. Identidade do exemplar ainda incerta; manter rotulo com ressalva. Apenas notaEvidencia alterada na ficha, commit 71a22fb626b3371baf2955981a62fbeb95b168ba. Quatro produtores brasileiros com orientacoes especificas qualitativas localizados; meta de ate 25 nao atingida. Proxima ficha Coelogyne cristata.
+
+## Passagem 45 — Coelogyne cristata
+
+POWO https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A623828-1 aceita a especie e registra principalmente litofitismo, nativa do Himalaia a Bangladesh; AOS https://www.aos.org/orchid-care/orchid-care-and-culture-sheets/coelogyne-culture-sheet/coelogyne-culture registra habito epifito ou litofito e noites frias/repouso seco sazonal. RHS https://www.rhs.org.uk/plants/4112/coelogyne-cristata/details indica cestos ou vasos com composto epifitico, regas abundantes no verao e periodo seco no inverno. Relato https://www.illinoisorchidsociety.org/resource-articles-all/plant-of-the-month-coelogyne-cristata sugere falta de floracao se noites nunca caem abaixo de cerca de 16 C, evidencia observacional, nao limite universal experimental.
+
+Ficha: cachepo madeira 5 estrelas, barro e plastico vasado 4, placa 3; receita 35% chips coco medio + 30% pinus medio + 25% perlita grossa + 10% esfagno solto = 100%. PRODUTORES BRASILEIROS ESPECIFICOS: Orquidario Mogi Mirim https://www.orquidariomogimirim.com.br/coelogyne-cristata recomenda pinus medio, esfagno em proporcao relativamente elevada, carvao e opcional fibra de coco; Orquidario Maripa https://www.orquidariomaripa.com.br/produtos/orquidea-coelogyne-cristata-planta-adulta/ indica mistura de cascas/carvao/madeira/musgo; Orquidario Nha Mercedes https://www.sitionhamercedes.com.br/coelogyne-cristata recomenda pinus/carvao/esfagno, vasos suspensos ou troncos; Gracas Garden https://www.orquidarioggarden.com.br/adultas/orquideas/coelogyne-cristata cita casca, carvao, chips coco e esfagno. Nenhum publica porcentagens comparativas.
+
+AOS generica https://www.aos.org/orchid-care/care-sheets/coelogyne-culture-sheet menciona pinus/perlita 3:1, nao especifica para cristata. Formula atual qualitativamente compativel, mas 35/30/25/10 NAO HOMOLOGADA, estrelas nao validadas. Cultivo em clima quente pode manter planta vegetativa sem flores por ausencia de noites frias; substrato nao resolve isoladamente. Quatro produtores brasileiros com orientacao qualitativa, meta ate 25 nao atingida. Apenas notaEvidencia atualizada, commit 3d32b087c5784ef9d1393367876d4e9afc18fee7. Proxima ficha hibrido Bc. Turandot x Blc. Orange Show x Blc. Chunyeah.
