@@ -41,7 +41,7 @@ export const dichaeaCogniauxiana = {
         "🥈 Cachepô ou cesto pequeno e muito aerado, com substrato leve.",
         "🥉 Vaso pequeno e muito perfurado, evitando compactação e retenção excessiva de água."
     ],
-    substrato: ["🥇 Para cachepô ou vaso pequeno: 35% casca de macadâmia média + 30% fibra de coco grossa preparada + 25% perlita grossa + 10% esfagno de fibra longa solto (hipótese horticultural NÃO homologada para Dichaea cogniauxiana).", "🥈 Casca de pinus fina/média + chips de coco pequenos preparados + perlita grossa (alternativa qualitativa sem proporções homologadas).", "🥉 Casca de pinus média + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno de fibra longa solto (alternativa qualitativa sem percentuais específicos publicados)."],
+    substrato: ["Casca de pinus fina/média + chips de coco pequenos preparados + perlita grossa","Casca de pinus média + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno de fibra longa solto"],
     formasCultivo: {
         perfilVisual: "dichaea-epifita-umida",
         destaque: "Placa / tronco",
