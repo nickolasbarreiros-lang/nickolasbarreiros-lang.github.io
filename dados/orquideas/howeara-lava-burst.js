@@ -30,7 +30,7 @@ export const howearaLavaBurst = {
     adubacao: "🌿 Orgânica: bokashi em dose mínima e sempre afastado do coleto.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 7–15 dias enquanto houver raízes e brotos ativos.\n🧪 Liberação lenta: poucos grânulos apenas em vaso muito drenante.\n💦 Lavagem: uma vez por mês, passe água limpa em abundância pelo substrato para reduzir sais acumulados.",
     rega: "Regue quando a superfície começar a secar, mantendo umidade leve e regular sem deixar o miolo do vaso saturado. Os pseudobulbos pequenos guardam pouca água e não devem enrugar repetidamente. No inverno ou em períodos chuvosos, reduza apenas de acordo com a evaporação real.",
     suporte: "🥇 Vaso plástico pequeno e muito perfurado.\n🥈 Cachepô pequeno e bem ventilado.\n🥉 Vaso de barro pequeno em ambientes onde a secagem não seja rápida demais.",
-    substrato: ["🥇 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥈 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
+    substrato: ["🥇 Para vaso plástico pequeno e muito perfurado: casca de pinus média 35% + chips de coco 30% + perlita grossa 25% + carvão vegetal 10% (mistura visual provisória, não homologada).","🥈 Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto.","🥉 Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco."],
     formasCultivo: {
         perfilVisual: "hibrido-miniatura-raizes-finas",
         destaque: "Vaso plástico vasado",
@@ -46,7 +46,7 @@ export const howearaLavaBurst = {
         titulo: "Substrato ideal",
         contexto: "Mistura para vaso pequeno e muito perfurado",
         resumo: "Substrato médio e aberto, com umidade moderada e drenagem rápida, sem compactação ou seca prolongada.",
-        justificativa: "Os quatro componentes seguem a primeira mistura qualitativa já registrada na ficha. Percentuais são estimativas horticulturais ainda não homologadas pela MACS 1.0.",
+        justificativa: "A receita visual combina pinus médio, chips de coco, perlita grossa e carvão vegetal; a formulação exata foi acrescentada como primeira alternativa textual, preservando as duas misturas anteriores. O híbrido tem raízes finas e exige umidade regular com aeração, mas não há ensaio que valide os percentuais. Proposta horticultural ainda não homologada pela MACS 1.0.",
         receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
         perfil: ["Híbrido intergenérico", "Touceira compacta", "Raízes finas", "Umidade regular", "Floração recorrente"],
         comportamento: [
@@ -210,7 +210,7 @@ export const howearaLavaBurst = {
     },
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     "selosCultivo": {
-        "rega": { "nivel": "baixa", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: { cultivo: 4, floracao: 5, perfume: 1, luminosidade: 3, agua: 4, raridade: 2 }
