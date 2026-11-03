@@ -8,7 +8,7 @@ Escopo: dez fichas seguintes a Dryadella aviceps na ordem dos imports de `dados/
 4. `cattleya-aclandiae-tipo.js` — passagem concluida
 5. `cattleya-lueddemanniana-tipo.js` — passagem concluida
 6. `cattleya-walkeriana.js` — passagem concluida
-7. `cattleya-intermedia.js` — pendente
+7. `cattleya-intermedia.js` — passagem concluida
 8. `cattleya-leopoldii-dark-princess.js` — pendente
 9. `laelia-fournieri.js` — pendente
 10. `lockhartia-lunifera.js` — pendente
@@ -62,3 +62,11 @@ EVIDÊNCIA EXPERIMENTAL ESPECÍFICA: Sousa, A. P., 'Desenvolvimento de orquídea
 FICHA: placa/tronco 5 estrelas; cachepô madeira 5; mistura alternativa 45% macadâmia grossa + 30% perlita grossa + 25% carvão vegetal = 100%. FONTES BRASILEIRAS DE CULTIVO: Orquidário Santa Clara https://orquidariosantaclara.com.br/cattleyas-walkerianas/4804-cattleya-walkeriana-a15-x-helena-ad-.html descreve cruzamento intraespecífico em vaso com pinus, carvão triturado e pedrisco; sem percentuais. Jardineiro.net https://www.jardineiro.net/plantas/cattleya-walkeriana-gardner-1843.html (divulgação especializada, NÃO orquidário) recomenda caixeta com partes iguais de pinus, carvão e brita, e montagem em árvore viva; receita alternativa publicada, não ensaio. Não contar material de divulgação como produtor. Apenas um orquidário com orientação específica identificado nesta passagem, além de estudo acadêmico e publicação de divulgação; meta de 25 produtores não atingida.
 
 PARECER: suporte em madeira com respaldo técnico e experimental. Estudo IFPB indica que escolha do material influencia crescimento, mas não permite homologar fórmula 45/30/25 nem estrelas. Receita atual NÃO HOMOLOGADA; preservar percentuais e estrelas, apenas atualizar notaEvidencia. Commit da ficha bdc2148811d235a50e7fd87d1f1a8e6b1654ee5a. Próxima ficha Cattleya intermedia.
+
+## Passagem 57 — Cattleya intermedia
+
+FICHA: cachepô madeira principal (91/100), árvore viva 82/100, barro/plástico vasado 80/100, todos escores heurísticos; receita 30% macadâmia + 30% pinus + 25% perlita grossa + 15% carvão = 100%. Não há teste desta mistura em plantas adultas.
+
+ENSAIOS CIENTÍFICOS ESPECÍFICOS DA ESPÉCIE: (1) Lone et al. (2008), Acta Scientiarum Agronomy 30(4):465-469, DOI https://doi.org/10.4025/actasciagron.v30i4.5299 comparou xaxim, esfagno, casca de arroz carbonizada, pinus, fibra de coco e pinus+coco 1:1 em plântulas de C. intermedia durante dez meses. Fibra de coco e pinus+coco 1:1 foram alternativas promissoras na ACLIMATIZAÇÃO, não ensaio de plantas adultas. (2) Schnitzer et al. (2010), Acta Scientiarum Agronomy 32(1), DOI https://doi.org/10.4025/actasciagron.v32i1.714 avaliou plântulas de C. intermedia e Miltonia clowesii com misturas de pinus, fibra de coco, arroz carbonizado e carvão; T3 (partes iguais com carvão previamente tratado com extrato pirolenhoso) teve melhor desempenho. O tratamento químico experimental não deve ser generalizado como recomendação de manejo. (3) Dorneles e Trevelin, Iheringia Série Botânica https://isb.emnuvens.com.br/iheringia/article/view/47 relata sobrevivência de 53% em esfagno e 27% em pinus na aclimatização de plântulas, não em adultos. (4) Sorace et al. (2009) DOI https://doi.org/10.5433/1679-0359.2009v30n4p771 avaliou híbrido C. intermedia x Hadrolaelia purpurata, NÃO espécie pura, com melhor resultado em arroz carbonizado+pinus.
+
+PARECER: três fontes experimentais diretamente específicas à espécie demonstram alternativas com pinus, coco, arroz carbonizado e esfagno na fase juvenil, mas não homologam receita 30/30/25/15, especialmente macadâmia/perlita, nem os escores de suportes. Pesquisa exaustiva de 25 produtores brasileiros com receita específica não realizada nesta passagem; não alegar meta cumprida. Apenas notaEvidencia acrescentada em substratoVisual; receita, índices, fotos, assets e layout preservados. Commit da ficha dfde81386a4edbd4f5e1e7355106c47cdfa4bfa6. Próxima ficha Cattleya leopoldii Dark Princess.
