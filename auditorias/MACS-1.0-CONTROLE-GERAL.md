@@ -350,3 +350,10 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - **Evidência prévia no lote 05:** POWO considera B. perrinii sinônimo de B. tuberculata; AOS apoia montagem e secagem entre regas. Orquivitro cita pinus/placa; Orquidário Oriental recomenda mistura com 50–60% esfagno, divergente da fórmula visual. Nenhuma fonte homologa os percentuais 35/25/20/20.
 - **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
 - **Progresso:** 42/149 checagens; 40 fichas com correções efetivas (003–042); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 043 — Ornithophora radicans (Gomesa radicans).
+
+## Correção na mesma passagem — registro 043 (2026-11-03)
+- **Ficha 043 — Ornithophora radicans (= Gomesa radicans, nome aceito segundo POWO)** (`dados/orquideas/ornithophora-radicans.js`): cultivo principal placa/tronco; receita visual para cachepô ou vaso raso 35% pinus médio + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal = 100%.
+- **Correções efetivas:** mistura visual ausente das duas alternativas textuais; incluída como primeira opção provisória, preservadas as duas anteriores. Justificativa corrigida para não atribuir ingredientes da visual à primeira mistura antiga. Commit `1cc5317f62ab9a5dc604081ee78171de5a0d5e13`.
+- **Evidência prévia no lote 05:** POWO confirma nome Gomesa radicans e hábito epífito; Orquidário Oriental recomenda placa de madeira ou mistura de fibra de coco, pinus e carvão, sem percentuais. Canberra Orchid Society relata sucesso em cortiça/placa e alerta para excesso de água em vasos. Nenhuma fonte homologa os 25% de perlita nem a receita 35/30/25/10.
+- **Limites:** percentuais, itens visuais, fotos, assets, estrelas, IDC/IAR e layout preservados; homologação quantitativa pendente.
+- **Progresso:** 43/149 checagens; 41 fichas com correções efetivas (003–043); 0/149 homologações quantitativas comprovadas. **Próxima ficha:** 044 — Coelogyne ovalis 'Miniatum' (identificação varietal pendente).
