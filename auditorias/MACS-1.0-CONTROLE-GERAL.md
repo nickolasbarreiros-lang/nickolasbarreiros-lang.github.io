@@ -70,3 +70,12 @@ Este controle é um índice de progresso, não substitui os pareceres detalhados
 - **Cobertura brasileira quantitativa adicional nesta passagem:** 0 novas recomendações específicas verificadas. Não significa inexistência de produtores. Percentuais e estrelas **não homologados**.
 - **Parecer:** revisão técnica prioritária de coerência entre alternativas e receita, granulometria fina e retenção/tempo de secagem; nenhuma modificação de mistura ou layout autorizada por evidência atual.
 - **Próxima ficha:** 004 — Miltonia russelliana. **Progresso da segunda passagem:** 3/149 checagens registradas; 0/149 homologações quantitativas comprovadas.
+
+## Segunda passagem — registro 004 (2026-11-03)
+- **Ficha 004 — Miltonia russelliana** (`dados/orquideas/miltonia-russelliana.js`): receita visual e itens concordam: 35% pinus médio + 30% chips de coco + 25% perlita grossa + 10% carvão = 100%.
+- **Divergência de origem:** `substratoVisual.justificativa` afirma quantificar os quatro ingredientes da primeira mistura qualitativa, mas esta contém macadâmia + pinus + perlita + fibra de coco (sem carvão e com fibra de coco em vez de chips). A segunda contém pinus + perlita + argila expandida + esfagno; nenhuma corresponde à receita visual.
+- **Cultivo principal:** cachepô de madeira ventilado; a receita percentual refere-se a recipiente, não à montagem em placa.
+- **Granulometria:** pinus médio e perlita grossa exigem avaliação com raízes finas e dimensões do cachepô. AOS Miltonia Culture Sheet e AOS Miltonia, já citadas no lote 01, sustentam a necessidade de drenagem, recipientes proporcionais e granulometria adequada, mas não homologam as porcentagens.
+- **Cobertura adicional de produtores brasileiros com receitas específicas verificada nesta passagem:** 0 novas fontes; meta até 25 continua pendente. Não significa que não existam recomendações.
+- **Decisão:** inconsistência textual identificada e necessidade de validação da granulometria; manter receita, índices, estrelas e assets até haver evidência suficiente. **Não homologada quantitativamente**.
+- **Próxima ficha:** 005 — Promenaea xanthina. **Progresso:** 4/149 checagens registradas; 0/149 homologações quantitativas comprovadas.
