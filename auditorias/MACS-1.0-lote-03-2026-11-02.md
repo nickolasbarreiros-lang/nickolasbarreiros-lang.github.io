@@ -385,3 +385,17 @@ A busca direcionada identificou **quatro estabelecimentos brasileiros independen
 **Próxima ação recomendada:** localizar implementação/fórmula e faixas da metodologia IAR 2.0 no repositório; confirmar se o fator floração mede probabilidade de floração ou capacidade de manejo; então recalcular a nota de floração para litoral quente, índice e estrelas em um único commit consistente, se as fontes e a fórmula justificarem. Verificar também se a faixa climática do projeto representa noites persistentes acima de 15,6°C durante o repouso; não pressupor medição climática local.
 
 **Estado:** 1 divergência IAR potencial identificada e documentada; **0 índices modificados**, **0 receitas MACS homologadas**.
+
+## Décima sexta passagem — recálculo do IAR 2.0 de Dendrobium lindleyi
+
+**Metodologia original localizada e inspecionada:** `documentacao/indices/IAR-METODOLOGIA.js`, no próprio repositório. Escala 0–5 (0 incompatível, 1 muito pouco compatível, 2 pouco compatível, 3 intermediária, 4 muito compatível, 5 excelente). Pesos: habitat 30%, temperatura 30%, água/umidade 5%, ventilação 5%, luminosidade 5%, sazonalidade 5%, **probabilidade de floração regional 20%**. Fórmula `Σ[(nota/5)×peso]`. Faixa 61–80 = 4 estrelas.
+
+**Base da revisão:** University of Wisconsin–Madison Extension, https://hort.extension.wisc.edu/articles/dendrobium-lindleyi/ ; American Orchid Society, https://www.aos.org/orchids/articles/why-will-it-not-bloom-part-1-general-considerations ; RHS, https://www.rhs.org.uk/plants/402946/dendrobium-lindleyi/details . Referências associam indução floral a repouso mais seco e noites sazonalmente frescas; no clima quente com noites persistentes elevadas, crescimento vegetativo não implica floração. A nota 2/5 é **juízo técnico de compatibilidade regional** para esse cenário, não probabilidade medida em ensaio nem afirmação de impossibilidade absoluta.
+
+**Antes, litoral quente:** habitat 4/5 ×30 =24; temperatura 4/5 ×30 =24; água 3/5 ×5 =3; ventilação 4/5 ×5 =4; luz 4/5 ×5 =4; sazonalidade 3/5 ×5 =3; floração 4/5 ×20 =16. **Total 78/100, 4 estrelas.**
+
+**Depois, litoral quente:** fatores inalterados, exceto **floração 2/5 ×20 =8**. Total **70/100, 4 estrelas**. A floração regional passa de 'muito compatível' a 'pouco compatível'; a compatibilidade geral continua na faixa de quatro estrelas. **Montanha fria permanece 84/100, cinco estrelas, floração 5/5.** IDC 3.2 permanece 32/100.
+
+**Arquivo corrigido:** `dados/orquideas/dendrobium-aggregatum.js` — apenas `indiceAdaptacaoRegional.litoralQuente.fatores.floracao.nota` de 4 para 2 e `indiceAdaptacaoRegional.litoralQuente.indice` de 78 para 70. Commit `ba696a9a751988bb22488dd14ece0d7d5d9d79ed`.
+
+**Limitação importante:** o índice descreve cenário de clima quente e noites persistentemente quentes, **não previsão determinística** para cada microclima. Não foram alterados substratos MACS, recipientes, fotos, assets ou IDC. Se a exibição do site tiver cache ou índice derivado externo, conferir posteriormente se lê os dados da ficha atualizados.
