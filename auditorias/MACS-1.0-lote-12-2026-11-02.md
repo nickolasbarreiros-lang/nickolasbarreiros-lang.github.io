@@ -8,7 +8,7 @@ Escopo: primeira passagem documental de cultivo e substratos. Não alterar recei
 2. octomeria-micrantha.js — passagem concluída
 3. gongora-bufonia.js — passagem concluída
 4. pabstiella-trifida.js — passagem concluída
-5. laelia-lundii-alba.js — pendente
+5. laelia-lundii-alba.js — passagem concluída
 6. cattleya-chocolate-drop.js — pendente
 7. cattleya-a-brazilian-dream.js — pendente
 8. cattleya-violacea-f-suavissima-x-self.js — pendente
@@ -33,3 +33,8 @@ ECOLOGIA: epífita de florestas úmidas, hastes florais pendentes, exige cesto s
 ## Passagem 114 — Pabstiella trifida
 
 ECOLOGIA: miniatura sem pseudobulbos, raízes capilares e exigência de umidade/noites frescas; principal placa com esfagno mínimo. SUPORTES: placa/tronco 5 estrelas, cachepô madeira 4, barro e plástico vasado 3. RECEITA VISUAL alternativa para recipiente: 40% chips coco pequenos + 30% pinus fino + 30% perlita grossa = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa alega receita chips coco + perlita + pinus já existente, mas qualitativas são (1) esfagno + perlita adequada a miniaturas e (2) pinus fino + perlita adequada a miniaturas + esfagno. Nenhuma inclui chips coco; visual omite esfagno e especifica perlita grossa. Validar granulometria para raízes capilares, retenção e temperatura/secagem no calor. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 2a80be2d349b7a8b6997cbc66cabe31bdfb0adbd. Próxima ficha Laelia lundii alba.
+
+
+## Passagem 115 — Cattleya lundii f. alba
+
+ECOLOGIA: miniatura epífita/rupícola, touceira compacta, montagem principal em placa com secagem rápida. SUPORTES: placa/tronco 5 estrelas, cachepô madeira e barro 4, árvore viva 3. RECEITA VISUAL alternativa para recipiente: 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; texto e itens coerentes. DIVERGÊNCIA GRAVE: justificativa afirma quantificar primeira qualitativa (pinus + perlita + carvão + chips coco), mas visual omite chips coco e introduz macadâmia; segunda usa argila expandida sem perlita, terceira chips coco sem macadâmia. Nenhuma coincide. Validar granulometria, fixação e secagem em recipiente pequeno. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS. Alterada apenas notaEvidencia; demais campos preservados. Commit 09a6989435da351335f11fe82aa21cea8cb5122b. Próxima ficha Cattleya Chocolate Drop.
