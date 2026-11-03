@@ -40,7 +40,7 @@ export const coelogyneFlaccida = {
     "adubacao": "🌿 Orgânica: bokashi em pequena dose na borda do cesto no início da brotação.\n💧 Mineral/Foliar: NPK equilibrado bem diluído a cada 10–15 dias durante crescimento ativo.\n🌱 Formação dos pseudobulbos: mantenha nutrição leve até a maturação.\n🍂 Pós-maturação: reduza frequência e nitrogênio.\n🧪 Liberação lenta: dose baixa de Osmocote somente em vasos ou cestos muito drenantes.\n🚿 Lavagem: faça flushing regular para evitar acúmulo de sais.",
     "rega": "Durante a formação dos novos pseudobulbos, regue com frequência e deixe apenas a superfície secar levemente. Após a maturação, reduza moderadamente. No inverno, mantenha leve umidade sem deixar a mistura fria e saturada. Não permita desidratação severa dos pseudobulbos. Regue pela manhã e mantenha ventilação constante.",
     "suporte": "🥇 Cesto de madeira ou plástico vazado — favorece aeração e saída das hastes.\n🥈 Vaso largo e raso — oferece superfície e estabilidade sem excesso de substrato profundo.\n🥉 Placa grande — indicada somente em ambientes úmidos e frescos.\nMantenha o conjunto suspenso e com espaço vertical livre.",
-    "substrato": ["🥇 Pinus médio + chips de coco + perlita grossa + carvão vegetal miúdo.","🥈 Esfagno de fibra longa solto + perlita grossa + casca de pinus média.","🥉 Casca de macadâmia média + fibra de coco grossa + perlita grossa + pequena fração de esfagno solto."],
+    "substrato": ["🥇 Para cesto ou cachepô ventilado: chips de coco médios 35% + casca de pinus média 30% + perlita grossa 25% + esfagno picado e solto 10% (mistura visual provisória, não homologada).","🥈 Pinus médio + chips de coco + perlita grossa + carvão vegetal miúdo.","🥉 Esfagno de fibra longa solto + perlita grossa + casca de pinus média.","Alternativa adicional: casca de macadâmia média + fibra de coco grossa + perlita grossa + pequena fração de esfagno solto."],
     "formasCultivo": {
         "perfilVisual": "coelogyne",
         "destaque": "Cachepô de Madeira",
@@ -56,7 +56,7 @@ export const coelogyneFlaccida = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cachepô ou recipiente suspenso e ventilado",
         "resumo": "Mistura de umidade moderada, com partículas abertas e secagem controlada, sem saturação prolongada no inverno.",
-        "justificativa": "A composição mantém os quatro materiais da primeira mistura descrita na ficha. Percentuais são uma proposta horticultural de visualização, ainda sem homologação MACS 1.0.",
+        "justificativa": "A receita visual combina chips de coco médios, casca de pinus média, perlita grossa e esfagno picado e solto; essa formulação exata foi acrescentada como primeira alternativa textual, preservando as três misturas anteriores. A orientação específica do Orquidário Mogi Mirim confirma substrato poroso e regas ajustadas à estação, mas não valida os percentuais. Proposta horticultural ainda sem homologação MACS 1.0.",
         "receitaTexto": "35% chips de coco médios + 30% casca de pinus média + 25% perlita grossa + 10% esfagno picado e solto.",
         "perfil": ["Raízes epífitas", "Umidade equilibrada", "Aeração alta", "Clima fresco", "Hastes florais pendentes"],
         "comportamento": [
