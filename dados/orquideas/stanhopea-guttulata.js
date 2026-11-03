@@ -40,7 +40,7 @@ export const stanhopeaGuttulata = {
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade apenas na borda da cesta.\n💧 Mineral/Foliar: NPK equilibrado em 1/3 a 1/2 da dose a cada 10–15 dias durante brotação e enchimento dos pseudobulbos.\n🌱 Crescimento: mantenha nutrição regular até a maturação completa.\n🧪 Liberação lenta: Osmocote em dose moderada, longe de brotos e raízes novas.\n🚿 Lavagem: faça rega abundante apenas com água periodicamente para retirar sais.",
     "rega": "Durante brotação e crescimento, mantenha o substrato constantemente levemente úmido, porém poroso. Não permita ressecamento completo por longos períodos, pois isso enruga pseudobulbos e reduz a força das novas frentes. Após a maturação, reduza apenas discretamente. Regue pela manhã e evite que folhas, brotos e flores permaneçam molhados em noites abafadas.",
     "suporte": "🥇 Cesta de madeira suspensa e muito vazada — ideal para a passagem das hastes.\n🥈 Cachepô de ripas com fundo aberto — excelente ventilação.\n🥉 Cesto aramado ou plástico totalmente perfurado — funcional se não houver barreiras inferiores.\nCentralize a touceira e mantenha o fundo completamente livre.",
-    "substrato": "🥇 Casca de pinus média + fibra de coco grossa + perlita grossa + carvão vegetal.\n🥈 Casca de macadâmia média + chips de coco + perlita grossa + pequena fração de esfagno solto.",
+    "substrato": "🥇 Receita visual provisória para cesta suspensa: chips de coco grossos 40% + casca de pinus média 30% + perlita grossa 20% + esfagno de fibra longa solto 10% (100%; não homologada).\n🥈 Casca de pinus média + fibra de coco grossa + perlita grossa + carvão vegetal.\n🥉 Casca de macadâmia média + chips de coco + perlita grossa + pequena fração de esfagno solto.",
     formasCultivo: {
         perfilVisual: "stanhopea-guttulata-epifita-hastes-descendentes",
         destaque: "Cachepô de Madeira",
@@ -55,7 +55,7 @@ export const stanhopeaGuttulata = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para cesta suspensa com fundo desobstruído",
         resumo: "Partículas grossas e pequena fração de esfagno solto oferecem umidade durante o crescimento, sem impedir a passagem das hastes descendentes.",
-        justificativa: "A receita quantifica os quatro componentes da primeira mistura qualitativa registrada na ficha. Percentuais horticulturais estimados e ainda não homologados pela MACS 1.0.",
+        justificativa: "A receita visual combina chips de coco grossos, pinus médio, perlita grossa e esfagno de fibra longa solto. A primeira mistura qualitativa antiga contém fibra de coco grossa e carvão, sem chips de coco nem esfagno; a segunda contém macadâmia e chips de coco, sem pinus. Nenhuma corresponde integralmente à composição visual. A fórmula foi incluída como primeira alternativa provisória, preservando as duas receitas anteriores. Em Stanhopea, a mistura deve permanecer solta e o fundo da cesta totalmente aberto para não bloquear as hastes descendentes. Os percentuais não foram validados comparativamente e permanecem não homologados pela MACS 1.0.",
         receitaTexto: "40% chips de coco grossos + 30% casca de pinus média + 20% perlita grossa + 10% esfagno de fibra longa solto.",
         perfil: ["Epífita de porte médio a grande", "Hastes descendentes", "Cesto suspenso", "Umidade regular", "Fundo livre"],
         comportamento: [
