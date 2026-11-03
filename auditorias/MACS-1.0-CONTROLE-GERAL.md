@@ -672,3 +672,9 @@ A partir de agora: auditar → corrigir divergências comprovadas na ficha → v
 - Justificativa corrigida: não existe segunda receita qualitativa nem duplicação de granulometrias de perlita; a receita anterior não contém chips de coco e não corresponde à visual. Reforçada separação entre mistura volumétrica de recipiente e montagem principal em placa com esfagno fino/solto junto às raízes. Espécie sem pseudobulbos, sensível à seca; observar retenção sem encharcamento. Commit ficha: cf1d7054935d35b5a03101338e98beb596a91423.
 - Suportes/estrelas, fotos/assets, IDC/IAR e layout preservados. Percentuais e estrelas NÃO HOMOLOGADOS; meta de 25 produtores específicos não atingida.
 - Progresso: 91/149 checagens; 89 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 092 — Dichaea cogniauxiana.
+
+## Registro 092 — Dichaea cogniauxiana (2026-11-03)
+- Receita visual/`receitaTexto` mantidos: 35% macadâmia média + 30% fibra de coco grossa + 25% perlita grossa + 10% esfagno solto = 100%; quatro itens concordavam. Receita visual incluída como primeira alternativa textual para cachepô/vaso pequeno; duas receitas anteriores preservadas.
+- Justificativa corrigida: a primeira alternativa antiga contém pinus fino/médio e chips de coco; a segunda pinus, perlita, carvão e esfagno. Nenhuma contém macadâmia ou fibra de coco grossa; não existe duplicação de granulometria de perlita. Reforçada distinção entre mistura volumétrica para recipiente e montagem em placa com esfagno leve junto às raízes. Raízes delicadas: evitar compactação, encharcamento e secagem prolongada. Commit ficha: 529bcbd8e951b9c11ade170a45a3e1a5a2ed70bf.
+- Suportes/estrelas, fotos/assets, IDC/IAR e layout preservados. Percentuais e estrelas NÃO HOMOLOGADOS; meta 25 produtores específicos não atingida.
+- Progresso: 92/149 checagens; 90 fichas com correções efetivas; 0 homologações quantitativas comprovadas. Próxima ficha: 093 — Promenaea guttata.
