@@ -54,7 +54,7 @@ export const cattleyaSchilleriana = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta técnica para cachepô pequeno e muito ventilado",
         "resumo": "Mistura de granulometria média a grossa para sustentar a planta sem manter as raízes continuamente molhadas.",
-        "justificativa": "A composição visual apresenta uma mistura-base provisória para cachepô pequeno e ventilado, agora explicitada também entre as alternativas textuais. As demais alternativas diferem nos materiais e continuam válidas como opções não homologadas. Os percentuais são uma proposta técnica, não resultados de ensaio comparativo ou homologação MACS 1.0.",
+        "justificativa": "Cattleya schilleriana se beneficia de raízes bem ventiladas e de secagem perceptível entre regas. Em cachepô pequeno e aberto, as cascas de macadâmia e pinus oferecem apoio, enquanto a perlita e o carvão mantêm a mistura drenante. Evite compactação e observe a secagem do recipiente, sobretudo durante a emissão de raízes novas.",
         "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         "perfil": ["Raízes epífitas sensíveis", "Aeração alta", "Secagem rápida", "Fixação firme do rizoma", "Baixa compactação"],
         "comportamento": [
