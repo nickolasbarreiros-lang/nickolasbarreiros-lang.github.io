@@ -224,3 +224,8 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - **Risco científico MACS:** o rótulo `status: "Ideal"` do suporte `Placa / tronco` expressa preferência editorial, **não** superioridade demonstrada por ensaio comparativo para esta espécie. As estrelas estão nulas e a receita 35/30/20/15 permanece sem homologação quantitativa. Não confundir status qualitativo com homologação estatística.
 - **Risco de confiança:** `revisaoCientificaIAR.confianca: "alta"` não pode ser interpretado como confiança alta na receita MACS; a confiança botânica e a confiança agronômica precisam ser reportadas separadamente.
 - **Próxima condição de fechamento:** registros diretos da espécie em cultivo com suporte, granulometria, mistura, clima e fonte rastreável; na ausência desses registros, manter Classe D e não declarar ficha integralmente homologada.
+
+### Correção do status do suporte principal — ficha 1 (2026-11-04)
+- O método **Placa / tronco** estava marcado `status: "Ideal"` apesar da ausência de estudo comparativo específico para a espécie. O status passou a **`Preferencial (provisório)`**; a recomendação prática permanece, mas não equivale a homologação.
+- A nota de evidência exibida na própria ficha recebeu referências botânicas rastreáveis (POWO/Kew e revisão taxonômica de Santos et al., 2019) e ressalva explícita de que essas fontes **não validam** os percentuais da mistura nem a superioridade de qualquer suporte.
+- Permanecem **Classe D**, estrelas nulas e receita inalterada. Próxima exigência: evidências diretas de cultivo da espécie e metodologia quantitativa replicável; não promover classificação por analogia com espécies aparentadas.
