@@ -56,7 +56,7 @@ export const coelogyneAsperata = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para recipiente largo, estável e drenante",
         "resumo": "Mistura de umidade moderada a alta, mas aberta, para sustentar pseudobulbos volumosos sem secar completamente no crescimento.",
-        "justificativa": "A receita visual reúne chips de coco médios, casca de pinus média, perlita grossa e esfagno picado e solto. A receita visual e a textual coincidem; há duas alternativas qualitativas distintas. A formulação é hipótese técnica, não resultado de ensaio da espécie. A AOS publica para o gênero uma mistura de casca de abeto e perlita em 3:1, mas ela NÃO fundamenta os percentuais aqui usados.",
+        "justificativa": "Coelogyne asperata se beneficia de umidade regular durante o crescimento, sem perder a ventilação das raízes. Os chips de coco e a casca de pinus oferecem apoio e retenção moderada, a perlita mantém espaços de ar e o esfagno solto conserva uma pequena reserva de umidade. Evite compactação e observe a secagem no centro do vaso para ajustar as regas.",
         "receitaTexto": "35% chips de coco médios + 30% casca de pinus média + 25% perlita grossa + 10% esfagno de fibra longa solto.",
         "perfil": ["Raízes epífitas", "Touceira grande e pesada", "Umidade contínua sem encharcamento", "Aeração alta", "Sem repouso seco rigoroso"],
         "comportamento": [
