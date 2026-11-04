@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 146 — Cattleya Pumpkin Festival
-Data: 2026-11-04. **EM ANDAMENTO**. Não avançar à matriz 147 até encerramento técnico.
+Data: 2026-11-04. **ENCERRADA TECNICAMENTE — classe científica D, não homologada quantitativamente.**
 
 ## Identificação e evidência
 Cattleya Pumpkin Festival é híbrido horticultural, sem habitat natural próprio. A ficha já continha parecer MACS 1.0 com cinco empresas/estudos distintos, incluindo estudo UNESP sobre GA3 no híbrido (não ensaio de suportes/substratos). Isso **não comprova** superioridade quantitativa de misturas ou suportes.
@@ -26,11 +26,18 @@ A matriz `auditorias/MACS-1.1-MATRIZ-011-CATTLEYA-PUMPKIN-FESTIVAL.md` trata do 
 ## Classificação científica
 **D — NÃO HOMOLOGADA quantitativamente.** Sem ensaio comparativo específico de suportes/receitas nem amostra documentada de 25 produtores brasileiros independentes; percentuais são proposta horticultural provisória.
 
-Pendente teste Chromium desktop/mobile, capturas e encerramento técnico.
+Teste Chromium desktop/mobile aprovado na execução #11; documentação do encerramento técnico ao final deste relatório.
 
 ## Critérios objetivos de encerramento técnico — 2026-11-04
 - **Ficha e receita:** módulo JavaScript sintaticamente válido; mistura principal 45/25/20/10 = 100%; duas alternativas qualitativas sem percentuais; classificação científica D explícita. Conferência estática concluída.
-- **Renderização:** workflow `.github/workflows/conferir-visual-macs-146.yml` preparado para testar Chromium desktop (1465 × 900) e celular (390 × 844), quatro fotos, imagens da ficha, proporções, alternativas, overflow horizontal e erros JavaScript. A sintaxe do script foi conferida, **mas ainda não há resultado de execução verificável** disponível nesta auditoria.
-- **Comprovação necessária:** execução GitHub Actions da matriz 146 com conclusão `success` e artefato `macs-146-inspecao-visual` contendo capturas desktop/mobile. Sem esse resultado, **não declarar inspeção visual aprovada**.
+- **Renderização:** workflow `.github/workflows/conferir-visual-macs-146.yml` preparado para testar Chromium desktop (1465 × 900) e celular (390 × 844), quatro fotos, imagens da ficha, proporções, alternativas, overflow horizontal e erros JavaScript. A sintaxe do script foi conferida, **execução #11 aprovada, conforme evidência da captura do GitHub Actions**.
+- **Comprovação necessária:** execução GitHub Actions da matriz 146 com conclusão `success` e artefato `macs-146-inspecao-visual` contendo capturas desktop/mobile. Execução #11 concluída com sucesso; conteúdo do artefato de screenshots não inspecionado diretamente.
 - **Ciência:** classe D permanece **não homologada quantitativamente**, mesmo após eventual sucesso técnico. A falta de ensaio comparativo ou dados independentes de produtores não deve ser mascarada por uma aprovação de interface.
 - **Regra de progressão:** manter matriz 147 bloqueada até evidência do teste visual bem-sucedido e decisão explícita sobre aceitar a ficha como tecnicamente encerrada **com ressalva científica D**, ou exigir homologação quantitativa antes de avançar.
+
+## Encerramento técnico comprovado — 2026-11-04
+**Status: ENCERRADA TECNICAMENTE, COM RESSALVA CIENTÍFICA D.** A captura do GitHub Actions fornecida pelo usuário confirma a execução **Conferência visual MACS 1.1 — matriz 146 #11** com conclusão **success** (indicador verde), no commit `ecb312fc14e270b1262eb26a4191b73956257539`, após a exclusão apenas da imagem vazia do lightbox fechado. A validação geral **Validar Orquidário Digital #2122** também aparece aprovada no mesmo commit.
+
+O workflow aprovado inclui inspeção Chromium em desktop e celular, carregamento de imagens exceto o elemento inativo `#foto-ampliada-v2`, quatro fotografias, mistura principal 45/25/20/10, exatamente duas alternativas qualitativas sem percentuais, ausência de erros JavaScript e controle de overflow horizontal. O resultado **success** confirma que as verificações automatizadas do workflow foram superadas. **Não foi conferido diretamente o conteúdo do artefato de screenshots nesta etapa**; a captura da lista de execuções comprova o resultado, não a inspeção humana das imagens.
+
+**Ciência preservada:** classe **D — NÃO HOMOLOGADA quantitativamente**. A aprovação técnica não comprova experimentalmente os percentuais da receita nem superioridade de suportes. Encerramento aqui significa conclusão técnica com ressalva explícita, não promoção para classe A/B/C. A progressão para a matriz 147 pode ocorrer **somente se o protocolo admitir encerramento técnico com classe D documentada**; caso exija homologação quantitativa, a pendência científica continua bloqueante.
