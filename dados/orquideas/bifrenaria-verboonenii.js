@@ -57,8 +57,8 @@ export const bifrenariaVerboonenii = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura muito aberta, predominantemente mineral e estrutural, pensada para secar rapidamente sem perder estabilidade.",
-        justificativa: "O tratamento taxonômico atual inclui Bifrenaria verboonenii em Bifrenaria tyrianthina, registrada no Brasil principalmente como rupícola em campos rupestres e afloramentos rochosos. A mistura prioriza oxigenação, drenagem e estabilidade estrutural ao longo do tempo.",
-        receitaTexto: "Mistura-base sugerida: 40% brita pequena/média + 25% casca de macadâmia média + 20% carvão vegetal médio + 15% casca de pinus média. Composição técnica provisória para recipiente, sem esfagno; ajustar a rega à secagem observada.",
+        justificativa: "Esta bifrenária, associada a ambientes rochosos, se beneficia de raízes bem ventiladas e drenagem rápida. A brita oferece estabilidade e espaços de ar, a casca de macadâmia mantém a estrutura, o carvão ajuda na aeração e a menor fração de pinus retém um pouco de umidade. Use recipiente firme e observe a secagem antes de regar novamente.",
+        receitaTexto: "Mistura para recipiente: 40% brita pequena/média + 25% casca de macadâmia média + 20% carvão vegetal médio + 15% casca de pinus média. Mistura para recipiente, sem esfagno; ajustar a rega à secagem observada.",
         perfil: ["Raízes robustas", "Aeração máxima", "Baixa retenção", "Secagem muito rápida", "Alta estabilidade", "Baixa compactação"],
         comportamento: {
             retencao: 1,
