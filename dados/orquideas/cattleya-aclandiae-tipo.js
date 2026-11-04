@@ -40,11 +40,11 @@ export const cattleyaAclandiaeTipo = {
     substrato: ["Casca de pinus grossa + brita fina + carvão vegetal","Casca de pinus grossa + carvão vegetal + perlita grossa"],
     formasCultivo: {
     "perfilVisual": "cattleya",
-    "destaque": "Cachepô de madeira",
+    "destaque": "Cachepô de Madeira",
     "resumo": "O MACS 1.0 prioriza cesto de madeira aberto (91/100), seguido de placa/tronco (86/100); ambas exigem regas ajustadas à secagem.",
     "metodos": [
         {
-            "nome": "Cachepô de madeira",
+            "nome": "Cachepô de Madeira",
             "asset": "cesto-madeira",
             "estrelas": null,
             "status": "Mais indicada na ficha",
@@ -58,7 +58,7 @@ export const cattleyaAclandiaeTipo = {
             "texto": "A cortiça ou madeira rugosa permite aderência e secagem rápida das raízes; exige regas mais frequentes no calor."
         },
         {
-            "nome": "Vaso de barro",
+            "nome": "Vaso de Barro",
             "asset": "vaso-barro",
             "estrelas": null,
             "status": "Alternativa",
