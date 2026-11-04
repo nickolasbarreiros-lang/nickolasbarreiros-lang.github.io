@@ -6,14 +6,14 @@ export const isabeliaVirginalis = {
     genero: "Isabelia",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
-    caracteristicas: ["Miniatura brasileira", "Hábito rastejante", "Bainhas fibrosas", "Folhas finas como agulhas", "Flores delicadas"],
+    caracteristicas: ["Miniatura brasileira", "Hábito rastejante", "Bainhas fibrosas", "Folhas finas como agulhas", "Flores claras com labelo branco"],
     fotos: [
         "imagens/Isabelia virginalis/Isabelia virginalis1.jpg",
         "imagens/Isabelia virginalis/Isabelia virginalis2.webp",
         "imagens/Isabelia virginalis/Isabelia virginalis3.webp",
         "imagens/Isabelia virginalis/Isabelia virginalis4.jpeg"
     ],
-    descricao: "Uma pequena joia da Mata Atlântica! Isabelia virginalis forma colônias rastejantes de pseudobulbos minúsculos envolvidos por uma trama de fibras esbranquiçadas que lembra uma renda natural. De cada pseudobulbo surge uma folha fina como agulha e, no período de floração, uma ou duas flores rosadas, cerosas e duráveis de cerca de 1 cm. Essas fibras não são material velho para ser limpo: fazem parte da própria arquitetura da planta. Seu nome de gênero homenageia a Princesa Isabel, e a espécie é nativa do Sul e Sudeste do Brasil, avançando até Paraguai e Misiones, na Argentina.",
+    descricao: "Isabelia virginalis é uma miniatura de crescimento rastejante que forma delicados tapetes de pseudobulbos minúsculos. Cada pseudobulbo é envolvido por bainhas de fibras entrelaçadas, semelhantes a uma pequena cesta, e sustenta uma folha fina como agulha. As flores solitárias ou em pares são discretas, geralmente branco-creme a róseo-claras, com labelo branco, medindo cerca de um centímetro. Essa arquitetura singular permite reconhecer a planta mesmo fora da floração. Nativa de florestas da Mata Atlântica e regiões vizinhas da América do Sul, cresce sobre árvores e rochas, formando colônias de aparência rendada.",
     origem: "América do Sul",
     regiao: "Sul e Sudeste do Brasil · Paraguai · Argentina (Misiones)",
     habitat: "Epífita ou rupícola · ambientes sazonais claros.",
@@ -21,9 +21,9 @@ export const isabeliaVirginalis = {
     climaFloracao: "A espécie ocorre tanto sobre árvores quanto sobre rochas e aparece associada a ambientes tropicais sazonalmente secos, mas isso não significa repouso árido. Seu crescimento rastejante e as raízes pequenas funcionam melhor com ciclos rápidos de molhamento e secagem. No litoral quente, o excesso de esfagno e a pouca ventilação são mais perigosos do que a temperatura em si. No período mais frio, basta aumentar naturalmente o intervalo das regas conforme a evaporação.",
     iluminacao: {
         sombrite: "40% a 60%",
-        solDireto: "Permitido com restrição",
-        horario: "Início da manhã ou final da tarde",
-        observacoes: "Tolera luz relativamente alta quando bem ventilada. Folhas muito escuras e touceira frouxa indicam falta de luz; amarelecimento intenso ou pontas secas indicam excesso de sol ou desidratação."
+        solDireto: "Não permitido",
+        horario: "Não permitido",
+        observacoes: "Prefere luz indireta intensa, sem sol direto sobre a folhagem delicada. Folhas muito escuras e touceira frouxa indicam falta de luz; amarelecimento intenso ou pontas secas indicam excesso de sol ou desidratação."
     },
     floracao: "Predomina do fim do outono ao inverno. As flores são pequenas, cerosas, de aproximadamente 1 cm e podem surgir isoladas ou em pares sobre pseudobulbos maduros.",
     adubacao: "🌿 Orgânica: bokashi em quantidade mínima dentro de porta-adubo, sem contato com a touceira.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: somente poucos grânulos em cesto ou vaso raso e muito drenante.\n💦 Lavagem: passe água limpa pelo suporte periodicamente para evitar acúmulo de sais nas raízes finas.",
@@ -45,7 +45,7 @@ export const isabeliaVirginalis = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal sem substrato retentivo; receita alternativa para cachepô muito raso",
         resumo: "A primeira opção é a fixação direta em cortiça ou madeira durável. Em cesto, usar componentes muito grossos e secagem rápida.",
-        justificativa: "O cultivo principal é a fixação direta em placa ou tronco durável, sem mistura volumétrica; o rizoma rastejante e as bainhas fibrosas permanecem expostos. A receita quantitativa visual destina-se somente a cesto muito raso e contém chips de coco muito grossos preparados, argila expandida e carvão. As duas alternativas qualitativas são diferentes da principal e não representam adaptações quantitativamente validadas. Conferir se os chips conservam umidade excessiva e se o cesto oferece estabilidade sem soterrar a colônia. MACS 1.1: proporções provisórias sem homologação específica",
+        justificativa: "O cultivo principal é a fixação direta em placa ou tronco durável, sem mistura volumétrica, coerente com a recomendação de cultivo da AOS e de orquidários brasileiros; o rizoma rastejante e as bainhas fibrosas permanecem expostos. A receita quantitativa visual destina-se somente a cesto muito raso e contém chips de coco muito grossos preparados, argila expandida e carvão. As duas alternativas qualitativas são diferentes da principal e não representam adaptações quantitativamente validadas. Conferir se os chips conservam umidade excessiva e se o cesto oferece estabilidade sem soterrar a colônia. MACS 1.1: proporções provisórias sem homologação específica",
         receitaTexto: "45% chips de coco muito grossos preparados + 35% argila expandida + 20% carvão vegetal.",
         perfil: ["Miniatura rastejante", "Bainhas fibrosas", "Rizoma exposto", "Raízes superficiais", "Secagem rápida"],
         comportamento: [
@@ -57,21 +57,21 @@ export const isabeliaVirginalis = {
         itens: [
             { asset: "chips-coco", nome: "Chips de coco muito grossos preparados", proporcao: "45%", nota: "estrutura", finalidade: "Oferecem apoio aberto sem cobrir o rizoma." },
             { asset: "argila-expandida", nome: "Argila expandida", proporcao: "35%", nota: "drenagem", finalidade: "Mantém vazios amplos e favorece secagem rápida." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração", finalidade: "Complementa a porosidade e evita massa compacta." }
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração", finalidade: "Complementa a porosidade e evita massa compacta." }
         ],
         alerta: "Não retirar as bainhas fibrosas nem enterrar o rizoma. Evitar esfagno compactado, vaso profundo, sombra excessiva e longos períodos de encharcamento ou seca.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Isabelia virginalis, miniatura epífita/rupícola rastejante, rizoma e bainhas fibrosas expostos, raízes superficiais e secagem rápida. Suportes placa/tronco 5 estrelas, cachepô madeira 4, barro e plástico vasado 2; notas horticulturais não homologadas. Montagem principal sem substrato retentivo é coerente com suporte, mas NÃO é a primeira receita qualitativa do campo substrato. Receita visual alternativa para cesto raso: 45% chips coco muito grossos + 35% argila expandida + 20% carvão = 100%; receitaTexto e itens concordam. A receita visual para cesto raso coincide com a descrição textual; as duas alternativas qualitativas são distintas e não equivalem à principal. Verificar se 45% chips coco conserva umidade excessiva e se argila expandida mantém estabilidade para rizoma exposto; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Isabelia virginalis, miniatura epífita/rupícola rastejante, rizoma e bainhas fibrosas expostos, raízes superficiais e secagem rápida. Suportes placa/tronco 5 estrelas, cachepô madeira 4, barro e plástico vasado 2; notas horticulturais não homologadas. Montagem principal sem substrato retentivo é coerente com suporte, mas NÃO é a primeira receita qualitativa do campo substrato. Receita visual alternativa para cesto raso: 45% chips coco muito grossos + 35% argila expandida + 20% carvão = 100%; receitaTexto e itens concordam. A receita visual para cesto raso coincide com a descrição textual; as duas alternativas qualitativas são distintas e não equivalem à principal. Verificar se 45% chips coco conserva umidade excessiva e se argila expandida mantém estabilidade para rizoma exposto; meta até 25 produtores brasileiros específicos não atingida. POWO aceita Isabelia virginalis, epífita ou rupícola do Sul e Sudeste do Brasil até Paraguai e Argentina. Flora do Brasil 2020 descreve pseudobulbos com bainhas reticuladas, folhas aciculares e flores branco-creme com labelo branco; estudo brasileiro na Rodriguésia registra flores róseo-claras com labelo alvo. AOS recomenda placas e ramos de madeira, sem ensaio quantitativo. Orquidários Matsuoka e Hang recomendam montagem em madeira, enquanto Aniela cita 70% de sombreamento, sem percentuais de substrato. Três produtores brasileiros qualitativos específicos e zero receitas quantitativas confirmadas nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: "Remover as bainhas fibrosas; enterrar o rizoma; compactar esfagno ao redor da planta; cultivar em sombra profunda; manter a colônia permanentemente molhada; deixar secar por muitos dias; usar vaso grande e profundo; adubar forte; dividir em pedaços pequenos; manter ambiente abafado.",
     dica: "Preserve a colônia inteira e deixe-a caminhar pelo suporte. Quanto menos você interfere na trama fibrosa e no rizoma rastejante, melhor. Uma placa durável, boa luz e ciclos rápidos de molhamento e secagem produzem uma touceira muito mais bonita do que o cultivo apertado em vaso convencional.",
     revisaoCientificaIAR: {
         "nome": "Isabelia virginalis",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma pequena joia da Mata Atlântica! Isabelia virginalis forma colônias rastejantes de pseudobulbos minúsculos envolvidos por uma trama de fibras esbranquiçadas que lembra uma renda natural. De cada pseudobulbo surge uma folha fina como agulha e, no período de floração, uma ou duas flores rosadas, cerosas e duráveis de cerca de 1 cm. Essas fibras não são material velho para ser ",
+        "statusTaxonomico": "Isabelia virginalis Barb.Rodr. (1877), espécie aceita em POWO; não endêmica do Brasil.",
+        "sinonimosPrincipais": "Sem sinônimo principal necessário para a apresentação; nome aceito em POWO.",
+        "morfologiaDimensoes": "Rizoma rastejante, pseudobulbos ovoides unifoliados cobertos por bainhas fibrosas reticuladas; folhas aciculares; inflorescências com uma ou duas flores branco-creme a róseo-claras e labelo branco, cerca de 1 cm (Flora do Brasil 2020, Rodriguésia, IOSPE).",
         "habitatAltitudeClima": "Epífita ou rupícola · ambientes sazonais claros. | Intermediário · ventilado, com secagem rápida.",
         "distribuicaoGeografica": "Sul e Sudeste do Brasil · Misiones.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "cultivoPremiacao": "AOS e orquidários Matsuoka e Hang indicam cultivo montado em madeira; Orquidário Aniela informa 70% de sombreamento; sem receita quantitativa específica validada.",
         "confianca": "alta",
         "fontes": [
             "POWO/Kew",
