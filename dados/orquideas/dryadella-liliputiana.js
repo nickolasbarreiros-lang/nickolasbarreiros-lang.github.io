@@ -56,7 +56,7 @@ export const dryadellaLiliputiana = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal com fina camada de esfagno; proposta para vaso miniatura ou cachepô",
         resumo: "Em vaso raso, pinus fino, carvão pequeno e esfagno solto em partes iguais; manter umidade sem saturar raízes delicadas.",
-        justificativa: "Placa/tronco continua preferencial, com pouco esfagno sob as raízes. Para vaso miniatura raso, o blog de cultivo Orquídeas Encanto e Paixão publicou mistura de partes iguais de pinus, carvão e esfagno especificamente para Dryadella lilliputiana. A proporção volumétrica 1:1:1 equivale a aproximadamente 33,3% por componente; é orientação publicada em blog de cultivo, NÃO homologação experimental. A mistura anterior com 35% de perlita não tinha evidência quantitativa específica.",
+        justificativa: "Dryadella lilliputiana pode ser montada em placa ou tronco com uma pequena quantidade de esfagno sob as raízes, desde que receba umidade frequente e boa ventilação. Em vaso miniatura raso, a casca de pinus fina oferece apoio, o carvão vegetal pequeno favorece a aeração e o esfagno solto conserva umidade. Evite compactação e não deixe a mistura permanecer saturada.",
         receitaTexto: "Partes iguais (1:1:1 em volume): 33,3% casca de pinus fina + 33,3% carvão vegetal pequeno + 33,4% esfagno de fibra longa solto (arredondamento para totalizar 100%).",
         perfil: ["Micro-orquídea montana", "Sem pseudobulbos", "Raízes delicadas", "Umidade frequente", "Noites amenas"],
         comportamento: [
