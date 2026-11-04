@@ -57,8 +57,8 @@ export const laeliaSplendida = {
         titulo: "Substrato ideal",
         contexto: "Mistura grosseira para cachepô de madeira bem ventilado",
         resumo: "Componentes médios e grossos para sustentação, boa drenagem e secagem perceptível entre regas.",
-        justificativa: "Laelia splendida (sin. Schomburgkia splendida) é epífita ou rupícola robusta, de hastes florais longas, que precisa de alta luminosidade com aclimatação, suporte estável e raízes arejadas. Para cachepô de madeira bem vazado, a receita visual propõe macadâmia média, pinus médio, perlita grossa compatível com o cesto e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não fundamentam os percentuais visuais. Manter secagem perceptível entre regas e espaço para as novas frentes de crescimento. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
-        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa compatível com o cesto + 15% carvão vegetal médio (proposta não homologada).",
+        justificativa: "Laelia splendida (sin. Schomburgkia splendida) é uma orquídea robusta, epífita ou rupícola, que precisa de alta luminosidade após aclimatação, suporte firme e raízes arejadas. No cachepô de madeira bem vazado, as cascas de macadâmia e pinus sustentam a planta; a perlita e o carvão mantêm a mistura aberta e drenante. Deixe o substrato secar perceptivelmente entre regas e reserve espaço para as novas frentes de crescimento.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa compatível com o cesto + 15% carvão vegetal médio.",
         perfil: ["Epífita ou rupícola", "Pseudobulbos robustos", "Hastes longas", "Alta luminosidade", "Raízes arejadas"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
