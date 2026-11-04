@@ -41,7 +41,7 @@ export const cattleyaChocolateDrop = {
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade a cada 60–90 dias durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/2 da dose a cada 7–15 dias.\n🌱 Crescimento: mantenha nutrição até os pseudobulbos engrossarem e as folhas endurecerem.\n🌸 Maturação: reduza o nitrogênio; fórmulas muito ricas em fósforo não substituem luz adequada.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada, distante de raízes novas.\n🚿 Flushing: lave mensalmente o vaso para evitar sais.",
     "rega": "Regue abundantemente durante brotação e alongamento dos pseudobulbos, deixando o substrato quase secar antes da próxima aplicação. Após a maturação, aumente ligeiramente o intervalo, sem impor seca severa. Evite água parada em bainhas e espatas, especialmente à noite. Raízes claras e firmes indicam saúde; raízes escuras, ocas e substrato com odor azedo indicam retenção excessiva.",
     "suporte": "🥇 Vaso plástico vasado — boa aeração e retenção controlável; opção principal do MACS 1.0.\n🥈 Vaso plástico comum com mistura grossa e drenagem livre — utilizado em pesquisa brasileira com mudas deste híbrido.\n🥉 Vaso de barro — estabilidade e secagem lateral para plantas maiores.\nO ranking é heurístico, não comparação experimental de recipientes.",
-    substrato: ["Chips de coco grossos preparados + perlita grossa + carvão vegetal médio + casca de pinus média","Casca de macadâmia média + argila expandida média + carvão vegetal médio + casca de pinus grossa"],
+    substrato: ["40% fibra de coco preparada + 30% casca de pinus média + 20% carvão vegetal médio + 10% argila expandida pequena","40% casca de macadâmia média + 30% casca de pinus média + 20% carvão vegetal médio + 10% casca de arroz carbonizada"],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso plástico vasado",
@@ -81,8 +81,8 @@ export const cattleyaChocolateDrop = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Referência científica para mudas: pinus e carvão 4:3 em volume; a mistura abaixo é alternativa de cultivo para planta estabelecida.",
-    "justificativa": "Estudo brasileiro relatado na ficha cultivou mudas deste híbrido em pinus e carvão (4:3 em volume), porém investigou adubações e não comparou substratos. Portanto não valida a receita visual para plantas estabelecidas. Esta proposta combina pinus médio, macadâmia média, perlita grossa e carvão vegetal médio em 100%, para vaso plástico vasado, com secagem entre regas. As duas outras misturas são alternativas qualitativas distintas e não herdam os percentuais da principal. MACS 1.1: proporções e comparação de suportes não homologadas quantitativamente.",
-    "receitaTexto": "35% casca de pinus média + 30% casca de macadâmia média + 20% perlita grossa + 15% carvão vegetal médio (proposta horticultural não homologada).",
+    "justificativa": "Estudo brasileiro relatado na ficha cultivou mudas deste híbrido em pinus e carvão (4:3 em volume), porém investigou adubações e não comparou substratos. Portanto não valida a receita visual para plantas estabelecidas. Esta proposta combina pinus médio, macadâmia média, casca de arroz carbonizada e carvão vegetal médio em 100%, para vaso plástico vasado, com secagem entre regas. As duas outras misturas são alternativas editoriais quantitativas (40/30/20/10 em volume cada), sem evidência experimental comparativa. MACS 1.1: proporções e comparação de suportes não homologadas quantitativamente.",
+    "receitaTexto": "35% casca de pinus média + 30% casca de macadâmia média + 20% casca de arroz carbonizada + 15% carvão vegetal médio (proposta horticultural não homologada).",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
@@ -98,21 +98,21 @@ export const cattleyaChocolateDrop = {
             "finalidade": "Conserva alguma umidade sem fechar a mistura quando usada em granulometria adequada."
         },
         {
-            "asset": "macadamia",
+            "asset": "casca-macadamia",
             "nome": "Casca de macadâmia média",
             "proporcao": "30%",
             "nota": "estrutura",
             "finalidade": "Partículas resistentes criam espaços de ar entre as raízes."
         },
         {
-            "asset": "perlita",
-            "nome": "Perlita grossa",
+            "asset": "casca-arroz-carbonizada",
+            "nome": "Casca de arroz carbonizada",
             "proporcao": "20%",
             "nota": "aeração",
             "finalidade": "Amplia a porosidade e reduz a compactação do recipiente."
         },
         {
-            "asset": "carvao-vegetal",
+            "asset": "carvao",
             "nome": "Carvão vegetal médio",
             "proporcao": "15%",
             "nota": "drenagem",
@@ -120,6 +120,6 @@ export const cattleyaChocolateDrop = {
         }
     ],
     "alerta": "Evidência direta: pinus e carvão (4:3 em volume) foram usados em pesquisa com mudas, sem comparação de substratos. A mistura ilustrada de quatro componentes não tem validação específica; observar a secagem.",
-    "notaEvidencia": "MACS 1.1 — revisão documental: Cattlianthe Chocolate Drop é híbrido de raízes epífitas, com preferência por luminosidade elevada e secagem entre regas. Vaso plástico vasado como proposta principal, sem ensaio comparativo de suportes; métodos têm estrelas null. Receita visual e textual coincidem: 35% pinus médio + 30% macadâmia média + 20% perlita grossa + 15% carvão vegetal médio = 100%. Duas outras misturas qualitativas distintas: chips coco preparados/perlita/carvão/pinus e macadâmia/argila expandida/carvão/pinus; não são a base quantitativa da principal. Pesquisa brasileira citada na ficha usou pinus e carvão 4:3 com mudas, comparando adubações, NÃO substratos; não extrapolar validação à receita de quatro componentes. Sem homologação quantitativa específica nem consulta individualizada a até 25 produtores brasileiros; percentuais e suportes NÃO HOMOLOGADOS",
+    "notaEvidencia": "MACS 1.1 — revisão documental: Cattlianthe Chocolate Drop é híbrido de raízes epífitas, com preferência por luminosidade elevada e secagem entre regas. Vaso plástico vasado como proposta principal, sem ensaio comparativo de suportes; métodos têm estrelas null. Receita visual e textual coincidem: 35% pinus médio + 30% macadâmia média + 20% casca de arroz carbonizada + 15% carvão vegetal médio = 100%. Duas outras misturas quantitativas editoriais distintas: fibra de coco/pinus/carvão/argila expandida (40/30/20/10) e macadâmia/pinus/carvão/casca de arroz carbonizada (40/30/20/10); não são a base quantitativa da principal. Pesquisa brasileira citada na ficha usou pinus e carvão 4:3 com mudas, comparando adubações, NÃO substratos; não extrapolar validação à receita de quatro componentes. Sem homologação quantitativa específica nem consulta individualizada a até 25 produtores brasileiros; percentuais e suportes NÃO HOMOLOGADOS",
     }
 };
