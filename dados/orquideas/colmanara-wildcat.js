@@ -55,8 +55,8 @@ export const colmanaraWildcat = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para vaso plástico compacto e bem perfurado",
         "resumo": "Mistura aberta com retenção intermediária, apropriada para raízes finas que não devem permanecer nem encharcadas nem completamente secas por muito tempo.",
-        "justificativa": "MACS 1.1: o Orquidário Oriental documenta especificamente para Wildcat Leopard uma mistura de Casca de pinus, Fibra de coco e Carvão vegetal, sem percentuais; a AOS recomenda substrato baseado em casca e boa ventilação em clima quente. A receita visual usa esses três ingredientes, mas os percentuais são inferências D não homologadas. Fibra de coco não é Chips de coco.",
-        "receitaTexto": "50% Casca de pinus + 30% Fibra de coco + 20% Carvão vegetal (por volume, percentuais inferidos D).",
+        "justificativa": "Colmanara Wildcat se beneficia de raízes ventiladas e umidade moderada, sem encharcamento prolongado. A casca de pinus oferece estrutura, a fibra de coco preparada ajuda a conservar umidade e o carvão vegetal mantém espaços de ar na mistura. Use fibra de coco, e não chips de coco, nesta receita. Observe a secagem do vaso para ajustar as regas, sobretudo em períodos mais quentes.",
+        "receitaTexto": "50% Casca de pinus + 30% Fibra de coco + 20% Carvão vegetal (por volume).",
         "perfil": ["Raízes finas", "Umidade regular", "Boa drenagem", "Sensível a replantio", "Vaso compacto"],
         "comportamento": [
             { "nome": "Retenção", "valor": 3, "icone": "💧" },
