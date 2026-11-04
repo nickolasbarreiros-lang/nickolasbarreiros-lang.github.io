@@ -55,8 +55,8 @@ export const rodricidium = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para cachepô pequeno e ventilado",
         resumo: "Partículas médias e grossas com boa oxigenação e retenção moderada. Observar a secagem real conforme o grex, o recipiente e o ambiente, sem fixar prazo universal.",
-        justificativa: "Rodricidium é notogênero de híbridos Oncidium × Rodriguezia, sem grex ou parentais específicos identificados. A receita visual para cachepô de madeira vazado combina pinus médio, chips de coco médios preparados, perlita grossa e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas sem percentuais, distintas da receita principal. Ajustar a retenção e as regas à resposta das raízes; secagem em 1–2 dias não é requisito universal. MACS 1.1: inferência horticultural geral, não homologada quantitativamente",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa compatível com o recipiente + 10% carvão vegetal médio (proposta não homologada).",
+        justificativa: "Rodricidium reúne híbridos de Oncidium e Rodriguezia que se beneficiam de raízes bem ventiladas. Em cachepô de madeira vazado, a casca de pinus e os chips de coco preparados oferecem apoio e retenção moderada; a perlita mantém espaços de ar e o carvão contribui para a estrutura da mistura. Observe a secagem do recipiente e ajuste as regas à resposta das raízes, sem adotar um prazo fixo para todos os exemplares.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa compatível com o recipiente + 10% carvão vegetal médio.",
         perfil: ["Híbrido intergenérico", "Pseudobulbos comprimidos", "Raízes epífitas", "Secagem rápida", "Ventilação alta"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
