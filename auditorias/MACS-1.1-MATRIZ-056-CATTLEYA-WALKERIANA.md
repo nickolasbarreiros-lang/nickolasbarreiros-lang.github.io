@@ -22,11 +22,11 @@ Há referências a Orquidário Oriental (forma tipo), Orquidário Mogi Mirim (fo
 
 ## Alternativas qualitativas
 
-1. Casca de pinus grossa + carvão vegetal + brita fina lavada e sem pó.
+1. Casca de pinus grossa + carvão vegetal + chips de coco grossos preparados.
 2. Casca de pinus grossa + carvão vegetal + perlita grossa.
 
-**Atenção:** a primeira alternativa existente na ficha duplica exatamente a receita principal em composição, variando apenas a apresentação sem percentuais. **Pendência editorial real:** substituir por uma alternativa materialmente distinta após validação técnica. Não encerrar como duas alternativas distintas até corrigir.
+**Correção aplicada:** a alternativa antiga com brita duplicava os três ingredientes da receita principal. Foi substituída por uma opção qualitativa com chips de coco grossos preparados, distinta da receita principal e da alternativa com perlita. Sem percentuais publicados para as alternativas; ambas são hipóteses técnicas, não receitas homologadas.
 
 ## Parecer
 
-Auditoria documental realizada; pendente corrigir duplicação da primeira alternativa e sincronizar a ficha. Sem homologação experimental específica da mistura.
+Auditoria documental concluída, alternativa duplicada corrigida na ficha. Sem homologação experimental específica da mistura. Verificação de assets visuais não executada nesta passagem.
