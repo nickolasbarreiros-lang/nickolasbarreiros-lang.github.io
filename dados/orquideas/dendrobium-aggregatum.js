@@ -55,7 +55,7 @@ export const dendrobiumAggregatum = {
         "titulo": "Substrato ideal",
         "contexto": "Montagem principal sem mistura volumétrica; receita para cesto ou vaso",
         "resumo": "Na montagem, raízes expostas sobre suporte firme. Para recipiente, mistura grossa e de secagem rápida, sem esfagno no miolo.",
-        "justificativa": "MACS 1.1: a montagem em placa/tronco continua sendo o cultivo principal, sem receita percentual. Para cesto ou vaso raso, adotou-se a formulação genérica documentada para Dendrobium (pinus, carvão e coco), coerente com relato brasileiro específico de D. lindleyi que cita os mesmos ingredientes sem percentuais. Os percentuais não foram validados especificamente nesta espécie.",
+        "justificativa": "Dendrobium aggregatum (D. lindleyi) se adapta à montagem em placa ou tronco, com raízes expostas e secagem rápida após as regas. Em cesto ou vaso raso, a casca de pinus oferece apoio, o carvão mantém espaços de ar e os chips de coco preparados ajudam a conservar umidade por mais tempo. Durante o crescimento, regue conforme a secagem; após a maturação, respeite a redução sazonal de água.",
         "receitaTexto": "60% casca de pinus média/grossa + 20% carvão vegetal + 20% chips de coco lavados.",
         "perfil": ["Raízes epífitas", "Touceira compacta", "Cachos pendentes", "Secagem rápida", "Repouso sazonal mais seco"],
         "comportamento": [
