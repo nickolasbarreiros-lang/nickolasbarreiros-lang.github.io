@@ -39,24 +39,24 @@ export const phalaenopsisMannii = {
     "adubacao": "🌿 Orgânica: bokashi apenas em microdose e longe do colo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/2 dose a cada 10–15 dias durante raízes e folhas ativas.\n🌱 Crescimento: maior frequência quando surgem pontas verdes nas raízes.\n❄️ Inverno: reduza a adubação junto com a desaceleração do crescimento.\n🚿 Lavagem: faça flushing periódico para limitar sais nas raízes.",
     "rega": "Na fase ativa, regue abundantemente quando as raízes perderem o verde e o suporte estiver quase seco. No inverno, aumente moderadamente o intervalo, imitando a estação mais seca do habitat sem desidratar a planta. Evite água parada na coroa e nas axilas, principalmente durante a noite.",
     "suporte": "🥇 Placa de cortiça ou madeira com pequena almofada de esfagno — acompanha muito bem o hábito pendente.\n🥈 Vaso transparente pequeno e muito perfurado.\n🥉 Cesto vazado com casca grossa.\nEvite recipientes profundos e abafados.",
-    substrato: ["Casca de pinus média + perlita grossa + pequena fração de esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + pequena fração de esfagno de fibra longa solto"],
+    substrato: ["50% casca de pinus média + 30% chips de coco médios preparados + 20% carvão vegetal médio","45% casca de macadâmia média + 35% casca de pinus média + 20% chips de coco médios preparados"],
     formasCultivo: {
         perfilVisual: "phalaenopsis-epifita-pendente-raizes-aereas",
         destaque: "Placa / tronco",
         resumo: "Espécie epífita de crescimento levemente pendente. Montagem em cortiça ou madeira rugosa com esfagno mínimo acompanha o hábito natural e favorece ventilação radicular.",
         metodos: [
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cortiça ou madeira rugosa com pequena almofada de esfagno sob as raízes; manter folhas e hastes com espaço para pender." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso transparente pequeno e muito perfurado, com mistura grossa e circulação de ar." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cesto vazado com casca grossa, favorecendo raízes arejadas e crescimento pendente." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Recipiente pequeno e aberto, com atenção à secagem e sem abafamento das raízes." }
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Mais recomendado na ficha", texto: "Cortiça ou madeira rugosa com pequena almofada de esfagno sob as raízes; manter folhas e hastes com espaço para pender." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa", texto: "Vaso transparente pequeno e muito perfurado, com mistura grossa e circulação de ar." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa", texto: "Cesto vazado com casca grossa, favorecendo raízes arejadas e crescimento pendente." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Uso condicional", texto: "Recipiente pequeno e aberto, com atenção à secagem e sem abafamento das raízes." }
         ]
     },
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Mistura aerada para vaso ou cesto; placa com esfagno mínimo",
         resumo: "Raízes epífitas precisam de ar e umidade moderada, com secagem parcial entre regas. Em placa, basta pequena almofada de esfagno sob as raízes.",
-        justificativa: "Phalaenopsis mannii é epífita de hábito levemente pendente, com raízes ventiladas e umidade regular durante o crescimento. A montagem em placa/tronco com pequena almofada de esfagno de fibra longa solto é a proposta principal, sem mistura volumosa. Para vaso vasado ou cesto, a receita visual alternativa combina pinus médio, chips de coco médios preparados, perlita grossa compatível com o recipiente e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não originam os percentuais visuais. Evitar água acumulada na coroa e secagem prolongada; no inverno, reduzir regas apenas moderadamente. MACS 1.1: hipótese horticultural não homologada quantitativamente.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa compatível com o recipiente + 10% carvão vegetal médio (proposta não homologada).",
+        justificativa: "Phalaenopsis mannii é epífita de hábito levemente pendente, com raízes ventiladas e umidade regular durante o crescimento. A montagem em placa/tronco com pequena almofada de esfagno de fibra longa solto é a proposta principal, sem mistura volumosa. Para vaso vasado ou cesto, a receita visual alternativa combina pinus médio, chips de coco médios preparados, brita pequena limpa e sem pó e carvão vegetal médio, totalizando 100%. As duas outras misturas são receitas editoriais quantitativas distintas, não ensaiadas comparativamente. Evitar água acumulada na coroa e secagem prolongada; no inverno, reduzir regas apenas moderadamente. MACS 1.1: hipótese horticultural não homologada quantitativamente.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco médios preparados + 25% brita pequena limpa e sem pó + 10% carvão vegetal médio (proposta não homologada).",
         perfil: ["Epífita pendente", "Raízes aeradas", "Umidade no crescimento", "Inverno ligeiramente mais seco", "Hastes persistentes"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -67,10 +67,10 @@ export const phalaenopsisMannii = {
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Apoia raízes e mantém espaços de ar." },
             { asset: "chips-coco", nome: "Chips de coco médios preparados", proporcao: "30%", nota: "umidade", finalidade: "Contribui para hidratação regular sem saturar a mistura." },
-            { asset: "perlita", nome: "Perlita grossa compatível com o recipiente", proporcao: "25%", nota: "aeração", finalidade: "Facilita drenagem e circulação de ar." },
+            { asset: "brita-fina", nome: "Brita pequena limpa e sem pó", proporcao: "25%", nota: "aeração", finalidade: "Fornece estrutura mineral e drenagem, desde que limpa e sem pó." },
             { asset: "carvao", nome: "Carvão vegetal médio", proporcao: "10%", nota: "porosidade", finalidade: "Ajuda a preservar a estrutura aberta." }
         ],
         alerta: "Evitar água acumulada na coroa, sol forte, vasos abafados e substrato permanentemente molhado no inverno. Não cortar hastes ainda verdes; reduzir regas apenas moderadamente na estação mais seca.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Phalaenopsis mannii é epífita levemente pendente, de raízes ventiladas, com umidade no crescimento e inverno moderadamente mais seco. Placa/tronco com pequena almofada de esfagno de fibra longa solto é suporte principal; estrelas são heurísticas. Receita visual alternativa para vaso vasado/cesto: 35% pinus médio + 30% chips coco médios preparados + 25% perlita grossa compatível com recipiente + 10% carvão vegetal médio = 100%; receitaTexto e itens concordam. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/esfagno solto e macadâmia/pinus/esfagno solto. Elas não são a origem dos percentuais visuais; justificativa anterior que afirmava equivalência foi corrigida. Preservar hastes verdes, evitar água na coroa e observar secagem sem repouso seco severo. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
+        notaEvidencia: "MACS 1.1 — revisão documental: Phalaenopsis mannii é epífita levemente pendente, de raízes ventiladas, com umidade no crescimento e inverno moderadamente mais seco. Placa/tronco com pequena almofada de esfagno de fibra longa solto é suporte principal; estrelas são heurísticas. Receita visual alternativa para vaso vasado/cesto: 35% pinus médio + 30% chips coco médios preparados + 25% perlita grossa compatível com recipiente + 10% carvão vegetal médio = 100%; receitaTexto e itens concordam. Exatamente duas outras misturas editoriais distintas: pinus/chips coco/carvão (50/30/20) e macadâmia/pinus/chips coco (45/35/20). Não há demonstração experimental de superioridade. Preservar hastes verdes, evitar água na coroa e observar secagem sem repouso seco severo. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
     }
 };
