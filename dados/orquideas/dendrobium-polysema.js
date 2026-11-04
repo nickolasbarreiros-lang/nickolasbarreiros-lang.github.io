@@ -81,7 +81,7 @@ export const dendrobiumPolysema = {
         "nome": "Dendrobium polysema",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma orquídea de aparência quase exótica até entre os Dendrobium! Nativa da Nova Guiné, Dendrobium polysema chama atenção pelas flores claras densamente pintalgadas de verde, castanho e púrpura. A planta forma pseudobulbos robustos de aproximadamente 20 a 50 cm, normalmente com duas folhas coriáceas no ápice, e pode produzir inflorescências de até cerca de 45 cm. Sua origem em f",
+        "morfologiaDimensoes": "Uma orquídea de aparência quase exótica até entre os Dendrobium! Nativa da Nova Guiné, Dendrobium polysema chama atenção pelas flores claras densamente pintalgadas de verde, castanho e púrpura. A planta forma pseudobulbos robustos de aproximadamente 20 a 50 cm, normalmente com duas folhas coriáceas no ápice, e pode produzir inflorescências de até cerca de 45 cm.",
         "habitatAltitudeClima": "Matas úmidas e musgosas de altitude. | Fresco · úmido · muito ventilado.",
         "distribuicaoGeografica": "Florestas montanas da Nova Guiné.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
