@@ -39,18 +39,18 @@ export const cattleyaLoddigesii = {
     substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios preparados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
     formasCultivo: {
     "perfilVisual": "cattleya",
-    "destaque": "Vaso de barro",
+    "destaque": "Vaso de Barro",
     "resumo": "MACS 1.1: barro e plástico vasado são opções possíveis sem comparação quantitativa; o vaso de barro segue como proposta principal pela secagem lateral.",
     "metodos": [
         {
-            "nome": "Vaso de barro",
+            "nome": "Vaso de Barro",
             "asset": "vaso-barro",
             "estrelas": null,
             "status": "Mais indicada na ficha",
             "texto": "A terracota oferece estabilidade e evaporação pelas paredes; o vaso deve ter tamanho proporcional e mistura bem drenante."
         },
         {
-            "nome": "Cachepô de madeira",
+            "nome": "Cachepô de Madeira",
             "asset": "cesto-madeira",
             "estrelas": null,
             "status": "Alternativa",
