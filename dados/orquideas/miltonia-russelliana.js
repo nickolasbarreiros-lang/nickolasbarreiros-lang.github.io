@@ -26,7 +26,7 @@ export const miltoniaRusselliana = {
     regiao: "Sudeste e Sul do Brasil",
     habitat: "Epífita de florestas úmidas e áreas ripárias, em ambiente ventilado.",
     clima: "Intermediário a ameno, úmido e ventilado.",
-    climaFloracao: "A espécie floresce principalmente no outono e inverno. No litoral quente, noites um pouco mais frescas ajudam bastante, mas o fator decisivo é manter raízes ativas, boa ventilação e luminosidade suficiente sem superaquecer as folhas.",
+    climaFloracao: "A espécie floresce principalmente no outono e inverno. Em clima quente, noites um pouco mais frescas ajudam bastante, mas o fator decisivo é manter raízes ativas, boa ventilação e luminosidade suficiente sem superaquecer as folhas.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
@@ -47,10 +47,10 @@ export const miltoniaRusselliana = {
         destaque: "Cachepô de Madeira",
         resumo: "Miltonia epífita de touceira compacta e hastes arqueadas, que se beneficia de raízes ventiladas, umidade regular e espaço apenas para poucos novos crescimentos.",
         metodos: [
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô vazado com mistura aerada, mantendo regas regulares sem encharcar." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e perfurado, proporcional à touceira, com boa secagem e umidade acompanhada." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso muito perfurado e proporcional, evitando excesso de substrato no centro." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Madeira ou cortiça apenas em ambiente úmido e com regas frequentes." }
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Mais recomendado na ficha", texto: "Cachepô vazado com mistura aerada, mantendo regas regulares sem encharcar." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa", texto: "Vaso pequeno e perfurado, proporcional à touceira, com boa secagem e umidade acompanhada." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa", texto: "Vaso muito perfurado e proporcional, evitando excesso de substrato no centro." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Uso condicional", texto: "Madeira ou cortiça apenas em ambiente úmido e com regas frequentes." }
         ]
     },
     substratoVisual: {
@@ -73,7 +73,7 @@ export const miltoniaRusselliana = {
             { asset: "carvao", nome: "Carvão vegetal médio", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para a estrutura aberta da mistura." }
         ],
         alerta: "Evitar sombra profunda, vaso grande, substrato constantemente encharcado, secagem prolongada durante crescimento e divisão em porções pequenas. Preservar ventilação mesmo com umidade elevada.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Miltonia russelliana, epífita simpodial de touceira compacta e hastes arqueadas; umidade regular, ventilação e preservação de pseudobulbos saudáveis são importantes. Cachepô de Madeira vazado é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 35% pinus médio + 30% chips de coco médios preparados + 25% perlita grossa compatível com cachepô + 10% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: macadâmia/pinus/perlita/pequena fração de fibra de coco grossa preparada e pinus/perlita/argila expandida pequena/pouco esfagno de fibra longa solto. Elas não fundamentam os percentuais visuais. Monitorar retenção de chips de coco, secagem e ventilação em clima quente. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Miltonia russelliana, epífita simpodial de touceira compacta e hastes arqueadas; umidade regular, ventilação e preservação de pseudobulbos saudáveis são importantes. Cachepô de Madeira vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% pinus médio + 30% chips de coco médios preparados + 25% perlita grossa compatível com cachepô + 10% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: macadâmia/pinus/perlita/pequena fração de fibra de coco grossa preparada e pinus/perlita/argila expandida pequena/pouco esfagno de fibra longa solto. Elas não fundamentam os percentuais visuais. Monitorar retenção de chips de coco, secagem e ventilação em clima quente. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
         "Cultivar em sombra profunda",
@@ -85,7 +85,7 @@ export const miltoniaRusselliana = {
         "Dividir a touceira em partes muito pequenas",
         "Expor ao sol forte nas horas quentes"
     ],
-    dica: "🏆 Não tenha pressa em dividir a Miltonia russelliana. Touceiras com vários pseudobulbos armazenam mais energia e costumam produzir hastes mais fortes. No litoral quente, mantenha-a em local claro e muito ventilado, com o vaso apenas ligeiramente apertado.",
+    dica: "🏆 Não tenha pressa em dividir a Miltonia russelliana. Touceiras com vários pseudobulbos armazenam mais energia e costumam produzir hastes mais fortes. Em clima quente, mantenha-a em local claro e muito ventilado, com o vaso apenas ligeiramente apertado.",
     revisaoCientificaIAR: {
         "nome": "Miltonia russelliana",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
@@ -223,8 +223,8 @@ export const miltoniaRusselliana = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Boa Tolera calor melhor que muitas Miltoniopsis, mas aprecia noites menos abafadas. Use luz filtrada, umidade regular e ventilação constante." },
-        montanhaFrio: { texto: "Muito boa Noites frescas favorecem vigor e floração, desde que as raízes não permaneçam frias e encharcadas por longos períodos." }
+        litoralQuente: { texto: "Boa adaptação. Tolera calor melhor que muitas Miltoniopsis, mas aprecia noites menos abafadas. Use luz filtrada, umidade regular e ventilação constante." },
+        montanhaFrio: { texto: "Muito boa adaptação. Noites frescas favorecem vigor e floração, desde que as raízes não permaneçam frias e encharcadas por longos períodos." }
     },
     mesesFloracao: [4, 5, 6, 7, 8],
     "selosCultivo": {
