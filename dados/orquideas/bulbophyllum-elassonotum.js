@@ -12,7 +12,7 @@ export const bulbophyllumElassonotum = {
         "Flores de ~1 cm",
         "Racemo multifloral pendente",
         "Terras baixas a 1.200 m",
-        "Floração de inverno",
+        "Floração sazonal variável",
         "Clima quente a fresco"
     ],
     fotos: [
@@ -21,19 +21,19 @@ export const bulbophyllumElassonotum = {
         "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum3.jpeg",
         "imagens/Bulbophyllum elassonotum/Bulbophyllum elassonotum4.jpg"
     ],
-    descricao: "Uma miniatura asiática que ganha destaque quando entra em floração! Bulbophyllum elassonotum forma pequenos pseudobulbos sobre um rizoma rastejante e produz racemos que se curvam para baixo, carregados de numerosas flores de cerca de 1 cm em tons amarelo-esverdeados, amarelos ou alaranjados. O contraste entre o tamanho reduzido da planta e a quantidade de pequenas flores torna a espécie especialmente charmosa quando cultivada em touceiras.\n\nNa natureza, ocupa ambientes bastante variados de Assam à Indochina, desde florestas úmidas até formações mais sazonais, com registros de baixas altitudes até cerca de 1.200 m. Essa amplitude mostra que não deve ser encarada simplesmente como uma espécie fria: em cultivo, responde melhor quando recebe umidade regular, raízes bem oxigenadas e circulação constante de ar.",
+    descricao: "Bulbophyllum elassonotum é uma pequena orquídea epífita asiática, com pseudobulbos espaçados sobre um rizoma rastejante. As inflorescências arqueadas ou pendentes carregam muitas flores miúdas, em tons amarelos a alaranjados, que contrastam com a folhagem discreta. Uma touceira bem desenvolvida pode produzir vários racemos e transformar uma planta de poucos centímetros em um conjunto muito vistoso. A espécie ocorre de Assam à Indochina, em ambientes tropicais úmidos e também em áreas de clima sazonal. Seu hábito de crescimento horizontal é uma característica marcante: as novas brotações avançam pelo suporte, enquanto as hastes florais se projetam para fora da touceira.",
     origem: "Sul e Sudeste da Ásia",
     regiao: "Assam · Myanmar · Tailândia · Camboja · Vietnã",
     habitat: "Florestas sazonais e úmidas · 0–1.200 m",
     clima: "Quente a fresco · ventilado",
-    climaFloracao: "A floração natural ocorre no inverno. Como a espécie ocupa desde terras baixas até altitudes intermediárias, não existe uma única exigência térmica universal. No litoral quente, noites um pouco mais amenas no inverno podem atuar como sinal fenológico, mas a planta precisa principalmente chegar à estação com pseudobulbos maduros, raízes funcionais e boa reserva energética.",
+    climaFloracao: "Registros horticulturais divergem quanto à estação de floração; por isso, não se deve impor repouso seco ou frio para induzi-la. O desenvolvimento de novos pseudobulbos, a hidratação das raízes e a luminosidade filtrada devem orientar a observação do ciclo individual.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
-        horario: "",
+        horario: "Não permitido",
         observacoes: "Prefere meia-sombra clara. Sombra excessiva favorece crescimento alongado e pode reduzir a floração; sol direto forte é arriscado em clima quente. Use a coloração e a firmeza das folhas como indicadores, ajustando gradualmente a luminosidade."
     },
-    floracao: "Principalmente no inverno. Para o calendário do litoral brasileiro, junho a agosto é a referência mais coerente, admitindo variações de procedência e cultivo.",
+    floracao: "Registros de cultivo divergem entre outono, inverno e primavera-verão; não há base suficiente para fixar um único calendário no Brasil. A floração deve ser observada em cada planta e região.",
     adubacao: "🌿 Orgânica: Bokashi opcional, em pequena quantidade e longe do rizoma.\n💧 Foliar/mineral: NPK equilibrado em aproximadamente 1/4 da dose, a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional em dose baixa para plantas em vaso/cesto.\nReduza a frequência quando não houver brotação ou enraizamento ativo, mas não faça uma interrupção drástica apenas porque a espécie floresce no inverno.",
     rega: "Mantenha umidade regular enquanto houver crescimento, molhando bem e drenando rapidamente. Entre regas, permita perda parcial de umidade, sem secagem total prolongada. No período mais fresco, ajuste a frequência à evaporação real. Populações de habitat sazonal toleram alguma redução hídrica, mas isso não equivale a repouso seco obrigatório.",
     suporte: "🥇 Cesto raso e largo, muito perfurado.\n🥈 Placa de cortiça ou madeira com fina camada de esfagno.\n🥉 Vaso baixo e amplo, com espaço para expansão horizontal.\nDeixe a inflorescência com área livre para arquear e pender.",
@@ -76,7 +76,7 @@ export const bulbophyllumElassonotum = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
-        "justificativa": "O cesto raso oferece espaço para o rizoma se espalhar e deixa livres as inflorescências arqueadas ou pendentes. Uma mistura solta evita que o centro fique saturado em períodos úmidos. Esta receita para recipiente é uma proposta técnica de cultivo, não uma fórmula experimental validada especificamente para a espécie.",
+        "justificativa": "O cesto raso oferece espaço para o rizoma se espalhar e deixa livres as inflorescências arqueadas ou pendentes. Uma mistura solta evita que o centro fique saturado em períodos úmidos. O Orquidário Mogi Mirim recomenda para esta espécie casca de pinus fina, carvão vegetal e boa proporção de esfagno, sem percentuais; a receita visual com coco e perlita permanece uma proposta técnica, não uma fórmula experimental validada especificamente para a espécie.",
         "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno solto.",
         "perfil": [
             "Rizoma longo",
@@ -139,7 +139,7 @@ export const bulbophyllumElassonotum = {
             }
         ],
         "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura.",
-        "notaEvidencia": "MACS 1.1 — revisão documental: Bulbophyllum elassonotum, miniatura epífita de rizoma rastejante e inflorescências pendentes. Cachepô madeira 5 estrelas, vaso plástico vasado e placa/tronco 4, barro 3: inferência horticultural, sem ensaio comparativo específico. Receita visual 35% pinus médio + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno solto = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% pinus, 25% chips de coco, 25% perlita, 15% esfagno); as duas alternativas qualitativas são diferentes e não devem ser confundidas com a receita principal. Fontes botânicas da ficha não homologam proporções; meta de até 25 produtores brasileiros com receitas específicas não atingida. Percentuais e estrelas NÃO HOMOLOGADOS. Duas alternativas mantidas; o termo chips de coco médios preparados indica material previamente lavado, hidratado e drenado, não uma nova categoria de substrato."
+        "notaEvidencia": "MACS 1.1 — revisão documental: Bulbophyllum elassonotum, miniatura epífita de rizoma rastejante e inflorescências pendentes. Cachepô madeira 5 estrelas, vaso plástico vasado e placa/tronco 4, barro 3: inferência horticultural, sem ensaio comparativo específico. Receita visual 35% pinus médio + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno solto = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% pinus, 25% chips de coco, 25% perlita, 15% esfagno); as duas alternativas qualitativas são diferentes e não devem ser confundidas com a receita principal. POWO confirma nome aceito e distribuição Assam–Indochina. Orquidário Mogi Mirim (https://www.orquidariomogimirim.com.br/bulbophyllum-elassonotum) recomenda casca de pinus fina, carvão e boa proporção de esfagno; Orquidário Aparecida (https://orquidarioaparecida.com.br/produtos/bulbophyllum-elassonotum/) documenta cultivo em ripinha de madeira, sem receita volumétrica; Orquidário Thomes (https://www.orquidariothomes.com.br/bulbophyllum-elassonotum-/prod-10064048/) cita recipientes variados e boa aeração. Três fontes brasileiras específicas qualitativas, nenhuma receita percentual verificada; a receita visual com coco/perlita não foi testada nessas fontes. Meta de até 25 produtores não atingida. Percentuais e estrelas NÃO HOMOLOGADOS. Duas alternativas mantidas; o termo chips de coco médios preparados indica material previamente lavado, hidratado e drenado, não uma nova categoria de substrato."
     },
     substrato: ["Chips de coco médios preparados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto","Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de esfagno solto"],
     errosComuns: "• Enterrar o rizoma.\n• Tratar toda procedência como espécie fria.\n• Compactar esfagno.\n• Usar vaso profundo com baixa aeração.\n• Deixar raízes secarem por vários dias.\n• Manter calor, umidade e ar parado ao mesmo tempo.\n• Cultivar em sombra profunda.\n• Forçar repouso seco por causa de habitats sazonais.\n• Adubação concentrada em raízes finas.",
