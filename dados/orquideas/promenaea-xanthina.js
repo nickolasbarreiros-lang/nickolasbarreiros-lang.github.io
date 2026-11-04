@@ -89,7 +89,7 @@ export const promenaeaXanthina = {
         "nome": "Promenaea xanthina",
         "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Promenaea stapelioides subsp. xanthina.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Promenaea xanthina é uma pequena joia brasileira: planta compacta, de pseudobulbos baixos e folhas finas, capaz de produzir flores cerosas proporcionalmente grandes, amarelas e delicadamente perfumadas. As hastes surgem junto à base dos pseudobulbos e normalmente carregam uma ou duas flores que permanecem próximas à folhagem. É uma espécie de aparência delicada, mas bastante vi",
+        "morfologiaDimensoes": "Promenaea xanthina é uma pequena joia brasileira: planta compacta, de pseudobulbos baixos e folhas finas, capaz de produzir flores cerosas proporcionalmente grandes, amarelas e delicadamente perfumadas. As hastes surgem junto à base dos pseudobulbos e normalmente carregam uma ou duas flores que permanecem próximas à folhagem.",
         "habitatAltitudeClima": "Epífita de florestas montanas úmidas e protegidas, chegando a cerca de 1.700 m. | Intermediário a fresco, úmido e muito ventilado.",
         "distribuicaoGeografica": "Leste e Sul do Brasil.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
