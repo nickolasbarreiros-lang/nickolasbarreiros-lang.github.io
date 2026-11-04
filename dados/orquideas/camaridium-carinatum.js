@@ -11,10 +11,10 @@ export const camaridiumCarinatum = {
     caracteristicas: [
         "América do Sul tropical",
         "Rizoma alongado",
-        "Pseudobulbos espaçados",
+        "Pseudobulbos numerosos e imbricados",
         "Flor solitária de ~3 cm",
         "Flores basais",
-        "Crescimento horizontal"
+        "Rizoma alongado, por vezes pendente"
     ],
     fotos: [
         "imagens/Camaridium carinatum/Camaridium carinatum1.jpeg",
@@ -22,7 +22,7 @@ export const camaridiumCarinatum = {
         "imagens/Camaridium carinatum/Camaridium carinatum3.jpg",
         "imagens/Camaridium carinatum/Camaridium carinatum4.jpg"
     ],
-    descricao: "Uma orquídea sul-americana de crescimento elegante e bem horizontal. Conhecida por muito tempo como *Camaridium carinatum*, esta planta forma pseudobulbos espaçados ao longo do rizoma, acompanhados por folhas estreitas que criam um conjunto leve e alongado. As flores surgem individualmente junto à base dos pseudobulbos, têm cerca de 3 cm e podem aparecer em diferentes épocas do ano quando a planta está bem estabelecida. Atualmente é aceita como *Maxillaria imbricata*, mas o antigo nome continua bastante presente em coleções. Na natureza ocorre em florestas úmidas da América do Sul tropical, desde áreas relativamente baixas até regiões próximas de 1.000 m, o que ajuda a explicar sua boa adaptação a condições quentes a intermediárias quando recebe ventilação e raízes bem arejadas.",
+    descricao: "Uma orquídea sul-americana de arquitetura curiosa, Maxillaria imbricata desenvolve um rizoma alongado, muitas vezes pendente, revestido por numerosos pseudobulbos estreitos e imbricados. Cada pseudobulbo sustenta uma folha alongada e firme, criando um conjunto de aspecto encadeado. Próximo à base surgem hastes curtas, geralmente com uma única flor creme ou amarela e labelo trilobado, detalhes delicados que recompensam a observação atenta. Durante muito tempo foi conhecida como Camaridium carinatum, nome ainda encontrado em coleções e estudos florísticos. Na natureza, vive sobre árvores em florestas úmidas da América do Sul tropical, onde seus ramos podem se estender livremente.",
     origem: "América do Sul tropical",
     regiao: "Bolívia e Brasil",
     habitat: "Florestas úmidas/nebulosas · 100–1.000 m.",
@@ -79,7 +79,7 @@ export const camaridiumCarinatum = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "O rizoma de crescimento horizontal precisa de espaço e aeração, enquanto os chips de coco ajudam a reduzir secagem brusca.",
+    "justificativa": "O rizoma alongado, frequentemente pendente e com pseudobulbos imbricados, precisa de espaço e aeração, enquanto os chips de coco ajudam a reduzir secagem brusca.",
     "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de pinus + 25% chips de coco grossos + 25% perlita grossa + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
     "perfil": [
         "Rizoma superficial",
@@ -118,7 +118,7 @@ export const camaridiumCarinatum = {
         }
     ],
     "alerta": "A mistura de pinus, coco, perlita e carvão é proposta técnica, sem ensaio específico de validação das proporções. Observar secagem e manter drenagem.",
-    "notaEvidencia": "MACS 1.1: POWO/Kew aceita Maxillaria imbricata Barb.Rodr. e trata Camaridium carinatum como sinônimo; espécie epífita do bioma tropical úmido. AOS orienta PARA O GÊNERO Maxillaria cultivo em placa, cesto ou vaso com mistura epífita, advertindo que a diversidade do gênero impede generalizações; fonte não testa esta espécie. Guia Belgrave Orchids descreve suporte aberto para maxilárias rastejantes, mas também é inferência de grupo. Cachepô largo e ventilado é hipótese plausível para rizoma horizontal; não há comparação experimental específica dos suportes. Receita 35% pinus + 25% chips de coco + 25% perlita grossa + 15% carvão NÃO HOMOLOGADA. Não foi identificada nesta passagem orientação quantitativa de orquidário brasileiro específica de M. imbricata; meta de até 25 produtores não atingida. Receita principal preservada como hipótese técnica, sem validação experimental; menu limitado a duas alternativas qualitativas sem percentuais inventados. As quatro proporções do texto e dos itens visuais coincidem e somam 100%; a existência dos arquivos dos assets não foi inspecionada nesta alteração."
+    "notaEvidencia": "MACS 1.1: POWO/Kew aceita Maxillaria imbricata Barb.Rodr. e trata Camaridium carinatum como sinônimo; espécie epífita do bioma tropical úmido. AOS orienta PARA O GÊNERO Maxillaria cultivo em placa, cesto ou vaso com mistura epífita, advertindo que a diversidade do gênero impede generalizações; fonte não testa esta espécie. Guia Belgrave Orchids descreve suporte aberto para maxilárias rastejantes, mas também é inferência de grupo. Cachepô largo e ventilado é hipótese plausível para acomodar o rizoma alongado; não há comparação experimental específica dos suportes. Receita 35% pinus + 25% chips de coco + 25% perlita grossa + 15% carvão NÃO HOMOLOGADA. Não foi identificada nesta passagem orientação quantitativa de orquidário brasileiro específica de M. imbricata; meta de até 25 produtores não atingida. Receita principal preservada como hipótese técnica, sem validação experimental; menu limitado a duas alternativas qualitativas sem percentuais inventados. As quatro proporções do texto e dos itens visuais coincidem e somam 100%; a existência dos arquivos dos assets não foi inspecionada nesta alteração."
 },
     errosComuns: "• Usar vaso estreito ou profundo.\n• Direcionar a frente de crescimento contra a borda.\n• Enterrar rizoma ou base dos pseudobulbos.\n• Deixar água parada nas bainhas dos brotos.\n• Substrato continuamente saturado.\n• Impor seca severa.\n• Cultivar em sombra excessiva.\n• Aplicar adubo concentrado ou liberação lenta encostada nas brotações.",
     dica: "🏆 No replantio, coloque os pseudobulbos mais antigos próximos a uma borda e direcione a frente ativa para a maior área livre. O recipiente deve ser largo e raso, porque o rizoma avança horizontalmente. A base dos pseudobulbos precisa permanecer descoberta: além de reduzir podridão, isso não bloqueia as inflorescências basais.",
