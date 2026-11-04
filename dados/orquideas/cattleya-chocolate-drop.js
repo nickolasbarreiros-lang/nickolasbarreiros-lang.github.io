@@ -81,8 +81,8 @@ export const cattleyaChocolateDrop = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Referência científica para mudas: pinus e carvão 4:3 em volume; a mistura abaixo é alternativa de cultivo para planta estabelecida.",
-    "justificativa": "Estudo brasileiro relatado na ficha cultivou mudas deste híbrido em pinus e carvão (4:3 em volume), porém investigou adubações e não comparou substratos. Portanto não valida a receita visual para plantas estabelecidas. Esta proposta combina pinus médio, macadâmia média, casca de arroz carbonizada e carvão vegetal médio em 100%, para vaso plástico vasado, com secagem entre regas. As duas outras misturas são alternativas editoriais quantitativas (40/30/20/10 em volume cada), sem evidência experimental comparativa. MACS 1.1: proporções e comparação de suportes não homologadas quantitativamente.",
-    "receitaTexto": "35% casca de pinus média + 30% casca de macadâmia média + 20% casca de arroz carbonizada + 15% carvão vegetal médio (proposta horticultural não homologada).",
+    "justificativa": "Cattleya Chocolate Drop se beneficia de raízes bem ventiladas e secagem perceptível entre regas. Em vaso plástico vasado, as cascas de pinus e macadâmia oferecem apoio, enquanto a casca de arroz carbonizada e o carvão vegetal ajudam a manter a mistura aberta e drenante. Observe a secagem no centro do vaso e evite compactação, principalmente durante a emissão de raízes novas.",
+    "receitaTexto": "35% casca de pinus média + 30% casca de macadâmia média + 20% casca de arroz carbonizada + 15% carvão vegetal médio.",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
