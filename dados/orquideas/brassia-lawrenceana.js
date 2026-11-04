@@ -57,8 +57,8 @@ export const brassiaLawrenceana = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em cesto de madeira",
         resumo: "Mistura de granulometria média, arejada e com retenção moderada, adequada ao crescimento ativo das raízes.",
-        justificativa: "A casca de pinus média fornece suporte e uma reserva hídrica moderada; os chips de coco médios preparados prolongam a umidade entre regas; a macadâmia média acrescenta estrutura; o carvão e a perlita grossa ajudam a preservar espaços de ar. Pinus e coco se alteram com o envelhecimento, aumentando a retenção e exigindo inspeção e substituição quando houver decomposição. A água de irrigação e o preparo dos materiais influenciam o pH; não se deve presumir um pH fixo da mistura. Esta receita é uma proposta horticultural, não uma formulação publicada especificamente para a espécie por orquidário brasileiro.",
-        receitaTexto: "35% casca de pinus média + 25% chips de coco médios preparados + 20% casca de macadâmia média + 10% carvão vegetal médio + 10% perlita grossa compatível com o cesto (proposta não homologada).",
+        justificativa: "Brassia lawrenceana se beneficia de um substrato estruturado, com umidade moderada e boa circulação de ar. A casca de pinus oferece suporte, os chips de coco preparados ajudam a conservar umidade e a casca de macadâmia mantém a mistura firme. O carvão e a perlita favorecem a drenagem. Inspecione periodicamente os componentes orgânicos: quando começarem a se decompor e reter água em excesso, é hora de renovar o substrato. Ajuste as regas à secagem observada.",
+        receitaTexto: "35% casca de pinus média + 25% chips de coco médios preparados + 20% casca de macadâmia média + 10% carvão vegetal médio + 10% perlita grossa compatível com o cesto.",
         perfil: ["Epífita", "Aeração elevada", "Retenção moderada", "Secagem intermediária", "Granulometria média", "Monitorar envelhecimento"],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura e umidade", finalidade: "Sustenta raízes e retém umidade moderada." },
