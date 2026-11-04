@@ -19,7 +19,7 @@ export const lockhartiaLunifera = {
         "imagens/Lockhartia lunifera/Lockhartia lunifera3.jpeg",
         "imagens/Lockhartia lunifera/Lockhartia lunifera4.jpg"
     ],
-    descricao: "Uma orquídea que parece ter sido trançada à mão! A Lockhartia lunifera forma caules achatados de cerca de 10 a 30 cm, completamente revestidos por pequenas folhas sobrepostas que criam seu aspecto tão característico. As flores amarelas, com aproximadamente 2 cm, surgem na parte superior dos caules maduros e podem durar bastante tempo. Como não possui pseudobulbos, depende de regas regulares e raízes bem arejadas: o segredo é manter umidade frequente sem deixar o suporte encharcado.",
+    descricao: "Uma orquídea que parece ter sido trançada à mão! Lockhartia lunifera forma caules finos, eretos ou pendentes, inteiramente revestidos por pequenas folhas achatadas e sobrepostas, como escamas organizadas em duas fileiras. Essa arquitetura incomum faz a planta parecer uma trança verde e dispensa pseudobulbos volumosos. Entre as folhas superiores surgem inflorescências discretas, geralmente com uma flor por haste, de coloração amarelada e delicadas marcas castanhas no labelo. As flores são pequenas, com cerca de 1 cm de largura nos exemplares descritos em estudos florísticos. Nativa do Brasil, cresce sobre árvores, inclusive em trechos de floresta próximos a cursos de água, onde os ramos recebem luz filtrada e circulação de ar.",
     origem: "Brasil",
     regiao: "Brasil tropical e subtropical",
     habitat: "Epífita em florestas úmidas · galhos ventilados.",
@@ -52,7 +52,7 @@ export const lockhartiaLunifera = {
         contexto: "Montagem principal em placa; mistura alternativa para cesto ou vaso raso",
         resumo: "Pinus, carvão e esfagno solto em partes iguais, em cesto ou vaso raso ventilado; montagem permanece preferencial.",
         justificativa: "A montagem inclinada em placa/tronco permanece principal. Um relato brasileiro específico de cultivo de Lockhartia lunifera (Orquídeas Encanto e Paixão) descreve partes iguais de pinus, carvão e esfagno para vasos ou caixetas rasas. A receita 1:1:1 é rastreável, porém NÃO foi validada por ensaio comparativo. AOS orienta para o gênero umidade frequente com secagem radicular; a presença de esfagno exige controle de ventilação e saturação.",
-        receitaTexto: "Partes iguais (1:1:1 em volume): 33,3% casca de pinus média + 33,3% carvão vegetal + 33,4% esfagno de fibra longa solto (arredondamento para 100%).",
+        receitaTexto: "Partes iguais (1:1:1 em volume): 33,3% casca de pinus média + 33,3% carvão vegetal + 33,4% esfagno de fibra longa solto (três partes iguais em volume; 0,1 ponto percentual é somente arredondamento).",
         perfil: ["Epífita sem pseudobulbos", "Caules pendentes", "Umidade regular", "Boa ventilação", "Secagem superficial rápida"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -62,7 +62,7 @@ export const lockhartiaLunifera = {
         ],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "33,3%", nota: "estrutura", finalidade: "Sustenta as raízes e mantém porosidade no recipiente." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "33,3%", nota: "aeração", finalidade: "Complementa a estrutura aberta da mistura." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "33,3%", nota: "aeração", finalidade: "Complementa a estrutura aberta da mistura." },
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "33,4%", nota: "reserva de umidade", finalidade: "Reduz desidratação entre regas, sem compactar ou manter saturação." }
         ],
         alerta: "Evitar seca prolongada, raízes saturadas, sombra excessiva e água parada entre as bainhas à noite. Não cortar caules ainda verdes após a floração.",
