@@ -537,7 +537,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
             : [];
     const limparAlternativa = (valor) => String(valor || "")
         .trim()
-        .replace(/^(?:🥇|🥈|🥉|⭐|\d+[.)-]?)\s*/u, "")
+        .replace(/^(?:🥇|🥈|🥉|⭐|\d+[.)-])\s*/u, "")
         .replace(/^Alternativa\s*\d+\s*[—:-]\s*/i, "")
         .replace(/\s*\([^()]*\b(?:homologad[ao]s?|qualitativ[ao]s?|proposta)\b[^()]*\)\s*\.?$/i, "")
         .replace(/\s+/g, " ")
