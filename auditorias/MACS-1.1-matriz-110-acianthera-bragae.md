@@ -41,3 +41,6 @@ Suporte principal: placa/tronco, rizoma exposto, umidade frequente, ventilação
 ## Decisão editorial
 Preservar a receita visual A e exatamente duas alternativas qualitativas distintas, sem apresentar percentuais inventados para B e C. Preservar V4.9, fotografias, assets, IDC 3.2 e IAR 2.0. A padronização dos materiais foi aplicada à ficha. A etapa de documentação comparativa foi realizada; **não declarar conclusão integral** sem validação de renderização e revisão final de coerência.
 Commits da ficha: 6a2a82fe7021e6f0e30599c234f91e82d0576d84 e d2bfa49f0801a81c65d06d8a06826c23cdd4b353.
+
+## Verificação estática adicional — 2026-11-03
+Após commit f4d5b7eaf5c0af8a9b8ad1f4f7c10d6ec3d0ca26, releitura da ficha no GitHub confirmou 4 itens com 45+25+20+10=100%, exatamente 2 alternativas no campo substrato, 4 métodos e 4 caminhos de fotografias. Nomes dos itens foram alinhados ao texto da receita. Esta checagem não equivale a teste de sintaxe por interpretador, verificação de existência dos assets ou renderização no navegador. Permanecem sem homologação quantitativa as alternativas B/C e as estrelas; não atribuir conclusão C.
