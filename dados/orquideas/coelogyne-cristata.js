@@ -56,8 +56,8 @@ export const coelogyneCristata = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cachepô largo e ventilado",
         "resumo": "Mistura drenante de referência para o gênero; a umidade na fase ativa depende do manejo e o inverno pede redução hídrica, sem seca extrema.",
-        "justificativa": "AOS documenta proporção 3:1 de casca de pinus e perlita para Coelogyne em geral (75/25), não um ensaio específico para C. cristata. A espécie ocorre também sobre rochas, exige boa aeração e água abundante na fase ativa, com redução no repouso. Produtores brasileiros recomendam pinus/cascas, carvão e musgo ou coco sem porcentagens; essas misturas ficam como duas alternativas qualitativas. A ausência de noites frias pode impedir a floração, independentemente do substrato.",
-        "receitaTexto": "75% casca de pinus média + 25% perlita grossa (referência quantitativa genérica AOS para Coelogyne; sem homologação específica para C. cristata).",
+        "justificativa": "Coelogyne cristata precisa de raízes bem ventiladas, água abundante durante o crescimento ativo e redução das regas no período de repouso. A casca de pinus oferece apoio e a perlita mantém a mistura aberta e drenante. Observe a secagem do recipiente ao longo das estações. Noites mais frescas são importantes para favorecer a floração, independentemente da escolha do substrato.",
+        "receitaTexto": "75% casca de pinus média + 25% perlita grossa.",
         "perfil": ["Raízes epífitas", "Touceira expansiva", "Umidade na fase ativa", "Repouso hídrico de inverno", "Exigência de noites frias para floração"],
         "comportamento": [
             { "nome": "Retenção", "valor": 4, "icone": "💧" },
