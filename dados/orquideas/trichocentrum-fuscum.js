@@ -10,11 +10,11 @@ export const trichocentrumFuscum = {
     "dificuldade": "Moderada",
     "caracteristicas": [
         "Espécie sul-americana compacta",
-        "Pseudobulbos extremamente reduzidos",
-        "Folhas espessas, rígidas e carnosas",
-        "Reserva hídrica nas folhas",
-        "Alta luminosidade filtrada",
-        "Baixa exigência de água",
+        "Pseudobulbos discretos e unifoliados",
+        "Folha única, achatada e coriácea",
+        "Hastes curtas com uma a três flores",
+        "Flores castanhas e amarelo-acastanhadas",
+        "Labelo claro com esporão curvado",
         "Secagem rápida indispensável",
         "Cultivo montado muito favorecido"
     ],
@@ -24,19 +24,19 @@ export const trichocentrumFuscum = {
         "imagens/Trichocentrum fuscum/Trichocentrum fuscum3.jpg",
         "imagens/Trichocentrum fuscum/Trichocentrum fuscum4.webp"
     ],
-    "descricao": "Compacta e de aparência quase suculenta, Trichocentrum fuscum se destaca pelas folhas grossas e carnosas, que armazenam água e permitem à planta atravessar períodos de secagem entre as chuvas. É uma epífita da América do Sul tropical e produz flores em tons de amarelo, ocre e castanho, geralmente com labelo mais claro e contrastante. Seu formato já revela a melhor estratégia de cultivo: muita claridade filtrada, ar em movimento e raízes que recebam uma boa rega, mas sequem rapidamente antes da próxima rega.",
+    "descricao": "Trichocentrum fuscum é uma orquídea epífita de porte compacto, com pseudobulbos muito discretos e uma folha por crescimento. As folhas são achatadas, elípticas e coriáceas, por vezes marcadas por pequenas manchas avermelhadas. Junto aos novos brotos surgem hastes curtas, geralmente com uma a três flores de tons castanhos ou amarelo-acastanhados. O labelo branco, às vezes salpicado de rosa, amarelo ou castanho, forma um contraste expressivo e apresenta um esporão curvado. Nativa de diferentes regiões da América do Sul tropical, inclusive do Brasil, ocorre tanto em florestas úmidas quanto em formações de restinga florestal.",
     "origem": "América do Sul tropical",
-    "regiao": "América do Sul tropical",
-    "habitat": "Floresta tropical úmida; epífita.",
+    "regiao": "América do Sul tropical, incluindo todas as regiões do Brasil",
+    "habitat": "Epífita de florestas tropicais úmidas, Cerrado e restingas florestais.",
     "clima": "Quente a intermediário, ventilado.",
     "climaFloracao": "A floração é favorecida por alta luminosidade filtrada, folhas maduras, ventilação intensa e raízes que alternam hidratação com secagem rápida. Não necessita de repouso absolutamente seco, mas após maturação e nos meses frios o intervalo entre regas deve aumentar.",
     "iluminacao": {
-        "sombrite": "40% a 50%",
+        "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
         "horario": "Início da manhã ou final da tarde",
         "observacoes": "Requer claridade elevada. Folhas verde-oliva e compactas indicam boa luz; folhas muito escuras sugerem sombra. Manchas claras, secas ou amarelamento forte indicam excesso de sol sem aclimatação."
     },
-    "floracao": "Mais frequente da primavera ao verão, aproximadamente de setembro a fevereiro. As hastes surgem da base de crescimentos maduros e carregam flores em tons ocres, amarelados e castanhos. Boa luz durante a maturação é determinante para a emissão floral.",
+    "floracao": "Pode florescer em diferentes épocas conforme a procedência e as condições ambientais. Hastes curtas, geralmente com uma a três flores castanhas ou amarelo-acastanhadas e labelo claro, surgem junto aos novos crescimentos. Registros de campo brasileiros incluem flores em diferentes meses do ano.",
     "adubacao": "🌿 Orgânica: bokashi somente em dose mínima e apenas para plantas envasadas, longe das raízes.\n💧 Mineral/Foliar: NPK equilibrado em 1/3 a 1/2 da dose a cada 15 dias durante crescimento ativo.\n🧪 Liberação lenta: Osmocote em pequena quantidade somente em cachepôs ou vasos.\n🚿 Lavagem: lave raízes e suporte periodicamente para impedir concentração de sais.",
     "rega": "Molhe abundantemente e espere raízes e suporte secarem quase por completo antes de repetir. Em plantas montadas, pode haver rega diária no verão se a secagem ocorrer em poucas horas. No inverno, reduza significativamente a frequência. Nunca deixe água acumulada na base foliar, sobretudo à noite.",
     "suporte": "🥇 Placa de madeira, cortiça ou tronquinho — reproduz melhor a secagem rápida do habitat.\n🥈 Cachepô pequeno e muito vazado — mantém raízes expostas ao ar.\n🥉 Vaso pequeno de barro com muitos furos — alternativa para ambientes mais secos.\nUse pouca ou nenhuma retenção ao redor das raízes.",
@@ -55,8 +55,8 @@ export const trichocentrumFuscum = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal sem substrato; receita alternativa para vaso pequeno",
         resumo: "Em placa, não colocar material retentivo junto às raízes. Para vaso, partículas grossas e drenantes favorecem secagem rápida.",
-        justificativa: "A montagem principal em placa ou tronco dispensa substrato volumoso. Para vaso pequeno e perfurado, a receita visual alternativa reúne casca de pinus grossa, brita fina de granulometria compatível e carvão vegetal grosso, com soma de 100%; a receita textual e os itens visuais concordam. As duas outras misturas são alternativas qualitativas distintas, não quantificadas. A brita pode aumentar o peso do vaso e sua granulometria deve ser conferida para não compactar; controlar a secagem sem excesso de retenção. MACS 1.1: percentuais e classificação dos suportes sem homologação quantitativa específica",
-        receitaTexto: "45% casca de pinus grossa + 30% brita fina de granulometria compatível + 25% carvão vegetal grosso.",
+        justificativa: "A montagem principal em placa ou tronco dispensa substrato volumoso. Para vaso pequeno e perfurado, a receita visual adapta orientação brasileira específica de partes iguais de casca de pinus, carvão vegetal e pedra brita, arredondada para 34/33/33% a fim de totalizar 100%; não é um ensaio experimental. A receita textual e os itens visuais concordam. As duas outras misturas são alternativas qualitativas distintas, não quantificadas. A brita pode aumentar o peso do vaso e sua granulometria deve ser conferida para não compactar; controlar a secagem sem excesso de retenção. MACS 1.1: percentuais e classificação dos suportes sem homologação quantitativa específica",
+        receitaTexto: "34% casca de pinus grossa + 33% brita fina de granulometria compatível + 33% carvão vegetal grosso.",
         perfil: ["Epífita", "Raízes expostas", "Baixa retenção", "Secagem rápida", "Ventilação elevada"],
         comportamento: [
             { nome: "Retenção", valor: 1, icone: "💧" },
@@ -65,23 +65,23 @@ export const trichocentrumFuscum = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "45%", nota: "estrutura", finalidade: "Mantém espaços amplos de ar." },
-            { asset: "brita-fina", nome: "Brita fina de granulometria compatível", proporcao: "30%", nota: "drenagem", finalidade: "Evita retenção prolongada de água." },
-            { asset: "carvao-vegetal", nome: "Carvão vegetal grosso", proporcao: "25%", nota: "aeração", finalidade: "Contribui para porosidade e secagem rápida." }
+            { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "34%", nota: "estrutura", finalidade: "Mantém espaços amplos de ar." },
+            { asset: "brita-fina", nome: "Brita fina de granulometria compatível", proporcao: "33%", nota: "drenagem", finalidade: "Evita retenção prolongada de água." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal grosso", proporcao: "33%", nota: "aeração", finalidade: "Contribui para porosidade e secagem rápida." }
         ],
         alerta: "Evitar esfagno no centro das raízes, vaso grande, sombra excessiva, água acumulada na base das folhas e regar antes da secagem.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Trichocentrum fuscum, epífita compacta de folhas carnosas, baixa retenção e secagem rápida. Cultivo principal em placa/tronco sem substrato; suportes placa/tronco 5 estrelas, cachepô madeira 4, barro 3, não homologados. Receita visual alternativa para vaso: 45% pinus grosso + 30% brita fina + 25% carvão grosso = 100%; receitaTexto e itens concordam. A receita visual é alternativa específica para vaso; as duas misturas qualitativas são distintas e não equivalem à fórmula percentual. Avaliar peso e granulometria da brita fina e retenção do pinus em vaso pequeno, com secagem rápida. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Trichocentrum fuscum, epífita compacta de folhas carnosas, baixa retenção e secagem rápida. Cultivo principal em placa/tronco sem substrato; suportes placa/tronco 5 estrelas, cachepô madeira 4, barro 3, não homologados. Receita visual alternativa para vaso: 34% pinus grosso + 33% brita fina + 33% carvão grosso = 100%; receitaTexto e itens concordam. A receita visual é alternativa específica para vaso; as duas misturas qualitativas são distintas e não equivalem à fórmula percentual. Avaliar peso e granulometria da brita fina e retenção do pinus em vaso pequeno, com secagem rápida. Orquídeas Encanto e Paixão (2020) recomenda para esta espécie partes iguais de pinus, carvão e brita, com montagem em tronco como preferência; 34/33/33% é arredondamento matemático dessa receita, não ensaio. Manual ESALQ/USP oferece orientação geral para o gênero Trichocentrum montado. POWO aceita Trichocentrum fuscum Lindl. (1837), com T. pinelii como sinônimo heterotípico e ocorrência nas cinco macrorregiões brasileiras. Estudo florístico do Xingu descreve uma folha achatada, pseudobulbos discretos e 1–3 flores por haste, divergindo de interpretação excessivamente suculenta. Uma orientação brasileira específica quantitativa identificada; meta de 25 produtores não atingida. Percentuais derivados de recomendação horticultural, não experimentalmente HOMOLOGADOS."
     },
     "errosComuns": "Sombra excessiva; vaso grande; regar novamente antes da secagem; substrato compacto; água acumulada na base das folhas; pouca ventilação; adubo forte; manter molhado no inverno; excesso de esfagno; replantar fora da emissão de raízes.",
     "dica": "Use a própria suculência das folhas como guia: a planta foi construída para armazenar água, não para permanecer molhada. Molhe completamente, ventile e deixe o sistema radicular secar quase por inteiro antes da próxima rega. Montagem em madeira ou recipiente extremamente vazado torna esse ciclo muito mais seguro.",
     revisaoCientificaIAR: {
         "nome": "Trichocentrum fuscum",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Compacta e de aparência quase suculenta, Trichocentrum fuscum se destaca pelas folhas grossas e carnosas, que armazenam água e permitem à planta atravessar períodos de secagem entre as chuvas. É uma epífita da América do Sul tropical e produz flores em tons de amarelo, ocre e castanho, geralmente com labelo mais claro e contrastante. Seu formato já revela a melhor estratégia de",
-        "habitatAltitudeClima": "Floresta tropical úmida; epífita. | Quente a intermediário, ventilado.",
-        "distribuicaoGeografica": "América do Sul tropical.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "statusTaxonomico": "Trichocentrum fuscum Lindl. (1837), espécie aceita em POWO, epífita sul-americana.",
+        "sinonimosPrincipais": "Trichocentrum pinelii, T. cornucopiae, T. hartii, T. mattogrossense e T. wagneri, sinônimos heterotípicos em POWO.",
+        "morfologiaDimensoes": "Pseudobulbos discretos de 0,5–1 cm, uma folha plana de 6–11 × 1,8–2,5 cm, haste lateral de 3–5 cm com 1–3 flores, labelo claro e esporão inflexo; dados de levantamento florístico do Xingu.",
+        "habitatAltitudeClima": "Epífita em florestas tropicais úmidas, Cerrado e restingas florestais; CNCFlora 2012 e levantamentos florísticos brasileiros.",
+        "distribuicaoGeografica": "América do Sul tropical; no Brasil, Norte, Nordeste, Centro-Oeste, Sudeste e Sul (POWO).",
+        "cultivoPremiacao": "Orquídeas Encanto e Paixão (2020) recomenda montagem e, para vaso, partes iguais de pinus, carvão e brita; evidência horticultural, não experimento.",
         "confianca": "media",
         "fontes": [
             "POWO/Kew",
@@ -211,16 +211,16 @@ export const trichocentrumFuscum = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, adapta-se muito bem, especialmente montada. Ofereça luz forte filtrada, ventilação permanente e evite regas tardias ou retenção noturna.",
+        "litoralQuente": "Em clima quente, adapta-se muito bem, especialmente montada. Ofereça luz forte filtrada, ventilação permanente e evite regas tardias ou retenção noturna.",
         "montanhaFrio": "No inverno, aumente bastante o intervalo de regas e proteja de frio intenso e ventos gelados."
     },
     "mesesFloracao": [
-        9,
-        10,
-        11,
-        12,
         1,
-        2
+        2,
+        6,
+        8,
+        9,
+        11
     ],
     "selosCultivo": {
         "rega": { "nivel": "muito-frequente", "regime": "reduzir-inverno" },
