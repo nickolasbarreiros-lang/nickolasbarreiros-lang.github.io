@@ -51,8 +51,8 @@ export const brassavolaPerrini = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso ou cesto",
         resumo: "Mistura grossa, de baixa retenção, com macroporos persistentes e secagem rápida.",
-        justificativa: "MACS 1.1: Placa/tronco é a forma principal, com suporte em IOSPE e orientações de cultivo de Brassavola. Para vaso/cesto, esta mistura de cascas, carvão e brita é uma hipótese horticultural de baixa retenção; a Casca de macadâmia e os percentuais não possuem validação específica para Brassavola tuberculata. Não atribuir superioridade experimental à receita e ajustar regas à secagem real.",
-        receitaTexto: "35% Casca de macadâmia + 25% Carvão vegetal + 20% Casca de pinus + 20% Brita (por volume, proposta D não homologada).",
+        justificativa: "Brassavola perrinii se beneficia de raízes expostas e ventiladas, por isso a placa ou o tronco permanecem como forma principal de cultivo. Em vaso ou cesto aberto, as cascas de macadâmia e pinus dão sustentação, enquanto o carvão e a brita favorecem a drenagem rápida. Deixe as raízes secarem entre regas, sem prolongar excessivamente a seca durante o crescimento ativo.",
+        receitaTexto: "35% Casca de macadâmia + 25% Carvão vegetal + 20% Casca de pinus + 20% Brita (por volume).",
         perfil: ["Raízes epífitas", "Aeração máxima", "Baixa retenção", "Secagem rápida", "Granulometria grossa", "Baixa compactação"],
         itens: [
             { asset: "macadamia", nome: "Casca de macadâmia", proporcao: "35%", nota: "estrutura", finalidade: "Usar partículas grossas, mantendo espaços de ar e apoio radicular." },
