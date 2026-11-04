@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 118 — Cattleya A Brazilian Dream
-Data 2026-11-04. EM ANDAMENTO. Não avançar à matriz 119 até encerramento.
+Data 2026-11-04. ENCERRADA COMO AUDITADA; HOMOLOGAÇÃO QUANTITATIVA NÃO OBTIDA (D).
 
 ## Identidade e limites
 Grex horticultural Cattleya A Brazilian Dream, cruzamento C. nobilior × C. loddigesii, sem habitat natural próprio. Condições de cultivo inferidas dos parentais e da observação de crescimento; não converter inferência em ensaio. Registro de 2019 informado na ficha ainda requer comprovação primária de RHS, portanto não representa evidência de substrato.
@@ -14,4 +14,7 @@ Sem perlita; receitas não validadas experimentalmente.
 ## Assets e fotos
 Quatro arquivos existentes em imagens/Cattleya A Brazilian Dream/. Chaves visuais existentes: casca-macadamia, casca-pinus, casca-arroz-carbonizada, carvao, fibra-coco, argila-expandida, cesto-madeira, vaso-barro, placa-tronco, vaso-plastico-vasado. Nenhum asset de brita necessário.
 Correção publicada no commit 6b89f1937b57995fa35e746842981900a578a85f.
-Pendente teste Chromium desktop/mobile e encerramento técnico.
+Teste Chromium desktop/mobile aprovado; encerramento técnico registrado.
+
+## Encerramento técnico — 2026-11-04
+Chromium/Playwright https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41765578409: **success** em todas as etapas, incluindo inspeção da ficha e upload das capturas. Quatro fotos e dez referências visuais confirmadas. Receitas A/B/C somam 100%, sem perlita. Resultado científico final **D — sem homologação quantitativa**, por ausência de ensaio específico e de amostra documentada de 25 produtores independentes. Encerramento técnico sem pendências; insuficiência científica explicitamente documentada. Liberada matriz 119.
