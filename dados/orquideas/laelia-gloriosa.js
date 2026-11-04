@@ -20,10 +20,10 @@ export const laeliaGloriosa = {
         "imagens/Laelia gloriosa/Laelia gloriosa3.jpeg",
         "imagens/Laelia gloriosa/Laelia gloriosa4.jpeg"
     ],
-    descricao: "Uma orquídea feita para chamar atenção à distância! Laelia gloriosa forma touceiras grandes, com pseudobulbos robustos e hastes florais que podem ultrapassar 1 metro, terminando em cachos de numerosas flores onduladas e vistosas. É uma espécie tropical do norte da América do Sul e da Amazônia, encontrada geralmente entre cerca de 200 e 850 m, onde cresce em árvores bem iluminadas e ventiladas. Seu cultivo combina calor, muita claridade, água abundante durante o crescimento e secagem rápida das raízes.",
+    descricao: "Laelia gloriosa é uma orquídea de grande porte, com pseudobulbos alongados e robustos, normalmente terminados em duas ou três folhas firmes. Suas inflorescências podem alcançar aproximadamente um metro e exibem várias flores agrupadas na extremidade, com segmentos ondulados em tons castanhos e labelo contrastante. Ocorre em diferentes ambientes tropicais da América do Sul, desde florestas úmidas até formações mais sazonais. No Brasil, há registros em diversos biomas, inclusive sobre árvores e afloramentos rochosos. O antigo nome Schomburgkia gloriosa permanece conhecido entre colecionadores; a identidade da espécie foi historicamente confundida com outras laélias de flores onduladas.",
     origem: "Norte da América do Sul",
-    regiao: "Venezuela · Colômbia · Equador · Guianas · norte do Brasil",
-    habitat: "Florestas tropicais · epífita · ~200–850 m.",
+    regiao: "América do Sul tropical; Brasil em várias regiões",
+    habitat: "Florestas e formações sazonais · epífita ou rupícola; altitude variável.",
     clima: "Quente · úmido · alta luz · ventilado.",
     climaFloracao: "Pseudobulbos maduros, luminosidade elevada e raízes saudáveis favorecem hastes fortes. Após o crescimento, aumente moderadamente o intervalo entre regas, sem provocar desidratação severa. Por ser uma espécie tropical de baixa a média altitude, não necessita de frio intenso para florescer.",
     iluminacao: {
@@ -65,20 +65,20 @@ export const laeliaGloriosa = {
             { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta a touceira com boa porosidade." },
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "apoio radicular", finalidade: "Permite fixação das raízes e umidade moderada." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Mantém drenagem e espaços de ar." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta do cachepô." }
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta do cachepô." }
         ],
         alerta: "Não usar recipiente instável, substrato compacto ou sombra excessiva. Reservar espaço para haste floral longa e evitar manter as raízes permanentemente molhadas.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Laelia gloriosa (sin. Schomburgkia gloriosa), epífita tropical de grande porte; demanda suporte estável, rizoma expansivo, raízes ventiladas e secagem perceptível. Suportes cachepô madeira 5 estrelas, barro e árvore viva 4, placa/tronco 3: ranking horticultural sem comparação específica. Receita visual 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% macadâmia, 30% pinus, 20% perlita, 15% carvão). As duas alternativas qualitativas são distintas e não equivalem à principal. Necessidade de conferir desempenho estrutural e estabilidade de cesto grande é inferência de cultivo, não validação de percentuais. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Laelia gloriosa (sin. Schomburgkia gloriosa), epífita tropical de grande porte; demanda suporte estável, rizoma expansivo, raízes ventiladas e secagem perceptível. Suportes cachepô madeira 5 estrelas, barro e árvore viva 4, placa/tronco 3: ranking horticultural sem comparação específica. Receita visual 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% macadâmia, 30% pinus, 20% perlita, 15% carvão). As duas alternativas qualitativas são distintas e não equivalem à principal. Necessidade de conferir desempenho estrutural e estabilidade de cesto grande é inferência de cultivo, não validação de percentuais. POWO aceita Laelia gloriosa e inclui ocorrências no Brasil em Norte, Nordeste, Centro-Oeste, Sudeste e Sul, além de Colômbia, Equador, Guiana, Suriname e Venezuela. Flora do Brasil 2020 documenta epifitismo e rupicolismo, pseudobulbos de 9–15 cm, folhas de 20–23 cm, hastes de 90–100 cm e segmentos florais castanho-escuros. IOSPE registra flores 8–15 de 5–6,25 cm e haste até 120 cm. Schomburgkia crispa sensu Lindley é fonte histórica de confusão, não se deve tratá-la como sinônimo indiscriminado. Nenhum produtor brasileiro com receita quantitativa específica foi confirmado nesta passagem; meta até 25 não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: "Cultivar em sombra; usar recipiente leve e instável; empregar substrato fino ou compactado; manter raízes constantemente molhadas; dar pouco espaço ao rizoma; não reservar espaço vertical para a haste; deixar água acumulada em brotos novos; adubar raízes secas com solução concentrada; usar Schomburgkia crispa como sinônimo; cortar haste ainda verde.",
     dica: "🏆 Planeje o cultivo para o tamanho adulto. Use cesto robusto ou vaso pesado, dê espaço ao rizoma e reserve área livre para uma haste que pode passar de 1 metro. No crescimento, forneça água e nutrição com generosidade; depois, mantenha muita luz e apenas reduza moderadamente as regas.",
     revisaoCientificaIAR: {
         "nome": "Laelia gloriosa",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma orquídea feita para chamar atenção à distância! Laelia gloriosa forma touceiras grandes, com pseudobulbos robustos e hastes florais que podem ultrapassar 1 metro, terminando em cachos de numerosas flores onduladas e vistosas. É uma espécie tropical do norte da América do Sul e da Amazônia, encontrada geralmente entre cerca de 200 e 850 m, onde cresce em árvores bem iluminad",
-        "habitatAltitudeClima": "Florestas tropicais · epífita · ~200–850 m. | Quente · úmido · alta luz · ventilado.",
-        "distribuicaoGeografica": "Venezuela, Colômbia, Equador, Guianas e norte do Brasil.",
+        "statusTaxonomico": "Laelia gloriosa aceita em POWO; Schomburgkia gloriosa é sinônimo homotípico.",
+        "sinonimosPrincipais": "Schomburgkia gloriosa; Bletia gloriosa; Schomburgkia fimbriata (sinônimo heterotípico).",
+        "morfologiaDimensoes": "Pseudobulbos 9–15 cm, folhas 20–23 × 5–6 cm, inflorescências 90–100 cm; flores de segmentos castanho-escuros (Flora do Brasil 2020).",
+        "habitatAltitudeClima": "Epífita ou rupícola em florestas e formações sazonais; altitude variável conforme a população.",
+        "distribuicaoGeografica": "América do Sul tropical; no Brasil, registros nas cinco macrorregiões segundo POWO e Flora do Brasil 2020.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
         "confianca": "alta",
         "fontes": [
