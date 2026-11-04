@@ -20,7 +20,7 @@ export const oncidiumTwinkle = {
         "imagens/Oncidium Twinkle/Oncidium Twinkle3.jpg",
         "imagens/Oncidium Twinkle/Oncidium Twinkle4.webp"
     ],
-    "descricao": "Pequeno no tamanho e enorme no perfume! Oncidium Twinkle é um híbrido compacto que forma touceiras cheias e pode produzir várias hastes ramificadas ao mesmo tempo, criando uma verdadeira nuvem de flores. O aroma é um de seus maiores atrativos, variando entre notas de baunilha, chocolate, frutas e confeitaria conforme o clone. Registrado em 1958, combina Oncidium cheirophorum e Oncidium sotoanum, dois parentais de ambientes úmidos e relativamente amenos; por isso, no litoral quente, ele aprecia especialmente noites mais frescas, raízes arejadas e boa ventilação.",
+    "descricao": "Pequeno no tamanho e enorme no perfume! Oncidium Twinkle é um híbrido compacto que forma touceiras cheias e pode produzir várias hastes ramificadas ao mesmo tempo, criando uma verdadeira nuvem de flores. O aroma é um de seus maiores atrativos, variando entre notas de baunilha, chocolate, frutas e confeitaria conforme o clone. Registrado em 1958, combina Oncidium cheirophorum e Oncidium sotoanum, dois parentais de ambientes úmidos e relativamente amenos; por isso, no litoral quente, ele aprecia especialmente noites mais frescas, raízes arejadas e boa ventilação. A folhagem estreita e os pseudobulbos discretos contrastam com a abundância de flores, que podem variar do branco ao amarelo e ao rosado entre diferentes cultivares.",
     "origem": "Híbrido horticultural",
     "regiao": "Sem distribuição natural · grex registrado em 1958",
     "habitat": "Sem habitat natural · parentais montanos.",
