@@ -38,7 +38,7 @@ export const stanhopeaAssidensis = {
         metodos: [
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cesta suspensa com ripas espaçadas e fundo livre; conferir a passagem das hastes por baixo." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa condicionada", texto: "Somente cesto plástico amplamente perfurado, inclusive no fundo, sem bloquear as hastes descendentes." },
-            { nome: "Raízes soltas", asset: "raizes-soltas", estrelas: 3, status: "Uso condicional", texto: "Cesto aramado muito aberto, com camada fina e solta de fibra de coco ou esfagno para reter umidade." }
+            { nome: "Raízes Soltas", asset: "raizes-soltas", estrelas: 3, status: "Uso condicional", texto: "Cesto aramado muito aberto, com camada fina e solta de fibra de coco ou esfagno para reter umidade." }
         ]
     },
     substratoVisual: {
