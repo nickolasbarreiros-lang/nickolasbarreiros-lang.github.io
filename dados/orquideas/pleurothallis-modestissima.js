@@ -29,7 +29,7 @@ export const pleurothallisModestissima = {
     "regiao": "Sudeste brasileiro · Minas Gerais",
     "habitat": "Epífita · floresta tropical sazonalmente seca.",
     "clima": "Intermediário a quente · ventilado · sazonal.",
-    "climaFloracao": "A informação ecológica mais segura é sua associação a ambientes sazonalmente secos de Minas Gerais. Portanto, não deve ser cultivada como uma Pleurothallidinae permanentemente encharcada. No litoral quente, mantenha umidade ambiental, sombra clara e ventilação, permitindo que o suporte perca parte da água entre regas. Uma redução moderada na fase menos ativa é mais coerente do que um repouso frio ou seco rígido.",
+    "climaFloracao": "A informação ecológica mais segura é sua associação a ambientes sazonalmente secos de Minas Gerais. Portanto, não deve ser cultivada como uma Pleurothallidinae permanentemente encharcada. Em clima quente, mantenha umidade ambiental, sombra clara e ventilação, permitindo que o suporte perca parte da água entre regas. Uma redução moderada na fase menos ativa é mais coerente do que um repouso frio ou seco rígido.",
     "iluminacao": {
         "sombrite": "65% a 80%",
         "solDireto": "Não permitido",
@@ -46,16 +46,16 @@ export const pleurothallisModestissima = {
         "destaque": "Vaso plástico baixo",
         "resumo": "O crescimento rasteiro favorece vaso plástico baixo e relativamente largo, com excelente drenagem, permitindo expansão horizontal sem uma coluna profunda de substrato úmido.",
         "metodos": [
-            { "nome": "Vaso plástico baixo", "asset": "acianthera-modestissima-vaso", "estrelas": 5, "status": "Ideal", "texto": "É a opção mais prática para acompanhar o crescimento rasteiro. Use recipiente baixo, relativamente largo e com drenagem abundante, mantendo rizoma e brotações na superfície." },
+            { "nome": "Vaso plástico baixo", "asset": "acianthera-modestissima-vaso", "estrelas": null, "status": "Ideal", "texto": "É a opção mais prática para acompanhar o crescimento rasteiro. Use recipiente baixo, relativamente largo e com drenagem abundante, mantendo rizoma e brotações na superfície." },
             {
                 "nome": "Árvore viva",
                 "asset": "arvore-viva",
-                "estrelas": 4,
+                "estrelas": null,
                 "status": "Muito recomendado",
                 "texto": "Alternativa naturalista para cultivo epífito, desde que fixada em casca rugosa, com boa ventilação e umidade regular sem encharcamento."
             },
-            { "nome": "Vaso de barro", "asset": "vaso-barro", "estrelas": 3, "status": "Adequado", "texto": "Pode funcionar com mistura aberta, mas acelera a secagem e exige maior controle das regas no litoral quente." },
-            { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": 3, "status": "Adequado", "texto": "É possível, mas exige regas mais frequentes e oferece menos espaço horizontal controlado que um vaso baixo." }
+            { "nome": "Vaso de barro", "asset": "vaso-barro", "estrelas": null, "status": "Adequado", "texto": "Pode funcionar com mistura aberta, mas acelera a secagem e exige maior controle das regas em clima quente." },
+            { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": null, "status": "Adequado", "texto": "É possível, mas exige regas mais frequentes e oferece menos espaço horizontal controlado que um vaso baixo." }
         ]
     },
     "substratoVisual": {
@@ -78,7 +78,7 @@ export const pleurothallisModestissima = {
             { "asset": "esfagno", "nome": "Esfagno de fibra longa solto", "proporcao": "15%", "nota": "reserva hídrica localizada", "finalidade": "Evita secagem abrupta das raízes finas sem manter o vaso encharcado." }
         ],
         "alerta": "Use camada rasa de substrato e mantenha o rizoma sobre a superfície. O vaso deve permitir expansão lateral; evite recipientes fundos.",
-        "notaEvidencia": "MACS 1.1 — revisão documental: Acianthera modestissima (sin. Pleurothallis modestissima), micro-orquídea epífita de floresta sazonalmente seca, com raízes finas e crescimento rasteiro. Vaso plástico baixo e largo é suporte principal; estrelas heurísticas. Receita visual e receitaTexto agora coincidem: 35% pinus fino + 30% brita pequena limpa e sem pó + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/casca de arroz carbonizada/carvão e pinus/perlita para miniaturas/pouco esfagno solto. Elas não originam os percentuais visuais. Afirmação anterior de ocorrência saxícola em afloramentos quartzíticos foi retirada por falta de confirmação específica; brita é proposta de drenagem, não evidência de habitat. Monitorar granulometria, retenção do esfagno, secagem e rizoma superficial. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
+        "notaEvidencia": "MACS 1.1 — revisão documental: Acianthera modestissima (sin. Pleurothallis modestissima), micro-orquídea epífita de floresta sazonalmente seca, com raízes finas e crescimento rasteiro. Vaso plástico baixo e largo é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e receitaTexto agora coincidem: 35% pinus fino + 30% brita pequena limpa e sem pó + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/casca de arroz carbonizada/carvão e pinus/perlita para miniaturas/pouco esfagno solto. Elas não originam os percentuais visuais. Afirmação anterior de ocorrência saxícola em afloramentos quartzíticos foi retirada por falta de confirmação específica; brita é proposta de drenagem, não evidência de habitat. Monitorar granulometria, retenção do esfagno, secagem e rizoma superficial. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas de suporte omitidas. Classe D — não homologada quantitativamente"
     },
     "errosComuns": "Tratá-la como espécie obrigatoriamente fria; manter esfagno sempre encharcado; secar completamente por vários dias; vaso grande; pouco ar; excesso de adubo; sol forte sobre o suporte; replantar com frequência; usar água muito salina.",
     "dica": "Simule o clima seco da natureza: regue sem encharcar e priorize a ventilação e raízes arejadas, que são tão essenciais quanto a água para esta micro-orquídea.",
@@ -151,7 +151,7 @@ export const pleurothallisModestissima = {
         "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
         "litoralQuente": {
             "indice": 47,
-            "estrelas": 3,
+            "estrelas": null,
             "fatores": {
                 "habitatNatural": {
                     "nota": 2,
@@ -185,7 +185,7 @@ export const pleurothallisModestissima = {
         },
         "montanhaFrio": {
             "indice": 96,
-            "estrelas": 5,
+            "estrelas": null,
             "fatores": {
                 "habitatNatural": {
                     "nota": 5,
