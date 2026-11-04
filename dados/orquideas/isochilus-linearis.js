@@ -19,7 +19,7 @@ export const isochilusLinearis = {
     regiao: "Caribe · América Central · América do Sul",
     habitat: "Florestas tropicais úmidas · hábito principalmente epífito ou rupícola · 300–3.900 m.",
     clima: "Intermediário a quente · ampla tolerância.",
-    climaFloracao: "A faixa altitudinal documentada é excepcionalmente ampla, de cerca de 300 a 3.900 m, mas muitas coletas concentram-se aproximadamente entre 600 e 1.200 m. Por isso não é correto classificar toda a espécie como fria ou quente. No litoral, trabalhe com o comportamento intermediário: luz filtrada, boa ventilação e umidade regular, especialmente porque os caules não possuem grande reserva de água. Não necessita repouso seco.",
+    climaFloracao: "A faixa altitudinal documentada é excepcionalmente ampla, de cerca de 300 a 3.900 m, mas muitas coletas concentram-se aproximadamente entre 600 e 1.200 m. Por isso não é correto classificar toda a espécie como fria ou quente. Em clima quente, trabalhe com o comportamento intermediário: luz filtrada, boa ventilação e umidade regular, especialmente porque os caules não possuem grande reserva de água. Não necessita repouso seco.",
     iluminacao: {
         sombrite: "50% a 70%",
         solDireto: "Permitido com restrição",
@@ -36,10 +36,10 @@ export const isochilusLinearis = {
         destaque: "Cachepô de Madeira",
         resumo: "Espécie de caules finos e sem pseudobulbos, formando touceiras densas. Requer umidade regular com raízes oxigenadas, boa ventilação e proteção contra calor excessivo e seca prolongada.",
         metodos: [
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô bem vazado para a expansão da touceira, com mistura leve e atenção à umidade regular." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e raso, com mistura porosa; observar a secagem mais rápida das paredes." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e muito perfurado para preservar umidade sem encharcar as raízes." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Cortiça ou madeira com lâmina fina de esfagno sob as raízes, somente com alta umidade e regas frequentes." }
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Mais recomendado na ficha", texto: "Cachepô bem vazado para a expansão da touceira, com mistura leve e atenção à umidade regular." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa", texto: "Vaso pequeno e raso, com mistura porosa; observar a secagem mais rápida das paredes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa", texto: "Vaso pequeno e muito perfurado para preservar umidade sem encharcar as raízes." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Uso condicional", texto: "Cortiça ou madeira com lâmina fina de esfagno sob as raízes, somente com alta umidade e regas frequentes." }
         ]
     },
     substratoVisual: {
@@ -61,7 +61,7 @@ export const isochilusLinearis = {
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "20%", nota: "umidade moderada", finalidade: "Ajuda a evitar secagem prolongada, sem encharcar." }
         ],
         alerta: "Evitar seca prolongada, vaso grande e profundo, sombra excessiva, calor abafado e substrato compactado. Preservar touceiras saudáveis.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Isochilus linearis, epífita/rupícola de caules finos sem pseudobulbos, ampla variação de procedências e altitudes; requer umidade regular e aeração, evitando secagem prolongada e calor abafado. Cachepô de Madeira bem vazado é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 45% pinus fino + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Elas não fundamentam os percentuais visuais; removida alegação incorreta de duas granulometrias de perlita e de montagem como receita principal. Monitorar secagem, retenção do esfagno e procedência altitudinal. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
+        notaEvidencia: "MACS 1.1 — revisão documental: Isochilus linearis, epífita/rupícola de caules finos sem pseudobulbos, ampla variação de procedências e altitudes; requer umidade regular e aeração, evitando secagem prolongada e calor abafado. Cachepô de Madeira bem vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 45% pinus fino + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Elas não fundamentam os percentuais visuais; removida alegação incorreta de duas granulometrias de perlita e de montagem como receita principal. Monitorar secagem, retenção do esfagno e procedência altitudinal. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente"
     },
     errosComuns: "Impor seca prolongada; cultivar em sombra excessiva; usar vaso profundo e grande; manter substrato velho ou compactado; aplicar adubo concentrado; cultivar em local abafado; deixar a touceira superaquecer; confundir umidade regular com encharcamento; dividir frequentemente uma colônia saudável.",
     dica: "A melhor forma de entender essa espécie é observar seus caules. Como não há pseudobulbos robustos para funcionar como reserva, caules enrugados e folhas perdendo firmeza indicam que a planta ficou seca demais. Mantenha água disponível sem sacrificar a aeração e preserve touceiras grandes: elas estabilizam o microclima e florescem com muito mais impacto.",
