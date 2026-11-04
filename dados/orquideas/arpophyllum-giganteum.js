@@ -51,8 +51,8 @@ export const arpophyllumGiganteum = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura estrutural de longa duração, com boa reserva hídrica e ampla aeração para uma touceira adulta que não deve ser replantada desnecessariamente.",
-        justificativa: "Arpophyllum giganteum forma touceiras grandes e precisa de recipiente estável, substrato aerado e umidade moderada sem encharcamento persistente. A receita principal reúne macadâmia média, pinus médio, carvão médio, casca de arroz carbonizada e 10% de esfagno de fibra longa solto, totalizando 100% em volume. É uma proposta horticultural, não fórmula quantitativa homologada para a espécie. As duas outras misturas são alternativas qualitativas, sem percentuais específicos validados. Monitorar a secagem no centro do vaso e evitar replantios desnecessários. MACS 1.1: evidência quantitativa específica insuficiente.",
-        receitaTexto: "Mistura-base provisória para cultivo em vaso: 35% casca de macadâmia média + 25% casca de pinus média + 20% carvão vegetal médio + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto. Ajustar granulometria e rega conforme secagem observada.",
+        justificativa: "Arpophyllum giganteum forma touceiras volumosas e precisa de recipiente firme, com espaço para as raízes e substrato bem ventilado. As cascas de macadâmia e pinus dão sustentação, o carvão e a casca de arroz carbonizada ajudam a manter a mistura aberta e o esfagno solto conserva uma pequena reserva de umidade. Observe a secagem no centro do vaso, evite encharcamento persistente e não replante sem necessidade.",
+        receitaTexto: "Mistura para cultivo em vaso: 35% casca de macadâmia média + 25% casca de pinus média + 20% carvão vegetal médio + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto. Ajustar granulometria e rega conforme secagem observada.",
         perfil: ["Raízes médias", "Boa aeração", "Umidade moderada", "Secagem moderada", "Alta estabilidade", "Touceira grande"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
