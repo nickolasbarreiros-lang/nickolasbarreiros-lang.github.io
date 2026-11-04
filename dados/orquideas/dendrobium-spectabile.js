@@ -56,8 +56,8 @@ export const dendrobiumSpectabile = {
         titulo: "Substrato ideal",
         contexto: "Proposta para cachepô ou vaso robusto e muito drenante",
         resumo: "Mistura grossa de alta aeração, com retenção moderada e boa secagem entre regas.",
-        justificativa: "Dendrobium spectabile é epífita tropical de porte médio a grande, com raízes que exigem alta aeração, suporte firme e umidade regular no crescimento ativo. Para cachepô de madeira robusto e bem vazado, a receita visual propõe macadâmia grossa, pinus grosso, perlita grossa compatível com o recipiente e carvão vegetal médio/grosso, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não fundamentam os percentuais visuais. Evitar repouso seco severo e dimensionar o suporte para o peso da planta adulta. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
-        receitaTexto: "35% casca de macadâmia grossa + 30% casca de pinus grossa + 20% perlita grossa compatível com o cachepô + 15% carvão vegetal médio/grosso (proposta não homologada).",
+        justificativa: "Dendrobium spectabile é uma epífita tropical de porte médio a grande, que precisa de suporte firme, raízes bem ventiladas e umidade regular durante o crescimento. Em cachepô de madeira robusto e vazado, as cascas grossas de macadâmia e pinus dão sustentação, enquanto a perlita e o carvão ajudam a manter a mistura drenante. Dimensione o recipiente para o peso da planta adulta e evite repouso seco severo.",
+        receitaTexto: "35% casca de macadâmia grossa + 30% casca de pinus grossa + 20% perlita grossa compatível com o cachepô + 15% carvão vegetal médio/grosso.",
         perfil: ["Epífita tropical", "Porte médio a grande", "Raízes aeradas", "Umidade no crescimento", "Sem repouso seco severo"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
