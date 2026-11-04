@@ -56,7 +56,7 @@ export const cattliantheCttJewelBox = {
         "titulo": "Substrato ideal",
         "contexto": "Mistura proposta para vaso perfurado",
         "resumo": "Composição aberta de granulometria média para sustentar touceiras vigorosas sem reter água em excesso.",
-        "justificativa": "A receita visual combina casca de macadâmia média, pinus médio, perlita grossa e carvão vegetal. A receita principal textual coincide com a composição visual. As duas alternativas qualitativas são distintas: uma usa chips de coco, a outra argila expandida. Os percentuais são hipótese horticultural, sem validação quantitativa específica conforme MACS 1.1.",
+        "justificativa": "Cattlianthe Jewel Box se beneficia de raízes bem ventiladas e secagem perceptível entre regas. As cascas de macadâmia e pinus oferecem apoio e estrutura, enquanto a perlita e o carvão ajudam a manter a mistura aberta e drenante. Observe a secagem do recipiente e evite compactação, especialmente durante a emissão de raízes novas.",
         "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         "perfil": ["Raízes epífitas", "Touceira vigorosa", "Boa sustentação", "Aeração alta", "Secagem moderadamente rápida"],
         "comportamento": [
