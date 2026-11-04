@@ -27,14 +27,14 @@ export const bulbophyllumFalcatum = {
     regiao: "África Ocidental ao sudoeste do Quênia",
     habitat: "Florestas baixas/submontanas · <1.800 m",
     clima: "Quente a intermediário · úmido",
-    climaFloracao: "No habitat, floresce do inverno à primavera após a maturação dos pseudobulbos. Não necessita repouso seco rígido. Uma leve redução natural da temperatura noturna e da evaporação pode acompanhar a indução floral, mas a planta deve continuar hidratada. No litoral quente, priorize noites ventiladas e evite excesso de água quando a evaporação cair.",
+    climaFloracao: "No habitat, floresce do inverno à primavera após a maturação dos pseudobulbos. Não necessita repouso seco rígido. Uma leve redução natural da temperatura noturna e da evaporação pode acompanhar a indução floral, mas a planta deve continuar hidratada. Em clima quente, priorize noites ventiladas e evite excesso de água quando a evaporação cair.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
         horario: "",
-        observacoes: "Sombra clara a meia-sombra. Luz insuficiente pode reduzir vigor e emissão de hastes; sol forte aquece rapidamente folhas e rizoma. No litoral, 60% a 70% de sombreamento com ventilação é mais seguro que sol direto."
+        observacoes: "Sombra clara a meia-sombra. Luz insuficiente pode reduzir vigor e emissão de hastes; sol forte aquece rapidamente folhas e rizoma. Em clima quente, 60% a 70% de sombreamento com ventilação é mais seguro que sol direto."
     },
-    floracao: "Predominantemente do inverno à primavera. No litoral brasileiro, junho a novembro é uma janela de referência mais coerente que primavera-verão rígidos, podendo ocorrer deslocamentos em cultivo.",
+    floracao: "Predominantemente do inverno à primavera. Em condições brasileiras de cultivo, junho a novembro é uma janela de referência mais coerente que primavera-verão rígidos, podendo ocorrer deslocamentos em cultivo.",
     adubacao: "🌿 Orgânica: Bokashi em pequena dose, preferencialmente em sachê e longe do rizoma.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração, cerca de 1/4 da dose, a cada 10 a 15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: opcional, com poucos grânulos em vaso/cesto e redução das demais fontes.\nApós a maturação dos pseudobulbos, reduza a intensidade da adubação, sem suspender a água abruptamente.",
     rega: "Mantenha umidade regular durante o crescimento. Molhe completamente, deixe drenar e volte a regar quando o meio estiver apenas parcialmente seco. Plantas montadas podem precisar de irrigação diária em períodos quentes e secos. No inverno, reduza a frequência conforme a secagem real, sem deixar os pseudobulbos enrugarem por desidratação prolongada.",
     suporte: "🥇 Cesto raso e amplo, deixando a raque floral totalmente livre.\n🥈 Vaso baixo e largo, muito perfurado.\n🥉 Placa de cortiça ou madeira com reserva mínima de umidade.\nO recipiente deve permitir avanço do rizoma e projeção lateral da inflorescência.",
@@ -46,28 +46,28 @@ export const bulbophyllumFalcatum = {
             {
                 "nome": "Cachepô de Madeira",
                 "asset": "cesto-madeira",
-                "estrelas": 5,
+                "estrelas": null,
                 "status": "Ideal",
                 "texto": "Mantém a raque livre e permite expansão do rizoma sem compactar as raízes."
             },
             {
                 "nome": "Vaso plástico vasado",
                 "asset": "vaso-plastico-vasado",
-                "estrelas": 4,
+                "estrelas": null,
                 "status": "Muito recomendado",
                 "texto": "Facilita hidratação regular, desde que não bloqueie a saída das inflorescências."
             },
             {
                 "nome": "Placa / tronco",
                 "asset": "placa-tronco",
-                "estrelas": 4,
+                "estrelas": null,
                 "status": "Muito recomendado",
                 "texto": "Reproduz o hábito epífito; demanda atenção à desidratação."
             },
             {
                 "nome": "Vaso de Barro",
                 "asset": "vaso-barro",
-                "estrelas": 3,
+                "estrelas": null,
                 "status": "Alternativa",
                 "texto": "Estável e ventilado, mas exige observar secagem nas bordas."
             }
@@ -77,8 +77,8 @@ export const bulbophyllumFalcatum = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cachepô de madeira amplo e suspenso ou recipiente muito ventilado",
         "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
-        "justificativa": "Bulbophyllum falcatum possui rizoma rastejante e inflorescência achatada que necessita espaço lateral livre. O cachepô amplo e suspenso é a proposta principal, com rizoma exposto e fixação estável. A receita visual combina pinus médio, chips de coco médios preparados, perlita grossa compatível com raízes finas e esfagno de fibra longa solto, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não originam os percentuais da principal. Manter umidade regular sem compactação nem secagem prolongada. MACS 1.1: formulação horticultural provisória, sem homologação quantitativa específica.",
-        "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa compatível com raízes finas + 15% esfagno de fibra longa solto (proposta não homologada).",
+        "justificativa": "Bulbophyllum falcatum possui rizoma rastejante e inflorescência achatada que necessita espaço lateral livre. O cachepô amplo e suspenso é a proposta principal, com rizoma exposto e fixação estável. A receita visual combina pinus médio, chips de coco médios preparados, carvão vegetal médio e esfagno de fibra longa solto, totalizando 100%. As duas outras misturas são receitas editoriais distintas, sem validação comparativa. Manter umidade regular sem compactação nem secagem prolongada. MACS 1.1: formulação horticultural provisória, sem homologação quantitativa específica.",
+        "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% carvão vegetal médio + 15% esfagno de fibra longa solto (proposta não homologada).",
         "perfil": [
             "Rizoma longo",
             "Raízes finas",
@@ -125,11 +125,11 @@ export const bulbophyllumFalcatum = {
                 "finalidade": "Evita perda de água excessivamente rápida entre regas."
             },
             {
-                "asset": "perlita",
-                "nome": "Perlita grossa compatível com raízes finas",
+                "asset": "carvao",
+                "nome": "Carvão vegetal médio",
                 "proporcao": "25%",
                 "nota": "aeração",
-                "finalidade": "Reduz adensamento e facilita drenagem."
+                "finalidade": "Mantém a estrutura aberta e facilita drenagem sem compactar."
             },
             {
                 "asset": "esfagno",
@@ -140,11 +140,11 @@ export const bulbophyllumFalcatum = {
             }
         ],
         "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura.",
-        "notaEvidencia": "MACS 1.1 — revisão documental: Bulbophyllum falcatum é epífita africana de rizoma rastejante, raízes finas e inflorescência achatada que precisa de passagem lateral livre. Cachepô de Madeira amplo e suspenso é suporte principal; estrelas são heurísticas. Receita visual e textual coincidem: 35% pinus médio + 25% chips de coco médios preparados + 25% perlita grossa compatível com raízes finas + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: esfagno solto/perlita e macadâmia/pinus/perlita/pequena fração de esfagno solto. Elas não originam os percentuais visuais. Monitorar retenção, ventilação, rizoma exposto e passagem livre da raque floral. Não há ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
+        "notaEvidencia": "MACS 1.1 — revisão documental: Bulbophyllum falcatum é epífita africana de rizoma rastejante, raízes finas e inflorescência achatada que precisa de passagem lateral livre. Cachepô de Madeira amplo e suspenso é suporte principal; estrelas são heurísticas. Receita visual e textual coincidem: 35% pinus médio + 25% chips de coco médios preparados + 25% carvão vegetal médio + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas editoriais: pinus/chips coco/esfagno/carvão (40/30/20/10) e macadâmia/pinus/chips coco/esfagno (40/30/20/10). Não há prova de superioridade. Monitorar retenção, ventilação, rizoma exposto e passagem livre da raque floral. Não há ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
     },
-    substrato: ["Esfagno de fibra longa solto + perlita de granulometria compatível com raízes finas","Casca de macadâmia média + casca de pinus média + perlita de granulometria compatível com raízes finas + pequena fração de esfagno de fibra longa solto"],
+    substrato: ["40% casca de pinus média + 30% chips de coco médios preparados + 20% esfagno de fibra longa solto + 10% carvão vegetal médio","40% casca de macadâmia média + 30% casca de pinus média + 20% chips de coco médios preparados + 10% esfagno de fibra longa solto"],
     errosComuns: "• Enterrar o rizoma.\n• Usar vaso estreito e profundo.\n• Bloquear a raque floral contra a borda do vaso.\n• Compactar esfagno.\n• Deixar substrato envelhecer e azedar.\n• Manter calor com ar parado.\n• Permitir ressecamento prolongado.\n• Forçar repouso seco.\n• Aplicar fertilizante concentrado sobre raízes superficiais.",
-    dica: "🏆 Antes da floração, verifique se há espaço lateral livre. A raque achatada é a principal característica da espécie e pode ser deformada ou abortar se ficar presa entre vaso, parede ou outras plantas. No litoral quente, cesto raso, rizoma exposto, sombra clara, umidade regular e ventilação contínua formam a combinação mais segura.",
+    dica: "🏆 Antes da floração, verifique se há espaço lateral livre. A raque achatada é a principal característica da espécie e pode ser deformada ou abortar se ficar presa entre vaso, parede ou outras plantas. Em clima quente, cesto raso, rizoma exposto, sombra clara, umidade regular e ventilação contínua formam a combinação mais segura.",
     revisaoCientificaIAR: {
         "nome": "Bulbophyllum falcatum",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
@@ -214,7 +214,7 @@ export const bulbophyllumFalcatum = {
         "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
         "litoralQuente": {
             "indice": 95,
-            "estrelas": 5,
+            "estrelas": null,
             "fatores": {
                 "habitatNatural": {
                     "nota": 5,
@@ -248,7 +248,7 @@ export const bulbophyllumFalcatum = {
         },
         "montanhaFrio": {
             "indice": 63,
-            "estrelas": 4,
+            "estrelas": null,
             "fatores": {
                 "habitatNatural": {
                     "nota": 3,
