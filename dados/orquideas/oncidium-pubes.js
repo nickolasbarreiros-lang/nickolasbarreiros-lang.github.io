@@ -53,7 +53,7 @@ export const oncidiumPubes = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso estável e perfurado",
         resumo: "Retenção moderada, drenagem eficiente e boa oxigenação para raízes epífitas, sem compactação junto ao rizoma.",
-        justificativa: "A receita principal para vaso estável e perfurado combina pinus médio, chips de coco médios preparados, perlita grossa e carvão vegetal; ensaio brasileiro com Oncidium baueri, espécie diferente, não valida os percentuais para Gomesa pubes; texto e itens visuais coincidem. As duas alternativas qualitativas são composições diferentes, sem equivalência com a receita principal. O vaso de barro pesado contribui para a estabilidade diante de hastes longas, mas isso não comprova a superioridade dos percentuais propostos. Observar secagem, ventilação e fixação da planta sem enterrar o rizoma. MACS 1.1: proporções provisórias sem homologação quantitativa específica",
+        justificativa: "Esta orquídea pode produzir hastes longas e se beneficia de vaso estável e bem perfurado, sem enterrar o rizoma. A casca de pinus oferece estrutura, os chips de coco médios preparados conservam umidade moderada e a perlita e o carvão favorecem a aeração. Um vaso de barro pesado ajuda na estabilidade; observe a secagem e ajuste as regas conforme a ventilação.",
         receitaTexto: "35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa + 10% carvão vegetal.",
         perfil: ["Epífita simpodial", "Pseudobulbos bifoliados", "Hastes ramificadas", "Vaso estável", "Boa aeração"],
         comportamento: [
