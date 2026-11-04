@@ -90,7 +90,7 @@ export const miltoniaRusselliana = {
         "nome": "Miltonia russelliana",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Miltonia russelliana é uma espécie brasileira de beleza mais sutil do que as Miltonia de flores muito abertas. Forma pseudobulbos compactos, verde-oliva, com duas folhas estreitas no ápice, e produz hastes arqueadas que podem chegar a cerca de 60 cm, carregando várias flores. Sépalas e pétalas permanecem relativamente fechadas ao redor da coluna, enquanto o labelo mais claro e ",
+        "morfologiaDimensoes": "Miltonia russelliana é uma espécie brasileira de beleza mais sutil do que as Miltonia de flores muito abertas. Forma pseudobulbos compactos, verde-oliva, com duas folhas estreitas no ápice, e produz hastes arqueadas que podem chegar a cerca de 60 cm, carregando várias flores.",
         "habitatAltitudeClima": "Epífita de florestas úmidas e áreas ripárias, em ambiente ventilado. | Intermediário a ameno, úmido e ventilado.",
         "distribuicaoGeografica": "Sudeste e Sul do Brasil.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
