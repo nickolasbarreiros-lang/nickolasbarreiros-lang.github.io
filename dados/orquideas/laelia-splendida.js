@@ -26,12 +26,12 @@ export const laeliaSplendida = {
     regiao: "Colômbia e Equador",
     habitat: "Epífita ou rupícola de ambientes tropicais claros e ventilados.",
     clima: "Quente a intermediário, luminoso e ventilado.",
-    climaFloracao: "A floração depende principalmente de pseudobulbos maduros, boa reserva de energia e luminosidade elevada. No litoral quente, adapta-se bem desde que as raízes tenham excelente aeração e a planta não permaneça constantemente molhada.",
+    climaFloracao: "A floração depende principalmente de pseudobulbos maduros, boa reserva de energia e luminosidade elevada. Em clima quente, adapta-se bem desde que as raízes tenham excelente aeração e a planta não permaneça constantemente molhada.",
     iluminacao: {
         sombrite: "30% a 50%",
         solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
-        observacoes: "É uma espécie de alta luminosidade. Sombra excessiva produz crescimento verde e vigoroso, mas pode impedir a floração. No litoral quente, evite sol forte do meio do dia sobre folhas não aclimatadas."
+        observacoes: "É uma espécie de alta luminosidade. Sombra excessiva produz crescimento verde e vigoroso, mas pode impedir a floração. Em clima quente, evite sol forte do meio do dia sobre folhas não aclimatadas."
     },
     floracao: "A época pode variar conforme procedência e condições de cultivo. No calendário do site, primavera e início do verão são usados como janela prática de referência, observando sempre a maturação dos pseudobulbos.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade, preferencialmente em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: pode ser utilizada em poucos grânulos em vasos ou cestos.\n🚿 Lavagem: faça regas periódicas apenas com água para evitar acúmulo de sais.",
@@ -47,10 +47,10 @@ export const laeliaSplendida = {
         destaque: "Cachepô de Madeira",
         resumo: "Espécie robusta, epífita ou rupícola, de hastes florais longas. Priorizar suporte amplo, estável e muito ventilado, luminosidade elevada com aclimatação e espaço para novas frentes de crescimento.",
         metodos: [
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô robusto e muito vazado, com espaço para crescimento e raízes bem ventiladas." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso largo, pesado e bem perfurado, proporcional ao rizoma e com mistura grossa." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Uso condicional", texto: "Tronco robusto e bem fixado, com regas frequentes durante estabelecimento e em períodos secos." },
-            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 3, status: "Uso condicional", texto: "Fixação permanente em árvore adequada, com luz suficiente e suporte para o porte adulto." }
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Mais recomendado na ficha", texto: "Cachepô robusto e muito vazado, com espaço para crescimento e raízes bem ventiladas." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa", texto: "Vaso largo, pesado e bem perfurado, proporcional ao rizoma e com mistura grossa." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Uso condicional", texto: "Tronco robusto e bem fixado, com regas frequentes durante estabelecimento e em períodos secos." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: null, status: "Uso condicional", texto: "Fixação permanente em árvore adequada, com luz suficiente e suporte para o porte adulto." }
         ]
     },
     substratoVisual: {
@@ -73,7 +73,7 @@ export const laeliaSplendida = {
             { asset: "carvao", nome: "Carvão vegetal médio", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta do recipiente." }
         ],
         alerta: "Evitar sombra excessiva, vaso profundo, substrato encharcado e exposição abrupta ao sol forte. Reservar espaço para as novas frentes e hastes florais longas.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Laelia splendida (sin. Schomburgkia splendida), epífita/rupícola robusta de hastes longas; alta luminosidade com aclimatação, suporte estável e raízes arejadas. Cachepô de Madeira bem vazado é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com cesto + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus grosso. Elas não fundamentam os percentuais visuais. Monitorar secagem, estabilidade e espaço para hastes. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Laelia splendida (sin. Schomburgkia splendida), epífita/rupícola robusta de hastes longas; alta luminosidade com aclimatação, suporte estável e raízes arejadas. Cachepô de Madeira bem vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com cesto + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus grosso. Elas não fundamentam os percentuais visuais. Monitorar secagem, estabilidade e espaço para hastes. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
         "Cultivar em sombra excessiva",
@@ -85,7 +85,7 @@ export const laeliaSplendida = {
         "Não oferecer espaço para a nova frente de crescimento",
         "Expor abruptamente ao sol forte sem aclimatação"
     ],
-    dica: "🏆 Se a planta cresce bem mas não floresce, investigue primeiro a luz. Laelia splendida precisa acumular bastante energia para sustentar suas hastes longas. No litoral quente, um local muito claro, ventilado e com raízes quase expostas costuma funcionar melhor que um vaso úmido e sombreado.",
+    dica: "🏆 Se a planta cresce bem mas não floresce, investigue primeiro a luz. Laelia splendida precisa acumular bastante energia para sustentar suas hastes longas. Em clima quente, um local muito claro, ventilado e com raízes quase expostas costuma funcionar melhor que um vaso úmido e sombreado.",
     revisaoCientificaIAR: {
         "nome": "Laelia splendida",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
@@ -223,8 +223,8 @@ export const laeliaSplendida = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Muito boa Calor não costuma ser o principal problema; ofereça muita luz, circulação de ar e secagem relativamente rápida das raízes." },
-        montanhaFrio: { texto: "Boa Tolera noites mais frescas, mas deve ser protegida de frio intenso e de substrato frio e constantemente saturado." }
+        litoralQuente: { texto: "Muito boa adaptação. Calor não costuma ser o principal problema; ofereça muita luz, circulação de ar e secagem relativamente rápida das raízes." },
+        montanhaFrio: { texto: "Boa adaptação. Tolera noites mais frescas, mas deve ser protegida de frio intenso e de substrato frio e constantemente saturado." }
     },
     mesesFloracao: [9, 10, 11, 12],
     "selosCultivo": {
