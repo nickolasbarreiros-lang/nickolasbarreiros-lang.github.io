@@ -55,7 +55,7 @@ export const renantheraCoccinea = {
         titulo: "Substrato ideal",
         contexto: "Mistura grossa e descontínua para cesto muito aberto",
         resumo: "A espécie prefere raízes amplamente expostas ao ar. Pouco substrato grosso serve à estabilidade, com secagem rápida após regas abundantes.",
-        justificativa: "MACS 1.1: mistura provisória de partículas grossas de Casca de pinus, Carvão vegetal e Chips de coco, em pequeno volume para ancoragem no cachepô aberto. O hábito de raízes aéreas é coerente com orientações gerais de Vanda/Renanthera, mas não há receita percentual específica validada para Renanthera coccinea. Os nomes dos materiais seguem o vocabulário canônico; granulometria e preparo são especificações separadas.",
+        justificativa: "Renanthera coccinea desenvolve raízes aéreas que precisam de ampla ventilação e espaço para crescimento. Em cachepô muito aberto, uma pequena quantidade de casca de pinus grossa, carvão vegetal e chips de coco preparados serve principalmente para ancorar a planta, sem abafar as raízes. Observe a secagem e mantenha boa circulação de ar, especialmente após as regas.",
         receitaTexto: "60% Casca de pinus + 30% Carvão vegetal + 10% Chips de coco.",
         perfil: ["Monopodial trepadora", "Raízes aéreas", "Porte grande", "Alta luminosidade", "Secagem rápida"],
         comportamento: [
