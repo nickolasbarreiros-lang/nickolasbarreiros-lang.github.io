@@ -52,8 +52,8 @@ export const miltoniaClowesii = {
         titulo: "Substrato ideal",
         contexto: "Mistura arejada para vaso pequeno e perfurado",
         resumo: "Umidade moderada e regular com alta porosidade, protegendo raízes finas da compactação e do encharcamento.",
-        justificativa: "MACS 1.1: a receita visual reproduz o tratamento T2 de Schnitzer et al. (2010), testado especificamente em mudas de Miltonia clowesii: partes iguais de Casca de pinus, Fibra de coco, Casca de arroz carbonizada e Carvão vegetal, sem extrato pirolenhoso. A composição foi ensaiada em mudas durante sete meses; não há demonstração de superioridade nem homologação para plantas adultas. Fibra de coco não deve ser confundida com Chips de coco.",
-        receitaTexto: "25% Casca de pinus + 25% Fibra de coco + 25% Casca de arroz carbonizada + 25% Carvão vegetal (1:1:1:1, tratamento experimental T2 em mudas).",
+        justificativa: "Miltonia clowesii se beneficia de umidade regular com boa ventilação das raízes. A casca de pinus oferece estrutura, a fibra de coco preparada ajuda a conservar umidade e a casca de arroz carbonizada e o carvão vegetal mantêm a mistura aberta. Nesta receita, utilize fibra de coco, não chips de coco. Observe a secagem do vaso e evite compactação ou saturação prolongada.",
+        receitaTexto: "25% Casca de pinus + 25% Fibra de coco + 25% Casca de arroz carbonizada + 25% Carvão vegetal (1:1:1:1 em volume).",
         perfil: ["Miltonia epífita", "Raízes finas", "Umidade regular", "Boa aeração", "Pseudobulbos vigorosos"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
