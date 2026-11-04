@@ -72,13 +72,13 @@ export const aciantheraBragae = {
     errosComuns: ["Usar vaso profundo para uma planta de crescimento rastejante.", "Enterrar ou cobrir o rizoma.", "Manter água parada entre folhas e ramicaules.", "Deixar a montagem secar por vários dias no calor.", "Cultivar em sombra profunda e sem circulação de ar.", "Aplicar adubação forte em raízes finas.", "Interpretar a altitude como necessidade de clima frio rígido."],
     revisaoCientificaIAR: {
         "nome": "Acianthera bragae",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Pequena no tamanho, mas cheia de personalidade! A Acianthera bragae é uma miniatura brasileira de crescimento rastejante, capaz de formar delicados tapetes sobre troncos, placas ou outros suportes. Suas folhas são pequenas, espessas e suculentas, enquanto as flores, com cerca de 1,5 a 2 cm, parecem surpreendentemente grandes em comparação com a planta e chamam atenção pelo form",
+        "statusTaxonomico": "Acianthera bragae tratada como espécie aceita na referência taxonômica POWO; correspondência de sinônimos requer conferência nominal individual.",
+        "sinonimosPrincipais": "Pleurothallis sarracenia e Physosiphon bragae são nomes de busca associados à ficha; a equivalência nomenclatural deve ser verificada antes de atribuir registros à espécie.",
+        "morfologiaDimensoes": "Miniatura de crescimento reptante, com folhas pequenas e espessas e flores tubulares eretas; dimensões florais aproximadas de 1,5 a 2 cm indicadas na descrição editorial, ainda sem confirmação morfométrica independente nesta matriz.",
         "habitatAltitudeClima": "Epífita ou litófita de floresta tropical úmida. | Quente a intermediário, úmido, sombreado e ventilado.",
         "distribuicaoGeografica": "Mata Atlântica do Sudeste e Sul do Brasil.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
+        "confianca": "parcial: identidade aceita; detalhes de sinonímia, morfometria e horticultura ainda não demonstrados integralmente",
         "fontes": [
             "POWO/Kew",
             "WFO/IPNI",
