@@ -76,7 +76,7 @@ export const bulbophyllumElassonotum = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
-        "justificativa": "O cesto raso oferece espaço para o rizoma se espalhar e deixa livres as inflorescências arqueadas ou pendentes. Uma mistura solta evita que o centro fique saturado em períodos úmidos. O Orquidário Mogi Mirim recomenda para esta espécie casca de pinus fina, carvão vegetal e boa proporção de esfagno, sem percentuais; a receita visual com coco e perlita permanece uma proposta técnica, não uma fórmula experimental validada especificamente para a espécie.",
+        "justificativa": "Bulbophyllum elassonotum se beneficia de cesto raso, que permite ao rizoma se espalhar e deixa espaço para as inflorescências arqueadas ou pendentes. A casca de pinus oferece apoio, os chips de coco preparados e o esfagno solto ajudam a conservar umidade e a perlita mantém espaços de ar. Evite compactação e observe a secagem do centro do cesto, sobretudo em períodos úmidos.",
         "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno solto.",
         "perfil": [
             "Rizoma longo",
