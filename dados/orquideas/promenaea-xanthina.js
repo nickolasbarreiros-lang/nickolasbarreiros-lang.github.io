@@ -26,12 +26,12 @@ export const promenaeaXanthina = {
     regiao: "Leste e Sul do Brasil",
     habitat: "Epífita de florestas montanas úmidas e protegidas, chegando a cerca de 1.700 m.",
     clima: "Intermediário a fresco, úmido e muito ventilado.",
-    climaFloracao: "A floração é favorecida por planta bem estabelecida, noites amenas, umidade ambiental elevada e luz filtrada. No litoral quente, evite sobretudo o superaquecimento noturno. Após a maturação dos pseudobulbos, uma breve redução nas regas pode ajudar, mas sem transformar o período em repouso seco.",
+    climaFloracao: "A floração é favorecida por planta bem estabelecida, noites amenas, umidade ambiental elevada e luz filtrada. Em clima quente, evite sobretudo o superaquecimento noturno. Após a maturação dos pseudobulbos, uma breve redução nas regas pode ajudar, mas sem transformar o período em repouso seco.",
     iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não permitido",
         horario: "",
-        observacoes: "As folhas finas aquecem e queimam com facilidade. No litoral quente, 70% a 80% de sombreamento é uma faixa segura, desde que o ambiente permaneça claro. Sombra excessivamente fechada reduz vigor e floração."
+        observacoes: "As folhas finas aquecem e queimam com facilidade. Em clima quente, 70% a 80% de sombreamento é uma faixa segura, desde que o ambiente permaneça claro. Sombra excessivamente fechada reduz vigor e floração."
     },
     floracao: "Principalmente na primavera e no verão. Para o calendário do site, setembro a fevereiro funciona como janela prática de referência, podendo variar conforme procedência e condições de cultivo.",
     adubacao: "🌿 Orgânica: bokashi apenas em dose mínima e preferencialmente em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional e com bastante parcimônia em vasos pequenos.\n🚿 Lavagem: faça regas periódicas apenas com água pura para reduzir o acúmulo de sais.",
@@ -47,10 +47,10 @@ export const promenaeaXanthina = {
         destaque: "Vaso plástico vasado",
         resumo: "Miniatura epífita de clima ameno e raízes delicadas. Vaso pequeno e muito perfurado oferece umidade regular sem abafamento, desde que permaneça em microclima fresco.",
         metodos: [
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno e muito perfurado, com mistura leve e ventilação constante; proteger do calor acumulado." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô pequeno e aberto, com substrato drenante e acompanhamento da umidade." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Cortiça ou madeira com lâmina fina de esfagno, apenas em ambiente de alta umidade e regas frequentes." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e perfurado, observando a secagem mais rápida e a temperatura das raízes." }
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Mais recomendado na ficha", texto: "Vaso pequeno e muito perfurado, com mistura leve e ventilação constante; proteger do calor acumulado." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa", texto: "Cachepô pequeno e aberto, com substrato drenante e acompanhamento da umidade." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Uso condicional", texto: "Cortiça ou madeira com lâmina fina de esfagno, apenas em ambiente de alta umidade e regas frequentes." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Uso condicional", texto: "Vaso pequeno e perfurado, observando a secagem mais rápida e a temperatura das raízes." }
         ]
     },
     substratoVisual: {
@@ -72,7 +72,7 @@ export const promenaeaXanthina = {
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "15%", nota: "umidade", finalidade: "Retém umidade sem compactar quando usado em pequena quantidade." }
         ],
         alerta: "Evitar sol forte, calor noturno acumulado, esfagno compactado e água acumulada em brotos ainda pequenos; após o enraizamento dos novos crescimentos, evitar encharcamento, secagem completa e repouso seco prolongado. O substrato não substitui noites mais amenas.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Promenaea xanthina (nome editorial; POWO trata como Promenaea stapelioides subsp. xanthina), miniatura epífita montana com raízes delicadas; requer umidade regular, ventilação e noites amenas. Vaso plástico vasado pequeno é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 45% pinus fino + 40% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Não fundamentam os percentuais visuais. A montagem com esfagno é método separado. Noites quentes podem limitar vigor e floração mesmo com substrato correto. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Promenaea xanthina (nome editorial; POWO trata como Promenaea stapelioides subsp. xanthina), miniatura epífita montana com raízes delicadas; requer umidade regular, ventilação e noites amenas. Vaso plástico vasado pequeno é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 45% pinus fino + 40% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Não fundamentam os percentuais visuais. A montagem com esfagno é método separado. Noites quentes podem limitar vigor e floração mesmo com substrato correto. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
         "Expor ao sol direto forte",
@@ -84,7 +84,7 @@ export const promenaeaXanthina = {
         "Fazer repouso seco prolongado",
         "Aplicar fertilizante concentrado"
     ],
-    dica: "🏆 Promenaea xanthina gosta de raízes frescas e úmidas, não de um vaso encharcado. Use recipiente pequeno, mistura leve e bastante ventilação. No litoral quente, proteger a planta do calor acumulado à noite costuma ser mais importante do que aumentar a quantidade de água.",
+    dica: "🏆 Promenaea xanthina gosta de raízes frescas e úmidas, não de um vaso encharcado. Use recipiente pequeno, mistura leve e bastante ventilação. Em clima quente, proteger a planta do calor acumulado à noite costuma ser mais importante do que aumentar a quantidade de água.",
     revisaoCientificaIAR: {
         "nome": "Promenaea xanthina",
         "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Promenaea stapelioides subsp. xanthina.",
