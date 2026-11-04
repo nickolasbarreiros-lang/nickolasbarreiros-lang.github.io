@@ -42,18 +42,18 @@ export const cattleyaLeopoldiiDarkPrincess = {
     substrato: ["Casca de pinus grossa + carvão vegetal + esfagno de fibra longa em pequena quantidade","Casca de pinus grossa + carvão vegetal + brita fina"],
     formasCultivo: {
     "perfilVisual": "cattleya",
-    "destaque": "Vaso de barro",
+    "destaque": "Vaso de Barro",
     "resumo": "MACS 1.0: vaso de barro (82/100), cesto de madeira (79/100) e plástico vasado (78/100). As notas são estimativas heurísticas para plantas adultas altas.",
     "metodos": [
         {
-            "nome": "Vaso de barro",
+            "nome": "Vaso de Barro",
             "asset": "vaso-barro",
             "estrelas": null,
             "status": "Mais indicada na ficha",
             "texto": "A terracota oferece estabilidade e evaporação pelas paredes; o vaso deve ter tamanho proporcional e mistura bem drenante."
         },
         {
-            "nome": "Cachepô de madeira",
+            "nome": "Cachepô de Madeira",
             "asset": "cesto-madeira",
             "estrelas": null,
             "status": "Alternativa",
