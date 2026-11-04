@@ -51,7 +51,7 @@ export const jacquiniellaGlobosa = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para cesto ou vaso muito pequeno",
         resumo: "Suporte arejado com fina reserva localizada de umidade; em recipiente, usar mistura leve sem compactação.",
-        justificativa: "A montagem em madeira ou cortiça com uma lâmina fina e solta de esfagno sob as raízes permanece como forma principal, desde que a umidade do suporte seja acompanhada. Para cesto ou vaso muito pequeno, a receita visual combina pinus fino, perlita e esfagno solto; a formulação exata é apresentada como receita principal e há apenas duas alternativas qualitativas. Os percentuais são estimativas horticulturais e NÃO foram homologados pela MACS 1.1.",
+        justificativa: "Jacquiniella globosa se beneficia de montagem em madeira ou cortiça, com uma camada fina e solta de esfagno sob as raízes para reduzir a secagem brusca. Em cesto ou vaso muito pequeno, a casca de pinus fina oferece apoio, a perlita mantém espaços de ar e o esfagno ajuda a conservar umidade. Observe a secagem do suporte e evite compactar os materiais.",
         receitaTexto: "45% casca de pinus fina + 35% perlita de granulometria adequada + 20% esfagno de fibra longa solto.",
         perfil: ["Miniatura epífita", "Caules finos", "Sem pseudobulbos verdadeiros", "Umidade regular", "Raízes ventiladas"],
         comportamento: [
