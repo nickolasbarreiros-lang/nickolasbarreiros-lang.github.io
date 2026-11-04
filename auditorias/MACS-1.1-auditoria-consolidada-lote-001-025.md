@@ -263,3 +263,9 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - Confronto com a compilação Embrapa *Cerrado: Ecologia e Flora*, volume 2, capítulo 14 (https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/570911/1/CERRADO-Ecologia-e-flora-VOL-2.pdf), que registra *Anathallis sclerophylla* como erva epífita em mata de galeria associada a campo rupestre.
 - Retirada de `revisaoCientificaIAR.habitatAltitudeClima` a amplitude `480–3.100 m`: sem confirmação suficiente de que represente o intervalo global conhecido da espécie. O texto agora separa ocorrência de campo documentada de inferência de manejo sobre aeração/umidade.
 - Esse saneamento melhora a rastreabilidade botânica, mas não valida numericamente as notas IDC/IAR nem os percentuais e suportes MACS. Classe D preservada; ficha 1 continua aberta.
+
+### Altitude regional comprovada sem extrapolação — ficha 1 (2026-11-04)
+- Colombian Plants/POWO (https://colplanta.org/taxon/urn:lsid:ipni.org:names:77142174-1/general-information) reproduz *Useful Plants and Fungi of Colombia* e informa **1.980–3.100 m para populações da Colômbia**. Esse dado foi acrescentado ao campo `habitatAltitudeClima` com escopo explicitamente regional.
+- Não se restabeleceu a antiga faixa 480–3.100 m, pois não foi demonstrada como amplitude global. A faixa colombiana não determina, isoladamente, condições térmicas ideais em cultivo no Brasil.
+- AOS (https://www.aos.org/orchid-care/orchid-care-basics/mounting) recomenda montagem de orquídeas epífitas em geral, mas ressalva que vasos podem ser preferíveis em ambientes internos ou muito quentes. Portanto, **não prova superioridade universal de placa/tronco para esta espécie**.
+- MACS 1.1 segue Classe D: falta evidência direta e comparativa de proporções e suportes. Sem mudança de estrelas, receita ou ficha seguinte.
