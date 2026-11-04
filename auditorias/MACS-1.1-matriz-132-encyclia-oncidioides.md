@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 132 — Encyclia oncidioides
-Data: 2026-11-04. **EM ANDAMENTO**. Não avançar à matriz 133 até encerramento técnico.
+Data: 2026-11-04. **ENCERRADA TECNICAMENTE — classe científica D, sem homologação quantitativa.**
 
 ## Caracterização
 Encyclia oncidioides: epífita/rupícola de alta luminosidade filtrada, raízes aeradas e secagem perceptível entre regas. Vaso de barro justo, bem perfurado, é suporte principal proposto; alternativa cachepô vazado. Evitar confundir adequação botânica com comparação experimental de superioridade.
@@ -16,4 +16,7 @@ Quatro fotos confirmadas em imagens/Encyclia oncidioides/. Assets casca-macadami
 ## Classificação científica
 **D — NÃO HOMOLOGADA quantitativamente.** Sem ensaios comparativos específicos nem amostra documentada de 25 produtores brasileiros independentes. Percentuais são formulação horticultural provisória, não conclusão experimental.
 
-Pendente teste Chromium desktop/mobile, capturas e encerramento técnico.
+Teste Chromium desktop/mobile aprovado, capturas confirmadas e encerramento técnico registrado.
+
+## Encerramento — 2026-11-04
+Execução Chromium/Playwright [41839486078](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41839486078) **success** em todas as etapas, inclusive inspeção no navegador e upload de capturas. Artefato **13327154147**, `macs-132-inspecao-visual` (440736 bytes). Principal soma 100%; exatamente duas alternativas qualitativas sem percentuais; perlita preservada; estrelas de suportes omitidas; quatro fotos e oito assets presentes. **Classe D — NÃO HOMOLOGADA quantitativamente**, sem ensaios comparativos específicos nem amostra documentada de 25 produtores independentes. Sem pendências técnicas detectadas pelo teste; matriz 133 liberada.
