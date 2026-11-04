@@ -529,7 +529,7 @@ function criarFormasCultivoV4(config, perfilRadicular = []) {
 }
 
 function criarSubstratoVisualV4(config, recomendados = []) {
-    // A receita principal e seus percentuais não pertencem ao menu de alternativas.
+    // Excluir a receita principal por identificação explícita; alternativas podem conter percentuais por volume.
     const entradas = Array.isArray(recomendados)
         ? recomendados
         : typeof recomendados === "string"
@@ -545,9 +545,9 @@ function criarSubstratoVisualV4(config, recomendados = []) {
         .trim();
     const misturasRecomendadas = [...new Set(entradas
         .filter((item) => typeof item === "string")
-        .filter((item) => !/(?:🥇|\b(?:mistura|receita|substrato)\s+principal\b|\d+\s*%)/i.test(item))
+        .filter((item) => !/(?:🥇|\b(?:mistura|receita|substrato)\s+principal\b)/i.test(item))
         .map(limparAlternativa)
-        .filter((item) => item && item.includes("+") && !/\d+\s*%/.test(item)))].slice(0, 2);
+        .filter((item) => item && item.includes("+")))].slice(0, 2);
     if (!config) {
         return "";
     }
