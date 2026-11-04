@@ -26,7 +26,7 @@ export const brassiaLawrenceana = {
     regiao: "Amazônia · norte e oeste da América do Sul",
     habitat: "Epífita de florestas úmidas, aproximadamente entre 265 e 1.200 m.",
     clima: "Quente a intermediário, úmido e ventilado.",
-    climaFloracao: "A espécie responde bem a temperaturas quentes a intermediárias, com boa luz filtrada e raízes ativas. No litoral quente, adapta-se bem desde que o substrato drene rapidamente e haja circulação de ar. Uma pequena redução de água após a maturação dos pseudobulbos pode acompanhar a menor atividade, sem impor seca severa.",
+    climaFloracao: "A espécie responde bem a temperaturas quentes a intermediárias, com boa luz filtrada e raízes ativas. Em clima quente, adapta-se bem desde que o substrato drene rapidamente e haja circulação de ar. Uma pequena redução de água após a maturação dos pseudobulbos pode acompanhar a menor atividade, sem impor seca severa.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
@@ -47,10 +47,10 @@ export const brassiaLawrenceana = {
         destaque: "Cachepô de Madeira",
         resumo: "Epífita de raízes vigorosas que prefere umidade regular com circulação de ar e drenagem eficiente.",
         metodos: [
-            { nome: "Cachepô de Madeira", asset: "brassia-lawrenceana-cesto", estrelas: 5, status: "Ideal", texto: "Mantém raízes arejadas e permite acomodar a expansão dos pseudobulbos; exige regas ajustadas à secagem do substrato." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Boa estabilidade e troca de ar; observar a secagem mais rápida em períodos quentes." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Retém umidade por mais tempo; usar mistura aberta e controlar as irrigações." },
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 2, status: "Com restrições", texto: "Usar vaso pequeno e substrato muito aerado; controlar cuidadosamente a umidade para evitar encharcamento." }
+            { nome: "Cachepô de Madeira", asset: "brassia-lawrenceana-cesto", estrelas: null, status: "Ideal", texto: "Mantém raízes arejadas e permite acomodar a expansão dos pseudobulbos; exige regas ajustadas à secagem do substrato." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Muito recomendado", texto: "Boa estabilidade e troca de ar; observar a secagem mais rápida em períodos quentes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Adequado", texto: "Retém umidade por mais tempo; usar mistura aberta e controlar as irrigações." },
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Com restrições", texto: "Usar vaso pequeno e substrato muito aerado; controlar cuidadosamente a umidade para evitar encharcamento." }
         ]
     },
     substratoVisual: {
@@ -74,7 +74,7 @@ export const brassiaLawrenceana = {
             { nome: "Compactação", valor: 2, icone: "🧱" }
         ],
         alerta: "Cesto seca mais rapidamente que vaso plástico. Ajuste a frequência de rega ao microclima e inspecione a decomposição do pinus e do coco; a composição é uma inferência técnica para plantas adultas.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Brassia lawrenceana (nome editorial; POWO adota Brassia cochleata), epífita de raízes vigorosas, requer umidade regular, drenagem e ventilação. Cachepô de Madeira vazado é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 35% pinus médio + 25% chips de coco médios preparados + 20% macadâmia média + 10% carvão vegetal médio + 10% perlita grossa compatível com o cesto = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/argila expandida pequena/pouco esfagno solto e macadâmia/pinus/perlita/pouca fibra de coco grossa preparada. Monitorar envelhecimento do pinus e coco, salinidade e secagem no cesto. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Brassia lawrenceana (nome editorial; POWO adota Brassia cochleata), epífita de raízes vigorosas, requer umidade regular, drenagem e ventilação. Cachepô de Madeira vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% pinus médio + 25% chips de coco médios preparados + 20% macadâmia média + 10% carvão vegetal médio + 10% perlita grossa compatível com o cesto = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/argila expandida pequena/pouco esfagno solto e macadâmia/pinus/perlita/pouca fibra de coco grossa preparada. Monitorar envelhecimento do pinus e coco, salinidade e secagem no cesto. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
         "Cultivar em sombra profunda",
@@ -86,7 +86,7 @@ export const brassiaLawrenceana = {
         "Replantar durante o repouso, sem novas raízes ativas",
         "Expor ao sol forte do meio do dia"
     ],
-    dica: "🏆 Replante apenas quando um novo broto estiver começando a emitir raízes. Brassia reage muito melhor quando essas raízes novas entram diretamente no substrato fresco. No litoral quente, cesto ou vaso de barro com mistura grossa costuma oferecer excelente equilíbrio entre umidade e oxigenação.",
+    dica: "🏆 Replante apenas quando um novo broto estiver começando a emitir raízes. Brassia reage muito melhor quando essas raízes novas entram diretamente no substrato fresco. Em clima quente, cesto ou vaso de barro com mistura grossa costuma oferecer excelente equilíbrio entre umidade e oxigenação.",
     revisaoCientificaIAR: {
         "nome": "Brassia lawrenceana",
         "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Brassia cochleata.",
@@ -224,8 +224,8 @@ export const brassiaLawrenceana = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Muito boa A espécie tolera calor e se adapta bem com 50% a 60% de sombreamento, regas regulares e ventilação constante." },
-        montanhaFrio: { texto: "Boa Tolera noites frescas, mas deve ser protegida de frio intenso e de substrato permanentemente úmido em períodos de baixa evaporação." }
+        litoralQuente: { texto: "Muito boa adaptação. A espécie tolera calor e se adapta bem com 50% a 60% de sombreamento, regas regulares e ventilação constante." },
+        montanhaFrio: { texto: "Boa adaptação. Tolera noites frescas, mas deve ser protegida de frio intenso e de substrato permanentemente úmido em períodos de baixa evaporação." }
     },
     mesesFloracao: [3, 4, 5, 9, 10, 11],
     "selosCultivo": {
