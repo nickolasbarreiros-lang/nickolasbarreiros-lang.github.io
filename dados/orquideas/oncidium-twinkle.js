@@ -52,7 +52,7 @@ export const oncidiumTwinkle = {
         titulo: "Substrato ideal",
         contexto: "Mistura aerada com umidade uniforme para vaso compacto",
         resumo: "Raízes finas precisam de umidade regular e substrato aberto, com drenagem eficiente e sem secagem completa durante o crescimento.",
-        justificativa: "MACS 1.1: composição revista por convergência das orientações específicas da RHS e do New England Botanic Garden para Oncidium Twinkle, com apoio da AOS. Pinus fornece estrutura, esfagno solto oferece reserva hídrica para raízes finas, coco lavado modera a secagem e carvão complementa a aeração. Percentuais são estimativas técnicas por volume, não ensaio experimental.",
+        justificativa: "Oncidium Twinkle possui raízes relativamente finas e se beneficia de umidade regular com boa aeração. A casca de pinus fina ou média oferece apoio, o esfagno solto conserva umidade, os chips de coco pequenos preparados moderam a secagem e o carvão ajuda a manter espaços de ar. Evite compactação e acompanhe a umidade no centro do recipiente.",
         receitaTexto: "55% casca de pinus fina/média + 25% esfagno solto + 10% chips de coco pequenos e lavados + 10% carvão vegetal pequeno.",
         perfil: ["Híbrido compacto", "Raízes capilares", "Touceira florífera", "Umidade regular", "Vaso proporcional"],
         comportamento: [
