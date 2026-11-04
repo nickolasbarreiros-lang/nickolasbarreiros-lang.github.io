@@ -52,7 +52,7 @@ export const laeliaLundiiAlba = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para cesto ou vaso pequeno",
         resumo: "Mistura grosseira, arejada e de secagem perceptível, sem compactar raízes ou base da touceira.",
-        justificativa: "A forma alba mantém o hábito epífito/rupícola e o porte miniatura de Cattleya lundii. A montagem em placa/tronco é o suporte principal, sem mistura volumosa. Para cesto ou vaso pequeno, a receita visual proposta combina macadâmia média, pinus médio, casca de arroz carbonizada e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas editoriais quantitativas distintas, com proporções 45/25/20/10 e 40/30/20/10 por volume; não há ensaio específico de superioridade. Evitar partículas desproporcionais às raízes e manter fixação firme e secagem perceptível entre regas. MACS 1.1: hipótese horticultural sem homologação quantitativa específica.",
+        justificativa: "A forma alba de Laelia lundii mantém porte miniatura e se beneficia de montagem em placa ou tronco, com raízes bem ventiladas. Em cesto ou vaso pequeno, as cascas de macadâmia e pinus oferecem sustentação, enquanto a casca de arroz carbonizada e o carvão preservam espaços de ar. Escolha partículas proporcionais às raízes, fixe a planta com firmeza e permita secagem perceptível entre regas.",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% casca de arroz carbonizada + 15% carvão vegetal médio.",
         perfil: ["Forma alba", "Miniatura epífita ou rupícola", "Touceira compacta", "Raízes arejadas", "Luz filtrada abundante"],
         comportamento: [
