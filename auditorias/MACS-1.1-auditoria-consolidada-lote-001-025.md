@@ -103,3 +103,17 @@ Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/in
 
 - Cinco tabelas antigas IDC de quatro faixas corrigidas para as cinco faixas oficiais. Commits `85c35f45`, `e4d279dc`, `4e190fda`, `089bff9e`, `7249b536`.
 - **Situação:** cálculo matemático conferido para fichas 1–10; validação científica das notas, inspeção de fotos/assets, execução JS e navegação desktop/mobile ainda pendentes. Não confundir verificação aritmética com homologação científica.
+
+## Auditoria matemática parcial — fichas 11–15 (2026-11-04)
+- Oito critérios IDC 3.2 e sete fatores para cada região IAR 2.0 recalculados. Resultados iguais aos índices cadastrados:
+
+| Nº | Ficha | IDC | IAR litoral | IAR montanha |
+|---|---|---:|---:|---:|
+| 11 | Cattleya Pumpkin Festival | 20 | 79 | 63 |
+| 12 | Dendrobium polysema | 56 | 47 | 96 |
+| 13 | Bifrenaria verboonenii | 38 | 50 | 96 |
+| 14 | Bifrenaria aureofulva | 27 | 80 | 80 |
+| 15 | Cattleya wittigiana (arquivo sophronitis-wittigiana.js) | 30 | 47 | 96 |
+
+- Tabelas IDC históricas de quatro faixas corrigidas para as cinco faixas oficiais, sem alterar notas, pesos, estrelas ou substratos. Commits `be629be8`, `c02115ab`, `e56d89ff`, `46266e3d`, `09852f8e`.
+- **Progresso matemático: 15/25.** Não equivale a homologação científica; inspeção de fotos/assets, navegador e confronto das fontes permanecem pendentes.
