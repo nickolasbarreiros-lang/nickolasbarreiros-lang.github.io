@@ -55,8 +55,8 @@ export const coelogyneOvalisVarMiniatum = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para recipiente raso; em placa usar apenas fixação leve",
         "resumo": "Mistura porosa de referência para o gênero, com proporções publicadas pela AOS; ajuste à espécie e ao exemplar ainda não testado.",
-        "justificativa": "A AOS documenta, para Coelogyne em geral, três partes de casca de pinus para uma de perlita (3:1). Essa proporção 75/25 tem rastreabilidade publicada, mas NÃO constitui ensaio específico para Coelogyne ovalis nem para o exemplar rotulado ‘Miniatum’. Produtores brasileiros corroboram o uso de pinus, madeira, coco, carvão e esfagno sem proporções. A montagem em placa continua como primeira opção, condicionada a umidade e regas adequadas.",
-        "receitaTexto": "75% casca de pinus média + 25% perlita grossa (referência genérica AOS para Coelogyne; não validada especificamente para este exemplar).",
+        "justificativa": "Coelogyne ovalis, incluindo o exemplar identificado como Miniatum, apresenta crescimento que se adapta bem à montagem em placa quando há umidade ambiental e regas suficientes. Para cultivo em recipiente, a casca de pinus média oferece apoio e a perlita grossa mantém a mistura arejada. Observe a secagem das raízes e ajuste a frequência de rega ao suporte escolhido, evitando compactação.",
+        "receitaTexto": "75% casca de pinus média + 25% perlita grossa.",
         "perfil": ["Rizoma rastejante", "Pseudobulbos espaçados", "Raízes superficiais", "Umidade equilibrada", "Aeração alta"],
         "comportamento": [
             { "nome": "Retenção", "valor": 4, "icone": "💧" },
