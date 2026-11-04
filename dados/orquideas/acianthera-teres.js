@@ -251,7 +251,7 @@ export const aciantheraTeres = {
     "titulo": "Substrato ideal",
     "contexto": "Mistura para vaso — 100% em volume",
     "resumo": "45% brita fina + 25% carvão vegetal + 20% casca de pinus + 10% perlita grossa — proporções em volume, para vaso ventilado.",
-    "justificativa": "A receita totaliza 100% em volume e é uma proposta horticultural para cultivo em vaso, distinta da montagem principal quando esta for em madeira. Fixe a planta em suporte muito ventilado e aumente a claridade aos poucos até os novos brotos amadurecerem firmes; observe se as folhas mantêm consistência sem superaquecer. Para estimular floração, evite sombra excessiva, mas não leve uma planta de sombrite diretamente ao sol quente. Ajuste o tamanho das partículas e a frequência de rega à velocidade de secagem, sem compactar.",
+    "justificativa": "Acianthera teres se beneficia de suporte muito ventilado e de uma mistura mineral e orgânica que não compacte as raízes. Em vaso, a brita fina e a perlita favorecem a drenagem, o carvão preserva espaços de ar e a casca de pinus oferece apoio. Aumente a claridade gradualmente e observe a consistência das folhas, evitando superaquecimento. Ajuste a granulometria e as regas à velocidade de secagem do recipiente; para favorecer a floração, evite sombra excessiva sem expor a planta abruptamente ao sol quente.",
     "receitaTexto": "45% brita fina + 25% carvão vegetal + 20% casca de pinus + 10% perlita grossa",
     "perfil": [
       "Alta aeração",
