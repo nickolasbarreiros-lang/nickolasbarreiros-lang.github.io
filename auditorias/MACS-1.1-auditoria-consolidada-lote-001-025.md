@@ -235,3 +235,8 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - Substituída lista genérica de instituições por três referências rastreáveis efetivamente utilizadas: POWO/Kew, revisão de Santos et al. (2019) e sinopse florística de Boa Nova (Hoehnea).
 - Campo `confianca` deixou de exibir `alta` isoladamente e passou a diferenciar a confiança taxonômica/morfológica da ausência de homologação quantitativa MACS 1.1.
 - Nenhuma inferência nova sobre percentuais ou ranking dos suportes; ficha continua Classe D. Não há base para declarar homologação integral.
+
+### Coerência dos quatro métodos de cultivo — ficha 1 (2026-11-04)
+- Padronizados os quatro rótulos qualitativos: Placa/tronco `Preferencial (provisório)`; Cachepô de Madeira `Alternativa provisória`; Vaso plástico vasado `Alternativa provisória`; Vaso plástico `Uso condicional`.
+- A nota MACS 1.1 da própria ficha agora ressalva explicitamente que **não há comparação direta documentada dos quatro suportes para a espécie**. Nenhuma estrela foi atribuída; não foram modificados percentuais ou ingredientes.
+- Essa correção resolve a coerência editorial do campo `formasCultivo.metodos`, mas **não resolve** a pendência científica central: falta evidência específica rastreável para homologar suporte e mistura. A ficha 1 permanece Classe D, sem conclusão integral.
