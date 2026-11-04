@@ -36,10 +36,10 @@ export const encycliaOncidioides = {
         destaque: "Vaso de Barro",
         resumo: "Encyclia de porte médio a grande, pseudobulbos robustos e hastes longas. Prefere alta luminosidade filtrada, ventilação e secagem rápida das raízes entre regas, sem dormência seca rigorosa.",
         metodos: [
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso justo, com furos laterais, boa estabilidade para hastes altas e drenagem rápida." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Muito recomendado", texto: "Cachepô bem vazado, proporcional ao rizoma, para ampla aeração das raízes." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Tronco ou placa de madeira dura para plantas adaptadas ao cultivo montado; exige regas mais frequentes." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Recipiente firme e muito perfurado, com mistura grossa e sem acúmulo de água." }
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Mais recomendado na ficha", texto: "Vaso justo, com furos laterais, boa estabilidade para hastes altas e drenagem rápida." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Muito recomendado", texto: "Cachepô bem vazado, proporcional ao rizoma, para ampla aeração das raízes." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Alternativa", texto: "Tronco ou placa de madeira dura para plantas adaptadas ao cultivo montado; exige regas mais frequentes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa", texto: "Recipiente firme e muito perfurado, com mistura grossa e sem acúmulo de água." }
         ]
     },
     substratoVisual: {
@@ -62,10 +62,10 @@ export const encycliaOncidioides = {
             { asset: "carvao", nome: "Carvão vegetal médio", proporcao: "15%", nota: "estrutura", finalidade: "Complementa porosidade e estabilidade do substrato." }
         ],
         alerta: "Evitar vaso grande ou profundo, rizoma enterrado, sombra excessiva e substrato constantemente molhado. Não impor repouso seco rigoroso nem cortar hastes ainda verdes.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Encyclia oncidioides, epífita/rupícola de luz alta, pseudobulbos robustos, raízes aeradas e secagem perceptível entre regas, sem repouso seco severo. Vaso de Barro justo e perfurado é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com vaso + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus. Elas não fundamentam os percentuais visuais; justificativa anterior de equivalência foi corrigida. Monitorar secagem em barro versus cachepô, estabilidade de hastes e retenção na fase ativa. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
+        notaEvidencia: "MACS 1.1 — revisão documental: Encyclia oncidioides, epífita/rupícola de luz alta, pseudobulbos robustos, raízes aeradas e secagem perceptível entre regas, sem repouso seco severo. Vaso de Barro justo e perfurado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com vaso + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus. Elas não fundamentam os percentuais visuais; justificativa anterior de equivalência foi corrigida. Monitorar secagem em barro versus cachepô, estabilidade de hastes e retenção na fase ativa. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente"
     },
     errosComuns: "Usar vaso grande ou profundo; cultivar em sombra excessiva; manter raízes constantemente molhadas; usar substrato fino, velho ou compactado; enterrar o rizoma; cortar hastes ainda verdes; aplicar excesso de nitrogênio após a maturação; seguir um número fixo de dias sem água; tratar o inverno como dormência seca rigorosa.",
-    dica: "Priorize luz alta filtrada e raízes muito arejadas. A ocorrência natural desde o nível do mar até cerca de 750 m explica por que ela pode ir muito bem no litoral quente: o ponto decisivo é evitar abafamento e substrato constantemente molhado, não tentar produzir frio artificial.",
+    dica: "Priorize luz alta filtrada e raízes muito arejadas. A ocorrência natural desde o nível do mar até cerca de 750 m explica por que ela pode ir muito bem em clima quente: o ponto decisivo é evitar abafamento e substrato constantemente molhado, não tentar produzir frio artificial.",
     revisaoCientificaIAR: {
         "nome": "Encyclia oncidioides",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
@@ -203,7 +203,7 @@ export const encycliaOncidioides = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Em Litoral de clima quente. Use mistura muito drenante, ventilação constante e regas pela manhã, protegendo do sol forte da tarde e de chuvas contínuas quando o crescimento estiver maduro." },
+        litoralQuente: { texto: "Em clima quente, use mistura muito drenante, ventilação constante e regas pela manhã, protegendo do sol forte da tarde e de chuvas contínuas quando o crescimento estiver maduro." },
         montanhaFrio: { texto: "Mantenha luminosidade alta, proteja contra geadas e reduza proporcionalmente as regas em períodos frios, chuvosos ou de baixa evaporação." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
