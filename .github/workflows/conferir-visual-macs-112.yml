@@ -5,6 +5,8 @@ on:
       - '.github/workflows/conferir-visual-macs-112.yml'
       - 'dados/orquideas/blc-chia-lin.js'
       - 'orquidea.html'
+      - 'ficha.js'
+      - 'estilos.css'
       - 'js/**'
       - 'css/**'
   workflow_dispatch:
