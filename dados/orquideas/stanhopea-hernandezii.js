@@ -46,9 +46,9 @@ export const stanhopeaHernandezii = {
         destaque: "Cachepô de Madeira",
         resumo: "Espécie de porte médio a grande com hastes florais descendentes. Cesta suspensa, muito vazada e com fundo totalmente livre permite a saída das flores.",
         metodos: [
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cesta suspensa com ripas bem espaçadas e fundo desobstruído, mantendo a touceira centralizada." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa condicionada", texto: "Somente cesto plástico com aberturas amplas no fundo e laterais, sem bloquear hastes descendentes." },
-            { nome: "Raízes soltas", asset: "raizes-soltas", estrelas: 3, status: "Uso condicional", texto: "Cesto aramado aberto com fibra solta em camada fina, sem telas densas ou compactação." }
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Mais recomendado na ficha", texto: "Cesta suspensa com ripas bem espaçadas e fundo desobstruído, mantendo a touceira centralizada." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa condicionada", texto: "Somente cesto plástico com aberturas amplas no fundo e laterais, sem bloquear hastes descendentes." },
+            { nome: "Raízes soltas", asset: "raizes-soltas", estrelas: null, status: "Uso condicional", texto: "Cesto aramado aberto com fibra solta em camada fina, sem telas densas ou compactação." }
         ]
     },
     substratoVisual: {
@@ -71,7 +71,7 @@ export const stanhopeaHernandezii = {
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "10%", nota: "umidade", finalidade: "Acrescenta reserva hídrica discreta sem obstruir o fundo." }
         ],
         alerta: "Evitar vaso fechado, fundo bloqueado, secagem completa na brotação e substrato compacto. Não mover, girar ou replantar a cesta durante a emissão das hastes florais.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Stanhopea hernandezii, epífita/rupícola com hastes florais descendentes, requer cesta suspensa de fundo realmente desobstruído, umidade regular durante crescimento e ventilação. Cachepô de Madeira suspenso é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 40% chips de coco grossos preparados + 30% pinus médio + 20% perlita grossa compatível com cesto + 10% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/fibra de coco grossa preparada/perlita/carvão e macadâmia/chips de coco grossos preparados/perlita/pouco esfagno solto. Elas não fundamentam os percentuais visuais; justificativa anterior de equivalência foi corrigida. Não compactar nem bloquear a saída das hastes, observar limitações de noites quentes. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
+        notaEvidencia: "MACS 1.1 — revisão documental: Stanhopea hernandezii, epífita/rupícola com hastes florais descendentes, requer cesta suspensa de fundo realmente desobstruído, umidade regular durante crescimento e ventilação. Cachepô de Madeira suspenso é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 40% chips de coco grossos preparados + 30% pinus médio + 20% perlita grossa compatível com cesto + 10% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/fibra de coco grossa preparada/perlita/carvão e macadâmia/chips de coco grossos preparados/perlita/pouco esfagno solto. Elas não fundamentam os percentuais visuais; justificativa anterior de equivalência foi corrigida. Não compactar nem bloquear a saída das hastes, observar limitações de noites quentes. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas de suporte omitidas. Classe D — não homologada quantitativamente"
     },
     "errosComuns": "Vaso fechado; fundo bloqueado; seca total na brotação; mover ou girar a cesta com haste emergente; replantar durante floração; molhar flores à noite; sombra profunda; substrato velho e compacto.",
     "dica": "Use cesta suspensa com o fundo totalmente livre. Assim que a haste floral aparecer por baixo, não gire, não mude de posição e não replante a planta. A estabilidade física durante essa fase é tão importante quanto água e luz.",
@@ -212,7 +212,7 @@ export const stanhopeaHernandezii = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, cultive no setor sombreado e mais ventilado, elevando a umidade do ar sem saturar a cesta à noite.",
+        "litoralQuente": "Em clima quente, cultive no setor sombreado e mais ventilado, elevando a umidade do ar sem saturar a cesta à noite.",
         "montanhaFrio": "Muito favorável em clima intermediário; proteja apenas de geadas e frio extremo."
     },
     "mesesFloracao": [
