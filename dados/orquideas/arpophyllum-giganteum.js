@@ -5,7 +5,7 @@ export const arpophyllumGiganteum = {
     genero: "Arpophyllum",
     tipo: "Espécie botânica — com táxons infraespecíficos reconhecidos em bases modernas",
     sinonimo: "Arpophyllum cardinale Linden & Rchb.f.; Arpophyllum jamaicense Schltr.; Arpophyllum medium Rchb.f.; Arpophyllum stenostachyum Schltr.; nomes hoje associados ao complexo/infrasubdivisões de A. giganteum",
-    dificuldade: "Moderada",
+    dificuldade: "Fácil",
     origem: "América Tropical",
     regiao: "México · Guatemala · Belize · El Salvador · Honduras · Nicarágua · Costa Rica · Jamaica · Colômbia · Venezuela",
     habitat: "Epífita rizomatosa de florestas úmidas de encosta e sopé de montanha, aproximadamente entre 800 e 1.500 m.",
@@ -90,7 +90,7 @@ export const arpophyllumGiganteum = {
         "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
         "indice": 34,
-        "classificacao": "Moderada",
+        "classificacao": "Fácil",
         "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
