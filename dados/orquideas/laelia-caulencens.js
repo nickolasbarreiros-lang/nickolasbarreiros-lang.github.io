@@ -38,7 +38,7 @@ export const laeliaCaulencens = {
     adubacao: "🌿 Orgânica: Bokashi é opcional e deve ser usado em quantidade mínima, bem afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em aproximadamente 1/4 da dose a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional em dose muito baixa. Não é necessário usar formulações 10-30-20 ou 15-15-30 como regra para floração.",
     rega: "Durante crescimento ativo, regue abundantemente e permita drenagem imediata, forte oxigenação e secagem progressiva antes da próxima irrigação. No período de menor atividade, aumente significativamente o intervalo entre regas, sem deixar os pequenos pseudobulbos desidratarem em excesso.",
     suporte: "🥇 Vaso baixo de barro, pequeno e bem perfurado.\n🥈 Cesto raso e muito vazado.\n🥉 Pedra porosa ou montagem mineral firmemente fixada.\nO vaso pequeno é útil porque reduz o volume de material úmido, não porque as raízes precisem ficar comprimidas.",
-    substrato: ["40% brita pequena limpa e sem pó + 30% argila expandida pequena/média + 20% carvão vegetal médio + 10% casca de pinus grossa","45% brita pequena limpa e sem pó + 30% casca de macadâmia média + 15% argila expandida pequena/média + 10% casca de pinus grossa"],
+    substrato: ["Perlita grossa + argila expandida pequena/média + carvão vegetal médio + pequena fração de casca de pinus grossa","Casca de macadâmia média + perlita grossa + cacos de cerâmica sem arestas cortantes ou argila expandida pequena/média"],
     formasCultivo: {
         perfilVisual: "cattleya-rupicola-compacta-mineral",
         destaque: "Vaso de Barro",
@@ -54,7 +54,7 @@ export const laeliaCaulencens = {
         titulo: "Substrato ideal",
         contexto: "Mistura predominantemente mineral para vaso baixo",
         resumo: "Partículas minerais grossas e estáveis, com pequena fração orgânica, drenagem imediata e raízes muito arejadas.",
-        justificativa: "Cattleya caulescens (sin. Laelia caulescens) é rupícola compacta, de alta luminosidade e raízes que exigem secagem rápida sem superaquecimento. Para vaso de barro baixo e perfurado, a receita visual propõe 65% de componentes minerais (brita pequena e argila expandida) e 35% de cascas vegetais (macadâmia e pinus), totalizando 100%. As duas outras misturas são propostas editoriais quantificadas distintas, sem validação experimental comparativa. Controlar aquecimento do vaso, drenagem, salinidade e regas durante crescimento ativo; rupícola não significa repouso absolutamente seco. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
+        justificativa: "Cattleya caulescens (sin. Laelia caulescens) é rupícola compacta, de alta luminosidade e raízes que exigem secagem rápida sem superaquecimento. Para vaso de barro baixo e perfurado, a receita visual propõe 65% de componentes minerais (brita pequena e argila expandida) e 35% de cascas vegetais (macadâmia e pinus), totalizando 100%. As duas outras misturas são alternativas qualitativas sem percentuais. Controlar aquecimento do vaso, drenagem, salinidade e regas durante crescimento ativo; rupícola não significa repouso absolutamente seco. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
         receitaTexto: "35% brita pequena limpa e sem pó + 30% argila expandida pequena/média + 25% casca de macadâmia média + 10% casca de pinus grossa (proposta não homologada).",
         perfil: ["Rupícola compacta", "Unifoliada", "Alta luminosidade", "Drenagem imediata", "Raízes arejadas"],
         comportamento: [
