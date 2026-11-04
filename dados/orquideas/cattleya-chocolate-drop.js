@@ -48,7 +48,7 @@ export const cattleyaChocolateDrop = {
     "resumo": "MACS 1.1: vaso plástico vasado é a opção principal da ficha; a pesquisa com mudas utilizou vaso plástico, sem comparar recipientes. Pontuações anteriores eram heurísticas, não resultados de ensaio.",
     "metodos": [
         {
-            "nome": "Vaso de barro",
+            "nome": "Vaso de Barro",
             "asset": "vaso-barro",
             "estrelas": null,
             "status": "Alternativa",
