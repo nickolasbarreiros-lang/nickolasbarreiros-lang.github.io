@@ -9,26 +9,26 @@ export const bulbophyllumMiniatum = {
     genero: "Bulbophyllum",
     tipo: "Variedade botânica epífita africana",
     dificuldade: "Moderada",
-    caracteristicas: ["Miniatura epífita", "Rizoma rastejante", "Flores alaranjadas", "Margens ciliadas claras", "Labelo móvel", "Clima quente"],
+    caracteristicas: ["Epífita de rizoma alongado", "Rizoma rastejante", "Flores esverdeadas a arroxeadas", "Labelo com pelos e movimento articulado", "Labelo móvel", "Clima quente"],
     fotos: [
         "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum1.jpeg",
         "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum2.jpeg",
         "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum3.webp",
         "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum4.webp"
     ],
-    descricao: "Uma pequena africana cheia de movimento! A planta conhecida em muitas coleções como *Bulbophyllum miniatum* cresce com pseudobulbos espaçados sobre um rizoma rastejante e produz hastes pendentes com várias flores em tons de amarelo, laranja a avermelhado. Os cílios claros e o labelo articulado dão às flores um aspecto vivo e delicado, especialmente quando se movimentam com a brisa. Hoje esse nome é tratado como sinônimo de *Bulbophyllum saltatorium* var. *albociliatum*, mas continua muito presente em etiquetas e coleções. Originária de florestas tropicais úmidas africanas, é uma orquídea de clima predominantemente quente que aprecia umidade constante, raízes bem arejadas e boa circulação de ar.",
+    descricao: "Conhecida nas coleções como Bulbophyllum miniatum, esta orquídea africana corresponde à variedade albociliatum de Bulbophyllum saltatorium. Possui rizoma alongado, pseudobulbos espaçados e uma folha firme em cada pseudobulbo. As hastes florais podem ser longas, sustentando numerosas flores pequenas que se abrem sucessivamente. Sépalas e pétalas variam entre tons esverdeados e arroxeados; o labelo, mais escuro, é articulado e se movimenta com facilidade. A planta cresce como epífita em florestas tropicais úmidas da África ocidental e central, alcançando também regiões do leste do continente. Seu conjunto de flores delicadas contrasta com a extensão das hastes.",
     origem: "África Tropical",
     regiao: "África O/C · Uganda · Quênia SW · Angola",
-    habitat: "Florestas úmidas · ~750 m.",
+    habitat: "Florestas tropicais úmidas · altitude variável; registros florísticos em torno de 1.400 m.",
     clima: "Quente · úmido · ventilado.",
-    climaFloracao: "A espécie-base é registrada em florestas quentes abaixo de 900 m e floresce sobretudo no inverno; para a variedade albociliatum, a referência ecológica próxima de 750 m reforça preferência por calor moderado com noites ligeiramente mais amenas, não por frio intenso. No litoral quente, a indução floral tende a depender mais da maturação dos pseudobulbos, boa luminosidade filtrada e pequena sazonalidade térmica do que de qualquer repouso seco.",
+    climaFloracao: "A Flora of Tropical East Africa registra a variedade, sob o sinônimo Bulbophyllum distans, em floresta úmida a aproximadamente 1.400 m. Não há evidência suficiente para impor uma estação fixa de floração no Brasil ou repouso seco rigoroso. Observar o ciclo individual de crescimento e emissão de hastes.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
-        horario: "",
+        horario: "Não permitido",
         observacoes: "Meia-sombra clara é preferível à sombra profunda. Folhas firmes e verde-médio indicam bom equilíbrio. No litoral quente, ventilação constante é indispensável para que a combinação de calor, umidade e sombra não favoreça podridões."
     },
-    floracao: "Predomina no período mais fresco do ciclo anual, frequentemente no inverno. Em cultivo brasileiro, junho a agosto é uma referência prática, mas clones podem deslocar a floração conforme microclima e maturação dos crescimentos.",
+    floracao: "A época varia com a procedência e as condições de cultivo; não há base documental suficiente para fixar junho a agosto como período obrigatório no Brasil. As flores pequenas podem abrir sucessivamente ao longo de hastes compridas.",
     adubacao: "🌿 Orgânica: Bokashi em porção pequena, de preferência em sachê e afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose recomendada a cada 10 a 15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: Osmocote somente em dose muito baixa em vasos/cestos; evite contato direto com raízes finas. Reduza quando os pseudobulbos amadurecerem e faça periodicamente regas abundantes apenas com água para lavar sais.",
     rega: "Mantenha umidade leve e relativamente constante durante o crescimento, sem permitir encharcamento permanente. Em montagem, pode exigir regas diárias no calor; em cesto ou vaso, regue novamente quando a camada superficial começar a perder umidade. Não imponha repouso seco completo.",
     suporte: "🥇 Cortiça ou galho rugoso com fina reserva de esfagno sob as raízes.\n🥈 Cesto raso e largo.\n🥉 Vaso tipo cuia muito perfurado.\nDeixe o rizoma livre e com espaço para avançar.",
@@ -71,7 +71,7 @@ export const bulbophyllumMiniatum = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
-        "justificativa": "Há recomendação brasileira para B. saltatorium (sem confirmação da variedade): madeira com esfagno ou substrato drenante. Montagem é uma alternativa documentada; proporções da receita em recipiente são inferência.",
+        "justificativa": "O Orquidário Matsuoka recomenda para B. saltatorium (sem confirmação da variedade) madeira com esfagno ou substrato drenante, sem proporções. Montagem é uma alternativa documentada; proporções da receita em recipiente são inferência.",
         "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno de fibra longa solto.",
         "perfil": ["Hábito epífito", "Raízes delicadas", "Base exposta", "Umidade regular", "Boa aeração", "Montagem úmida"],
         "comportamento": [
@@ -127,7 +127,7 @@ export const bulbophyllumMiniatum = {
             }
         ],
         "alerta": "Proposta preliminar MACS 1.1; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo.",
-        "notaEvidencia": "MACS 1.1 — revisão documental: nome aceito na ficha Bulbophyllum saltatorium var. albociliatum (sin. B. miniatum), miniatura epífita de rizoma rastejante. Placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; indicação de montagem com esfagno atribuída na ficha a B. saltatorium sem confirmação da variedade, portanto extrapolação taxonômica e não ensaio específico. Receita visual 35% pinus médio + 25% chips coco + 25% perlita grossa + 15% esfagno = 100%; receitaTexto e itens concordam. Receita principal textual e visual concordam (35% pinus, 25% chips de coco, 25% perlita, 15% esfagno); duas alternativas qualitativas são distintas e não representam a composição principal. Proposta não validada quantitativamente; meta de até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        "notaEvidencia": "MACS 1.1 — revisão documental: nome aceito Bulbophyllum saltatorium var. albociliatum (sin. B. miniatum), epífita de rizoma alongado; Flora of Tropical East Africa, sob sinônimo B. distans, descreve pseudobulbos de 2,5–5,5 cm e hastes até 62 cm, flores sucessivas, floresta úmida a cerca de 1.400 m. Placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; indicação de montagem com esfagno atribuída na ficha a B. saltatorium sem confirmação da variedade, portanto extrapolação taxonômica e não ensaio específico. Receita visual 35% pinus médio + 25% chips coco + 25% perlita grossa + 15% esfagno = 100%; receitaTexto e itens concordam. Receita principal textual e visual concordam (35% pinus, 25% chips de coco, 25% perlita, 15% esfagno); duas alternativas qualitativas são distintas e não representam a composição principal. Orquidário Matsuoka (https://orquidariomatsuoka.com.br/produto/bulbophyllum-saltatorium/) recomenda toco de madeira com esfagno ou substrato drenante para B. saltatorium sem identificar variedade; não é evidência específica inequívoca para albociliatum. Nenhum produtor brasileiro com receita quantitativa comprovada para esta variedade; meta de 25 não atingida. Proposta não validada quantitativamente; Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     substrato: ["Chips de coco médios preparados + perlita grossa + carvão vegetal miúdo + esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita grossa + esfagno de fibra longa solto"],
     errosComuns: "• Tratar Bulbophyllum miniatum como espécie atualmente aceita separada.\n• Enterrar o rizoma ou a base dos pseudobulbos.\n• Compactar esfagno.\n• Confundir alta umidade com substrato saturado.\n• Deixar a planta secar completamente por vários dias.\n• Cultivar em sombra profunda e abafada.\n• Aplicar adubo concentrado sobre raízes finas.\n• Forçar repouso seco para induzir floração.",
