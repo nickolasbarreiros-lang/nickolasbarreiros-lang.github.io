@@ -51,7 +51,7 @@ export const maxillariaChrysantha = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso pequeno em ambiente ameno",
         resumo: "Substrato de partículas médias com umidade moderada, drenagem rápida e baixa compactação.",
-        justificativa: "A receita visual para vaso pequeno em ambiente ameno combina pinus médio, macadâmia triturada, perlita grossa e fibra de coco grossa preparada. Orquidário Oriental recomenda pinus ou esfagno com cascas e boa drenagem para a espécie, mas não informa proporções; a receita visual é hipótese quantitativa. A receita principal textual e a visual coincidem. O esfagno integra apenas a primeira das duas alternativas qualitativas; a receita principal usa fibra de coco grossa. As referências ecológicas sobre hábito montano e noites amenas não validam os percentuais nem o ranking de recipientes. Proposta ainda não homologada pela MACS 1.1.",
+        justificativa: "Maxillaria chrysantha se beneficia de vaso pequeno em ambiente ameno, com umidade regular e raízes bem ventiladas. As cascas de pinus e macadâmia oferecem estrutura, a perlita grossa mantém a mistura aberta e a fibra de coco grossa preparada ajuda a conservar umidade. Observe a secagem do recipiente, evitando encharcamento, e favoreça noites mais amenas.",
         receitaTexto: "35% casca de pinus média + 30% casca de macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa preparada.",
         perfil: ["Epífita montana", "Noites amenas", "Raízes sensíveis", "Umidade moderada", "Boa ventilação"],
         comportamento: [
