@@ -78,8 +78,8 @@ export const cattleyaIntermedia = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Mistura de pinus e fibra de coco em partes iguais, estudada na aclimatização de plântulas; uso em plantas adultas é extrapolação técnica.",
-    "justificativa": "Lone et al. (2008) avaliaram especificamente Cattleya intermedia em aclimatização e identificaram fibra de coco e mistura 1:1 de pinus com coco entre as alternativas promissoras. A proporção foi avaliada na fase de aclimatização de plântulas; não há validação específica demonstrada para plantas adultas em cachepô. A antiga fórmula de macadâmia/perlita/carvão não foi testada nesses trabalhos. Em plantas adultas, ajustar aeração e intervalo de rega ao recipiente e observar a secagem.",
-    "receitaTexto": "50% casca de pinus média + 50% fibra de coco preparada para cultivo (1:1 em volume; ensaio em plântulas, não validado para adultos).",
+    "justificativa": "Cattleya intermedia se beneficia de raízes ventiladas e umidade controlada, com secagem perceptível entre regas. A casca de pinus média oferece estrutura, enquanto a fibra de coco preparada ajuda a conservar umidade. Em cachepô aberto, observe a secagem real da mistura, pois a ventilação e o tamanho do recipiente alteram o intervalo entre regas. Evite compactação e mantenha boa circulação de ar junto às raízes.",
+    "receitaTexto": "50% casca de pinus média + 50% fibra de coco preparada para cultivo (1:1 em volume).",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
