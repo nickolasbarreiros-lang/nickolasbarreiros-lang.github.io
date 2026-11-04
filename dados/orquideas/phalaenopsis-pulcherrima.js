@@ -26,7 +26,7 @@ export const phalaenopsisPulcherrima = {
     regiao: "Assam · Indochina · Hainan · oeste da Malésia",
     habitat: "Litófita ou terrestre em rochas e solos arenosos de regiões tropicais úmidas.",
     clima: "Quente, úmido, claro e ventilado.",
-    climaFloracao: "Gosta de calor e não depende de frio para induzir a floração. Boa luminosidade, raízes ativas e hidratação regular favorecem hastes longas e sucessivas. No litoral quente, encontra condições bastante favoráveis.",
+    climaFloracao: "Gosta de calor e não depende de frio para induzir a floração. Boa luminosidade, raízes ativas e hidratação regular favorecem hastes longas e sucessivas. Em clima quente, encontra condições bastante favoráveis.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
@@ -47,10 +47,10 @@ export const phalaenopsisPulcherrima = {
         destaque: "Vaso de Barro",
         resumo: "Espécie terrestre ou litófita de clima quente, com haste floral ereta. Recipiente baixo, muito perfurado e estável permite mistura mineral aberta e colo bem ventilado.",
         metodos: [
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso baixo e bem perfurado, com substrato mineral e drenagem rápida, mantendo o colo fora da mistura." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso baixo e muito vazado, com mistura aberta e controle rigoroso da umidade." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô pequeno com partículas minerais e casca, evitando ressecamento excessivo." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Montagem em cortiça ou tronco apenas com umidade elevada e regas frequentes." }
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Mais recomendado na ficha", texto: "Vaso baixo e bem perfurado, com substrato mineral e drenagem rápida, mantendo o colo fora da mistura." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa", texto: "Vaso baixo e muito vazado, com mistura aberta e controle rigoroso da umidade." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa", texto: "Cachepô pequeno com partículas minerais e casca, evitando ressecamento excessivo." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Uso condicional", texto: "Montagem em cortiça ou tronco apenas com umidade elevada e regas frequentes." }
         ]
     },
     substratoVisual: {
@@ -73,7 +73,7 @@ export const phalaenopsisPulcherrima = {
             { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "10%", nota: "fração orgânica", finalidade: "Acrescenta retenção discreta à mistura." }
         ],
         alerta: "Evitar sombra profunda, encharcamento, vasos grandes, água acumulada na coroa e exposição súbita ao sol forte. Preservar hastes verdes que ainda produzam botões.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Phalaenopsis pulcherrima (sin. Doritis pulcherrima), terrestre ou litófita de rochas e solos arenosos, requer vaso baixo, colo ventilado e drenagem rápida com umidade ajustada ao clima. Vaso de Barro bem perfurado é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 35% perlita grossa + 30% brita fina/média lavada e sem pó + 25% macadâmia média + 10% pinus grosso = 100% (65% fração mineral e 35% orgânica). Exatamente duas outras misturas qualitativas distintas: perlita/argila expandida pequena/carvão/pouco pinus e brita/perlita/carvão/pouco pinus. Elas não fundamentam os percentuais visuais. Os identificadores de assets perlita, brita-fina, casca-macadamia e casca-pinus constam no registro de biblioteca; inspeção de renderização não executada. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Phalaenopsis pulcherrima (sin. Doritis pulcherrima), terrestre ou litófita de rochas e solos arenosos, requer vaso baixo, colo ventilado e drenagem rápida com umidade ajustada ao clima. Vaso de Barro bem perfurado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% perlita grossa + 30% brita fina/média lavada e sem pó + 25% macadâmia média + 10% pinus grosso = 100% (65% fração mineral e 35% orgânica). Exatamente duas outras misturas qualitativas distintas: perlita/argila expandida pequena/carvão/pouco pinus e brita/perlita/carvão/pouco pinus. Elas não fundamentam os percentuais visuais. Os identificadores de assets perlita, brita-fina, casca-macadamia e casca-pinus constam no registro de biblioteca; inspeção de renderização pendente de execução automatizada. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
         "Cultivar em sombra profunda como uma Phalaenopsis comum",
@@ -223,8 +223,8 @@ export const phalaenopsisPulcherrima = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Excelente Calor combina bem com a espécie. Use luz filtrada relativamente alta, boa ventilação e regas regulares sem manter o vaso saturado." },
-        montanhaFrio: { texto: "Boa Pode ser cultivada, mas deve ser protegida de noites muito frias e de raízes molhadas em temperaturas baixas." }
+        litoralQuente: { texto: "Excelente adaptação. Calor combina bem com a espécie. Use luz filtrada relativamente alta, boa ventilação e regas regulares sem manter o vaso saturado." },
+        montanhaFrio: { texto: "Boa adaptação. Pode ser cultivada, mas deve ser protegida de noites muito frias e de raízes molhadas em temperaturas baixas." }
     },
     mesesFloracao: [12, 1, 2, 3, 4, 5],
     "selosCultivo": {
