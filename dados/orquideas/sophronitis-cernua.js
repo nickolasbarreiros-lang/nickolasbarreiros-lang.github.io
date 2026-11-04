@@ -19,7 +19,7 @@ export const sophronitisCernua = {
         "imagens/Cattleya cernua (sin. Sophronitis cernua)/Cattleya cernua (sin. Sophronitis cernua)3.jpg",
         "imagens/Cattleya cernua (sin. Sophronitis cernua)/Cattleya cernua (sin. Sophronitis cernua)4.jpeg"
     ],
-    descricao: "Uma pequena explosão de cor em tamanho miniatura! Cattleya cernua forma touceiras compactas e produz grupos de 4 a 10 flores laranja a vermelho-vivo, geralmente com cerca de 2 a 3 cm. É uma das antigas ‘Sophronitis’ mais tolerantes ao calor e pode ocorrer desde áreas litorâneas muito ventiladas até regiões interiores. Seu porte reduzido esconde uma planta resistente, que responde melhor quando recebe bastante claridade, raízes muito arejadas e regas frequentes sem permanecer encharcada.",
+    descricao: "Uma pequena explosão de cor em tamanho miniatura! Cattleya cernua forma touceiras compactas e produz grupos de 4 a 10 flores laranja a vermelho-vivo, geralmente com cerca de 2 a 3 cm. É uma das antigas ‘Sophronitis’ mais tolerantes ao calor e pode ocorrer desde áreas litorâneas muito ventiladas até regiões interiores. Seu porte reduzido esconde uma planta resistente, que responde melhor quando recebe bastante claridade, raízes muito arejadas e regas frequentes sem permanecer encharcada. As flores aparecem próximas às folhas e podem transformar uma touceira pequena em um ponto de cor muito intenso. Seu hábito epífito e a distribuição relativamente ampla ajudam a explicar sua presença em coleções de diferentes regiões.",
     origem: "Brasil ao nordeste da Argentina",
     regiao: "Brasil, Paraguai e nordeste da Argentina",
     habitat: "Epífita/litófita · áreas claras e ventiladas · litoral ao interior.",
