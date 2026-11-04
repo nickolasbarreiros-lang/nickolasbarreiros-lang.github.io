@@ -310,3 +310,9 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - O campo `climaFloracao` afirmava amplitude altitudinal geral e tolerância de quente a frio. Essa inferência excedia o alcance dos registros regionais documentados e foi substituída por texto que separa observações naturais de orientações práticas provisórias.
 - IDC 3.2 e IAR 2.0 foram preservados: a correção de prosa não constitui reavaliação empírica das notas de seus fatores. A adequação científica das notas de temperatura permanece passível de reexame com dados específicos.
 - Não foram alterados meses de floração nesta etapa: referências secundárias ainda requerem confirmação bibliográfica antes de ampliar o calendário. MACS 1.1 continua Classe D, sem homologação quantitativa.
+
+### Auditoria da linguagem de evidência — ficha 1 (2026-11-04)
+- O contexto do substrato usava `receita experimental de referência` sem existir ensaio realizado. Substituído por `receita técnica proposta ... não submetida a ensaio comparativo`, para não sugerir dados inexistentes.
+- O resumo de cultivo dizia `raízes permanentemente oxigenadas` e a justificativa atribuía efeito definitivo à montagem. Reescritos como recomendações provisórias e hipótese de aeração, distinguindo propriedades físicas gerais de resultados específicos para *A. sclerophylla*.
+- Conferência de consistência: `floracao` já menciona registros de janeiro, março e abril de exemplares cultivados no Instituto de Botânica; portanto a afirmação anterior do relatório de que não houve ampliação do calendário não deve ser interpretada como exclusão desses registros. Qualquer revisão dos meses exige conferência da fonte original.
+- Mantidos os quatro suportes sem estrelas, receita percentual 35/30/20/15 e duas alternativas qualitativas. **MACS Classe D permanece**, pois nenhum experimento ou levantamento comparativo específico foi encontrado.
