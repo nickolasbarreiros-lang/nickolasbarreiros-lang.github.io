@@ -269,3 +269,8 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - Não se restabeleceu a antiga faixa 480–3.100 m, pois não foi demonstrada como amplitude global. A faixa colombiana não determina, isoladamente, condições térmicas ideais em cultivo no Brasil.
 - AOS (https://www.aos.org/orchid-care/orchid-care-basics/mounting) recomenda montagem de orquídeas epífitas em geral, mas ressalva que vasos podem ser preferíveis em ambientes internos ou muito quentes. Portanto, **não prova superioridade universal de placa/tronco para esta espécie**.
 - MACS 1.1 segue Classe D: falta evidência direta e comparativa de proporções e suportes. Sem mudança de estrelas, receita ou ficha seguinte.
+
+### Checagem de premiações sob sinônimos — ficha 1 (2026-11-04)
+- Busca adicional encontrou catálogo secundário (https://orchids.herokuapp.com/grexes/anathallis-secunda) que agrega premiações de cultivares sob *Anathallis*, *Pleurothallis* e *Specklinia sclerophylla*.
+- A afirmação anterior `Não há premiação AOS individualizada documentada nesta revisão` foi qualificada: **há alegações em fonte secundária**, mas **não foram conferidos os certificados/registros primários AOS**. Não converter em premiação homologada nem usar premiações para inferir receita ou suporte superior.
+- Fonte secundária acrescentada ao campo de fontes da ficha com ressalva expressa. MACS permanece Classe D.
