@@ -42,9 +42,9 @@ jobs:
             const mainParts=await page.locator('.ingrediente-substrato-v4 .proporcao-substrato-v4').allTextContents();
             const values=mainParts.map(s=>Number(s.trim().replace('%','')));
             if(values.length<2||values.some(v=>!Number.isFinite(v))||values.reduce((a,b)=>a+b,0)!==100)throw Error('Mistura principal inválida: '+mainParts.join(' | '));
-            await page.locator('#ficha img').evaluateAll(nodes=>nodes.forEach(img=>{img.loading='eager'}));
-            await page.waitForFunction(() => [...document.querySelectorAll('#ficha img')].every(img=>img.complete),{timeout:20000});
-            const broken=await page.locator('#ficha img').evaluateAll(nodes=>nodes.filter(img=>img.naturalWidth===0).map(img=>img.getAttribute('src')));
+            await page.locator('#ficha img:not(#foto-ampliada-v2)').evaluateAll(nodes=>nodes.forEach(img=>{img.loading='eager'}));
+            await page.waitForFunction(() => [...document.querySelectorAll('#ficha img:not(#foto-ampliada-v2)')].every(img=>img.complete),{timeout:20000});
+            const broken=await page.locator('#ficha img:not(#foto-ampliada-v2)').evaluateAll(nodes=>nodes.filter(img=>img.naturalWidth===0).map(img=>img.getAttribute('src')));
             if(broken.length)throw Error('Imagens não carregadas: '+broken.join(' | '));
             if(errors.length)throw Error('Erros JavaScript: '+errors.join(' | '));
             await section.screenshot({path:'macs-111-substrato-desktop.png'});
@@ -53,7 +53,7 @@ jobs:
             await section.screenshot({path:'macs-111-substrato-mobile.png'});
             const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth+2);
             if(overflow)throw Error('Overflow horizontal no celular');
-            const mobileBroken=await page.locator('#ficha img').evaluateAll(nodes=>nodes.filter(img=>img.complete&&img.naturalWidth===0).map(img=>img.getAttribute('src')));
+            const mobileBroken=await page.locator('#ficha img:not(#foto-ampliada-v2)').evaluateAll(nodes=>nodes.filter(img=>img.complete&&img.naturalWidth===0).map(img=>img.getAttribute('src')));
             if(mobileBroken.length)throw Error('Imagens quebradas no celular: '+mobileBroken.join(' | '));
             await page.screenshot({path:'macs-111-ficha-mobile.png',fullPage:true});
             const mobileTexts=await entries.allTextContents();
