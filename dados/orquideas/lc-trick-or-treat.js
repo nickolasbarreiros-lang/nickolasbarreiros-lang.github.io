@@ -50,8 +50,8 @@ export const lcTrickOrTreat = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso bem perfurado",
         resumo: "Mistura aberta de casca predominante e carvão, para raízes vigorosas e secagem entre regas.",
-        justificativa: "O Missouri Botanical Garden documenta para Cattleyas e outras orquídeas simpodiais cinco partes de casca de abeto média para uma de carvão horticultural (5:1 = 83,3%/16,7%). A substituição da casca de abeto por pinus média é uma adaptação de material, não reprodução literal da receita institucional nem ensaio específico para Cattlianthe Trick or Treat. AOS recomenda casca média/grossa e secagem entre regas. A receita anterior com macadâmia e perlita continha percentuais estimados sem respaldo quantitativo específico. Vaso de barro e vaso plástico vasado requerem ajuste de regas conforme a secagem real.",
-        receitaTexto: "83,3% casca de pinus média + 16,7% carvão vegetal horticultural (adaptação de referência 5:1 com casca de abeto média, não homologada para este híbrido).",
+        justificativa: "Cattlianthe Trick or Treat se beneficia de substrato aberto e raízes bem ventiladas. A casca de pinus média dá sustentação e o carvão vegetal horticultural ajuda a manter a mistura drenante. Em vaso de barro, a secagem tende a ser diferente daquela de um vaso plástico vasado; observe as condições reais do recipiente antes de regar novamente e evite deixar água acumulada junto às raízes.",
+        receitaTexto: "83,3% casca de pinus média + 16,7% carvão vegetal horticultural.",
         perfil: ["Híbrido vigoroso", "Touceira expansiva", "Raízes ativas", "Alta luz filtrada", "Secagem entre regas"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
