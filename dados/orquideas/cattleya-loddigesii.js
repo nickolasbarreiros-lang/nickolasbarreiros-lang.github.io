@@ -5,7 +5,7 @@ export const cattleyaLoddigesii = {
     id: "cattleya-loddigesii",
     nome: "Cattleya loddigesii",
     genero: "Cattleya",
-    sinonimo: "Cattleya arembergii",
+    sinonimo: "Epidendrum loddigesii",
     tipo: "Espécie botânica",
     dificuldade: "Difícil",
     caracteristicas: [
@@ -20,7 +20,7 @@ export const cattleyaLoddigesii = {
         "imagens/Cattleya loddigesii/Cattleya loddigesii3.jpg",
         "imagens/Cattleya loddigesii/Cattleya loddigesii4.jpg"
     ],
-    descricao: "Clássica, vigorosa e muito florífera, Cattleya loddigesii é uma das grandes representantes das Cattleyas bifoliadas brasileiras. Seus pseudobulbos alongados sustentam normalmente duas folhas firmes e, quando maduros, produzem flores cerosas em delicados tons de rosa a lilás, com labelo mais intenso e um belo toque amarelado na região central. Com o tempo, pode formar grandes touceiras e oferecer várias hastes simultaneamente, criando uma floração cheia e elegante. É uma espécie bastante adaptável e recompensadora, especialmente quando cultivada com boa luminosidade, ventilação constante e raízes livres para respirar.",
+    descricao: "Cattleya loddigesii é uma das representantes clássicas das Cattleyas bifoliadas do Brasil. Seus pseudobulbos alongados sustentam normalmente duas folhas coriáceas, e as hastes surgem quando os novos crescimentos amadurecem. As flores, geralmente rosadas ou lilases, têm textura cerosa e labelo de coloração mais intensa, muitas vezes com detalhes amarelados no centro. Exemplares adultos podem formar touceiras grandes e florir em várias frentes, criando um conjunto elegante. Nativa das regiões Sudeste e Sul, ocorre como epífita ou rupícola em ambientes florestais com sazonalidade marcada. A combinação de porte vigoroso e flores delicadas tornou a espécie muito apreciada por colecionadores.",
     origem: "Brasil",
     regiao: "Sudeste ao Paraná",
     habitat: "Florestas sazonais · epífita ou rupícola",
@@ -76,8 +76,8 @@ export const cattleyaLoddigesii = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "Para recipiente proporcional ao porte, o pinus oferece alguma umidade sem comprometer a ventilação das raízes.",
-    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de pinus média + 25% casca de macadâmia média + 25% perlita grossa + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
+    "justificativa": "Sorace (UEL, 2008) testou diretamente plântulas desta espécie e identificou bom desempenho em casca de pinus isolada ou pinus + casca de arroz carbonizada (1:1 v/v). A receita visual adota esta última composição documentada, com ressalva de que o ensaio foi realizado em mudas, não em plantas adultas.",
+    "receitaTexto": "50% casca de pinus média + 50% casca de arroz carbonizada (1:1 em volume). Mistura testada em plântulas de Cattleya loddigesii; ajustar granulometria e frequência de regas para plantas adultas.",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
@@ -85,37 +85,11 @@ export const cattleyaLoddigesii = {
         "Drenagem rápida"
     ],
     "itens": [
-        {
-            "asset": "casca-pinus",
-            "nome": "Casca de pinus média",
-            "proporcao": "35%",
-            "nota": "umidade moderada",
-            "finalidade": "Conserva alguma umidade sem fechar a mistura quando usada em granulometria adequada."
-        },
-        {
-            "asset": "casca-macadamia",
-            "nome": "Casca de macadâmia média",
-            "proporcao": "25%",
-            "nota": "estrutura",
-            "finalidade": "Partículas resistentes criam espaços de ar entre as raízes."
-        },
-        {
-            "asset": "perlita",
-            "nome": "Perlita grossa",
-            "proporcao": "25%",
-            "nota": "aeração",
-            "finalidade": "Amplia a porosidade e reduz a compactação do recipiente."
-        },
-        {
-            "asset": "carvao",
-            "nome": "Carvão vegetal",
-            "proporcao": "15%",
-            "nota": "drenagem",
-            "finalidade": "Mantém partículas firmes e contribui para uma mistura aberta."
-        }
+        { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "50%", "nota": "estrutura e suporte", "finalidade": "Material avaliado em ensaio com mudas da espécie, isolado ou combinado à casca de arroz carbonizada." },
+        { "asset": "casca-arroz-carbonizada", "nome": "Casca de arroz carbonizada", "proporcao": "50%", "nota": "porosidade e drenagem", "finalidade": "Componente da mistura 1:1 testada em plântulas da espécie." }
     ],
-    "alerta": "Estudos com plântulas favorecem pinus e pinus associado à casca de arroz carbonizada, mas não validam esta receita para plantas adultas. Observar secagem e manter drenagem.",
-    "notaEvidencia": "MACS 1.1 — revisão documental: Cattleya loddigesii, espécie bifoliada epífita ou rupícola, requer suporte estável, drenagem e secagem entre regas. Métodos listados: vaso de barro (destaque), cachepô madeira, placa/tronco e plástico vasado; TODOS têm estrelas:null, portanto ranking quantitativo de suportes ausente, sem atribuir notas nesta passagem. Receita visual 35% pinus + 25% macadâmia + 25% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% pinus, 25% macadâmia, 25% perlita, 15% carvão); as duas alternativas qualitativas são distintas, não equivalentes à principal. Alerta da ficha cita estudos com plântulas e pinus/arroz carbonizado, sem validar composição para adultas. Meta até 25 produtores brasileiros específicos não atingida; percentuais e avaliação de suportes NÃO HOMOLOGADOS."
+    "alerta": "Mistura 1:1 apoiada por ensaio com plântulas, não validada para plantas adultas. Observar secagem e manter drenagem; não extrapolar a dose de extrato pirolenhoso do estudo de Schnitzer et al. como recomendação geral.",
+    "notaEvidencia": "MACS 1.1 — receita principal corrigida com evidência experimental direta: Sorace (2008), dissertação UEL, 8 tratamentos, 12 repetições, 17 meses, em plântulas de Cattleya loddigesii, encontrou bons resultados com pinus isolado e pinus + casca de arroz carbonizada (1:1 v/v). Receita visual e textual agora 50% pinus + 50% arroz carbonizado = 100%. Schnitzer et al. (2015), Revista Ceres, usaram fibra de coco + pinus + arroz carbonizado (1:1:1) como substrato-base de experimento sobre extrato pirolenhoso; esse estudo NÃO comparou a mistura-base com outros substratos. Não extrapolar resultados de plântulas para adultas nem considerar os percentuais homologados para todo ambiente. Fontes: https://repositorio.uel.br/handle/123456789/10648 ; https://ojs.ceres.ufv.br/ceres/article/view/4222 . Produtores brasileiros com receita quantitativa específica verificada: zero; meta de 25 não atingida. Estrelas dos suportes permanecem nulas, sem ranking experimental."
 },
     errosComuns: "Cultivar sob sombra excessiva; secar demais durante crescimento ativo; manter substrato velho, compactado ou constantemente molhado; usar vaso muito grande; enterrar o rizoma; replantar sem novas raízes em emissão; quebrar raízes novas durante o replante; dividir touceiras pequenas; aplicar fertilizante em excesso.",
     dica: "Replante apenas quando as primeiras pontas de raízes novas surgirem na base do crescimento mais recente. Esse é o momento em que a planta coloniza rapidamente o novo recipiente. Evite dividir apenas para organizar a touceira: várias frentes significam mais reservas, mais raízes e vários pseudobulbos capazes de florir simultaneamente.",
