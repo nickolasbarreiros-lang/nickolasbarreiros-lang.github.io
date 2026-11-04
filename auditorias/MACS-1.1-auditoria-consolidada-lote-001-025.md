@@ -1,6 +1,6 @@
 # Auditoria consolidada MACS 1.1 / IDC 3.2 / IAR 2.0 / V4.9 — lote 1–25
 
-Data: 2026-11-04. **EM ANDAMENTO — fichas 1–20 triadas estaticamente; auditoria integral e visual pendente.**
+Data: 2026-11-04. **EM ANDAMENTO — fichas 1–25 triadas estaticamente; auditoria integral e visual pendente.**
 
 Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/index.js` (não na ordem dos imports).
 
@@ -68,3 +68,18 @@ Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/in
 
 - Todas as descrições 16–20 estão abaixo do mínimo editorial de 90 palavras; correções ainda não realizadas.
 - Os percentuais conferidos somam 100%, sem constituir homologação científica quantitativa. Auditoria visual e taxonômica não realizada neste lote.
+
+## Atualização — fichas 16–25
+- Descrições 16–20 ajustadas: Cattleya cernua 112 palavras (`5600b68e`); Zygolum Louisendorf 120 (`ab6f23d9`); Dendrobium loddigesii 108 (`5aad523c`); Maxillaria schunkeana 112 (`8d5d0ba`); Mediocalcar decoratum 112 (`27ba7340`).
+- Descrições 21–25: Cattleya schilleriana 130→100 (`b8af55b8`); Bulbophyllum rothschildianum 91 (sem edição); Encyclia Mineirinha 87→116 (`cb6ddc27`); Arpophyllum giganteum 121→105 (`bd930c29`); Oncidium Twinkle 85→111 (`bb0006b3`).
+- **Correção do verificador:** a ficha 21 usa propriedades entre aspas, por exemplo `"substratoVisual"`, `"formasCultivo"` e `"proporcao"`. O primeiro detector de texto sem aspas gerou falso negativo. Leitura direta confirmou a presença dos componentes e a receita 35/30/20/15 = 100%.
+
+| Nº | Ficha | Palavras finais | Receita | Soma | Alternativas | Componentes |
+|---|---|---:|---|---:|---:|---|
+| 21 | Cattleya schilleriana | 100 | 35/30/20/15 | 100% | 2 | presentes |
+| 22 | Bulbophyllum rothschildianum | 91 | 35/20/25/20 | 100% | 2 | presentes |
+| 23 | Encyclia Mineirinha | 116 | 35/30/20/15 | 100% | 2 | presentes |
+| 24 | Arpophyllum giganteum | 105 | 35/25/20/10/10 | 100% | 2 | presentes |
+| 25 | Oncidium Twinkle | 111 | 55/25/10/10 | 100% | 2 | presentes |
+
+**Resultado parcial:** 25/25 fichas triadas estaticamente; as descrições fora do intervalo de 90–120 palavras detectadas foram ajustadas. Não há conclusão da auditoria integral. Falta verificação de URLs/imagens reais, assets, compilação e navegador desktop/mobile, checagem matemática integral IDC/IAR, fontes e homologação científica individual. Não avançar ao lote 26–50 como se o lote 1–25 estivesse integralmente homologado.
