@@ -45,7 +45,7 @@ export const stanhopeaAssidensis = {
         titulo: "Substrato ideal",
         contexto: "Mistura leve para cesto suspenso com fundo aberto",
         resumo: "Partículas grossas mantêm umidade moderada e circulação de ar, sem compactar a saída das hastes florais pelo fundo.",
-        justificativa: "A receita principal textual e visual combinam chips de coco grossos preparados, casca de pinus média, perlita grossa e esfagno de fibra longa solto. A American Orchid Society indica, para o gênero, casca de abeto + perlita 3:1 como mistura comum em cestos, mas não testou este híbrido nem esta receita com coco e esfagno. As duas alternativas qualitativas são diferentes da principal e não devem ser confundidas com ela. Em Stanhopea, o cesto deve ter fundo realmente aberto: material, tela ou esfagno compactado não podem obstruir o trajeto das hastes descendentes. MACS 1.1: percentuais provisórios sem homologação quantitativa específica para o híbrido",
+        justificativa: "Stanhopea assidensis precisa de cesta suspensa com fundo realmente aberto para a passagem das hastes florais descendentes. Os chips de coco grossos preparados ajudam a conservar umidade, a casca de pinus oferece estrutura, a perlita mantém espaços de ar e o esfagno solto reduz a secagem brusca. Distribua os materiais sem compactar ou bloquear as aberturas inferiores.",
         receitaTexto: "40% chips de coco grossos preparados + 30% casca de pinus média + 20% perlita grossa + 10% esfagno de fibra longa solto.",
         perfil: ["Híbrido primário", "Hastes descendentes", "Cesto suspenso", "Umidade regular", "Fundo livre"],
         comportamento: [
