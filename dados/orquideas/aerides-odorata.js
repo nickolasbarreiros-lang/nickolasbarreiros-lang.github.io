@@ -43,19 +43,19 @@ export const aeridesOdorata = {
     formasCultivo: {
         perfilVisual: "aerides",
         destaque: "Raízes Soltas",
-        resumo: "Como vandácea epífita de raízes grossas e aéreas, Aerides odorata responde melhor quando as raízes ficam muito livres, recebem água abundante e secam rapidamente com forte circulação de ar.",
+        resumo: "Como vandácea epífita de raízes grossas e aéreas, Aerides odorata pode ser cultivada com raízes expostas, montada ou em meio drenante, conforme orientação específica do NParks; a superioridade entre esses suportes não foi demonstrada quantitativamente.",
         metodos: [
-            { nome: "Raízes Soltas", asset: "aerides-odorata-cultivo-ideal", estrelas: null, status: "Ideal", texto: "É a condição mais próxima da lógica de cultivo das vandáceas: raízes totalmente arejadas, livres para crescer e secar rapidamente após regas generosas." },
-            { nome: "Árvore viva", asset: "arvore-viva", estrelas: null, status: "Ideal", texto: "Excelente em clima quente e úmido quando a planta é firmemente presa ao tronco e as raízes podem aderir à casca e permanecer expostas ao ar." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Muito recomendado", texto: "Boa alternativa para sustentar a planta sem confinar as raízes; use pouco ou nenhum substrato e permita que as raízes atravessem livremente as aberturas." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Adequado", texto: "Pode funcionar quando o recipiente tem muitas aberturas laterais e inferiores e recebe apenas material muito grosso em pequeno volume, sem comprimir as raízes." },
+            { nome: "Raízes Soltas", asset: "aerides-odorata-cultivo-ideal", estrelas: null, status: "Opção técnica provisória", texto: "É a condição mais próxima da lógica de cultivo das vandáceas: raízes totalmente arejadas, livres para crescer e secar rapidamente após regas generosas." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: null, status: "Opção técnica provisória", texto: "Excelente em clima quente e úmido quando a planta é firmemente presa ao tronco e as raízes podem aderir à casca e permanecer expostas ao ar." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa provisória", texto: "Boa alternativa para sustentar a planta sem confinar as raízes; use pouco ou nenhum substrato e permita que as raízes atravessem livremente as aberturas." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa condicional", texto: "Pode funcionar quando o recipiente tem muitas aberturas laterais e inferiores e recebe apenas material muito grosso em pequeno volume, sem comprimir as raízes." },
         ]
     },
     substrato: ["Casca de pinus grossa + chips de coco grossos preparados + carvão vegetal grosso","Casca de pinus grossa + perlita grossa + pequena quantidade de esfagno de fibra longa solto"],
 
     substratoVisual: {
-        titulo: "Substrato ideal",
-        contexto: "Raízes Soltas como cultivo principal; mistura opcional de apoio em cesto ou vaso muito vazado",
+        titulo: "Substrato recomendado (provisório)",
+        contexto: "Raízes Soltas como opção principal provisória; mistura opcional de apoio em cesto ou vaso muito vazado, sem percentuais homologados",
         resumo: "Mistura muito grossa e extremamente aerada, usada apenas para estabilizar a planta e manter pequena reserva de umidade sem enterrar as raízes aéreas.",
         justificativa: "Aerides odorata é uma vandácea monopodial epífita de raízes aéreas grossas. O cultivo principal mantém as raízes soltas e expostas, sem substrato, para receber água e secar com boa circulação de ar. Em cesto ou vaso muito vazado, uma pequena quantidade de casca de pinus grossa, carvão, casca de arroz carbonizada e esfagno solto pode dar apoio à planta sem envolver ou comprimir as raízes. Observe a secagem e evite deixar água acumulada na base.",
         receitaTexto: "Cultivo principal Raízes Soltas: sem substrato. Mistura opcional de apoio para cesto ou vaso muito vazado: 45% casca de pinus grossa + 35% carvão vegetal grosso + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto.",
@@ -73,7 +73,7 @@ export const aeridesOdorata = {
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "10%", nota: "reserva hídrica localizada", finalidade: "Ajuda a reduzir desidratação abrupta no calor, devendo ficar muito solto e em pequena quantidade." }
         ],
         alerta: "Não enterre nem force as raízes aéreas para dentro do recipiente. Deixe a maior parte das raízes livres. Em cesto ou vaso vasado, use somente material grosso e em pequeno volume.",
-        notaEvidencia: "AUDITORIA DOCUMENTAL DA FICHA 2 EM ANDAMENTO. POWO/Kew confirma Aerides odorata Lour. como nome aceito e epífita de florestas tropicais úmidas; NParks descreve cultivo em sombra leve, montagem ou substrato drenante e pulverização frequente de raízes em montagem (fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:615287-1 ; https://www.nparks.gov.sg/florafaunaweb/flora/5/9/5995). Essas referências NÃO validam os percentuais 45/35/10/10 nem estabelecem superioridade quantitativa de suportes. MACS 1.1 — revisão documental: Aerides odorata, vandácea monopodial epífita de raízes aéreas grossas. Raízes Soltas, sem substrato, é a forma principal; cesto ou vaso muito vazado pode receber mistura de apoio em pequeno volume, sem comprimir raízes. Receita visual e textual da mistura opcional coincidem: 45% pinus grosso + 35% carvão vegetal grosso + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas de apoio: pinus/chips de coco grossos preparados/carvão e pinus/perlita/pouco esfagno solto. A receita e alternativas não fundamentam percentuais específicos da espécie. Os identificadores casca-pinus, carvao-vegetal, casca-arroz-carbonizada e esfagno constam na biblioteca de cultivo; renderização pendente de validação Chromium. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
+        notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D); não equivale a homologação quantitativa. POWO/Kew confirma Aerides odorata Lour. como nome aceito e epífita de florestas tropicais úmidas; NParks descreve cultivo em sombra leve, montagem ou substrato drenante e pulverização frequente de raízes em montagem (fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:615287-1 ; https://www.nparks.gov.sg/florafaunaweb/flora/5/9/5995). Essas referências NÃO validam os percentuais 45/35/10/10 nem estabelecem superioridade quantitativa de suportes. MACS 1.1 — revisão documental: Aerides odorata, vandácea monopodial epífita de raízes aéreas grossas. Raízes Soltas, sem substrato, é a forma principal; cesto ou vaso muito vazado pode receber mistura de apoio em pequeno volume, sem comprimir raízes. Receita visual e textual da mistura opcional coincidem: 45% pinus grosso + 35% carvão vegetal grosso + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas de apoio: pinus/chips de coco grossos preparados/carvão e pinus/perlita/pouco esfagno solto. A receita e alternativas não fundamentam percentuais específicos da espécie. Os identificadores casca-pinus, carvao-vegetal, casca-arroz-carbonizada e esfagno constam na biblioteca de cultivo; renderização pendente de validação Chromium. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
         "Cultivar em sombra profunda e esperar floração abundante",
@@ -87,19 +87,20 @@ export const aeridesOdorata = {
     ],
     dica: "🏆 Pense nela mais como uma Vanda do que como uma orquídea de vaso convencional. Quanto mais livres e ventiladas estiverem as raízes, mais fácil será oferecer bastante água sem causar encharcamento. Em clima quente, cesto vazado, luz filtrada forte e regas generosas pela manhã formam uma combinação especialmente favorável.",
     revisaoCientificaIAR: {
-        "nome": "Aerides odorata",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Aerides odorata é uma elegante orquídea asiática que combina folhagem robusta com cachos pendentes de flores delicadas e intensamente perfumadas. Suas folhas são espessas e coriáceas, enquanto as inflorescências surgem carregadas de numerosas flores claras, geralmente brancas a rosadas, com detalhes púrpura.",
-        "habitatAltitudeClima": "Epífita de florestas tropicais úmidas, com raízes expostas. | Quente a intermediário, úmido e muito ventilado.",
-        "distribuicaoGeografica": "Himalaia, sul da China, Sudeste Asiático e Malesia.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
+        "nome": "Aerides odorata Lour.",
+        "statusTaxonomico": "Nome aceito em POWO/Kew; publicação original em Flora Cochinchinensis (1790).",
+        "sinonimosPrincipais": "POWO registra, entre outros, os sinônimos homotípicos Epidendrum odoratum (Lour.) Poir. e Aeridium odorum Salisb. (nome não validamente publicado); Aerides ballantiniana Rchb.f. e Aerides cornuta Roxb. constam como sinônimos heterotípicos. A sinonímia completa deve ser consultada diretamente no POWO.",
+        "morfologiaDimensoes": "Orquídea epífita robusta de crescimento monopodial, com caule curto a alongado e folhas coriáceas de ápice assimetricamente bilobado. As inflorescências laterais, originadas nas axilas das folhas, são racemos densos, geralmente pendentes. As flores perfumadas variam em tonalidades brancas, rosadas e amareladas; o labelo apresenta esporão curvado para a frente. NParks descreve variabilidade na forma, no tamanho e na coloração das flores, mas não fornece medidas numéricas padronizadas. Não atribuir dimensões precisas sem referência morfométrica específica.",
+        "habitatAltitudeClima": "POWO documenta a espécie como epífita do bioma tropical úmido. NParks registra populações do nível do mar até cerca de 500 m em sua referência regional; isso não representa limite global de altitude. A monografia do gênero em POWO descreve A. odorata em copas iluminadas, florestas secundárias subtropicais, florestas baixas e montanas inferiores, com registros litofíticos regionais. Em cultivo, NParks recomenda sombra leve, substrato bem drenante ou montagem e molhar frequentemente as raízes montadas.",
+        "distribuicaoGeografica": "Nativa de ampla faixa da Ásia tropical: Himalaia, Índia, Bangladesh, Nepal, China meridional, Indochina, Malásia, Indonésia e Filipinas, entre outras regiões registradas por POWO.",
+        "cultivoPremiacao": "NParks apresenta recomendações específicas para Aerides odorata: sombra leve, montagem ou meio drenante, pulverização frequente de raízes em montagem. A American Orchid Society recomenda, para o gênero Aerides em geral, cestos/vasos com mistura média a grossa ou placas, conforme o porte, além de luz difusa, ventilação e regas adequadas. Não há comparação quantitativa dos quatro suportes da ficha nem ensaio da receita percentual 45/35/10/10. Premiações individuais não foram validadas em registro primário.",
+        "confianca": "Taxonomia e hábito: alta (POWO). Caracteres florais e cultivo qualitativo: moderada (NParks e AOS). Percentuais e ranking MACS 1.1: evidência direta insuficiente, Classe D.",
         "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
+            "POWO/Kew — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:615287-1",
+            "POWO/Kew, monografia e ecologia do gênero Aerides — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30055830-2/general-information",
+            "NParks Singapore, Aerides odorata — https://www.nparks.gov.sg/florafaunaweb/flora/5/9/5995",
+            "American Orchid Society, Aerides: Care and Culture Card — https://www.aos.org/explore/aerides",
+            "Tiruwa et al., Orchids of the Annapurna Conservation Area, registro de Aerides odorata em 800–1200 m e floração maio–junho — https://mail.ntnc.org.np/sites/default/files/doc_publication/2025-01/Orchids_of_ACA_Tiruwa_et_al_2024.pdf"
         ]
     },
     indiceDificuldadeCultivo: {
