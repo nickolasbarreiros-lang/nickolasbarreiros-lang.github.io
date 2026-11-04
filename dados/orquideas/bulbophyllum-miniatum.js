@@ -71,7 +71,7 @@ export const bulbophyllumMiniatum = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
-        "justificativa": "O Orquidário Matsuoka recomenda para B. saltatorium (sem confirmação da variedade) madeira com esfagno ou substrato drenante, sem proporções. Montagem é uma alternativa documentada; proporções da receita em recipiente são inferência.",
+        "justificativa": "Este Bulbophyllum se beneficia de umidade regular e boa ventilação das raízes. A montagem em madeira com pequena quantidade de esfagno é uma opção para manter o rizoma exposto. Em recipiente aberto, a casca de pinus dá apoio, os chips de coco preparados e o esfagno solto ajudam a conservar umidade e a perlita mantém a mistura arejada. Ajuste as regas conforme a secagem, evitando compactação e saturação prolongada.",
         "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno de fibra longa solto.",
         "perfil": ["Hábito epífito", "Raízes delicadas", "Base exposta", "Umidade regular", "Boa aeração", "Montagem úmida"],
         "comportamento": [
