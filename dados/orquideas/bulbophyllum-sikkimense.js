@@ -70,8 +70,8 @@ export const bulbophyllumSikkimense = {
     substratoVisual: {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
-        "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
-        "justificativa": "A literatura sobre B. roxburghii e o táxon histórico sikkimense recomenda vasos ou cestos com umidade regular e ventilação. O Orquidário Maripá recomenda especificamente para plantas vendidas como B. sikkimense uma mistura de cascas, carvão, pedaços de madeira e musgo, sem proporções; a fórmula visual com chips de coco e perlita não deriva dessa fonte. A receita abaixo é inferência para vaso vasado; não há convergência brasileira específica documentada.",
+        "resumo": "Mistura aberta para vaso ou cesto, com umidade regular e boa ventilação.",
+        "justificativa": "Bulbophyllum sikkimense cresce com rizoma rasteiro e se beneficia de um vaso ou cesto que permita boa circulação de ar ao redor das raízes. A casca de pinus e os chips de coco mantêm a mistura estruturada, enquanto a perlita amplia os espaços de ar e o esfagno solto ajuda a conservar umidade entre as regas. Evite enterrar a base dos pseudobulbos e mantenha o substrato levemente úmido, sem encharcar. Ajuste a frequência de rega à ventilação e à velocidade de secagem do recipiente.",
         "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno de fibra longa solto.",
         "perfil": ["Pseudobulbos curtos", "Rizoma rasteiro", "Água regular", "Base exposta", "Boa aeração", "Secagem parcial"],
         "comportamento": [
