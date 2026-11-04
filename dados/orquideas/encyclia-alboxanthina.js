@@ -30,7 +30,7 @@ export const encycliaAlboxanthina = {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
-        observacoes: "É uma Encyclia de alta luminosidade. Em litoral quente, 40% a 50% de sombreamento é um bom ponto de partida. Sombra profunda reduz a floração; sol forte nas horas mais quentes pode superaquecer folhas e pseudobulbos."
+        observacoes: "É uma Encyclia de alta luminosidade. Em clima quente, 40% a 50% de sombreamento é um bom ponto de partida. Sombra profunda reduz a floração; sol forte nas horas mais quentes pode superaquecer folhas e pseudobulbos."
     },
     floracao: "Floresce principalmente no fim da primavera e início do verão. Para o calendário do site, outubro a janeiro é uma janela prática de referência.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade, preferencialmente em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias enquanto houver crescimento ativo.\n🧪 Liberação lenta: opcional, com poucos grânulos.\n🚿 Lavagem: intercale periodicamente com água pura para reduzir sais.",
@@ -46,10 +46,10 @@ export const encycliaAlboxanthina = {
         destaque: "Cachepô de Madeira",
         resumo: "Encyclia de ambientes claros, epífita e ocasionalmente rupícola, que exige raízes muito aeradas, alta luminosidade filtrada e leve secagem entre regas, sem repouso seco prolongado.",
         metodos: [
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô bem ventilado e proporcional à touceira, com mistura grossa e secagem perceptível entre regas." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Muito recomendado", texto: "Vaso bem perfurado e ajustado ao tamanho das raízes, favorecendo estabilidade e evaporação." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Montagem em cortiça ou madeira, com regas mais frequentes para compensar a secagem rápida." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Recipiente pequeno e muito vazado, com mistura grossa e controle para não acumular água junto aos pseudobulbos." }
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Mais recomendado na ficha", texto: "Cachepô bem ventilado e proporcional à touceira, com mistura grossa e secagem perceptível entre regas." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Muito recomendado", texto: "Vaso bem perfurado e ajustado ao tamanho das raízes, favorecendo estabilidade e evaporação." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Alternativa", texto: "Montagem em cortiça ou madeira, com regas mais frequentes para compensar a secagem rápida." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa", texto: "Recipiente pequeno e muito vazado, com mistura grossa e controle para não acumular água junto aos pseudobulbos." }
         ]
     },
     substratoVisual: {
@@ -72,7 +72,7 @@ export const encycliaAlboxanthina = {
             { asset: "carvao", nome: "Carvão vegetal médio", proporcao: "15%", nota: "estrutura", finalidade: "Complementa a drenagem e a estabilidade da mistura." }
         ],
         alerta: "Evitar sombra profunda, substrato constantemente molhado e enterramento da base dos pseudobulbos. Leve secagem não significa impor repouso seco prolongado.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Encyclia alboxanthina, epífita e ocasionalmente rupícola de ambientes claros e sazonalmente secos, com raízes que exigem alta aeração e secagem perceptível entre regas, sem repouso seco prolongado. Cachepô de Madeira bem vazado é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com cachepô + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus grosso. Não fundamentam os percentuais visuais. Monitorar secagem, luz e posição dos pseudobulbos. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Encyclia alboxanthina, epífita e ocasionalmente rupícola de ambientes claros e sazonalmente secos, com raízes que exigem alta aeração e secagem perceptível entre regas, sem repouso seco prolongado. Cachepô de Madeira bem vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com cachepô + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus grosso. Não fundamentam os percentuais visuais. Monitorar secagem, luz e posição dos pseudobulbos. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
         "Cultivar em sombra profunda",
@@ -222,8 +222,8 @@ export const encycliaAlboxanthina = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Excelente Sua origem nordestina e preferência por condições quentes e claras tornam a espécie muito promissora, desde que as raízes tenham drenagem e ventilação." },
-        montanhaFrio: { texto: "Boa Tolera noites frescas, mas reduza as regas quando a evaporação cair e proteja de frio intenso." }
+        litoralQuente: { texto: "Excelente adaptação. Sua origem nordestina e preferência por condições quentes e claras tornam a espécie muito promissora, desde que as raízes tenham drenagem e ventilação." },
+        montanhaFrio: { texto: "Boa adaptação. Tolera noites frescas, mas reduza as regas quando a evaporação cair e proteja de frio intenso." }
     },
     mesesFloracao: [10, 11, 12, 1],
     "selosCultivo": {
