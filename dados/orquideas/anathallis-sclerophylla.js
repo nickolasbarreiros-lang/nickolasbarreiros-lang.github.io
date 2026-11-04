@@ -38,7 +38,7 @@ export const anathallisSclerophylla = {
         agua: 4,
         raridade: 3
     },
-    mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
+    mesesFloracao: [10, 11, 12, 1, 2, 6],
     climaFloracao: "A espécie possui grande amplitude altitudinal e pode crescer de condições quentes a frias, mas tende a responder melhor quando recebe noites amenas, alta umidade e ventilação constante. Em clima quente, não é necessário tentar reproduzir frio intenso; o mais importante é reduzir o superaquecimento noturno, manter raízes ativas e oferecer boa diferença térmica entre dia e noite quando possível.",
     iluminacao: {
         sombrite: "70% a 80%",
@@ -46,7 +46,7 @@ export const anathallisSclerophylla = {
         horario: "",
         observacoes: "Prefere iluminação baixa a moderada, típica de ambientes florestais úmidos. Em clima quente, 70% a 80% de sombreamento é um bom ponto de partida. Sombra excessivamente profunda pode reduzir a floração, enquanto sol direto forte aquece rapidamente as folhas coriáceas e desidrata as raízes."
     },
-    floracao: "Pode florescer ao longo de uma janela relativamente ampla entre primavera, verão e outono, variando conforme procedência e clima. As inflorescências podem chegar a cerca de 30 cm, ultrapassando bastante as folhas e carregando numerosas flores abertas simultaneamente.",
+    floracao: "Registros publicados documentam floração de outubro a fevereiro em populações do Paraná (Santos, Toscano de Brito & Smidt, 2019, Rodriguésia 70, e02722017) e um exemplar florido em junho na Bahia (sinopse florística de Boa Nova, Hoehnea). Os meses apresentados no calendário representam ocorrências documentadas, não garantia de floração anual em cultivo. As inflorescências são longas e multifloras.",
     adubacao: "🌿 Orgânica: bokashi apenas em quantidade mínima e preferencialmente isolado em sachê ou porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional e em quantidade muito pequena, principalmente em cultivo envasado.\n🚿 Lavagem: faça regas periódicas somente com água pura para reduzir o acúmulo de sais nas raízes finas.",
     rega: "Mantenha umidade frequente durante todo o crescimento, evitando que as raízes permaneçam completamente secas por períodos prolongados. Molhe bem e permita drenagem e renovação de ar após cada irrigação. Em montagens, a frequência pode ser alta no calor; em vaso, ajuste sempre pela velocidade real de secagem.",
     suporte: [
