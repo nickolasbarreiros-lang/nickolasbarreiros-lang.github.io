@@ -55,3 +55,6 @@ Consulta aos diretórios pela API GitHub confirmou existência dos seguintes arq
 - Ingredientes: imagens/cultivo-v4/casca-pinus.webp; imagens/cultivo-v4/casca-arroz-carbonizada.webp; imagens/cultivo-v4/carvao-vegetal.webp; imagens/cultivo-v4/esfagno.webp
 - Fotos da espécie: imagens/Acianthera bragae/Acianthera bragae1.jpg a Acianthera bragae4.jpg (quatro nomes conferidos).
 Total: 12 arquivos presentes nos diretórios. Não é prova de carregamento/renderização no navegador. Estado de homologação científica continua D.
+
+## Validação estrutural executada — 2026-11-03
+Após correção da revisão morfológica truncada e dos campos de confiança (commit 63e5335e302c9cc4acfe5351513ba0c6890d4f90), o módulo JS foi analisado com o interpretador JavaScript, substituindo apenas a declaração de exportação para avaliar o objeto. Resultado: sintaxe válida; id correto; 4 fotografias; 4 métodos; 2 alternativas; soma da receita visual 100%; somas das alternativas 100% e 100%; campo morfológico não truncado. Esse teste valida sintaxe e estrutura, **não** comportamento da aplicação nem renderização visual. A matriz segue com evidência D para composição, percentuais e estrelas, sem reivindicar homologação científica C.
