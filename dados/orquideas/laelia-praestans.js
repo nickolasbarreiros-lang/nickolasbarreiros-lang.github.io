@@ -25,7 +25,7 @@ export const laeliaPraestans = {
     regiao: "Espírito Santo e Minas Gerais",
     habitat: "Mata Atlântica úmida · epífita · 700–900 m.",
     clima: "Quente a intermediário · úmido e ventilado.",
-    climaFloracao: "A floração depende de pseudobulbos bem amadurecidos, luz moderada a alta e raízes saudáveis. Como cresce em floresta úmida de altitude moderada, não necessita de repouso seco forte; após a maturação, basta reduzir discretamente a frequência das regas. Em litoral quente, noites abafadas e substrato continuamente molhado são mais problemáticos que a falta de frio intenso, por isso ventilação e raízes oxigenadas são prioridades.",
+    climaFloracao: "A floração depende de pseudobulbos bem amadurecidos, luz moderada a alta e raízes saudáveis. Como cresce em floresta úmida de altitude moderada, não necessita de repouso seco forte; após a maturação, basta reduzir discretamente a frequência das regas. Em clima quente, noites abafadas e substrato continuamente molhado são mais problemáticos que a falta de frio intenso, por isso ventilação e raízes oxigenadas são prioridades.",
     iluminacao: {
         sombrite: "40% a 60% — 50% como ponto inicial",
         solDireto: "Permitido com restrição",
@@ -42,10 +42,10 @@ export const laeliaPraestans = {
         destaque: "Cachepô de Madeira",
         resumo: "Epífita compacta com flores grandes em relação ao porte. Prefere recipiente pequeno, raízes muito ventiladas, umidade regular durante crescimento e secagem perceptível entre regas.",
         metodos: [
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô pequeno e muito vazado, com substrato grosso e espaço suficiente para o rizoma." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e perfurado, que ajuda a dissipar calor e favorece secagem mais rápida." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Cortiça ou madeira durável com raízes expostas; requer regas mais frequentes em períodos quentes." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Vaso proporcional à planta e muito perfurado, sem grande volume de substrato retentivo." }
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Mais recomendado na ficha", texto: "Cachepô pequeno e muito vazado, com substrato grosso e espaço suficiente para o rizoma." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa", texto: "Vaso pequeno e perfurado, que ajuda a dissipar calor e favorece secagem mais rápida." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Alternativa", texto: "Cortiça ou madeira durável com raízes expostas; requer regas mais frequentes em períodos quentes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Uso condicional", texto: "Vaso proporcional à planta e muito perfurado, sem grande volume de substrato retentivo." }
         ]
     },
     substratoVisual: {
@@ -68,9 +68,9 @@ export const laeliaPraestans = {
             { asset: "carvao", nome: "Carvão vegetal médio", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta." }
         ],
         alerta: "Evitar sombra excessiva, sol forte sem aclimatação, vaso grande, substrato compactado e excesso de água. Não enterrar o rizoma nem replantar fora da emissão de raízes novas sem necessidade.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Cattleya praestans (sin. Laelia praestans), epífita compacta de floresta úmida, raízes ventiladas e umidade regular durante crescimento ativo, sem repouso seco severo. Cachepô de Madeira pequeno e vazado é proposta principal; estrelas dos suportes heurísticas. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com recipiente + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus. Nenhuma fundamenta os percentuais visuais; justificativa anterior de equivalência foi corrigida. Monitorar retenção, secagem, granulometria e aquecimento do recipiente. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
+        notaEvidencia: "MACS 1.1 — revisão documental: Cattleya praestans (sin. Laelia praestans), epífita compacta de floresta úmida, raízes ventiladas e umidade regular durante crescimento ativo, sem repouso seco severo. Cachepô de Madeira pequeno e vazado é proposta principal; estrelas dos suportes não atribuídas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com recipiente + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus. Nenhuma fundamenta os percentuais visuais; justificativa anterior de equivalência foi corrigida. Monitorar retenção, secagem, granulometria e aquecimento do recipiente. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas de suporte omitidas. Classe D — não homologada quantitativamente"
     },
-    errosComuns: "Sombra excessiva; sol forte do litoral sem aclimatação; substrato compactado; excesso constante de água; deixar secar demais durante crescimento ativo; vaso grande; enterrar o rizoma; replantar fora da emissão de raízes novas; excesso de fertilizante; dividir touceiras pequenas; compensar calor aumentando indiscriminadamente as regas.",
+    errosComuns: "Sombra excessiva; sol forte sem aclimatação sem aclimatação; substrato compactado; excesso constante de água; deixar secar demais durante crescimento ativo; vaso grande; enterrar o rizoma; replantar fora da emissão de raízes novas; excesso de fertilizante; dividir touceiras pequenas; compensar calor aumentando indiscriminadamente as regas.",
     dica: "O segredo é equilibrar umidade ambiental com muita aeração nas raízes. Em clima quente, melhore primeiro ventilação e sombreamento antes de aumentar a água. Uma planta com pseudobulbos firmes, folhas compactas e raízes ativas costuma responder com flores grandes na primavera.",
     revisaoCientificaIAR: {
         "nome": "Cattleya praestans",
