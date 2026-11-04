@@ -91,7 +91,7 @@ export const brassiaLawrenceana = {
         "nome": "Brassia lawrenceana",
         "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Brassia cochleata.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Brassia lawrenceana é uma clássica orquídea-aranha, valorizada pelas hastes arqueadas e pelas flores elegantes de segmentos estreitos, amarelo-esverdeados e salpicados de castanho a vinho. Cada pseudobulbo maduro pode produzir uma inflorescência com numerosas flores, criando um conjunto leve e muito ornamental. É uma planta vigorosa, de raízes ativas e crescimento relativamente",
+        "morfologiaDimensoes": "Brassia lawrenceana é uma clássica orquídea-aranha, valorizada pelas hastes arqueadas e pelas flores elegantes de segmentos estreitos, amarelo-esverdeados e salpicados de castanho a vinho. Cada pseudobulbo maduro pode produzir uma inflorescência com numerosas flores, criando um conjunto leve e muito ornamental.",
         "habitatAltitudeClima": "Epífita de florestas úmidas, aproximadamente entre 265 e 1.200 m. | Quente a intermediário, úmido e ventilado.",
         "distribuicaoGeografica": "Amazônia e países do norte e oeste sul-americano.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
