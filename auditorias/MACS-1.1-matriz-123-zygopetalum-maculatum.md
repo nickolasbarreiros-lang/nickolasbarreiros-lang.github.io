@@ -20,3 +20,6 @@ Chromium/Playwright https://github.com/nickolasbarreiros-lang/nickolasbarreiros-
 
 ## Errata editorial de 2026-11-04 — revisão corretiva
 O encerramento técnico anterior não cobre as alterações posteriores. Receita principal permanece a única quantificada (100%); as **duas** alternativas voltam a ser qualitativas, sem percentuais. Decisões de materiais não podem ser guiadas pela presença/ausência de assets. A receita principal foi preservada nesta correção. As referências anteriores a alternativas quantificadas, e asserções de percentuais de alternativas, ficam revogadas. **Revalidação Chromium corretiva em andamento**; relatório reaberto até confirmação da nova execução. Status científico D, sem homologação quantitativa.
+
+### Fechamento da errata — 2026-11-04
+**Revalidação corretiva aprovada:** execução Chromium [41836168004](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41836168004) com conclusão success; artefato 13327485256. Duas alternativas qualitativas sem percentuais; principal com soma de 100%; conferência de assets e quatro referências fotográficas. A errata editorial está tecnicamente **ENCERRADA**. Mantém-se classe científica D, não homologada quantitativamente.
