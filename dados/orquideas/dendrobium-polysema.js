@@ -24,7 +24,7 @@ export const dendrobiumPolysema = {
         "imagens/Dendrobium polysema/Dendrobium polysema3.jpg",
         "imagens/Dendrobium polysema/Dendrobium polysema4.jpeg"
     ],
-    "descricao": "Uma orquídea de aparência quase exótica até entre os Dendrobium! Nativa da Nova Guiné, Dendrobium polysema chama atenção pelas flores claras densamente pintalgadas de verde, castanho e púrpura. A planta forma pseudobulbos robustos de aproximadamente 20 a 50 cm, normalmente com duas folhas coriáceas no ápice, e pode produzir inflorescências de até cerca de 45 cm. Sua origem em florestas úmidas montanas ajuda a explicar a preferência por ambiente fresco, úmido e muito ventilado — combinação que exige atenção especial quando cultivada no litoral quente.",
+    "descricao": "Uma orquídea de aparência quase exótica até entre os Dendrobium! Nativa da Nova Guiné, Dendrobium polysema chama atenção pelas flores claras densamente pintalgadas de verde, castanho e púrpura. A planta forma pseudobulbos robustos de aproximadamente 20 a 50 cm, normalmente com duas folhas coriáceas no ápice, e pode produzir inflorescências de até cerca de 45 cm. Sua origem em florestas úmidas montanas ajuda a explicar a preferência por ambiente fresco, úmido e muito ventilado — combinação que exige atenção especial quando cultivada no litoral quente. As inflorescências arqueadas destacam o desenho irregular das manchas e dão um aspecto escultórico à planta em flor.",
     "origem": "Nova Guiné",
     "regiao": "Nova Guiné · florestas montanas",
     "habitat": "Matas úmidas e musgosas de altitude.",
