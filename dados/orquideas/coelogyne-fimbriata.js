@@ -56,8 +56,8 @@ export const coelogyneFimbriata = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cesto ou recipiente raso; placa requer apenas fixação leve",
         "resumo": "Mistura aberta de casca de pinus média e perlita grossa em proporção 3:1, para cesto ou recipiente raso.",
-        "justificativa": "AOS apresenta para o gênero Coelogyne uma mistura volumétrica de casca de ABETO (fir bark) e perlita 3:1; a troca por casca de PINUS é adaptação, NÃO reprodução literal ou experimento específico para C. fimbriata. A mistura anterior com coco e esfagno não tinha validação quantitativa específica. O rizoma rastejante pede suporte largo e ventilado. Em placa/tronco não aplicar mistura volumétrica, apenas fixação adequada e eventual retenção localizada.",
-        "receitaTexto": "75% casca de pinus média + 25% perlita grossa (3:1 em volume; adaptação de casca de abeto + perlita da AOS, não validada para a espécie).",
+        "justificativa": "Coelogyne fimbriata apresenta rizoma rastejante e precisa de espaço para se expandir lateralmente, com raízes ventiladas e umidade adequada. Em recipiente largo, a casca de pinus média dá sustentação e a perlita grossa favorece a circulação de ar e a drenagem. Em placa ou tronco, fixe a planta com o rizoma exposto, sem aplicar a mistura volumétrica; uma pequena retenção localizada de umidade pode ser útil conforme a secagem das raízes.",
+        "receitaTexto": "75% casca de pinus média + 25% perlita grossa (3:1 em volume).",
         "perfil": ["Rizoma rastejante", "Expansão horizontal", "Raízes epífitas", "Umidade frequente", "Aeração alta"],
         "comportamento": [
             { "nome": "Retenção", "valor": 4, "icone": "💧" },
