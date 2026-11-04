@@ -1,0 +1,78 @@
+name: Conferência visual MACS 1.1 — ficha 147
+on:
+  push:
+    paths:
+      - '.github/workflows/conferir-visual-macs-ficha-147.yml'
+      - 'dados/orquideas/pholidota-chinensis.js'
+      - 'orquidea.html'
+      - 'ficha.js'
+      - 'estilos.css'
+      - 'js/**'
+      - 'css/**'
+  workflow_dispatch:
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - name: Conferir ficha em navegador real
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/orquidario-server.log 2>&1 &
+          node <<'JS'
+          const { chromium } = require('playwright');
+          (async () => {
+            const browser = await chromium.launch({headless:true});
+            const page = await browser.newPage({viewport:{width:1465,height:900},deviceScaleFactor:1});
+            const errors=[];
+            page.on('pageerror',error=>errors.push(error.message));
+            await page.goto('http://127.0.0.1:8765/orquidea.html?id=pholidota-chinensis',{waitUntil:'networkidle',timeout:60000});
+            const section=page.locator('.substrato-visual-v4');
+            await section.waitFor({timeout:30000});
+            const entries=page.locator('.substratos-recomendados-v4 li');
+            if(await entries.count()!==2)throw Error('Esperadas exatamente duas misturas');
+            const texts=await entries.allTextContents();
+            if(!texts[0].includes('Casca de pinus')||!texts[1].includes('Casca de macadâmia'))throw Error('Componentes das alternativas incorretos: '+texts.join(' | '));
+            if(texts.some(t=>/\b\d+\s*%/.test(t)))throw Error('Alternativas devem ser qualitativas, sem percentuais: '+texts.join(' | '));
+            await page.locator('#ficha img:not(#foto-ampliada-v2)').evaluateAll(nodes=>nodes.forEach(img=>{img.loading='eager'}));
+            await page.waitForFunction(() => [...document.querySelectorAll('#ficha img:not(#foto-ampliada-v2)')].every(img => img.complete),null,{timeout:20000});
+            const images=await page.locator('#ficha img:not(#foto-ampliada-v2)').evaluateAll(nodes=>nodes.map(img=>({src:img.getAttribute('src'),loaded:img.complete&&img.naturalWidth>0})));
+            const broken=images.filter(img=>!img.loaded);
+            if(broken.length)throw Error('Imagens não carregadas: '+JSON.stringify(broken));
+            const mainParts=await page.locator('.ingrediente-substrato-v4 .proporcao-substrato-v4').allTextContents();
+            if(mainParts.map(s=>s.trim()).join('|')!=='30%|25%|20%|15%|10%')throw Error('Proporções principais divergentes: '+mainParts.join(' | '));
+            const photos=images.filter(img=>/inaturalist-open-data|fascinationoforchids|fangblatt|orchids\.la\.coocan\.jp/i.test(img.src||''));
+            if(new Set(photos.map(img=>img.src)).size!==4)throw Error('Esperadas quatro fotos da ficha; encontradas '+photos.length);
+            if(errors.length)throw Error('Erros JavaScript: '+errors.join(' | '));
+            await section.screenshot({path:'macs-ficha-147-substrato-desktop.png'});
+            await page.screenshot({path:'macs-ficha-147-ficha-desktop.png',fullPage:true});
+            await page.setViewportSize({width:390,height:844});
+            await section.screenshot({path:'macs-ficha-147-substrato-mobile.png'});
+            const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth+2);
+            if(overflow)throw Error('Overflow horizontal na visualização celular');
+            await page.screenshot({path:'macs-ficha-147-ficha-mobile.png',fullPage:true});
+            if(errors.length)throw Error('Erros JavaScript desktop/mobile: '+errors.join(' | '));
+            const mobileEntries=await entries.count();
+            if(mobileEntries!==2)throw Error('Alternativas alteradas na versão celular: '+mobileEntries);
+            const mobileTexts=await entries.allTextContents();
+            if(mobileTexts.some(t=>/\b\d+\s*%/.test(t)))throw Error('Alternativas com percentuais na versão celular: '+mobileTexts.join(' | '));
+            const mobileImages=await page.locator('#ficha img:not(#foto-ampliada-v2)').evaluateAll(nodes=>nodes.map(img=>({src:img.getAttribute('src'),loaded:img.complete&&img.naturalWidth>0})));
+            const mobileBroken=mobileImages.filter(img=>!img.loaded);
+            if(mobileBroken.length)throw Error('Imagens não carregadas no celular: '+JSON.stringify(mobileBroken));
+            const mobileParts=await page.locator('.ingrediente-substrato-v4 .proporcao-substrato-v4').allTextContents();
+            if(mobileParts.map(s=>s.trim()).join('|')!=='30%|25%|20%|15%|10%')throw Error('Proporções alteradas na versão celular');
+            console.log('APROVADO: renderização desktop/mobile, 2 receitas alternativas sem percentuais e sem erros JavaScript.');
+            await browser.close();
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: macs-ficha-147-inspecao-visual
+          path: macs-ficha-147-*.png
+          if-no-files-found: ignore
