@@ -249,8 +249,8 @@ export const prosthecheaFragrans = {
     "titulo": "Substrato ideal",
     "contexto": "Mistura para vaso — 100% em volume",
     "resumo": "45% casca de pinus média + 25% carvão vegetal médio + 20% casca de arroz carbonizada + 10% perlita grossa compatível com o vaso — proposta em volume.",
-    "justificativa": "Prosthechea fragrans é epífita de crescimento simpodial, com pseudobulbos e raízes que exigem aeração, rega regular no crescimento e secagem parcial após maturação, sem repouso seco severo. Para vaso de barro proporcional à touceira, a mistura visual propõe pinus médio, carvão vegetal médio, casca de arroz carbonizada e perlita grossa compatível com o vaso, totalizando 100% em volume. As duas outras misturas são alternativas qualitativas distintas, sem percentuais homologados. Manter a base dos pseudobulbos acima do substrato e replantar no surgimento de novas raízes. A identificação comercial exige cautela diante de possíveis confusões com Prosthechea aemula. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
-    "receitaTexto": "45% casca de pinus média + 25% carvão vegetal médio + 20% casca de arroz carbonizada + 10% perlita grossa compatível com o vaso (proposta não homologada).",
+    "justificativa": "Prosthechea fragrans apresenta crescimento simpodial, com pseudobulbos e raízes que precisam de aeração, regas regulares durante o crescimento e secagem parcial após a maturação. Em vaso de barro proporcional à touceira, a casca de pinus e o carvão mantêm a mistura estruturada, enquanto a casca de arroz carbonizada e a perlita favorecem a circulação de ar. Mantenha a base dos pseudobulbos acima do substrato e prefira replantar quando surgirem raízes novas. Evite repouso seco severo.",
+    "receitaTexto": "45% casca de pinus média + 25% carvão vegetal médio + 20% casca de arroz carbonizada + 10% perlita grossa compatível com o vaso.",
     "perfil": [
       "Alta aeração",
       "Drenagem funcional",
