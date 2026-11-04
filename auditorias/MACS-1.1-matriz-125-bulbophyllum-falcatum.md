@@ -17,3 +17,6 @@ Chromium desktop/mobile aprovado; encerramento técnico registrado.
 
 ## Encerramento técnico — 2026-11-04
 Chromium/Playwright https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41766942258: **success** em todas as etapas, incluindo inspeção da ficha e upload das capturas. Quatro fotos e referências visuais confirmadas. Receitas A/B/C somam 100%, sem perlita. Estrelas de suportes nulas. Resultado científico final **D — sem homologação quantitativa**, por ausência de ensaios específicos e amostra documentada de 25 produtores independentes. Encerramento técnico sem pendências; insuficiência científica documentada. Liberada matriz 126.
+
+## Errata editorial de 2026-11-04 — revisão corretiva
+O encerramento técnico anterior não cobre as alterações posteriores. Receita principal permanece a única quantificada (100%); as **duas** alternativas voltam a ser qualitativas, sem percentuais. Decisões de materiais não podem ser guiadas pela presença/ausência de assets. A receita principal foi preservada nesta correção. As referências anteriores a alternativas quantificadas, e asserções de percentuais de alternativas, ficam revogadas. **Revalidação Chromium corretiva em andamento**; relatório reaberto até confirmação da nova execução. Status científico D, sem homologação quantitativa.
