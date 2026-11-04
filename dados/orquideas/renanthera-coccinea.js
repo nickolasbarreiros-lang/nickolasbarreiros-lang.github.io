@@ -48,7 +48,7 @@ export const renantheraCoccinea = {
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cesto grande e aberto com tutor robusto, substrato grosso apenas para fixação e raízes expostas." },
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso pesado, amplo e muito drenante, com tutor alto e mistura extremamente grossa." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Estrutura vertical de madeira, com raízes praticamente livres e hidratação frequente." },
-            { nome: "Raízes soltas", asset: "raizes-soltas", estrelas: 4, status: "Uso condicional", texto: "Cultivo de raízes livres com fixação vertical firme e regas frequentes; exige alta ventilação e acompanhamento hídrico." }
+            { nome: "Raízes Soltas", asset: "raizes-soltas", estrelas: 4, status: "Uso condicional", texto: "Cultivo de raízes livres com fixação vertical firme e regas frequentes; exige alta ventilação e acompanhamento hídrico." }
         ]
     },
     substratoVisual: {
