@@ -78,7 +78,7 @@ export const cattleyaPumpkinFestival = {
         "nome": "Cattleya Pumpkin Festival",
         "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "É difícil ignorar uma Cattleya Pumpkin Festival em flor! Este híbrido chama atenção pelas flores grandes, firmes e cerosas, geralmente em tons quentes de laranja, abóbora e cobre, muitas vezes acompanhados por garganta amarela e um labelo ondulado que reforça ainda mais o efeito tropical. A combinação de cor intensa, boa textura e crescimento vigoroso fez do grex uma presença m",
+        "morfologiaDimensoes": "É difícil ignorar uma Cattleya Pumpkin Festival em flor! Este híbrido chama atenção pelas flores grandes, firmes e cerosas, geralmente em tons quentes de laranja, abóbora e cobre, muitas vezes acompanhados por garganta amarela e um labelo ondulado que reforça ainda mais o efeito tropical.",
         "habitatAltitudeClima": "Sem habitat natural · aliança Cattleya. | Quente a intermediário · luminoso.",
         "distribuicaoGeografica": "Sem distribuição natural.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
