@@ -12,7 +12,7 @@
 - **RHS**, https://www.rhs.org.uk/plants/pdfs/plant-registration-forms/guidelinesorchidreg.pdf — regras de nomenclatura de grexes; para confirmação registral final consultar diretamente a base International Orchid Register. **Não confundir Pumpkin Festival com Sierra Pumpkin ou Festival de Ouro.**
 
 ## Suportes e manejo
-- Vaso de barro **5 estrelas** (atual); cachepô de madeira **4**; plástico vasado **3**; placa/tronco **2**. O produtor brasileiro cita vaso de barro/plástico, caixeta e **árvore viva** como suportes possíveis, mas **não estabelece a ordem das estrelas**.
+- **Estrelas dos suportes omitidas na ficha atual** por ausência de homologação quantitativa. A ordem editorial de apresentação é vaso de barro, cachepô de madeira, plástico vasado e placa/tronco; não representa classificação experimental. O produtor brasileiro cita vaso de barro/plástico, caixeta e **árvore viva** como suportes possíveis, mas **não estabelece a ordem das estrelas**.
 - **Alerta de cobertura:** árvore viva é citada por produtor específico e não figura entre os quatro métodos exibidos; avaliar inclusão editorial futura sem alterar a ficha automaticamente.
 - Híbrido complexo **sem habitat natural próprio**: não atribuir altitude/distribuição geográfica de parentais ao grex. A linhagem parental informada não equivale à composição completa de espécies ancestrais sem reconstrução registral.
 
@@ -38,7 +38,7 @@
 - **Ascendência imediata:** B documental por fonte comercial específica; confirmação RHS primária pendente.
 - **Ingredientes cascas + carvão e métodos de cultivo:** **B qualitativo** por orquidário brasileiro específico.
 - **Composição R0:** **D** (brita 20% e macadâmia 10% sem validação específica; outros ingredientes não validam receita inteira).
-- **Percentuais R0:** **D**; **estrelas D**.
+- **Percentuais R0:** **D**; **estrelas D e omitidas na ficha**.
 - **Produtores brasileiros encontrados:** 2 que comercializam/identificam especificamente o híbrido (Maripá e Suzuki), **1 com orientação específica de substrato**, **0 com percentuais verificáveis**. Orquídea Garden listado à parte, sem orientação de receita verificada. Busca não exaustiva.
 - **Evidência experimental direta:** UNESP avaliou **floração com giberelina**, não substratos; não promover indevidamente a homologação A.
 - **Prioridades:** confirmar ascendência no registro RHS; comparar retenção/estabilidade de R0 em vaso de barro; revisar árvore viva como opção e fundamentação de 20% brita e 10% macadâmia.
