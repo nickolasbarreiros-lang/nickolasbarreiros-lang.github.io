@@ -20,7 +20,7 @@ export const miltoniaRegnellii = {
         "imagens/Miltonia regnellii/Miltonia regnellii3.webp",
         "imagens/Miltonia regnellii/Miltonia regnellii4.jpg"
     ],
-    "descricao": "Delicada e muito florífera, esta Miltonia brasileira chama atenção pelas flores claras — brancas, creme ou amarelo-pálidas — contrastando com um amplo labelo rosado a violeta. Em touceiras adultas, vários pseudobulbos podem florescer juntos, formando um conjunto elegante e abundante. Nativa do Sul e Sudeste do Brasil, adapta-se de condições intermediárias a quentes, mas aprecia boa circulação de ar e umidade regular durante a formação dos novos pseudobulbos.",
+    "descricao": "Miltonia regnellii, conhecida como violetinha-das-árvores, é uma orquídea epífita brasileira que forma touceiras de pseudobulbos achatados, com folhas longas e estreitas. Suas hastes arqueadas podem alcançar cerca de 40 cm e reunir de três a dez flores perfumadas, geralmente com 5 a 7,5 cm de diâmetro. Na forma típica, as sépalas e pétalas são claras e o labelo largo apresenta tons rosados a púrpura; existem também formas inteiramente brancas e amarelas. Nativa de florestas do Sul e Sudeste do Brasil, destaca-se pela floração delicada, que lembra pequenas violetas suspensas entre as folhas.",
     "origem": "Brasil",
     "regiao": "Sul e Sudeste",
     "habitat": "Mata Atlântica · epífita.",
@@ -36,7 +36,7 @@ export const miltoniaRegnellii = {
     "adubacao": "🌿 Adubação orgânica: use pequena porção de Bokashi em porta-adubo, na borda do vaso, sem contato com brotos, rizoma ou raízes novas. Reponha apenas quando o material estiver quase totalmente decomposto.\n💧 Adubação foliar/mineral: durante a formação do broto e do pseudobulbo, aplique NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose a cada 10–15 dias. Reduza a frequência quando o pseudobulbo amadurecer.\n🧪 Liberação lenta: somente poucos grânulos em vasos muito drenantes e longe das raízes ativas.\n🚿 Flushing: faça uma lavagem abundante com água pura aproximadamente uma vez por mês para remover sais acumulados. Evite combinar doses completas de vários tipos de adubo.",
     "rega": "Na fase de crescimento ativo, regue assim que a camada superficial do substrato começar a secar, mantendo umidade regular sem deixar o vaso continuamente encharcado. A falta de água durante a expansão das folhas pode causar o efeito sanfona, que é permanente. Porém, antes de aumentar a rega, examine as raízes: raízes claras, firmes e ativas sugerem deficiência hídrica ou baixa umidade; raízes escuras, moles ou ocas indicam perda radicular por abafamento, substrato velho ou excesso de água. Após a maturação do pseudobulbo, aumente apenas levemente o intervalo entre as regas.",
     "suporte": "🥇 Vaso plástico pequeno e muito perfurado: conserva umidade homogênea ao redor das raízes finas sem excesso de substrato.\n🥈 Vaso de barro: indicado para ambientes úmidos ou rotinas de rega frequente, pois acelera a secagem e refresca as raízes.\n🥉 Cesto de madeira: opção para touceiras grandes, desde que a umidade ambiente seja suficiente.\nUse sempre recipiente apenas ligeiramente maior que a touceira.",
-    substrato: ["Pinus médio + perlita grossa + argila expandida miúda + pequena fração de esfagno solto","Casca de macadâmia média + pinus médio + perlita grossa + pequena fração de fibra de coco"],
+    substrato: ["Casca de pinus média + chips de coco preparados + perlita grossa (alternativa horticultural sem proporções validadas)", "Casca de macadâmia média + casca de pinus média + pequena fração de esfagno solto (alternativa horticultural qualitativa)"],
     formasCultivo: {
         perfilVisual: "miltonia-epifita-simpodial-raizes-finas",
         destaque: "Vaso plástico vasado",
@@ -50,25 +50,24 @@ export const miltoniaRegnellii = {
     },
     substratoVisual: {
         titulo: "Substrato ideal",
-        contexto: "Mistura arejada para vaso pequeno e muito perfurado",
-        resumo: "Retenção moderada e uniforme durante o crescimento, sem acúmulo de água no centro do recipiente.",
-        justificativa: "A receita visual para vaso pequeno e muito perfurado combina pinus médio, chips de coco, perlita grossa e carvão vegetal. A receita principal textual corresponde à composição visual; argila expandida e esfagno pertencem apenas à primeira das duas alternativas qualitativas. A descrição ecológica de raízes finas e necessidade de umidade regular sustenta apenas a lógica geral de retenção com aeração; não valida os percentuais nem o ranking de recipientes. Proposta ainda não homologada pela MACS 1.1.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        contexto: "Mistura de retenção moderada para vaso pequeno e bem ventilado",
+        resumo: "Partes iguais de casca de pinus, esfagno solto e carvão vegetal, conforme recomendação brasileira específica para a espécie.",
+        justificativa: "Julio Cesar Zanatta, em Jardineiro.net (atualização de 27/06/2026), recomenda especificamente para Miltonia regnellii partes iguais de casca de pinus, esfagno e carvão vegetal. A receita visual adota essa proporção 1:1:1 como referência horticultural documentada, não como experimento controlado. O estudo brasileiro de Yamamoto et al. (2009) avaliou o HÍBRIDO M. regnellii × Oncidium concolor e NÃO valida substratos da espécie pura.",
+        receitaTexto: "1/3 casca de pinus média + 1/3 esfagno de fibra longa solto + 1/3 carvão vegetal (partes iguais em volume; cerca de 33,3% cada).",
         perfil: ["Epífita simpodial", "Raízes finas", "Pseudobulbos comprimidos", "Umidade regular", "Boa ventilação"],
         comportamento: [
-            { nome: "Retenção", valor: 3, icone: "💧" },
-            { nome: "Aeração", valor: 4, icone: "💨" },
-            { nome: "Secagem", valor: 3, icone: "⚡" },
-            { nome: "Compactação", valor: 1, icone: "🧱" }
+            { nome: "Retenção", valor: 4, icone: "💧" },
+            { nome: "Aeração", valor: 3, icone: "💨" },
+            { nome: "Secagem", valor: 2, icone: "⚡" },
+            { nome: "Compactação", valor: 3, icone: "🧱" }
         ],
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta raízes e fornece umidade moderada." },
-            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a manter disponibilidade hídrica regular." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para a estrutura aberta do substrato." }
+            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "1/3", nota: "estrutura", finalidade: "Sustenta raízes e mantém espaços de ar." },
+            { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "1/3", nota: "reserva hídrica", finalidade: "Retém umidade; aplicar sem compactar." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "1/3", nota: "drenagem", finalidade: "Oferece estrutura rígida e porosidade." }
         ],
         alerta: "Evitar vaso grande, substrato degradado, seca prolongada dos brotos, sombra profunda e sais acumulados. Inspecionar as raízes antes de interpretar pseudobulbos murchos como falta de água.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Miltonia regnellii é descrita como epífita simpodial de raízes finas e necessidade de umidade regular com boa aeração. Vaso plástico vasado 5 estrelas, barro/cachepô madeira 4, placa/tronco 3: hipótese horticultural, sem ensaio comparativo específico. Receita visual 35% pinus médio + 30% chips de coco + 25% perlita grossa + 10% carvão = 100%. A receita principal textual e visual coincide (35% pinus, 30% chips de coco, 25% perlita, 10% carvão); a mistura com argila expandida e esfagno é alternativa qualitativa independente. Fontes botânicas citadas na revisão existente não homologam percentuais. Meta de até 25 produtores brasileiros com receita específica não atingida nesta passagem. Percentuais e estrelas NÃO HOMOLOGADOS; preservar demais campos."
+        notaEvidencia: "MACS 1.1 — referência quantitativa horticultural específica para Miltonia regnellii: Julio Cesar Zanatta, Jardineiro.net, atualizado em 27/06/2026, recomenda partes iguais de casca de pinus, esfagno e carvão vegetal (https://www.jardineiro.net/plantas/violetinha-das-arvores-miltonia-regnellii.html). Receita visual 1/3 + 1/3 + 1/3 = 1 inteiro (100% em volume), sem arredondar incorretamente 33% × 3 para 100%. A mistura não foi comparada experimentalmente nesta espécie. Yamamoto et al. (2009), DOI 10.5433/1679-0359.2009v30n4Sup1p1035, estudaram mudas do HÍBRIDO Miltonia regnellii × Oncidium concolor, não a espécie pura; seus resultados não homologam a presente receita. POWO aceita Miltonia regnellii e Oncidium regnellii como sinônimo homotípico. Uma recomendação brasileira quantitativa específica identificada nesta passagem, sem atingir a meta de 25 produtores. Estrelas de recipientes não são validadas por ensaio."
     },
     "errosComuns": "❌ Manter substrato velho, ácido ou compactado.\n❌ Usar vaso grande, que conserva umidade excessiva no centro.\n❌ Deixar o broto novo secar por longos períodos, causando folhas sanfonadas.\n❌ Interpretar pseudobulbo murcho como sede sem verificar raízes mortas.\n❌ Cultivar em sombra profunda, produzindo folhas escuras e poucas hastes.\n❌ Aplicar adubo concentrado ou deixar sais acumularem.\n❌ Replantar fora da fase de raízes novas.\n❌ Deixar água acumulada nas bainhas em noites quentes e abafadas.",
     "dica": "O pseudobulbo novo é a reserva que sustentará a próxima floração. Para que ele amadureça grande e firme, mantenha rega regular, luz filtrada abundante e adubação suave durante todo o crescimento. Previna folhas sanfonadas observando simultaneamente a umidade e a saúde das raízes; aumentar a água não resolve quando o sistema radicular já está deteriorado. Faça flushing mensal e replante somente quando as novas pontas de raízes aparecerem. Quanto mais robusto o pseudobulbo, maior a probabilidade de hastes fortes, multifloras e duráveis.",
