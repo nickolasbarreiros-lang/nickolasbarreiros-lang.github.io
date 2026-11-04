@@ -70,8 +70,8 @@ export const anathallisSclerophylla = {
         titulo: "Substrato ideal",
         contexto: "Placa / tronco principal; receita opcional para vaso pequeno — 100% em volume",
         resumo: "Para vaso pequeno: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno.",
-        justificativa: "Anathallis sclerophylla é epífita de ambientes úmidos, com raízes que exigem hidratação frequente e oxigenação. A placa / tronco com fina camada de esfagno solto permanece a primeira opção. Em vaso pequeno e ventilado, a mistura visual proposta combina estrutura, porosidade e reserva hídrica. MACS 1.1: proposta horticultural documental, sem homologação quantitativa específica.",
-        receitaTexto: "Placa / tronco: raízes expostas e fina camada de esfagno de fibra longa solto. Para vaso pequeno: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno (proposta não homologada).",
+        justificativa: "Anathallis sclerophylla é uma epífita de ambientes úmidos, com raízes finas que precisam de hidratação frequente e boa circulação de ar. A montagem em placa ou tronco, com uma camada fina de esfagno solto, mantém as raízes ventiladas. Em vaso pequeno e perfurado, a casca de pinus oferece apoio, a casca de arroz carbonizada e o carvão preservam espaços de ar e o esfagno ajuda a conservar umidade. Evite compactar a mistura e ajuste as regas à secagem observada.",
+        receitaTexto: "Placa / tronco: raízes expostas e fina camada de esfagno de fibra longa solto. Para vaso pequeno: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno.",
         perfil: ["Epífita de ambiente úmido", "Raízes oxigenadas", "Umidade frequente", "Boa ventilação", "Evitar compactação"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
