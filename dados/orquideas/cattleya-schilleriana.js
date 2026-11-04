@@ -78,7 +78,7 @@ export const cattleyaSchilleriana = {
         "nome": "Cattleya schilleriana",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma pequena Cattleya com flores enormes em relação ao próprio tamanho! Nativa do leste da Bahia ao Espírito Santo, Cattleya schilleriana forma plantas compactas, geralmente com duas folhas firmes por pseudobulbo, e produz flores cerosas e perfumadas que podem chegar a cerca de 8–11 cm. Sépalas e pétalas em tons bronzeados, castanho-esverdeados ou pardos aparecem cobertas por pi",
+        "morfologiaDimensoes": "Uma pequena Cattleya com flores enormes em relação ao próprio tamanho! Nativa do leste da Bahia ao Espírito Santo, Cattleya schilleriana forma plantas compactas, geralmente com duas folhas firmes por pseudobulbo, e produz flores cerosas e perfumadas que podem chegar a cerca de 8–11 cm.",
         "habitatAltitudeClima": "Matas e paredões úmidos · 0–800 m. | Quente a intermediário · muito ventilado.",
         "distribuicaoGeografica": "Leste da Bahia ao Espírito Santo.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
