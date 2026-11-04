@@ -16,8 +16,8 @@ Suporte principal: placa/tronco, rizoma exposto, umidade frequente, ventilação
 
 ## Candidatas e verificação quantitativa
 - A (visual vigente): 45% Casca de pinus — fina/média + 25% Casca de arroz carbonizada + 20% Carvão vegetal — pequeno + 10% Esfagno — fibra longa (solto) = **100%**.
-- B (alternativa qualitativa): Casca de pinus — fina/média + Carvão vegetal — pequeno + Esfagno — fibra longa (solto). Percentuais específicos **não sustentados**; não inventar valores para somar 100%.
-- C (alternativa qualitativa): Chips de coco — pequenos + Carvão vegetal — pequeno + Casca de arroz carbonizada. Percentuais específicos **não sustentados**; não inventar valores para somar 100%.
+- B (alternativa quantitativa estimada): Casca de pinus — fina/média + Carvão vegetal — pequeno + Esfagno — fibra longa (solto). Proposta editorial **55% / 25% / 20% por volume = 100%**, nível D, sem receita específica publicada.
+- C (alternativa quantitativa estimada): Chips de coco — pequenos + Carvão vegetal — pequeno + Casca de arroz carbonizada. Proposta editorial **45% / 30% / 25% por volume = 100%**, nível D, sem receita específica publicada.
 
 ## Comparação técnica sem notas de desempenho
 | Critério (peso) | A | B | C |
@@ -39,8 +39,11 @@ Suporte principal: placa/tronco, rizoma exposto, umidade frequente, ventilação
 - Resultado: **provisória**; não experimentalmente validada nem homologada por convergência C.
 
 ## Decisão editorial
-Preservar a receita visual A e exatamente duas alternativas qualitativas distintas, sem apresentar percentuais inventados para B e C. Preservar V4.9, fotografias, assets, IDC 3.2 e IAR 2.0. A padronização dos materiais foi aplicada à ficha. A etapa de documentação comparativa foi realizada; **não declarar conclusão integral** sem validação de renderização e revisão final de coerência.
+Preservar a receita visual A e duas alternativas quantitativas distintas, identificadas como estimativas editoriais provisórias D, nunca como receitas publicadas. Preservar V4.9, fotografias, assets, IDC 3.2 e IAR 2.0. A padronização dos materiais foi aplicada à ficha. A etapa de documentação comparativa foi realizada; **não declarar conclusão integral** sem validação de renderização e revisão final de coerência.
 Commits da ficha: 6a2a82fe7021e6f0e30599c234f91e82d0576d84 e d2bfa49f0801a81c65d06d8a06826c23cdd4b353.
 
 ## Verificação estática adicional — 2026-11-03
 Após commit f4d5b7eaf5c0af8a9b8ad1f4f7c10d6ec3d0ca26, releitura da ficha no GitHub confirmou 4 itens com 45+25+20+10=100%, exatamente 2 alternativas no campo substrato, 4 métodos e 4 caminhos de fotografias. Nomes dos itens foram alinhados ao texto da receita. Esta checagem não equivale a teste de sintaxe por interpretador, verificação de existência dos assets ou renderização no navegador. Permanecem sem homologação quantitativa as alternativas B/C e as estrelas; não atribuir conclusão C.
+
+## Atualização das alternativas — 2026-11-03
+Commit 78e5ff75323ed49da728a65bdf37f68b1a3048fd: alternativas B e C receberam percentuais **estimados**, respectivamente 55/25/20 e 45/30/25, por volume. São hipóteses editoriais, não valores derivados de ensaio ou fonte quantitativa da espécie. Sensibilidade: B com 20% esfagno pode permanecer excessivamente úmida em ambiente frio/úmido; C depende do condicionamento dos chips de coco e da condutividade. Reavaliar rega e ventilação por recipiente. A classificação D permanece. Os identificadores dos oito assets (quatro ingredientes e quatro métodos) foram encontrados no catálogo js/biblioteca-cultivo-v4.js; isso não verifica a existência física dos oito arquivos de imagem. A inspeção no navegador não foi executada.
