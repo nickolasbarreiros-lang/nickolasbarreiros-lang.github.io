@@ -51,7 +51,7 @@ export const octomeriaDiaphana = {
         titulo: "Substrato ideal",
         contexto: "Montagem em madeira ou cortiça com fina lâmina de esfagno",
         resumo: "Na montagem principal, esfagno apenas sob as raízes, sem massa de substrato. Para cesto ou cuia, mistura leve de partículas pequenas com boa drenagem.",
-        justificativa: "A montagem principal em placa ou tronco utiliza apenas uma lâmina fina de esfagno de fibra longa solto sob as raízes, sem mistura volumosa. Para cuia rasa ou cesto pequeno, a receita visual proposta combina chips de coco pequenos preparados, pinus fino e perlita de granulometria adequada a miniaturas, somando 100%. Ela não quantifica a segunda alternativa qualitativa, que contém esfagno e não contém chips de coco. As duas alternativas são distintas e não homologadas. Observar retenção e secagem para raízes finas. MACS 1.1: proporções provisórias sem homologação quantitativa específica.",
+        justificativa: "Octomeria diaphana é uma miniatura de raízes finas que se beneficia de montagem em placa ou tronco com uma camada muito fina de esfagno solto. Em cuia rasa ou cesto pequeno, os chips de coco preparados ajudam a conservar umidade, a casca de pinus fina oferece apoio e a perlita mantém espaços de ar. Use partículas proporcionais às raízes e observe a secagem para evitar desidratação ou abafamento.",
         receitaTexto: "40% chips de coco pequenos preparados + 30% casca de pinus fina + 30% perlita de granulometria adequada a miniaturas.",
         perfil: ["Miniatura epífita", "Raízes finas", "Touceira cespitosa", "Umidade regular", "Montagem permanente"],
         comportamento: [
