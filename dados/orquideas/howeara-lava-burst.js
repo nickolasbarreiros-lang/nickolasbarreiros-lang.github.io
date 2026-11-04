@@ -14,7 +14,7 @@ export const howearaLavaBurst = {
         "imagens/Howeara Lava Burst/Howeara Lava Burst3.webp",
         "imagens/Howeara Lava Burst/Howeara Lava Burst4.jpeg"
     ],
-    descricao: "Pequena no tamanho e enorme no efeito visual! Leomesezia Lava Burst é um híbrido compacto que forma touceiras cheias e produz hastes delicadas cobertas por pequenas flores vermelho-alaranjadas. Foi registrado em 1993 por Puanani a partir de Leomesezia Mini-Primi × Rodriguezia lanceolata, combinação que reuniu plantas tropicais americanas de crescimento ativo e raízes finas. O cultivar ‘Puanani’ é o mais conhecido no cultivo. Quando recebe luz filtrada abundante, umidade regular e adubação leve, pode repetir a floração sempre que novos pseudobulbos amadurecem.",
+    descricao: "Pequena no porte e exuberante na floração, Leomesezia Lava Burst forma touceiras compactas de pseudobulbos pequenos e folhas estreitas. Hastes ramificadas sustentam numerosas flores diminutas, vermelho-alaranjadas, frequentemente com detalhes mais claros no centro. Trata-se de um híbrido horticultural registrado em 1993 por Puanani, resultado do cruzamento Leomesezia Mini-Primi × Rodriguezia lanceolata. O nome anterior, Howeara Lava Burst, ainda aparece com frequência nas coleções. O clone ‘Puanani’ é um dos mais conhecidos, mas não representa todos os exemplares do híbrido. Sem habitat natural próprio, reúne características de ancestrais epífitos americanos e pode produzir novas hastes ao amadurecer os brotos.",
     origem: "Híbrido horticultural",
     regiao: "Ancestrais tropicais americanos",
     habitat: "Sem habitat natural · herança epífita.",
@@ -46,8 +46,8 @@ export const howearaLavaBurst = {
         titulo: "Substrato ideal",
         contexto: "Mistura para vaso pequeno e muito perfurado",
         resumo: "Substrato médio e aberto, com umidade moderada e drenagem rápida, sem compactação ou seca prolongada.",
-        justificativa: "A receita visual combina pinus médio, chips de coco, perlita grossa e carvão vegetal; a receita visual corresponde à receita textual principal, acompanhada de apenas duas alternativas qualitativas. O híbrido tem raízes finas e exige umidade regular com aeração, mas não há ensaio que valide os percentuais. Proposta horticultural ainda não homologada pela MACS 1.1.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco + 25% perlita grossa + 10% carvão vegetal.",
+        justificativa: "A receita visual combina pinus médio, chips de coco preparados, perlita grossa e carvão vegetal; a receita visual corresponde à receita textual principal, acompanhada de apenas duas alternativas qualitativas. O híbrido tem raízes finas e exige umidade regular com aeração, mas não há ensaio que valide os percentuais. Proposta horticultural ainda não homologada pela MACS 1.1.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco preparados + 25% perlita grossa + 10% carvão vegetal.",
         perfil: ["Híbrido intergenérico", "Touceira compacta", "Raízes finas", "Umidade regular", "Floração recorrente"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -57,12 +57,12 @@ export const howearaLavaBurst = {
         ],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Acomoda raízes finas sem compactar o vaso." },
-            { asset: "chips-coco", nome: "Chips de coco", proporcao: "30%", nota: "umidade moderada", finalidade: "Retém parte da umidade entre regas." },
+            { asset: "chips-coco", nome: "Chips de coco preparados", proporcao: "30%", nota: "umidade moderada", finalidade: "Retém parte da umidade entre regas." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Melhora drenagem e mantém espaços de ar." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "estrutura", finalidade: "Complementa a porosidade do substrato." }
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "10%", nota: "estrutura", finalidade: "Complementa a porosidade do substrato." }
         ],
         alerta: "Não impor seca para forçar floração, usar vaso grande ou manter água parada na base da touceira. Evitar sombra profunda e fertilizantes concentrados.",
-        notaEvidencia: "MACS 1.1 — revisão documental: OrchidRoots/Orchids.org registra nome RHS aceito Leomesezia Lava Burst, cruzamento Leomesezia Mini-Primi x Rodriguezia lanceolata, registrado em 1993 por Puanani. Evidência genealógica não comprova substrato. Receita 35% pinus médio + 30% chips coco + 25% perlita grossa + 10% carvão = 100%, e estrelas dos suportes, NÃO HOMOLOGADAS. Nenhum produtor brasileiro com recomendação percentual específica do híbrido confirmado nesta passagem; meta até 25 não atingida. O texto de rega orienta umidade leve e regular; eventual selo divergente precisa ser verificado no componente que o produz, sem presumir que esta ficha controle o selo. Fonte: https://www.orchids.org/grexes/leomesezia-lava-burst"
+        notaEvidencia: "MACS 1.1 — revisão documental: OrchidRoots/Orchids.org registra nome RHS aceito Leomesezia Lava Burst, cruzamento Leomesezia Mini-Primi x Rodriguezia lanceolata, registrado em 1993 por Puanani. Evidência genealógica não comprova substrato. Receita 35% pinus médio + 30% chips de coco preparados + 25% perlita grossa + 10% carvão = 100%, e estrelas dos suportes, NÃO HOMOLOGADAS. Nenhum produtor brasileiro com recomendação percentual específica do híbrido confirmado nesta passagem; meta até 25 não atingida. O texto de rega orienta umidade leve e regular; eventual selo divergente precisa ser verificado no componente que o produz, sem presumir que esta ficha controle o selo. Fonte: https://www.orchids.org/grexes/leomesezia-lava-burst"
     },
     errosComuns: "Usar vaso grande; deixar o substrato velho e compacto; impor seca para estimular floração; permitir enrugamento frequente; cultivar em calor abafado; usar excesso de bokashi ou adubo de liberação lenta; aplicar fertilizante concentrado; deixar água parada na base da touceira; manter sombra profunda.",
     dica: "Não tente ‘forçar’ a floração com seca. A estratégia mais eficiente é manter a planta em crescimento contínuo: vaso pequeno, raízes saudáveis, luz filtrada forte e adubação fraca. Cada pseudobulbo bem formado aumenta a chance de uma nova haste, e uma touceira adulta pode florescer repetidamente ao longo do ano.",
