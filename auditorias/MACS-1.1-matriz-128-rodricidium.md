@@ -17,3 +17,6 @@ Pendente Chromium desktop/mobile e encerramento técnico.
 
 ## Errata editorial de 2026-11-04 — revisão corretiva
 O encerramento técnico anterior não cobre as alterações posteriores. Receita principal: 35% pinus + 30% chips coco + 25% perlita + 10% carvão = 100%. Duas alternativas qualitativas, sem percentuais. Perlita original restaurada; não substituir material por disponibilidade de asset. Asserções anteriores de percentuais das alternativas revogadas. **Revalidação Chromium corretiva em andamento**. Status científico D, sem homologação quantitativa.
+
+### Fechamento da errata — 2026-11-04
+**Revalidação corretiva aprovada:** Chromium [41836563703](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41836563703) com conclusão success. Duas alternativas qualitativas sem percentuais, principal 100%, perlita restaurada e inspeção desktop/mobile concluída. Errata editorial tecnicamente **ENCERRADA**. Classe científica D permanece não homologada quantitativamente.
