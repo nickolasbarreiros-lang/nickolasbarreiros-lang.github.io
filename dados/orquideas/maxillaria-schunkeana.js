@@ -77,7 +77,7 @@ export const maxillariaSchunkeana = {
         "nome": "Maxillaria schunkeana",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma das joias mais famosas do Espírito Santo! Conhecida como “orquídea-negra”, esta pequena Maxillaria produz flores de cerca de 1 cm em um vinho-púrpura tão escuro que parecem negras à primeira vista. É endêmica da Mata Atlântica capixaba e cresce naturalmente em ambiente quente, úmido e ventilado, por volta de 600–700 m de altitude. Apesar da aparência exótica, não exige frio",
+        "morfologiaDimensoes": "Uma das joias mais famosas do Espírito Santo! Conhecida como “orquídea-negra”, esta pequena Maxillaria produz flores de cerca de 1 cm em um vinho-púrpura tão escuro que parecem negras à primeira vista. É endêmica da Mata Atlântica capixaba e cresce naturalmente em ambiente quente, úmido e ventilado, por volta de 600–700 m de altitude.",
         "habitatAltitudeClima": "Epífita · floresta costeira · 600–700 m. | Quente · úmido, sombreado e ventilado.",
         "distribuicaoGeografica": "Mata Atlântica capixaba.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
