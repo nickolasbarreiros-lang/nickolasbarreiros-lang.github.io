@@ -57,7 +57,7 @@ export const anathallisSclerophylla = {
     formasCultivo: {
         perfilVisual: "anathallis",
         destaque: "Placa / tronco",
-        resumo: "Espécie epífita de floresta tropical úmida, atualmente tratada por Kew como Stelis sclerophylla; prefere umidade frequente e raízes permanentemente oxigenadas.",
+        resumo: "Espécie epífita de floresta tropical úmida, atualmente tratada por Kew como Stelis sclerophylla; é cultivada provisoriamente com umidade frequente e substrato bem aerado; as exigências exatas não foram medidas em ensaio específico.",
         metodos: [
             { nome: "Placa / tronco", asset: "anathallis-sclerophylla-placa", estrelas: null, status: "Preferencial (provisório)", texto: "A montagem reproduz o hábito epífito e favorece aeração das raízes, mas sua superioridade sobre recipientes não foi demonstrada especificamente para esta espécie. Exige umidade frequente e proteção contra ressecamento prolongado." },
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa provisória", texto: "Oferece excelente ventilação e espaço para a touceira e para as inflorescências, mantendo pequena reserva de umidade junto às raízes." },
@@ -68,9 +68,9 @@ export const anathallisSclerophylla = {
     substrato: ["Chips de coco pequenos preparados + casca de arroz carbonizada + carvão vegetal pequeno","Casca de pinus fina/média + perlita adequada a miniaturas + esfagno de fibra longa solto"],
     substratoVisual: {
         titulo: "Substrato recomendado (provisório)",
-        contexto: "Placa / tronco preferencial (provisório); receita experimental de referência para vaso pequeno — 100% em volume, sem homologação quantitativa",
+        contexto: "Placa / tronco preferencial (provisório); receita técnica proposta para vaso pequeno (não submetida a ensaio comparativo) — 100% em volume, sem homologação quantitativa",
         resumo: "Para vaso pequeno: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno.",
-        justificativa: "Anathallis sclerophylla é uma epífita de ambientes úmidos, com raízes finas que precisam de hidratação frequente e boa circulação de ar. A montagem em placa ou tronco, com uma camada fina de esfagno solto, mantém as raízes ventiladas. Em vaso pequeno e perfurado, a casca de pinus oferece apoio, a casca de arroz carbonizada e o carvão preservam espaços de ar e o esfagno ajuda a conservar umidade. Evite compactar a mistura e ajuste as regas à secagem observada.",
+        justificativa: "Anathallis sclerophylla é uma epífita de ambientes úmidos, com raízes finas que precisam de hidratação frequente e boa circulação de ar. A montagem em placa ou tronco, com uma camada fina de esfagno solto, pode favorecer a aeração das raízes, mas não foi comparada experimentalmente com os recipientes nesta espécie. Em vaso pequeno e perfurado, a casca de pinus oferece apoio, a casca de arroz carbonizada e o carvão preservam espaços de ar e o esfagno ajuda a conservar umidade. Evite compactar a mistura e ajuste as regas à secagem observada.",
         receitaTexto: "Placa / tronco: raízes expostas e fina camada de esfagno de fibra longa solto. Para vaso pequeno: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno.",
         perfil: ["Epífita de ambiente úmido", "Raízes oxigenadas", "Umidade frequente", "Boa ventilação", "Evitar compactação"],
         comportamento: [
