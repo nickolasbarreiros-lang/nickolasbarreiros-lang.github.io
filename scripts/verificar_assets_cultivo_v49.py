@@ -46,9 +46,17 @@ for item in inventario["fichas"]:
     if not metodos:
         erros.append(f"{arquivo.name}: nenhum método de cultivo reconhecido")
     for nome, asset in metodos:
-        tipo = categoria(nome, asset)
-        if tipo is None or (asset in PADRAO and nome != PADRAO[tipo]):
-            erros.append(f"{arquivo.name}: nome fora do padrão: {nome!r} (asset {asset})")
+        # O identificador do asset genérico é a referência autoritativa:
+        # impedir que um nome de outro suporte passe por coincidência textual.
+        # Assets exclusivos de espécies conservam suas descrições próprias.
+        if asset in PADRAO:
+            if nome != PADRAO[asset]:
+                erros.append(
+                    f"{arquivo.name}: nome fora do padrão: {nome!r} "
+                    f"(asset {asset}; esperado {PADRAO[asset]!r})"
+                )
+        elif categoria(nome, asset) is None:
+            erros.append(f"{arquivo.name}: suporte não reconhecido: {nome!r} (asset {asset})")
         if asset not in chaves:
             erros.append(f"{arquivo.name}: asset não cadastrado na biblioteca: {asset}")
     verificadas += 1
