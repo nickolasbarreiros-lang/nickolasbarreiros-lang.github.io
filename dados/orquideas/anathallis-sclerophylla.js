@@ -5,7 +5,7 @@ export const anathallisSclerophylla = {
     genero: "Anathallis",
     tipo: "Espécie botânica epífita neotropical",
     sinonimo: "Pleurothallis sclerophylla",
-    dificuldade: "Moderada",
+    dificuldade: "Fácil",
     origem: "América Tropical",
     regiao: "México · América Central · América do Sul (incl. Brasil)",
     habitat: "Epífita de florestas úmidas e nebulosas, cerca de 480–3.100 m.",
@@ -108,7 +108,7 @@ export const anathallisSclerophylla = {
         "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
         "indice": 34,
-        "classificacao": "Moderada",
+        "classificacao": "Fácil",
         "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
