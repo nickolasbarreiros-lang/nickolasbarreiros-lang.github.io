@@ -131,3 +131,18 @@ Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/in
 
 - Cinco tabelas históricas de quatro faixas IDC corrigidas para as cinco faixas oficiais. Commits `ed8c9333`, `d461a86c`, `05e41a57`, `729b3cf9`, `6ee20b8d`.
 - **Progresso matemático: 20/25.** Aritmética conferida não equivale a homologação científica; fotos/assets, execução JavaScript, navegador e confronto das fontes permanecem pendentes.
+
+## Auditoria matemática parcial — fichas 21–25 (2026-11-04)
+- Oito critérios IDC 3.2 e sete fatores de cada região IAR 2.0 recalculados; índices matematicamente consistentes:
+
+| Nº | Ficha | IDC | IAR litoral | IAR montanha |
+|---|---|---:|---:|---:|
+| 21 | Cattleya schilleriana | 38 | 97 | 68 |
+| 22 | Bulbophyllum rothschildianum | 45 | 63 | 79 |
+| 23 | Encyclia Mineirinha | 42 | 73 | 79 |
+| 24 | Arpophyllum giganteum | 34 | 64 | 96 |
+| 25 | Oncidium Twinkle | 18 | 47 | 96 |
+
+- Tabelas IDC históricas de quatro faixas corrigidas para as cinco faixas oficiais. Commits `fa820b7d`, `0db39ca9`, `fb48d7fc`, `a8979cb9`, `b2dc8dd6`.
+- **Etapa aritmética IDC/IAR concluída para 25/25 fichas.** Verificou-se consistência dos números armazenados com a fórmula; não se validou a adequação científica das notas e pesos ou a correspondência das estrelas IAR com evidências botânicas.
+- **O lote 1–25 permanece aberto** para inspeção de fotos/assets, execução JS, testes de navegador e confronto científico de fontes e receitas; não declarar homologação integral.
