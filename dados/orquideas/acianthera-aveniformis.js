@@ -50,8 +50,8 @@ export const aciantheraAveniformis = {
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Receita para cultivo em vaso",
-        resumo: "Mesmo que placa/tronco seja a forma de cultivo preferencial, o Substrato ideal desta ficha sempre representa a melhor mistura sugerida quando a planta for cultivada em vaso.",
-        justificativa: "A. aveniformis é uma epífita de ambiente úmido e possui porte pequeno e raízes muito finas. Em vaso, a prioridade é preservar macroporos e oxigenação sem permitir desidratação prolongada. Por isso a mistura combina uma fração orgânica estrutural, materiais muito aeradores e apenas uma pequena reserva hídrica. A proporção abaixo é uma hipótese técnica provisória, não uma fórmula experimental publicada especificamente para A. aveniformis; a escolha e a retenção de umidade precisam ser verificadas no cultivo real.",
+        resumo: "Embora a placa ou o tronco sejam preferenciais, esta mistura é indicada para cultivo em vaso pequeno e bem ventilado.",
+        justificativa: "Acianthera aveniformis é uma epífita pequena, de raízes muito finas, que precisa de umidade frequente sem perder a circulação de ar. Em vaso pequeno, raso e perfurado, a casca de pinus sustenta a mistura, a casca de arroz carbonizada e o carvão ajudam a manter espaços de ar e o esfagno solto conserva uma pequena reserva de umidade. Deixe o rizoma exposto e observe a velocidade de secagem para ajustar as regas, evitando tanto o encharcamento quanto a desidratação prolongada.",
         receitaTexto: "Mistura-base sugerida para vaso pequeno, raso e muito perfurado: 40% casca de pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto.",
         perfil: ["Raízes epífitas muito finas", "Aeração muito alta", "Umidade frequente", "Secagem relativamente rápida", "Baixa compactação", "Rizoma sempre exposto"],
         comportamento: [
