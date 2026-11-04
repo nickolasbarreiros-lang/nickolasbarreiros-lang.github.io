@@ -55,7 +55,7 @@ export const cattleyaWarneri = {
         "titulo": "Substrato ideal",
         "contexto": "Mistura sugerida para vaso de barro perfurado",
         "resumo": "Mistura de granulometria média a grossa, com sustentação firme, aeração e drenagem para raízes epífitas.",
-        "justificativa": "A receita visual para vaso de barro perfurado combina macadâmia média, pinus médio, perlita grossa e carvão vegetal. A receita principal textual coincide com a composição visual; argila expandida e pinus grosso pertencem apenas à primeira alternativa qualitativa, não à receita principal. As referências de cultivo para Cattleya apoiam substrato aberto e drenagem, mas não validam estes percentuais para Cattleya warneri. Proposta ainda não homologada pela MACS 1.1.",
+        "justificativa": "Cattleya warneri se beneficia de raízes bem ventiladas e secagem perceptível entre regas. Em vaso de barro perfurado, as cascas de macadâmia e pinus oferecem apoio e estrutura, enquanto a perlita e o carvão favorecem a drenagem. Observe a secagem do recipiente e evite manter as raízes encharcadas. Replante preferencialmente quando houver emissão de novas raízes, mantendo a base dos pseudobulbos acima da mistura.",
         "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         "perfil": ["Raízes epífitas", "Porte grande", "Boa sustentação", "Aeração alta", "Secagem equilibrada"],
         "comportamento": [
