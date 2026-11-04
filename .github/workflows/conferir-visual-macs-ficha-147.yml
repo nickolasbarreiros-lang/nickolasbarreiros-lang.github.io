@@ -65,6 +65,10 @@ jobs:
             if(overflow)throw Error('Overflow horizontal na visualização celular');
             await page.screenshot({path:'macs-ficha-147-ficha-mobile.png',fullPage:true});
             if(errors.length)throw Error('Erros JavaScript desktop/mobile: '+errors.join(' | '));
+            const mobileCredito=page.locator('.galeria-v2 .credito-foto-v4');
+            if(await mobileCredito.count()!==1||!(await mobileCredito.isVisible()))throw Error('Crédito da fotografia ausente ou invisível no celular');
+            const mobileCreditoBox=await mobileCredito.boundingBox();
+            if(!mobileCreditoBox||mobileCreditoBox.x<0||mobileCreditoBox.x+mobileCreditoBox.width>392)throw Error('Crédito da fotografia ultrapassa largura da tela no celular: '+JSON.stringify(mobileCreditoBox));
             const mobileEntries=await entries.count();
             if(mobileEntries!==2)throw Error('Alternativas alteradas na versão celular: '+mobileEntries);
             const mobileTexts=await entries.allTextContents();
