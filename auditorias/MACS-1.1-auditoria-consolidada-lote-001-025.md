@@ -89,3 +89,17 @@ Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/in
 - Recalculados IAR 2.0 litoral/montanha com sete fatores e pesos totais de 100: Anathallis 80/97; Aerides 97/63; Epidendrum centropetalum 49/97; Miltonia russelliana 79/96; Promenaea xanthina 32/97. Todos iguais aos índices cadastrados.
 - Corrigidas cinco tabelas históricas de quatro faixas IDC para as cinco faixas do IDC 3.2: 0–25, 26–35, 36–50, 51–89, 90–100. Commits: `6affaf42`, `256da344`, `dcce98da`, `a03c5028`, `8d4d0165`.
 - **Limite:** verificação aritmética não prova pertinência científica das notas, das estrelas IAR ou das receitas. Inspeção de imagens, assets, testes JS/navegador e confronto de fontes continuam pendentes; fichas 1–5 não devem ser declaradas cientificamente homologadas.
+
+## Auditoria matemática parcial — fichas 6–10 (2026-11-04)
+- Conferidos oito critérios do IDC 3.2 e sete fatores de cada região do IAR 2.0. Resultados calculados iguais aos cadastrados:
+
+| Nº | Ficha | IDC | IAR litoral | IAR montanha |
+|---|---|---:|---:|---:|
+| 6 | Brassia lawrenceana | 40 | 96 | 80 |
+| 7 | Laelia splendida | 36 | 81 | 79 |
+| 8 | Encyclia alboxanthina | 38 | 97 | 62 |
+| 9 | Phalaenopsis pulcherrima | 25 | 96 | 46 |
+| 10 | Dendrobium spectabile | 50 | 96 | 64 |
+
+- Cinco tabelas antigas IDC de quatro faixas corrigidas para as cinco faixas oficiais. Commits `85c35f45`, `e4d279dc`, `4e190fda`, `089bff9e`, `7249b536`.
+- **Situação:** cálculo matemático conferido para fichas 1–10; validação científica das notas, inspeção de fotos/assets, execução JS e navegação desktop/mobile ainda pendentes. Não confundir verificação aritmética com homologação científica.
