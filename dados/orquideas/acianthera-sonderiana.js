@@ -56,7 +56,7 @@ export const aciantheraSonderiana = {
         "🥈 Vaso pequeno e muito ventilado com esfagno solto.",
         "🥉 Cachepô pequeno com mistura fina, leve e altamente aerada."
     ],
-    substrato: ["Casca de pinus fina + casca de arroz carbonizada + esfagno de fibra longa solto","Chips de coco pequenos preparados + casca de arroz carbonizada + esfagno de fibra longa solto"],
+    substrato: ["55% Casca de pinus — fina/média + 25% Carvão vegetal — pequeno + 20% Esfagno — fibra longa (solto)","45% Chips de coco — pequenos + 30% Casca de arroz carbonizada + 25% Esfagno — fibra longa (solto)"],
     formasCultivo: {
         perfilVisual: "micro-pleurothalidina",
         destaque: "Placa / tronco",
@@ -73,7 +73,7 @@ export const aciantheraSonderiana = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura muito aerada, leve e com reserva hídrica moderada para raízes finas que não devem permanecer secas por longos períodos.",
-        justificativa: "Como epífita de raízes finas, Acianthera sonderiana exige umidade regular e alta oxigenação. A montagem principal em placa/tronco usa apenas uma lâmina mínima de esfagno de fibra longa solto, sem compactação. Para vaso pequeno e perfurado, a receita visual alternativa combina pinus fino/médio, casca de arroz carbonizada, esfagno de fibra longa solto e carvão vegetal pequeno, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não recebem os percentuais da receita visual. Em clima quente, ajustar a frequência de rega à secagem real. MACS 1.1: hipótese horticultural não homologada quantitativamente.",
+        justificativa: "Como epífita de raízes finas, Acianthera sonderiana exige umidade regular e alta oxigenação. A montagem principal em placa/tronco usa apenas uma lâmina mínima de esfagno de fibra longa solto, sem compactação. Para vaso pequeno e perfurado, a receita visual alternativa combina pinus fino/médio, casca de arroz carbonizada, esfagno de fibra longa solto e carvão vegetal pequeno, totalizando 100%. As duas outras misturas são propostas volumétricas editoriais distintas, ambas somando 100%, sem percentuais publicados para a espécie. Em clima quente, ajustar a frequência de rega à secagem real. MACS 1.1: hipótese horticultural não homologada quantitativamente.",
         receitaTexto: "Mistura-base provisória para cultivo em vaso: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno. Ajustar granulometria e rega conforme secagem observada.",
         perfil: ["Raízes finas", "Alta aeração", "Umidade constante", "Secagem moderada", "Baixa compactação", "Vaso pequeno"],
         comportamento: [
@@ -89,6 +89,6 @@ export const aciantheraSonderiana = {
             { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "15%", nota: "porosidade + durabilidade", finalidade: "Ajuda a preservar a estrutura aberta e a circulação de ar entre os componentes." }
         ],
         alerta: "Não compacte o esfagno. Em clima quente, mantenha umidade regular, mas permita boa oxigenação e drenagem; raízes finas sofrem tanto com secagem prolongada quanto com substrato abafado.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Acianthera sonderiana é miniatura epífita cespitosa de raízes finas, com necessidade de umidade regular e boa ventilação. Cultivo principal em placa/tronco com mínima lâmina de esfagno solto e rizoma exposto; mistura visual alternativa para vaso pequeno e perfurado: 35% pinus fino/médio + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno = 100%. Receita textual e itens visuais correspondem. Exatamente duas alternativas qualitativas distintas, sem percentuais homologados. Em clima quente monitorar secagem e evitar esfagno compactado. Classificações de suportes são heurísticas, não resultados experimentais. Não foram documentados ensaios quantitativos específicos nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
+        notaEvidencia: "MACS 1.1 — revisão documental: Acianthera sonderiana é miniatura epífita cespitosa de raízes finas, com necessidade de umidade regular e boa ventilação. Cultivo principal em placa/tronco com mínima lâmina de esfagno solto e rizoma exposto; mistura visual alternativa para vaso pequeno e perfurado: 35% pinus fino/médio + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno = 100%. Receita textual e itens visuais correspondem. Exatamente duas alternativas quantitativas editoriais distintas (55/25/20 e 45/30/25), sem percentuais homologados. Em clima quente monitorar secagem e evitar esfagno compactado. Classificações de suportes são heurísticas, não resultados experimentais. Não foram documentados ensaios quantitativos específicos nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
     }
 };
