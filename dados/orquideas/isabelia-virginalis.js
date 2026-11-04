@@ -45,7 +45,7 @@ export const isabeliaVirginalis = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal sem substrato retentivo; receita alternativa para cachepô muito raso",
         resumo: "A primeira opção é a fixação direta em cortiça ou madeira durável. Em cesto, usar componentes muito grossos e secagem rápida.",
-        justificativa: "O cultivo principal é a fixação direta em placa ou tronco durável, sem mistura volumétrica, coerente com a recomendação de cultivo da AOS e de orquidários brasileiros; o rizoma rastejante e as bainhas fibrosas permanecem expostos. A receita quantitativa visual destina-se somente a cesto muito raso e contém chips de coco muito grossos preparados, argila expandida e carvão. As duas alternativas qualitativas são diferentes da principal e não representam adaptações quantitativamente validadas. Conferir se os chips conservam umidade excessiva e se o cesto oferece estabilidade sem soterrar a colônia. MACS 1.1: proporções provisórias sem homologação específica",
+        justificativa: "Isabelia virginalis apresenta rizoma rastejante e se beneficia de montagem em placa ou tronco, com a colônia e as bainhas fibrosas expostas. Para cesto muito raso, os chips de coco muito grossos preparados oferecem apoio e alguma retenção de umidade, enquanto a argila expandida e o carvão mantêm espaços de ar. Evite soterrar o rizoma e observe se o recipiente permanece úmido por tempo excessivo.",
         receitaTexto: "45% chips de coco muito grossos preparados + 35% argila expandida + 20% carvão vegetal.",
         perfil: ["Miniatura rastejante", "Bainhas fibrosas", "Rizoma exposto", "Raízes superficiais", "Secagem rápida"],
         comportamento: [
