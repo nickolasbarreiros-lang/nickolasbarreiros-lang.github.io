@@ -79,8 +79,8 @@ export const camaridiumCarinatum = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "O rizoma alongado, frequentemente pendente e com pseudobulbos imbricados, precisa de espaço e aeração, enquanto os chips de coco ajudam a reduzir secagem brusca.",
-    "receitaTexto": "Proposta de cultivo (não validada por ensaio): 35% casca de pinus + 25% chips de coco grossos + 25% perlita grossa + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
+    "justificativa": "Camaridium carinatum apresenta rizoma alongado, por vezes pendente, e pseudobulbos próximos entre si, exigindo espaço para crescer e raízes bem ventiladas. Em recipiente aberto, a casca de pinus oferece apoio, os chips de coco preparados ajudam a evitar secagem brusca e a perlita e o carvão mantêm a mistura drenante. Observe a secagem e ajuste as regas sem compactar o substrato.",
+    "receitaTexto": "Mistura para cultivo em recipiente: 35% casca de pinus + 25% chips de coco grossos + 25% perlita grossa + 15% carvão vegetal. Ajustar à granulometria, umidade e secagem observadas.",
     "perfil": [
         "Rizoma superficial",
         "Crescimento lateral",
