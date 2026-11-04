@@ -8,9 +8,9 @@ export const miltoniaSpectabilisVarMoreliana = {
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "caracteristicas": [
-        "Espécie plena anteriormente tratada como variedade",
-        "Flor grande roxo-vinho",
-        "Labelo amplo com veios radiantes",
+        "Espécie aceita; nome histórico como variedade",
+        "Flor geralmente solitária, roxo-vinho",
+        "Labelo amplo com nervuras escuras",
         "Rizoma levemente expansivo",
         "Raízes capilares delicadas"
     ],
@@ -20,7 +20,7 @@ export const miltoniaSpectabilisVarMoreliana = {
         "imagens/Miltonia moreliana/Miltonia moreliana3.jpg",
         "imagens/Miltonia moreliana/Miltonia moreliana4.jpg"
     ],
-    "descricao": "Uma das Miltonia brasileiras de coloração mais intensa! Suas flores grandes combinam pétalas e sépalas roxo-vinho com um amplo labelo rosa-púrpura marcado por veios escuros, criando um contraste impressionante. Hoje é reconhecida como Miltonia moreliana, espécie própria, e não apenas como uma variedade de M. spectabilis. Nativa do leste do Brasil, da Bahia a São Paulo, aprecia boa luminosidade filtrada, raízes arejadas e umidade regular, adaptando-se bem ao calor quando há ventilação.",
+    "descricao": "Miltonia moreliana é uma orquídea brasileira de flores exuberantes, conhecida durante muito tempo como Miltonia spectabilis var. moreliana. Seus pseudobulbos ovais e comprimidos sustentam duas folhas verdes e delicadas. Cada haste costuma exibir uma flor grande, com sépalas e pétalas roxo-vinho e labelo amplo, rosado a púrpura, marcado por nervuras mais escuras. Algumas flores apresentam fragrância suave, descrita como rosada ou condimentada. É uma epífita de florestas do leste brasileiro, em ambientes de baixa e média altitude. O contraste das cores e a elegância das flores fizeram dela uma espécie apreciada por colecionadores e melhoristas.",
     "origem": "Brasil",
     "regiao": "Bahia a São Paulo",
     "habitat": "Mata Atlântica · epífita.",
@@ -52,7 +52,7 @@ export const miltoniaSpectabilisVarMoreliana = {
         titulo: "Substrato ideal",
         contexto: "Mistura aerada para vaso raso tipo cuia",
         resumo: "Umidade regular, granulometria média e excelente drenagem para raízes delicadas, sem compactação ou saturação prolongada.",
-        justificativa: "A receita principal para vaso raso tipo cuia combina pinus médio, chips de coco pequenos preparados, perlita com granulometria compatível com as raízes e carvão vegetal. As duas alternativas qualitativas são composições distintas e não equivalem à receita principal. O rizoma expansivo requer espaço lateral e as raízes capilares exigem partículas proporcionais ao vaso, sem presumir que perlita grossa seja sempre adequada. Manter umidade regular e aeração sem saturação. MACS 1.1: percentuais provisórios sem homologação quantitativa específica",
+        justificativa: "A receita principal para vaso raso tipo cuia combina pinus médio, chips de coco pequenos preparados, perlita com granulometria compatível com as raízes e carvão vegetal. Orquidário 4 Estações recomenda musgo novo em vaso plástico e Orquidário Thomes aceita substratos variados com boa aeração; nenhuma das fontes testa os percentuais desta mistura. As duas alternativas qualitativas são composições distintas e não equivalem à receita principal. O rizoma expansivo requer espaço lateral e as raízes capilares exigem partículas proporcionais ao vaso, sem presumir que perlita grossa seja sempre adequada. Manter umidade regular e aeração sem saturação. MACS 1.1: percentuais provisórios sem homologação quantitativa específica",
         receitaTexto: "35% casca de pinus média + 30% chips de coco pequenos preparados + 25% perlita de granulometria compatível com as raízes + 10% carvão vegetal.",
         perfil: ["Epífita simpodial", "Rizoma expansivo", "Raízes capilares", "Vaso raso", "Umidade regular"],
         comportamento: [
@@ -65,21 +65,21 @@ export const miltoniaSpectabilisVarMoreliana = {
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta as raízes sem formar massa compacta." },
             { asset: "chips-coco", nome: "Chips de coco pequenos preparados", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a manter umidade regular durante a formação dos brotos." },
             { asset: "perlita", nome: "Perlita de granulometria adequada", proporcao: "25%", nota: "aeração", finalidade: "Favorece a drenagem e a oxigenação das raízes capilares." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para a estrutura aberta do substrato." }
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para a estrutura aberta do substrato." }
         ],
         alerta: "Evitar vasos fundos, substrato compacto, sombra excessiva e adubação concentrada. Deixar espaço para a frente de crescimento e preservar vários pseudobulbos ao dividir a touceira.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Miltonia moreliana (arquivo histórico miltonia-spectabilis-var-moreliana), epífita de rizoma expansivo e raízes capilares, pede vaso raso e largo, umidade regular sem saturação. Suportes plástico vasado 5 estrelas, barro e cachepô madeira 4, placa/tronco 3; notas não homologadas. Receita visual 35% pinus médio + 30% chips coco + 25% perlita grossa + 10% carvão = 100%; receitaTexto e itens concordam. Receita principal textual e visual coincidem; duas alternativas qualitativas distintas são apresentadas separadamente. Validar retenção e granulometria para raízes capilares em cuia ventilada; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Miltonia moreliana (arquivo histórico miltonia-spectabilis-var-moreliana), epífita de rizoma expansivo e raízes capilares, pede vaso raso e largo, umidade regular sem saturação. Suportes plástico vasado 5 estrelas, barro e cachepô madeira 4, placa/tronco 3; notas não homologadas. Receita visual 35% pinus médio + 30% chips coco + 25% perlita de granulometria adequada + 10% carvão = 100%; receitaTexto e itens concordam. Receita principal textual e visual coincidem; duas alternativas qualitativas distintas são apresentadas separadamente. Validar retenção e granulometria para raízes capilares em cuia ventilada; meta até 25 produtores brasileiros específicos não atingida. POWO aceita Miltonia moreliana A.Rich. (1848), com Miltonia spectabilis var. moreliana como sinônimo homotípico; não confundir com Miltonia spectabilis, também aceita. IOSPE registra pseudobulbos bifoliados, inflorescência geralmente uniflora e flores de cerca de 5 cm; publicação acadêmica argentina cita flores de 7–9 cm, indicando variação de dimensões. Orquidário 4 Estações recomenda musgo novo em vaso plástico, e Orquidário Thomes menciona substratos variados com boa drenagem, ambos qualitativos. Experimentos brasileiros de substratos com Miltonia clowesii e híbridos de M. regnellii não comprovam a receita desta espécie. Dois produtores brasileiros específicos qualitativos e zero receitas quantitativas confirmadas nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     "errosComuns": "❌ Vaso fundo e substrato compacto: destroem rapidamente as raízes capilares.\n❌ Falta de água no broto: causa folhas sanfonadas.\n❌ Sombra excessiva: reduz ou elimina a floração.\n❌ Fertilizante concentrado: queima pontas radiculares.\n❌ Divisão em brotos isolados: reduz reservas e exige longo período de recuperação.\n❌ Deixar a frente de crescimento sem espaço: faz novos brotos escaparem do recipiente antes de enraizar.",
     "dica": "Use um recipiente mais largo que profundo e posicione os pseudobulbos antigos próximos à borda, deixando a frente ativa voltada para o espaço livre. Durante a expansão do broto, mantenha água constante, mas não saturação. Folhas sanfonadas são um registro de estresse passado; investigue raízes antes de corrigir a rega. Replante apenas quando novas pontas radiculares aparecerem, preserve vários pseudobulbos maduros e faça flushing mensal para proteger o sistema radicular delicado.",
     revisaoCientificaIAR: {
         "nome": "Miltonia moreliana",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma das Miltonia brasileiras de coloração mais intensa! Suas flores grandes combinam pétalas e sépalas roxo-vinho com um amplo labelo rosa-púrpura marcado por veios escuros, criando um contraste impressionante. Hoje é reconhecida como Miltonia moreliana, espécie própria, e não apenas como uma variedade de M. spectabilis. Nativa do leste do Brasil, da Bahia a São Paulo, aprecia ",
+        "statusTaxonomico": "Miltonia moreliana A.Rich. (1848), espécie aceita em POWO; Miltonia spectabilis var. moreliana (1851) é sinônimo homotípico.",
+        "sinonimosPrincipais": "Miltonia spectabilis var. moreliana (homotípico); Miltonia rosea, Miltonia warneri e Miltonia spectabilis var. atrorubens (heterotípicos). Miltonia spectabilis é outra espécie aceita.",
+        "morfologiaDimensoes": "Epífita com pseudobulbos ovais, comprimidos, bifoliados; haste basal geralmente uniflora; flores roxo-vinho com labelo amplo e nervuras escuras, cerca de 5 cm no IOSPE e 7–9 cm em outra fonte, conforme material observado.",
         "habitatAltitudeClima": "Mata Atlântica · epífita. | Intermediário a quente · ventilado.",
         "distribuicaoGeografica": "Bahia a São Paulo.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "cultivoPremiacao": "Orquidário 4 Estações recomenda musgo novo em vaso plástico; Orquidário Thomes aceita substratos diversos bem drenados. Ensaios de outras Miltonia e híbridos não validam percentuais desta espécie.",
         "confianca": "alta",
         "fontes": [
             "POWO/Kew",
