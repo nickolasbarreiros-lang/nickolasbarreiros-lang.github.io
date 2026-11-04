@@ -6,7 +6,7 @@ export const aciantheraTeres = {
   "tipo": "Espécie botânica",
   "dificuldade": "Moderada",
   "fotos": [
-    "https://www.orchidspecies.com/orphotdir/pleurotteres.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/3/3f/Acianthera_teres_02.jpg",
     "https://acdn-us.mitiendanube.com/stores/002/752/705/products/fb_img_16932753868851-5df709cb99a7e5922a16932770003337-1024-1024.webp",
     "https://acdn-us.mitiendanube.com/stores/002/752/705/products/20230828_1611351-f2aca0a1c9f86a160a16932770008071-1024-1024.webp",
     "https://i.ytimg.com/vi/_ZDPqOCOaHI/sddefault.jpg"
