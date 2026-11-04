@@ -90,7 +90,7 @@ export const aeridesOdorata = {
         "nome": "Aerides odorata",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Aerides odorata é uma elegante orquídea asiática que combina folhagem robusta com cachos pendentes de flores delicadas e intensamente perfumadas. Suas folhas são espessas e coriáceas, enquanto as inflorescências surgem carregadas de numerosas flores claras, geralmente brancas a rosadas, com detalhes púrpura. O perfume é uma de suas grandes atrações e combina perfeitamente com o",
+        "morfologiaDimensoes": "Aerides odorata é uma elegante orquídea asiática que combina folhagem robusta com cachos pendentes de flores delicadas e intensamente perfumadas. Suas folhas são espessas e coriáceas, enquanto as inflorescências surgem carregadas de numerosas flores claras, geralmente brancas a rosadas, com detalhes púrpura.",
         "habitatAltitudeClima": "Epífita de florestas tropicais úmidas, com raízes expostas. | Quente a intermediário, úmido e muito ventilado.",
         "distribuicaoGeografica": "Himalaia, sul da China, Sudeste Asiático e Malesia.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
