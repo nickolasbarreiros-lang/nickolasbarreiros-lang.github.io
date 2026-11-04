@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 143 — Dendrobium spectabile
-Data: 2026-11-04. **EM ANDAMENTO**. Não avançar à matriz 144 até encerramento técnico.
+Data: 2026-11-04. **ENCERRADA TECNICAMENTE — classe científica D, sem homologação quantitativa.**
 
 ## Evidência e cultivo
 Dendrobium spectabile, epífita tropical robusta de porte médio a grande: suporte estável, raízes ventiladas, água regular no crescimento ativo e sem repouso seco severo. Cachepô de Madeira robusto e vazado é suporte principal proposto, sem comparação experimental específica.
@@ -16,4 +16,7 @@ Quatro fotos confirmadas em imagens/Dendrobium spectabile/ (uma WEBP, três JPG)
 ## Classificação científica
 **D — NÃO HOMOLOGADA quantitativamente.** Sem ensaio comparativo específico nem amostra documentada de 25 produtores brasileiros independentes; percentuais são proposta horticultural provisória.
 
-Pendente teste Chromium desktop/mobile, capturas e encerramento técnico.
+Teste Chromium desktop/mobile aprovado, capturas confirmadas e encerramento técnico registrado.
+
+## Encerramento — 2026-11-04
+Execução Chromium/Playwright [41846639406](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41846639406): **completed/success**, incluindo inspeção no navegador e upload de capturas. Artefato **13332062174**, `macs-143-inspecao-visual` (449778 bytes). Principal soma 100%; duas alternativas qualitativas sem percentuais; perlita preservada, argila e brita somente em alternativas distintas; estrelas dos suportes omitidas; quatro fotos e oito assets presentes. IDC 3.2 e IAR 2.0 preservados. **Classe D — NÃO HOMOLOGADA quantitativamente**, sem ensaios comparativos específicos nem amostra documentada de 25 produtores independentes. Sem pendências técnicas detectadas pelo teste; matriz 144 liberada.
