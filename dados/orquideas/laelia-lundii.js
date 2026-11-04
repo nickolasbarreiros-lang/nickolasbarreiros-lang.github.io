@@ -9,7 +9,7 @@ export const laeliaLundii = {
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: [
-        "Miniatura epífita ou rupícola",
+        "Miniatura predominantemente epífita",
         "Duas folhas estreitas por pseudobulbo",
         "Flores perfumadas de 3–4 cm",
         "Cultivo montado favorecido"
@@ -20,10 +20,10 @@ export const laeliaLundii = {
         "imagens/Cattleya lundii/Cattleya lundii3.webp",
         "imagens/Cattleya lundii/Cattleya lundii4.jpg"
     ],
-    descricao: "Pequena no tamanho, mas cheia de personalidade! Cattleya lundii forma touceiras compactas de pseudobulbos curtos, cada um normalmente com duas folhas estreitas e quase cilíndricas. Suas flores, de cerca de 3 a 4 cm, aparecem entre as folhas em tons claros de branco a creme, com o labelo marcado por rosa, magenta ou púrpura e perfume floral delicado. Na natureza cresce tanto sobre árvores quanto em rochas, o que ajuda a explicar sua preferência por raízes muito arejadas, boa luz e secagem rápida entre as regas.",
+    descricao: "Cattleya lundii é uma pequena orquídea de pseudobulbos ovoides e duas folhas estreitas, quase cilíndricas, que dão às touceiras um aspecto delicado. As inflorescências curtas surgem junto aos novos crescimentos e costumam carregar de uma a três flores brancas, com veios púrpura no labelo. Apesar do porte reduzido, a espécie chama atenção pelo contraste entre as folhas finas e as flores relativamente grandes. Ocorre em ambientes florestais e formações sazonais da América do Sul, frequentemente sobre árvores. O nome Laelia lundii ainda aparece em coleções, mas Cattleya lundii é o nome aceito atualmente.",
     origem: "América do Sul",
     regiao: "Brasil, Bolívia, Paraguai e N da Argentina",
-    habitat: "Matas sazonais/montanas · 740–1.000 m.",
+    habitat: "Cerrado e florestas sazonais · epífita; altitude variável.",
     clima: "Quente a intermediário · bem ventilado.",
     climaFloracao: "A floração melhora quando os novos pseudobulbos amadurecem sob luz alta filtrada, boa circulação de ar e raízes ativas. O habitat sazonal justifica uma redução natural da água quando o crescimento desacelera, mas não um repouso seco rígido. Em litoral quente, a prioridade é evitar raízes abafadas e noites excessivamente quentes e úmidas; touceiras adultas e pouco divididas acumulam mais reservas e tendem a florir com maior regularidade.",
     iluminacao: {
@@ -32,7 +32,7 @@ export const laeliaLundii = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Precisa de mais luz que muitas miniaturas. Busque folhas firmes, crescimento compacto e pseudobulbos bem formados. Folhas muito escuras e alongamento sugerem sombra excessiva; tecido amarelado ou queimado indica radiação e calor acima do ideal."
     },
-    floracao: "Do meio do inverno à primavera, com maior ocorrência entre julho e outubro. As inflorescências são curtas e normalmente carregam duas flores perfumadas de aproximadamente 3–4 cm, posicionadas entre as folhas.",
+    floracao: "Principalmente na primavera segundo a Flora do Brasil 2020; a época exata varia conforme a procedência e o cultivo. Inflorescências curtas com uma a três flores, geralmente brancas e com veios púrpura no labelo.",
     adubacao: "🌿 Orgânica: bokashi é opcional; se usado, aplique quantidade mínima em sachê e sem contato direto com rizoma ou raízes novas.\n💧 Foliar/Mineral: NPK equilibrado, como 20-20-20, em 1/4 da dose a cada 10–15 dias durante brotação e enraizamento.\n🌱 Maturação: mantenha nutrição leve até o pseudobulbo completar o crescimento e reduza quando a atividade diminuir.\n🧪 Liberação lenta: pouquíssimos grânulos apenas em vaso ou cachepô muito drenante; em plantas montadas, é dispensável.\n🚿 Faça regas periódicas somente com água para evitar acúmulo de sais.",
     rega: "Durante brotação e emissão de raízes, molhe bem e permita secagem rápida. Em montagem, uma planta ativa no verão pode exigir rega diária ou quase diária, desde que as raízes não permaneçam molhadas por longos períodos. Quando o crescimento diminuir, aumente o intervalo entre irrigações. O inverno naturalmente mais seco deve ser reproduzido como redução, não como desidratação prolongada.",
     suporte: "🥇 Placa de cortiça ou madeira dura.\n🥈 Galho natural rugoso, permitindo expansão da touceira.\n🥉 Cachepô ou cestinho pequeno e muito vazado.\nVaso de barro pequeno também funciona quando preenchido com material grosseiro e muito aerado.",
@@ -52,7 +52,7 @@ export const laeliaLundii = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para cesto ou vaso pequeno",
         resumo: "Mistura grosseira e ventilada, com retenção moderada e secagem perceptível entre regas.",
-        justificativa: "A montagem em placa ou tronco permanece o suporte principal, sem necessidade de preencher o suporte com mistura volumétrica. A receita principal de 35% macadâmia, 30% pinus, 20% perlita e 15% carvão destina-se exclusivamente a cesto ou vaso pequeno e coincide com os itens visuais. As duas alternativas qualitativas são distintas e não devem ser confundidas com a receita principal. MACS 1.1: proporções provisórias sem homologação quantitativa específica",
+        justificativa: "A montagem em placa ou tronco permanece o suporte principal, sem necessidade de preencher o suporte com mistura volumétrica. A receita principal de 35% macadâmia, 30% pinus, 20% perlita e 15% carvão destina-se exclusivamente a cesto ou vaso pequeno e coincide com os itens visuais. Basso e Faria (2002), citados por Colombo et al. (2005) e Sorace (2008), obtiveram bons resultados com esfagno + fibra de coco na espécie, mas não há proporções verificadas nessa referência secundária; a mistura visual atual não foi testada por eles. As duas alternativas qualitativas são distintas e não devem ser confundidas com a receita principal. MACS 1.1: proporções provisórias sem homologação quantitativa específica",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Miniatura bifoliada", "Epífita ou rupícola", "Raízes muito arejadas", "Secagem rápida", "Touceira compacta"],
         comportamento: [
@@ -65,21 +65,21 @@ export const laeliaLundii = {
             { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece apoio radicular sem compactação." },
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "apoio e umidade", finalidade: "Favorece enraizamento e umidade moderada." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Amplia espaços de ar e drenagem." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta." }
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta." }
         ],
         alerta: "Evitar vaso grande, esfagno compactado, sombra excessiva, repouso seco prolongado e divisão frequente de touceiras pequenas. Fixar a planta firmemente.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Cattleya lundii (sin. Laelia lundii), miniatura epífita ou rupícola, com raízes que exigem alta aeração e secagem rápida. Suportes placa/tronco 5 estrelas, cachepô madeira e vaso barro 4, árvore viva 3; ranking horticultural sem validação comparativa específica. Receita visual para cesto/vaso 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem; as duas alternativas qualitativas são diferentes e não equivalentes à principal. Montagem em placa é o cultivo principal; mistura visual é alternativa para recipiente, não substrato aplicado à placa. Meta de até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Cattleya lundii (sin. Laelia lundii), miniatura epífita ou rupícola, com raízes que exigem alta aeração e secagem rápida. Suportes placa/tronco 5 estrelas, cachepô madeira e vaso barro 4, árvore viva 3; ranking horticultural sem validação comparativa específica. Receita visual para cesto/vaso 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem; as duas alternativas qualitativas são diferentes e não equivalentes à principal. Montagem em placa é o cultivo principal; mistura visual é alternativa para recipiente, não substrato aplicado à placa. Há evidência de pesquisa específica de Basso e Faria (2002) sobre esfagno + fibra de coco, citada em Colombo et al. (2005) e Sorace (2008), sem proporções verificadas; os trabalhos de Colombo et al. (2004) e Unemoto et al. (2007) com Laelia lundii são in vitro, não validam mistura para vaso. Flora do Brasil 2020 registra hábito epífito, 1–3 flores e floração primaveril, com ocorrência brasileira em Centro-Oeste, Sudeste e Sul; POWO aceita distribuição mais ampla até Bolívia, Paraguai e Argentina. Nenhum produtor brasileiro com receita quantitativa específica verificado nesta passagem; meta de 25 não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: "Usar vaso grande e profundo; manter esfagno compactado; cultivar com pouca luz; confundir cultivo montado com pouca necessidade de água; impor repouso seco excessivo; manter raízes encharcadas em períodos frios ou chuvosos; dividir touceiras pequenas; deixar a planta frouxa no suporte; fertilizar em excesso.",
     dica: "Deixe a planta conquistar o suporte e formar uma touceira. Cattleya lundii responde melhor quando não é constantemente removida ou dividida: várias frentes pequenas juntas criam mais raízes, reservas e pontos de floração. Em litoral quente, ventilação e secagem rápida valem mais que simplesmente reduzir água.",
     revisaoCientificaIAR: {
         "nome": "Cattleya lundii",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Pequena no tamanho, mas cheia de personalidade! Cattleya lundii forma touceiras compactas de pseudobulbos curtos, cada um normalmente com duas folhas estreitas e quase cilíndricas. Suas flores, de cerca de 3 a 4 cm, aparecem entre as folhas em tons claros de branco a creme, com o labelo marcado por rosa, magenta ou púrpura e perfume floral delicado. Na natureza cresce tanto sob",
-        "habitatAltitudeClima": "Matas sazonais/montanas · 740–1.000 m. | Quente a intermediário · bem ventilado.",
+        "statusTaxonomico": "Cattleya lundii aceita em POWO; Laelia lundii é sinônimo homotípico.",
+        "sinonimosPrincipais": "Laelia lundii; Microlaelia lundii; Sophronitis lundii; Bletia lundii.",
+        "morfologiaDimensoes": "Pseudobulbos ovoides de até 5 cm, bifoliados; folhas estreitas canaliculadas, flores brancas (1–3) com labelo de veios púrpura, segundo Flora do Brasil 2020.",
+        "habitatAltitudeClima": "Epífita em Cerrado, floresta ciliar e floresta estacional semidecidual; clima sazonal. Altitude não universalizada.",
         "distribuicaoGeografica": "Brasil, Bolívia, Paraguai e N da Argentina.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "cultivoPremiacao": "Basso e Faria (2002), citados em pesquisas brasileiras, relatam bons resultados com esfagno e fibra de coco; proporção não verificada. Não há premiação AOS específica comprovada.",
         "confianca": "alta",
         "fontes": [
             "POWO/Kew",
@@ -212,7 +212,7 @@ export const laeliaLundii = {
         litoralQuente: { texto: "Quando montada no ponto mais ventilado e luminoso do orquidário. No verão, regue conforme a secagem real; no inverno, reduza apenas se atividade e evaporação diminuírem. Evite abafamento noturno e substrato úmido por muitos dias." },
         montanhaFrio: { texto: "Adapta-se muito bem às noites frescas. Mantenha boa luz e diminua as regas em períodos frios e úmidos, protegendo contra geadas e chuva fria prolongada." }
     },
-    mesesFloracao: [7, 8, 9, 10],
+    mesesFloracao: [9, 10, 11, 12],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
