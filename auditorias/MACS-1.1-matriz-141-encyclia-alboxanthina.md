@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 141 — Encyclia alboxanthina
-Data: 2026-11-04. **EM ANDAMENTO**. Não avançar à matriz 142 até encerramento técnico.
+Data: 2026-11-04. **ENCERRADA TECNICAMENTE — classe científica D, sem homologação quantitativa.**
 
 ## Evidência e cultivo
 Encyclia alboxanthina: epífita, ocasionalmente rupícola, de ambientes claros e sazonalmente secos. Alta aeração, secagem perceptível entre regas, luminosidade filtrada elevada e ausência de repouso seco prolongado. Cachepô de Madeira bem vazado é suporte principal proposto, sem ensaio comparativo específico.
@@ -16,4 +16,7 @@ Quatro fotos confirmadas em imagens/Encyclia alboxanthina/ (uma WEBP e três JPG
 ## Classificação científica
 **D — NÃO HOMOLOGADA quantitativamente.** Sem ensaio comparativo específico nem amostra documentada de 25 produtores brasileiros independentes; percentuais são proposta horticultural provisória.
 
-Pendente teste Chromium desktop/mobile, capturas e encerramento técnico.
+Teste Chromium desktop/mobile aprovado, capturas confirmadas e encerramento técnico registrado.
+
+## Encerramento — 2026-11-04
+Execução Chromium/Playwright [41845014296](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41845014296): **completed/success**, incluindo inspeção no navegador e upload de capturas. Artefato **13331850049**, `macs-141-inspecao-visual` (439170 bytes). Principal soma 100%; duas alternativas qualitativas sem percentuais; perlita preservada, argila somente como componente da segunda alternativa; estrelas dos suportes omitidas; quatro fotos e oito assets presentes. IDC 3.2 e IAR 2.0 preservados. **Classe D — NÃO HOMOLOGADA quantitativamente**, sem ensaios comparativos específicos nem amostra documentada de 25 produtores independentes. Sem pendências técnicas detectadas pelo teste; matriz 142 liberada.
