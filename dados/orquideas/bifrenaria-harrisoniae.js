@@ -9,7 +9,8 @@ export const bifrenariaHarrisoniae = {
     caracteristicas: [
         "Brasileira",
         "Epífita ou rupícola",
-        "Flores grandes e cerosas",
+        "Flores grandes, geralmente uma ou duas por haste",
+        "Pseudobulbos unifoliados, sulcados",
         "Perfumada",
     ],
     fotos: [
@@ -18,7 +19,7 @@ export const bifrenariaHarrisoniae = {
         "imagens/Bifrenaria harrisoniae/Bifrenaria harrisoniae3.jpg",
         "imagens/Bifrenaria harrisoniae/Bifrenaria harrisoniae4.jpg",
     ],
-    descricao: "A Bifrenaria harrisoniae é uma orquídea brasileira de porte médio a grande, conhecida pelos pseudobulbos robustos e pelas flores grandes, claras e perfumadas. Na natureza pode crescer sobre árvores ou rochas, característica que ajuda a explicar sua preferência por raízes muito arejadas. Sua floração chama atenção pelo labelo rosado a arroxeado, que contrasta fortemente com as pétalas claras.",
+    descricao: "Bifrenaria harrisoniae é uma orquídea brasileira de porte médio, com pseudobulbos robustos, angulosos e sulcados, cada um sustentando uma única folha longa e pregueada. Suas hastes florais curtas nascem na base dos crescimentos recentes e geralmente apresentam uma ou duas flores grandes, de aproximadamente sete a oito centímetros. Sépalas e pétalas claras emolduram um labelo aveludado, rosado a púrpura, que destaca o conjunto. As flores exalam perfume adocicado, por vezes lembrando frutas ou mel, especialmente à tarde. Na natureza, a espécie habita árvores e afloramentos rochosos de florestas úmidas, formando touceiras entre fendas e superfícies expostas.",
     origem: "Brasil — regiões Sudeste e Sul",
     regiao: "Regiões Sudeste e Sul, associada à Mata Atlântica, serras costeiras e ambientes rochosos.",
     habitat: "Epífita ou rupícola de florestas úmidas, encostas rochosas e paredões claros e ventilados. Ocorre em ampla variação altitudinal, com registros típicos em cotas médias e também populações rupícolas mais elevadas.",
@@ -26,8 +27,8 @@ export const bifrenariaHarrisoniae = {
     climaFloracao: "A floração depende de pseudobulbos completamente maduros, alta luminosidade filtrada, raízes bem ventiladas e leve redução da frequência de rega após o crescimento. Não necessita de repouso seco rigoroso; a planta deve permanecer hidratada sem substrato constantemente molhado.",
     iluminacao: {
         sombrite: "40% a 50%",
-        solDireto: "Sim, suave e com aclimatação",
-        horario: "Primeiras horas da manhã",
+        solDireto: "Permitido com restrição",
+        horario: "Somente início da manhã",
         observacoes: "Necessita luminosidade alta. Folhas muito escuras e pseudobulbos alongados sugerem excesso de sombra; uma leve pigmentação avermelhada pode ser normal, enquanto manchas secas e amareladas indicam queimadura."
     },
     floracao: "Floresce principalmente do final da primavera ao verão, com referência prática entre novembro e fevereiro.",
@@ -42,7 +43,7 @@ export const bifrenariaHarrisoniae = {
             { nome: "Cachepô de Madeira", asset: "bifrenaria-harrisoniae-cesto", estrelas: 5, status: "Ideal", texto: "É a combinação mais segura entre sustentação da touceira, drenagem rápida e ventilação intensa das raízes, especialmente em clima quente e úmido." },
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Boa estabilidade e troca gasosa, com secagem mais rápida da mistura e menor risco de umidade persistente junto aos pseudobulbos." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "As aberturas laterais favorecem forte circulação de ar e drenagem; exige acompanhamento da secagem no período quente." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Muito recomendado", texto: "Compatível com o hábito epífito e proporciona excelente oxigenação, mas requer regas mais frequentes porque praticamente não existe reserva hídrica." }
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Muito recomendado", texto: "Compatível com o hábito epífito e proporciona excelente oxigenação, mas requer regas mais frequentes porque o suporte praticamente não retém água, embora os pseudobulbos armazenem reservas." }
         ]
     },
     substrato: ["Brita pequena/média + casca de macadâmia média + carvão vegetal médio","Brita pequena/média + casca de pinus média + carvão vegetal médio"],
@@ -50,9 +51,9 @@ export const bifrenariaHarrisoniae = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em cesto ou vaso",
         resumo: "Mistura de altíssima aeração e drenagem, com baixa retenção e estrutura durável.",
-        justificativa: "A receita principal proposta para cesto ou vaso bem perfurado combina brita pequena/média, macadâmia média, carvão vegetal médio e pinus médio; os quatro percentuais somam 100% e correspondem aos itens visuais. A brita favorece drenagem e estabilidade, mas seus 35% podem elevar o peso do recipiente; a secagem deve ser observada conforme o clima e a ventilação. As duas misturas adicionais são alternativas qualitativas distintas, sem proporções homologadas. MACS 1.1: hipótese horticultural sem homologação quantitativa específica para a espécie.",
+        justificativa: "A receita principal proposta para cesto ou vaso bem perfurado combina brita pequena/média, macadâmia média, carvão vegetal médio e pinus médio; não foi localizado ensaio específico que compare esta composição com outras receitas para a espécie; os quatro percentuais somam 100% e correspondem aos itens visuais. A brita favorece drenagem e estabilidade, mas seus 35% podem elevar o peso do recipiente; a secagem deve ser observada conforme o clima e a ventilação. As duas misturas adicionais são alternativas qualitativas distintas, sem proporções homologadas. MACS 1.1: hipótese horticultural sem homologação quantitativa específica para a espécie.",
         receitaTexto: "35% brita pequena/média + 30% casca de macadâmia média + 20% carvão vegetal médio + 15% casca de pinus média. Composição técnica provisória para recipiente, sem esfagno; ajustar a rega à secagem observada.",
-        perfil: ["Raízes finas a médias", "Aeração máxima", "Baixa retenção", "Secagem muito rápida", "Alta estabilidade", "Baixa compactação"],
+        perfil: ["Raízes médias a robustas", "Aeração máxima", "Baixa retenção", "Secagem muito rápida", "Alta estabilidade", "Baixa compactação"],
         itens: [
             { asset: "brita-pura", nome: "Brita pequena/média", proporcao: "35%", nota: "drenagem + macroporos", finalidade: "Forma a base mineral da mistura e mantém drenagem muito rápida, oxigenação intensa e estabilidade estrutural." },
             { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "30%", nota: "estrutura + durabilidade", finalidade: "Mantém grandes espaços de ar e fornece uma fração orgânica estrutural de degradação lenta." },
@@ -66,12 +67,12 @@ export const bifrenariaHarrisoniae = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         alerta: "Não mantenha as raízes permanentemente molhadas. Regue abundantemente durante o crescimento ativo e permita secagem clara entre regas. Em cestos muito ventilados, ajuste a frequência de rega sem recorrer a materiais excessivamente retentivos.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Bifrenaria harrisoniae, epífita/rupícola de pseudobulbos robustos, requer drenagem forte, secagem entre regas e raízes ventiladas. Suportes cachepô madeira 5 estrelas, barro, plástico vasado e placa/tronco 4; estrelas NÃO HOMOLOGADAS. Receita visual 35% brita pequena/média + 30% macadâmia média + 20% carvão médio + 15% pinus médio = 100%; receitaTexto e itens concordam, sem esfagno conforme regra Bifrenaria. A receita principal visual coincide com a textual; mantidas apenas duas alternativas qualitativas distintas, sem a terceira mistura com arroz carbonizado. Justificativa técnica coerente como hipótese, não evidência de proporções homologadas. Validar efeito de 35% brita no peso/estabilidade, retenção de 15% pinus e secagem conforme recipiente; meta até 25 produtores brasileiros específicos não atingida. Percentuais NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Bifrenaria harrisoniae, epífita/rupícola de pseudobulbos robustos, requer drenagem forte, secagem entre regas e raízes ventiladas. Suportes cachepô madeira 5 estrelas, barro, plástico vasado e placa/tronco 4; estrelas NÃO HOMOLOGADAS. Receita visual 35% brita pequena/média + 30% macadâmia média + 20% carvão médio + 15% pinus médio = 100%; receitaTexto e itens concordam, sem esfagno conforme regra Bifrenaria. A receita principal visual coincide com a textual; mantidas apenas duas alternativas qualitativas distintas, sem a terceira mistura com arroz carbonizado. Justificativa técnica coerente como hipótese, não evidência de proporções homologadas. Validar efeito de 35% brita no peso/estabilidade, retenção de 15% pinus e secagem conforme recipiente; não foram verificadas nesta passagem receitas quantitativas específicas de produtores brasileiros, e a meta de até 25 produtores não foi atingida. POWO aceita a espécie e registra ocorrência no Sudeste e Sul do Brasil; Smithsonian confirma pseudobulbos unifoliados, flores brancas com labelo púrpura, até duas por haste e 7–8 cm. Percentuais NÃO HOMOLOGADOS."
     },
     errosComuns: "Cultivar em sombra excessiva; usar vaso muito maior que a massa radicular; manter o substrato constantemente molhado; empregar misturas finas ou compactadas; reduzir as regas antes da maturação dos pseudobulbos; replantar sem início de novas raízes; impor repouso seco severo; suspender nutrientes de forma abrupta enquanto ainda houver crescimento ativo.",
     dica: "Priorize cesto ou recipiente proporcional, estável e de secagem previsível. O ponto decisivo é evitar excesso de substrato úmido ao redor das raízes. Combine alta luminosidade filtrada, drenagem excelente, estabilidade radicular e preservação de touceiras adultas.",
     adaptacaoRegional: {
-        litoralQuente: "Prefira cesto de madeira, vaso de barro ou vaso plástico vasado, sempre com forte circulação de ar, 40% a 50% de sombra e regas matinais. Em Serra/ES, evite calor abafado e mantenha a mistura de secagem rápida sem impor seca prolongada.",
+        litoralQuente: "Prefira cesto de madeira, vaso de barro ou vaso plástico vasado, sempre com forte circulação de ar, 40% a 50% de sombra e regas matinais. Evite calor abafado e mantenha a mistura de secagem rápida sem impor seca prolongada.",
         montanhaFrio: "A queda natural da temperatura noturna favorece a floração. Proteja de geadas e evite que o substrato permaneça frio e encharcado por vários dias."
     },
     mesesFloracao: [11, 12, 1, 2],
