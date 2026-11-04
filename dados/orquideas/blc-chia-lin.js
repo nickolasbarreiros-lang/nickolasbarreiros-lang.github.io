@@ -75,8 +75,8 @@ export const blcChiaLin = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "Rhyncholaeliocattleya Chia Lin é híbrido horticultural vigoroso de raízes epífitas. A mistura principal para vaso de barro firme combina macadâmia média, pinus médio/grosso, brita pequena/média e carvão vegetal médio, somando 100%. Os quatro itens visuais representam esta receita, enquanto as duas outras misturas são alternativas volumétricas editoriais distintas, sem percentuais publicados para o grex. Monitorar a secagem real, manter o vaso proporcional à touceira e evitar compactação. MACS 1.1: proposta horticultural provisória sem ensaio quantitativo específico para o grex.",
-    "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média/grossa + 20% brita pequena/média + 15% carvão vegetal médio (proposta não homologada).",
+    "justificativa": "Rhyncholaeliocattleya Chia Lin é um híbrido vigoroso de raízes epífitas que se beneficia de vaso firme e mistura bem ventilada. As cascas de macadâmia e pinus dão apoio às raízes, enquanto a brita e o carvão favorecem a drenagem e mantêm espaços de ar. Use recipiente proporcional à touceira, evite compactação e ajuste as regas conforme a secagem observada.",
+    "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média/grossa + 20% brita pequena/média + 15% carvão vegetal médio.",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
