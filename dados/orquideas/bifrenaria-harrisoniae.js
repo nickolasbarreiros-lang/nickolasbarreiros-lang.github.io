@@ -51,8 +51,8 @@ export const bifrenariaHarrisoniae = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em cesto ou vaso",
         resumo: "Mistura de altíssima aeração e drenagem, com baixa retenção e estrutura durável.",
-        justificativa: "A receita principal proposta para cesto ou vaso bem perfurado combina brita pequena/média, macadâmia média, carvão vegetal médio e pinus médio; não foi localizado ensaio específico que compare esta composição com outras receitas para a espécie; os quatro percentuais somam 100% e correspondem aos itens visuais. A brita favorece drenagem e estabilidade, mas seus 35% podem elevar o peso do recipiente; a secagem deve ser observada conforme o clima e a ventilação. As duas misturas adicionais são alternativas qualitativas distintas, sem proporções homologadas. MACS 1.1: hipótese horticultural sem homologação quantitativa específica para a espécie.",
-        receitaTexto: "35% brita pequena/média + 30% casca de macadâmia média + 20% carvão vegetal médio + 15% casca de pinus média. Composição técnica provisória para recipiente, sem esfagno; ajustar a rega à secagem observada.",
+        justificativa: "Bifrenaria harrisoniae se beneficia de substrato aberto e de cesto ou vaso bem perfurado. A brita contribui para drenagem e estabilidade, a casca de macadâmia oferece apoio, o carvão mantém espaços de ar e o pinus conserva uma pequena reserva de umidade. Como a brita aumenta o peso do conjunto, escolha um suporte firme. Ajuste as regas conforme a secagem e a ventilação do local.",
+        receitaTexto: "35% brita pequena/média + 30% casca de macadâmia média + 20% carvão vegetal médio + 15% casca de pinus média. Mistura para recipiente, sem esfagno; ajustar a rega à secagem observada.",
         perfil: ["Raízes médias a robustas", "Aeração máxima", "Baixa retenção", "Secagem muito rápida", "Alta estabilidade", "Baixa compactação"],
         itens: [
             { asset: "brita-pura", nome: "Brita pequena/média", proporcao: "35%", nota: "drenagem + macroporos", finalidade: "Forma a base mineral da mistura e mantém drenagem muito rápida, oxigenação intensa e estabilidade estrutural." },
