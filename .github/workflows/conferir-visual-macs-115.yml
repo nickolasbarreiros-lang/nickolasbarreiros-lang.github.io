@@ -31,7 +31,7 @@ jobs:
             const entries=page.locator('.substratos-recomendados-v4 li');
             if(await entries.count()!==2)throw Error('Esperadas exatamente duas misturas');
             const texts=await entries.allTextContents();
-            if(!texts[0].includes('40% Casca de macadâmia')||!texts[1].includes('40% Casca de pinus'))throw Error('Percentuais de alternativas incorretos: '+texts.join(' | '));
+            if(!texts[0].includes('50% esfagno')||!texts[1].includes('45% casca de pinus'))throw Error('Percentuais de alternativas incorretos: '+texts.join(' | '));
             if(errors.length)throw Error('Erros JavaScript: '+errors.join(' | '));
             await section.screenshot({path:'macs-115-substrato-desktop.png'});
             await page.setViewportSize({width:390,height:844});
