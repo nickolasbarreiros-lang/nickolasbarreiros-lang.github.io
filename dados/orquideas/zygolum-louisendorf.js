@@ -98,7 +98,7 @@ export const zygolumLouisendorf = {
         "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
         "indice": 27,
-        "classificacao": "Moderada",
+        "classificacao": "Fácil",
         "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
