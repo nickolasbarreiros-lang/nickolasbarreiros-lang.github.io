@@ -82,7 +82,7 @@ export const sophronitisWittigiana = {
         "nome": "Cattleya wittigiana",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma joia das montanhas do Sudeste brasileiro! Cattleya wittigiana é uma miniatura que surpreende pelo contraste entre a planta compacta e suas flores grandes, em tons de rosa a magenta. Cresce sobre galhos cobertos de musgo em florestas serranas úmidas, onde recebe muita umidade, ar em movimento e noites mais frescas. No litoral quente ela exige atenção extra, sobretudo para ma",
+        "morfologiaDimensoes": "Uma joia das montanhas do Sudeste brasileiro! Cattleya wittigiana é uma miniatura que surpreende pelo contraste entre a planta compacta e suas flores grandes, em tons de rosa a magenta. Cresce sobre galhos cobertos de musgo em florestas serranas úmidas, onde recebe muita umidade, ar em movimento e noites mais frescas.",
         "habitatAltitudeClima": "Mata Atlântica montana · epífita · ~700–2.000 m. | Intermediário a fresco · úmido e ventilado.",
         "distribuicaoGeografica": "Serras úmidas do Sudeste brasileiro.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
