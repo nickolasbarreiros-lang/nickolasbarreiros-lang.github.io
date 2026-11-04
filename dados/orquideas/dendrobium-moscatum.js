@@ -53,7 +53,7 @@ export const dendrobiumMoscatum = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cachepô ou vaso grande com drenagem rápida",
         "resumo": "Mistura grossa e muito arejada, com retenção moderada durante o crescimento e secagem mais rápida na fase de menor atividade.",
-        "justificativa": "MACS 1.1: receita principal provisória para cachepô grande e ventilado, com pinus majoritário, macadâmia, carvão e perlita. A composição é coerente com orientações gerais da RHS e da AOS para Dendrobium, mas não há receita percentual específica documentada para D. moschatum. Percentuais por volume inferidos, não homologados.",
+        "justificativa": "Dendrobium moschatum desenvolve hastes vigorosas e precisa de suporte firme, com boa ventilação das raízes. Em cachepô grande e aberto, a casca de pinus grossa oferece estrutura, a macadâmia ajuda a manter a mistura estável e o carvão e a perlita favorecem a drenagem. Observe a secagem do centro do recipiente e ajuste as regas ao período de crescimento, evitando encharcamento prolongado.",
         "receitaTexto": "50% casca de pinus grossa + 20% casca de macadâmia grossa + 15% carvão vegetal grosso + 15% perlita grossa.",
         "perfil": ["Epífita de grande porte", "Raízes oxigenadas", "Hastes arqueadas", "Umidade na fase ativa", "Repouso moderado após maturação"],
         "comportamento": [
