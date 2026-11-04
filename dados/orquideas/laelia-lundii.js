@@ -52,7 +52,7 @@ export const laeliaLundii = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para cesto ou vaso pequeno",
         resumo: "Mistura grosseira e ventilada, com retenção moderada e secagem perceptível entre regas.",
-        justificativa: "A montagem em placa ou tronco permanece o suporte principal, sem necessidade de preencher o suporte com mistura volumétrica. A receita principal de 35% macadâmia, 30% pinus, 20% perlita e 15% carvão destina-se exclusivamente a cesto ou vaso pequeno e coincide com os itens visuais. Basso e Faria (2002), citados por Colombo et al. (2005) e Sorace (2008), obtiveram bons resultados com esfagno + fibra de coco na espécie, mas não há proporções verificadas nessa referência secundária; a mistura visual atual não foi testada por eles. As duas alternativas qualitativas são distintas e não devem ser confundidas com a receita principal. MACS 1.1: proporções provisórias sem homologação quantitativa específica",
+        justificativa: "Laelia lundii se beneficia de montagem em placa ou tronco, com raízes expostas e boa ventilação. Para cultivo em cesto ou vaso pequeno, as cascas de macadâmia e pinus oferecem apoio, enquanto a perlita e o carvão mantêm a mistura aberta. Ajuste a granulometria ao porte das raízes e observe a secagem do suporte para regular as regas, sem compactar o substrato.",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Miniatura bifoliada", "Epífita ou rupícola", "Raízes muito arejadas", "Secagem rápida", "Touceira compacta"],
         comportamento: [
