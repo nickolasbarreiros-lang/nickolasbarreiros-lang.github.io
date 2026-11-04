@@ -251,3 +251,10 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - Correto: **Stelis sclerophylla (Lindl.) Karremans**, Lankesteriana 13: 330 (2014); sinônimo homotípico **Anathallis sclerophylla (Lindl.) Pridgeon & M.W.Chase** (2001); basiônimo **Pleurothallis sclerophylla Lindl.** (1835).
 - Corrigido `revisaoCientificaIAR.sinonimosPrincipais` na ficha, preservando o nome editorial Anathallis. O erro anterior confundia a autoria do nome aceito com a do sinônimo.
 - Esta correção taxonômica não constitui homologação quantitativa da receita MACS 1.1; permanece Classe D.
+
+### Confronto adicional com registros brasileiros específicos da espécie — ficha 1 (2026-11-04)
+- Dissertação UFC (2024), levantamento florístico da Serra de Maranguape: https://repositorio.ufc.br/bitstream/riufc/76914/5/2024_dis_mmgomes.pdf — documenta *Anathallis sclerophylla* e sua sinonímia/morfologia. É **fonte botânica específica**, não teste de substratos.
+- Sinopse de Boa Nova, Hoehnea: https://www.scielo.br/j/hoehnea/a/3ny9LMzTztYwyQJJnmJQ5tL/?lang=pt — registro epífito e floração de junho.
+- SOSA: https://www.sosa.org.br/site/dicas-de-cultivo.php — orientações gerais sobre drenagem, arejamento e variação da secagem por suporte; **não específicas** para esta espécie.
+- Fontes de produtores sobre *Anathallis imbricata* e *Stelis* sp. não foram convertidas em evidência direta de *A. sclerophylla*; nenhuma prova percentuais de 35/30/20/15 ou comparação entre os quatro suportes.
+- Atualizado `revisaoCientificaIAR.cultivoPremiacao` e acrescentadas fontes à própria ficha. Homologação MACS permanece **Classe D**; não atribuir estrelas sem base empírica.
