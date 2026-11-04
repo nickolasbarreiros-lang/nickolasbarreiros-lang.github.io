@@ -21,7 +21,7 @@ export const dendrobiumLoddigesii = {
         "imagens/Dendrobium loddigesii/Dendrobium loddigesii3.jpeg",
         "imagens/Dendrobium loddigesii/Dendrobium loddigesii4.jpeg"
     ],
-    "descricao": "Uma pequena joia pendente das florestas asiáticas! O Dendrobium loddigesii forma delicadas hastes articuladas que caem naturalmente e, na época certa, se cobrem de flores lilases com labelo franjado e centro amarelo-alaranjado. É nativo do sul da China e da Indochina, onde vive em florestas úmidas e musgosas, geralmente entre 1.000 e 1.500 m. Seu grande segredo é respeitar a sazonalidade: cresce com água e alimento na estação quente e responde melhor à floração quando as hastes maduras recebem um inverno mais seco, claro e com noites amenas.",
+    "descricao": "Uma pequena joia pendente das florestas asiáticas! O Dendrobium loddigesii forma delicadas hastes articuladas que caem naturalmente e, na época certa, se cobrem de flores lilases com labelo franjado e centro amarelo-alaranjado. É nativo do sul da China e da Indochina, onde vive em florestas úmidas e musgosas, geralmente entre 1.000 e 1.500 m. Seu grande segredo é respeitar a sazonalidade: cresce com água e alimento na estação quente e responde melhor à floração quando as hastes maduras recebem um inverno mais seco, claro e com noites amenas. As flores surgem ao longo dos caules já formados, criando um efeito de cascata quando a planta está bem estabelecida.",
     "origem": "Sul da China e Indochina",
     "regiao": "Sul da China · Indochina",
     "habitat": "Florestas musgosas · 1.000–1.500 m.",
