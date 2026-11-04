@@ -39,12 +39,12 @@ export const anathallisSclerophylla = {
         raridade: 3
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
-    climaFloracao: "A espécie possui grande amplitude altitudinal e pode crescer de condições quentes a frias, mas tende a responder melhor quando recebe noites amenas, alta umidade e ventilação constante. No litoral quente, não é necessário tentar reproduzir frio intenso; o mais importante é reduzir o superaquecimento noturno, manter raízes ativas e oferecer boa diferença térmica entre dia e noite quando possível.",
+    climaFloracao: "A espécie possui grande amplitude altitudinal e pode crescer de condições quentes a frias, mas tende a responder melhor quando recebe noites amenas, alta umidade e ventilação constante. Em clima quente, não é necessário tentar reproduzir frio intenso; o mais importante é reduzir o superaquecimento noturno, manter raízes ativas e oferecer boa diferença térmica entre dia e noite quando possível.",
     iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não permitido",
         horario: "",
-        observacoes: "Prefere iluminação baixa a moderada, típica de ambientes florestais úmidos. Em litoral quente, 70% a 80% de sombreamento é um bom ponto de partida. Sombra excessivamente profunda pode reduzir a floração, enquanto sol direto forte aquece rapidamente as folhas coriáceas e desidrata as raízes."
+        observacoes: "Prefere iluminação baixa a moderada, típica de ambientes florestais úmidos. Em clima quente, 70% a 80% de sombreamento é um bom ponto de partida. Sombra excessivamente profunda pode reduzir a floração, enquanto sol direto forte aquece rapidamente as folhas coriáceas e desidrata as raízes."
     },
     floracao: "Pode florescer ao longo de uma janela relativamente ampla entre primavera, verão e outono, variando conforme procedência e clima. As inflorescências podem chegar a cerca de 30 cm, ultrapassando bastante as folhas e carregando numerosas flores abertas simultaneamente.",
     adubacao: "🌿 Orgânica: bokashi apenas em quantidade mínima e preferencialmente isolado em sachê ou porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional e em quantidade muito pequena, principalmente em cultivo envasado.\n🚿 Lavagem: faça regas periódicas somente com água pura para reduzir o acúmulo de sais nas raízes finas.",
@@ -59,10 +59,10 @@ export const anathallisSclerophylla = {
         destaque: "Placa / tronco",
         resumo: "Espécie epífita de floresta tropical úmida, atualmente tratada por Kew como Stelis sclerophylla; prefere umidade frequente e raízes permanentemente oxigenadas.",
         metodos: [
-            { nome: "Placa / tronco", asset: "anathallis-sclerophylla-placa", estrelas: 5, status: "Ideal", texto: "É a opção preferencial por reproduzir diretamente o hábito epífito da espécie. Mantém as raízes muito arejadas e permite crescimento em touceira, desde que haja umidade frequente e não ocorra ressecamento prolongado." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação e espaço para a touceira e para as inflorescências, mantendo pequena reserva de umidade junto às raízes." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa prática com mistura leve e muito aerada. As aberturas laterais favorecem oxigenação e reduzem o risco de compactação." },
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 3, status: "Adequado", texto: "Pode ser usado em recipiente pequeno, com drenagem eficiente e substrato aberto, exigindo maior controle da umidade para preservar a aeração das raízes." }
+            { nome: "Placa / tronco", asset: "anathallis-sclerophylla-placa", estrelas: null, status: "Ideal", texto: "É a opção preferencial por reproduzir diretamente o hábito epífito da espécie. Mantém as raízes muito arejadas e permite crescimento em touceira, desde que haja umidade frequente e não ocorra ressecamento prolongado." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Muito recomendado", texto: "Oferece excelente ventilação e espaço para a touceira e para as inflorescências, mantendo pequena reserva de umidade junto às raízes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Muito recomendado", texto: "Boa alternativa prática com mistura leve e muito aerada. As aberturas laterais favorecem oxigenação e reduzem o risco de compactação." },
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Adequado", texto: "Pode ser usado em recipiente pequeno, com drenagem eficiente e substrato aberto, exigindo maior controle da umidade para preservar a aeração das raízes." }
         ]
     },
     substrato: ["Chips de coco pequenos preparados + casca de arroz carbonizada + carvão vegetal pequeno","Casca de pinus fina/média + perlita adequada a miniaturas + esfagno de fibra longa solto"],
@@ -86,7 +86,7 @@ export const anathallisSclerophylla = {
             { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "15%", nota: "aeração", finalidade: "Complementa a estrutura drenante da mistura." }
         ],
         alerta: "A receita de 100% em volume destina-se apenas ao vaso pequeno. Na placa / tronco, manter raízes expostas e esfagno em camada fina. Não enterrar a base nem compactar o esfagno.",
-        notaEvidencia: "MACS 1.1 — estrutura visual alinhada à receita anteriormente cadastrada, preservando percentuais e duas alternativas qualitativas. Suporte principal: placa / tronco. Receita opcional para vaso: 35% pinus + 30% casca de arroz carbonizada + 20% esfagno + 15% carvão = 100%. Não há levantamento quantitativo individualizado de produtores nem ensaio comparativo específico; percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — estrutura visual alinhada à receita anteriormente cadastrada, preservando percentuais e duas alternativas qualitativas. Suporte principal: placa / tronco. Receita opcional para vaso: 35% pinus + 30% casca de arroz carbonizada + 20% esfagno + 15% carvão = 100%. Não há levantamento quantitativo individualizado de produtores nem ensaio comparativo específico; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     revisaoCientificaIAR: {
         "nome": "Anathallis sclerophylla",
@@ -225,7 +225,7 @@ export const anathallisSclerophylla = {
         }
     },
         adaptacaoRegional: {
-        litoral: { texto: "A ampla distribuição mostra tolerância térmica considerável, mas no litoral quente é importante manter sombra clara, umidade atmosférica alta e ventilação constante. Noites muito quentes associadas a ar parado são o principal ponto de atenção." },
+        litoral: { texto: "A ampla distribuição mostra tolerância térmica considerável, mas em clima quente é importante manter sombra clara, umidade atmosférica alta e ventilação constante. Noites muito quentes associadas a ar parado são o principal ponto de atenção." },
         montanha: { texto: "Noites frescas, alta umidade e boa circulação de ar se aproximam bastante das condições montanas e de floresta nebulosa registradas para a espécie." }
     },
     dica: "🏆 O segredo é reproduzir uma floresta úmida sem transformar o vaso em um pântano: mantenha as raízes hidratadas, mas com ar circulando constantemente. Uma montagem com pequena quantidade de esfagno ou um vaso pequeno e muito aerado costuma funcionar melhor que recipientes profundos e compactos.",
