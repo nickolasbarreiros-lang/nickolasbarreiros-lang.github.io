@@ -76,7 +76,7 @@ export const cattleyaLoddigesii = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "Sorace (UEL, 2008) testou diretamente plântulas desta espécie e identificou bom desempenho em casca de pinus isolada ou pinus + casca de arroz carbonizada (1:1 v/v). A receita visual adota esta última composição documentada, com ressalva de que o ensaio foi realizado em mudas, não em plantas adultas.",
+    "justificativa": "Cattleya loddigesii se beneficia de raízes ventiladas e de um substrato que retenha alguma umidade sem permanecer encharcado. A casca de pinus média oferece estrutura e a casca de arroz carbonizada mantém a mistura aberta e drenante. Observe a secagem no centro do recipiente, ajuste a granulometria ao porte das raízes e evite compactação, especialmente durante a emissão de brotos e raízes novas.",
     "receitaTexto": "50% casca de pinus média + 50% casca de arroz carbonizada (1:1 em volume). Mistura testada em plântulas de Cattleya loddigesii; ajustar granulometria e frequência de regas para plantas adultas.",
     "perfil": [
         "Raízes epífitas",
