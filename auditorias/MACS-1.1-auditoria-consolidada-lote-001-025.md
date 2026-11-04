@@ -218,3 +218,9 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - Campo `floracao` passou a indicar explicitamente outubro–fevereiro (populações do Paraná; Santos et al. 2019, Rodriguésia, DOI 10.1590/2175-7860201970031) e registro pontual em junho (sinopse de Boa Nova, Hoehnea), com ressalva de que isso não garante floração nesses meses em cultivo.
 - Os meses fora desses registros não foram apresentados como confirmados; outras populações podem florescer em épocas adicionais ainda não documentadas nas fontes consultadas.
 - A correção fenológica não homologa a composição percentual do substrato nem os suportes MACS 1.1; Classe D mantida.
+
+### Revisão de consistência entre campos — ficha 1 (2026-11-04)
+- A descrição morfológica principal já havia sido enriquecida com medidas de Santos, Toscano de Brito & Smidt (2019), mas `revisaoCientificaIAR.morfologiaDimensoes` permanecia com o texto editorial anterior. A duplicidade foi corrigida diretamente no arquivo da espécie; ambos os campos agora usam medidas publicadas.
+- **Risco científico MACS:** o rótulo `status: "Ideal"` do suporte `Placa / tronco` expressa preferência editorial, **não** superioridade demonstrada por ensaio comparativo para esta espécie. As estrelas estão nulas e a receita 35/30/20/15 permanece sem homologação quantitativa. Não confundir status qualitativo com homologação estatística.
+- **Risco de confiança:** `revisaoCientificaIAR.confianca: "alta"` não pode ser interpretado como confiança alta na receita MACS; a confiança botânica e a confiança agronômica precisam ser reportadas separadamente.
+- **Próxima condição de fechamento:** registros diretos da espécie em cultivo com suporte, granulometria, mistura, clima e fonte rastreável; na ausência desses registros, manter Classe D e não declarar ficha integralmente homologada.
