@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 117 — Cattlianthe Chocolate Drop
-Data: 2026-11-04. EM ANDAMENTO; não iniciar matriz 118 até encerramento.
+Data: 2026-11-04. ENCERRADA COMO AUDITADA; HOMOLOGAÇÃO QUANTITATIVA NÃO OBTIDA (D).
 
 ## Identidade e evidência
 Híbrido horticultural Cattlianthe Chocolate Drop, tradicionalmente Cattleya Chocolate Drop, de Cattleya guttata × Guarianthe aurantiaca. Não atribuir habitat natural ao híbrido. A referência brasileira a mudas em pinus/carvão 4:3 diz respeito a pesquisa de adubação; não constitui comparação experimental entre receitas ou recipientes. Evidência quantitativa específica para as três receitas: ausente. Classe científica D, NÃO HOMOLOGADA. Não foi demonstrada amostra de 25 produtores independentes; não inventar consulta.
@@ -13,4 +13,7 @@ Receitas não equivalem a testes de superioridade. Estrelas de suportes nulas po
 ## Conferência de arquivos
 Quatro fotografias presentes em imagens/Cattlianthe Chocolate Drop/. Chaves existentes em js/biblioteca-cultivo-v4.js: casca-pinus, casca-macadamia, casca-arroz-carbonizada, carvao, fibra-coco, argila-expandida, vaso-plastico-vasado, vaso-plastico, vaso-barro, cesto-madeira. Nenhum asset perlita utilizado.
 Correção da ficha: commit 2747b78ffd86e22269741d956a9c46bfbb1e52c9.
-Pendente Chromium desktop/mobile e encerramento.
+Chromium desktop/mobile aprovado; encerramento registrado.
+
+## Encerramento técnico — 2026-11-04
+Chromium/Playwright https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41765379682: **success** em todas as etapas, incluindo inspeção no navegador e envio de capturas. Quatro fotos e dez referências visuais confirmadas. Receitas A/B/C somam 100% e não contêm perlita. Resultado científico final **D — sem homologação quantitativa**, por ausência de comparação controlada das misturas e de amostra documentada de 25 produtores independentes. A ficha está encerrada quanto às verificações técnicas, sem converter evidência insuficiente em validação positiva. Liberada matriz 118.
