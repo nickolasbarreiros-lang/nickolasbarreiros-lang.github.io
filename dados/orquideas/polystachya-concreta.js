@@ -26,7 +26,7 @@ export const polystachyaConcreta = {
         "imagens/Polystachya concreta/Polystachya4.jpg"
     ],
 
-    descricao: "Espécie neotropical de pequeno porte e crescimento cespitoso, muito variável em tamanho. Forma pseudobulbos agregados com duas a quatro folhas e inflorescências terminais eretas, em racemo ou panícula, capazes de produzir numerosas flores pequenas verde-amareladas. A espécie ocorre em grande variedade de florestas e altitudes e possui ampla distribuição brasileira, características que ajudam a explicar sua boa adaptabilidade em cultivo.",
+    descricao: "Polystachya concreta é uma orquídea de porte variável, capaz de formar pequenas touceiras de pseudobulbos próximos, envolvidos por bainhas, e duas a quatro folhas alongadas. No alto dos novos crescimentos surgem inflorescências eretas, simples em plantas pequenas ou ramificadas em exemplares vigorosos. Elas podem reunir dezenas de flores diminutas, verde-amareladas, com labelo mais claro, às vezes perfumadas. Uma curiosidade é que as flores não são ressupinadas: o labelo permanece voltado para cima. A espécie ocorre naturalmente em ampla faixa das Américas tropicais e subtropicais, incluindo diversas formações florestais brasileiras. Sua grande variação de tamanho contrasta com a relativa constância da forma das flores.",
 
     origem: "América Tropical e Subtropical",
     regiao: "Sul da Flórida · México e América Central · Caribe · norte, oeste e sul da América do Sul · Brasil (Norte, Nordeste, Centro-Oeste, Sudeste e Sul)",
@@ -38,7 +38,7 @@ export const polystachyaConcreta = {
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
-        horario: "",
+        horario: "Não permitido",
         observacoes: "Estudos da Mata Atlântica brasileira caracterizam a espécie como amante de sombra. Para cultivo, meia-sombra clara com aproximadamente 60% a 70% de sombreamento é um ponto inicial coerente, especialmente no litoral quente. A planta deve receber boa claridade difusa, mas não necessita de radiação solar direta; folhas excessivamente claras ou aquecidas indicam excesso."
     },
 
@@ -54,7 +54,7 @@ export const polystachyaConcreta = {
         "🥉 Placa de madeira ou cortiça, desde que seja possível manter regas frequentes no calor."
     ],
 
-    substrato: ["Casca de pinus média + chips de coco + perlita grossa","Carvão vegetal + casca de pinus grossa + pequena fração de esfagno solto"],
+    substrato: ["Casca de pinus média + chips de coco preparados + perlita grossa","Carvão vegetal + casca de pinus grossa + pequena fração de esfagno solto"],
 
     formasCultivo: {
         perfilVisual: "polystachya-epifita-cespitosa-compacta",
@@ -83,11 +83,11 @@ export const polystachyaConcreta = {
         ],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "45%", nota: "estrutura", finalidade: "Oferece suporte às raízes sem compactar." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "30%", nota: "drenagem", finalidade: "Contribui para porosidade e secagem." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "30%", nota: "drenagem", finalidade: "Contribui para porosidade e secagem." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Mantém circulação de ar entre as partículas." }
         ],
         alerta: "Evitar sol direto forte, sombra profunda, substrato fino e saturado, repouso seco rígido e desidratação prolongada de plantas montadas durante o crescimento.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Polystachya concreta é epífita frequentemente cespitosa, de pseudobulbos próximos; vaso pequeno bem perfurado é hipótese horticultural coerente, não resultado de comparação controlada. Receita visual 45% pinus médio + 30% carvão vegetal + 25% perlita grossa = 100%. A receita principal textual e a composição visual concordam: pinus 45%, carvão 30%, perlita 25%. A mistura com chips de coco é uma alternativa qualitativa independente. A preferência por vaso plástico 5 estrelas, cachepô/placa 4 e barro 3 não está homologada. Referências florísticas e taxonômicas citadas na revisão existente não demonstram estes percentuais. Nenhum conjunto de até 25 recomendações específicas de produtores brasileiros foi verificado nesta passagem. Percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Polystachya concreta é epífita frequentemente cespitosa, de pseudobulbos próximos; vaso pequeno bem perfurado é hipótese horticultural coerente, não resultado de comparação controlada. Receita visual 45% pinus médio + 30% carvão vegetal + 25% perlita grossa = 100%. A receita principal textual e a composição visual concordam: pinus 45%, carvão 30%, perlita 25%. A mistura com chips de coco preparados é uma alternativa qualitativa independente. A preferência por vaso plástico 5 estrelas, cachepô/placa 4 e barro 3 não está homologada. POWO confirma nome aceito e sinonímia Epidendrum concretum; pesquisa brasileira em Acta Botanica Brasilica (2022) confirma hábito epífito cespitoso e sombra, mas não compara substratos. Estudo brasileiro de biologia reprodutiva documenta inflorescências com até 150 flores, sem ensaio de substratos. Referências florísticas e taxonômicas não demonstram estes percentuais. Nenhum conjunto de até 25 recomendações específicas de produtores brasileiros foi verificado nesta passagem. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
 
     errosComuns: [
