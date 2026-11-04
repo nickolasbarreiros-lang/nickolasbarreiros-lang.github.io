@@ -53,6 +53,8 @@ jobs:
             if(errors.length)throw Error('Erros JavaScript desktop/mobile: '+errors.join(' | '));
             const mobileEntries=await entries.count();
             if(mobileEntries!==2)throw Error('Alternativas alteradas na versão celular: '+mobileEntries);
+            const mobileTexts=await entries.allTextContents();
+            if(mobileTexts.some(t=>/\b\d+\s*%/.test(t)))throw Error('Alternativas com percentuais na versão celular: '+mobileTexts.join(' | '));
             const mobileParts=await page.locator('.ingrediente-substrato-v4 .proporcao-substrato-v4').allTextContents();
             if(mobileParts.map(s=>s.trim()).join('|')!=='45%|25%|20%|10%')throw Error('Proporções alteradas na versão celular');
             console.log('APROVADO: renderização desktop/mobile, 2 receitas alternativas sem percentuais e sem erros JavaScript.');
