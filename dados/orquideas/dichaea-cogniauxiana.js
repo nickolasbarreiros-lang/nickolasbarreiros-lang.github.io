@@ -12,7 +12,7 @@ export const dichaeaCogniauxiana = {
         "Mata Atlântica",
         "Flores maculadas",
         "Alta umidade",
-        "Baixa luminosidade",
+        "Sombra luminosa",
         "Polinização por gorgulhos"
     ],
     fotos: [
@@ -21,7 +21,7 @@ export const dichaeaCogniauxiana = {
         "imagens/Dichaea cogniauxiana/Dichaea cogniauxiana3.jpg",
         "imagens/Dichaea cogniauxiana/Dichaea cogniauxiana4.jpg"
     ],
-    descricao: "Uma pequena preciosidade das florestas brasileiras! Dichaea cogniauxiana forma ramos finos cobertos por numerosas folhas e produz delicadas flores claras salpicadas de vinho a púrpura, geralmente com apenas alguns milímetros. É uma epífita de ambientes muito úmidos e sombreados, encontrada em diferentes regiões do Brasil e registrada desde baixas altitudes até florestas montanas. Seu nome homenageia o botânico Alfred Cogniaux. No cultivo, o ponto mais importante é reproduzir a combinação que encontra na mata: raízes sempre bem hidratadas, muita umidade no ar, pouca incidência de sol direto e ventilação constante.",
+    descricao: "Dichaea cogniauxiana é uma pequena orquídea brasileira de caules finos e pendentes, revestidos por numerosas folhas estreitas dispostas em duas fileiras. As flores surgem isoladamente nas axilas das folhas e medem cerca de sete milímetros, com fundo claro e manchas avermelhadas ou arroxeadas. O labelo tem uma base alongada, característica útil para distinguir a espécie. Encontrada sobre troncos em florestas úmidas, ocorre em diferentes regiões do Brasil, tanto em áreas de menor altitude quanto em ambientes montanos. Sua biologia floral é especialmente curiosa: estudos documentaram a participação de pequenos gorgulhos do gênero Montella na polinização.",
     origem: "Brasil",
     regiao: "Nordeste, Centro-Oeste, Sudeste e Sul",
     habitat: "Florestas úmidas e sombreadas · epífita.",
@@ -30,7 +30,7 @@ export const dichaeaCogniauxiana = {
     iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não permitido",
-        horario: "",
+        horario: "Não permitido",
         observacoes: "É adaptada a ambientes de baixa intensidade luminosa. Cerca de 70% de sombreamento funciona como bom ponto inicial no litoral quente. Evite incidência direta de sol forte sobre a folhagem delicada; sombra excessivamente escura, porém, pode reduzir vigor e floração."
     },
     floracao: "Predominantemente no verão, podendo avançar para o início do outono conforme procedência, temperatura e condições de cultivo. Para o calendário do site, dezembro a março funciona como janela prática de referência.",
@@ -57,7 +57,7 @@ export const dichaeaCogniauxiana = {
         titulo: "Substrato ideal",
         contexto: "Proposta para cachepô ou vaso pequeno; placa com esfagno leve junto às raízes",
         resumo: "Mistura leve de umidade relativamente constante, com partículas abertas e boa circulação de ar.",
-        justificativa: "A montagem principal em placa ou tronco utiliza uma camada fina e solta de esfagno junto às raízes, não a mistura volumétrica. Para cachepô ou vaso pequeno, a receita principal textual e visual coincidem: macadâmia média, fibra de coco grossa preparada, perlita grossa e esfagno solto. As duas alternativas qualitativas são composições distintas, sem equivalência com a principal. A granulometria e a retenção precisam ser ajustadas ao calibre delicado das raízes e à ventilação disponível. MACS 1.1: proporções provisórias sem homologação quantitativa específica",
+        justificativa: "A montagem principal em placa ou tronco utiliza uma camada fina e solta de esfagno junto às raízes, não a mistura volumétrica. A pesquisa de Nunes et al. (2018) confirma epifitismo e interação com polinizadores, mas não testa suportes ou substratos; a receita permanece inferência horticultural. Para cachepô ou vaso pequeno, a receita principal textual e visual coincidem: macadâmia média, fibra de coco grossa preparada, perlita grossa e esfagno solto. As duas alternativas qualitativas são composições distintas, sem equivalência com a principal. A granulometria e a retenção precisam ser ajustadas ao calibre delicado das raízes e à ventilação disponível. MACS 1.1: proporções provisórias sem homologação quantitativa específica",
         receitaTexto: "35% casca de macadâmia média + 30% fibra de coco grossa preparada + 25% perlita grossa + 10% esfagno de fibra longa solto.",
         perfil: ["Epífita delicada", "Raízes sensíveis à seca", "Umidade elevada", "Sombra luminosa", "Ventilação constante"],
         comportamento: [
@@ -73,7 +73,7 @@ export const dichaeaCogniauxiana = {
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "10%", nota: "retenção complementar", finalidade: "Protege contra secagem excessiva quando aplicado sem compactação." }
         ],
         alerta: "Evitar sol direto forte, secagem prolongada e esfagno compactado. Alta umidade não significa raízes encharcadas: manter ar em movimento.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Dichaea cogniauxiana, epífita de floresta sombreada e úmida, raízes sensíveis à seca e ao abafamento. Suportes placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; notas sem comparação quantitativa específica. Receita visual para recipiente 35% macadâmia média + 30% fibra coco grossa + 25% perlita grossa + 10% esfagno solto = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem; as duas alternativas qualitativas são diferentes da principal e não há duplicação de perlita. Montagem principal em placa com esfagno junto às raízes é distinta da receita para recipiente. Verificar retenção e granulometria para raízes delicadas; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Dichaea cogniauxiana, epífita de floresta sombreada e úmida, raízes sensíveis à seca e ao abafamento. Suportes placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; notas sem comparação quantitativa específica. Receita visual para recipiente 35% macadâmia média + 30% fibra coco grossa + 25% perlita grossa + 10% esfagno solto = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem; as duas alternativas qualitativas são diferentes da principal e não há duplicação de perlita. Montagem principal em placa com esfagno junto às raízes é distinta da receita para recipiente. Verificar retenção e granulometria para raízes delicadas; meta até 25 produtores brasileiros específicos não atingida. A pesquisa de Nunes et al. (2018, Current Biology) confirma flores claras maculadas e polinização ativa por gorgulhos Montella, mas não fornece receita de substrato. Flora do Brasil 2020 registra raízes finas, folhas articuladas, pedúnculo geniculado, fruto glabro e hábito epífito/rupícola. IOSPE registra flores de aproximadamente 7 mm e floração no verão. Nenhum produtor brasileiro com receita quantitativa específica foi confirmado nesta passagem; meta de até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
         "Expor ao sol direto forte",
@@ -88,12 +88,12 @@ export const dichaeaCogniauxiana = {
     dica: "🏆 Dichaea cogniauxiana prefere umidade com ar em movimento. Mantenha as raízes hidratadas, mas extremamente arejadas. No litoral quente, uma montagem com pequena quantidade de esfagno e ventilação constante tende a reproduzir melhor essa combinação do que um vaso compacto e permanentemente molhado.",
     revisaoCientificaIAR: {
         "nome": "Dichaea cogniauxiana",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma pequena preciosidade das florestas brasileiras! Dichaea cogniauxiana forma ramos finos cobertos por numerosas folhas e produz delicadas flores claras salpicadas de vinho a púrpura, geralmente com apenas alguns milímetros. É uma epífita de ambientes muito úmidos e sombreados, encontrada em diferentes regiões do Brasil e registrada desde baixas altitudes até florestas montana",
-        "habitatAltitudeClima": "Florestas úmidas e sombreadas · epífita. | Úmido · sombreado · intermediário a fresco.",
+        "statusTaxonomico": "Dichaea cogniauxiana Schltr. (1922), espécie aceita em POWO; nativa do Brasil.",
+        "sinonimosPrincipais": "Nenhum sinônimo taxonômico principal confirmado nas fontes consultadas; não confundir com Acianthera cogniauxiana.",
+        "morfologiaDimensoes": "Caules finos e pendentes, folhas dísticas de base articulada, flores axilares isoladas de aproximadamente 7 mm, claras e maculadas de vinho; labelo de base alongada (IOSPE, Flora do Brasil 2020, Nunes et al. 2018).",
+        "habitatAltitudeClima": "Epífita ou rupícola de florestas úmidas; IOSPE registra 300–1.700 m, sem excluir outras populações e ambientes.",
         "distribuicaoGeografica": "Nordeste, Centro-Oeste, Sudeste e Sul.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "cultivoPremiacao": "Nunes et al. (2018, Current Biology) estudaram polinização por gorgulhos Montella, não cultivo; sem ensaio específico de substratos identificado.",
         "confianca": "alta",
         "fontes": [
             "POWO/Kew",
