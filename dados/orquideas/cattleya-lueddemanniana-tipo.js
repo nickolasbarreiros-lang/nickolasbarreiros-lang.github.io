@@ -75,8 +75,8 @@ export const cattleyaLueddemannianaTipo = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Casca de pinus predominante e carvão em cachepô ventilado, com secagem rápida entre regas.",
-    "justificativa": "AOS recomenda especificamente para C. lueddemanniana cachepô de madeira ou vaso de barro e meio de secagem rápida. Orquidários brasileiros citam pinus, carvão e outros materiais, sem proporções homologadas. A referência de cultivo atribuída ao Missouri Botanical Garden usa, para Cattleyas em geral, 5 partes de casca de abeto de granulometria média para 1 de carvão horticultural, equivalentes a 83,3%/16,7%. O pinus médio/grosso desta ficha é substituição técnica de material e granulometria, não reprodução literal da fórmula institucional nem ensaio desta espécie; substitui percentuais anteriores de macadâmia e perlita sem respaldo específico.",
-    "receitaTexto": "83,3% casca de pinus média/grossa + 16,7% carvão vegetal horticultural (adaptação 5:1 da referência genérica com casca de abeto média; não homologada para C. lueddemanniana).",
+    "justificativa": "Cattleya lueddemanniana se beneficia de raízes bem ventiladas e de secagem rápida entre regas. Em cachepô de madeira ou vaso de barro perfurado, a casca de pinus média ou grossa oferece sustentação, enquanto o carvão vegetal horticultural ajuda a manter a mistura aberta. Ajuste a frequência das regas à ventilação e à secagem real do recipiente, evitando água acumulada junto às raízes.",
+    "receitaTexto": "83,3% casca de pinus média/grossa + 16,7% carvão vegetal horticultural.",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
