@@ -23,7 +23,7 @@ export const promenaeaXanthina = {
     ],
     descricao: "Promenaea xanthina é uma pequena joia brasileira: planta compacta, de pseudobulbos baixos e folhas finas, capaz de produzir flores cerosas proporcionalmente grandes, amarelas e delicadamente perfumadas. As hastes surgem junto à base dos pseudobulbos e normalmente carregam uma ou duas flores que permanecem próximas à folhagem. É uma espécie de aparência delicada, mas bastante vigorosa quando encontra o equilíbrio certo entre umidade, raízes arejadas, luz filtrada e temperaturas não excessivas. Em coleções ainda é amplamente conhecida como Promenaea xanthina, embora o tratamento taxonômico atual do Kew a inclua em Promenaea stapelioides subsp. xanthina.",
     origem: "Brasil",
-    regiao: "Leste e Sul do Brasil",
+    regiao: "Nordeste, Sudeste e Sul do Brasil",
     habitat: "Epífita de florestas montanas úmidas e protegidas, chegando a cerca de 1.700 m.",
     clima: "Intermediário a fresco, úmido e muito ventilado.",
     climaFloracao: "A floração é favorecida por planta bem estabelecida, noites amenas, umidade ambiental elevada e luz filtrada. Em clima quente, evite sobretudo o superaquecimento noturno. Após a maturação dos pseudobulbos, uma breve redução nas regas pode ajudar, mas sem transformar o período em repouso seco.",
@@ -47,14 +47,14 @@ export const promenaeaXanthina = {
         destaque: "Vaso plástico vasado",
         resumo: "Miniatura epífita de clima ameno e raízes delicadas. Vaso pequeno e muito perfurado oferece umidade regular sem abafamento, desde que permaneça em microclima fresco.",
         metodos: [
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Mais recomendado na ficha", texto: "Vaso pequeno e muito perfurado, com mistura leve e ventilação constante; proteger do calor acumulado." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa", texto: "Cachepô pequeno e aberto, com substrato drenante e acompanhamento da umidade." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Preferência técnica provisória", texto: "Vaso pequeno e muito perfurado, com mistura leve e ventilação constante; proteger do calor acumulado." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa provisória", texto: "Cachepô pequeno e aberto, com substrato drenante e acompanhamento da umidade." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Uso condicional", texto: "Cortiça ou madeira com lâmina fina de esfagno, apenas em ambiente de alta umidade e regas frequentes." },
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Uso condicional", texto: "Vaso pequeno e perfurado, observando a secagem mais rápida e a temperatura das raízes." }
         ]
     },
     substratoVisual: {
-        titulo: "Substrato ideal",
+        titulo: "Substrato recomendado (provisório)",
         contexto: "Mistura leve para vaso pequeno e ventilado",
         resumo: "Raízes frescas e úmidas, sem saturação. Pinus fino, perlita adequada a raízes delicadas e esfagno solto em pequena fração oferecem retenção moderada com boa aeração.",
         justificativa: "Promenaea xanthina é uma miniatura epífita de ambientes montanos, com raízes delicadas que precisam de umidade regular, ventilação e temperaturas amenas, sobretudo à noite. Em vaso plástico pequeno e vasado, a casca de pinus fina oferece apoio, a perlita favorece a circulação de ar e o esfagno solto conserva uma reserva moderada de umidade. Uma montagem com pouco esfagno também pode ser utilizada, desde que as raízes não ressequem. Em clima quente, manter o substrato úmido não substitui noites mais frescas.",
@@ -72,7 +72,7 @@ export const promenaeaXanthina = {
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "15%", nota: "umidade", finalidade: "Retém umidade sem compactar quando usado em pequena quantidade." }
         ],
         alerta: "Evitar sol forte, calor noturno acumulado, esfagno compactado e água acumulada em brotos ainda pequenos; após o enraizamento dos novos crescimentos, evitar encharcamento, secagem completa e repouso seco prolongado. O substrato não substitui noites mais amenas.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Promenaea xanthina (nome editorial; POWO trata como Promenaea stapelioides subsp. xanthina), miniatura epífita montana com raízes delicadas; requer umidade regular, ventilação e noites amenas. Vaso plástico vasado pequeno é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 45% pinus fino + 40% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Não fundamentam os percentuais visuais. A montagem com esfagno é método separado. Noites quentes podem limitar vigor e floração mesmo com substrato correto. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
+        notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D), sem validação quantitativa dos percentuais ou comparação experimental dos suportes. MACS 1.1 — revisão documental: Promenaea xanthina (nome editorial; POWO trata como Promenaea stapelioides subsp. xanthina), miniatura epífita montana com raízes delicadas; requer umidade regular, ventilação e noites amenas. Vaso plástico vasado pequeno é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 45% pinus fino + 40% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Não fundamentam os percentuais visuais. A montagem com esfagno é método separado. Noites quentes podem limitar vigor e floração mesmo com substrato correto. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
         "Expor ao sol direto forte",
@@ -86,19 +86,21 @@ export const promenaeaXanthina = {
     ],
     dica: "🏆 Promenaea xanthina gosta de raízes frescas e úmidas, não de um vaso encharcado. Use recipiente pequeno, mistura leve e bastante ventilação. Em clima quente, proteger a planta do calor acumulado à noite costuma ser mais importante do que aumentar a quantidade de água.",
     revisaoCientificaIAR: {
-        "nome": "Promenaea xanthina",
-        "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Promenaea stapelioides subsp. xanthina.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Promenaea xanthina é uma pequena joia brasileira: planta compacta, de pseudobulbos baixos e folhas finas, capaz de produzir flores cerosas proporcionalmente grandes, amarelas e delicadamente perfumadas. As hastes surgem junto à base dos pseudobulbos e normalmente carregam uma ou duas flores que permanecem próximas à folhagem.",
-        "habitatAltitudeClima": "Epífita de florestas montanas úmidas e protegidas, chegando a cerca de 1.700 m. | Intermediário a fresco, úmido e muito ventilado.",
-        "distribuicaoGeografica": "Leste e Sul do Brasil.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
+        "nome": "Promenaea xanthina (Lindl.) Lindl. — nome editorial",
+        "statusTaxonomico": "POWO/Kew aceita Promenaea stapelioides subsp. xanthina (Lindl.) Meneguzzo (2020); Promenaea xanthina (Lindl.) Lindl. (1843) é sinônimo homotípico. O catálogo mantém o nome tradicional por decisão editorial.",
+        "sinonimosPrincipais": "Basiônimo Maxillaria xanthina Lindl. (1839); combinações homotípicas Promenaea xanthina (Lindl.) Lindl. (1843) e Zygopetalum xanthinum (Lindl.) Rchb.f. (1863). POWO reúne ainda sinônimos heterotípicos como Promenaea guttata Rchb.f., Promenaea sincorana P.Castro & Campacci e Promenaea paranaensis Schltr.; isso reflete a circunscrição ampla da subespécie adotada por Kew, não prova identidade de todas as plantas vendidas sob esses nomes.",
+        "morfologiaDimensoes": "Orquídea epífita de crescimento simpodial, formando pequenas touceiras com pseudobulbos compactos, angulosos e duas folhas geralmente lanceoladas, de textura fina. As inflorescências axilares surgem em crescimentos que amadurecem e são curtas, horizontais ou pendentes, usualmente com uma ou duas flores relativamente grandes para a planta. As flores associadas ao nome tradicional xanthina são amarelas, por vezes com marcas escuras e labelo contrastante; a distinção clássica em relação a P. stapelioides incluía o fundo floral amarelo e o calo do labelo com três a cinco dentes. Esse diagnóstico histórico precede a sinonimização taxonômica atual.",
+        "habitatAltitudeClima": "POWO classifica a subespécie aceita como epífita pseudobulbosa do bioma tropical úmido, nativa do leste e sul do Brasil. Monografia botânica do gênero descreve Promenaea em locais sombreados e úmidos de florestas pré-montanas, frequentemente em 1.000–2.000 m, mas a faixa é do gênero e não limite altitudinal da subespécie. Recomendações gerais da AOS: recipientes pequenos e rasos, mistura fina a média com retenção de umidade, temperaturas intermediárias e luz moderada. Evitar molhar abundantemente brotações muito jovens antes do enraizamento, pois a AOS alerta para risco de podridão.",
+        "distribuicaoGeografica": "Brasil: regiões Nordeste, Sudeste e Sul conforme a circunscrição de Promenaea stapelioides subsp. xanthina adotada por POWO/Kew; não restringir apenas ao Sudeste e Sul.",
+        "cultivoPremiacao": "A American Orchid Society recomenda para o gênero Promenaea vasos pequenos e rasos ou cestos com mistura de granulometria fina a média que drene e retenha alguma umidade; orienta pouca água enquanto brotações são pequenas e raízes novas ainda não surgiram, seguida de regas regulares no crescimento ativo. A fonte australiana OSCOV menciona cultivo de P. xanthina em vasos pequenos com mistura drenante, sem validar percentuais. Não foi encontrado ensaio específico comparando os quatro suportes ou a receita 45/40/15; premiações individuais não foram validadas em registro primário.",
+        "confianca": "Taxonomia e distribuição: alta (POWO). Morfologia: moderada (monografia do gênero e diagnóstico histórico da espécie). Cultivo: recomendações de gênero AOS e fonte secundária OSCOV; evidência quantitativa de substrato/suportes insuficiente, MACS Classe D.",
         "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
+            "POWO/Kew, subespécie aceita — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77306839-1",
+            "POWO/Kew, Promenaea xanthina como sinônimo — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:655073-1",
+            "AOS, Promenaea: Care and Culture Card — https://www.aos.org/explore/promenaea",
+            "Pupulin, monografia de Zygopetalinae (descrição de Promenaea) — https://epidendra.com/LITERATURE/Pupulin%202009%20-%20GO%20Zygopetalinae/Pupulin%202009%20-%20GO%20Zygopetalinae%20light.pdf",
+            "Artigo taxonômico, chave histórica de P. xanthina, P. stapelioides e P. viridiflora — https://www.iat.pr.gov.br/sites/agua-terra/arquivos_restritos/files/documento/2023-06/a_new_species_of_promenaea_cymbidieae_epidendroideae_orchidaceae_from_southeastern_brazil.pdf",
+            "OSCOV, The Genus Promenaea — https://oscov.asn.au/articles/the-genus-promenaea-by-ronald-schliefert/"
         ]
     },
     indiceDificuldadeCultivo: {
