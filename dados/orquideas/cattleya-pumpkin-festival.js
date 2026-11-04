@@ -35,7 +35,7 @@ export const cattleyaPumpkinFestival = {
     floracao: "Predominantemente do outono ao início do inverno, entre março e junho, com variação conforme o clone e o ciclo de crescimento.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade, renovado a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose recomendada a cada 7 a 15 dias. Após a maturação dos pseudobulbos, alternar ocasionalmente com fórmulas mais ricas em fósforo e potássio, como 09-45-15 ou 10-30-20.\n🧪 Liberação lenta: Osmocote 14-14-14 em baixa quantidade no canto do vaso, sempre longe das raízes novas.",
     rega: "Durante o crescimento ativo, molhe abundantemente assim que o substrato estiver quase completamente seco. Após a maturação do pseudobulbo, reduza discretamente a frequência para favorecer a indução floral. Evite água acumulada na espata e nunca mantenha o substrato constantemente úmido.",
-    suporte: "🥇 Cachepô de madeira bem vazado.\n🥈 Vaso de barro proporcional ao sistema radicular.\n🥉 Vaso plástico com abundante furação lateral.",
+    suporte: "🥇 Vaso de barro proporcional ao sistema radicular.\n🥈 Cachepô de madeira bem vazado.\n🥉 Vaso plástico vasado com abundante furação lateral.",
     dica: "A intensidade da coloração laranja e o tamanho das flores dependem diretamente da luminosidade recebida durante a formação dos pseudobulbos. Cultive em vaso relativamente justo, com excelente ventilação e alta luminosidade, evitando apenas queimaduras causadas pelo sol forte do meio-dia.",
     formasCultivo: {
         perfilVisual: "cattleya",
