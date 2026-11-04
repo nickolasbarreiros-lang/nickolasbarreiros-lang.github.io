@@ -87,7 +87,7 @@ export const bifrenariaVerboonenii = {
         "nome": "Bifrenaria verboonenii",
         "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Bifrenaria tyrianthina.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma Bifrenaria de presença marcante, com pseudobulbos robustos e flores grandes, carnosas e cerosas que chamam atenção tanto pela aparência quanto pelo perfume. As hastes são curtas e surgem junto à base dos pseudobulbos maduros, normalmente carregando poucas flores, mas de tamanho expressivo e boa duração. Encontrada em áreas montanas do Sudeste brasileiro, em altitudes elevad",
+        "morfologiaDimensoes": "Uma Bifrenaria de presença marcante, com pseudobulbos robustos e flores grandes, carnosas e cerosas que chamam atenção tanto pela aparência quanto pelo perfume. As hastes são curtas e surgem junto à base dos pseudobulbos maduros, normalmente carregando poucas flores, mas de tamanho expressivo e boa duração.",
         "habitatAltitudeClima": "Principalmente rupícola · campos rupestres e afloramentos rochosos | tropical sazonal",
         "distribuicaoGeografica": "Ocorrências confirmadas: BA · MG",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
