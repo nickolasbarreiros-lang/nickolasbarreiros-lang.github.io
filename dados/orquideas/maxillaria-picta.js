@@ -52,7 +52,7 @@ export const maxillariaPicta = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso pequeno e bem perfurado",
         resumo: "Mistura 1:1 de vermiculita e carvão vegetal, avaliada experimentalmente na espécie em casa de vegetação; exige monitoramento da umidade.",
-        justificativa: "Faria et al. (2001), em experimento brasileiro com 13 tratamentos e dez repetições, identificaram vermiculita + carvão e vermiculita + casca de arroz carbonizada entre as melhores alternativas ao xaxim para Maxillaria picta. Misturas 1:1 em volume; resultados obtidos em vasos cerâmicos e casa de vegetação, não garantidos em todo clima.",
+        justificativa: "Maxillaria picta se beneficia de raízes bem ventiladas e umidade moderada, sem saturação prolongada. A vermiculita ajuda a conservar parte da água disponível entre as regas, enquanto o carvão vegetal mantém espaços de ar e favorece a drenagem. Em vaso cerâmico, observe a secagem no centro da mistura e ajuste as regas à ventilação e à estação, evitando compactação e encharcamento.",
         receitaTexto: "50% vermiculita + 50% carvão vegetal (1:1 em volume; mistura testada em Maxillaria picta por Faria et al., 2001).",
         perfil: ["Epífita ou litófita", "Touceira densa", "Flores basais", "Noites amenas", "Umidade moderada sem saturação"],
         comportamento: [
