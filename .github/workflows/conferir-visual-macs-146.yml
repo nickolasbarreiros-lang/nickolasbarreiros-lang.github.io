@@ -40,7 +40,7 @@ jobs:
             if(!texts[0].includes('Casca de pinus')||!texts[1].includes('Casca de macadâmia'))throw Error('Componentes das alternativas incorretos: '+texts.join(' | '));
             if(texts.some(t=>/\b\d+\s*%/.test(t)))throw Error('Alternativas devem ser qualitativas, sem percentuais: '+texts.join(' | '));
             await page.locator('#ficha img').evaluateAll(nodes=>nodes.forEach(img=>{img.loading='eager'}));
-            await page.waitForFunction(() => [...document.querySelectorAll('#ficha img')].every(img => img.complete),{timeout:20000});
+            await page.waitForFunction(() => [...document.querySelectorAll('#ficha img')].every(img => img.complete),null,{timeout:20000});
             const images=await page.locator('#ficha img').evaluateAll(nodes=>nodes.map(img=>({src:img.getAttribute('src'),loaded:img.complete&&img.naturalWidth>0})));
             const broken=images.filter(img=>!img.loaded);
             if(broken.length)throw Error('Imagens não carregadas: '+JSON.stringify(broken));
@@ -61,6 +61,9 @@ jobs:
             if(mobileEntries!==2)throw Error('Alternativas alteradas na versão celular: '+mobileEntries);
             const mobileTexts=await entries.allTextContents();
             if(mobileTexts.some(t=>/\b\d+\s*%/.test(t)))throw Error('Alternativas com percentuais na versão celular: '+mobileTexts.join(' | '));
+            const mobileImages=await page.locator('#ficha img').evaluateAll(nodes=>nodes.map(img=>({src:img.getAttribute('src'),loaded:img.complete&&img.naturalWidth>0})));
+            const mobileBroken=mobileImages.filter(img=>!img.loaded);
+            if(mobileBroken.length)throw Error('Imagens não carregadas no celular: '+JSON.stringify(mobileBroken));
             const mobileParts=await page.locator('.ingrediente-substrato-v4 .proporcao-substrato-v4').allTextContents();
             if(mobileParts.map(s=>s.trim()).join('|')!=='45%|25%|20%|10%')throw Error('Proporções alteradas na versão celular');
             console.log('APROVADO: renderização desktop/mobile, 2 receitas alternativas sem percentuais e sem erros JavaScript.');
