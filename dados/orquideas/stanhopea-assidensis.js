@@ -14,16 +14,16 @@ export const stanhopeaAssidensis = {
         "imagens/Stanhopea Assidensis/Stanhopea Assidensis3.jpg",
         "imagens/Stanhopea Assidensis/Stanhopea Assidensis4.jpg"
     ],
-    descricao: "Perfume intenso e flores de aparência quase escultórica! Stanhopea Assidensis é um híbrido primário de Stanhopea tigrina × Stanhopea wardii, registrado em 1922. Suas flores grandes e carnosas combinam tons creme a amarelos com pintas e manchas castanhas ou vinho, além da fragrância marcante típica do grupo. Como suas hastes florais crescem para baixo, o cultivo em cesta suspensa não é apenas uma preferência: é essencial para que a floração consiga atravessar o recipiente sem ser bloqueada.",
+    descricao: "Stanhopea Assidensis é um híbrido primário de Stanhopea tigrina com Stanhopea wardii, registrado por Goldschmidt em 1922. Forma pseudobulbos robustos com folhas grandes e pregueadas, que contrastam com as inflorescências pendentes surgidas na base da planta. As flores são carnosas, ornamentadas por manchas castanhas ou avermelhadas sobre fundo claro, e podem exalar perfume marcante, frequentemente descrito como semelhante à baunilha. Sua floração costuma durar poucos dias, mas o formato complexo do labelo torna cada flor especialmente expressiva. Como híbrido criado em cultivo, não possui habitat ou distribuição natural próprios, e sua aparência pode variar entre exemplares.",
     origem: "Híbrido horticultural",
     regiao: "Sem distribuição natural · híbrido registrado em 1922 · parentais do México à América Central e norte da América do Sul",
-    habitat: "Herda afinidade por florestas úmidas montanas · parentais ~600–2.700 m.",
+    habitat: "Híbrido artificial, sem habitat natural próprio; parentais de florestas tropicais.",
     clima: "Intermediário · úmido e muito ventilado.",
     climaFloracao: "O cruzamento reúne um parental mexicano de aproximadamente 600–1.700 m e outro distribuído em florestas úmidas de cerca de 800–2.700 m. Por isso, não deve ser tratado como híbrido puramente quente. No litoral, a melhor estratégia é reduzir o aquecimento das raízes, manter alta ventilação e garantir diferença térmica noturna sempre que possível, sem impor repouso seco.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
-        horario: "",
+        horario: "Não permitido",
         observacoes: "Prefere luz intensa, porém filtrada. Folhas verde-médio indicam boa luminosidade; folhas muito escuras sugerem falta de luz, enquanto amarelecimento e queimaduras indicam excesso."
     },
     floracao: "A floração tende a ocorrer da primavera ao verão, podendo variar entre clones e condições de cultivo. As inflorescências são pendentes e atravessam o fundo ou as laterais da cesta. As flores duram poucos dias, porém são grandes, cerosas e intensamente perfumadas; plantas adultas podem emitir mais de uma haste na mesma estação.",
@@ -45,7 +45,7 @@ export const stanhopeaAssidensis = {
         titulo: "Substrato ideal",
         contexto: "Mistura leve para cesto suspenso com fundo aberto",
         resumo: "Partículas grossas mantêm umidade moderada e circulação de ar, sem compactar a saída das hastes florais pelo fundo.",
-        justificativa: "A receita principal textual e visual combinam chips de coco grossos preparados, casca de pinus média, perlita grossa e esfagno de fibra longa solto. As duas alternativas qualitativas são diferentes da principal e não devem ser confundidas com ela. Em Stanhopea, o cesto deve ter fundo realmente aberto: material, tela ou esfagno compactado não podem obstruir o trajeto das hastes descendentes. MACS 1.1: percentuais provisórios sem homologação quantitativa específica para o híbrido",
+        justificativa: "A receita principal textual e visual combinam chips de coco grossos preparados, casca de pinus média, perlita grossa e esfagno de fibra longa solto. A American Orchid Society indica, para o gênero, casca de abeto + perlita 3:1 como mistura comum em cestos, mas não testou este híbrido nem esta receita com coco e esfagno. As duas alternativas qualitativas são diferentes da principal e não devem ser confundidas com ela. Em Stanhopea, o cesto deve ter fundo realmente aberto: material, tela ou esfagno compactado não podem obstruir o trajeto das hastes descendentes. MACS 1.1: percentuais provisórios sem homologação quantitativa específica para o híbrido",
         receitaTexto: "40% chips de coco grossos preparados + 30% casca de pinus média + 20% perlita grossa + 10% esfagno de fibra longa solto.",
         perfil: ["Híbrido primário", "Hastes descendentes", "Cesto suspenso", "Umidade regular", "Fundo livre"],
         comportamento: [
@@ -61,18 +61,18 @@ export const stanhopeaAssidensis = {
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "10%", nota: "umidade", finalidade: "Oferece pequena reserva hídrica sem compactação." }
         ],
         alerta: "Não usar vaso fechado, tela densa nem fundo obstruído. Evitar esfagno compactado, secagem completa no crescimento, sol forte e replantio durante a formação de hastes florais.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Stanhopea Assidensis, híbrido primário S. tigrina × S. wardii, hastes florais descendentes; cesto suspenso com fundo livre é requisito funcional para floração. Suportes cachepô madeira 5 estrelas, plástico vasado 4 apenas se fundo amplamente aberto, raízes soltas/cesto aramado 3; notas não homologadas comparativamente. Receita visual 40% chips coco grossos + 30% pinus médio + 20% perlita grossa + 10% esfagno solto = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem; duas alternativas qualitativas distintas são apresentadas separadamente. Verificar se partículas e 10% esfagno não obstruem a passagem das hastes e se mantêm umidade sem compactação. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Stanhopea Assidensis, híbrido primário S. tigrina × S. wardii, hastes florais descendentes; cesto suspenso com fundo livre é requisito funcional para floração. Suportes cachepô madeira 5 estrelas, plástico vasado 4 apenas se fundo amplamente aberto, raízes soltas/cesto aramado 3; notas não homologadas comparativamente. Receita visual 40% chips coco grossos + 30% pinus médio + 20% perlita grossa + 10% esfagno solto = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem; duas alternativas qualitativas distintas são apresentadas separadamente. Verificar se partículas e 10% esfagno não obstruem a passagem das hastes e se mantêm umidade sem compactação. IOSPE atribui registro a Goldschmidt (1922), com parentais S. tigrina × S. wardii; OrchidWeb confirma parentais, data e aroma de baunilha. AOS recomenda, para Stanhopea em geral, cestos com fundo livre e casca de abeto + perlita 3:1 (orientação genérica, NÃO ensaio específico de Assidensis). Produto brasileiro Orquidário Maripá é cruzamento adicional S. nigroviolacea × Assidensis, NÃO Assidensis puro; receita do produto não valida esta grex. Zero produtores brasileiros com receita quantitativa específica da grex pura confirmados nesta passagem; meta de 25 não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: "Usar vaso fechado; bloquear o fundo da cesta; compactar o esfagno; deixar o substrato secar completamente durante o crescimento; manter a planta em ambiente abafado; expor ao sol forte; regar em excesso no inverno; replantar durante a formação de hastes florais.",
     dica: "O recipiente é o fator decisivo: mantenha a planta em cesto suspenso e confira regularmente a parte inferior. Uma haste floral pode se perder se encontrar madeira, tela apertada ou substrato compactado no caminho.",
     revisaoCientificaIAR: {
         "nome": "Stanhopea Assidensis",
-        "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Perfume intenso e flores de aparência quase escultórica! Stanhopea Assidensis é um híbrido primário de Stanhopea tigrina × Stanhopea wardii, registrado em 1922. Suas flores grandes e carnosas combinam tons creme a amarelos com pintas e manchas castanhas ou vinho, além da fragrância marcante típica do grupo. Como suas hastes florais crescem para baixo, o cultivo em cesta suspens",
-        "habitatAltitudeClima": "Herda afinidade por florestas úmidas montanas · parentais ~600–2.700 m. | Intermediário · úmido e muito ventilado.",
+        "statusTaxonomico": "Grex híbrida artificial registrada por Goldschmidt em 1922; parentais Stanhopea tigrina × Stanhopea wardii (IOSPE, OrchidWeb).",
+        "sinonimosPrincipais": "Não aplicar sinonímia de espécie botânica a esta grex híbrida.",
+        "morfologiaDimensoes": "Pseudobulbos robustos, folhas grandes pregueadas, inflorescências basais descendentes e flores carnosas manchadas, frequentemente com aroma semelhante à baunilha; variação entre clones.",
+        "habitatAltitudeClima": "Grex sem habitat próprio; cultivo intermediário e úmido inferido dos parentais e das recomendações genéricas da AOS.",
         "distribuicaoGeografica": "Sem distribuição natural · parentais do México à América Central e norte da América do Sul.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "cultivoPremiacao": "AOS recomenda cesto aberto e substrato genérico casca de abeto + perlita 3:1 para Stanhopea; sem ensaio da grex Assidensis.",
         "confianca": "media",
         "fontes": [
             "POWO/Kew",
