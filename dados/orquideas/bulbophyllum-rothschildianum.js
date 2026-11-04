@@ -69,7 +69,7 @@ export const bulbophyllumRothschildianum = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
-        "justificativa": "Fontes brasileiras específicas convergem em mistura arejada com pinus, carvão e musgo; caixeta e vaso são ambos praticados. Para clima quente, cachepô largo com reserva hídrica leve é hipótese coerente, não superioridade comprovada.",
+        "justificativa": "Bulbophyllum rothschildianum precisa de espaço para o crescimento lateral do rizoma e umidade regular com boa circulação de ar. Em cachepô largo, a casca de pinus oferece apoio, o carvão mantém a mistura aberta e os chips de coco e o esfagno solto ajudam a conservar umidade. Evite compactar os componentes e observe a secagem no centro do recipiente para ajustar as regas.",
         "receitaTexto": "35% pinus médio + 20% carvão vegetal + 25% chips de coco + 20% esfagno solto.",
         "perfil": ["Rizoma rasteiro", "Raízes epífitas", "Umidade regular", "Base exposta", "Boa aeração", "Secagem suave"],
         "comportamento": [
