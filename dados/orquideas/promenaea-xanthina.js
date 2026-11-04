@@ -57,8 +57,8 @@ export const promenaeaXanthina = {
         titulo: "Substrato ideal",
         contexto: "Mistura leve para vaso pequeno e ventilado",
         resumo: "Raízes frescas e úmidas, sem saturação. Pinus fino, perlita adequada a raízes delicadas e esfagno solto em pequena fração oferecem retenção moderada com boa aeração.",
-        justificativa: "Promenaea xanthina é uma miniatura epífita montana de raízes delicadas, que precisa de umidade regular, ventilação e temperaturas amenas, sobretudo à noite. Para vaso plástico vasado pequeno, a receita visual propõe pinus fino, perlita de granulometria compatível com raízes finas e esfagno de fibra longa solto, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não fundamentam os percentuais visuais. A montagem com pequena quantidade de esfagno é outro método, não a receita principal. Em clima quente, o substrato não substitui o resfriamento noturno. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
-        receitaTexto: "45% casca de pinus fina + 40% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto (proposta não homologada).",
+        justificativa: "Promenaea xanthina é uma miniatura epífita de ambientes montanos, com raízes delicadas que precisam de umidade regular, ventilação e temperaturas amenas, sobretudo à noite. Em vaso plástico pequeno e vasado, a casca de pinus fina oferece apoio, a perlita favorece a circulação de ar e o esfagno solto conserva uma reserva moderada de umidade. Uma montagem com pouco esfagno também pode ser utilizada, desde que as raízes não ressequem. Em clima quente, manter o substrato úmido não substitui noites mais frescas.",
+        receitaTexto: "45% casca de pinus fina + 40% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto.",
         perfil: ["Miniatura epífita", "Raízes sensíveis", "Clima ameno", "Umidade regular", "Boa ventilação"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
