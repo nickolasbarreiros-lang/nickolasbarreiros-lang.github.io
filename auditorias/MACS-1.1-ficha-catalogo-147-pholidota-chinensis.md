@@ -26,4 +26,4 @@ Workflow aprovado e carregamento das quatro fotos/assets verificado automaticame
 - Fonte: https://commons.wikimedia.org/wiki/File:Pholidota_chinensis_-_Flickr_003_(1).jpg
 - Licença: **Creative Commons Attribution 2.0 Generic (CC BY 2.0)** — https://creativecommons.org/licenses/by/2.0/
 - Modificações: nenhuma alteração editorial da imagem documentada nesta substituição; apenas a URL de exibição foi trocada.
-- **Obrigação ainda a conferir no front-end:** crédito e licença precisam ficar acessíveis ao público que vê a fotografia, não apenas neste relatório interno.
+- **Crédito implementado no front-end:** a galeria da ficha exibe autoria, link da obra no Wikimedia Commons, licença CC BY 2.0 e indicação de ausência de alterações, no commit `c8482958`. **Ainda falta confirmar a renderização final no navegador e inspecionar as capturas de tela.**
