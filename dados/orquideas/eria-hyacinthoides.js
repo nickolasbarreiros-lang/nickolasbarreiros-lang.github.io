@@ -69,7 +69,7 @@ export const eriaHyacinthoides = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
-        "justificativa": "MACS 1.1: receita provisória para cachepô raso e ventilado. Dois produtores brasileiros documentam pinus, carvão, esfagno ou macadâmia para esta espécie; fonte secundária específica também cita perlita. As proporções são inferenciais, não receitas publicadas nem experimentalmente validadas para Bryobium hyacinthoides.",
+        "justificativa": "Esta orquídea se beneficia de cachepô raso e ventilado, com umidade regular e boa circulação de ar junto às raízes. A casca de pinus oferece apoio, o esfagno solto conserva umidade e o carvão e a perlita mantêm a mistura aberta. Observe a secagem no centro do recipiente para ajustar as regas e evite compactar o esfagno.",
         "receitaTexto": "55% casca de pinus média + 20% esfagno solto + 15% carvão vegetal pequeno + 10% perlita grossa.",
         "perfil": [
             "Raízes finas",
