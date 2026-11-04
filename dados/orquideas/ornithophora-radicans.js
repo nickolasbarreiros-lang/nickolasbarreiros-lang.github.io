@@ -51,7 +51,7 @@ export const ornithophoraRadicans = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para cachepô ou vaso raso; placa sem substrato volumoso",
         resumo: "A montagem principal em placa prioriza raízes expostas e umidade regular. Em recipiente pequeno, a mistura documentada em partes iguais de pinus, carvão e esfagno requer boa aeração e controle da secagem.",
-        justificativa: "MACS 1.1: Orquídeas Encanto e Paixão recomenda para Ornithophora radicans partes iguais de Casca de pinus, Carvão vegetal e Esfagno em vaso/caixeta, com raízes aéreas expostas. Nhá Mercedes confirma qualitativamente os mesmos ingredientes; Oriental apresenta opção de Fibra de coco, pinus e carvão. R1 representa 1:1:1 por volume, arredondado para 34/33/33 apenas para fechar 100%; documentação B horticultural, não ensaio. Placa/tronco permanece suporte principal, sem mistura volumétrica.",
+        justificativa: "Ornithophora radicans se beneficia de montagem em placa ou tronco, mantendo as raízes aéreas expostas. Em vaso ou caixeta pequena, a casca de pinus oferece apoio, o carvão vegetal favorece a ventilação e o esfagno solto conserva umidade próxima às raízes. Distribua os materiais sem compactação e observe a secagem entre regas.",
         receitaTexto: "34% Casca de pinus + 33% Carvão vegetal + 33% Esfagno (equivalente arredondado a 1:1:1 por volume).",
         perfil: ["Miniatura epífita", "Raízes filiformes", "Touceira pendente", "Alta ventilação", "Umidade regular"],
         comportamento: [
