@@ -56,7 +56,7 @@ export const aciantheraSonderiana = {
         "🥈 Vaso pequeno e muito ventilado com esfagno solto.",
         "🥉 Cachepô pequeno com mistura fina, leve e altamente aerada."
     ],
-    substrato: ["55% Casca de pinus — fina/média + 25% Carvão vegetal — pequeno + 20% Esfagno — fibra longa (solto)","45% Chips de coco — pequenos + 30% Casca de arroz carbonizada + 25% Esfagno — fibra longa (solto)"],
+    substrato: ["Casca de pinus fina/média + Carvão vegetal pequeno + Esfagno de fibra longa solto", "Chips de coco pequenos preparados + Casca de arroz carbonizada + Esfagno de fibra longa solto"],
     formasCultivo: {
         perfilVisual: "micro-pleurothalidina",
         destaque: "Placa / tronco",
