@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 121 — Cattleya nobilior var. amaliae
-Data: 2026-11-04. EM ANDAMENTO. Não avançar à matriz 122 até encerramento.
+Data: 2026-11-04. ENCERRADA COMO AUDITADA; HOMOLOGAÇÃO QUANTITATIVA NÃO OBTIDA (D).
 
 ## Identidade e limites da evidência
 Denominação tradicional amaliae preservada para a forma de Cattleya nobilior. Ecologia sazonal inferida da espécie-base. Classe científica D — NÃO HOMOLOGADA quantitativamente. Não existem nesta auditoria experimentos comparativos das receitas nem consulta comprovada a 25 produtores independentes. Estrelas de métodos de cultivo anuladas por falta de validação quantitativa.
@@ -14,4 +14,7 @@ Sem perlita. Receitas são propostas horticulturais, não testes de superioridad
 ## Assets e fotos
 Quatro fotos existentes em imagens/Cattleya nobilior var. amaliae/. Dez chaves presentes na biblioteca: casca-pinus, carvao, brita-fina, casca-macadamia, argila-expandida, fibra-coco, placa-tronco, cesto-madeira, arvore-viva, vaso-barro.
 Correção publicada no commit f053b404c63449fdcf5d026605adb334118c1af6.
-Pendente Chromium desktop/mobile e encerramento técnico.
+Chromium desktop/mobile aprovado; encerramento técnico registrado.
+
+## Encerramento técnico — 2026-11-04
+Chromium/Playwright https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41766158463: **success** em todas as etapas, incluindo inspeção da ficha e upload das capturas. Quatro fotos e referências visuais confirmadas. Receitas A/B/C somam 100%, sem perlita. Estrelas de suportes nulas. Resultado científico final **D — sem homologação quantitativa**, por ausência de ensaios específicos e amostra documentada de 25 produtores independentes. Encerramento técnico sem pendências; insuficiência científica documentada. Liberada matriz 122.
