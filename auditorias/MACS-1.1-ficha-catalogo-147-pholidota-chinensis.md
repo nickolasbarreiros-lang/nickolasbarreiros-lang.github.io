@@ -20,3 +20,10 @@ Criado `.github/workflows/conferir-visual-macs-ficha-147.yml` no commit `dc1f53f
 
 ## Pendências de encerramento
 Workflow aprovado e carregamento das quatro fotos/assets verificado automaticamente. **Pendências remanescentes:** inspeção humana das capturas desktop/celular; conferir atribuição/licença da fotografia Wikimedia na ficha; manter classe D explicitamente não homologada quantitativamente. A aprovação do teste não constitui homologação científica.
+
+## Atribuição da quarta fotografia (Wikimedia Commons)
+- Obra: *Pholidota chinensis - Flickr 003 (1).jpg*, autoria **Elena Gaillard** (Flickr/orchidgalore), fotografia de 26/03/2011.
+- Fonte: https://commons.wikimedia.org/wiki/File:Pholidota_chinensis_-_Flickr_003_(1).jpg
+- Licença: **Creative Commons Attribution 2.0 Generic (CC BY 2.0)** — https://creativecommons.org/licenses/by/2.0/
+- Modificações: nenhuma alteração editorial da imagem documentada nesta substituição; apenas a URL de exibição foi trocada.
+- **Obrigação ainda a conferir no front-end:** crédito e licença precisam ficar acessíveis ao público que vê a fotografia, não apenas neste relatório interno.
