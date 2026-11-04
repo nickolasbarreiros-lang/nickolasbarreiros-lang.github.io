@@ -54,12 +54,12 @@ export const maxillariaPicta = {
         resumo: "Mistura 1:1 de vermiculita e carvão vegetal, avaliada experimentalmente na espécie em casa de vegetação; exige monitoramento da umidade.",
         justificativa: "Faria et al. (2001), em experimento brasileiro com 13 tratamentos e dez repetições, identificaram vermiculita + carvão e vermiculita + casca de arroz carbonizada entre as melhores alternativas ao xaxim para Maxillaria picta. Misturas 1:1 em volume; resultados obtidos em vasos cerâmicos e casa de vegetação, não garantidos em todo clima.",
         receitaTexto: "50% vermiculita + 50% carvão vegetal (1:1 em volume; mistura testada em Maxillaria picta por Faria et al., 2001).",
-        perfil: ["Epífita ou litófita", "Touceira densa", "Flores basais", "Noites amenas", "Secagem rápida"],
+        perfil: ["Epífita ou litófita", "Touceira densa", "Flores basais", "Noites amenas", "Umidade moderada sem saturação"],
         comportamento: [
-            { nome: "Retenção", valor: 2, icone: "💧" },
-            { nome: "Aeração", valor: 5, icone: "💨" },
-            { nome: "Secagem", valor: 4, icone: "⚡" },
-            { nome: "Compactação", valor: 1, icone: "🧱" }
+            { nome: "Retenção", valor: 4, icone: "💧" },
+            { nome: "Aeração", valor: 3, icone: "💨" },
+            { nome: "Secagem", valor: 2, icone: "⚡" },
+            { nome: "Compactação", valor: 3, icone: "🧱" }
         ],
         itens: [
             { asset: "vermiculita", nome: "Vermiculita", proporcao: "50%", nota: "retenção hídrica", finalidade: "Retém água; manter aeração e evitar compactação." },
