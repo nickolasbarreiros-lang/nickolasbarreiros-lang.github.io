@@ -33,3 +33,9 @@ Workflow `.github/workflows/conferir-visual-macs-ficha-149.yml` publicado no com
 - Arquivos WebP consultados para vaso específico, placa e árvore: o acesso encontrou conteúdo binário, mas o leitor textual não o decodifica; isso não é prova de carregamento correto no navegador.
 - Descrição editorial V4.9 conferida com 101 palavras; substrato principal 35+25+20+20=100 e duas alternativas sem percentuais.
 - A execução atual do GitHub Actions e as capturas desktop/mobile continuam pendentes de comprovação; **não encerrar a ficha sem essas evidências**.
+
+## Correção da tabela IDC 3.2
+- Detectada tabela histórica de faixas agrupadas (`26–50`) no objeto `indiceDificuldadeCultivo.faixas`.
+- Corrigida para 0–25 (5 estrelas), 26–35 (4), 36–50 (3), 51–89 (2), 90–100 (1), commit `535542bc`.
+- Índice 29/100 e classificação 4/5 preservados; pesos dos oito critérios e dados MACS não alterados.
+- A edição da ficha aciona nova execução do workflow da ficha 149; aguardar aprovação e inspeção de artefatos da versão atualizada.
