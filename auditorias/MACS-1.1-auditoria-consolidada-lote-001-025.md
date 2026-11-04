@@ -83,3 +83,9 @@ Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/in
 | 25 | Oncidium Twinkle | 111 | 55/25/10/10 | 100% | 2 | presentes |
 
 **Resultado parcial:** 25/25 fichas triadas estaticamente; as descrições fora do intervalo de 90–120 palavras detectadas foram ajustadas. Não há conclusão da auditoria integral. Falta verificação de URLs/imagens reais, assets, compilação e navegador desktop/mobile, checagem matemática integral IDC/IAR, fontes e homologação científica individual. Não avançar ao lote 26–50 como se o lote 1–25 estivesse integralmente homologado.
+
+## Auditoria matemática parcial — fichas 1–5 (2026-11-04)
+- Recalculado IDC 3.2 como soma de `notaDificuldade × peso / 5`, com oito critérios e pesos totais de 100: resultados 34, 48, 45, 30 e 56, todos iguais aos índices cadastrados.
+- Recalculados IAR 2.0 litoral/montanha com sete fatores e pesos totais de 100: Anathallis 80/97; Aerides 97/63; Epidendrum centropetalum 49/97; Miltonia russelliana 79/96; Promenaea xanthina 32/97. Todos iguais aos índices cadastrados.
+- Corrigidas cinco tabelas históricas de quatro faixas IDC para as cinco faixas do IDC 3.2: 0–25, 26–35, 36–50, 51–89, 90–100. Commits: `6affaf42`, `256da344`, `dcce98da`, `a03c5028`, `8d4d0165`.
+- **Limite:** verificação aritmética não prova pertinência científica das notas, das estrelas IAR ou das receitas. Inspeção de imagens, assets, testes JS/navegador e confronto de fontes continuam pendentes; fichas 1–5 não devem ser declaradas cientificamente homologadas.
