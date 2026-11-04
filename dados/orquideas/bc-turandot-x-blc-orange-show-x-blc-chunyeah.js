@@ -73,8 +73,8 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Mistura aberta de referência para Cattleyas, com pinus média predominante e carvão horticultural; secagem controlada em vaso de barro.",
-        "justificativa": "O Missouri Botanical Garden documenta cinco partes de casca de abeto de granulometria média para uma parte de carvão horticultural (5:1), equivalentes a aproximadamente 83,3% e 16,7%. A substituição da casca de abeto por casca de pinus média é uma adaptação de material, não reprodução literal da receita nem ensaio deste híbrido. AOS recomenda casca média/grossa, boa aeração e secagem entre regas. A receita anterior com 20% de brita e 15% de coco não possuía respaldo quantitativo específico e foi substituída. Em vaso de barro, observar a velocidade real de secagem.",
-        "receitaTexto": "83,3% casca de pinus média + 16,7% carvão vegetal horticultural (adaptação da proporção 5:1 com casca de abeto média documentada para Cattleyas; não homologada para este híbrido).",
+        "justificativa": "Este híbrido do grupo Cattleya se beneficia de raízes bem ventiladas e secagem perceptível entre regas. A casca de pinus média oferece sustentação e o carvão vegetal horticultural ajuda a manter a mistura aberta e drenante. Em vaso de barro, observe a velocidade real de secagem antes de regar novamente e evite compactar o substrato junto às raízes.",
+        "receitaTexto": "83,3% casca de pinus média + 16,7% carvão vegetal horticultural.",
         "perfil": [
             "Raízes grossas",
             "Alta aeração",
