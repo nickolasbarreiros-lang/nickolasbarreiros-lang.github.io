@@ -26,12 +26,12 @@ export const epidendrumCentropetalum = {
     regiao: "Sul do México · América Central até o Panamá",
     habitat: "Epífita de florestas montanas úmidas, geralmente entre 1.200 e 1.500 m.",
     clima: "Intermediário a fresco, úmido e muito ventilado.",
-    climaFloracao: "Floresce melhor com boa luminosidade filtrada, umidade elevada e noites mais frescas. No litoral quente, o ponto crítico é reduzir o superaquecimento noturno e manter forte circulação de ar. A planta não exige seca intensa para florescer, mas aprecia uma leve redução de água quando os caules já estão maduros.",
+    climaFloracao: "Floresce melhor com boa luminosidade filtrada, umidade elevada e noites mais frescas. Em clima quente, o ponto crítico é reduzir o superaquecimento noturno e manter forte circulação de ar. A planta não exige seca intensa para florescer, mas aprecia uma leve redução de água quando os caules já estão maduros.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
-        observacoes: "Na natureza pode ocorrer em condições relativamente claras, mas em cultivo no litoral quente é mais seguro oferecer luz filtrada intensa. Sombra excessiva produz caules fracos e reduz a floração; sol forte nas horas quentes pode desidratar rapidamente folhas e raízes aéreas."
+        observacoes: "Na natureza pode ocorrer em condições relativamente claras, mas em cultivo em clima quente é mais seguro oferecer luz filtrada intensa. Sombra excessiva produz caules fracos e reduz a floração; sol forte nas horas quentes pode desidratar rapidamente folhas e raízes aéreas."
     },
     floracao: "Tende a florescer do fim do inverno até a primavera e o início do verão, com variação conforme clima e maturação dos caules. Para o calendário do site, agosto a janeiro funciona como janela prática de referência.",
     adubacao: "🌿 Orgânica: bokashi apenas em pequena quantidade e preferencialmente em porta-adubo, longe das raízes expostas.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional em vaso ou cesto, usando poucos grânulos.\n🚿 Lavagem: faça regas periódicas apenas com água pura para evitar acúmulo de sais.",
@@ -47,10 +47,10 @@ export const epidendrumCentropetalum = {
         destaque: "Cachepô de Madeira",
         resumo: "Epífita montana de caules finos e raízes aéreas, com tendência a formar keikis. Precisa de umidade regular, boa luz filtrada, circulação constante e noites menos abafadas.",
         metodos: [
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô aberto e bem ventilado, com espaço para expansão dos caules, raízes aéreas e keikis." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Muito recomendado", texto: "Montagem em cortiça ou madeira com camada fina de esfagno sob as raízes, exigindo umidade frequente." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e muito perfurado, com mistura leve e sem água estagnada." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e bem drenado, com atenção à secagem acelerada das raízes delicadas." }
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Mais recomendado na ficha", texto: "Cachepô aberto e bem ventilado, com espaço para expansão dos caules, raízes aéreas e keikis." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Muito recomendado", texto: "Montagem em cortiça ou madeira com camada fina de esfagno sob as raízes, exigindo umidade frequente." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa", texto: "Vaso pequeno e muito perfurado, com mistura leve e sem água estagnada." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Uso condicional", texto: "Vaso pequeno e bem drenado, com atenção à secagem acelerada das raízes delicadas." }
         ]
     },
     substratoVisual: {
@@ -72,7 +72,7 @@ export const epidendrumCentropetalum = {
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "20%", nota: "retenção leve", finalidade: "Ajuda a evitar secagem prolongada sem encharcar." }
         ],
         alerta: "Evitar calor noturno abafado, sol forte do meio do dia, substrato encharcado e seca prolongada. Não retirar keikis antes de desenvolverem raízes suficientes.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Epidendrum centropetalum (sin. Oerstedella centradenia), epífita montana com caules finos, keikis e raízes aéreas; umidade regular, ventilação e noites menos abafadas são importantes. Cachepô de Madeira bem vazado é suporte principal; placa/tronco com esfagno fino é método alternativo, não receita principal. Receita visual e textual coincidem: 45% pinus fino + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Não fundamentam os percentuais visuais. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Epidendrum centropetalum (sin. Oerstedella centradenia), epífita montana com caules finos, keikis e raízes aéreas; umidade regular, ventilação e noites menos abafadas são importantes. Cachepô de Madeira bem vazado é suporte principal; placa/tronco com esfagno fino é método alternativo, não receita principal. Receita visual e textual coincidem: 45% pinus fino + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Não fundamentam os percentuais visuais. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
         "Cultivar em ambiente quente e sem circulação de ar",
@@ -84,7 +84,7 @@ export const epidendrumCentropetalum = {
         "Usar vaso grande e pouco aerado",
         "Expor ao sol forte do meio do dia"
     ],
-    dica: "🏆 Aproveite o hábito de formar keikis: em vez de removê-los cedo, deixe que criem raízes e ajudem a formar uma touceira cheia. No litoral quente, mantenha a planta em posição muito ventilada e com luz filtrada forte; noites menos abafadas costumam fazer mais diferença do que aumentar a adubação.",
+    dica: "🏆 Aproveite o hábito de formar keikis: em vez de removê-los cedo, deixe que criem raízes e ajudem a formar uma touceira cheia. Em clima quente, mantenha a planta em posição muito ventilada e com luz filtrada forte; noites menos abafadas costumam fazer mais diferença do que aumentar a adubação.",
     revisaoCientificaIAR: {
         "nome": "Epidendrum centropetalum",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
