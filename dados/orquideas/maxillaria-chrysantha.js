@@ -9,8 +9,8 @@ export const maxillariaChrysantha = {
     dificuldade: "Difícil",
     caracteristicas: [
         "Flores amarelo-ouro e perfumadas",
-        "Espécie montana brasileira",
-        "Flores de até cerca de 5 cm",
+        "Epífita sul-americana, também montana",
+        "Pseudobulbos estriados e bifoliados",
         "Prefere noites amenas"
     ],
     fotos: [
@@ -19,10 +19,10 @@ export const maxillariaChrysantha = {
         "imagens/Maxillaria chrysantha/Maxillaria chrysantha3.jpeg",
         "imagens/Maxillaria chrysantha/Maxillaria chrysantha4.jpeg"
     ],
-    descricao: "Uma Maxillaria brasileira que chama atenção pela cor: suas flores amarelo-ouro podem chegar a cerca de 5 cm e ainda apresentam perfume adocicado. É uma espécie de áreas serranas, encontrada em torno de 1.400 m, onde recebe umidade frequente, ar em movimento e noites naturalmente mais frescas. Por isso, cresce muito bem em regiões de altitude e exige mais atenção no litoral quente, sobretudo durante noites abafadas.",
+    descricao: "Maxillaria chrysantha é uma orquídea epífita de pseudobulbos ovoides, estriados e com duas folhas firmes, unidos por um rizoma que pode deixar espaços entre os brotos. Da base dos pseudobulbos surgem hastes individuais com flores vistosas, amarelo-ouro, de até cerca de 5 cm, frequentemente acompanhadas por perfume adocicado. As flores carnosas contrastam com a folhagem verde e podem aparecer em conjunto numa planta adulta. A espécie vive em ambientes florestais do Sul e Sudeste do Brasil e alcança o nordeste da Argentina. Registros de altitude mostram populações montanas, mas sua distribuição não se limita a uma única elevação.",
     origem: "Brasil",
-    regiao: "Sul do Brasil · áreas serranas",
-    habitat: "Epífita montana · cerca de 1.400 m.",
+    regiao: "Sul e Sudeste do Brasil · nordeste da Argentina",
+    habitat: "Epífita de ambientes florestais, incluindo áreas montanas; registros em torno de 1.400 m.",
     clima: "Intermediário a fresco · noites amenas.",
     climaFloracao: "IOSPE registra a espécie em torno de 1.400 m, com crescimento fresco e floração no inverno brasileiro. A maturação dos pseudobulbos sob boa luz filtrada, seguida por noites mais amenas, favorece a emissão floral. Isso não significa exigir frio extremo nem seca severa: a planta continua precisando de raízes hidratadas e oxigenadas, apenas com menor frequência de rega quando a evaporação cai.",
     iluminacao: {
@@ -35,7 +35,7 @@ export const maxillariaChrysantha = {
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade dentro de porta-adubo e afastado do rizoma.\n💧 Foliar/radicular: NPK equilibrado em 1/4 a 1/3 da dose a cada 10 a 15 dias durante raízes e brotos ativos.\n🧪 Liberação lenta: usar dose mínima e afastada das raízes novas. Faça flushing mensal apenas com água pura para reduzir sais.",
     rega: "Durante o crescimento, mantenha umidade regular, permitindo boa aeração entre regas. O substrato não deve secar completamente por períodos longos nem permanecer saturado. Após a maturação, aumente discretamente o intervalo. Em dias frios, úmidos ou nublados, ajuste a frequência à menor evaporação. Pseudobulbos enrugando progressivamente exigem inspeção das raízes antes de aumentar a água.",
     suporte: "🥇 Vaso de barro pequeno e bem furado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira vazado.\n🥉 Placa de madeira ou cortiça somente em ambiente fresco e úmido o suficiente para evitar desidratação rápida.",
-    substrato: ["Casca de pinus média + perlita grossa + esfagno de fibra longa solto + casca de macadâmia triturada","Fibra de coco grossa + chips de coco médios + perlita grossa + casca de pinus média"],
+    substrato: ["Casca de pinus média + perlita grossa + esfagno de fibra longa solto + casca de macadâmia triturada","Fibra de coco grossa preparada + chips de coco médios preparados + perlita grossa + casca de pinus média"],
     formasCultivo: {
         perfilVisual: "maxillaria-montana-raizes-sensiveis-calor",
         destaque: "Vaso de Barro",
@@ -51,8 +51,8 @@ export const maxillariaChrysantha = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso pequeno em ambiente ameno",
         resumo: "Substrato de partículas médias com umidade moderada, drenagem rápida e baixa compactação.",
-        justificativa: "A receita visual para vaso pequeno em ambiente ameno combina pinus médio, macadâmia triturada, perlita grossa e fibra de coco grossa. A receita principal textual e a visual coincidem. O esfagno integra apenas a primeira das duas alternativas qualitativas; a receita principal usa fibra de coco grossa. As referências ecológicas sobre hábito montano e noites amenas não validam os percentuais nem o ranking de recipientes. Proposta ainda não homologada pela MACS 1.1.",
-        receitaTexto: "35% casca de pinus média + 30% casca de macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa.",
+        justificativa: "A receita visual para vaso pequeno em ambiente ameno combina pinus médio, macadâmia triturada, perlita grossa e fibra de coco grossa preparada. Orquidário Oriental recomenda pinus ou esfagno com cascas e boa drenagem para a espécie, mas não informa proporções; a receita visual é hipótese quantitativa. A receita principal textual e a visual coincidem. O esfagno integra apenas a primeira das duas alternativas qualitativas; a receita principal usa fibra de coco grossa. As referências ecológicas sobre hábito montano e noites amenas não validam os percentuais nem o ranking de recipientes. Proposta ainda não homologada pela MACS 1.1.",
+        receitaTexto: "35% casca de pinus média + 30% casca de macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa preparada.",
         perfil: ["Epífita montana", "Noites amenas", "Raízes sensíveis", "Umidade moderada", "Boa ventilação"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -64,10 +64,10 @@ export const maxillariaChrysantha = {
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece suporte às raízes com umidade moderada." },
             { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "30%", nota: "drenagem", finalidade: "Mantém estrutura aberta e estável." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Amplia drenagem e espaços de ar." },
-            { asset: "fibra-coco", nome: "Fibra de coco grossa", proporcao: "10%", nota: "reserva hídrica", finalidade: "Retém pequena fração de umidade sem compactar." }
+            { asset: "fibra-coco", nome: "Fibra de coco grossa preparada", proporcao: "10%", nota: "reserva hídrica", finalidade: "Retém pequena fração de umidade sem compactar." }
         ],
         alerta: "O substrato não substitui noites amenas: calor noturno persistente pode limitar a floração. Evitar vaso grande, rizoma enterrado, substrato degradado e replante fora da emissão de raízes novas.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Maxillaria chrysantha (sin. Brasiliorchis chrysantha), epífita montana descrita na ficha como ocorrendo em torno de 1.400 m e favorecida por noites amenas. Vaso de barro 5 estrelas, cachepô madeira 4, placa e plástico vasado 3: escolha horticultural plausível, sem comparação controlada. Receita visual 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa = 100%. A receita principal textual coincide com o visual (35% pinus, 30% macadâmia, 25% perlita, 10% fibra de coco); esfagno consta apenas em uma alternativa qualitativa. Fontes botânicas citadas na ficha não homologam materiais nem proporções. Nenhum conjunto de até 25 recomendações específicas de produtores brasileiros verificado nesta passagem. Percentuais e estrelas NÃO HOMOLOGADOS; menu com exatamente duas alternativas, sem percentuais inventados."
+        notaEvidencia: "MACS 1.1 — revisão documental: Maxillaria chrysantha (sin. Brasiliorchis chrysantha), epífita montana descrita na ficha como ocorrendo em torno de 1.400 m e favorecida por noites amenas. Vaso de barro 5 estrelas, cachepô madeira 4, placa e plástico vasado 3: escolha horticultural plausível, sem comparação controlada. Receita visual 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa = 100%. A receita principal textual coincide com o visual (35% pinus, 30% macadâmia, 25% perlita, 10% fibra de coco); esfagno consta apenas em uma alternativa qualitativa. Fontes botânicas citadas na ficha não homologam materiais nem proporções. Orquidário Oriental (https://www.orquidariooriental.com.br/produto/brasiliorchis-chrysantha%2C53448/) recomenda boa drenagem, casca de pinus e esfagno com cascas para a espécie, sem percentuais; uma orientação comercial brasileira específica identificada, nenhuma receita quantitativa homologada. POWO confirma ocorrência no Sul/Sudeste do Brasil e nordeste da Argentina, não apenas áreas serranas. Percentuais e estrelas NÃO HOMOLOGADOS; menu com exatamente duas alternativas, sem percentuais inventados."
     },
     errosComuns: "Replantar fora do início de novas raízes; enterrar o rizoma; cobrir hastes basais; usar vaso grande; manter detritos deteriorados bloqueando botões; cultivar em calor noturno abafado; usar substrato saturado ou degradado; regar demais em períodos frios; dividir a touceira em porções pequenas; aplicar adubo concentrado.",
     dica: "Replante somente quando novas pontas radiculares estiverem surgindo. Preserve o máximo possível das raízes firmes e deixe a base dos pseudobulbos livre, pois é dali que saem as hastes. Para florir bem no litoral, concentre seus esforços em noites mais frescas, ventilação e baixa retenção de calor no vaso, em vez de provocar seca artificial.",
