@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 134 — Maxillaria brasiliensis
-Data: 2026-11-04. **EM ANDAMENTO**. Não avançar à matriz 135 até encerramento técnico.
+Data: 2026-11-04. **ENCERRADA TECNICAMENTE — classe científica D, sem homologação quantitativa.**
 
 ## Evidência e cultivo
 Maxillaria brasiliensis (sin. Heterotaxis brasiliensis): epífita compacta, raízes finas, touceira estável e umidade moderada com boa ventilação. Suporte principal proposto: vaso de barro pequeno e bem perfurado. Não afirmar superioridade experimental sem estudo.
@@ -16,4 +16,7 @@ Quatro fotos confirmadas em imagens/Maxillaria brasiliensis/. Assets casca-macad
 ## Classificação
 **D — NÃO HOMOLOGADA quantitativamente.** Não foram documentados ensaios comparativos específicos nem consulta individualizada a 25 produtores brasileiros independentes; percentuais são hipótese horticultural.
 
-Pendente teste Chromium desktop/mobile, capturas e encerramento técnico.
+Teste Chromium desktop/mobile aprovado, capturas confirmadas e encerramento técnico registrado.
+
+## Encerramento — 2026-11-04
+Execução Chromium/Playwright [41840036862](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41840036862): todas as etapas **success**, inclusive inspeção no navegador e upload de capturas. Artefato **13327754587**, `macs-134-inspecao-visual` (457103 bytes). Principal soma 100%; duas alternativas qualitativas sem percentuais; perlita preservada; estrelas dos suportes omitidas; quatro fotos e oito assets presentes. **Classe D — NÃO HOMOLOGADA quantitativamente**, sem ensaios comparativos específicos nem amostra documentada de 25 produtores independentes. Sem pendências técnicas detectadas pelo teste; matriz 135 liberada.
