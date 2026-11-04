@@ -55,7 +55,7 @@ export const trichocentrumFuscum = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal sem substrato; receita alternativa para vaso pequeno",
         resumo: "Em placa, não colocar material retentivo junto às raízes. Para vaso, partículas grossas e drenantes favorecem secagem rápida.",
-        justificativa: "A montagem principal em placa ou tronco dispensa substrato volumoso. Para vaso pequeno e perfurado, a receita visual adapta orientação brasileira específica de partes iguais de casca de pinus, carvão vegetal e pedra brita, arredondada para 34/33/33% a fim de totalizar 100%; não é um ensaio experimental. A receita textual e os itens visuais concordam. As duas outras misturas são alternativas qualitativas distintas, não quantificadas. A brita pode aumentar o peso do vaso e sua granulometria deve ser conferida para não compactar; controlar a secagem sem excesso de retenção. MACS 1.1: percentuais e classificação dos suportes sem homologação quantitativa específica",
+        justificativa: "Trichocentrum fuscum se beneficia de montagem em placa ou tronco, mantendo as raízes expostas e bem ventiladas. Para vaso pequeno e perfurado, a casca de pinus grossa oferece apoio, a brita limpa ajuda a manter a mistura aberta e o carvão vegetal favorece a drenagem. Escolha brita de granulometria compatível com o recipiente, observe o peso do vaso e ajuste as regas à secagem das raízes.",
         receitaTexto: "34% casca de pinus grossa + 33% brita fina de granulometria compatível + 33% carvão vegetal grosso.",
         perfil: ["Epífita", "Raízes expostas", "Baixa retenção", "Secagem rápida", "Ventilação elevada"],
         comportamento: [
