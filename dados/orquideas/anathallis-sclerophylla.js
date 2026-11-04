@@ -105,7 +105,7 @@ export const anathallisSclerophylla = {
             "SOSA, dicas gerais de cultivo e substratos — https://www.sosa.org.br/site/dicas-de-cultivo.php",
             "Embrapa, Cerrado: Ecologia e Flora, volume 2, capítulo 14, tabela de Orchidaceae — https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/570911/1/CERRADO-Ecologia-e-flora-VOL-2.pdf",
             "Colombian Plants/POWO, dados regionais de altitude na Colômbia (1.980–3.100 m) — https://colplanta.org/taxon/urn:lsid:ipni.org:names:77142174-1/general-information",
-            "Catálogo secundário de registros de premiações e sinonímia (não substitui consulta ao registro primário AOS) — https://orchids.herokuapp.com/grexes/anathallis-secunda"
+            "Catálogo secundário de registros de premiações e sinonímia (não substitui consulta ao registro primário AOS) — https://orchids.herokuapp.com/grexes/anathallis-sclerophylla"
         ]
     },
     indiceDificuldadeCultivo: {
