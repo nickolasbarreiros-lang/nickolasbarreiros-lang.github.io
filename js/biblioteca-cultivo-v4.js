@@ -72,7 +72,7 @@ export const bibliotecaCultivoV4 = {
         imagem: "imagens/cultivo-v4/vaso-barro-perfurado.webp"
     },
     "raizes-soltas": {
-        nome: "Raízes soltas",
+        nome: "Raízes Soltas",
         imagem: "imagens/cultivo-v4/raizes-soltas.webp"
     },
     "placa-tronco": {
@@ -96,7 +96,7 @@ export const bibliotecaCultivoV4 = {
         imagem: "imagens/cultivo-v4/cesto-plastico.webp"
     },
     "vaso-barro": {
-        nome: "Vaso de barro",
+        nome: "Vaso de Barro",
         imagem: "imagens/cultivo-v4/vaso-barro.webp"
     },
     "vaso-plastico": {
