@@ -91,17 +91,16 @@ export const anathallisSclerophylla = {
     revisaoCientificaIAR: {
         "nome": "Anathallis sclerophylla",
         "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Stelis sclerophylla.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
+        "sinonimosPrincipais": "Stelis sclerophylla (Lindl.) Pridgeon & M.W.Chase é o nome aceito no POWO/Kew; Anathallis sclerophylla (Lindl.) Pridgeon & M.W.Chase é o nome editorial usado nesta ficha.",
         "morfologiaDimensoes": "Erva epífita cespitosa, com raízes filiformes e folhas carnosas, oblongas. A revisão taxonômica brasileira de Santos, Toscano de Brito e Smidt (2019, Rodriguésia 70, e02722017) descreve plantas de 8–23 cm, folhas de 5,2–15 × 1,5–3 cm, racemos multifloros com até cerca de 40 flores branco-amareladas, sépalas estreitas de 8,5–16,2 mm e pétalas menores de 1,9–2,9 mm. Essas medidas referem-se aos espécimes examinados no estudo, não a limites universais de cultivo.",
         "habitatAltitudeClima": "Epífita de florestas úmidas e nebulosas, cerca de 480–3.100 m. | Intermediário a fresco, úmido e muito ventilado.",
         "distribuicaoGeografica": "Das Antilhas venezuelanas à América do Sul tropical, incluindo o Brasil; distribuição conforme POWO/Kew.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
+        "confianca": "Taxonomia e morfologia apoiadas por POWO/Kew e revisão taxonômica publicada; cultivo e percentuais MACS 1.1 não homologados quantitativamente.",
         "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
+            "POWO/Kew — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77142174-1",
+            "Santos, Toscano de Brito e Smidt (2019), Rodriguésia 70, e02722017, DOI 10.1590/2175-7860201970031",
+            "Sinopse florística do Parque Nacional de Boa Nova, Hoehnea — https://www.scielo.br/j/hoehnea/a/3ny9LMzTztYwyQJJnmJQ5tL/?lang=pt"
         ]
     },
     indiceDificuldadeCultivo: {
