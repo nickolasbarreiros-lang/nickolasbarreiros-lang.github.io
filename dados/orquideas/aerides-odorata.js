@@ -25,12 +25,12 @@ export const aeridesOdorata = {
     regiao: "Himalaia · sul da China · Sudeste Asiático · Malesia",
     habitat: "Epífita de florestas tropicais úmidas, com raízes expostas.",
     clima: "Quente a intermediário, úmido e muito ventilado.",
-    climaFloracao: "Floresce melhor quando adulta, bem iluminada e com raízes ativas. Não necessita frio intenso para indução floral. No litoral quente encontra condições muito favoráveis, desde que receba forte ventilação e as raízes sequem rapidamente após as regas.",
+    climaFloracao: "Floresce melhor quando adulta, bem iluminada e com raízes ativas. Não necessita frio intenso para indução floral. Em clima quente encontra condições muito favoráveis, desde que receba forte ventilação e as raízes sequem rapidamente após as regas.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
-        observacoes: "Aprecia luminosidade semelhante à de Vandas de exigência moderada. Sombra profunda reduz a floração; no litoral quente, evite sol forte do meio do dia e faça qualquer aumento de exposição gradualmente."
+        observacoes: "Aprecia luminosidade semelhante à de Vandas de exigência moderada. Sombra profunda reduz a floração; em clima quente, evite sol forte do meio do dia e faça qualquer aumento de exposição gradualmente."
     },
     floracao: "A época varia conforme a procedência. Em cultivo, primavera e verão são uma boa referência, com possibilidade de variação conforme temperatura, luminosidade e maturidade da planta.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade e preferencialmente em porta-adubo, sem contato direto com raízes expostas.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 7 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional, com poucos grânulos em cesto ou vaso.\n🚿 Lavagem: faça regas abundantes apenas com água periodicamente para reduzir o acúmulo de sais.",
@@ -45,10 +45,10 @@ export const aeridesOdorata = {
         destaque: "Raízes Soltas",
         resumo: "Como vandácea epífita de raízes grossas e aéreas, Aerides odorata responde melhor quando as raízes ficam muito livres, recebem água abundante e secam rapidamente com forte circulação de ar.",
         metodos: [
-            { nome: "Raízes Soltas", asset: "aerides-odorata-cultivo-ideal", estrelas: 5, status: "Ideal", texto: "É a condição mais próxima da lógica de cultivo das vandáceas: raízes totalmente arejadas, livres para crescer e secar rapidamente após regas generosas." },
-            { nome: "Árvore viva", asset: "arvore-viva", estrelas: 5, status: "Ideal", texto: "Excelente em clima quente e úmido quando a planta é firmemente presa ao tronco e as raízes podem aderir à casca e permanecer expostas ao ar." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para sustentar a planta sem confinar as raízes; use pouco ou nenhum substrato e permita que as raízes atravessem livremente as aberturas." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode funcionar quando o recipiente tem muitas aberturas laterais e inferiores e recebe apenas material muito grosso em pequeno volume, sem comprimir as raízes." },
+            { nome: "Raízes Soltas", asset: "aerides-odorata-cultivo-ideal", estrelas: null, status: "Ideal", texto: "É a condição mais próxima da lógica de cultivo das vandáceas: raízes totalmente arejadas, livres para crescer e secar rapidamente após regas generosas." },
+            { nome: "Árvore viva", asset: "arvore-viva", estrelas: null, status: "Ideal", texto: "Excelente em clima quente e úmido quando a planta é firmemente presa ao tronco e as raízes podem aderir à casca e permanecer expostas ao ar." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Muito recomendado", texto: "Boa alternativa para sustentar a planta sem confinar as raízes; use pouco ou nenhum substrato e permita que as raízes atravessem livremente as aberturas." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Adequado", texto: "Pode funcionar quando o recipiente tem muitas aberturas laterais e inferiores e recebe apenas material muito grosso em pequeno volume, sem comprimir as raízes." },
         ]
     },
     substrato: ["Casca de pinus grossa + chips de coco grossos preparados + carvão vegetal grosso","Casca de pinus grossa + perlita grossa + pequena quantidade de esfagno de fibra longa solto"],
@@ -73,7 +73,7 @@ export const aeridesOdorata = {
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "10%", nota: "reserva hídrica localizada", finalidade: "Ajuda a reduzir desidratação abrupta no calor, devendo ficar muito solto e em pequena quantidade." }
         ],
         alerta: "Não enterre nem force as raízes aéreas para dentro do recipiente. Deixe a maior parte das raízes livres. Em cesto ou vaso vasado, use somente material grosso e em pequeno volume.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Aerides odorata, vandácea monopodial epífita de raízes aéreas grossas. Raízes Soltas, sem substrato, é a forma principal; cesto ou vaso muito vazado pode receber mistura de apoio em pequeno volume, sem comprimir raízes. Receita visual e textual da mistura opcional coincidem: 45% pinus grosso + 35% carvão vegetal grosso + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas de apoio: pinus/chips de coco grossos preparados/carvão e pinus/perlita/pouco esfagno solto. A receita e alternativas não fundamentam percentuais específicos da espécie. Os identificadores casca-pinus, carvao-vegetal, casca-arroz-carbonizada e esfagno constam na biblioteca de cultivo; renderização não testada. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Aerides odorata, vandácea monopodial epífita de raízes aéreas grossas. Raízes Soltas, sem substrato, é a forma principal; cesto ou vaso muito vazado pode receber mistura de apoio em pequeno volume, sem comprimir raízes. Receita visual e textual da mistura opcional coincidem: 45% pinus grosso + 35% carvão vegetal grosso + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas de apoio: pinus/chips de coco grossos preparados/carvão e pinus/perlita/pouco esfagno solto. A receita e alternativas não fundamentam percentuais específicos da espécie. Os identificadores casca-pinus, carvao-vegetal, casca-arroz-carbonizada e esfagno constam na biblioteca de cultivo; renderização pendente de validação Chromium. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
         "Cultivar em sombra profunda e esperar floração abundante",
@@ -85,7 +85,7 @@ export const aeridesOdorata = {
         "Usar vaso grande e pouco ventilado",
         "Cortar raízes aéreas saudáveis apenas porque saíram do recipiente"
     ],
-    dica: "🏆 Pense nela mais como uma Vanda do que como uma orquídea de vaso convencional. Quanto mais livres e ventiladas estiverem as raízes, mais fácil será oferecer bastante água sem causar encharcamento. No litoral quente, cesto vazado, luz filtrada forte e regas generosas pela manhã formam uma combinação especialmente favorável.",
+    dica: "🏆 Pense nela mais como uma Vanda do que como uma orquídea de vaso convencional. Quanto mais livres e ventiladas estiverem as raízes, mais fácil será oferecer bastante água sem causar encharcamento. Em clima quente, cesto vazado, luz filtrada forte e regas generosas pela manhã formam uma combinação especialmente favorável.",
     revisaoCientificaIAR: {
         "nome": "Aerides odorata",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
@@ -223,8 +223,8 @@ export const aeridesOdorata = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Excelente A origem tropical combina muito bem com calor e umidade. Use 50% a 60% de sombreamento, raízes muito ventiladas e regas frequentes nos períodos quentes." },
-        montanhaFrio: { texto: "Boa Pode crescer bem em clima intermediário, mas deve ser protegida de frio intenso e de raízes molhadas durante noites frias." }
+        litoralQuente: { texto: "Excelente adaptação. A origem tropical combina muito bem com calor e umidade. Use 50% a 60% de sombreamento, raízes muito ventiladas e regas frequentes nos períodos quentes." },
+        montanhaFrio: { texto: "Boa adaptação. Pode crescer bem em clima intermediário, mas deve ser protegida de frio intenso e de raízes molhadas durante noites frias." }
     },
     mesesFloracao: [10, 11, 12, 1, 2],
     "selosCultivo": {
