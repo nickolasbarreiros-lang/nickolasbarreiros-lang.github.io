@@ -22,7 +22,7 @@ export const laeliaFournieri = {
         "imagens/Cattleya fournieri/Cattleya fournieri3.jpg",
         "imagens/Cattleya fournieri/Cattleya fournieri4.webp"
     ],
-    descricao: "Uma joia minúscula dos campos rupestres de Minas Gerais! Cattleya fournieri forma pequenas touceiras compactas, com folhas rígidas e flores de aproximadamente 2,5 a 3 cm — grandes em relação ao tamanho da planta. É encontrada em afloramentos rochosos de altitude, por volta de 1.100 a 1.800 m, onde recebe muita luz, vento e noites frescas. Por isso, no litoral quente, o maior desafio não é fazê-la “passar sede”, e sim manter raízes pequenas, arejadas e relativamente frescas durante o verão.",
+    descricao: "Uma joia minúscula dos campos rupestres, Cattleya fournieri forma touceiras compactas, com pseudobulbos curtos e folhas únicas, rígidas e carnosas. As hastes podem reunir de uma a sete flores claras, de aproximadamente 2,5 a 3 cm, com detalhes amarelos no labelo — um espetáculo delicado para uma planta tão pequena. Na natureza, ocupa fendas e saliências de afloramentos rochosos, em altitudes de cerca de 1.100 a 1.800 metros, onde a luminosidade intensa contrasta com noites mais frescas. Essa combinação de rocha, vento e amplitude térmica explica sua personalidade exigente, especialmente em ambientes permanentemente quentes.",
     origem: "Brasil",
     regiao: "Minas Gerais",
     habitat: "Campos rupestres · rochas · ~1.100–1.800 m.",
@@ -54,7 +54,7 @@ export const laeliaFournieri = {
         titulo: "Substrato ideal",
         contexto: "Mistura mineral para vaso baixo e muito perfurado",
         resumo: "Mistura de drenagem imediata, com fração orgânica reduzida, evitando calor e compactação nas raízes sensíveis.",
-        justificativa: "A receita visual quantifica uma mistura predominantemente mineral para vaso pequeno, raso e muito perfurado: 40% brita fina/média, 30% perlita grossa, 20% macadâmia triturada e 10% pinus grosso. A composição visual coincide com a receita textual principal e é acompanhada de apenas duas alternativas qualitativas. A espécie é rupícola e sensível ao aquecimento radicular; os percentuais são estimativas horticulturais, sem ensaio específico e NÃO homologadas pela MACS 1.1.",
+        justificativa: "A receita visual propõe, sem ensaio específico da espécie, uma mistura predominantemente mineral para vaso pequeno, raso e muito perfurado: 40% brita fina/média, 30% perlita grossa, 20% macadâmia triturada e 10% pinus grosso. A mistura soma 70% de componentes minerais e 30% orgânicos; há duas alternativas qualitativas distintas. A espécie é rupícola e sensível ao aquecimento radicular; os percentuais são estimativas horticulturais, sem ensaio específico e NÃO homologadas pela MACS 1.1.",
         receitaTexto: "40% brita fina/média + 30% perlita grossa + 20% casca de macadâmia triturada + 10% casca de pinus grossa.",
         perfil: ["Miniatura rupícola", "Raízes sensíveis ao calor", "Alta aeração", "Drenagem imediata", "Pouco volume de substrato"],
         comportamento: [
