@@ -53,7 +53,7 @@ export const laeliaCinnabarina = {
         titulo: "Substrato ideal",
         contexto: "Mistura predominantemente mineral para vaso baixo",
         resumo: "Mistura grossa, muito drenante e arejada, com pequena fração orgânica para estabilidade hídrica.",
-        justificativa: "A receita principal para vaso baixo combina 65% de materiais minerais (brita e perlita) e 35% de componentes orgânicos (macadâmia e pinus). Essa divisão é uma proposta de manejo, não uma proporção experimentalmente validada para a espécie. Estudo de Seidel Júnior e Venturieri com C. forbesii e Laelia purpurata demonstrou respostas diferentes conforme a espécie; não valida brita ou os percentuais para C. cinnabarina. As duas alternativas qualitativas usam outros materiais e não devem ser confundidas com a composição principal. O cultivo rupícola exige drenagem e aeração, mas também regas adequadas ao crescimento e proteção das raízes contra superaquecimento. MACS 1.1: sem homologação quantitativa específica",
+        justificativa: "Esta orquídea de hábito rupícola precisa de raízes bem ventiladas e drenagem rápida, sem deixar de receber água durante o crescimento. Em vaso baixo, a brita e a perlita mantêm a mistura aberta, enquanto as cascas de macadâmia e pinus oferecem apoio às raízes. Evite compactação, observe a secagem do recipiente e proteja as raízes do superaquecimento em períodos muito quentes.",
         receitaTexto: "35% brita fina/média + 30% perlita grossa + 25% casca de macadâmia triturada + 10% casca de pinus grossa.",
         perfil: ["Rupícola", "Alta luminosidade", "Raízes arejadas", "Drenagem rápida", "Hastes florais altas"],
         comportamento: [
