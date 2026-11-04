@@ -34,8 +34,8 @@ jobs:
             await page.goto('http://127.0.0.1:8765/orquidea.html?id=stelis-cf-aprica',{waitUntil:'networkidle',timeout:60000});
             const cultivation=page.locator('.formas-cultivo-v4');
             if(await cultivation.count()!==1)throw Error('Componente visual de cultivo ausente ou duplicado');
-            const cultivationMethods=page.locator('.formas-cultivo-v4 .forma-cultivo-v4');
-            if(await cultivationMethods.count()!==4)throw Error('Esperados quatro métodos de cultivo, incluindo o principal');
+            const cultivationMethods=page.locator('.formas-cultivo-v4 .forma-principal-v4, .formas-cultivo-v4 .alternativa-forma-v41');
+            if(await cultivationMethods.count()!==4)throw Error('Esperados 1 principal + 3 alternativas; encontrados '+await cultivationMethods.count());
             const cultivationText=await cultivation.innerText();
             if(!cultivationText.includes('Vaso plástico vasado')||!cultivationText.includes('Placa / tronco')||!cultivationText.includes('Cachepô de Madeira')||!cultivationText.includes('Árvore viva'))throw Error('Métodos de cultivo divergentes');
             const section=page.locator('.substrato-visual-v4');
