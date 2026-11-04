@@ -3,6 +3,10 @@ on:
   push:
     paths:
       - '.github/workflows/conferir-visual-macs-146.yml'
+      - 'dados/orquideas/cattleya-pumpkin-festival.js'
+      - 'orquidea.html'
+      - 'js/**'
+      - 'css/**'
   workflow_dispatch:
 jobs:
   conferir:
