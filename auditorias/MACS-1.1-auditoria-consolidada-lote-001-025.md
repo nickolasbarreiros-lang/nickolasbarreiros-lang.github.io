@@ -1,6 +1,6 @@
 # Auditoria consolidada MACS 1.1 / IDC 3.2 / IAR 2.0 / V4.9 — lote 1–25
 
-Data: 2026-11-04. **EM ANDAMENTO — fichas 1–10 verificadas estaticamente; auditoria integral e visual pendente.**
+Data: 2026-11-04. **EM ANDAMENTO — fichas 1–15 triadas estaticamente; auditoria integral e visual pendente.**
 
 Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/index.js` (não na ordem dos imports).
 
@@ -37,3 +37,18 @@ Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/in
 
 - **Pendência editorial confirmada nas fichas 6–10:** descrições abaixo do mínimo V4.9 de 90 palavras. As receitas somam 100%, mas não estão cientificamente homologadas por esse teste.
 - Inspeção de fotografias, assets, execução JS no navegador e validação científica individual ainda pendentes. Não declarar lote concluído.
+
+## Atualização adicional — fichas 6–15
+- Correções editoriais 6–10: Brassia lawrenceana 81→117 palavras (`092b168b`), Laelia splendida 80→117 (`f71d2971`), Encyclia alboxanthina 73→111 (`dfe5c5bf`), Phalaenopsis pulcherrima 84→117 (`ae2bf79a`), Dendrobium spectabile 87→117 (`90459d72`). Nenhuma receita alterada.
+- Triagem estática 11–15:
+
+| Nº | Ficha | Descrição (palavras) | Receita | Soma | Alternativas | MACS/Cultivo/IDC/IAR |
+|---|---|---:|---|---:|---:|---|
+| 11 | Cattleya Pumpkin Festival | 99 | 45/25/20/10 | 100% | 2 | presentes |
+| 12 | Dendrobium polysema | não detectada por expressão regular simples | 45/20/20/15 | 100% | 2 | presentes |
+| 13 | Bifrenaria verboonenii | 83 | 40/25/20/15 | 100% | 2 | presentes |
+| 14 | Bifrenaria aureofulva | 107 | 35/30/20/15 | 100% | 2 | presentes |
+| 15 | Sophronitis wittigiana | não detectada por expressão regular simples | 45/25/20/10 | 100% | 2 | presentes |
+
+- Pendência editorial confirmada na ficha 13 (83 palavras). Nas fichas 12 e 15, a ausência de correspondência no parser não prova ausência de descrição; requer leitura específica.
+- Conferência estática não prova que imagens carregam ou que percentuais estejam quantitativamente homologados. Lote continua aberto.
