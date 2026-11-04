@@ -91,7 +91,7 @@ export const anathallisSclerophylla = {
     revisaoCientificaIAR: {
         "nome": "Anathallis sclerophylla",
         "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Stelis sclerophylla.",
-        "sinonimosPrincipais": "Stelis sclerophylla (Lindl.) Karremans é o nome aceito no POWO/Kew (publicado em Lankesteriana 13: 330, 2014); Anathallis sclerophylla (Lindl.) Pridgeon & M.W.Chase é o sinônimo homotípico mantido como nome editorial nesta ficha. Basiônimo: Pleurothallis sclerophylla Lindl. (1835).",
+        "sinonimosPrincipais": "Nome aceito no POWO/Kew: Stelis sclerophylla (Lindl.) Karremans (2014). Nome editorial e sinônimo homotípico: Anathallis sclerophylla (Lindl.) Pridgeon & M.W.Chase (2001). Basiônimo: Pleurothallis sclerophylla Lindl. (1835). Outros sinônimos homotípicos: Humboltia sclerophylla (Lindl.) Kuntze (1891) e Specklinia sclerophylla (Lindl.) Luer (2004). Anathallis secunda Barb.Rodr. (1881) é sinônimo heterotípico segundo POWO, não outra espécie aceita.",
         "morfologiaDimensoes": "Erva epífita cespitosa, com raízes filiformes e folhas carnosas, oblongas. A revisão taxonômica brasileira de Santos, Toscano de Brito e Smidt (2019, Rodriguésia 70, e02722017) descreve plantas de 8–23 cm, folhas de 5,2–15 × 1,5–3 cm, racemos multifloros com até cerca de 40 flores branco-amareladas, sépalas estreitas de 8,5–16,2 mm e pétalas menores de 1,9–2,9 mm. Essas medidas referem-se aos espécimes examinados no estudo, não a limites universais de cultivo.",
         "habitatAltitudeClima": "Epífita de florestas tropicais úmidas, também registrada em mata de galeria associada a campo rupestre. Para populações colombianas, Useful Plants and Fungi of Colombia (reproduzido por Colombian Plants/POWO) informa 1.980–3.100 m; esse intervalo é regional, NÃO a faixa altitudinal global da espécie. Umidade e aeração são inferências de manejo, não resultados de ensaio específico.",
         "distribuicaoGeografica": "Das Antilhas venezuelanas à América do Sul tropical, incluindo o Brasil; distribuição conforme POWO/Kew.",
@@ -99,6 +99,7 @@ export const anathallisSclerophylla = {
         "confianca": "Taxonomia e morfologia apoiadas por POWO/Kew e revisão taxonômica publicada; cultivo e percentuais MACS 1.1 não homologados quantitativamente.",
         "fontes": [
             "POWO/Kew — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77142174-1",
+            "POWO/Kew, sinonímia heterotípica Anathallis secunda — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:615791-1",
             "Santos, Toscano de Brito e Smidt (2019), Rodriguésia 70, e02722017, DOI 10.1590/2175-7860201970031",
             "Sinopse florística do Parque Nacional de Boa Nova, Hoehnea — https://www.scielo.br/j/hoehnea/a/3ny9LMzTztYwyQJJnmJQ5tL/?lang=pt",
             "Gomes (2024), dissertação UFC, levantamento da Serra de Maranguape — https://repositorio.ufc.br/bitstream/riufc/76914/5/2024_dis_mmgomes.pdf",
