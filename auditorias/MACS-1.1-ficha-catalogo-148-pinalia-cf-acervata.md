@@ -17,3 +17,8 @@ Data: 2026-11-04. **EM AUDITORIA TÉCNICA — NÃO ENCERRADA.** Posição 148 no
 4. Registrar resultado do workflow e eventuais correções com evidência; só então encerrar tecnicamente e liberar ficha 149.
 
 **Regra de fluxo:** não avançar à ficha 149 enquanto esta ficha não estiver tecnicamente encerrada.
+
+## Complemento documental — teste e nomenclatura
+- Workflow de verificação visual criado no commit aaf8f768: `.github/workflows/conferir-visual-macs-ficha-148.yml`. Resultado ainda não confirmado.
+- Referências para verificação botânica: Plants of the World Online (Kew), Flora of China e Flora of Thailand. A aceitação do nome científico não comprova a identificação individual do exemplar; manter `cf.` até análise morfológica documentada.
+- Diferenças entre medidas descritivas publicadas exigem atribuição precisa de cada dado à sua fonte. Não afirmar que uma única flora respalda todas as medidas da ficha.
