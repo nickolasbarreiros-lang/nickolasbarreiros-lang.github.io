@@ -51,7 +51,7 @@ export const lockhartiaLunifera = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para cesto ou vaso raso",
         resumo: "Pinus, carvão e esfagno solto em partes iguais, em cesto ou vaso raso ventilado; montagem permanece preferencial.",
-        justificativa: "A montagem inclinada em placa/tronco permanece principal. Um relato brasileiro específico de cultivo de Lockhartia lunifera (Orquídeas Encanto e Paixão) descreve partes iguais de pinus, carvão e esfagno para vasos ou caixetas rasas. A receita 1:1:1 é rastreável, porém NÃO foi validada por ensaio comparativo. AOS orienta para o gênero umidade frequente com secagem radicular; a presença de esfagno exige controle de ventilação e saturação.",
+        justificativa: "Lockhartia lunifera se beneficia de montagem inclinada em placa ou tronco, com raízes ventiladas e umidade frequente sem saturação prolongada. Em vaso ou caixeta rasa, a casca de pinus oferece apoio, o carvão preserva espaços de ar e o esfagno de fibra longa solto ajuda a conservar umidade. Observe a secagem do suporte e mantenha boa ventilação, evitando compactar o esfagno.",
         receitaTexto: "Partes iguais (1:1:1 em volume): 33,3% casca de pinus média + 33,3% carvão vegetal + 33,4% esfagno de fibra longa solto (três partes iguais em volume; 0,1 ponto percentual é somente arredondamento).",
         perfil: ["Epífita sem pseudobulbos", "Caules pendentes", "Umidade regular", "Boa ventilação", "Secagem superficial rápida"],
         comportamento: [
