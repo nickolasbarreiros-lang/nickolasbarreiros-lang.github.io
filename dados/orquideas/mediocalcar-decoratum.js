@@ -76,7 +76,7 @@ export const mediocalcarDecoratum = {
         "nome": "Mediocalcar decoratum",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma pequena joia das montanhas da Nova Guiné! Esta micro-orquídea forma tapetes compactos de folhas carnosas e produz flores de apenas cerca de 6 mm, em formato de sininho, com cores que lembram pequenos doces alaranjados e amarelos. Apesar da aparência delicada, pode ocorrer numa faixa ampla de temperaturas; o ponto realmente importante é reproduzir seu ambiente montano úmido,",
+        "morfologiaDimensoes": "Uma pequena joia das montanhas da Nova Guiné! Esta micro-orquídea forma tapetes compactos de folhas carnosas e produz flores de apenas cerca de 6 mm, em formato de sininho, com cores que lembram pequenos doces alaranjados e amarelos.",
         "habitatAltitudeClima": "Floresta montana úmida · 900–2.500 m. | Intermediário a fresco · úmido e ventilado.",
         "distribuicaoGeografica": "Montanhas da Nova Guiné.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
