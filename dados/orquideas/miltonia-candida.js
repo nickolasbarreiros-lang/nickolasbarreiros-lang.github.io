@@ -10,8 +10,8 @@ export const miltoniaCandida = {
     "caracteristicas": [
         "Flores castanho-amareladas com labelo branco",
         "Inflorescências eretas multiflorais",
-        "Raízes finas sensíveis a sais",
-        "Folhas sujeitas ao efeito sanfona",
+        "Pseudobulbos ovais comprimidos e bifoliados",
+        "Flores cerosas e perfumadas de até 7,5 cm",
         "Miltonia brasileira da Mata Atlântica"
     ],
     "fotos": [
@@ -20,7 +20,7 @@ export const miltoniaCandida = {
         "imagens/Miltonia candida/Miltonia candida3.jpg",
         "imagens/Miltonia candida/Miltonia candida4.jpg"
     ],
-    "descricao": "Uma das Miltonia brasileiras mais elegantes! Suas flores cerosas combinam tons castanho-amarelados com um grande labelo branco e ondulado, responsável pelo nome candida, em referência à sua aparência clara. As hastes podem chegar a cerca de 60 cm e carregar de 3 a 7 flores perfumadas, com até aproximadamente 7,5 cm. Nativa do Sudeste brasileiro, ocorre em altitudes por volta de 500–800 m e tolera bem condições intermediárias a quentes, desde que as raízes finas permaneçam arejadas e recebam umidade regular.",
+    "descricao": "Miltonia candida é uma orquídea epífita brasileira reconhecida pelo contraste de suas flores: sépalas e pétalas em tons castanhos e amarelos cercam um labelo branco, largo e ondulado. Os pseudobulbos ovais, um pouco comprimidos, sustentam duas folhas alongadas. Na primavera e no verão, hastes eretas ou arqueadas podem alcançar cerca de 60 cm e reunir de três a sete flores cerosas e perfumadas, de até aproximadamente 7,5 cm. Encontrada em florestas do Sudeste brasileiro, também é conhecida historicamente como Anneliesia candida. O desenho floral e o labelo claro conferem à espécie uma aparência especialmente marcante.",
     "origem": "Brasil",
     "regiao": "Sudeste brasileiro",
     "habitat": "Mata Atlântica · epífita · ~500–800 m.",
@@ -52,7 +52,7 @@ export const miltoniaCandida = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso plástico pequeno e perfurado",
         resumo: "Equilíbrio entre umidade regular e boa drenagem, protegendo raízes finas durante a formação de novos pseudobulbos.",
-        justificativa: "A receita principal para vaso plástico pequeno e perfurado combina pinus médio, chips de coco pequenos preparados, perlita de granulometria compatível com as raízes e carvão vegetal; texto e itens visuais coincidem. As duas alternativas qualitativas são diferentes da principal e não equivalem a uma fórmula validada. Para as raízes finas de Miltonia candida, acompanhar a retenção dos chips e a velocidade de secagem, sem compactação nem saturação. Usar água de baixa salinidade e remover sais acumulados por lavagem periódica. MACS 1.1: proporções provisórias sem homologação quantitativa específica",
+        justificativa: "A receita principal para vaso plástico pequeno e perfurado combina pinus médio, chips de coco pequenos preparados, perlita de granulometria compatível com as raízes e carvão vegetal; ensaio brasileiro com Miltonia clowesii, espécie distinta, não homologa esta receita para M. candida; texto e itens visuais coincidem. As duas alternativas qualitativas são diferentes da principal e não equivalem a uma fórmula validada. Para as raízes finas de Miltonia candida, acompanhar a retenção dos chips e a velocidade de secagem, sem compactação nem saturação. Usar água de baixa salinidade e remover sais acumulados por lavagem periódica. MACS 1.1: proporções provisórias sem homologação quantitativa específica",
         receitaTexto: "35% casca de pinus média + 30% chips de coco pequenos preparados + 25% perlita de granulometria compatível com as raízes + 10% carvão vegetal.",
         perfil: ["Miltonia epífita", "Raízes finas", "Umidade homogênea", "Drenagem eficiente", "Baixa salinidade"],
         comportamento: [
@@ -65,21 +65,21 @@ export const miltoniaCandida = {
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Mantém apoio radicular e umidade moderada." },
             { asset: "chips-coco", nome: "Chips de coco pequenos preparados", proporcao: "30%", nota: "reserva hídrica", finalidade: "Ajuda a manter umidade estável durante o crescimento." },
             { asset: "perlita", nome: "Perlita de granulometria adequada", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para estrutura aberta e circulação de ar." }
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para estrutura aberta e circulação de ar." }
         ],
         alerta: "Evitar vaso grande, substrato decomposto, sais acumulados e secas durante expansão foliar. O efeito sanfona pode indicar falta de água ou perda de raízes.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Miltonia candida, epífita de raízes finas sensíveis a sais e secagem prolongada, pede umidade homogênea com drenagem e vaso pequeno ventilado. Suportes plástico vasado 5 estrelas, barro e cachepô madeira 4, placa/tronco 3; notas não homologadas. Receita visual 35% pinus médio + 30% chips coco + 25% perlita grossa + 10% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem; as duas alternativas qualitativas são distintas e não equivalem à principal. Validar retenção para raízes finas e efeito sanfona, aeração e controle de sais; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Miltonia candida, epífita de raízes finas sensíveis a sais e secagem prolongada, pede umidade homogênea com drenagem e vaso pequeno ventilado. Suportes plástico vasado 5 estrelas, barro e cachepô madeira 4, placa/tronco 3; notas não homologadas. Receita visual 35% pinus médio + 30% chips coco + 25% perlita de granulometria adequada + 10% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem; as duas alternativas qualitativas são distintas e não equivalem à principal. Validar retenção para raízes finas e efeito sanfona, aeração e controle de sais; meta até 25 produtores brasileiros específicos não atingida. POWO aceita Miltonia candida Lindl. (1838), epífita do Sudeste brasileiro, e reconhece Anneliesia candida e Oncidium candidum (homônimo posterior ilegítimo) como sinônimos homotípicos. IOSPE descreve pseudobulbos ovais comprimidos bifoliados, hastes de até 60 cm com 3–7 flores perfumadas de até 7,5 cm, em 500–800 m. Ensaio brasileiro de Schnitzer et al. (2010) testou misturas de pinus, fibra de coco, casca de arroz carbonizada e carvão vegetal em mudas de Miltonia clowesii e Cattleya intermedia, não nesta espécie; não extrapolar os resultados. Nenhuma receita quantitativa brasileira específica de Miltonia candida foi confirmada nesta passagem; meta até 25 produtores não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     "errosComuns": "❌ Substrato decomposto: sufoca e elimina as raízes finas.\n❌ Vaso grande: acumula água no centro e favorece podridão.\n❌ Falta de água durante expansão foliar: causa efeito sanfona irreversível.\n❌ Sombra excessiva: forma folhagem escura, mas reduz hastes.\n❌ Acúmulo de sais: queima pontas radiculares e amarelece folhas.\n❌ Água retida no centro do broto durante noites abafadas: favorece podridão bacteriana ou fúngica.",
     "dica": "O objetivo é formar um pseudobulbo novo cheio e vigoroso sem perder as raízes. Durante a expansão das folhas, mantenha água regular, substrato aerado e fertilização diluída. Quando surgir efeito sanfona, inspecione primeiro o sistema radicular. Replante assim que a casca começar a degradar, preferencialmente na emissão das primeiras raízes novas. O flushing mensal reduz sais e preserva as pontas radiculares que alimentarão a floração seguinte.",
     revisaoCientificaIAR: {
         "nome": "Miltonia candida",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma das Miltonia brasileiras mais elegantes! Suas flores cerosas combinam tons castanho-amarelados com um grande labelo branco e ondulado, responsável pelo nome candida, em referência à sua aparência clara. As hastes podem chegar a cerca de 60 cm e carregar de 3 a 7 flores perfumadas, com até aproximadamente 7,5 cm. Nativa do Sudeste brasileiro, ocorre em altitudes por volta de",
+        "statusTaxonomico": "Miltonia candida Lindl. (1838), espécie aceita em POWO; Anneliesia candida é sinônimo homotípico.",
+        "sinonimosPrincipais": "Anneliesia candida (homotípico); Oncidium candidum (homotípico, homônimo posterior ilegítimo); Miltonia candida var. flavescens, var. grandiflora e var. purpureoviolacea (heterotípicos). Fonte: POWO.",
+        "morfologiaDimensoes": "Epífita de pseudobulbos ovoides comprimidos, bifoliados; inflorescência ereta ou arqueada até 60 cm com 3–7 flores cerosas perfumadas, de até 7,5 cm, com labelo branco amplo e segmentos amarelo-acastanhados (IOSPE).",
         "habitatAltitudeClima": "Mata Atlântica · epífita · ~500–800 m. | Intermediário a quente · ventilado.",
         "distribuicaoGeografica": "Sudeste brasileiro.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "cultivoPremiacao": "Ensaio brasileiro de Schnitzer et al. (2010) estudou Miltonia clowesii e Cattleya intermedia, não M. candida; nenhuma mistura específica da espécie foi quantitativamente homologada.",
         "confianca": "alta",
         "fontes": [
             "POWO/Kew",
