@@ -50,7 +50,7 @@ export const epicattleyaReneMarques = {
         titulo: "Substrato ideal",
         contexto: "Mistura para vaso firme e bem drenado",
         resumo: "Partículas médias e grossas que sustentam a planta vigorosa sem reter água continuamente.",
-        justificativa: "A receita visual combina macadâmia média, pinus médio, perlita grossa e carvão vegetal; a formulação visual corresponde à receita textual principal, com exatamente duas alternativas qualitativas. Orquídeas & Cia e Orquidário Mogi Mirim recomendam misturas abertas para o próprio grex, mas não fornecem percentuais; a orientação geral para Cattleyas também não valida esta fórmula. Proposta horticultural ainda não homologada pela MACS 1.1.",
+        justificativa: "Epicattleya René Marques se beneficia de raízes ventiladas e de uma mistura que seque parcialmente entre regas. As cascas de macadâmia e pinus oferecem estrutura, enquanto a perlita e o carvão mantêm a drenagem e os espaços de ar. Em recipiente bem aberto, observe a secagem do centro da mistura e ajuste as regas à emissão de raízes novas, evitando encharcamento prolongado.",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Híbrido intergenérico", "Caules altos", "Hastes terminais", "Alta luminosidade", "Raízes aeradas"],
         comportamento: [
