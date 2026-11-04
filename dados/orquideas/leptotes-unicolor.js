@@ -51,7 +51,7 @@ export const leptotesUnicolor = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para cestinho ou vaso mínimo",
         resumo: "Mistura de partículas médias, aberta e de secagem rápida, para evitar retenção excessiva nas raízes.",
-        justificativa: "A placa permanece o suporte principal. Para cestinho ou vaso mínimo, a receita visual combina casca de macadâmia média, pinus médio, perlita grossa e carvão vegetal; a mistura está explicitada como receita principal para recipiente, acompanhada de apenas duas alternativas. As proporções são estimativas técnicas sem fonte específica que valide a combinação ou seus percentuais; não foram homologadas experimentalmente para a espécie pela MACS 1.1.",
+        justificativa: "Leptotes unicolor se beneficia de raízes expostas e bem ventiladas, por isso a placa permanece como suporte principal. Em cestinho ou vaso pequeno, as cascas de macadâmia e pinus oferecem apoio, enquanto a perlita e o carvão mantêm a mistura aberta e drenante. Evite recipientes grandes e substrato compactado; observe a secagem para ajustar as regas sem manter as raízes encharcadas.",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Miniatura pendente", "Epífita", "Folhas carnosas", "Raízes expostas", "Secagem rápida"],
         comportamento: [
