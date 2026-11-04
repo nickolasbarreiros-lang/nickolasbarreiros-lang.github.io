@@ -43,6 +43,7 @@ jobs:
             await page.waitForFunction(() => [...document.querySelectorAll('#ficha img:not(#foto-ampliada-v2)')].every(img => img.complete),null,{timeout:20000});
             const images=await page.locator('#ficha img:not(#foto-ampliada-v2)').evaluateAll(nodes=>nodes.map(img=>({src:img.getAttribute('src'),loaded:img.complete&&img.naturalWidth>0})));
             const broken=images.filter(img=>!img.loaded);
+            console.log('IMAGENS DESKTOP:', JSON.stringify(images));
             if(broken.length)throw Error('Imagens não carregadas: '+JSON.stringify(broken));
             const mainParts=await page.locator('.ingrediente-substrato-v4 .proporcao-substrato-v4').allTextContents();
             if(mainParts.map(s=>s.trim()).join('|')!=='30%|25%|20%|15%|10%')throw Error('Proporções principais divergentes: '+mainParts.join(' | '));
@@ -63,6 +64,7 @@ jobs:
             if(mobileTexts.some(t=>/\b\d+\s*%/.test(t)))throw Error('Alternativas com percentuais na versão celular: '+mobileTexts.join(' | '));
             const mobileImages=await page.locator('#ficha img:not(#foto-ampliada-v2)').evaluateAll(nodes=>nodes.map(img=>({src:img.getAttribute('src'),loaded:img.complete&&img.naturalWidth>0})));
             const mobileBroken=mobileImages.filter(img=>!img.loaded);
+            console.log('IMAGENS MOBILE:', JSON.stringify(mobileImages));
             if(mobileBroken.length)throw Error('Imagens não carregadas no celular: '+JSON.stringify(mobileBroken));
             const mobileParts=await page.locator('.ingrediente-substrato-v4 .proporcao-substrato-v4').allTextContents();
             if(mobileParts.map(s=>s.trim()).join('|')!=='30%|25%|20%|15%|10%')throw Error('Proporções alteradas na versão celular');
