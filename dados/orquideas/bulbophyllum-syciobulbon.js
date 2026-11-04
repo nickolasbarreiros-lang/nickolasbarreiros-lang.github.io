@@ -76,9 +76,9 @@ export const bulbophyllumSyciobulbon = {
     substratoVisual: {
         "titulo": "Substrato ideal",
         "contexto": "Receita para vaso plástico vasado amplo e raso, com rizoma exposto",
-        "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
-        "justificativa": "Bulbophyllum sicyobulbon é epífita de rizoma espaçado, que requer espaço para expansão lateral, raízes ventiladas e umidade moderada. O vaso plástico vasado amplo e raso permanece como proposta principal provisória; placa longa ou cachepô amplo podem acomodar melhor o avanço do rizoma. A receita visual combina pinus médio, chips de coco médios preparados, perlita de granulometria compatível com raízes finas e esfagno de fibra longa solto, totalizando 100%. As duas outras misturas são alternativas qualitativas sem percentuais. Noites frescas não são substituídas por substrato mais úmido. MACS 1.1: inferência horticultural não homologada quantitativamente.",
-        "receitaTexto": "40% casca de pinus média + 20% chips de coco médios preparados + 25% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto (proposta não homologada).",
+        "resumo": "Mistura arejada para recipiente amplo e raso; ajustar granulometria, rega e ventilação.",
+        "justificativa": "Bulbophyllum sicyobulbon possui rizoma espaçado e precisa de espaço para crescer lateralmente, com raízes ventiladas e umidade moderada. O vaso plástico vasado, amplo e raso favorece essa expansão; uma placa longa ou um cachepô amplo também podem acomodar o avanço do rizoma. A casca de pinus e os chips de coco dão estrutura à mistura, a perlita melhora a aeração e o esfagno solto ajuda a conservar umidade sem compactar as raízes. Mantenha o rizoma exposto e ajuste as regas conforme a secagem. A umidade do substrato não substitui noites mais frescas.",
+        "receitaTexto": "40% casca de pinus média + 20% chips de coco médios preparados + 25% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto.",
         "perfil": ["Rizoma trepador", "Crescimento lateral", "Raízes epífitas", "Secagem parcial", "Boa aeração", "Umidade variável"],
         "comportamento": [
             {
