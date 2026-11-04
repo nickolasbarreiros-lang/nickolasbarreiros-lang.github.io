@@ -326,3 +326,10 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - O registro de Tiruwa et al. (2024) no Annapurna Conservation Area documenta espécie em 800–1200 m e floração maio–junho. Não confundir intervalo regional com faixa altitudinal global.
 - `revisaoCientificaIAR` recebeu referências verificáveis e declaração de confiança por domínio; as quatro modalidades de cultivo estão sem estrelas e agora qualificadas como provisórias/condicionais. Receita 45/35/10/10 preservada e duas alternativas qualitativas mantidas. Descrição editorial ajustada ao limite de 120 palavras.
 - **Resultado: homologação documental concluída, MACS 1.1 provisória Classe D; percentuais e comparação quantitativa de suportes não homologados.** Não há evidência de ensaio específico ou levantamento de até 25 produtores brasileiros nesta rodada. Verificação visual local permanece etapa separada.
+
+### Ficha 3 — Epidendrum centropetalum (2026-11-04)
+- Taxonomia confirmada em POWO/WFO: *Epidendrum centropetalum* Rchb.f. (1852) aceito; *Oerstedella centropetala* homotípico; *Oerstedella centradenia* heterotípico. Não confundir com homônimo ilegítimo de 1855 relacionado a *E. viridibrunneum*.
+- Distribuição: México (Chiapas) e América Central até Panamá (POWO). Morfologia, 4–13 flores e altitude regional aproximada de 1.200–1.500 m segundo IOSPE; não generalizar essa faixa a toda a distribuição.
+- Registro AOS de forma albiflora corresponde a parecer de identificação com ressalva, não a confirmação de premiação nem a ensaio de cultivo.
+- Receita principal **45% pinus fino + 35% perlita + 20% esfagno = 100%** preservada, duas alternativas qualitativas preservadas, suportes sem estrelas. Classificações de superioridade reescritas como preferências provisórias.
+- **Encerramento documental da ficha 3:** MACS 1.1 Classe D; sem homologação quantitativa de percentuais ou superioridade dos suportes. Verificação visual local ainda separada. Fontes registradas na ficha.
