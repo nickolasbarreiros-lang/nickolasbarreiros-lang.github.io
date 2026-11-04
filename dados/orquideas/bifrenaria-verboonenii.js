@@ -24,7 +24,7 @@ export const bifrenariaVerboonenii = {
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii3.jpg",
         "imagens/Bifrenaria verboonenii/Bifrenaria verboonenii4.jpg"
     ],
-    descricao: "Uma Bifrenaria de presença marcante, com pseudobulbos robustos e flores grandes, carnosas e cerosas que chamam atenção tanto pela aparência quanto pelo perfume. As hastes são curtas e surgem junto à base dos pseudobulbos maduros, normalmente carregando poucas flores, mas de tamanho expressivo e boa duração. Encontrada em áreas montanas do Sudeste brasileiro, em altitudes elevadas, aprecia noites mais amenas e um inverno relativamente mais seco — característica que ajuda a entender por que pode exigir atenção extra quando cultivada no litoral quente.",
+    descricao: "Uma Bifrenaria de presença marcante, com pseudobulbos robustos e flores grandes, carnosas e cerosas que chamam atenção tanto pela aparência quanto pelo perfume. As hastes são curtas e surgem junto à base dos pseudobulbos maduros, normalmente carregando poucas flores, mas de tamanho expressivo e boa duração. Encontrada em áreas montanas do Sudeste brasileiro, em altitudes elevadas, aprecia noites mais amenas e um inverno relativamente mais seco — característica que ajuda a entender por que pode exigir atenção extra quando cultivada no litoral quente. A combinação de porte compacto na floração e flores volumosas torna o conjunto particularmente expressivo quando observado de perto.",
     origem: "Brasil",
     regiao: "BA · ES · MG",
     habitat: "Epífita/litófita · 1.000–2.000 m",
