@@ -56,8 +56,8 @@ export const cattleyaViolaceaFFlamea = {
         titulo: "Substrato ideal",
         contexto: "Para cachepô de madeira aberto",
         resumo: "Mistura de granulometria média a grossa, aerada e com retenção moderada.",
-        justificativa: "Cattleya violacea f. flamea designa um padrão horticultural de coloração, não uma espécie distinta. Para cachepô de madeira aberto, a receita visual combina pinus médio, macadâmia média, carvão vegetal médio e fibra de coco preparada, totalizando 100%. As duas outras misturas são alternativas quantitativas editoriais distintas (40/30/20/10 por volume cada), sem ensaios comparativos. A espécie exige raízes aeradas e umidade regular, sem repouso seco severo; ajustar regas à secagem real e evitar acúmulo de sais. MACS 1.1: hipótese horticultural sem homologação quantitativa específica para esta forma.",
-        receitaTexto: "35% casca de pinus média + 25% casca de macadâmia média + 20% carvão vegetal médio + 20% fibra de coco preparada (proposta não homologada).",
+        justificativa: "Cattleya violacea f. flamea apresenta necessidades de cultivo semelhantes às demais formas da espécie: raízes bem ventiladas e umidade regular, sem repouso seco severo. Em cachepô de madeira aberto, as cascas de pinus e macadâmia oferecem apoio, o carvão preserva espaços de ar e a fibra de coco preparada ajuda a conservar umidade. Observe a secagem do recipiente e evite acúmulo de sais.",
+        receitaTexto: "35% casca de pinus média + 25% casca de macadâmia média + 20% carvão vegetal médio + 20% fibra de coco preparada.",
         perfil: ["Umidade regular", "Raízes aeradas", "Secagem superficial", "Noites quentes"],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Fornece suporte sem compactação." },
