@@ -50,7 +50,7 @@ export const cattleyaABrazilianDream = {
             "texto": "As frestas permitem ventilação lateral e rápida drenagem, úteis para raízes epífitas. A secagem mais rápida exige acompanhamento das regas."
         },
         {
-            "nome": "Vaso de barro",
+            "nome": "Vaso de Barro",
             "asset": "vaso-barro",
             "estrelas": null,
             "status": "Alternativa",
