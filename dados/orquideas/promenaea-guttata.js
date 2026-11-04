@@ -56,7 +56,7 @@ export const promenaeaGuttata = {
         titulo: "Substrato ideal",
         contexto: "Mistura leve para vaso pequeno e muito ventilado",
         resumo: "O cultivo principal em vaso exige umidade moderada e aeração constante. Mistura de chips de coco, pinus fino e perlita evita compactação junto ao rizoma.",
-        justificativa: "A receita principal para vaso plástico vasado pequeno combina chips de coco pequenos preparados, casca de pinus fina e perlita. A revisão taxonômica de Meneguzzo (2020) reúne vários nomes históricos sob P. stapelioides subsp. xanthina, mas não ensaia misturas de cultivo; os percentuais são proposta horticultural. As duas alternativas qualitativas usam composições diferentes, sem chips de coco, e não devem ser confundidas com a principal. Para esta miniatura de raízes delicadas, o tamanho da perlita precisa ser compatível com o volume do vaso: a granulometria grossa antes indicada não é uma exigência validada. Monitorar retenção e secagem sem compactar o meio. MACS 1.1: percentuais provisórios sem homologação específica",
+        justificativa: "Esta miniatura apresenta raízes delicadas e se beneficia de vaso plástico pequeno e vasado, com umidade regular e boa ventilação. Os chips de coco pequenos preparados ajudam a conservar umidade, a casca de pinus fina oferece apoio e a perlita mantém espaços de ar. Escolha granulometria proporcional ao vaso e às raízes e observe a secagem para evitar compactação ou saturação.",
         receitaTexto: "40% chips de coco pequenos preparados + 30% casca de pinus fina + 30% perlita de granulometria compatível com o vaso e as raízes.",
         perfil: ["Miniatura epífita", "Raízes delicadas", "Umidade regular", "Alta aeração", "Sombra clara"],
         comportamento: [
