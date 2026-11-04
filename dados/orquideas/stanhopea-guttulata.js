@@ -48,7 +48,7 @@ export const stanhopeaGuttulata = {
         metodos: [
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cesta de madeira suspensa, com ripas espaçadas, fundo aberto e touceira centralizada." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa condicionada", texto: "Apenas cesto plástico inteiramente perfurado, com aberturas inferiores suficientes para as hastes." },
-            { nome: "Raízes soltas", asset: "raizes-soltas", estrelas: 3, status: "Uso condicional", texto: "Cesto aramado aberto com cobertura muito leve de fibra, sem telas densas nem barreiras inferiores." }
+            { nome: "Raízes Soltas", asset: "raizes-soltas", estrelas: 3, status: "Uso condicional", texto: "Cesto aramado aberto com cobertura muito leve de fibra, sem telas densas nem barreiras inferiores." }
         ]
     },
     substratoVisual: {
