@@ -57,8 +57,8 @@ export const phalaenopsisPulcherrima = {
         titulo: "Substrato ideal",
         contexto: "Mistura mineral muito aberta para vaso baixo",
         resumo: "A espécie cresce sobre rochas e solos arenosos; mistura com predominância mineral mantém drenagem rápida, colo ventilado e pequena fração orgânica.",
-        justificativa: "Phalaenopsis pulcherrima (sin. Doritis pulcherrima) ocorre como terrestre ou litófita, inclusive em solos arenosos e rochas, e prefere substrato aberto com colo ventilado. Para vaso de barro baixo e bem perfurado, a receita visual propõe perlita grossa, brita fina/média lavada e sem pó, macadâmia média e pinus grosso, totalizando 100%. A mistura tem 65% de componentes minerais e 35% de fração orgânica; não deve ser descrita como quase totalmente mineral. As duas outras misturas são alternativas qualitativas distintas e não fundamentam os percentuais visuais. Controlar secagem rápida em clima quente sem deixar água acumulada na coroa. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
-        receitaTexto: "35% perlita grossa + 30% brita fina/média lavada e sem pó + 25% casca de macadâmia média + 10% casca de pinus grossa (proposta não homologada).",
+        justificativa: "Phalaenopsis pulcherrima (sin. Doritis pulcherrima) pode crescer em solo ou sobre rochas e prefere uma mistura aberta, com o colo bem ventilado. Em vaso de barro baixo e perfurado, a perlita e a brita limpa favorecem drenagem rápida, enquanto as cascas de macadâmia e pinus oferecem sustentação e alguma retenção de umidade. Em clima quente, observe a secagem para ajustar as regas e evite água acumulada na coroa da planta.",
+        receitaTexto: "35% perlita grossa + 30% brita fina/média lavada e sem pó + 25% casca de macadâmia média + 10% casca de pinus grossa.",
         perfil: ["Terrestre ou litófita", "Clima quente", "Haste ereta", "Colo ventilado", "Drenagem rápida"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
