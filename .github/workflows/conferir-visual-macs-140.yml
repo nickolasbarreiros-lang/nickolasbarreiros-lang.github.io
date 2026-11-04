@@ -1,0 +1,49 @@
+name: Conferência visual MACS 1.1 — matriz 140
+on:
+  push:
+    paths:
+      - '.github/workflows/conferir-visual-macs-140.yml'
+  workflow_dispatch:
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - name: Conferir ficha em navegador real
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/orquidario-server.log 2>&1 &
+          node <<'JS'
+          const { chromium } = require('playwright');
+          (async () => {
+            const browser = await chromium.launch({headless:true});
+            const page = await browser.newPage({viewport:{width:1405,height:900},deviceScaleFactor:1});
+            const errors=[];
+            page.on('pageerror',error=>errors.push(error.message));
+            await page.goto('http://127.0.0.1:8765/orquidea.html?id=laelia-splendida',{waitUntil:'networkidle',timeout:60000});
+            const section=page.locator('.substrato-visual-v4');
+            await section.waitFor({timeout:30000});
+            const entries=page.locator('.substratos-recomendados-v4 li');
+            if(await entries.count()!==2)throw Error('Esperadas exatamente duas misturas');
+            const texts=await entries.allTextContents();
+            if(!texts[0].includes('Casca de pinus')||!texts[1].includes('Casca de macadâmia'))throw Error('Componentes das alternativas incorretos: '+texts.join(' | '));
+            if(texts.some(t=>/\b\d+\s*%/.test(t)))throw Error('Alternativas devem ser qualitativas, sem percentuais: '+texts.join(' | '));
+            if(errors.length)throw Error('Erros JavaScript: '+errors.join(' | '));
+            await section.screenshot({path:'macs-140-substrato-desktop.png'});
+            await page.setViewportSize({width:390,height:844});
+            await section.screenshot({path:'macs-140-substrato-mobile.png'});
+            console.log('APROVADO: renderização desktop/mobile, 2 receitas alternativas sem percentuais e sem erros JavaScript.');
+            await browser.close();
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: macs-140-inspecao-visual
+          path: macs-140-substrato-*.png
+          if-no-files-found: ignore
