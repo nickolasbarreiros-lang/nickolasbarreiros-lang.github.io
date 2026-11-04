@@ -57,8 +57,8 @@ export const epidendrumCentropetalum = {
         titulo: "Substrato ideal",
         contexto: "Mistura principal para cachepô bem vazado; montagem em placa como método alternativo",
         resumo: "Substrato leve e arejado, mantendo umidade moderada sem saturação prolongada.",
-        justificativa: "Epidendrum centropetalum (sin. Oerstedella centradenia) é epífita montana de caules finos e raízes aéreas, exigindo umidade regular, boa ventilação e noites menos abafadas. Para cachepô de madeira bem vazado, a receita visual propõe pinus fino, perlita de granulometria adequada a raízes finas e esfagno de fibra longa solto, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não fundamentam os percentuais visuais. A montagem em placa/tronco com fina camada de esfagno é outro método, não a receita principal. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
-        receitaTexto: "45% casca de pinus fina + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto (proposta não homologada).",
+        justificativa: "Epidendrum centropetalum (sin. Oerstedella centradenia) é uma epífita montana de caules finos e raízes aéreas, que se beneficia de umidade regular, boa ventilação e noites menos abafadas. No cachepô de madeira bem vazado, a casca de pinus fina oferece apoio, a perlita mantém espaços de ar e o esfagno solto conserva parte da umidade. A montagem em placa ou tronco com uma fina camada de esfagno também é possível, exigindo atenção à secagem das raízes.",
+        receitaTexto: "45% casca de pinus fina + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto.",
         perfil: ["Epífita montana", "Caules finos", "Raízes aéreas", "Forma keikis", "Umidade regular"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
