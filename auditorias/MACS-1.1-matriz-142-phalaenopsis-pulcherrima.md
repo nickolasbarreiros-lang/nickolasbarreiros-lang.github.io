@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 142 — Phalaenopsis pulcherrima
-Data: 2026-11-04. **EM ANDAMENTO**. Não avançar à matriz 143 até encerramento técnico.
+Data: 2026-11-04. **ENCERRADA TECNICAMENTE — classe científica D, sem homologação quantitativa.**
 
 ## Evidência e cultivo
 Phalaenopsis pulcherrima (sin. Doritis pulcherrima), litófita/terrestre de rochas e solos arenosos, clima quente, boa luminosidade filtrada e regas regulares com drenagem completa. Vaso de barro baixo e bem perfurado proposto como principal, sem comparação experimental específica.
@@ -16,4 +16,7 @@ Quatro fotos confirmadas em imagens/Phalaenopsis pulcherrima/ (JPG, WEBP e PNG).
 ## Classificação científica
 **D — NÃO HOMOLOGADA quantitativamente.** Sem ensaio comparativo específico nem amostra documentada de 25 produtores brasileiros independentes; percentuais são proposta horticultural provisória.
 
-Pendente teste Chromium desktop/mobile, capturas e encerramento técnico.
+Teste Chromium desktop/mobile aprovado, capturas confirmadas e encerramento técnico registrado.
+
+## Encerramento — 2026-11-04
+Execução Chromium/Playwright [41845873633](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41845873633): **completed/success**, incluindo inspeção no navegador e upload de capturas. Artefato **13330592988**, `macs-142-inspecao-visual` (463581 bytes). Principal soma 100%, com fração mineral 65% e orgânica 35%; duas alternativas qualitativas sem percentuais; perlita e brita preservadas como materiais distintos; estrelas dos suportes omitidas; quatro fotos e oito assets presentes. IDC 3.2 e IAR 2.0 preservados. **Classe D — NÃO HOMOLOGADA quantitativamente**, sem ensaios comparativos específicos nem amostra documentada de 25 produtores independentes. Sem pendências técnicas detectadas pelo teste; matriz 143 liberada.
