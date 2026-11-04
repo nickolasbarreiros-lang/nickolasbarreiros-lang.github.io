@@ -57,8 +57,8 @@ export const miltoniaRusselliana = {
         titulo: "Substrato ideal",
         contexto: "Mistura aerada para cachepô de madeira",
         resumo: "Equilíbrio entre umidade moderada e alta ventilação, favorecendo pseudobulbos vigorosos sem saturação prolongada.",
-        justificativa: "Miltonia russelliana é epífita simpodial de touceira compacta, beneficiada por umidade regular e raízes bem ventiladas. Para cachepô de madeira vazado, a receita visual propõe pinus médio, chips de coco médios preparados, perlita grossa compatível com o recipiente e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não fundamentam os percentuais visuais. Evitar secagem prolongada durante crescimento, substrato saturado e divisões pequenas. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa compatível com o cachepô + 10% carvão vegetal médio (proposta não homologada).",
+        justificativa: "Miltonia russelliana é uma epífita de crescimento simpodial e touceira compacta, que se beneficia de umidade regular e raízes bem ventiladas. No cachepô de madeira vazado, a casca de pinus e os chips de coco preparados sustentam a planta e conservam umidade moderada, enquanto a perlita e o carvão mantêm espaços de ar. Evite tanto o encharcamento quanto a secagem prolongada durante o crescimento e não divida a touceira em partes excessivamente pequenas.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa compatível com o cachepô + 10% carvão vegetal médio.",
         perfil: ["Epífita simpodial", "Touceira compacta", "Umidade regular", "Raízes arejadas", "Hastes arqueadas"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
