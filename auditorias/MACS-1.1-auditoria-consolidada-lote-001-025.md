@@ -229,3 +229,9 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - O método **Placa / tronco** estava marcado `status: "Ideal"` apesar da ausência de estudo comparativo específico para a espécie. O status passou a **`Preferencial (provisório)`**; a recomendação prática permanece, mas não equivale a homologação.
 - A nota de evidência exibida na própria ficha recebeu referências botânicas rastreáveis (POWO/Kew e revisão taxonômica de Santos et al., 2019) e ressalva explícita de que essas fontes **não validam** os percentuais da mistura nem a superioridade de qualquer suporte.
 - Permanecem **Classe D**, estrelas nulas e receita inalterada. Próxima exigência: evidências diretas de cultivo da espécie e metodologia quantitativa replicável; não promover classificação por analogia com espécies aparentadas.
+
+### Saneamento de fontes, sinonímia e confiança — ficha 1 (2026-11-04)
+- Substituída a instrução genérica de `sinonimosPrincipais` por informação taxonômica nominal (nome aceito *Stelis sclerophylla*; nome editorial *Anathallis sclerophylla*).
+- Substituída lista genérica de instituições por três referências rastreáveis efetivamente utilizadas: POWO/Kew, revisão de Santos et al. (2019) e sinopse florística de Boa Nova (Hoehnea).
+- Campo `confianca` deixou de exibir `alta` isoladamente e passou a diferenciar a confiança taxonômica/morfológica da ausência de homologação quantitativa MACS 1.1.
+- Nenhuma inferência nova sobre percentuais ou ranking dos suportes; ficha continua Classe D. Não há base para declarar homologação integral.
