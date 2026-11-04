@@ -55,7 +55,7 @@ export const cyrtopodiumSaintlegerianum = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cachepô ou vaso muito drenante; montagem dispensa mistura volumétrica",
         "resumo": "Mistura grossa, muito arejada e de secagem rápida, ajustada ao hábito epífito e ao repouso sazonal.",
-        "justificativa": "A receita visual para cachepô ou vaso muito drenante combina macadâmia grossa, pinus grosso, perlita grossa e carvão vegetal. Bittencourt et al. (Embrapa, 2024) testaram mudas micropropagadas desta espécie com Genebom® + resíduos agrícolas 1:1; as melhores respostas variaram conforme o parâmetro, mas o estudo NÃO avaliou esta mistura visual nem plantas adultas. A receita principal textual corresponde exatamente à visual. A mistura com pinus, carvão e brita fina é uma alternativa qualitativa distinta, sem macadâmia nem perlita. A montagem em placa ou tronco dispensa mistura volumétrica. Os percentuais não foram testados comparativamente e permanecem sem homologação MACS 1.1.",
+        "justificativa": "Cyrtopodium saintlegerianum precisa de raízes bem ventiladas e de um suporte que permita drenagem rápida. Em cachepô ou vaso muito aberto, as cascas de macadâmia e pinus grossas oferecem apoio, enquanto a perlita e o carvão mantêm a mistura solta. A montagem em placa ou tronco também permite manter as raízes expostas. Ajuste as regas ao crescimento ativo e à secagem do suporte, evitando compactação.",
         "receitaTexto": "35% casca de macadâmia grossa + 30% casca de pinus grossa + 20% perlita grossa + 15% carvão vegetal.",
         "perfil": ["Raízes epífitas aderentes", "Pseudobulbos volumosos", "Alta luminosidade", "Aeração muito alta", "Repouso sazonal mais seco"],
         "comportamento": [
