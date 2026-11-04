@@ -94,7 +94,7 @@ export const oncidiumTwinkle = {
         "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
         "indice": 18,
-        "classificacao": "Fácil",
+        "classificacao": "Muito fácil",
         "cultivoEstrelas": 5,
         "criterios": {
             "temperatura": {
