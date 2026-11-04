@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 136 — Epidendrum centropetalum
-Data: 2026-11-04. **EM ANDAMENTO**. Não avançar à matriz 137 até encerramento técnico.
+Data: 2026-11-04. **ENCERRADA TECNICAMENTE — classe científica D, sem homologação quantitativa.**
 
 ## Evidência e cultivo
 Epidendrum centropetalum (sin. Oerstedella centradenia): epífita montana de caules finos, keikis e raízes aéreas. Umidade regular, circulação de ar e noites menos abafadas são fatores importantes. Cachepô de madeira bem vazado proposto como suporte principal; placa/tronco é método alternativo, não componente da receita principal.
@@ -16,4 +16,7 @@ Quatro fotos confirmadas em imagens/Epidendrum centropetalum/. Assets casca-pinu
 ## Classificação científica
 **D — NÃO HOMOLOGADA quantitativamente.** Não há ensaio comparativo específico nem amostra documentada de 25 produtores brasileiros independentes; percentuais são proposta horticultural provisória.
 
-Pendente teste Chromium desktop/mobile, capturas e encerramento técnico.
+Teste Chromium desktop/mobile aprovado, capturas confirmadas e encerramento técnico registrado.
+
+## Encerramento — 2026-11-04
+Execução Chromium/Playwright [41841286676](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41841286676): **completed/success**, incluindo inspeção no navegador e upload de capturas. Artefato **13328737344**, `macs-136-inspecao-visual` (396961 bytes). Principal soma 100%; duas alternativas qualitativas sem percentuais; perlita preservada; estrelas dos suportes omitidas; quatro fotos e sete assets presentes. IDC 3.2 e IAR 2.0 preservados. **Classe D — NÃO HOMOLOGADA quantitativamente**, sem ensaios comparativos específicos nem amostra documentada de 25 produtores independentes. Sem pendências técnicas detectadas pelo teste; matriz 137 liberada.
