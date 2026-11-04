@@ -1,6 +1,6 @@
 # MACS 1.1 — Ficha 147 do catálogo — Pholidota chinensis
 
-Data: 2026-11-04. **TESTES AUTOMATIZADOS APROVADOS (#5 e #8) — AGUARDANDO INSPEÇÃO VISUAL DOS ARTEFATOS.** A numeração 147 identifica a posição no catálogo `dados/orquideas/index.js`, não uma nova etapa sequencial 147 homologada. Consultar `MACS-1.1-CONTROLE-SEQUENCIA-CANONICA.md`.
+Data: 2026-11-04. **AUDITORIA TÉCNICA ENCERRADA — TESTES #5 E #8 APROVADOS E ARTEFATOS VISUAIS INSPECIONADOS. HOMOLOGAÇÃO CIENTÍFICA QUANTITATIVA: CLASSE D (NÃO HOMOLOGADA).** A numeração 147 identifica a posição no catálogo `dados/orquideas/index.js`, não uma nova etapa sequencial 147 homologada. Consultar `MACS-1.1-CONTROLE-SEQUENCIA-CANONICA.md`.
 
 ## Conferência estática
 - Nome tradicional: *Pholidota chinensis*; a ficha registra *Coelogyne chinensis* como nome aceito segundo POWO/Kew, **sem nova verificação externa nesta etapa**.
@@ -34,3 +34,9 @@ Workflow aprovado e carregamento das quatro fotos/assets verificado automaticame
 - O aviso sobre Node.js 20 é de depreciação das actions e não impediu o resultado aprovado.
 - **Inspeção humana das imagens dos artefatos ainda não realizada**: aprovação do Chromium não substitui revisão visual das capturas desktop e celular.
 - **Classe D — não homologada quantitativamente**: permanece sem amostra/ensaios suficientes para validar percentuais e estrelas.
+
+## Encerramento técnico — inspeção dos artefatos do teste #8
+- Inspecionados os cinco arquivos enviados pelo usuário: `macs-ficha-147-ficha-desktop.png` (1465×4729), `macs-ficha-147-ficha-mobile.png` (390×10793), `macs-ficha-147-diagnostico-desktop.png` (1465×4729), `macs-ficha-147-substrato-desktop.png` (1235×826) e `macs-ficha-147-substrato-mobile.png` (330×2321).
+- Verificados visualmente: quatro fotografias na galeria, crédito público CC BY 2.0 da quarta foto, formas de cultivo, assets dos cinco ingredientes, proporções 30+25+20+15+10=100%, duas alternativas qualitativas sem percentuais e legibilidade do layout em desktop e celular.
+- Observação cosmética não bloqueante: no arranjo móvel da receita principal, o símbolo `+` junto ao quinto ingrediente fica deslocado à esquerda; composição e leitura permanecem íntegras. Não alterar layout sem revisão de regressão global.
+- **Encerramento técnico aprovado**: não restam pendências bloqueantes de funcionalidade, imagem ou apresentação na ficha 147 conforme evidências disponíveis. A aprovação não equivale a validação experimental de percentuais/estrelas; **classe D** mantida e explicitamente documentada.
