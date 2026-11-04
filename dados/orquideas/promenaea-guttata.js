@@ -3,9 +3,9 @@
 
 export const promenaeaGuttata = {
     "id": "promenaea-guttata",
-    "nome": "Promenaea Guttata",
+    "nome": "Promenaea guttata",
     "genero": "Promenaea",
-    "sinonimo": "Promenaea guttata",
+    "sinonimo": "Promenaea stapelioides subsp. xanthina (nome aceito em POWO)",
     "tipo": "Espécie botânica — subespécie",
     "dificuldade": "Difícil",
     "caracteristicas": [
@@ -24,7 +24,7 @@ export const promenaeaGuttata = {
         "imagens/Promenaea guttata/Promenaea guttata3.jpg",
         "imagens/Promenaea guttata/Promenaea guttata4.jpg"
     ],
-    "descricao": "Uma pequena joia brasileira de flores enormes para o seu tamanho! Esta Promenaea forma touceiras compactas de pseudobulbos arredondados e folhas finas, verde-claras, das quais surgem hastes curtas com flores vistosas e pintalgadas. A planta conhecida por muito tempo como Promenaea guttata é hoje incluída por Kew em Promenaea stapelioides subsp. xanthina. Para o cultivo, o mais importante é sua ecologia: é uma epífita de florestas úmidas do leste e sul do Brasil, de raízes delicadas, que gosta de umidade constante no ambiente sem tolerar substrato pesado e permanentemente saturado.",
+    "descricao": "Promenaea guttata é o nome histórico de uma miniatura brasileira hoje incluída em Promenaea stapelioides subsp. xanthina. Forma pequenas touceiras de pseudobulbos arredondados, cada um com folhas finas e delicadas. Suas inflorescências curtas geralmente apresentam uma ou duas flores vistosas, grandes em relação à planta, com fundo amarelado ou esverdeado e desenhos castanhos de intensidade variável. A combinação das manchas e do labelo destacado tornou esse nome conhecido entre colecionadores. O grupo ocorre como epífita em florestas úmidas do leste e sul do Brasil, onde a aparência floral pode variar bastante entre populações.",
     "origem": "Brasil",
     "regiao": "Leste e Sul do Brasil",
     "habitat": "Florestas tropicais úmidas · epífita.",
@@ -33,7 +33,7 @@ export const promenaeaGuttata = {
     "iluminacao": {
         "sombrite": "70% a 80%",
         "solDireto": "Não permitido",
-        "horario": "",
+        "horario": "Não permitido",
         "observacoes": "Prefere luminosidade baixa a moderada. Folhas finas aquecem rapidamente, portanto evite sol direto. Sombra extremamente fechada, porém, reduz a qualidade dos novos pseudobulbos e pode diminuir a floração."
     },
     "floracao": "Principalmente no fim da primavera e verão. Sob o conceito histórico de P. guttata, IOSPE registra inflorescências de cerca de 7,5 cm, geralmente com duas flores. As flores são grandes em relação ao porte da planta e podem apresentar manchas contrastantes sobre fundo claro ou amarelo-esverdeado.",
@@ -56,7 +56,7 @@ export const promenaeaGuttata = {
         titulo: "Substrato ideal",
         contexto: "Mistura leve para vaso pequeno e muito ventilado",
         resumo: "O cultivo principal em vaso exige umidade moderada e aeração constante. Mistura de chips de coco, pinus fino e perlita evita compactação junto ao rizoma.",
-        justificativa: "A receita principal para vaso plástico vasado pequeno combina chips de coco pequenos preparados, casca de pinus fina e perlita. As duas alternativas qualitativas usam composições diferentes, sem chips de coco, e não devem ser confundidas com a principal. Para esta miniatura de raízes delicadas, o tamanho da perlita precisa ser compatível com o volume do vaso: a granulometria grossa antes indicada não é uma exigência validada. Monitorar retenção e secagem sem compactar o meio. MACS 1.1: percentuais provisórios sem homologação específica",
+        justificativa: "A receita principal para vaso plástico vasado pequeno combina chips de coco pequenos preparados, casca de pinus fina e perlita. A revisão taxonômica de Meneguzzo (2020) reúne vários nomes históricos sob P. stapelioides subsp. xanthina, mas não ensaia misturas de cultivo; os percentuais são proposta horticultural. As duas alternativas qualitativas usam composições diferentes, sem chips de coco, e não devem ser confundidas com a principal. Para esta miniatura de raízes delicadas, o tamanho da perlita precisa ser compatível com o volume do vaso: a granulometria grossa antes indicada não é uma exigência validada. Monitorar retenção e secagem sem compactar o meio. MACS 1.1: percentuais provisórios sem homologação específica",
         receitaTexto: "40% chips de coco pequenos preparados + 30% casca de pinus fina + 30% perlita de granulometria compatível com o vaso e as raízes.",
         perfil: ["Miniatura epífita", "Raízes delicadas", "Umidade regular", "Alta aeração", "Sombra clara"],
         comportamento: [
@@ -71,15 +71,15 @@ export const promenaeaGuttata = {
             { asset: "perlita", nome: "Perlita de granulometria adequada", proporcao: "30%", nota: "aeração", finalidade: "Favorece oxigenação e drenagem." }
         ],
         alerta: "Evitar sol direto, vaso grande, esfagno compactado, secagem por vários dias, adubação forte e calor acumulado no vaso. Alta umidade não significa substrato saturado.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Promenaea guttata (ficha indica tratamento POWO sob Promenaea stapelioides subsp. xanthina), miniatura epífita de raízes delicadas, úmidas porém aeradas. Suportes plástico vasado 5 estrelas, cachepô madeira 4, placa/tronco e barro 3; notas não validadas especificamente. Receita visual 40% chips coco pequenos + 30% pinus fino + 30% perlita grossa = 100%; receitaTexto e itens concordam. Receita principal textual e visual coincidem; as duas alternativas qualitativas são distintas e não equivalem à principal. A perlita deve ter granulometria compatível com as raízes e o vaso, sem pressupor tamanho grosso. Conferir adequação de perlita grossa e 40% chips coco ao vaso pequeno e às raízes sensíveis; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Promenaea guttata (ficha indica tratamento POWO sob Promenaea stapelioides subsp. xanthina), miniatura epífita de raízes delicadas, úmidas porém aeradas. Suportes plástico vasado 5 estrelas, cachepô madeira 4, placa/tronco e barro 3; notas não validadas especificamente. Receita visual 40% chips coco pequenos + 30% pinus fino + 30% perlita de granulometria compatível com vaso pequeno = 100%; receitaTexto e itens concordam. Receita principal textual e visual coincidem; as duas alternativas qualitativas são distintas e não equivalem à principal. A perlita deve ter granulometria compatível com as raízes e o vaso, sem pressupor tamanho grosso. Conferir adequação de perlita grossa e 40% chips coco ao vaso pequeno e às raízes sensíveis; meta até 25 produtores brasileiros específicos não atingida. POWO e Flora do Brasil 2020 reconhecem Promenaea stapelioides subsp. xanthina, com P. guttata como sinônimo heterotípico; Meneguzzo (2020, Heringeriana) documenta variação floral e explica a sinonimização. O nome histórico P. guttata permanece no catálogo para busca e compatibilidade. Nenhuma receita quantitativa brasileira específica de P. guttata foi confirmada nesta passagem; meta até 25 produtores não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     "errosComuns": "Sol direto; vaso grande; esfagno compactado; secagem completa por vários dias; ambiente quente sem circulação de ar; fertilizante concentrado; confundir alta umidade atmosférica com encharcamento; repouso seco rígido; deixar o vaso aquecer.",
     "dica": "Pense em 'úmida e arejada', nunca em 'molhada o tempo todo'. Um vaso pequeno e muito ventilado, com substrato fino mas solto, costuma ser mais seguro do que aumentar indefinidamente a frequência das regas.",
     revisaoCientificaIAR: {
-        "nome": "Promenaea Guttata",
-        "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Promenaea stapelioides subsp. xanthina.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma pequena joia brasileira de flores enormes para o seu tamanho! Esta Promenaea forma touceiras compactas de pseudobulbos arredondados e folhas finas, verde-claras, das quais surgem hastes curtas com flores vistosas e pintalgadas. A planta conhecida por muito tempo como Promenaea guttata é hoje incluída por Kew em Promenaea stapelioides subsp. xanthina. Para o cultivo, o mais ",
+        "nome": "Promenaea guttata",
+        "statusTaxonomico": "Promenaea guttata Rchb.f. (1856) é sinônimo heterotípico de Promenaea stapelioides subsp. xanthina (Lindl.) Meneguzzo (2020), aceita em POWO e Flora do Brasil.",
+        "sinonimosPrincipais": "Promenaea guttata (nome histórico, sinônimo heterotípico de P. stapelioides subsp. xanthina); Promenaea xanthina (sinônimo homotípico da subespécie aceita).",
+        "morfologiaDimensoes": "Miniatura epífita com pseudobulbos agrupados, folhas delicadas, inflorescências curtas e flores relativamente grandes, com padrões amarelos ou esverdeados e manchas castanhas variáveis; caracteres historicamente descritos sob P. guttata (Meneguzzo 2020).",
         "habitatAltitudeClima": "Florestas tropicais úmidas · epífita. | Quente a ameno · úmido · sombreado.",
         "distribuicaoGeografica": "Leste e Sul do Brasil.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
