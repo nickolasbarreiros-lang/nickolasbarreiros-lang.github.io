@@ -77,8 +77,8 @@ export const bulbophyllumSyciobulbon = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para vaso plástico vasado amplo e raso, com rizoma exposto",
         "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
-        "justificativa": "Bulbophyllum sicyobulbon é epífita de rizoma espaçado, que requer espaço para expansão lateral, raízes ventiladas e umidade moderada. O vaso plástico vasado amplo e raso permanece como proposta principal provisória; placa longa ou cachepô amplo podem acomodar melhor o avanço do rizoma. A receita visual combina pinus médio, chips de coco médios preparados, carvão vegetal médio e esfagno de fibra longa solto, totalizando 100%. As duas outras misturas são alternativas qualitativas sem percentuais. Noites frescas não são substituídas por substrato mais úmido. MACS 1.1: inferência horticultural não homologada quantitativamente.",
-        "receitaTexto": "40% casca de pinus média + 20% chips de coco médios preparados + 25% carvão vegetal médio + 15% esfagno de fibra longa solto (proposta não homologada).",
+        "justificativa": "Bulbophyllum sicyobulbon é epífita de rizoma espaçado, que requer espaço para expansão lateral, raízes ventiladas e umidade moderada. O vaso plástico vasado amplo e raso permanece como proposta principal provisória; placa longa ou cachepô amplo podem acomodar melhor o avanço do rizoma. A receita visual combina pinus médio, chips de coco médios preparados, perlita de granulometria compatível com raízes finas e esfagno de fibra longa solto, totalizando 100%. As duas outras misturas são alternativas qualitativas sem percentuais. Noites frescas não são substituídas por substrato mais úmido. MACS 1.1: inferência horticultural não homologada quantitativamente.",
+        "receitaTexto": "40% casca de pinus média + 20% chips de coco médios preparados + 25% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto (proposta não homologada).",
         "perfil": ["Rizoma trepador", "Crescimento lateral", "Raízes epífitas", "Secagem parcial", "Boa aeração", "Umidade variável"],
         "comportamento": [
             {
@@ -118,8 +118,8 @@ export const bulbophyllumSyciobulbon = {
                             "finalidade": "Conserva hidratação moderada."
             },
             {
-                            "asset": "carvao",
-                            "nome": "Carvão vegetal médio",
+                            "asset": "perlita",
+                            "nome": "Perlita de granulometria compatível com raízes finas",
                             "proporcao": "25%",
                             "nota": "aeração",
                             "finalidade": "Facilita drenagem."
@@ -133,7 +133,7 @@ export const bulbophyllumSyciobulbon = {
             }
         ],
         "alerta": "MACS 1.1 provisória: manter rizoma e pseudobulbos expostos, deixar espaço para crescimento lateral e ajustar regas pela secagem real. Evitar esfagno compactado, ar parado e calor noturno excessivo.",
-        "notaEvidencia": "MACS 1.1 — revisão documental: nome exibido Bulbophyllum sicyobulbon; grafia histórica syciobulbon mantida no identificador e arquivo por compatibilidade. Epífita montana com rizoma muito espaçado, raízes que requerem aeração, umidade moderada e noites frescas. Vaso plástico vasado amplo e raso é proposta provisória; cachepô amplo ou placa longa podem favorecer expansão lateral. Estrelas dos suportes são heurísticas. Receita visual e textual coincidem: 40% pinus médio + 20% chips coco médios preparados + 25% carvão vegetal médio + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas editoriais: pinus/chips coco/esfagno/carvão (40/30/20/10) e macadâmia/pinus/chips coco/esfagno (40/30/20/10). Sem demonstração de superioridade. Monitorar temperatura noturna, retenção, secagem e avanço lateral do rizoma. Não há ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
+        "notaEvidencia": "MACS 1.1 — revisão documental: nome exibido Bulbophyllum sicyobulbon; grafia histórica syciobulbon mantida no identificador e arquivo por compatibilidade. Epífita montana com rizoma muito espaçado, raízes que requerem aeração, umidade moderada e noites frescas. Vaso plástico vasado amplo e raso é proposta provisória; cachepô amplo ou placa longa podem favorecer expansão lateral. Estrelas dos suportes são heurísticas. Receita visual e textual coincidem: 40% pinus médio + 20% chips coco médios preparados + 25% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas sem percentuais, distintas da receita principal. Sem demonstração de superioridade. Monitorar temperatura noturna, retenção, secagem e avanço lateral do rizoma. Não há ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
     },
     substrato: ["Esfagno de fibra longa solto + perlita de granulometria compatível com raízes finas","Casca de macadâmia média + casca de pinus média + perlita de granulometria compatível com raízes finas + pequena fração de esfagno de fibra longa solto"],
     errosComuns: "• Usar vaso pequeno e obrigar replantes frequentes.\n• Enterrar o rizoma ou os pseudobulbos.\n• Confundir alta umidade com ar parado.\n• Manter esfagno compactado e saturado.\n• Deixar a planta secar completamente por longos períodos.\n• Cultivar sob sol direto forte.\n• Adubar em concentração alta.\n• Tentar compensar calor noturno excessivo com encharcamento.",
