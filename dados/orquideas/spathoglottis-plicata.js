@@ -55,7 +55,7 @@ export const spathoglottisPlicata = {
         titulo: "Substrato ideal",
         contexto: "Mistura terrestre leve para recipiente amplo e drenado",
         resumo: "Mistura terrestre fértil, estruturada e bem drenada, com terra vegetal e composto orgânico estável.",
-        justificativa: "MACS 1.1: fórmula documental de 4 partes Terra vegetal, 3 partes Casca de pinus, 2 partes Perlita e 1 parte Composto orgânico, publicada para Spathoglottis plicata pelo Universo das Orquídeas (variante com perlita, sem carvão opcional). Também converge com recomendações do Orquidário 4 Estações e da UF/IFAS para solo fértil e drenado. É receita publicada, não ensaio controlado nem comprovação de superioridade. Usar materiais estruturados e composto bem curtido.",
+        justificativa: "Spathoglottis plicata é terrestre e se beneficia de substrato fértil, solto e bem drenado. A terra vegetal oferece base para as raízes, a casca de pinus mantém estrutura, a perlita melhora a aeração e o composto orgânico bem curtido acrescenta matéria orgânica. Evite materiais compactados ou encharcados e observe a umidade do vaso para ajustar as regas.",
         receitaTexto: "40% Terra vegetal + 30% Casca de pinus + 20% Perlita + 10% Composto orgânico.",
         perfil: ["Orquídea terrestre", "Touceira expansiva", "Raízes em recipiente", "Umidade regular", "Drenagem elevada"],
         comportamento: [
