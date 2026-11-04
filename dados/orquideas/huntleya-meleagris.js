@@ -14,16 +14,16 @@ export const huntleyaMeleagris = {
         "imagens/Huntleya meleagris/Huntleya meleagris3.webp",
         "imagens/Huntleya meleagris/Huntleya meleagris4.webp"
     ],
-    descricao: "Uma orquídea de aparência tropical e flor surpreendentemente grande! Huntleya meleagris cresce em forma de leques de folhas largas e não possui pseudobulbos, por isso depende de umidade mais constante do que muitas orquídeas de cultivo comum. De cada crescimento pode surgir uma haste curta com uma única flor cerosa, muito perfumada e variável, capaz de chegar a cerca de 12 cm. Na natureza vive em florestas úmidas entre aproximadamente 600 e 1.300 m, faixa que explica sua preferência por ambiente fresco, sombreado e bem ventilado mesmo quando cultivada em regiões quentes.",
+    descricao: "Huntleya meleagris é uma orquídea de aparência singular: suas folhas largas nascem em leques, lembrando uma pequena bromélia, sem formar pseudobulbos. Entre as bases das folhas despontam hastes que sustentam uma flor solitária, cerosa, estrelada e intensamente perfumada, podendo alcançar cerca de 12,5 cm. Sépalas e pétalas exibem desenhos variáveis em tons claros e castanhos, com um labelo destacado no centro. Conhecida por alguns orquidófilos como Estrela da República ou Flor de Couro, vive sobre árvores de florestas úmidas da América do Sul e do Caribe. Populações brasileiras foram observadas inclusive em matas de baixa altitude.",
     origem: "América do Sul tropical",
     regiao: "Trinidad · norte e centro da América do Sul (incl. Brasil)",
-    habitat: "Florestas úmidas · 600–1.300 m.",
+    habitat: "Florestas tropicais úmidas · epífita · altitude variável, inclusive 200–600 m em registros brasileiros.",
     clima: "Intermediário · úmido e muito ventilado.",
-    climaFloracao: "A amplitude altitudinal mostra que a espécie tolera condições de frescas a relativamente quentes, mas não significa que suporte calor noturno abafado. No litoral, o desafio é reproduzir o frescor e a umidade do interior da floresta sem manter as raízes sem oxigênio. Crescimento contínuo, água de baixa salinidade e noites um pouco mais amenas favorecem a formação de flores. Não possui repouso seco.",
+    climaFloracao: "Registros brasileiros entre 200 e 600 m e referências de outras populações entre 600 e 1.300 m mostram amplitude ecológica; a espécie tolera condições de frescas a relativamente quentes, mas não significa que suporte calor noturno abafado. No litoral, o desafio é reproduzir o frescor e a umidade do interior da floresta sem manter as raízes sem oxigênio. Crescimento contínuo, água de baixa salinidade e noites um pouco mais amenas favorecem a formação de flores. Não possui repouso seco.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
-        horario: "",
+        horario: "Não permitido",
         observacoes: "Prefere luz semelhante à de Phalaenopsis bem iluminada, mas com muito mais circulação de ar. Folhas amareladas ou aquecidas indicam excesso; folhas muito escuras e crescimento fraco podem indicar sombra profunda demais."
     },
     floracao: "Pode florescer da primavera ao outono, conforme a maturação dos novos leques. Cada haste normalmente sustenta uma flor grande, cerosa, variável e muito perfumada.",
@@ -46,7 +46,7 @@ export const huntleyaMeleagris = {
         titulo: "Substrato ideal",
         contexto: "Mistura para vaso raso e bastante perfurado",
         resumo: "Mistura aberta que retém umidade moderada e fornece oxigênio continuamente às raízes delicadas.",
-        justificativa: "A receita principal para vaso raso e bastante perfurado combina pinus médio, chips de coco médios preparados, perlita grossa e carvão vegetal; texto e composição visual coincidem. As duas alternativas qualitativas são diferentes da receita principal, sem proporções homologadas. Como Huntleya meleagris não forma pseudobulbos, deve-se evitar secagem completa, mas 35% de chips de coco não foi validado especificamente e a retenção deve ser observada conforme temperatura, ventilação e frequência de rega. MACS 1.1: proporções provisórias sem homologação quantitativa específica",
+        justificativa: "A receita principal para vaso raso e bastante perfurado combina pinus médio, chips de coco médios preparados, perlita grossa e carvão vegetal; a revista Orquidário (2008) cita mistura histórica de folhas parcialmente decompostas e terra vegetal para Huntleyas, sem proporções e sem teste comparativo; texto e composição visual coincidem. As duas alternativas qualitativas são diferentes da receita principal, sem proporções homologadas. Como Huntleya meleagris não forma pseudobulbos, deve-se evitar secagem completa, mas 35% de chips de coco não foi validado especificamente e a retenção deve ser observada conforme temperatura, ventilação e frequência de rega. MACS 1.1: proporções provisórias sem homologação quantitativa específica",
         receitaTexto: "35% casca de pinus média + 35% chips de coco médios preparados + 20% perlita grossa + 10% carvão vegetal.",
         perfil: ["Sem pseudobulbos", "Folhas em leque", "Alta umidade", "Raízes sensíveis", "Sombra clara"],
         comportamento: [
@@ -59,21 +59,21 @@ export const huntleyaMeleagris = {
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Mantém espaços de ar ao redor das raízes." },
             { asset: "chips-coco", nome: "Chips de coco médios preparados", proporcao: "35%", nota: "umidade", finalidade: "Ajuda a manter água disponível entre regas sem formar massa compacta." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Favorece oxigenação e drenagem." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "10%", nota: "estrutura", finalidade: "Complementa a porosidade da mistura." }
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "10%", nota: "estrutura", finalidade: "Complementa a porosidade da mistura." }
         ],
         alerta: "Não deixar secar completamente, impor repouso seco, expor ao sol direto ou usar água muito salina. Evitar calor abafado, substrato saturado e água parada no centro dos leques à noite.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Huntleya meleagris, epífita sem pseudobulbos, raízes sensíveis a seca e saturação, requer umidade uniforme e oxigenação. Suportes plástico vasado 5 estrelas, barro e cachepô madeira 4, placa/tronco 2; notas não homologadas. Receita visual 35% pinus médio + 35% chips coco + 20% perlita grossa + 10% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem; as duas alternativas qualitativas são distintas e não equivalem à principal. Avaliar retenção de 35% chips coco e secagem em vaso raso sem pseudobulbos; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Huntleya meleagris, epífita sem pseudobulbos, raízes sensíveis a seca e saturação, requer umidade uniforme e oxigenação. Suportes plástico vasado 5 estrelas, barro e cachepô madeira 4, placa/tronco 2; notas não homologadas. Receita visual 35% pinus médio + 35% chips coco + 20% perlita grossa + 10% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem; as duas alternativas qualitativas são distintas e não equivalem à principal. Avaliar retenção de 35% chips coco e secagem em vaso raso sem pseudobulbos; meta até 25 produtores brasileiros específicos não atingida. POWO aceita Huntleya meleagris, com Batemannia meleagris e Zygopetalum meleagris como sinônimos homotípicos, e registra ocorrência brasileira no Nordeste, Sudeste e Sul. OrquidaRIO (2008) observou populações epífitas entre 200 e 600 m, contrariando restrição anterior a 600–1.300 m; relata orientação histórica de Decker (1946) de mistura de folhas semidecompostas e terra vegetal, sem proporções e não adotada como receita atual. Orquidário Paulista recomenda drenagem rápida e ventilação, sem percentuais. Um produtor brasileiro específico qualitativo, uma referência histórica de cultivo e zero receitas quantitativas específicas confirmadas nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: "Deixar secar completamente; cultivar em vaso grande; manter substrato quente e saturado; usar água muito salina; aplicar fertilizante concentrado; expor ao sol direto; cultivar em ambiente abafado; deixar água parada no centro dos leques durante a noite; impor repouso seco no inverno.",
     dica: "O ponto-chave não é simplesmente ‘regar muito’, mas manter água disponível junto com oxigênio. Em dias quentes, aumente primeiro ventilação e umidade do ambiente antes de encharcar o vaso. Essa diferença é decisiva: raízes frescas e oxigenadas sustentam os leques; raízes quentes e saturadas entram em declínio rapidamente.",
     revisaoCientificaIAR: {
         "nome": "Huntleya meleagris",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma orquídea de aparência tropical e flor surpreendentemente grande! Huntleya meleagris cresce em forma de leques de folhas largas e não possui pseudobulbos, por isso depende de umidade mais constante do que muitas orquídeas de cultivo comum. De cada crescimento pode surgir uma haste curta com uma única flor cerosa, muito perfumada e variável, capaz de chegar a cerca de 12 cm. ",
-        "habitatAltitudeClima": "Florestas úmidas · 600–1.300 m. | Intermediário · úmido e muito ventilado.",
+        "statusTaxonomico": "Huntleya meleagris Lindl. (1837), espécie aceita em POWO; Batemannia meleagris e Zygopetalum meleagris são sinônimos homotípicos.",
+        "sinonimosPrincipais": "Batemannia meleagris e Zygopetalum meleagris (homotípicos); Huntleya albidofulva (heterotípico).",
+        "morfologiaDimensoes": "Epífita sem pseudobulbos, folhas lanceoladas em leques, inflorescência axilar ereta com uma flor cerosa, estrelada e perfumada, até 12,5 cm (IOSPE). OrquidaRIO registra hábito semelhante ao de bromélias.",
+        "habitatAltitudeClima": "Florestas úmidas tropicais; registros de campo brasileiros entre 200 e 600 m (OrquidaRIO, 2008), além de populações de 600–1.300 m citadas no IOSPE.",
         "distribuicaoGeografica": "América do Sul tropical · Brasil incluído.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "cultivoPremiacao": "Orquidário Paulista indica substrato de secagem rápida e ventilação; OrquidaRIO (2008) cita recomendação histórica de Decker (1946), sem percentuais ou ensaio específico.",
         "confianca": "alta",
         "fontes": [
             "POWO/Kew",
