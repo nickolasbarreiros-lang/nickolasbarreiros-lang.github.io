@@ -1,6 +1,6 @@
 # MACS 1.1 — Ficha 149 — Stelis cf. aprica
 
-Data: 2026-11-04. **EM AUDITORIA; NÃO ENCERRADA.**
+Data: 2026-11-04. **AUDITORIA TÉCNICA E VISUAL ENCERRADA — CINCO CAPTURAS INSPECIONADAS. HOMOLOGAÇÃO CIENTÍFICA QUANTITATIVA: CLASSE D (NÃO HOMOLOGADA).**
 
 Arquivo: `dados/orquideas/stelis-cf-aprica.js`; ID: `stelis-cf-aprica`.
 
@@ -39,3 +39,11 @@ Workflow `.github/workflows/conferir-visual-macs-ficha-149.yml` publicado no com
 - Corrigida para 0–25 (5 estrelas), 26–35 (4), 36–50 (3), 51–89 (2), 90–100 (1), commit `535542bc`.
 - Índice 29/100 e classificação 4/5 preservados; pesos dos oito critérios e dados MACS não alterados.
 - A edição da ficha aciona nova execução do workflow da ficha 149; aguardar aprovação e inspeção de artefatos da versão atualizada.
+
+## Encerramento visual — pacote recebido em 2026-11-04
+- ZIP fornecido pelo usuário: `macs-ficha-149-inspecao-visual (1).zip`, contendo cinco capturas: diagnóstico desktop, ficha desktop, ficha mobile, substrato desktop e substrato mobile.
+- Inspeção visual: quatro fotografias na galeria, vaso plástico vasado principal e três modalidades alternativas, quatro imagens de ingredientes (35% pinus, 25% arroz carbonizado, 20% carvão, 20% esfagno), exatamente duas misturas alternativas sem percentuais, layout legível no desktop e no celular.
+- Em telas estreitas, ingredientes da receita organizados em duas linhas; comportamento responsivo aceitável, sem defeito bloqueante observado.
+- Falha da execução Chromium #2 (contagem incorreta de métodos) foi diagnosticada como erro de seletor; `ficha.js` usa `.forma-principal-v4` e `.alternativa-forma-v41`, não quatro `.forma-cultivo-v4`. Seletor corrigido no commit `89333ebe`.
+- **Resultado: inspeção técnica visual concluída**, sem necessidade de mudar receita, fotos ou layout. As capturas não demonstram, isoladamente, o status verde do workflow mais recente; não afirmar aprovação do job sem log correspondente.
+- **Identificação botânica provisória (`cf.`) e classe D mantidas.** Esta aprovação técnica não constitui homologação científica quantitativa dos percentuais e estrelas.
