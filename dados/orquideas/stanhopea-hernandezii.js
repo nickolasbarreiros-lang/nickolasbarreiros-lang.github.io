@@ -48,7 +48,7 @@ export const stanhopeaHernandezii = {
         metodos: [
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Mais recomendado na ficha", texto: "Cesta suspensa com ripas bem espaçadas e fundo desobstruído, mantendo a touceira centralizada." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa condicionada", texto: "Somente cesto plástico com aberturas amplas no fundo e laterais, sem bloquear hastes descendentes." },
-            { nome: "Raízes soltas", asset: "raizes-soltas", estrelas: null, status: "Uso condicional", texto: "Cesto aramado aberto com fibra solta em camada fina, sem telas densas ou compactação." }
+            { nome: "Raízes Soltas", asset: "raizes-soltas", estrelas: null, status: "Uso condicional", texto: "Cesto aramado aberto com fibra solta em camada fina, sem telas densas ou compactação." }
         ]
     },
     substratoVisual: {
