@@ -54,8 +54,8 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
         titulo: "Substrato ideal",
         contexto: "Alternativa para cachepô ou vaso muito ventilado; montagem em placa dispensa mistura",
         resumo: "Mistura de partículas grossas, muito drenante, com espaços amplos para circulação de ar.",
-        justificativa: "A progênie alba entre os clones Gnomus e Suprema pertence à própria Cattleya walkeriana e não é híbrido interespecífico. A montagem em placa/tronco dispensa substrato volumoso. Para cachepô ou vaso muito ventilado, a receita visual propõe macadâmia grossa, brita pequena limpa e sem pó e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas quantitativas editoriais distintas, sem ensaios comparativos. O crescimento sazonal exige água durante emissão de raízes e intervalos maiores após maturação, sem seca absoluta. MACS 1.1: hipótese horticultural sem homologação quantitativa específica.",
-        receitaTexto: "45% casca de macadâmia grossa + 30% brita pequena limpa e sem pó + 25% carvão vegetal médio (proposta não homologada).",
+        justificativa: "Esta progênie alba de Cattleya walkeriana se beneficia de raízes bem ventiladas e crescimento sazonal. A montagem em placa ou tronco mantém as raízes expostas e dispensa substrato volumoso. Em cachepô aberto, a casca de macadâmia grossa oferece apoio, a brita limpa favorece a drenagem e o carvão mantém espaços de ar. Regue adequadamente durante a emissão de raízes e amplie os intervalos após a maturação, sem provocar seca absoluta.",
+        receitaTexto: "45% casca de macadâmia grossa + 30% brita pequena limpa e sem pó + 25% carvão vegetal médio.",
         perfil: ["Raízes epífitas", "Aeração muito alta", "Secagem rápida", "Rizoma exposto", "Repouso sazonal menos úmido"],
         comportamento: [
             { nome: "Retenção", valor: 1, icone: "💧" },
