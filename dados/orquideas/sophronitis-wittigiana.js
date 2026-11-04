@@ -135,8 +135,9 @@ export const sophronitisWittigiana = {
             }
         },
         "faixas": {
-            "facil": "0–25",
-            "moderada": "26–50",
+            "muitoFacil": "0–25",
+            "facil": "26–35",
+            "moderada": "36–50",
             "dificil": "51–89",
             "extrema": "90–100"
         }
