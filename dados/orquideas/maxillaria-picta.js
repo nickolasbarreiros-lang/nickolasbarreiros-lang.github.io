@@ -10,7 +10,7 @@ export const maxillariaPicta = {
     "caracteristicas": [
         "Epífita ou litófita",
         "Touceiras densas",
-        "Pseudobulbos ovoides e sulcados",
+        "Pseudobulbos ovoides, sulcados e bifoliados",
         "Flores basais pintalgadas",
         "Aprecia noites frescas"
     ],
@@ -20,9 +20,9 @@ export const maxillariaPicta = {
         "imagens/Maxillaria picta/Maxillaria picta3.jpg",
         "imagens/Maxillaria picta/Maxillaria picta4.jpg"
     ],
-    "descricao": "Uma Maxillaria brasileira de flores grandes e muito marcantes! Seus pseudobulbos formam touceiras compactas e, no inverno e na primavera, surgem flores solitárias de cerca de 5 cm em tons creme a amarelo, fortemente pintalgadas de púrpura ou castanho. É epífita ou ocasionalmente rupícola e aprecia bastante claridade filtrada, raízes arejadas e noites mais amenas. No litoral quente, o melhor resultado vem de ventilação constante e de um substrato que seque com rapidez sem desidratar completamente a planta.",
+    "descricao": "Maxillaria picta é uma orquídea sul-americana que forma touceiras densas de pseudobulbos ovoides, sulcados e geralmente com duas folhas firmes. Da base dos pseudobulbos surgem hastes curtas, cada uma com uma flor cerosa de cerca de 5 cm. As sépalas e pétalas creme-amareladas exibem manchas castanhas ou vinho, em padrões que variam entre plantas; o perfume pode ser bastante perceptível. Vive sobre árvores e ocasionalmente rochas em florestas do Sul e Sudeste brasileiros e áreas vizinhas da América do Sul. A combinação de folhagem compacta, flores pintalgadas e fragrância torna a espécie marcante mesmo fora do período de floração.",
     "origem": "América do Sul",
-    "regiao": "Sudeste e Sul do Brasil · Argentina (Misiones)",
+    "regiao": "Sul e Sudeste do Brasil · Paraguai · nordeste da Argentina",
     "habitat": "Epífita/rupícola · matas sazonais e úmidas.",
     "clima": "Quente a fresco · noites amenas favorecem.",
     "climaFloracao": "IOSPE registra floração no inverno e na primavera, em hastes basais de uma única flor com cerca de 5 cm. O gatilho mais coerente é a combinação de pseudobulbo maduro, boa luz filtrada e queda sazonal moderada das temperaturas noturnas. No litoral quente, não tente compensar a falta de noites amenas com seca forte: preserve raízes ativas, aumente apenas discretamente o intervalo entre regas após a maturação e mantenha ventilação contínua.",
@@ -36,7 +36,7 @@ export const maxillariaPicta = {
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, protegido em porta-adubo e afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante brotação e emissão de raízes.\n🌸 Pré-floração: após a maturação, reduza o nitrogênio em vez de aumentar drasticamente fósforo e potássio.\n🧪 Liberação lenta: poucos grânulos em vaso bem drenante, longe dos brotos.\n🚿 Faça flushing mensal com água pura e nunca aplique solução forte em raízes desidratadas.",
     "rega": "Durante a brotação, regue generosamente e permita que o substrato perca parte da umidade antes da próxima irrigação. Após a maturação, aumente discretamente o intervalo, sobretudo nas semanas frias e nubladas. A espécie não deve receber seca severa. Pseudobulbos levemente sulcados podem ser normais; enrugamento progressivo exige inspeção. Se houver raízes escuras e substrato molhado, o problema tende a ser perda radicular por falta de oxigênio; se as raízes estiverem firmes e a mistura seca, pode ser deficiência hídrica real.",
     "suporte": "🥇 Vaso de barro ou plástico muito perfurado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira, adequado a exemplares grandes e bem estabelecidos.\n🥉 Placa de madeira ou cortiça com pequena quantidade de musgo, somente onde a umidade ambiente e a rotina de rega evitarem desidratação. Preserve espaço para poucos crescimentos futuros.",
-    substrato: ["Chips de coco médios preparados + casca de pinus média + perlita grossa + carvão vegetal","Casca de pinus média + perlita grossa + esfagno de fibra longa solto + casca de macadâmia triturada"],
+    substrato: ["Vermiculita + casca de arroz carbonizada (1:1 em volume, também testada por Faria et al., 2001)", "Casca de pinus média + perlita grossa + carvão vegetal (alternativa horticultural sem ensaio específico)"],
     formasCultivo: {
         perfilVisual: "maxillaria-epifita-litofita-touceira-densa",
         destaque: "Vaso de Barro",
@@ -51,9 +51,9 @@ export const maxillariaPicta = {
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso pequeno e bem perfurado",
-        resumo: "Partículas médias com retenção moderada, drenagem rápida e aeração contínua, evitando umidade parada na base.",
-        justificativa: "A receita visual para vaso pequeno e bem perfurado combina pinus médio, macadâmia triturada, perlita grossa e fibra de coco grossa. A composição visual corresponde à receita textual principal; chips de coco e carvão aparecem apenas na primeira das duas alternativas qualitativas. Percentuais estimados e NÃO homologados para a espécie pela MACS 1.1.",
-        receitaTexto: "35% casca de pinus média + 30% casca de macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa.",
+        resumo: "Mistura 1:1 de vermiculita e carvão vegetal, avaliada experimentalmente na espécie em casa de vegetação; exige monitoramento da umidade.",
+        justificativa: "Faria et al. (2001), em experimento brasileiro com 13 tratamentos e dez repetições, identificaram vermiculita + carvão e vermiculita + casca de arroz carbonizada entre as melhores alternativas ao xaxim para Maxillaria picta. Misturas 1:1 em volume; resultados obtidos em vasos cerâmicos e casa de vegetação, não garantidos em todo clima.",
+        receitaTexto: "50% vermiculita + 50% carvão vegetal (1:1 em volume; mistura testada em Maxillaria picta por Faria et al., 2001).",
         perfil: ["Epífita ou litófita", "Touceira densa", "Flores basais", "Noites amenas", "Secagem rápida"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -62,13 +62,11 @@ export const maxillariaPicta = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece apoio radicular com umidade moderada." },
-            { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "30%", nota: "drenagem", finalidade: "Mantém a mistura aberta e estável." },
-            { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece oxigenação e drenagem rápida." },
-            { asset: "fibra-coco", nome: "Fibra de coco grossa", proporcao: "10%", nota: "reserva hídrica", finalidade: "Retém pequena fração de umidade sem compactar." }
+            { asset: "vermiculita", nome: "Vermiculita", proporcao: "50%", nota: "retenção hídrica", finalidade: "Retém água; manter aeração e evitar compactação." },
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "50%", nota: "estrutura e drenagem", finalidade: "Contrabalança a retenção da vermiculita com partículas rígidas." }
         ],
         alerta: "Evitar vaso grande, rizoma enterrado, substrato degradado, sombra profunda e replante fora da emissão de raízes novas. Não arrancar bainhas firmes nem deixar água acumulada junto aos botões basais.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Maxillaria picta (sin. Brasiliorchis picta) descrita na ficha como epífita/rupícola de touceiras densas, flores basais e preferência por noites amenas. Vaso de barro e plástico vasado recebem 5 estrelas, cachepô madeira 4, placa/tronco 3; avaliação morfológica plausível, sem ensaio comparativo específico confirmado. Receita cadastrada 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa = 100%. A receita principal textual coincide com a visual (35% pinus, 30% macadâmia, 25% perlita, 10% fibra de coco); chips de coco e carvão constam somente de uma alternativa qualitativa. Menu reduzido a duas alternativas, sem atribuir-lhes percentuais. Nenhum produtor brasileiro com formulação percentual específica confirmado nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — evidência experimental específica: Faria, Rego, Bernardi e Molinari (2001), Brazilian Archives of Biology and Technology, DOI 10.1590/S1516-89132001000400003, compararam 13 tratamentos em Maxillaria picta, com dez repetições e oito meses de observação, em vasos cerâmicos e casa de vegetação com 50% de sombreamento. Misturas em proporção 1:1; vermiculita + carvão e vermiculita + casca de arroz carbonizada foram alternativas destacadas ao xaxim. A receita visual 50/50 reproduz um tratamento efetivamente ensaiado, mas NÃO é homologação universal para outros climas e regimes de rega. A receita anterior com pinus/macadamia/perlita/fibra de coco não tinha validação específica e foi substituída. Produtores brasileiros com receita percentual própria específica identificados nesta passagem: 0; a fonte acadêmica é experimento brasileiro, não orquidário comercial. POWO aceita Maxillaria picta e Brasiliorchis picta como sinônimo."
     },
     "errosComuns": "❌ Replantar ou dividir fora do início de novas raízes.\n❌ Usar vaso muito grande e manter o centro úmido por vários dias.\n❌ Enterrar o rizoma, brotos ou hastes basais.\n❌ Cultivar em sombra profunda e esperar que apenas o frio provoque floração.\n❌ Arrancar bainhas firmemente aderidas durante a limpeza da base.\n❌ Regar com frequência no frio sem ventilação.\n❌ Aplicar adubo concentrado em raízes finas ou secas.",
     "dica": "Replante somente quando novas pontas de raízes começarem a aparecer. Fora dessa janela, a planta pode permanecer estagnada por muitos meses. No outono e inverno, mantenha luz filtrada forte e aproveite a queda natural da temperatura noturna para indução. Como as hastes florais são curtas e basais, remova apenas detritos soltos e bainhas totalmente deterioradas; não “descasque” o pseudobulbo à força. Mantenha a base ventilada e evite que água fique acumulada ao redor dos botões.",
