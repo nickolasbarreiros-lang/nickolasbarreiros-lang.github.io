@@ -95,7 +95,7 @@ export const anathallisSclerophylla = {
         "morfologiaDimensoes": "Erva epífita cespitosa, com raízes filiformes e folhas carnosas, oblongas. A revisão taxonômica brasileira de Santos, Toscano de Brito e Smidt (2019, Rodriguésia 70, e02722017) descreve plantas de 8–23 cm, folhas de 5,2–15 × 1,5–3 cm, racemos multifloros com até cerca de 40 flores branco-amareladas, sépalas estreitas de 8,5–16,2 mm e pétalas menores de 1,9–2,9 mm. Essas medidas referem-se aos espécimes examinados no estudo, não a limites universais de cultivo.",
         "habitatAltitudeClima": "Epífita de florestas tropicais úmidas, também registrada em mata de galeria associada a campo rupestre. Para populações colombianas, Useful Plants and Fungi of Colombia (reproduzido por Colombian Plants/POWO) informa 1.980–3.100 m; esse intervalo é regional, NÃO a faixa altitudinal global da espécie. Umidade e aeração são inferências de manejo, não resultados de ensaio específico.",
         "distribuicaoGeografica": "Das Antilhas venezuelanas à América do Sul tropical, incluindo o Brasil; distribuição conforme POWO/Kew.",
-        "cultivoPremiacao": "Registros de campo específicos da espécie confirmam o hábito epífito (sinopse de Boa Nova, Hoehnea; dissertação da UFC sobre a Serra de Maranguape). Recomendações de suportes e materiais foram confrontadas apenas qualitativamente com orientações gerais da SOSA e com práticas divulgadas para outras espécies de Anathallis/Stelis; nenhuma dessas fontes compara experimentalmente os quatro suportes ou valida a receita percentual desta espécie. Não há premiação AOS individualizada documentada nesta revisão.",
+        "cultivoPremiacao": "Registros de campo específicos da espécie confirmam o hábito epífito (sinopse de Boa Nova, Hoehnea; dissertação da UFC sobre a Serra de Maranguape). Recomendações de suportes e materiais foram confrontadas apenas qualitativamente com orientações gerais da SOSA e com práticas divulgadas para outras espécies de Anathallis/Stelis; nenhuma dessas fontes compara experimentalmente os quatro suportes ou valida a receita percentual desta espécie. Um catálogo secundário de registros de premiações lista cultivares sob combinações históricas do nome, mas os registros primários da AOS ainda não foram conferidos; por isso, nenhuma premiação foi validada nesta revisão.",
         "confianca": "Taxonomia e morfologia apoiadas por POWO/Kew e revisão taxonômica publicada; cultivo e percentuais MACS 1.1 não homologados quantitativamente.",
         "fontes": [
             "POWO/Kew — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77142174-1",
@@ -104,7 +104,8 @@ export const anathallisSclerophylla = {
             "Gomes (2024), dissertação UFC, levantamento da Serra de Maranguape — https://repositorio.ufc.br/bitstream/riufc/76914/5/2024_dis_mmgomes.pdf",
             "SOSA, dicas gerais de cultivo e substratos — https://www.sosa.org.br/site/dicas-de-cultivo.php",
             "Embrapa, Cerrado: Ecologia e Flora, volume 2, capítulo 14, tabela de Orchidaceae — https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/570911/1/CERRADO-Ecologia-e-flora-VOL-2.pdf",
-            "Colombian Plants/POWO, dados regionais de altitude na Colômbia (1.980–3.100 m) — https://colplanta.org/taxon/urn:lsid:ipni.org:names:77142174-1/general-information"
+            "Colombian Plants/POWO, dados regionais de altitude na Colômbia (1.980–3.100 m) — https://colplanta.org/taxon/urn:lsid:ipni.org:names:77142174-1/general-information",
+            "Catálogo secundário de registros de premiações e sinonímia (não substitui consulta ao registro primário AOS) — https://orchids.herokuapp.com/grexes/anathallis-secunda"
         ]
     },
     indiceDificuldadeCultivo: {
