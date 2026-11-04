@@ -333,3 +333,9 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - Registro AOS de forma albiflora corresponde a parecer de identificação com ressalva, não a confirmação de premiação nem a ensaio de cultivo.
 - Receita principal **45% pinus fino + 35% perlita + 20% esfagno = 100%** preservada, duas alternativas qualitativas preservadas, suportes sem estrelas. Classificações de superioridade reescritas como preferências provisórias.
 - **Encerramento documental da ficha 3:** MACS 1.1 Classe D; sem homologação quantitativa de percentuais ou superioridade dos suportes. Verificação visual local ainda separada. Fontes registradas na ficha.
+
+### Encerramento documental da ficha 4 — Miltonia russelliana (2026-11-04)
+- POWO/Kew confirma nome aceito *Miltonia russelliana* (Lindl.) Lindl. (1841), basiônimo *Oncidium russellianum* (1836), sinônimos homotípicos *Gynizodon russellianus* e *Anneliesia russelliana*, e heterotípicos *Miltonia quadrijuga* e *Oncidium russellianum* var. *pallidum*.
+- POWO descreve epífita do bioma tropical sazonalmente seco; não inferir repouso seco obrigatório. IOSPE fornece morfologia e floração outono–inverno. AOS fornece recomendações **gerais do gênero Miltonia**, não teste da receita desta espécie.
+- Verificação estrutural textual: descrição 95 palavras (dentro do intervalo editorial 90–120), quatro suportes com `estrelas: null`, duas alternativas de substrato sem percentuais, receita principal 35/30/25/10 = 100%, **perlita preservada**.
+- **Homologação documental concluída, MACS 1.1 provisória Classe D**: não foram localizados ensaios comparativos específicos ou dados de produtores suficientes para homologação quantitativa. Conferência visual de assets/renderização permanece separada.
