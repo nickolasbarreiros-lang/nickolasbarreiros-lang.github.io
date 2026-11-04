@@ -51,7 +51,7 @@ export const ludisiaDiscolor = {
         titulo: "Substrato ideal",
         contexto: "Mistura orgânica arejada para vaso largo e raso",
         resumo: "Meio leve e humoso, com retenção moderada e boa drenagem, sem compactar nem encharcar os caules rastejantes.",
-        justificativa: "Ludisia discolor é terrestre e cresce entre matéria orgânica humosa, exigindo meio leve, moderadamente úmido e bem drenado. A receita principal inclui terra vegetal humosa, leve e peneirada, de origem confiável e sem excesso de argila ou sais; fibra de coco fina preparada, pinus fino e perlita fina/média completam a estrutura. Os percentuais somam 100% e correspondem aos itens visuais. Terra vegetal comercial varia muito em composição: rejeitar material compacto, encharcável ou contaminado. Manter caules rastejantes sobre a superfície e cobrir somente as raízes. As duas alternativas são qualitativas e distintas. MACS 1.1: hipótese horticultural sem homologação quantitativa específica",
+        justificativa: "Ludisia discolor é terrestre e prefere substrato leve, rico em matéria orgânica e moderadamente úmido, mas bem drenado. Use terra vegetal humosa, peneirada e de origem confiável, sem excesso de argila ou sais. A fibra de coco fina preparada ajuda a conservar umidade, enquanto o pinus fino e a perlita mantêm a mistura solta. Evite terra compacta ou encharcável e mantenha os caules rastejantes sobre a superfície, cobrindo apenas as raízes.",
         receitaTexto: "35% terra vegetal humosa, leve e peneirada + 25% fibra de coco fina preparada + 20% casca de pinus fina + 20% perlita fina/média.",
         perfil: ["Terrestre", "Rizoma rastejante", "Folhas aveludadas", "Umidade moderada", "Luz indireta"],
         comportamento: [
