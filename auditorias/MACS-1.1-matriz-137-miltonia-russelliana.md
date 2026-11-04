@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 137 — Miltonia russelliana
-Data: 2026-11-04. **EM ANDAMENTO**. Não avançar à matriz 138 até encerramento técnico.
+Data: 2026-11-04. **ENCERRADA TECNICAMENTE — classe científica D, sem homologação quantitativa.**
 
 ## Evidência e cultivo
 Miltonia russelliana: epífita simpodial de pseudobulbos compactos e hastes arqueadas, favorecida por umidade regular, raízes ventiladas e touceira preservada. Cachepô de madeira vazado é suporte principal proposto, sem comprovação experimental de superioridade.
@@ -16,4 +16,7 @@ Quatro fotos confirmadas em imagens/Miltonia russelliana/. Assets casca-pinus, c
 ## Classificação científica
 **D — NÃO HOMOLOGADA quantitativamente.** Não há ensaio comparativo específico nem amostra documentada de 25 produtores brasileiros independentes; percentuais são proposta horticultural provisória.
 
-Pendente teste Chromium desktop/mobile, capturas e encerramento técnico.
+Teste Chromium desktop/mobile aprovado, capturas confirmadas e encerramento técnico registrado.
+
+## Encerramento — 2026-11-04
+Primeira execução [41841954004](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41841954004) falhou por assertiva incorreta do workflow (esperava chips de coco na alternativa de macadâmia); corrigida no commit `0c5da509b36f79c441e4ee1f83f2f1ec09605c43`, sem alteração da receita. Nova execução Chromium/Playwright [41842092118](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41842092118): **completed/success**, incluindo inspeção no navegador e upload de capturas. Artefato **13328538677**, `macs-137-inspecao-visual` (435934 bytes). Principal soma 100%; duas alternativas qualitativas sem percentuais; perlita preservada; estrelas dos suportes omitidas; quatro fotos e oito assets presentes. IDC 3.2 e IAR 2.0 preservados. **Classe D — NÃO HOMOLOGADA quantitativamente**, sem ensaios comparativos específicos nem amostra documentada de 25 produtores independentes. Sem pendências técnicas detectadas pelo teste corrigido; matriz 138 liberada.
