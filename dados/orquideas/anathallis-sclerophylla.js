@@ -39,7 +39,7 @@ export const anathallisSclerophylla = {
         raridade: 3
     },
     mesesFloracao: [10, 11, 12, 1, 2, 3, 4, 6],
-    climaFloracao: "A espécie possui grande amplitude altitudinal e pode crescer de condições quentes a frias, mas tende a responder melhor quando recebe noites amenas, alta umidade e ventilação constante. Em clima quente, não é necessário tentar reproduzir frio intenso; o mais importante é reduzir o superaquecimento noturno, manter raízes ativas e oferecer boa diferença térmica entre dia e noite quando possível.",
+    climaFloracao: "A espécie ocorre em diferentes ambientes florestais; registros altitudinais regionais não demonstram, por si sós, tolerância ampla a temperaturas extremas em cultivo. Noites amenas, umidade elevada e ventilação são orientações práticas provisórias, não requisitos térmicos comprovados experimentalmente para a espécie. Em clima quente, não é necessário tentar reproduzir frio intenso; o mais importante é reduzir o superaquecimento noturno, manter raízes ativas e oferecer boa diferença térmica entre dia e noite quando possível.",
     iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não permitido",
