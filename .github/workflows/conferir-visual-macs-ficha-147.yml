@@ -43,6 +43,7 @@ jobs:
             await page.waitForFunction(() => [...document.querySelectorAll('#ficha img:not(#foto-ampliada-v2)')].every(img => img.complete),null,{timeout:20000});
             const images=await page.locator('#ficha img:not(#foto-ampliada-v2)').evaluateAll(nodes=>nodes.map(img=>({src:img.getAttribute('src'),loaded:img.complete&&img.naturalWidth>0})));
             const broken=images.filter(img=>!img.loaded);
+            await page.screenshot({path:'macs-ficha-147-diagnostico-desktop.png',fullPage:true});
             console.log('IMAGENS DESKTOP:', JSON.stringify(images));
             if(broken.length)throw Error('Imagens não carregadas: '+JSON.stringify(broken));
             const mainParts=await page.locator('.ingrediente-substrato-v4 .proporcao-substrato-v4').allTextContents();
