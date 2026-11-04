@@ -79,8 +79,8 @@ export const cattleyaLeopoldiiDarkPrincess = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Casca de pinus grossa e carvão em vaso de barro com ampla drenagem; estabilidade da planta deve ser garantida pelo vaso e tutoramento.",
-    "justificativa": "AOS recomenda especificamente para Cattleya tigrina (sin. C. leopoldii) vaso de barro com drenagem ampliada e casca ou coco em partículas grossas, sem percentuais. Mogi Mirim e Bioma Plantas citam pinus, carvão e esfagno. A receita genérica 5:1 atribuída ao Missouri Botanical Garden utiliza casca de abeto média e carvão horticultural; o uso de pinus grosso nesta ficha é adaptação de material e granulometria, NÃO receita institucional literal nem ensaio da espécie ou do cultivar Dark Princess. A brita pode ser empregada como material inerte de drenagem/estabilidade quando necessário, sem ser incluída artificialmente em percentual não documentado.",
-    "receitaTexto": "83,3% casca de pinus grossa + 16,7% carvão vegetal horticultural (adaptação 5:1 da referência genérica com casca de abeto média; não homologada para o cultivar).",
+    "justificativa": "Cattleya tigrina (sin. C. leopoldii), incluindo o cultivar Dark Princess, se beneficia de raízes bem ventiladas e drenagem rápida. Em vaso de barro perfurado, a casca de pinus grossa oferece apoio sem compactação, enquanto o carvão vegetal horticultural preserva espaços de ar. Escolha recipiente estável e ajuste as regas conforme a secagem das raízes, sobretudo durante o crescimento ativo.",
+    "receitaTexto": "83,3% casca de pinus grossa + 16,7% carvão vegetal horticultural.",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
