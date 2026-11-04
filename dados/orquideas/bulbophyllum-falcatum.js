@@ -77,8 +77,8 @@ export const bulbophyllumFalcatum = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cachepô de madeira amplo e suspenso ou recipiente muito ventilado",
         "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
-        "justificativa": "Bulbophyllum falcatum possui rizoma rastejante e inflorescência achatada que necessita espaço lateral livre. O cachepô amplo e suspenso é a proposta principal, com rizoma exposto e fixação estável. A receita visual combina pinus médio, chips de coco médios preparados, carvão vegetal médio e esfagno de fibra longa solto, totalizando 100%. As duas outras misturas são receitas editoriais distintas, sem validação comparativa. Manter umidade regular sem compactação nem secagem prolongada. MACS 1.1: formulação horticultural provisória, sem homologação quantitativa específica.",
-        "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% carvão vegetal médio + 15% esfagno de fibra longa solto (proposta não homologada).",
+        "justificativa": "Bulbophyllum falcatum apresenta rizoma rastejante e inflorescências que precisam de espaço lateral livre. Um cachepô amplo e suspenso permite manter o rizoma exposto e a planta bem fixada. A casca de pinus e os chips de coco preparados oferecem apoio e retenção moderada, enquanto o carvão favorece a aeração e o esfagno solto conserva umidade. Evite compactar a mistura e mantenha regas regulares sem encharcamento ou secagem prolongada.",
+        "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% carvão vegetal médio + 15% esfagno de fibra longa solto.",
         "perfil": [
             "Rizoma longo",
             "Raízes finas",
