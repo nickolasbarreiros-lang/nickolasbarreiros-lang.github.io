@@ -46,7 +46,7 @@ export const aciantheraBragae = {
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode ser utilizado em recipiente pequeno e raso, com mistura leve e bem drenada. Evite vasos profundos e compactação." },
         ]
     },
-    substrato: ["55% Casca de pinus — fina/média + 25% Carvão vegetal — pequeno + 20% Esfagno — fibra longa (solto)","45% Chips de coco — pequenos + 30% Carvão vegetal — pequeno + 25% Casca de arroz carbonizada"],
+    substrato: ["Casca de pinus fina/média + Carvão vegetal pequeno + Esfagno de fibra longa solto", "Chips de coco pequenos preparados + Carvão vegetal pequeno + Casca de arroz carbonizada"],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
