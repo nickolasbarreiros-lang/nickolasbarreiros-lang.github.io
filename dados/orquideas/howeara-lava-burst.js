@@ -46,7 +46,7 @@ export const howearaLavaBurst = {
         titulo: "Substrato ideal",
         contexto: "Mistura para vaso pequeno e muito perfurado",
         resumo: "Substrato médio e aberto, com umidade moderada e drenagem rápida, sem compactação ou seca prolongada.",
-        justificativa: "A receita visual combina pinus médio, chips de coco preparados, perlita grossa e carvão vegetal; a receita visual corresponde à receita textual principal, acompanhada de apenas duas alternativas qualitativas. O híbrido tem raízes finas e exige umidade regular com aeração, mas não há ensaio que valide os percentuais. Proposta horticultural ainda não homologada pela MACS 1.1.",
+        justificativa: "Howeara Lava Burst é um híbrido de raízes finas que precisa de umidade regular sem perder a circulação de ar. Em vaso ventilado, a casca de pinus oferece apoio, os chips de coco preparados ajudam a conservar umidade e a perlita e o carvão mantêm a mistura aberta. Observe a secagem do centro do vaso e evite tanto a compactação quanto o encharcamento prolongado.",
         receitaTexto: "35% casca de pinus média + 30% chips de coco preparados + 25% perlita grossa + 10% carvão vegetal.",
         perfil: ["Híbrido intergenérico", "Touceira compacta", "Raízes finas", "Umidade regular", "Floração recorrente"],
         comportamento: [
