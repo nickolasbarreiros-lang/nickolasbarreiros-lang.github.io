@@ -271,6 +271,12 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - MACS 1.1 segue Classe D: falta evidência direta e comparativa de proporções e suportes. Sem mudança de estrelas, receita ou ficha seguinte.
 
 ### Checagem de premiações sob sinônimos — ficha 1 (2026-11-04)
-- Busca adicional encontrou catálogo secundário (https://orchids.herokuapp.com/grexes/anathallis-secunda) que agrega premiações de cultivares sob *Anathallis*, *Pleurothallis* e *Specklinia sclerophylla*.
+- Busca adicional encontrou catálogo secundário (https://orchids.herokuapp.com/grexes/anathallis-sclerophylla) que agrega premiações de cultivares sob *Anathallis*, *Pleurothallis* e *Specklinia sclerophylla*.
 - A afirmação anterior `Não há premiação AOS individualizada documentada nesta revisão` foi qualificada: **há alegações em fonte secundária**, mas **não foram conferidos os certificados/registros primários AOS**. Não converter em premiação homologada nem usar premiações para inferir receita ou suporte superior.
 - Fonte secundária acrescentada ao campo de fontes da ficha com ressalva expressa. MACS permanece Classe D.
+
+### Retificação da fonte de premiações e limite da pesquisa de substrato — ficha 1 (2026-11-04)
+- Retificado link de catálogo secundário anteriormente apontado indevidamente para *Anathallis secunda*: a ficha correta é https://orchids.herokuapp.com/grexes/anathallis-sclerophylla. Erro corrigido tanto no cadastro da espécie quanto neste relatório.
+- Estudo experimental de substratos e adubação em sete espécies epífitas de Chiapas (Cambridge, *Renewable Agriculture and Food Systems*, https://www.cambridge.org/core/journals/renewable-agriculture-and-food-systems/article/abs/substrates-and-fertilization-for-the-rustic-cultivation-of-in-vitro-propagated-native-orchids-in-soconusco-chiapas/8D54CA9ECC6E3FE9A081D81A1FCA9D1E) inclui *Anathallis racemiflora*, **não** *A. sclerophylla*. É evidência de que existem experimentos em congêneres, mas não autoriza transportar percentuais nem estrelas à espécie-alvo.
+- AOS, orientação geral de montagem (https://www.aos.org/orchid-care/orchid-care-basics/mounting), admite vasos em ambientes quentes. Não autoriza hierarquização quantitativa para *A. sclerophylla*.
+- **Bloqueio de homologação**: nenhuma das fontes verificadas compara 35/30/20/15 com alternativas nem os quatro suportes na espécie-alvo. Manter Classe D e dados de suporte nulos, sem homologação por analogia.
