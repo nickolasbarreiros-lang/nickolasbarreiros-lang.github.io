@@ -40,7 +40,7 @@ export const encycliaMineirinha = {
         titulo: "Substrato ideal",
         contexto: "Mistura para vaso de barro com furos laterais ou cachepô vazado",
         resumo: "Partículas médias e grossas, com drenagem rápida, boa aeração e secagem clara entre regas.",
-        justificativa: "A mistura-base visual reúne macadâmia, pinus, perlita e carvão, agora explicitados também como primeira alternativa textual. As outras alternativas usam combinações diferentes. Proporções estimadas para visualização e ainda não homologadas pela MACS 1.0.",
+        justificativa: "Encyclia mineirinha se beneficia de recipiente pequeno, boa ventilação e secagem perceptível entre regas. As cascas de macadâmia e pinus oferecem apoio às raízes, enquanto a perlita e o carvão ajudam a manter espaços de ar e drenagem. Observe a secagem no centro do vaso e ajuste a granulometria ao tamanho das raízes, evitando compactação.",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Híbrido primário", "Pseudobulbos firmes", "Luz alta filtrada", "Raízes arejadas", "Secagem rápida"],
         comportamento: [
