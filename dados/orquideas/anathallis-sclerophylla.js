@@ -38,7 +38,7 @@ export const anathallisSclerophylla = {
         agua: 4,
         raridade: 3
     },
-    mesesFloracao: [10, 11, 12, 1, 2, 6],
+    mesesFloracao: [10, 11, 12, 1, 2, 3, 4, 6],
     climaFloracao: "A espécie possui grande amplitude altitudinal e pode crescer de condições quentes a frias, mas tende a responder melhor quando recebe noites amenas, alta umidade e ventilação constante. Em clima quente, não é necessário tentar reproduzir frio intenso; o mais importante é reduzir o superaquecimento noturno, manter raízes ativas e oferecer boa diferença térmica entre dia e noite quando possível.",
     iluminacao: {
         sombrite: "70% a 80%",
@@ -46,7 +46,7 @@ export const anathallisSclerophylla = {
         horario: "",
         observacoes: "Prefere iluminação baixa a moderada, típica de ambientes florestais úmidos. Em clima quente, 70% a 80% de sombreamento é um bom ponto de partida. Sombra excessivamente profunda pode reduzir a floração, enquanto sol direto forte aquece rapidamente as folhas coriáceas e desidrata as raízes."
     },
-    floracao: "Registros publicados documentam floração de outubro a fevereiro em populações do Paraná (Santos, Toscano de Brito & Smidt, 2019, Rodriguésia 70, e02722017) e um exemplar florido em junho na Bahia (sinopse florística de Boa Nova, Hoehnea). Os meses apresentados no calendário representam ocorrências documentadas, não garantia de floração anual em cultivo. As inflorescências são longas e multifloras.",
+    floracao: "Registros publicados documentam floração de outubro a fevereiro em populações do Paraná (Santos, Toscano de Brito & Smidt, 2019, Rodriguésia 70, e02722017) e um exemplar florido em junho na Bahia (sinopse florística de Boa Nova, Hoehnea). Adicionalmente, o estudo da Ilha do Cardoso registra três exemplares cultivados no orquidário do Instituto de Botânica, com material florido em janeiro e março de 2005 e abril de 2006; por isso março e abril foram acrescentados ao calendário. Os meses apresentados representam registros documentados em campo ou cultivo, não garantia de floração anual. As inflorescências são longas e multifloras.",
     adubacao: "🌿 Orgânica: bokashi apenas em quantidade mínima e preferencialmente isolado em sachê ou porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional e em quantidade muito pequena, principalmente em cultivo envasado.\n🚿 Lavagem: faça regas periódicas somente com água pura para reduzir o acúmulo de sais nas raízes finas.",
     rega: "Mantenha umidade frequente durante todo o crescimento, evitando que as raízes permaneçam completamente secas por períodos prolongados. Molhe bem e permita drenagem e renovação de ar após cada irrigação. Em montagens, a frequência pode ser alta no calor; em vaso, ajuste sempre pela velocidade real de secagem.",
     suporte: [
@@ -101,6 +101,7 @@ export const anathallisSclerophylla = {
             "POWO/Kew — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77142174-1",
             "POWO/Kew, sinonímia heterotípica Anathallis secunda — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:615791-1",
             "Santos, Toscano de Brito e Smidt (2019), Rodriguésia 70, e02722017, DOI 10.1590/2175-7860201970031",
+            "Romanini, A família Orchidaceae no Parque Estadual da Ilha do Cardoso, registro de Anathallis sclerophylla cultivada no Instituto de Botânica, flores em janeiro–abril — https://www.researchgate.net/publication/234102864_A_familia_Orchidaceae_no_Parque_Estadual_da_Ilha_do_Cardoso_Cananeia_SP_Brasil",
             "Sinopse florística do Parque Nacional de Boa Nova, Hoehnea — https://www.scielo.br/j/hoehnea/a/3ny9LMzTztYwyQJJnmJQ5tL/?lang=pt",
             "Gomes (2024), dissertação UFC, levantamento da Serra de Maranguape — https://repositorio.ufc.br/bitstream/riufc/76914/5/2024_dis_mmgomes.pdf",
             "SOSA, dicas gerais de cultivo e substratos — https://www.sosa.org.br/site/dicas-de-cultivo.php",
