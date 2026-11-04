@@ -52,8 +52,8 @@ export const aciantheraPubescens = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura leve, muito aerada e de retenção moderada, adequada a raízes finas que pedem umidade regular sem compactação.",
-        justificativa: "A espécie é epífita e apresenta caules reptantes sem pseudobulbos verdadeiros; a mistura proposta para vaso não foi testada experimentalmente nesta espécie. Em vaso, a prioridade é manter macroporos e secagem parcial sem deixar a mistura desidratar abruptamente. A casca de arroz carbonizada aumenta a estabilidade e a aeração; pinus fornece estrutura; carvão prolonga a porosidade; e uma pequena fração de esfagno cria reserva hídrica localizada.",
-        receitaTexto: "Proposta técnica não homologada para vaso pequeno e drenante: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto.",
+        justificativa: "Acianthera pubescens é uma epífita de crescimento rasteiro, sem pseudobulbos verdadeiros, cujas raízes precisam de umidade regular e boa oxigenação. Em vaso pequeno, a casca de pinus oferece apoio, a casca de arroz carbonizada e o carvão preservam espaços de ar e o esfagno solto mantém uma pequena reserva de umidade. Evite compactação e ajuste as regas para que a mistura seque parcialmente sem desidratar de forma abrupta.",
+        receitaTexto: "Mistura para vaso pequeno e drenante: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto.",
         perfil: ["Raízes finas", "Alta aeração", "Umidade frequente", "Secagem moderada", "Baixa compactação", "Rizoma livre"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
