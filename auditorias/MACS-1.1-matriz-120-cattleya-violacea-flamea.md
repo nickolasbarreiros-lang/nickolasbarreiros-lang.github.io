@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 120 — Cattleya violacea f. flamea
-Data: 2026-11-04. EM ANDAMENTO. Não avançar à matriz 121 até encerramento.
+Data: 2026-11-04. ENCERRADA COMO AUDITADA; HOMOLOGAÇÃO QUANTITATIVA NÃO OBTIDA (D).
 
 ## Identidade e limites da evidência
 Padrão horticultural de coloração flamea em Cattleya violacea, não espécie distinta. Ecologia inferida da espécie-base, não ensaio desta forma. Classe científica D — NÃO HOMOLOGADA quantitativamente. Não há nesta auditoria experimentos comparativos das receitas nem consulta comprovada a 25 produtores independentes. Estrelas de métodos de cultivo anuladas por falta de validação quantitativa.
@@ -13,4 +13,7 @@ Sem perlita. Receitas são propostas horticulturais, não testes de superioridad
 ## Assets e fotos
 Quatro fotos existentes em imagens/Cattleya violacea f. flamea/. Dez chaves presentes na biblioteca: casca-macadamia, casca-pinus, casca-arroz-carbonizada, carvao, fibra-coco, argila-expandida, cesto-madeira, vaso-barro, vaso-plastico-vasado, arvore-viva.
 Correção publicada no commit 067cdf37cc7596ad0f05970e292011333bd19336.
-Pendente Chromium desktop/mobile e encerramento técnico.
+Chromium desktop/mobile aprovado; encerramento técnico registrado.
+
+## Encerramento técnico — 2026-11-04
+Chromium/Playwright https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41765964967: **success** em todas as etapas, incluindo inspeção da ficha e upload das capturas. Quatro fotos e referências visuais confirmadas. Receitas A/B/C somam 100%, sem perlita. Estrelas de suportes nulas. Resultado científico final **D — sem homologação quantitativa**, por ausência de ensaios específicos e amostra documentada de 25 produtores independentes. Encerramento técnico sem pendências; insuficiência científica documentada. Liberada matriz 121.
