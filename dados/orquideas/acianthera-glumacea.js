@@ -51,8 +51,8 @@ export const aciantheraGlumacea = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura aberta e estável, com boa aeração e uma reserva hídrica moderada para acompanhar o hábito epífito de ambientes florestais úmidos.",
-        justificativa: "Acianthera glumacea é principalmente epífita, embora também possa ocorrer como rupícola. Há registros em diferentes formações florestais da Mata Atlântica e sobre casca rugosa com musgo. Para cultivo em vaso, isso favorece uma mistura estruturalmente aberta, que permita bastante oxigênio nas raízes, mas que retenha um pouco mais de umidade do que uma composição extremamente seca. A receita abaixo é uma recomendação prática derivada dessa ecologia e do comportamento esperado das raízes, não uma fórmula experimental publicada.",
-        receitaTexto: "45% Casca de pinus + 20% Casca de arroz carbonizada + 20% Carvão vegetal + 15% Esfagno. Percentuais por volume, provisórios.",
+        justificativa: "Acianthera glumacea é principalmente epífita e também pode ocorrer sobre rochas, com raízes que precisam de boa oxigenação e umidade moderada. Em vaso, a casca de pinus oferece estrutura, a casca de arroz carbonizada e o carvão mantêm espaços de ar e o esfagno ajuda a conservar umidade junto às raízes. Evite compactar a mistura e ajuste as regas conforme a secagem do recipiente, sem deixar as raízes permanentemente encharcadas.",
+        receitaTexto: "45% Casca de pinus + 20% Casca de arroz carbonizada + 20% Carvão vegetal + 15% Esfagno. Percentuais por volume.",
         perfil: ["Raízes finas", "Boa aeração", "Umidade moderada", "Secagem moderada", "Baixa compactação", "Rizoma livre"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
