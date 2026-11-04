@@ -47,3 +47,8 @@ Workflow `.github/workflows/conferir-visual-macs-ficha-149.yml` publicado no com
 - Falha da execução Chromium #2 (contagem incorreta de métodos) foi diagnosticada como erro de seletor; `ficha.js` usa `.forma-principal-v4` e `.alternativa-forma-v41`, não quatro `.forma-cultivo-v4`. Seletor corrigido no commit `89333ebe`.
 - **Resultado: inspeção técnica visual concluída**, sem necessidade de mudar receita, fotos ou layout. As capturas não demonstram, isoladamente, o status verde do workflow mais recente; não afirmar aprovação do job sem log correspondente.
 - **Identificação botânica provisória (`cf.`) e classe D mantidas.** Esta aprovação técnica não constitui homologação científica quantitativa dos percentuais e estrelas.
+
+## Evidência de execução GitHub Actions
+- Captura de GitHub Actions enviada pelo usuário confirma **sucesso (verde) da execução #3** do workflow `Conferência visual MACS 1.1 — ficha 149`, commit `89333ebe`, após correção do seletor de quatro métodos.
+- A captura mostra execução posterior relativa ao commit `535542bc` ainda **em andamento**; não registrar aprovação desta execução sem confirmação posterior.
+- A inspeção das cinco capturas do pacote da ficha 149 já foi concluída sem defeitos bloqueantes; encerramento técnico/visual documentado, **classe D** científica e identificação `cf.` preservadas.
