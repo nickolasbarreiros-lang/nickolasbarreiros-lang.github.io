@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 131 — Stanhopea hernandezii
-Data: 2026-11-04. **EM ANDAMENTO**. Não avançar à matriz 132 até conclusão técnica.
+Data: 2026-11-04. **ENCERRADA TECNICAMENTE — classe científica D, sem homologação quantitativa.**
 
 ## Evidência botânica e manejo
 Stanhopea hernandezii: espécie mexicana com hastes florais descendentes. Cachepô/cesta suspensa de madeira com fundo realmente aberto é condição importante para saída das hastes; umidade regular no crescimento e excelente ventilação. Não confundir recomendação técnica do suporte com validação quantitativa de superioridade.
@@ -16,4 +16,7 @@ Quatro fotos verificadas em imagens/Stanhopea hernandezii/. Assets chips-coco, c
 ## Classificação científica
 **D — NÃO HOMOLOGADA quantitativamente.** Sem ensaio específico controlado nem consulta individualizada documentada a 25 produtores independentes. Os percentuais da receita principal são hipótese horticultural operacional, não resultado de pesquisa experimental.
 
-Pendente: teste Chromium desktop/mobile, capturas e encerramento técnico.
+Teste Chromium desktop/mobile aprovado, capturas confirmadas e encerramento técnico registrado.
+
+## Encerramento — 2026-11-04
+Execução Chromium/Playwright [41839047077](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41839047077): **success** em todas as etapas, inclusive inspeção no navegador e upload de capturas. Artefato **13326828747**, `macs-131-inspecao-visual` (441050 bytes). Principal soma 100%; exatamente duas alternativas qualitativas sem percentuais; perlita preservada; estrelas de suportes omitidas; quatro fotos e sete assets presentes. **Classe D — NÃO HOMOLOGADA quantitativamente**, sem ensaios comparativos específicos e amostra documentada de 25 produtores independentes. Sem pendências técnicas detectadas pelo teste; matriz 132 liberada.
