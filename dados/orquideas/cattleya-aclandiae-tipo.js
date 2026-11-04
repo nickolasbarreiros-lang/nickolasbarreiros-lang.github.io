@@ -77,8 +77,8 @@ export const cattleyaAclandiaeTipo = {
     "titulo": "Substrato ideal",
     "contexto": "Mistura alternativa para vaso",
     "resumo": "Cachepô aberto ou placa continuam preferenciais; para vaso perfurado, referência genérica de casca grossa e carvão.",
-    "justificativa": "Orquidário 4 Estações recomenda para C. aclandiae cachepô com pinus ou placa; Orquídeas & Cia menciona pinus grosso e brita. O Missouri Botanical Garden publica, genericamente para Cattleyas, cinco partes de casca de abeto média para uma de carvão horticultural (5:1). Usar pinus grosso é adaptação de espécie vegetal e granulometria, não reprodução literal dessa referência; NÃO é ensaio desta espécie. O vaso deve ser muito perfurado e permitir secagem das raízes entre regas.",
-    "receitaTexto": "83,3% casca de pinus grossa + 16,7% carvão vegetal horticultural (adaptação 5:1 da referência institucional com casca de abeto média; não homologada para C. aclandiae).",
+    "justificativa": "Cattleya aclandiae se beneficia de raízes muito ventiladas e secagem perceptível entre regas. Pode ser cultivada em placa ou em recipiente bastante perfurado. Na mistura para vaso, a casca de pinus grossa oferece sustentação e o carvão vegetal horticultural ajuda a manter espaços de ar. Evite compactação e ajuste a frequência das regas conforme a secagem das raízes.",
+    "receitaTexto": "83,3% casca de pinus grossa + 16,7% carvão vegetal horticultural.",
     "perfil": [
         "Raízes epífitas grossas",
         "Montagem ventilada",
