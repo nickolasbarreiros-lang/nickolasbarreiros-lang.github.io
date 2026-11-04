@@ -90,7 +90,7 @@ export const phalaenopsisPulcherrima = {
         "nome": "Phalaenopsis pulcherrima",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Phalaenopsis pulcherrima, ainda muito conhecida entre colecionadores como Doritis pulcherrima, foge um pouco da imagem clássica das Phalaenopsis de supermercado. Em vez de viver apenas agarrada a árvores, costuma crescer sobre rochas e solos arenosos, formando touceiras compactas e lançando hastes florais firmes e eretas que podem continuar alongando enquanto novas flores se ab",
+        "morfologiaDimensoes": "Phalaenopsis pulcherrima, ainda muito conhecida entre colecionadores como Doritis pulcherrima, foge um pouco da imagem clássica das Phalaenopsis de supermercado.",
         "habitatAltitudeClima": "Litófita ou terrestre em rochas e solos arenosos de regiões tropicais úmidas. | Quente, úmido, claro e ventilado.",
         "distribuicaoGeografica": "De Assam e Indochina até Hainan e oeste da Malésia.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
