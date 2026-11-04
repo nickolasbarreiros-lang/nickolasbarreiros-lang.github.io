@@ -9,10 +9,10 @@ export const ornithocephalusMyrticola = {
     "caracteristicas": [
         "Miniatura em formato de leque",
         "Sem pseudobulbos",
-        "Folhas imbricadas psygmoides",
+        "Folhas carnudas e imbricadas em leque",
         "Raízes com velame muito delgado",
-        "Microflores em cabeça de pássaro",
-        "Cultivo montado"
+        "Flores claras de cerca de 1 cm, aroma cítrico",
+        "Hastes pilosas de 4–8 cm, até 15 flores"
     ],
     "fotos": [
         "imagens/Ornithocephalus myrticola/Ornithocephalus myrticola1.webp",
@@ -20,9 +20,9 @@ export const ornithocephalusMyrticola = {
         "imagens/Ornithocephalus myrticola/Ornithocephalus myrticola3.jpg",
         "imagens/Ornithocephalus myrticola/Ornithocephalus myrticola4.jpg"
     ],
-    "descricao": "Uma miniatura brasileira de aparência muito diferente das orquídeas mais conhecidas. Ornithocephalus myrticola cresce em pequenos leques de folhas achatadas, sem pseudobulbos, e produz hastes de 4–8 cm que podem carregar até cerca de 15 flores claras de aproximadamente 1 cm. Um detalhe delicioso é o perfume, descrito como lembrando limão. A espécie aparece desde baixadas quentes e savanas mais secas até florestas montanas frescas e úmidas, mostrando uma amplitude climática bem maior do que seu aspecto delicado sugere.",
+    "descricao": "Ornithocephalus myrticola é uma miniatura epífita brasileira de aparência delicada e incomum. Sem pseudobulbos, organiza folhas pequenas, carnudas e sobrepostas em leques achatados, dos quais surgem hastes florais finas e levemente pilosas. Essas inflorescências podem medir de quatro a oito centímetros e reunir até quinze flores claras, com cerca de um centímetro, cujo perfume é descrito como cítrico, lembrando limão. A espécie ocorre em diferentes paisagens brasileiras, de florestas úmidas a ambientes sazonalmente secos. Seu nome faz referência à associação com plantas da família das mirtáceas, e o conjunto de flores parece uma pequena nuvem sobre a folhagem.",
     "origem": "Brasil",
-    "regiao": "Centro-Oeste, Sudeste e Sul do Brasil",
+    "regiao": "Norte, Centro-Oeste, Sudeste e Sul do Brasil",
     "habitat": "Matas montanas a baixadas e savanas.",
     "clima": "Quente a fresco · boa umidade e ar.",
     "climaFloracao": "Cresce continuamente quando recebe umidade estável, boa ventilação e temperatura moderada. Não precisa de repouso seco. Plantas bem estabelecidas podem emitir várias hastes, criando pequenas nuvens de flores microscópicas. Calor noturno, ar parado e água retida no centro do leque interrompem rapidamente o crescimento.",
@@ -52,7 +52,7 @@ export const ornithocephalusMyrticola = {
         titulo: "Substrato ideal",
         contexto: "Montagem em placa rugosa com esfagno mínimo",
         resumo: "A montagem principal usa apenas uma lâmina fina de esfagno sob as raízes. Mistura de partículas pequenas é alternativa para suporte totalmente vazado, sem formar reservatório de água.",
-        justificativa: "A montagem principal em placa ou tronco rugoso usa apenas uma pluma mínima de esfagno solto sob as raízes. A receita percentual visual aplica-se exclusivamente a suporte muito vazado e reúne chips de coco pequenos preparados, pinus fino e perlita com granulometria compatível com as raízes. As duas alternativas qualitativas são distintas e não correspondem à receita principal. Como as raízes são muito delicadas, não presumir que perlita grossa seja adequada; avaliar retenção e secagem sem abafar o leque. MACS 1.1: proporções provisórias sem homologação quantitativa específica",
+        justificativa: "A montagem principal em placa ou tronco rugoso usa apenas uma pluma mínima de esfagno solto sob as raízes. O Orquidário Emanuel documenta exemplar cultivado em placa de madeira, e o Orquidário Oriental informa 70% de sombreamento, sem proporções de mistura. A receita percentual visual aplica-se exclusivamente a suporte muito vazado e reúne chips de coco pequenos preparados, pinus fino e perlita com granulometria compatível com as raízes. As duas alternativas qualitativas são distintas e não correspondem à receita principal. Como as raízes são muito delicadas, não presumir que perlita grossa seja adequada; avaliar retenção e secagem sem abafar o leque. MACS 1.1: proporções provisórias sem homologação quantitativa específica",
         receitaTexto: "40% chips de coco pequenos preparados + 30% casca de pinus fina + 30% perlita de granulometria adequada às raízes.",
         perfil: ["Miniatura epífita", "Folhas em leque", "Sem pseudobulbos", "Raízes delicadas", "Umidade frequente e ventilação"],
         comportamento: [
@@ -67,18 +67,18 @@ export const ornithocephalusMyrticola = {
             { asset: "perlita", nome: "Perlita de granulometria adequada", proporcao: "30%", nota: "aeração", finalidade: "Mantém drenagem e circulação de ar." }
         ],
         alerta: "Evitar secagem por vários dias, água acumulada no centro do leque, madeira lisa, sol direto e folhas molhadas à noite. Umidade elevada exige ventilação constante.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Ornithocephalus myrticola, miniatura epífita sem pseudobulbos, raízes de velame delgado; montagem principal em placa rugosa com esfagno mínimo e hidratação frequente, sem saturação do leque. Suportes placa/tronco 5 estrelas; cachepô madeira, plástico vasado e árvore viva 3; notas não homologadas. Receita visual ALTERNATIVA para suporte muito vazado: 40% chips coco pequenos + 30% pinus fino + 30% perlita grossa = 100%; receitaTexto e itens concordam. A receita percentual principal textual e visual coincidem; as duas alternativas qualitativas são distintas. A perlita deve ter granulometria compatível com raízes delicadas, sem presumir tamanho grosso. Avaliar risco de partículas grandes, desidratação ou abafamento; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Ornithocephalus myrticola, miniatura epífita sem pseudobulbos, raízes de velame delgado; montagem principal em placa rugosa com esfagno mínimo e hidratação frequente, sem saturação do leque. Suportes placa/tronco 5 estrelas; cachepô madeira, plástico vasado e árvore viva 3; notas não homologadas. Receita visual ALTERNATIVA para suporte muito vazado: 40% chips coco pequenos + 30% pinus fino + 30% perlita de granulometria adequada = 100%; receitaTexto e itens concordam. A receita percentual principal textual e visual coincidem; as duas alternativas qualitativas são distintas. A perlita deve ter granulometria compatível com raízes delicadas, sem presumir tamanho grosso. Avaliar risco de partículas grandes, desidratação ou abafamento; meta até 25 produtores brasileiros específicos não atingida. POWO aceita Ornithocephalus myrticola Lindl. (1840), epífita nativa das regiões Norte, Centro-Oeste, Sudeste e Sul do Brasil; Ornithocephalus chloroleucus, O. pygmaeus, O. reitzii e O. vosburghii são sinônimos heterotípicos. IOSPE descreve folhas em leque, hastes axilares pilosas de 4–8 cm, até 15 flores de cerca de 1 cm com aroma cítrico, mas cita Bolívia, não incluída na distribuição aceita por POWO. Orquidário Emanuel confirma cultivo em placa de madeira e Orquidário Oriental registra 70% de sombreamento, ambos sem receita percentual. Dois produtores brasileiros específicos qualitativos e zero receitas quantitativas específicas confirmadas nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     "errosComuns": "Secar por vários dias; encharcar o centro do leque; cultivar em vaso profundo; usar madeira lisa; aplicar adubo concentrado; expor ao sol direto; deixar a planta molhada à noite; aumentar umidade sem ventilação; manter junto a parede quente.",
     "dica": "Quatro pilares definem o sucesso: planta montada, umidade diária, folhas secas antes da noite e brisa contínua. Use apenas uma pluma de esfagno, suficiente para atrasar a secagem sem abafar. No calor, aumente a frequência das pequenas hidratações e não a quantidade de material retentivo. Observe o centro do leque diariamente: qualquer escurecimento exige secagem e mais ventilação.",
     revisaoCientificaIAR: {
         "nome": "Ornithocephalus myrticola",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma miniatura brasileira de aparência muito diferente das orquídeas mais conhecidas. Ornithocephalus myrticola cresce em pequenos leques de folhas achatadas, sem pseudobulbos, e produz hastes de 4–8 cm que podem carregar até cerca de 15 flores claras de aproximadamente 1 cm. Um detalhe delicioso é o perfume, descrito como lembrando limão. A espécie aparece desde baixadas quente",
+        "statusTaxonomico": "Ornithocephalus myrticola Lindl. (1840), espécie aceita em POWO; nativa do Brasil.",
+        "sinonimosPrincipais": "Ornithocephalus chloroleucus, O. pygmaeus, O. reitzii e O. vosburghii (sinônimos heterotípicos segundo POWO).",
+        "morfologiaDimensoes": "Miniatura epífita sem pseudobulbos; folhas carnosas falcadas em leques achatados; inflorescências axilares pilosas de 4–8 cm, até 15 flores claras com cerca de 1 cm e fragrância cítrica (IOSPE).",
         "habitatAltitudeClima": "Matas montanas a baixadas e savanas. | Quente a fresco · boa umidade e ar.",
-        "distribuicaoGeografica": "Centro-Oeste, Sudeste e Sul do Brasil.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "distribuicaoGeografica": "Norte, Centro-Oeste, Sudeste e Sul do Brasil (POWO). IOSPE cita Bolívia, não confirmada por POWO.",
+        "cultivoPremiacao": "Orquidário Emanuel documenta exemplar em placa de madeira; Orquidário Oriental registra 70% de sombreamento. Sem receitas percentuais específicas verificadas.",
         "confianca": "media",
         "fontes": [
             "POWO/Kew",
