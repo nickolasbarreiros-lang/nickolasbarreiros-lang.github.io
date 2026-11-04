@@ -23,7 +23,7 @@ export const encycliaBracteata = {
         "imagens/Encyclia bracteata/Encyclia bracteata3.jpeg",
         "imagens/Encyclia bracteata/Encyclia bracteata4.jpg"
     ],
-    descricao: "Uma das menores Encyclia brasileiras! Encyclia bracteata forma pseudobulbos compactos com uma folha fina e estreita e produz pequenas hastes com apenas duas ou três flores de aproximadamente 2,5 cm. O contraste entre o porte reduzido da planta e a delicadeza das flores torna a espécie especialmente charmosa. É nativa da Mata Atlântica, da Bahia ao Sudeste, e ocorre principalmente em baixas altitudes — cerca de 10 a 500 m — sobre troncos de árvores. Essa origem explica sua boa adaptação ao calor: gosta de muita claridade filtrada, água durante o crescimento e raízes que secam rapidamente depois de cada rega.",
+    descricao: "Encyclia bracteata é uma das menores representantes brasileiras do gênero. Seus pseudobulbos cônicos sustentam uma única folha fina e estreita, enquanto hastes curtas podem surgir em mais de um ponto do mesmo pseudobulbo. Cada inflorescência costuma apresentar duas ou três flores delicadas, com cerca de 2,5 cm, em tons esverdeados ou amarelados e labelo contrastante. É uma epífita da Mata Atlântica, encontrada sobre troncos de árvores em regiões de baixa altitude. O pequeno porte e a possibilidade de várias hastes em uma única brotação tornam sua floração particularmente interessante para quem aprecia miniaturas botânicas.",
     origem: "Brasil",
     regiao: "Bahia e Sudeste brasileiro",
     habitat: "Mata Atlântica · epífita · ~10–500 m.",
@@ -55,7 +55,7 @@ export const encycliaBracteata = {
         titulo: "Substrato ideal",
         contexto: "Proposta para vaso pequeno ou cachepô bem ventilado",
         resumo: "Mistura média e porosa, com boa drenagem e secagem perceptível entre regas.",
-        justificativa: "A receita principal textual coincide com os componentes visuais: macadâmia média, pinus médio, perlita grossa e carvão vegetal. As duas alternativas qualitativas usam combinações diferentes, sem equivalência com a receita principal. Para esta espécie de pequeno porte, a granulometria precisa ser conferida em relação ao calibre real das raízes e à dimensão do recipiente, sem presumir que partículas médias ou grossas sejam sempre adequadas. MACS 1.1: percentuais provisórios sem homologação quantitativa específica",
+        justificativa: "A receita principal textual coincide com os componentes visuais: macadâmia média, pinus médio, perlita grossa e carvão vegetal. Relato brasileiro de cultivo premiado de E. bracteata descreve sucesso em toco de madeira, sem substrato volumétrico, e fracasso anterior em madeira encharcada com pouca ventilação. É evidência observacional individual, não ensaio comparativo nem validação desta mistura. As duas alternativas qualitativas usam combinações diferentes, sem equivalência com a receita principal. Para esta espécie de pequeno porte, a granulometria precisa ser conferida em relação ao calibre real das raízes e à dimensão do recipiente, sem presumir que partículas médias ou grossas sejam sempre adequadas. MACS 1.1: percentuais provisórios sem homologação quantitativa específica",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Miniatura epífita", "Pseudobulbos unifoliados", "Alta luminosidade filtrada", "Raízes aeradas", "Secagem parcial entre regas"],
         comportamento: [
@@ -68,21 +68,21 @@ export const encycliaBracteata = {
             { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece apoio às raízes sem compactar o recipiente pequeno." },
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "drenagem", finalidade: "Mantém espaços de ar e secagem regular." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Favorece drenagem e reduz retenção excessiva." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "estrutura", finalidade: "Complementa a porosidade da mistura." }
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "15%", nota: "estrutura", finalidade: "Complementa a porosidade da mistura." }
         ],
         alerta: "Não usar vaso grande, enterrar o rizoma nem manter raízes constantemente molhadas. Evitar sombra excessiva e repouso completamente seco por meses.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Encyclia bracteata, miniatura epífita de baixa altitude, raízes ventiladas e secagem parcial entre regas. Suportes vaso barro e cachepô madeira 5 estrelas, placa/tronco e plástico vasado 4; avaliações horticulturais sem comparação específica. Receita visual 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% macadâmia, 30% pinus, 20% perlita, 15% carvão); as duas alternativas qualitativas são independentes. Granulometria média para recipiente de miniatura deve ser verificada em relação ao porte das raízes. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Encyclia bracteata, miniatura epífita de baixa altitude, raízes ventiladas e secagem parcial entre regas. Suportes vaso barro e cachepô madeira 5 estrelas, placa/tronco e plástico vasado 4; avaliações horticulturais sem comparação específica. Receita visual 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% macadâmia, 30% pinus, 20% perlita, 15% carvão); as duas alternativas qualitativas são independentes. Granulometria média para recipiente de miniatura deve ser verificada em relação ao porte das raízes. POWO aceita Encyclia bracteata, epífita nativa do Nordeste e Sudeste do Brasil, com Epidendrum bracteatum, E. pabstii e E. pusillum como sinônimos; os nomes Epidendrum bracteatum e E. pusillum são homônimos ilegítimos, não basônimos válidos. IOSPE documenta pseudobulbos unifoliados, flores de 2,5 cm, 2–3 por haste, podendo haver mais de uma haste por pseudobulbo. Diário do Orquidófilo (2017) descreve cultivo bem-sucedido sobre toco de madeira, sem mistura volumétrica, e perda anterior por encharcamento; relato individual, não comparação experimental. Um relato brasileiro qualitativo específico e zero receitas quantitativas de produtores confirmados nesta passagem; meta até 25 não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: "Sombra excessiva; vaso grande; substrato fino; raízes constantemente molhadas; enterrar o rizoma; replantar fora da emissão de raízes novas; excesso de fertilizante; interpretar baixa altitude como tolerância a abafamento; impor repouso totalmente seco por meses.",
     dica: "A espécie é pequena, mas quer bastante luz. No litoral quente, use vaso pequeno, mistura grossa e ventilação permanente. Regue com generosidade enquanto houver crescimento ativo e deixe o ar retornar rapidamente às raízes após cada rega.",
     revisaoCientificaIAR: {
         "nome": "Encyclia bracteata",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma das menores Encyclia brasileiras! Encyclia bracteata forma pseudobulbos compactos com uma folha fina e estreita e produz pequenas hastes com apenas duas ou três flores de aproximadamente 2,5 cm. O contraste entre o porte reduzido da planta e a delicadeza das flores torna a espécie especialmente charmosa. É nativa da Mata Atlântica, da Bahia ao Sudeste, e ocorre principalmen",
+        "statusTaxonomico": "Encyclia bracteata aceita em POWO; combinação publicada em 1930 por Schlechter ex Hoehne.",
+        "sinonimosPrincipais": "Epidendrum bracteatum (homônimo ilegítimo posterior); Epidendrum pabstii; Epidendrum pusillum (homônimo ilegítimo posterior).",
+        "morfologiaDimensoes": "Miniatura de pseudobulbos cônicos unifoliados; folhas estreitas; inflorescências terminais curtas, por vezes múltiplas por pseudobulbo, com 2–3 flores de aproximadamente 2,5 cm (IOSPE).",
         "habitatAltitudeClima": "Mata Atlântica · epífita · ~10–500 m. | Quente a intermediário · ventilado.",
         "distribuicaoGeografica": "Bahia e Sudeste brasileiro.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "cultivoPremiacao": "Relato brasileiro de 2017 documenta primeira colocação em exposição orquidófila com planta montada em toco de madeira; observação individual, não ensaio de substratos.",
         "confianca": "media",
         "fontes": [
             "POWO/Kew",
