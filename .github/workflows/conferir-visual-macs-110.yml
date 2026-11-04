@@ -3,6 +3,10 @@ on:
   push:
     paths:
       - '.github/workflows/conferir-visual-macs-110.yml'
+      - 'dados/orquideas/acianthera-bragae.js'
+      - 'orquidea.html'
+      - 'js/**'
+      - 'css/**'
   workflow_dispatch:
 jobs:
   conferir:
