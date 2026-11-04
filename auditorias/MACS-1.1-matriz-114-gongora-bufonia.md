@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 114 — Gongora bufonia
-Data 2026-11-04. **Em andamento**, não avançar à matriz 115.
+Data 2026-11-04. **ENCERRADA COMO AUDITADA, NÃO HOMOLOGADA QUANTITATIVAMENTE (D).**
 
 ## Escopo e identidade
 Espécie botânica brasileira com inflorescências pendentes. POWO/Kew confirma *Gongora bufonia* Lindl. (1841) como nome aceito, *Gongora irrorata* como sinônimo, distribuição nativa brasileira de Sergipe a Santa Catarina e hábito epífito em bioma tropical úmido. As hastes pendentes justificam funcionalmente um cesto suspenso com fundo desobstruído. A ficha mantém quatro fotos e quatro métodos, com estrelas **heurísticas D**.
@@ -17,7 +17,7 @@ A: mais esfagno, retenção potencialmente maior; B: macadâmia e menor esfagno;
 Taxonomia/distribuição: confirmadas por POWO/Kew; ecologia e suporte suspenso corroborados por AOS/IOSPE. Suporte suspenso: coerência morfológica, sem ensaio comparativo. Composição, percentuais e estrelas: **D**. Não houve consulta individualizada de até 25 produtores nem identificação de ensaio específico; não afirmar homologação C.
 
 ## Integração
-Arquivo `dados/orquideas/gongora-bufonia.js`, commit `a3a6c64018027c9ed2a68e52b6aedad33c0c92c8`. Quatro fotografias verificadas fisicamente no repositório. Assets e taxonomia conferidos; pendente Chromium e revisão de evidências quantitativas específicas.
+Arquivo `dados/orquideas/gongora-bufonia.js`, commit `a3a6c64018027c9ed2a68e52b6aedad33c0c92c8`. Quatro fotografias verificadas fisicamente no repositório. Assets e taxonomia conferidos; Chromium concluído com sucesso; evidências quantitativas insuficientes e explicitamente classificadas D.
 ## Fontes identificadas e ponderação — 2026-11-04
 1. POWO/Kew (taxonomia primária): https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:635999-1 — nome aceito, sinonímia, epifitismo e distribuição Brasil Sergipe–Santa Catarina.
 2. IOSPE (espécie): https://www.orchidspecies.com/gonbufonia.htm — hastes pendentes 40–80 cm, flores perfumadas e ~5 cm, clima quente; IOSPE cita Colômbia, **não corroborada pela distribuição nativa do POWO**, que prevalece para o campo distribuição.
@@ -31,3 +31,10 @@ Arquivo `dados/orquideas/gongora-bufonia.js`, commit `a3a6c64018027c9ed2a68e52b6
 
 ## Assets — 2026-11-04
 Arquivos físicos presentes em `imagens/cultivo-v4/`: `fibra-coco.webp`, `casca-pinus.webp`, `casca-arroz-carbonizada.webp`, `esfagno.webp`, `cesto-madeira-v3.webp`, `vaso-plastico-vasado-v2.webp`, `placa-madeira-v3.webp`, `vaso-barro.webp`. Chaves correspondentes confirmadas em `js/biblioteca-cultivo-v4.js`: `fibra-coco`, `casca-pinus`, `casca-arroz-carbonizada`, `esfagno`, `cesto-madeira`, `vaso-plastico-vasado`, `placa-tronco`, `vaso-barro`. Presença física não substitui teste de renderização.
+
+## Encerramento técnico — 2026-11-04
+- Chromium/Playwright: workflow `.github/workflows/conferir-visual-macs-114.yml`, execução https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41764676348, **success** em todas as etapas, inclusive inspeção no navegador e upload de capturas.
+- Artefato de capturas: `macs-114-inspecao-visual`, ID `13291876798` (desktop e celular conforme workflow).
+- Fotos 4/4 existentes; oito assets físicos e oito chaves da biblioteca confirmados; receitas A/B/C totalizam 100% e não incluem perlita; alternativa principal e duas adicionais documentadas.
+- Decisão científica: **D, homologação quantitativa REPROVADA por insuficiência de evidências específicas**. Essa é decisão final negativa da auditoria, não uma homologação positiva. A meta de 25 produtores não foi atingida e não se criaram dados fictícios.
+- **Sem pendências técnicas de auditoria da matriz 114**; o limite de evidência permanece transparente na própria ficha. Autoriza-se seguir para a matriz 115 sem promover artificialmente o grau de evidência.
