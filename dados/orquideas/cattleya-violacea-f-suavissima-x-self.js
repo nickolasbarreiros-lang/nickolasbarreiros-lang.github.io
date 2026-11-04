@@ -80,8 +80,8 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
         "titulo": "Substrato ideal",
         "contexto": "Cachepô de madeira aberto",
         "resumo": "Mistura média e grossa, com boa aeração e retenção moderada.",
-        "justificativa": "Cattleya violacea f. suavissima × self é progênie por autofecundação, com variação individual entre seedlings. O cachepô de madeira aberto favorece aeração, mas exige regas regulares e água de baixa salinidade. A receita visual combina pinus médio, macadâmia média, carvão vegetal médio e fibra de coco preparada, totalizando 100%. As duas outras misturas são alternativas quantitativas editoriais distintas (40/30/20/10 por volume cada), sem ensaios comparativos. Referências a cultivo em cestos ou placas não equivalem a ensaio comparativo de substratos. MACS 1.1: formulação horticultural provisória, sem homologação quantitativa específica.",
-        "receitaTexto": "35% casca de pinus média + 25% casca de macadâmia média + 20% carvão vegetal médio + 20% fibra de coco preparada (proposta não homologada).",
+        "justificativa": "Cattleya violacea f. suavissima × self pode apresentar diferenças de vigor entre plantas da mesma progênie. Em cachepô de madeira aberto, as cascas de pinus e macadâmia oferecem sustentação, o carvão mantém a mistura arejada e a fibra de coco preparada ajuda a conservar umidade. Mantenha regas regulares conforme a secagem observada e prefira água de baixa salinidade, evitando acúmulo de sais.",
+        "receitaTexto": "35% casca de pinus média + 25% casca de macadâmia média + 20% carvão vegetal médio + 20% fibra de coco preparada.",
         "perfil": [
             "Umidade regular",
             "Aeração elevada",
