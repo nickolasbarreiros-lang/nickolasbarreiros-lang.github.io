@@ -27,3 +27,10 @@ A matriz `auditorias/MACS-1.1-MATRIZ-011-CATTLEYA-PUMPKIN-FESTIVAL.md` trata do 
 **D — NÃO HOMOLOGADA quantitativamente.** Sem ensaio comparativo específico de suportes/receitas nem amostra documentada de 25 produtores brasileiros independentes; percentuais são proposta horticultural provisória.
 
 Pendente teste Chromium desktop/mobile, capturas e encerramento técnico.
+
+## Critérios objetivos de encerramento técnico — 2026-11-04
+- **Ficha e receita:** módulo JavaScript sintaticamente válido; mistura principal 45/25/20/10 = 100%; duas alternativas qualitativas sem percentuais; classificação científica D explícita. Conferência estática concluída.
+- **Renderização:** workflow `.github/workflows/conferir-visual-macs-146.yml` preparado para testar Chromium desktop (1465 × 900) e celular (390 × 844), quatro fotos, imagens da ficha, proporções, alternativas, overflow horizontal e erros JavaScript. A sintaxe do script foi conferida, **mas ainda não há resultado de execução verificável** disponível nesta auditoria.
+- **Comprovação necessária:** execução GitHub Actions da matriz 146 com conclusão `success` e artefato `macs-146-inspecao-visual` contendo capturas desktop/mobile. Sem esse resultado, **não declarar inspeção visual aprovada**.
+- **Ciência:** classe D permanece **não homologada quantitativamente**, mesmo após eventual sucesso técnico. A falta de ensaio comparativo ou dados independentes de produtores não deve ser mascarada por uma aprovação de interface.
+- **Regra de progressão:** manter matriz 147 bloqueada até evidência do teste visual bem-sucedido e decisão explícita sobre aceitar a ficha como tecnicamente encerrada **com ressalva científica D**, ou exigir homologação quantitativa antes de avançar.
