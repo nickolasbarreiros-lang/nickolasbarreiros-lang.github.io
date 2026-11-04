@@ -117,3 +117,17 @@ Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/in
 
 - Tabelas IDC históricas de quatro faixas corrigidas para as cinco faixas oficiais, sem alterar notas, pesos, estrelas ou substratos. Commits `be629be8`, `c02115ab`, `e56d89ff`, `46266e3d`, `09852f8e`.
 - **Progresso matemático: 15/25.** Não equivale a homologação científica; inspeção de fotos/assets, navegador e confronto das fontes permanecem pendentes.
+
+## Auditoria matemática parcial — fichas 16–20 (2026-11-04)
+- Oito critérios IDC 3.2 e sete fatores para cada região IAR 2.0 recalculados. Resultados iguais aos índices cadastrados:
+
+| Nº | Ficha | IDC | IAR litoral | IAR montanha |
+|---|---|---:|---:|---:|
+| 16 | Cattleya cernua (arquivo sophronitis-cernua.js) | 47 | 96 | 52 |
+| 17 | Zygolum Louisendorf | 27 | 79 | 80 |
+| 18 | Dendrobium loddigesii | 58 | 45 | 97 |
+| 19 | Maxillaria schunkeana | 44 | 79 | 80 |
+| 20 | Mediocalcar decoratum | 52 | 47 | 96 |
+
+- Cinco tabelas históricas de quatro faixas IDC corrigidas para as cinco faixas oficiais. Commits `ed8c9333`, `d461a86c`, `05e41a57`, `729b3cf9`, `6ee20b8d`.
+- **Progresso matemático: 20/25.** Aritmética conferida não equivale a homologação científica; fotos/assets, execução JavaScript, navegador e confronto das fontes permanecem pendentes.
