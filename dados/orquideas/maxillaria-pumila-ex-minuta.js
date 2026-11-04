@@ -2,17 +2,17 @@
 
 export const maxillariaPumilaExMinuta = {
     "id": "maxillaria-pumila-ex-minuta",
-    "nome": "Maxillaria pumila (ex-minuta)",
+    "nome": "Maxillaria pumila",
     "genero": "Maxillaria",
-    "sinonimo": "Christensonella pumila",
+    "sinonimo": "Maxillaria minuta; Christensonella pumila; Christensonella minuta",
     "tipo": "Espécie botânica",
     "dificuldade": "Moderada",
     "caracteristicas": [
         "Miniatura epífita",
-        "Complexo Christensonella",
+        "Inclui formas antes chamadas Maxillaria minuta",
         "Touceira em forma de almofada",
         "Raízes capilares muito finas",
-        "Flores basais vinho e perfumadas"
+        "Flores basais de cerca de 8 mm, variáveis na cor"
     ],
     "fotos": [
         "imagens/Maxillaria pumila/Maxillaria pumila1.jpg",
@@ -20,16 +20,16 @@ export const maxillariaPumilaExMinuta = {
         "imagens/Maxillaria pumila/Maxillaria pumila3.jpg",
         "imagens/Maxillaria pumila/Maxillaria pumila4.jpg"
     ],
-    "descricao": "Uma verdadeira miniatura sul-americana! A Maxillaria pumila forma pequenas touceiras com pseudobulbos discretos, uma única folha por crescimento e flores diminutas de cerca de 8 mm, que aparecem bem junto à planta. É uma espécie de clima quente, originária das Guianas e do Brasil, e chama atenção justamente pelo contraste entre o porte minúsculo e a delicadeza das flores. Em cultivo, o segredo está nas raízes finíssimas: elas gostam de umidade frequente, mas precisam de muito ar e baixa concentração de sais.",
+    "descricao": "Maxillaria pumila é uma orquídea epífita diminuta, capaz de formar almofadas compactas sobre galhos e troncos. Seus pseudobulbos ovais, revestidos por bainhas, sustentam uma única folha pequena, levemente carnosa. As flores surgem em hastes basais muito curtas, quase escondidas entre as folhas, e medem cerca de oito milímetros. A coloração varia entre amarelo, castanho e vermelho-escuro, com diferenças perceptíveis entre exemplares. Encontrada na Guiana e em diversas regiões brasileiras, habita florestas tropicais úmidas. Sua aparência discreta esconde uma história botânica complexa: plantas antes chamadas Maxillaria minuta e Christensonella pumila são hoje reunidas sob o mesmo nome aceito.",
     "origem": "Guiana e Brasil",
-    "regiao": "América do Sul tropical · Brasil e Guiana",
+    "regiao": "Guiana e regiões Norte, Sudeste e Sul do Brasil",
     "habitat": "Epífita · florestas tropicais úmidas.",
     "clima": "Quente · úmido e muito ventilado.",
     "climaFloracao": "IOSPE descreve a espécie como miniatura de crescimento quente, florescendo na primavera e no verão em hastes curtas de cerca de 1,5 cm. Não há necessidade de repouso seco. Para florescer bem, a planta precisa permanecer em touceira, com raízes funcionais e boa luz filtrada. No litoral quente, a temperatura é favorável; o maior risco é o abafamento de raízes muito finas em esfagno compactado ou substrato velho.",
     "iluminacao": {
         "sombrite": "65% a 75%",
-        "solDireto": "Permitido com restrição",
-        "horario": "Somente início da manhã",
+        "solDireto": "Não permitido",
+        "horario": "Não permitido",
         "observacoes": "Prefere luz filtrada clara, sem aquecimento da touceira. Folhas compactas e verde-vivo indicam equilíbrio. Amarelecimento, ressecamento das pontas ou vermelhidão intensa sugerem excesso; crescimento frouxo, alongado e verde-escuro indica pouca luz."
     },
     "floracao": "Mais comum da primavera ao verão, aproximadamente de setembro a fevereiro no hemisfério sul. As flores medem cerca de 8 mm e surgem em pequenas hastes basais. Como ficam próximas da folhagem, uma touceira bem estabelecida produz o melhor efeito visual.",
@@ -52,7 +52,7 @@ export const maxillariaPumilaExMinuta = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para microvaso",
         resumo: "Mistura leve com partículas pequenas a médias, contato delicado com raízes capilares e boa aeração, sem esfagno compactado.",
-        justificativa: "A montagem principal é em placa pequena com um filete mínimo de esfagno solto. Para microvaso muito perfurado, a receita visual provisória combina pinus, macadâmia triturada, perlita e fibra de coco grossa preparada, somando 100%; a composição não quantifica a primeira receita qualitativa anterior, que continha chips de coco em vez de macadâmia. As duas outras misturas permanecem alternativas qualitativas distintas, sem proporções homologadas. A granulometria deve respeitar raízes capilares e não criar espaços excessivos nem compactação. MACS 1.1: percentuais sem homologação quantitativa específica.",
+        justificativa: "A montagem principal é em placa pequena com um filete mínimo de esfagno solto. A revisão taxonômica de Koehler, Singer e Amaral (2012) reúne M. minuta e Christensonella pumila sob o conceito de M. pumila, mas não testa substratos. Para microvaso muito perfurado, a receita visual provisória combina pinus, macadâmia triturada, perlita e fibra de coco grossa preparada, somando 100%; a composição não quantifica a primeira receita qualitativa anterior, que continha chips de coco em vez de macadâmia. As duas outras misturas permanecem alternativas qualitativas distintas, sem proporções homologadas. A granulometria deve respeitar raízes capilares e não criar espaços excessivos nem compactação. MACS 1.1: percentuais sem homologação quantitativa específica.",
         receitaTexto: "35% casca de pinus de granulometria compatível + 30% casca de macadâmia triturada + 25% perlita de granulometria adequada + 10% fibra de coco grossa preparada.",
         perfil: ["Miniatura epífita", "Raízes capilares", "Touceira em almofada", "Umidade frequente", "Alta aeração"],
         comportamento: [
@@ -68,18 +68,18 @@ export const maxillariaPumilaExMinuta = {
             { asset: "fibra-coco", nome: "Fibra de coco grossa preparada", proporcao: "10%", nota: "umidade pontual", finalidade: "Complementa umidade entre regas sem compactação." }
         ],
         alerta: "Evitar vasos grandes, materiais grossos demais para raízes capilares, esfagno compactado, adubo concentrado e divisões pequenas. Fixar ou replantar durante emissão de raízes novas.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Maxillaria pumila (ex-minuta), miniatura epífita de raízes capilares; montagem principal em placa pequena com esfagno mínimo e umidade frequente. Suportes placa/tronco 5 estrelas, barro e plástico vasado 4, cachepô madeira 3; classificações não homologadas. Receita visual alternativa para microvaso: 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa = 100%; receitaTexto e itens concordam. A receita visual de microvaso não quantifica a primeira alternativa qualitativa, pois contém macadâmia em vez de chips; as duas alternativas textuais mantidas são distintas da composição visual. A mistura visual permanece apenas proposta para microvaso; montagem principal é placa. Validar granulometria e contato hídrico com raízes capilares, secagem e acúmulo de sais. Meta de até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS.",
+        notaEvidencia: "MACS 1.1 — revisão documental: Maxillaria pumila (ex-minuta), miniatura epífita de raízes capilares; montagem principal em placa pequena com esfagno mínimo e umidade frequente. Suportes placa/tronco 5 estrelas, barro e plástico vasado 4, cachepô madeira 3; classificações não homologadas. Receita visual alternativa para microvaso: 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa = 100%; receitaTexto e itens concordam. A receita visual de microvaso não quantifica a primeira alternativa qualitativa, pois contém macadâmia em vez de chips; as duas alternativas textuais mantidas são distintas da composição visual. A mistura visual permanece apenas proposta para microvaso; montagem principal é placa. Validar granulometria e contato hídrico com raízes capilares, secagem e acúmulo de sais. POWO aceita Maxillaria pumila Hook. (1837) e trata Maxillaria minuta e Christensonella pumila como sinônimos. IOSPE descreve pseudobulbos ovoides unifoliados, haste de 1,5 cm e flor de 8 mm; o próprio IOSPE ressalva dúvidas históricas na delimitação de M. minuta, resolvidas de outra forma pela revisão de Koehler et al. (2012). Não foi verificada receita percentual de produtor brasileiro específica para a espécie nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS.",
     },
     "errosComuns": "❌ Usar casca grossa demais, que não mantém contato uniforme com raízes capilares.\n❌ Usar vaso grande ou profundo.\n❌ Dividir a touceira em pequenos fragmentos.\n❌ Aplicar fertilizante concentrado ou Osmocote junto às raízes.\n❌ Enterrar o rizoma ou cobrir os pseudobulbos minúsculos.\n❌ Compactar esfagno ao redor da planta.\n❌ Manter alta umidade sem movimento de ar.\n❌ Replantar fora da emissão de raízes novas.",
     "dica": "Preserve a touceira como um bloco único sempre que possível. O conjunto cria um microclima que reduz oscilações de temperatura e umidade, além de aumentar muito o impacto da floração. Adube de forma “homeopática” e faça lavagem mensal, porque raízes capilares queimam rapidamente com sais. Na montagem ou troca de vaso, espere novas pontas radiculares e use material de granulometria fina, porém solto. O objetivo não é manter tudo molhado, mas oferecer água frequente com rápida renovação de oxigênio.",
     revisaoCientificaIAR: {
-        "nome": "Maxillaria pumila (ex-minuta)",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma verdadeira miniatura sul-americana! A Maxillaria pumila forma pequenas touceiras com pseudobulbos discretos, uma única folha por crescimento e flores diminutas de cerca de 8 mm, que aparecem bem junto à planta. É uma espécie de clima quente, originária das Guianas e do Brasil, e chama atenção justamente pelo contraste entre o porte minúsculo e a delicadeza das flores. Em cu",
+        "nome": "Maxillaria pumila",
+        "statusTaxonomico": "Maxillaria pumila Hook. (1837), nome aceito em POWO; Maxillaria minuta Cogn. e Christensonella pumila são sinônimos.",
+        "sinonimosPrincipais": "Christensonella pumila (homotípico); Maxillaria minuta, Christensonella minuta, Maxillaria funerea, M. parva, M. plebeia e M. spannagelii (heterotípicos segundo POWO).",
+        "morfologiaDimensoes": "Miniatura epífita com pseudobulbos ovoides revestidos por bainhas, uma folha apical levemente carnosa e haste basal de cerca de 1,5 cm, portando flor de aproximadamente 8 mm (IOSPE); flores amarelo-avermelhadas variáveis (Koehler et al. 2008/2012).",
         "habitatAltitudeClima": "Epífita · florestas tropicais úmidas. | Quente · úmido e muito ventilado.",
-        "distribuicaoGeografica": "América do Sul tropical · Brasil e Guiana.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "distribuicaoGeografica": "Guiana e regiões Norte, Sudeste e Sul do Brasil (POWO).",
+        "cultivoPremiacao": "Revisão de Koehler et al. (2012) é taxonômica e não valida receitas; não identificada receita quantitativa específica brasileira.",
         "confianca": "alta",
         "fontes": [
             "POWO/Kew",
@@ -209,7 +209,7 @@ export const maxillariaPumilaExMinuta = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, mantenha acima de 60% de umidade relativa, sombra clara e ventilação constante. Montagens podem exigir rega diária no verão.",
+        "litoralQuente": "Em clima quente, mantenha acima de 60% de umidade relativa, sombra clara e ventilação constante. Montagens podem exigir rega diária no verão.",
         "montanhaFrio": "Em Santa Teresa/ES, adapta-se bem às noites frescas. Reduza a frequência apenas em semanas frias e úmidas e proteja de geada."
     },
     "mesesFloracao": [9, 10, 11, 12, 1, 2],
