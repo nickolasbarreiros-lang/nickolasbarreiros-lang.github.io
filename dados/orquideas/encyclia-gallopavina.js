@@ -55,7 +55,7 @@ export const encycliaGallopavina = {
         titulo: "Substrato ideal",
         contexto: "Proposta para cachepô bem vazado ou vaso pequeno",
         resumo: "Mistura de granulometria média a grossa, arejada e de secagem perceptível entre regas.",
-        justificativa: "A receita principal textual coincide com os quatro materiais da composição visual: macadâmia média, pinus médio, perlita grossa e carvão vegetal. Estudo brasileiro sobre substratos e adubação avaliou híbrido de Encyclia, não E. gallopavina, e não valida quantitativamente esta composição. As duas alternativas qualitativas utilizam composições distintas e não equivalem à principal. Cachepô bem vazado e vaso de barro são opções de cultivo com diferentes velocidades de secagem; a escolha depende da observação das raízes, da ventilação e da umidade local. MACS 1.1: proporções e classificação comparativa dos suportes permanecem sem homologação específica",
+        justificativa: "Encyclia gallopavina se beneficia de raízes ventiladas e secagem perceptível entre regas. Em cachepô vazado ou vaso de barro, as cascas de macadâmia e pinus dão apoio, enquanto a perlita e o carvão mantêm a mistura aberta e drenante. Como os recipientes secam em velocidades diferentes, observe a umidade junto às raízes e ajuste a frequência das regas sem compactar o substrato.",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Epífita de raízes grossas", "Pseudobulbos robustos", "Luz alta filtrada", "Crescimento úmido", "Redução discreta após maturação"],
         comportamento: [
