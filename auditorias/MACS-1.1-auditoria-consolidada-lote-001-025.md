@@ -240,3 +240,8 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - Padronizados os quatro rótulos qualitativos: Placa/tronco `Preferencial (provisório)`; Cachepô de Madeira `Alternativa provisória`; Vaso plástico vasado `Alternativa provisória`; Vaso plástico `Uso condicional`.
 - A nota MACS 1.1 da própria ficha agora ressalva explicitamente que **não há comparação direta documentada dos quatro suportes para a espécie**. Nenhuma estrela foi atribuída; não foram modificados percentuais ou ingredientes.
 - Essa correção resolve a coerência editorial do campo `formasCultivo.metodos`, mas **não resolve** a pendência científica central: falta evidência específica rastreável para homologar suporte e mistura. A ficha 1 permanece Classe D, sem conclusão integral.
+
+### Transparência do título da receita — ficha 1 (2026-11-04)
+- No componente `substratoVisual`, o título foi ajustado de `Substrato ideal` para `Substrato recomendado (provisório)` e o contexto agora informa expressamente a ausência de homologação quantitativa.
+- A composição de 35% pinus + 30% casca de arroz carbonizada + 20% esfagno + 15% carvão foi **preservada**, assim como as duas alternativas qualitativas e as estrelas nulas dos suportes.
+- O ajuste é de comunicação científica, não homologação. A falta de registros comparativos específicos da espécie permanece impeditiva para encerrar a ficha 1.
