@@ -133,7 +133,7 @@ export const bulbophyllumRothschildianum = {
         "nome": "Bulbophyllum rothschildianum",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma das flores mais extravagantes entre os *Bulbophyllum*! *Bulbophyllum rothschildianum* forma uma planta relativamente pequena, mas surpreende com inflorescências em leque e flores de sépalas extremamente alongadas, que podem alcançar cerca de **17 cm** no conjunto. A combinação de tons púrpura, vinho e creme e o desenho quase exótico das flores fazem dela uma espécie difícil",
+        "morfologiaDimensoes": "Uma das flores mais extravagantes entre os *Bulbophyllum*! *Bulbophyllum rothschildianum* forma uma planta relativamente pequena, mas surpreende com inflorescências em leque e flores de sépalas extremamente alongadas, que podem alcançar cerca de **17 cm** no conjunto.",
         "habitatAltitudeClima": "Florestas subtropicais úmidas. | Quente a fresco · úmido.",
         "distribuicaoGeografica": "Assam · E Himalaia · S Yunnan · N Myanmar.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
