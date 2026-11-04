@@ -41,18 +41,18 @@ export const camaridiumCarinatum = {
     substrato: "🥇 Para cachepô largo e ventilado: 35% casca de pinus média + 25% chips de coco grossos + 25% perlita grossa + 15% carvão vegetal (hipótese horticultural NÃO homologada para Maxillaria imbricata).\\n🥈 Casca de pinus média + chips de coco grossos + carvão vegetal (alternativa qualitativa, sem percentuais publicados para a espécie).\\n🥉 Casca de pinus média + perlita grossa + esfagno de fibra longa solto (alternativa qualitativa, sem proporções homologadas).",
     formasCultivo: {
     "perfilVisual": "cattleya",
-    "destaque": "Cachepô de madeira",
+    "destaque": "Cachepô de Madeira",
     "resumo": "MACS 1.1: cachepô largo e ventilado é proposta para crescimento lateral; falta comparação experimental dos sete suportes.",
     "metodos": [
         {
-            "nome": "Cachepô de madeira",
+            "nome": "Cachepô de Madeira",
             "asset": "cesto-madeira",
             "estrelas": null,
             "status": "Mais indicada na ficha",
             "texto": "A estrutura aberta acomoda o avanço do rizoma, sem concentrar umidade excessiva junto à base da planta."
         },
         {
-            "nome": "Vaso de barro",
+            "nome": "Vaso de Barro",
             "asset": "vaso-barro",
             "estrelas": null,
             "status": "Alternativa",
