@@ -54,7 +54,7 @@ export const laeliaFournieri = {
         titulo: "Substrato ideal",
         contexto: "Mistura mineral para vaso baixo e muito perfurado",
         resumo: "Mistura de drenagem imediata, com fração orgânica reduzida, evitando calor e compactação nas raízes sensíveis.",
-        justificativa: "A receita visual propõe, sem ensaio específico da espécie, uma mistura predominantemente mineral para vaso pequeno, raso e muito perfurado: 40% brita fina/média, 30% perlita grossa, 20% macadâmia triturada e 10% pinus grosso. A mistura soma 70% de componentes minerais e 30% orgânicos; há duas alternativas qualitativas distintas. A espécie é rupícola e sensível ao aquecimento radicular; os percentuais são estimativas horticulturais, sem ensaio específico e NÃO homologadas pela MACS 1.1.",
+        justificativa: "Laelia fournieri é uma orquídea rupícola que se beneficia de raízes bem ventiladas e drenagem rápida, sem superaquecimento do recipiente. Em vaso pequeno, raso e muito perfurado, a brita fina ou média e a perlita grossa mantêm a mistura aberta, enquanto as cascas de macadâmia e pinus oferecem apoio e uma pequena reserva de umidade. Proteja o vaso do sol que aquece excessivamente as raízes e ajuste as regas conforme a secagem e o crescimento da planta.",
         receitaTexto: "40% brita fina/média + 30% perlita grossa + 20% casca de macadâmia triturada + 10% casca de pinus grossa.",
         perfil: ["Miniatura rupícola", "Raízes sensíveis ao calor", "Alta aeração", "Drenagem imediata", "Pouco volume de substrato"],
         comportamento: [
