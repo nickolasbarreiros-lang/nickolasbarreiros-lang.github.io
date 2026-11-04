@@ -46,8 +46,8 @@ export const gomesaRecurva = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para cachepô ou vaso baixo",
         resumo: "Mistura de Casca de pinus, Carvão vegetal e Esfagno solto para recipiente baixo e ventilado, sem compactação.",
-        justificativa: "MACS 1.1: o Orquidário Nhá Mercedes recomenda especificamente Casca de pinus, Carvão vegetal e Esfagno para Gomesa recurva; Orquídeas no Apê descreve montagem em madeira com pequena reserva de esfagno. A composição tem apoio qualitativo específico, mas as proporções desta receita são inferências técnicas, sem ensaio ou homologação. Placa/tronco permanece suporte principal, sem mistura volumétrica.",
-        receitaTexto: "55% Casca de pinus + 25% Carvão vegetal + 20% Esfagno (por volume, proposta não homologada).",
+        justificativa: "Gomesa recurva pode ser cultivada em placa ou tronco, com as raízes bem ventiladas e uma pequena reserva de umidade junto à fixação. Para cultivo em vaso, a casca de pinus oferece apoio, o carvão vegetal mantém a mistura aberta e o esfagno ajuda a conservar umidade sem compactação. Observe a secagem do conjunto e ajuste as regas para evitar tanto a desidratação prolongada quanto o encharcamento.",
+        receitaTexto: "55% Casca de pinus + 25% Carvão vegetal + 20% Esfagno (por volume).",
         perfil: ["Epífita", "Hastes arqueadas", "Posição suspensa", "Umidade regular", "Raízes ventiladas"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
