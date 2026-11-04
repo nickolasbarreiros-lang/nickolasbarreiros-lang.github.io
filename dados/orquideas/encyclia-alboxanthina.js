@@ -89,7 +89,7 @@ export const encycliaAlboxanthina = {
         "nome": "Encyclia alboxanthina",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Encyclia alboxanthina é uma brasileira de aparência luminosa e elegante. Seus pseudobulbos sustentam folhas firmes e, quando maduros, produzem uma haste longa e multifloral que exibe flores claras, combinando branco e amarelo e acompanhadas por perfume marcante. É uma Encyclia que aprecia claridade, raízes muito bem ventiladas e uma rotina de rega sem excessos. Quando bem estab",
+        "morfologiaDimensoes": "Encyclia alboxanthina é uma brasileira de aparência luminosa e elegante. Seus pseudobulbos sustentam folhas firmes e, quando maduros, produzem uma haste longa e multifloral que exibe flores claras, combinando branco e amarelo e acompanhadas por perfume marcante. É uma Encyclia que aprecia claridade, raízes muito bem ventiladas e uma rotina de rega sem excessos.",
         "habitatAltitudeClima": "Epífita e também registrada sobre rochas em ambientes tropicais sazonalmente secos. | Quente a intermediário, claro e ventilado.",
         "distribuicaoGeografica": "Bahia e Sergipe.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
