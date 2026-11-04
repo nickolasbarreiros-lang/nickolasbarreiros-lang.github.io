@@ -11,9 +11,9 @@ export const encycliaGallopavina = {
         "Espécie brasileira",
         "Sudeste do Brasil",
         "Epífita da Mata Atlântica",
-        "Pseudobulbos robustos",
+        "Pseudobulbos arredondados e bifoliados",
         "Inflorescência ereta e ramificada",
-        "Flores cerosas",
+        "Flores de aproximadamente 3 cm",
         "Perfumada",
         "Boa luminosidade"
     ],
@@ -23,7 +23,7 @@ export const encycliaGallopavina = {
         "imagens/Encyclia gallopavina/Encyclia gallopavina3.jpg",
         "imagens/Encyclia gallopavina/Encyclia gallopavina4.jpeg"
     ],
-    descricao: "Uma Encyclia brasileira de presença marcante! Encyclia gallopavina forma pseudobulbos fortes, folhas firmes e hastes eretas que podem se ramificar e carregar várias flores cerosas. A combinação de tons verdes, castanhos e púrpura com o labelo mais claro dá às flores um desenho muito característico, acompanhado por perfume perceptível sobretudo nas horas mais amenas. É uma espécie do Sudeste brasileiro associada à Mata Atlântica úmida. Em cultivo, responde muito bem a alta luminosidade filtrada, circulação constante de ar e ciclos claros de molhar e secar nas raízes.",
+    descricao: "Encyclia gallopavina é uma orquídea epífita brasileira de pseudobulbos arredondados, geralmente com duas folhas firmes no ápice. De cada pseudobulbo maduro pode surgir uma haste ereta e ramificada, que alcança cerca de 90 cm e reúne numerosas flores de aproximadamente 3 cm. As sépalas e pétalas têm tons verde-oliva, enquanto o labelo exibe um pequeno lobo central rosado com bordas claras, lembrando um desenho delicado. O perfume das flores é descrito como semelhante ao chá. Nativa de florestas úmidas da Mata Atlântica, chama atenção pela abundância floral e pelo contraste entre o verde das pétalas e o rosa do labelo.",
     origem: "Brasil",
     regiao: "Sudeste brasileiro",
     habitat: "Mata Atlântica úmida · epífita.",
@@ -55,7 +55,7 @@ export const encycliaGallopavina = {
         titulo: "Substrato ideal",
         contexto: "Proposta para cachepô bem vazado ou vaso pequeno",
         resumo: "Mistura de granulometria média a grossa, arejada e de secagem perceptível entre regas.",
-        justificativa: "A receita principal textual coincide com os quatro materiais da composição visual: macadâmia média, pinus médio, perlita grossa e carvão vegetal. As duas alternativas qualitativas utilizam composições distintas e não equivalem à principal. Cachepô bem vazado e vaso de barro são opções de cultivo com diferentes velocidades de secagem; a escolha depende da observação das raízes, da ventilação e da umidade local. MACS 1.1: proporções e classificação comparativa dos suportes permanecem sem homologação específica",
+        justificativa: "A receita principal textual coincide com os quatro materiais da composição visual: macadâmia média, pinus médio, perlita grossa e carvão vegetal. Estudo brasileiro sobre substratos e adubação avaliou híbrido de Encyclia, não E. gallopavina, e não valida quantitativamente esta composição. As duas alternativas qualitativas utilizam composições distintas e não equivalem à principal. Cachepô bem vazado e vaso de barro são opções de cultivo com diferentes velocidades de secagem; a escolha depende da observação das raízes, da ventilação e da umidade local. MACS 1.1: proporções e classificação comparativa dos suportes permanecem sem homologação específica",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Epífita de raízes grossas", "Pseudobulbos robustos", "Luz alta filtrada", "Crescimento úmido", "Redução discreta após maturação"],
         comportamento: [
@@ -68,21 +68,21 @@ export const encycliaGallopavina = {
             { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Mantém espaço para raízes grossas e boa circulação de ar." },
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "drenagem", finalidade: "Ajuda na fixação das raízes sem compactação." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Favorece drenagem e reduz retenção excessiva." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "15%", nota: "estabilidade", finalidade: "Complementa a estrutura aberta da mistura." }
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "15%", nota: "estabilidade", finalidade: "Complementa a estrutura aberta da mistura." }
         ],
         alerta: "Não enterrar o rizoma, usar vaso grande ou reduzir água antes da maturação dos pseudobulbos. Evitar sombra profunda e seca prolongada.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Encyclia gallopavina, epífita de raízes grossas e pseudobulbos robustos, exige boa aeração e secagem entre regas sem repouso seco rígido. Suportes cachepô madeira e vaso barro 5 estrelas, placa/tronco e plástico vasado 4; notas horticulturais não homologadas. Receita visual 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. Receita principal textual e visual coincidem; duas alternativas qualitativas distintas são apresentadas separadamente. Granulometria e secagem em cachepô versus barro carecem de validação por evidências específicas; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Encyclia gallopavina, epífita de raízes grossas e pseudobulbos robustos, exige boa aeração e secagem entre regas sem repouso seco rígido. Suportes cachepô madeira e vaso barro 5 estrelas, placa/tronco e plástico vasado 4; notas horticulturais não homologadas. Receita visual 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. Receita principal textual e visual coincidem; duas alternativas qualitativas distintas são apresentadas separadamente. Granulometria e secagem em cachepô versus barro carecem de validação por evidências específicas; meta até 25 produtores brasileiros específicos não atingida. POWO aceita E. gallopavina e registra E. purpurachyla como sinônimo heterotípico, além do basiônimo Epidendrum gallopavinum. Flora do Brasil 2020 descreve sépalas/pétalas verde-oliva e lobo mediano rosado de margem branca, com ocorrências confirmadas no Sudeste. IOSPE registra pseudobulbos esféricos bifoliados, inflorescência paniculada de até 90 cm, até 50 flores de 3 cm e fragrância de chá. Estudo brasileiro em Ornamental Horticulture sobre adubação e substrato examinou híbrido de Encyclia, não a espécie; não constitui homologação. Zero produtores brasileiros com receita quantitativa específica verificados nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: "Cultivar em sombra; vaso grande demais; substrato velho; raízes continuamente encharcadas; enterrar o rizoma; reduzir água cedo demais durante crescimento; excesso de nitrogênio após a maturação; replantar sem raízes novas; calor abafado com substrato molhado; impor seca rigorosa por longos períodos.",
     dica: "Espere o novo pseudobulbo terminar de crescer antes de diminuir discretamente a frequência das regas. O objetivo é marcar uma mudança de estação sem desidratar a planta. Em Litoral de clima quente, o melhor estímulo para florir costuma ser luz alta filtrada + pseudobulbo maduro + raízes bem aeradas, e não seca extrema.",
     revisaoCientificaIAR: {
         "nome": "Encyclia gallopavina",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma Encyclia brasileira de presença marcante! Encyclia gallopavina forma pseudobulbos fortes, folhas firmes e hastes eretas que podem se ramificar e carregar várias flores cerosas. A combinação de tons verdes, castanhos e púrpura com o labelo mais claro dá às flores um desenho muito característico, acompanhado por perfume perceptível sobretudo nas horas mais amenas. É uma espéc",
+        "statusTaxonomico": "Encyclia gallopavina (Rchb.f.) Porto & Brade (1935), espécie aceita em POWO; basiônimo Epidendrum gallopavinum Rchb.f. (1855).",
+        "sinonimosPrincipais": "Epidendrum gallopavinum (basiônimo homotípico); Encyclia purpurachyla e Epidendrum purpurachylum (sinônimos heterotípicos).",
+        "morfologiaDimensoes": "Pseudobulbos esféricos bifoliados, inflorescência terminal paniculada até cerca de 90 cm, com numerosas flores de 3 cm; segmentos verde-oliva e lobo mediano do labelo rosado de margem branca (Flora do Brasil 2020; IOSPE).",
         "habitatAltitudeClima": "Mata Atlântica úmida · epífita. | Quente a intermediário · ventilado.",
         "distribuicaoGeografica": "Sudeste brasileiro.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "cultivoPremiacao": "Estudo brasileiro sobre substrato e adubação em híbrido de Encyclia não valida receitas de E. gallopavina; ausência de ensaio específico identificado.",
         "confianca": "alta",
         "fontes": [
             "POWO/Kew",
