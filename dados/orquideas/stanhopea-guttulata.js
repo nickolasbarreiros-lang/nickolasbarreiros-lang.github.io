@@ -55,7 +55,7 @@ export const stanhopeaGuttulata = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para cesta suspensa com fundo desobstruído",
         resumo: "Partículas grossas e pequena fração de esfagno solto oferecem umidade durante o crescimento, sem impedir a passagem das hastes descendentes.",
-        justificativa: "A receita principal para cesta suspensa reúne chips de coco grossos preparados, pinus médio, perlita grossa e esfagno solto, coincidindo com os itens visuais. O Orquidário Matsuoka recomenda genericamente substrato de orquídeas ou toco de madeira para esta espécie, sem percentuais; isso não homologa a mistura proposta. As duas alternativas qualitativas utilizam composições distintas e não equivalem à principal. O fundo da cesta deve permanecer desobstruído para a passagem das hastes florais descendentes; esfagno e partículas não devem formar uma barreira. MACS 1.1: percentuais provisórios sem homologação quantitativa específica",
+        justificativa: "Stanhopea guttulata produz hastes florais descendentes e se beneficia de cesta suspensa com fundo desobstruído. Os chips de coco grossos preparados ajudam a conservar umidade, a casca de pinus oferece apoio, a perlita favorece a aeração e o esfagno solto reduz a secagem rápida. Evite formar uma barreira de partículas ou musgo na passagem das hastes e acompanhe a umidade do cesto.",
         receitaTexto: "40% chips de coco grossos preparados + 30% casca de pinus média + 20% perlita grossa + 10% esfagno de fibra longa solto.",
         perfil: ["Epífita de porte médio a grande", "Hastes descendentes", "Cesto suspenso", "Umidade regular", "Fundo livre"],
         comportamento: [
