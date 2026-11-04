@@ -31,7 +31,7 @@ jobs:
             const entries=page.locator('.substratos-recomendados-v4 li');
             if(await entries.count()!==2)throw Error('Esperadas exatamente duas misturas');
             const texts=await entries.allTextContents();
-            if(!texts[0].includes('Chips de coco')||!texts[1].includes('Casca de pinus'))throw Error('Componentes das alternativas incorretos: '+texts.join(' | '));
+            if(!texts[0].includes('Casca de macadâmia')||!texts[1].includes('Casca de pinus'))throw Error('Componentes das alternativas incorretos: '+texts.join(' | '));
             if(texts.some(t=>/\b\d+\s*%/.test(t)))throw Error('Alternativas devem ser qualitativas, sem percentuais: '+texts.join(' | '));
             if(errors.length)throw Error('Erros JavaScript: '+errors.join(' | '));
             await section.screenshot({path:'macs-137-substrato-desktop.png'});
