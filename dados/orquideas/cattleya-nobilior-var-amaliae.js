@@ -55,8 +55,8 @@ export const cattleyaNobiliorVarAmaliae = {
         titulo: "Substrato ideal",
         contexto: "Mistura alternativa para cachepô de madeira ou recipiente muito ventilado",
         resumo: "O cultivo principal é em placa, sem substrato volumétrico. Para recipientes, utilizar mistura grossa e aberta que seque rapidamente.",
-        justificativa: "Cattleya nobilior, incluindo a forma horticultural amaliae, é epífita sazonal de raízes muito aeradas. A montagem principal em placa/tronco dispensa substrato volumoso. Para cachepô ou recipiente muito ventilado, a receita visual alternativa combina pinus grosso, carvão vegetal médio e brita pequena limpa e sem pó, totalizando 100%. As duas outras misturas são opções editoriais quantitativas distintas, sem comprovação experimental comparativa. Durante crescimento ativo, fornecer água suficiente; após maturação, aumentar intervalos sem causar desidratação severa. MACS 1.1: formulação horticultural provisória sem homologação quantitativa específica.",
-        receitaTexto: "50% casca de pinus grossa + 30% carvão vegetal médio + 20% brita pequena limpa e sem pó (proposta não homologada). Não compactar nem enterrar o rizoma.",
+        justificativa: "Cattleya nobilior, incluindo a forma amaliae, apresenta crescimento sazonal e raízes que precisam de muita aeração. A montagem em placa ou tronco mantém o rizoma exposto e dispensa substrato volumoso. Em cachepô muito ventilado, a casca de pinus grossa oferece apoio, o carvão mantém espaços de ar e a brita limpa favorece a drenagem. Regue adequadamente durante o crescimento ativo e amplie os intervalos após a maturação, sem provocar desidratação severa.",
+        receitaTexto: "50% casca de pinus grossa + 30% carvão vegetal médio + 20% brita pequena limpa e sem pó. Não compactar nem enterrar o rizoma.",
         perfil: ["Raízes epífitas", "Aeração muito alta", "Secagem rápida", "Repouso sazonal mais seco", "Granulometria grossa"],
         comportamento: [
             { nome: "Retenção", valor: 1, icone: "💧" },
