@@ -52,8 +52,8 @@ export const maxillariaTenuifolia = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso com tutor vertical",
         resumo: "Mistura de granulometria média com retenção moderada e boa drenagem, mantendo raízes basais ativas enquanto o rizoma ascende pelo tutor.",
-        justificativa: "MACS 1.1: AOS, RHS e fontes brasileiras para Maxillaria tenuifolia documentam substratos abertos à base de Casca de pinus, Fibra de coco e Carvão vegetal, em diferentes combinações, mas não validam percentuais desta mistura. Substituída a receita anterior com macadâmia/perlita sem evidência específica. R1 é uma proposta horticultural para vaso com tutor vertical, não receita publicada nem experimentalmente homologada.",
-        receitaTexto: "50% Casca de pinus + 30% Fibra de coco + 20% Carvão vegetal (por volume, proporções inferidas D).",
+        justificativa: "Maxillaria tenuifolia se beneficia de raízes bem ventiladas e umidade moderada, sem encharcamento prolongado. Em vaso com tutor vertical, a casca de pinus oferece estrutura, a fibra de coco preparada ajuda a conservar umidade e o carvão vegetal mantém espaços de ar. Observe a secagem junto às raízes e ajuste a frequência das regas conforme o crescimento e a ventilação.",
+        receitaTexto: "50% Casca de pinus + 30% Fibra de coco + 20% Carvão vegetal (por volume).",
         perfil: ["Epífita escandente", "Rizoma em escada", "Raízes aéreas superiores", "Tutor vertical", "Drenagem rápida"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
