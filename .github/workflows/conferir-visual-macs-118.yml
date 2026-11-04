@@ -5,6 +5,8 @@ on:
       - '.github/workflows/conferir-visual-macs-118.yml'
       - 'dados/orquideas/cattleya-a-brazilian-dream.js'
       - 'orquidea.html'
+      - 'ficha.js'
+      - 'estilos.css'
       - 'js/**'
       - 'css/**'
   workflow_dispatch:
