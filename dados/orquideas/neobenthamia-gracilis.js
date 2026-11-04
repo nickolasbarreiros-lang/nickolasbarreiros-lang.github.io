@@ -52,7 +52,7 @@ export const neobenthamiaGracilis = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso pesado e bem drenado",
         resumo: "Mistura leve, com retenção moderada e boa drenagem para uma touceira terrestre ou rupícola de grande porte.",
-        justificativa: "A receita visual reúne macadâmia média, casca de arroz carbonizada, perlita grossa e fibra de coco grossa preparada. IOSPE recomenda genericamente mistura à base de cascas em vaso, sem proporções; não comprova esta fórmula com macadâmia. A receita principal textual corresponde à composição visual com macadâmia; as duas alternativas qualitativas têm ingredientes diferentes e não devem ser apresentadas como equivalentes à principal. A adequação dos percentuais para esta espécie terrestre/rupícola de grande porte não foi testada e permanece não homologada pela MACS 1.1.",
+        justificativa: "Neobenthamia gracilis pode alcançar grande porte e precisa de recipiente estável, com espaço para as raízes e boa drenagem. A casca de macadâmia oferece estrutura, a casca de arroz carbonizada e a perlita mantêm a mistura arejada e a fibra de coco grossa preparada ajuda a conservar umidade moderada. Observe a secagem no centro do vaso e ajuste as regas sem compactar o substrato.",
         receitaTexto: "35% casca de macadâmia média + 25% casca de arroz carbonizada + 20% perlita grossa + 20% fibra de coco grossa preparada.",
         perfil: ["Terrestre ou rupícola", "Grande porte", "Touceira de caules altos", "Boa drenagem", "Umidade regular"],
         comportamento: [
