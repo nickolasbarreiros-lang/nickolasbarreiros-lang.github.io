@@ -8,12 +8,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PADRAO = {
     "placa-tronco": "Placa / tronco",
-    "vaso-barro": "Vaso de barro",
+    "vaso-barro": "Vaso de Barro",
     "vaso-plastico": "Vaso plástico",
     "vaso-plastico-vasado": "Vaso plástico vasado",
-    "cesto-madeira": "Cachepô de madeira",
+    "cesto-madeira": "Cachepô de Madeira",
     "arvore-viva": "Árvore viva",
-    "raizes-soltas": "Raízes soltas",
+    "raizes-soltas": "Raízes Soltas",
 }
 def categoria(nome, asset):
     t = (nome + " " + asset).lower()
@@ -47,14 +47,12 @@ for item in inventario["fichas"]:
         erros.append(f"{arquivo.name}: nenhum método de cultivo reconhecido")
     for nome, asset in metodos:
         tipo = categoria(nome, asset)
-        # Assets específicos de espécies podem usar rótulos descritivos próprios.
-        # Para os assets genéricos, comparar sem distinção de maiúsculas.
-        if tipo is None or (asset in PADRAO and nome.casefold() != PADRAO[tipo].casefold()):
+        if tipo is None or (asset in PADRAO and nome != PADRAO[tipo]):
             erros.append(f"{arquivo.name}: nome fora do padrão: {nome!r} (asset {asset})")
         if asset not in chaves:
             erros.append(f"{arquivo.name}: asset não cadastrado na biblioteca: {asset}")
     verificadas += 1
-if not re.search(r'"cesto-madeira"\s*:\s*\{\s*nome:\s*"Cachepô de [Mm]adeira"', biblioteca):
+if 'nome: "Cachepô de Madeira"' not in biblioteca:
     erros.append("Biblioteca: nome de cesto-madeira não padronizado")
 print(f"Fichas V4.9 verificadas: {verificadas}; inconsistências: {len(erros)}")
 for erro in erros: print("FALHA:", erro)
