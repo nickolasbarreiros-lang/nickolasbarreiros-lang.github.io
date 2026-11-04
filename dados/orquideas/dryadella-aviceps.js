@@ -55,7 +55,7 @@ export const dryadellaAviceps = {
         titulo: "Substrato ideal",
         contexto: "Mistura alternativa para vaso miniatura ou cachepô, sem esfagno",
         resumo: "Mistura de partículas pequenas, arejada e com retenção moderada; evitar compactação ao redor do rizoma.",
-        justificativa: "A montagem em placa/tronco permanece o cultivo principal. Para vaso miniatura ou cachepô, a receita visual apresenta uma proposta independente com chips de coco pequenos, casca de pinus fina e perlita calibrada; as duas alternativas textuais têm composições distintas, sem percentuais específicos. Proporções propostas tecnicamente, sem ensaio ou homologação quantitativa MACS 1.1 para esta espécie.",
+        justificativa: "Dryadella aviceps é uma miniatura que se beneficia de raízes ventiladas e umidade controlada. A montagem em placa ou tronco permanece como cultivo principal, exigindo atenção à secagem das raízes expostas. Em vaso miniatura ou cachepô, os chips de coco preparados e a casca de pinus fina oferecem apoio e alguma retenção de umidade, enquanto a perlita mantém espaços de ar. Evite compactação e ajuste as regas à secagem real do recipiente.",
         receitaTexto: "40% chips de coco pequenos preparados + 35% casca de pinus fina + 25% perlita de granulometria adequada a miniaturas.",
         perfil: ["Miniatura epífita", "Raízes finas", "Touceira compacta", "Umidade regular", "Sombra luminosa"],
         comportamento: [
