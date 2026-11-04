@@ -77,7 +77,7 @@ export const dendrobiumLoddigesii = {
         "nome": "Dendrobium loddigesii",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma pequena joia pendente das florestas asiáticas! O Dendrobium loddigesii forma delicadas hastes articuladas que caem naturalmente e, na época certa, se cobrem de flores lilases com labelo franjado e centro amarelo-alaranjado. É nativo do sul da China e da Indochina, onde vive em florestas úmidas e musgosas, geralmente entre 1.000 e 1.500 m. Seu grande segredo é respeitar a sa",
+        "morfologiaDimensoes": "Uma pequena joia pendente das florestas asiáticas! O Dendrobium loddigesii forma delicadas hastes articuladas que caem naturalmente e, na época certa, se cobrem de flores lilases com labelo franjado e centro amarelo-alaranjado. É nativo do sul da China e da Indochina, onde vive em florestas úmidas e musgosas, geralmente entre 1.000 e 1.500 m.",
         "habitatAltitudeClima": "Florestas musgosas · 1.000–1.500 m. | Fresco a intermediário · sazonal.",
         "distribuicaoGeografica": "China meridional à Indochina.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
