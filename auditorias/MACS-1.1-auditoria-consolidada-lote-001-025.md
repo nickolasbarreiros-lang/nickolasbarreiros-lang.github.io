@@ -154,3 +154,13 @@ Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/in
 - Nenhum dos dez arquivos contém URLs HTTP(S) para fonte individualizada, e não foi comprovado um levantamento quantitativo com até 25 produtores brasileiros por espécie. Referências genéricas a instituições não equivalem a registros rastreáveis de confronto.
 - **Decisão:** preservar ingredientes e proporções enquanto não houver evidência específica; não atribuir estrelas aos suportes sem homologação. Pendência científica real, sem aprovação fictícia.
 - A conferência de fotos, assets e execução fica para a etapa final acordada com o usuário.
+
+## Auditoria documental MACS 1.1 — fichas 11–25 (2026-11-04)
+- Inspecionados os quinze arquivos-fonte das fichas 11–25, inclusive variantes de sintaxe com propriedades entre aspas.
+- **15/15 receitas principais**: os percentuais dos itens somam 100%. Isso comprova apenas consistência aritmética.
+- **1/15** (ficha 11, Cattleya Pumpkin Festival) apresenta suportes com estrelas nulas e declaração expressa de Classe D não homologada; há cinco ocorrências de URLs no arquivo, cuja pertinência científica individual não foi aferida nesta etapa.
+- **14/15** (fichas 12–25) contêm estrelas numéricas nos suportes; não considerar esses valores quantitativamente homologados sem evidência rastreável por espécie.
+- **11/15** (fichas 12–20, 22 e 24) não têm campo `notaEvidencia` no arquivo. As fichas 21, 23 e 25 têm notas que reconhecem caráter provisório ou não homologado; a ficha 11 também tem nota.
+- Nenhuma conclusão de homologação científica foi inferida de soma de 100%, estrelas já cadastradas, ou simples citação de instituições.
+- **Ação:** registrar as lacunas sem substituir receitas nem apagar estrelas previamente publicadas nesta etapa exclusivamente documental. Antes de qualquer aprovação definitiva, exigir confronto individual com referências botânicas e produtores brasileiros, fundamentação de ingredientes/proporções e tratamento explícito das notas dos suportes.
+- A conferência local de fotografias, assets e execução de JavaScript permanece reservada à etapa final combinada.
