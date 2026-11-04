@@ -52,7 +52,7 @@ export const laeliaGloriosa = {
         titulo: "Substrato ideal",
         contexto: "Mistura grossa para cachepô robusto e muito ventilado",
         resumo: "Partículas médias e grossas com aeração elevada, boa sustentação e secagem perceptível entre regas.",
-        justificativa: "A receita principal textual coincide com a composição visual: macadâmia média, pinus médio, perlita grossa e carvão vegetal. As duas alternativas qualitativas usam combinações distintas e não devem ser confundidas com a receita principal. O cachepô grande deve oferecer estabilidade para a planta adulta, espaço para o rizoma e boa ventilação. MACS 1.1: proporções são hipótese horticultural sem homologação quantitativa específica",
+        justificativa: "Laelia gloriosa pode formar plantas vigorosas que precisam de cachepô estável, com espaço para o rizoma e boa ventilação. As cascas de macadâmia e pinus oferecem apoio, enquanto a perlita e o carvão ajudam a manter a mistura drenante e arejada. Dimensione o recipiente para o porte adulto e ajuste as regas conforme a secagem observada.",
         receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Epífita de grande porte", "Pseudobulbos robustos", "Rizoma expansivo", "Alta luminosidade", "Raízes ventiladas"],
         comportamento: [
