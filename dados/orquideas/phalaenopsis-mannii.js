@@ -55,8 +55,8 @@ export const phalaenopsisMannii = {
         titulo: "Substrato ideal",
         contexto: "Mistura aerada para vaso ou cesto; placa com esfagno mínimo",
         resumo: "Raízes epífitas precisam de ar e umidade moderada, com secagem parcial entre regas. Em placa, basta pequena almofada de esfagno sob as raízes.",
-        justificativa: "Phalaenopsis mannii é epífita de hábito levemente pendente, com raízes ventiladas e umidade regular durante o crescimento. A montagem em placa/tronco com pequena almofada de esfagno de fibra longa solto é a proposta principal, sem mistura volumosa. Para vaso vasado ou cesto, a receita visual alternativa combina pinus médio, chips de coco médios preparados, brita pequena limpa e sem pó e carvão vegetal médio, totalizando 100%. As duas outras misturas são receitas editoriais quantitativas distintas, não ensaiadas comparativamente. Evitar água acumulada na coroa e secagem prolongada; no inverno, reduzir regas apenas moderadamente. MACS 1.1: hipótese horticultural não homologada quantitativamente.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco médios preparados + 25% brita pequena limpa e sem pó + 10% carvão vegetal médio (proposta não homologada).",
+        justificativa: "Phalaenopsis mannii apresenta hábito levemente pendente e se beneficia de raízes ventiladas e umidade regular. A montagem em placa ou tronco com pequena almofada de esfagno solto permite boa circulação de ar. Em vaso vasado ou cesto, o pinus e os chips de coco preparados oferecem apoio, enquanto a brita limpa e o carvão mantêm a drenagem. Evite água acumulada na coroa e secagem prolongada; em períodos mais frios, reduza as regas apenas moderadamente.",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco médios preparados + 25% brita pequena limpa e sem pó + 10% carvão vegetal médio.",
         perfil: ["Epífita pendente", "Raízes aeradas", "Umidade no crescimento", "Inverno ligeiramente mais seco", "Hastes persistentes"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
