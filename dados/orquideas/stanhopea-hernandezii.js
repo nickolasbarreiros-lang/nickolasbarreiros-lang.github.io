@@ -55,8 +55,8 @@ export const stanhopeaHernandezii = {
         titulo: "Substrato ideal",
         contexto: "Mistura para cesta suspensa com fundo livre",
         resumo: "Partículas grossas com umidade moderada e excelente circulação de ar, sem compactar o caminho das hastes florais.",
-        justificativa: "Stanhopea hernandezii produz hastes florais descendentes, exigindo cesta suspensa com aberturas amplas e fundo realmente desobstruído. A receita visual para cachepô de madeira propõe chips de coco grossos preparados, pinus médio, perlita grossa compatível com o cesto e esfagno de fibra longa solto, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não originam esses percentuais. Distribuir o material sem formar barreira física à passagem das hastes; monitorar umidade, ventilação e noites quentes. MACS 1.1: formulação horticultural provisória sem homologação quantitativa específica.",
-        receitaTexto: "40% chips de coco grossos preparados + 30% casca de pinus média + 20% perlita grossa compatível com o cesto + 10% esfagno de fibra longa solto (proposta não homologada).",
+        justificativa: "Stanhopea hernandezii exige cesta suspensa com aberturas amplas e fundo livre para as hastes florais descendentes. Os chips de coco grossos preparados e o esfagno solto ajudam a conservar umidade, enquanto o pinus e a perlita mantêm a mistura estruturada e ventilada. Não compacte os materiais nem bloqueie a passagem das hastes; observe a secagem e proteja a planta de noites excessivamente quentes.",
+        receitaTexto: "40% chips de coco grossos preparados + 30% casca de pinus média + 20% perlita grossa compatível com o cesto + 10% esfagno de fibra longa solto.",
         perfil: ["Espécie epífita", "Hastes descendentes", "Cesto suspenso", "Umidade regular", "Fundo desobstruído"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
