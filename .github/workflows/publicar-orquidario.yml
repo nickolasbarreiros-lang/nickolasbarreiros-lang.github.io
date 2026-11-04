@@ -1,4 +1,4 @@
-name: Validar e publicar Orquidário Digital
+name: Validar Orquidário Digital
 on:
   push:
     branches: [main]
@@ -7,9 +7,6 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
-concurrency:
-  group: orquidario-pages
-  cancel-in-progress: false
 jobs:
   validar:
     runs-on: ubuntu-latest
@@ -62,22 +59,3 @@ jobs:
           name: orquidario-arquivos-modificados
           path: Orquidario_Alteracoes.zip
           retention-days: 30
-  publicar:
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
-    needs: validar
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v4
-        with:
-          path: .
-      - id: deployment
-        uses: actions/deploy-pages@v4
