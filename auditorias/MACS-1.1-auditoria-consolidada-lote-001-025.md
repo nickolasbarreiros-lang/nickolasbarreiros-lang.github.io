@@ -1,6 +1,6 @@
 # Auditoria consolidada MACS 1.1 / IDC 3.2 / IAR 2.0 / V4.9 — lote 1–25
 
-Data: 2026-11-04. **EM ANDAMENTO — apenas fichas 1–5 verificadas estaticamente.**
+Data: 2026-11-04. **EM ANDAMENTO — fichas 1–10 verificadas estaticamente; auditoria integral e visual pendente.**
 
 Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/index.js` (não na ordem dos imports).
 
@@ -21,3 +21,19 @@ Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/in
 
 ## Próximas fichas (6–25)
 6 Brassia lawrenceana; 7 Laelia splendida; 8 Encyclia alboxanthina; 9 Phalaenopsis pulcherrima; 10 Dendrobium spectabile; 11 Cattleya Pumpkin Festival; 12 Dendrobium polysema; 13 Bifrenaria verboonenii; 14 Bifrenaria aureofulva; 15 Sophronitis wittigiana; 16 Sophronitis cernua; 17 Zygolum Louisendorf; 18 Dendrobium loddigesii; 19 Maxillaria schunkeana; 20 Mediocalcar decoratum; 21 Cattleya schilleriana; 22 Bulbophyllum rothschildianum; 23 Encyclia mineirinha; 24 Arpophyllum giganteum; 25 Oncidium Twinkle.
+
+## Atualização — 2026-11-04
+- Ficha 1 `Anathallis sclerophylla`: descrição ampliada de 88 para 108 palavras, commit `b321addc`.
+- Ficha 2 `Aerides odorata`: descrição ampliada de 79 para 118 palavras, commit `c53ac0c2`.
+- Fichas 6–10 conferidas estaticamente:
+
+| Nº | Ficha | Palavras descrição | Receita principal | Soma | Alternativas | Estruturas |
+|---|---|---:|---|---:|---:|---|
+| 6 | Brassia lawrenceana | 81 | 35/25/20/10/10 | 100% | 2 | MACS visual, cultivo, IDC, IAR presentes |
+| 7 | Laelia splendida | 80 | 35/30/20/15 | 100% | 2 | presentes |
+| 8 | Encyclia alboxanthina | 73 | 35/30/20/15 | 100% | 2 | presentes |
+| 9 | Phalaenopsis pulcherrima | 84 | 35/30/25/10 | 100% | 2 | presentes |
+| 10 | Dendrobium spectabile | 87 | 35/30/20/15 | 100% | 2 | presentes |
+
+- **Pendência editorial confirmada nas fichas 6–10:** descrições abaixo do mínimo V4.9 de 90 palavras. As receitas somam 100%, mas não estão cientificamente homologadas por esse teste.
+- Inspeção de fotografias, assets, execução JS no navegador e validação científica individual ainda pendentes. Não declarar lote concluído.
