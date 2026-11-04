@@ -33,9 +33,9 @@ export const blcChiaLin = {
     },
     floracao: "Variável conforme o clone e o ciclo de crescimento. Seleções de Chia Lin são registradas florescendo do outono à primavera, portanto o calendário deve ser tratado como referência, não como característica fixa do grex.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose a cada 7 a 15 dias durante brotação e enraizamento. Após a maturação do pseudobulbo, reduza a frequência e evite excesso de nitrogênio, sem necessidade de fórmulas extremamente ricas em fósforo.\n🧪 Liberação lenta: Osmocote 14-14-14 ou equivalente em dose moderada para vasos e cachepôs; reduza a adubação líquida se estiver usando liberação lenta.",
-    rega: "Durante brotação e enraizamento, molhe completamente e espere o substrato perder boa parte da umidade antes da próxima irrigação. Após a maturação, aumente discretamente o intervalo entre as regas, sem impor repouso seco. Em Litoral de clima quente, ajuste a frequência conforme temperatura, ventilação e velocidade de secagem do recipiente.",
-    suporte: "🥇 Vaso de barro, excelente para o clima quente de Litoral de clima quente.\n🥈 Cachepô de madeira para plantas com várias frentes e raízes vigorosas.\n🥉 Vaso plástico muito perfurado ou cesto de madeira/plástico para exemplares grandes.",
-    substrato: ["Casca de pinus grossa + carvão vegetal médio + brita pequena/média","Chips de coco grossos preparados + casca de macadâmia média + carvão vegetal médio + argila expandida"],
+    rega: "Durante brotação e enraizamento, molhe completamente e espere o substrato perder boa parte da umidade antes da próxima irrigação. Após a maturação, aumente discretamente o intervalo entre as regas, sem impor repouso seco. Em clima quente, ajuste a frequência conforme temperatura, ventilação e velocidade de secagem do recipiente.",
+    suporte: "🥇 Vaso de barro, excelente para o clima quente de clima quente.\n🥈 Cachepô de madeira para plantas com várias frentes e raízes vigorosas.\n🥉 Vaso plástico muito perfurado ou cesto de madeira/plástico para exemplares grandes.",
+    substrato: ["50% Casca de pinus — média/grossa + 30% Carvão vegetal — médio + 20% Brita — pequena/média","40% Chips de coco — grossos preparados + 30% Casca de macadâmia — média + 20% Carvão vegetal — médio + 10% Argila expandida"],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso de barro",
@@ -75,8 +75,8 @@ export const blcChiaLin = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "Rhyncholaeliocattleya Chia Lin é híbrido horticultural vigoroso de raízes epífitas. A mistura principal para vaso de barro firme combina macadâmia média, pinus médio/grosso, perlita grossa e carvão vegetal médio, somando 100%. Os quatro itens visuais representam esta receita, enquanto as duas outras misturas são alternativas qualitativas distintas e sem percentuais homologados. Monitorar a secagem real, manter o vaso proporcional à touceira e evitar compactação. MACS 1.1: proposta horticultural provisória sem ensaio quantitativo específico para o grex.",
-    "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média/grossa + 20% perlita grossa + 15% carvão vegetal médio (proposta não homologada).",
+    "justificativa": "Rhyncholaeliocattleya Chia Lin é híbrido horticultural vigoroso de raízes epífitas. A mistura principal para vaso de barro firme combina macadâmia média, pinus médio/grosso, brita pequena/média e carvão vegetal médio, somando 100%. Os quatro itens visuais representam esta receita, enquanto as duas outras misturas são alternativas volumétricas editoriais distintas, sem percentuais publicados para o grex. Monitorar a secagem real, manter o vaso proporcional à touceira e evitar compactação. MACS 1.1: proposta horticultural provisória sem ensaio quantitativo específico para o grex.",
+    "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média/grossa + 20% brita pequena/média + 15% carvão vegetal médio (proposta não homologada).",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
@@ -99,8 +99,8 @@ export const blcChiaLin = {
             "finalidade": "Conserva alguma umidade sem fechar a mistura quando usada em granulometria adequada."
         },
         {
-            "asset": "perlita",
-            "nome": "Perlita grossa",
+            "asset": "brita-pura",
+            "nome": "Brita pequena/média",
             "proporcao": "20%",
             "nota": "aeração",
             "finalidade": "Amplia a porosidade e reduz a compactação do recipiente."
@@ -114,6 +114,6 @@ export const blcChiaLin = {
         }
     ],
     "alerta": "A receita ilustrada é uma hipótese horticultural para planta adulta, não uma formulação comprovada para este híbrido. Observar secagem e manter drenagem.",
-    "notaEvidencia": "MACS 1.1 — revisão documental: Rhyncholaeliocattleya Chia Lin é grex híbrido sem habitat natural próprio; orientar substrato pela fisiologia epífita da aliança Cattleya, porte e manejo. Vaso de barro como proposta principal; métodos têm estrelas null e não constituem ranking experimental. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio/grosso + 20% perlita grossa + 15% carvão vegetal médio = 100%. Exatamente duas alternativas qualitativas distintas, sem proporções homologadas: pinus/carvão/brita e chips de coco preparados/macadamia/carvão/argila expandida. Não há homologação quantitativa específica para o grex nem consulta individualizada a até 25 produtores brasileiros; percentuais e suportes NÃO HOMOLOGADOS",
+    "notaEvidencia": "MACS 1.1 — revisão documental: Rhyncholaeliocattleya Chia Lin é grex híbrido sem habitat natural próprio; orientar substrato pela fisiologia epífita da aliança Cattleya, porte e manejo. Vaso de barro como proposta principal; métodos têm estrelas null e não constituem ranking experimental. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio/grosso + 20% brita pequena/média + 15% carvão vegetal médio = 100%. Exatamente duas alternativas quantitativas editoriais distintas, sem proporções homologadas: 50/30/20 pinus/carvão/brita e 40/30/20/10 chips de coco preparados/macadamia/carvão/argila expandida. Não há homologação quantitativa específica para o grex nem consulta individualizada a até 25 produtores brasileiros; percentuais e suportes NÃO HOMOLOGADOS",
     }
 };
