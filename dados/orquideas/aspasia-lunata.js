@@ -52,7 +52,7 @@ export const aspasiaLunata = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura estrutural e arejada, com umidade moderada e boa estabilidade para uma epífita que aprecia hidratação regular sem encharcamento.",
-        justificativa: "A receita textual e visual coincide (30% macadâmia, 25% pinus, 20% arroz carbonizado, 15% carvão e 10% esfagno solto). O Orquidário 4 Estações recomenda especificamente casca de pinus ou placa de madeira com umidade suficiente, sem proporções. É hipótese horticultural com aeração e retenção moderada, NÃO homologada quantitativamente para Aspasia lunata; as duas outras misturas são alternativas qualitativas independentes.",
+        justificativa: "Aspasia lunata se beneficia de raízes bem ventiladas e umidade moderada durante o crescimento. Em vaso, as cascas de macadâmia e pinus dão sustentação, a casca de arroz carbonizada e o carvão preservam espaços de ar e o esfagno solto ajuda a conservar umidade. Mantenha o substrato arejado, observe a secagem antes de regar novamente e evite que o esfagno fique compactado junto às raízes.",
         receitaTexto: "Mistura-base sugerida para vaso: 30% casca de macadâmia média + 25% casca de pinus média + 20% casca de arroz carbonizada + 15% carvão vegetal médio + 10% esfagno solto. Proposta técnica a ajustar pela secagem observada.",
         perfil: ["Raízes médias", "Boa aeração", "Umidade regular", "Secagem moderada", "Alta estabilidade", "Touceira"],
         comportamento: [
