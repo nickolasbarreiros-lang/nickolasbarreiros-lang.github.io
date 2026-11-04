@@ -33,6 +33,11 @@ jobs:
             const texts=await entries.allTextContents();
             if(!texts[0].includes('Casca de pinus')||!texts[1].includes('Casca de macadâmia'))throw Error('Componentes das alternativas incorretos: '+texts.join(' | '));
             if(texts.some(t=>/\b\d+\s*%/.test(t)))throw Error('Alternativas devem ser qualitativas, sem percentuais: '+texts.join(' | '));
+            const images=await page.locator('#ficha img').evaluateAll(nodes=>nodes.map(img=>({src:img.getAttribute('src'),loaded:img.complete&&img.naturalWidth>0})));
+            const broken=images.filter(img=>!img.loaded);
+            if(broken.length)throw Error('Imagens não carregadas: '+JSON.stringify(broken));
+            const photos=images.filter(img=>/Cattleya Pumpkin Festival[1-4]\\.(webp|png)/i.test(img.src||''));
+            if(new Set(photos.map(img=>img.src)).size!==4)throw Error('Esperadas quatro fotos da ficha; encontradas '+photos.length);
             if(errors.length)throw Error('Erros JavaScript: '+errors.join(' | '));
             await section.screenshot({path:'macs-146-substrato-desktop.png'});
             await page.screenshot({path:'macs-146-ficha-desktop.png',fullPage:true});
