@@ -56,8 +56,8 @@ export const encycliaAlboxanthina = {
         titulo: "Substrato ideal",
         contexto: "Mistura para cachepô ou vaso proporcional à touceira",
         resumo: "Substrato de granulometria média a grossa, com excelente aeração e leve secagem entre regas.",
-        justificativa: "Encyclia alboxanthina é epífita e ocasionalmente rupícola de ambientes claros, com raízes que exigem alta aeração e secagem perceptível entre regas. Para cachepô de madeira bem vazado, a receita visual propõe macadâmia média, pinus médio, perlita grossa compatível com o recipiente e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não fundamentam os percentuais visuais. Manter a base dos pseudobulbos acima do substrato e evitar repouso seco prolongado. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
-        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa compatível com o cachepô + 15% carvão vegetal médio (proposta não homologada).",
+        justificativa: "Encyclia alboxanthina é uma orquídea epífita, ocasionalmente rupícola, de ambientes claros e raízes que precisam de boa ventilação e secagem perceptível entre regas. No cachepô de madeira bem vazado, as cascas de macadâmia e pinus oferecem estrutura, enquanto a perlita e o carvão favorecem a drenagem. Mantenha a base dos pseudobulbos acima da mistura e evite tanto o encharcamento quanto períodos prolongados de seca.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa compatível com o cachepô + 15% carvão vegetal médio.",
         perfil: ["Epífita ou rupícola", "Pseudobulbos firmes", "Alta luminosidade filtrada", "Raízes aeradas", "Leve secagem entre regas"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
