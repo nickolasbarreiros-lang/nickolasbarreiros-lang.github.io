@@ -56,8 +56,8 @@ export const phaiusTankervilleaeAlba = {
         titulo: "Substrato ideal",
         contexto: "Mistura úmida e aerada para vaso grande e profundo",
         resumo: "Substrato de retenção moderada a alta, porém drenante, que sustenta a expansão foliar e radicular sem compactar.",
-        justificativa: "Calanthe tankervilleae forma alba (sin. Phaius tankervilleae) é terrestre vigorosa de grande porte e necessita de recipiente amplo, profundo e bem perfurado, com umidade regular durante o crescimento e boa aeração. A receita visual propõe fibra de coco grossa preparada, chips de coco pequenos preparados, casca de arroz carbonizada e perlita média/grossa compatível com o vaso, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não originam os percentuais da principal. Monitorar salinidade e compactação dos materiais de coco, estabilidade do vaso e secagem real; não impor repouso seco severo. MACS 1.1: formulação horticultural provisória sem homologação quantitativa específica.",
-        receitaTexto: "30% fibra de coco grossa preparada + 30% chips de coco pequenos preparados + 20% casca de arroz carbonizada + 20% perlita média/grossa compatível com o vaso (proposta não homologada).",
+        justificativa: "Esta orquídea terrestre vigorosa precisa de recipiente amplo, profundo e bem perfurado. A fibra de coco grossa e os chips de coco pequenos preparados ajudam a conservar umidade, enquanto a casca de arroz carbonizada e a perlita favorecem a aeração. Observe a qualidade dos materiais de coco, evitando excesso de sais e compactação. Durante o crescimento, mantenha umidade regular sem encharcamento e não imponha repouso seco severo.",
+        receitaTexto: "30% fibra de coco grossa preparada + 30% chips de coco pequenos preparados + 20% casca de arroz carbonizada + 20% perlita média/grossa compatível com o vaso.",
         perfil: ["Terrestre de grande porte", "Folhas plissadas", "Pseudobulbos robustos", "Umidade constante", "Substrato aerado"],
         comportamento: [
             { nome: "Retenção", valor: 4, icone: "💧" },
