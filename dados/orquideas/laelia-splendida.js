@@ -90,7 +90,7 @@ export const laeliaSplendida = {
         "nome": "Laelia splendida",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Laelia splendida é uma orquídea de presença marcante, conhecida por muitos colecionadores pelo antigo nome Schomburgkia splendida. Forma pseudobulbos robustos e, quando adulta, lança hastes florais longas que elevam as flores bem acima da folhagem. As flores são grandes, vistosas e de aspecto tropical, fazendo desta uma espécie especialmente interessante para espaços claros e b",
+        "morfologiaDimensoes": "Laelia splendida é uma orquídea de presença marcante, conhecida por muitos colecionadores pelo antigo nome Schomburgkia splendida. Forma pseudobulbos robustos e, quando adulta, lança hastes florais longas que elevam as flores bem acima da folhagem.",
         "habitatAltitudeClima": "Epífita ou rupícola de ambientes tropicais claros e ventilados. | Quente a intermediário, luminoso e ventilado.",
         "distribuicaoGeografica": "Colômbia e Equador.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
