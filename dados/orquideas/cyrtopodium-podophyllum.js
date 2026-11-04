@@ -55,7 +55,7 @@ export const cyrtopodiumPodophyllum = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para vaso grande, firme e muito drenante",
         "resumo": "Mistura leve e porosa, com retenção moderada durante o crescimento e secagem facilitada no repouso sazonal.",
-        "justificativa": "MACS 1.1: cultivador brasileiro publica 50% Areia grossa + 50% de Carvão vegetal, Casca de pinus, Brita ou combinação. Nesta proposta, os 50% restantes são divididos em 25% Casca de pinus e 25% Carvão vegetal por inferência técnica, não proporção publicada. Vaso grande, pesado e muito drenante; partículas grossas e rega sazonal. A mistura não foi validada experimentalmente para Cyrtopodium flavum.",
+        "justificativa": "Cyrtopodium podophyllum se beneficia de um vaso grande, pesado e muito drenante, que ofereça estabilidade à planta e espaço para as raízes. A areia grossa favorece a drenagem, enquanto a casca de pinus e o carvão vegetal ajudam a manter a mistura aberta. Ajuste a frequência de rega ao crescimento e à estação, evitando manter o substrato encharcado em períodos de menor atividade.",
         "receitaTexto": "50% Areia grossa + 25% Casca de pinus + 25% Carvão vegetal.",
         "perfil": ["Terrestre ou rupícola", "Pseudobulbos volumosos", "Drenagem rápida", "Alta luminosidade", "Repouso sazonal com menos água"],
         "comportamento": [
