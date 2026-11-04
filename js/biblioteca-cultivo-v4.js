@@ -1,4 +1,5 @@
 export const bibliotecaCultivoV4 = {
+  "vermiculita": { nome: "Vermiculita", imagem: "imagens/cultivo-v4/vermiculita.svg" },
   "areia-grossa": { nome: "Areia grossa", imagem: "imagens/cultivo-v4/areia-grossa.svg" },
   "terra-vegetal": { nome: "Terra vegetal", imagem: "imagens/cultivo-v4/terra-vegetal.svg" },
   "composto-organico": { nome: "Composto orgânico", imagem: "imagens/cultivo-v4/composto-organico.svg" },
