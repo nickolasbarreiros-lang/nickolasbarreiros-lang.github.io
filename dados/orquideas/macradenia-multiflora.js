@@ -71,7 +71,7 @@ export const macradeniaMultiflora = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para cachepô pequeno e suspenso",
         resumo: "Substrato leve de secagem moderada, com raízes ventiladas e umidade regular durante o crescimento.",
-        justificativa: "A receita visual para cachepô pequeno e suspenso combina pinus médio, perlita grossa e carvão vegetal. Orquídeas & Cia indica para a espécie casca de pinus, esfagno ou montagem em tronco, sem proporções; a mistura principal é uma hipótese, não fórmula validada. A receita principal textual e a composição visual coincidem; o esfagno pertence apenas à primeira das duas alternativas qualitativas, não à receita principal. As referências brasileiras citadas apoiam cultivo sombreado, drenagem e umidade, mas não testam estes percentuais. Proposta ainda não homologada pela MACS 1.1.",
+        justificativa: "Macradenia multiflora se beneficia de cachepô pequeno e suspenso, com raízes ventiladas, sombra adequada e umidade regular. A casca de pinus média oferece apoio, enquanto a perlita grossa e o carvão mantêm a mistura aberta e drenante. Observe a secagem do recipiente para ajustar as regas e evite compactação. A montagem em tronco é outra opção quando a umidade pode ser mantida.",
         receitaTexto: "45% casca de pinus média + 30% perlita grossa + 25% carvão vegetal.",
         perfil: ["Epífita compacta", "Inflorescência pendente", "Umidade regular", "Raízes ventiladas", "Secagem moderada"],
         comportamento: [
