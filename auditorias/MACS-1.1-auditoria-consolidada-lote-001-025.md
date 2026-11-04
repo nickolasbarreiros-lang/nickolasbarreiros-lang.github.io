@@ -188,3 +188,19 @@ Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/in
 - **Revisão agronômica brasileira**: Faria et al. (2018), *Substrates for the cultivation of epiphytic orchids*, DOI 10.5433/1679-0359.2018v39n6p2851. Documenta relevância de propriedades físicas/químicas/biológicas e uso geral de pinus, casca de arroz carbonizada, carvão e outros materiais; **não** comprova a receita exata da espécie. https://ojs.uel.br/revistas/uel/index.php/semagrarias/article/view/31058
 - **Estudo de substratos em outra espécie**: Mora et al. (2015), *Oncidium baueri*, DOI 10.5433/1679-0359.2015v36n1p39. Serve somente de evidência metodológica de avaliação comparativa de materiais, **não** pode ser extrapolado como homologação dos percentuais de *S. sclerophylla*. https://ojs.uel.br/revistas/uel/index.php/semagrarias/article/view/12221
 - **Limite da homologação**: fontes sustentam taxonomia, hábito, caracteres florais e princípios gerais de substratos, mas não demonstram ensaio específico ou amostra individualizada de até 25 produtores nacionais. MACS 1.1 continua Classe D. Nenhuma nota/estrela ou proporção promovida a homologada.
+
+### Confronto adicional de produtores brasileiros — ficha 1 (2026-11-04)
+**Distinção metodológica:** as fontes de produtores localizadas referem-se a *Stelis sp.*, *Stelis intermedia* e *Anathallis imbricata*, **não** a *Anathallis/Stelis sclerophylla*. Portanto são apenas comparações por gênero/grupo, não observações da espécie-alvo.
+
+| Fonte | Táxon da fonte | Informação horticultural útil | Limite |
+|---|---|---|---|
+| Orquidário Mogi Mirim | *Stelis* sp. | Montagem em placa ou vaso poroso, umidade frequente, luz indireta | Identificação não específica; não valida 35/30/20/15 |
+| Orquidário Matsuoka | *Stelis intermedia* | Cultivo em toco/substrato de orquídeas e iluminação indireta | Espécie distinta; não valida ranking de suportes |
+| Orquidário Matsuoka | *Anathallis imbricata* | Toco de madeira ou substrato e iluminação indireta | Espécie distinta; não valida percentuais |
+| SOSA — dicas de cultivo | Orquídeas em geral | Misturas de pinus/carvão/coco e diferença de secagem entre vasos e montagens | Orientação geral, não ensaio comparativo da espécie |
+
+Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomatsuoka.com.br/produto/stelis-intermedia/ ; https://orquidariomatsuoka.com.br/produto/anathallis-imbricata/ ; https://www.sosa.org.br/site/dicas-de-cultivo.php
+
+**Confronto botânico complementar:** artigo florístico de Boa Nova registra *Anathallis sclerophylla* com inflorescência longa e multiflora, sépalas caudadas, pétalas menores que as sépalas e floração observada em junho. Este é um registro fenológico pontual, não comprovação de uma janela anual de floração. https://www.scielo.br/j/hoehnea/a/3ny9LMzTztYwyQJJnmJQ5tL/?lang=pt
+
+**Conclusão:** há convergência *qualitativa* quanto à aeração, umidade e uso possível de montagem; nenhuma fonte de produtor identificada nesta rodada é evidência direta da espécie e nenhuma publica os percentuais da receita. Não promover a Classe D, não atribuir estrelas e não mudar a receita com base em analogia taxonômica. **Ficha 1 continua aberta para homologação específica.**
