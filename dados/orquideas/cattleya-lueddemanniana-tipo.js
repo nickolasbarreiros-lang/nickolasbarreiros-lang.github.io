@@ -38,18 +38,18 @@ export const cattleyaLueddemannianaTipo = {
     substrato: ["Casca de pinus média/grossa + carvão vegetal + esfagno de fibra longa solto","Casca de pinus média/grossa + carvão vegetal + brita fina"],
     formasCultivo: {
     "perfilVisual": "cattleya",
-    "destaque": "Cachepô de madeira",
+    "destaque": "Cachepô de Madeira",
     "resumo": "MACS 1.0: cachepô de madeira permanece proposta principal, sujeita à avaliação da velocidade de secagem no clima quente.",
     "metodos": [
         {
-            "nome": "Cachepô de madeira",
+            "nome": "Cachepô de Madeira",
             "asset": "cesto-madeira",
             "estrelas": null,
             "status": "Mais indicada na ficha",
             "texto": "As aberturas laterais mantêm as raízes ventiladas e favorecem a drenagem, mas a mistura seca mais depressa."
         },
         {
-            "nome": "Vaso de barro",
+            "nome": "Vaso de Barro",
             "asset": "vaso-barro",
             "estrelas": null,
             "status": "Alternativa",
