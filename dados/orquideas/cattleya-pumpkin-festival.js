@@ -30,7 +30,7 @@ export const cattleyaPumpkinFestival = {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
-        observacoes: "Em Litoral de clima quente, prefira sombrite de 50%. Folhas firmes e verde-claras indicam boa luminosidade; folhas muito escuras costumam acompanhar floração fraca. Aclimate gradualmente para evitar queimaduras."
+        observacoes: "Em clima quente, prefira sombrite de 50%. Folhas firmes e verde-claras indicam boa luminosidade; folhas muito escuras costumam acompanhar floração fraca. Aclimate gradualmente para evitar queimaduras."
     },
     floracao: "Predominantemente do outono ao início do inverno, entre março e junho, com variação conforme o clone e o ciclo de crescimento.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade, renovado a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose recomendada a cada 7 a 15 dias. Após a maturação dos pseudobulbos, alternar ocasionalmente com fórmulas mais ricas em fósforo e potássio, como 09-45-15 ou 10-30-20.\n🧪 Liberação lenta: Osmocote 14-14-14 em baixa quantidade no canto do vaso, sempre longe das raízes novas.",
@@ -42,10 +42,10 @@ export const cattleyaPumpkinFestival = {
         destaque: "Vaso de Barro",
         resumo: "Como híbrido da aliança Cattleya, prefere recipiente proporcional, substrato grosso e aerado e um ciclo claro de molhar bem e aproximar-se da secagem antes da próxima rega.",
         metodos: [
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Ideal", texto: "A terracota porosa favorece aeração, evaporação e raízes mais frescas. É uma escolha muito equilibrada para clima quente quando o substrato é grosso e drenante." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação e drenagem para raízes grossas. Em períodos quentes e secos, exige regas mais frequentes que um vaso convencional." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Funciona bem em ambientes úmidos ou com mistura de maior retenção. A grande quantidade de aberturas acelera a secagem e exige ajuste da rega." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 2, status: "Pouco recomendado", texto: "É possível, mas uma Cattleya híbrida vigorosa tende a exigir suporte grande e regas frequentes. Para manejo doméstico, vasos e cestos costumam ser mais práticos." }
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Ideal", texto: "A terracota porosa favorece aeração, evaporação e raízes mais frescas. É uma escolha muito equilibrada para clima quente quando o substrato é grosso e drenante." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Muito recomendado", texto: "Oferece excelente ventilação e drenagem para raízes grossas. Em períodos quentes e secos, exige regas mais frequentes que um vaso convencional." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Adequado", texto: "Funciona bem em ambientes úmidos ou com mistura de maior retenção. A grande quantidade de aberturas acelera a secagem e exige ajuste da rega." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Pouco recomendado", texto: "É possível, mas uma Cattleya híbrida vigorosa tende a exigir suporte grande e regas frequentes. Para manejo doméstico, vasos e cestos costumam ser mais práticos." }
         ]
     },
     substrato: ["Casca de pinus grossa + carvão vegetal + perlita grossa","Casca de macadâmia grossa + brita fina + carvão vegetal"],
@@ -59,10 +59,11 @@ export const cattleyaPumpkinFestival = {
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "45%", nota: "estrutura", finalidade: "Sustenta raízes grossas e mantém grandes espaços de ar." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "25%", nota: "aeração", finalidade: "Mantém a mistura aberta e acelera a secagem." },
-            { asset: "brita-pura", nome: "Brita pequena", proporcao: "20%", nota: "drenagem + estabilidade", finalidade: "Ajuda no escoamento e dá peso ao recipiente." },
-            { asset: "macadamia", nome: "Casca de macadâmia", proporcao: "10%", nota: "estrutura complementar", finalidade: "Acrescenta partículas duráveis sem aumentar muito a retenção." }
+            { asset: "brita-fina", nome: "Brita fina lavada e sem pó", proporcao: "20%", nota: "drenagem + estabilidade", finalidade: "Ajuda no escoamento e dá peso ao recipiente." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia grossa", proporcao: "10%", nota: "estrutura complementar", finalidade: "Acrescenta partículas duráveis sem aumentar muito a retenção." }
         ],
-        alerta: "Nunca enterre o rizoma. Replante preferencialmente quando novas raízes começarem a surgir."
+        alerta: "Nunca enterre o rizoma. Replante preferencialmente quando novas raízes começarem a surgir.",
+        notaEvidencia: "MACS 1.1 — Classe D, NÃO HOMOLOGADA quantitativamente. Mistura principal 45% pinus + 25% carvão + 20% brita fina lavada + 10% casca de macadâmia = 100%. Duas alternativas qualitativas sem percentuais. Referências existentes de produtores e estudo com este híbrido não constituem comparação experimental das proporções ou suportes; estrelas dos suportes omitidas. IDC 3.2 e IAR 2.0 mantidos."
     },
     errosComuns: [
         "Usar vaso grande.",
@@ -211,7 +212,7 @@ export const cattleyaPumpkinFestival = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Em Litoral de clima quente. Use sombrite de aproximadamente 50%, substrato de secagem rápida e ventilação constante. Em vasos plásticos, evite superaquecimento e excesso de umidade." },
+        litoralQuente: { texto: "Em clima quente, use sombrite de aproximadamente 50%, substrato de secagem rápida e ventilação constante. Em vasos plásticos, evite superaquecimento e excesso de umidade." },
         montanhaFrio: { texto: "Desenvolve-se muito bem com luminosidade elevada. No inverno, reduza discretamente as regas e proteja a planta quando houver temperaturas persistentes abaixo de aproximadamente 10 a 12 °C." }
     },
     mesesFloracao: [3, 4, 5, 6],
@@ -428,6 +429,6 @@ export const cattleyaPumpkinFestival = {
                 "aplicabilidade": "Descrição de produto atribuída ao produtor, sem verificação independente do cultivo"
             }
         ],
-        "limites": "Cinco empresas/estudos distintos; pesquisa não esgotou meta flexível de 25 consultas. Visualização publicada e integridade de assets não verificadas."
+        "limites": "Cinco empresas/estudos distintos; pesquisa não esgotou meta flexível de 25 consultas. Quatro fotos e oito assets conferidos no repositório; validação visual Chromium pendente."
     }
 };
