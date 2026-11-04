@@ -55,8 +55,8 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
         titulo: "Substrato ideal",
         contexto: "Vaso de barro pequeno e perfurado",
         resumo: "Mistura aberta de casca e carvão, com proporção institucional publicada para Cattleyas em geral; sem validação deste híbrido.",
-        justificativa: "O Missouri Botanical Garden publica proporção de cinco partes de casca de abeto média para uma de carvão horticultural no replante de Cattleyas e outras orquídeas simpodiais (5:1 = 83,3/16,7). Trata-se de referência genérica, não de ensaio para Cattleya Memoria Rita Franke. O anúncio consultado do Orquidário Santa Clara confirma a comercialização de C. schilleriana, mas não informa receita de substrato; portanto não é evidência para os percentuais. A substituição de casca de abeto por pinus é adaptação de material, não reprodução literal da receita institucional. A fórmula anterior com macadâmia e perlita não tinha suporte quantitativo específico. Manter vaso pequeno e secagem entre regas.",
-        receitaTexto: "83,3% casca de pinus média + 16,7% carvão vegetal horticultural (adaptação da receita genérica 5:1 com casca de abeto; não homologada especificamente para o híbrido).",
+        justificativa: "Este híbrido de Cattleya se beneficia de recipiente pequeno e bem ventilado, com raízes que possam secar entre regas. A casca de pinus média oferece sustentação e o carvão vegetal horticultural ajuda a manter espaços de ar. Ajuste a frequência das regas à secagem real do vaso e evite compactar a mistura junto às raízes.",
+        receitaTexto: "83,3% casca de pinus média + 16,7% carvão vegetal horticultural.",
         perfil: ["Aeração elevada", "Secagem entre regas", "Rizoma exposto"],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "83,3%", nota: "estrutura e drenagem", finalidade: "Base porosa para raízes epífitas, com secagem entre regas." },
