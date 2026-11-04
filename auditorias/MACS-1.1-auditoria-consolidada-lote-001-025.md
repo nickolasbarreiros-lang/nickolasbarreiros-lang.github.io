@@ -146,3 +146,11 @@ Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/in
 - Tabelas IDC históricas de quatro faixas corrigidas para as cinco faixas oficiais. Commits `fa820b7d`, `0db39ca9`, `fb48d7fc`, `a8979cb9`, `b2dc8dd6`.
 - **Etapa aritmética IDC/IAR concluída para 25/25 fichas.** Verificou-se consistência dos números armazenados com a fórmula; não se validou a adequação científica das notas e pesos ou a correspondência das estrelas IAR com evidências botânicas.
 - **O lote 1–25 permanece aberto** para inspeção de fotos/assets, execução JS, testes de navegador e confronto científico de fontes e receitas; não declarar homologação integral.
+
+## Auditoria documental MACS 1.1 — fichas 1–10 (2026-11-04)
+- Foram lidos os arquivos das fichas 1–10 e os campos `substratoVisual.itens` e `substratoVisual.notaEvidencia`.
+- Todas as dez receitas principais somam 100% (checagem aritmética, não validação agronômica).
+- Todas as dez notas de evidência declaram explicitamente **Classe D / não homologada quantitativamente**; percentuais não validados por pesquisa comparativa individualizada de produtores ou ensaio específico.
+- Nenhum dos dez arquivos contém URLs HTTP(S) para fonte individualizada, e não foi comprovado um levantamento quantitativo com até 25 produtores brasileiros por espécie. Referências genéricas a instituições não equivalem a registros rastreáveis de confronto.
+- **Decisão:** preservar ingredientes e proporções enquanto não houver evidência específica; não atribuir estrelas aos suportes sem homologação. Pendência científica real, sem aprovação fictícia.
+- A conferência de fotos, assets e execução fica para a etapa final acordada com o usuário.
