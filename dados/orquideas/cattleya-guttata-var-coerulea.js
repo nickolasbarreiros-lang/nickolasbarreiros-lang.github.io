@@ -79,8 +79,8 @@ export const cattleyaGuttataVarCoerulea = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "O porte alto exige estabilidade e circulação de ar. A receita principal proposta combina macadâmia média, pinus médio, brita pequena/média e carvão vegetal médio, totalizando 100%; a brita acrescenta peso ao vaso e sua granulometria deve manter espaços de ar. As duas outras misturas são alternativas qualitativas diferentes da receita principal. Não há ensaio quantitativo específico que homologue estas proporções para Cattleya guttata ou sua seleção de coloração coerulea. MACS 1.1: recomendação horticultural provisória.",
-    "receitaTexto": "35% casca de macadâmia média + 25% casca de pinus média + 25% brita pequena/média + 15% carvão vegetal médio (proposta não homologada).",
+    "justificativa": "Cattleya guttata de coloração coerulea pode formar plantas altas, que precisam de recipiente firme e boa circulação de ar. As cascas de macadâmia e pinus dão sustentação, a brita acrescenta estabilidade e drenagem e o carvão ajuda a preservar espaços de ar. Escolha granulometria que não compacte a mistura e ajuste as regas conforme a secagem do vaso.",
+    "receitaTexto": "35% casca de macadâmia média + 25% casca de pinus média + 25% brita pequena/média + 15% carvão vegetal médio.",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
