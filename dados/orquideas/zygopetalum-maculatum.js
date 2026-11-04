@@ -55,8 +55,8 @@ export const zygopetalumMaculatum = {
         titulo: "Substrato ideal",
         contexto: "Mistura porosa com umidade regular para raízes sensíveis ao calor",
         resumo: "Chips de coco médios preparados, pinus fino/médio e casca de arroz carbonizada favorecem umidade regular e aeração, sem saturação prolongada.",
-        justificativa: "Zygopetalum maculatum é terrestre ou rupícola e apresenta sensibilidade ao aquecimento das raízes. Para vaso de barro perfurado, a receita visual propõe chips de coco médios preparados, casca de pinus fina/média e casca de arroz carbonizada, totalizando 100%. As duas outras misturas são propostas quantitativas editoriais distintas, sem comprovação experimental comparativa. A composição precisa conservar umidade regular sem encharcar, mas não substitui noites mais frescas para floração. MACS 1.1: formulação horticultural provisória sem homologação quantitativa específica.",
-        receitaTexto: "40% chips de coco médios preparados + 35% casca de pinus fina/média + 25% casca de arroz carbonizada (proposta não homologada).",
+        justificativa: "Zygopetalum maculatum apresenta hábito terrestre ou rupícola e se beneficia de raízes frescas, com umidade regular e boa aeração. Em vaso de barro perfurado, os chips de coco médios preparados ajudam a conservar umidade, a casca de pinus oferece estrutura e a casca de arroz carbonizada mantém espaços de ar. Evite encharcamento e aquecimento excessivo das raízes; noites mais frescas favorecem o cultivo e a floração.",
+        receitaTexto: "40% chips de coco médios preparados + 35% casca de pinus fina/média + 25% casca de arroz carbonizada.",
         perfil: ["Terrestre ou rupícola", "Raízes sensíveis ao calor", "Umidade regular", "Boa drenagem", "Preferência por noites frescas"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
