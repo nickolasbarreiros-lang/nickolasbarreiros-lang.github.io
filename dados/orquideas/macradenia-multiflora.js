@@ -26,7 +26,7 @@ export const macradeniaMultiflora = {
         "imagens/Macradenia multiflora/Macradenia3.jpg"
     ],
 
-    descricao: "Uma pequena brasileira que chama atenção quando a haste começa a cair carregada de flores. Macradenia multiflora forma pseudobulbos compactos e folhas lanceoladas, mas sua principal atração é a inflorescência pendente, que pode reunir muitas flores estreladas em tons de vinho, castanho, verde-amarelado e branco. É uma epífita de cultivo bastante adaptável quando recebe luz filtrada, raízes arejadas e umidade regular — sem ficar permanentemente encharcada.",
+    descricao: "Macradenia multiflora é uma orquídea epífita sul-americana de pseudobulbos pequenos, comprimidos, com duas folhas estreitas e alongadas. Seu destaque aparece na floração: hastes pendentes de até cerca de 20 cm reúnem numerosas flores delicadas, com aproximadamente 2 cm, em tons castanhos, vinho e verde-amarelados. As flores podem ser perfumadas e, vistas em conjunto, formam uma cortina leve abaixo da folhagem. A espécie ocorre no Brasil e no Paraguai, associada a ambientes florestais tropicais com sazonalidade. Apesar do porte relativamente compacto, as inflorescências longas dão à planta uma aparência exuberante quando floresce.",
 
     origem: "América do Sul",
     regiao: "Brasil (Centro-Oeste · Sudeste · Sul) · Paraguai",
@@ -38,7 +38,7 @@ export const macradeniaMultiflora = {
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Não permitido",
-        horario: "",
+        horario: "Não permitido",
         observacoes: "Prefere meia-sombra clara e luz filtrada relativamente intensa. Orquidários brasileiros recomendam cerca de 50% de sombreamento, enquanto outro produtor orienta meia-sombra sem sol direto. No litoral quente, 50% a 60% de sombreamento é um ponto inicial seguro: forneça claridade suficiente para manter crescimento compacto, mas evite radiação direta que aqueça folhas e raízes."
     },
 
@@ -54,7 +54,7 @@ export const macradeniaMultiflora = {
         "🥉 Vaso pequeno e muito perfurado, com mistura leve e de secagem moderada."
     ],
 
-    substrato: ["Casca de pinus + pequena fração de esfagno solto + perlita grossa","Chips de coco + carvão vegetal + perlita grossa"],
+    substrato: ["Casca de pinus + pequena fração de esfagno solto + perlita grossa","Chips de coco preparados + carvão vegetal + perlita grossa"],
 
     formasCultivo: {
         perfilVisual: "epifita-compacta-inflorescencia-pendente",
@@ -71,7 +71,7 @@ export const macradeniaMultiflora = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para cachepô pequeno e suspenso",
         resumo: "Substrato leve de secagem moderada, com raízes ventiladas e umidade regular durante o crescimento.",
-        justificativa: "A receita visual para cachepô pequeno e suspenso combina pinus médio, perlita grossa e carvão vegetal. A receita principal textual e a composição visual coincidem; o esfagno pertence apenas à primeira das duas alternativas qualitativas, não à receita principal. As referências brasileiras citadas apoiam cultivo sombreado, drenagem e umidade, mas não testam estes percentuais. Proposta ainda não homologada pela MACS 1.1.",
+        justificativa: "A receita visual para cachepô pequeno e suspenso combina pinus médio, perlita grossa e carvão vegetal. Orquídeas & Cia indica para a espécie casca de pinus, esfagno ou montagem em tronco, sem proporções; a mistura principal é uma hipótese, não fórmula validada. A receita principal textual e a composição visual coincidem; o esfagno pertence apenas à primeira das duas alternativas qualitativas, não à receita principal. As referências brasileiras citadas apoiam cultivo sombreado, drenagem e umidade, mas não testam estes percentuais. Proposta ainda não homologada pela MACS 1.1.",
         receitaTexto: "45% casca de pinus média + 30% perlita grossa + 25% carvão vegetal.",
         perfil: ["Epífita compacta", "Inflorescência pendente", "Umidade regular", "Raízes ventiladas", "Secagem moderada"],
         comportamento: [
@@ -83,10 +83,10 @@ export const macradeniaMultiflora = {
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "45%", nota: "estrutura e umidade", finalidade: "Oferece apoio radicular e umidade moderada sem compactação." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "30%", nota: "aeração", finalidade: "Amplia espaços de ar e drenagem." },
-            { asset: "carvao", nome: "Carvão vegetal", proporcao: "25%", nota: "porosidade", finalidade: "Mantém estrutura aberta e drenante." }
+            { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "25%", nota: "porosidade", finalidade: "Mantém estrutura aberta e drenante." }
         ],
         alerta: "Evitar sol direto forte, seca prolongada em montagem, substrato encharcado e repouso seco intenso. Deixar a haste floral pender livremente.",
-        notaEvidencia: "MACS 1.1 — revisão documental: a revisão científica preexistente da ficha registra recomendações brasileiras atribuídas ao Orquidário Paulista (50% sombra, boa drenagem), Orquídeas & Cia (meia-sombra, rega frequente, pinus/esfagno/tronco) e Merten Orquídeas (umidade e sombreamento). Não há validação publicada nesta passagem para a receita visual 45% pinus médio + 30% perlita grossa + 25% carvão = 100%. Receita principal 45% pinus + 30% perlita + 25% carvão coincide com o visual; pinus, esfagno e perlita são apenas uma alternativa qualitativa sem percentuais. Cachepô suspenso 5 estrelas, placa e vasos 4: plausibilidade pela haste pendente, sem ensaio comparativo. Percentuais e estrelas NÃO HOMOLOGADOS; meta de até 25 produtores não atingida. Receita principal, duas alternativas e demais campos preservados nesta revisão documental."
+        notaEvidencia: "MACS 1.1 — revisão documental: Orquídeas & Cia tem página específica com meia-sombra sem sol direto, rega frequente e opções de pinus, esfagno ou tronco (https://www.orquideacia.com.br/macradenia-multiflora). As referências anteriores a outros produtores não foram reconfirmadas nesta passagem e não são contadas como receitas verificadas. POWO aceita Macradenia multiflora e o sinônimo Trichopilia multiflora, com distribuição Brasil e Paraguai. Não há validação publicada nesta passagem para a receita visual 45% pinus médio + 30% perlita grossa + 25% carvão = 100%. Receita principal 45% pinus + 30% perlita + 25% carvão coincide com o visual; pinus, esfagno e perlita são apenas uma alternativa qualitativa sem percentuais. Cachepô suspenso 5 estrelas, placa e vasos 4: plausibilidade pela haste pendente, sem ensaio comparativo. Percentuais e estrelas NÃO HOMOLOGADOS; meta de até 25 produtores não atingida. Receita principal, duas alternativas e demais campos preservados nesta revisão documental."
     },
     errosComuns: [
         "Expor ao sol direto forte porque a planta aceita boa luminosidade filtrada.",
