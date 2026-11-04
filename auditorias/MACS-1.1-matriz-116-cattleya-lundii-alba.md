@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 116 — Cattleya lundii f. alba
-Data 2026-11-04. EM ANDAMENTO. Não avançar à matriz 117.
+Data 2026-11-04. ENCERRADA COMO AUDITADA, NÃO HOMOLOGADA QUANTITATIVAMENTE (D).
 
 ## Taxonomia e biogeografia
 - POWO/Kew https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60448106-2 : nome aceito da espécie Cattleya lundii, epífita pseudobulbosa de ambientes tropicais sazonalmente secos, Bolívia–Argentina, incluindo Brasil.
@@ -16,4 +16,7 @@ Retirada perlita vetada, sem alegar equivalência experimental. Formulações e 
 ## Assets e fotos
 Quatro fotos presentes em imagens/Cattleya lundii f. alba/. Dez chaves da biblioteca visual confirmadas: casca-macadamia, casca-pinus, casca-arroz-carbonizada, carvao, fibra-coco, argila-expandida, placa-tronco, cesto-madeira, vaso-barro, arvore-viva.
 Correção publicada no commit 73710960ad28d1ea57c654d71915e8983eeb0039.
-Pendente Chromium e encerramento documentado.
+Chromium aprovado e encerramento documentado.
+
+## Encerramento técnico — 2026-11-04
+Chromium/Playwright https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41765200267: **success** em todas as etapas, incluindo conferência da ficha e upload de capturas. Quatro fotos e dez chaves de assets confirmadas. Misturas A/B/C com 100% por volume, sem perlita. Resultado científico final **D, homologação quantitativa reprovada por insuficiência de evidências específicas**; nenhuma amostra de 25 produtores ou ensaio comparativo foi fabricado. A ficha está auditada e encerrada sem pendências técnicas; a insuficiência científica é limitação explícita, não homologação positiva. Liberada matriz 117.
