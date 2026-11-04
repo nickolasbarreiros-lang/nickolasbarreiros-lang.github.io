@@ -46,8 +46,8 @@ export const isochilusLinearis = {
         titulo: "Substrato ideal",
         contexto: "Mistura leve e úmida para cachepô de madeira bem vazado",
         resumo: "Raízes delicadas precisam de material leve, aeração elevada e umidade moderada, sem secagem prolongada.",
-        justificativa: "Isochilus linearis forma touceiras de caules finos sem pseudobulbos e precisa de umidade regular com raízes oxigenadas. Para cachepô de madeira bem vazado, a receita visual propõe pinus fino, perlita de granulometria adequada a raízes finas e esfagno de fibra longa solto, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não originam os percentuais visuais. A montagem em madeira pode ser considerada como método separado, mas não é a composição do substrato principal. Monitorar secagem, procedência altitudinal e ventilação; evitar calor abafado e seca prolongada. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
-        receitaTexto: "45% casca de pinus fina + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto (proposta não homologada).",
+        justificativa: "Isochilus linearis forma touceiras de caules finos, sem pseudobulbos, e precisa de umidade regular com raízes oxigenadas. Em cachepô de madeira bem vazado, a casca de pinus fina oferece sustentação, a perlita favorece a aeração e o esfagno solto ajuda a conservar umidade entre as regas. Observe a secagem e mantenha boa circulação de ar, evitando calor abafado e períodos prolongados de seca. A montagem em madeira também é possível, com atenção redobrada à umidade das raízes.",
+        receitaTexto: "45% casca de pinus fina + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto.",
         perfil: ["Sem pseudobulbos", "Caules finos", "Touceira densa", "Umidade regular", "Raízes oxigenadas"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
