@@ -258,3 +258,8 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - SOSA: https://www.sosa.org.br/site/dicas-de-cultivo.php — orientações gerais sobre drenagem, arejamento e variação da secagem por suporte; **não específicas** para esta espécie.
 - Fontes de produtores sobre *Anathallis imbricata* e *Stelis* sp. não foram convertidas em evidência direta de *A. sclerophylla*; nenhuma prova percentuais de 35/30/20/15 ou comparação entre os quatro suportes.
 - Atualizado `revisaoCientificaIAR.cultivoPremiacao` e acrescentadas fontes à própria ficha. Homologação MACS permanece **Classe D**; não atribuir estrelas sem base empírica.
+
+### Revisão do habitat e da faixa altitudinal — ficha 1 (2026-11-04)
+- Confronto com a compilação Embrapa *Cerrado: Ecologia e Flora*, volume 2, capítulo 14 (https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/570911/1/CERRADO-Ecologia-e-flora-VOL-2.pdf), que registra *Anathallis sclerophylla* como erva epífita em mata de galeria associada a campo rupestre.
+- Retirada de `revisaoCientificaIAR.habitatAltitudeClima` a amplitude `480–3.100 m`: sem confirmação suficiente de que represente o intervalo global conhecido da espécie. O texto agora separa ocorrência de campo documentada de inferência de manejo sobre aeração/umidade.
+- Esse saneamento melhora a rastreabilidade botânica, mas não valida numericamente as notas IDC/IAR nem os percentuais e suportes MACS. Classe D preservada; ficha 1 continua aberta.
