@@ -31,12 +31,16 @@ jobs:
             const entries=page.locator('.substratos-recomendados-v4 li');
             if(await entries.count()!==2)throw Error('Esperadas exatamente duas misturas');
             const texts=await entries.allTextContents();
-            if(!texts[0].includes('55% Casca de pinus')||!texts[1].includes('45% Chips de coco'))throw Error('Percentuais de alternativas incorretos: '+texts.join(' | '));
+            if(!texts[0].toLowerCase().includes('casca de pinus')||!texts[1].toLowerCase().includes('chips de coco'))throw Error('Ingredientes das alternativas divergentes: '+texts.join(' | '));
+            if(texts.some(t=>/\b\d+\s*%/.test(t)))throw Error('Alternativas não podem ter percentuais: '+texts.join(' | '));
             if(errors.length)throw Error('Erros JavaScript: '+errors.join(' | '));
             await section.screenshot({path:'macs-111-substrato-desktop.png'});
             await page.setViewportSize({width:390,height:844});
             await section.screenshot({path:'macs-111-substrato-mobile.png'});
-            console.log('APROVADO: renderização desktop/mobile, 2 receitas com percentuais e sem erros JavaScript.');
+            const mobileTexts=await entries.allTextContents();
+            if(mobileTexts.length!==2||mobileTexts.some(t=>/\b\d+\s*%/.test(t)))throw Error('Alternativas inválidas no celular: '+mobileTexts.join(' | '));
+            if(errors.length)throw Error('Erros JavaScript desktop/mobile: '+errors.join(' | '));
+            console.log('APROVADO: renderização desktop/mobile, 2 receitas alternativas qualitativas sem percentuais e sem erros JavaScript.');
             await browser.close();
           })().catch(e=>{console.error(e);process.exit(1)});
           JS
