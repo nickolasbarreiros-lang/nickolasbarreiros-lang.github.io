@@ -32,6 +32,12 @@ jobs:
             const errors=[];
             page.on('pageerror',error=>errors.push(error.message));
             await page.goto('http://127.0.0.1:8765/orquidea.html?id=pholidota-chinensis',{waitUntil:'networkidle',timeout:60000});
+            const credito=page.locator('.galeria-v2 .credito-foto-v4');
+            if(await credito.count()!==1)throw Error('Crédito CC BY da quarta foto não aparece na galeria');
+            const creditText=await credito.innerText();
+            if(!creditText.includes('Elena Gaillard')||!creditText.includes('CC BY 2.0'))throw Error('Autoria/licença incompleta: '+creditText);
+            const links=await credito.locator('a').evaluateAll(nodes=>nodes.map(a=>a.href));
+            if(!links.some(u=>u.includes('commons.wikimedia.org/wiki/File:Pholidota_chinensis'))||!links.includes('https://creativecommons.org/licenses/by/2.0/'))throw Error('Links de atribuição incorretos: '+links.join(' | '));
             const section=page.locator('.substrato-visual-v4');
             await section.waitFor({timeout:30000});
             const entries=page.locator('.substratos-recomendados-v4 li');
