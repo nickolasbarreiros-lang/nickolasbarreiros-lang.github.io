@@ -41,18 +41,18 @@ export const cattleyaIntermedia = {
     substrato: ["Casca de pinus média + carvão vegetal + casca de arroz carbonizada","Casca de pinus média + chips de coco médios preparados + carvão vegetal"],
     formasCultivo: {
     "perfilVisual": "cattleya",
-    "destaque": "Cachepô de madeira",
+    "destaque": "Cachepô de Madeira",
     "resumo": "MACS 1.0: cachepô de madeira (91/100), árvore viva (82/100), barro e plástico vasado (80/100). As pontuações são heurísticas, não ensaios comparativos.",
     "metodos": [
         {
-            "nome": "Cachepô de madeira",
+            "nome": "Cachepô de Madeira",
             "asset": "cesto-madeira",
             "estrelas": null,
             "status": "Mais indicada na ficha",
             "texto": "As aberturas laterais mantêm as raízes ventiladas e favorecem a drenagem, mas a mistura seca mais depressa."
         },
         {
-            "nome": "Vaso de barro",
+            "nome": "Vaso de Barro",
             "asset": "vaso-barro",
             "estrelas": null,
             "status": "Alternativa",
