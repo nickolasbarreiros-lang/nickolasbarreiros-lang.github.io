@@ -8,8 +8,8 @@ export const catasetumMattosianum = {
     dificuldade: "Difícil",
     caracteristicas: [
         "Endêmica do Brasil",
-        "Bahia e Espírito Santo",
-        "Flores de ~3 cm",
+        "Endêmica da Mata Atlântica",
+        "Flores de aproximadamente 4 cm",
         "Folhagem caduca",
         "Dimorfismo sexual",
         "Dormência sazonal"
@@ -20,7 +20,7 @@ export const catasetumMattosianum = {
         "imagens/Catasetum mattosianum/Catasetum mattosianum3.jpg",
         "imagens/Catasetum mattosianum/Catasetum mattosianum4.jpg"
     ],
-    descricao: "Uma espécie brasileira marcada pelas grandes mudanças que acontecem ao longo do ano. *Catasetum mattosianum* desenvolve pseudobulbos carnosos e vigorosos durante a estação de crescimento, cobertos por folhas finas e pregueadas; depois, com a chegada da dormência, as folhas amarelecem e caem, deixando os pseudobulbos armazenarem energia para o próximo ciclo. Nativa da Bahia ao Espírito Santo, produz no verão flores de aproximadamente 3 cm, com coloração bastante variável. Como é típico dos *Catasetum*, pode formar flores masculinas e femininas muito diferentes entre si — uma característica fascinante do gênero. Luz, reservas da planta e condições ambientais podem influenciar qual tipo aparece, mas não existe uma fórmula simples capaz de garantir flores de determinado sexo.",
+    descricao: "Catasetum mattosianum é uma orquídea brasileira de pseudobulbos carnosos, alongados e cobertos por folhas finas e pregueadas durante o crescimento. Quando entra em dormência, perde a folhagem e mantém as reservas nos pseudobulbos. Suas hastes podem apresentar flores de cores variadas, agrupadas sobretudo na porção final da inflorescência. Como em outros Catasetum, flores masculinas e femininas diferem bastante na forma. A espécie ocorre como epífita em florestas úmidas e restingas da Mata Atlântica. Além da beleza das flores, chama atenção por seu ciclo sazonal bem marcado e pela vulnerabilidade de suas populações naturais.",
     origem: "Brasil",
     regiao: "Bahia ao Espírito Santo",
     habitat: "Epífita de bioma tropical úmido.",
@@ -32,7 +32,7 @@ export const catasetumMattosianum = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Durante crescimento ativo necessita bastante luz para formar pseudobulbos volumosos. Folhas verde-médio a verde-claro e pseudobulbos robustos são bons indicadores. Excesso súbito de sol queima folhas; sombra profunda gera crescimento mais fraco. A intensidade luminosa influencia diretamente a proporção de flores: níveis mais altos de luz favorecem o surgimento de flores femininas, enquanto condições de menor luminosidade tendem a estimular o aparecimento de flores masculinas."
     },
-    floracao: "Principalmente no verão. IOSPE registra flores de aproximadamente 3 cm e grande variabilidade de cor. O momento exato pode oscilar conforme início da brotação, maturação do pseudobulbo e condições de cultivo.",
+    floracao: "Principalmente no verão. IOSPE menciona flores em torno de 3 cm; uma comparação morfológica publicada em Phytotaxa registra 38–45 mm para flores distendidas de C. mattosianum. A dimensão varia conforme a medição e a flor examinada.",
     adubacao: "🌿 Orgânica: Bokashi pode ser usado em pequena quantidade durante crescimento, somente depois de o novo sistema radicular estar funcional.\n💧 Foliar/mineral: NPK equilibrado ou levemente mais nitrogenado em 1/4 a 1/3 da dose, com maior frequência no crescimento vigoroso.\n🧪 Liberação lenta: Osmocote 14-14-14 pode ser utilizado em dose moderada quando as regas regulares já começaram. Suspenda fertilização quando as folhas amarelecerem e a dormência se instalar.",
     rega: "Divida o manejo em fases. Broto recém-surgido: mantenha o vaso predominantemente seco e evite encharcar. Quando várias raízes novas atingirem aproximadamente 5 a 8 cm, aumente a água gradualmente. Durante o crescimento explosivo e o engrossamento do pseudobulbo, regue abundantemente. Quando as folhas amarelecerem e caírem, reduza fortemente ou suspenda as regas regulares; hidrate apenas de forma mínima se os pseudobulbos entrarem em desidratação excessiva.",
     suporte: "🥇 O vaso plástico bem perfurado mas capaz de conservar a umidade necessária durante o verão, sendo também uma excelente opção para o cultivo em semi-hidroponia.\n🥈 Cachepô ou cesto de madeira para manejo com regas frequentes.\n🥉 Cesta plástica ou vaso tipo cuia, combinando ventilação e retenção moderada.",
@@ -75,7 +75,7 @@ export const catasetumMattosianum = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
-        "justificativa": "A espécie é epífita pseudobulbosa de ambiente tropical úmido; a orientação sazonal é baseada no gênero Catasetum. Mistura leve com reserva hídrica pode favorecer o crescimento ativo; durante a dormência, reduzir fortemente as regas e observar a secagem do recipiente, sem pressupor que a mistura seque sozinha. Proporções são hipótese, não receita testada na espécie.",
+        "justificativa": "A espécie é epífita pseudobulbosa de ambiente tropical úmido, com registros em florestas ombrófilas e restingas; a orientação sazonal é baseada no gênero Catasetum. Mistura leve com reserva hídrica pode favorecer o crescimento ativo; durante a dormência, reduzir fortemente as regas e observar a secagem do recipiente, sem pressupor que a mistura seque sozinha. Proporções são hipótese, não receita testada na espécie.",
         "receitaTexto": "35% chips de coco médios preparados + 30% casca de pinus média + 20% perlita grossa + 15% casca de arroz carbonizada.",
         "perfil": ["Raízes vigorosas", "Bulbos de reserva", "Ciclo sazonal", "Crescimento úmido", "Repouso seco", "Boa drenagem"],
         "comportamento": [
@@ -131,7 +131,7 @@ export const catasetumMattosianum = {
             }
         ],
         "alerta": "Proposta preliminar MACS 1.1; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo.",
-        "notaEvidencia": "MACS 1.1 — revisão documental: Catasetum mattosianum, epífita caducifólia de ciclo sazonal; regas intensas apenas após enraizamento ativo e redução forte na dormência. Suportes vaso plástico vasado 5 estrelas, cachepô madeira e placa/tronco 4, barro 3; avaliações horticulturais sem validação comparativa. Receita visual 35% chips coco + 30% pinus médio + 20% perlita grossa + 15% casca de arroz carbonizada = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% chips de coco, 30% pinus, 20% perlita, 15% casca de arroz carbonizada). As duas alternativas qualitativas são composições distintas, não equivalentes à principal. A justificativa reconhece hipótese não testada na espécie, baseada em orientação geral do gênero; retenção e secagem sazonal da composição exigem validação. Meta até 25 produtores brasileiros específicos não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
+        "notaEvidencia": "MACS 1.1 — revisão documental: Catasetum mattosianum, epífita caducifólia de ciclo sazonal; regas intensas apenas após enraizamento ativo e redução forte na dormência. Suportes vaso plástico vasado 5 estrelas, cachepô madeira e placa/tronco 4, barro 3; avaliações horticulturais sem validação comparativa. Receita visual 35% chips coco + 30% pinus médio + 20% perlita grossa + 15% casca de arroz carbonizada = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% chips de coco, 30% pinus, 20% perlita, 15% casca de arroz carbonizada). As duas alternativas qualitativas são composições distintas, não equivalentes à principal. A justificativa reconhece hipótese não testada na espécie, baseada em orientação geral do gênero; retenção e secagem sazonal da composição exigem validação. POWO confirma ocorrência nativa da Bahia ao Espírito Santo e habitat epífito úmido. Plano de Ação de Conservação da Biodiversidade Terrestre da Bacia do Rio Doce registra Mata Atlântica, florestas ombrófilas e restingas e situação de ameaça EN no Brasil, CR no Espírito Santo conforme listas nele citadas. Orquidário Durval Ferreira publica manejo geral do gênero (esfagno, substrato úmido no crescimento e secagem na dormência), sem receita específica para mattosianum. Não foram confirmados produtores brasileiros com receita quantitativa desta espécie; meta até 25 não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     substrato: ["Esfagno de fibra longa solto + perlita grossa + carvão vegetal","Argila expandida + perlita grossa + chips de coco médios preparados + pequena fração de esfagno solto"],
     errosComuns: "• Encharcar o broto antes de as raízes novas estarem funcionais.\n• Replantar quando as raízes novas já estão longas e frágeis.\n• Economizar água durante o crescimento vigoroso.\n• Continuar regando normalmente após a queda das folhas.\n• Adubar durante dormência.\n• Remover pseudobulbos traseiros saudáveis, que funcionam como reserva.\n• Usar substrato velho e compacto.\n• Tentar forçar flores femininas com excesso de sol.",
