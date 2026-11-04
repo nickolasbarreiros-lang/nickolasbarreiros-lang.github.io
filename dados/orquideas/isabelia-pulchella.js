@@ -253,8 +253,8 @@ export const isabeliaPulchella = {
     "titulo": "Substrato ideal",
     "contexto": "Placa / tronco principal; mistura opcional para vaso raso pequeno — 100% em volume",
     "resumo": "Para vaso raso: 40% pinus pequeno + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto; montagem em placa não usa mistura solta.",
-    "justificativa": "Isabelia pulchella é microepífita de rizoma rastejante e raízes finas. A montagem principal é Placa / tronco com rizoma exposto e uma lâmina muito fina de esfagno de fibra longa solto, sem massa de substrato. Para vaso raso pequeno, a receita visual opcional reúne pinus pequeno, casca de arroz carbonizada, carvão pequeno e esfagno solto, totalizando 100% em volume. As duas outras misturas são alternativas qualitativas distintas, sem perlita grossa, e não fundamentam os percentuais visuais. Manter umidade frequente e ventilação, sem compactar esfagno nem enterrar pseudobulbos. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
-    "receitaTexto": "Placa / tronco: rizoma exposto com lâmina muito fina de esfagno solto. Para vaso raso pequeno: 40% casca de pinus pequena + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto (proposta não homologada).",
+    "justificativa": "Isabelia pulchella é uma microepífita de rizoma rastejante e raízes finas. A montagem principal em placa ou tronco mantém o rizoma exposto e utiliza apenas uma camada muito fina de esfagno solto junto às raízes. Em vaso raso e pequeno, a casca de pinus, a casca de arroz carbonizada e o carvão preservam espaços de ar, enquanto o esfagno oferece uma pequena reserva de umidade. Mantenha regas frequentes conforme a secagem, sem compactar o esfagno nem enterrar os pseudobulbos.",
+    "receitaTexto": "Placa / tronco: rizoma exposto com lâmina muito fina de esfagno solto. Para vaso raso pequeno: 40% casca de pinus pequena + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto.",
     "perfil": [
       "Alta aeração",
       "Drenagem funcional",
