@@ -42,11 +42,11 @@ export const cattleyaGuttataVarCoerulea = {
     substrato: ["Casca de macadâmia média + casca de pinus média + perlita grossa + carvão vegetal médio","Casca de macadâmia média + argila expandida + carvão vegetal médio + casca de pinus grossa"],
     formasCultivo: {
     "perfilVisual": "cattleya",
-    "destaque": "Vaso de barro",
+    "destaque": "Vaso de Barro",
     "resumo": "MACS 1.1: vaso de barro, cachepô de madeira e plástico vasado são alternativas de boa aeração; a escolha depende da estabilidade da touceira e da secagem. Classificações quantitativas anteriores eram heurísticas, não ensaios.",
     "metodos": [
         {
-            "nome": "Vaso de barro",
+            "nome": "Vaso de Barro",
             "asset": "vaso-barro",
             "estrelas": null,
             "status": "Mais indicada na ficha",
