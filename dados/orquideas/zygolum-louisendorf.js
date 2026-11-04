@@ -81,7 +81,7 @@ export const zygolumLouisendorf = {
         "nome": "Zygolum Louisendorf",
         "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Zygolum Louisendorf é um híbrido muito atraente, conhecido pelas flores de forte contraste entre verde, castanho, branco e violeta e pelo perfume marcante. Registrado em 2004, resulta de Zygosepalum labiosum × Zygopetalum Artur Elle e reúne quatro espécies em sua genealogia, com forte influência de Zygosepalum labiosum e Zygopetalum maculatum. Forma pseudobulbos robustos e folh",
+        "morfologiaDimensoes": "Zygolum Louisendorf é um híbrido muito atraente, conhecido pelas flores de forte contraste entre verde, castanho, branco e violeta e pelo perfume marcante. Registrado em 2004, resulta de Zygosepalum labiosum × Zygopetalum Artur Elle e reúne quatro espécies em sua genealogia, com forte influência de Zygosepalum labiosum e Zygopetalum maculatum.",
         "habitatAltitudeClima": "Sem habitat natural; híbrido cultivado. | Intermediário a ameno, úmido e ventilado.",
         "distribuicaoGeografica": "Sem distribuição natural.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
