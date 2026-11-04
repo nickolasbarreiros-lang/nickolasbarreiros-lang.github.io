@@ -51,8 +51,8 @@ export const maxillariaBrasiliensis = {
         titulo: "Substrato ideal",
         contexto: "Mistura arejada de umidade moderada para vaso pequeno",
         resumo: "Partículas médias e fibras grossas que apoiam raízes finas sem manter o centro do vaso encharcado.",
-        justificativa: "Maxillaria brasiliensis (sin. Heterotaxis brasiliensis) é epífita compacta de raízes finas, que requer mistura aerada com umidade moderada e sem encharcamento prolongado. Para vaso de barro pequeno e perfurado, a receita visual propõe macadâmia média, pinus médio, perlita com granulometria compatível com raízes finas e fibra de coco grossa preparada, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não fundamentam os percentuais visuais. Manter a touceira estável, o rizoma superficial e replantar preferencialmente na emissão de raízes novas. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
-        receitaTexto: "30% casca de macadâmia média + 30% casca de pinus média + 25% perlita de granulometria compatível com raízes finas + 15% fibra de coco grossa preparada (proposta não homologada).",
+        justificativa: "Maxillaria brasiliensis (sin. Heterotaxis brasiliensis) é uma epífita compacta de raízes finas que precisa de umidade moderada, boa circulação de ar e ausência de encharcamento prolongado. Em vaso de barro pequeno e perfurado, as cascas de macadâmia e pinus dão estrutura à mistura, a perlita favorece a aeração e a fibra de coco grossa preparada ajuda a conservar umidade. Mantenha a touceira firme, com o rizoma superficial, e prefira replantar quando surgirem raízes novas.",
+        receitaTexto: "30% casca de macadâmia média + 30% casca de pinus média + 25% perlita de granulometria compatível com raízes finas + 15% fibra de coco grossa preparada.",
         perfil: ["Epífita compacta", "Raízes finas", "Umidade moderada", "Vaso justo", "Drenagem rápida"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
