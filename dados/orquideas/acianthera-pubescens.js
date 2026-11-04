@@ -9,7 +9,7 @@ export const aciantheraPubescens = {
     origem: "América Tropical",
     regiao: "México · América Central · Caribe · América do Sul (incl. Brasil, Paraguai, Uruguai e NE da Argentina)",
     habitat: "Epífita de florestas densas e úmidas, com registros aproximadamente entre 500 e 1.900 m.",
-    descricao: "Uma espécie de aparência extremamente variável, o que torna cada planta particularmente interessante. A Acianthera pubescens forma touceiras de folhas espessas e produz pequenas flores carnosas, geralmente claras ou rosadas, marcadas por manchas, listras ou tons púrpura. O nome pubescens faz referência à fina pilosidade presente nas flores, uma característica que fica ainda mais bonita quando observada de perto. Sua ampla distribuição pela América tropical ajuda a explicar a diversidade de formas, cores e até do posicionamento das flores encontrada entre diferentes populações. Algumas formas apresentam fragrância, embora nem sempre seja considerada agradável.",
+    descricao: "Acianthera pubescens chama atenção pela diversidade de formas e pelo contraste delicado de suas flores. Forma touceiras de caules finos, cada um sustentando uma folha espessa, sem pseudobulbos verdadeiros. Sobre as folhas surgem pequenas inflorescências com flores creme-translúcidas, riscadas ou salpicadas de vinho; as sépalas possuem fina pilosidade externa, característica que inspirou o nome da espécie. O perfume pode variar entre populações e nem sempre é agradável. Encontrada em extensas áreas da América tropical, vive sobre árvores de florestas úmidas, desde regiões mais baixas até ambientes montanos. Sua aparência muda bastante conforme a procedência, tornando cada exemplar especialmente interessante para observação.",
     caracteristicas: ["Flores pubescentes", "Ampla distribuição neotropical", "500–1.900 m", "Alta variabilidade", "Cespitosa", "Fragrância variável", "Procedência influencia cultivo"],
     fotos: [
         "imagens/Acianthera pubescens/Acianthera pubescens1.jpg",
@@ -52,8 +52,8 @@ export const aciantheraPubescens = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura leve, muito aerada e de retenção moderada, adequada a raízes finas que pedem umidade regular sem compactação.",
-        justificativa: "A espécie é predominantemente epífita e possui raízes finas. Em vaso, a prioridade é manter macroporos e secagem parcial sem deixar a mistura desidratar abruptamente. A casca de arroz carbonizada aumenta a estabilidade e a aeração; pinus fornece estrutura; carvão prolonga a porosidade; e uma pequena fração de esfagno cria reserva hídrica localizada.",
-        receitaTexto: "Mistura-base provisória para vaso pequeno e drenante: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto.",
+        justificativa: "A espécie é epífita e apresenta caules reptantes sem pseudobulbos verdadeiros; a mistura proposta para vaso não foi testada experimentalmente nesta espécie. Em vaso, a prioridade é manter macroporos e secagem parcial sem deixar a mistura desidratar abruptamente. A casca de arroz carbonizada aumenta a estabilidade e a aeração; pinus fornece estrutura; carvão prolonga a porosidade; e uma pequena fração de esfagno cria reserva hídrica localizada.",
+        receitaTexto: "Proposta técnica não homologada para vaso pequeno e drenante: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto.",
         perfil: ["Raízes finas", "Alta aeração", "Umidade frequente", "Secagem moderada", "Baixa compactação", "Rizoma livre"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
