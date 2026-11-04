@@ -76,8 +76,8 @@ export const cattleyaABrazilianDream = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "Cattleya A Brazilian Dream é grex de C. nobilior × C. loddigesii, com variação entre clones. Para cachepô de madeira aberto, a receita visual propõe macadâmia média, pinus médio/grosso, casca de arroz carbonizada e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas quantitativas editoriais (45/25/20/10 e 40/30/20/10 por volume), sem comparação experimental específica. O suporte publicado não foi comprovado superior a vasos perfurados; observar atividade das raízes e secagem sem impor repouso rígido derivado de apenas um parental. MACS 1.1: proposta horticultural sem homologação quantitativa específica.",
-    "receitaTexto": "40% casca de macadâmia média + 25% casca de pinus média/grossa + 20% casca de arroz carbonizada + 15% carvão vegetal médio (proposta não homologada).",
+    "justificativa": "Cattleya A Brazilian Dream é um híbrido de C. nobilior com C. loddigesii e pode apresentar diferenças de crescimento entre clones. Em cachepô de madeira aberto, as cascas de macadâmia e pinus dão apoio às raízes, enquanto a casca de arroz carbonizada e o carvão ajudam a manter a mistura arejada. Observe a emissão de raízes novas e a secagem do recipiente para ajustar as regas, sem impor um repouso seco rígido.",
+    "receitaTexto": "40% casca de macadâmia média + 25% casca de pinus média/grossa + 20% casca de arroz carbonizada + 15% carvão vegetal médio.",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
