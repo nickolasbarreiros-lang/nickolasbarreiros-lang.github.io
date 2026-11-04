@@ -56,8 +56,8 @@ export const coelogyneFlaccida = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cachepô ou recipiente suspenso e ventilado",
         "resumo": "Casca de pinus média e perlita grossa em proporção 3:1, adaptação de receita genérica de casca de abeto (fir bark) e perlita da AOS.",
-        "justificativa": "AOS apresenta para o gênero Coelogyne mistura de CASCA DE ABETO (fir bark) e perlita 3:1; a troca por CASCA DE PINUS é adaptação de material, não transcrição literal nem ensaio específico em C. flaccida. Orquidário Mogi Mirim recomenda para a espécie substrato poroso e regas reduzidas no inverno, sem receita percentual. A mistura anterior com coco e esfagno não tinha validação específica; o recipiente deve permanecer ventilado, sem saturação prolongada.",
-        "receitaTexto": "75% casca de pinus média + 25% perlita grossa (3:1 em volume; adaptação da receita genérica da AOS com casca de abeto, não pinus).",
+        "justificativa": "Coelogyne flaccida se beneficia de recipiente ventilado e mistura que não permaneça saturada por longos períodos. A casca de pinus média oferece apoio às raízes e a perlita grossa ajuda a manter espaços de ar e drenagem. Durante o crescimento ativo, mantenha regas adequadas; no inverno, reduza a frequência conforme a secagem observada, sem deixar as raízes continuamente encharcadas.",
+        "receitaTexto": "75% casca de pinus média + 25% perlita grossa (3:1 em volume).",
         "perfil": ["Raízes epífitas", "Umidade equilibrada", "Aeração alta", "Clima fresco", "Hastes florais pendentes"],
         "comportamento": [
             { "nome": "Retenção", "valor": 4, "icone": "💧" },
