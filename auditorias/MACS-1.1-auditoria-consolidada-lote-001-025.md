@@ -1,6 +1,6 @@
 # Auditoria consolidada MACS 1.1 / IDC 3.2 / IAR 2.0 / V4.9 — lote 1–25
 
-Data: 2026-11-04. **EM ANDAMENTO — fichas 1–15 triadas estaticamente; auditoria integral e visual pendente.**
+Data: 2026-11-04. **EM ANDAMENTO — fichas 1–20 triadas estaticamente; auditoria integral e visual pendente.**
 
 Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/index.js` (não na ordem dos imports).
 
@@ -52,3 +52,19 @@ Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/in
 
 - Pendência editorial confirmada na ficha 13 (83 palavras). Nas fichas 12 e 15, a ausência de correspondência no parser não prova ausência de descrição; requer leitura específica.
 - Conferência estática não prova que imagens carregam ou que percentuais estejam quantitativamente homologados. Lote continua aberto.
+
+## Atualização — fichas 12–20
+- Revisão de parser: descrições das fichas 12 e 15 estavam em propriedades entre aspas (`"descricao"`), e não ausentes. Corrigidas para 103 palavras (`c31dfd70`) e 95 palavras (`d9af94aa`).
+- Ficha 13 Bifrenaria verboonenii corrigida para 102 palavras (`9fa2af46`).
+- Triagem estática 16–20:
+
+| Nº | Ficha | Palavras | Percentuais principais | Soma | Alternativas | MACS/Cultivo/IDC/IAR |
+|---|---|---:|---|---:|---:|---|
+| 16 | Sophronitis cernua | 75 | 40/30/20/10 | 100% | 2 | presentes |
+| 17 | Zygolum Louisendorf | 85 | 45/25/20/10 | 100% | 2 | presentes |
+| 18 | Dendrobium loddigesii | 88 | 45/30/25 | 100% | 2 | presentes |
+| 19 | Maxillaria schunkeana | 78 | 45/25/20/10 | 100% | 2 | presentes |
+| 20 | Mediocalcar decoratum | 81 | 40/25/20/15 | 100% | 2 | presentes |
+
+- Todas as descrições 16–20 estão abaixo do mínimo editorial de 90 palavras; correções ainda não realizadas.
+- Os percentuais conferidos somam 100%, sem constituir homologação científica quantitativa. Auditoria visual e taxonômica não realizada neste lote.
