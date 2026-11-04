@@ -56,7 +56,7 @@ export const maxillariaCamaridii = {
         titulo: "Substrato ideal",
         contexto: "Mistura grossa para cachepô de madeira ventilado",
         resumo: "Substrato aberto para raízes ativas, com pequena reserva hídrica e drenagem rápida após regas frequentes.",
-        justificativa: "A receita visual para cachepô de madeira ventilado combina pinus grosso, carvão vegetal, perlita grossa e chips de coco grossos preparados. A receita textual principal coincide com a composição visual; as outras duas misturas são alternativas qualitativas e não devem ser confundidas com a principal. Percentuais estimados e ainda não homologados para a espécie pela MACS 1.1.",
+        justificativa: "Maxillaria camaridii se beneficia de cachepô de madeira ventilado, com espaço para o crescimento e secagem perceptível entre regas. A casca de pinus grossa oferece apoio, o carvão e a perlita mantêm espaços de ar e os chips de coco grossos preparados ajudam a conservar alguma umidade. Evite compactação e ajuste as regas conforme a secagem do centro do recipiente.",
         receitaTexto: "35% casca de pinus grossa + 25% carvão vegetal + 25% perlita grossa + 15% chips de coco grossos.",
         perfil: ["Epífita rizomatosa", "Pseudobulbos espaçados", "Raízes arejadas", "Regas frequentes", "Secagem superficial rápida"],
         comportamento: [
