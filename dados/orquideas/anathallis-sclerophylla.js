@@ -92,7 +92,7 @@ export const anathallisSclerophylla = {
         "nome": "Anathallis sclerophylla",
         "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Stelis sclerophylla.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Anathallis sclerophylla é uma pequena orquídea de aparência elegante, marcada por folhas firmes e coriáceas e por hastes florais finas que se elevam muito acima da folhagem. Quando adulta, pode produzir racemos longos com numerosas flores claras abertas ao mesmo tempo, criando um efeito delicado e bastante ornamental. As flores, em tons esbranquiçados a creme, possuem sépalas e",
+        "morfologiaDimensoes": "Anathallis sclerophylla é uma pequena orquídea de aparência elegante, marcada por folhas firmes e coriáceas e por hastes florais finas que se elevam muito acima da folhagem. Quando adulta, pode produzir racemos longos com numerosas flores claras abertas ao mesmo tempo, criando um efeito delicado e bastante ornamental.",
         "habitatAltitudeClima": "Epífita de florestas úmidas e nebulosas, cerca de 480–3.100 m. | Intermediário a fresco, úmido e muito ventilado.",
         "distribuicaoGeografica": "Do México e América Central à América do Sul, incluindo o Brasil.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
