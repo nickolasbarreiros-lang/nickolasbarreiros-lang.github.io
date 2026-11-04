@@ -22,7 +22,7 @@ export const bulbophyllumAmbrosia = {
         "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia3.webp",
         "imagens/Bulbophyllum ambrosia/Bulbophyllum ambrosia4.webp"
     ],
-    descricao: "Uma pequena orquídea asiática que compensa o porte discreto com um perfume surpreendente! Bulbophyllum ambrosia forma pseudobulbos espaçados sobre um rizoma rastejante e produz, geralmente, uma única flor clara de cerca de 2,8 cm, delicadamente marcada por tons rosados ou avermelhados. Seu grande destaque é a fragrância doce e intensa, característica que combina muito bem com o nome ambrosia — palavra tradicionalmente associada a algo especialmente agradável e perfumado.\n\nNa natureza, pode crescer tanto sobre árvores quanto sobre rochas e paredões musgosos, do Nepal ao sul da China e Indochina, aproximadamente entre 300 e 1.300 m. Essa amplitude ajuda a explicar sua boa adaptação a diferentes condições: mais importante que tentar mantê-la fria é oferecer raízes arejadas, umidade regular e boa ventilação, especialmente em regiões de clima quente.",
+    descricao: "Bulbophyllum ambrosia é uma miniatura asiática de rizoma rastejante, com pequenos pseudobulbos espaçados e uma folha por crescimento. As flores surgem isoladas em hastes curtas, geralmente em tons claros, com delicadas marcas rosadas ou avermelhadas. Embora pequenas, destacam-se pelo perfume doce, frequentemente descrito como agradável e intenso, que inspirou o nome ambrosia. Na natureza, a espécie vive sobre árvores e rochas musgosas, em florestas subtropicais do Nepal ao sul da China e à Indochina. Seu crescimento horizontal forma pequenas colônias, enquanto as flores aparecem próximas da folhagem, surpreendendo mais pelo aroma do que pelo tamanho.",
     origem: "Sul e Sudeste da Ásia",
     regiao: "Nepal · Assam · sul da China · Laos · Vietnã",
     habitat: "Florestas, calcário e rochas musgosas · 300–1.300 m",
@@ -30,8 +30,8 @@ export const bulbophyllumAmbrosia = {
     climaFloracao: "A espécie floresce naturalmente no inverno. A indução não depende de frio intenso, mas a maturação dos pseudobulbos, noites menos quentes, boa luminosidade filtrada e aeração favorecem a emissão floral. Em procedências de maior altitude, noites amenas têm maior importância. No litoral quente, não tente reproduzir frio artificial: priorize ventilação noturna, redução do superaquecimento do suporte e estabilidade hídrica.",
     iluminacao: {
         sombrite: "60% a 70%",
-        solDireto: "Permitido com restrição",
-        horario: "Somente início da manhã",
+        solDireto: "Não permitido",
+        horario: "Não permitido",
         observacoes: "Meia-sombra clara é mais segura que sombra profunda. A planta deve receber claridade suficiente para manter pseudobulbos compactos e favorecer a floração, mas sem aquecimento excessivo das folhas e do rizoma. No litoral quente, 60% a 70% de sombreamento com circulação de ar é um ponto de partida coerente."
     },
     floracao: "Predominantemente no inverno no habitat. Em cultivo brasileiro, a época pode deslocar-se conforme procedência e microclima; junho a agosto é uma referência prática, não uma regra absoluta.",
@@ -140,19 +140,19 @@ export const bulbophyllumAmbrosia = {
             }
         ],
         "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura.",
-        "notaEvidencia": "MACS 1.1 — revisão documental: Bulbophyllum ambrosia, miniatura epífita/litófita de rizoma rastejante e raízes finas, demanda umidade regular com aeração e rizoma exposto. Suportes placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; notas não homologadas. Receita visual alternativa para recipiente 35% pinus médio + 25% chips coco tratados + 25% perlita grossa + 15% esfagno solto = 100%; receitaTexto e itens concordam. Receita percentual visual e textual coincidem; duas alternativas qualitativas distintas são apresentadas sem alegar equivalência ou homologação. Validar retenção de 15% esfagno, granulometria e secagem em clima quente; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        "notaEvidencia": "MACS 1.1 — revisão documental: Bulbophyllum ambrosia, miniatura epífita/litófita de rizoma rastejante e raízes finas, demanda umidade regular com aeração e rizoma exposto. Suportes placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; notas não homologadas. Receita visual alternativa para recipiente 35% pinus médio + 25% chips coco tratados + 25% perlita de granulometria adequada + 15% esfagno solto = 100%; receitaTexto e itens concordam. Receita percentual visual e textual coincidem; duas alternativas qualitativas distintas são apresentadas sem alegar equivalência ou homologação. Validar retenção de 15% esfagno, granulometria e secagem em clima quente; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     substrato: ["Esfagno de fibra longa solto + perlita de granulometria adequada","Chips de coco médios preparados + perlita de granulometria adequada + carvão vegetal miúdo + pequena fração de esfagno de fibra longa solto"],
     errosComuns: "• Enterrar o rizoma.\n• Tratar a espécie como exclusivamente fria.\n• Usar substrato fino e compactado.\n• Deixar a planta secar por vários dias.\n• Manter saturação constante em noites quentes.\n• Cultivar em sombra profunda.\n• Adubar em concentração alta.\n• Manter substrato decomposto por tempo excessivo.\n• Confundir umidade ambiental elevada com falta de ventilação.",
     dica: "🏆 O melhor manejo reproduz a combinação natural de umidade com oxigenação. Monte-a ou use recipiente raso, mantenha o rizoma exposto e proporcione ventilação contínua. A fragrância e a floração aparecem melhor em plantas maduras e bem iluminadas, sem necessidade de submeter a planta a frio forte. No litoral quente, noites ventiladas e suporte que não acumule calor são mais importantes que tentar baixar drasticamente a temperatura.",
     revisaoCientificaIAR: {
         "nome": "Bulbophyllum ambrosia",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma pequena orquídea asiática que compensa o porte discreto com um perfume surpreendente! Bulbophyllum ambrosia forma pseudobulbos espaçados sobre um rizoma rastejante e produz, geralmente, uma única flor clara de cerca de 2,8 cm, delicadamente marcada por tons rosados ou avermelhados. Seu grande destaque é a fragrância doce e intensa, característica que combina muito bem com o",
+        "statusTaxonomico": "Bulbophyllum ambrosia (Hance) Schltr. (1919), espécie aceita em POWO, com duas subespécies reconhecidas.",
+        "sinonimosPrincipais": "Eria ambrosia Hance (1883), sinônimo homotípico; B. amygdalinum e B. watsonianum são sinônimos heterotípicos da subespécie ambrosia.",
+        "morfologiaDimensoes": "Miniatura epífita ou litófita com rizoma rastejante, pseudobulbos espaçados e unifoliados, flores solitárias claras com marcas rosadas e perfume doce; tamanho floral próximo de 2,8 cm citado em horticultura, sem medição independente nesta passagem.",
         "habitatAltitudeClima": "Florestas, calcário e rochas musgosas · 300–1.300 m | Quente a fresco · úmido e ventilado",
-        "distribuicaoGeografica": "Nepal, Assam, S China, Laos e Vietnã",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "distribuicaoGeografica": "Nepal, Assam, sul e sudeste da China, Hainan, Laos e Vietnã (POWO).",
+        "cultivoPremiacao": "Orquidário Mogi Mirim recomenda montagem em placa/cortiça ou pinus fino, esfagno, perlita e carvão para a espécie; orientação qualitativa, não ensaio.",
         "confianca": "alta",
         "fontes": [
             "POWO/Kew",
@@ -282,7 +282,7 @@ export const bulbophyllumAmbrosia = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Boa A espécie possui populações de baixa a média altitude e pode crescer bem no litoral, mas exige ventilação intensa e meio aberto para compensar noites quentes." },
+        litoralQuente: { texto: "A espécie possui populações de baixa a média altitude e pode crescer bem no litoral, mas exige ventilação intensa e meio aberto para compensar noites quentes." },
         montanhaFrio: { texto: "Muito boa em condições intermediárias a frescas, desde que protegida de frio extremo e de secagem prolongada." }
     },
     mesesFloracao: [6, 7, 8],
