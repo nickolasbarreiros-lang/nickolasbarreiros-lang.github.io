@@ -72,7 +72,7 @@ export const polystachyaConcreta = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso pequeno",
         resumo: "Mistura de casca de pinus, carvão e perlita que sustenta a touceira e seca sem permanecer saturada.",
-        justificativa: "A receita visual para vaso pequeno e bem perfurado combina casca de pinus média, carvão vegetal e perlita grossa. A receita textual principal coincide com a composição visual; chips de coco aparecem apenas em uma das duas alternativas qualitativas, não na receita principal. As referências botânicas e florísticas apoiam o hábito epífito, mas não validam estes percentuais nem o ranking de recipientes. Proposta ainda não homologada pela MACS 1.1.",
+        justificativa: "Polystachya concreta se beneficia de vaso pequeno e bem perfurado, com raízes ventiladas e secagem perceptível entre regas. A casca de pinus média oferece apoio, enquanto o carvão vegetal e a perlita grossa mantêm a mistura aberta e drenante. Observe a umidade junto às raízes e ajuste as regas ao crescimento, evitando compactação e encharcamento prolongado.",
         receitaTexto: "45% casca de pinus média + 30% carvão vegetal + 25% perlita grossa.",
         perfil: ["Epífita cespitosa", "Raízes compactas", "Boa aeração", "Drenagem rápida", "Umidade moderada"],
         comportamento: [
