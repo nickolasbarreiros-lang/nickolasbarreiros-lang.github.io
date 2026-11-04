@@ -14,7 +14,7 @@ export const rodricidium = {
         "Hastes arqueadas",
         "Floração abundante",
         "Boa rusticidade",
-        "Substrato deve secar em 1–2 dias",
+        "Secagem ajustada ao recipiente e ambiente",
         "Replante somente com brotos/raízes novas"
     ],
     "fotos": [
@@ -39,24 +39,24 @@ export const rodricidium = {
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade na borda do vaso.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 10–15 dias durante crescimento.\n🌸 Pré-floração: pode-se alternar ocasionalmente com fórmula mais rica em fósforo/potássio, sem exageros.\n🧪 Liberação lenta: Osmocote em dose baixa.\n🚿 Lavagem: água pura periodicamente para reduzir sais.",
     "rega": "Regue quando a superfície secar e permita que a mistura perca a maior parte do excesso em 1–2 dias. No frio, aumente o intervalo conforme a evaporação, sem permitir enrugamento severo dos pseudobulbos.",
     "suporte": "🥇 Cachepô pequeno e bem vazado — máxima ventilação.\n🥈 Placa de madeira dura — excelente em ambiente úmido.\n🥉 Vaso pequeno de barro ou plástico furado — opção prática.\nUse recipiente proporcional ao sistema radicular.",
-    substrato: ["Casca de pinus média + perlita grossa + argila expandida pequena + pequena fração de esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de fibra de coco grossa preparada"],
+    substrato: ["40% casca de pinus média + 30% argila expandida pequena + 20% chips de coco médios preparados + 10% esfagno de fibra longa solto","40% casca de macadâmia média + 30% casca de pinus média + 20% chips de coco médios preparados + 10% carvão vegetal médio"],
     formasCultivo: {
         perfilVisual: "rodricidium-hibrido-simpodial-epifita",
         destaque: "Cachepô de Madeira",
         resumo: "Híbrido intergenérico de porte variável, com pseudobulbos e raízes que exigem circulação de ar. Cachepô pequeno e muito vazado favorece secagem rápida, sem ressecamento prolongado.",
         metodos: [
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô pequeno e bem vazado, com mistura grossa, secagem monitorada e espaço para novas frentes." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Madeira dura ou cortiça em ambiente úmido, com regas ajustadas à secagem." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e perfurado, com substrato aberto e rizoma acima da superfície." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e muito furado, sem retenção excessiva no centro." }
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Mais recomendado na ficha", texto: "Cachepô pequeno e bem vazado, com mistura grossa, secagem monitorada e espaço para novas frentes." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Alternativa", texto: "Madeira dura ou cortiça em ambiente úmido, com regas ajustadas à secagem." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa", texto: "Vaso pequeno e perfurado, com substrato aberto e rizoma acima da superfície." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa", texto: "Vaso pequeno e muito furado, sem retenção excessiva no centro." }
         ]
     },
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para cachepô pequeno e ventilado",
         resumo: "Partículas médias e grossas com boa oxigenação e retenção moderada. Observar a secagem real conforme o grex, o recipiente e o ambiente, sem fixar prazo universal.",
-        justificativa: "Rodricidium é notogênero de híbridos Oncidium × Rodriguezia, sem grex ou parentais específicos identificados. A receita visual para cachepô de madeira vazado combina pinus médio, chips de coco médios preparados, perlita grossa e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não originam esses percentuais. Ajustar a retenção e as regas à resposta das raízes; secagem em 1–2 dias não é requisito universal. MACS 1.1: inferência horticultural geral, não homologada quantitativamente",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa compatível com o recipiente + 10% carvão vegetal médio (proposta não homologada).",
+        justificativa: "Rodricidium é notogênero de híbridos Oncidium × Rodriguezia, sem grex ou parentais específicos identificados. A receita visual para cachepô de madeira vazado combina pinus médio, chips de coco médios preparados, perlita grossa e carvão vegetal médio, totalizando 100%. As duas outras misturas são propostas editoriais quantificadas distintas, sem validação comparativa. Ajustar a retenção e as regas à resposta das raízes; secagem em 1–2 dias não é requisito universal. MACS 1.1: inferência horticultural geral, não homologada quantitativamente",
+        receitaTexto: "35% casca de pinus média + 30% chips de coco médios preparados + 25% argila expandida pequena + 10% carvão vegetal médio (proposta não homologada).",
         perfil: ["Híbrido intergenérico", "Pseudobulbos comprimidos", "Raízes epífitas", "Secagem rápida", "Ventilação alta"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -67,14 +67,14 @@ export const rodricidium = {
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta as raízes e mantém porosidade." },
             { asset: "chips-coco", nome: "Chips de coco médios preparados", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a manter hidratação entre regas." },
-            { asset: "perlita", nome: "Perlita grossa compatível com o recipiente", proporcao: "25%", nota: "aeração", finalidade: "Facilita secagem e oxigenação." },
+            { asset: "argila-expandida", nome: "Argila expandida pequena", proporcao: "25%", nota: "aeração", finalidade: "Facilita secagem e oxigenação." },
             { asset: "carvao", nome: "Carvão vegetal médio", proporcao: "10%", nota: "drenagem", finalidade: "Contribui para a estrutura aberta." }
         ],
         alerta: "Evitar sombra profunda, vasos grandes, encharcamento, seca prolongada e enterro do rizoma. Replantar preferencialmente na emissão de novas raízes.",
-        notaEvidencia: "MACS 1.1 — Rodricidium é notogênero híbrido Oncidium × Rodriguezia, sem grex/parentais específicos identificados. Cachepô de Madeira pequeno e vazado é suporte sugerido, com estrelas heurísticas. Receita visual e textual coincidem: 35% pinus médio + 30% chips coco médios preparados + 25% perlita grossa compatível com recipiente + 10% carvão vegetal médio = 100%. Exatamente duas alternativas qualitativas distintas: pinus/perlita/argila expandida/esfagno de fibra longa solto e macadâmia/pinus/perlita/fibra de coco grossa preparada. Elas não fundamentam os percentuais visuais; justificativa anterior foi corrigida. Secagem em 1–2 dias é contextual, não universal. Sem identificação do grex, ensaio quantitativo ou consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
+        notaEvidencia: "MACS 1.1 — Rodricidium é notogênero híbrido Oncidium × Rodriguezia, sem grex/parentais específicos identificados. Cachepô de Madeira pequeno e vazado é suporte sugerido, com estrelas heurísticas. Receita visual e textual coincidem: 35% pinus médio + 30% chips coco médios preparados + 25% perlita grossa compatível com recipiente + 10% carvão vegetal médio = 100%. Exatamente duas alternativas editoriais: pinus/argila expandida/chips coco/esfagno (40/30/20/10) e macadâmia/pinus/chips coco/carvão (40/30/20/10), sem validação comparativa. Secagem em 1–2 dias é contextual, não universal. Sem identificação do grex, ensaio quantitativo ou consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
     },
     "errosComuns": "Sombra excessiva; vaso grande; substrato compactado; encharcamento; seca prolongada; cortar haste verde; replantar fora da brotação; pouca ventilação; adubo forte; enterrar rizoma.",
-    "dica": "O melhor momento de replante é quando a nova frente começa a emitir raízes. Faça a troca nesse exato estágio e use recipiente pequeno, muito aerado e substrato que seque em 1–2 dias. Isso reduz drasticamente o tempo de recuperação.",
+    "dica": "O melhor momento de replante é quando a nova frente começa a emitir raízes. Faça a troca nesse exato estágio e use recipiente pequeno, muito aerado e substrato aberto cuja secagem possa ser monitorada. Isso reduz drasticamente o tempo de recuperação.",
     revisaoCientificaIAR: {
         "nome": "Rodricidium (Rdcm.)",
         "statusTaxonomico": "Híbrido identificado apenas no nível de notogênero; grex/parentais não informados.",
@@ -213,7 +213,7 @@ export const rodricidium = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, adapta-se muito bem com luz filtrada alta, ventilação constante e substrato de secagem rápida.",
+        "litoralQuente": "Em clima quente, adapta-se muito bem com luz filtrada alta, ventilação constante e substrato de secagem rápida.",
         "montanhaFrio": "Cultivo favorável; proteja de geadas e evite substrato frio e encharcado."
     },
     "mesesFloracao": [
