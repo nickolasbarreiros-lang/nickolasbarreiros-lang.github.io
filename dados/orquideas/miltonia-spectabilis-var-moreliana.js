@@ -52,7 +52,7 @@ export const miltoniaSpectabilisVarMoreliana = {
         titulo: "Substrato ideal",
         contexto: "Mistura aerada para vaso raso tipo cuia",
         resumo: "Umidade regular, granulometria média e excelente drenagem para raízes delicadas, sem compactação ou saturação prolongada.",
-        justificativa: "A receita principal para vaso raso tipo cuia combina pinus médio, chips de coco pequenos preparados, perlita com granulometria compatível com as raízes e carvão vegetal. Orquidário 4 Estações recomenda musgo novo em vaso plástico e Orquidário Thomes aceita substratos variados com boa aeração; nenhuma das fontes testa os percentuais desta mistura. As duas alternativas qualitativas são composições distintas e não equivalem à receita principal. O rizoma expansivo requer espaço lateral e as raízes capilares exigem partículas proporcionais ao vaso, sem presumir que perlita grossa seja sempre adequada. Manter umidade regular e aeração sem saturação. MACS 1.1: percentuais provisórios sem homologação quantitativa específica",
+        justificativa: "Miltonia spectabilis var. moreliana apresenta rizoma expansivo e raízes delicadas, exigindo espaço lateral e substrato bem ventilado. Em vaso raso tipo cuia, a casca de pinus oferece estrutura, os chips de coco pequenos preparados ajudam a conservar umidade e a perlita e o carvão favorecem a aeração. Escolha granulometria proporcional às raízes e mantenha umidade regular sem saturação.",
         receitaTexto: "35% casca de pinus média + 30% chips de coco pequenos preparados + 25% perlita de granulometria compatível com as raízes + 10% carvão vegetal.",
         perfil: ["Epífita simpodial", "Rizoma expansivo", "Raízes capilares", "Vaso raso", "Umidade regular"],
         comportamento: [
