@@ -10,7 +10,7 @@ export const anathallisSclerophylla = {
     regiao: "México · América Central · América do Sul (incl. Brasil)",
     habitat: "Epífita de florestas úmidas e nebulosas, cerca de 480–3.100 m.",
     clima: "Intermediário a fresco, úmido e muito ventilado.",
-    descricao: "Anathallis sclerophylla é uma pequena orquídea de aparência elegante, marcada por folhas firmes e coriáceas e por hastes florais finas que se elevam muito acima da folhagem. Quando adulta, pode produzir racemos longos com numerosas flores claras abertas ao mesmo tempo, criando um efeito delicado e bastante ornamental. As flores, em tons esbranquiçados a creme, possuem sépalas estreitas e alongadas e podem apresentar fragrância. Apesar do porte discreto, é uma espécie de ampla distribuição e grande amplitude altitudinal, encontrada desde ambientes relativamente quentes até florestas montanas e nebulosas.",
+    descricao: "Anathallis sclerophylla é uma pequena orquídea de aparência elegante, marcada por folhas firmes e coriáceas e por hastes florais finas que se elevam muito acima da folhagem. Quando adulta, pode produzir racemos longos com numerosas flores claras abertas ao mesmo tempo, criando um efeito delicado e bastante ornamental. As flores, em tons esbranquiçados a creme, possuem sépalas estreitas e alongadas e podem apresentar fragrância. Apesar do porte discreto, é uma espécie de ampla distribuição e grande amplitude altitudinal, encontrada desde ambientes relativamente quentes até florestas montanas e nebulosas. Em cultivo, sua arquitetura epífita pede atenção ao equilíbrio entre umidade frequente e ventilação, especialmente ao redor das raízes finas.",
     caracteristicas: [
         "Miniatura a pequeno porte",
         "Haste floral longa",
