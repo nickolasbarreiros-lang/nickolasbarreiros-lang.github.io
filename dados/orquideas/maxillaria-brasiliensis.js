@@ -41,10 +41,10 @@ export const maxillariaBrasiliensis = {
         destaque: "Vaso de Barro",
         resumo: "Epífita compacta de raízes finas e sensíveis a abafamento. Prefere vaso pequeno e bem furado, mistura aerada com umidade moderada e estabilidade da touceira.",
         metodos: [
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno e muito perfurado, apenas um pouco maior que a touceira, para secagem uniforme." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô vazado com mistura de partículas médias e umidade regular." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Cortiça ou madeira durável somente com umidade ambiental e regas suficientes para evitar desidratação rápida." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Vaso pequeno e muito vazado, sem substrato compacto ou centro permanentemente úmido." }
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Mais recomendado na ficha", texto: "Vaso pequeno e muito perfurado, apenas um pouco maior que a touceira, para secagem uniforme." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa", texto: "Cachepô vazado com mistura de partículas médias e umidade regular." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Uso condicional", texto: "Cortiça ou madeira durável somente com umidade ambiental e regas suficientes para evitar desidratação rápida." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa", texto: "Vaso pequeno e muito vazado, sem substrato compacto ou centro permanentemente úmido." }
         ]
     },
     substratoVisual: {
@@ -67,7 +67,7 @@ export const maxillariaBrasiliensis = {
             { asset: "fibra-coco", nome: "Fibra de coco grossa preparada", proporcao: "15%", nota: "reserva hídrica", finalidade: "Complementa a umidade sem formar massa compacta." }
         ],
         alerta: "Evitar vaso grande, substrato degradado ou encharcado, rizoma enterrado, divisões frequentes e seca prolongada. Replantar preferencialmente com novas raízes em emissão.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Maxillaria brasiliensis (sin. Heterotaxis brasiliensis), epífita compacta de raízes finas, exige umidade moderada, drenagem, ventilação e estabilidade da touceira. Vaso de Barro pequeno e perfurado é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 30% macadâmia média + 30% pinus médio + 25% perlita de granulometria compatível com raízes finas + 15% fibra de coco grossa preparada = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/pinus/perlita/carvão pequeno e pinus/perlita/pouco esfagno de fibra longa solto/macadamia. Elas não fundamentam os percentuais visuais; justificativa anterior de equivalência foi corrigida. Monitorar secagem em vaso pequeno de barro, retenção da fibra e integridade de raízes finas. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
+        notaEvidencia: "MACS 1.1 — revisão documental: Maxillaria brasiliensis (sin. Heterotaxis brasiliensis), epífita compacta de raízes finas, exige umidade moderada, drenagem, ventilação e estabilidade da touceira. Vaso de Barro pequeno e perfurado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 30% macadâmia média + 30% pinus médio + 25% perlita de granulometria compatível com raízes finas + 15% fibra de coco grossa preparada = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/pinus/perlita/carvão pequeno e pinus/perlita/pouco esfagno de fibra longa solto/macadamia. Elas não fundamentam os percentuais visuais; justificativa anterior de equivalência foi corrigida. Monitorar secagem em vaso pequeno de barro, retenção da fibra e integridade de raízes finas. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente"
     },
     errosComuns: "Manter substrato constantemente encharcado; esperar a mistura virar farelo; usar vaso grande; dividir a touceira em porções pequenas; enterrar o rizoma; cultivar com pouca luz ou ventilação; aplicar excesso de nitrogênio; fertilizar raízes secas; deixar acumular sais; impor seca prolongada.",
     dica: "Preserve a touceira e priorize a saúde das raízes. A espécie prefere vasos relativamente justos, que secam de forma mais uniforme e evitam excesso de umidade ao redor das raízes. Replante somente no início da emissão de novas raízes, mantendo o rizoma sobre a superfície e escolhendo um recipiente apenas 2–4 cm maior que o volume atual da planta. Evite vasos superdimensionados, divisões frequentes e replantes desnecessários: esta espécie responde melhor à estabilidade e ao desenvolvimento de uma touceira bem estabelecida.",
@@ -208,8 +208,8 @@ export const maxillariaBrasiliensis = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Ao litoral quente quando cultivada com ventilação constante, vaso justo e substrato estrutural. Regue cedo e evite retenção prolongada no centro do vaso." },
-        montanhaFrio: { texto: "Em regiões serranas. Em semanas frias e úmidas, aumente o intervalo entre regas, mantendo circulação de ar e sem impor seca prolongada." }
+        litoralQuente: { texto: "Em clima quente, cultivar com ventilação constante, vaso justo e substrato estrutural. Regue cedo e evite retenção prolongada no centro do vaso." },
+        montanhaFrio: { texto: "Em clima de montanha, durante semanas frias e úmidas, aumente o intervalo entre regas, mantendo circulação de ar e sem impor seca prolongada." }
     },
     mesesFloracao: [3, 4, 5],
     "selosCultivo": {
