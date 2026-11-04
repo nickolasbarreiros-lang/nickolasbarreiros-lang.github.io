@@ -56,7 +56,7 @@ export const cattleyaWalkeriana = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para recipiente muito ventilado; em placa não há mistura volumétrica",
         "resumo": "Para recipiente aberto, pinus grosso, carvão e brita em partes iguais; montagem em madeira continua preferencial.",
-        "justificativa": "Montagem em placa/tronco permanece principal. Para cachepô aberto, Jardineiro.net publica para C. walkeriana partes iguais de pinus, carvão e brita; é orientação específica de divulgação especializada, não ensaio experimental nem recomendação de orquidário. Estudo do IFPB testou materiais em suportes de madeira e observou melhor crescimento com esfagno nas condições avaliadas, sem testar esta mistura. A receita anterior de macadâmia/perlita/carvão não possuía comprovação quantitativa específica.",
+        "justificativa": "Cattleya walkeriana se adapta bem à montagem em placa ou tronco, que mantém as raízes expostas e bem ventiladas. Para cachepô aberto, uma mistura de casca de pinus grossa, carvão vegetal e brita fina oferece apoio com drenagem rápida. Evite compactar os materiais e ajuste as regas à secagem das raízes, principalmente durante a emissão de novos crescimentos.",
         "receitaTexto": "Partes iguais (1:1:1 em volume): 33,3% casca de pinus grossa + 33,3% carvão vegetal + 33,4% brita fina (ajuste de arredondamento para 100%).",
         "perfil": ["Raízes epífitas", "Aeração muito alta", "Secagem rápida", "Repouso sazonal mais seco", "Rizoma exposto"],
         "comportamento": [
