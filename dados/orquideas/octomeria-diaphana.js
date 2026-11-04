@@ -10,7 +10,7 @@ export const octomeriaDiaphana = {
         "Miniatura epífita",
         "Crescimento cespitoso",
         "Sem pseudobulbos evidentes",
-        "Flores pequenas em fascículos",
+        "Uma a quatro flores brancas e diáfanas por fascículo",
         "Raízes finas"
     ],
     "fotos": [
@@ -19,7 +19,7 @@ export const octomeriaDiaphana = {
         "imagens/Octomeria diaphana/Octomeria diaphana3.jpg",
         "imagens/Octomeria diaphana/Octomeria diaphana4.jpg"
     ],
-    "descricao": "Uma delicada Octomeria brasileira que mostra sua beleza nos detalhes. Forma pequenas touceiras de hastes finas, cada uma terminando em uma folha estreita e firme. Junto à base da folha surgem flores minúsculas e translúcidas, que ficam muito mais interessantes quando dezenas de hastes florescem ao mesmo tempo. Na natureza aparece sobre troncos e galhos musgosos de florestas úmidas, inclusive na Serra dos Órgãos. Gosta de sombra clara, umidade regular e bastante circulação de ar.",
+    "descricao": "Octomeria diaphana é uma orquídea epífita brasileira que forma touceiras de ramicaules finos, revestidos por bainhas sobrepostas, cada um terminado em uma folha firme e estreita. Perto da base das folhas aparecem pequenos fascículos de uma a quatro flores brancas e translúcidas, com uma discreta mancha vinho no labelo. Embora as hastes florais sejam curtíssimas, as peças florais podem alcançar mais de um centímetro, criando um efeito delicado quando vários brotos florescem juntos. A espécie habita florestas úmidas do Sudeste e Sul do Brasil, incluindo ambientes montanos e matas próximas ao litoral.",
     "origem": "Brasil",
     "regiao": "Sul e Sudeste do Brasil",
     "habitat": "Matas úmidas · troncos musgosos.",
@@ -28,10 +28,10 @@ export const octomeriaDiaphana = {
     "iluminacao": {
         "sombrite": "60% a 75%",
         "solDireto": "Não permitido",
-        "horario": "",
+        "horario": "Não permitido",
         "observacoes": "Sombra clara. Folhas muito alongadas e escuras sugerem pouca luz; tonalidade amarelada ou pontas secas indicam exposição excessiva."
     },
-    "floracao": "A floração ocorre principalmente no fim da primavera e início do verão. As inflorescências são extremamente curtas, com cerca de 3–5 mm, e normalmente carregam uma flor por vez junto à base da folha. O valor ornamental está na touceira: plantas antigas produzem muitas flores simultaneamente e revelam muito mais do que pequenas divisões.",
+    "floracao": "A floração foi documentada entre novembro e maio em estudo brasileiro; as inflorescências são muito curtas, cerca de 3–5 mm, e podem produzir fascículos com uma a quatro flores brancas junto à base da folha. O valor ornamental está na touceira: plantas antigas produzem muitas flores simultaneamente e revelam muito mais do que pequenas divisões.",
     "adubacao": "🌿 Orgânica: use quantidade mínima de Bokashi em sachê no topo do suporte, longe dos ramicaules.\n💧 Foliar/mineral: NPK equilibrado ultradiluído, entre 1/5 e 1/4 da dose, a cada 15 dias durante o crescimento.\n🚿 Flushing: lave abundantemente o suporte com água pura a cada 2–4 semanas, conforme a frequência de adubação e a qualidade da água.\n🧪 Liberação lenta: não recomendada para raízes capilares tão sensíveis.",
     "rega": "Por não possuir pseudobulbos, necessita de umidade regular. Em placas, regue diariamente no verão ou antes que a fina camada de esfagno seque completamente por vários dias. O suporte deve permanecer úmido apenas o suficiente para hidratar as raízes, mas com circulação de ar constante. Pontas secas podem indicar ar muito seco, excesso de sais ou raízes comprometidas. Brotações escurecendo pela base sugerem abafamento, substrato velho ou água parada nas axilas.",
     "suporte": "🥇 Placa de cortiça ou madeira dura com uma camada fina de esfagno: suporte ideal e permanente.\n🥈 Pequeno cesto de madeira: permite formar almofadas compactas com boa aeração.\n🥉 Cuia plástica rasa e perfurada: útil apenas em ambientes de umidade mais baixa.\nEvite trocas frequentes de suporte depois que a planta se fixar.",
@@ -66,18 +66,18 @@ export const octomeriaDiaphana = {
             { asset: "perlita", nome: "Perlita de granulometria adequada a miniaturas", proporcao: "30%", nota: "aeração", finalidade: "Mantém a mistura porosa e drenante." }
         ],
         alerta: "Preservar a touceira inteira e evitar mudanças de suporte após fixação. Não compactar esfagno, permitir seca completa por vários dias ou aplicar adubação concentrada.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Octomeria diaphana, miniatura epífita cespitosa sem pseudobulbos evidentes, raízes finas e necessidade de umidade regular; montagem principal em placa/tronco com lâmina fina de esfagno. Suportes placa/tronco 5 estrelas, cachepô madeira 4, plástico vasado 3, barro 2; não homologados. Receita visual alternativa para recipiente 40% chips coco pequenos + 30% pinus fino + 30% perlita grossa = 100%; receitaTexto e itens concordam. A receita principal visual e textual coincidem; as duas alternativas qualitativas são distintas e não são tratadas como origem dos percentuais. Validar adequação de perlita grossa às raízes finas, retenção de chips e secagem em cuia/cesto; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Octomeria diaphana Lindl. (1839), nome aceito em POWO. Estudo brasileiro de Octomeria no Paraná descreve fascículos com 1–4 flores brancas diáfanas e bainhas imbricadas; CNCFlora registra ocorrência em Sudeste e Sul, altitude de planícies costeiras a montanhas e floração entre novembro e maio. Orquidário Aparecida possui anúncio específico, mas sem receita de substrato; orientações gerais do SENAR e ESALQ não homologam percentuais. Nenhuma receita quantitativa específica identificada nesta passagem. miniatura epífita cespitosa sem pseudobulbos evidentes, raízes finas e necessidade de umidade regular; montagem principal em placa/tronco com lâmina fina de esfagno. Suportes placa/tronco 5 estrelas, cachepô madeira 4, plástico vasado 3, barro 2; não homologados. Receita visual alternativa para recipiente 40% chips coco pequenos + 30% pinus fino + 30% perlita de granulometria adequada = 100%; receitaTexto e itens concordam. A receita principal visual e textual coincidem; as duas alternativas qualitativas são distintas e não são tratadas como origem dos percentuais. Validar adequação de perlita grossa às raízes finas, retenção de chips e secagem em cuia/cesto; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     "errosComuns": "❌ Dividir a touceira em 1 ou 2 ramicaules.\n❌ Permitir seca completa por vários dias.\n❌ Cultivar em vaso fundo ou substrato compacto.\n❌ Aplicar adubo forte ou deixar sais acumularem.\n❌ Deixar água parada nas axilas durante noites frias.\n❌ Retirar folhas antigas ainda verdes, que continuam ajudando na reserva hídrica.\n❌ Manipular a planta durante a emissão de novos ramicaules.\n❌ Manter em ambiente sem circulação de ar.",
     "dica": "Preserve a touceira inteira. Se a divisão for inevitável, mantenha pelo menos 5–6 ramicaules vigorosos e enraizados. Monte em madeira ou cortiça com uma lâmina fina de esfagno, deixando as raízes respirar, e evite mudar o suporte depois da fixação. Não retire folhas verdes antigas nem manipule a planta durante o crescimento. Quanto mais antiga e densa a touceira, maior o número de fascículos e mais evidente o efeito de nuvem de flores diáfanas.",
     revisaoCientificaIAR: {
         "nome": "Octomeria diaphana",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma delicada Octomeria brasileira que mostra sua beleza nos detalhes. Forma pequenas touceiras de hastes finas, cada uma terminando em uma folha estreita e firme. Junto à base da folha surgem flores minúsculas e translúcidas, que ficam muito mais interessantes quando dezenas de hastes florescem ao mesmo tempo. Na natureza aparece sobre troncos e galhos musgosos de florestas úmi",
-        "habitatAltitudeClima": "Matas úmidas · troncos musgosos. | Quente a fresco · úmido.",
+        "statusTaxonomico": "Octomeria diaphana Lindl. (1839), espécie aceita em POWO; ocorrência brasileira no Sudeste e Sul.",
+        "sinonimosPrincipais": "Octomeria recchiana, O. glazioveana e O. fialhoensis são nomes associados historicamente ao complexo; o tratamento sinonímico difere entre bases, e POWO mantém alguns como espécies aceitas.",
+        "morfologiaDimensoes": "Epífita cespitosa, ramicaules finos com bainhas imbricadas e lateralmente comprimidas, folhas apicais estreitas; fascículos de 1–4 flores brancas diáfanas com mancha vinho basal no labelo (Rodriguésia, estudo do Paraná). IOSPE cita flor de até 2,5 cm e inflorescência de 3–5 mm.",
+        "habitatAltitudeClima": "Florestas úmidas e ciliares, montanas e também planícies costeiras; registros do CNCFlora de nível do mar a 1.300 m, epífita sobre troncos e galhos musgosos.",
         "distribuicaoGeografica": "Sul e Sudeste do Brasil.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "cultivoPremiacao": "Orquidário Aparecida lista a espécie sem receita de substrato; orientações de ESALQ e SENAR são gerais para epífitas, não homologam a fórmula visual.",
         "confianca": "media",
         "fontes": [
             "POWO/Kew",
@@ -207,13 +207,17 @@ export const octomeriaDiaphana = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, cultive no setor mais fresco e sombreado do orquidário, sob 70–75% de sombrite, com ventilação constante. Regue pela manhã; em dias muito quentes, aumente a umidade ao redor sem engrossar o esfagno nem manter a base abafada.",
+        "litoralQuente": "Em clima quente, cultive no setor mais fresco e sombreado do orquidário, sob 70–75% de sombrite, com ventilação constante. Regue pela manhã; em dias muito quentes, aumente a umidade ao redor sem engrossar o esfagno nem manter a base abafada.",
         "montanhaFrio": "Excelente adaptação. Proteja de geadas e ventos ressecantes. Em semanas frias e nubladas, reduza a frequência das regas, mas não permita seca total."
     },
     "mesesFloracao": [
-        10,
         11,
-        12
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
     ],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
