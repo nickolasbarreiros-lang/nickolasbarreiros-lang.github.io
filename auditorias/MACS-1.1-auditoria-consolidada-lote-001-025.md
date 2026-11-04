@@ -164,3 +164,19 @@ Ordem baseada em `export const orquideas` no arquivo oficial `dados/orquideas/in
 - Nenhuma conclusão de homologação científica foi inferida de soma de 100%, estrelas já cadastradas, ou simples citação de instituições.
 - **Ação:** registrar as lacunas sem substituir receitas nem apagar estrelas previamente publicadas nesta etapa exclusivamente documental. Antes de qualquer aprovação definitiva, exigir confronto individual com referências botânicas e produtores brasileiros, fundamentação de ingredientes/proporções e tratamento explícito das notas dos suportes.
 - A conferência local de fotografias, assets e execução de JavaScript permanece reservada à etapa final combinada.
+
+## Confronto científico individual — ficha 1: Anathallis sclerophylla (2026-11-04)
+**Fontes verificadas**
+1. POWO/Kew, Stelis sclerophylla (nome aceito, sinônimo Anathallis sclerophylla, distribuição e hábito): https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77142174-1
+2. POWO/Kew, informações gerais: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77142174-1/general-information — epífita, floresta tropical úmida; para populações colombianas há registros de 1.980–3.100 m, não necessariamente limite altitudinal global.
+3. Sinopse das Orchidaceae do Parque Nacional de Boa Nova (Hoehnea/Scielo), descrição morfológica e ocorrência no Brasil: https://www.scielo.br/j/hoehnea/a/3ny9LMzTztYwyQJJnmJQ5tL/?lang=pt
+4. Sinopse das Orchidaceae da Serra do Urubu (Hoehnea/Scielo), ocorrência epífita e caracteres: https://www.scielo.br/j/hoehnea/a/gxrsfdjcyRQh8ck3RX8c3rg/?lang=en
+5. American Orchid Society, princípios gerais de cultivo em placas e esfagno: https://www.aos.org/orchid-care/orchid-care-basics/mounting
+
+**Constatações:**
+- Taxonomia e hábito epífito confirmados por POWO; distribuição anteriormente informada como México e América Central **não é respaldada** pela distribuição da espécie no POWO. Corrigidos os campos `origem`, `regiao` e `revisaoCientificaIAR.distribuicaoGeografica` no arquivo da ficha.
+- Montagem com aeração e esfagno solto é compatível com recomendações **gerais** da AOS; não é ensaio comparativo para a espécie nem prova de que placa/tronco seja superior em qualquer microclima.
+- Os valores **35% pinus + 30% casca de arroz carbonizada + 20% esfagno + 15% carvão** continuam uma hipótese horticultural (soma 100%), **não** receita quantitativa homologada por pesquisa específica.
+- Não foi localizada/compilada nesta passagem uma amostra documentada de produtores brasileiros para confrontar percentuais e suporte. **MACS 1.1: Classe D, não homologada quantitativamente**; estrelas permanecem nulas.
+- As notas IDC 3.2 e IAR 2.0 não foram recalculadas nesta passagem, pois fontes sobre ocorrência e hábito, isoladamente, não validam as notas de adaptação regional.
+**Situação:** ficha 1 em revisão científica individual, ainda **não homologada integralmente**; não iniciar homologação da ficha 2 antes de resolver as lacunas desta.
