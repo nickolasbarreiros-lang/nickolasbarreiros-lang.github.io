@@ -47,3 +47,11 @@ Após commit f4d5b7eaf5c0af8a9b8ad1f4f7c10d6ec3d0ca26, releitura da ficha no Git
 
 ## Atualização das alternativas — 2026-11-03
 Commit 78e5ff75323ed49da728a65bdf37f68b1a3048fd: alternativas B e C receberam percentuais **estimados**, respectivamente 55/25/20 e 45/30/25, por volume. São hipóteses editoriais, não valores derivados de ensaio ou fonte quantitativa da espécie. Sensibilidade: B com 20% esfagno pode permanecer excessivamente úmida em ambiente frio/úmido; C depende do condicionamento dos chips de coco e da condutividade. Reavaliar rega e ventilação por recipiente. A classificação D permanece. Os identificadores dos oito assets (quatro ingredientes e quatro métodos) foram encontrados no catálogo js/biblioteca-cultivo-v4.js; isso não verifica a existência física dos oito arquivos de imagem. A inspeção no navegador não foi executada.
+
+## Verificação de arquivos reais — 2026-11-03
+Consulta aos diretórios pela API GitHub confirmou existência dos seguintes arquivos usados na ficha:
+- Método específico: imagens/cultivo-v4/especies/acianthera-bragae/placa-tronco.webp
+- Métodos genéricos: imagens/cultivo-v4/arvore-viva-v3.webp; imagens/cultivo-v4/cesto-madeira-v3.webp; imagens/cultivo-v4/vaso-plastico-vasado-v2.webp
+- Ingredientes: imagens/cultivo-v4/casca-pinus.webp; imagens/cultivo-v4/casca-arroz-carbonizada.webp; imagens/cultivo-v4/carvao-vegetal.webp; imagens/cultivo-v4/esfagno.webp
+- Fotos da espécie: imagens/Acianthera bragae/Acianthera bragae1.jpg a Acianthera bragae4.jpg (quatro nomes conferidos).
+Total: 12 arquivos presentes nos diretórios. Não é prova de carregamento/renderização no navegador. Estado de homologação científica continua D.
