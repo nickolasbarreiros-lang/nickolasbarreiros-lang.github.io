@@ -56,7 +56,7 @@ export const oncidiumPumilum = {
         titulo: "Substrato ideal",
         contexto: "Mistura mineral e muito aerada para cultivo em recipiente",
         resumo: "A montagem principal em placa não requer mistura volumosa. Em cachepô pequeno e vazado ou vaso pequeno bem furado, priorizar casca e carvão com pequena fração de coco e perlita para manter aeração e secagem entre regas.",
-        justificativa: "MACS 1.1: revisão conservadora da antiga mistura com 65% de perlita e brita, cuja superioridade não foi documentada. Pinus, carvão e coco têm propriedades gerais descritas pela ESALQ/USP; a combinação e os percentuais são inferenciais, não receitas publicadas especificamente para Trichocentrum pumilum. Placa/tronco permanece cultivo principal sem mistura volumétrica.",
+        justificativa: "Esta miniatura se beneficia de montagem em placa ou tronco, com raízes expostas e ventilação constante. Para cultivo em recipiente pequeno, a casca de pinus oferece apoio, o carvão e a perlita mantêm a mistura aberta e os chips de coco preparados ajudam a conservar alguma umidade. Ajuste a granulometria ao porte das raízes e observe a secagem para evitar encharcamento.",
         receitaTexto: "55% casca de pinus pequena/média + 25% carvão vegetal pequeno + 10% chips de coco lavados + 10% perlita grossa.",
         perfil: ["Miniatura epífita", "Touceira densa", "Raízes aeradas", "Secagem rápida", "Pouca retenção"],
         comportamento: [
