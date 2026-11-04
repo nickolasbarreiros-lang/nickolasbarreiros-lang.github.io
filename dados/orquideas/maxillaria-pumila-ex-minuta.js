@@ -210,7 +210,7 @@ export const maxillariaPumilaExMinuta = {
     },
     "adaptacaoRegional": {
         "litoralQuente": "Em clima quente, mantenha acima de 60% de umidade relativa, sombra clara e ventilação constante. Montagens podem exigir rega diária no verão.",
-        "montanhaFrio": "Em Santa Teresa/ES, adapta-se bem às noites frescas. Reduza a frequência apenas em semanas frias e úmidas e proteja de geada."
+        "montanhaFrio": "Em ambiente de montanha, adapta-se às noites frescas. Reduza a frequência apenas em semanas frias e úmidas e proteja de geada."
     },
     "mesesFloracao": [9, 10, 11, 12, 1, 2],
     "selosCultivo": {
