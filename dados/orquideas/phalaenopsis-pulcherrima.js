@@ -6,7 +6,7 @@ export const phalaenopsisPulcherrima = {
     nome: "Phalaenopsis pulcherrima",
     genero: "Phalaenopsis",
     tipo: "Espécie botânica litófita ou terrestre asiática",
-    dificuldade: "Fácil",
+    dificuldade: "Muito fácil",
     caracteristicas: [
         "Sin. Doritis pulcherrima",
         "Haste floral ereta",
@@ -106,7 +106,7 @@ export const phalaenopsisPulcherrima = {
         "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
         "indice": 25,
-        "classificacao": "Fácil",
+        "classificacao": "Muito fácil",
         "cultivoEstrelas": 5,
         "criterios": {
             "temperatura": {
