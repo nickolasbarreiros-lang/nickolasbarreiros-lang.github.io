@@ -46,7 +46,7 @@ export const gongoraBufonia = {
         titulo: "Substrato ideal",
         contexto: "Mistura para cesto suspenso com fundo aberto",
         resumo: "Substrato grosso e arejado, com reserva moderada de umidade para raízes ativas, sem compactação ou bloqueio das hastes.",
-        justificativa: "Gongora bufonia possui hastes florais descendentes, exigindo cesto suspenso de fundo aberto e passagem desobstruída. A receita visual para esse recipiente combina fibra de coco preparada, pinus médio, casca de arroz carbonizada e esfagno de fibra longa solto, totalizando 100%, com retenção moderada e espaços de ar. As duas alternativas são receitas editoriais distintas, 40/30/20/10 por volume, uma com macadâmia e esfagno e outra com pinus e carvão. Seus percentuais não são homologados. Não compactar esfagno nem bloquear a saída das hastes. MACS 1.1: proporções horticulturais provisórias, sem homologação quantitativa específica.",
+        justificativa: "Gongora bufonia produz hastes florais descendentes e precisa de cesto suspenso com fundo livre para a passagem das flores. A fibra de coco preparada e o esfagno solto ajudam a conservar umidade, enquanto a casca de pinus e a casca de arroz carbonizada mantêm a mistura estruturada e ventilada. Não compacte o esfagno nem bloqueie a saída das hastes; ajuste as regas à secagem observada.",
         receitaTexto: "35% fibra de coco preparada + 30% casca de pinus média + 20% casca de arroz carbonizada + 15% esfagno de fibra longa solto.",
         perfil: ["Epífita de floresta úmida", "Pseudobulbos sulcados", "Hastes pendentes", "Umidade regular", "Fundo do cesto aberto"],
         comportamento: [
