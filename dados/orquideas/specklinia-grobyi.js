@@ -56,7 +56,7 @@ export const speckliniaGrobyi = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para recipiente mínimo",
         resumo: "Na placa, apenas uma lâmina fina de esfagno sob as raízes. Em recipiente, esfagno de fibra longa muito solto e perlita grossa proporcionam umidade e ar.",
-        justificativa: "A montagem em madeira continua sendo a forma de cultivo principal, com apenas uma lâmina fina de esfagno sob as raízes. A receita percentual para recipiente mínimo usa esfagno de fibra longa muito solto e perlita grossa; é apresentada como receita principal para vaso, com exatamente duas alternativas qualitativas. Não deve ser aplicada como camada volumosa sobre a placa. Percentuais inferidos e não homologados experimentalmente pela MACS 1.1.",
+        justificativa: "Specklinia grobyi é uma micro-orquídea que pode ser mantida em madeira, com raízes ventiladas e apenas uma camada muito fina de esfagno junto à fixação. Em recipiente mínimo, o esfagno de fibra longa muito solto ajuda a conservar umidade e a perlita grossa melhora a aeração. Não transfira a mistura volumétrica do vaso para a placa: o excesso de esfagno sobre a montagem pode abafar as raízes. Observe a secagem e evite tanto a desidratação prolongada quanto o encharcamento.",
         receitaTexto: "65% esfagno de fibra longa muito solto + 35% perlita grossa.",
         perfil: ["Micro-orquídea epífita", "Raízes finas", "Umidade frequente", "Alta aeração", "Sem compactação"],
         comportamento: [
