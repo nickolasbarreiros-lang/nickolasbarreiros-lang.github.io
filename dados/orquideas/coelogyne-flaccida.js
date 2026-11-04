@@ -24,7 +24,7 @@ export const coelogyneFlaccida = {
         "imagens/Coelogyne flaccida/Coelogyne flaccida3.jpg",
         "imagens/Coelogyne flaccida/Coelogyne flaccida4.webp"
     ],
-    "descricao": "Uma Coelogyne feita para ser cultivada no alto! Coelogyne flaccida produz longos cachos pendentes de flores creme a amarelo-pálido, com o labelo desenhado por marcas castanhas e perfume bastante intenso. A planta forma touceiras de pseudobulbos agrupados e fica especialmente bonita em cestos suspensos, onde as hastes podem cair livremente. Na natureza ocorre do Himalaia ao sul da China e Indochina, em ambientes úmidos onde as noites são mais amenas. Por isso, aprecia água durante o crescimento, boa ventilação e uma redução moderada das regas após a maturação — mas sem o repouso seco severo de Coelogyne cristata.",
+    "descricao": "Coelogyne flaccida forma touceiras de pseudobulbos oblongos, geralmente com duas folhas alongadas e plissadas. Na floração, hastes arqueadas ou pendentes carregam cerca de cinco a doze flores cerosas, brancas a creme, com manchas amareladas ou castanhas no labelo. O perfume é marcante e pode ser considerado desagradável por algumas pessoas. Originária de florestas montanas do Himalaia ao sul da China e à Indochina, vive sobre árvores e ocasionalmente rochas, em locais úmidos com noites mais amenas. O contraste entre folhas elegantes e cachos delicados faz desta espécie uma presença especialmente vistosa em coleções.",
     "origem": "Himalaia e Sudeste Asiático",
     "regiao": "Nepal · Índia · sul da China · Indochina",
     "habitat": "Florestas montanas úmidas · epífita/litófita.",
@@ -55,9 +55,9 @@ export const coelogyneFlaccida = {
     "substratoVisual": {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cachepô ou recipiente suspenso e ventilado",
-        "resumo": "Casca de pinus média e perlita grossa em proporção 3:1, com aeração e secagem controlada.",
-        "justificativa": "AOS apresenta para o gênero Coelogyne mistura de casca e perlita 3:1, quantitativamente rastreável mas NÃO ensaiada especificamente em C. flaccida. Orquidário Mogi Mirim recomenda para a espécie substrato poroso e regas reduzidas no inverno, sem receita percentual. A mistura anterior com coco e esfagno não tinha validação específica; o recipiente deve permanecer ventilado, sem saturação prolongada.",
-        "receitaTexto": "75% casca de pinus média + 25% perlita grossa (3:1 em volume; referência genérica da AOS para Coelogyne).",
+        "resumo": "Casca de pinus média e perlita grossa em proporção 3:1, adaptação de receita genérica de casca de abeto (fir bark) e perlita da AOS.",
+        "justificativa": "AOS apresenta para o gênero Coelogyne mistura de CASCA DE ABETO (fir bark) e perlita 3:1; a troca por CASCA DE PINUS é adaptação de material, não transcrição literal nem ensaio específico em C. flaccida. Orquidário Mogi Mirim recomenda para a espécie substrato poroso e regas reduzidas no inverno, sem receita percentual. A mistura anterior com coco e esfagno não tinha validação específica; o recipiente deve permanecer ventilado, sem saturação prolongada.",
+        "receitaTexto": "75% casca de pinus média + 25% perlita grossa (3:1 em volume; adaptação da receita genérica da AOS com casca de abeto, não pinus).",
         "perfil": ["Raízes epífitas", "Umidade equilibrada", "Aeração alta", "Clima fresco", "Hastes florais pendentes"],
         "comportamento": [
             { "nome": "Retenção", "valor": 4, "icone": "💧" },
@@ -70,7 +70,7 @@ export const coelogyneFlaccida = {
             { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "25%", "nota": "aeração", "finalidade": "Mantém espaços de ar e reduz compactação." }
         ],
         "alerta": "Não deixar secar completamente nem manter encharcado no inverno. Evitar calor abafado, vaso profundo e obstáculos ao desenvolvimento das hastes pendentes.",
-        "notaEvidencia": "MACS 1.1: POWO aceita Coelogyne flaccida Lindl., epífita ou rupícola; BSI registra ocorrência em altitude. Orquidário Mogi Mirim recomenda para a espécie substrato poroso, rega frequente no crescimento e redução no inverno, sem percentuais. AOS apresenta para o GÊNERO Coelogyne mistura casca/perlita 3:1: https://www.aos.org/orchid-care/care-sheets/coelogyne-culture-sheet . Receita 75/25 tem referência institucional quantitativa de gênero, NÃO HOMOLOGAÇÃO específica ou experimental para C. flaccida. Duas alternativas qualitativas sem percentuais; estrelas de recipientes heurísticas. Um produtor brasileiro específico identificado na passagem documental, abaixo da meta de 25."
+        "notaEvidencia": "MACS 1.1: POWO aceita Coelogyne flaccida Lindl., epífita ou rupícola; BSI registra ocorrência em altitude. Orquidário Mogi Mirim recomenda para a espécie substrato poroso, rega frequente no crescimento e redução no inverno, sem percentuais. AOS apresenta para o GÊNERO Coelogyne mistura de casca de ABETO/perlita 3:1; a ficha adapta abeto para PINUS, sem equivalência experimental demonstrada: https://www.aos.org/orchid-care/care-sheets/coelogyne-culture-sheet . Receita 75/25 tem referência institucional quantitativa de gênero, NÃO HOMOLOGAÇÃO específica ou experimental para C. flaccida. Duas alternativas qualitativas sem percentuais; estrelas de recipientes heurísticas. Um produtor brasileiro específico identificado na passagem documental, abaixo da meta de 25."
     },
     "errosComuns": "Cultivar em calor abafado; colocar em ambiente fechado durante a floração; manter encharcada no inverno; usar vaso profundo; deixar hastes presas; apoiar o cesto baixo demais; dividir em poucas frentes; sombra excessiva; substrato compactado; deixar secar completamente; pouca ventilação.",
     "dica": "Posicione a planta em local elevado, fresco e bem ventilado antes que as hastes surjam. Deixe espaço livre abaixo e ao redor do cesto para que os cachos pendam sem deformação. A circulação de ar também reduz fungos e evita que o perfume intenso se concentre.",
