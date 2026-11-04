@@ -212,3 +212,9 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - **Fonte fotográfica taxonômica**: guia rápido da UFPR/Field Museum inclui imagens de *Anathallis sclerophylla* (itens 30 e 31). É referência de identificação visual, não licença automática para reutilização de fotografias. https://acervodigital.ufpr.br/xmlui/bitstream/handle/1884/69589/R%20-%20D%20-%20MILENA%20DO%20CARMO%20SANTOS.pdf?isAllowed=y&sequence=1
 - **Produtores**: buscas por nome exato da espécie não forneceram receita publicada com percentuais nem amostra individualizada de cultivadores. Orientações para outras espécies não são homologação específica.
 - **Resultado**: fenologia exige ajuste metodológico, MACS 1.1 continua Classe D; receita e estrelas preservadas até haver comprovação.
+
+### Correção aplicada ao calendário — ficha 1 (2026-11-04)
+- Campo `mesesFloracao` corrigido de `[9,10,11,12,1,2,3,4,5]` para `[10,11,12,1,2,6]`, distinguindo registros científicos confirmados de estimativa ampla de cultivo.
+- Campo `floracao` passou a indicar explicitamente outubro–fevereiro (populações do Paraná; Santos et al. 2019, Rodriguésia, DOI 10.1590/2175-7860201970031) e registro pontual em junho (sinopse de Boa Nova, Hoehnea), com ressalva de que isso não garante floração nesses meses em cultivo.
+- Os meses fora desses registros não foram apresentados como confirmados; outras populações podem florescer em épocas adicionais ainda não documentadas nas fontes consultadas.
+- A correção fenológica não homologa a composição percentual do substrato nem os suportes MACS 1.1; Classe D mantida.
