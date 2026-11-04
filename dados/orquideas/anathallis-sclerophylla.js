@@ -104,6 +104,7 @@ export const anathallisSclerophylla = {
             "Sinopse florística do Parque Nacional de Boa Nova, Hoehnea — https://www.scielo.br/j/hoehnea/a/3ny9LMzTztYwyQJJnmJQ5tL/?lang=pt",
             "Gomes (2024), dissertação UFC, levantamento da Serra de Maranguape — https://repositorio.ufc.br/bitstream/riufc/76914/5/2024_dis_mmgomes.pdf",
             "SOSA, dicas gerais de cultivo e substratos — https://www.sosa.org.br/site/dicas-de-cultivo.php",
+            "SENAR-PR (2026), Cultivo de Orquídeas, seleção de substrato conforme clima e recipiente — https://www.sistemafaep.org.br/wp-content/uploads/2026/01/PR.0397-Cultivo-de-Orquideas_web.pdf",
             "Embrapa, Cerrado: Ecologia e Flora, volume 2, capítulo 14, tabela de Orchidaceae — https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/570911/1/CERRADO-Ecologia-e-flora-VOL-2.pdf",
             "Colombian Plants/POWO, dados regionais de altitude na Colômbia (1.980–3.100 m) — https://colplanta.org/taxon/urn:lsid:ipni.org:names:77142174-1/general-information",
             "Catálogo secundário de registros de premiações e sinonímia (não substitui consulta ao registro primário AOS) — https://orchids.herokuapp.com/grexes/anathallis-sclerophylla",
@@ -235,6 +236,6 @@ export const anathallisSclerophylla = {
         litoral: { texto: "A ampla distribuição mostra tolerância térmica considerável, mas em clima quente é importante manter sombra clara, umidade atmosférica alta e ventilação constante. Noites muito quentes associadas a ar parado são o principal ponto de atenção." },
         montanha: { texto: "Noites frescas, alta umidade e boa circulação de ar se aproximam bastante das condições montanas e de floresta nebulosa registradas para a espécie." }
     },
-    dica: "🏆 O segredo é reproduzir uma floresta úmida sem transformar o vaso em um pântano: mantenha as raízes hidratadas, mas com ar circulando constantemente. Uma montagem com pequena quantidade de esfagno ou um vaso pequeno e muito aerado costuma funcionar melhor que recipientes profundos e compactos.",
+    dica: "🏆 O segredo é reproduzir uma floresta úmida sem transformar o vaso em um pântano: mantenha as raízes hidratadas, mas com ar circulando constantemente. Como hipótese prática de cultivo, teste montagem com pequena quantidade de esfagno ou vaso pequeno bem aerado; acompanhe secagem, vigor radicular e floração antes de escolher o suporte definitivo para seu ambiente.",
 
     };
