@@ -48,8 +48,14 @@ jobs:
             if(broken.length)throw Error('Imagens não carregadas: '+broken.join(' | '));
             if(errors.length)throw Error('Erros JavaScript: '+errors.join(' | '));
             await section.screenshot({path:'macs-111-substrato-desktop.png'});
+            await page.screenshot({path:'macs-111-ficha-desktop.png',fullPage:true});
             await page.setViewportSize({width:390,height:844});
             await section.screenshot({path:'macs-111-substrato-mobile.png'});
+            const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth+2);
+            if(overflow)throw Error('Overflow horizontal no celular');
+            const mobileBroken=await page.locator('#ficha img').evaluateAll(nodes=>nodes.filter(img=>img.complete&&img.naturalWidth===0).map(img=>img.getAttribute('src')));
+            if(mobileBroken.length)throw Error('Imagens quebradas no celular: '+mobileBroken.join(' | '));
+            await page.screenshot({path:'macs-111-ficha-mobile.png',fullPage:true});
             const mobileTexts=await entries.allTextContents();
             if(mobileTexts.length!==2||mobileTexts.some(t=>/\b\d+\s*%/.test(t)))throw Error('Alternativas inválidas no celular: '+mobileTexts.join(' | '));
             if(errors.length)throw Error('Erros JavaScript desktop/mobile: '+errors.join(' | '));
@@ -61,5 +67,5 @@ jobs:
         if: always()
         with:
           name: macs-111-inspecao-visual
-          path: macs-111-substrato-*.png
+          path: macs-111-*.png
           if-no-files-found: ignore
