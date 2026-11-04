@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 126 — Bulbophyllum sicyobulbon
-Data: 2026-11-04. EM ANDAMENTO. Não avançar à matriz 127 até encerramento.
+Data: 2026-11-04. ENCERRADA COMO AUDITADA; HOMOLOGAÇÃO QUANTITATIVA NÃO OBTIDA (D).
 
 ## Identidade e evidência
 Nome exibido: Bulbophyllum sicyobulbon. Identificador histórico syciobulbon mantido por compatibilidade. Espécie epífita montana de rizoma espaçado, sensível ao calor noturno persistente. Vaso plástico vasado amplo e raso é proposta provisória, com rizoma exposto. Classe **D — NÃO HOMOLOGADA quantitativamente**: sem ensaios comparativos específicos nem amostra documentada de 25 produtores independentes. Estrelas de suportes anuladas.
@@ -13,4 +13,7 @@ Sem perlita. As receitas são hipóteses editoriais não comparadas experimental
 ## Recursos
 Quatro fotos verificadas em imagens/Bulbophyllum syciobulbon/. Assets conferidos: casca-pinus, chips-coco, carvao, esfagno, casca-macadamia, vaso-plastico-vasado, cesto-madeira, placa-tronco, vaso-barro.
 Correção publicada no commit 209e45e81cdf71bb20571024384610e49f76a974.
-Pendente Chromium desktop/mobile e encerramento técnico.
+Chromium desktop/mobile aprovado; encerramento técnico registrado.
+
+## Encerramento técnico — 2026-11-04
+Chromium/Playwright https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41767130981: **success** em todas as etapas, incluindo inspeção da ficha e upload das capturas. Artefato **13292978082** (macs-126-inspecao-visual). Quatro fotos e referências visuais confirmadas. Receitas A/B/C somam 100%, sem perlita. Estrelas de suportes nulas. Resultado científico final **D — sem homologação quantitativa**, por ausência de ensaios específicos e amostra documentada de 25 produtores independentes. Encerramento técnico sem pendências; insuficiência científica documentada. Liberada matriz 127.
