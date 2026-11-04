@@ -38,11 +38,11 @@ export const blcChiaLin = {
     substrato: ["50% Casca de pinus — média/grossa + 30% Carvão vegetal — médio + 20% Brita — pequena/média","40% Chips de coco — grossos preparados + 30% Casca de macadâmia — média + 20% Carvão vegetal — médio + 10% Argila expandida"],
     formasCultivo: {
     "perfilVisual": "cattleya",
-    "destaque": "Vaso de barro",
+    "destaque": "Vaso de Barro",
     "resumo": "MACS 1.1: vaso de barro é a proposta principal para estabilidade e secagem; alternativas dependem de ventilação e manejo, sem ensaio comparativo específico.",
     "metodos": [
         {
-            "nome": "Vaso de barro",
+            "nome": "Vaso de Barro",
             "asset": "vaso-barro",
             "estrelas": null,
             "status": "Mais indicada na ficha",
