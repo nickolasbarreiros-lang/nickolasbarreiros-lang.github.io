@@ -27,3 +27,9 @@ Workflow `.github/workflows/conferir-visual-macs-ficha-149.yml` publicado no com
 - Campo `descricao` (Sobre a espécie) revisado de 185 para 101 palavras, dentro da faixa editorial de 90–120; removida referência a estado específico, preservada identificação `cf.` e informações gerais de arquitetura, flores e habitat.
 - Alteração publicada no commit `32e913a6`, sem mudança de substrato, fotos, estrelas ou cultivo.
 - O teste Chromium deve ser reavaliado no commit mais recente; não considerar execução anterior suficiente para homologar esta revisão. Inspeção de artefatos permanece pendente.
+
+## Conferência adicional de assets — 2026-11-04
+- Conferidos os identificadores na biblioteca `js/biblioteca-cultivo-v4.js`: `stelis-aprica-vaso-plastico`, `placa-madeira`, `cesto-madeira`, `arvore-viva`.
+- Arquivos WebP consultados para vaso específico, placa e árvore: o acesso encontrou conteúdo binário, mas o leitor textual não o decodifica; isso não é prova de carregamento correto no navegador.
+- Descrição editorial V4.9 conferida com 101 palavras; substrato principal 35+25+20+20=100 e duas alternativas sem percentuais.
+- A execução atual do GitHub Actions e as capturas desktop/mobile continuam pendentes de comprovação; **não encerrar a ficha sem essas evidências**.
