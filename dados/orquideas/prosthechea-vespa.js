@@ -251,8 +251,8 @@ export const prosthecheaVespa = {
     "titulo": "Substrato ideal",
     "contexto": "Mistura para vaso — 100% em volume",
     "resumo": "45% casca de pinus média + 25% carvão vegetal médio + 20% brita fina lavada e sem pó + 10% perlita grossa compatível com o vaso — mistura proposta em volume.",
-    "justificativa": "Prosthechea vespa é epífita ou rupícola de crescimento simpodial, com pseudobulbos que exigem raízes ventiladas e secagem moderada. Em vaso de barro proporcional à touceira, a mistura visual propõe pinus médio, carvão médio, brita fina lavada e sem pó e pequena fração de perlita grossa compatível com o vaso, totalizando 100% em volume. A perlita está expressamente permitida nesta receita em 10%, corrigindo o antigo alerta contraditório. As duas outras misturas são alternativas qualitativas distintas, sem percentuais homologados. Replantar quando novas raízes surgirem e manter pseudobulbos acima da mistura. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
-    "receitaTexto": "45% casca de pinus média + 25% carvão vegetal médio + 20% brita fina lavada e sem pó + 10% perlita grossa compatível com o vaso (proposta não homologada).",
+    "justificativa": "Prosthechea vespa é uma orquídea epífita ou rupícola de crescimento simpodial, cujos pseudobulbos se beneficiam de raízes ventiladas e secagem moderada. Em vaso de barro proporcional à touceira, a casca de pinus e o carvão formam uma estrutura aberta; a brita fina limpa e a pequena fração de perlita favorecem a drenagem. Mantenha os pseudobulbos acima da mistura, reserve espaço para a próxima frente de crescimento e prefira replantar quando surgirem raízes novas.",
+    "receitaTexto": "45% casca de pinus média + 25% carvão vegetal médio + 20% brita fina lavada e sem pó + 10% perlita grossa compatível com o vaso.",
     "perfil": [
       "Alta aeração",
       "Drenagem funcional",
