@@ -54,8 +54,8 @@ export const laeliaCaulencens = {
         titulo: "Substrato ideal",
         contexto: "Mistura predominantemente mineral para vaso baixo",
         resumo: "Partículas minerais grossas e estáveis, com pequena fração orgânica, drenagem imediata e raízes muito arejadas.",
-        justificativa: "Cattleya caulescens (sin. Laelia caulescens) é rupícola compacta, de alta luminosidade e raízes que exigem secagem rápida sem superaquecimento. Para vaso de barro baixo e perfurado, a receita visual propõe 65% de componentes minerais (brita pequena e argila expandida) e 35% de cascas vegetais (macadâmia e pinus), totalizando 100%. As duas outras misturas são alternativas qualitativas sem percentuais. Controlar aquecimento do vaso, drenagem, salinidade e regas durante crescimento ativo; rupícola não significa repouso absolutamente seco. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
-        receitaTexto: "35% brita pequena limpa e sem pó + 30% perlita grossa compatível com o vaso + 25% casca de macadâmia média + 10% casca de pinus grossa (proposta não homologada).",
+        justificativa: "Cattleya caulescens (sin. Laelia caulescens) é uma orquídea rupícola compacta, de alta luminosidade, cujas raízes precisam de drenagem rápida sem superaquecimento. Em vaso de barro baixo e perfurado, a brita pequena e a perlita grossa favorecem a passagem de água e ar; as cascas de macadâmia e pinus oferecem apoio às raízes e uma pequena reserva de umidade. Proteja o vaso do calor excessivo, evite acúmulo de sais e mantenha regas adequadas ao crescimento ativo. O hábito rupícola não exige repouso completamente seco.",
+        receitaTexto: "35% brita pequena limpa e sem pó + 30% perlita grossa compatível com o vaso + 25% casca de macadâmia média + 10% casca de pinus grossa.",
         perfil: ["Rupícola compacta", "Unifoliada", "Alta luminosidade", "Drenagem imediata", "Raízes arejadas"],
         comportamento: [
             { nome: "Retenção", valor: 1, icone: "💧" },
