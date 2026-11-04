@@ -1,5 +1,5 @@
 # MACS 1.1 — Matriz 130 — Calanthe tankervilleae forma alba
-Data: 2026-11-04. **EM ANDAMENTO**. Não avançar à matriz 131 até encerramento técnico.
+Data: 2026-11-04. **ENCERRADA TECNICAMENTE — classificação científica D, sem homologação quantitativa.**
 
 ## Identidade e escopo
 Nome exibido Calanthe tankervilleae — forma alba; sinônimo Phaius tankervilleae; ID histórico phaius-tankervilleae-alba preservado. Orquídea terrestre de grande porte, que exige vaso amplo, substrato úmido mas aerado e redução moderada da irrigação com desaceleração do crescimento. O qualificativo alba refere-se à forma horticultural; não representa ensaio experimental independente.
@@ -16,4 +16,7 @@ Quatro fotos confirmadas em imagens/Phaius tankervilleae alba/; assets fibra-coc
 ## Limites de evidência
 **D — NÃO HOMOLOGADA quantitativamente**: receita proposta horticulturalmente, sem ensaio comparativo específico da forma alba e sem amostra individualizada e documentada de 25 produtores independentes. Não atribuir percentuais a alternativas nem afirmar validação experimental. Revisão técnica commit 94a240c675c42209b406f226d15e3dfe443fd23a.
 
-Pendente: inspeção Chromium desktop/mobile, artefatos de captura e encerramento técnico.
+Inspeção Chromium desktop/mobile aprovada; capturas geradas e relatório encerrado.
+
+## Encerramento — 2026-11-04
+Execução Chromium/Playwright [41838260702](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41838260702) **success**, inclusive inspeção no navegador e upload de capturas. Artefato **13325754103**, `macs-130-inspecao-visual` (459144 bytes). Receita principal = 100%, duas alternativas qualitativas sem percentuais, perlita preservada, estrelas de suportes omitidas, quatro fotos e assets presentes. **Classe D — NÃO HOMOLOGADA quantitativamente**, por ausência de ensaios comparativos e documentação de amostra de 25 produtores independentes. Sem pendências técnicas detectadas pelo teste. Matriz 131 liberada.
