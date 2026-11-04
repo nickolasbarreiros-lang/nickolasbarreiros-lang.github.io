@@ -74,7 +74,7 @@ export const bifrenariaAureofulva = {
         "nome": "Bifrenaria aureofulva",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma pequena explosão de tons dourados da flora brasileira! A Bifrenaria aureofulva produz hastes com várias flores amarelo-douradas a alaranjadas, geralmente perfumadas, que se destacam sobre a folhagem verde e plicada. É uma epífita de florestas úmidas do leste e sul do Brasil, formando pseudobulbos compactos com uma única folha no ápice. As flores têm cerca de 2,5 cm e podem ",
+        "morfologiaDimensoes": "Uma pequena explosão de tons dourados da flora brasileira! A Bifrenaria aureofulva produz hastes com várias flores amarelo-douradas a alaranjadas, geralmente perfumadas, que se destacam sobre a folhagem verde e plicada. É uma epífita de florestas úmidas do leste e sul do Brasil, formando pseudobulbos compactos com uma única folha no ápice.",
         "habitatAltitudeClima": "Florestas úmidas · epífita · ~200–1.500 m. | Quente a fresco · úmido e ventilado.",
         "distribuicaoGeografica": "Leste e Sul do Brasil · Mata Atlântica.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
