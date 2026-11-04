@@ -245,3 +245,9 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - No componente `substratoVisual`, o título foi ajustado de `Substrato ideal` para `Substrato recomendado (provisório)` e o contexto agora informa expressamente a ausência de homologação quantitativa.
 - A composição de 35% pinus + 30% casca de arroz carbonizada + 20% esfagno + 15% carvão foi **preservada**, assim como as duas alternativas qualitativas e as estrelas nulas dos suportes.
 - O ajuste é de comunicação científica, não homologação. A falta de registros comparativos específicos da espécie permanece impeditiva para encerrar a ficha 1.
+
+### Correção de autoria nomenclatural — ficha 1 (2026-11-04)
+- Conferência direta no POWO/Kew (https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77142174-1) e no registro do sinônimo (https://colplanta.org/taxon/urn:lsid:ipni.org:names:1128536-2) revelou erro na autoria do nome aceito.
+- Correto: **Stelis sclerophylla (Lindl.) Karremans**, Lankesteriana 13: 330 (2014); sinônimo homotípico **Anathallis sclerophylla (Lindl.) Pridgeon & M.W.Chase** (2001); basiônimo **Pleurothallis sclerophylla Lindl.** (1835).
+- Corrigido `revisaoCientificaIAR.sinonimosPrincipais` na ficha, preservando o nome editorial Anathallis. O erro anterior confundia a autoria do nome aceito com a do sinônimo.
+- Esta correção taxonômica não constitui homologação quantitativa da receita MACS 1.1; permanece Classe D.
