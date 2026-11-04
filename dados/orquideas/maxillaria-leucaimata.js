@@ -4,11 +4,11 @@ export const maxillariaLeucaimata = {
     id: "maxillaria-leucaimata",
     nome: "Maxillaria leucaimata",
     genero: "Maxillaria",
-    sinonimo: "Maxillaria leucaimata var. longifolia",
+    sinonimo: "Maxillaria leucaimata var. angustilabia",
     tipo: "Espécie botânica",
     dificuldade: "Moderada",
     caracteristicas: [
-        "Epífita ou rupícola brasileira",
+        "Epífita ou rupícola sul-americana",
         "Flores solitárias de 3 a 4 cm",
         "Pseudobulbos comprimidos e unifoliados",
         "Boa amplitude térmica"
@@ -19,9 +19,9 @@ export const maxillariaLeucaimata = {
         "imagens/Maxillaria leucaimata/Maxillaria leucaimata3.jpg",
         "imagens/Maxillaria leucaimata/Maxillaria leucaimata4.jpg"
     ],
-    descricao: "Uma Maxillaria brasileira versátil, encontrada tanto sobre árvores quanto em rochas abertas da Mata Atlântica. Forma touceiras compactas de pseudobulbos comprimidos, cada um normalmente com uma folha, e produz flores solitárias de 3 a 4 cm em hastes basais que podem chegar a cerca de 20 cm. Sua amplitude natural, do quente ao fresco, ajuda a explicar a boa adaptação em diferentes regiões; o ponto crítico continua sendo manter as raízes finas arejadas e livres de substrato degradado.",
+    descricao: "Maxillaria leucaimata é uma orquídea de aspecto elegante, com pseudobulbos fusiformes, ligeiramente achatados, cada um sustentando uma folha firme e oblonga. Da base surgem hastes relativamente longas, geralmente com uma flor creme a amarelada, marcada por nuances ou pintas vinosas nas pétalas, sépalas e labelo. As flores, de cerca de 3 cm, contrastam com a folhagem verde e aparecem em touceiras bem estabelecidas. Nativa da Guiana Francesa e de várias regiões brasileiras, vive em florestas tropicais úmidas, principalmente sobre árvores, mas também há registros sobre rochas. Sua ampla distribuição revela uma espécie associada a diferentes paisagens florestais.",
     origem: "Brasil",
-    regiao: "CE, MG e costa Sudeste do Brasil",
+    regiao: "Guiana Francesa e regiões Norte, Nordeste, Sudeste e Sul do Brasil",
     habitat: "Mata Atlântica · epífita/rupícola · áreas abertas.",
     clima: "Quente a fresco · úmido e ventilado.",
     climaFloracao: "IOSPE registra crescimento quente a fresco, ocorrência em espaços abertos da Mata Atlântica e floração no verão e outono. Como também aparece sobre rochas, a planta está acostumada a raízes muito oxigenadas e alternância rápida entre molhamento e aeração. Não exige repouso seco rigoroso: depois da maturação, apenas reduza discretamente a frequência de rega. Touceiras maduras e não divididas tendem a emitir várias hastes basais.",
@@ -51,7 +51,7 @@ export const maxillariaLeucaimata = {
         titulo: "Substrato ideal",
         contexto: "Mistura mineral muito aberta para vaso pequeno",
         resumo: "Predomínio de partículas minerais drenantes, com fração orgânica grossa reduzida para raízes sensíveis à saturação.",
-        justificativa: "A receita visual para vaso pequeno combina perlita grossa, brita fina/média, casca de macadâmia triturada e pinus médio. A composição visual corresponde à receita textual principal, acompanhada de exatamente duas alternativas qualitativas. A espécie ocorre como epífita e rupícola, mas não há ensaio específico que valide esses percentuais. Mistura provisória, ainda não homologada pela MACS 1.1.",
+        justificativa: "A receita visual para vaso pequeno combina perlita grossa, brita fina/média, casca de macadâmia triturada e pinus médio. A composição visual corresponde à receita textual principal, acompanhada de exatamente duas alternativas qualitativas. A espécie ocorre como epífita e rupícola, mas o hábito natural não estabelece percentuais ótimos; não há ensaio específico que valide a mistura de 65% de componentes minerais e 35% orgânicos. Mistura provisória, ainda não homologada pela MACS 1.1.",
         receitaTexto: "35% perlita grossa + 30% brita fina/média + 25% casca de macadâmia triturada + 10% casca de pinus média.",
         perfil: ["Epífita ou rupícola", "Raízes finas", "Alta oxigenação", "Drenagem rápida", "Umidade sem saturação"],
         comportamento: [
@@ -67,7 +67,7 @@ export const maxillariaLeucaimata = {
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "10%", nota: "umidade pontual", finalidade: "Acrescenta pequena reserva hídrica à mistura mineral." }
         ],
         alerta: "Evitar vaso grande, rizoma enterrado, substrato degradado ou saturado e seca prolongada. Observar o tempo real de secagem e replantar no início do enraizamento.",
-        notaEvidencia: "MACS 1.1 — revisão documental: POWO aceita Maxillaria leucaimata Barb.Rodr. como epífita pseudobulbosa; WFO/Flora do Brasil também registra hábito rupícola. BR Orquídea comercializa a espécie e indica 50% de sombra, altitude 100–900 m e hábito epífita/rupícola, sem receita percentual. AOS fornece apenas orientação geral para Maxillaria. Receita 35% perlita + 30% brita + 25% macadâmia + 10% pinus e estrelas NÃO HOMOLOGADAS: não há comparação específica de desempenho ou validação dos percentuais; meta de até 25 produtores não atingida. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:643560-1 ; https://www.worldfloraonline.org/taxon/wfo-0000238554 ; https://www.br-orquidea.com.br/espanol/default.asp?ct=1&id=plantas_detalhes2&pd=195 ; https://www.aos.org/explore/maxillaria ."
+        notaEvidencia: "MACS 1.1 — revisão documental: POWO aceita Maxillaria leucaimata Barb.Rodr. como epífita pseudobulbosa nativa da Guiana Francesa ao Brasil e lista M. leucaimata var. angustilabia como único sinônimo; WFO/Flora do Brasil também registra hábito rupícola. BR Orquídea comercializa a espécie e indica 50% de sombra, altitude 100–900 m e hábito epífita/rupícola, sem receita percentual. AOS fornece apenas orientação geral para Maxillaria. Receita 35% perlita + 30% brita + 25% macadâmia + 10% pinus e estrelas NÃO HOMOLOGADAS: não há comparação específica de desempenho ou validação dos percentuais; meta de até 25 produtores não atingida. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:643560-1 ; https://www.worldfloraonline.org/taxon/wfo-0000238554 ; https://www.br-orquidea.com.br/espanol/default.asp?ct=1&id=plantas_detalhes2&pd=195 ; https://www.aos.org/explore/maxillaria ."
     },
     errosComuns: "Usar vaso grande; enterrar o rizoma ou base dos brotos; manter substrato velho, triturado ou permanentemente saturado; cultivar em sombra profunda; impor seca prolongada; adubar em concentração alta; não fazer lavagem periódica; replantar fora do início do enraizamento.",
     dica: "Observe o tempo de secagem real do vaso. A espécie gosta de receber bastante água quando regada, mas também precisa recuperar rapidamente o oxigênio em torno das raízes. Se a mistura continua molhada por muitos dias, corrija o vaso, a granulometria ou a ventilação em vez de simplesmente reduzir o volume de água aplicado.",
