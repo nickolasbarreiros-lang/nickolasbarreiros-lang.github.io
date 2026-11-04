@@ -52,7 +52,7 @@ export const miltoniaRegnellii = {
         titulo: "Substrato ideal",
         contexto: "Mistura de retenção moderada para vaso pequeno e bem ventilado",
         resumo: "Partes iguais de casca de pinus, esfagno solto e carvão vegetal, conforme recomendação brasileira específica para a espécie.",
-        justificativa: "Julio Cesar Zanatta, em Jardineiro.net (atualização de 27/06/2026), recomenda especificamente para Miltonia regnellii partes iguais de casca de pinus, esfagno e carvão vegetal. A receita visual adota essa proporção 1:1:1 como referência horticultural documentada, não como experimento controlado. O estudo brasileiro de Yamamoto et al. (2009) avaliou o HÍBRIDO M. regnellii × Oncidium concolor e NÃO valida substratos da espécie pura.",
+        justificativa: "Miltonia regnellii se beneficia de umidade regular e raízes bem ventiladas. A casca de pinus média oferece apoio, o esfagno de fibra longa solto conserva umidade e o carvão vegetal ajuda a manter espaços de ar. Distribua os materiais sem compactar o esfagno e observe a secagem no centro do recipiente para ajustar as regas.",
         receitaTexto: "1/3 casca de pinus média + 1/3 esfagno de fibra longa solto + 1/3 carvão vegetal (partes iguais em volume; cerca de 33,3% cada).",
         perfil: ["Epífita simpodial", "Raízes finas", "Pseudobulbos comprimidos", "Umidade regular", "Boa ventilação"],
         comportamento: [
