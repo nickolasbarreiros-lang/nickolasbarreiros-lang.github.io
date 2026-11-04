@@ -33,7 +33,11 @@ jobs:
             page.on('pageerror',error=>errors.push(error.message));
             await page.goto('http://127.0.0.1:8765/orquidea.html?id=stelis-cf-aprica',{waitUntil:'networkidle',timeout:60000});
             const cultivation=page.locator('.formas-cultivo-v4');
-            if(await cultivation.count()===0)console.log('AVISO: seletor .formas-cultivo-v4 não encontrado; conferir componente de cultivo nas capturas.');
+            if(await cultivation.count()!==1)throw Error('Componente visual de cultivo ausente ou duplicado');
+            const cultivationMethods=page.locator('.formas-cultivo-v4 .forma-cultivo-v4');
+            if(await cultivationMethods.count()!==4)throw Error('Esperados quatro métodos de cultivo, incluindo o principal');
+            const cultivationText=await cultivation.innerText();
+            if(!cultivationText.includes('Vaso plástico vasado')||!cultivationText.includes('Placa / tronco')||!cultivationText.includes('Cachepô de Madeira')||!cultivationText.includes('Árvore viva'))throw Error('Métodos de cultivo divergentes');
             const section=page.locator('.substrato-visual-v4');
             await section.waitFor({timeout:30000});
             const entries=page.locator('.substratos-recomendados-v4 li');
@@ -60,6 +64,7 @@ jobs:
             await section.screenshot({path:'macs-ficha-149-substrato-mobile.png'});
             const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth+2);
             if(overflow)throw Error('Overflow horizontal na visualização celular');
+            if(await cultivationMethods.count()!==4)throw Error('Métodos de cultivo ausentes na versão celular');
             await page.screenshot({path:'macs-ficha-149-ficha-mobile.png',fullPage:true});
             if(errors.length)throw Error('Erros JavaScript desktop/mobile: '+errors.join(' | '));
             const mobileEntries=await entries.count();
