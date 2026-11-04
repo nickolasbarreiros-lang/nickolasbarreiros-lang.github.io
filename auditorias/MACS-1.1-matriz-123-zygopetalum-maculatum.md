@@ -6,9 +6,9 @@ Espécie terrestre ou rupícola, com raízes sensíveis ao calor e necessidade d
 
 ## Receitas editoriais por volume
 Principal para vaso de barro: 40% chips de coco médios preparados + 35% casca de pinus fina/média + 25% casca de arroz carbonizada = 100%.
-Alternativa B: 40% chips de coco médios preparados + 35% casca de pinus média + 25% casca de arroz carbonizada = 100%.
+Alternativa B: 45% chips de coco médios preparados + 30% casca de pinus média + 25% carvão vegetal médio = 100%.
 Alternativa C: 40% casca de macadâmia média + 35% chips de coco médios preparados + 25% casca de pinus média = 100%.
-As receitas são propostas, não resultados experimentais; não permitem declarar superioridade quantitativa. A alternativa B é granulometricamente diferente da principal, mas usa os mesmos materiais e proporções; verificar pertinência editorial antes do encerramento.
+As receitas são propostas, não resultados experimentais; não permitem declarar superioridade quantitativa. A alternativa B usa carvão e proporções distintas da principal; não há duplicação de receita.
 
 ## Recursos
 Quatro fotos verificadas em imagens/Zygopetalum maculatum/. Assets conferidos: chips-coco, casca-pinus, casca-arroz-carbonizada, casca-macadamia, vaso-barro, vaso-plastico, vaso-plastico-vasado.
