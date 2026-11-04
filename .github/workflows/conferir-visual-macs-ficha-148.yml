@@ -32,6 +32,8 @@ jobs:
             const errors=[];
             page.on('pageerror',error=>errors.push(error.message));
             await page.goto('http://127.0.0.1:8765/orquidea.html?id=pinalia-elata',{waitUntil:'networkidle',timeout:60000});
+            const cultivation=page.locator('.formas-cultivo-v4');
+            if(await cultivation.count()===0)console.log('AVISO: seletor .formas-cultivo-v4 não encontrado; conferir componente de cultivo nas capturas.');
             const section=page.locator('.substrato-visual-v4');
             await section.waitFor({timeout:30000});
             const entries=page.locator('.substratos-recomendados-v4 li');
@@ -43,6 +45,7 @@ jobs:
             await page.waitForFunction(() => [...document.querySelectorAll('#ficha img:not(#foto-ampliada-v2)')].every(img => img.complete),null,{timeout:20000});
             const images=await page.locator('#ficha img:not(#foto-ampliada-v2)').evaluateAll(nodes=>nodes.map(img=>({src:img.getAttribute('src'),loaded:img.complete&&img.naturalWidth>0})));
             const broken=images.filter(img=>!img.loaded);
+            console.log('TOTAL DE IMAGENS NO CONTEÚDO:',images.length);
             await page.screenshot({path:'macs-ficha-148-diagnostico-desktop.png',fullPage:true});
             console.log('IMAGENS DESKTOP:', JSON.stringify(images));
             if(broken.length)throw Error('Imagens não carregadas: '+JSON.stringify(broken));
