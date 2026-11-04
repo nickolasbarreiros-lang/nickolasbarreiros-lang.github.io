@@ -29,7 +29,7 @@ export const phaiusTankervilleaeAlba = {
     "regiao": "Ásia oriental e Sudeste Asiático · Pacífico",
     "habitat": "Baixadas úmidas e matas · até ~1.300 m.",
     "clima": "Quente a ameno · úmido · meia-sombra.",
-    "climaFloracao": "A floração depende principalmente de pseudobulbos maduros e bem abastecidos após um longo período de crescimento ativo. Durante a formação de folhas e pseudobulbos, água e nutrição não devem faltar. Com a maturação, reduza apenas moderadamente adubo e rega conforme a evaporação cair; não imponha repouso seco severo. No litoral quente, a espécie costuma vegetar muito bem, desde que o substrato permaneça úmido sem ficar compacto ou anaeróbico.",
+    "climaFloracao": "A floração depende principalmente de pseudobulbos maduros e bem abastecidos após um longo período de crescimento ativo. Durante a formação de folhas e pseudobulbos, água e nutrição não devem faltar. Com a maturação, reduza apenas moderadamente adubo e rega conforme a evaporação cair; não imponha repouso seco severo. Em clima quente, a espécie costuma vegetar muito bem, desde que o substrato permaneça úmido sem ficar compacto ou anaeróbico.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
@@ -46,10 +46,10 @@ export const phaiusTankervilleaeAlba = {
         destaque: "Vaso plástico",
         resumo: "Orquídea terrestre de grande porte, folhas plissadas e hastes florais altas. Precisa de vaso amplo e profundo, drenagem livre e umidade regular durante o crescimento.",
         metodos: [
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso largo, profundo e muito perfurado, com espaço para pseudobulbos e raízes e umidade estável." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Recipiente grande e estável, com boa aeração e regas ajustadas à secagem." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Somente modelo grande e profundo, com substrato mais retentivo e regas frequentes." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 2, status: "Menos indicado", texto: "Apenas estrutura grande e estável com forração adequada; pode secar rápido demais para uma terrestre de grande porte." }
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Mais recomendado na ficha", texto: "Vaso largo, profundo e muito perfurado, com espaço para pseudobulbos e raízes e umidade estável." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa", texto: "Recipiente grande e estável, com boa aeração e regas ajustadas à secagem." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Uso condicional", texto: "Somente modelo grande e profundo, com substrato mais retentivo e regas frequentes." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Menos indicado", texto: "Apenas estrutura grande e estável com forração adequada; pode secar rápido demais para uma terrestre de grande porte." }
         ]
     },
     substratoVisual: {
@@ -72,7 +72,7 @@ export const phaiusTankervilleaeAlba = {
             { asset: "perlita", nome: "Perlita média/grossa compatível com o vaso", proporcao: "20%", nota: "aeração", finalidade: "Mantém drenagem livre mesmo em recipiente profundo." }
         ],
         alerta: "Evitar vaso pequeno, substrato compacto, secagem completa durante a expansão das folhas, água parada, sol forte e enterro profundo da base dos brotos.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Calanthe tankervilleae forma alba (sin. Phaius tankervilleae), terrestre de grande porte, requer vaso amplo e profundo com drenagem livre, umidade regular durante crescimento e aeração. Vaso plástico amplo e perfurado é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 30% fibra de coco grossa preparada + 30% chips de coco pequenos preparados + 20% casca de arroz carbonizada + 20% perlita média/grossa compatível com o vaso = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/fibra de coco/perlita/pouca vermiculita e chips de coco/perlita/casca de arroz carbonizada/pouco esfagno solto. Elas não fundamentam os percentuais visuais; justificativa anterior de equivalência foi corrigida. Monitorar salinidade, compactação, estabilidade do vaso e resposta das raízes. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS"
+        notaEvidencia: "MACS 1.1 — revisão documental: Calanthe tankervilleae forma alba (sin. Phaius tankervilleae), terrestre de grande porte, requer vaso amplo e profundo com drenagem livre, umidade regular durante crescimento e aeração. Vaso plástico amplo e perfurado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 30% fibra de coco grossa preparada + 30% chips de coco pequenos preparados + 20% casca de arroz carbonizada + 20% perlita média/grossa compatível com o vaso = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/fibra de coco/perlita/pouca vermiculita e chips de coco/perlita/casca de arroz carbonizada/pouco esfagno solto. Elas não fundamentam os percentuais visuais; justificativa anterior de equivalência foi corrigida. Monitorar salinidade, compactação, estabilidade do vaso e resposta das raízes. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente"
     },
     "errosComuns": "Vaso pequeno; substrato pobre ou compactado; deixar secar durante expansão foliar; água parada; sombra excessiva; sol forte; excesso de sais; enterrar profundamente a base dos brotos; cortar folhas ainda verdes; impor repouso seco rígido.",
     "dica": "Dê espaço e alimento enquanto a planta está crescendo. O tamanho da haste floral é construído meses antes, quando folhas e pseudobulbos estão se formando. Um vaso amplo com mistura rica, úmida e aerada costuma produzir plantas muito mais robustas do que recipientes pequenos e secos.",
