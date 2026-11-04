@@ -52,8 +52,8 @@ export const laeliaPraestans = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para cachepô pequeno",
         resumo: "Partículas médias com boa sustentação, drenagem rápida e reserva hídrica moderada.",
-        justificativa: "Cattleya praestans (sin. Laelia praestans) é epífita compacta, com raízes que requerem aeração e umidade regular durante o crescimento. Para cachepô de madeira pequeno e vazado, a receita visual propõe macadâmia média, pinus médio, perlita grossa compatível com o recipiente e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não originam os percentuais visuais. Evitar encharcamento e secagem prolongada no crescimento ativo, sem impor repouso seco severo. MACS 1.1: formulação horticultural provisória sem homologação quantitativa específica.",
-        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa compatível com o recipiente + 15% carvão vegetal médio (proposta não homologada).",
+        justificativa: "Cattleya praestans (sin. Laelia praestans) é uma epífita compacta que precisa de raízes arejadas e umidade regular durante o crescimento. Em cachepô de madeira pequeno e vazado, as cascas de macadâmia e pinus oferecem apoio, enquanto a perlita e o carvão favorecem a drenagem e a circulação de ar. Evite encharcamento e secagem prolongada durante a emissão de novas raízes, sem impor repouso seco severo.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa compatível com o recipiente + 15% carvão vegetal médio.",
         perfil: ["Epífita compacta", "Pseudobulbos curtos", "Raízes ventiladas", "Umidade regular", "Secagem perceptível"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
