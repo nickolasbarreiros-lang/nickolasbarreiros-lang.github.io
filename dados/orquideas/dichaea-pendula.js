@@ -10,12 +10,12 @@ export const dichaeaPendula = {
     caracteristicas: [
         "Espécie neotropical",
         "Crescimento pendente",
-        "Hastes ramificadas",
+        "Hastes pendentes e flexíveis",
         "Folhas em duas fileiras",
         "Sem pseudobulbos",
-        "Flores axilares de cerca de 2 cm",
+        "Flores axilares pequenas, com sépalas de 6–9 mm",
         "Alta umidade ambiental",
-        "Prefere noites mais amenas"
+        "Ocorre em florestas úmidas de diferentes altitudes"
     ],
     fotos: [
         "imagens/Dichaea pendula/Dichaea pendula1.jpeg",
@@ -23,16 +23,16 @@ export const dichaeaPendula = {
         "imagens/Dichaea pendula/Dichaea pendula3.jpeg",
         "imagens/Dichaea pendula/Dichaea pendula4.webp"
     ],
-    descricao: "Uma orquídea de aspecto leve e elegante, com hastes que se arqueiam e pendem como pequenas cortinas verdes. Dichaea pendula cresce sem pseudobulbos, formando ramos achatados e revestidos por folhas finas dispostas em duas fileiras. Ao longo dessas hastes surgem flores solitárias de aproximadamente 2 cm, relativamente grandes para a delicadeza da planta. Sua ampla distribuição pela América tropical inclui populações de florestas muito úmidas e montanas, por isso aprecia umidade constante e ar em movimento, mas não gosta de calor abafado. No litoral quente, o segredo é manter as raízes hidratadas sem deixar água presa entre as folhas durante a noite.",
+    descricao: "Dichaea pendula forma longas hastes flexíveis que se arqueiam e pendem, revestidas por pequenas folhas em duas fileiras. Sem pseudobulbos, a planta lembra uma delicada cortina verde, pontuada por flores solitárias que surgem nas axilas das folhas. As flores são discretas, geralmente amareladas, com sépalas de poucos milímetros e labelo de formato característico. Seus frutos podem apresentar pequenas projeções na superfície, detalhe útil para reconhecer a espécie. Distribui-se amplamente pela América tropical, em florestas úmidas de diferentes altitudes. No Brasil, há registros tanto em ambientes amazônicos quanto em florestas da Mata Atlântica.",
     origem: "América Tropical",
     regiao: "Caribe · América Central · América do Sul",
-    habitat: "Florestas úmidas montanas · ~1.200–2.500 m.",
-    clima: "Intermediário a fresco · muito úmido e ventilado.",
-    climaFloracao: "A espécie é associada a florestas úmidas de altitude e tende a responder melhor quando recebe noites mais amenas, alta umidade atmosférica e pouca oscilação hídrica. IOSPE registra floração na primavera e no verão. No litoral quente, a indução floral pode ser favorecida pelo período mais ameno do ano, desde que a planta continue ativa e hidratada. Não possui repouso seco verdadeiro.",
+    habitat: "Florestas úmidas tropicais · epífita ou rupícola · altitude variável.",
+    clima: "Quente a intermediário; populações montanas toleram condições mais frescas.",
+    climaFloracao: "A espécie ocorre tanto em florestas úmidas de terras baixas quanto em populações montanas; não se deve exigir noites frias para todas as procedências. Alta umidade atmosférica e pouca oscilação hídrica favorecem raízes finas. IOSPE registra floração na primavera e no verão. No litoral quente, a indução floral pode ser favorecida pelo período mais ameno do ano, desde que a planta continue ativa e hidratada. Não possui repouso seco verdadeiro.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
-        horario: "",
+        horario: "Não permitido",
         observacoes: "Prefere sombra clara de sub-bosque. Luz insuficiente deixa as hastes fracas; sol direto, principalmente associado a calor, desidrata rapidamente folhas e raízes finas."
     },
     floracao: "Na natureza, é registrada principalmente na primavera e no verão. Em cultivo no Sudeste brasileiro, pode variar conforme temperatura e procedência. As flores surgem individualmente em pequenas hastes axilares ao longo dos ramos e podem aparecer sucessivamente em uma planta bem estabelecida.",
@@ -55,7 +55,7 @@ export const dichaeaPendula = {
         titulo: "Substrato ideal",
         contexto: "Mistura para cachepô ou vaso; montagem principal usa apenas esfagno fino junto às raízes",
         resumo: "Partículas pequenas a médias que preservam umidade uniforme e aeração, sem formar massa compacta.",
-        justificativa: "A montagem vertical em placa ou tronco é o suporte principal e utiliza apenas uma camada fina e solta de esfagno junto às raízes. A receita principal quantitativa destina-se a cachepô ou vaso ventilado e coincide com os itens visuais: chips de coco pequenos preparados, casca de pinus fina/média e perlita grossa. A primeira alternativa qualitativa utiliza pinus, perlita, carvão e esfagno; a segunda é uma inferência de cultivo com chips, pinus e pouco esfagno. Nenhuma equivale à receita principal. A espécie não possui pseudobulbos, portanto requer atenção à umidade sem compactação. MACS 1.1: percentuais provisórios sem homologação específica",
+        justificativa: "A montagem vertical em placa ou tronco é o suporte principal e utiliza apenas uma camada fina e solta de esfagno junto às raízes. O gênero tem raízes finas, mas a Flora do Brasil não compara receitas volumétricas desta espécie; a retenção proposta é uma hipótese de manejo. A receita principal quantitativa destina-se a cachepô ou vaso ventilado e coincide com os itens visuais: chips de coco pequenos preparados, casca de pinus fina/média e perlita grossa. A primeira alternativa qualitativa utiliza pinus, perlita, carvão e esfagno; a segunda é uma inferência de cultivo com chips, pinus e pouco esfagno. Nenhuma equivale à receita principal. A espécie não possui pseudobulbos, portanto requer atenção à umidade sem compactação. MACS 1.1: percentuais provisórios sem homologação específica",
         receitaTexto: "40% chips de coco pequenos preparados + 35% casca de pinus fina/média + 25% perlita grossa.",
         perfil: ["Epífita pendente", "Sem pseudobulbos", "Umidade frequente", "Sombra luminosa", "Boa circulação de ar"],
         comportamento: [
@@ -76,12 +76,12 @@ export const dichaeaPendula = {
     dica: "Não interprete a necessidade de umidade como necessidade de encharcamento. Em litoral quente, a melhor combinação é suporte pequeno, umidade atmosférica alta, regas frequentes e muita circulação de ar. Se as hastes começarem a enrugar, aumente a frequência das regas; se houver manchas escuras e tecidos moles nas bainhas, aumente imediatamente a ventilação e reduza o tempo de molhamento.",
     revisaoCientificaIAR: {
         "nome": "Dichaea pendula",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma orquídea de aspecto leve e elegante, com hastes que se arqueiam e pendem como pequenas cortinas verdes. Dichaea pendula cresce sem pseudobulbos, formando ramos achatados e revestidos por folhas finas dispostas em duas fileiras. Ao longo dessas hastes surgem flores solitárias de aproximadamente 2 cm, relativamente grandes para a delicadeza da planta. Sua ampla distribuição p",
-        "habitatAltitudeClima": "Florestas úmidas montanas · ~1.200–2.500 m. | Intermediário a fresco · muito úmido e ventilado.",
+        "statusTaxonomico": "Dichaea pendula aceita em POWO; Dichaea echinocarpa é sinônimo heterotípico ilegítimo.",
+        "sinonimosPrincipais": "Limodorum pendulum (basiônimo); Dichaea echinocarpa e Cymbidium echinocarpon (sinônimos heterotípicos).",
+        "morfologiaDimensoes": "Caules pendentes, folhas dísticas com base não articulada, pedúnculo geniculado, flores axilares amareladas com sépalas de 6–9 mm e frutos muricados (Flora do Brasil, WFO).",
+        "habitatAltitudeClima": "Epífita ou rupícola em florestas úmidas amazônicas e atlânticas, inclusive matas ciliares; altitude variável, não restrita a montanhas.",
         "distribuicaoGeografica": "Caribe, América Central e América do Sul.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "cultivoPremiacao": "Sem ensaio brasileiro específico de substrato confirmado nesta passagem; recomendações de montagem e rega são inferências de manejo.",
         "confianca": "alta",
         "fontes": [
             "POWO/Kew",
