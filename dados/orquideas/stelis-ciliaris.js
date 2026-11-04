@@ -249,8 +249,8 @@ export const stelisCiliaris = {
     "titulo": "Substrato ideal",
     "contexto": "Placa / tronco principal; mistura opcional para vaso pequeno — 100% em volume",
     "resumo": "Para vaso pequeno: 35% pinus pequeno + 30% esfagno de fibra longa solto + 20% casca de arroz carbonizada + 15% carvão vegetal pequeno; placa usa somente fina faixa de esfagno.",
-    "justificativa": "Stelis ciliaris é microepífita de florestas úmidas, com raízes finas sensíveis a desidratação prolongada e a encharcamento. A forma principal é Placa / tronco com fina faixa de esfagno solto sob as raízes ativas. Para vaso pequeno muito perfurado, a mistura visual opcional combina pinus pequeno, esfagno de fibra longa solto, casca de arroz carbonizada e carvão pequeno, totalizando 100% em volume. As duas outras misturas são alternativas qualitativas distintas, sem perlita grossa, e não fundamentam os percentuais visuais. A fração de 30% de esfagno exige monitoramento da umidade e da compactação em clima quente. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
-    "receitaTexto": "Placa / tronco: raízes expostas e fina faixa de esfagno de fibra longa solto. Para vaso pequeno: 35% casca de pinus pequena + 30% esfagno de fibra longa solto + 20% casca de arroz carbonizada + 15% carvão vegetal pequeno (proposta não homologada).",
+    "justificativa": "Stelis ciliaris é uma microepífita de florestas úmidas, com raízes finas sensíveis tanto à desidratação prolongada quanto ao encharcamento. O cultivo principal em placa ou tronco utiliza uma faixa fina de esfagno solto junto às raízes ativas. Em vaso pequeno e muito perfurado, a casca de pinus, a casca de arroz carbonizada e o carvão mantêm espaços de ar, enquanto o esfagno conserva umidade. Observe a secagem e evite compactar a mistura, especialmente em clima quente.",
+    "receitaTexto": "Placa / tronco: raízes expostas e fina faixa de esfagno de fibra longa solto. Para vaso pequeno: 35% casca de pinus pequena + 30% esfagno de fibra longa solto + 20% casca de arroz carbonizada + 15% carvão vegetal pequeno.",
     "perfil": [
       "Alta aeração",
       "Drenagem funcional",
