@@ -51,6 +51,10 @@ jobs:
             if(overflow)throw Error('Overflow horizontal na visualização celular');
             await page.screenshot({path:'macs-146-ficha-mobile.png',fullPage:true});
             if(errors.length)throw Error('Erros JavaScript desktop/mobile: '+errors.join(' | '));
+            const mobileEntries=await entries.count();
+            if(mobileEntries!==2)throw Error('Alternativas alteradas na versão celular: '+mobileEntries);
+            const mobileParts=await page.locator('.ingrediente-substrato-v4 .proporcao-substrato-v4').allTextContents();
+            if(mobileParts.map(s=>s.trim()).join('|')!=='45%|25%|20%|10%')throw Error('Proporções alteradas na versão celular');
             console.log('APROVADO: renderização desktop/mobile, 2 receitas alternativas sem percentuais e sem erros JavaScript.');
             await browser.close();
           })().catch(e=>{console.error(e);process.exit(1)});
