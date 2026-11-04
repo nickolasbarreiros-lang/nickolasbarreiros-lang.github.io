@@ -47,14 +47,14 @@ export const epidendrumCentropetalum = {
         destaque: "Cachepô de Madeira",
         resumo: "Epífita montana de caules finos e raízes aéreas, com tendência a formar keikis. Precisa de umidade regular, boa luz filtrada, circulação constante e noites menos abafadas.",
         metodos: [
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Mais recomendado na ficha", texto: "Cachepô aberto e bem ventilado, com espaço para expansão dos caules, raízes aéreas e keikis." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Muito recomendado", texto: "Montagem em cortiça ou madeira com camada fina de esfagno sob as raízes, exigindo umidade frequente." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa", texto: "Vaso pequeno e muito perfurado, com mistura leve e sem água estagnada." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Preferência técnica provisória", texto: "Cachepô aberto e bem ventilado, com espaço para expansão dos caules, raízes aéreas e keikis." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Alternativa provisória", texto: "Montagem em cortiça ou madeira com camada fina de esfagno sob as raízes, exigindo umidade frequente." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Vaso pequeno e muito perfurado, com mistura leve e sem água estagnada." },
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Uso condicional", texto: "Vaso pequeno e bem drenado, com atenção à secagem acelerada das raízes delicadas." }
         ]
     },
     substratoVisual: {
-        titulo: "Substrato ideal",
+        titulo: "Substrato recomendado (provisório)",
         contexto: "Mistura principal para cachepô bem vazado; montagem em placa como método alternativo",
         resumo: "Substrato leve e arejado, mantendo umidade moderada sem saturação prolongada.",
         justificativa: "Epidendrum centropetalum (sin. Oerstedella centradenia) é uma epífita montana de caules finos e raízes aéreas, que se beneficia de umidade regular, boa ventilação e noites menos abafadas. No cachepô de madeira bem vazado, a casca de pinus fina oferece apoio, a perlita mantém espaços de ar e o esfagno solto conserva parte da umidade. A montagem em placa ou tronco com uma fina camada de esfagno também é possível, exigindo atenção à secagem das raízes.",
@@ -72,7 +72,7 @@ export const epidendrumCentropetalum = {
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "20%", nota: "retenção leve", finalidade: "Ajuda a evitar secagem prolongada sem encharcar." }
         ],
         alerta: "Evitar calor noturno abafado, sol forte do meio do dia, substrato encharcado e seca prolongada. Não retirar keikis antes de desenvolverem raízes suficientes.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Epidendrum centropetalum (sin. Oerstedella centradenia), epífita montana com caules finos, keikis e raízes aéreas; umidade regular, ventilação e noites menos abafadas são importantes. Cachepô de Madeira bem vazado é suporte principal; placa/tronco com esfagno fino é método alternativo, não receita principal. Receita visual e textual coincidem: 45% pinus fino + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Não fundamentam os percentuais visuais. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
+        notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D); não equivale a validação quantitativa dos percentuais ou dos suportes. MACS 1.1 — revisão documental: Epidendrum centropetalum (sin. Oerstedella centradenia), epífita montana com caules finos, keikis e raízes aéreas; umidade regular, ventilação e noites menos abafadas são importantes. Cachepô de Madeira bem vazado é suporte principal; placa/tronco com esfagno fino é método alternativo, não receita principal. Receita visual e textual coincidem: 45% pinus fino + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Não fundamentam os percentuais visuais. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
         "Cultivar em ambiente quente e sem circulação de ar",
@@ -86,19 +86,20 @@ export const epidendrumCentropetalum = {
     ],
     dica: "🏆 Aproveite o hábito de formar keikis: em vez de removê-los cedo, deixe que criem raízes e ajudem a formar uma touceira cheia. Em clima quente, mantenha a planta em posição muito ventilada e com luz filtrada forte; noites menos abafadas costumam fazer mais diferença do que aumentar a adubação.",
     revisaoCientificaIAR: {
-        "nome": "Epidendrum centropetalum",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Epidendrum centropetalum é uma espécie delicada e muito charmosa da América Central, conhecida durante décadas em coleções como Oerstedella centradenia. Seus caules finos lembram pequenas hastes e podem produzir keikis ao longo do crescimento, criando touceiras leves e ramificadas.",
-        "habitatAltitudeClima": "Epífita de florestas montanas úmidas, geralmente entre 1.200 e 1.500 m. | Intermediário a fresco, úmido e muito ventilado.",
-        "distribuicaoGeografica": "Do sul do México ao Panamá.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
+        "nome": "Epidendrum centropetalum Rchb.f.",
+        "statusTaxonomico": "Nome aceito no POWO/Kew, publicado em 1852; Oerstedella centradenia é sinônimo heterotípico, não o basiônimo.",
+        "sinonimosPrincipais": "Sinônimo homotípico: Oerstedella centropetala (Rchb.f.) Rchb.f. (1852). Sinônimos heterotípicos: Oerstedella centradenia Rchb.f. (1852), Epidendrum centradenia (Rchb.f.) Rchb.f. (1865), Epidendrum leprosum Schltr. (1923), Epidendrum tenuiflorum Schltr. (1906; homônimo posterior ilegítimo) e Oerstedella tenuiflora Hágsater (1981). Não confundir o nome aceito de 1852 com o homônimo posterior de 1855 tratado por POWO sob Epidendrum viridibrunneum.",
+        "morfologiaDimensoes": "Epífita de caules delgados, eretos e semelhantes a canas, com bainhas verrucosas e folhas alternas estreitas, geralmente caducas. Pode produzir keikis em entrenós próximos ao ápice. A inflorescência terminal, produzida por caules maduros ou keikis, é racemosa a ligeiramente paniculada, com aproximadamente 4–13 flores que se abrem quase simultaneamente, segundo IOSPE. As flores são rosa-intensas, com área branca basal no labelo e calo amarelo; a mesma fonte descreve ausência de fragrância. Esses números são descrições publicadas, não medições próprias.",
+        "habitatAltitudeClima": "POWO registra espécie epífita do bioma tropical úmido, nativa de Chiapas e de países da América Central até o Panamá. IOSPE descreve populações de florestas úmidas montanas inferiores, perenifólias a semidecíduas, em aproximadamente 1.200–1.500 m, especialmente Nicarágua, Costa Rica e Panamá. Essa faixa é regional e não deve ser apresentada como limite altitudinal global. Cultivo em noites mais amenas, umidade e ventilação é recomendação qualitativa, sem ensaio específico para a receita MACS.",
+        "distribuicaoGeografica": "México (Chiapas), Guatemala, El Salvador, Honduras, Nicarágua, Costa Rica e Panamá, segundo POWO/Kew.",
+        "cultivoPremiacao": "IOSPE descreve umidade alta, água durante o ano com alguma redução quando os caules amadurecem e floração do fim do inverno ao verão em sua referência regional. A AOS mantém parecer de identificação de forma albiflora de Epidendrum centropetalum, com determinação preliminar em 2018 e ressalva de confirmação final; esse registro não prova premiação horticultural definitiva nem valida receita de substrato. Não foi localizado ensaio comparativo da mistura 45/35/20 ou dos quatro suportes.",
+        "confianca": "Taxonomia/distribuição: alta (POWO/WFO). Morfologia, altitude regional e manejo: referência secundária IOSPE, confiança moderada. Suportes e percentuais MACS 1.1: evidência quantitativa insuficiente, Classe D.",
         "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
+            "POWO/Kew, nome aceito e sinonímia — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:631548-1",
+            "WFO, Epidendrum centropetalum — https://www.worldfloraonline.org/taxon/wfo-1000054429",
+            "POWO/Kew, homônimo posterior de 1855 (outro táxon) — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77240549-1",
+            "IOSPE, Oerstedella centradenia / Epidendrum centropetalum — https://www.orchidspecies.com/oerscentradenia.htm",
+            "AOS, parecer de identificação da forma albiflora (2018) — https://www.aos.org/awards-judging/sitf-findings/Epidendrum-centropetalum-%28Hort-var-alba%29-2018-03-3"
         ]
     },
     indiceDificuldadeCultivo: {
