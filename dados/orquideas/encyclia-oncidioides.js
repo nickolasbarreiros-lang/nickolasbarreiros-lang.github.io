@@ -46,8 +46,8 @@ export const encycliaOncidioides = {
         titulo: "Substrato ideal",
         contexto: "Mistura para vaso de barro justo ou cachepô vazado",
         resumo: "Substrato médio a grosso, de alta porosidade, com secagem clara entre regas.",
-        justificativa: "Encyclia oncidioides é epífita/rupícola de alta luminosidade filtrada, com pseudobulbos robustos e raízes que requerem ventilação e secagem perceptível entre regas. Para vaso de barro justo e perfurado, a receita visual propõe macadâmia média, pinus médio, perlita grossa compatível com o vaso e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas, não a origem dos percentuais visuais. Ajustar regas à secagem real, evitar encharcamento e não impor repouso seco rigoroso. MACS 1.1: inferência horticultural sem homologação quantitativa específica.",
-        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa compatível com o vaso + 15% carvão vegetal médio (proposta não homologada).",
+        justificativa: "Encyclia oncidioides é uma orquídea epífita ou rupícola de pseudobulbos robustos, que prefere alta luminosidade filtrada e raízes bem ventiladas. Em vaso de barro justo e perfurado, as cascas de macadâmia e pinus oferecem apoio e estrutura; a perlita e o carvão favorecem a drenagem e a circulação de ar. Deixe a mistura secar perceptivelmente entre regas, evitando encharcamento, mas sem impor repouso completamente seco.",
+        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa compatível com o vaso + 15% carvão vegetal médio.",
         perfil: ["Pseudobulbos robustos", "Porte médio a grande", "Alta luminosidade filtrada", "Raízes ventiladas", "Secagem rápida"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
