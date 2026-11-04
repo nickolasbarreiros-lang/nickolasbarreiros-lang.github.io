@@ -73,8 +73,8 @@ export const aciantheraSonderiana = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura muito aerada, leve e com reserva hídrica moderada para raízes finas que não devem permanecer secas por longos períodos.",
-        justificativa: "Como epífita de raízes finas, Acianthera sonderiana exige umidade regular e alta oxigenação. A montagem principal em placa/tronco usa apenas uma lâmina mínima de esfagno de fibra longa solto, sem compactação. Para vaso pequeno e perfurado, a receita visual alternativa combina pinus fino/médio, casca de arroz carbonizada, esfagno de fibra longa solto e carvão vegetal pequeno, totalizando 100%. As duas outras misturas são propostas volumétricas editoriais distintas, ambas somando 100%, sem percentuais publicados para a espécie. Em clima quente, ajustar a frequência de rega à secagem real. MACS 1.1: hipótese horticultural não homologada quantitativamente.",
-        receitaTexto: "Mistura-base provisória para cultivo em vaso: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno. Ajustar granulometria e rega conforme secagem observada.",
+        justificativa: "Acianthera sonderiana é uma epífita de raízes finas que precisa de umidade regular e boa circulação de ar. A montagem principal em placa ou tronco utiliza apenas uma camada muito fina de esfagno solto, mantendo as raízes ventiladas. Em vaso pequeno e perfurado, a casca de pinus, a casca de arroz carbonizada e o carvão preservam espaços de ar, enquanto o esfagno ajuda a conservar umidade. Em dias quentes, observe a secagem e ajuste a frequência das regas, sem compactar a mistura.",
+        receitaTexto: "Mistura para cultivo em vaso: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno. Ajustar granulometria e rega conforme secagem observada.",
         perfil: ["Raízes finas", "Alta aeração", "Umidade constante", "Secagem moderada", "Baixa compactação", "Vaso pequeno"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
