@@ -76,7 +76,7 @@ export const sophronitisCernua = {
         "nome": "Cattleya cernua",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma pequena explosão de cor em tamanho miniatura! Cattleya cernua forma touceiras compactas e produz grupos de 4 a 10 flores laranja a vermelho-vivo, geralmente com cerca de 2 a 3 cm. É uma das antigas ‘Sophronitis’ mais tolerantes ao calor e pode ocorrer desde áreas litorâneas muito ventiladas até regiões interiores. Seu porte reduzido esconde uma planta resistente, que respon",
+        "morfologiaDimensoes": "Uma pequena explosão de cor em tamanho miniatura! Cattleya cernua forma touceiras compactas e produz grupos de 4 a 10 flores laranja a vermelho-vivo, geralmente com cerca de 2 a 3 cm. É uma das antigas ‘Sophronitis’ mais tolerantes ao calor e pode ocorrer desde áreas litorâneas muito ventiladas até regiões interiores.",
         "habitatAltitudeClima": "Epífita/litófita · áreas claras e ventiladas · litoral ao interior. | Quente a intermediário · alta ventilação.",
         "distribuicaoGeografica": "Brasil, Paraguai e nordeste da Argentina.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
