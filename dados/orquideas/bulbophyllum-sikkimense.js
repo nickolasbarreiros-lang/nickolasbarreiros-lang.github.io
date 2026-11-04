@@ -16,16 +16,16 @@ export const bulbophyllumSikkimense = {
         "imagens/Bulbophyllum sikkimense/Bulbophyllum sikkimense3.jpeg",
         "imagens/Bulbophyllum sikkimense/Bulbophyllum sikkimense4.webp"
     ],
-    descricao: "Uma pequena joia dos contrafortes do Himalaia! A planta tradicionalmente conhecida como *Bulbophyllum sikkimense* forma pseudobulbos pequenos e produz, na primavera, hastes curtas terminadas em um delicado buquê de aproximadamente **10 a 12 flores**, cada uma com cerca de **2 cm**. Apesar da associação do nome com Sikkim e suas montanhas, registros históricos situam essas plantas por volta de **300–500 m**, em condições quentes a intermediárias — bem longe de um ambiente alpino. Hoje o nome é incluído em *Bulbophyllum roxburghii*, mas continua muito utilizado em coleções e é útil para reconhecer esse aspecto particular da planta.",
+    descricao: "Conhecida em coleções como Bulbophyllum sikkimense, esta orquídea é atualmente incluída em Bulbophyllum roxburghii. Possui pequenos pseudobulbos sobre um rizoma rastejante e folhas que acompanham o porte compacto da planta. No conceito histórico de sikkimense, hastes curtas e eretas terminam em umbelas de aproximadamente dez a doze flores, com cerca de dois centímetros cada. O conjunto floral lembra um pequeno buquê suspenso acima da folhagem. Nativa dos contrafortes do Himalaia oriental, a planta ocorre em ambientes florestais quentes a intermediários. Seu antigo nome continua frequente nas etiquetas e ajuda a reconhecer essa apresentação particular das flores.",
     origem: "Himalaia Oriental",
-    regiao: "Sikkim · E Himalaia",
+    regiao: "Nepal oriental ao Bangladesh (conceito aceito); registros históricos em Sikkim",
     habitat: "Contrafortes florestais · 300–500 m.",
     clima: "Quente a intermediário.",
     climaFloracao: "A altitude baixa a moderada dos exemplares historicamente chamados B. sikkimense mostra que não se trata de orquídea alpina. IOSPE a classifica de quente a intermediária e registra floração na primavera. No litoral quente, o manejo deve priorizar ventilação, maturação dos pseudobulbos e boa luz filtrada; não há justificativa ecológica para frio intenso ou repouso seco severo.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
-        horario: "",
+        horario: "Não permitido",
         observacoes: "Meia-sombra clara favorece umbela compacta e pseudobulbos firmes. Sombra profunda reduz a qualidade da floração; sol direto forte pode superaquecer folhas e rizoma."
     },
     floracao: "Principalmente na primavera no conceito histórico de B. sikkimense; dentro de B. roxburghii, a janela pode se estender ao verão. Referência prática: setembro a fevereiro.",
@@ -71,7 +71,7 @@ export const bulbophyllumSikkimense = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
-        "justificativa": "A literatura sobre B. roxburghii e o táxon histórico sikkimense recomenda vasos ou cestos com umidade regular e ventilação. A receita abaixo é inferência para vaso vasado; não há convergência brasileira específica documentada.",
+        "justificativa": "A literatura sobre B. roxburghii e o táxon histórico sikkimense recomenda vasos ou cestos com umidade regular e ventilação. O Orquidário Maripá recomenda especificamente para plantas vendidas como B. sikkimense uma mistura de cascas, carvão, pedaços de madeira e musgo, sem proporções; a fórmula visual com chips de coco e perlita não deriva dessa fonte. A receita abaixo é inferência para vaso vasado; não há convergência brasileira específica documentada.",
         "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno de fibra longa solto.",
         "perfil": ["Pseudobulbos curtos", "Rizoma rasteiro", "Água regular", "Base exposta", "Boa aeração", "Secagem parcial"],
         "comportamento": [
@@ -127,7 +127,7 @@ export const bulbophyllumSikkimense = {
             }
         ],
         "alerta": "Proposta preliminar MACS 1.1; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo.",
-        "notaEvidencia": "MACS 1.1 — revisão documental: nome aceito adotado na ficha Bulbophyllum roxburghii (sin. B. sikkimense), miniatura epífita de rizoma rasteiro, exigindo umidade regular e boa drenagem. Vaso plástico vasado 5 estrelas, cachepô e placa/tronco 4, barro 3: hipótese horticultural sem comparação quantitativa. Receita visual 35% pinus médio + 25% chips de coco + 25% perlita grossa + 15% esfagno = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% pinus, 25% chips de coco, 25% perlita, 15% esfagno). Duas alternativas qualitativas independentes são apresentadas, sem equivalência quantitativa com a receita principal. Justificativa já admite ausência de convergência brasileira específica. Fontes botânicas preexistentes não homologam percentuais; meta de até 25 produtores brasileiros não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
+        "notaEvidencia": "MACS 1.1 — revisão documental: nome aceito adotado na ficha Bulbophyllum roxburghii (sin. B. sikkimense), miniatura epífita de rizoma rasteiro, exigindo umidade regular e boa drenagem. Vaso plástico vasado 5 estrelas, cachepô e placa/tronco 4, barro 3: hipótese horticultural sem comparação quantitativa. Receita visual 35% pinus médio + 25% chips de coco + 25% perlita grossa + 15% esfagno = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% pinus, 25% chips de coco, 25% perlita, 15% esfagno). Duas alternativas qualitativas independentes são apresentadas, sem equivalência quantitativa com a receita principal. POWO confirma nome aceito B. roxburghii e distribuição Nepal oriental a Bangladesh. IOSPE mantém a descrição histórica de B. sikkimense (300–500 m, umbela de 10–12 flores de cerca de 2 cm), reconhecendo diferenças visuais em relação a B. roxburghii. Orquidário Maripá (https://www.orquidariomaripa.com.br/produtos/orquidea-bulbophyllum-sikkimense-planta-adulta/) recomenda cascas, carvão, pedaços de madeira e musgo, com 50–60% de sombreamento, sem proporções. Uma fonte brasileira comercial qualitativa específica, zero receitas quantitativas de produtores verificadas; não há homologação da mistura 35/25/25/15; meta de até 25 produtores brasileiros não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     substrato: ["Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de esfagno solto","Chips de coco médios preparados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto"],
     errosComuns: "• Apresentar B. sikkimense como nome atualmente aceito.\n• Ignorar que Kew o inclui em B. roxburghii.\n• Tratar a planta como alpina por causa do nome Sikkim.\n• Impor repouso seco severo.\n• Manter sombra profunda.\n• Compactar o substrato.\n• Usar recipiente estreito.\n• Aplicar adubo concentrado.",
