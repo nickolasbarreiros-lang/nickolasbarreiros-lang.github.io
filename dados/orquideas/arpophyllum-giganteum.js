@@ -74,7 +74,7 @@ export const arpophyllumGiganteum = {
         "nome": "Arpophyllum giganteum",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma orquídea impossível de ignorar quando entra em floração! O Arpophyllum giganteum forma touceiras robustas e produz longas inflorescências cilíndricas, densamente cobertas por dezenas de pequenas flores rosa a púrpura dispostas em espiral, criando um efeito que lembra uma grande escova floral. As hastes podem chegar a cerca de 40 cm, enquanto cada flor mede apenas em torno d",
+        "morfologiaDimensoes": "Uma orquídea impossível de ignorar quando entra em floração! O Arpophyllum giganteum forma touceiras robustas e produz longas inflorescências cilíndricas, densamente cobertas por dezenas de pequenas flores rosa a púrpura dispostas em espiral, criando um efeito que lembra uma grande escova floral.",
         "habitatAltitudeClima": "Epífita rizomatosa de florestas úmidas de encosta e sopé de montanha, aproximadamente entre 800 e 1.500 m. | Quente a fresco, com preferência por noites amenas e boa amplitude térmica.",
         "distribuicaoGeografica": "México, Guatemala, Belize, El Salvador, Honduras, Nicarágua, Costa Rica, Jamaica, Colômbia e noroeste da Venezuela.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
