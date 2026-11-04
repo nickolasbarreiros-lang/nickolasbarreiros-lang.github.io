@@ -56,7 +56,7 @@ export const rodrigueziaLanceolata = {
         titulo: "Substrato ideal",
         contexto: "Mistura alternativa para cachepô ou vaso; montagem principal em placa/tronco sem enchimento",
         resumo: "Na placa ou tronco, manter raízes expostas e bem ventiladas, sem preencher a montagem com a mistura percentual. Em cachepô ou vaso, utilizar substrato aberto de partículas médias e umidade moderada.",
-        justificativa: "MACS 1.1: casca e perlita documentadas em orientação horticultural específica para Rodriguezia lanceolata; esfagno solto e carvão acrescentados por inferência técnica de retenção moderada e estrutura. Receita percentual provisória para cachepô ou vaso pequeno, não publicada nem testada para esta espécie. Placa/tronco permanece cultivo principal, sem enchimento volumétrico.",
+        justificativa: "Rodriguezia lanceolata desenvolve-se bem com as raízes fixadas em placa ou tronco, onde recebem bastante ar e secam sem permanecer encharcadas. Quando cultivada em cachepô ou vaso pequeno, a casca de pinus e a perlita mantêm a mistura aberta; o esfagno solto oferece uma reserva moderada de umidade, enquanto o carvão ajuda a preservar os espaços de ar. Use partículas compatíveis com as raízes finas e evite compactar o substrato. A montagem em placa ou tronco continua sendo a forma principal de cultivo, sem necessidade de preenchimento com essa mistura.",
         receitaTexto: "55% casca de pinus pequena/média + 20% perlita grossa + 15% esfagno solto + 10% carvão vegetal pequeno.",
         perfil: ["Epífita compacta", "Raízes finas", "Hastes pendentes", "Umidade moderada", "Ventilação alta"],
         comportamento: [
