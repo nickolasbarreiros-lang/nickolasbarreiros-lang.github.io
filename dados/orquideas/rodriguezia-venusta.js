@@ -56,7 +56,7 @@ export const rodrigueziaVenusta = {
         titulo: "Substrato ideal",
         contexto: "Mistura alternativa para cachepô ou vaso; montagem principal sem enchimento",
         resumo: "Na placa vertical, manter raízes livres e mínimo material retentivo. Para cachepô pequeno e muito vazado, usar mistura aberta de pinus, esfagno solto, carvão e chips de coco lavados.",
-        justificativa: "MACS 1.1: composição por convergência de fontes brasileiras específicas que documentam pinus, esfagno, carvão e coco para cultivo em recipiente. Montagem em placa/tronco permanece principal e dispensa mistura percentual. Percentuais por volume são hipóteses técnicas, não receitas publicadas ou experimentalmente validadas.",
+        justificativa: "Rodriguezia venusta se beneficia de montagem em placa ou tronco, com raízes expostas e umidade regular sem saturação. Para recipiente pequeno e bem ventilado, a casca de pinus oferece apoio, o esfagno solto e os chips de coco preparados ajudam a conservar umidade e o carvão mantém espaços de ar. Ajuste as regas à secagem do suporte e evite compactação.",
         receitaTexto: "55% casca de pinus pequena/média + 20% esfagno solto + 15% carvão vegetal pequeno + 10% chips de coco lavados.",
         perfil: ["Epífita compacta", "Raízes finas", "Hastes pendentes", "Ventilação alta", "Secagem rápida"],
         comportamento: [
