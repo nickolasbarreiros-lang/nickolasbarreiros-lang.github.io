@@ -25,12 +25,12 @@ export const dendrobiumSpectabile = {
     regiao: "Nova Guiné · Ilhas Salomão · Vanuatu · Nova Caledônia",
     habitat: "Epífita de florestas tropicais úmidas; ocasionalmente rupícola, de baixas a altas elevações.",
     clima: "Quente a intermediário, úmido e muito ventilado.",
-    climaFloracao: "Plantas maduras florescem melhor depois de uma estação de crescimento vigoroso e bem iluminado. Não exige repouso seco severo, mas uma redução moderada das regas quando as hastes amadurecem e o clima esfria pode acompanhar o ciclo natural. No litoral quente, o desenvolvimento vegetativo tende a ser favorecido.",
+    climaFloracao: "Plantas maduras florescem melhor depois de uma estação de crescimento vigoroso e bem iluminado. Não exige repouso seco severo, mas uma redução moderada das regas quando as hastes amadurecem e o clima esfria pode acompanhar o ciclo natural. Em clima quente, o desenvolvimento vegetativo tende a ser favorecido.",
     iluminacao: {
         sombrite: "40% a 60%",
         solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
-        observacoes: "Precisa de boa luminosidade para amadurecer hastes fortes. Sombra profunda pode atrasar a floração. No litoral quente, proteja apenas do sol mais agressivo do meio do dia e mantenha boa circulação de ar."
+        observacoes: "Precisa de boa luminosidade para amadurecer hastes fortes. Sombra profunda pode atrasar a floração. Em clima quente, proteja apenas do sol mais agressivo do meio do dia e mantenha boa circulação de ar."
     },
     floracao: "Predominantemente no inverno e início da primavera. Para o calendário do site, junho a outubro funciona como janela de referência, com variações conforme origem e condições de cultivo.",
     adubacao: "🌿 Orgânica: bokashi pode ser usado em pequena quantidade durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias enquanto novos brotos e raízes estiverem ativos.\n🧪 Liberação lenta: opcional, com poucos grânulos em vasos ou cestos.\n🚿 Lavagem: faça regas abundantes somente com água periodicamente para evitar acúmulo de sais.",
@@ -46,10 +46,10 @@ export const dendrobiumSpectabile = {
         destaque: "Cachepô de Madeira",
         resumo: "Espécie epífita tropical de porte médio a grande. Precisa de suporte firme, luz filtrada abundante, raízes muito aeradas e água regular durante o crescimento, sem repouso seco severo.",
         metodos: [
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 5, status: "Mais recomendado na ficha", texto: "Cachepô robusto e bem ventilado, dimensionado para a planta adulta, com amplo espaço para raízes e hastes." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Muito recomendado", texto: "Vaso pesado e muito drenante, oferecendo estabilidade para hastes grandes e mistura grossa." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Modelo reforçado, firme e perfurado, com partículas grossas e secagem monitorada." },
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 3, status: "Alternativa condicional", texto: "Somente recipiente bem perfurado e estável, evitando retenção prolongada e substrato compacto." }
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Mais recomendado na ficha", texto: "Cachepô robusto e bem ventilado, dimensionado para a planta adulta, com amplo espaço para raízes e hastes." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Muito recomendado", texto: "Vaso pesado e muito drenante, oferecendo estabilidade para hastes grandes e mistura grossa." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa", texto: "Modelo reforçado, firme e perfurado, com partículas grossas e secagem monitorada." },
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Alternativa condicional", texto: "Somente recipiente bem perfurado e estável, evitando retenção prolongada e substrato compacto." }
         ]
     },
     substratoVisual: {
@@ -72,7 +72,7 @@ export const dendrobiumSpectabile = {
             { asset: "carvao", nome: "Carvão vegetal médio/grosso", proporcao: "15%", nota: "estabilidade", finalidade: "Acrescenta estrutura e drenagem à mistura." }
         ],
         alerta: "Durante o crescimento ativo, não deixar novos brotos secarem; evitar encharcamento permanente e não impor repouso seco severo. Dimensionar o suporte para a planta adulta.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Dendrobium spectabile, epífita tropical robusta, requer suporte firme, raízes ventiladas e água regular durante o crescimento, sem repouso seco severo. Cachepô de Madeira robusto e bem vazado é suporte principal; estrelas heurísticas. Receita visual e textual coincidem: 35% macadâmia grossa + 30% pinus grosso + 20% perlita grossa compatível com cachepô + 15% carvão vegetal médio/grosso = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco grossos preparados/macadamia/carvão/argila expandida e pinus grosso/carvão/brita fina-média lavada e sem pó. Não fundamentam os percentuais visuais. Monitorar secagem e peso do conjunto em plantas adultas. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Dendrobium spectabile, epífita tropical robusta, requer suporte firme, raízes ventiladas e água regular durante o crescimento, sem repouso seco severo. Cachepô de Madeira robusto e bem vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% macadâmia grossa + 30% pinus grosso + 20% perlita grossa compatível com cachepô + 15% carvão vegetal médio/grosso = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco grossos preparados/macadamia/carvão/argila expandida e pinus grosso/carvão/brita fina-média lavada e sem pó. Não fundamentam os percentuais visuais. Monitorar secagem e peso do conjunto em plantas adultas. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
         "Cultivar em sombra excessiva",
@@ -222,8 +222,8 @@ export const dendrobiumSpectabile = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Excelente A origem tropical e a ocorrência frequente em baixas elevações combinam bem com clima quente, desde que haja muita ventilação e drenagem." },
-        montanhaFrio: { texto: "Boa Tolera condições intermediárias, mas deve ser protegido de frio intenso e de raízes molhadas em temperaturas baixas." }
+        litoralQuente: { texto: "Excelente adaptação. A origem tropical e a ocorrência frequente em baixas elevações combinam bem com clima quente, desde que haja muita ventilação e drenagem." },
+        montanhaFrio: { texto: "Boa adaptação. Tolera condições intermediárias, mas deve ser protegido de frio intenso e de raízes molhadas em temperaturas baixas." }
     },
     mesesFloracao: [6, 7, 8, 9, 10],
     "selosCultivo": {
