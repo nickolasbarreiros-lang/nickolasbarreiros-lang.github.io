@@ -36,7 +36,7 @@ export const cattleyaABrazilianDream = {
     adubacao: "🌿 Orgânica: Bokashi em pequena quantidade durante crescimento ativo, preferencialmente em porta-adubo e sem contato com o rizoma.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 a 1/3 da dose a cada 7 a 15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada para plantas em vaso ou cachepô. Fórmulas extremamente fosfatadas não são necessárias para induzir floração.",
     rega: "Durante crescimento ativo, regue profundamente e deixe o meio perder grande parte da umidade antes da próxima irrigação. Depois da maturação, aumente gradualmente o intervalo, observando a atividade das raízes. Não copie automaticamente a seca extrema de C. nobilior se o híbrido continuar ativo: a herança de C. loddigesii pede manejo mais flexível.",
     suporte: "🥇 Cachepô de madeira bem ventilado.\n🥈 Vaso de barro pequeno a médio e muito drenado.\n🥉 Placa de madeira ou cortiça em ambiente com umidade e possibilidade de regas frequentes.",
-    substrato: ["Casca de pinus grossa + carvão vegetal médio + brita pequena/média","Chips de coco grossos preparados + casca de macadâmia média + carvão vegetal médio + argila expandida média"],
+    substrato: ["45% casca de pinus média/grossa + 25% carvão vegetal médio + 20% casca de arroz carbonizada + 10% argila expandida pequena","40% fibra de coco preparada + 30% casca de macadâmia média + 20% carvão vegetal médio + 10% argila expandida pequena"],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Cachepô de Madeira",
@@ -76,8 +76,8 @@ export const cattleyaABrazilianDream = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "Cattleya A Brazilian Dream é grex de C. nobilior × C. loddigesii, com variação entre clones. Para cachepô de madeira aberto, a receita visual propõe macadâmia média, pinus médio/grosso, perlita grossa e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas qualitativas distintas e não herdam os percentuais da principal. O suporte publicado não foi comprovado superior a vasos perfurados; observar atividade das raízes e secagem sem impor repouso rígido derivado de apenas um parental. MACS 1.1: proposta horticultural sem homologação quantitativa específica.",
-    "receitaTexto": "40% casca de macadâmia média + 25% casca de pinus média/grossa + 20% perlita grossa + 15% carvão vegetal médio (proposta não homologada).",
+    "justificativa": "Cattleya A Brazilian Dream é grex de C. nobilior × C. loddigesii, com variação entre clones. Para cachepô de madeira aberto, a receita visual propõe macadâmia média, pinus médio/grosso, casca de arroz carbonizada e carvão vegetal médio, totalizando 100%. As duas outras misturas são alternativas quantitativas editoriais (45/25/20/10 e 40/30/20/10 por volume), sem comparação experimental específica. O suporte publicado não foi comprovado superior a vasos perfurados; observar atividade das raízes e secagem sem impor repouso rígido derivado de apenas um parental. MACS 1.1: proposta horticultural sem homologação quantitativa específica.",
+    "receitaTexto": "40% casca de macadâmia média + 25% casca de pinus média/grossa + 20% casca de arroz carbonizada + 15% carvão vegetal médio (proposta não homologada).",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
@@ -86,7 +86,7 @@ export const cattleyaABrazilianDream = {
     ],
     "itens": [
         {
-            "asset": "macadamia",
+            "asset": "casca-macadamia",
             "nome": "Casca de macadâmia média",
             "proporcao": "40%",
             "nota": "estrutura",
@@ -100,14 +100,14 @@ export const cattleyaABrazilianDream = {
             "finalidade": "Conserva alguma umidade sem fechar a mistura quando usada em granulometria adequada."
         },
         {
-            "asset": "perlita",
-            "nome": "Perlita grossa",
+            "asset": "casca-arroz-carbonizada",
+            "nome": "Casca de arroz carbonizada",
             "proporcao": "20%",
             "nota": "aeração",
             "finalidade": "Amplia a porosidade e reduz a compactação do recipiente."
         },
         {
-            "asset": "carvao-vegetal",
+            "asset": "carvao",
             "nome": "Carvão vegetal médio",
             "proporcao": "15%",
             "nota": "drenagem",
@@ -115,6 +115,6 @@ export const cattleyaABrazilianDream = {
         }
     ],
     "alerta": "Receita inferida para planta adulta; estudos de plântulas dos parentais não demonstram o melhor substrato deste híbrido. Observar secagem e manter drenagem.",
-    "notaEvidencia": "MACS 1.1 — revisão documental: Cattleya A Brazilian Dream (C. nobilior × C. loddigesii) é grex híbrido com variação clonal; raízes epífitas e necessidade de aeração, com secagem ajustada à atividade radicular. Cachepô de Madeira permanece proposta principal publicada, sem superioridade comprovada sobre plástico vasado ou barro; métodos têm estrelas null e rankings anteriores eram heurísticos. Receita visual e textual coincidem: 40% macadâmia média + 25% pinus médio/grosso + 20% perlita grossa + 15% carvão vegetal médio = 100%. Duas outras misturas qualitativas distintas: pinus/carvão/brita e chips coco preparados/macadamia/carvão/argila expandida; não são a origem dos percentuais visuais. Estudos dos parentais não homologam o substrato do grex. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e suportes NÃO HOMOLOGADOS",
+    "notaEvidencia": "MACS 1.1 — revisão documental: Cattleya A Brazilian Dream (C. nobilior × C. loddigesii) é grex híbrido com variação clonal; raízes epífitas e necessidade de aeração, com secagem ajustada à atividade radicular. Cachepô de Madeira permanece proposta principal publicada, sem superioridade comprovada sobre plástico vasado ou barro; métodos têm estrelas null e rankings anteriores eram heurísticos. Receita visual e textual coincidem: 40% macadâmia média + 25% pinus médio/grosso + 20% casca de arroz carbonizada + 15% carvão vegetal médio = 100%. Duas outras misturas quantitativas editoriais distintas: pinus/carvão/casca de arroz carbonizada/argila expandida (45/25/20/10) e fibra de coco preparada/macadâmia/carvão/argila expandida (40/30/20/10); não são a origem dos percentuais visuais. Estudos dos parentais não homologam o substrato do grex. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e suportes NÃO HOMOLOGADOS",
     }
 };
