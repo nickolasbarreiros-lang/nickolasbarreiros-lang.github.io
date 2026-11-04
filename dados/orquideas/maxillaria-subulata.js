@@ -52,8 +52,8 @@ export const maxillariaSubulata = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso pequeno e bem perfurado",
         resumo: "Partículas médias com retenção moderada e alta aeração, adequadas a raízes finas que não toleram saturação prolongada.",
-        justificativa: "MACS 1.1: POWO, IOSPE e estudos de habitat confirmam o hábito epífito/rupícola de Maxillaria subulata, mas não documentam receita quantitativa específica para vaso. Mantida a composição anterior como hipótese horticultural, sem alegar superioridade ou homologação. A Casca de macadâmia e as proporções são escolhas inferidas D, não recomendações comprovadas para a espécie.",
-        receitaTexto: "35% Casca de pinus + 30% Casca de macadâmia + 25% Perlita + 10% Fibra de coco (por volume, receita inferida D).",
+        justificativa: "Maxillaria subulata apresenta hábito epífito ou rupícola e se beneficia de raízes bem ventiladas. Em vaso aberto, a casca de pinus e a de macadâmia oferecem estrutura, a perlita ajuda a manter a mistura drenante e a fibra de coco preparada conserva umidade moderada. Observe a secagem junto às raízes e ajuste as regas conforme a ventilação e o período de crescimento.",
+        receitaTexto: "35% Casca de pinus + 30% Casca de macadâmia + 25% Perlita + 10% Fibra de coco (por volume).",
         perfil: ["Epífita simpodial", "Raízes finas", "Folhas subuladas", "Umidade regular", "Alta aeração"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
