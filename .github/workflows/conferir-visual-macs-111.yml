@@ -39,6 +39,13 @@ jobs:
             const texts=await entries.allTextContents();
             if(!texts[0].toLowerCase().includes('casca de pinus')||!texts[1].toLowerCase().includes('chips de coco'))throw Error('Ingredientes das alternativas divergentes: '+texts.join(' | '));
             if(texts.some(t=>/\b\d+\s*%/.test(t)))throw Error('Alternativas não podem ter percentuais: '+texts.join(' | '));
+            const mainParts=await page.locator('.ingrediente-substrato-v4 .proporcao-substrato-v4').allTextContents();
+            const values=mainParts.map(s=>Number(s.trim().replace('%','')));
+            if(values.length<2||values.some(v=>!Number.isFinite(v))||values.reduce((a,b)=>a+b,0)!==100)throw Error('Mistura principal inválida: '+mainParts.join(' | '));
+            await page.locator('#ficha img').evaluateAll(nodes=>nodes.forEach(img=>{img.loading='eager'}));
+            await page.waitForFunction(() => [...document.querySelectorAll('#ficha img')].every(img=>img.complete),{timeout:20000});
+            const broken=await page.locator('#ficha img').evaluateAll(nodes=>nodes.filter(img=>img.naturalWidth===0).map(img=>img.getAttribute('src')));
+            if(broken.length)throw Error('Imagens não carregadas: '+broken.join(' | '));
             if(errors.length)throw Error('Erros JavaScript: '+errors.join(' | '));
             await section.screenshot({path:'macs-111-substrato-desktop.png'});
             await page.setViewportSize({width:390,height:844});
