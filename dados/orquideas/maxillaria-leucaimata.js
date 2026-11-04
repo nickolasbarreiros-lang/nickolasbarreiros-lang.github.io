@@ -51,7 +51,7 @@ export const maxillariaLeucaimata = {
         titulo: "Substrato ideal",
         contexto: "Mistura mineral muito aberta para vaso pequeno",
         resumo: "Predomínio de partículas minerais drenantes, com fração orgânica grossa reduzida para raízes sensíveis à saturação.",
-        justificativa: "A receita visual para vaso pequeno combina perlita grossa, brita fina/média, casca de macadâmia triturada e pinus médio. A composição visual corresponde à receita textual principal, acompanhada de exatamente duas alternativas qualitativas. A espécie ocorre como epífita e rupícola, mas o hábito natural não estabelece percentuais ótimos; não há ensaio específico que valide a mistura de 65% de componentes minerais e 35% orgânicos. Mistura provisória, ainda não homologada pela MACS 1.1.",
+        justificativa: "Maxillaria leucaimata apresenta hábito epífito ou rupícola e se beneficia de raízes ventiladas e drenagem rápida. Em vaso pequeno, a perlita grossa e a brita mantêm espaços de ar, enquanto as cascas de macadâmia e pinus oferecem apoio e alguma retenção de umidade. Observe a secagem do recipiente e ajuste a granulometria ao tamanho das raízes, evitando compactação e superaquecimento.",
         receitaTexto: "35% perlita grossa + 30% brita fina/média + 25% casca de macadâmia triturada + 10% casca de pinus média.",
         perfil: ["Epífita ou rupícola", "Raízes finas", "Alta oxigenação", "Drenagem rápida", "Umidade sem saturação"],
         comportamento: [
