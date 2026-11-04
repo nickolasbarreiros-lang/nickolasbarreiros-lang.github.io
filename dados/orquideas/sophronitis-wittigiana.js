@@ -25,7 +25,7 @@ export const sophronitisWittigiana = {
         "imagens/Cattleya wittigiana/Cattleya wittigiana3.jpeg",
         "imagens/Cattleya wittigiana/Cattleya wittigiana4.webp"
     ],
-    "descricao": "Uma joia das montanhas do Sudeste brasileiro! Cattleya wittigiana é uma miniatura que surpreende pelo contraste entre a planta compacta e suas flores grandes, em tons de rosa a magenta. Cresce sobre galhos cobertos de musgo em florestas serranas úmidas, onde recebe muita umidade, ar em movimento e noites mais frescas. No litoral quente ela exige atenção extra, sobretudo para manter as raízes frescas e oxigenadas sem transformar o cultivo em um ambiente constantemente molhado.",
+    "descricao": "Uma joia das montanhas do Sudeste brasileiro! Cattleya wittigiana é uma miniatura que surpreende pelo contraste entre a planta compacta e suas flores grandes, em tons de rosa a magenta. Cresce sobre galhos cobertos de musgo em florestas serranas úmidas, onde recebe muita umidade, ar em movimento e noites mais frescas. No litoral quente ela exige atenção extra, sobretudo para manter as raízes frescas e oxigenadas sem transformar o cultivo em um ambiente constantemente molhado. Os pseudobulbos pequenos sustentam folhas firmes e realçam a dimensão das flores, que se destacam mesmo em touceiras pouco volumosas.",
     "origem": "Brasil",
     "regiao": "Serras úmidas do Sudeste brasileiro",
     "habitat": "Mata Atlântica montana · epífita · ~700–2.000 m.",
