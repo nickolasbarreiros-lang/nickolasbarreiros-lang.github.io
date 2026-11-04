@@ -305,3 +305,8 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - Estudo *A família Orchidaceae no Parque Estadual da Ilha do Cardoso, Cananeia, SP, Brasil* (texto disponibilizado em https://www.researchgate.net/publication/234102864_A_familia_Orchidaceae_no_Parque_Estadual_da_Ilha_do_Cardoso_Cananeia_SP_Brasil) descreve *Anathallis sclerophylla* e relaciona três exemplares cultivados no Instituto de Botânica: R.P. Romanini 178, fl., 27-I-2005; Romanini 183, fl., 2-III-2005; Romanini 282, fl., 6-IV-2006. O trabalho resume floração em cultivo de janeiro a abril.
 - O calendário da ficha recebeu **março e abril** e agora contém `[10,11,12,1,2,3,4,6]`, separando na explicação ocorrências de campo (outubro–fevereiro e junho) de observações em cultivo (janeiro–abril).
 - Evidência específica **de floração em cultivo**, não de proporções de substrato ou comparação de suportes: não autoriza atribuir estrelas nem homologar MACS 1.1. Classe D preservada.
+
+### Correção de extrapolação climática — ficha 1 (2026-11-04)
+- O campo `climaFloracao` afirmava amplitude altitudinal geral e tolerância de quente a frio. Essa inferência excedia o alcance dos registros regionais documentados e foi substituída por texto que separa observações naturais de orientações práticas provisórias.
+- IDC 3.2 e IAR 2.0 foram preservados: a correção de prosa não constitui reavaliação empírica das notas de seus fatores. A adequação científica das notas de temperatura permanece passível de reexame com dados específicos.
+- Não foram alterados meses de floração nesta etapa: referências secundárias ainda requerem confirmação bibliográfica antes de ampliar o calendário. MACS 1.1 continua Classe D, sem homologação quantitativa.
