@@ -14,3 +14,6 @@ Sem perlita. Receitas são hipóteses editoriais não comparadas experimentalmen
 Quatro fotos verificadas em imagens/Rodricidium/ (.jpg, .webp, .avif). Assets conferidos: casca-pinus, chips-coco, argila-expandida, carvao, esfagno, casca-macadamia, vaso-barro, cesto-madeira, placa-tronco, vaso-plastico-vasado.
 Correção publicada no commit 5657f05a9f6c11199c02e85ca8668b1be286b69c.
 Pendente Chromium desktop/mobile e encerramento técnico.
+
+## Errata editorial de 2026-11-04 — revisão corretiva
+O encerramento técnico anterior não cobre as alterações posteriores. Receita principal: 35% pinus + 30% chips coco + 25% perlita + 10% carvão = 100%. Duas alternativas qualitativas, sem percentuais. Perlita original restaurada; não substituir material por disponibilidade de asset. Asserções anteriores de percentuais das alternativas revogadas. **Revalidação Chromium corretiva em andamento**. Status científico D, sem homologação quantitativa.
