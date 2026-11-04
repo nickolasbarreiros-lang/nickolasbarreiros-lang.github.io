@@ -75,7 +75,7 @@ export const catasetumMattosianum = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
-        "justificativa": "A espécie é epífita pseudobulbosa de ambiente tropical úmido, com registros em florestas ombrófilas e restingas; a orientação sazonal é baseada no gênero Catasetum. Mistura leve com reserva hídrica pode favorecer o crescimento ativo; durante a dormência, reduzir fortemente as regas e observar a secagem do recipiente, sem pressupor que a mistura seque sozinha. Proporções são hipótese, não receita testada na espécie.",
+        "justificativa": "Catasetum mattosianum apresenta crescimento sazonal, com necessidade de água mais frequente enquanto produz raízes e pseudobulbos. Os chips de coco preparados e a casca de pinus ajudam a conservar umidade durante essa fase, enquanto a perlita e a casca de arroz carbonizada favorecem a aeração. Na dormência, reduza fortemente as regas conforme a planta e a secagem do recipiente; não mantenha o substrato continuamente úmido quando as raízes estiverem inativas.",
         "receitaTexto": "35% chips de coco médios preparados + 30% casca de pinus média + 20% perlita grossa + 15% casca de arroz carbonizada.",
         "perfil": ["Raízes vigorosas", "Bulbos de reserva", "Ciclo sazonal", "Crescimento úmido", "Repouso seco", "Boa drenagem"],
         "comportamento": [
