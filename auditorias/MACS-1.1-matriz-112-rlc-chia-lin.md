@@ -27,7 +27,7 @@ Todas são propostas editoriais D; a receita A não é experimentalmente superio
 Sem medidas comparativas, **não atribuir notas 0–5 nem índice 0–100**. A preferência pode inverter conforme vaso, temperatura, rega e granulometria.
 
 ## Classificação independente
-- Taxonomia: híbrido horticultural, nome/parentalidade ainda requerem confirmação primária nesta matriz.
+- Taxonomia: **confirmada no RHS International Orchid Register**, grex Rhyncholaeliocattleya Chia Lin, registrado em 01/09/1989 por Su Ping-Ho, cruzamento Rlc. Oconee × Rlc. Maitland, sinônimo genérico Brassolaeliocattleya.
 - Ecologia: não se aplica habitat natural ao grex; fisiologia epífita inferida dos parentais.
 - Composição: **D**.
 - Percentuais: **D**.
@@ -35,4 +35,8 @@ Sem medidas comparativas, **não atribuir notas 0–5 nem índice 0–100**. A p
 - Resultado: **provisório**, sem homologação quantitativa C.
 
 ## Integração
-Arquivo `dados/orquideas/blc-chia-lin.js`, commit `dfe28c36483989155f8ca0f7e335b8b2e81c830f`. Retirada a perlita vetada, corrigida referência redundante a litoral e preservadas quatro fotos, quatro métodos, layout V4.9, IDC/IAR. Exatamente duas alternativas B/C com percentuais. **Pendências para encerrar:** confirmar assets físicos, verificação Chromium e consulta documental primária do grex; não avançar à matriz 113 enquanto houver pendência.
+Arquivo `dados/orquideas/blc-chia-lin.js`, commit `dfe28c36483989155f8ca0f7e335b8b2e81c830f`. Retirada a perlita vetada, corrigida referência redundante a litoral e preservadas quatro fotos, quatro métodos, layout V4.9, IDC/IAR. Exatamente duas alternativas B/C com percentuais. **Pendências para encerrar:** verificação Chromium; não avançar à matriz 113 enquanto houver pendência.
+
+## Verificações documentais e assets — 2026-11-03
+Fonte primária RHS: https://apps.rhs.org.uk/horticulturaldatabase/orchidregister/orchiddetails.asp?ID=85628 — nome aceito, sinônimo genérico, data, registrante e parentalidade confirmados. Fonte secundária OrchidRoots: https://orchidroots.com/display/summary/orchidaceae/100085628/ . Produtor brasileiro identificado: Orquidário Suzuki https://www.orquidariosuzuki.com.br/blc-chia-lin-new-city-adulta- — comercializa clone 'New City', cita clima tropical e sombreamento 70%, **não** documenta fórmula de substrato. Assim: 1 produtor brasileiro com registro comercial específico, 0 receitas quantitativas específicas; meta 25 não atingida.
+Arquivos físicos confirmados na API do GitHub: quatro fotos em `imagens/Blc. Chia Lin/` e assets `macadamia.webp`, `casca-pinus.webp`, `brita-v2.webp`, `carvao-vegetal.webp`, `vaso-barro.webp`, `cesto-madeira-v3.webp`, `vaso-plastico-vasado-v2.webp`, `placa-madeira-v3.webp` em `imagens/cultivo-v4/`. Os oito identificadores estão mapeados em `js/biblioteca-cultivo-v4.js`. A presença no repositório não prova carregamento visual, a testar em Chromium. A substituição de perlita por brita é decisão editorial que altera massa e retenção, sem alegar equivalência física.
