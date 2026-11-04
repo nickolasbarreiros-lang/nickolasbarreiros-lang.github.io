@@ -41,3 +41,6 @@ Nenhuma das três porcentagens foi publicada como ótima ou experimentalmente de
 
 ## Decisão e integração
 Preservar suporte principal placa/tronco, V4.9, IDC 3.2, IAR 2.0, fotos, estrelas e quatro métodos. Receita visual A mantida; exatamente duas alternativas B/C agora quantitativas, sempre com ressalva D. Atualização de `dados/orquideas/acianthera-sonderiana.js` commit `665bb9b42e69bd9570b1e88178a3f05ab716360d`. Falta validar a renderização automatizada da matriz 111 antes de encerrá-la.
+
+## Verificação funcional final — 2026-11-03
+Execução [41763792791](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41763792791) do GitHub Actions **concluída com sucesso**. Playwright/Chromium abriu `orquidea.html?id=acianthera-sonderiana` em servidor HTTP local, aguardou `.substrato-visual-v4`, verificou duas alternativas `.substratos-recomendados-v4 li` com prefixos `55% Casca de pinus` e `45% Chips de coco`, sem erros JavaScript `pageerror`. Capturas desktop e mobile geradas como artefato da execução. Teste funcional automatizado aprovado; não equivale a inspeção humana de pixels nem teste da URL pública. **Matriz 111 encerrada quanto à auditoria técnica/documental e teste funcional disponível. Classificação da receita permanece D provisória, sem homologação quantitativa C.**
