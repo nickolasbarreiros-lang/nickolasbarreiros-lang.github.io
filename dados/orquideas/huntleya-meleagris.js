@@ -46,7 +46,7 @@ export const huntleyaMeleagris = {
         titulo: "Substrato ideal",
         contexto: "Mistura para vaso raso e bastante perfurado",
         resumo: "Mistura aberta que retém umidade moderada e fornece oxigênio continuamente às raízes delicadas.",
-        justificativa: "A receita principal para vaso raso e bastante perfurado combina pinus médio, chips de coco médios preparados, perlita grossa e carvão vegetal; a revista Orquidário (2008) cita mistura histórica de folhas parcialmente decompostas e terra vegetal para Huntleyas, sem proporções e sem teste comparativo; texto e composição visual coincidem. As duas alternativas qualitativas são diferentes da receita principal, sem proporções homologadas. Como Huntleya meleagris não forma pseudobulbos, deve-se evitar secagem completa, mas 35% de chips de coco não foi validado especificamente e a retenção deve ser observada conforme temperatura, ventilação e frequência de rega. MACS 1.1: proporções provisórias sem homologação quantitativa específica",
+        justificativa: "Huntleya meleagris não forma pseudobulbos e precisa de umidade relativamente constante, sem secagem completa das raízes. Em vaso raso e bastante perfurado, a casca de pinus oferece estrutura, os chips de coco preparados ajudam a conservar umidade e a perlita e o carvão favorecem a aeração. Observe a secagem no centro do vaso e ajuste as regas à temperatura e à ventilação, evitando encharcamento.",
         receitaTexto: "35% casca de pinus média + 35% chips de coco médios preparados + 20% perlita grossa + 10% carvão vegetal.",
         perfil: ["Sem pseudobulbos", "Folhas em leque", "Alta umidade", "Raízes sensíveis", "Sombra clara"],
         comportamento: [
