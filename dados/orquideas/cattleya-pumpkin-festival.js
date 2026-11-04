@@ -6,7 +6,7 @@ export const cattleyaPumpkinFestival = {
     genero: "Cattleya",
     sinonimo: "Sophrolaeliocattleya Pumpkin Festival (Slc. Pumpkin Festival)",
     tipo: "Híbrido horticultural complexo",
-    dificuldade: "Fácil",
+    dificuldade: "Muito fácil",
     caracteristicas: [
         "Híbrido horticultural",
         "Flores laranja a cobre",
@@ -95,7 +95,7 @@ export const cattleyaPumpkinFestival = {
         "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
         "indice": 20,
-        "classificacao": "Fácil",
+        "classificacao": "Muito fácil",
         "cultivoEstrelas": 5,
         "criterios": {
             "temperatura": {
