@@ -6,7 +6,7 @@ export const cattleyaGuttataVarCoerulea = {
     id: "cattleya-guttata-var-coerulea",
     nome: "Cattleya guttata f. coerulea",
     genero: "Cattleya",
-    sinonimo: "Epidendrum elatius",
+    sinonimo: "Cattleya guttata var. caerulea; Epidendrum elatius",
     tipo: "Espécie botânica — forma horticultural coerulea",
     dificuldade: "Moderada",
     caracteristicas: [
@@ -23,9 +23,9 @@ export const cattleyaGuttataVarCoerulea = {
         "imagens/Cattleya guttata f. coerulea/Cattleya guttata f. coerulea3.jpg",
         "imagens/Cattleya guttata f. coerulea/Cattleya guttata f. coerulea4.webp"
     ],
-    descricao: "Uma Cattleya brasileira de presença marcante! Cattleya guttata pode formar pseudobulbos altos e grandes touceiras, recompensando o espaço ocupado com hastes carregadas de flores cerosas e pintalgadas. Nesta seleção coerulea, o contraste fica ainda mais interessante: em vez dos tons mais quentes normalmente vistos no labelo, surgem nuances lavanda, violeta frio ou azuladas — nunca um azul puro. É uma espécie perfumada, vigorosa e naturalmente muito bem adaptada ao calor, à luminosidade elevada e à ventilação dos ambientes costeiros. Em plantas adultas, o conjunto de pseudobulbos altos com numerosas flores cria uma floração realmente impressionante.",
+    descricao: "Cattleya guttata é uma orquídea brasileira de grande porte, com pseudobulbos altos e cilíndricos, normalmente terminados em duas folhas coriáceas. Na floração, hastes eretas sustentam várias flores cerosas, de pétalas e sépalas esverdeadas ou castanhas com pintas contrastantes. O labelo costuma apresentar tons rosados ou púrpura e pode variar bastante entre exemplares. Na seleção conhecida entre colecionadores como coerulea, predominam nuances frias, lavanda ou violáceas, sem que as flores sejam realmente azuis. A espécie ocorre em diferentes formações brasileiras, incluindo restingas e florestas costeiras, e impressiona pela combinação de altura, perfume e inflorescências multiflorais.",
     origem: "Brasil",
-    regiao: "Leste, Sudeste e Sul do Brasil",
+    regiao: "Nordeste, Centro-Oeste, Sudeste e Sul do Brasil",
     habitat: "Restingas e matas costeiras abertas · baixa altitude",
     clima: "Quente · úmido · muito ventilado",
     climaFloracao: "A floração depende de pseudobulbos plenamente maduros, luminosidade muito alta e raízes saudáveis. Após a maturação, aumente moderadamente o intervalo entre as regas, mas sem impor repouso seco rígido. Plantas adultas e bem entouceiradas podem sustentar hastes com muitas flores, e a estabilidade mecânica do conjunto é essencial para que raízes novas não sejam rompidas pelo balanço dos pseudobulbos altos.",
@@ -118,18 +118,18 @@ export const cattleyaGuttataVarCoerulea = {
         }
     ],
     "alerta": "Proporções heurísticas (35/25/25/15), não validadas experimentalmente para Cattleya guttata; observar secagem, fixação da touceira e estabilidade do vaso.",
-    "notaEvidencia": "MACS 1.1 — revisão documental: Cattleya guttata f. coerulea (designação horticultural), bifoliada epífita de grande porte; priorizar estabilidade da touceira, drenagem e ventilação. Suportes: vaso barro indicado (heurística 82/100), cachepô madeira 79/100, plástico vasado 78/100 mencionado no resumo, e os métodos agora especificam VASO PLÁSTICO VASADO; estrelas dos métodos são null, portanto não inferir estrelas ou equiparar recipientes. Receita visual 35% macadâmia + 25% pinus + 25% brita fina + 15% carvão = 100%; receitaTexto e itens concordam. Receita principal visual e textual concordam; mantidas somente duas alternativas qualitativas distintas, sem atribuir-lhes os percentuais da principal. Justificativa reconhece percentuais heurísticos não validados; conferir origem da alegação sobre recomendações brasileiras e distinguir evidência publicada de inferência. Validar peso de 25% brita, estabilidade, granulometria e secagem; meta até 25 produtores brasileiros específicos não atingida. Percentuais, notas e estrelas NÃO HOMOLOGADOS."
+    "notaEvidencia": "MACS 1.1 — revisão documental: Cattleya guttata f. coerulea (designação horticultural; C. guttata var. caerulea L.C.Menezes é sinônimo heterotípico da espécie em POWO), bifoliada epífita de grande porte; priorizar estabilidade da touceira, drenagem e ventilação. Suportes: vaso barro indicado (heurística 82/100), cachepô madeira 79/100, plástico vasado 78/100 mencionado no resumo, e os métodos agora especificam VASO PLÁSTICO VASADO; estrelas dos métodos são null, portanto não inferir estrelas ou equiparar recipientes. Receita visual 35% macadâmia + 25% pinus + 25% brita fina + 15% carvão = 100%; receitaTexto e itens concordam. Receita principal visual e textual concordam; mantidas somente duas alternativas qualitativas distintas, sem atribuir-lhes os percentuais da principal. Justificativa reconhece percentuais heurísticos não validados; Orquidário Oriental descreve substrato de brita, fibra de coco e pinus para a forma alba, sem proporções; Orquidário 4 Estações indica pinus e cachepô para C. guttata, também sem percentuais. Estudos brasileiros de substrato em C. intermedia e C. loddigesii são de outras espécies e de plântulas, não validam esta mistura para C. guttata adulta. Duas orientações brasileiras qualitativas, zero receitas percentuais específicas verificadas nesta passagem. Validar peso de 25% brita, estabilidade, granulometria e secagem; meta até 25 produtores brasileiros específicos não atingida. Percentuais, notas e estrelas NÃO HOMOLOGADOS."
 },
     errosComuns: "• Planta balançando após o replantio, rompendo pontas radiculares novas.\n• Vaso leve que tomba com o peso dos pseudobulbos.\n• Sombra excessiva e crescimento estiolado.\n• Vaso enorme com núcleo constantemente úmido.\n• Substrato velho e decomposto.\n• Secar demais durante a formação de novos pseudobulbos.\n• Dividir clones valiosos em pedaços muito pequenos.\n• Replantar quando não há novas raízes em início de crescimento.\n• Adubação excessiva ou uso de fósforo muito concentrado.",
     dica: "🏆 Imobilize a base antes de pensar na floração. O grande porte transforma cada pseudobulbo em uma alavanca: vento ou esbarrões podem movimentar o rizoma e romper as pontas das raízes novas. Após o replantio, fixe firmemente rizoma e pseudobulbos principais com amarração macia ou revestida, sem estrangular os tecidos. Preserve divisões com pelo menos 4 a 5 pseudobulbos e, em clones coerulea valiosos, prefira touceiras ainda maiores. Faça o replantio quando as primeiras raízes novas começarem a aparecer.",
     revisaoCientificaIAR: {
         "nome": "Cattleya guttata f. coerulea",
         "statusTaxonomico": "Cattleya guttata é o nome aceito; coerulea é designação horticultural de coloração nesta ficha, não um táxon infraespecífico formalmente aceito.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma Cattleya brasileira de presença marcante! Cattleya guttata pode formar pseudobulbos altos e grandes touceiras, recompensando o espaço ocupado com hastes carregadas de flores cerosas e pintalgadas. Nesta seleção coerulea, o contraste fica ainda mais interessante: em vez dos tons mais quentes normalmente vistos no labelo, surgem nuances lavanda, violeta frio ou azuladas — nun",
+        "sinonimosPrincipais": "Cattleya guttata var. caerulea L.C.Menezes (1993), C. elatior e Epidendrum elatius são sinônimos heterotípicos segundo POWO; coerulea é grafia horticultural da seleção de cor.",
+        "morfologiaDimensoes": "Pseudobulbos cilíndricos com mais de 30 cm e duas ou três folhas elíptico-oblongas; inflorescências eretas multiflorais e flores cerosas pintalgadas, com labelo de coloração variável (Flora do Brasil 2020).",
         "habitatAltitudeClima": "Restingas e matas costeiras abertas · baixa altitude | Quente · úmido · muito ventilado",
-        "distribuicaoGeografica": "Leste, Sudeste e Sul do Brasil",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "distribuicaoGeografica": "Nordeste, Centro-Oeste, Sudeste e Sul do Brasil (POWO).",
+        "cultivoPremiacao": "Orquidário Oriental indica brita, fibra de coco e pinus para C. guttata alba; Orquidário 4 Estações cita pinus e cachepô para C. guttata. Sem percentuais ou ensaio da forma coerulea.",
         "confianca": "alta",
         "fontes": [
             "POWO/Kew",
@@ -260,7 +260,7 @@ export const cattleyaGuttataVarCoerulea = {
     },
         adaptacaoRegional: {
         litoralQuente: { texto: "Litoral de clima quente combina calor e umidade atmosférica favoráveis à espécie; o principal cuidado é evitar substrato velho, centro encharcado e falta de ventilação em noites quentes." },
-        montanhaFrio: { texto: "Se houver muita luminosidade. Proteja de geadas e reduza as regas quando frio e umidade diminuírem a evaporação." }
+        montanhaFrio: { texto: "Com luminosidade elevada e proteção contra geadas e reduza as regas quando frio e umidade diminuírem a evaporação." }
     },
     mesesFloracao: [2, 3, 4, 5, 6],
     "selosCultivo": {
