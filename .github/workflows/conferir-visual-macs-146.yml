@@ -34,10 +34,12 @@ jobs:
             if(!texts[0].includes('Casca de pinus')||!texts[1].includes('Casca de macadâmia'))throw Error('Componentes das alternativas incorretos: '+texts.join(' | '));
             if(texts.some(t=>/\b\d+\s*%/.test(t)))throw Error('Alternativas devem ser qualitativas, sem percentuais: '+texts.join(' | '));
             await page.locator('#ficha img').evaluateAll(nodes=>nodes.forEach(img=>{img.loading='eager'}));
-            await page.waitForTimeout(1200);
+            await page.waitForFunction(() => [...document.querySelectorAll('#ficha img')].every(img => img.complete),{timeout:20000});
             const images=await page.locator('#ficha img').evaluateAll(nodes=>nodes.map(img=>({src:img.getAttribute('src'),loaded:img.complete&&img.naturalWidth>0})));
             const broken=images.filter(img=>!img.loaded);
             if(broken.length)throw Error('Imagens não carregadas: '+JSON.stringify(broken));
+            const mainParts=await page.locator('.ingrediente-substrato-v4 .proporcao-substrato-v4').allTextContents();
+            if(mainParts.map(s=>s.trim()).join('|')!=='45%|25%|20%|10%')throw Error('Proporções principais divergentes: '+mainParts.join(' | '));
             const photos=images.filter(img=>/Cattleya Pumpkin Festival[1-4]\.(webp|png)/i.test(img.src||''));
             if(new Set(photos.map(img=>img.src)).size!==4)throw Error('Esperadas quatro fotos da ficha; encontradas '+photos.length);
             if(errors.length)throw Error('Erros JavaScript: '+errors.join(' | '));
@@ -48,6 +50,7 @@ jobs:
             const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth+2);
             if(overflow)throw Error('Overflow horizontal na visualização celular');
             await page.screenshot({path:'macs-146-ficha-mobile.png',fullPage:true});
+            if(errors.length)throw Error('Erros JavaScript desktop/mobile: '+errors.join(' | '));
             console.log('APROVADO: renderização desktop/mobile, 2 receitas alternativas sem percentuais e sem erros JavaScript.');
             await browser.close();
           })().catch(e=>{console.error(e);process.exit(1)});
