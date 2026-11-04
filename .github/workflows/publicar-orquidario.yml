@@ -8,8 +8,8 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: orquidario-pages-${{ github.ref }}
-  cancel-in-progress: true
+  group: orquidario-pages
+  cancel-in-progress: false
 jobs:
   validar:
     runs-on: ubuntu-latest
