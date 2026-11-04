@@ -5,6 +5,8 @@ on:
       - '.github/workflows/conferir-visual-macs-111.yml'
       - 'dados/orquideas/acianthera-sonderiana.js'
       - 'orquidea.html'
+      - 'ficha.js'
+      - 'estilos.css'
       - 'js/**'
       - 'css/**'
   workflow_dispatch:
