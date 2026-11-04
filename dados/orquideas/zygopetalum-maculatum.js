@@ -40,7 +40,7 @@ export const zygopetalumMaculatum = {
     "adubacao": "🌿 Orgânica: bokashi em sachê pequeno na borda do vaso.\n💧 Mineral/Foliar: NPK equilibrado bem diluído a cada 7–15 dias durante brotação ativa.\n🧪 Liberação lenta: Osmocote apenas em dose muito baixa, pois o calor acelera a liberação.\n🚿 Lavagem: faça lavagens periódicas do substrato para remover sais.",
     "rega": "Mantenha o substrato levemente úmido, regando pela manhã. No frio, reduza a frequência conforme a evaporação, mas preserve pseudobulbos firmes. Evite água acumulada nos brotos novos e regas noturnas.",
     "suporte": "🥇 Vaso de barro muito perfurado — favorece resfriamento por evaporação.\n🥈 Vaso plástico claro, largo e baixo — reduz absorção de calor.\nPosicione preferencialmente em bancada baixa e fresca, sem bloquear o fluxo de ar.",
-    substrato: ["45% chips de coco médios preparados + 30% casca de pinus média + 25% carvão vegetal médio","40% casca de macadâmia média + 35% chips de coco médios preparados + 25% casca de pinus média"],
+    substrato: ["chips de coco médios preparados + casca de pinus média + carvão vegetal médio","casca de macadâmia média + chips de coco médios preparados + casca de pinus média"],
     formasCultivo: {
         perfilVisual: "zygopetalum-maculatum-terrestre-rupicola-raizes-sensiveis-calor",
         destaque: "Vaso de Barro",
