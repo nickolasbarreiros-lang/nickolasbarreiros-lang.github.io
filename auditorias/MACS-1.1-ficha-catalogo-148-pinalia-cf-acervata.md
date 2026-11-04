@@ -1,6 +1,6 @@
 # MACS 1.1 — Ficha 148 do catálogo — Pinalia cf. acervata
 
-Data: 2026-11-04. **EM AUDITORIA TÉCNICA — NÃO ENCERRADA.** Posição 148 no catálogo; arquivo histórico `dados/orquideas/pinalia-elata.js`, ID `pinalia-elata`. Não renomear ID sem avaliar compatibilidade dos links.
+Data: 2026-11-04. **AUDITORIA TÉCNICA ENCERRADA — CHROMIUM #2 APROVADO E CINCO CAPTURAS INSPECIONADAS. HOMOLOGAÇÃO CIENTÍFICA QUANTITATIVA: CLASSE D (NÃO HOMOLOGADA).** Posição 148 no catálogo; arquivo histórico `dados/orquideas/pinalia-elata.js`, ID `pinalia-elata`. Não renomear ID sem avaliar compatibilidade dos links.
 
 ## Primeira conferência estática
 - **Identificação provisória:** `Pinalia cf. acervata`; a ficha explicita que a confirmação depende de caracteres diagnósticos do labelo. Não converter `cf.` em identificação definitiva sem evidência morfológica.
@@ -22,3 +22,11 @@ Data: 2026-11-04. **EM AUDITORIA TÉCNICA — NÃO ENCERRADA.** Posição 148 no
 - Workflow de verificação visual criado no commit aaf8f768: `.github/workflows/conferir-visual-macs-ficha-148.yml`. Resultado ainda não confirmado.
 - Referências para verificação botânica: Plants of the World Online (Kew), Flora of China e Flora of Thailand. A aceitação do nome científico não comprova a identificação individual do exemplar; manter `cf.` até análise morfológica documentada.
 - Diferenças entre medidas descritivas publicadas exigem atribuição precisa de cada dado à sua fonte. Não afirmar que uma única flora respalda todas as medidas da ficha.
+
+## Encerramento técnico — evidências do Chromium #2
+- Execução #2 do workflow `Conferência visual MACS 1.1 — ficha 148` aprovada conforme captura do GitHub Actions fornecida pelo usuário; commit `7ed8f5d`.
+- Inspeção das cinco imagens do ZIP `macs-ficha-148-inspecao-visual.zip`: `macs-ficha-148-diagnostico-desktop.png` (1465×4815), `macs-ficha-148-ficha-desktop.png` (1465×4815), `macs-ficha-148-ficha-mobile.png` (390×10663), `macs-ficha-148-substrato-desktop.png` (1235×800), `macs-ficha-148-substrato-mobile.png` (330×1998).
+- Quatro fotografias aparecem na galeria. Forma de cultivo principal e três alternativas aparecem com imagens; substrato principal apresenta os três ingredientes corretos 50% pinus + 30% carvão + 20% esfagno = 100%; exatamente duas alternativas sem percentuais. Layout desktop/mobile legível, sem defeitos visuais bloqueantes observados.
+- Observação cosmética: em tela estreita, o terceiro ingrediente do substrato passa para segunda linha; mantém legibilidade e não requer alteração.
+- **Resultado: auditoria técnica concluída.** A identificação continua provisória (*Pinalia cf. acervata*) e os percentuais/estrelas permanecem **classe D — não homologados quantitativamente**; aprovação técnica não constitui validação científica experimental.
+- Liberada a ficha seguinte do catálogo para iniciar auditoria individual, mantendo bloqueio de avanço até encerramento de cada ficha.
