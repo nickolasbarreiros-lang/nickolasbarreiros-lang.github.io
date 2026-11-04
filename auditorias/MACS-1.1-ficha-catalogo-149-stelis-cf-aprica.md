@@ -52,3 +52,9 @@ Workflow `.github/workflows/conferir-visual-macs-ficha-149.yml` publicado no com
 - Captura de GitHub Actions enviada pelo usuário confirma **sucesso (verde) da execução #3** do workflow `Conferência visual MACS 1.1 — ficha 149`, commit `89333ebe`, após correção do seletor de quatro métodos.
 - A captura mostra execução posterior relativa ao commit `535542bc` ainda **em andamento**; não registrar aprovação desta execução sem confirmação posterior.
 - A inspeção das cinco capturas do pacote da ficha 149 já foi concluída sem defeitos bloqueantes; encerramento técnico/visual documentado, **classe D** científica e identificação `cf.` preservadas.
+
+## Fechamento e limite do catálogo — 2026-11-04
+- A execução Chromium #3 no commit `89333ebe` foi confirmada aprovada e cinco capturas desktop/mobile inspecionadas sem falhas visuais bloqueantes.
+- As execuções #4 e #5 exibem a mensagem `Esperados quatro métodos de cultivo, incluindo o principal`, que corresponde à verificação antiga. Não é correto registrar aprovação dessas duas execuções; a origem de seu código executado deve ser analisada se forem usadas como critério de CI.
+- **Inspeção técnica e visual concluída com evidências da execução #3**, sem homologação quantitativa (classe D), mantendo `cf.`.
+- O índice oficial `dados/orquideas/index.js` possui **149 imports de fichas** e termina em `stelisCfAprica`. Não existe uma ficha 150 registrada para auditar. Para prosseguir, é necessário adicionar/indicar a espécie da próxima ficha, sem inventar um item do catálogo.
