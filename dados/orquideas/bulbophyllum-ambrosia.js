@@ -77,7 +77,7 @@ export const bulbophyllumAmbrosia = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
-        "justificativa": "A montagem principal em placa ou tronco mantém o rizoma exposto e dispensa substrato volumoso. A receita percentual é alternativa para recipiente raso e muito ventilado, combinando pinus, chips de coco médios preparados, perlita de granulometria adequada e esfagno de fibra longa solto, com soma de 100%. As duas outras misturas são alternativas qualitativas distintas, sem percentuais homologados. Observar a retenção dos 15% de esfagno e a secagem real em clima quente, sem abafar raízes nem brotos. MACS 1.1: proposta horticultural sem homologação quantitativa específica.",
+        "justificativa": "Bulbophyllum ambrosia pode ser cultivado em placa ou tronco, mantendo o rizoma exposto e as raízes ventiladas. Para recipiente raso e bem aberto, a casca de pinus e os chips de coco preparados oferecem apoio e retenção moderada, enquanto a perlita preserva espaços de ar. O esfagno solto ajuda a conservar umidade, mas não deve abafar raízes ou brotos. Observe a secagem em períodos quentes e ajuste as regas.",
         "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita de granulometria adequada + 15% esfagno de fibra longa solto.",
         "perfil": [
             "Rizoma rasteiro",
