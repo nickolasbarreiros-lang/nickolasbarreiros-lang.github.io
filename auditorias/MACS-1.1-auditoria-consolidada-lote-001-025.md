@@ -378,3 +378,9 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - Pesquisa UNESP (Rodrigues, 2022) com 25 plantas de BLC. Pumpkin Festival avaliou GA3 e floração sob 70% de sombreamento; não testou substratos, suportes nem sombreamento ótimo. Resultados não autorizam recomendação doméstica de hormônios.
 - Descrição editorial com 99 palavras; quatro suportes sem estrelas; duas alternativas qualitativas; receita 45% pinus + 25% carvão + 20% brita + 10% macadâmia = 100%, preservada.
 - **Homologação documental concluída — MACS 1.1 provisória Classe D**, sem validação quantitativa da receita ou dos suportes. Conferência visual final separada.
+
+### Ficha 12 — Dendrobium polysema (2026-11-04)
+- POWO reconhece *Dendrobium polysema* Schltr. (1905), circunscrevendo ocorrência nativa em Papua-Nova Guiné; Cribb (1983), via Naturalis/Orchids of New Guinea, inclui também Ilhas Salomão e Vanuatu. Divergência taxonômica/geográfica documentada sem falsa harmonização.
+- Cribb descreve pseudobulbos clavados de 20–50 cm, duas folhas apicais e inflorescências de até 45 cm; registros de populações montanas a 1.200–1.900 m e floração de campo em janeiro, maio, junho e agosto, sem extrapolar calendário brasileiro.
+- Conferência textual: descrição 103 palavras, quatro suportes `estrelas: null`, duas alternativas qualitativas, receita 45% pinus + 20% carvão + 20% macadâmia + 15% esfagno = 100%. Assets de barro e macadâmia padronizados no código; renderização final ainda não conferida.
+- **Homologação documental concluída — MACS 1.1 provisória Classe D**, sem validação experimental dos percentuais ou ranking de suportes. Conferência visual final separada.
