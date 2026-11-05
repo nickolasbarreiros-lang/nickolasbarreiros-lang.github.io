@@ -403,3 +403,10 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - Confronto com produtor brasileiro Colibri Orquídeas: alta umidade, boa luz e ventilação, sem encharcamento. Registro CAOB 2024 de segundo lugar em exposição, sem confusão com prêmio AOS. Ausência de confronto documentado com 25 produtores.
 - Conferência estrutural textual: descrição 95 palavras; quatro suportes `estrelas: null`; duas alternativas qualitativas; receita 45% pinus + 25% carvão + 20% brita + 10% esfagno = 100%; ID de brita padronizado. Etiqueta de dificuldade geral alinhada ao IDC 3.2 (30 pontos, Fácil).
 - **Homologação documental concluída — MACS 1.1 provisória Classe D.** Percentuais e hierarquia de suportes não homologados experimentalmente; verificação visual final separada.
+
+### Ficha 16 — Cattleya cernua / Sophronitis cernua (2026-11-04)
+- POWO aceita *Cattleya cernua* (Lindl.) Van den Berg (2010); IPNI identifica combinação de 2008 como inválida. Basiônimo *Sophronia cernua* Lindl. (1828); *Sophronitis cernua* (Lindl.) Lindl. (1838) é sinônimo homotípico.
+- POWO registra espécie epífita/litófita do Brasil ao nordeste da Argentina, em bioma tropical sazonalmente seco. AOS e IOSPE documentam populações costeiras, tolerância comparativa ao calor, luz intensa e necessidade de umidade e ventilação. Não extrapolar para sol pleno indiscriminado: campo `solDireto` corrigido para permitido com restrição, início da manhã/final da tarde.
+- Paubrasilia (2023) documenta registro no sudoeste da Bahia; CAOB registra terceiro lugar em exposição 2024, sem equivalência a premiação AOS.
+- Conferência textual: descrição 112 palavras; quatro suportes `estrelas: null`; duas alternativas qualitativas; receita 40% pinus + 30% carvão + 20% brita + 10% macadâmia = 100%. IDs de assets brita e macadâmia padronizados no código.
+- **Homologação documental concluída — MACS 1.1 provisória Classe D**, sem validação quantitativa dos percentuais ou ranking dos suportes. Conferência visual final separada.
