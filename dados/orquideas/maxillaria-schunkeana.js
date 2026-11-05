@@ -42,15 +42,16 @@ export const maxillariaSchunkeana = {
         destaque: "Vaso de Barro",
         resumo: "É uma Maxillaria pequena de floresta úmida e sombreada; o melhor cultivo combina umidade regular, raiz fresca, boa aeração e proteção total do sol forte.",
         metodos: [
-            { nome: "Vaso de Barro", asset: "vaso-barro-perfurado", estrelas: 5, status: "Ideal", texto: "Ajuda a manter a zona radicular fresca e permite secagem uniforme sem deixar a pequena touceira desidratar rapidamente." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Funciona bem em locais de secagem mais rápida, desde que o vaso seja pequeno e a mistura permaneça aberta." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 3, status: "Adequado", texto: "É útil em ambientes muito úmidos, mas exige atenção porque pode secar rápido demais para esta espécie." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Pode funcionar com alta umidade ambiental e regas consistentes; em clima seco, a oscilação hídrica aumenta bastante." }
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Preferência técnica provisória", texto: "Ajuda a manter a zona radicular fresca e permite secagem uniforme sem deixar a pequena touceira desidratar rapidamente." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Funciona bem em locais de secagem mais rápida, desde que o vaso seja pequeno e a mistura permaneça aberta." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa provisória", texto: "É útil em ambientes muito úmidos, mas exige atenção porque pode secar rápido demais para esta espécie." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Alternativa provisória", texto: "Pode funcionar com alta umidade ambiental e regas consistentes; em clima seco, a oscilação hídrica aumenta bastante." }
         ]
     },
     substrato: ["Casca de pinus média/fina + casca de macadâmia + perlita grossa","Casca de pinus média/fina + carvão vegetal + pequena fração de esfagno solto"],
     substratoVisual: {
-        titulo: "Substrato ideal",
+        notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D). Receita 45% pinus + 25% carvão + 20% macadâmia + 10% esfagno = 100%, sem ensaio comparativo dos percentuais. Quatro suportes sem estrelas quantitativas. Confronto qualitativo com Orquidário Mogi Mirim e Diário do Orquidófilo; não equivale a 25 produtores nem a validação experimental. Artigo científico de 2022 documenta flor e habitat, não cultivo.",
+        titulo: "Substrato recomendado (provisório)",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura leve e aerada, com retenção moderada para uma espécie de floresta úmida.",
         justificativa: "Kew reconhece Maxillaria schunkeana como epífita do bioma tropical úmido, e registros de cultivo a situam em torno de 600–700 m. A receita busca umidade regular sem transformar o vaso em um núcleo abafado.",
@@ -59,7 +60,7 @@ export const maxillariaSchunkeana = {
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média/fina", proporcao: "45%", nota: "estrutura", finalidade: "Mantém umidade moderada com boa porosidade." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "25%", nota: "aeração", finalidade: "Ajuda a manter a mistura aberta e evita saturação prolongada." },
-            { asset: "macadamia", nome: "Casca de macadâmia", proporcao: "20%", nota: "estrutura + drenagem", finalidade: "Cria espaços irregulares e melhora a circulação de ar." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia", proporcao: "20%", nota: "estrutura + drenagem", finalidade: "Cria espaços irregulares e melhora a circulação de ar." },
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva de umidade", finalidade: "Reduz a desidratação entre regas sem compactar as raízes." }
         ],
         alerta: "Evite aquecimento do vaso e excesso de retenção. A espécie prefere sombra clara, não escuridão."
@@ -74,19 +75,22 @@ export const maxillariaSchunkeana = {
         "Manter ambiente quente e abafado."
     ],
     revisaoCientificaIAR: {
-        "nome": "Maxillaria schunkeana",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma das joias mais famosas do Espírito Santo! Conhecida como “orquídea-negra”, esta pequena Maxillaria produz flores de cerca de 1 cm em um vinho-púrpura tão escuro que parecem negras à primeira vista. É endêmica da Mata Atlântica capixaba e cresce naturalmente em ambiente quente, úmido e ventilado, por volta de 600–700 m de altitude.",
-        "habitatAltitudeClima": "Epífita · floresta costeira · 600–700 m. | Quente · úmido, sombreado e ventilado.",
-        "distribuicaoGeografica": "Mata Atlântica capixaba.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
+        "nome": "Maxillaria schunkeana Campacci & Kautsky",
+        "statusTaxonomico": "Espécie aceita pelo POWO/Kew, publicada em Orquidário 7(4):136 (1993). Não confundir com Schunkea, gênero diferente, nem com Maxillaria jose-schunkei, espécie peruana distinta.",
+        "sinonimosPrincipais": "POWO registra dois sinônimos homotípicos: Brasiliorchis schunkeana (Campacci & Kautsky) R.B.Singer, S.Koehler & Carnevali (2007) e Bolbidium schunkeanum (Campacci & Kautsky) J.M.H.Shaw (2011). A nomenclatura do gênero Brasiliorchis ainda aparece em literatura científica, mas POWO mantém Maxillaria schunkeana como nome aceito.",
+        "morfologiaDimensoes": "Epífita miniatura com pseudobulbos fusiforme-cilíndricos, revestidos na base por bainhas decíduas, e duas folhas apicais lineares e conduplicadas. Inflorescência basal curta, normalmente com uma flor de cerca de 1 cm à altura do pseudobulbo. O estudo de 2022 na BMC Plant Biology descreve coloração floral vermelho-púrpura extremamente escura, visualmente quase negra, não pigmentação literalmente preta. A mesma pesquisa investigou compostos voláteis florais e possíveis mecanismos de atração de moscas, sem demonstrar manejo de cultivo superior.",
+        "habitatAltitudeClima": "POWO indica epífita do bioma tropical úmido, endêmica do Espírito Santo. IOSPE e estudo científico de 2022 descrevem populações de Mata Atlântica costeira a aproximadamente 600–700 m. Esse registro altitudinal não implica necessidade de frio intenso. Cultivo demanda equilíbrio entre umidade regular, sombra luminosa e aeração, evitando secagem prolongada de raízes finas e saturação persistente.",
+        "distribuicaoGeografica": "Endêmica do Espírito Santo, Brasil, conforme POWO/Kew, IPNI e estudo publicado na BMC Plant Biology em 2022. Não estender automaticamente a distribuição a outros estados com base em nomes de gêneros próximos.",
+        "cultivoPremiacao": "Orquidário Mogi Mirim, produtor brasileiro, recomenda sombreamento de 70% e cita esfagno, casca de pinus, carvão, macadâmia e casca de arroz carbonizada como componentes possíveis; não fornece ensaio de percentuais. Diário do Orquidófilo relata experiência individual com vasos plásticos, musgo e rega regular, mas não representa comparação controlada. O estudo de 2022 trata de atraentes florais, não valida mistura ou suporte. A Deutsche Orchideen-Gesellschaft registra Maxillaria schunkeana 'Mischi' BM/D.O.G., distinção de cultivar, não premiação AOS universal. Receita 45% pinus + 25% carvão + 20% macadâmia + 10% esfagno permanece provisória; não houve confronto individualizado com 25 orquidários brasileiros.",
+        "confianca": "Taxonomia e distribuição: alta (POWO/IPNI). Morfologia e coloração: alta (IOSPE e artigo científico de 2022). Habitat altitudinal: moderada, registro regional. Cultivo: qualitativo, com um produtor brasileiro e um relato independente. MACS 1.1: Classe D, sem validação quantitativa.",
         "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
+            "POWO/Kew, Maxillaria schunkeana — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:975401-1",
+            "IPNI, publicação original (1993) — https://www.ipni.org/n/975401-1",
+            "IOSPE, Maxillaria schunkeana — https://www.orchidspecies.com/maxschunkeana.htm",
+            "BMC Plant Biology (2022), floral attractants — https://doi.org/10.1186/s12870-022-03944-8",
+            "Orquidário Mogi Mirim, recomendações de cultivo — https://www.orquidariomogimirim.com.br/maxillaria-schunkeana-orquidea-negra",
+            "Diário do Orquidófilo, experiência de cultivo (2017) — https://diariodoorquidofilo.com.br/maxillaria-schunkeana-a-orquidea-negra/",
+            "Deutsche Orchideen-Gesellschaft, registro de cultivar — https://orchidee.de/en/maxillaria-schunkeana/"
         ]
     },
     indiceDificuldadeCultivo: {
