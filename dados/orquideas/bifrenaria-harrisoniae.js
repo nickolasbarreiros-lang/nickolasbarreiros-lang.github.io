@@ -23,7 +23,7 @@ export const bifrenariaHarrisoniae = {
     origem: "Brasil — regiões Sudeste e Sul",
     regiao: "Regiões Sudeste e Sul, associada à Mata Atlântica, serras costeiras e ambientes rochosos.",
     habitat: "Epífita ou rupícola de florestas úmidas, encostas rochosas e paredões claros e ventilados. Ocorre em ampla variação altitudinal, com registros típicos em cotas médias e também populações rupícolas mais elevadas.",
-    clima: "Quente a intermediário durante o crescimento, com boa ventilação e noites mais frescas favorecendo a maturação e a floração.",
+    clima: "Quente a intermediário durante o crescimento, com boa ventilação; a exigência de noites mais frescas para indução floral não foi demonstrada especificamente nesta matriz.",
     climaFloracao: "A floração depende de pseudobulbos completamente maduros, alta luminosidade filtrada, raízes bem ventiladas e leve redução da frequência de rega após o crescimento. Não necessita de repouso seco rigoroso; a planta deve permanecer hidratada sem substrato constantemente molhado.",
     iluminacao: {
         sombrite: "40% a 50%",
@@ -31,10 +31,10 @@ export const bifrenariaHarrisoniae = {
         horario: "Somente início da manhã",
         observacoes: "Necessita luminosidade alta. Folhas muito escuras e pseudobulbos alongados sugerem excesso de sombra; uma leve pigmentação avermelhada pode ser normal, enquanto manchas secas e amareladas indicam queimadura."
     },
-    floracao: "Floresce principalmente do final da primavera ao verão, com referência prática entre novembro e fevereiro.",
+    floracao: "A época de floração pode variar conforme a procedência e o ambiente; a matriz documenta flores grandes e perfumadas, mas não comprova um calendário mensal brasileiro universal.",
     adubacao: "🌿 Orgânica: bokashi em pequena dose durante o crescimento ativo, protegido em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração enquanto houver brotação e raízes em atividade.\n🧪 Liberação lenta: Osmocote em dose reduzida no início da fase vegetativa. Após a maturação dos pseudobulbos, reduza significativamente a frequência e a concentração da adubação; retome o ritmo normal quando novas raízes e brotos surgirem.",
     rega: "Regue abundantemente durante a brotação e desenvolvimento dos pseudobulbos, permitindo secagem parcial do substrato entre irrigações. Após a maturação, aumente gradualmente o intervalo entre as regas, sem manter a planta completamente seca por longos períodos nem permitir enrugamento severo.",
-    suporte: "Cesto de madeira suspenso é a escolha principal. Vaso de barro e vaso plástico vasado também funcionam muito bem quando a mistura é extremamente drenante.",
+    suporte: "Cachepô de madeira suspenso é a escolha principal. Vaso de barro e vaso plástico vasado também funcionam muito bem quando a mistura é extremamente drenante.",
     formasCultivo: {
         perfilVisual: "bifrenaria",
         destaque: "Cachepô de Madeira",
@@ -51,8 +51,8 @@ export const bifrenariaHarrisoniae = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em cesto ou vaso",
         resumo: "Mistura de altíssima aeração e drenagem, com baixa retenção e estrutura durável.",
-        justificativa: "Bifrenaria harrisoniae se beneficia de substrato aberto e de cesto ou vaso bem perfurado. A brita contribui para drenagem e estabilidade, a casca de macadâmia oferece apoio, o carvão mantém espaços de ar e o pinus conserva uma pequena reserva de umidade. Como a brita aumenta o peso do conjunto, escolha um suporte firme. Ajuste as regas conforme a secagem e a ventilação do local.",
-        receitaTexto: "35% brita pequena/média + 30% casca de macadâmia média + 20% carvão vegetal médio + 15% casca de pinus média. Mistura para recipiente, sem esfagno; ajustar a rega à secagem observada.",
+        justificativa: "A mistura 35/30/20/15 é proposta horticultural não homologada experimentalmente para Bifrenaria harrisoniae; o hábito rupícola não comprova que 35% de brita seja ideal. Bifrenaria harrisoniae se beneficia de substrato aberto e de cesto ou vaso bem perfurado. A brita contribui para drenagem e estabilidade, a casca de macadâmia oferece apoio, o carvão mantém espaços de ar e o pinus conserva uma pequena reserva de umidade. Como a brita aumenta o peso do conjunto, escolha um suporte firme. Ajuste as regas conforme a secagem e a ventilação do local.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a espécie: 35% brita pequena/média + 30% casca de macadâmia média + 20% carvão vegetal médio + 15% casca de pinus média. Mistura para recipiente, sem esfagno; ajustar a rega à secagem observada.",
         perfil: ["Raízes médias a robustas", "Aeração máxima", "Baixa retenção", "Secagem muito rápida", "Alta estabilidade", "Baixa compactação"],
         itens: [
             { asset: "brita-pura", nome: "Brita pequena/média", proporcao: "35%", nota: "drenagem + macroporos", finalidade: "Forma a base mineral da mistura e mantém drenagem muito rápida, oxigenação intensa e estabilidade estrutural." },
@@ -73,9 +73,9 @@ export const bifrenariaHarrisoniae = {
     dica: "Priorize cesto ou recipiente proporcional, estável e de secagem previsível. O ponto decisivo é evitar excesso de substrato úmido ao redor das raízes. Combine alta luminosidade filtrada, drenagem excelente, estabilidade radicular e preservação de touceiras adultas.",
     adaptacaoRegional: {
         litoralQuente: "Prefira cesto de madeira, vaso de barro ou vaso plástico vasado, sempre com forte circulação de ar, 40% a 50% de sombra e regas matinais. Evite calor abafado e mantenha a mistura de secagem rápida sem impor seca prolongada.",
-        montanhaFrio: "A queda natural da temperatura noturna favorece a floração. Proteja de geadas e evite que o substrato permaneça frio e encharcado por vários dias."
+        montanhaFrio: "Proteja de geadas e evite que o substrato permaneça frio e encharcado por vários dias. Não há comprovação específica nesta matriz de que a queda térmica noturna seja obrigatória para florescer."
     },
-    mesesFloracao: [11, 12, 1, 2],
+    mesesFloracao: [],
     avaliacoes: {
         cultivo: 3,
         floracao: 4,
