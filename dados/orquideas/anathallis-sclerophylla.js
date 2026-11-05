@@ -68,7 +68,7 @@ export const anathallisSclerophylla = {
     substrato: ["Chips de coco pequenos preparados + casca de arroz carbonizada + carvão vegetal pequeno","Casca de pinus fina/média + perlita adequada a miniaturas + esfagno de fibra longa solto"],
     substratoVisual: {
         titulo: "Substrato recomendado (provisório)",
-        contexto: "Placa / tronco preferencial (provisório); receita técnica proposta para vaso pequeno (não submetida a ensaio comparativo) — 100% em volume, sem homologação quantitativa",
+        contexto: "Placa / tronco; mistura opcional para vaso pequeno.",
         resumo: "Para vaso pequeno: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno.",
         justificativa: "Anathallis sclerophylla é uma epífita de ambientes úmidos, com raízes finas que precisam de hidratação frequente e boa circulação de ar. A montagem em placa ou tronco, com uma camada fina de esfagno solto, pode favorecer a aeração das raízes, mas não foi comparada experimentalmente com os recipientes nesta espécie. Em vaso pequeno e perfurado, a casca de pinus oferece apoio, a casca de arroz carbonizada e o carvão preservam espaços de ar e o esfagno ajuda a conservar umidade. Evite compactar a mistura e ajuste as regas à secagem observada.",
         receitaTexto: "Placa / tronco: raízes expostas e fina camada de esfagno de fibra longa solto. Para vaso pequeno: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno.",
@@ -89,14 +89,14 @@ export const anathallisSclerophylla = {
         notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D). A conclusão é documental, não quantitativa: sem validação experimental de percentuais nem classificação por estrelas. MACS 1.1 — estrutura visual alinhada à receita anteriormente cadastrada, preservando percentuais e duas alternativas qualitativas. Suporte principal: placa / tronco. Receita opcional para vaso: 35% pinus + 30% casca de arroz carbonizada + 20% esfagno + 15% carvão = 100%. Não há levantamento quantitativo individualizado de produtores nem ensaio comparativo específico; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente. Todos os métodos de cultivo exibem status qualitativo provisório ou condicional; não existe comparação direta documentada entre os quatro suportes para esta espécie. Evidências botânicas: POWO/Kew (https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77142174-1) e revisão taxonômica Santos, Toscano de Brito e Smidt (2019, Rodriguésia 70, e02722017, DOI 10.1590/2175-7860201970031). Essas fontes não comprovam a superioridade do suporte nem os percentuais da mistura."
     },
     errosComuns: [
-        "Deixar a placa ou o tronco secar por tempo prolongado entre regas: as raízes finas desta epífita de floresta úmida podem desidratar rapidamente, sobretudo com calor e vento.",
-        "Envolver as raízes em uma camada espessa e compacta de esfagno: a retenção excessiva reduz a aeração; na montagem, use apenas uma camada fina e solta.",
-        "Tratar o vaso pequeno como se tivesse a mesma secagem da placa: confira a umidade no interior antes de repetir a rega, evitando saturação prolongada.",
-        "Expor folhas e raízes a sol direto intenso: o aquecimento e a secagem rápida contrariam o ambiente de luz filtrada indicado para esta espécie.",
-        "Manter a planta em sombra muito profunda por longos períodos: mesmo em ambiente sombreado, luz insuficiente pode limitar o desenvolvimento das hastes multifloras.",
-        "Deixar a planta em ambiente quente e sem circulação de ar, especialmente durante a noite: umidade alta sem ventilação favorece a permanência de água sobre a planta e dificulta a secagem equilibrada.",
-        "Aplicar adubo concentrado diretamente sobre raízes finas ou esfagno: prefira doses diluídas durante o crescimento e lavagem periódica dos sais acumulados.",
-        "Descartar ou cortar precocemente hastes ainda verdes sem observar seu desenvolvimento: acompanhe a inflorescência antes de intervir, pois esta espécie produz racemos longos com numerosas flores."
+        "Evite deixar as raízes secarem por muito tempo na placa.",
+        "Não compacte o esfagno sobre as raízes finas.",
+        "Não encharque o vaso antes de o substrato começar a secar.",
+        "Evite sol direto intenso nas folhas e raízes.",
+        "Não mantenha a planta em sombra excessivamente escura.",
+        "Evite calor abafado e falta de ventilação.",
+        "Não aplique adubo concentrado nas raízes finas.",
+        "Não corte hastes florais ainda verdes sem necessidade."
     ],
     revisaoCientificaIAR: {
         "nome": "Anathallis sclerophylla",
