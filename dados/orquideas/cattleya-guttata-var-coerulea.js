@@ -35,7 +35,7 @@ export const cattleyaGuttataVarCoerulea = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "É uma bifoliada de luminosidade muito alta. Em clima quente, ofereça 40% a 50% de sombreamento e bastante circulação de ar. Folhas firmes, pseudobulbos grossos e eretos e crescimento compacto são indicadores melhores que perseguir uma cor verde-alface específica."
     },
-    floracao: "A floração acompanha a maturação dos pseudobulbos e pode variar entre clones e ambientes; a matriz não demonstra meses brasileiros universais para a seleção coerulea.",
+    floracao: "Em orquidários brasileiros, Cattleya guttata costuma florescer entre o verão e o início do outono, com registros de janeiro a abril. Essa é uma referência para a forma coerulea, cuja época pode variar conforme o clone e a maturação dos pseudobulbos. As hastes eretas produzem várias flores cerosas, geralmente de 7 a 10 cm, com sépalas e pétalas esverdeadas ou acastanhadas e pintas escuras; na forma coerulea, o labelo apresenta tons frios de lavanda ou violeta. O perfume costuma ser suave e agradável, por vezes mais perceptível pela manhã. Há relatos de flores que permanecem vistosas por aproximadamente 20 dias, embora a duração varie conforme o cultivo.",
     adubacao: "🌿 Orgânica: Bokashi em pequena quantidade a cada 60 a 90 dias durante crescimento ativo, sem contato direto com raízes novas.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose semanal ou quinzenalmente enquanto brotos e raízes estiverem ativos.\n🧪 Liberação lenta: Osmocote 14-14-14 ou equivalente pode ser usado em dose moderada em vasos grandes. Reduza a adubação líquida se usar liberação lenta. Não há necessidade de formulações extremamente fosfatadas, como 9-45-15, para induzir floração.",
     rega: "No crescimento ativo, regue generosamente e deixe o meio drenar e perder grande parte da umidade antes de regar novamente. A meta é secagem acentuada e forte oxigenação, não obrigatoriamente deixar toda a massa radicular absolutamente seca por longos períodos. Após a maturação dos pseudobulbos, aumente moderadamente os intervalos conforme temperatura e velocidade de secagem.",
     suporte: "🥇 Vaso de barro pesado, oferecendo estabilidade e evaporação.\n🥈 Cachepô grande e robusto de madeira para touceiras com várias frentes.\n🥉 Cesto estrutural para plantas adultas de grande porte.\nEm todos os casos, imobilize a base e o rizoma até que o novo enraizamento trave o conjunto.",
@@ -262,7 +262,7 @@ export const cattleyaGuttataVarCoerulea = {
         litoralQuente: { texto: "Clima quente combina calor e umidade atmosférica favoráveis à espécie; o principal cuidado é evitar substrato velho, centro encharcado e falta de ventilação em noites quentes." },
         montanhaFrio: { texto: "Mantenha luminosidade elevada e proteção contra geadas; reduza as regas quando o frio diminuir a evaporação." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [1, 2, 3, 4],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
