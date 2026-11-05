@@ -32,7 +32,7 @@ export const neobenthamiaGracilis = {
         "horario": "Somente início da manhã",
         "observacoes": "Mais luminosa que a maioria das epífitas. Faça aclimatação gradual. Folhas muito escuras e caules finos indicam falta de luz."
     },
-    "floracao": "No habitat, a floração é registrada principalmente do inverno à primavera. A inflorescência terminal pode chegar a cerca de 12,5 cm e reunir numerosas flores em uma cabeça quase esférica. As flores são brancas, perfumadas, com detalhes amarelos e rosados no labelo. Em cultivo no Brasil, a época pode variar conforme temperatura, luminosidade e ritmo de maturação dos caules; por isso, o mais importante é observar a conclusão do crescimento e não forçar um repouso seco rígido.",
+    "floracao": "No cultivo brasileiro, a Polystachya neobenthamia costuma florescer principalmente no verão, embora possa produzir flores em outras estações; há inclusive registro de exemplar florido em julho. Por isso, o calendário é uma referência de época mais provável, não uma limitação rígida. No alto dos caules maduros, as inflorescências formam buquês densos, quase esféricos, com muitas flores brancas de cerca de 1 a 2,5 cm. O labelo apresenta uma faixa amarela e pequenas pintas rosadas ou arroxeadas. As flores são perfumadas: alguns cultivadores descrevem fragrância suave, com notas de hortelã, enquanto outros mencionam apenas aroma leve. Um produtor brasileiro informa cerca de 15 dias de duração das flores; outras descrições relatam flores que persistem por várias semanas e abertura sucessiva, permitindo que o conjunto floral dure mais tempo. Esses números são relatos de cultivo, não um prazo fixo para todas as plantas.",
     "adubacao": "🌿 Orgânica: aplique Bokashi, húmus bem curtido ou composto orgânico maduro em pequena quantidade na superfície, a cada 2–3 meses durante o crescimento.\n💧 Mineral: NPK equilibrado, como 10-10-10 ou 20-20-20, em dose moderada a cada 10–15 dias durante o crescimento dos caules.\n🧪 Liberação lenta: Osmocote funciona bem em recipientes grandes e muito drenantes, respeitando a dose do fabricante e mantendo os grânulos longe dos brotos.\n🌱 Em canteiros: uma cobertura morta leve ajuda a conservar umidade e matéria orgânica, sem encostar no colo da planta.",
     "rega": "Durante o crescimento ativo, mantenha o substrato uniformemente úmido, regando abundantemente e deixando toda a água excedente escoar. Por ser terrestre, tolera mais retenção que muitas epífitas, mas não aceita solo lodoso, compactado ou sem oxigênio. No período frio, reduza a frequência e mantenha apenas umidade residual. Seca severa no verão paralisa a expansão dos caules, resseca folhas e pode abortar a formação das inflorescências apicais.",
     "suporte": "🥇 Vaso grande e pesado de barro, cerâmica ou plástico espesso: evita tombamento pelo peso da parte aérea.\n🥈 Jardineira profunda e drenada: permite formar touceiras densas e alinhadas.\n🥉 Canteiro protegido: excelente para jardins tropicais de sombra clara, desde que o solo seja solto e drenante.\nUse tutores de bambu, fibra ou madeira desde o início do alongamento, antes que os caules se inclinem ou quebrem.",
@@ -212,13 +212,7 @@ export const neobenthamiaGracilis = {
         "litoralQuente": "No litoral quente, o cultivo exige acompanhamento da temperatura e da secagem: ofereça 30–50% de sombra, sol fraco da manhã após aclimatação, ventilação e regas ajustadas ao crescimento. Evite calor excessivo e sol forte; prefira vaso pesado ou canteiro bem drenado.",
         "montanhaFrio": "Proteja de geadas e ventos muito frios. Em semanas frias e chuvosas, reduza bastante a água, mantendo o substrato apenas levemente úmido e bem aerado."
     },
-    "mesesFloracao": [
-        10,
-        11,
-        12,
-        1,
-        2
-    ],
+    "mesesFloracao": [7, 10, 11, 12, 1, 2],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
