@@ -24,7 +24,7 @@ export const stanhopeaHernandezii = {
         "imagens/Stanhopea hernandezii/Stanhopea hernandezii3.jpg",
         "imagens/Stanhopea hernandezii/Stanhopea hernandezii4.jpg"
     ],
-    "descricao": "Stanhopea hernandezii é uma espetacular orquídea mexicana, conhecida pelas flores grandes, cerosas e de perfume muito intenso. Suas folhas largas e plissadas formam uma touceira robusta, enquanto as flores surgem de maneira incomum: a haste cresce para baixo, atravessando o substrato antes de aparecer sob a planta. Na natureza ocorre como epífita ou rupícola no centro e sudoeste do México, inclusive em ambientes tropicais com estação mais seca. Em cultivo, combina umidade durante o crescimento com excelente aeração e precisa obrigatoriamente de espaço livre sob a cesta para florescer.",
+    "descricao": "Stanhopea hernandezii é uma espetacular orquídea mexicana, conhecida pelas flores grandes, cerosas e de perfume muito intenso. Suas folhas largas e plissadas formam uma touceira robusta, enquanto as flores surgem de maneira incomum: a haste cresce para baixo, atravessando o substrato antes de aparecer sob a planta. Na natureza ocorre como epífita ou rupícola no centro e sudoeste do México, em florestas sazonais.e do México, inclusive em ambientes tropicais com estação mais seca. Em cultivo, combina umidade durante o crescimento com excelente aeração e precisa obrigatoriamente de espaço livre sob a cesta para florescer.",
     "origem": "México",
     "regiao": "México central e sudoeste",
     "habitat": "Florestas sazonais; epífita ou rupícola.",
