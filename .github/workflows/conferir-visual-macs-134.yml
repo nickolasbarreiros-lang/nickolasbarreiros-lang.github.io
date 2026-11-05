@@ -3,18 +3,19 @@ on:
   push:
     paths:
       - '.github/workflows/conferir-visual-macs-134.yml'
+      - 'dados/orquideas/maxillaria-brasiliensis.js'
   workflow_dispatch:
 jobs:
   conferir:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
       - run: npm install --no-save playwright
-      - run: npx playwright install --with-deps chromium
+      - run: npx playwright install chromium
       - name: Conferir ficha em navegador real
         run: |
           python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/orquidario-server.log 2>&1 &
