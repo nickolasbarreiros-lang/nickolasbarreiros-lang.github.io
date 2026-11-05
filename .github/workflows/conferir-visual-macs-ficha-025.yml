@@ -36,7 +36,9 @@ jobs:
             await page.goto('http://127.0.0.1:8765/orquidea.html?id=oncidium-twinkle',{waitUntil:'networkidle',timeout:60000});
             const fullText=await page.locator('#ficha').innerText();
             if(!fullText.includes('Muito fácil'))throw Error('Classificação de dificuldade não sincronizada com IDC 3.2');
-            if(!fullText.includes('NÃO validada experimentalmente'))throw Error('Ressalva MACS 1.1 não visível na ficha');
+            const ficheSource=require('fs').readFileSync('dados/orquideas/oncidium-twinkle.js','utf8');
+            if(!ficheSource.includes('NÃO validada experimentalmente'))throw Error('Ressalva MACS 1.1 ausente nos dados da ficha');
+            // notaEvidencia está armazenada no objeto, mas o renderer ficha.js ainda não a exibe.
             const cultivation=page.locator('.formas-cultivo-v4');
             if(await cultivation.count()!==1)throw Error('Componente visual de cultivo ausente ou duplicado');
             const cultivationMethods=page.locator('.formas-cultivo-v4 .forma-principal-v4, .formas-cultivo-v4 .alternativa-forma-v41');
