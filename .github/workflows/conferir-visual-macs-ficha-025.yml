@@ -39,7 +39,7 @@ jobs:
           const count = (pattern) => [...source.matchAll(pattern)].length;
           if (count(/^\s*substrato\s*:/gm) !== 1) throw Error('Campo substrato duplicado ou ausente');
           if (count(/^\s*substratoVisual\s*:/gm) !== 1) throw Error('Campo substratoVisual duplicado ou ausente');
-          const mod = await import('./dados/orquideas/oncidium-twinkle.js');
+          const mod = await import('data:text/javascript;base64,' + Buffer.from(source).toString('base64'));
           const ficha = mod.oncidiumTwinkle;
           if (!ficha || ficha.id !== 'oncidium-twinkle') throw Error('Exportação/ID da ficha incorretos');
           if (!Array.isArray(ficha.substrato) || ficha.substrato.length !== 2) throw Error('Devem existir duas misturas alternativas');
