@@ -42,7 +42,7 @@ export const polystachyaConcreta = {
         observacoes: "Estudos da Mata Atlântica brasileira caracterizam a espécie como amante de sombra. Para cultivo, meia-sombra clara com aproximadamente 60% a 70% de sombreamento é um ponto inicial coerente, especialmente no litoral quente. A planta deve receber boa claridade difusa, mas não necessita de radiação solar direta; folhas excessivamente claras ou aquecidas indicam excesso."
     },
 
-    floracao: "A inflorescência é terminal e surge do pseudobulbo recém-formado, podendo ser um racemo em plantas menores ou uma panícula em exemplares vigorosos. Estudos brasileiros registram de poucas dezenas até cerca de 150 flores por inflorescência. As flores são muito pequenas, em geral verde-amareladas ou verde-claras, com labelo trilobado e região central farinosa/pubescenta. Um estudo do gênero no Paraná destaca que a antese costuma ser curta, razão pela qual exemplares são frequentemente encontrados já em fruto.",
+    floracao: "No Brasil, Polystachya concreta apresenta floração bastante variável conforme a região. Um estudo no litoral paulista registrou flores em janeiro e fevereiro, enquanto levantamento botânico no Paraná documentou floração de março a novembro. Por isso, o calendário reúne registros brasileiros de janeiro a novembro; dezembro também é citado em levantamentos de fenologia no Nordeste, embora alguns estudos agrupem flores e frutos e não permitam confirmar floração em cada mês isoladamente. As hastes terminais podem ser simples ou ramificadas e, em exemplares vigorosos, carregar até cerca de 150 flores minúsculas, verde-claras a verde-amareladas, com labelo mais claro e voltado para cima. As flores exalam perfume cítrico, especialmente nas horas mais quentes do dia. Um estudo brasileiro de biologia floral mediu apenas dois a três dias de duração por flor; a abertura sucessiva de numerosos botões pode prolongar a aparência florida da haste, sem que exista duração total única comprovada.",
 
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade e longe da base dos pseudobulbos.\n💧 Mineral/foliar: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante crescimento ativo.\n🌸 Formação da haste: mantenha nutrição regular enquanto o novo pseudobulbo amadurece; não force seca para induzir floração.\n🚿 Lave periodicamente o substrato com água pura para evitar acúmulo de sais.",
 
@@ -182,7 +182,7 @@ export const polystachyaConcreta = {
         montanhaFrio: "Adaptação muito boa. A espécie ocorre naturalmente até cerca de 1.600 m e está documentada no Sul/Sudeste brasileiro. Em períodos frios, reduza as regas conforme a evaporação e proteja apenas de frio excessivo e prolongado; não imponha seca completa."
     },
 
-    mesesFloracao: [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+    mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
 
     selosCultivo: {
         rega: { nivel: "moderada", regime: "ano-todo" },
