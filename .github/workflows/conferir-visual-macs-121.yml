@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/conferir-visual-macs-121.yml'
+      - 'dados/orquideas/cattleya-nobilior-var-amaliae.js'
   workflow_dispatch:
 jobs:
   conferir:
