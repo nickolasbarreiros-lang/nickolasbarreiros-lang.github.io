@@ -35,7 +35,7 @@ export const colmanaraWildcat = {
         "horario": "Somente início da manhã",
         "observacoes": "Luz filtrada média a forte, normalmente um pouco abaixo de Cattleya. Folhas verde-médio e pseudobulbos compactos indicam bom equilíbrio. Sombra profunda reduz hastes; excesso de sol combinado com calor pode amarelar e marcar as folhas."
     },
-    "floracao": "Pode florescer em diferentes épocas conforme cultivar e ciclo de crescimento, sendo frequente do outono ao início da primavera. Hastes maduras podem ultrapassar 60 cm, ramificar e sustentar muitas flores por várias semanas. A durabilidade costuma aumentar em ambiente ventilado e com temperaturas noturnas mais amenas.",
+    "floracao": "Orquidários e cultivadores brasileiros registram florações de Oncostele Wildcat em diferentes estações: alguns exemplares florescem no verão, outros no outono ou inverno, e plantas vigorosas podem apresentar duas floradas no ano. Por isso, ainda não é possível estabelecer um calendário mensal único para todos os cultivares. As hastes altas, frequentemente ramificadas, carregam numerosas flores pequenas, geralmente com até 5 cm, em combinações de amarelo, vinho, vermelho e castanho, muitas vezes com manchas que lembram a pelagem de um felino. O perfume depende da seleção: há cultivares sem cheiro perceptível e outros levemente perfumados, sem notas aromáticas específicas confirmadas. Em cultivo brasileiro, há relatos de flores que duram até 30 dias e de hastes que permanecem vistosas por quase dois meses, conforme o cultivar e as condições.",
     "adubacao": "🌿 Orgânica: bokashi em pequena dose, afastado do broto e das raízes novas.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose durante brotação, enraizamento e enchimento do pseudobulbo.\n🧪 Osmocote: poucos grânulos em vaso bem drenado; não concentrar junto às raízes finas.\n🍂 Maturação: reduza a frequência quando o pseudobulbo estiver cheio e firme.\n🚿 Flushing: use água pura a cada 2–4 semanas para reduzir acúmulo de sais.",
     "rega": "Regue abundantemente e volte a molhar quando o substrato estiver próximo de secar, sem deixar a mistura permanecer encharcada. Durante brotação e formação do pseudobulbo, evite secas longas. Em períodos mais frios ou de crescimento lento, aumente o intervalo entre regas. Pseudobulbo enrugado com substrato constantemente molhado sugere problema radicular, não falta de água.",
     "suporte": "🥇 Vaso plástico pequeno e bem perfurado — mantém umidade mais uniforme.\n🥈 Vaso de barro — excelente onde há muita umidade e regas frequentes.\n🥉 Cesto compacto — indicado para plantas grandes e raízes muito aeradas.\nDeixe apenas alguns centímetros livres à frente do novo crescimento; vasos grandes demais permanecem úmidos no centro.",
@@ -215,15 +215,7 @@ export const colmanaraWildcat = {
         "litoralQuente": "No litoral quente, mantenha 60–70% de sombreamento, ventilação contínua e substrato mais mineral. Evite noites abafadas em canto fechado e água parada nas bainhas. O híbrido costuma adaptar-se bem quando as raízes permanecem saudáveis.",
         "montanhaFrio": "Excelente desempenho em clima de montanha. Noites amenas normalmente melhoram firmeza das hastes, intensidade das cores e duração das flores; proteja apenas de geadas."
     },
-    "mesesFloracao": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
-    ],
+    "mesesFloracao": [],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
