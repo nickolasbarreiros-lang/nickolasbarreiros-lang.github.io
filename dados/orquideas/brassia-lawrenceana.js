@@ -33,7 +33,7 @@ export const brassiaLawrenceana = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Precisa de boa luminosidade para formar pseudobulbos fortes e florescer bem. Sombra profunda reduz a floração; sol direto forte pode queimar as folhas e aquecer excessivamente o vaso."
     },
-    floracao: "Pode florescer em diferentes épocas conforme o cultivo, com registros na primavera e no outono; por isso, setembro a novembro e março a maio são referências úteis para acompanhar a planta. As hastes arqueadas exibem geralmente de oito a doze flores grandes, amarelo-esverdeadas, marcadas de castanho ou vinho. Sépalas e pétalas muito compridas e estreitas dão a elas a aparência de aranhas, característica que torna a espécie tão ornamental. O perfume é variável, descrito por alguns cultivadores como suave e adocicado, e por outros como pouco perceptível. A duração das flores não tem estimativa específica suficientemente consistente para ser apresentada em dias.",
+    floracao: "No Brasil, Brassia lawrenceana pode florescer em diferentes épocas conforme a região e o cultivo. Um levantamento fenológico realizado na Amazônia registrou floração de novembro a abril, incluindo dezembro, janeiro e fevereiro, que antes não apareciam neste calendário. Há também referências de cultivo para setembro, outubro e maio; o calendário reúne essas janelas de origens distintas, sem indicar floração contínua de uma única planta. As hastes arqueadas exibem geralmente de oito a doze flores grandes, amarelo-esverdeadas, marcadas de castanho ou vinho. Sépalas e pétalas muito compridas e estreitas dão a elas a aparência de aranhas, característica que torna a espécie tão ornamental. O perfume é variável, descrito por alguns cultivadores como suave e adocicado, e por outros como pouco perceptível. A duração das flores não tem estimativa específica suficientemente consistente para ser apresentada em dias.",
     adubacao: "🌿 Orgânica: bokashi pode ser usado em pequena quantidade e preferencialmente em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional, usando poucos grânulos em vasos ou cestos.\n🚿 Lavagem: faça regas abundantes com água pura periodicamente para evitar acúmulo de sais.",
     rega: "Regue com frequência enquanto novos brotos e raízes estão ativos, deixando o substrato drenar rapidamente. Entre as irrigações, permita leve redução de umidade, sem manter o vaso permanentemente molhado. Quando os pseudobulbos estiverem maduros e a evaporação cair, aumente moderadamente o intervalo entre regas.",
     suporte: [
@@ -229,7 +229,7 @@ export const brassiaLawrenceana = {
         litoralQuente: { texto: "Muito boa adaptação. A espécie tolera calor e se adapta bem com 50% a 60% de sombreamento, regas regulares e ventilação constante." },
         montanhaFrio: { texto: "Boa adaptação. Tolera noites frescas, mas deve ser protegida de frio intenso e de substrato permanentemente úmido em períodos de baixa evaporação." }
     },
-    mesesFloracao: [3, 4, 5, 9, 10, 11],
+    mesesFloracao: [1, 2, 3, 4, 5, 9, 10, 11, 12],
     "selosCultivo": {
         "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente" }
