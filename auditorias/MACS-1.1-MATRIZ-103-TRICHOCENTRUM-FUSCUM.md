@@ -32,7 +32,7 @@
 **34/33/33% é somente arredondamento matemático de três partes iguais**, não proporção superior demonstrada por ensaio. Granulometria e peso da brita devem ser adequados ao recipiente; não confundir brita com areia grossa.
 
 ## Duas outras misturas qualitativas preservadas
-1. Chips de coco muito grossos preparados + argila expandida + carvão vegetal.
+1. Chips de coco muito grossos lavados + argila expandida + carvão vegetal.
 2. Casca de macadâmia grossa + perlita grossa + carvão vegetal.
 
 Distintas entre si e da receita percentual, sem percentuais inventados.
@@ -48,3 +48,14 @@ Distintas entre si e da receita percentual, sem percentuais inventados.
 
 ## Parecer
 **Revisão documental concluída.** Taxonomia, distribuição, morfologia, fenologia, texto editorial, iluminação e receita atualizados. A receita alternativa agora deriva de orientação brasileira **específica para a espécie** e soma 100%, com duas outras misturas distintas. **Homologação experimental de 34/33/33: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-05
+**Perfil:** epífita compacta com pseudobulbos discretos, folha única coriácea e raízes que se beneficiam de ciclos de hidratação seguidos de secagem rápida. A folha não deve ser tratada como reservatório suficiente para seca prolongada. Durante brotação e enraizamento, molhar bem e permitir que o suporte seque quase completamente; no frio, ampliar os intervalos apenas conforme evaporação real, evitando água parada na base da folha. Montagem favorece aeração e controle de retenção.
+
+**Cultivo principal:** placa/tronco de madeira durável ou cortiça, com raízes expostas, **sem mistura volumétrica e sem percentuais**. **Receita alternativa para vaso pequeno e perfurado:** 34% casca de pinus grossa (estrutura) + 33% brita fina de granulometria compatível (drenagem e peso) + 33% carvão vegetal grosso (porosidade), total 100%. **Base documental específica:** Orquídeas Encanto e Paixão (2020) recomenda para T. fuscum três partes iguais de pinus, brita e carvão; 34/33/33% é arredondamento matemático, não experimento nem prova de superioridade. A brita deve ser limpa e dimensionada ao vaso; não substituí-la por areia grossa ou argila expandida sem justificativa.
+
+**Duas alternativas qualitativas sem percentuais:** (1) chips de coco muito grossos lavados + argila expandida + carvão vegetal; (2) casca de macadâmia grossa + perlita grossa + carvão vegetal. Distintas entre si e da receita opcional; coco lavado não dispensa eventual controle de salinidade.
+
+**Conferências editoriais:** descrição com 93 palavras (faixa 90–120). Chips de coco muito grossos lavados padronizados na alternativa. Receita e justificativa agora distinguem orientação brasileira específica de homologação experimental e montagem principal sem percentuais. Calendário fixo [1,2,6,8,9,11] removido da ficha geral: esses meses derivam de registros florísticos de uma área de estudo, não de fenologia universal. Selo de rega de “muito-frequente” para “frequente” por coerência com secagem quase completa entre molhamentos; “reduzir-inverno” mantido. Selo de clima de floração passa de “quente” a “intermediario”, pois a distribuição inclui climas variados e não foi demonstrado calor obrigatório. Prosa regional “adapta-se muito bem” ajustada para “adapta-se bem”, coerente com IAR litoral 79/4 estrelas; intervalo invernal passa a depender da secagem real. Receita e itens visuais somam 34+33+33=100%; duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 32/100 e quatro estrelas coerentes com IDC 3.2; IAR litoral 79/4 estrelas e montanha 80/4 estrelas preservados; estrelas dos suportes mantidas como avaliações horticulturais. Iluminação “Início da manhã ou final da tarde” permanece coerente com sol direto restrito. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; **uma orientação quantitativa brasileira específica de cultivador**, zero ensaios experimentais específicos, meta de 25 produtores não atingida e **homologação experimental não demonstrada**.
