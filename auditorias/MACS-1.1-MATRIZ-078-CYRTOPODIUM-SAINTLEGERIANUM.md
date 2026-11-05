@@ -58,3 +58,16 @@ Distintas entre si e da R0, sem percentuais não documentados. Os tratamentos ex
 
 ## Parecer final
 **Revisão documental concluída.** Identificado estudo quantitativo experimental específico **para mudas** de *C. saintlegerianum*, com tratamentos 1:1 e resultados diferenciados por variável. Receita visual principal coerente em 100%, mas **não homologada para plantas adultas**. Fonte comercial brasileira específica identificada, sem percentuais.
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** epífita robusta e simpodial, com pseudobulbos alongados e raízes aderentes, frequentemente observada sobre palmeiras. A demanda de água é marcadamente sazonal: regas abundantes e secagem rápida durante brotação e expansão foliar; redução progressiva quando folhas amadurecem e caem naturalmente. Na fase desfolhada, manter muito mais seco e proteger de chuvas repetidas, sem impor dessecação extrema dos pseudobulbos. Suporte grande e definitivo reduz danos às raízes aderidas.
+
+**Cultivo principal:** placa/tronco robusto, sem receita volumétrica. **Receita opcional para vaso/cachepô, em volume:** 35% casca de macadâmia grossa (estrutura) + 30% casca de pinus grossa (drenagem) + 20% perlita grossa (aeração) + 15% carvão vegetal (porosidade), total 100%. Proposta horticultural não homologada para plantas adultas.
+
+**Evidência específica, com delimitação de fase:** Bittencourt, Nunes e Bittencourt (anais Embrapa 2024) avaliaram mudas micropropagadas de Cyrtopodium saintlegerianum, seis tratamentos, cinco repetições e 240 dias. Genebom® + sabugo de milho triturado (1:1) favoreceu desenvolvimento aéreo/folhas; Genebom® + caule de palmeira triturado (1:1) favoreceu brotações. Os resultados não validam a receita de macadâmia/pinus/perlita/carvão para plantas estabelecidas; a composição do Genebom® não está detalhada no resumo. O termo “monopodial” no resumo experimental é incongruente com o hábito simpodial pseudobulboso.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus grossa + carvão vegetal + brita fina; (2) chips de coco grossos lavados + casca de macadâmia + carvão vegetal + argila expandida. Distintas entre si e da receita opcional; não foram ensaiadas para plantas adultas. Chips lavados não dispensam eventual controle de salinidade do lote.
+
+**Conferências editoriais:** descrição com 93 palavras (faixa 90–120). Chips de coco grossos lavados na segunda alternativa; justificativa e receita visual agora distinguem explicitamente ensaio em mudas e hipótese para plantas adultas. Status taxonômico, sinônimo e morfologia interna truncada corrigidos. Receita e itens visuais somam 35+30+20+15=100%; exatamente duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 32/100 e quatro estrelas coerentes com IDC 3.2; IAR e estrelas dos suportes preservados. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; um produtor brasileiro com orientação qualitativa específica, zero fórmulas quantitativas específicas de produtores brasileiros confirmadas, meta de 25 não atingida. **Existe ensaio experimental da espécie em mudas, mas a receita de plantas adultas NÃO está experimentalmente homologada.**
