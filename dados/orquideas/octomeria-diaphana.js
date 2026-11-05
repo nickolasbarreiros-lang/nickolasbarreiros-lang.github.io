@@ -51,8 +51,8 @@ export const octomeriaDiaphana = {
         titulo: "Substrato ideal",
         contexto: "Montagem em madeira ou cortiça com fina lâmina de esfagno",
         resumo: "Na montagem principal, esfagno apenas sob as raízes, sem massa de substrato. Para cesto ou cuia, mistura leve de partículas pequenas com boa drenagem.",
-        justificativa: "Octomeria diaphana é uma miniatura de raízes finas que se beneficia de montagem em placa ou tronco com uma camada muito fina de esfagno solto. Em cuia rasa ou cesto pequeno, os chips de coco preparados ajudam a conservar umidade, a casca de pinus fina oferece apoio e a perlita mantém espaços de ar. Use partículas proporcionais às raízes e observe a secagem para evitar desidratação ou abafamento.",
-        receitaTexto: "40% chips de coco pequenos preparados + 30% casca de pinus fina + 30% perlita de granulometria adequada a miniaturas.",
+        justificativa: "A mistura 40/30/30 é proposta horticultural sem ensaio quantitativo específico para Octomeria diaphana; o anúncio brasileiro consultado não apresenta percentuais. A montagem principal em placa/tronco não utiliza proporções volumétricas. Octomeria diaphana é uma miniatura de raízes finas que se beneficia de montagem em placa ou tronco com uma camada muito fina de esfagno solto. Em cuia rasa ou cesto pequeno, os chips de coco preparados ajudam a conservar umidade, a casca de pinus fina oferece apoio e a perlita mantém espaços de ar. Use partículas proporcionais às raízes e observe a secagem para evitar desidratação ou abafamento.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA, apenas para cuia rasa ou cesto pequeno: 40% chips de coco pequenos lavados + 30% casca de pinus fina + 30% perlita de granulometria adequada a miniaturas. A montagem principal em placa/tronco não usa percentuais volumétricos.",
         perfil: ["Miniatura epífita", "Raízes finas", "Touceira cespitosa", "Umidade regular", "Montagem permanente"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -61,7 +61,7 @@ export const octomeriaDiaphana = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "chips-coco", nome: "Chips de coco pequenos preparados", proporcao: "40%", nota: "umidade", finalidade: "Mantêm reserva hídrica moderada no recipiente." },
+            { asset: "chips-coco", nome: "Chips de coco pequenos lavados", proporcao: "40%", nota: "umidade", finalidade: "Mantêm reserva hídrica moderada no recipiente." },
             { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "30%", nota: "estrutura", finalidade: "Oferece fixação às raízes finas sem excesso de volume." },
             { asset: "perlita", nome: "Perlita de granulometria adequada a miniaturas", proporcao: "30%", nota: "aeração", finalidade: "Mantém a mistura porosa e drenante." }
         ],
@@ -221,7 +221,7 @@ export const octomeriaDiaphana = {
     ],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
-        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+        "climaFloracao": { "faixa": "intermediario" }
     },
         "avaliacoes": {
         "cultivo": 4,
