@@ -384,3 +384,9 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - Cribb descreve pseudobulbos clavados de 20–50 cm, duas folhas apicais e inflorescências de até 45 cm; registros de populações montanas a 1.200–1.900 m e floração de campo em janeiro, maio, junho e agosto, sem extrapolar calendário brasileiro.
 - Conferência textual: descrição 103 palavras, quatro suportes `estrelas: null`, duas alternativas qualitativas, receita 45% pinus + 20% carvão + 20% macadâmia + 15% esfagno = 100%. Assets de barro e macadâmia padronizados no código; renderização final ainda não conferida.
 - **Homologação documental concluída — MACS 1.1 provisória Classe D**, sem validação experimental dos percentuais ou ranking de suportes. Conferência visual final separada.
+
+### Ficha 13 — Bifrenaria verboonenii (2026-11-04)
+- POWO trata *Bifrenaria verboonenii* G.A.Romero & V.P.Castro (2000) como sinônimo heterotípico de *B. tyrianthina* (Lodd. ex Loudon) Rchb.f. (1854). Nome histórico preservado editorialmente com ressalva taxonômica.
+- IOSPE descreve o conceito histórico rupícola em Minas Gerais, 1.000–1.400 m, inflorescência basal com 2–3 flores de cerca de 6 cm; POWO caracteriza o táxon aceito amplo como epífita/litófita do leste brasileiro. Distribuições e faixas altitudinais mantidas separadas.
+- AOS fornece orientações genéricas para o gênero, não teste de substrato específico. Conferência textual: descrição 102 palavras; quatro suportes `estrelas: null`; duas alternativas qualitativas; receita 40% brita + 25% macadâmia + 20% carvão + 15% pinus = 100%. IDs de assets normalizados no código, sem verificação visual.
+- **Homologação documental concluída — MACS 1.1 provisória Classe D.** Não há validação quantitativa dos percentuais nem comparação experimental dos suportes. Inspeção visual final separada.
