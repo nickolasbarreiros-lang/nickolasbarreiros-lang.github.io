@@ -11,7 +11,7 @@ export const aciantheraSonderiana = {
     origem: "América do Sul",
     regiao: "Brasil (ES · MG · RJ · SP · PR · SC · RS) · Paraguai · Uruguai · Argentina (Misiones)",
     habitat: "Micro-orquídea principalmente epífita, ocasionalmente registrada como rupícola, associada a florestas úmidas, montanas, ombrófilas e matas ribeirinhas. Cresce sobre troncos e ramos em microambientes úmidos, ventilados e protegidos do sol forte.",
-    descricao: "Micro-orquídea cespitosa que forma pequenas touceiras compactas. Os ramicaules são cilíndricos e curtos, geralmente com cerca de 0,5–5 cm, portando uma única folha linear, carnosa e sulcada. As folhas medem aproximadamente 1–3 cm. As inflorescências são curtas e eretas, normalmente com 2–4 pequenas flores amarelo-alaranjadas a alaranjadas. As flores medem cerca de 4–7 mm, com sépalas laterais parcialmente unidas formando sinsépalo e labelo trilobado. O conjunto é diminuto, mas pode produzir várias inflorescências em uma touceira bem estabelecida.",
+    descricao: "Acianthera sonderiana é uma miniatura epífita que forma pequenas touceiras de ramicaules curtos, cada um com uma folha estreita, carnosa e levemente sulcada. As inflorescências eretas apresentam geralmente duas a quatro flores diminutas, amarelo-alaranjadas, com sépalas parcialmente unidas e labelo trilobado. O conjunto pode passar despercebido à distância, mas revela detalhes delicados quando observado de perto. Encontrada em florestas úmidas da América do Sul, vive principalmente sobre troncos e galhos protegidos do sol intenso. Suas raízes finas e superficiais acompanham o suporte, característica que favorece montagens abertas, desde que a umidade ambiental não falte por períodos prolongados.",
     caracteristicas: [
         "Micro-orquídea",
         "Epífita cespitosa",
@@ -39,16 +39,16 @@ export const aciantheraSonderiana = {
         agua: 5,
         raridade: 2
     },
-    mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    mesesFloracao: [],
     clima: "Intermediário a fresco, úmido e bem ventilado; evitar calor abafado prolongado.",
-    climaFloracao: "A espécie é associada principalmente a ambientes úmidos e de temperaturas amenas. Há registros de floração em diferentes épocas e referências de cultivo relatam floração livre ao longo do ano. Para manter floração regular, noites menos quentes, boa umidade, ventilação constante e luz filtrada brilhante são mais importantes do que impor um repouso sazonal.",
+    climaFloracao: "A espécie é associada principalmente a ambientes úmidos e de temperaturas amenas. Há referências de cultivo que relatam floração em épocas variadas, mas a matriz não documenta observações mensais suficientes para atribuir todos os meses como floração comprovada. Para manter floração regular, noites menos quentes, boa umidade, ventilação constante e luz filtrada brilhante são mais importantes do que impor um repouso sazonal.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Permitido com restrição",
         horario: "Somente início da manhã",
         observacoes: "Prefere luz filtrada de baixa a média intensidade. Referências de cultivo situam a espécie aproximadamente em 1.500–2.500 foot-candles e há cultivo comercial bem-sucedido sob cerca de 70% de sombreamento. Pode tolerar incidência muito suave nas primeiras horas da manhã quando aclimatada, mas o sol forte e o aquecimento das folhas devem ser evitados."
     },
-    floracao: "Pode florescer em diferentes épocas do ano. Há registros florísticos e de cultivo que variam entre inverno, primavera/verão e floração livre; por isso a ficha não restringe a espécie a uma única estação. Inflorescências curtas, geralmente com 2–4 flores, surgem em plantas maduras e bem hidratadas.",
+    floracao: "Pode florescer em diferentes épocas conforme procedência e condições de cultivo; a matriz não sustenta um calendário brasileiro mensal completo. Inflorescências curtas, geralmente com 2–4 flores, surgem em plantas maduras e bem hidratadas.",
     adubacao: "🌿 Orgânica: bokashi em quantidade mínima, preferencialmente em sachê e sem contato direto prolongado com as raízes.\n💧 Foliar/mineral: adubo equilibrado em 1/4 da dose do fabricante a cada 10–15 dias durante crescimento ativo.\n🧪 Como as raízes são muito finas, faça lavagens periódicas com água de baixa salinidade e evite acúmulo de sais.",
     rega: "Manter as raízes regularmente úmidas, sem permitir secagem prolongada. Em placas ou pequenas montagens, pode exigir rega diária no período quente e seco; em vasos com esfagno, regar novamente quando o material começar a perder umidade superficial, sem deixá-lo compactado ou permanentemente encharcado. A combinação correta é muita disponibilidade de água com excelente oxigenação das raízes.",
     suporte: [
@@ -56,7 +56,7 @@ export const aciantheraSonderiana = {
         "🥈 Vaso pequeno e muito ventilado com esfagno solto.",
         "🥉 Cachepô pequeno com mistura fina, leve e altamente aerada."
     ],
-    substrato: ["Casca de pinus fina/média + Carvão vegetal pequeno + Esfagno de fibra longa solto", "Chips de coco pequenos preparados + Casca de arroz carbonizada + Esfagno de fibra longa solto"],
+    substrato: ["Casca de pinus fina/média + Carvão vegetal pequeno + Esfagno de fibra longa solto", "Chips de coco pequenos lavados + Casca de arroz carbonizada + Esfagno de fibra longa solto"],
     formasCultivo: {
         perfilVisual: "micro-pleurothalidina",
         destaque: "Placa / tronco",
@@ -73,8 +73,8 @@ export const aciantheraSonderiana = {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura muito aerada, leve e com reserva hídrica moderada para raízes finas que não devem permanecer secas por longos períodos.",
-        justificativa: "Acianthera sonderiana é uma epífita de raízes finas que precisa de umidade regular e boa circulação de ar. A montagem principal em placa ou tronco utiliza apenas uma camada muito fina de esfagno solto, mantendo as raízes ventiladas. Em vaso pequeno e perfurado, a casca de pinus, a casca de arroz carbonizada e o carvão preservam espaços de ar, enquanto o esfagno ajuda a conservar umidade. Em dias quentes, observe a secagem e ajuste a frequência das regas, sem compactar a mistura.",
-        receitaTexto: "Mistura para cultivo em vaso: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno. Ajustar granulometria e rega conforme secagem observada.",
+        justificativa: "A mistura 35/30/20/15 é proposta horticultural não homologada quantitativamente para Acianthera sonderiana; as orientações de produtores são qualitativas. A montagem principal em placa/tronco não emprega percentuais volumétricos. Acianthera sonderiana é uma epífita de raízes finas que precisa de umidade regular e boa circulação de ar. A montagem principal em placa ou tronco utiliza apenas uma camada muito fina de esfagno solto, mantendo as raízes ventiladas. Em vaso pequeno e perfurado, a casca de pinus, a casca de arroz carbonizada e o carvão preservam espaços de ar, enquanto o esfagno ajuda a conservar umidade. Em dias quentes, observe a secagem e ajuste a frequência das regas, sem compactar a mistura.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA, somente para vaso pequeno e perfurado: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno. Ajustar granulometria e rega conforme secagem observada.",
         perfil: ["Raízes finas", "Alta aeração", "Umidade constante", "Secagem moderada", "Baixa compactação", "Vaso pequeno"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -89,6 +89,6 @@ export const aciantheraSonderiana = {
             { asset: "carvao-vegetal", nome: "Carvão vegetal pequeno", proporcao: "15%", nota: "porosidade + durabilidade", finalidade: "Ajuda a preservar a estrutura aberta e a circulação de ar entre os componentes." }
         ],
         alerta: "Não compacte o esfagno. Em clima quente, mantenha umidade regular, mas permita boa oxigenação e drenagem; raízes finas sofrem tanto com secagem prolongada quanto com substrato abafado.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Acianthera sonderiana é miniatura epífita cespitosa de raízes finas, com necessidade de umidade regular e boa ventilação. Cultivo principal em placa/tronco com mínima lâmina de esfagno solto e rizoma exposto; mistura visual alternativa para vaso pequeno e perfurado: 35% pinus fino/médio + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno = 100%. Receita textual e itens visuais correspondem. Exatamente duas alternativas quantitativas editoriais distintas (55/25/20 e 45/30/25), sem percentuais homologados. Em clima quente monitorar secagem e evitar esfagno compactado. Classificações de suportes são heurísticas, não resultados experimentais. Não foram documentados ensaios quantitativos específicos nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
+        notaEvidencia: "MACS 1.1 — revisão documental: Acianthera sonderiana é miniatura epífita cespitosa de raízes finas, com necessidade de umidade regular e boa ventilação. Cultivo principal em placa/tronco com mínima lâmina de esfagno solto e rizoma exposto; mistura visual alternativa para vaso pequeno e perfurado: 35% pinus fino/médio + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno = 100%. Receita textual e itens visuais correspondem. Exatamente duas alternativas qualitativas distintas, sem percentuais; estimativas antigas de 55/25/20 e 45/30/25 não integram as receitas exibidas. Em clima quente monitorar secagem e evitar esfagno compactado. Classificações de suportes são heurísticas, não resultados experimentais. Não foram documentados ensaios quantitativos específicos nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
     }
 };
