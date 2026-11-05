@@ -35,7 +35,7 @@ export const coelogyneOvalisVarMiniatum = {
         "horario": "Somente início da manhã",
         "observacoes": "Prefere sombra luminosa, com bastante claridade difusa. Folhas verde-médio e pseudobulbos firmes indicam equilíbrio. Sombra excessiva reduz a floração; sol forte combinado com calor desidrata folhas e rizoma rapidamente."
     },
-    "floracao": "Na Coelogyne ovalis típica, a floração pode ocorrer do verão ao inverno, com maior variação conforme procedência e condições de cultivo. As inflorescências são curtas, com poucas flores que podem abrir de forma sucessiva. Cada flor mede aproximadamente 3–4 cm e pode apresentar perfume. Para este exemplar, fotografe planta inteira, flor frontal, perfil e labelo para confirmar a identificação.",
+    "floracao": "Orquidários brasileiros indicam que Coelogyne ovalis pode florescer no verão e no outono, embora alguns produtores considerem sua época variável. No exemplar identificado como ‘Miniatum’, essa referência deve ser tratada com cautela, pois a identificação horticultural ainda precisa ser confirmada. As hastes são curtas e geralmente apresentam de uma a quatro flores que podem abrir sucessivamente, prolongando o aspecto florido. Cada flor mede cerca de 3 a 5 cm e combina tons creme ou verde-amarelados com desenhos castanhos ou arroxeados no labelo, que possui bordas delicadamente franjadas. O perfume é variável: há registros da espécie como perfumada, mas produtores brasileiros também comercializam plantas sem fragrância perceptível; não há notas aromáticas específicas confirmadas. Um orquidário brasileiro informa duração média de aproximadamente 15 dias para a floração.",
     "adubacao": "🌿 Orgânica: bokashi em quantidade mínima, afastado do rizoma e apenas durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose, aplicado com raízes novas e pseudobulbos em formação.\n🌱 Crescimento: adubação leve e regular funciona melhor do que doses fortes.\n🍂 Período mais frio: reduza a frequência se o crescimento desacelerar.\n🧪 Liberação lenta: poucos grânulos somente em mistura muito drenante.\n🚿 Lavagem: faça irrigação abundante com água pura periodicamente para remover sais.",
     "rega": "Mantenha umidade regular durante o crescimento, mas permita boa entrada de ar no sistema radicular. A espécie ocorre tanto sobre árvores quanto rochas musgosas, indicando raízes acostumadas a umidade frequente sem compactação. No período mais fresco, reduza moderadamente se a planta desacelerar, sem impor seca severa nem deixar os pseudobulbos enrugarem de forma contínua.",
     "suporte": "🥇 Placa larga com pequena faixa de esfagno — acompanha naturalmente o rizoma rastejante.\n🥈 Cesto raso — oferece espaço horizontal e ótima aeração.\n🥉 Vaso largo e baixo — útil onde a umidade ambiental é menor.\nDeixe o rizoma sobre a superfície e reserve espaço para vários anos de avanço.",
@@ -213,17 +213,7 @@ export const coelogyneOvalisVarMiniatum = {
         "litoralQuente": "No litoral quente, mantenha no setor mais fresco e ventilado do orquidário, com sombra luminosa e umidade do ar elevada. Evite vasos escuros, profundos e locais onde o calor fique represado à noite.",
         "montanhaFrio": "Adapta-se muito bem a noites mais frescas. Mantenha umidade regular e proteja apenas de geada, vento extremamente seco e encharcamento frio prolongado."
     },
-    "mesesFloracao": [
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        1,
-        2
-    ],
+    "mesesFloracao": [],
     "selosCultivo": {
         "rega": { "nivel": "sazonal" },
         "climaFloracao": { "faixa": "ameno" }
