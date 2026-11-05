@@ -54,7 +54,7 @@ export const cattleyaPumpkinFestival = {
         contexto: "Para cesto ou vaso",
         resumo: "Mistura grossa, estável e de secagem rápida, adequada ao padrão radicular das Cattleyas híbridas.",
         justificativa: "Este híbrido não possui habitat natural, então a recomendação se baseia na fisiologia e no cultivo consolidado da aliança Cattleya: raízes grossas, alta necessidade de oxigênio e baixa tolerância à saturação prolongada.",
-        receitaTexto: "Mistura-base sugerida: 45% casca de pinus grossa + 25% carvão vegetal + 20% brita pequena + 10% casca de macadâmia.",
+        receitaTexto: "Mistura-base sugerida: 45% casca de pinus grossa + 25% carvão vegetal + 20% brita fina lavada e sem pó + 10% casca de macadâmia.",
         perfil: ["Raízes grossas", "Alta aeração", "Secagem entre regas", "Alta luminosidade filtrada", "Vaso proporcional"],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus grossa", proporcao: "45%", nota: "estrutura", finalidade: "Sustenta raízes grossas e mantém grandes espaços de ar." },
