@@ -43,7 +43,7 @@ export const neobenthamiaGracilis = {
         resumo: "Orquídea terrestre ou rupícola de caules altos e touceira volumosa. Requer recipiente pesado, espaço radicular, drenagem e tutores firmes para evitar tombamento.",
         metodos: [
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso grande, pesado e bem drenado, com tutor para os caules altos; evitar solo compacto." },
-            { nome: "Vaso plástico", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Plástico espesso, amplo e muito bem drenado, com base estabilizada para resistir ao peso da parte aérea." },
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 4, status: "Alternativa", texto: "Plástico espesso, amplo e muito bem drenado, com base estabilizada para resistir ao peso da parte aérea." },
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 3, status: "Uso condicional", texto: "Estrutura ampla e firme, com mistura de maior retenção e regas ajustadas para não secar rapidamente." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Somente modelo grande e estável, com tutor e controle da secagem excessiva." }
         ]
