@@ -365,3 +365,10 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - AOS e Smithsonian documentam morfologia e inflorescências eretas de abertura sucessiva. Altitudes regionais 0–300 m (manual do Camboja) e 50–600 m (Smithsonian) não são limites globais.
 - Conferência estrutural textual: descrição 117 palavras, quatro suportes `estrelas: null`, duas alternativas qualitativas e receita 35% perlita + 30% brita lavada + 25% macadâmia + 10% pinus = 100% sem alterações.
 - **Homologação documental da ficha 9 concluída — MACS 1.1 provisória Classe D.** Sem ensaio comparativo de suportes ou validação quantitativa dos percentuais. Conferência visual local separada.
+
+### Ficha 10 — Dendrobium spectabile (2026-11-04)
+- POWO confirma *Dendrobium spectabile* (Blume) Miq. (1859), basiônimo *Latouria spectabilis* Blume (1849), com distribuição atual de Nova Guiné a Nova Caledônia.
+- Cribb (1983), reproduzido por Naturalis/Orchids of New Guinea, documenta pseudobulbos tipo cana, inflorescências de 20–40 cm e flores fortemente onduladas; IOSPE descreve outras faixas altitudinais, mantidas separadas na ficha.
+- AOS, citando Baker, recomenda luz relativamente alta, clima intermediário a quente e repouso sazonal **ligeiramente mais fresco e seco**, especialmente para indução de floração em planta adulta; não confundir com seca severa. AOS documenta cultivar 'Bunny' HCC/AOS.
+- Conferência estrutural textual: descrição 117 palavras, quatro suportes `estrelas: null`, duas alternativas qualitativas e receita 35% macadâmia + 30% pinus + 20% perlita + 15% carvão = 100% sem alteração.
+- **Homologação documental da ficha 10 concluída — MACS 1.1 provisória Classe D.** Sem ensaio quantitativo de substrato ou comparação experimental de suportes. Conferência visual local separada.
