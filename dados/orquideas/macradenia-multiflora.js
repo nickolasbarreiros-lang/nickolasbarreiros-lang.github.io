@@ -42,7 +42,7 @@ export const macradeniaMultiflora = {
         observacoes: "Prefere meia-sombra clara e luz filtrada relativamente intensa. Orquidários brasileiros recomendam cerca de 50% de sombreamento, enquanto outro produtor orienta meia-sombra sem sol direto. No litoral quente, 50% a 60% de sombreamento é um ponto inicial seguro: forneça claridade suficiente para manter crescimento compacto, mas evite radiação direta que aqueça folhas e raízes."
     },
 
-    floracao: "Produz racemos laterais pendentes, normalmente densos e multifloros. Estudos brasileiros descrevem plantas de cerca de 14–17 cm, inflorescências de 8–14 cm com aproximadamente 12–26 flores e flores em torno de 2 cm. IOSPE registra hastes chegando a aproximadamente 20 cm e floração do verão ao outono. O perfume é descrito em referências internacionais, embora ao menos um produtor brasileiro comercialize clones sem perfume perceptível, indicando possível variação entre plantas e condições de cultivo.",
+    floracao: "No Brasil, Macradenia multiflora tem floração documentada em março, abril, maio, junho, novembro e dezembro em observações de campo no Pará. Orquidários brasileiros também relatam floração predominante no verão, por vezes repetida no mesmo ano, e a época pode variar conforme a região e o cultivo. As hastes laterais pendentes, de aproximadamente 8 a 20 cm, carregam muitas flores pequenas, geralmente 12 a 26, com cerca de 2 cm. Sépalas e pétalas são púrpura a castanho-vinho, com margens verde-amareladas; o labelo claro apresenta pintas e detalhes vináceos. Há referências internacionais que descrevem flores perfumadas, mas alguns produtores brasileiros não percebem fragrância em suas plantas; não há notas aromáticas específicas confirmadas. Também não foi encontrada documentação confiável sobre quantos dias dura cada flor ou a inflorescência completa, portanto não se atribui uma duração estimada.",
 
     adubacao: "🌿 Orgânica: use bokashi em pequena quantidade, preferencialmente em sachê e afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose, a cada 10–15 dias no crescimento ativo.\n🌸 Pré-floração: mantenha nutrição equilibrada; a espécie não depende de seca severa para induzir flores.\n🚿 Faça lavagem periódica do substrato com água pura para reduzir acúmulo de sais.",
 
@@ -182,7 +182,7 @@ export const macradeniaMultiflora = {
         montanhaFrio: "Adaptação excelente. A amplitude térmica aceita em cultivo e a ocorrência no Centro-Oeste/Sudeste/Sul favorecem noites mais amenas. No inverno, apenas ajuste a rega à menor evaporação; não imponha repouso seco."
     },
 
-    mesesFloracao: [1, 2, 3, 6, 7, 8, 9, 10, 11],
+    mesesFloracao: [3, 4, 5, 6, 11, 12],
 
     selosCultivo: {
         rega: { nivel: "frequente", regime: "ano-todo" },
