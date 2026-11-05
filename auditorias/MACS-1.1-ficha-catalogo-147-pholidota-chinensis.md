@@ -40,3 +40,11 @@ Workflow aprovado e carregamento das quatro fotos/assets verificado automaticame
 - Verificados visualmente: quatro fotografias na galeria, crédito público CC BY 2.0 da quarta foto, formas de cultivo, assets dos cinco ingredientes, proporções 30+25+20+15+10=100%, duas alternativas qualitativas sem percentuais e legibilidade do layout em desktop e celular.
 - Observação cosmética não bloqueante: no arranjo móvel da receita principal, o símbolo `+` junto ao quinto ingrediente fica deslocado à esquerda; composição e leitura permanecem íntegras. Não alterar layout sem revisão de regressão global.
 - **Encerramento técnico aprovado**: não restam pendências bloqueantes de funcionalidade, imagem ou apresentação na ficha 147 conforme evidências disponíveis. A aprovação não equivale a validação experimental de percentuais/estrelas; **classe D** mantida e explicitamente documentada.
+
+
+## Revisão matemática e de evidência — 2026-11-05
+- Correção na ficha `dados/orquideas/pholidota-chinensis.js`, commit `739203b`: estrelas dos quatro métodos de cultivo agora `null`, com status provisório, pois a comparação não foi homologada quantitativamente. A classe MACS 1.1 continua **D**.
+- **IAR 2.0 litoral:** fatores habitat/temperatura/água/ventilação/luz/sazonalidade/floração = 3/2/4/5/4/3/2. Pela fórmula `6H+6T+A+V+L+S+4F`: 18+12+4+5+4+3+8 = **54/100** (antes 48); três estrelas mantidas.
+- **IAR 2.0 montanha:** fatores 5/5/4/4/4/5/5: 30+30+4+4+4+5+20 = **97/100** (antes 92); cinco estrelas mantidas.
+- **IDC 3.2:** índice documental 47/100, três estrelas; faixas atualizadas para 0–25 (5 estrelas), 26–35 (4), 36–50 (3), 51–89 (2), 90–100 (1). Não foi reconstruída independentemente a fórmula de conversão das notas individuais para 47/100.
+- Esta revisão é **correção de dados da ficha 147 do catálogo**, não atribuição de número 147 à sequência de matrizes MACS 1.1. A revisão técnica requer confirmação de testes após a alteração.
