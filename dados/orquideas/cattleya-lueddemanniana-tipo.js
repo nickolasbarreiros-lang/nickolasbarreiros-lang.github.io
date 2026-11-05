@@ -19,7 +19,7 @@ export const cattleyaLueddemannianaTipo = {
         "imagens/Cattleya lueddemanniana/Cattleya lueddemanniana3.jpg",
         "imagens/Cattleya lueddemanniana/Cattleya lueddemanniana4.jpg"
     ],
-    descricao: "Uma das grandes Cattleyas venezuelanas, Cattleya lueddemanniana chama atenção pelas flores amplas, cerosas e perfumadas, geralmente em tons de rosa a rosa-lilás. O labelo é o grande destaque: intensamente ornamentado em púrpura, com desenhos que podem avançar pela garganta sobre áreas amarelas ou douradas, dando a cada flor uma aparência muito marcante. É uma planta robusta e elegante, capaz de produzir florações impressionantes quando bem estabelecida. Apesar da aparência sofisticada, costuma responder muito bem ao cultivo quente e luminoso, desde que as raízes permaneçam arejadas e sequem com rapidez entre as regas.",
+    descricao: "Uma das grandes Cattleyas venezuelanas, Cattleya lueddemanniana chama atenção pelas flores amplas, cerosas e perfumadas, geralmente em tons de rosa a rosa-lilás. O labelo é o destaque: ornamentado em púrpura, com desenhos que avançam pela garganta sobre áreas amarelas ou douradas, tornando cada flor muito marcante. É uma epífita unifoliada, de pseudobulbos robustos, nativa de regiões costeiras baixas do norte da Venezuela. As flores surgem de espatas associadas a crescimentos maduros, e sua apresentação varia entre exemplares. Apesar da aparência sofisticada, aprecia condições quentes, boa luminosidade filtrada e raízes ventiladas, com secagem perceptível entre as regas.",
     origem: "Venezuela",
     regiao: "Cordilheira da Costa · norte da Venezuela",
     habitat: "Florestas tropicais úmidas · epífita.",
@@ -33,13 +33,13 @@ export const cattleyaLueddemannianaTipo = {
     },
     floracao: "A floração principal ocorre do fim de dezembro a março. Plantas adultas e alguns clones podem apresentar uma segunda floração entre setembro e novembro.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose semanal ou quinzenalmente enquanto brotos e raízes estiverem ativos. Após a maturação, reduza a frequência e evite excesso de nitrogênio; não há necessidade de doses elevadas de fósforo para induzir floração.\n🧪 Liberação lenta: Osmocote 14-14-14 ou equivalente em dose moderada para vasos e cachepôs, reduzindo a adubação líquida se for utilizado.",
-    rega: "Durante o crescimento ativo, regue abundantemente e deixe o sistema radicular secar de forma significativa antes da próxima irrigação. Após a maturação do pseudobulbo, aumente gradualmente o intervalo entre as regas, mantendo a planta mais seca sem provocar desidratação excessiva. Em Litoral de clima quente, a frequência deve acompanhar o suporte, a temperatura e a velocidade real de secagem.",
+    rega: "Durante o crescimento ativo, regue abundantemente e deixe o sistema radicular secar de forma significativa antes da próxima irrigação. Após a maturação do pseudobulbo, aumente gradualmente o intervalo entre as regas, mantendo a planta mais seca sem provocar desidratação excessiva. Em regiões de clima quente, a frequência deve acompanhar o suporte, a temperatura e a velocidade real de secagem.",
     suporte: "🥇 Cachepô de madeira, excelente para secagem rápida e raízes arejadas.\n🥈 Vaso de barro, que ajuda a dissipar umidade e calor pelas paredes.\n🥉 Vaso plástico muito perfurado, sempre com substrato grosseiro e excelente drenagem.",
     substrato: ["Casca de pinus média/grossa + carvão vegetal + esfagno de fibra longa solto","Casca de pinus média/grossa + carvão vegetal + brita fina"],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Cachepô de Madeira",
-    "resumo": "MACS 1.0: cachepô de madeira permanece proposta principal, sujeita à avaliação da velocidade de secagem no clima quente.",
+    "resumo": "Cachepô de madeira permanece a forma de cultivo principal, com regas ajustadas à velocidade real de secagem.",
     "metodos": [
         {
             "nome": "Cachepô de Madeira",
@@ -88,7 +88,7 @@ export const cattleyaLueddemannianaTipo = {
         { "asset": "carvao-vegetal", "nome": "Carvão vegetal horticultural", "proporcao": "16,7%", "nota": "aeração complementar", "finalidade": "Complementa a casca na proporção institucional de 5:1." }
     ],
     "alerta": "Mistura ilustrada como proposta técnica; não há ensaio específico apresentado que demonstre superioridade destas proporções para plantas adultas. Observar secagem e manter drenagem.",
-    "notaEvidencia": "MACS 1.1: AOS recomenda especificamente para Cattleya lueddemanniana cachepô de madeira ou vaso de barro e meio de secagem rápida: https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-lueddemanniana-rchb-f . Orquidários brasileiros Oriental, Santa Clara e Mogi Mirim citam pinus, carvão, musgo e pedrisco, sem receita quantitativa para a espécie adulta tipo. A receita institucional atribuída ao Missouri Botanical Garden usa genericamente para Cattleyas 5 partes de casca de abeto média para 1 de carvão horticultural, e a ficha adapta o material para pinus médio/grosso: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids . Proporção 83,3/16,7 de referência em nível de grupo, adaptada com pinus e NÃO HOMOLOGADA experimentalmente para esta espécie; alternativas qualitativas sem percentuais publicados. Três produtores distintos consultados, abaixo da meta 25; estrelas não homologadas por ensaio."
+    "notaEvidencia": "MACS 1.1: AOS oferece orientação genérica para Cattleyas sobre ventilação, casca e replante na emissão de raízes novas. Fontes comerciais brasileiras Oriental, Santa Clara e Mogi Mirim anteriormente citadas, mas não reconfirmadas individualmente nesta passagem, mencionam pinus, carvão, musgo e pedrisco, sem receita quantitativa para a espécie adulta tipo. A receita institucional atribuída ao Missouri Botanical Garden usa genericamente para Cattleyas 5 partes de casca de abeto média para 1 de carvão horticultural, e a ficha adapta o material para pinus médio/grosso: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids . Proporção 83,3/16,7 de referência em nível de grupo, adaptada com pinus e NÃO HOMOLOGADA experimentalmente para esta espécie; alternativas qualitativas sem percentuais publicados. Três fontes comerciais herdadas, sem reconfirmação independente nesta revisão e abaixo da meta 25; estrelas não homologadas por ensaio."
 },
     errosComuns: "Cortar espata seca sem verificar se há botões; deixar água acumulada dentro de espata fechada; manter substrato constantemente molhado; cultivar com pouca luz; usar vaso excessivamente grande; enterrar o rizoma; confundir repouso com seca absoluta; replantar fora da emissão de novas raízes; adubar em excesso.",
     dica: "Nunca descarte uma espata apenas porque ficou amarela, marrom ou aparentemente seca. Ela pode proteger botões que ainda estão se desenvolvendo. Evite água parada dentro da bainha, especialmente em noites quentes. Depois da floração, observe a base do novo crescimento: quando começarem a despontar raízes novas, chegou a melhor janela para replantar.",
@@ -230,7 +230,7 @@ export const cattleyaLueddemannianaTipo = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Adapta-se muito bem à Litoral de clima quente. O calor é compatível com sua origem; o maior risco é a combinação de noites quentes, substrato fechado e raízes permanentemente molhadas. Prefira boa ventilação, vaso ou cachepô arejado e luz filtrada forte." },
+        litoralQuente: { texto: "Adapta-se bem a regiões litorâneas de clima quente. O calor é compatível com sua origem; o maior risco é a combinação de noites quentes, substrato fechado e raízes permanentemente molhadas. Prefira boa ventilação, vaso ou cachepô arejado e luz filtrada forte." },
         montanhaFrio: { texto: "Tolera noites frescas, mas não aprecia frio úmido prolongado. Reduza as regas durante sequências frias e nubladas e proteja contra temperaturas extremas." }
     },
     mesesFloracao: [12, 1, 2, 3, 9, 10, 11],
