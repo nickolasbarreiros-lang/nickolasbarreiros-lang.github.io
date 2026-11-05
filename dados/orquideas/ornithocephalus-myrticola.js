@@ -29,7 +29,7 @@ export const ornithocephalusMyrticola = {
     "iluminacao": {
         "sombrite": "70% a 80%",
         "solDireto": "Não permitido",
-        "horario": "",
+        "horario": "Não permitido",
         "observacoes": "Sombra clara. Posicione na faixa inferior ou média do orquidário, longe de paredes e coberturas aquecidas. Folhas amareladas ou avermelhadas indicam excesso; folhas alongadas, muito escuras e pouca floração indicam sombra profunda."
     },
     "floracao": "A época pode variar entre procedências e condições de cultivo. As hastes axilares e pubescentes medem cerca de 4–8 cm e podem carregar até aproximadamente 15 flores de cerca de 1 cm, claras e delicadas, com perfume cítrico lembrando limão. Em touceiras adultas, várias inflorescências podem aparecer em sequência e prolongar o efeito ornamental.",
@@ -52,8 +52,8 @@ export const ornithocephalusMyrticola = {
         titulo: "Substrato ideal",
         contexto: "Montagem em placa rugosa com esfagno mínimo",
         resumo: "A montagem principal usa apenas uma lâmina fina de esfagno sob as raízes. Mistura de partículas pequenas é alternativa para suporte totalmente vazado, sem formar reservatório de água.",
-        justificativa: "Ornithocephalus myrticola apresenta raízes muito delicadas e se beneficia de montagem em placa ou tronco rugoso, com uma quantidade mínima de esfagno solto sob as raízes. Em suporte muito vazado, os chips de coco pequenos preparados ajudam a conservar umidade, o pinus fino oferece apoio e a perlita mantém espaços de ar. Use granulometria proporcional às raízes e evite abafar o leque da planta.",
-        receitaTexto: "40% chips de coco pequenos preparados + 30% casca de pinus fina + 30% perlita de granulometria adequada às raízes.",
+        justificativa: "A mistura 40/30/30 é proposta horticultural não homologada para Ornithocephalus myrticola e aplica-se somente a suporte muito vazado; a montagem principal em placa/tronco não emprega percentuais volumétricos. Ornithocephalus myrticola apresenta raízes muito delicadas e se beneficia de montagem em placa ou tronco rugoso, com uma quantidade mínima de esfagno solto sob as raízes. Em suporte muito vazado, os chips de coco pequenos lavados ajudam a conservar umidade, o pinus fino oferece apoio e a perlita mantém espaços de ar. Use granulometria proporcional às raízes e evite abafar o leque da planta.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA, somente para suporte muito vazado: 40% chips de coco pequenos lavados + 30% casca de pinus fina + 30% perlita de granulometria adequada às raízes. A montagem principal em placa/tronco não usa percentuais volumétricos.",
         perfil: ["Miniatura epífita", "Folhas em leque", "Sem pseudobulbos", "Raízes delicadas", "Umidade frequente e ventilação"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -211,14 +211,7 @@ export const ornithocephalusMyrticola = {
         "litoralQuente": "No litoral quente, a espécie pode se adaptar porque também ocorre em baixadas quentes, mas exige ventilação excelente. Instale em posição clara e sombreada, longe de paredes aquecidas; aumente a umidade do ambiente sem manter o centro do leque molhado ao anoitecer.",
         "montanhaFrio": "Tolera bem clima ameno. Reduza borrifos no inverno, sem permitir seca prolongada, e proteja de vento frio ressecante e geada."
     },
-    "mesesFloracao": [
-        1,
-        2,
-        9,
-        10,
-        11,
-        12
-    ],
+    "mesesFloracao": [],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "intermediario" }
