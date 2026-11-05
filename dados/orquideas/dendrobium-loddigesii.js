@@ -33,7 +33,7 @@ export const dendrobiumLoddigesii = {
         "horario": "Início da manhã ou final da tarde",
         "observacoes": "Necessita luz intensa durante todo o ano. Hastes compactas e firmes indicam equilíbrio. Sombra gera hastes finas, moles e muitos keikis; queimaduras secas indicam excesso de sol."
     },
-    "floracao": "Mais comum do fim do inverno à primavera, entre agosto e novembro. Flores solitárias ou em pequenos grupos surgem nos nós de hastes maduras, inclusive em hastes antigas e já desfolhadas. A preservação da touceira aumenta o número de pontos florais.",
+    "floracao": "Em cultivo brasileiro, Dendrobium loddigesii floresce principalmente do fim do inverno ao início da primavera, geralmente entre agosto e outubro, embora algumas plantas possam florescer um pouco mais tarde. As flores nascem nos nós das hastes maduras, muitas vezes já sem folhas, e costumam aparecer isoladas em cada ponto, formando uma cascata quando vários nós florescem juntos. Medem aproximadamente 3 a 5 cm, têm pétalas rosa a lilás e um labelo arredondado, com bordas finamente franjadas e centro amarelo intenso ou alaranjado. O perfume varia entre exemplares: há relatos de fragrância suave e também de flores praticamente sem cheiro, sem notas aromáticas específicas confirmadas. Orquidários brasileiros informam floradas de cerca de 10 a 15 dias, podendo alcançar aproximadamente 25 dias em condições favoráveis.",
     "adubacao": "🌱 Primavera: NPK equilibrado com brotação e raízes ativas.\n☀️ Verão: manter adubação diluída até as hastes amadurecerem.\n🍂 Final do verão/outono: reduzir nitrogênio e depois suspender.\n💤 Inverno: nenhuma adubação.\n🌿 Bokashi/Osmocote: somente no início do ciclo e em dose mínima.",
     "rega": "Durante o crescimento, regue com frequência e permita secagem rápida. Quando as hastes endurecerem e perderem folhas, reduza fortemente. No repouso, molhe apenas se houver enrugamento acentuado. Hastes ligeiramente sulcadas são normais.",
     "suporte": "🥇 Placa de madeira ou tronquinho.\n🥈 Cesto pequeno suspenso.\n🥉 Vaso raso pendurado e muito drenante.\nO suporte deve permitir que hastes e flores pendam livremente.",
@@ -218,8 +218,7 @@ export const dendrobiumLoddigesii = {
     "mesesFloracao": [
         8,
         9,
-        10,
-        11
+        10
     ],
     "selosCultivo": {
         "rega": { "nivel": "sazonal", "regime": "repouso-seco" },
