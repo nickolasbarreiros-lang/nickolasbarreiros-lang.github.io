@@ -26,7 +26,7 @@ export const gomesaRecurva = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Folhas verde-claras e firmes indicam boa luminosidade. Folhas muito escuras sugerem sombra excessiva; amarelecimento intenso e aquecimento foliar indicam excesso de sol."
     },
-    floracao: "Predominantemente no outono e inverno; flores pequenas, numerosas e perfumadas em hastes arqueadas.",
+    floracao: "No Brasil, há relatos de Gomesa recurva florida em janeiro e fevereiro, no verão, além de indicação de floração em julho. A época varia conforme a região e o cultivo; por isso, esses são os meses registrados no calendário, sem pressupor floração contínua entre eles. As hastes arqueadas e pendentes, de aproximadamente 10 a 35 cm, formam pequenas cascatas com dezenas de flores, frequentemente de 15 a 30 por haste. Cada flor mede cerca de 2 cm e apresenta sépalas e pétalas verde-amareladas, com labelo da mesma tonalidade e coluna clara. São perfumadas: um cultivador brasileiro descreve fragrância delicada com notas cítricas, embora a intensidade possa variar. Esse mesmo relato informa duração média de aproximadamente 20 dias para o conjunto da floração; outro orquidário brasileiro menciona flores que permanecem vistosas por várias semanas. Não há confirmação separada da longevidade de cada flor individual.",
     adubacao: "🌿 Orgânica: bokashi leve em porta-adubo no início da brotação.\n💧 Foliar: NPK equilibrado em 1/4 da dose, semanalmente ou a cada 10–15 dias durante o crescimento ativo.\n🧪 Liberação lenta: poucos grânulos no perímetro de vaso drenante, sempre afastados das raízes novas.\n💦 Lavagem: faça periodicamente uma rega abundante apenas com água limpa para reduzir o acúmulo de sais.",
     rega: "Durante a brotação, regue quando o substrato estiver próximo da secagem, mantendo umidade regular sem saturação. Após a maturação dos pseudobulbos, aumente gradualmente o intervalo entre as irrigações, sem permitir enrugamento intenso. No final do inverno, ajuste a água à menor atividade vegetativa, mas não imponha dormência seca.",
     suporte: "🥇 Placa de madeira dura ou cortiça, valorizando o hábito pendente.\n🥈 Cachepô pequeno de madeira.\n🥉 Vaso de barro baixo e perfurado, instalado em posição elevada.",
@@ -205,7 +205,7 @@ export const gomesaRecurva = {
         litoralQuente: { texto: "Adapta-se bem em Litoral de clima quente quando cultivada no ponto mais fresco, claro e ventilado. Evite calor parado, vaso grande e excesso de esfagno." },
         montanhaFrio: { texto: "Proteja apenas contra geadas e excesso de água no inverno; as noites naturalmente frescas favorecem a indução floral." }
     },
-    mesesFloracao: [4, 5, 6, 7, 8],
+    mesesFloracao: [1, 2, 7],
     "selosCultivo": {
         "rega": { "nivel": "sazonal", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "ameno" }
