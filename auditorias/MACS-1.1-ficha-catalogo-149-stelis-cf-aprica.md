@@ -58,3 +58,9 @@ Workflow `.github/workflows/conferir-visual-macs-ficha-149.yml` publicado no com
 - As execuções #4 e #5 exibem a mensagem `Esperados quatro métodos de cultivo, incluindo o principal`, que corresponde à verificação antiga. Não é correto registrar aprovação dessas duas execuções; a origem de seu código executado deve ser analisada se forem usadas como critério de CI.
 - **Inspeção técnica e visual concluída com evidências da execução #3**, sem homologação quantitativa (classe D), mantendo `cf.`.
 - O índice oficial `dados/orquideas/index.js` possui **149 imports de fichas** e termina em `stelisCfAprica`. Não existe uma ficha 150 registrada para auditar. Para prosseguir, é necessário adicionar/indicar a espécie da próxima ficha, sem inventar um item do catálogo.
+
+## Reabertura corretiva IDC / MACS — 2026-11-05
+- Conferência da fórmula IDC 3.2 `Σ[(notaDificuldade−1)/4 × peso]`: critérios atuais (1,2,2,2,1,2,1,1) com pesos (15,15,10,10,10,10,10,20) produzem **11,25 → 11/100**, não 29/100. Corrigidos índice, selo de cinco estrelas e classificação Fácil. O resultado é uma estimativa baseada nas notas documentadas, não validação experimental dessas notas.
+- IAR 2.0: os sete fatores de nota 4 produzem `6×4+6×4+4+4+4+4+4×4 = 80/100` para ambas as regiões; quatro estrelas preservadas.
+- Quatro suportes MACS tiveram estrelas comparativas removidas (`null`) por ausência de homologação quantitativa. Receita principal 35+25+20+20=100% e duas alternativas qualitativas mantidas.
+- Commits corretivos `9c1c6d4`, `e3b0d93`, `872c158`; classe científica **D**, identificação `cf.` preservada. Aguardar novos testes visuais e deploy antes de fechar.
