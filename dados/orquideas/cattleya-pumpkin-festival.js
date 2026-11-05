@@ -42,15 +42,15 @@ export const cattleyaPumpkinFestival = {
         destaque: "Vaso de Barro",
         resumo: "Como híbrido da aliança Cattleya, prefere recipiente proporcional, substrato grosso e aerado e um ciclo claro de molhar bem e aproximar-se da secagem antes da próxima rega.",
         metodos: [
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Ideal", texto: "A terracota porosa favorece aeração, evaporação e raízes mais frescas. É uma escolha muito equilibrada para clima quente quando o substrato é grosso e drenante." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Muito recomendado", texto: "Oferece excelente ventilação e drenagem para raízes grossas. Em períodos quentes e secos, exige regas mais frequentes que um vaso convencional." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Adequado", texto: "Funciona bem em ambientes úmidos ou com mistura de maior retenção. A grande quantidade de aberturas acelera a secagem e exige ajuste da rega." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Pouco recomendado", texto: "É possível, mas uma Cattleya híbrida vigorosa tende a exigir suporte grande e regas frequentes. Para manejo doméstico, vasos e cestos costumam ser mais práticos." }
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Preferência técnica provisória", texto: "A terracota porosa favorece aeração, evaporação e raízes mais frescas. É uma escolha muito equilibrada para clima quente quando o substrato é grosso e drenante." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa provisória", texto: "Oferece excelente ventilação e drenagem para raízes grossas. Em períodos quentes e secos, exige regas mais frequentes que um vaso convencional." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Funciona bem em ambientes úmidos ou com mistura de maior retenção. A grande quantidade de aberturas acelera a secagem e exige ajuste da rega." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Uso condicional (provisório)", texto: "É possível, mas uma Cattleya híbrida vigorosa tende a exigir suporte grande e regas frequentes. Para manejo doméstico, vasos e cestos costumam ser mais práticos." }
         ]
     },
     substrato: ["Casca de pinus grossa + carvão vegetal + perlita grossa","Casca de macadâmia grossa + brita fina + carvão vegetal"],
     substratoVisual: {
-        titulo: "Substrato ideal",
+        titulo: "Substrato recomendado (provisório)",
         contexto: "Para cesto ou vaso",
         resumo: "Mistura grossa, estável e de secagem rápida, adequada ao padrão radicular das Cattleyas híbridas.",
         justificativa: "Este híbrido não possui habitat natural, então a recomendação se baseia na fisiologia e no cultivo consolidado da aliança Cattleya: raízes grossas, alta necessidade de oxigênio e baixa tolerância à saturação prolongada.",
@@ -63,7 +63,7 @@ export const cattleyaPumpkinFestival = {
             { asset: "casca-macadamia", nome: "Casca de macadâmia grossa", proporcao: "10%", nota: "estrutura complementar", finalidade: "Acrescenta partículas duráveis sem aumentar muito a retenção." }
         ],
         alerta: "Nunca enterre o rizoma. Replante preferencialmente quando novas raízes começarem a surgir.",
-        notaEvidencia: "MACS 1.1 — Classe D, NÃO HOMOLOGADA quantitativamente. Mistura principal 45% pinus + 25% carvão + 20% brita fina lavada + 10% casca de macadâmia = 100%. Duas alternativas qualitativas sem percentuais. Referências existentes de produtores e estudo com este híbrido não constituem comparação experimental das proporções ou suportes; estrelas dos suportes omitidas. IDC 3.2 e IAR 2.0 mantidos."
+        notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D); nenhum ensaio comparativo dos percentuais ou suportes foi demonstrado. RHS registra o grex em 1978 como Naomi Kerns × Waianae Sunset; estudo UNESP sobre GA3 não valida substratos. MACS 1.1 — Classe D, NÃO HOMOLOGADA quantitativamente. Mistura principal 45% pinus + 25% carvão + 20% brita fina lavada + 10% casca de macadâmia = 100%. Duas alternativas qualitativas sem percentuais. Referências existentes de produtores e estudo com este híbrido não constituem comparação experimental das proporções ou suportes; estrelas dos suportes omitidas. IDC 3.2 e IAR 2.0 mantidos."
     },
     errosComuns: [
         "Usar vaso grande.",
@@ -75,20 +75,19 @@ export const cattleyaPumpkinFestival = {
         "Replantar fora do início de novas raízes."
     ],
     revisaoCientificaIAR: {
-        "nome": "Cattleya Pumpkin Festival",
-        "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "É difícil ignorar uma Cattleya Pumpkin Festival em flor! Este híbrido chama atenção pelas flores grandes, firmes e cerosas, geralmente em tons quentes de laranja, abóbora e cobre, muitas vezes acompanhados por garganta amarela e um labelo ondulado que reforça ainda mais o efeito tropical.",
-        "habitatAltitudeClima": "Sem habitat natural · aliança Cattleya. | Quente a intermediário · luminoso.",
-        "distribuicaoGeografica": "Sem distribuição natural.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "media",
+        "nome": "Cattleya Pumpkin Festival — grex horticultural registrado",
+        "statusTaxonomico": "Grex híbrido registrado no International Orchid Register da RHS em 01/12/1978 por W. Collier (originador e registrante). Cruzamento registrado: Cattleya Naomi Kerns (parental de sementes) × Cattleya Waianae Sunset (parental de pólen). Não é espécie botânica e não tem nome aceito em POWO como táxon silvestre.",
+        "sinonimosPrincipais": "A RHS informa Sophrolaeliocattleya como combinação genérica histórica; literatura brasileira usa Brassolaeliocattleya (BLC.) 'Pumpkin Festival'. Essas denominações horticulturais não devem ser tratadas como sinônimos taxonômicos de espécie. Distinguir grex Pumpkin Festival de eventuais clones/cultivares com epítetos próprios.",
+        "morfologiaDimensoes": "Híbrido simpodial da aliança Cattleya, com pseudobulbos e folhas coriáceas e flores geralmente alaranjadas a acobreadas, frequentemente com labelo de contraste amarelo. A descrição de cores, porte e textura é horticultural e pode variar entre seedlings e clones do mesmo grex. Não há na ficha um voucher botânico, fotografia diagnóstica individual nem levantamento amostral que autorize fixar número de flores, tamanho, perfume ou duração de floração como caracteres invariáveis do grex. A tese da UNESP estudou 25 plantas propagadas por divisão de touceiras de material comercial identificado como BLC. 'Pumpkin Festival', mas não descreveu todos os clones existentes.",
+        "habitatAltitudeClima": "Híbrido criado em cultivo, sem distribuição, altitude ou habitat natural próprios. Os requisitos de luz, temperatura, ventilação e umidade são inferidos da aliança Cattleya e da resposta de plantas cultivadas, não de um ecossistema de origem. A dissertação da UNESP relata ensaio em estufa com sombreamento de 70%, condição experimental que não comprova sombreamento ótimo de 70% nem invalida a faixa de manejo proposta no catálogo.",
+        "distribuicaoGeografica": "Sem distribuição geográfica natural: grex horticultural registrado internacionalmente em 1978. Exemplares são cultivados em diferentes regiões; local de cultivo não equivale a área de ocorrência nativa.",
+        "cultivoPremiacao": "RHS comprova registro e parentais do grex. Rodrigues (UNESP, 2022) estudou doses de ácido giberélico em 25 plantas do híbrido, com cinco tratamentos e cinco repetições; observou indícios de melhor resposta com 250 mg/L, mas recomendou mais estudos. Isso NÃO constitui recomendação para aplicar hormônio no cultivo doméstico, nem ensaio comparativo da mistura 45% pinus + 25% carvão + 20% brita + 10% macadâmia. Um estudo brasileiro com outro híbrido de Cattleya testou substratos à base de casca de café; não extrapolar seus resultados quantitativos para Pumpkin Festival. Não foram validadas premiações primárias específicas de clones.",
+        "confianca": "Identidade, parentais e registro: alta (RHS). Existência de pesquisa específica sobre floração: alta (UNESP), com escopo restrito a GA3. Características de flores e recomendações de cultivo: moderada, dependentes do clone e das condições. Receita MACS e comparação dos quatro suportes: Classe D, sem homologação quantitativa.",
         "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies",
-            "OrchidRoots/RHS"
+            "RHS International Orchid Register, registro primário de Cattleya Pumpkin Festival — https://apps.rhs.org.uk/horticulturaldatabase/orchidregister/orchiddetails.asp?ID=70758",
+            "UNESP, Rodrigues (2022), uso de ácido giberélico na floração de BLC. Pumpkin Festival — https://repositorio.unesp.br/bitstreams/b47597d1-20ca-4bd3-b20b-b18108c545dc/download",
+            "eduCAPES, registro bibliográfico da pesquisa UNESP — https://educapes.capes.gov.br/handle/11449/238568?mode=simple",
+            "Bragantia/Scielo, estudo de substratos em OUTRO híbrido de Cattleya (evidência indireta) — https://www.scielo.br/j/brag/a/zSL8rJnkCbVsYZLy6pqQRWK/?format=html&ilang=pt_BR"
         ]
     },
     indiceDificuldadeCultivo: {
