@@ -35,11 +35,11 @@ export const encycliaGallopavina = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Prefere claridade alta e filtrada. Folhas muito escuras e vegetação alongada indicam falta de luz; amarelecimento intenso ou queimaduras mostram excesso de sol/calor."
     },
-    floracao: "Mais comum na primavera e no verão, aproximadamente entre outubro e fevereiro, variando conforme procedência, clima e maturação dos pseudobulbos. As inflorescências terminais podem ser eretas ou levemente arqueadas e, em plantas vigorosas, apresentar ramificações e várias flores duráveis.",
+    floracao: "IOSPE registra floração na primavera e no verão, mas a matriz não confirma calendário brasileiro de outubro a fevereiro para todas as procedências. As inflorescências terminais podem ser eretas ou levemente arqueadas e, em plantas vigorosas, apresentar ramificações e várias flores duráveis.",
     adubacao: "🌿 Orgânica: bokashi leve na borda do vaso a cada 60–90 dias durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/3 da dose semanal ou quinzenalmente durante brotação e enraizamento.\n🌱 Maturação: reduza excesso de nitrogênio quando o pseudobulbo estiver completo.\n🧪 Liberação lenta: pode ser usada em pequena quantidade em vasos muito drenantes.\n🚿 Lavagem: faça regas periódicas somente com água para remover sais.",
     rega: "Regue abundantemente durante a formação de novos brotos e raízes, sempre permitindo drenagem completa. Após o pseudobulbo amadurecer, aumente um pouco o intervalo entre regas, sem desidratar severamente a planta. No litoral quente, ajuste a frequência pela velocidade real de secagem, não pelo calendário.",
     suporte: "🥇 Cachepô de madeira bem vazado — excelente aeração para raízes grossas.\n🥈 Vaso pequeno de barro — ajuda na evaporação e estabilidade.\n🥉 Placa de cortiça ou madeira — boa opção em ambientes úmidos e com regas frequentes.",
-    substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios preparados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
+    substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios lavados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
     formasCultivo: {
         perfilVisual: "encyclia-epifita-raizes-grossas",
         destaque: "Cachepô de Madeira",
@@ -55,8 +55,8 @@ export const encycliaGallopavina = {
         titulo: "Substrato ideal",
         contexto: "Proposta para cachepô bem vazado ou vaso pequeno",
         resumo: "Mistura de granulometria média a grossa, arejada e de secagem perceptível entre regas.",
-        justificativa: "Encyclia gallopavina se beneficia de raízes ventiladas e secagem perceptível entre regas. Em cachepô vazado ou vaso de barro, as cascas de macadâmia e pinus dão apoio, enquanto a perlita e o carvão mantêm a mistura aberta e drenante. Como os recipientes secam em velocidades diferentes, observe a umidade junto às raízes e ajuste a frequência das regas sem compactar o substrato.",
-        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        justificativa: "A receita 35/30/20/15 é uma proposta horticultural sem ensaio quantitativo específico da espécie; estudos de substrato com híbridos de Encyclia não a homologam. Encyclia gallopavina se beneficia de raízes ventiladas e secagem perceptível entre regas. Em cachepô vazado ou vaso de barro, as cascas de macadâmia e pinus dão apoio, enquanto a perlita e o carvão mantêm a mistura aberta e drenante. Como os recipientes secam em velocidades diferentes, observe a umidade junto às raízes e ajuste a frequência das regas sem compactar o substrato.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a espécie: 35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Epífita de raízes grossas", "Pseudobulbos robustos", "Luz alta filtrada", "Crescimento úmido", "Redução discreta após maturação"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -74,7 +74,7 @@ export const encycliaGallopavina = {
         notaEvidencia: "MACS 1.1 — revisão documental: Encyclia gallopavina, epífita de raízes grossas e pseudobulbos robustos, exige boa aeração e secagem entre regas sem repouso seco rígido. Suportes cachepô madeira e vaso barro 5 estrelas, placa/tronco e plástico vasado 4; notas horticulturais não homologadas. Receita visual 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. Receita principal textual e visual coincidem; duas alternativas qualitativas distintas são apresentadas separadamente. Granulometria e secagem em cachepô versus barro carecem de validação por evidências específicas; meta até 25 produtores brasileiros específicos não atingida. POWO aceita E. gallopavina e registra E. purpurachyla como sinônimo heterotípico, além do basiônimo Epidendrum gallopavinum. Flora do Brasil 2020 descreve sépalas/pétalas verde-oliva e lobo mediano rosado de margem branca, com ocorrências confirmadas no Sudeste. IOSPE registra pseudobulbos esféricos bifoliados, inflorescência paniculada de até 90 cm, até 50 flores de 3 cm e fragrância de chá. Estudo brasileiro em Ornamental Horticulture sobre adubação e substrato examinou híbrido de Encyclia, não a espécie; não constitui homologação. Zero produtores brasileiros com receita quantitativa específica verificados nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: "Cultivar em sombra; vaso grande demais; substrato velho; raízes continuamente encharcadas; enterrar o rizoma; reduzir água cedo demais durante crescimento; excesso de nitrogênio após a maturação; replantar sem raízes novas; calor abafado com substrato molhado; impor seca rigorosa por longos períodos.",
-    dica: "Espere o novo pseudobulbo terminar de crescer antes de diminuir discretamente a frequência das regas. O objetivo é marcar uma mudança de estação sem desidratar a planta. Em Litoral de clima quente, o melhor estímulo para florir costuma ser luz alta filtrada + pseudobulbo maduro + raízes bem aeradas, e não seca extrema.",
+    dica: "Espere o novo pseudobulbo terminar de crescer antes de diminuir discretamente a frequência das regas. O objetivo é marcar uma mudança de estação sem desidratar a planta. Em clima quente, o melhor estímulo para florir costuma ser luz alta filtrada + pseudobulbo maduro + raízes bem aeradas, e não seca extrema.",
     revisaoCientificaIAR: {
         "nome": "Encyclia gallopavina",
         "statusTaxonomico": "Encyclia gallopavina (Rchb.f.) Porto & Brade (1935), espécie aceita em POWO; basiônimo Epidendrum gallopavinum Rchb.f. (1855).",
@@ -215,10 +215,10 @@ export const encycliaGallopavina = {
         litoralQuente: { texto: "Desde que receba ventilação contínua, alta luminosidade filtrada e secagem rápida do substrato. Evite calor parado e noites com raízes saturadas." },
         montanhaFrio: { texto: "Em períodos frios e nublados, reduza a frequência das regas para acompanhar a menor evaporação." }
     },
-    mesesFloracao: [10, 11, 12, 1, 2],
+    mesesFloracao: [],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
-        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+        "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {
         cultivo: 3,
