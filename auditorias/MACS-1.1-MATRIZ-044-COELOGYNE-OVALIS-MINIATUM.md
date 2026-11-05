@@ -36,3 +36,14 @@ A ficha mantém correspondência entre `receitaTexto` e os dois itens do `substr
 - **Produtores brasileiros:** quatro mencionados na ficha; zero receitas específicas com percentuais rastreadas nesta rodada; cobertura de até 25 pendente.
 - **Decisão:** manter provisoriamente 75/25 no campo *Substrato ideal* **apenas para recipiente**; não aplicá-la à montagem. Preservar as duas alternativas qualitativas e demais campos.
 - **Pendências objetivas:** confirmar identificação por flor, registrar URLs e conteúdo dos produtores, verificar o texto primário da AOS e testar adequação da receita em cultivo local. Nenhum desses itens deve ser apresentado como concluído.
+
+## Aplicação da regra de perfil radicular e hídrico — 2026-11-04
+**Perfil documentado/inferido:** exemplar de identificação floral ainda não confirmada, sob nome horticultural ‘Miniatum’; para *C. ovalis* de referência, rizoma horizontal com pseudobulbos espaçados, hábito epífito/rupícola, raízes superficiais que precisam de ar e umidade regular sem saturação. Não inferir espessura radicular ou intervalo fixo de secagem sem medições. A recomendação é **condicional à identificação**.
+
+**Cultivo principal:** placa larga com fixação leve e eventual esfagno solto junto às raízes, sem enterrar o rizoma; **não há receita volumétrica** nesse sistema. **Recipiente secundário:** raso, ventilado e amplo, mantendo o rizoma acima da mistura.
+
+**Formulação para recipiente — 100% por volume:** 75% casca de pinus média, base estrutural com poros e alguma retenção; 25% perlita grossa, fração mineral que amplia aeração e reduz compactação. Proporção 3:1 registrada em orientação da AOS para o **gênero**, não comprovada para a espécie nem para o exemplar. A mistura pode secar excessivamente em clima quente/ventilado; ajustar regas pelo estado real das raízes, sem transformar a proporção em garantia de retenção.
+
+**Duas alternativas qualitativas públicas, sem percentuais:** (1) casca de pinus média + chips de coco lavados + carvão vegetal; (2) casca de pinus média + esfagno de fibra longa solto + perlita grossa. São opções inferenciais, distintas da principal e entre si, cuja escolha depende da velocidade de secagem e do recipiente.
+
+**Resultado:** formulação técnica fundamentada no perfil radicular e hídrico, com proporção genérica publicada para o gênero; **sem validação experimental específica dos percentuais**. A identificação floral não pode ser concluída documentalmente sem evidência do exemplar, e permanece como ressalva botânica explícita, não como autorização para afirmar uma variedade formal. O teste visual em navegador foi reservado pelo responsável para a auditoria final consolidada após o envio do ZIP.
