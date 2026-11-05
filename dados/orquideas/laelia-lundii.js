@@ -32,7 +32,7 @@ export const laeliaLundii = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Precisa de mais luz que muitas miniaturas. Busque folhas firmes, crescimento compacto e pseudobulbos bem formados. Folhas muito escuras e alongamento sugerem sombra excessiva; tecido amarelado ou queimado indica radiação e calor acima do ideal."
     },
-    floracao: "Principalmente na primavera segundo a Flora do Brasil 2020; a época exata varia conforme a procedência e o cultivo. Inflorescências curtas com uma a três flores, geralmente brancas e com veios púrpura no labelo.",
+    floracao: "No Brasil, Cattleya lundii, também conhecida como Laelia lundii, floresce frequentemente no inverno. Orquidários brasileiros indicam maio a julho, embora outros produtores relatem floradas na primavera, conforme a procedência e as condições de cultivo. As hastes curtas surgem entre as folhas estreitas e sustentam geralmente uma a três flores estreladas, com aproximadamente 3 a 4 cm de diâmetro. Sépalas e pétalas são brancas a branco-creme, enquanto o labelo apresenta estrias róseas ou púrpuras e margem delicadamente ondulada. As flores têm perfume agradável, mas não há descrição segura de notas aromáticas específicas. Um levantamento brasileiro registrou duração de 10 a 15 dias; produtores relatam cerca de duas a três semanas, diferença que pode ocorrer entre plantas e condições de cultivo. Essas estimativas se referem à persistência das flores e não necessariamente ao período total de uma touceira com várias hastes.",
     adubacao: "🌿 Orgânica: bokashi é opcional; se usado, aplique quantidade mínima em sachê e sem contato direto com rizoma ou raízes novas.\n💧 Foliar/Mineral: NPK equilibrado, como 20-20-20, em 1/4 da dose a cada 10–15 dias durante brotação e enraizamento.\n🌱 Maturação: mantenha nutrição leve até o pseudobulbo completar o crescimento e reduza quando a atividade diminuir.\n🧪 Liberação lenta: pouquíssimos grânulos apenas em vaso ou cachepô muito drenante; em plantas montadas, é dispensável.\n🚿 Faça regas periódicas somente com água para evitar acúmulo de sais.",
     rega: "Durante brotação e emissão de raízes, molhe bem e permita secagem rápida. Em montagem, uma planta ativa no verão pode exigir rega diária ou quase diária, desde que as raízes não permaneçam molhadas por longos períodos. Quando o crescimento diminuir, aumente o intervalo entre irrigações. O inverno naturalmente mais seco deve ser reproduzido como redução, não como desidratação prolongada.",
     suporte: "🥇 Placa de cortiça ou madeira dura.\n🥈 Galho natural rugoso, permitindo expansão da touceira.\n🥉 Cachepô ou cestinho pequeno e muito vazado.\nVaso de barro pequeno também funciona quando preenchido com material grosseiro e muito aerado.",
@@ -212,7 +212,7 @@ export const laeliaLundii = {
         litoralQuente: { texto: "Quando montada no ponto mais ventilado e luminoso do orquidário. No verão, regue conforme a secagem real; no inverno, reduza apenas se atividade e evaporação diminuírem. Evite abafamento noturno e substrato úmido por muitos dias." },
         montanhaFrio: { texto: "Adapta-se muito bem às noites frescas. Mantenha boa luz e diminua as regas em períodos frios e úmidos, protegendo contra geadas e chuva fria prolongada." }
     },
-    mesesFloracao: [9, 10, 11, 12],
+    mesesFloracao: [5, 6, 7],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
