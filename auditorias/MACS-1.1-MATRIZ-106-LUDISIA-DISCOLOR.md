@@ -20,7 +20,7 @@
 | Material | Percentual | Asset |
 |---|---:|---|
 | Terra vegetal humosa, leve e peneirada | 35% | `terra-vegetal` |
-| Fibra de coco fina preparada | 25% | `fibra-coco` |
+| Fibra de coco fina lavada | 25% | `fibra-coco` |
 | Casca de pinus fina | 20% | `casca-pinus` |
 | Perlita fina/média | 20% | `perlita` |
 | **Total** | **100%** | **Hipótese horticultural, não homologada** |
@@ -28,8 +28,8 @@
 O teor de matéria orgânica deve ser acompanhado de estrutura e drenagem. Terra vegetal comercial varia em granulometria, salinidade e grau de decomposição; **35/25/20/20 não é proporção cientificamente validada para a espécie**.
 
 ## Duas alternativas qualitativas preservadas
-1. Terra vegetal humosa, leve e peneirada + casca de pinus fina + perlita fina/média + pequena fração de chips de coco pequenos preparados.
-2. Terra vegetal humosa, leve e peneirada + fibra de coco fina preparada + perlita fina/média + pequena fração de casca de arroz carbonizada.
+1. Terra vegetal humosa, leve e peneirada + casca de pinus fina + perlita fina/média + pequena fração de chips de coco pequenos lavados.
+2. Terra vegetal humosa, leve e peneirada + fibra de coco fina lavada + perlita fina/média + pequena fração de casca de arroz carbonizada.
 
 Distintas entre si e da principal, sem percentuais inventados.
 
@@ -44,3 +44,14 @@ Distintas entre si e da principal, sem percentuais inventados.
 
 ## Parecer
 **Revisão documental concluída.** Taxonomia, morfologia, descrição, evidência de cultivo e horário corrigidos. Receita soma 100% e duas alternativas distintas permanecem. **Homologação quantitativa 35/25/20/20: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-05
+**Perfil:** orquídea terrestre de caules carnosos rastejantes e raízes superficiais que se desenvolvem em serapilheira e húmus arejado. Os nós e caules devem permanecer na superfície; enterrar o rizoma aumenta risco de podridão. Manter umidade moderada e uniforme, regando quando a superfície começar a perder umidade, sem secagem total prolongada e sem encharcamento. No frio, ajustar a frequência à menor evaporação, **sem repouso seco sazonal**.
+
+**Cultivo principal:** vaso plástico largo e raso com furos de drenagem, espaço para expansão horizontal. **Receita principal em volume:** 35% terra vegetal humosa, leve e peneirada (base orgânica) + 25% fibra de coco fina lavada (umidade) + 20% casca de pinus fina (estrutura) + 20% perlita fina/média (aeração), total 100%. Proposta horticultural sem ensaio quantitativo específico para Ludisia discolor. AOS, NCSU e Missouri Botanical Garden recomendam substrato terrestre ou casca fina com drenagem e umidade constante, **sem validar estes percentuais**. A composição de terra vegetal comercial e a salinidade do coco exigem atenção.
+
+**Duas alternativas qualitativas sem percentuais:** (1) terra vegetal humosa, leve e peneirada + casca de pinus fina + perlita fina/média + pequena fração de chips de coco pequenos lavados; (2) terra vegetal humosa, leve e peneirada + fibra de coco fina lavada + perlita fina/média + pequena fração de casca de arroz carbonizada. Distintas entre si e da receita principal; coco lavado não dispensa eventual controle de salinidade.
+
+**Conferências editoriais:** descrição com 94 palavras (faixa 90–120). Fibra de coco fina lavada e chips de coco pequenos lavados padronizados em receita, itens visuais, justificativa e alternativas. Receita e justificativa agora explicitam ausência de homologação específica. Calendário fixo [8,9,10,11] removido por falta de fenologia brasileira mensal verificada; prosa preserva floração frequentemente no inverno em cultivo, conforme AOS, sem impor meses universais. Selo de rega alterado de “sazonal” para “frequente/uniforme” para corresponder à rega constante sem repouso; clima de floração deixa de impor faixa quente e passa a intermediário, sem afirmar frio obrigatório. Prosa regional corrigida para frases completas e sem nomes de localidades. Receita e itens visuais somam 35+25+20+20=100%; duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 22/100 e cinco estrelas coerentes com IDC 3.2; IAR litoral 95/5 estrelas e montanha 47/3 estrelas preservados; estrelas dos suportes mantidas como avaliações horticulturais. Iluminação “Não permitido” coerente com sol direto vedado. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; zero receitas quantitativas brasileiras específicas verificadas, meta de 25 produtores não atingida e **homologação experimental não demonstrada**.
