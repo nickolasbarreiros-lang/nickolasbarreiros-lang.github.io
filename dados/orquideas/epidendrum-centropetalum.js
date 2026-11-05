@@ -33,7 +33,7 @@ export const epidendrumCentropetalum = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Na natureza pode ocorrer em condições relativamente claras, mas em cultivo em clima quente é mais seguro oferecer luz filtrada intensa. Sombra excessiva produz caules fracos e reduz a floração; sol forte nas horas quentes pode desidratar rapidamente folhas e raízes aéreas."
     },
-    floracao: "Costuma florescer do fim do inverno ao início do verão, aproximadamente entre agosto e janeiro. As hastes terminais apresentam pequenos grupos de flores rosa-intensas, com branco na base do labelo e um detalhe amarelo no centro. As flores geralmente se abrem quase ao mesmo tempo e não apresentam perfume perceptível. A duração exata de cada flor ainda não está bem documentada, podendo variar conforme as condições de cultivo.",
+    floracao: "Epidendrum centropetalum, também conhecida como Oerstedella centradenia, costuma florescer do fim do inverno à primavera, podendo variar conforme as condições de cultivo. Ainda não há registros brasileiros suficientes para estabelecer meses exatos no calendário. As inflorescências surgem no topo de caules maduros e também de brotações laterais, formando pequenos cachos com aproximadamente 4 a 13 flores que geralmente se abrem quase ao mesmo tempo. As flores são delicadas, rosa-intensas a lilases, com uma mancha branca na base do labelo e pequeno detalhe amarelo no centro; costumam medir cerca de 2 a 3 cm. Não apresentam perfume perceptível. Há relatos de que o conjunto da floração pode permanecer vistoso por um a dois meses, embora isso não represente necessariamente a duração de cada flor individual.",
     adubacao: "🌿 Orgânica: bokashi apenas em pequena quantidade e preferencialmente em porta-adubo, longe das raízes expostas.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional em vaso ou cesto, usando poucos grânulos.\n🚿 Lavagem: faça regas periódicas apenas com água pura para evitar acúmulo de sais.",
     rega: "Mantenha hidratação regular durante todo o ano, sobretudo enquanto os caules e raízes estão em crescimento. O suporte deve drenar rapidamente e nunca permanecer encharcado. Depois que os caules amadurecem, pode-se ampliar discretamente o intervalo entre regas, sem permitir desidratação prolongada.",
     suporte: [
@@ -227,7 +227,7 @@ export const epidendrumCentropetalum = {
         litoralQuente: { texto: "Pode crescer bem com 50% a 60% de sombreamento, umidade alta e ventilação constante, mas noites muito quentes e abafadas podem reduzir vigor e floração." },
         montanhaFrio: { texto: "Noites frescas e boa umidade se aproximam bastante das condições montanas onde a espécie ocorre naturalmente." }
     },
-    mesesFloracao: [8, 9, 10, 11, 12, 1],
+    mesesFloracao: [],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-repouso", "evitarEncharcamento": true },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
