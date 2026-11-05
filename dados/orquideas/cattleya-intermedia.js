@@ -22,7 +22,7 @@ export const cattleyaIntermedia = {
         "imagens/Cattleya intermedia/Cattleya intermedia3.jpg",
         "imagens/Cattleya intermedia/Cattleya intermedia4.jpg"
     ],
-    descricao: "Uma das Cattleyas brasileiras mais queridas e versáteis, Cattleya intermedia combina elegância, rusticidade e uma extraordinária variedade de flores. De porte médio e crescimento bifoliado, forma belas touceiras e produz hastes com várias flores perfumadas, geralmente em tons de branco, rosa ou lilás, realçadas por um labelo de coloração mais intensa. É também uma verdadeira campeã de diversidade: ao longo do cultivo foram selecionadas inúmeras formas de cor e desenho, incluindo alba, coerulea, orlata, vinicolor, flamea e as famosas formas aquinii. Essa variabilidade, somada à boa adaptação ao calor e à umidade, ajuda a explicar por que a espécie se tornou tão importante e popular na orquidofilia brasileira.",
+    descricao: "Uma das Cattleyas brasileiras mais queridas, Cattleya intermedia combina elegância, rusticidade e grande diversidade floral. De porte médio e crescimento bifoliado, forma touceiras vigorosas e produz hastes com várias flores perfumadas, geralmente brancas, rosadas ou lilases, com labelo de coloração mais intensa. Entre as formas selecionadas em cultivo estão alba, coerulea, orlata, vinicolor, flamea e aquinii, que evidenciam sua variabilidade. A espécie ocorre em ambientes costeiros, matas abertas e áreas sazonais, frequentemente sobre árvores. Sua arquitetura permite a formação de conjuntos volumosos, enquanto as raízes epífitas precisam de ventilação e umidade equilibrada. A boa adaptação a diferentes condições contribui para sua popularidade na orquidofilia.",
     origem: "América do Sul",
     regiao: "Sudeste e Sul do Brasil · Paraguai",
     habitat: "Restingas, matas abertas e ambientes sazonais",
@@ -38,11 +38,11 @@ export const cattleyaIntermedia = {
     adubacao: "🌿 Orgânica: Bokashi em pequena quantidade, preferencialmente em sachê ou porta-adubo, a cada 60 a 90 dias durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20 ou equivalente, em aproximadamente 1/4 a 1/3 da dose do fabricante a cada 7 a 15 dias enquanto brotos e raízes estiverem ativos.\n🧪 Liberação lenta: Osmocote 14-14-14 ou semelhante pode ser usado em dose moderada em vaso ou cachepô. Se houver adubo de liberação lenta, reduza a fertilização líquida. Não é necessário aplicar grandes doses de fósforo para induzir a floração.",
     rega: "Durante brotação e emissão de raízes, regue abundantemente e permita que o substrato perca boa parte da umidade antes da próxima irrigação. No inverno ou em períodos de menor atividade, reduza somente conforme a secagem realmente ficar mais lenta. A espécie não exige seca forte; em dias quentes e ventilados, mesmo no inverno, pode continuar necessitando de regas regulares.",
     suporte: "🥇 Cachepô de madeira vazado, especialmente adequado para formar grandes touceiras no litoral.\n🥈 Vaso de barro proporcional ao sistema radicular, oferecendo estabilidade e evaporação.\n🥉 Vaso plástico muito perfurado ou montagem em madeira para ambientes de alta umidade.",
-    substrato: ["Casca de pinus média + carvão vegetal + casca de arroz carbonizada","Casca de pinus média + chips de coco médios preparados + carvão vegetal"],
+    substrato: ["Casca de pinus média + carvão vegetal + casca de arroz carbonizada","Casca de pinus média + chips de coco médios lavados + carvão vegetal"],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Cachepô de Madeira",
-    "resumo": "MACS 1.0: cachepô de madeira (91/100), árvore viva (82/100), barro e plástico vasado (80/100). As pontuações são heurísticas, não ensaios comparativos.",
+    "resumo": "Cachepô de madeira ventilado é a proposta principal, seguido por recipientes proporcionais com drenagem e aeração. As classificações dos suportes são heurísticas, não ensaios comparativos.",
     "metodos": [
         {
             "nome": "Cachepô de Madeira",
@@ -232,7 +232,7 @@ export const cattleyaIntermedia = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Em Litoral de clima quente, cerca de 50% de sombreamento, ventilação constante, boa água durante o crescimento e substrato aberto tornam esta uma das Cattleyas botânicas mais seguras para o litoral." },
+        litoralQuente: { texto: "Em regiões litorâneas de clima quente, cerca de 50% de sombreamento, ventilação constante, boa água durante o crescimento e substrato aberto tornam esta uma das Cattleyas botânicas mais seguras para o litoral." },
         montanhaFrio: { texto: "Adapta-se muito bem a noites frescas. Reduza a rega apenas quando a evaporação realmente cair e proteja de geadas e longos períodos de chuva fria." }
     },
     mesesFloracao: [2, 3, 4, 5],
