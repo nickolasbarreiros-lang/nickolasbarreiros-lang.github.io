@@ -43,3 +43,14 @@ Alternativas distintas entre si e da R0, sem percentuais atribuídos.
 
 ## Parecer final
 **Revisão documental concluída.** Sinonímia atualizada segundo Kew, descrição revista, receita coerente em 100%, duas alternativas distintas e materiais padronizados. **Homologação experimental ou consenso quantitativo de produtores para a receita: NÃO DEMONSTRADOS.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** epífita rizomatosa de pseudobulbos espaçados, com raízes que exigem oxigenação e regas frequentes durante atividade vegetativa. A umidade ambiental elevada não implica manter a mistura saturada; permitir secagem superficial e rápida drenagem. Não impor repouso seco, mas ajustar rega à evaporação em semanas frias. A descrição da ficha indica flores laterais, frequentemente de curta duração; não há quantificação experimental consistente do tempo de cada flor para todos os exemplares.
+
+**Cultivo principal:** cachepô de madeira largo e vazado, com espaço para expansão horizontal do rizoma. **Receita em volume:** 35% casca de pinus grossa (estrutura) + 25% carvão vegetal (porosidade) + 25% perlita grossa (aeração) + 15% chips de coco grossos lavados (reserva hídrica), total 100%. A proporção é hipótese horticultural, sem ensaio comparativo para o táxon tratado como Maxillaria lutescens em POWO. A lavagem dos chips não dispensa eventual verificação de salinidade.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de macadâmia grossa + casca de pinus grossa + perlita grossa + fibra de coco grossa lavada; (2) chips de coco grossos lavados + carvão vegetal + brita fina lavada e sem pó. Distintas entre si e da mistura principal, sem validação comparativa.
+
+**Conferências editoriais:** descrição com 99 palavras (faixa 90–120). Padronizados chips de coco grossos lavados na receita, itens, justificativa, nota de evidência e segunda alternativa; fibra de coco da primeira alternativa identificada como lavada. Justificativa e receita visual passaram a declarar explicitamente a ausência de ensaio específico. Receita e itens visuais somam 35+25+25+15=100%; quatro caminhos de fotos cadastrados; IDC 24/100 e cinco estrelas coerentes com IDC 3.2; IAR e avaliações dos suportes preservados. O registro morfológico já apresenta dimensões e posição das flores, não foi substituído por texto genérico. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; zero receitas quantitativas específicas de produtores brasileiros verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
