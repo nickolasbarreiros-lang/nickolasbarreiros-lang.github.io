@@ -41,3 +41,14 @@ A ficha cita [BR Orquídea](https://www.br-orquidea.com.br/espanol/default.asp?c
 
 ## Parecer final
 **Revisão documental concluída.** Sinônimo e distribuição corrigidos com POWO/WFO; morfologia e descrição ajustadas; receita principal soma 100%, com duas alternativas distintas. **Homologação experimental dos percentuais: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** espécie pseudobulbosa epífita ou rupícola, de raízes que precisam de aeração, drenagem e acesso regular à umidade durante o crescimento. Pseudobulbos oferecem alguma reserva, mas não justificam seca prolongada. Misturas muito minerais podem secar rapidamente; monitorar temperatura e secagem efetiva do vaso, sem supor que brita e perlita garantam resfriamento. Não há medições específicas de diâmetro radicular, tempo de secagem ou desempenho comparativo dos recipientes.
+
+**Cultivo principal:** vaso plástico vasado pequeno, proporcional à touceira e muito perfurado. **Receita em volume:** 35% perlita grossa (aeração) + 30% brita fina/média (drenagem/estabilidade) + 25% casca de macadâmia triturada (estrutura orgânica) + 10% casca de pinus média (reserva hídrica limitada), total 100%, sendo 65% mineral/35% orgânico. Trata-se de hipótese horticultural sem ensaio específico para a espécie.
+
+**Duas alternativas qualitativas sem percentuais:** (1) brita fina/média + perlita grossa + carvão vegetal + casca de pinus grossa; (2) casca de macadâmia grossa + perlita grossa + argila expandida. São distintas entre si e da receita principal, sem alegação de superioridade experimental.
+
+**Conferências editoriais:** descrição principal com 97 palavras, dentro da faixa 90–120. Corrigidas frases regionais incompletas, distribuição geográfica interna antes restrita e resumo morfológico truncado; campos internos de taxonomia agora refletem o nome aceito e o sinônimo identificado na matriz. Justificativa do substrato explicita a ausência de ensaio para o predomínio mineral. Receita e itens visuais somam 35+30+25+10=100%; quatro caminhos de fotos cadastrados; IDC 40/100 e três estrelas coerentes com IDC 3.2; IAR e suportes preservados. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das evidências disponíveis; zero receitas percentuais específicas de produtores brasileiros verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
