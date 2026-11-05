@@ -97,3 +97,11 @@ Não calcular nota sem medições comparáveis.
 - **Cultivo, 4/4:** `vaso-plastico` → `imagens/cultivo-v4/vaso-plastico.webp`; `cesto-madeira` → `imagens/cultivo-v4/cesto-madeira-v3.webp`; `vaso-barro` → `imagens/cultivo-v4/vaso-barro.webp`; `vaso-plastico-vasado` → `imagens/cultivo-v4/vaso-plastico-vasado-v2.webp`.
 - **Substrato, 5/5:** `casca-macadamia` → `imagens/cultivo-v4/macadamia.webp`; `casca-pinus` → `imagens/cultivo-v4/casca-pinus.webp`; `carvao-vegetal` → `imagens/cultivo-v4/carvao-vegetal.webp`; `casca-arroz-carbonizada` → `imagens/cultivo-v4/casca-arroz-carbonizada.webp`; `esfagno` → `imagens/cultivo-v4/esfagno.webp`.
 - **Resultado:** 9/9 chaves presentes na biblioteca e 9/9 arquivos existentes. Não foram substituídos assets nem alteradas receitas. A verificação de existência não substitui a inspeção visual do layout no navegador.
+
+## Conferência editorial estrutural — 2026-11-04
+- Campo `descricao` contém **105 palavras**, dentro da meta editorial de 90–120 palavras.
+- A ficha declara **quatro fotografias**; seus quatro arquivos já foram verificados no repositório.
+- `formasCultivo.metodos` contém **quatro opções**, todas com `estrelas: null`, coerentes com o status provisório e sem ranking numérico fabricado.
+- `substratoVisual.itens` contém **cinco componentes**, proporções **35 + 25 + 20 + 10 + 10 = 100%**; a mistura principal mantém percentuais exclusivamente nesse bloco.
+- `substrato` contém **duas misturas alternativas qualitativas**, sem percentuais, conforme o padrão editorial.
+- **Limites:** verificação estrutural por leitura do código; não demonstra renderização em navegador, adequação botânica das fotos ou homologação experimental MACS.
