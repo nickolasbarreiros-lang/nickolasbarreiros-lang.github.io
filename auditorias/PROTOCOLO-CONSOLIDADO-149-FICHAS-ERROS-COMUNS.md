@@ -8,6 +8,16 @@ Seguir a ordem oficial de `dados/orquideas/index.js`. Concluir integralmente cad
 - IAR 2.0: recalcular `6H+6T+A+V+L+S+4F` separadamente para litoral quente e montanha; conferir estrelas e textos.
 - MACS 1.1: confrontar forma de cultivo, ingredientes, porcentagens (receita principal total 100%), exatamente duas misturas alternativas qualitativas, assets e evidência científica. Sem homologação quantitativa, manter classe D e estrelas comparativas não atribuídas.
 
+
+## Auditoria obrigatória do calendário de floração
+Para **cada ficha**, conferir o campo `mesesFloracao` e a coerência com o texto `floracao`:
+1. Detectar arrays vazios (`mesesFloracao: []`), meses inválidos, duplicados e divergências entre calendário e narrativa.
+2. Para calendários vazios, consultar fontes específicas da espécie, priorizando registros de cultivo brasileiros com estação ou meses explícitos; confrontar com fontes botânicas internacionais sem converter automaticamente estações entre hemisférios.
+3. Converter estações brasileiras em meses **somente como janela indicativa**, documentando a fonte, a incerteza e eventuais registros divergentes. Não inventar meses quando as fontes forem insuficientes.
+4. Se não houver evidência para atribuir meses, manter o array vazio **com pendência documental explícita**, em vez de preencher arbitrariamente ou classificar a ficha como integralmente homologada.
+5. Confirmar que os meses exibidos no site correspondem ao array e que o texto não promete floração obrigatória ou exclusiva.
+6. Registrar no relatório da ficha a decisão, fontes, correção (se houver), testes e deploy. **Não avançar à ficha seguinte enquanto a pendência de floração da atual não tiver sido resolvida ou formalmente justificada e aceita.**
+
 ## Auditoria obrigatória do menu Erros comuns
 Para **cada** item do array `errosComuns`:
 1. **Vínculo com a espécie**: verificar se o erro decorre de uma característica real de seu habitat, raízes, porte, crescimento, sazonalidade ou exigências para florir.
@@ -23,4 +33,4 @@ Para **cada** item do array `errosComuns`:
 Documentar: itens originais avaliados; quais foram mantidos, reescritos ou excluídos e por quê; fundamento botânico/horticultural; eventuais conflitos corrigidos em outros menus; evidências consultadas; resultado de testes e publicação. Não classificar como concluída uma ficha com verificação pendente.
 
 ## Ordem de trabalho
-Auditar IDC, IAR, MACS, Erros comuns e apresentação visual como **um único ciclo por ficha**. A ficha 001, *Anathallis sclerophylla*, já teve correção matemática IDC publicada no commit `d04739a`; a auditoria específica de Erros comuns ainda deve ser executada antes de considerá-la concluída neste protocolo ampliado.
+Auditar IDC, IAR, MACS, calendário de floração, Erros comuns e apresentação visual como **um único ciclo por ficha**. A ficha 001, *Anathallis sclerophylla*, já teve correção matemática IDC publicada no commit `d04739a`; a auditoria específica de Erros comuns ainda deve ser executada antes de considerá-la concluída neste protocolo ampliado.
