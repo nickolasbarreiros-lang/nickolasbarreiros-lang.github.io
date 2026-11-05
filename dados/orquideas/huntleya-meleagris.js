@@ -26,7 +26,7 @@ export const huntleyaMeleagris = {
         horario: "Não permitido",
         observacoes: "Prefere luz semelhante à de Phalaenopsis bem iluminada, mas com muito mais circulação de ar. Folhas amareladas ou aquecidas indicam excesso; folhas muito escuras e crescimento fraco podem indicar sombra profunda demais."
     },
-    floracao: "A matriz não apresenta levantamento fenológico brasileiro que comprove uma janela fixa de floração; o período pode variar entre populações e condições de cultivo. Cada haste normalmente sustenta uma flor grande, cerosa, variável e muito perfumada.",
+    floracao: "No Brasil, Huntleya meleagris floresce especialmente no verão. Há registro de uma planta florida em janeiro em ambiente natural e referência brasileira de floração em fevereiro, embora a época possa variar conforme a procedência e as condições de cultivo. Cada haste, que surge entre as bases das folhas, sustenta geralmente uma única flor grande, estrelada e de textura cerosa, com aproximadamente 7 a 10 cm de diâmetro. Sépalas, pétalas e labelo apresentam uma combinação variável de amarelo, branco e castanho-avermelhado, por vezes com manchas e faixas contrastantes. As flores são bastante perfumadas, mas não há descrição segura de notas aromáticas específicas. Um relato brasileiro indica que cada floração dura cerca de 30 dias, período compatível com a aparência persistente das flores; a duração pode mudar conforme o ambiente.",
     adubacao: "🌿 Orgânica: bokashi somente em quantidade mínima e em porta-adubo, sem contato com raízes ou coroa.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 7–10 dias durante o crescimento ativo.\n🧪 Liberação lenta: usar com muita cautela; adubação líquida diluída oferece maior controle.\n💦 Lavagem: mensalmente, lave o substrato com água de baixa salinidade para reduzir resíduos minerais.",
     rega: "Mantenha o substrato uniformemente úmido, mas nunca saturado. Como não possui pseudobulbos, a espécie sofre com secas prolongadas; ao mesmo tempo, as raízes também deterioram em meio quente e sem oxigênio. Regue pela manhã e garanta que água acumulada entre as folhas seque antes da noite.",
     suporte: "🥇 Vaso plástico raso, justo e bastante perfurado.\n🥈 Vaso de barro perfurado, onde a umidade ambiental seja alta.\n🥉 Cesto pequeno revestido internamente com esfagno solto, em local muito ventilado.",
@@ -206,7 +206,7 @@ export const huntleyaMeleagris = {
         litoralQuente: { texto: "Cultivo exigente. Reserve o local mais fresco, sombreado e ventilado do orquidário, use água de boa qualidade e evite recipientes que superaqueçam. No verão, noites abafadas são o principal gargalo." },
         montanhaFrio: { texto: "Em ambiente protegido. Mantenha umidade constante e proteja de geadas ou frio excessivo." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [1, 2],
     "selosCultivo": {
         "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "intermediario" }
