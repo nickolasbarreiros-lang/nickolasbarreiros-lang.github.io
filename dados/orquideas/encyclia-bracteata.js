@@ -35,11 +35,11 @@ export const encycliaBracteata = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Aprecia luz alta, semelhante à de muitas Cattleyas compactas. Folhas excessivamente escuras indicam falta de luz; amarelecimento forte ou queimaduras sugerem radiação e calor excessivos."
     },
-    floracao: "Em habitat, é registrada principalmente na primavera; em cultivo pode florescer do fim do verão ao início do outono. Cada pseudobulbo pode emitir mais de uma inflorescência terminal curta, com aproximadamente 2–3 flores por haste. A combinação de porte pequeno, folhas muito finas e múltiplas hastes por pseudobulbo é uma característica marcante da espécie.",
+    floracao: "IOSPE relata floração na primavera em habitat e do fim do verão ao início do outono em cultivo, mas esses dados não definem meses brasileiros universais. Cada pseudobulbo pode emitir mais de uma inflorescência terminal curta, com aproximadamente 2–3 flores por haste. A combinação de porte pequeno, folhas muito finas e múltiplas hastes por pseudobulbo é uma característica marcante da espécie.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade a cada 60–90 dias durante crescimento ativo, afastado do rizoma.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/3 da dose semanal ou quinzenalmente enquanto houver novos brotos e raízes.\n🌱 Maturação: reduza o excesso de nitrogênio quando o pseudobulbo estiver completando o crescimento.\n🧪 Liberação lenta: poucos grânulos apenas em recipientes extremamente drenantes.\n🚿 Lavagem: faça regas periódicas somente com água para reduzir sais.",
     rega: "Durante novos brotos e raízes, regue bem e espere o substrato se aproximar da secagem antes da próxima irrigação. Após a maturação dos pseudobulbos, reduza discretamente a frequência, sem impor repouso seco prolongado. O risco principal no litoral quente é manter raízes úmidas e abafadas por muitas horas.",
     suporte: "🥇 Vaso pequeno de barro — excelente evaporação e estabilidade.\n🥈 Cachepô bem vazado — combina aeração e retenção moderada.\n🥉 Placa de cortiça ou madeira — ótima opção em orquidário úmido, com regas mais frequentes.\nUse recipiente apenas ligeiramente maior que o rizoma.",
-    substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios preparados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
+    substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios lavados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
     formasCultivo: {
         perfilVisual: "encyclia-miniatura-epifita",
         destaque: "Vaso de Barro",
@@ -55,8 +55,8 @@ export const encycliaBracteata = {
         titulo: "Substrato ideal",
         contexto: "Proposta para vaso pequeno ou cachepô bem ventilado",
         resumo: "Mistura média e porosa, com boa drenagem e secagem perceptível entre regas.",
-        justificativa: "Encyclia bracteata tem porte pequeno e se beneficia de raízes bem ventiladas, sem umidade acumulada por muito tempo. A montagem em madeira é uma alternativa para manter as raízes expostas. Em recipiente aberto, as cascas de macadâmia e pinus oferecem apoio, enquanto a perlita e o carvão favorecem a drenagem. Ajuste a granulometria ao calibre das raízes e ao tamanho do recipiente, evitando partículas grandes demais e compactação.",
-        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        justificativa: "A composição 35/30/20/15 é hipótese horticultural sem ensaio específico da espécie. Há relato brasileiro de cultivo montado em madeira sem mistura volumétrica, mas não validação comparativa desta receita. Encyclia bracteata tem porte pequeno e se beneficia de raízes bem ventiladas, sem umidade acumulada por muito tempo. A montagem em madeira é uma alternativa para manter as raízes expostas. Em recipiente aberto, as cascas de macadâmia e pinus oferecem apoio, enquanto a perlita e o carvão favorecem a drenagem. Ajuste a granulometria ao calibre das raízes e ao tamanho do recipiente, evitando partículas grandes demais e compactação.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a espécie: 35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Miniatura epífita", "Pseudobulbos unifoliados", "Alta luminosidade filtrada", "Raízes aeradas", "Secagem parcial entre regas"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -215,9 +215,9 @@ export const encycliaBracteata = {
         litoralQuente: { texto: "Sua ocorrência em 10–500 m favorece o cultivo em clima quente, desde que haja ventilação, luz alta filtrada e secagem rápida das raízes." },
         montanhaFrio: { texto: "Reduzindo regas em períodos frios e nublados e protegendo de geada." }
     },
-    mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4],
+    mesesFloracao: [],
     "selosCultivo": {
-        "rega": { "nivel": "sazonal", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         avaliacoes: {
