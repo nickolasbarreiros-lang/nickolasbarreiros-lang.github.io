@@ -44,3 +44,14 @@ Distintas entre si e da R0, sem proporções não publicadas.
 
 ## Parecer final
 **Revisão documental concluída.** Genealogia e registro do híbrido confirmados, descrição revisada, receita totaliza 100%, duas alternativas distintas e asset corrigido. **Homologação quantitativa dos percentuais: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** híbrido epífito simpodial de pseudobulbos eretos, com raízes que requerem sustentação, alta aeração e secagem perceptível entre regas. Durante brotação e enraizamento, regar após quase secagem do vaso; após maturação, ampliar moderadamente intervalos conforme a evaporação, sem repouso seco rigoroso. Evitar água parada em bainhas e espatas. Preservar touceiras adultas e replantar preferencialmente na emissão de raízes novas. A grex não possui habitat natural próprio: recomendações baseiam-se em hábito epífito, genealogia e manejo hortícola geral, não em ecologia de espécie selvagem.
+
+**Cultivo principal:** vaso de barro firme e perfurado, proporcional à touceira. **Receita em volume:** 35% casca de macadâmia média (estrutura) + 30% casca de pinus média (suporte) + 20% perlita grossa (aeração) + 15% carvão vegetal (porosidade), total 100%. Proposta horticultural sem ensaio específico da grex; ESALQ/USP e A Lavoura orientam uso geral de materiais e drenagem, sem homologar esses percentuais.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios lavados; (2) casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa. Distintas entre si e da receita principal; coco lavado não dispensa eventual controle de salinidade.
+
+**Conferências editoriais:** descrição com 96 palavras (faixa 90–120). Chips de coco médios lavados na primeira alternativa; receita visual e justificativa agora explicitam ausência de ensaio específico. Corrigidos sinônimo hortícola, ausência de distribuição natural, natureza não aplicável do habitat e morfologia interna antes truncada; removida afirmação genérica de confronto com habitat/IOSPE e premiações sem fonte. Calendário fixo [4,5,6,7,8,9,10,11] removido por falta de validação regional específica; texto de floração qualificado. Receita e itens visuais somam 35+30+20+15=100%; duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 45/100 e três estrelas coerentes com IDC 3.2; IAR e estrelas dos suportes preservados. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; zero receitas quantitativas específicas de produtores brasileiros verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
