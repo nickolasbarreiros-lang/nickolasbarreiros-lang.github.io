@@ -40,3 +40,14 @@ As alternativas são distintas entre si e da principal. Não atribuir percentuai
 
 ## Parecer final
 **Revisão documental encerrada.** Identificação aceita, ecologia e retrato floral fundamentados; soma 100%; duas alternativas distintas; mistura para recipiente claramente qualificada como **hipótese horticultural, NÃO HOMOLOGADA**. A ausência de ensaio específico não é suprida por referências de gênero.
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** miniatura epífita ou ocasionalmente litófita, com caules finos e folhas subteretes carnosas, sem pseudobulbos verdadeiros. O sistema radicular exige umidade regular, porém com ar e drenagem; a montagem pode secar depressa, enquanto esfagno compactado pode manter saturação indevida. O tamanho efetivo das raízes e os intervalos de secagem não foram medidos. A ocorrência em sub-bosque não sustenta recomendar sol direto generalizado.
+
+**Cultivo principal:** placa/tronco pequeno, com fina camada solta de esfagno localizada sob as raízes e regas frequentes ajustadas à secagem; **não há percentuais de substrato para montagem em placa**. **Receita visual para cesto/vaso muito pequeno:** 45% casca de pinus fina (estrutura para raízes pequenas) + 35% perlita de granulometria adequada (aeração) + 20% esfagno de fibra longa solto (reserva hídrica), em volume, total 100%. É inferência técnica, não resultado experimental para a espécie.
+
+**Duas alternativas qualitativas sem percentuais:** (1) chips de coco pequenos lavados + perlita de granulometria adequada a miniaturas + casca de pinus fina; (2) esfagno de fibra longa solto + perlita de granulometria adequada a miniaturas. Ambas distintas entre si e da receita principal; a nomenclatura de chips de coco foi padronizada na ficha.
+
+**Conferências editoriais:** descrição com 96 palavras, dentro da faixa 90–120; justificativa explicita que a proporção 45/35/20 não foi testada para a espécie; nota de evidência não confunde orientação geral de montagem da AOS com ensaio específico. Receita e itens visuais somam 45+35+20=100%; quatro caminhos fotográficos cadastrados; IDC 54/100 e duas estrelas coerentes com IDC 3.2; IAR e avaliações de suportes preservados. Carregamento de fotos e testes visuais reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; zero receitas quantitativas específicas de orquidários brasileiros verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
