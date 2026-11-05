@@ -34,7 +34,7 @@ export const bulbophyllumAmbrosia = {
         horario: "Não permitido",
         observacoes: "Meia-sombra clara é mais segura que sombra profunda. A planta deve receber claridade suficiente para manter pseudobulbos compactos e favorecer a floração, mas sem aquecimento excessivo das folhas e do rizoma. No litoral quente, 60% a 70% de sombreamento com circulação de ar é um ponto de partida coerente."
     },
-    floracao: "A floração pode variar entre subespécies, procedências e condições de cultivo; a matriz não confirma meses brasileiros universais nem comprova que o inverno seja obrigatório para todas as populações.",
+    floracao: "No cultivo brasileiro, a primavera (setembro a novembro) é um período indicativo de floração, conforme registro horticultural nacional. A época varia entre subespécies, procedências e condições de cultivo; floras asiáticas registram outros meses em seus locais de origem, que não devem ser transpostos diretamente ao calendário brasileiro. Referência brasileira: Orquidário Aparecida (https://orquidarioaparecida.com.br/produtos/bulbophyllum-ambrosia/). Referência botânica: Flora of China (https://www.iplant.cn/foc/pdf/Orchidaceae.pdf).",
     adubacao: "🌿 Orgânica: Bokashi é opcional e deve ser usado em quantidade mínima, preferencialmente em sachê e sem contato com o rizoma ou raízes novas.\n💧 Foliar/mineral: use NPK equilibrado em cerca de 1/4 da dose recomendada, a cada 10 a 15 dias durante brotação e enraizamento ativos.\n🧪 Liberação lenta: opcional, em poucos grânulos para plantas em vaso ou cesto; normalmente dispensável em plantas montadas.\nComo possui raízes finas e superficiais, responda mais à regularidade de adubação fraca do que a doses fortes. Faça lavagens periódicas do substrato para reduzir acúmulo de sais.",
     rega: "Durante o crescimento, molhe completamente e deixe o excesso drenar de imediato. Mantenha leve umidade residual, sem deixar o conjunto permanecer seco por vários dias. No inverno ou quando o crescimento desacelerar, aumente apenas moderadamente o intervalo entre regas; não imponha repouso seco. Em montagem, a frequência pode ser maior porque o sistema seca rapidamente.",
     suporte: "🥇 Placa de cortiça ou madeira com fina camada de esfagno sob as raízes.\n🥈 Cesto raso e bem perfurado, acompanhando o avanço do rizoma.\n🥉 Vaso baixo e largo, com meio muito aberto.\nA espécie cresce horizontalmente; reserve espaço livre à frente do rizoma.",
@@ -285,7 +285,7 @@ export const bulbophyllumAmbrosia = {
         litoralQuente: { texto: "A espécie possui populações de baixa a média altitude e pode crescer bem no litoral, mas exige ventilação intensa e meio aberto para compensar noites quentes." },
         montanhaFrio: { texto: "Muito boa em condições intermediárias a frescas, desde que protegida de frio extremo e de secagem prolongada." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [9, 10, 11],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
