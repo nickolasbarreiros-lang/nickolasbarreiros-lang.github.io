@@ -20,3 +20,11 @@ O encerramento técnico anterior não cobre as alterações posteriores. Receita
 
 ### Fechamento da errata — 2026-11-04
 **Revalidação corretiva aprovada:** Chromium [41836563703](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41836563703) com conclusão success. Duas alternativas qualitativas sem percentuais, principal 100%, perlita restaurada e inspeção desktop/mobile concluída. Errata editorial tecnicamente **ENCERRADA**. Classe científica D permanece não homologada quantitativamente.
+
+
+## Auditoria integrada de continuidade — 2026-11-05
+- **Receita vigente (prevalece sobre o histórico anterior):** 35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa + 10% carvão vegetal médio = 100%. O texto antigo que menciona argila expandida na principal e ausência de perlita está revogado.
+- **Alternativas:** exatamente duas, qualitativas e sem percentuais. Estrelas dos suportes: `null`, não atribuídas experimentalmente.
+- **IDC 3.2 documental:** 44/100, três estrelas (faixa 36–50); componentes T/R/H/V/L/Ra/S/F = 2/2/2/2/2/2/2/3. Não há nesta auditoria recálculo independente da conversão das notas para a pontuação total.
+- **IAR 2.0 aritmético:** litoral 60/100, três estrelas; montanha 60/100, três estrelas. Ambos com notas 3/3/3/3/3/3/3: 18+18+3+3+3+3+12 = 60. A pontuação reproduz as notas registradas, sem comprovar sua base empírica.
+- **MACS 1.1:** classe D, sem grex identificado e sem homologação quantitativa. O histórico Chromium 41836563703 precede as alterações atuais; novo teste foi disparado pelo workflow atualizado.
