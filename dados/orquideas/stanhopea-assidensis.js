@@ -26,11 +26,11 @@ export const stanhopeaAssidensis = {
         horario: "Não permitido",
         observacoes: "Prefere luz intensa, porém filtrada. Folhas verde-médio indicam boa luminosidade; folhas muito escuras sugerem falta de luz, enquanto amarelecimento e queimaduras indicam excesso."
     },
-    floracao: "A floração tende a ocorrer da primavera ao verão, podendo variar entre clones e condições de cultivo. As inflorescências são pendentes e atravessam o fundo ou as laterais da cesta. As flores duram poucos dias, porém são grandes, cerosas e intensamente perfumadas; plantas adultas podem emitir mais de uma haste na mesma estação.",
+    floracao: "OrchidWeb relata floração na primavera ou verão em seu contexto de cultivo; não há calendário brasileiro da grex suficientemente documentado para fixar meses. As inflorescências são pendentes e atravessam o fundo ou as laterais da cesta. As flores duram poucos dias, porém são grandes, cerosas e intensamente perfumadas; plantas adultas podem emitir mais de uma haste na mesma estação.",
     adubacao: "🌿 Orgânica: aplique pequena quantidade de bokashi na borda da cesta a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: utilize adubo equilibrado em meia dose a cada 10 a 15 dias, evitando aplicações nas flores.\n🧪 Liberação lenta: Osmocote pode ser usado em dose moderada, sem contato direto com brotos e raízes novas. Reduza bastante a adubação no inverno ou quando a planta estiver sem crescimento ativo.",
     rega: "Regue de forma regular e abundante durante a formação de brotos, raízes e pseudobulbos. O substrato deve permanecer levemente úmido, mas nunca encharcado ou compactado. Evite deixá-lo completamente seco por vários dias. No inverno, reduza a frequência, mantendo umidade suficiente para impedir o enrugamento excessivo dos pseudobulbos.",
     suporte: "🥇 Cesta suspensa de madeira com ripas largas.\n🥈 Cesto de plástico amplamente perfurado.\n🥉 Cesto aramado revestido apenas com uma camada fina de fibra de coco ou esfagno.\nNunca utilize vaso fechado ou prato sob o recipiente, pois a haste floral precisa sair pela parte inferior ou pelas laterais.",
-    substrato: ["Casca de macadâmia média + chips de coco grossos preparados + perlita grossa + pequena fração de esfagno solto","Casca de pinus média + fibra de coco grossa preparada + perlita grossa + carvão vegetal"],
+    substrato: ["Casca de macadâmia média + chips de coco grossos lavados + perlita grossa + pequena fração de esfagno solto","Casca de pinus média + fibra de coco grossa lavada + perlita grossa + carvão vegetal"],
     formasCultivo: {
         perfilVisual: "stanhopea-hibrido-primario-hastes-descendentes",
         destaque: "Cachepô de Madeira",
@@ -45,8 +45,8 @@ export const stanhopeaAssidensis = {
         titulo: "Substrato ideal",
         contexto: "Mistura leve para cesto suspenso com fundo aberto",
         resumo: "Partículas grossas mantêm umidade moderada e circulação de ar, sem compactar a saída das hastes florais pelo fundo.",
-        justificativa: "Stanhopea assidensis precisa de cesta suspensa com fundo realmente aberto para a passagem das hastes florais descendentes. Os chips de coco grossos preparados ajudam a conservar umidade, a casca de pinus oferece estrutura, a perlita mantém espaços de ar e o esfagno solto reduz a secagem brusca. Distribua os materiais sem compactar ou bloquear as aberturas inferiores.",
-        receitaTexto: "40% chips de coco grossos preparados + 30% casca de pinus média + 20% perlita grossa + 10% esfagno de fibra longa solto.",
+        justificativa: "A receita 40/30/20/10 é hipótese horticultural sem ensaio específico da grex; a orientação AOS de casca de abeto e perlita em 3:1 refere-se ao gênero. Stanhopea Assidensis precisa de cesta suspensa com fundo realmente aberto para a passagem das hastes florais descendentes. Os chips de coco grossos lavados ajudam a conservar umidade, a casca de pinus oferece estrutura, a perlita mantém espaços de ar e o esfagno solto reduz a secagem brusca. Distribua os materiais sem compactar ou bloquear as aberturas inferiores.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a grex: 40% chips de coco grossos lavados + 30% casca de pinus média + 20% perlita grossa + 10% esfagno de fibra longa solto.",
         perfil: ["Híbrido primário", "Hastes descendentes", "Cesto suspenso", "Umidade regular", "Fundo livre"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -55,7 +55,7 @@ export const stanhopeaAssidensis = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "chips-coco", nome: "Chips de coco grossos preparados", proporcao: "40%", nota: "estrutura e umidade", finalidade: "Mantém umidade com espaços abertos entre partículas." },
+            { asset: "chips-coco", nome: "Chips de coco grossos lavados", proporcao: "40%", nota: "estrutura e umidade", finalidade: "Mantém umidade com espaços abertos entre partículas." },
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "estrutura", finalidade: "Sustenta raízes sem bloquear o fundo do cesto." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação." },
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "10%", nota: "umidade", finalidade: "Oferece pequena reserva hídrica sem compactação." }
@@ -206,15 +206,7 @@ export const stanhopeaAssidensis = {
         litoralQuente: { texto: "Cultive em sombra clara, cesta suspensa e local com circulação permanente de ar. Regue preferencialmente pela manhã, evitando encharcamento prolongado e água acumulada em brotos ou flores no fim do dia." },
         montanhaFrio: { texto: "Em regiões mais frescas, proteja de frio intenso e reduza as regas nos períodos de menor atividade, sem deixar os pseudobulbos desidratarem em excesso." }
     },
-    "mesesFloracao": [
-        9,
-        10,
-        11,
-        12,
-        1,
-        2,
-        3
-    ],
+    "mesesFloracao": [],
     "selosCultivo": {
         "rega": { "nivel": "muito-frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
