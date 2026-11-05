@@ -19,7 +19,7 @@ export const blcChiaLin = {
         "imagens/Blc. Chia Lin/Blc. Chia Lin3.webp",
         "imagens/Blc. Chia Lin/Blc. Chia Lin4.jpg"
     ],
-    descricao: "Uma Cattleya híbrida feita para impressionar! Rhyncholaeliocattleya Chia Lin é conhecida pelas flores grandes, espessas e muito bem formadas, geralmente em tons intensos de vermelho, vinho, púrpura ou magenta, muitas vezes acompanhadas de perfume. Registrado em 1989 a partir do cruzamento Rlc. Oconee × Rlc. Maitland, o grex reúne uma linhagem selecionada justamente pela qualidade das flores. Como Chia Lin é o nome do grex e não de um único clone, cada planta pode apresentar diferenças de tonalidade, tamanho, perfume e época de floração — parte do charme de cultivar seedlings desse híbrido.",
+    descricao: "Rhyncholaeliocattleya Chia Lin é um híbrido da aliança Cattleya conhecido pelas flores grandes, espessas e de cores intensas, frequentemente em tons de vermelho, vinho, púrpura ou magenta. Algumas seleções também apresentam perfume, mas intensidade e características florais variam entre clones. Registrado em 1989, resulta do cruzamento entre Rlc. Oconee e Rlc. Maitland. Seus pseudobulbos sustentam folhas firmes e, quando maduros, podem produzir flores vistosas que se destacam acima da folhagem. Por ser um grex horticultural, não possui distribuição natural nem habitat próprio: suas exigências gerais são interpretadas a partir da fisiologia epífita de sua linhagem.",
     origem: "Híbrido horticultural",
     regiao: "Sem distribuição natural · grex registrado em 1989",
     habitat: "Sem habitat natural · Aliança Cattleya",
@@ -34,8 +34,8 @@ export const blcChiaLin = {
     floracao: "Variável conforme o clone e o ciclo de crescimento. Seleções de Chia Lin são registradas florescendo do outono à primavera, portanto o calendário deve ser tratado como referência, não como característica fixa do grex.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose a cada 7 a 15 dias durante brotação e enraizamento. Após a maturação do pseudobulbo, reduza a frequência e evite excesso de nitrogênio, sem necessidade de fórmulas extremamente ricas em fósforo.\n🧪 Liberação lenta: Osmocote 14-14-14 ou equivalente em dose moderada para vasos e cachepôs; reduza a adubação líquida se estiver usando liberação lenta.",
     rega: "Durante brotação e enraizamento, molhe completamente e espere o substrato perder boa parte da umidade antes da próxima irrigação. Após a maturação, aumente discretamente o intervalo entre as regas, sem impor repouso seco. Em clima quente, ajuste a frequência conforme temperatura, ventilação e velocidade de secagem do recipiente.",
-    suporte: "🥇 Vaso de barro, excelente para o clima quente de clima quente.\n🥈 Cachepô de madeira para plantas com várias frentes e raízes vigorosas.\n🥉 Vaso plástico muito perfurado ou cesto de madeira/plástico para exemplares grandes.",
-    substrato: ["Casca de pinus média/grossa + Carvão vegetal médio + Brita pequena/média", "Chips de coco grossos preparados + Casca de macadâmia média + Carvão vegetal médio + Argila expandida"],
+    suporte: "🥇 Vaso de barro, estável e ventilado para cultivo em clima quente.\n🥈 Cachepô de madeira para plantas com várias frentes e raízes vigorosas.\n🥉 Vaso plástico muito perfurado ou cesto de madeira/plástico para exemplares grandes.",
+    substrato: ["Casca de pinus média/grossa + Carvão vegetal médio + Brita pequena/média", "Chips de coco grossos lavados + Casca de macadâmia média + Carvão vegetal médio + Argila expandida"],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso de Barro",
@@ -75,8 +75,8 @@ export const blcChiaLin = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "Rhyncholaeliocattleya Chia Lin é um híbrido vigoroso de raízes epífitas que se beneficia de vaso firme e mistura bem ventilada. As cascas de macadâmia e pinus dão apoio às raízes, enquanto a brita e o carvão favorecem a drenagem e mantêm espaços de ar. Use recipiente proporcional à touceira, evite compactação e ajuste as regas conforme a secagem observada.",
-    "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média/grossa + 20% brita pequena/média + 15% carvão vegetal médio.",
+    "justificativa": "A receita 35/30/20/15 é proposta horticultural para plantas adultas, não homologada quantitativamente para o grex Chia Lin. O Orquidário Suzuki registra a comercialização de um clone, mas não fornece percentuais de substrato. Rhyncholaeliocattleya Chia Lin é um híbrido vigoroso de raízes epífitas que se beneficia de vaso firme e mistura bem ventilada. As cascas de macadâmia e pinus dão apoio às raízes, enquanto a brita e o carvão favorecem a drenagem e mantêm espaços de ar. Use recipiente proporcional à touceira, evite compactação e ajuste as regas conforme a secagem observada.",
+    "receitaTexto": "Proposta horticultural NÃO HOMOLOGADA para vaso de barro: 35% casca de macadâmia média + 30% casca de pinus média/grossa + 20% brita pequena/média + 15% carvão vegetal médio.",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
