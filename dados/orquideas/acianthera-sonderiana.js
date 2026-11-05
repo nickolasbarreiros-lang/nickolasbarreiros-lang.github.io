@@ -39,7 +39,7 @@ export const aciantheraSonderiana = {
         agua: 5,
         raridade: 2
     },
-    mesesFloracao: [],
+    mesesFloracao: [2, 3, 4, 5],
     clima: "Intermediário a fresco, úmido e bem ventilado; evitar calor abafado prolongado.",
     climaFloracao: "A espécie é associada principalmente a ambientes úmidos e de temperaturas amenas. Há referências de cultivo que relatam floração em épocas variadas, mas a matriz não documenta observações mensais suficientes para atribuir todos os meses como floração comprovada. Para manter floração regular, noites menos quentes, boa umidade, ventilação constante e luz filtrada brilhante são mais importantes do que impor um repouso sazonal.",
     iluminacao: {
@@ -48,7 +48,7 @@ export const aciantheraSonderiana = {
         horario: "Somente início da manhã",
         observacoes: "Prefere luz filtrada de baixa a média intensidade. Referências de cultivo situam a espécie aproximadamente em 1.500–2.500 foot-candles e há cultivo comercial bem-sucedido sob cerca de 70% de sombreamento. Pode tolerar incidência muito suave nas primeiras horas da manhã quando aclimatada, mas o sol forte e o aquecimento das folhas devem ser evitados."
     },
-    floracao: "Pode florescer em diferentes épocas conforme procedência e condições de cultivo; a matriz não sustenta um calendário brasileiro mensal completo. Inflorescências curtas, geralmente com 2–4 flores, surgem em plantas maduras e bem hidratadas.",
+    floracao: "No Brasil, há registros de flores entre fevereiro e maio, especialmente no outono. Alguns orquidários também observam florações no inverno ou na primavera e no verão, de acordo com o ambiente de cultivo. As pequenas hastes exibem geralmente de três a sete flores que se abrem aos poucos, de baixo para cima, em tons que vão do amarelo-esverdeado ao laranja. Cada flor mede pouco mais de meio centímetro e apresenta sépalas laterais quase totalmente unidas. O perfume, quando perceptível, é bem suave. Em cultivo, há relatos de flores que permanecem abertas por até cerca de 15 dias.",
     adubacao: "🌿 Orgânica: bokashi em quantidade mínima, preferencialmente em sachê e sem contato direto prolongado com as raízes.\n💧 Foliar/mineral: adubo equilibrado em 1/4 da dose do fabricante a cada 10–15 dias durante crescimento ativo.\n🧪 Como as raízes são muito finas, faça lavagens periódicas com água de baixa salinidade e evite acúmulo de sais.",
     rega: "Manter as raízes regularmente úmidas, sem permitir secagem prolongada. Em placas ou pequenas montagens, pode exigir rega diária no período quente e seco; em vasos com esfagno, regar novamente quando o material começar a perder umidade superficial, sem deixá-lo compactado ou permanentemente encharcado. A combinação correta é muita disponibilidade de água com excelente oxigenação das raízes.",
     suporte: [
