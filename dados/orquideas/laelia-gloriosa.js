@@ -32,11 +32,11 @@ export const laeliaGloriosa = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Folhas firmes em verde-claro indicam boa luminosidade. Verde muito escuro costuma produzir crescimento sem floração; amarelecimento forte, manchas secas ou aquecimento foliar indicam excesso."
     },
-    floracao: "Predomina do outono ao início do inverno. Hastes terminais podem ultrapassar 1,2 m e carregar aproximadamente 8–15 flores agrupadas no ápice, com flores cerosas de cerca de 5 cm.",
+    floracao: "A época de floração varia conforme a procedência e o cultivo; a matriz não documenta meses brasileiros suficientes para fixar calendário obrigatório. Hastes terminais podem ultrapassar 1,2 m e carregar aproximadamente 8–15 flores agrupadas no ápice, com flores cerosas de cerca de 5 cm.",
     adubacao: "🌿 Orgânica: bokashi em porta-adubo durante a brotação.\n💧 Foliar: NPK equilibrado em baixa concentração a cada 7–15 dias durante o crescimento ativo.\n🧪 Liberação lenta: dose baixa a moderada conforme o tamanho do recipiente, sem contato direto com raízes novas. Após a maturação, reduza a frequência e o excesso de nitrogênio, sem necessidade de suspender toda nutrição. Periodicamente lave o substrato com água pura.",
     rega: "Durante a emissão de brotos e raízes novas, regue abundantemente e permita secagem rápida antes da próxima irrigação. Após a maturação dos pseudobulbos, aumente moderadamente o intervalo, especialmente em períodos frios ou nublados, sem causar enrugamento severo.",
     suporte: "🥇 Cesto grande e robusto de madeira, firmemente suspenso ou fixado.\n🥈 Vaso de barro pesado, largo e muito furado.\n🥉 Fixação definitiva em tronco de árvore, apenas onde não haja geadas e seja possível regar durante o estabelecimento.",
-    substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios preparados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
+    substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios lavados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
     formasCultivo: {
         perfilVisual: "epifita-grande-pseudobulbos-robustos",
         destaque: "Cachepô de Madeira",
@@ -52,8 +52,8 @@ export const laeliaGloriosa = {
         titulo: "Substrato ideal",
         contexto: "Mistura grossa para cachepô robusto e muito ventilado",
         resumo: "Partículas médias e grossas com aeração elevada, boa sustentação e secagem perceptível entre regas.",
-        justificativa: "Laelia gloriosa pode formar plantas vigorosas que precisam de cachepô estável, com espaço para o rizoma e boa ventilação. As cascas de macadâmia e pinus oferecem apoio, enquanto a perlita e o carvão ajudam a manter a mistura drenante e arejada. Dimensione o recipiente para o porte adulto e ajuste as regas conforme a secagem observada.",
-        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        justificativa: "A receita 35/30/20/15 é uma proposta horticultural sem ensaio quantitativo específico da espécie; a preferência pelo cachepô robusto decorre do porte, não de comparação experimental. Laelia gloriosa pode formar plantas vigorosas que precisam de cachepô estável, com espaço para o rizoma e boa ventilação. As cascas de macadâmia e pinus oferecem apoio, enquanto a perlita e o carvão ajudam a manter a mistura drenante e arejada. Dimensione o recipiente para o porte adulto e ajuste as regas conforme a secagem observada.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a espécie: 35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Epífita de grande porte", "Pseudobulbos robustos", "Rizoma expansivo", "Alta luminosidade", "Raízes ventiladas"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -79,7 +79,7 @@ export const laeliaGloriosa = {
         "morfologiaDimensoes": "Pseudobulbos 9–15 cm, folhas 20–23 × 5–6 cm, inflorescências 90–100 cm; flores de segmentos castanho-escuros (Flora do Brasil 2020).",
         "habitatAltitudeClima": "Epífita ou rupícola em florestas e formações sazonais; altitude variável conforme a população.",
         "distribuicaoGeografica": "América do Sul tropical; no Brasil, registros nas cinco macrorregiões segundo POWO e Flora do Brasil 2020.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "cultivoPremiacao": "Suporte robusto e receita de substrato são inferências horticulturais; não há ensaio específico de proporções nem premiação documentada nesta matriz.",
         "confianca": "alta",
         "fontes": [
             "POWO/Kew",
@@ -212,9 +212,9 @@ export const laeliaGloriosa = {
         litoralQuente: { texto: "Ao calor de litoral quente quando recebe luminosidade elevada, ventilação constante, rega abundante durante o crescimento e secagem rápida. Fixe firmemente o recipiente contra vento e tombamento." },
         montanhaFrio: { texto: "Tolera noites amenas, mas deve ser protegida de geadas e de períodos frios prolongados com raízes molhadas. Mantenha alta luminosidade mesmo no inverno." }
     },
-    mesesFloracao: [9, 10, 11, 12, 1, 2],
+    mesesFloracao: [],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         avaliacoes: {
