@@ -36,11 +36,11 @@ export const cattliantheCttJewelBox = {
         "horario": "Início da manhã ou final da tarde",
         "observacoes": "Precisa de mais luz que muitos híbridos de flores grandes. Folhas verde-claras, eretas e firmes indicam boa luminosidade. Folhas muito escuras, pseudobulbos alongados e poucas flores indicam sombra excessiva. Amarelecimento brusco, áreas secas ou aquecimento excessivo das folhas indicam sol forte sem aclimatação."
     },
-    "floracao": "Pode florescer mais de uma vez ao ano, com maior frequência entre o outono e a primavera, especialmente de abril a novembro. As hastes surgem do topo de pseudobulbos maduros e carregam várias flores vermelho-escarlate. Plantas adultas e pouco divididas costumam produzir mais de uma haste ao mesmo tempo e cachos mais volumosos. A durabilidade melhora quando as flores ficam protegidas de chuva direta, calor excessivo e manipulação.",
+    "floracao": "Pode florescer mais de uma vez ao ano conforme o cultivar, a maturação das frentes e as condições de cultivo; não há documentação suficiente na matriz para fixar abril a novembro como janela brasileira obrigatória. As hastes surgem do topo de pseudobulbos maduros e carregam várias flores vermelho-escarlate. Plantas adultas e pouco divididas costumam produzir mais de uma haste ao mesmo tempo e cachos mais volumosos. A durabilidade melhora quando as flores ficam protegidas de chuva direta, calor excessivo e manipulação.",
     "adubacao": "🌿 Orgânica: bokashi em dose moderada, sempre em sachê ou porta-adubo e afastado do rizoma, durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/2 da dose a cada 10–15 dias enquanto houver brotos e raízes novas.\n🌱 Formação de pseudobulbos: mantenha nutrição regular até a folha endurecer e o pseudobulbo completar o enchimento.\n🌸 Pré-floração: reduza o nitrogênio após a maturação; não use doses altas de fórmulas fosfatadas como substituto de luz.\n🧪 Liberação lenta: Osmocote em dose proporcional ao vaso, sem contato com raízes novas.\n🚿 Lavagem: faça flushing mensal com água pura para evitar acúmulo de sais.",
     "rega": "Durante brotação e enraizamento, regue abundantemente quando o substrato estiver próximo da secagem. Após a maturação, aumente levemente o intervalo, sem desidratar os pseudobulbos. No inverno ou em semanas frias e chuvosas, reduza a frequência conforme a evaporação. Evite água acumulada nas bainhas e espatas, sobretudo à noite, pois isso favorece fungos e podridão dos botões.",
     "suporte": "🥇 Vaso de barro ou plástico muito furado — oferece estabilidade, boa drenagem e espaço controlado para novas frentes.\n🥈 Cestinho de madeira — excelente para formação de touceiras, raízes arejadas e expansão do rizoma.\n🥉 Placa de madeira — indicada para exemplares compactos e ambientes com umidade atmosférica elevada.\nUse recipiente apenas um pouco maior que a touceira, deixando espaço para duas ou três novas frentes.",
-    substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios preparados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
+    substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios lavados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
     "formasCultivo": {
         "perfilVisual": "cattleya",
         "destaque": "Vaso de Barro",
@@ -56,8 +56,8 @@ export const cattliantheCttJewelBox = {
         "titulo": "Substrato ideal",
         "contexto": "Mistura proposta para vaso perfurado",
         "resumo": "Composição aberta de granulometria média para sustentar touceiras vigorosas sem reter água em excesso.",
-        "justificativa": "Cattlianthe Jewel Box se beneficia de raízes bem ventiladas e secagem perceptível entre regas. As cascas de macadâmia e pinus oferecem apoio e estrutura, enquanto a perlita e o carvão ajudam a manter a mistura aberta e drenante. Observe a secagem do recipiente e evite compactação, especialmente durante a emissão de raízes novas.",
-        "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        "justificativa": "A composição 35/30/20/15 é hipótese horticultural sem ensaio específico da grex. Cattlianthe Jewel Box se beneficia de raízes bem ventiladas e secagem perceptível entre regas. As cascas de macadâmia e pinus oferecem apoio e estrutura, enquanto a perlita e o carvão ajudam a manter a mistura aberta e drenante. Observe a secagem do recipiente e evite compactação, especialmente durante a emissão de raízes novas.",
+        "receitaTexto": "Proposta horticultural NÃO HOMOLOGADA para esta grex: 35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         "perfil": ["Raízes epífitas", "Touceira vigorosa", "Boa sustentação", "Aeração alta", "Secagem moderadamente rápida"],
         "comportamento": [
             { "nome": "Retenção", "valor": 2, "icone": "💧" },
@@ -79,11 +79,11 @@ export const cattliantheCttJewelBox = {
     revisaoCientificaIAR: {
         "nome": "Cattlianthe Jewel Box",
         "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Um clássico vermelho que continua atual! Cattlianthe Jewel Box é um híbrido vigoroso, registrado em 1962 a partir de Guarianthe aurantiaca × Cattleya Anzac. Forma touceiras compactas a médias e chama atenção pelos cachos com várias flores em tons intensos de vermelho, escarlate ou vermelho-alaranjado, conforme o cultivar. A influência de Guarianthe aurantiaca ajuda a explicar s",
+        "sinonimosPrincipais": "Sophrolaeliocattleya Jewel Box (nome hortícola anterior).",
+        "morfologiaDimensoes": "Cattlianthe Jewel Box é um híbrido clássico registrado por Stewart Inc. em 1962, resultado do cruzamento Guarianthe aurantiaca × Cattleya Anzac. Forma touceiras compactas a médias, com pseudobulbos eretos e folhas firmes. Suas inflorescências terminais reúnem várias flores vistosas, geralmente vermelhas ou escarlates, com variações de intensidade conforme o cultivar. Seleções como 'Dark Waters' e 'Scheherazade' tornaram-se conhecidas entre colecionadores. A presença de Guarianthe aurantiaca em metade de sua ascendência ajuda a explicar a arquitetura das hastes e os cachos florais. Por ser um híbrido criado em cultivo, não possui distribuição geográfica nem habitat natural próprios.",
         "habitatAltitudeClima": "Sem habitat natural · cultivo claro e ventilado. | Quente a intermediário · luz alta.",
-        "distribuicaoGeografica": "Guarianthe aurantiaca × Cattleya Anzac.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "distribuicaoGeografica": "Híbrido hortícola sem distribuição natural própria; parentais Guarianthe aurantiaca × Cattleya Anzac.",
+        "cultivoPremiacao": "Orientações de cultivo extrapoladas da arquitetura epífita e de manuais gerais; nenhuma homologação quantitativa específica da grex demonstrada. Não atribuir premiações sem registro verificável.",
         "confianca": "media",
         "fontes": [
             "POWO/Kew",
@@ -218,16 +218,7 @@ export const cattliantheCttJewelBox = {
         "litoralQuente": "No litoral quente, adapta-se muito bem ao calor. Mantenha sob luz alta filtrada, ventilação constante e substrato de secagem rápida. Durante períodos de chuva contínua, aumente o intervalo entre regas e proteja as bainhas florais.",
         "montanhaFrio": "Também apresenta bom desenvolvimento. Proteja apenas contra geadas e reduza a água em semanas frias e chuvosas."
     },
-    "mesesFloracao": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-    ],
+    "mesesFloracao": [],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
