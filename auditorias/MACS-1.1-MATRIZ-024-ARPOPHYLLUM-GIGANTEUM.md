@@ -112,3 +112,15 @@ Não calcular nota sem medições comparáveis.
 - **IAR 2.0, montanha fria:** soma ponderada = 5×30 + 5×30 + 4×5 + 4×5 + 4×5 + 4×5 + 5×20 = **480**; índice = 480/5 = **96/100**, 5 estrelas conforme campo publicado.
 - **Nota metodológica:** os cálculos estão corretos para as notas atribuídas, mas as notas são avaliações editoriais baseadas em fontes e **não** validação experimental de adaptação ou da receita MACS.
 - **Floração:** `mesesFloracao: [8,9,10,11]` coincide com a janela de acompanhamento descrita no texto; a própria ficha agora ressalva que não é calendário comprovado para todas as regiões.
+
+## Inspeção visual por PDF — 04/11/2026
+**Evidência:** PDF de oito páginas exportado do site em 04/11/2026 às 21:56, fornecido pelo responsável do projeto. A inspeção é visual e estática; não testa interação nem JavaScript.
+
+- **Pág. 1:** fotografia principal e três miniaturas presentes; sem imagem quebrada visível.
+- **Pág. 3 — inconformidade visual confirmada:** faixa diagonal de “Recomendação principal” fica cortada na borda direita do cartão na impressão. Verificar CSS do componente compartilhado e apresentação no navegador.
+- **Pág. 3 — possível divergência semântica de asset:** imagem principal mostra recipiente preto amplamente vazado, embora a legenda diga “Vaso plástico”; no catálogo a chave `vaso-plastico` aponta para `imagens/cultivo-v4/vaso-plastico.webp`. Conferir a imagem binária antes de alterar a chave global ou trocar asset.
+- **Págs. 4–5:** cinco imagens de materiais e percentuais 35+25+20+10+10 presentes; duas alternativas sem percentuais; indicadores gráficos de retenção, aeração, secagem e compactação visíveis. Estes indicadores são avaliações qualitativas, não medições laboratoriais.
+- **Pág. 6 — divergência de versão:** o PDF contém redação antiga sobre repouso fresco/seco obrigatório; o código atual já traz ressalva de que não há comprovação experimental de obrigatoriedade para a espécie.
+- **Pág. 7 — divergência de versão:** o PDF contém texto antigo sobre floração agosto–novembro; o código atual qualifica a janela como referência sazonal, não calendário comprovado nacionalmente.
+- **Pág. 8 — divergência de versão:** o PDF contém “Para crescimento, mas...” (frase truncada); o código atual já contém “O cultivo vegetativo é possível em clima quente, mas...”.
+- **Conclusão:** PDF confirma presença visual dos principais módulos e fotografias, porém **não aprova integralmente** a ficha: faixa diagonal cortada e divergência de imagem devem ser resolvidas, e uma nova exportação após atualização do GitHub Pages deve confirmar que a página usa a revisão atual. A ausência de ensaio comparativo mantém MACS Classe D.
