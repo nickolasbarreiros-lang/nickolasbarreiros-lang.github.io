@@ -76,14 +76,14 @@ export const laeliaSplendida = {
         notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D); não equivale à homologação quantitativa de percentuais ou à superioridade comprovada de suportes. MACS 1.1 — revisão documental: Laelia splendida (sin. Schomburgkia splendida), epífita/rupícola robusta de hastes longas; alta luminosidade com aclimatação, suporte estável e raízes arejadas. Cachepô de Madeira bem vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com cesto + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus grosso. Elas não fundamentam os percentuais visuais. Monitorar secagem, estabilidade e espaço para hastes. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
-        "Cultivar em sombra excessiva",
-        "Usar vaso profundo e pouco ventilado",
-        "Manter raízes permanentemente molhadas",
-        "Dividir a planta em partes muito pequenas",
-        "Replantar sem novas raízes em atividade",
-        "Aplicar fertilizante concentrado",
-        "Não oferecer espaço para a nova frente de crescimento",
-        "Expor abruptamente ao sol forte sem aclimatação"
+        "Não mantenha a planta em sombra excessiva.",
+        "Evite vasos profundos e pouco ventilados.",
+        "Não deixe as raízes permanentemente molhadas.",
+        "Evite divisões com poucos pseudobulbos.",
+        "Replante quando surgirem raízes novas.",
+        "Não aplique fertilizante concentrado.",
+        "Reserve espaço para a próxima frente de crescimento.",
+        "Aclimate gradualmente antes de aumentar o sol direto."
     ],
     dica: "🏆 Se a planta cresce bem mas não floresce, investigue primeiro a luz. Laelia splendida precisa acumular bastante energia para sustentar suas hastes longas. Em clima quente, um local muito claro, ventilado e com raízes quase expostas costuma funcionar melhor que um vaso úmido e sombreado.",
     revisaoCientificaIAR: {
@@ -107,9 +107,9 @@ export const laeliaSplendida = {
     indiceDificuldadeCultivo: {
         "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
-        "indice": 36,
-        "classificacao": "Moderada",
-        "cultivoEstrelas": 3,
+        "indice": 20,
+        "classificacao": "Muito fácil",
+        "cultivoEstrelas": 5,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 2,
@@ -234,5 +234,5 @@ export const laeliaSplendida = {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
-        avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 4, agua: 3, raridade: 4 }
+        avaliacoes: { cultivo: 5, floracao: 4, perfume: 2, luminosidade: 4, agua: 3, raridade: 4 }
 };
