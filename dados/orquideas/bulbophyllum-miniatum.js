@@ -9,7 +9,7 @@ export const bulbophyllumMiniatum = {
     genero: "Bulbophyllum",
     tipo: "Variedade botânica epífita africana",
     dificuldade: "Moderada",
-    caracteristicas: ["Epífita de rizoma alongado", "Rizoma rastejante", "Flores esverdeadas a arroxeadas", "Labelo com pelos e movimento articulado", "Labelo móvel", "Clima quente"],
+    caracteristicas: ["Epífita de rizoma alongado", "Rizoma rastejante", "Flores esverdeadas a arroxeadas", "Labelo com pelos e movimento articulado", "Clima quente"],
     fotos: [
         "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum1.jpeg",
         "imagens/Bulbophyllum miniatum/Bulbophyllum miniatum2.jpeg",
@@ -42,7 +42,7 @@ export const bulbophyllumMiniatum = {
                 "asset": "placa-tronco",
                 "estrelas": 5,
                 "status": "Ideal",
-                "texto": "Madeira com pequena faixa de esfagno: alternativa publicada para a espécie, exigindo regas frequentes."
+                "texto": "Madeira com pequena faixa de esfagno: recomendação publicada para B. saltatorium sem confirmação da variedade; exige regas frequentes."
             },
             {
                 "nome": "Cachepô de Madeira",
@@ -71,8 +71,8 @@ export const bulbophyllumMiniatum = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
-        "justificativa": "Este Bulbophyllum se beneficia de umidade regular e boa ventilação das raízes. A montagem em madeira com pequena quantidade de esfagno é uma opção para manter o rizoma exposto. Em recipiente aberto, a casca de pinus dá apoio, os chips de coco preparados e o esfagno solto ajudam a conservar umidade e a perlita mantém a mistura arejada. Ajuste as regas conforme a secagem, evitando compactação e saturação prolongada.",
-        "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno de fibra longa solto.",
+        "justificativa": "A receita 35/25/25/15 é hipótese horticultural não ensaiada para esta variedade. Este Bulbophyllum se beneficia de umidade regular e boa ventilação das raízes. A montagem em madeira com pequena quantidade de esfagno é uma opção para manter o rizoma exposto. Em recipiente aberto, a casca de pinus dá apoio, os chips de coco preparados e o esfagno solto ajudam a conservar umidade e a perlita mantém a mistura arejada. Ajuste as regas conforme a secagem, evitando compactação e saturação prolongada.",
+        "receitaTexto": "Proposta horticultural NÃO HOMOLOGADA para a variedade em recipiente: 35% casca de pinus média + 25% chips de coco médios lavados + 25% perlita grossa + 15% esfagno de fibra longa solto. Montagem em placa/tronco dispensa mistura volumétrica.",
         "perfil": ["Hábito epífito", "Raízes delicadas", "Base exposta", "Umidade regular", "Boa aeração", "Montagem úmida"],
         "comportamento": [
             {
@@ -106,7 +106,7 @@ export const bulbophyllumMiniatum = {
             },
             {
                             "asset": "chips-coco",
-                            "nome": "Chips de coco médios preparados",
+                            "nome": "Chips de coco médios lavados",
                             "proporcao": "25%",
                             "nota": "umidade",
                             "finalidade": "Reduz secagem brusca."
@@ -129,15 +129,15 @@ export const bulbophyllumMiniatum = {
         "alerta": "Proposta preliminar MACS 1.1; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo.",
         "notaEvidencia": "MACS 1.1 — revisão documental: nome aceito Bulbophyllum saltatorium var. albociliatum (sin. B. miniatum), epífita de rizoma alongado; Flora of Tropical East Africa, sob sinônimo B. distans, descreve pseudobulbos de 2,5–5,5 cm e hastes até 62 cm, flores sucessivas, floresta úmida a cerca de 1.400 m. Placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; indicação de montagem com esfagno atribuída na ficha a B. saltatorium sem confirmação da variedade, portanto extrapolação taxonômica e não ensaio específico. Receita visual 35% pinus médio + 25% chips coco + 25% perlita grossa + 15% esfagno = 100%; receitaTexto e itens concordam. Receita principal textual e visual concordam (35% pinus, 25% chips de coco, 25% perlita, 15% esfagno); duas alternativas qualitativas são distintas e não representam a composição principal. Orquidário Matsuoka (https://orquidariomatsuoka.com.br/produto/bulbophyllum-saltatorium/) recomenda toco de madeira com esfagno ou substrato drenante para B. saltatorium sem identificar variedade; não é evidência específica inequívoca para albociliatum. Nenhum produtor brasileiro com receita quantitativa comprovada para esta variedade; meta de 25 não atingida. Proposta não validada quantitativamente; Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    substrato: ["Chips de coco médios preparados + perlita grossa + carvão vegetal miúdo + esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita grossa + esfagno de fibra longa solto"],
+    substrato: ["Chips de coco médios lavados + perlita grossa + carvão vegetal miúdo + esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita grossa + esfagno de fibra longa solto"],
     errosComuns: "• Tratar Bulbophyllum miniatum como espécie atualmente aceita separada.\n• Enterrar o rizoma ou a base dos pseudobulbos.\n• Compactar esfagno.\n• Confundir alta umidade com substrato saturado.\n• Deixar a planta secar completamente por vários dias.\n• Cultivar em sombra profunda e abafada.\n• Aplicar adubo concentrado sobre raízes finas.\n• Forçar repouso seco para induzir floração.",
     dica: "🏆 O ponto central é separar umidade de encharcamento: mantenha raízes hidratadas, mas o rizoma exposto e aerado. Como a planta avança lateralmente, posicione a parte antiga junto à borda e deixe a frente de crescimento voltada para espaço livre. No litoral quente, 60% a 70% de sombra, ventilação contínua e rega frequente funcionam melhor que tentar produzir frio artificial.",
     revisaoCientificaIAR: {
         "nome": "Bulbophyllum saltatorium var. albociliatum",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma pequena africana cheia de movimento! A planta conhecida em muitas coleções como *Bulbophyllum miniatum* cresce com pseudobulbos espaçados sobre um rizoma rastejante e produz hastes pendentes com várias flores em tons de amarelo, laranja a avermelhado. Os cílios claros e o labelo articulado dão às flores um aspecto vivo e delicado, especialmente quando se movimentam com a br",
-        "habitatAltitudeClima": "Florestas úmidas · ~750 m. | Quente · úmido · ventilado.",
+        "statusTaxonomico": "Bulbophyllum saltatorium var. albociliatum é a variedade aceita em POWO/Kew; Bulbophyllum miniatum é sinônimo heterotípico.",
+        "sinonimosPrincipais": "Bulbophyllum miniatum (heterotípico); Bulbophyllum distans (nome aplicado à variedade em Flora of Tropical East Africa, conforme matriz).",
+        "morfologiaDimensoes": "Conhecida nas coleções como Bulbophyllum miniatum, esta orquídea africana corresponde à variedade albociliatum de Bulbophyllum saltatorium. Possui rizoma alongado, pseudobulbos espaçados e uma folha firme em cada pseudobulbo. As hastes florais podem ser longas, sustentando numerosas flores pequenas que se abrem sucessivamente. Sépalas e pétalas variam entre tons esverdeados e arroxeados; o labelo, mais escuro, é articulado e se movimenta com facilidade. A planta cresce como epífita em florestas tropicais úmidas da África ocidental e central, alcançando também regiões do leste do continente. Seu conjunto de flores delicadas contrasta com a extensão das hastes.",
+        "habitatAltitudeClima": "Florestas tropicais úmidas; registro florístico em torno de 1.400 m. | Quente · úmido · ventilado.",
         "distribuicaoGeografica": "África O/C · Uganda · Quênia SW · Angola.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
         "confianca": "alta",
@@ -272,9 +272,9 @@ export const bulbophyllumMiniatum = {
         litoralQuente: { texto: "A origem tropical combina com o litoral quente; o principal cuidado é manter circulação de ar elevada e meio extremamente aerado." },
         montanhaFrio: { texto: "Boa em locais protegidos. Evite frio prolongado e reduza a frequência das regas apenas quando a evaporação cair." }
     },
-    mesesFloracao: [6, 7, 8],
+    mesesFloracao: [],
     "selosCultivo": {
-        "rega": { "nivel": "sazonal" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: { cultivo: 3, floracao: 3, perfume: 1, luminosidade: 3, agua: 5, raridade: 4 }
