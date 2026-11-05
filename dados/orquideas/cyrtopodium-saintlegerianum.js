@@ -39,7 +39,7 @@ export const cyrtopodiumSaintlegerianum = {
     "adubacao": "🌿 Orgânica: bokashi leve apenas no início e meio do crescimento, sem encostar em brotos ou raízes.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração enquanto houver folhas e raízes ativas.\n🧪 Liberação lenta: poucos grânulos no início do ciclo, principalmente em vaso/cesto.\n🍂 Maturação: reduza quando as folhas começarem a envelhecer.\n🛑 Dormência: suspenda a adubação quando a planta estiver desfolhada e sem crescimento ativo.",
     "rega": "Durante brotação e expansão foliar, regue abundantemente e permita secagem rápida entre irrigações. Quando as folhas amarelecerem naturalmente, reduza progressivamente. Na fase desfolhada, mantenha a planta muito mais seca e proteja de chuvas repetidas, sem transformar a regra em seca absoluta se os pseudobulbos estiverem desidratando de forma extrema.",
     "suporte": "🥇 Tronco grosso ou placa extremamente robusta — aproxima o hábito observado sobre palmeiras.\n🥈 Cesto grande, rígido e muito vazado.\n🥉 Vaso pesado com drenagem extrema para quem não pode montar a planta.\nPlaneje o suporte para longo prazo: raízes aderidas não devem ser arrancadas em replantios frequentes.",
-    substrato: ["Casca de pinus grossa + carvão vegetal + brita fina","Chips de coco grossos preparados + casca de macadâmia + carvão vegetal + argila expandida"],
+    substrato: ["Casca de pinus grossa + carvão vegetal + brita fina","Chips de coco grossos lavados + casca de macadâmia + carvão vegetal + argila expandida"],
     "formasCultivo": {
         "perfilVisual": "cyrtopodium-epifita-sazonal",
         "destaque": "Placa / tronco",
@@ -55,8 +55,8 @@ export const cyrtopodiumSaintlegerianum = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cachepô ou vaso muito drenante; montagem dispensa mistura volumétrica",
         "resumo": "Mistura grossa, muito arejada e de secagem rápida, ajustada ao hábito epífito e ao repouso sazonal.",
-        "justificativa": "Cyrtopodium saintlegerianum precisa de raízes bem ventiladas e de um suporte que permita drenagem rápida. Em cachepô ou vaso muito aberto, as cascas de macadâmia e pinus grossas oferecem apoio, enquanto a perlita e o carvão mantêm a mistura solta. A montagem em placa ou tronco também permite manter as raízes expostas. Ajuste as regas ao crescimento ativo e à secagem do suporte, evitando compactação.",
-        "receitaTexto": "35% casca de macadâmia grossa + 30% casca de pinus grossa + 20% perlita grossa + 15% carvão vegetal.",
+        "justificativa": "Cyrtopodium saintlegerianum precisa de raízes bem ventiladas e de um suporte que permita drenagem rápida. A fórmula 35/30/20/15 é hipótese horticultural para plantas estabelecidas e não foi testada no ensaio brasileiro de aclimatação de mudas. Em cachepô ou vaso muito aberto, as cascas de macadâmia e pinus grossas oferecem apoio, enquanto a perlita e o carvão mantêm a mistura solta. A montagem em placa ou tronco também permite manter as raízes expostas. Ajuste as regas ao crescimento ativo e à secagem do suporte, evitando compactação.",
+        "receitaTexto": "Proposta horticultural NÃO HOMOLOGADA para plantas estabelecidas em vaso/cachepô: 35% casca de macadâmia grossa + 30% casca de pinus grossa + 20% perlita grossa + 15% carvão vegetal. Montagem em placa/tronco dispensa mistura volumétrica.",
         "perfil": ["Raízes epífitas aderentes", "Pseudobulbos volumosos", "Alta luminosidade", "Aeração muito alta", "Repouso sazonal mais seco"],
         "comportamento": [
             { "nome": "Retenção", "valor": 2, "icone": "💧" },
@@ -77,9 +77,9 @@ export const cyrtopodiumSaintlegerianum = {
     "dica": "Se for montar a planta, escolha o suporte como se ele fosse definitivo. Cyrtopodium saintlegerianum pode tornar-se grande e pesado, e raízes aderidas sofrem muito quando são removidas. Durante o crescimento, água e alimento são abundantes; depois da maturação e queda das folhas, faça a transição para um período mais seco, claro e ventilado.",
     revisaoCientificaIAR: {
         "nome": "Cyrtopodium saintlegerianum",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma gigante dos ambientes sazonais sul-americanos! Cyrtopodium saintlegerianum forma pseudobulbos longos, perde as folhas no período de repouso e pode produzir inflorescências muito ramificadas cobertas por numerosas flores amarelas e castanhas de cerca de 4 cm. No Brasil central é especialmente conhecido por crescer sobre palmeiras e troncos expostos, onde recebe muita luz, ch",
+        "statusTaxonomico": "Cyrtopodium saintlegerianum é nome aceito em POWO/Kew.",
+        "sinonimosPrincipais": "Cyrtopodium punctatum var. saintlegerianum (sinônimo homotípico segundo POWO/Kew).",
+        "morfologiaDimensoes": "Cyrtopodium saintlegerianum é uma orquídea robusta de ambientes sazonais da América do Sul, frequentemente encontrada sobre troncos e palmeiras. Seus pseudobulbos alongados, revestidos por bainhas, sustentam folhas estreitas que podem cair na estação seca. A floração surge em grandes panículas ramificadas, capazes de reunir numerosas flores amarelas salpicadas de castanho, com aproximadamente 4 cm. Em exemplares adultos, as hastes formam um espetáculo vistoso acima da touceira. A espécie ocorre no Brasil, Paraguai e norte da Argentina, especialmente em formações de estação seca marcada, onde o porte avantajado contrasta com a delicadeza das flores.",
         "habitatAltitudeClima": "Áreas sazonais · palmeiras/troncos · muita luz. | Quente sazonal · inverno mais seco.",
         "distribuicaoGeografica": "Brasil, Paraguai e norte da Argentina.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
