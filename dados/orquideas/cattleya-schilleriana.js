@@ -44,14 +44,14 @@ export const cattleyaSchilleriana = {
         "destaque": "Cachepô de Madeira",
         "resumo": "Espécie bifoliada compacta, de raízes sensíveis ao manuseio, que prefere fixação firme, circulação intensa de ar e secagem rápida. A hierarquia dos suportes segue as recomendações já presentes na ficha, sem alegar pontuação MACS homologada.",
         "metodos": [
-            { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Permite fixar firmemente o rizoma e manter raízes ventiladas. Use cachepô pequeno e aberto, com espaço apenas para poucas frentes novas e substrato grosso." },
-            { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": 5, "status": "Muito recomendado", "texto": "Boa opção quando a umidade ambiental e a frequência de regas compensam a secagem rápida. Escolha suporte durável, sem precisar remover raízes aderidas a cada estação." },
-            { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": 4, "status": "Alternativa", "texto": "Vaso pequeno, raso e muito perfurado, com mistura grossa e secagem perceptível entre regas. Não enterrar o rizoma." },
-            { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 3, "status": "Alternativa condicional", "texto": "Somente com perfurações abundantes, mistura aberta e controle cuidadoso da umidade interna. Evite recipientes grandes." }
+            { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": null, "status": "Preferência técnica provisória", "texto": "Permite fixar firmemente o rizoma e manter raízes ventiladas. Use cachepô pequeno e aberto, com espaço apenas para poucas frentes novas e substrato grosso." },
+            { "nome": "Placa / tronco", "asset": "placa-tronco", "estrelas": null, "status": "Alternativa provisória", "texto": "Boa opção quando a umidade ambiental e a frequência de regas compensam a secagem rápida. Escolha suporte durável, sem precisar remover raízes aderidas a cada estação." },
+            { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": null, "status": "Alternativa provisória", "texto": "Vaso pequeno, raso e muito perfurado, com mistura grossa e secagem perceptível entre regas. Não enterrar o rizoma." },
+            { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": null, "status": "Alternativa provisória", "texto": "Somente com perfurações abundantes, mistura aberta e controle cuidadoso da umidade interna. Evite recipientes grandes." }
         ]
     },
     "substratoVisual": {
-        "titulo": "Substrato ideal",
+        "titulo": "Substrato recomendado (provisório)",
         "contexto": "Proposta técnica para cachepô pequeno e muito ventilado",
         "resumo": "Mistura de granulometria média a grossa para sustentar a planta sem manter as raízes continuamente molhadas.",
         "justificativa": "Cattleya schilleriana se beneficia de raízes bem ventiladas e de secagem perceptível entre regas. Em cachepô pequeno e aberto, as cascas de macadâmia e pinus oferecem apoio, enquanto a perlita e o carvão mantêm a mistura drenante. Evite compactação e observe a secagem do recipiente, sobretudo durante a emissão de raízes novas.",
@@ -64,30 +64,32 @@ export const cattleyaSchilleriana = {
             { "nome": "Compactação", "valor": 1, "icone": "🧱" }
         ],
         "itens": [
-            { "asset": "macadamia", "nome": "Casca de macadâmia média", "proporcao": "35%", "nota": "estrutura durável", "finalidade": "Ajuda a manter espaços de ar e sustentação sem compactar rapidamente." },
+            { "asset": "casca-macadamia", "nome": "Casca de macadâmia média", "proporcao": "35%", "nota": "estrutura durável", "finalidade": "Ajuda a manter espaços de ar e sustentação sem compactar rapidamente." },
             { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "30%", "nota": "estrutura e reserva moderada", "finalidade": "Fornece suporte às raízes; substituir quando começar a se fragmentar." },
             { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "20%", "nota": "leveza e aeração", "finalidade": "Aumenta a porosidade da mistura, reduzindo pontos de saturação." },
             { "asset": "carvao-vegetal", "nome": "Carvão vegetal", "proporcao": "15%", "nota": "drenagem", "finalidade": "Mantém a mistura aberta; usar granulação compatível com os demais componentes." }
         ],
         "alerta": "Replantar somente quando houver início de raízes novas. Evitar vasos grandes, substrato fino, rizoma enterrado e remoção agressiva de raízes aderidas.",
-        "notaEvidencia": "Percentuais e estrelas são propostas horticulturais derivadas das recomendações textuais existentes; a ficha ainda não contém MACS 1.0 homologada."
+        "notaEvidencia": "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D). Receita 35% macadâmia + 30% pinus + 20% perlita + 15% carvão = 100%, sem ensaio comparativo dos percentuais. Quatro suportes sem estrelas quantitativas. AOS recomenda replante apenas com novas raízes; não valida experimentalmente o ranking de suportes. Sem levantamento individualizado comprovado com 25 produtores brasileiros."
     },
     "errosComuns": "Replantar fora do início do enraizamento; descolar raízes aderidas; utilizar vaso grande; deixar a planta frouxa no suporte; enterrar o rizoma; manter substrato constantemente úmido; usar mistura fina ou velha; cultivar em sombra profunda; deixar água presa nos brotos; adubar forte; dividir em poucas frentes; cortar pseudobulbos traseiros firmes; mudar a planta de lugar durante a formação dos botões; confundir pseudobulbo murcho com simples falta de rega sem verificar as raízes.",
     "dica": "A janela de replante é curta e deve ser respeitada com rigor. Espere a nova frente começar a emitir pontas radiculares verdes de poucos milímetros a cerca de 1 cm. Prepare o recipiente, o substrato e os materiais antes de retirar a planta do suporte antigo. Preserve o máximo possível das raízes aderidas e fixe o rizoma firmemente. Depois do replante, mantenha sombra levemente maior por alguns dias, ventilação constante e regas cuidadosas, sem saturar. Fora dessa fase, é melhor adiar o manejo do que perturbar uma planta estável.",
     revisaoCientificaIAR: {
-        "nome": "Cattleya schilleriana",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma pequena Cattleya com flores enormes em relação ao próprio tamanho! Nativa do leste da Bahia ao Espírito Santo, Cattleya schilleriana forma plantas compactas, geralmente com duas folhas firmes por pseudobulbo, e produz flores cerosas e perfumadas que podem chegar a cerca de 8–11 cm.",
-        "habitatAltitudeClima": "Matas e paredões úmidos · 0–800 m. | Quente a intermediário · muito ventilado.",
-        "distribuicaoGeografica": "Leste da Bahia ao Espírito Santo.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
+        "nome": "Cattleya schilleriana Rchb.f.",
+        "statusTaxonomico": "Espécie aceita pelo POWO/Kew; descrita por H.G. Reichenbach fil. em Berliner Allgemeine Gartenzeitung 25:335 (1857), conforme IPNI. Não confundir com Cattleya aclandiae, outra espécie bifoliada brasileira.",
+        "sinonimosPrincipais": "POWO registra o sinônimo homotípico Epidendrum schillerianum (Rchb.f.) Rchb.f. (1861) e os heterotípicos Cattleya regnellii Veitch ex R.Hogg, C. schilleriana var. amaliana, var. concolor e var. regnellii. Nomes históricos de variedades não representam variedades aceitas automaticamente.",
+        "morfologiaDimensoes": "Cattleya bifoliada de porte relativamente compacto, com pseudobulbos claviformes sulcados e duas folhas apicais coriáceas. As inflorescências terminais curtas geralmente produzem de uma a cinco flores cerosas e perfumadas. IOSPE registra diâmetro aproximado de 11 cm em algumas flores; há variação entre clones. Sépalas e pétalas bronzeadas a castanho-esverdeadas frequentemente apresentam manchas, enquanto o labelo purpúreo pode ter contrastes claros e amarelos. AOS documenta variações de pigmentação e maior sensibilidade à queimadura em certas formas coeruleas.",
+        "habitatAltitudeClima": "POWO registra epífita do bioma tropical sazonalmente seco, nativa do leste da Bahia ao Espírito Santo. IOSPE descreve populações sobre árvores em encostas rochosas e próximas a cursos d'água, do nível do mar a aproximadamente 800 m, com períodos sazonais de menor chuva. AOS recomenda boa luz, substrato poroso e umidade controlada, sem transformar redução sazonal de água em desidratação extrema. A espécie é sensível ao replante fora do início da emissão de raízes novas.",
+        "distribuicaoGeografica": "POWO: leste da Bahia ao Espírito Santo, Brasil. A avaliação CNCFlora de 2012 incluiu registros do Rio de Janeiro; há diferença de circunscrição entre bases, que não deve ser apagada. A distribuição principal apresentada na ficha segue POWO, sem afirmar que registros históricos adicionais foram invalidados.",
+        "cultivoPremiacao": "Artigo específico da AOS (William P. Rogerson, 1997) recomenda replante somente no começo da emissão de raízes ativas, frequentemente após a floração, e luz na faixa alta para Cattleya, com cautela em formas coeruleas. AOS registra o clone 'Tejas' HCC/AOS, sem atribuir prêmio a todos os indivíduos. Orquídeas & Cia, fornecedor brasileiro, recomenda luz indireta e temperaturas amenas a quentes, mas não apresenta comparação experimental de suportes ou substratos. CNCFlora avaliou a espécie como Em Perigo (EN) em 2012; esta é avaliação histórica, não comprovação de categoria vigente. A receita 35% macadâmia + 30% pinus + 20% perlita + 15% carvão e a hierarquia de suportes são hipóteses técnicas, não homologação quantitativa. Não foi documentada consulta individualizada a 25 produtores brasileiros.",
+        "confianca": "Taxonomia e distribuição principal: alta (POWO/IPNI). Morfologia, luz e época de replante: alta para observações da AOS e IOSPE, com variabilidade por clone e região. Conservação: avaliação CNCFlora de 2012, não status atual presumido. MACS 1.1: Classe D, sem ensaios quantitativos de substratos e suportes.",
         "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
+            "POWO/Kew, Cattleya schilleriana — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:622229-1",
+            "IPNI, publicação original de 1857 — https://www.ipni.org/n/622229-1",
+            "AOS, artigo específico Cattleya schilleriana (Rogerson, 1997) — https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-schilleriana-rchb-f",
+            "IOSPE, Cattleya schilleriana — https://iospe.ja.bz/catschilleriana.htm",
+            "CNCFlora, avaliação de 2012 — https://proflora.jbrj.gov.br/html/Cattleya%20schilleriana_2012.html",
+            "Orquídeas & Cia, fornecedor brasileiro — https://www.orquideacia.com.br/cattleya-schilleriana"
         ]
     },
     indiceDificuldadeCultivo: {
