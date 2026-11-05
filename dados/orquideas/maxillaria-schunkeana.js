@@ -32,7 +32,7 @@ export const maxillariaSchunkeana = {
         "horario": "",
         "observacoes": "É uma planta de interior de mata. Folhas verde-médio e flexíveis indicam equilíbrio. Clareamento intenso, amarelecimento ou manchas secas exigem redução imediata da exposição. Sombra absoluta, porém, também é prejudicial: a planta precisa de claridade difusa para amadurecer pseudobulbos e florescer."
     },
-    "floracao": "A floração ocorre principalmente no verão, aproximadamente de dezembro a março. Cada haste é curta, basal e geralmente porta uma única flor de cerca de 1 cm, mantida próxima à altura do pseudobulbo. Touceiras maduras podem emitir várias flores quase ao mesmo tempo.",
+    "floracao": "No Brasil, Maxillaria schunkeana tem floração documentada de setembro a fevereiro, com maior destaque para os meses quentes, embora produtores também relatem flores em outras épocas. As hastes são muito curtas e surgem na base dos pseudobulbos maduros, cada uma com uma flor pequena, de aproximadamente 1 a 2 cm. A coloração é vermelho-púrpura tão escura que parece preta, e o labelo apresenta superfície brilhante e detalhes avermelhados. O perfume merece atenção: muitos cultivadores não percebem aroma, mas uma pesquisa especializada detectou cheiro forte e desagradável, semelhante a peixe em decomposição, possivelmente relacionado à atração de moscas. Assim, a percepção do odor pode variar. Há relatos de flores durando cerca de 15 a 20 dias e um produtor indica até 30 a 40 dias; essa diferença não permite fixar uma duração única para todos os exemplares. Touceiras bem estabelecidas podem emitir várias hastes e repetir a floração.",
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade dentro de porta-adubo, na borda do vaso.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: usar poucos grânulos e somente em mistura muito drenante.\n🚿 Faça flushing mensal com água pura. Como as raízes são finas, adubação fraca e regular é mais segura que aplicações concentradas.",
     "rega": "Mantenha umidade regular durante o crescimento, deixando a camada superficial e parte do substrato arejarem entre as regas. No frio, aumente ligeiramente o intervalo conforme a evaporação, sem deixar a touceira seca por períodos longos. Pseudobulbos enrugados com substrato molhado e raízes escuras indicam perda radicular por falta de oxigênio. Regue de manhã e evite manter água acumulada na base durante a formação dos botões.",
     "suporte": "🥇 Vaso de barro pequeno e perfurado, que favorece evaporação e resfriamento.\n🥈 Microvaso plástico muito furado, apenas do tamanho da touceira.\n🥉 Placa de madeira ou cortiça com fina camada de esfagno, somente em ambiente com umidade acima de 65% e rotina de rega consistente.",
@@ -218,7 +218,7 @@ export const maxillariaSchunkeana = {
         "litoralQuente": "Mesmo sendo capixaba, em Serra/Vitória precisa do ponto mais fresco e ventilado do orquidário, com vaso pequeno e mistura mineral. Evite calor noturno abafado.",
         "montanhaFrio": "Em Santa Teresa/ES, apresenta excelente adaptação às noites frescas. Reduza levemente a rega no inverno, sem secar completamente."
     },
-    "mesesFloracao": [12, 1, 2, 3],
+    "mesesFloracao": [9, 10, 11, 12, 1, 2],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
