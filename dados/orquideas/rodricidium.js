@@ -35,7 +35,7 @@ export const rodricidium = {
         "horario": "Somente início da manhã",
         "observacoes": "Folhas verde-claro costumam indicar boa luz. Verde muito escuro sugere sombra; avermelhamento ou manchas secas indicam excesso."
     },
-    "floracao": "Mais comum da primavera ao outono, entre setembro e maio, podendo repetir após novas frentes maduras. As hastes são arqueadas e podem ramificar. Hastes verdes devem ser mantidas, pois alguns cruzamentos podem emitir ramificações secundárias.",
+    "floracao": "Rodricidium reúne diferentes híbridos entre Oncidium e Rodriguezia, por isso não possui uma única época de floração, cor, perfume ou duração floral válida para todos os cruzamentos. Em estudo brasileiro, o híbrido Oncidium flexuosum × Rodriguezia decora floresceu em outubro e novembro e novamente em junho e julho. Essas quatro datas são observações desse cruzamento específico, e não um calendário universal do nothogênero. As flores estudadas lembravam as de Oncidium flexuosum no formato, porém eram brancas, com manchas castanho-escuras possivelmente herdadas de Rodriguezia decora; outros Rodricidium podem apresentar cores, tamanhos e hastes bastante diferentes. O estudo comparou a durabilidade floral com a dos genitores e não encontrou diferença em relação a O. flexuosum, mas não estabelece uma duração única para todos os híbridos. O perfume também varia conforme a composição genética: sem identificação do grex ou clone da coleção, não é correto atribuir aroma específico. Para uma ficha com calendário e longevidade definitivos, é necessário identificar o cruzamento cultivado.",
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade na borda do vaso.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 10–15 dias durante crescimento.\n🌸 Pré-floração: pode-se alternar ocasionalmente com fórmula mais rica em fósforo/potássio, sem exageros.\n🧪 Liberação lenta: Osmocote em dose baixa.\n🚿 Lavagem: água pura periodicamente para reduzir sais.",
     "rega": "Regue quando a superfície secar e permita que a mistura perca a maior parte do excesso em 1–2 dias. No frio, aumente o intervalo conforme a evaporação, sem permitir enrugamento severo dos pseudobulbos.",
     "suporte": "🥇 Cachepô pequeno e bem vazado — máxima ventilação.\n🥈 Placa de madeira dura — excelente em ambiente úmido.\n🥉 Vaso pequeno de barro ou plástico furado — opção prática.\nUse recipiente proporcional ao sistema radicular.",
@@ -216,17 +216,7 @@ export const rodricidium = {
         "litoralQuente": "Em clima quente, adapta-se muito bem com luz filtrada alta, ventilação constante e substrato de secagem rápida.",
         "montanhaFrio": "Cultivo favorável; proteja de geadas e evite substrato frio e encharcado."
     },
-    "mesesFloracao": [
-        9,
-        10,
-        11,
-        12,
-        1,
-        2,
-        3,
-        4,
-        5
-    ],
+    "mesesFloracao": [6, 7, 10, 11],
     "selosCultivo": {
         "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "quente" }
