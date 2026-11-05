@@ -40,7 +40,7 @@ export const coelogyneAsperata = {
     "adubacao": "🌿 Orgânica: bokashi moderado em sachê durante crescimento ativo, sem contato com brotos novos.\n💧 Mineral/Foliar: NPK equilibrado em baixa dose semanal ou quinzenal enquanto houver raízes e pseudobulbos em formação.\n🌱 Crescimento contínuo: mantenha nutrição leve durante quase todo o ano em clima quente.\n🌸 Maturação: reduza apenas levemente o nitrogênio após o enchimento dos pseudobulbos.\n🧪 Liberação lenta: Osmocote em dose baixa, distribuído em vasos ou cestos amplos.\n🚿 Lavagem: faça flushing periódico para evitar sais em substrato sempre úmido.",
     "rega": "Mantenha umidade regular durante a formação dos brotos e pseudobulbos, sem permitir água estagnada. O substrato deve permanecer levemente úmido, mas com circulação de ar. Após a maturação, reduza apenas de forma moderada. No inverno quente do litoral, a planta continua consumindo água. Regue pela manhã e ajuste a frequência conforme o tamanho do recipiente, a ventilação e a evaporação.",
     "suporte": "🥇 Vaso largo e estável — suporta o peso da touceira e acompanha o avanço do rizoma.\n🥈 Cesto amplo de madeira — oferece aeração e espaço para hastes pendentes.\n🥉 Cachepô muito drenante — útil em ambientes úmidos.\nEscolha recipiente definitivo ou de longa duração, pois a espécie cresce rápido e ressente-se de divisões frequentes.",
-    "substrato": ["Casca de pinus média + perlita grossa + esfagno de fibra longa solto","Chips de coco médios preparados + casca de pinus média + carvão vegetal"],
+    "substrato": ["Casca de pinus média + perlita grossa + esfagno de fibra longa solto","Chips de coco médios lavados + casca de pinus média + carvão vegetal"],
     "formasCultivo": {
         "perfilVisual": "coelogyne",
         "destaque": "Vaso de Barro",
@@ -56,8 +56,8 @@ export const coelogyneAsperata = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para recipiente largo, estável e drenante",
         "resumo": "Mistura de umidade moderada a alta, mas aberta, para sustentar pseudobulbos volumosos sem secar completamente no crescimento.",
-        "justificativa": "Coelogyne asperata se beneficia de umidade regular durante o crescimento, sem perder a ventilação das raízes. Os chips de coco e a casca de pinus oferecem apoio e retenção moderada, a perlita mantém espaços de ar e o esfagno solto conserva uma pequena reserva de umidade. Evite compactação e observe a secagem no centro do vaso para ajustar as regas.",
-        "receitaTexto": "35% chips de coco médios + 30% casca de pinus média + 25% perlita grossa + 10% esfagno de fibra longa solto.",
+        "justificativa": "Coelogyne asperata se beneficia de umidade regular durante o crescimento, sem perder a ventilação das raízes. A receita 35/30/25/10 é proposta técnica não testada especificamente para a espécie. Os chips de coco e a casca de pinus oferecem apoio e retenção moderada, a perlita mantém espaços de ar e o esfagno solto conserva uma pequena reserva de umidade. Evite compactação e observe a secagem no centro do vaso para ajustar as regas.",
+        "receitaTexto": "Mistura técnica NÃO HOMOLOGADA: 35% chips de coco médios lavados + 30% casca de pinus média + 25% perlita grossa + 10% esfagno de fibra longa solto.",
         "perfil": ["Raízes epífitas", "Touceira grande e pesada", "Umidade contínua sem encharcamento", "Aeração alta", "Sem repouso seco rigoroso"],
         "comportamento": [
             { "nome": "Retenção", "valor": 4, "icone": "💧" },
@@ -66,7 +66,7 @@ export const coelogyneAsperata = {
             { "nome": "Compactação", "valor": 2, "icone": "🧱" }
         ],
         "itens": [
-            { "asset": "chips-coco", "nome": "Chips de coco médios", "proporcao": "35%", "nota": "reserva hídrica", "finalidade": "Conserva umidade entre regas sem eliminar os espaços de ar." },
+            { "asset": "chips-coco", "nome": "Chips de coco médios lavados", "proporcao": "35%", "nota": "reserva hídrica", "finalidade": "Conserva umidade entre regas sem eliminar os espaços de ar." },
             { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "30%", "nota": "estrutura", "finalidade": "Dá suporte às raízes e favorece drenagem." },
             { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "25%", "nota": "aeração", "finalidade": "Ajuda a manter a mistura porosa mesmo com regas frequentes." },
             { "asset": "esfagno", "nome": "Esfagno de fibra longa solto", "proporcao": "10%", "nota": "retenção complementar", "finalidade": "Reduz secagem excessiva, sem formar camada compacta no centro." }
@@ -78,9 +78,9 @@ export const coelogyneAsperata = {
     "dica": "Planeje o recipiente para a planta adulta. Use vaso largo e pesado ou cesto amplo, preserve a touceira e deixe o rizoma avançar. A combinação de espaço, calor acima de 14 °C, umidade contínua e raízes aeradas produz pseudobulbos maiores e inflorescências mais longas.",
     revisaoCientificaIAR: {
         "nome": "Coelogyne asperata",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma Coelogyne de presença imponente! Coelogyne asperata é uma espécie tropical de grande porte, com pseudobulbos robustos, folhas largas e plissadas e um rizoma vigoroso que, com o tempo, forma touceiras realmente grandes. Suas hastes arqueadas ou pendentes exibem flores creme a amarelo-pálido, geralmente perfumadas, com um labelo muito ornamentado em amarelo, castanho e alaran",
+        "statusTaxonomico": "Coelogyne asperata é nome aceito em POWO/Kew.",
+        "sinonimosPrincipais": "Pleione asperata (sinônimo homotípico).",
+        "morfologiaDimensoes": "Uma orquídea de presença imponente, Coelogyne asperata forma pseudobulbos robustos e espaçados ao longo de um rizoma rastejante, cada um com folhas grandes, alongadas e plissadas. As inflorescências surgem junto aos brotos novos e podem reunir numerosas flores cerosas, creme a amarelo-pálido, geralmente perfumadas. O labelo ornamentado com tons amarelos e castanhos dá um contraste marcante ao conjunto. Nativa das florestas úmidas do Sudeste Asiático e de ilhas do Pacífico ocidental, ocorre sobretudo como epífita, inclusive em ambientes próximos a rios. Com o tempo, suas touceiras ocupam bastante espaço e as hastes florais podem se arquear elegantemente.",
         "habitatAltitudeClima": "Florestas tropicais úmidas · epífita. | Quente e úmido · sem repouso seco.",
         "distribuicaoGeografica": "Bornéu à Nova Guiné e Ilhas Salomão.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
