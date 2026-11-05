@@ -23,14 +23,14 @@
 | Casca de pinus de granulometria compatível | 35% | `casca-pinus` |
 | Casca de macadâmia triturada | 30% | `casca-macadamia` |
 | Perlita de granulometria adequada | 25% | `perlita` |
-| Fibra de coco grossa preparada | 10% | `fibra-coco` |
+| Fibra de coco grossa lavada | 10% | `fibra-coco` |
 | **Total** | **100%** | **Hipótese horticultural, não homologada** |
 
 A receita não equivale à montagem principal nem foi derivada de ensaio quantitativo. Granulometria deve ser proporcional às raízes.
 
 ## Duas alternativas qualitativas preservadas
-1. Fibra de coco grossa preparada + chips de coco pequenos preparados + perlita de granulometria adequada + casca de pinus de granulometria compatível.
-2. Chips de coco pequenos preparados + casca de pinus de granulometria compatível + perlita de granulometria adequada + carvão vegetal miúdo.
+1. Fibra de coco grossa lavada + chips de coco pequenos lavados + perlita de granulometria adequada + casca de pinus de granulometria compatível.
+2. Chips de coco pequenos lavados + casca de pinus de granulometria compatível + perlita de granulometria adequada + carvão vegetal miúdo.
 
 Distintas entre si e da receita percentual, sem percentuais inventados.
 
@@ -45,3 +45,14 @@ Distintas entre si e da receita percentual, sem percentuais inventados.
 
 ## Parecer final
 **Revisão documental concluída.** Nome aceito e sinônimos fundamentados em Kew e revisão de 2012; descrição, distribuição, exposição e referência geográfica corrigidas. Receita alternativa soma 100% e duas misturas qualitativas distintas permanecem. **Homologação quantitativa 35/30/25/10: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-05
+**Perfil:** miniatura epífita simpodial com pseudobulbos pequenos e unifoliados, raízes capilares sensíveis à compactação, à salinidade e à alternância entre desidratação prolongada e saturação. Montagem em placa pequena permite aderência e ventilação, com filete mínimo de esfagno solto para moderar a secagem. Irrigar conforme a evaporação, frequentemente em períodos quentes e secos, evitando molhamento persistente do rizoma. Microvasos devem ter partículas proporcionais às raízes e nenhum volume sobrando.
+
+**Cultivo principal:** placa/tronco pequeno com esfagno mínimo, **sem mistura volumétrica e sem percentuais**. **Receita opcional em volume para microvaso perfurado:** 35% casca de pinus de granulometria compatível (estrutura) + 30% casca de macadâmia triturada (estrutura) + 25% perlita de granulometria adequada (aeração) + 10% fibra de coco grossa lavada (umidade discreta), total 100%. Proposta horticultural sem ensaio quantitativo específico em Maxillaria pumila. Os trabalhos de Koehler et al. (2008, 2012) são filogenéticos e taxonômicos, não validam substratos.
+
+**Duas alternativas qualitativas sem percentuais:** (1) fibra de coco grossa lavada + chips de coco pequenos lavados + perlita de granulometria adequada + casca de pinus de granulometria compatível; (2) chips de coco pequenos lavados + casca de pinus de granulometria compatível + perlita de granulometria adequada + carvão vegetal miúdo. Distintas entre si e da receita opcional; coco lavado não dispensa eventual controle de salinidade.
+
+**Conferências editoriais:** descrição com 97 palavras (faixa 90–120). Fibra de coco grossa lavada e chips de coco pequenos lavados padronizados em receita, itens visuais, justificativa e alternativas. Receita e justificativa agora explicitam ausência de homologação específica e diferenciam montagem principal de mistura opcional em microvaso. Calendário fixo [9,10,11,12,1,2] removido por falta de fenologia brasileira mensal verificada; texto de floração preserva primavera/verão no IOSPE sem atribuir meses universais. Selo de clima preserva faixa quente, mas deixa de afirmar “floraNoCalor” como exigência comprovada. Recomendação regional de umidade deixa de impor limite universal acima de 60% sem evidência específica na matriz. Receita e itens visuais somam 35+30+25+10=100%; duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 42/100 e três estrelas coerentes com IDC 3.2; IAR litoral 95/5 estrelas e montanha 63/4 estrelas preservados; estrelas dos suportes mantidas como avaliações horticulturais. Iluminação “Não permitido” coerente com sol direto vedado. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; zero receitas quantitativas brasileiras específicas verificadas, meta de 25 produtores não atingida e **homologação experimental não demonstrada**.
