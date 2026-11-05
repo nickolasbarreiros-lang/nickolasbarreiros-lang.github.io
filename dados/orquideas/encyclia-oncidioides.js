@@ -70,7 +70,7 @@ export const encycliaOncidioides = {
         "nome": "Encyclia oncidioides",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma Encyclia de presença marcante, feita para quem gosta de hastes longas e cheias de flores! Encyclia oncidioides forma pseudobulbos robustos, normalmente com duas ou três folhas firmes, e pode produzir inflorescências ramificadas próximas de 90 cm. As flores, que podem chegar a cerca de 5 cm, variam do amarelo-esverdeado ao castanho e costumam ser doces e perfumadas. Na natur",
+        "morfologiaDimensoes": "Uma Encyclia de presença marcante, feita para quem gosta de hastes longas e cheias de flores! Encyclia oncidioides forma pseudobulbos robustos, normalmente com duas ou três folhas firmes, e pode produzir inflorescências ramificadas próximas de 90 cm. As flores, que podem chegar a cerca de 5 cm, variam do amarelo-esverdeado ao castanho e costumam ser doces e perfumadas. Na natureza, ocorre também em ambientes abertos, sobre areia branca e afloramentos rochosos, onde luz e ventilação são abundantes.",
         "habitatAltitudeClima": "Areia branca e afloramentos · 0–750 m. | Quente a intermediário · sazonal.",
         "distribuicaoGeografica": "Brasil e outros pontos da América tropical.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
