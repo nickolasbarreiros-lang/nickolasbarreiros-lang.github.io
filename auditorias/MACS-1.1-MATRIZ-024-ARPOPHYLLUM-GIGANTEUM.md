@@ -7,11 +7,12 @@ Data original: 2026-11-03. Conferência de consistência com a ficha publicada: 
 2. Orquidário Mogi Mirim, produtor brasileiro específico: https://www.orquidariomogimirim.com.br/arpophyllum-giganteum — pinus médio/grosso, carvão, perlita e esfagno opcional; vaso ou montagem; sem proporções.
 3. Vico Orquídeas, comércio brasileiro específico: https://vicoonline.lojavirtualnuvem.com.br/produtos/arpophyllum-giganteum/ — pinus grosso, carvão e pedras; vaso de barro pesado ou cachepô reforçado para plantas adultas; sem percentuais. **A recomendação de recipiente pesado contrasta com preferência exclusiva por plástico, mas não prova superioridade experimental**.
 4. Orquidário Matsuoka, produtor brasileiro específico: https://orquidariomatsuoka.com.br/produto/arpophyllum-giganteum-orquidea-escova-mamadeira/ — 'substrato de orquídea' ou toco, sem ingredientes; descreve habitat como terrestre, em divergência com outras fontes de epifitismo. Não usar essa classificação isolada para converter a ficha em terrestre.
-5. Jardineiro.net, orientação específica não experimental: https://www.jardineiro.net/plantas/orquidea-escova-de-mamadeira-arpophyllum-giganteum.html — cascas de coco/pinus e carvão, mistura drenante porém úmida, 50–70% sombreamento, sem proporções.
-6. Orchid.guru, espécie: https://www.orchid.guru/content/orchids/a/arpophyllum/giganteum/ — meio grosso e drenante, placa ou árvore; secagem leve entre regas; sem receita percentual.
-7. AOS, montagem genérica: https://www.aos.org/orchid-care/orchid-care-basics/mounting — alerta que, em calor intenso, vaso pode ser preferível a montagem por risco de desidratação; não é comparação específica de Arpophyllum.
-8. Dematté & Dematté, 1996, Pesquisa Agropecuária Brasileira: https://apct.sede.embrapa.br/pab/en/article/view/4552 — experimento físico de adsorção e perda de água em materiais para orquídeas epífitas; carvão não alterou significativamente as características hídricas nos tratamentos estudados. **Evidência A apenas para materiais/condições testados, NÃO para Arpophyllum giganteum nem receita atual**.
-9. Faria et al., 2018, revisão científica: https://ojs.uel.br/revistas/uel/index.php/semagrarias/article/view/31058 — diversidade de substratos para epífitas; evidência geral C, não formulação específica.
+5. Orquidário 4 Estações, produtor/comerciante brasileiro específico: https://orquidario-4-estacoes.lojaintegrada.com.br/orquidea-arpophyllum-giganteum-nbs — substrato bem drenado sem ingredientes ou percentuais; sombreamento de 60%; observação sobre reduzir excesso de água no início da emissão de hastes. Informação qualitativa, sem comparação experimental.
+6. Jardineiro.net, orientação específica não experimental: https://www.jardineiro.net/plantas/orquidea-escova-de-mamadeira-arpophyllum-giganteum.html — cascas de coco/pinus e carvão, mistura drenante porém úmida, 50–70% sombreamento, sem proporções.
+7. Orchid.guru, espécie: https://www.orchid.guru/content/orchids/a/arpophyllum/giganteum/ — meio grosso e drenante, placa ou árvore; secagem leve entre regas; sem receita percentual.
+8. AOS, montagem genérica: https://www.aos.org/orchid-care/orchid-care-basics/mounting — alerta que, em calor intenso, vaso pode ser preferível a montagem por risco de desidratação; não é comparação específica de Arpophyllum.
+9. Dematté & Dematté, 1996, Pesquisa Agropecuária Brasileira: https://apct.sede.embrapa.br/pab/en/article/view/4552 — experimento físico de adsorção e perda de água em materiais para orquídeas epífitas; carvão não alterou significativamente as características hídricas nos tratamentos estudados. **Evidência A apenas para materiais/condições testados, NÃO para Arpophyllum giganteum nem receita atual**.
+10. Faria et al., 2018, revisão científica: https://ojs.uel.br/revistas/uel/index.php/semagrarias/article/view/31058 — diversidade de substratos para epífitas; evidência geral C, não formulação específica.
 
 ## Cultivo e hierarquia
 - Ficha atual (conferida em 2026-11-04): vaso plástico, cachepô de madeira, vaso de barro e vaso plástico vasado constam com `estrelas: null` e status provisório. A hierarquia editorial mantém vaso plástico como destaque, **sem pontuação quantitativa validada**.
@@ -41,7 +42,7 @@ Não calcular nota sem medições comparáveis.
 - Ingredientes pinus/carvão/esfagno/perlita: **B qualitativo específico**, sem proporções.
 - Macadâmia 35% e arroz carbonizado 10%: **D específicos** nesta pesquisa.
 - Composição integral R0: **D**; percentuais: **D**; estrelas: **D**.
-- **4 produtores/comerciantes brasileiros específicos identificados**, **3 com ingredientes ou materiais identificáveis** (Maripá, Mogi Mirim, Vico), **0 com receita percentual**. Levantamento não exaustivo.
+- **5 produtores/comerciantes brasileiros específicos identificados**, **3 com ingredientes ou materiais identificáveis** (Maripá, Mogi Mirim, Vico), **0 com receita percentual**. Levantamento não exaustivo.
 - **Status:** PROVISÓRIA, 0 homologações quantitativas de desempenho adulto. Preservar JS, substrato visual, fotos, assets, IDC/IAR e V4.9.
 
 ## Conferência adicional — 2026-11-04
@@ -57,3 +58,9 @@ Não calcular nota sem medições comparáveis.
 - **Maripá (produtor brasileiro):** mistura de cascas, carvão, madeira e esfagno; plástico, barro e caixeta, ou árvore com regas adicionais durante enraizamento. Sem proporções ou preferência experimental. Fonte: https://www.orquidariomaripa.com.br/produtos/orquidea-arpophyllum-giganteum-especie-para-colecionar-pre-adulta/
 - **Mogi Mirim (produtor brasileiro):** regas regulares no crescimento com ligeira secagem, redução no repouso sem desidratação prolongada. Fonte: https://www.orquidariomogimirim.com.br/arpophyllum-giganteum
 - **Síntese:** orientar redução sazonal condicionada à temperatura e secagem observada; não confundir repouso mais seco com seca severa. Não modificar porcentagens nem atribuir estrelas sem medições. **Classe D mantida.**
+
+## Ampliação do confronto brasileiro — 2026-11-04
+- Adicionado **Orquidário 4 Estações** como quinto estabelecimento brasileiro com orientação específica sobre a espécie. A indicação de substrato drenante e sombreamento de 60% é qualitativa, sem composição percentual. Fonte: https://orquidario-4-estacoes.lojaintegrada.com.br/orquidea-arpophyllum-giganteum-nbs
+- **Cobertura identificada: 5/25 estabelecimentos-alvo; 3/5 descrevem materiais identificáveis; 0/5 publicam a receita percentual R0.** A meta de 25 não equivale a 25 fontes necessariamente existentes ou independentes; novas fontes exigem verificação individual e registro de evidência específica.
+- AOS e RHS confirmam necessidade de mistura aberta e redução sazonal de rega, mas não demonstram vantagem dos percentuais R0. <https://www.aos.org/explore/arpophyllum> e <https://www.rhs.org.uk/plants/1612/arpophyllum-giganteum/details>.
+- **Decisão permanece Classe D**, sem alterar os percentuais nem atribuir estrelas.
