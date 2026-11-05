@@ -21,7 +21,7 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
         "imagens/cattleya-violacea-suavissima-self/cattleya-violacea-suavissima-self-3.jpg",
         "imagens/cattleya-violacea-suavissima-self/cattleya-violacea-suavissima-self-4.jpg"
     ],
-    "descricao": "Uma versão delicada de uma das mais belas Cattleyas amazônicas! Esta progênie vem da autofecundação de uma Cattleya violacea selecionada pela coloração muito suave, buscando descendentes em tons claros de rosa, lilás ou quase branco, geralmente com o labelo mais destacado. Como toda reprodução por sementes, cada planta pode apresentar diferenças de cor, forma, perfume e vigor. A espécie produz flores grandes, cerosas e perfumadas e vem de florestas tropicais quentes e úmidas, frequentemente próximas a cursos d’água. Gosta de calor constante, boa umidade e raízes bem ventiladas; no litoral quente, o principal cuidado é equilibrar regas frequentes com secagem rápida do suporte e evitar excesso de sais na água e nos adubos.",
+    "descricao": "Cattleya violacea f. suavissima × self identifica uma progênie obtida pela autofecundação de uma planta selecionada de Cattleya violacea, e não um cruzamento entre espécies diferentes. A espécie é uma Cattleya bifoliada de florestas tropicais úmidas da América do Sul, com pseudobulbos eretos e flores grandes, cerosas e frequentemente perfumadas. Nesta descendência, podem surgir tonalidades claras de rosa, lilás ou quase branco, com diferenças individuais na intensidade da cor e no desenho do labelo. Como as mudas se originam de sementes, também podem variar em porte, vigor e época de floração, mesmo compartilhando a mesma planta-mãe.",
     "origem": "Seleção horticultural",
     "regiao": "Espécie-base nativa da América do Sul tropical",
     "habitat": "Referência: florestas tropicais úmidas · baixa altitude.",
@@ -37,7 +37,7 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     "adubacao": "🌿 Orgânica: bokashi em quantidade mínima durante crescimento ativo, sempre afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose, semanalmente ou a cada 15 dias.\n💦 Água: prefira água de chuva, filtrada ou de baixa salinidade.\n🧪 Liberação lenta: Osmocote somente em dose baixa e em recipiente muito drenante.\n🚿 Flushing: lave o vaso mensalmente com água pura.\nNunca aplique fertilizante concentrado sobre raízes secas ou durante calor extremo.",
     "rega": "Regue com água de boa qualidade sempre que o substrato estiver próximo da secagem superficial. No verão, a frequência pode ser alta; no inverno, reduza apenas de acordo com a evaporação, sem impor repouso seco. Evite água acumulada no rizoma e nas bainhas. Pontas de raízes queimadas, depósitos esbranquiçados e folhas com margens secas podem indicar excesso de sais.",
     "suporte": "🥇 Cestinho aberto de madeira: facilita lavagem, ventilação e crescimento das raízes.\n🥈 Vaso de barro furado: boa estabilidade e secagem equilibrada.\n🥉 Placa de madeira em orquidário de umidade alta.\nO suporte deve permitir passagem abundante de água durante o flushing e não concentrar sais.",
-    "substrato": ["40% casca de pinus média + 30% fibra de coco preparada + 20% carvão vegetal médio + 10% casca de arroz carbonizada","40% casca de macadâmia média + 30% casca de pinus média + 20% fibra de coco preparada + 10% carvão vegetal médio"],
+    "substrato": ["Casca de pinus média + Fibra de coco lavada + Carvão vegetal médio + Casca de arroz carbonizada","Casca de macadâmia média + Casca de pinus média + Fibra de coco lavada + Carvão vegetal médio"],
 
     "errosComuns": "Temperaturas prolongadas abaixo de 15 °C; seca severa; água salina; fertilizante concentrado; excesso de Osmocote; falta de flushing; raízes abafadas; pouca luz; substrato degradado; água no rizoma; replantar fora do novo enraizamento; assumir que todas as mudas self serão idênticas à planta-mãe.",
     "dica": "A prioridade é preservar pontas radiculares ativas durante todo o ano. Use água de baixa salinidade, adubação fraca e lavagem periódica. Mantenha temperatura noturna preferencialmente acima de 15 °C e não aplique repouso seco. Por ser uma progênie self, avalie cada planta pelo desempenho próprio: diferenças de cor e vigor entre irmãos são naturais.",
@@ -80,8 +80,8 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
         "titulo": "Substrato ideal",
         "contexto": "Cachepô de madeira aberto",
         "resumo": "Mistura média e grossa, com boa aeração e retenção moderada.",
-        "justificativa": "Cattleya violacea f. suavissima × self pode apresentar diferenças de vigor entre plantas da mesma progênie. Em cachepô de madeira aberto, as cascas de pinus e macadâmia oferecem sustentação, o carvão mantém a mistura arejada e a fibra de coco preparada ajuda a conservar umidade. Mantenha regas regulares conforme a secagem observada e prefira água de baixa salinidade, evitando acúmulo de sais.",
-        "receitaTexto": "35% casca de pinus média + 25% casca de macadâmia média + 20% carvão vegetal médio + 20% fibra de coco preparada.",
+        "justificativa": "A receita 35/25/20/20 é proposta horticultural para cachepô de madeira, sem homologação quantitativa específica desta progênie; o cultivo da espécie-base não comprova os percentuais. Cattleya violacea f. suavissima × self pode apresentar diferenças de vigor entre plantas da mesma progênie. Em cachepô de madeira aberto, as cascas de pinus e macadâmia oferecem sustentação, o carvão mantém a mistura arejada e a fibra de coco lavada ajuda a conservar umidade. Mantenha regas regulares conforme a secagem observada e prefira água de baixa salinidade, evitando acúmulo de sais.",
+        "receitaTexto": "Proposta horticultural NÃO HOMOLOGADA para cachepô de madeira aberto: 35% casca de pinus média + 25% casca de macadâmia média + 20% carvão vegetal médio + 20% fibra de coco lavada.",
         "perfil": [
             "Umidade regular",
             "Aeração elevada",
@@ -111,13 +111,13 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
             },
             {
                 "asset": "fibra-coco",
-                "nome": "Fibra de coco preparada",
+                "nome": "Fibra de coco lavada",
                 "proporcao": "20%",
                 "nota": "umidade",
                 "finalidade": "Retém umidade sem eliminar ventilação."
             }
         ],
         "alerta": "Lave periodicamente para reduzir sais; evite encharcar e não enterre o rizoma.",
-        "notaEvidencia": "MACS 1.1 — revisão documental: Cattleya violacea f. suavissima × self é progênie por autofecundação de seleção de cor, não híbrido interespecífico; cultivo quente e úmido, raízes epífitas sensíveis a sais e seca prolongada. Cachepô de Madeira como suporte principal proposto; estrelas são heurísticas, não ensaios comparativos. Receita visual e textual coincidem: 35% pinus médio + 25% macadâmia média + 20% carvão vegetal médio + 20% fibra de coco preparada = 100%. Duas outras misturas editoriais distintas: pinus/fibra de coco/carvão/casca de arroz carbonizada (40/30/20/10) e macadâmia/pinus/fibra de coco/carvão (40/30/20/10). A referência anterior a cultivo em cestos/placas não valida proporções para esta progênie. Monitorar retenção, secagem, salinidade e diferenças entre seedlings. Não há homologação quantitativa específica nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
+        "notaEvidencia": "MACS 1.1 — revisão documental: Cattleya violacea f. suavissima × self é progênie por autofecundação de seleção de cor, não híbrido interespecífico; cultivo quente e úmido, raízes epífitas sensíveis a sais e seca prolongada. Cachepô de Madeira como suporte principal proposto; estrelas são heurísticas, não ensaios comparativos. Receita visual e textual coincidem: 35% pinus médio + 25% macadâmia média + 20% carvão vegetal médio + 20% fibra de coco lavada = 100%. Duas outras misturas editoriais qualitativas distintas, sem percentuais: pinus/fibra de coco lavada/carvão/casca de arroz carbonizada e macadâmia/pinus/fibra de coco lavada/carvão. Proporções históricas 40/30/20/10 não integram as alternativas publicadas nem foram homologadas. A referência anterior a cultivo em cestos/placas não valida proporções para esta progênie. Monitorar retenção, secagem, salinidade e diferenças entre seedlings. Não há homologação quantitativa específica nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
     }
 };
