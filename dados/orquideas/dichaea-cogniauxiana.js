@@ -24,16 +24,16 @@ export const dichaeaCogniauxiana = {
     descricao: "Dichaea cogniauxiana é uma pequena orquídea brasileira de caules finos e pendentes, revestidos por numerosas folhas estreitas dispostas em duas fileiras. As flores surgem isoladamente nas axilas das folhas e medem cerca de sete milímetros, com fundo claro e manchas avermelhadas ou arroxeadas. O labelo tem uma base alongada, característica útil para distinguir a espécie. Encontrada sobre troncos em florestas úmidas, ocorre em diferentes regiões do Brasil, tanto em áreas de menor altitude quanto em ambientes montanos. Sua biologia floral é especialmente curiosa: estudos documentaram a participação de pequenos gorgulhos do gênero Montella na polinização.",
     origem: "Brasil",
     regiao: "Nordeste, Centro-Oeste, Sudeste e Sul",
-    habitat: "Florestas úmidas e sombreadas · epífita.",
+    habitat: "Florestas úmidas e sombreadas · epífita ou rupícola.",
     clima: "Úmido · sombreado · intermediário a fresco.",
-    climaFloracao: "Intermediário a fresco, com elevada umidade atmosférica e boa circulação de ar. No litoral quente, proteja principalmente do superaquecimento noturno e do ar parado. Noites mais amenas associadas à manutenção da umidade favorecem vigor e floração.",
+    climaFloracao: "Intermediário a fresco, com elevada umidade atmosférica e boa circulação de ar. No litoral quente, proteja principalmente do superaquecimento noturno e do ar parado. Noites mais amenas podem favorecer o vigor, mas não há ensaio específico que demonstre exigência de queda térmica para induzir a floração.",
     iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não permitido",
         horario: "Não permitido",
         observacoes: "É adaptada a ambientes de baixa intensidade luminosa. Cerca de 70% de sombreamento funciona como bom ponto inicial no litoral quente. Evite incidência direta de sol forte sobre a folhagem delicada; sombra excessivamente escura, porém, pode reduzir vigor e floração."
     },
-    floracao: "Predominantemente no verão, podendo avançar para o início do outono conforme procedência, temperatura e condições de cultivo. Para o calendário do site, dezembro a março funciona como janela prática de referência.",
+    floracao: "IOSPE registra floração no verão para populações observadas, mas a matriz não documenta levantamento fenológico brasileiro que permita fixar meses universais. As flores pequenas e maculadas surgem isoladamente nas axilas das folhas, e o período pode variar com procedência e condições de cultivo.",
     adubacao: "🌿 Orgânica: bokashi somente em pequena quantidade e preferencialmente isolado em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional e em quantidade mínima, principalmente quando cultivada em vaso.\n🚿 Lavagem: faça regas periódicas apenas com água pura para reduzir o acúmulo de sais nas raízes delicadas.",
     rega: "Mantenha raízes e suporte regularmente úmidos, evitando secagem prolongada. Regue abundantemente e permita drenagem imediata. Em montagem, a frequência pode aumentar bastante nos períodos quentes e secos. A espécie aprecia umidade superior à média, mas necessita simultaneamente de elevada oxigenação radicular e não tolera água estagnada.",
     suporte: [
@@ -41,7 +41,7 @@ export const dichaeaCogniauxiana = {
         "🥈 Cachepô ou cesto pequeno e muito aerado, com substrato leve.",
         "🥉 Vaso pequeno e muito perfurado, evitando compactação e retenção excessiva de água."
     ],
-    substrato: ["Casca de pinus fina/média + chips de coco pequenos preparados + perlita grossa","Casca de pinus média + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno de fibra longa solto"],
+    substrato: ["Casca de pinus fina/média + chips de coco pequenos lavados + perlita grossa","Casca de pinus média + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno de fibra longa solto"],
     formasCultivo: {
         perfilVisual: "dichaea-epifita-umida",
         destaque: "Placa / tronco",
@@ -57,8 +57,8 @@ export const dichaeaCogniauxiana = {
         titulo: "Substrato ideal",
         contexto: "Proposta para cachepô ou vaso pequeno; placa com esfagno leve junto às raízes",
         resumo: "Mistura leve de umidade relativamente constante, com partículas abertas e boa circulação de ar.",
-        justificativa: "Dichaea cogniauxiana possui raízes delicadas e se beneficia de umidade relativamente constante com boa circulação de ar. Na montagem principal em placa ou tronco, uma camada fina de esfagno solto junto às raízes ajuda a reduzir a secagem excessiva. Em cachepô ou vaso pequeno, a casca de macadâmia e a fibra de coco preparada sustentam uma mistura aberta; a perlita favorece a aeração e o esfagno conserva parte da umidade. Ajuste a granulometria ao tamanho das raízes e mantenha a ventilação constante, evitando compactação e encharcamento.",
-        receitaTexto: "35% casca de macadâmia média + 30% fibra de coco grossa preparada + 25% perlita grossa + 10% esfagno de fibra longa solto.",
+        justificativa: "A receita 35/30/25/10 para recipiente é proposta horticultural sem ensaio específico da espécie; a montagem principal em placa/tronco não utiliza percentuais volumétricos. Dichaea cogniauxiana possui raízes delicadas e se beneficia de umidade relativamente constante com boa circulação de ar. Na montagem principal em placa ou tronco, uma camada fina de esfagno solto junto às raízes ajuda a reduzir a secagem excessiva. Em cachepô ou vaso pequeno, a casca de macadâmia e a fibra de coco preparada sustentam uma mistura aberta; a perlita favorece a aeração e o esfagno conserva parte da umidade. Ajuste a granulometria ao tamanho das raízes e mantenha a ventilação constante, evitando compactação e encharcamento.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para cachepô/vaso: 35% casca de macadâmia média + 30% fibra de coco grossa lavada + 25% perlita grossa + 10% esfagno de fibra longa solto. Para placa/tronco, não se aplicam percentuais volumétricos.",
         perfil: ["Epífita delicada", "Raízes sensíveis à seca", "Umidade elevada", "Sombra luminosa", "Ventilação constante"],
         comportamento: [
             { nome: "Retenção", valor: 4, icone: "💧" },
@@ -68,7 +68,7 @@ export const dichaeaCogniauxiana = {
         ],
         itens: [
             { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Cria suporte e espaços de ar para raízes delicadas." },
-            { asset: "fibra-coco", nome: "Fibra de coco grossa preparada", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a conservar umidade sem formar massa compacta." },
+            { asset: "fibra-coco", nome: "Fibra de coco grossa lavada", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a conservar umidade sem formar massa compacta." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Mantém a mistura porosa e evita saturação contínua." },
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "10%", nota: "retenção complementar", finalidade: "Protege contra secagem excessiva quando aplicado sem compactação." }
         ],
@@ -226,7 +226,7 @@ export const dichaeaCogniauxiana = {
         litoralQuente: { texto: "É possível cultivá-la com 70% a 80% de sombreamento, alta umidade atmosférica e ventilação contínua. No verão, evite sobretudo a combinação de calor noturno, raízes saturadas e ar parado." },
         montanhaFrio: { texto: "Noites frescas, alta umidade e boa ventilação se aproximam melhor das condições montanas documentadas para a espécie. Proteja apenas de frio intenso e vento excessivamente seco." }
     },
-    mesesFloracao: [12, 1, 2, 3],
+    mesesFloracao: [],
     "selosCultivo": {
         "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
