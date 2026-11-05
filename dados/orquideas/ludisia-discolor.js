@@ -31,7 +31,7 @@ export const ludisiaDiscolor = {
         horario: "Não permitido",
         observacoes: "Prefere luz baixa a moderada, porém não escuridão. Em interiores, mantenha próxima de janela clara sem sol direto. Folhas compactas, firmes e intensamente coloridas indicam bom equilíbrio; caules longos e espaçados sugerem pouca luz, enquanto desbotamento, manchas claras e bordas queimadas indicam excesso de exposição ou calor."
     },
-    floracao: "Em cultivo, costuma florescer no inverno ou em outras épocas conforme clima e manejo. As hastes eretas carregam muitas flores brancas pequenas, abrindo progressivamente e permanecendo decorativas por várias semanas. A folhagem, entretanto, continua sendo seu principal atrativo durante todo o ano.",
+    floracao: "No Brasil, Ludisia discolor, conhecida como orquídea-joia ou orquídea-pipoca, costuma florescer entre o inverno e a primavera. Há referência de cultivo que situa a floração de junho a setembro, mas a época pode variar com o clima e as condições de cultivo. Na Ásia, região de origem da espécie, há registros de outros meses, especialmente de novembro a março, mostrando que o calendário não é universal. As hastes eretas, frequentemente com 10 a 30 cm, exibem numerosas flores pequenas, geralmente brancas com centro amarelo, que se abrem gradualmente e contrastam com a folhagem escura. Orquidários brasileiros relatam flores ou florações com duração aproximada de 15 a 20 dias; em algumas plantas, a abertura sucessiva prolonga o conjunto por mais tempo. Sobre o perfume, as referências divergem: algumas descrevem fragrância, enquanto outras não percebem aroma. Não há nota aromática específica confirmada para a espécie.",
     adubacao: "🌿 Orgânica: húmus bem curtido ou bokashi em quantidade mínima, aplicados na borda e afastados dos caules.\n💧 Foliar ou radicular: NPK equilibrado em cerca de 1/4 da dose a cada 15 dias durante crescimento ativo.\n🧪 Liberação lenta: poucos grânulos apenas em vasos bem drenados. Uma vez por mês, faça uma rega abundante somente com água limpa para reduzir sais, especialmente em vasos plásticos e ambientes internos.",
     rega: "Mantenha umidade regular e uniforme, regando quando a superfície começar a perder umidade. O substrato não deve secar totalmente por longos períodos nem permanecer encharcado. Como os caules caminham sobre a superfície, água parada junto aos nós favorece podridões. No inverno, apenas ajuste a frequência à menor evaporação, sem impor repouso seco.",
     suporte: "🥇 Vaso plástico largo e raso, permitindo expansão horizontal dos caules.\n🥈 Bacia ou jardineira baixa com boa drenagem.\n🥉 Terrário ventilado ou parcialmente aberto; recipientes herméticos e constantemente condensados aumentam o risco de fungos e podridões.",
@@ -211,7 +211,7 @@ export const ludisiaDiscolor = {
         litoralQuente: { texto: "Em clima quente, mantenha a planta em local sombreado, claro e ventilado. Use vaso largo, substrato humícola porém arejado e evite ambientes abafados e saturados durante noites quentes." },
         montanhaFrio: { texto: "Em clima mais frio, proteja de temperaturas excessivamente baixas e reduza a rega apenas quando a evaporação cair, sem deixar o substrato secar completamente." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [6, 7, 8, 9],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "uniforme" },
         "climaFloracao": { "faixa": "intermediario" }
