@@ -60,7 +60,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
             "texto": "As aberturas laterais mantêm as raízes ventiladas e favorecem a drenagem, mas a mistura seca mais depressa."
         },
         {
-            "nome": "Vaso plástico",
+            "nome": "Vaso plástico vasado",
             "asset": "vaso-plastico-vasado",
             "estrelas": null,
             "status": "Alternativa",
