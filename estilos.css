@@ -8825,9 +8825,10 @@ main.container{
 }
 .formas-cultivo-foco-v41 .forma-principal-v4::after{
     content:"RECOMENDAÇÃO PRINCIPAL";
-    position:absolute;right:-35px;top:24px;z-index:2;
-    transform:rotate(35deg);
-    width:180px;padding:5px 0;text-align:center;
+    position:absolute;right:12px;top:12px;z-index:2;
+    transform:none;
+    width:auto;max-width:calc(100% - 24px);padding:6px 10px;text-align:center;
+    border-radius:999px;white-space:normal;
     background:#5f9854;color:#fff;font-size:.57rem;font-weight:800;letter-spacing:.06em;
     box-shadow:0 2px 6px rgba(38,76,42,.18);
 }
