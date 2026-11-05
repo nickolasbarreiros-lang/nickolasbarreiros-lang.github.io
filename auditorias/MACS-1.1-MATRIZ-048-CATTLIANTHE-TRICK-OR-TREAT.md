@@ -53,3 +53,16 @@ Ambas têm quatro ingredientes e não reproduzem a mistura principal. Não há p
 5. **Fontes brasileiras específicas quantitativas:** **0** nesta busca; **não** alegar 25 fontes consultadas.
 6. **Homologação experimental específica:** **NÃO DEMONSTRADA**. Não afirmar receita ótima, comparações experimentais ou resultados de produtores inexistentes.
 7. **Encerramento:** **REVISÃO DOCUMENTAL CONCLUÍDA**. Sem pendências editoriais conhecidas desta matriz; estudos experimentais futuros constituiriam pesquisa nova, não vistoria editorial adiada. Manter índices, estrelas e método sem mudanças não fundamentadas.
+
+## Revisão pelo perfil radicular e hídrico — 2026-11-04
+**Perfil de referência:** híbrido simpodial da aliança Cattleya, vigoroso e de touceira expansiva, com raízes epífitas que precisam de alta aeração e ciclos de hidratação abundante seguidos de secagem perceptível. A espessura real das raízes e o intervalo de secagem do exemplar não foram medidos; a caracterização é inferência horticultural do grupo, não ensaio específico.
+
+**Cultivo principal:** vaso de barro proporcional, com drenagem livre, rizoma acima da mistura e espaço para novas frentes. Vaso plástico vasado também recebe cinco estrelas na ficha, mas sua retenção e secagem diferem do barro; estrelas editoriais não representam comparação experimental.
+
+**Mistura principal para recipiente (100% por volume):** 83,3% casca de pinus média para estrutura porosa e apoio; 16,7% carvão vegetal horticultural para manter espaços de ar. É adaptação de orientação do Missouri Botanical Garden de cinco partes de **casca de abeto** para uma de carvão, para Cattleyas em geral. A substituição por pinus e o emprego neste grex não foram validados experimentalmente.
+
+**Duas alternativas qualitativas, sem percentuais:** (1) casca de pinus média + perlita grossa + carvão vegetal + chips de coco lavados; (2) casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa. São distintas entre si e da principal. Padronizado na ficha o preparo nominal dos chips; não se atribuem propriedades sem observação do lote.
+
+**Conferência editorial e matemática:** 83,3+16,7=100,0%; receita e itens coincidem; descrição expandida de 74 para 101 palavras (faixa editorial 90–120); quatro caminhos de fotos registrados; IDC 20/100 e cinco estrelas, compatível com IDC 3.2; métodos e demais índices preservados. Os testes visuais de carregamento e renderização foram reservados para o ZIP final por decisão do responsável.
+
+**Conclusão documental:** recomendação horticultural tecnicamente fundamentada, com fonte institucional genérica e adaptação declarada; **sem homologação experimental quantitativa específica**. Não extrapolar ancestralidade genética para percentuais de substrato.
