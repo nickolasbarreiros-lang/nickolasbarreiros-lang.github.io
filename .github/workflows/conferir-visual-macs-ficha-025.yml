@@ -4,6 +4,9 @@ on:
     paths:
       - '.github/workflows/conferir-visual-macs-ficha-025.yml'
       - 'dados/orquideas/oncidium-twinkle.js'
+      - 'imagens/Oncidium Twinkle/**'
+      - 'imagens/cultivo-v4/**'
+      - 'auditorias/MACS-1.1-MATRIZ-025-ONCIDIUM-TWINKLE.md'
       - 'orquidea.html'
       - 'ficha.js'
       - 'estilos.css'
