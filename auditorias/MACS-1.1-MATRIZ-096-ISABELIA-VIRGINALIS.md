@@ -21,7 +21,7 @@
 ## Receita principal R0 — apenas para cachepô muito raso
 | Material | Percentual | Asset |
 |---|---:|---|
-| Chips de coco muito grossos preparados | 45% | `chips-coco` |
+| Chips de coco muito grossos lavados | 45% | `chips-coco` |
 | Argila expandida | 35% | `argila-expandida` |
 | Carvão vegetal | 20% | `carvao-vegetal` |
 | **Total** | **100%** | **Hipótese horticultural** |
@@ -45,3 +45,14 @@ Distintas entre si e da receita visual, sem percentuais inventados.
 
 ## Parecer final
 **Revisão documental concluída.** Taxonomia, morfologia, exposição solar, texto editorial e asset corrigidos; receita soma 100%, duas alternativas distintas e montagem principal preservada. **Homologação quantitativa de 45/35/20: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-05
+**Perfil:** miniatura epífita ou rupícola de crescimento rastejante, pseudobulbos minúsculos cobertos por bainhas fibrosas reticuladas, folhas aciculares e raízes superficiais. A trama fibrosa e a ocupação do suporte exigem que o rizoma permaneça exposto. Preferir ciclos de molhamento e secagem rápida, com boa circulação de ar; em dias quentes ou secos a montagem pode exigir regas frequentes, enquanto no frio os intervalos podem ser ampliados conforme a evaporação. Evitar tanto água retida continuamente quanto desidratação prolongada; não remover bainhas.
+
+**Cultivo principal:** placa/tronco de cortiça ou madeira durável, horizontal ou levemente inclinado, **sem mistura volumétrica e sem percentuais**. **Receita opcional em volume para cachepô muito raso:** 45% chips de coco muito grossos lavados (apoio e retenção moderada) + 35% argila expandida (espaçamento e drenagem) + 20% carvão vegetal (estrutura aberta), total 100%. Hipótese horticultural sem ensaio quantitativo específico de I. virginalis; granulometria muito grossa deve ser avaliada quanto à estabilidade e à secagem de raízes diminutas. AOS apresenta orientação genérica de cultivo montado; Matsuoka, Hang e Aniela oferecem recomendações qualitativas específicas sem validar proporções.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de macadâmia grossa + perlita grossa + carvão vegetal; (2) casca de pinus grossa + brita fina + carvão vegetal. Distintas entre si e da receita opcional; coco lavado não dispensa eventual controle de salinidade.
+
+**Conferências editoriais:** descrição com 90 palavras (faixa 90–120). Chips de coco muito grossos lavados padronizados em receita, item visual e justificativa. Receita e justificativa agora explicitam falta de homologação específica e diferenciam montagem principal de mistura opcional em recipiente. Calendário fixo [5,6,7,8] removido por ausência de documentação fenológica brasileira suficiente; texto de floração deixa de atribuir época universal. Distribuição geográfica técnica complementada com Paraguai e nordeste argentino conforme POWO. Receita e itens visuais somam 45+35+20=100%; duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 32/100 e quatro estrelas coerentes com IDC 3.2; IAR litoral 81/5 estrelas e montanha 96/5 estrelas preservados; estrelas dos suportes mantidas como avaliações horticulturais. Iluminação “Não permitido” para sol direto permanece coerente com horário. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; três produtores brasileiros com orientações qualitativas específicas, zero receitas quantitativas específicas verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
