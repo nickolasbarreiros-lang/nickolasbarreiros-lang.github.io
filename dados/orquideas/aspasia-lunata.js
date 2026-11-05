@@ -31,7 +31,7 @@ export const aspasiaLunata = {
         horario: "Somente início da manhã",
         observacoes: "Prefere luz filtrada de média intensidade. Folhas muito verde-escuras acompanhadas de baixa floração indicam sombra excessiva; amarelamento ou manchas secas sinalizam radiação forte demais. Em clima litorâneo quente, 60% a 70% de sombreamento costuma oferecer bom equilíbrio."
     },
-    floracao: "A floração é registrada principalmente na primavera, podendo avançar para o início do verão conforme procedência e condições de cultivo. As inflorescências basais são curtas, eretas e normalmente carregam 1 a 3 flores relativamente grandes para o porte da planta. Após a maturação dos pseudobulbos e a floração, pode ocorrer desaceleração vegetativa; no cultivo isso deve significar apenas regas um pouco mais espaçadas, nunca repouso seco absoluto.",
+    floracao: "A primavera é sua época de floração mais característica, especialmente de setembro a novembro, mas há registros brasileiros de flores também em janeiro e março. As hastes curtas surgem na base dos pseudobulbos e normalmente apresentam de uma a três flores vistosas, com cerca de 6 a 7 cm. Sépalas e pétalas esverdeadas, marcadas de castanho ou vinho, contrastam com o labelo claro e suas manchas violáceas em forma de meia-lua. Em cultivo, a apresentação floral costuma durar aproximadamente 15 a 20 dias. O perfume não é uma característica consistente nos relatos da espécie, e muitos exemplares são descritos como sem aroma perceptível.",
     adubacao: "🌿 Orgânica: bokashi em pequena dose, protegido em saquinho e usado durante o crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotação e raízes ativas.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose moderada e sempre afastado de raízes novas. Após a maturação dos pseudobulbos, reduza a frequência da adubação conforme o crescimento desacelerar.",
     rega: "Durante a formação de novos brotos e raízes, regue regularmente e permita secagem parcial do substrato entre as irrigações. Após a maturação dos pseudobulbos, aumente ligeiramente o intervalo entre regas, sobretudo em períodos mais frios, sem permitir enrugamento severo.",
     suporte: "🥇 Vaso de barro ou plástico proporcional à touceira, com excelente drenagem.\n🥈 Cachepô de madeira bem ventilado.\n🥉 Cesto plástico raso e perfurado.",
@@ -213,7 +213,7 @@ export const aspasiaLunata = {
         litoralQuente: { texto: "Adapta-se bem quando recebe ventilação forte, luz filtrada e substrato de secagem rápida. No litoral quente, evite calor abafado, sol forte da tarde e excesso de água durante períodos nublados." },
         montanhaFrio: { texto: "Tolera noites frescas e pode florescer muito bem. Reduza a frequência das regas nos períodos frios, mas proteja de geadas e de substrato saturado por muitos dias." }
     },
-    mesesFloracao: [9, 10, 11],
+    mesesFloracao: [9, 10, 11, 1, 3],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
