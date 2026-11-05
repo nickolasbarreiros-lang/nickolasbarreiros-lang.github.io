@@ -33,7 +33,7 @@ export const cattleyaGuttataVarCoerulea = {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
-        observacoes: "É uma bifoliada de luminosidade muito alta. Em Litoral de clima quente, ofereça 40% a 50% de sombreamento e bastante circulação de ar. Folhas firmes, pseudobulbos grossos e eretos e crescimento compacto são indicadores melhores que perseguir uma cor verde-alface específica."
+        observacoes: "É uma bifoliada de luminosidade muito alta. Em clima quente, ofereça 40% a 50% de sombreamento e bastante circulação de ar. Folhas firmes, pseudobulbos grossos e eretos e crescimento compacto são indicadores melhores que perseguir uma cor verde-alface específica."
     },
     floracao: "A floração acompanha a maturação dos pseudobulbos e pode variar entre clones e ambientes; a matriz não demonstra meses brasileiros universais para a seleção coerulea.",
     adubacao: "🌿 Orgânica: Bokashi em pequena quantidade a cada 60 a 90 dias durante crescimento ativo, sem contato direto com raízes novas.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose semanal ou quinzenalmente enquanto brotos e raízes estiverem ativos.\n🧪 Liberação lenta: Osmocote 14-14-14 ou equivalente pode ser usado em dose moderada em vasos grandes. Reduza a adubação líquida se usar liberação lenta. Não há necessidade de formulações extremamente fosfatadas, como 9-45-15, para induzir floração.",
