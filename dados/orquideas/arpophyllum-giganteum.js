@@ -1,4 +1,4 @@
-// Revisão final — conteúdo preservado, confrontado e consolidado com fontes botânicas e de cultivo.
+// Revisão documental e estrutural — MACS 1.1 Classe D (sem homologação quantitativa). Inspeção visual em navegador não concluída.
 export const arpophyllumGiganteum = {
     id: "arpophyllum-giganteum",
     nome: "Arpophyllum giganteum",
