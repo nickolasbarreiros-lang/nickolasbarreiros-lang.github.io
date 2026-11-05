@@ -20,7 +20,7 @@ export const encycliaMineirinha = {
     clima: "Quente a intermediário · ventilado.",
     climaFloracao: "A floração depende sobretudo de pseudobulbos bem amadurecidos sob boa luminosidade. Durante a brotação, mantenha água e nutrição regulares; depois da maturação, aumente moderadamente o intervalo entre regas. Como o híbrido combina parentais de ecologias diferentes, não imponha repouso seco rígido.",
     iluminacao: { sombrite: "40% a 50%", solDireto: "Permitido com restrição", horario: "Início da manhã ou final da tarde", observacoes: "Folhas firmes, eretas e verde-claras indicam luz adequada; folhas escuras e moles sinalizam sombra excessiva." },
-    floracao: "Mais comum da primavera ao verão; pode variar conforme o clone e o ciclo de maturação dos pseudobulbos.",
+    floracao: "A Encyclia ‘Mineirinha’ é um híbrido de Encyclia patens com Encyclia oliveirana. Em cultivo, a primavera e o verão são uma referência inicial para observar a emissão de hastes após a maturação dos pseudobulbos, mas ainda não há registros brasileiros suficientes para confirmar meses específicos de floração desse cruzamento. As hastes carregam várias flores relativamente pequenas, com sépalas e pétalas geralmente verde-amareladas a acastanhadas e labelo mais claro; o formato, as cores e a quantidade de flores podem variar de uma planta para outra. Há descrições de fragrância agradável associadas a esse híbrido, porém não foram confirmadas notas aromáticas específicas nem a intensidade do perfume em diferentes exemplares. Também não foi possível estabelecer com segurança a duração, em dias, de cada flor ou do conjunto da floração.",
     adubacao: "🌿 Orgânica: bokashi leve em sachê, renovado a cada 60 a 90 dias.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/3 a 1/2 da dose semanalmente ou a cada 15 dias durante a brotação.\n🧪 Liberação lenta: poucos grânulos de Osmocote no canto do vaso, longe das raízes novas.",
     rega: "Regue abundantemente durante a brotação e deixe o substrato secar completamente entre as regas. Após o amadurecimento dos pseudobulbos, reduza a frequência. Nunca use prato sob o vaso nem permita água acumulada no fundo.",
     suporte: "🥇 Vaso de barro com furos laterais.\n🥈 Cachepô de madeira vazado.\n🥉 Placa de madeira dura ou cortiça.",
@@ -197,7 +197,7 @@ export const encycliaMineirinha = {
         }
     },
         adaptacaoRegional: { litoralQuente: { texto: "Desde que haja ventilação constante e secagem rápida após as regas." }, montanhaFrio: { texto: "Reduza bastante as regas nos meses frios sem crescimento ativo." } },
-    mesesFloracao: [9,10,11,12,1,2],
+    mesesFloracao: [],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
