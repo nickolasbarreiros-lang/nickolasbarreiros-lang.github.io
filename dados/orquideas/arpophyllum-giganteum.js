@@ -212,7 +212,7 @@ export const arpophyllumGiganteum = {
         }
     },
         adaptacaoRegional: {
-        litoral: { texto: "Para crescimento, mas a floração pode ser mais sensível ao calor noturno. Use o setor mais claro e ventilado, com 50% a 60% de sombreamento e substrato muito aberto. Regue bem durante o crescimento; após a maturação, reduza as regas apenas quando houver queda real de temperatura e evaporação, sem desidratar a touceira. A floração pode exigir noites mais frescas." },
+        litoral: { texto: "O cultivo vegetativo é possível em clima quente, mas a floração pode ser mais sensível ao calor noturno. Use o setor mais claro e ventilado, com 50% a 60% de sombreamento e substrato muito aberto. Regue bem durante o crescimento; após a maturação, reduza as regas apenas quando houver queda real de temperatura e evaporação, sem desidratar a touceira. A floração pode exigir noites mais frescas." },
         montanha: { texto: "A amplitude térmica e as noites amenas podem favorecer as condições frescas de parte de sua distribuição montana. Durante o inverno, reduza regas somente conforme a evaporação real cair, evitando a combinação de frio com encharcamento." }
     },
     dica: "🏆 Evite dividir a planta; deixe-a formar touceiras grandes para acumular reservas e explodir em flores nas hastes novas, contando mais com luz abundante, regas fartas na fase de crescimento e noites frescas do que com adubos milagrosos."
