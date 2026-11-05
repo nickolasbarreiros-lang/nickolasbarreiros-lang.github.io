@@ -22,7 +22,7 @@ export const aciantheraBragae = {
         "climaFloracao": { "faixa": "intermediario" }
     },
         avaliacoes: { cultivo: 4, floracao: 3, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
-    mesesFloracao: [],
+    mesesFloracao: [9, 10, 11, 12, 1],
     clima: "Quente a intermediário, úmido, sombreado e ventilado.",
     climaFloracao: "A faixa altitudinal aproximada de 700–1.000 m indica noites naturalmente mais amenas que as do litoral, mas a espécie é descrita em referência de cultivo como de crescimento quente. Portanto, não exige frio intenso. No litoral quente, priorize redução do calor acumulado noturno, sombra luminosa e ventilação contínua, sobretudo durante a maturação dos novos crescimentos.",
     iluminacao: {
@@ -31,7 +31,7 @@ export const aciantheraBragae = {
         horario: "Não permitido",
         observacoes: "O habitat é sombreado e úmido. Prefira claridade difusa uniforme em vez de sombra escura. Folhas suculentas e firmes devem permanecer sem aquecimento excessivo. Se os entrenós alongarem e o crescimento enfraquecer, aumente gradualmente a claridade; se houver amarelecimento rápido ou manchas secas, reduza a exposição."
     },
-    floracao: "A época de floração pode variar conforme procedência e condições de cultivo; a matriz consultada não comprova uma janela mensal brasileira específica para esta espécie.",
+    floracao: "A floração costuma acontecer entre o fim do inverno e o verão, com destaque para a primavera e registros brasileiros entre outubro e janeiro. As flores surgem rente às folhas, em pequenos tubos carnosos de tonalidade vinho a roxo-escura, por vezes quase negra, com pétalas e labelo escondidos no interior. O comprimento pode se aproximar de 2 cm, embora haja diferenças entre exemplares. Em cultivo brasileiro, a floração é descrita como durando em média 15 dias. Não costuma apresentar perfume perceptível. Por ser uma espécie rasteira, suas flores ficam especialmente bonitas quando observadas de perto.",
     adubacao: "🌿 Orgânica: bokashi em dose mínima, sempre isolado em sachê ou porta-adubo e afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração, cerca de 1/4 da dose do fabricante, a cada 10 a 15 dias durante emissão de folhas e raízes.\n🧪 Liberação lenta: se utilizada, aplicar pouquíssimo adubo de liberação lenta apenas em recipiente, nunca acumulado junto às raízes finas. Lave periodicamente o suporte/substrato para evitar acúmulo de sais.",
     rega: "Regue com frequência suficiente para manter as raízes ativas e impedir desidratação prolongada, mas permita troca de ar entre irrigações. Em montagem, a frequência tende a ser alta no calor; em vaso raso, deixe apenas a superfície perder parte da umidade. Água estagnada entre folhas e junto ao rizoma é mais perigosa que uma breve secagem superficial.",
     suporte: ["🥇 Placa larga de madeira, cortiça ou material fibroso durável, permitindo que o rizoma avance lateralmente.", "🥈 Cachepô pequeno, raso e muito ripado.", "🥉 Vaso baixo e largo, muito perfurado, para acomodar o crescimento em tapete."],
