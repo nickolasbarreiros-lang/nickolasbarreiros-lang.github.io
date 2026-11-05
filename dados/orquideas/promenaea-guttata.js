@@ -36,7 +36,7 @@ export const promenaeaGuttata = {
         "horario": "Não permitido",
         "observacoes": "Prefere luminosidade baixa a moderada. Folhas finas aquecem rapidamente, portanto evite sol direto. Sombra extremamente fechada, porém, reduz a qualidade dos novos pseudobulbos e pode diminuir a floração."
     },
-    "floracao": "Principalmente no fim da primavera e verão. Sob o conceito histórico de P. guttata, IOSPE registra inflorescências de cerca de 7,5 cm, geralmente com duas flores. As flores são grandes em relação ao porte da planta e podem apresentar manchas contrastantes sobre fundo claro ou amarelo-esverdeado.",
+    "floracao": "IOSPE relata floração no fim da primavera e verão sob o conceito histórico, sem estabelecer meses brasileiros universais. Sob o conceito histórico de P. guttata, IOSPE registra inflorescências de cerca de 7,5 cm, geralmente com duas flores. As flores são grandes em relação ao porte da planta e podem apresentar manchas contrastantes sobre fundo claro ou amarelo-esverdeado.",
     "adubacao": "🌿 Orgânica: bokashi apenas em microdose, preferencialmente em sachê.\n💧 Mineral/Foliar: NPK equilibrado em cerca de 1/4 da dose a cada 10–15 dias durante crescimento ativo.\n🌱 Novos pseudobulbos: mantenha nutrição regular, mas suave.\n🧪 Liberação lenta: opcional e somente em quantidade mínima.\n🚿 Lavagem: regas periódicas com água pura reduzem sais nas raízes finas.",
     "rega": "Mantenha leve umidade constante durante o crescimento, regando antes de ocorrer secagem prolongada. O substrato deve estar úmido, não saturado. Em períodos frios ou de crescimento lento, aumente moderadamente o intervalo conforme a evaporação cair; não imponha repouso seco rígido.",
     "suporte": "🥇 Vaso pequeno, baixo e muito perfurado.\n🥈 Cachepô pequeno e vazado.\n🥉 Placa de cortiça/madeira com fina camada de esfagno, somente onde a umidade ambiental for alta.\nO recipiente deve ser proporcional ao pequeno sistema radicular.",
@@ -56,8 +56,8 @@ export const promenaeaGuttata = {
         titulo: "Substrato ideal",
         contexto: "Mistura leve para vaso pequeno e muito ventilado",
         resumo: "O cultivo principal em vaso exige umidade moderada e aeração constante. Mistura de chips de coco, pinus fino e perlita evita compactação junto ao rizoma.",
-        justificativa: "Esta miniatura apresenta raízes delicadas e se beneficia de vaso plástico pequeno e vasado, com umidade regular e boa ventilação. Os chips de coco pequenos preparados ajudam a conservar umidade, a casca de pinus fina oferece apoio e a perlita mantém espaços de ar. Escolha granulometria proporcional ao vaso e às raízes e observe a secagem para evitar compactação ou saturação.",
-        receitaTexto: "40% chips de coco pequenos preparados + 30% casca de pinus fina + 30% perlita de granulometria compatível com o vaso e as raízes.",
+        justificativa: "A receita 40/30/30 é hipótese horticultural não testada especificamente sob o conceito histórico de Promenaea guttata nem sob o táxon aceito. Esta miniatura apresenta raízes delicadas e se beneficia de vaso plástico pequeno e vasado, com umidade regular e boa ventilação. Os chips de coco pequenos lavados ajudam a conservar umidade, a casca de pinus fina oferece apoio e a perlita mantém espaços de ar. Escolha granulometria proporcional ao vaso e às raízes e observe a secagem para evitar compactação ou saturação.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para o táxon: 40% chips de coco pequenos lavados + 30% casca de pinus fina + 30% perlita de granulometria compatível com o vaso e as raízes.",
         perfil: ["Miniatura epífita", "Raízes delicadas", "Umidade regular", "Alta aeração", "Sombra clara"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -66,7 +66,7 @@ export const promenaeaGuttata = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "chips-coco", nome: "Chips de coco pequenos preparados", proporcao: "40%", nota: "umidade", finalidade: "Mantêm umidade moderada em recipiente ventilado." },
+            { asset: "chips-coco", nome: "Chips de coco pequenos lavados", proporcao: "40%", nota: "umidade", finalidade: "Mantêm umidade moderada em recipiente ventilado." },
             { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "30%", nota: "estrutura", finalidade: "Apoia raízes delicadas sem formar massa densa." },
             { asset: "perlita", nome: "Perlita de granulometria adequada", proporcao: "30%", nota: "aeração", finalidade: "Favorece oxigenação e drenagem." }
         ],
@@ -82,7 +82,7 @@ export const promenaeaGuttata = {
         "morfologiaDimensoes": "Miniatura epífita com pseudobulbos agrupados, folhas delicadas, inflorescências curtas e flores relativamente grandes, com padrões amarelos ou esverdeados e manchas castanhas variáveis; caracteres historicamente descritos sob P. guttata (Meneguzzo 2020).",
         "habitatAltitudeClima": "Florestas tropicais úmidas · epífita. | Quente a ameno · úmido · sombreado.",
         "distribuicaoGeografica": "Leste e Sul do Brasil.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "cultivoPremiacao": "Recomendações de vaso e substrato são inferências horticulturais; não há ensaio quantitativo específico nem premiação confirmada nesta matriz.",
         "confianca": "alta",
         "fontes": [
             "POWO/Kew",
@@ -215,10 +215,10 @@ export const promenaeaGuttata = {
         "litoralQuente": "Adaptação moderada. Use o setor mais fresco e ventilado do orquidário, 70–80% de sombreamento e vaso pequeno. O principal risco é calor noturno associado a raízes saturadas.",
         "montanhaFrio": "Adaptação muito boa; apenas reduza regas conforme a evaporação diminuir para evitar saturação prolongada no frio."
     },
-    "mesesFloracao": [10, 11, 12, 1, 2],
+    "mesesFloracao": [],
     "selosCultivo": {
-        "rega": { "nivel": "sazonal" },
-        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "ameno" }
     },
         "avaliacoes": {
         "cultivo": 2,
