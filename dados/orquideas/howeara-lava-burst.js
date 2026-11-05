@@ -26,7 +26,7 @@ export const howearaLavaBurst = {
         horario: "Somente início da manhã",
         observacoes: "Luz filtrada abundante favorece hastes mais firmes e floríferas. Folhas muito escuras e pseudobulbos pequenos sugerem sombra excessiva; folhas amareladas ou quentes ao toque indicam excesso de luz."
     },
-    floracao: "Pode ocorrer mais de uma vez ao ano, acompanhando a maturação dos novos pseudobulbos. Em cultivo estável é comum apresentar floradas recorrentes, sem uma estação única e rígida.",
+    floracao: "Leomesezia Lava Burst, também conhecida como Howeara Lava Burst, pode florescer mais de uma vez ao ano, acompanhando o amadurecimento de novos pseudobulbos. Produtores relatam até duas ou mais floradas anuais, mas ainda não há registros brasileiros suficientes para definir meses específicos; isso não significa que permaneça florida continuamente durante os 12 meses. As hastes finas, por vezes ramificadas, carregam numerosas flores pequenas, de vermelho-vivo a vermelho-alaranjado, frequentemente com detalhes amarelos ou claros no centro. O cultivar ‘Puanani’ costuma ser descrito como sem perfume perceptível, embora exista relato isolado de fragrância suave, indicando possível variação entre exemplares. As flores são consideradas duráveis e um produtor relata que o conjunto da floração pode permanecer vistoso por até dois meses; esse período não corresponde necessariamente à vida de cada flor isolada.",
     adubacao: "🌿 Orgânica: bokashi em dose mínima e sempre afastado do coleto.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 7–15 dias enquanto houver raízes e brotos ativos.\n🧪 Liberação lenta: poucos grânulos apenas em vaso muito drenante.\n💦 Lavagem: uma vez por mês, passe água limpa em abundância pelo substrato para reduzir sais acumulados.",
     rega: "Regue quando a superfície começar a secar, mantendo umidade leve e regular sem deixar o miolo do vaso saturado. Os pseudobulbos pequenos guardam pouca água e não devem enrugar repetidamente. No inverno ou em períodos chuvosos, reduza apenas de acordo com a evaporação real.",
     suporte: "🥇 Vaso plástico pequeno e muito perfurado.\n🥈 Cachepô pequeno e bem ventilado.\n🥉 Vaso de barro pequeno em ambientes onde a secagem não seja rápida demais.",
@@ -208,7 +208,7 @@ export const howearaLavaBurst = {
         litoralQuente: { texto: "Proteja do sol forte da tarde, mantenha circulação de ar contínua e evite recipientes grandes que permaneçam quentes e molhados por muito tempo." },
         montanhaFrio: { texto: "Reduza as regas apenas nos períodos frios de baixa evaporação e proteja de temperaturas muito baixas." }
     },
-    mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    mesesFloracao: [],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
