@@ -48,3 +48,14 @@ Ambas diferem entre si (a segunda contém pinus) e da principal (ambas contêm e
 
 ## Parecer final
 **Revisão documental concluída.** Há suporte específico para montagem em placa e suporte ecológico para ambiente sombreado e ventilado; a formulação quantitativa para vaso permanece uma **hipótese técnica não homologada experimentalmente**. Não converter documentação botânica, anúncio comercial ou consistência matemática em ensaio científico. Não há pendências editoriais identificadas nesta matriz; um futuro ensaio de crescimento radicular seria pesquisa experimental nova, não auditoria adiada.
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** miniatura epífita de touceira compacta e raízes finas, com necessidade de umidade regular e aeração; em placa pequena, a secagem pode ser rápida e exige observação frequente. A espessura real das raízes e o intervalo de secagem não foram medidos no exemplar. A recomendação de placa tem apoio em fornecedor da espécie; não equivale a comparação experimental entre suportes.
+
+**Cultivo principal:** placa/tronco com fina camada de esfagno solto, sem enterrar a base; não se aplica receita volumétrica à montagem. **Cultivo secundário em recipiente:** vaso miniatura raso e ventilado ou cachepô pequeno, com receita de 40% chips de coco pequenos **lavados**, 35% casca de pinus fina e 25% perlita de granulometria adequada a miniaturas, por volume. Os chips oferecem alguma retenção, pinus sustenta a estrutura e perlita aumenta aeração. A troca do termo 'preparados' por 'lavados' padroniza a nomenclatura, sem afirmar ausência comprovada de sais em lote não testado.
+
+**Alternativas qualitativas públicas, sem percentuais:** (1) esfagno de fibra longa solto + perlita de granulometria adequada a miniaturas; (2) casca de pinus fina + perlita de granulometria adequada a miniaturas + esfagno de fibra longa solto. São distintas da mistura principal e entre si, sem evidência quantitativa específica.
+
+**Conferência:** 40+35+25=100%; texto e itens visuais sincronizados; descrição reescrita com 100 palavras (faixa 90–120), evitando apresentar tamanho floral divergente entre fontes como medida definitivamente confirmada; quatro caminhos de fotos cadastrados; IDC 36/100 e três estrelas dentro da faixa IDC 3.2. IAR e métodos preservados. Testes visuais de arquivos e navegador serão executados apenas na auditoria consolidada do ZIP final, conforme decisão do responsável.
+
+**Parecer:** revisão documental encerrada dentro das evidências disponíveis; receita de vaso permanece **hipótese horticultural não homologada quantitativamente**. Uma fonte brasileira específica foi documentada, sem atingir a meta de 25 produtores independentes; não inventar cobertura.
