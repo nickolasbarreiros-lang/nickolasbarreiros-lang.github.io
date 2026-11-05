@@ -45,3 +45,14 @@ As duas são distintas entre si e da receita principal. Percentuais não foram p
 
 ## Parecer final
 **Revisão documental encerrada.** Taxonomia confirmada; proporções coerentes e soma 100%; duas alternativas distintas; classificação científica da receita corrigida para **hipótese não homologada**. Homologação experimental específica: **NÃO DEMONSTRADA**. Pesquisa experimental futura não é pendência editorial.
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** miniatura rupícola de altitude, com pseudobulbos curtos e raízes adaptadas à fixação em fendas rochosas, exigindo aeração e drenagem sem desidratação extrema. Em ambiente quente, o aquecimento do recipiente e das pedras pode ser tão problemático quanto a umidade retida. A granulometria e o tempo de secagem ideais para o exemplar não foram medidos; a preferência por fração mineral elevada é inferência ecológica, não determinação experimental.
+
+**Cultivo principal:** vaso de barro pequeno, raso e muito perfurado, protegido de aquecimento excessivo. **Receita visual por volume:** 40% brita fina/média (estrutura mineral), 30% perlita grossa (macroporos), 20% casca de macadâmia triturada (fração orgânica) e 10% casca de pinus grossa (fração orgânica), total 100%, sendo 70% mineral/30% orgânico. A fórmula é proposta técnica não homologada; monitorar umidade e temperatura radicular, sobretudo em calor persistente.
+
+**Duas alternativas qualitativas, sem percentuais:** (1) brita fina/média + perlita grossa + carvão vegetal + pequena fração de casca de pinus grossa; (2) brita fina/média + argila expandida + casca de pinus grossa. Nenhuma é declarada superior ou validada para a espécie.
+
+**Conferências editoriais:** descrição pública com 94 palavras, dentro da faixa 90–120; justificativa da receita atualizada para o nome aceito *Cattleya fournieri* (sin. *Laelia fournieri*) e para indicar explicitamente a natureza inferencial do 70/30; texto do suporte principal ajustado para não sugerir que qualquer mistura mineral necessariamente resfria as raízes. Receita e itens visuais somam 40+30+20+10=100%; quatro caminhos fotográficos cadastrados; IDC 54/100 e duas estrelas coerentes com IDC 3.2; IAR e estrelas dos suportes preservados. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das evidências disponíveis; zero receitas percentuais específicas verificadas em produtores brasileiros, meta de 25 não atingida e **homologação experimental da fórmula não demonstrada**.
