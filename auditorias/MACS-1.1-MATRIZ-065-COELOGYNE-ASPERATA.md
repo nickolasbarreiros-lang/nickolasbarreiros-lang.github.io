@@ -44,3 +44,14 @@ Alternativas distintas entre si e da receita principal. Sem proporções especí
 
 ## Parecer final
 **Revisão documental concluída.** Taxonomia, morfologia e distribuição conferidas; receita 100% consistente, duas alternativas distintas e distinção explícita entre orientação de gênero e hipótese de espécie. **Homologação experimental específica da mistura: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** epífita tropical de grande porte, com rizoma rastejante, pseudobulbos volumosos e espaçados, folhas largas e plissadas e inflorescências multifloras. Raízes requerem umidade relativamente constante durante crescimento, mas com oxigenação e escoamento, sem água estagnada. Os pseudobulbos armazenam reservas, porém não sustentam a imposição de repouso seco severo. Não há medição específica de intervalos ideais de secagem, capacidade de retenção ou desempenho comparativo de suportes.
+
+**Cultivo principal:** vaso de barro largo, firme e drenante, com espaço para expansão do rizoma e hastes arqueadas; cachepô de madeira amplo é alternativa ventilada. **Receita por volume:** 35% chips de coco médios lavados (reserva hídrica) + 30% casca de pinus média (estrutura) + 25% perlita grossa (aeração) + 10% esfagno de fibra longa solto (retenção complementar), total 100%. A receita tem 75% de componentes orgânicos e 25% de perlita, mas não foi testada experimentalmente nesta espécie. Lavagem dos chips não substitui eventual verificação de salinidade do lote.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus média + perlita grossa + esfagno de fibra longa solto; (2) chips de coco médios lavados + casca de pinus média + carvão vegetal. Diferentes entre si e da mistura principal, sem alegação de eficácia comparativa.
+
+**Conferências editoriais:** descrição principal com 97 palavras (faixa 90–120). Nomenclatura dos chips de coco padronizada em receita, itens e alternativas; justificativa e receita visual passaram a declarar explicitamente o caráter não homologado. Campos internos de nome aceito, sinônimo e morfologia alinhados à ficha e à matriz, substituindo trecho antigo truncado. Receita e itens visuais somam 35+30+25+10=100%; quatro caminhos de fotos cadastrados; IDC 45/100 e três estrelas coerentes com IDC 3.2; IAR e avaliações de suportes preservados. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; zero receitas percentuais específicas de produtores brasileiros verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
