@@ -189,7 +189,7 @@ export const stelisCfAprica = {
 }, faixas:{cincoEstrelas:'0–25',quatroEstrelas:'26–35',tresEstrelas:'36–50',duasEstrelas:'51–89',umaEstrela:'90–100'} },
     indiceAdaptacaoRegional: { versao:'IAR 2.0 — revisão científica', escala:'compatibilidade regional', metodo:'notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha', litoralQuente:{
     "indice": 80,
-    "estrelas": null,
+    "estrelas": 4,
     "fatores": {
         "habitatNatural": {
             "nota": 4,
@@ -222,7 +222,7 @@ export const stelisCfAprica = {
     }
 }, montanhaFrio:{
     "indice": 80,
-    "estrelas": null,
+    "estrelas": 4,
     "fatores": {
         "habitatNatural": {
             "nota": 4,
