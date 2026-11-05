@@ -19,6 +19,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Validar sintaxe JavaScript da ficha antes de abrir o navegador
+        run: node --check dados/orquideas/oncidium-twinkle.js
       - run: npm install --no-save playwright
       - run: npx playwright install --with-deps chromium
       - name: Conferir ficha em navegador real
