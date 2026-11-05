@@ -35,7 +35,7 @@ export const cattleyaGuttataVarCoerulea = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "É uma bifoliada de luminosidade muito alta. Em Litoral de clima quente, ofereça 40% a 50% de sombreamento e bastante circulação de ar. Folhas firmes, pseudobulbos grossos e eretos e crescimento compacto são indicadores melhores que perseguir uma cor verde-alface específica."
     },
-    floracao: "Principalmente do fim do verão ao outono, com maior probabilidade entre fevereiro e maio; alguns clones podem avançar até junho conforme clima e ciclo de crescimento.",
+    floracao: "A floração acompanha a maturação dos pseudobulbos e pode variar entre clones e ambientes; a matriz não demonstra meses brasileiros universais para a seleção coerulea.",
     adubacao: "🌿 Orgânica: Bokashi em pequena quantidade a cada 60 a 90 dias durante crescimento ativo, sem contato direto com raízes novas.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose semanal ou quinzenalmente enquanto brotos e raízes estiverem ativos.\n🧪 Liberação lenta: Osmocote 14-14-14 ou equivalente pode ser usado em dose moderada em vasos grandes. Reduza a adubação líquida se usar liberação lenta. Não há necessidade de formulações extremamente fosfatadas, como 9-45-15, para induzir floração.",
     rega: "No crescimento ativo, regue generosamente e deixe o meio drenar e perder grande parte da umidade antes de regar novamente. A meta é secagem acentuada e forte oxigenação, não obrigatoriamente deixar toda a massa radicular absolutamente seca por longos períodos. Após a maturação dos pseudobulbos, aumente moderadamente os intervalos conforme temperatura e velocidade de secagem.",
     suporte: "🥇 Vaso de barro pesado, oferecendo estabilidade e evaporação.\n🥈 Cachepô grande e robusto de madeira para touceiras com várias frentes.\n🥉 Cesto estrutural para plantas adultas de grande porte.\nEm todos os casos, imobilize a base e o rizoma até que o novo enraizamento trave o conjunto.",
@@ -79,8 +79,8 @@ export const cattleyaGuttataVarCoerulea = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "Cattleya guttata de coloração coerulea pode formar plantas altas, que precisam de recipiente firme e boa circulação de ar. As cascas de macadâmia e pinus dão sustentação, a brita acrescenta estabilidade e drenagem e o carvão ajuda a preservar espaços de ar. Escolha granulometria que não compacte a mistura e ajuste as regas conforme a secagem do vaso.",
-    "receitaTexto": "35% casca de macadâmia média + 25% casca de pinus média + 25% brita pequena/média + 15% carvão vegetal médio.",
+    "justificativa": "A mistura 35/25/25/15 é proposta horticultural sem homologação experimental para Cattleya guttata ou sua seleção coerulea; a recomendação brasileira para a forma alba utiliza ingredientes diferentes e não apresenta percentuais. Cattleya guttata de coloração coerulea pode formar plantas altas, que precisam de recipiente firme e boa circulação de ar. As cascas de macadâmia e pinus dão sustentação, a brita acrescenta estabilidade e drenagem e o carvão ajuda a preservar espaços de ar. Escolha granulometria que não compacte a mistura e ajuste as regas conforme a secagem do vaso.",
+    "receitaTexto": "Proposta horticultural NÃO HOMOLOGADA para a seleção coerulea: 35% casca de macadâmia média + 25% casca de pinus média + 25% brita pequena/média + 15% carvão vegetal médio.",
     "perfil": [
         "Raízes epífitas",
         "Aeração alta",
@@ -259,12 +259,12 @@ export const cattleyaGuttataVarCoerulea = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Litoral de clima quente combina calor e umidade atmosférica favoráveis à espécie; o principal cuidado é evitar substrato velho, centro encharcado e falta de ventilação em noites quentes." },
-        montanhaFrio: { texto: "Com luminosidade elevada e proteção contra geadas e reduza as regas quando frio e umidade diminuírem a evaporação." }
+        litoralQuente: { texto: "Clima quente combina calor e umidade atmosférica favoráveis à espécie; o principal cuidado é evitar substrato velho, centro encharcado e falta de ventilação em noites quentes." },
+        montanhaFrio: { texto: "Mantenha luminosidade elevada e proteção contra geadas; reduza as regas quando o frio diminuir a evaporação." }
     },
-    mesesFloracao: [2, 3, 4, 5, 6],
+    mesesFloracao: [],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {
