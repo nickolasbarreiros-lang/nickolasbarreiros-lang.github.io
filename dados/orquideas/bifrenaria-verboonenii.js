@@ -26,8 +26,8 @@ export const bifrenariaVerboonenii = {
     ],
     descricao: "Uma Bifrenaria de presença marcante, com pseudobulbos robustos e flores grandes, carnosas e cerosas que chamam atenção tanto pela aparência quanto pelo perfume. As hastes são curtas e surgem junto à base dos pseudobulbos maduros, normalmente carregando poucas flores, mas de tamanho expressivo e boa duração. Encontrada em áreas montanas do Sudeste brasileiro, em altitudes elevadas, aprecia noites mais amenas e um inverno relativamente mais seco — característica que ajuda a entender por que pode exigir atenção extra quando cultivada no litoral quente. A combinação de porte compacto na floração e flores volumosas torna o conjunto particularmente expressivo quando observado de perto.",
     origem: "Brasil",
-    regiao: "BA · ES · MG",
-    habitat: "Epífita/litófita · 1.000–2.000 m",
+    regiao: "MG (conceito histórico); Nordeste e Sudeste do Brasil (táxon aceito amplo)",
+    habitat: "Rupícola montana, 1.000–1.400 m no conceito histórico; epífita/litófita no táxon aceito amplo",
     clima: "Fresco · montano · inverno mais seco",
     climaFloracao: "A indução floral é favorecida pela maturação completa do pseudobulbo, boa luminosidade, noites mais frescas e redução sazonal das regas. Não é necessário impor seca absoluta. Em Litoral de clima quente, temperatura noturna elevada e raízes aquecidas são os principais fatores limitantes.",
     iluminacao: {
@@ -46,15 +46,16 @@ export const bifrenariaVerboonenii = {
         destaque: "Vaso de Barro",
         resumo: "O vaso de barro oferece o melhor equilíbrio entre estabilidade, evaporação e aeração para esta Bifrenaria de forte afinidade rupícola.",
         metodos: [
-            { nome: "Vaso de Barro", asset: "bifrenaria-verboonenii-vaso-barro", estrelas: 5, status: "Ideal", texto: "Favorece secagem rápida e ajuda a manter as raízes mais frescas e oxigenadas, sem a oscilação extrema de uma montagem nua." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Funciona muito bem com mistura mineral e estrutural bastante aberta, desde que não permaneça úmida por longos períodos." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Oferece excelente ventilação e drenagem, especialmente em locais úmidos e bem ventilados." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "Biologicamente possível, mas exige regas mais frequentes e controle maior da desidratação durante o crescimento ativo." }
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Preferência técnica provisória", texto: "Favorece secagem rápida e ajuda a manter as raízes mais frescas e oxigenadas, sem a oscilação extrema de uma montagem nua." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Funciona muito bem com mistura mineral e estrutural bastante aberta, desde que não permaneça úmida por longos períodos." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa provisória", texto: "Oferece excelente ventilação e drenagem, especialmente em locais úmidos e bem ventilados." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Uso condicional provisório", texto: "Biologicamente possível, mas exige regas mais frequentes e controle maior da desidratação durante o crescimento ativo." }
         ]
     },
     substrato: ["Brita fina/média + casca de pinus média + carvão vegetal","Brita fina/média + casca de arroz carbonizada + carvão vegetal + casca de macadâmia"],
     substratoVisual: {
-        titulo: "Substrato ideal",
+        notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D). Percentuais 40/25/20/15 somam 100%, mas não foram testados comparativamente; estrelas de suportes omitidas. POWO considera Bifrenaria verboonenii sinônimo de B. tyrianthina; recomendações de gênero AOS não constituem validação específica. Sem entrevistas verificadas com 25 produtores brasileiros.",
+        titulo: "Substrato recomendado (provisório)",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura muito aberta, predominantemente mineral e estrutural, pensada para secar rapidamente sem perder estabilidade.",
         justificativa: "Esta bifrenária, associada a ambientes rochosos, se beneficia de raízes bem ventiladas e drenagem rápida. A brita oferece estabilidade e espaços de ar, a casca de macadâmia mantém a estrutura, o carvão ajuda na aeração e a menor fração de pinus retém um pouco de umidade. Use recipiente firme e observe a secagem antes de regar novamente.",
@@ -67,8 +68,8 @@ export const bifrenariaVerboonenii = {
             compactacao: 1
         },
         itens: [
-            { asset: "brita-pura", nome: "Brita pequena/média", proporcao: "40%", nota: "base mineral", finalidade: "Mantém grandes espaços de ar, drenagem imediata e estabilidade física." },
-            { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "25%", nota: "estrutura durável", finalidade: "Acrescenta estrutura orgânica resistente sem fechar a mistura rapidamente." },
+            { asset: "brita-fina", nome: "Brita pequena/média", proporcao: "40%", nota: "base mineral", finalidade: "Mantém grandes espaços de ar, drenagem imediata e estabilidade física." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "25%", nota: "estrutura durável", finalidade: "Acrescenta estrutura orgânica resistente sem fechar a mistura rapidamente." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal médio", proporcao: "20%", nota: "aeração", finalidade: "Mantém porosidade e reduz a tendência de compactação." },
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "15%", nota: "fração orgânica", finalidade: "Fornece pequena reserva hídrica e superfície para raízes sem dominar a mistura." }
         ],
@@ -84,19 +85,20 @@ export const bifrenariaVerboonenii = {
         "Usar vaso maior que o necessário."
     ],
     revisaoCientificaIAR: {
-        "nome": "Bifrenaria verboonenii",
-        "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Bifrenaria tyrianthina.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma Bifrenaria de presença marcante, com pseudobulbos robustos e flores grandes, carnosas e cerosas que chamam atenção tanto pela aparência quanto pelo perfume. As hastes são curtas e surgem junto à base dos pseudobulbos maduros, normalmente carregando poucas flores, mas de tamanho expressivo e boa duração.",
-        "habitatAltitudeClima": "Principalmente rupícola · campos rupestres e afloramentos rochosos | tropical sazonal",
-        "distribuicaoGeografica": "Ocorrências confirmadas: BA · MG",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "media",
+        "nome": "Bifrenaria verboonenii G.A.Romero & V.P.Castro — nome editorial",
+        "statusTaxonomico": "POWO/Kew trata Bifrenaria verboonenii G.A.Romero & V.P.Castro (Harvard Pap. Bot. 5:187, 2000) como sinônimo heterotípico de Bifrenaria tyrianthina (Lodd. ex Loudon) Rchb.f. (1854), espécie aceita. O nome original é mantido apenas como identificação histórica/editorial da ficha; não declarar que é espécie aceita em POWO.",
+        "sinonimosPrincipais": "Na circunscrição de POWO, B. verboonenii é sinônimo heterotípico de B. tyrianthina; outros sinônimos heterotípicos desta incluem B. diamantinensis e B. magnicalcarata. Lycaste tyrianthina e Maxillaria tyrianthina são sinônimos homotípicos de B. tyrianthina. Sinonímia taxonômica não garante que todo exemplar comercial identificado como verboonenii esteja corretamente determinado.",
+        "morfologiaDimensoes": "IOSPE descreve, sob Bifrenaria verboonenii, planta rupícola pequena com pseudobulbos cônico-tetragonais verde-amarelados, marcados por anel apical escuro e uma folha apical plicada, ereta e estreitamente elíptica. A inflorescência basal é ereta e rígida, aproximadamente 23 cm, com duas ou três flores de cerca de 6 cm. As descrições de folhas, pseudobulbos e flores referem-se ao conceito histórico de B. verboonenii, não necessariamente à variação total da espécie ampla B. tyrianthina. Perfume e longevidade das flores não foram quantificados em estudo específico consultado.",
+        "habitatAltitudeClima": "IOSPE registra a planta descrita como B. verboonenii em Minas Gerais, rupícola em florestas montanas, a aproximadamente 1.000–1.400 m. POWO classifica B. tyrianthina em sentido amplo como epífita ou litófita pseudobulbosa do bioma tropical sazonalmente seco. Não transferir automaticamente a faixa de altitude do conceito restrito para todas as populações do táxon aceito; recomendações de inverno mais seco são hipóteses de manejo, não experimento com o material desta ficha.",
+        "distribuicaoGeografica": "POWO: Bifrenaria tyrianthina em sentido amplo nativa do leste do Brasil, nas regiões Nordeste e Sudeste. IOSPE: conceito histórico de B. verboonenii documentado em Minas Gerais. A indicação anterior BA · ES · MG para o nome verboonenii isoladamente não foi confirmada e foi retirada.",
+        "cultivoPremiacao": "A American Orchid Society recomenda genericamente para Bifrenaria vasos ou cestos com mistura epífita média, luz forte, temperaturas quentes e rega regular, deixando secar ligeiramente entre regas; também alerta para excesso de tamanho do vaso. Essas orientações são de gênero, não experimento de B. verboonenii. A mistura 40% brita + 25% macadâmia + 20% carvão + 15% pinus e o ranking dos quatro suportes permanecem hipóteses técnicas Classe D. Não foi confirmada premiação AOS específica nem consulta individualizada a 25 orquidários brasileiros.",
+        "confianca": "Taxonomia atual: alta (POWO). Morfologia e altitude do conceito histórico: moderada (IOSPE). Distribuição regional do táxon amplo: alta (POWO). Receita e suportes MACS 1.1: Classe D, não homologados quantitativamente.",
         "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
+            "POWO/Kew, Bifrenaria verboonenii (sinônimo) — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:320731-2",
+            "POWO/Kew, Bifrenaria tyrianthina (aceita) — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:617570-1",
+            "IOSPE, Bifrenaria verboonenii — https://www.orchidspecies.com/bifverbooneii.htm",
+            "American Orchid Society, cuidados do gênero Bifrenaria — https://www.aos.org/explore/bifrenaria",
+            "Meneguzzo & Chase (2024), circunscrição ampliada do gênero Bifrenaria — https://doi.org/10.11646/phytotaxa.638.2.3"
         ]
     },
     indiceDificuldadeCultivo: {
