@@ -390,3 +390,9 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - IOSPE descreve o conceito histórico rupícola em Minas Gerais, 1.000–1.400 m, inflorescência basal com 2–3 flores de cerca de 6 cm; POWO caracteriza o táxon aceito amplo como epífita/litófita do leste brasileiro. Distribuições e faixas altitudinais mantidas separadas.
 - AOS fornece orientações genéricas para o gênero, não teste de substrato específico. Conferência textual: descrição 102 palavras; quatro suportes `estrelas: null`; duas alternativas qualitativas; receita 40% brita + 25% macadâmia + 20% carvão + 15% pinus = 100%. IDs de assets normalizados no código, sem verificação visual.
 - **Homologação documental concluída — MACS 1.1 provisória Classe D.** Não há validação quantitativa dos percentuais nem comparação experimental dos suportes. Inspeção visual final separada.
+
+### Ficha 14 — Bifrenaria aureofulva (2026-11-04)
+- POWO/Kew aceita *Bifrenaria aureofulva* (Hook.) Lindl. (1843), basiônimo *Maxillaria aureofulva* Hook. (1838), com distribuição nativa no Nordeste, Sudeste e Sul do Brasil; sinonímia homotípica e heterotípica discriminada na ficha.
+- IOSPE documenta epífita de floresta úmida em aproximadamente 200–1.500 m, inflorescências basais de 12–30 cm com 3–15 flores perfumadas de cerca de 2,5 cm. AOS fornece cuidados gerais de gênero, não ensaio desta espécie.
+- Conferência estrutural textual: descrição 107 palavras, quatro suportes `estrelas: null`, duas alternativas qualitativas e receita 35% brita + 30% macadâmia + 20% carvão + 15% pinus = 100%. A secagem rápida da receita é hipótese de manejo, não superioridade universal comprovada. IDs de assets normalizados no código, sem conferência visual.
+- **Homologação documental concluída — MACS 1.1 provisória Classe D.** Percentuais e ranking de suportes não validados quantitativamente. Inspeção visual final separada.
