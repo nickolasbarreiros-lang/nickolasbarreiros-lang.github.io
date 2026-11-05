@@ -56,7 +56,7 @@ export const dendrobiumTenellum = {
         "titulo": "Substrato ideal",
         "contexto": "Para cultivo em cachepô",
         "resumo": "Mistura de aeração elevada com retenção intermediária, evitando tanto saturação quanto seca extrema.",
-        "justificativa": "Dendrobium tenellum se beneficia de cachepô suspenso e bem ventilado, com umidade moderada sem saturação das raízes. A casca de pinus média oferece apoio, os chips de coco preparados ajudam a conservar umidade e a perlita e o carvão mantêm espaços de ar. Observe a secagem no centro do cachepô e ajuste as regas conforme o clima e a atividade das raízes.",
+        "justificativa": "Dendrobium tenellum se beneficia de cachepô suspenso e bem ventilado, com umidade moderada sem saturação das raízes. A casca de pinus média oferece apoio, os chips de coco lavados ajudam a conservar umidade e a perlita e o carvão mantêm espaços de ar. Observe a secagem no centro do cachepô e ajuste as regas conforme o clima e a atividade das raízes.",
         "receitaTexto": "50% casca de pinus média + 20% chips de coco lavados + 15% perlita grossa + 15% carvão vegetal pequeno.",
         "perfil": ["Epífita montana", "Hastes finas pendentes", "Noites amenas", "Boa ventilação", "Repouso moderado"],
         "comportamento": [
