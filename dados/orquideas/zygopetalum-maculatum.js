@@ -47,7 +47,7 @@ export const zygopetalumMaculatum = {
         resumo: "Espécie terrestre ou rupícola com raízes sensíveis ao calor. Vaso de barro muito perfurado favorece evaporação e ajuda a manter o sistema radicular fresco, sem encharcamento.",
         metodos: [
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Mais recomendado na ficha", texto: "Vaso de barro bem perfurado, proporcional à touceira, em bancada baixa e ventilada para favorecer resfriamento evaporativo." },
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Alternativa", texto: "Vaso claro, largo e relativamente baixo, protegido de aquecimento pelo sol e com boa drenagem." },
+            { nome: "Vaso plástico", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa", texto: "Vaso claro, largo e relativamente baixo, protegido de aquecimento pelo sol e com boa drenagem." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Uso condicional", texto: "Recipiente claro e muito perfurado, com monitoramento da secagem para evitar desidratação prolongada." }
         ]
     },
