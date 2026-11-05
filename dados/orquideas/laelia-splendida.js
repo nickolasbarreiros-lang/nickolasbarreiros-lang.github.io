@@ -47,14 +47,14 @@ export const laeliaSplendida = {
         destaque: "Cachepô de Madeira",
         resumo: "Espécie robusta, epífita ou rupícola, de hastes florais longas. Priorizar suporte amplo, estável e muito ventilado, luminosidade elevada com aclimatação e espaço para novas frentes de crescimento.",
         metodos: [
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Mais recomendado na ficha", texto: "Cachepô robusto e muito vazado, com espaço para crescimento e raízes bem ventiladas." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa", texto: "Vaso largo, pesado e bem perfurado, proporcional ao rizoma e com mistura grossa." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Preferência técnica provisória", texto: "Cachepô robusto e muito vazado, com espaço para crescimento e raízes bem ventiladas." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa provisória", texto: "Vaso largo, pesado e bem perfurado, proporcional ao rizoma e com mistura grossa." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Uso condicional", texto: "Tronco robusto e bem fixado, com regas frequentes durante estabelecimento e em períodos secos." },
             { nome: "Árvore viva", asset: "arvore-viva", estrelas: null, status: "Uso condicional", texto: "Fixação permanente em árvore adequada, com luz suficiente e suporte para o porte adulto." }
         ]
     },
     substratoVisual: {
-        titulo: "Substrato ideal",
+        titulo: "Substrato recomendado (provisório)",
         contexto: "Mistura grosseira para cachepô de madeira bem ventilado",
         resumo: "Componentes médios e grossos para sustentação, boa drenagem e secagem perceptível entre regas.",
         justificativa: "Laelia splendida (sin. Schomburgkia splendida) é uma orquídea robusta, epífita ou rupícola, que precisa de alta luminosidade após aclimatação, suporte firme e raízes arejadas. No cachepô de madeira bem vazado, as cascas de macadâmia e pinus sustentam a planta; a perlita e o carvão mantêm a mistura aberta e drenante. Deixe o substrato secar perceptivelmente entre regas e reserve espaço para as novas frentes de crescimento.",
@@ -73,7 +73,7 @@ export const laeliaSplendida = {
             { asset: "carvao", nome: "Carvão vegetal médio", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta do recipiente." }
         ],
         alerta: "Evitar sombra excessiva, vaso profundo, substrato encharcado e exposição abrupta ao sol forte. Reservar espaço para as novas frentes e hastes florais longas.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Laelia splendida (sin. Schomburgkia splendida), epífita/rupícola robusta de hastes longas; alta luminosidade com aclimatação, suporte estável e raízes arejadas. Cachepô de Madeira bem vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com cesto + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus grosso. Elas não fundamentam os percentuais visuais. Monitorar secagem, estabilidade e espaço para hastes. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
+        notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D); não equivale à homologação quantitativa de percentuais ou à superioridade comprovada de suportes. MACS 1.1 — revisão documental: Laelia splendida (sin. Schomburgkia splendida), epífita/rupícola robusta de hastes longas; alta luminosidade com aclimatação, suporte estável e raízes arejadas. Cachepô de Madeira bem vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com cesto + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus grosso. Elas não fundamentam os percentuais visuais. Monitorar secagem, estabilidade e espaço para hastes. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
         "Cultivar em sombra excessiva",
@@ -87,19 +87,21 @@ export const laeliaSplendida = {
     ],
     dica: "🏆 Se a planta cresce bem mas não floresce, investigue primeiro a luz. Laelia splendida precisa acumular bastante energia para sustentar suas hastes longas. Em clima quente, um local muito claro, ventilado e com raízes quase expostas costuma funcionar melhor que um vaso úmido e sombreado.",
     revisaoCientificaIAR: {
-        "nome": "Laelia splendida",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Laelia splendida é uma orquídea de presença marcante, conhecida por muitos colecionadores pelo antigo nome Schomburgkia splendida. Forma pseudobulbos robustos e, quando adulta, lança hastes florais longas que elevam as flores bem acima da folhagem.",
-        "habitatAltitudeClima": "Epífita ou rupícola de ambientes tropicais claros e ventilados. | Quente a intermediário, luminoso e ventilado.",
-        "distribuicaoGeografica": "Colômbia e Equador.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "media",
+        "nome": "Laelia splendida (Schltr.) L.O.Williams",
+        "statusTaxonomico": "Nome aceito no POWO/Kew e WFO; combinação publicada por L.O.Williams em Darwiniana 5:77 (1941).",
+        "sinonimosPrincipais": "Basiônimo e único sinônimo listado pelo POWO: Schomburgkia splendida Schltr., publicado em Repertorium Specierum Novarum Regni Vegetabilis 12:212 (1913). A combinação Laelia splendida (Schltr.) L.O.Williams é homotípica, pois se baseia no mesmo tipo nomenclatural.",
+        "morfologiaDimensoes": "Orquídea simpodial robusta, epífita ou rupícola, com pseudobulbos fusiformes, ligeiramente achatados e sulcados, geralmente com duas folhas apicais espessas e coriáceas. A inflorescência terminal surge do pseudobulbo maduro e se eleva acima das folhas, com cerca de oito a quinze flores conforme fontes de coleções. O Smithsonian descreve hastes de até aproximadamente 100 cm e flores cerosas púrpuras com labelo rosado, medindo cerca de 6,4–10,2 cm. Essas medidas são descritivas de exemplares documentados, não máximos universais da espécie.",
+        "habitatAltitudeClima": "POWO registra epífita ou litófita pseudobulbosa do bioma tropical úmido, nativa de Colômbia e Equador. Smithsonian descreve populações em locais expostos de florestas baixas relativamente secas, junto a cursos de água, entre aproximadamente 600–1.500 m; IOSPE descreve ambientes montanos relativamente secos e expostos, inclusive rochas e árvores, e indica faixa altitudinal mais ampla. A diferença reflete escalas e fontes distintas: não equiparar a classificação ampla do bioma à umidade exata do micro-habitat. A exigência de alta luminosidade e substrato drenante é qualitativa; sol pleno irrestrito não foi validado para todas as condições de cultivo.",
+        "distribuicaoGeografica": "Colômbia e Equador, conforme POWO/Kew, WFO e Smithsonian.",
+        "cultivoPremiacao": "Smithsonian documenta exemplares cultivados em estufa intermediária de alta luminosidade e floração com picos sazonais; IOSPE fornece morfologia e ocorrência ecológica. Uma fonte secundária de horticultura recomenda mistura grossa drenante ou montagem e secagem entre regas, mas não apresenta ensaio comparativo da receita 35/30/20/15 ou dos quatro suportes. O catálogo ORCHIDS.ORG lista cultivares com premiações históricas, sem conferência de cada registro primário AOS nesta revisão.",
+        "confianca": "Taxonomia, sinonímia e distribuição: alta (POWO/WFO/IPNI). Morfologia e habitat regional: moderada a alta (Smithsonian/IOSPE). Recomendação de suportes e percentuais MACS 1.1: Classe D, não homologada quantitativamente.",
         "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
+            "POWO/Kew, Laelia splendida — https://powo.science.kew.org/taxon/134724-2",
+            "POWO/Kew, Schomburgkia splendida — https://powo.science.kew.org/taxon/229927-2",
+            "WFO, Laelia splendida — https://www.worldfloraonline.org/taxon/wfo-0000222130",
+            "IPNI, combinação Laelia splendida (1941) — https://www.ipni.org/n/134724-2",
+            "Smithsonian Gardens, Laelia splendida — https://si.gardenexplorer.org/taxon-24367.aspx",
+            "IOSPE, Schomburgkia splendida — https://www.orchidspecies.com/scombsplendida.htm"
         ]
     },
     indiceDificuldadeCultivo: {
