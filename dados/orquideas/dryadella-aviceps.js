@@ -23,7 +23,7 @@ export const dryadellaAviceps = {
         "imagens/Dryadella aviceps/Dryadella aviceps3.webp",
         "imagens/Dryadella aviceps/Dryadella aviceps4.jpg"
     ],
-    descricao: "Pequena no tamanho, mas cheia de detalhes! Dryadella aviceps forma tufos compactos de folhas firmes e produz minúsculas flores de cerca de 5 mm muito próximas à base da planta. O nome comum em inglês faz alusão ao formato da flor, lembrando uma pequena cabeça de ave. Ocorre no leste e sul do Brasil e chega ao Paraguai, em altitudes bastante variadas — aproximadamente 310 a 1.500 m — o que explica sua capacidade de crescer desde condições relativamente quentes até ambientes mais frescos. Em cultivo, aprecia umidade regular, raízes arejadas e pouca perturbação da touceira.",
+    descricao: "Pequena no tamanho, mas cheia de detalhes, Dryadella aviceps forma tufos compactos de folhas firmes e produz flores discretas muito próximas à base da planta. Suas estruturas florais delicadas merecem observação de perto, pois o tamanho e a aparência podem passar despercebidos entre as folhas. Ocorre no Brasil e no Paraguai, inclusive em ambientes florestais sazonais e restingas arbóreas, mostrando uma distribuição ecológica mais ampla do que a de uma espécie exclusivamente montana. Em cultivo, a touceira aprecia sombra luminosa, umidade regular e raízes ventiladas. Uma placa pequena pode favorecer seu hábito epífito, desde que a secagem não seja excessiva.",
     origem: "América do Sul",
     regiao: "Leste e Sul do Brasil · Paraguai",
     habitat: "Epífita · florestas sazonais · ~310–1.500 m.",
@@ -55,8 +55,8 @@ export const dryadellaAviceps = {
         titulo: "Substrato ideal",
         contexto: "Mistura alternativa para vaso miniatura ou cachepô, sem esfagno",
         resumo: "Mistura de partículas pequenas, arejada e com retenção moderada; evitar compactação ao redor do rizoma.",
-        justificativa: "Dryadella aviceps é uma miniatura que se beneficia de raízes ventiladas e umidade controlada. A montagem em placa ou tronco permanece como cultivo principal, exigindo atenção à secagem das raízes expostas. Em vaso miniatura ou cachepô, os chips de coco preparados e a casca de pinus fina oferecem apoio e alguma retenção de umidade, enquanto a perlita mantém espaços de ar. Evite compactação e ajuste as regas à secagem real do recipiente.",
-        receitaTexto: "40% chips de coco pequenos preparados + 35% casca de pinus fina + 25% perlita de granulometria adequada a miniaturas.",
+        justificativa: "Dryadella aviceps é uma miniatura que se beneficia de raízes ventiladas e umidade controlada. A montagem em placa ou tronco permanece como cultivo principal, exigindo atenção à secagem das raízes expostas. Em vaso miniatura ou cachepô, os chips de coco lavados e a casca de pinus fina oferecem apoio e alguma retenção de umidade, enquanto a perlita mantém espaços de ar. Evite compactação e ajuste as regas à secagem real do recipiente.",
+        receitaTexto: "40% chips de coco pequenos lavados + 35% casca de pinus fina + 25% perlita de granulometria adequada a miniaturas.",
         perfil: ["Miniatura epífita", "Raízes finas", "Touceira compacta", "Umidade regular", "Sombra luminosa"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -65,12 +65,12 @@ export const dryadellaAviceps = {
             { nome: "Compactação", valor: 2, icone: "🧱" }
         ],
         itens: [
-            { asset: "chips-coco", nome: "Chips de coco pequenos preparados", proporcao: "40%", nota: "umidade moderada", finalidade: "Retém umidade sem formar massa densa em recipiente pequeno." },
+            { asset: "chips-coco", nome: "Chips de coco pequenos lavados", proporcao: "40%", nota: "umidade moderada", finalidade: "Retém umidade sem formar massa densa em recipiente pequeno." },
             { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "35%", nota: "estrutura", finalidade: "Acomoda raízes finas mantendo pequenos espaços de ar." },
             { asset: "perlita", nome: "Perlita calibrada para miniaturas", proporcao: "25%", nota: "aeração", finalidade: "Ajuda a manter drenagem e evitar compactação." }
         ],
         alerta: "Evitar divisão desnecessária, vaso grande, secagem total das raízes, sol direto e esfagno envelhecido ou compactado. Não usar encharcamento como método de resfriamento.",
-        notaEvidencia: "MACS 1.1: POWO/Kew aceita Dryadella aviceps como epífita; revisão taxonômica brasileira de 2024 confirma ampla sinonímia e ocorrência em florestas secas/abertas e restingas arbóreas, sem oferecer ensaio de substrato. Orquidário Oriental recomenda especificamente amarrar em árvores ou placas, com umidade elevada e pouca luz, mas não informa receita de vaso. AOS recomenda atenção à desidratação de orquídeas montadas em calor; orientação geral, não ensaio desta espécie. A mistura de vaso 40% chips de coco preparados + 35% pinus fino + 25% perlita calibrada é hipótese horticultural NÃO homologada, sem validação quantitativa específica nem consenso de 25 produtores brasileiros. As duas alternativas não possuem proporções publicadas. A soma de 100% na receita visual é apenas consistência aritmética, não homologação científica. Estrelas provisórias."
+        notaEvidencia: "MACS 1.1: POWO/Kew aceita Dryadella aviceps como epífita; revisão taxonômica brasileira de 2024 confirma ampla sinonímia e ocorrência em florestas secas/abertas e restingas arbóreas, sem oferecer ensaio de substrato. Orquidário Oriental recomenda especificamente amarrar em árvores ou placas, com umidade elevada e pouca luz, mas não informa receita de vaso. AOS recomenda atenção à desidratação de orquídeas montadas em calor; orientação geral, não ensaio desta espécie. A mistura de vaso 40% chips de coco lavados + 35% pinus fino + 25% perlita calibrada é hipótese horticultural NÃO homologada, sem validação quantitativa específica nem consenso de 25 produtores brasileiros. As duas alternativas não possuem proporções publicadas. A soma de 100% na receita visual é apenas consistência aritmética, não homologação científica. Estrelas provisórias."
     },
     errosComuns: "Dividir touceiras pequenas; usar vaso grande; secar totalmente as raízes; manter esfagno velho e compacto; excesso de sais; sol direto; baixa ventilação; tratar a espécie como obrigatoriamente fria; encharcar durante noites quentes; adubação concentrada.",
     dica: "O melhor indicador de acerto é uma touceira compacta, firme e com raízes ativas. No litoral quente, não tente 'resfriar' a planta mantendo o vaso encharcado: ofereça sombra luminosa, ventilação contínua e umidade do ar, enquanto o substrato permanece pequeno e oxigenado.",
