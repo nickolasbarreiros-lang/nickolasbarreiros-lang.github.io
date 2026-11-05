@@ -37,7 +37,7 @@ export const sophronitisWittigiana = {
         "horario": "Início da manhã ou final da tarde",
         "observacoes": "Precisa de luz filtrada brilhante para florescer, mas as folhas aquecem rapidamente. Folhas verde-médio a verde-claro e pseudobulbos compactos indicam boa exposição. Folhas muito escuras indicam sombra; avermelhamento intenso, amarelecimento e áreas secas indicam excesso de luz ou calor."
     },
-    "floracao": "Floresce principalmente do outono ao inverno, com registros naturais concentrados entre abril e agosto. A haste é curta e produz uma ou poucas flores grandes em relação ao porte da planta, normalmente em tons rosa a magenta. Em cultivo, a duração das flores melhora quando as noites permanecem amenas e a planta não sofre calor excessivo.",
+    "floracao": "No Brasil, Cattleya wittigiana, também conhecida como Sophronitis wittigiana, floresce principalmente de abril a julho, conforme o tratamento botânico da Flora do Brasil. Alguns orquidários mencionam inverno e primavera em cultivo, mas essa indicação mais ampla não comprova agosto ou outros meses para todas as plantas. A haste é curta, geralmente com uma única flor, excepcionalmente mais, muito grande em relação à miniatura: cerca de 4 a 6,5 cm, com sépalas e pétalas em tons de rosa-claro, rosa intenso ou magenta, podendo ocorrer formas avermelhadas e alaranjadas. O labelo acompanha a tonalidade da flor e envolve parcialmente a coluna. Um orquidário brasileiro informa duração ornamental de até 30 dias em condições favoráveis, valor de cultivo que não deve ser tomado como longevidade garantida de cada flor. Não há confirmação suficientemente consistente de perfume ou de notas aromáticas específicas para a espécie pura; informações de híbridos com C. wittigiana não foram utilizadas.",
     "adubacao": "🌿 Orgânica: bokashi em quantidade mínima e distante do rizoma; em plantas montadas, pode ser dispensado.\n💧 Mineral/Foliar: NPK equilibrado em cerca de 1/4 da dose a cada 15 dias durante crescimento ativo.\n💦 Água: prefira água de chuva, filtrada ou de baixa salinidade.\n🌱 Brotação: mantenha nutrição suave enquanto houver novas raízes e pseudobulbos.\n🧪 Liberação lenta: geralmente não recomendada em placas; em vaso, use dose mínima.\n🚿 Flushing: lave suporte e raízes regularmente com água pura.",
     "rega": "Durante brotação e enraizamento, regue com frequência pela manhã e permita secagem superficial rápida. Mantenha umidade ambiental alta sem deixar o suporte saturado. No inverno, reduza ligeiramente conforme a evaporação, sem deixar a miniatura seca por muitos dias. Em ondas de calor, borrife o ambiente e o suporte cedo, mas a planta deve chegar seca à noite. Pseudobulbos enrugados podem indicar falta de água ou perda de raízes; examine antes de aumentar regas.",
     "suporte": "🥇 Placa de cortiça ou madeira dura com lâmina mínima de esfagno — máxima aeração e controle da umidade.\n🥈 Pequeno cachepô muito vazado — mantém as raízes frescas sem sufocamento.\n🥉 Vaso de barro mínimo, raso e muito perfurado — alternativa para locais de secagem rápida.\nEvite suportes grandes e replantes frequentes.",
@@ -222,13 +222,7 @@ export const sophronitisWittigiana = {
         "litoralQuente": "Cultivo difícil, especialmente no verão. Use o setor mais fresco e ventilado, longe do teto quente e do sol da tarde. Molhe o ambiente pela manhã, use água de baixa salinidade e não mantenha a planta molhada à noite.",
         "montanhaFrio": "É o ambiente mais favorável. Proteja apenas de geadas, vento seco e encharcamento prolongado."
     },
-    "mesesFloracao": [
-        4,
-        5,
-        6,
-        7,
-        8
-    ],
+    "mesesFloracao": [4, 5, 6, 7],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
