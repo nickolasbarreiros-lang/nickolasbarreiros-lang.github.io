@@ -6,7 +6,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
     "nome": "Cattleya tigrina 'Dark Princess'",
     "genero": "Cattleya",
     "sinonimo": "Cattleya leopoldii",
-    "tipo": "Espécie botânica",
+    "tipo": "Espécie botânica — cultivar selecionado",
     "dificuldade": "Moderada",
     "caracteristicas": [
         "Cattleya bifoliada brasileira de porte alto",
@@ -23,7 +23,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
         "imagens/Cattleya tigrina 'Dark Princess'/Cattleya tigrina 'Dark Princess'3.webp",
         "imagens/Cattleya tigrina 'Dark Princess'/Cattleya tigrina 'Dark Princess'4.jpg"
     ],
-    "descricao": "Alta, elegante e impossível de passar despercebida, Cattleya tigrina 'Dark Princess' chama atenção tanto pelo porte quanto pelas florações abundantes. Seus longos pseudobulbos bifoliados sustentam cachos com várias flores cerosas e perfumadas, densamente pintalgadas; neste cultivar, predominam tons profundos de castanho-avermelhado, bronze e vinho, contrastando com o labelo magenta intenso. Durante muito tempo a espécie ficou popularmente conhecida no cultivo como Cattleya leopoldii, nome que ainda aparece com frequência em coleções. É uma Cattleya que gosta de espaço, muita claridade e ventilação, e quando adulta pode formar uma touceira alta e espetacular, com diversas flores abertas ao mesmo tempo.",
+    "descricao": "Alta, elegante e impossível de passar despercebida, Cattleya tigrina 'Dark Princess' chama atenção pelo porte e pelas florações vistosas. Seus longos pseudobulbos bifoliados sustentam inflorescências com várias flores cerosas, perfumadas e densamente pintalgadas. Neste cultivar, predominam tons escuros de castanho-avermelhado, bronze e vinho, em contraste com o labelo magenta intenso. A espécie também foi amplamente conhecida como Cattleya leopoldii, nome ainda encontrado em coleções. Originária de florestas costeiras e ambientes luminosos do Brasil, cresce como epífita, formando touceiras altas com raízes que apreciam ventilação. O conjunto precisa de espaço e apoio firme, especialmente quando uma planta adulta sustenta diversas flores abertas ao mesmo tempo.",
     "origem": "Brasil",
     "regiao": "Mata Atlântica do Sul e Sudeste",
     "habitat": "Florestas costeiras claras · copas ventiladas",
@@ -43,7 +43,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso de Barro",
-    "resumo": "MACS 1.0: vaso de barro (82/100), cesto de madeira (79/100) e plástico vasado (78/100). As notas são estimativas heurísticas para plantas adultas altas.",
+    "resumo": "Vaso de barro estável é o suporte principal para plantas adultas altas; cachepô de madeira aberto é alternativa ventilada. As avaliações de suporte são estimativas, não ensaios comparativos.",
     "metodos": [
         {
             "nome": "Vaso de Barro",
@@ -92,7 +92,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
         { "asset": "carvao-vegetal", "nome": "Carvão vegetal horticultural", "proporcao": "16,7%", "nota": "aeração complementar", "finalidade": "Complementa a estrutura na proporção institucional genérica 5:1." }
     ],
     "alerta": "AOS recomenda drenagem central ampla e estabilidade para a espécie. Não confundir mistura genérica de Cattleyas com ensaio do cultivar; fixar pseudobulbos altos e evitar centro do vaso saturado.",
-    "notaEvidencia": "MACS 1.1: POWO/Kew aceita Cattleya tigrina e trata C. leopoldii como sinônimo. AOS recomenda especificamente vaso de barro, drenagem central ampliada e casca/coco grosso para C. tigrina: https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-tigrina . Orquidários Mogi Mirim e Bioma Plantas citam pinus, carvão e esfagno; Matsuoka cita toco ou brita; nenhum publica proporções para o cultivar. A referência institucional atribuída ao Missouri Botanical Garden usa genericamente para Cattleyas cinco partes de casca de abeto média para uma de carvão horticultural; a substituição por pinus grosso nesta ficha é adaptação técnica: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids . Receita 83,3/16,7 é adaptação de referência genérica de grupo, NÃO HOMOLOGAÇÃO experimental para C. tigrina ou Dark Princess. Duas alternativas qualitativas sem percentuais; escores 82/79/78 heurísticos e meta 25 produtores não atingida."
+    "notaEvidencia": "MACS 1.1: POWO/Kew aceita Cattleya tigrina e trata C. leopoldii como sinônimo. AOS recomenda especificamente vaso de barro, drenagem central ampliada e casca/coco grosso para C. tigrina: https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-tigrina . Fontes comerciais Mogi Mirim, Bioma Plantas e Matsuoka são citadas anteriormente para a espécie ou formas afins, sem reconfirmação individual nesta passagem; nenhuma receita percentual específica para o cultivar foi comprovada. A referência institucional atribuída ao Missouri Botanical Garden usa genericamente para Cattleyas cinco partes de casca de abeto média para uma de carvão horticultural; a substituição por pinus grosso nesta ficha é adaptação técnica: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids . Receita 83,3/16,7 é adaptação de referência genérica de grupo, NÃO HOMOLOGAÇÃO experimental para C. tigrina ou Dark Princess. Duas alternativas qualitativas sem percentuais; escores 82/79/78 heurísticos e meta 25 produtores não atingida."
 },
     "errosComuns": "Pouca luz; vaso leve; ausência de tutoramento; amarrar o broto com excesso de pressão; tentar endireitar pseudobulbo maduro; substrato fino; excesso de água no inverno; excesso de nitrogênio; girar o vaso durante a haste; dividir em poucas frentes; impedir espaço vertical; deixar o rizoma frouxo.",
     "dica": "Tutore a frente nova desde os primeiros centímetros de alongamento. Use amarração flexível, com folga para o espessamento, e ajuste gradualmente. Instale o vaso definitivo em local estável antes que a planta fique alta. Depois do endurecimento dos tecidos, não tente dobrar ou reposicionar a haste. A estabilidade física melhora a orientação da haste, protege raízes novas e evita que o conjunto tombe com o peso das flores.",
@@ -233,7 +233,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, o calor favorece o crescimento. Forneça luz alta, muita ventilação, vaso pesado e rega matinal. Proteja apenas do sol abrasador do meio-dia.",
+        "litoralQuente": "Em regiões litorâneas de clima quente, o calor favorece o crescimento. Forneça luz alta, muita ventilação, vaso pesado e rega matinal. Proteja apenas do sol abrasador do meio-dia.",
         "montanhaFrio": "Tolera noites amenas, mas deve ser protegida de frio intenso. Regue pela manhã para permitir secagem completa."
     },
     "mesesFloracao": [
