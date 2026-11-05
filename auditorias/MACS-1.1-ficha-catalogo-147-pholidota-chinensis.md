@@ -48,3 +48,9 @@ Workflow aprovado e carregamento das quatro fotos/assets verificado automaticame
 - **IAR 2.0 montanha:** fatores 5/5/4/4/4/5/5: 30+30+4+4+4+5+20 = **97/100** (antes 92); cinco estrelas mantidas.
 - **IDC 3.2:** índice documental 47/100, três estrelas; faixas atualizadas para 0–25 (5 estrelas), 26–35 (4), 36–50 (3), 51–89 (2), 90–100 (1). Não foi reconstruída independentemente a fórmula de conversão das notas individuais para 47/100.
 - Esta revisão é **correção de dados da ficha 147 do catálogo**, não atribuição de número 147 à sequência de matrizes MACS 1.1. A revisão técnica requer confirmação de testes após a alteração.
+
+## Encerramento da revisão corretiva — 2026-11-05
+- Commit `6f9b8c7` restaurou o crédito público da quarta foto na galeria da ficha (autoria Elena Gaillard, fonte Wikimedia Commons e licença CC BY 2.0).
+- GitHub Actions **Conferência visual MACS 1.1 — ficha 147**, execução `42063998794`: **success**, com verificação automatizada Chromium. Outros workflows visuais de outras fichas são independentes.
+- No commit `6f9b8c7`, build, deploy GitHub Pages, validação e pacote diferencial: **success**.
+- Revisão corretiva tecnicamente concluída, sem afirmar homologação científica quantitativa: **MACS classe D**, estrelas dos suportes sem pontuação experimental (`null`).
