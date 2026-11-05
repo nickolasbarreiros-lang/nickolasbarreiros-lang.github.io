@@ -42,7 +42,7 @@ export const bifrenariaAureofulva = {
         metodos: [
             { nome: "Vaso de Barro", asset: "bifrenaria-aureofulva-vaso-barro", estrelas: null, status: "Preferência técnica provisória", texto: "Combina estabilidade para a touceira com maior troca gasosa e secagem mais segura da mistura, reduzindo o risco de umidade persistente junto aos pseudobulbos." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Oferece excelente ventilação lateral e drenagem; exige atenção para não secar rápido demais durante o crescimento ativo." },
-            { nome: "Vaso plástico", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Funciona bem com vaso proporcional à touceira e mistura estrutural muito drenante, controlando a frequência de rega por reter umidade por mais tempo." },
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Alternativa provisória", texto: "Funciona bem com vaso proporcional à touceira e mistura estrutural muito drenante, controlando a frequência de rega por reter umidade por mais tempo." },
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa provisória", texto: "Mantém alta aeração e drenagem, mas acelera bastante a secagem e aumenta a necessidade de regas no período quente." }
         ]
     },
