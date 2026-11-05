@@ -36,7 +36,7 @@ export const cattleyaLoddigesii = {
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose semanal ou quinzenalmente enquanto houver brotos e raízes em crescimento. Próximo à maturação dos pseudobulbos, pode-se reduzir a frequência ou o nitrogênio, sem necessidade de adubos excessivamente ricos em fósforo.\n🧪 Liberação lenta: Osmocote 14-14-14 ou equivalente em dose moderada, sem encostar diretamente nas raízes novas e evitando sobreposição com adubação líquida intensa.",
     rega: "Durante brotação e enraizamento, regue abundantemente e permita que o substrato perca boa parte da umidade antes da próxima irrigação. No outono e inverno, reduza a frequência conforme temperatura, chuva, atividade radicular e velocidade de secagem, sem deixar os pseudobulbos desidratarem em excesso. Cattleya loddigesii não exige repouso seco rigoroso.",
     suporte: "🥇 Vaso de barro pequeno ou médio, apenas do tamanho necessário.\n🥈 Cachepô de madeira, excelente para formar touceiras com várias frentes.\n🥉 Placa ou tronco, especialmente em ambientes de alta umidade, lembrando que plantas adultas ficam pesadas e exigem regas mais frequentes.",
-    substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios preparados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
+    substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios lavados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
     formasCultivo: {
     "perfilVisual": "cattleya",
     "destaque": "Vaso de Barro",
@@ -76,7 +76,7 @@ export const cattleyaLoddigesii = {
     "titulo": "Substrato ideal",
     "contexto": "Proposta de mistura para recipiente",
     "resumo": "Composição sugerida conforme o porte, recipiente e aeração necessários.",
-    "justificativa": "Cattleya loddigesii se beneficia de raízes ventiladas e de um substrato que retenha alguma umidade sem permanecer encharcado. A casca de pinus média oferece estrutura e a casca de arroz carbonizada mantém a mistura aberta e drenante. Observe a secagem no centro do recipiente, ajuste a granulometria ao porte das raízes e evite compactação, especialmente durante a emissão de brotos e raízes novas.",
+    "justificativa": "A receita de pinus e casca de arroz carbonizada em partes iguais foi testada em plântulas de Cattleya loddigesii por Sorace (2008), mas não homologada para plantas adultas. Cattleya loddigesii se beneficia de raízes ventiladas e de um substrato que retenha alguma umidade sem permanecer encharcado. A casca de pinus média oferece estrutura e a casca de arroz carbonizada mantém a mistura aberta e drenante. Observe a secagem no centro do recipiente, ajuste a granulometria ao porte das raízes e evite compactação, especialmente durante a emissão de brotos e raízes novas.",
     "receitaTexto": "50% casca de pinus média + 50% casca de arroz carbonizada (1:1 em volume). Mistura testada em plântulas de Cattleya loddigesii; ajustar granulometria e frequência de regas para plantas adultas.",
     "perfil": [
         "Raízes epífitas",
@@ -95,11 +95,11 @@ export const cattleyaLoddigesii = {
     dica: "Replante apenas quando as primeiras pontas de raízes novas surgirem na base do crescimento mais recente. Esse é o momento em que a planta coloniza rapidamente o novo recipiente. Evite dividir apenas para organizar a touceira: várias frentes significam mais reservas, mais raízes e vários pseudobulbos capazes de florir simultaneamente.",
     revisaoCientificaIAR: {
         "nome": "Cattleya loddigesii",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Clássica, vigorosa e muito florífera, Cattleya loddigesii é uma das grandes representantes das Cattleyas bifoliadas brasileiras. Seus pseudobulbos alongados sustentam normalmente duas folhas firmes e, quando maduros, produzem flores cerosas em delicados tons de rosa a lilás, com labelo mais intenso e um belo toque amarelado na região central. Com o tempo, pode formar grandes to",
+        "statusTaxonomico": "Cattleya loddigesii é espécie aceita em POWO/Kew; possui duas subespécies aceitas.",
+        "sinonimosPrincipais": "Epidendrum loddigesii (sinônimo homotípico da espécie); Cattleya arembergii refere-se à subespécie nominal, não à espécie inteira.",
+        "morfologiaDimensoes": "Cattleya loddigesii é uma das representantes clássicas das Cattleyas bifoliadas do Brasil. Seus pseudobulbos alongados sustentam normalmente duas folhas coriáceas, e as hastes surgem quando os novos crescimentos amadurecem. As flores, geralmente rosadas ou lilases, têm textura cerosa e labelo de coloração mais intensa, muitas vezes com detalhes amarelados no centro. Exemplares adultos podem formar touceiras grandes e florir em várias frentes, criando um conjunto elegante. Nativa das regiões Sudeste e Sul, ocorre como epífita ou rupícola em ambientes florestais com sazonalidade marcada. A combinação de porte vigoroso e flores delicadas tornou a espécie muito apreciada por colecionadores.",
         "habitatAltitudeClima": "Florestas sazonais · epífita ou rupícola | Quente a intermediário · sazonal",
-        "distribuicaoGeografica": "Sudeste ao Paraná",
+        "distribuicaoGeografica": "Sudeste e Sul do Brasil, conforme POWO/Kew.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
         "confianca": "alta",
         "fontes": [
@@ -230,7 +230,7 @@ export const cattleyaLoddigesii = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Adapta-se muito bem à Litoral de clima quente. Mantenha luminosidade alta filtrada, substrato aberto e ventilação constante. No verão, uma planta em vaso muito aerado pode exigir bastante água; no inverno, ajuste a frequência pela secagem real, não apenas pelo calendário." },
+        litoralQuente: { texto: "No litoral quente, pode adaptar-se bem quando há luz filtrada intensa e ventilação. Mantenha luminosidade alta filtrada, substrato aberto e ventilação constante. No verão, uma planta em vaso muito aerado pode exigir bastante água; no inverno, ajuste a frequência pela secagem real, não apenas pelo calendário." },
         montanhaFrio: { texto: "Desenvolve-se muito bem com noites frescas. Mantenha boa claridade, reduza as regas durante sequências frias e úmidas e proteja apenas contra geadas diretas." }
     },
     mesesFloracao: [6, 7, 8, 9, 10],
