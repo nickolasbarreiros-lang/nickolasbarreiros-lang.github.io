@@ -30,7 +30,7 @@ export const epicattleyaReneMarques = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Exige iluminação alta, semelhante à de Cattleya, com aclimatação gradual. Folhas verde-claras e caules firmes indicam boa luz."
     },
-    floracao: "Mais frequente da primavera ao verão, podendo variar entre clones e condições de cultivo.",
+    floracao: "Orquidários brasileiros relatam floração de Epicattleya René Marqués em diferentes estações: há registros na primavera e também no outono e inverno, conforme o clone e as condições de cultivo. Por isso, ainda não há meses específicos suficientemente consistentes para um calendário único. As hastes surgem no alto dos caules maduros e reúnem várias flores cerosas, chegando a cerca de dez por haste em alguns exemplares. Cada flor mede aproximadamente 4 cm e apresenta sépalas e pétalas verdes, com labelo contrastante em tons de amarelo, rosa, alaranjado ou vermelho, dependendo do clone. Produtores brasileiros descrevem exemplares sem perfume perceptível; não há notas aromáticas próprias do híbrido confirmadas. Quanto à duração, há estimativas comerciais de 15 a 25 dias para a floração, além de um relato isolado de quase dois meses, mostrando que a persistência pode variar bastante.",
     adubacao: "🌿 Orgânica: bokashi leve no canto do vaso a cada 2–3 meses durante o crescimento.\n💧 Foliar: NPK equilibrado a cerca de 1/3 da dose semanalmente ou a cada 10–15 dias.\n🧪 Pré-floração: reduza o excesso de nitrogênio e mantenha adubação equilibrada e diluída. Uma fórmula moderadamente mais rica em potássio pode ser alternada ocasionalmente, sem usar doses elevadas de fósforo ou sais.",
     rega: "Regue generosamente durante a emissão de brotos e raízes, permitindo que o substrato se aproxime da secagem antes da próxima irrigação. Reduza a frequência no inverno ou quando não houver crescimento ativo. Evite água acumulada no miolo das folhas e nas inflorescências em formação.",
     suporte: "🥇 Vaso de barro firme e bem drenado.\n🥈 Vaso plástico com furação lateral abundante.\n🥉 Cachepô de madeira robusto.\n🌿 Placa de madeira apenas para divisões jovens e vigorosas.",
@@ -212,7 +212,7 @@ export const epicattleyaReneMarques = {
         litoralQuente: { texto: "Em regiões litorâneas quentes, Garanta ventilação forte, luz alta filtrada e substrato de secagem rápida. O porte pode ultrapassar 1,20 m, por isso reserve espaço e use tutor quando necessário." },
         montanhaFrio: { texto: "Proteja de geadas e ventos muito frios, reduza a rega em dias de baixa temperatura e evite deixar raízes molhadas durante a noite." }
     },
-    mesesFloracao: [9, 10, 11, 12, 1, 2],
+    mesesFloracao: [],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
