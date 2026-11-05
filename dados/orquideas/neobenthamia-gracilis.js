@@ -36,7 +36,7 @@ export const neobenthamiaGracilis = {
     "adubacao": "🌿 Orgânica: aplique Bokashi, húmus bem curtido ou composto orgânico maduro em pequena quantidade na superfície, a cada 2–3 meses durante o crescimento.\n💧 Mineral: NPK equilibrado, como 10-10-10 ou 20-20-20, em dose moderada a cada 10–15 dias durante o crescimento dos caules.\n🧪 Liberação lenta: Osmocote funciona bem em recipientes grandes e muito drenantes, respeitando a dose do fabricante e mantendo os grânulos longe dos brotos.\n🌱 Em canteiros: uma cobertura morta leve ajuda a conservar umidade e matéria orgânica, sem encostar no colo da planta.",
     "rega": "Durante o crescimento ativo, mantenha o substrato uniformemente úmido, regando abundantemente e deixando toda a água excedente escoar. Por ser terrestre, tolera mais retenção que muitas epífitas, mas não aceita solo lodoso, compactado ou sem oxigênio. No período frio, reduza a frequência e mantenha apenas umidade residual. Seca severa no verão paralisa a expansão dos caules, resseca folhas e pode abortar a formação das inflorescências apicais.",
     "suporte": "🥇 Vaso grande e pesado de barro, cerâmica ou plástico espesso: evita tombamento pelo peso da parte aérea.\n🥈 Jardineira profunda e drenada: permite formar touceiras densas e alinhadas.\n🥉 Canteiro protegido: excelente para jardins tropicais de sombra clara, desde que o solo seja solto e drenante.\nUse tutores de bambu, fibra ou madeira desde o início do alongamento, antes que os caules se inclinem ou quebrem.",
-    substrato: ["Casca de arroz carbonizada + fibra de coco grossa preparada + perlita grossa + pequena fração de casca de pinus fina","Chips de coco pequenos preparados + casca de arroz carbonizada + perlita grossa + argila expandida miúda"],
+    substrato: ["Casca de arroz carbonizada + fibra de coco grossa lavada + perlita grossa + pequena fração de casca de pinus fina","Chips de coco pequenos lavados + casca de arroz carbonizada + perlita grossa + argila expandida miúda"],
     formasCultivo: {
         perfilVisual: "terrestre-rupicola-canes-alto-porte",
         destaque: "Vaso de Barro",
@@ -52,8 +52,8 @@ export const neobenthamiaGracilis = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso pesado e bem drenado",
         resumo: "Mistura leve, com retenção moderada e boa drenagem para uma touceira terrestre ou rupícola de grande porte.",
-        justificativa: "Neobenthamia gracilis pode alcançar grande porte e precisa de recipiente estável, com espaço para as raízes e boa drenagem. A casca de macadâmia oferece estrutura, a casca de arroz carbonizada e a perlita mantêm a mistura arejada e a fibra de coco grossa preparada ajuda a conservar umidade moderada. Observe a secagem no centro do vaso e ajuste as regas sem compactar o substrato.",
-        receitaTexto: "35% casca de macadâmia média + 25% casca de arroz carbonizada + 20% perlita grossa + 20% fibra de coco grossa preparada.",
+        justificativa: "Polystachya neobenthamia (sin. Neobenthamia gracilis) pode alcançar grande porte e precisa de recipiente estável, com espaço para as raízes e boa drenagem. A proporção 35/25/20/20 é uma hipótese horticultural sem ensaio específico. A casca de macadâmia oferece estrutura, a casca de arroz carbonizada e a perlita mantêm a mistura arejada e a fibra de coco grossa lavada ajuda a conservar umidade moderada. Observe a secagem no centro do vaso e ajuste as regas sem compactar o substrato.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a espécie: 35% casca de macadâmia média + 25% casca de arroz carbonizada + 20% perlita grossa + 20% fibra de coco grossa lavada.",
         perfil: ["Terrestre ou rupícola", "Grande porte", "Touceira de caules altos", "Boa drenagem", "Umidade regular"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -65,7 +65,7 @@ export const neobenthamiaGracilis = {
             { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura", finalidade: "Mantém espaços de ar e estrutura durável." },
             { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "25%", nota: "leveza", finalidade: "Contribui para porosidade e drenagem." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Favorece oxigenação e saída do excesso de água." },
-            { asset: "fibra-coco", nome: "Fibra de coco grossa preparada", proporcao: "20%", nota: "umidade", finalidade: "Ajuda a reter umidade entre regas sem compactar." }
+            { asset: "fibra-coco", nome: "Fibra de coco grossa lavada", proporcao: "20%", nota: "umidade", finalidade: "Ajuda a reter umidade entre regas sem compactar." }
         ],
         alerta: "Usar tutor e vaso estável. Evitar solo argiloso, encharcamento contínuo, sombra excessiva, matéria orgânica fresca junto às raízes e corte de caules verdes.",
         notaEvidencia: "MACS 1.1 — revisão documental: a ficha usa o nome aceito Polystachya neobenthamia (sin. Neobenthamia gracilis), espécie terrestre/rupícola de caules altos, requerendo estabilidade e drenagem. Vaso de barro 5 estrelas, plástico 4, cachepô e plástico vasado 3: hipótese horticultural sem comparação controlada. Receita visual 35% macadâmia média + 25% casca de arroz carbonizada + 20% perlita grossa + 20% fibra de coco grossa = 100%. Receita principal textual e visual concordam (35% macadâmia, 25% casca de arroz carbonizada, 20% perlita, 20% fibra de coco). As duas alternativas são qualitativas e não contêm macadâmia; não há equivalência quantitativa entre elas. POWO aceita Polystachya neobenthamia, com Neobenthamia gracilis como sinônimo homotípico; Flora of Tropical East Africa descreve faces rochosas expostas e saliências musgosas entre 450–1.800 m. IOSPE recomenda mistura à base de cascas em vaso, mas não a composição cadastrada. Sem evidência específica de produtores brasileiros para estes percentuais, nem comparação de suportes; meta de até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
@@ -75,8 +75,8 @@ export const neobenthamiaGracilis = {
     revisaoCientificaIAR: {
         "nome": "Polystachya neobenthamia",
         "statusTaxonomico": "Nome aceito usado na ficha: Polystachya neobenthamia.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma orquídea africana de presença marcante! Forma touceiras altas, com caules finos e folhosos que lembram pequenos bambus e podem ultrapassar 1 metro. No topo dos caules maduros surgem cabeças arredondadas com dezenas de flores brancas, perfumadas e delicadamente marcadas de amarelo e rosa. Apesar do visual exuberante, é uma planta de ambientes quentes a amenos: na Tanzânia cr",
+        "sinonimosPrincipais": "Neobenthamia gracilis (sinônimo homotípico, segundo POWO/Kew).",
+        "morfologiaDimensoes": "Polystachya neobenthamia, conhecida no cultivo como Neobenthamia gracilis, é uma orquídea africana de silhueta incomum. Forma touceiras de caules delgados, eretos e folhosos, semelhantes a pequenos bambus, que podem alcançar aproximadamente dois metros. No topo aparecem inflorescências densas, quase esféricas, com numerosas flores brancas e perfumadas; o labelo exibe uma região amarela delimitada por pequenas marcas rosadas. É nativa do leste da Tanzânia, onde ocupa faces rochosas expostas e saliências com musgo, em altitudes variadas. O contraste entre os caules altos e os buquês compactos torna sua floração especialmente marcante.",
         "habitatAltitudeClima": "Rochas e encostas · 380–2.000 m. | Quente a ameno · alta luz.",
         "distribuicaoGeografica": "Leste da Tanzânia.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
@@ -209,7 +209,7 @@ export const neobenthamiaGracilis = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, apresenta excelente vigor durante quase todo o ano. Ofereça 30–50% de sombra, sol matinal, regas frequentes no verão e proteção contra o sol forte após 10h. Vasos pesados ou canteiros drenados são as melhores opções.",
+        "litoralQuente": "No litoral quente, o cultivo exige acompanhamento da temperatura e da secagem: ofereça 30–50% de sombra, sol fraco da manhã após aclimatação, ventilação e regas ajustadas ao crescimento. Evite calor excessivo e sol forte; prefira vaso pesado ou canteiro bem drenado.",
         "montanhaFrio": "Proteja de geadas e ventos muito frios. Em semanas frias e chuvosas, reduza bastante a água, mantendo o substrato apenas levemente úmido e bem aerado."
     },
     "mesesFloracao": [
