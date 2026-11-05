@@ -23,7 +23,7 @@ export const oncidiumPubes = {
     ],
     "descricao": "Gomesa pubes, conhecida historicamente como Oncidium pubes, é uma orquídea epífita brasileira que forma touceiras de pseudobulbos agrupados, cada um com duas folhas estreitas. Suas hastes arqueadas ou pendentes podem alcançar cerca de 60 cm e se ramificam em numerosos grupos de flores pequenas, geralmente amarelas com desenhos castanhos. Cada flor mede até aproximadamente 2,5 cm, e o nome pubes faz referência aos pelos próximos ao estigma. Encontrada em florestas úmidas do Sudeste brasileiro, chama atenção pelo aspecto leve das inflorescências e pela abundância de flores que surgem entre a primavera e o verão.",
     "origem": "Brasil",
-    "regiao": "Sul do RJ e São Paulo",
+    "regiao": "Sudeste do Brasil",
     "habitat": "Mata Atlântica úmida · epífita.",
     "clima": "Quente a ameno · ventilado.",
     "climaFloracao": "A floração depende de pseudobulbos maduros, boa reserva de energia e luminosidade filtrada relativamente alta. Como Kew registra a espécie em floresta tropical úmida do Sudeste brasileiro, não há justificativa para um repouso seco severo. Após a maturação, apenas aumente um pouco o intervalo entre regas. Em litoral quente, ventilação e raízes oxigenadas são mais importantes que tentar induzir frio artificial.",
@@ -33,11 +33,11 @@ export const oncidiumPubes = {
         "horario": "Início da manhã ou final da tarde",
         "observacoes": "Exige luz semelhante à de Cattleya moderada. Folhas verde-oliva claras e pseudobulbos compactos indicam equilíbrio. Folhas muito escuras, moles e pseudobulbos alongados sugerem sombra excessiva; amarelecimento rápido, manchas secas ou tecido bronzeado indicam excesso de sol ou calor."
     },
-    "floracao": "A floração costuma ocorrer da primavera ao início do verão, quando hastes arqueadas e ramificadas podem carregar dezenas de flores amarelas com marcações castanho-avermelhadas. O tamanho e a quantidade de ramos variam com o vigor da planta. Durante o alongamento, mantenha o vaso na mesma orientação em relação à luz para reduzir curvas e torções na haste.",
+    "floracao": "O IOSPE registra floração na primavera e no verão, mas a matriz não confirma meses universais para o Brasil. Quando hastes arqueadas e ramificadas podem carregar dezenas de flores amarelas com marcações castanho-avermelhadas. O tamanho e a quantidade de ramos variam com o vigor da planta. Durante o alongamento, mantenha o vaso na mesma orientação em relação à luz para reduzir curvas e torções na haste.",
     "adubacao": "🌿 Orgânica: bokashi em pequena porção dentro de porta-adubo, afastado do rizoma e dos brotos.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em 1/4 da dose a cada 10–15 dias durante brotação, enraizamento e formação do pseudobulbo.\n🧪 Liberação lenta: poucos grânulos apenas em vasos muito drenantes, sem contato com raízes novas.\n🚿 Flushing: uma rega abundante só com água pura aproximadamente uma vez por mês. Reduza a adubação quando o pseudobulbo estiver maduro para evitar crescimento vegetativo excessivo.",
     "rega": "Regue generosamente enquanto novos brotos e raízes estiverem ativos, permitindo que o substrato se aproxime da secagem antes da próxima irrigação. Após a maturação, aumente moderadamente o intervalo. Pseudobulbos ligeiramente sulcados podem ser normais; enrugamento profundo com substrato úmido sugere raízes mortas por abafamento. Raízes novas apresentam pontas claras ou verdes; raízes escuras, ocas ou moles indicam substrato velho, excesso de água ou falta de oxigênio.",
     "suporte": "🥇 Vaso de barro pesado ou plástico bem perfurado com ancoragem: evita tombamento pelo peso da haste.\n🥈 Cesto de madeira: permite boa aeração e livre desenvolvimento das inflorescências arqueadas.\n🥉 Placa de madeira dura: indicada apenas em ambientes úmidos com regas frequentes.\nTutores devem ser instalados cedo e presos com folga, sem apertar a haste ainda em alongamento.",
-    substrato: ["Casca de pinus média + perlita grossa + argila expandida miúda + pequena fração de esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de fibra de coco grossa preparada"],
+    substrato: ["Casca de pinus média + perlita grossa + argila expandida miúda + pequena fração de esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de fibra de coco grossa lavada"],
     formasCultivo: {
         perfilVisual: "gomesa-epifita-hastes-longas-arqueadas",
         destaque: "Vaso de Barro",
@@ -53,8 +53,8 @@ export const oncidiumPubes = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso estável e perfurado",
         resumo: "Retenção moderada, drenagem eficiente e boa oxigenação para raízes epífitas, sem compactação junto ao rizoma.",
-        justificativa: "Esta orquídea pode produzir hastes longas e se beneficia de vaso estável e bem perfurado, sem enterrar o rizoma. A casca de pinus oferece estrutura, os chips de coco médios preparados conservam umidade moderada e a perlita e o carvão favorecem a aeração. Um vaso de barro pesado ajuda na estabilidade; observe a secagem e ajuste as regas conforme a ventilação.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco médios preparados + 25% perlita grossa + 10% carvão vegetal.",
+        justificativa: "A receita 35/30/25/10 é proposta horticultural sem ensaio específico de Gomesa pubes; estudos com Oncidium baueri não validam seus percentuais. Esta orquídea pode produzir hastes longas e se beneficia de vaso estável e bem perfurado, sem enterrar o rizoma. A casca de pinus oferece estrutura, os chips de coco médios lavados conservam umidade moderada e a perlita e o carvão favorecem a aeração. Um vaso de barro pesado ajuda na estabilidade; observe a secagem e ajuste as regas conforme a ventilação.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a espécie: 35% casca de pinus média + 30% chips de coco médios lavados + 25% perlita grossa + 10% carvão vegetal.",
         perfil: ["Epífita simpodial", "Pseudobulbos bifoliados", "Hastes ramificadas", "Vaso estável", "Boa aeração"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -64,7 +64,7 @@ export const oncidiumPubes = {
         ],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Apoia raízes sem compactação excessiva." },
-            { asset: "chips-coco", nome: "Chips de coco médios preparados", proporcao: "30%", nota: "umidade", finalidade: "Oferece umidade moderada entre regas." },
+            { asset: "chips-coco", nome: "Chips de coco médios lavados", proporcao: "30%", nota: "umidade", finalidade: "Oferece umidade moderada entre regas." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Favorece drenagem e oxigenação." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Ajuda a manter a mistura aberta." }
         ],
@@ -79,7 +79,7 @@ export const oncidiumPubes = {
         "sinonimosPrincipais": "Oncidium pubes e Baptistonia pubes (homotípicos); Epidendrum gilvum, Gomesa gilva e Oncidium gilvum (heterotípicos). Fonte: POWO e Meneguzzo 2020.",
         "morfologiaDimensoes": "Pseudobulbos agrupados e bifoliados, panículas arqueadas ou pendentes, ramificadas, até cerca de 60 cm; numerosas flores até 2,5 cm, amarelas e castanhas; pelos próximos ao estigma explicam o epíteto pubes (IOSPE).",
         "habitatAltitudeClima": "Mata Atlântica úmida · epífita. | Quente a ameno · ventilado.",
-        "distribuicaoGeografica": "Sul do RJ e São Paulo.",
+        "distribuicaoGeografica": "Sudeste do Brasil, conforme distribuição aceita em POWO; delimitação estadual não estabelecida nesta matriz.",
         "cultivoPremiacao": "Assis et al. estudaram substratos de coco em Oncidium baueri, espécie distinta; não foi localizado ensaio quantitativo específico para Gomesa pubes.",
         "confianca": "media",
         "fontes": [
@@ -213,14 +213,9 @@ export const oncidiumPubes = {
         "litoralQuente": "Em clima quente, cultive sob 50–60% de sombra, com ventilação forte e regas matinais. Evite vasos grandes e abafamento após chuvas prolongadas. A estabilidade do vaso é especialmente importante em locais sujeitos a vento.",
         "montanhaFrio": "Adapta-se muito bem. Noites frescas favorecem crescimento compacto, coloração e hastes firmes. Proteja apenas de geada direta e reduza a água em períodos frios e nublados."
     },
-    "mesesFloracao": [
-        9,
-        10,
-        11,
-        12
-    ],
+    "mesesFloracao": [],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
     },
         "avaliacoes": {
