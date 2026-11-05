@@ -5,7 +5,7 @@ export const oncidiumTwinkle = {
     "nome": "Oncidium Twinkle",
     "genero": "Oncidium",
     "tipo": "Híbrido horticultural",
-    "dificuldade": "Fácil",
+    "dificuldade": "Muito fácil",
     "caracteristicas": [
         "Híbrido compacto e perfumado",
         "Oncidium cheirophorum × Oncidium sotoanum",
