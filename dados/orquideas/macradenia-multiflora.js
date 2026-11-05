@@ -54,7 +54,7 @@ export const macradeniaMultiflora = {
         "🥉 Vaso pequeno e muito perfurado, com mistura leve e de secagem moderada."
     ],
 
-    substrato: ["Casca de pinus + pequena fração de esfagno solto + perlita grossa","Chips de coco preparados + carvão vegetal + perlita grossa"],
+    substrato: ["Casca de pinus + pequena fração de esfagno solto + perlita grossa","Chips de coco médios lavados + carvão vegetal + perlita grossa"],
 
     formasCultivo: {
         perfilVisual: "epifita-compacta-inflorescencia-pendente",
@@ -71,8 +71,8 @@ export const macradeniaMultiflora = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para cachepô pequeno e suspenso",
         resumo: "Substrato leve de secagem moderada, com raízes ventiladas e umidade regular durante o crescimento.",
-        justificativa: "Macradenia multiflora se beneficia de cachepô pequeno e suspenso, com raízes ventiladas, sombra adequada e umidade regular. A casca de pinus média oferece apoio, enquanto a perlita grossa e o carvão mantêm a mistura aberta e drenante. Observe a secagem do recipiente para ajustar as regas e evite compactação. A montagem em tronco é outra opção quando a umidade pode ser mantida.",
-        receitaTexto: "45% casca de pinus média + 30% perlita grossa + 25% carvão vegetal.",
+        justificativa: "Macradenia multiflora se beneficia de cachepô pequeno e suspenso, com raízes ventiladas, sombra adequada e umidade regular. A proporção 45/30/25 é uma hipótese horticultural: a fonte brasileira consultada menciona pinus, mas não valida esta mistura nem seus percentuais. A casca de pinus média oferece apoio, enquanto a perlita grossa e o carvão mantêm a mistura aberta e drenante. Observe a secagem do recipiente para ajustar as regas e evite compactação. A montagem em tronco é outra opção quando a umidade pode ser mantida.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a espécie: 45% casca de pinus média + 30% perlita grossa + 25% carvão vegetal.",
         perfil: ["Epífita compacta", "Inflorescência pendente", "Umidade regular", "Raízes ventiladas", "Secagem moderada"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
