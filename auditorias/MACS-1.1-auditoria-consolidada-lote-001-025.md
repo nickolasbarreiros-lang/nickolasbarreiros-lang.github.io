@@ -345,3 +345,9 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - Morfologia e cultivo qualitativo confrontados com RHS; ocorrência amazônica documentada na Flora do Brasil 2020.
 - Descrição: 117 palavras. Quatro suportes sem estrelas. Duas misturas alternativas qualitativas. Receita 35/25/20/10/10 = 100%, sem alteração.
 - Encerramento documental da ficha 6: MACS 1.1 provisória Classe D, sem validação quantitativa. Conferência visual local segue separada.
+
+### Ficha 7 — Laelia splendida (2026-11-04)
+- POWO/WFO confirmam Laelia splendida (Schltr.) L.O.Williams (1941), com basiônimo Schomburgkia splendida Schltr. (1913), nativa de Colômbia e Equador.
+- Smithsonian descreve exemplares em ambientes expostos e relativamente secos próximos de rios (600–1.500 m regionalmente); POWO classifica o bioma amplo como tropical úmido. Diferenças de escala documentadas sem recomendar sol pleno irrestrito.
+- Conferência estrutural textual: descrição 117 palavras, quatro suportes com estrelas nulas, duas alternativas qualitativas e receita 35/30/20/15 = 100% sem alterações.
+- Homologação documental encerrada com MACS 1.1 provisória Classe D, sem validação experimental dos percentuais. Conferência visual local separada.
