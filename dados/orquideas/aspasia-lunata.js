@@ -46,14 +46,14 @@ export const aspasiaLunata = {
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Adequado", texto: "É biologicamente compatível com o hábito epífito, porém exige regas mais frequentes e controle rigoroso para evitar ressecamento prolongado no clima quente." }
         ]
     },
-    substrato: ["Casca de pinus média + chips de coco médios preparados + perlita grossa + carvão vegetal","Casca de macadâmia média + casca de pinus média + perlita grossa + fibra de coco grossa preparada"],
+    substrato: ["Casca de pinus média + chips de coco médios lavados + perlita grossa + carvão vegetal","Casca de macadâmia média + casca de pinus média + perlita grossa + fibra de coco grossa lavada"],
 
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura estrutural e arejada, com umidade moderada e boa estabilidade para uma epífita que aprecia hidratação regular sem encharcamento.",
-        justificativa: "Aspasia lunata se beneficia de raízes bem ventiladas e umidade moderada durante o crescimento. Em vaso, as cascas de macadâmia e pinus dão sustentação, a casca de arroz carbonizada e o carvão preservam espaços de ar e o esfagno solto ajuda a conservar umidade. Mantenha o substrato arejado, observe a secagem antes de regar novamente e evite que o esfagno fique compactado junto às raízes.",
-        receitaTexto: "Mistura-base sugerida para vaso: 30% casca de macadâmia média + 25% casca de pinus média + 20% casca de arroz carbonizada + 15% carvão vegetal médio + 10% esfagno solto. Proposta técnica a ajustar pela secagem observada.",
+        justificativa: "Aspasia lunata se beneficia de raízes bem ventiladas e umidade moderada durante o crescimento. A composição 30/25/20/15/10 é hipótese horticultural, sem ensaio comparativo específico para a espécie. Em vaso, as cascas de macadâmia e pinus dão sustentação, a casca de arroz carbonizada e o carvão preservam espaços de ar e o esfagno solto ajuda a conservar umidade. Mantenha o substrato arejado, observe a secagem antes de regar novamente e evite que o esfagno fique compactado junto às raízes.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a espécie, em vaso: 30% casca de macadâmia média + 25% casca de pinus média + 20% casca de arroz carbonizada + 15% carvão vegetal médio + 10% esfagno solto. Proposta técnica a ajustar pela secagem observada.",
         perfil: ["Raízes médias", "Boa aeração", "Umidade regular", "Secagem moderada", "Alta estabilidade", "Touceira"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -75,9 +75,9 @@ export const aspasiaLunata = {
     dica: "Evite dividir Aspasia lunata em mudas muito pequenas. Preserve ao menos três a quatro pseudobulbos adultos por divisão para manter reservas suficientes, recuperação rápida e maior capacidade de produzir hastes florais robustas. Mais importante que 'apertar' a planta é oferecer um vaso proporcional, muita aeração e boa luminosidade filtrada.",
     revisaoCientificaIAR: {
         "nome": "Aspasia lunata",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma orquídea brasileira elegante e discreta, a Aspasia lunata chama atenção pelo contraste entre as pétalas e sépalas verde-amareladas, marcadas de castanho, e o labelo amplo em tons claros a violáceos. É uma epífita de porte relativamente compacto, encontrada em florestas úmidas da Bolívia e de várias regiões do Brasil, onde cresce apoiada em árvores sob boa luminosidade filtr",
+        "statusTaxonomico": "Aspasia lunata é nome aceito em POWO/Kew.",
+        "sinonimosPrincipais": "Odontoglossum lunatum (sinônimo homotípico segundo POWO/Kew).",
+        "morfologiaDimensoes": "Uma orquídea brasileira elegante e discreta, a Aspasia lunata chama atenção pelo contraste entre as pétalas e sépalas verde-amareladas, marcadas de castanho, e o labelo amplo em tons claros a violáceos. É uma epífita de porte relativamente compacto, encontrada em florestas úmidas da Bolívia e de várias regiões do Brasil, onde cresce apoiada em árvores sob boa luminosidade filtrada. Seus pseudobulbos achatados carregam folhas estreitas e firmes, enquanto as hastes curtas surgem junto à base dos pseudobulbos maduros e normalmente produzem poucas flores — justamente por isso, cada flor ganha bastante destaque. O nome lunata faz referência à ideia de meia-lua, associada à forma de estruturas florais da espécie.",
         "habitatAltitudeClima": "Florestas tropicais úmidas; epífita sob luz filtrada. | Quente a fresco · úmido e ventilado.",
         "distribuicaoGeografica": "Bolívia; Centro-Oeste, Sudeste e Sul do Brasil.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
@@ -210,12 +210,12 @@ export const aspasiaLunata = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Adapta-se bem quando recebe ventilação forte, luz filtrada e substrato de secagem rápida. Em Litoral de clima quente, evite calor abafado, sol forte da tarde e excesso de água durante períodos nublados." },
+        litoralQuente: { texto: "Adapta-se bem quando recebe ventilação forte, luz filtrada e substrato de secagem rápida. No litoral quente, evite calor abafado, sol forte da tarde e excesso de água durante períodos nublados." },
         montanhaFrio: { texto: "Tolera noites frescas e pode florescer muito bem. Reduza a frequência das regas nos períodos frios, mas proteja de geadas e de substrato saturado por muitos dias." }
     },
     mesesFloracao: [9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
     },
         avaliacoes: {
