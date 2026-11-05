@@ -43,3 +43,14 @@ Diferentes entre si e da receita principal; sem percentuais atribuídos.
 
 ## Parecer final
 **Revisão documental concluída.** Distribuição geográfica corrigida, descrição revista, receita coerente em 100%, duas alternativas distintas e asset padronizado. **Homologação quantitativa específica de Cattleya warneri: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** epífita unifoliada robusta, com pseudobulbos clavados e raízes que precisam de drenagem e aeração. Regas regulares na brotação e expansão das folhas, permitindo secagem perceptível do vaso; após maturação, ampliar intervalos conforme queda da evaporação no inverno, sem desidratação extrema. A espata pode secar externamente antes da floração; não cortá-la automaticamente. Replantar preferencialmente com raízes novas.
+
+**Cultivo principal:** vaso de barro firme e perfurado, proporcional a poucas frentes novas. **Receita em volume:** 35% casca de macadâmia média (estrutura) + 30% casca de pinus média (suporte) + 20% perlita grossa (aeração) + 15% carvão vegetal (porosidade), total 100%. Hipótese horticultural sem ensaio específico; trabalhos com Cattleya intermedia não validam a receita para Cattleya warneri.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa; (2) chips de coco grossos lavados + perlita grossa + carvão vegetal + casca de pinus média. Distintas entre si e da principal. Coco lavado não dispensa eventual controle de salinidade.
+
+**Conferências editoriais:** descrição com 95 palavras (faixa 90–120). Chips de coco grossos lavados na segunda alternativa; justificativa e receita visual agora declaram ausência de homologação. Atualizados status taxonômico, campo de sinônimos sem atribuição não documentada, distribuição Nordeste/Sudeste conforme POWO e morfologia interna antes truncada; corrigida frase regional. Selo de rega alterado de “moderada/reduzir-repouso” para “moderada/reduzir-inverno”, sem repouso seco absoluto. Receita e itens visuais somam 35+30+20+15=100%; duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 44/100 e três estrelas coerentes com IDC 3.2; IAR e estrelas dos suportes preservados. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; zero receitas quantitativas específicas de produtores brasileiros verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
