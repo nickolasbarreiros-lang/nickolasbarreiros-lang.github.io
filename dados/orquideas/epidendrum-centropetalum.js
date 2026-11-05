@@ -75,14 +75,14 @@ export const epidendrumCentropetalum = {
         notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D); não equivale a validação quantitativa dos percentuais ou dos suportes. MACS 1.1 — revisão documental: Epidendrum centropetalum (sin. Oerstedella centradenia), epífita montana com caules finos, keikis e raízes aéreas; umidade regular, ventilação e noites menos abafadas são importantes. Cachepô de Madeira bem vazado é suporte principal; placa/tronco com esfagno fino é método alternativo, não receita principal. Receita visual e textual coincidem: 45% pinus fino + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Não fundamentam os percentuais visuais. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
-        "Cultivar em ambiente quente e sem circulação de ar",
-        "Manter sombra excessivamente profunda",
-        "Deixar raízes e caules jovens secarem por longos períodos",
-        "Manter o substrato permanentemente encharcado",
-        "Aplicar adubo concentrado sobre raízes aéreas",
-        "Cortar keikis saudáveis antes de desenvolverem boas raízes",
-        "Usar vaso grande e pouco aerado",
-        "Expor ao sol forte do meio do dia"
+        "Evite calor abafado, especialmente durante a noite.",
+        "Não mantenha a planta em sombra profunda.",
+        "Não deixe raízes e brotos secarem por muito tempo.",
+        "Evite substrato encharcado e sem ventilação.",
+        "Não aplique adubo concentrado nas raízes aéreas.",
+        "Não retire keikis antes de formarem boas raízes.",
+        "Evite vasos grandes e pouco ventilados.",
+        "Proteja os caules do sol forte do meio-dia."
     ],
     dica: "🏆 Aproveite o hábito de formar keikis: em vez de removê-los cedo, deixe que criem raízes e ajudem a formar uma touceira cheia. Em clima quente, mantenha a planta em posição muito ventilada e com luz filtrada forte; noites menos abafadas costumam fazer mais diferença do que aumentar a adubação.",
     revisaoCientificaIAR: {
@@ -105,9 +105,9 @@ export const epidendrumCentropetalum = {
     indiceDificuldadeCultivo: {
         "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
-        "indice": 45,
-        "classificacao": "Moderada",
-        "cultivoEstrelas": 3,
+        "indice": 31,
+        "classificacao": "Fácil",
+        "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 3,
@@ -233,7 +233,7 @@ export const epidendrumCentropetalum = {
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         avaliacoes: {
-        cultivo: 3,
+        cultivo: 4,
         floracao: 4,
         perfume: 1,
         luminosidade: 3,
