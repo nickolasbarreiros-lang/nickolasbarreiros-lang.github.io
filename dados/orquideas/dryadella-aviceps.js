@@ -35,7 +35,7 @@ export const dryadellaAviceps = {
         horario: "",
         observacoes: "Prefere sombra clara. Folhas excessivamente amarelas ou avermelhadas sugerem luz/calor em excesso; folhas muito escuras e alongadas indicam pouca luminosidade."
     },
-    floracao: "Pode produzir poucas flores sucessivamente em inflorescências muito curtas, de apenas 1–2 mm, surgindo na base do ramicaule. A época pode variar com a procedência e o cultivo; plantas bem estabelecidas podem repetir floração ao longo do ano, sem necessidade de repouso seco.",
+    floracao: "No Brasil, Dryadella aviceps pode florescer em diferentes momentos de todo o ano, conforme registros de populações brasileiras; um orquidário nacional também destaca a floração no verão. As flores aparecem muito próximas à base das folhas, em inflorescências curtíssimas que podem produzir poucas flores sucessivamente, geralmente uma aberta de cada vez. São pequenas, amarelo-escuras a amareladas, com pintas vinho ou arroxeadas nas sépalas e pétalas; as sépalas se abrem de modo a deixar visível o pequeno labelo. Referências descrevem a flor com cerca de 5 mm, enquanto um produtor brasileiro informa aproximadamente 1 a 1,5 cm, diferença que pode refletir a forma de medir. Não há confirmação segura de perfume perceptível nem de notas aromáticas específicas. A duração de cada flor em dias também permanece sem documentação confiável.",
     adubacao: "🌿 Orgânica: evite material concentrado em contato direto com as raízes.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias.\n🌱 Crescimento: pequenas doses frequentes são mais seguras que adubações fortes.\n🧪 Liberação lenta: dispensável em recipientes muito pequenos.\n🚿 Lavagem: enxágue regularmente para impedir salinização do esfagno e das raízes.",
     rega: "Mantenha umidade relativamente constante, permitindo que o excesso de água saia rapidamente. Não deixe a touceira secar por longos períodos, mas também não mantenha o centro do vaso cronicamente saturado. Em montagens, a rega pode ser diária no calor; em vasos com esfagno, espere a superfície se aproximar da secagem antes de regar novamente.",
     suporte: "🥇 Placa pequena de cortiça ou madeira com musgo fino — excelente para raízes arejadas.\n🥈 Vaso miniatura de barro — ajuda a dissipar calor e controlar umidade.\n🥉 Pequeno cachepô bem vazado — adequado com mistura leve e pouco material retentor.\nEvite dividir a planta sem necessidade.",
@@ -214,7 +214,7 @@ export const dryadellaAviceps = {
         litoralQuente: { texto: "Adaptação de moderada a boa, principalmente para plantas de procedência mais baixa. Cultive em local fresco e ventilado, longe de telhas e paredes quentes." },
         montanhaFrio: { texto: "Adaptação muito boa em clima intermediário/fresco, protegendo apenas de geada e saturação prolongada do substrato." }
     },
-    mesesFloracao: [6, 7, 8, 9, 10, 11, 12],
+    mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
