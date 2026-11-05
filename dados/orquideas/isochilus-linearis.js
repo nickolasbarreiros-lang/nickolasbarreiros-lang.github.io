@@ -26,7 +26,7 @@ export const isochilusLinearis = {
         horario: "Somente início da manhã",
         observacoes: "Prefere claridade suave e filtrada e não sombra plena. Caules excessivamente longos e moles indicam falta de luz; folhas amareladas ou secas nas pontas podem indicar excesso de sol, baixa umidade ou acúmulo de sais."
     },
-    floracao: "Pode florescer em diferentes épocas do ano conforme a procedência e as condições de cultivo; no Brasil, costuma ser mais observada da primavera ao verão. As pequenas flores tubulares surgem agrupadas no ápice dos caules maduros, geralmente voltadas para o mesmo lado. As flores individuais podem ser relativamente breves, enquanto uma touceira com várias hastes pode prolongar o efeito ornamental pela emissão sucessiva de flores.",
+    floracao: "No Brasil, Isochilus linearis apresenta época de floração variável conforme a população e o ambiente. Há registros de exemplares floridos em março, maio, junho, julho, agosto, setembro e outubro, e orquidários brasileiros destacam especialmente o inverno. As inflorescências curtas surgem nas pontas dos caules maduros e reúnem geralmente três a oito flores pequenas, com cerca de 1 cm de comprimento. As flores são tubulares, rosadas a lilases ou violáceas, muitas vezes voltadas para o mesmo lado da haste; algumas podem permanecer parcialmente fechadas e se autopolinizar. Um orquidário brasileiro descreve a espécie como sem perfume e informa longevidade floral de aproximadamente 20 a 25 dias. Esse período é uma referência de cultivo, podendo variar conforme o ambiente e sem comprovação independente da duração de cada flor isolada.",
     adubacao: "🌿 Orgânica: bokashi em dose mínima e sempre afastado das raízes.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante o crescimento ativo.\n🧪 Liberação lenta: apenas poucos grânulos em recipiente pequeno e drenante.\n💦 Lavagem: mensalmente, faça uma rega abundante com água limpa para remover sais do substrato.",
     rega: "Mantenha umidade regular e volte a regar antes que a touceira permaneça seca por muito tempo. Ao mesmo tempo, permita a entrada de ar no substrato entre as regas. AOS recomenda que espécies do gênero não sequem completamente. No inverno, apenas acompanhe a menor evaporação e reduza proporcionalmente a frequência.",
     suporte: "🥇 Cachepô de madeira bem vazado.\n🥈 Vaso de barro pequeno e raso.\n🥉 Vaso plástico pequeno e bem perfurado.\n🏅 Placa de cortiça em ambiente de alta umidade, com regas frequentes.",
@@ -205,7 +205,7 @@ export const isochilusLinearis = {
         litoralQuente: { texto: "Muito boa para procedências adaptadas a temperaturas intermediárias ou quentes. Mantenha luz filtrada, umidade regular e forte ventilação, evitando calor abafado no centro da touceira." },
         montanhaFrio: { texto: "Excelente para muitas procedências. Ajuste a água à menor evaporação e proteja contra geadas; não deixe o substrato secar completamente." }
     },
-    mesesFloracao: [9, 10, 11, 12, 1, 2],
+    mesesFloracao: [3, 5, 6, 7, 8, 9, 10],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
