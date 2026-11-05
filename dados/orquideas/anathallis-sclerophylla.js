@@ -115,9 +115,9 @@ export const anathallisSclerophylla = {
     indiceDificuldadeCultivo: {
         "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
-        "indice": 34,
+        "indice": 18,
         "classificacao": "Fácil",
-        "cultivoEstrelas": 4,
+        "cultivoEstrelas": 5,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 2,
