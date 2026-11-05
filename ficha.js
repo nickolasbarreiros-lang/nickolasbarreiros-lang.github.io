@@ -562,11 +562,10 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                 <div class="titulo-substrato-visual-v4">
                     <span class="icone-substrato-v4" aria-hidden="true"><img src="imagens/ui/icone-substrato-v4.webp" alt=""></span>
                     <div>
-                        <h4 id="titulo-substrato-visual-v4">${config.titulo || "Substrato ideal"}</h4>
-                        <p>${config.resumo || "Composição leve, aerada e de rápida drenagem."}</p>
+                        <h4 id="titulo-substrato-visual-v4">Substrato ideal</h4>
                     </div>
                 </div>
-                ${config.contexto ? `<span class="contexto-substrato-v4">${config.contexto}</span>` : ""}
+                <span class="contexto-substrato-v4">SUBSTRATO INDICADO PARA PLANTIO EM RECIPIENTE</span>
             </div>
 
             ${config.semSubstrato ? `<div class="sem-substrato-v41"><strong>0% substrato convencional</strong><span>${config.semSubstrato}</span></div>` : `<div class="receita-substrato-v4">
