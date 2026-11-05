@@ -1114,6 +1114,7 @@ function criarGaleria(fotos) {
             </button>
 
             ${miniaturas ? `<div class="miniaturas-v2">${miniaturas}</div>` : ""}
+            ${orquidea.id === "pholidota-chinensis" ? `<div class="credito-foto-v4" style="font-size:12px;line-height:1.5;margin-top:8px;">Quarta foto: Elena Gaillard · <a href="https://commons.wikimedia.org/wiki/File:Pholidota_chinensis_-_Flickr_003_(1).jpg" target="_blank" rel="noopener noreferrer">Origem Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener noreferrer">CC BY 2.0</a> · sem alterações</div>` : ""}
         </div>
     `;
 }
