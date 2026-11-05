@@ -25,7 +25,7 @@ export const dendrobiumSpectabile = {
     regiao: "Nova Guiné · Ilhas Salomão · Vanuatu · Nova Caledônia",
     habitat: "Epífita de florestas tropicais úmidas; ocasionalmente rupícola, de baixas a altas elevações.",
     clima: "Quente a intermediário, úmido e muito ventilado.",
-    climaFloracao: "Plantas maduras florescem melhor depois de uma estação de crescimento vigoroso e bem iluminado. Não exige repouso seco severo, mas uma redução moderada das regas quando as hastes amadurecem e o clima esfria pode acompanhar o ciclo natural. Em clima quente, o desenvolvimento vegetativo tende a ser favorecido.",
+    climaFloracao: "Plantas maduras florescem melhor depois de uma estação de crescimento vigoroso e bem iluminado. AOS indica que um período ligeiramente mais fresco e com regas moderadamente reduzidas pode favorecer a floração de plantas adultas; não é repouso de seca extrema. Em clima quente, o desenvolvimento vegetativo tende a ser favorecido.",
     iluminacao: {
         sombrite: "40% a 60%",
         solDireto: "Permitido com restrição",
@@ -46,14 +46,14 @@ export const dendrobiumSpectabile = {
         destaque: "Cachepô de Madeira",
         resumo: "Espécie epífita tropical de porte médio a grande. Precisa de suporte firme, luz filtrada abundante, raízes muito aeradas e água regular durante o crescimento, sem repouso seco severo.",
         metodos: [
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Mais recomendado na ficha", texto: "Cachepô robusto e bem ventilado, dimensionado para a planta adulta, com amplo espaço para raízes e hastes." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Muito recomendado", texto: "Vaso pesado e muito drenante, oferecendo estabilidade para hastes grandes e mistura grossa." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa", texto: "Modelo reforçado, firme e perfurado, com partículas grossas e secagem monitorada." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Preferência técnica provisória", texto: "Cachepô robusto e bem ventilado, dimensionado para a planta adulta, com amplo espaço para raízes e hastes." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa provisória", texto: "Vaso pesado e muito drenante, oferecendo estabilidade para hastes grandes e mistura grossa." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Modelo reforçado, firme e perfurado, com partículas grossas e secagem monitorada." },
             { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Alternativa condicional", texto: "Somente recipiente bem perfurado e estável, evitando retenção prolongada e substrato compacto." }
         ]
     },
     substratoVisual: {
-        titulo: "Substrato ideal",
+        titulo: "Substrato recomendado (provisório)",
         contexto: "Proposta para cachepô ou vaso robusto e muito drenante",
         resumo: "Mistura grossa de alta aeração, com retenção moderada e boa secagem entre regas.",
         justificativa: "Dendrobium spectabile é uma epífita tropical de porte médio a grande, que precisa de suporte firme, raízes bem ventiladas e umidade regular durante o crescimento. Em cachepô de madeira robusto e vazado, as cascas grossas de macadâmia e pinus dão sustentação, enquanto a perlita e o carvão ajudam a manter a mistura drenante. Dimensione o recipiente para o peso da planta adulta e evite repouso seco severo.",
@@ -72,7 +72,7 @@ export const dendrobiumSpectabile = {
             { asset: "carvao", nome: "Carvão vegetal médio/grosso", proporcao: "15%", nota: "estabilidade", finalidade: "Acrescenta estrutura e drenagem à mistura." }
         ],
         alerta: "Durante o crescimento ativo, não deixar novos brotos secarem; evitar encharcamento permanente e não impor repouso seco severo. Dimensionar o suporte para a planta adulta.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Dendrobium spectabile, epífita tropical robusta, requer suporte firme, raízes ventiladas e água regular durante o crescimento, sem repouso seco severo. Cachepô de Madeira robusto e bem vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% macadâmia grossa + 30% pinus grosso + 20% perlita grossa compatível com cachepô + 15% carvão vegetal médio/grosso = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco grossos preparados/macadamia/carvão/argila expandida e pinus grosso/carvão/brita fina-média lavada e sem pó. Não fundamentam os percentuais visuais. Monitorar secagem e peso do conjunto em plantas adultas. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
+        notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D); receita e comparação de suportes sem validação quantitativa. AOS indica redução sazonal moderada de água e noites um pouco mais frescas para favorecer floração, não seca severa. MACS 1.1 — revisão documental: Dendrobium spectabile, epífita tropical robusta, requer suporte firme, raízes ventiladas e água regular durante o crescimento, sem repouso seco severo. Cachepô de Madeira robusto e bem vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% macadâmia grossa + 30% pinus grosso + 20% perlita grossa compatível com cachepô + 15% carvão vegetal médio/grosso = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco grossos preparados/macadamia/carvão/argila expandida e pinus grosso/carvão/brita fina-média lavada e sem pó. Não fundamentam os percentuais visuais. Monitorar secagem e peso do conjunto em plantas adultas. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
         "Cultivar em sombra excessiva",
@@ -86,19 +86,20 @@ export const dendrobiumSpectabile = {
     ],
     dica: "🏆 Tenha paciência com o tamanho de floração. Dendrobium spectabile pode crescer vigorosamente antes de decidir florescer. Concentre-se em produzir hastes progressivamente maiores com muita luz filtrada, água e adubação durante o crescimento; quando a planta atingir maturidade, as flores extraordinárias compensam a espera.",
     revisaoCientificaIAR: {
-        "nome": "Dendrobium spectabile",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Dendrobium spectabile é uma das espécies mais extravagantes do gênero. Suas flores parecem pequenas esculturas vivas: pétalas e sépalas retorcidas, onduladas e irregulares formam desenhos quase impossíveis de repetir de uma flor para outra. A planta desenvolve hastes robustas e, quando madura, produz cachos próximos ao topo com numerosas flores de aparência exótica.",
-        "habitatAltitudeClima": "Epífita de florestas tropicais úmidas; ocasionalmente rupícola, de baixas a altas elevações. | Quente a intermediário, úmido e muito ventilado.",
-        "distribuicaoGeografica": "Nova Guiné, Ilhas Salomão, Vanuatu e Nova Caledônia.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
+        "nome": "Dendrobium spectabile (Blume) Miq.",
+        "statusTaxonomico": "Espécie aceita no POWO/Kew; combinação publicada em Flora van Nederlandsch Indië 3:645 (1859). Pertence à seção Latouria, mas seção não altera o nome aceito.",
+        "sinonimosPrincipais": "Basiônimo Latouria spectabilis Blume (1849). Outros sinônimos homotípicos segundo POWO: Callista spectabilis (Blume) Kuntze (1891), Latourorchis spectabilis (Blume) Brieger (1981) e Sayeria spectabilis (Blume) Rauschert (1983). Sinônimos heterotípicos: Dendrobium tigrinum Rolfe ex Hemsl. (1891) e Dendrobium spectabile f. aurea Christenson (2006).",
+        "morfologiaDimensoes": "Epífita simpodial de pseudobulbos alongados, semelhantes a canas, agrupados e dilatados na base. A revisão de Cribb (1983), reproduzida em Orchids of New Guinea, descreve canas de até aproximadamente 40 cm, com quatro a seis folhas coriáceas próximas do ápice e inflorescências eretas de 20–40 cm, emergindo abaixo das bases foliares. As flores são grandes, amarelas com manchas vinho, sépalas e pétalas muito onduladas e retorcidas, e labelo trilobado com listras escuras; o aspecto irregular é caráter marcante. IOSPE registra flores de até aproximadamente 7,5 cm e racemos que podem portar até cerca de vinte flores.",
+        "habitatAltitudeClima": "POWO descreve epífita pseudobulbosa do bioma tropical úmido, nativa da Nova Guiné à Nova Caledônia. A revisão de Cribb (1983), reproduzida por Naturalis/Orchids of New Guinea, documenta florestas pantanosas de baixada, manguezais, florestas montanas baixas e ocasional hábito rupícola, em 0–1.200 m nas populações tratadas; IOSPE menciona 300–2.000 m em síntese horticultural. As faixas divergentes não devem ser apresentadas como limite global unificado. AOS, citando Charles e Margaret Baker, recomenda luz relativamente alta, clima intermediário a quente, umidade anual e redução moderada de água no inverno, com repouso ligeiramente mais fresco e seco para favorecer floração, especialmente em regiões temperadas.",
+        "distribuicaoGeografica": "Nova Guiné, Ilhas Salomão, Vanuatu e Nova Caledônia, segundo POWO/Kew. A monografia de Cribb (1983) focaliza Nova Guiné e Ilhas Salomão, não toda a circunscrição geográfica atual.",
+        "cultivoPremiacao": "AOS responde especificamente sobre Dendrobium spectabile: requer planta adulta de porte considerável para florescer bem, luz alta e redução sazonal moderada de água com temperaturas ligeiramente mais frescas; isso não significa secar completamente raízes por meses. AOS documenta o cultivar 'Bunny' com prêmio HCC/AOS na própria página de cultivo. Não há teste quantitativo específico que valide a receita MACS 35/30/20/15 ou a preferência por cachepô frente aos outros três suportes.",
+        "confianca": "Taxonomia e distribuição: alta (POWO). Morfologia e habitat: alta para a região estudada por Cribb, via Naturalis; altitude geral incerta pela divergência com IOSPE. Cultivo: orientação específica de AOS/Baker, qualitativa. MACS 1.1 quantitativa: Classe D, sem ensaio comparativo.",
         "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
+            "POWO/Kew, Dendrobium spectabile — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:628645-1",
+            "Naturalis, Orchids of New Guinea, descrição baseada em Cribb (1983) — https://orchids.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=11022",
+            "Orchids of New Guinea, Dendrobium spectabile — https://www.orchidsnewguinea.com/orchid-information/species/Dendrobium%2Bspectabile",
+            "IOSPE, Dendrobium spectabile — https://www.orchidspecies.com/denspectabile.htm",
+            "American Orchid Society, Dendrobium Care, pergunta específica sobre D. spectabile — https://www.aos.org/orchids/orchid-basics/orchid-question-and-answer/dendrobium-care"
         ]
     },
     indiceDificuldadeCultivo: {
