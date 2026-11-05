@@ -69,7 +69,7 @@ export const isochilusLinearis = {
         "nome": "Isochilus linearis",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "À primeira vista, parece quase uma pequena touceira de capim — até que as pontas dos caules se enchem de flores! Isochilus linearis forma touceiras densas, com caules finos, agrupados, eretos a arqueados e sem pseudobulbos. As folhas são estreitas, lineares a lanceoladas, distribuídas ao longo dos caules. É predominantemente epífita ou rupícola, habitando florestas tropicais úm",
+        "morfologiaDimensoes": "À primeira vista, parece quase uma pequena touceira de capim — até que as pontas dos caules se enchem de flores! Isochilus linearis forma touceiras densas, com caules finos, agrupados, eretos a arqueados e sem pseudobulbos. As folhas são estreitas, lineares a lanceoladas, distribuídas ao longo dos caules. É predominantemente epífita ou rupícola, habitando florestas tropicais úmidas, com variação altitudinal significativa entre populações.",
         "habitatAltitudeClima": "Florestas tropicais úmidas · hábito principalmente epífito ou rupícola · 300–3.900 m. | Intermediário a quente · ampla tolerância.",
         "distribuicaoGeografica": "Caribe, América Central e América do Sul.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
