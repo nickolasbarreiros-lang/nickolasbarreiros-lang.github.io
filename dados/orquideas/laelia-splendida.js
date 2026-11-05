@@ -33,7 +33,7 @@ export const laeliaSplendida = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "É uma espécie de alta luminosidade. Sombra excessiva produz crescimento verde e vigoroso, mas pode impedir a floração. Em clima quente, evite sol forte do meio do dia sobre folhas não aclimatadas."
     },
-    floracao: "A época pode variar conforme procedência e condições de cultivo. No calendário do site, primavera e início do verão são usados como janela prática de referência, observando sempre a maturação dos pseudobulbos.",
+    floracao: "A época de floração de Laelia splendida, também conhecida como Schomburgkia splendida, varia conforme a procedência e o cultivo. Ainda não há registros brasileiros suficientemente específicos para definir meses seguros no calendário. As hastes terminais longas, que podem alcançar cerca de um metro, carregam geralmente 8 a 15 flores vistosas e cerosas, com aproximadamente 6 a 10 cm. Sépalas e pétalas são estreitas, bastante onduladas e de cor púrpura a castanho-arroxeada escura; o labelo é rosado a púrpura, com região central mais clara. Um cultivador europeu relata floração que dura cerca de quatro semanas, mas esse período se refere à sua experiência de cultivo e não constitui uma duração comprovada para plantas brasileiras. Não foi encontrada descrição confiável de perfume nem de notas aromáticas específicas para a espécie.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade, preferencialmente em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: pode ser utilizada em poucos grânulos em vasos ou cestos.\n🚿 Lavagem: faça regas periódicas apenas com água para evitar acúmulo de sais.",
     rega: "Regue abundantemente enquanto novos brotos e raízes estiverem ativos, deixando o suporte secar parcialmente antes da próxima irrigação. Com pseudobulbos maduros, aumente moderadamente o intervalo entre regas. Evite raízes permanentemente molhadas.",
     suporte: [
@@ -229,7 +229,7 @@ export const laeliaSplendida = {
         litoralQuente: { texto: "Muito boa adaptação. Calor não costuma ser o principal problema; ofereça muita luz, circulação de ar e secagem relativamente rápida das raízes." },
         montanhaFrio: { texto: "Boa adaptação. Tolera noites mais frescas, mas deve ser protegida de frio intenso e de substrato frio e constantemente saturado." }
     },
-    mesesFloracao: [9, 10, 11, 12],
+    mesesFloracao: [],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
