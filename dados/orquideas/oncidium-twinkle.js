@@ -39,12 +39,12 @@ export const oncidiumTwinkle = {
     substrato: ["Casca de pinus fina/média + esfagno de fibra longa solto + carvão vegetal pequeno","Casca de pinus fina/média + esfagno de fibra longa solto + chips de coco pequenos preparados + carvão vegetal pequeno"],
     formasCultivo: {
         perfilVisual: "oncidium-twinkle-hibrido-compacto-raizes-capilares",
-        destaque: "Vaso plástico",
+        destaque: "Vaso plástico vasado",
         resumo: "Híbrido compacto de raízes capilares finas e touceira florífera. Vaso plástico pequeno, proporcional e bem perfurado mantém umidade uniforme sem excesso.",
         metodos: [
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Mais recomendado", texto: "Vaso pequeno e bem perfurado, dimensionado para a touceira, sem comprimir raízes ou reter água por tempo excessivo." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Mais recomendado", texto: "Vaso pequeno e bem perfurado, dimensionado para a touceira, sem comprimir raízes ou reter água por tempo excessivo." },
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Outra opção de cultivo", texto: "Cachepô compacto e aberto, com aeração e regas ajustadas à secagem." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Outra opção de cultivo", texto: "Modelo pequeno e bastante vazado, com atenção à umidade durante o crescimento ativo." },
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Outra opção de cultivo", texto: "Modelo pequeno, com boa drenagem e atenção à umidade durante o crescimento ativo." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Exige umidade elevada", texto: "Placa com esfagno em camada fina, apenas em ambiente úmido e com regas frequentes." }
         ]
     },
