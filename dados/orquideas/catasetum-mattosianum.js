@@ -75,8 +75,8 @@ export const catasetumMattosianum = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
-        "justificativa": "Catasetum mattosianum apresenta crescimento sazonal, com necessidade de água mais frequente enquanto produz raízes e pseudobulbos. Os chips de coco preparados e a casca de pinus ajudam a conservar umidade durante essa fase, enquanto a perlita e a casca de arroz carbonizada favorecem a aeração. Na dormência, reduza fortemente as regas conforme a planta e a secagem do recipiente; não mantenha o substrato continuamente úmido quando as raízes estiverem inativas.",
-        "receitaTexto": "35% chips de coco médios preparados + 30% casca de pinus média + 20% perlita grossa + 15% casca de arroz carbonizada.",
+        "justificativa": "A receita 35/30/20/15 é proposta horticultural sem ensaio específico de Catasetum mattosianum. Catasetum mattosianum apresenta crescimento sazonal, com necessidade de água mais frequente enquanto produz raízes e pseudobulbos. Os chips de coco preparados e a casca de pinus ajudam a conservar umidade durante essa fase, enquanto a perlita e a casca de arroz carbonizada favorecem a aeração. Na dormência, reduza fortemente as regas conforme a planta e a secagem do recipiente; não mantenha o substrato continuamente úmido quando as raízes estiverem inativas.",
+        "receitaTexto": "Proposta horticultural NÃO HOMOLOGADA para a espécie: 35% chips de coco médios lavados + 30% casca de pinus média + 20% perlita grossa + 15% casca de arroz carbonizada.",
         "perfil": ["Raízes vigorosas", "Bulbos de reserva", "Ciclo sazonal", "Crescimento úmido", "Repouso seco", "Boa drenagem"],
         "comportamento": [
             {
@@ -103,7 +103,7 @@ export const catasetumMattosianum = {
         "itens": [
             {
                             "asset": "chips-coco",
-                            "nome": "Chips de coco médios preparados",
+                            "nome": "Chips de coco médios lavados",
                             "proporcao": "35%",
                             "nota": "umidade",
                             "finalidade": "Reserva água durante crescimento ativo."
@@ -133,17 +133,17 @@ export const catasetumMattosianum = {
         "alerta": "Proposta preliminar MACS 1.1; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo.",
         "notaEvidencia": "MACS 1.1 — revisão documental: Catasetum mattosianum, epífita caducifólia de ciclo sazonal; regas intensas apenas após enraizamento ativo e redução forte na dormência. Suportes vaso plástico vasado 5 estrelas, cachepô madeira e placa/tronco 4, barro 3; avaliações horticulturais sem validação comparativa. Receita visual 35% chips coco + 30% pinus médio + 20% perlita grossa + 15% casca de arroz carbonizada = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% chips de coco, 30% pinus, 20% perlita, 15% casca de arroz carbonizada). As duas alternativas qualitativas são composições distintas, não equivalentes à principal. A justificativa reconhece hipótese não testada na espécie, baseada em orientação geral do gênero; retenção e secagem sazonal da composição exigem validação. POWO confirma ocorrência nativa da Bahia ao Espírito Santo e habitat epífito úmido. Plano de Ação de Conservação da Biodiversidade Terrestre da Bacia do Rio Doce registra Mata Atlântica, florestas ombrófilas e restingas e situação de ameaça EN no Brasil, CR no Espírito Santo conforme listas nele citadas. Orquidário Durval Ferreira publica manejo geral do gênero (esfagno, substrato úmido no crescimento e secagem na dormência), sem receita específica para mattosianum. Não foram confirmados produtores brasileiros com receita quantitativa desta espécie; meta até 25 não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    substrato: ["Esfagno de fibra longa solto + perlita grossa + carvão vegetal","Argila expandida + perlita grossa + chips de coco médios preparados + pequena fração de esfagno solto"],
+    substrato: ["Esfagno de fibra longa solto + perlita grossa + carvão vegetal","Argila expandida + perlita grossa + chips de coco médios lavados + pequena fração de esfagno solto"],
     errosComuns: "• Encharcar o broto antes de as raízes novas estarem funcionais.\n• Replantar quando as raízes novas já estão longas e frágeis.\n• Economizar água durante o crescimento vigoroso.\n• Continuar regando normalmente após a queda das folhas.\n• Adubar durante dormência.\n• Remover pseudobulbos traseiros saudáveis, que funcionam como reserva.\n• Usar substrato velho e compacto.\n• Tentar forçar flores femininas com excesso de sol.",
-    dica: "🏆Faça o replante no início da brotação, logo após a planta sair da dormência e antes que as novas raízes fiquem compridas. Após o replante, mantenha o vaso relativamente seco até que várias raízes atinjam de 5 a 8 cm de comprimento. Em seguida, aumente a rega para manter a umidade, porem sem encharcar o broto e adote uma adubação leve e frequente, e garanta boa iluminação e ventilação. Com a queda das folhas, suspenda a adubação e deixe o vaso predominantemente seco. Lembre-se de preservar os pseudobulbos antigos saudáveis, pois eles nutrem a próxima brotação.",
+    dica: "🏆 Faça o replante no início da brotação, logo após a planta sair da dormência e antes que as novas raízes fiquem compridas. Após o replante, mantenha o vaso relativamente seco até que várias raízes atinjam de 5 a 8 cm de comprimento. Em seguida, aumente a rega para manter a umidade, porém sem encharcar o broto e adote uma adubação leve e frequente, e garanta boa iluminação e ventilação. Com a queda das folhas, suspenda a adubação e deixe o vaso predominantemente seco. Lembre-se de preservar os pseudobulbos antigos saudáveis, pois eles nutrem a próxima brotação.",
     revisaoCientificaIAR: {
         "nome": "Catasetum mattosianum",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma espécie brasileira marcada pelas grandes mudanças que acontecem ao longo do ano. *Catasetum mattosianum* desenvolve pseudobulbos carnosos e vigorosos durante a estação de crescimento, cobertos por folhas finas e pregueadas; depois, com a chegada da dormência, as folhas amarelecem e caem, deixando os pseudobulbos armazenarem energia para o próximo ciclo. Nativa da Bahia ao E",
+        "statusTaxonomico": "Catasetum mattosianum é espécie aceita em POWO/Kew, descrita por Bicalho em 1973.",
+        "sinonimosPrincipais": "Nenhum sinônimo principal específico confirmado na matriz MACS 087; não atribuir sem fonte.",
+        "morfologiaDimensoes": "Catasetum mattosianum é uma orquídea brasileira de pseudobulbos carnosos, alongados e cobertos por folhas finas e pregueadas durante o crescimento. Quando entra em dormência, perde a folhagem e mantém as reservas nos pseudobulbos. Suas hastes podem apresentar flores de cores variadas, agrupadas sobretudo na porção final da inflorescência. Como em outros Catasetum, flores masculinas e femininas diferem bastante na forma. A espécie ocorre como epífita em florestas úmidas e restingas da Mata Atlântica. Além da beleza das flores, chama atenção por seu ciclo sazonal bem marcado e pela vulnerabilidade de suas populações naturais.",
         "habitatAltitudeClima": "Epífita de bioma tropical úmido. | Quente · verão úmido e repouso sazonal.",
         "distribuicaoGeografica": "Bahia ao Espírito Santo.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
+        "cultivoPremiacao": "Orquidário Durval Ferreira orienta manejo sazonal para o gênero Catasetum, sem receita quantitativa específica desta espécie; premiação não verificada.",
         "confianca": "media",
         "fontes": [
             "POWO/Kew",
