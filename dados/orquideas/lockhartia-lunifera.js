@@ -31,7 +31,7 @@ export const lockhartiaLunifera = {
         horario: "Somente início da manhã",
         observacoes: "Prefere luminosidade média a alta filtrada. Caules muito alongados e frágeis sugerem pouca luz; amarelecimento forte, aquecimento e manchas secas indicam excesso. Em litoral quente, a luz clara deve vir sempre acompanhada de ventilação para evitar superaquecimento das folhas sobrepostas."
     },
-    floracao: "Predomina na primavera e no verão. As inflorescências curtas surgem lateralmente perto da região superior dos caules e são geralmente unifloras, com flores amareladas de cerca de 1 cm nos exemplares estudados. Plantas bem estabelecidas podem apresentar novas flores em ondas conforme diferentes caules amadurecem.",
+    floracao: "No Brasil, Lockhartia lunifera tem floração registrada de dezembro a fevereiro em populações do Sudeste, enquanto observações no Norte documentam flores em abril, junho e novembro. Essas diferenças mostram que a época varia conforme a região e o ambiente. As pequenas inflorescências surgem nas axilas das folhas próximas à ponta dos caules trançados e podem produzir uma ou duas flores, às vezes até três, que se abrem sucessivamente. As flores medem aproximadamente 1 a 2 cm, com sépalas e pétalas amarelas e labelo recortado, marcado por manchas e sulcos castanhos. Não há perfume perceptível ao olfato humano descrito para o gênero em estudo especializado; não se conhece uma nota aromática específica para esta espécie. Um orquidário brasileiro informa duração de cerca de três semanas para a floração, mas esse período não deve ser confundido com a longevidade individual de cada flor.",
     adubacao: "🌿 Orgânica: bokashi em quantidade mínima dentro de porta-adubo, sem contato com caules ou raízes.\n💧 Foliar/radicular: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: evitar em plantas montadas; em cestos ou vasos, usar poucos grânulos afastados das raízes novas. Uma vez por mês, lavar abundantemente raízes e suporte apenas com água pura para reduzir sais.",
     rega: "Regue com frequência durante crescimento e calor, sobretudo em plantas montadas. Depois de cada irrigação, permita boa aeração e perda do excesso de água antes da próxima. A espécie não tolera seca prolongada, mas raízes permanentemente saturadas também se deterioram. Regue preferencialmente pela manhã para que as bainhas foliares não permaneçam molhadas durante a noite.",
     suporte: "🥇 Placa inclinada de cortiça, galho rugoso ou madeira dura: acompanha o hábito pendente e facilita o escoamento da água.\n🥈 Cesto pequeno e suspenso, muito ventilado.\n🥉 Vaso pequeno e raso com mistura extremamente aberta, sem forçar os caules a permanecerem eretos.",
@@ -210,7 +210,7 @@ export const lockhartiaLunifera = {
         litoralQuente: { texto: "Adapta-se a regiões litorâneas quentes quando montada ou cultivada em cesto, com sombra clara e ventilação constante. Evite calor abafado, regas noturnas e esfagno em excesso." },
         montanhaFrio: { texto: "Em regiões serranas, desde que protegida de frio intenso e geadas. Ajuste a rega à menor evaporação e mantenha as bainhas secas durante noites frias." }
     },
-    mesesFloracao: [9, 10, 11, 12, 1, 2],
+    mesesFloracao: [1, 2, 4, 6, 11, 12],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
