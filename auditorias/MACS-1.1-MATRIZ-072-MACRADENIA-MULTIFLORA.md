@@ -42,3 +42,14 @@ Distintas entre si e da R0; sem percentuais inventados.
 
 ## Parecer final
 **Revisão documental concluída.** Taxonomia e morfologia conferidas; exposição solar padronizada; receita principal totaliza 100%, com duas alternativas distintas; um produtor brasileiro verificado com recomendações qualitativas. **Homologação experimental específica dos percentuais: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** epífita compacta, com pseudobulbos comprimidos bifoliados e inflorescências laterais pendentes multifloras. Raízes necessitam de disponibilidade regular de água com drenagem e oxigenação; secagem parcial superficial entre regas, sem seca prolongada ou repouso seco severo. Não confundir umidade ambiental com substrato permanentemente saturado. A haste pendente deve ter espaço livre abaixo do suporte.
+
+**Cultivo principal:** cachepô de madeira pequeno, suspenso e ventilado. **Receita em volume:** 45% casca de pinus média (estrutura e retenção moderada) + 30% perlita grossa (aeração) + 25% carvão vegetal (porosidade), total 100%. A orientação específica de Orquídeas & Cia cita pinus e esfagno ou montagem em tronco, mas não testa a proporção 45/30/25. Receita classificada como hipótese horticultural, não homologação experimental.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus + pequena fração de esfagno solto + perlita grossa; (2) chips de coco médios lavados + carvão vegetal + perlita grossa. Distintas entre si e da receita principal. Chips lavados não dispensam eventual verificação de salinidade do lote.
+
+**Conferências editoriais:** descrição com 91 palavras (faixa 90–120). Segunda alternativa padronizada para chips de coco médios lavados; justificativa e receita visual passaram a explicitar a falta de homologação quantitativa. Receita e itens visuais somam 45+30+25=100%; exatamente duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 31/100 e quatro estrelas coerentes com IDC 3.2; IAR e avaliações de suportes preservados. O registro morfológico interno já apresenta dimensões detalhadas e divergência taxonômica POWO/Flora e Funga, portanto foi mantido. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; um produtor brasileiro com orientação qualitativa específica verificado, zero receitas quantitativas específicas de produtores brasileiros confirmadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
