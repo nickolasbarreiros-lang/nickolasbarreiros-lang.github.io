@@ -32,7 +32,7 @@ export const maxillariaSubulata = {
         "horario": "Somente início da manhã",
         "observacoes": "Necessita luz filtrada brilhante. Folhas firmes em verde-médio indicam equilíbrio. Touceiras muito escuras, alongadas ou amolecidas sugerem sombra excessiva. Amarelecimento forte, pontas ressecadas ou manchas claras indicam excesso de sol ou calor."
     },
-    "floracao": "Mais característica na primavera, aproximadamente de setembro a novembro. As flores são solitárias, cerosas e medem cerca de 2,5 cm, surgindo em hastes curtas junto à base dos pseudobulbos. Exemplares bem estabelecidos podem florir em vários crescimentos no mesmo período.",
+    "floracao": "Maxillaria subulata floresce principalmente na primavera, mas exemplares brasileiros também foram documentados com flores em junho, agosto e dezembro, mostrando que a época pode variar conforme a região e as condições de cultivo. Cada haste curta nasce junto à base dos pseudobulbos e carrega uma única flor; touceiras maduras podem abrir várias flores em hastes diferentes. As flores medem aproximadamente 1,1 a 2,3 cm e variam do vermelho-acastanhado ao vinho, com áreas amareladas na base e pequenas pintas escuras; algumas formas são castanhas ou amarelo-claras. O perfume é uma característica marcante: muitas plantas exalam aroma frutado forte, frequentemente comparado ao de melancia, embora a intensidade varie entre exemplares. Não foi encontrada medição confiável da duração de cada flor nem do período total de floração, portanto não se indica um número de dias sem comprovação.",
     "adubacao": "🌿 Orgânica: pequena quantidade de bokashi em porta-adubo, afastada do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias na atividade vegetativa.\n🧪 Liberação lenta: poucos grânulos em recipiente muito drenante e longe das raízes novas.\n🚿 Flushing mensal com água pura para reduzir salinidade. Hidrate as raízes antes de aplicar fertilizante.",
     "rega": "Regue abundantemente na brotação e permita secagem parcial rápida antes da próxima irrigação. As folhas subuladas e os pseudobulbos relativamente pequenos oferecem reserva limitada, portanto evite seca severa. Ao mesmo tempo, não mantenha o fundo do vaso permanentemente molhado. Após a maturação, aumente levemente o intervalo. Pseudobulbos enrugados com substrato molhado e raízes escuras sugerem perda radicular; pseudobulbos enrugados com raízes firmes e substrato seco indicam déficit de água.",
     "suporte": "🥇 Vaso de barro ou plástico muito perfurado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira para máxima aeração das raízes finas.\n🥉 Placa de madeira ou cortiça com fina camada de musgo, indicada apenas onde a umidade ambiental supera 65% e há regas frequentes.",
@@ -212,7 +212,7 @@ export const maxillariaSubulata = {
         "litoralQuente": "Em Litoral de clima quente, use ventilação contínua, vaso justo, mistura drenante e regas matinais. Monitore o calor acumulado e o tempo real de secagem.",
         "montanhaFrio": "Em Santa Teresa/ES, as noites frescas favorecem a planta. Em semanas frias e chuvosas, aumente o intervalo entre regas sem impor seca total."
     },
-    "mesesFloracao": [9, 10, 11],
+    "mesesFloracao": [6, 8, 9, 10, 11, 12],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "intermediario" }
