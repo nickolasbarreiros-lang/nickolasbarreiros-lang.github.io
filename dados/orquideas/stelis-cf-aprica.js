@@ -5,7 +5,7 @@ export const stelisCfAprica = {
     genero: "Stelis",
     tipo: "Espécie botânica — identificação conferida como Stelis aprica, mantida como cf. por prudência taxonômica",
     sinonimo: "Stelis catharinensis; Stelis crassifolia; Stelis microglossa",
-    dificuldade: "Moderada",
+    dificuldade: "Fácil",
     origem: "América do Sul tropical; espécie registrada no Brasil",
     regiao: "Brasil (incluindo ES, MG, RJ, SP, PR, SC e BA em literatura brasileira); florestas tropicais úmidas",
     habitat: "Epífita de florestas tropicais úmidas, estabelecendo-se sobre cascas e ramos onde há umidade atmosférica elevada, luz filtrada e circulação de ar. Musgos e líquens podem acompanhar o micro-habitat, mas isso não significa raízes permanentemente encharcadas: a água chega com frequência e o excesso escoa rapidamente.",
@@ -26,7 +26,7 @@ export const stelisCfAprica = {
     ],
     selosCultivo: { rega: { nivel: "frequente" }, climaFloracao: { faixa: "quente" } },
     avaliacoes: {
-    "cultivo": 4,
+    "cultivo": 5,
     "floracao": 4,
     "perfume": 1,
     "luminosidade": 2,
