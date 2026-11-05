@@ -24,7 +24,7 @@ export const cattleyaWalkeriana = {
         "imagens/Cattleya walkeriana/Cattleya walkeriana3.webp",
         "imagens/Cattleya walkeriana/Cattleya walkeriana4.webp"
     ],
-    "descricao": "Uma das Cattleyas brasileiras mais admiradas no mundo! Cattleya walkeriana combina porte compacto com flores enormes, cerosas e intensamente perfumadas, criando um contraste impressionante entre o tamanho da planta e sua floração. Uma de suas curiosidades é que as flores frequentemente surgem de um pequeno crescimento próprio, sem folha, próximo ao rizoma. Nativa do Centro-Oeste e Sudeste do Brasil, vive sobre árvores e também em rochas de ambientes com estação seca bem marcada. Essa origem explica seu gosto por muita claridade, excelente ventilação e raízes que molham bem, mas secam rapidamente. No litoral quente, o excesso de umidade parada costuma ser mais perigoso do que o calor: suporte arejado e redução das regas após a maturação são fundamentais para uma boa floração.",
+    "descricao": "Uma das Cattleyas brasileiras mais admiradas! Cattleya walkeriana combina porte compacto, pseudobulbos carnosos e flores grandes, cerosas e intensamente perfumadas. Uma curiosidade é que as flores frequentemente surgem de um crescimento próprio, sem folha, próximo ao rizoma. Nativa de ambientes de cerrado e matas sazonais, vive sobre árvores e também em rochas, enfrentando períodos de menor chuva. Suas flores vistosas contrastam com a arquitetura baixa e firme da planta. Essa origem ajuda a compreender sua preferência por muita claridade, circulação constante de ar e raízes que molham bem, mas secam rapidamente. A montagem em placa favorece seu hábito epífito e facilita observar as raízes.",
     "origem": "Brasil",
     "regiao": "Centro-Oeste e Sudeste",
     "habitat": "Cerrado e matas sazonais · epífita ou rupícola.",
@@ -40,7 +40,7 @@ export const cattleyaWalkeriana = {
     "adubacao": "🌿 Orgânica: bokashi em dose mínima, em sachê, apenas durante brotação e enraizamento.\n💧 Mineral/Foliar: NPK equilibrado em cerca de 1/4 da dose a cada 10–15 dias enquanto houver raízes ativas.\n🌱 Raízes novas: adube somente após molhar as raízes com água pura.\n🌸 Maturação: reduza o nitrogênio quando o pseudobulbo estiver firme e a folha expandida.\n🧪 Liberação lenta: Osmocote somente em dose mínima e apenas no início do ciclo.\n🚿 Flushing: lave mensalmente o suporte com água pura.\n⛔ Repouso: suspenda adubação quando o crescimento estiver parado.",
     "rega": "Na brotação e no enraizamento, regue abundantemente pela manhã e permita que o suporte seque completamente em poucas horas. Após a maturação, aumente progressivamente os intervalos. Durante o período frio e seco, ofereça apenas a água necessária para evitar enrugamento extremo e perda das raízes. A ausência de pontas verdes indica menor consumo, não abandono hídrico total. Evite água acumulada no rizoma, nos brotos florais e em recipientes decorativos.",
     "suporte": "🥇 Placa de madeira dura ou cortiça — melhor reprodução do hábito natural e secagem imediata.\n🥈 Cestinho pequeno de madeira — circulação de ar em todas as direções.\n🥉 Vaso de barro raso e muito perfurado — alternativa em ambientes de menor umidade atmosférica.\nA planta deve ficar firmemente presa; movimento constante quebra pontas radiculares.",
-    substrato: ["Casca de pinus grossa + carvão vegetal + chips de coco grossos preparados","Casca de pinus grossa + carvão vegetal + perlita grossa"],
+    substrato: ["Casca de pinus grossa + carvão vegetal + chips de coco grossos lavados","Casca de pinus grossa + carvão vegetal + perlita grossa"],
     "formasCultivo": {
         "perfilVisual": "cattleya",
         "destaque": "Placa / tronco",
@@ -212,7 +212,7 @@ export const cattleyaWalkeriana = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, cultive preferencialmente montada ou em cesto aberto, no setor mais claro e ventilado. O risco principal é a combinação de noites abafadas, chuva contínua e raízes que não secam. Regue cedo e proteja das chuvas prolongadas de inverno.",
+        "litoralQuente": "Em regiões de clima quente, cultive preferencialmente montada ou em cesto aberto, no setor mais claro e ventilado. O risco principal é a combinação de noites abafadas, chuva contínua e raízes que não secam. Regue cedo e proteja das chuvas prolongadas de inverno.",
         "montanhaFrio": "A amplitude térmica e o inverno mais seco favorecem a floração. Proteja de geadas, frio úmido prolongado e chuva persistente."
     },
     "mesesFloracao": [
