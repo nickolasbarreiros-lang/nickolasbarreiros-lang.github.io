@@ -36,11 +36,11 @@ export const laeliaLundii = {
     adubacao: "🌿 Orgânica: bokashi é opcional; se usado, aplique quantidade mínima em sachê e sem contato direto com rizoma ou raízes novas.\n💧 Foliar/Mineral: NPK equilibrado, como 20-20-20, em 1/4 da dose a cada 10–15 dias durante brotação e enraizamento.\n🌱 Maturação: mantenha nutrição leve até o pseudobulbo completar o crescimento e reduza quando a atividade diminuir.\n🧪 Liberação lenta: pouquíssimos grânulos apenas em vaso ou cachepô muito drenante; em plantas montadas, é dispensável.\n🚿 Faça regas periódicas somente com água para evitar acúmulo de sais.",
     rega: "Durante brotação e emissão de raízes, molhe bem e permita secagem rápida. Em montagem, uma planta ativa no verão pode exigir rega diária ou quase diária, desde que as raízes não permaneçam molhadas por longos períodos. Quando o crescimento diminuir, aumente o intervalo entre irrigações. O inverno naturalmente mais seco deve ser reproduzido como redução, não como desidratação prolongada.",
     suporte: "🥇 Placa de cortiça ou madeira dura.\n🥈 Galho natural rugoso, permitindo expansão da touceira.\n🥉 Cachepô ou cestinho pequeno e muito vazado.\nVaso de barro pequeno também funciona quando preenchido com material grosseiro e muito aerado.",
-    substrato: ["Chips de coco médios preparados + perlita grossa + carvão vegetal + casca de pinus média","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
+    substrato: ["Chips de coco médios lavados + perlita grossa + carvão vegetal + casca de pinus média","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
     formasCultivo: {
         perfilVisual: "miniatura-epifita-rupicola-bifoliada",
         destaque: "Placa / tronco",
-        resumo: "Miniatura epífita ou rupícola, com pseudobulbos curtos e raízes que preferem alta aeração. Favorecer montagem firme em cortiça ou madeira durável, luz filtrada abundante e secagem rápida entre regas.",
+        resumo: "Miniatura epífita, com pseudobulbos curtos e raízes que preferem alta aeração. Favorecer montagem firme em cortiça ou madeira durável, luz filtrada abundante e secagem rápida entre regas.",
         metodos: [
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Placa de cortiça, madeira dura ou galho rugoso, com espaço para a touceira se expandir e fixação estável." },
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cestinho pequeno e muito vazado, com mistura grosseira e regas adaptadas à secagem." },
@@ -52,8 +52,8 @@ export const laeliaLundii = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para cesto ou vaso pequeno",
         resumo: "Mistura grosseira e ventilada, com retenção moderada e secagem perceptível entre regas.",
-        justificativa: "Laelia lundii se beneficia de montagem em placa ou tronco, com raízes expostas e boa ventilação. Para cultivo em cesto ou vaso pequeno, as cascas de macadâmia e pinus oferecem apoio, enquanto a perlita e o carvão mantêm a mistura aberta. Ajuste a granulometria ao porte das raízes e observe a secagem do suporte para regular as regas, sem compactar o substrato.",
-        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        justificativa: "A montagem em placa/tronco não utiliza receita volumétrica. A mistura 35/30/20/15 para cesto ou vaso é hipótese horticultural não ensaiada na espécie; o relato brasileiro de esfagno com fibra de coco não valida esses percentuais. Cattleya lundii se beneficia de montagem em placa ou tronco, com raízes expostas e boa ventilação. Para cultivo em cesto ou vaso pequeno, as cascas de macadâmia e pinus oferecem apoio, enquanto a perlita e o carvão mantêm a mistura aberta. Ajuste a granulometria ao porte das raízes e observe a secagem do suporte para regular as regas, sem compactar o substrato.",
+        receitaTexto: "Receita opcional NÃO HOMOLOGADA para cesto ou vaso: 35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal. Para placa/tronco, não se aplicam percentuais volumétricos.",
         perfil: ["Miniatura bifoliada", "Epífita ou rupícola", "Raízes muito arejadas", "Secagem rápida", "Touceira compacta"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -214,7 +214,7 @@ export const laeliaLundii = {
     },
     mesesFloracao: [9, 10, 11, 12],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {
