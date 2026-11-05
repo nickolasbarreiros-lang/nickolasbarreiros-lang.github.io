@@ -36,7 +36,7 @@ export const miltoniaRegnellii = {
     "adubacao": "🌿 Adubação orgânica: use pequena porção de Bokashi em porta-adubo, na borda do vaso, sem contato com brotos, rizoma ou raízes novas. Reponha apenas quando o material estiver quase totalmente decomposto.\n💧 Adubação foliar/mineral: durante a formação do broto e do pseudobulbo, aplique NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose a cada 10–15 dias. Reduza a frequência quando o pseudobulbo amadurecer.\n🧪 Liberação lenta: somente poucos grânulos em vasos muito drenantes e longe das raízes ativas.\n🚿 Flushing: faça uma lavagem abundante com água pura aproximadamente uma vez por mês para remover sais acumulados. Evite combinar doses completas de vários tipos de adubo.",
     "rega": "Na fase de crescimento ativo, regue assim que a camada superficial do substrato começar a secar, mantendo umidade regular sem deixar o vaso continuamente encharcado. A falta de água durante a expansão das folhas pode causar o efeito sanfona, que é permanente. Porém, antes de aumentar a rega, examine as raízes: raízes claras, firmes e ativas sugerem deficiência hídrica ou baixa umidade; raízes escuras, moles ou ocas indicam perda radicular por abafamento, substrato velho ou excesso de água. Após a maturação do pseudobulbo, aumente apenas levemente o intervalo entre as regas.",
     "suporte": "🥇 Vaso plástico pequeno e muito perfurado: conserva umidade homogênea ao redor das raízes finas sem excesso de substrato.\n🥈 Vaso de barro: indicado para ambientes úmidos ou rotinas de rega frequente, pois acelera a secagem e refresca as raízes.\n🥉 Cesto de madeira: opção para touceiras grandes, desde que a umidade ambiente seja suficiente.\nUse sempre recipiente apenas ligeiramente maior que a touceira.",
-    substrato: ["Casca de pinus média + chips de coco preparados + perlita grossa (alternativa horticultural sem proporções validadas)", "Casca de macadâmia média + casca de pinus média + pequena fração de esfagno solto (alternativa horticultural qualitativa)"],
+    substrato: ["Casca de pinus média + chips de coco médios lavados + perlita grossa (alternativa horticultural sem proporções validadas)", "Casca de macadâmia média + casca de pinus média + pequena fração de esfagno solto (alternativa horticultural qualitativa)"],
     formasCultivo: {
         perfilVisual: "miltonia-epifita-simpodial-raizes-finas",
         destaque: "Vaso plástico vasado",
@@ -53,7 +53,7 @@ export const miltoniaRegnellii = {
         contexto: "Mistura de retenção moderada para vaso pequeno e bem ventilado",
         resumo: "Partes iguais de casca de pinus, esfagno solto e carvão vegetal, conforme recomendação brasileira específica para a espécie.",
         justificativa: "Miltonia regnellii se beneficia de umidade regular e raízes bem ventiladas. A casca de pinus média oferece apoio, o esfagno de fibra longa solto conserva umidade e o carvão vegetal ajuda a manter espaços de ar. Distribua os materiais sem compactar o esfagno e observe a secagem no centro do recipiente para ajustar as regas.",
-        receitaTexto: "1/3 casca de pinus média + 1/3 esfagno de fibra longa solto + 1/3 carvão vegetal (partes iguais em volume; cerca de 33,3% cada).",
+        receitaTexto: "Recomendação horticultural específica, sem ensaio experimental na espécie pura: 1/3 casca de pinus média + 1/3 esfagno de fibra longa solto + 1/3 carvão vegetal (partes iguais em volume; cerca de 33,3% cada).",
         perfil: ["Epífita simpodial", "Raízes finas", "Pseudobulbos comprimidos", "Umidade regular", "Boa ventilação"],
         comportamento: [
             { nome: "Retenção", valor: 4, icone: "💧" },
@@ -73,11 +73,11 @@ export const miltoniaRegnellii = {
     "dica": "O pseudobulbo novo é a reserva que sustentará a próxima floração. Para que ele amadureça grande e firme, mantenha rega regular, luz filtrada abundante e adubação suave durante todo o crescimento. Previna folhas sanfonadas observando simultaneamente a umidade e a saúde das raízes; aumentar a água não resolve quando o sistema radicular já está deteriorado. Faça flushing mensal e replante somente quando as novas pontas de raízes aparecerem. Quanto mais robusto o pseudobulbo, maior a probabilidade de hastes fortes, multifloras e duráveis.",
     revisaoCientificaIAR: {
         "nome": "Miltonia regnellii",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Delicada e muito florífera, esta Miltonia brasileira chama atenção pelas flores claras — brancas, creme ou amarelo-pálidas — contrastando com um amplo labelo rosado a violeta. Em touceiras adultas, vários pseudobulbos podem florescer juntos, formando um conjunto elegante e abundante. Nativa do Sul e Sudeste do Brasil, adapta-se de condições intermediárias a quentes, mas aprecia",
+        "statusTaxonomico": "Miltonia regnellii é nome aceito em POWO/Kew.",
+        "sinonimosPrincipais": "Oncidium regnellii (sinônimo homotípico).",
+        "morfologiaDimensoes": "Miltonia regnellii, conhecida como violetinha-das-árvores, é uma orquídea epífita brasileira que forma touceiras de pseudobulbos achatados, com folhas longas e estreitas. Suas hastes arqueadas podem alcançar cerca de 40 cm e reunir de três a dez flores perfumadas, geralmente com 5 a 7,5 cm de diâmetro. Na forma típica, as sépalas e pétalas são claras e o labelo largo apresenta tons rosados a púrpura; existem também formas inteiramente brancas e amarelas. Nativa de florestas do Sul e Sudeste do Brasil, destaca-se pela floração delicada, que lembra pequenas violetas suspensas entre as folhas.",
         "habitatAltitudeClima": "Mata Atlântica · epífita. | Intermediário a quente · ventilado.",
-        "distribuicaoGeografica": "Sul e Sudeste.",
+        "distribuicaoGeografica": "Sul e Sudeste do Brasil, conforme POWO/Kew.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
         "confianca": "media",
         "fontes": [
@@ -213,7 +213,7 @@ export const miltoniaRegnellii = {
     },
     "mesesFloracao": [9, 10, 11, 12, 1, 2],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
         "avaliacoes": {
