@@ -45,3 +45,14 @@ A ficha já registra referência ao **Orquidário Mogi Mirim** com recomendaçõ
 
 ## Parecer final
 **Revisão documental encerrada.** Taxonomia e morfologia verificadas; proporções coerentes, duas alternativas distintas e **adaptação abeto → pinus** documentada com transparência. **Homologação experimental específica de *Coelogyne flaccida*: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** epífita ou litófita de florestas montanas, com pseudobulbos bifoliados e inflorescências arqueadas ou pendentes. Raízes requerem aeração, umidade frequente no crescimento e redução moderada conforme maturação e condições mais frias, sem saturação persistente nem seca severa. Os pseudobulbos oferecem alguma reserva hídrica, mas não permitem inferir tolerância a desidratação prolongada. Não há ensaios de desempenho radicular ou secagem específicos de recipientes.
+
+**Cultivo principal:** cachepô de madeira amplo, ventilado e suspenso, com espaço inferior para as inflorescências; alternativa de vaso plástico vasado. **Receita em volume:** 75% casca de pinus média (estrutura e retenção moderada) + 25% perlita grossa (aeração), total 100%, razão 3:1. Trata-se de adaptação da recomendação genérica de casca de ABETO + perlita da AOS, com substituição por PINUS; a fonte não testou a espécie nem validou a substituição.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus média + chips de coco médios lavados + perlita grossa; (2) casca de pinus média + perlita grossa + esfagno de fibra longa solto. Distintas entre si e da mistura principal; chips lavados não dispensam controle de salinidade conforme o lote.
+
+**Conferências editoriais:** descrição com 93 palavras, dentro da faixa 90–120. Receita visual explicita adaptação não homologada e diferença entre abeto e pinus; chips de coco padronizados na alternativa; campos internos de taxonomia e morfologia atualizados, substituindo texto truncado. Receita e itens visuais somam 75+25=100%; quatro caminhos fotográficos cadastrados; IDC 30/100 e quatro estrelas coerentes com IDC 3.2; IAR e classificações dos suportes preservados. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis. Um produtor brasileiro citado com orientações qualitativas, zero receitas quantitativas específicas de produtores brasileiros verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
