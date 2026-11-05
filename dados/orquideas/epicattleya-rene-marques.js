@@ -34,7 +34,7 @@ export const epicattleyaReneMarques = {
     adubacao: "🌿 Orgânica: bokashi leve no canto do vaso a cada 2–3 meses durante o crescimento.\n💧 Foliar: NPK equilibrado a cerca de 1/3 da dose semanalmente ou a cada 10–15 dias.\n🧪 Pré-floração: reduza o excesso de nitrogênio e mantenha adubação equilibrada e diluída. Uma fórmula moderadamente mais rica em potássio pode ser alternada ocasionalmente, sem usar doses elevadas de fósforo ou sais.",
     rega: "Regue generosamente durante a emissão de brotos e raízes, permitindo que o substrato se aproxime da secagem antes da próxima irrigação. Reduza a frequência no inverno ou quando não houver crescimento ativo. Evite água acumulada no miolo das folhas e nas inflorescências em formação.",
     suporte: "🥇 Vaso de barro firme e bem drenado.\n🥈 Vaso plástico com furação lateral abundante.\n🥉 Cachepô de madeira robusto.\n🌿 Placa de madeira apenas para divisões jovens e vigorosas.",
-    substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal","Chips de coco grossos preparados + casca de pinus média + perlita grossa + carvão vegetal"],
+    substrato: ["Casca de pinus média/grossa + perlita grossa + carvão vegetal","Chips de coco grossos lavados + casca de pinus média + perlita grossa + carvão vegetal"],
     formasCultivo: {
         perfilVisual: "hibrido-intergenerico-alto-vigoroso",
         destaque: "Vaso de Barro",
@@ -50,8 +50,8 @@ export const epicattleyaReneMarques = {
         titulo: "Substrato ideal",
         contexto: "Mistura para vaso firme e bem drenado",
         resumo: "Partículas médias e grossas que sustentam a planta vigorosa sem reter água continuamente.",
-        justificativa: "Epicattleya René Marques se beneficia de raízes ventiladas e de uma mistura que seque parcialmente entre regas. As cascas de macadâmia e pinus oferecem estrutura, enquanto a perlita e o carvão mantêm a drenagem e os espaços de ar. Em recipiente bem aberto, observe a secagem do centro da mistura e ajuste as regas à emissão de raízes novas, evitando encharcamento prolongado.",
-        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        justificativa: "Epicattleya René Marqués se beneficia de raízes ventiladas e de uma mistura que seque parcialmente entre regas. A fórmula 35/30/20/15 é proposta técnica, não receita experimentalmente validada para o grex. As cascas de macadâmia e pinus oferecem estrutura, enquanto a perlita e o carvão mantêm a drenagem e os espaços de ar. Em recipiente bem aberto, observe a secagem do centro da mistura e ajuste as regas à emissão de raízes novas, evitando encharcamento prolongado.",
+        receitaTexto: "Proposta NÃO HOMOLOGADA: 35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         perfil: ["Híbrido intergenérico", "Caules altos", "Hastes terminais", "Alta luminosidade", "Raízes aeradas"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -73,8 +73,8 @@ export const epicattleyaReneMarques = {
     revisaoCientificaIAR: {
         "nome": "Epicattleya René Marqués",
         "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma orquídea que chama atenção de longe! Epicattleya René Marqués combina flores verde-limão com labelo alaranjado ou avermelhado em hastes altas e multiflorais. O grex foi registrado em 1979 a partir de Epidendrum pseudepidendrum × Cattleya Claesiana, resultando em uma composição aproximada de 50% E. pseudepidendrum, 25% C. loddigesii e 25% C. intermedia. É vigorosa, gosta de ",
+        "sinonimosPrincipais": "Não se aplica lista de sinônimos de espécie; grex registrado como Epicattleya René Marqués.",
+        "morfologiaDimensoes": "Epicattleya René Marqués impressiona pelos caules altos, com folhas firmes e hastes terminais que sustentam várias flores cerosas. As pétalas e sépalas verde-limão contrastam com o labelo alaranjado, rosado ou avermelhado, conforme o clone. Registrado em 1979 por W. S. Murray, a partir de cruzamento realizado por Z. Brough, o grex combina Epidendrum pseudepidendrum com Cattleya Claesiana. Sua ascendência reúne metade de Epidendrum pseudepidendrum e um quarto de cada uma das espécies Cattleya intermedia e Cattleya loddigesii. Sem habitat natural próprio, é um híbrido vigoroso que pode formar touceiras altas e vistosas.",
         "habitatAltitudeClima": "Sem habitat natural · grex horticultural. | Quente a intermediário · muito luminoso.",
         "distribuicaoGeografica": "E. pseudepidendrum × C. Claesiana.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
@@ -209,7 +209,7 @@ export const epicattleyaReneMarques = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Em Litoral de clima quente. Garanta ventilação forte, luz alta filtrada e substrato de secagem rápida. O porte pode ultrapassar 1,20 m, por isso reserve espaço e use tutor quando necessário." },
+        litoralQuente: { texto: "Em regiões litorâneas quentes, Garanta ventilação forte, luz alta filtrada e substrato de secagem rápida. O porte pode ultrapassar 1,20 m, por isso reserve espaço e use tutor quando necessário." },
         montanhaFrio: { texto: "Proteja de geadas e ventos muito frios, reduza a rega em dias de baixa temperatura e evite deixar raízes molhadas durante a noite." }
     },
     mesesFloracao: [9, 10, 11, 12, 1, 2],
