@@ -443,3 +443,9 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - Confronto qualitativo brasileiro: Orquídeas & Cia, recomendações de luminosidade filtrada e temperaturas amenas a quentes. Sem confronto individualizado comprovado com 25 produtores.
 - Conferência textual: descrição 100 palavras; **quatro suportes** com `estrelas: null` (outros indicadores visuais numéricos da ficha não são ranking de suportes); duas alternativas qualitativas; receita 35% macadâmia + 30% pinus + 20% perlita + 15% carvão = 100%. ID de macadâmia padronizado no código, sem conferência visual.
 - **Homologação documental concluída — MACS 1.1 provisória Classe D.** Percentuais e hierarquia de suportes não homologados quantitativamente; inspeção visual final separada.
+
+### Ficha 22 — Bulbophyllum rothschildianum (2026-11-04)
+- POWO aceita *Bulbophyllum rothschildianum* (O'Brien) J.J.Sm. (1912); sinônimos homotípicos *Cirrhopetalum rothschildianum* e *Mastigion rothschildianum*. Distribuição: Assam, Himalaia oriental, Yunnan e Myanmar; epífita de bioma predominantemente subtropical.
+- Flora of China via WFO documenta rizoma 5–7 mm, pseudobulbos ~3 cm, folhas 9–10 × 2–2,5 cm, haste 20–24 cm, umbela 4–6 flores e sépalas laterais de 15–19 cm. AOS oferece orientação genérica para Bulbophyllum: luz difusa, umidade elevada e rega regular, sem provar ranking de suportes.
+- Conferência textual: descrição 91 palavras, quatro suportes com `estrelas: null` (outras duas estrelas numéricas pertencem a indicadores distintos); duas misturas alternativas; receita 35% pinus + 20% carvão + 25% chips de coco + 20% esfagno = 100%.
+- **Homologação documental concluída — MACS 1.1 provisória Classe D.** Sem ensaio quantitativo de percentuais ou comparação dos suportes, sem premiação AOS específica verificada e sem confronto individualizado documentado com 25 produtores brasileiros. Inspeção visual final separada.
