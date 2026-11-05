@@ -36,7 +36,7 @@ export const coelogyneAsperata = {
         "horario": "Somente início da manhã",
         "observacoes": "Prefere luz filtrada brilhante. Folhas verde-médio e firmes indicam boa exposição. Folhas muito escuras sugerem sombra excessiva; amarelecimento, áreas secas e desidratação rápida indicam sol forte ou calor acumulado."
     },
-    "floracao": "Floresce com maior frequência do fim do inverno à primavera, entre agosto e novembro, podendo variar em clima estritamente tropical. As inflorescências podem se projetar para fora do recipiente e precisam de espaço livre. Plantas adultas em cestos ou vasos largos produzem hastes mais longas e cheias que divisões pequenas.",
+    "floracao": "Coelogyne asperata produz hastes arqueadas e cheias de flores junto aos novos brotos, criando cachos muito vistosos. Cada inflorescência pode reunir aproximadamente 15 a 40 flores cerosas, em tons de creme, amarelo-pálido ou branco-esverdeado, com labelo ornamentado por detalhes alaranjados e castanhos. As flores medem em torno de 5 a 8 cm e apresentam perfume geralmente suave e agradável, embora ainda não haja descrição segura de notas aromáticas específicas. Cada flor tem duração relativamente curta, mas o conjunto da haste pode continuar bonito por cerca de duas a quatro semanas em algumas seleções cultivadas. A época de floração varia conforme o ambiente; ainda faltam registros brasileiros específicos para marcar meses no calendário com segurança.",
     "adubacao": "🌿 Orgânica: bokashi moderado em sachê durante crescimento ativo, sem contato com brotos novos.\n💧 Mineral/Foliar: NPK equilibrado em baixa dose semanal ou quinzenal enquanto houver raízes e pseudobulbos em formação.\n🌱 Crescimento contínuo: mantenha nutrição leve durante quase todo o ano em clima quente.\n🌸 Maturação: reduza apenas levemente o nitrogênio após o enchimento dos pseudobulbos.\n🧪 Liberação lenta: Osmocote em dose baixa, distribuído em vasos ou cestos amplos.\n🚿 Lavagem: faça flushing periódico para evitar sais em substrato sempre úmido.",
     "rega": "Mantenha umidade regular durante a formação dos brotos e pseudobulbos, sem permitir água estagnada. O substrato deve permanecer levemente úmido, mas com circulação de ar. Após a maturação, reduza apenas de forma moderada. No inverno quente do litoral, a planta continua consumindo água. Regue pela manhã e ajuste a frequência conforme o tamanho do recipiente, a ventilação e a evaporação.",
     "suporte": "🥇 Vaso largo e estável — suporta o peso da touceira e acompanha o avanço do rizoma.\n🥈 Cesto amplo de madeira — oferece aeração e espaço para hastes pendentes.\n🥉 Cachepô muito drenante — útil em ambientes úmidos.\nEscolha recipiente definitivo ou de longa duração, pois a espécie cresce rápido e ressente-se de divisões frequentes.",
@@ -216,12 +216,7 @@ export const coelogyneAsperata = {
         "litoralQuente": "No litoral quente, a adaptação é excelente. Mantenha sombra clara, ventilação, umidade regular e recipiente amplo. Evite apenas abafamento, água parada e sol forte nas folhas largas.",
         "montanhaFrio": "Precisa de proteção térmica. Temperaturas persistentes abaixo de 14 °C reduzem a atividade e podem danificar brotos."
     },
-    "mesesFloracao": [
-        8,
-        9,
-        10,
-        11
-    ],
+    "mesesFloracao": [],
     "selosCultivo": {
         "rega": { "nivel": "sazonal", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
