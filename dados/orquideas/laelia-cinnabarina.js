@@ -53,8 +53,8 @@ export const laeliaCinnabarina = {
         titulo: "Substrato ideal",
         contexto: "Mistura predominantemente mineral para vaso baixo",
         resumo: "Mistura grossa, muito drenante e arejada, com pequena fração orgânica para estabilidade hídrica.",
-        justificativa: "Esta orquídea de hábito rupícola precisa de raízes bem ventiladas e drenagem rápida, sem deixar de receber água durante o crescimento. Em vaso baixo, a brita e a perlita mantêm a mistura aberta, enquanto as cascas de macadâmia e pinus oferecem apoio às raízes. Evite compactação, observe a secagem do recipiente e proteja as raízes do superaquecimento em períodos muito quentes.",
-        receitaTexto: "35% brita fina/média + 30% perlita grossa + 25% casca de macadâmia triturada + 10% casca de pinus grossa.",
+        justificativa: "A composição 35/30/25/10 é uma hipótese horticultural sem ensaio específico; o hábito rupícola não comprova proporção mineral ótima. Esta orquídea, frequentemente rupícola, precisa de raízes bem ventiladas e drenagem rápida, sem deixar de receber água durante o crescimento. Em vaso baixo, a brita e a perlita mantêm a mistura aberta, enquanto as cascas de macadâmia e pinus oferecem apoio às raízes. Evite compactação, observe a secagem do recipiente e proteja as raízes do superaquecimento em períodos muito quentes.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a espécie: 35% brita fina/média + 30% perlita grossa + 25% casca de macadâmia triturada + 10% casca de pinus grossa.",
         perfil: ["Rupícola", "Alta luminosidade", "Raízes arejadas", "Drenagem rápida", "Hastes florais altas"],
         comportamento: [
             { nome: "Retenção", valor: 1, icone: "💧" },
@@ -75,9 +75,9 @@ export const laeliaCinnabarina = {
     dica: "🏆 Dê muita luz sem cozinhar as raízes. Um vaso baixo, muito aerado e predominantemente mineral funciona bem, mas deve ficar protegido do sol forte que aquece pedra e barro. Durante o crescimento, regue de verdade; depois, reduza gradualmente conforme a planta desacelera.",
     revisaoCientificaIAR: {
         "nome": "Cattleya cinnabarina",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma explosão de laranja nas montanhas do Sudeste! Cattleya cinnabarina chama atenção pelas flores estreladas em intenso tom cinábrio, geralmente reunidas em hastes altas que podem chegar perto de 60 cm. Na natureza cresce sobre rochas entre gramíneas, sobretudo em áreas serranas de Minas Gerais e Rio de Janeiro, aproximadamente entre 800 e 1.500 m. Apesar do aspecto de planta d",
+        "statusTaxonomico": "Cattleya cinnabarina é nome aceito em POWO/Kew; registros ecológicos incluem hábitos rupícola, terrícola e epífito.",
+        "sinonimosPrincipais": "Laelia cinnabarina (sinônimo homotípico).",
+        "morfologiaDimensoes": "Cattleya cinnabarina, conhecida por muito tempo como Laelia cinnabarina, destaca-se pelas flores estreladas de laranja intenso. Seus pseudobulbos alongados terminam em uma única folha firme e sustentam inflorescências altas, frequentemente com seis ou mais flores. As hastes podem ultrapassar bastante a folhagem, dando à planta uma silhueta elegante e marcante. É nativa das serras do Sudeste brasileiro, onde ocorre principalmente sobre afloramentos rochosos, em campos e formações abertas, embora também existam registros de hábito epífito. A espécie apresenta variações naturais de porte e coloração, razão pela qual algumas populações foram descritas historicamente sob nomes diferentes.",
         "habitatAltitudeClima": "Afloramentos rochosos · ~800–1.500 m. | Intermediário a fresco · alta luz · ventilado.",
         "distribuicaoGeografica": "Minas Gerais e Rio de Janeiro.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
@@ -213,9 +213,9 @@ export const laeliaCinnabarina = {
         litoralQuente: { texto: "Cultive no ponto mais claro, fresco e ventilado disponível, evitando telhados, paredes e pedras que acumulem calor." },
         montanhaFrio: { texto: "Em locais luminosos e ventilados. Proteja de geadas fortes e reduza regas quando frio e umidade prolongarem a secagem." }
     },
-    mesesFloracao: [10, 11, 12, 1, 2],
+    mesesFloracao: [10, 11, 12],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno" }
     },
         avaliacoes: {
