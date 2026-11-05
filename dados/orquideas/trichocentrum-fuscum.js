@@ -40,7 +40,7 @@ export const trichocentrumFuscum = {
     "adubacao": "🌿 Orgânica: bokashi somente em dose mínima e apenas para plantas envasadas, longe das raízes.\n💧 Mineral/Foliar: NPK equilibrado em 1/3 a 1/2 da dose a cada 15 dias durante crescimento ativo.\n🧪 Liberação lenta: Osmocote em pequena quantidade somente em cachepôs ou vasos.\n🚿 Lavagem: lave raízes e suporte periodicamente para impedir concentração de sais.",
     "rega": "Molhe abundantemente e espere raízes e suporte secarem quase por completo antes de repetir. Em plantas montadas, pode haver rega diária no verão se a secagem ocorrer em poucas horas. No inverno, reduza significativamente a frequência. Nunca deixe água acumulada na base foliar, sobretudo à noite.",
     "suporte": "🥇 Placa de madeira, cortiça ou tronquinho — reproduz melhor a secagem rápida do habitat.\n🥈 Cachepô pequeno e muito vazado — mantém raízes expostas ao ar.\n🥉 Vaso pequeno de barro com muitos furos — alternativa para ambientes mais secos.\nUse pouca ou nenhuma retenção ao redor das raízes.",
-    "substrato": ["Chips de coco muito grossos preparados + argila expandida + carvão vegetal","Casca de macadâmia grossa + perlita grossa + carvão vegetal"],
+    "substrato": ["Chips de coco muito grossos lavados + argila expandida + carvão vegetal","Casca de macadâmia grossa + perlita grossa + carvão vegetal"],
     formasCultivo: {
         perfilVisual: "trichocentrum-fuscum-epifita-raizes-aereas-secagem-rapida",
         destaque: "Placa / tronco",
@@ -55,8 +55,8 @@ export const trichocentrumFuscum = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal sem substrato; receita alternativa para vaso pequeno",
         resumo: "Em placa, não colocar material retentivo junto às raízes. Para vaso, partículas grossas e drenantes favorecem secagem rápida.",
-        justificativa: "Trichocentrum fuscum se beneficia de montagem em placa ou tronco, mantendo as raízes expostas e bem ventiladas. Para vaso pequeno e perfurado, a casca de pinus grossa oferece apoio, a brita limpa ajuda a manter a mistura aberta e o carvão vegetal favorece a drenagem. Escolha brita de granulometria compatível com o recipiente, observe o peso do vaso e ajuste as regas à secagem das raízes.",
-        receitaTexto: "34% casca de pinus grossa + 33% brita fina de granulometria compatível + 33% carvão vegetal grosso.",
+        justificativa: "A receita 34/33/33 corresponde ao arredondamento de três partes iguais indicado para esta espécie por Orquídeas Encanto e Paixão (2020); é orientação horticultural específica, não ensaio experimental. A montagem principal em placa/tronco não utiliza mistura volumétrica. Trichocentrum fuscum se beneficia de montagem em placa ou tronco, mantendo as raízes expostas e bem ventiladas. Para vaso pequeno e perfurado, a casca de pinus grossa oferece apoio, a brita limpa ajuda a manter a mistura aberta e o carvão vegetal favorece a drenagem. Escolha brita de granulometria compatível com o recipiente, observe o peso do vaso e ajuste as regas à secagem das raízes.",
+        receitaTexto: "Orientação brasileira específica, NÃO HOMOLOGADA experimentalmente, para vaso pequeno: 34% casca de pinus grossa + 33% brita fina de granulometria compatível + 33% carvão vegetal grosso (arredondamento de três partes iguais). Na montagem principal em placa/tronco não se aplicam percentuais volumétricos.",
         perfil: ["Epífita", "Raízes expostas", "Baixa retenção", "Secagem rápida", "Ventilação elevada"],
         comportamento: [
             { nome: "Retenção", valor: 1, icone: "💧" },
@@ -211,20 +211,13 @@ export const trichocentrumFuscum = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Em clima quente, adapta-se muito bem, especialmente montada. Ofereça luz forte filtrada, ventilação permanente e evite regas tardias ou retenção noturna.",
-        "montanhaFrio": "No inverno, aumente bastante o intervalo de regas e proteja de frio intenso e ventos gelados."
+        "litoralQuente": "Em clima quente, adapta-se bem, especialmente montada. Ofereça luz forte filtrada, ventilação permanente e evite regas tardias ou retenção noturna.",
+        "montanhaFrio": "No inverno, ajuste o intervalo de regas à secagem real das raízes e proteja de frio intenso e ventos gelados."
     },
-    "mesesFloracao": [
-        1,
-        2,
-        6,
-        8,
-        9,
-        11
-    ],
+    "mesesFloracao": [],
     "selosCultivo": {
-        "rega": { "nivel": "muito-frequente", "regime": "reduzir-inverno" },
-        "climaFloracao": { "faixa": "quente" }
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "intermediario" }
     },
         "avaliacoes": {
         "cultivo": 4,
