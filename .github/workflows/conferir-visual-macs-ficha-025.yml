@@ -99,7 +99,7 @@ jobs:
             const ficheSource=require('fs').readFileSync('dados/orquideas/oncidium-twinkle.js','utf8');
             if(!ficheSource.includes('NÃO validada experimentalmente'))throw Error('Ressalva MACS 1.1 ausente nos dados da ficha');
             const termosInternos = [
-              /MACS\\s*1[.,]1/i,
+              /MACS\s*1[.,]1/i,
               /NÃO validada experimentalmente/i,
               /preferência técnica provisória/i,
               /alternativa provisória/i,
