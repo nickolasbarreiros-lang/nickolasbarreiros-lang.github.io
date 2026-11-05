@@ -43,3 +43,14 @@ Alternativas distintas entre si e da R0, sem proporções específicas publicada
 
 ## Parecer final
 **Revisão documental concluída.** Identidade confirmada; receita consistente em 100%; duas alternativas distintas; adaptação de casca de abeto para pinus claramente identificada; um fornecedor brasileiro localizado sem receita percentual. **Homologação experimental específica de *C. fimbriata*: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** epífita de rizoma longo e rastejante, pseudobulbos pequenos bifoliados e raízes que acompanham a expansão lateral. Necessita de umidade frequente no crescimento com boa aeração; não impor desidratação prolongada nem saturação persistente. Os pseudobulbos oferecem reserva limitada, mas não demonstram tolerância a repouso seco severo. Não foram localizadas medições específicas de tempo de secagem ou comparações experimentais de suportes.
+
+**Cultivo principal:** placa/tronco amplo e durável, com rizoma exposto, fixação leve e regas ajustadas à secagem; não aplicar mistura percentual sobre a placa. **Receita para cesto ou recipiente raso, em volume:** 75% casca de pinus média (estrutura) + 25% perlita grossa (aeração), total 100%, proporção 3:1. É adaptação da orientação genérica da AOS de casca de ABETO e perlita, substituindo abeto por PINUS; sem ensaio específico para Coelogyne fimbriata.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus média + chips de coco médios lavados + perlita grossa; (2) casca de pinus média + perlita grossa + esfagno de fibra longa solto. Distintas entre si e da mistura principal; lavagem dos chips não substitui eventual verificação de sais do lote.
+
+**Conferências editoriais:** descrição principal com 97 palavras, dentro da faixa 90–120. Padronizados chips de coco médios lavados; justificativa e receita visual explicitam a diferença abeto/pinus e o caráter não homologado; campos internos de taxonomia e morfologia atualizados, substituindo texto truncado. Receita e itens visuais somam 75+25=100%; quatro caminhos de fotos cadastrados; IDC 47/100 e três estrelas coerentes com IDC 3.2; IAR e avaliações dos suportes preservados. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis. Um fornecedor brasileiro com orientação geral específica da espécie identificado, zero receitas quantitativas específicas de produtores brasileiros verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
