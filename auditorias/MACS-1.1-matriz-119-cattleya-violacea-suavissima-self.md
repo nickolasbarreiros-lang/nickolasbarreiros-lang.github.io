@@ -30,3 +30,14 @@ Chromium/Playwright https://github.com/nickolasbarreiros-lang/nickolasbarreiros-
 **Limite técnico:** teste Chromium/Playwright de 2026-11-04 antecede esta revisão; não houve nova inspeção visual nem verificação de imagens pós-commit. A auditoria visual final com ZIP permanece conforme orientação do responsável.
 
 **Parecer:** revisão documental/editorial concluída nas fontes registradas. Homologação quantitativa **não obtida (D)**, sem atribuir validação inexistente.
+
+## Auditoria integrada IDC 3.2 + IAR 2.0 — 2026-11-05
+**Regra de independência:** nível D do MACS 1.1 significa insuficiência de evidência para homologação quantitativa da mistura; não anula automaticamente IDC, IAR nem estrelas de adequação de suporte. Estrelas dos suportes exigem fundamentação técnica própria e não devem ser apresentadas como ensaios.
+
+**IDC 3.2 — registro preexistente:** em documentacao/auditorias/IDC-AUDITORIA-3.0.csv consta Cattleya violacea f. suavissima × self, IDC **40/100**, dificuldade **Moderada**, selo de facilidade **3 estrelas**. Notas por fator na ordem temperatura/rega/umidade/ventilação/luminosidade/raízes-substrato/sazonalidade/floração: **2/2/2/2/2/1/1/3**. O selo está coerente com a faixa oficial 36–50 = 3 estrelas; a classificação Moderada corresponde a 26–50. O arquivo metodológico IDC-METODOLOGIA.js documenta pesos e faixas, mas não implementa uma função de conversão das notas de 1–5 para o total. Por isso, **40 é valor documentado no CSV, não recálculo independente homologado** nesta passagem. Requer conferência da regra de transformação original antes de alterar a pontuação.
+
+**IAR 2.0 — registro preexistente e conferência matemática:** em documentacao/auditorias/IAR-AUDITORIA-CIENTIFICA-2.0.csv consta litoral **97/100, 5 estrelas**, notas H/T/A/V/L/S/F **5/5/5/4/4/4/5**. Pela fórmula oficial, 30+30+5+4+4+4+20 = **97**, correto. Montanha **47/100, 3 estrelas**, notas **2/2/4/4/3/4/2**: 12+12+4+4+3+4+8 = **47**, correto. Ambos os selos correspondem às faixas oficiais. A coerência aritmética foi confirmada; a **fundamentação científica individual de cada nota e o rótulo de confiança alta** ainda requerem conferência de fontes específicas da espécie e do cenário, sem converter o cálculo matemático em validação biológica.
+
+**Aplicação na interface:** a ficha JavaScript atual não contém blocos estruturados IDC/IAR; as notas e índices existem nos CSVs de auditoria. É necessário verificar como o renderizador integra os CSVs antes de duplicar dados na ficha. Não confundir estrelas do selo IDC (3), IAR litoral (5) e IAR montanha (3) com estrelas de métodos MACS, atualmente nulas. Não inserir chaves desconhecidas no módulo.
+
+**Status:** conferência documental e aritmética IAR realizada; IDC localizado e faixa/selo conferidos, transformação numérica pendente de confirmação metodológica. Auditoria MACS permanece D. A conferência funcional/visual da versão atual segue para o ZIP final.
