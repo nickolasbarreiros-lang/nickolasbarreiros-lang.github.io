@@ -32,7 +32,7 @@ export const laeliaGloriosa = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Folhas firmes em verde-claro indicam boa luminosidade. Verde muito escuro costuma produzir crescimento sem floração; amarelecimento forte, manchas secas ou aquecimento foliar indicam excesso."
     },
-    floracao: "A época de floração varia conforme a procedência e o cultivo; a matriz não documenta meses brasileiros suficientes para fixar calendário obrigatório. Hastes terminais podem ultrapassar 1,2 m e carregar aproximadamente 8–15 flores agrupadas no ápice, com flores cerosas de cerca de 5 cm.",
+    floracao: "No Brasil, há referências de floração em maio e junho para plantas tradicionalmente chamadas de Schomburgkia crispa, nome que também foi usado para Laelia gloriosa. Como houve confusão histórica entre espécies semelhantes, esses meses são indicativos e podem variar conforme a procedência e o cultivo. As hastes terminais, frequentemente com cerca de um metro ou mais, sustentam grupos de aproximadamente 8 a 15 flores cerosas, com 5 a 6 cm. As sépalas e pétalas são castanho-escuras e bastante onduladas, contrastando com o labelo branco a rosa-claro. As flores são perfumadas, com aroma cítrico confirmado em plantas brasileiras e capaz de atrair abelhas. Referências orquidológicas descrevem as flores como relativamente pouco duráveis, mas ainda não há um número de dias suficientemente seguro para informar a longevidade individual ou a duração completa da inflorescência.",
     adubacao: "🌿 Orgânica: bokashi em porta-adubo durante a brotação.\n💧 Foliar: NPK equilibrado em baixa concentração a cada 7–15 dias durante o crescimento ativo.\n🧪 Liberação lenta: dose baixa a moderada conforme o tamanho do recipiente, sem contato direto com raízes novas. Após a maturação, reduza a frequência e o excesso de nitrogênio, sem necessidade de suspender toda nutrição. Periodicamente lave o substrato com água pura.",
     rega: "Durante a emissão de brotos e raízes novas, regue abundantemente e permita secagem rápida antes da próxima irrigação. Após a maturação dos pseudobulbos, aumente moderadamente o intervalo, especialmente em períodos frios ou nublados, sem causar enrugamento severo.",
     suporte: "🥇 Cesto grande e robusto de madeira, firmemente suspenso ou fixado.\n🥈 Vaso de barro pesado, largo e muito furado.\n🥉 Fixação definitiva em tronco de árvore, apenas onde não haja geadas e seja possível regar durante o estabelecimento.",
@@ -212,7 +212,7 @@ export const laeliaGloriosa = {
         litoralQuente: { texto: "Ao calor de litoral quente quando recebe luminosidade elevada, ventilação constante, rega abundante durante o crescimento e secagem rápida. Fixe firmemente o recipiente contra vento e tombamento." },
         montanhaFrio: { texto: "Tolera noites amenas, mas deve ser protegida de geadas e de períodos frios prolongados com raízes molhadas. Mantenha alta luminosidade mesmo no inverno." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [5, 6],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
