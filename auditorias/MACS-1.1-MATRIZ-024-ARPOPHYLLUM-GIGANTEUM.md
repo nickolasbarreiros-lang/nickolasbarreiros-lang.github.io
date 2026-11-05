@@ -91,3 +91,9 @@ Não calcular nota sem medições comparáveis.
   3. `imagens/Arpophyllum giganteum/Arpophyllum giganteum3.webp` — existe; blob `bce3c9d8978d33fbb813a1f2bdb6d5a7a7bf739d`.
   4. `imagens/Arpophyllum giganteum/Arpophyllum giganteum4.jpeg` — existe; blob `23be47582f987cc1d67a695877070a6ce50e08e1`.
 - **Resultado:** quatro de quatro arquivos presentes nos caminhos exatos; não foram alterados. Esta checagem não comprova renderização no navegador, adequação taxonômica das fotografias nem integridade visual do layout V4.9.
+
+## Verificação de assets de cultivo e substrato — 2026-11-04
+- Confrontadas as chaves de `formasCultivo.metodos[].asset` e `substratoVisual.itens[].asset` com `js/biblioteca-cultivo-v4.js`, e consultados os nove arquivos de imagem diretamente no GitHub.
+- **Cultivo, 4/4:** `vaso-plastico` → `imagens/cultivo-v4/vaso-plastico.webp`; `cesto-madeira` → `imagens/cultivo-v4/cesto-madeira-v3.webp`; `vaso-barro` → `imagens/cultivo-v4/vaso-barro.webp`; `vaso-plastico-vasado` → `imagens/cultivo-v4/vaso-plastico-vasado-v2.webp`.
+- **Substrato, 5/5:** `casca-macadamia` → `imagens/cultivo-v4/macadamia.webp`; `casca-pinus` → `imagens/cultivo-v4/casca-pinus.webp`; `carvao-vegetal` → `imagens/cultivo-v4/carvao-vegetal.webp`; `casca-arroz-carbonizada` → `imagens/cultivo-v4/casca-arroz-carbonizada.webp`; `esfagno` → `imagens/cultivo-v4/esfagno.webp`.
+- **Resultado:** 9/9 chaves presentes na biblioteca e 9/9 arquivos existentes. Não foram substituídos assets nem alteradas receitas. A verificação de existência não substitui a inspeção visual do layout no navegador.
