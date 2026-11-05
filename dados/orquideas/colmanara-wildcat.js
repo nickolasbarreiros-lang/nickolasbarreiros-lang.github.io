@@ -45,7 +45,7 @@ export const colmanaraWildcat = {
         "destaque": "Vaso plástico",
         "resumo": "Híbrido Oncostele Wildcat, anteriormente conhecido como Colmanara Wildcat. Tem raízes finas, prefere umidade regular com boa drenagem e se beneficia de recipiente apenas ligeiramente maior que a touceira.",
         "metodos": [
-            { "nome": "Vaso plástico", "asset": "vaso-plastico", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Vaso compacto, bem perfurado e com poucos centímetros livres para o próximo crescimento. Mantém umidade mais uniforme sem exigir recipiente grande." },
+            { "nome": "Vaso plástico", "asset": "vaso-plastico-vasado", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Vaso compacto, bem perfurado e com poucos centímetros livres para o próximo crescimento. Mantém umidade mais uniforme sem exigir recipiente grande." },
             { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": 4, "status": "Muito recomendado", "texto": "Boa opção em ambientes úmidos com regas frequentes; acompanhar a secagem mais rápida das paredes." },
             { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 4, "status": "Alternativa", "texto": "Oferece mais aeração, desde que a rega compense a secagem acelerada e preserve as raízes finas." },
             { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": 3, "status": "Para touceiras grandes", "texto": "Usar apenas com raízes bem estabelecidas e controle cuidadoso da umidade; evitar secagem prolongada." }
