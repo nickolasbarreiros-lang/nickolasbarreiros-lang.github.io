@@ -24,7 +24,7 @@
 
 | Material | Percentual | Asset |
 |---|---:|---|
-| Chips de coco pequenos preparados | 40% | `chips-coco` |
+| Chips de coco pequenos lavados | 40% | `chips-coco` |
 | Casca de pinus fina | 30% | `casca-pinus` |
 | Perlita de granulometria adequada a miniaturas | 30% | `perlita` |
 | **Total** | **100%** | **Hipótese horticultural, não homologada** |
@@ -48,3 +48,14 @@ Distintas entre si e da receita percentual, sem percentuais inventados.
 
 ## Parecer final
 **Revisão documental concluída.** Identidade, morfologia, fenologia, descrição e exposição solar corrigidas. Receita alternativa soma 100% e duas outras misturas distintas permanecem. **Homologação quantitativa 40/30/30: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-05
+**Perfil:** miniatura epífita cespitosa, com ramicaules revestidos por bainhas imbricadas, sem pseudobulbos evidentes e com raízes finas superficiais. O conjunto requer umidade regular e ar renovado; a fina lâmina de esfagno deve ficar sob as raízes, sem cobrir a base dos ramicaules. Regar conforme secagem do suporte, frequentemente em clima quente, evitando tanto ressecamento prolongado quanto saturação contínua; em semanas frias e úmidas, espaçar moderadamente as irrigações sem repouso seco.
+
+**Cultivo principal:** placa de cortiça ou madeira com esfagno de fibra longa mínimo, **sem substrato volumétrico nem percentuais**. **Receita opcional em volume para cuia rasa ou cesto pequeno:** 40% chips de coco pequenos lavados (umidade moderada) + 30% casca de pinus fina (estrutura) + 30% perlita de granulometria adequada a miniaturas (aeração), total 100%. Proposta horticultural sem ensaio quantitativo específico em Octomeria diaphana. Orquidário Aparecida anuncia a espécie, mas não fornece receita percentual; manuais SENAR e ESALQ são orientações gerais, não validação da mistura.
+
+**Duas alternativas qualitativas sem percentuais:** (1) esfagno de fibra longa solto + perlita de granulometria adequada a miniaturas; (2) casca de pinus fina + perlita de granulometria adequada a miniaturas + pequena fração de esfagno de fibra longa solto. Distintas entre si e da receita opcional; coco lavado não dispensa eventual controle de salinidade.
+
+**Conferências editoriais:** descrição com 92 palavras (faixa 90–120). Chips de coco pequenos lavados padronizados em receita, item visual e justificativa. Receita e justificativa agora explicitam falta de homologação específica e diferenciam montagem principal de mistura opcional em recipiente. **Calendário [11,12,1,2,3,4,5] mantido** porque CNCFlora documenta floração de novembro a maio; trata-se de período observado, não garantia de floração em todos os locais e anos. Selo de clima de floração passa de “quente/floraNoCalor” a “intermediario”, pois não foi demonstrada exigência obrigatória de calor. Receita e itens visuais somam 40+30+30=100%; duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 34/100 e quatro estrelas coerentes com IDC 3.2; IAR litoral 63/4 estrelas e montanha 96/5 estrelas preservados; estrelas dos suportes mantidas como avaliações horticulturais. Iluminação “Não permitido” coerente com sol direto vedado. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; um produtor brasileiro com anúncio específico mas sem receita quantitativa, meta de 25 não atingida e **homologação experimental não demonstrada**.
