@@ -25,7 +25,7 @@ export const miltoniaSpectabilisVarMoreliana = {
     "regiao": "Bahia a São Paulo",
     "habitat": "Mata Atlântica · epífita.",
     "clima": "Intermediário a quente · ventilado.",
-    "climaFloracao": "A flor normalmente surge após a maturação completa do pseudobulbo. Boa luz filtrada, amplitude térmica moderada e crescimento contínuo favorecem a indução. Não imponha seca severa. Quanto mais cheio e vigoroso amadurecer o pseudobulbo, maior tende a ser a flor, mais intensa a pigmentação e melhor a capacidade de sustentar a brotação seguinte.",
+    "climaFloracao": "A flor normalmente surge após a maturação completa do pseudobulbo. Boa luz filtrada e crescimento vigoroso são desejáveis; a exigência de amplitude térmica específica para indução não foi demonstrada para esta espécie. Não imponha seca severa. Quanto mais cheio e vigoroso amadurecer o pseudobulbo, maior tende a ser a flor, mais intensa a pigmentação e melhor a capacidade de sustentar a brotação seguinte.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
@@ -36,7 +36,7 @@ export const miltoniaSpectabilisVarMoreliana = {
     "adubacao": "🌿 Orgânica: bokashi em pequena porção, dentro de porta-adubo na borda do recipiente.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose, a cada 10–15 dias enquanto broto e pseudobulbo estiverem crescendo. Reduza após a maturação.\n🧪 Liberação lenta: poucos grânulos em vaso muito drenante, longe de raízes novas.\n🚿 Flushing: uma vez por mês, regue abundantemente somente com água pura para remover sais acumulados.",
     "rega": "Durante a brotação, mantenha umidade regular e permita apenas que a superfície comece a secar. Secagem prolongada nessa fase gera folhas sanfonadas permanentes. Antes de aumentar a água, examine as raízes: firmes e claras indicam falta de umidade; escuras, ocas ou moles revelam perda radicular e excesso de retenção. Depois que o pseudobulbo amadurecer, aumente discretamente o intervalo sem causar murchamento profundo.",
     "suporte": "🥇 Vaso plástico raso tipo cuia, com muitos furos: oferece espaço horizontal ao rizoma sem grande coluna de substrato.\n🥈 Vaso de barro raso: excelente para regiões úmidas e regas frequentes.\n🥉 Cesto de madeira: indicado para touceiras grandes e ambientes com umidade elevada.",
-    substrato: ["Casca de pinus média + perlita de granulometria adequada + argila expandida miúda + pequena fração de esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita de granulometria adequada + pequena fração de fibra de coco grossa preparada"],
+    substrato: ["Casca de pinus média + perlita de granulometria adequada + argila expandida miúda + pequena fração de esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita de granulometria adequada + pequena fração de fibra de coco grossa lavada"],
     formasCultivo: {
         perfilVisual: "miltonia-moreliana-rizoma-expansivo-raizes-capilares",
         destaque: "Vaso plástico vasado",
@@ -52,8 +52,8 @@ export const miltoniaSpectabilisVarMoreliana = {
         titulo: "Substrato ideal",
         contexto: "Mistura aerada para vaso raso tipo cuia",
         resumo: "Umidade regular, granulometria média e excelente drenagem para raízes delicadas, sem compactação ou saturação prolongada.",
-        justificativa: "Miltonia spectabilis var. moreliana apresenta rizoma expansivo e raízes delicadas, exigindo espaço lateral e substrato bem ventilado. Em vaso raso tipo cuia, a casca de pinus oferece estrutura, os chips de coco pequenos preparados ajudam a conservar umidade e a perlita e o carvão favorecem a aeração. Escolha granulometria proporcional às raízes e mantenha umidade regular sem saturação.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco pequenos preparados + 25% perlita de granulometria compatível com as raízes + 10% carvão vegetal.",
+        justificativa: "A receita 35/30/25/10 é proposta horticultural sem ensaio quantitativo específico em Miltonia moreliana; estudos com outras Miltonia ou híbridos não a homologam. Miltonia moreliana apresenta rizoma expansivo e raízes delicadas, exigindo espaço lateral e substrato bem ventilado. Em vaso raso tipo cuia, a casca de pinus oferece estrutura, os chips de coco pequenos lavados ajudam a conservar umidade e a perlita e o carvão favorecem a aeração. Escolha granulometria proporcional às raízes e mantenha umidade regular sem saturação.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a espécie: 35% casca de pinus média + 30% chips de coco pequenos lavados + 25% perlita de granulometria compatível com as raízes + 10% carvão vegetal.",
         perfil: ["Epífita simpodial", "Rizoma expansivo", "Raízes capilares", "Vaso raso", "Umidade regular"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -63,7 +63,7 @@ export const miltoniaSpectabilisVarMoreliana = {
         ],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Sustenta as raízes sem formar massa compacta." },
-            { asset: "chips-coco", nome: "Chips de coco pequenos preparados", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a manter umidade regular durante a formação dos brotos." },
+            { asset: "chips-coco", nome: "Chips de coco pequenos lavados", proporcao: "30%", nota: "umidade", finalidade: "Ajuda a manter umidade regular durante a formação dos brotos." },
             { asset: "perlita", nome: "Perlita de granulometria adequada", proporcao: "25%", nota: "aeração", finalidade: "Favorece a drenagem e a oxigenação das raízes capilares." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "10%", nota: "porosidade", finalidade: "Contribui para a estrutura aberta do substrato." }
         ],
@@ -212,10 +212,10 @@ export const miltoniaSpectabilisVarMoreliana = {
         "litoralQuente": "Excelente adaptação no litoral quente sob 60–70% de sombra, substrato de rápida drenagem e ventilação contínua. O maior risco é umidade excessiva combinada com noites abafadas.",
         "montanhaFrio": "Desenvolve-se muito bem. Aumente a luz no inverno e reduza regas em dias frios e nublados, sem deixar raízes ativas secarem totalmente."
     },
-    "mesesFloracao": [1, 2, 3, 4, 5],
+    "mesesFloracao": [],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
-        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+        "climaFloracao": { "faixa": "ameno" }
     },
         "avaliacoes": {
         "cultivo": 4,
