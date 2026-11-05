@@ -38,35 +38,32 @@ export const bulbophyllumRothschildianum = {
             {
                 "nome": "Cachepô de Madeira",
                 "asset": "cesto-madeira",
-                "estrelas": 5,
-                "status": "Ideal",
+                "estrelas": null, "status": "Alternativa provisória",
                 "texto": "Acomoda o rizoma horizontal e permite a saída das flores; exige reserva de umidade e regas regulares."
             },
             {
                 "nome": "Vaso plástico vasado",
                 "asset": "vaso-plastico-vasado",
-                "estrelas": 4,
-                "status": "Muito recomendado",
+                "estrelas": null, "status": "Alternativa provisória",
                 "texto": "Opção de secagem mais lenta que o cachepô; use recipiente largo e rizoma à superfície."
             },
             {
                 "nome": "Placa / tronco",
                 "asset": "placa-tronco",
-                "estrelas": 4,
-                "status": "Muito recomendado",
+                "estrelas": null, "status": "Alternativa provisória",
                 "texto": "Acompanha a expansão do rizoma, mas requer irrigação mais frequente no calor."
             },
             {
                 "nome": "Vaso de Barro",
                 "asset": "vaso-barro",
-                "estrelas": 3,
-                "status": "Alternativa",
+                "estrelas": null, "status": "Alternativa provisória",
                 "texto": "Funciona com mistura mais úmida; evaporação pelas paredes pode acelerar a secagem."
             }
         ]
     },
     substratoVisual: {
-        "titulo": "Substrato ideal",
+        "notaEvidencia": "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D). Receita 35% pinus + 20% carvão + 25% chips de coco + 20% esfagno = 100%, sem ensaio quantitativo. Quatro suportes sem estrelas comparativas. POWO/Flora of China fundamentam taxonomia e morfologia; AOS fornece recomendações genéricas, sem validar ranking. Não comprovado confronto individualizado com 25 produtores brasileiros.",
+        "titulo": "Substrato recomendado (provisório)",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição técnica provisória para recipiente; ajustar granulometria, rega e ventilação.",
         "justificativa": "Bulbophyllum rothschildianum precisa de espaço para o crescimento lateral do rizoma e umidade regular com boa circulação de ar. Em cachepô largo, a casca de pinus oferece apoio, o carvão mantém a mistura aberta e os chips de coco e o esfagno solto ajudam a conservar umidade. Evite compactar os componentes e observe a secagem no centro do recipiente para ajustar as regas.",
@@ -124,25 +121,25 @@ export const bulbophyllumRothschildianum = {
                             "finalidade": "Mantém umidade local sem cobrir o rizoma."
             }
         ],
-        "alerta": "Proposta preliminar MACS 1.0; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo."
+        "alerta": "Receita provisória MACS 1.1, sem ensaio comparativo. Ajustar rega e ventilação conforme resposta das raízes, evitando secagem completa prolongada ou saturação persistente."
     },
     substrato: ["Esfagno de fibra longa solto + perlita grossa","Chips de coco preparados + perlita grossa + carvão vegetal miúdo + esfagno de fibra longa solto"],
     errosComuns: "• Exibir vários sinônimos no campo resumido.\n• Tratar a espécie como obrigatoriamente fria.\n• Deixar o substrato secar por vários dias.\n• Compactar esfagno.\n• Usar vaso estreito para rizoma rastejante.\n• Manter calor e umidade em ambiente abafado.\n• Expor ao sol forte direto.\n• Fertilizar em concentração elevada.",
     dica: "🏆 A umbela larga e as sépalas de até cerca de 17 cm precisam de espaço livre para se desenvolver sem encostar no recipiente. Use cesto largo, deixe a nova frente voltada para fora e mantenha ventilação constante. No litoral quente, a prioridade não é produzir frio, e sim evitar noites excessivamente abafadas e raízes saturadas.",
     revisaoCientificaIAR: {
-        "nome": "Bulbophyllum rothschildianum",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma das flores mais extravagantes entre os *Bulbophyllum*! *Bulbophyllum rothschildianum* forma uma planta relativamente pequena, mas surpreende com inflorescências em leque e flores de sépalas extremamente alongadas, que podem alcançar cerca de **17 cm** no conjunto.",
-        "habitatAltitudeClima": "Florestas subtropicais úmidas. | Quente a fresco · úmido.",
-        "distribuicaoGeografica": "Assam · E Himalaia · S Yunnan · N Myanmar.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "media",
-        "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
+        nome: "Bulbophyllum rothschildianum (O'Brien) J.J.Sm.",
+        statusTaxonomico: "Espécie aceita pelo POWO/Kew; combinação publicada por J.J.Sm. em 1912, com basiônimo Cirrhopetalum rothschildianum O'Brien (1895).",
+        sinonimosPrincipais: "POWO registra dois sinônimos homotípicos: Cirrhopetalum rothschildianum O'Brien (1895) e Mastigion rothschildianum (O'Brien) Lucksom (2007). Não confundir com Paphiopedilum rothschildianum.",
+        morfologiaDimensoes: "Flora of China, disponibilizada pela World Flora Online, descreve rizoma de 5–7 mm de diâmetro, pseudobulbos ovoides espaçados de cerca de 3 cm, uma folha coriácea apical de aproximadamente 9–10 × 2–2,5 cm e haste ereta de 20–24 cm. Umbela geralmente de quatro a seis flores vermelho-purpúreas; sépalas laterais alongadas, retorcidas, com 15–19 cm, formando leque pendente. As margens florais podem apresentar franjas. Não confundir comprimento das sépalas com diâmetro floral.",
+        habitatAltitudeClima: "POWO registra epífita pseudobulbosa principalmente do bioma subtropical, nativa de Assam e Himalaia oriental até Yunnan e norte de Myanmar. Não há altitude específica comprovada nas fontes aqui confrontadas. AOS orienta, para o gênero Bulbophyllum, luz difusa, umidade alta, rega frequente e substrato que seque apenas ligeiramente entre regas; trata-se de recomendação genérica, não de experimento com esta espécie.",
+        distribuicaoGeografica: "POWO/Kew: Assam, Himalaia oriental, sul-centro da China (Yunnan) e Myanmar. Não estender automaticamente a distribuição a outros países da Ásia.",
+        cultivoPremiacao: "AOS Bulbophyllum Culture Sheet recomenda luz filtrada, umidade geralmente 60–90% e rega liberal com leve secagem entre regas, em nível de gênero. Isso não demonstra superioridade quantitativa de cachepô, placa, vaso plástico ou barro. Receita 35% pinus + 20% carvão + 25% chips de coco + 20% esfagno permanece hipótese técnica; nenhum ensaio de percentuais, comparação de suportes, premiação AOS específica ou levantamento de 25 produtores brasileiros foi comprovado.",
+        confianca: "Taxonomia e distribuição: alta (POWO/IPNI). Morfologia: alta (Flora of China/WFO). Cultivo: moderada, orientação genérica AOS. MACS 1.1 Classe D, sem validação quantitativa.",
+        fontes: [
+            "POWO/Kew — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:620046-1",
+            "IPNI — https://www.ipni.org/n/620046-1",
+            "World Flora Online/Flora of China — https://www.worldfloraonline.org/taxon/wfo-0000606373",
+            "AOS, Bulbophyllum Culture Sheet — https://www.aos.org/orchid-care/care-sheets/bulbophyllum-culture-sheet"
         ]
     },
     indiceDificuldadeCultivo: {
