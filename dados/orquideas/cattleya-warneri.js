@@ -39,7 +39,7 @@ export const cattleyaWarneri = {
     "adubacao": "🌿 Orgânica: bokashi moderado em porta-adubo durante brotação, nunca sobre o rizoma.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/2 da dose a cada 10–15 dias enquanto houver brotos e raízes ativos.\n🌱 Formação de reservas: mantenha nutrição até a folha expandir e o pseudobulbo ganhar volume.\n🌸 Maturação: reduza nitrogênio e frequência após a espata se formar.\n🧪 Liberação lenta: dose baixa no início do novo crescimento.\n🚿 Flushing: lave o substrato mensalmente com água pura.",
     "rega": "Durante primavera, verão e início do outono, regue quando o substrato estiver próximo da secagem. Após a maturação, aumente gradualmente os intervalos. No inverno, o vaso deve secar de forma nítida antes da próxima rega, mas os pseudobulbos não devem sofrer desidratação extrema. Evite água acumulada entre folha e espata e não molhe repetidamente a bainha em dias frios.",
     "suporte": "🥇 Vaso de barro firme e perfurado — estabilidade e secagem equilibrada.\n🥈 Cestinho de madeira — excelente em clima quente e úmido.\n🥉 Placa de madeira robusta — indicada para plantas adaptadas e ambientes úmidos.\nUse recipiente para duas ou três novas frentes, sem excesso de volume.",
-    substrato: ["Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa","Chips de coco grossos preparados + perlita grossa + carvão vegetal + casca de pinus média"],
+    substrato: ["Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa","Chips de coco grossos lavados + perlita grossa + carvão vegetal + casca de pinus média"],
     "formasCultivo": {
         "perfilVisual": "cattleya",
         "destaque": "Vaso de Barro",
@@ -55,8 +55,8 @@ export const cattleyaWarneri = {
         "titulo": "Substrato ideal",
         "contexto": "Mistura sugerida para vaso de barro perfurado",
         "resumo": "Mistura de granulometria média a grossa, com sustentação firme, aeração e drenagem para raízes epífitas.",
-        "justificativa": "Cattleya warneri se beneficia de raízes bem ventiladas e secagem perceptível entre regas. Em vaso de barro perfurado, as cascas de macadâmia e pinus oferecem apoio e estrutura, enquanto a perlita e o carvão favorecem a drenagem. Observe a secagem do recipiente e evite manter as raízes encharcadas. Replante preferencialmente quando houver emissão de novas raízes, mantendo a base dos pseudobulbos acima da mistura.",
-        "receitaTexto": "35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
+        "justificativa": "Cattleya warneri se beneficia de raízes bem ventiladas e secagem perceptível entre regas. A proporção 35/30/20/15 é hipótese horticultural não ensaiada para esta espécie. Em vaso de barro perfurado, as cascas de macadâmia e pinus oferecem apoio e estrutura, enquanto a perlita e o carvão favorecem a drenagem. Observe a secagem do recipiente e evite manter as raízes encharcadas. Replante preferencialmente quando houver emissão de novas raízes, mantendo a base dos pseudobulbos acima da mistura.",
+        "receitaTexto": "Proposta horticultural NÃO HOMOLOGADA para a espécie: 35% casca de macadâmia média + 30% casca de pinus média + 20% perlita grossa + 15% carvão vegetal.",
         "perfil": ["Raízes epífitas", "Porte grande", "Boa sustentação", "Aeração alta", "Secagem equilibrada"],
         "comportamento": [
             { "nome": "Retenção", "valor": 2, "icone": "💧" },
@@ -77,11 +77,11 @@ export const cattleyaWarneri = {
     "dica": "Preserve a espata mesmo quando estiver castanha e aparentemente seca. Em Cattleya warneri, a bainha pode secar meses antes da haste se desenvolver. Não abra, não corte e não aperte. Mantenha luz alta no inverno, ventilação, rega controlada e aguarde a primavera.",
     revisaoCientificaIAR: {
         "nome": "Cattleya warneri",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma gigante da primavera brasileira! Cattleya warneri é uma das grandes Cattleyas da Mata Atlântica, conhecida pelas flores muito grandes, perfumadas e geralmente rosadas ou lilases, com um labelo amplo e intensamente colorido. A planta também impressiona pelo porte, formando pseudobulbos altos e robustos com uma única folha no topo. Sua floração acompanha um ritmo bem caracter",
+        "statusTaxonomico": "Cattleya warneri é nome aceito em POWO/Kew.",
+        "sinonimosPrincipais": "Não foi confirmado sinônimo principal adicional na matriz MACS 079; evitar atribuir sinônimos sem fonte específica.",
+        "morfologiaDimensoes": "Cattleya warneri é uma das grandes orquídeas unifoliadas da Mata Atlântica brasileira. Seus pseudobulbos altos e robustos terminam em uma única folha coriácea, formando touceiras de presença marcante. Na primavera, as espatas podem revelar flores muito grandes, geralmente rosadas ou lilases, com labelo amplo, ondulado e de cores mais intensas. O perfume adocicado completa o espetáculo, especialmente quando várias hastes florescem juntas. Uma curiosidade é que a espata pode parecer seca antes da abertura dos botões. Nativa do leste do Brasil, cresce como epífita em ambientes florestais com sazonalidade de chuvas e luminosidade relativamente elevada.",
         "habitatAltitudeClima": "Mata Atlântica · epífita · ~100–800 m. | Quente a intermediário · noites mais amenas.",
-        "distribuicaoGeografica": "Leste do Brasil · destaque para ES e MG.",
+        "distribuicaoGeografica": "Leste do Brasil, regiões Nordeste e Sudeste, conforme POWO/Kew.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
         "confianca": "alta",
         "fontes": [
@@ -212,7 +212,7 @@ export const cattleyaWarneri = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, a adaptação é excelente por ser espécie regional. Use substrato aberto, vaso protegido do superaquecimento e circulação constante. Reduza água no inverno sem secar completamente.",
+        "litoralQuente": "No litoral quente, a adaptação é excelente por ser espécie regional. Use substrato aberto, vaso protegido do superaquecimento e circulação constante. Reduza água no inverno sem secar completamente.",
         "montanhaFrio": "As noites frescas favorecem a maturação. Proteja de geadas e de substrato frio e saturado."
     },
     "mesesFloracao": [
@@ -221,7 +221,7 @@ export const cattleyaWarneri = {
         11
     ],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
     },
         "avaliacoes": {
