@@ -44,7 +44,7 @@ export const laeliaFournieri = {
         destaque: "Vaso de Barro",
         resumo: "Miniatura rupícola de altitude, com raízes sensíveis ao calor. Precisa de vaso pequeno e raso, substrato predominantemente mineral, ventilação máxima e proteção contra superaquecimento.",
         metodos: [
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno, raso e muito perfurado, com pouco substrato mineral e raízes frescas." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno, raso e muito perfurado, com substrato aberto e proteção das raízes contra superaquecimento." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Por ser rupícola, preferir fixação firme em pedra porosa, protegida contra aquecimento excessivo; não é montagem convencional em madeira." },
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cesto baixo e extremamente aberto, com mistura mineral estável e regas ajustadas à secagem." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Alternativa", texto: "Recipiente pequeno e muito vazado, desde que não acumule calor e umidade no centro." }
@@ -54,7 +54,7 @@ export const laeliaFournieri = {
         titulo: "Substrato ideal",
         contexto: "Mistura mineral para vaso baixo e muito perfurado",
         resumo: "Mistura de drenagem imediata, com fração orgânica reduzida, evitando calor e compactação nas raízes sensíveis.",
-        justificativa: "Laelia fournieri é uma orquídea rupícola que se beneficia de raízes bem ventiladas e drenagem rápida, sem superaquecimento do recipiente. Em vaso pequeno, raso e muito perfurado, a brita fina ou média e a perlita grossa mantêm a mistura aberta, enquanto as cascas de macadâmia e pinus oferecem apoio e uma pequena reserva de umidade. Proteja o vaso do sol que aquece excessivamente as raízes e ajuste as regas conforme a secagem e o crescimento da planta.",
+        justificativa: "Cattleya fournieri (sin. Laelia fournieri) é uma orquídea rupícola que se beneficia de raízes bem ventiladas e drenagem rápida, sem superaquecimento do recipiente. A mistura proposta, com 70% de materiais minerais e 30% de cascas, busca manter aeração e alguma reserva hídrica, mas suas proporções não foram testadas experimentalmente nesta espécie. Proteja o vaso do sol que aquece excessivamente as raízes e ajuste as regas conforme a secagem e o crescimento da planta.",
         receitaTexto: "40% brita fina/média + 30% perlita grossa + 20% casca de macadâmia triturada + 10% casca de pinus grossa.",
         perfil: ["Miniatura rupícola", "Raízes sensíveis ao calor", "Alta aeração", "Drenagem imediata", "Pouco volume de substrato"],
         comportamento: [
