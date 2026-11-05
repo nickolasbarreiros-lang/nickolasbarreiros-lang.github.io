@@ -36,7 +36,7 @@ export const coelogyneFlaccida = {
         "horario": "Somente início da manhã",
         "observacoes": "Prefere luz filtrada média a forte. Folhas verde-claro e firmes indicam boa iluminação. Folhas muito escuras sugerem sombra excessiva; amarelecimento e manchas secas indicam sol forte ou calor."
     },
-    "floracao": "Floresce principalmente do fim do inverno à primavera, entre agosto e novembro. As inflorescências precisam sair livremente do recipiente e pender sem encostar em prateleiras, paredes ou vasos vizinhos. O perfume é mais intenso em horários claros e pode ser incômodo em locais fechados.",
+    "floracao": "Em orquidários brasileiros, Coelogyne flaccida floresce principalmente na primavera, entre setembro e novembro, podendo alcançar o início de dezembro conforme o clima. Suas hastes arqueadas ou pendentes surgem perto dos pseudobulbos maduros e formam cachos com aproximadamente cinco a doze flores, por vezes mais em plantas vigorosas. Cada flor mede em torno de 3 a 5 cm, tem textura cerosa, pétalas brancas a creme e labelo marcado por tons amarelos e castanhos. O perfume é forte e bastante característico, podendo ser considerado desagradável por algumas pessoas; não há descrição segura de notas aromáticas específicas. Em relatos de cultivo brasileiro, a floração costuma permanecer vistosa por cerca de 15 a 20 dias, variando com a temperatura e as condições do ambiente.",
     "adubacao": "🌿 Orgânica: bokashi em pequena dose na borda do cesto no início da brotação.\n💧 Mineral/Foliar: NPK equilibrado bem diluído a cada 10–15 dias durante crescimento ativo.\n🌱 Formação dos pseudobulbos: mantenha nutrição leve até a maturação.\n🍂 Pós-maturação: reduza frequência e nitrogênio.\n🧪 Liberação lenta: dose baixa de Osmocote somente em vasos ou cestos muito drenantes.\n🚿 Lavagem: faça flushing regular para evitar acúmulo de sais.",
     "rega": "Durante a formação dos novos pseudobulbos, regue com frequência e deixe apenas a superfície secar levemente. Após a maturação, reduza moderadamente. No inverno, mantenha leve umidade sem deixar a mistura fria e saturada. Não permita desidratação severa dos pseudobulbos. Regue pela manhã e mantenha ventilação constante.",
     "suporte": "🥇 Cesto de madeira ou plástico vazado — favorece aeração e saída das hastes.\n🥈 Vaso largo e raso — oferece superfície e estabilidade sem excesso de substrato profundo.\n🥉 Placa grande — indicada somente em ambientes úmidos e frescos.\nMantenha o conjunto suspenso e com espaço vertical livre.",
@@ -215,10 +215,10 @@ export const coelogyneFlaccida = {
         "montanhaFrio": "Apresenta excelente adaptação. Proteja de geadas e de chuva fria persistente, mantendo leve redução de água no inverno."
     },
     "mesesFloracao": [
-        8,
         9,
         10,
-        11
+        11,
+        12
     ],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
