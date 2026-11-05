@@ -53,3 +53,8 @@ Atualizar receita de recipiente R1 e duas alternativas R2/R3 no menu, sem repeti
 - Duas alternativas públicas agora distintas da principal e entre si, sem percentuais: (A) pinus + carvão + perlita grossa; (B) pinus + carvão + casca de arroz carbonizada. A alternativa B é uma proposta técnica inferencial; não existe comprovação experimental específica registrada para a espécie.
 - A recomendação principal em placa/tronco e o layout V4.9 foram preservados.
 - **Estado:** revisão editorial e coerência das receitas concluídas; validação de integridade dos assets, fotos e execução no navegador ainda não documentadas nesta passagem. Não declarar homologação integral até esses controles.
+
+## Verificação de arquivos locais — 2026-11-04
+- Na cópia local disponível do repositório, os quatro arquivos da galeria `imagens/Dendrobium lindleyi/` foram abertos e validados quanto ao formato de imagem: `Dendrobium lindleyi1.webp`, `2.webp`, `3.jpeg`, `4.jpg`.
+- As quatro chaves de cultivo da ficha foram confrontadas com `js/biblioteca-cultivo-v4.js`: `placa-tronco` → `placa-madeira-v3.webp`; `cesto-madeira` → `cesto-madeira-v3.webp`; `vaso-barro` → `vaso-barro.webp`; `vaso-plastico-vasado` → `vaso-plastico-vasado-v2.webp`. Os arquivos correspondentes da cópia local abriram sem erro de formato.
+- **Limitação:** a cópia local pode estar desatualizada; não foi realizado teste Chromium da ficha publicada nem confirmação de resposta HTTP dos arquivos no GitHub Pages. A integridade visual/publicada permanece pendente, portanto a ficha não é declarada integralmente homologada nesta passagem.
