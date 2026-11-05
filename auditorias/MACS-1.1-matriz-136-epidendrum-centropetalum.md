@@ -20,3 +20,12 @@ Teste Chromium desktop/mobile aprovado, capturas confirmadas e encerramento téc
 
 ## Encerramento — 2026-11-04
 Execução Chromium/Playwright [41841286676](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41841286676): **completed/success**, incluindo inspeção no navegador e upload de capturas. Artefato **13328737344**, `macs-136-inspecao-visual` (396961 bytes). Principal soma 100%; duas alternativas qualitativas sem percentuais; perlita preservada; estrelas dos suportes omitidas; quatro fotos e sete assets presentes. IDC 3.2 e IAR 2.0 preservados. **Classe D — NÃO HOMOLOGADA quantitativamente**, sem ensaios comparativos específicos nem amostra documentada de 25 produtores independentes. Sem pendências técnicas detectadas pelo teste; matriz 137 liberada.
+
+
+## Auditoria integrada de continuidade — 2026-11-05
+- **Taxonomia e fontes:** a ficha já distingue o nome aceito *Epidendrum centropetalum* do sinônimo heterotípico *Oerstedella centradenia*, e cita POWO, WFO, IOSPE e parecer AOS com ressalvas; descrição morfológica completa, sem truncamento detectado.
+- Principal: 45% casca de pinus fina + 35% perlita de granulometria adequada + 20% esfagno de fibra longa solto = **100%**. Duas alternativas qualitativas sem percentuais; estrelas dos suportes `null`.
+- **IDC 3.2 documental:** 45/100, três estrelas, faixa 36–50; notas T/R/H/V/L/Ra/S/F = 3/2/2/2/2/2/1/3. A transformação das notas em pontuação não foi reconstruída independentemente.
+- **IAR 2.0 litoral:** 49/100, três estrelas; notas 2/2/4/5/4/4/2: 12+12+4+5+4+4+8=49.
+- **IAR 2.0 montanha:** 97/100, cinco estrelas; notas 5/5/4/5/4/4/5: 30+30+4+5+4+4+20=97.
+- **MACS 1.1:** classe D, sem ensaios comparativos específicos e sem documentação de 25 produtores independentes. IAR aritmeticamente consistente, sem homologação empírica. Workflow atualizado para testar também mudanças no JS da ficha; inspeção Chromium reexecutada.
