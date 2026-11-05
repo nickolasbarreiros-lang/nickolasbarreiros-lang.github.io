@@ -43,3 +43,14 @@ Diferentes entre si e da R0; não atribuir percentuais não publicados.
 
 ## Parecer final
 **Revisão documental concluída.** Sinonímia e habitat conferidos; receita visual/textual totaliza 100%; duas alternativas distintas; materiais de coco padronizados. **Homologação experimental dos percentuais e de recipientes: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** espécie predominantemente litófita ou terrestre, de caules folhosos eretos e altos, com raízes que exigem volume útil, umidade durante o crescimento e boa oxigenação. As faces rochosas expostas e saliências musgosas documentadas na Flora of Tropical East Africa não autorizam cultivo em solo compacto ou encharcado. Durante o frio, reduzir a rega conforme a evaporação, sem impor seca severa. Touceiras altas exigem estabilidade mecânica e tutor.
+
+**Cultivo principal:** vaso de barro grande, pesado e bem drenado, com tutor. **Receita em volume:** 35% casca de macadâmia média (estrutura) + 25% casca de arroz carbonizada (porosidade) + 20% perlita grossa (aeração) + 20% fibra de coco grossa lavada (reserva hídrica), total 100%. Mistura hipotética horticultural sem ensaio comparativo específico; IOSPE menciona mistura à base de cascas em vaso, mas não os percentuais nem macadâmia. Coco lavado não dispensa eventual controle de salinidade.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de arroz carbonizada + fibra de coco grossa lavada + perlita grossa + pequena fração de casca de pinus fina; (2) chips de coco pequenos lavados + casca de arroz carbonizada + perlita grossa + argila expandida miúda. Distintas entre si e da receita principal; sem validação quantitativa.
+
+**Conferências editoriais:** descrição com 90 palavras (faixa 90–120). Padronizadas fibra de coco grossa lavada na receita, item visual, justificativa e primeira alternativa; chips de coco pequenos lavados na segunda. Justificativa e receita visual agora explicitam ausência de ensaio específico; nome aceito e sinônimo alinhados; morfologia interna antes truncada substituída por descrição integral. Corrigida contradição de adaptação litorânea: texto antes afirmava excelente vigor, apesar do IAR litoral 48/100 (3 estrelas); nova redação indica cultivo mais exigente. Receita e itens visuais somam 35+25+20+20=100%; quatro caminhos de fotos cadastrados; IDC 54/100 e duas estrelas coerentes com IDC 3.2; IAR e estrelas dos suportes preservados. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; zero receitas quantitativas específicas de produtores brasileiros verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
