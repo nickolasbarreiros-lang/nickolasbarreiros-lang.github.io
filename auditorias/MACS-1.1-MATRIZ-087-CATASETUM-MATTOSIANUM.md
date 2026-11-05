@@ -20,7 +20,7 @@
 ## Receita principal R0 — vaso ou recipiente
 | Material | Percentual | Asset |
 |---|---:|---|
-| Chips de coco médios preparados | 35% | `chips-coco` |
+| Chips de coco médios lavados | 35% | `chips-coco` |
 | Casca de pinus média | 30% | `casca-pinus` |
 | Perlita grossa | 20% | `perlita` |
 | Casca de arroz carbonizada | 15% | `casca-arroz-carbonizada` |
@@ -30,7 +30,7 @@ Mistura proposta para retenção moderada e aeração em crescimento ativo. Na d
 
 ## Duas alternativas qualitativas
 1. Esfagno de fibra longa solto + perlita grossa + carvão vegetal.
-2. Argila expandida + perlita grossa + chips de coco médios preparados + pequena fração de esfagno solto.
+2. Argila expandida + perlita grossa + chips de coco médios lavados + pequena fração de esfagno solto.
 
 Distintas entre si e da receita principal, sem percentuais inventados.
 
@@ -45,3 +45,14 @@ Distintas entre si e da receita principal, sem percentuais inventados.
 
 ## Parecer final
 **Revisão documental concluída.** Taxonomia, morfologia, fenologia e conservação confrontadas com fontes, receita totaliza 100%, duas alternativas distintas, sem extrapolação de estudos de outras espécies. **Homologação quantitativa da mistura 35/30/20/15: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-05
+**Perfil:** epífita caducifólia com pseudobulbos carnosos de reserva e raízes novas sazonais. Na brotação inicial, manter o recipiente predominantemente seco para não apodrecer a gema antes de haver raízes funcionais; quando várias raízes alcançarem aproximadamente 5–8 cm, aumentar progressivamente a água. Durante expansão foliar e engrossamento do pseudobulbo, regar abundantemente e adubar moderadamente. Com amarelecimento e queda das folhas, reduzir fortemente ou suspender regas regulares, hidratando minimamente apenas se ocorrer enrugamento excessivo. O substrato não seca automaticamente na dormência: observar a umidade real.
+
+**Cultivo principal:** vaso plástico vasado, com equilíbrio entre retenção na fase ativa e aeração. **Receita em volume:** 35% chips de coco médios lavados (reserva hídrica) + 30% casca de pinus média (estrutura) + 20% perlita grossa (aeração) + 15% casca de arroz carbonizada (porosidade), total 100%. Proposta horticultural não ensaiada especificamente em C. mattosianum. Orquidário Durval Ferreira orienta manejo geral do gênero, sem proporção para esta espécie; trabalhos UNEMAT sobre outras espécies não validam esta fórmula.
+
+**Duas alternativas qualitativas sem percentuais:** (1) esfagno de fibra longa solto + perlita grossa + carvão vegetal; (2) argila expandida + perlita grossa + chips de coco médios lavados + pequena fração de esfagno solto. Distintas entre si e da principal; coco lavado não dispensa eventual controle de salinidade.
+
+**Conferências editoriais:** descrição com 93 palavras (faixa 90–120). Chips de coco médios lavados padronizados em receita, item visual, justificativa e alternativa; receita visual e justificativa passaram a declarar expressamente ausência de homologação específica. Atualizados status taxonômico, campo de sinônimos sem atribuições não documentadas, morfologia interna antes truncada e ressalva sobre fonte genérica de cultivo; corrigidos espaçamento e acentuação na Dica de Ouro. Receita e itens visuais somam 35+30+20+15=100%; exatamente duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 58/100 e duas estrelas coerentes com IDC 3.2; IAR litoral 98/5 estrelas e montanha 64/4 estrelas preservados; estrelas dos suportes mantidas como avaliação horticultural. O selo “sazonal/repouso-seco” é coerente com a caducifolia e a dormência, sem impor desidratação excessiva. A floração de verão e o intervalo editorial dezembro–março não equivalem a ensaio fenológico regional. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; zero produtores brasileiros com receita quantitativa específica verificada, meta de 25 não atingida e **homologação experimental não demonstrada**. Os estados de ameaça citados pelo Plano de Ação são reproduções de listas datadas, não avaliação independente atual.
