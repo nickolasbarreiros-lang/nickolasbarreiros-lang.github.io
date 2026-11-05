@@ -26,7 +26,7 @@ export const eriaHyacinthoides = {
         horario: "",
         observacoes: "Necessita de luz filtrada média. O sol direto não é recomendado, pois o aquecimento excessivo das folhas causa queimaduras rápidas e amarelamento foliar prematuro."
     },
-    floracao: "Principalmente na primavera; hastes de até cerca de 25 cm com aproximadamente 20–40 flores.",
+    floracao: "Orquidários brasileiros indicam que Bryobium hyacinthoides, também conhecida como Eria hyacinthoides, floresce principalmente na primavera, podendo avançar pelo verão. Ainda não há registros mensais suficientes para confirmar todo o intervalo de setembro a fevereiro em cultivo brasileiro. As hastes, eretas ou levemente arqueadas, podem alcançar cerca de 25 cm e reunir aproximadamente 20 a 40 flores pequenas, brancas a creme, com aspecto delicadamente felpudo e até cerca de 2 cm. São perfumadas, mas o aroma provoca impressões diferentes: produtores descrevem fragrância suave, enquanto uma coleção botânica brasileira o compara ao cheiro de água sanitária. Um relato de cultivo publicado em Portugal indica flores que duram aproximadamente 15 dias; produtores brasileiros mencionam boa durabilidade, sem especificar a quantidade de dias. A duração pode variar conforme as condições do ambiente.",
     adubacao: "💧 Foliar: NPK equilibrado, como 20-20-20, diluído a 1/4 da dose recomendada pelo fabricante, a cada 7 a 10 dias durante o crescimento ativo.\n🌿 Orgânica: Bokashi em dose muito reduzida e afastado das raízes.\n🧪 Liberação lenta: poucos grânulos de Osmocote em recipiente bem ventilado.\n⚠️ Atenção: as raízes finas são sensíveis ao acúmulo de sais; realize periodicamente regas abundantes apenas com água para lixiviar o substrato.",
     rega: "Mantenha regas regulares e frequentes durante os períodos quentes, permitindo apenas uma leve aeração na camada superficial do substrato entre as irrigações. No inverno ou em dias frios, reduza ligeiramente a frequência, mas nunca deixe o substrato secar por completo.",
     suporte: "🥇 Cesto ou cachepô bem ventilado.\n🥈 Vaso de barro.\n🥉 Montagem em tronco apenas em ambiente de alta umidade relativa.",
@@ -274,7 +274,7 @@ export const eriaHyacinthoides = {
         }
     },
         adaptacaoRegional: { litoralQuente: { texto: "Com umidade, sombra clara e circulação de ar." }, montanhaFrio: { texto: "Boa em local protegido, evitando frio intenso e substrato encharcado no inverno." } },
-    mesesFloracao: [9,10,11,12,1,2],
+    mesesFloracao: [],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "intermediario" }
