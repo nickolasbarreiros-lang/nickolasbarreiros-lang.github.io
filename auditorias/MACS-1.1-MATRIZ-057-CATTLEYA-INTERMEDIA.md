@@ -40,3 +40,14 @@ A documentação pré-existente não demonstra consulta independente a **25 prod
 
 ## Parecer final
 **Revisão documental concluída.** Receita R0 possui evidência quantitativa específica para plântulas, **não** para plantas adultas. Duas alternativas qualitativas distintas e 100% de coerência aritmética. Homologação experimental da R0 para plantas adultas: **NÃO DEMONSTRADA**. Experimentos futuros seriam pesquisa nova, não pendência editorial.
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** Cattleya bifoliada simpodial, epífita, com pseudobulbos de reserva e raízes que necessitam de oxigenação, umidade durante crescimento ativo e secagem perceptível entre regas. A rusticidade não implica tolerância à saturação contínua. Espessura das raízes, intervalo ideal de secagem e desempenho em cachepô adulto não foram medidos nesta revisão.
+
+**Cultivo principal:** cachepô de madeira ventilado, proporcional ao sistema radicular, sem enterrar rizoma. **Receita visual por volume:** 50% casca de pinus média (estrutura/macroporos) + 50% fibra de coco preparada para cultivo (retenção hídrica), total 100%. A mistura 1:1 foi estudada em **plântulas em aclimatização** da própria espécie por Lone et al. (2008), mas não foi homologada para touceiras adultas. Fibra deve ser apropriada para cultivo, lavada e com salinidade controlada; aeração e velocidade real de secagem determinam a adequação no recipiente adulto.
+
+**Alternativas qualitativas, sem percentuais:** (1) casca de pinus média + carvão vegetal + casca de arroz carbonizada; (2) casca de pinus média + chips de coco médios lavados + carvão vegetal. A nomenclatura dos chips foi padronizada na ficha, sem confundir chips com a **fibra de coco** da receita principal. Alternativas não foram homologadas experimentalmente para plantas adultas.
+
+**Conferências editoriais:** descrição ajustada de 108 para 104 palavras, dentro da faixa 90–120; substituído resumo visual obsoleto com 'MACS 1.0' por recomendação qualitativa; corrigida expressão 'Em Litoral de clima quente' no texto regional. Receita e itens visuais somam 50+50=100%; quatro caminhos de fotos registrados; IDC 24/100 e cinco estrelas coerentes com IDC 3.2; IAR e classificações de suporte preservados. Carregamento de fotos e testes visuais reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída no limite das fontes disponíveis; há evidência experimental quantitativa específica **somente para plântulas**, zero receitas quantitativas verificadas de produtores brasileiros para adultas e meta de 25 não atingida. **Homologação experimental para plantas adultas: NÃO DEMONSTRADA.**
