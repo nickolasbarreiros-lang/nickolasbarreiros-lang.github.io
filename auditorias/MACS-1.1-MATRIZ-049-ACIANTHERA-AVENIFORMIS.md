@@ -48,3 +48,16 @@ Ambas diferem da receita principal e entre si, sem percentuais inventados. Não 
 - **Parecer:** **REVISÃO DOCUMENTAL CONCLUÍDA**, sem pendências editoriais identificadas; não elevar o grau de evidência nem alterar índices e estrelas sem suporte. Experimento futuro de crescimento radicular seria pesquisa nova, não auditoria editorial deixada para depois.
 
 **Próxima ficha:** somente após este parecer publicado, mantendo o mesmo padrão de conclusão integral do trabalho documental.
+
+## Perfil radicular e hídrico e encerramento editorial — 2026-11-04
+**Identidade:** *Pabstiella aveniformis* é nome aceito no POWO/Kew; *Acianthera aveniformis* é sinônimo conservado como identificador histórico no site. Corrigido campo de status taxonômico da ficha, que antes descrevia indevidamente o nome como aceito.
+
+**Perfil:** microepífita reptante com raízes finas, expostas a umidade frequente, ventilação e risco de desidratação rápida em suportes pequenos. Espessura exata, retenção e intervalos de rega não foram medidos para o exemplar. Montagem em placa/ripinha tem evidência específica de prática comercial em Milena Orquídeas; não implica superioridade experimental sobre vasos.
+
+**Cultivo principal:** placa/tronco com mínima reserva de esfagno solto junto às raízes, sem enterrar o rizoma; **não se aplica receita volumétrica à placa**. A receita de 40% casca de pinus fina/média + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno solto (100% por volume) destina-se exclusivamente a vaso pequeno, raso e muito perfurado. Pinus estrutura; arroz carbonizado e carvão mantêm espaços de ar; esfagno oferece reserva hídrica limitada. **Percentuais são hipótese horticultural não homologada**; soma matemática não comprova desempenho.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus fina + carvão vegetal pequeno + esfagno de fibra longa solto; (2) casca de pinus fina + perlita grossa + esfagno de fibra longa solto. Distintas entre si e da principal; não há comprovação quantitativa específica.
+
+**Conferência editorial:** descrição ampliada de 73 para 103 palavras (meta 90–120), mantendo identidade e hábito documentados; quatro caminhos de fotos registrados; IDC 29/100 e quatro estrelas, compatíveis com IDC 3.2; receita visual e itens somam 100%; índices e métodos de cultivo preservados. A validação visual de imagens e renderização será realizada na auditoria consolidada com ZIP final, conforme orientação do responsável.
+
+**Parecer:** revisão científica/editorial documental atualizada e concluída dentro das evidências disponíveis, **sem homologação experimental da receita de vaso**. A busca de produtores específicos identificou um fornecedor e não satisfaz a meta metodológica de 25; não simular cobertura adicional.
