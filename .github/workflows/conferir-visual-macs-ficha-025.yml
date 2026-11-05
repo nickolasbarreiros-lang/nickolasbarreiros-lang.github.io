@@ -19,8 +19,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Validar sintaxe JavaScript da ficha antes de abrir o navegador
-        run: node --check dados/orquideas/oncidium-twinkle.js
+      - name: Validar sintaxe JavaScript de todas as fichas
+        run: |
+          find dados/orquideas -type f -name '*.js' -print0 | xargs -0 -n1 node --check
       - run: npm install --no-save playwright
       - run: npx playwright install --with-deps chromium
       - name: Conferir ficha em navegador real
@@ -38,6 +39,7 @@ jobs:
             if(!fullText.includes('Cultivo fácil'))throw Error('Selo editorial de dificuldade não encontrado');
             const ficheSource=require('fs').readFileSync('dados/orquideas/oncidium-twinkle.js','utf8');
             if(!ficheSource.includes('NÃO validada experimentalmente'))throw Error('Ressalva MACS 1.1 ausente nos dados da ficha');
+            if((await fullText).includes('MACS 1.1')||(await fullText).includes('NÃO validada experimentalmente'))throw Error('Metodologia interna apareceu indevidamente na ficha pública');
             const cultivation=page.locator('.formas-cultivo-v4');
             if(await cultivation.count()!==1)throw Error('Componente visual de cultivo ausente ou duplicado');
             const cultivationMethods=page.locator('.formas-cultivo-v4 .forma-principal-v4, .formas-cultivo-v4 .alternativa-forma-v41');
