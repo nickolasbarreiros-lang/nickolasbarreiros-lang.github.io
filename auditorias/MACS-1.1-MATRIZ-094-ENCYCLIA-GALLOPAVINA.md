@@ -25,7 +25,7 @@
 | **Total** | **100%** | **Hipótese horticultural** |
 
 ## Duas alternativas qualitativas preservadas
-1. Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios preparados.
+1. Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios lavados.
 2. Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa.
 
 Distintas entre si e da principal; sem percentuais inventados.
@@ -41,3 +41,14 @@ Distintas entre si e da principal; sem percentuais inventados.
 
 ## Parecer final
 **Revisão documental concluída.** Taxonomia, morfologia, descrição e asset corrigidos; receita soma 100% e mantém duas alternativas distintas. **Homologação quantitativa da mistura 35/30/20/15: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-05
+**Perfil:** espécie epífita simpodial de pseudobulbos esféricos, bifoliados, com raízes relativamente robustas que precisam de aeração e secagem perceptível entre regas. Durante brotação e emissão de raízes novas, irrigar bem e drenar prontamente; após a maturação dos pseudobulbos, ampliar discretamente os intervalos conforme a evaporação, sem repouso seco rígido. Em cachepô muito aberto a secagem pode ser mais rápida que em vaso de barro; a frequência depende do ambiente, não apenas da estação.
+
+**Cultivo principal:** cachepô de madeira bem vazado, com vaso de barro pequeno como alternativa de mesma avaliação horticultural. **Receita em volume:** 35% casca de macadâmia média (estrutura) + 30% casca de pinus média (fixação) + 20% perlita grossa (aeração) + 15% carvão vegetal (porosidade), total 100%. Proposta horticultural sem ensaio quantitativo específico em E. gallopavina. Estudo brasileiro de adubação e substrato em híbrido de Encyclia não valida percentuais desta espécie. Montagem em placa/tronco é alternativa e não utiliza receita volumétrica.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios lavados; (2) casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa. Distintas entre si e da principal; coco lavado não dispensa eventual controle de salinidade.
+
+**Conferências editoriais:** descrição com 100 palavras (faixa 90–120). Chips de coco médios lavados padronizados na primeira alternativa; receita e justificativa agora explicitam falta de homologação específica. Corrigida expressão artificial “Em Litoral de clima quente” para “Em clima quente”. Calendário fixo [10,11,12,1,2] removido por falta de documentação fenológica brasileira suficiente; texto preserva referência IOSPE à primavera/verão sem atribuir meses universais; selo de clima deixa de afirmar floração obrigatória no calor. Receita e itens visuais somam 35+30+20+15=100%; duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 40/100 e três estrelas coerentes com IDC 3.2; IAR litoral 96/5 estrelas e montanha 64/4 estrelas preservados; estrelas dos suportes mantidas como avaliações horticulturais. Iluminação “Início da manhã ou final da tarde” permanece coerente com sol direto restrito. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; zero receitas quantitativas específicas de produtores brasileiros verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
