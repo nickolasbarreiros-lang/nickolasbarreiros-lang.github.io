@@ -38,7 +38,8 @@ jobs:
             if(!fullText.includes('Muito fácil'))throw Error('Classificação de dificuldade não sincronizada com IDC 3.2');
             const ficheSource=require('fs').readFileSync('dados/orquideas/oncidium-twinkle.js','utf8');
             if(!ficheSource.includes('NÃO validada experimentalmente'))throw Error('Ressalva MACS 1.1 ausente nos dados da ficha');
-            // notaEvidencia está armazenada no objeto, mas o renderer ficha.js ainda não a exibe.
+            const evidence=page.locator('.substrato-visual-v4 .nota-evidencia-substrato-v4');
+            if(await evidence.count()!==1||!(await evidence.innerText()).includes('NÃO validada experimentalmente'))throw Error('Nota científica MACS ausente da apresentação visual');
             const cultivation=page.locator('.formas-cultivo-v4');
             if(await cultivation.count()!==1)throw Error('Componente visual de cultivo ausente ou duplicado');
             const cultivationMethods=page.locator('.formas-cultivo-v4 .forma-principal-v4, .formas-cultivo-v4 .alternativa-forma-v41');
