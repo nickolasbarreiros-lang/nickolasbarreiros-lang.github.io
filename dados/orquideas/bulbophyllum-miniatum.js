@@ -28,7 +28,7 @@ export const bulbophyllumMiniatum = {
         horario: "Não permitido",
         observacoes: "Meia-sombra clara é preferível à sombra profunda. Folhas firmes e verde-médio indicam bom equilíbrio. No litoral quente, ventilação constante é indispensável para que a combinação de calor, umidade e sombra não favoreça podridões."
     },
-    floracao: "A época varia com a procedência e as condições de cultivo; não há base documental suficiente para fixar junho a agosto como período obrigatório no Brasil. As flores pequenas podem abrir sucessivamente ao longo de hastes compridas.",
+    floracao: "Em cultivo brasileiro, há registros de floração no inverno, especialmente entre junho e agosto, mas a época pode variar conforme a procedência e o ambiente. As hastes alongadas carregam numerosas flores pequenas que se abrem sucessivamente, em tons esverdeados a arroxeados. O labelo escuro, articulado e cercado por pelos claros, pode se mover com o vento ou com a visita de insetos. O perfume não é um destaque constante nos relatos de cultivo, e ainda não há descrição segura de um aroma característico. Também não existe uma estimativa confiável da duração de cada flor; a abertura sucessiva pode fazer a haste permanecer ornamental por mais tempo.",
     adubacao: "🌿 Orgânica: Bokashi em porção pequena, de preferência em sachê e afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose recomendada a cada 10 a 15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: Osmocote somente em dose muito baixa em vasos/cestos; evite contato direto com raízes finas. Reduza quando os pseudobulbos amadurecerem e faça periodicamente regas abundantes apenas com água para lavar sais.",
     rega: "Mantenha umidade leve e relativamente constante durante o crescimento, sem permitir encharcamento permanente. Em montagem, pode exigir regas diárias no calor; em cesto ou vaso, regue novamente quando a camada superficial começar a perder umidade. Não imponha repouso seco completo.",
     suporte: "🥇 Cortiça ou galho rugoso com fina reserva de esfagno sob as raízes.\n🥈 Cesto raso e largo.\n🥉 Vaso tipo cuia muito perfurado.\nDeixe o rizoma livre e com espaço para avançar.",
@@ -272,7 +272,7 @@ export const bulbophyllumMiniatum = {
         litoralQuente: { texto: "A origem tropical combina com o litoral quente; o principal cuidado é manter circulação de ar elevada e meio extremamente aerado." },
         montanhaFrio: { texto: "Boa em locais protegidos. Evite frio prolongado e reduza a frequência das regas apenas quando a evaporação cair." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [6, 7, 8],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
