@@ -25,7 +25,7 @@ export const isabeliaVirginalis = {
         horario: "Não permitido",
         observacoes: "Prefere luz indireta intensa, sem sol direto sobre a folhagem delicada. Folhas muito escuras e touceira frouxa indicam falta de luz; amarelecimento intenso ou pontas secas indicam excesso de sol ou desidratação."
     },
-    floracao: "Predomina do fim do outono ao inverno. As flores são pequenas, cerosas, de aproximadamente 1 cm e podem surgir isoladas ou em pares sobre pseudobulbos maduros.",
+    floracao: "A matriz consultada não comprova meses brasileiros universais de floração; a época pode variar conforme população e condições locais. As flores são pequenas, cerosas, de aproximadamente 1 cm e podem surgir isoladas ou em pares sobre pseudobulbos maduros.",
     adubacao: "🌿 Orgânica: bokashi em quantidade mínima dentro de porta-adubo, sem contato com a touceira.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: somente poucos grânulos em cesto ou vaso raso e muito drenante.\n💦 Lavagem: passe água limpa pelo suporte periodicamente para evitar acúmulo de sais nas raízes finas.",
     rega: "No calor e durante a brotação, molhe completamente e permita secagem rápida antes da próxima rega. Plantas montadas podem precisar de água quase diária em dias secos e ventilados. No frio, aumente o intervalo, mas não deixe a colônia murchar por períodos prolongados.",
     suporte: "🥇 Placa de cortiça ou galho de casca rugosa.\n🥈 Madeira dura e durável, instalada horizontal ou levemente inclinada.\n🥉 Cesto muito raso e largo, com mistura grosseira e rizoma totalmente exposto.",
@@ -45,8 +45,8 @@ export const isabeliaVirginalis = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal sem substrato retentivo; receita alternativa para cachepô muito raso",
         resumo: "A primeira opção é a fixação direta em cortiça ou madeira durável. Em cesto, usar componentes muito grossos e secagem rápida.",
-        justificativa: "Isabelia virginalis apresenta rizoma rastejante e se beneficia de montagem em placa ou tronco, com a colônia e as bainhas fibrosas expostas. Para cesto muito raso, os chips de coco muito grossos preparados oferecem apoio e alguma retenção de umidade, enquanto a argila expandida e o carvão mantêm espaços de ar. Evite soterrar o rizoma e observe se o recipiente permanece úmido por tempo excessivo.",
-        receitaTexto: "45% chips de coco muito grossos preparados + 35% argila expandida + 20% carvão vegetal.",
+        justificativa: "A receita 45/35/20 é hipótese horticultural não ensaiada especificamente em Isabelia virginalis; a montagem principal em placa/tronco não usa mistura volumétrica. Isabelia virginalis apresenta rizoma rastejante e se beneficia de montagem em placa ou tronco, com a colônia e as bainhas fibrosas expostas. Para cesto muito raso, os chips de coco muito grossos lavados oferecem apoio e alguma retenção de umidade, enquanto a argila expandida e o carvão mantêm espaços de ar. Evite soterrar o rizoma e observe se o recipiente permanece úmido por tempo excessivo.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para cachepô muito raso: 45% chips de coco muito grossos lavados + 35% argila expandida + 20% carvão vegetal. Na montagem principal em placa/tronco, não se aplicam percentuais volumétricos.",
         perfil: ["Miniatura rastejante", "Bainhas fibrosas", "Rizoma exposto", "Raízes superficiais", "Secagem rápida"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -55,7 +55,7 @@ export const isabeliaVirginalis = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "chips-coco", nome: "Chips de coco muito grossos preparados", proporcao: "45%", nota: "estrutura", finalidade: "Oferecem apoio aberto sem cobrir o rizoma." },
+            { asset: "chips-coco", nome: "Chips de coco muito grossos lavados", proporcao: "45%", nota: "estrutura", finalidade: "Oferecem apoio aberto sem cobrir o rizoma." },
             { asset: "argila-expandida", nome: "Argila expandida", proporcao: "35%", nota: "drenagem", finalidade: "Mantém vazios amplos e favorece secagem rápida." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração", finalidade: "Complementa a porosidade e evita massa compacta." }
         ],
@@ -70,7 +70,7 @@ export const isabeliaVirginalis = {
         "sinonimosPrincipais": "Sem sinônimo principal necessário para a apresentação; nome aceito em POWO.",
         "morfologiaDimensoes": "Rizoma rastejante, pseudobulbos ovoides unifoliados cobertos por bainhas fibrosas reticuladas; folhas aciculares; inflorescências com uma ou duas flores branco-creme a róseo-claras e labelo branco, cerca de 1 cm (Flora do Brasil 2020, Rodriguésia, IOSPE).",
         "habitatAltitudeClima": "Epífita ou rupícola · ambientes sazonais claros. | Intermediário · ventilado, com secagem rápida.",
-        "distribuicaoGeografica": "Sul e Sudeste do Brasil · Misiones.",
+        "distribuicaoGeografica": "Sul e Sudeste do Brasil · Paraguai · nordeste da Argentina.",
         "cultivoPremiacao": "AOS e orquidários Matsuoka e Hang indicam cultivo montado em madeira; Orquidário Aniela informa 70% de sombreamento; sem receita quantitativa específica validada.",
         "confianca": "alta",
         "fontes": [
@@ -204,7 +204,7 @@ export const isabeliaVirginalis = {
         litoralQuente: { texto: "Desde que montada ou em recipiente muito raso e ventilado. Dê luz forte filtrada, regas frequentes no verão e secagem rápida entre elas." },
         montanhaFrio: { texto: "As noites amenas favorecem a espécie; apenas evite geadas e longos períodos de umidade fria sem ventilação." }
     },
-    mesesFloracao: [5, 6, 7, 8],
+    mesesFloracao: [],
     "selosCultivo": {
         "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "intermediario" }
