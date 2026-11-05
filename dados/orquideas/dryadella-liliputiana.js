@@ -36,7 +36,7 @@ export const dryadellaLiliputiana = {
         horario: "",
         observacoes: "Prefere sombra clara. Luz suficiente mantém folhas compactas, mas o excesso de radiação aquece rapidamente a pequena touceira e aumenta a desidratação."
     },
-    floracao: "Mais característica no inverno. As numerosas inflorescências são muito curtas, cerca de 1,2–1,6 cm, e carregam flores solitárias posicionadas pouco abaixo da altura das folhas. Uma touceira adulta pode produzir várias flores ao mesmo tempo.",
+    floracao: "No Brasil, Dryadella lilliputiana floresce principalmente entre outubro e dezembro, período registrado em levantamentos botânicos e compatível com relatos de cultivo no final da primavera. As inflorescências são muito curtas, surgem junto à base das folhas e carregam uma flor solitária cada; em touceiras maduras, várias podem abrir ao mesmo tempo. As flores medem aproximadamente 1 cm, são predominantemente brancas ou creme, com pequenas pintas arroxeadas, e apresentam sépalas de pontas estreitas e labelo pequeno, por vezes amarelado. Um orquidário brasileiro informa que a floração permanece vistosa por cerca de duas semanas, embora a duração possa variar conforme as condições de cultivo. Não há descrição confiável de perfume perceptível nem de notas aromáticas específicas para a espécie.",
     adubacao: "🌿 Orgânica: evite bokashi diretamente no pequeno recipiente, pois é difícil dosar sem aumentar decomposição e sais.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante crescimento ativo.\n🧪 Liberação lenta: não recomendada para recipientes tão pequenos.\n🚿 Lavagem: faça regas abundantes apenas com água periodicamente para remover sais.\n💧 Água: baixa condutividade é especialmente benéfica às raízes finas.",
     rega: "Mantenha umidade relativamente estável, mas nunca uma massa de substrato quente e saturada. Regue novamente quando o material ao redor das raízes estiver se aproximando da secagem. Em montagem com pouco musgo, pode exigir rega diária no verão; em vaso com esfagno, o intervalo deve ser maior. Evite tanto seca prolongada quanto encharcamento contínuo.",
     suporte: "🥇 Placa pequena de cortiça ou madeira com camada fina de esfagno — máxima aeração.\n🥈 Vaso miniatura de barro — ajuda a dissipar calor por evaporação.\n🥉 Cachepô pequeno e muito aberto — útil com mistura extremamente leve.\nMantenha a touceira íntegra e evite manipulações frequentes.",
@@ -215,7 +215,7 @@ export const dryadellaLiliputiana = {
         litoralQuente: { texto: "O principal problema é o calor noturno prolongado. Use o ponto mais fresco e ventilado do orquidário e controle a umidade com pouca massa de substrato." },
         montanhaFrio: { texto: "Em clima intermediário a fresco, protegendo de geada e de frio excessivo associado a encharcamento." }
     },
-    mesesFloracao: [6, 7, 8, 9],
+    mesesFloracao: [10, 11, 12],
     "selosCultivo": {
         "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "intermediario", "quedaTermica": true }
