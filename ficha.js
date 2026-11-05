@@ -1114,7 +1114,6 @@ function criarGaleria(fotos) {
             </button>
 
             ${miniaturas ? `<div class="miniaturas-v2">${miniaturas}</div>` : ""}
-            ${orquidea.id === "pholidota-chinensis" ? `<p class="credito-foto-v4" style="font-size:0.75rem;line-height:1.4;margin:0.6rem 0 0;">Foto 4: Elena Gaillard — <a href="https://commons.wikimedia.org/wiki/File:Pholidota_chinensis_-_Flickr_003_(1).jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener noreferrer">CC BY 2.0</a> · sem alterações.</p>` : ""}
         </div>
     `;
 }
@@ -1630,6 +1629,8 @@ if (!orquidea) {
                 class="contador-v2"
             ></span>
 
+            ${orquidea.id === "pholidota-chinensis" ? `<div id="credito-foto-ampliada-v2" style="display:none;position:absolute;bottom:12px;left:50%;transform:translateX(-50%);max-width:92%;padding:6px 10px;border-radius:6px;background:rgba(0,0,0,.8);color:#fff;font-size:12px;text-align:center;z-index:10;">Foto: Elena Gaillard · <a href="https://commons.wikimedia.org/wiki/File:Pholidota_chinensis_-_Flickr_003_(1).jpg" target="_blank" rel="noopener noreferrer" style="color:#fff;text-decoration:underline;">Origem</a> · <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener noreferrer" style="color:#fff;text-decoration:underline;">CC BY 2.0</a> · sem alterações</div>` : ""}
+
         </div>
 
     `;
@@ -1722,6 +1723,9 @@ if (!orquidea) {
 
             contador.textContent =
                 `${indiceAtual + 1} de ${fotos.length}`;
+
+            const creditoFoto = document.getElementById("credito-foto-ampliada-v2");
+            if (creditoFoto) creditoFoto.style.display = indiceAtual === 3 ? "block" : "none";
         }
 
         function abrirVisualizador(indice) {
