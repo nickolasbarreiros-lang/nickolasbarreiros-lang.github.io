@@ -75,14 +75,14 @@ export const encycliaAlboxanthina = {
         notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D); não há validação quantitativa da receita nem comparação experimental dos suportes. Levantamentos publicados documentam populações rupícolas expostas em campo, mas isso não autoriza sol pleno irrestrito no cultivo. MACS 1.1 — revisão documental: Encyclia alboxanthina, epífita e ocasionalmente rupícola de ambientes claros e sazonalmente secos, com raízes que exigem alta aeração e secagem perceptível entre regas, sem repouso seco prolongado. Cachepô de Madeira bem vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com cachepô + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus grosso. Não fundamentam os percentuais visuais. Monitorar secagem, luz e posição dos pseudobulbos. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
-        "Cultivar em sombra profunda",
-        "Manter o substrato permanentemente molhado",
-        "Usar mistura fina e compactada",
-        "Enterrar a base dos pseudobulbos",
-        "Replantar fora da emissão de novas raízes",
-        "Aplicar fertilizante concentrado",
-        "Usar vaso grande demais",
-        "Confundir tolerância à seca com necessidade de repouso seco prolongado"
+        "Evite sombra profunda: reduz o potencial de floração.",
+        "Não mantenha o substrato continuamente molhado.",
+        "Evite misturas finas que sufocam as raízes.",
+        "Mantenha a base dos pseudobulbos acima do substrato.",
+        "Replante quando surgirem raízes novas.",
+        "Não use adubo concentrado em raízes sensíveis.",
+        "Escolha recipiente proporcional à touceira.",
+        "Não imponha repouso seco prolongado após a maturação."
     ],
     dica: "🏆 Observe os pseudobulbos: eles devem amadurecer firmes, não permanecer verdes e excessivamente tenros. Muita luz filtrada, raízes arejadas e uma leve secagem entre regas ajudam a planta a armazenar energia e preparar a haste floral.",
     revisaoCientificaIAR: {
@@ -107,9 +107,9 @@ export const encycliaAlboxanthina = {
     indiceDificuldadeCultivo: {
         "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
-        "indice": 38,
-        "classificacao": "Moderada",
-        "cultivoEstrelas": 3,
+        "indice": 23,
+        "classificacao": "Muito fácil",
+        "cultivoEstrelas": 5,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 2,
@@ -234,5 +234,5 @@ export const encycliaAlboxanthina = {
         "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
     },
-        avaliacoes: { cultivo: 3, floracao: 4, perfume: 4, luminosidade: 4, agua: 2, raridade: 5 }
+        avaliacoes: { cultivo: 5, floracao: 4, perfume: 4, luminosidade: 4, agua: 2, raridade: 5 }
 };
