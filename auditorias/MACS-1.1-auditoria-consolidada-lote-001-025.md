@@ -410,3 +410,10 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - Paubrasilia (2023) documenta registro no sudoeste da Bahia; CAOB registra terceiro lugar em exposição 2024, sem equivalência a premiação AOS.
 - Conferência textual: descrição 112 palavras; quatro suportes `estrelas: null`; duas alternativas qualitativas; receita 40% pinus + 30% carvão + 20% brita + 10% macadâmia = 100%. IDs de assets brita e macadâmia padronizados no código.
 - **Homologação documental concluída — MACS 1.1 provisória Classe D**, sem validação quantitativa dos percentuais ou ranking dos suportes. Conferência visual final separada.
+
+### Ficha 17 — Zygolum Louisendorf (2026-11-04)
+- RHS International Orchid Register confirma grex híbrido intergenérico registrado em 29/01/2004, originador B.Holm, registrante Glicenstein/Hoosier, Zygosepalum labiosum × Zygopetalum Artur Elle. Sem distribuição natural.
+- RHS reconhece Galeopetalum Giant como sinônimo do grex; 'Rhein Moonlight' e 'Rhein Clown' são cultivares, e Rhein Harlequin é outro grex, não sinônimos de Louisendorf. Corrigido campo editorial `sinonimo`.
+- NParks indica meia-sombra, rega moderada e clima mais fresco, em torno de 25 °C ou menos; removida recomendação genérica de sol direto. Atlanta Orchid Society registra premiação AM/AOS do clone 'Isabel', não de todos os exemplares do grex.
+- Conferência textual: descrição 120 palavras, quatro suportes `estrelas: null`, duas alternativas qualitativas, receita 45% pinus + 25% fibra de coco grossa + 20% carvão + 10% esfagno = 100%. Classificação textual geral alinhada ao IDC 3.2 (27 pontos, Fácil).
+- **Homologação documental concluída — MACS 1.1 provisória Classe D.** Percentuais e ranking de suportes sem validação experimental; não houve confronto comprovado com 25 produtores brasileiros. Conferência visual final separada.
