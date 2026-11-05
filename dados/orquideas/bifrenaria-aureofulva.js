@@ -31,7 +31,7 @@ export const bifrenariaAureofulva = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Prefere luz filtrada de média a alta intensidade. Folhas muito escuras podem indicar sombra excessiva; manchas secas e amarelecimento localizado sugerem sol forte. Em clima quente, 50% a 60% de sombreamento é mais seguro que exposição muito intensa."
     },
-    floracao: "Floresce principalmente no verão. A haste basal, ereta a pendente, surge no pseudobulbo recém-maduro e pode portar de poucas a numerosas flores, geralmente 3–15. Em clima litorâneo quente a época pode deslocar algumas semanas conforme o ciclo do novo crescimento; por isso o amadurecimento do pseudobulbo é indicador mais confiável que uma data fixa.",
+    floracao: "No Brasil, floresce com frequência no verão, especialmente entre janeiro e março, mas também há exemplares cultivados que abrem flores no inverno, inclusive em junho e julho. Suas hastes nascem junto à base dos pseudobulbos e exibem várias flores de aproximadamente 2 a 2,5 cm, amarelo-douradas a alaranjadas, às vezes com delicadas estrias avermelhadas. As sépalas se inclinam sobre o labelo e dão à flor um aspecto tubular, como se ela não estivesse totalmente aberta. O perfume costuma ser ausente ou muito suave, sem aroma característico bem definido. Cultivadores brasileiros relatam florações que permanecem vistosas por cerca de 15 a 20 dias.",
     adubacao: "🌿 Orgânica: bokashi em pequena dose durante o crescimento ativo, sempre protegido em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em baixa concentração a cada 10 a 15 dias enquanto houver brotos e raízes ativas.\n🧪 Liberação lenta: Osmocote 14-14-14 em dose reduzida e afastado das raízes novas. Após a maturação dos pseudobulbos, reduza gradualmente a frequência da adubação em vez de suspendê-la abruptamente.",
     rega: "Regue bem durante a brotação e formação dos pseudobulbos, permitindo que o substrato perca parte da umidade entre as irrigações. Após a maturação, reduza moderadamente a frequência, sobretudo no inverno. Não mantenha a planta totalmente seca por períodos prolongados e não permita enrugamento acentuado dos pseudobulbos.",
     suporte: "🥇 Vaso de barro pequeno a médio e bem drenado.\n🥈 Cachepô de madeira muito ventilado.\n🥉 Placa de madeira ou tronco em ambientes com alta umidade relativa e regas frequentes.",
@@ -214,7 +214,7 @@ export const bifrenariaAureofulva = {
         litoralQuente: { texto: "Cultivo moderadamente exigente. Em Litoral de clima quente, use vaso de barro, substrato aberto, 50% a 60% de sombra e forte ventilação. Evite aquecimento excessivo das raízes e seca prolongada." },
         montanhaFrio: { texto: "Condições muito favoráveis. Noites frescas ajudam a maturação e a floração; no inverno, apenas reduza as regas conforme a evaporação cair." }
     },
-    mesesFloracao: [1, 2, 3],
+    mesesFloracao: [1, 2, 3, 6, 7],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
