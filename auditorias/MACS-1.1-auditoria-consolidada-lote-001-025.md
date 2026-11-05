@@ -351,3 +351,10 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - Smithsonian descreve exemplares em ambientes expostos e relativamente secos próximos de rios (600–1.500 m regionalmente); POWO classifica o bioma amplo como tropical úmido. Diferenças de escala documentadas sem recomendar sol pleno irrestrito.
 - Conferência estrutural textual: descrição 117 palavras, quatro suportes com estrelas nulas, duas alternativas qualitativas e receita 35/30/20/15 = 100% sem alterações.
 - Homologação documental encerrada com MACS 1.1 provisória Classe D, sem validação experimental dos percentuais. Conferência visual local separada.
+
+### Ficha 8 — Encyclia alboxanthina (2026-11-04)
+- POWO reconhece *Encyclia alboxanthina* Fowlie (1990), nativa de Bahia e Sergipe; *E. pachyantha* permanece espécie distinta aceita.
+- Estudos florísticos de Hoehnea e Rodriguésia registram populações rupícolas da Chapada Diamantina, inclusive ao sol pleno natural. Não converter a observação de campo em exposição universalmente segura no cultivo. IOSPE relata ~800–850 m em localidades baianas, sem representar faixa altitudinal global.
+- AOS/SITF corrigiu em 2012 a identificação de um exemplar premiado como *E. pachyantha* para *E. alboxanthina*, sem sinonimizar as espécies.
+- Conferência textual: descrição 111 palavras; quatro suportes `estrelas: null`; duas alternativas qualitativas; receita 35/30/20/15 = 100%, mantida.
+- **Homologação documental da ficha 8 concluída — MACS 1.1 provisória Classe D.** Percentuais e comparação de suportes não homologados quantitativamente. Auditoria visual local separada.
