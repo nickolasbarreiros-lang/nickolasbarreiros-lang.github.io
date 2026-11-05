@@ -80,7 +80,7 @@ export const phaiusTankervilleaeAlba = {
         "nome": "Calanthe tankervilleae — forma alba",
         "statusTaxonomico": "Nome aceito usado na ficha: Calanthe tankervilleae.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma gigante elegante entre as orquídeas terrestres! Esta forma alba chama atenção pelas folhas largas e plissadas e pelas hastes altas, que podem ultrapassar 1 metro e carregar flores grandes, claras e muito vistosas. No habitat, a espécie aparece em áreas úmidas, baixadas e florestas montanas de grande parte da Ásia tropical e subtropical até o Pacífico. É uma planta vigorosa,",
+        "morfologiaDimensoes": "Uma gigante elegante entre as orquídeas terrestres! Esta forma alba chama atenção pelas folhas largas e plissadas e pelas hastes altas, que podem ultrapassar 1 metro e carregar flores grandes, claras e muito vistosas. No habitat, a espécie aparece em áreas úmidas, baixadas e florestas montanas de grande parte da Ásia tropical e subtropical até o Pacífico. É uma planta vigorosa, de pseudobulbos robustos e folhas largas, com flores claras em hastes eretas que podem ultrapassar um metro.",
         "habitatAltitudeClima": "Baixadas úmidas e matas · até ~1.300 m. | Quente a ameno · úmido · meia-sombra.",
         "distribuicaoGeografica": "Ásia oriental e Sudeste Asiático · Pacífico.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
