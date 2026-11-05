@@ -45,3 +45,16 @@ Diferentes entre si e da R0; sem percentuais publicados e sem evidência experim
 
 ## Parecer final
 **Revisão documental concluída.** Identidade taxonômica e arquitetura vegetativa corrigidas com fontes botânicas; receita visual consistente em 100%; duas alternativas distintas; evidência quantitativa específica de cultivo **NÃO DEMONSTRADA**. Novos ensaios seriam pesquisa futura, não pendência editorial.
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** epífita simpodial de rizoma alongado, por vezes pendente, com pseudobulbos numerosos e imbricados e inflorescências basais unifloras. Raízes necessitam de ar e umidade moderada, sem saturação prolongada; manter a base dos pseudobulbos descoberta. Não há ensaio comparativo específico de suportes nem medição de intervalo de secagem para a espécie.
+
+**Cultivo principal:** cachepô de madeira largo e ventilado, com espaço para alongamento e possível pendência do rizoma; montagem em placa/tronco é alternativa plausível, com regas compatíveis. **Receita para recipiente por volume:** 35% casca de pinus (estrutura), 25% chips de coco grossos lavados (reserva hídrica), 25% perlita grossa (aeração) e 15% carvão vegetal (porosidade), total 100%. A composição é hipótese técnica e não homologação experimental. Chips lavados não equivalem a comprovação analítica de baixa salinidade do lote.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus média + carvão vegetal médio + perlita grossa; (2) casca de macadâmia média + chips de coco grossos lavados + carvão vegetal médio. Diferem entre si e da receita principal.
+
+**Correção estrutural relevante:** o arquivo continha **duas chaves de primeiro nível substrato**, sendo a primeira uma string antiga com receita e duas alternativas e a segunda o array padronizado. Em JavaScript, a segunda sobrescrevia a primeira. Removida a chave antiga, preservado exclusivamente o array de duas alternativas. Isso elimina ambiguidade e risco de regressão editorial. Também corrigidos climaFloracao e dica, que descreviam crescimento exclusivamente horizontal; substratoVisual.justificativa e revisaoCientificaIAR.morfologiaDimensoes atualizados para nome aceito e arquitetura documentada.
+
+**Conferências editoriais:** descrição com 96 palavras, dentro da faixa 90–120; receita e itens visuais somam 35+25+25+15=100%; quatro caminhos de fotos cadastrados; IDC 30/100 e quatro estrelas coerentes com IDC 3.2; IAR e avaliações dos suportes preservados. Carregamento de fotos e testes visuais reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das evidências disponíveis; zero receitas quantitativas específicas de produtores brasileiros verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
