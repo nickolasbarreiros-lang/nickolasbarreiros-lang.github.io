@@ -83,3 +83,11 @@ Não calcular nota sem medições comparáveis.
 - Contagem mais recente: nove estabelecimentos identificados, quatro com materiais de substrato citados, nenhum com proporções comprovadas da receita R0. As contagens anteriores representam estágios da pesquisa e não devem ser somadas.
 - A ficha de cultivo da AOS refere-se ao gênero Arpophyllum; a recomendação de repouso muito fresco e seco não é resultado de ensaio quantitativo específico de A. giganteum.
 - Parecer documental: insuficiência de evidências para homologação quantitativa (Classe D). Inspeção visual não realizada nesta etapa.
+
+## Verificação objetiva dos arquivos fotográficos — 2026-11-04
+- Conferência por leitura direta do repositório, nos quatro caminhos declarados em `dados/orquideas/arpophyllum-giganteum.js`:
+  1. `imagens/Arpophyllum giganteum/Arpophyllum giganteum1.jpg` — existe; blob `09e23b8d0a7e54bc5cf97de3b8443ba03869bf7d`.
+  2. `imagens/Arpophyllum giganteum/Arpophyllum giganteum2.jpeg` — existe; blob `b198a4c7fb3296a67413a4bb9f56d971bd2ec8f3`.
+  3. `imagens/Arpophyllum giganteum/Arpophyllum giganteum3.webp` — existe; blob `bce3c9d8978d33fbb813a1f2bdb6d5a7a7bf739d`.
+  4. `imagens/Arpophyllum giganteum/Arpophyllum giganteum4.jpeg` — existe; blob `23be47582f987cc1d67a695877070a6ce50e08e1`.
+- **Resultado:** quatro de quatro arquivos presentes nos caminhos exatos; não foram alterados. Esta checagem não comprova renderização no navegador, adequação taxonômica das fotografias nem integridade visual do layout V4.9.
