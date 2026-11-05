@@ -20,3 +20,11 @@ Teste Chromium desktop/mobile aprovado, capturas confirmadas e encerramento téc
 
 ## Encerramento — 2026-11-04
 Execução Chromium/Playwright [41840036862](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41840036862): todas as etapas **success**, inclusive inspeção no navegador e upload de capturas. Artefato **13327754587**, `macs-134-inspecao-visual` (457103 bytes). Principal soma 100%; duas alternativas qualitativas sem percentuais; perlita preservada; estrelas dos suportes omitidas; quatro fotos e oito assets presentes. **Classe D — NÃO HOMOLOGADA quantitativamente**, sem ensaios comparativos específicos nem amostra documentada de 25 produtores independentes. Sem pendências técnicas detectadas pelo teste; matriz 135 liberada.
+
+
+## Auditoria integrada de continuidade — 2026-11-05
+- Principal: 30% macadâmia média + 30% pinus médio + 25% perlita de granulometria compatível + 15% fibra de coco grossa preparada = **100%**. Duas alternativas qualitativas sem percentuais; estrelas dos métodos `null`.
+- **IDC 3.2 documental:** 40/100, três estrelas; oito notas T/R/H/V/L/Ra/S/F iguais a 2. Faixa correta; a transformação das notas para o total não foi reconstruída independentemente.
+- **IAR 2.0 litoral:** 47/100, três estrelas; notas 2/2/4/4/3/4/2: 12+12+4+4+3+4+8=47.
+- **IAR 2.0 montanha:** 96/100, cinco estrelas; notas 5/5/4/4/4/4/5: 30+30+4+4+4+4+20=96.
+- **MACS 1.1:** classe D, sem ensaios específicos nem documentação de 25 produtores independentes. Cálculos IAR aritmeticamente consistentes, sem homologação empírica. Descrição morfológica truncada corrigida; revalidação Chromium requerida após a alteração.
