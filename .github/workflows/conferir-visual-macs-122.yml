@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/conferir-visual-macs-122.yml'
+      - 'dados/orquideas/cattleya-walkeriana-f-alba-gnomus-x-f-alba-suprema.js'
   workflow_dispatch:
 jobs:
   conferir:
@@ -31,12 +32,12 @@ jobs:
             const entries=page.locator('.substratos-recomendados-v4 li');
             if(await entries.count()!==2)throw Error('Esperadas exatamente duas misturas');
             const texts=await entries.allTextContents();
-            if(!texts[0].includes('50% casca de pinus')||!texts[1].includes('45% casca de macadâmia'))throw Error('Percentuais de alternativas incorretos: '+texts.join(' | '));
+            if(texts.some(t=>/\b\d+(?:[.,]\d+)?\s*%/.test(t)))throw Error('Alternativas devem ser qualitativas, sem percentuais: '+texts.join(' | '));
             if(errors.length)throw Error('Erros JavaScript: '+errors.join(' | '));
             await section.screenshot({path:'macs-122-substrato-desktop.png'});
             await page.setViewportSize({width:390,height:844});
             await section.screenshot({path:'macs-122-substrato-mobile.png'});
-            console.log('APROVADO: renderização desktop/mobile, 2 receitas com percentuais e sem erros JavaScript.');
+            console.log('APROVADO: renderização desktop/mobile, 2 alternativas qualitativas sem percentuais e sem erros JavaScript.');
             await browser.close();
           })().catch(e=>{console.error(e);process.exit(1)});
           JS
