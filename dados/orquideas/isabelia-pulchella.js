@@ -23,7 +23,7 @@ export const isabeliaPulchella = {
     "horario": "",
     "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
   },
-  "floracao": "Produtores brasileiros relatam floração principalmente na primavera, com registros divergentes de outras estações. O calendário indica uma janela observada, não exigência fixa. Para avaliar ausência de flores, registre a maturação dos pseudobulbos, a intensidade de luz filtrada e, especialmente, se houve noites mais frescas durante o ciclo.",
+  "floracao": "Orquidários brasileiros relatam floração de Isabelia pulchella na primavera, enquanto cultivadores do Sul e Sudeste também observam flores no outono e no início do inverno, com registro específico em junho. Assim, a época varia conforme a região e as condições de cultivo; maio e junho são os meses com observações brasileiras mais específicas nesta revisão. As hastes curtas produzem geralmente uma flor solitária, delicada e rosada a magenta, com cerca de 0,5 a 1 cm, pétalas estreitas e labelo de bordas levemente onduladas. As flores não apresentam perfume perceptível, conforme relatos de produtores e observações botânicas. Em cultivo brasileiro, a floração dura em média 15 a 20 dias, embora a duração de cada flor possa variar com a temperatura e a umidade.",
   "adubacao": "🌿 Orgânica: se usar bokashi, mantenha uma quantidade muito pequena em sachê, sem contato com o rizoma ou os brotos; em placa pequena, é perfeitamente possível dispensá-lo.\n💧 Mineral/foliar: prefira fertilizante equilibrado bastante diluído, aproximadamente a cada 10–15 dias enquanto houver brotos e raízes novas. Evite pulverizações concentradas sobre a miniatura e siga o rótulo.\n🧪 Liberação lenta: geralmente desnecessária em montagens pequenas; em vaso, use apenas dose mínima e longe da planta.\n🚿 Lavagem: intercale aplicações com água limpa, evitando o acúmulo de sais nas raízes delicadas.",
   "rega": "Em placa, molhe as raízes com frequência enquanto surgem brotos, permitindo apenas uma secagem breve entre as regas. Nos dias quentes e ventosos, pode ser necessário regar diariamente; em vaso pequeno, espere a superfície começar a perder umidade antes de repetir. Um pouco de esfagno junto às raízes ajuda a segurar a umidade, mas não deve cobrir o rizoma nem ficar encharcado. Após o amadurecimento dos brotos, ajuste a frequência ao ritmo de secagem, sem impor repouso seco.",
   "suporte": "Priorize suporte que permita ao rizoma rastejante avançar sem enterrar os pseudobulbos. Na placa, fixe somente os segmentos antigos e deixe espaço para a frente de crescimento; acompanhe a desidratação nas semanas quentes. Em cesto pequeno, uma camada leve de material fibroso pode suavizar a secagem. Em vaso baixo, não afunde o rizoma na mistura; a árvore viva só é apropriada em posição ventilada, com umidade atmosférica suficiente. Evite remanejar a planta quando novas raízes estiverem aderindo.",
@@ -182,9 +182,8 @@ export const isabeliaPulchella = {
     "montanhaFria": ""
   },
   "mesesFloracao": [
-    9,
-    10,
-    11
+    5,
+    6
   ],
   "selosCultivo": {
     "rega": {
