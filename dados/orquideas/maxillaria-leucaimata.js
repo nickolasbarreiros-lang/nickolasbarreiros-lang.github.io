@@ -31,7 +31,7 @@ export const maxillariaLeucaimata = {
         horario: "Somente início da manhã",
         observacoes: "Prefere claridade filtrada abundante. Folhas verde-médio a verde-claro e pseudobulbos firmes indicam bom equilíbrio. Folhas muito escuras e crescimento frouxo sugerem pouca luz; amarelecimento intenso, manchas secas ou aquecimento indicam excesso. No litoral quente, 60% a 70% costuma ser mais seguro."
     },
-    floracao: "Mais comum do verão ao outono. Cada inflorescência ereta pode atingir cerca de 20 cm e porta uma única flor de aproximadamente 3 a 4 cm. Plantas adultas podem produzir várias hastes quase simultaneamente, formando uma floração mais cheia sem que cada haste deixe de ser uniflora.",
+    floracao: "No cultivo brasileiro, Maxillaria leucaimata tem floração relatada em fevereiro e entre julho e outubro, com variações conforme a região e as condições ambientais. Assim, não se limita ao verão e ao outono. As hastes nascem junto à base dos pseudobulbos e carregam uma única flor cada, embora uma touceira adulta possa produzir várias hastes ao mesmo tempo. As flores medem aproximadamente 3 a 4 cm e apresentam sépalas e pétalas de tons creme a amarelos, frequentemente salpicadas ou manchadas de vinho ou castanho; o labelo também é amarelado e maculado. Não foi encontrada descrição específica e confiável do perfume desta espécie, nem de notas aromáticas reconhecíveis. A duração de cada flor e o período total de floração também não estão suficientemente documentados para indicar um número de dias com segurança.",
     adubacao: "🌿 Orgânica: pequena quantidade de bokashi em porta-adubo, afastada do rizoma e brotações.\n💧 Foliar/radicular: NPK equilibrado, como 20-20-20, em 1/4 da dose a cada 10 a 15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: poucos grânulos apenas em vaso muito drenante e longe das pontas novas.\n🚿 Lavagem de sais: uma vez por mês, regue abundantemente apenas com água pura.",
     rega: "Na fase de crescimento, molhe abundantemente e deixe o excesso escorrer. Ajuste vaso, substrato e ventilação para que a mistura perca rapidamente a água livre e volte a receber oxigênio. Após a maturação, amplie levemente o intervalo entre regas, sem impor seca severa. Pseudobulbos enrugados com substrato ainda molhado geralmente indicam perda radicular, abafamento ou substrato degradado — não simples falta de água.",
     suporte: "🥇 Vaso pequeno e muito perfurado: melhor equilíbrio entre retenção e oxigenação.\n🥈 Vaso de barro: excelente em locais úmidos ou para quem rega com frequência.\n🥉 Cesto de madeira ou placa: bons quando a umidade relativa permanece alta e é possível regar regularmente. O recipiente deve acomodar apenas poucos crescimentos futuros.",
@@ -211,7 +211,7 @@ export const maxillariaLeucaimata = {
         litoralQuente: { texto: "Em regiões litorâneas quentes, Use 60% a 70% de sombra, vaso justo, mistura predominantemente mineral e ventilação contínua. Regue cedo e acompanhe a secagem real do vaso." },
         montanhaFrio: { texto: "Em regiões serranas, As noites frescas favorecem o ciclo; em semanas frias, nubladas ou chuvosas, aumente o intervalo entre regas sem deixar a planta desidratar." }
     },
-    mesesFloracao: [12, 1, 2, 3, 4, 5],
+    mesesFloracao: [2, 7, 8, 9, 10],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
