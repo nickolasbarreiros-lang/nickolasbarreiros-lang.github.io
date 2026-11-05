@@ -42,7 +42,7 @@ Não calcular nota sem medições comparáveis.
 - Ingredientes pinus/carvão/esfagno/perlita: **B qualitativo específico**, sem proporções.
 - Macadâmia 35% e arroz carbonizado 10%: **D específicos** nesta pesquisa.
 - Composição integral R0: **D**; percentuais: **D**; estrelas: **D**.
-- **5 produtores/comerciantes brasileiros específicos identificados**, **3 com ingredientes ou materiais identificáveis** (Maripá, Mogi Mirim, Vico), **0 com receita percentual**. Levantamento não exaustivo.
+- **8 produtores/comerciantes brasileiros específicos identificados**, **4 com ingredientes ou materiais identificáveis** (Maripá, Mogi Mirim, Vico), **0 com receita percentual**. Levantamento não exaustivo.
 - **Status:** PROVISÓRIA, 0 homologações quantitativas de desempenho adulto. Preservar JS, substrato visual, fotos, assets, IDC/IAR e V4.9.
 
 ## Conferência adicional — 2026-11-04
@@ -64,3 +64,11 @@ Não calcular nota sem medições comparáveis.
 - **Cobertura identificada: 5/25 estabelecimentos-alvo; 3/5 descrevem materiais identificáveis; 0/5 publicam a receita percentual R0.** A meta de 25 não equivale a 25 fontes necessariamente existentes ou independentes; novas fontes exigem verificação individual e registro de evidência específica.
 - AOS e RHS confirmam necessidade de mistura aberta e redução sazonal de rega, mas não demonstram vantagem dos percentuais R0. <https://www.aos.org/explore/arpophyllum> e <https://www.rhs.org.uk/plants/1612/arpophyllum-giganteum/details>.
 - **Decisão permanece Classe D**, sem alterar os percentuais nem atribuir estrelas.
+
+## Ampliação independente — 2026-11-04 (segunda busca)
+- **Merten Orquídeas:** https://www.mertenorquideas.com.br/arpophyllum-giganteum-adulta — identifica casca de madeira e carvão como materiais, admite cultivo em árvores, sem proporções. Orientação específica qualitativa.
+- **Orquidário Mantovani:** https://www.orquideasmantovani.com.br/arpophyllum-giganteum-33/p — informa replante em madeira, vaso plástico, barro ou cachepô; não apresenta mistura percentual nem comparação de desempenho.
+- **Orquidário Serra do Mar:** https://www.orquidarioserradomar.com.br/outras/arpophyllum-giganteum-orquidea-escova-de-garrafa — fornece dados de floração e cultivo médio, mas não receita de substrato nem evidência comparativa.
+- **Total atualizado: 8 estabelecimentos brasileiros distintos identificados**, dos quais **4 apresentam ingredientes ou materiais de substrato identificáveis** (Maripá, Mogi Mirim, Vico, Merten), **0 publicam percentuais da receita R0**. Não duplicar páginas de exemplares adultos/pré-adultos do mesmo produtor.
+- **Confronto metodológico:** revisão científica de Faria e colaboradores, *Substrates for the cultivation of epiphytic orchids*, https://ojs.uel.br/revistas/uel/index.php/semagrarias/article/download/31058/24615/166932 — não há uma mistura universalmente ótima, mesmo para a mesma espécie em climas distintos. Isso reforça a necessidade de experimentação específica, não a superioridade de R0.
+- **Decisão:** evidência adicional de viabilidade de materiais e recipientes; **Classe D permanece** para percentuais e ranking. Não promover homologação experimental.
