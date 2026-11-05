@@ -70,7 +70,7 @@ export const cattleyaChocolateDrop = {
         },
         {
             "nome": "Vaso plástico",
-            "asset": "vaso-plastico",
+            "asset": "vaso-plastico-vasado",
             "estrelas": null,
             "status": "Alternativa",
             "texto": "A retenção maior exige atenção ao tamanho das partículas e aos intervalos de rega."
