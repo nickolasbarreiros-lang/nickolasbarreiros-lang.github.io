@@ -31,7 +31,7 @@
 
 ## Duas alternativas qualitativas preservadas
 1. Casca de pinus média + perlita de granulometria adequada + argila expandida miúda + pequena fração de esfagno de fibra longa solto.
-2. Casca de macadâmia média + casca de pinus média + perlita de granulometria adequada + pequena fração de fibra de coco grossa preparada.
+2. Casca de macadâmia média + casca de pinus média + perlita de granulometria adequada + pequena fração de fibra de coco grossa lavada.
 
 Distintas entre si e da receita percentual, sem proporções inventadas.
 
@@ -47,3 +47,14 @@ Distintas entre si e da receita percentual, sem proporções inventadas.
 
 ## Parecer
 **Revisão documental concluída.** Taxonomia, distribuição, dimensões florais, morfologia, texto editorial, horário e asset corrigidos; receita alternativa soma 100% e duas misturas qualitativas distintas permanecem. **Homologação quantitativa 35/30/25/10: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-05
+**Perfil:** epífita compacta com pseudobulbos pequenos, unifoliados e lateralmente comprimidos, raízes finas e racemos basais longos, arqueados ou pendentes. Montagem suspensa favorece ventilação e passagem livre das hastes. Irrigar com frequência durante crescimento e emissão floral, permitindo que as raízes montadas sequem entre molhamentos; em períodos frios ou úmidos, ajustar a frequência à evaporação. Não impor seca prolongada nem acumular água na base da folha.
+
+**Cultivo principal:** placa/tronco suspenso e levemente inclinado, **sem substrato volumétrico nem percentuais**. AOS recomenda genericamente para Notylia placas pequenas e material retentivo discreto, sem ensaio específico para N. pubescens. **Receita opcional em volume para cuia rasa ou cesto aberto:** 35% casca de pinus média (estrutura) + 30% chips de coco pequenos lavados (umidade moderada) + 25% perlita de granulometria adequada a raízes finas (aeração) + 10% carvão vegetal (porosidade), total 100%. Proposta horticultural sem homologação quantitativa específica.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus média + perlita de granulometria adequada + argila expandida miúda + pequena fração de esfagno de fibra longa solto; (2) casca de macadâmia média + casca de pinus média + perlita de granulometria adequada + pequena fração de fibra de coco grossa lavada. Distintas entre si e da receita opcional; coco lavado não dispensa eventual controle de salinidade.
+
+**Conferências editoriais:** descrição com 92 palavras (faixa 90–120). Chips de coco pequenos lavados e fibra de coco grossa lavada padronizados em receita, itens visuais, justificativa e alternativa. Receita e justificativa agora explicitam falta de homologação específica e diferenciam montagem principal de mistura opcional em recipiente. Corrigido horário de exposição direta vazio para “Não permitido”, coerente com sol direto vedado. Calendário fixo [9,10,11,12,1] removido por falta de fenologia brasileira mensal verificada; texto de floração registra primavera/verão/outono no IOSPE sem atribuir meses universais. Selo de rega alterado de “moderada” para “frequente” em coerência com regas da montagem; selo de clima de floração deixa de afirmar “floraNoCalor” e fixa faixa intermediária sem calor obrigatório. Prosa regional “excelente adaptação” ajustada para “boa adaptação”, coerente com IAR litoral 79/4 estrelas. Receita e itens visuais somam 35+30+25+10=100%; duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 32/100 e quatro estrelas coerentes com IDC 3.2; IAR litoral 79/4 estrelas e montanha 80/4 estrelas preservados; estrelas dos suportes mantidas como avaliações horticulturais. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; zero receitas quantitativas brasileiras específicas verificadas, meta de 25 produtores não atingida e **homologação experimental não demonstrada**.
