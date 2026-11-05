@@ -36,7 +36,7 @@ export const zygolumLouisendorf = {
         "horario": "Somente início da manhã",
         "observacoes": "Prefere luz filtrada clara. Folhas muito escuras sugerem pouca luz; amarelamento e manchas indicam excesso de radiação ou calor."
     },
-    "floracao": "Mais frequente do fim do inverno à primavera, aproximadamente de julho a novembro. As hastes eretas surgem próximas a novos crescimentos e sustentam flores marcantes e perfumadas.",
+    "floracao": "Orquidários brasileiros relatam que Zygolum Louisendorf costuma florescer no inverno, mas pode emitir hastes em outras épocas. O calendário destaca junho, julho e agosto como referência aproximada do inverno brasileiro, não como meses comprovados por registros datados de cada floração; catálogos especializados também descrevem o ciclo deste híbrido como irregular. As hastes surgem junto aos novos crescimentos e geralmente apresentam de três a cinco flores vistosas, com cerca de 8,5 cm de diâmetro, sépalas e pétalas verdes a castanhas e labelo amplo em tons de violeta, púrpura e branco. O perfume é marcante, doce e floral; no cultivar 'Rhein Moonlight', descrições especializadas o comparam a jacintos com notas levemente apimentadas. A apresentação floral pode durar várias semanas e, em alguns cultivares e condições favoráveis, há relatos de um a três meses. Essa duração se refere à manutenção da floração no conjunto e não a uma medição universal da vida de cada flor.",
     "adubacao": "🌿 Orgânica: bokashi em pequena dose nas bordas do vaso.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 10–15 dias no crescimento.\n🧪 Liberação lenta: Osmocote em dose baixa, com cautela em clima quente.\n🚿 Lavagem: faça flushing regular para impedir sais nas raízes.",
     "rega": "Regue quando a superfície começar a secar, sem esperar a secagem total do fundo do vaso. Mantenha umidade leve e constante, reduzindo apenas moderadamente no frio. Evite água acumulada no miolo das brotações novas.",
     "suporte": "🥇 Vaso plástico proporcional, com bons furos de drenagem — conserva melhor a umidade do substrato.\n🥈 Vaso de barro convencional — a porosidade da terracota favorece evaporação e resfriamento das raízes, exigindo atenção maior à frequência de rega.",
@@ -220,13 +220,7 @@ export const zygolumLouisendorf = {
         "litoralQuente": "Em Litoral de clima quente, mantenha no ponto mais fresco do orquidário, com vaso claro, ventilação forte e proteção completa do sol da tarde.",
         "montanhaFrio": "Excelente adaptação às noites amenas; proteja de geadas e chuva fria contínua."
     },
-    "mesesFloracao": [
-        7,
-        8,
-        9,
-        10,
-        11
-    ],
+    "mesesFloracao": [6, 7, 8],
     "selosCultivo": {
         "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
