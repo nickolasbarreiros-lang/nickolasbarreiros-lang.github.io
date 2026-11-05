@@ -32,7 +32,7 @@ export const ornithocephalusMyrticola = {
         "horario": "Não permitido",
         "observacoes": "Sombra clara. Posicione na faixa inferior ou média do orquidário, longe de paredes e coberturas aquecidas. Folhas amareladas ou avermelhadas indicam excesso; folhas alongadas, muito escuras e pouca floração indicam sombra profunda."
     },
-    "floracao": "A época pode variar entre procedências e condições de cultivo. As hastes axilares e pubescentes medem cerca de 4–8 cm e podem carregar até aproximadamente 15 flores de cerca de 1 cm, claras e delicadas, com perfume cítrico lembrando limão. Em touceiras adultas, várias inflorescências podem aparecer em sequência e prolongar o efeito ornamental.",
+    "floracao": "No Brasil, Ornithocephalus myrticola tem floração documentada entre novembro e janeiro, com registro adicional em fevereiro. A espécie também pode voltar a florescer no mesmo ano, conforme o desenvolvimento da planta. Das axilas das folhas em leque surgem hastes finas, levemente pilosas, com várias flores minúsculas, geralmente brancas, com estrias esverdeadas e detalhes amarelos no labelo. Cultivadores descrevem de 5 a 15 flores por haste, medindo aproximadamente 0,5 a 0,8 cm; há variação entre descrições e exemplares. O perfume costuma ser suave e cítrico, lembrando limão, mas alguns cultivadores não o percebem. Um relato brasileiro indica floração de 15 a 20 dias, enquanto um orquidário comercial informa média de 25 dias. São referências para o conjunto floral, não garantia de duração idêntica para cada flor.",
     "adubacao": "🌿 Orgânica: não aplique diretamente. Se usada, coloque uma trouxinha mínima acima da planta.\n💧 Mineral: fertilizante altamente solúvel em 1/5 a 1/4 da dose a cada 15 dias, somente em crescimento ativo.\n🚿 Flushing: lave a placa regularmente com água pura para evitar sais.\n🧪 Liberação lenta: desaconselhada. Prefira fertirrigação muito leve e frequente.",
     "rega": "Reproduza o ciclo natural: molhar, hidratar, secar rapidamente e repetir. Em placas, borrife pela manhã diariamente no calor; uma segunda nebulização ambiental pode ser necessária no início da tarde, sem deixar o leque molhado à noite. Folhas enrugadas lateralmente indicam baixa umidade; base amolecida ou centro escuro indicam podridão; raízes cinzentas e quebradiças sugerem seca; raízes marrons e ocas indicam abafamento.",
     "suporte": "🥇 Placa rugosa de cortiça, sanção-do-campo, peroba velha ou aroeira bem curtida: melhor fixação e aeração.\n🥈 Tela plástica com fina pluma de esfagno: útil em ambiente muito úmido.\n🥉 Cachepô minúsculo e totalmente vazado: apenas como suporte mecânico.\nMadeiras lisas dificultam a aderência; o vaso nunca deve funcionar como reservatório de água.",
@@ -211,7 +211,7 @@ export const ornithocephalusMyrticola = {
         "litoralQuente": "No litoral quente, a espécie pode se adaptar porque também ocorre em baixadas quentes, mas exige ventilação excelente. Instale em posição clara e sombreada, longe de paredes aquecidas; aumente a umidade do ambiente sem manter o centro do leque molhado ao anoitecer.",
         "montanhaFrio": "Tolera bem clima ameno. Reduza borrifos no inverno, sem permitir seca prolongada, e proteja de vento frio ressecante e geada."
     },
-    "mesesFloracao": [],
+    "mesesFloracao": [1, 2, 11, 12],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "intermediario" }
