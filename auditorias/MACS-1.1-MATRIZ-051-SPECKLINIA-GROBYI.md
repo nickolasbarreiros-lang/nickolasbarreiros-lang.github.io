@@ -46,3 +46,14 @@ As alternativas diferem entre si: a primeira inclui esfagno, a segunda coco prep
 
 ## Parecer conclusivo
 **Revisão documental encerrada**, com morfologia corrigida, taxonomia aceita conferida, distinção explícita entre montagem e vaso, soma percentual e alternativas verificadas, e limitações de fontes registradas. **Homologação quantitativa experimental específica: NÃO DEMONSTRADA.** Não existem pendências editoriais identificadas desta passagem; estudos futuros de desempenho de substrato seriam pesquisa experimental separada, não uma auditoria omitida.
+
+## Perfil radicular e hídrico — revisão 2026-11-04
+**Perfil:** microepífita cespitosa, sem pseudobulbos de reserva, com raízes finas e exigência de umidade frequente combinada com circulação de ar. O intervalo de secagem deve ser observado no suporte real, não fixado por calendário; a espessura radicular não foi medida no exemplar. Cultivadores estrangeiros documentam montagem, mas não fornecem proporção quantitativa específica.
+
+**Cultivo principal:** placa/tronco pequeno, com camada mínima de esfagno solto sob as raízes; não há mistura volumétrica na montagem. **Cultivo secundário em recipiente mínimo:** 65% esfagno de fibra longa muito solto (reserva hídrica) + 35% perlita grossa (espaços de ar), por volume. Em recipiente grande ou esfagno comprimido, a retenção pode ser excessiva. É hipótese horticultural não homologada experimentalmente para a espécie.
+
+**Alternativas públicas qualitativas, sem percentuais:** (1) casca de pinus fina + perlita de granulometria adequada a miniaturas + esfagno de fibra longa solto; (2) chips de coco pequenos lavados + perlita de granulometria adequada a miniaturas + casca de pinus fina. Padronizado o nome dos chips na segunda alternativa; a lavagem é especificação de preparo, não prova de baixa salinidade de lote não testado.
+
+**Conferências:** receita e itens visuais concordam em 65+35=100%; descrição ampliada de 89 para 100 palavras, dentro de 90–120; quatro caminhos fotográficos registrados; IDC 30/100 e quatro estrelas coerentes com IDC 3.2; índices IAR e métodos preservados. A checagem visual de arquivos e navegador será realizada somente na auditoria final com ZIP, por decisão do responsável.
+
+**Conclusão:** revisão científica/editorial documental concluída no limite das fontes disponíveis. **Zero receitas quantitativas específicas e zero produtores brasileiros da espécie exata com proporção comprovada** nesta matriz; não apresentar a receita como homologada nem simular amostra de 25.
