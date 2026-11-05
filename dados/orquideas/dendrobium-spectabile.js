@@ -49,7 +49,7 @@ export const dendrobiumSpectabile = {
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Preferência técnica provisória", texto: "Cachepô robusto e bem ventilado, dimensionado para a planta adulta, com amplo espaço para raízes e hastes." },
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa provisória", texto: "Vaso pesado e muito drenante, oferecendo estabilidade para hastes grandes e mistura grossa." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Modelo reforçado, firme e perfurado, com partículas grossas e secagem monitorada." },
-            { nome: "Vaso plástico", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa condicional", texto: "Somente recipiente bem perfurado e estável, evitando retenção prolongada e substrato compacto." }
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Alternativa condicional", texto: "Somente recipiente bem perfurado e estável, evitando retenção prolongada e substrato compacto." }
         ]
     },
     substratoVisual: {
