@@ -31,7 +31,7 @@ export const jacquiniellaGlobosa = {
         horario: "",
         observacoes: "Folhas firmes em verde-médio indicam equilíbrio. Folhagem muito escura e caules alongados sugerem pouca luz; avermelhamento discreto pode ocorrer com maior claridade, mas manchas secas ou aquecimento excessivo indicam excesso."
     },
-    floracao: "Pode florescer em qualquer época do ano. As flores são muito pequenas, com cerca de 3 mm, surgem sucessivamente no ápice dos caules e costumam aparecer uma ou duas por vez.",
+    floracao: "Jacquiniella globosa pode florescer em diferentes épocas do ano, mas os registros botânicos brasileiros consultados confirmam especificamente fevereiro, setembro e novembro; isso não significa que floresça continuamente nos doze meses. Na ponta dos caules surgem pequenos grupos de botões, com flores que podem abrir sucessivamente, geralmente uma ou duas visíveis por vez. Cada flor mede apenas cerca de 2 a 3 mm, tem coloração verde-amarelada a esbranquiçada e formato tubular, permanecendo muitas vezes quase fechada, característica que dificulta perceber a floração à primeira vista. Não foi possível confirmar perfume perceptível nem notas aromáticas para a espécie. Também não há dados seguros sobre quantos dias dura cada flor; a sucessão de botões pode prolongar a presença de flores na planta, sem permitir estimar a duração total da floração.",
     adubacao: "🌿 Orgânica: bokashi apenas em quantidade mínima, isolado em porta-adubo e sem contato com a touceira.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante a atividade.\n🧪 Liberação lenta: preferencialmente evitar em plantas montadas; em vaso ou cesto, usar pouquíssimos grânulos. Faça lavagem mensal com água pura para remover sais.",
     rega: "Durante o crescimento e nos dias quentes, regue com frequência, especialmente em plantas montadas. Após cada irrigação, permita que raízes e suporte arejem e sequem antes da próxima rega. No frio ou em períodos nublados, reduza conforme a evaporação, sem provocar murchamento persistente das folhas carnosas.",
     suporte: "🥇 Placa pequena de cortiça ou madeira dura.\n🥈 Galho fino de casca rugosa.\n🥉 Cesto pequeno e muito aberto. Vaso raso é apenas opção secundária.",
@@ -210,7 +210,7 @@ export const jacquiniellaGlobosa = {
         litoralQuente: { texto: "Muito boa em litoral quente quando montada em local ventilado, com luz filtrada clara e regas frequentes pela manhã. Reduza o esfagno se o ambiente já for úmido." },
         montanhaFrio: { texto: "Proteja de geadas e aumente o intervalo entre regas em semanas frias e nubladas, sem deixar as folhas murcharem por longos períodos." }
     },
-    mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    mesesFloracao: [2, 9, 11],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
