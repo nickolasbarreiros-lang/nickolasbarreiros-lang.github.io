@@ -46,7 +46,7 @@ export const bifrenariaVerboonenii = {
         destaque: "Vaso de Barro",
         resumo: "O vaso de barro oferece o melhor equilíbrio entre estabilidade, evaporação e aeração para esta Bifrenaria de forte afinidade rupícola.",
         metodos: [
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Preferência técnica provisória", texto: "Favorece secagem rápida e ajuda a manter as raízes mais frescas e oxigenadas, sem a oscilação extrema de uma montagem nua." },
+            { nome: "Vaso de Barro", asset: "bifrenaria-verboonenii-vaso-barro", estrelas: null, status: "Preferência técnica provisória", texto: "Favorece secagem rápida e ajuda a manter as raízes mais frescas e oxigenadas, sem a oscilação extrema de uma montagem nua." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Funciona muito bem com mistura mineral e estrutural bastante aberta, desde que não permaneça úmida por longos períodos." },
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa provisória", texto: "Oferece excelente ventilação e drenagem, especialmente em locais úmidos e bem ventilados." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Uso condicional provisório", texto: "Biologicamente possível, mas exige regas mais frequentes e controle maior da desidratação durante o crescimento ativo." }
