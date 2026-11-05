@@ -64,7 +64,7 @@ export const aciantheraSonderiana = {
         metodos: [
             { nome: "Placa / tronco", asset: "acianthera-sonderiana-placa", estrelas: 5, status: "Ideal", texto: "Reproduz bem o hábito epífito natural, mantendo as raízes muito aeradas. No litoral quente, exige atenção à frequência de rega e à umidade para evitar desidratação excessiva." },
             { nome: "Árvore viva", asset: "arvore-viva", estrelas: 4, status: "Muito recomendado", texto: "Excelente alternativa em casca rugosa e local protegido, com umidade ambiental elevada e ventilação constante. Evite posições muito expostas ao sol e ao vento seco." },
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 4, status: "Muito recomendado", texto: "É uma alternativa especialmente útil no litoral quente porque desacelera a perda de água. Use vaso pequeno, mistura muito aberta e controle rigoroso para que a umidade não se transforme em encharcamento." },
+            { nome: "Vaso plástico", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "É uma alternativa especialmente útil no litoral quente porque desacelera a perda de água. Use vaso pequeno, mistura muito aberta e controle rigoroso para que a umidade não se transforme em encharcamento." },
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 3, status: "Adequado", texto: "Oferece excelente ventilação, mas seca mais rapidamente. Funciona melhor em ambiente úmido ou com regas frequentes e proteção contra vento quente." }
         ]
     },
