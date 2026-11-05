@@ -48,3 +48,14 @@ Ambas são distintas da principal e entre si, sem percentuais inventados. A prim
 
 ## Parecer final
 **Revisão documental concluída.** A receita principal possui referência brasileira específica, mas apenas como **recomendação de cultivo**, não como ensaio controlado. Cultivo principal em placa é apoiado por duas fontes específicas de natureza distinta. Não há pendências editoriais identificadas nesta matriz; eventuais ensaios de desempenho seriam nova pesquisa experimental, não auditoria editorial adiada.
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** microepífita cespitosa, sem pseudobulbos de reserva, raízes finas e necessidade de umidade frequente com ventilação; a planta pode sofrer tanto com secagem prolongada quanto com esfagno saturado e aquecido. Espessura e ciclos de secagem não foram medidos para o exemplar. Fontes específicas brasileiras registram montagem em toco/placa; a receita de vaso vem de blog de cultivo, não de produtor comercial ou ensaio.
+
+**Cultivo principal:** placa/tronco com camada muito fina de esfagno solto sob as raízes; **não se aplica porcentagem volumétrica à placa**. **Alternativa de vaso miniatura raso:** partes iguais em volume de casca de pinus fina (estrutura), carvão vegetal pequeno (aeração) e esfagno de fibra longa solto (reserva hídrica). Exibição 33,3% + 33,3% + 33,4% = 100%; o último décimo é arredondamento de tela, não instrução de dosar mais esfagno. Não compactar.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus fina + perlita de granulometria adequada a miniaturas + esfagno de fibra longa solto; (2) chips de coco pequenos lavados + casca de pinus fina + perlita de granulometria adequada a miniaturas. A segunda teve nomenclatura padronizada na ficha. Não há comparação quantitativa de desempenho entre elas.
+
+**Verificações editoriais:** descrição pública com 96 palavras (faixa 90–120); quatro caminhos de fotografias registrados; IDC 52/100, duas estrelas e classificação difícil, coerentes com IDC 3.2; receitas e itens visuais concordam; IAR e estrelas de suportes preservados. Ajustada a expressão pública 'Em Litoral de clima quente' para 'Em regiões de clima quente'. Testes visuais e carregamento das fotos serão realizados somente na auditoria consolidada com ZIP final, conforme decisão do responsável.
+
+**Conclusão:** revisão científica/editorial documental concluída dentro das evidências disponíveis. Receita 1:1:1 possui referência horticultural brasileira específica, mas **não é experimentalmente homologada**; a meta de 25 produtores independentes não foi atingida, sem simulação de cobertura.
