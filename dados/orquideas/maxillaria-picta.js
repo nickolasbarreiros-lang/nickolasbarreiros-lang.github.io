@@ -36,7 +36,7 @@ export const maxillariaPicta = {
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, protegido em porta-adubo e afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante brotação e emissão de raízes.\n🌸 Pré-floração: após a maturação, reduza o nitrogênio em vez de aumentar drasticamente fósforo e potássio.\n🧪 Liberação lenta: poucos grânulos em vaso bem drenante, longe dos brotos.\n🚿 Faça flushing mensal com água pura e nunca aplique solução forte em raízes desidratadas.",
     "rega": "Durante a brotação, regue generosamente e permita que o substrato perca parte da umidade antes da próxima irrigação. Após a maturação, aumente discretamente o intervalo, sobretudo nas semanas frias e nubladas. A espécie não deve receber seca severa. Pseudobulbos levemente sulcados podem ser normais; enrugamento progressivo exige inspeção. Se houver raízes escuras e substrato molhado, o problema tende a ser perda radicular por falta de oxigênio; se as raízes estiverem firmes e a mistura seca, pode ser deficiência hídrica real.",
     "suporte": "🥇 Vaso de barro ou plástico muito perfurado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira, adequado a exemplares grandes e bem estabelecidos.\n🥉 Placa de madeira ou cortiça com pequena quantidade de musgo, somente onde a umidade ambiente e a rotina de rega evitarem desidratação. Preserve espaço para poucos crescimentos futuros.",
-    substrato: ["Vermiculita + casca de arroz carbonizada (1:1 em volume, também testada por Faria et al., 2001)", "Casca de pinus média + perlita grossa + carvão vegetal (alternativa horticultural sem ensaio específico)"],
+    substrato: ["Vermiculita + casca de arroz carbonizada (mistura também ensaiada por Faria et al., 2001; proporção publicada de 1:1 registrada na matriz científica)", "Casca de pinus média + perlita grossa + carvão vegetal (alternativa horticultural sem ensaio específico)"],
     formasCultivo: {
         perfilVisual: "maxillaria-epifita-litofita-touceira-densa",
         destaque: "Vaso de Barro",
@@ -72,11 +72,11 @@ export const maxillariaPicta = {
     "dica": "Replante somente quando novas pontas de raízes começarem a aparecer. Fora dessa janela, a planta pode permanecer estagnada por muitos meses. No outono e inverno, mantenha luz filtrada forte e aproveite a queda natural da temperatura noturna para indução. Como as hastes florais são curtas e basais, remova apenas detritos soltos e bainhas totalmente deterioradas; não “descasque” o pseudobulbo à força. Mantenha a base ventilada e evite que água fique acumulada ao redor dos botões.",
     revisaoCientificaIAR: {
         "nome": "Maxillaria picta",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma Maxillaria brasileira de flores grandes e muito marcantes! Seus pseudobulbos formam touceiras compactas e, no inverno e na primavera, surgem flores solitárias de cerca de 5 cm em tons creme a amarelo, fortemente pintalgadas de púrpura ou castanho. É epífita ou ocasionalmente rupícola e aprecia bastante claridade filtrada, raízes arejadas e noites mais amenas. No litoral que",
+        "statusTaxonomico": "Maxillaria picta é nome aceito em POWO/Kew; Brasiliorchis picta é sinônimo.",
+        "sinonimosPrincipais": "Brasiliorchis picta.",
+        "morfologiaDimensoes": "Maxillaria picta é uma orquídea sul-americana que forma touceiras densas de pseudobulbos ovoides, sulcados e geralmente com duas folhas firmes. Da base dos pseudobulbos surgem hastes curtas, cada uma com uma flor cerosa de cerca de 5 cm. As sépalas e pétalas creme-amareladas exibem manchas castanhas ou vinho, em padrões que variam entre plantas; o perfume pode ser bastante perceptível. Vive sobre árvores e ocasionalmente rochas em florestas do Sul e Sudeste brasileiros e áreas vizinhas da América do Sul. A combinação de folhagem compacta, flores pintalgadas e fragrância torna a espécie marcante mesmo fora do período de floração.",
         "habitatAltitudeClima": "Epífita/rupícola · matas sazonais e úmidas. | Quente a fresco · noites amenas favorecem.",
-        "distribuicaoGeografica": "Mata Atlântica · Sudeste e Sul.",
+        "distribuicaoGeografica": "Sul e Sudeste do Brasil, Paraguai e nordeste da Argentina.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
         "confianca": "media",
         "fontes": [
@@ -207,12 +207,12 @@ export const maxillariaPicta = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Em Litoral de clima quente, use vaso pequeno, mistura mais mineral, ventilação forte e o ponto mais fresco do orquidário. Proteja do calor noturno abafado.",
-        "montanhaFrio": "Em Santa Teresa/ES, a amplitude térmica natural favorece a floração. Reduza a rega em semanas frias e chuvosas, sem impor seca completa."
+        "litoralQuente": "Em regiões litorâneas quentes, mantenha vaso pequeno, ventilação forte e o ponto mais fresco do orquidário. A mistura experimental com vermiculita retém umidade: monitore a secagem e evite saturação e calor noturno abafado.",
+        "montanhaFrio": "Em regiões serranas mais frescas, a amplitude térmica natural pode favorecer a floração. Reduza a rega em semanas frias e chuvosas, sem impor seca completa."
     },
     "mesesFloracao": [7, 8, 9, 10, 11],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {
