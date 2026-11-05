@@ -23,7 +23,7 @@ export const stelisCiliaris = {
     "horario": "",
     "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
   },
-  "floracao": "Há registros de floração em diferentes estações conforme a procedência e o hemisfério. A marcação do calendário reflete registros publicados específicos, não uma estação universal. A formação de inflorescências deve ser acompanhada junto à estabilidade de umidade, ao vigor radicular e à temperatura noturna.",
+  "floracao": "No Brasil, Stelis ciliaris tem registros de floração em maio e agosto, observados por cultivador brasileiro, e em outubro, documentado em estudo botânico no Pará. Esses são os meses destacados no calendário; novembro e dezembro constavam anteriormente, mas as referências encontradas para esses meses são de outros países e não confirmam o mesmo período em cultivo brasileiro. A espécie produz racemos delicados, eretos a arqueados ou pendentes, com numerosas flores diminutas, geralmente rosadas, avermelhadas ou púrpuras; em certas formas, aparecem tons esverdeados nas peças florais. As sépalas medem cerca de 2,5 a 3 mm e possuem pequenos cílios especialmente visíveis nas margens e perto das pontas, característica que ajuda a reconhecer a espécie. As pétalas e o labelo são ainda menores. Um orquidário brasileiro informa ausência de perfume. Não foi encontrada medição confiável da duração de cada flor ou da inflorescência; por isso, não se atribui um número de dias sem evidência.",
   "adubacao": "🌿 Orgânica: se utilizar bokashi, prefira quantidade mínima em sachê separado das raízes finas; em montagens pequenas, é melhor evitar excesso de matéria orgânica.\n💧 Mineral/foliar: use fertilizante equilibrado em dose fraca, aproximadamente a cada 10–15 dias durante o crescimento. Em raízes delicadas, aplicações leves e regulares são preferíveis a doses fortes; respeite o rótulo.\n🧪 Liberação lenta: opcional apenas em vaso bem drenado e em dose muito pequena; não coloque grânulos diretamente no esfagno que envolve as raízes.\n🚿 Lavagem: passe água limpa periodicamente pelo suporte para reduzir a concentração de sais.",
   "rega": "Mantenha umidade regular durante todo o crescimento, pois as raízes finas sofrem com secas prolongadas. Em placa, regas frequentes podem ser necessárias, inclusive diariamente no calor; em vaso pequeno, regue quando a mistura começar a perder umidade, sem deixá-la saturada. O importante é combinar umidade com circulação de ar: esfagno permanentemente molhado e abafado favorece problemas nas raízes. Ajuste as regas à secagem real do suporte, não a um intervalo fixo.",
   "suporte": "A prioridade é preservar raízes finas em ambiente úmido, porém continuamente ventilado. Uma placa com pequena reserva localizada de umidade exige observação frequente para evitar secagem completa; o vaso pequeno e drenante oferece maior estabilidade hídrica, mas não pode ficar encharcado. O cesto favorece circulação lateral quando o ambiente tem umidade elevada. A montagem em árvore viva depende de microclima sombreado e proteção contra vento ressecante. Escolha pelo equilíbrio entre umidade das raízes e ausência de abafamento.",
@@ -177,11 +177,7 @@ export const stelisCiliaris = {
     "montanhaFrio": "A temperatura mais amena pode reduzir estresse hídrico, mas o substrato demora mais a secar. Preserve umidade regular sem manter esfagno constantemente encharcado; aeração das raízes continua essencial.",
     "montanhaFria": ""
   },
-  "mesesFloracao": [
-    10,
-    11,
-    12
-  ],
+  "mesesFloracao": [5, 8, 10],
   "selosCultivo": {
     "rega": {
       "nivel": "frequente",
