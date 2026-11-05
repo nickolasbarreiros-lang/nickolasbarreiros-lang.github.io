@@ -54,14 +54,14 @@ export const polystachyaConcreta = {
         "🥉 Placa de madeira ou cortiça, desde que seja possível manter regas frequentes no calor."
     ],
 
-    substrato: ["Casca de pinus média + chips de coco preparados + perlita grossa","Carvão vegetal + casca de pinus grossa + pequena fração de esfagno solto"],
+    substrato: ["Casca de pinus média + chips de coco médios lavados + perlita grossa","Carvão vegetal + casca de pinus grossa + pequena fração de esfagno solto"],
 
     formasCultivo: {
         perfilVisual: "polystachya-epifita-cespitosa-compacta",
-        destaque: "Vaso plástico",
+        destaque: "Vaso plástico vasado",
         resumo: "Espécie epífita cespitosa, com raízes compactas e pseudobulbos próximos. Vaso pequeno e bem perfurado mantém o conjunto estável e a mistura arejada.",
         metodos: [
-            { nome: "Vaso plástico", asset: "vaso-plastico-vasado", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno, proporcional à touceira, com muitos furos e mistura aberta para evitar saturação." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno, proporcional à touceira, com muitos furos e mistura aberta para evitar saturação." },
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô pequeno e vazado, com drenagem e circulação lateral de ar." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Cortiça ou madeira rugosa com hidratação frequente no calor e esfagno mínimo, se necessário." },
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e perfurado, ajustando regas à secagem mais rápida." }
@@ -72,8 +72,8 @@ export const polystachyaConcreta = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso pequeno",
         resumo: "Mistura de casca de pinus, carvão e perlita que sustenta a touceira e seca sem permanecer saturada.",
-        justificativa: "Polystachya concreta se beneficia de vaso pequeno e bem perfurado, com raízes ventiladas e secagem perceptível entre regas. A casca de pinus média oferece apoio, enquanto o carvão vegetal e a perlita grossa mantêm a mistura aberta e drenante. Observe a umidade junto às raízes e ajuste as regas ao crescimento, evitando compactação e encharcamento prolongado.",
-        receitaTexto: "45% casca de pinus média + 30% carvão vegetal + 25% perlita grossa.",
+        justificativa: "Polystachya concreta se beneficia de vaso pequeno e bem perfurado, com raízes ventiladas e secagem perceptível entre regas. A proporção 45/30/25 é uma hipótese horticultural não validada experimentalmente para a espécie. A casca de pinus média oferece apoio, enquanto o carvão vegetal e a perlita grossa mantêm a mistura aberta e drenante. Observe a umidade junto às raízes e ajuste as regas ao crescimento, evitando compactação e encharcamento prolongado.",
+        receitaTexto: "Proposta técnica NÃO HOMOLOGADA: 45% casca de pinus média + 30% carvão vegetal + 25% perlita grossa.",
         perfil: ["Epífita cespitosa", "Raízes compactas", "Boa aeração", "Drenagem rápida", "Umidade moderada"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -87,7 +87,7 @@ export const polystachyaConcreta = {
             { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Mantém circulação de ar entre as partículas." }
         ],
         alerta: "Evitar sol direto forte, sombra profunda, substrato fino e saturado, repouso seco rígido e desidratação prolongada de plantas montadas durante o crescimento.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Polystachya concreta é epífita frequentemente cespitosa, de pseudobulbos próximos; vaso pequeno bem perfurado é hipótese horticultural coerente, não resultado de comparação controlada. Receita visual 45% pinus médio + 30% carvão vegetal + 25% perlita grossa = 100%. A receita principal textual e a composição visual concordam: pinus 45%, carvão 30%, perlita 25%. A mistura com chips de coco preparados é uma alternativa qualitativa independente. A preferência por vaso plástico 5 estrelas, cachepô/placa 4 e barro 3 não está homologada. POWO confirma nome aceito e sinonímia Epidendrum concretum; pesquisa brasileira em Acta Botanica Brasilica (2022) confirma hábito epífito cespitoso e sombra, mas não compara substratos. Estudo brasileiro de biologia reprodutiva documenta inflorescências com até 150 flores, sem ensaio de substratos. Referências florísticas e taxonômicas não demonstram estes percentuais. Nenhum conjunto de até 25 recomendações específicas de produtores brasileiros foi verificado nesta passagem. Percentuais e estrelas NÃO HOMOLOGADOS."
+        notaEvidencia: "MACS 1.1 — revisão documental: Polystachya concreta é epífita frequentemente cespitosa, de pseudobulbos próximos; vaso pequeno bem perfurado é hipótese horticultural coerente, não resultado de comparação controlada. Receita visual 45% pinus médio + 30% carvão vegetal + 25% perlita grossa = 100%. A receita principal textual e a composição visual concordam: pinus 45%, carvão 30%, perlita 25%. A mistura com chips de coco médios lavados é uma alternativa qualitativa independente. A preferência por vaso plástico vasado 5 estrelas, cachepô/placa 4 e barro 3 não está homologada. POWO confirma nome aceito e sinonímia Epidendrum concretum; pesquisa brasileira em Acta Botanica Brasilica (2022) confirma hábito epífito cespitoso e sombra, mas não compara substratos. Estudo brasileiro de biologia reprodutiva documenta inflorescências com até 150 flores, sem ensaio de substratos. Referências florísticas e taxonômicas não demonstram estes percentuais. Nenhum conjunto de até 25 recomendações específicas de produtores brasileiros foi verificado nesta passagem. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
 
     errosComuns: [
