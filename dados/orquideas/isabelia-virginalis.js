@@ -25,7 +25,7 @@ export const isabeliaVirginalis = {
         horario: "Não permitido",
         observacoes: "Prefere luz indireta intensa, sem sol direto sobre a folhagem delicada. Folhas muito escuras e touceira frouxa indicam falta de luz; amarelecimento intenso ou pontas secas indicam excesso de sol ou desidratação."
     },
-    floracao: "A matriz consultada não comprova meses brasileiros universais de floração; a época pode variar conforme população e condições locais. As flores são pequenas, cerosas, de aproximadamente 1 cm e podem surgir isoladas ou em pares sobre pseudobulbos maduros.",
+    floracao: "No Brasil, Isabelia virginalis floresce principalmente no outono e no início do inverno. Há registros de plantas floridas em maio e junho em populações naturais, além de uma ocorrência documentada em fevereiro, indicando que floradas ocasionais podem surgir fora da época mais comum. Orquidários brasileiros também mencionam o inverno e, em alguns cultivos, a primavera e o verão. As hastes muito curtas produzem geralmente uma flor, ocasionalmente duas, de textura cerosa e cerca de 0,5 a 1 cm. As sépalas são branco-creme a rosa-pálidas, as pétalas são claras e o labelo branco pode apresentar discretos tons lilases. As flores não possuem perfume perceptível. Cultivadores brasileiros relatam duração aproximada de duas semanas, geralmente 14 a 15 dias, podendo variar conforme as condições do ambiente.",
     adubacao: "🌿 Orgânica: bokashi em quantidade mínima dentro de porta-adubo, sem contato com a touceira.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: somente poucos grânulos em cesto ou vaso raso e muito drenante.\n💦 Lavagem: passe água limpa pelo suporte periodicamente para evitar acúmulo de sais nas raízes finas.",
     rega: "No calor e durante a brotação, molhe completamente e permita secagem rápida antes da próxima rega. Plantas montadas podem precisar de água quase diária em dias secos e ventilados. No frio, aumente o intervalo, mas não deixe a colônia murchar por períodos prolongados.",
     suporte: "🥇 Placa de cortiça ou galho de casca rugosa.\n🥈 Madeira dura e durável, instalada horizontal ou levemente inclinada.\n🥉 Cesto muito raso e largo, com mistura grosseira e rizoma totalmente exposto.",
@@ -204,7 +204,7 @@ export const isabeliaVirginalis = {
         litoralQuente: { texto: "Desde que montada ou em recipiente muito raso e ventilado. Dê luz forte filtrada, regas frequentes no verão e secagem rápida entre elas." },
         montanhaFrio: { texto: "As noites amenas favorecem a espécie; apenas evite geadas e longos períodos de umidade fria sem ventilação." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [2, 5, 6],
     "selosCultivo": {
         "rega": { "nivel": "moderada" },
         "climaFloracao": { "faixa": "intermediario" }
