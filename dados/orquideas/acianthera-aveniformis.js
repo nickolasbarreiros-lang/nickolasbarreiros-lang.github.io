@@ -9,7 +9,7 @@ export const aciantheraAveniformis = {
     origem: "Brasil",
     regiao: "Mata Atlântica do Sul do Brasil, em ambientes florestais úmidos",
     habitat: "Micro-orquídea epífita de crescimento reptante, registrada em floresta tropical úmida.",
-    descricao: "Uma verdadeira miniatura da nossa flora! Esta micro-orquídea brasileira de hábito reptante (crescimento horizontal) encanta pelo porte diminuto e por suas florzinhas de apenas 3 mm. Seu nome científico (aveniformis) faz referência à semelhança com grãos de aveia. Apesar do tamanho delicado, não é uma planta de clima frio: encontrada em regiões de baixa altitude (cerca de 400 m), adapta-se bem a condições quentes a intermediárias quando recebe umidade equilibrada e boa ventilação.",
+    descricao: "Uma verdadeira miniatura da nossa flora! Esta micro-orquídea brasileira, atualmente aceita por Kew como Pabstiella aveniformis, cresce horizontalmente sobre cascas de árvores em ambientes florestais úmidos. Seu porte é diminuto, com segmentos vegetativos delicados e flores de aproximadamente 3 mm, discretas à primeira vista e fascinantes quando observadas de perto. O epíteto aveniformis faz referência à semelhança com grãos de aveia. Registros em altitudes relativamente baixas, em torno de 400 m, mostram que não deve ser tratada automaticamente como planta de clima frio. Em cultivo, o desafio é manter umidade frequente, luz difusa e circulação de ar sem deixar as raízes finas desidratarem.",
     caracteristicas: ["Micro-orquídea", "Crescimento reptante", "Flores ~3 mm", "Sul do Brasil", "~400 m", "Quente a intermediária", "Pleurothallidinae"],
     fotos: [
         "imagens/Acianthera aveniformis/Acianthera aveniformis1.jpeg",
@@ -72,7 +72,7 @@ export const aciantheraAveniformis = {
     errosComuns: ["Tratar a espécie como obrigatoriamente de clima frio.", "Cobrir rizoma e base dos ramicaules com esfagno.", "Deixar as raízes secarem completamente por vários dias.", "Manter substrato permanentemente encharcado.", "Cultivar em ambiente quente e abafado, sem circulação de ar.", "Aplicar fertilizante concentrado em raízes muito finas.", "Expor ao sol direto forte."],
     revisaoCientificaIAR: {
         "nome": "Acianthera aveniformis",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
+        "statusTaxonomico": "Pabstiella aveniformis é o nome aceito em POWO/Kew; Acianthera aveniformis é sinônimo, mantido como identificador histórico da ficha.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
         "morfologiaDimensoes": "Uma verdadeira miniatura da nossa flora! Esta micro-orquídea brasileira de hábito reptante (crescimento horizontal) encanta pelo porte diminuto e por suas florzinhas de apenas 3 mm. Seu nome científico (aveniformis) faz referência à semelhança com grãos de aveia. Apesar do tamanho delicado, não é uma planta de clima frio: encontrada em regiões de baixa altitude (cerca de 400 m)",
         "habitatAltitudeClima": "Micro-orquídea epífita de crescimento reptante, registrada em floresta tropical úmida. | Quente a intermediário, úmido e muito ventilado.",
