@@ -43,3 +43,14 @@ As duas alternativas diferem entre si e da R0; não atribuir percentuais ou resu
 
 ## Parecer final
 **Revisão documental concluída.** A fórmula quantitativa tem referência genérica rastreável, mas sua aplicação à espécie e substituição por pinus são inferências técnicas. **Homologação experimental específica: NÃO DEMONSTRADA.** Nenhuma pendência editorial identificada nesta matriz; experimentos futuros constituem investigação nova, não auditoria editorial adiada.
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** epífita unifoliada e pseudobulbosa, com raízes que exigem oxigenação, molhamento abundante durante brotação/enraizamento e secagem perceptível entre regas. Depois da maturação do pseudobulbo, intervalos podem aumentar sem impor seca absoluta. Espessura e ritmo de secagem das raízes do exemplar não foram medidos. Orientação da AOS sobre aeração e replante na emissão de raízes novas é genérica para Cattleyas, não ensaio específico da espécie.
+
+**Cultivo principal:** cachepô de madeira aberto, com rizoma descoberto e mistura proporcional ao recipiente; vaso de barro perfurado é alternativa. **Receita por volume:** 83,3% casca de pinus média/grossa (estrutura e macroporos) + 16,7% carvão vegetal horticultural (porosidade), total 100%. Adaptação da receita institucional 5:1 de casca de **abeto média** e carvão, sem validação experimental para *C. lueddemanniana*. Em montagem em placa/tronco não se usa a mistura volumétrica.
+
+**Alternativas qualitativas sem percentuais:** (1) casca de pinus média/grossa + carvão vegetal + esfagno de fibra longa solto; (2) casca de pinus média/grossa + carvão vegetal + brita fina. Distintas entre si e da principal, sem comparação quantitativa.
+
+**Conferências editoriais:** descrição reescrita de 92 para 96 palavras (faixa 90–120); retirado 'MACS 1.0' obsoleto do resumo de cultivo; corrigidas expressões 'Em Litoral de clima quente' e 'à Litoral de clima quente'; nota de evidência revisada para não atribuir à AOS recomendação específica não demonstrada na matriz nem declarar três fornecedores herdados como novamente auditados. Receita e itens visuais somam 83,3+16,7=100%; quatro caminhos de fotos registrados; IDC 36/100 e três estrelas coerentes com IDC 3.2; IAR e métodos preservados. Testes visuais reservados para auditoria final com ZIP por decisão do responsável.
+
+**Parecer:** revisão documental científica/editorial concluída dentro da evidência disponível; **zero receitas percentuais específicas verificadas**, meta de 25 fornecedores independentes não atingida e homologação experimental quantitativa não demonstrada.
