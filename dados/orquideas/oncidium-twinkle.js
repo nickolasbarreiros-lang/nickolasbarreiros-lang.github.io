@@ -35,17 +35,17 @@ export const oncidiumTwinkle = {
     "floracao": "A época varia conforme clone e microclima, mas costuma se concentrar do outono ao inverno, aproximadamente entre abril e agosto. Touceiras maduras podem emitir várias hastes ao mesmo tempo. O parentesco explica parte desse comportamento: O. cheirophorum floresce naturalmente no outono/inverno, enquanto O. sotoanum produz panículas perfumadas no mesmo período. As cores do grex variam do branco e creme ao amarelo, rosa, laranja e vermelho.",
     "adubacao": "🌿 Orgânica: pequena porção de bokashi na borda, sem contato com o coleto.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/3 da dose a cada 10–15 dias durante crescimento ativo.\n🧪 Osmocote: opcional, em quantidade mínima e afastado dos brotos.\n🚿 Flushing: lave o vaso com água pura mensalmente. Raízes finas sofrem rapidamente com acúmulo de sais; prefira doses fracas e regulares a aplicações concentradas.",
     "rega": "Mantenha umidade regular enquanto brotos e raízes novas estiverem ativos, permitindo secagem superficial entre regas. Após a maturação, reduza ligeiramente sem deixar os pequenos pseudobulbos enrugarem profundamente. Pseudobulbo enrugado com substrato seco sugere falta de água; enrugamento com substrato úmido indica provável perda de raízes. Brotos amolecendo pela base apontam abafamento, água retida ou rega tardia.",
-    "suporte": "🥇 Vaso plástico pequeno e bem perfurado: mantém umidade uniforme sem excesso.\n🥈 Cachepô compacto de madeira: oferece aeração e espaço para a touceira.\n🥉 Placa com esfagno fino: somente em ambientes de alta umidade e rega frequente.\nO recipiente deve ser proporcional, não apertado a ponto de esmagar raízes nem grande a ponto de permanecer molhado.",
+    "suporte": "Vaso plástico pequeno e bem perfurado: mantém umidade uniforme sem excesso.\nCachepô compacto de madeira: oferece aeração e espaço para a touceira.\nPlaca com esfagno fino: somente em ambientes de alta umidade e rega frequente.\nO recipiente deve ser proporcional, não apertado a ponto de esmagar raízes nem grande a ponto de permanecer molhado.",
     substrato: ["Casca de pinus fina/média + esfagno de fibra longa solto + carvão vegetal pequeno","Casca de pinus fina/média + esfagno de fibra longa solto + chips de coco pequenos preparados + carvão vegetal pequeno"],
     formasCultivo: {
         perfilVisual: "oncidium-twinkle-hibrido-compacto-raizes-capilares",
         destaque: "Vaso plástico",
         resumo: "Híbrido compacto de raízes capilares finas e touceira florífera. Vaso plástico pequeno, proporcional e bem perfurado mantém umidade uniforme sem excesso.",
         metodos: [
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno e bem perfurado, dimensionado para a touceira, sem comprimir raízes ou reter água por tempo excessivo." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô compacto e aberto, com aeração e regas ajustadas à secagem." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Modelo pequeno e bastante vazado, com atenção à umidade durante o crescimento ativo." },
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 3, status: "Uso condicional", texto: "Placa com esfagno em camada fina, apenas em ambiente úmido e com regas frequentes." }
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Preferência técnica provisória", texto: "Vaso pequeno e bem perfurado, dimensionado para a touceira, sem comprimir raízes ou reter água por tempo excessivo." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa provisória", texto: "Cachepô compacto e aberto, com aeração e regas ajustadas à secagem." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Modelo pequeno e bastante vazado, com atenção à umidade durante o crescimento ativo." },
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Uso condicional, sem classificação quantitativa", texto: "Placa com esfagno em camada fina, apenas em ambiente úmido e com regas frequentes." }
         ]
     },
     substratoVisual: {
