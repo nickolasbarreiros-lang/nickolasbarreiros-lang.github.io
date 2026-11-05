@@ -32,7 +32,7 @@ export const miltoniaSpectabilisVarMoreliana = {
         "horario": "Somente início da manhã",
         "observacoes": "Luz filtrada média a intensa. Folhas verde-médio a verde-claro, eventualmente com leve tonalidade amarelada, indicam boa luminosidade. Folhagem verde-escura e mole sugere sombra excessiva. Faça qualquer aumento de luz gradualmente."
     },
-    "floracao": "Predominantemente do verão ao outono. As hastes surgem junto aos pseudobulbos maduros e normalmente exibem flores grandes e muito vistosas, com pigmentação vinho a púrpura e amplo labelo intensamente marcado. Plantas vigorosas podem produzir mais de uma haste no mesmo ciclo.",
+    "floracao": "No cultivo brasileiro, Miltonia moreliana floresce especialmente na primavera, com setembro a novembro como referência sazonal; um estudo botânico também documentou um exemplar florido em fevereiro. A época varia conforme região e condições de cultivo, sem indicar floração contínua entre esses meses. Cada haste curta nasce junto a um pseudobulbo maduro e normalmente carrega uma única flor grande, com cerca de 10 cm. As sépalas e pétalas têm coloração vinho a púrpura-escura, por vezes quase negra, contrastando com o labelo amplo, rosa a púrpura, marcado por nervuras mais escuras. Há descrições de perfume perceptível durante o dia, com notas de rosas e especiarias, mas alguns produtores relatam flores sem aroma notável; a intensidade pode variar entre plantas. Um orquidário brasileiro indica floração de aproximadamente 25 dias, enquanto um relato de cultivo descreve cerca de 30 dias por flor; esses valores são referências, não duração garantida em todas as condições. Touceiras vigorosas podem emitir várias hastes no mesmo ciclo.",
     "adubacao": "🌿 Orgânica: bokashi em pequena porção, dentro de porta-adubo na borda do recipiente.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose, a cada 10–15 dias enquanto broto e pseudobulbo estiverem crescendo. Reduza após a maturação.\n🧪 Liberação lenta: poucos grânulos em vaso muito drenante, longe de raízes novas.\n🚿 Flushing: uma vez por mês, regue abundantemente somente com água pura para remover sais acumulados.",
     "rega": "Durante a brotação, mantenha umidade regular e permita apenas que a superfície comece a secar. Secagem prolongada nessa fase gera folhas sanfonadas permanentes. Antes de aumentar a água, examine as raízes: firmes e claras indicam falta de umidade; escuras, ocas ou moles revelam perda radicular e excesso de retenção. Depois que o pseudobulbo amadurecer, aumente discretamente o intervalo sem causar murchamento profundo.",
     "suporte": "🥇 Vaso plástico raso tipo cuia, com muitos furos: oferece espaço horizontal ao rizoma sem grande coluna de substrato.\n🥈 Vaso de barro raso: excelente para regiões úmidas e regas frequentes.\n🥉 Cesto de madeira: indicado para touceiras grandes e ambientes com umidade elevada.",
@@ -212,7 +212,7 @@ export const miltoniaSpectabilisVarMoreliana = {
         "litoralQuente": "Excelente adaptação no litoral quente sob 60–70% de sombra, substrato de rápida drenagem e ventilação contínua. O maior risco é umidade excessiva combinada com noites abafadas.",
         "montanhaFrio": "Desenvolve-se muito bem. Aumente a luz no inverno e reduza regas em dias frios e nublados, sem deixar raízes ativas secarem totalmente."
     },
-    "mesesFloracao": [],
+    "mesesFloracao": [2, 9, 10, 11],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "ameno" }
