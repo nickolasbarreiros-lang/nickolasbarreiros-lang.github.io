@@ -24,7 +24,7 @@ export const pleurothallisModestissima = {
         "imagens/Pleurothallis modestissima/Pleurothallis modestissima3.jpg",
         "imagens/Pleurothallis modestissima/Pleurothallis modestissima4.jpg"
     ],
-    "descricao": "Pequena, discreta e tipicamente brasileira, a Acianthera modestissima é uma micro-orquídea endêmica de Minas Gerais. Seu porte reduzido faz com que as flores pareçam detalhes escondidos entre as folhas, recompensando quem observa a planta de perto. Diferentemente de muitas micro-orquídeas associadas apenas a florestas frias e encharcadas, Kew a relaciona a ambientes tropicais sazonalmente secos; isso muda bastante a interpretação de cultivo. Ela aprecia umidade e raízes protegidas, mas também precisa de circulação de ar e de alguma secagem entre regas, especialmente quando o crescimento desacelera.",
+    "descricao": "Pequena, discreta e tipicamente brasileira, a Acianthera modestissima é uma micro-orquídea endêmica de Minas Gerais. Seu porte reduzido faz com que as flores pareçam detalhes escondidos entre as folhas, recompensando quem observa a planta de perto. Diferentemente de muitas micro-orquídeas associadas apenas a florestas frias e encharcadas, Kew a relaciona a ambientes tropicais sazonalmente secos, exigindo interpretação cuidadosa da rega e da ventilação.azonalmente secos; isso muda bastante a interpretação de cultivo. Ela aprecia umidade e raízes protegidas, mas também precisa de circulação de ar e de alguma secagem entre regas, especialmente quando o crescimento desacelera.",
     "origem": "Brasil",
     "regiao": "Sudeste brasileiro · Minas Gerais",
     "habitat": "Epífita · floresta tropical sazonalmente seca.",
@@ -151,7 +151,7 @@ export const pleurothallisModestissima = {
         "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
         "litoralQuente": {
             "indice": 47,
-            "estrelas": null,
+            "estrelas": 3,
             "fatores": {
                 "habitatNatural": {
                     "nota": 2,
@@ -185,7 +185,7 @@ export const pleurothallisModestissima = {
         },
         "montanhaFrio": {
             "indice": 96,
-            "estrelas": null,
+            "estrelas": 5,
             "fatores": {
                 "habitatNatural": {
                     "nota": 5,
