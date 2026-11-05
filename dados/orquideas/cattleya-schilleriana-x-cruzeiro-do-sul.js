@@ -33,7 +33,7 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
         "horario": "Início da manhã ou final da tarde",
         "observacoes": "Luz alta favorece pseudobulbos compactos, boa pigmentação e floradas mais abundantes. Folhas muito escuras indicam sombra; manchas secas e amarelecimento sugerem excesso de sol."
     },
-    "floracao": "Floresce principalmente da primavera ao verão, entre setembro e janeiro, após o amadurecimento das novas frentes. A haste surge no ápice do pseudobulbo e pode sustentar flores cerosas, perfumadas e de boa durabilidade. Por se tratar de cruzamento hortícola, coloração, quantidade de flores e intensidade do perfume podem variar entre plantas irmãs. Plantas mantidas em touceiras maiores tendem a apresentar floradas mais regulares que divisões pequenas.",
+    "floracao": "As flores deste cruzamento chamam atenção pelo aspecto ceroso, pelas pétalas e sépalas pintalgadas ou manchadas e pelo labelo de tons rosados a magenta. Como se trata de um híbrido produzido por sementes, a quantidade de flores por haste, o tamanho e a intensidade das cores podem mudar de uma planta para outra. O perfume também pode variar, e ainda não há uma descrição específica confiável de suas notas aromáticas. As flores podem ter boa consistência, mas não foi possível confirmar sua duração em dias para este cruzamento. A floração ocorre após a maturação dos novos pseudobulbos; por enquanto, faltam registros brasileiros específicos que permitam indicar meses com segurança.",
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, dentro de porta-adubo, durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/2 da dose a cada 10–15 dias enquanto houver brotos e raízes.\n🌱 Raízes novas: reduza a concentração durante as primeiras semanas para evitar queimaduras nas pontas.\n🌸 Maturação: diminua o nitrogênio após o pseudobulbo endurecer.\n🧪 Liberação lenta: Osmocote em dose baixa, afastado do broto e somente em vaso muito drenante.\n🚿 Flushing: irrigação abundante com água pura uma vez por mês.",
     "rega": "Molhe bem durante a formação dos brotos, mas só repita quando o substrato estiver próximo da secagem. Após a maturação, aumente o intervalo entre regas, sem deixar pseudobulbos murcharem excessivamente. Evite água acumulada nas bainhas, regas noturnas e o uso de cachepôs decorativos fechados. Se a planta murchar com o substrato ainda úmido, verifique imediatamente as raízes.",
     "suporte": "🥇 Vaso de barro pequeno e perfurado: fornece estabilidade e secagem rápida.\n🥈 Cestinho de madeira aberto: ideal para máxima aeração.\n🥉 Placa de madeira ou cortiça: indicada em orquidários úmidos e com rotina de rega frequente.\nO recipiente deve permitir apenas duas ou três novas frentes e o rizoma deve ser fixado sobre a superfície.",
@@ -205,13 +205,7 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
         "litoralQuente": "Em Litoral de clima quente, adapta-se muito bem. Use luz forte filtrada, ventilação contínua, regas matinais e recipiente que não retenha água durante as semanas chuvosas.",
         "montanhaFrio": "Proteja de frio prolongado e reduza regas nos dias nublados. Mantenha alta luminosidade para evitar brotos fracos."
     },
-    "mesesFloracao": [
-        9,
-        10,
-        11,
-        12,
-        1
-    ],
+    "mesesFloracao": [],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
