@@ -35,7 +35,7 @@ export const ludisiaDiscolor = {
     adubacao: "🌿 Orgânica: húmus bem curtido ou bokashi em quantidade mínima, aplicados na borda e afastados dos caules.\n💧 Foliar ou radicular: NPK equilibrado em cerca de 1/4 da dose a cada 15 dias durante crescimento ativo.\n🧪 Liberação lenta: poucos grânulos apenas em vasos bem drenados. Uma vez por mês, faça uma rega abundante somente com água limpa para reduzir sais, especialmente em vasos plásticos e ambientes internos.",
     rega: "Mantenha umidade regular e uniforme, regando quando a superfície começar a perder umidade. O substrato não deve secar totalmente por longos períodos nem permanecer encharcado. Como os caules caminham sobre a superfície, água parada junto aos nós favorece podridões. No inverno, apenas ajuste a frequência à menor evaporação, sem impor repouso seco.",
     suporte: "🥇 Vaso plástico largo e raso, permitindo expansão horizontal dos caules.\n🥈 Bacia ou jardineira baixa com boa drenagem.\n🥉 Terrário ventilado ou parcialmente aberto; recipientes herméticos e constantemente condensados aumentam o risco de fungos e podridões.",
-    substrato: ["Terra vegetal humosa, leve e peneirada + casca de pinus fina + perlita fina/média + pequena fração de chips de coco pequenos preparados","Terra vegetal humosa, leve e peneirada + fibra de coco fina preparada + perlita fina/média + pequena fração de casca de arroz carbonizada"],
+    substrato: ["Terra vegetal humosa, leve e peneirada + casca de pinus fina + perlita fina/média + pequena fração de chips de coco pequenos lavados","Terra vegetal humosa, leve e peneirada + fibra de coco fina lavada + perlita fina/média + pequena fração de casca de arroz carbonizada"],
     formasCultivo: {
         perfilVisual: "orquidea-joia-terrestre-rizoma-rastejante",
         destaque: "Vaso plástico",
@@ -51,8 +51,8 @@ export const ludisiaDiscolor = {
         titulo: "Substrato ideal",
         contexto: "Mistura orgânica arejada para vaso largo e raso",
         resumo: "Meio leve e humoso, com retenção moderada e boa drenagem, sem compactar nem encharcar os caules rastejantes.",
-        justificativa: "Ludisia discolor é terrestre e prefere substrato leve, rico em matéria orgânica e moderadamente úmido, mas bem drenado. Use terra vegetal humosa, peneirada e de origem confiável, sem excesso de argila ou sais. A fibra de coco fina preparada ajuda a conservar umidade, enquanto o pinus fino e a perlita mantêm a mistura solta. Evite terra compacta ou encharcável e mantenha os caules rastejantes sobre a superfície, cobrindo apenas as raízes.",
-        receitaTexto: "35% terra vegetal humosa, leve e peneirada + 25% fibra de coco fina preparada + 20% casca de pinus fina + 20% perlita fina/média.",
+        justificativa: "A mistura 35/25/20/20 é proposta horticultural não homologada experimentalmente para Ludisia discolor; a composição e a salinidade da terra vegetal comercial variam. Ludisia discolor é terrestre e prefere substrato leve, rico em matéria orgânica e moderadamente úmido, mas bem drenado. Use terra vegetal humosa, peneirada e de origem confiável, sem excesso de argila ou sais. A fibra de coco fina lavada ajuda a conservar umidade, enquanto o pinus fino e a perlita mantêm a mistura solta. Evite terra compacta ou encharcável e mantenha os caules rastejantes sobre a superfície, cobrindo apenas as raízes.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a espécie: 35% terra vegetal humosa, leve e peneirada + 25% fibra de coco fina lavada + 20% casca de pinus fina + 20% perlita fina/média.",
         perfil: ["Terrestre", "Rizoma rastejante", "Folhas aveludadas", "Umidade moderada", "Luz indireta"],
         comportamento: [
             { nome: "Retenção", valor: 4, icone: "💧" },
@@ -62,12 +62,12 @@ export const ludisiaDiscolor = {
         ],
         itens: [
             { asset: "terra-vegetal", nome: "Terra vegetal humosa, leve e peneirada", proporcao: "35%", nota: "base humosa", finalidade: "Fornece fração orgânica terrestre; usar material maturado, solto e de procedência confiável." },
-            { asset: "fibra-coco", nome: "Fibra de coco fina preparada", proporcao: "25%", nota: "umidade", finalidade: "Ajuda a manter umidade uniforme sem saturar o meio." },
+            { asset: "fibra-coco", nome: "Fibra de coco fina lavada", proporcao: "25%", nota: "umidade", finalidade: "Ajuda a manter umidade uniforme sem saturar o meio." },
             { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "20%", nota: "estrutura", finalidade: "Mantém textura e apoio para as raízes superficiais." },
             { asset: "perlita", nome: "Perlita fina/média", proporcao: "20%", nota: "aeração", finalidade: "Favorece drenagem e reduz compactação da fração humosa." }
         ],
         alerta: "Evitar sol direto, vaso sem drenagem, terrário hermético, substrato pesado e caules profundamente enterrados. Manter nós e caules sobre a superfície e cobrir apenas as raízes.",
-        notaEvidencia: "MACS 1.1 — revisão documental corrigida: Ludisia discolor é orquídea terrestre de caules rastejantes; priorizar vaso largo e raso com meio humoso, úmido sem encharcar e boa aeração. Receita principal proposta: 35% terra vegetal humosa leve e peneirada + 25% fibra de coco fina preparada + 20% pinus fino + 20% perlita fina/média = 100%; receitaTexto e itens visuais coincidem. Asset terra-vegetal cadastrado na biblioteca e arquivo SVG existente. As duas outras misturas são alternativas qualitativas sem percentuais homologados. Terra vegetal comercial apresenta variabilidade de composição, por isso exigir material maturado, leve, sem argila excessiva e sem sais. A American Orchid Society recomenda meio terrestre uniformemente úmido semelhante ao de violetas-africanas; a extensão da North Carolina State University recomenda substrato terrestre bem drenado e vaso largo e raso, sem validar esta fórmula. Nenhuma receita percentual específica de produtor brasileiro foi confirmada nesta passagem; meta até 25 não atingida. Estrelas e percentuais NÃO HOMOLOGADOS",
+        notaEvidencia: "MACS 1.1 — revisão documental corrigida: Ludisia discolor é orquídea terrestre de caules rastejantes; priorizar vaso largo e raso com meio humoso, úmido sem encharcar e boa aeração. Receita principal proposta: 35% terra vegetal humosa leve e peneirada + 25% fibra de coco fina lavada + 20% pinus fino + 20% perlita fina/média = 100%; receitaTexto e itens visuais coincidem. Asset terra-vegetal cadastrado na biblioteca e arquivo SVG existente. As duas outras misturas são alternativas qualitativas sem percentuais homologados. Terra vegetal comercial apresenta variabilidade de composição, por isso exigir material maturado, leve, sem argila excessiva e sem sais. A American Orchid Society recomenda meio terrestre uniformemente úmido semelhante ao de violetas-africanas; a extensão da North Carolina State University recomenda substrato terrestre bem drenado e vaso largo e raso, sem validar esta fórmula. Nenhuma receita percentual específica de produtor brasileiro foi confirmada nesta passagem; meta até 25 não atingida. Estrelas e percentuais NÃO HOMOLOGADOS",
     },
     errosComuns: "Expor ao sol direto; manter em sombra total sem claridade; enterrar profundamente os caules; usar substrato pesado ou encharcado; cultivar em vaso sem drenagem; manter terrário fechado e saturado; molhar abundantemente os nós no fim do dia; usar adubo concentrado; compactar esfagno sobre os caules; permitir acúmulo de sais.",
     dica: "Deixe os caules rastejarem sobre a superfície e cubra apenas as raízes. Os nós próximos ao ar emitem novos brotos com facilidade e podem ser usados para propagação. Um vaso mais largo do que profundo combina melhor com seu crescimento natural e reduz o risco de um centro permanentemente encharcado.",
@@ -208,13 +208,13 @@ export const ludisiaDiscolor = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Ao litoral quente em local sombreado, claro e ventilado. Use vaso largo, substrato humícola porém arejado e evite ambientes abafados e saturados durante noites quentes." },
-        montanhaFrio: { texto: "Em regiões serranas. Proteja de frio excessivo e reduza a rega apenas quando a evaporação cair, sem deixar o substrato secar completamente." }
+        litoralQuente: { texto: "Em clima quente, mantenha a planta em local sombreado, claro e ventilado. Use vaso largo, substrato humícola porém arejado e evite ambientes abafados e saturados durante noites quentes." },
+        montanhaFrio: { texto: "Em clima mais frio, proteja de temperaturas excessivamente baixas e reduza a rega apenas quando a evaporação cair, sem deixar o substrato secar completamente." }
     },
-    mesesFloracao: [8, 9, 10, 11],
+    mesesFloracao: [],
     "selosCultivo": {
-        "rega": { "nivel": "sazonal" },
-        "climaFloracao": { "faixa": "quente" }
+        "rega": { "nivel": "frequente", "regime": "uniforme" },
+        "climaFloracao": { "faixa": "intermediario" }
     },
         avaliacoes: {
         cultivo: 5,
